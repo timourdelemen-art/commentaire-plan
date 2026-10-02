@@ -93,27 +93,13 @@
   <section class="guided-section">
     <div class="archive-head">
       <div>
-        <div class="kicker">PARCOURS GUIDÉS</div>
-        <h2>Les sujets déjà transformés en entraînement.</h2>
+        <div class="kicker">ANNALLES TRANSFORMÉES EN EXERCICES</div>
+        <h2>Le sujet officiel devient un parcours de travail.</h2>
       </div>
-      <p>Ici, le sujet officiel devient un outil pédagogique : problématique, plan, transitions, réalisations et effets. Le corrigé ou l’analyse du site ne sont jamais présentés comme officiels.</p>
+      <p>Le catalogue ci-dessous est généré depuis l’ontologie du site. Chaque entrée indique son statut gratuit ou accès complet et ouvre un véritable champ de réponse suivi d’un retour IA bridé.</p>
     </div>
-
-    <div class="filters">
-      <button class="filter active" data-filter="all">Tout</button>
-      <button class="filter" data-filter="problématique">Problématiser</button>
-      <button class="filter" data-filter="plan">Plan</button>
-      <button class="filter" data-filter="transition">Transitions</button>
-      <button class="filter" data-filter="realisation">Réalisations</button>
-      <button class="filter" data-filter="effet">Effets</button>
-    </div>
-
-    <section class="corpus-index">
-      <article class="annale corpus-card" data-tags="problématique plan réalisation"><span class="badge">2026</span><span class="badge">Poésie</span><div class="micro">Amérique du Nord</div><h3>Leconte de Lisle — <em>Le Cœur de Hialmar</em></h3><p>Défaite physique → puissance héroïque.</p><p class="micro">À travailler : problématique · plan · réalisation</p><a class="official-link" href="annales/entrainement-annale.html?id=bac-2026-amerique-du-nord-general-commentaire-leconte-de-lisle-le-coeur-de-hialmar">Entraînement IA + chrono →</a> · <a class="official-link" href="bac-2026-hialmar.html">Parcours guidé →</a> · <a class="official-link" href="https://www.education.gouv.fr/sites/default/files/document/baccalaureat-general-2026-francais-epreuve-anticipee-516893.pdf">Sujet officiel ↗</a></article>
-      <article class="annale corpus-card" data-tags="problématique plan"><span class="badge">2025</span><span class="badge">Littérature d’idées</span><div class="micro">Amérique du Nord</div><h3>Montaigne — <em>Essais</em></h3><p>Jugement social → valeur propre.</p><p class="micro">À travailler : problématique · plan</p><a class="official-link" href="annales/entrainement-annale.html?id=bac-2025-amerique-du-nord-general-commentaire-montaigne-essais">Entraînement IA + chrono →</a> · <a class="official-link" href="bac-2025-montaigne.html">Parcours guidé →</a></article>
-      <article class="annale corpus-card" data-tags="plan transition"><span class="badge">2023</span><span class="badge">Théâtre</span><div class="micro">Amérique du Nord</div><h3>Jean Racine — <em>Bérénice</em>, IV, 5</h3><p>Amour partagé → séparation inévitable.</p><p class="micro">À travailler : plan · transition · effet</p><a class="official-link" href="annales/entrainement-annale.html?id=bac-2023-amerique-du-nord-general-commentaire-racine-berenice">Entraînement IA + chrono →</a> · <a class="official-link" href="bac-2023-racine-berenice.html">Parcours guidé →</a></article>
-      <article class="annale corpus-card" data-tags="problématique plan effet"><span class="badge">2021</span><span class="badge">Roman</span><div class="micro">Métropole</div><h3>Georges Perec — <em>Les Choses</em></h3><p>Réel médiocre → existence rêvée.</p><p class="micro">À travailler : problématique · plan · effet</p><a class="official-link" href="annales/entrainement-annale.html?id=bac-2021-metropole-general-commentaire-perec-les-choses">Entraînement IA + chrono →</a> · <a class="official-link" href="bac-2021-perec-les-choses.html">Parcours guidé →</a></article>
-    </section>
+    <div class="filters" id="annalesControls"></div>
+    <section class="corpus-index" id="transformedAnnales"></section>
   </section>
 
   <section class="offer-band">
@@ -124,6 +110,8 @@
   </section>
 </main>
 
+<script src="annales/catalogue-annales.js"></script>
+<script src="annales-index.js"></script>
 <script src="script.js"></script>
 <script src="site-nav.js"></script></body>
 </html>
