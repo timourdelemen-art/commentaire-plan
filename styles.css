@@ -346,3 +346,73 @@
   .anthology-links a{display:grid}.anthology-links a span{text-align:left}
   .context-tabs a{padding:12px 15px}
 }
+
+
+/* Funnel stratégique */
+.funnel-hero{display:grid;grid-template-columns:1.25fr .75fr;gap:64px;padding:76px 18px 66px;border-bottom:1px solid var(--rule)}
+.funnel-copy h1{font-size:72px;line-height:.98;letter-spacing:-3px;margin:20px 0 24px}
+.funnel-copy>p{font-size:27px;line-height:1.32;max-width:790px;margin:0}
+.funnel-actions{display:flex;align-items:center;gap:26px;margin-top:38px;flex-wrap:wrap}
+.funnel-proof{align-self:end;border-left:1px solid var(--rule);padding:26px 0 26px 32px}
+.funnel-proof>span{display:block;color:var(--red);font-size:12px;letter-spacing:2px;margin-bottom:16px}
+.funnel-proof strong{display:block;font-size:31px;line-height:1.12;font-weight:400}
+.funnel-proof p{font-size:17px;line-height:1.5}
+.section-intro{display:grid;grid-template-columns:.8fr 1.2fr;gap:50px;padding:52px 18px 30px}
+.section-intro h2{font-size:46px;line-height:1.04;font-weight:400;margin:10px 0}
+.section-intro>p{align-self:end;font-size:18px;line-height:1.5;margin:0}
+.funnel-choice,.funnel-anthologies,.funnel-method,.funnel-free{border-bottom:1px solid var(--rule)}
+.funnel-two{display:grid;grid-template-columns:1fr 1fr}
+.funnel-two>a{padding:42px 34px 46px 18px;border-top:1px solid var(--rule);min-height:330px}
+.funnel-two>a+a{border-left:1px solid var(--rule);padding-left:34px}
+.funnel-two>a span{font:12px 'American Typewriter','Courier New',monospace;letter-spacing:2px;color:var(--red)}
+.funnel-two>a h3{font-size:38px;font-weight:400;line-height:1.08;margin:18px 0}
+.funnel-two>a p{font-size:18px;line-height:1.5;max-width:570px}
+.funnel-two>a b{display:block;margin-top:28px;color:var(--red);font-weight:400}
+.funnel-two.compact>a{min-height:285px}
+.funnel-steps{display:grid;grid-template-columns:repeat(4,1fr)}
+.funnel-steps article{padding:32px 24px 38px 18px;border-top:1px solid var(--rule);min-height:250px}
+.funnel-steps article+article{border-left:1px solid var(--rule)}
+.funnel-steps span,.journey-number{font:13px 'American Typewriter','Courier New',monospace;color:var(--red)}
+.funnel-steps h3{font-size:30px;font-weight:400;margin:26px 0 12px}
+.funnel-steps p{font-size:17px;line-height:1.5}
+.free-trials{display:grid;grid-template-columns:repeat(3,1fr)}
+.free-trials a{padding:28px 18px;border-top:1px solid var(--rule);display:grid;gap:10px;min-height:130px}
+.free-trials a+a{border-left:1px solid var(--rule)}
+.free-trials strong{font-size:21px;font-weight:400}
+.free-trials span{color:var(--red)}
+.funnel-offer{display:grid;grid-template-columns:1fr auto;gap:40px;align-items:center;padding:50px 18px;background:#eee4d3;border-bottom:1px solid var(--rule)}
+.funnel-offer h2{font-size:42px;font-weight:400;margin:10px 0}
+.funnel-offer p{font-size:18px;line-height:1.5;max-width:760px}
+.funnel-offer.inner{margin-top:0}
+.funnel-teachers{display:grid;grid-template-columns:1fr auto;align-items:end;gap:40px;padding:50px 18px 65px}
+.funnel-teachers h2{font-size:40px;font-weight:400;margin:10px 0}
+.funnel-teachers p{font-size:18px}
+
+/* Parcours verticaux Bac / Brevet */
+.journey-block{display:grid;grid-template-columns:90px 1fr;gap:28px;padding:48px 18px;border-bottom:1px solid var(--rule)}
+.journey-block.primary{background:#eee4d3}
+.journey-number{font-size:15px;padding-top:8px}
+.journey-block h2{font-size:46px;font-weight:400;line-height:1.05;margin:10px 0 14px}
+.journey-block p{font-size:20px;line-height:1.5;max-width:880px}
+.journey-actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:22px}
+.journey-grid{display:grid;grid-template-columns:repeat(3,1fr);border-bottom:1px solid var(--rule)}
+.journey-grid.four{grid-template-columns:repeat(4,1fr)}
+.journey-grid a{padding:38px 28px;border-right:1px solid var(--rule);min-height:300px}
+.journey-grid a:last-child{border-right:0}
+.journey-grid span{font:13px 'American Typewriter','Courier New',monospace;color:var(--red)}
+.journey-grid h2{font-size:32px;font-weight:400;margin:24px 0 12px}
+.journey-grid p{font-size:17px;line-height:1.5}
+.journey-grid b{display:block;margin-top:24px;color:var(--red);font-weight:400}
+.journey-free{display:grid;grid-template-columns:1fr auto;gap:40px;align-items:end;padding:42px 18px;border-bottom:1px solid var(--rule)}
+.journey-free h2{font-size:36px;font-weight:400;margin:10px 0}
+.journey-free p{font-size:18px;line-height:1.5;max-width:760px}
+
+@media(max-width:900px){
+  .funnel-hero,.section-intro,.funnel-offer,.funnel-teachers,.journey-free{grid-template-columns:1fr}
+  .funnel-copy h1{font-size:54px}
+  .funnel-proof{border-left:0;border-top:1px solid var(--rule);padding-left:0}
+  .funnel-two,.funnel-steps,.free-trials,.journey-grid,.journey-grid.four{grid-template-columns:1fr}
+  .funnel-two>a+a,.funnel-steps article+article,.free-trials a+a{border-left:0}
+  .journey-grid a{border-right:0;border-bottom:1px solid var(--rule)}
+  .journey-block{grid-template-columns:50px 1fr}
+}
