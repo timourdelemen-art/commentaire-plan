@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded',()=> {
   if(!header) return;
 
   const path=(location.pathname.split('/').pop()||'index.html').toLowerCase();
-  const bacPages=['bac.html','anthologie-bac.html','gammes.html','dissertation.html','bac-oral.html','mode-bac.html'];
+  const bacPages=['bac.html','anthologie-bac.html','bac-commentaire.html','bac-dissertation.html','bac-oral.html','bac-mode-examen.html'];
   const brevetPages=['brevet.html','anthologie-brevet.html','brevet-comprehension.html','brevet-grammaire.html','brevet-reecriture.html','brevet-redaction.html'];
   const teacherPages=['enseignants.html','formation.html'];
   const is=(names)=>names.includes(path);
@@ -28,11 +28,11 @@ document.addEventListener('DOMContentLoaded',()=> {
     ],
     bac:[
       ['anthologie-bac.html','Anthologie Bac'],
-      ['gammes.html','Commentaire'],
-      ['dissertation.html','Dissertation'],
+      ['bac-commentaire.html','Commentaire'],
+      ['bac-dissertation.html','Dissertation'],
       ['bac-oral.html','Oral'],
       ['annales.html#bac','Annales'],
-      ['mode-bac.html','Mode Bac']
+      ['bac-mode-examen.html','Mode Bac']
     ],
     brevet:[
       ['anthologie-brevet.html','Anthologie Brevet'],
@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded',()=> {
   <nav class="context-tabs" aria-label="Exercices du parcours"><div class="wrap">${contextTabs}</div></nav>
   <div id="site-menu" class="site-menu" hidden>
     <div class="wrap site-menu-grid">
-      <div><span class="menu-kicker">Bac</span><a href="anthologie-bac.html">Anthologie Bac</a><a href="gammes.html">Commentaire</a><a href="dissertation.html">Dissertation</a><a href="bac-oral.html">Oral</a></div>
+      <div><span class="menu-kicker">Bac</span><a href="anthologie-bac.html">Anthologie Bac</a><a href="bac-commentaire.html">Commentaire</a><a href="bac-dissertation.html">Dissertation</a><a href="bac-oral.html">Oral</a></div>
       <div><span class="menu-kicker">Brevet</span><a href="anthologie-brevet.html">Anthologie Brevet</a><a href="brevet-comprehension.html">Compréhension</a><a href="brevet-grammaire.html">Grammaire</a><a href="brevet-reecriture.html">Réécriture</a><a href="brevet-redaction.html">Rédaction</a></div>
       <div><span class="menu-kicker">Ressources</span><a href="annales.html">Annales officielles</a><a href="bibliotheque.html">Bibliothèque</a><a href="enseignants.html">Enseignants</a><a href="offre.html">Accès gratuit / complet</a></div>
     </div>
