@@ -84,4 +84,5 @@ document.addEventListener('DOMContentLoaded',()=> {
     menu.hidden=open;
     document.body.classList.toggle('menu-open',!open);
   });
+  if(!location.pathname.includes('/annales/')){ const s=document.createElement('script'); s.src='free-response.js'; document.body.appendChild(s); }
 });
