@@ -454,3 +454,13 @@
   .procedure-principle,.procedure-family-grid,.procedure-mode-grid{grid-template-columns:1fr}
   .procedure-principle>div+div{border-left:0}
 }
+
+/* Ontologie annales + aide procédés ponctuelle */
+.manual-help{margin-top:18px;padding:20px;border:1px solid #9b9488;background:#f1eadf}
+.manual-help p{font-size:16px;line-height:1.5;max-width:850px}
+.manual-choice-list{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
+.manual-choice{background:transparent;border:1px solid #777;padding:9px 12px;font:13px 'American Typewriter','Courier New',monospace;cursor:pointer}
+.manual-choice:hover,.manual-choice.selected{border-color:var(--red);color:var(--red);background:#fff8f4}
+.annale-step-card textarea:disabled{opacity:.55}
+.anthology-card .meta{margin:14px 0}
+.anthology-card .badge{margin-right:6px}
