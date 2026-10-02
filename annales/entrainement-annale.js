@@ -124,7 +124,7 @@
         "Respecter exactement le nombre d’éléments demandé et le barème indiqué.",
         "Pour une question de compréhension, exiger la justification textuelle lorsqu’elle est demandée.",
         "Pour la grammaire et la réécriture, vérifier méthodiquement toutes les transformations concernées.",
-        "Pour une image non fournie à l’IA, signaler la limite et ne rien inventer."
+        "Pour une image non fournie au système d’analyse, signaler la limite et ne rien inventer."
       );
     }
     return core.join("\n- ");
@@ -167,14 +167,14 @@
       state.feedbacks[step.id]=f; save();
       if(window.AccessControl){window.AccessControl.consumeDiagnostic();window.AccessControl.renderBadge(els.accessStatus);}
     }catch(e){
-      els.feedback.textContent=e.message||"Le diagnostic IA n'est pas disponible pour le moment.";
+      els.feedback.textContent=e.message||"Le retour n'est pas disponible pour le moment.";
       els.feedback.classList.add("show");
     }finally{
-      els.ai.disabled=false; els.ai.textContent="Demander à l’IA";
+      els.ai.disabled=false; els.ai.textContent="Vérifier ma réponse";
     }
   }
 
-  els.ai.textContent="Demander à l’IA";
+  els.ai.textContent="Vérifier ma réponse";
   els.ai.addEventListener("click",askAI);
   els.next.addEventListener("click",()=>{
     const step=item.etapes[state.step];
