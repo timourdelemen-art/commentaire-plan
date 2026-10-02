@@ -159,3 +159,34 @@
 .summary-step p{font-size:17px;line-height:1.5;white-space:pre-wrap}
 .annale-training-links{display:flex;gap:18px;flex-wrap:wrap}
 @media(max-width:760px){.timer-bar{grid-template-columns:1fr 1fr}.timer-actions{grid-column:1/-1}.annale-step-card h2,.annale-summary h2{font-size:34px}}
+
+
+/* Oral : import d'extrait */
+.oral-source{padding:48px 18px;border-bottom:1px solid var(--rule)}
+.oral-source h2{font-size:42px;font-weight:400;margin:12px 0 10px}
+.oral-source>p{font-size:18px;line-height:1.5;max-width:820px}
+.oral-source-grid{display:grid;grid-template-columns:1fr 1fr 1.4fr;gap:18px;margin:28px 0}
+.oral-source-card{border:1px solid #8b857a;padding:22px;display:flex;flex-direction:column;gap:10px;background:#fbf8f1}
+.oral-source-card strong{font-size:21px}.oral-source-card span{font-size:14px;color:var(--muted)}
+.oral-source-card input{margin-top:auto}.oral-source-card textarea{width:100%;padding:12px;font:16px Georgia,'Times New Roman',serif}
+.oral-source-meta{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px}
+.oral-source-meta label{display:flex;flex-direction:column;gap:7px;font-size:14px}
+.oral-source-meta input{padding:12px;border:1px solid #8b857a;background:#fffdf8;font:16px Georgia,'Times New Roman',serif}
+#oral-source-status{margin-top:16px}
+
+/* Accès gratuit / premium */
+.access-status{padding:12px 18px;border-bottom:1px solid var(--rule);font-size:12px;letter-spacing:1.4px;color:var(--muted)}
+.access-status.premium{color:var(--red)}
+.paywall-box{padding:24px;background:#eee4d3;border-left:4px solid var(--red)}
+.paywall-box h3{font-size:28px;font-weight:400;margin:10px 0}
+.paywall-box p{font-size:17px;line-height:1.5}
+.offer-price{font-size:44px;font-weight:400}
+.offer-access-grid{display:grid;grid-template-columns:1fr 1fr;border-bottom:1px solid var(--rule)}
+.offer-access-grid article{padding:48px 36px;min-height:340px}
+.offer-access-grid article+article{border-left:1px solid var(--rule)}
+.offer-access-grid span{font:12px 'American Typewriter','Courier New',monospace;letter-spacing:2px;color:var(--red)}
+.offer-access-grid h2{font-size:38px;font-weight:400;margin:16px 0}
+.offer-access-grid p{font-size:19px;line-height:1.5}
+.offer-access-grid .premium{background:#eee4d3}
+.payment-coming{margin-top:26px;padding-top:20px;border-top:1px solid #999}
+@media(max-width:760px){.oral-source-grid,.oral-source-meta,.offer-access-grid{grid-template-columns:1fr}.offer-access-grid article+article{border-left:0;border-top:1px solid var(--rule)}}

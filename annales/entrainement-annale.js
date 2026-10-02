@@ -15,7 +15,7 @@
     summary:document.getElementById("summary"), summaryContent:document.getElementById("summaryContent"),
     restart:document.getElementById("restartExam"), stepTimer:document.getElementById("stepTimer"),
     totalTimer:document.getElementById("totalTimer"), timerToggle:document.getElementById("timerToggle"),
-    timerReset:document.getElementById("timerReset")
+    timerReset:document.getElementById("timerReset"), accessStatus:document.getElementById("accessStatus")
   };
 
   if (!item) {
@@ -35,6 +35,7 @@
   els.context.textContent=item.contexte;
   els.subject.href=item.sourceOfficielle;
   els.guided.href=item.parcours;
+  window.AccessControl?.renderBadge(els.accessStatus);
 
   const fmt=s=>String(Math.floor(s/60)).padStart(2,"0")+":"+String(s%60).padStart(2,"0");
   const save=()=>localStorage.setItem(storageKey,JSON.stringify(state));
@@ -77,6 +78,10 @@
   }
 
   async function askAI(){
+    if(window.AccessControl && !window.AccessControl.canUseAI()){
+      window.AccessControl.showPaywall(els.feedback);
+      return;
+    }
     const step=item.etapes[state.step];
     const answer=els.answer.value.trim();
     if(answer.length<8){els.feedback.textContent="Écrivez d'abord une réponse suffisamment développée.";els.feedback.classList.add("show");return;}
@@ -97,6 +102,7 @@
       const f=data.feedback;
       els.feedback.innerHTML="<strong>Diagnostic : "+f.diagnostic+"</strong><p><b>Point acquis :</b> "+f.point_acquis+"</p><p><b>À reprendre :</b> "+f.manque_principal+"</p><p><b>Question :</b> "+f.question_suivante+"</p>";
       els.feedback.classList.add("show");
+      if(window.AccessControl){window.AccessControl.consumeDiagnostic();window.AccessControl.renderBadge(els.accessStatus);}
     }catch(e){
       els.feedback.textContent=e.message||"Le diagnostic IA n'est pas disponible pour le moment.";
       els.feedback.classList.add("show");
