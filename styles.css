@@ -375,7 +375,7 @@
 .funnel-steps span,.journey-number{font:13px 'American Typewriter','Courier New',monospace;color:var(--red)}
 .funnel-steps h3{font-size:30px;font-weight:400;margin:26px 0 12px}
 .funnel-steps p{font-size:17px;line-height:1.5}
-.free-trials{display:grid;grid-template-columns:repeat(3,1fr)}
+.free-trials{display:grid;grid-template-columns:repeat(4,1fr)}
 .free-trials a{padding:28px 18px;border-top:1px solid var(--rule);display:grid;gap:10px;min-height:130px}
 .free-trials a+a{border-left:1px solid var(--rule)}
 .free-trials strong{font-size:21px;font-weight:400}
