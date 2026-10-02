@@ -190,3 +190,17 @@
 .offer-access-grid .premium{background:#eee4d3}
 .payment-coming{margin-top:26px;padding-top:20px;border-top:1px solid #999}
 @media(max-width:760px){.oral-source-grid,.oral-source-meta,.offer-access-grid{grid-template-columns:1fr}.offer-access-grid article+article{border-left:0;border-top:1px solid var(--rule)}}
+
+
+/* Présentation enseignants */
+.teacher-levels{display:grid;grid-template-columns:repeat(3,1fr);border-bottom:1px solid var(--rule)}
+.teacher-level{padding:38px 30px;border-top:1px solid var(--rule);min-height:230px}
+.teacher-level+.teacher-level{border-left:1px solid var(--rule)}
+.teacher-level span{font:13px 'American Typewriter','Courier New',monospace;color:var(--red);letter-spacing:2px;text-transform:uppercase}
+.teacher-level h2{font-size:36px;font-weight:400;margin:18px 0 12px}
+.teacher-level p{font-size:18px;line-height:1.5;margin:0}
+.teacher-sequence{display:grid;grid-template-columns:.8fr 1.2fr;gap:60px;padding:54px 18px;border-bottom:1px solid var(--rule)}
+.teacher-sequence h2{font-size:40px;font-weight:400;line-height:1.05;margin:12px 0}
+.sequence-spec{display:grid;grid-template-columns:1fr 1fr;gap:0 34px}
+.sequence-spec p{font-size:17px;line-height:1.5;margin:0;padding:18px 0;border-top:1px solid #b8b0a5}
+@media(max-width:760px){.teacher-levels,.teacher-sequence,.sequence-spec{grid-template-columns:1fr}.teacher-level+.teacher-level{border-left:0}.teacher-level{border-top:1px solid var(--rule)}}
