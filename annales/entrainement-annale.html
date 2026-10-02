@@ -27,7 +27,7 @@
     </div>
   </div>
   <aside class="side-note">
-    <p><strong>Principe :</strong> vous répondez d'abord. L'IA ne fournit ni problématique modèle, ni plan, ni commentaire.</p>
+    <p><strong>Principe :</strong> vous répondez d’abord. L’IA corrige l’étape en cours sans fabriquer le commentaire à votre place.</p>
     <p><strong>Chronomètre :</strong> temps conseillé pour chaque étape, puis reprise possible en mode examen complet.</p>
   </aside>
 </section>
@@ -51,10 +51,10 @@
     <p class="micro annale-hint" id="stepHint"></p>
     <textarea id="studentAnswer" rows="10" placeholder="Votre réponse…"></textarea>
     <div class="annale-training-actions">
-      <button class="btn red small" id="aiCheck">Diagnostic IA</button>
+      <button class="btn red small" id="aiCheck">Demander à l’IA</button>
       <button class="btn small" id="saveNext">Enregistrer et continuer →</button>
     </div>
-    <div class="ai-feedback annale-ai-feedback" id="aiFeedback" aria-live="polite"></div>
+    <div class="ai-feedback annale-ai-feedback" id="aiFeedback" aria-live="polite"></div>\n    <aside class="manual-help" id="manualHelp" hidden></aside>
   </article>
 
   <section class="annale-summary" id="summary" hidden>
