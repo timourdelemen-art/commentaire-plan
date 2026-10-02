@@ -13,5 +13,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Vérifier l’ontologie, les champs de réponse et l’IA
+      - name: Vérifier l’ontologie et les réponses libres
         run: node scripts/audit-annales.js
+      - name: Tester le moteur déployé
+        run: node scripts/test-live-feedback.mjs
