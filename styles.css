@@ -293,3 +293,56 @@
 
 /* Statut IA explicite */
 .ai-status-note{font:12px 'American Typewriter','Courier New',monospace;letter-spacing:.8px;color:var(--muted);text-transform:uppercase}
+
+
+/* Navigation pédagogique v3 */
+.top{height:auto}
+.mast-v3{height:98px;display:grid;grid-template-columns:280px 1fr auto auto;align-items:center;border-bottom:1px solid var(--rule);gap:24px}
+.mast-v3 .brand{font-size:34px;line-height:.9;padding-left:10px}
+.nav-portals{height:100%;display:grid;grid-template-columns:repeat(4,minmax(120px,1fr));align-items:stretch}
+.portal{display:flex;flex-direction:column;justify-content:center;padding:0 18px;border-left:1px solid #c4bbae}
+.portal:last-child{border-right:1px solid #c4bbae}
+.portal span{font-size:18px;line-height:1.1}
+.portal small{margin-top:5px;font:11px 'American Typewriter','Courier New',monospace;letter-spacing:.4px;color:var(--muted)}
+.portal.active{background:#eee4d3}
+.portal.active span{color:var(--red)}
+.nav-offer{background:var(--red);color:#fff;padding:13px 17px;white-space:nowrap}
+.menu-toggle{background:transparent;border:1px solid var(--rule);padding:12px 14px;font:14px Georgia,'Times New Roman',serif;cursor:pointer}
+.context-tabs{border-bottom:1px solid var(--rule);background:#f1eadf}
+.context-tabs .wrap{display:flex;align-items:center;gap:0;overflow-x:auto}
+.context-tabs a{flex:0 0 auto;padding:14px 22px;border-right:1px solid #c8bfb3;font:13px 'American Typewriter','Courier New',monospace;letter-spacing:.4px}
+.context-tabs a:first-child{border-left:1px solid #c8bfb3}
+.context-tabs a:hover,.context-tabs a.active{background:var(--ink);color:var(--paper)}
+.site-menu{border-bottom:1px solid var(--rule);background:#eee4d3;padding:30px 0}
+.site-menu-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:50px}
+.site-menu-grid>div{display:grid;gap:10px}
+.menu-kicker{font:12px 'American Typewriter','Courier New',monospace;letter-spacing:2px;color:var(--red);text-transform:uppercase;margin-bottom:6px}
+
+/* Anthologies */
+.anthology-grid{display:grid;grid-template-columns:repeat(2,1fr);border-bottom:1px solid var(--rule)}
+.anthology-card{padding:42px 34px;border-top:1px solid var(--rule);min-height:350px;display:flex;flex-direction:column}
+.anthology-card:nth-child(even){border-left:1px solid var(--rule)}
+.anthology-card.featured{background:#eee4d3}
+.anthology-meta{font:12px 'American Typewriter','Courier New',monospace;letter-spacing:1.4px;color:var(--red);text-transform:uppercase}
+.anthology-card h2{font-size:34px;font-weight:400;line-height:1.08;margin:18px 0 12px}
+.anthology-card>p{font-size:18px;line-height:1.45;margin:0 0 22px}
+.anthology-skills{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 24px}
+.anthology-skills span{border:1px solid #9f978b;padding:7px 10px;font:11px 'American Typewriter','Courier New',monospace}
+.anthology-card>a{color:var(--red);font-size:16px;margin-top:9px}
+.anthology-links{display:grid}
+.anthology-links a{display:flex;justify-content:space-between;gap:20px;padding:18px 0;border-top:1px solid #b8b0a5;font-size:17px}
+.anthology-links a span{color:var(--muted);text-align:right}
+
+@media(max-width:1050px){
+  .mast-v3{grid-template-columns:1fr auto auto;height:88px}
+  .nav-portals{display:none}
+  .context-tabs .wrap{width:100%;padding-left:16px}
+  .nav-offer{font-size:14px;padding:11px 13px}
+}
+@media(max-width:760px){
+  .mast-v3{grid-template-columns:1fr auto}.nav-offer{display:none}
+  .anthology-grid,.site-menu-grid{grid-template-columns:1fr}
+  .anthology-card:nth-child(even){border-left:0}
+  .anthology-links a{display:grid}.anthology-links a span{text-align:left}
+  .context-tabs a{padding:12px 15px}
+}
