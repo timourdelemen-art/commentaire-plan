@@ -34,12 +34,8 @@ document.addEventListener('DOMContentLoaded',()=> {
       ['annales.html#bac','Annales']
     ],
     brevet:[
-      ['anthologie-brevet.html','Anthologie Brevet'],
-      ['brevet-comprehension.html','Compréhension'],
-      ['brevet-grammaire.html','Grammaire'],
-      ['brevet-reecriture.html','Réécriture'],
-      ['brevet-redaction.html','Rédaction'],
-      ['annales.html#brevet','Annales']
+      ['anthologie-brevet.html','Sujets complets'],
+      ['brevet.html#exercices-cibles','Exercices ciblés']
     ],
     teachers:[
       ['enseignants.html#troisieme','3e'],
@@ -75,7 +71,7 @@ document.addEventListener('DOMContentLoaded',()=> {
   <div id="site-menu" class="site-menu" hidden>
     <div class="wrap site-menu-grid">
       <div><span class="menu-kicker">Bac</span><a href="anthologie-bac.html">Anthologie Bac</a><a href="bac-commentaire.html">Commentaire</a><a href="bac-commentaire-procedes.html">Atelier procédés</a><a href="manuel-procedes.html">Petit manuel</a><a href="bac-mode-examen.html">Mode Bac</a><a href="bac-dissertation.html">Dissertation</a><a href="bac-oral.html">Oral</a></div>
-      <div><span class="menu-kicker">Brevet</span><a href="anthologie-brevet.html">Anthologie Brevet</a><a href="brevet-comprehension.html">Compréhension</a><a href="brevet-grammaire.html">Grammaire</a><a href="brevet-reecriture.html">Réécriture</a><a href="brevet-redaction.html">Rédaction</a></div>
+      <div><span class="menu-kicker">Brevet</span><a href="anthologie-brevet.html">Sujets complets</a><a href="brevet.html#exercices-cibles">Exercices ciblés</a></div>
       <div><span class="menu-kicker">Ressources</span><a href="annales.html">Annales officielles</a><a href="manuel-procedes.html">Petit manuel des procédés</a><a href="bibliotheque.html">Bibliothèque</a><a href="enseignants.html">Enseignants</a><a href="offre.html">Accès gratuit / complet</a></div>
     </div>
   </div>`;
