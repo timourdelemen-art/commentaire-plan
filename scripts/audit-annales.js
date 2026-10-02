@@ -61,17 +61,48 @@ if(!js.includes("/api/analyze")) errors.push("Interface annale: moteur de retour
 
 
 // Audit de toutes les réponses libres du site public.
-const publicHtml=fs.readdirSync(".").filter(x=>x.endsWith(".html"));
+function walk(dir="."){
+  const out=[];
+  for(const name of fs.readdirSync(dir)){
+    if(name===".git"||name==="node_modules"||name==="worker") continue;
+    const p=dir==="."?name:dir+"/"+name;
+    const st=fs.statSync(p);
+    if(st.isDirectory()) out.push(...walk(p));
+    else out.push(p);
+  }
+  return out;
+}
+const allPublicFiles=walk(".");
+const publicHtml=allPublicFiles.filter(x=>x.endsWith(".html"));
 const excludedFeedbackPages=new Set(["contact.html"]);
 for(const p of publicHtml){
   const source=fs.readFileSync(p,"utf8");
-  const textareaCount=(source.match(/<textarea\b/gi)||[]).length;
-  if(!textareaCount || excludedFeedbackPages.has(p)) continue;
+  const textareas=[...source.matchAll(/<textarea\b[^>]*>/gi)].map(m=>m[0]);
+  if(!textareas.length || excludedFeedbackPages.has(p)) continue;
 
   const hasGlobalLayer=source.includes('site-nav.js');
   const hasOwnAnalyzer=source.includes('/api/analyze');
-  if(!hasGlobalLayer && !hasOwnAnalyzer){
-    errors.push(`${p}: ${textareaCount} réponse(s) libre(s) sans couche de retour`);
+  const hasDedicated=/(feedback\.js|writing-feedback\.js)/i.test(source);
+  const answerTextareas=textareas.filter(tag=>!/data-feedback=["']off["']/i.test(tag));
+  if(answerTextareas.length && !hasGlobalLayer && !hasOwnAnalyzer && !hasDedicated){
+    errors.push(`${p}: ${answerTextareas.length} réponse(s) libre(s) sans couche de retour`);
+  }
+
+  const disabledTextareas=textareas.filter(tag=>/data-feedback=["']off["']/i.test(tag));
+  if(disabledTextareas.length && p==="brevet-redaction.html" && !source.includes("brevet-writing-feedback.js")){
+    errors.push("brevet-redaction.html: composition sans bilan final dédié");
+  }
+}
+
+// Les zones de réponse créées dynamiquement par JavaScript doivent elles aussi être couvertes.
+const jsWithDynamicTextareas=allPublicFiles.filter(x=>x.endsWith(".js") && fs.readFileSync(x,"utf8").includes("<textarea"));
+for(const jsPath of jsWithDynamicTextareas){
+  const pages=publicHtml.filter(p=>fs.readFileSync(p,"utf8").includes(jsPath.split("/").pop()));
+  for(const p of pages){
+    const source=fs.readFileSync(p,"utf8");
+    if(!source.includes("site-nav.js") && !source.includes("/api/analyze")){
+      errors.push(`${p}: réponses libres dynamiques de ${jsPath} sans couche de retour`);
+    }
   }
 }
 
@@ -85,13 +116,19 @@ const visibleForbidden=[
   /parcours IA/i,
   /IA sous protocole/i
 ];
-const publicTextFiles=[...publicHtml,"access-control.js","annales-index.js","anthologie-bac.js","anthologie-brevet.js","exam-tools.js"];
+const publicTextFiles=[...publicHtml,"access-control.js","annales-index.js","anthologie-bac.js","anthologie-brevet.js","exam-tools.js","free-response.js","brevet-writing-feedback.js"];
 for(const p of publicTextFiles){
   if(!fs.existsSync(p)) continue;
   const source=fs.readFileSync(p,"utf8");
   for(const re of visibleForbidden){
     if(re.test(source)) errors.push(`${p}: mention publique interdite (${re})`);
   }
+}
+
+// Aucune page HTML publique ne doit nommer explicitement la technologie.
+for(const p of publicHtml){
+  const source=fs.readFileSync(p,"utf8");
+  if(/\bIA\b/i.test(source)) errors.push(`${p}: mention explicite « IA » encore présente dans la page publique`);
 }
 
 if(!fs.existsSync("free-response.js")) errors.push("Couche globale de retour libre absente");
