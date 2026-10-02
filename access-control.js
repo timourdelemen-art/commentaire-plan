@@ -55,7 +55,7 @@
       el.textContent="ACCÈS COMPLET";
       el.classList.add("premium");
     }else{
-      el.textContent=s.remaining+" DIAGNOSTIC"+(s.remaining>1?"S":"")+" IA GRATUIT"+(s.remaining>1?"S":"")+" RESTANT"+(s.remaining>1?"S":"");
+      el.textContent=s.remaining+" RETOUR"+(s.remaining>1?"S":"")+" GRATUIT"+(s.remaining>1?"S":"")+" RESTANT"+(s.remaining>1?"S":"");
     }
   }
 
@@ -64,7 +64,7 @@
     container.innerHTML=
       "<div class='paywall-box'>"+
       "<div class='kicker'>ACCÈS COMPLET</div>"+
-      "<h3>Vous avez utilisé vos 5 diagnostics IA gratuits.</h3>"+
+      "<h3>Vous avez utilisé vos 5 retours gratuits.</h3>"+
       "<p>Vous pouvez continuer à travailler le texte. Pour recevoir de nouveaux diagnostics, accéder aux parcours complets et aux futurs entraînements premium, il faut débloquer l’accès complet.</p>"+
       "<a class='btn red small' href='"+paywallUrl()+"'>Voir l’offre à 29 € →</a>"+
       "</div>";
