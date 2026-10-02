@@ -56,12 +56,56 @@ const js=fs.existsSync("annales/entrainement-annale.js")?fs.readFileSync("annale
 for(const needle of ['id="studentAnswer"','id="aiCheck"','id="aiFeedback"']){
   if(!html.includes(needle)) errors.push(`Interface annale: ${needle} absent`);
 }
-if(!js.includes("Demander à l’IA")) errors.push("Interface annale: libellé « Demander à l’IA » absent");
-if(!js.includes("/api/analyze")) errors.push("Interface annale: endpoint IA absent");
+if(!html.includes("Vérifier ma réponse")) errors.push("Interface annale: bouton de vérification absent");
+if(!js.includes("/api/analyze")) errors.push("Interface annale: moteur de retour absent");
+
+
+// Audit de toutes les réponses libres du site public.
+const publicHtml=fs.readdirSync(".").filter(x=>x.endsWith(".html"));
+const excludedFeedbackPages=new Set(["contact.html"]);
+for(const p of publicHtml){
+  const source=fs.readFileSync(p,"utf8");
+  const textareaCount=(source.match(/<textarea\b/gi)||[]).length;
+  if(!textareaCount || excludedFeedbackPages.has(p)) continue;
+
+  const hasGlobalLayer=source.includes('site-nav.js');
+  const hasOwnAnalyzer=source.includes('/api/analyze');
+  if(!hasGlobalLayer && !hasOwnAnalyzer){
+    errors.push(`${p}: ${textareaCount} réponse(s) libre(s) sans couche de retour`);
+  }
+}
+
+// L'assistance ne doit pas se nommer elle-même dans l'interface publique.
+const visibleForbidden=[
+  /IA brid[ée]e?/i,
+  /Demander à l[’']IA/i,
+  /diagnostic IA/i,
+  /aide IA/i,
+  /accompagnement IA/i,
+  /parcours IA/i,
+  /IA sous protocole/i
+];
+const publicTextFiles=[...publicHtml,"access-control.js","annales-index.js","anthologie-bac.js","anthologie-brevet.js","exam-tools.js"];
+for(const p of publicTextFiles){
+  if(!fs.existsSync(p)) continue;
+  const source=fs.readFileSync(p,"utf8");
+  for(const re of visibleForbidden){
+    if(re.test(source)) errors.push(`${p}: mention publique interdite (${re})`);
+  }
+}
+
+if(!fs.existsSync("free-response.js")) errors.push("Couche globale de retour libre absente");
+else {
+  const free=fs.readFileSync("free-response.js","utf8");
+  if(!free.includes("Vérifier ma réponse")) errors.push("Couche globale: bouton de vérification absent");
+  if(!free.includes("/api/analyze")) errors.push("Couche globale: moteur de retour absent");
+}
+const worker=fs.existsSync("worker/src/index.js")?fs.readFileSync("worker/src/index.js","utf8"):"";
+if(!worker.includes('exercise === "free-response"')) errors.push("Worker: réponses libres génériques non prises en charge");
 
 console.log(`Annales cataloguées: ${Object.keys(cat).length}`);
 console.log(`Étapes/exercices: ${steps}`);
-console.log(`Étapes avec IA: ${aiSteps}/${steps}`);
+console.log(`Étapes avec retour: ${aiSteps}/${steps}`);
 console.log(`Étapes gratuites: ${freeSteps}`);
 console.log(`Étapes premium: ${premiumSteps}`);
 if(warnings.length){
@@ -73,4 +117,4 @@ if(errors.length){
   errors.forEach(x=>console.error(" - "+x));
   process.exit(1);
 }
-console.log("\nAUDIT OK — chaque étape cataloguée possède une réponse attendue côté interface et un passage par le moteur IA.");
+console.log("\nAUDIT OK — chaque étape cataloguée possède une réponse attendue côté interface et un retour actif ; les réponses libres du site sont également couvertes.");
