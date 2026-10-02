@@ -1,0 +1,18 @@
+name: Test du retour déployé
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Déployer le Worker IA"]
+    types: [completed]
+
+jobs:
+  live:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Tester trois parcours réels
+        run: node scripts/test-live-feedback.mjs
