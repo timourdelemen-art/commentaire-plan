@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded',()=>{
         const stream=await navigator.mediaDevices.getUserMedia({audio:true});
         chunks=[];rec=new MediaRecorder(stream);
         rec.ondataavailable=e=>{if(e.data.size)chunks.push(e.data)};
-        rec.onstop=()=>{const blob=new Blob(chunks,{type:rec.mimeType||'audio/webm'});audio.src=URL.createObjectURL(blob);audio.style.display='block';status.textContent='Enregistrement prêt à être réécouté. Évaluation IA à connecter.';stream.getTracks().forEach(t=>t.stop());};
+        rec.onstop=()=>{const blob=new Blob(chunks,{type:rec.mimeType||'audio/webm'});audio.src=URL.createObjectURL(blob);audio.style.display='block';status.textContent='Enregistrement prêt à être réécouté. Évaluation à connecter.';stream.getTracks().forEach(t=>t.stop());};
         rec.start();btn.textContent='Arrêter';status.textContent='Enregistrement en cours…';
       }catch(e){status.textContent='Le microphone n’a pas pu être ouvert.';}
     });
