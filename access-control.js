@@ -45,7 +45,8 @@
   }
 
   function paywallUrl(){
-    return "../offre.html?source=annale";
+    const inSubdir=location.pathname.includes("/annales/");
+    return (inSubdir?"../":"")+"offre.html?source=ia";
   }
 
   function renderBadge(el){
