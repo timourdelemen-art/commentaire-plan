@@ -3,5 +3,69 @@
 <main class="wrap"><section class="pagehead"><div><div class="kicker">LABORATOIRE · PROTOTYPE IA</div><h1>Écrivez.<br>La méthode vous répond.</h1><p class="lede">Premier test de réponse libre : le moteur analyse votre raisonnement avec les critères de L’Atelier, sans chercher seulement des mots-clés.</p></div><aside class="side-note"><p><strong>Prototype expérimental.</strong> Votre réponse est envoyée au moteur d’analyse uniquement lorsque vous cliquez sur « Analyser ». La clé d’accès reste protégée côté serveur et n’est jamais transmise à votre navigateur.</p></aside></section>
 <section class="ai-lab"><div class="label">GAMME 01 · PROBLÉMATISER</div><h2>Le Cœur de Hialmar</h2><p class="ai-context">Hialmar est grièvement blessé après une bataille où ses compagnons sont morts. Pourtant, agonisant, il continue à commander et décide lui-même de ce qui adviendra de son cœur.</p><h3>Formulez une problématique qui permette d’expliquer ce qui, dans cette situation, demande réellement une explication.</h3><textarea id="ai-answer" rows="7" placeholder="Écrivez votre problématique, puis expliquez-la en une ou deux phrases si vous le souhaitez."></textarea><div class="ai-actions"><button class="btn red" id="ai-send">Analyser ma réponse <span>→</span></button><span id="ai-status" class="micro"></span></div><div id="ai-feedback" class="ai-feedback" aria-live="polite"></div></section>
 </main><script src="script.js"></script><script>
-(function(){const b=document.getElementById('ai-send'),a=document.getElementById('ai-answer'),f=document.getElementById('ai-feedback'),s=document.getElementById('ai-status');b.onclick=async()=>{const v=a.value.trim();if(v.length<8){f.innerHTML='<strong>Écrivez d’abord une véritable tentative.</strong>';f.classList.add('show');return;}b.disabled=true;s.textContent='Analyse en cours…';f.classList.remove('show');try{const controller=new AbortController();const timer=setTimeout(()=>controller.abort(),35000);const r=await fetch('https://atelier-commentaire-ia.timour-delemen.workers.dev/api/analyze',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({exercise:'hialmar-problematique',answer:v}),signal:controller.signal});clearTimeout(timer);const d=await r.json();if(d.ok){f.textContent=d.text;}else if(d.setup){f.innerHTML='<strong>Le moteur IA n’est pas disponible.</strong><p>Veuillez réessayer dans un instant.</p>';}else{f.textContent=d.error||'Une erreur est survenue.';}f.classList.add('show');}catch(e){f.textContent=(e&&e.name==='AbortError')?'La connexion à OpenAI a dépassé 35 secondes. Aucun besoin d’attendre davantage : le test a échoué et doit être diagnostiqué.':'Le moteur IA ne répond pas. Veuillez réessayer dans un instant.';f.classList.add('show');}finally{b.disabled=false;s.textContent='';}}})();
+(function(){
+  const b=document.getElementById('ai-send');
+  const a=document.getElementById('ai-answer');
+  const f=document.getElementById('ai-feedback');
+  const s=document.getElementById('ai-status');
+
+  function esc(v){
+    return String(v??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+  }
+
+  function renderFeedback(d){
+    if(d && d.feedback){
+      const x=d.feedback;
+      f.innerHTML=
+        '<p><strong>Diagnostic : '+esc(x.diagnostic)+'</strong></p>'+
+        '<p><strong>Point acquis :</strong> '+esc(x.point_acquis)+'</p>'+
+        '<p><strong>À reprendre :</strong> '+esc(x.manque_principal)+'</p>'+
+        '<p><strong>Question :</strong> '+esc(x.question_suivante)+'</p>';
+      return;
+    }
+    f.textContent=d && d.text ? d.text : 'Le moteur a répondu dans un format inattendu.';
+  }
+
+  b.onclick=async()=>{
+    const v=a.value.trim();
+    if(v.length<8){
+      f.innerHTML='<strong>Écris d’abord une véritable tentative.</strong>';
+      f.classList.add('show');
+      return;
+    }
+    b.disabled=true;
+    s.textContent='Analyse en cours…';
+    f.classList.remove('show');
+
+    try{
+      const controller=new AbortController();
+      const timer=setTimeout(()=>controller.abort(),35000);
+      const r=await fetch('https://atelier-commentaire-ia.timour-delemen.workers.dev/api/analyze',{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({exercise:'hialmar-problematique',answer:v}),
+        signal:controller.signal
+      });
+      clearTimeout(timer);
+      const d=await r.json();
+
+      if(d.ok){
+        renderFeedback(d);
+      }else if(d.setup){
+        f.innerHTML='<strong>Le moteur IA n’est pas disponible.</strong><p>Réessaie dans un instant.</p>';
+      }else{
+        f.textContent=d.error||'Une erreur est survenue.';
+      }
+      f.classList.add('show');
+    }catch(e){
+      f.textContent=(e&&e.name==='AbortError')
+        ?'La connexion a dépassé 35 secondes. Le test doit être diagnostiqué.'
+        :'Le moteur IA ne répond pas. Réessaie dans un instant.';
+      f.classList.add('show');
+    }finally{
+      b.disabled=false;
+      s.textContent='';
+    }
+  };
+})();
 </script></body></html>
