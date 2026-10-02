@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Entraînement sur annale — BAC & BREVET FRANÇAIS</title>
-<meta name="description" content="Entraînement progressif sur une annale officielle avec chronomètre et diagnostic IA bridé.">
+<meta name="description" content="Entraînement progressif sur une annale officielle avec chronomètre et retour personnalisé.">
 <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
 <header class="top"><div class="wrap mast">
 <a class="brand" href="../index.html">BAC & BREVET<br>FRANÇAIS</a>
-<div class="tag type">Sujet officiel.<br>IA sous protocole.</div>
+<div class="tag type">Sujet officiel.<br>Parcours guidé.</div>
 <nav class="nav"><a href="../index.html">Accueil</a><a href="../bac.html">Bac</a><a href="../brevet.html">Brevet</a><a class="active" href="../annales.html">Annales</a></nav>
 <a class="contact" href="../contact.html">Nous contacter</a>
 </div></header>
@@ -27,7 +27,7 @@
     </div>
   </div>
   <aside class="side-note">
-    <p><strong>Principe :</strong> vous répondez d’abord. L’IA corrige l’étape en cours sans fabriquer le commentaire à votre place.</p>
+    <p><strong>Principe :</strong> vous répondez d’abord. Le retour porte uniquement sur l’étape en cours et vous aide à la reprendre.</p>
     <p><strong>Chronomètre :</strong> temps conseillé pour chaque étape, puis reprise possible en mode examen complet.</p>
   </aside>
 </section>
@@ -51,7 +51,7 @@
     <p class="micro annale-hint" id="stepHint"></p>
     <textarea id="studentAnswer" rows="10" placeholder="Votre réponse…"></textarea>
     <div class="annale-training-actions">
-      <button class="btn red small" id="aiCheck">Demander à l’IA</button>
+      <button class="btn red small" id="aiCheck">Vérifier ma réponse</button>
       <button class="btn small" id="saveNext">Enregistrer et continuer →</button>
     </div>
     <div class="ai-feedback annale-ai-feedback" id="aiFeedback" aria-live="polite"></div>\n    <aside class="manual-help" id="manualHelp" hidden></aside>
