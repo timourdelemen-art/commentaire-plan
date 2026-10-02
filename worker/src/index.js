@@ -4,26 +4,95 @@ const ALLOWED_ORIGINS = new Set([
   "https://commentaire-dissertation.netlify.app"
 ]);
 
-const EXERCISES = {
+const CORE_EXERCISES = {
   "hialmar-problematique": {
     title: "Le Cœur de Hialmar — problématique",
-    task: "L'élève doit formuler une problématique qui fasse apparaître l'écart entre la défaite physique / l'agonie du héros et la puissance qu'il continue pourtant d'exercer par sa parole et ses décisions.",
-    allowed: [
-      "évaluer si les deux pôles du problème sont présents",
-      "signaler un seul manque principal",
-      "nommer brièvement un point acquis",
-      "poser une seule question de relance"
-    ],
-    forbidden: [
-      "donner une problématique modèle",
-      "réécrire entièrement la réponse de l'élève",
-      "proposer un plan",
-      "proposer des parties ou sous-parties",
-      "rédiger un commentaire",
-      "multiplier les conseils",
-      "donner une liste de procédés"
-    ]
+    task: "L'élève doit formuler une problématique qui fasse apparaître l'écart entre la défaite physique / l'agonie du héros et la puissance qu'il continue pourtant d'exercer par sa parole et ses décisions."
   }
+};
+
+const ANNALES = {
+  "bac-2026-amerique-du-nord-general-commentaire-leconte-de-lisle-le-coeur-de-hialmar": {
+    title: "Le Cœur de Hialmar",
+    author: "Leconte de Lisle",
+    stages: {
+      donne: "Identifier uniquement la situation de départ et les données explicites.",
+      attente: "Formuler l'attente la plus simple produite par la situation initiale.",
+      transformation: "Faire apparaître ce que le texte produit pourtant, sans donner encore les procédés.",
+      problematique: "Construire une question qui conserve la défaite physique et la puissance héroïque persistante.",
+      plan: "Proposer deux ou trois réponses nécessaires à la problématique, sans parties-thèmes ni catalogue de procédés.",
+      transitions: "Formuler une question simple qui dit ce que la réponse précédente n'explique pas encore.",
+      preuve: "Construire une chaîne réalisation → élément textuel → effet, sans sauter d'étape."
+    }
+  },
+  "bac-2025-amerique-du-nord-general-commentaire-montaigne-essais": {
+    title: "Essais — Sur l'inégalité entre les hommes",
+    author: "Montaigne",
+    stages: {
+      donne: "Identifier l'objet explicite de la réflexion de Montaigne.",
+      attente: "Formuler le critère social spontané que le texte met en cause.",
+      transformation: "Faire apparaître le déplacement vers un jugement fondé sur la valeur propre.",
+      problematique: "Construire une question qui conserve l'opposition entre apparence sociale et valeur propre.",
+      plan: "Proposer deux ou trois réponses nécessaires qui expliquent ce déplacement du jugement.",
+      transitions: "Formuler une question simple qui dit ce que la réponse précédente n'explique pas encore.",
+      preuve: "Construire une chaîne réalisation → élément textuel → effet."
+    }
+  },
+  "bac-2023-amerique-du-nord-general-commentaire-racine-berenice": {
+    title: "Bérénice, IV, 5",
+    author: "Jean Racine",
+    stages: {
+      donne: "Identifier la situation dramatique explicite.",
+      attente: "Formuler ce qu'on attendrait normalement d'un aveu amoureux partagé.",
+      transformation: "Faire apparaître que l'intensité de l'amour rend pourtant la séparation plus certaine et douloureuse.",
+      problematique: "Construire une question qui conserve amour partagé et séparation inévitable.",
+      plan: "Proposer deux ou trois réponses nécessaires qui expliquent le rapport entre amour et impossibilité.",
+      transitions: "Formuler une question simple qui dit ce que la réponse précédente n'explique pas encore.",
+      preuve: "Construire une chaîne réalisation → élément textuel → effet à partir de la parole dramatique."
+    }
+  },
+  "bac-2021-metropole-general-commentaire-perec-les-choses": {
+    title: "Les Choses, chapitre 2",
+    author: "Georges Perec",
+    stages: {
+      donne: "Identifier ce que le passage décrit concrètement.",
+      attente: "Formuler ce qu'on attendrait d'une simple description de logement.",
+      transformation: "Faire apparaître que la description devient le révélateur d'un désir d'existence.",
+      problematique: "Construire une question qui conserve le réel médiocre et la vie rêvée.",
+      plan: "Proposer deux ou trois réponses nécessaires qui expliquent le passage du réel au désir.",
+      transitions: "Formuler une question simple qui dit ce que la réponse précédente n'explique pas encore.",
+      preuve: "Construire une chaîne réalisation → élément textuel → effet."
+    }
+  }
+};
+
+const GENERIC_ALLOWED = [
+  "évaluer uniquement l'opération demandée",
+  "nommer brièvement un point acquis",
+  "signaler un seul manque principal",
+  "poser une seule question de relance",
+  "demander une preuve textuelle si la réponse reste générale"
+];
+
+const GENERIC_FORBIDDEN = [
+  "donner une problématique modèle",
+  "réécrire entièrement la réponse de l'élève",
+  "proposer un plan complet",
+  "rédiger une partie ou un commentaire",
+  "donner plusieurs conseils à la fois",
+  "donner une liste de procédés non demandée",
+  "donner une note",
+  "présenter une analyse comme officielle"
+];
+
+const FALLBACK_BY_STAGE = {
+  donne: ["Tu as formulé une tentative.", "Il faut rester plus près des données explicites du texte.", "Qu'est-ce qui est objectivement donné dans la situation, avant toute interprétation ?"],
+  attente: ["Tu as identifié une attente possible.", "Il faut la rendre plus simple et directement liée à la situation de départ.", "Qu'attendrait-on normalement d'une telle situation avant de lire la suite ?"],
+  transformation: ["Tu as repéré un changement.", "Il faut rendre plus nette l'opposition entre l'attente et ce que le texte produit.", "Qu'est-ce que le texte fait apparaître malgré ce qu'on aurait attendu ?"],
+  problematique: ["Tu as formulé une vraie question.", "Il faut faire apparaître plus nettement les deux pôles du problème.", "Quels sont les deux éléments que ta question doit garder ensemble ?"],
+  plan: ["Tu proposes des réponses.", "Il faut vérifier qu'elles répondent à la problématique plutôt qu'elles ne nomment des thèmes ou procédés.", "Chaque partie répond-elle réellement à la question posée ?"],
+  transitions: ["Tu as essayé d'enchaîner les réponses.", "Il faut formuler ce que la réponse précédente n'explique pas encore.", "Quelle question reste ouverte après cette partie ?"],
+  preuve: ["Tu proposes une analyse.", "Il faut distinguer plus nettement réalisation, élément textuel et effet.", "Que fait le texte, quel élément précis le montre, et qu'est-ce que cela change ?"]
 };
 
 function cors(origin) {
@@ -47,12 +116,13 @@ function clean(s, max) {
   return String(s ?? "").replace(/\s+/g, " ").trim().slice(0, max);
 }
 
-function safeFallback() {
+function safeFallback(stage = "problematique") {
+  const f = FALLBACK_BY_STAGE[stage] || FALLBACK_BY_STAGE.problematique;
   return {
     diagnostic: "à reprendre",
-    point_acquis: "Tu as formulé une véritable tentative.",
-    manque_principal: "Il faut faire apparaître plus nettement les deux éléments qui semblent se contredire dans la situation.",
-    question_suivante: "Qu’attend-on normalement d’un guerrier vaincu et agonisant, et que continue pourtant à faire Hialmar ?"
+    point_acquis: f[0],
+    manque_principal: f[1],
+    question_suivante: f[2]
   };
 }
 
@@ -68,17 +138,18 @@ function validateFeedback(value) {
   if (!question.endsWith("?")) question += "?";
 
   const all = (point + " " + manque + " " + question).toLowerCase();
-  const banned = [
+  const bannedPhrases = [
     "établissement",
     "nécessité",
     "problématique modèle",
     "plan complet",
-    "commentaire rédigé",
-    "i.",
-    "ii.",
-    "iii."
+    "commentaire rédigé"
   ];
-  if (banned.some(x => all.includes(x))) return null;
+  if (bannedPhrases.some(x => all.includes(x))) return null;
+
+  // Bloque un vrai plan numéroté sans faux positif sur des mots comme « oui. ».
+  const planPattern = /(^|\s)(i|ii|iii|iv|v)\.\s/;
+  if (planPattern.test(all)) return null;
 
   return {
     diagnostic,
@@ -96,6 +167,38 @@ function extractOutputText(data) {
     }
   }
   return "";
+}
+
+function buildSpec(body) {
+  const exercise = clean(body.exercise, 80);
+
+  if (exercise === "annale-guided") {
+    const context = body.context && typeof body.context === "object" ? body.context : {};
+    const annaleId = clean(context.annale_id, 180);
+    const stage = clean(context.etape, 40);
+    const annale = ANNALES[annaleId];
+    if (!annale || !annale.stages[stage]) return null;
+
+    return {
+      exercise,
+      stage,
+      title: annale.author + " — " + annale.title,
+      task: annale.stages[stage],
+      allowed: GENERIC_ALLOWED,
+      forbidden: GENERIC_FORBIDDEN
+    };
+  }
+
+  const core = CORE_EXERCISES[exercise];
+  if (!core) return null;
+  return {
+    exercise,
+    stage: "problematique",
+    title: core.title,
+    task: core.task,
+    allowed: GENERIC_ALLOWED,
+    forbidden: GENERIC_FORBIDDEN
+  };
 }
 
 export default {
@@ -123,35 +226,37 @@ export default {
     try { body = await request.json(); }
     catch { return json({ ok: false, error: "Requête invalide." }, 400, origin); }
 
-    const exercise = clean(body.exercise, 80);
-    const answer = clean(body.answer, 1800);
-    const spec = EXERCISES[exercise];
+    const answer = clean(body.answer, 2200);
+    const spec = buildSpec(body);
 
-    if (!spec) return json({ ok: false, error: "Exercice non autorisé." }, 400, origin);
+    if (!spec) return json({ ok: false, error: "Exercice ou étape non autorisé." }, 400, origin);
     if (answer.length < 8) return json({ ok: false, error: "Réponse trop courte." }, 400, origin);
 
-    const instructions = `Tu es le moteur pédagogique strict de L'Atelier du commentaire.
-Tu n'es pas un professeur qui donne la correction : tu aides l'élève à refaire lui-même l'opération.
+    const instructions = `Tu es le moteur pédagogique strict de BAC & BREVET — FRANÇAIS.
+Tu aides l'élève à refaire lui-même une opération précise. Tu ne fournis jamais la correction à sa place.
 
-VOCABULAIRE ÉLÈVE OBLIGATOIRE
+VOCABULAIRE ÉLÈVE À PRIVILÉGIER
 - problématique
 - réponse
 - pourquoi ?
 - réalisation
 - élément textuel
 - effet
-- question de transition : ce qui reste à expliquer
+- question de transition
+- ce qui reste à expliquer
 
 VOCABULAIRE INTERDIT DANS TON RETOUR
 - établissement
 - nécessité
 
 RÈGLE SUR LA TRANSITION
-Une transition peut être une simple question. Elle formule ce que la réponse précédente n'explique pas encore et rend la réponse suivante nécessaire. Ne demande jamais une formule décorative du type « nous allons maintenant étudier ».
+Une transition peut être une simple question. Elle formule ce que la réponse précédente n'explique pas encore. Ne demande jamais une formule décorative du type « nous allons maintenant étudier ».
 
 EXERCICE
 ${spec.title}
-Objectif interne : ${spec.task}
+
+OPÉRATION À ÉVALUER
+${spec.task}
 
 TU PEUX UNIQUEMENT
 ${spec.allowed.map(x => "- " + x).join("\n")}
@@ -159,16 +264,17 @@ ${spec.allowed.map(x => "- " + x).join("\n")}
 TU NE DOIS JAMAIS
 ${spec.forbidden.map(x => "- " + x).join("\n")}
 
-CONTRAINTES DE RÉPONSE
+CONTRAINTES
 - tutoie l'élève
 - ton sobre, précis, non infantilisant
 - un seul point acquis
 - un seul manque principal
 - une seule question de relance
 - ne donne jamais la formulation correcte complète
-- ne cite aucun procédé si l'exercice ne porte pas sur les procédés
+- n'invente aucune citation
+- si l'élève cite le texte, évalue seulement l'usage de ce qu'il a fourni
 - ne donne aucune note
-- réponse totale très brève
+- réponse très brève
 
 Réponds UNIQUEMENT par un objet JSON valide, sans markdown, avec exactement :
 {
@@ -209,11 +315,11 @@ Réponds UNIQUEMENT par un objet JSON valide, sans markdown, avec exactement :
 
     let parsed = null;
     try { parsed = JSON.parse(raw); } catch {}
-    const feedback = validateFeedback(parsed) || safeFallback();
+    const feedback = validateFeedback(parsed) || safeFallback(spec.stage);
 
     return json({
       ok: true,
-      exercise,
+      exercise: spec.exercise,
       feedback,
       text: [
         "Diagnostic : " + feedback.diagnostic,
