@@ -1,28 +1,75 @@
-# Worker IA — L’Atelier du commentaire
+# Worker IA — BAC & BREVET — FRANÇAIS
 
-Ce dossier contient le premier bridage pédagogique du moteur IA.
+Ce dossier contient le bridage pédagogique du moteur IA utilisé par les exercices du site.
 
 ## Principe
 
-Le Worker n’autorise actuellement qu’un exercice :
-- `hialmar-problematique`
+Le Worker accepte les parcours `annale-guided` du Bac et du Brevet.
 
-Le moteur peut diagnostiquer une tentative, signaler un seul manque et poser une seule question.
-Il ne doit pas fournir la problématique modèle, un plan ou une correction complète.
+### Bac — commentaire
+L'IA est strictement limitée à l'étape en cours :
+- donné / attente / transformation ;
+- problématique ;
+- réponses du plan ;
+- pourquoi ? / nécessité ;
+- transitions sous forme d'une question simple ;
+- réalisations ;
+- élément textuel → procédé utile → effet ici ;
+- rédaction guidée.
 
-Un second contrôle valide la réponse du modèle avant de l’envoyer au navigateur. Si le format ou le vocabulaire ne respecte pas les règles, le Worker renvoie un retour pédagogique de secours.
+Règles non négociables :
+- une grande partie = une **RÉPONSE nécessaire** à la problématique ;
+- ne jamais employer « établissement » pour nommer une partie ;
+- une transition = **une seule question** qui fait apparaître ce qu'il reste encore à expliquer ;
+- ne jamais fournir d'emblée une problématique, un plan ou un commentaire complet ;
+- ne jamais inventer une citation.
 
-## Secret requis
+### Brevet
+Chaque question / sous-question devient une étape autonome. Le Worker respecte :
+- la consigne exacte ;
+- le nombre d'éléments demandé ;
+- le barème indicatif ;
+- le type de compétence (compréhension, interprétation, grammaire, lexique, réécriture, image, rédaction).
 
-Dans Cloudflare Workers, ajouter/conserver le secret :
+Pour une image absente du contexte, l'IA doit signaler la limite et ne rien inventer.
+
+### Retour pédagogique
+Le modèle renvoie seulement :
+1. un diagnostic (`acquis`, `partiel`, `à reprendre`) ;
+2. un point acquis ;
+3. un manque principal ;
+4. une question de reprise.
+
+Un second contrôle valide la réponse du modèle avant de l'envoyer au navigateur.
+
+## Petit manuel des procédés
+
+Le PDF complet n'est pas envoyé au modèle ni publié comme ressource statique gratuite.
+Certaines étapes peuvent transmettre au Worker une courte liste de procédés candidats (3 à 5 maximum).
+L'IA reste limitée à cette liste et doit exiger un **effet contextualisé**.
+
+## Secrets requis
+
+Dans Cloudflare Workers :
 - `OPENAI_API_KEY`
 
-Ne jamais mettre la valeur de la clé dans GitHub.
-
 Optionnel :
-- `OPENAI_MODEL` pour choisir le modèle sans modifier le code.
+- `OPENAI_MODEL`
+
+Ne jamais placer une clé ou un secret dans GitHub.
 
 ## Déploiement
 
-Le fichier à coller dans l’éditeur Cloudflare si l’on ne passe pas par Wrangler est :
-- `src/index.js`
+Le Worker public utilisé par le site est :
+`https://atelier-commentaire-ia.timour-delemen.workers.dev/api/analyze`
+
+Après toute modification de `src/index.js`, il faut redéployer le Worker Cloudflare.
+
+Avec Wrangler :
+
+```bash
+cd worker
+npx wrangler deploy
+```
+
+Si le Worker est géré depuis l'éditeur Cloudflare, remplacer le code par `src/index.js` puis déployer.
