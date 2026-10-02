@@ -185,6 +185,49 @@ function buildSpec(body) {
     };
   }
 
+  if (exercise === "free-response") {
+    const context = body.context && typeof body.context === "object" ? body.context : {};
+    const title = clean(context.title, 220);
+    const instruction = clean(context.instruction, 1800);
+    const quote = clean(context.quote, 1200);
+    const page = clean(context.page, 120);
+    if (!instruction) return null;
+
+    const lower=(title+" "+instruction+" "+page).toLowerCase();
+    let kind="lecture";
+    if (/probl[ée]matique/.test(lower)) kind="problematique";
+    else if (/plan|partie|réponse nécessaire|reponse necessaire/.test(lower)) kind="plan";
+    else if (/transition/.test(lower)) kind="transition";
+    else if (/réécri|reecri/.test(lower)) kind="brevet-reecriture";
+    else if (/grammaire|nature|fonction|conjug|accord|pronom|temps verbal|lexique/.test(lower)) kind="brevet-grammaire";
+    else if (/rédaction|redaction|argument|écrire|ecrire/.test(lower)) kind="brevet-redaction";
+    else if (/procédé|procede|effet|réalisation|realisation|élément textuel|element textuel/.test(lower)) kind="analyse";
+
+    const isCommentary=/commentaire|probl[ée]matique|réalisation|realisation|transition/.test(lower);
+    const extraRules=isCommentary ? [
+      "Une grande partie est une RÉPONSE nécessaire à la problématique, jamais un thème.",
+      "Une transition est une seule question simple qui fait apparaître ce qu'il reste encore à expliquer.",
+      "RÉALISATION = ce que le texte fait ; ÉLÉMENT TEXTUEL = ce qui le montre ; PROCÉDÉ = comment l'élément est construit lorsqu'il est utile ; EFFET = ce que cela change ici.",
+      "Ne jamais employer « établissement » pour nommer une partie.",
+      "Ne jamais fournir un commentaire complet à partir d'une réponse partielle."
+    ] : [
+      "Évaluer seulement la consigne visible et la réponse donnée.",
+      "Ne pas inventer de corrigé ou d'information absente du contexte fourni.",
+      "Quand une preuve ou une justification est demandée, vérifier qu'elle est effectivement présente."
+    ];
+
+    return {
+      exercise,
+      stage:"free-response",
+      kind,
+      title:title||"Réponse libre",
+      task:instruction+(quote ? " Support visible : "+quote : ""),
+      allowed:GENERIC_ALLOWED,
+      forbidden:GENERIC_FORBIDDEN,
+      extraRules
+    };
+  }
+
   const core = CORE_EXERCISES[exercise];
   if (!core) return null;
   return {
