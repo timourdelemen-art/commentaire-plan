@@ -133,3 +133,29 @@
 .guided-section .filters{padding-left:0;padding-right:0}
 @media(max-width:1050px){.archive-head{grid-template-columns:1fr;gap:24px}.archive-years{grid-template-columns:1fr 1fr}}
 @media(max-width:650px){.archive-years{grid-template-columns:1fr}.archive-card{min-height:0}}
+
+
+/* Entraînement annales — IA + chronomètres */
+.annale-training{padding-bottom:80px}
+.timer-bar{display:grid;grid-template-columns:1fr 1fr auto;gap:24px;align-items:center;padding:22px 18px;border-bottom:1px solid var(--rule);background:#eee4d3}
+.timer-bar>div{display:flex;flex-direction:column;gap:6px}
+.timer-bar strong{font:32px 'American Typewriter','Courier New',monospace}
+.timer-bar strong.over{color:var(--red)}
+.timer-actions{flex-direction:row!important;align-items:center;gap:10px!important}
+.timer-actions button{background:transparent;border:1px solid var(--rule);padding:10px 14px;font:13px 'American Typewriter','Courier New',monospace;cursor:pointer}
+.annale-workspace{max-width:980px;margin:0 auto;padding:48px 18px}
+.annale-progress{font-size:13px;letter-spacing:1.5px;color:var(--red);margin-bottom:20px}
+.annale-step-card{border-top:3px solid var(--red);padding-top:28px}
+.annale-step-card h2,.annale-summary h2{font-size:44px;font-weight:400;line-height:1.05;margin:12px 0 18px}
+.annale-hint{background:#f0ebe2;padding:14px 16px;border-left:3px solid var(--red)}
+.annale-step-card textarea{width:100%;min-height:230px;background:#fffdf8;border:1px solid #8d877e;padding:16px;font:18px Georgia,'Times New Roman',serif;line-height:1.55;resize:vertical}
+.annale-training-actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:18px}
+.annale-training-actions .btn{border:1px solid var(--rule);background:transparent;color:var(--ink);cursor:pointer}
+.annale-training-actions .btn.red{background:var(--red);color:#fff;border-color:var(--red)}
+.annale-ai-feedback{margin-top:22px}
+.annale-summary{border-top:3px solid var(--red);padding-top:28px}
+.summary-step{padding:20px 0;border-top:1px solid #bbb}
+.summary-step h3{font-size:22px;font-weight:400;margin:0 0 8px}
+.summary-step p{font-size:17px;line-height:1.5;white-space:pre-wrap}
+.annale-training-links{display:flex;gap:18px;flex-wrap:wrap}
+@media(max-width:760px){.timer-bar{grid-template-columns:1fr 1fr}.timer-actions{grid-column:1/-1}.annale-step-card h2,.annale-summary h2{font-size:34px}}
