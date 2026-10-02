@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded',()=> {
   if(!header) return;
 
   const path=(location.pathname.split('/').pop()||'index.html').toLowerCase();
-  const bacPages=['bac.html','anthologie-bac.html','bac-commentaire.html','bac-commentaire-procedes.html','bac-commentaire-procedes-entrainement.html','bac-dissertation.html','bac-oral.html','bac-mode-examen.html'];
+  const bacPages=['bac.html','anthologie-bac.html','bac-commentaire.html','bac-commentaire-procedes.html','bac-commentaire-procedes-entrainement.html','manuel-procedes.html','bac-dissertation.html','bac-oral.html','bac-mode-examen.html'];
   const brevetPages=['brevet.html','anthologie-brevet.html','brevet-comprehension.html','brevet-grammaire.html','brevet-reecriture.html','brevet-redaction.html'];
   const teacherPages=['enseignants.html','formation.html'];
   const is=(names)=>names.includes(path);
