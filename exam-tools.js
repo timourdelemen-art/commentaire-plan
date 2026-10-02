@@ -32,4 +32,43 @@ document.addEventListener('DOMContentLoaded',()=>{
 
   const area=document.getElementById('brevet-writing'),count=document.getElementById('word-count');
   if(area&&count){const update=()=>{const n=area.value.trim()?area.value.trim().split(/\s+/).length:0;count.textContent=n+' mot'+(n>1?'s':'');};area.addEventListener('input',update);update();}
+
+
+  const oralText=document.getElementById('oral-source-text');
+  const oralStatus=document.getElementById('oral-source-status');
+  const oralImage=document.getElementById('oral-image-file');
+  const oralPdf=document.getElementById('oral-pdf-file');
+  const oralAuthor=document.getElementById('oral-author');
+  const oralTextWork=document.getElementById('oral-text-work');
+  const oralLines=document.getElementById('oral-lines');
+  if(oralText&&oralStatus){
+    const key='oral-source-draft-v1';
+    const restore=()=>{try{return JSON.parse(localStorage.getItem(key)||'{}')}catch{return {}}};
+    const saved=restore();
+    oralText.value=saved.text||'';
+    if(oralAuthor)oralAuthor.value=saved.author||'';
+    if(oralTextWork)oralTextWork.value=saved.work||'';
+    if(oralLines)oralLines.value=saved.lines||'';
+    const persist=()=>{
+      localStorage.setItem(key,JSON.stringify({
+        text:oralText.value,
+        author:oralAuthor?.value||'',
+        work:oralTextWork?.value||'',
+        lines:oralLines?.value||''
+      }));
+      const hasText=oralText.value.trim().length>0;
+      if(hasText) oralStatus.textContent='Texte copié-collé prêt. Il reste dans ce navigateur.';
+    };
+    [oralText,oralAuthor,oralTextWork,oralLines].filter(Boolean).forEach(el=>el.addEventListener('input',persist));
+    const showFile=(input,label)=>{
+      input?.addEventListener('change',()=>{
+        if(input.files&&input.files[0]){
+          oralStatus.textContent=label+' : '+input.files[0].name+' — fichier sélectionné localement.';
+        }
+      });
+    };
+    showFile(oralImage,'Image');
+    showFile(oralPdf,'PDF');
+    if(saved.text)oralStatus.textContent='Texte copié-collé restauré depuis ce navigateur.';
+  }
 });
