@@ -137,6 +137,13 @@ else {
   if(!free.includes("Vérifier ma réponse")) errors.push("Couche globale: bouton de vérification absent");
   if(!free.includes("/api/analyze")) errors.push("Couche globale: moteur de retour absent");
 }
+const syntaxFiles=["free-response.js","brevet-writing-feedback.js","annales/entrainement-annale.js","worker/src/index.js","site-nav.js"];
+for(const p of syntaxFiles){
+  if(!fs.existsSync(p)) continue;
+  try{ new Function(fs.readFileSync(p,"utf8").replace(/^export default\s*/m,"return ")); }
+  catch(e){ if(p!=="worker/src/index.js") errors.push(`${p}: erreur de syntaxe — ${e.message}`); }
+}
+
 const worker=fs.existsSync("worker/src/index.js")?fs.readFileSync("worker/src/index.js","utf8"):"";
 if(!worker.includes('exercise === "free-response"')) errors.push("Worker: réponses libres génériques non prises en charge");
 
