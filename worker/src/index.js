@@ -11,88 +11,45 @@ const CORE_EXERCISES = {
   }
 };
 
-const ANNALES = {
-  "bac-2026-amerique-du-nord-general-commentaire-leconte-de-lisle-le-coeur-de-hialmar": {
-    title: "Le Cœur de Hialmar",
-    author: "Leconte de Lisle",
-    stages: {
-      donne: "Identifier uniquement la situation de départ et les données explicites.",
-      attente: "Formuler l'attente la plus simple produite par la situation initiale.",
-      transformation: "Faire apparaître ce que le texte produit pourtant, sans donner encore les procédés.",
-      problematique: "Construire une question qui conserve la défaite physique et la puissance héroïque persistante.",
-      plan: "Proposer deux ou trois réponses nécessaires à la problématique, sans parties-thèmes ni catalogue de procédés.",
-      transitions: "Formuler une question simple qui dit ce que la réponse précédente n'explique pas encore.",
-      preuve: "Construire une chaîne réalisation → élément textuel → effet, sans sauter d'étape."
-    }
-  },
-  "bac-2025-amerique-du-nord-general-commentaire-montaigne-essais": {
-    title: "Essais — Sur l'inégalité entre les hommes",
-    author: "Montaigne",
-    stages: {
-      donne: "Identifier l'objet explicite de la réflexion de Montaigne.",
-      attente: "Formuler le critère social spontané que le texte met en cause.",
-      transformation: "Faire apparaître le déplacement vers un jugement fondé sur la valeur propre.",
-      problematique: "Construire une question qui conserve l'opposition entre apparence sociale et valeur propre.",
-      plan: "Proposer deux ou trois réponses nécessaires qui expliquent ce déplacement du jugement.",
-      transitions: "Formuler une question simple qui dit ce que la réponse précédente n'explique pas encore.",
-      preuve: "Construire une chaîne réalisation → élément textuel → effet."
-    }
-  },
-  "bac-2023-amerique-du-nord-general-commentaire-racine-berenice": {
-    title: "Bérénice, IV, 5",
-    author: "Jean Racine",
-    stages: {
-      donne: "Identifier la situation dramatique explicite.",
-      attente: "Formuler ce qu'on attendrait normalement d'un aveu amoureux partagé.",
-      transformation: "Faire apparaître que l'intensité de l'amour rend pourtant la séparation plus certaine et douloureuse.",
-      problematique: "Construire une question qui conserve amour partagé et séparation inévitable.",
-      plan: "Proposer deux ou trois réponses nécessaires qui expliquent le rapport entre amour et impossibilité.",
-      transitions: "Formuler une question simple qui dit ce que la réponse précédente n'explique pas encore.",
-      preuve: "Construire une chaîne réalisation → élément textuel → effet à partir de la parole dramatique."
-    }
-  },
-  "bac-2021-metropole-general-commentaire-perec-les-choses": {
-    title: "Les Choses, chapitre 2",
-    author: "Georges Perec",
-    stages: {
-      donne: "Identifier ce que le passage décrit concrètement.",
-      attente: "Formuler ce qu'on attendrait d'une simple description de logement.",
-      transformation: "Faire apparaître que la description devient le révélateur d'un désir d'existence.",
-      problematique: "Construire une question qui conserve le réel médiocre et la vie rêvée.",
-      plan: "Proposer deux ou trois réponses nécessaires qui expliquent le passage du réel au désir.",
-      transitions: "Formuler une question simple qui dit ce que la réponse précédente n'explique pas encore.",
-      preuve: "Construire une chaîne réalisation → élément textuel → effet."
-    }
-  }
-};
+const ALLOWED_STAGE_KINDS = new Set([
+  "lecture","problematique","plan","transition","analyse","redaction",
+  "brevet-comprehension","brevet-interpretation","brevet-analyse","brevet-image",
+  "brevet-grammaire","brevet-lexique","brevet-reecriture","brevet-redaction"
+]);
 
 const GENERIC_ALLOWED = [
   "évaluer uniquement l'opération demandée",
   "nommer brièvement un point acquis",
   "signaler un seul manque principal",
   "poser une seule question de relance",
-  "demander une preuve textuelle si la réponse reste générale"
+  "demander une preuve textuelle si la réponse reste générale",
+  "indiquer si un procédé proposé est utile ou plaqué quand la tâche porte sur l'analyse"
 ];
 
 const GENERIC_FORBIDDEN = [
-  "donner une problématique modèle",
   "réécrire entièrement la réponse de l'élève",
-  "proposer un plan complet",
-  "rédiger une partie ou un commentaire",
   "donner plusieurs conseils à la fois",
-  "donner une liste de procédés non demandée",
   "donner une note",
-  "présenter une analyse comme officielle"
+  "présenter une analyse comme officielle",
+  "inventer une citation, un élément du texte, une image ou un détail absent du contexte",
+  "révéler un commentaire complet lorsque l'élève travaille une étape intermédiaire"
 ];
 
-const FALLBACK_BY_STAGE = {
-  donne: ["Tu as formulé une tentative.", "Il faut rester plus près des données explicites du texte.", "Qu'est-ce qui est objectivement donné dans la situation, avant toute interprétation ?"],
-  attente: ["Tu as identifié une attente possible.", "Il faut la rendre plus simple et directement liée à la situation de départ.", "Qu'attendrait-on normalement d'une telle situation avant de lire la suite ?"],
-  transformation: ["Tu as repéré un changement.", "Il faut rendre plus nette l'opposition entre l'attente et ce que le texte produit.", "Qu'est-ce que le texte fait apparaître malgré ce qu'on aurait attendu ?"],
-  problematique: ["Tu as formulé une vraie question.", "Il faut faire apparaître plus nettement les deux pôles du problème.", "Quels sont les deux éléments que ta question doit garder ensemble ?"],
-  plan: ["Tu proposes des réponses.", "Il faut vérifier qu'elles répondent à la problématique plutôt qu'elles ne nomment des thèmes ou procédés.", "Chaque partie répond-elle réellement à la question posée ?"],
-  transitions: ["Tu as essayé d'enchaîner les réponses.", "Il faut formuler ce que la réponse précédente n'explique pas encore.", "Quelle question reste ouverte après cette partie ?"],
-  preuve: ["Tu proposes une analyse.", "Il faut distinguer plus nettement réalisation, élément textuel et effet.", "Que fait le texte, quel élément précis le montre, et qu'est-ce que cela change ?"]
+const FALLBACK_BY_KIND = {
+  lecture:["Tu as formulé une tentative.","Il faut rester plus près de l'opération demandée et du passage.","Quel élément précis de la situation ou du mouvement du texte peux-tu formuler sans encore l'interpréter ?"],
+  problematique:["Tu as formulé une vraie question.","Il faut faire apparaître plus nettement ce qui, dans le texte, demande une explication.","Quels sont les deux pôles de la transformation que ta question doit garder ensemble ?"],
+  plan:["Tu proposes une organisation.","Il faut vérifier que chaque partie est une réponse nécessaire à la problématique, et non un thème.","Que répond exactement chacune de tes parties à la problématique ?"],
+  transition:["Tu cherches ce qui manque encore.","La transition doit être réduite à une seule question qui fait apparaître le manque restant.","Quelle question reste encore ouverte après la réponse précédente ?"],
+  analyse:["Tu proposes une analyse.","Il faut distinguer plus nettement ce que le texte fait, ce qui le montre et l'effet produit ici.","Quelle réalisation veux-tu prouver, avec quel élément précis du texte, et qu'est-ce que cet élément change ici ?"],
+  redaction:["Tu as commencé à rédiger.","Il faut vérifier que chaque phrase remplit la fonction demandée sans ajouter de développement inutile.","Quelle phrase de ton passage prouve le plus directement la réponse que tu défends ?"],
+  "brevet-comprehension":["Tu as répondu à la question.","Il faut vérifier que ta réponse est suffisamment précise et justifiée lorsqu'une preuve est demandée.","Quel mot ou passage du texte prouve exactement ta réponse ?"],
+  "brevet-interpretation":["Tu proposes une interprétation.","Il faut mieux relier ton idée à un indice précis du texte.","Quel indice précis du texte permet de soutenir cette interprétation ?"],
+  "brevet-analyse":["Tu as repéré un élément intéressant.","Il faut expliquer ce que cet élément produit ici, au lieu de seulement le nommer.","Qu'est-ce que ce choix fait entendre, voir ou comprendre dans ce passage précis ?"],
+  "brevet-image":["Tu proposes une comparaison.","Il faut distinguer précisément ce qui vient du texte et ce qui vient de l'image.","Quels éléments visuels effectivement observables peux-tu citer sans rien inventer ?"],
+  "brevet-grammaire":["Tu as proposé une analyse grammaticale.","Il faut prouver la réponse par la manipulation demandée ou par une justification précise.","Quelle manipulation peux-tu effectuer et quel résultat obtient-elle ?"],
+  "brevet-lexique":["Tu as proposé une réponse lexicale.","Il faut justifier la formation ou l'appartenance à la même famille avec précision.","Quelle base et quel procédé de formation peux-tu identifier exactement ?"],
+  "brevet-reecriture":["Tu as effectué une partie de la transformation.","Il faut vérifier toutes les conséquences grammaticales de la consigne.","Quels verbes, accords, pronoms ou adjectifs sont encore touchés par la transformation ?"],
+  "brevet-redaction":["Tu réponds au sujet.","Il faut choisir une priorité de reprise dans la construction ou dans la précision de l'argumentation.","Quelle idée doit être développée ou illustrée plus précisément pour mieux répondre au sujet ?"]
 };
 
 function cors(origin) {
@@ -116,8 +73,8 @@ function clean(s, max) {
   return String(s ?? "").replace(/\s+/g, " ").trim().slice(0, max);
 }
 
-function safeFallback(stage = "problematique") {
-  const f = FALLBACK_BY_STAGE[stage] || FALLBACK_BY_STAGE.problematique;
+function safeFallback(kind = "problematique") {
+  const f = FALLBACK_BY_KIND[kind] || FALLBACK_BY_KIND.problematique;
   return {
     diagnostic: "à reprendre",
     point_acquis: f[0],
@@ -129,9 +86,9 @@ function safeFallback(stage = "problematique") {
 function validateFeedback(value) {
   if (!value || typeof value !== "object") return null;
   const diagnostic = clean(value.diagnostic, 20);
-  const point = clean(value.point_acquis, 180);
-  const manque = clean(value.manque_principal, 240);
-  let question = clean(value.question_suivante, 240);
+  const point = clean(value.point_acquis, 220);
+  const manque = clean(value.manque_principal, 280);
+  let question = clean(value.question_suivante, 280);
 
   if (!["acquis", "partiel", "à reprendre"].includes(diagnostic)) return null;
   if (!point || !manque || !question) return null;
@@ -140,14 +97,13 @@ function validateFeedback(value) {
   const all = (point + " " + manque + " " + question).toLowerCase();
   const bannedPhrases = [
     "établissement",
-    "nécessité",
     "problématique modèle",
     "plan complet",
-    "commentaire rédigé"
+    "commentaire rédigé",
+    "voici la correction complète"
   ];
   if (bannedPhrases.some(x => all.includes(x))) return null;
 
-  // Bloque un vrai plan numéroté sans faux positif sur des mots comme « oui. ».
   const planPattern = /(^|\s)(i|ii|iii|iv|v)\.\s/;
   if (planPattern.test(all)) return null;
 
@@ -174,18 +130,58 @@ function buildSpec(body) {
 
   if (exercise === "annale-guided") {
     const context = body.context && typeof body.context === "object" ? body.context : {};
-    const annaleId = clean(context.annale_id, 180);
-    const stage = clean(context.etape, 40);
-    const annale = ANNALES[annaleId];
-    if (!annale || !annale.stages[stage]) return null;
+    const kind = clean(context.kind || context.etape, 50);
+    if (!ALLOWED_STAGE_KINDS.has(kind) && !["donne","attente","transformation","preuve","realisations","intro","partie","raccord","conclusion","necessite","transitions"].includes(clean(context.etape,50))) return null;
+
+    const exam = clean(context.examen, 20);
+    const type = clean(context.type, 40);
+    const consigne = clean(context.consigne, 700);
+    const aide = clean(context.aide, 500);
+    const author = clean(context.auteur, 120);
+    const work = clean(context.oeuvre, 180);
+    const stage = clean(context.etape, 50);
+    const points = context.points == null ? "" : " Barème indicatif : " + clean(context.points, 10) + " point(s).";
+    const manualCandidates = Array.isArray(context.manual_candidates)
+      ? context.manual_candidates.map(x=>clean(x,80)).filter(Boolean).slice(0,5)
+      : [];
+
+    if (!exam || !consigne || !author || !work) return null;
+
+    const isBac = type === "bac-commentaire" || exam.toLowerCase() === "bac";
+    const task = consigne + (aide ? " Repère pédagogique : " + aide : "") + points;
+
+    const extraRules = isBac ? [
+      "Une grande partie est une RÉPONSE nécessaire à la problématique, jamais un thème.",
+      "NÉCESSITÉ / Pourquoi ? = pourquoi cette réponse est nécessaire pour poursuivre la démonstration.",
+      "Une TRANSITION est une seule question simple qui fait apparaître ce qu'il reste encore à expliquer.",
+      "RÉALISATION = ce que le texte fait pour construire la réponse.",
+      "ÉLÉMENT TEXTUEL = ce qui, dans le texte, permet de le montrer.",
+      "PROCÉDÉ = comment l'élément est construit, seulement lorsqu'il est identifiable et utile.",
+      "EFFET = ce que ce choix change ici dans la manière de voir, comprendre ou ressentir.",
+      "Ne jamais employer le mot « établissement » pour désigner une partie.",
+      "Ne jamais fournir une problématique, un plan ou un commentaire complet si l'élève n'a pas d'abord produit sa propre tentative."
+    ] : [
+      "Respecter exactement la question et le nombre d'éléments demandés.",
+      "Quand une justification textuelle est demandée, ne pas considérer la réponse acquise sans preuve précise.",
+      "Pour la grammaire, vérifier la nature, la fonction ou la manipulation réellement demandée.",
+      "Pour la réécriture, contrôler toutes les conséquences de la transformation, pas seulement le premier changement.",
+      "Pour une question sur une image, si aucun élément visuel n'est fourni dans la réponse ou le contexte, ne rien inventer."
+    ];
+
+    if (manualCandidates.length) {
+      extraRules.push("Si l'élève demande ou utilise une aide de procédés, rester limité aux pistes suivantes : " + manualCandidates.join(", ") + ". Ne pas dévoiler le manuel complet.");
+      extraRules.push("Même si un procédé est juste, exiger un effet contextualisé et refuser les effets automatiques.");
+    }
 
     return {
       exercise,
       stage,
-      title: annale.author + " — " + annale.title,
-      task: annale.stages[stage],
+      kind: ALLOWED_STAGE_KINDS.has(kind) ? kind : (isBac ? (stage==="transitions"||stage==="raccord"?"transition":stage==="plan"||stage==="necessite"?"plan":stage==="problematique"?"problematique":stage==="preuves"||stage==="realisations"?"analyse":stage==="intro"||stage==="partie"||stage==="conclusion"?"redaction":"lecture") : "brevet-comprehension"),
+      title: author + " — " + work,
+      task,
       allowed: GENERIC_ALLOWED,
-      forbidden: GENERIC_FORBIDDEN
+      forbidden: GENERIC_FORBIDDEN,
+      extraRules
     };
   }
 
@@ -194,10 +190,16 @@ function buildSpec(body) {
   return {
     exercise,
     stage: "problematique",
+    kind: "problematique",
     title: core.title,
     task: core.task,
     allowed: GENERIC_ALLOWED,
-    forbidden: GENERIC_FORBIDDEN
+    forbidden: GENERIC_FORBIDDEN,
+    extraRules:[
+      "Une grande partie est une RÉPONSE nécessaire à la problématique.",
+      "Ne jamais employer « établissement » pour désigner une partie.",
+      "Une transition est une simple question qui fait apparaître ce qui manque encore."
+    ]
   };
 }
 
@@ -226,37 +228,36 @@ export default {
     try { body = await request.json(); }
     catch { return json({ ok: false, error: "Requête invalide." }, 400, origin); }
 
-    const answer = clean(body.answer, 2200);
+    const answer = clean(body.answer, 5000);
     const spec = buildSpec(body);
 
     if (!spec) return json({ ok: false, error: "Exercice ou étape non autorisé." }, 400, origin);
     if (answer.length < 8) return json({ ok: false, error: "Réponse trop courte." }, 400, origin);
 
     const instructions = `Tu es le moteur pédagogique strict de BAC & BREVET — FRANÇAIS.
-Tu aides l'élève à refaire lui-même une opération précise. Tu ne fournis jamais la correction à sa place.
+Tu aides l'élève à refaire lui-même une opération précise. Tu ne fournis jamais la correction à sa place d'emblée.
 
-VOCABULAIRE ÉLÈVE À PRIVILÉGIER
-- problématique
-- réponse
-- pourquoi ?
-- réalisation
-- élément textuel
-- effet
-- question de transition
-- ce qui reste à expliquer
+VOCABULAIRE ET MÉTHODE
+- Problématique : la question qui demande ce que le texte oblige à expliquer.
+- Réponse : ce que chaque grande partie affirme pour répondre à la problématique.
+- Pourquoi ? / nécessité : pourquoi cette réponse est nécessaire dans la démonstration.
+- Réalisation : ce que le texte fait.
+- Élément textuel : ce qui, dans le texte, permet de le montrer.
+- Procédé : comment l'élément est construit, seulement si cela aide réellement.
+- Effet ici : ce que cela change dans ce passage précis.
+- Transition : une seule question qui fait apparaître ce qu'il reste encore à expliquer.
 
-VOCABULAIRE INTERDIT DANS TON RETOUR
-- établissement
-- nécessité
-
-RÈGLE SUR LA TRANSITION
-Une transition peut être une simple question. Elle formule ce que la réponse précédente n'explique pas encore. Ne demande jamais une formule décorative du type « nous allons maintenant étudier ».
+VOCABULAIRE INTERDIT
+- « établissement » pour nommer une grande partie.
 
 EXERCICE
 ${spec.title}
 
 OPÉRATION À ÉVALUER
 ${spec.task}
+
+RÈGLES SPÉCIFIQUES
+${spec.extraRules.map(x => "- " + x).join("\n")}
 
 TU PEUX UNIQUEMENT
 ${spec.allowed.map(x => "- " + x).join("\n")}
@@ -270,9 +271,9 @@ CONTRAINTES
 - un seul point acquis
 - un seul manque principal
 - une seule question de relance
-- ne donne jamais la formulation correcte complète
-- n'invente aucune citation
-- si l'élève cite le texte, évalue seulement l'usage de ce qu'il a fourni
+- n'anticipe jamais l'étape suivante
+- ne donne jamais la formulation correcte complète si une reprise de l'élève est encore possible
+- n'invente aucune citation ni aucun détail absent
 - ne donne aucune note
 - réponse très brève
 
@@ -288,7 +289,7 @@ Réponds UNIQUEMENT par un objet JSON valide, sans markdown, avec exactement :
       model: env.OPENAI_MODEL || "gpt-5-mini",
       instructions,
       input: [{ role: "user", content: [{ type: "input_text", text: "Réponse de l’élève : " + answer }] }],
-      max_output_tokens: 260,
+      max_output_tokens: 320,
       store: false
     };
 
@@ -315,7 +316,7 @@ Réponds UNIQUEMENT par un objet JSON valide, sans markdown, avec exactement :
 
     let parsed = null;
     try { parsed = JSON.parse(raw); } catch {}
-    const feedback = validateFeedback(parsed) || safeFallback(spec.stage);
+    const feedback = validateFeedback(parsed) || safeFallback(spec.kind);
 
     return json({
       ok: true,
