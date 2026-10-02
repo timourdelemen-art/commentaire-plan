@@ -143,7 +143,7 @@
     els.ai.disabled=true; els.ai.textContent="Analyse…";
     try{
       const response=await fetch(ENDPOINT,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({
-        exercise:"annale-guided-v2",
+        exercise:"annale-guided",
         answer,
         context:{
           annale_id:id,
