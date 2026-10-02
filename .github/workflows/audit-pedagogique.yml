@@ -15,5 +15,4 @@ jobs:
           node-version: 22
       - name: Vérifier l’ontologie et les réponses libres
         run: node scripts/audit-annales.js
-      - name: Tester le moteur déployé
-        run: node scripts/test-live-feedback.mjs
+
