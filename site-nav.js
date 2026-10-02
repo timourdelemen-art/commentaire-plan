@@ -29,11 +29,9 @@ document.addEventListener('DOMContentLoaded',()=> {
     bac:[
       ['anthologie-bac.html','Anthologie Bac'],
       ['bac-commentaire.html','Commentaire'],
-      ['bac-commentaire-procedes.html','Procédés'],
       ['bac-dissertation.html','Dissertation'],
       ['bac-oral.html','Oral'],
-      ['annales.html#bac','Annales'],
-      ['bac-mode-examen.html','Mode Bac']
+      ['annales.html#bac','Annales']
     ],
     brevet:[
       ['anthologie-brevet.html','Anthologie Brevet'],
@@ -76,9 +74,9 @@ document.addEventListener('DOMContentLoaded',()=> {
   <nav class="context-tabs" aria-label="Exercices du parcours"><div class="wrap">${contextTabs}</div></nav>
   <div id="site-menu" class="site-menu" hidden>
     <div class="wrap site-menu-grid">
-      <div><span class="menu-kicker">Bac</span><a href="anthologie-bac.html">Anthologie Bac</a><a href="bac-commentaire.html">Commentaire</a><a href="bac-commentaire-procedes.html">Procédés</a><a href="bac-dissertation.html">Dissertation</a><a href="bac-oral.html">Oral</a></div>
+      <div><span class="menu-kicker">Bac</span><a href="anthologie-bac.html">Anthologie Bac</a><a href="bac-commentaire.html">Commentaire</a><a href="bac-commentaire-procedes.html">Atelier procédés</a><a href="manuel-procedes.html">Petit manuel</a><a href="bac-mode-examen.html">Mode Bac</a><a href="bac-dissertation.html">Dissertation</a><a href="bac-oral.html">Oral</a></div>
       <div><span class="menu-kicker">Brevet</span><a href="anthologie-brevet.html">Anthologie Brevet</a><a href="brevet-comprehension.html">Compréhension</a><a href="brevet-grammaire.html">Grammaire</a><a href="brevet-reecriture.html">Réécriture</a><a href="brevet-redaction.html">Rédaction</a></div>
-      <div><span class="menu-kicker">Ressources</span><a href="annales.html">Annales officielles</a><a href="bibliotheque.html">Bibliothèque</a><a href="enseignants.html">Enseignants</a><a href="offre.html">Accès gratuit / complet</a></div>
+      <div><span class="menu-kicker">Ressources</span><a href="annales.html">Annales officielles</a><a href="manuel-procedes.html">Petit manuel des procédés</a><a href="bibliotheque.html">Bibliothèque</a><a href="enseignants.html">Enseignants</a><a href="offre.html">Accès gratuit / complet</a></div>
     </div>
   </div>`;
 
