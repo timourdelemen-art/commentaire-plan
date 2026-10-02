@@ -3,7 +3,7 @@ window.ANNALES_CATALOGUE = {
     examen:"Bac", annee:2026, zone:"Amérique du Nord", serie:"Général", epreuve:"Commentaire",
     auteur:"Leconte de Lisle", oeuvre:"Le Cœur de Hialmar",
     sourceOfficielle:"https://www.education.gouv.fr/sites/default/files/document/baccalaureat-general-2026-francais-epreuve-anticipee-516893.pdf",
-    parcours:"../hialmar.html", dureeExamen:14400, ia:true,
+    parcours:"../bac-2026-hialmar.html", dureeExamen:14400, ia:true,
     contexte:"Le poème met en scène Hialmar, guerrier mortellement blessé après la bataille. L'entraînement porte sur la construction autonome d'un commentaire.",
     etapes:[
       {id:"donne",titre:"1. Le donné",temps:300,consigne:"Notez seulement ce que le texte donne objectivement au départ. Pas encore d'interprétation.",aide:"Situation, personnages, état, lieu, action."},
@@ -19,7 +19,7 @@ window.ANNALES_CATALOGUE = {
     examen:"Bac", annee:2025, zone:"Amérique du Nord", serie:"Général", epreuve:"Commentaire",
     auteur:"Montaigne", oeuvre:"Essais — Sur l'inégalité entre les hommes",
     sourceOfficielle:"https://eduscol.education.gouv.fr/sites/default/files/document/25-frgean1-a16pdf-124874.pdf",
-    parcours:"../montaigne-bac-2025.html", dureeExamen:14400, ia:true,
+    parcours:"../bac-2025-montaigne.html", dureeExamen:14400, ia:true,
     contexte:"Le texte interroge les critères par lesquels les hommes évaluent la valeur d'autrui.",
     etapes:[
       {id:"donne",titre:"1. Le donné",temps:300,consigne:"Que critique ou examine explicitement Montaigne ?",aide:"Restez au plus près de l'objet du texte."},
@@ -35,7 +35,7 @@ window.ANNALES_CATALOGUE = {
     examen:"Bac", annee:2023, zone:"Amérique du Nord", serie:"Général", epreuve:"Commentaire",
     auteur:"Jean Racine", oeuvre:"Bérénice, IV, 5",
     sourceOfficielle:"https://eduscol.education.gouv.fr/sites/default/files/document/23-frgean1-a16pdf-103929.pdf",
-    parcours:"../racine-bac-2023.html", dureeExamen:14400, ia:true,
+    parcours:"../bac-2023-racine-berenice.html", dureeExamen:14400, ia:true,
     contexte:"La scène confronte l'intensité de l'amour à la nécessité de la séparation.",
     etapes:[
       {id:"donne",titre:"1. Le donné",temps:300,consigne:"Quelle situation dramatique est explicitement donnée ?",aide:"Identifiez relation, enjeu et moment de la scène."},
@@ -51,7 +51,7 @@ window.ANNALES_CATALOGUE = {
     examen:"Bac", annee:2021, zone:"Métropole", serie:"Général", epreuve:"Commentaire",
     auteur:"Georges Perec", oeuvre:"Les Choses, chapitre 2",
     sourceOfficielle:"https://eduscol.education.gouv.fr/sites/default/files/document/21-frgeme1pdf-93933.pdf",
-    parcours:"../perec-bac-2021.html", dureeExamen:14400, ia:true,
+    parcours:"../bac-2021-perec-les-choses.html", dureeExamen:14400, ia:true,
     contexte:"La description d'un logement modeste devient le révélateur d'un désir d'existence.",
     etapes:[
       {id:"donne",titre:"1. Le donné",temps:300,consigne:"Que décrit concrètement le passage ?",aide:"Commencez par le cadre matériel."},

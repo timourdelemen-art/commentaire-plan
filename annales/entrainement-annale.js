@@ -127,7 +127,7 @@
     els.summary.hidden=false;
     els.count.textContent="PARCOURS TERMINÉ · "+fmt(state.totalElapsed);
     els.summaryContent.innerHTML=item.etapes.map(s=>"<article class='summary-step'><h3>"+s.titre+"</h3><p>"+(state.answers[s.id]||"—")+"</p></article>").join("");
-    els.restart.href="../mode-bac.html";
+    els.restart.href="../bac-mode-examen.html";
   }
 
   render();
