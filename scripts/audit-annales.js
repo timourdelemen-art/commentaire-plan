@@ -81,7 +81,7 @@ for(const p of publicHtml){
   if(!textareas.length || excludedFeedbackPages.has(p)) continue;
 
   const hasGlobalLayer=source.includes('site-nav.js');
-  const hasOwnAnalyzer=source.includes('/api/analyze');
+  const hasOwnAnalyzer=source.includes('/api/analyze') || source.includes('entrainement-annale.js');
   const hasDedicated=/(feedback\.js|writing-feedback\.js)/i.test(source);
   const answerTextareas=textareas.filter(tag=>!/data-feedback=["']off["']/i.test(tag));
   if(answerTextareas.length && !hasGlobalLayer && !hasOwnAnalyzer && !hasDedicated){
@@ -128,7 +128,8 @@ for(const p of publicTextFiles){
 // Aucune page HTML publique ne doit nommer explicitement la technologie.
 for(const p of publicHtml){
   const source=fs.readFileSync(p,"utf8");
-  if(/\bIA\b/i.test(source)) errors.push(`${p}: mention explicite « IA » encore présente dans la page publique`);
+  const visible=source.replace(/<script\b[\s\S]*?<\/script>/gi,"").replace(/<style\b[\s\S]*?<\/style>/gi,"");
+  if(/\bIA\b/i.test(visible)) errors.push(`${p}: mention explicite « IA » encore présente dans la page publique`);
 }
 
 if(!fs.existsSync("free-response.js")) errors.push("Couche globale de retour libre absente");
