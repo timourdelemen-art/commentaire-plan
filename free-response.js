@@ -69,8 +69,23 @@
     });
   }
 
-  document.querySelectorAll("textarea").forEach((area,index)=>{
-    if(area.closest("form[action]")||area.dataset.feedback==="off")return;
-    mount(area,index);
+  let counter=0;
+  function scan(root=document){
+    root.querySelectorAll?.("textarea").forEach(area=>{
+      if(area.dataset.feedbackMounted==="1"||area.closest("form[action]")||area.dataset.feedback==="off")return;
+      mount(area,counter++);
+    });
+  }
+  scan();
+
+  const observer=new MutationObserver(mutations=>{
+    for(const mutation of mutations){
+      for(const node of mutation.addedNodes){
+        if(node.nodeType!==1) continue;
+        if(node.matches?.("textarea")) scan(node.parentElement||document);
+        else scan(node);
+      }
+    }
   });
+  observer.observe(document.body,{childList:true,subtree:true});
 })();
