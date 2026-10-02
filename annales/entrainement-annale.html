@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Entraînement sur annale — BAC & BREVET FRANÇAIS</title>
+<meta name="description" content="Entraînement progressif sur une annale officielle avec chronomètre et diagnostic IA bridé.">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<header class="top"><div class="wrap mast">
+<a class="brand" href="../index.html">BAC & BREVET<br>FRANÇAIS</a>
+<div class="tag type">Sujet officiel.<br>IA sous protocole.</div>
+<nav class="nav"><a href="../index.html">Accueil</a><a href="../bac.html">Bac</a><a href="../brevet.html">Brevet</a><a class="active" href="../annales.html">Annales</a></nav>
+<a class="contact" href="../contact.html">Nous contacter</a>
+</div></header>
+
+<main class="wrap annale-training" id="trainingApp">
+<section class="pagehead">
+  <div>
+    <div class="kicker" id="trainingMeta">ANNALE</div>
+    <h1 id="trainingTitle">Chargement…</h1>
+    <p class="lede" id="trainingContext"></p>
+    <div class="annale-training-links">
+      <a class="official-link" id="officialSubject" target="_blank" rel="noopener">Sujet officiel ↗</a>
+      <a class="official-link" id="guidedPath">Parcours guidé →</a>
+    </div>
+  </div>
+  <aside class="side-note">
+    <p><strong>Principe :</strong> vous répondez d'abord. L'IA ne fournit ni problématique modèle, ni plan, ni commentaire.</p>
+    <p><strong>Chronomètre :</strong> temps conseillé pour chaque étape, puis reprise possible en mode examen complet.</p>
+  </aside>
+</section>
+
+<section class="timer-bar">
+  <div><span class="micro">TEMPS DE L'ÉTAPE</span><strong id="stepTimer">00:00</strong></div>
+  <div><span class="micro">TEMPS TOTAL</span><strong id="totalTimer">00:00</strong></div>
+  <div class="timer-actions">
+    <button id="timerToggle">Démarrer</button>
+    <button id="timerReset">Réinitialiser</button>
+  </div>
+</section>
+
+<section class="annale-workspace">
+  <div class="annale-progress type" id="stepCount"></div>
+  <article class="annale-step-card">
+    <div class="kicker" id="stepLabel"></div>
+    <h2 id="stepTitle"></h2>
+    <p class="instruction" id="stepInstruction"></p>
+    <p class="micro annale-hint" id="stepHint"></p>
+    <textarea id="studentAnswer" rows="10" placeholder="Votre réponse…"></textarea>
+    <div class="annale-training-actions">
+      <button class="btn red small" id="aiCheck">Diagnostic IA</button>
+      <button class="btn small" id="saveNext">Enregistrer et continuer →</button>
+    </div>
+    <div class="ai-feedback annale-ai-feedback" id="aiFeedback" aria-live="polite"></div>
+  </article>
+
+  <section class="annale-summary" id="summary" hidden>
+    <div class="kicker">VOTRE TRAVAIL</div>
+    <h2>Le sujet est prêt à être repris sans aide.</h2>
+    <div id="summaryContent"></div>
+    <p class="micro">Les réponses sont enregistrées uniquement dans ce navigateur.</p>
+    <a class="btn red small" id="restartExam">Refaire en mode examen →</a>
+  </section>
+</section>
+</main>
+
+<script src="catalogue-annales.js"></script>
+<script src="entrainement-annale.js"></script>
+</body>
+</html>
