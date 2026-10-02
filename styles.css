@@ -290,3 +290,6 @@
  .student-doors{grid-template-columns:1fr}
  .site-menu-grid{grid-template-columns:1fr}
 }
+
+/* Statut IA explicite */
+.ai-status-note{font:12px 'American Typewriter','Courier New',monospace;letter-spacing:.8px;color:var(--muted);text-transform:uppercase}
