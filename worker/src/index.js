@@ -38,8 +38,8 @@ const GENERIC_FORBIDDEN = [
 const FALLBACK_BY_KIND = {
   lecture:["Tu as formulé une tentative.","Il faut rester plus près de l'opération demandée et du passage.","Quel élément précis de la situation ou du mouvement du texte peux-tu formuler sans encore l'interpréter ?"],
   problematique:["Tu as formulé une vraie question.","Il faut faire apparaître plus nettement ce qui, dans le texte, demande une explication.","Quels sont les deux pôles de la transformation que ta question doit garder ensemble ?"],
-  plan:["Tu proposes une organisation.","Il faut vérifier que chaque partie est une réponse nécessaire à la problématique, et non un thème.","Que répond exactement chacune de tes parties à la problématique ?"],
-  transition:["Tu cherches ce qui manque encore.","La transition doit être réduite à une seule question qui fait apparaître le manque restant.","Quelle question reste encore ouverte après la réponse précédente ?"],
+  plan:["Tu proposes une organisation.","Il faut vérifier que chaque partie est une SOLUTION nécessaire à la problématique, et non un thème.","Quelle solution précise chacune de tes parties apporte-t-elle à la problématique ?"],
+  transition:["Tu cherches ce qui manque encore.","La transition doit être réduite à une seule question qui fait apparaître le manque restant.","Quelle question reste encore ouverte après la solution précédente ?"],
   analyse:["Tu proposes une analyse.","Il faut distinguer plus nettement ce que le texte fait, ce qui le montre et l'effet produit ici.","Quelle réalisation veux-tu prouver, avec quel élément précis du texte, et qu'est-ce que cet élément change ici ?"],
   redaction:["Tu as commencé à rédiger.","Il faut vérifier que chaque phrase remplit la fonction demandée sans ajouter de développement inutile.","Quelle phrase de ton passage prouve le plus directement la réponse que tu défends ?"],
   "brevet-comprehension":["Tu as répondu à la question.","Il faut vérifier que ta réponse est suffisamment précise et justifiée lorsqu'une preuve est demandée.","Quel mot ou passage du texte prouve exactement ta réponse ?"],
@@ -152,7 +152,7 @@ function buildSpec(body) {
 
     const extraRules = isBac ? [
       "Une grande partie est une SOLUTION nécessaire à la problématique, jamais un thème.",
-      "NÉCESSITÉ / Pourquoi ? = pourquoi cette solution est nécessaire pour poursuivre la démonstration.",
+      "NÉCESSITÉ DE LA SOLUTION = pourquoi cette solution est indispensable pour comprendre la transformation et répondre à la problématique.",
       "Une TRANSITION est une seule question simple qui fait apparaître ce qu'il reste encore à expliquer.",
       "RÉALISATION = ce que le texte fait pour construire la solution.",
       "ÉLÉMENT TEXTUEL = ce qui, dans le texte, permet de le montrer.",
@@ -197,7 +197,7 @@ function buildSpec(body) {
     const explicitKind=clean(context.kind,50);
     let kind=ALLOWED_STAGE_KINDS.has(explicitKind) ? explicitKind : "lecture";
     if (!ALLOWED_STAGE_KINDS.has(explicitKind) && /probl[ée]matique/.test(lower)) kind="problematique";
-    else if (!ALLOWED_STAGE_KINDS.has(explicitKind) && /plan|partie|réponse nécessaire|reponse necessaire/.test(lower)) kind="plan";
+    else if (!ALLOWED_STAGE_KINDS.has(explicitKind) && /plan|partie|solution nécessaire|solution necessaire/.test(lower)) kind="plan";
     else if (!ALLOWED_STAGE_KINDS.has(explicitKind) && /transition/.test(lower)) kind="transition";
     else if (!ALLOWED_STAGE_KINDS.has(explicitKind) && /réécri|reecri/.test(lower)) kind="brevet-reecriture";
     else if (!ALLOWED_STAGE_KINDS.has(explicitKind) && /grammaire|nature|fonction|conjug|accord|pronom|temps verbal|lexique/.test(lower)) kind="brevet-grammaire";
@@ -215,7 +215,7 @@ function buildSpec(body) {
       "Pour l’entretien, la question_suivante doit être une vraie relance ouverte prenant appui sur ce que l’élève a dit."
     ] : isCommentary ? [
       "Une grande partie est une SOLUTION nécessaire à la problématique, jamais un thème.",
-      "Une transition est une seule question simple qui fait apparaître ce qu'il reste encore à expliquer.",
+      "TRANSITION = une seule question simple qui fait apparaître ce que la solution précédente ne suffit pas encore à expliquer. Elle ne justifie pas la solution suivante : elle rend seulement nécessaire le passage à une étape supplémentaire.",
       "RÉALISATION = ce que le texte fait ; ÉLÉMENT TEXTUEL = ce qui le montre ; PROCÉDÉ = comment l'élément est construit lorsqu'il est utile ; EFFET = ce que cela change ici.",
       "Ne jamais employer « établissement » pour nommer une partie.",
       "Ne jamais fournir un commentaire complet à partir d'une réponse partielle."
@@ -250,7 +250,7 @@ function buildSpec(body) {
     extraRules:[
       "Une grande partie est une SOLUTION nécessaire à la problématique.",
       "Ne jamais employer « établissement » pour désigner une partie.",
-      "Une transition est une simple question qui fait apparaître ce qui manque encore."
+      "TRANSITION = une simple question qui fait apparaître ce que la solution précédente ne suffit pas encore à expliquer."
     ]
   };
 }
@@ -320,7 +320,8 @@ Tu aides l'élève à refaire lui-même une opération précise. Tu ne fournis j
 VOCABULAIRE ET MÉTHODE
 - Problématique : la question qui demande ce que le texte oblige à expliquer.
 - Solution : ce que chaque grande partie affirme pour répondre à la problématique.
-- Pourquoi ? / nécessité : pourquoi cette solution est nécessaire dans la démonstration.
+- Nécessité de la solution : pourquoi cette solution est indispensable pour comprendre la transformation et répondre à la problématique.
+- Nécessité de transition : ce que la solution précédente ne suffit pas encore à expliquer ; elle s'exprime par une question simple qui rend nécessaire le passage à l'étape suivante.
 - Réalisation : ce que le texte fait.
 - Élément textuel : ce qui, dans le texte, permet de le montrer.
 - Procédé : comment l'élément est construit, seulement si cela aide réellement.
