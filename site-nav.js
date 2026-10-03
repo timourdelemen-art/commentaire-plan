@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded',()=> {
   if(!header) return;
 
   const path=(location.pathname.split('/').pop()||'index.html').toLowerCase();
-  const bacPages=['bac.html','anthologie-bac.html','bac-commentaire.html','bac-commentaire-procedes.html','bac-commentaire-procedes-entrainement.html','manuel-procedes.html','bac-dissertation.html','bac-oral.html','bac-mode-examen.html'];
+  const bacPages=['bac.html','anthologie-bac.html','bac-commentaire.html','bac-commentaire-procedes.html','bac-commentaire-procedes-entrainement.html','manuel-procedes.html','bac-dissertation.html','bac-oral.html','bac-mode-examen.html','commentaire-bac-methode.html','commentaire-bac-problematique.html','commentaire-bac-plan.html','commentaire-bac-procedes-effets.html','commentaire-bac-introduction.html','commentaire-bac-transition.html','commentaire-bac-conclusion.html'];
   const brevetPages=['brevet.html','anthologie-brevet.html','brevet-comprehension.html','brevet-grammaire.html','brevet-reecriture.html','brevet-redaction.html'];
   const teacherPages=['enseignants.html','formation.html','bibliotheque.html'];
   const is=(names)=>names.includes(path);
@@ -29,6 +29,7 @@ document.addEventListener('DOMContentLoaded',()=> {
     bac:[
       ['anthologie-bac.html','Anthologie Bac'],
       ['bac-commentaire.html','Commentaire'],
+      ['commentaire-bac-methode.html','Méthode'],
       ['bac-dissertation.html','Dissertation'],
       ['bac-oral.html','Oral'],
       ['annales.html#bac','Annales']
@@ -68,7 +69,8 @@ document.addEventListener('DOMContentLoaded',()=> {
   const portals=[
     portal('bac.html','Bac','écrit · oral',[
       ['anthologie-bac.html','Anthologie Bac','Entrer par les textes'],
-      ['bac-commentaire.html','Commentaire','Problématique · plan · analyse'],
+      ['bac-commentaire.html','Commentaire','Exercices et parcours'],
+      ['commentaire-bac-methode.html','Méthode du commentaire','Problématique · plan · procédés · rédaction'],
       ['bac-dissertation.html','Dissertation','Construire une démonstration'],
       ['bac-oral.html','Oral','Préparation · explication · entretien'],
       ['annales.html#bac','Annales','Sujets officiels'],
