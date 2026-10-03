@@ -65,8 +65,8 @@
       "<div class='paywall-box'>"+
       "<div class='kicker'>ACCÈS COMPLET</div>"+
       "<h3>Vous avez utilisé vos 5 retours gratuits.</h3>"+
-      "<p>Vous pouvez continuer à travailler le texte. Pour recevoir de nouveaux diagnostics, accéder aux parcours complets et aux futurs entraînements premium, il faut débloquer l’accès complet.</p>"+
-      "<a class='btn red small' href='"+paywallUrl()+"'>Voir l’offre à 29 € →</a>"+
+      "<p>Vous pouvez continuer à travailler le texte. Pour recevoir de nouveaux retours, accéder aux parcours complets et aux entraînements ciblés, l’accès complet ouvre tout l’espace élève pendant 12 mois.</p>"+
+      "<a class='btn red small' href='"+paywallUrl()+"'>Voir l’offre · 29 € pour 12 mois →</a>"+
       "</div>";
     container.classList.add("show");
   }
