@@ -711,3 +711,53 @@ Exemple correct :
 
 Ne jamais écrire dans un contenu visible :
 > Émile Zola, Pot-Bouille.
+
+
+## Standard du commentaire modèle distribué par le professeur
+
+Chaque séquence d'œuvre intégrale peut se terminer par :
+1. une rédaction autonome de l'élève ;
+2. une reprise ou correction ;
+3. la distribution d'un **commentaire modèle bref**.
+
+### Format du modèle
+Le modèle s'inspire des corrigés de référence fournis par l'enseignant :
+- introduction courte ;
+- problématique immédiatement lisible ;
+- progression en 2 ou 3 étapes ;
+- transitions formulées comme des questions simples ;
+- paragraphes où chaque phrase a une fonction claire ;
+- citations courtes intégrées dans la phrase ;
+- procédés nommés seulement lorsqu'ils sont utiles ;
+- effet expliqué dans le passage précis ;
+- conclusion qui synthétise les effets et ne répète pas simplement les titres des parties.
+
+### Fonction de chaque phrase
+Une phrase doit principalement :
+- situer ;
+- formuler une idée ;
+- apporter une preuve ;
+- nommer un procédé ;
+- expliquer un effet ;
+- relier à la problématique ;
+- faire apparaître ce qu'il reste à comprendre ;
+- conclure.
+
+Éviter les phrases de remplissage et les généralisations vagues.
+
+### Deux niveaux de production élève
+Selon la classe et le moment de l'année :
+- **niveau 1** : rédiger un paragraphe ou une partie complète ;
+- **niveau 2** : rédiger le commentaire entier.
+
+### Présentation
+- titre de l'œuvre en italique ;
+- citations françaises avec guillemets français « … » ;
+- ponctuation et espaces vérifiées ;
+- alinéas nets ;
+- aucune citation laissée sans fermeture de guillemets ;
+- aucune vieille terminologie non retenue dans le site : utiliser **solution**, pas « établissement ».
+
+### Contrôle qualité
+Les anciens modèles servent de référence pour le ton et l'architecture, mais ils doivent être relus avant réemploi.
+Ne jamais reproduire automatiquement leurs erreurs de typographie, de guillemets ou une terminologie désormais abandonnée.
