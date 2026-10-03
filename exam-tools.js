@@ -71,4 +71,55 @@ document.addEventListener('DOMContentLoaded',()=>{
     showFile(oralPdf,'PDF');
     if(saved.text)oralStatus.textContent='Texte copié-collé restauré depuis ce navigateur.';
   }
+
+  // Oral du Bac — retours critériés sur productions textuelles
+  const ORAL_ENDPOINT="https://atelier-commentaire-ia.timour-delemen.workers.dev/api/analyze";
+  document.querySelectorAll(".oral-ai-btn").forEach(btn=>btn.addEventListener("click",async()=>{
+    const kind=btn.dataset.oralKind;
+    const target=document.querySelector('[data-feedback-for="'+kind+'"]');
+    const source=(document.getElementById("oral-source-text")?.value||"").trim();
+    const author=(document.getElementById("oral-author")?.value||"").trim();
+    const work=(document.getElementById("oral-text-work")?.value||"").trim();
+    let answer="",instruction="",quote=source;
+    if(kind==="explanation"){
+      answer=(document.getElementById("oral-explanation")?.value||"").trim();
+      instruction="Évalue cette explication linéaire comme entraînement à la première partie de l’oral du bac de français : vérifier la compréhension du mouvement du passage, la précision des analyses, l’appui sur le texte, la qualité de l’interprétation et la clarté du propos. Donne un seul acquis, un seul manque prioritaire et une seule question de reprise. Ne donne pas de note.";
+    }else if(kind==="grammar"){
+      answer=(document.getElementById("oral-grammar-answer")?.value||"").trim();
+      const q=(document.getElementById("oral-grammar-question")?.value||"").trim();
+      instruction="Question de grammaire de l’oral du bac : "+q+". Vérifie la notion syntaxique, le lexique grammatical, la fonction ou relation demandée et la pertinence des manipulations utilisées. Une manipulation doit être expliquée par ce qu’elle démontre. Donne un acquis, un manque principal et une question de reprise. Ne donne pas la réponse complète si l’élève peut encore la reconstruire.";
+    }else{
+      answer=(document.getElementById("oral-interview-answer")?.value||"").trim();
+      const chosen=(document.getElementById("oral-work")?.value||"").trim();
+      instruction="Simulation de la seconde partie de l’oral du bac de français. Œuvre choisie : "+chosen+". Évalue la capacité à présenter synthétiquement l’œuvre, justifier un choix personnel, défendre une lecture, nuancer, argumenter et entrer dans un dialogue. Donne un acquis, un manque principal, puis formule comme question suivante une vraie relance ouverte d’examinateur fondée sur ce que l’élève vient de dire.";
+      quote="";
+    }
+    if(answer.length<20){
+      if(target){target.textContent="Votre réponse est trop courte pour un retour utile.";target.classList.add("show");}
+      return;
+    }
+    btn.disabled=true;
+    const old=btn.textContent; btn.textContent="Analyse…";
+    if(target){target.className="feedback oral-ai-feedback";target.textContent="";}
+    try{
+      const res=await fetch(ORAL_ENDPOINT,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({
+        exercise:"free-response",
+        answer,
+        context:{title:"Oral du Bac — "+(author&&work?author+" — "+work:kind),instruction,quote,page:"bac-oral",kind:kind==="grammar"?"brevet-grammaire":kind==="explanation"?"analyse":"brevet-redaction"}
+      })});
+      const data=await res.json();
+      if(!res.ok||!data.ok) throw new Error(data.error||"Retour indisponible.");
+      const f=data.feedback||{};
+      if(target){
+        target.innerHTML="<strong>"+(f.diagnostic==="acquis"?"Solide":f.diagnostic==="partiel"?"À préciser":"À reprendre")+"</strong>"+
+          "<p><b>Point acquis :</b> "+(f.point_acquis||"—")+"</p>"+
+          "<p><b>Priorité :</b> "+(f.manque_principal||"—")+"</p>"+
+          "<p><b>"+(kind==="interview"?"Relance":"Pour reprendre")+" :</b> "+(f.question_suivante||"—")+"</p>";
+        target.classList.add("show");
+      }
+    }catch(e){
+      if(target){target.textContent=e.message||"Retour indisponible.";target.classList.add("show");}
+    }finally{btn.disabled=false;btn.textContent=old;}
+  }));
+
 });
