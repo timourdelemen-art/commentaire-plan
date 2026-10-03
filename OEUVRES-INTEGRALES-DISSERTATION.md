@@ -242,3 +242,160 @@ Un extrait n’entre dans la banque de Première que si l’on peut répondre cl
 - la capacité du roman à rendre visibles des structures sociales, économiques et liées au genre.
 
 Ces axes ne doivent pas devenir des fiches à mémoriser. Ils servent à construire des exercices où l’élève observe, classe, relie, formule et réemploie.
+
+
+## Haute sélection des extraits — protocole obligatoire
+
+Aucun extrait ne doit être retenu parce qu'il est célèbre, facilement disponible ou immédiatement séduisant.
+La sélection finale intervient **après l'analyse intégrale de l'œuvre**.
+
+### Étape 1 — cartographier toute l'œuvre
+Pour chaque chapitre / scène / ensemble de poèmes :
+- fonction dans l'architecture générale ;
+- personnages / voix concernés ;
+- enjeux sociaux, moraux, esthétiques et narratifs ;
+- motifs récurrents ;
+- lieux et objets structurants ;
+- transformations majeures ;
+- liens avec le parcours officiel ;
+- potentiel de réemploi dans une dissertation.
+
+### Étape 2 — constituer une liste longue de passages candidats
+Chaque candidat est décrit sans encore être retenu :
+- situation précise ;
+- limites possibles du passage ;
+- mouvement interne ;
+- X repérable ;
+- Y repérable ;
+- problématique possible ;
+- potentiel d'analyse linéaire ;
+- procédés et effets réellement utiles ;
+- intérêt transversal ;
+- intérêt dissertation ;
+- difficultés lexicales / syntaxiques / contextuelles.
+
+### Étape 3 — comparer les candidats
+Chaque passage est évalué qualitativement selon :
+1. netteté du mouvement ;
+2. qualité du X → pourtant → Y ;
+3. richesse interprétative sans sophistication artificielle ;
+4. accessibilité pour un élève de Première ;
+5. longueur compatible EAF ;
+6. présence d'éléments textuels précis ;
+7. diversité des procédés utiles ;
+8. possibilité de construire plusieurs analyses cohérentes ;
+9. capacité à éclairer l'œuvre entière ;
+10. réutilisabilité dans plusieurs sujets de dissertation ;
+11. complémentarité avec les autres extraits retenus ;
+12. potentiel d'exercices variés.
+
+Un extrait très bon isolément peut être écarté s'il répète un autre passage plus rentable.
+
+### Étape 4 — vérifier l'authenticité
+Avant publication :
+- texte contrôlé sur une édition de référence du domaine public ;
+- comparaison avec Wikisource validé et, si nécessaire, Gallica / édition numérisée ;
+- ponctuation, alinéas, guillemets, tirets, graphies vérifiés ;
+- aucune modernisation silencieuse ;
+- limites exactes du passage conservées dans la fiche interne.
+
+### Étape 5 — sélectionner 4 à 6 extraits maximum
+La sélection finale doit couvrir des fonctions différentes dans l'œuvre :
+- mise en place ;
+- dévoilement ;
+- bascule ;
+- confrontation ;
+- crise / contradiction ;
+- synthèse ou aboutissement.
+
+Elle doit également éviter de donner une vision partielle ou monotone de l'œuvre.
+
+## Batterie d'exercices sur chaque extrait
+
+### A. Avant l'analyse
+- Comprendre la situation minimale.
+- Qu'est-ce que le passage met en place ?
+- Qu'est-ce qu'on pouvait attendre ?
+- Qu'est-ce que le passage produit pourtant ?
+
+### B. Problématique
+Format privilégié : trois problématiques dont une seule conserve exactement la tension du passage.
+Les deux distracteurs doivent être **plausibles et discrets** :
+- jamais manifestement absurdes ;
+- l'un peut être trop thématique ;
+- l'autre peut repérer un procédé ou un effet mais manquer le problème exact ;
+- la bonne réponse ne doit pas être mécaniquement la plus longue ni la plus savante.
+
+Variante sans QCM :
+- trois problématiques à classer de la moins à la plus précise ;
+- expliquer ce que chacune perd ;
+- reformuler la meilleure.
+
+### C. Mouvement / plan
+- découper le passage en 2 à 4 mouvements ;
+- associer chaque mouvement à ce qu'il fait ;
+- choisir entre plusieurs découpages plausibles ;
+- transformer le mouvement linéaire en plan de commentaire composé ;
+- formuler une solution pour chaque grande étape.
+
+### D. « Ce que le texte fait » avant le mot réalisation
+Au premier contact, ne pas demander « quelle réalisation ? ».
+Demander :
+- « Qu'est-ce que le texte fait ici ? »
+- « Qu'est-ce que ce groupe d'éléments permet de montrer ? »
+Puis introduire :
+> On appelle **réalisation** cette formulation de ce que le texte fait pour construire une idée.
+
+### E. Procédés et effets
+Plusieurs formats possibles :
+- relever un procédé dans un passage très court et expliquer son effet précis ;
+- associer procédé → élément → effet parmi des propositions proches ;
+- distinguer effet vague / effet contextualisé ;
+- expliquer comment plusieurs procédés convergent vers un même effet ;
+- partir de plusieurs procédés et **les rassembler** sous « ce que le texte fait » ;
+- partir d'une idée et rechercher les éléments textuels qui la prouvent.
+
+### F. Rassembler
+Exercice particulièrement important :
+1. plusieurs observations sont données ;
+2. l'élève les regroupe selon ce qu'elles permettent de montrer ;
+3. il formule une phrase de synthèse pour chaque groupe ;
+4. seulement ensuite le professeur peut nommer cette phrase « réalisation ».
+
+### G. Effet et interprétation
+- « Qu'est-ce que cela change dans notre perception ? »
+- « Qu'est-ce que cela fait au personnage / au lieu / au lecteur / à l'argument ? »
+- « En quoi cet effet contribue-t-il à la problématique ? »
+
+### H. Réemploi transversal
+- retrouver un autre passage de l'œuvre qui confirme ou nuance cette analyse ;
+- suivre le même motif dans trois chapitres ;
+- comparer début / milieu / fin ;
+- rattacher l'extrait à un axe du parcours officiel ;
+- utiliser l'extrait comme preuve dans deux sujets de dissertation différents.
+
+### I. Production autonome
+Les fiches professeur peuvent proposer les questions seules, avec espace de rédaction à part.
+L'IA ne doit pas remplacer la production : elle intervient seulement après une réponse personnelle.
+
+## Pot-Bouille — règle spéciale de construction
+
+L'analyse intégrale doit précéder toute liste définitive d'extraits.
+
+La ressource officielle Éduscol demande d'articuler :
+- explication de passages ;
+- vues synthétiques et transversales ;
+- contexte historique, littéraire et artistique.
+
+La sélection de Pot-Bouille doit donc couvrir ensemble :
+- l'immeuble comme architecture sociale ;
+- façade / envers ;
+- surveillance et circulation ;
+- hiérarchies et ascension ;
+- relations de genre et domination ;
+- argent, mariage et stratégies sociales ;
+- comédie de mœurs / théâtralité ;
+- mécanismes de répétition et de reproduction sociale ;
+- évolution d'Octave et fonction de son regard.
+
+Aucun de ces axes ne doit être transformé en fiche passive : chacun doit donner lieu à une activité de classement, comparaison, repérage, formulation ou réemploi.
