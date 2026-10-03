@@ -94,7 +94,13 @@
         feedback.textContent=e.message||"Le retour n’est pas disponible pour le moment.";
         feedback.classList.add("show");
       }finally{
-        btn.disabled=false; btn.textContent="Vérifier ma réponse";
+        if(getLockUntil()>Date.now()){
+          btn.disabled=true;
+          area.disabled=true;
+        }else{
+          btn.disabled=false;
+          btn.textContent="Vérifier ma réponse";
+        }
       }
     });
   }
