@@ -280,6 +280,34 @@ export default {
     try { body = await request.json(); }
     catch { return json({ ok: false, error: "Requête invalide." }, 400, origin); }
 
+    if (clean(body.exercise,80) === "oral-source-image") {
+      const imageData=typeof body.image_data_url==="string" ? body.image_data_url : "";
+      if(!/^data:image\/(jpeg|png|webp);base64,/i.test(imageData) || imageData.length>5500000){
+        return json({ok:false,error:"Image invalide ou trop volumineuse."},400,origin);
+      }
+      const visionPayload={
+        model: env.OPENAI_MODEL || "gpt-5-mini",
+        instructions: "Tu transcris fidèlement un extrait littéraire photographié pour un entraînement scolaire. Recopie uniquement le texte visible utile, dans l’ordre, sans le corriger, sans moderniser l’orthographe, sans inventer les mots illisibles. Pour un mot illisible, écris [illisible]. Ignore les éléments d’interface ou objets autour de la page. Réponds uniquement avec la transcription, sans commentaire.",
+        input:[{role:"user",content:[
+          {type:"input_text",text:"Transcris fidèlement le texte littéraire visible sur cette photo."},
+          {type:"input_image",image_url:imageData,detail:"high"}
+        ]}],
+        max_output_tokens:2200,
+        store:false
+      };
+      let vr;
+      try{
+        vr=await fetch("https://api.openai.com/v1/responses",{method:"POST",headers:{"Authorization":"Bearer "+env.OPENAI_API_KEY,"Content-Type":"application/json"},body:JSON.stringify(visionPayload)});
+      }catch{
+        return json({ok:false,error:"Extraction de l’image indisponible."},502,origin);
+      }
+      if(!vr.ok) return json({ok:false,error:"Le moteur n’a pas pu lire cette image."},502,origin);
+      const vd=await vr.json();
+      const extracted=extractOutputText(vd);
+      if(!extracted) return json({ok:false,error:"Aucun texte lisible n’a été extrait."},422,origin);
+      return json({ok:true,extracted_text:extracted},200,origin);
+    }
+
     const answer = clean(body.answer, 5000);
     const spec = buildSpec(body);
 
