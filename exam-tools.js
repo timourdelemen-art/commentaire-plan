@@ -322,7 +322,7 @@ document.addEventListener('DOMContentLoaded',()=>{
         dialogueTurns.push(answer);
         answerArea.value="";
       }catch(e){alert(e.message||"Relance indisponible.");}
-      finally{oralAnswerDone.disabled=false;}
+      finally{if(lockUntil()<=Date.now())oralAnswerDone.disabled=false;}
     });
 
     oralInterviewFinish?.addEventListener("click",async()=>{
@@ -343,7 +343,7 @@ document.addEventListener('DOMContentLoaded',()=>{
         oralFinalBilan.hidden=false;
         oralFinalBilan.scrollIntoView({behavior:"smooth",block:"start"});
       }catch(e){alert(e.message||"Bilan indisponible.");}
-      finally{oralInterviewFinish.disabled=false;}
+      finally{if(lockUntil()<=Date.now())oralInterviewFinish.disabled=false;}
     });
 
     oralRestart?.addEventListener("click",()=>{
