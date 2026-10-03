@@ -26,15 +26,15 @@ Référentiel officiel :
 Traduction élève (5 gestes) :
 1. Comprendre ce que le texte met en place et transforme.
 2. Formuler une problématique.
-3. Construire 2 ou 3 solutions nécessaires et leurs transitions-question.
+3. Construire 2 ou 3 réponses nécessaires et leurs transitions-question.
 4. Analyser : réalisation → élément textuel → procédé utile → effet ici.
 5. Rédiger et transférer sur un sujet complet.
 
 IA :
 - jamais de commentaire complet à la place de l’élève ;
 - un acquis, un manque prioritaire, une question de reprise ;
-- protocole interne : problématique → solution → nécessité de la solution → réalisation → élément → procédé → effet ;
-- la transition est une question qui fait apparaître le manque restant, et non la nécessité de la solution suivante.
+- protocole interne : problématique → réponse → nécessité de la réponse → réalisation → élément → procédé → effet ;
+- la transition est une question qui fait apparaître le manque restant, et non la nécessité de la réponse suivante.
 
 ### Bac — Dissertation
 Référentiel officiel :
@@ -47,15 +47,21 @@ Référentiel officiel :
 - maîtriser langue et expression.
 
 Traduction élève (5 gestes) :
-1. Comprendre précisément le sujet.
-2. Faire apparaître la tension / question directrice.
-3. Construire des réponses argumentées qui progressent.
-4. Mobiliser des passages précis de l’œuvre et expliquer ce qu’ils prouvent.
-5. Rédiger une démonstration cohérente.
+1. Comprendre le sujet et réactiver l’œuvre utilement.
+2. Faire apparaître ce qu’il faut encore comprendre et formuler la problématique.
+3. Construire des réponses nécessaires, puis des arguments prouvés par l’œuvre.
+4. Vérifier la progression : preuves, transitions-question, ordre du plan.
+5. Rédiger et contrôler une démonstration visible mais fluide.
 
 IA :
-- distinguer sujet, enjeu, argument, exemple et analyse ;
-- exiger une utilisation effective de l’œuvre ;
+- distinguer sujet, problématique, réponse, nécessité de la réponse, argument, preuve, analyse et transition ;
+- ne jamais confondre une partie avec un thème ;
+- exiger une utilisation effective et variée de l’œuvre sans quota mécanique de passages ;
+- transition : acquis → question sur ce qui manque encore ;
+- accepter plusieurs formes de progression : approfondir, nuancer, déplacer, mettre en relation ;
+- exiger une formulation simple et élégante du plan ;
+- vérifier que les connecteurs expriment une relation logique réelle ;
+- culture littéraire : comparaison / différenciation → retour à l’œuvre → singularité ;
 - ne pas donner de plan modèle avant tentative ;
 - ne jamais convertir mécaniquement un palier en note.
 
