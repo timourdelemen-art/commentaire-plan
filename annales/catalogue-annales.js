@@ -13,17 +13,17 @@ window.ANNALES_CATALOGUE = {
     "parcours": "../bac-2026-hialmar.html",
     "dureeExamen": 14400,
     "ia": true,
-    "contexte": "Défaite physique → affirmation héroïque : Hialmar, mortellement blessé, transforme par la parole une mort subie en maîtrise héroïque.",
+    "contexte": "Poème de Leconte de Lisle proposé au commentaire du bac 2026. Travaillez d’abord le passage sans consulter de correction.",
     "etapes": [
       {
         "id": "donne",
         "kind": "lecture",
         "aiMode": "none",
-        "titre": "1. Le donné",
+        "titre": "1. Ce que le texte met en place",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases, dites seulement ce que le texte prend en charge au départ. Restez au plus près du passage.",
-        "aide": "Situation, voix, personnages, objet ou mouvement du passage. Pas encore de problématique.",
+        "consigne": "En une ou deux phrases, répondez simplement : qu’est-ce que le texte met en place ? Restez au plus près du passage.",
+        "aide": "Commencez par ce qui est effectivement présent : champ de bataille, survivant, morts, paroles du personnage. Ne donnez pas encore le sens global du poème.",
         "choix": ["Un guerrier victorieux célèbre son triomphe.", "Un guerrier gravement blessé reste seul parmi ses compagnons morts.", "Un amoureux hésite à déclarer ses sentiments."],
         "correction": "Le donné est une défaite physique : Hialmar est grièvement blessé, entouré de guerriers morts, et sa propre mort est imminente."
       },
@@ -35,7 +35,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 300,
         "access": "free",
         "consigne": "À partir de ce donné, formulez l’attente de lecture la plus simple : qu’aurait-on pu normalement attendre ?",
-        "aide": "Une attente simple suffit. Elle sert seulement à faire apparaître ensuite la transformation.",
+        "aide": "À partir d’un guerrier mortellement blessé après une défaite, quelle évolution paraîtrait la plus attendue ? Une phrase suffit.",
         "choix": ["Une agonie douloureuse, subie et dominée par l’impuissance.", "Une victoire militaire éclatante.", "Une scène comique fondée sur un malentendu."],
         "correction": "À partir de cette situation, on attendrait naturellement une agonie subie : le corps est vaincu et tout semble annoncer l’impuissance devant la mort."
       },
@@ -46,8 +46,8 @@ window.ANNALES_CATALOGUE = {
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
-        "consigne": "Qu’est-ce que le texte produit pourtant ? Formulez précisément ce qu’il transforme dans cette attente.",
-        "aide": "Un texte littéraire transforme ce qu’il prend en charge. Cherchez le déplacement produit par le passage.",
+        "consigne": "Qu’est-ce que le texte en fait ? Formulez précisément le déplacement produit par le passage.",
+        "aide": "Comparez cette attente à ce que Hialmar fait et dit jusqu’au dernier vers. Formulez le déplacement sans encore construire le plan.",
         "choix": ["La défaite devient progressivement une victoire héroïque.", "Le poème explique seulement les blessures du guerrier.", "Le texte abandonne Hialmar pour décrire uniquement le paysage."],
         "correction": "Le poème ne supprime pas la défaite physique : il en transforme le sens. Hialmar reprend une maîtrise par la parole et fait de sa mort une victoire héroïque."
       },
@@ -59,7 +59,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 420,
         "access": "free",
         "consigne": "Formulez la question qui demande COMMENT le texte produit cette transformation.",
-        "aide": "La question doit garder ensemble l’attente et ce que le texte produit pourtant. Elle ne doit être ni un thème ni une réponse déjà formulée.",
+        "aide": "Gardez ensemble l’agonie réellement subie et ce que la parole de Hialmar en fait progressivement.",
         "choix": ["Comment le poème décrit-il un champ de bataille ?", "Comment Leconte de Lisle transforme-t-il l’agonie d’un guerrier vaincu en victoire héroïque ?", "Pourquoi Hialmar aime-t-il la fille d’Ylmer ?"],
         "correction": "Problématique modèle : « Comment Leconte de Lisle transforme-t-il l’agonie d’un guerrier vaincu en victoire héroïque ? » Elle garde ensemble la défaite donnée et la transformation produite par le poème."
       },
@@ -92,7 +92,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "free",
-        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
+        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce que la solution précédente ne suffit pas encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir ».",
         "choix": ["Nous allons maintenant voir la parole de Hialmar.", "Comment Hialmar peut-il alors rester maître au moment même où son corps ne lui obéit plus ?", "Après la défaite physique, nous étudierons les impératifs."],
         "correction": "Après la première solution : « Comment Hialmar peut-il alors rester maître au moment même où son corps ne lui obéit plus ? » Puis : « Mais commander sa propre mort suffit-il à en faire une victoire héroïque ? »"
@@ -105,7 +105,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 780,
         "access": "free",
         "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
-        "aide": "Une réalisation n’est ni une citation ni le nom d’un procédé."
+        "aide": "Cherchez des actions d’écriture différentes : construire la défaite, donner une autorité à la parole, modifier la valeur de la mort. Une réalisation n’est pas le nom d’une figure."
       },
       {
         "id": "preuves",
@@ -179,37 +179,37 @@ window.ANNALES_CATALOGUE = {
     "parcours": "../anthologie-bac.html",
     "dureeExamen": 14400,
     "ia": true,
-    "contexte": "Déplacement du regard : l’expérience du voyage est transformée par l’écriture.",
+    "contexte": "Extrait de L’Usage du monde de Nicolas Bouvier proposé au commentaire du bac 2026. Le passage appartient à un récit de voyage.",
     "etapes": [
       {
         "id": "donne",
         "kind": "lecture",
-        "aiMode": "none",
-        "titre": "1. Le donné",
+        "aiMode": "optional",
+        "titre": "1. Ce que le texte met en place",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases, dites seulement ce que le texte prend en charge au départ. Restez au plus près du passage.",
-        "aide": "Situation, voix, personnages, objet ou mouvement du passage. Pas encore de problématique."
+        "consigne": "En une ou deux phrases, répondez simplement : qu’est-ce que le texte met en place ? Restez au plus près du passage.",
+        "aide": "Partez du déplacement concret annoncé par le sujet : deux jeunes voyageurs quittent la Serbie pour gagner la Macédoine. Relevez ce que le passage donne à percevoir avant d’interpréter."
       },
       {
         "id": "attente",
         "kind": "lecture",
-        "aiMode": "none",
+        "aiMode": "optional",
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
         "consigne": "À partir de ce donné, formulez l’attente de lecture la plus simple : qu’aurait-on pu normalement attendre ?",
-        "aide": "Une attente simple suffit. Elle sert seulement à faire apparaître ensuite la transformation."
+        "aide": "Un récit de voyage pourrait se limiter au trajet, aux lieux et aux étapes. Demandez-vous ce que ce cadre fait d’abord attendre."
       },
       {
         "id": "transformation",
         "kind": "lecture",
-        "aiMode": "none",
+        "aiMode": "optional",
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
-        "consigne": "Qu’est-ce que le texte produit pourtant ? Formulez précisément ce qu’il transforme dans cette attente.",
-        "aide": "Un texte littéraire transforme ce qu’il prend en charge. Cherchez le déplacement produit par le passage."
+        "consigne": "Qu’est-ce que le texte en fait ? Formulez précisément le déplacement produit par le passage.",
+        "aide": "Observez ce que l’écriture fait de l’expérience du déplacement : ne résumez pas le voyage, formulez ce que le regard ou la perception deviennent dans le passage."
       },
       {
         "id": "problematique",
@@ -219,7 +219,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 420,
         "access": "free",
         "consigne": "Formulez la question qui demande COMMENT le texte produit cette transformation.",
-        "aide": "La question doit garder ensemble l’attente et ce que le texte produit pourtant. Elle ne doit être ni un thème ni une réponse déjà formulée."
+        "aide": "Votre question doit garder ensemble l’expérience concrète du voyage et le déplacement que l’écriture fait subir au regard."
       },
       {
         "id": "plan",
@@ -248,7 +248,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
+        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce que la solution précédente ne suffit pas encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
@@ -259,7 +259,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 780,
         "access": "premium",
         "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
-        "aide": "Une réalisation n’est ni une citation ni le nom d’un procédé."
+        "aide": "Cherchez comment le texte organise le regard : choix sensoriels ou lexicaux, point de vue, composition du passage, rythme. Formulez d’abord ce que ces moyens permettent de réaliser."
       },
       {
         "id": "preuves",
@@ -333,37 +333,37 @@ window.ANNALES_CATALOGUE = {
     "parcours": "../anthologie-bac.html",
     "dureeExamen": 14400,
     "ia": true,
-    "contexte": "Un paysage d’apparence réaliste devient progressivement étrange et inquiétant.",
+    "contexte": "Extrait du chapitre 1 de L’Ensorcelée de Barbey d’Aurevilly, proposé au commentaire du bac 2025. Le passage décrit la lande normande de Lessay.",
     "etapes": [
       {
         "id": "donne",
         "kind": "lecture",
-        "aiMode": "none",
-        "titre": "1. Le donné",
+        "aiMode": "optional",
+        "titre": "1. Ce que le texte met en place",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases, dites seulement ce que le texte prend en charge au départ. Restez au plus près du passage.",
-        "aide": "Situation, voix, personnages, objet ou mouvement du passage. Pas encore de problématique."
+        "consigne": "En une ou deux phrases, répondez simplement : qu’est-ce que le texte met en place ? Restez au plus près du passage.",
+        "aide": "Décrivez d’abord ce que le passage met en place : un paysage désertique, son étendue, son isolement et la manière dont le narrateur en parle. Pas encore d’interprétation fantastique."
       },
       {
         "id": "attente",
         "kind": "lecture",
-        "aiMode": "none",
+        "aiMode": "optional",
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
         "consigne": "À partir de ce donné, formulez l’attente de lecture la plus simple : qu’aurait-on pu normalement attendre ?",
-        "aide": "Une attente simple suffit. Elle sert seulement à faire apparaître ensuite la transformation."
+        "aide": "Une description précise d’un lieu réel pourrait rester géographique ou réaliste. Formulez cette attente simplement."
       },
       {
         "id": "transformation",
         "kind": "lecture",
-        "aiMode": "none",
+        "aiMode": "optional",
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
-        "consigne": "Qu’est-ce que le texte produit pourtant ? Formulez précisément ce qu’il transforme dans cette attente.",
-        "aide": "Un texte littéraire transforme ce qu’il prend en charge. Cherchez le déplacement produit par le passage."
+        "consigne": "Qu’est-ce que le texte en fait ? Formulez précisément le déplacement produit par le passage.",
+        "aide": "Suivez ce qui arrive à cette lande au fil du passage : comment la description cesse-t-elle d’être seulement géographique ?"
       },
       {
         "id": "problematique",
@@ -373,7 +373,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 420,
         "access": "free",
         "consigne": "Formulez la question qui demande COMMENT le texte produit cette transformation.",
-        "aide": "La question doit garder ensemble l’attente et ce que le texte produit pourtant. Elle ne doit être ni un thème ni une réponse déjà formulée."
+        "aide": "Gardez ensemble le paysage réel de Lessay et la manière dont le texte modifie progressivement sa perception."
       },
       {
         "id": "plan",
@@ -402,7 +402,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
+        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce que la solution précédente ne suffit pas encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
@@ -413,7 +413,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 780,
         "access": "premium",
         "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
-        "aide": "Une réalisation n’est ni une citation ni le nom d’un procédé."
+        "aide": "Cherchez plusieurs opérations : creuser le vide et la solitude, faire circuler des paroles ou croyances, donner au paysage une présence, organiser une montée de l’inquiétude."
       },
       {
         "id": "preuves",
@@ -487,37 +487,37 @@ window.ANNALES_CATALOGUE = {
     "parcours": "../bac-2025-montaigne.html",
     "dureeExamen": 14400,
     "ia": true,
-    "contexte": "Montaigne déplace le jugement social vers une interrogation sur la valeur propre des hommes.",
+    "contexte": "Extrait des Essais de Montaigne, « Sur l’inégalité entre les hommes », proposé au commentaire du bac 2025. Le passage invite à remettre en cause une habitude de jugement.",
     "etapes": [
       {
         "id": "donne",
         "kind": "lecture",
-        "aiMode": "none",
-        "titre": "1. Le donné",
+        "aiMode": "optional",
+        "titre": "1. Ce que le texte met en place",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases, dites seulement ce que le texte prend en charge au départ. Restez au plus près du passage.",
-        "aide": "Situation, voix, personnages, objet ou mouvement du passage. Pas encore de problématique."
+        "consigne": "En une ou deux phrases, répondez simplement : qu’est-ce que le texte met en place ? Restez au plus près du passage.",
+        "aide": "Identifiez l’objet de réflexion et la mauvaise habitude de jugement que Montaigne prend en charge. Le donné peut ici être une manière commune de juger, pas une situation narrative."
       },
       {
         "id": "attente",
         "kind": "lecture",
-        "aiMode": "none",
+        "aiMode": "optional",
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
         "consigne": "À partir de ce donné, formulez l’attente de lecture la plus simple : qu’aurait-on pu normalement attendre ?",
-        "aide": "Une attente simple suffit. Elle sert seulement à faire apparaître ensuite la transformation."
+        "aide": "À partir des hiérarchies et signes sociaux évoqués, quel type de jugement ordinaire pourrait-on attendre ?"
       },
       {
         "id": "transformation",
         "kind": "lecture",
-        "aiMode": "none",
+        "aiMode": "optional",
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
-        "consigne": "Qu’est-ce que le texte produit pourtant ? Formulez précisément ce qu’il transforme dans cette attente.",
-        "aide": "Un texte littéraire transforme ce qu’il prend en charge. Cherchez le déplacement produit par le passage."
+        "consigne": "Qu’est-ce que le texte en fait ? Formulez précisément le déplacement produit par le passage.",
+        "aide": "Demandez-vous vers quel autre critère Montaigne déplace l’évaluation des hommes. Formulez le déplacement sans encore faire le plan."
       },
       {
         "id": "problematique",
@@ -527,7 +527,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 420,
         "access": "free",
         "consigne": "Formulez la question qui demande COMMENT le texte produit cette transformation.",
-        "aide": "La question doit garder ensemble l’attente et ce que le texte produit pourtant. Elle ne doit être ni un thème ni une réponse déjà formulée."
+        "aide": "Votre question doit garder ensemble la manière habituelle de juger et le déplacement critique opéré par Montaigne."
       },
       {
         "id": "plan",
@@ -556,7 +556,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
+        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce que la solution précédente ne suffit pas encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
@@ -567,7 +567,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 780,
         "access": "premium",
         "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
-        "aide": "Une réalisation n’est ni une citation ni le nom d’un procédé."
+        "aide": "Cherchez comment l’argumentation déplace le jugement : oppositions, exemples ou comparaisons, paradoxes éventuels, progression du raisonnement."
       },
       {
         "id": "preuves",
@@ -641,37 +641,37 @@ window.ANNALES_CATALOGUE = {
     "parcours": "../anthologie-bac.html",
     "dureeExamen": 14400,
     "ia": true,
-    "contexte": "Le vocabulaire de la guerre est transformé en langage amoureux.",
+    "contexte": "Poème de Guillaume Apollinaire, « La Mésange », écrit dans le contexte de la mobilisation de 1914 et dédié à Lou, proposé au commentaire du bac 2025.",
     "etapes": [
       {
         "id": "donne",
         "kind": "lecture",
-        "aiMode": "none",
-        "titre": "1. Le donné",
+        "aiMode": "optional",
+        "titre": "1. Ce que le texte met en place",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases, dites seulement ce que le texte prend en charge au départ. Restez au plus près du passage.",
-        "aide": "Situation, voix, personnages, objet ou mouvement du passage. Pas encore de problématique."
+        "consigne": "En une ou deux phrases, répondez simplement : qu’est-ce que le texte met en place ? Restez au plus près du passage.",
+        "aide": "Repérez ce que le poème met simultanément en présence : la relation amoureuse, l’éloignement et le contexte de guerre. N’interprétez pas encore leur articulation."
       },
       {
         "id": "attente",
         "kind": "lecture",
-        "aiMode": "none",
+        "aiMode": "optional",
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
         "consigne": "À partir de ce donné, formulez l’attente de lecture la plus simple : qu’aurait-on pu normalement attendre ?",
-        "aide": "Une attente simple suffit. Elle sert seulement à faire apparaître ensuite la transformation."
+        "aide": "Le vocabulaire de la guerre et celui de l’amour pourraient rester opposés. Formulez ce que cette coexistence fait d’abord attendre."
       },
       {
         "id": "transformation",
         "kind": "lecture",
-        "aiMode": "none",
+        "aiMode": "optional",
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
-        "consigne": "Qu’est-ce que le texte produit pourtant ? Formulez précisément ce qu’il transforme dans cette attente.",
-        "aide": "Un texte littéraire transforme ce qu’il prend en charge. Cherchez le déplacement produit par le passage."
+        "consigne": "Qu’est-ce que le texte en fait ? Formulez précisément le déplacement produit par le passage.",
+        "aide": "Observez comment le poème fait circuler les images d’un univers à l’autre. Que devient le langage de la guerre lorsqu’il entre dans le poème amoureux ?"
       },
       {
         "id": "problematique",
@@ -681,7 +681,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 420,
         "access": "free",
         "consigne": "Formulez la question qui demande COMMENT le texte produit cette transformation.",
-        "aide": "La question doit garder ensemble l’attente et ce que le texte produit pourtant. Elle ne doit être ni un thème ni une réponse déjà formulée."
+        "aide": "Gardez ensemble l’expérience guerrière et l’adresse amoureuse, sans réduire le texte à un simple contraste."
       },
       {
         "id": "plan",
@@ -710,7 +710,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
+        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce que la solution précédente ne suffit pas encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
@@ -721,7 +721,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 780,
         "access": "premium",
         "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
-        "aide": "Une réalisation n’est ni une citation ni le nom d’un procédé."
+        "aide": "Cherchez comment le poème fait communiquer les deux univers : métaphores, oppositions lexicales, rythme et organisation des vers."
       },
       {
         "id": "preuves",
@@ -795,37 +795,37 @@ window.ANNALES_CATALOGUE = {
     "parcours": "../anthologie-bac.html",
     "dureeExamen": 14400,
     "ia": true,
-    "contexte": "L’amour se heurte à l’impossibilité sociale : le sentiment révèle la force de l’obstacle.",
+    "contexte": "Extrait d’Édouard de Claire de Duras, proposé au commentaire du bac 2024. Édouard aime la duchesse de Nevers, mais leur différence de condition sociale interdit leur union.",
     "etapes": [
       {
         "id": "donne",
         "kind": "lecture",
-        "aiMode": "none",
-        "titre": "1. Le donné",
+        "aiMode": "optional",
+        "titre": "1. Ce que le texte met en place",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases, dites seulement ce que le texte prend en charge au départ. Restez au plus près du passage.",
-        "aide": "Situation, voix, personnages, objet ou mouvement du passage. Pas encore de problématique."
+        "consigne": "En une ou deux phrases, répondez simplement : qu’est-ce que le texte met en place ? Restez au plus près du passage.",
+        "aide": "Observez ce que le passage met en place : scène du soir, présence de la femme aimée, perception d’Édouard et obstacle social déjà connu par le lecteur."
       },
       {
         "id": "attente",
         "kind": "lecture",
-        "aiMode": "none",
+        "aiMode": "optional",
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
         "consigne": "À partir de ce donné, formulez l’attente de lecture la plus simple : qu’aurait-on pu normalement attendre ?",
-        "aide": "Une attente simple suffit. Elle sert seulement à faire apparaître ensuite la transformation."
+        "aide": "L’harmonie du paysage et la proximité des deux personnages pourraient faire attendre un rapprochement ou un aveu heureux."
       },
       {
         "id": "transformation",
         "kind": "lecture",
-        "aiMode": "none",
+        "aiMode": "optional",
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
-        "consigne": "Qu’est-ce que le texte produit pourtant ? Formulez précisément ce qu’il transforme dans cette attente.",
-        "aide": "Un texte littéraire transforme ce qu’il prend en charge. Cherchez le déplacement produit par le passage."
+        "consigne": "Qu’est-ce que le texte en fait ? Formulez précisément le déplacement produit par le passage.",
+        "aide": "Suivez le basculement du passage : que devient cette harmonie lorsque l’obstacle social revient dans la conscience d’Édouard ?"
       },
       {
         "id": "problematique",
@@ -835,7 +835,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 420,
         "access": "free",
         "consigne": "Formulez la question qui demande COMMENT le texte produit cette transformation.",
-        "aide": "La question doit garder ensemble l’attente et ce que le texte produit pourtant. Elle ne doit être ni un thème ni une réponse déjà formulée."
+        "aide": "Gardez ensemble la proximité amoureuse et l’impossibilité sociale qui la contrarie."
       },
       {
         "id": "plan",
@@ -864,7 +864,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
+        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce que la solution précédente ne suffit pas encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
@@ -875,7 +875,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 780,
         "access": "premium",
         "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
-        "aide": "Une réalisation n’est ni une citation ni le nom d’un procédé."
+        "aide": "Cherchez comment le texte fait sentir simultanément l’accord et l’obstacle : perception interne, sensations, oppositions, rythme des pensées puis dialogue."
       },
       {
         "id": "preuves",
@@ -949,37 +949,37 @@ window.ANNALES_CATALOGUE = {
     "parcours": "../anthologie-bac.html",
     "dureeExamen": 14400,
     "ia": true,
-    "contexte": "Une scène intime devient une image historique de la guerre.",
+    "contexte": "Poème de Louis Aragon, « Elsa au miroir », extrait de La Diane française et proposé au commentaire du bac 2024. Une scène intime s’inscrit dans le temps de la guerre.",
     "etapes": [
       {
         "id": "donne",
         "kind": "lecture",
-        "aiMode": "none",
-        "titre": "1. Le donné",
+        "aiMode": "optional",
+        "titre": "1. Ce que le texte met en place",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases, dites seulement ce que le texte prend en charge au départ. Restez au plus près du passage.",
-        "aide": "Situation, voix, personnages, objet ou mouvement du passage. Pas encore de problématique."
+        "consigne": "En une ou deux phrases, répondez simplement : qu’est-ce que le texte met en place ? Restez au plus près du passage.",
+        "aide": "Commencez par la scène concrète : Elsa assise au miroir, le geste répété de se peigner, le regard du poète et la présence de la guerre dans le poème."
       },
       {
         "id": "attente",
         "kind": "lecture",
-        "aiMode": "none",
+        "aiMode": "optional",
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
         "consigne": "À partir de ce donné, formulez l’attente de lecture la plus simple : qu’aurait-on pu normalement attendre ?",
-        "aide": "Une attente simple suffit. Elle sert seulement à faire apparaître ensuite la transformation."
+        "aide": "Une scène de femme au miroir pourrait rester un portrait intime ou amoureux. Formulez cette attente sans anticiper l’interprétation."
       },
       {
         "id": "transformation",
         "kind": "lecture",
-        "aiMode": "none",
+        "aiMode": "optional",
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
-        "consigne": "Qu’est-ce que le texte produit pourtant ? Formulez précisément ce qu’il transforme dans cette attente.",
-        "aide": "Un texte littéraire transforme ce qu’il prend en charge. Cherchez le déplacement produit par le passage."
+        "consigne": "Qu’est-ce que le texte en fait ? Formulez précisément le déplacement produit par le passage.",
+        "aide": "Observez ce que deviennent progressivement le miroir, les cheveux et le geste de se peigner. À quoi la scène intime donne-t-elle accès ?"
       },
       {
         "id": "problematique",
@@ -989,7 +989,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 420,
         "access": "free",
         "consigne": "Formulez la question qui demande COMMENT le texte produit cette transformation.",
-        "aide": "La question doit garder ensemble l’attente et ce que le texte produit pourtant. Elle ne doit être ni un thème ni une réponse déjà formulée."
+        "aide": "Votre question doit garder ensemble l’intimité de la scène et l’élargissement historique ou mémoriel produit par le poème."
       },
       {
         "id": "plan",
@@ -1018,7 +1018,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
+        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce que la solution précédente ne suffit pas encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
@@ -1029,7 +1029,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 780,
         "access": "premium",
         "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
-        "aide": "Une réalisation n’est ni une citation ni le nom d’un procédé."
+        "aide": "Cherchez comment le poème transforme les objets de la scène : répétitions, images du feu, miroir, mémoire et composition fondée sur le retour des mêmes formules."
       },
       {
         "id": "preuves",
@@ -1103,37 +1103,37 @@ window.ANNALES_CATALOGUE = {
     "parcours": "../anthologie-bac.html",
     "dureeExamen": 14400,
     "ia": true,
-    "contexte": "Le compte rendu d’art se transforme en rêverie intime et philosophique.",
+    "contexte": "Extrait du Salon de 1767 de Denis Diderot, proposé au commentaire du bac 2023. La contemplation d’un tableau de ruines déclenche la réflexion du critique.",
     "etapes": [
       {
         "id": "donne",
         "kind": "lecture",
-        "aiMode": "none",
-        "titre": "1. Le donné",
+        "aiMode": "optional",
+        "titre": "1. Ce que le texte met en place",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases, dites seulement ce que le texte prend en charge au départ. Restez au plus près du passage.",
-        "aide": "Situation, voix, personnages, objet ou mouvement du passage. Pas encore de problématique."
+        "consigne": "En une ou deux phrases, répondez simplement : qu’est-ce que le texte met en place ? Restez au plus près du passage.",
+        "aide": "Le texte part de la contemplation de ruines peintes. Relevez ce que ces ruines donnent à voir et les premières idées qu’elles font naître chez Diderot."
       },
       {
         "id": "attente",
         "kind": "lecture",
-        "aiMode": "none",
+        "aiMode": "optional",
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
         "consigne": "À partir de ce donné, formulez l’attente de lecture la plus simple : qu’aurait-on pu normalement attendre ?",
-        "aide": "Une attente simple suffit. Elle sert seulement à faire apparaître ensuite la transformation."
+        "aide": "Un Salon pourrait d’abord faire attendre une description ou un jugement sur une œuvre d’art. Formulez cette attente."
       },
       {
         "id": "transformation",
         "kind": "lecture",
-        "aiMode": "none",
+        "aiMode": "optional",
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
-        "consigne": "Qu’est-ce que le texte produit pourtant ? Formulez précisément ce qu’il transforme dans cette attente.",
-        "aide": "Un texte littéraire transforme ce qu’il prend en charge. Cherchez le déplacement produit par le passage."
+        "consigne": "Qu’est-ce que le texte en fait ? Formulez précisément le déplacement produit par le passage.",
+        "aide": "Observez jusqu’où la contemplation entraîne Diderot : que devient le commentaire d’art lorsqu’il réfléchit au temps, à sa propre mort puis à la solitude ?"
       },
       {
         "id": "problematique",
@@ -1143,7 +1143,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 420,
         "access": "free",
         "consigne": "Formulez la question qui demande COMMENT le texte produit cette transformation.",
-        "aide": "La question doit garder ensemble l’attente et ce que le texte produit pourtant. Elle ne doit être ni un thème ni une réponse déjà formulée."
+        "aide": "Gardez ensemble le point de départ esthétique et la méditation personnelle et philosophique qu’il fait naître."
       },
       {
         "id": "plan",
@@ -1172,7 +1172,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
+        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce que la solution précédente ne suffit pas encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
@@ -1183,7 +1183,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 780,
         "access": "premium",
         "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
-        "aide": "Une réalisation n’est ni une citation ni le nom d’un procédé."
+        "aide": "Cherchez plusieurs mouvements d’écriture : généraliser, confronter l’individu au temps, faire entendre l’émotion, transformer la ruine en espace de retrait. Appuyez-vous sur rythme, énumérations, questions et images."
       },
       {
         "id": "preuves",
@@ -1257,37 +1257,37 @@ window.ANNALES_CATALOGUE = {
     "parcours": "../bac-2023-racine-berenice.html",
     "dureeExamen": 14400,
     "ia": true,
-    "contexte": "L’aveu amoureux partagé rend paradoxalement la séparation plus nécessaire.",
+    "contexte": "Extrait de Bérénice de Racine, acte IV, scène 5, proposé au commentaire du bac 2023. Titus et Bérénice s’aiment, mais Titus doit renoncer à elle.",
     "etapes": [
       {
         "id": "donne",
         "kind": "lecture",
-        "aiMode": "none",
-        "titre": "1. Le donné",
+        "aiMode": "optional",
+        "titre": "1. Ce que le texte met en place",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases, dites seulement ce que le texte prend en charge au départ. Restez au plus près du passage.",
-        "aide": "Situation, voix, personnages, objet ou mouvement du passage. Pas encore de problématique."
+        "consigne": "En une ou deux phrases, répondez simplement : qu’est-ce que le texte met en place ? Restez au plus près du passage.",
+        "aide": "Mettez en place le conflit sans le résoudre : deux amants se retrouvent, leur amour demeure, mais la fonction impériale de Titus impose la séparation."
       },
       {
         "id": "attente",
         "kind": "lecture",
-        "aiMode": "none",
+        "aiMode": "optional",
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
         "consigne": "À partir de ce donné, formulez l’attente de lecture la plus simple : qu’aurait-on pu normalement attendre ?",
-        "aide": "Une attente simple suffit. Elle sert seulement à faire apparaître ensuite la transformation."
+        "aide": "Une rencontre entre deux amants qui s’aiment pourrait faire attendre l’union, la persuasion ou la réconciliation."
       },
       {
         "id": "transformation",
         "kind": "lecture",
-        "aiMode": "none",
+        "aiMode": "optional",
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
-        "consigne": "Qu’est-ce que le texte produit pourtant ? Formulez précisément ce qu’il transforme dans cette attente.",
-        "aide": "Un texte littéraire transforme ce qu’il prend en charge. Cherchez le déplacement produit par le passage."
+        "consigne": "Qu’est-ce que le texte en fait ? Formulez précisément le déplacement produit par le passage.",
+        "aide": "Observez ce que leur échange fait de cet amour : l’aveu et les larmes suppriment-ils l’obstacle, ou rendent-ils autrement sensible la séparation ?"
       },
       {
         "id": "problematique",
@@ -1297,7 +1297,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 420,
         "access": "free",
         "consigne": "Formulez la question qui demande COMMENT le texte produit cette transformation.",
-        "aide": "La question doit garder ensemble l’attente et ce que le texte produit pourtant. Elle ne doit être ni un thème ni une réponse déjà formulée."
+        "aide": "Gardez ensemble la force de l’amour partagé et l’exigence de séparation qui structure la scène."
       },
       {
         "id": "plan",
@@ -1326,7 +1326,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
+        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce que la solution précédente ne suffit pas encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
@@ -1337,7 +1337,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 780,
         "access": "premium",
         "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
-        "aide": "Une réalisation n’est ni une citation ni le nom d’un procédé."
+        "aide": "Cherchez comment le dialogue rend le conflit visible : interrogations, reprises, antithèses, rythme des répliques et tension entre douleur privée et gloire publique."
       },
       {
         "id": "preuves",
@@ -1411,37 +1411,37 @@ window.ANNALES_CATALOGUE = {
     "parcours": "../anthologie-bac.html",
     "dureeExamen": 14400,
     "ia": true,
-    "contexte": "L’écriture animalise les personnages tout en faisant réapparaître leur humanité.",
+    "contexte": "Extrait de Jours de colère de Sylvie Germain, proposé au commentaire du bac 2022. Le passage brosse le portrait collectif des neuf fils d’Ephraïm Mauperthuis et de Reinette-la-Grasse.",
     "etapes": [
       {
         "id": "donne",
         "kind": "lecture",
-        "aiMode": "none",
-        "titre": "1. Le donné",
+        "aiMode": "optional",
+        "titre": "1. Ce que le texte met en place",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases, dites seulement ce que le texte prend en charge au départ. Restez au plus près du passage.",
-        "aide": "Situation, voix, personnages, objet ou mouvement du passage. Pas encore de problématique."
+        "consigne": "En une ou deux phrases, répondez simplement : qu’est-ce que le texte met en place ? Restez au plus près du passage.",
+        "aide": "Décrivez le portrait collectif tel qu’il est construit : neuf frères, leurs corps, leurs comportements et leur rapport au monde qui les entoure."
       },
       {
         "id": "attente",
         "kind": "lecture",
-        "aiMode": "none",
+        "aiMode": "optional",
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
         "consigne": "À partir de ce donné, formulez l’attente de lecture la plus simple : qu’aurait-on pu normalement attendre ?",
-        "aide": "Une attente simple suffit. Elle sert seulement à faire apparaître ensuite la transformation."
+        "aide": "Un portrait de personnages humains pourrait individualiser chacun d’eux et les inscrire dans une psychologie réaliste."
       },
       {
         "id": "transformation",
         "kind": "lecture",
-        "aiMode": "none",
+        "aiMode": "optional",
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
-        "consigne": "Qu’est-ce que le texte produit pourtant ? Formulez précisément ce qu’il transforme dans cette attente.",
-        "aide": "Un texte littéraire transforme ce qu’il prend en charge. Cherchez le déplacement produit par le passage."
+        "consigne": "Qu’est-ce que le texte en fait ? Formulez précisément le déplacement produit par le passage.",
+        "aide": "Observez au contraire les rapprochements avec l’animal, la matière ou la nature, puis demandez-vous ce que ces rapprochements laissent malgré tout apparaître d’humain."
       },
       {
         "id": "problematique",
@@ -1451,7 +1451,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 420,
         "access": "free",
         "consigne": "Formulez la question qui demande COMMENT le texte produit cette transformation.",
-        "aide": "La question doit garder ensemble l’attente et ce que le texte produit pourtant. Elle ne doit être ni un thème ni une réponse déjà formulée."
+        "aide": "Votre question doit garder ensemble la transformation des frères par l’écriture et ce que cette transformation permet de comprendre de leur humanité."
       },
       {
         "id": "plan",
@@ -1480,7 +1480,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
+        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce que la solution précédente ne suffit pas encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
@@ -1491,7 +1491,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 780,
         "access": "premium",
         "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
-        "aide": "Une réalisation n’est ni une citation ni le nom d’un procédé."
+        "aide": "Cherchez comment le portrait agit : comparaisons et métaphores, réseaux lexicaux du corps, de l’animal ou de la nature, point de vue et composition collective."
       },
       {
         "id": "preuves",
@@ -1565,37 +1565,37 @@ window.ANNALES_CATALOGUE = {
     "parcours": "../anthologie-bac.html",
     "dureeExamen": 14400,
     "ia": true,
-    "contexte": "Le masque joué par Lorenzo entre en conflit avec sa vérité intérieure.",
+    "contexte": "Extrait de Lorenzaccio de Musset, acte III, scène 3, proposé au commentaire du bac 2022. Philippe Strozzi demande à Lorenzo d’agir contre le duc Alexandre ; Lorenzo dévoile ce qui se cache derrière le rôle qu’il joue.",
     "etapes": [
       {
         "id": "donne",
         "kind": "lecture",
-        "aiMode": "none",
-        "titre": "1. Le donné",
+        "aiMode": "optional",
+        "titre": "1. Ce que le texte met en place",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases, dites seulement ce que le texte prend en charge au départ. Restez au plus près du passage.",
-        "aide": "Situation, voix, personnages, objet ou mouvement du passage. Pas encore de problématique."
+        "consigne": "En une ou deux phrases, répondez simplement : qu’est-ce que le texte met en place ? Restez au plus près du passage.",
+        "aide": "Mettez en place le dialogue : Philippe appelle à l’action et demande que « l’homme sorte de l’histrion » ; Lorenzo doit alors parler du rôle qu’il joue et de ce qu’il est devenu."
       },
       {
         "id": "attente",
         "kind": "lecture",
-        "aiMode": "none",
+        "aiMode": "optional",
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
         "consigne": "À partir de ce donné, formulez l’attente de lecture la plus simple : qu’aurait-on pu normalement attendre ?",
-        "aide": "Une attente simple suffit. Elle sert seulement à faire apparaître ensuite la transformation."
+        "aide": "On pourrait attendre que le dévoilement fasse simplement réapparaître un Lorenzo vertueux derrière son masque."
       },
       {
         "id": "transformation",
         "kind": "lecture",
-        "aiMode": "none",
+        "aiMode": "optional",
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
-        "consigne": "Qu’est-ce que le texte produit pourtant ? Formulez précisément ce qu’il transforme dans cette attente.",
-        "aide": "Un texte littéraire transforme ce qu’il prend en charge. Cherchez le déplacement produit par le passage."
+        "consigne": "Qu’est-ce que le texte en fait ? Formulez précisément le déplacement produit par le passage.",
+        "aide": "Suivez sa parole : le masque peut-il être retiré sans conséquence, ou le rôle joué a-t-il transformé celui qui le portait ?"
       },
       {
         "id": "problematique",
@@ -1605,7 +1605,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 420,
         "access": "free",
         "consigne": "Formulez la question qui demande COMMENT le texte produit cette transformation.",
-        "aide": "La question doit garder ensemble l’attente et ce que le texte produit pourtant. Elle ne doit être ni un thème ni une réponse déjà formulée."
+        "aide": "Gardez ensemble le masque volontairement adopté et la vérité intérieure que le dialogue fait apparaître."
       },
       {
         "id": "plan",
@@ -1634,7 +1634,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
+        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce que la solution précédente ne suffit pas encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
@@ -1645,7 +1645,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 780,
         "access": "premium",
         "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
-        "aide": "Une réalisation n’est ni une citation ni le nom d’un procédé."
+        "aide": "Cherchez comment le théâtre du masque devient crise de l’identité : images du rôle et du spectacle, antithèses, questions, modalisation et rythme des longues tirades."
       },
       {
         "id": "preuves",
@@ -1719,37 +1719,37 @@ window.ANNALES_CATALOGUE = {
     "parcours": "../bac-2021-perec-les-choses.html",
     "dureeExamen": 14400,
     "ia": true,
-    "contexte": "La description d’un espace réel médiocre devient la projection d’une existence rêvée.",
+    "contexte": "Extrait du chapitre 2 des Choses de Georges Perec, proposé au commentaire du bac 2021. Sylvie et Jérôme vivent dans un appartement parisien exigu au début des années 1960.",
     "etapes": [
       {
         "id": "donne",
         "kind": "lecture",
-        "aiMode": "none",
-        "titre": "1. Le donné",
+        "aiMode": "optional",
+        "titre": "1. Ce que le texte met en place",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases, dites seulement ce que le texte prend en charge au départ. Restez au plus près du passage.",
-        "aide": "Situation, voix, personnages, objet ou mouvement du passage. Pas encore de problématique."
+        "consigne": "En une ou deux phrases, répondez simplement : qu’est-ce que le texte met en place ? Restez au plus près du passage.",
+        "aide": "Décrivez ce que le texte met matériellement en place : l’appartement, les objets, les possibilités d’aménagement et la situation du jeune couple."
       },
       {
         "id": "attente",
         "kind": "lecture",
-        "aiMode": "none",
+        "aiMode": "optional",
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
         "consigne": "À partir de ce donné, formulez l’attente de lecture la plus simple : qu’aurait-on pu normalement attendre ?",
-        "aide": "Une attente simple suffit. Elle sert seulement à faire apparaître ensuite la transformation."
+        "aide": "Une description d’un logement exigu pourrait rester réaliste et pratique, centrée sur ce qui est effectivement là."
       },
       {
         "id": "transformation",
         "kind": "lecture",
-        "aiMode": "none",
+        "aiMode": "optional",
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
-        "consigne": "Qu’est-ce que le texte produit pourtant ? Formulez précisément ce qu’il transforme dans cette attente.",
-        "aide": "Un texte littéraire transforme ce qu’il prend en charge. Cherchez le déplacement produit par le passage."
+        "consigne": "Qu’est-ce que le texte en fait ? Formulez précisément le déplacement produit par le passage.",
+        "aide": "Observez la place des formes hypothétiques et du désir : comment la description de l’espace réel ouvre-t-elle vers un autre espace possible ou rêvé ?"
       },
       {
         "id": "problematique",
@@ -1759,7 +1759,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 420,
         "access": "free",
         "consigne": "Formulez la question qui demande COMMENT le texte produit cette transformation.",
-        "aide": "La question doit garder ensemble l’attente et ce que le texte produit pourtant. Elle ne doit être ni un thème ni une réponse déjà formulée."
+        "aide": "Gardez ensemble la matérialité du logement et la projection du désir qui travaille sa description."
       },
       {
         "id": "plan",
@@ -1788,7 +1788,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
+        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce que la solution précédente ne suffit pas encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
@@ -1799,7 +1799,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 780,
         "access": "premium",
         "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
-        "aide": "Une réalisation n’est ni une citation ni le nom d’un procédé."
+        "aide": "Cherchez comment l’écriture fait glisser du réel au possible : accumulations d’objets, modalisation, conditionnel, oppositions et composition de la description."
       },
       {
         "id": "preuves",
@@ -1873,37 +1873,37 @@ window.ANNALES_CATALOGUE = {
     "parcours": "../anthologie-bac.html",
     "dureeExamen": 14400,
     "ia": true,
-    "contexte": "Un lieu banal et prosaïque devient un lieu de mémoire poétique.",
+    "contexte": "Poème de Valery Larbaud, « L’ancienne gare de Cahors », proposé au commentaire du bac 2021. Le texte prend pour objet une gare abandonnée.",
     "etapes": [
       {
         "id": "donne",
         "kind": "lecture",
-        "aiMode": "none",
-        "titre": "1. Le donné",
+        "aiMode": "optional",
+        "titre": "1. Ce que le texte met en place",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases, dites seulement ce que le texte prend en charge au départ. Restez au plus près du passage.",
-        "aide": "Situation, voix, personnages, objet ou mouvement du passage. Pas encore de problématique."
+        "consigne": "En une ou deux phrases, répondez simplement : qu’est-ce que le texte met en place ? Restez au plus près du passage.",
+        "aide": "Commencez par le lieu concret : une ancienne gare, ses traces matérielles, son abandon et le regard porté sur elle. Ne la transformez pas encore en symbole."
       },
       {
         "id": "attente",
         "kind": "lecture",
-        "aiMode": "none",
+        "aiMode": "optional",
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
         "consigne": "À partir de ce donné, formulez l’attente de lecture la plus simple : qu’aurait-on pu normalement attendre ?",
-        "aide": "Une attente simple suffit. Elle sert seulement à faire apparaître ensuite la transformation."
+        "aide": "Une gare désaffectée pourrait n’être qu’un lieu prosaïque, vide ou dégradé."
       },
       {
         "id": "transformation",
         "kind": "lecture",
-        "aiMode": "none",
+        "aiMode": "optional",
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
-        "consigne": "Qu’est-ce que le texte produit pourtant ? Formulez précisément ce qu’il transforme dans cette attente.",
-        "aide": "Un texte littéraire transforme ce qu’il prend en charge. Cherchez le déplacement produit par le passage."
+        "consigne": "Qu’est-ce que le texte en fait ? Formulez précisément le déplacement produit par le passage.",
+        "aide": "Observez ce que le poème ajoute au lieu matériel : quelles présences, quelles valeurs ou quelle mémoire l’écriture lui rend-elle ?"
       },
       {
         "id": "problematique",
@@ -1913,7 +1913,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 420,
         "access": "free",
         "consigne": "Formulez la question qui demande COMMENT le texte produit cette transformation.",
-        "aide": "La question doit garder ensemble l’attente et ce que le texte produit pourtant. Elle ne doit être ni un thème ni une réponse déjà formulée."
+        "aide": "Gardez ensemble la banalité ou l’abandon du lieu et la valeur nouvelle que le regard poétique lui confère."
       },
       {
         "id": "plan",
@@ -1942,7 +1942,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
+        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce que la solution précédente ne suffit pas encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
@@ -1953,7 +1953,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 780,
         "access": "premium",
         "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
-        "aide": "Une réalisation n’est ni une citation ni le nom d’un procédé."
+        "aide": "Cherchez comment le lieu est requalifié : choix lexicaux, images, rythme, adresse éventuelle au lieu et progression de la composition."
       },
       {
         "id": "preuves",
