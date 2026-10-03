@@ -319,7 +319,7 @@
       if(!response.ok||!data.ok)throw new Error(data.error||"Retour indisponible.");
       const f=data.feedback||{};
       const html="<strong>"+(f.diagnostic==="acquis"?"Réponse solide":f.diagnostic==="partiel"?"Réponse à préciser":"Réponse à reprendre")+"</strong>"+
-        "<p><b>Point acquis :</b> "+(f.point_acquis||"—")+"</p>"+
+        "<p><b>"+(/^Aucun acquis/i.test(f.point_acquis||"")?"État de la réponse":"Point acquis")+" :</b> "+(f.point_acquis||"—")+"</p>"+
         "<p><b>À reprendre :</b> "+(f.manque_principal||"—")+"</p>"+
         "<p><b>Pour améliorer :</b> "+(f.question_suivante||"Pouvez-vous préciser votre réponse ?")+"</p>";
       els.feedback.innerHTML=html;
