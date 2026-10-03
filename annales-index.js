@@ -34,7 +34,9 @@
       <h3>${esc(x.auteur)} — <em>${esc(x.oeuvre)}</em></h3>
       <p>${esc(x.contexte)}</p>
       <p class="micro">${x.type==="bac-commentaire"?"Problématique → plan → rédaction · retour personnalisé":"Chaque question officielle → réponse → retour personnalisé → reprise"}</p>
-      <a class="official-link" href="annales/entrainement-annale.html?id=${encodeURIComponent(x.id)}">Ouvrir l’entraînement →</a>
+      ${x.type==="bac-commentaire"
+        ? `<a class="official-link" href="${esc(x.id)}.html">Voir la fiche et les exercices →</a>`
+        : `<a class="official-link" href="annales/entrainement-annale.html?id=${encodeURIComponent(x.id)}">Ouvrir l’entraînement →</a>`}
       · <a class="official-link" href="${esc(x.sourceOfficielle)}" target="_blank" rel="noopener">Source officielle ↗</a>
     </article>`).join("");
   }
