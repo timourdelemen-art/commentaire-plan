@@ -22,10 +22,35 @@
 <section class="oral-flow">
 <article><span>00</span><h2>Préparation · 30:00</h2><p>Une fois l’extrait fourni : lecture, mouvement du texte, explication et question de grammaire. Aucune aide pendant ces 30 minutes.</p><div class="timer-box" data-seconds="1800"><strong class="timer-display">30:00</strong><button class="timer-start">Démarrer</button><button class="timer-reset">Réinitialiser</button></div></article>
 <article><span>01</span><h2>Lecture · /2</h2><p>Lecture à voix haute. L’enregistrement permet déjà de se réécouter en conditions proches de l’épreuve : exactitude, fluidité, respiration et expressivité deviennent des points d’attention concrets.</p><div class="model-rubric"><b>Exactitude</b><b>Fluidité</b><b>Respiration</b><b>Expressivité</b></div><div class="audio-prototype"><button class="record-btn">Enregistrer ma lecture</button><span class="record-status">Enregistrement navigateur</span><audio controls class="record-playback"></audio></div></article>
-<article><span>02</span><h2>Explication linéaire · /8</h2><p>Le bilan portera sur le mouvement du texte, la précision des analyses, l’appui sur le texte, l’organisation et l’expression orale.</p><div class="timer-box" data-seconds="480"><strong class="timer-display">08:00</strong><button class="timer-start">Démarrer</button><button class="timer-reset">Réinitialiser</button></div></article>
-<article><span>03</span><h2>Grammaire · /2</h2><p>La question de grammaire doit porter sur une phrase ou une partie de phrase du passage préparé.</p><div class="grammar-sample"><label>Votre préparation<textarea placeholder="Identification, manipulation, justification."></textarea></label></div></article>
-<article class="wide"><span>04</span><h2>Œuvre choisie + entretien · /8</h2><p>Indiquez l’œuvre choisie. L’entretien est conçu comme un échange : une question ouverte à la fois, puis une relance fondée sur ce que l’élève vient réellement de dire.</p><label class="field-label">Œuvre choisie<input id="oral-work" type="text" placeholder="Auteur, titre"></label><div class="timer-box" data-seconds="480"><strong class="timer-display">08:00</strong><button class="timer-start">Démarrer</button><button class="timer-reset">Réinitialiser</button></div><div class="question-bank"><h3>Logique de l’entretien</h3><p>Une première justification personnelle, puis une relance fondée sur la réponse réelle de l’élève. Pas de questionnaire récité mécaniquement.</p></div></article>
+<article><span>02</span><h2>Explication linéaire · /8</h2>
+<p>Le retour suit les attendus officiels : compréhension du mouvement du passage, analyses précises, appui constant sur le texte, interprétation et expression claire.</p>
+<div class="timer-box" data-seconds="480"><strong class="timer-display">08:00</strong><button class="timer-start">Démarrer</button><button class="timer-reset">Réinitialiser</button></div>
+<label class="field-label">Après votre passage, notez ou collez ce que vous avez réellement dit<textarea id="oral-explanation" rows="10" placeholder="Votre explication linéaire ou sa transcription fidèle…"></textarea></label>
+<button class="btn red small oral-ai-btn" data-oral-kind="explanation">Analyser mon explication →</button>
+<div class="feedback oral-ai-feedback" data-feedback-for="explanation"></div>
+</article>
+<article><span>03</span><h2>Grammaire · /2</h2>
+<p>La question porte uniquement sur une courte phrase ou partie de phrase de l’extrait. Le retour vérifie le lexique grammatical, l’analyse syntaxique et la justification par des manipulations pertinentes.</p>
+<div class="grammar-sample">
+<label>Question posée<input id="oral-grammar-question" type="text" placeholder="Ex. Analysez la proposition introduite par « que »…"></label>
+<label>Votre réponse<textarea id="oral-grammar-answer" rows="6" placeholder="Identification, fonction, manipulation, justification."></textarea></label>
+</div>
+<button class="btn red small oral-ai-btn" data-oral-kind="grammar">Analyser ma réponse de grammaire →</button>
+<div class="feedback oral-ai-feedback" data-feedback-for="grammar"></div>
+</article>
+<article class="wide"><span>04</span><h2>Œuvre choisie + entretien · /8</h2>
+<p>Vous présentez brièvement l’œuvre et les raisons de votre choix, puis vous entrez dans un véritable échange. L’objectif n’est pas de réciter une fiche : il faut expliquer, justifier, nuancer, réagir aux relances et défendre une lecture personnelle.</p>
+<label class="field-label">Œuvre choisie<input id="oral-work" type="text" placeholder="Auteur, titre"></label>
+<div class="timer-box" data-seconds="480"><strong class="timer-display">08:00</strong><button class="timer-start">Démarrer</button><button class="timer-reset">Réinitialiser</button></div>
+<div class="question-bank">
+<h3>Simulation de l’entretien</h3>
+<p>Commencez par expliquer pourquoi vous avez choisi cette œuvre. Le moteur vous donnera ensuite une priorité d’amélioration et une question de relance fondée sur votre réponse.</p>
+<label>Votre présentation / réponse<textarea id="oral-interview-answer" rows="8" placeholder="Pourquoi cette œuvre ? Qu’est-ce qui vous a intéressé, surpris, touché ou fait réfléchir ?"></textarea></label>
+<button class="btn red small oral-ai-btn" data-oral-kind="interview">Obtenir une relance d’examinateur →</button>
+<div class="feedback oral-ai-feedback" data-feedback-for="interview"></div>
+</div>
+</article>
 </section>
 
-<section class="offer-band"><div class="kicker">BILAN DE L’ENTRAÎNEMENT</div><h2>Un retour court, utilisable immédiatement.</h2><div class="result-grid"><div><b>Ce qui fonctionne</b><p>Un point précis.</p></div><div><b>Priorité</b><p>Un seul point à améliorer.</p></div><div><b>Exercice conseillé</b><p>Une action concrète.</p></div><div><b>Repère global</b><p>Une estimation ne remplace jamais l’évaluation d’un examinateur.</p></div></div></section>
+<section class="offer-band"><div class="kicker">BILAN DE L’ENTRAÎNEMENT</div><h2>Un retour court, utilisable immédiatement.</h2><div class="result-grid"><div><b>Lecture</b><p>Exactitude, fluidité, respiration, expressivité : réécoutez l’enregistrement avec ces quatre critères.</p></div><div><b>Explication</b><p>Un acquis précis, une priorité d’amélioration, une question de reprise.</p></div><div><b>Grammaire</b><p>Notion, lexique grammatical, manipulation et justification.</p></div><div><b>Entretien</b><p>Choix personnel justifié, capacité à dialoguer, nuancer et défendre sa lecture.</p></div></div><p class="micro">Le retour IA est un entraînement critérié ; il ne prétend pas reproduire la note d’un examinateur humain.</p></section>
 <script src="exam-tools.js"></script></main><script src="site-nav.js"></script></body></html>
