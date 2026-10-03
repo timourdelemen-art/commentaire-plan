@@ -20,6 +20,7 @@
 
   function mount(area,index){
     if(area.dataset.feedbackMounted==="1"||area.disabled||area.readOnly)return;
+    let previousAnswer="";
     area.dataset.feedbackMounted="1";
     const wrap=document.createElement("div");
     wrap.className="free-response-tools";
@@ -49,10 +50,16 @@
           body:JSON.stringify({
             exercise:"free-response",
             answer,
-            context:{...contextFor(area),response_index:index}
+            context:{...contextFor(area),response_index:index},
+            previous_answer:previousAnswer
           })
         });
         const data=await response.json();
+        if(data.blocked){
+          feedback.innerHTML="<strong>IA non utilisée</strong><p>"+(data.error||"Reprenez d’abord votre réponse.")+"</p>";
+          feedback.classList.add("show");
+          return;
+        }
         if(!response.ok||!data.ok)throw new Error(data.error||"Retour indisponible.");
         const f=data.feedback||{};
         feedback.innerHTML=
@@ -61,6 +68,7 @@
           "<p><b>À reprendre :</b> "+(f.manque_principal||"—")+"</p>"+
           "<p><b>Pour améliorer :</b> "+(f.question_suivante||"Pouvez-vous préciser votre réponse ?")+"</p>";
         feedback.classList.add("show");
+        previousAnswer=answer;
       }catch(e){
         feedback.textContent=e.message||"Le retour n’est pas disponible pour le moment.";
         feedback.classList.add("show");
