@@ -459,6 +459,8 @@ CONTRAINTES
 - ton sobre, précis, non infantilisant
 - l'humour est autorisé de façon très légère et occasionnelle, seulement s'il rend le retour plus humain ; jamais de moquerie, sarcasme ou blague qui détourne de l'apprentissage
 - si la réponse ne contient aucun acquis réel, ne jamais en inventer un : écris exactement « Aucun acquis identifiable dans cette réponse. »
+- si la réponse est clairement étrangère à la consigne, détourne volontairement l'exercice ou développe un autre sujet, marque "hors_sujet": true
+- une réponse simplement fausse, maladroite, courte ou incomplète n'est PAS hors sujet
 - un seul point acquis
 - un seul manque principal
 - une seule question de relance
@@ -470,6 +472,7 @@ CONTRAINTES
 
 Réponds UNIQUEMENT par un objet JSON valide, sans markdown, avec exactement :
 {
+  "hors_sujet": true | false,
   "diagnostic": "acquis" | "partiel" | "à reprendre",
   "point_acquis": "...",
   "manque_principal": "...",
@@ -507,6 +510,17 @@ Réponds UNIQUEMENT par un objet JSON valide, sans markdown, avec exactement :
 
     let parsed = null;
     try { parsed = JSON.parse(raw); } catch {}
+
+    if (parsed && parsed.hors_sujet === true) {
+      return json({
+        ok: false,
+        blocked: true,
+        reason: "off_topic",
+        lock_hours: 24,
+        error: "Réponse hors sujet. Cet exercice est suspendu pendant au moins 24 heures."
+      }, 422, origin);
+    }
+
     const feedback = validateFeedback(parsed) || safeFallback(spec.kind);
 
     return json({
