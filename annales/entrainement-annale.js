@@ -120,14 +120,27 @@
     return [...relevant,...distractors].slice(0,4);
   }
 
-  function renderManual(step,visible=false){
+  function renderManual(step,level=0){
     if(!els.manual) return;
-    const choices=procedureChoices(step);
-    if(!visible || !choices.length){els.manual.hidden=true;els.manual.innerHTML="";return;}
+    const guidedChoices=(step.choix||[]);
+    const procedureOptions=procedureChoices(step);
+    const hasSecond=guidedChoices.length || procedureOptions.length;
+    const showSecond=level>=2 && hasSecond;
+    const showCorrection=level>=3 && step.correction;
+    if(!showSecond && !showCorrection){els.manual.hidden=true;els.manual.innerHTML="";return;}
     els.manual.hidden=false;
-    els.manual.innerHTML="<div class='kicker'>AIDE PROGRESSIVE · PROCÉDÉS POSSIBLES</div><p>Si vous n’arrivez pas à nommer le procédé seul, choisissez d’abord parmi ces pistes. Vous devrez ensuite expliquer l’effet précis dans le passage.</p><div class='manual-choice-list'>"+
-      choices.map(x=>"<button type='button' class='manual-choice'>"+x+"</button>").join("")+
-      "</div><p class='micro'>Le choix ne remplace pas l’explication. Un procédé n’a jamais un effet automatique.</p>";
+    let html="";
+    if(showSecond){
+      const choices=guidedChoices.length ? guidedChoices : procedureOptions;
+      html+="<div class='kicker'>J’HÉSITE ENCORE</div><p>Choisissez la proposition qui vous paraît la plus juste, puis justifiez-la dans votre réponse.</p><div class='manual-choice-list'>"+
+        choices.map(x=>"<button type='button' class='manual-choice'>"+x+"</button>").join("")+
+        "</div>";
+      if(!guidedChoices.length) html+="<p class='micro'>Le choix du procédé ne remplace jamais l’explication de son effet ici.</p>";
+    }
+    if(showCorrection){
+      html+="<div class='guided-correction'><div class='kicker'>CORRECTION EXPLIQUÉE</div><p>"+step.correction+"</p><p class='micro'>Relisez votre première réponse, puis réécrivez-la avant de poursuivre.</p></div>";
+    }
+    els.manual.innerHTML=html;
     els.manual.querySelectorAll(".manual-choice").forEach(btn=>btn.addEventListener("click",()=>{
       els.manual.querySelectorAll(".manual-choice").forEach(x=>x.classList.remove("selected"));
       btn.classList.add("selected");
@@ -137,21 +150,28 @@
   function renderHelp(step){
     const level=state.help[step.id]||0;
     els.hint.hidden=level<1;
-    els.hint.textContent=level>=1 ? "Indice : "+step.aide : "";
-    renderManual(step,level>=2 && (step.manual||[]).length>0);
+    els.hint.textContent=level>=1 ? "Petit coup de pouce : "+step.aide : "";
+    renderManual(step,level);
+    const hasSecond=(step.choix||[]).length || (step.manual||[]).length;
+    const hasCorrection=Boolean(step.correction);
     if(level===0){
       els.helpButton.hidden=false;
       els.helpButton.disabled=false;
-      els.helpButton.textContent="J’ai besoin d’un indice";
+      els.helpButton.textContent="💡 Petit coup de pouce";
       els.helpLevel.textContent="";
-    }else if(level===1 && (step.manual||[]).length){
+    }else if(level===1 && (hasSecond||hasCorrection)){
       els.helpButton.hidden=false;
       els.helpButton.disabled=false;
-      els.helpButton.textContent="J’ai encore besoin d’aide";
-      els.helpLevel.textContent="Indice 1 / 2";
+      els.helpButton.textContent="J’hésite encore";
+      els.helpLevel.textContent="Aide 1";
+    }else if(level===2 && hasCorrection){
+      els.helpButton.hidden=false;
+      els.helpButton.disabled=false;
+      els.helpButton.textContent="Voir la correction expliquée";
+      els.helpLevel.textContent="Aide 2";
     }else{
       els.helpButton.hidden=true;
-      els.helpLevel.textContent=(step.manual||[]).length ? "Aide 2 / 2" : "Indice affiché";
+      els.helpLevel.textContent=hasCorrection?"Correction affichée":"Aide affichée";
     }
   }
 
@@ -191,7 +211,8 @@
 
   els.helpButton.addEventListener("click",()=>{
     const step=currentStep();
-    const max=(step.manual||[]).length?2:1;
+    const hasSecond=(step.choix||[]).length || (step.manual||[]).length;
+    const max=step.correction?3:(hasSecond?2:1);
     state.help[step.id]=Math.min(max,(state.help[step.id]||0)+1);
     save();
     renderHelp(step);
