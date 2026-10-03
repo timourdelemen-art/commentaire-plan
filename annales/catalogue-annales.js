@@ -1858,11 +1858,12 @@ window.ANNALES_CATALOGUE = {
     "parcours": "../anthologie-brevet.html",
     "dureeExamen": 4200,
     "ia": true,
-    "contexte": "Sujet officiel 2026. Chaque sous-question devient un exercice autonome : l’IA vérifie la réponse produite et ne donne pas d’emblée le corrigé.",
+    "contexte": "Sujet officiel 2026. Chaque sous-question devient un exercice autonome : correction locale lorsque la réponse est déterminée, IA seulement lorsqu’une réponse ouverte mérite un retour personnalisé.",
     "etapes": [
       {
         "id": "q1",
         "kind": "brevet-comprehension",
+        "aiMode": "optional",
         "titre": "1. Structure du texte",
         "temps": 360,
         "access": "free",
@@ -1873,6 +1874,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "q2a",
         "kind": "brevet-comprehension",
+        "aiMode": "optional",
         "titre": "2a. Le caprice du Lion",
         "temps": 240,
         "access": "free",
@@ -1883,6 +1885,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "q2b",
         "kind": "brevet-comprehension",
+        "aiMode": "optional",
         "titre": "2b. Réaction de la Hyène",
         "temps": 180,
         "access": "free",
@@ -1893,6 +1896,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "q3a",
         "kind": "brevet-interpretation",
+        "aiMode": "optional",
         "titre": "3a. « La cage des hommes »",
         "temps": 240,
         "access": "premium",
@@ -1903,6 +1907,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "q3b",
         "kind": "brevet-interpretation",
+        "aiMode": "optional",
         "titre": "3b. Développer l’image",
         "temps": 300,
         "access": "premium",
@@ -1913,6 +1918,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "q4",
         "kind": "brevet-analyse",
+        "aiMode": "optional",
         "titre": "4. Le bruit de Paris",
         "temps": 360,
         "access": "free",
@@ -1929,6 +1935,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "q5",
         "kind": "brevet-interpretation",
+        "aiMode": "recommended",
         "titre": "5. Le point de vue des animaux",
         "temps": 480,
         "access": "premium",
@@ -1939,6 +1946,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "q6",
         "kind": "brevet-image",
+        "aiMode": "optional",
         "titre": "6. Texte et image",
         "temps": 420,
         "access": "premium",
@@ -1949,16 +1957,19 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "q7a",
         "kind": "brevet-grammaire",
+        "aiMode": "none",
         "titre": "7a. Nature et fonction",
         "temps": 120,
         "access": "free",
         "points": 2,
         "consigne": "Donnez la nature et la fonction de « un matin ».",
-        "aide": "Deux informations sont attendues : nature + fonction."
+        "aide": "Deux informations sont attendues : nature + fonction.",
+        "correction": "« un matin » est un groupe nominal employé comme complément circonstanciel de temps."
       },
       {
         "id": "q7b",
         "kind": "brevet-grammaire",
+        "aiMode": "none",
         "titre": "7b. Manipulations",
         "temps": 180,
         "access": "free",
@@ -1969,16 +1980,19 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "q8a",
         "kind": "brevet-grammaire",
+        "aiMode": "none",
         "titre": "8a. Temps verbal",
         "temps": 90,
         "access": "free",
         "points": 1,
         "consigne": "Quel est le temps de « pourraient » ?",
-        "aide": "Donnez le temps exact."
+        "aide": "Donnez le temps exact.",
+        "correction": "« pourraient » est au conditionnel présent."
       },
       {
         "id": "q8b",
         "kind": "brevet-grammaire",
+        "aiMode": "none",
         "titre": "8b. Valeur du temps",
         "temps": 120,
         "access": "premium",
@@ -1989,16 +2003,19 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "q9a",
         "kind": "brevet-lexique",
+        "aiMode": "none",
         "titre": "9a. Formation du mot",
         "temps": 120,
         "access": "premium",
         "points": 1,
         "consigne": "Expliquez la formation du mot « lenteur ».",
-        "aide": "Radical, suffixe et dérivation."
+        "aide": "Radical, suffixe et dérivation.",
+        "correction": "« lenteur » est formé à partir de l’adjectif « lent » auquel s’ajoute le suffixe nominal « -eur »."
       },
       {
         "id": "q9b",
         "kind": "brevet-lexique",
+        "aiMode": "none",
         "titre": "9b. Même famille",
         "temps": 90,
         "access": "premium",
@@ -2009,6 +2026,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "q10",
         "kind": "brevet-reecriture",
+        "aiMode": "optional",
         "titre": "10. Réécriture",
         "temps": 600,
         "access": "premium",
