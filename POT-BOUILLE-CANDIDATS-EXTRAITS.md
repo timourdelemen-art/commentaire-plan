@@ -220,3 +220,282 @@ Il manque donc encore à cette comparaison approfondie des candidats forts issus
 - vérifier les possibilités de grammaire ;
 - confronter avec les sujets de dissertation possibles ;
 - seulement ensuite retenir PB-01, PB-02, etc.
+
+
+# DEUXIÈME PASSE — MARIAGE, ARGENT, ÉDUCATION DES FEMMES
+
+## CANDIDAT G — Chapitre II : Berthe après le mariage manqué
+### Noyau
+Madame Josserand interroge Berthe après l'échec d'un nouveau projet de mariage. Lorsque Berthe raconte avoir repoussé un homme qui l'a embrassée et saisie brutalement, sa mère lui reproche précisément de ne pas avoir su exploiter la situation pour obtenir le mariage.
+
+### Passage-source à tester
+Chapitre II, autour de l'aveu de Berthe et de la leçon de Mme Josserand sur la manière de « pêcher un mari ».
+
+### X
+Une mère devrait protéger sa fille et considérer comme légitime qu'elle refuse une avance brutale.
+
+### Pourtant Y
+Mme Josserand transforme cette protection attendue en reproche : le refus de Berthe devient une faute stratégique, car le mariage est présenté comme une opération qu'il faut savoir mener.
+
+### Problématique provisoire
+Comment une scène de conseil maternel transforme-t-elle l'éducation au mariage en apprentissage d'une stratégie sociale et marchande ?
+
+### Mouvement possible
+1. Berthe révèle la violence de la scène.
+2. La mère retourne la responsabilité contre sa fille.
+3. Le discours maternel devient un véritable manuel de conquête matrimoniale.
+
+### Procédés / éléments
+- retournement argumentatif ;
+- discours direct ;
+- impératifs et tournures injonctives ;
+- lexique de la stratégie et de la capture ;
+- gradation des gestes permis ;
+- ironie narrative possible par disproportion entre la violence racontée et la réaction de la mère ;
+- rythme du dialogue.
+
+### Effets
+- inversion de la fonction protectrice de la mère ;
+- objectivation de Berthe comme actrice d'un marché matrimonial ;
+- dévoilement de la pression économique cachée sous le langage moral et familial.
+
+### Lien officiel
+Très fort : l'échelle sociale, la respectabilité et l'union matrimoniale sont explicitement au cœur du fonctionnement bourgeois décrit par Éduscol.
+
+### Réemploi dissertation
+- mariage = institution sociale ou sentimentale ?
+- éducation des femmes ;
+- domination par les normes ;
+- rôle de la famille ;
+- argent et respectabilité ;
+- hypocrisie morale ;
+- violence feutrée.
+
+### Accessibilité
+Très forte. Le X/Y est immédiatement perceptible par les élèves.
+
+### Risque
+Le passage est très efficace, mais il faut éviter que le cours se réduise à « la mère est odieuse ». Il faut faire remonter l'analyse au système social et économique.
+
+### Statut provisoire
+**Candidat exceptionnel.**
+
+---
+
+## CANDIDAT H — Chapitre II : l'argent fait éclater la famille
+### Noyau
+Le couple Josserand se dispute autour d'une dot ancienne, d'héritages et de promesses non tenues. La famille respectable devient le lieu d'accusations de vol, de fraude et d'humiliation.
+
+### X
+La famille bourgeoise se présente comme garante de stabilité, de transmission et d'honneur.
+
+### Pourtant Y
+Dès que l'argent apparaît, les liens familiaux sont reformulés en créances, dettes, soupçons et rapports de force.
+
+### Problématique provisoire
+Comment une dispute familiale révèle-t-elle que la transmission bourgeoise repose moins sur l'harmonie que sur la dette et la rivalité ?
+
+### Forces
+- potentiel dissertation élevé ;
+- montre les rouages économiques de la famille ;
+- bon matériau sur discours rapporté / violence verbale / lexique financier.
+
+### Faiblesses
+- exige davantage de contexte généalogique ;
+- X/Y moins immédiatement visible que G ;
+- moins rentable pour une explication linéaire autonome.
+
+### Statut provisoire
+**Fort transversalement, moins prioritaire comme extrait EAF.**
+
+---
+
+## CANDIDAT I — Chapitre VIII : cérémonie du mariage / circulation du scandale
+### Noyau
+Le mariage est célébré dans un décor de convenance tandis que, sous les compliments et gestes rituels, les personnages font circuler les histoires sexuelles, conjugales et scandaleuses du groupe.
+
+### X
+La cérémonie de mariage devrait consacrer l'ordre social, moral et familial.
+
+### Pourtant Y
+Le rite est envahi par les rumeurs, les aventures sexuelles et les arrière-pensées ; la cérémonie ne masque qu'imparfaitement ce que la société qu'elle célèbre produit elle-même.
+
+### Problématique provisoire
+Comment la cérémonie du mariage devient-elle chez Zola le théâtre d'une respectabilité continuellement fissurée par les scandales qu'elle cherche à recouvrir ?
+
+### Mouvement possible
+1. installation du rite et des convenances ;
+2. circulation parallèle des confidences et des rumeurs ;
+3. maintien de la cérémonie malgré le dévoilement des contradictions.
+
+### Procédés / éléments
+- juxtaposition des registres ;
+- double scène : officielle / officieuse ;
+- discours direct et commentaires latéraux ;
+- ironie ;
+- lexique du rituel confronté aux récits sexuels ;
+- circulation de la parole ;
+- théâtralité du groupe.
+
+### Forces
+- excellente articulation mariage / comédie sociale ;
+- scène collective, donc représentative du roman ;
+- très bon lien avec la notion officielle de comédie de mœurs et de mécanique quasi théâtrale ;
+- bon matériau pour faire regrouper procédés et effets.
+
+### Faiblesses
+- beaucoup de personnages ;
+- demande un découpage extrêmement précis ;
+- risque de surcharge référentielle si le passage n'est pas assez resserré.
+
+### Statut provisoire
+**Très fort candidat, sous réserve de trouver un segment autonome.**
+
+---
+
+## CANDIDAT J — Chapitre XVI : Berthe ramenée à l'enfance
+### Noyau
+Après le scandale, Berthe revient chez ses parents. Sa mère la traite comme une élève coupable et l'enferme symboliquement dans son ancien statut d'enfant.
+
+### X
+Berthe est une femme mariée qui vient de traverser une crise conjugale d'adulte.
+
+### Pourtant Y
+Le retour dans la maison familiale la ramène instantanément à la position d'une petite fille fautive, privée d'autonomie.
+
+### Problématique provisoire
+Comment le retour de Berthe chez ses parents transforme-t-il une femme mariée en enfant coupable et révèle-t-il la persistance de la domination familiale ?
+
+### Mouvement possible
+1. brutalité silencieuse de la mère ;
+2. retour physique dans l'ancienne chambre ;
+3. réactivation des peurs d'enfance et perte d'autonomie.
+
+### Procédés / éléments
+- comparaison de la mère à une « sous-maîtresse » ;
+- lexique scolaire ;
+- verbes de contrainte et de déplacement ;
+- focalisation sur le ressenti de Berthe ;
+- régression temporelle ;
+- opposition statut adulte / réactions enfantines.
+
+### Forces
+- X/Y extrêmement clair ;
+- excellent passage pour les élèves ;
+- procédés repérables mais non triviaux ;
+- riche pour genre, famille, éducation, autorité ;
+- peu redondant avec les scènes d'immeuble.
+
+### Faiblesses
+- moins directement économique que G ;
+- il faut replacer le scandale en une phrase.
+
+### Statut provisoire
+**Candidat exceptionnel.**
+
+---
+
+## CANDIDAT K — Chapitre XVI : la « faute » n'est pas morale, elle est irrationnelle
+### Noyau
+Mme Josserand reproche à Berthe non seulement l'adultère, mais surtout l'absence d'intérêt stratégique de cet adultère : elle peut comprendre la faute si elle sert une ascension ou une affaire ; ce qui l'exaspère, c'est l'absence de profit.
+
+### X
+Le discours maternel se présente comme un rappel de la morale conjugale.
+
+### Pourtant Y
+La morale se dissout dans une logique d'intérêt : le vrai scandale, pour Mme Josserand, n'est pas la faute mais sa gratuité.
+
+### Problématique provisoire
+Comment un discours prétendument moral révèle-t-il que la véritable valeur défendue n'est pas la fidélité mais l'intérêt social ?
+
+### Forces
+- X/Y extraordinaire ;
+- très fort pour le parcours officiel ;
+- démontage de l'hypocrisie morale ;
+- réemploi dissertation exceptionnel ;
+- ironie, questions rhétoriques, antithèse morale/intérêt, lexique de l'utilité.
+
+### Faiblesses
+- violence lexicale importante ;
+- nécessite un cadrage professeur sérieux ;
+- passage potentiellement plus exigeant affectivement ;
+- doit être sélectionné avec tact pour un usage classe.
+
+### Statut provisoire
+**Candidat exceptionnel sur le plan analytique ; choix éditorial à examiner.**
+
+---
+
+## CANDIDAT L — Chapitre XVI : le père broyé par le système familial
+### Noyau
+Au milieu de la dispute, M. Josserand découvre progressivement l'adultère de sa fille ; il tente de maintenir une honnêteté simple, tandis que l'argent, les accusations et la violence verbale l'écrasent physiquement.
+
+### X
+Le père devrait représenter l'autorité du foyer.
+
+### Pourtant Y
+Il apparaît comme le membre le plus impuissant, littéralement détruit par les mécanismes familiaux qu'il n'a jamais su maîtriser.
+
+### Problématique provisoire
+Comment la figure du père, censée incarner l'autorité familiale, devient-elle la victime impuissante du système bourgeois qu'elle devrait garantir ?
+
+### Forces
+- contrepoint très intéressant à Mme Josserand ;
+- rend la violence systémique et non seulement individuelle ;
+- excellent pour la structure du roman et la notion de déterminisme.
+
+### Faiblesses
+- mouvement très long dans le chapitre ;
+- difficile à resserrer sur vingt lignes sans perdre la progression ;
+- moins immédiatement autonome.
+
+### Statut provisoire
+**Très fort transversalement ; probablement meilleur pour une étude synthétique que pour un extrait principal.**
+
+# COMPARAISON II / VIII / XVI
+
+| Candidat | X/Y | Autonomie du passage | Oral linéaire | Procédés/effets | Parcours | Dissertation | Originalité |
+|---|---|---|---|---|---|---|---|
+| G — « pêcher un mari » | exceptionnel | très forte | excellent | excellent | exceptionnel | exceptionnel | forte |
+| H — dot et dettes | bon | moyenne | moyen | bon | très bon | excellent | moyenne |
+| I — mariage/scandales | très bon | à tester | très bon | excellent | exceptionnel | très bon | forte |
+| J — retour à l'enfance | exceptionnel | forte | excellent | excellent | excellent | très bon | très forte |
+| K — morale/intérêt | exceptionnel | forte | excellent | excellent | exceptionnel | exceptionnel | très forte |
+| L — père broyé | très bon | faible à moyenne | moyen | très bon | excellent | excellent | forte |
+
+# CONSÉQUENCE POUR LA SÉLECTION FINALE
+
+À ce stade, **G, J et K** entrent dans le premier cercle des candidats.
+Ils apportent quelque chose que les grands passages de l'immeuble n'apportent pas :
+- G : éducation matrimoniale et marchandisation ;
+- J : régression et domination familiale ;
+- K : hypocrisie morale transformée en logique d'intérêt.
+
+Il devient donc probable que la sélection finale ne doive pas comporter plus de **deux grands passages de l'immeuble** sur 4 à 6 extraits, sous peine de réduire *Pot-Bouille* à sa seule architecture symbolique.
+
+# EXERCICES À TESTER SUR G / J / K
+
+## Problématique
+Pour chaque passage :
+- 3 problématiques plausibles ;
+- 1 trop thématique ;
+- 1 juste sur un aspect mais incomplète ;
+- 1 qui conserve exactement le X/Y.
+
+## Mouvement
+- proposer 2 découpages plausibles ;
+- faire justifier lequel rend mieux compte de la transformation du passage.
+
+## Procédés / effets
+- fournir 6 à 10 observations ;
+- demander de les regrouper selon ce qu'elles permettent de montrer ;
+- faire formuler ensuite la phrase de synthèse ;
+- introduire seulement alors le terme **réalisation**.
+
+## Réemploi
+- proposer 2 sujets de dissertation ;
+- demander dans lequel le passage est le plus utile et pourquoi ;
+- puis chercher un autre passage du roman qui nuance ou complète son apport.
+
+# NOTE MÉTHODOLOGIQUE
+La ressource Éduscol insiste sur l'alternance entre explication de passages et vues synthétiques/transversales. La sélection finale doit donc constituer un système de passages complémentaires, pas une succession de « morceaux choisis » indépendants.
