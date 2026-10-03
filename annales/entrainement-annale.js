@@ -58,8 +58,23 @@
   const status=()=>window.AccessControl?.getStatus?.()||{premium:false};
   const currentStep=()=>item.etapes[state.step];
   const aiModeFor=(step)=>{
+    if(step.aiMode==="none") return "none";
+
+    if(item.type==="bac-commentaire"){
+      if(["donne","attente","transformation","necessite","transitions","realisations","raccord"].includes(step.id)) return "none";
+      if(["plan","intro","partie","conclusion"].includes(step.id)) return "recommended";
+      if(["problematique","preuves"].includes(step.id)) return "optional";
+      return "none";
+    }
+
+    if(item.type==="brevet"){
+      if(step.correction && ["brevet-grammaire","brevet-lexique","brevet-reecriture"].includes(step.kind)) return "none";
+      if(["brevet-interpretation","brevet-analyse","brevet-image","brevet-redaction"].includes(step.kind)) return step.aiMode==="recommended"?"recommended":"optional";
+      if(step.kind==="brevet-comprehension") return step.aiMode==="recommended"?"recommended":"optional";
+      return "none";
+    }
+
     if(step.aiMode) return step.aiMode;
-    if(["brevet-grammaire","brevet-lexique","brevet-reecriture"].includes(step.kind) && step.correction) return "none";
     if(step.kind==="redaction" || step.kind==="plan") return "recommended";
     return "optional";
   };
