@@ -19,7 +19,6 @@ window.ANNALES_CATALOGUE = {
         "id": "donne",
         "kind": "lecture",
         "aiMode": "none",
-        "aiMode": "none"
         "titre": "1. Le donné",
         "temps": 300,
         "access": "free",
@@ -32,7 +31,6 @@ window.ANNALES_CATALOGUE = {
         "id": "attente",
         "kind": "lecture",
         "aiMode": "none",
-        "aiMode": "none"
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
@@ -45,7 +43,6 @@ window.ANNALES_CATALOGUE = {
         "id": "transformation",
         "kind": "lecture",
         "aiMode": "none",
-        "aiMode": "none"
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
@@ -71,7 +68,6 @@ window.ANNALES_CATALOGUE = {
         "id": "plan",
         "kind": "plan",
         "aiMode": "recommended",
-        "aiMode": "recommended"
         "titre": "5. Les solutions du plan",
         "temps": 720,
         "access": "free",
@@ -84,7 +80,6 @@ window.ANNALES_CATALOGUE = {
         "id": "necessite",
         "kind": "plan",
         "aiMode": "optional",
-        "aiMode": "optional"
         "titre": "6. Pourquoi chaque solution est-elle nécessaire ?",
         "temps": 540,
         "access": "free",
@@ -108,7 +103,6 @@ window.ANNALES_CATALOGUE = {
         "id": "realisations",
         "kind": "analyse",
         "aiMode": "optional",
-        "aiMode": "optional"
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "free",
@@ -119,7 +113,6 @@ window.ANNALES_CATALOGUE = {
         "id": "preuves",
         "kind": "analyse",
         "aiMode": "optional",
-        "aiMode": "optional"
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "free",
@@ -136,7 +129,6 @@ window.ANNALES_CATALOGUE = {
         "id": "intro",
         "kind": "redaction",
         "aiMode": "recommended",
-        "aiMode": "recommended"
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "free",
@@ -147,7 +139,6 @@ window.ANNALES_CATALOGUE = {
         "id": "partie",
         "kind": "redaction",
         "aiMode": "recommended",
-        "aiMode": "recommended"
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "free",
@@ -158,7 +149,6 @@ window.ANNALES_CATALOGUE = {
         "id": "raccord",
         "kind": "redaction",
         "aiMode": "optional",
-        "aiMode": "optional"
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "free",
@@ -169,7 +159,6 @@ window.ANNALES_CATALOGUE = {
         "id": "conclusion",
         "kind": "redaction",
         "aiMode": "recommended",
-        "aiMode": "recommended"
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "free",
