@@ -171,7 +171,31 @@ Exemple de forme :
 
 La partie suivante devient nécessaire parce qu'elle devra répondre à cette question.
 
-Dans le travail préparatoire, la transition peut être réduite à la question seule. Dans une copie rédigée, elle peut être précédée d'une phrase très brève rappelant l'acquis de la partie, mais sa fonction reste la même : faire apparaître le manque restant.
+Dans le travail préparatoire, la transition peut être réduite à la question seule.
+
+Dans la copie rédigée, la forme privilégiée est également très simple :
+
+**ACQUIS DE LA PARTIE → QUESTION SUR CE QUI MANQUE ENCORE**
+
+Exemple :
+> Cette première réponse permet donc d'établir que [...]. **Mais cela suffit-il à expliquer [...] ?**
+
+La question directe est autorisée et souvent efficace parce qu'elle rend immédiatement visible la progression du raisonnement. Elle n'est cependant pas obligatoire : on peut aussi employer une interrogation indirecte ou une phrase brève qui formule le même manque.
+
+La qualité de la transition dépend de sa fonction, non de sa ponctuation.
+
+### Test d'une bonne transition
+Une transition est réussie si :
+- elle part réellement de ce qui vient d'être démontré ;
+- elle fait apparaître un manque précis ;
+- ce manque est lié à la problématique générale ;
+- la partie suivante répond effectivement à cette question ;
+- elle ne se contente pas d'annoncer « nous verrons maintenant... ».
+
+Elle ne doit pas :
+- introduire un nouvel argument complet ;
+- répéter la nécessité de la partie suivante ;
+- fabriquer une difficulté qui n'existe pas dans le raisonnement.
 
 ### Distinction capitale
 
