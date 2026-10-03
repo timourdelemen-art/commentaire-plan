@@ -482,3 +482,52 @@ Aucun document payant ne passe en ligne avant validation de ces cinq points :
 3. solidité de la problématique ;
 4. qualité des exercices ;
 5. qualité typographique et imprimabilité.
+
+
+## Extraits = boîtes à outils de citations pour la dissertation
+
+Un extrait de Première n'est pas seulement choisi pour l'explication linéaire.
+Il doit également constituer une **réserve de citations mémorisables et réutilisables en dissertation**.
+
+### Critère supplémentaire de sélection
+Avant de retenir définitivement un extrait, vérifier qu'il contient idéalement **2 à 5 citations courtes** qui soient :
+- textuellement exactes ;
+- suffisamment brèves pour être apprises ;
+- stylistiquement marquantes ;
+- compréhensibles hors d'un contexte trop lourd ;
+- capables de soutenir plusieurs arguments ;
+- représentatives d'un enjeu important de l'œuvre ;
+- complémentaires entre elles.
+
+Un passage excellent pour l'oral mais ne fournissant aucun fragment réellement mémorisable peut être écarté au profit d'un passage presque aussi riche mais beaucoup plus rentable pour la dissertation.
+
+### Pour chaque citation retenue
+La fiche professeur conserve :
+- citation exacte ;
+- page / chapitre / lignes de l'extrait ;
+- contexte minimal ;
+- ce qu'elle permet de prouver ;
+- 2 à 4 enjeux auxquels elle peut être reliée ;
+- exemples de sujets de dissertation où elle peut servir ;
+- limites : ce qu'elle ne permet pas de prouver.
+
+### Exercices élèves autour des citations
+- associer citation → argument ;
+- choisir parmi trois citations celle qui prouve le mieux un argument ;
+- expliquer pourquoi deux citations proches ne prouvent pas exactement la même chose ;
+- apprendre une citation puis la réutiliser dans une phrase argumentative ;
+- retrouver le contexte d'une citation ;
+- utiliser la même citation dans deux problématiques différentes ;
+- transformer une citation décorative en preuve réellement analysée ;
+- constituer progressivement une banque personnelle de 10 à 15 citations essentielles sur l'œuvre.
+
+### Règle
+**Citation → analyse → argument.**
+Une citation apprise par cœur n'a de valeur que si l'élève sait expliquer précisément ce qu'elle montre et pourquoi elle répond au sujet.
+
+### Conséquence pour la sélection finale de Pot-Bouille
+Les trois extraits définitifs doivent former ensemble une petite banque particulièrement rentable :
+- environ 8 à 12 citations vraiment apprenables ;
+- couverture de plusieurs enjeux du parcours ;
+- possibilité de réemployer ces citations dans un grand nombre de sujets ;
+- aucune série de citations redondantes.
