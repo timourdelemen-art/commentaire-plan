@@ -137,52 +137,78 @@ Il faut :
 
 **Exemple ≠ preuve complète.** Un exemple devient une preuve lorsqu'il est interprété et relié explicitement à l'argument.
 
-### Culture littéraire extérieure
+### Culture littéraire et singularité de l'œuvre
 
-La dissertation distingue trois niveaux de mobilisation :
+La grille d'évaluation distingue nettement plusieurs degrés de maîtrise : la simple absence de connaissances mobilisées, la convocation maladroite ou peu pertinente, l'usage d'éléments pertinents pour enrichir la compréhension ou l'interprétation, puis l'appui sur les connaissances littéraires pour **faire émerger la singularité de l'œuvre et l'interpréter**.
 
-1. **L'œuvre étudiée : preuve principale.**
-   - passages ;
-   - scènes ;
-   - citations ;
-   - personnages ;
-   - structure ;
-   - motifs et évolutions.
+La culture littéraire ne doit donc pas être traitée comme une décoration ajoutée au devoir. Son usage le plus exigeant consiste à rendre visible ce qui est propre à l'œuvre étudiée.
 
-2. **Le parcours et les connaissances de cours : cadre d'interprétation.**
-   - ils permettent de comprendre les enjeux du sujet ;
-   - ils aident à relier les observations ;
-   - ils ne doivent pas devenir une récitation indépendante du sujet.
+### Principe logique
 
-3. **La culture littéraire ou artistique extérieure : fonction d'éclairage.**
-   - elle est facultative ;
-   - elle ne remplace jamais la preuve tirée de l'œuvre ;
-   - elle sert à mieux faire apparaître la spécificité de l'œuvre étudiée.
+**ŒUVRE ÉTUDIÉE A → RÉFÉRENCE B → POINT COMMUN CONTRÔLÉ → ÉCART SIGNIFICATIF → RETOUR À A → SINGULARITÉ DE A**
 
-Une référence extérieure peut avoir quatre fonctions précises :
-- **comparer** : rapprocher une autre œuvre pour faire apparaître un point commun utile ;
-- **distinguer** : montrer une différence qui rend la singularité de l'œuvre plus nette ;
-- **situer** : replacer un choix, un genre ou un enjeu dans une histoire littéraire ou artistique ;
-- **mettre en perspective** : montrer jusqu'où la conclusion obtenue vaut, ou comment une autre œuvre la déplace.
+La référence extérieure agit comme un **terme de comparaison** ou un **contrepoint**.
 
-### Règle de retour vers l'œuvre
+1. **Identifier dans l'œuvre étudiée un phénomène précis**
+   - un motif ;
+   - une situation ;
+   - un genre ;
+   - une construction narrative ;
+   - un procédé ;
+   - une représentation ;
+   - une réponse à une question morale, esthétique ou sociale.
 
-Une référence extérieure n'est utile que si l'élève peut répondre à :
-> **Qu'est-ce que cette comparaison me permet de mieux comprendre dans l'œuvre étudiée ?**
+2. **Choisir une autre œuvre pertinente**
+   - elle doit permettre une comparaison réelle sur ce même point ;
+   - elle n'est pas convoquée pour son prestige ni pour montrer une connaissance.
 
-Si elle ne permet pas ce retour, elle est décorative.
+3. **Comparer sur un axe précis**
+   - que font les deux œuvres du même motif, de la même situation ou du même problème ?
 
-### Placement
+4. **Faire apparaître l'écart**
+   - même motif, fonction différente ;
+   - même genre, usage différent ;
+   - même situation, issue différente ;
+   - même procédé, effet différent ;
+   - même problème, réponse différente.
 
-La culture extérieure peut intervenir :
-- brièvement dans un argument ;
-- dans une comparaison ponctuelle ;
-- dans la conclusion, notamment pour une ouverture précise.
+5. **Revenir à l'œuvre étudiée**
+   - l'écart permet de formuler ce qui devient plus visible dans A ;
+   - c'est ce retour qui fait émerger sa singularité.
 
-Elle ne doit pas :
-- remplacer l'analyse de l'œuvre ;
-- constituer un paragraphe autonome sans lien avec le sujet ;
-- être ajoutée uniquement pour montrer que l'élève connaît d'autres œuvres.
+### Formule élève
+
+> Dans [œuvre B], [...]. Dans [œuvre A], au contraire / de manière différente, [...]. **Cette différence montre que [œuvre A]...**
+
+La dernière phrase est indispensable : sans retour vers l'œuvre étudiée, la référence reste extérieure au raisonnement.
+
+### Singularité ne signifie pas unicité absolue
+
+Il ne s'agit pas de prouver que l'œuvre étudiée est la seule de toute la littérature à faire quelque chose.
+Il s'agit de faire apparaître **la manière particulière dont elle traite un enjeu**, par comparaison ou différenciation.
+
+### Quatre opérations utiles
+
+- **Comparer** : un point commun permet de mieux mesurer un choix de l'œuvre.
+- **Différencier** : un contraste fait ressortir une spécificité.
+- **Situer** : replacer l'œuvre dans une tradition permet de voir ce qu'elle reprend, transforme ou déplace.
+- **Mettre en perspective** : une autre œuvre permet de mesurer la portée ou les limites de l'interprétation obtenue.
+
+### Place dans la dissertation
+
+Cette opération peut intervenir à l'intérieur d'un argument, après que la preuve principale tirée de l'œuvre a été établie :
+
+**ARGUMENT → PREUVE DANS L'ŒUVRE → ANALYSE → RÉFÉRENCE COMPARATIVE → ÉCART → RETOUR À L'ŒUVRE**
+
+Elle peut aussi servir dans l'ouverture de conclusion, à condition que l'ouverture accomplisse réellement cette comparaison.
+
+### Test
+
+Une référence littéraire est pleinement réussie si l'élève peut compléter :
+
+> **Grâce à cette comparaison, je comprends mieux que, dans l'œuvre étudiée, ...**
+
+Si cette phrase n'apporte rien de nouveau ou de plus précis sur l'œuvre, la référence n'a pas encore fait émerger sa singularité.
 
 ---
 
