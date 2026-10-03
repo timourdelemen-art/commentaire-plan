@@ -531,3 +531,58 @@ Les trois extraits définitifs doivent former ensemble une petite banque particu
 - couverture de plusieurs enjeux du parcours ;
 - possibilité de réemployer ces citations dans un grand nombre de sujets ;
 - aucune série de citations redondantes.
+
+
+## Architecture miroir professeur / élève
+
+Le même dossier d'œuvre doit alimenter deux expériences différentes.
+
+### Côté professeur
+- justification de la sélection des extraits ;
+- séquence complète ;
+- objectifs ;
+- variantes pédagogiques ;
+- corrigés ;
+- points de vigilance ;
+- prolongements ;
+- évaluation.
+
+### Côté élève
+- texte authentique et numéroté ;
+- exercices interactifs ;
+- aide progressive ;
+- correction après tentative ;
+- parcours transversal ;
+- citations à mémoriser ;
+- transfert vers commentaire, oral et dissertation.
+
+### Deux parcours d'analyse à proposer
+
+#### Parcours A — du problème vers l'analyse
+1. comprendre la tension du passage ;
+2. choisir / formuler la problématique ;
+3. repérer les mouvements ;
+4. chercher les éléments textuels ;
+5. nommer les procédés utiles ;
+6. expliquer les effets ;
+7. rédiger.
+
+#### Parcours B — de l'analyse vers le problème
+1. relever des éléments textuels ;
+2. identifier des procédés ;
+3. expliquer leur effet ici ;
+4. regrouper ce qui permet de montrer la même chose ;
+5. formuler ce que le texte fait ;
+6. dégager les grandes étapes ;
+7. faire apparaître la problématique ;
+8. rédiger.
+
+Les deux parcours sont légitimes. Ils permettent d'accueillir des pratiques professorales différentes sans modifier l'exigence finale.
+
+## Standard de longueur des extraits
+Pour les extraits de Première destinés à l'explication :
+- viser **environ vingt lignes** ;
+- éviter de descendre sensiblement sous vingt lignes ;
+- éviter de dépasser sensiblement vingt lignes ;
+- accepter un léger dépassement ou une légère réduction uniquement si le mouvement du passage l'exige ;
+- ne jamais mutiler la structure du passage pour respecter artificiellement un compte exact.
