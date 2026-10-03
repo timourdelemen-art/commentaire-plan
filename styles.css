@@ -965,3 +965,18 @@ main.wrap{overflow:hidden}
   .offer-band h2{font-size:34px}
   .seo-body{padding:44px 6px 64px}
 }
+
+
+/* 2026-10 — navigation unique et moteur pédagogique */
+.procedure-library{padding:58px 18px;border-bottom:1px solid var(--rule)}
+.procedure-card-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:28px}
+.procedure-card-grid article{background:#fbf8f1;border:1px solid #cfc6ba;padding:22px;min-height:250px}
+.procedure-card-grid article>span{font:11px 'American Typewriter','Courier New',monospace;letter-spacing:1.6px;color:var(--red);text-transform:uppercase}
+.procedure-card-grid h3{font-size:25px;margin:10px 0 14px}
+.procedure-card-grid p{font-size:16px;line-height:1.5;margin:8px 0}
+.brevet-feedback-principle,.annales-matrix{padding:58px 18px;border-bottom:1px solid var(--rule)}
+.brevet-feedback-principle .offer-band{margin-top:30px}
+.annales-matrix .procedure-mode-grid article{border:1px solid #cfc6ba;padding:22px;background:#fbf8f1}
+.annales-matrix .procedure-mode-grid article span{font:11px 'American Typewriter','Courier New',monospace;color:var(--red);letter-spacing:1px}
+@media(max-width:1050px){.procedure-card-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:700px){.procedure-card-grid{grid-template-columns:1fr}.procedure-card-grid article{min-height:0}}
