@@ -1,3 +1,4 @@
 User-agent: *
-Disallow: /
-# Version locale de développement : indexation désactivée.
+Allow: /
+
+Sitemap: https://commentaire-plan.com/sitemap.xml
