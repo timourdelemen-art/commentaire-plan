@@ -2035,5 +2035,173 @@ window.ANNALES_CATALOGUE = {
         "aide": "L’IA doit vérifier systématiquement verbes, accords, pronoms et adjectifs touchés par les deux transformations."
       }
     ]
+  },
+  "brevet-2025-general-gael-faye-jacaranda": {
+    "examen": "Brevet",
+    "type": "brevet",
+    "annee": 2025,
+    "zone": "Amérique du Nord",
+    "serie": "Générale",
+    "epreuve": "Compréhension · grammaire · réécriture",
+    "access": "free",
+    "auteur": "Gaël Faye",
+    "oeuvre": "Jacaranda",
+    "sourceOfficielle": "https://www.education.gouv.fr/sites/default/files/2025-06/dipl-me-national-du-brevet-2025---fran-ais-compr-hension-et-comp-tences-d-interpr-tation---grammaire-et-comp-tences-linguistiques-440568.pdf",
+    "parcours": "../anthologie-brevet.html",
+    "dureeExamen": 4200,
+    "ia": true,
+    "contexte": "Sujet officiel DNB 2025, série générale. Correction locale pour les réponses déterminées ; IA seulement pour les réponses d’interprétation qui gagnent à être relues.",
+    "etapes": [
+      {
+        "id": "q1",
+        "kind": "brevet-comprehension",
+        "aiMode": "optional",
+        "titre": "1. Les personnages",
+        "temps": 240,
+        "access": "free",
+        "points": 3,
+        "consigne": "Quels sont les personnages présents dans le texte ? Que sait-on du personnage féminin ?",
+        "aide": "Identifiez les trois membres de la famille, puis relevez les informations certaines sur la mère."
+      },
+      {
+        "id": "q2",
+        "kind": "brevet-comprehension",
+        "aiMode": "optional",
+        "titre": "2. Une mère mystérieuse",
+        "temps": 360,
+        "access": "free",
+        "points": 4,
+        "consigne": "Pourquoi le narrateur observe-t-il sa mère dans le premier paragraphe ? Deux éléments de réponse sont attendus, chacun illustré par une citation.",
+        "aide": "Cherchez ce qui change lorsqu’elle parle kinyarwanda, puis ce que le narrateur comprend de sa propre ignorance."
+      },
+      {
+        "id": "q3a",
+        "kind": "brevet-comprehension",
+        "aiMode": "optional",
+        "titre": "3a. Le Rwanda dans les médias",
+        "temps": 300,
+        "access": "free",
+        "points": 3,
+        "consigne": "Pourquoi le pays natal de la mère est-il évoqué dans les médias ? Donnez deux éléments du texte.",
+        "aide": "Les images télévisées sont liées à une situation historique violente. Deux preuves sont demandées."
+      },
+      {
+        "id": "q3b",
+        "kind": "brevet-interpretation",
+        "aiMode": "optional",
+        "titre": "3b. Réaction des parents",
+        "temps": 360,
+        "access": "free",
+        "points": 4,
+        "consigne": "Comment réagissent les parents du narrateur face aux images diffusées à la télévision ? Deux éléments sont attendus.",
+        "aide": "Distinguez la réaction de la mère et celle du père ; appuyez chacune sur un élément précis."
+      },
+      {
+        "id": "q4",
+        "kind": "brevet-analyse",
+        "aiMode": "optional",
+        "titre": "4. La violence du conflit",
+        "temps": 420,
+        "access": "free",
+        "points": 6,
+        "consigne": "Dans la phrase « Des mois durant, un magma d’images de mort, de violence et d’exode s’est déversé dans nos assiettes », nommez deux procédés et expliquez leur effet.",
+        "aide": "Cherchez d’abord comment les images sont rapprochées d’une matière qui se répand, puis observez la succession « mort, violence, exode ».",
+        "manual": ["métaphore","accumulation","champ lexical","hyperbole"]
+      },
+      {
+        "id": "q5",
+        "kind": "brevet-interpretation",
+        "aiMode": "recommended",
+        "titre": "5. Les « terribles maux de ventre »",
+        "temps": 480,
+        "access": "premium",
+        "points": 6,
+        "consigne": "Comment expliquez-vous les « terribles maux de ventre » du narrateur ? Donnez deux éléments de réponse.",
+        "aide": "Reliez l’effet physique à la violence des images et au silence familial qui empêche de mettre des mots sur ce qui est vu."
+      },
+      {
+        "id": "q6",
+        "kind": "brevet-image",
+        "aiMode": "optional",
+        "titre": "6. Texte et photographie",
+        "temps": 480,
+        "access": "premium",
+        "points": 6,
+        "consigne": "Quels liens pouvez-vous faire entre la photographie officielle et le texte de Gaël Faye ? Trois éléments sont attendus.",
+        "aide": "Travaillez seulement à partir de l’image officielle du sujet : mémoire des victimes, transmission, Rwanda et lien entre générations."
+      },
+      {
+        "id": "q7a",
+        "kind": "brevet-grammaire",
+        "aiMode": "none",
+        "titre": "7a. Temps et mode",
+        "temps": 90,
+        "access": "free",
+        "points": 1,
+        "consigne": "Dans « Nous restions ensuite silencieux », indiquez le temps et le mode de « restions ».",
+        "aide": "Identifiez d’abord la terminaison et le contexte narratif.",
+        "correction": "« restions » est à l’imparfait de l’indicatif."
+      },
+      {
+        "id": "q7b",
+        "kind": "brevet-grammaire",
+        "aiMode": "none",
+        "titre": "7b. Valeur de l’imparfait",
+        "temps": 120,
+        "access": "free",
+        "points": 1,
+        "consigne": "Donnez la valeur de cet imparfait dans le passage.",
+        "aide": "La scène se répète « quasiment chaque soir ».",
+        "correction": "L’imparfait exprime ici une habitude, une action répétée dans le passé."
+      },
+      {
+        "id": "q8a",
+        "kind": "brevet-grammaire",
+        "aiMode": "none",
+        "titre": "8a. Nature de « religieusement »",
+        "temps": 90,
+        "access": "free",
+        "points": 1,
+        "consigne": "Donnez la nature du mot « religieusement ».",
+        "aide": "Le mot est invariable et précise la manière de regarder.",
+        "correction": "« religieusement » est un adverbe."
+      },
+      {
+        "id": "q8b",
+        "kind": "brevet-grammaire",
+        "aiMode": "none",
+        "titre": "8b. Fonction et manipulations",
+        "temps": 210,
+        "access": "free",
+        "points": 3,
+        "consigne": "Quelle est la fonction de « religieusement » ? Indiquez deux manipulations pour justifier.",
+        "aide": "Testez la suppression et le déplacement.",
+        "correction": "« religieusement » est complément circonstanciel de manière du verbe « regardions ». On peut le supprimer sans rendre la phrase incorrecte et le déplacer : « Religieusement, nous regardions la télévision… »"
+      },
+      {
+        "id": "q9",
+        "kind": "brevet-lexique",
+        "aiMode": "none",
+        "titre": "9. Le sens de « épier »",
+        "temps": 150,
+        "access": "free",
+        "points": 2,
+        "consigne": "Expliquez le sens du verbe « épier » dans le contexte, puis proposez un synonyme.",
+        "aide": "Le narrateur observe sa mère discrètement et avec attention.",
+        "correction": "« épier » signifie observer attentivement et souvent en secret. Un synonyme possible est « surveiller »."
+      },
+      {
+        "id": "q10",
+        "kind": "brevet-reecriture",
+        "aiMode": "none",
+        "titre": "10. Réécriture",
+        "temps": 600,
+        "access": "premium",
+        "points": 10,
+        "consigne": "Réécrivez le passage en remplaçant « la » par « les » au masculin pluriel, en commençant par « Si bien que lorsque je les surprenais… ».",
+        "aide": "Repérez tous les pronoms, verbes, adjectifs et déterminants qui dépendent de la personne devenue masculine plurielle.",
+        "correction": "« Si bien que lorsque je les surprenais en train de parler kinyarwanda lors d’une conversation téléphonique et les entendais s’exprimer couramment dans cette langue inconnue, je m’arrêtais, stupéfait. Je n’ai jamais su avec qui ils conversaient. Quand je les interrogeais, ils restaient évasifs, parlaient de “vieilles connaissances” ou de leur “lointaine famille à Bruxelles”. Je profitais de ces appels pour les épier. »"
+      }
+    ]
   }
 };
