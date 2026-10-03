@@ -39,7 +39,7 @@
         const local=modes.filter(m=>m==="none").length;
         const optional=modes.filter(m=>m==="optional").length;
         const recommended=modes.filter(m=>m==="recommended").length;
-        return "IA : "+local+" étape"+(local>1?"s":"")+" sans IA · "+optional+" facultative"+(optional>1?"s":"")+" · "+recommended+" recommandée"+(recommended>1?"s":"");
+        return "Aide : "+local+" étape"+(local>1?"s":"")+" en correction locale · "+optional+" avec retour facultatif"+(optional>1?"s":"")+" · "+recommended+" avec retour conseillé"+(recommended>1?"s":"");
       })()}</p>
       ${x.type==="bac-commentaire"
         ? `<a class="official-link" href="${esc(x.id)}.html">Voir la fiche et les exercices →</a>`
