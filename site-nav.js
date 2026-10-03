@@ -47,7 +47,6 @@ document.addEventListener('DOMContentLoaded',()=> {
       ['enseignants.html#troisieme','Ressources de 3e','Brevet, langue et rédaction'],
       ['enseignants.html#seconde','Ressources de Seconde','Lecture, commentaire et langue'],
       ['enseignants.html#premiere','Ressources de Première','Bac écrit et oral'],
-      ['formation.html','Voir les progressions','Séquences et parcours pédagogiques'],
       ['bibliotheque.html','Ouvrir la bibliothèque','Retrouver les documents et ressources']
     ],is(teacherPages)?'active':'')
   ].join('');
