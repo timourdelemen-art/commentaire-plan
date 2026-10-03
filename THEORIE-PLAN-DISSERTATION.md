@@ -139,17 +139,50 @@ Il faut :
 
 ### Culture littéraire extérieure
 
-Une référence extérieure ne remplace jamais la preuve tirée de l'œuvre étudiée.
+La dissertation distingue trois niveaux de mobilisation :
 
-Elle peut :
-- **comparer** ;
-- **distinguer** ;
-- **situer** ;
-- **éclairer**.
+1. **L'œuvre étudiée : preuve principale.**
+   - passages ;
+   - scènes ;
+   - citations ;
+   - personnages ;
+   - structure ;
+   - motifs et évolutions.
 
-Elle doit revenir vers l'œuvre étudiée et permettre d'en préciser la singularité.
+2. **Le parcours et les connaissances de cours : cadre d'interprétation.**
+   - ils permettent de comprendre les enjeux du sujet ;
+   - ils aident à relier les observations ;
+   - ils ne doivent pas devenir une récitation indépendante du sujet.
 
-Elle est **facultative** : elle enrichit la réflexion lorsqu'elle est utile, mais elle ne doit jamais devenir une obligation décorative.
+3. **La culture littéraire ou artistique extérieure : fonction d'éclairage.**
+   - elle est facultative ;
+   - elle ne remplace jamais la preuve tirée de l'œuvre ;
+   - elle sert à mieux faire apparaître la spécificité de l'œuvre étudiée.
+
+Une référence extérieure peut avoir quatre fonctions précises :
+- **comparer** : rapprocher une autre œuvre pour faire apparaître un point commun utile ;
+- **distinguer** : montrer une différence qui rend la singularité de l'œuvre plus nette ;
+- **situer** : replacer un choix, un genre ou un enjeu dans une histoire littéraire ou artistique ;
+- **mettre en perspective** : montrer jusqu'où la conclusion obtenue vaut, ou comment une autre œuvre la déplace.
+
+### Règle de retour vers l'œuvre
+
+Une référence extérieure n'est utile que si l'élève peut répondre à :
+> **Qu'est-ce que cette comparaison me permet de mieux comprendre dans l'œuvre étudiée ?**
+
+Si elle ne permet pas ce retour, elle est décorative.
+
+### Placement
+
+La culture extérieure peut intervenir :
+- brièvement dans un argument ;
+- dans une comparaison ponctuelle ;
+- dans la conclusion, notamment pour une ouverture précise.
+
+Elle ne doit pas :
+- remplacer l'analyse de l'œuvre ;
+- constituer un paragraphe autonome sans lien avec le sujet ;
+- être ajoutée uniquement pour montrer que l'élève connaît d'autres œuvres.
 
 ---
 
