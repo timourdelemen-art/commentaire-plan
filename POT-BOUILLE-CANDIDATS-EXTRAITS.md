@@ -499,3 +499,25 @@ Pour chaque passage :
 
 # NOTE MÉTHODOLOGIQUE
 La ressource Éduscol insiste sur l'alternance entre explication de passages et vues synthétiques/transversales. La sélection finale doit donc constituer un système de passages complémentaires, pas une succession de « morceaux choisis » indépendants.
+
+
+# SÉLECTION PUBLIÉE — 3 OCTOBRE 2026
+
+Après comparaison des candidats et vérification du texte :
+
+## PB-01 — chapitre VI — La cour des cuisines
+Fonction : rendre matériellement visible l'envers de l'immeuble et faire de la parole domestique un révélateur des « hontes » des familles.
+
+## PB-02 — chapitre XVI — Le retour de Berthe
+Fonction : faire apparaître comment l'éducation matrimoniale et la famille produisent puis reconduisent la domination.
+
+## PB-03 — chapitre XV — Le lendemain du scandale
+Fonction : montrer la capacité de l'immeuble à effacer les traces du scandale et à restaurer presque immédiatement sa façade de respectabilité.
+
+### Complémentarité
+- PB-01 : **dévoiler** ;
+- PB-02 : **produire / reproduire** ;
+- PB-03 : **absorber / restaurer**.
+
+Cette triade permet de passer du commentaire local à une vue transversale particulièrement rentable pour la dissertation :
+**ce qui est caché → les mécanismes qui le produisent → les mécanismes qui permettent à l'ordre de survivre à son dévoilement.**
