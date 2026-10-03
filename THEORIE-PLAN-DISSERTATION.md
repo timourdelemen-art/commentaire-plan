@@ -202,6 +202,19 @@ Cette opération peut intervenir à l'intérieur d'un argument, après que la pr
 
 Elle peut aussi servir dans l'ouverture de conclusion, à condition que l'ouverture accomplisse réellement cette comparaison.
 
+### Combien de références ?
+
+La grille ne fixe aucun nombre.
+
+Repère pédagogique :
+- **une excellente référence extérieure, réellement exploitée, peut suffire** ;
+- une deuxième peut être ajoutée si le sujet ou l'analyse appelle naturellement un autre rapprochement ;
+- il n'existe aucun quota par partie ;
+- multiplier les références sans fonction précise affaiblit le raisonnement.
+
+La priorité reste toujours :
+**référence pertinente → comparaison précise → écart significatif → retour à l'œuvre → singularité.**
+
 ### Test
 
 Une référence littéraire est pleinement réussie si l'élève peut compléter :
