@@ -9,46 +9,46 @@ document.addEventListener('DOMContentLoaded',()=> {
   const manualPages=['manuel-procedes.html','bac-commentaire-procedes.html','bac-commentaire-procedes-entrainement.html','parcours.html'];
   const is=(names)=>names.includes(path);
 
-  const portal=(href,label,sub,items,classes='')=>`
+  const portal=(href,label,sub,items,classes='',offer=null)=>`
     <div class="portal-wrap ${classes}">
       <a class="portal${classes.includes('active')?' active':''}" href="${href}" aria-haspopup="true">
         <span>${label}</span><small>${sub}</small><i aria-hidden="true">⌄</i>
       </a>
       <div class="portal-dropdown" role="menu">
+        <div class="portal-dropdown-head"><strong>Que voulez-vous faire ?</strong></div>
         ${items.map(([u,t,d])=>`<a href="${u}" role="menuitem"><strong>${t}</strong>${d?`<small>${d}</small>`:''}</a>`).join('')}
+        ${offer?`<a class="portal-offer" href="${offer[0]}"><strong>${offer[1]}</strong><small>${offer[2]}</small></a>`:''}
       </div>
     </div>`;
 
   const portals=[
     portal('bac.html','BAC','écrit · oral',[
-      ['bac.html','Tout l’espace Bac','Choisir son entraînement'],
-      ['bac-commentaire.html','Commentaire','Méthode · exercices · modèles'],
-      ['bac-dissertation.html','Dissertation','Construire et rédiger'],
-      ['bac-oral.html','Oral','Préparer l’épreuve'],
-      ['annales.html#bac','Annales Bac','Sujets officiels'],
-      ['bac-mode-examen.html','Mode examen','S’entraîner sans aide']
-    ],is(bacPages)?'active':''),
-    portal('brevet.html','BREVET','lire · langue · écrire',[
-      ['brevet.html','Tout l’espace Brevet','Choisir son entraînement'],
-      ['anthologie-brevet.html','Sujets complets','Faire une annale dans l’ordre'],
-      ['brevet-comprehension.html','Compréhension','Répondre · justifier · interpréter'],
-      ['brevet-grammaire.html','Grammaire','Analyser · manipuler'],
-      ['brevet-reecriture.html','Réécriture','Transformer avec précision'],
-      ['brevet-redaction.html','Rédaction','Construire · rédiger · reprendre']
-    ],is(brevetPages)?'active':''),
-    portal('manuel-procedes.html','MANUEL','méthode · procédés',[
-      ['commentaire-bac-methode.html','Méthode du commentaire','De la lecture au plan'],
-      ['manuel-procedes.html','Petit manuel des procédés','Définitions · exemples · effets'],
-      ['bac-commentaire-procedes.html','Procédés & effets','Comprendre leur fonction'],
-      ['bac-commentaire-procedes-entrainement.html','Exercices','Identifier puis expliquer'],
-      ['parcours.html','Parcours guidés','Avancer étape par étape']
+      ['bac-commentaire.html','Préparer le commentaire','Comprendre la méthode et s’entraîner étape par étape'],
+      ['bac-dissertation.html','Préparer la dissertation','Construire une réflexion et rédiger'],
+      ['bac-oral.html','Préparer l’oral','Travailler les attentes de l’épreuve'],
+      ['annales.html#bac','Faire une annale','S’entraîner sur un sujet officiel'],
+      ['bac-mode-examen.html','Se mettre en condition','Travailler sans aide, avec chrono']
+    ],is(bacPages)?'active':'',['offre.html','Accéder à tous les entraînements','Plus de parcours, d’annales et de reprises accompagnées']),
+    portal('brevet.html','BREVET','comprendre · langue · rédiger',[
+      ['anthologie-brevet.html','Faire un sujet complet','Une annale officielle, question après question'],
+      ['brevet-comprehension.html','Travailler la compréhension','Répondre, justifier, interpréter'],
+      ['brevet-grammaire.html','Travailler la grammaire','Analyser et manipuler'],
+      ['brevet-reecriture.html','Travailler la réécriture','Transformer sans perdre les accords'],
+      ['brevet-redaction.html','Travailler la rédaction','Construire, rédiger puis améliorer']
+    ],is(brevetPages)?'active':'',['offre.html','Accéder à tous les sujets et exercices','Davantage d’annales, de séries ciblées et de reprises']),
+    portal('manuel-procedes.html','MÉTHODE','commentaire · procédés',[
+      ['commentaire-bac-methode.html','Comprendre la méthode','De la lecture à la problématique et au plan'],
+      ['manuel-procedes.html','Chercher un procédé','Définitions, exemples et effets'],
+      ['bac-commentaire-procedes.html','Comprendre procédés et effets','Relier forme, effet et interprétation'],
+      ['bac-commentaire-procedes-entrainement.html','S’entraîner sur les procédés','Identifier puis expliquer précisément'],
+      ['parcours.html','Suivre un parcours guidé','Avancer étape par étape']
     ],is(manualPages)?'active':''),
     portal('enseignants.html','ENSEIGNANTS','3e · 2de · 1re',[
-      ['enseignants.html#troisieme','Troisième','Brevet · langue · rédaction'],
-      ['enseignants.html#seconde','Seconde','Lecture · commentaire · langue'],
-      ['enseignants.html#premiere','Première','Bac écrit · oral'],
-      ['formation.html','Progressions','Séquences et parcours'],
-      ['bibliotheque.html','Bibliothèque','Documents et ressources']
+      ['enseignants.html#troisieme','Ressources de 3e','Brevet, langue et rédaction'],
+      ['enseignants.html#seconde','Ressources de Seconde','Lecture, commentaire et langue'],
+      ['enseignants.html#premiere','Ressources de Première','Bac écrit et oral'],
+      ['formation.html','Voir les progressions','Séquences et parcours pédagogiques'],
+      ['bibliotheque.html','Ouvrir la bibliothèque','Retrouver les documents et ressources']
     ],is(teacherPages)?'active':'')
   ].join('');
 
@@ -58,7 +58,6 @@ document.addEventListener('DOMContentLoaded',()=> {
     <nav class="nav-portals" aria-label="Navigation principale">
       ${portals}
     </nav>
-    <a class="nav-offer" href="offre.html">Accès complet</a>
   </div>`;
 
   header.querySelectorAll('.portal-wrap').forEach(wrap=>{
