@@ -695,3 +695,19 @@ La fiche professeur indique :
 - réponse ;
 - effet interprétatif ;
 - niveau : Seconde / Première.
+
+
+## Règle typographique absolue — titres d'œuvres
+
+Dans tous les contenus visibles et tous les documents :
+- **tout titre d'œuvre est toujours en italique** ;
+- le nom de l'auteur reste en romain ;
+- la règle s'applique aux titres de romans, recueils, pièces, essais, poèmes lorsqu'ils sont présentés comme titres, ainsi qu'aux tableaux, boutons, légendes, fiches, corrigés et pages commerciales ;
+- en HTML, utiliser `<em>…</em>` ;
+- dans les documents Markdown, utiliser `*…*`.
+
+Exemple correct :
+> Émile Zola, *Pot-Bouille*.
+
+Ne jamais écrire dans un contenu visible :
+> Émile Zola, Pot-Bouille.
