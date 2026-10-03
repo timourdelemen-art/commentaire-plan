@@ -18,6 +18,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "donne",
         "kind": "lecture",
+        "aiMode": "none",
         "aiMode": "none"
         "titre": "1. Le donné",
         "temps": 300,
@@ -30,6 +31,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "attente",
         "kind": "lecture",
+        "aiMode": "none",
         "aiMode": "none"
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
@@ -42,6 +44,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "transformation",
         "kind": "lecture",
+        "aiMode": "none",
         "aiMode": "none"
         "titre": "3. La transformation",
         "temps": 360,
@@ -54,6 +57,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "problematique",
         "kind": "problematique",
+        "aiMode": "optional",
         "aiMode": "none"
         "titre": "4. La problématique",
         "temps": 420,
@@ -66,6 +70,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "plan",
         "kind": "plan",
+        "aiMode": "recommended",
         "aiMode": "recommended"
         "titre": "5. Les solutions du plan",
         "temps": 720,
@@ -78,21 +83,23 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "necessite",
         "kind": "plan",
+        "aiMode": "optional",
         "aiMode": "optional"
-        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
+        "titre": "6. Pourquoi chaque solution est-elle nécessaire ?",
         "temps": 540,
         "access": "free",
-        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "consigne": "Pour chaque grande solution, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
         "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
       },
       {
         "id": "transitions",
         "kind": "transition",
+        "aiMode": "optional",
         "aiMode": "none"
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "free",
-        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
+        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir ».",
         "choix": ["Nous allons maintenant voir la parole de Hialmar.", "Comment Hialmar peut-il alors rester maître au moment même où son corps ne lui obéit plus ?", "Après la défaite physique, nous étudierons les impératifs."],
         "correction": "Après la première solution : « Comment Hialmar peut-il alors rester maître au moment même où son corps ne lui obéit plus ? » Puis : « Mais commander sa propre mort suffit-il à en faire une victoire héroïque ? »"
@@ -100,6 +107,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "realisations",
         "kind": "analyse",
+        "aiMode": "optional",
         "aiMode": "optional"
         "titre": "8. Les réalisations",
         "temps": 780,
@@ -110,6 +118,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "preuves",
         "kind": "analyse",
+        "aiMode": "optional",
         "aiMode": "optional"
         "titre": "9. Prouver et expliquer",
         "temps": 900,
@@ -126,6 +135,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "intro",
         "kind": "redaction",
+        "aiMode": "recommended",
         "aiMode": "recommended"
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
@@ -136,6 +146,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "partie",
         "kind": "redaction",
+        "aiMode": "recommended",
         "aiMode": "recommended"
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
@@ -146,6 +157,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "raccord",
         "kind": "redaction",
+        "aiMode": "optional",
         "aiMode": "optional"
         "titre": "12. Rédiger le raccord",
         "temps": 360,
@@ -156,6 +168,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "conclusion",
         "kind": "redaction",
+        "aiMode": "recommended",
         "aiMode": "recommended"
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
@@ -184,6 +197,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "donne",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "1. Le donné",
         "temps": 300,
         "access": "free",
@@ -193,6 +207,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "attente",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
@@ -202,6 +217,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "transformation",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
@@ -211,6 +227,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "problematique",
         "kind": "problematique",
+        "aiMode": "optional",
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
@@ -220,6 +237,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "plan",
         "kind": "plan",
+        "aiMode": "recommended",
         "titre": "5. Les solutions du plan",
         "temps": 720,
         "access": "premium",
@@ -229,24 +247,27 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "necessite",
         "kind": "plan",
-        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
+        "aiMode": "optional",
+        "titre": "6. Pourquoi chaque solution est-elle nécessaire ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "consigne": "Pour chaque grande solution, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
         "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
       },
       {
         "id": "transitions",
         "kind": "transition",
+        "aiMode": "optional",
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
+        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
         "id": "realisations",
         "kind": "analyse",
+        "aiMode": "optional",
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
@@ -256,6 +277,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "preuves",
         "kind": "analyse",
+        "aiMode": "optional",
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
@@ -271,6 +293,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "intro",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
@@ -280,6 +303,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "partie",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
@@ -289,6 +313,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "raccord",
         "kind": "redaction",
+        "aiMode": "optional",
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
@@ -298,6 +323,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "conclusion",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
@@ -325,6 +351,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "donne",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "1. Le donné",
         "temps": 300,
         "access": "free",
@@ -334,6 +361,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "attente",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
@@ -343,6 +371,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "transformation",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
@@ -352,6 +381,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "problematique",
         "kind": "problematique",
+        "aiMode": "optional",
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
@@ -361,6 +391,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "plan",
         "kind": "plan",
+        "aiMode": "recommended",
         "titre": "5. Les solutions du plan",
         "temps": 720,
         "access": "premium",
@@ -370,24 +401,27 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "necessite",
         "kind": "plan",
-        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
+        "aiMode": "optional",
+        "titre": "6. Pourquoi chaque solution est-elle nécessaire ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "consigne": "Pour chaque grande solution, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
         "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
       },
       {
         "id": "transitions",
         "kind": "transition",
+        "aiMode": "optional",
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
+        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
         "id": "realisations",
         "kind": "analyse",
+        "aiMode": "optional",
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
@@ -397,6 +431,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "preuves",
         "kind": "analyse",
+        "aiMode": "optional",
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
@@ -412,6 +447,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "intro",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
@@ -421,6 +457,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "partie",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
@@ -430,6 +467,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "raccord",
         "kind": "redaction",
+        "aiMode": "optional",
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
@@ -439,6 +477,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "conclusion",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
@@ -466,6 +505,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "donne",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "1. Le donné",
         "temps": 300,
         "access": "free",
@@ -475,6 +515,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "attente",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
@@ -484,6 +525,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "transformation",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
@@ -493,6 +535,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "problematique",
         "kind": "problematique",
+        "aiMode": "optional",
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
@@ -502,6 +545,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "plan",
         "kind": "plan",
+        "aiMode": "recommended",
         "titre": "5. Les solutions du plan",
         "temps": 720,
         "access": "premium",
@@ -511,24 +555,27 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "necessite",
         "kind": "plan",
-        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
+        "aiMode": "optional",
+        "titre": "6. Pourquoi chaque solution est-elle nécessaire ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "consigne": "Pour chaque grande solution, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
         "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
       },
       {
         "id": "transitions",
         "kind": "transition",
+        "aiMode": "optional",
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
+        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
         "id": "realisations",
         "kind": "analyse",
+        "aiMode": "optional",
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
@@ -538,6 +585,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "preuves",
         "kind": "analyse",
+        "aiMode": "optional",
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
@@ -553,6 +601,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "intro",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
@@ -562,6 +611,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "partie",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
@@ -571,6 +621,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "raccord",
         "kind": "redaction",
+        "aiMode": "optional",
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
@@ -580,6 +631,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "conclusion",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
@@ -607,6 +659,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "donne",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "1. Le donné",
         "temps": 300,
         "access": "free",
@@ -616,6 +669,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "attente",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
@@ -625,6 +679,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "transformation",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
@@ -634,6 +689,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "problematique",
         "kind": "problematique",
+        "aiMode": "optional",
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
@@ -643,6 +699,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "plan",
         "kind": "plan",
+        "aiMode": "recommended",
         "titre": "5. Les solutions du plan",
         "temps": 720,
         "access": "premium",
@@ -652,24 +709,27 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "necessite",
         "kind": "plan",
-        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
+        "aiMode": "optional",
+        "titre": "6. Pourquoi chaque solution est-elle nécessaire ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "consigne": "Pour chaque grande solution, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
         "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
       },
       {
         "id": "transitions",
         "kind": "transition",
+        "aiMode": "optional",
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
+        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
         "id": "realisations",
         "kind": "analyse",
+        "aiMode": "optional",
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
@@ -679,6 +739,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "preuves",
         "kind": "analyse",
+        "aiMode": "optional",
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
@@ -694,6 +755,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "intro",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
@@ -703,6 +765,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "partie",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
@@ -712,6 +775,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "raccord",
         "kind": "redaction",
+        "aiMode": "optional",
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
@@ -721,6 +785,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "conclusion",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
@@ -748,6 +813,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "donne",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "1. Le donné",
         "temps": 300,
         "access": "free",
@@ -757,6 +823,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "attente",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
@@ -766,6 +833,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "transformation",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
@@ -775,6 +843,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "problematique",
         "kind": "problematique",
+        "aiMode": "optional",
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
@@ -784,6 +853,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "plan",
         "kind": "plan",
+        "aiMode": "recommended",
         "titre": "5. Les solutions du plan",
         "temps": 720,
         "access": "premium",
@@ -793,24 +863,27 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "necessite",
         "kind": "plan",
-        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
+        "aiMode": "optional",
+        "titre": "6. Pourquoi chaque solution est-elle nécessaire ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "consigne": "Pour chaque grande solution, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
         "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
       },
       {
         "id": "transitions",
         "kind": "transition",
+        "aiMode": "optional",
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
+        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
         "id": "realisations",
         "kind": "analyse",
+        "aiMode": "optional",
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
@@ -820,6 +893,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "preuves",
         "kind": "analyse",
+        "aiMode": "optional",
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
@@ -835,6 +909,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "intro",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
@@ -844,6 +919,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "partie",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
@@ -853,6 +929,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "raccord",
         "kind": "redaction",
+        "aiMode": "optional",
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
@@ -862,6 +939,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "conclusion",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
@@ -889,6 +967,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "donne",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "1. Le donné",
         "temps": 300,
         "access": "free",
@@ -898,6 +977,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "attente",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
@@ -907,6 +987,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "transformation",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
@@ -916,6 +997,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "problematique",
         "kind": "problematique",
+        "aiMode": "optional",
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
@@ -925,6 +1007,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "plan",
         "kind": "plan",
+        "aiMode": "recommended",
         "titre": "5. Les solutions du plan",
         "temps": 720,
         "access": "premium",
@@ -934,24 +1017,27 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "necessite",
         "kind": "plan",
-        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
+        "aiMode": "optional",
+        "titre": "6. Pourquoi chaque solution est-elle nécessaire ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "consigne": "Pour chaque grande solution, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
         "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
       },
       {
         "id": "transitions",
         "kind": "transition",
+        "aiMode": "optional",
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
+        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
         "id": "realisations",
         "kind": "analyse",
+        "aiMode": "optional",
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
@@ -961,6 +1047,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "preuves",
         "kind": "analyse",
+        "aiMode": "optional",
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
@@ -976,6 +1063,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "intro",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
@@ -985,6 +1073,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "partie",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
@@ -994,6 +1083,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "raccord",
         "kind": "redaction",
+        "aiMode": "optional",
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
@@ -1003,6 +1093,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "conclusion",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
@@ -1030,6 +1121,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "donne",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "1. Le donné",
         "temps": 300,
         "access": "free",
@@ -1039,6 +1131,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "attente",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
@@ -1048,6 +1141,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "transformation",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
@@ -1057,6 +1151,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "problematique",
         "kind": "problematique",
+        "aiMode": "optional",
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
@@ -1066,6 +1161,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "plan",
         "kind": "plan",
+        "aiMode": "recommended",
         "titre": "5. Les solutions du plan",
         "temps": 720,
         "access": "premium",
@@ -1075,24 +1171,27 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "necessite",
         "kind": "plan",
-        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
+        "aiMode": "optional",
+        "titre": "6. Pourquoi chaque solution est-elle nécessaire ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "consigne": "Pour chaque grande solution, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
         "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
       },
       {
         "id": "transitions",
         "kind": "transition",
+        "aiMode": "optional",
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
+        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
         "id": "realisations",
         "kind": "analyse",
+        "aiMode": "optional",
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
@@ -1102,6 +1201,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "preuves",
         "kind": "analyse",
+        "aiMode": "optional",
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
@@ -1117,6 +1217,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "intro",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
@@ -1126,6 +1227,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "partie",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
@@ -1135,6 +1237,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "raccord",
         "kind": "redaction",
+        "aiMode": "optional",
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
@@ -1144,6 +1247,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "conclusion",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
@@ -1171,6 +1275,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "donne",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "1. Le donné",
         "temps": 300,
         "access": "free",
@@ -1180,6 +1285,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "attente",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
@@ -1189,6 +1295,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "transformation",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
@@ -1198,6 +1305,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "problematique",
         "kind": "problematique",
+        "aiMode": "optional",
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
@@ -1207,6 +1315,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "plan",
         "kind": "plan",
+        "aiMode": "recommended",
         "titre": "5. Les solutions du plan",
         "temps": 720,
         "access": "premium",
@@ -1216,24 +1325,27 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "necessite",
         "kind": "plan",
-        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
+        "aiMode": "optional",
+        "titre": "6. Pourquoi chaque solution est-elle nécessaire ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "consigne": "Pour chaque grande solution, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
         "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
       },
       {
         "id": "transitions",
         "kind": "transition",
+        "aiMode": "optional",
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
+        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
         "id": "realisations",
         "kind": "analyse",
+        "aiMode": "optional",
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
@@ -1243,6 +1355,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "preuves",
         "kind": "analyse",
+        "aiMode": "optional",
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
@@ -1258,6 +1371,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "intro",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
@@ -1267,6 +1381,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "partie",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
@@ -1276,6 +1391,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "raccord",
         "kind": "redaction",
+        "aiMode": "optional",
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
@@ -1285,6 +1401,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "conclusion",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
@@ -1312,6 +1429,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "donne",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "1. Le donné",
         "temps": 300,
         "access": "free",
@@ -1321,6 +1439,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "attente",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
@@ -1330,6 +1449,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "transformation",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
@@ -1339,6 +1459,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "problematique",
         "kind": "problematique",
+        "aiMode": "optional",
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
@@ -1348,6 +1469,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "plan",
         "kind": "plan",
+        "aiMode": "recommended",
         "titre": "5. Les solutions du plan",
         "temps": 720,
         "access": "premium",
@@ -1357,24 +1479,27 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "necessite",
         "kind": "plan",
-        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
+        "aiMode": "optional",
+        "titre": "6. Pourquoi chaque solution est-elle nécessaire ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "consigne": "Pour chaque grande solution, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
         "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
       },
       {
         "id": "transitions",
         "kind": "transition",
+        "aiMode": "optional",
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
+        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
         "id": "realisations",
         "kind": "analyse",
+        "aiMode": "optional",
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
@@ -1384,6 +1509,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "preuves",
         "kind": "analyse",
+        "aiMode": "optional",
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
@@ -1399,6 +1525,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "intro",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
@@ -1408,6 +1535,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "partie",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
@@ -1417,6 +1545,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "raccord",
         "kind": "redaction",
+        "aiMode": "optional",
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
@@ -1426,6 +1555,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "conclusion",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
@@ -1453,6 +1583,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "donne",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "1. Le donné",
         "temps": 300,
         "access": "free",
@@ -1462,6 +1593,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "attente",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
@@ -1471,6 +1603,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "transformation",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
@@ -1480,6 +1613,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "problematique",
         "kind": "problematique",
+        "aiMode": "optional",
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
@@ -1489,6 +1623,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "plan",
         "kind": "plan",
+        "aiMode": "recommended",
         "titre": "5. Les solutions du plan",
         "temps": 720,
         "access": "premium",
@@ -1498,24 +1633,27 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "necessite",
         "kind": "plan",
-        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
+        "aiMode": "optional",
+        "titre": "6. Pourquoi chaque solution est-elle nécessaire ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "consigne": "Pour chaque grande solution, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
         "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
       },
       {
         "id": "transitions",
         "kind": "transition",
+        "aiMode": "optional",
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
+        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
         "id": "realisations",
         "kind": "analyse",
+        "aiMode": "optional",
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
@@ -1525,6 +1663,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "preuves",
         "kind": "analyse",
+        "aiMode": "optional",
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
@@ -1540,6 +1679,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "intro",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
@@ -1549,6 +1689,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "partie",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
@@ -1558,6 +1699,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "raccord",
         "kind": "redaction",
+        "aiMode": "optional",
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
@@ -1567,6 +1709,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "conclusion",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
@@ -1594,6 +1737,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "donne",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "1. Le donné",
         "temps": 300,
         "access": "free",
@@ -1603,6 +1747,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "attente",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
@@ -1612,6 +1757,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "transformation",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
@@ -1621,6 +1767,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "problematique",
         "kind": "problematique",
+        "aiMode": "optional",
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
@@ -1630,6 +1777,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "plan",
         "kind": "plan",
+        "aiMode": "recommended",
         "titre": "5. Les solutions du plan",
         "temps": 720,
         "access": "premium",
@@ -1639,24 +1787,27 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "necessite",
         "kind": "plan",
-        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
+        "aiMode": "optional",
+        "titre": "6. Pourquoi chaque solution est-elle nécessaire ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "consigne": "Pour chaque grande solution, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
         "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
       },
       {
         "id": "transitions",
         "kind": "transition",
+        "aiMode": "optional",
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
+        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
         "id": "realisations",
         "kind": "analyse",
+        "aiMode": "optional",
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
@@ -1666,6 +1817,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "preuves",
         "kind": "analyse",
+        "aiMode": "optional",
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
@@ -1681,6 +1833,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "intro",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
@@ -1690,6 +1843,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "partie",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
@@ -1699,6 +1853,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "raccord",
         "kind": "redaction",
+        "aiMode": "optional",
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
@@ -1708,6 +1863,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "conclusion",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
@@ -1735,6 +1891,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "donne",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "1. Le donné",
         "temps": 300,
         "access": "free",
@@ -1744,6 +1901,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "attente",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
@@ -1753,6 +1911,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "transformation",
         "kind": "lecture",
+        "aiMode": "none",
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
@@ -1762,6 +1921,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "problematique",
         "kind": "problematique",
+        "aiMode": "optional",
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
@@ -1771,6 +1931,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "plan",
         "kind": "plan",
+        "aiMode": "recommended",
         "titre": "5. Les solutions du plan",
         "temps": 720,
         "access": "premium",
@@ -1780,24 +1941,27 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "necessite",
         "kind": "plan",
-        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
+        "aiMode": "optional",
+        "titre": "6. Pourquoi chaque solution est-elle nécessaire ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "consigne": "Pour chaque grande solution, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
         "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
       },
       {
         "id": "transitions",
         "kind": "transition",
+        "aiMode": "optional",
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
+        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
         "id": "realisations",
         "kind": "analyse",
+        "aiMode": "optional",
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
@@ -1807,6 +1971,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "preuves",
         "kind": "analyse",
+        "aiMode": "optional",
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
@@ -1822,6 +1987,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "intro",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
@@ -1831,6 +1997,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "partie",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
@@ -1840,6 +2007,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "raccord",
         "kind": "redaction",
+        "aiMode": "optional",
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
@@ -1849,6 +2017,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "conclusion",
         "kind": "redaction",
+        "aiMode": "recommended",
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
