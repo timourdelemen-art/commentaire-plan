@@ -84,6 +84,50 @@ function safeFallback(kind = "problematique") {
   };
 }
 
+function normalizeForAbuseCheck(s) {
+  return clean(s, 5000)
+    .toLowerCase()
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    .replace(/[’']/g, " ")
+    .replace(/[^a-z0-9\s]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function rejectWithoutAI(answer, previousAnswer = "") {
+  const n = normalizeForAbuseCheck(answer);
+  const prev = normalizeForAbuseCheck(previousAnswer);
+
+  const nonAnswers = new Set([
+    "je ne sais pas","j sais pas","jsais pas","jsp","aucune idee","aucune idée",
+    "je sais pas","pas compris","je ne comprends pas","je comprends pas",
+    "rien","bof","lol","mdr","osef","n importe quoi","nimporte quoi"
+  ]);
+
+  if (nonAnswers.has(n)) {
+    return {
+      reason: "non_answer",
+      message: "Tu ne proposes pas encore de réponse à examiner. Essaie au moins une hypothèse, même imparfaite : l’IA pourra alors t’aider à la reprendre."
+    };
+  }
+
+  if (/^(.)\1{5,}$/.test(n.replace(/\s/g, "")) || /^[a-z]{1,3}(\s+[a-z]{1,3}){4,}$/.test(n)) {
+    return {
+      reason: "gibberish",
+      message: "Cette saisie ne ressemble pas à une réponse au travail demandé. Reformule une vraie tentative avant de demander un retour."
+    };
+  }
+
+  if (prev && n === prev) {
+    return {
+      reason: "unchanged",
+      message: "Ta réponse n’a pas changé depuis le dernier retour. Reprends d’abord le point demandé avant de solliciter de nouveau l’IA."
+    };
+  }
+
+  return null;
+}
+
 function validateFeedback(value) {
   if (!value || typeof value !== "object") return null;
   const diagnostic = clean(value.diagnostic, 20);
@@ -360,10 +404,22 @@ export default {
     }
 
     const answer = clean(body.answer, 5000);
+    const previousAnswer = clean(body.previous_answer, 5000);
     const spec = buildSpec(body);
 
     if (!spec) return json({ ok: false, error: "Exercice ou étape non autorisé." }, 400, origin);
     if (answer.length < 8) return json({ ok: false, error: "Réponse trop courte." }, 400, origin);
+
+    const localBlock = rejectWithoutAI(answer, previousAnswer);
+    if (localBlock) {
+      return json({
+        ok: false,
+        blocked: true,
+        no_ai_call: true,
+        reason: localBlock.reason,
+        error: localBlock.message
+      }, 422, origin);
+    }
 
     const instructions = `Tu es le moteur pédagogique strict de BAC & BREVET — FRANÇAIS.
 Tu aides l'élève à refaire lui-même une opération précise. Tu ne fournis jamais la correction à sa place d'emblée.
@@ -400,6 +456,8 @@ ${spec.forbidden.map(x => "- " + x).join("\n")}
 CONTRAINTES
 - tutoie l'élève
 - ton sobre, précis, non infantilisant
+- l'humour est autorisé de façon très légère et occasionnelle, seulement s'il rend le retour plus humain ; jamais de moquerie, sarcasme ou blague qui détourne de l'apprentissage
+- si la réponse ne contient aucun acquis réel, ne jamais en inventer un : écris exactement « Aucun acquis identifiable dans cette réponse. »
 - un seul point acquis
 - un seul manque principal
 - une seule question de relance
