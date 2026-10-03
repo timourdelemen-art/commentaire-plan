@@ -307,9 +307,15 @@
           manual_candidates:step.manual||[],
           help_level:state.help[step.id]||0,
           instruction_to_model:"Évaluer uniquement la réponse à cette étape. Ne pas anticiper les étapes suivantes."
-        }
+        },
+        previous_answer:(state.feedbacks[step.id]&&state.feedbacks[step.id].answer)||""
       })});
       const data=await response.json();
+      if(data.blocked){
+        els.feedback.innerHTML="<strong>IA non utilisée</strong><p>"+(data.error||"Reprenez d’abord votre réponse.")+"</p>";
+        els.feedback.classList.add("show");
+        return;
+      }
       if(!response.ok||!data.ok)throw new Error(data.error||"Retour indisponible.");
       const f=data.feedback||{};
       const html="<strong>"+(f.diagnostic==="acquis"?"Réponse solide":f.diagnostic==="partiel"?"Réponse à préciser":"Réponse à reprendre")+"</strong>"+
@@ -318,7 +324,7 @@
         "<p><b>Pour améliorer :</b> "+(f.question_suivante||"Pouvez-vous préciser votre réponse ?")+"</p>";
       els.feedback.innerHTML=html;
       els.feedback.classList.add("show");
-      state.feedbacks[step.id]=f; save();
+      state.feedbacks[step.id]={...f,answer}; save();
       if(item.access!=="free" && window.AccessControl){window.AccessControl.consumeDiagnostic();window.AccessControl.renderBadge(els.accessStatus);}
     }catch(e){
       els.feedback.textContent=e.message||"Le retour n'est pas disponible pour le moment.";
