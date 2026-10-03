@@ -1975,7 +1975,8 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 2,
         "consigne": "Nommez et effectuez deux manipulations qui permettent de trouver la fonction de « un matin ».",
-        "aide": "Deux manipulations réellement effectuées, avec leur résultat."
+        "aide": "Deux manipulations réellement effectuées, avec leur résultat.",
+        "correction": "Deux manipulations pertinentes sont la suppression et le déplacement : le groupe « un matin » peut être supprimé et déplacé, ce qui confirme sa fonction de complément circonstanciel de temps."
       },
       {
         "id": "q8a",
@@ -1992,7 +1993,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "q8b",
         "kind": "brevet-grammaire",
-        "aiMode": "none",
+        "aiMode": "optional",
         "titre": "8b. Valeur du temps",
         "temps": 120,
         "access": "premium",
@@ -2021,7 +2022,8 @@ window.ANNALES_CATALOGUE = {
         "access": "premium",
         "points": 1,
         "consigne": "Écrivez deux mots de la même famille que « lenteur ».",
-        "aide": "Vérifiez la même famille morphologique, pas seulement le même champ lexical."
+        "aide": "Vérifiez la même famille morphologique, pas seulement le même champ lexical.",
+        "correction": "Exemples possibles : « lent », « lentement », « ralentir ». Deux mots suffisent."
       },
       {
         "id": "q10",
