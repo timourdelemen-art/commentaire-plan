@@ -56,7 +56,7 @@ window.ANNALES_CATALOGUE = {
         "kind": "plan",
         "titre": "5. Les réponses du plan",
         "temps": 720,
-        "access": "premium",
+        "access": "free",
         "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
@@ -65,7 +65,7 @@ window.ANNALES_CATALOGUE = {
         "kind": "plan",
         "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
         "temps": 540,
-        "access": "premium",
+        "access": "free",
         "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
         "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
       },
@@ -74,7 +74,7 @@ window.ANNALES_CATALOGUE = {
         "kind": "transition",
         "titre": "7. Les transitions",
         "temps": 420,
-        "access": "premium",
+        "access": "free",
         "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
@@ -83,7 +83,7 @@ window.ANNALES_CATALOGUE = {
         "kind": "analyse",
         "titre": "8. Les réalisations",
         "temps": 780,
-        "access": "premium",
+        "access": "free",
         "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
         "aide": "Une réalisation n’est ni une citation ni le nom d’un procédé."
       },
@@ -92,7 +92,7 @@ window.ANNALES_CATALOGUE = {
         "kind": "analyse",
         "titre": "9. Prouver et expliquer",
         "temps": 900,
-        "access": "premium",
+        "access": "free",
         "consigne": "Pour deux réalisations, construisez la chaîne : RÉALISATION → ÉLÉMENT TEXTUEL → PROCÉDÉ utile si nécessaire → EFFET ICI.",
         "aide": "Un procédé n’a pas d’effet automatique. Ne nommez un procédé que s’il aide réellement à expliquer l’élément.",
         "manual": [
@@ -107,7 +107,7 @@ window.ANNALES_CATALOGUE = {
         "kind": "redaction",
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
-        "access": "premium",
+        "access": "free",
         "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
@@ -116,7 +116,7 @@ window.ANNALES_CATALOGUE = {
         "kind": "redaction",
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
-        "access": "premium",
+        "access": "free",
         "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
@@ -125,7 +125,7 @@ window.ANNALES_CATALOGUE = {
         "kind": "redaction",
         "titre": "12. Rédiger le raccord",
         "temps": 360,
-        "access": "premium",
+        "access": "free",
         "consigne": "Terminez votre partie par la seule question qui fait apparaître ce qui manque encore.",
         "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
       },
@@ -134,7 +134,7 @@ window.ANNALES_CATALOGUE = {
         "kind": "redaction",
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
-        "access": "premium",
+        "access": "free",
         "consigne": "Synthétisez ce que les effets du texte ont permis de comprendre. Si le texte laisse un reste au-delà de la problématique, formulez-le sobrement.",
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
