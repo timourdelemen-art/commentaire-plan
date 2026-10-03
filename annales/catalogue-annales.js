@@ -2577,5 +2577,230 @@ window.ANNALES_CATALOGUE = {
         "correction": "« Ils s’étaient déjà noyés plusieurs fois, nous les aidions à se retirer des grands trous où ils tombaient toujours, car ils faisaient le rôle du maladroit ou de l’homme ivre, et ils nageaient à sec sur le carreau en se débattant et en se lamentant. »"
       }
     ]
+  },
+  "brevet-2022-metropole-general-la-fontaine-lion-moucheron": {
+    "examen": "Brevet",
+    "type": "brevet",
+    "annee": 2022,
+    "zone": "Métropole",
+    "serie": "Générale",
+    "epreuve": "Compréhension · grammaire · réécriture",
+    "access": "free",
+    "auteur": "Jean de La Fontaine",
+    "oeuvre": "Le Lion et le Moucheron",
+    "sourceOfficielle": "https://www.education.gouv.fr/sites/default/files/document/Dipl%C3%B4me%20national%20du%20brevet%202022%20-%20Fran%C3%A7ais%20%3A%20Grammaire%20et%20comp%C3%A9tences%20linguistiques%20-%20Compr%C3%A9hension%20et%20comp%C3%A9tences%20d%26%23039%3Binterpr%C3%A9tation%20-%20S%C3%A9rie%20g%C3%A9n%C3%A9rale-327336.pdf",
+    "parcours": "../anthologie-brevet.html",
+    "dureeExamen": 4200,
+    "ia": true,
+    "contexte": "Sujet officiel DNB 2022, série générale, Métropole. La fable transforme un rapport de force attendu ; les questions de langue sont corrigées localement et l’IA n’intervient que sur les réponses ouvertes.",
+    "etapes": [
+      {
+        "id": "q1a",
+        "kind": "brevet-comprehension",
+        "aiMode": "optional",
+        "titre": "1a. Qui parle à qui ?",
+        "temps": 120,
+        "access": "free",
+        "points": 1,
+        "consigne": "Au vers 1, qui parle et à qui s’adresse-t-il ?",
+        "aide": "Identifiez les deux animaux présents dans les premiers vers."
+      },
+      {
+        "id": "q1b",
+        "kind": "brevet-comprehension",
+        "aiMode": "optional",
+        "titre": "1b. La réaction du Moucheron",
+        "temps": 180,
+        "access": "free",
+        "points": 2,
+        "consigne": "Quelle réaction ce propos déclenche-t-il et pourquoi ?",
+        "aide": "Le Lion insulte le Moucheron et méprise sa faiblesse apparente."
+      },
+      {
+        "id": "q2a",
+        "kind": "brevet-comprehension",
+        "aiMode": "optional",
+        "titre": "2a. Qui domine le combat ?",
+        "temps": 240,
+        "access": "free",
+        "points": 2,
+        "consigne": "Quel animal domine le combat ? Justifiez en relevant trois expressions.",
+        "aide": "Cherchez les verbes qui décrivent les attaques du Moucheron et l’état du Lion."
+      },
+      {
+        "id": "q2b",
+        "kind": "brevet-comprehension",
+        "aiMode": "optional",
+        "titre": "2b. La tactique du Moucheron",
+        "temps": 300,
+        "access": "free",
+        "points": 3,
+        "consigne": "Quelle tactique le Moucheron utilise-t-il et quel en est le résultat ?",
+        "aide": "Observez ses déplacements rapides et les zones du corps du Lion qu’il attaque."
+      },
+      {
+        "id": "q2c",
+        "kind": "brevet-analyse",
+        "aiMode": "optional",
+        "titre": "2c. Mouvement et agitation",
+        "temps": 420,
+        "access": "free",
+        "points": 4,
+        "consigne": "Comment le fabuliste met-il en évidence le mouvement et l’agitation du combat ? Appuyez-vous notamment sur les verbes, les adverbes et le rythme.",
+        "aide": "Repérez les verbes d’action, les reprises de « tantôt » et les enchaînements rapides.",
+        "manual": ["accumulation","répétition","rythme","coordination"]
+      },
+      {
+        "id": "q3",
+        "kind": "brevet-analyse",
+        "aiMode": "optional",
+        "titre": "3. Les désignations du Lion",
+        "temps": 300,
+        "access": "free",
+        "points": 3,
+        "consigne": "Par quels groupes nominaux le Lion est-il désigné ? Quel effet cela produit-il ?",
+        "aide": "Comparez les désignations qui rappellent sa puissance à celles qui le rabaissent progressivement.",
+        "manual": ["périphrase","choix lexical","gradation"]
+      },
+      {
+        "id": "q4",
+        "kind": "brevet-comprehension",
+        "aiMode": "optional",
+        "titre": "4. Le retournement de situation",
+        "temps": 240,
+        "access": "free",
+        "points": 2,
+        "consigne": "Quel est le retournement de situation raconté aux vers 30 à 34 ?",
+        "aide": "Le vainqueur du Lion rencontre immédiatement un adversaire beaucoup plus faible en apparence."
+      },
+      {
+        "id": "q5",
+        "kind": "brevet-interpretation",
+        "aiMode": "recommended",
+        "titre": "5. Un défaut commun",
+        "temps": 420,
+        "access": "premium",
+        "points": 5,
+        "consigne": "De quel défaut le Lion et le Moucheron font-ils preuve à tour de rôle ? Justifiez à partir de l’ensemble de la fable.",
+        "aide": "Les deux personnages sous-estiment successivement un adversaire plus petit ou moins impressionnant."
+      },
+      {
+        "id": "q6",
+        "kind": "brevet-interpretation",
+        "aiMode": "recommended",
+        "titre": "6. Les deux enseignements",
+        "temps": 420,
+        "access": "premium",
+        "points": 4,
+        "consigne": "Comment comprenez-vous les deux enseignements formulés à la fin de la fable ?",
+        "aide": "Reformulez chaque morale avec vos propres mots, puis reliez-la à l’histoire racontée."
+      },
+      {
+        "id": "q7a",
+        "kind": "brevet-image",
+        "aiMode": "optional",
+        "titre": "7a. Les effets de l’attaque",
+        "temps": 300,
+        "access": "premium",
+        "points": 4,
+        "consigne": "Comment l’illustration donne-t-elle à voir les effets de l’attaque du Moucheron sur le Lion ?",
+        "aide": "Appuyez-vous uniquement sur les éléments visibles de l’image officielle."
+      },
+      {
+        "id": "q7b",
+        "kind": "brevet-image",
+        "aiMode": "optional",
+        "titre": "7b. Annoncer la fin",
+        "temps": 240,
+        "access": "premium",
+        "points": 2,
+        "consigne": "Comment l’illustration laisse-t-elle entrevoir la fin de la fable ?",
+        "aide": "Repérez dans l’image ce qui peut annoncer le piège final."
+      },
+      {
+        "id": "q8a",
+        "kind": "brevet-grammaire",
+        "aiMode": "none",
+        "titre": "8a. Fonctions des compléments",
+        "temps": 150,
+        "access": "free",
+        "points": 1,
+        "consigne": "Dans « L’autre lui déclara la guerre », donnez la fonction précise de « lui » et de « la guerre ».",
+        "aide": "Posez les questions « à qui ? » et « quoi ? » après le verbe.",
+        "correction": "« lui » est complément d’objet indirect du verbe « déclara » ; « la guerre » est complément d’objet direct."
+      },
+      {
+        "id": "q8b",
+        "kind": "brevet-grammaire",
+        "aiMode": "none",
+        "titre": "8b. Remplacer « lui »",
+        "temps": 120,
+        "access": "free",
+        "points": 1,
+        "consigne": "Réécrivez la phrase en remplaçant « lui » par le groupe nominal auquel il renvoie.",
+        "aide": "Le pronom désigne le Lion.",
+        "correction": "« L’autre déclara la guerre au Lion. »"
+      },
+      {
+        "id": "q8c",
+        "kind": "brevet-grammaire",
+        "aiMode": "none",
+        "titre": "8c. Identifier le COD",
+        "temps": 180,
+        "access": "free",
+        "points": 2,
+        "consigne": "Quelles manipulations permettent d’identifier la fonction de « la guerre » ?",
+        "aide": "Essayez la pronominalisation et la mise à la voix passive.",
+        "correction": "On peut remplacer « la guerre » par le pronom COD « la » : « L’autre la lui déclara ». On peut aussi mettre la phrase au passif : « La guerre lui fut déclarée par l’autre »."
+      },
+      {
+        "id": "q9",
+        "kind": "brevet-grammaire",
+        "aiMode": "none",
+        "titre": "9. Construire une phrase complexe",
+        "temps": 240,
+        "access": "free",
+        "points": 2,
+        "consigne": "Transformez « Il rugit ; on se cache » en une phrase complexe comportant une proposition subordonnée.",
+        "aide": "Exprimez par exemple la cause ou la conséquence.",
+        "correction": "Plusieurs réponses sont possibles, par exemple : « Quand il rugit, on se cache. » ou « Parce qu’il rugit, on se cache. »"
+      },
+      {
+        "id": "q10a",
+        "kind": "brevet-lexique",
+        "aiMode": "none",
+        "titre": "10a. Formation de « invisible »",
+        "temps": 150,
+        "access": "free",
+        "points": 1.5,
+        "consigne": "De quels éléments le mot « invisible » est-il composé ?",
+        "aide": "Repérez le préfixe négatif et la base liée à « visible ».",
+        "correction": "« invisible » est formé du préfixe négatif « in- » et du mot-base « visible » ; on peut aussi analyser « visible » en radical « vis- » et suffixe « -ible »."
+      },
+      {
+        "id": "q10b",
+        "kind": "brevet-lexique",
+        "aiMode": "none",
+        "titre": "10b. Définir « invisible »",
+        "temps": 120,
+        "access": "free",
+        "points": 0.5,
+        "consigne": "Donnez la définition du mot « invisible » à partir de sa formation.",
+        "aide": "Le préfixe « in- » exprime la négation.",
+        "correction": "« invisible » signifie « qu’on ne peut pas voir »."
+      },
+      {
+        "id": "q11",
+        "kind": "brevet-reecriture",
+        "aiMode": "none",
+        "titre": "11. Réécriture",
+        "temps": 600,
+        "access": "premium",
+        "points": 10,
+        "consigne": "Réécrivez le passage en remplaçant « Le malheureux Lion » par « Les malheureux Lions ».",
+        "aide": "Modifiez les pronoms, verbes, déterminants possessifs et accords.",
+        "correction": "« Les malheureux Lions se déchirent eux-mêmes, font résonner leur queue à l’entour de leurs flancs, battent l’air […] ; et leur fureur extrême les fatigue, les abat. »"
+      }
+    ]
   }
 };
