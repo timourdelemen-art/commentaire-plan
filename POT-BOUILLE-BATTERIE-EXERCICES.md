@@ -207,3 +207,59 @@ On ne demande jamais seulement :
 
 On demande :
 > « Quelle relation cette construction établit-elle, et qu'est-ce que cela change dans le passage ? »
+
+
+# D. Repérer la construction dans les corrigés
+
+## Commentaire — activité au surligneur
+Après distribution d'un commentaire modèle, demander aux élèves de retrouver :
+- problématique ;
+- solution ;
+- nécessité de la solution ;
+- transition ;
+- ce que le texte fait / réalisation ;
+- élément textuel ;
+- procédé ;
+- effet.
+
+Consigne :
+> Choisissez une couleur pour chaque élément. Surlignez le commentaire modèle et ajoutez la légende dans la marge.
+
+But :
+- rendre visible l'architecture du raisonnement ;
+- montrer qu'une phrase a une fonction ;
+- préparer la rédaction autonome.
+
+## Dissertation — activité au surligneur
+Ne pas reprendre exactement la légende du commentaire.
+
+Éléments à repérer :
+- question du sujet ;
+- tension ;
+- problématique ;
+- argument ;
+- passage ou exemple ;
+- citation ;
+- analyse de la citation ou du passage ;
+- lien avec l'argument ;
+- transition ;
+- bilan de partie.
+
+Consigne :
+> Dans la dissertation modèle, repérez les éléments qui construisent le raisonnement. Utilisez une couleur par fonction.
+
+### Version simplifiée
+Pour ne pas transformer la copie en « cockpit », limiter éventuellement à 6 couleurs :
+1. problématique ;
+2. argument ;
+3. exemple / passage ;
+4. citation ;
+5. analyse ;
+6. transition.
+
+### Règle didactique
+Le commentaire et la dissertation partagent une logique de preuve, mais pas la même unité de raisonnement :
+- commentaire : on construit une lecture d'un texte précis ;
+- dissertation : on construit une réflexion sur l'œuvre entière à partir de plusieurs passages.
+
+Les deux exercices au surligneur doivent donc se ressembler sans être identiques.
