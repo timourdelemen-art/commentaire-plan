@@ -271,6 +271,7 @@
         "Respecter exactement le nombre d’éléments demandé et le barème indiqué.",
         "Pour une question de compréhension, exiger la justification textuelle lorsqu’elle est demandée.",
         "Pour la grammaire et la réécriture, vérifier méthodiquement toutes les transformations concernées.",
+        "MANIPULATIONS GRAMMATICALES : ne jamais présenter les tests comme interchangeables. Pour un complément circonstanciel, la suppression et le déplacement sont des indices privilégiés de mobilité et de caractère facultatif. Pour un COD ou un COI, la pronominalisation par un pronom objet est particulièrement probante. Pour un COD nominal, la transformation passive peut confirmer l’analyse lorsque la phrase s’y prête. Pour une proposition subordonnée COD, la substitution de toute la proposition par « le » est un test fort. Toujours expliquer ce que la manipulation démontre.",
         "Pour une image non fournie au système d’analyse, signaler la limite et ne rien inventer."
       );
     }
