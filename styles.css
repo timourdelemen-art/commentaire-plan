@@ -1300,3 +1300,90 @@ main.wrap{overflow:hidden}
     grid-row:2;
   }
 }
+
+
+/* 2026-10-03 — FIX DÉFINITIF MENUS DÉROULANTS
+   Le survol seul doit ouvrir le panneau sur ordinateur. */
+.top{
+  position:relative;
+  z-index:1000;
+  overflow:visible !important;
+}
+.mast-v3,
+.nav-portals,
+.portal-wrap{
+  overflow:visible !important;
+}
+.portal-wrap{
+  position:relative;
+  z-index:1;
+}
+.portal-wrap:hover,
+.portal-wrap.open,
+.portal-wrap:focus-within{
+  z-index:1100;
+}
+.portal-dropdown{
+  top:100% !important;
+  z-index:1200 !important;
+  margin-top:0 !important;
+}
+
+/* Desktop et petits portables : CSS pur, aucun clic nécessaire. */
+@media (min-width:761px){
+  .nav-portals{
+    display:grid !important;
+  }
+  .portal-wrap .portal-dropdown{
+    display:none !important;
+  }
+  .portal-wrap:hover .portal-dropdown,
+  .portal-wrap.open .portal-dropdown,
+  .portal-wrap:focus-within .portal-dropdown{
+    display:grid !important;
+  }
+}
+
+/* À largeur intermédiaire, garder les 4 portes visibles au lieu de les masquer. */
+@media (min-width:761px) and (max-width:1050px){
+  .mast-v3{
+    grid-template-columns:1fr !important;
+    min-height:0;
+    height:auto !important;
+    gap:0 !important;
+  }
+  .mast-v3 .brand{
+    min-height:72px;
+  }
+  .nav-portals{
+    grid-column:1 !important;
+    grid-row:2 !important;
+    grid-template-columns:repeat(4,minmax(135px,1fr)) !important;
+    overflow:visible !important;
+    border-top:1px solid var(--rule);
+  }
+  .portal-wrap{
+    min-width:0 !important;
+    height:68px !important;
+  }
+  .portal-wrap>.portal{
+    min-height:68px !important;
+    height:68px !important;
+  }
+  .portal-dropdown{
+    min-width:300px !important;
+  }
+}
+
+/* Téléphone : pas de faux hover ; navigation horizontale simple. */
+@media (max-width:760px){
+  .nav-portals{
+    display:grid !important;
+    grid-template-columns:repeat(4,minmax(135px,1fr)) !important;
+    overflow-x:auto !important;
+    overflow-y:visible !important;
+  }
+  .portal-dropdown{
+    display:none !important;
+  }
+}
