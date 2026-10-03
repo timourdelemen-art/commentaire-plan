@@ -2023,7 +2023,7 @@ window.ANNALES_CATALOGUE = {
     "access": "free",
     "auteur": "Émile Zola",
     "oeuvre": "Une cage de bêtes féroces",
-    "sourceOfficielle": "https://www.education.gouv.fr/brevet-bac-et-cap-les-sujets-des-examens-2026-504911",
+    "sourceOfficielle": "https://www.education.gouv.fr/sites/default/files/document/diplome-national-du-brevet-2026-francais-grammaire-et-competences-linguistiques-comprehension-et_1.pdf",
     "parcours": "../anthologie-brevet.html",
     "dureeExamen": 4200,
     "ia": true,
@@ -2120,7 +2120,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 420,
         "access": "premium",
         "points": 6,
-        "consigne": "Comparez le texte et le photogramme de La Planète des Singes en vous appuyant sur trois éléments visuels précis.",
+        "consigne": "Quels points communs et quelles différences pouvez-vous faire entre le texte et l’image tirée du film La Planète des Singes ? Appuyez-vous sur trois éléments d’analyse précis de l’image.",
         "aide": "L’IA ne doit rien inventer si l’image officielle n’est pas affichée dans l’interface."
       },
       {
@@ -2197,13 +2197,14 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "q10",
         "kind": "brevet-reecriture",
-        "aiMode": "optional",
+        "aiMode": "none",
         "titre": "10. Réécriture",
         "temps": 600,
         "access": "premium",
         "points": 10,
         "consigne": "Réécrivez le passage en remplaçant « la clameur » par « les clameurs » et en mettant les verbes au présent de l’indicatif. Faites toutes les modifications nécessaires.",
-        "aide": "L’IA doit vérifier systématiquement verbes, accords, pronoms et adjectifs touchés par les deux transformations."
+        "aide": "Vérifiez successivement les verbes, les déterminants et pronoms qui reprennent « la clameur », puis les accords des adjectifs et participes.",
+        "correction": "« À ce moment, Paris, qui s’éveille, se met à rugir d’une telle force que la Hyène s’arrête court, écoutant avec inquiétude. Les clameurs de la ville montent, sourdes et menaçantes, et ces clameurs, faites du bruit des voitures, des cris de la rue, de nos sanglots et de nos rires, ressemblent à des hurlements de fureur et à des râles d’agonie. »"
       }
     ]
   },
