@@ -14,7 +14,7 @@ const CORE_EXERCISES = {
 const ALLOWED_STAGE_KINDS = new Set([
   "lecture","problematique","plan","transition","analyse","redaction",
   "brevet-comprehension","brevet-interpretation","brevet-analyse","brevet-image",
-  "brevet-grammaire","brevet-lexique","brevet-reecriture","brevet-redaction"
+  "brevet-grammaire","brevet-lexique","brevet-reecriture","brevet-redaction","bac-dissertation"
 ]);
 
 const GENERIC_ALLOWED = [
@@ -201,10 +201,12 @@ function buildSpec(body) {
     else if (!ALLOWED_STAGE_KINDS.has(explicitKind) && /transition/.test(lower)) kind="transition";
     else if (!ALLOWED_STAGE_KINDS.has(explicitKind) && /réécri|reecri/.test(lower)) kind="brevet-reecriture";
     else if (!ALLOWED_STAGE_KINDS.has(explicitKind) && /grammaire|nature|fonction|conjug|accord|pronom|temps verbal|lexique/.test(lower)) kind="brevet-grammaire";
+    else if (!ALLOWED_STAGE_KINDS.has(explicitKind) && /dissertation/.test(lower)) kind="bac-dissertation";
     else if (!ALLOWED_STAGE_KINDS.has(explicitKind) && /rédaction|redaction|argument|écrire|ecrire/.test(lower)) kind="brevet-redaction";
     else if (!ALLOWED_STAGE_KINDS.has(explicitKind) && /procédé|procede|effet|réalisation|realisation|élément textuel|element textuel|paradoxe|figure/.test(lower)) kind="analyse";
 
     const isCommentary=/commentaire|probl[ée]matique|réalisation|realisation|transition/.test(lower);
+    const isDissertation=kind==="bac-dissertation" || /dissertation/.test(lower);
     const isOral=/oral du bac|bac-oral/.test(lower);
     const isBrevetImagination=kind==="brevet-redaction" && /imagination|inventer|récit|recit|texte-support|texte support/.test(lower);
     const isBrevetReflexion=kind==="brevet-redaction" && /réflexion|reflexion|argument|opinion|convaincre/.test(lower);
@@ -215,6 +217,13 @@ function buildSpec(body) {
       "Pour l’entretien : évaluer présentation synthétique de l’œuvre, justification personnelle, aptitude à dialoguer, nuancer, étoffer et défendre une lecture en mobilisant des connaissances pertinentes.",
       "Ne jamais attribuer de note automatique ni prétendre remplacer l’examinateur.",
       "Pour l’entretien, la question_suivante doit être une vraie relance ouverte prenant appui sur ce que l’élève a dit."
+    ] : isDissertation ? [
+      "Référentiel interne : échelle descriptive officielle de la dissertation, voie générale.",
+      "Évaluer selon l’opération locale demandée, en gardant en arrière-plan : lecture effective et informée de l’œuvre ; compréhension des enjeux du sujet et du parcours ; mobilisation de passages significatifs ; analyse d’éléments précis ; mise en lien, hiérarchisation et organisation du raisonnement ; maîtrise de la langue.",
+      "Un exemple d’œuvre ne vaut pas comme preuve s’il est seulement cité : vérifier ce qu’il démontre pour l’argument.",
+      "Ne jamais fournir un plan complet ou un corrigé modèle avant une tentative de l’élève.",
+      "Ne jamais convertir mécaniquement un niveau de maîtrise en note : les profils peuvent être hétérogènes.",
+      "Donner un seul manque prioritaire à retravailler."
     ] : isBrevetReflexion ? [
       "Référentiel interne : échelles descriptives officielles du DNB 2027, sujet de réflexion.",
       "Évaluer séparément : réponse effective au sujet ; développement d'arguments ; mobilisation d'exemples ; organisation progressive du propos ; adaptation à la situation de communication ; orthographe ; syntaxe ; lexique.",
