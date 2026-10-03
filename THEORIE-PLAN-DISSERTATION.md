@@ -6,6 +6,24 @@ Une dissertation ne juxtapose pas des thèmes. Elle résout progressivement une 
 
 **Un bon plan est un ordre de réponses nécessaires à la problématique.**
 
+La méthode doit être **exigeante sur la logique et souple sur la forme**.
+
+Sont non négociables :
+- la précision de la lecture du sujet ;
+- la solidité de la problématique ;
+- la nécessité et la distinction des réponses ;
+- la qualité des arguments ;
+- l'appui réel sur l'œuvre ;
+- l'analyse des preuves ;
+- la progression du raisonnement.
+
+Restent souples :
+- deux ou trois parties selon le sujet ;
+- la forme du plan ;
+- le nombre exact de passages dans un argument ;
+- l'usage ou non d'une référence extérieure ;
+- la formulation précise des transitions, tant que leur fonction est respectée.
+
 La dissertation partage avec le commentaire une logique générale :
 - une problématique à résoudre ;
 - plusieurs réponses partielles ;
@@ -36,18 +54,20 @@ Il ne donne pas nécessairement la problématique.
 2. **Quelle idée sur l'œuvre le sujet invite-t-il à examiner ?**
    - Transformer le sujet en une affirmation simple à vérifier.
 
-3. **Qu'est-ce que l'œuvre permet d'abord de confirmer ?**
-   - Chercher plusieurs passages significatifs.
+3. **Qu'est-ce que l'œuvre permet d'abord d'établir ?**
+   - Chercher des passages significatifs qui rendent l'idée du sujet pertinente.
 
-4. **Qu'est-ce qui empêche de s'en tenir là ?**
-   - Chercher ce qui oblige à préciser, nuancer, limiter, approfondir ou déplacer la première idée.
+4. **Que faut-il encore comprendre pour répondre complètement ?**
+   - Chercher ce qui oblige à préciser, nuancer, limiter, approfondir, relier ou déplacer la première idée.
+   - Selon le sujet, il peut s'agir d'une résistance, d'une limite ou simplement d'une dimension encore manquante.
 
-5. **Quelle difficulté précise faut-il alors résoudre ?**
+5. **Quelle difficulté précise organise alors la réflexion ?**
    - Cette difficulté devient la problématique.
+   - La problématique ne doit ni répéter le sujet ni fabriquer une opposition artificielle.
 
 ### Schéma
 
-**SUJET → IDÉE À EXAMINER → CONFIRMATIONS DANS L'ŒUVRE → CE QUI RÉSISTE OU MANQUE → PROBLÉMATIQUE**
+**SUJET → IDÉE À EXAMINER → CE QUE L'ŒUVRE PERMET D'ÉTABLIR → CE QU'IL FAUT ENCORE COMPRENDRE → PROBLÉMATIQUE**
 
 ### Règle
 
@@ -76,39 +96,46 @@ Pourquoi cette réponse est indispensable pour résoudre la problématique.
 La nécessité n'est pas une transition.
 Elle justifie la présence de la partie dans le raisonnement.
 
+**Important :** la nécessité est d'abord un outil de construction du plan. Elle n'a pas besoin d'apparaître sous la forme d'une phrase explicite dans la copie finale si l'enchaînement du raisonnement la rend évident.
+
 ### ARGUMENTS
-Les idées qui construisent et démontrent cette réponse.
+Les sous-réponses qui construisent et démontrent la réponse de la partie.
 
 Un argument ne doit pas être un thème ("l'argent", "le mariage", "la société").
-Il doit formuler quelque chose à démontrer.
+Il doit formuler quelque chose à démontrer et contribuer directement à la réponse de la partie.
 
 ---
 
 ## 3. Un argument
 
-### Un argument = une idée synthétique prouvée par plusieurs passages de l'œuvre
+### Un argument = une sous-réponse démontrée par des passages précis de l'œuvre
 
 Schéma :
 
-**ARGUMENT → PASSAGE 1 + PASSAGE 2 (+ PASSAGE 3) → ÉLÉMENTS PRÉCIS / CITATIONS → ANALYSES → CE QUE L'ENSEMBLE PROUVE**
+**ARGUMENT → PASSAGE(S) PERTINENT(S) → ÉLÉMENTS PRÉCIS / CITATIONS → ANALYSES → CE QUE CELA PROUVE**
 
-Les passages n'ont pas besoin de jouer le même rôle.
-Ils peuvent :
+Un argument peut parfois être démontré par un passage particulièrement riche. Mais, dans l'ensemble d'une partie et de la dissertation, les preuves doivent être variées et faire apparaître une connaissance réelle de l'œuvre.
+
+Lorsque plusieurs passages sont mobilisés dans un même argument, ils ne doivent pas être juxtaposés. Ils peuvent :
 - confirmer ;
 - nuancer ;
 - montrer une évolution ;
 - produire un contraste ;
 - faire apparaître une limite.
 
+La valeur du deuxième passage vient de ce qu'il ajoute au premier.
+
 ### Règle de preuve
 
 Un passage raconté n'est pas encore une preuve.
 
 Il faut :
-1. situer brièvement le passage ;
+1. situer brièvement le passage si le contexte est nécessaire ;
 2. choisir un élément précis ou une citation ;
 3. l'analyser ;
 4. expliquer ce que cette analyse prouve pour l'argument.
+
+**Exemple ≠ preuve complète.** Un exemple devient une preuve lorsqu'il est interprété et relié explicitement à l'argument.
 
 ### Culture littéraire extérieure
 
@@ -121,6 +148,8 @@ Elle peut :
 - **éclairer**.
 
 Elle doit revenir vers l'œuvre étudiée et permettre d'en préciser la singularité.
+
+Elle est **facultative** : elle enrichit la réflexion lorsqu'elle est utile, mais elle ne doit jamais devenir une obligation décorative.
 
 ---
 
@@ -141,6 +170,8 @@ Exemple de forme :
 > Cette première réponse permet de montrer que [...]. Mais elle n'explique pas encore [...]. **Comment / pourquoi / jusqu'où [...] ?**
 
 La partie suivante devient nécessaire parce qu'elle devra répondre à cette question.
+
+Dans le travail préparatoire, la transition peut être réduite à la question seule. Dans une copie rédigée, elle peut être précédée d'une phrase très brève rappelant l'acquis de la partie, mais sa fonction reste la même : faire apparaître le manque restant.
 
 ### Distinction capitale
 
@@ -169,11 +200,36 @@ Une affirmation est valable, mais l'œuvre oblige à en préciser la portée ou 
 #### Déplacer
 Le sujet semble poser le problème à un premier niveau ; l'analyse montre qu'un enjeu plus profond doit être examiné.
 
-Le plan dialectique "oui / non / dépassement" n'est qu'un cas possible.
+Le plan dialectique "oui / non / dépassement" n'est qu'un cas possible. Il ne doit jamais être imposé à un sujet qui appelle plutôt une progression par approfondissement, mise en relation, nuance ou déplacement.
 
 ### Test de permutation
 
 **Si l'on peut permuter les parties sans modifier le raisonnement, le plan est probablement trop descriptif.**
+
+## 5 bis. Contrôle de solidité du plan
+
+### Problématique
+- vient-elle réellement du sujet ?
+- porte-t-elle sur l'œuvre et le parcours ?
+- fait-elle apparaître une difficulté réelle sans fabriquer artificiellement une opposition ?
+
+### Chaque réponse de partie
+- répond-elle à la problématique ?
+- est-elle distincte des autres ?
+- peut-on expliquer pourquoi elle est nécessaire ?
+- prépare-t-elle la suite du raisonnement ?
+
+### Chaque argument
+- formule-t-il quelque chose à démontrer ?
+- contribue-t-il directement à la réponse de la partie ?
+- s'appuie-t-il sur une preuve précise ?
+- cette preuve est-elle analysée et non simplement racontée ?
+
+### Ensemble du plan
+- les parties progressent-elles réellement ?
+- le plan couvre-t-il suffisamment l'œuvre ?
+- les preuves sont-elles variées ?
+- l'ordre peut-il être justifié ?
 
 ---
 
@@ -190,7 +246,7 @@ Le plan dialectique "oui / non / dépassement" n'est qu'un cas possible.
 **RÉPONSE 1**
 - nécessité de la réponse
 - arguments
-- plusieurs passages
+- passages pertinents et variés
 - citations / éléments précis
 - analyses
 ↓
@@ -199,16 +255,16 @@ Le plan dialectique "oui / non / dépassement" n'est qu'un cas possible.
 **RÉPONSE 2**
 - nécessité de la réponse
 - arguments
-- plusieurs passages
+- passages pertinents et variés
 - citations / éléments précis
 - analyses
 ↓
 **TRANSITION = question sur ce qui manque encore**
 ↓
-**RÉPONSE 3**
+**RÉPONSE 3 éventuelle**
 - nécessité de la réponse
 - arguments
-- plusieurs passages
+- passages pertinents et variés
 - citations / éléments précis
 - analyses
 ↓
