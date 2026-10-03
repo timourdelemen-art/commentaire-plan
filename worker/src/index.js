@@ -151,10 +151,10 @@ function buildSpec(body) {
     const task = consigne + (aide ? " Repère pédagogique : " + aide : "") + points;
 
     const extraRules = isBac ? [
-      "Une grande partie est une RÉPONSE nécessaire à la problématique, jamais un thème.",
-      "NÉCESSITÉ / Pourquoi ? = pourquoi cette réponse est nécessaire pour poursuivre la démonstration.",
+      "Une grande partie est une SOLUTION nécessaire à la problématique, jamais un thème.",
+      "NÉCESSITÉ / Pourquoi ? = pourquoi cette solution est nécessaire pour poursuivre la démonstration.",
       "Une TRANSITION est une seule question simple qui fait apparaître ce qu'il reste encore à expliquer.",
-      "RÉALISATION = ce que le texte fait pour construire la réponse.",
+      "RÉALISATION = ce que le texte fait pour construire la solution.",
       "ÉLÉMENT TEXTUEL = ce qui, dans le texte, permet de le montrer.",
       "PROCÉDÉ = comment l'élément est construit, seulement lorsqu'il est identifiable et utile.",
       "EFFET = ce que ce choix change ici dans la manière de voir, comprendre ou ressentir.",
@@ -205,8 +205,16 @@ function buildSpec(body) {
     else if (!ALLOWED_STAGE_KINDS.has(explicitKind) && /procédé|procede|effet|réalisation|realisation|élément textuel|element textuel|paradoxe|figure/.test(lower)) kind="analyse";
 
     const isCommentary=/commentaire|probl[ée]matique|réalisation|realisation|transition/.test(lower);
-    const extraRules=isCommentary ? [
-      "Une grande partie est une RÉPONSE nécessaire à la problématique, jamais un thème.",
+    const isOral=/oral du bac|bac-oral/.test(lower);
+    const extraRules=isOral ? [
+      "Il s’agit d’un entraînement à l’épreuve orale anticipée de français.",
+      "Pour l’explication linéaire : évaluer compréhension du mouvement du passage, précision des analyses, appui sur le texte, qualité de l’interprétation et clarté de l’expression.",
+      "Pour la grammaire : évaluer savoirs syntaxiques, lexique grammatical précis, analyse de la phrase et pertinence des manipulations ; expliquer ce que chaque manipulation permet de démontrer.",
+      "Pour l’entretien : évaluer présentation synthétique de l’œuvre, justification personnelle, aptitude à dialoguer, nuancer, étoffer et défendre une lecture en mobilisant des connaissances pertinentes.",
+      "Ne jamais attribuer de note automatique ni prétendre remplacer l’examinateur.",
+      "Pour l’entretien, la question_suivante doit être une vraie relance ouverte prenant appui sur ce que l’élève a dit."
+    ] : isCommentary ? [
+      "Une grande partie est une SOLUTION nécessaire à la problématique, jamais un thème.",
       "Une transition est une seule question simple qui fait apparaître ce qu'il reste encore à expliquer.",
       "RÉALISATION = ce que le texte fait ; ÉLÉMENT TEXTUEL = ce qui le montre ; PROCÉDÉ = comment l'élément est construit lorsqu'il est utile ; EFFET = ce que cela change ici.",
       "Ne jamais employer « établissement » pour nommer une partie.",
@@ -240,7 +248,7 @@ function buildSpec(body) {
     allowed: GENERIC_ALLOWED,
     forbidden: GENERIC_FORBIDDEN,
     extraRules:[
-      "Une grande partie est une RÉPONSE nécessaire à la problématique.",
+      "Une grande partie est une SOLUTION nécessaire à la problématique.",
       "Ne jamais employer « établissement » pour désigner une partie.",
       "Une transition est une simple question qui fait apparaître ce qui manque encore."
     ]
@@ -283,8 +291,8 @@ Tu aides l'élève à refaire lui-même une opération précise. Tu ne fournis j
 
 VOCABULAIRE ET MÉTHODE
 - Problématique : la question qui demande ce que le texte oblige à expliquer.
-- Réponse : ce que chaque grande partie affirme pour répondre à la problématique.
-- Pourquoi ? / nécessité : pourquoi cette réponse est nécessaire dans la démonstration.
+- Solution : ce que chaque grande partie affirme pour répondre à la problématique.
+- Pourquoi ? / nécessité : pourquoi cette solution est nécessaire dans la démonstration.
 - Réalisation : ce que le texte fait.
 - Élément textuel : ce qui, dans le texte, permet de le montrer.
 - Procédé : comment l'élément est construit, seulement si cela aide réellement.
