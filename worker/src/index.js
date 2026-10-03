@@ -194,14 +194,15 @@ function buildSpec(body) {
     if (!instruction) return null;
 
     const lower=(title+" "+instruction+" "+page).toLowerCase();
-    let kind="lecture";
-    if (/probl[ée]matique/.test(lower)) kind="problematique";
-    else if (/plan|partie|réponse nécessaire|reponse necessaire/.test(lower)) kind="plan";
-    else if (/transition/.test(lower)) kind="transition";
-    else if (/réécri|reecri/.test(lower)) kind="brevet-reecriture";
-    else if (/grammaire|nature|fonction|conjug|accord|pronom|temps verbal|lexique/.test(lower)) kind="brevet-grammaire";
-    else if (/rédaction|redaction|argument|écrire|ecrire/.test(lower)) kind="brevet-redaction";
-    else if (/procédé|procede|effet|réalisation|realisation|élément textuel|element textuel/.test(lower)) kind="analyse";
+    const explicitKind=clean(context.kind,50);
+    let kind=ALLOWED_STAGE_KINDS.has(explicitKind) ? explicitKind : "lecture";
+    if (!ALLOWED_STAGE_KINDS.has(explicitKind) && /probl[ée]matique/.test(lower)) kind="problematique";
+    else if (!ALLOWED_STAGE_KINDS.has(explicitKind) && /plan|partie|réponse nécessaire|reponse necessaire/.test(lower)) kind="plan";
+    else if (!ALLOWED_STAGE_KINDS.has(explicitKind) && /transition/.test(lower)) kind="transition";
+    else if (!ALLOWED_STAGE_KINDS.has(explicitKind) && /réécri|reecri/.test(lower)) kind="brevet-reecriture";
+    else if (!ALLOWED_STAGE_KINDS.has(explicitKind) && /grammaire|nature|fonction|conjug|accord|pronom|temps verbal|lexique/.test(lower)) kind="brevet-grammaire";
+    else if (!ALLOWED_STAGE_KINDS.has(explicitKind) && /rédaction|redaction|argument|écrire|ecrire/.test(lower)) kind="brevet-redaction";
+    else if (!ALLOWED_STAGE_KINDS.has(explicitKind) && /procédé|procede|effet|réalisation|realisation|élément textuel|element textuel|paradoxe|figure/.test(lower)) kind="analyse";
 
     const isCommentary=/commentaire|probl[ée]matique|réalisation|realisation|transition/.test(lower);
     const extraRules=isCommentary ? [
