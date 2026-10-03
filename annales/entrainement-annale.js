@@ -70,7 +70,7 @@
     ["preuves","Procédés & effets","Repérer des éléments, nommer des procédés utiles et expliquer leur effet ici."],
     ["intro","Introduction","Rédiger une introduction brève et fonctionnelle."],
     ["partie","Rédiger une partie","Développer une réponse en la prouvant par plusieurs analyses."],
-    ["transitions","Transition","Écrire la seule question qui fait apparaître ce qu’il reste à expliquer."],
+    ["transitions","Transition","Écrire la seule question qui fait apparaître ce que la solution précédente ne suffit pas encore à expliquer."],
     ["raccord","Transition","Écrire la seule question qui fait apparaître ce qu’il reste à expliquer."],
     ["conclusion","Conclusion","Synthétiser les effets sans résumer mécaniquement le plan."]
   ];
@@ -260,7 +260,7 @@
       core.push(
         "Une grande partie est une SOLUTION nécessaire à la problématique, jamais un thème.",
         "Le mot « établissement » est interdit pour désigner une partie : employer SOLUTION.",
-        "La NÉCESSITÉ explique pourquoi cette solution doit intervenir dans la démonstration.",
+        "La NÉCESSITÉ DE LA SOLUTION explique pourquoi cette solution est indispensable pour comprendre la transformation et répondre à la problématique.",
         "Une TRANSITION est uniquement une question simple qui fait apparaître ce qu’il reste encore à expliquer.",
         "RÉALISATION = ce que le texte fait ; ÉLÉMENT TEXTUEL = ce qui le montre ; PROCÉDÉ = comment l’élément est construit ; EFFET = ce que cela change ici.",
         "Pour un procédé, ne jamais valider le seul nom : exiger l’élément précis et l’effet contextualisé.",
