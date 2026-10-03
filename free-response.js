@@ -27,7 +27,7 @@
       localStorage.setItem(lockKey,String(until));
       area.disabled=true;
       btn.disabled=true;
-      feedback.innerHTML="<strong>Exercice suspendu</strong><p>Réponse hors sujet. Cet exercice est suspendu pendant au moins 24 heures.</p>";
+      feedback.innerHTML="<strong>Exercice suspendu</strong><p>Activité interrompue. La réponse est incohérente ou ne traite pas la tâche demandée. Nouvel essai possible dans 24 heures.</p>";
       feedback.classList.add("show");
     };
     area.dataset.feedbackMounted="1";
@@ -73,7 +73,7 @@
         });
         const data=await response.json();
         if(data.blocked){
-          if(data.reason==="off_topic"){
+          if(data.reason==="off_topic"||data.reason==="gibberish"){
             setLocked(Date.now()+24*60*60*1000,feedback,btn);
             return;
           }
