@@ -60,7 +60,7 @@
 
   const TARGETS=[
     ["problematique","Problématique","Formuler la question qui fait apparaître ce que le texte oblige à expliquer."],
-    ["plan","Plan","Construire deux ou trois réponses nécessaires à la problématique."],
+    ["plan","Plan","Construire deux ou trois solutions nécessaires à la problématique."],
     ["preuves","Procédés & effets","Repérer des éléments, nommer des procédés utiles et expliquer leur effet ici."],
     ["intro","Introduction","Rédiger une introduction brève et fonctionnelle."],
     ["partie","Rédiger une partie","Développer une réponse en la prouvant par plusieurs analyses."],
@@ -228,9 +228,9 @@
     ];
     if(item.type==="bac-commentaire"){
       core.push(
-        "Une grande partie est une RÉPONSE nécessaire à la problématique, jamais un thème.",
-        "Le mot « établissement » est interdit pour désigner une partie : employer RÉPONSE.",
-        "La NÉCESSITÉ explique pourquoi cette réponse doit intervenir dans la démonstration.",
+        "Une grande partie est une SOLUTION nécessaire à la problématique, jamais un thème.",
+        "Le mot « établissement » est interdit pour désigner une partie : employer SOLUTION.",
+        "La NÉCESSITÉ explique pourquoi cette solution doit intervenir dans la démonstration.",
         "Une TRANSITION est uniquement une question simple qui fait apparaître ce qu’il reste encore à expliquer.",
         "RÉALISATION = ce que le texte fait ; ÉLÉMENT TEXTUEL = ce qui le montre ; PROCÉDÉ = comment l’élément est construit ; EFFET = ce que cela change ici.",
         "Pour un procédé, ne jamais valider le seul nom : exiger l’élément précis et l’effet contextualisé.",
