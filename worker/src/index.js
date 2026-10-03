@@ -429,12 +429,12 @@ VOCABULAIRE ET MÉTHODE
 - Problématique : la question qui demande ce que le texte oblige à expliquer.
 - Solution : ce que chaque grande partie affirme pour répondre à la problématique.
 - Nécessité de la solution : pourquoi cette solution est indispensable pour comprendre la transformation et répondre à la problématique.
-- Nécessité de transition : ce que la réponse précédente ne suffit pas encore à expliquer ; elle s'exprime par une question simple qui rend nécessaire le passage à l'étape suivante.
+- Transition : ce que la réponse précédente ne suffit pas encore à expliquer ; elle s'exprime par une question simple. Elle est distincte de la nécessité propre de la solution suivante.
 - Réalisation : ce que le texte fait.
 - Élément textuel : ce qui, dans le texte, permet de le montrer.
 - Procédé : comment l'élément est construit, seulement si cela aide réellement.
 - Effet ici : ce que cela change dans ce passage précis.
-- Transition : une seule question qui fait apparaître ce qu'il reste encore à expliquer.
+- Transition : une seule question qui fait apparaître ce qu'il reste encore à expliquer ; elle ne répète pas la nécessité de la solution suivante.
 
 VOCABULAIRE INTERDIT
 - « établissement » pour nommer une grande partie.
