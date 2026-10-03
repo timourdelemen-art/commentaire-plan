@@ -1244,3 +1244,59 @@ main.wrap{overflow:hidden}
     display:none !important;
   }
 }
+
+
+/* 2026-10-03 — menus par intention + offre discrète */
+.mast-v3{
+  grid-template-columns:220px minmax(0,1fr);
+}
+.portal-dropdown{
+  min-width:340px;
+  max-width:390px;
+}
+.portal-dropdown-head{
+  padding:10px 13px 9px;
+  border-bottom:1px solid #d8d0c5;
+  background:#f3eee5;
+}
+.portal-dropdown-head strong{
+  font:11px 'American Typewriter','Courier New',monospace;
+  letter-spacing:1.2px;
+  text-transform:uppercase;
+  color:var(--muted);
+}
+.portal-dropdown a{
+  padding:13px 14px;
+}
+.portal-dropdown a strong{
+  display:block;
+  margin-bottom:3px;
+}
+.portal-offer{
+  margin-top:6px;
+  border-top:1px solid var(--ink) !important;
+  border-bottom:0 !important;
+  background:#181715 !important;
+}
+.portal-offer strong,
+.portal-offer small{
+  color:#fff !important;
+}
+.portal-offer:hover,
+.portal-offer:focus{
+  background:#2a2825 !important;
+}
+.nav-offer{display:none !important;}
+
+@media(max-width:1050px){
+  .mast-v3{
+    grid-template-columns:1fr;
+  }
+  .mast-v3 .brand{
+    grid-row:1;
+  }
+  .nav-portals{
+    grid-column:1;
+    grid-row:2;
+  }
+}
