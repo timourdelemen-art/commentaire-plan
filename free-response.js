@@ -21,6 +21,15 @@
   function mount(area,index){
     if(area.dataset.feedbackMounted==="1"||area.disabled||area.readOnly)return;
     let previousAnswer="";
+    const lockKey="cp-exercise-lock:"+page+":"+index;
+    const getLockUntil=()=>Number(localStorage.getItem(lockKey)||0);
+    const setLocked=(until,feedback,btn)=>{
+      localStorage.setItem(lockKey,String(until));
+      area.disabled=true;
+      btn.disabled=true;
+      feedback.innerHTML="<strong>Exercice suspendu</strong><p>Réponse hors sujet. Cet exercice est suspendu pendant au moins 24 heures.</p>";
+      feedback.classList.add("show");
+    };
     area.dataset.feedbackMounted="1";
     const wrap=document.createElement("div");
     wrap.className="free-response-tools";
@@ -33,6 +42,14 @@
     feedback.setAttribute("aria-live","polite");
     wrap.append(btn,feedback);
     area.insertAdjacentElement("afterend",wrap);
+
+    const lockUntil=getLockUntil();
+    if(lockUntil>Date.now()){
+      setLocked(lockUntil,feedback,btn);
+      return;
+    }else if(lockUntil){
+      localStorage.removeItem(lockKey);
+    }
 
     btn.addEventListener("click",async()=>{
       const answer=clean(area.value);
@@ -56,6 +73,10 @@
         });
         const data=await response.json();
         if(data.blocked){
+          if(data.reason==="off_topic"){
+            setLocked(Date.now()+24*60*60*1000,feedback,btn);
+            return;
+          }
           feedback.innerHTML="<strong>IA non utilisée</strong><p>"+(data.error||"Reprenez d’abord votre réponse.")+"</p>";
           feedback.classList.add("show");
           return;
