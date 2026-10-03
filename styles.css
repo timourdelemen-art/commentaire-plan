@@ -610,3 +610,16 @@
   .annales-static-links{grid-template-columns:1fr}
   .annales-static-links a:nth-child(even){border-left:0;padding-left:0}
 }
+
+
+/* Finition visuelle — en-tête plus sobre */
+.brand:after,.brand-v2:after{display:none}
+.mast-v3{border-bottom-color:#b9b1a6}
+.mast-v3 .brand{padding-left:0;letter-spacing:-1.1px}
+.nav-portals{border-left-color:#d4ccc1}
+.portal{border-left-color:#d4ccc1}
+.portal:last-child{border-right-color:#d4ccc1}
+.portal.active{background:#f0e9df}
+.portal.active span{color:var(--ink)}
+.nav-offer{background:var(--ink);color:var(--paper);border:1px solid var(--ink)}
+.context-tabs{background:#f4efe7;border-bottom-color:#c8c0b5}
