@@ -282,6 +282,23 @@ Exercices :
 - repérer les mots qui orientent la réflexion ;
 - transformer le sujet en « idée à examiner ».
 
+## Niveau 1 bis — Réactiver l'œuvre à partir du sujet
+Objectif : retrouver les connaissances réellement utiles avant de chercher un plan.
+
+Deux réservoirs :
+1. les trois extraits étudiés de près ;
+2. l'œuvre entière : autres scènes, personnages, lieux, motifs, évolutions, structures.
+
+Exercices :
+- pour chacun des trois extraits, écrire en une phrase ce qu'il permet de prouver pour ce sujet ;
+- retrouver au moins trois autres moments de l'œuvre liés au sujet ;
+- classer chaque élément : confirme / précise / nuance / limite / déplace ;
+- éliminer les connaissances intéressantes mais inutiles au sujet ;
+- compléter une carte « sujet → connaissances utiles ».
+
+Règle :
+la réactivation est ciblée par le sujet. Elle ne consiste pas à réciter une fiche générale sur l'œuvre.
+
 ## Niveau 2 — Faire apparaître la difficulté
 Objectif : passer du sujet à un vrai problème littéraire.
 
@@ -321,18 +338,23 @@ Exercices :
 - formuler ce que plusieurs passages permettent de prouver ensemble.
 
 ## Niveau 6 — Jongler entre plusieurs passages
-Objectif : construire une preuve transversale.
+Objectif : construire une preuve transversale à partir des extraits étudiés et du reste de l'œuvre.
 
 Tableau :
-| Argument | Passage 1 | Passage 2 | Passage 3 | Ce que chacun apporte | Ce que l'ensemble prouve |
-|---|---|---|---|---|---|
+| Argument | Extrait étudié | Autre moment de l'œuvre | Ce que chacun apporte | Ce que l'ensemble prouve |
+|---|---|---|---|---|
 
 Exercices :
+- associer un extrait étudié à un autre passage du roman ;
 - confirmation + nuance ;
 - début / milieu / fin ;
 - contraste entre deux personnages ;
 - même motif dans plusieurs chapitres ;
+- distinguer preuve fine (citation analysée) et connaissance transversale (scène ou évolution) ;
 - même citation réutilisée dans deux arguments différents.
+
+Règle :
+ne jamais imposer artificiellement PB-01, PB-02 et PB-03 dans chaque partie. L'élève choisit les preuves les plus pertinentes pour le sujet.
 
 ## Niveau 7 — Citation et analyse
 Objectif : éviter la citation décorative.
