@@ -6,8 +6,7 @@ document.addEventListener('DOMContentLoaded',()=> {
   const bacPages=['bac.html','anthologie-bac.html','bac-commentaire.html','bac-commentaire-procedes.html','bac-commentaire-procedes-entrainement.html','bac-dissertation.html','bac-oral.html','bac-mode-examen.html','commentaire-bac-methode.html','commentaire-bac-problematique.html','commentaire-bac-plan.html','commentaire-bac-procedes-effets.html','commentaire-bac-introduction.html','commentaire-bac-transition.html','commentaire-bac-conclusion.html'];
   const brevetPages=['brevet.html','anthologie-brevet.html','brevet-comprehension.html','brevet-grammaire.html','brevet-reecriture.html','brevet-redaction.html'];
   const teacherPages=['enseignants.html','formation.html','bibliotheque.html'];
-  const trainingPages=['parcours.html','bac-commentaire-procedes-entrainement.html','bac-mode-examen.html','annales.html'];
-  const manualPages=['manuel-procedes.html','bac-commentaire-procedes.html'];
+  const manualPages=['manuel-procedes.html','bac-commentaire-procedes.html','bac-commentaire-procedes-entrainement.html','parcours.html'];
   const is=(names)=>names.includes(path);
 
   const portal=(href,label,sub,items,classes='')=>`
@@ -21,38 +20,35 @@ document.addEventListener('DOMContentLoaded',()=> {
     </div>`;
 
   const portals=[
-    portal('bac.html','Bac','écrit · oral',[
-      ['bac.html','Espace Bac','Tous les entraînements'],
-      ['anthologie-bac.html','Textes Bac','Entrer par les textes'],
-      ['bac-commentaire.html','Commentaire','Méthode et exercices'],
-      ['commentaire-bac-methode.html','Méthode du commentaire','Problématique · plan · analyse · rédaction'],
-      ['annales.html#bac','Annales Bac','Sujets officiels transformés en entraînements']
+    portal('bac.html','BAC','écrit · oral',[
+      ['bac.html','Tout l’espace Bac','Choisir son entraînement'],
+      ['bac-commentaire.html','Commentaire','Méthode · exercices · modèles'],
+      ['bac-dissertation.html','Dissertation','Construire et rédiger'],
+      ['bac-oral.html','Oral','Préparer l’épreuve'],
+      ['annales.html#bac','Annales Bac','Sujets officiels'],
+      ['bac-mode-examen.html','Mode examen','S’entraîner sans aide']
     ],is(bacPages)?'active':''),
-    portal('brevet.html','Brevet','comprendre · écrire',[
-      ['brevet.html','Espace Brevet','Tous les entraînements'],
-      ['brevet-comprehension.html','Compréhension & interprétation','Répondre et justifier'],
-      ['brevet-grammaire.html','Grammaire','Analyser et manipuler'],
-      ['brevet-reecriture.html','Réécriture','Transformer sans oublier les accords'],
-      ['brevet-redaction.html','Rédaction','Construire puis reprendre'],
-      ['annales.html#brevet','Annales Brevet','Sujets officiels transformés en entraînements']
+    portal('brevet.html','BREVET','lire · langue · écrire',[
+      ['brevet.html','Tout l’espace Brevet','Choisir son entraînement'],
+      ['anthologie-brevet.html','Sujets complets','Faire une annale dans l’ordre'],
+      ['brevet-comprehension.html','Compréhension','Répondre · justifier · interpréter'],
+      ['brevet-grammaire.html','Grammaire','Analyser · manipuler'],
+      ['brevet-reecriture.html','Réécriture','Transformer avec précision'],
+      ['brevet-redaction.html','Rédaction','Construire · rédiger · reprendre']
     ],is(brevetPages)?'active':''),
-    portal('parcours.html','S’entraîner','parcours · examen',[
-      ['parcours.html','Parcours guidés','Avancer étape par étape'],
-      ['bac-commentaire-procedes-entrainement.html','Exercices rapides','Procédés et effets'],
-      ['annales.html','Annales','Choisir un sujet officiel'],
-      ['bac-mode-examen.html','Mode examen','Travailler sans aide']
-    ],is(trainingPages)?'active':''),
-    portal('manuel-procedes.html','Manuel','procédés · effets',[
-      ['manuel-procedes.html','Petit manuel des procédés','Un outil de recherche'],
-      ['bac-commentaire-procedes.html','Procédés & effets','Comprendre la méthode'],
-      ['bac-commentaire-procedes-entrainement.html','S’entraîner','Identifier puis expliquer']
+    portal('manuel-procedes.html','MANUEL','méthode · procédés',[
+      ['commentaire-bac-methode.html','Méthode du commentaire','De la lecture au plan'],
+      ['manuel-procedes.html','Petit manuel des procédés','Définitions · exemples · effets'],
+      ['bac-commentaire-procedes.html','Procédés & effets','Comprendre leur fonction'],
+      ['bac-commentaire-procedes-entrainement.html','Exercices','Identifier puis expliquer'],
+      ['parcours.html','Parcours guidés','Avancer étape par étape']
     ],is(manualPages)?'active':''),
-    portal('enseignants.html','Enseignants','3e · 2de · 1re',[
-      ['enseignants.html#troisieme','Troisième','Ressources Brevet'],
+    portal('enseignants.html','ENSEIGNANTS','3e · 2de · 1re',[
+      ['enseignants.html#troisieme','Troisième','Brevet · langue · rédaction'],
       ['enseignants.html#seconde','Seconde','Lecture · commentaire · langue'],
-      ['enseignants.html#premiere','Première','Bac écrit et oral'],
-      ['formation.html','Parcours','Séquences et progressions'],
-      ['bibliotheque.html','Bibliothèque','Documents à retrouver']
+      ['enseignants.html#premiere','Première','Bac écrit · oral'],
+      ['formation.html','Progressions','Séquences et parcours'],
+      ['bibliotheque.html','Bibliothèque','Documents et ressources']
     ],is(teacherPages)?'active':'')
   ].join('');
 
