@@ -176,3 +176,69 @@ En Seconde, la liberté est plus grande : choisir des œuvres intéressantes, su
 Une ressource n'est retenue que si elle aide l'élève à répondre à plusieurs sujets possibles.
 Un extrait purement « joli » ou seulement célèbre n'est pas suffisant.
 Chaque passage doit pouvoir être relié à plusieurs enjeux et à plusieurs usages argumentatifs.
+
+
+## Règle de sélection des extraits de Première — EAF
+
+Pour les textes susceptibles d’être inscrits au récapitulatif de l’oral, la sélection doit respecter la définition actuelle de l’épreuve : l’explication porte sur **un passage d’une vingtaine de lignes**. Si le texte fourni est plus long, l’examinateur peut en sélectionner un passage d’environ vingt lignes pour l’explication.
+
+Conséquence pour le site :
+- viser en prose des unités d’environ **20 lignes continues réellement exploitables** ;
+- ne jamais couper arbitrairement un mouvement décisif uniquement pour atteindre un chiffre ;
+- pour le théâtre et la poésie, adapter la longueur à la forme et au mouvement du passage, tout en restant compatible avec une explication orale brève ;
+- distinguer **extrait de travail long** et **passage EAF effectivement explicable**.
+
+### Deux filtres obligatoires pour chaque extrait
+1. **Filtre EAF**
+   - longueur et unité compatibles avec l’explication linéaire ;
+   - mouvement suffisamment net ;
+   - passage autonome sans exiger vingt pages de contexte ;
+   - potentiel de question de grammaire.
+
+2. **Filtre méthode du site**
+   - X repérable : ce que le passage met en place / fait attendre ;
+   - Y repérable : ce qu’il produit pourtant ;
+   - problématique formulable sans virtuosité artificielle ;
+   - plusieurs réalisations ou analyses possibles ;
+   - éléments textuels assez nets pour être observés par des élèves ;
+   - procédés utiles, jamais décoratifs ;
+   - réemploi possible dans plusieurs sujets de dissertation sur l’œuvre.
+
+### Test d’acceptation d’un extrait
+Un extrait n’entre dans la banque de Première que si l’on peut répondre clairement à :
+- Quel est le X ?
+- Quel est le Y ?
+- Pourquoi l’écart X / Y mérite-t-il une explication ?
+- Quelle problématique simple en « comment » peut être formulée ?
+- Quelles 2 à 4 analyses précises permettent d’y répondre ?
+- Quels enjeux transversaux de l’œuvre ce passage nourrit-il ?
+- Dans quels sujets de dissertation peut-il servir de preuve ?
+
+## Matrice d’analyse à produire pour chaque extrait
+| Champ | Contenu attendu |
+|---|---|
+| Situation dans l’œuvre | contexte minimal nécessaire |
+| Longueur EAF | environ 20 lignes de prose / unité équivalente pertinente |
+| X | ce que le passage met en place / fait attendre |
+| Y | ce qu’il produit pourtant |
+| Problématique | simple, précise, repérable par l’élève |
+| Mouvements | 2 à 4 mouvements maximum |
+| Analyses clés | ce que le texte fait + éléments précis + effets |
+| Grammaire possible | 1 ou 2 phrases exploitables |
+| Enjeux transversaux | 2 à 5 enjeux de l’œuvre |
+| Réemplois dissertation | sujets / arguments possibles |
+| Niveau de difficulté | accessible / intermédiaire / exigeant |
+
+## Pot-Bouille — axes officiels à intégrer
+À partir de la ressource Éduscol 2026, le parcours « Dévoiler les rouages de la société » doit notamment permettre de travailler :
+- l’envers du décor bourgeois ;
+- les contradictions entre apparences et discours moral d’une part, domination et violence feutrée d’autre part ;
+- l’immeuble comme laboratoire social et symbole architectural d’une société cloisonnée ;
+- la ségrégation verticale des groupes sociaux ;
+- les lieux de passage et de surveillance ;
+- les stratégies d’ascension sociale ;
+- le roman comme enquête sociale ;
+- la mécanique du roman, entre roman d’apprentissage, comédie de mœurs et fonctionnement quasi théâtral ;
+- la capacité du roman à rendre visibles des structures sociales, économiques et liées au genre.
+
+Ces axes ne doivent pas devenir des fiches à mémoriser. Ils servent à construire des exercices où l’élève observe, classe, relie, formule et réemploie.
