@@ -50,6 +50,16 @@
   els.title.textContent=item.auteur+" — "+item.oeuvre;
   els.context.textContent=item.contexte;
   els.subject.href=item.sourceOfficielle;
+  const supportBlock=document.getElementById("supportBlock");
+  const supportTitle=document.getElementById("supportTitle");
+  const supportText=document.getElementById("supportText");
+  const supportSource=document.getElementById("supportSource");
+  if(item.supportText && supportBlock && supportText){
+    supportBlock.hidden=false;
+    supportTitle.textContent=item.supportTitle||("Texte · "+item.auteur+" — "+item.oeuvre);
+    supportText.innerHTML=item.supportText;
+    supportSource.textContent=item.supportSource||"Texte reproduit pour le travail de l’annale.";
+  }
   els.guided.href=item.parcours||"../annales.html";
   window.AccessControl?.renderBadge(els.accessStatus);
 
