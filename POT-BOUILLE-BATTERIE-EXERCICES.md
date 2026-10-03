@@ -438,3 +438,61 @@ Version élève :
 
 Objectif :
 rendre visible l'architecture réelle d'une dissertation réussie.
+
+
+# F. Exercices ciblés de style argumentatif
+
+## Exercice ciblé — Formuler un plan avec élégance
+Objectif : transformer un plan juste mais lourd en plan clair, simple et précis.
+
+Principe :
+- garder exactement le même raisonnement ;
+- simplifier la formulation ;
+- privilégier une phrase courte ;
+- employer un verbe clair ;
+- laisser la complexité aux arguments.
+
+Formats :
+- choisir entre trois formulations de la même partie ;
+- alléger une formulation trop abstraite ;
+- transformer un titre nominal en phrase argumentative ;
+- vérifier que chaque partie contient une seule idée centrale.
+
+Test :
+> Est-ce que cette partie peut être comprise immédiatement, sans explication supplémentaire ?
+
+## Exercice ciblé — Connecteurs logiques
+Objectif : relier les idées sans donner au devoir une apparence mécanique.
+
+Règle :
+un connecteur n'est utile que s'il exprime une relation logique réelle.
+
+Relations à travailler :
+- ajouter sans simple accumulation ;
+- préciser ;
+- opposer ;
+- concéder ;
+- expliquer ;
+- tirer une conséquence ;
+- reformuler ;
+- faire apparaître une limite ;
+- relancer vers une nouvelle difficulté.
+
+Exercices :
+- supprimer les connecteurs inutiles ;
+- remplacer un connecteur vague par une relation plus précise ;
+- relier deux phrases sans employer « d'abord », « ensuite », « en outre », « enfin » ;
+- varier entre connecteur explicite, reprise lexicale, pronom, opposition syntaxique ou transition-question ;
+- comparer deux paragraphes : l'un mécanique, l'autre fluide.
+
+Règle de style :
+éviter l'enchaînement automatique :
+> d'abord / ensuite / en outre / enfin / finalement
+
+Préférer des articulations qui correspondent réellement au raisonnement :
+> pourtant / ainsi / en effet / cependant / dès lors / de plus / surtout / au contraire / de même / autrement dit / dès lors que / si... alors...
+
+Mais ne jamais multiplier les connecteurs pour faire « dissertation ».
+
+Test :
+> Si je supprime le connecteur, est-ce que la relation logique reste claire ? Si oui, il n'est peut-être pas nécessaire.
