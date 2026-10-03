@@ -145,7 +145,7 @@ Le programme partage la plupart des œuvres ci-dessus, mais le roman comprend no
 - Zola — *Thérèse Raquin* / **anatomie des passions** ;
 - Simone Schwarz-Bart — *Pluie et vent sur Télumée Miracle*.
 
-**Thérèse Raquin** devient donc une œuvre à très haute priorité puisqu'elle peut aussi servir en Seconde.
+***Thérèse Raquin*** devient donc une œuvre à très haute priorité puisqu'elle peut aussi servir en Seconde.
 
 ---
 
