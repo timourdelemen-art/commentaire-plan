@@ -734,3 +734,234 @@ body{background:var(--paper)}
   .funnel-offer{grid-template-columns:1fr;padding-left:8px;padding-right:8px}
   .funnel-offer .btn{min-width:0}
 }
+
+
+/* Direction artistique globale — octobre 2026 */
+body{
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+main.wrap{overflow:hidden}
+.pagehead{
+  grid-template-columns:minmax(0,1.35fr) minmax(280px,.65fr);
+  gap:84px;
+  padding:76px 20px 62px;
+  align-items:end;
+}
+.pagehead h1{
+  font-size:clamp(52px,5.3vw,78px);
+  line-height:.98;
+  letter-spacing:-3.2px;
+  max-width:980px;
+  margin:20px 0 22px;
+}
+.lede{
+  max-width:820px;
+  font-size:23px;
+  line-height:1.42;
+  color:#2f2b27;
+}
+.side-note{
+  border-left:0;
+  border-top:1px solid var(--ink);
+  padding:22px 0 0;
+  max-width:430px;
+}
+.side-note p{
+  font-size:16px;
+  line-height:1.55;
+  color:#37322d;
+  margin:0 0 14px;
+}
+.kicker,.eyebrow{
+  color:var(--muted);
+  font-size:11px;
+  letter-spacing:2.1px;
+}
+.journey-block{
+  grid-template-columns:70px 1fr;
+  gap:34px;
+  padding:58px 20px;
+}
+.journey-block.primary{background:var(--soft-2)}
+.journey-block h2{font-size:43px}
+.journey-block p{font-size:19px;max-width:840px}
+.journey-number{color:var(--muted)}
+.journey-grid>a,
+.funnel-two>a,
+.procedure-mode-grid>a,
+.teacher-level,
+.archive-card,
+.annales-static-links a,
+.seo-links a{
+  transition:background .16s ease,transform .16s ease,border-color .16s ease;
+}
+.journey-grid>a:hover,
+.funnel-two>a:hover,
+.procedure-mode-grid>a:hover,
+.teacher-level:hover,
+.archive-card:hover,
+.annales-static-links a:hover,
+.seo-links a:hover{
+  background:#f0e9df;
+}
+.journey-grid>a:focus-visible,
+.funnel-two>a:focus-visible,
+.procedure-mode-grid>a:focus-visible,
+.teacher-level:focus-visible,
+.annales-static-links a:focus-visible,
+.seo-links a:focus-visible,
+.btn:focus-visible,
+.nav-offer:focus-visible,
+.menu-toggle:focus-visible{
+  outline:2px solid var(--ink);
+  outline-offset:3px;
+}
+.btn{
+  border-radius:2px;
+  min-height:52px;
+  height:auto;
+  padding:14px 22px;
+  font-size:17px;
+  gap:20px;
+}
+.btn.small{min-width:0}
+.btn:not(.red){background:transparent}
+.official-link,
+.seo-links a span,
+.annales-static-links a span,
+.journey-grid b,
+.funnel-two b,
+.procedure-mode-grid b{
+  color:#5f5952;
+}
+.journey-grid b,
+.funnel-two b,
+.procedure-mode-grid b{
+  text-decoration:underline;
+  text-decoration-thickness:1px;
+  text-underline-offset:4px;
+}
+.archive-section,.guided-section,.procedure-modes,.teacher-sequence{
+  padding-left:20px;
+  padding-right:20px;
+}
+.archive-head{
+  grid-template-columns:minmax(0,1fr) minmax(300px,.75fr);
+  gap:64px;
+}
+.archive-head h2{
+  font-size:clamp(38px,4vw,58px);
+  letter-spacing:-1.6px;
+}
+.archive-head p{font-size:17px;line-height:1.55}
+.archive-card{
+  background:transparent;
+  border-color:var(--line)!important;
+}
+.archive-card.current{background:var(--soft-2)}
+.annales-static-index{margin-top:52px}
+.annales-static-links a{padding:20px 16px}
+.offer-access-grid{
+  gap:0;
+  border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+}
+.offer-access-grid article{
+  padding:46px 34px;
+  background:transparent;
+}
+.offer-access-grid article+article{
+  border-left:1px solid var(--line);
+}
+.offer-access-grid article.premium{background:var(--soft-2)}
+.offer-access-grid h2{
+  font-size:36px;
+  line-height:1.08;
+  font-weight:400;
+}
+.offer-access-grid p{font-size:17px;line-height:1.55}
+.payment-coming{
+  border-top:1px solid var(--line);
+  margin-top:28px;
+  padding-top:20px;
+}
+.offer-band{
+  background:transparent;
+  border-top:1px solid var(--line);
+  padding:54px 20px;
+}
+.offer-band h2{
+  max-width:980px;
+  font-size:40px;
+  line-height:1.08;
+  font-weight:400;
+}
+.offer-band p{max-width:880px;font-size:17px;line-height:1.6}
+.teacher-levels{border-color:var(--line)}
+.teacher-level{padding:40px 28px;min-height:260px}
+.teacher-level h2{font-size:34px;font-weight:400}
+.teacher-level p{font-size:17px;line-height:1.5}
+.teacher-sequence{padding-top:58px;padding-bottom:58px}
+.teacher-sequence h2{font-size:42px;font-weight:400}
+.sequence-spec{border-top:1px solid var(--line)}
+.sequence-spec p{font-size:16px;line-height:1.55}
+.seo-body{
+  max-width:1120px;
+  padding:58px 20px 80px;
+}
+.seo-body>h2{
+  font-size:44px;
+  font-weight:400;
+  margin-top:0;
+}
+.seo-body>p{
+  max-width:850px;
+  font-size:19px;
+  line-height:1.65;
+}
+.seo-links{
+  margin-top:34px;
+  border-top:1px solid var(--line);
+}
+.seo-links a{
+  min-height:110px;
+  padding:24px 18px;
+  border-color:var(--line);
+}
+.seo-links strong{font-size:22px;font-weight:400}
+.context-tabs{
+  position:sticky;
+  top:0;
+  z-index:40;
+  backdrop-filter:blur(8px);
+  background:rgba(246,241,232,.94);
+}
+.portal-dropdown{
+  box-shadow:0 16px 40px rgba(0,0,0,.08);
+  border-color:var(--line)!important;
+}
+.portal-dropdown a:hover{background:#f0e9df}
+@media(max-width:1050px){
+  .pagehead{grid-template-columns:1fr;gap:38px;padding-top:58px}
+  .side-note{max-width:720px}
+  .archive-head{grid-template-columns:1fr}
+  .context-tabs{position:static}
+}
+@media(max-width:700px){
+  .wrap{width:calc(100% - 24px)}
+  .mast-v3{height:78px}
+  .mast-v3 .brand{font-size:27px}
+  .pagehead{padding:44px 6px 40px}
+  .pagehead h1{font-size:46px;letter-spacing:-2.2px}
+  .lede{font-size:19px}
+  .journey-block{grid-template-columns:44px 1fr;padding:42px 6px}
+  .journey-block h2{font-size:35px}
+  .archive-section,.guided-section,.procedure-modes,.teacher-sequence{padding-left:6px;padding-right:6px}
+  .offer-access-grid{grid-template-columns:1fr}
+  .offer-access-grid article{padding:36px 18px}
+  .offer-access-grid article+article{border-left:0;border-top:1px solid var(--line)}
+  .offer-band{padding:42px 6px}
+  .offer-band h2{font-size:34px}
+  .seo-body{padding:44px 6px 64px}
+}
