@@ -34,6 +34,16 @@
   state.stepElapsed=state.stepElapsed||0;
   state.mode=state.mode||"guided";
   state.help=state.help||{};
+  const requestedMode=params.get("mode");
+  const requestedStep=params.get("step");
+  if(item.type==="bac-commentaire" && requestedMode==="targeted"){
+    const requestedIndex=item.etapes.findIndex(s=>s.id===requestedStep);
+    if(requestedIndex>=0){
+      state.mode="targeted";
+      state.step=requestedIndex;
+      state.stepElapsed=0;
+    }
+  }
   let running=false, tick=null;
 
   els.meta.textContent=[item.examen,item.annee,item.zone,item.serie,item.epreuve].join(" · ");
@@ -310,4 +320,7 @@
 
   renderTargetedPicker();
   render();
+  if(item.type==="bac-commentaire" && requestedMode==="targeted" && requestedStep){
+    startTimer();
+  }
 })();
