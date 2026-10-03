@@ -464,3 +464,21 @@
 .annale-step-card textarea:disabled{opacity:.55}
 .anthology-card .meta{margin:14px 0}
 .anthology-card .badge{margin-right:6px}
+
+
+/* Navigation déroulante — accès direct aux parcours */
+.portal-wrap{position:relative;height:100%;min-width:0}
+.portal-wrap>.portal{height:100%;position:relative;padding-right:34px}
+.portal-wrap>.portal i{position:absolute;right:14px;top:50%;transform:translateY(-50%);font-style:normal;font-size:16px;color:var(--muted);transition:transform .15s ease}
+.portal-wrap.open>.portal i,.portal-wrap:focus-within>.portal i{transform:translateY(-50%) rotate(180deg)}
+.portal-dropdown{display:none;position:absolute;left:0;top:100%;z-index:80;min-width:300px;max-width:360px;background:var(--paper);border:1px solid var(--rule);box-shadow:0 14px 28px rgba(0,0,0,.12)}
+.portal-wrap.open .portal-dropdown,.portal-wrap:focus-within .portal-dropdown{display:grid}
+.portal-dropdown a{display:grid;gap:3px;padding:13px 16px;border-bottom:1px solid #c8bfb3;background:var(--paper)}
+.portal-dropdown a:last-child{border-bottom:0}
+.portal-dropdown a:hover,.portal-dropdown a:focus{background:#eee4d3;outline:none}
+.portal-dropdown strong{font-size:16px;font-weight:400}
+.portal-dropdown small{font:11px 'American Typewriter','Courier New',monospace;line-height:1.35;color:var(--muted)}
+.portal-wrap:nth-child(3) .portal-dropdown,.portal-wrap:nth-child(4) .portal-dropdown{left:auto;right:0}
+@media(max-width:1050px){
+  .portal-dropdown{display:none!important}
+}
