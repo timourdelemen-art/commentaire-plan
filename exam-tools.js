@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     reset?.addEventListener('click',()=>{if(t)clearInterval(t);t=null;left=initial;draw();if(start)start.textContent='Démarrer';});
   });
 
-  document.querySelectorAll('.record-btn').forEach(btn=>{
+  document.querySelectorAll('.audio-prototype .record-btn').forEach(btn=>{
     const wrap=btn.closest('.audio-prototype'),status=wrap.querySelector('.record-status'),audio=wrap.querySelector('.record-playback');
     let rec=null,chunks=[];
     btn.addEventListener('click',async()=>{
@@ -153,5 +153,203 @@ document.addEventListener('DOMContentLoaded',()=>{
       if(target){target.textContent=e.message||"Retour indisponible.";target.classList.add("show");}
     }finally{btn.disabled=false;btn.textContent=old;}
   }));
+
+
+
+  // Simulation orale — déroulement fidèle en deux parties
+  const oralPart1Done=document.getElementById("oral-part1-done");
+  const oralInterviewPhase=document.getElementById("oral-interview-phase");
+  const oralInterviewFirstDone=document.getElementById("oral-interview-first-done");
+  const oralDialogue=document.getElementById("oral-dialogue");
+  const oralMessages=document.getElementById("oral-dialogue-messages");
+  const oralAnswerDone=document.getElementById("oral-answer-done");
+  const oralInterviewFinish=document.getElementById("oral-interview-finish");
+  const oralFinalBilan=document.getElementById("oral-final-bilan");
+  const oralRestart=document.getElementById("oral-restart");
+
+  if(oralPart1Done){
+    const ORAL_ENDPOINT="https://atelier-commentaire-ia.timour-delemen.workers.dev/api/analyze";
+    const lockKey="cp-oral-lock-v1";
+    const part1Area=document.getElementById("oral-part1-transcript");
+    const interviewArea=document.getElementById("oral-interview-transcript");
+    const answerArea=document.getElementById("oral-answer-transcript");
+    const workArea=document.getElementById("oral-work");
+    const grammarQuestion=document.getElementById("oral-grammar-question");
+    let part1Feedback=null;
+    let interviewFeedback=null;
+    let dialogueTurns=[];
+
+    const lockUntil=()=>Number(localStorage.getItem(lockKey)||0);
+    const suspendOral=()=>{
+      const until=Date.now()+24*60*60*1000;
+      localStorage.setItem(lockKey,String(until));
+      document.querySelectorAll("#oral-simulation textarea,#oral-simulation input,#oral-simulation button,#oral-source textarea,#oral-source input,.oral-prep button").forEach(el=>el.disabled=true);
+      const host=document.getElementById("oral-simulation");
+      if(host && !document.getElementById("oral-lock-message")){
+        const box=document.createElement("div");
+        box.id="oral-lock-message";
+        box.className="examiner-card";
+        box.innerHTML='<div class="examiner-label">EXERCICE SUSPENDU</div><p>Réponse hors sujet. Cet exercice est suspendu pendant au moins 24 heures.</p>';
+        host.prepend(box);
+      }
+    };
+
+    if(lockUntil()>Date.now()) suspendOral();
+    else if(lockUntil()) localStorage.removeItem(lockKey);
+
+    const analyze=async(answer,instruction,quote="",previousAnswer="")=>{
+      const res=await fetch(ORAL_ENDPOINT,{
+        method:"POST",
+        headers:{"Content-Type":"application/json"},
+        body:JSON.stringify({
+          exercise:"free-response",
+          answer,
+          previous_answer:previousAnswer,
+          context:{
+            title:"Oral du Bac",
+            instruction,
+            quote,
+            page:"bac-oral.html",
+            kind:"analyse"
+          }
+        })
+      });
+      const data=await res.json();
+      if(data.blocked && data.reason==="off_topic"){
+        suspendOral();
+        return {blocked:true};
+      }
+      if(!res.ok||!data.ok) throw new Error(data.error||"Retour indisponible.");
+      return data.feedback||{};
+    };
+
+    const attachSpeech=(buttonId,statusId,area)=>{
+      const btn=document.getElementById(buttonId), status=document.getElementById(statusId);
+      if(!btn||!status||!area)return;
+      const Recognition=window.SpeechRecognition||window.webkitSpeechRecognition;
+      if(!Recognition){
+        status.textContent="Dictée vocale non disponible dans ce navigateur. Vous pouvez saisir la transcription manuellement.";
+        return;
+      }
+      let rec=null,active=false,base="";
+      btn.addEventListener("click",()=>{
+        if(active&&rec){rec.stop();return;}
+        rec=new Recognition();
+        rec.lang="fr-FR";
+        rec.continuous=true;
+        rec.interimResults=true;
+        base=area.value.trim();
+        rec.onstart=()=>{active=true;btn.textContent="Arrêter";status.textContent="Écoute en cours…";};
+        rec.onend=()=>{active=false;btn.textContent=buttonId==="oral-answer-mic"?"Répondre à l’oral":"Commencer à parler";status.textContent="Micro arrêté.";};
+        rec.onerror=()=>{status.textContent="La dictée vocale n’a pas pu continuer.";};
+        rec.onresult=e=>{
+          let finalText="",interim="";
+          for(let i=e.resultIndex;i<e.results.length;i++){
+            const t=e.results[i][0]?.transcript||"";
+            if(e.results[i].isFinal)finalText+=t+" "; else interim+=t;
+          }
+          if(finalText) base=(base+" "+finalText).trim();
+          area.value=(base+" "+interim).trim();
+          area.dispatchEvent(new Event("input",{bubbles:true}));
+        };
+        rec.start();
+      });
+    };
+
+    attachSpeech("oral-part1-mic","oral-part1-status",part1Area);
+    attachSpeech("oral-interview-mic","oral-interview-status",interviewArea);
+    attachSpeech("oral-answer-mic","oral-answer-status",answerArea);
+
+    const addMessage=(role,text)=>{
+      if(!oralMessages)return;
+      const div=document.createElement("div");
+      div.className="oral-dialogue-message "+role;
+      div.innerHTML="<strong>"+(role==="examiner"?"Examinateur":"Élève")+"</strong><p></p>";
+      div.querySelector("p").textContent=text;
+      oralMessages.appendChild(div);
+    };
+
+    oralPart1Done.addEventListener("click",async()=>{
+      const answer=(part1Area?.value||"").trim();
+      if(answer.length<30){alert("La première partie doit contenir une prestation réelle avant de passer à l’entretien.");return;}
+      oralPart1Done.disabled=true;
+      try{
+        part1Feedback=await analyze(
+          answer,
+          "Première partie de l’oral du bac. Vérifie uniquement, à partir de la transcription disponible, si l’élève situe le texte, construit une explication appuyée sur le passage et traite la question de grammaire. Ne commente pas la qualité de lecture ou de voix à partir d’une transcription. Donne un acquis, une priorité et une question de reprise, mais ces éléments ne seront montrés qu’au bilan final.",
+          (document.getElementById("oral-source-text")?.value||"")+" Question de grammaire : "+(grammarQuestion?.value||"")
+        );
+        if(part1Feedback?.blocked)return;
+        oralInterviewPhase.hidden=false;
+        oralInterviewPhase.scrollIntoView({behavior:"smooth",block:"start"});
+      }catch(e){alert(e.message||"Analyse indisponible.");}
+      finally{if(!part1Feedback?.blocked)oralPart1Done.disabled=false;}
+    });
+
+    oralInterviewFirstDone?.addEventListener("click",async()=>{
+      const answer=(interviewArea?.value||"").trim();
+      if(answer.length<20){alert("Présentez d’abord réellement l’œuvre et les raisons de votre choix.");return;}
+      oralInterviewFirstDone.disabled=true;
+      try{
+        interviewFeedback=await analyze(
+          answer,
+          "Seconde partie de l’oral du bac. L’élève vient de présenter l’œuvre choisie et les raisons de son choix. Formule dans question_suivante UNE relance ouverte d’examinateur, directement fondée sur ce qu’il vient de dire. Ne corrige pas l’élève pendant l’entretien et ne fournis pas de bilan maintenant.",
+          (workArea?.value||"")
+        );
+        if(interviewFeedback?.blocked)return;
+        oralDialogue.hidden=false;
+        dialogueTurns=[answer];
+        addMessage("examiner",interviewFeedback.question_suivante||"Pouvez-vous préciser ce qui, dans cette œuvre, a le plus changé votre manière de la lire ?");
+        oralDialogue.scrollIntoView({behavior:"smooth",block:"start"});
+      }catch(e){alert(e.message||"Relance indisponible.");}
+      finally{if(!interviewFeedback?.blocked)oralInterviewFirstDone.disabled=false;}
+    });
+
+    oralAnswerDone?.addEventListener("click",async()=>{
+      const answer=(answerArea?.value||"").trim();
+      if(answer.length<8){alert("Répondez à la question avant de poursuivre.");return;}
+      oralAnswerDone.disabled=true;
+      try{
+        const f=await analyze(
+          answer,
+          "Entretien de l’oral du bac. À partir de cette réponse précise, formule dans question_suivante UNE nouvelle relance ouverte d’examinateur. Elle doit rebondir sur ce que l’élève vient réellement de dire, sans donner de correction ni de jugement pendant l’entretien.",
+          (workArea?.value||""),
+          dialogueTurns[dialogueTurns.length-1]||""
+        );
+        if(f?.blocked)return;
+        addMessage("student",answer);
+        addMessage("examiner",f.question_suivante||"Pouvez-vous développer ce point à partir d’un passage précis de l’œuvre ?");
+        dialogueTurns.push(answer);
+        answerArea.value="";
+      }catch(e){alert(e.message||"Relance indisponible.");}
+      finally{oralAnswerDone.disabled=false;}
+    });
+
+    oralInterviewFinish?.addEventListener("click",async()=>{
+      const interviewText=[interviewArea?.value||"",...dialogueTurns.slice(1)].filter(Boolean).join(" ");
+      oralInterviewFinish.disabled=true;
+      try{
+        const finalInterview=await analyze(
+          interviewText||interviewArea?.value||"",
+          "Bilan final de la seconde partie de l’oral du bac : présentation de l’œuvre et entretien. Donne un seul acquis réel, une seule priorité de reprise et une question de travail pour la prochaine simulation. Ne donne pas de note.",
+          (workArea?.value||"")
+        );
+        if(finalInterview?.blocked)return;
+        const p1=document.getElementById("oral-bilan-part1");
+        const p2=document.getElementById("oral-bilan-interview");
+        const renderFeedback=f=>"<p><b>Point acquis :</b> "+(f?.point_acquis||"—")+"</p><p><b>Priorité :</b> "+(f?.manque_principal||"—")+"</p><p><b>Pour la reprise :</b> "+(f?.question_suivante||"—")+"</p>";
+        if(p1)p1.innerHTML=renderFeedback(part1Feedback);
+        if(p2)p2.innerHTML=renderFeedback(finalInterview);
+        oralFinalBilan.hidden=false;
+        oralFinalBilan.scrollIntoView({behavior:"smooth",block:"start"});
+      }catch(e){alert(e.message||"Bilan indisponible.");}
+      finally{oralInterviewFinish.disabled=false;}
+    });
+
+    oralRestart?.addEventListener("click",()=>{
+      localStorage.removeItem("oral-source-draft-v1");
+      location.reload();
+    });
+  }
 
 });
