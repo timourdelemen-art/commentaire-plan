@@ -384,8 +384,10 @@
       els.feedback.textContent=e.message||"Le retour n'est pas disponible pour le moment.";
       els.feedback.classList.add("show");
     }finally{
-      els.ai.disabled=false;
-      els.ai.textContent=aiModeFor(step)==="recommended"?"Analyser ma réponse":"Demander un retour IA";
+      if(!isSuspended(step)){
+        els.ai.disabled=false;
+        els.ai.textContent=aiModeFor(step)==="recommended"?"Analyser ma réponse":"Demander un retour IA";
+      }
     }
   }
   els.ai.addEventListener("click",askAI);
