@@ -595,3 +595,18 @@
   .annale-skill-grid{grid-template-columns:1fr}
   .annale-skill-card:nth-child(3n+2),.annale-skill-card:nth-child(3n+3){border-left:0}
 }
+
+
+/* Index statique des annales — utile aux élèves et aux moteurs */
+.annales-static-index{margin:38px 0 12px;padding:28px 0;border-top:1px solid var(--rule)}
+.annales-static-index h3{font-size:32px;font-weight:400;margin:12px 0 20px}
+.annales-static-links{display:grid;grid-template-columns:repeat(2,1fr);border-top:1px solid var(--rule)}
+.annales-static-links a{display:grid;gap:5px;padding:18px 16px 18px 0;border-bottom:1px solid var(--rule)}
+.annales-static-links a:nth-child(even){border-left:1px solid var(--rule);padding-left:16px}
+.annales-static-links strong{font-size:18px;font-weight:400}
+.annales-static-links span{font-size:14px;line-height:1.4;color:var(--muted)}
+.annales-static-links a:hover strong{color:var(--red)}
+@media(max-width:760px){
+  .annales-static-links{grid-template-columns:1fr}
+  .annales-static-links a:nth-child(even){border-left:0;padding-left:0}
+}
