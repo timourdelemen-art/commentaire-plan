@@ -280,6 +280,42 @@ Les transitions sont les questions successives qui permettent de la résoudre.
 
 ---
 
+## Formuler les parties avec élégance
+
+La solidité logique ne suffit pas : les réponses de partie doivent être **simples, nettes et lisibles**.
+
+### Règle
+Une partie doit pouvoir se formuler en **une phrase courte**, avec un verbe qui indique clairement ce qu'elle établit.
+
+Préférer :
+- « Zola révèle... »
+- « Le roman montre... »
+- « L'œuvre transforme... »
+- « Cette organisation fait apparaître... »
+- « Le personnage découvre... »
+
+Éviter :
+- les intitulés nominaux trop abstraits ;
+- les accumulations de concepts ;
+- les formulations qui ressemblent à des titres de cours ;
+- les phrases à plusieurs subordonnées ;
+- les parties qui demandent déjà une explication pour être comprises.
+
+### Test d'élégance
+Une réponse de partie est bien formulée si :
+- elle se comprend immédiatement ;
+- elle contient une seule idée centrale ;
+- elle répond clairement à la problématique ;
+- elle peut être dite oralement sans lourdeur ;
+- elle laisse aux arguments le soin d'apporter la complexité.
+
+### Principe
+**La complexité doit être dans le raisonnement, pas dans le titre de la partie.**
+
+Le plan doit pouvoir paraître simple en surface tout en étant rigoureux en profondeur.
+
+---
+
 ## 5. Construire l'ordre du plan
 
 Un plan n'est pas bon parce qu'il a deux ou trois parties.
