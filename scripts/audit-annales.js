@@ -106,7 +106,7 @@ for(const jsPath of jsWithDynamicTextareas){
   }
 }
 
-// L'assistance ne doit pas se nommer elle-même dans l'interface publique.
+// Le site peut expliquer l’usage de l’IA, mais ne doit jamais la présenter comme un substitut au travail de l’élève.
 const visibleForbidden=[
   /\b(?:IA\s+)?brid[ée]e?\b/i,
   /\bdébrid[ée]e?\b/i,
@@ -127,20 +127,13 @@ for(const p of publicTextFiles){
   }
 }
 
-// Aucune page HTML publique ne doit nommer explicitement la technologie.
-for(const p of publicHtml){
-  const source=fs.readFileSync(p,"utf8");
-  const visible=source.replace(/<script\b[\s\S]*?<\/script>/gi,"").replace(/<style\b[\s\S]*?<\/style>/gi,"");
-  if(/\bIA\b/i.test(visible)) errors.push(`${p}: mention explicite « IA » encore présente dans la page publique`);
-}
-
 if(!fs.existsSync("free-response.js")) errors.push("Couche globale de retour libre absente");
 else {
   const free=fs.readFileSync("free-response.js","utf8");
   if(!free.includes("Vérifier ma réponse")) errors.push("Couche globale: bouton de vérification absent");
   if(!free.includes("/api/analyze")) errors.push("Couche globale: moteur de retour absent");
 }
-const syntaxFiles=["free-response.js","brevet-writing-feedback.js","annales/entrainement-annale.js","worker/src/index.js","site-nav.js"];
+const syntaxFiles=["free-response.js","brevet-writing-feedback.js","annales/entrainement-annale.js","worker/src/index.js","site-nav.js","exam-tools.js"];
 for(const p of syntaxFiles){
   if(!fs.existsSync(p)) continue;
   try{ new Function(fs.readFileSync(p,"utf8").replace(/^export default\s*/m,"return ")); }
@@ -149,6 +142,19 @@ for(const p of syntaxFiles){
 
 const worker=fs.existsSync("worker/src/index.js")?fs.readFileSync("worker/src/index.js","utf8"):"";
 if(!worker.includes('exercise === "free-response"')) errors.push("Worker: réponses libres génériques non prises en charge");
+if(!worker.includes('reason: "off_topic"') || !worker.includes('lock_hours: 24')) errors.push("Worker: suspension 24 h hors sujet absente");
+
+const nav=fs.existsSync("site-nav.js")?fs.readFileSync("site-nav.js","utf8"):"";
+if(!nav.includes("details.correction") || !nav.includes("tentative réelle")) errors.push("Navigation: verrouillage global des corrigés avant tentative absent");
+
+if(!js.includes("suspensions") || !js.includes("L’aide ne s’ouvre qu’après une tentative réelle")) errors.push("Annales: tentative obligatoire / suspension locale absente");
+
+const oralHtml=fs.existsSync("bac-oral.html")?fs.readFileSync("bac-oral.html","utf8"):"";
+const oralJs=fs.existsSync("exam-tools.js")?fs.readFileSync("exam-tools.js","utf8"):"";
+for(const id of ["oral-part1-done","oral-interview-first-done","oral-answer-done","oral-interview-finish"]){
+  if(!oralHtml.includes(id)) errors.push(`Oral: contrôle ${id} absent de la page`);
+  if(!oralJs.includes(id)) errors.push(`Oral: contrôle ${id} non câblé dans exam-tools.js`);
+}
 
 console.log(`Annales cataloguées: ${Object.keys(cat).length}`);
 console.log(`Étapes/exercices: ${steps}`);
