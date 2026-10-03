@@ -1989,7 +1989,7 @@ window.ANNALES_CATALOGUE = {
         "points": 2,
         "consigne": "Nommez et effectuez deux manipulations qui permettent de trouver la fonction de « un matin ».",
         "aide": "Deux manipulations réellement effectuées, avec leur résultat.",
-        "correction": "Deux manipulations pertinentes sont la suppression et le déplacement : le groupe « un matin » peut être supprimé et déplacé, ce qui confirme sa fonction de complément circonstanciel de temps."
+        "correction": "« un matin » est complément circonstanciel de temps. Deux manipulations pertinentes : suppression du groupe, qui laisse une phrase grammaticale, et déplacement en tête ou en fin de phrase. Sa mobilité et son caractère facultatif confirment la fonction circonstancielle."
       },
       {
         "id": "q8a",
@@ -2191,7 +2191,7 @@ window.ANNALES_CATALOGUE = {
         "points": 3,
         "consigne": "Quelle est la fonction de « religieusement » ? Indiquez deux manipulations pour justifier.",
         "aide": "Testez la suppression et le déplacement.",
-        "correction": "« religieusement » est complément circonstanciel de manière du verbe « regardions ». On peut le supprimer sans rendre la phrase incorrecte et le déplacer : « Religieusement, nous regardions la télévision… »"
+        "correction": "« religieusement » est un complément circonstanciel de manière. Deux manipulations pertinentes : 1) suppression : « que nous regardions à l’heure du dîner » reste grammatical ; 2) déplacement dans la proposition : « que, religieusement, nous regardions à l’heure du dîner ». Ces deux manipulations montrent qu’il s’agit d’un constituant mobile et facultatif, caractéristique d’un complément circonstanciel."
       },
       {
         "id": "q9",
@@ -2358,7 +2358,7 @@ window.ANNALES_CATALOGUE = {
         "points": 2,
         "consigne": "Précisez la fonction grammaticale de cette proposition subordonnée et donnez au moins une manipulation.",
         "aide": "Essayez de remplacer toute la proposition par un pronom.",
-        "correction": "La proposition est COD du verbe « compris ». On peut la remplacer par le pronom « le » : « Je le compris aussitôt. »"
+        "correction": "La proposition « que ni Weil ni moi ne pourrions jamais nous entretenir avec elle » est COD du verbe « compris ». La manipulation la plus probante ici est la pronominalisation : on peut remplacer toute la proposition par « le » → « Je le compris aussitôt. » Le remplacement par un pronom objet montre qu’elle occupe la fonction de complément d’objet direct."
       },
       {
         "id": "q10a",
@@ -2514,7 +2514,7 @@ window.ANNALES_CATALOGUE = {
         "points": 2,
         "consigne": "Justifiez la fonction du groupe « En de certains endroits » par des manipulations.",
         "aide": "Testez déplacement et suppression.",
-        "correction": "Le groupe est un complément circonstanciel : on peut le déplacer (« Elle était fort profonde en de certains endroits ») et le supprimer (« Elle était fort profonde »)."
+        "correction": "« En de certains endroits » est un complément circonstanciel de lieu. Deux manipulations convergent : déplacement → « Elle était fort profonde en de certains endroits » ; suppression → « Elle était fort profonde ». Le groupe est donc mobile et facultatif, ce qui confirme sa fonction circonstancielle."
       },
       {
         "id": "q8a",
@@ -2751,7 +2751,7 @@ window.ANNALES_CATALOGUE = {
         "points": 2,
         "consigne": "Quelles manipulations permettent d’identifier la fonction de « la guerre » ?",
         "aide": "Essayez la pronominalisation et la mise à la voix passive.",
-        "correction": "On peut remplacer « la guerre » par le pronom COD « la » : « L’autre la lui déclara ». On peut aussi mettre la phrase au passif : « La guerre lui fut déclarée par l’autre »."
+        "correction": "Deux manipulations permettent d’identifier « la guerre » comme COD : 1) pronominalisation → « L’autre la lui déclara » ; 2) transformation passive → « La guerre lui fut déclarée par l’autre ». La pronominalisation par « la » et le passage du groupe à la fonction sujet dans la phrase passive confirment qu’il s’agit du COD."
       },
       {
         "id": "q9",
