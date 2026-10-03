@@ -263,3 +263,156 @@ Le commentaire et la dissertation partagent une logique de preuve, mais pas la m
 - dissertation : on construit une réflexion sur l'œuvre entière à partir de plusieurs passages.
 
 Les deux exercices au surligneur doivent donc se ressembler sans être identiques.
+
+
+# E. Volant dissertation — progression complète jusqu'à la rédaction finale
+
+## Principe
+La dissertation dispose d'un parcours propre. L'élève ne passe pas directement du cours à la copie complète.
+
+La progression suit :
+**comprendre le sujet → faire apparaître la difficulté → formuler la problématique → construire les réponses → construire les arguments → mobiliser plusieurs passages → analyser les preuves → ordonner le plan → rédiger → relire.**
+
+## Niveau 1 — Comprendre le sujet
+Objectif : identifier ce que le sujet demande réellement.
+
+Exercices :
+- reformuler une question ;
+- reformuler une citation ou une affirmation ;
+- repérer les mots qui orientent la réflexion ;
+- transformer le sujet en « idée à examiner ».
+
+## Niveau 2 — Faire apparaître la difficulté
+Objectif : passer du sujet à un vrai problème littéraire.
+
+Exercices :
+- relever ce que l'œuvre confirme ;
+- relever ce qui empêche de s'en tenir à cette première lecture ;
+- distinguer nuance, limite, approfondissement et déplacement ;
+- choisir la difficulté la plus féconde parmi plusieurs formulations.
+
+## Niveau 3 — Formuler la problématique
+Objectif : construire la question qui organisera tout le devoir.
+
+Exercices :
+- distinguer sujet / problématique ;
+- choisir entre trois problématiques plausibles ;
+- corriger une problématique trop générale ;
+- corriger une opposition artificielle ;
+- formuler une problématique à partir de la difficulté trouvée.
+
+## Niveau 4 — Construire les réponses de partie
+Objectif : comprendre qu'une partie est une réponse nécessaire à la problématique.
+
+Exercices :
+- distinguer thème et réponse ;
+- transformer « l'argent », « le mariage », « la respectabilité » en réponses argumentatives ;
+- expliquer la nécessité de chaque réponse ;
+- tester si deux parties sont redondantes ;
+- tester si l'ordre des parties est nécessaire.
+
+## Niveau 5 — Construire les arguments
+Objectif : faire de chaque sous-partie une idée synthétique.
+
+Exercices :
+- regrouper plusieurs observations sous un même argument ;
+- distinguer argument et exemple ;
+- choisir quels passages peuvent être réunis sous un même argument ;
+- formuler ce que plusieurs passages permettent de prouver ensemble.
+
+## Niveau 6 — Jongler entre plusieurs passages
+Objectif : construire une preuve transversale.
+
+Tableau :
+| Argument | Passage 1 | Passage 2 | Passage 3 | Ce que chacun apporte | Ce que l'ensemble prouve |
+|---|---|---|---|---|---|
+
+Exercices :
+- confirmation + nuance ;
+- début / milieu / fin ;
+- contraste entre deux personnages ;
+- même motif dans plusieurs chapitres ;
+- même citation réutilisée dans deux arguments différents.
+
+## Niveau 7 — Citation et analyse
+Objectif : éviter la citation décorative.
+
+Exercices :
+- choisir la meilleure citation ;
+- expliquer exactement ce qu'elle montre ;
+- analyser un procédé ou un élément grammatical utile ;
+- rattacher l'analyse à l'argument ;
+- transformer une citation simplement insérée en preuve analysée.
+
+Schéma :
+**citation → analyse → ce que cela prouve → argument**
+
+## Niveau 8 — Construire les transitions
+Objectif : faire progresser le raisonnement.
+
+Consigne :
+> Après cette réponse, qu'est-ce qui reste encore à résoudre ?
+
+La transition doit être une question.
+Elle ne répète ni la partie précédente ni la nécessité de la partie suivante.
+
+## Niveau 9 — Construire le plan complet
+Objectif : vérifier la nécessité de l'ordre.
+
+Pour chaque partie :
+- réponse ;
+- nécessité de la réponse ;
+- 2 ou 3 arguments ;
+- passages mobilisés ;
+- transition.
+
+Test :
+> Si l'on inverse les parties, le raisonnement reste-t-il intact ?
+
+## Niveau 10 — Rédiger un paragraphe
+Objectif : rendre visible la logique de preuve.
+
+Structure possible :
+1. argument ;
+2. premier passage ;
+3. citation ou élément précis ;
+4. analyse ;
+5. second passage ;
+6. comparaison / nuance ;
+7. bilan de l'argument.
+
+## Niveau 11 — Rédiger une partie
+Objectif : articuler plusieurs arguments autour d'une même réponse.
+
+## Niveau 12 — Introduction
+Objectif : rester bref.
+
+- situer l'œuvre et le sujet ;
+- faire apparaître la difficulté ;
+- problématique ;
+- mouvement du plan.
+
+## Niveau 13 — Conclusion et ouverture
+Objectif : répondre sans répéter.
+
+- réponse synthétique à la problématique ;
+- bilan du cheminement ;
+- ouverture vers une autre œuvre avec une fonction précise : confirmer, déplacer, limiter ou préciser.
+
+## Niveau 14 — Dissertation complète
+Deux formats :
+- dissertation guidée : architecture préparée, rédaction autonome ;
+- dissertation autonome : sujet seul.
+
+## Niveau 15 — Lire un corrigé au surligneur
+Version élève :
+- problématique ;
+- réponse de partie ;
+- argument ;
+- passage / exemple ;
+- citation ;
+- analyse ;
+- transition.
+
+Objectif :
+rendre visible l'architecture réelle d'une dissertation réussie.
