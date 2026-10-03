@@ -473,3 +473,44 @@ Le moteur doit :
 - ne pas imposer artificiellement un plan dialectique ;
 - ne pas fournir un plan complet avant la tentative de l'élève ;
 - donner un seul manque prioritaire et une seule question de relance.
+
+
+## Connecteurs logiques : rendre la progression visible sans la mécaniser
+
+Les connecteurs servent à rendre explicite une relation logique réelle.
+Ils ne doivent jamais remplacer le raisonnement.
+
+### Principe
+Un bon paragraphe peut articuler ses phrases de plusieurs manières :
+- connecteur logique ;
+- reprise d'un mot ou d'une idée ;
+- opposition syntaxique ;
+- pronom ou groupe nominal de reprise ;
+- formulation causale ou concessive ;
+- transition-question.
+
+### Éviter
+La succession scolaire et mécanique :
+**d'abord → ensuite → en outre → enfin → finalement**
+
+Elle peut rendre visible l'ordre, mais pas la logique.
+
+### Préférer
+Des relations précises :
+- **addition raisonnée** : de plus, surtout, également ;
+- **confirmation / justification** : en effet ;
+- **conséquence** : ainsi, dès lors ;
+- **opposition / limite** : pourtant, cependant, au contraire ;
+- **concession** : certes... mais... ;
+- **reformulation** : autrement dit ;
+- **comparaison** : de même, à l'inverse ;
+- **relance** : question sur ce qui reste à résoudre.
+
+### Règle
+**Le connecteur doit dire la relation entre les idées, pas seulement leur ordre.**
+
+### Test
+Pour chaque connecteur, demander :
+> Quelle relation exacte exprime-t-il ici ?
+
+Si la réponse est seulement « c'est l'idée suivante », le connecteur est probablement faible.
