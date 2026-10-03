@@ -206,6 +206,8 @@ function buildSpec(body) {
 
     const isCommentary=/commentaire|probl[ée]matique|réalisation|realisation|transition/.test(lower);
     const isOral=/oral du bac|bac-oral/.test(lower);
+    const isBrevetImagination=kind==="brevet-redaction" && /imagination|inventer|récit|recit|texte-support|texte support/.test(lower);
+    const isBrevetReflexion=kind==="brevet-redaction" && /réflexion|reflexion|argument|opinion|convaincre/.test(lower);
     const extraRules=isOral ? [
       "Il s’agit d’un entraînement à l’épreuve orale anticipée de français.",
       "Pour l’explication linéaire : évaluer compréhension du mouvement du passage, précision des analyses, appui sur le texte, qualité de l’interprétation et clarté de l’expression.",
@@ -213,6 +215,22 @@ function buildSpec(body) {
       "Pour l’entretien : évaluer présentation synthétique de l’œuvre, justification personnelle, aptitude à dialoguer, nuancer, étoffer et défendre une lecture en mobilisant des connaissances pertinentes.",
       "Ne jamais attribuer de note automatique ni prétendre remplacer l’examinateur.",
       "Pour l’entretien, la question_suivante doit être une vraie relance ouverte prenant appui sur ce que l’élève a dit."
+    ] : isBrevetReflexion ? [
+      "Référentiel interne : échelles descriptives officielles du DNB 2027, sujet de réflexion.",
+      "Évaluer séparément : réponse effective au sujet ; développement d'arguments ; mobilisation d'exemples ; organisation progressive du propos ; adaptation à la situation de communication ; orthographe ; syntaxe ; lexique.",
+      "Pour les exemples, vérifier qu'ils sont pertinents et suffisamment développés, et qu'ils éclairent effectivement l'argument.",
+      "Pour l'organisation, vérifier les paragraphes, la progression et la pertinence des liens logiques.",
+      "Une réponse très réussie peut comporter plusieurs arguments pertinents et nuancés, des exemples variés et une progression claire ; ne jamais exiger mécaniquement ces traits si la consigne locale porte sur un seul geste.",
+      "Ne jamais convertir automatiquement les critères en note chiffrée : les paliers officiels sont descriptifs et une copie peut présenter un profil hétérogène.",
+      "Donner un seul manque prioritaire à retravailler."
+    ] : isBrevetImagination ? [
+      "Référentiel interne : échelles descriptives officielles du DNB 2027, sujet d'imagination.",
+      "Évaluer séparément : remobilisation pertinente des éléments du texte-support ; imagination adaptée au sujet ; enchaînement cohérent et progressif des étapes ; maîtrise du genre et des types de discours ; orthographe ; syntaxe ; lexique.",
+      "L'invention n'est jamais évaluée indépendamment des contraintes : elle doit rester cohérente avec l'univers de référence demandé.",
+      "Pour le genre, vérifier que les codes attendus et les types de discours demandés sont effectivement mobilisés.",
+      "Une réponse très réussie peut s'approprier richement l'univers de référence et organiser des étapes pertinentes ; ne jamais exiger mécaniquement ces traits si la consigne locale porte sur un seul geste.",
+      "Ne jamais convertir automatiquement les critères en note chiffrée : les paliers officiels sont descriptifs et une copie peut présenter un profil hétérogène.",
+      "Donner un seul manque prioritaire à retravailler."
     ] : isCommentary ? [
       "Une grande partie est une SOLUTION nécessaire à la problématique, jamais un thème.",
       "TRANSITION = une seule question simple qui fait apparaître ce que la solution précédente ne suffit pas encore à expliquer. Elle ne justifie pas la solution suivante : elle rend seulement nécessaire le passage à une étape supplémentaire.",
