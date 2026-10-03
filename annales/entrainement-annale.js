@@ -36,7 +36,7 @@
   state.help=state.help||{};
   const requestedMode=params.get("mode");
   const requestedStep=params.get("step");
-  if(item.type==="bac-commentaire" && requestedMode==="targeted"){
+  if(requestedMode==="targeted"){
     const requestedIndex=item.etapes.findIndex(s=>s.id===requestedStep);
     if(requestedIndex>=0){
       state.mode="targeted";
