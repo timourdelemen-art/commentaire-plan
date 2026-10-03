@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded',()=> {
   const path=(location.pathname.split('/').pop()||'index.html').toLowerCase();
   const bacPages=['bac.html','anthologie-bac.html','bac-commentaire.html','bac-commentaire-procedes.html','bac-commentaire-procedes-entrainement.html','manuel-procedes.html','bac-dissertation.html','bac-oral.html','bac-mode-examen.html'];
   const brevetPages=['brevet.html','anthologie-brevet.html','brevet-comprehension.html','brevet-grammaire.html','brevet-reecriture.html','brevet-redaction.html'];
-  const teacherPages=['enseignants.html','formation.html'];
+  const teacherPages=['enseignants.html','formation.html','bibliotheque.html'];
   const is=(names)=>names.includes(path);
   const active=(names)=>is(names)?' active':'';
 
@@ -55,14 +55,52 @@ document.addEventListener('DOMContentLoaded',()=> {
     `<a class="${currentHref(href)?'active':''}" href="${href}">${label}</a>`
   ).join('');
 
+  const portal=(href,label,sub,items,classes='')=>`
+    <div class="portal-wrap ${classes}">
+      <a class="portal${classes.includes('active')?' active':''}" href="${href}" aria-haspopup="true">
+        <span>${label}</span><small>${sub}</small><i aria-hidden="true">⌄</i>
+      </a>
+      <div class="portal-dropdown" role="menu">
+        ${items.map(([u,t,d])=>`<a href="${u}" role="menuitem"><strong>${t}</strong>${d?`<small>${d}</small>`:''}</a>`).join('')}
+      </div>
+    </div>`;
+
+  const portals=[
+    portal('bac.html','Bac','écrit · oral',[
+      ['anthologie-bac.html','Anthologie Bac','Entrer par les textes'],
+      ['bac-commentaire.html','Commentaire','Problématique · plan · analyse'],
+      ['bac-dissertation.html','Dissertation','Construire une démonstration'],
+      ['bac-oral.html','Oral','Préparation · explication · entretien'],
+      ['annales.html#bac','Annales','Sujets officiels'],
+      ['bac-mode-examen.html','Mode Bac','Travailler sans aide']
+    ],is(bacPages)?'active':''),
+    portal('brevet.html','Brevet','comprendre · manipuler · rédiger',[
+      ['anthologie-brevet.html','Sujets complets','Annales dans l’ordre officiel'],
+      ['brevet.html#exercices-cibles','Exercices ciblés','Choisir une difficulté'],
+      ['brevet-comprehension.html','Compréhension & interprétation','Répondre et justifier'],
+      ['brevet-grammaire.html','Langue & grammaire','Analyser et manipuler'],
+      ['brevet-reecriture.html','Réécriture','Transformer sans oublier les accords'],
+      ['brevet-redaction.html','Rédaction','Construire puis reprendre']
+    ],is(brevetPages)?'active':''),
+    portal('anthologie-bac.html','Anthologies','textes · exercices',[
+      ['anthologie-bac.html','Anthologie Bac','Textes et entraînements'],
+      ['anthologie-brevet.html','Anthologie Brevet','Sujets et questions'],
+      ['annales.html','Annales officielles','Retrouver tous les sujets']
+    ],is(['anthologie-bac.html','anthologie-brevet.html'])?'active':''),
+    portal('enseignants.html','Enseignants','3e · 2de · 1re',[
+      ['enseignants.html#troisieme','Troisième','Ressources Brevet'],
+      ['enseignants.html#seconde','Seconde','Lecture · commentaire · langue'],
+      ['enseignants.html#premiere','Première','Bac écrit et oral'],
+      ['formation.html','Parcours','Séquences et progressions'],
+      ['bibliotheque.html','Bibliothèque','Documents à retrouver']
+    ],is(teacherPages)?'active':'')
+  ].join('');
+
   header.innerHTML=`
   <div class="wrap mast mast-v3">
     <a class="brand brand-v2" href="index.html">BAC & BREVET<br>FRANÇAIS</a>
     <nav class="nav-portals" aria-label="Univers">
-      <a class="portal${active(bacPages)}" href="bac.html"><span>Bac</span><small>écrit · oral</small></a>
-      <a class="portal${active(brevetPages)}" href="brevet.html"><span>Brevet</span><small>comprendre · manipuler · rédiger</small></a>
-      <a class="portal${active(['anthologie-bac.html','anthologie-brevet.html'])}" href="anthologie-bac.html"><span>Anthologies</span><small>textes · exercices</small></a>
-      <a class="portal${active(teacherPages)}" href="enseignants.html"><span>Enseignants</span><small>3e · 2de · 1re</small></a>
+      ${portals}
     </nav>
     <a class="nav-offer" href="offre.html">Accès complet</a>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">Menu</button>
@@ -84,5 +122,27 @@ document.addEventListener('DOMContentLoaded',()=> {
     menu.hidden=open;
     document.body.classList.toggle('menu-open',!open);
   });
+
+  header.querySelectorAll('.portal-wrap').forEach(wrap=>{
+    const main=wrap.querySelector('.portal');
+    const drop=wrap.querySelector('.portal-dropdown');
+    const close=()=>wrap.classList.remove('open');
+    main.addEventListener('focus',()=>wrap.classList.add('open'));
+    wrap.addEventListener('mouseenter',()=>wrap.classList.add('open'));
+    wrap.addEventListener('mouseleave',close);
+    wrap.addEventListener('focusout',e=>{ if(!wrap.contains(e.relatedTarget)) close(); });
+    main.addEventListener('keydown',e=>{
+      if(e.key==='ArrowDown'){
+        e.preventDefault();
+        wrap.classList.add('open');
+        drop.querySelector('a')?.focus();
+      }
+      if(e.key==='Escape') close();
+    });
+    drop.addEventListener('keydown',e=>{
+      if(e.key==='Escape'){ close(); main.focus(); }
+    });
+  });
+
   if(!location.pathname.includes('/annales/')){ const s=document.createElement('script'); s.src='free-response.js'; document.body.appendChild(s); }
 });
