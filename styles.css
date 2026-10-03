@@ -1387,3 +1387,12 @@ main.wrap{overflow:hidden}
     display:none !important;
   }
 }
+
+
+/* Pied de page de confiance */
+.site-footer{border-top:1px solid var(--rule);margin-top:56px;padding:24px 0 34px;font-size:14px;color:var(--muted)}
+.site-footer .wrap{display:flex;gap:24px;flex-wrap:wrap}
+.site-footer a{border-bottom:1px solid transparent}
+.site-footer a:hover{border-bottom-color:var(--red);color:var(--ink)}
+.correction-lock-note{margin:10px 0 0;color:var(--red)}
+@media(max-width:760px){.site-footer .wrap{gap:14px 20px}}
