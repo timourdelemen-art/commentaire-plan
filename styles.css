@@ -980,3 +980,110 @@ main.wrap{overflow:hidden}
 .annales-matrix .procedure-mode-grid article span{font:11px 'American Typewriter','Courier New',monospace;color:var(--red);letter-spacing:1px}
 @media(max-width:1050px){.procedure-card-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:700px){.procedure-card-grid{grid-template-columns:1fr}.procedure-card-grid article{min-height:0}}
+
+
+/* 2026-10-03 — navigation principale toujours visible */
+.mast-v3{
+  grid-template-columns:220px minmax(0,1fr) auto;
+  gap:0;
+}
+.nav-portals{
+  display:grid !important;
+  min-width:0;
+  overflow:visible;
+}
+.portal-wrap>.portal{
+  color:var(--ink);
+  background:var(--paper);
+}
+.portal-wrap>.portal span{
+  color:var(--ink);
+}
+.portal-wrap>.portal small,
+.portal-wrap>.portal i{
+  color:var(--muted);
+}
+.portal-wrap>.portal:hover,
+.portal-wrap>.portal:focus,
+.portal-wrap.open>.portal,
+.portal-wrap:focus-within>.portal{
+  background:#eee4d3;
+}
+.portal-dropdown{
+  color:var(--ink);
+  background:var(--paper);
+}
+.portal-dropdown a,
+.portal-dropdown strong,
+.portal-dropdown small{
+  color:var(--ink);
+}
+.portal-dropdown small{color:var(--muted)}
+.menu-toggle,
+.site-menu{
+  display:none !important;
+}
+
+@media(max-width:950px){
+  .mast-v3{
+    height:auto;
+    min-height:0;
+    grid-template-columns:1fr auto;
+    align-items:center;
+  }
+  .mast-v3 .brand{
+    min-height:78px;
+    display:flex;
+    align-items:center;
+  }
+  .nav-offer{
+    margin-right:0;
+  }
+  .nav-portals{
+    grid-column:1/-1;
+    grid-row:2;
+    width:100%;
+    grid-template-columns:repeat(5,minmax(130px,1fr));
+    overflow-x:auto;
+    border-top:1px solid var(--rule);
+    border-left:0;
+    scrollbar-width:thin;
+  }
+  .portal-wrap{
+    min-width:130px;
+    height:72px;
+  }
+  .portal-wrap>.portal{
+    min-height:72px;
+    padding:10px 28px 10px 14px;
+    border-left:0;
+    border-right:1px solid #c4bbae;
+  }
+  .portal-dropdown{
+    display:none !important;
+  }
+}
+
+@media(max-width:620px){
+  .mast-v3{
+    grid-template-columns:1fr;
+  }
+  .mast-v3 .brand{
+    min-height:72px;
+  }
+  .nav-offer{
+    display:none;
+  }
+  .nav-portals{
+    grid-row:2;
+  }
+  .portal-wrap{
+    min-width:124px;
+  }
+  .portal-wrap>.portal span{
+    font-size:16px;
+  }
+  .portal-wrap>.portal small{
+    font-size:9px;
+  }
+}
