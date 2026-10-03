@@ -586,3 +586,112 @@ Pour les extraits de Première destinés à l'explication :
 - éviter de dépasser sensiblement vingt lignes ;
 - accepter un léger dépassement ou une légère réduction uniquement si le mouvement du passage l'exige ;
 - ne jamais mutiler la structure du passage pour respecter artificiellement un compte exact.
+
+
+## Charte de rédaction des fiches professeur
+
+Toutes les fiches doivent donner une impression de document académique sobre, utilisable immédiatement.
+
+### Langue
+- phrases courtes ;
+- verbes d'action ;
+- vocabulaire scolaire courant ;
+- termes littéraires exacts seulement lorsqu'ils sont utiles ;
+- aucune inflation de vocabulaire abstrait ;
+- aucun commentaire promotionnel dans la fiche pédagogique ;
+- éviter les formulations génériques du type « explorer les enjeux », « développer une réflexion riche », « mobiliser des compétences variées » si elles ne disent pas précisément ce que l'élève fait.
+
+### Objectifs
+Chaque séance commence par **2 à 4 objectifs maximum**, formulés avec des verbes observables :
+- repérer ;
+- comparer ;
+- classer ;
+- expliquer ;
+- formuler ;
+- justifier ;
+- relier ;
+- rédiger.
+
+Exemple :
+**Objectifs**
+- repérer deux mouvements dans le passage ;
+- expliquer l'effet de deux constructions syntaxiques ;
+- formuler une problématique à partir de l'opposition centrale ;
+- réutiliser une citation dans un argument.
+
+### Consignes
+Une consigne = une opération principale.
+Éviter les consignes à plusieurs étages.
+Préférer :
+> Relevez deux expressions qui montrent...
+puis :
+> Expliquez ce qu'elles produisent ici.
+
+à une consigne longue réunissant repérage, analyse, interprétation et rédaction.
+
+## Grammaire au service de l'interprétation
+
+La grammaire n'est pas ajoutée artificiellement à la fin de la séance.
+Elle doit aider à comprendre **comment la phrase construit le sens**.
+
+### Seconde — notions prioritaires
+À partir du programme officiel :
+- accords dans le groupe nominal et entre sujet et verbe ;
+- valeurs temporelles, aspectuelles et modales du verbe ;
+- concordance des temps ;
+- relations dans la phrase complexe : juxtaposition, coordination, subordination ;
+- propositions subordonnées relatives ;
+- lexique et relations lexicales.
+
+### Usages interprétatifs possibles en Seconde
+- temps verbaux → organisation du récit, durée, rupture, commentaire ;
+- modalisation → certitude, doute, jugement, distance ;
+- coordination / juxtaposition → rythme du raisonnement ou de la narration ;
+- subordination → hiérarchie entre les idées ;
+- relative → précision, caractérisation, restriction, ajout d'un jugement ;
+- accords et expansions → construction d'un groupe nominal significatif ;
+- lexique → oppositions, réseaux, reprises, évolution d'un motif.
+
+### Première — notions prioritaires
+À partir du programme officiel :
+- subordonnées conjonctives circonstancielles : cause, conséquence, but, condition, concession ;
+- interrogation : syntaxe, sens et valeur pragmatique ;
+- négation ;
+- prolongements possibles vers l'exclamation et les discours rapportés ;
+- lexique et relations logiques.
+
+### Usages interprétatifs possibles en Première
+- cause → justification donnée par un personnage ou un argument ;
+- conséquence → résultat construit par la phrase ;
+- but → intention ;
+- condition → dépendance ou hypothèse ;
+- concession → résistance d'un fait malgré un obstacle ;
+- interrogation → vraie demande, défi, accusation, hésitation, question rhétorique ;
+- négation → refus, restriction, correction, implicite ;
+- discours rapporté → distance, confrontation des voix, théâtralité sociale ;
+- lexique → valeurs, oppositions et systèmes de représentation.
+
+## Format de la rubrique grammaire dans une séance
+
+Ne pas écrire :
+> Grammaire : étudiez la subordonnée.
+
+Écrire :
+> **Grammaire — comprendre la relation entre deux idées**
+> Dans la phrase..., relevez la proposition introduite par « bien que ».
+> Quel obstacle exprime-t-elle ?
+> En quoi cet obstacle renforce-t-il ici le jugement porté sur le personnage ?
+
+Le nom grammatical vient avec sa fonction dans le texte.
+
+## Règle de sélection
+Pour chaque extrait premium, relever **1 à 3 phénomènes grammaticaux réellement intéressants**.
+Ne jamais forcer une notion uniquement parce qu'elle figure au programme.
+
+La fiche professeur indique :
+- notion ;
+- phrase exacte ;
+- manipulation possible ;
+- réponse ;
+- effet interprétatif ;
+- niveau : Seconde / Première.
