@@ -1,9 +1,16 @@
 # POT-BOUILLE — ANALYSE INTÉGRALE STRATÉGIQUE
 
 ## Statut
-**Document interne de travail. Aucun extrait n'est encore définitivement retenu.**
+**Analyse intégrale conservée comme document interne de justification de la sélection.**
 
-But : analyser l'œuvre entière avant de sélectionner les passages destinés aux fiches premium de Première.
+La première sélection publiée est désormais fixée :
+- **PB-01 · chapitre VI · La cour des cuisines** ;
+- **PB-02 · chapitre XVI · Le retour de Berthe** ;
+- **PB-03 · chapitre XV · Le lendemain du scandale**.
+
+Les trois textes ont été contrôlés sur la transcription Wikisource validée de l'édition G. Charpentier, 1883.
+
+But : conserver la cartographie de l'œuvre entière, justifier la sélection et préparer les réemplois transversaux et la dissertation.
 
 ## Édition de référence
 Émile Zola, *Pot-Bouille* (1882), Paris, G. Charpentier, 1883.
@@ -384,17 +391,11 @@ fête / violence ; dignité / décomposition ; clôture / répétition ; réussi
 - XIII : grossesse d'Adèle comme scandale moral.
 - XVIII : grossesse, travail et dégel final.
 
-# PROCHAINE ÉTAPE DE L'ANALYSE
-Pour chaque candidat de cette liste longue :
-1. retrouver les limites exactes dans l'édition Charpentier ;
-2. mesurer la longueur ;
-3. tester plusieurs découpages d'environ vingt lignes ;
-4. formuler X et Y ;
-5. produire 2 ou 3 problématiques concurrentes ;
-6. vérifier qu'une problématique simple est réellement meilleure ;
-7. relever les procédés, y compris ceux hors manuel ;
-8. tester une question de grammaire ;
-9. mesurer les réemplois en dissertation ;
-10. éliminer les candidats redondants.
-
-**Aucun PB-01, PB-02, etc. ne sera attribué avant cette étape comparative.**
+# ÉTAPE SUIVANTE
+La sélection PB-01 / PB-02 / PB-03 étant publiée, le travail porte désormais sur :
+1. corrections professeur complètes ;
+2. banque de citations exactes ;
+3. réactivation transversale par sujet ;
+4. sujet de dissertation guidé puis autonome ;
+5. commentaire modèle et dissertation modèle ;
+6. contrôle final de la longueur et de l'imprimabilité des fiches.
