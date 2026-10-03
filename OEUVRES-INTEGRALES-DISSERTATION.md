@@ -399,3 +399,86 @@ La sélection de Pot-Bouille doit donc couvrir ensemble :
 - évolution d'Octave et fonction de son regard.
 
 Aucun de ces axes ne doit être transformé en fiche passive : chacun doit donner lieu à une activité de classement, comparaison, repérage, formulation ou réemploi.
+
+
+## Norme éditoriale premium — fiches d'extraits Première
+
+La qualité pédagogique ne suffit pas : chaque document doit être prêt à imprimer et crédible immédiatement pour un professeur.
+
+### En-tête obligatoire
+Chaque fiche d'extrait doit comporter, dans cet ordre :
+- **EXTRAIT 1 / 2 / 3...**
+- **Nom de l'auteur**
+- ***Titre de l'œuvre*** en italique
+- année d'écriture / de production si pertinente ;
+- année de première publication ;
+- chapitre / acte / scène / poème / section selon le genre ;
+- indication très brève de la situation du passage dans l'œuvre ;
+- objet d'étude ;
+- parcours associé en Première lorsqu'il existe.
+
+### Présentation du texte
+- texte authentique et vérifié sur une édition de référence ;
+- aucune réécriture silencieuse ;
+- alinéas respectés ;
+- dialogues, tirets, guillemets, ponctuation et graphies contrôlés ;
+- limites exactes du passage conservées ;
+- **lignes numérotées de façon stable**, de préférence par pas de 5 pour faciliter les renvois en classe ;
+- largeur de colonne suffisante pour la lecture mais sans lignes trop longues ;
+- interligne lisible ;
+- marges permettant annotations et surlignage ;
+- pas de décor qui concurrence le texte ;
+- titre de l'œuvre toujours en italique ;
+- auteur clairement identifié ;
+- numéro de l'extrait immédiatement visible.
+
+### Longueur et découpage
+Pour les passages destinés à l'entraînement de l'oral :
+- viser un passage compatible avec l'explication linéaire d'environ vingt lignes de prose continue ;
+- ne jamais sacrifier l'unité du mouvement uniquement pour atteindre un nombre exact de lignes ;
+- si le passage de travail est plus long, faire apparaître clairement la zone EAF effectivement travaillée.
+
+### Bloc professeur
+Chaque extrait dispose d'une fiche professeur séparée contenant :
+- justification du choix de l'extrait ;
+- X ;
+- Y ;
+- problématique possible ;
+- mouvements ;
+- analyses majeures ;
+- procédés utiles ;
+- procédés éventuels hors manuel ;
+- effets précis ;
+- question(s) de grammaire possibles ;
+- enjeux transversaux ;
+- réemplois en dissertation ;
+- erreurs ou contresens prévisibles ;
+- corrigés des exercices.
+
+### Bloc élève
+La fiche élève ne doit jamais dévoiler la lecture magistrale.
+Elle contient seulement :
+- le texte ;
+- le paratexte minimal ;
+- les questions / exercices ;
+- les espaces nécessaires pour écrire ou annoter ;
+- éventuellement une aide progressive clairement séparée.
+
+### Numérotation interne
+Chaque œuvre reçoit un système stable :
+- PB-01, PB-02... pour *Pot-Bouille* ;
+- RD-01... pour *Cahier de Douai* ;
+- LB-01... pour La Boétie, etc.
+
+Chaque exercice renvoie explicitement à l'extrait :
+> Pot-Bouille · Extrait PB-03 · lignes 11 à 16.
+
+Cela permet au professeur d'imprimer, projeter, distribuer et retrouver les ressources sans ambiguïté.
+
+### Contrôle qualité avant publication
+Aucun document payant ne passe en ligne avant validation de ces cinq points :
+1. authenticité textuelle ;
+2. pertinence stratégique de l'extrait ;
+3. solidité de la problématique ;
+4. qualité des exercices ;
+5. qualité typographique et imprimabilité.
