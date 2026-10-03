@@ -63,24 +63,7 @@ document.addEventListener('DOMContentLoaded',()=> {
       ${portals}
     </nav>
     <a class="nav-offer" href="offre.html">Accès complet</a>
-    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">Menu</button>
-  </div>
-  <div id="site-menu" class="site-menu" hidden>
-    <div class="wrap site-menu-grid">
-      <div><span class="menu-kicker">Bac</span><a href="bac.html">Espace Bac</a><a href="bac-commentaire.html">Commentaire</a><a href="annales.html#bac">Annales Bac</a></div>
-      <div><span class="menu-kicker">Brevet</span><a href="brevet.html">Espace Brevet</a><a href="brevet-comprehension.html">Compréhension</a><a href="annales.html#brevet">Annales Brevet</a></div>
-      <div><span class="menu-kicker">Outils</span><a href="parcours.html">S’entraîner</a><a href="manuel-procedes.html">Manuel des procédés</a><a href="enseignants.html">Enseignants</a></div>
-    </div>
   </div>`;
-
-  const button=header.querySelector('.menu-toggle');
-  const menu=header.querySelector('#site-menu');
-  button.addEventListener('click',()=> {
-    const open=button.getAttribute('aria-expanded')==='true';
-    button.setAttribute('aria-expanded',String(!open));
-    menu.hidden=open;
-    document.body.classList.toggle('menu-open',!open);
-  });
 
   header.querySelectorAll('.portal-wrap').forEach(wrap=>{
     const main=wrap.querySelector('.portal');
