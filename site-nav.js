@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded',()=> {
 
   const path=(location.pathname.split('/').pop()||'index.html').toLowerCase();
   const bacPages=['bac.html','anthologie-bac.html','bac-commentaire.html','bac-commentaire-procedes.html','bac-commentaire-procedes-entrainement.html','bac-dissertation.html','bac-oral.html','bac-mode-examen.html','commentaire-bac-methode.html','commentaire-bac-problematique.html','commentaire-bac-plan.html','commentaire-bac-procedes-effets.html','commentaire-bac-introduction.html','commentaire-bac-transition.html','commentaire-bac-conclusion.html'];
-  const brevetPages=['brevet.html','anthologie-brevet.html','brevet-comprehension.html','brevet-grammaire.html','brevet-reecriture.html','brevet-redaction.html'];
+  const brevetPages=['brevet.html','anthologie-brevet.html','brevet-comprehension.html','brevet-grammaire.html','brevet-reecriture.html','brevet-redaction.html','brevet-imagination.html','brevet-reflexion.html'];
   const teacherPages=['enseignants.html','formation.html','bibliotheque.html'];
   const manualPages=['manuel-procedes.html','bac-commentaire-procedes.html','bac-commentaire-procedes-entrainement.html','parcours.html'];
   const is=(names)=>names.includes(path);
@@ -34,7 +34,9 @@ document.addEventListener('DOMContentLoaded',()=> {
       ['brevet-comprehension.html','Travailler la compréhension','Répondre, justifier, interpréter'],
       ['brevet-grammaire.html','Travailler la grammaire','Analyser et manipuler'],
       ['brevet-reecriture.html','Travailler la réécriture','Transformer sans perdre les accords'],
-      ['brevet-redaction.html','Travailler la rédaction','Construire, rédiger puis améliorer']
+      ['brevet-redaction.html','Travailler la rédaction','Choisir entre imagination et réflexion'],
+      ['brevet-imagination.html','Sujet d’imagination','Respecter les contraintes et construire une progression'],
+      ['brevet-reflexion.html','Sujet de réflexion','Argumenter avec des exemples développés']
     ],is(brevetPages)?'active':'',['offre.html','Accéder à tous les sujets et exercices','Davantage d’annales, de séries ciblées et de reprises']),
     portal('manuel-procedes.html','MÉTHODE','commentaire · procédés',[
       ['commentaire-bac-methode.html','Comprendre la méthode','De la lecture à la problématique et au plan'],
