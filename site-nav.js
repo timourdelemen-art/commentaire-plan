@@ -80,6 +80,38 @@ document.addEventListener('DOMContentLoaded',()=> {
     });
   });
 
+  // Protocole global : aucun corrigé détaillé avant une tentative réelle.
+  document.querySelectorAll('details.correction').forEach(details=>{
+    const scope=details.closest('article,section,.workbench,.exercise,.qcm-full,.stage-card')||details.parentElement;
+    const fields=[...(scope?.querySelectorAll('textarea,input:not([type="hidden"]),select')||[])].filter(el=>!details.contains(el));
+    if(!fields.length) return;
+
+    const hasAttempt=()=>fields.some(el=>{
+      if(el.matches('input[type="radio"],input[type="checkbox"]')) return el.checked;
+      return String(el.value||'').trim().length>=2;
+    });
+
+    let note=null;
+    const showNote=()=>{
+      if(!note){
+        note=document.createElement('p');
+        note.className='micro correction-lock-note';
+        note.textContent='Répondez d’abord. Le corrigé ne s’ouvre qu’après une tentative réelle.';
+        details.insertAdjacentElement('beforebegin',note);
+      }
+    };
+
+    details.addEventListener('toggle',()=>{
+      if(details.open && !hasAttempt()){
+        details.open=false;
+        showNote();
+      }else if(details.open && note){
+        note.remove();
+        note=null;
+      }
+    });
+  });
+
   if(!location.pathname.includes('/annales/')){
     const s=document.createElement('script');
     s.src='free-response.js';
