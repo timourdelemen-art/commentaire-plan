@@ -108,7 +108,9 @@ for(const jsPath of jsWithDynamicTextareas){
 
 // L'assistance ne doit pas se nommer elle-même dans l'interface publique.
 const visibleForbidden=[
-  /IA brid[ée]e?/i,
+  /\b(?:IA\s+)?brid[ée]e?\b/i,
+  /\bdébrid[ée]e?\b/i,
+  /\bdiabrid[ée]e?\b/i,
   /Demander à l[’']IA/i,
   /diagnostic IA/i,
   /aide IA/i,
