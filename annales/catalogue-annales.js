@@ -2218,5 +2218,184 @@ window.ANNALES_CATALOGUE = {
         "correction": "« Si bien que lorsque je les surprenais en train de parler kinyarwanda lors d’une conversation téléphonique et les entendais s’exprimer couramment dans cette langue inconnue, je m’arrêtais, stupéfait. Je n’ai jamais su avec qui ils conversaient. Quand je les interrogeais, ils restaient évasifs, parlaient de “vieilles connaissances” ou de leur “lointaine famille à Bruxelles”. Je profitais de ces appels pour les épier. »"
       }
     ]
+  },
+  "brevet-2024-metropole-general-marc-dugain-chambre-officiers": {
+    "examen": "Brevet",
+    "type": "brevet",
+    "annee": 2024,
+    "zone": "Métropole",
+    "serie": "Générale",
+    "epreuve": "Compréhension · grammaire · réécriture",
+    "access": "free",
+    "auteur": "Marc Dugain",
+    "oeuvre": "La Chambre des officiers",
+    "sourceOfficielle": "https://www.education.gouv.fr/sites/default/files/document/Dipl%C3%B4me%20national%20du%20brevet%202024%20-%20Fran%C3%A7ais%20-%20Grammaire%20et%20comp%C3%A9tences%20linguistiques%20-%20Compr%C3%A9hension%20et%20comp%C3%A9tences%20d%26%23039%3Binterpr%C3%A9tation-402501.pdf",
+    "parcours": "../anthologie-brevet.html",
+    "dureeExamen": 4200,
+    "ia": true,
+    "contexte": "Sujet officiel DNB 2024, série générale, Métropole. Texte de Marc Dugain sur des soldats blessés au visage pendant la Grande Guerre ; correction locale pour les questions de langue, IA réservée aux réponses réellement interprétatives.",
+    "etapes": [
+      {
+        "id": "q1",
+        "kind": "brevet-comprehension",
+        "aiMode": "optional",
+        "titre": "1. Les personnages",
+        "temps": 180,
+        "access": "free",
+        "points": 2,
+        "consigne": "Qui sont les différents personnages de ce texte ?",
+        "aide": "Distinguez le narrateur, ses deux amis et Marguerite."
+      },
+      {
+        "id": "q2",
+        "kind": "brevet-comprehension",
+        "aiMode": "optional",
+        "titre": "2. Ce qu’ils ont en commun",
+        "temps": 240,
+        "access": "free",
+        "points": 2,
+        "consigne": "Qu’ont-ils en commun ? Deux éléments de réponse sont attendus.",
+        "aide": "Pensez à leur situation militaire et à leurs blessures."
+      },
+      {
+        "id": "q3",
+        "kind": "brevet-comprehension",
+        "aiMode": "optional",
+        "titre": "3. Communiquer ensemble",
+        "temps": 360,
+        "access": "free",
+        "points": 4,
+        "consigne": "Peut-on dire que tous les personnages arrivent à communiquer facilement ensemble ? Justifiez par des passages précis du texte.",
+        "aide": "Observez la surdité de Marguerite et les difficultés physiques de certains officiers."
+      },
+      {
+        "id": "q4",
+        "kind": "brevet-comprehension",
+        "aiMode": "optional",
+        "titre": "4. S’engager comme infirmière",
+        "temps": 360,
+        "access": "free",
+        "points": 5,
+        "consigne": "Pour quelles raisons Marguerite souhaitait-elle s’engager comme infirmière de guerre ? Deux éléments justifiés par des citations sont attendus.",
+        "aide": "Relevez ce qu’elle recherche dans l’engagement et dans la figure de l’homme courageux."
+      },
+      {
+        "id": "q5a",
+        "kind": "brevet-analyse",
+        "aiMode": "optional",
+        "titre": "5a. Le parterre de roses",
+        "temps": 300,
+        "access": "free",
+        "points": 3,
+        "consigne": "Dans « Elle était comme un parterre de roses saccagé par le milieu », identifiez la figure de style et expliquez pourquoi elle convient au visage de Marguerite.",
+        "aide": "Le mot « comme » signale un rapprochement explicite. Il faut ensuite expliquer la beauté préservée et la destruction centrale.",
+        "manual": ["comparaison","opposition lexicale","métaphore"]
+      },
+      {
+        "id": "q5b",
+        "kind": "brevet-interpretation",
+        "aiMode": "optional",
+        "titre": "5b. Portrait moral",
+        "temps": 420,
+        "access": "premium",
+        "points": 4,
+        "consigne": "Identifiez deux traits de caractère de Marguerite et justifiez chacun par le texte.",
+        "aide": "Cherchez notamment son courage, sa détermination et sa capacité à affronter le regard des autres."
+      },
+      {
+        "id": "q6",
+        "kind": "brevet-interpretation",
+        "aiMode": "recommended",
+        "titre": "6. Réflexions sur la Grande Guerre",
+        "temps": 480,
+        "access": "premium",
+        "points": 6,
+        "consigne": "Quelles réflexions sur la Grande Guerre peut inspirer l’expérience des personnages ? Deux éléments de réponse justifiés par des citations sont attendus.",
+        "aide": "Pensez aux corps durablement mutilés, à la violence de masse et aux conséquences humaines qui continuent loin du front."
+      },
+      {
+        "id": "q7",
+        "kind": "brevet-image",
+        "aiMode": "optional",
+        "titre": "7. L’affiche des Gueules cassées",
+        "temps": 480,
+        "access": "premium",
+        "points": 6,
+        "consigne": "Cette affiche vous paraît-elle une bonne illustration du texte ? Développez deux arguments justifiés à partir du texte et de l’image.",
+        "aide": "Travaillez uniquement à partir de l’image officielle : visages mutilés, groupe de blessés, mémoire collective."
+      },
+      {
+        "id": "q8",
+        "kind": "brevet-grammaire",
+        "aiMode": "none",
+        "titre": "8. Expansions du nom « club »",
+        "temps": 180,
+        "access": "free",
+        "points": 2,
+        "consigne": "Relevez les expansions du nom « club » et indiquez la classe grammaticale de chacune.",
+        "aide": "Cherchez ce qui complète directement le nom puis la proposition introduite par « qui ».",
+        "correction": "Les deux expansions sont « d’officiers », groupe prépositionnel complément du nom « club », et « qui compte à ce jour trois membres actifs et volontiers bienfaiteurs », proposition subordonnée relative."
+      },
+      {
+        "id": "q9a",
+        "kind": "brevet-grammaire",
+        "aiMode": "none",
+        "titre": "9a. Proposition subordonnée",
+        "temps": 150,
+        "access": "free",
+        "points": 1,
+        "consigne": "Dans « Je compris aussitôt que ni Weil ni moi ne pourrions jamais nous entretenir avec elle », identifiez la proposition subordonnée et le mot subordonnant.",
+        "aide": "La subordonnée commence juste après le verbe « compris ».",
+        "correction": "La proposition subordonnée est « que ni Weil ni moi ne pourrions jamais nous entretenir avec elle » ; elle est introduite par la conjonction de subordination « que »."
+      },
+      {
+        "id": "q9b",
+        "kind": "brevet-grammaire",
+        "aiMode": "none",
+        "titre": "9b. Fonction de la subordonnée",
+        "temps": 180,
+        "access": "free",
+        "points": 2,
+        "consigne": "Précisez la fonction grammaticale de cette proposition subordonnée et donnez au moins une manipulation.",
+        "aide": "Essayez de remplacer toute la proposition par un pronom.",
+        "correction": "La proposition est COD du verbe « compris ». On peut la remplacer par le pronom « le » : « Je le compris aussitôt. »"
+      },
+      {
+        "id": "q10a",
+        "kind": "brevet-lexique",
+        "aiMode": "none",
+        "titre": "10a. Formation de « insupportable »",
+        "temps": 150,
+        "access": "free",
+        "points": 1.5,
+        "consigne": "Identifiez et nommez les trois éléments qui composent le mot « insupportable ».",
+        "aide": "Séparez préfixe, radical et suffixe.",
+        "correction": "« insupportable » est formé du préfixe négatif « in- », du radical « support » et du suffixe « -able »."
+      },
+      {
+        "id": "q10b",
+        "kind": "brevet-lexique",
+        "aiMode": "none",
+        "titre": "10b. Sens et synonyme",
+        "temps": 150,
+        "access": "free",
+        "points": 1.5,
+        "consigne": "Expliquez le sens de « insupportable » puis trouvez un synonyme.",
+        "aide": "Le contexte indique une situation qu’on ne peut plus supporter.",
+        "correction": "« insupportable » signifie « qu’on ne peut pas supporter ou tolérer ». Un synonyme possible est « intolérable »."
+      },
+      {
+        "id": "q11",
+        "kind": "brevet-reecriture",
+        "aiMode": "none",
+        "titre": "11. Réécriture",
+        "temps": 600,
+        "access": "premium",
+        "points": 10,
+        "consigne": "Réécrivez le passage en remplaçant « Marguerite » par « Elles » et faites toutes les modifications nécessaires.",
+        "aide": "Repérez les verbes, adjectifs, déterminants possessifs et pronoms qui dépendent de Marguerite.",
+        "correction": "« Elles s’étaient portées volontaires. Elles étaient à cette époque aussi belles qu’inutiles. Leur père était un orfèvre fortuné, et elles ne manquaient pas de prétendants, tous réformés ou embusqués. Elles rêvaient de s’éprendre d’un homme courageux. »"
+      }
+    ]
   }
 };
