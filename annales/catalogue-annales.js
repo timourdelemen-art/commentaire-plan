@@ -2397,5 +2397,185 @@ window.ANNALES_CATALOGUE = {
         "correction": "« Elles s’étaient portées volontaires. Elles étaient à cette époque aussi belles qu’inutiles. Leur père était un orfèvre fortuné, et elles ne manquaient pas de prétendants, tous réformés ou embusqués. Elles rêvaient de s’éprendre d’un homme courageux. »"
       }
     ]
+  },
+  "brevet-2023-metropole-general-george-sand-histoire-de-ma-vie": {
+    "examen": "Brevet",
+    "type": "brevet",
+    "annee": 2023,
+    "zone": "Métropole",
+    "serie": "Générale",
+    "epreuve": "Compréhension · grammaire · réécriture",
+    "access": "free",
+    "auteur": "George Sand",
+    "oeuvre": "Histoire de ma vie",
+    "sourceOfficielle": "https://www.education.gouv.fr/sites/default/files/document/Dipl%C3%B4me%20national%20du%20brevet%202023%20-%20Fran%C3%A7ais%20-%20Grammaire%20et%20comp%C3%A9tences%20linguistiques%20-%20Compr%C3%A9hension%20et%20comp%C3%A9tences%20d%26%23039%3Binterpr%C3%A9tation-365133.pdf",
+    "parcours": "../anthologie-brevet.html",
+    "dureeExamen": 4200,
+    "ia": true,
+    "contexte": "Sujet officiel DNB 2023, série générale, Métropole. George Sand raconte un jeu d’enfants qui devient une fiction totale ; correction locale pour toute la langue, IA seulement pour les réponses ouvertes.",
+    "etapes": [
+      {
+        "id": "q1",
+        "kind": "brevet-comprehension",
+        "aiMode": "optional",
+        "titre": "1. Qui désigne « nous » ?",
+        "temps": 150,
+        "access": "free",
+        "points": 2,
+        "consigne": "À la ligne 1, qui désigne le pronom « nous » ?",
+        "aide": "Identifiez les enfants qui participent au jeu."
+      },
+      {
+        "id": "q2",
+        "kind": "brevet-comprehension",
+        "aiMode": "optional",
+        "titre": "2. Le lieu et la rivière",
+        "temps": 300,
+        "access": "free",
+        "points": 5,
+        "consigne": "Où se passe la scène ? Comment expliquez-vous la présence d’une rivière dans ce lieu ? Justifiez par le texte.",
+        "aide": "Le lieu est réel ; la rivière appartient au jeu et à l’imagination des enfants."
+      },
+      {
+        "id": "q3",
+        "kind": "brevet-interpretation",
+        "aiMode": "optional",
+        "titre": "3. L’illusion qui saisit les enfants",
+        "temps": 420,
+        "access": "free",
+        "points": 6,
+        "consigne": "Relevez trois éléments qui montrent que l’illusion « gagne » et « saisit véritablement » les enfants.",
+        "aide": "Cherchez la perte de la réalité, les perceptions imaginées et l’intensité du jeu."
+      },
+      {
+        "id": "q4a",
+        "kind": "brevet-analyse",
+        "aiMode": "optional",
+        "titre": "4a. Le jeu comme spectacle",
+        "temps": 300,
+        "access": "free",
+        "points": 3,
+        "consigne": "À quoi le jeu des enfants est-il comparé tout au long du texte ? Relevez au moins quatre mots d’un champ lexical qui le prouve.",
+        "aide": "Cherchez le vocabulaire du théâtre et de la représentation.",
+        "manual": ["champ lexical","accumulation","comparaison"]
+      },
+      {
+        "id": "q4b",
+        "kind": "brevet-comprehension",
+        "aiMode": "optional",
+        "titre": "4b. Une comparaison qui organise le jeu",
+        "temps": 360,
+        "access": "free",
+        "points": 3,
+        "consigne": "Identifiez au moins trois moments du récit qui montrent que cette comparaison organise le jeu des enfants.",
+        "aide": "Repérez le décor, les rôles joués et le dénouement final."
+      },
+      {
+        "id": "q5",
+        "kind": "brevet-interpretation",
+        "aiMode": "recommended",
+        "titre": "5. Une réflexion sur l’enfance",
+        "temps": 480,
+        "access": "premium",
+        "points": 5,
+        "consigne": "Quelles réflexions sur l’enfance ce récit inspire-t-il à la narratrice ? Deux éléments justifiés par des passages précis sont attendus.",
+        "aide": "La narratrice insiste sur la puissance de l’imagination enfantine et la capacité des enfants à jouer pleinement des rôles."
+      },
+      {
+        "id": "q6",
+        "kind": "brevet-image",
+        "aiMode": "optional",
+        "titre": "6. La photographie de Doisneau",
+        "temps": 480,
+        "access": "premium",
+        "points": 8,
+        "consigne": "Pourquoi cette photographie pourrait-elle illustrer le texte ? Développez deux arguments, chacun justifié par une citation du texte.",
+        "aide": "Comparez le dessin à la craie, l’univers de l’eau, le jeu collectif et l’imagination des enfants."
+      },
+      {
+        "id": "q7a",
+        "kind": "brevet-grammaire",
+        "aiMode": "none",
+        "titre": "7a. Fonctions grammaticales",
+        "temps": 150,
+        "access": "free",
+        "points": 1,
+        "consigne": "Dans « En de certains endroits, elle était fort profonde », donnez la fonction de chaque groupe souligné.",
+        "aide": "Le premier précise le lieu ; le second dépend du verbe « être ».",
+        "correction": "« En de certains endroits » est complément circonstanciel de lieu. « fort profonde » est attribut du sujet « elle »."
+      },
+      {
+        "id": "q7b",
+        "kind": "brevet-grammaire",
+        "aiMode": "none",
+        "titre": "7b. Justifier par des manipulations",
+        "temps": 180,
+        "access": "free",
+        "points": 2,
+        "consigne": "Justifiez la fonction du groupe « En de certains endroits » par des manipulations.",
+        "aide": "Testez déplacement et suppression.",
+        "correction": "Le groupe est un complément circonstanciel : on peut le déplacer (« Elle était fort profonde en de certains endroits ») et le supprimer (« Elle était fort profonde »)."
+      },
+      {
+        "id": "q8a",
+        "kind": "brevet-grammaire",
+        "aiMode": "none",
+        "titre": "8a. Proposition subordonnée de condition",
+        "temps": 120,
+        "access": "free",
+        "points": 1,
+        "consigne": "Dans « Si nous rencontrons des écrevisses, elles nous mangeront les pieds », identifiez la proposition subordonnée et le mot subordonnant.",
+        "aide": "La subordonnée commence par « si ».",
+        "correction": "La proposition subordonnée est « Si nous rencontrons des écrevisses » ; le mot subordonnant est « si »."
+      },
+      {
+        "id": "q8b",
+        "kind": "brevet-grammaire",
+        "aiMode": "none",
+        "titre": "8b. Fonction de la subordonnée",
+        "temps": 120,
+        "access": "free",
+        "points": 1,
+        "consigne": "Précisez la fonction grammaticale de cette proposition subordonnée.",
+        "aide": "Elle pose une condition à la réalisation de la principale.",
+        "correction": "La proposition subordonnée est complément circonstanciel de condition de la proposition principale."
+      },
+      {
+        "id": "q9a",
+        "kind": "brevet-lexique",
+        "aiMode": "none",
+        "titre": "9a. Formation de « dénouement »",
+        "temps": 150,
+        "access": "free",
+        "points": 1.5,
+        "consigne": "Identifiez et nommez les trois éléments qui composent le mot « dénouement ».",
+        "aide": "Repérez préfixe, base et suffixe.",
+        "correction": "« dénouement » est formé du préfixe « dé- », de la base « noue- » (liée à « nouer ») et du suffixe « -ment »."
+      },
+      {
+        "id": "q9b",
+        "kind": "brevet-lexique",
+        "aiMode": "none",
+        "titre": "9b. Sens de « dénouement »",
+        "temps": 150,
+        "access": "free",
+        "points": 1.5,
+        "consigne": "Expliquez le sens de « dénouement » en vous appuyant sur sa formation et sur le texte.",
+        "aide": "Le mot désigne le moment où le nœud d’une histoire se défait.",
+        "correction": "Le « dénouement » est la fin ou l’issue de l’histoire. Ici, l’arrivée de la mère met fin au jeu et ramène brutalement les enfants à la réalité."
+      },
+      {
+        "id": "q10",
+        "kind": "brevet-reecriture",
+        "aiMode": "none",
+        "titre": "10. Réécriture",
+        "temps": 600,
+        "access": "premium",
+        "points": 10,
+        "consigne": "Réécrivez le passage en remplaçant « Hippolyte » par « ils ». Le groupe nominal « le rôle du maladroit ou de l’homme ivre » ne doit pas être modifié.",
+        "aide": "Modifiez les pronoms, verbes et accords qui dépendent d’Hippolyte.",
+        "correction": "« Ils s’étaient déjà noyés plusieurs fois, nous les aidions à se retirer des grands trous où ils tombaient toujours, car ils faisaient le rôle du maladroit ou de l’homme ivre, et ils nageaient à sec sur le carreau en se débattant et en se lamentant. »"
+      }
+    ]
   }
 };
