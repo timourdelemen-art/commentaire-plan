@@ -57,6 +57,12 @@
   const save=()=>localStorage.setItem(storageKey,JSON.stringify(state));
   const status=()=>window.AccessControl?.getStatus?.()||{premium:false};
   const currentStep=()=>item.etapes[state.step];
+  const aiModeFor=(step)=>{
+    if(step.aiMode) return step.aiMode;
+    if(["brevet-grammaire","brevet-lexique","brevet-reecriture"].includes(step.kind) && step.correction) return "none";
+    if(step.kind==="redaction" || step.kind==="plan") return "recommended";
+    return "optional";
+  };
 
   const TARGETS=[
     ["problematique","Problématique","Formuler la question qui fait apparaître ce que le texte oblige à expliquer."],
@@ -224,6 +230,9 @@
     els.summary.hidden=true;
     document.querySelector(".annale-step-card").hidden=false;
     els.answer.disabled=false; els.ai.disabled=false; els.next.disabled=false; els.helpButton.disabled=false;
+    const aiMode=aiModeFor(step);
+    els.ai.hidden=aiMode==="none";
+    els.ai.textContent=aiMode==="recommended"?"Analyser ma réponse":"Demander un retour IA";
     const prefix=state.mode==="targeted"?"EXERCICE CIBLÉ":"ÉTAPE "+(state.step+1)+" / "+item.etapes.length;
     els.count.textContent=prefix+" · TEMPS CONSEILLÉ "+fmt(step.temps||0)+(step.points!=null?" · "+step.points+" PT"+(step.points>1?"S":""):"");
     els.label.textContent=(step.kind||step.id).toUpperCase();
@@ -270,6 +279,11 @@
 
   async function askAI(){
     const step=currentStep();
+    if(aiModeFor(step)==="none"){
+      els.feedback.innerHTML="<strong>Correction locale</strong><p>Cette question n’utilise pas l’IA. Utilisez l’aide progressive puis la correction expliquée.</p>";
+      els.feedback.classList.add("show");
+      return;
+    }
     if(step.access==="premium" && !status().premium){
       showStepPaywall(step); return;
     }
@@ -309,11 +323,10 @@
       els.feedback.textContent=e.message||"Le retour n'est pas disponible pour le moment.";
       els.feedback.classList.add("show");
     }finally{
-      els.ai.disabled=false; els.ai.textContent="Vérifier ma réponse";
+      els.ai.disabled=false;
+      els.ai.textContent=aiModeFor(step)==="recommended"?"Analyser ma réponse":"Demander un retour IA";
     }
   }
-
-  els.ai.textContent="Vérifier ma réponse";
   els.ai.addEventListener("click",askAI);
   els.next.addEventListener("click",()=>{
     const step=currentStep();
