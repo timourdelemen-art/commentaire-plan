@@ -17,7 +17,8 @@ window.ANNALES_CATALOGUE = {
     "etapes": [
       {
         "id": "donne",
-        "kind": "lecture",
+        "kind": "lecture",,
+        "aiMode": "none"
         "titre": "1. Le donné",
         "temps": 300,
         "access": "free",
@@ -28,7 +29,8 @@ window.ANNALES_CATALOGUE = {
       },
       {
         "id": "attente",
-        "kind": "lecture",
+        "kind": "lecture",,
+        "aiMode": "none"
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
@@ -39,7 +41,8 @@ window.ANNALES_CATALOGUE = {
       },
       {
         "id": "transformation",
-        "kind": "lecture",
+        "kind": "lecture",,
+        "aiMode": "none"
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
@@ -50,7 +53,8 @@ window.ANNALES_CATALOGUE = {
       },
       {
         "id": "problematique",
-        "kind": "problematique",
+        "kind": "problematique",,
+        "aiMode": "none"
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
@@ -61,7 +65,8 @@ window.ANNALES_CATALOGUE = {
       },
       {
         "id": "plan",
-        "kind": "plan",
+        "kind": "plan",,
+        "aiMode": "recommended"
         "titre": "5. Les solutions du plan",
         "temps": 720,
         "access": "free",
@@ -72,7 +77,8 @@ window.ANNALES_CATALOGUE = {
       },
       {
         "id": "necessite",
-        "kind": "plan",
+        "kind": "plan",,
+        "aiMode": "optional"
         "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
         "temps": 540,
         "access": "free",
@@ -81,7 +87,8 @@ window.ANNALES_CATALOGUE = {
       },
       {
         "id": "transitions",
-        "kind": "transition",
+        "kind": "transition",,
+        "aiMode": "none"
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "free",
@@ -92,7 +99,8 @@ window.ANNALES_CATALOGUE = {
       },
       {
         "id": "realisations",
-        "kind": "analyse",
+        "kind": "analyse",,
+        "aiMode": "optional"
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "free",
@@ -101,7 +109,8 @@ window.ANNALES_CATALOGUE = {
       },
       {
         "id": "preuves",
-        "kind": "analyse",
+        "kind": "analyse",,
+        "aiMode": "optional"
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "free",
@@ -116,7 +125,8 @@ window.ANNALES_CATALOGUE = {
       },
       {
         "id": "intro",
-        "kind": "redaction",
+        "kind": "redaction",,
+        "aiMode": "recommended"
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "free",
@@ -125,7 +135,8 @@ window.ANNALES_CATALOGUE = {
       },
       {
         "id": "partie",
-        "kind": "redaction",
+        "kind": "redaction",,
+        "aiMode": "recommended"
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "free",
@@ -134,7 +145,8 @@ window.ANNALES_CATALOGUE = {
       },
       {
         "id": "raccord",
-        "kind": "redaction",
+        "kind": "redaction",,
+        "aiMode": "optional"
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "free",
@@ -143,7 +155,8 @@ window.ANNALES_CATALOGUE = {
       },
       {
         "id": "conclusion",
-        "kind": "redaction",
+        "kind": "redaction",,
+        "aiMode": "recommended"
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "free",
