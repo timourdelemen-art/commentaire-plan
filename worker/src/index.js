@@ -78,7 +78,7 @@ function safeFallback(kind = "problematique") {
   const f = FALLBACK_BY_KIND[kind] || FALLBACK_BY_KIND.problematique;
   return {
     diagnostic: "à reprendre",
-    point_acquis: f[0],
+    point_acquis: "Aucun acquis ne peut être confirmé automatiquement sur cette réponse.",
     manque_principal: f[1],
     question_suivante: f[2]
   };
@@ -137,6 +137,7 @@ function validateFeedback(value) {
 
   if (!["acquis", "partiel", "à reprendre"].includes(diagnostic)) return null;
   if (!point || !manque || !question) return null;
+  if (diagnostic === "à reprendre" && /tu as répondu à la question|tu as repondu a la question/i.test(point)) return null;
   if (!question.endsWith("?")) question += "?";
 
   const all = (point + " " + manque + " " + question).toLowerCase();
