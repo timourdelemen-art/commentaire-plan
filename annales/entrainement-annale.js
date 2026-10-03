@@ -242,7 +242,7 @@
     if(step.access==="premium" && !status().premium){
       showStepPaywall(step); return;
     }
-    if(window.AccessControl && !window.AccessControl.canUseAI()){
+    if(item.access!=="free" && window.AccessControl && !window.AccessControl.canUseAI()){
       window.AccessControl.showPaywall(els.feedback); return;
     }
     const answer=els.answer.value.trim();
@@ -273,7 +273,7 @@
       els.feedback.innerHTML=html;
       els.feedback.classList.add("show");
       state.feedbacks[step.id]=f; save();
-      if(window.AccessControl){window.AccessControl.consumeDiagnostic();window.AccessControl.renderBadge(els.accessStatus);}
+      if(item.access!=="free" && window.AccessControl){window.AccessControl.consumeDiagnostic();window.AccessControl.renderBadge(els.accessStatus);}
     }catch(e){
       els.feedback.textContent=e.message||"Le retour n'est pas disponible pour le moment.";
       els.feedback.classList.add("show");
