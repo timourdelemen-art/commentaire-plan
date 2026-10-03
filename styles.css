@@ -500,3 +500,39 @@
   .home-demo-grid{grid-template-columns:1fr}
   .home-demo-work{border-left:0;border-top:1px solid var(--rule)}
 }
+
+
+/* Annales — modes d'entraînement et aide progressive */
+.training-mode{margin:34px 0 26px;padding:28px 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.training-mode>.kicker{margin-bottom:18px}
+.training-mode-grid{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid #b8b0a5}
+.training-mode-card{appearance:none;text-align:left;background:transparent;border:0;border-right:1px solid #b8b0a5;padding:20px 22px;min-height:110px;cursor:pointer;color:inherit;font:inherit;display:grid;gap:8px}
+.training-mode-card:last-child{border-right:0}
+.training-mode-card strong{font-size:21px;font-weight:400}
+.training-mode-card span{font-size:14px;line-height:1.4;color:var(--muted)}
+.training-mode-card:hover,.training-mode-card.active{background:#eee4d3}
+.training-mode-card.active strong{color:var(--red)}
+.targeted-picker{padding:26px 0 0}
+.targeted-picker-head{display:flex;justify-content:space-between;gap:30px;align-items:baseline;margin-bottom:16px}
+.targeted-picker-head strong{font-size:24px;font-weight:400}
+.targeted-picker-head span{font-size:14px;color:var(--muted)}
+.targeted-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.targeted-card{appearance:none;background:#fffdf8;border:1px solid #b8b0a5;padding:18px;text-align:left;cursor:pointer;display:grid;grid-template-columns:auto 1fr;gap:7px 12px;align-items:start;color:inherit}
+.targeted-card>span{grid-row:1/3;font:12px 'American Typewriter','Courier New',monospace;color:var(--red);padding-top:3px}
+.targeted-card strong{font-size:19px;font-weight:400}
+.targeted-card small{grid-column:2;font-size:13px;line-height:1.4;color:var(--muted)}
+.targeted-card:hover,.targeted-card.active{border-color:var(--red);background:#f4ece1}
+.progressive-help{display:flex;align-items:center;gap:14px;margin:12px 0 2px}
+.progressive-help .reveal-btn{font-size:14px}
+.annale-hint{margin:15px 0;padding:14px 16px;background:#eee4d3;border-left:3px solid var(--red);font-size:14px!important;line-height:1.45}
+.manual-help{margin:18px 0;padding:22px;background:#f0e8dc;border:1px solid #c6bbaa}
+.manual-choice-list{display:flex;flex-wrap:wrap;gap:9px;margin:14px 0}
+.manual-choice{background:#fffdf8;border:1px solid #8e877c;padding:10px 13px;font:15px Georgia,'Times New Roman',serif;cursor:pointer}
+.manual-choice:hover,.manual-choice.selected{border-color:var(--red);background:#fff5f3}
+.timer-bar strong.over{color:var(--red)}
+@media(max-width:900px){
+  .training-mode-grid,.targeted-grid{grid-template-columns:1fr}
+  .training-mode-card{border-right:0;border-bottom:1px solid #b8b0a5}
+  .training-mode-card:last-child{border-bottom:0}
+  .targeted-picker-head{display:grid;gap:6px}
+}
