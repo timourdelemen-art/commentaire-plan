@@ -12,8 +12,9 @@
     return {
       page,
       title:clean(document.querySelector("h1")?.textContent||document.title),
-      instruction:instruction.slice(0,1800),
-      quote:clean(quote?.textContent||"").slice(0,1200)
+      instruction:clean(area.dataset.feedbackInstruction||instruction).slice(0,1800),
+      quote:clean(area.dataset.feedbackQuote||quote?.textContent||"").slice(0,1200),
+      kind:clean(area.dataset.feedbackKind||"").slice(0,50)
     };
   }
 
