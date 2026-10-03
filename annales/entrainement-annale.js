@@ -27,9 +27,10 @@
   }
 
   const storageKey="annale-training:"+id;
-  const state=JSON.parse(localStorage.getItem(storageKey)||'{"step":0,"answers":{},"feedbacks":{},"totalElapsed":0,"stepElapsed":0,"mode":"guided","help":{}}');
+  const state=JSON.parse(localStorage.getItem(storageKey)||'{"step":0,"answers":{},"feedbacks":{},"totalElapsed":0,"stepElapsed":0,"mode":"guided","help":{},"suspensions":{}}');
   state.answers=state.answers||{};
   state.feedbacks=state.feedbacks||{};
+  state.suspensions=state.suspensions||{};
   state.totalElapsed=state.totalElapsed||0;
   state.stepElapsed=state.stepElapsed||0;
   state.mode=state.mode||"guided";
@@ -242,6 +243,11 @@
 
   els.helpButton.addEventListener("click",()=>{
     const step=currentStep();
+    if((els.answer.value||"").trim().length<2){
+      els.feedback.textContent="Répondez d’abord. L’aide ne s’ouvre qu’après une tentative réelle.";
+      els.feedback.classList.add("show");
+      return;
+    }
     const hasSecond=(step.choix||[]).length || (step.manual||[]).length;
     const max=step.correction?3:(hasSecond?2:1);
     state.help[step.id]=Math.min(max,(state.help[step.id]||0)+1);
@@ -249,12 +255,30 @@
     renderHelp(step);
   });
 
+  function suspensionUntil(step){ return Number(state.suspensions[step.id]||0); }
+  function isSuspended(step){
+    const until=suspensionUntil(step);
+    if(until && until<=Date.now()){ delete state.suspensions[step.id]; save(); return false; }
+    return until>Date.now();
+  }
+  function suspendStep(step){
+    state.suspensions[step.id]=Date.now()+24*60*60*1000;
+    save();
+  }
+
   function render(){
     if(state.step>=item.etapes.length)return renderSummary();
     const step=currentStep();
     els.summary.hidden=true;
     document.querySelector(".annale-step-card").hidden=false;
     els.answer.disabled=false; els.ai.disabled=false; els.next.disabled=false; els.helpButton.disabled=false;
+    if(isSuspended(step)){
+      els.answer.disabled=true; els.ai.disabled=true; els.next.disabled=true; els.helpButton.disabled=true;
+      els.feedback.innerHTML="<strong>Exercice suspendu</strong><p>Réponse hors sujet. Cet exercice est suspendu pendant au moins 24 heures.</p>";
+      els.feedback.classList.add("show");
+      updateTimers();
+      return;
+    }
     const aiMode=aiModeFor(step);
     els.ai.hidden=aiMode==="none";
     els.ai.textContent=aiMode==="recommended"?"Analyser ma réponse":"Demander un retour IA";
@@ -337,6 +361,11 @@
       })});
       const data=await response.json();
       if(data.blocked){
+        if(data.reason==="off_topic"){
+          suspendStep(step);
+          render();
+          return;
+        }
         els.feedback.innerHTML="<strong>IA non utilisée</strong><p>"+(data.error||"Reprenez d’abord votre réponse.")+"</p>";
         els.feedback.classList.add("show");
         return;
@@ -363,7 +392,13 @@
   els.next.addEventListener("click",()=>{
     const step=currentStep();
     if(step.access==="premium" && !status().premium){showStepPaywall(step);return;}
-    state.answers[step.id]=els.answer.value.trim();
+    const answer=els.answer.value.trim();
+    if(answer.length<2){
+      els.feedback.textContent="Répondez d’abord. Vous ne pouvez pas passer à l’étape suivante sans tentative.";
+      els.feedback.classList.add("show");
+      return;
+    }
+    state.answers[step.id]=answer;
     if(state.mode==="targeted"){
       save();
       pauseTimer();
