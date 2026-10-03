@@ -54,8 +54,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "problematique",
         "kind": "problematique",
-        "aiMode": "optional",
-        "aiMode": "none"
+        "aiMode": "none",
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
@@ -89,8 +88,7 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "transitions",
         "kind": "transition",
-        "aiMode": "optional",
-        "aiMode": "none"
+        "aiMode": "none",
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "free",
