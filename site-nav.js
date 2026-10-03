@@ -34,9 +34,7 @@ document.addEventListener('DOMContentLoaded',()=> {
       ['brevet-comprehension.html','Travailler la compréhension','Répondre, justifier, interpréter'],
       ['brevet-grammaire.html','Travailler la grammaire','Analyser et manipuler'],
       ['brevet-reecriture.html','Travailler la réécriture','Transformer sans perdre les accords'],
-      ['brevet-redaction.html','Travailler la rédaction','Choisir entre imagination et réflexion'],
-      ['brevet-imagination.html','Sujet d’imagination','Respecter les contraintes et construire une progression'],
-      ['brevet-reflexion.html','Sujet de réflexion','Argumenter avec des exemples développés']
+      ['brevet-redaction.html','Travailler la rédaction','Sujet d’imagination ou sujet de réflexion']
     ],is(brevetPages)?'active':'',['offre.html','Accéder à tous les sujets et exercices','Davantage d’annales, de séries ciblées et de reprises']),
     portal('manuel-procedes.html','MÉTHODE','commentaire · procédés',[
       ['commentaire-bac-methode.html','Comprendre la méthode','De la lecture à la problématique et au plan'],
