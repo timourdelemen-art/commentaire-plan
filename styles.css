@@ -482,3 +482,21 @@
 @media(max-width:1050px){
   .portal-dropdown{display:none!important}
 }
+
+
+/* Micro-expérience d’accueil */
+.home-demo{border-bottom:1px solid var(--rule);padding-bottom:34px}
+.home-demo-grid{display:grid;grid-template-columns:.9fr 1.1fr;border-top:1px solid var(--rule)}
+.home-demo-text,.home-demo-work{padding:34px 28px}
+.home-demo-work{border-left:1px solid var(--rule);background:#f1eadf}
+.home-demo-text .quote{font-size:31px;line-height:1.25;margin:22px 0 10px}
+.home-demo-work h3{font-size:28px;font-weight:400;margin:0 0 18px}
+.home-demo-work textarea{width:100%;min-height:140px;border:1px solid #9f978b;background:#fffdf8;padding:15px;font:18px Georgia,'Times New Roman',serif;resize:vertical}
+.free-response-tools{margin-top:14px}
+.free-response-tools .btn.small{min-width:0;width:auto;height:auto;padding:12px 18px;font-size:16px}
+.response-feedback.show{display:block}
+.offer-proof{margin-top:18px;padding-top:16px;border-top:1px solid #b9b0a3}
+@media(max-width:760px){
+  .home-demo-grid{grid-template-columns:1fr}
+  .home-demo-work{border-left:0;border-top:1px solid var(--rule)}
+}
