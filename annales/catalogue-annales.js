@@ -22,7 +22,9 @@ window.ANNALES_CATALOGUE = {
         "temps": 300,
         "access": "free",
         "consigne": "En une ou deux phrases, dites seulement ce que le texte prend en charge au départ. Restez au plus près du passage.",
-        "aide": "Situation, voix, personnages, objet ou mouvement du passage. Pas encore de problématique."
+        "aide": "Situation, voix, personnages, objet ou mouvement du passage. Pas encore de problématique.",
+        "choix": ["Un guerrier victorieux célèbre son triomphe.", "Un guerrier gravement blessé reste seul parmi ses compagnons morts.", "Un amoureux hésite à déclarer ses sentiments."],
+        "correction": "Le donné est une défaite physique : Hialmar est grièvement blessé, entouré de guerriers morts, et sa propre mort est imminente."
       },
       {
         "id": "attente",
@@ -31,7 +33,9 @@ window.ANNALES_CATALOGUE = {
         "temps": 300,
         "access": "free",
         "consigne": "À partir de ce donné, formulez l’attente de lecture la plus simple : qu’aurait-on pu normalement attendre ?",
-        "aide": "Une attente simple suffit. Elle sert seulement à faire apparaître ensuite la transformation."
+        "aide": "Une attente simple suffit. Elle sert seulement à faire apparaître ensuite la transformation.",
+        "choix": ["Une agonie douloureuse, subie et dominée par l’impuissance.", "Une victoire militaire éclatante.", "Une scène comique fondée sur un malentendu."],
+        "correction": "À partir de cette situation, on attendrait naturellement une agonie subie : le corps est vaincu et tout semble annoncer l’impuissance devant la mort."
       },
       {
         "id": "transformation",
@@ -40,7 +44,9 @@ window.ANNALES_CATALOGUE = {
         "temps": 360,
         "access": "free",
         "consigne": "Qu’est-ce que le texte produit pourtant ? Formulez précisément ce qu’il transforme dans cette attente.",
-        "aide": "Un texte littéraire transforme ce qu’il prend en charge. Cherchez le déplacement produit par le passage."
+        "aide": "Un texte littéraire transforme ce qu’il prend en charge. Cherchez le déplacement produit par le passage.",
+        "choix": ["La défaite devient progressivement une victoire héroïque.", "Le poème explique seulement les blessures du guerrier.", "Le texte abandonne Hialmar pour décrire uniquement le paysage."],
+        "correction": "Le poème ne supprime pas la défaite physique : il en transforme le sens. Hialmar reprend une maîtrise par la parole et fait de sa mort une victoire héroïque."
       },
       {
         "id": "problematique",
@@ -49,7 +55,9 @@ window.ANNALES_CATALOGUE = {
         "temps": 420,
         "access": "free",
         "consigne": "Formulez la question qui demande COMMENT le texte produit cette transformation.",
-        "aide": "La question doit garder ensemble l’attente et ce que le texte produit pourtant. Elle ne doit être ni un thème ni une réponse déjà formulée."
+        "aide": "La question doit garder ensemble l’attente et ce que le texte produit pourtant. Elle ne doit être ni un thème ni une réponse déjà formulée.",
+        "choix": ["Comment le poème décrit-il un champ de bataille ?", "Comment Leconte de Lisle transforme-t-il l’agonie d’un guerrier vaincu en victoire héroïque ?", "Pourquoi Hialmar aime-t-il la fille d’Ylmer ?"],
+        "correction": "Problématique modèle : « Comment Leconte de Lisle transforme-t-il l’agonie d’un guerrier vaincu en victoire héroïque ? » Elle garde ensemble la défaite donnée et la transformation produite par le poème."
       },
       {
         "id": "plan",
@@ -58,7 +66,9 @@ window.ANNALES_CATALOGUE = {
         "temps": 720,
         "access": "free",
         "consigne": "Formulez deux ou trois grandes SOLUTIONS successives à la problématique. Une partie = une solution nécessaire, jamais un simple thème.",
-        "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
+        "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… ».",
+        "choix": ["I. Les blessures / II. Les animaux / III. Le soleil", "I. Établir la défaite physique / II. Reprendre par la parole la maîtrise de ce qui est subi / III. Donner à la mort une dimension héroïque et glorieuse", "I. Le champ lexical / II. Les impératifs / III. Les figures de style"],
+        "correction": "Les trois solutions sont : 1. établir pleinement la défaite physique ; 2. montrer que Hialmar reprend par la parole la maîtrise de ce qu’il subit ; 3. faire finalement de sa mort une victoire héroïque et glorieuse."
       },
       {
         "id": "necessite",
@@ -76,7 +86,9 @@ window.ANNALES_CATALOGUE = {
         "temps": 420,
         "access": "free",
         "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce qu’il reste encore à expliquer.",
-        "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
+        "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir ».",
+        "choix": ["Nous allons maintenant voir la parole de Hialmar.", "Comment Hialmar peut-il alors rester maître au moment même où son corps ne lui obéit plus ?", "Après la défaite physique, nous étudierons les impératifs."],
+        "correction": "Après la première solution : « Comment Hialmar peut-il alors rester maître au moment même où son corps ne lui obéit plus ? » Puis : « Mais commander sa propre mort suffit-il à en faire une victoire héroïque ? »"
       },
       {
         "id": "realisations",
