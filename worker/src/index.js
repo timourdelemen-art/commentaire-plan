@@ -49,7 +49,8 @@ const FALLBACK_BY_KIND = {
   "brevet-grammaire":["Tu as proposé une analyse grammaticale.","Il faut prouver la réponse par la manipulation demandée ou par une justification précise.","Quelle manipulation peux-tu effectuer et quel résultat obtient-elle ?"],
   "brevet-lexique":["Tu as proposé une réponse lexicale.","Il faut justifier la formation ou l'appartenance à la même famille avec précision.","Quelle base et quel procédé de formation peux-tu identifier exactement ?"],
   "brevet-reecriture":["Tu as effectué une partie de la transformation.","Il faut vérifier toutes les conséquences grammaticales de la consigne.","Quels verbes, accords, pronoms ou adjectifs sont encore touchés par la transformation ?"],
-  "brevet-redaction":["Tu réponds au sujet.","Il faut choisir une priorité de reprise dans la construction ou dans la précision de l'argumentation.","Quelle idée doit être développée ou illustrée plus précisément pour mieux répondre au sujet ?"]
+  "brevet-redaction":["Tu réponds au sujet.","Il faut choisir une priorité de reprise dans la construction ou dans la précision de l'argumentation.","Quelle idée doit être développée ou illustrée plus précisément pour mieux répondre au sujet ?"],
+  "bac-dissertation":["Tu engages une réflexion sur le sujet.","Il faut vérifier que ton idée fait réellement avancer la réponse et s'appuie sur l'œuvre.","Qu'est-ce que cette étape permet précisément d'établir pour répondre au sujet ?"]
 };
 
 function cors(origin) {
@@ -147,14 +148,29 @@ function buildSpec(body) {
 
     if (!exam || !consigne || !author || !work) return null;
 
-    const isBac = type === "bac-commentaire" || exam.toLowerCase() === "bac";
+    const isBacCommentary = type === "bac-commentaire";
+    const isBacDissertation = type === "bac-dissertation" || kind === "bac-dissertation";
     const task = consigne + (aide ? " Repère pédagogique : " + aide : "") + points;
 
-    const extraRules = isBac ? [
-      "Une grande partie est une SOLUTION nécessaire à la problématique, jamais un thème.",
-      "NÉCESSITÉ DE LA SOLUTION = pourquoi cette solution est indispensable pour comprendre la transformation et répondre à la problématique.",
-      "Une TRANSITION est une seule question simple qui fait apparaître ce qu'il reste encore à expliquer.",
-      "RÉALISATION = ce que le texte fait pour construire la solution.",
+    const extraRules = isBacDissertation ? [
+      "Distinguer SUJET et PROBLÉMATIQUE : le sujet peut être une question, une affirmation ou une citation ; la problématique formule la difficulté précise qui organise la réflexion.",
+      "Chemin de problématisation : sujet → idée à examiner → ce que l'œuvre permet d'établir → ce qu'il faut encore comprendre → problématique.",
+      "Une grande partie est une RÉPONSE nécessaire à la problématique, jamais un simple thème.",
+      "NÉCESSITÉ DE LA RÉPONSE = pourquoi cette réponse est indispensable dans le raisonnement. C'est un outil de construction ; elle n'a pas à être récitée comme une formule dans la copie.",
+      "ARGUMENT = sous-réponse démontrée par un ou plusieurs passages pertinents de l'œuvre.",
+      "Un exemple raconté n'est pas encore une preuve : vérifier l'élément précis, son analyse et ce qu'il démontre.",
+      "Ne pas imposer plusieurs passages dans chaque argument ; exiger en revanche une connaissance variée et précise de l'œuvre dans l'ensemble du devoir.",
+      "TRANSITION = partir de l'acquis et faire apparaître, de préférence par une question simple, ce que la réponse précédente ne suffit pas encore à expliquer.",
+      "Le plan doit être exigeant sur la logique et souple sur la forme : ne jamais imposer oui/non/synthèse, ni trois parties.",
+      "Les formulations de parties doivent rester courtes, verbales et élégantes : la complexité appartient au raisonnement, pas au titre.",
+      "Les connecteurs doivent exprimer une relation logique réelle, pas seulement l'ordre des idées.",
+      "Culture littéraire : une référence extérieure est pleinement utile lorsqu'une comparaison ou différenciation fait émerger la singularité de l'œuvre étudiée. Une excellente référence peut suffire ; ne jamais imposer un quota.",
+      "Ne jamais fournir un plan complet ou un corrigé modèle avant une tentative de l'élève."
+    ] : isBacCommentary ? [
+      "Une grande partie est une RÉPONSE nécessaire à la problématique, jamais un thème.",
+      "NÉCESSITÉ DE LA RÉPONSE = pourquoi cette réponse est indispensable pour répondre à la problématique.",
+      "Une TRANSITION est une seule question simple qui fait apparaître ce que la réponse précédente ne suffit pas encore à expliquer.",
+      "RÉALISATION = ce que le texte fait pour construire la réponse.",
       "ÉLÉMENT TEXTUEL = ce qui, dans le texte, permet de le montrer.",
       "PROCÉDÉ = comment l'élément est construit, seulement lorsqu'il est identifiable et utile.",
       "EFFET = ce que ce choix change ici dans la manière de voir, comprendre ou ressentir.",
@@ -176,7 +192,7 @@ function buildSpec(body) {
     return {
       exercise,
       stage,
-      kind: ALLOWED_STAGE_KINDS.has(kind) ? kind : (isBac ? (stage==="transitions"||stage==="raccord"?"transition":stage==="plan"||stage==="necessite"?"plan":stage==="problematique"?"problematique":stage==="preuves"||stage==="realisations"?"analyse":stage==="intro"||stage==="partie"||stage==="conclusion"?"redaction":"lecture") : "brevet-comprehension"),
+      kind: ALLOWED_STAGE_KINDS.has(kind) ? kind : (isBacDissertation ? "bac-dissertation" : (isBacCommentary ? (stage==="transitions"||stage==="raccord"?"transition":stage==="plan"||stage==="necessite"?"plan":stage==="problematique"?"problematique":stage==="preuves"||stage==="realisations"?"analyse":stage==="intro"||stage==="partie"||stage==="conclusion"?"redaction":"lecture") : "brevet-comprehension")),
       title: author + " — " + work,
       task,
       allowed: GENERIC_ALLOWED,
@@ -196,12 +212,12 @@ function buildSpec(body) {
     const lower=(title+" "+instruction+" "+page).toLowerCase();
     const explicitKind=clean(context.kind,50);
     let kind=ALLOWED_STAGE_KINDS.has(explicitKind) ? explicitKind : "lecture";
-    if (!ALLOWED_STAGE_KINDS.has(explicitKind) && /probl[ée]matique/.test(lower)) kind="problematique";
-    else if (!ALLOWED_STAGE_KINDS.has(explicitKind) && /plan|partie|solution nécessaire|solution necessaire/.test(lower)) kind="plan";
+    if (!ALLOWED_STAGE_KINDS.has(explicitKind) && /dissertation/.test(lower)) kind="bac-dissertation";
+    else if (!ALLOWED_STAGE_KINDS.has(explicitKind) && /probl[ée]matique/.test(lower)) kind="problematique";
+    else if (!ALLOWED_STAGE_KINDS.has(explicitKind) && /plan|partie|réponse nécessaire|reponse necessaire|solution nécessaire|solution necessaire/.test(lower)) kind="plan";
     else if (!ALLOWED_STAGE_KINDS.has(explicitKind) && /transition/.test(lower)) kind="transition";
     else if (!ALLOWED_STAGE_KINDS.has(explicitKind) && /réécri|reecri/.test(lower)) kind="brevet-reecriture";
     else if (!ALLOWED_STAGE_KINDS.has(explicitKind) && /grammaire|nature|fonction|conjug|accord|pronom|temps verbal|lexique/.test(lower)) kind="brevet-grammaire";
-    else if (!ALLOWED_STAGE_KINDS.has(explicitKind) && /dissertation/.test(lower)) kind="bac-dissertation";
     else if (!ALLOWED_STAGE_KINDS.has(explicitKind) && /rédaction|redaction|argument|écrire|ecrire/.test(lower)) kind="brevet-redaction";
     else if (!ALLOWED_STAGE_KINDS.has(explicitKind) && /procédé|procede|effet|réalisation|realisation|élément textuel|element textuel|paradoxe|figure/.test(lower)) kind="analyse";
 
@@ -219,8 +235,16 @@ function buildSpec(body) {
       "Pour l’entretien, la question_suivante doit être une vraie relance ouverte prenant appui sur ce que l’élève a dit."
     ] : isDissertation ? [
       "Référentiel interne : échelle descriptive officielle de la dissertation, voie générale.",
-      "Évaluer selon l’opération locale demandée, en gardant en arrière-plan : lecture effective et informée de l’œuvre ; compréhension des enjeux du sujet et du parcours ; mobilisation de passages significatifs ; analyse d’éléments précis ; mise en lien, hiérarchisation et organisation du raisonnement ; maîtrise de la langue.",
-      "Un exemple d’œuvre ne vaut pas comme preuve s’il est seulement cité : vérifier ce qu’il démontre pour l’argument.",
+      "Évaluer uniquement le geste demandé, tout en gardant en arrière-plan la lecture effective de l’œuvre, les enjeux du sujet et du parcours, les passages significatifs, l’analyse, l’organisation et la langue.",
+      "SUJET ≠ PROBLÉMATIQUE. Le sujet peut être question, affirmation ou citation. La problématique naît de ce que l’œuvre permet d’établir puis de ce qu’il faut encore comprendre.",
+      "Une partie est une RÉPONSE nécessaire à la problématique. Sa nécessité est distincte de la transition.",
+      "Un ARGUMENT est une sous-réponse démontrée ; un thème ou un exemple n’est pas encore un argument.",
+      "Un exemple d’œuvre ne vaut pas comme preuve s’il est seulement cité ou raconté : vérifier ce qu’il démontre.",
+      "Ne pas exiger artificiellement plusieurs passages dans chaque argument ; vérifier en revanche que l’ensemble du devoir mobilise des passages variés et significatifs.",
+      "Une TRANSITION part de l’acquis et fait apparaître ce qui reste à résoudre. La question directe est une forme privilégiée, non obligatoire.",
+      "Le plan n’a pas de forme imposée : approfondir, nuancer, déplacer ou mettre en relation sont possibles.",
+      "La formulation des parties doit être nette, courte et élégante ; les connecteurs expriment des relations logiques réelles et ne doivent pas devenir une mécanique d’annonce.",
+      "Culture littéraire : pour atteindre l’usage le plus exigeant, la référence extérieure doit aider, par comparaison ou différenciation, à faire émerger la singularité de l’œuvre étudiée. Ne jamais imposer un nombre de références.",
       "Ne jamais fournir un plan complet ou un corrigé modèle avant une tentative de l’élève.",
       "Ne jamais convertir mécaniquement un niveau de maîtrise en note : les profils peuvent être hétérogènes.",
       "Donner un seul manque prioritaire à retravailler."
@@ -241,8 +265,8 @@ function buildSpec(body) {
       "Ne jamais convertir automatiquement les critères en note chiffrée : les paliers officiels sont descriptifs et une copie peut présenter un profil hétérogène.",
       "Donner un seul manque prioritaire à retravailler."
     ] : isCommentary ? [
-      "Une grande partie est une SOLUTION nécessaire à la problématique, jamais un thème.",
-      "TRANSITION = une seule question simple qui fait apparaître ce que la solution précédente ne suffit pas encore à expliquer. Elle ne justifie pas la solution suivante : elle rend seulement nécessaire le passage à une étape supplémentaire.",
+      "Une grande partie est une RÉPONSE nécessaire à la problématique, jamais un thème.",
+      "TRANSITION = une seule question simple qui fait apparaître ce que la réponse précédente ne suffit pas encore à expliquer. Elle ne justifie pas la solution suivante : elle rend seulement nécessaire le passage à une étape supplémentaire.",
       "RÉALISATION = ce que le texte fait ; ÉLÉMENT TEXTUEL = ce qui le montre ; PROCÉDÉ = comment l'élément est construit lorsqu'il est utile ; EFFET = ce que cela change ici.",
       "Ne jamais employer « établissement » pour nommer une partie.",
       "Ne jamais fournir un commentaire complet à partir d'une réponse partielle."
@@ -275,9 +299,9 @@ function buildSpec(body) {
     allowed: GENERIC_ALLOWED,
     forbidden: GENERIC_FORBIDDEN,
     extraRules:[
-      "Une grande partie est une SOLUTION nécessaire à la problématique.",
+      "Une grande partie est une RÉPONSE nécessaire à la problématique.",
       "Ne jamais employer « établissement » pour désigner une partie.",
-      "TRANSITION = une simple question qui fait apparaître ce que la solution précédente ne suffit pas encore à expliquer."
+      "TRANSITION = une simple question qui fait apparaître ce que la réponse précédente ne suffit pas encore à expliquer."
     ]
   };
 }
@@ -348,7 +372,7 @@ VOCABULAIRE ET MÉTHODE
 - Problématique : la question qui demande ce que le texte oblige à expliquer.
 - Solution : ce que chaque grande partie affirme pour répondre à la problématique.
 - Nécessité de la solution : pourquoi cette solution est indispensable pour comprendre la transformation et répondre à la problématique.
-- Nécessité de transition : ce que la solution précédente ne suffit pas encore à expliquer ; elle s'exprime par une question simple qui rend nécessaire le passage à l'étape suivante.
+- Nécessité de transition : ce que la réponse précédente ne suffit pas encore à expliquer ; elle s'exprime par une question simple qui rend nécessaire le passage à l'étape suivante.
 - Réalisation : ce que le texte fait.
 - Élément textuel : ce qui, dans le texte, permet de le montrer.
 - Procédé : comment l'élément est construit, seulement si cela aide réellement.
