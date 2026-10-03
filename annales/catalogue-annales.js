@@ -54,10 +54,10 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "plan",
         "kind": "plan",
-        "titre": "5. Les réponses du plan",
+        "titre": "5. Les solutions du plan",
         "temps": 720,
         "access": "free",
-        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
+        "consigne": "Formulez deux ou trois grandes SOLUTIONS successives à la problématique. Une partie = une solution nécessaire, jamais un simple thème.",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
@@ -67,7 +67,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 540,
         "access": "free",
         "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
+        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
       },
       {
         "id": "transitions",
@@ -84,7 +84,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "free",
-        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
         "aide": "Une réalisation n’est ni une citation ni le nom d’un procédé."
       },
       {
@@ -108,7 +108,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "free",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
+        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des solutions du plan.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -117,7 +117,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "free",
-        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
+        "consigne": "Rédigez une grande partie complète à partir de votre solution et de vos réalisations. Chaque analyse doit prouver la solution.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -195,10 +195,10 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "plan",
         "kind": "plan",
-        "titre": "5. Les réponses du plan",
+        "titre": "5. Les solutions du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
+        "consigne": "Formulez deux ou trois grandes SOLUTIONS successives à la problématique. Une partie = une solution nécessaire, jamais un simple thème.",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
@@ -208,7 +208,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 540,
         "access": "premium",
         "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
+        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
       },
       {
         "id": "transitions",
@@ -225,7 +225,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
         "aide": "Une réalisation n’est ni une citation ni le nom d’un procédé."
       },
       {
@@ -249,7 +249,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
+        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des solutions du plan.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -258,7 +258,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
+        "consigne": "Rédigez une grande partie complète à partir de votre solution et de vos réalisations. Chaque analyse doit prouver la solution.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -336,10 +336,10 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "plan",
         "kind": "plan",
-        "titre": "5. Les réponses du plan",
+        "titre": "5. Les solutions du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
+        "consigne": "Formulez deux ou trois grandes SOLUTIONS successives à la problématique. Une partie = une solution nécessaire, jamais un simple thème.",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
@@ -349,7 +349,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 540,
         "access": "premium",
         "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
+        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
       },
       {
         "id": "transitions",
@@ -366,7 +366,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
         "aide": "Une réalisation n’est ni une citation ni le nom d’un procédé."
       },
       {
@@ -390,7 +390,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
+        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des solutions du plan.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -399,7 +399,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
+        "consigne": "Rédigez une grande partie complète à partir de votre solution et de vos réalisations. Chaque analyse doit prouver la solution.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -477,10 +477,10 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "plan",
         "kind": "plan",
-        "titre": "5. Les réponses du plan",
+        "titre": "5. Les solutions du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
+        "consigne": "Formulez deux ou trois grandes SOLUTIONS successives à la problématique. Une partie = une solution nécessaire, jamais un simple thème.",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
@@ -490,7 +490,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 540,
         "access": "premium",
         "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
+        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
       },
       {
         "id": "transitions",
@@ -507,7 +507,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
         "aide": "Une réalisation n’est ni une citation ni le nom d’un procédé."
       },
       {
@@ -531,7 +531,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
+        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des solutions du plan.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -540,7 +540,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
+        "consigne": "Rédigez une grande partie complète à partir de votre solution et de vos réalisations. Chaque analyse doit prouver la solution.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -618,10 +618,10 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "plan",
         "kind": "plan",
-        "titre": "5. Les réponses du plan",
+        "titre": "5. Les solutions du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
+        "consigne": "Formulez deux ou trois grandes SOLUTIONS successives à la problématique. Une partie = une solution nécessaire, jamais un simple thème.",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
@@ -631,7 +631,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 540,
         "access": "premium",
         "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
+        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
       },
       {
         "id": "transitions",
@@ -648,7 +648,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
         "aide": "Une réalisation n’est ni une citation ni le nom d’un procédé."
       },
       {
@@ -672,7 +672,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
+        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des solutions du plan.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -681,7 +681,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
+        "consigne": "Rédigez une grande partie complète à partir de votre solution et de vos réalisations. Chaque analyse doit prouver la solution.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -759,10 +759,10 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "plan",
         "kind": "plan",
-        "titre": "5. Les réponses du plan",
+        "titre": "5. Les solutions du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
+        "consigne": "Formulez deux ou trois grandes SOLUTIONS successives à la problématique. Une partie = une solution nécessaire, jamais un simple thème.",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
@@ -772,7 +772,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 540,
         "access": "premium",
         "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
+        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
       },
       {
         "id": "transitions",
@@ -789,7 +789,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
         "aide": "Une réalisation n’est ni une citation ni le nom d’un procédé."
       },
       {
@@ -813,7 +813,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
+        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des solutions du plan.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -822,7 +822,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
+        "consigne": "Rédigez une grande partie complète à partir de votre solution et de vos réalisations. Chaque analyse doit prouver la solution.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -900,10 +900,10 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "plan",
         "kind": "plan",
-        "titre": "5. Les réponses du plan",
+        "titre": "5. Les solutions du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
+        "consigne": "Formulez deux ou trois grandes SOLUTIONS successives à la problématique. Une partie = une solution nécessaire, jamais un simple thème.",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
@@ -913,7 +913,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 540,
         "access": "premium",
         "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
+        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
       },
       {
         "id": "transitions",
@@ -930,7 +930,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
         "aide": "Une réalisation n’est ni une citation ni le nom d’un procédé."
       },
       {
@@ -954,7 +954,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
+        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des solutions du plan.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -963,7 +963,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
+        "consigne": "Rédigez une grande partie complète à partir de votre solution et de vos réalisations. Chaque analyse doit prouver la solution.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -1041,10 +1041,10 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "plan",
         "kind": "plan",
-        "titre": "5. Les réponses du plan",
+        "titre": "5. Les solutions du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
+        "consigne": "Formulez deux ou trois grandes SOLUTIONS successives à la problématique. Une partie = une solution nécessaire, jamais un simple thème.",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
@@ -1054,7 +1054,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 540,
         "access": "premium",
         "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
+        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
       },
       {
         "id": "transitions",
@@ -1071,7 +1071,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
         "aide": "Une réalisation n’est ni une citation ni le nom d’un procédé."
       },
       {
@@ -1095,7 +1095,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
+        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des solutions du plan.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -1104,7 +1104,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
+        "consigne": "Rédigez une grande partie complète à partir de votre solution et de vos réalisations. Chaque analyse doit prouver la solution.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -1182,10 +1182,10 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "plan",
         "kind": "plan",
-        "titre": "5. Les réponses du plan",
+        "titre": "5. Les solutions du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
+        "consigne": "Formulez deux ou trois grandes SOLUTIONS successives à la problématique. Une partie = une solution nécessaire, jamais un simple thème.",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
@@ -1195,7 +1195,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 540,
         "access": "premium",
         "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
+        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
       },
       {
         "id": "transitions",
@@ -1212,7 +1212,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
         "aide": "Une réalisation n’est ni une citation ni le nom d’un procédé."
       },
       {
@@ -1236,7 +1236,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
+        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des solutions du plan.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -1245,7 +1245,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
+        "consigne": "Rédigez une grande partie complète à partir de votre solution et de vos réalisations. Chaque analyse doit prouver la solution.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -1323,10 +1323,10 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "plan",
         "kind": "plan",
-        "titre": "5. Les réponses du plan",
+        "titre": "5. Les solutions du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
+        "consigne": "Formulez deux ou trois grandes SOLUTIONS successives à la problématique. Une partie = une solution nécessaire, jamais un simple thème.",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
@@ -1336,7 +1336,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 540,
         "access": "premium",
         "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
+        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
       },
       {
         "id": "transitions",
@@ -1353,7 +1353,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
         "aide": "Une réalisation n’est ni une citation ni le nom d’un procédé."
       },
       {
@@ -1377,7 +1377,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
+        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des solutions du plan.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -1386,7 +1386,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
+        "consigne": "Rédigez une grande partie complète à partir de votre solution et de vos réalisations. Chaque analyse doit prouver la solution.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -1464,10 +1464,10 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "plan",
         "kind": "plan",
-        "titre": "5. Les réponses du plan",
+        "titre": "5. Les solutions du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
+        "consigne": "Formulez deux ou trois grandes SOLUTIONS successives à la problématique. Une partie = une solution nécessaire, jamais un simple thème.",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
@@ -1477,7 +1477,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 540,
         "access": "premium",
         "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
+        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
       },
       {
         "id": "transitions",
@@ -1494,7 +1494,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
         "aide": "Une réalisation n’est ni une citation ni le nom d’un procédé."
       },
       {
@@ -1518,7 +1518,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
+        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des solutions du plan.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -1527,7 +1527,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
+        "consigne": "Rédigez une grande partie complète à partir de votre solution et de vos réalisations. Chaque analyse doit prouver la solution.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -1605,10 +1605,10 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "plan",
         "kind": "plan",
-        "titre": "5. Les réponses du plan",
+        "titre": "5. Les solutions du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
+        "consigne": "Formulez deux ou trois grandes SOLUTIONS successives à la problématique. Une partie = une solution nécessaire, jamais un simple thème.",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
@@ -1618,7 +1618,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 540,
         "access": "premium",
         "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
+        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
       },
       {
         "id": "transitions",
@@ -1635,7 +1635,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
         "aide": "Une réalisation n’est ni une citation ni le nom d’un procédé."
       },
       {
@@ -1659,7 +1659,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
+        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des solutions du plan.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -1668,7 +1668,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
+        "consigne": "Rédigez une grande partie complète à partir de votre solution et de vos réalisations. Chaque analyse doit prouver la solution.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -1746,10 +1746,10 @@ window.ANNALES_CATALOGUE = {
       {
         "id": "plan",
         "kind": "plan",
-        "titre": "5. Les réponses du plan",
+        "titre": "5. Les solutions du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
+        "consigne": "Formulez deux ou trois grandes SOLUTIONS successives à la problématique. Une partie = une solution nécessaire, jamais un simple thème.",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
@@ -1759,7 +1759,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 540,
         "access": "premium",
         "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
+        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
       },
       {
         "id": "transitions",
@@ -1776,7 +1776,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
         "aide": "Une réalisation n’est ni une citation ni le nom d’un procédé."
       },
       {
@@ -1800,7 +1800,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
+        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des solutions du plan.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -1809,7 +1809,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
+        "consigne": "Rédigez une grande partie complète à partir de votre solution et de vos réalisations. Chaque analyse doit prouver la solution.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
