@@ -33,6 +33,17 @@
 </section>
 
 <div class="access-status type" id="accessStatus"></div>
+
+<section class="training-mode" id="trainingMode" hidden>
+  <div class="kicker">COMMENT VOULEZ-VOUS TRAVAILLER ?</div>
+  <div class="training-mode-grid">
+    <button type="button" class="training-mode-card active" data-mode="guided"><strong>Parcours guidé</strong><span>Faire les étapes dans l’ordre.</span></button>
+    <button type="button" class="training-mode-card" data-mode="targeted"><strong>Exercice ciblé</strong><span>Choisir un geste précis et chronométré.</span></button>
+    <a class="training-mode-card" href="../bac-mode-examen.html"><strong>Mode Bac</strong><span>Recomposer sans aide, en conditions d’épreuve.</span></a>
+  </div>
+  <div class="targeted-picker" id="targetedPicker" hidden></div>
+</section>
+
 <section class="timer-bar">
   <div><span class="micro">TEMPS DE L'ÉTAPE</span><strong id="stepTimer">00:00</strong></div>
   <div><span class="micro">TEMPS TOTAL</span><strong id="totalTimer">00:00</strong></div>
@@ -48,13 +59,18 @@
     <div class="kicker" id="stepLabel"></div>
     <h2 id="stepTitle"></h2>
     <p class="instruction" id="stepInstruction"></p>
-    <p class="micro annale-hint" id="stepHint"></p>
+    <p class="micro annale-hint" id="stepHint" hidden></p>
     <textarea id="studentAnswer" rows="10" placeholder="Votre réponse…"></textarea>
+    <div class="progressive-help">
+      <button type="button" class="reveal-btn" id="helpButton">J’ai besoin d’un indice</button>
+      <span class="micro" id="helpLevel"></span>
+    </div>
     <div class="annale-training-actions">
       <button class="btn red small" id="aiCheck">Vérifier ma réponse</button>
       <button class="btn small" id="saveNext">Enregistrer et continuer →</button>
     </div>
-    <div class="ai-feedback annale-ai-feedback" id="aiFeedback" aria-live="polite"></div>\n    <aside class="manual-help" id="manualHelp" hidden></aside>
+    <div class="ai-feedback annale-ai-feedback" id="aiFeedback" aria-live="polite"></div>
+    <aside class="manual-help" id="manualHelp" hidden></aside>
   </article>
 
   <section class="annale-summary" id="summary" hidden>
