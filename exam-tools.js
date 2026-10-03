@@ -60,15 +60,47 @@ document.addEventListener('DOMContentLoaded',()=>{
       if(hasText) oralStatus.textContent='Texte copié-collé prêt. Il reste dans ce navigateur.';
     };
     [oralText,oralAuthor,oralTextWork,oralLines].filter(Boolean).forEach(el=>el.addEventListener('input',persist));
-    const showFile=(input,label)=>{
-      input?.addEventListener('change',()=>{
-        if(input.files&&input.files[0]){
-          oralStatus.textContent=label+' : '+input.files[0].name+' — fichier sélectionné localement.';
-        }
-      });
-    };
-    showFile(oralImage,'Image');
-    showFile(oralPdf,'PDF');
+    const resizeImageToDataUrl=(file)=>new Promise((resolve,reject)=>{
+      const reader=new FileReader();
+      reader.onerror=()=>reject(new Error("Lecture du fichier impossible."));
+      reader.onload=()=>{
+        const img=new Image();
+        img.onerror=()=>reject(new Error("Image illisible."));
+        img.onload=()=>{
+          const max=1800,scale=Math.min(1,max/Math.max(img.width,img.height));
+          const canvas=document.createElement("canvas");
+          canvas.width=Math.round(img.width*scale);canvas.height=Math.round(img.height*scale);
+          const ctx=canvas.getContext("2d");ctx.drawImage(img,0,0,canvas.width,canvas.height);
+          resolve(canvas.toDataURL("image/jpeg",0.88));
+        };
+        img.src=reader.result;
+      };
+      reader.readAsDataURL(file);
+    });
+
+    oralImage?.addEventListener('change',async()=>{
+      const file=oralImage.files&&oralImage.files[0];
+      if(!file)return;
+      oralStatus.textContent='Photo sélectionnée. Lecture du texte…';
+      try{
+        const imageData=await resizeImageToDataUrl(file);
+        const res=await fetch("https://atelier-commentaire-ia.timour-delemen.workers.dev/api/analyze",{
+          method:"POST",headers:{"Content-Type":"application/json"},
+          body:JSON.stringify({exercise:"oral-source-image",image_data_url:imageData})
+        });
+        const data=await res.json();
+        if(!res.ok||!data.ok)throw new Error(data.error||"Extraction indisponible.");
+        oralText.value=data.extracted_text||"";
+        oralText.dispatchEvent(new Event("input",{bubbles:true}));
+        oralStatus.textContent='Texte extrait de la photo. Vérifiez-le mot à mot avant l’entraînement.';
+      }catch(e){
+        oralStatus.textContent=(e.message||'Extraction indisponible.')+' Vous pouvez copier-coller le texte manuellement.';
+      }
+    });
+
+    oralPdf?.addEventListener('change',()=>{
+      if(oralPdf.files&&oralPdf.files[0]) oralStatus.textContent='PDF sélectionné : '+oralPdf.files[0].name+'. Extraction automatique PDF non activée ; copiez-collez le passage pour l’instant.';
+    });
     if(saved.text)oralStatus.textContent='Texte copié-collé restauré depuis ce navigateur.';
   }
 
