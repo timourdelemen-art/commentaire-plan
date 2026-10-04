@@ -1,4 +1,6 @@
 (() => {
+  const AI_TEMPORARILY_DISABLED=true;
+  if(AI_TEMPORARILY_DISABLED) return;
   const ENDPOINT="https://atelier-commentaire-ia.timour-delemen.workers.dev/api/analyze";
   const page=(location.pathname.split("/").pop()||"index.html").toLowerCase();
   const excluded=new Set(["contact.html","ia-laboratoire.html"]);
