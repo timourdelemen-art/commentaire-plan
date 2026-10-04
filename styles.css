@@ -1611,3 +1611,81 @@ main.wrap{overflow:hidden}
     line-height:1.45;
   }
 }
+
+
+/* Marketing conversion — octobre 2026 */
+.current-program{
+  border-top:1px solid var(--rule);
+  border-bottom:1px solid var(--rule);
+  padding:18px 20px 48px;
+  background:#f0ebe2;
+}
+.current-program .section-intro{
+  padding-left:0;
+  padding-right:0;
+  padding-bottom:18px;
+}
+.current-program-actions{
+  display:flex;
+  align-items:center;
+  gap:26px;
+  flex-wrap:wrap;
+}
+.current-program-actions .btn{min-width:320px}
+.lead-form{
+  max-width:760px;
+  margin-top:26px;
+  display:grid;
+  gap:18px;
+}
+.lead-form label{
+  display:grid;
+  gap:8px;
+  font:13px 'American Typewriter','Courier New',monospace;
+  letter-spacing:.5px;
+}
+.lead-form input[type="email"],
+.lead-form select{
+  width:100%;
+  border:1px solid #8f887e;
+  background:#fffdf8;
+  padding:14px;
+  font:17px Georgia,'Times New Roman',serif;
+}
+.lead-form .lead-consent{
+  grid-template-columns:22px 1fr;
+  align-items:start;
+  font-family:Georgia,'Times New Roman',serif;
+  font-size:15px;
+  letter-spacing:0;
+  line-height:1.45;
+}
+.lead-form .lead-consent input{margin-top:4px}
+.hidden-field{display:none!important}
+.faq-list{
+  max-width:900px;
+  border-top:1px solid var(--line);
+  margin-top:24px;
+}
+.faq-list details{
+  border-bottom:1px solid var(--line);
+  padding:18px 0;
+}
+.faq-list summary{
+  cursor:pointer;
+  font-size:19px;
+  font-weight:600;
+}
+.faq-list details p{
+  margin:12px 0 0;
+  max-width:760px;
+}
+.corpus-card.featured-program{
+  background:#eee4d3;
+  border-top-color:var(--red);
+}
+@media(max-width:700px){
+  .current-program{padding-left:8px;padding-right:8px}
+  .current-program-actions{align-items:stretch;flex-direction:column}
+  .current-program-actions .btn{min-width:0;width:100%}
+}
