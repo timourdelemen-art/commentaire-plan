@@ -1533,3 +1533,81 @@ main.wrap{overflow:hidden}
   .method-strip{grid-template-columns:1fr}
   .method-strip>div+div{border-left:0;border-top:1px solid #a9a196}
 }
+
+
+/* Pot-Bouille — identité typographique des documents */
+.pot-bouille-doc main,
+.pot-bouille-doc .offer-band,
+.pot-bouille-doc .teacher-sequence,
+.pot-bouille-doc .sequence-spec,
+.pot-bouille-doc .didactic-note,
+.pot-bouille-doc .didactic-flow,
+.pot-bouille-doc .didactic-cards,
+.pot-bouille-doc .method-strip,
+.pot-bouille-doc .problem-choice{
+  font-family:'American Typewriter','Courier New',monospace;
+}
+.pot-bouille-doc em{
+  font-family:Georgia,'Times New Roman',serif;
+  font-style:italic;
+}
+.pot-bouille-doc ul,
+.pot-bouille-doc ol{
+  list-style:none;
+  padding-left:0;
+}
+.pot-bouille-doc .offer-band{
+  padding-top:58px;
+  padding-bottom:58px;
+}
+.pot-bouille-doc .sequence-spec p{
+  padding-top:20px;
+  padding-bottom:20px;
+  line-height:1.62;
+}
+.pot-bouille-doc .excerpt-sheet{
+  background:#fff;
+}
+.pot-bouille-doc .excerpt-sheet .excerpt-meta,
+.pot-bouille-doc .excerpt-sheet .micro{
+  font-family:Arial,Helvetica,sans-serif;
+}
+.pot-bouille-doc .excerpt-sheet .literary-extract{
+  display:block;
+  max-width:820px;
+  margin:26px auto 18px;
+  padding:28px 34px;
+  background:#fff;
+  border:0;
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:12pt;
+  line-height:1.48;
+}
+.pot-bouille-doc .excerpt-sheet .literary-extract p{
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:12pt;
+  line-height:1.48;
+  margin:0 0 12pt;
+  padding:0;
+  border:0;
+}
+@media print{
+  .pot-bouille-doc .excerpt-sheet{
+    margin:0;
+    padding:12mm 14mm;
+    border:0;
+  }
+  .pot-bouille-doc .excerpt-sheet .literary-extract{
+    max-width:none;
+    margin:0;
+    padding:0;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:12pt;
+    line-height:1.45;
+  }
+  .pot-bouille-doc .excerpt-sheet .literary-extract p{
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:12pt;
+    line-height:1.45;
+  }
+}
