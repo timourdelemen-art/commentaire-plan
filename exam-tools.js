@@ -1,4 +1,12 @@
 document.addEventListener('DOMContentLoaded',()=>{
+  const AI_TEMPORARILY_DISABLED=true;
+  const nativeFetch=window.fetch.bind(window);
+  const fetch=(resource,options)=>{
+    if(AI_TEMPORARILY_DISABLED && String(resource).includes("atelier-commentaire-ia.timour-delemen.workers.dev")){
+      return Promise.reject(new Error("Les fonctions d’IA sont temporairement désactivées."));
+    }
+    return nativeFetch(resource,options);
+  };
   document.querySelectorAll('.timer-box').forEach(box=>{
     const initial=Number(box.dataset.seconds||0); let left=initial,t=null;
     const display=box.querySelector('.timer-display'), start=box.querySelector('.timer-start'), reset=box.querySelector('.timer-reset');
