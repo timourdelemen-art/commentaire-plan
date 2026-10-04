@@ -112,6 +112,21 @@ document.addEventListener('DOMContentLoaded',()=> {
     });
   });
 
+  // Attribution légère pour les formulaires Netlify : page d'arrivée, source et campagne.
+  const params=new URLSearchParams(location.search);
+  document.querySelectorAll('form[data-netlify="true"]').forEach(form=>{
+    const values={
+      landing_page:location.pathname+location.search,
+      source:params.get('utm_source')||params.get('source')||(document.referrer?new URL(document.referrer).hostname:'direct'),
+      campaign:params.get('utm_campaign')||'',
+      referrer:document.referrer||''
+    };
+    Object.entries(values).forEach(([name,value])=>{
+      const field=form.querySelector('[name="'+name+'"]');
+      if(field) field.value=value;
+    });
+  });
+
   if(!document.querySelector('footer.site-footer')){
     const footer=document.createElement('footer');
     footer.className='site-footer';
