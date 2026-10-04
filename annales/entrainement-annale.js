@@ -1,4 +1,5 @@
 (() => {
+  const AI_TEMPORARILY_DISABLED=true;
   const params = new URLSearchParams(location.search);
   const id = params.get("id");
   const item = window.ANNALES_CATALOGUE && window.ANNALES_CATALOGUE[id];
@@ -280,7 +281,7 @@
       return;
     }
     const aiMode=aiModeFor(step);
-    els.ai.hidden=aiMode==="none";
+    els.ai.hidden=AI_TEMPORARILY_DISABLED || aiMode==="none";
     els.ai.textContent=aiMode==="recommended"?"Analyser ma réponse":"Demander un retour IA";
     const prefix=state.mode==="targeted"?"EXERCICE CIBLÉ":"ÉTAPE "+(state.step+1)+" / "+item.etapes.length;
     els.count.textContent=prefix+" · TEMPS CONSEILLÉ "+fmt(step.temps||0)+(step.points!=null?" · "+step.points+" PT"+(step.points>1?"S":""):"");
@@ -328,6 +329,11 @@
   }
 
   async function askAI(){
+    if(AI_TEMPORARILY_DISABLED){
+      els.feedback.innerHTML="<strong>Retour personnalisé temporairement désactivé</strong><p>Continuez avec les aides et corrections locales du parcours.</p>";
+      els.feedback.classList.add("show");
+      return;
+    }
     const step=currentStep();
     if(aiModeFor(step)==="none"){
       els.feedback.innerHTML="<strong>Correction locale</strong><p>Cette question n’utilise pas l’IA. Utilisez l’aide progressive puis la correction expliquée.</p>";
