@@ -1426,3 +1426,110 @@ main.wrap{overflow:hidden}
   .marketing-contrast-card{min-height:0;padding:24px 22px}
   .marketing-contrast-card p{font-size:19px}
 }
+
+
+/* Pot-Bouille — progression didactique et fiches, octobre 2026 */
+.didactic-flow{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  border-top:1px solid var(--line);
+  border-left:1px solid var(--line);
+  margin-top:28px;
+}
+.didactic-flow article{
+  padding:24px 22px;
+  border-right:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+  min-height:190px;
+}
+.didactic-flow article>span{
+  display:block;
+  font:700 11px 'American Typewriter','Courier New',monospace;
+  color:var(--red);
+  letter-spacing:1.6px;
+  margin-bottom:14px;
+}
+.didactic-flow strong{
+  display:block;
+  font-size:19px;
+  margin-bottom:9px;
+}
+.didactic-flow p{
+  font-size:15px!important;
+  line-height:1.5!important;
+  margin:0!important;
+}
+.didactic-cards>div{
+  border:1px solid var(--line);
+  padding:22px;
+  background:#fbf8f1;
+}
+.didactic-cards strong{
+  display:block;
+  font:700 12px 'American Typewriter','Courier New',monospace;
+  letter-spacing:1px;
+  color:var(--red);
+  margin-bottom:10px;
+}
+.didactic-note{
+  border:1px solid #bbb2a6;
+  background:#eeeae3;
+  padding:20px 22px;
+  margin:24px 0;
+}
+.didactic-note.compact{max-width:880px}
+.didactic-note>strong{
+  display:block;
+  font:700 11px 'American Typewriter','Courier New',monospace;
+  letter-spacing:1.4px;
+  color:var(--red);
+  margin-bottom:8px;
+}
+.didactic-note p{
+  margin:0!important;
+  font-size:15px!important;
+  line-height:1.5!important;
+}
+.method-strip{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  border:1px solid #a9a196;
+  margin:24px 0 16px;
+}
+.method-strip>div{
+  padding:18px 16px;
+  min-height:112px;
+}
+.method-strip>div+div{border-left:1px solid #a9a196}
+.method-strip strong{
+  display:block;
+  font:700 11px 'American Typewriter','Courier New',monospace;
+  letter-spacing:.7px;
+  margin-bottom:9px;
+}
+.method-strip span{
+  display:block;
+  font-size:14px;
+  line-height:1.4;
+}
+.problem-choice{
+  max-width:940px;
+  margin:22px 0 18px;
+  border-top:1px solid var(--line);
+}
+.problem-choice p{
+  padding:16px 4px;
+  margin:0!important;
+  border-bottom:1px solid var(--line);
+}
+@media(max-width:900px){
+  .didactic-flow{grid-template-columns:1fr 1fr}
+  .method-strip{grid-template-columns:1fr 1fr}
+  .method-strip>div:nth-child(3){border-left:0;border-top:1px solid #a9a196}
+  .method-strip>div:nth-child(4){border-top:1px solid #a9a196}
+}
+@media(max-width:620px){
+  .didactic-flow{grid-template-columns:1fr}
+  .method-strip{grid-template-columns:1fr}
+  .method-strip>div+div{border-left:0;border-top:1px solid #a9a196}
+}
