@@ -1,5 +1,5 @@
 # Tableau maître du site — pilotage pédagogique et ergonomique
-_Mise à jour : 3 octobre 2026_
+_Mise à jour : 5 octobre 2026_
 
 ## Règle générale
 L’interface élève reste simple : une épreuve, puis 4 à 5 gestes visibles maximum. Les critères officiels, le protocole détaillé et les paliers d’évaluation restent dans le moteur, les ressources enseignants et les diagnostics IA.
@@ -9,6 +9,35 @@ L’interface élève reste simple : une épreuve, puis 4 à 5 gestes visibles m
 - BREVET : Questions · Langue · Rédaction · Sujets complets
 - MÉTHODE : méthode du commentaire · manuel des procédés · entraînement guidé
 - ENSEIGNANTS : 3e · 2de · 1re · progressions · bibliothèque
+
+## Architecture cible
+- BREVET
+- BAC FRANÇAIS — Première
+- HLP — Première / Terminale
+- PHILOSOPHIE — Terminale
+- ENSEIGNANTS
+
+Règle : une nouvelle branche n’entre dans la navigation visible que lorsqu’elle possède au moins un vrai parcours utilisable. HLP et Philosophie peuvent être préparés dans le modèle de données et les documents internes sans créer de coquilles vides dans le menu.
+
+## Hiérarchie SEO et pédagogique
+Toute page publique doit appartenir à une chaîne lisible :
+**examen → épreuve → geste → entraînement → transfert**.
+
+Les pages SEO ne constituent pas une architecture parallèle. Une requête précise (« transition commentaire », « effet d’une antithèse », etc.) doit atterrir sur une page-geste reliée à son hub, à la méthode et à un exercice réel.
+
+Pages prioritaires actuelles :
+1. Accueil
+2. Bac
+3. Brevet
+4. Commentaire
+5. Méthode du commentaire
+6. Problématique
+7. Plan
+8. Procédés / effets
+9. Annales
+10. Pot-Bouille
+
+Le build doit empêcher les pages prioritaires orphelines, les canonicals incohérents, les profondeurs anormales et la réapparition de l’ancienne terminologie.
 
 ## Matrice pédagogique
 
@@ -134,7 +163,7 @@ IA :
 5. Dissertation : cinq gestes visibles maximum ; remplacer la “maquette” par un entraînement réel.
 6. Oral : quatre blocs correspondant aux parties réellement évaluées.
 7. Les grilles officielles ne sont pas un menu élève ; elles pilotent l’IA et les ressources enseignants.
-8. Gratuit : parcours réellement utile et complet. Payant : volume, répétition, profondeur, davantage de retours et de sujets.
+8. Priorité actuelle : construire un gratuit suffisamment fort pour produire un effet « waouh ». Le paiement est volontairement relégué tant que l’expérience, le volume et la cohérence globale ne le justifient pas. Une future offre payante devra ajouter volume, répétition, profondeur et accompagnement sans amputer artificiellement le gratuit.
 9. Toute page ou entrée qui duplique une autre sans geste distinct doit être fusionnée, reléguée ou supprimée de la navigation.
 10. Tout exercice doit avoir en interne : épreuve, geste, compétence officielle, niveau d’aide, correction, possibilité de reprise.
 
@@ -144,3 +173,34 @@ Un élève doit pouvoir répondre en moins de 10 secondes à :
 - Que puis-je travailler ici ?
 - Par quoi commencer ?
 - Que se passe-t-il après ma réponse ?
+
+
+## Terminologie stable
+- **Réponse** : ce qu’une grande partie apporte à la problématique.
+- **Nécessité de la réponse** : pourquoi cette réponse doit être construite dans la progression.
+- **Transition** : question simple qui fait apparaître ce qui manque encore.
+- **Réalisation** : ce que le texte fait ; elle peut être nommée ou rester implicite dans l’analyse.
+- **Élément textuel** : citation ou élément précis du texte.
+- **Procédé** : outil technique utile à l’analyse.
+- **Effet ici** : transformation précise produite par ce procédé dans ce passage.
+
+Le terme « établissement » ne désigne plus une partie. Le terme « solution » ne remplace pas « réponse » dans le protocole du commentaire.
+
+## Offensive SEO autorisée
+Approche agressive mais durable :
+- génération statique de navigation crawlable ;
+- sitemap construit au déploiement avec dates réelles de modification ;
+- canonicals + redirections automatiques des anciennes routes ;
+- fils d’Ariane HTML + données structurées ;
+- audit automatique de profondeur, orphelins et métadonnées ;
+- budget de performance bloquant les régressions ;
+- calcul hors navigateur du graphe interne et des opportunités de liens ;
+- suivi d’indexation Search Console des URL stratégiques ;
+- IndexNow / signaux de découverte quand la vérification est opérationnelle ;
+- nouvelles pages uniquement si elles répondent à une intention réelle avec contenu et exercice propres.
+
+À éviter :
+- pages quasi dupliquées générées en masse ;
+- faux backlinks, réseaux de sites ou domaines expirés détournés ;
+- texte caché, cloaking ou bourrage de mots-clés ;
+- multiplication des pages uniquement pour couvrir des variantes de requêtes.
