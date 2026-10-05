@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded',()=> {
 
   const path=(location.pathname.split('/').pop()||'index.html').toLowerCase();
   const bacPages=['bac.html','anthologie-bac.html','bac-commentaire.html','bac-commentaire-procedes.html','bac-commentaire-procedes-entrainement.html','bac-dissertation.html','bac-dissertation-methode.html','bac-oral.html','bac-mode-examen.html','commentaire-bac-methode.html','commentaire-bac-problematique.html','commentaire-bac-plan.html','commentaire-bac-procedes-effets.html','commentaire-bac-introduction.html','commentaire-bac-transition.html','commentaire-bac-conclusion.html','oeuvres-integrales.html','pot-bouille.html','pot-bouille-pb01.html','pot-bouille-pb02.html','pot-bouille-pb03.html'];
+  const philoPages=['philosophie.html','philosophie-dissertation.html','philosophie-dissertation-entrainement.html'];
   const brevetPages=['brevet.html','anthologie-brevet.html','brevet-comprehension.html','brevet-grammaire.html','brevet-reecriture.html','brevet-redaction.html','brevet-imagination.html','brevet-reflexion.html'];
   const teacherPages=['enseignants.html','formation.html','bibliotheque.html','pot-bouille-professeurs.html'];
   const manualPages=['manuel-procedes.html','bac-commentaire-procedes.html','bac-commentaire-procedes-entrainement.html','parcours.html'];
@@ -29,6 +30,11 @@ document.addEventListener('DOMContentLoaded',()=> {
       ['annales.html#bac','Faire une annale','S’entraîner sur un sujet officiel'],
       ['bac-mode-examen.html','Se mettre en condition','Travailler sans aide, avec chrono']
     ],is(bacPages)?'active':''),
+    portal('philosophie.html','PHILO','Terminale',[
+      ['philosophie.html','Comprendre la démarche','Cours, textes et dissertation à partir des problèmes'],
+      ['philosophie-dissertation.html','Méthode de dissertation','Sujet → problème → réponses → transitions → résolution'],
+      ['philosophie-dissertation-entrainement.html','S’entraîner geste par geste','Réponse, coût, problématique, transition et troisième partie']
+    ],is(philoPages)?'active':''),
     portal('brevet.html','BREVET','comprendre · langue · rédiger',[
       ['anthologie-brevet.html','Faire un sujet complet','Une annale officielle, question après question'],
       ['brevet-comprehension.html','Travailler la compréhension','Répondre, justifier, interpréter'],
@@ -43,10 +49,11 @@ document.addEventListener('DOMContentLoaded',()=> {
       ['bac-commentaire-procedes-entrainement.html','S’entraîner sur les procédés','Identifier puis expliquer précisément'],['laboratoire-effet-ici.html','Laboratoire de l’effet ici','28 exemples contextualisés et filtrables'],
       ['parcours.html','Suivre un parcours guidé','Avancer étape par étape']
     ],is(manualPages)?'active':''),
-    portal('enseignants.html','ENSEIGNANTS','3e · 2de · 1re',[
+    portal('enseignants.html','ENSEIGNANTS','3e · 2de · 1re · Tle',[
       ['enseignants.html#troisieme','Ressources de 3e','Brevet, langue et rédaction'],
       ['enseignants.html#seconde','Ressources de Seconde','Lecture, commentaire et langue'],
       ['enseignants.html#premiere','Ressources de Première','Bac écrit et oral'],
+      ['philosophie.html','Ressources de Terminale','Philosophie : problématisation et dissertation'],
       ['bibliotheque.html','Ouvrir la bibliothèque','Retrouver les documents et ressources']
     ],is(teacherPages)?'active':'')
   ].join('');
