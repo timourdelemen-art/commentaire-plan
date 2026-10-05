@@ -1720,3 +1720,28 @@ main.wrap{overflow:hidden}
 .effect-lab-controls{display:grid;grid-template-columns:1fr 320px;gap:14px;margin:24px 0 12px}
 .effect-lab-controls input,.effect-lab-controls select{font:16px Georgia,'Times New Roman',serif;background:#fffdf8;border:1px solid #999;padding:13px 14px}
 @media(max-width:800px){.effect-proof-grid{grid-template-columns:1fr}.effect-lab-controls{grid-template-columns:1fr}}
+
+
+/* Philosophie — laboratoire unique + diagnostic */
+.philo-lab-filters{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.philo-filter,.philo-reset{border:1px solid var(--line,#c9c0b5);background:transparent;padding:10px 14px;cursor:pointer;font:13px 'American Typewriter','Courier New',monospace}
+.philo-filter:hover,.philo-filter.selected,.philo-reset:hover{background:var(--ink,#11100e);color:var(--paper,#f6f1e8);border-color:var(--ink,#11100e)}
+.philo-lab-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--rule);border-left:1px solid var(--rule);margin:0 0 48px}
+.philo-lab-card{display:flex;flex-direction:column;min-height:250px;padding:24px;border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);background:#f6f1e8}
+.philo-lab-card:hover{background:#eee4d3}
+.philo-lab-card>span{font:11px 'American Typewriter','Courier New',monospace;letter-spacing:1.2px;text-transform:uppercase;color:var(--red)}
+.philo-lab-card h2{font-size:27px;font-weight:400;line-height:1.08;margin:24px 0 12px}
+.philo-lab-card p{font-size:17px;line-height:1.45;margin:0 0 24px}
+.philo-lab-card b{margin-top:auto;color:var(--red);font-weight:400}
+.philo-diagnostic{max-width:920px;margin:0 auto 60px;padding:38px 0}
+.philo-diagnostic .diag-options{display:grid;gap:12px}
+.philo-diagnostic .diag-option{width:100%;background:#fffdf8;border:1px solid #918a80;padding:16px 18px;text-align:left;font:18px Georgia,'Times New Roman',serif;line-height:1.4;cursor:pointer}
+.philo-diagnostic .diag-option:hover{border-color:var(--red);background:#f3ece2}
+.philo-diagnostic .diag-progress{font:12px 'American Typewriter','Courier New',monospace;letter-spacing:1.6px;color:var(--red);margin-bottom:18px}
+.philo-diagnostic .diag-question{font-size:38px;font-weight:400;line-height:1.08;margin:18px 0 24px}
+.philo-diagnostic .diag-context{font-size:19px;line-height:1.5;background:#eee4d3;padding:20px;margin-bottom:22px}
+.philo-diagnostic .diag-result{border-top:1px solid var(--rule);padding-top:28px}
+.philo-diagnostic .diag-result h2{font-size:46px;font-weight:400;margin:8px 0 14px}
+.philo-diagnostic .prescription{background:#eee4d3;padding:22px;margin:22px 0;font-size:19px;line-height:1.5}
+@media(max-width:900px){.philo-lab-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:650px){.philo-lab-grid{grid-template-columns:1fr}.philo-diagnostic .diag-question{font-size:30px}}
