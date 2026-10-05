@@ -15,10 +15,11 @@ for(const [r,f] of byRel){
  const h1=(h.match(/<h1\b[^>]*>/gi)||[]).length;
  const desc=(h.match(/<meta[^>]+name=["']description["'][^>]+content=["']([^"']*)/i)||[])[1];
  const can=(h.match(/<link[^>]+rel=["']canonical["'][^>]+href=["']([^"']+)/i)||h.match(/<link[^>]+href=["']([^"']+)["'][^>]+rel=["']canonical/i)||[])[1];
- if(strict.test(r)){ if(!title)errors.push(r+': title manquant'); if(h1!==1)errors.push(r+': H1 attendu exactement une fois, trouvé '+h1); if(!desc)errors.push(r+': meta description manquante'); if(!can)errors.push(r+': canonical manquante');}
- else {if(!title)warnings.push(r+': title manquant'); if(h1===0)warnings.push(r+': H1 manquant'); if(!can)warnings.push(r+': canonical manquante');}
+ const isNoindex=/<meta[^>]+name=["']robots["'][^>]+content=["'][^"']*noindex/i.test(h);
+ if(!isNoindex && strict.test(r)){ if(!title)errors.push(r+': title manquant'); if(h1!==1)errors.push(r+': H1 attendu exactement une fois, trouvé '+h1); if(!desc)errors.push(r+': meta description manquante'); if(!can)errors.push(r+': canonical manquante');}
+ else if(!isNoindex) {if(!title)warnings.push(r+': title manquant'); if(h1===0)warnings.push(r+': H1 manquant'); if(!can)warnings.push(r+': canonical manquante');}
  const links=[...h.matchAll(/<a\b[^>]+href=["']([^"'#][^"']*)["']/gi)].map(m=>m[1]);
- pages[r]={title:title||r,can,links,inbound:0,depth:Infinity};
+ pages[r]={title:title||r,can,links,inbound:0,depth:Infinity,noindex:isNoindex};
 }
 for(const [r,p] of Object.entries(pages)){
  for(const raw of p.links){
@@ -38,9 +39,19 @@ if(pages['index.html']){
  while(q.length){const r=q.shift(),d=pages[r].depth;for(const raw of pages[r].links){if(/^(?:https?:|mailto:|tel:|javascript:|#)/i.test(raw))continue;let c=stripHashQuery(raw);if(!c)continue;let t=c.startsWith('/')?c.slice(1)||'index.html':path.posix.normalize(path.posix.join(path.posix.dirname(r),c));if(t.endsWith('/'))t+='index.html';if(pages[t]&&pages[t].depth>d+1){pages[t].depth=d+1;q.push(t);}}}
 }
 const canonSeen=new Map();
-for(const [r,p] of Object.entries(pages)){if(p.can){if(!p.can.startsWith(DOMAIN+'/'))warnings.push(r+': canonical hors domaine '+p.can); if(canonSeen.has(p.can))errors.push('canonical dupliquée: '+p.can+' ('+canonSeen.get(p.can)+', '+r+')'); else canonSeen.set(p.can,r);} if(p.inbound===0&&r!=='index.html')warnings.push(r+': aucune liaison interne entrante détectée'); if(Number.isFinite(p.depth)&&p.depth>3)warnings.push(r+': profondeur '+p.depth+' clics');}
+for(const [r,p] of Object.entries(pages)){
+ if(p.noindex) continue;
+ if(p.can){
+   let absCan;
+   try{absCan=new URL(p.can, DOMAIN+'/'+r).href;}catch(e){absCan=p.can;}
+   if(!absCan.startsWith(DOMAIN+'/'))warnings.push(r+': canonical hors domaine '+p.can);
+   if(canonSeen.has(absCan))errors.push('canonical dupliquée: '+absCan+' ('+canonSeen.get(absCan)+', '+r+')'); else canonSeen.set(absCan,r);
+ }
+ if(p.inbound===0&&r!=='index.html')warnings.push(r+': aucune liaison interne entrante détectée');
+ if(Number.isFinite(p.depth)&&p.depth>3)warnings.push(r+': profondeur '+p.depth+' clics');
+}
 const ranked=Object.entries(pages).sort((a,b)=>b[1].inbound-a[1].inbound).slice(0,20);
-const low=Object.entries(pages).filter(([r,p])=>r!=='index.html'&&p.inbound<2).sort((a,b)=>a[1].inbound-b[1].inbound).slice(0,40);
+const low=Object.entries(pages).filter(([r,p])=>r!=='index.html'&&!p.noindex&&p.inbound<2).sort((a,b)=>a[1].inbound-b[1].inbound).slice(0,40);
 let md='# Rapport SEO interne\n\n';
 md+='Pages analysées : **'+files.length+'**  \nErreurs : **'+errors.length+'**  \nAvertissements : **'+warnings.length+'**\n\n';
 md+='## Pages les plus soutenues\n\n| Page | Liens entrants | Profondeur |\n|---|---:|---:|\n'+ranked.map(([r,p])=>'| '+r+' | '+p.inbound+' | '+(Number.isFinite(p.depth)?p.depth:'—')+' |').join('\n')+'\n\n';
