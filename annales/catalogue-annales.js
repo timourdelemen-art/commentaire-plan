@@ -67,23 +67,23 @@ window.ANNALES_CATALOGUE = {
         "id": "plan",
         "kind": "plan",
         "aiMode": "recommended",
-        "titre": "5. Les solutions du plan",
+        "titre": "5. Les réponses du plan",
         "temps": 720,
         "access": "free",
-        "consigne": "Formulez deux ou trois grandes SOLUTIONS successives à la problématique. Une partie = une solution nécessaire, jamais un simple thème.",
+        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… ».",
         "choix": ["I. Les blessures / II. Les animaux / III. Le soleil", "I. Établir la défaite physique / II. Reprendre par la parole la maîtrise de ce qui est subi / III. Donner à la mort une dimension héroïque et glorieuse", "I. Le champ lexical / II. Les impératifs / III. Les figures de style"],
-        "correction": "Les trois solutions sont : 1. établir pleinement la défaite physique ; 2. montrer que Hialmar reprend par la parole la maîtrise de ce qu’il subit ; 3. faire finalement de sa mort une victoire héroïque et glorieuse."
+        "correction": "Les trois réponses sont : 1. établir pleinement la défaite physique ; 2. montrer que Hialmar reprend par la parole la maîtrise de ce qu’il subit ; 3. faire finalement de sa mort une victoire héroïque et glorieuse."
       },
       {
         "id": "necessite",
         "kind": "plan",
         "aiMode": "optional",
-        "titre": "6. Pourquoi chaque solution est-elle nécessaire ?",
+        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
         "temps": 540,
         "access": "free",
-        "consigne": "Pour chaque grande solution, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
+        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
       },
       {
         "id": "transitions",
@@ -92,7 +92,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "free",
-        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce que la solution précédente ne suffit pas encore à expliquer.",
+        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce que la réponse précédente ne suffit pas encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir ».",
         "choix": ["Nous allons maintenant voir la parole de Hialmar.", "Comment Hialmar peut-il alors rester maître au moment même où son corps ne lui obéit plus ?", "Après la défaite physique, nous étudierons les impératifs."],
         "correction": "Après la première solution : « Comment Hialmar peut-il alors rester maître au moment même où son corps ne lui obéit plus ? » Puis : « Mais commander sa propre mort suffit-il à en faire une victoire héroïque ? »"
@@ -104,7 +104,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "free",
-        "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
         "aide": "Cherchez des actions d’écriture différentes : construire la défaite, donner une autorité à la parole, modifier la valeur de la mort. Une réalisation n’est pas le nom d’une figure."
       },
       {
@@ -130,7 +130,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "free",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des solutions du plan.",
+        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -140,7 +140,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "free",
-        "consigne": "Rédigez une grande partie complète à partir de votre solution et de vos réalisations. Chaque analyse doit prouver la solution.",
+        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -225,21 +225,21 @@ window.ANNALES_CATALOGUE = {
         "id": "plan",
         "kind": "plan",
         "aiMode": "recommended",
-        "titre": "5. Les solutions du plan",
+        "titre": "5. Les réponses du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes SOLUTIONS successives à la problématique. Une partie = une solution nécessaire, jamais un simple thème.",
+        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
         "id": "necessite",
         "kind": "plan",
         "aiMode": "optional",
-        "titre": "6. Pourquoi chaque solution est-elle nécessaire ?",
+        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande solution, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
+        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
       },
       {
         "id": "transitions",
@@ -248,7 +248,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce que la solution précédente ne suffit pas encore à expliquer.",
+        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce que la réponse précédente ne suffit pas encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
@@ -258,7 +258,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
         "aide": "Cherchez comment le texte organise le regard : choix sensoriels ou lexicaux, point de vue, composition du passage, rythme. Formulez d’abord ce que ces moyens permettent de réaliser."
       },
       {
@@ -284,7 +284,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des solutions du plan.",
+        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -294,7 +294,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre solution et de vos réalisations. Chaque analyse doit prouver la solution.",
+        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -379,21 +379,21 @@ window.ANNALES_CATALOGUE = {
         "id": "plan",
         "kind": "plan",
         "aiMode": "recommended",
-        "titre": "5. Les solutions du plan",
+        "titre": "5. Les réponses du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes SOLUTIONS successives à la problématique. Une partie = une solution nécessaire, jamais un simple thème.",
+        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
         "id": "necessite",
         "kind": "plan",
         "aiMode": "optional",
-        "titre": "6. Pourquoi chaque solution est-elle nécessaire ?",
+        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande solution, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
+        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
       },
       {
         "id": "transitions",
@@ -402,7 +402,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce que la solution précédente ne suffit pas encore à expliquer.",
+        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce que la réponse précédente ne suffit pas encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
@@ -412,7 +412,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
         "aide": "Cherchez plusieurs opérations : creuser le vide et la solitude, faire circuler des paroles ou croyances, donner au paysage une présence, organiser une montée de l’inquiétude."
       },
       {
@@ -438,7 +438,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des solutions du plan.",
+        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -448,7 +448,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre solution et de vos réalisations. Chaque analyse doit prouver la solution.",
+        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -533,21 +533,21 @@ window.ANNALES_CATALOGUE = {
         "id": "plan",
         "kind": "plan",
         "aiMode": "recommended",
-        "titre": "5. Les solutions du plan",
+        "titre": "5. Les réponses du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes SOLUTIONS successives à la problématique. Une partie = une solution nécessaire, jamais un simple thème.",
+        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
         "id": "necessite",
         "kind": "plan",
         "aiMode": "optional",
-        "titre": "6. Pourquoi chaque solution est-elle nécessaire ?",
+        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande solution, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
+        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
       },
       {
         "id": "transitions",
@@ -556,7 +556,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce que la solution précédente ne suffit pas encore à expliquer.",
+        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce que la réponse précédente ne suffit pas encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
@@ -566,7 +566,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
         "aide": "Cherchez comment l’argumentation déplace le jugement : oppositions, exemples ou comparaisons, paradoxes éventuels, progression du raisonnement."
       },
       {
@@ -592,7 +592,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des solutions du plan.",
+        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -602,7 +602,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre solution et de vos réalisations. Chaque analyse doit prouver la solution.",
+        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -687,21 +687,21 @@ window.ANNALES_CATALOGUE = {
         "id": "plan",
         "kind": "plan",
         "aiMode": "recommended",
-        "titre": "5. Les solutions du plan",
+        "titre": "5. Les réponses du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes SOLUTIONS successives à la problématique. Une partie = une solution nécessaire, jamais un simple thème.",
+        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
         "id": "necessite",
         "kind": "plan",
         "aiMode": "optional",
-        "titre": "6. Pourquoi chaque solution est-elle nécessaire ?",
+        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande solution, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
+        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
       },
       {
         "id": "transitions",
@@ -710,7 +710,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce que la solution précédente ne suffit pas encore à expliquer.",
+        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce que la réponse précédente ne suffit pas encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
@@ -720,7 +720,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
         "aide": "Cherchez comment le poème fait communiquer les deux univers : métaphores, oppositions lexicales, rythme et organisation des vers."
       },
       {
@@ -746,7 +746,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des solutions du plan.",
+        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -756,7 +756,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre solution et de vos réalisations. Chaque analyse doit prouver la solution.",
+        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -841,21 +841,21 @@ window.ANNALES_CATALOGUE = {
         "id": "plan",
         "kind": "plan",
         "aiMode": "recommended",
-        "titre": "5. Les solutions du plan",
+        "titre": "5. Les réponses du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes SOLUTIONS successives à la problématique. Une partie = une solution nécessaire, jamais un simple thème.",
+        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
         "id": "necessite",
         "kind": "plan",
         "aiMode": "optional",
-        "titre": "6. Pourquoi chaque solution est-elle nécessaire ?",
+        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande solution, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
+        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
       },
       {
         "id": "transitions",
@@ -864,7 +864,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce que la solution précédente ne suffit pas encore à expliquer.",
+        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce que la réponse précédente ne suffit pas encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
@@ -874,7 +874,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
         "aide": "Cherchez comment le texte fait sentir simultanément l’accord et l’obstacle : perception interne, sensations, oppositions, rythme des pensées puis dialogue."
       },
       {
@@ -900,7 +900,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des solutions du plan.",
+        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -910,7 +910,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre solution et de vos réalisations. Chaque analyse doit prouver la solution.",
+        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -995,21 +995,21 @@ window.ANNALES_CATALOGUE = {
         "id": "plan",
         "kind": "plan",
         "aiMode": "recommended",
-        "titre": "5. Les solutions du plan",
+        "titre": "5. Les réponses du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes SOLUTIONS successives à la problématique. Une partie = une solution nécessaire, jamais un simple thème.",
+        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
         "id": "necessite",
         "kind": "plan",
         "aiMode": "optional",
-        "titre": "6. Pourquoi chaque solution est-elle nécessaire ?",
+        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande solution, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
+        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
       },
       {
         "id": "transitions",
@@ -1018,7 +1018,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce que la solution précédente ne suffit pas encore à expliquer.",
+        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce que la réponse précédente ne suffit pas encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
@@ -1028,7 +1028,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
         "aide": "Cherchez comment le poème transforme les objets de la scène : répétitions, images du feu, miroir, mémoire et composition fondée sur le retour des mêmes formules."
       },
       {
@@ -1054,7 +1054,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des solutions du plan.",
+        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -1064,7 +1064,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre solution et de vos réalisations. Chaque analyse doit prouver la solution.",
+        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -1149,21 +1149,21 @@ window.ANNALES_CATALOGUE = {
         "id": "plan",
         "kind": "plan",
         "aiMode": "recommended",
-        "titre": "5. Les solutions du plan",
+        "titre": "5. Les réponses du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes SOLUTIONS successives à la problématique. Une partie = une solution nécessaire, jamais un simple thème.",
+        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
         "id": "necessite",
         "kind": "plan",
         "aiMode": "optional",
-        "titre": "6. Pourquoi chaque solution est-elle nécessaire ?",
+        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande solution, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
+        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
       },
       {
         "id": "transitions",
@@ -1172,7 +1172,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce que la solution précédente ne suffit pas encore à expliquer.",
+        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce que la réponse précédente ne suffit pas encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
@@ -1182,7 +1182,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
         "aide": "Cherchez plusieurs mouvements d’écriture : généraliser, confronter l’individu au temps, faire entendre l’émotion, transformer la ruine en espace de retrait. Appuyez-vous sur rythme, énumérations, questions et images."
       },
       {
@@ -1208,7 +1208,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des solutions du plan.",
+        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -1218,7 +1218,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre solution et de vos réalisations. Chaque analyse doit prouver la solution.",
+        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -1303,21 +1303,21 @@ window.ANNALES_CATALOGUE = {
         "id": "plan",
         "kind": "plan",
         "aiMode": "recommended",
-        "titre": "5. Les solutions du plan",
+        "titre": "5. Les réponses du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes SOLUTIONS successives à la problématique. Une partie = une solution nécessaire, jamais un simple thème.",
+        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
         "id": "necessite",
         "kind": "plan",
         "aiMode": "optional",
-        "titre": "6. Pourquoi chaque solution est-elle nécessaire ?",
+        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande solution, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
+        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
       },
       {
         "id": "transitions",
@@ -1326,7 +1326,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce que la solution précédente ne suffit pas encore à expliquer.",
+        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce que la réponse précédente ne suffit pas encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
@@ -1336,7 +1336,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
         "aide": "Cherchez comment le dialogue rend le conflit visible : interrogations, reprises, antithèses, rythme des répliques et tension entre douleur privée et gloire publique."
       },
       {
@@ -1362,7 +1362,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des solutions du plan.",
+        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -1372,7 +1372,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre solution et de vos réalisations. Chaque analyse doit prouver la solution.",
+        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -1457,21 +1457,21 @@ window.ANNALES_CATALOGUE = {
         "id": "plan",
         "kind": "plan",
         "aiMode": "recommended",
-        "titre": "5. Les solutions du plan",
+        "titre": "5. Les réponses du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes SOLUTIONS successives à la problématique. Une partie = une solution nécessaire, jamais un simple thème.",
+        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
         "id": "necessite",
         "kind": "plan",
         "aiMode": "optional",
-        "titre": "6. Pourquoi chaque solution est-elle nécessaire ?",
+        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande solution, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
+        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
       },
       {
         "id": "transitions",
@@ -1480,7 +1480,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce que la solution précédente ne suffit pas encore à expliquer.",
+        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce que la réponse précédente ne suffit pas encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
@@ -1490,7 +1490,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
         "aide": "Cherchez comment le portrait agit : comparaisons et métaphores, réseaux lexicaux du corps, de l’animal ou de la nature, point de vue et composition collective."
       },
       {
@@ -1516,7 +1516,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des solutions du plan.",
+        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -1526,7 +1526,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre solution et de vos réalisations. Chaque analyse doit prouver la solution.",
+        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -1611,21 +1611,21 @@ window.ANNALES_CATALOGUE = {
         "id": "plan",
         "kind": "plan",
         "aiMode": "recommended",
-        "titre": "5. Les solutions du plan",
+        "titre": "5. Les réponses du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes SOLUTIONS successives à la problématique. Une partie = une solution nécessaire, jamais un simple thème.",
+        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
         "id": "necessite",
         "kind": "plan",
         "aiMode": "optional",
-        "titre": "6. Pourquoi chaque solution est-elle nécessaire ?",
+        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande solution, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
+        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
       },
       {
         "id": "transitions",
@@ -1634,7 +1634,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce que la solution précédente ne suffit pas encore à expliquer.",
+        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce que la réponse précédente ne suffit pas encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
@@ -1644,7 +1644,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
         "aide": "Cherchez comment le théâtre du masque devient crise de l’identité : images du rôle et du spectacle, antithèses, questions, modalisation et rythme des longues tirades."
       },
       {
@@ -1670,7 +1670,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des solutions du plan.",
+        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -1680,7 +1680,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre solution et de vos réalisations. Chaque analyse doit prouver la solution.",
+        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -1765,21 +1765,21 @@ window.ANNALES_CATALOGUE = {
         "id": "plan",
         "kind": "plan",
         "aiMode": "recommended",
-        "titre": "5. Les solutions du plan",
+        "titre": "5. Les réponses du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes SOLUTIONS successives à la problématique. Une partie = une solution nécessaire, jamais un simple thème.",
+        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
         "id": "necessite",
         "kind": "plan",
         "aiMode": "optional",
-        "titre": "6. Pourquoi chaque solution est-elle nécessaire ?",
+        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande solution, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
+        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
       },
       {
         "id": "transitions",
@@ -1788,7 +1788,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce que la solution précédente ne suffit pas encore à expliquer.",
+        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce que la réponse précédente ne suffit pas encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
@@ -1798,7 +1798,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
         "aide": "Cherchez comment l’écriture fait glisser du réel au possible : accumulations d’objets, modalisation, conditionnel, oppositions et composition de la description."
       },
       {
@@ -1824,7 +1824,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des solutions du plan.",
+        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -1834,7 +1834,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre solution et de vos réalisations. Chaque analyse doit prouver la solution.",
+        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -1919,21 +1919,21 @@ window.ANNALES_CATALOGUE = {
         "id": "plan",
         "kind": "plan",
         "aiMode": "recommended",
-        "titre": "5. Les solutions du plan",
+        "titre": "5. Les réponses du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes SOLUTIONS successives à la problématique. Une partie = une solution nécessaire, jamais un simple thème.",
+        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
         "id": "necessite",
         "kind": "plan",
         "aiMode": "optional",
-        "titre": "6. Pourquoi chaque solution est-elle nécessaire ?",
+        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande solution, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres solutions n’apportent pas."
+        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
       },
       {
         "id": "transitions",
@@ -1942,7 +1942,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les solutions, écrivez seulement la question qui fait apparaître ce que la solution précédente ne suffit pas encore à expliquer.",
+        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce que la réponse précédente ne suffit pas encore à expliquer.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
@@ -1952,7 +1952,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque solution, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
         "aide": "Cherchez comment le lieu est requalifié : choix lexicaux, images, rythme, adresse éventuelle au lieu et progression de la composition."
       },
       {
@@ -1978,7 +1978,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des solutions du plan.",
+        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -1988,7 +1988,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre solution et de vos réalisations. Chaque analyse doit prouver la solution.",
+        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
