@@ -1,0 +1,6 @@
+(()=>{const sets=window.PHILO_ANNALES_2026||[];const list=document.getElementById("philoAnnalesList"),filters=document.getElementById("philoAnnalesFilters");if(!list)return;
+let mode="all";
+const btn=(key,label)=>{const b=document.createElement("button");b.type="button";b.className="manual-choice"+(mode===key?" selected":"");b.textContent=label;b.onclick=()=>{mode=key;render();[...filters.children].forEach(x=>x.classList.toggle("selected",x.dataset.mode===mode));};b.dataset.mode=key;return b;};
+filters.append(btn("all","Tous"),btn("dissertation","Dissertations"),btn("texte","Explications de texte"));
+function render(){list.innerHTML="";for(const set of sets){for(const s of set.subjects){if(mode!=="all"&&s.type!==mode)continue;const a=document.createElement("a");a.href="philosophie-annale.html?id="+encodeURIComponent(s.id);a.className="annale-card";a.innerHTML="<strong>"+set.center+" · "+(s.type==="dissertation"?"Dissertation":"Explication de texte")+"</strong><span>"+s.title+"</span><small>"+set.code+" · travailler séparément →</small>";list.appendChild(a);}}}
+render();})();
