@@ -186,6 +186,44 @@ Un élève doit pouvoir répondre en moins de 10 secondes à :
 
 Le terme « établissement » ne désigne plus une partie. Le terme « solution » ne remplace pas « réponse » dans le protocole du commentaire.
 
+## Audit approfondi du 5 octobre 2026 — reste à faire
+
+### Priorité A — découverte et indexation
+- Maintenir le tracker d’indexation sur les 53 URL stratégiques.
+- Concentrer les liens internes sur les hubs déjà prêts : Accueil, Bac, Brevet, Commentaire, Méthode, Problématique, Plan, Procédés/Effets, Annales, Pot-Bouille.
+- Ne pas publier en rafale de nouvelles pages tant que les hubs principaux restent inconnus de Google.
+- Vérifier après chaque déploiement que les anciennes routes sont réellement servies en 301 et absentes du sitemap.
+- Finaliser IndexNow dès que le fichier de clé est effectivement servi par Netlify.
+- Connecter Bing Webmaster Tools si possible pour mesurer indexation et backlinks hors Google.
+
+### Priorité B — autorité et citabilité
+- Transformer les actifs pédagogiques réellement originaux en ressources citables : méthode donné → attente → transformation, transition-question, effet ici, futur système de problématisation philosophique.
+- Préparer une page de référence professeur suffisamment autonome pour être citée depuis blogs pédagogiques, associations et pages de ressources.
+- Chercher quelques liens éditoriaux réels et thématiquement proches plutôt qu’un grand volume de liens faibles.
+- À terme : démarches ciblées vers associations de professeurs, blogs de lettres, ressources académiques et communautés d’enseignants lorsque la ressource est assez mature pour mériter la citation.
+
+### Priorité C — identité et apparence de recherche
+- Créer un favicon carré stable (au moins 48×48) réellement représentatif de Commentaire Plan.
+- Créer une image sociale 1200×630 cohérente avec l’identité du site et la déclarer via og:image sur les pages stratégiques.
+- Enrichir l’identité structurée seulement avec des informations vraies et publiables ; ne pas inventer une Organization ou un auteur.
+- Conserver WebSite + BreadcrumbList comme base ; n’ajouter Article que lorsque la page a réellement auteur, dates et image pertinents.
+- Ajouter une page 404 utile et surveiller plus tard les URL inexistantes réellement visitées avant de créer des redirections ciblées.
+
+### Priorité D — recherche IA
+- Autoriser explicitement OAI-SearchBot dans robots.txt.
+- Ne pas créer de llms.txt ni de fichiers « GEO » spéciaux : Google indique qu’ils ne sont pas nécessaires à ses fonctionnalités génératives.
+- Optimiser d’abord l’indexation classique, le texte utile, les liens internes, les images pertinentes et la structure claire.
+- Quand des impressions apparaîtront, analyser séparément les rapports Search Generative AI et multimodal de Search Console.
+
+### Priorité E — ce qu’il faut attendre
+- Bouton Google « source préférée » : intéressant plus tard, mais inutile de charger un script tiers tant que le domaine n’a presque pas d’audience et que les hubs ne sont pas indexés.
+- A/B tests de titres et CTR : attendre des impressions suffisantes.
+- Création de dizaines de pages longue traîne : attendre que les pages piliers soient explorées et que Search Console révèle les requêtes réelles.
+- Redirections d’URL halluciné​es par des assistants IA : attendre d’observer de vrais 404 provenant de trafic.
+
+### Indicateur de départ
+Tracker Search Console au 5 octobre 2026 : 53 URL suivies ; 2 indexées ; 8 connues mais non indexées ; 43 en attente ; 0 erreur ; 0 avertissement. Ce point zéro sert de référence pour mesurer les effets des modifications.
+
 ## Offensive SEO autorisée
 Approche agressive mais durable :
 - génération statique de navigation crawlable ;
