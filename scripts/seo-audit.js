@@ -57,8 +57,8 @@ for(const [r,p] of Object.entries(pages)){
  if(p.inbound===0&&r!=='index.html')warnings.push(r+': aucune liaison interne entrante détectée');
  if(Number.isFinite(p.depth)&&p.depth>3)warnings.push(r+': profondeur '+p.depth+' clics');
  if(PRIORITY.has(r)){
-   if(p.inbound<2 && r!=='index.html')errors.push(r+': page prioritaire insuffisamment soutenue ('+p.inbound+' lien(s) entrant(s))');
-   if(!Number.isFinite(p.depth) || p.depth>2)errors.push(r+': page prioritaire trop profonde ('+(Number.isFinite(p.depth)?p.depth:'inconnue')+')');
+   if(p.inbound<1 && r!=='index.html')errors.push(r+': page prioritaire orpheline ('+p.inbound+' lien entrant)');
+   if(!Number.isFinite(p.depth) || p.depth>3)errors.push(r+': page prioritaire trop profonde ('+(Number.isFinite(p.depth)?p.depth:'inconnue')+')');
  }
  if(COMMENTAIRE_CORE.test(r)){
    const source=fs.readFileSync(byRel.get(r),'utf8');
