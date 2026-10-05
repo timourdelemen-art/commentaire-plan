@@ -4,7 +4,9 @@
   const params=new URLSearchParams(location.search);
   const modeKey=params.get("mode")||"effetici";
   const mode=modes[modeKey]||modes.nommer;
-  let index=0;
+  const requestedItem=params.get("item");
+  let index=Math.max(0, requestedItem ? corpus.findIndex(x=>x.id===requestedItem) : 0);
+  if(index<0) index=0;
   let answered=false;
 
   const el={
@@ -59,7 +61,7 @@
     answered=false; el.feedback.className="feedback"; el.feedback.innerHTML=""; el.next.className="quiz-next"; el.lock.hidden=true;
     const item=corpus[index%corpus.length];
     el.progress.textContent=(index+1)+" / "+corpus.length+" · "+mode.title.toUpperCase();
-    el.author.textContent=item.auteur.toUpperCase()+" · "+item.oeuvre;
+    el.author.innerHTML=esc(item.auteur.toUpperCase()+" · "+item.oeuvre+(item.annee?" · "+item.annee:""))+(item.sourceAnnale?"<br><span class=\"micro\">"+esc(item.sourceAnnale)+"</span>":"");
     el.quote.textContent="« "+item.citation+" »";
 
     if(mode.kind==="effect-reference"){
@@ -95,6 +97,7 @@
         el.feedback.innerHTML=
           "<strong>Effet de référence</strong><p>"+esc(item.effet)+"</p>"+
           (item.note?"<p class='micro'><strong>Contexte utile :</strong> "+esc(item.note)+"</p>":"")+
+          (item.annaleHref?"<p class='micro'><a class=\"official-link\" href=\""+esc(item.annaleHref)+"\">Travailler l’annale complète →</a></p>":"")+
           "<p class='micro'>Test : votre formulation dit-elle quelque chose qui ne pourrait pas convenir à dix autres citations ? Peut-elle être raccourcie sans perdre sa précision ?</p>";
         el.feedback.classList.add("show");
         el.next.classList.add("show");
