@@ -15,4 +15,8 @@ window.PHILO_ANNALES_2026=[
 {id:"2026-g1-bien-agir",type:"dissertation",title:"Peut-on être certain d’avoir bien agi ?"},
 {id:"2026-g1-nature-besoin",type:"dissertation",title:"La nature a-t-elle besoin de nous ?"},
 {id:"2026-g1-weil",type:"texte",title:"Simone Weil, La Condition ouvrière (1951)",author:"Simone Weil"}]}
+,{center:"Asie",code:"26-PHGEJA1",source:"https://www.education.gouv.fr/sites/default/files/document/baccalaureat-general-2026-philosophie-517430.pdf",subjects:[
+{id:"2026-asie-langage",type:"dissertation",title:"Sommes-nous prisonniers du langage ?"},
+{id:"2026-asie-inconscient-bonheur",type:"dissertation",title:"Faut-il être inconscient pour être heureux ?"},
+{id:"2026-asie-tocqueville",type:"texte",title:"Tocqueville, De la démocratie en Amérique (1840)",author:"Alexis de Tocqueville"}]}
 ];
