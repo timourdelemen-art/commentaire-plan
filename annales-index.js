@@ -33,7 +33,7 @@
       <div class="micro">${esc(x.zone)} · ${esc(x.serie)}</div>
       <h3>${esc(x.auteur)} — <em>${esc(x.oeuvre)}</em></h3>
       <p>${esc(x.contexte)}</p>
-      <p class="micro">${x.type==="bac-commentaire"?"Problématique → solutions → analyse → rédaction":"Chaque question officielle → réponse → aide → correction → reprise"}</p>
+      <p class="micro">${x.type==="bac-commentaire"?"Problématique → réponses → analyse → rédaction":"Chaque question officielle → réponse → aide → correction → reprise"}</p>
       <p class="micro ai-usage">${(()=>{
         const modes=(x.etapes||[]).map(s=>s.aiMode||"optional");
         const local=modes.filter(m=>m==="none").length;
