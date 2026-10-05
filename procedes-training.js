@@ -2,7 +2,7 @@
   const corpus=window.PROCEDES_CORPUS||[];
   const modes=window.PROCEDES_MODES||{};
   const params=new URLSearchParams(location.search);
-  const modeKey=params.get("mode")||"nommer";
+  const modeKey=params.get("mode")||"effetici";
   const mode=modes[modeKey]||modes.nommer;
   let index=0;
   let answered=false;
@@ -62,7 +62,44 @@
     el.author.textContent=item.auteur.toUpperCase()+" · "+item.oeuvre;
     el.quote.textContent="« "+item.citation+" »";
 
-    if(mode.kind==="qcm-procede"){
+    if(mode.kind==="effect-reference"){
+      const all=[...new Set(corpus.flatMap(x=>x.procedures))];
+      const wrong=all.filter(p=>!item.procedures.includes(p)).sort(()=>0.5-Math.random()).slice(0,Math.max(3,6-item.procedures.length));
+      const opts=[...item.procedures,...wrong].sort((a,b)=>a.localeCompare(b,"fr"));
+      el.task.innerHTML=
+        "<p class='instruction'><strong>1. Repérez tous les procédés utiles.</strong> Plusieurs réponses peuvent être justes.</p>"+
+        "<div class='choices multi-choices'>"+opts.map(o=>"<label class='choice checkbox-choice'><input type='checkbox' value='"+esc(o)+"'> <span>"+esc(o)+"</span></label>").join("")+"</div>"+
+        "<button class='btn small' id='validate-procedures'>Valider les procédés →</button>"+
+        "<div id='effect-step' hidden><p class='instruction'><strong>2. Effet ici.</strong> En une phrase, dites ce que ces procédés produisent précisément dans ce passage. Cherchez la formulation la plus brève qui rende compte de toute leur force.</p>"+
+        "<textarea class='exam-writing-area' rows='5' id='effect-answer' placeholder='Votre effet ici…'></textarea>"+
+        "<button class='btn red small' id='compare-effect'>Comparer à l’effet de référence →</button></div>";
+      document.getElementById("validate-procedures").onclick=()=>{
+        const chosen=[...el.task.querySelectorAll("input[type=checkbox]:checked")].map(x=>x.value).sort();
+        const expected=[...item.procedures].sort();
+        const ok=chosen.length===expected.length && chosen.every((x,i)=>x===expected[i]);
+        el.feedback.innerHTML="<strong>"+(ok?"Procédés repérés.":"À reprendre.")+"</strong><p>"+(ok?"Vous avez repéré tous les procédés utiles. Passez maintenant à l’effet ici.":"Il faut repérer tous les procédés utiles, sans en ajouter d’inutile. Réessayez.")+"</p>";
+        el.feedback.classList.add("show");
+        if(ok){
+          el.task.querySelectorAll("input[type=checkbox]").forEach(x=>x.disabled=true);
+          document.getElementById("validate-procedures").disabled=true;
+          document.getElementById("effect-step").hidden=false;
+        }
+      };
+      document.getElementById("compare-effect").onclick=()=>{
+        const answer=document.getElementById("effect-answer").value.trim();
+        if(answer.length<8){
+          el.feedback.innerHTML="<strong>Formulez d’abord votre effet.</strong><p>Écrivez une phrase précise avant de comparer.</p>";
+          el.feedback.classList.add("show");
+          return;
+        }
+        el.feedback.innerHTML=
+          "<strong>Effet de référence</strong><p>"+esc(item.effet)+"</p>"+
+          (item.note?"<p class='micro'><strong>Contexte utile :</strong> "+esc(item.note)+"</p>":"")+
+          "<p class='micro'>Test : votre formulation dit-elle quelque chose qui ne pourrait pas convenir à dix autres citations ? Peut-elle être raccourcie sans perdre sa précision ?</p>";
+        el.feedback.classList.add("show");
+        el.next.classList.add("show");
+      };
+    }else if(mode.kind==="qcm-procede"){
       const opts=[item.procedures[0],...pickDistractors("procedure",item,3)];
       buttons(opts,item.procedures,"Le procédé attendu ici est <strong>"+item.procedures.join(" / ")+"</strong>. Il décrit comment l’élément est construit, pas ce qu’il signifie.");
     }else if(mode.kind==="qcm-effet"){
