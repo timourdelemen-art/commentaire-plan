@@ -93,11 +93,11 @@
 
   const TARGETS=[
     ["problematique","Problématique","Formuler la question qui fait apparaître ce que le texte oblige à expliquer."],
-    ["plan","Plan","Construire deux ou trois solutions nécessaires à la problématique."],
+    ["plan","Plan","Construire deux ou trois réponses nécessaires à la problématique."],
     ["preuves","Procédés & effets","Repérer des éléments, nommer des procédés utiles et expliquer leur effet ici."],
     ["intro","Introduction","Rédiger une introduction brève et fonctionnelle."],
     ["partie","Rédiger une partie","Développer une réponse en la prouvant par plusieurs analyses."],
-    ["transitions","Transition","Écrire la seule question qui fait apparaître ce que la solution précédente ne suffit pas encore à expliquer."],
+    ["transitions","Transition","Écrire la seule question qui fait apparaître ce que la réponse précédente ne suffit pas encore à expliquer."],
     ["raccord","Transition","Écrire la seule question qui fait apparaître ce qu’il reste à expliquer."],
     ["conclusion","Conclusion","Synthétiser les effets sans résumer mécaniquement le plan."]
   ];
@@ -301,16 +301,16 @@
     const core=[
       "L’élève doit répondre avant toute aide.",
       "Commencer par identifier un point acquis, puis un seul manque principal.",
-      "Poser une question de reprise avant de donner une solution complète.",
+      "Poser une question de reprise avant de donner une réponse complète.",
       "Ne jamais inventer une citation, une image ou un élément absent du support.",
       "Ne jamais accepter un effet générique du type « cela insiste » ou « cela met en valeur » sans précision.",
       "Si l’élève a utilisé une aide, évaluer malgré tout sa capacité à justifier et à expliquer."
     ];
     if(item.type==="bac-commentaire"){
       core.push(
-        "Une grande partie est une SOLUTION nécessaire à la problématique, jamais un thème.",
-        "Le mot « établissement » est interdit pour désigner une partie : employer SOLUTION.",
-        "La NÉCESSITÉ DE LA SOLUTION explique pourquoi cette solution est indispensable pour comprendre la transformation et répondre à la problématique.",
+        "Une grande partie est une RÉPONSE nécessaire à la problématique, jamais un thème.",
+        "Le mot « établissement » est interdit pour désigner une partie : employer RÉPONSE.",
+        "La NÉCESSITÉ DE LA RÉPONSE explique pourquoi cette réponse est indispensable pour comprendre la transformation et répondre à la problématique.",
         "Une TRANSITION est uniquement une question simple qui fait apparaître ce qu’il reste encore à expliquer.",
         "RÉALISATION = ce que le texte fait ; ÉLÉMENT TEXTUEL = ce qui le montre ; PROCÉDÉ = comment l’élément est construit ; EFFET = ce que cela change ici.",
         "Pour un procédé, ne jamais valider le seul nom : exiger l’élément précis et l’effet contextualisé.",
