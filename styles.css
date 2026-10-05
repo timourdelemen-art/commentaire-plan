@@ -1708,3 +1708,15 @@ main.wrap{overflow:hidden}
 .seo-breadcrumbs [aria-current="page"]{
   opacity:.72;
 }
+
+/* Laboratoire de l'effet ici */
+.effect-proof-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border-top:1px solid var(--rule);border-left:1px solid var(--rule);margin:50px 18px 70px}
+.effect-proof-grid article{padding:30px;border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);min-height:320px}
+.effect-proof-grid article>span{font:12px 'American Typewriter','Courier New',monospace;letter-spacing:1.5px;color:var(--red)}
+.effect-proof-grid h2{font-size:34px;font-weight:400;margin:24px 0 16px}
+.quote-small{font-size:21px;line-height:1.4}
+.weak-effect{padding:14px 16px;background:#eee4d3;border-left:4px solid #777}
+.effect-lab{padding-top:20px}
+.effect-lab-controls{display:grid;grid-template-columns:1fr 320px;gap:14px;margin:24px 0 12px}
+.effect-lab-controls input,.effect-lab-controls select{font:16px Georgia,'Times New Roman',serif;background:#fffdf8;border:1px solid #999;padding:13px 14px}
+@media(max-width:800px){.effect-proof-grid{grid-template-columns:1fr}.effect-lab-controls{grid-template-columns:1fr}}
