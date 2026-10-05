@@ -39,9 +39,13 @@ function finish(){
  prog.textContent="DIAGNOSTIC TERMINÉ";
  const order=["problematiser","argumenter","transitions","troisieme","references"];
  const weak=order.filter(k=>!scores[k]);
- const priority=weak[0]||"argumenter";
  const solid=order.filter(k=>scores[k]);
- stage.innerHTML='<div class="diag-result"><div class="kicker">VOTRE PRIORITÉ</div><h2>'+labels[priority]+'</h2><p>Vous avez réussi '+solid.length+' geste'+(solid.length>1?"s":"")+' sur 5. Le diagnostic ne donne pas une note : il indique où commencer.</p><div class="prescription"><strong>Travail conseillé :</strong><br>'+prescription(priority)+'</div><a class="btn red" href="'+links[priority]+'">Travailler cette priorité →</a> <a class="home-text-link" href="philosophie-laboratoire.html">Voir tous les exercices →</a><p class="micro"><button type="button" class="philo-reset" id="diagReset">Recommencer le diagnostic</button></p></div>';
+ if(!weak.length){
+   stage.innerHTML='<div class="diag-result"><div class="kicker">LES CINQ GESTES RÉSISTENT</div><h2>Passez au transfert.</h2><p>Vous avez réussi les cinq mini-situations. Le bon test maintenant est un sujet complet, sans guidage initial.</p><div class="prescription"><strong>Travail conseillé :</strong><br>Choisissez une annale, construisez seul la problématique et le mouvement du plan, puis revenez au laboratoire seulement sur le geste qui résiste.</div><a class="btn red" href="philosophie-annales.html">Choisir une annale →</a> <a class="home-text-link" href="philosophie-laboratoire.html">Voir le laboratoire →</a><p class="micro"><button type="button" class="philo-reset" id="diagReset">Recommencer le diagnostic</button></p></div>';
+ }else{
+   const priority=weak[0];
+   stage.innerHTML='<div class="diag-result"><div class="kicker">VOTRE PRIORITÉ</div><h2>'+labels[priority]+'</h2><p>Vous avez réussi '+solid.length+' geste'+(solid.length>1?"s":"")+' sur 5. Le diagnostic ne donne pas une note : il indique où commencer.</p><div class="prescription"><strong>Travail conseillé :</strong><br>'+prescription(priority)+'</div><a class="btn red" href="'+links[priority]+'">Travailler cette priorité →</a> <a class="home-text-link" href="philosophie-laboratoire.html">Voir tous les exercices →</a><p class="micro"><button type="button" class="philo-reset" id="diagReset">Recommencer le diagnostic</button></p></div>';
+ }
  document.getElementById("diagReset").onclick=()=>{i=0;Object.keys(scores).forEach(k=>delete scores[k]);show();};
 }
 function prescription(k){
