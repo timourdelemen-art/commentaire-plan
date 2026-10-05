@@ -24,7 +24,7 @@
 
   el.title.textContent=mode.title;
   el.lede.textContent=mode.lede;
-  el.status.innerHTML="<strong>"+(mode.free?"Accès gratuit":"Aperçu accès complet")+"</strong><br>Corpus de "+corpus.length+" citations.";
+  el.status.innerHTML="<strong>Accès gratuit</strong><br>Corpus de "+corpus.length+" citations.";
 
   function esc(s){return String(s).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[m]));}
   function pickDistractors(field,item,n=2){
@@ -50,12 +50,7 @@
   function showFeedback(ok,html){
     el.feedback.innerHTML="<strong>"+(ok?"Oui.":"À reprendre.")+"</strong><p>"+html+"</p>";
     el.feedback.classList.add("show");
-    if(!mode.free){
-      el.next.classList.remove("show");
-      el.lock.hidden=false;
-    }else{
-      el.next.classList.add("show");
-    }
+    el.next.classList.add("show");
   }
   function render(){
     answered=false; el.feedback.className="feedback"; el.feedback.innerHTML=""; el.next.className="quiz-next"; el.lock.hidden=true;
@@ -113,7 +108,7 @@
       document.getElementById("reveal-answer").onclick=()=>showFeedback(true,"Le défaut principal est que l’effet répète le nom du procédé. Il faut expliquer ce que ce choix change ici. <strong>"+item.effet+"</strong>");
     }else if(mode.kind==="chain"){
       el.task.innerHTML="<p class='instruction'>Construisez la chaîne complète.</p><label>Élément textuel<textarea class='exam-writing-area' rows='2'></textarea></label><label>Procédé<textarea class='exam-writing-area' rows='2'></textarea></label><label>Effet ici<textarea class='exam-writing-area' rows='4'></textarea></label><button class='btn red small' id='reveal-answer'>Comparer →</button>";
-      document.getElementById("reveal-answer").onclick=()=>showFeedback(true,"<strong>Élément :</strong> "+item.element+"<br><strong>Procédé :</strong> "+item.procedures.join(" / ")+"<br><strong>Effet ici :</strong> "+item.effet);
+      document.getElementById("reveal-answer").onclick=()=>showFeedback(true,"<strong>Élément :</strong> « "+esc(item.element||item.citation)+" »<br><strong>Procédé :</strong> "+item.procedures.join(" / ")+"<br><strong>Effet ici :</strong> "+item.effet);
     }else if(mode.kind==="multiple"){
       el.task.innerHTML="<p class='instruction'>Trouvez au moins deux procédés possibles et dites ce que chacun permet de voir.</p><textarea class='exam-writing-area' rows='6'></textarea><button class='btn red small' id='reveal-answer'>Voir une réponse recevable →</button>";
       document.getElementById("reveal-answer").onclick=()=>showFeedback(true,"Procédés possibles : <strong>"+item.procedures.join(" / ")+"</strong>"+(item.effet2?"<br>Deuxième effet possible : "+item.effet2:"")+"<br>Effet principal : "+item.effet);
