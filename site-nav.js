@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded',()=> {
 
   const path=(location.pathname.split('/').pop()||'index.html').toLowerCase();
   const bacPages=['bac.html','anthologie-bac.html','bac-commentaire.html','bac-commentaire-procedes.html','bac-commentaire-procedes-entrainement.html','bac-dissertation.html','bac-dissertation-methode.html','bac-oral.html','bac-mode-examen.html','commentaire-bac-methode.html','commentaire-bac-problematique.html','commentaire-bac-plan.html','commentaire-bac-procedes-effets.html','commentaire-bac-introduction.html','commentaire-bac-transition.html','commentaire-bac-conclusion.html','oeuvres-integrales.html','pot-bouille.html','pot-bouille-pb01.html','pot-bouille-pb02.html','pot-bouille-pb03.html'];
-  const philoPages=['philosophie.html','philosophie-dissertation.html','philosophie-dissertation-entrainement.html','philosophie-annales.html','philosophie-annale.html'];
+  const philoPages=['philosophie.html','philosophie-dissertation.html','philosophie-dissertation-entrainement.html','philosophie-problematisation.html','philosophie-operations.html','philosophie-annales.html','philosophie-annale.html'];
   const brevetPages=['brevet.html','anthologie-brevet.html','brevet-comprehension.html','brevet-grammaire.html','brevet-reecriture.html','brevet-redaction.html','brevet-imagination.html','brevet-reflexion.html'];
   const teacherPages=['enseignants.html','formation.html','bibliotheque.html','pot-bouille-professeurs.html'];
   const manualPages=['manuel-procedes.html','bac-commentaire-procedes.html','bac-commentaire-procedes-entrainement.html','parcours.html'];
@@ -33,6 +33,8 @@ document.addEventListener('DOMContentLoaded',()=> {
     portal('philosophie.html','PHILO','Terminale',[
       ['philosophie.html','Comprendre la démarche','Cours, textes et dissertation à partir des problèmes'],
       ['philosophie-dissertation.html','Méthode de dissertation','Sujet → problème → réponses → transitions → résolution'],
+      ['philosophie-problematisation.html','Construire la problématique','Lire la forme du sujet et faire apparaître la difficulté'],
+      ['philosophie-operations.html','Travailler avec les philosophes','Énoncé → opération → ce que cela résout ici'],
       ['philosophie-dissertation-entrainement.html','S’entraîner geste par geste','Réponse, coût, problématique, transition et troisième partie'],
       ['philosophie-annales.html','Faire une annale','Dissertation ou explication de texte, sujet par sujet']
     ],is(philoPages)?'active':''),
