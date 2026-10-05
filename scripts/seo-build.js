@@ -25,7 +25,7 @@ function abs(href){ return href.startsWith('/') ? href : '/' + href; }
 const bacPages=new Set(['bac.html','anthologie-bac.html','bac-commentaire.html','bac-commentaire-procedes.html','bac-commentaire-procedes-entrainement.html','bac-dissertation.html','bac-dissertation-methode.html','bac-oral.html','bac-mode-examen.html','commentaire-bac-methode.html','commentaire-bac-problematique.html','commentaire-bac-plan.html','commentaire-bac-procedes-effets.html','commentaire-bac-introduction.html','commentaire-bac-transition.html','commentaire-bac-conclusion.html','oeuvres-integrales.html','pot-bouille.html','pot-bouille-pb01.html','pot-bouille-pb02.html','pot-bouille-pb03.html']);
 const brevetPages=new Set(['brevet.html','anthologie-brevet.html','brevet-comprehension.html','brevet-grammaire.html','brevet-reecriture.html','brevet-redaction.html','brevet-imagination.html','brevet-reflexion.html']);
 const teacherPages=new Set(['enseignants.html','formation.html','bibliotheque.html','pot-bouille-professeurs.html']);
-const manualPages=new Set(['manuel-procedes.html','bac-commentaire-procedes.html','bac-commentaire-procedes-entrainement.html','parcours.html']);
+const manualPages=new Set(['manuel-procedes.html','bac-commentaire-procedes.html','bac-commentaire-procedes-entrainement.html','laboratoire-effet-ici.html','parcours.html']);
 
 function portal(file, href,label,sub,items,active,offer){
   return `
@@ -62,7 +62,7 @@ function staticHeader(file){
       ['commentaire-bac-methode.html','Comprendre la méthode','De la lecture à la problématique et au plan'],
       ['manuel-procedes.html','Chercher un procédé','Définitions, exemples et effets'],
       ['bac-commentaire-procedes.html','Comprendre procédés et effets','Relier forme, effet et interprétation'],
-      ['bac-commentaire-procedes-entrainement.html','S’entraîner sur les procédés','Identifier puis expliquer précisément'],
+      ['bac-commentaire-procedes-entrainement.html','S’entraîner sur les procédés','Identifier puis expliquer précisément'],['laboratoire-effet-ici.html','Laboratoire de l’effet ici','28 exemples contextualisés et filtrables'],
       ['parcours.html','Suivre un parcours guidé','Avancer étape par étape']
     ],manualPages.has(base)),
     portal(file,'enseignants.html','ENSEIGNANTS','3e · 2de · 1re',[
