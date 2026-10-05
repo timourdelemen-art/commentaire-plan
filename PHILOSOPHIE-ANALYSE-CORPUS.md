@@ -189,7 +189,8 @@ Critère :
 19. dissertation puzzle ;
 20. plan → test de permutation ;
 21. troisième partie → test de conservation ;
-22. mini-dissertation → dissertation complète.
+22. fabriquer de bons distracteurs à partir d’erreurs typiques : trop général, simple reformulation, fausse alternative, présupposé non interrogé, hors sujet partiel ;
+23. mini-dissertation → dissertation complète.
 
 ## IA / sans IA
 
