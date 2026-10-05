@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded',()=> {
   if(!document.querySelector('footer.site-footer')){
     const footer=document.createElement('footer');
     footer.className='site-footer';
-    footer.innerHTML='<div class="wrap"><a href="apropos.html">La démarche</a><a href="mentions-legales.html">Mentions légales</a><a href="confidentialite.html">Confidentialité</a><a href="cgv.html">CGV</a></div>';
+    footer.innerHTML='<div class="wrap"><a href="plan-du-site.html">Plan du site</a><a href="apropos.html">La démarche</a><a href="mentions-legales.html">Mentions légales</a><a href="confidentialite.html">Confidentialité</a><a href="cgv.html">CGV</a></div>';
     document.body.appendChild(footer);
   }
 
