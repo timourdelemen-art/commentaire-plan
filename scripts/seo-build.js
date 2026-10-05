@@ -80,7 +80,7 @@ function staticHeader(file){
 </header>`;
 }
 
-const footer=`<footer class="site-footer" data-seo-static-footer="1"><div class="wrap"><a href="/apropos.html">La démarche</a><a href="/mentions-legales.html">Mentions légales</a><a href="/confidentialite.html">Confidentialité</a><a href="/cgv.html">CGV</a></div></footer>`;
+const footer=`<footer class="site-footer" data-seo-static-footer="1"><div class="wrap"><a href="/plan-du-site.html">Plan du site</a><a href="/apropos.html">La démarche</a><a href="/mentions-legales.html">Mentions légales</a><a href="/confidentialite.html">Confidentialité</a><a href="/cgv.html">CGV</a></div></footer>`;
 
 function firstH1(html){
   const m=html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i);
