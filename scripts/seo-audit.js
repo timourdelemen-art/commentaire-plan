@@ -7,6 +7,13 @@ const SKIP=new Set(['.git','node_modules','.netlify']);
 function walk(d){const o=[];for(const e of fs.readdirSync(d,{withFileTypes:true})){if(SKIP.has(e.name))continue;const f=path.join(d,e.name);if(e.isDirectory())o.push(...walk(f));else if(e.isFile()&&e.name.endsWith('.html'))o.push(f);}return o;}
 const files=walk(ROOT), byRel=new Map(files.map(f=>[path.relative(ROOT,f).split(path.sep).join('/'),f]));
 const pages={}; const errors=[]; const warnings=[];
+const PRIORITY=new Set([
+  'index.html','bac.html','brevet.html','bac-commentaire.html','bac-dissertation.html','bac-oral.html',
+  'commentaire-bac-methode.html','commentaire-bac-problematique.html','commentaire-bac-plan.html',
+  'commentaire-bac-procedes-effets.html','commentaire-bac-introduction.html','commentaire-bac-transition.html',
+  'commentaire-bac-conclusion.html','annales.html','manuel-procedes.html','pot-bouille.html'
+]);
+const COMMENTAIRE_CORE=/^(?:bac-commentaire(?:-[^/]*)?|commentaire-bac-[^/]+)\.html$/;
 const strict=/^(index|bac|brevet|bac-commentaire|commentaire-bac-(methode|problematique|plan|procedes-effets|introduction|transition|conclusion)|manuel-procedes|annales|pot-bouille)\.html$/;
 function stripHashQuery(x){return x.split('#')[0].split('?')[0];}
 for(const [r,f] of byRel){
@@ -49,6 +56,25 @@ for(const [r,p] of Object.entries(pages)){
  }
  if(p.inbound===0&&r!=='index.html')warnings.push(r+': aucune liaison interne entrante détectée');
  if(Number.isFinite(p.depth)&&p.depth>3)warnings.push(r+': profondeur '+p.depth+' clics');
+ if(PRIORITY.has(r)){
+   if(p.inbound<2 && r!=='index.html')errors.push(r+': page prioritaire insuffisamment soutenue ('+p.inbound+' lien(s) entrant(s))');
+   if(!Number.isFinite(p.depth) || p.depth>2)errors.push(r+': page prioritaire trop profonde ('+(Number.isFinite(p.depth)?p.depth:'inconnue')+')');
+ }
+ if(COMMENTAIRE_CORE.test(r)){
+   const source=fs.readFileSync(byRel.get(r),'utf8');
+   if(/\bsolution(?:s)? nécessaire(?:s)?\b/i.test(source) || /NÉCESSITÉ DE LA SOLUTION/i.test(source) || /employer SOLUTION/i.test(source)){
+     errors.push(r+': ancienne terminologie « solution » détectée — employer « réponse »');
+   }
+ }
+}
+const terminologyFiles=['annales/catalogue-annales.js','annales/entrainement-annale.js'];
+for(const r of terminologyFiles){
+  const f=path.join(ROOT,r);
+  if(!fs.existsSync(f)) continue;
+  const source=fs.readFileSync(f,'utf8');
+  if(/\bsolution(?:s)? nécessaire(?:s)?\b/i.test(source) || /NÉCESSITÉ DE LA SOLUTION/i.test(source) || /employer SOLUTION/i.test(source)){
+    errors.push(r+': ancienne terminologie « solution » détectée — employer « réponse »');
+  }
 }
 const ranked=Object.entries(pages).sort((a,b)=>b[1].inbound-a[1].inbound).slice(0,20);
 const low=Object.entries(pages).filter(([r,p])=>r!=='index.html'&&!p.noindex&&p.inbound<2).sort((a,b)=>a[1].inbound-b[1].inbound).slice(0,40);
