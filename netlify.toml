@@ -10,3 +10,85 @@
   [headers.values]
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
+
+
+# Legacy URL consolidation — permanent server-side redirects
+[[redirects]]
+  from = "/hialmar.html"
+  to = "/bac-2026-amerique-du-nord-general-commentaire-leconte-de-lisle-le-coeur-de-hialmar.html"
+  status = 301
+
+[[redirects]]
+  from = "/bac-2026-hialmar.html"
+  to = "/bac-2026-amerique-du-nord-general-commentaire-leconte-de-lisle-le-coeur-de-hialmar.html"
+  status = 301
+
+[[redirects]]
+  from = "/joujou-du-pauvre.html"
+  to = "/bac-commentaire-baudelaire-joujou-du-pauvre.html"
+  status = 301
+
+[[redirects]]
+  from = "/cioran-spermatozoide.html"
+  to = "/bac-commentaire-cioran-spermatozoide.html"
+  status = 301
+
+[[redirects]]
+  from = "/perec-bac-2021.html"
+  to = "/bac-2021-metropole-general-commentaire-perec-les-choses.html"
+  status = 301
+
+[[redirects]]
+  from = "/bac-2021-perec-les-choses.html"
+  to = "/bac-2021-metropole-general-commentaire-perec-les-choses.html"
+  status = 301
+
+[[redirects]]
+  from = "/racine-bac-2023.html"
+  to = "/bac-2023-amerique-du-nord-general-commentaire-racine-berenice.html"
+  status = 301
+
+[[redirects]]
+  from = "/bac-2023-racine-berenice.html"
+  to = "/bac-2023-amerique-du-nord-general-commentaire-racine-berenice.html"
+  status = 301
+
+[[redirects]]
+  from = "/montaigne-bac-2025.html"
+  to = "/bac-2025-amerique-du-nord-general-commentaire-montaigne-essais.html"
+  status = 301
+
+[[redirects]]
+  from = "/bac-2025-montaigne.html"
+  to = "/bac-2025-amerique-du-nord-general-commentaire-montaigne-essais.html"
+  status = 301
+
+[[redirects]]
+  from = "/commentaires.html"
+  to = "/bac-commentaire.html"
+  status = 301
+
+[[redirects]]
+  from = "/dissertation.html"
+  to = "/bac-dissertation.html"
+  status = 301
+
+[[redirects]]
+  from = "/entrainement.html"
+  to = "/bac-commentaire-entrainement.html"
+  status = 301
+
+[[redirects]]
+  from = "/gammes.html"
+  to = "/bac-commentaire.html"
+  status = 301
+
+[[redirects]]
+  from = "/mode-bac.html"
+  to = "/bac-mode-examen.html"
+  status = 301
+
+[[redirects]]
+  from = "/parcours.html"
+  to = "/bac-commentaire-parcours.html"
+  status = 301
