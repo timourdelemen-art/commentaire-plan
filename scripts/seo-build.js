@@ -123,6 +123,13 @@ function canonical(html){
           html.match(/<link[^>]+href=["']([^"']+)["'][^>]+rel=["']canonical["'][^>]*>/i);
   return m ? m[1] : null;
 }
+function noindex(html){
+  return /<meta[^>]+name=["']robots["'][^>]+content=["'][^"']*noindex/i.test(html);
+}
+function absoluteCanonical(can,r){
+  if(!can) return null;
+  try{return new URL(can, DOMAIN + '/' + r).href;}catch(e){return null;}
+}
 
 function gitDate(file){
   try{
@@ -143,7 +150,12 @@ for(const file of pages){
   if(!/class=["'][^"']*site-footer/.test(html) && /<\/body>/i.test(html)){
     html=html.replace(/<\/body>/i,footer+'\n</body>');
   }
-  html=injectBreadcrumbs(html,rel(file));
+  const r=rel(file);
+  if(!noindex(html) && !canonical(html)){
+    const self = r==='index.html' ? DOMAIN+'/' : DOMAIN+'/'+r;
+    html=html.replace(/<\/head>/i,'<link rel="canonical" href="'+self+'">\n</head>');
+  }
+  html=injectBreadcrumbs(html,r);
   if(html!==before){ fs.writeFileSync(file,html); changed++; }
 }
 
@@ -152,8 +164,8 @@ for(const file of pages){
   const r=rel(file);
   if(EXCLUDE_FROM_SITEMAP.test(r)) continue;
   const html=fs.readFileSync(file,'utf8');
-  if(/<meta[^>]+name=["']robots["'][^>]+content=["'][^"']*noindex/i.test(html)) continue;
-  const can=canonical(html);
+  if(noindex(html)) continue;
+  const can=absoluteCanonical(canonical(html),r);
   if(!can || !can.startsWith(DOMAIN+'/')) continue;
   sitemap.push({loc:can,lastmod:gitDate(file)});
 }
@@ -162,4 +174,16 @@ const xml='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sit
   uniq.map(x=>`  <url><loc>${x.loc.replace(/&/g,'&amp;')}</loc><lastmod>${x.lastmod}</lastmod></url>`).join('\n')+
   '\n</urlset>\n';
 fs.writeFileSync(path.join(ROOT,'sitemap.xml'),xml);
-console.log(`SEO build: ${pages.length} HTML pages scanned, ${changed} enhanced, ${uniq.length} sitemap URLs.`);
+
+const redirectLines=['/index.html  /  301!'];
+for(const file of pages){
+  const r=rel(file), html=fs.readFileSync(file,'utf8');
+  if(!noindex(html)) continue;
+  const can=absoluteCanonical(canonical(html),r);
+  if(!can || !can.startsWith(DOMAIN+'/')) continue;
+  const target=new URL(can).pathname;
+  const source='/'+r;
+  if(source!==target) redirectLines.push(source+'  '+target+'  301!');
+}
+fs.writeFileSync(path.join(ROOT,'_redirects'),[...new Set(redirectLines)].join('\n')+'\n');
+console.log(`SEO build: ${pages.length} HTML pages scanned, ${changed} enhanced, ${uniq.length} sitemap URLs, ${redirectLines.length} canonical redirects.`);
