@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded',()=> {
       ['commentaire-bac-methode.html','Comprendre la méthode','De la lecture à la problématique et au plan'],
       ['manuel-procedes.html','Chercher un procédé','Définitions, exemples et effets'],
       ['bac-commentaire-procedes.html','Comprendre procédés et effets','Relier forme, effet et interprétation'],
-      ['bac-commentaire-procedes-entrainement.html','S’entraîner sur les procédés','Identifier puis expliquer précisément'],
+      ['bac-commentaire-procedes-entrainement.html','S’entraîner sur les procédés','Identifier puis expliquer précisément'],['laboratoire-effet-ici.html','Laboratoire de l’effet ici','28 exemples contextualisés et filtrables'],
       ['parcours.html','Suivre un parcours guidé','Avancer étape par étape']
     ],is(manualPages)?'active':''),
     portal('enseignants.html','ENSEIGNANTS','3e · 2de · 1re',[
