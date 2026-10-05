@@ -24,9 +24,21 @@ jobs:
         run: node scripts/seo-build.js
       - name: Audit internal SEO
         run: node scripts/seo-audit.js
+      - name: Enforce performance budget
+        run: node scripts/performance-budget.js
+      - name: Build SEO Brain report
+        run: node scripts/seo-brain.js
+      - name: Build Bac observatory data
+        run: node scripts/observatoire-bac.js
       - name: Upload SEO report
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: seo-report
-          path: seo-report.md
+          name: seo-reports
+          path: |
+            seo-report.md
+            seo-brain-report.md
+            seo-brain.json
+            performance-report.md
+            observatoire-bac-report.md
+            data/observatoire-bac.json
