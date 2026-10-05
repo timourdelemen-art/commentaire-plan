@@ -1689,3 +1689,22 @@ main.wrap{overflow:hidden}
   .current-program-actions{align-items:stretch;flex-direction:column}
   .current-program-actions .btn{min-width:0;width:100%}
 }
+
+
+/* SEO navigation: server-rendered breadcrumb trail */
+.seo-breadcrumbs{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:.45rem;
+  padding-top:1rem;
+  padding-bottom:.25rem;
+  font-size:.88rem;
+  line-height:1.4;
+}
+.seo-breadcrumbs a{
+  text-decoration:none;
+}
+.seo-breadcrumbs [aria-current="page"]{
+  opacity:.72;
+}
