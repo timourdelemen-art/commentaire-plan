@@ -28,14 +28,14 @@ document.addEventListener('DOMContentLoaded',()=> {
       ['bac-oral.html','Préparer l’oral','Travailler les attentes de l’épreuve'],
       ['annales.html#bac','Faire une annale','S’entraîner sur un sujet officiel'],
       ['bac-mode-examen.html','Se mettre en condition','Travailler sans aide, avec chrono']
-    ],is(bacPages)?'active':'',['offre.html','Accéder à tous les entraînements','Plus de parcours, d’annales et de reprises accompagnées']),
+    ],is(bacPages)?'active':''),
     portal('brevet.html','BREVET','comprendre · langue · rédiger',[
       ['anthologie-brevet.html','Faire un sujet complet','Une annale officielle, question après question'],
       ['brevet-comprehension.html','Travailler la compréhension','Répondre, justifier, interpréter'],
       ['brevet-grammaire.html','Travailler la grammaire','Analyser et manipuler'],
       ['brevet-reecriture.html','Travailler la réécriture','Transformer sans perdre les accords'],
       ['brevet-redaction.html','Travailler la rédaction','Sujet d’imagination ou sujet de réflexion']
-    ],is(brevetPages)?'active':'',['offre.html','Accéder à tous les sujets et exercices','Davantage d’annales, de séries ciblées et de reprises']),
+    ],is(brevetPages)?'active':''),
     portal('manuel-procedes.html','MÉTHODE','commentaire · procédés',[
       ['commentaire-bac-methode.html','Comprendre la méthode','De la lecture à la problématique et au plan'],
       ['manuel-procedes.html','Chercher un procédé','Définitions, exemples et effets'],
