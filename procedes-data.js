@@ -26,10 +26,10 @@ window.PROCEDES_MODES = {
   effet:{title:"Choisir l’effet ici",free:true,kind:"qcm-effet",lede:"Écartez les effets automatiques et choisissez ce que le procédé produit réellement dans ce passage."},
   reparer:{title:"Réparer une analyse faible",free:true,kind:"repair",lede:"Une analyse exacte mais vide vous est donnée. Expliquez ce qui manque, puis réparez-la."},
   chaine:{title:"Construire la chaîne complète",free:true,kind:"chain",lede:"À partir de la citation, reconstruisez élément textuel → procédé → effet."},
-  multiples:{title:"Plusieurs procédés possibles",free:false,kind:"multiple",lede:"Repérez plusieurs analyses recevables dans une même citation et distinguez ce que chacune permet de voir."},
-  comparer:{title:"Même procédé, effets différents",free:false,kind:"compare",lede:"Le même procédé n’a pas le même effet partout : comparez deux occurrences."},
-  pertinent:{title:"Choisir le procédé pertinent",free:false,kind:"pertinent",lede:"Plusieurs observations peuvent être exactes ; choisissez celle qui sert le mieux l’idée à démontrer."},
-  transfert:{title:"Transfert sans catégorie donnée",free:false,kind:"transfer",lede:"Citation nouvelle, manuel autorisé, aucune liste de procédés : construisez seul une analyse défendable."}
+  multiples:{title:"Plusieurs procédés possibles",free:true,kind:"multiple",lede:"Repérez plusieurs analyses recevables dans une même citation et distinguez ce que chacune permet de voir."},
+  comparer:{title:"Même procédé, effets différents",free:true,kind:"compare",lede:"Le même procédé n’a pas le même effet partout : comparez deux occurrences."},
+  pertinent:{title:"Choisir le procédé pertinent",free:true,kind:"pertinent",lede:"Plusieurs observations peuvent être exactes ; choisissez celle qui sert le mieux l’idée à démontrer."},
+  transfert:{title:"Transfert sans catégorie donnée",free:true,kind:"transfer",lede:"Citation nouvelle, manuel autorisé, aucune liste de procédés : construisez seul une analyse défendable."}
 };
 // Extraits d'annales officielles — entrées éditorialisées au même niveau que le corpus de référence.
 window.PROCEDES_CORPUS.push(
