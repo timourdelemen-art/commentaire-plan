@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded',()=> {
     ],is(teacherPages)?'active':'')
   ].join('');
 
-  header.innerHTML=`
+  if(!header.innerHTML.trim()) header.innerHTML=`
   <div class="wrap mast mast-v3">
     <a class="brand brand-v2" href="index.html">COMMENTAIRE<br>PLAN</a>
     <nav class="nav-portals" aria-label="Navigation principale">
