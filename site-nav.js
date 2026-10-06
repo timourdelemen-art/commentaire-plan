@@ -2,6 +2,16 @@ document.addEventListener('DOMContentLoaded',()=> {
   const header=document.querySelector('header.top');
   if(!header) return;
 
+  if(!document.querySelector('.skip-link')){
+    const skip=document.createElement('a');
+    skip.className='skip-link';
+    skip.href='#main-content';
+    skip.textContent='Aller au contenu';
+    document.body.prepend(skip);
+  }
+  const mainContent=document.querySelector('main');
+  if(mainContent && !mainContent.id) mainContent.id='main-content';
+
   const path=(location.pathname.split('/').pop()||'index.html').toLowerCase();
   const bacPages=['bac.html','anthologie-bac.html','bac-commentaire.html','bac-commentaire-procedes.html','bac-commentaire-procedes-entrainement.html','bac-dissertation.html','bac-dissertation-methode.html','bac-oral.html','bac-mode-examen.html','commentaire-bac-methode.html','commentaire-bac-problematique.html','commentaire-bac-plan.html','commentaire-bac-procedes-effets.html','commentaire-bac-introduction.html','commentaire-bac-transition.html','commentaire-bac-conclusion.html','oeuvres-integrales.html','pot-bouille.html','pot-bouille-pb01.html','pot-bouille-pb02.html','pot-bouille-pb03.html'];
   const philoPages=['philosophie.html','philosophie-dissertation.html','philosophie-dissertation-entrainement.html','philosophie-problematisation.html','philosophie-operations.html','philosophie-penser-par-soi-meme.html','philosophie-references.html','philosophie-laboratoire.html','philosophie-diagnostic.html','philosophie-annales.html','philosophie-annale.html'];
@@ -67,20 +77,47 @@ document.addEventListener('DOMContentLoaded',()=> {
     <nav class="nav-portals" aria-label="Navigation principale">
       ${portals}
     </nav>
-  </div>`;
+    <button class="mobile-nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav">Menu</button>
+  </div>
+  <nav id="mobile-nav" class="mobile-nav wrap" aria-label="Navigation mobile" hidden>
+    <a href="bac.html"><strong>Bac français</strong><span>Commentaire · dissertation · oral</span></a>
+    <a href="philosophie.html"><strong>Philosophie</strong><span>Méthode · exercices · annales</span></a>
+    <a href="brevet.html"><strong>Brevet</strong><span>Compréhension · langue · rédaction</span></a>
+    <a href="manuel-procedes.html"><strong>Méthode</strong><span>Commentaire · procédés</span></a>
+    <a href="enseignants.html"><strong>Enseignants</strong><span>Ressources et séquences</span></a>
+  </nav>`;
+
+  const mobileToggle=header.querySelector('.mobile-nav-toggle');
+  const mobileNav=header.querySelector('#mobile-nav');
+  if(mobileToggle && mobileNav){
+    const setMobileOpen=(open)=>{
+      mobileToggle.setAttribute('aria-expanded',String(open));
+      mobileToggle.textContent=open?'Fermer':'Menu';
+      mobileNav.hidden=!open;
+    };
+    mobileToggle.addEventListener('click',()=>setMobileOpen(mobileNav.hidden));
+    mobileNav.addEventListener('keydown',e=>{
+      if(e.key==='Escape'){ setMobileOpen(false); mobileToggle.focus(); }
+    });
+  }
 
   header.querySelectorAll('.portal-wrap').forEach(wrap=>{
     const main=wrap.querySelector('.portal');
     const drop=wrap.querySelector('.portal-dropdown');
-    const close=()=>wrap.classList.remove('open');
-    main.addEventListener('focus',()=>wrap.classList.add('open'));
-    wrap.addEventListener('mouseenter',()=>wrap.classList.add('open'));
+    const setOpen=(open)=>{
+      wrap.classList.toggle('open',open);
+      main.setAttribute('aria-expanded',String(open));
+    };
+    main.setAttribute('aria-expanded','false');
+    const close=()=>setOpen(false);
+    main.addEventListener('focus',()=>setOpen(true));
+    wrap.addEventListener('mouseenter',()=>setOpen(true));
     wrap.addEventListener('mouseleave',close);
     wrap.addEventListener('focusout',e=>{ if(!wrap.contains(e.relatedTarget)) close(); });
     main.addEventListener('keydown',e=>{
       if(e.key==='ArrowDown'){
         e.preventDefault();
-        wrap.classList.add('open');
+        setOpen(true);
         drop.querySelector('a')?.focus();
       }
       if(e.key==='Escape') close();
@@ -144,9 +181,10 @@ document.addEventListener('DOMContentLoaded',()=> {
     document.body.appendChild(footer);
   }
 
-  if(!location.pathname.includes('/annales/')){
-    const s=document.createElement('script');
-    s.src='free-response.js';
-    document.body.appendChild(s);
+  if(!location.pathname.includes('/annales/') && document.querySelector('[data-feedback-kind], [data-feedback-instruction]')){
+    const feedbackScript=document.createElement('script');
+    feedbackScript.src='free-response.js';
+    feedbackScript.async=true;
+    document.body.appendChild(feedbackScript);
   }
 });
