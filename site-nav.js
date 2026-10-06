@@ -32,8 +32,10 @@ document.addEventListener('DOMContentLoaded',()=> {
     ],is(bacPages)?'active':''),
     portal('philosophie.html','PHILO','Terminale',[
       ['philosophie-diagnostic.html','Faire le diagnostic','5 minutes pour trouver votre priorité'],
-      ['philosophie-laboratoire.html','Ouvrir le laboratoire','Tous les gestes, sans multiplier les rubriques'],
-      ['philosophie-dissertation.html','Voir la méthode','Sujet → problème → réponses → transitions → résolution'],
+      ['philosophie-dissertation.html','Construire la dissertation','Du sujet au problème puis aux réponses nécessaires'],
+      ['philosophie-dissertation-entrainement.html','S’entraîner geste par geste','Problématique, argumentation, transition, III'],
+      ['philosophie-references.html','Travailler les références','Faire réellement agir un auteur dans le raisonnement'],
+      ['philosophie-operations.html','Travailler les opérations','Distinguer, inverser, déplacer, transformer…'],
       ['philosophie-annales.html','Faire une annale','Dissertation ou explication de texte, sujet par sujet']
     ],is(philoPages)?'active':''),
     portal('brevet.html','BREVET','comprendre · langue · rédiger',[
