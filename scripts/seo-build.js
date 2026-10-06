@@ -23,6 +23,7 @@ function rel(file){ return path.relative(ROOT,file).split(path.sep).join('/'); }
 function abs(href){ return href.startsWith('/') ? href : '/' + href; }
 
 const bacPages=new Set(['bac.html','anthologie-bac.html','bac-commentaire.html','bac-commentaire-procedes.html','bac-commentaire-procedes-entrainement.html','bac-dissertation.html','bac-dissertation-methode.html','bac-oral.html','bac-mode-examen.html','commentaire-bac-methode.html','commentaire-bac-problematique.html','commentaire-bac-plan.html','commentaire-bac-procedes-effets.html','commentaire-bac-introduction.html','commentaire-bac-transition.html','commentaire-bac-conclusion.html','oeuvres-integrales.html','pot-bouille.html','pot-bouille-pb01.html','pot-bouille-pb02.html','pot-bouille-pb03.html']);
+const philoPages=new Set(['philosophie.html','dissertation-philosophie-bac.html','philosophie-dissertation.html','philosophie-dissertation-entrainement.html','philosophie-problematisation.html','philosophie-operations.html','philosophie-penser-par-soi-meme.html','philosophie-references.html','philosophie-laboratoire.html','philosophie-diagnostic.html','philosophie-annales.html','philosophie-annale.html']);
 const brevetPages=new Set(['brevet.html','anthologie-brevet.html','brevet-comprehension.html','brevet-grammaire.html','brevet-reecriture.html','brevet-redaction.html','brevet-imagination.html','brevet-reflexion.html']);
 const teacherPages=new Set(['enseignants.html','formation.html','bibliotheque.html','pot-bouille-professeurs.html']);
 const manualPages=new Set(['manuel-procedes.html','bac-commentaire-procedes.html','bac-commentaire-procedes-entrainement.html','laboratoire-effet-ici.html','parcours.html']);
@@ -51,6 +52,14 @@ function staticHeader(file){
       ['annales.html#bac','Faire une annale','S’entraîner sur un sujet officiel'],
       ['bac-mode-examen.html','Se mettre en condition','Travailler sans aide, avec chrono']
     ],bacPages.has(base)),
+    portal(file,'philosophie.html','PHILO','Terminale',[
+      ['philosophie-diagnostic.html','Faire le diagnostic','5 minutes pour trouver votre priorité'],
+      ['philosophie-dissertation.html','Construire la dissertation','Du sujet au problème puis aux réponses nécessaires'],
+      ['philosophie-dissertation-entrainement.html','S’entraîner geste par geste','Problématique, argumentation, transition, III'],
+      ['philosophie-references.html','Travailler les références','Faire réellement agir un auteur dans le raisonnement'],
+      ['philosophie-operations.html','Travailler les opérations','Distinguer, inverser, déplacer, transformer…'],
+      ['philosophie-annales.html','Faire une annale','Dissertation ou explication de texte, sujet par sujet']
+    ],philoPages.has(base)),
     portal(file,'brevet.html','BREVET','comprendre · langue · rédiger',[
       ['anthologie-brevet.html','Faire un sujet complet','Une annale officielle, question après question'],
       ['brevet-comprehension.html','Travailler la compréhension','Répondre, justifier, interpréter'],
@@ -76,7 +85,15 @@ function staticHeader(file){
   <div class="wrap mast mast-v3">
     <a class="brand brand-v2" href="/">COMMENTAIRE<br>PLAN</a>
     <nav class="nav-portals" aria-label="Navigation principale">${portals}</nav>
+    <button class="mobile-nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav">Menu</button>
   </div>
+  <nav id="mobile-nav" class="mobile-nav wrap" aria-label="Navigation mobile" hidden>
+    <a href="/bac.html"><strong>Bac français</strong><span>Commentaire · dissertation · oral</span></a>
+    <a href="/philosophie.html"><strong>Philosophie</strong><span>Méthode · exercices · annales</span></a>
+    <a href="/brevet.html"><strong>Brevet</strong><span>Compréhension · langue · rédaction</span></a>
+    <a href="/manuel-procedes.html"><strong>Méthode</strong><span>Commentaire · procédés</span></a>
+    <a href="/enseignants.html"><strong>Enseignants</strong><span>Ressources et séquences</span></a>
+  </nav>
 </header>`;
 }
 
@@ -93,6 +110,7 @@ function crumbSpec(r, title){
   const b=path.basename(r);
   const c=[{name:'Accueil',href:'/'}];
   if(/^brevet|anthologie-brevet/.test(b)) c.push({name:'Brevet',href:'/brevet.html'});
+  else if(/^philosophie|^dissertation-philosophie/.test(b)) c.push({name:'Philosophie',href:'/philosophie.html'});
   else if(/^enseignants|formation|bibliotheque|pot-bouille-professeurs/.test(b)) c.push({name:'Enseignants',href:'/enseignants.html'});
   else {
     c.push({name:'Bac français',href:'/bac.html'});
@@ -156,6 +174,10 @@ for(const file of pages){
     html=html.replace(/<\/head>/i,'<link rel="canonical" href="'+self+'">\n</head>');
   }
   html=injectBreadcrumbs(html,r);
+  if(!/type=["']speculationrules["']/.test(html)){
+    const speculation='<script type="speculationrules" data-seo-speculation="1">{"prefetch":[{"where":{"and":[{"href_matches":"/*"},{"not":{"selector_matches":"[download],.no-prefetch"}}]},"eagerness":"moderate"}]}<\/script>';
+    html=html.replace(/<\/head>/i,speculation+'\n</head>');
+  }
   if(html!==before){ fs.writeFileSync(file,html); changed++; }
 }
 
