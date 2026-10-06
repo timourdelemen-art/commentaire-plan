@@ -1,8 +1,8 @@
 (()=> {
 const exercises=[
 {cat:"problematiser",title:"Quelle problématique survivra ?",desc:"Choisir la meilleure formulation et éliminer chaque distracteur avec une raison précise.",href:"philosophie-problematisation.html",level:"Diagnostic"},
-{cat:"problematiser",title:"Trouvez la faille",desc:"Pousser une réponse plausible jusqu’au point où elle ne peut plus tout préserver.",href:"philosophie-dissertation-entrainement.html",level:"Production"},
-{cat:"problematiser",title:"Sujet → coût → problème",desc:"Faire naître la problématique de la réponse elle-même, sans opposition artificielle.",href:"philosophie-problematisation.html",level:"Production"},
+{cat:"problematiser",title:"Trouvez la difficulté",desc:"Partir d’une réponse précise à un sujet et repérer ce qu’elle ne permet plus d’expliquer ou de maintenir.",href:"philosophie-dissertation-entrainement.html",level:"Production"},
+{cat:"problematiser",title:"Sujet → réponse → difficulté → problématique",desc:"Construire une question qui ne fonctionne que pour ce sujet, sans opposition artificielle.",href:"philosophie-problematisation.html",level:"Production"},
 {cat:"argumenter",title:"Zéro auteur",desc:"Construire une réponse, une raison, un exemple et une difficulté sans aucun nom propre.",href:"philosophie-penser-par-soi-meme.html",level:"Production"},
 {cat:"argumenter",title:"Une raison, pas un nom",desc:"Transformer un argument d’autorité en véritable justification.",href:"philosophie-penser-par-soi-meme.html",level:"Réparation"},
 {cat:"argumenter",title:"L’exemple qui pense",desc:"Faire d’un cas concret une épreuve qui oblige à préciser le concept.",href:"philosophie-penser-par-soi-meme.html",level:"Transfert"},
@@ -16,9 +16,9 @@ const exercises=[
 {cat:"references",title:"Qui pense ici ?",desc:"Repérer le paragraphe qui récite des auteurs au lieu de construire un argument.",href:"philosophie-penser-par-soi-meme.html",level:"Diagnostic"},
 {cat:"references",title:"Reprenez la main",desc:"Expliquer après la référence ce qu’elle permet d’établir exactement ici.",href:"philosophie-references.html",level:"Production"},
 {cat:"references",title:"Remplacez l’auteur",desc:"Tester si une référence est précise ou si n’importe quel grand nom conviendrait.",href:"philosophie-references.html",level:"Diagnostic"},
-{cat:"textes",title:"Énoncé → opération → résolution ici",desc:"Identifier ce qu’un philosophe fait du problème, pas seulement ce qu’il dit.",href:"philosophie-operations.html",level:"Analyse"},
+{cat:"textes",title:"Énoncé → opération → ce que cela change ici",desc:"Identifier ce qu’un philosophe fait du problème, pas seulement ce qu’il dit.",href:"philosophie-operations.html",level:"Analyse"},
 {cat:"textes",title:"Même texte, autre sujet",desc:"Réutiliser une même idée de manière différente selon le problème de dissertation.",href:"philosophie-references.html",level:"Transfert"},
-{cat:"annales",title:"Dissertation officielle",desc:"Travailler un sujet du bac par étapes : réponse, conséquence, coût, problème, plan.",href:"philosophie-annales.html",level:"Transfert"},
+{cat:"annales",title:"Dissertation officielle",desc:"Travailler un sujet du bac par étapes : demande précise, réponse, difficulté, problématique, plan.",href:"philosophie-annales.html",level:"Transfert"},
 {cat:"annales",title:"Explication de texte officielle",desc:"Problème, thèse, opération, puis réemploi possible dans une dissertation.",href:"philosophie-annales.html",level:"Transfert"}
 ];
 const labels={all:"Tout",problematiser:"Problématiser",argumenter:"Argumenter",parties:"Construire une partie",transitions:"Transitions",troisieme:"Troisième partie",references:"Références",textes:"Textes",annales:"Annales"};
