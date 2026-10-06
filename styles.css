@@ -1745,3 +1745,15 @@ main.wrap{overflow:hidden}
 .philo-diagnostic .prescription{background:#eee4d3;padding:22px;margin:22px 0;font-size:19px;line-height:1.5}
 @media(max-width:900px){.philo-lab-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:650px){.philo-lab-grid{grid-template-columns:1fr}.philo-diagnostic .diag-question{font-size:30px}}
+
+/* Priority conversion gateway */
+.priority-gateway{padding-top:34px;padding-bottom:44px}
+.priority-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.priority-grid>a{padding:28px 26px 30px;min-height:220px;display:flex;flex-direction:column;gap:10px;transition:transform .15s ease,background .15s ease}
+.priority-grid>a+a{border-left:1px solid var(--rule)}
+.priority-grid>a:hover{background:#eee4d3;transform:translateY(-2px)}
+.priority-grid span{font-family:'American Typewriter','Courier New',monospace;font-size:12px;letter-spacing:1.7px;color:var(--red);font-weight:700}
+.priority-grid strong{font-size:29px;line-height:1.05}
+.priority-grid p{font-size:17px;line-height:1.4;margin:0;max-width:360px}
+.priority-grid b{margin-top:auto;color:var(--red);font-size:17px}
+@media(max-width:900px){.priority-grid{grid-template-columns:1fr}.priority-grid>a+a{border-left:0;border-top:1px solid var(--rule)}}
