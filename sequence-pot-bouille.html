@@ -1,0 +1,37 @@
+<!doctype html><html lang="fr"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Séquence Pot-Bouille — PDF complet | Commentaire Plan</title>
+<meta name="description" content="Séquence complète Pot-Bouille de Zola pour la Première : dossier professeur, textes, corrigés, parcours transversal, commentaire et dissertation.">
+<link rel="canonical" href="https://commentaire-plan.com/sequence-pot-bouille.html">
+<link rel="stylesheet" href="styles.css">
+<style>
+.pdf-shell{min-height:75vh;margin:1.5rem 0}.pdf-shell iframe{width:100%;height:78vh;border:1px solid #ddd;background:#f7f7f7}
+.pdf-status{padding:1rem 0}.pdf-actions{display:flex;gap:1rem;flex-wrap:wrap;margin:1rem 0}
+</style></head><body><header class="top"></header><main class="wrap">
+<section class="pagehead"><div><div class="kicker">PREMIÈRE · POT-BOUILLE</div>
+<h1>La séquence complète en PDF.</h1>
+<p class="lede">Progression, textes, fiches élèves, corrigés, grammaire interprétative, parcours transversal, commentaire, dissertation et évaluation.</p>
+</div></section>
+<div class="pdf-actions"><a class="btn red" id="openPdf" href="#" aria-disabled="true">Ouvrir le PDF →</a><a class="home-text-link" href="pot-bouille-professeurs.html">Retour au dossier professeur →</a></div>
+<div class="pdf-status" id="status">Chargement du PDF…</div>
+<div class="pdf-shell" id="shell"></div>
+<noscript><p>JavaScript est nécessaire pour reconstituer et afficher ce PDF. Le dossier reste consultable sur la page professeur.</p></noscript>
+</main><script src="site-nav.js"></script>
+<script>
+(async()=>{
+ const status=document.getElementById('status'), shell=document.getElementById('shell'), open=document.getElementById('openPdf');
+ const base='https://raw.githubusercontent.com/timourdelemen-art/commentaire-plan/7faeeac0e0ce2273e0789fd24b33153011f1c471/.pdfparts/part-';
+ try{
+   const parts=await Promise.all(['00','01','02','03'].map(n=>fetch(base+n).then(r=>{if(!r.ok) throw new Error('part '+n); return r.text()})));
+   const b64=parts.join('').replace(/\s+/g,'');
+   const bin=atob(b64), bytes=new Uint8Array(bin.length);
+   for(let i=0;i<bin.length;i++) bytes[i]=bin.charCodeAt(i);
+   const url=URL.createObjectURL(new Blob([bytes],{type:'application/pdf'}));
+   const iframe=document.createElement('iframe'); iframe.src=url; iframe.title='Séquence Pot-Bouille - PDF complet'; shell.appendChild(iframe);
+   open.href=url; open.target='_blank'; open.removeAttribute('aria-disabled'); open.setAttribute('download','sequence-pot-bouille.pdf');
+   status.textContent='PDF chargé. Vous pouvez le consulter ci-dessous ou l’ouvrir séparément.';
+ }catch(e){
+   status.textContent='Le PDF ne peut pas être chargé pour le moment. Le contenu pédagogique reste disponible dans le dossier professeur.';
+ }
+})();
+</script></body></html>
