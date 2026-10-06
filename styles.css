@@ -1757,3 +1757,42 @@ main.wrap{overflow:hidden}
 .priority-grid p{font-size:17px;line-height:1.4;margin:0;max-width:360px}
 .priority-grid b{margin-top:auto;color:var(--red);font-size:17px}
 @media(max-width:900px){.priority-grid{grid-template-columns:1fr}.priority-grid>a+a{border-left:0;border-top:1px solid var(--rule)}}
+
+
+/* Performance et accessibilité 2026 */
+.skip-link{
+  position:fixed;left:12px;top:12px;z-index:9999;
+  transform:translateY(-160%);background:var(--ink);color:var(--paper);
+  padding:12px 16px;border:2px solid var(--paper);font-weight:700
+}
+.skip-link:focus{transform:translateY(0)}
+:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+.portal-dropdown a:focus-visible{outline:3px solid var(--red);outline-offset:-3px}
+
+/* Les longues pages pédagogiques évitent le rendu hors écran jusqu'à l'approche du viewport. */
+main>section:nth-of-type(n+3){
+  content-visibility:auto;
+  contain-intrinsic-size:auto 680px;
+}
+
+.mobile-nav-toggle{
+  display:none;background:transparent;border:1px solid var(--rule);
+  padding:11px 14px;font:14px 'American Typewriter','Courier New',monospace;
+  color:var(--ink);cursor:pointer
+}
+.mobile-nav{display:none;border-bottom:1px solid var(--rule);background:var(--paper)}
+.mobile-nav a{display:grid;gap:3px;padding:15px 4px;border-top:1px solid #c8bfb3}
+.mobile-nav strong{font-size:18px;font-weight:400}
+.mobile-nav span{font:11px 'American Typewriter','Courier New',monospace;color:var(--muted);letter-spacing:.3px}
+
+@media(max-width:1050px){
+  .mobile-nav-toggle{display:block;justify-self:end}
+  .mobile-nav:not([hidden]){display:grid}
+}
+@media(max-width:760px){
+  .mobile-nav{width:calc(100% - 32px)}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important;animation-iteration-count:1!important}
+}
