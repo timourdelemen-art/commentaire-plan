@@ -22,10 +22,10 @@ function walk(dir){
 function rel(file){ return path.relative(ROOT,file).split(path.sep).join('/'); }
 function abs(href){ return href.startsWith('/') ? href : '/' + href; }
 
-const bacPages=new Set(['bac.html','anthologie-bac.html','bac-commentaire.html','bac-commentaire-procedes.html','bac-commentaire-procedes-entrainement.html','bac-dissertation.html','bac-dissertation-methode.html','bac-oral.html','bac-mode-examen.html','commentaire-bac-methode.html','commentaire-bac-problematique.html','commentaire-bac-plan.html','commentaire-bac-procedes-effets.html','commentaire-bac-introduction.html','commentaire-bac-transition.html','commentaire-bac-conclusion.html','oeuvres-integrales.html','pot-bouille.html','pot-bouille-pb01.html','pot-bouille-pb02.html','pot-bouille-pb03.html']);
+const bacPages=new Set(['bac.html','anthologie-bac.html','bac-commentaire.html','bac-commentaire-procedes.html','bac-commentaire-procedes-entrainement.html','bac-dissertation.html','bac-dissertation-methode.html','bac-oral.html','bac-mode-examen.html','commentaire-bac-methode.html','commentaire-bac-problematique.html','commentaire-bac-plan.html','commentaire-bac-procedes-effets.html','commentaire-bac-introduction.html','commentaire-bac-transition.html','commentaire-bac-conclusion.html','oeuvres-integrales.html','pot-bouille.html','pot-bouille-bac-2027.html','pot-bouille-pb01.html','pot-bouille-pb02.html','pot-bouille-pb03.html']);
 const philoPages=new Set(['philosophie.html','dissertation-philosophie-bac.html','philosophie-dissertation.html','philosophie-dissertation-entrainement.html','philosophie-problematisation.html','philosophie-operations.html','philosophie-penser-par-soi-meme.html','philosophie-references.html','philosophie-laboratoire.html','philosophie-diagnostic.html','philosophie-annales.html','philosophie-annale.html']);
 const brevetPages=new Set(['brevet.html','anthologie-brevet.html','brevet-comprehension.html','brevet-grammaire.html','brevet-reecriture.html','brevet-redaction.html','brevet-imagination.html','brevet-reflexion.html']);
-const teacherPages=new Set(['enseignants.html','formation.html','bibliotheque.html','pot-bouille-professeurs.html']);
+const teacherPages=new Set(['enseignants.html','formation.html','bibliotheque.html','pot-bouille-professeurs.html','sequence-pot-bouille.html']);
 const manualPages=new Set(['manuel-procedes.html','bac-commentaire-procedes.html','bac-commentaire-procedes-entrainement.html','laboratoire-effet-ici.html','parcours.html']);
 
 function portal(file, href,label,sub,items,active,offer){
