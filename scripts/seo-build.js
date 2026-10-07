@@ -25,7 +25,8 @@ function abs(href){ return href.startsWith('/') ? href : '/' + href; }
 const bacPages=new Set(['bac.html','anthologie-bac.html','bac-commentaire.html','bac-commentaire-procedes.html','bac-commentaire-procedes-entrainement.html','bac-dissertation.html','bac-dissertation-methode.html','bac-oral.html','bac-mode-examen.html','commentaire-bac-methode.html','commentaire-bac-problematique.html','commentaire-bac-plan.html','commentaire-bac-procedes-effets.html','commentaire-bac-introduction.html','commentaire-bac-transition.html','commentaire-bac-conclusion.html','oeuvres-integrales.html','pot-bouille.html','pot-bouille-bac-2027.html','pot-bouille-pb01.html','pot-bouille-pb02.html','pot-bouille-pb03.html']);
 const philoPages=new Set(['philosophie.html','dissertation-philosophie-bac.html','philosophie-dissertation.html','philosophie-dissertation-entrainement.html','philosophie-problematisation.html','philosophie-operations.html','philosophie-penser-par-soi-meme.html','philosophie-references.html','philosophie-laboratoire.html','philosophie-diagnostic.html','philosophie-annales.html','philosophie-annale.html']);
 const brevetPages=new Set(['brevet.html','anthologie-brevet.html','brevet-comprehension.html','brevet-grammaire.html','brevet-reecriture.html','brevet-redaction.html','brevet-imagination.html','brevet-reflexion.html']);
-const teacherPages=new Set(['enseignants.html','formation.html','bibliotheque.html','pot-bouille-professeurs.html','sequence-pot-bouille.html']);
+const hlpPages=new Set(['hlp.html','hlp-premiere.html','hlp-terminale.html','hlp-annales.html']);
+const teacherPages=new Set(['enseignants.html','hlp-professeurs.html','formation.html','bibliotheque.html','pot-bouille-professeurs.html','sequence-pot-bouille.html']);
 const manualPages=new Set(['manuel-procedes.html','bac-commentaire-procedes.html','bac-commentaire-procedes-entrainement.html','laboratoire-effet-ici.html','parcours.html']);
 
 function portal(file, href,label,sub,items,active,offer){
@@ -52,7 +53,7 @@ function staticHeader(file){
       ['annales.html#bac','Faire une annale','S’entraîner sur un sujet officiel'],
       ['bac-mode-examen.html','Se mettre en condition','Travailler sans aide, avec chrono']
     ],bacPages.has(base)),
-    portal(file,'philosophie.html','PHILO','Terminale',[
+    portal(file,'philosophie.html','PHILO','Terminale · tronc commun',[
       ['philosophie-diagnostic.html','Faire le diagnostic','5 minutes pour trouver votre priorité'],
       ['philosophie-dissertation.html','Construire la dissertation','Du sujet au problème puis aux réponses nécessaires'],
       ['philosophie-dissertation-entrainement.html','S’entraîner geste par geste','Problématique, argumentation, transition, III'],
@@ -60,6 +61,12 @@ function staticHeader(file){
       ['philosophie-operations.html','Travailler les opérations','Distinguer, inverser, déplacer, transformer…'],
       ['philosophie-annales.html','Faire une annale','Dissertation ou explication de texte, sujet par sujet']
     ],philoPages.has(base)),
+    portal(file,'hlp.html','HLP','1re · Tle',[
+      ['hlp-premiere.html','HLP Première','La parole, les représentations du monde'],
+      ['hlp-terminale.html','HLP Terminale','La recherche de soi, l’Humanité en question'],
+      ['hlp-annales.html','Faire une annale','Les vrais sujets du bac, question par question'],
+      ['hlp-professeurs.html','Espace professeurs HLP','Codes d’examen, corrections, répartition par entrée']
+    ],hlpPages.has(base)),
     portal(file,'brevet.html','BREVET','comprendre · langue · rédiger',[
       ['anthologie-brevet.html','Faire un sujet complet','Une annale officielle, question après question'],
       ['brevet-comprehension.html','Travailler la compréhension','Répondre, justifier, interpréter'],
@@ -74,10 +81,12 @@ function staticHeader(file){
       ['bac-commentaire-procedes-entrainement.html','S’entraîner sur les procédés','Identifier puis expliquer précisément'],['laboratoire-effet-ici.html','Laboratoire de l’effet ici','28 exemples contextualisés et filtrables'],
       ['parcours.html','Suivre un parcours guidé','Avancer étape par étape']
     ],manualPages.has(base)),
-    portal(file,'enseignants.html','ENSEIGNANTS','3e · 2de · 1re',[
+    portal(file,'enseignants.html','ENSEIGNANTS','3e · 2de · 1re · Tle',[
       ['enseignants.html#troisieme','Ressources de 3e','Brevet, langue et rédaction'],
       ['enseignants.html#seconde','Ressources de Seconde','Lecture, commentaire et langue'],
       ['enseignants.html#premiere','Ressources de Première','Bac écrit et oral'],
+      ['philosophie.html','Ressources de Terminale','Philosophie : problématisation et dissertation'],
+      ['hlp-professeurs.html','Ressources HLP','Première et Terminale, annales avec corrections'],
       ['bibliotheque.html','Ouvrir la bibliothèque','Retrouver les documents et ressources']
     ],teacherPages.has(base))
   ].join('');
@@ -90,6 +99,7 @@ function staticHeader(file){
   <nav id="mobile-nav" class="mobile-nav wrap" aria-label="Navigation mobile" hidden>
     <a href="/bac.html"><strong>Bac français</strong><span>Commentaire · dissertation · oral</span></a>
     <a href="/philosophie.html"><strong>Philosophie</strong><span>Méthode · exercices · annales</span></a>
+    <a href="/hlp.html"><strong>HLP</strong><span>Première · Terminale · annales</span></a>
     <a href="/brevet.html"><strong>Brevet</strong><span>Compréhension · langue · rédaction</span></a>
     <a href="/manuel-procedes.html"><strong>Méthode</strong><span>Commentaire · procédés</span></a>
     <a href="/enseignants.html"><strong>Enseignants</strong><span>Ressources et séquences</span></a>
@@ -111,6 +121,8 @@ function crumbSpec(r, title){
   const c=[{name:'Accueil',href:'/'}];
   if(/^brevet|anthologie-brevet/.test(b)) c.push({name:'Brevet',href:'/brevet.html'});
   else if(/^philosophie|^dissertation-philosophie/.test(b)) c.push({name:'Philosophie',href:'/philosophie.html'});
+  else if(/^hlp-professeurs/.test(b)) { c.push({name:'Enseignants',href:'/enseignants.html'}); }
+  else if(/^hlp/.test(b)) { if(b!=='hlp.html') c.push({name:'HLP',href:'/hlp.html'}); }
   else if(/^enseignants|formation|bibliotheque|pot-bouille-professeurs/.test(b)) c.push({name:'Enseignants',href:'/enseignants.html'});
   else {
     c.push({name:'Bac français',href:'/bac.html'});
