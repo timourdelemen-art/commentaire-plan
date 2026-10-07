@@ -1833,3 +1833,37 @@ main>section:nth-of-type(n+3){
   .hlp-card,.hlp-card:nth-child(even){border-left:0;padding-left:0;padding-right:0}
   .hlp-stats th:nth-child(2),.hlp-stats td:nth-child(2){display:none}
 }
+
+/* ---------- HLP : fiches statiques et pages sujet ---------- */
+.hlp-card[hidden]{display:none}
+.hlp-card h3 a:hover{color:var(--red)}
+.hlp-note{margin:8px 0 0;padding:10px 12px;border-left:3px solid var(--red);background:#eee4d3;font-size:15px;line-height:1.45}
+.hlp-stats caption{caption-side:bottom;text-align:left;padding-top:10px}
+.hlp-questions{margin-top:18px}
+.offer-band .hlp-q,.hlp-q{font-size:24px;line-height:1.35;margin:10px 0 0}
+.hlp-step h3{font-size:26px;font-weight:400;margin:10px 0 6px}
+.hlp-step textarea{width:100%;min-height:110px;margin-top:12px;padding:14px;border:1px solid #8d877e;background:#fffdf8;font:18px/1.5 Georgia,'Times New Roman',serif;resize:vertical;box-sizing:border-box}
+.hlp-step textarea:focus{outline:2px solid var(--red);outline-offset:1px}
+.hlp-step .correction ul{margin:0 0 16px;padding-left:20px;font-size:17px;line-height:1.5}
+.hlp-sujet-page .side-note p{font-size:17px}
+@media(max-width:760px){.offer-band .hlp-q,.hlp-q{font-size:20px}.hlp-step h3{font-size:22px}}
+
+/* ---------- Navigation à six portails : tablette et téléphone ---------- */
+@media (min-width:761px) and (max-width:1050px){
+  .nav-portals{grid-template-columns:repeat(3,minmax(0,1fr)) !important}
+}
+@media (max-width:760px){
+  .nav-portals{grid-template-columns:repeat(2,minmax(0,1fr)) !important;overflow:visible !important;width:100%}
+  .portal-wrap{min-width:0 !important;height:auto !important}
+  .portal-wrap>.portal{min-height:52px !important;height:auto !important;padding:10px 12px !important}
+  .portal-wrap>.portal small{display:none}
+  .portal-wrap>.portal span{font-size:16px}
+}
+@media (min-width:1051px) and (max-width:1280px){
+  .nav-portals .portal{padding-left:11px !important;padding-right:11px !important}
+  .nav-portals .portal span{font-size:15px;letter-spacing:.6px}
+  .nav-portals .portal small{display:none}
+  .nav-portals .portal i{display:none}
+  .mast-v3{grid-template-columns:200px 1fr auto auto !important;gap:14px !important}
+  .mast-v3 .brand{font-size:25px !important}
+}

@@ -20,6 +20,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Build HLP annales
+        run: node scripts/build-hlp.js
       - name: Build SEO layer
         run: node scripts/seo-build.js
       - name: Audit internal SEO

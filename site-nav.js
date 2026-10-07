@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded',()=> {
   const brevetPages=['brevet.html','anthologie-brevet.html','brevet-comprehension.html','brevet-grammaire.html','brevet-reecriture.html','brevet-redaction.html','brevet-imagination.html','brevet-reflexion.html'];
   const teacherPages=['enseignants.html','hlp-professeurs.html','formation.html','bibliotheque.html','pot-bouille-professeurs.html','sequence-pot-bouille.html'];
   const manualPages=['manuel-procedes.html','bac-commentaire-procedes.html','bac-commentaire-procedes-entrainement.html','parcours.html'];
-  const is=(names)=>names.includes(path);
+  const is=(names)=>names.includes(path)||(names===hlpPages&&/^hlp-(\d{4}|sujet-zero)-/.test(path));
 
   const portal=(href,label,sub,items,classes='',offer=null)=>`
     <div class="portal-wrap ${classes}">
