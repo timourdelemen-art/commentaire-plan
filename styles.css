@@ -1864,6 +1864,20 @@ main>section:nth-of-type(n+3){
   .nav-portals .portal span{font-size:15px;letter-spacing:.6px}
   .nav-portals .portal small{display:none}
   .nav-portals .portal i{display:none}
-  .mast-v3{grid-template-columns:200px 1fr auto auto !important;gap:14px !important}
   .mast-v3 .brand{font-size:25px !important}
+}
+
+/* ---------- En-tête : le titre du site ne doit jamais chevaucher les onglets ---------- */
+/* La colonne du titre prend la largeur réelle du texte (quelle que soit la police
+   installée sur l'ordinateur) ; les onglets se partagent l'espace qui reste. */
+@media (min-width:1051px){
+  .mast-v3{grid-template-columns:max-content minmax(0,1fr) auto auto !important;column-gap:24px !important}
+  .mast-v3 .brand{white-space:nowrap;min-width:max-content;padding-right:0 !important}
+  .nav-portals{min-width:0;grid-template-columns:repeat(6,minmax(0,1fr)) !important}
+  .nav-portals .portal{min-width:0;overflow:hidden}
+  .nav-portals .portal span,.nav-portals .portal small{overflow:hidden;text-overflow:ellipsis}
+}
+@media (min-width:1051px) and (max-width:1199px){
+  .nav-portals .portal{padding-left:8px !important;padding-right:8px !important}
+  .nav-portals .portal span{font-size:13px !important;letter-spacing:.2px !important}
 }
