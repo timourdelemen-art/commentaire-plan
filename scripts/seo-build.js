@@ -66,7 +66,7 @@ function staticHeader(file){
       ['hlp-terminale.html','HLP Terminale','La recherche de soi, l’Humanité en question'],
       ['hlp-annales.html','Faire une annale','Les vrais sujets du bac, question par question'],
       ['hlp-professeurs.html','Espace professeurs HLP','Codes d’examen, corrections, répartition par entrée']
-    ],hlpPages.has(base)),
+    ],hlpPages.has(base)||/^hlp-(\d{4}|sujet-zero)-/.test(base)),
     portal(file,'brevet.html','BREVET','comprendre · langue · rédiger',[
       ['anthologie-brevet.html','Faire un sujet complet','Une annale officielle, question après question'],
       ['brevet-comprehension.html','Travailler la compréhension','Répondre, justifier, interpréter'],
