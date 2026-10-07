@@ -1,0 +1,32 @@
+name: Extraire les corpus de sujets de philosophie
+# Lancement manuel. Télécharge les recueils publics de sujets de dissertation
+# (banque Mélès diffusée par l'académie de Toulouse, recueil bac de l'académie de Montpellier),
+# en extrait le texte et le range sur la branche « corpus » (jamais publiée sur le site).
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  corpus:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Outils
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+      - name: Télécharger et extraire
+        run: |
+          mkdir out && cd out
+          curl -sSL -A "Mozilla/5.0" -o meles.pdf "https://pedagogie.ac-toulouse.fr/philosophie/system/files/2023-07/BMeles-11000_sujets_dissertation_philosophie.pdf"
+          curl -sSL -A "Mozilla/5.0" -o bac-dissertations.pdf "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf"
+          for f in *.pdf; do head -c4 "$f" | grep -q '%PDF' || { echo "$f n'est pas un PDF"; exit 1; }; pdftotext -layout "$f" "${f%.pdf}.txt"; pdftotext "$f" "${f%.pdf}-brut.txt"; done
+          rm *.pdf
+          wc -l *.txt
+      - name: Publier sur la branche corpus
+        run: |
+          cd out
+          git init -q -b corpus
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add . && git commit -q -m "Corpus de sujets extraits"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" corpus
