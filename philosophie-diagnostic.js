@@ -1,10 +1,10 @@
 (()=> {
 const qs=[
 {skill:"problematiser",title:"Quelle problématique est la plus forte ?",context:"Sujet : « Peut-on être heureux sans être libre ? »",options:[
-["Le bonheur est-il important ?","non"],
-["Peut-on être heureux ou faut-il être libre ?","non"],
-["Comment le bonheur pourrait-il se passer de liberté si être heureux suppose aussi de pouvoir reconnaître sa vie comme la sienne ?","oui"],
-["La liberté est-elle une condition du bonheur ?","non"]]},
+["Le bonheur est-il vraiment ce que tous les hommes recherchent avant toute autre chose ?","non"],
+["Le bonheur exige-t-il de n’avoir plus rien à choisir, au risque de n’être plus éprouvé comme le nôtre, ou suppose-t-il la liberté qui, en gardant ouvert un autre possible, l’empêche d’être jamais complet ?","oui"],
+["Comment pourrait-on être vraiment heureux sans avoir choisi la vie que l’on mène, puisqu’un bonheur imposé n’est qu’une satisfaction subie ?","non"],
+["Faut-il préférer le bonheur, qui apaise, à la liberté, qui inquiète, ou renoncer au repos pour rester libre ?","non"]]},
 {skill:"argumenter",title:"Quel passage pense vraiment ?",context:"Vous devez défendre l’idée que suivre ses désirs ne suffit pas à être libre.",options:[
 ["Sartre parle beaucoup de liberté, donc la liberté est importante.","non"],
 ["Un désir peut être produit par des causes que je ne maîtrise pas ; l’accomplir ne suffit donc pas à prouver que j’en suis véritablement l’auteur.","oui"],
@@ -12,7 +12,7 @@ const qs=[
 ["La liberté est une grande notion philosophique.","non"]]},
 {skill:"transitions",title:"Quelle transition devient nécessaire ?",context:"Acquis : une règle générale protège l’égalité. Limite : des situations différentes peuvent exiger un traitement différent.",options:[
 ["Nous allons maintenant parler de l’équité.","non"],
-["Mais comment une règle peut-elle rester juste si sa généralité l’empêche de tenir compte des différences pertinentes ?","oui"],
+["Une règle qui doit valoir pour tous peut-elle tenir compte des différences pertinentes sans cesser d’être la même pour tous ?","oui"],
 ["Après avoir vu la loi, voyons ses limites.","non"],
 ["La justice est un problème très complexe.","non"]]},
 {skill:"troisieme",title:"Quel III est le plus fort ?",context:"I : liberté = absence d’obstacle. II : nos désirs peuvent eux-mêmes nous déterminer. Reste : comment être auteur de son action sans être sans cause ?",options:[
@@ -50,7 +50,7 @@ function finish(){
 }
 function prescription(k){
  return {
- problematiser:"Travaillez « Quelle problématique survivra ? » puis refaites le geste sur une annale différente.",
+ problematiser:"Faites les cinq QCM de la page Problématisation en nommant chaque erreur, puis appliquez le questionnaire et les sept tests à une annale.",
  argumenter:"Commencez par « Zéro auteur » : une réponse, une raison, un exemple, une difficulté sans référence.",
  transitions:"Faites le « Duel de transitions » puis produisez vous-même une question de manque.",
  troisieme:"Faites la « Bataille des III » : conservation de I, conservation de II, réponse au reste, absence d’arbitraire.",

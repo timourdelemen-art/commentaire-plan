@@ -1881,3 +1881,23 @@ main>section:nth-of-type(n+3){
   .nav-portals .portal{padding-left:8px !important;padding-right:8px !important}
   .nav-portals .portal span{font-size:13px !important;letter-spacing:.2px !important}
 }
+
+/* Philosophie : tableaux de méthode et QCM de problématique */
+.philo-table-wrap{overflow-x:auto;margin:22px 0;-webkit-overflow-scrolling:touch}
+.philo-table{border-collapse:collapse;width:100%;min-width:640px;font-size:17px;line-height:1.42}
+.philo-table th,.philo-table td{border-top:1px solid var(--rule,#c9c0b5);padding:12px 14px 12px 0;text-align:left;vertical-align:top}
+.philo-table th{font:12px 'American Typewriter','Courier New',monospace;letter-spacing:1.4px;color:var(--red);text-transform:uppercase;font-weight:400}
+.philo-table td:first-child{font-weight:600;white-space:nowrap}
+.philo-table td.src{font-size:14px;color:#6b655c}
+.philo-qcm{margin-top:12px}
+.philo-qcm .qcm-options{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.philo-qcm .qcm-option{width:100%;background:#fffdf8;border:1px solid #918a80;padding:15px 17px;text-align:left;font:18px Georgia,'Times New Roman',serif;line-height:1.42;cursor:pointer;color:inherit}
+.philo-qcm .qcm-option:hover{border-color:var(--red)}
+.philo-qcm li.is-ok .qcm-option{border:2px solid #2f6b3a;background:#eef4ec;cursor:default}
+.philo-qcm li.is-named .qcm-option{border-color:#9b9488;color:#6b655c}
+.philo-qcm .qcm-detail{padding:10px 2px 4px;font-size:16px;line-height:1.45}
+.philo-qcm select{font:15px Georgia,'Times New Roman',serif;padding:6px 8px;margin-left:6px;max-width:100%}
+.philo-qcm .qcm-feedback{margin-top:14px;font-size:17px}
+.philo-matrice td:first-child{white-space:normal;min-width:110px}
+@media (max-width:640px){.philo-table{font-size:15px}.philo-qcm .qcm-option{font-size:16px}}
+@media (max-width:640px){.philo-table{min-width:0}.philo-table thead{display:none}.philo-table tr{display:block;border-top:1px solid var(--rule,#c9c0b5);padding:12px 0}.philo-table td{display:block;border:0;padding:3px 0}.philo-table td:first-child{white-space:normal;color:var(--red)}}

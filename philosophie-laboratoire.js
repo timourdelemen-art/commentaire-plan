@@ -1,8 +1,8 @@
 (()=> {
 const exercises=[
-{cat:"problematiser",title:"Quelle problématique survivra ?",desc:"Choisir la meilleure formulation et éliminer chaque distracteur avec une raison précise.",href:"philosophie-problematisation.html",level:"Diagnostic"},
-{cat:"problematiser",title:"Trouvez le coût",desc:"Partir d’une réponse précise à un sujet et repérer ce qu’elle oblige à sacrifier, laisse inexpliqué ou rend difficile à maintenir.",href:"philosophie-dissertation-entrainement.html",level:"Production"},
-{cat:"problematiser",title:"Sujet → réponse → coût → problématique",desc:"Pousser une réponse jusqu’à son coût puis construire une question qui ne fonctionne que pour ce sujet.",href:"philosophie-problematisation.html",level:"Production"},
+{cat:"problematiser",title:"Quelle problématique survivra ?",desc:"Cinq QCM : choisir la formulation qui passe les sept tests, puis nommer l’erreur de chaque distracteur.",href:"philosophie-problematisation.html",level:"Diagnostic"},
+{cat:"problematiser",title:"Trouvez le coût",desc:"Repérer quelle exigence de la notion une réponse sacrifie, puis ce que coûte la réponse contraire.",href:"philosophie-dissertation-entrainement.html",level:"Production"},
+{cat:"problematiser",title:"Sujet → contradiction → problématique",desc:"Lire les mots du sujet, trouver la contradiction de la notion et formuler une question qui ne vaut que pour ce sujet.",href:"philosophie-problematisation.html",level:"Production"},
 {cat:"argumenter",title:"Zéro auteur",desc:"Construire une réponse, une raison, un exemple et une difficulté sans aucun nom propre.",href:"philosophie-penser-par-soi-meme.html",level:"Production"},
 {cat:"argumenter",title:"Une raison, pas un nom",desc:"Transformer un argument d’autorité en véritable justification.",href:"philosophie-penser-par-soi-meme.html",level:"Réparation"},
 {cat:"argumenter",title:"L’exemple qui pense",desc:"Faire d’un cas concret une épreuve qui oblige à préciser le concept.",href:"philosophie-penser-par-soi-meme.html",level:"Transfert"},
@@ -18,7 +18,7 @@ const exercises=[
 {cat:"references",title:"Remplacez l’auteur",desc:"Tester si une référence est précise ou si n’importe quel grand nom conviendrait.",href:"philosophie-references.html",level:"Diagnostic"},
 {cat:"textes",title:"Énoncé → opération → ce que cela change ici",desc:"Identifier ce qu’un philosophe fait du problème, pas seulement ce qu’il dit.",href:"philosophie-operations.html",level:"Analyse"},
 {cat:"textes",title:"Même texte, autre sujet",desc:"Réutiliser une même idée de manière différente selon le problème de dissertation.",href:"philosophie-references.html",level:"Transfert"},
-{cat:"annales",title:"Dissertation officielle",desc:"Travailler un sujet du bac par étapes : demande précise, réponse, conséquences, coût, problématique, plan.",href:"philosophie-annales.html",level:"Transfert"},
+{cat:"annales",title:"Dissertation officielle",desc:"Travailler un sujet du bac 2026 par étapes : mots du sujet, contradiction, deux coûts, problématique, plan.",href:"philosophie-annales.html",level:"Transfert"},
 {cat:"annales",title:"Explication de texte officielle",desc:"Problème, thèse, opération, puis réemploi possible dans une dissertation.",href:"philosophie-annales.html",level:"Transfert"}
 ];
 const labels={all:"Tout",problematiser:"Problématiser",argumenter:"Argumenter",parties:"Construire une partie",transitions:"Transitions",troisieme:"Troisième partie",references:"Références",textes:"Textes",annales:"Annales"};
