@@ -111,6 +111,41 @@ sujets:[
 ["Peut-on être libre sans être responsable ?","Si oui, la liberté n’est qu’un caprice ; si non, chaque liberté nouvelle devient un poids.","Raskolnikov, dans Crime et Châtiment, se croit au-dessus de la morale commune et tue une vieille usurière ; il ne supporte pas ensuite le poids de ce qu’il a fait."],
 ["Peut-on être libre quand on n’a pas le choix ?","Si non, la liberté se réduit à l’hésitation ; si oui, que reste-t-il de la liberté quand tout est décidé ?","Jean Valjean apprend qu’un innocent va être condamné à sa place ; après une nuit de « tempête sous un crâne », il va se dénoncer, comme si, au fond, il n’avait pas le choix."],
 ["La liberté est-elle une illusion ?","Si oui, nos choix ne sont que les effets de causes que nous ignorons ; si non, comment expliquer tout ce qui nous détermine ?","Une expérience célèbre d’hypnose : réveillé, le sujet exécute l’ordre reçu pendant son sommeil, puis invente une raison pour justifier ce qu’il croit avoir librement décidé."]],
+atelier:{
+essentiel:{
+distinctions:[
+["Faire / vouloir","Être libre d’agir, c’est ne rencontrer aucun obstacle ; être libre de vouloir, c’est être vraiment l’auteur de ses choix. On peut avoir l’un sans l’autre : le prisonnier qui pense librement, ou l’homme que rien n’arrête mais qui ne fait que suivre ses envies."],
+["Indépendance / autonomie","L’indépendance, c’est n’obéir à personne ; l’autonomie, c’est obéir à une règle qu’on s’est donnée ou qu’on reconnaît comme juste. Cette distinction permet de comprendre qu’obéir n’est pas toujours se soumettre."],
+["Obligation / contrainte","Un repère du programme. La contrainte me force de l’extérieur ; l’obligation m’engage parce que je la reconnais. Toute limite n’est donc pas une perte de liberté."]],
+auteurs:[
+["Spinoza","Éthique, II, scolie de la proposition 35","Les hommes se croient libres parce qu’ils ont conscience de leurs actions et ignorent les causes qui les déterminent.","Montrer que le sentiment d’être libre ne prouve pas qu’on l’est. Utile dès qu’un sujet oppose ce qu’on ressent et ce qui est."],
+["Rousseau","Du contrat social, livre I, chapitre 8","« L’obéissance à la loi qu’on s’est prescrite est liberté. »","Transformer le concept de liberté dans une troisième partie : être libre, ce n’est pas n’avoir aucune règle, c’est obéir à une règle qu’on se donne."],
+["Sartre","L’existentialisme est un humanisme","L’homme est « condamné à être libre » : refuser de choisir est encore un choix, dont il faut répondre.","Objecter à « je n’avais pas le choix ». Utile quand un sujet invite à se décharger de sa responsabilité."]]},
+qcm:{sujet:"Obéir, est-ce nécessairement se soumettre ?",options:[
+["boiteux","Obéir, n’est-ce pas toujours plier sa volonté devant une autre, au point de perdre la liberté qui faisait de nous les auteurs de nos actes ?","Seule la réponse « oui » est mise à l’épreuve : on ne se demande jamais si l’on pourrait obéir librement."],
+["ok","Obéir, est-ce renoncer à sa volonté, au risque de n’être plus l’auteur de ses actes, ou peut-on obéir en le voulant, au risque de n’avoir fait qu’aimer sa soumission ?","Chaque réponse perd quelque chose : si obéir, c’est renoncer à vouloir, on n’est plus l’auteur de ses actes ; si l’on peut obéir en le voulant, comment savoir qu’on n’aime pas simplement sa soumission ? Et « nécessairement » travaille : la question demande si c’est toujours le cas."],
+["generique","La liberté de l’individu est-elle compatible avec les règles qu’impose la vie en société ?","Elle vaudrait pour presque n’importe quel sujet sur la liberté : « obéir », « se soumettre » et « nécessairement » ont disparu."],
+["rhetorique","Comment pourrait-on obéir sans se soumettre, puisque obéir, c’est toujours faire ce qu’un autre a décidé à notre place ?","« Comment pourrait-on… puisque… » : la question a déjà répondu oui, et l’autre réponse n’est jamais envisagée."]]},
+autre:[
+{sujet:"S’engager, est-ce renoncer à sa liberté ?",options:[
+["Le sentiment d’être libre, et la réalité de ce qui nous détermine.",0,"Cette tension est celle d’un autre sujet : ici, personne ne demande si l’on se croit libre."],
+["Pouvoir faire autrement, et pouvoir choisir, donc renoncer aux autres possibles.",1,"C’est elle : s’engager, c’est choisir ; mais choisir, c’est renoncer à faire autrement. Le sujet porte sur ce que l’on perd en se liant."],
+["La liberté de l’individu, et les lois de l’État.",0,"Rien dans le sujet ne parle de l’État : c’est un doigt en trop."]]},
+{sujet:"Suffit-il de se sentir libre pour l’être ?",options:[
+["Pouvoir faire autrement, et tenir ses promesses.",0,"Le sujet ne parle ni de promesse ni d’engagement : cette tension ne vient pas de ses mots."],
+["La liberté, et le bonheur qu’elle apporte.",0,"Le bonheur n’est pas dans le sujet : c’est un doigt en trop."],
+["Le sentiment d’être libre, et la réalité de ce qui nous détermine.",1,"C’est elle : « se sentir » et « l’être » s’opposent. On peut se croire libre sans l’être ; mais comment savoir qu’on est libre, sinon en le sentant ?"]]}],
+ordre:[
+{titre:"Partie I · L’engagement enferme la liberté : il ferme les possibles.",roles:["On installe la réponse","On la renforce","On trouve sa limite"],items:[
+[2,"Une liberté qui ne s’engage jamais ne fait rien. Dom Juan, qui veut tout garder ouvert, ne construit rien et ne fait que répéter le même désir. Une liberté qui ne passe jamais dans un choix est-elle autre chose qu’une possibilité vide ?"],
+[0,"Être libre, c’est pouvoir faire autrement. Or celui qui promet s’interdit de changer d’avis : le contrat, le mariage, le serment lient un moi futur que je ne connais pas encore."],
+[1,"Plus l’engagement dure, plus il lie celui que je deviendrai à celui que je suis aujourd’hui : promettre, c’est décider à la place de son futur soi. Le Dom Juan de Molière l’assume avec cynisme : « la constance n’est bonne que pour des ridicules »."]]},
+{titre:"Partie II · S’engager, c’est exercer sa liberté : on ne choisit qu’en renonçant.",roles:["Une nouvelle exigence","Une nouvelle réponse","Une nouvelle limite"],items:[
+[1,"S’engager, c’est donner à sa liberté une forme qui dure. Nietzsche voit dans l’homme capable de promettre une volonté qui ne dépend plus de l’humeur du moment, et qui peut répondre d’elle-même pour l’avenir."],
+[2,"Si l’engagement me lie vraiment, je ne pourrai plus m’en délier quand je le voudrai. Que devient ma liberté si je change, si la cause servie devient injuste, si l’amour s’éteint ?"],
+[0,"La liberté n’est pas seulement un pouvoir de faire autrement ; elle doit aussi se réaliser, passer dans des actes. Or tout acte choisit une possibilité et en exclut d’autres."]]}],
+transition:{sujet:"S’engager, est-ce renoncer à sa liberté ?",acquis:"La partie I a montré que l’engagement ferme les possibles : celui qui promet s’interdit de faire autrement.",limite:"Mais une liberté qui refuse de se lier ne choisit jamais rien, et reste une possibilité vide.",corrige:"L’engagement ferme bien les possibles ; mais une liberté qui refuse de se lier ne choisit jamais rien, et se perd dans des possibles qui ne deviennent jamais réels. Une liberté peut-elle se réaliser sans se lier ?"},
+scene:{sujet:"Suffit-il de se sentir libre pour l’être ?",corrige:"Dans The Truman Show (1998), Truman vit heureux dans une petite ville sans savoir qu’elle est un immense décor et que sa vie entière est filmée. Il se sent libre ; mais le jour où il veut partir, tout l’en empêche : un embouteillage, un accident, sa peur de l’eau soigneusement entretenue.",montre:"La scène contient les deux réponses : Truman se sentait libre sans l’être, donc le sentiment ne suffit pas ; mais c’est aussi en sentant que quelque chose cloche qu’il commence à se libérer. Le sentiment ne prouve rien, et pourtant on ne se libère pas sans lui."}},
 corrige:{mots:"« S’engager » : se lier pour l’avenir par une promesse, un choix, une cause. « Est-ce » : l’engagement serait-il, par essence, une perte de liberté ? « Renoncer » : abandonner volontairement.",
 demande:"Pouvoir faire autrement ; et choisir, donc renoncer aux autres possibles.",
 oui:"Oui : s’engager, c’est se lier, s’interdire demain de faire autrement. Mais une liberté qui ne s’engage jamais ne choisit jamais rien : elle reste une possibilité vide.",

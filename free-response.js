@@ -23,6 +23,7 @@
     "philo-partie":"Réponse, raison qui la rend nécessaire, appui analysé, limite qui découle de la réponse elle-même.",
     "philo-reference":"La référence doit accomplir une opération dans le raisonnement et être exacte ; sans le nom, le raisonnement doit tenir. N’invente aucune citation.",
     "philo-operation":"Nommer l’opération et dire ce qu’elle permet de résoudre ici ; une étiquette seule ne suffit pas.",
+    "philo-scene":"Une scène (roman, film, histoire, anecdote) racontée en deux ou trois phrases, puis ce qu’elle montre. Elle doit contenir le problème du sujet, les deux réponses, et pas seulement le thème. Vérifier que les faits racontés sont plausibles et que la phrase finale relie vraiment la scène au sujet.",
     "philo-texte-probleme":"Explication de texte, texte NON fourni : juge seulement la forme ; le problème est une difficulté, formulée en question, et la raison pour laquelle elle n’est pas évidente.",
     "philo-texte-these":"Explication de texte, texte NON fourni : juge seulement la forme ; une thèse précise en une phrase, pas un thème ni un résumé.",
     "philo-texte-moments":"Explication de texte, texte NON fourni : juge seulement la construction ; trois à cinq moments, chacun avec ce que l’auteur fait."
