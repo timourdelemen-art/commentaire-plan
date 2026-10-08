@@ -5,6 +5,7 @@
 const fs=require('fs');
 const path=require('path');
 const {annaleFile}=require('./philo-paths');
+const C20=require('./philo-copie20');
 const ROOT=path.resolve(__dirname,'..');
 const DOMAIN='https://commentaire-plan.com';
 global.window={};
@@ -64,7 +65,7 @@ function page(set,x,all){
 <link rel="stylesheet" href="styles.css">
 </head><body><header class="top"></header><main class="wrap">
 <section class="pagehead"><div><div class="kicker">PHILOSOPHIE · BAC 2026 · ${esc(set.center.toUpperCase())}</div><h1>${esc(x.title)}</h1><p class="lede">${diss?'Travaillez le sujet en cinq étapes, sur un brouillon. Le corrigé est en bas : ne l’ouvrez qu’après votre essai.':'Lisez d’abord le texte dans le sujet officiel, deux fois, crayon en main. Puis travaillez-le en cinq étapes. Le corrigé est en bas : ne l’ouvrez qu’après votre essai.'}</p></div><aside class="side-note"><p><strong>${diss?'Dissertation':'Explication de texte'}</strong><br>${esc(set.code)}</p><p><a href="${esc(set.source)}">Sujet officiel (PDF) ↗</a></p><p><a href="#corrige">Aller directement au corrigé ↓</a></p></aside></section>
-${diss?dissertation(set,x):texte(set,x)}
+${diss?dissertation(set,x)+C20.teaser(x.id):texte(set,x)}
 <section class="offer-band"><div class="kicker">LES AUTRES SUJETS 2026</div><h2>Continuer sur un autre sujet.</h2><div class="seo-links">
 ${others}
 </div><p><a href="philosophie-annales.html">← Toutes les annales</a> · <a href="philosophie-notions.html">Les 17 notions →</a></p></section>
