@@ -7,7 +7,7 @@ const exercises=[
 {cat:"argumenter",title:"Une raison, pas un nom",desc:"Transformer un argument d’autorité en véritable justification.",href:"philosophie-penser-par-soi-meme.html#raison-pas-nom",level:"Réparation"},
 {cat:"argumenter",title:"L’exemple qui pense",desc:"Faire d’un cas concret une épreuve qui oblige à préciser le concept.",href:"philosophie-penser-par-soi-meme.html#exemple-qui-pense",level:"Transfert"},
 {cat:"parties",title:"Plan interchangeable ?",desc:"Vérifier si les parties sont nécessaires dans cet ordre ou simplement juxtaposées.",href:"philosophie-dissertation-entrainement.html#plan-interchangeable",level:"Diagnostic"},
-{cat:"parties",title:"Construire une partie",desc:"Réponse → nécessité → argument → appui → limite.",href:"philosophie-dissertation-entrainement.html#ex-partie",level:"Production"},
+{cat:"parties",title:"Construire une partie",desc:"Réponse, nécessité, argument ou exemple, limite.",href:"philosophie-dissertation-entrainement.html#ex-partie",level:"Production"},
 {cat:"transitions",title:"Duel de transitions",desc:"Éliminer résumé, annonce et généralité ; garder la question née du manque réel.",href:"philosophie-dissertation-entrainement.html#duel-transitions",level:"Diagnostic"},
 {cat:"transitions",title:"Partie → manque → question",desc:"Transformer la limite d’une partie en nécessité de la suivante.",href:"philosophie-dissertation-entrainement.html#ex-transition",level:"Production"},
 {cat:"troisieme",title:"Bataille des III",desc:"Comparer plusieurs dépassements et choisir celui qui traite vraiment le reste.",href:"philosophie-dissertation-entrainement.html#bataille-iii",level:"Diagnostic"},

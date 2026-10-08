@@ -11,16 +11,16 @@ const qs=[
 ["Un désir peut être produit par des causes que je ne maîtrise pas ; l’accomplir ne suffit donc pas à prouver que j’en suis vraiment l’auteur.",true,"C’est la bonne : une raison, puis une conséquence qui en découle. On peut la discuter, donc elle pense."],
 ["Par exemple, un fumeur qui a envie d’une cigarette la fume, mais il n’est pas libre pour autant.",false,"L’exemple est bien choisi, mais il ne dit pas pourquoi le fumeur n’est pas libre : il illustre sans argumenter."],
 ["La liberté est une notion complexe, qui a fait débattre les philosophes depuis l’Antiquité.",false,"Une généralité vraie, mais qui ne défend aucune idée précise."]]},
-{skill:"transitions",title:"Quelle transition fait avancer le devoir ?",context:"Acquis de la partie I : le travail nous libère du besoin. Limite : il peut aussi absorber toute la vie.",options:[
-["Nous avons vu que le travail libère ; voyons maintenant ses limites.",false,"Elle annonce la suite sans dire quel problème la rend nécessaire."],
-["Mais comment le travail pourrait-il libérer, s’il absorbe toute notre vie ?",false,"La réponse est déjà dans la question : la partie II n’a plus rien à chercher."],
-["Ce qui nous donne les moyens de vivre peut-il devenir le but de notre vie sans cesser de nous libérer ?",true,"C’est la bonne : elle part exactement de la limite et pose une question vraiment ouverte."],
-["Le travail est donc une question complexe, qui touche tous les aspects de l’existence.",false,"Une généralité qui quitte la difficulté précise."]]},
-{skill:"troisieme",title:"Quelle troisième partie est la plus forte ?",context:"I : être libre, c’est ne pas rencontrer d’obstacle. II : mais nos désirs eux-mêmes peuvent nous être imposés. Reste : comment une action peut-elle être vraiment la mienne sans être sans cause ?",options:[
-["Il faut donc être un peu libre et un peu déterminé : la vérité est entre les deux.",false,"Couper la poire en deux n’explique rien : on renonce au problème au lieu de le traiter."],
-["Finalement, la liberté est une illusion : nous sommes entièrement déterminés.",false,"Choisir un camp efface ce que la partie I avait montré."],
-["Il faut changer de définition : être libre, ce n’est pas être sans cause, c’est agir selon des raisons qu’on reconnaît comme siennes.",true,"C’est la bonne : elle garde l’acquis de I et de II, et transforme le concept de liberté pour répondre au reste."],
-["La société aussi limite notre liberté, ce qui pose un autre problème.",false,"Elle change de sujet au lieu de répondre au reste."]]},
+{skill:"transitions",title:"Quelle transition fait avancer le devoir ?",context:"Acquis de la partie I : nos désirs nous poussent vers ce qui nous manque. Limite : une fois satisfaits, ils s’éteignent, et l’ennui revient.",options:[
+["Nous avons vu que le désir vise ce qui manque ; voyons maintenant ses limites.",false,"Elle annonce la suite sans dire quel problème la rend nécessaire."],
+["Mais comment pourrait-on être heureux en désirant, si tout désir finit dans l’ennui ?",false,"La réponse est déjà dans la question : la partie II n’a plus rien à chercher."],
+["Si le désir s’éteint dès qu’il est satisfait, que cherchons-nous vraiment en désirant : l’objet, ou le fait même de désirer ?",true,"C’est la bonne : elle part exactement de la limite et pose une question vraiment ouverte, qui ouvre la partie II."],
+["Le désir est donc une question complexe, qui touche tous les aspects de l’existence.",false,"Une généralité qui quitte la difficulté précise."]]},
+{skill:"troisieme",title:"Quelle troisième partie est la plus forte ?",context:"I : une loi générale garantit l’égalité, la même règle pour tous. II : mais elle ne voit pas les situations particulières, et peut produire une injustice. Reste : comment être juste avec chacun sans cesser de l’être pour tous ?",options:[
+["Il faut donc appliquer les lois à moitié : un peu de règle, un peu d’exception.",false,"Couper la poire en deux n’explique rien : on renonce au problème au lieu de le traiter."],
+["Finalement, il faut supprimer les lois générales et juger chaque cas séparément.",false,"Choisir un camp efface ce que la partie I avait montré : l’égalité devant la règle."],
+["Il faut distinguer deux plans : la loi fixe la règle pour tous, le juge l’applique avec équité à chaque cas, sans la contredire.",true,"C’est la bonne : elle garde l’acquis de I et de II en distinguant deux plans, la règle et son application."],
+["La justice coûte cher à l’État, ce qui pose un autre problème.",false,"Elle change de sujet au lieu de répondre au reste."]]},
 {skill:"references",title:"Quelle référence travaille vraiment ?",context:"Vous voulez montrer qu’un objet ne nous attire pas toujours parce qu’il a d’abord de la valeur.",options:[
 ["Spinoza, dans l’Éthique, parle longuement du désir, ce qui montre l’importance de la question.",false,"Le nom et le titre sont exacts, mais la référence ne fait rien dans le raisonnement."],
 ["Pour Spinoza, le désir est l’essence même de l’homme.",false,"La phrase est exacte, mais elle ne répond pas à ce que vous voulez montrer."],
@@ -63,7 +63,7 @@ function prescription(k){
  return {
  problematiser:"Suivez l’exemple de la page « Trouver le problème », puis faites les cinq QCM en nommant chaque erreur.",
  argumenter:"Commencez par « Zéro auteur » : une réponse, une raison, un exemple, une difficulté, sans aucun nom propre.",
- transitions:"Faites l’exercice 7 et le « Duel de transitions », puis écrivez vous-même une transition sur un autre sujet.",
+ transitions:"Faites l’exercice 7 et le « Duel de transitions », puis écrivez vous-même une transition sur un sujet d’annale.",
  troisieme:"Faites la « Bataille des III », puis relisez les sept opérations de la troisième partie.",
  references:"Commencez par « Sauvez cette citation », puis appliquez le test : retirez le nom, le raisonnement tient-il encore ?"
  }[k];
