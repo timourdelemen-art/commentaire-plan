@@ -8,6 +8,28 @@
 
   function clean(s){return String(s||"").replace(/\s+/g," ").trim();}
   const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
+  /* Philosophie : les critères partent avec la demande, pour que le serveur IA juge en philosophie (et non en littérature),
+     même s’il n’a pas été mis à jour. Le vrai type est aussi transmis (philo_kind) pour un serveur à jour. */
+  const PHILO_BASE="PHILOSOPHIE (Terminale), pas littérature : il n’y a ni texte ni œuvre à analyser, ignore toute règle sur le texte, l’œuvre ou les procédés. Méthode : la notion demande deux choses qui se gênent ; chaque réponse, poussée jusqu’au bout, perd quelque chose. N’exige jamais d’auteur. N’emploie aucun jargon. N’écris jamais la réponse à la place de l’élève. Si la réponse remplit la consigne, diagnostic acquis.";
+  const PHILO_CRIT={
+    "philo-problematique":"Test du gant, signale seulement le premier point qui échoue : chaque mot du sujet travaille ; aucune notion ajoutée ; les deux réponses restent ouvertes et chacune perd quelque chose (pas de question rhétorique « comment pourrait-on… puisque… ») ; on reconnaît le sujet sans recopie ; une seule question, une trentaine de mots ; on y lit la partie I et la partie II, sans la solution de la III.",
+    "philo-cout":"Les deux réponses doivent perdre quelque chose, et la perte doit venir de la réponse poussée jusqu’au bout, pas d’une objection extérieure.",
+    "philo-consequence":"Deux choses que la notion demande dans son sens courant, sans définition d’auteur, et pourquoi elles se gênent.",
+    "philo-reponse":"Les petits mots du sujet et ce qu’ils changent au sens ; l’idée que le sujet invite d’abord à accepter.",
+    "philo-transition":"Modèle : ce que nous venons d’établir ; mais ce que cela perd. Question ouverte sur ce reste ? Pas d’annonce (« voyons maintenant ») ; la question ne contient pas sa réponse.",
+    "philo-plan":"I défend une réponse et finit sur sa limite, née de l’idée poussée jusqu’au bout ; II part de cette limite ; III ne choisit pas un camp ni ne coupe la poire en deux : une opération (distinguer deux plans, processus, inverser un rapport, transformer le concept, déplacer la difficulté, limiter ce qu’on peut savoir, maintenir la tension) qui garde les acquis de I et II.",
+    "philo-troisieme":"III : ce qui reste (acquis de I et II), l’opération, ce qu’elle garde. Refuser compromis, choix d’un camp, changement de sujet.",
+    "philo-reste":"Ce que la III doit sauver des deux côtés : les deux acquis doivent être nommés.",
+    "philo-partie":"Réponse, raison qui la rend nécessaire, appui analysé, limite qui découle de la réponse elle-même.",
+    "philo-reference":"La référence doit accomplir une opération dans le raisonnement et être exacte ; sans le nom, le raisonnement doit tenir. N’invente aucune citation.",
+    "philo-operation":"Nommer l’opération et dire ce qu’elle permet de résoudre ici ; une étiquette seule ne suffit pas.",
+    "philo-texte-probleme":"Explication de texte, texte NON fourni : juge seulement la forme ; le problème est une difficulté, formulée en question, et la raison pour laquelle elle n’est pas évidente.",
+    "philo-texte-these":"Explication de texte, texte NON fourni : juge seulement la forme ; une thèse précise en une phrase, pas un thème ni un résumé.",
+    "philo-texte-moments":"Explication de texte, texte NON fourni : juge seulement la construction ; trois à cinq moments, chacun avec ce que l’auteur fait."
+  };
+  function philoTransport(kind){
+    return {problematique:"problematique","philo-problematique":"problematique","philo-transition":"transition","philo-plan":"plan","philo-troisieme":"plan","philo-partie":"plan","philo-reste":"plan"}[kind]||"lecture";
+  }
   function contextFor(area){
     const box=area.closest(".exercise,.workbench,.writing-sim,.stage-card,.bac-work,.method-section")||area.parentElement;
     // Consigne visible par l’élève (sans le contenu des corrigés repliés), puis critère destiné au correcteur s’il existe.
@@ -21,6 +43,17 @@
       quote:clean(area.dataset.feedbackQuote||quote?.textContent||"").slice(0,1200),
       kind:clean(area.dataset.feedbackKind||"").slice(0,50)
     };
+  }
+  function contextForRequest(area){
+    const c=contextFor(area);
+    if(/^philo-/.test(c.kind)){
+      const crit=PHILO_CRIT[c.kind]||"Évaluer seulement l’opération demandée par la consigne.";
+      const head=PHILO_BASE+" CRITÈRE : "+crit+" CONSIGNE ET TRAVAIL DEMANDÉ : ";
+      c.philo_kind=c.kind;
+      c.kind=philoTransport(c.kind);
+      c.instruction=head+c.instruction.slice(-Math.max(400,1800-head.length));
+    }
+    return c;
   }
 
   function mount(area,index){
@@ -72,7 +105,7 @@
           body:JSON.stringify({
             exercise:"free-response",
             answer,
-            context:{...contextFor(area),response_index:index},
+            context:{...contextForRequest(area),response_index:index},
             previous_answer:previousAnswer
           })
         });

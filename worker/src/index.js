@@ -349,7 +349,7 @@ function buildSpec(body) {
 
   if (exercise === "free-response") {
     const context = body.context && typeof body.context === "object" ? body.context : {};
-    const philoKind = clean(context.kind, 50);
+    const philoKind = clean(context.philo_kind || context.kind, 50);
     if (PHILO_KIND.test(philoKind)) return buildPhiloSpec(context, philoKind);
     const title = clean(context.title, 220);
     const instruction = clean(context.instruction, 1800);
