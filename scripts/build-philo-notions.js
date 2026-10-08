@@ -70,9 +70,9 @@ ${next(3)}</article></section>`;
   const t=A.transition;
   const s4=`<section class="exercise-wrap atelier-step" data-step="4"><article class="exercise">${stepHead(4,'Écrire la transition.')}
 <p class="quote">Sujet : « ${esc(t.sujet)} »</p>
-<p class="instruction">${esc(t.acquis)} ${esc(t.limite)} Écrivez la transition vers la partie II, en deux phrases : ce que nous venons d’établir ; mais ce que cela perd. Puis une question ouverte sur ce reste.</p>
+<p class="instruction">${esc(t.acquis)} ${esc(t.limite)} Écrivez la transition vers la partie II, en une phrase, deux au plus : dites pourquoi cette réponse échoue (l’idée se retourne-t-elle contre elle-même ? son succès coûte-t-il trop cher ?), sans « nous avons vu » ni « voyons maintenant ».</p>
 <textarea rows="4" data-feedback-kind="philo-transition" data-feedback-quote="${esc(t.sujet)}" aria-label="Votre transition"></textarea>
-<details class="correction"><summary>Comparer avec une transition possible</summary><p>${esc(t.corrige)}</p><p class="micro">La question ne contient pas sa réponse : elle ouvre la partie II.</p></details>
+<details class="correction"><summary>Comparer avec une transition possible</summary><p>${esc(t.corrige)}</p><p class="micro">Le modèle du prix : la liberté de Dom Juan réussit à tout garder ouvert, et c’est ce succès qui la ruine. <a class="official-link" href="philosophie-dissertation.html#transitions">Les modèles de transition →</a></p></details>
 ${next(4)}</article></section>`;
   const sc=A.scene;
   const s5=`<section class="exercise-wrap atelier-step" data-step="5"><article class="exercise">${stepHead(5,'Trouver une scène pour l’introduction.')}
