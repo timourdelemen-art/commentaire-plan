@@ -23,7 +23,7 @@ function rel(file){ return path.relative(ROOT,file).split(path.sep).join('/'); }
 function abs(href){ return href.startsWith('/') ? href : '/' + href; }
 
 const bacPages=new Set(['bac.html','anthologie-bac.html','bac-commentaire.html','bac-commentaire-procedes.html','bac-commentaire-procedes-entrainement.html','bac-dissertation.html','bac-dissertation-methode.html','bac-oral.html','bac-mode-examen.html','commentaire-bac-methode.html','commentaire-bac-problematique.html','commentaire-bac-plan.html','commentaire-bac-procedes-effets.html','commentaire-bac-introduction.html','commentaire-bac-transition.html','commentaire-bac-conclusion.html','oeuvres-integrales.html','pot-bouille.html','pot-bouille-bac-2027.html','pot-bouille-pb01.html','pot-bouille-pb02.html','pot-bouille-pb03.html']);
-const philoPages=new Set(['philosophie.html','dissertation-philosophie-bac.html','philosophie-dissertation.html','philosophie-dissertation-entrainement.html','philosophie-problematisation.html','philosophie-operations.html','philosophie-penser-par-soi-meme.html','philosophie-references.html','philosophie-laboratoire.html','philosophie-diagnostic.html','philosophie-annales.html','philosophie-annale.html']);
+const philoPages=new Set(['philosophie.html','dissertation-philosophie-bac.html','philosophie-dissertation.html','philosophie-dissertation-entrainement.html','philosophie-problematisation.html','philosophie-operations.html','philosophie-penser-par-soi-meme.html','philosophie-references.html','philosophie-laboratoire.html','philosophie-diagnostic.html','philosophie-annales.html','philosophie-annale.html','philosophie-notions.html']);
 const brevetPages=new Set(['brevet.html','anthologie-brevet.html','brevet-comprehension.html','brevet-grammaire.html','brevet-reecriture.html','brevet-redaction.html','brevet-imagination.html','brevet-reflexion.html']);
 const hlpPages=new Set(['hlp.html','hlp-premiere.html','hlp-terminale.html','hlp-annales.html']);
 const teacherPages=new Set(['enseignants.html','hlp-professeurs.html','formation.html','bibliotheque.html','pot-bouille-professeurs.html','sequence-pot-bouille.html']);
@@ -59,8 +59,9 @@ function staticHeader(file){
       ['philosophie-dissertation-entrainement.html','S’entraîner geste par geste','Problématique, argumentation, transition, III'],
       ['philosophie-references.html','Travailler les références','Faire réellement agir un auteur dans le raisonnement'],
       ['philosophie-operations.html','Travailler les opérations','Distinguer, inverser, déplacer, transformer…'],
+      ['philosophie-notions.html','Travailler une notion','Les 17 notions : sujets du bac et corrigés'],
       ['philosophie-annales.html','Faire une annale','Dissertation ou explication de texte, sujet par sujet']
-    ],philoPages.has(base)),
+    ],philoPages.has(base)||base.startsWith('philosophie-notion')),
     portal(file,'hlp.html','HLP','1re · Tle',[
       ['hlp-premiere.html','HLP Première','La parole, les représentations du monde'],
       ['hlp-terminale.html','HLP Terminale','La recherche de soi, l’Humanité en question'],
