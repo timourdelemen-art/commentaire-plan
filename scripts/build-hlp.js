@@ -120,9 +120,12 @@ function page(x){
   const e=ENTREES[x.e], p=pdfLink(x), file=fileName(x), url=DOMAIN+'/'+file;
   const yearTxt=x.s==='zero'?'sujet zéro':'bac '+x.y;
   let title=x.a+', '+x.w+' : sujet HLP '+(x.s==='zero'?'zéro':x.y);
-  if(title.length>68) title=x.a+' : sujet HLP '+(x.s==='zero'?'zéro':x.y)+(x.c&&x.s!=='zero'?' '+x.c:'');
-  const desc=('Spécialité HLP, '+yearTxt+(x.s!=='zero'?' ('+x.c+(x.j?', jour '+x.j:'')+')':'')+' : '+x.a+', '+x.w+'. '+interpLabel(x)+' : « '+x.iq+' » Essai et entraînement guidé.').replace(/\s+/g,' ');
-  const descShort=desc.length>300?desc.slice(0,297).replace(/\s+\S*$/,'')+'…':desc;
+  if(title.length>60) title=x.a+' : sujet HLP '+(x.s==='zero'?'zéro':x.y)+(x.c&&x.s!=='zero'?' '+x.c:'');
+  const desc=('Spécialité HLP, '+yearTxt+(x.s!=='zero'?' ('+x.c+(x.j?', jour '+x.j:'')+')':'')+' : '+x.a+', '+x.w+'. '+interpLabel(x)+' : « '+x.iq.replace(/^«\s*|\s*»$/g,'')+' » Essai et entraînement guidé.').replace(/\s+/g,' ');
+  const head='Sujet HLP '+(x.s==='zero'?'zéro':x.y+' ('+x.c+(x.j?', jour '+x.j:'')+')')+' : '+x.a+', '+x.w+'.';
+  const tails=[' Sujet officiel en PDF, questions et entraînement guidé.',' Sujet officiel et entraînement guidé.',' Entraînement guidé.',''];
+  let descShort=head+tails.find(t=>(head+t).length<=155);
+  if(descShort.length>155) descShort=descShort.slice(0,152).replace(/\s+\S*$/,'')+'…';
   const ld={'@context':'https://schema.org','@type':'LearningResource','name':title,'inLanguage':'fr','url':url,
     'learningResourceType':'Sujet d’examen','educationalLevel':'Terminale générale','teaches':['Interprétation de texte','Essai argumenté'],
     'about':['Humanités, littérature et philosophie',e?e.label:''].filter(Boolean),
