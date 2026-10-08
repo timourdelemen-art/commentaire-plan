@@ -2015,3 +2015,21 @@ main>section:nth-of-type(n+3){
 .parcours-check{margin-left:10px;font-size:15px;color:#3f5233;white-space:nowrap;cursor:pointer}
 [data-parcours].done strong{text-decoration:line-through;text-decoration-color:#596d49}
 .parcours-status{font-size:18px;color:#3f5233;margin:4px 0 0}
+
+/* Accueil : promesse, portes, preuve */
+.home-hero h1{font-size:clamp(44px,6vw,78px);line-height:1;letter-spacing:-2px}
+.home-sign{margin-top:22px;font-size:16px;color:var(--muted);font-style:italic}
+.home-doors{grid-template-columns:repeat(4,1fr)}
+.home-doors strong{font-size:25px}
+@media(max-width:1100px) and (min-width:901px){.home-doors{grid-template-columns:1fr 1fr}.home-doors>a:nth-child(3){border-left:0;border-top:1px solid var(--rule)}.home-doors>a:nth-child(4){border-top:1px solid var(--rule)}}
+.home-proof-subject{margin:8px 0 14px}
+.home-proof-copy{max-width:1100px}
+.home-proof-gap .c20-t{color:var(--muted)}
+.home-steps{grid-template-columns:repeat(3,1fr)}
+@media(max-width:900px){.home-steps{grid-template-columns:1fr}}
+.home-figures-grid strong{font-size:28px;display:block;margin-bottom:6px}
+.home-lead .lead-form{max-width:620px}
+@media(max-width:900px){.home-doors{grid-template-columns:1fr}}
+.home-steps article{transform:none!important;margin:0!important}
+.capture{margin-top:30px}
+.capture .lead-form{max-width:620px}

@@ -133,12 +133,17 @@ function crumbSpec(r, title){
     else if(/^bac-dissertation/.test(b)) c.push({name:'Dissertation',href:'/bac-dissertation.html'});
     else if(/^bac-oral/.test(b)) c.push({name:'Oral',href:'/bac-oral.html'});
   }
+  const last=c[c.length-1];
+  if(last.href==='/'+b){ last.href=null; return c; }
   c.push({name:title || b.replace(/\.html$/,'').replace(/-/g,' '),href:null});
   return c;
 }
 
 function injectBreadcrumbs(html,r){
-  if(r==='index.html' || /class=["'][^"']*seo-breadcrumbs/.test(html)) return html;
+  if(r==='index.html') return html;
+  /* Régénère à chaque build : le fil suit le titre actuel de la page. */
+  html=html.replace(/<nav class="seo-breadcrumbs[^"]*"[^>]*>[\s\S]*?<\/nav>\n?/,'');
+  html=html.replace(/<script type="application\/ld\+json" data-seo-breadcrumbs="1">[\s\S]*?<\/script>\n?/,'');
   const title=firstH1(html);
   const crumbs=crumbSpec(r,title);
   if(!crumbs.length) return html;
