@@ -54,30 +54,30 @@ function atelierHtml(n,corr){
 <p>Le plus souvent, ${esc(lower(n))} demande deux choses qui se gênent : ${esc(n.d1)}, et ${esc(n.d2)}. Mais attention : selon les mots du sujet, ce qui coince peut changer. C’est l’objet de l’exercice 2 de l’atelier.</p>
 </section>`;
   const q=A.qcm;
-  const s1=`<section class="exercise-wrap atelier-step" data-step="1"><article class="exercise">${stepHead(1,'Choisir la problématique, puis nommer les erreurs.')}
-<p class="quote">Sujet : « ${esc(q.sujet)} »</p><p class="instruction">Cliquez sur la formulation qui passe le test du gant. Pour chacune des trois autres, choisissez son erreur dans la liste.</p>
+  const s1=`<section class="exercise-wrap atelier-step" data-step="1"><article class="exercise">${stepHead(1,'Choisir la meilleure problématique.')}
+<p class="quote">Sujet : « ${esc(q.sujet)} »</p><div class="instruction"><p>La problématique est la question qui montre pourquoi le sujet n’a pas de réponse facile.</p><ol class="consigne-simple"><li>Cliquez sur la meilleure des quatre questions.</li><li>Pour chacune des trois autres, choisissez dans la liste ce qui ne va pas.</li></ol></div>
 <div class="philo-qcm"><ol class="qcm-options">${q.options.map(o=>o[0]==='ok'?`<li data-ok="1" data-why="${esc(o[2])}">${esc(o[1])}</li>`:`<li data-error="${o[0]}" data-why="${esc(o[2])}">${esc(o[1])}</li>`).join('')}</ol></div>
 ${next(1)}</article></section>`;
   const s2=`<section class="exercise-wrap atelier-step" data-step="2"><article class="exercise">${stepHead(2,'Même notion, autre sujet : ce qui coince change.')}
-<p class="instruction">Selon la façon dont le sujet est posé, le conflit n’est pas le même. Pour chaque sujet, lisez bien ses mots, puis cliquez sur le conflit (les deux attentes qui se gênent) qui vient vraiment de ce sujet-là, et pas de la notion en général.</p>
+<div class="instruction"><p>Selon ses mots, un sujet ne fait pas coincer la même chose.</p><ol class="consigne-simple"><li>Lisez chaque sujet.</li><li>Cliquez sur les deux attentes qui se gênent dans ce sujet-là, et pas dans la notion en général.</li></ol></div>
 ${A.autre.map(a=>`<p class="quote">« ${esc(a.sujet)} »</p><div class="atelier-choice">${a.options.map(o=>`<button type="button" class="choice" data-ok="${o[1]}" data-why="${esc(o[2])}">${esc(o[0])}</button>`).join('')}<div class="atelier-why" aria-live="polite"></div></div>`).join('')}
 <p class="micro">Retenez-le : on ne plaque pas sur un sujet les deux exigences apprises par cœur. On les cherche dans les mots du sujet.</p>
 ${next(2)}</article></section>`;
   const s3=`<section class="exercise-wrap atelier-step" data-step="3"><article class="exercise">${stepHead(3,'Retrouver le mouvement d’une partie.')}
-<p class="instruction">Voici les trois paragraphes d’une partie, dans le désordre (sujet : « ${esc(n.corrige.pb?n.sujets[0][0]:'')} »). Pour chacun, dites à quoi il sert. Une partie n’est pas une liste d’arguments : elle avance.</p>
+<div class="instruction"><p>Voici les trois paragraphes d’une partie, dans le désordre (sujet : « ${esc(n.corrige.pb?n.sujets[0][0]:'')} »). Une partie n’est pas une liste d’arguments : elle avance.</p><ol class="consigne-simple"><li>Pour chaque paragraphe, choisissez dans la liste à quoi il sert.</li><li>Cliquez sur « Vérifier ».</li></ol></div>
 ${A.ordre.map(o=>`<div class="atelier-ordre"><p><strong>${esc(o.titre)}</strong></p>${o.items.map(it=>`<div class="ordre-item"><p>${esc(it[1])}</p><label>Ce paragraphe : <select data-role="${it[0]}"><option value="">choisir…</option>${o.roles.map((r,k)=>`<option value="${k}">${esc(r)}</option>`).join('')}</select></label></div>`).join('')}<p><button type="button" class="philo-print ordre-check">Vérifier</button></p><div class="atelier-why" aria-live="polite"></div></div>`).join('')}
 ${next(3)}</article></section>`;
   const t=A.transition;
   const s4=`<section class="exercise-wrap atelier-step" data-step="4"><article class="exercise">${stepHead(4,'Écrire la transition.')}
 <p class="quote">Sujet : « ${esc(t.sujet)} »</p>
-<p class="instruction">${esc(t.acquis)} ${esc(t.limite)} Écrivez la phrase qui fait passer à la partie II (la transition), une ou deux phrases au plus. Elle ne résume pas : elle dit pourquoi la réponse qu’on vient de défendre ne suffit pas. Deux pistes : l’idée, poussée à fond, se retourne-t-elle contre elle-même ? Ou bien réussit-elle, mais en coûtant trop cher ? Évitez « nous avons vu » et « voyons maintenant ».</p>
+<div class="instruction"><p>${esc(t.acquis)} ${esc(t.limite)}</p><ol class="consigne-simple"><li>Écrivez une ou deux phrases qui disent pourquoi la partie I ne suffit pas, et font passer à la partie II.</li><li>Évitez « nous avons vu » et « voyons maintenant ».</li></ol><p class="micro">Deux pistes : l’idée, poussée à fond, se retourne-t-elle contre elle-même ? Ou réussit-elle, mais en coûtant trop cher ?</p></div>
 <textarea rows="4" data-feedback-kind="philo-transition" data-feedback-quote="${esc(t.sujet)}" aria-label="Votre transition"></textarea>
 <details class="correction"><summary>Comparer avec une transition possible</summary><p>${esc(t.corrige)}</p><p class="micro">Le modèle du prix : la liberté de Dom Juan réussit à tout garder ouvert, et c’est ce succès qui la ruine. <a class="official-link" href="philosophie-dissertation.html#transitions">Les modèles de transition →</a></p></details>
 ${next(4)}</article></section>`;
   const sc=A.scene;
   const s5=`<section class="exercise-wrap atelier-step" data-step="5"><article class="exercise">${stepHead(5,'Trouver une scène pour l’introduction.')}
 <p class="quote">Sujet : « ${esc(sc.sujet)} »</p>
-<p class="instruction">Trouvez une scène (un roman, un film, un moment d’histoire, une anecdote) où le problème se voit. Racontez-la en deux ou trois phrases, puis dites en une phrase ce qu’elle montre. Une bonne scène contient déjà les deux réponses, pas seulement le thème.</p>
+<div class="instruction"><ol class="consigne-simple"><li>Trouvez une scène où le problème se voit : un roman, un film, un moment d’histoire, une anecdote.</li><li>Racontez-la en deux ou trois phrases.</li><li>Écrivez en une phrase ce qu’elle montre.</li></ol><p class="micro">Une bonne scène contient déjà les deux réponses, pas seulement le thème.</p></div>
 <textarea rows="5" data-feedback-kind="philo-scene" data-feedback-quote="${esc(sc.sujet)}" aria-label="Votre scène"></textarea>
 <details class="correction"><summary>Comparer avec une scène possible</summary><p>${esc(sc.corrige)}</p><p><strong>Ce qu’elle montre :</strong> ${esc(sc.montre)}</p></details>
 ${next(5)}</article></section>`;
@@ -102,7 +102,7 @@ function notionPage(n,i){
 <p><a class="btn red" href="${annaleFile(a)}">Travailler ce sujet et lire le corrigé →</a></p>`;
   }else{
     const s=n.sujets[0][0];
-    corr=`<p class="quote">« ${esc(s)} »</p><p class="instruction">Faites d’abord le travail vous-même, au brouillon : les mots du sujet, ce que chaque réponse perd, la problématique, le plan. Ouvrez ensuite le corrigé, partie par partie.</p>
+    corr=`<p class="quote">« ${esc(s)} »</p><div class="instruction"><p>Au brouillon, d’abord :</p><ol class="consigne-simple"><li>Répondez au sujet en une phrase qui reprend ses mots.</li><li>Écrivez ce que chaque réponse perd.</li><li>Écrivez la problématique, puis le plan.</li></ol><p>Ouvrez ensuite le corrigé, partie par partie.</p></div>
 ${corrigeBlocks(n.corrige)}
 <p class="micro">Ce n’est pas la seule réponse juste : une autre problématique est bonne si elle passe le test du gant. Les auteurs cités ne sont là que parce qu’ils font avancer l’idée ; un devoir sans eux peut être excellent.</p>`;
   }
@@ -113,7 +113,7 @@ ${corrigeBlocks(n.corrige)}
 <details class="correction"><summary>Ce qui coince</summary><p>${esc(s[1])}</p></details>
 <details class="correction"><summary>Une scène pour l’introduction</summary><p>${esc(s[2])}</p><p class="micro">Une bonne scène contient déjà le problème : à vous de montrer en quoi.</p></details></article>`).join('\n');
   const consigne=`<div class="consigne-simple"><p><strong>Pour chaque sujet, au brouillon, avant d’ouvrir les pistes :</strong></p><ol>
-<li>Complétez : « Au premier abord, on a envie de répondre… parce que… »</li>
+<li>Répondez au sujet en une phrase qui reprend ses mots : par oui, par non, ou en montrant que la question est mal posée.</li>
 <li>Imaginez quelqu’un qui applique cette réponse jusqu’au bout, sans exception : que finit-il par perdre ?</li>
 <li>Même question pour la réponse contraire.</li>
 <li>Écrivez dans le cadre une seule question qui met face à face ces deux pertes, sans trancher : c’est votre problématique.</li>
