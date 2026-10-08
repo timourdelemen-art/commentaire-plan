@@ -1,5 +1,5 @@
 (() => {
-  const AI_TEMPORARILY_DISABLED=true;
+  const AI_TEMPORARILY_DISABLED=false;
   if(AI_TEMPORARILY_DISABLED) return;
   const ENDPOINT="https://atelier-commentaire-ia.timour-delemen.workers.dev/api/analyze";
   const page=(location.pathname.split("/").pop()||"index.html").toLowerCase();
@@ -7,14 +7,17 @@
   if(excluded.has(page) || location.pathname.includes("/annales/")) return;
 
   function clean(s){return String(s||"").replace(/\s+/g," ").trim();}
+  const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
   function contextFor(area){
     const box=area.closest(".exercise,.workbench,.writing-sim,.stage-card,.bac-work,.method-section")||area.parentElement;
-    const instruction=box ? [...box.querySelectorAll(".instruction,h2,h3,p")].map(x=>clean(x.textContent)).filter(Boolean).slice(-6).join(" ") : "";
+    // Consigne visible par l’élève (sans le contenu des corrigés repliés), puis critère destiné au correcteur s’il existe.
+    const visible=box ? [...box.querySelectorAll(".instruction,h2,h3,p,li")].filter(x=>!x.closest("details")&&!x.closest(".free-response-tools")).map(x=>clean(x.textContent)).filter(Boolean).slice(-8).join(" ") : "";
+    const criterion=clean(area.dataset.feedbackInstruction||"");
     const quote=box?.querySelector(".quote,blockquote");
     return {
       page,
-      title:clean(document.querySelector("h1")?.textContent||document.title),
-      instruction:clean(area.dataset.feedbackInstruction||instruction).slice(0,1800),
+      title:clean(document.querySelector("h1")?.innerText||document.title),
+      instruction:clean((visible?visible+" ":"")+(criterion?"Critère pour le correcteur : "+criterion:"")).slice(-1800),
       quote:clean(area.dataset.feedbackQuote||quote?.textContent||"").slice(0,1200),
       kind:clean(area.dataset.feedbackKind||"").slice(0,50)
     };
@@ -79,7 +82,7 @@
             setLocked(Date.now()+24*60*60*1000,feedback,btn);
             return;
           }
-          feedback.innerHTML="<strong>IA non utilisée</strong><p>"+(data.error||"Reprenez d’abord votre réponse.")+"</p>";
+          feedback.innerHTML="<strong>IA non utilisée</strong><p>"+esc(data.error||"Reprenez d’abord votre réponse.")+"</p>";
           feedback.classList.add("show");
           return;
         }
@@ -87,9 +90,9 @@
         const f=data.feedback||{};
         feedback.innerHTML=
           "<strong>"+(f.diagnostic==="acquis"?"Réponse solide":f.diagnostic==="partiel"?"Réponse à préciser":"Réponse à reprendre")+"</strong>"+
-          "<p><b>"+(/^Aucun acquis/i.test(f.point_acquis||"")?"État de la réponse":"Point acquis")+" :</b> "+(f.point_acquis||"—")+"</p>"+
-          "<p><b>À reprendre :</b> "+(f.manque_principal||"—")+"</p>"+
-          "<p><b>Pour améliorer :</b> "+(f.question_suivante||"Pouvez-vous préciser votre réponse ?")+"</p>";
+          "<p><b>"+(/^Aucun acquis/i.test(f.point_acquis||"")?"État de la réponse":"Point acquis")+" :</b> "+esc(f.point_acquis||"—")+"</p>"+
+          "<p><b>À reprendre :</b> "+esc(f.manque_principal||"—")+"</p>"+
+          "<p><b>Pour améliorer :</b> "+esc(f.question_suivante||"Pouvez-vous préciser votre réponse ?")+"</p>";
         feedback.classList.add("show");
         previousAnswer=answer;
       }catch(e){

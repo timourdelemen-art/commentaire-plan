@@ -171,6 +171,107 @@ function extractOutputText(data) {
   return "";
 }
 
+
+/* ---------- PHILOSOPHIE (Terminale, tronc commun) ----------
+   Le moteur de méthode reste caché : l'élève ne voit que le vocabulaire du site
+   (« ce que la notion demande », « ce que chaque réponse perd », « test du gant », « ce qui reste », les sept opérations). */
+const PHILO_KIND = /^philo-[a-z-]{2,30}$/;
+
+const PHILO_CRITERIA = {
+  "philo-reponse": "L'élève relève les petits mots du sujet qui comptent (peut-on, faut-il, suffit-il, sans, nous…) et formule l'idée que le sujet invite d'abord à accepter. Vérifier qu'il dit ce que ces mots changent au sens de la question (par exemple « peut-on » : est-ce possible, ou est-ce permis ?).",
+  "philo-consequence": "L'élève donne deux choses que la notion principale demande à la fois, dans son sens courant, sans définition d'auteur, et dit pourquoi elles se gênent. Vérifier qu'il y a bien deux exigences, et une tension réelle entre elles, pas deux synonymes.",
+  "philo-cout": "L'élève pousse chaque réponse (oui / non) jusqu'au bout et dit ce que chacune perd. Les DEUX réponses doivent perdre quelque chose d'important, et la perte doit venir de la réponse elle-même poussée jusqu'au bout, pas d'une objection extérieure. Si une seule réponse perd quelque chose, c'est le manque principal.",
+  "philo-problematique": "Appliquer le test du gant, et ne signaler que le premier point qui échoue : 1. aucun doigt ne manque (chaque mot important du sujet travaille dans la question) ; 2. aucun doigt en trop (pas de notion ajoutée que le sujet ne contient pas) ; 3. les deux réponses restent ouvertes (chacune perd quelque chose ; pas de question rhétorique du type « comment pourrait-on… si… » ou « … puisque… ») ; 4. on reconnaît le sujet sans qu'il soit recopié ; 5. d'une traite : une seule question, une trentaine de mots au plus, pas une cascade de questions ; 6. elle donne le plan : on y lit la première réponse et ce qu'elle perd (partie I), la réponse contraire et ce qu'elle perd (partie II) ; elle ne doit PAS annoncer ni contenir la solution de la troisième partie. Si les six points passent, le diagnostic est « acquis » : ne fabrique pas de manque. Une problématique qui oppose deux définitions ou deux thèmes plaqués n'est pas un problème.",
+  "philo-plan": "Vérifier la dynamique : I défend une réponse et se termine par sa limite, née de l'idée poussée jusqu'au bout ; une transition fait de cette limite une question ; II part de cette limite (nouvelle exigence, nouvelle réponse, nouvelle limite) ; III ne choisit pas un camp et ne coupe pas la poire en deux, mais applique une opération (distinguer deux plans, introduire un processus, inverser un rapport, transformer le concept, déplacer la difficulté, limiter ce que l'on peut savoir, maintenir la tension) qui garde ce que I et II avaient établi. Un plan de trois thèmes ou de trois arguments juxtaposés n'est pas un plan.",
+  "philo-transition": "Modèle : « [ce que nous venons d'établir] ; mais [ce que cela perd]. [question ouverte sur ce reste] ? » Vérifier que la transition part de la limite de la partie précédente, qu'elle pose une vraie question qui ne contient pas sa réponse, et qu'elle n'est pas une simple annonce (« voyons maintenant »).",
+  "philo-reste": "L'élève dit ce qui reste à résoudre après I et II : ce que la troisième partie doit sauver des deux côtés à la fois. Vérifier que les deux acquis sont nommés.",
+  "philo-troisieme": "Troisième partie : III.1 ce qui reste (l'acquis de I et de II), III.2 l'opération (une des sept), III.3 ce qu'elle permet de garder. Refuser le compromis (« un peu des deux »), le choix d'un camp, le changement de sujet. Vérifier que l'opération répond précisément au reste.",
+  "philo-partie": "Une partie : une réponse au problème, la raison qui la rend nécessaire, un appui (argument ou exemple analysé), et une limite qui découle de la réponse elle-même au lieu d'être une objection plaquée de l'extérieur.",
+  "philo-argument": "Un argument : une idée, une raison explicite (« parce que »), une conséquence. Un nom d'auteur, une généralité ou un exemple seul ne sont pas des arguments.",
+  "philo-pensee-propre": "L'élève pense sans s'abriter derrière un auteur : une réponse, une raison, un exemple, une difficulté. Vérifier que le raisonnement tient sans aucun nom propre.",
+  "philo-objection": "Une objection forte attaque la raison de la thèse, pas seulement sa conclusion, et oblige à préciser ou corriger l'idée.",
+  "philo-exemple": "Un exemple qui pense : il met l'idée à l'épreuve et oblige à préciser un concept ou une distinction, au lieu de seulement illustrer ou raconter.",
+  "philo-reference": "Une référence travaille si elle accomplit une opération dans le raisonnement (argument, objection, distinction, renversement) et si elle est exacte. Test : en retirant le nom, le raisonnement doit encore tenir. Signaler une référence décorative ou un contresens probable, sans inventer de citation.",
+  "philo-operation": "L'élève identifie l'opération qu'accomplit une idée ou un texte (distinguer deux plans, introduire un processus, inverser un rapport, transformer le concept, déplacer la difficulté, limiter ce que l'on peut savoir, maintenir la tension) et dit ce qu'elle permet de résoudre ici. Une étiquette sans explication ne suffit pas.",
+  "philo-reemploi": "L'élève dit dans quel sujet, dans quelle partie et pour quoi faire il utiliserait l'idée. Vérifier la fonction précise (argument, limite, opération du III) et non un simple « ça parle de ».",
+  "philo-puzzle": "L'élève retrouve l'ordre de nécessité d'un raisonnement : chaque étape rend la suivante nécessaire. Vérifier qu'il justifie l'ordre, pas seulement qu'il le donne.",
+  "philo-diagnostic": "L'élève explique un choix ou une erreur de méthode. Vérifier qu'il nomme précisément ce qui fait la différence.",
+  "philo-texte-probleme": "Explication de texte. Le problème est la difficulté à laquelle le texte répond : une question, et la raison pour laquelle elle n'a pas de réponse évidente. Le texte lui-même n'est PAS fourni : ne juge que la forme et la précision de la réponse, et ne prétends jamais savoir ce que dit le texte.",
+  "philo-texte-these": "Explication de texte. La thèse est ce que l'auteur établit, en une phrase précise, et non un résumé du passage ni un thème. Le texte n'est PAS fourni : ne juge que la forme, sans prétendre savoir ce que dit le texte.",
+  "philo-texte-moments": "Explication de texte. Trois à cinq moments, dans l'ordre, chacun avec ce que l'auteur fait (affirme, explique, donne un exemple, répond à une objection, conclut). Le texte n'est PAS fourni : ne juge que la construction, sans prétendre savoir ce que dit le texte."
+};
+
+const PHILO_FALLBACK = ["Tu as fait une tentative.","Il faut rester au plus près de ce que la consigne demande précisément.","Quelle phrase de ta réponse fait exactement ce que la consigne demande ?"];
+
+function buildPhiloSpec(context, kind) {
+  const title = clean(context.title, 220);
+  const instruction = clean(context.instruction, 1800);
+  const quote = clean(context.quote, 1200);
+  if (!instruction) return null;
+  return {
+    exercise: "free-response",
+    stage: "free-response",
+    kind,
+    philo: true,
+    title: title || "Philosophie",
+    task: instruction + (quote ? " Sujet ou support visible : " + quote : ""),
+    criteria: PHILO_CRITERIA[kind] || "Évaluer seulement l'opération demandée par la consigne.",
+    allowed: GENERIC_ALLOWED.filter(x => !/procédé/.test(x)).map(x => x.replace("demander une preuve textuelle si la réponse reste générale", "demander une raison ou un exemple analysé si la réponse reste générale")),
+    forbidden: GENERIC_FORBIDDEN
+  };
+}
+
+function philoInstructions(spec) {
+  return `Tu es le moteur pédagogique de la partie philosophie (Terminale, tronc commun) du site Commentaire Plan.
+Tu aides l'élève à refaire lui-même une opération précise. Tu ne fournis jamais la réponse à sa place.
+Beaucoup d'élèves ont peur de la philosophie ou en ont été dégoûtés : sois exigeant, précis et rassurant ; montre d'abord ce qui tient.
+
+LA MÉTHODE DU SITE (à appliquer, à ne jamais exposer comme une théorie)
+- Un sujet pose problème parce que la notion demande deux choses à la fois, qui se gênent. Chaque réponse (oui / non) s'appuie sur l'une et risque de sacrifier l'autre : chaque réponse, poussée jusqu'au bout, perd quelque chose.
+- La problématique fait voir ce double risque, en une seule question ouverte.
+- Le plan est dynamique : I installe une réponse, la renforce, trouve sa limite ; II part de cette limite ; III ne choisit pas un camp et ne fait pas de compromis, il applique une opération qui garde ce que I et II ont établi.
+- Les auteurs ne servent que s'ils font avancer l'idée ; un raisonnement sans auteur peut être excellent. N'exige jamais un auteur.
+- Vocabulaire à employer avec l'élève : « ce que la notion demande », « ce que chaque réponse perd », « le test du gant », « la limite », « ce qui reste », les sept opérations. N'emploie jamais : chiasme, paradoxe de paradoxes, aporie, antinomie, d1/d2, figure, résolution, ni aucun jargon technique.
+
+EXERCICE
+${spec.title}
+
+CONSIGNE VISIBLE PAR L'ÉLÈVE
+${spec.task}
+
+CE QUE TU ÉVALUES ICI
+${spec.criteria}
+
+TU PEUX UNIQUEMENT
+${spec.allowed.map(x => "- " + x).join("\n")}
+
+TU NE DOIS JAMAIS
+${spec.forbidden.map(x => "- " + x).join("\n")}
+- écrire la problématique, le plan ou la transition à la place de l'élève
+- exiger une référence à un philosophe
+
+CONTRAINTES
+- tutoie l'élève
+- ton sobre, précis, bienveillant, jamais infantilisant ; pas de moquerie
+- si la réponse ne contient aucun acquis réel, ne jamais en inventer un : écris exactement « Aucun acquis identifiable dans cette réponse. »
+- marque "hors_sujet": true SEULEMENT si la réponse n'a clairement rien à voir avec la consigne ou détourne volontairement l'exercice ; une réponse fausse, maladroite, naïve, courte ou incomplète n'est JAMAIS hors sujet
+- un seul point acquis, un seul manque principal, une seule question de relance
+- si la réponse remplit vraiment ce qui est demandé, diagnostic « acquis » ; dans ce cas, manque_principal peut seulement proposer d'alléger ou de préciser un mot, ou dire « Rien d'essentiel ne manque. », et la question invite à passer à l'étape suivante
+- la question de relance doit aider l'élève à corriger lui-même le manque principal
+- n'invente aucune citation ni aucun détail absent
+- ne donne aucune note
+- réponse très brève : une phrase par champ
+
+Réponds UNIQUEMENT par un objet JSON valide, sans markdown, avec exactement :
+{
+  "hors_sujet": true | false,
+  "diagnostic": "acquis" | "partiel" | "à reprendre",
+  "point_acquis": "...",
+  "manque_principal": "...",
+  "question_suivante": "..."
+}`;
+}
+
 function buildSpec(body) {
   const exercise = clean(body.exercise, 80);
 
@@ -248,6 +349,8 @@ function buildSpec(body) {
 
   if (exercise === "free-response") {
     const context = body.context && typeof body.context === "object" ? body.context : {};
+    const philoKind = clean(context.kind, 50);
+    if (PHILO_KIND.test(philoKind)) return buildPhiloSpec(context, philoKind);
     const title = clean(context.title, 220);
     const instruction = clean(context.instruction, 1800);
     const quote = clean(context.quote, 1200);
@@ -422,7 +525,7 @@ export default {
       }, 422, origin);
     }
 
-    const instructions = `Tu es le moteur pédagogique strict de BAC & BREVET — FRANÇAIS.
+    const instructions = spec.philo ? philoInstructions(spec) : `Tu es le moteur pédagogique strict de BAC & BREVET — FRANÇAIS.
 Tu aides l'élève à refaire lui-même une opération précise. Tu ne fournis jamais la correction à sa place d'emblée.
 
 VOCABULAIRE ET MÉTHODE
@@ -483,9 +586,11 @@ Réponds UNIQUEMENT par un objet JSON valide, sans markdown, avec exactement :
       model: env.OPENAI_MODEL || "gpt-5-mini",
       instructions,
       input: [{ role: "user", content: [{ type: "input_text", text: "Réponse de l’élève : " + answer }] }],
-      max_output_tokens: 320,
+      max_output_tokens: 1200,
       store: false
     };
+    // Les modèles à raisonnement (gpt-5…, o…) consomment des jetons de réflexion : sans cette limite, la réponse JSON peut être coupée.
+    if (/^(gpt-5|o\d)/.test(payload.model)) payload.reasoning = { effort: "low" };
 
     let apiResponse;
     try {
@@ -521,7 +626,12 @@ Réponds UNIQUEMENT par un objet JSON valide, sans markdown, avec exactement :
       }, 422, origin);
     }
 
-    const feedback = validateFeedback(parsed) || safeFallback(spec.kind);
+    const feedback = validateFeedback(parsed) || (spec.philo ? {
+      diagnostic: "à reprendre",
+      point_acquis: "Aucun acquis ne peut être confirmé automatiquement sur cette réponse.",
+      manque_principal: PHILO_FALLBACK[1],
+      question_suivante: PHILO_FALLBACK[2]
+    } : safeFallback(spec.kind));
 
     return json({
       ok: true,

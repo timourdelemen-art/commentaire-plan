@@ -56,14 +56,15 @@ ${corrigeBlocks(n.corrige)}
 <p class="micro">Ce n’est pas la seule réponse juste : une autre problématique est bonne si elle passe le test du gant. Les auteurs cités ne sont là que parce qu’ils font avancer l’idée ; un devoir sans eux peut être excellent.</p>`;
   }
   const sujets=n.sujets.map((s,k)=>`<article class="exercise notion-sujet"><div class="kicker">SUJET ${k+1}</div><p class="quote">« ${esc(s[0])} »</p>
-<p class="instruction">Avant d’ouvrir les pistes : quelle première réponse vient à l’esprit, et que perd-elle si on la pousse jusqu’au bout ? Même question pour la réponse contraire.</p>
+<p class="instruction">Avant d’ouvrir les pistes : quelle première réponse vient à l’esprit, et que perd-elle si on la pousse jusqu’au bout ? Même question pour la réponse contraire. Puis écrivez votre problématique : une seule question, qui laisse les deux réponses ouvertes.</p>
+<textarea rows="4" data-feedback-kind="philo-problematique" data-feedback-quote="${esc(s[0])}" data-feedback-instruction="Sujet de dissertation : « ${esc(s[0])} ». L’élève propose sa problématique : une seule question qui fait voir ce que chaque réponse perd et laisse les deux réponses ouvertes." aria-label="Votre problématique pour ce sujet"></textarea>
 <details class="correction"><summary>Ce qui coince</summary><p>${esc(s[1])}</p></details>
 <details class="correction"><summary>Une scène pour l’introduction</summary><p>${esc(s[2])}</p><p class="micro">Une bonne scène contient déjà le problème : à vous de montrer en quoi.</p></details></article>`).join('\n');
   return head(title,desc,file(n))+`
 <section class="pagehead"><div><div class="kicker">PHILOSOPHIE · LES 17 NOTIONS</div>
 <h1>${esc(n.nom)}.</h1>
 <p class="lede">Ce que la notion demande, les repères du programme qui l’éclairent, cinq vrais sujets du bac pour s’entraîner, et un sujet traité en entier.</p>
-</div><aside class="side-note"><p><strong>Comment travailler ?</strong><br>Pour chaque sujet, cherchez d’abord seul ; n’ouvrez les pistes qu’ensuite. Tout se fait sans IA.</p><p><a href="philosophie-notions.html">← Les 17 notions</a></p></aside></section>
+</div><aside class="side-note"><p><strong>Comment travailler ?</strong><br>Pour chaque sujet, cherchez d’abord seul ; n’ouvrez les pistes qu’ensuite. Les pistes suffisent sans IA ; « Vérifier ma réponse » donne en plus un retour sur votre problématique.</p><p><a href="philosophie-notions.html">← Les 17 notions</a></p></aside></section>
 
 <section class="offer-band"><div class="kicker">CE QUE LA NOTION DEMANDE</div><h2>Deux exigences qui se gênent.</h2>
 <div class="grid-3">
