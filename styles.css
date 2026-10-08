@@ -1932,3 +1932,20 @@ main>section:nth-of-type(n+3){
   .reveal,section{opacity:1 !important;transform:none !important}
   a{color:#000;text-decoration:none}
 }
+
+/* Atelier d’une notion */
+.atelier-progress{font-family:'American Typewriter','Courier New',monospace;font-size:12px;letter-spacing:1.6px;color:var(--red);text-transform:uppercase;margin-bottom:6px}
+.atelier-step h2{font-size:34px;line-height:1.1;margin:0 0 18px}
+.atelier-nav{margin-top:26px}
+.atelier-choice{display:grid;gap:10px;max-width:1050px;margin:6px 0 26px}
+.atelier-why p{background:#eee5d5;border-left:4px solid var(--red);padding:12px 16px;font-size:17px;line-height:1.45;margin:6px 0}
+.atelier-ordre{margin:10px 0 30px}
+.ordre-item{border:1px solid var(--rule);padding:14px 16px;margin:10px 0;background:#fffdf8}
+.ordre-item p{margin:0 0 10px;font-size:17px;line-height:1.5}
+.ordre-item select{font:inherit;font-size:16px;padding:4px 6px;margin-left:6px}
+.ordre-item.is-ok{border-color:#596d49;background:#eef2e8}
+.ordre-item.is-wrong{border-color:#9b4c43;background:#f7e8e5}
+.essentiel-sub{font-size:22px;font-weight:400;margin:26px 0 8px}
+.essentiel-use{display:block;color:var(--muted);font-size:16px;margin-top:4px}
+.atelier-done{font-size:18px;margin-top:24px;color:var(--red)}
+@media print{.atelier-step[hidden]{display:block !important}.atelier-nav,.atelier-all{display:none !important}}

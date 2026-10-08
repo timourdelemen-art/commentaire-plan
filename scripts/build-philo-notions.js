@@ -40,6 +40,54 @@ function corrigeBlocks(c){
 <details class="correction"><summary>4. La conclusion rédigée</summary><p>${esc(c.conclusion)}</p></details>`;
 }
 
+
+function atelierHtml(n,corr){
+  const A=n.atelier, E=A.essentiel, T=6;
+  const stepHead=(k,h)=>`<div class="atelier-progress">Étape ${k} sur ${T}</div><h2>${h}</h2>`;
+  const next=k=>k<T?`<p class="atelier-nav"><button type="button" class="btn red atelier-next">Étape suivante →</button></p>`:'';
+  const essentiel=`<section class="offer-band" id="essentiel"><div class="kicker">L’ESSENTIEL EN CINQ MINUTES</div><h2>Trois distinctions, trois auteurs.</h2>
+<div class="grid-3">${E.distinctions.map(d=>`<div><strong>${esc(d[0])}</strong><p>${esc(d[1])}</p></div>`).join('')}</div>
+<h3 class="essentiel-sub">Trois auteurs, et ce qu’ils permettent de faire</h3>
+<div class="sequence-spec">${E.auteurs.map(a=>`<p><strong>${esc(a[0])}</strong>, <em>${esc(a[1])}</em>. ${esc(a[2])} <span class="essentiel-use">Ce qu’il permet : ${esc(a[3])}</span></p>`).join('')}</div>
+<p class="micro">Un auteur n’est utile que s’il fait avancer votre raisonnement. Un devoir sans auteur peut être excellent ; ces trois-là sont des outils, pas des passages obligés.</p>
+<p>Le plus souvent, ${esc(lower(n))} demande deux choses qui se gênent : ${esc(n.d1)}, et ${esc(n.d2)}. Mais attention : selon les mots du sujet, ce qui coince peut changer. C’est l’objet de l’étape 2 de l’atelier.</p>
+</section>`;
+  const q=A.qcm;
+  const s1=`<section class="exercise-wrap atelier-step" data-step="1"><article class="exercise">${stepHead(1,'Choisir la problématique, puis nommer les erreurs.')}
+<p class="quote">Sujet : « ${esc(q.sujet)} »</p><p class="instruction">Cliquez sur la formulation qui passe le test du gant. Pour chacune des trois autres, choisissez son erreur dans la liste.</p>
+<div class="philo-qcm"><ol class="qcm-options">${q.options.map(o=>o[0]==='ok'?`<li data-ok="1" data-why="${esc(o[2])}">${esc(o[1])}</li>`:`<li data-error="${o[0]}" data-why="${esc(o[2])}">${esc(o[1])}</li>`).join('')}</ol></div>
+${next(1)}</article></section>`;
+  const s2=`<section class="exercise-wrap atelier-step" data-step="2"><article class="exercise">${stepHead(2,'Même notion, autre sujet : ce qui coince change.')}
+<p class="instruction">Pour chaque sujet, choisissez la tension qui vient vraiment de ses mots.</p>
+${A.autre.map(a=>`<p class="quote">« ${esc(a.sujet)} »</p><div class="atelier-choice">${a.options.map(o=>`<button type="button" class="choice" data-ok="${o[1]}" data-why="${esc(o[2])}">${esc(o[0])}</button>`).join('')}<div class="atelier-why" aria-live="polite"></div></div>`).join('')}
+<p class="micro">Retenez-le : on ne plaque pas sur un sujet les deux exigences apprises par cœur. On les cherche dans les mots du sujet.</p>
+${next(2)}</article></section>`;
+  const s3=`<section class="exercise-wrap atelier-step" data-step="3"><article class="exercise">${stepHead(3,'Retrouver le mouvement d’une partie.')}
+<p class="instruction">Voici les trois paragraphes d’une partie, dans le désordre (sujet : « ${esc(n.corrige.pb?n.sujets[0][0]:'')} »). Pour chacun, dites à quoi il sert. Une partie n’est pas une liste d’arguments : elle avance.</p>
+${A.ordre.map(o=>`<div class="atelier-ordre"><p><strong>${esc(o.titre)}</strong></p>${o.items.map(it=>`<div class="ordre-item"><p>${esc(it[1])}</p><label>Ce paragraphe : <select data-role="${it[0]}"><option value="">choisir…</option>${o.roles.map((r,k)=>`<option value="${k}">${esc(r)}</option>`).join('')}</select></label></div>`).join('')}<p><button type="button" class="philo-print ordre-check">Vérifier</button></p><div class="atelier-why" aria-live="polite"></div></div>`).join('')}
+${next(3)}</article></section>`;
+  const t=A.transition;
+  const s4=`<section class="exercise-wrap atelier-step" data-step="4"><article class="exercise">${stepHead(4,'Écrire la transition.')}
+<p class="quote">Sujet : « ${esc(t.sujet)} »</p>
+<p class="instruction">${esc(t.acquis)} ${esc(t.limite)} Écrivez la transition vers la partie II, en deux phrases : ce que nous venons d’établir ; mais ce que cela perd. Puis une question ouverte sur ce reste.</p>
+<textarea rows="4" data-feedback-kind="philo-transition" data-feedback-quote="${esc(t.sujet)}" aria-label="Votre transition"></textarea>
+<details class="correction"><summary>Comparer avec une transition possible</summary><p>${esc(t.corrige)}</p><p class="micro">La question ne contient pas sa réponse : elle ouvre la partie II.</p></details>
+${next(4)}</article></section>`;
+  const sc=A.scene;
+  const s5=`<section class="exercise-wrap atelier-step" data-step="5"><article class="exercise">${stepHead(5,'Trouver une scène pour l’introduction.')}
+<p class="quote">Sujet : « ${esc(sc.sujet)} »</p>
+<p class="instruction">Trouvez une scène (un roman, un film, un moment d’histoire, une anecdote) où le problème se voit. Racontez-la en deux ou trois phrases, puis dites en une phrase ce qu’elle montre. Une bonne scène contient déjà les deux réponses, pas seulement le thème.</p>
+<textarea rows="5" data-feedback-kind="philo-scene" data-feedback-quote="${esc(sc.sujet)}" aria-label="Votre scène"></textarea>
+<details class="correction"><summary>Comparer avec une scène possible</summary><p>${esc(sc.corrige)}</p><p><strong>Ce qu’elle montre :</strong> ${esc(sc.montre)}</p></details>
+${next(5)}</article></section>`;
+  const s6=`<section class="exercise-wrap atelier-step" data-step="6" id="corrige"><article class="exercise">${stepHead(6,'Une dissertation complète, du brouillon à la conclusion.')}
+${corr}
+<p class="atelier-done">Atelier terminé. Pour aller plus loin, les cinq sujets ci-dessous attendent votre problématique.</p></article></section>`;
+  return essentiel+`
+<section class="offer-band atelier-intro" id="atelier"><div class="kicker">L’ATELIER</div><h2>Six étapes, une à la fois.</h2><p>De la problématique à la dissertation complète. Chaque étape se corrige avant de passer à la suivante. Comptez environ une heure, en une ou plusieurs fois. <button type="button" class="atelier-all philo-print">Afficher tout l’atelier</button></p></section>
+`+s1+s2+s3+s4+s5+s6;
+}
+
 function notionPage(n,i){
   const prev=NOTIONS[(i+NOTIONS.length-1)%NOTIONS.length], next=NOTIONS[(i+1)%NOTIONS.length];
   const title=`${n.nom.replace(/^./,c=>c.toUpperCase())} : sujets du bac de philo et corrigé`;
@@ -66,10 +114,15 @@ ${corrigeBlocks(n.corrige)}
   return head(title,desc,file(n))+`
 <section class="pagehead"><div><div class="kicker">PHILOSOPHIE · LES 17 NOTIONS</div>
 <h1>${esc(n.nom)}.</h1>
-<p class="lede">Ce que la notion demande, les repères du programme qui l’éclairent, cinq vrais sujets du bac pour s’entraîner, et un sujet traité en entier.</p>
+<p class="lede">${n.atelier?'L’essentiel en cinq minutes, un atelier en six étapes de la problématique à la dissertation complète, puis cinq vrais sujets du bac pour s’entraîner.':'Ce que la notion demande, les repères du programme qui l’éclairent, cinq vrais sujets du bac pour s’entraîner, et un sujet traité en entier.'}</p>
 </div><aside class="side-note"><p><strong>Comment travailler ?</strong><br>Pour chaque sujet, cherchez d’abord seul ; n’ouvrez les pistes qu’ensuite. Les pistes suffisent sans IA ; « Vérifier ma réponse » donne en plus un retour sur votre problématique.</p><p><a href="philosophie-notions.html">← Les 17 notions</a></p></aside></section>
 
-<section class="offer-band"><div class="kicker">CE QUE LA NOTION DEMANDE</div><h2>Deux exigences qui se gênent.</h2>
+${n.atelier?atelierHtml(n,corr)+`
+<section class="exercise-wrap" id="sujets"><div class="exercise-intro"><div><div class="kicker">CINQ VRAIS SUJETS DU BAC</div><h2>S’entraîner à trouver le problème.</h2></div><p>Tous ces sujets ont été donnés au baccalauréat. ${n.corrige.annale?'Plus bas, un sujet de 2026 est traité en entier.':'Le premier est traité en entier plus bas.'}</p></div>
+${sujets}
+</section>
+
+`:`<section class="offer-band"><div class="kicker">CE QUE LA NOTION DEMANDE</div><h2>Deux exigences qui se gênent.</h2>
 <div class="grid-3">
 <div><strong>Elle demande…</strong><p>${esc(n.d1)}.</p></div>
 <div><strong>…et aussi</strong><p>${esc(n.d2)}.</p></div>
@@ -91,6 +144,7 @@ ${sujets}
 ${corr}
 </article></section>
 
+`}
 <section class="offer-band"><div class="kicker">ET ENSUITE ?</div><h2>Continuer le travail.</h2>
 <div class="seo-links">
 <a href="philosophie-dissertation.html"><strong>Construire la dissertation</strong><span>Introduction, trois parties, transitions, conclusion →</span></a>
@@ -98,7 +152,7 @@ ${corr}
 <a href="${file(prev)}"><strong>← ${esc(prev.nom)}</strong><span>Notion précédente</span></a>
 <a href="${file(next)}"><strong>${esc(next.nom)} →</strong><span>Notion suivante</span></a>
 </div></section>
-`+foot;
+`+(n.atelier?'<script src="philosophie-qcm.js"></script><script src="philosophie-atelier.js"></script>':'')+foot;
 }
 
 function hub(){
