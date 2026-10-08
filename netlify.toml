@@ -1,5 +1,5 @@
 [build]
-  command = "node scripts/build-hlp.js && node scripts/seo-build.js && node scripts/seo-audit.js && node scripts/performance-budget.js"
+  command = "node scripts/build-hlp.js && node scripts/build-philo-notions.js && node scripts/seo-build.js && node scripts/seo-audit.js && node scripts/performance-budget.js"
   publish = "."
 
 [build.environment]

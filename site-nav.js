@@ -14,12 +14,12 @@ document.addEventListener('DOMContentLoaded',()=> {
 
   const path=(location.pathname.split('/').pop()||'index.html').toLowerCase();
   const bacPages=['bac.html','anthologie-bac.html','bac-commentaire.html','bac-commentaire-procedes.html','bac-commentaire-procedes-entrainement.html','bac-dissertation.html','bac-dissertation-methode.html','bac-oral.html','bac-mode-examen.html','commentaire-bac-methode.html','commentaire-bac-problematique.html','commentaire-bac-plan.html','commentaire-bac-procedes-effets.html','commentaire-bac-introduction.html','commentaire-bac-transition.html','commentaire-bac-conclusion.html','oeuvres-integrales.html','pot-bouille.html','pot-bouille-bac-2027.html','pot-bouille-pb01.html','pot-bouille-pb02.html','pot-bouille-pb03.html'];
-  const philoPages=['philosophie.html','dissertation-philosophie-bac.html','philosophie-dissertation.html','philosophie-dissertation-entrainement.html','philosophie-problematisation.html','philosophie-operations.html','philosophie-penser-par-soi-meme.html','philosophie-references.html','philosophie-laboratoire.html','philosophie-diagnostic.html','philosophie-annales.html','philosophie-annale.html'];
+  const philoPages=['philosophie.html','dissertation-philosophie-bac.html','philosophie-dissertation.html','philosophie-dissertation-entrainement.html','philosophie-problematisation.html','philosophie-operations.html','philosophie-penser-par-soi-meme.html','philosophie-references.html','philosophie-laboratoire.html','philosophie-diagnostic.html','philosophie-annales.html','philosophie-annale.html','philosophie-notions.html'];
   const hlpPages=['hlp.html','hlp-premiere.html','hlp-terminale.html','hlp-annales.html'];
   const brevetPages=['brevet.html','anthologie-brevet.html','brevet-comprehension.html','brevet-grammaire.html','brevet-reecriture.html','brevet-redaction.html','brevet-imagination.html','brevet-reflexion.html'];
   const teacherPages=['enseignants.html','hlp-professeurs.html','formation.html','bibliotheque.html','pot-bouille-professeurs.html','sequence-pot-bouille.html'];
   const manualPages=['manuel-procedes.html','bac-commentaire-procedes.html','bac-commentaire-procedes-entrainement.html','parcours.html'];
-  const is=(names)=>names.includes(path)||(names===hlpPages&&/^hlp-(\d{4}|sujet-zero)-/.test(path));
+  const is=(names)=>names.includes(path)||(names===hlpPages&&/^hlp-(\d{4}|sujet-zero)-/.test(path))||(names===philoPages&&/^philosophie-notion-/.test(path));
 
   const portal=(href,label,sub,items,classes='',offer=null)=>`
     <div class="portal-wrap ${classes}">
@@ -47,6 +47,7 @@ document.addEventListener('DOMContentLoaded',()=> {
       ['philosophie-dissertation-entrainement.html','S’entraîner geste par geste','Problématique, argumentation, transition, III'],
       ['philosophie-references.html','Travailler les références','Faire réellement agir un auteur dans le raisonnement'],
       ['philosophie-operations.html','Travailler les opérations','Distinguer, inverser, déplacer, transformer…'],
+      ['philosophie-notions.html','Travailler une notion','Les 17 notions : sujets du bac et corrigés'],
       ['philosophie-annales.html','Faire une annale','Dissertation ou explication de texte, sujet par sujet']
     ],is(philoPages)?'active':''),
     portal('hlp.html','HLP','1re · Tle',[
