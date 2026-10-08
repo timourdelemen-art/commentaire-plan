@@ -85,7 +85,7 @@ ${next(5)}</article></section>`;
 ${corr}
 <p class="atelier-done">Atelier terminé. Pour aller plus loin, les cinq sujets ci-dessous attendent votre problématique.</p></article></section>`;
   return essentiel+`
-<section class="offer-band atelier-intro" id="atelier"><div class="kicker">L’ATELIER</div><h2>Six étapes, une à la fois.</h2><p>De la problématique à la dissertation complète. Chaque étape se corrige avant de passer à la suivante. Comptez environ une heure, en une ou plusieurs fois. <button type="button" class="atelier-all philo-print">Afficher tout l’atelier</button></p></section>
+<section class="offer-band atelier-intro" id="atelier"><div class="kicker">L’ATELIER</div><h2>Six étapes, une à la fois.</h2><p>De la problématique à la dissertation complète. Chaque étape se corrige avant de passer à la suivante. Comptez environ une heure, en une ou plusieurs fois. <strong>L’étape 1 est juste en dessous.</strong> <button type="button" class="atelier-all philo-print">Afficher tout l’atelier</button></p></section>
 `+s1+s2+s3+s4+s5+s6;
 }
 
@@ -107,21 +107,31 @@ ${corrigeBlocks(n.corrige)}
 <p class="micro">Ce n’est pas la seule réponse juste : une autre problématique est bonne si elle passe le test du gant. Les auteurs cités ne sont là que parce qu’ils font avancer l’idée ; un devoir sans eux peut être excellent.</p>`;
   }
   corr+=PRINT;
-  const sujets=n.sujets.map((s,k)=>`<article class="exercise notion-sujet"><div class="kicker">SUJET ${k+1}</div><p class="quote">« ${esc(s[0])} »</p>
-<p class="instruction">Faites-le au brouillon, avant d’ouvrir les pistes : c’est en cherchant seul qu’on trouve le problème. 1. Complétez : « Au premier abord, on a envie de répondre… parce que… » 2. Imaginez quelqu’un qui applique cette réponse jusqu’au bout, dans tous les cas, sans exception : qu’est-ce qu’il finit par perdre ? 3. Même question pour la réponse contraire. 4. Écrivez votre problématique : une seule question qui met face à face ces deux pertes, sans trancher.</p>
-<textarea rows="4" data-feedback-kind="philo-problematique" data-feedback-quote="${esc(s[0])}" data-feedback-instruction="Sujet de dissertation : « ${esc(s[0])} ». L’élève propose sa problématique : une seule question qui fait voir ce que chaque réponse perd et laisse les deux réponses ouvertes." aria-label="Votre problématique pour ce sujet"></textarea>
+  const sujets=n.sujets.map((s,k)=>`<article class="exercise notion-sujet" id="sujet-${k+1}"><div class="kicker">SUJET ${k+1}</div><p class="quote">« ${esc(s[0])} »</p>
+<label class="sujet-label" for="pb-${k+1}">Votre problématique (étape 4)</label>
+<textarea id="pb-${k+1}" rows="4" data-feedback-kind="philo-problematique" data-feedback-quote="${esc(s[0])}" data-feedback-instruction="Sujet de dissertation : « ${esc(s[0])} ». L’élève propose sa problématique : une seule question qui fait voir ce que chaque réponse perd et laisse les deux réponses ouvertes." aria-label="Votre problématique pour ce sujet"></textarea>
 <details class="correction"><summary>Ce qui coince</summary><p>${esc(s[1])}</p></details>
 <details class="correction"><summary>Une scène pour l’introduction</summary><p>${esc(s[2])}</p><p class="micro">Une bonne scène contient déjà le problème : à vous de montrer en quoi.</p></details></article>`).join('\n');
+  const consigne=`<div class="consigne-simple"><p><strong>Pour chaque sujet, au brouillon, avant d’ouvrir les pistes :</strong></p><ol>
+<li>Complétez : « Au premier abord, on a envie de répondre… parce que… »</li>
+<li>Imaginez quelqu’un qui applique cette réponse jusqu’au bout, sans exception : que finit-il par perdre ?</li>
+<li>Même question pour la réponse contraire.</li>
+<li>Écrivez dans le cadre une seule question qui met face à face ces deux pertes, sans trancher : c’est votre problématique.</li>
+</ol></div>`;
+  const sujetsSection=`<section class="exercise-wrap" id="sujets"><div class="exercise-intro"><div><div class="kicker">CINQ VRAIS SUJETS DU BAC</div><h2>S’entraîner à trouver le problème.</h2></div><p>Tous ces sujets ont été donnés au baccalauréat. ${n.corrige.annale?'Plus bas, un sujet de 2026 est traité en entier.':'Le premier est traité en entier plus bas.'}</p></div>
+${consigne}
+${sujets}
+</section>`;
+  const jump=`<nav class="sujet-jump" aria-label="Les sujets de cette page"><p><strong>Votre sujet est ici ?</strong></p><ul>${n.sujets.map((s,k)=>`<li><a href="#sujet-${k+1}">${esc(s[0])}</a></li>`).join('')}</ul></nav>`;
   return head(title,desc,file(n))+`
 <section class="pagehead"><div><div class="kicker">PHILOSOPHIE · LES 17 NOTIONS</div>
 <h1>${esc(n.nom)}.</h1>
 <p class="lede">${n.atelier?'L’essentiel en cinq minutes, un atelier en six étapes de la problématique à la dissertation complète, puis cinq vrais sujets du bac pour s’entraîner.':'Ce que la notion demande, les repères du programme qui l’éclairent, cinq vrais sujets du bac pour s’entraîner, et un sujet traité en entier.'}</p>
+${jump}
 </div><aside class="side-note"><p><strong>Comment travailler ?</strong><br>Pour chaque sujet, cherchez d’abord seul ; n’ouvrez les pistes qu’ensuite. Les pistes suffisent sans IA ; « Vérifier ma réponse » donne en plus un retour sur votre problématique.</p><p><a href="philosophie-notions.html">← Les 17 notions</a></p></aside></section>
 
 ${n.atelier?atelierHtml(n,corr)+`
-<section class="exercise-wrap" id="sujets"><div class="exercise-intro"><div><div class="kicker">CINQ VRAIS SUJETS DU BAC</div><h2>S’entraîner à trouver le problème.</h2></div><p>Tous ces sujets ont été donnés au baccalauréat. ${n.corrige.annale?'Plus bas, un sujet de 2026 est traité en entier.':'Le premier est traité en entier plus bas.'}</p></div>
-${sujets}
-</section>
+${sujetsSection}
 
 `:`<section class="offer-band"><div class="kicker">CE QUE LA NOTION DEMANDE</div><h2>Deux exigences qui se gênent.</h2>
 <div class="grid-3">
@@ -137,9 +147,7 @@ ${sujets}
 <p class="micro">Le programme de Terminale donne une liste de « repères », des distinctions à savoir employer. Ils servent souvent à construire la troisième partie.</p>
 </section>
 
-<section class="exercise-wrap" id="sujets"><div class="exercise-intro"><div><div class="kicker">CINQ VRAIS SUJETS DU BAC</div><h2>S’entraîner à trouver le problème.</h2></div><p>Tous ces sujets ont été donnés au baccalauréat. ${n.corrige.annale?'Plus bas, un sujet de 2026 est traité en entier.':'Le premier est traité en entier plus bas.'}</p></div>
-${sujets}
-</section>
+${sujetsSection}
 
 <section class="exercise-wrap" id="corrige"><article class="exercise"><div class="kicker">UN SUJET TRAITÉ EN ENTIER</div><h2>Une dissertation, du brouillon à la conclusion.</h2>
 ${corr}

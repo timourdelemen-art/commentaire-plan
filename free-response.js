@@ -131,8 +131,11 @@
         feedback.classList.add("show");
         previousAnswer=answer;
       }catch(e){
-        feedback.textContent=e.message||"Le retour n’est pas disponible pour le moment.";
+        feedback.innerHTML="<strong>Retour automatique indisponible pour l’instant</strong><p>Votre réponse est conservée. Comparez-la avec les pistes ci-dessous, puis réessayez plus tard.</p>";
         feedback.classList.add("show");
+        const box=area.closest(".exercise,article,section");
+        const det=box&&box.querySelector("details");
+        if(det)det.open=true;
       }finally{
         if(getLockUntil()>Date.now()){
           btn.disabled=true;
