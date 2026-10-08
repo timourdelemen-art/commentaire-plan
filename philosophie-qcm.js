@@ -7,16 +7,16 @@
    </ol></div> */
 (()=>{
 const ERR={
- hors:["Hors sujet (doigt manquant)","fait disparaître un mot ou la relation du sujet","aucun doigt ne manque"],
- reformulation:["Reformulation (main nue)","redit ou recopie le sujet sans faire apparaître de tension","on reconnaît le sujet sans qu’il soit recopié"],
- rhetorique:["Question rhétorique (cousue d’avance)","contient déjà sa réponse (« comment pourrait-on… si… »)","les deux branches sont vraies"],
- alternative:["Fausse alternative (deux gants)","oppose les notions comme s’il fallait choisir entre elles","aucun doigt ne manque"],
- couple:["Couple plaqué","importe un couple tout fait (nature ou culture, hasard ou nécessité…)","aucun doigt en trop"],
- definitions:["Alternative de définitions","« si l’on entend x… si l’on entend y… » sans tension réelle","les deux branches sont vraies"],
- generique:["Problématique générique (gant trop grand)","vaudrait telle quelle pour un autre sujet sur la même notion","on reconnaît la main, et seulement elle"],
- cascade:["Cascade","aligne plusieurs questions sans les articuler","d’une traite"],
- ajout:["Terme ajouté (doigt en trop)","introduit une notion ou une définition que le sujet ne contient pas","aucun doigt en trop"],
- boiteux:["Chiasme boiteux","une seule réponse est mise à l’épreuve ; l’autre n’est jamais examinée","les deux branches sont vraies"]
+ hors:["Hors sujet : un doigt manque","fait disparaître un mot ou la relation que pose le sujet","aucun doigt ne manque"],
+ reformulation:["Le sujet recopié","redit le sujet avec d’autres mots, sans faire apparaître de difficulté","on reconnaît le sujet sans qu’il soit recopié"],
+ rhetorique:["La réponse est dans la question","« comment pourrait-on… si… » : la question a déjà répondu","les deux réponses restent ouvertes"],
+ alternative:["Un faux choix","oppose les notions comme s’il fallait choisir entre elles","aucun doigt ne manque"],
+ couple:["Une formule toute faite","plaque un couple appris par cœur (nature ou culture, hasard ou nécessité…)","aucun doigt en trop"],
+ definitions:["Deux définitions côte à côte","« si l’on entend x… si l’on entend y… » sans montrer de difficulté","les deux réponses restent ouvertes"],
+ generique:["Trop large","vaudrait telle quelle pour un autre sujet sur la même notion","on reconnaît le sujet, et seulement lui"],
+ cascade:["Trop de questions","aligne plusieurs questions sans en poser une vraie","d’une traite"],
+ ajout:["Un mot en trop","ajoute une notion ou une définition que le sujet ne contient pas","aucun doigt en trop"],
+ boiteux:["La question penche d’un côté","une seule réponse est mise à l’épreuve ; l’autre n’est jamais examinée","les deux réponses restent ouvertes"]
 };
 const esc=s=>String(s).replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
 document.querySelectorAll(".philo-qcm").forEach((box,qi)=>{
