@@ -2031,3 +2031,5 @@ main>section:nth-of-type(n+3){
 .home-lead .lead-form{max-width:620px}
 @media(max-width:900px){.home-doors{grid-template-columns:1fr}}
 .home-steps article{transform:none!important;margin:0!important}
+.capture{margin-top:30px}
+.capture .lead-form{max-width:620px}
