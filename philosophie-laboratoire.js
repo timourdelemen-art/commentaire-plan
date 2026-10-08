@@ -11,7 +11,7 @@ const exercises=[
 {cat:"transitions",title:"Duel de transitions",desc:"Éliminer résumé, annonce et généralité ; garder la question née du manque réel.",href:"philosophie-dissertation-entrainement.html#duel-transitions",level:"Diagnostic"},
 {cat:"transitions",title:"Partie → manque → question",desc:"Transformer la limite d’une partie en nécessité de la suivante.",href:"philosophie-dissertation-entrainement.html#ex-transition",level:"Production"},
 {cat:"troisieme",title:"Bataille des III",desc:"Comparer plusieurs dépassements et choisir celui qui traite vraiment le reste.",href:"philosophie-dissertation-entrainement.html#bataille-iii",level:"Diagnostic"},
-{cat:"troisieme",title:"Quel III conserve le plus ?",desc:"Tester conservation de I, conservation de II, réponse au reste et absence d’arbitraire.",href:"philosophie-operations.html#test-troisieme",level:"Production"},
+{cat:"troisieme",title:"Quel III conserve le plus ?",desc:"Vérifier qu’une troisième partie garde ce que I et II avaient montré, répond à la question restée ouverte, et n’invente rien.",href:"philosophie-operations.html#test-troisieme",level:"Production"},
 {cat:"references",title:"Sauvez cette citation",desc:"Donner à une citation une fonction précise dans votre propre raisonnement.",href:"philosophie-references.html#sauvez-citation",level:"Réparation"},
 {cat:"references",title:"Qui pense ici ?",desc:"Repérer le paragraphe qui récite des auteurs au lieu de construire un argument.",href:"philosophie-penser-par-soi-meme.html#qui-pense-ici",level:"Diagnostic"},
 {cat:"references",title:"Reprenez la main",desc:"Expliquer après la référence ce qu’elle permet d’établir exactement ici.",href:"philosophie-references.html#reprenez-main",level:"Production"},

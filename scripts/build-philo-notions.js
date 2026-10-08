@@ -59,7 +59,7 @@ function atelierHtml(n,corr){
 <div class="philo-qcm"><ol class="qcm-options">${q.options.map(o=>o[0]==='ok'?`<li data-ok="1" data-why="${esc(o[2])}">${esc(o[1])}</li>`:`<li data-error="${o[0]}" data-why="${esc(o[2])}">${esc(o[1])}</li>`).join('')}</ol></div>
 ${next(1)}</article></section>`;
   const s2=`<section class="exercise-wrap atelier-step" data-step="2"><article class="exercise">${stepHead(2,'Même notion, autre sujet : ce qui coince change.')}
-<p class="instruction">Pour chaque sujet, choisissez la tension qui vient vraiment de ses mots.</p>
+<p class="instruction">Selon la façon dont le sujet est posé, le conflit n’est pas le même. Pour chaque sujet, lisez bien ses mots, puis cliquez sur le conflit (les deux attentes qui se gênent) qui vient vraiment de ce sujet-là, et pas de la notion en général.</p>
 ${A.autre.map(a=>`<p class="quote">« ${esc(a.sujet)} »</p><div class="atelier-choice">${a.options.map(o=>`<button type="button" class="choice" data-ok="${o[1]}" data-why="${esc(o[2])}">${esc(o[0])}</button>`).join('')}<div class="atelier-why" aria-live="polite"></div></div>`).join('')}
 <p class="micro">Retenez-le : on ne plaque pas sur un sujet les deux exigences apprises par cœur. On les cherche dans les mots du sujet.</p>
 ${next(2)}</article></section>`;
@@ -70,7 +70,7 @@ ${next(3)}</article></section>`;
   const t=A.transition;
   const s4=`<section class="exercise-wrap atelier-step" data-step="4"><article class="exercise">${stepHead(4,'Écrire la transition.')}
 <p class="quote">Sujet : « ${esc(t.sujet)} »</p>
-<p class="instruction">${esc(t.acquis)} ${esc(t.limite)} Écrivez la transition vers la partie II, en une phrase, deux au plus : dites pourquoi cette réponse échoue (l’idée se retourne-t-elle contre elle-même ? son succès coûte-t-il trop cher ?), sans « nous avons vu » ni « voyons maintenant ».</p>
+<p class="instruction">${esc(t.acquis)} ${esc(t.limite)} Écrivez la phrase qui fait passer à la partie II (la transition), une ou deux phrases au plus. Elle ne résume pas : elle dit pourquoi la réponse qu’on vient de défendre ne suffit pas. Deux pistes : l’idée, poussée à fond, se retourne-t-elle contre elle-même ? Ou bien réussit-elle, mais en coûtant trop cher ? Évitez « nous avons vu » et « voyons maintenant ».</p>
 <textarea rows="4" data-feedback-kind="philo-transition" data-feedback-quote="${esc(t.sujet)}" aria-label="Votre transition"></textarea>
 <details class="correction"><summary>Comparer avec une transition possible</summary><p>${esc(t.corrige)}</p><p class="micro">Le modèle du prix : la liberté de Dom Juan réussit à tout garder ouvert, et c’est ce succès qui la ruine. <a class="official-link" href="philosophie-dissertation.html#transitions">Les modèles de transition →</a></p></details>
 ${next(4)}</article></section>`;
@@ -108,7 +108,7 @@ ${corrigeBlocks(n.corrige)}
   }
   corr+=PRINT;
   const sujets=n.sujets.map((s,k)=>`<article class="exercise notion-sujet"><div class="kicker">SUJET ${k+1}</div><p class="quote">« ${esc(s[0])} »</p>
-<p class="instruction">Avant d’ouvrir les pistes : quelle première réponse vient à l’esprit, et que perd-elle si on la pousse jusqu’au bout ? Même question pour la réponse contraire. Puis écrivez votre problématique : une seule question, qui laisse les deux réponses ouvertes.</p>
+<p class="instruction">Faites-le au brouillon, avant d’ouvrir les pistes : c’est en cherchant seul qu’on trouve le problème. 1. Complétez : « Au premier abord, on a envie de répondre… parce que… » 2. Imaginez quelqu’un qui applique cette réponse jusqu’au bout, dans tous les cas, sans exception : qu’est-ce qu’il finit par perdre ? 3. Même question pour la réponse contraire. 4. Écrivez votre problématique : une seule question qui met face à face ces deux pertes, sans trancher.</p>
 <textarea rows="4" data-feedback-kind="philo-problematique" data-feedback-quote="${esc(s[0])}" data-feedback-instruction="Sujet de dissertation : « ${esc(s[0])} ». L’élève propose sa problématique : une seule question qui fait voir ce que chaque réponse perd et laisse les deux réponses ouvertes." aria-label="Votre problématique pour ce sujet"></textarea>
 <details class="correction"><summary>Ce qui coince</summary><p>${esc(s[1])}</p></details>
 <details class="correction"><summary>Une scène pour l’introduction</summary><p>${esc(s[2])}</p><p class="micro">Une bonne scène contient déjà le problème : à vous de montrer en quoi.</p></details></article>`).join('\n');
