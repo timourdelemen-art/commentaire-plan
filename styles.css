@@ -1912,3 +1912,23 @@ main>section:nth-of-type(n+3){
 .plan-sous{margin:4px 0 14px;padding-left:20px}.plan-sous li{margin-bottom:8px;line-height:1.5;font-size:17px}
 .plan-transition{background:#eee4d3;padding:12px 16px;font-size:17px;line-height:1.5}
 .correction + .correction{margin-top:10px}
+
+/* Philosophie : sommaire de page, groupes d’annales, impression des fiches */
+.page-toc{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:baseline;padding:18px 18px 20px;border-bottom:1px solid var(--rule);font-size:16px}
+.page-toc strong{font-family:'American Typewriter','Courier New',monospace;font-size:12px;letter-spacing:1.6px;color:var(--muted);font-weight:400;text-transform:uppercase}
+.page-toc a{color:var(--ink);border-bottom:1px solid var(--red)}
+.annales-group{font-size:22px;font-weight:400;margin:28px 0 10px}
+.philo-print{font:inherit;font-size:15px;background:transparent;border:1px solid var(--rule);padding:8px 14px;cursor:pointer}
+.philo-print:hover{border-color:var(--red)}
+.philo-doors-more{font-size:17px;margin-top:16px}
+@media print{
+  header.top,.skip-link,.breadcrumb,nav,.free-response-tools,.print-line,.page-toc,footer,.site-footer{display:none !important}
+  body{background:#fff !important}
+  .offer-band,.exercise-wrap,.pagehead{border:0 !important;padding:8mm 0 !important;break-inside:auto}
+  textarea{display:none !important}
+  details{display:block}
+  details>summary{list-style:none;font-weight:700}
+  .seo-links,.priority-grid{display:none !important}
+  .reveal,section{opacity:1 !important;transform:none !important}
+  a{color:#000;text-decoration:none}
+}
