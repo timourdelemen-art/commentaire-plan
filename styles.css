@@ -1968,3 +1968,11 @@ main>section:nth-of-type(n+3){
 .c20-teaser .c20{margin-top:14px}
 .consigne-simple{max-width:900px;margin:6px 0 14px;padding-left:22px;font-size:18px;line-height:1.5}
 .consigne-simple li{margin-bottom:8px}
+
+/* Philosophie : cadres d'écriture pleine largeur, accès direct aux sujets */
+.exercise textarea{display:block;width:100%;box-sizing:border-box;min-height:130px;padding:14px;font:17px/1.5 Georgia,"Times New Roman",serif;background:#fffdf8;border:1px solid #9b9388;border-radius:4px;margin:6px 0 12px}
+.sujet-label{display:block;font-weight:700;margin-top:12px}
+.sujet-jump{margin-top:18px;padding:14px 18px;border-left:3px solid #9b2f1f;background:#fbf7ef;max-width:760px}
+.sujet-jump p{margin:0 0 6px}
+.sujet-jump ul{margin:0;padding-left:20px}
+.sujet-jump li{margin:4px 0}

@@ -60,6 +60,7 @@ function staticHeader(file){
       ['philosophie-references.html','Travailler les références','Faire réellement agir un auteur dans le raisonnement'],
       ['philosophie-operations.html','Travailler les opérations','Distinguer, inverser, déplacer, transformer…'],
       ['philosophie-notions.html','Travailler une notion','Les 17 notions : sujets du bac et corrigés'],
+      ['philosophie-jour-du-bac.html','Le jour du bac','Gérer les 4 heures de l’épreuve'],
       ['philosophie-annales.html','Faire une annale','Dissertation ou explication de texte, sujet par sujet']
     ],philoPages.has(base)||base.startsWith('philosophie')),
     portal(file,'hlp.html','HLP','1re · Tle',[
