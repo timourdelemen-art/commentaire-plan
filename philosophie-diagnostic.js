@@ -1,8 +1,8 @@
 (()=> {
 const qs=[
 {skill:"problematiser",title:"Quelle problématique est la plus forte ?",context:"Sujet : « Peut-on être heureux sans être libre ? »",options:[
-["Le bonheur est-il vraiment ce que tous les hommes recherchent avant toute autre chose ?","non"],
-["Le bonheur exige-t-il de n’avoir plus rien à choisir, au risque de n’être plus éprouvé comme le nôtre, ou suppose-t-il la liberté qui, en gardant ouvert un autre possible, l’empêche d’être jamais complet ?","oui"],
+["Le bonheur sans liberté n’exige-t-il pas d’ignorer sa servitude, ce qui le prive de la lucidité sans laquelle on ne se sait pas heureux ?","non"],
+["Le bonheur n’est-il possible que dans le repos de celui qui ignore sa servitude, ou peut-il survivre à la lucidité inquiète que donne la liberté ?","oui"],
 ["Comment pourrait-on être vraiment heureux sans avoir choisi la vie que l’on mène, puisqu’un bonheur imposé n’est qu’une satisfaction subie ?","non"],
 ["Faut-il préférer le bonheur, qui apaise, à la liberté, qui inquiète, ou renoncer au repos pour rester libre ?","non"]]},
 {skill:"argumenter",title:"Quel passage pense vraiment ?",context:"Vous devez défendre l’idée que suivre ses désirs ne suffit pas à être libre.",options:[
@@ -50,7 +50,7 @@ function finish(){
 }
 function prescription(k){
  return {
- problematiser:"Faites les cinq QCM de la page Problématisation en nommant chaque erreur, puis appliquez le questionnaire et les sept tests à une annale.",
+ problematiser:"Faites les cinq QCM de la page Problématisation en nommant chaque erreur, puis appliquez le questionnaire et le test du gant à une annale.",
  argumenter:"Commencez par « Zéro auteur » : une réponse, une raison, un exemple, une difficulté sans référence.",
  transitions:"Faites le « Duel de transitions » puis produisez vous-même une question de manque.",
  troisieme:"Faites la « Bataille des III » : conservation de I, conservation de II, réponse au reste, absence d’arbitraire.",
