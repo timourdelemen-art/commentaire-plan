@@ -1972,7 +1972,46 @@ main>section:nth-of-type(n+3){
 /* Philosophie : cadres d'écriture pleine largeur, accès direct aux sujets */
 .exercise textarea{display:block;width:100%;box-sizing:border-box;min-height:130px;padding:14px;font:17px/1.5 Georgia,"Times New Roman",serif;background:#fffdf8;border:1px solid #9b9388;border-radius:4px;margin:6px 0 12px}
 .sujet-label{display:block;font-weight:700;margin-top:12px}
-.sujet-jump{margin-top:18px;padding:14px 18px;border-left:3px solid #9b2f1f;background:#fbf7ef;max-width:760px}
+.sujet-jump{margin-top:18px;padding:14px 18px;border-left:3px solid var(--red);background:#fbf7ef;max-width:760px}
 .sujet-jump p{margin:0 0 6px}
 .sujet-jump ul{margin:0;padding-left:20px}
 .sujet-jump li{margin:4px 0}
+
+/* Philosophie : boussole des exercices et page « Je bloque sur… » */
+.boussole{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin:4px 0 16px;border:1px solid #d9d0c2;background:#fbf7ef}
+.boussole p{margin:0;padding:12px 14px;font-size:16px;line-height:1.45;border-right:1px solid #e6ddcf}
+.boussole p:nth-child(3){border-right:0}
+.boussole b{display:block;font:700 12px/1.3 "American Typewriter","Courier New",monospace;letter-spacing:.06em;text-transform:uppercase;color:var(--red);margin-bottom:4px}
+.boussole .boussole-back{grid-column:1/-1;border-right:0;border-top:1px solid #e6ddcf;padding:6px 14px;font-size:14px;text-align:right}
+@media (max-width:700px){.boussole{grid-template-columns:1fr}.boussole p{border-right:0;border-bottom:1px solid #e6ddcf}.boussole .boussole-back{text-align:left;border-bottom:0}}
+.bloque-nav{margin-top:18px}
+.bloque-nav ul{list-style:none;margin:6px 0 0;padding:0;display:grid;gap:6px}
+.bloque-nav a{display:block;padding:9px 12px;border:1px solid #d9d0c2;background:#fffdf8;text-decoration:none;font-size:17px}
+.bloque-nav a:hover{border-color:var(--red)}
+.bloque-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px;margin-top:12px}
+.bloque-card{display:flex;flex-direction:column;gap:6px;padding:14px 16px;border:1px solid #d9d0c2;background:#fffdf8;text-decoration:none;color:inherit}
+.bloque-card:hover{border-color:var(--red)}
+.bloque-card strong{font-size:18px}
+.bloque-card span{font-size:15px;line-height:1.45}
+.bloque-card i{margin-top:auto;font-style:normal;color:var(--red);font-size:14px}
+.bloque-extra{background:#f4efe6}
+.parcours-next{border-left:4px solid var(--red)}
+.page-boussole p{font-size:17px;line-height:1.45;margin:0 0 14px}
+.page-boussole b{display:block;font:700 12px/1.3 "American Typewriter","Courier New",monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--red);margin-bottom:3px}
+.page-boussole a{color:var(--red);border-bottom:1px solid var(--red)}
+.side-note .ici b{display:block;font:700 12px/1.3 "American Typewriter","Courier New",monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--red);margin-bottom:3px}
+.parcours-strip{display:flex;flex-wrap:wrap;align-items:stretch;gap:0;margin:18px 18px 0;border:1px solid var(--rule);font-size:14px}
+.parcours-strip a{display:flex;align-items:center;gap:8px;padding:9px 12px;border-right:1px solid #cfc6b8;flex:1 1 auto}
+.parcours-strip a:last-child{border-right:0}
+.parcours-strip .parcours-home{flex:0 0 auto;font:700 12px "American Typewriter","Courier New",monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--red)}
+.parcours-strip b{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;border:1px solid var(--rule);font-size:13px;flex:0 0 24px}
+.parcours-strip a[aria-current]{background:var(--ink);color:var(--paper)}
+.parcours-strip a[aria-current] b{border-color:var(--paper)}
+.parcours-strip a.done b{background:#596d49;border-color:#596d49;color:#fff;font-size:0}
+.parcours-strip a.done b:after{content:'✓';font-size:13px}
+@media(max-width:800px){.parcours-strip{margin:12px 0 0}.parcours-strip a span{display:none}.parcours-strip a{flex:1 1 0;justify-content:center}.parcours-strip .parcours-home{flex:1 0 100%;justify-content:flex-start;border-right:0;border-bottom:1px solid #cfc6b8}}
+.parcours-done{display:inline-block;margin:6px 0 10px;background:transparent;border:1px solid #596d49;color:#3f5233;padding:9px 14px;font:16px Georgia,"Times New Roman",serif;cursor:pointer}
+.parcours-done.is-done{background:#e6ecdf}
+.parcours-check{margin-left:10px;font-size:15px;color:#3f5233;white-space:nowrap;cursor:pointer}
+[data-parcours].done strong{text-decoration:line-through;text-decoration-color:#596d49}
+.parcours-status{font-size:18px;color:#3f5233;margin:4px 0 0}

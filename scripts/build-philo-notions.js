@@ -44,14 +44,14 @@ function corrigeBlocks(c){
 
 function atelierHtml(n,corr){
   const A=n.atelier, E=A.essentiel, T=6;
-  const stepHead=(k,h)=>`<div class="atelier-progress">Étape ${k} sur ${T}</div><h2>${h}</h2>`;
-  const next=k=>k<T?`<p class="atelier-nav"><button type="button" class="btn red atelier-next">Étape suivante →</button></p>`:'';
+  const stepHead=(k,h)=>`<div class="atelier-progress">Exercice ${k} sur ${T}</div><h2>${h}</h2>`;
+  const next=k=>k<T?`<p class="atelier-nav"><button type="button" class="btn red atelier-next">Exercice suivant →</button></p>`:'';
   const essentiel=`<section class="offer-band" id="essentiel"><div class="kicker">L’ESSENTIEL EN CINQ MINUTES</div><h2>Trois distinctions, trois auteurs.</h2>
 <div class="grid-3">${E.distinctions.map(d=>`<div><strong>${esc(d[0])}</strong><p>${esc(d[1])}</p></div>`).join('')}</div>
 <h3 class="essentiel-sub">Trois auteurs, et ce qu’ils permettent de faire</h3>
 <div class="sequence-spec">${E.auteurs.map(a=>`<p><strong>${esc(a[0])}</strong>, <em>${esc(a[1])}</em>. ${esc(a[2])} <span class="essentiel-use">Ce qu’il permet : ${esc(a[3])}</span></p>`).join('')}</div>
 <p class="micro">Un auteur n’est utile que s’il fait avancer votre raisonnement. Un devoir sans auteur peut être excellent ; ces trois-là sont des outils, pas des passages obligés.</p>
-<p>Le plus souvent, ${esc(lower(n))} demande deux choses qui se gênent : ${esc(n.d1)}, et ${esc(n.d2)}. Mais attention : selon les mots du sujet, ce qui coince peut changer. C’est l’objet de l’étape 2 de l’atelier.</p>
+<p>Le plus souvent, ${esc(lower(n))} demande deux choses qui se gênent : ${esc(n.d1)}, et ${esc(n.d2)}. Mais attention : selon les mots du sujet, ce qui coince peut changer. C’est l’objet de l’exercice 2 de l’atelier.</p>
 </section>`;
   const q=A.qcm;
   const s1=`<section class="exercise-wrap atelier-step" data-step="1"><article class="exercise">${stepHead(1,'Choisir la problématique, puis nommer les erreurs.')}
@@ -85,7 +85,7 @@ ${next(5)}</article></section>`;
 ${corr}
 <p class="atelier-done">Atelier terminé. Pour aller plus loin, les cinq sujets ci-dessous attendent votre problématique.</p></article></section>`;
   return essentiel+`
-<section class="offer-band atelier-intro" id="atelier"><div class="kicker">L’ATELIER</div><h2>Six étapes, une à la fois.</h2><p>De la problématique à la dissertation complète. Chaque étape se corrige avant de passer à la suivante. Comptez environ une heure, en une ou plusieurs fois. <strong>L’étape 1 est juste en dessous.</strong> <button type="button" class="atelier-all philo-print">Afficher tout l’atelier</button></p></section>
+<section class="offer-band atelier-intro" id="atelier"><div class="kicker">L’ATELIER</div><h2>Six exercices, un à la fois.</h2><p>De la problématique à la dissertation complète. Chaque exercice se corrige avant de passer au suivant. Comptez environ une heure, en une ou plusieurs fois. <strong>Le premier est juste en dessous.</strong> <button type="button" class="atelier-all philo-print">Afficher tout l’atelier</button></p></section>
 `+s1+s2+s3+s4+s5+s6;
 }
 
@@ -102,13 +102,13 @@ function notionPage(n,i){
 <p><a class="btn red" href="${annaleFile(a)}">Travailler ce sujet et lire le corrigé →</a></p>`;
   }else{
     const s=n.sujets[0][0];
-    corr=`<p class="quote">« ${esc(s)} »</p><p class="instruction">Faites d’abord le travail vous-même, au brouillon : les mots du sujet, ce que chaque réponse perd, la problématique, le plan. Ouvrez ensuite le corrigé, étape par étape.</p>
+    corr=`<p class="quote">« ${esc(s)} »</p><p class="instruction">Faites d’abord le travail vous-même, au brouillon : les mots du sujet, ce que chaque réponse perd, la problématique, le plan. Ouvrez ensuite le corrigé, partie par partie.</p>
 ${corrigeBlocks(n.corrige)}
 <p class="micro">Ce n’est pas la seule réponse juste : une autre problématique est bonne si elle passe le test du gant. Les auteurs cités ne sont là que parce qu’ils font avancer l’idée ; un devoir sans eux peut être excellent.</p>`;
   }
   corr+=PRINT;
   const sujets=n.sujets.map((s,k)=>`<article class="exercise notion-sujet" id="sujet-${k+1}"><div class="kicker">SUJET ${k+1}</div><p class="quote">« ${esc(s[0])} »</p>
-<label class="sujet-label" for="pb-${k+1}">Votre problématique (étape 4)</label>
+<label class="sujet-label" for="pb-${k+1}">Votre problématique (point 4)</label>
 <textarea id="pb-${k+1}" rows="4" data-feedback-kind="philo-problematique" data-feedback-quote="${esc(s[0])}" data-feedback-instruction="Sujet de dissertation : « ${esc(s[0])} ». L’élève propose sa problématique : une seule question qui fait voir ce que chaque réponse perd et laisse les deux réponses ouvertes." aria-label="Votre problématique pour ce sujet"></textarea>
 <details class="correction"><summary>Ce qui coince</summary><p>${esc(s[1])}</p></details>
 <details class="correction"><summary>Une scène pour l’introduction</summary><p>${esc(s[2])}</p><p class="micro">Une bonne scène contient déjà le problème : à vous de montrer en quoi.</p></details></article>`).join('\n');
@@ -126,9 +126,9 @@ ${sujets}
   return head(title,desc,file(n))+`
 <section class="pagehead"><div><div class="kicker">PHILOSOPHIE · LES 17 NOTIONS</div>
 <h1>${esc(n.nom)}.</h1>
-<p class="lede">${n.atelier?'L’essentiel en cinq minutes, un atelier en six étapes de la problématique à la dissertation complète, puis cinq vrais sujets du bac pour s’entraîner.':'Ce que la notion demande, les repères du programme qui l’éclairent, cinq vrais sujets du bac pour s’entraîner, et un sujet traité en entier.'}</p>
+<p class="lede">${n.atelier?'L’essentiel en cinq minutes, un atelier en six exercices de la problématique à la dissertation complète, puis cinq vrais sujets du bac pour s’entraîner.':'Ce que la notion demande, les repères du programme qui l’éclairent, cinq vrais sujets du bac pour s’entraîner, et un sujet traité en entier.'}</p>
 ${jump}
-</div><aside class="side-note"><p><strong>Comment travailler ?</strong><br>Pour chaque sujet, cherchez d’abord seul ; n’ouvrez les pistes qu’ensuite. Les pistes suffisent sans IA ; « Vérifier ma réponse » donne en plus un retour sur votre problématique.</p><p><a href="philosophie-notions.html">← Les 17 notions</a></p></aside></section>
+</div><aside class="side-note page-boussole"><p><b>D’où vous partez</b>Vous avez un sujet ou un devoir sur ${esc(lower(n))}.</p><p><b>Ce que vous faites ici</b>${n.atelier?'Comprendre ce que la notion demande, faire l’atelier, puis chercher seul le problème de cinq vrais sujets du bac.':'Comprendre ce que la notion demande, chercher seul le problème de cinq vrais sujets du bac, puis lire un sujet traité en entier.'}</p><p><b>Où vous allez ensuite</b>Un sujet complet, en conditions réelles : <a href="philosophie-annales.html">les sujets 2026 corrigés →</a></p><p class="micro">Vous débutez en philosophie ? <a href="philosophie.html#parcours">Le parcours en cinq étapes</a>. <a href="philosophie-notions.html">← Les 17 notions</a></p></aside></section>
 
 ${n.atelier?atelierHtml(n,corr)+`
 ${sujetsSection}

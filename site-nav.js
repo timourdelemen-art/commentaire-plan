@@ -42,14 +42,14 @@ document.addEventListener('DOMContentLoaded',()=> {
       ['bac-mode-examen.html','Se mettre en condition','Travailler sans aide, avec chrono']
     ],is(bacPages)?'active':''),
     portal('philosophie.html','PHILO','Terminale · tronc commun',[
-      ['philosophie-diagnostic.html','Faire le diagnostic','5 minutes pour trouver votre priorité'],
-      ['philosophie-dissertation.html','Construire la dissertation','Du sujet au problème puis aux réponses nécessaires'],
-      ['philosophie-dissertation-entrainement.html','S’entraîner geste par geste','Problématique, argumentation, transition, III'],
-      ['philosophie-references.html','Travailler les références','Faire réellement agir un auteur dans le raisonnement'],
-      ['philosophie-operations.html','Travailler les opérations','Distinguer, inverser, déplacer, transformer…'],
+      ['philosophie-diagnostic.html','Commencer ici','Étape 1 · 5 minutes pour savoir par où commencer'],
+      ['philosophie-problematisation.html','Trouver le problème','Étape 2 · le geste le plus important'],
+      ['philosophie-dissertation.html','Construire la dissertation','Étape 3 · introduction, parties, transitions, conclusion'],
+      ['philosophie-dissertation-entrainement.html','S’entraîner','Étape 4 · des exercices courts, corrigés'],
+      ['philosophie-annales.html','Faire un sujet du bac','Étape 5 · les sujets 2026 corrigés'],
+      ['philosophie-laboratoire.html','Je bloque sur…','Un exercice pour chaque difficulté'],
       ['philosophie-notions.html','Travailler une notion','Les 17 notions : sujets du bac et corrigés'],
-      ['philosophie-jour-du-bac.html','Le jour du bac','Gérer les 4 heures de l’épreuve'],
-      ['philosophie-annales.html','Faire une annale','Dissertation ou explication de texte, sujet par sujet']
+      ['philosophie-jour-du-bac.html','Le jour du bac','Gérer les 4 heures de l’épreuve']
     ],is(philoPages)?'active':''),
     portal('hlp.html','HLP','1re · Tle',[
       ['hlp-premiere.html','HLP Première','La parole, les représentations du monde'],
