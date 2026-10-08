@@ -176,5 +176,5 @@ ${NOTIONS.map(n=>`<a href="${file(n)}"><strong>${esc(n.nom)}</strong><span>${esc
 
 NOTIONS.forEach((n,i)=>fs.writeFileSync(path.join(ROOT,file(n)),notionPage(n,i)));
 fs.writeFileSync(path.join(ROOT,'philosophie-notions.html'),hub());
-fs.writeFileSync(path.join(ROOT,C20.VITRINE),C20.vitrine(require('./copie20-liberte.json')));
+fs.writeFileSync(path.join(ROOT,C20.VITRINE),C20.vitrine());
 console.log(`Notions philosophie : ${NOTIONS.length} pages + philosophie-notions.html`);
