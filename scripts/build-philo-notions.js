@@ -7,6 +7,7 @@
 const fs=require('fs');
 const path=require('path');
 const {annaleFile}=require('./philo-paths');
+const C20=require('./philo-copie20');
 const ROOT=path.resolve(__dirname,'..');
 const DOMAIN='https://commentaire-plan.com';
 global.window={};
@@ -145,7 +146,7 @@ ${corr}
 </article></section>
 
 `}
-<section class="offer-band"><div class="kicker">ET ENSUITE ?</div><h2>Continuer le travail.</h2>
+${n.corrige.annale?'':C20.teaser('notion-'+n.slug)}<section class="offer-band"><div class="kicker">ET ENSUITE ?</div><h2>Continuer le travail.</h2>
 <div class="seo-links">
 <a href="philosophie-dissertation.html"><strong>Construire la dissertation</strong><span>Introduction, trois parties, transitions, conclusion →</span></a>
 <a href="philosophie-dissertation-entrainement.html"><strong>S’entraîner geste par geste</strong><span>Des exercices courts, chacun corrigé →</span></a>
@@ -175,4 +176,5 @@ ${NOTIONS.map(n=>`<a href="${file(n)}"><strong>${esc(n.nom)}</strong><span>${esc
 
 NOTIONS.forEach((n,i)=>fs.writeFileSync(path.join(ROOT,file(n)),notionPage(n,i)));
 fs.writeFileSync(path.join(ROOT,'philosophie-notions.html'),hub());
+fs.writeFileSync(path.join(ROOT,C20.VITRINE),C20.vitrine(require('./copie20-liberte.json')));
 console.log(`Notions philosophie : ${NOTIONS.length} pages + philosophie-notions.html`);

@@ -2,9 +2,9 @@
    Sans JavaScript, tout l’atelier reste affiché (lecture, impression, moteurs de recherche). */
 (()=>{
 const steps=[...document.querySelectorAll('.atelier-step')];
-if(!steps.length) return;
 const esc=s=>String(s).replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
 let shown=1;
+if(steps.length){
 const KEY='cp-atelier:'+location.pathname;
 try{shown=Math.max(1,Math.min(steps.length,Number(localStorage.getItem(KEY))||1));}catch(e){}
 function render(){
@@ -24,6 +24,7 @@ steps.forEach(s=>{
 const all=document.querySelector('.atelier-all');
 if(all) all.addEventListener('click',()=>{shown=steps.length;try{localStorage.setItem(KEY,String(shown));}catch(e){}render();});
 render();
+}
 
 /* Choix commentés : un clic, une explication ; la bonne réponse est montrée après une erreur. */
 document.querySelectorAll('.atelier-choice').forEach(box=>{
