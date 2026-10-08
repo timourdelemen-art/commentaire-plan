@@ -1903,3 +1903,9 @@ main>section:nth-of-type(n+3){
 @media (max-width:640px){.philo-table{min-width:0}.philo-table thead{display:none}.philo-table tr{display:block;border-top:1px solid var(--rule,#c9c0b5);padding:12px 0}.philo-table td{display:block;border:0;padding:3px 0}.philo-table td:first-child{white-space:normal;color:var(--red)}}
 .chiasme-fig{margin:22px 0;max-width:760px}.chiasme-fig svg{width:100%;height:auto;display:block}
 @media (max-width:640px){.chiasme-fig{overflow-x:auto;-webkit-overflow-scrolling:touch}.chiasme-fig svg{min-width:620px}}
+.philo-diagnostic .diag-option:disabled{cursor:default;opacity:.75}
+.philo-diagnostic .diag-option.is-good{border:2px solid #2f6b3a;background:#eef4ec;opacity:1}
+.philo-diagnostic .diag-option.is-wrong{border:2px solid var(--red);opacity:1}
+.diag-feedback{margin-top:18px;font-size:18px;line-height:1.5}.diag-feedback .btn{margin-top:10px}
+.philo-diagnostic .diag-option:disabled{opacity:1;color:#4a453f}
+.correction ol{padding-left:22px}.correction ol li{margin-bottom:8px;line-height:1.5;font-size:17px}
