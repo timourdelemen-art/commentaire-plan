@@ -16,7 +16,7 @@
     "philo-cout":"Les deux réponses doivent perdre quelque chose, et la perte doit venir de la réponse poussée jusqu’au bout, pas d’une objection extérieure.",
     "philo-consequence":"Deux choses que la notion demande dans son sens courant, sans définition d’auteur, et pourquoi elles se gênent.",
     "philo-reponse":"Les petits mots du sujet et ce qu’ils changent au sens ; l’idée que le sujet invite d’abord à accepter.",
-    "philo-transition":"Modèle : ce que nous venons d’établir ; mais ce que cela perd. Question ouverte sur ce reste ? Pas d’annonce (« voyons maintenant ») ; la question ne contient pas sa réponse.",
+    "philo-transition":"Une transition pose un diagnostic : elle dit pourquoi la réponse précédente échoue (retournement : l’idée produit son contraire ; présupposé dévoilé ; prix : son succès coûte ; glissement de sens ; et pour passer à la III, présupposé commun aux deux réponses ou renversement de la question). Une ou deux phrases, sans « nous avons vu » ni « voyons maintenant ». Une question n’est pas obligatoire ; si elle est posée, elle doit être ouverte.",
     "philo-plan":"I défend une réponse et finit sur sa limite, née de l’idée poussée jusqu’au bout ; II part de cette limite ; III ne choisit pas un camp ni ne coupe la poire en deux : une opération (distinguer deux plans, processus, inverser un rapport, transformer le concept, déplacer la difficulté, limiter ce qu’on peut savoir, maintenir la tension) qui garde les acquis de I et II.",
     "philo-troisieme":"III : ce qui reste (acquis de I et II), l’opération, ce qu’elle garde. Refuser compromis, choix d’un camp, changement de sujet.",
     "philo-reste":"Ce que la III doit sauver des deux côtés : les deux acquis doivent être nommés.",
