@@ -1909,3 +1909,6 @@ main>section:nth-of-type(n+3){
 .diag-feedback{margin-top:18px;font-size:18px;line-height:1.5}.diag-feedback .btn{margin-top:10px}
 .philo-diagnostic .diag-option:disabled{opacity:1;color:#4a453f}
 .correction ol{padding-left:22px}.correction ol li{margin-bottom:8px;line-height:1.5;font-size:17px}
+.plan-sous{margin:4px 0 14px;padding-left:20px}.plan-sous li{margin-bottom:8px;line-height:1.5;font-size:17px}
+.plan-transition{background:#eee4d3;padding:12px 16px;font-size:17px;line-height:1.5}
+.correction + .correction{margin-top:10px}
