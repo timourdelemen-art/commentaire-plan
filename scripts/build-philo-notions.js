@@ -6,6 +6,7 @@
    Idempotent : relancer le script réécrit les pages. */
 const fs=require('fs');
 const path=require('path');
+const {annaleFile}=require('./philo-paths');
 const ROOT=path.resolve(__dirname,'..');
 const DOMAIN='https://commentaire-plan.com';
 global.window={};
@@ -15,6 +16,7 @@ const NOTIONS=window.PHILO_NOTIONS;
 const ANNALES=(window.PHILO_ANNALES_2026||[]).flatMap(s=>s.subjects.map(x=>Object.assign({center:s.center},x)));
 const esc=s=>String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 const file=n=>'philosophie-notion-'+n.slug+'.html';
+const PRINT='<p class="print-line"><button type="button" class="philo-print" onclick="document.querySelectorAll(\'details\').forEach(function(d){d.open=true});window.print()">Imprimer la fiche (pistes et corrigé compris)</button></p>';
 const lower=n=>n.nom.replace(/^L’/,'l’').replace(/^La /,'la ').replace(/^Le /,'le ');
 
 function head(title,desc,canon){
@@ -48,13 +50,14 @@ function notionPage(n,i){
     if(!a) throw new Error('Annale introuvable : '+n.corrige.annale);
     corr=`<p class="quote">« ${esc(a.title)} »</p><p class="instruction">Sujet du bac 2026 (${esc(a.center)}). Le corrigé complet est sur sa page : le travail au brouillon, l’introduction rédigée, le plan détaillé en trois parties et la conclusion.</p>
 <p><strong>Sa problématique :</strong> ${esc(a.pb)}</p>
-<p><a class="btn red" href="philosophie-annale.html?id=${esc(a.id)}">Travailler ce sujet et lire le corrigé →</a></p>`;
+<p><a class="btn red" href="${annaleFile(a)}">Travailler ce sujet et lire le corrigé →</a></p>`;
   }else{
     const s=n.sujets[0][0];
     corr=`<p class="quote">« ${esc(s)} »</p><p class="instruction">Faites d’abord le travail vous-même, au brouillon : les mots du sujet, ce que chaque réponse perd, la problématique, le plan. Ouvrez ensuite le corrigé, étape par étape.</p>
 ${corrigeBlocks(n.corrige)}
 <p class="micro">Ce n’est pas la seule réponse juste : une autre problématique est bonne si elle passe le test du gant. Les auteurs cités ne sont là que parce qu’ils font avancer l’idée ; un devoir sans eux peut être excellent.</p>`;
   }
+  corr+=PRINT;
   const sujets=n.sujets.map((s,k)=>`<article class="exercise notion-sujet"><div class="kicker">SUJET ${k+1}</div><p class="quote">« ${esc(s[0])} »</p>
 <p class="instruction">Avant d’ouvrir les pistes : quelle première réponse vient à l’esprit, et que perd-elle si on la pousse jusqu’au bout ? Même question pour la réponse contraire. Puis écrivez votre problématique : une seule question, qui laisse les deux réponses ouvertes.</p>
 <textarea rows="4" data-feedback-kind="philo-problematique" data-feedback-quote="${esc(s[0])}" data-feedback-instruction="Sujet de dissertation : « ${esc(s[0])} ». L’élève propose sa problématique : une seule question qui fait voir ce que chaque réponse perd et laisse les deux réponses ouvertes." aria-label="Votre problématique pour ce sujet"></textarea>

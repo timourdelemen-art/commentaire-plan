@@ -61,7 +61,7 @@ function staticHeader(file){
       ['philosophie-operations.html','Travailler les opérations','Distinguer, inverser, déplacer, transformer…'],
       ['philosophie-notions.html','Travailler une notion','Les 17 notions : sujets du bac et corrigés'],
       ['philosophie-annales.html','Faire une annale','Dissertation ou explication de texte, sujet par sujet']
-    ],philoPages.has(base)||base.startsWith('philosophie-notion')),
+    ],philoPages.has(base)||base.startsWith('philosophie')),
     portal(file,'hlp.html','HLP','1re · Tle',[
       ['hlp-premiere.html','HLP Première','La parole, les représentations du monde'],
       ['hlp-terminale.html','HLP Terminale','La recherche de soi, l’Humanité en question'],
