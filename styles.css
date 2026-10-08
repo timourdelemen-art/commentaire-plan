@@ -1901,3 +1901,5 @@ main>section:nth-of-type(n+3){
 .philo-matrice td:first-child{white-space:normal;min-width:110px}
 @media (max-width:640px){.philo-table{font-size:15px}.philo-qcm .qcm-option{font-size:16px}}
 @media (max-width:640px){.philo-table{min-width:0}.philo-table thead{display:none}.philo-table tr{display:block;border-top:1px solid var(--rule,#c9c0b5);padding:12px 0}.philo-table td{display:block;border:0;padding:3px 0}.philo-table td:first-child{white-space:normal;color:var(--red)}}
+.chiasme-fig{margin:22px 0;max-width:760px}.chiasme-fig svg{width:100%;height:auto;display:block}
+@media (max-width:640px){.chiasme-fig{overflow-x:auto;-webkit-overflow-scrolling:touch}.chiasme-fig svg{min-width:620px}}

@@ -7,15 +7,16 @@
    </ol></div> */
 (()=>{
 const ERR={
- hors:["Hors sujet","remplace la relation demandée par une question sur une seule notion","intégralité"],
- reformulation:["Reformulation","redit ou recopie le sujet sans faire apparaître de tension","transformation"],
- rhetorique:["Question rhétorique","contient déjà sa réponse (« comment pourrait-on… si… »)","ouverture"],
- alternative:["Fausse alternative","oppose les notions comme s’il fallait choisir entre elles","intégralité"],
- couple:["Couple plaqué","importe un couple tout fait (nature ou culture, hasard ou nécessité…)","substitution"],
- definitions:["Alternative de définitions","« si l’on entend x… si l’on entend y… » sans tension réelle","deux coûts"],
- generique:["Problématique générique","vaudrait telle quelle pour un autre sujet sur la même notion","substitution"],
- cascade:["Cascade","aligne plusieurs questions sans les articuler","unité"],
- ajout:["Terme ajouté","introduit une notion ou une définition que le sujet ne contient pas","intégralité"]
+ hors:["Hors sujet (doigt manquant)","fait disparaître un mot ou la relation du sujet","aucun doigt ne manque"],
+ reformulation:["Reformulation (main nue)","redit ou recopie le sujet sans faire apparaître de tension","on reconnaît le sujet sans qu’il soit recopié"],
+ rhetorique:["Question rhétorique (cousue d’avance)","contient déjà sa réponse (« comment pourrait-on… si… »)","les deux branches sont vraies"],
+ alternative:["Fausse alternative (deux gants)","oppose les notions comme s’il fallait choisir entre elles","aucun doigt ne manque"],
+ couple:["Couple plaqué","importe un couple tout fait (nature ou culture, hasard ou nécessité…)","aucun doigt en trop"],
+ definitions:["Alternative de définitions","« si l’on entend x… si l’on entend y… » sans tension réelle","les deux branches sont vraies"],
+ generique:["Problématique générique (gant trop grand)","vaudrait telle quelle pour un autre sujet sur la même notion","on reconnaît la main, et seulement elle"],
+ cascade:["Cascade","aligne plusieurs questions sans les articuler","d’une traite"],
+ ajout:["Terme ajouté (doigt en trop)","introduit une notion ou une définition que le sujet ne contient pas","aucun doigt en trop"],
+ boiteux:["Chiasme boiteux","une seule réponse est mise à l’épreuve ; l’autre n’est jamais examinée","les deux branches sont vraies"]
 };
 const esc=s=>String(s).replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
 document.querySelectorAll(".philo-qcm").forEach((box,qi)=>{
@@ -33,7 +34,7 @@ document.querySelectorAll(".philo-qcm").forEach((box,qi)=>{
     fb.innerHTML='<p>Il reste à nommer l’erreur de chaque autre formulation.</p>';
     items.filter(x=>!x.dataset.ok).forEach(x=>openNaming(x));
    }else{
-    fb.innerHTML='<p><strong>Ce n’est pas la meilleure.</strong> Nommez son erreur, puis cherchez la formulation qui passe les sept tests.</p>';
+    fb.innerHTML='<p><strong>Ce n’est pas la meilleure.</strong> Nommez son erreur, puis cherchez la formulation qui passe le test du gant.</p>';
     openNaming(li);
    }
   });
@@ -50,7 +51,7 @@ document.querySelectorAll(".philo-qcm").forEach((box,qi)=>{
    const good=sel.value===li.dataset.error, e=ERR[li.dataset.error];
    li.classList.toggle("is-named",good);
    out.innerHTML=good
-    ?'<p><strong>Oui : '+e[0].toLowerCase()+'.</strong> '+esc(li.dataset.why||"")+' <span class="micro">Test qui l’écarte : '+e[2]+'.</span></p>'
+    ?'<p><strong>Oui : '+e[0].toLowerCase()+'.</strong> '+esc(li.dataset.why||"")+' <span class="micro">Point du test du gant : '+e[2]+'.</span></p>'
     :'<p><strong>Pas tout à fait.</strong> « '+ERR[sel.value][0]+' » '+ERR[sel.value][1]+'. Relisez la formulation : est-ce bien son défaut principal ?</p>';
   });
  }
