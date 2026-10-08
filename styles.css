@@ -1966,3 +1966,5 @@ main>section:nth-of-type(n+3){
 .c20-locked .c20-s{padding:4px 0}
 .c20-cover{background:#eee4d3;padding:18px 20px;margin-top:10px}
 .c20-teaser .c20{margin-top:14px}
+.consigne-simple{max-width:900px;margin:6px 0 14px;padding-left:22px;font-size:18px;line-height:1.5}
+.consigne-simple li{margin-bottom:8px}
