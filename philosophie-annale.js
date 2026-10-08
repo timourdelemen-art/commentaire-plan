@@ -6,11 +6,14 @@ const head='<section class="pagehead"><div><div class="kicker">PHILOSOPHIE · BA
 const step=(k,h,i,kind,rows)=>'<section class="exercise-wrap"><article class="exercise"><div class="kicker">'+k+'</div><h2>'+h+'</h2><p class="instruction">'+i+'</p><textarea rows="'+rows+'" data-feedback-kind="'+kind+'"></textarea></article></section>';
 const p=(label,txt)=>txt?'<p><strong>'+label+' :</strong> '+safe(txt)+'</p>':'';
 if(diss){
-const pl=hit.plan||[];
-const corr=hit.pb?'<section class="exercise-wrap"><article class="exercise"><div class="kicker">APRÈS VOTRE ESSAI</div><h2>Un corrigé possible.</h2><details class="correction"><summary>Comparer avec votre travail</summary>'+
-p("Les mots du sujet",hit.mots)+p("Ce que la notion demande",hit.demande)+p("Première réponse",hit.oui)+p("Réponse contraire",hit.non)+p("Problématique",hit.pb)+
-(pl.length===6?'<p><strong>Un plan possible.</strong></p><div class="sequence-spec"><p><strong>I.</strong> '+safe(pl[0])+'</p><p><em>Transition :</em> '+safe(pl[1])+'</p><p><strong>II.</strong> '+safe(pl[2])+'</p><p><em>Transition :</em> '+safe(pl[3])+'</p><p><strong>III.</strong> '+safe(pl[4])+'</p><p><em>Ce qui reste, pour la conclusion :</em> '+safe(pl[5])+'</p></div>':'')+
-'<p class="micro">Ce n’est pas la seule réponse juste : une autre problématique est bonne si elle passe le test du gant.</p></details></article></section>':'';
+const parts=hit.parties||[], tr=hit.transitions||[];
+const partHtml=(pt,n)=>'<p><strong>'+["I","II","III"][n]+'. '+safe(pt[0])+'</strong></p><ul class="plan-sous">'+pt.slice(1).map(x=>'<li>'+safe(x)+'</li>').join("")+'</ul>';
+const corr=hit.pb?'<section class="exercise-wrap"><article class="exercise"><div class="kicker">APRÈS VOTRE ESSAI</div><h2>Un corrigé possible.</h2>'+
+'<details class="correction"><summary>1. Le travail au brouillon</summary>'+p("Les mots du sujet",hit.mots)+p("Ce que la notion demande",hit.demande)+p("Première réponse",hit.oui)+p("Réponse contraire",hit.non)+p("Problématique",hit.pb)+'</details>'+
+(hit.intro?'<details class="correction"><summary>2. L’introduction rédigée</summary><p>'+safe(hit.intro)+'</p></details>':'')+
+(parts.length===3?'<details class="correction"><summary>3. Le plan détaillé</summary>'+partHtml(parts[0],0)+'<p class="plan-transition"><em>Transition.</em> '+safe(tr[0])+'</p>'+partHtml(parts[1],1)+'<p class="plan-transition"><em>Transition.</em> '+safe(tr[1])+'</p>'+partHtml(parts[2],2)+'</details>':'')+
+(hit.conclusion?'<details class="correction"><summary>4. La conclusion rédigée</summary><p>'+safe(hit.conclusion)+'</p></details>':'')+
+'<p class="micro">Ce n’est pas la seule réponse juste : une autre problématique est bonne si elle passe le test du gant. Les auteurs cités ne sont là que parce qu’ils font avancer l’idée ; un devoir sans eux peut être excellent.</p></article></section>':'';
 root.innerHTML=head+
 step('1 · LIRE LE SUJET','Que demandent exactement ses mots ?','Relevez les petits mots qui comptent (« peut-on », « faut-il », « sans », « nous »…). Puis écrivez l’idée que le sujet invite d’abord à accepter.','philo-reponse',4)+
 step('2 · CE QUE LA NOTION DEMANDE','Quelles deux choses la notion demande-t-elle à la fois ?','Sans citer d’auteur, donnez deux choses que la notion principale demande dans son sens courant, et dites pourquoi elles se gênent. <a class="official-link" href="philosophie-problematisation.html#matrice">Le tableau des notions →</a>','philo-consequence',4)+
