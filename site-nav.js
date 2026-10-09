@@ -43,14 +43,14 @@ document.addEventListener('DOMContentLoaded',()=> {
       ['bac-mode-examen.html','Se mettre en condition','Travailler sans aide, avec chrono']
     ],is(bacPages)?'active':''),
     portal('philosophie.html','PHILO','Terminale · tronc commun',[
-      ['philosophie-diagnostic.html','Commencer ici','Étape 1 · 5 minutes pour savoir par où commencer'],
-      ['philosophie-problematisation.html','Trouver le problème','Étape 2 · le geste le plus important'],
-      ['philosophie-probleme-pas-a-pas.html','S’entraîner pas à pas','Au clic, puis en écrivant : du sujet à la problématique'],
-      ['philosophie-plan-pas-a-pas.html','Le plan pas à pas','Au clic : trois parties qui s’enchaînent'],
-      ['philosophie-dissertation.html','Construire la dissertation','Étape 3 · introduction, parties, transitions, conclusion'],
-      ['philosophie-dissertation-entrainement.html','S’entraîner','Étape 4 · des exercices courts, corrigés'],
-      ['philosophie-annales.html','Faire un sujet du bac','Étape 5 · les sujets 2026 corrigés'],
-      ['philosophie-laboratoire.html','Je bloque sur…','Un exercice pour chaque difficulté'],
+      ['philosophie-probleme-pas-a-pas.html','1 · Trouver le problème','Confronter deux réponses sur un vrai sujet'],
+      ['philosophie-plan-pas-a-pas.html','2 · Construire le plan','Organiser des parties qui progressent'],
+      ['philosophie-dissertation-entrainement.html','3 · Passer à la rédaction','Rédiger un argument, une transition, une conclusion'],
+      ['philosophie-laboratoire.html','4 · Reprendre une difficulté','Choisir un atelier ciblé'],
+      ['philosophie-annales.html','5 · Traiter un sujet du bac','Faire une dissertation puis examiner le corrigé'],
+      ['philosophie-diagnostic.html','Diagnostic facultatif','Cinq questions pour choisir son point de départ'],
+      ['philosophie-problematisation.html','Cours : la problématique','Explications et exemples'],
+      ['philosophie-dissertation.html','Cours : la dissertation','Introduction, parties, transitions, conclusion'],
       ['philosophie-exemples.html','Trouver un exemple','Théâtre, roman, cinéma : la scène qui ouvre votre sujet'],
       ['philosophie-notions.html','Travailler une notion','Les 17 notions : sujets du bac et corrigés'],
       ['philosophie-jour-du-bac.html','Le jour du bac','Gérer les 4 heures de l’épreuve']
