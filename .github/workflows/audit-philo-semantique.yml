@@ -1,0 +1,34 @@
+name: Audit interne du corpus de philosophie
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          ref: corpus
+          path: corpus-interne
+          sparse-checkout: |
+            meles-brut.txt
+      - name: Verifier le corpus
+        run: |
+          test -s corpus-interne/meles-brut.txt
+          python3 - <<'PY'
+          from pathlib import Path
+          s=Path('corpus-interne/meles-brut.txt').read_text(encoding='utf-8')
+          assert len(s)>100000, 'Extraction incomplete'
+          assert s.count('\f')>=900, 'Pagination absente'
+          PY
+      - name: Analyse descriptive interne
+        run: |
+          python3 scripts/audit-philo-semantique.py corpus-interne/meles-brut.txt --output audit-meles.json
+          python3 -m json.tool audit-meles.json > /dev/null
+      - uses: actions/upload-artifact@v4
+        with:
+          name: audit-semantique-interne
+          path: audit-meles.json
+          retention-days: 7
