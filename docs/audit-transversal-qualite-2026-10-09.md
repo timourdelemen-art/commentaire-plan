@@ -50,3 +50,10 @@ Lecture statique de six pages HTML et des deux documents de méthode. **Aucun** 
 - Le sous-titre de l'accueil, centré sur les dissertations, doit être vérifié au regard des quatre publics effectivement desservis : brevet, bac français, HLP, philosophie. Une accroche générale peut rester ambitieuse sans faire croire que tous les exercices sont des dissertations.
 - Les citations de Pascal et de La Rochefoucauld ne doivent être publiées qu'avec référence bibliographique exacte et vérification textuelle indépendante.
 - Le build et les tests navigateur prescrits par `AGENTS.md` n'ont pas été réalisés dans cette session : aucune PR ne doit être fusionnée sur la seule base de cette revue.
+
+## Vérifications supplémentaires sur les sources
+
+- **HLP : décompte confirmé**. `hlp-annales-data.js` contient 103 entrées identifiées par `id` : la formule « plus de cent sujets » est donc étayée par le corpus de données (mais ne prouve pas à elle seule l'accessibilité de tous les PDF).
+- **HLP : écart majeur avec `AGENTS.md` § 3**. `hlp-annales-data.js` définit la base `https://sujets-corriges-bac.fr/...` et l'emploie dans 64 champs `pdf`. Or le règlement du dépôt interdit les liens vers ce site concurrent. Il faut retrouver pour chaque entrée concernée une source officielle ou un PDF local légitime, vérifier les droits et l'accessibilité, puis reconstruire les pages générées. **Ne pas remplacer ces URL par des URL officielles inventées.**
+- **Accueil : périmètre marketing**. Le premier sous-titre de la PR #95 parlait uniquement de dissertations alors que l'accueil présente aussi des exercices de langue, d'oral et de compréhension. Il a été réécrit pour évoquer l'écriture, l'argumentation et le raisonnement dans leur ensemble.
+- **PR #95 : correction de portée**. Les 16 légendes d'autres copies ont été rétablies dans leur format JSON initial ; la seule légende modifiée reste celle de l'engagement. La formule ancienne de la page philosophie a également été remplacée. Les tests de génération restent nécessaires.
