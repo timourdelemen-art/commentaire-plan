@@ -1,0 +1,30 @@
+name: Contexte des lignes Meles
+on:
+  pull_request:
+    paths:
+      - 'scripts/contexte-validation-meles.py'
+      - '.github/workflows/contexte-validation-meles.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  contexte:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          ref: corpus
+          path: corpus-interne
+          sparse-checkout: |
+            meles-brut.txt
+      - name: Echantillon et contexte
+        run: |
+          python3 scripts/echantillon-validation-meles.py corpus-interne/meles-brut.txt echantillon-validation.csv
+          python3 scripts/contexte-validation-meles.py corpus-interne/meles-brut.txt echantillon-validation.csv contexte-validation.csv
+          test -s contexte-validation.csv
+      - uses: actions/upload-artifact@v4
+        with:
+          name: contexte-validation-interne
+          path: contexte-validation.csv
+          retention-days: 7
