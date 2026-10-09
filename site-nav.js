@@ -175,10 +175,14 @@ document.addEventListener('DOMContentLoaded',()=> {
 
   // Attribution légère pour les formulaires Netlify : page d'arrivée, source et campagne.
   const params=new URLSearchParams(location.search);
+  let firstPage=location.pathname+location.search;
+  try{ const k='cp-landing'; const v=sessionStorage.getItem(k); if(v) firstPage=v; else sessionStorage.setItem(k,firstPage); }catch(e){}
   document.querySelectorAll('form[data-netlify="true"]').forEach(form=>{
+    const pageSource=form.querySelector('[name="source"]')?.value||'';
+    const ext=document.referrer&&!document.referrer.includes(location.host)?new URL(document.referrer).hostname:'';
     const values={
-      landing_page:location.pathname+location.search,
-      source:params.get('utm_source')||params.get('source')||(document.referrer?new URL(document.referrer).hostname:'direct'),
+      landing_page:firstPage,
+      source:[params.get('utm_source')||params.get('source')||ext||'',pageSource||location.pathname.replace(/^\//,'')].filter(Boolean).join(' · '),
       campaign:params.get('utm_campaign')||'',
       referrer:document.referrer||''
     };
@@ -191,7 +195,7 @@ document.addEventListener('DOMContentLoaded',()=> {
   if(!document.querySelector('footer.site-footer')){
     const footer=document.createElement('footer');
     footer.className='site-footer';
-    footer.innerHTML='<div class="wrap"><a href="plan-du-site.html">Plan du site</a><a href="apropos.html">La démarche</a><a href="mentions-legales.html">Mentions légales</a><a href="confidentialite.html">Confidentialité</a><a href="cgv.html">CGV</a></div>';
+    footer.innerHTML='<div class="wrap"><a href="plan-du-site.html">Plan du site</a><a href="apropos.html">La démarche</a><a href="offre.html">L’offre</a><a href="contact.html">Contact</a><a href="mentions-legales.html">Mentions légales</a><a href="confidentialite.html">Confidentialité</a><a href="cgv.html">CGV</a></div>';
     document.body.appendChild(footer);
   }
 

@@ -12,6 +12,7 @@ const KEY='philo-chaine-fait';
 const read=()=>{try{return JSON.parse(localStorage.getItem(KEY)||'[]')}catch(e){return []}};
 const save=a=>{try{localStorage.setItem(KEY,JSON.stringify(a))}catch(e){}};
 const shuffle=a=>{const b=a.slice();for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]];}return b;};
+const ANNALE={'inconscient-heureux':'faut-il-etre-inconscient-pour-etre-heureux','certain-bien-agi':'peut-on-etre-certain-d-avoir-bien-agi','science-utile':'la-science-doit-elle-etre-utile','artiste-sait':'l-artiste-sait-il-ce-qu-il-fait','prisonniers-langage':'sommes-nous-prisonniers-du-langage'};
 const LABEL={ok:'Solide',def:'Défendable',no:'À revoir'};
 const PLACE={raison:'Pourquoi',scene:'La scène',perte:'Ce qu’il perd',pb:'La problématique'};
 
@@ -64,6 +65,7 @@ function endView(){
   return `<div class="chaine-fin"><div class="kicker">C’EST FAIT</div><h2>Vous avez trouvé le problème.</h2>
   <p class="chaine-pb">${T(got[6])}</p>
   <p class="micro">Chaque réponse de ce brouillon a un risque : c’est ce qui fait un vrai problème, et c’est ce que votre plan va traiter.</p>
+  ${ANNALE[s.id]?`<p class="chaine-annale">Ce sujet est tombé au bac 2026. <a class="official-link" href="philosophie-bac-2026-${ANNALE[s.id]}.html">L’écrire en entier, avec le corrigé et une copie à 20 →</a></p>`:''}
   <div class="chaine-nav">
    <button type="button" class="btn small chaine-again">Recommencer ce sujet</button>
    ${nextSubj?`<button type="button" class="btn small chaine-nextsubj">Sujet suivant</button>`:''}
