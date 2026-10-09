@@ -14,6 +14,8 @@ jobs:
           path: corpus-interne
           sparse-checkout: |
             meles-brut.txt
+      - name: Tests de non-régression du script
+        run: python3 scripts/test-audit-philo-corpus-v2.py
       - name: Auditer le texte complet sans publier les sujets
         run: |
           test -s corpus-interne/meles-brut.txt
