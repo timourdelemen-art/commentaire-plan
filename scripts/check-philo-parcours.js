@@ -19,7 +19,6 @@ for(const p of pages){
  }
 }
 // La navigation principale doit pointer vers des pages présentes dans le dépôt.
-const landing=read('philosophie.html');
 for(const target of ['philosophie-dissertation.html','philosophie-dissertation-entrainement.html','philosophie-annales.html']){
  if(!fs.existsSync(path.join(root,target))) failures.push('destination absente : '+target);
 }
