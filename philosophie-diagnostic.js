@@ -27,6 +27,44 @@ const qs=[
 ["Spinoza renverse le rapport habituel : ce n’est pas parce qu’une chose est bonne que nous la désirons, c’est parce que nous la désirons que nous la jugeons bonne.",true,"C’est la bonne : la référence accomplit exactement l’opération dont votre argument a besoin, un renversement."],
 ["Comme le disait Spinoza, il faut toujours désirer ce qui est bon, et seulement ce qui est bon pour nous.",false,"Contresens : Spinoza dit presque l’inverse. Une référence mal comprise affaiblit le devoir."]]}
 ];
+/* Banque de situations : même geste intellectuel, sujets différents. */
+const problemes=[
+{context:"Sujet : « Peut-on se mentir à soi-même ? »",options:qs[0].options},
+{context:"Sujet : « Faut-il toujours dire la vérité ? »",options:[
+["Dire la vérité est-il toujours préférable au mensonge ?",false,"C’est presque le sujet répété : aucune difficulté des deux réponses n’est formulée."],
+["Dire la vérité respecte-t-il autrui, au risque de le blesser inutilement, ou le mensonge le protège-t-il, au risque de lui retirer la possibilité de décider en connaissance de cause ?",true,"Dire la vérité respecte la liberté d’autrui mais peut lui nuire ; mentir peut le protéger mais lui retire le choix éclairé. La question relie ces deux risques."],
+["Pourquoi le mensonge est-il toujours condamnable ?",false,"La question suppose déjà que mentir est toujours condamnable ; elle écarte la réponse contraire."],
+["La vérité peut-elle blesser ?", "def","Cette question ouvre une difficulté réelle de la franchise, mais elle n’examine pas le risque propre au mensonge protecteur."]]},
+{context:"Sujet : « La liberté consiste-t-elle à faire ce que l’on veut ? »",options:[
+["Être libre, est-ce faire ce que l’on désire, au risque d’obéir à des désirs que l’on ne choisit pas, ou maîtriser ses désirs, au risque de renoncer à ce que l’on veut ?",true,"Suivre ses désirs semble libre mais peut nous soumettre à eux ; les maîtriser rend autonome mais paraît limiter notre volonté. Les deux exigences se heurtent."],
+["Peut-on être libre si l’on suit ses désirs ?", "def","Vous examinez la dépendance aux désirs, mais pas la difficulté inverse : la maîtrise de soi peut sembler contredire la liberté de vouloir."],
+["La liberté est-elle importante pour les êtres humains ?",false,"La question quitte le sens précis de « faire ce que l’on veut »."],
+["Pourquoi faut-il absolument maîtriser ses désirs pour être libre ?",false,"La réponse est présupposée ; l’autre conception de la liberté n’est pas examinée."]]},
+{context:"Sujet : « Pour être juste, suffit-il d’obéir aux lois ? »",options:[
+["La loi garantit-elle toujours la justice ?", "def","La possibilité d’une loi injuste est bien identifiée, mais le risque de juger chacun selon son seul avis reste absent."],
+["Pourquoi les lois sont-elles nécessaires ?",false,"Cette question défend l’utilité des lois sans examiner ce qui rend leur obéissance insuffisante."],
+["Obéir à la loi commune garantit-il la justice, au risque de suivre une loi injuste, ou faut-il juger la loi, au risque de perdre une règle commune à tous ?",true,"Obéir préserve une règle commune mais peut imposer l’injustice ; juger la loi préserve l’exigence du juste mais menace la règle partagée. Les deux pertes sont reliées."],
+["Comment désobéir à une loi injuste ?",false,"La question suppose déjà que la loi est injuste et que la désobéissance est la réponse."]]},
+{context:"Sujet : « La science doit-elle être utile ? »",options:[
+["La science vaut-elle par ses applications, au risque de négliger les vérités sans usage immédiat, ou par la recherche désintéressée du vrai, au risque d’oublier qu’elle transforme aussi le monde ?",true,"Exiger l’utilité peut sacrifier la recherche libre ; refuser toute finalité pratique peut masquer le pouvoir d’action de la science. Les deux difficultés sont mises en relation."],
+["Pourquoi la science doit-elle aider les hommes ?",false,"L’obligation d’être utile est posée d’avance ; la recherche libre n’est pas examinée."],
+["La science peut-elle être dangereuse ?",false,"C’est une autre question : le danger n’est pas identique à l’obligation d’être utile."],
+["La science perd-elle sa liberté quand on exige son utilité ?", "def","C’est une difficulté pertinente de l’exigence d’utilité, mais l’autre position n’est pas mise à l’épreuve."]]},
+{context:"Sujet : « L’artiste sait-il ce qu’il fait ? »",options:[
+["L’art est-il un métier ou une inspiration ?", "def","Deux réponses apparaissent, mais on ne comprend pas encore ce que chacune risque de perdre."],
+["Comment l’artiste pourrait-il créer sans savoir-faire ?",false,"La question privilégie d’avance le savoir-faire et ferme la possibilité de l’invention."],
+["L’artiste maîtrise-t-il son œuvre, au risque de n’y laisser aucune invention, ou crée-t-il sans tout prévoir, au risque de ne plus être pleinement l’auteur de ce qu’il produit ?",true,"La maîtrise assure le savoir-faire mais menace la nouveauté ; l’invention échappe au calcul mais interroge la responsabilité de l’auteur. La question relie les deux pertes."],
+["Les artistes ont-ils besoin d’apprendre à dessiner ?",false,"Cette question réduit l’art à une technique particulière et ne traite pas le savoir de l’artiste en général."]]}
+];
+let numeroProbleme=0;
+try{numeroProbleme=Number(sessionStorage.getItem("philo-probleme-numero")||"0")||0;}catch(e){}
+function choisirProbleme(){
+ const p=problemes[numeroProbleme%problemes.length];
+ qs[0]={...qs[0],context:p.context,options:p.options};
+ try{sessionStorage.setItem("philo-probleme-numero",String(numeroProbleme+1));}catch(e){}
+ numeroProbleme++;
+}
+function recommencer(){i=0;Object.keys(scores).forEach(k=>delete scores[k]);choisirProbleme();show();}
 const labels={problematiser:"Trouver le problème d’un sujet",argumenter:"Argumenter",transitions:"Construire les transitions",troisieme:"Construire la troisième partie",references:"Utiliser les références"};
 const links={problematiser:"philosophie-probleme-pas-a-pas.html",argumenter:"philosophie-penser-par-soi-meme.html",transitions:"philosophie-dissertation-entrainement.html#ex-transition",troisieme:"philosophie-dissertation-entrainement.html#bataille-iii",references:"philosophie-references.html"};
 let i=0; const scores={}; const stage=document.getElementById("diagStage"),prog=document.getElementById("diagProgress");
@@ -45,7 +83,7 @@ function show(){
   if(st!=="ok") stage.querySelectorAll(".diag-option")[good].classList.add("is-good");
   const lab={ok:"Solide.",def:"Défendable.",no:"À revoir."}[st];
   fb.className="diag-feedback chaine-fb show "+st;
-  fb.innerHTML='<p><strong>'+lab+'</strong> '+esc(String(o[2]).replace(/^(Défendable : |C’est la bonne : )/,"").replace(/^./,c=>c.toUpperCase()))+'</p>'+(st==="ok"?'':'<p><strong>La plus solide ('+String.fromCharCode(65+good)+') :</strong> '+esc(q.options[good][2])+'</p>')+'<button type="button" class="btn red diag-next">'+(i+1<qs.length?"Question suivante →":"Voir le résultat →")+'</button>';
+  fb.innerHTML='<p><strong>'+lab+'</strong> '+esc(String(o[2]).replace(/^(Défendable : |C’est la bonne : )/,"").replace(/^./,c=>c.toUpperCase()))+'</p>'+(q.skill==='problematiser'?'<p><strong>Pourquoi les quatre propositions ne se valent pas :</strong></p><ol>'+q.options.map((v,k)=>'<li><strong>'+String.fromCharCode(65+k)+' — '+(v[1]===true?'Solide':v[1]==='def'?'Défendable':'À revoir')+'.</strong> '+esc(v[2])+'</li>').join('')+'</ol>':st==='ok'?'':'<p><strong>La plus solide ('+String.fromCharCode(65+good)+') :</strong> '+esc(q.options[good][2])+'</p>')+'<button type="button" class="btn red diag-next">'+(i+1<qs.length?"Question suivante →":"Voir le résultat →")+'</button>';
   fb.querySelector(".diag-next").onclick=()=>{i++;show();};
  });
 }
@@ -60,7 +98,7 @@ function finish(){
    const priority=weak[0];
    stage.innerHTML='<div class="diag-result"><div class="kicker">VOTRE PRIORITÉ</div><h2>'+labels[priority]+'</h2><p>Vous avez réussi '+solid.length+' situation'+(solid.length>1?"s":"")+' sur 5. Ce n’est pas une note : c’est l’endroit où commencer.</p><div class="prescription"><strong>Travail conseillé :</strong><br>'+prescription(priority)+'</div><a class="btn red" href="'+links[priority]+'">Travailler cette priorité →</a> <a class="home-text-link" href="philosophie.html">Revoir le parcours →</a><p class="micro"><button type="button" class="philo-reset" id="diagReset">Recommencer le diagnostic</button></p></div>';
  }
- document.getElementById("diagReset").onclick=()=>{i=0;Object.keys(scores).forEach(k=>delete scores[k]);show();};
+ document.getElementById("diagReset").onclick=()=>{recommencer();};
 }
 function prescription(k){
  return {
@@ -71,6 +109,7 @@ function prescription(k){
  references:"Commencez par « Sauvez cette citation », puis appliquez le test : retirez le nom, le raisonnement tient-il encore ?"
  }[k];
 }
-document.getElementById("diagRestartAlways").addEventListener("click",()=>{i=0;Object.keys(scores).forEach(k=>delete scores[k]);show();document.getElementById("philoDiagnostic").scrollIntoView({block:"start"});});
+document.getElementById("diagRestartAlways").addEventListener("click",()=>{recommencer();document.getElementById("philoDiagnostic").scrollIntoView({block:"start"});});
+choisirProbleme();
 show();
 })();
