@@ -77,9 +77,9 @@ function endView(){
 function level3(){
   const n=D.niveau3;
   return `<div class="chaine-step"><div class="kicker">NIVEAU 3 · J’ÉCRIS TOUT</div><h2>Un autre passage, sans propositions.</h2>
-  <p>Un autre passage du roman : cette fois, vous faites seul le chemin, de la lecture au plan.</p>
+  <p>Sur un autre passage, faites seul le chemin, de la lecture au plan. Ce niveau ne propose pas encore une banque complète de textes : ne confondez pas cette reprise avec une maîtrise vérifiée.</p>
   <p class="chaine-pb">${typo('« '+esc(n.sujet)+' »')}</p>
-  <p><a class="btn red small" href="${n.href}">Travailler ce passage →</a></p>
+  <p><a class="btn red small" href="${n.href}">Travailler ce passage →</a> <a class="home-text-link" href="bac-commentaire.html">Choisir un autre texte →</a></p>
   <div class="chaine-nav"><button type="button" class="home-text-link comm-prevlevel">← Niveau précédent</button></div></div>`;
 }
 function render(){
