@@ -87,3 +87,6 @@ if(warnings.length) md+='## Avertissements\n\n'+warnings.slice(0,120).map(x=>'- 
 fs.writeFileSync(path.join(ROOT,'seo-report.md'),md);
 console.log(md);
 if(errors.length){console.error('\nSEO audit found '+errors.length+' issue(s). Deployment is not blocked; review seo-report.md.');}
+
+// Opt-in pour la CI : AUDIT_STRICT=1 rend les erreurs bloquantes après assainissement du référentiel.
+if(errors.length && process.env.AUDIT_STRICT === '1') process.exitCode = 1;
