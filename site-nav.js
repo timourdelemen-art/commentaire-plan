@@ -44,6 +44,7 @@ document.addEventListener('DOMContentLoaded',()=> {
     portal('philosophie.html','PHILO','Terminale · tronc commun',[
       ['philosophie-diagnostic.html','Commencer ici','Étape 1 · 5 minutes pour savoir par où commencer'],
       ['philosophie-problematisation.html','Trouver le problème','Étape 2 · le geste le plus important'],
+      ['philosophie-probleme-pas-a-pas.html','S’entraîner pas à pas','Au clic, puis en écrivant : du sujet à la problématique'],
       ['philosophie-dissertation.html','Construire la dissertation','Étape 3 · introduction, parties, transitions, conclusion'],
       ['philosophie-dissertation-entrainement.html','S’entraîner','Étape 4 · des exercices courts, corrigés'],
       ['philosophie-annales.html','Faire un sujet du bac','Étape 5 · les sujets 2026 corrigés'],
