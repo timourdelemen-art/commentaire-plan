@@ -13,12 +13,15 @@ const read=()=>{try{return JSON.parse(localStorage.getItem(KEY)||'[]')}catch(e){
 const save=a=>{try{localStorage.setItem(KEY,JSON.stringify(a))}catch(e){}};
 const shuffle=a=>{const b=a.slice();for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]];}return b;};
 const ANNALE={'inconscient-heureux':'faut-il-etre-inconscient-pour-etre-heureux','certain-bien-agi':'peut-on-etre-certain-d-avoir-bien-agi','science-utile':'la-science-doit-elle-etre-utile','artiste-sait':'l-artiste-sait-il-ce-qu-il-fait','prisonniers-langage':'sommes-nous-prisonniers-du-langage'};
+const PLAN_IDS=['justice-lois','inconscient-heureux','certain-bien-agi','science-utile','artiste-sait','prisonniers-langage'];
 const LABEL={ok:'Solide',def:'Défendable',no:'À revoir'};
 const PLACE={raison:'Pourquoi',scene:'La scène',perte:'Ce qu’il perd',pb:'La problématique'};
 
 let level=1, si=0, step=0, got=[];
 const params=new URLSearchParams(location.search);
 if(params.get('niveau')) level=Math.min(3,Math.max(1,Number(params.get('niveau'))||1));
+const wanted=params.get('sujet');
+if(wanted){ const i1=D.niveau1.findIndex(x=>x.id===wanted), i2=D.niveau2.findIndex(x=>x.id===wanted); if(level===2&&i2>=0) si=i2; else if(i1>=0){ level=1; si=i1; } else if(i2>=0){ level=2; si=i2; } }
 const list=()=>level===2?D.niveau2:D.niveau1;
 const subj=()=>list()[si];
 
@@ -65,6 +68,7 @@ function endView(){
   return `<div class="chaine-fin"><div class="kicker">C’EST FAIT</div><h2>Vous avez trouvé le problème.</h2>
   <p class="chaine-pb">${T(got[6])}</p>
   <p class="micro">Chaque réponse de ce brouillon a un risque : c’est ce qui fait un vrai problème, et c’est ce que votre plan va traiter.</p>
+  ${PLAN_IDS.includes(s.id)?`<p class="chaine-annale"><strong>Étape suivante :</strong> <a class="official-link" href="philosophie-plan-pas-a-pas.html?sujet=${s.id}${level===2?'&niveau=2':''}">Construire le plan de ce sujet →</a></p>`:''}
   ${ANNALE[s.id]?`<p class="chaine-annale">Ce sujet est tombé au bac 2026. <a class="official-link" href="philosophie-bac-2026-${ANNALE[s.id]}.html">L’écrire en entier, avec le corrigé et une copie à 20 →</a></p>`:''}
   <div class="chaine-nav">
    <button type="button" class="btn small chaine-again">Recommencer ce sujet</button>

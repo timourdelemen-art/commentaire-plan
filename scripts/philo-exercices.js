@@ -34,7 +34,7 @@ const EX=[
 [E,'duel-transitions',['transitions'],'Duel de transitions','Vos transitions résument ce qui précède ou annoncent ce qui suit.','Comparer quatre transitions, garder la seule nécessaire, éliminer les autres.','Le critère d’une vraie transition : elle dit ce qui manque.'],
 [E,'bataille-iii',['troisieme'],'Bataille des III','Votre troisième partie ressemble à un compromis (« un peu des deux »).','Classer quatre troisièmes parties, de la plus faible à la plus forte.','Savoir reconnaître une III qui garde I et II au lieu de les mélanger.'],
 [E,'plan-interchangeable',['plan'],'Plan interchangeable ?','Votre plan est une suite de thèmes.','Comparer deux plans, et voir ce qui se passe si l’on échange II et III.','Le test pour savoir si votre plan est un raisonnement ou une liste.'],
-[P,'qcm',['probleme'],'La problématique qui va au sujet','Vous ne savez pas si une problématique est bonne.','Choisir la formulation juste, puis nommer l’erreur des autres.','Le test du gant : la problématique doit aller au sujet, ni trop large, ni à côté.'],
+[P,'qcm',['probleme'],'La problématique qui va au sujet','Vous ne savez pas si une problématique est bonne.','Choisir la formulation juste, puis nommer l’erreur des autres.','Une problématique vérifiée mot par mot : ni trop large, ni à côté.'],
 [P,'qcm-2',['probleme'],'Le piège du « comment… si… »','Vos problématiques commencent souvent par « comment… si… ».','Repérer pourquoi cette tournure tranche déjà la question.','Une problématique qui laisse vraiment les deux réponses ouvertes.'],
 [P,'qcm-3',['probleme'],'Trois erreurs discrètes','Votre problématique oppose deux mots tout faits, ou empile les questions.','Repérer les couples tout faits, les définitions en alternative, les questions en cascade.','Trois défauts que les correcteurs relèvent chaque année, et que vous éviterez.'],
 [P,'qcm-4',['probleme','sujet'],'Ne rien ajouter au sujet','Vous glissez dans le sujet une notion qu’il ne contient pas.','Repérer la problématique qui change de sujet sans le dire.','Une problématique fidèle aux mots du sujet.'],
@@ -64,6 +64,7 @@ const EX=[
 
 /* Liens qui ne sont pas des exercices mais aident dans une difficulté */
 const EXTRA={
+plan:[['philosophie-plan-pas-a-pas.html','Le plan au clic','Huit questions, trois propositions à chaque fois : de la problématique au plan détaillé, sans rien écrire.','Commencer au clic →']],
 idees:[['philosophie-exemples.html','Trouver un exemple','Votre sujet, et les scènes de théâtre, de roman ou de cinéma qui en font voir les deux réponses.','Trouver un exemple →']],
 references:[['philosophie-exemples.html','La banque d’exemples','Choisissez votre sujet : les scènes de théâtre, de roman ou de cinéma qui en font voir les deux réponses, avec des citations vérifiées.','Trouver un exemple →']],
 probleme:[['philosophie-probleme-pas-a-pas.html','Trouver le problème au clic','Sept questions, trois propositions à chaque fois : vous allez du sujet à la problématique sans rien écrire. À refaire autant de fois que vous voulez.','Commencer au clic →']],

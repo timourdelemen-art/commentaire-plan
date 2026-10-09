@@ -44,4 +44,4 @@ ${TOGGLE}
 </body></html>
 `;
 }
-module.exports={teaser:section,section,vitrine,VITRINE};
+module.exports={teaser:section,section,vitrine,VITRINE,has:k=>Boolean(DATA[k])};
