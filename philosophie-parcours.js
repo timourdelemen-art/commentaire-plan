@@ -1,4 +1,4 @@
-/* Parcours de philosophie : étapes marquées « faites », mémorisées sur l'appareil de l'élève. */
+/* Parcours de philosophie : suivi déclaratif des étapes, pas évaluation de maîtrise. */
 (()=>{
 const KEY='philo-parcours-fait';
 const read=()=>{try{return JSON.parse(localStorage.getItem(KEY)||'[]')}catch(e){return []}};
@@ -24,7 +24,7 @@ const items=[...document.querySelectorAll('[data-parcours]')];
 items.forEach(p=>{
   const n=Number(p.dataset.parcours);
   const l=document.createElement('label');l.className='parcours-check';
-  l.innerHTML='<input type="checkbox"> fait';
+  l.innerHTML='<input type="checkbox"> étape parcourue';
   l.querySelector('input').addEventListener('change',()=>toggle(n));
   p.appendChild(l);
 });
@@ -32,9 +32,9 @@ const status=document.getElementById('parcours-status');
 
 function paint(){
   if(strip)strip.querySelectorAll('a[data-n]').forEach(a=>a.classList.toggle('done',isDone(Number(a.dataset.n))));
-  if(btn){btn.textContent=isDone(here)?'✓ Étape '+here+' faite (annuler)':'J’ai fini l’étape '+here;btn.classList.toggle('is-done',isDone(here));}
+  if(btn){btn.textContent=isDone(here)?'✓ Étape '+here+' parcourue (annuler)':'J’ai parcouru l’étape '+here;btn.classList.toggle('is-done',isDone(here));}
   items.forEach(p=>{const n=Number(p.dataset.parcours);p.classList.toggle('done',isDone(n));p.querySelector('input').checked=isDone(n);});
-  if(status){const n=nextStep();status.textContent=done.length===0?'':(n?'Vous en êtes à l’étape '+n+'.':'Les cinq étapes sont faites : passez aux sujets du bac, en quatre heures.');}
+  if(status){const n=nextStep();status.textContent=done.length===0?'':(n?'Vous en êtes à l’étape '+n+'.':'Les cinq étapes ont été parcourues : vérifiez votre autonomie sur un sujet du bac.');}
 }
 paint();
 })();
