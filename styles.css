@@ -2033,3 +2033,14 @@ main>section:nth-of-type(n+3){
 .home-steps article{transform:none!important;margin:0!important}
 .capture{margin-top:30px}
 .capture .lead-form{max-width:620px}
+
+/* Téléphone : en-tête sur une ligne (logo + Menu) ; les rubriques passent dans le tiroir */
+@media (max-width:760px){
+  .nav-portals{display:none!important}
+  .top .mast{display:flex!important;align-items:center;justify-content:space-between;height:auto!important;min-height:0;padding:10px 0;gap:12px}
+  .top .mast .brand{font-size:24px}
+  .top .mast .mobile-nav-toggle{display:inline-flex!important;margin:0}
+  .top{height:auto!important}
+}
+/* Propositions à lire (non cliquables) : ne pas les dessiner comme des boutons */
+div.qcm-options>p{border:0!important;background:none!important;box-shadow:none!important;cursor:auto!important;padding:4px 0 4px 14px!important;border-left:3px solid #d9d0c2!important}

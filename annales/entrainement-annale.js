@@ -1,5 +1,5 @@
 (() => {
-  const AI_TEMPORARILY_DISABLED=true;
+  const AI_TEMPORARILY_DISABLED=false;
   const params = new URLSearchParams(location.search);
   const id = params.get("id");
   const item = window.ANNALES_CATALOGUE && window.ANNALES_CATALOGUE[id];

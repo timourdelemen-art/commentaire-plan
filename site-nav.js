@@ -159,6 +159,8 @@ document.addEventListener('DOMContentLoaded',()=> {
       }
     };
 
+    const clearNote=()=>{ if(note && hasAttempt()){ note.remove(); note=null; } };
+    fields.forEach(el=>{ el.addEventListener('input',clearNote); el.addEventListener('change',clearNote); });
     details.addEventListener('toggle',()=>{
       if(details.open && !hasAttempt()){
         details.open=false;
