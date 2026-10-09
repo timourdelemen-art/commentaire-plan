@@ -20,7 +20,7 @@ const block=(file,kick,h2)=>`${START}<section class="offer-band capture" id="pre
 <label>Adresse e-mail<input type="email" name="email" required autocomplete="email" placeholder="vous@exemple.fr"></label>
 <label class="lead-consent"><input type="checkbox" name="consentement" required> J’accepte de recevoir, au plus une fois par mois, les nouveautés de Commentaire Plan.</label>
 <button class="btn red" type="submit">Être prévenu →</button>
-<p class="micro">Désinscription sur simple demande. Aucune revente d’adresse. <a href="confidentialite.html">Confidentialité</a>.</p>
+<p class="micro">Désinscription sur simple demande. Aucune revente d’adresse. <a href="confidentialite.html">Confidentialité</a>. Pendant le lancement, tout le site est ouvert : <a href="offre.html">voir l’offre</a>.</p>
 </form></section>${END}\n`;
 let n=0;
 for(const f of fs.readdirSync(ROOT)){
