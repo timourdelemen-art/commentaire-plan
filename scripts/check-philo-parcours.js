@@ -18,6 +18,11 @@ for(const p of pages){
   if(!ids.has(decodeURIComponent(m[1]))) failures.push(p+': ancre absente #'+m[1]);
  }
 }
+// La navigation principale doit pointer vers des pages présentes dans le dépôt.
+const landing=read('philosophie.html');
+for(const target of ['philosophie-dissertation.html','philosophie-dissertation-entrainement.html','philosophie-annales.html']){
+ if(!fs.existsSync(path.join(root,target))) failures.push('destination absente : '+target);
+}
 const training=read('philosophie-dissertation-entrainement.html');
 if(!training.includes('href="philosophie-troisieme-resolutions.html"')) failures.push('lien vers la gamme III absent');
 const nav=read('site-nav.js');
