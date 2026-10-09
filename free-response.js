@@ -131,7 +131,8 @@
         feedback.classList.add("show");
         previousAnswer=answer;
       }catch(e){
-        feedback.innerHTML="<strong>Retour automatique indisponible pour l’instant</strong><p>Votre réponse est conservée. Comparez-la avec les pistes ci-dessous, puis réessayez plus tard.</p>";
+        const hasDet=!!((area.closest(".exercise,article,section")||document).querySelector("details"));
+        feedback.innerHTML="<strong>Retour automatique indisponible pour l’instant</strong><p>Votre réponse est conservée. "+(hasDet?"Comparez-la avec les pistes ci-dessous, puis réessayez plus tard.":"Réessayez dans quelques minutes.")+"</p>";
         feedback.classList.add("show");
         const box=area.closest(".exercise,article,section");
         const det=box&&box.querySelector("details");

@@ -109,11 +109,11 @@ function staticHeader(file){
 </header>`;
 }
 
-const footer=`<footer class="site-footer" data-seo-static-footer="1"><div class="wrap"><a href="/plan-du-site.html">Plan du site</a><a href="/apropos.html">La démarche</a><a href="/mentions-legales.html">Mentions légales</a><a href="/confidentialite.html">Confidentialité</a><a href="/cgv.html">CGV</a></div></footer>`;
+const footer=`<footer class="site-footer" data-seo-static-footer="1"><div class="wrap"><a href="/plan-du-site.html">Plan du site</a><a href="/apropos.html">La démarche</a><a href="/offre.html">L’offre</a><a href="/contact.html">Contact</a><a href="/mentions-legales.html">Mentions légales</a><a href="/confidentialite.html">Confidentialité</a><a href="/cgv.html">CGV</a></div></footer>`;
 
 function firstH1(html){
   const m=html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i);
-  return m ? m[1].replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim() : '';
+  return m ? m[1].replace(/<[^>]+>/g,' ').replace(/&nbsp;/g,'\u00a0').replace(/&amp;/g,'&').replace(/\s+/g,' ').trim() : '';
 }
 function esc(s){ return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 
@@ -121,7 +121,9 @@ function crumbSpec(r, title){
   if(r==='index.html') return [];
   const b=path.basename(r);
   const c=[{name:'Accueil',href:'/'}];
-  if(/^brevet|anthologie-brevet/.test(b)) c.push({name:'Brevet',href:'/brevet.html'});
+  const SERVICE=/^(offre|apropos|merci|contact|plan-du-site|mentions-legales|cgv|confidentialite|annales|entrainement-annale|eleves|ia-laboratoire)\.html$/;
+  if(SERVICE.test(b)) { /* pages de service : pas de rubrique */ }
+  else if(/^brevet|anthologie-brevet/.test(b)) c.push({name:'Brevet',href:'/brevet.html'});
   else if(/^philosophie|^dissertation-philosophie/.test(b)) c.push({name:'Philosophie',href:'/philosophie.html'});
   else if(/^hlp-professeurs/.test(b)) { c.push({name:'Enseignants',href:'/enseignants.html'}); }
   else if(/^hlp/.test(b)) { if(b!=='hlp.html') c.push({name:'HLP',href:'/hlp.html'}); }
@@ -183,7 +185,14 @@ for(const file of pages){
   const before=html;
   if(/<header class=["']top["']>\s*<\/header>/i.test(html)){
     html=html.replace(/<header class=["']top["']>\s*<\/header>/i, staticHeader(file));
+  } else {
+    /* En-tête déjà généré (menu à rafraîchir) ou en-tête de l'ancien site : on le remplace par l'en-tête actuel. */
+    const m=html.match(/<header class=["']top["'][^>]*>[\s\S]*?<\/header>/i);
+    if(m && (/data-seo-static-nav/.test(m[0]) || /BAC (&amp;|&) BREVET|Atelier(<br>|\s)+du commentaire|Nous contacter/i.test(m[0]))) html=html.replace(m[0], staticHeader(file));
   }
+  html=html.replace(/(<title>[^<]*?)\s*(\||—|–)\s*(BAC (&amp;|&) BREVET( —)? FRANÇAIS|L’Atelier du commentaire|L'Atelier du commentaire|COMMENTAIRE PLAN)\s*(<\/title>)/i,'$1 | Commentaire Plan$6');
+  if(/data-seo-static-nav/.test(html) && !/site-nav\.js/.test(html)) html=html.replace(/<\/body>/i,'<script src="/site-nav.js"></script>\n</body>');
+  html=html.replace(/<footer class="site-footer" data-seo-static-footer="1">[\s\S]*?<\/footer>/,footer);
   if(!/class=["'][^"']*site-footer/.test(html) && /<\/body>/i.test(html)){
     html=html.replace(/<\/body>/i,footer+'\n</body>');
   }

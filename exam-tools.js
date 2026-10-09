@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded',()=>{
-  const AI_TEMPORARILY_DISABLED=true;
+  const AI_TEMPORARILY_DISABLED=false;
   const nativeFetch=window.fetch.bind(window);
   const fetch=(resource,options)=>{
     if(AI_TEMPORARILY_DISABLED && String(resource).includes("atelier-commentaire-ia.timour-delemen.workers.dev")){

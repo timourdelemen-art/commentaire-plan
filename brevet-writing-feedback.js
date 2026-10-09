@@ -1,5 +1,5 @@
 (() => {
-  const AI_TEMPORARILY_DISABLED=true;
+  const AI_TEMPORARILY_DISABLED=false;
   if(AI_TEMPORARILY_DISABLED) return;
   const area=document.getElementById("brevet-writing");
   const btn=document.getElementById("finish-brevet-writing");
