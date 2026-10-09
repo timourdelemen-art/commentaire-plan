@@ -36,21 +36,21 @@ const GENERIC_FORBIDDEN = [
 ];
 
 const FALLBACK_BY_KIND = {
-  lecture:["Tu as formulé une tentative.","Il faut rester plus près de l'opération demandée et du passage.","Quel élément précis de la situation ou du mouvement du texte peux-tu formuler sans encore l'interpréter ?"],
-  problematique:["Tu as formulé une vraie question.","Il faut faire apparaître plus nettement ce qui, dans le texte, demande une explication.","Quels sont les deux pôles de la transformation que ta question doit garder ensemble ?"],
-  plan:["Tu proposes une organisation.","Il faut vérifier que chaque partie est une SOLUTION nécessaire à la problématique, et non un thème.","Quelle solution précise chacune de tes parties apporte-t-elle à la problématique ?"],
-  transition:["Tu cherches ce qui manque encore.","La transition doit être réduite à une seule question qui fait apparaître le manque restant.","Quelle question reste encore ouverte après la solution précédente ?"],
-  analyse:["Tu proposes une analyse.","Il faut distinguer plus nettement ce que le texte fait, ce qui le montre et l'effet produit ici.","Quelle réalisation veux-tu prouver, avec quel élément précis du texte, et qu'est-ce que cet élément change ici ?"],
-  redaction:["Tu as commencé à rédiger.","Il faut vérifier que chaque phrase remplit la fonction demandée sans ajouter de développement inutile.","Quelle phrase de ton passage prouve le plus directement la réponse que tu défends ?"],
-  "brevet-comprehension":["Tu as répondu à la question.","Il faut vérifier que ta réponse est suffisamment précise et justifiée lorsqu'une preuve est demandée.","Quel mot ou passage du texte prouve exactement ta réponse ?"],
-  "brevet-interpretation":["Tu proposes une interprétation.","Il faut mieux relier ton idée à un indice précis du texte.","Quel indice précis du texte permet de soutenir cette interprétation ?"],
-  "brevet-analyse":["Tu as repéré un élément intéressant.","Il faut expliquer ce que cet élément produit ici, au lieu de seulement le nommer.","Qu'est-ce que ce choix fait entendre, voir ou comprendre dans ce passage précis ?"],
-  "brevet-image":["Tu proposes une comparaison.","Il faut distinguer précisément ce qui vient du texte et ce qui vient de l'image.","Quels éléments visuels effectivement observables peux-tu citer sans rien inventer ?"],
-  "brevet-grammaire":["Tu as proposé une analyse grammaticale.","Il faut prouver la réponse par la manipulation demandée ou par une justification précise.","Quelle manipulation peux-tu effectuer et quel résultat obtient-elle ?"],
-  "brevet-lexique":["Tu as proposé une réponse lexicale.","Il faut justifier la formation ou l'appartenance à la même famille avec précision.","Quelle base et quel procédé de formation peux-tu identifier exactement ?"],
-  "brevet-reecriture":["Tu as effectué une partie de la transformation.","Il faut vérifier toutes les conséquences grammaticales de la consigne.","Quels verbes, accords, pronoms ou adjectifs sont encore touchés par la transformation ?"],
-  "brevet-redaction":["Tu réponds au sujet.","Il faut choisir une priorité de reprise dans la construction ou dans la précision de l'argumentation.","Quelle idée doit être développée ou illustrée plus précisément pour mieux répondre au sujet ?"],
-  "bac-dissertation":["Tu engages une réflexion sur le sujet.","Il faut vérifier que ton idée fait réellement avancer la réponse et s'appuie sur l'œuvre.","Qu'est-ce que cette étape permet précisément d'établir pour répondre au sujet ?"]
+  lecture:["Vous avez formulé une tentative.","Il faut rester plus près de l'opération demandée et du passage.","Quel élément précis de la situation ou du mouvement du texte pouvez-vous formuler sans encore l'interpréter ?"],
+  problematique:["Vous avez formulé une vraie question.","Il faut faire apparaître plus nettement ce qui, dans le texte, demande une explication.","Quels sont les deux pôles de la transformation que votre question doit garder ensemble ?"],
+  plan:["Vous proposez une organisation.","Il faut vérifier que chaque partie est une SOLUTION nécessaire à la problématique, et non un thème.","Quelle solution précise chacune de vos parties apporte-t-elle à la problématique ?"],
+  transition:["Vous cherchez ce qui manque encore.","La transition doit être réduite à une seule question qui fait apparaître le manque restant.","Quelle question reste encore ouverte après la solution précédente ?"],
+  analyse:["Vous proposez une analyse.","Il faut distinguer plus nettement ce que le texte fait, ce qui le montre et l'effet produit ici.","Quelle réalisation voulez-vous prouver, avec quel élément précis du texte, et qu'est-ce que cet élément change ici ?"],
+  redaction:["Vous avez commencé à rédiger.","Il faut vérifier que chaque phrase remplit la fonction demandée sans ajouter de développement inutile.","Quelle phrase de votre passage prouve le plus directement la réponse que vous défendez ?"],
+  "brevet-comprehension":["Vous avez répondu à la question.","Il faut vérifier que votre réponse est suffisamment précise et justifiée lorsqu'une preuve est demandée.","Quel mot ou passage du texte prouve exactement votre réponse ?"],
+  "brevet-interpretation":["Vous proposez une interprétation.","Il faut mieux relier votre idée à un indice précis du texte.","Quel indice précis du texte permet de soutenir cette interprétation ?"],
+  "brevet-analyse":["Vous avez repéré un élément intéressant.","Il faut expliquer ce que cet élément produit ici, au lieu de seulement le nommer.","Qu'est-ce que ce choix fait entendre, voir ou comprendre dans ce passage précis ?"],
+  "brevet-image":["Vous proposez une comparaison.","Il faut distinguer précisément ce qui vient du texte et ce qui vient de l'image.","Quels éléments visuels effectivement observables pouvez-vous citer sans rien inventer ?"],
+  "brevet-grammaire":["Vous avez proposé une analyse grammaticale.","Il faut prouver la réponse par la manipulation demandée ou par une justification précise.","Quelle manipulation pouvez-vous effectuer et quel résultat obtient-elle ?"],
+  "brevet-lexique":["Vous avez proposé une réponse lexicale.","Il faut justifier la formation ou l'appartenance à la même famille avec précision.","Quelle base et quel procédé de formation pouvez-vous identifier exactement ?"],
+  "brevet-reecriture":["Vous avez effectué une partie de la transformation.","Il faut vérifier toutes les conséquences grammaticales de la consigne.","Quels verbes, accords, pronoms ou adjectifs sont encore touchés par la transformation ?"],
+  "brevet-redaction":["Vous répondez au sujet.","Il faut choisir une priorité de reprise dans la construction ou dans la précision de l'argumentation.","Quelle idée doit être développée ou illustrée plus précisément pour mieux répondre au sujet ?"],
+  "bac-dissertation":["Vous engagez une réflexion sur le sujet.","Il faut vérifier que votre idée fait réellement avancer la réponse et s'appuie sur l'œuvre.","Qu'est-ce que cette étape permet précisément d'établir pour répondre au sujet ?"]
 };
 
 function cors(origin) {
@@ -107,21 +107,21 @@ function rejectWithoutAI(answer, previousAnswer = "") {
   if (nonAnswers.has(n)) {
     return {
       reason: "non_answer",
-      message: "Tu ne proposes pas encore de réponse à examiner. Essaie au moins une hypothèse, même imparfaite : l’IA pourra alors t’aider à la reprendre."
+      message: "Vous ne proposez pas encore de réponse à examiner. Essayez au moins une hypothèse, même imparfaite : le retour pourra alors vous aider à la reprendre."
     };
   }
 
   if (/^(.)\1{5,}$/.test(n.replace(/\s/g, "")) || /^[a-z]{1,3}(\s+[a-z]{1,3}){4,}$/.test(n)) {
     return {
       reason: "gibberish",
-      message: "Cette saisie ne ressemble pas à une réponse au travail demandé. Reformule une vraie tentative avant de demander un retour."
+      message: "Cette saisie ne ressemble pas à une réponse au travail demandé. Reformulez une vraie tentative avant de demander un retour."
     };
   }
 
   if (prev && n === prev) {
     return {
       reason: "unchanged",
-      message: "Ta réponse n’a pas changé depuis le dernier retour. Reprends d’abord le point demandé avant de solliciter de nouveau l’IA."
+      message: "Votre réponse n’a pas changé depuis le dernier retour. Reprenez d’abord le point demandé avant de demander un nouveau retour."
     };
   }
 
@@ -203,7 +203,7 @@ const PHILO_CRITERIA = {
   "philo-texte-moments": "Explication de texte. Trois à cinq moments, dans l'ordre, chacun avec ce que l'auteur fait (affirme, explique, donne un exemple, répond à une objection, conclut). Le texte n'est PAS fourni : ne juge que la construction, sans prétendre savoir ce que dit le texte."
 };
 
-const PHILO_FALLBACK = ["Tu as fait une tentative.","Il faut rester au plus près de ce que la consigne demande précisément.","Quelle phrase de ta réponse fait exactement ce que la consigne demande ?"];
+const PHILO_FALLBACK = ["Vous avez fait une tentative.","Il faut rester au plus près de ce que la consigne demande précisément.","Quelle phrase de votre réponse fait exactement ce que la consigne demande ?"];
 
 function buildPhiloSpec(context, kind) {
   const title = clean(context.title, 220);
@@ -253,7 +253,7 @@ ${spec.forbidden.map(x => "- " + x).join("\n")}
 - exiger une référence à un philosophe
 
 CONTRAINTES
-- tutoie l'élève
+- vouvoie l'élève (« vous », jamais « tu »)
 - ton sobre, précis, bienveillant, jamais infantilisant ; pas de moquerie
 - si la réponse ne contient aucun acquis réel, ne jamais en inventer un : écris exactement « Aucun acquis identifiable dans cette réponse. »
 - marque "hors_sujet": true SEULEMENT si la réponse n'a clairement rien à voir avec la consigne ou détourne volontairement l'exercice ; une réponse fausse, maladroite, naïve, courte ou incomplète n'est JAMAIS hors sujet
@@ -575,7 +575,7 @@ TU NE DOIS JAMAIS
 ${spec.forbidden.map(x => "- " + x).join("\n")}
 
 CONTRAINTES
-- tutoie l'élève
+- vouvoie l'élève (« vous », jamais « tu »)
 - ton sobre, précis, non infantilisant
 - l'humour est autorisé de façon très légère et occasionnelle, seulement s'il rend le retour plus humain ; jamais de moquerie, sarcasme ou blague qui détourne de l'apprentissage
 - si la réponse ne contient aucun acquis réel, ne jamais en inventer un : écris exactement « Aucun acquis identifiable dans cette réponse. »
