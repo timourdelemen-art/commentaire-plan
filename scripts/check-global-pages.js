@@ -30,7 +30,9 @@ for(const [page,file] of pages){
  const html=fs.readFileSync(file,'utf8');
  const ids=[...html.matchAll(/\bid\s*=\s*["']([^"']+)["']/gi)].map(m=>m[1]);
  const idSet=new Set(ids);
- for(const id of idSet)if(ids.filter(x=>x===id).length>1)issue(errors,page,'id dupliqué : '+id);
+ const counts=new Map();
+ for(const id of ids)counts.set(id,(counts.get(id)||0)+1);
+ for(const [id,count] of counts)if(count>1)issue(errors,page,'id dupliqué : '+id+' ('+count+' occurrences)');
  const h1=(html.match(/<h1\b/gi)||[]).length;
  if(h1!==1)issue(warnings,page,'nombre de H1 : '+h1);
  const tags=[...html.matchAll(/<(a|script|link|img)\b[^>]*>/gi)];
@@ -67,5 +69,6 @@ for(const [title,arr] of [['Erreurs',errors],['Avertissements',warnings]]){
  report+='\n';
 }
 fs.writeFileSync(path.join(ROOT,'controle-global-report.md'),report);
-console.log('Contrôle global : '+pages.size+' pages, '+errors.length+' erreurs, '+warnings.length+' avertissements. Voir controle-global-report.md.');
+fs.writeFileSync(path.join(ROOT,'controle-global-report.json'),JSON.stringify({pages:pages.size,error_count:errors.length,warning_count:warnings.length,errors,warnings},null,2)+'\n');
+console.log('Contrôle global : '+pages.size+' pages, '+errors.length+' erreurs, '+warnings.length+' avertissements. Voir controle-global-report.md et controle-global-report.json.');
 if(errors.length&&process.env.AUDIT_STRICT==='1')process.exitCode=1;
