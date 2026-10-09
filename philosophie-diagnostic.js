@@ -56,11 +56,36 @@ const problemes=[
 ["L’artiste maîtrise-t-il son œuvre, au risque de n’y laisser aucune invention, ou crée-t-il sans tout prévoir, au risque de ne plus être pleinement l’auteur de ce qu’il produit ?",true,"La maîtrise assure le savoir-faire mais menace la nouveauté ; l’invention échappe au calcul mais interroge la responsabilité de l’auteur. La question relie les deux pertes."],
 ["Les artistes ont-ils besoin d’apprendre à dessiner ?",false,"Cette question réduit l’art à une technique particulière et ne traite pas le savoir de l’artiste en général."]]}
 ];
+/* Deuxième série : renouveler aussi les quatre autres gestes au redémarrage. */
+const autresSituations={
+argumenter:{context:"Vous voulez montrer que l'habitude ne garantit pas qu'une action soit juste.",options:[
+["Une action répétée devient familière ; mais cette familiarité ne dit pas si elle respecte autrui.",true,"La familiarité explique pourquoi l'on agit, pas pourquoi l'acte est juste : une raison précise distingue habitude et justification."],
+["Aristote a beaucoup parlé de l'habitude et de la vertu.",false,"Un auteur cité ne fournit pas encore l'argument."],
+["Par exemple, quelqu'un peut prendre tous les jours la même décision.",false,"L'exemple ne montre pas en quoi la décision est juste ou injuste."],
+["Les habitudes sont importantes dans la vie de chacun.","def","L'idée peut servir d'introduction, mais ne soutient pas la thèse annoncée."]]},
+transitions:{context:"Partie I : la technique nous donne du pouvoir sur la nature. Limite : ce pouvoir peut produire des dommages que nous ne savons pas réparer.",options:[
+["Après avoir étudié la technique, nous parlerons de la nature.",false,"Simple annonce : aucune difficulté ne rend la suite nécessaire."],
+["Puisque la technique détruit la nature, il faut y renoncer.",false,"La réponse est décidée avant l'examen de la seconde partie."],
+["Si notre puissance technique peut provoquer des dommages irréversibles, suffit-il de pouvoir agir pour être autorisé à le faire ?",true,"La limite du pouvoir technique devient une question ouverte sur la responsabilité."],
+["La technique a de nombreux avantages et inconvénients.","def","Le contraste est réel, mais la difficulté précise des dommages irréversibles disparaît."]]},
+troisieme:{context:"I : dire la vérité respecte l'autre. II : une vérité brutale peut lui nuire. Reste : comment respecter l'autre sans le tromper ni l'écraser ?",options:[
+["Il faut mentir une fois sur deux pour ne blesser personne.",false,"Un compromis quantitatif ne résout pas la tension."],
+["Il faut distinguer le devoir de ne pas tromper et la manière de dire : la sincérité oblige, mais n'autorise pas la brutalité.",true,"La distinction préserve l'exigence de vérité et le souci d'autrui sans les confondre."],
+["Il faut toujours dire la vérité, quelles que soient les conséquences.",false,"La difficulté de la seconde partie est supprimée."],
+["La vérité est un sujet très ancien.","def","La phrase est vraie, mais elle ne répond pas au problème restant."]]},
+references:{context:"Vous voulez montrer que douter peut être une méthode pour rechercher une certitude.",options:[
+["Descartes est un grand philosophe du doute.",false,"Le nom ne fait pas comprendre comment le doute aide à connaître."],
+["Descartes doute de ce qu'il croit savoir afin de découvrir une vérité qui résiste au doute lui-même.",true,"La référence explique une opération : mettre les croyances à l'épreuve pour chercher un point certain."],
+["Descartes a écrit le Discours de la méthode.","def","Le titre est pertinent, mais il ne fournit pas l'idée nécessaire à l'argument."],
+["Selon Descartes, il faut douter de tout pour toujours.",false,"Contresens : le doute est une étape de recherche, non une fin en soi."]]}
+};
+const questionsInitiales=qs.slice(1).map(q=>({...q}));
 let numeroProbleme=0;
 try{numeroProbleme=Number(sessionStorage.getItem("philo-probleme-numero")||"0")||0;}catch(e){}
 function choisirProbleme(){
  const p=problemes[numeroProbleme%problemes.length];
  qs[0]={...qs[0],context:p.context,options:p.options};
+ questionsInitiales.forEach((original,j)=>{const alt=autresSituations[original.skill];qs[j+1]=numeroProbleme%2===0?{...original}:{...original,context:alt.context,options:alt.options};});
  try{sessionStorage.setItem("philo-probleme-numero",String(numeroProbleme+1));}catch(e){}
  numeroProbleme++;
 }
@@ -83,7 +108,9 @@ function show(){
   if(st!=="ok") stage.querySelectorAll(".diag-option")[good].classList.add("is-good");
   const lab={ok:"Solide.",def:"Défendable.",no:"À revoir."}[st];
   fb.className="diag-feedback chaine-fb show "+st;
-  fb.innerHTML='<p><strong>'+lab+'</strong> '+esc(String(o[2]).replace(/^(Défendable : |C’est la bonne : )/,"").replace(/^./,c=>c.toUpperCase()))+'</p>'+(q.skill==='problematiser'?'<p><strong>Pourquoi les quatre propositions ne se valent pas :</strong></p><ol>'+q.options.map((v,k)=>'<li><strong>'+String.fromCharCode(65+k)+' — '+(v[1]===true?'Solide':v[1]==='def'?'Défendable':'À revoir')+'.</strong> '+esc(v[2])+'</li>').join('')+'</ol>':st==='ok'?'':'<p><strong>La plus solide ('+String.fromCharCode(65+good)+') :</strong> '+esc(q.options[good][2])+'</p>')+'<button type="button" class="btn red diag-next">'+(i+1<qs.length?"Question suivante →":"Voir le résultat →")+'</button>';
+  const detail=v=>esc(String(v[2]).replace(/^(Défendable : |C’est la bonne : )/,''));
+  const lesson='<ol>'+q.options.map((v,k)=>'<li><strong>'+String.fromCharCode(65+k)+' · '+(v[1]===true?'Solide':v[1]==='def'?'Défendable':'À revoir')+'</strong> — '+detail(v)+'</li>').join('')+'</ol>';
+  fb.innerHTML=(q.skill==='problematiser'?'<p><strong>'+lab+'</strong> Comparez les quatre formulations :</p>'+lesson:'<p><strong>'+lab+'</strong> '+detail(o)+'</p>'+(st==='ok'?'':'<p><strong>La plus solide ('+String.fromCharCode(65+good)+') :</strong> '+detail(q.options[good])+'</p>'))+'<button type="button" class="btn red diag-next">'+(i+1<qs.length?'Question suivante →':'Voir le résultat →')+'</button>';
   fb.querySelector(".diag-next").onclick=()=>{i++;show();};
  });
 }
