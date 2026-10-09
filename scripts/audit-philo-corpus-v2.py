@@ -43,16 +43,11 @@ def audit(text, min_pages=900):
     if len(pages) < min_pages:
         raise ValueError(f"Extraction non paginée ou incomplète : {len(pages)} fragments")
     raw = []
-    sections = {"liste_complete": (3, 262), "par_concours": (263, 821), "par_theme": (822, 951), "par_type": (952, 1189)}
-    section_counts = Counter()
     for page_num, page in enumerate(pages, start=1):
         for line in page.splitlines():
             s = normalize(line)
             if 7 <= len(s) <= 240 and not re.fullmatch(r"[\d\W]+", s):
                 raw.append((page_num, s))
-                for section, (first, last) in sections.items():
-                    if first <= page_num <= last:
-                        section_counts[section] += 1
     counts = Counter()
     pairs = Counter()
     page_counts = Counter()
@@ -80,8 +75,6 @@ def audit(text, min_pages=900):
         "sha256_extraction": hashlib.sha256(text.encode("utf-8")).hexdigest(),
         "pages_fragments": len(pages),
         "lignes_candidates": len(raw),
-        "sections_lignes_candidates": dict(section_counts),
-        "limite_sections": "Bornes de pages issues du sommaire du PDF (pagination imprimee); frontieres a verifier sur les pages reelles.",
         "lignes_uniques_normalisees": len(unique),
         "formes_lignes": dict(counts.most_common()),
         "formes_lignes_uniques": dict(distinct_counts.most_common()),
