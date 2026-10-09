@@ -2,6 +2,14 @@
 
 > Document interne. **Statut : protocole initial, NON homologué.** Il formalise les contrôles demandés par le propriétaire mais ne remplace ni la Loi de la problématique, ni les données du corpus de 11 000 sujets, dont les versions canoniques et les algorithmes doivent être retrouvés et confrontés avant homologation. Aucune production en série ne peut se prévaloir d'une validation complète avant cette confrontation.
 
+## Autorité des sources et hiérarchie logique
+- **Référentiel sémantique prioritaire** : `PHILOSOPHIE-ANALYSE-CORPUS.md`, établi par Claude, est une source normative de travail pour l'analyse du sujet et le passage à la problématique ; ne pas le remplacer par une typologie improvisée. Ses constats doivent être contrôlés et traduits en tests opératoires avant homologation.
+- **Séparation stricte des corpus** : le recueil Mélès d'environ 11 000 sujets de concours sert exclusivement à l'analyse interne des formes ; il n'est jamais une source de sujets d'exercice. Seuls les sujets authentifiés du bac sont admissibles côté élèves, conformément à `AGENTS.md`.
+- **Aucune recette déterministe** : la forme grammaticale suggère une opération initiale, mais ne dicte pas le problème. Les formes « peut-on », « faut-il », « suffit-il », « est-il », « dépend-il », « pourquoi », « à quoi sert », « y a-t-il », « sans », les négations et restrictions doivent être examinées selon leur valeur réelle dans chaque sujet. Les formes non usuelles au bac restent disponibles comme ressources analytiques internes.
+- **Pluralité de sens obligatoire quand pertinente** : relever les acceptions concurrentes ou complémentaires de chaque notion, les différentes portées possibles de l'opérateur et les lectures du sujet. Déterminer lesquelles sont légitimes, nécessaires, incompatibles ou articulables. Il est interdit d'en choisir arbitrairement une seule, de les réduire à une équivoque lexicale ou de les distribuer automatiquement entre I et II. Documenter tout sens écarté.
+- **Passage argumenté du sujet au problème** : conserver la chaîne de Claude « question → réponse plausible → justification → conséquences → coût → difficulté → problématique », tout en éprouvant les deux voies et leur double échec selon la Loi canonique, sans confondre cette chaîne heuristique avec une preuve de validité.
+- **Distracteurs soumis aux mêmes règles** : identifier les sens retenus et omis, la portée de l'opérateur, le coût non traité et le défaut philosophique exact ; une proposition portant un autre sens légitime n'est pas fausse pour cette seule raison.
+
 ## Principe
 Une problématique et chacun de ses distracteurs sont des objets philosophiques à vérifier, non des textes plausibles à générer. Tous les contrôles ci-dessous sont cumulatifs. Aucun score global ne peut compenser l'échec d'un contrôle bloquant.
 
@@ -31,6 +39,11 @@ sujet_officiel:
 source_et_session:
 notions:
 analyse_semantique:
+formes_et_operateurs:
+sens_possibles_et_leur_statut:
+sens_a_traiter_ensemble:
+sens_ecartes_et_justification:
+chaine_sujet_vers_probleme:
 controle_corpus_11000: non_verifie
 figure_paradoxale:
 justification_figure:
