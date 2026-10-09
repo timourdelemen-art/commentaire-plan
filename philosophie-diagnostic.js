@@ -71,5 +71,6 @@ function prescription(k){
  references:"Commencez par « Sauvez cette citation », puis appliquez le test : retirez le nom, le raisonnement tient-il encore ?"
  }[k];
 }
+document.getElementById("diagRestartAlways").addEventListener("click",()=>{i=0;Object.keys(scores).forEach(k=>delete scores[k]);show();document.getElementById("philoDiagnostic").scrollIntoView({block:"start"});});
 show();
 })();
