@@ -1,0 +1,131 @@
+# AGENTS.md — règles communes pour Claude et ChatGPT sur Commentaire Plan
+
+Ce fichier est la référence commune des agents qui modifient le site. **Lisez-le en entier avant toute modification.** En cas de conflit entre ce fichier et une consigne ancienne d’un autre document, ce fichier l’emporte ; en cas de conflit avec une demande explicite du propriétaire, la demande du propriétaire l’emporte, et ce fichier est mis à jour.
+
+Propriétaire : un professeur de lettres en lycée (Istanbul). Public : lycéens (bac de français, philosophie, HLP), collégiens (brevet), parents, enseignants. But : un site sérieux qui rapporte de l’argent sans rien céder sur la didactique.
+
+---
+
+## 1. Coordination entre agents
+
+1. **Avant de commencer** : `git pull`, puis regardez les PR ouvertes (`gh pr list`), leur rubrique « Fichiers réservés », et le tableau « Chantiers durables » ci-dessous. Ne modifiez pas un fichier qu’un autre agent a déclaré, ni un fichier touché par une PR encore ouverte.
+2. **Déclarez votre travail dans la description de la PR** : rubrique « Fichiers réservés » (fichiers ou motifs de fichiers). Tant que la PR est ouverte, ces fichiers sont réservés. Le tableau « Chantiers durables » ci-dessous ne sert qu’aux chantiers qui s’étendent sur plusieurs PR ou plusieurs jours, pour éviter de modifier ce fichier commun à chaque PR.
+3. **Une PR = un sujet.** Branches : `claude/<sujet>` ou `chatgpt/<sujet>`. Pas de commit direct sur `main`.
+4. **Fichiers partagés à haut risque** (un seul agent à la fois, et prévenir) : `styles.css`, `site-nav.js`, `scripts/seo-build.js`, `netlify.toml`, `worker/src/index.js`, `free-response.js`. Dans `styles.css`, ajoutez vos règles **à la fin**, dans un bloc commenté `/* === sujet === */`, sans réécrire les blocs existants.
+5. **Ne défaites pas le travail de l’autre agent sans le dire.** Si une modification de l’autre agent enfreint une règle de ce fichier, corrigez-la dans une PR séparée qui cite la règle, et signalez-le au propriétaire.
+6. **Avant de fusionner**, refaites `git pull` : si `main` a bougé, refaites le build de test sur la version à jour.
+
+### Chantiers durables
+
+| Agent | Branche | Fichiers | Depuis |
+| --- | --- | --- | --- |
+| — | — | — | — |
+
+---
+
+## 2. Règles didactiques (non négociables)
+
+- **Simplifier l’accès à la pensée, sans simplifier la pensée elle-même.**
+- **Vocabulaire de la méthode, autorisé s’il aide l’élève** : « le donné », « l’attente », « la transformation », « réalisation », « nécessité de la réponse », « opération » (voir § 7). Chaque terme est expliqué simplement, avec un exemple, à sa première apparition sur une page (ex. : « la réalisation, c’est ce que le texte fait : *le poète oppose la ville et la campagne* »). « Transition-question » s’introduit progressivement : d’abord la chose (« une question qui montre ce que la partie précédente n’a pas expliqué »), puis le mot.
+- **Vocabulaire réservé aux documents internes** : « chiasme », « double aporie », « aporie », « reprobématisation », le *Dictionnaire paradoxal*, ses « figures » et ses « résolutions » comme termes techniques. Ils n’apparaissent jamais sur une page élève, ni dans les consignes envoyées au correcteur automatique (`data-feedback-instruction`, critères de `free-response.js` et du worker). Les fichiers `*.md` de théorie ne sont jamais publiés (voir `scripts/clean-publish.js`).
+- **Consignes : six règles.** 1) verbe concret ; 2) quantité attendue (« en une phrase ») ; 3) un exemple sur un autre sujet quand c’est utile ; 4) aucun jargon ; 5) une seule tâche par ligne ; 6) phrases courtes, au « vous ».
+- **Vouvoiement partout**, y compris dans les retours automatiques.
+- **Uniquement de vrais sujets d’examen.** Corpus de référence : sujets du bac de philosophie 1996-2026 (branche `corpus`), annales officielles.
+- **Correction en trois états** pour les choix : Solide / Défendable / À revoir, toujours avec une phrase de justification. Plusieurs propositions peuvent être justes (troisième partie). **La bonne réponse ne doit pas être reconnaissable à sa longueur** : visez des propositions de longueurs comparables, sans formulations artificielles pour égaliser ; sur une série, la bonne réponse n’est pas systématiquement la plus longue.
+- **Boussole** en tête d’exercice : « D’où vous partez / Ce que vous faites / Ce que vous obtenez ».
+- **Désétayage en trois niveaux** quand une chaîne existe : Niveau 1 au clic, Niveau 2 j’écris un peu, Niveau 3 j’écris tout ; navigation libre (recommencer, suivant, niveau précédent, niveau suivant). Modèles : `philosophie-probleme-pas-a-pas.html`, `philosophie-plan-pas-a-pas.html`, `commentaire-pas-a-pas.html`.
+- **La scène d’ouverture d’une dissertation porte les deux réponses et leur double échec**, pas une seule branche.
+- **Pas d’usine à gaz** : peu de texte avant d’agir ; « d’où je viens, où je vais » toujours visible.
+- **La première réponse à un sujet** peut être oui, non (nuancé par les petits mots du sujet) ou « la question est mal posée » ; dans ce dernier cas, l’idée sert à la troisième partie.
+
+## 3. Règles de contenu et de droit
+
+- **Jamais de témoignage, de chiffre, de prix ou de donnée inventés.** Comptez réellement dans le dépôt ce que vous annoncez.
+- **Prix** : aucun prix n’est affiché tant que le propriétaire ne l’a pas décidé. Tant que la vente n’est pas ouverte, `access-control.js` garde `salesOpen:false` (tout est accessible).
+- **Droit d’auteur** : ne recopiez jamais le texte d’un auteur encore protégé (ni une traduction récente) : référence + lien vers le sujet officiel. Ne reconstituez jamais un texte d’examen de mémoire, même du domaine public.
+- **Citations** : une citation affichée comme « vérifiée » doit avoir été retrouvée mot pour mot dans une édition numérique (voir `scripts/exemples/README.md`). Les citations célèbres circulent souvent sous une forme fausse.
+- **Secrets** : jamais de clé ni de secret dans le dépôt (il est public). Les clés vivent dans les secrets GitHub ou Cloudflare.
+- **Liens** : pas de lien vers un site concurrent (ex. sujets-corriges-bac.fr). Les sujets officiels sont pris sur les sites du ministère, d’Éduscol ou d’une académie, ou hébergés localement.
+
+## 4. Architecture : modifier la source, pas le résultat
+
+Plusieurs pages sont **générées** au déploiement (commande de `netlify.toml`). Modifier la page générée ne sert à rien : la modification sera écrasée.
+
+| Pages | Source à modifier | Générateur |
+| --- | --- | --- |
+| `hlp-20*-*.html`, `hlp-annales.html`, `hlp-professeurs.html` | `hlp-annales-data.js` | `scripts/build-hlp.js` |
+| `philosophie-bac-2026-*.html` | `philosophie-annales-data.js` | `scripts/build-philo-annales.js` |
+| `philosophie-notion-*.html`, `philosophie-notions.html` | `philosophie-notions-data.js` | `scripts/build-philo-notions.js` |
+| Copies à 20 (dans les pages ci-dessus et `philosophie-copie-20-*.html`) | `scripts/copies20-data.json` | `scripts/philo-copie20.js` |
+| `philosophie-laboratoire.html` et boussoles des exercices philo | `scripts/philo-exercices.js` | `scripts/build-philo-boussole.js` |
+| Formulaire « nouveautés » en bas des pages | règles dans le script | `scripts/build-capture.js` |
+| En-têtes, pieds de page, fil d’Ariane, `sitemap.xml` | `scripts/seo-build.js` | `scripts/seo-build.js` |
+| Banque d’exemples `philosophie-exemples-data.js` | `scripts/exemples/exemples_src.py` | `scripts/exemples/build_exemples.py` (vérifie les citations) |
+
+- **Le menu existe en deux endroits** : `site-nav.js` (navigateur) et `scripts/seo-build.js` (en-tête statique). Modifiez toujours les deux.
+- **Le correcteur automatique** est un worker Cloudflare (`worker/`), déployé automatiquement à chaque push sur `main` ; le test `scripts/test-live-feedback.mjs` doit rester vert (action « Test du retour déployé »).
+- `scripts/clean-publish.js` retire du site publié les `*.md`, `scripts/` et `worker/` (sur Netlify seulement).
+
+## 5. Méthode de travail et tests
+
+1. Build de test dans une **copie jetable** (le build réécrit des fichiers) :
+   `B=$(mktemp -d); git ls-files -co --exclude-standard | tar -cf - -T - | tar -xf - -C $B; (cd $B && eval "$(sed -n 's/^ *command = "\(.*\)"/\1/p' netlify.toml)")`
+2. Servez la copie (`python3 -m http.server`) et testez dans un navigateur à **390 px et 1280 px** : aucune erreur JavaScript, pas de défilement horizontal, chaque clic mène au bon endroit, parcours complet des exercices modifiés.
+3. Vérifiez que `seo-audit` ne signale **aucune nouvelle erreur** et que les contrôles `check-philo-parcours` et `check-global-pages` passent.
+4. **Vérification pédagogique** de chaque exercice ajouté ou modifié, en le faisant soi-même comme un élève :
+   - **le geste** : quel geste intellectuel l’élève accomplit-il réellement (répondre, justifier, pousser une idée, comparer, formuler) ? Est-ce bien celui que la page annonce, et pas une simple reconnaissance ?
+   - **les aides** : chaque aide fait-elle avancer sans donner la réponse ? Les justifications des propositions expliquent-elles pourquoi, en une phrase ?
+   - **l’autonomie** : l’élève peut-il recommencer, passer au niveau suivant, et refaire le geste seul sur un autre sujet ? Le chemin vers l’étape suivante est-il visible ?
+5. Après fusion : vérifiez que le déploiement Netlify est « ready » sur le bon commit, et, si le worker a changé, que l’action « Test du retour déployé » est verte.
+
+### Contenu obligatoire de chaque PR
+
+```
+## Fichiers réservés
+- (fichiers ou motifs de fichiers que cette PR modifie : personne d’autre n’y touche tant qu’elle est ouverte)
+
+## Modifications
+- (fichiers et ce qui change, en phrases simples)
+
+## Tests réalisés
+- build de test : …
+- navigateur 390 px / 1280 px : pages et parcours testés …
+- vérification pédagogique : geste réellement accompli, qualité des aides, reprise autonome
+- autres vérifications (citations, liens, worker…)
+
+## Points à vérifier
+- (ce qui n’a pas pu être testé, décisions laissées au propriétaire, risques)
+
+## Leçon apprise
+- (si une erreur importante a été corrigée : la ligne proposée pour le § 6, sinon « aucune »)
+```
+
+## 6. Leçons apprises (à compléter après chaque erreur importante)
+
+Format : date · ce qui s’est passé · la règle qui en découle. Proposez une ligne dans votre PR quand une erreur nous apprend quelque chose.
+
+- 2026-10-08 · Des fichiers de théorie `.md` étaient accessibles en ligne. · Ne jamais publier de `.md` ; `clean-publish.js` les retire.
+- 2026-10-09 · Des libellés de théorie (« reprobématisation ») corrigés dans les pages HTML sont revenus au déploiement, car ils venaient de `copies20-data.json`. · Toujours corriger la **source** (tableau du § 4), jamais la page générée.
+- 2026-10-09 · Le mot « chiasme » figurait dans une consigne envoyée au correcteur automatique. · Les consignes cachées obéissent aux mêmes règles que le texte visible.
+- 2026-10-09 · Une page élève ajoutée parlait de « double aporie » et de « résolutions ». · Relire tout ajout au regard du § 2 avant la PR.
+- 2026-10-09 · La scène d’Ulysse n’illustrait qu’une des deux réponses du sujet ; remplacée par Antigone. · Une scène d’ouverture porte les deux réponses et leur double échec.
+- 2026-10-09 · Une phrase célèbre de Proust n’existe pas sous sa forme courante dans l’édition consultée. · Aucune citation de mémoire : vérification sur corpus, ou pas de citation.
+- 2026-10-09 · Des étapes payantes bloquaient alors qu’aucun paiement n’existait, et « 29 € » était affiché avant décision. · Ne jamais bloquer ce qu’on ne peut pas acheter ; pas de prix sans décision du propriétaire.
+- 2026-10-09 · Une réponse hors sujet suspendait l’exercice 24 heures. · Pas de punition : un message qui aide à reprendre.
+- 2026-10-09 · Les retours automatiques tutoyaient l’élève alors que le site vouvoie. · Vouvoiement partout, y compris dans le worker.
+- 2026-10-09 · Dans plusieurs QCM, la bonne réponse était toujours la plus longue. · Longueurs comparables (§ 2).
+- 2026-10-09 · Deux agents ont travaillé en même temps sur `main` sans se voir (PR #65 à #70). · Vérifier les PR ouvertes et leurs « Fichiers réservés » avant de commencer (§ 1).
+- 2026-10-09 · Des termes propres à la méthode (« le donné », « transition-question ») ont été retirés des consignes parce qu’un audit les jugeait techniques. · Ne pas supprimer le vocabulaire de la méthode : l’expliquer, avec un exemple, à sa première apparition (§ 2).
+
+## 7. Décisions du propriétaire
+
+Prises (9 octobre 2026) :
+- **Vocabulaire** : voir § 2 (termes de la méthode expliqués à leur première apparition ; termes de la théorie réservés aux documents internes).
+- **QCM** : longueurs comparables, sans seuil chiffré strict.
+- **Notions de philosophie** : les 17 notions restent accessibles par une entrée secondaire clairement visible sur `philosophie.html` (pas seulement dans un menu replié).
+- **Textes manquants des annales** : un texte n’est intégré qu’après vérification de la source officielle (découpage exact de l’extrait, numéros de ligne) et des droits.
+- **Copies à 20** : chaque correction de scène d’ouverture est examinée individuellement par le propriétaire avant validation.
+- **« Opération »** : conservé, avec une explication simple à sa première apparition : « une opération intellectuelle, c’est quelque chose que vous faites avec une idée : la distinguer, la comparer, la mettre à l’épreuve ou la transformer ». Le terme sert l’autonomie de l’élève.
+
+En attente :
+- Identité de l’éditeur (mentions légales, CGV, confidentialité) et moyen de paiement, avant toute vente ; pages légales à faire relire par un juriste.
