@@ -42,3 +42,11 @@ Première passe **sur les sources GitHub de `main`**, sans prétendre à une vé
 ## Tests de cette revue
 
 Lecture statique de six pages HTML et des deux documents de méthode. **Aucun** build, test navigateur, audit de liens en direct, vérification des PDF ou déploiement Netlify réalisé dans cette passe. Ce document est un **état des lieux initial**, pas un certificat de qualité du site entier.
+
+## État de suivi — corrections à sécuriser
+
+- PR #95 : le remplacement d'une légende dans `scripts/copies20-data.json` a affecté 17 occurrences. Une seule, celle de la dissertation sur l'engagement, devait changer. **Bloquant avant fusion** : rétablir les 16 autres légendes et vérifier le JSON et les pages générées.
+- PR #95 : `philosophie.html` conserve « La copie la plus courte qui mérite 20 » alors que l'accueil annonce « Moins de phrases. Plus de pensée. ». **Bloquant avant fusion** : harmoniser ces deux pages.
+- Le sous-titre de l'accueil, centré sur les dissertations, doit être vérifié au regard des quatre publics effectivement desservis : brevet, bac français, HLP, philosophie. Une accroche générale peut rester ambitieuse sans faire croire que tous les exercices sont des dissertations.
+- Les citations de Pascal et de La Rochefoucauld ne doivent être publiées qu'avec référence bibliographique exacte et vérification textuelle indépendante.
+- Le build et les tests navigateur prescrits par `AGENTS.md` n'ont pas été réalisés dans cette session : aucune PR ne doit être fusionnée sur la seule base de cette revue.
