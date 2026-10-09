@@ -68,3 +68,36 @@ statut_publication: bloque
 - Sujet non authentifié, source théorique canonique manquante pour une validation annoncée comme complète, filtre sémantique non exécuté, double aporie non justifiée, distracteur injustement disqualifié ou désaccord non arbitré : **pas de publication**.
 - Les contrôles sémantiques et théoriques ne sont pas interchangeables ; chacun doit laisser une trace.
 - Ce protocole doit être révisé en confrontant mot à mot les textes et les implémentations existantes. Ne pas prétendre qu'il a déjà été automatisé.
+
+
+## Rectification à partir des préfaces du *Dictionnaire paradoxal* (édition 2022)
+
+**Statut : lecture directe des deux préfaces ; nomenclature vérifiée.** Les huit récurrences paradoxales empiriques de la première préface sont, dans leur ordre :
+1. La chose exige pour être ce que son être exclut.
+2. Elle ne prend sens qu'au regard de ce qui la rend vaine ou insignifiante.
+3. Elle est la condition de sa propre condition.
+4. Sa condition de possibilité abolit ou inquiète ce qu'elle rend possible.
+5. Elle n'existe qu'en annulant sa condition de possibilité.
+6. Elle ne peut être qu'à condition de n'avoir nulle raison d'être.
+7. Elle suppose, pour être, d'être déjà.
+8. Son être même contredit sa raison d'être.
+
+Trois grandes familles transversales sont distinguées : **renversements ontologiques de causalité ou de conditionnalité**, **apories gnoséologiques**, **fusions catégorielles**. Elles peuvent se combiner.
+
+**Correctif méthodologique impératif :** la seconde préface précise que ces récurrences n'ont **pas de valeur heuristique** pour découvrir le paradoxe particulier : elles sont recensées *après* élaboration des paradoxes singuliers, par jugement réfléchissant. Il est donc interdit de choisir d'abord une case puis d'y forcer le sujet. Les figures servent **a posteriori à décrire, comparer et mettre à l'épreuve** une contradiction déjà reconstruite à partir du sujet et du concept. Leur nombre n'est pas déduit ni exhaustif.
+
+Les voies résolutoires nommées dans la seconde préface sont :
+- duplication ontologique du réel ;
+- abolition **partielle ou totale** ;
+- processualisation (qui exige une règle ou un moteur du passage) ;
+- inversion du rapport d'indexation ;
+- métamorphose (qui doit maintenir une identité résiduelle) ;
+- déplacement de la contradiction ;
+- suspension épistémique ;
+- consentement à la contradiction.
+
+Ces voies ne sont pas exclusives ; plusieurs peuvent se combiner. Toute résolution est évaluée par ce qu'elle préserve, ce qu'elle sacrifie, **son exigence interne** et le retour de la difficulté. L'abolition totale ne vaut pas préservation de l'objet ; la duplication a un coût ontologique ; le déplacement transmet le problème ; le consentement n'est pas une synthèse facile.
+
+**Contrainte cumulative correctement ordonnée :** (1) source et analyse sémantique de Claude, (2) reconstruction autonome des réponses, de leurs coûts et de la double aporie, (3) confrontation *a posteriori* aux figures du Dictionnaire, (4) étude des résolutions et de leurs résidus, (5) examen de chaque distracteur sous les mêmes exigences. Les quatre ressources sont obligatoires mais leur ordre de découverte ne doit pas être inversé.
+
+**Réserve** : la formulation textuelle canonique de la « Loi de la problématique » n'a pas encore été retrouvée et vérifiée ici. Ne pas substituer une paraphrase personnelle à cette formulation en prétendant l'avoir homologuée.
