@@ -61,8 +61,8 @@ function staticHeader(file){
       ['philosophie-laboratoire.html','4 · Reprendre une difficulté','Choisir un atelier ciblé'],
       ['philosophie-annales.html','5 · Traiter un sujet du bac','Faire une dissertation puis examiner le corrigé'],
       ['philosophie-diagnostic.html','Diagnostic facultatif','Cinq questions pour choisir son point de départ'],
-      ['philosophie-problematisation.html','Cours : la problématique','Explications et exemples'],
-      ['philosophie-dissertation.html','Cours : la dissertation','Introduction, parties, transitions, conclusion'],
+      ['philosophie-dissertation.html','Le cours complet de méthode','Du sujet à la conclusion, avec la troisième partie'],
+      ['philosophie-problematisation.html','Approfondir la problématique','Exemples et explications complémentaires'],
       ['philosophie-exemples.html','Trouver un exemple','Théâtre, roman, cinéma : la scène qui ouvre votre sujet'],
       ['philosophie-notions.html','Travailler une notion','Les 17 notions : sujets du bac et corrigés'],
       ['philosophie-jour-du-bac.html','Le jour du bac','Gérer les 4 heures de l’épreuve']
