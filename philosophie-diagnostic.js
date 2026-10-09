@@ -3,7 +3,7 @@
 const qs=[
 {skill:"problematiser",title:"Quelle problématique est la plus juste ?",context:"Sujet : « Peut-on se mentir à soi-même ? »",options:[
 ["Se mentir ne suppose-t-il pas de connaître la vérité qu’on se cache, ce qui rendrait le mensonge à soi-même tout simplement impossible ?","def","Défendable : c’est une vraie difficulté, mais la question n’examine que la réponse « non » et conclut avant d’avoir examiné l’autre."],
-["Celui qui se ment connaît-il la vérité qu’il se cache, au risque de ne plus s’y tromper, ou l’ignore-t-il, au risque de simplement se tromper ?",true,"C’est la bonne : chaque réponse perd quelque chose. Si je sais la vérité, je ne peux pas vraiment me tromper ; si je l’ignore, ce n’est plus un mensonge, seulement une erreur."],
+["Pour se mentir à soi-même, ne faut-il pas connaître la vérité qu’on veut se cacher ? Mais si on la connaît, peut-on vraiment se tromper soi-même ?",true,"C’est la meilleure : elle fait comprendre les deux difficultés. Pour se mentir, il faut connaître la vérité qu’on cache ; mais si on la connaît, peut-on encore se tromper soi-même ? Si on ne la connaît pas, on commet une erreur plutôt qu’un mensonge."],
 ["Comment pourrait-on se mentir à soi-même, puisque celui qui ment sait toujours, au fond, ce qu’il cherche à se cacher ?",false,"« Comment pourrait-on… puisque… » : la réponse est déjà dans la question."],
 ["Le mensonge à soi-même est-il toujours une faute, même lorsqu’il ne fait de tort à personne d’autre que soi ?",false,"Hors sujet : le sujet demande si c’est possible, pas si c’est une faute."]]},
 {skill:"argumenter",title:"Quel passage argumente vraiment ?",context:"Vous voulez défendre l’idée que suivre ses désirs ne suffit pas à être libre.",options:[
