@@ -48,7 +48,7 @@ function source(url){
   if(/ac-lille/.test(url)) return 'académie de Lille';
   if(/ac-nancy-metz/.test(url)) return 'académie de Nancy-Metz';
   if(/ac-toulouse/.test(url)) return 'académie de Toulouse';
-  if(/sujets-corriges-bac/.test(url)) return 'copie du sujet officiel, sujets-corriges-bac.fr';
+  if(/sujets-corriges-bac/.test(url)) return 'sujet officiel';
   return new URL(url).hostname;
 }
 function localPdf(x){
@@ -57,7 +57,7 @@ function localPdf(x){
 }
 function pdfLink(x){
   const local=localPdf(x);
-  if(local) return {href:local,label:'Lire le sujet et le texte (PDF)',src:'copie hébergée sur le site · original : '+source(x.pdf)};
+  if(local) return {href:local,label:'Lire le sujet et le texte (PDF)',src:'copie du sujet officiel, hébergée sur le site'};
   if(x.bank) return {href:x.pdf,label:'Banque de sujets indexée (PDF)',src:source(x.pdf)};
   return {href:x.pdf,label:'Lire le sujet et le texte (PDF)',src:source(x.pdf)};
 }
@@ -76,7 +76,7 @@ function card(x,prof){
   if(e) h+='<p class="hlp-entree">'+(prof?'Entrée : ':'')+esc(e.label)+' <span>· '+esc(e.sem)+'</span></p>';
   if(prof && x.note) h+='<p class="hlp-note">'+esc(x.note)+'</p>';
   h+='<div class="hlp-actions"><a href="'+fileName(x)+'">Travailler ce sujet →</a><a href="'+esc(p.href)+'" rel="noopener">'+esc(p.label)+' ↗</a>';
-  if(prof && x.cor) h+='<a href="'+esc(x.cor)+'" rel="noopener">Éléments de correction ↗</a>';
+  if(prof && x.cor && !/sujets-corriges-bac/.test(x.cor)) h+='<a href="'+esc(x.cor)+'" rel="noopener">Éléments de correction ↗</a>';
   h+='</div></article>';
   return h;
 }
@@ -103,12 +103,12 @@ function inject(file,marker,html){
 const CHECK={
   interpL:['La réponse porte sur la question posée, pas sur tout le texte.','Chaque étape s’appuie sur des citations précises, analysées (procédé → effet ici), et revient à la question.','Les étapes progressent : la deuxième dit quelque chose que la première ne disait pas.','Le texte est lu comme un texte littéraire : énonciation, images, rythme, composition comptent.'],
   interpP:['La thèse de l’auteur est reformulée avec précision, sans la répéter mot pour mot.','Le raisonnement est reconstitué : distinctions, arguments, exemples, objections éventuelles.','Chaque étape cite le texte et explique ce que la phrase citée fait dans l’argument.','La réponse à la question est explicite en conclusion.'],
-  essaiP:['Les termes du sujet sont définis et la question présupposée est repérée.','Une première réponse plausible est défendue sérieusement avant d’être discutée.','La difficulté naît de cette réponse poussée jusqu’au bout, pas d’une opposition plaquée.','Les références (philosophiques, littéraires, artistiques) font avancer l’argument au lieu de l’illustrer.'],
+  essaiP:['Les mots du sujet sont définis, et vous avez repéré ce que la question tient pour acquis.','Une première réponse plausible est défendue sérieusement avant d’être discutée.','La difficulté naît de cette réponse poussée jusqu’au bout, pas d’une opposition plaquée.','Les références (philosophiques, littéraires, artistiques) font avancer l’argument au lieu de l’illustrer.'],
   essaiL:['La question est rapportée à la littérature et aux arts, pas seulement à des idées générales.','Chaque partie s’appuie sur des œuvres précises, lues pendant l’année ou personnellement.','Les exemples sont analysés : on dit ce que l’œuvre fait, pas seulement ce qu’elle raconte.','La réflexion avance : chaque partie répond à une limite de la précédente.']
 };
 function step(n,title,task,kind,checks,rows=4){
   return '<article class="exercise hlp-step"><div class="kicker">ÉTAPE '+n+'</div><h3>'+title+'</h3><p class="instruction">'+task+'</p>'
-   +'<textarea rows="'+rows+'" aria-label="'+esc(title)+'" data-hlp-save="'+n+'" data-feedback-kind="'+kind+'" data-feedback-instruction="'+esc(task)+'"></textarea>'
+   +'<textarea rows="'+rows+'" aria-label="'+esc(title)+'" data-hlp-save="'+n+'" data-feedback-kind="'+kind+'" data-feedback-instruction="'+esc(task.replace(/<br>/g,' '))+'"></textarea>'
    +'<details class="correction"><summary>Vérifier avec la grille</summary><ul>'+checks.map(c=>'<li>'+c+'</li>').join('')+'</ul></details></article>';
 }
 function related(x){
@@ -121,6 +121,8 @@ function page(x){
   const yearTxt=x.s==='zero'?'sujet zéro':'bac '+x.y;
   let title=x.a+', '+x.w+' : sujet HLP '+(x.s==='zero'?'zéro':x.y);
   if(title.length>60) title=x.a+' : sujet HLP '+(x.s==='zero'?'zéro':x.y)+(x.c&&x.s!=='zero'?' '+x.c:'');
+  const twin=DATA.some(o=>o.id!==x.id&&o.a===x.a&&o.w===x.w&&o.y===x.y);
+  if(twin&&x.c&&!title.includes(x.c)) title=title+' ('+x.c+')';
   const desc=('Spécialité HLP, '+yearTxt+(x.s!=='zero'?' ('+x.c+(x.j?', jour '+x.j:'')+')':'')+' : '+x.a+', '+x.w+'. '+interpLabel(x)+' : « '+x.iq.replace(/^«\s*|\s*»$/g,'')+' » Essai et entraînement guidé.').replace(/\s+/g,' ');
   const head='Sujet HLP '+(x.s==='zero'?'zéro':x.y+' ('+x.c+(x.j?', jour '+x.j:'')+')')+' : '+x.a+', '+x.w+'.';
   const tails=[' Sujet officiel en PDF, questions et entraînement guidé.',' Sujet officiel et entraînement guidé.',' Entraînement guidé.',''];
@@ -133,13 +135,13 @@ function page(x){
     'hasPart':[{'@type':'Question','name':x.iq},{'@type':'Question','name':x.eq}]};
   const iKind=x.it==='L'?'interpL':'interpP', eKind=x.it==='L'?'essaiP':'essaiL';
   const steps=[
-    step(1,'Lire la question d’interprétation','Recopiez le mot ou l’expression qui porte la question. Que faut-il montrer exactement ? Que ne demande-t-elle pas ?','hlp-interp-question',CHECK[iKind].slice(0,1).concat(['Vous avez distingué ce que la question présuppose de ce qu’elle demande de prouver.'])),
-    step(2,'Repérer les appuis dans le texte','Relevez trois passages qui répondent à la question, et pour chacun ce qu’il apporte de différent.','hlp-interp-reperage',['Les trois passages ne disent pas la même chose.','Chacun est lié à la question par une phrase de votre main.','Vous avez situé les passages dans le mouvement du texte.'],5),
-    step(3,'Construire la réponse','Proposez un plan en deux ou trois étapes : une phrase-réponse par étape, dans l’ordre où elles se nécessitent.','hlp-interp-plan',CHECK[iKind],6),
-    step(4,'Comprendre le sujet d’essai','Définissez les termes importants du sujet et dites ce qu’il oblige à examiner.','hlp-essai-comprendre',CHECK[eKind].slice(0,1)),
+    step(1,'Lire la question d’interprétation','Recopiez le mot ou l’expression qui porte la question.<br>En une phrase : que faut-il montrer ?<br>En une phrase : que la question ne demande-t-elle pas ?','hlp-interp-question',['Le mot recopié est bien celui sur lequel porte la question.','Ce qu’il faut montrer est dit en une phrase, avec les mots de la question.','Vous avez écarté ce que la question ne demande pas : un résumé du texte, un avis personnel.']),
+    step(2,'Repérer les appuis dans le texte','Relevez trois passages qui répondent à la question.<br>Pour chacun, écrivez en une phrase ce qu’il apporte de différent.','hlp-interp-reperage',['Les trois passages ne disent pas la même chose.','Chacun est lié à la question par une phrase de votre main.','Vous avez situé les passages dans le mouvement du texte.'],5),
+    step(3,'Construire la réponse','Écrivez deux ou trois étapes de réponse, une phrase chacune.<br>Rangez-les pour que chaque étape s’appuie sur la précédente.','hlp-interp-plan',['Chaque étape répond à la question, avec ses mots.','Chaque étape s’appuie sur un passage relevé à l’étape 2.','La dernière étape dit ce que les premières ne suffisaient pas à montrer.'],6),
+    step(4,'Comprendre le sujet d’essai','Définissez en une phrase chacun des mots importants du sujet.<br>Puis dites, en une phrase, ce que le sujet oblige à examiner.','hlp-essai-comprendre',['Chaque mot important est défini dans son sens courant.','Vous dites ce que le sujet oblige à examiner, pas seulement de quoi il parle.']),
     step(5,'Construire l’idée','Donnez la première réponse qui paraît juste, avec la raison qui la rend plausible.','hlp-essai-idee',['La réponse est nette (oui, non, à certaines conditions).','La raison est précise et pourrait convaincre quelqu’un.']),
-    step(6,'La pousser jusqu’au bout et chercher la difficulté','Si cette réponse est vraie, que faut-il admettre ? Qu’est-ce qu’elle oblige à sacrifier ou laisse inexpliqué ?','hlp-essai-difficulte',['La conséquence découle vraiment de la première réponse.','La difficulté est propre à ce sujet, pas une objection générale.'],5),
-    step(7,'Formuler le problème et le plan','Écrivez la problématique en une question, puis les trois parties du développement en une phrase chacune.','hlp-essai-plan',CHECK[eKind],6)
+    step(6,'La pousser jusqu’au bout et chercher la difficulté','En une phrase : si cette réponse est vraie, que faut-il admettre ?<br>En une phrase : qu’est-ce qu’elle oblige à sacrifier, ou laisse sans explication ?','hlp-essai-difficulte',['La conséquence découle vraiment de la première réponse.','La difficulté est propre à ce sujet, pas une objection générale.'],5),
+    step(7,'Formuler le problème et le plan','Écrivez la problématique en une seule question.<br>Puis écrivez les trois parties, une phrase chacune.','hlp-essai-plan',CHECK[eKind],6)
   ].join('');
   const noteHtml=x.note?'<p class="hlp-note">'+esc(x.note)+'</p>':'';
   const bankNote=x.bank?'<p class="micro">Libellés relevés dans la banque de sujets indexée de l’académie de Lille : le PDF isolé de ce sujet n’est pas en ligne.</p>':'';
@@ -157,7 +159,7 @@ function page(x){
 
 <section class="pagehead"><div><div class="kicker">ANNALE HLP · ${esc(when(x).toUpperCase())}${x.n?' · SUJET '+x.n+' AU CHOIX':''}</div>
 <h1>${esc(x.a)}<br><span>${esc(x.w)}</span></h1>
-<p class="lede">${x.s==='zero'?'Sujet zéro publié pour présenter l’épreuve.':'Sujet officiel de la spécialité HLP.'} Un texte, deux questions : ${interpLabel(x).toLowerCase()}, puis ${essaiLabel(x).toLowerCase()}.</p>
+<p class="lede">${x.s==='zero'?'Sujet zéro publié pour présenter l’épreuve.':'Sujet officiel de la spécialité HLP.'} Un texte, deux questions : ${interpLabel(x).toLowerCase()}, puis ${essaiLabel(x).toLowerCase()}.</p><div class="boussole" aria-label="Avant de commencer"><p><b>D’où vous partez</b>Le texte du sujet, lu deux fois, crayon en main.</p><p><b>Ce que vous faites</b>Sept étapes courtes : trois pour l’interprétation, quatre pour l’essai.</p><p><b>Ce que vous obtenez</b>Un plan pour chacune des deux questions, vérifié avec une grille.</p></div>
 </div><aside class="side-note">
 ${x.code?'<p><strong>Code :</strong> '+esc(x.code)+'</p>':''}<p><strong>Texte :</strong> ${esc(x.a)}, <em>${workTitle(x)}</em>${x.tr?', trad. '+esc(x.tr):''}.</p>
 ${e?'<p><strong>Entrée du programme :</strong> '+esc(e.label)+' <span class="micro">('+esc(e.sem)+', classement du site)</span></p>':''}
