@@ -2215,3 +2215,7 @@ div.qcm-options>p{border:0!important;background:none!important;box-shadow:none!i
 .comm-texte-band .texte-examen div{display:contents}
 @media(max-width:760px){.comm-carte{grid-template-columns:1fr 1fr}}
 .annales-officiels{font-size:22px;margin:26px 0 10px}
+
+/* === texte-vers : un vers trop long pour l’écran se poursuit en retrait, pour qu’on voie où commence le vers suivant === */
+.texte-examen .vers{padding-left:1.2em;text-indent:-1.2em}
+.texte-examen p.micro{text-indent:0}

@@ -1121,14 +1121,14 @@ window.PHILO_EXEMPLES=[
 "technique",
 "science"
 ],
-"scene": "Victor Frankenstein parvient à animer un corps et s’enfuit, horrifié, dès que la créature ouvre les yeux. Plus tard, il accepte de lui fabriquer une compagne, puis la détruit sous l’effet de la peur ; la créature se venge.",
+"scene": "Victor Frankenstein parvient à animer un corps et s’enfuit, horrifié, dès que la créature ouvre les yeux. Plus tard, il accepte de lui fabriquer une compagne, puis la détruit avant de l’achever, de peur d’engendrer une race de monstres ; la créature se venge.",
 "ref": "Chapitre 5, puis chapitre 20",
 "sujets": [
 {
 "s": "Ce qui est techniquement possible est-il toujours souhaitable ?",
 "oui": "Victor fait ce qu’il peut faire, et ne sait plus quoi faire de ce qu’il a fait.",
-"non": "Quand il s’arrête, il le fait sous le coup de la peur, sans savoir où ni pourquoi s’arrêter : sa créature se venge.",
-"aporie": "Tout réaliser le dépasse ; s’arrêter sans raison ne répare rien."
+"non": "Quand il s’arrête, il décide encore seul, et trop tard : sa créature se venge sur ceux qu’il aime.",
+"aporie": "Tout réaliser le dépasse ; s’arrêter seul et trop tard ne répare rien."
 }
 ],
 "partie": null,
