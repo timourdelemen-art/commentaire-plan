@@ -118,6 +118,7 @@ Format : date · ce qui s’est passé · la règle qui en découle. Proposez un
 - 2026-10-09 · Deux agents ont travaillé en même temps sur `main` sans se voir (PR #65 à #70). · Vérifier les PR ouvertes et leurs « Fichiers réservés » avant de commencer (§ 1).
 - 2026-10-09 · Cinq PR (n° 73 à 79) ont été fusionnées en indiquant « tests non réalisés » ; le diagnostic mis en ligne donnait la bonne réponse comme la plus longue dans tous les nouveaux sujets, et un sujet n’était pas un vrai sujet du bac. · Pas de fusion sans tests (§ 1, règle 7) ; la vérification pédagogique aurait détecté les deux défauts.
 - 2026-10-09 · Des termes propres à la méthode (« le donné », « transition-question ») ont été retirés des consignes parce qu’un audit les jugeait techniques. · Ne pas supprimer le vocabulaire de la méthode : l’expliquer, avec un exemple, à sa première apparition (§ 2).
+- 2026-10-09 · Une copie à 20 ouvrait sur La Zone d’intérêt, que la banque d’exemples classait elle-même « pour une partie » (une seule réponse) ; une autre citait une réplique de film doublé jamais vérifiée. · Avant de garder une scène d’ouverture, vérifier qu’elle est classée « peut ouvrir ce sujet » dans la banque ; une réplique non vérifiée se paraphrase, sans guillemets.
 
 ## 7. Décisions du propriétaire
 
@@ -126,7 +127,7 @@ Prises (9 octobre 2026) :
 - **QCM** : longueurs comparables, sans seuil chiffré strict.
 - **Notions de philosophie** : les 17 notions restent accessibles par une entrée secondaire clairement visible sur `philosophie.html` (pas seulement dans un menu replié).
 - **Textes manquants des annales** : un texte n’est intégré qu’après vérification de la source officielle (découpage exact de l’extrait, numéros de ligne) et des droits.
-- **Copies à 20** : chaque correction de scène d’ouverture est examinée individuellement par le propriétaire avant validation.
+- **Copies à 20** : chaque correction de scène d’ouverture est examinée individuellement par le propriétaire avant validation. Le 9 octobre, le propriétaire a délégué cet examen pour les quatre copies en attente (religion, science, bonheur, technique) : voir la PR correspondante.
 - **« Opération »** : conservé, avec une explication simple à sa première apparition : « une opération intellectuelle, c’est quelque chose que vous faites avec une idée : la distinguer, la comparer, la mettre à l’épreuve ou la transformer ». Le terme sert l’autonomie de l’élève.
 
 En attente :
