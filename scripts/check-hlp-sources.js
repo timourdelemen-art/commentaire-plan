@@ -4,6 +4,10 @@ const fs = require('node:fs');
 const path = require('node:path');
 const root = path.resolve(__dirname, '..');
 const files = fs.readdirSync(root).filter(n => /^hlp(?:-.*)?\.html$/.test(n));
+if (!files.length) {
+  console.error('HLP : aucune page générée à vérifier.');
+  process.exit(1);
+}
 const failures = [];
 for (const name of files) {
   const html = fs.readFileSync(path.join(root, name), 'utf8');
