@@ -61,6 +61,7 @@ function staticHeader(file){
       ['philosophie-dissertation-entrainement.html','S’entraîner','Étape 4 · des exercices courts, corrigés'],
       ['philosophie-annales.html','Faire un sujet du bac','Étape 5 · les sujets 2026 corrigés'],
       ['philosophie-laboratoire.html','Je bloque sur…','Un exercice pour chaque difficulté'],
+      ['philosophie-exemples.html','Trouver un exemple','Théâtre, roman, cinéma : la scène qui ouvre votre sujet'],
       ['philosophie-notions.html','Travailler une notion','Les 17 notions : sujets du bac et corrigés'],
       ['philosophie-jour-du-bac.html','Le jour du bac','Gérer les 4 heures de l’épreuve']
     ],philoPages.has(base)||base.startsWith('philosophie')),

@@ -64,6 +64,8 @@ const EX=[
 
 /* Liens qui ne sont pas des exercices mais aident dans une difficulté */
 const EXTRA={
+idees:[['philosophie-exemples.html','Trouver un exemple','Votre sujet, et les scènes de théâtre, de roman ou de cinéma qui en font voir les deux réponses.','Trouver un exemple →']],
+references:[['philosophie-exemples.html','La banque d’exemples','Choisissez votre sujet : les scènes de théâtre, de roman ou de cinéma qui en font voir les deux réponses, avec des citations vérifiées.','Trouver un exemple →']],
 probleme:[['philosophie-probleme-pas-a-pas.html','Trouver le problème au clic','Sept questions, trois propositions à chaque fois : vous allez du sujet à la problématique sans rien écrire. À refaire autant de fois que vous voulez.','Commencer au clic →']],
 sujet:[[P+'#petits-mots','Les petits mots qui comptent','Un tableau : ce que « peut-on », « faut-il », « suffit-il »… font au sujet.']],
 troisieme:[[O+'#test-troisieme','Le test de la troisième partie','Quatre questions pour vérifier votre III avant de la rédiger.']],
