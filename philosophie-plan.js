@@ -9,6 +9,10 @@ const typo=s=>String(s).replace(/ ([;:?!»])/g,NB+'$1').replace(/« /g,'«'+NB);
 const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 const T=s=>typo(esc(s));
 const KEY='philo-plan-fait';
+const SEEN_KEY='plan-chaine-tentatives';
+const seen=()=>{try{return JSON.parse(localStorage.getItem(SEEN_KEY)||'{}')}catch(e){return {}}};
+const record=id=>{const a=seen();a[id]=(a[id]||0)+1;try{localStorage.setItem(SEEN_KEY,JSON.stringify(a))}catch(e){}};
+const leastNew=(items,current,level)=>items.map((x,i)=>({i,n:seen()[level+':'+x.id]||0})).filter(x=>x.i!==current).sort((a,b)=>a.n-b.n||a.i-b.i)[0]?.i;
 const read=()=>{try{return JSON.parse(localStorage.getItem(KEY)||'[]')}catch(e){return []}};
 const save=a=>{try{localStorage.setItem(KEY,JSON.stringify(a))}catch(e){}};
 const shuffle=a=>{const b=a.slice();for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]];}return b;};
@@ -27,8 +31,9 @@ function tabs(){
   return `<nav class="chaine-tabs" aria-label="Niveaux">${[[1,'Niveau 1','Au clic'],[2,'Niveau 2','J’écris un peu'],[3,'Niveau 3','J’écris tout']].map(([n,a,b])=>`<button type="button" data-level="${n}" class="${n===level?'on':''}" ${n===level?'aria-current="step"':''}><b>${a}</b><span>${typo(b)}</span></button>`).join('')}</nav>`;
 }
 function chooser(){
-  if(level!==1) return '';
+  if(level===3) return '';
   const done=read();
+  if(level===2) return `<div class="chaine-sujets"><span>Un autre sujet pour écrire sans propositions</span>${D.niveau2.map((s,i)=>`<button type="button" data-subj="${i}" class="${i===si?'on':''}">${seen()['2:'+s.id]?'↻ ':''}${T(s.sujet)}</button>`).join('')}</div>`;
   return `<div class="chaine-sujets"><span>Sujet</span>${D.niveau1.map((s,i)=>`<button type="button" data-subj="${i}" class="${i===si?'on':''}">${done.includes(s.id)?'✓ ':''}${T(s.sujet)}</button>`).join('')}<button type="button" class="plan-hasard">Un sujet au hasard</button></div>`;
 }
 function carte(){
@@ -57,23 +62,24 @@ function stepView(){
 function endView(){
   const s=subj();
   const done=read(); if(!done.includes(s.id)){done.push(s.id);save(done);}
-  const nextSubj = level===1 && si<D.niveau1.length-1;
+  if(!got._recorded){record(level+':'+s.id);got._recorded=true;}
+  const nextSubj=list().length>1;
   return `<div class="chaine-fin"><div class="kicker">C’EST FAIT</div><h2>Vous avez le plan détaillé.</h2>
   <p class="micro">Chaque partie naît de la limite de la précédente ; la troisième garde le plus possible des deux premières, et la conclusion dit ce qui reste ouvert.</p>
   ${s.annale?`<p class="chaine-annale">Ce sujet est tombé au bac 2026. <a class="official-link" href="philosophie-bac-2026-${s.annale}.html">Le travailler en entier, avec le corrigé et une copie à 20 →</a></p>`:''}
   <div class="chaine-nav">
-   <button type="button" class="btn small plan-again">Recommencer ce sujet</button>
-   ${nextSubj?`<button type="button" class="btn small plan-nextsubj">Sujet suivant</button>`:''}
+   <button type="button" class="btn small plan-again">Revoir ce même sujet</button>
+   ${nextSubj?`<button type="button" class="btn small plan-nextsubj">Essayer un autre sujet →</button>`:''}
    ${level>1?`<button type="button" class="home-text-link plan-prevlevel">← Niveau précédent</button>`:''}
    <button type="button" class="btn red small plan-nextlevel">Niveau suivant →</button>
   </div></div>`;
 }
 function level3(){
   const n=D.niveau3;
+  const choices=Array.isArray(n)?n:[n];
   return `<div class="chaine-step"><div class="kicker">NIVEAU 3 · J’ÉCRIS TOUT</div><h2>Un sujet entier, sans propositions.</h2>
   <p>Vous faites seul tout le chemin : la problématique, puis les trois parties, les transitions et la conclusion. Le corrigé et la copie à 20 vous attendent à la fin.</p>
-  <p class="chaine-pb">${typo('« '+esc(n.sujet)+' »')}</p>
-  <p><a class="btn red small" href="${n.href}">Faire ce sujet →</a></p>
+  <p>Choisissez un sujet inédit :</p><ul>${choices.map(x=>`<li><a href="${x.href}">${T(x.sujet)} →</a></li>`).join('')}</ul>
   <div class="chaine-nav"><button type="button" class="home-text-link plan-prevlevel">← Niveau précédent</button></div></div>`;
 }
 function render(){
@@ -89,7 +95,7 @@ function go(){ step=0; got=[]; render(); root.scrollIntoView({behavior:'smooth',
 function bind(){
   root.querySelectorAll('[data-level]').forEach(b=>b.onclick=()=>{level=Number(b.dataset.level);si=0;go();});
   root.querySelectorAll('[data-subj]').forEach(b=>b.onclick=()=>{si=Number(b.dataset.subj);go();});
-  const h=root.querySelector('.plan-hasard'); if(h) h.onclick=()=>{ let n=si; while(D.niveau1.length>1&&n===si) n=Math.floor(Math.random()*D.niveau1.length); si=n; go(); };
+  const h=root.querySelector('.plan-hasard'); if(h) h.onclick=()=>{const j=leastNew(list(),si,level);if(j!==undefined){si=j;go();}};
   const fb=root.querySelector('.chaine-fb');
   root.querySelectorAll('.chaine-opt').forEach(b=>b.onclick=()=>{
     const e=subj().etapes[step], o=e.o[Number(b.dataset.k)], st=o[1];
@@ -113,7 +119,7 @@ function bind(){
   };
   const q=(c,f)=>{const el=root.querySelector(c); if(el) el.onclick=f;};
   q('.plan-again',go);
-  q('.plan-nextsubj',()=>{si++;go();});
+  q('.plan-nextsubj',()=>{const j=leastNew(list(),si,level);if(j!==undefined){si=j;go();}});
   q('.plan-nextlevel',()=>{level=Math.min(3,level+1);si=0;go();});
   q('.plan-prevlevel',()=>{level=Math.max(1,level-1);si=0;go();});
 }

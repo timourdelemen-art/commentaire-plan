@@ -11,6 +11,10 @@ const typo=s=>String(s).replace(/ ([;:?!»])/g,NB+'$1').replace(/« /g,'«'+NB);
 const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 const T=s=>typo(esc(s));
 const KEY='commentaire-chaine-fait';
+const SEEN_KEY='commentaire-chaine-tentatives';
+const seen=()=>{try{return JSON.parse(localStorage.getItem(SEEN_KEY)||'{}')}catch(e){return {}}};
+const record=id=>{const a=seen();a[id]=(a[id]||0)+1;try{localStorage.setItem(SEEN_KEY,JSON.stringify(a))}catch(e){}};
+const leastNew=(items,current,level)=>items.map((x,i)=>({i,n:seen()[level+':'+x.id]||0})).filter(x=>x.i!==current).sort((a,b)=>a.n-b.n||a.i-b.i)[0]?.i;
 const read=()=>{try{return JSON.parse(localStorage.getItem(KEY)||'[]')}catch(e){return []}};
 const save=a=>{try{localStorage.setItem(KEY,JSON.stringify(a))}catch(e){}};
 const shuffle=a=>{const b=a.slice();for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]];}return b;};
@@ -57,13 +61,15 @@ function stepView(){
 function endView(){
   const s=subj();
   const done=read(); if(!done.includes(s.id)){done.push(s.id);save(done);}
-  const nextSubj = level===1 && si<D.niveau1.length-1;
+  if(!got._recorded){record(level+':'+s.id);got._recorded=true;}
+  const nextSubj=list().length>1;
   return `<div class="chaine-fin"><div class="kicker">C’EST FAIT</div><h2>Vous avez la problématique et le début du plan.</h2>
   <p class="micro">De la lecture à la problématique, puis une partie prouvée par les mots du texte : c’est tout le chemin du commentaire. La partie II naît de ce que la partie I n’expliquait pas.</p>
+  <p class="micro">Ce passage a été parcouru. Pour vérifier votre autonomie, travaillez un autre extrait : refaire les mêmes choix ne suffit pas.</p>
   <p class="chaine-annale">Pour continuer sur ce passage : <a class="official-link" href="pot-bouille-pb01.html">l’extrait complet et ses exercices →</a></p>
   <div class="chaine-nav">
-   <button type="button" class="btn small comm-again">Recommencer ce sujet</button>
-   ${nextSubj?`<button type="button" class="btn small comm-nextsubj">Sujet suivant</button>`:''}
+   <button type="button" class="btn small comm-again">Revoir ce même sujet</button>
+   ${nextSubj?`<button type="button" class="btn small comm-nextsubj">Essayer un autre sujet →</button>`:''}
    ${level>1?`<button type="button" class="home-text-link comm-prevlevel">← Niveau précédent</button>`:''}
    <button type="button" class="btn red small comm-nextlevel">Niveau suivant →</button>
   </div></div>`;
@@ -71,9 +77,9 @@ function endView(){
 function level3(){
   const n=D.niveau3;
   return `<div class="chaine-step"><div class="kicker">NIVEAU 3 · J’ÉCRIS TOUT</div><h2>Un autre passage, sans propositions.</h2>
-  <p>Un autre passage du roman : cette fois, vous faites seul le chemin, de la lecture au plan.</p>
+  <p>Sur un autre passage, faites seul le chemin, de la lecture au plan. Ce niveau ne propose pas encore une banque complète de textes : ne confondez pas cette reprise avec une maîtrise vérifiée.</p>
   <p class="chaine-pb">${typo('« '+esc(n.sujet)+' »')}</p>
-  <p><a class="btn red small" href="${n.href}">Travailler ce passage →</a></p>
+  <p><a class="btn red small" href="${n.href}">Travailler ce passage →</a> <a class="home-text-link" href="bac-commentaire.html">Choisir un autre texte →</a></p>
   <div class="chaine-nav"><button type="button" class="home-text-link comm-prevlevel">← Niveau précédent</button></div></div>`;
 }
 function render(){
@@ -114,7 +120,7 @@ function bind(){
   const tb=root.querySelector('.comm-texte'); if(tb) tb.onclick=()=>{const d=document.getElementById('textDialog'); if(d&&d.showModal) d.showModal();};
   const q=(c,f)=>{const el=root.querySelector(c); if(el) el.onclick=f;};
   q('.comm-again',go);
-  q('.comm-nextsubj',()=>{si++;go();});
+  q('.comm-nextsubj',()=>{const j=leastNew(list(),si,level);if(j!==undefined){si=j;go();}});
   q('.comm-nextlevel',()=>{level=Math.min(3,level+1);si=0;go();});
   q('.comm-prevlevel',()=>{level=Math.max(1,level-1);si=0;go();});
 }
