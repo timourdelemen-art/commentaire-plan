@@ -1,0 +1,41 @@
+name: Audit approfondi du corpus Mélès (exploratoire)
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'scripts/audit-philo-corpus-v2.py'
+      - 'scripts/test-audit-philo-corpus-v2.py'
+      - '.github/workflows/audit-philo-corpus-v2.yml'
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          ref: corpus
+          path: corpus-interne
+          sparse-checkout: |
+            meles-brut.txt
+      - name: Tests de non-régression du script
+        run: python3 scripts/test-audit-philo-corpus-v2.py
+      - name: Auditer le texte complet sans publier les sujets
+        run: |
+          test -s corpus-interne/meles-brut.txt
+          python3 scripts/audit-philo-corpus-v2.py corpus-interne/meles-brut.txt --output audit-meles-v2.json
+          python3 - <<'PY'
+          import json
+          d=json.load(open('audit-meles-v2.json'))
+          assert d['pages_fragments'] >= 900
+          assert d['lignes_candidates'] > 10000
+          print('Lignes candidates:', d['lignes_candidates'])
+          print('Lignes distinctes normalisees:', d['lignes_uniques_normalisees'])
+          print('Statut:', d['statut'])
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: audit-meles-v2-interne
+          path: audit-meles-v2.json
+          retention-days: 7
