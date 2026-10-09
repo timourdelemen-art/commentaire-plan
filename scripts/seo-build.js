@@ -48,6 +48,7 @@ function staticHeader(file){
   const portals=[
     portal(file,'bac.html','BAC','écrit · oral',[
       ['bac-commentaire.html','Préparer le commentaire','Comprendre la méthode et s’entraîner étape par étape'],
+      ['commentaire-pas-a-pas.html','Le commentaire au clic','Neuf questions, du texte à la problématique'],
       ['bac-dissertation.html','Préparer la dissertation','Construire une réflexion et rédiger'],
       ['bac-oral.html','Préparer l’oral','Travailler les attentes de l’épreuve'],
       ['annales.html#bac','Faire une annale','S’entraîner sur un sujet officiel'],

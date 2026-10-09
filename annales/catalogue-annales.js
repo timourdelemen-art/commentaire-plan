@@ -197,10 +197,10 @@ window.ANNALES_CATALOGUE = {
         "id": "realisations",
         "kind": "analyse",
         "aiMode": "optional",
-        "titre": "8. Ce que le texte fait",
+        "titre": "8. Les réalisations : ce que le texte fait",
         "temps": 780,
         "access": "free",
-        "consigne": "Pour chaque partie de votre plan, écrivez deux choses que le texte fait pour la prouver, une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux réalisations, c’est-à-dire deux choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez des actions d’écriture différentes : construire la défaite, donner une autorité à la parole, modifier la valeur de la mort. Une réalisation n’est pas le nom d’une figure."
       },
       {
@@ -210,7 +210,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "free",
-        "consigne": "Choisissez deux choses que le texte fait. Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
+        "consigne": "Choisissez deux réalisations (deux choses que le texte fait). Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
         "aide": "Un procédé n’a pas d’effet automatique. Ne nommez un procédé que s’il aide réellement à expliquer l’élément.",
         "manual": [
           "impératif",
@@ -352,10 +352,10 @@ window.ANNALES_CATALOGUE = {
         "id": "realisations",
         "kind": "analyse",
         "aiMode": "optional",
-        "titre": "8. Ce que le texte fait",
+        "titre": "8. Les réalisations : ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Pour chaque partie de votre plan, écrivez deux choses que le texte fait pour la prouver, une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux réalisations, c’est-à-dire deux choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez comment le texte organise le regard : choix sensoriels ou lexicaux, point de vue, composition du passage, rythme. Formulez d’abord ce que ces moyens permettent de réaliser."
       },
       {
@@ -365,7 +365,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
-        "consigne": "Choisissez deux choses que le texte fait. Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
+        "consigne": "Choisissez deux réalisations (deux choses que le texte fait). Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
         "aide": "Un procédé n’a pas d’effet automatique. Ne nommez un procédé que s’il aide réellement à expliquer l’élément.",
         "manual": [
           "choix lexical",
@@ -507,10 +507,10 @@ window.ANNALES_CATALOGUE = {
         "id": "realisations",
         "kind": "analyse",
         "aiMode": "optional",
-        "titre": "8. Ce que le texte fait",
+        "titre": "8. Les réalisations : ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Pour chaque partie de votre plan, écrivez deux choses que le texte fait pour la prouver, une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux réalisations, c’est-à-dire deux choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez plusieurs opérations : creuser le vide et la solitude, faire circuler des paroles ou croyances, donner au paysage une présence, organiser une montée de l’inquiétude."
       },
       {
@@ -520,7 +520,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
-        "consigne": "Choisissez deux choses que le texte fait. Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
+        "consigne": "Choisissez deux réalisations (deux choses que le texte fait). Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
         "aide": "Un procédé n’a pas d’effet automatique. Ne nommez un procédé que s’il aide réellement à expliquer l’élément.",
         "manual": [
           "négation répétée",
@@ -662,10 +662,10 @@ window.ANNALES_CATALOGUE = {
         "id": "realisations",
         "kind": "analyse",
         "aiMode": "optional",
-        "titre": "8. Ce que le texte fait",
+        "titre": "8. Les réalisations : ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Pour chaque partie de votre plan, écrivez deux choses que le texte fait pour la prouver, une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux réalisations, c’est-à-dire deux choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez comment l’argumentation déplace le jugement : oppositions, exemples ou comparaisons, paradoxes éventuels, progression du raisonnement."
       },
       {
@@ -675,7 +675,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
-        "consigne": "Choisissez deux choses que le texte fait. Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
+        "consigne": "Choisissez deux réalisations (deux choses que le texte fait). Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
         "aide": "Un procédé n’a pas d’effet automatique. Ne nommez un procédé que s’il aide réellement à expliquer l’élément.",
         "manual": [
           "opposition lexicale",
@@ -817,10 +817,10 @@ window.ANNALES_CATALOGUE = {
         "id": "realisations",
         "kind": "analyse",
         "aiMode": "optional",
-        "titre": "8. Ce que le texte fait",
+        "titre": "8. Les réalisations : ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Pour chaque partie de votre plan, écrivez deux choses que le texte fait pour la prouver, une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux réalisations, c’est-à-dire deux choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez comment le poème fait communiquer les deux univers : métaphores, oppositions lexicales, rythme et organisation des vers."
       },
       {
@@ -830,7 +830,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
-        "consigne": "Choisissez deux choses que le texte fait. Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
+        "consigne": "Choisissez deux réalisations (deux choses que le texte fait). Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
         "aide": "Un procédé n’a pas d’effet automatique. Ne nommez un procédé que s’il aide réellement à expliquer l’élément.",
         "manual": [
           "métaphore",
@@ -972,10 +972,10 @@ window.ANNALES_CATALOGUE = {
         "id": "realisations",
         "kind": "analyse",
         "aiMode": "optional",
-        "titre": "8. Ce que le texte fait",
+        "titre": "8. Les réalisations : ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Pour chaque partie de votre plan, écrivez deux choses que le texte fait pour la prouver, une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux réalisations, c’est-à-dire deux choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez comment le texte fait sentir simultanément l’accord et l’obstacle : perception interne, sensations, oppositions, rythme des pensées puis dialogue."
       },
       {
@@ -985,7 +985,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
-        "consigne": "Choisissez deux choses que le texte fait. Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
+        "consigne": "Choisissez deux réalisations (deux choses que le texte fait). Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
         "aide": "Un procédé n’a pas d’effet automatique. Ne nommez un procédé que s’il aide réellement à expliquer l’élément.",
         "manual": [
           "focalisation",
@@ -1127,10 +1127,10 @@ window.ANNALES_CATALOGUE = {
         "id": "realisations",
         "kind": "analyse",
         "aiMode": "optional",
-        "titre": "8. Ce que le texte fait",
+        "titre": "8. Les réalisations : ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Pour chaque partie de votre plan, écrivez deux choses que le texte fait pour la prouver, une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux réalisations, c’est-à-dire deux choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez comment le poème transforme les objets de la scène : répétitions, images du feu, miroir, mémoire et composition fondée sur le retour des mêmes formules."
       },
       {
@@ -1140,7 +1140,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
-        "consigne": "Choisissez deux choses que le texte fait. Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
+        "consigne": "Choisissez deux réalisations (deux choses que le texte fait). Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
         "aide": "Un procédé n’a pas d’effet automatique. Ne nommez un procédé que s’il aide réellement à expliquer l’élément.",
         "manual": [
           "métaphore",
@@ -1282,10 +1282,10 @@ window.ANNALES_CATALOGUE = {
         "id": "realisations",
         "kind": "analyse",
         "aiMode": "optional",
-        "titre": "8. Ce que le texte fait",
+        "titre": "8. Les réalisations : ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Pour chaque partie de votre plan, écrivez deux choses que le texte fait pour la prouver, une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux réalisations, c’est-à-dire deux choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez plusieurs mouvements d’écriture : généraliser, confronter l’individu au temps, faire entendre l’émotion, transformer la ruine en espace de retrait. Appuyez-vous sur rythme, énumérations, questions et images."
       },
       {
@@ -1295,7 +1295,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
-        "consigne": "Choisissez deux choses que le texte fait. Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
+        "consigne": "Choisissez deux réalisations (deux choses que le texte fait). Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
         "aide": "Un procédé n’a pas d’effet automatique. Ne nommez un procédé que s’il aide réellement à expliquer l’élément.",
         "manual": [
           "métaphore",
@@ -1437,10 +1437,10 @@ window.ANNALES_CATALOGUE = {
         "id": "realisations",
         "kind": "analyse",
         "aiMode": "optional",
-        "titre": "8. Ce que le texte fait",
+        "titre": "8. Les réalisations : ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Pour chaque partie de votre plan, écrivez deux choses que le texte fait pour la prouver, une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux réalisations, c’est-à-dire deux choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez comment le dialogue rend le conflit visible : interrogations, reprises, antithèses, rythme des répliques et tension entre douleur privée et gloire publique."
       },
       {
@@ -1450,7 +1450,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
-        "consigne": "Choisissez deux choses que le texte fait. Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
+        "consigne": "Choisissez deux réalisations (deux choses que le texte fait). Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
         "aide": "Un procédé n’a pas d’effet automatique. Ne nommez un procédé que s’il aide réellement à expliquer l’élément.",
         "manual": [
           "interrogation",
@@ -1592,10 +1592,10 @@ window.ANNALES_CATALOGUE = {
         "id": "realisations",
         "kind": "analyse",
         "aiMode": "optional",
-        "titre": "8. Ce que le texte fait",
+        "titre": "8. Les réalisations : ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Pour chaque partie de votre plan, écrivez deux choses que le texte fait pour la prouver, une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux réalisations, c’est-à-dire deux choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez comment le portrait agit : comparaisons et métaphores, réseaux lexicaux du corps, de l’animal ou de la nature, point de vue et composition collective."
       },
       {
@@ -1605,7 +1605,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
-        "consigne": "Choisissez deux choses que le texte fait. Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
+        "consigne": "Choisissez deux réalisations (deux choses que le texte fait). Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
         "aide": "Un procédé n’a pas d’effet automatique. Ne nommez un procédé que s’il aide réellement à expliquer l’élément.",
         "manual": [
           "comparaison",
@@ -1747,10 +1747,10 @@ window.ANNALES_CATALOGUE = {
         "id": "realisations",
         "kind": "analyse",
         "aiMode": "optional",
-        "titre": "8. Ce que le texte fait",
+        "titre": "8. Les réalisations : ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Pour chaque partie de votre plan, écrivez deux choses que le texte fait pour la prouver, une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux réalisations, c’est-à-dire deux choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez comment le théâtre du masque devient crise de l’identité : images du rôle et du spectacle, antithèses, questions, modalisation et rythme des longues tirades."
       },
       {
@@ -1760,7 +1760,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
-        "consigne": "Choisissez deux choses que le texte fait. Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
+        "consigne": "Choisissez deux réalisations (deux choses que le texte fait). Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
         "aide": "Un procédé n’a pas d’effet automatique. Ne nommez un procédé que s’il aide réellement à expliquer l’élément.",
         "manual": [
           "double énonciation",
@@ -1902,10 +1902,10 @@ window.ANNALES_CATALOGUE = {
         "id": "realisations",
         "kind": "analyse",
         "aiMode": "optional",
-        "titre": "8. Ce que le texte fait",
+        "titre": "8. Les réalisations : ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Pour chaque partie de votre plan, écrivez deux choses que le texte fait pour la prouver, une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux réalisations, c’est-à-dire deux choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez comment l’écriture fait glisser du réel au possible : accumulations d’objets, modalisation, conditionnel, oppositions et composition de la description."
       },
       {
@@ -1915,7 +1915,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
-        "consigne": "Choisissez deux choses que le texte fait. Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
+        "consigne": "Choisissez deux réalisations (deux choses que le texte fait). Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
         "aide": "Un procédé n’a pas d’effet automatique. Ne nommez un procédé que s’il aide réellement à expliquer l’élément.",
         "manual": [
           "champ lexical",
@@ -2057,10 +2057,10 @@ window.ANNALES_CATALOGUE = {
         "id": "realisations",
         "kind": "analyse",
         "aiMode": "optional",
-        "titre": "8. Ce que le texte fait",
+        "titre": "8. Les réalisations : ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Pour chaque partie de votre plan, écrivez deux choses que le texte fait pour la prouver, une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux réalisations, c’est-à-dire deux choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez comment le lieu est requalifié : choix lexicaux, images, rythme, adresse éventuelle au lieu et progression de la composition."
       },
       {
@@ -2070,7 +2070,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
-        "consigne": "Choisissez deux choses que le texte fait. Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
+        "consigne": "Choisissez deux réalisations (deux choses que le texte fait). Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
         "aide": "Un procédé n’a pas d’effet automatique. Ne nommez un procédé que s’il aide réellement à expliquer l’élément.",
         "manual": [
           "choix lexical",
