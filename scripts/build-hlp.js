@@ -173,7 +173,7 @@ ${noteHtml}${bankNote}</aside></section>
 <div><span class="hlp-filter-label">Première partie · ${interpLabel(x)} · 10 points</span><p class="hlp-q">${esc(x.iq)}</p></div>
 <div><span class="hlp-filter-label">Deuxième partie · ${essaiLabel(x)} · 10 points</span><p class="hlp-q">${esc(x.eq)}</p></div>
 </div>
-<p class="micro">Lisez d’abord le texte dans le PDF du sujet. Les questions sont reproduites telles qu’elles figurent sur le sujet.</p>
+<p class="micro">${p.href?"Lisez d’abord le texte dans le PDF du sujet. Les questions sont reproduites telles qu’elles figurent sur le sujet.":"Le PDF officiel de ce sujet reste à retrouver. Les questions sont indiquées pour référence ; vérifiez le texte avant de commencer l’exercice."}</p>
 </section>
 
 <section class="exercise-wrap hlp-training" data-hlp-id="${x.id}"><div class="exercise-intro"><div><div class="kicker">S’ENTRAÎNER</div><h2>Sept étapes, de la question au plan.</h2></div>
