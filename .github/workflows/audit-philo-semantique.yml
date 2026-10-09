@@ -20,6 +20,16 @@ jobs:
             bac-dissertations.txt
       - name: Vérifier la présence du recueil de concours
         run: test -s corpus-interne/meles-brut.txt
+      - name: Vérifier l'intégrité minimale du texte extrait
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path('corpus-interne/meles-brut.txt')
+          s = p.read_text(encoding='utf-8')
+          assert len(s) > 100000, 'Extraction Mélès anormalement courte'
+          assert s.count('\\f') >= 900, 'Pagination PDF absente ou extraction suspecte'
+          print('Corpus paginé présent ; caractères :', len(s))
+          PY
       - name: Audit descriptif (ne produit aucun exercice)
         run: |
           python3 scripts/audit-philo-semantique.py corpus-interne/meles-brut.txt --output audit-meles.json
