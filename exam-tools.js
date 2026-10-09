@@ -189,21 +189,17 @@ document.addEventListener('DOMContentLoaded',()=>{
 
     const lockUntil=()=>Number(localStorage.getItem(lockKey)||0);
     const suspendOral=()=>{
-      const until=Date.now()+24*60*60*1000;
-      localStorage.setItem(lockKey,String(until));
-      document.querySelectorAll("#oral-simulation textarea,#oral-simulation input,#oral-simulation button,#oral-source textarea,#oral-source input,.oral-prep button").forEach(el=>el.disabled=true);
       const host=document.getElementById("oral-simulation");
       if(host && !document.getElementById("oral-lock-message")){
         const box=document.createElement("div");
         box.id="oral-lock-message";
         box.className="examiner-card";
-        box.innerHTML='<div class="examiner-label">EXERCICE SUSPENDU</div><p>Réponse hors sujet. Cet exercice est suspendu pendant au moins 24 heures.</p>';
+        box.innerHTML='<div class="examiner-label">PAS ENCORE DANS LE SUJET</div><p>Votre réponse ne parle pas encore du sujet : relisez la consigne, puis reprenez. Vous pouvez demander un nouveau retour dès que vous avez réécrit.</p>';
         host.prepend(box);
       }
     };
 
-    if(lockUntil()>Date.now()) suspendOral();
-    else if(lockUntil()) localStorage.removeItem(lockKey);
+    if(lockUntil()) localStorage.removeItem(lockKey);
 
     const analyze=async(answer,instruction,quote="",previousAnswer="")=>{
       const res=await fetch(ORAL_ENDPOINT,{

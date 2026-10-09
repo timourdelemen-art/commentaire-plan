@@ -22,10 +22,26 @@ window.ANNALES_CATALOGUE = {
         "titre": "1. Ce que le texte met en place",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases, répondez simplement : qu’est-ce que le texte met en place ? Restez au plus près du passage.",
+        "consigne": "En une ou deux phrases : que se passe-t-il au début du texte ? Restez au plus près des mots du passage.",
         "aide": "Commencez par ce qui est effectivement présent : champ de bataille, survivant, morts, paroles du personnage. Ne donnez pas encore le sens global du poème.",
-        "choix": ["Un guerrier victorieux célèbre son triomphe.", "Un guerrier gravement blessé reste seul parmi ses compagnons morts.", "Un amoureux hésite à déclarer ses sentiments."],
-        "correction": "Le donné est une défaite physique : Hialmar est grièvement blessé, entouré de guerriers morts, et sa propre mort est imminente."
+        "choix": [
+          [
+            "Un guerrier vainqueur célèbre son triomphe sur le champ de bataille.",
+            "no",
+            "Relisez : Hialmar est blessé à mort, entouré de morts. Rien n’indique une victoire."
+          ],
+          [
+            "Un guerrier blessé à mort reste seul parmi ses compagnons tués.",
+            "ok",
+            "C’est ce que le texte met en place : une défaite physique, et la mort qui vient."
+          ],
+          [
+            "Un guerrier mourant pense à la femme qu’il aime, loin du combat.",
+            "def",
+            "C’est vrai plus loin dans le poème, mais ce n’est pas ce que le texte installe d’abord : la défaite."
+          ]
+        ],
+        "correction": "Le texte met en place une défaite physique : Hialmar est grièvement blessé, entouré de guerriers morts, et sa propre mort est imminente."
       },
       {
         "id": "attente",
@@ -34,9 +50,25 @@ window.ANNALES_CATALOGUE = {
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
-        "consigne": "À partir de ce donné, formulez l’attente de lecture la plus simple : qu’aurait-on pu normalement attendre ?",
+        "consigne": "En une phrase : à partir de cette situation, que s’attendrait-on normalement à lire ensuite ?",
         "aide": "À partir d’un guerrier mortellement blessé après une défaite, quelle évolution paraîtrait la plus attendue ? Une phrase suffit.",
-        "choix": ["Une agonie douloureuse, subie et dominée par l’impuissance.", "Une victoire militaire éclatante.", "Une scène comique fondée sur un malentendu."],
+        "choix": [
+          [
+            "Une agonie douloureuse, subie dans l’impuissance face à la mort.",
+            "ok",
+            "C’est l’attente la plus simple : un corps vaincu laisse attendre une mort subie."
+          ],
+          [
+            "Une victoire éclatante qui renverse le cours de la bataille.",
+            "no",
+            "Un guerrier blessé à mort ne peut plus gagner la bataille : ce n’est pas ce qu’on attend."
+          ],
+          [
+            "Une plainte où le guerrier maudit les dieux qui l’abandonnent.",
+            "def",
+            "Possible, mais vous ajoutez une révolte que rien n’annonce : l’attente la plus simple est l’agonie subie."
+          ]
+        ],
         "correction": "À partir de cette situation, on attendrait naturellement une agonie subie : le corps est vaincu et tout semble annoncer l’impuissance devant la mort."
       },
       {
@@ -46,9 +78,25 @@ window.ANNALES_CATALOGUE = {
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
-        "consigne": "Qu’est-ce que le texte en fait ? Formulez précisément le déplacement produit par le passage.",
+        "consigne": "En une ou deux phrases : qu’est-ce que le texte fait de cette situation, au lieu de ce qu’on attendait ?\nExemple sur un autre texte : « au lieu d’une scène de deuil, le poème devient une fête ».",
         "aide": "Comparez cette attente à ce que Hialmar fait et dit jusqu’au dernier vers. Formulez le déplacement sans encore construire le plan.",
-        "choix": ["La défaite devient progressivement une victoire héroïque.", "Le poème explique seulement les blessures du guerrier.", "Le texte abandonne Hialmar pour décrire uniquement le paysage."],
+        "choix": [
+          [
+            "La défaite subie devient, par la parole, une victoire héroïque.",
+            "ok",
+            "Le poème garde la défaite du corps, mais en change le sens : Hialmar reprend la maîtrise en parlant."
+          ],
+          [
+            "Le poème décrit avec précision les blessures du guerrier.",
+            "no",
+            "C’est ce que le texte montre, pas ce qu’il en fait : il n’y a là aucune transformation."
+          ],
+          [
+            "Le guerrier oublie sa mort en pensant à celle qu’il aime.",
+            "def",
+            "Il pense bien à la fille d’Ylmer, mais il n’oublie pas sa mort : il la commande. C’est là qu’est la transformation."
+          ]
+        ],
         "correction": "Le poème ne supprime pas la défaite physique : il en transforme le sens. Hialmar reprend une maîtrise par la parole et fait de sa mort une victoire héroïque."
       },
       {
@@ -58,9 +106,25 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Formulez la question qui demande COMMENT le texte produit cette transformation.",
+        "consigne": "Écrivez une question, une seule, qui commence par « Comment » et qui demande comment le texte produit cette surprise.",
         "aide": "Gardez ensemble l’agonie réellement subie et ce que la parole de Hialmar en fait progressivement.",
-        "choix": ["Comment le poème décrit-il un champ de bataille ?", "Comment Leconte de Lisle transforme-t-il l’agonie d’un guerrier vaincu en victoire héroïque ?", "Pourquoi Hialmar aime-t-il la fille d’Ylmer ?"],
+        "choix": [
+          [
+            "Comment le poème décrit-il un champ de bataille après le combat ?",
+            "no",
+            "Une question de description : elle ne fait pas apparaître la transformation de l’agonie."
+          ],
+          [
+            "Comment le poème fait-il d’une agonie subie une victoire héroïque ?",
+            "ok",
+            "Elle garde ensemble la défaite donnée et la transformation que le poème produit."
+          ],
+          [
+            "Comment Hialmar exprime-t-il son amour pour la fille d’Ylmer ?",
+            "def",
+            "Le message d’amour compte, mais il n’est qu’une partie de la transformation : la question est trop étroite."
+          ]
+        ],
         "correction": "Problématique modèle : « Comment Leconte de Lisle transforme-t-il l’agonie d’un guerrier vaincu en victoire héroïque ? » Elle garde ensemble la défaite donnée et la transformation produite par le poème."
       },
       {
@@ -70,19 +134,35 @@ window.ANNALES_CATALOGUE = {
         "titre": "5. Les réponses du plan",
         "temps": 720,
         "access": "free",
-        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
+        "consigne": "Écrivez deux ou trois réponses à la problématique, une par partie, chacune en une phrase.\nChaque partie répond à la question : jamais un simple thème comme « les images » ou « le lexique ».",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… ».",
-        "choix": ["I. Les blessures / II. Les animaux / III. Le soleil", "I. Établir la défaite physique / II. Reprendre par la parole la maîtrise de ce qui est subi / III. Donner à la mort une dimension héroïque et glorieuse", "I. Le champ lexical / II. Les impératifs / III. Les figures de style"],
+        "choix": [
+          [
+            "I. Les blessures du guerrier / II. Le corbeau messager / III. La fille d’Ylmer",
+            "no",
+            "Trois thèmes côte à côte : rien ne dit pourquoi on passe de l’un à l’autre."
+          ],
+          [
+            "I. Un corps vaincu / II. Une parole qui reprend la maîtrise / III. Une mort glorieuse",
+            "ok",
+            "Chaque partie répond à la problématique et prépare la suivante."
+          ],
+          [
+            "I. La mort subie / II. La mort commandée / III. Les procédés poétiques du texte",
+            "def",
+            "Les deux premières parties avancent ; la troisième retombe dans une liste de procédés."
+          ]
+        ],
         "correction": "Les trois réponses sont : 1. établir pleinement la défaite physique ; 2. montrer que Hialmar reprend par la parole la maîtrise de ce qu’il subit ; 3. faire finalement de sa mort une victoire héroïque et glorieuse."
       },
       {
         "id": "necessite",
         "kind": "plan",
         "aiMode": "optional",
-        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
+        "titre": "6. Pourquoi cet ordre ?",
         "temps": 540,
         "access": "free",
-        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "consigne": "Pour chaque partie, en une phrase : pourquoi vient-elle après la précédente ?\nExemple : « La partie II montre ce que la partie I ne suffisait pas à expliquer : … »",
         "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
       },
       {
@@ -92,19 +172,35 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "free",
-        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce que la réponse précédente ne suffit pas encore à expliquer.",
+        "consigne": "Entre deux parties, écrivez une seule question : celle qui montre ce que la partie précédente n’a pas encore expliqué.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir ».",
-        "choix": ["Nous allons maintenant voir la parole de Hialmar.", "Comment Hialmar peut-il alors rester maître au moment même où son corps ne lui obéit plus ?", "Après la défaite physique, nous étudierons les impératifs."],
+        "choix": [
+          [
+            "Nous allons maintenant étudier la parole et les ordres de Hialmar.",
+            "no",
+            "Une annonce, pas une transition : elle ne dit pas pourquoi la première partie ne suffit pas."
+          ],
+          [
+            "Comment Hialmar reste-t-il maître quand son corps l’abandonne ?",
+            "ok",
+            "La question naît de la limite de la première partie et ouvre la deuxième."
+          ],
+          [
+            "Mais Hialmar ne se contente pas de subir : il parle et il ordonne.",
+            "def",
+            "Le passage est juste, mais il affirme la réponse au lieu de poser la question qui la rend nécessaire."
+          ]
+        ],
         "correction": "Après la première solution : « Comment Hialmar peut-il alors rester maître au moment même où son corps ne lui obéit plus ? » Puis : « Mais commander sa propre mort suffit-il à en faire une victoire héroïque ? »"
       },
       {
         "id": "realisations",
         "kind": "analyse",
         "aiMode": "optional",
-        "titre": "8. Les réalisations",
+        "titre": "8. Ce que le texte fait",
         "temps": 780,
         "access": "free",
-        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux choses que le texte fait pour la prouver, une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez des actions d’écriture différentes : construire la défaite, donner une autorité à la parole, modifier la valeur de la mort. Une réalisation n’est pas le nom d’une figure."
       },
       {
@@ -114,7 +210,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "free",
-        "consigne": "Pour deux réalisations, construisez la chaîne : RÉALISATION → ÉLÉMENT TEXTUEL → PROCÉDÉ utile si nécessaire → EFFET ICI.",
+        "consigne": "Choisissez deux choses que le texte fait. Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
         "aide": "Un procédé n’a pas d’effet automatique. Ne nommez un procédé que s’il aide réellement à expliquer l’élément.",
         "manual": [
           "impératif",
@@ -130,7 +226,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "free",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
+        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qui surprend dans le texte.\nPosez la problématique.\nAnnoncez les parties.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -140,7 +236,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "free",
-        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
+        "consigne": "Rédigez une partie entière, une quinzaine de lignes, à partir de votre réponse et de ce que le texte fait.\nChaque analyse doit prouver l’idée de la partie.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -150,7 +246,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "free",
-        "consigne": "Terminez votre partie par la seule question qui fait apparaître ce qui manque encore.",
+        "consigne": "Terminez votre partie par une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
         "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
       },
       {
@@ -160,10 +256,11 @@ window.ANNALES_CATALOGUE = {
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "free",
-        "consigne": "Synthétisez ce que les effets du texte ont permis de comprendre. Si le texte laisse un reste au-delà de la problématique, formulez-le sobrement.",
+        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.",
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
-    ]
+    ],
+    "texteDomainePublic": true
   },
   "bac-2026-amerique-du-nord-general-commentaire-nicolas-bouvier-usage-du-monde": {
     "examen": "Bac",
@@ -188,7 +285,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "1. Ce que le texte met en place",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases, répondez simplement : qu’est-ce que le texte met en place ? Restez au plus près du passage.",
+        "consigne": "En une ou deux phrases : que se passe-t-il au début du texte ? Restez au plus près des mots du passage.",
         "aide": "Partez du déplacement concret annoncé par le sujet : deux jeunes voyageurs quittent la Serbie pour gagner la Macédoine. Relevez ce que le passage donne à percevoir avant d’interpréter."
       },
       {
@@ -198,7 +295,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
-        "consigne": "À partir de ce donné, formulez l’attente de lecture la plus simple : qu’aurait-on pu normalement attendre ?",
+        "consigne": "En une phrase : à partir de cette situation, que s’attendrait-on normalement à lire ensuite ?",
         "aide": "Un récit de voyage pourrait se limiter au trajet, aux lieux et aux étapes. Demandez-vous ce que ce cadre fait d’abord attendre."
       },
       {
@@ -208,7 +305,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
-        "consigne": "Qu’est-ce que le texte en fait ? Formulez précisément le déplacement produit par le passage.",
+        "consigne": "En une ou deux phrases : qu’est-ce que le texte fait de cette situation, au lieu de ce qu’on attendait ?\nExemple sur un autre texte : « au lieu d’une scène de deuil, le poème devient une fête ».",
         "aide": "Observez ce que l’écriture fait de l’expérience du déplacement : ne résumez pas le voyage, formulez ce que le regard ou la perception deviennent dans le passage."
       },
       {
@@ -218,7 +315,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Formulez la question qui demande COMMENT le texte produit cette transformation.",
+        "consigne": "Écrivez une question, une seule, qui commence par « Comment » et qui demande comment le texte produit cette surprise.",
         "aide": "Votre question doit garder ensemble l’expérience concrète du voyage et le déplacement que l’écriture fait subir au regard."
       },
       {
@@ -228,17 +325,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "5. Les réponses du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
+        "consigne": "Écrivez deux ou trois réponses à la problématique, une par partie, chacune en une phrase.\nChaque partie répond à la question : jamais un simple thème comme « les images » ou « le lexique ».",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
         "id": "necessite",
         "kind": "plan",
         "aiMode": "optional",
-        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
+        "titre": "6. Pourquoi cet ordre ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "consigne": "Pour chaque partie, en une phrase : pourquoi vient-elle après la précédente ?\nExemple : « La partie II montre ce que la partie I ne suffisait pas à expliquer : … »",
         "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
       },
       {
@@ -248,17 +345,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce que la réponse précédente ne suffit pas encore à expliquer.",
+        "consigne": "Entre deux parties, écrivez une seule question : celle qui montre ce que la partie précédente n’a pas encore expliqué.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
         "id": "realisations",
         "kind": "analyse",
         "aiMode": "optional",
-        "titre": "8. Les réalisations",
+        "titre": "8. Ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux choses que le texte fait pour la prouver, une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez comment le texte organise le regard : choix sensoriels ou lexicaux, point de vue, composition du passage, rythme. Formulez d’abord ce que ces moyens permettent de réaliser."
       },
       {
@@ -268,7 +365,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
-        "consigne": "Pour deux réalisations, construisez la chaîne : RÉALISATION → ÉLÉMENT TEXTUEL → PROCÉDÉ utile si nécessaire → EFFET ICI.",
+        "consigne": "Choisissez deux choses que le texte fait. Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
         "aide": "Un procédé n’a pas d’effet automatique. Ne nommez un procédé que s’il aide réellement à expliquer l’élément.",
         "manual": [
           "choix lexical",
@@ -284,7 +381,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
+        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qui surprend dans le texte.\nPosez la problématique.\nAnnoncez les parties.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -294,7 +391,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
+        "consigne": "Rédigez une partie entière, une quinzaine de lignes, à partir de votre réponse et de ce que le texte fait.\nChaque analyse doit prouver l’idée de la partie.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -304,7 +401,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
-        "consigne": "Terminez votre partie par la seule question qui fait apparaître ce qui manque encore.",
+        "consigne": "Terminez votre partie par une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
         "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
       },
       {
@@ -314,10 +411,11 @@ window.ANNALES_CATALOGUE = {
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
-        "consigne": "Synthétisez ce que les effets du texte ont permis de comprendre. Si le texte laisse un reste au-delà de la problématique, formulez-le sobrement.",
+        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.",
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
-    ]
+    ],
+    "texteDomainePublic": false
   },
   "bac-2025-metropole-general-commentaire-barbey-ensorcelee": {
     "examen": "Bac",
@@ -342,7 +440,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "1. Ce que le texte met en place",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases, répondez simplement : qu’est-ce que le texte met en place ? Restez au plus près du passage.",
+        "consigne": "En une ou deux phrases : que se passe-t-il au début du texte ? Restez au plus près des mots du passage.",
         "aide": "Décrivez d’abord ce que le passage met en place : un paysage désertique, son étendue, son isolement et la manière dont le narrateur en parle. Pas encore d’interprétation fantastique."
       },
       {
@@ -352,7 +450,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
-        "consigne": "À partir de ce donné, formulez l’attente de lecture la plus simple : qu’aurait-on pu normalement attendre ?",
+        "consigne": "En une phrase : à partir de cette situation, que s’attendrait-on normalement à lire ensuite ?",
         "aide": "Une description précise d’un lieu réel pourrait rester géographique ou réaliste. Formulez cette attente simplement."
       },
       {
@@ -362,7 +460,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
-        "consigne": "Qu’est-ce que le texte en fait ? Formulez précisément le déplacement produit par le passage.",
+        "consigne": "En une ou deux phrases : qu’est-ce que le texte fait de cette situation, au lieu de ce qu’on attendait ?\nExemple sur un autre texte : « au lieu d’une scène de deuil, le poème devient une fête ».",
         "aide": "Suivez ce qui arrive à cette lande au fil du passage : comment la description cesse-t-elle d’être seulement géographique ?"
       },
       {
@@ -372,7 +470,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Formulez la question qui demande COMMENT le texte produit cette transformation.",
+        "consigne": "Écrivez une question, une seule, qui commence par « Comment » et qui demande comment le texte produit cette surprise.",
         "aide": "Gardez ensemble le paysage réel de Lessay et la manière dont le texte modifie progressivement sa perception."
       },
       {
@@ -382,17 +480,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "5. Les réponses du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
+        "consigne": "Écrivez deux ou trois réponses à la problématique, une par partie, chacune en une phrase.\nChaque partie répond à la question : jamais un simple thème comme « les images » ou « le lexique ».",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
         "id": "necessite",
         "kind": "plan",
         "aiMode": "optional",
-        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
+        "titre": "6. Pourquoi cet ordre ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "consigne": "Pour chaque partie, en une phrase : pourquoi vient-elle après la précédente ?\nExemple : « La partie II montre ce que la partie I ne suffisait pas à expliquer : … »",
         "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
       },
       {
@@ -402,17 +500,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce que la réponse précédente ne suffit pas encore à expliquer.",
+        "consigne": "Entre deux parties, écrivez une seule question : celle qui montre ce que la partie précédente n’a pas encore expliqué.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
         "id": "realisations",
         "kind": "analyse",
         "aiMode": "optional",
-        "titre": "8. Les réalisations",
+        "titre": "8. Ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux choses que le texte fait pour la prouver, une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez plusieurs opérations : creuser le vide et la solitude, faire circuler des paroles ou croyances, donner au paysage une présence, organiser une montée de l’inquiétude."
       },
       {
@@ -422,7 +520,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
-        "consigne": "Pour deux réalisations, construisez la chaîne : RÉALISATION → ÉLÉMENT TEXTUEL → PROCÉDÉ utile si nécessaire → EFFET ICI.",
+        "consigne": "Choisissez deux choses que le texte fait. Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
         "aide": "Un procédé n’a pas d’effet automatique. Ne nommez un procédé que s’il aide réellement à expliquer l’élément.",
         "manual": [
           "négation répétée",
@@ -438,7 +536,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
+        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qui surprend dans le texte.\nPosez la problématique.\nAnnoncez les parties.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -448,7 +546,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
+        "consigne": "Rédigez une partie entière, une quinzaine de lignes, à partir de votre réponse et de ce que le texte fait.\nChaque analyse doit prouver l’idée de la partie.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -458,7 +556,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
-        "consigne": "Terminez votre partie par la seule question qui fait apparaître ce qui manque encore.",
+        "consigne": "Terminez votre partie par une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
         "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
       },
       {
@@ -468,10 +566,11 @@ window.ANNALES_CATALOGUE = {
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
-        "consigne": "Synthétisez ce que les effets du texte ont permis de comprendre. Si le texte laisse un reste au-delà de la problématique, formulez-le sobrement.",
+        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.",
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
-    ]
+    ],
+    "texteDomainePublic": true
   },
   "bac-2025-amerique-du-nord-general-commentaire-montaigne-essais": {
     "examen": "Bac",
@@ -496,7 +595,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "1. Ce que le texte met en place",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases, répondez simplement : qu’est-ce que le texte met en place ? Restez au plus près du passage.",
+        "consigne": "En une ou deux phrases : que se passe-t-il au début du texte ? Restez au plus près des mots du passage.",
         "aide": "Identifiez l’objet de réflexion et la mauvaise habitude de jugement que Montaigne prend en charge. Le donné peut ici être une manière commune de juger, pas une situation narrative."
       },
       {
@@ -506,7 +605,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
-        "consigne": "À partir de ce donné, formulez l’attente de lecture la plus simple : qu’aurait-on pu normalement attendre ?",
+        "consigne": "En une phrase : à partir de cette situation, que s’attendrait-on normalement à lire ensuite ?",
         "aide": "À partir des hiérarchies et signes sociaux évoqués, quel type de jugement ordinaire pourrait-on attendre ?"
       },
       {
@@ -516,7 +615,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
-        "consigne": "Qu’est-ce que le texte en fait ? Formulez précisément le déplacement produit par le passage.",
+        "consigne": "En une ou deux phrases : qu’est-ce que le texte fait de cette situation, au lieu de ce qu’on attendait ?\nExemple sur un autre texte : « au lieu d’une scène de deuil, le poème devient une fête ».",
         "aide": "Demandez-vous vers quel autre critère Montaigne déplace l’évaluation des hommes. Formulez le déplacement sans encore faire le plan."
       },
       {
@@ -526,7 +625,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Formulez la question qui demande COMMENT le texte produit cette transformation.",
+        "consigne": "Écrivez une question, une seule, qui commence par « Comment » et qui demande comment le texte produit cette surprise.",
         "aide": "Votre question doit garder ensemble la manière habituelle de juger et le déplacement critique opéré par Montaigne."
       },
       {
@@ -536,17 +635,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "5. Les réponses du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
+        "consigne": "Écrivez deux ou trois réponses à la problématique, une par partie, chacune en une phrase.\nChaque partie répond à la question : jamais un simple thème comme « les images » ou « le lexique ».",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
         "id": "necessite",
         "kind": "plan",
         "aiMode": "optional",
-        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
+        "titre": "6. Pourquoi cet ordre ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "consigne": "Pour chaque partie, en une phrase : pourquoi vient-elle après la précédente ?\nExemple : « La partie II montre ce que la partie I ne suffisait pas à expliquer : … »",
         "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
       },
       {
@@ -556,17 +655,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce que la réponse précédente ne suffit pas encore à expliquer.",
+        "consigne": "Entre deux parties, écrivez une seule question : celle qui montre ce que la partie précédente n’a pas encore expliqué.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
         "id": "realisations",
         "kind": "analyse",
         "aiMode": "optional",
-        "titre": "8. Les réalisations",
+        "titre": "8. Ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux choses que le texte fait pour la prouver, une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez comment l’argumentation déplace le jugement : oppositions, exemples ou comparaisons, paradoxes éventuels, progression du raisonnement."
       },
       {
@@ -576,7 +675,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
-        "consigne": "Pour deux réalisations, construisez la chaîne : RÉALISATION → ÉLÉMENT TEXTUEL → PROCÉDÉ utile si nécessaire → EFFET ICI.",
+        "consigne": "Choisissez deux choses que le texte fait. Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
         "aide": "Un procédé n’a pas d’effet automatique. Ne nommez un procédé que s’il aide réellement à expliquer l’élément.",
         "manual": [
           "opposition lexicale",
@@ -592,7 +691,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
+        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qui surprend dans le texte.\nPosez la problématique.\nAnnoncez les parties.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -602,7 +701,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
+        "consigne": "Rédigez une partie entière, une quinzaine de lignes, à partir de votre réponse et de ce que le texte fait.\nChaque analyse doit prouver l’idée de la partie.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -612,7 +711,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
-        "consigne": "Terminez votre partie par la seule question qui fait apparaître ce qui manque encore.",
+        "consigne": "Terminez votre partie par une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
         "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
       },
       {
@@ -622,10 +721,11 @@ window.ANNALES_CATALOGUE = {
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
-        "consigne": "Synthétisez ce que les effets du texte ont permis de comprendre. Si le texte laisse un reste au-delà de la problématique, formulez-le sobrement.",
+        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.",
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
-    ]
+    ],
+    "texteDomainePublic": false
   },
   "bac-2025-asie-general-commentaire-apollinaire-mesange": {
     "examen": "Bac",
@@ -650,7 +750,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "1. Ce que le texte met en place",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases, répondez simplement : qu’est-ce que le texte met en place ? Restez au plus près du passage.",
+        "consigne": "En une ou deux phrases : que se passe-t-il au début du texte ? Restez au plus près des mots du passage.",
         "aide": "Repérez ce que le poème met simultanément en présence : la relation amoureuse, l’éloignement et le contexte de guerre. N’interprétez pas encore leur articulation."
       },
       {
@@ -660,7 +760,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
-        "consigne": "À partir de ce donné, formulez l’attente de lecture la plus simple : qu’aurait-on pu normalement attendre ?",
+        "consigne": "En une phrase : à partir de cette situation, que s’attendrait-on normalement à lire ensuite ?",
         "aide": "Le vocabulaire de la guerre et celui de l’amour pourraient rester opposés. Formulez ce que cette coexistence fait d’abord attendre."
       },
       {
@@ -670,7 +770,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
-        "consigne": "Qu’est-ce que le texte en fait ? Formulez précisément le déplacement produit par le passage.",
+        "consigne": "En une ou deux phrases : qu’est-ce que le texte fait de cette situation, au lieu de ce qu’on attendait ?\nExemple sur un autre texte : « au lieu d’une scène de deuil, le poème devient une fête ».",
         "aide": "Observez comment le poème fait circuler les images d’un univers à l’autre. Que devient le langage de la guerre lorsqu’il entre dans le poème amoureux ?"
       },
       {
@@ -680,7 +780,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Formulez la question qui demande COMMENT le texte produit cette transformation.",
+        "consigne": "Écrivez une question, une seule, qui commence par « Comment » et qui demande comment le texte produit cette surprise.",
         "aide": "Gardez ensemble l’expérience guerrière et l’adresse amoureuse, sans réduire le texte à un simple contraste."
       },
       {
@@ -690,17 +790,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "5. Les réponses du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
+        "consigne": "Écrivez deux ou trois réponses à la problématique, une par partie, chacune en une phrase.\nChaque partie répond à la question : jamais un simple thème comme « les images » ou « le lexique ».",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
         "id": "necessite",
         "kind": "plan",
         "aiMode": "optional",
-        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
+        "titre": "6. Pourquoi cet ordre ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "consigne": "Pour chaque partie, en une phrase : pourquoi vient-elle après la précédente ?\nExemple : « La partie II montre ce que la partie I ne suffisait pas à expliquer : … »",
         "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
       },
       {
@@ -710,17 +810,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce que la réponse précédente ne suffit pas encore à expliquer.",
+        "consigne": "Entre deux parties, écrivez une seule question : celle qui montre ce que la partie précédente n’a pas encore expliqué.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
         "id": "realisations",
         "kind": "analyse",
         "aiMode": "optional",
-        "titre": "8. Les réalisations",
+        "titre": "8. Ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux choses que le texte fait pour la prouver, une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez comment le poème fait communiquer les deux univers : métaphores, oppositions lexicales, rythme et organisation des vers."
       },
       {
@@ -730,7 +830,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
-        "consigne": "Pour deux réalisations, construisez la chaîne : RÉALISATION → ÉLÉMENT TEXTUEL → PROCÉDÉ utile si nécessaire → EFFET ICI.",
+        "consigne": "Choisissez deux choses que le texte fait. Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
         "aide": "Un procédé n’a pas d’effet automatique. Ne nommez un procédé que s’il aide réellement à expliquer l’élément.",
         "manual": [
           "métaphore",
@@ -746,7 +846,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
+        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qui surprend dans le texte.\nPosez la problématique.\nAnnoncez les parties.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -756,7 +856,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
+        "consigne": "Rédigez une partie entière, une quinzaine de lignes, à partir de votre réponse et de ce que le texte fait.\nChaque analyse doit prouver l’idée de la partie.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -766,7 +866,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
-        "consigne": "Terminez votre partie par la seule question qui fait apparaître ce qui manque encore.",
+        "consigne": "Terminez votre partie par une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
         "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
       },
       {
@@ -776,10 +876,11 @@ window.ANNALES_CATALOGUE = {
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
-        "consigne": "Synthétisez ce que les effets du texte ont permis de comprendre. Si le texte laisse un reste au-delà de la problématique, formulez-le sobrement.",
+        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.",
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
-    ]
+    ],
+    "texteDomainePublic": true
   },
   "bac-2024-metropole-general-commentaire-claire-de-duras-edouard": {
     "examen": "Bac",
@@ -804,7 +905,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "1. Ce que le texte met en place",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases, répondez simplement : qu’est-ce que le texte met en place ? Restez au plus près du passage.",
+        "consigne": "En une ou deux phrases : que se passe-t-il au début du texte ? Restez au plus près des mots du passage.",
         "aide": "Observez ce que le passage met en place : scène du soir, présence de la femme aimée, perception d’Édouard et obstacle social déjà connu par le lecteur."
       },
       {
@@ -814,7 +915,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
-        "consigne": "À partir de ce donné, formulez l’attente de lecture la plus simple : qu’aurait-on pu normalement attendre ?",
+        "consigne": "En une phrase : à partir de cette situation, que s’attendrait-on normalement à lire ensuite ?",
         "aide": "L’harmonie du paysage et la proximité des deux personnages pourraient faire attendre un rapprochement ou un aveu heureux."
       },
       {
@@ -824,7 +925,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
-        "consigne": "Qu’est-ce que le texte en fait ? Formulez précisément le déplacement produit par le passage.",
+        "consigne": "En une ou deux phrases : qu’est-ce que le texte fait de cette situation, au lieu de ce qu’on attendait ?\nExemple sur un autre texte : « au lieu d’une scène de deuil, le poème devient une fête ».",
         "aide": "Suivez le basculement du passage : que devient cette harmonie lorsque l’obstacle social revient dans la conscience d’Édouard ?"
       },
       {
@@ -834,7 +935,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Formulez la question qui demande COMMENT le texte produit cette transformation.",
+        "consigne": "Écrivez une question, une seule, qui commence par « Comment » et qui demande comment le texte produit cette surprise.",
         "aide": "Gardez ensemble la proximité amoureuse et l’impossibilité sociale qui la contrarie."
       },
       {
@@ -844,17 +945,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "5. Les réponses du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
+        "consigne": "Écrivez deux ou trois réponses à la problématique, une par partie, chacune en une phrase.\nChaque partie répond à la question : jamais un simple thème comme « les images » ou « le lexique ».",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
         "id": "necessite",
         "kind": "plan",
         "aiMode": "optional",
-        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
+        "titre": "6. Pourquoi cet ordre ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "consigne": "Pour chaque partie, en une phrase : pourquoi vient-elle après la précédente ?\nExemple : « La partie II montre ce que la partie I ne suffisait pas à expliquer : … »",
         "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
       },
       {
@@ -864,17 +965,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce que la réponse précédente ne suffit pas encore à expliquer.",
+        "consigne": "Entre deux parties, écrivez une seule question : celle qui montre ce que la partie précédente n’a pas encore expliqué.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
         "id": "realisations",
         "kind": "analyse",
         "aiMode": "optional",
-        "titre": "8. Les réalisations",
+        "titre": "8. Ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux choses que le texte fait pour la prouver, une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez comment le texte fait sentir simultanément l’accord et l’obstacle : perception interne, sensations, oppositions, rythme des pensées puis dialogue."
       },
       {
@@ -884,7 +985,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
-        "consigne": "Pour deux réalisations, construisez la chaîne : RÉALISATION → ÉLÉMENT TEXTUEL → PROCÉDÉ utile si nécessaire → EFFET ICI.",
+        "consigne": "Choisissez deux choses que le texte fait. Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
         "aide": "Un procédé n’a pas d’effet automatique. Ne nommez un procédé que s’il aide réellement à expliquer l’élément.",
         "manual": [
           "focalisation",
@@ -900,7 +1001,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
+        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qui surprend dans le texte.\nPosez la problématique.\nAnnoncez les parties.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -910,7 +1011,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
+        "consigne": "Rédigez une partie entière, une quinzaine de lignes, à partir de votre réponse et de ce que le texte fait.\nChaque analyse doit prouver l’idée de la partie.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -920,7 +1021,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
-        "consigne": "Terminez votre partie par la seule question qui fait apparaître ce qui manque encore.",
+        "consigne": "Terminez votre partie par une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
         "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
       },
       {
@@ -930,10 +1031,11 @@ window.ANNALES_CATALOGUE = {
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
-        "consigne": "Synthétisez ce que les effets du texte ont permis de comprendre. Si le texte laisse un reste au-delà de la problématique, formulez-le sobrement.",
+        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.",
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
-    ]
+    ],
+    "texteDomainePublic": true
   },
   "bac-2024-centre-etranger-general-commentaire-aragon-elsa-au-miroir": {
     "examen": "Bac",
@@ -958,7 +1060,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "1. Ce que le texte met en place",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases, répondez simplement : qu’est-ce que le texte met en place ? Restez au plus près du passage.",
+        "consigne": "En une ou deux phrases : que se passe-t-il au début du texte ? Restez au plus près des mots du passage.",
         "aide": "Commencez par la scène concrète : Elsa assise au miroir, le geste répété de se peigner, le regard du poète et la présence de la guerre dans le poème."
       },
       {
@@ -968,7 +1070,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
-        "consigne": "À partir de ce donné, formulez l’attente de lecture la plus simple : qu’aurait-on pu normalement attendre ?",
+        "consigne": "En une phrase : à partir de cette situation, que s’attendrait-on normalement à lire ensuite ?",
         "aide": "Une scène de femme au miroir pourrait rester un portrait intime ou amoureux. Formulez cette attente sans anticiper l’interprétation."
       },
       {
@@ -978,7 +1080,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
-        "consigne": "Qu’est-ce que le texte en fait ? Formulez précisément le déplacement produit par le passage.",
+        "consigne": "En une ou deux phrases : qu’est-ce que le texte fait de cette situation, au lieu de ce qu’on attendait ?\nExemple sur un autre texte : « au lieu d’une scène de deuil, le poème devient une fête ».",
         "aide": "Observez ce que deviennent progressivement le miroir, les cheveux et le geste de se peigner. À quoi la scène intime donne-t-elle accès ?"
       },
       {
@@ -988,7 +1090,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Formulez la question qui demande COMMENT le texte produit cette transformation.",
+        "consigne": "Écrivez une question, une seule, qui commence par « Comment » et qui demande comment le texte produit cette surprise.",
         "aide": "Votre question doit garder ensemble l’intimité de la scène et l’élargissement historique ou mémoriel produit par le poème."
       },
       {
@@ -998,17 +1100,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "5. Les réponses du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
+        "consigne": "Écrivez deux ou trois réponses à la problématique, une par partie, chacune en une phrase.\nChaque partie répond à la question : jamais un simple thème comme « les images » ou « le lexique ».",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
         "id": "necessite",
         "kind": "plan",
         "aiMode": "optional",
-        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
+        "titre": "6. Pourquoi cet ordre ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "consigne": "Pour chaque partie, en une phrase : pourquoi vient-elle après la précédente ?\nExemple : « La partie II montre ce que la partie I ne suffisait pas à expliquer : … »",
         "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
       },
       {
@@ -1018,17 +1120,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce que la réponse précédente ne suffit pas encore à expliquer.",
+        "consigne": "Entre deux parties, écrivez une seule question : celle qui montre ce que la partie précédente n’a pas encore expliqué.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
         "id": "realisations",
         "kind": "analyse",
         "aiMode": "optional",
-        "titre": "8. Les réalisations",
+        "titre": "8. Ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux choses que le texte fait pour la prouver, une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez comment le poème transforme les objets de la scène : répétitions, images du feu, miroir, mémoire et composition fondée sur le retour des mêmes formules."
       },
       {
@@ -1038,7 +1140,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
-        "consigne": "Pour deux réalisations, construisez la chaîne : RÉALISATION → ÉLÉMENT TEXTUEL → PROCÉDÉ utile si nécessaire → EFFET ICI.",
+        "consigne": "Choisissez deux choses que le texte fait. Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
         "aide": "Un procédé n’a pas d’effet automatique. Ne nommez un procédé que s’il aide réellement à expliquer l’élément.",
         "manual": [
           "métaphore",
@@ -1054,7 +1156,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
+        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qui surprend dans le texte.\nPosez la problématique.\nAnnoncez les parties.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -1064,7 +1166,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
+        "consigne": "Rédigez une partie entière, une quinzaine de lignes, à partir de votre réponse et de ce que le texte fait.\nChaque analyse doit prouver l’idée de la partie.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -1074,7 +1176,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
-        "consigne": "Terminez votre partie par la seule question qui fait apparaître ce qui manque encore.",
+        "consigne": "Terminez votre partie par une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
         "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
       },
       {
@@ -1084,10 +1186,11 @@ window.ANNALES_CATALOGUE = {
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
-        "consigne": "Synthétisez ce que les effets du texte ont permis de comprendre. Si le texte laisse un reste au-delà de la problématique, formulez-le sobrement.",
+        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.",
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
-    ]
+    ],
+    "texteDomainePublic": false
   },
   "bac-2023-metropole-general-commentaire-diderot-salon-1767": {
     "examen": "Bac",
@@ -1112,7 +1215,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "1. Ce que le texte met en place",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases, répondez simplement : qu’est-ce que le texte met en place ? Restez au plus près du passage.",
+        "consigne": "En une ou deux phrases : que se passe-t-il au début du texte ? Restez au plus près des mots du passage.",
         "aide": "Le texte part de la contemplation de ruines peintes. Relevez ce que ces ruines donnent à voir et les premières idées qu’elles font naître chez Diderot."
       },
       {
@@ -1122,7 +1225,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
-        "consigne": "À partir de ce donné, formulez l’attente de lecture la plus simple : qu’aurait-on pu normalement attendre ?",
+        "consigne": "En une phrase : à partir de cette situation, que s’attendrait-on normalement à lire ensuite ?",
         "aide": "Un Salon pourrait d’abord faire attendre une description ou un jugement sur une œuvre d’art. Formulez cette attente."
       },
       {
@@ -1132,7 +1235,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
-        "consigne": "Qu’est-ce que le texte en fait ? Formulez précisément le déplacement produit par le passage.",
+        "consigne": "En une ou deux phrases : qu’est-ce que le texte fait de cette situation, au lieu de ce qu’on attendait ?\nExemple sur un autre texte : « au lieu d’une scène de deuil, le poème devient une fête ».",
         "aide": "Observez jusqu’où la contemplation entraîne Diderot : que devient le commentaire d’art lorsqu’il réfléchit au temps, à sa propre mort puis à la solitude ?"
       },
       {
@@ -1142,7 +1245,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Formulez la question qui demande COMMENT le texte produit cette transformation.",
+        "consigne": "Écrivez une question, une seule, qui commence par « Comment » et qui demande comment le texte produit cette surprise.",
         "aide": "Gardez ensemble le point de départ esthétique et la méditation personnelle et philosophique qu’il fait naître."
       },
       {
@@ -1152,17 +1255,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "5. Les réponses du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
+        "consigne": "Écrivez deux ou trois réponses à la problématique, une par partie, chacune en une phrase.\nChaque partie répond à la question : jamais un simple thème comme « les images » ou « le lexique ».",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
         "id": "necessite",
         "kind": "plan",
         "aiMode": "optional",
-        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
+        "titre": "6. Pourquoi cet ordre ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "consigne": "Pour chaque partie, en une phrase : pourquoi vient-elle après la précédente ?\nExemple : « La partie II montre ce que la partie I ne suffisait pas à expliquer : … »",
         "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
       },
       {
@@ -1172,17 +1275,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce que la réponse précédente ne suffit pas encore à expliquer.",
+        "consigne": "Entre deux parties, écrivez une seule question : celle qui montre ce que la partie précédente n’a pas encore expliqué.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
         "id": "realisations",
         "kind": "analyse",
         "aiMode": "optional",
-        "titre": "8. Les réalisations",
+        "titre": "8. Ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux choses que le texte fait pour la prouver, une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez plusieurs mouvements d’écriture : généraliser, confronter l’individu au temps, faire entendre l’émotion, transformer la ruine en espace de retrait. Appuyez-vous sur rythme, énumérations, questions et images."
       },
       {
@@ -1192,7 +1295,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
-        "consigne": "Pour deux réalisations, construisez la chaîne : RÉALISATION → ÉLÉMENT TEXTUEL → PROCÉDÉ utile si nécessaire → EFFET ICI.",
+        "consigne": "Choisissez deux choses que le texte fait. Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
         "aide": "Un procédé n’a pas d’effet automatique. Ne nommez un procédé que s’il aide réellement à expliquer l’élément.",
         "manual": [
           "métaphore",
@@ -1208,7 +1311,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
+        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qui surprend dans le texte.\nPosez la problématique.\nAnnoncez les parties.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -1218,7 +1321,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
+        "consigne": "Rédigez une partie entière, une quinzaine de lignes, à partir de votre réponse et de ce que le texte fait.\nChaque analyse doit prouver l’idée de la partie.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -1228,7 +1331,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
-        "consigne": "Terminez votre partie par la seule question qui fait apparaître ce qui manque encore.",
+        "consigne": "Terminez votre partie par une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
         "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
       },
       {
@@ -1238,10 +1341,11 @@ window.ANNALES_CATALOGUE = {
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
-        "consigne": "Synthétisez ce que les effets du texte ont permis de comprendre. Si le texte laisse un reste au-delà de la problématique, formulez-le sobrement.",
+        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.",
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
-    ]
+    ],
+    "texteDomainePublic": true
   },
   "bac-2023-amerique-du-nord-general-commentaire-racine-berenice": {
     "examen": "Bac",
@@ -1266,7 +1370,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "1. Ce que le texte met en place",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases, répondez simplement : qu’est-ce que le texte met en place ? Restez au plus près du passage.",
+        "consigne": "En une ou deux phrases : que se passe-t-il au début du texte ? Restez au plus près des mots du passage.",
         "aide": "Mettez en place le conflit sans le résoudre : deux amants se retrouvent, leur amour demeure, mais la fonction impériale de Titus impose la séparation."
       },
       {
@@ -1276,7 +1380,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
-        "consigne": "À partir de ce donné, formulez l’attente de lecture la plus simple : qu’aurait-on pu normalement attendre ?",
+        "consigne": "En une phrase : à partir de cette situation, que s’attendrait-on normalement à lire ensuite ?",
         "aide": "Une rencontre entre deux amants qui s’aiment pourrait faire attendre l’union, la persuasion ou la réconciliation."
       },
       {
@@ -1286,7 +1390,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
-        "consigne": "Qu’est-ce que le texte en fait ? Formulez précisément le déplacement produit par le passage.",
+        "consigne": "En une ou deux phrases : qu’est-ce que le texte fait de cette situation, au lieu de ce qu’on attendait ?\nExemple sur un autre texte : « au lieu d’une scène de deuil, le poème devient une fête ».",
         "aide": "Observez ce que leur échange fait de cet amour : l’aveu et les larmes suppriment-ils l’obstacle, ou rendent-ils autrement sensible la séparation ?"
       },
       {
@@ -1296,7 +1400,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Formulez la question qui demande COMMENT le texte produit cette transformation.",
+        "consigne": "Écrivez une question, une seule, qui commence par « Comment » et qui demande comment le texte produit cette surprise.",
         "aide": "Gardez ensemble la force de l’amour partagé et l’exigence de séparation qui structure la scène."
       },
       {
@@ -1306,17 +1410,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "5. Les réponses du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
+        "consigne": "Écrivez deux ou trois réponses à la problématique, une par partie, chacune en une phrase.\nChaque partie répond à la question : jamais un simple thème comme « les images » ou « le lexique ».",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
         "id": "necessite",
         "kind": "plan",
         "aiMode": "optional",
-        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
+        "titre": "6. Pourquoi cet ordre ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "consigne": "Pour chaque partie, en une phrase : pourquoi vient-elle après la précédente ?\nExemple : « La partie II montre ce que la partie I ne suffisait pas à expliquer : … »",
         "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
       },
       {
@@ -1326,17 +1430,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce que la réponse précédente ne suffit pas encore à expliquer.",
+        "consigne": "Entre deux parties, écrivez une seule question : celle qui montre ce que la partie précédente n’a pas encore expliqué.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
         "id": "realisations",
         "kind": "analyse",
         "aiMode": "optional",
-        "titre": "8. Les réalisations",
+        "titre": "8. Ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux choses que le texte fait pour la prouver, une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez comment le dialogue rend le conflit visible : interrogations, reprises, antithèses, rythme des répliques et tension entre douleur privée et gloire publique."
       },
       {
@@ -1346,7 +1450,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
-        "consigne": "Pour deux réalisations, construisez la chaîne : RÉALISATION → ÉLÉMENT TEXTUEL → PROCÉDÉ utile si nécessaire → EFFET ICI.",
+        "consigne": "Choisissez deux choses que le texte fait. Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
         "aide": "Un procédé n’a pas d’effet automatique. Ne nommez un procédé que s’il aide réellement à expliquer l’élément.",
         "manual": [
           "interrogation",
@@ -1362,7 +1466,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
+        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qui surprend dans le texte.\nPosez la problématique.\nAnnoncez les parties.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -1372,7 +1476,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
+        "consigne": "Rédigez une partie entière, une quinzaine de lignes, à partir de votre réponse et de ce que le texte fait.\nChaque analyse doit prouver l’idée de la partie.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -1382,7 +1486,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
-        "consigne": "Terminez votre partie par la seule question qui fait apparaître ce qui manque encore.",
+        "consigne": "Terminez votre partie par une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
         "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
       },
       {
@@ -1392,10 +1496,11 @@ window.ANNALES_CATALOGUE = {
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
-        "consigne": "Synthétisez ce que les effets du texte ont permis de comprendre. Si le texte laisse un reste au-delà de la problématique, formulez-le sobrement.",
+        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.",
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
-    ]
+    ],
+    "texteDomainePublic": true
   },
   "bac-2022-metropole-general-commentaire-sylvie-germain-jours-de-colere": {
     "examen": "Bac",
@@ -1420,7 +1525,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "1. Ce que le texte met en place",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases, répondez simplement : qu’est-ce que le texte met en place ? Restez au plus près du passage.",
+        "consigne": "En une ou deux phrases : que se passe-t-il au début du texte ? Restez au plus près des mots du passage.",
         "aide": "Décrivez le portrait collectif tel qu’il est construit : neuf frères, leurs corps, leurs comportements et leur rapport au monde qui les entoure."
       },
       {
@@ -1430,7 +1535,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
-        "consigne": "À partir de ce donné, formulez l’attente de lecture la plus simple : qu’aurait-on pu normalement attendre ?",
+        "consigne": "En une phrase : à partir de cette situation, que s’attendrait-on normalement à lire ensuite ?",
         "aide": "Un portrait de personnages humains pourrait individualiser chacun d’eux et les inscrire dans une psychologie réaliste."
       },
       {
@@ -1440,7 +1545,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
-        "consigne": "Qu’est-ce que le texte en fait ? Formulez précisément le déplacement produit par le passage.",
+        "consigne": "En une ou deux phrases : qu’est-ce que le texte fait de cette situation, au lieu de ce qu’on attendait ?\nExemple sur un autre texte : « au lieu d’une scène de deuil, le poème devient une fête ».",
         "aide": "Observez au contraire les rapprochements avec l’animal, la matière ou la nature, puis demandez-vous ce que ces rapprochements laissent malgré tout apparaître d’humain."
       },
       {
@@ -1450,7 +1555,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Formulez la question qui demande COMMENT le texte produit cette transformation.",
+        "consigne": "Écrivez une question, une seule, qui commence par « Comment » et qui demande comment le texte produit cette surprise.",
         "aide": "Votre question doit garder ensemble la transformation des frères par l’écriture et ce que cette transformation permet de comprendre de leur humanité."
       },
       {
@@ -1460,17 +1565,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "5. Les réponses du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
+        "consigne": "Écrivez deux ou trois réponses à la problématique, une par partie, chacune en une phrase.\nChaque partie répond à la question : jamais un simple thème comme « les images » ou « le lexique ».",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
         "id": "necessite",
         "kind": "plan",
         "aiMode": "optional",
-        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
+        "titre": "6. Pourquoi cet ordre ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "consigne": "Pour chaque partie, en une phrase : pourquoi vient-elle après la précédente ?\nExemple : « La partie II montre ce que la partie I ne suffisait pas à expliquer : … »",
         "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
       },
       {
@@ -1480,17 +1585,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce que la réponse précédente ne suffit pas encore à expliquer.",
+        "consigne": "Entre deux parties, écrivez une seule question : celle qui montre ce que la partie précédente n’a pas encore expliqué.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
         "id": "realisations",
         "kind": "analyse",
         "aiMode": "optional",
-        "titre": "8. Les réalisations",
+        "titre": "8. Ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux choses que le texte fait pour la prouver, une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez comment le portrait agit : comparaisons et métaphores, réseaux lexicaux du corps, de l’animal ou de la nature, point de vue et composition collective."
       },
       {
@@ -1500,7 +1605,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
-        "consigne": "Pour deux réalisations, construisez la chaîne : RÉALISATION → ÉLÉMENT TEXTUEL → PROCÉDÉ utile si nécessaire → EFFET ICI.",
+        "consigne": "Choisissez deux choses que le texte fait. Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
         "aide": "Un procédé n’a pas d’effet automatique. Ne nommez un procédé que s’il aide réellement à expliquer l’élément.",
         "manual": [
           "comparaison",
@@ -1516,7 +1621,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
+        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qui surprend dans le texte.\nPosez la problématique.\nAnnoncez les parties.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -1526,7 +1631,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
+        "consigne": "Rédigez une partie entière, une quinzaine de lignes, à partir de votre réponse et de ce que le texte fait.\nChaque analyse doit prouver l’idée de la partie.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -1536,7 +1641,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
-        "consigne": "Terminez votre partie par la seule question qui fait apparaître ce qui manque encore.",
+        "consigne": "Terminez votre partie par une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
         "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
       },
       {
@@ -1546,10 +1651,11 @@ window.ANNALES_CATALOGUE = {
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
-        "consigne": "Synthétisez ce que les effets du texte ont permis de comprendre. Si le texte laisse un reste au-delà de la problématique, formulez-le sobrement.",
+        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.",
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
-    ]
+    ],
+    "texteDomainePublic": false
   },
   "bac-2022-amerique-du-nord-general-commentaire-musset-lorenzaccio": {
     "examen": "Bac",
@@ -1574,7 +1680,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "1. Ce que le texte met en place",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases, répondez simplement : qu’est-ce que le texte met en place ? Restez au plus près du passage.",
+        "consigne": "En une ou deux phrases : que se passe-t-il au début du texte ? Restez au plus près des mots du passage.",
         "aide": "Mettez en place le dialogue : Philippe appelle à l’action et demande que « l’homme sorte de l’histrion » ; Lorenzo doit alors parler du rôle qu’il joue et de ce qu’il est devenu."
       },
       {
@@ -1584,7 +1690,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
-        "consigne": "À partir de ce donné, formulez l’attente de lecture la plus simple : qu’aurait-on pu normalement attendre ?",
+        "consigne": "En une phrase : à partir de cette situation, que s’attendrait-on normalement à lire ensuite ?",
         "aide": "On pourrait attendre que le dévoilement fasse simplement réapparaître un Lorenzo vertueux derrière son masque."
       },
       {
@@ -1594,7 +1700,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
-        "consigne": "Qu’est-ce que le texte en fait ? Formulez précisément le déplacement produit par le passage.",
+        "consigne": "En une ou deux phrases : qu’est-ce que le texte fait de cette situation, au lieu de ce qu’on attendait ?\nExemple sur un autre texte : « au lieu d’une scène de deuil, le poème devient une fête ».",
         "aide": "Suivez sa parole : le masque peut-il être retiré sans conséquence, ou le rôle joué a-t-il transformé celui qui le portait ?"
       },
       {
@@ -1604,7 +1710,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Formulez la question qui demande COMMENT le texte produit cette transformation.",
+        "consigne": "Écrivez une question, une seule, qui commence par « Comment » et qui demande comment le texte produit cette surprise.",
         "aide": "Gardez ensemble le masque volontairement adopté et la vérité intérieure que le dialogue fait apparaître."
       },
       {
@@ -1614,17 +1720,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "5. Les réponses du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
+        "consigne": "Écrivez deux ou trois réponses à la problématique, une par partie, chacune en une phrase.\nChaque partie répond à la question : jamais un simple thème comme « les images » ou « le lexique ».",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
         "id": "necessite",
         "kind": "plan",
         "aiMode": "optional",
-        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
+        "titre": "6. Pourquoi cet ordre ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "consigne": "Pour chaque partie, en une phrase : pourquoi vient-elle après la précédente ?\nExemple : « La partie II montre ce que la partie I ne suffisait pas à expliquer : … »",
         "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
       },
       {
@@ -1634,17 +1740,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce que la réponse précédente ne suffit pas encore à expliquer.",
+        "consigne": "Entre deux parties, écrivez une seule question : celle qui montre ce que la partie précédente n’a pas encore expliqué.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
         "id": "realisations",
         "kind": "analyse",
         "aiMode": "optional",
-        "titre": "8. Les réalisations",
+        "titre": "8. Ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux choses que le texte fait pour la prouver, une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez comment le théâtre du masque devient crise de l’identité : images du rôle et du spectacle, antithèses, questions, modalisation et rythme des longues tirades."
       },
       {
@@ -1654,7 +1760,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
-        "consigne": "Pour deux réalisations, construisez la chaîne : RÉALISATION → ÉLÉMENT TEXTUEL → PROCÉDÉ utile si nécessaire → EFFET ICI.",
+        "consigne": "Choisissez deux choses que le texte fait. Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
         "aide": "Un procédé n’a pas d’effet automatique. Ne nommez un procédé que s’il aide réellement à expliquer l’élément.",
         "manual": [
           "double énonciation",
@@ -1670,7 +1776,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
+        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qui surprend dans le texte.\nPosez la problématique.\nAnnoncez les parties.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -1680,7 +1786,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
+        "consigne": "Rédigez une partie entière, une quinzaine de lignes, à partir de votre réponse et de ce que le texte fait.\nChaque analyse doit prouver l’idée de la partie.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -1690,7 +1796,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
-        "consigne": "Terminez votre partie par la seule question qui fait apparaître ce qui manque encore.",
+        "consigne": "Terminez votre partie par une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
         "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
       },
       {
@@ -1700,10 +1806,11 @@ window.ANNALES_CATALOGUE = {
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
-        "consigne": "Synthétisez ce que les effets du texte ont permis de comprendre. Si le texte laisse un reste au-delà de la problématique, formulez-le sobrement.",
+        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.",
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
-    ]
+    ],
+    "texteDomainePublic": true
   },
   "bac-2021-metropole-general-commentaire-perec-les-choses": {
     "examen": "Bac",
@@ -1728,7 +1835,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "1. Ce que le texte met en place",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases, répondez simplement : qu’est-ce que le texte met en place ? Restez au plus près du passage.",
+        "consigne": "En une ou deux phrases : que se passe-t-il au début du texte ? Restez au plus près des mots du passage.",
         "aide": "Décrivez ce que le texte met matériellement en place : l’appartement, les objets, les possibilités d’aménagement et la situation du jeune couple."
       },
       {
@@ -1738,7 +1845,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
-        "consigne": "À partir de ce donné, formulez l’attente de lecture la plus simple : qu’aurait-on pu normalement attendre ?",
+        "consigne": "En une phrase : à partir de cette situation, que s’attendrait-on normalement à lire ensuite ?",
         "aide": "Une description d’un logement exigu pourrait rester réaliste et pratique, centrée sur ce qui est effectivement là."
       },
       {
@@ -1748,7 +1855,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
-        "consigne": "Qu’est-ce que le texte en fait ? Formulez précisément le déplacement produit par le passage.",
+        "consigne": "En une ou deux phrases : qu’est-ce que le texte fait de cette situation, au lieu de ce qu’on attendait ?\nExemple sur un autre texte : « au lieu d’une scène de deuil, le poème devient une fête ».",
         "aide": "Observez la place des formes hypothétiques et du désir : comment la description de l’espace réel ouvre-t-elle vers un autre espace possible ou rêvé ?"
       },
       {
@@ -1758,7 +1865,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Formulez la question qui demande COMMENT le texte produit cette transformation.",
+        "consigne": "Écrivez une question, une seule, qui commence par « Comment » et qui demande comment le texte produit cette surprise.",
         "aide": "Gardez ensemble la matérialité du logement et la projection du désir qui travaille sa description."
       },
       {
@@ -1768,17 +1875,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "5. Les réponses du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
+        "consigne": "Écrivez deux ou trois réponses à la problématique, une par partie, chacune en une phrase.\nChaque partie répond à la question : jamais un simple thème comme « les images » ou « le lexique ».",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
         "id": "necessite",
         "kind": "plan",
         "aiMode": "optional",
-        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
+        "titre": "6. Pourquoi cet ordre ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "consigne": "Pour chaque partie, en une phrase : pourquoi vient-elle après la précédente ?\nExemple : « La partie II montre ce que la partie I ne suffisait pas à expliquer : … »",
         "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
       },
       {
@@ -1788,17 +1895,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce que la réponse précédente ne suffit pas encore à expliquer.",
+        "consigne": "Entre deux parties, écrivez une seule question : celle qui montre ce que la partie précédente n’a pas encore expliqué.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
         "id": "realisations",
         "kind": "analyse",
         "aiMode": "optional",
-        "titre": "8. Les réalisations",
+        "titre": "8. Ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux choses que le texte fait pour la prouver, une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez comment l’écriture fait glisser du réel au possible : accumulations d’objets, modalisation, conditionnel, oppositions et composition de la description."
       },
       {
@@ -1808,7 +1915,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
-        "consigne": "Pour deux réalisations, construisez la chaîne : RÉALISATION → ÉLÉMENT TEXTUEL → PROCÉDÉ utile si nécessaire → EFFET ICI.",
+        "consigne": "Choisissez deux choses que le texte fait. Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
         "aide": "Un procédé n’a pas d’effet automatique. Ne nommez un procédé que s’il aide réellement à expliquer l’élément.",
         "manual": [
           "champ lexical",
@@ -1824,7 +1931,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
+        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qui surprend dans le texte.\nPosez la problématique.\nAnnoncez les parties.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -1834,7 +1941,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
+        "consigne": "Rédigez une partie entière, une quinzaine de lignes, à partir de votre réponse et de ce que le texte fait.\nChaque analyse doit prouver l’idée de la partie.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -1844,7 +1951,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
-        "consigne": "Terminez votre partie par la seule question qui fait apparaître ce qui manque encore.",
+        "consigne": "Terminez votre partie par une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
         "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
       },
       {
@@ -1854,10 +1961,11 @@ window.ANNALES_CATALOGUE = {
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
-        "consigne": "Synthétisez ce que les effets du texte ont permis de comprendre. Si le texte laisse un reste au-delà de la problématique, formulez-le sobrement.",
+        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.",
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
-    ]
+    ],
+    "texteDomainePublic": false
   },
   "bac-2021-metropole-general-commentaire-larbaud-ancienne-gare-cahors": {
     "examen": "Bac",
@@ -1882,7 +1990,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "1. Ce que le texte met en place",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases, répondez simplement : qu’est-ce que le texte met en place ? Restez au plus près du passage.",
+        "consigne": "En une ou deux phrases : que se passe-t-il au début du texte ? Restez au plus près des mots du passage.",
         "aide": "Commencez par le lieu concret : une ancienne gare, ses traces matérielles, son abandon et le regard porté sur elle. Ne la transformez pas encore en symbole."
       },
       {
@@ -1892,7 +2000,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
-        "consigne": "À partir de ce donné, formulez l’attente de lecture la plus simple : qu’aurait-on pu normalement attendre ?",
+        "consigne": "En une phrase : à partir de cette situation, que s’attendrait-on normalement à lire ensuite ?",
         "aide": "Une gare désaffectée pourrait n’être qu’un lieu prosaïque, vide ou dégradé."
       },
       {
@@ -1902,7 +2010,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "3. La transformation",
         "temps": 360,
         "access": "free",
-        "consigne": "Qu’est-ce que le texte en fait ? Formulez précisément le déplacement produit par le passage.",
+        "consigne": "En une ou deux phrases : qu’est-ce que le texte fait de cette situation, au lieu de ce qu’on attendait ?\nExemple sur un autre texte : « au lieu d’une scène de deuil, le poème devient une fête ».",
         "aide": "Observez ce que le poème ajoute au lieu matériel : quelles présences, quelles valeurs ou quelle mémoire l’écriture lui rend-elle ?"
       },
       {
@@ -1912,7 +2020,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Formulez la question qui demande COMMENT le texte produit cette transformation.",
+        "consigne": "Écrivez une question, une seule, qui commence par « Comment » et qui demande comment le texte produit cette surprise.",
         "aide": "Gardez ensemble la banalité ou l’abandon du lieu et la valeur nouvelle que le regard poétique lui confère."
       },
       {
@@ -1922,17 +2030,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "5. Les réponses du plan",
         "temps": 720,
         "access": "premium",
-        "consigne": "Formulez deux ou trois grandes RÉPONSES successives à la problématique. Une partie = une réponse nécessaire, jamais un simple thème.",
+        "consigne": "Écrivez deux ou trois réponses à la problématique, une par partie, chacune en une phrase.\nChaque partie répond à la question : jamais un simple thème comme « les images » ou « le lexique ».",
         "aide": "Chaque phrase doit pouvoir commencer par : « Le texte répond à la problématique en… »."
       },
       {
         "id": "necessite",
         "kind": "plan",
         "aiMode": "optional",
-        "titre": "6. Pourquoi chaque réponse est-elle nécessaire ?",
+        "titre": "6. Pourquoi cet ordre ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque grande réponse, expliquez en une phrase pourquoi elle est nécessaire à la démonstration.",
+        "consigne": "Pour chaque partie, en une phrase : pourquoi vient-elle après la précédente ?\nExemple : « La partie II montre ce que la partie I ne suffisait pas à expliquer : … »",
         "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
       },
       {
@@ -1942,17 +2050,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre les réponses, écrivez seulement la question qui fait apparaître ce que la réponse précédente ne suffit pas encore à expliquer.",
+        "consigne": "Entre deux parties, écrivez une seule question : celle qui montre ce que la partie précédente n’a pas encore expliqué.",
         "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
       },
       {
         "id": "realisations",
         "kind": "analyse",
         "aiMode": "optional",
-        "titre": "8. Les réalisations",
+        "titre": "8. Ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Sous chaque réponse, formulez ce que le texte FAIT pour la construire. Trouvez au moins deux réalisations distinctes.",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux choses que le texte fait pour la prouver, une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez comment le lieu est requalifié : choix lexicaux, images, rythme, adresse éventuelle au lieu et progression de la composition."
       },
       {
@@ -1962,7 +2070,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "9. Prouver et expliquer",
         "temps": 900,
         "access": "premium",
-        "consigne": "Pour deux réalisations, construisez la chaîne : RÉALISATION → ÉLÉMENT TEXTUEL → PROCÉDÉ utile si nécessaire → EFFET ICI.",
+        "consigne": "Choisissez deux choses que le texte fait. Pour chacune, en deux ou trois phrases :\ncitez les mots qui le montrent ;\nnommez le procédé, s’il aide ;\ndites son effet dans ce passage.",
         "aide": "Un procédé n’a pas d’effet automatique. Ne nommez un procédé que s’il aide réellement à expliquer l’élément.",
         "manual": [
           "choix lexical",
@@ -1978,7 +2086,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez une introduction brève : présentation du passage, problème précis, problématique, puis annonce des réponses du plan.",
+        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qui surprend dans le texte.\nPosez la problématique.\nAnnoncez les parties.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -1988,7 +2096,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une grande partie complète à partir de votre réponse et de vos réalisations. Chaque analyse doit prouver la réponse.",
+        "consigne": "Rédigez une partie entière, une quinzaine de lignes, à partir de votre réponse et de ce que le texte fait.\nChaque analyse doit prouver l’idée de la partie.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
@@ -1998,7 +2106,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
-        "consigne": "Terminez votre partie par la seule question qui fait apparaître ce qui manque encore.",
+        "consigne": "Terminez votre partie par une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
         "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
       },
       {
@@ -2008,10 +2116,11 @@ window.ANNALES_CATALOGUE = {
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
-        "consigne": "Synthétisez ce que les effets du texte ont permis de comprendre. Si le texte laisse un reste au-delà de la problématique, formulez-le sobrement.",
+        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.",
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
-    ]
+    ],
+    "texteDomainePublic": true
   },
   "brevet-2026-general-zola-cage-betes-feroces": {
     "examen": "Brevet",
@@ -2209,7 +2318,8 @@ window.ANNALES_CATALOGUE = {
         "aide": "Vérifiez successivement les verbes, les déterminants et pronoms qui reprennent « la clameur », puis les accords des adjectifs et participes.",
         "correction": "« À ce moment, Paris, qui s’éveille, se met à rugir d’une telle force que la Hyène s’arrête court, écoutant avec inquiétude. Les clameurs de la ville montent, sourdes et menaçantes, et ces clameurs, faites du bruit des voitures, des cris de la rue, de nos sanglots et de nos rires, ressemblent à des hurlements de fureur et à des râles d’agonie. »"
       }
-    ]
+    ],
+    "texteDomainePublic": true
   },
   "brevet-2025-general-gael-faye-jacaranda": {
     "examen": "Brevet",
@@ -2281,7 +2391,12 @@ window.ANNALES_CATALOGUE = {
         "points": 6,
         "consigne": "Dans la phrase « Des mois durant, un magma d’images de mort, de violence et d’exode s’est déversé dans nos assiettes », nommez deux procédés et expliquez leur effet.",
         "aide": "Cherchez d’abord comment les images sont rapprochées d’une matière qui se répand, puis observez la succession « mort, violence, exode ».",
-        "manual": ["métaphore","accumulation","champ lexical","hyperbole"]
+        "manual": [
+          "métaphore",
+          "accumulation",
+          "champ lexical",
+          "hyperbole"
+        ]
       },
       {
         "id": "q5",
@@ -2377,7 +2492,8 @@ window.ANNALES_CATALOGUE = {
         "aide": "Repérez tous les pronoms, verbes, adjectifs et déterminants qui dépendent de la personne devenue masculine plurielle.",
         "correction": "« Si bien que lorsque je les surprenais en train de parler kinyarwanda lors d’une conversation téléphonique et les entendais s’exprimer couramment dans cette langue inconnue, je m’arrêtais, stupéfait. Je n’ai jamais su avec qui ils conversaient. Quand je les interrogeais, ils restaient évasifs, parlaient de “vieilles connaissances” ou de leur “lointaine famille à Bruxelles”. Je profitais de ces appels pour les épier. »"
       }
-    ]
+    ],
+    "texteDomainePublic": false
   },
   "brevet-2024-metropole-general-marc-dugain-chambre-officiers": {
     "examen": "Brevet",
@@ -2449,7 +2565,11 @@ window.ANNALES_CATALOGUE = {
         "points": 3,
         "consigne": "Dans « Elle était comme un parterre de roses saccagé par le milieu », identifiez la figure de style et expliquez pourquoi elle convient au visage de Marguerite.",
         "aide": "Le mot « comme » signale un rapprochement explicite. Il faut ensuite expliquer la beauté préservée et la destruction centrale.",
-        "manual": ["comparaison","opposition lexicale","métaphore"]
+        "manual": [
+          "comparaison",
+          "opposition lexicale",
+          "métaphore"
+        ]
       },
       {
         "id": "q5b",
@@ -2556,7 +2676,8 @@ window.ANNALES_CATALOGUE = {
         "aide": "Repérez les verbes, adjectifs, déterminants possessifs et pronoms qui dépendent de Marguerite.",
         "correction": "« Elles s’étaient portées volontaires. Elles étaient à cette époque aussi belles qu’inutiles. Leur père était un orfèvre fortuné, et elles ne manquaient pas de prétendants, tous réformés ou embusqués. Elles rêvaient de s’éprendre d’un homme courageux. »"
       }
-    ]
+    ],
+    "texteDomainePublic": false
   },
   "brevet-2023-metropole-general-george-sand-histoire-de-ma-vie": {
     "examen": "Brevet",
@@ -2617,7 +2738,11 @@ window.ANNALES_CATALOGUE = {
         "points": 3,
         "consigne": "À quoi le jeu des enfants est-il comparé tout au long du texte ? Relevez au moins quatre mots d’un champ lexical qui le prouve.",
         "aide": "Cherchez le vocabulaire du théâtre et de la représentation.",
-        "manual": ["champ lexical","accumulation","comparaison"]
+        "manual": [
+          "champ lexical",
+          "accumulation",
+          "comparaison"
+        ]
       },
       {
         "id": "q4b",
@@ -2736,7 +2861,8 @@ window.ANNALES_CATALOGUE = {
         "aide": "Modifiez les pronoms, verbes et accords qui dépendent d’Hippolyte.",
         "correction": "« Ils s’étaient déjà noyés plusieurs fois, nous les aidions à se retirer des grands trous où ils tombaient toujours, car ils faisaient le rôle du maladroit ou de l’homme ivre, et ils nageaient à sec sur le carreau en se débattant et en se lamentant. »"
       }
-    ]
+    ],
+    "texteDomainePublic": true
   },
   "brevet-2022-metropole-general-la-fontaine-lion-moucheron": {
     "examen": "Brevet",
@@ -2808,7 +2934,12 @@ window.ANNALES_CATALOGUE = {
         "points": 4,
         "consigne": "Comment le fabuliste met-il en évidence le mouvement et l’agitation du combat ? Appuyez-vous notamment sur les verbes, les adverbes et le rythme.",
         "aide": "Repérez les verbes d’action, les reprises de « tantôt » et les enchaînements rapides.",
-        "manual": ["accumulation","répétition","rythme","coordination"]
+        "manual": [
+          "accumulation",
+          "répétition",
+          "rythme",
+          "coordination"
+        ]
       },
       {
         "id": "q3",
@@ -2820,7 +2951,11 @@ window.ANNALES_CATALOGUE = {
         "points": 3,
         "consigne": "Par quels groupes nominaux le Lion est-il désigné ? Quel effet cela produit-il ?",
         "aide": "Comparez les désignations qui rappellent sa puissance à celles qui le rabaissent progressivement.",
-        "manual": ["périphrase","choix lexical","gradation"]
+        "manual": [
+          "périphrase",
+          "choix lexical",
+          "gradation"
+        ]
       },
       {
         "id": "q4",
@@ -2961,7 +3096,8 @@ window.ANNALES_CATALOGUE = {
         "aide": "Modifiez les pronoms, verbes, déterminants possessifs et accords.",
         "correction": "« Les malheureux Lions se déchirent eux-mêmes, font résonner leur queue à l’entour de leurs flancs, battent l’air […] ; et leur fureur extrême les fatigue, les abat. »"
       }
-    ]
+    ],
+    "texteDomainePublic": true
   },
   "brevet-2021-metropole-general-gautier-capitaine-fracasse": {
     "examen": "Brevet",
@@ -3011,7 +3147,12 @@ window.ANNALES_CATALOGUE = {
         "points": 3,
         "consigne": "Justifiez votre explication en vous appuyant sur la construction et le lexique de la phrase qui suit. Trois éléments précis sont attendus.",
         "aide": "Observez notamment les restrictions, le passage du collectif au singulier et le parallélisme de construction.",
-        "manual": ["restriction","antithèse","parallélisme","anaphore"]
+        "manual": [
+          "restriction",
+          "antithèse",
+          "parallélisme",
+          "anaphore"
+        ]
       },
       {
         "id": "q3",
@@ -3023,7 +3164,11 @@ window.ANNALES_CATALOGUE = {
         "points": 6,
         "consigne": "Dans le quatrième paragraphe, quel phénomène se produit le soir ? Comment se déclenche-t-il ? Appuyez-vous sur deux procédés d’écriture que vous analyserez.",
         "aide": "Il faut identifier la transformation du décor, ce qui la déclenche, puis analyser deux procédés.",
-        "manual": ["comparaison","intensité","verbes de transformation"]
+        "manual": [
+          "comparaison",
+          "intensité",
+          "verbes de transformation"
+        ]
       },
       {
         "id": "q4",
@@ -3106,7 +3251,8 @@ window.ANNALES_CATALOGUE = {
         "aide": "Repérez accords, pronoms, déterminants possessifs et groupes nominaux dépendant du chasseur.",
         "correction": "« La tapisserie prenait des tons livides, et les chasseurs, sur un fond de verdure sombre, devenaient, ainsi éclairés, des êtres presque réels. Ils ressemblaient, avec leurs arquebuses en joue, à des assassins guettant leurs victimes, et leurs lèvres rouges ressortaient plus étrangement encore. »"
       }
-    ]
+    ],
+    "texteDomainePublic": true
   },
   "brevet-2019-metropole-general-camus-premier-homme": {
     "examen": "Brevet",
@@ -3261,7 +3407,8 @@ window.ANNALES_CATALOGUE = {
         "consigne": "Quels liens pouvez-vous établir entre la photographie de Robert Doisneau et le texte d’Albert Camus ? Développez votre réponse en vous appuyant sur des éléments précis.",
         "aide": "Distinguez ce qui vient du texte et ce qui vient réellement de la photographie."
       }
-    ]
+    ],
+    "texteDomainePublic": false
   },
   "brevet-2018-metropole-general-marcel-ayme-uranus": {
     "examen": "Brevet",
@@ -3322,7 +3469,11 @@ window.ANNALES_CATALOGUE = {
         "points": 6,
         "consigne": "Que ressent Léopold quand Odette lit l’extrait d’Andromaque ? Justifiez en vous appuyant sur une image du texte que vous analyserez.",
         "aide": "Choisissez une image précise et expliquez ce qu’elle fait sentir.",
-        "manual": ["métaphore","comparaison","image"]
+        "manual": [
+          "métaphore",
+          "comparaison",
+          "image"
+        ]
       },
       {
         "id": "q5a",
@@ -3417,6 +3568,7 @@ window.ANNALES_CATALOGUE = {
         "consigne": "L’adjectif « étrange » vient du latin « extraneus », « qui n’est pas de la famille, étranger ». Comment ce sens premier peut-il enrichir le sens de l’adjectif dans le texte ?",
         "aide": "La patronne découvre soudain chez son mari quelque chose qui lui paraît presque étranger."
       }
-    ]
+    ],
+    "texteDomainePublic": false
   }
 };

@@ -56,11 +56,27 @@
   const supportTitle=document.getElementById("supportTitle");
   const supportText=document.getElementById("supportText");
   const supportSource=document.getElementById("supportSource");
+  const textToggle=document.getElementById("textToggle"), textDialog=document.getElementById("textDialog");
   if(item.supportText && supportBlock && supportText){
     supportBlock.hidden=false;
-    supportTitle.textContent=item.supportTitle||("Texte · "+item.auteur+" — "+item.oeuvre);
+    supportTitle.textContent=item.supportTitle||(item.auteur+", "+item.oeuvre);
     supportText.innerHTML=item.supportText;
-    supportSource.textContent=item.supportSource||"Texte reproduit pour le travail de l’annale.";
+    supportSource.textContent=(item.supportSource||"Texte reproduit pour le travail de l’annale.")+(/line-no/.test(item.supportText)?" Les numéros dans la marge marquent le début des lignes du sujet officiel.":"");
+    if(textToggle && textDialog && textDialog.showModal){
+      textToggle.hidden=false;
+      document.getElementById("textDialogTitle").textContent=supportTitle.textContent;
+      document.getElementById("textDialogBody").innerHTML=item.supportText+"<p class='micro'>"+supportSource.textContent+"</p>";
+      textToggle.addEventListener("click",()=>textDialog.showModal());
+      document.getElementById("textDialogClose").addEventListener("click",()=>textDialog.close());
+      textDialog.addEventListener("click",e=>{ if(e.target===textDialog) textDialog.close(); });
+    }
+  }else if(supportBlock && supportText){
+    supportBlock.hidden=false;
+    supportTitle.textContent=item.auteur+", "+item.oeuvre;
+    supportText.classList.remove("texte-examen");
+    supportText.innerHTML="<p class='texte-absent'>Le texte est dans le sujet officiel, avec ses numéros de ligne. Ouvrez-le et gardez-le à côté de cet exercice : chaque étape vous demandera d’y revenir.</p><p><a class='btn red small' href='"+item.sourceOfficielle+"' target='_blank' rel='noopener'>Ouvrir le sujet officiel ↗</a></p>";
+    supportSource.textContent=item.texteDomainePublic?"Ce texte sera bientôt affiché ici.":"Ce texte est encore protégé par le droit d’auteur : il n’est pas reproduit sur le site.";
+    if(textToggle){ textToggle.hidden=false; textToggle.textContent="Le texte ↗"; textToggle.addEventListener("click",()=>window.open(item.sourceOfficielle,"_blank","noopener")); }
   }
   els.guided.href=item.parcours||"../annales.html";
   window.AccessControl?.renderBadge(els.accessStatus);
@@ -153,30 +169,46 @@
     return [...relevant,...distractors].slice(0,4);
   }
 
+  const LABEL3={ok:"Solide",def:"Défendable",no:"À revoir"};
+  const structured=step=>(step.choix||[]).length>0 && Array.isArray(step.choix[0]);
+  function shuffle(a){const b=a.slice();for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]];}return b;}
   function renderManual(step,level=0){
     if(!els.manual) return;
     const guidedChoices=(step.choix||[]);
+    const isStructured=structured(step);
     const procedureOptions=procedureChoices(step);
     const hasSecond=guidedChoices.length || procedureOptions.length;
-    const showSecond=level>=2 && hasSecond;
+    const showSecond=(isStructured?level>=1:level>=2) && hasSecond;
     const showCorrection=level>=3 && step.correction;
     if(!showSecond && !showCorrection){els.manual.hidden=true;els.manual.innerHTML="";return;}
     els.manual.hidden=false;
     let html="";
-    if(showSecond){
+    if(showSecond && isStructured){
+      html+="<div class='kicker'>TROIS PROPOSITIONS</div><p>Choisissez celle qui vous paraît la plus juste. On vous dit pourquoi. Puis écrivez votre réponse avec vos mots.</p><div class='manual-choice-list'>"+
+        shuffle(guidedChoices.map((c,i)=>i)).map(i=>"<button type='button' class='manual-choice chaine-opt' data-i='"+i+"'>"+guidedChoices[i][0]+"</button>").join("")+
+        "</div><div class='chaine-fb manual-fb' aria-live='polite'></div>";
+    }else if(showSecond){
       const choices=guidedChoices.length ? guidedChoices : procedureOptions;
-      html+="<div class='kicker'>J’HÉSITE ENCORE</div><p>Choisissez la proposition qui vous paraît la plus juste, puis justifiez-la dans votre réponse.</p><div class='manual-choice-list'>"+
+      html+="<div class='kicker'>J’HÉSITE ENCORE</div><p>Quel procédé peut servir ici ? Choisissez-en un, puis expliquez dans votre réponse son effet dans ce passage.</p><div class='manual-choice-list'>"+
         choices.map(x=>"<button type='button' class='manual-choice'>"+x+"</button>").join("")+
         "</div>";
-      if(!guidedChoices.length) html+="<p class='micro'>Le choix du procédé ne remplace jamais l’explication de son effet ici.</p>";
+      if(!guidedChoices.length) html+="<p class='micro'>Le nom du procédé ne suffit jamais : c’est son effet ici qui compte.</p>";
     }
     if(showCorrection){
       html+="<div class='guided-correction'><div class='kicker'>CORRECTION EXPLIQUÉE</div><p>"+step.correction+"</p><p class='micro'>Relisez votre première réponse, puis réécrivez-la avant de poursuivre.</p></div>";
     }
     els.manual.innerHTML=html;
+    const fb=els.manual.querySelector(".manual-fb");
     els.manual.querySelectorAll(".manual-choice").forEach(btn=>btn.addEventListener("click",()=>{
-      els.manual.querySelectorAll(".manual-choice").forEach(x=>x.classList.remove("selected"));
+      els.manual.querySelectorAll(".manual-choice").forEach(x=>x.classList.remove("selected","picked"));
       btn.classList.add("selected");
+      if(isStructured && fb){
+        const c=guidedChoices[Number(btn.dataset.i)], st=c[1]||"no";
+        btn.classList.add("picked",st);
+        if(st==="no") btn.disabled=true;
+        fb.className="chaine-fb manual-fb show "+st;
+        fb.innerHTML="<strong>"+LABEL3[st]+".</strong> "+(c[2]||"")+(st!=="no"?" <span class='micro'>Écrivez maintenant votre réponse avec vos mots.</span>":"");
+      }
     }));
   }
 
@@ -190,8 +222,13 @@
     if(level===0){
       els.helpButton.hidden=false;
       els.helpButton.disabled=false;
-      els.helpButton.textContent="💡 Petit coup de pouce";
+      els.helpButton.textContent=structured(step)?"💡 Pas d’idée ? Un coup de pouce et trois propositions":"💡 Petit coup de pouce";
       els.helpLevel.textContent="";
+    }else if(level===1 && structured(step) && hasCorrection){
+      els.helpButton.hidden=false;
+      els.helpButton.disabled=false;
+      els.helpButton.textContent="Voir la correction expliquée";
+      els.helpLevel.textContent="Aide 1";
     }else if(level===1 && (hasSecond||hasCorrection)){
       els.helpButton.hidden=false;
       els.helpButton.disabled=false;
@@ -244,20 +281,24 @@
 
   els.helpButton.addEventListener("click",()=>{
     const step=currentStep();
-    if((els.answer.value||"").trim().length<2){
+    const firstChoice=structured(step) && !(state.help[step.id]||0);
+    if(!firstChoice && (els.answer.value||"").trim().length<2){
       els.feedback.textContent="Répondez d’abord. L’aide ne s’ouvre qu’après une tentative réelle.";
       els.feedback.classList.add("show");
       return;
     }
     const hasSecond=(step.choix||[]).length || (step.manual||[]).length;
     const max=step.correction?3:(hasSecond?2:1);
-    state.help[step.id]=Math.min(max,(state.help[step.id]||0)+1);
+    const cur=state.help[step.id]||0;
+    state.help[step.id]=Math.min(max,structured(step)&&cur===1?3:cur+1);
     save();
     renderHelp(step);
   });
 
   function suspensionUntil(step){ return Number(state.suspensions[step.id]||0); }
   function isSuspended(step){
+    if(state.suspensions[step.id]){ delete state.suspensions[step.id]; save(); }
+    return false;
     const until=suspensionUntil(step);
     if(until && until<=Date.now()){ delete state.suspensions[step.id]; save(); return false; }
     return until>Date.now();
@@ -368,8 +409,8 @@
       const data=await response.json();
       if(data.blocked){
         if(data.reason==="off_topic"){
-          suspendStep(step);
-          render();
+          els.feedback.innerHTML="<strong>Pas encore dans le sujet</strong><p>Votre réponse ne parle pas encore du sujet : relisez la consigne, puis reprenez. Vous pouvez demander un nouveau retour dès que vous avez réécrit.</p>";
+          els.feedback.classList.add("show");
           return;
         }
         els.feedback.innerHTML="<strong>IA non utilisée</strong><p>"+(data.error||"Reprenez d’abord votre réponse.")+"</p>";

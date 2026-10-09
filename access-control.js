@@ -1,7 +1,9 @@
 (() => {
   const CONFIG = {
     freeDiagnostics: 5,
-    storageKey: "bbf-access-v1"
+    storageKey: "bbf-access-v1",
+    /* Tant qu’aucun paiement n’existe, tout est ouvert : ne rien bloquer qu’on ne puisse acheter. */
+    salesOpen: false
   };
 
   function load(){
@@ -21,6 +23,7 @@
   }
 
   function getStatus(){
+    if(!CONFIG.salesOpen) return {premium:true,launch:true,used:0,limit:Infinity,remaining:Infinity};
     const state=load();
     return {
       premium:state.premium,
@@ -51,7 +54,10 @@
   function renderBadge(el){
     if(!el)return;
     const s=getStatus();
-    if(s.premium){
+    if(s.launch){
+      el.textContent="TOUT EST OUVERT PENDANT LE LANCEMENT";
+      el.classList.add("premium");
+    }else if(s.premium){
       el.textContent="ACCÈS COMPLET";
       el.classList.add("premium");
     }else{
@@ -66,7 +72,7 @@
       "<div class='kicker'>ACCÈS COMPLET</div>"+
       "<h3>Vous avez utilisé vos 5 retours gratuits.</h3>"+
       "<p>Vous pouvez continuer à travailler le texte. Pour recevoir de nouveaux retours, accéder aux parcours complets et aux entraînements ciblés, l’accès complet ouvre tout l’espace élève pendant 12 mois.</p>"+
-      "<a class='btn red small' href='"+paywallUrl()+"'>Voir l’offre · 29 € pour 12 mois →</a>"+
+      "<a class='btn red small' href='"+paywallUrl()+"'>Voir l’offre →</a>"+
       "</div>";
     container.classList.add("show");
   }
