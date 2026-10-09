@@ -47,7 +47,10 @@ for(const [page,n] of Object.entries(stepOf)){
 const card=(href,title,dep,res)=>`<a class="bloque-card" href="${href}"><strong>${T(title)}</strong>${dep?`<span><b>Vous partez de :</b> ${T(dep.replace(/^Vous /,'').replace(/^./,c=>c.toLowerCase()))}</span>`:''}<span><b>Vous obtenez :</b> ${T(res)}</span><i>Faire l’exercice →</i></a>`;
 const sections=GROUPS.map(([key,label,hint])=>{
   const items=EX.filter(x=>x[2].includes(key)).map(x=>card(`${x[0]}#${x[1]}`,x[3],null,x[6]));
-  const extra=(EXTRA[key]||[]).map(([h,t,d])=>`<a class="bloque-card bloque-extra" href="${h}"><strong>${T(t)}</strong><span>${T(d)}</span><i>Lire →</i></a>`);
+  const ex=EXTRA[key]||[];
+  const xc=([h,t,d,cta])=>`<a class="bloque-card bloque-extra${cta?' bloque-first':''}" href="${h}"><strong>${T(t)}</strong><span>${T(d)}</span><i>${cta?T(cta):'Lire →'}</i></a>`;
+  const first=ex.filter(x=>x[3]).map(xc), extra=ex.filter(x=>!x[3]).map(xc);
+  items.unshift(...first);
   return `<section class="offer-band bloque-group" id="${key}"><div class="kicker">« ${T(label.toUpperCase())} »</div><h2>${T(hint)}</h2>
 <div class="bloque-grid">${items.concat(extra).join('\n')}</div></section>`;
 }).join('\n\n');

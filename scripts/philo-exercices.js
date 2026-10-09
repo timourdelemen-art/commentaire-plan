@@ -64,6 +64,7 @@ const EX=[
 
 /* Liens qui ne sont pas des exercices mais aident dans une difficulté */
 const EXTRA={
+probleme:[['philosophie-probleme-pas-a-pas.html','Trouver le problème au clic','Sept questions, trois propositions à chaque fois : vous allez du sujet à la problématique sans rien écrire. À refaire autant de fois que vous voulez.','Commencer au clic →']],
 sujet:[[P+'#petits-mots','Les petits mots qui comptent','Un tableau : ce que « peut-on », « faut-il », « suffit-il »… font au sujet.']],
 troisieme:[[O+'#test-troisieme','Le test de la troisième partie','Quatre questions pour vérifier votre III avant de la rédiger.']],
 transitions:[['philosophie-dissertation.html#transitions','Six modèles de transition','Le retournement, le présupposé dévoilé, le prix… chacun avec un exemple.']],

@@ -2044,3 +2044,71 @@ main>section:nth-of-type(n+3){
 }
 /* Propositions à lire (non cliquables) : ne pas les dessiner comme des boutons */
 div.qcm-options>p{border:0!important;background:none!important;box-shadow:none!important;cursor:auto!important;padding:4px 0 4px 14px!important;border-left:3px solid #d9d0c2!important}
+
+/* Chaîne « Trouver le problème » pas à pas */
+.chaine-wrap{padding:34px 18px 50px;border-bottom:1px solid var(--rule)}
+#chaine-app{max-width:900px}
+.chaine-tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:1px solid var(--rule);margin-bottom:22px}
+.chaine-tabs button{font:inherit;background:transparent;border:0;border-right:1px solid var(--rule);padding:12px 10px;cursor:pointer;text-align:left;display:grid;gap:2px}
+.chaine-tabs button:last-child{border-right:0}
+.chaine-tabs button b{font:12px 'American Typewriter','Courier New',monospace;letter-spacing:1.5px;text-transform:uppercase;color:var(--red)}
+.chaine-tabs button span{font-size:17px}
+.chaine-tabs button.on{background:#181715;color:var(--paper)}
+.chaine-tabs button.on b{color:#f0c9c2}
+.chaine-tabs button:focus-visible,.chaine-opt:focus-visible,.chaine-sujets button:focus-visible{outline:3px solid var(--red);outline-offset:2px}
+.chaine-sujets{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:18px}
+.chaine-sujets>span{font:12px 'American Typewriter','Courier New',monospace;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted)}
+.chaine-sujets button{font:15px Georgia,'Times New Roman',serif;background:transparent;border:1px solid #9b9488;padding:7px 11px;cursor:pointer;text-align:left}
+.chaine-sujets button.on{border-color:var(--ink);background:#eee4d3}
+.chaine-sujet{font-size:26px;line-height:1.25;margin:6px 0 14px}
+.chaine-sujet span{display:inline-block;font:12px 'American Typewriter','Courier New',monospace;letter-spacing:1.5px;text-transform:uppercase;color:var(--red);vertical-align:middle;margin-left:6px}
+.chaine-carte{list-style:none;padding:0;margin:0 0 20px;display:grid;grid-template-columns:1fr 1fr auto;gap:10px;font-size:13px}
+.chaine-carte .grp{border:1px solid #c9bfb0;padding:8px 10px;background:#fbf7ef}
+.chaine-carte .grp>b{display:block;font:12px 'American Typewriter','Courier New',monospace;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:6px}
+.chaine-carte ol{list-style:none;padding:0;margin:0;display:flex;gap:4px}
+.chaine-carte ol li{flex:1;border-bottom:4px solid #ddd3c4;padding-bottom:3px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.chaine-carte ol li.done{border-color:#596d49;color:var(--ink)}
+.chaine-carte ol li.now{border-color:var(--red);color:var(--ink);font-weight:700}
+.chaine-carte .grp.pb{display:flex;align-items:center;border-bottom:4px solid #ddd3c4}
+.chaine-carte .grp.pb.now{border-color:var(--red)}
+.chaine-carte .grp.pb.done{border-color:#596d49}
+.chaine-carte .grp.pb>b{margin:0}
+.chaine-step{border-top:1px solid var(--rule);padding-top:20px}
+.chaine-num{font:12px 'American Typewriter','Courier New',monospace;letter-spacing:2px;text-transform:uppercase;color:var(--red);margin-bottom:10px}
+.chaine-enonce{font-size:19px;line-height:1.45;background:#eee4d3;padding:14px 16px;margin:0 0 16px}
+.chaine-enonce u{text-decoration-color:var(--red);text-decoration-thickness:3px;text-underline-offset:4px}
+.chaine-q{display:block;font-size:24px;line-height:1.25;margin:0 0 14px;font-weight:700}
+.chaine-opts{display:grid;gap:10px}
+.chaine-opt{font:17px/1.4 Georgia,'Times New Roman',serif;text-align:left;background:#fff;border:1px solid #8a8378;padding:14px 16px;cursor:pointer;color:var(--ink)}
+.chaine-opt:hover:not(:disabled){border-color:var(--ink)}
+.chaine-opt.picked.ok{background:#e6ecdf;border-color:#596d49}
+.chaine-opt.picked.def{background:#f3ead2;border-color:#9a7a2c}
+.chaine-opt.no{background:#f2dfdb;border-color:#9b4c43;opacity:.75;cursor:default}
+.chaine-fb{display:none;margin-top:14px;padding:14px 16px;border-left:4px solid var(--red);background:#eee5d5;font-size:17px;line-height:1.45}
+.chaine-fb.show{display:block}
+.chaine-fb.ok{border-color:#596d49;background:#e6ecdf}
+.chaine-fb.def{border-color:#9a7a2c;background:#f6efdc}
+.chaine-fb.no{border-color:#9b4c43;background:#f5e6e2}
+.chaine-fb .btn.small{display:inline-flex;margin:12px 0 0;min-width:0;height:auto;padding:10px 16px}
+#chaine-w{width:100%;font:18px/1.45 Georgia,'Times New Roman',serif;border:1px solid var(--rule);padding:12px;background:#fff}
+.chaine-brouillon{margin-top:26px;border:1px dashed #9b9488;padding:14px 16px;background:#fbf7ef}
+.chaine-brouillon>div{margin-top:10px}
+.chaine-brouillon p{margin:4px 0 0;font-size:16px;line-height:1.45}
+.chaine-brouillon em{font-style:normal;color:var(--muted)}
+.chaine-fin{border-top:1px solid var(--rule);padding-top:20px}
+.chaine-fin h2{font-size:34px;margin:8px 0 12px}
+.chaine-pb{font-size:22px;line-height:1.4;border-left:4px solid var(--red);padding:6px 0 6px 16px;margin:12px 0}
+.chaine-nav{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:16px}
+.chaine-nav .btn.small{margin:0;min-width:0;height:auto;padding:12px 18px}
+.chaine-nav button.home-text-link{background:none;border:0;border-bottom:1px solid var(--red);cursor:pointer;font-family:inherit;padding:0 0 3px}
+.bloque-card.bloque-first{border-color:var(--ink);background:#eee4d3}
+@media(max-width:760px){
+ .chaine-wrap{padding:22px 0 36px}
+ .chaine-tabs button{padding:9px 7px}.chaine-tabs button span{font-size:14px}
+ .chaine-carte{grid-template-columns:1fr 1fr;font-size:12px}.chaine-carte .grp.pb{grid-column:1/-1}
+ .chaine-sujet{font-size:21px}.chaine-q{font-size:20px}
+ .chaine-sujets{flex-wrap:nowrap;overflow-x:auto;padding-bottom:4px}.chaine-sujets button{flex:0 0 auto;max-width:240px;white-space:normal}
+}
+.chaine-invite{font-size:18px;line-height:1.45;background:#eee4d3;padding:12px 14px;margin:0 0 10px}
+@media(max-width:760px){.chaine-aside{display:none}.chaine-sujets>span{white-space:nowrap}}
+@media(max-width:760px){.chaine-head{padding-top:24px;padding-bottom:18px}.chaine-head h1{font-size:38px;margin:10px 0 12px}.chaine-head h1 br{display:none}.chaine-head .lede{font-size:19px}.chaine-head .boussole p{padding:7px 12px;font-size:15px}.chaine-head .boussole b{display:inline;margin-right:6px}}
