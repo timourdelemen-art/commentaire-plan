@@ -1,0 +1,31 @@
+name: Contrôle navigateur et parcours
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Installer Chromium et Playwright
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Générer les pages dans une copie jetable
+        run: |
+          B=$(mktemp -d)
+          echo "BUILD_DIR=$B" >> "$GITHUB_ENV"
+          git ls-files -co --exclude-standard | tar -cf - -T - | tar -xf - -C "$B"
+          cd "$B"
+          eval "$(sed -n 's/^ *command = "\(.*\)"/\1/p' netlify.toml)"
+      - name: Contrôler les pages à 390 et 1280 pixels
+        run: node scripts/check-browser-pages.cjs "$BUILD_DIR"
