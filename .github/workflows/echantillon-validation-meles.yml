@@ -1,0 +1,29 @@
+name: Echantillon de validation du corpus Meles
+on:
+  pull_request:
+    paths:
+      - 'scripts/echantillon-validation-meles.py'
+      - '.github/workflows/echantillon-validation-meles.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  echantillon:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          ref: corpus
+          path: corpus-interne
+          sparse-checkout: |
+            meles-brut.txt
+      - name: Produire les lignes à annoter
+        run: |
+          python3 scripts/echantillon-validation-meles.py corpus-interne/meles-brut.txt echantillon-validation.csv
+          test -s echantillon-validation.csv
+      - uses: actions/upload-artifact@v4
+        with:
+          name: echantillon-validation-interne
+          path: echantillon-validation.csv
+          retention-days: 7
