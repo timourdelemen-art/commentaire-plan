@@ -63,11 +63,9 @@
     let previousAnswer="";
     const lockKey="cp-exercise-lock:"+page+":"+index;
     const getLockUntil=()=>Number(localStorage.getItem(lockKey)||0);
+    try{localStorage.removeItem(lockKey);}catch(e){}
     const setLocked=(until,feedback,btn)=>{
-      localStorage.setItem(lockKey,String(until));
-      area.disabled=true;
-      btn.disabled=true;
-      feedback.innerHTML="<strong>Exercice suspendu</strong><p>Activité interrompue. La réponse est incohérente ou ne traite pas la tâche demandée. Nouvel essai possible dans 24 heures.</p>";
+      feedback.innerHTML="<strong>Pas encore dans le sujet</strong><p>Votre réponse ne parle pas encore du sujet : relisez la consigne, puis reprenez. Vous pouvez demander un nouveau retour dès que vous avez réécrit.</p>";
       feedback.classList.add("show");
     };
     area.dataset.feedbackMounted="1";

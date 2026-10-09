@@ -94,6 +94,7 @@
     <div class="kicker" id="trainingMeta">ANNALE</div>
     <h1 id="trainingTitle">Chargement…</h1>
     <p class="lede" id="trainingContext"></p>
+    <div class="boussole" aria-label="Avant de commencer"><p><b>D’où vous partez</b>Le texte du sujet, lu une fois en entier.</p><p><b>Ce que vous faites</b>Une étape à la fois : vous répondez, puis vous recevez un retour ou des propositions.</p><p><b>Ce que vous obtenez</b>La problématique, le plan, puis les morceaux rédigés de votre commentaire.</p></div>
     <div class="annale-training-links">
       <a class="official-link" id="officialSubject" target="_blank" rel="noopener">Sujet officiel ↗</a>
       <a class="official-link" id="guidedPath">Parcours guidé →</a>
@@ -107,11 +108,13 @@
 
 <div class="access-status type" id="accessStatus"></div>
 <section class="offer-band annale-support" id="supportBlock" hidden>
-  <div class="kicker">TEXTE SUPPORT</div>
+  <div class="kicker">LE TEXTE</div>
   <h2 id="supportTitle">Texte de l’annale</h2>
-  <div class="sequence-spec annale-source-text" id="supportText"></div>
+  <div class="annale-source-text texte-examen" id="supportText"></div>
   <p class="micro" id="supportSource"></p>
 </section>
+<button type="button" class="texte-flottant" id="textToggle" hidden aria-haspopup="dialog">Le texte</button>
+<dialog class="texte-dialog" id="textDialog" aria-label="Le texte de l’annale"><div class="texte-dialog-head"><strong id="textDialogTitle">Le texte</strong><button type="button" id="textDialogClose" aria-label="Fermer">Fermer ✕</button></div><div class="texte-examen" id="textDialogBody"></div></dialog>
 
 <section class="training-mode" id="trainingMode" hidden>
   <div class="kicker">COMMENT VOULEZ-VOUS TRAVAILLER ?</div>

@@ -2170,3 +2170,22 @@ div.qcm-options>p{border:0!important;background:none!important;box-shadow:none!i
 .home-diff-col em{color:var(--red);font-style:italic}
 .home-diff-cta{margin:18px 0 4px}
 @media(max-width:760px){.home-diff-grid{grid-template-columns:1fr}}
+
+/* === Texte d’examen : présentation aux normes === */
+.texte-examen{max-width:68ch;margin:0;padding:14px 0 14px 3.4em;font:18px/1.7 Georgia,'Times New Roman',serif;background:#fff;border:1px solid #d9d0c2;padding-right:18px;counter-reset:none}
+.texte-examen p{position:relative;margin:0 0 .6em;text-indent:1.5em;text-align:justify;hyphens:auto}
+.texte-examen .line-no{position:absolute;left:-3em;width:2.2em;text-align:right;text-indent:0;font:12px/1.7 'American Typewriter','Courier New',monospace;color:var(--muted);margin-top:.35em}
+.texte-examen sup{font-size:.7em}
+.texte-examen .vers{text-indent:0;text-align:left;margin:0}
+.texte-examen .didascalie{font-style:italic;text-indent:0}
+.texte-examen + .micro{max-width:68ch}
+.texte-absent{font-size:18px;line-height:1.5;max-width:60ch}
+.texte-flottant{position:fixed;right:16px;bottom:16px;z-index:50;background:#181715;color:var(--paper);border:0;border-radius:999px;padding:12px 18px;font:15px Georgia,'Times New Roman',serif;box-shadow:0 4px 14px rgba(0,0,0,.25);cursor:pointer}
+.texte-dialog{width:min(760px,96vw);max-height:90vh;border:1px solid var(--rule);padding:0;background:var(--paper)}
+.texte-dialog::backdrop{background:rgba(0,0,0,.45)}
+.texte-dialog-head{position:sticky;top:0;display:flex;justify-content:space-between;align-items:center;gap:12px;background:var(--paper);border-bottom:1px solid var(--rule);padding:10px 14px}
+.texte-dialog-head button{background:none;border:1px solid var(--ink);padding:6px 10px;font:14px Georgia,serif;cursor:pointer}
+.texte-dialog .texte-examen{border:0;margin:8px 0}
+@media(max-width:760px){.texte-examen{font-size:17px;padding-left:2.6em}.texte-examen .line-no{left:-2.5em}}
+#stepInstruction{white-space:pre-line}
+@media(max-width:760px){.texte-examen p{text-align:left;hyphens:manual}}
