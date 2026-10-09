@@ -108,7 +108,9 @@ function show(){
   if(st!=="ok") stage.querySelectorAll(".diag-option")[good].classList.add("is-good");
   const lab={ok:"Solide.",def:"Défendable.",no:"À revoir."}[st];
   fb.className="diag-feedback chaine-fb show "+st;
-  fb.innerHTML='<p><strong>'+lab+'</strong> '+esc(String(o[2]).replace(/^(Défendable : |C’est la bonne : )/,"").replace(/^./,c=>c.toUpperCase()))+'</p>'+(q.skill==='problematiser'?'<p><strong>Pourquoi les quatre propositions ne se valent pas :</strong></p><ol>'+q.options.map((v,k)=>'<li><strong>'+String.fromCharCode(65+k)+' — '+(v[1]===true?'Solide':v[1]==='def'?'Défendable':'À revoir')+'.</strong> '+esc(v[2])+'</li>').join('')+'</ol>':st==='ok'?'':'<p><strong>La plus solide ('+String.fromCharCode(65+good)+') :</strong> '+esc(q.options[good][2])+'</p>')+'<button type="button" class="btn red diag-next">'+(i+1<qs.length?"Question suivante →":"Voir le résultat →")+'</button>';
+  const detail=v=>esc(String(v[2]).replace(/^(Défendable : |C’est la bonne : )/,''));
+  const lesson='<ol>'+q.options.map((v,k)=>'<li><strong>'+String.fromCharCode(65+k)+' · '+(v[1]===true?'Solide':v[1]==='def'?'Défendable':'À revoir')+'</strong> — '+detail(v)+'</li>').join('')+'</ol>';
+  fb.innerHTML=(q.skill==='problematiser'?'<p><strong>'+lab+'</strong> Comparez les quatre formulations :</p>'+lesson:'<p><strong>'+lab+'</strong> '+detail(o)+'</p>'+(st==='ok'?'':'<p><strong>La plus solide ('+String.fromCharCode(65+good)+') :</strong> '+detail(q.options[good])+'</p>'))+'<button type="button" class="btn red diag-next">'+(i+1<qs.length?'Question suivante →':'Voir le résultat →')+'</button>';
   fb.querySelector(".diag-next").onclick=()=>{i++;show();};
  });
 }
