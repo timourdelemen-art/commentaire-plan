@@ -32,8 +32,9 @@ function tabs(){
   return `<nav class="chaine-tabs" aria-label="Niveaux">${[[1,'Niveau 1','Au clic'],[2,'Niveau 2','J’écris un peu'],[3,'Niveau 3','J’écris tout']].map(([n,a,b])=>`<button type="button" data-level="${n}" class="${n===level?'on':''}" ${n===level?'aria-current="step"':''}><b>${a}</b><span>${typo(b)}</span></button>`).join('')}</nav>`;
 }
 function chooser(){
-  if(level!==1) return '';
+  if(level===3) return '';
   const done=read(), mastered=readMastered();
+  if(level===2) return `<div class="chaine-sujets"><span>Choisissez parmi les ${D.niveau2.length} sujets pour écrire avec moins d’aide</span>${D.niveau2.map((s,i)=>`<button type="button" data-subj="${i}" class="${i===si?'on':''}">${T(s.sujet)}</button>`).join('')}</div>`;
   return `<div class="chaine-sujets"><span>Choisissez un sujet différent pour consolider le geste</span>${D.niveau1.map((s,i)=>`<button type="button" data-subj="${i}" class="${i===si?'on':''}">${mastered.includes(s.id)?'✓ réussi sans erreur · ':done.includes(s.id)?'↻ déjà essayé · ':''}${T(s.sujet)}</button>`).join('')}</div>`;
 }
 function carte(){
@@ -71,12 +72,13 @@ function endView(){
   const mastered=readMastered().filter(id=>D.niveau1.some(s=>s.id===id));
   const ready=mastered.length>=3;
   const remaining=D.niveau1.findIndex((x,j)=>j!==si&&!mastered.includes(x.id));
-  const nextSubj=level===1&&remaining>=0;
+  const nextSubj=level===1?remaining>=0:si<D.niveau2.length-1;
   const result=level===1?`<div class="prescription"><strong>${mastered.length} sujet${mastered.length>1?'s':''} réussi${mastered.length>1?'s':''} sans erreur sur 3 conseillés.</strong> ${ready?'Vous avez reconnu et relié les deux difficultés sur plusieurs sujets. Vous pouvez maintenant essayer de les formuler avec moins d’aide.':'Avant de réduire les aides, entraînez-vous sur des sujets différents. Vous pouvez néanmoins explorer le niveau 2 à tout moment.'}${!firstTrySolid?' Sur ce sujet, vous avez eu besoin d’au moins une correction : recommencez pour vérifier votre compréhension.':''}</div>`:'';
   return `<div class="chaine-fin"><div class="kicker">SUJET PARCOURU</div><h2>Vous avez suivi les sept gestes.</h2>
   <p class="chaine-pb">${T(got[6])}</p>
   <p class="micro">Vous avez examiné ce que perd chacune des deux réponses, puis la question qui relie leurs difficultés. Reconnaître cette relation n’est pas encore savoir la construire seul.</p>
   ${result}
+  ${level===2?'<p class="prescription"><strong>Ce que vous gagnez :</strong> vous avez formulé vous-même deux difficultés et leur relation, puis comparé vos phrases avec des exemples. Recommencez sur un autre sujet avant d’essayer seul, sans questions intermédiaires.</p>':''}
   ${PLAN_IDS.includes(s.id)?`<p class="chaine-annale"><strong>Étape suivante :</strong> <a class="official-link" href="philosophie-plan-pas-a-pas.html?sujet=${s.id}${level===2?'&niveau=2':''}">Construire le plan de ce sujet →</a></p>`:''}
   ${ANNALE[s.id]?`<p class="chaine-annale">Ce sujet est tombé au bac 2026. <a class="official-link" href="philosophie-bac-2026-${ANNALE[s.id]}.html">L’écrire en entier, avec le corrigé et une copie à 20 →</a></p>`:''}
   <div class="chaine-nav">
@@ -133,7 +135,7 @@ function bind(){
   };
   const q=(c,f)=>{const el=root.querySelector(c); if(el) el.onclick=f;};
   q('.chaine-again',go);
-  q('.chaine-nextsubj',()=>{const mastered=readMastered();const j=D.niveau1.findIndex((x,k)=>k!==si&&!mastered.includes(x.id));if(j>=0){si=j;go();}});
+  q('.chaine-nextsubj',()=>{if(level===2){si++;go();return;}const mastered=readMastered();const j=D.niveau1.findIndex((x,k)=>k!==si&&!mastered.includes(x.id));if(j>=0){si=j;go();}});
   q('.chaine-nextlevel',()=>{level=Math.min(3,level+1);si=0;go();});
   q('.chaine-prevlevel',()=>{level=Math.max(1,level-1);si=0;go();});
   q('.chaine-restart',go);
