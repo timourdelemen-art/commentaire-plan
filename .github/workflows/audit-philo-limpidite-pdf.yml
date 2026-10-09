@@ -1,0 +1,21 @@
+name: Audit limpidite et PDF philosophie
+on:
+  pull_request:
+    paths:
+      - 'scripts/audit-philo-limpidite-pdf.py'
+      - '.github/workflows/audit-philo-limpidite-pdf.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Inventaire
+        run: python3 scripts/audit-philo-limpidite-pdf.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: audit-philo-limpidite-pdf
+          path: audit-philo-limpidite-pdf.csv
+          retention-days: 7
