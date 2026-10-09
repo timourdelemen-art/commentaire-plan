@@ -31,7 +31,7 @@ function tabs(){
   return `<nav class="chaine-tabs" aria-label="Niveaux">${[[1,'Niveau 1','Au clic'],[2,'Niveau 2','J’écris un peu'],[3,'Niveau 3','J’écris tout']].map(([n,a,b])=>`<button type="button" data-level="${n}" class="${n===level?'on':''}" ${n===level?'aria-current="step"':''}><b>${a}</b><span>${typo(b)}</span></button>`).join('')}</nav>`;
 }
 function chooser(){
-  return '<p class="micro">Ce niveau travaille un seul extrait. Pour vous confronter à un texte nouveau, passez au niveau 3.</p>';
+  return '';
 }
 function carte(){
   const s=subj();
@@ -63,7 +63,7 @@ function endView(){
   const nextSubj=false; // Une seule situation par niveau guidé : ne pas proposer un faux « autre sujet ».
   return `<div class="chaine-fin"><div class="kicker">C’EST FAIT</div><h2>Vous avez la problématique et le début du plan.</h2>
   <p class="micro">De la lecture à la problématique, puis une partie prouvée par les mots du texte : c’est tout le chemin du commentaire. La partie II naît de ce que la partie I n’expliquait pas.</p>
-  <p class="micro">Vous avez parcouru cet extrait. Vérifiez maintenant le même geste sur un autre texte.</p>
+  <p class="micro">${level===1?'Vous avez travaillé un extrait au clic. Au niveau 2, vous formulerez vous-même certaines réponses sur ce même passage.':'Vous avez formulé certaines réponses sur cet extrait. Au niveau 3, entraînez-vous seul sur un autre texte.'}</p>
   <p class="chaine-annale">Pour continuer sur ce passage : <a class="official-link" href="pot-bouille-pb01.html">l’extrait complet et ses exercices →</a></p>
   <div class="chaine-nav">
    <button type="button" class="btn small comm-again">Revoir ce même sujet</button>
