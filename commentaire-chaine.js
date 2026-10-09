@@ -31,9 +31,7 @@ function tabs(){
   return `<nav class="chaine-tabs" aria-label="Niveaux">${[[1,'Niveau 1','Au clic'],[2,'Niveau 2','J’écris un peu'],[3,'Niveau 3','J’écris tout']].map(([n,a,b])=>`<button type="button" data-level="${n}" class="${n===level?'on':''}" ${n===level?'aria-current="step"':''}><b>${a}</b><span>${typo(b)}</span></button>`).join('')}</nav>`;
 }
 function chooser(){
-  return '';
-  const done=read();
-  return `<div class="chaine-sujets"><span>Sujet</span>${D.niveau1.map((s,i)=>`<button type="button" data-subj="${i}" class="${i===si?'on':''}">${done.includes(s.id)?'✓ ':''}${T(s.sujet)}</button>`).join('')}<button type="button" class="comm-hasard">Un sujet au hasard</button></div>`;
+  return '<p class="micro">Ce niveau travaille un seul extrait. Pour vous confronter à un texte nouveau, passez au niveau 3.</p>';
 }
 function carte(){
   const s=subj();
@@ -62,22 +60,22 @@ function endView(){
   const s=subj();
   const done=read(); if(!done.includes(s.id)){done.push(s.id);save(done);}
   if(!got._recorded){record(level+':'+s.id);got._recorded=true;}
-  const nextSubj=list().length>1;
+  const nextSubj=false; // Une seule situation par niveau guidé : ne pas proposer un faux « autre sujet ».
   return `<div class="chaine-fin"><div class="kicker">C’EST FAIT</div><h2>Vous avez la problématique et le début du plan.</h2>
   <p class="micro">De la lecture à la problématique, puis une partie prouvée par les mots du texte : c’est tout le chemin du commentaire. La partie II naît de ce que la partie I n’expliquait pas.</p>
-  <p class="micro">Ce passage a été parcouru. Pour vérifier votre autonomie, travaillez un autre extrait : refaire les mêmes choix ne suffit pas.</p>
+  <p class="micro">Vous avez parcouru cet extrait. Vérifiez maintenant le même geste sur un autre texte.</p>
   <p class="chaine-annale">Pour continuer sur ce passage : <a class="official-link" href="pot-bouille-pb01.html">l’extrait complet et ses exercices →</a></p>
   <div class="chaine-nav">
    <button type="button" class="btn small comm-again">Revoir ce même sujet</button>
    ${nextSubj?`<button type="button" class="btn small comm-nextsubj">Essayer un autre sujet →</button>`:''}
    ${level>1?`<button type="button" class="home-text-link comm-prevlevel">← Niveau précédent</button>`:''}
-   <button type="button" class="btn red small comm-nextlevel">Niveau suivant →</button>
+   <button type="button" class="btn red small comm-nextlevel">${level===2?'Essayer un autre texte seul →':'Niveau 2 : écrire davantage →'}</button>
   </div></div>`;
 }
 function level3(){
   const n=D.niveau3;
   return `<div class="chaine-step"><div class="kicker">NIVEAU 3 · J’ÉCRIS TOUT</div><h2>Un autre passage, sans propositions.</h2>
-  <p>Sur un autre passage, faites seul le chemin, de la lecture au plan. Ce niveau ne propose pas encore une banque complète de textes : ne confondez pas cette reprise avec une maîtrise vérifiée.</p>
+  <p>Sur un autre passage, faites seul le chemin, de la lecture au plan. Un second texte ne suffit pas à mesurer une maîtrise durable.</p>
   <p class="chaine-pb">${typo('« '+esc(n.sujet)+' »')}</p>
   <p><a class="btn red small" href="${n.href}">Travailler ce passage →</a> <a class="home-text-link" href="bac-commentaire.html">Choisir un autre texte →</a></p>
   <div class="chaine-nav"><button type="button" class="home-text-link comm-prevlevel">← Niveau précédent</button></div></div>`;
@@ -95,7 +93,7 @@ function go(){ step=0; got=[]; render(); root.scrollIntoView({behavior:'smooth',
 function bind(){
   root.querySelectorAll('[data-level]').forEach(b=>b.onclick=()=>{level=Number(b.dataset.level);si=0;go();});
   root.querySelectorAll('[data-subj]').forEach(b=>b.onclick=()=>{si=Number(b.dataset.subj);go();});
-  const h=root.querySelector('.comm-hasard'); if(h) h.onclick=()=>{ let n=si; while(D.niveau1.length>1&&n===si) n=Math.floor(Math.random()*D.niveau1.length); si=n; go(); };
+
   const fb=root.querySelector('.chaine-fb');
   root.querySelectorAll('.chaine-opt').forEach(b=>b.onclick=()=>{
     const e=subj().etapes[step], o=e.o[Number(b.dataset.k)], st=o[1];
@@ -120,7 +118,7 @@ function bind(){
   const tb=root.querySelector('.comm-texte'); if(tb) tb.onclick=()=>{const d=document.getElementById('textDialog'); if(d&&d.showModal) d.showModal();};
   const q=(c,f)=>{const el=root.querySelector(c); if(el) el.onclick=f;};
   q('.comm-again',go);
-  q('.comm-nextsubj',()=>{const j=leastNew(list(),si,level);if(j!==undefined){si=j;go();}});
+
   q('.comm-nextlevel',()=>{level=Math.min(3,level+1);si=0;go();});
   q('.comm-prevlevel',()=>{level=Math.max(1,level-1);si=0;go();});
 }
