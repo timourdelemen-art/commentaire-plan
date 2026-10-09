@@ -1,0 +1,39 @@
+name: Audit interne des formes de sujets philosophiques
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer les scripts
+        uses: actions/checkout@v4
+      - name: Récupérer le corpus de recherche séparé
+        uses: actions/checkout@v4
+        with:
+          ref: corpus
+          path: corpus-interne
+          sparse-checkout: |
+            meles-brut.txt
+            bac-dissertations-brut.txt
+            bac-dissertations.txt
+      - name: Vérifier la présence du recueil de concours
+        run: test -s corpus-interne/meles-brut.txt
+      - name: Audit descriptif (ne produit aucun exercice)
+        run: |
+          python3 scripts/audit-philo-semantique.py corpus-interne/meles-brut.txt --output audit-meles.json
+          python3 -m json.tool audit-meles.json >/dev/null
+          python3 - <<'PY'
+          import json
+          d=json.load(open("audit-meles.json"))
+          assert d["lignes_candidates"] > 1000, "Corpus incomplet ou extraction erronée"
+          print("Lignes candidates:",d["lignes_candidates"])
+          print("Attention : les lignes candidates ne sont pas des sujets segmentés.")
+          PY
+      - name: Archiver le rapport interne
+        uses: actions/upload-artifact@v4
+        with:
+          name: audit-semantique-interne
+          path: audit-meles.json
+          retention-days: 7
