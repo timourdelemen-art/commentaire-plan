@@ -22,6 +22,8 @@ jobs:
           node-version: '22'
       - name: Build HLP annales
         run: node scripts/build-hlp.js
+      - name: Vérifier les sources et les liens HLP
+        run: node scripts/check-hlp-sources.js
       - name: Build SEO layer
         run: node scripts/seo-build.js
       - name: Audit internal SEO
