@@ -204,3 +204,19 @@ niveau2: [
 ],
 niveau3: {sujet:'Peut-on être heureux quand les autres ne le sont pas ?', href:'philosophie-bac-2026-peut-on-etre-heureux-quand-les-autres-ne-le-sont-pas.html'}
 };
+
+/* Au deuxième niveau, reprendre plusieurs sujets sous une forme plus exigeante :
+   la scène qui met chaque réponse en difficulté et la question finale sont écrites.
+   Les exemples restent disponibles seulement après une tentative. */
+const exemplesGuides=window.PHILO_CHAINE.niveau1.map(s=>({
+  ...s,
+  etapes:s.etapes.map((e,i)=>{
+    if(![1,4,6].includes(i)) return {...e};
+    const solide=e.o.find(o=>o[1]==='ok');
+    return {b:e.b,p:e.p,w:1,
+      q:i===6?'Écrivez une question qui relie les deux difficultés sans choisir une réponse à l’avance.':
+        'Sans propositions, imaginez ce qui met cette réponse en difficulté. Écrivez une phrase.',
+      m:solide[0]};
+  })
+}));
+window.PHILO_CHAINE.niveau2.push(...exemplesGuides);
