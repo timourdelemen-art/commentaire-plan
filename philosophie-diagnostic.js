@@ -81,14 +81,31 @@ references:{context:"Vous voulez montrer que douter peut être une méthode pour
 ["Selon Descartes, il faut douter de tout, toujours, et ne jamais rien tenir pour certain.",false,"Contresens : le doute est une étape de la recherche, non une fin en soi."]]}
 };
 const questionsInitiales=qs.slice(1).map(q=>({...q}));
-let numeroProbleme=0;
-try{numeroProbleme=Number(sessionStorage.getItem("philo-probleme-numero")||"0")||0;}catch(e){}
+/* Chaque reprise présente un sujet différent du précédent, même après rechargement.
+   Une série parcourt les six sujets avant de recommencer : banque finie, sans promesse d'infini. */
+const STORAGE_KEY="philo-diagnostic-sujets-v2";
+let historique=[];
+try {
+ const saved=JSON.parse(localStorage.getItem(STORAGE_KEY)||"[]");
+ if(Array.isArray(saved)) historique=saved.filter(n=>Number.isInteger(n)&&n>=0&&n<problemes.length);
+} catch(e) {}
+let dernierSujet=historique.length?historique[historique.length-1]:-1;
+let nombreReprises=0;
 function choisirProbleme(){
- const p=problemes[numeroProbleme%problemes.length];
+ const disponibles=problemes.map((_,n)=>n).filter(n=>!historique.includes(n));
+ const candidats=disponibles.length?disponibles:problemes.map((_,n)=>n).filter(n=>n!==dernierSujet);
+ const index=candidats[Math.floor(Math.random()*candidats.length)];
+ if(!disponibles.length) historique=[];
+ historique.push(index);
+ dernierSujet=index;
+ try {localStorage.setItem(STORAGE_KEY,JSON.stringify(historique));} catch(e) {}
+ const p=problemes[index];
  qs[0]={...qs[0],context:p.context,options:p.options};
- questionsInitiales.forEach((original,j)=>{const alt=autresSituations[original.skill];qs[j+1]=numeroProbleme%2===0?{...original}:{...original,context:alt.context,options:alt.options};});
- try{sessionStorage.setItem("philo-probleme-numero",String(numeroProbleme+1));}catch(e){}
- numeroProbleme++;
+ questionsInitiales.forEach((original,j)=>{
+  const alt=autresSituations[original.skill];
+  qs[j+1]=nombreReprises%2===0?{...original}:{...original,context:alt.context,options:alt.options};
+ });
+ nombreReprises++;
 }
 function recommencer(){i=0;Object.keys(scores).forEach(k=>delete scores[k]);choisirProbleme();show();}
 const labels={problematiser:"Trouver le problème d’un sujet",argumenter:"Argumenter",transitions:"Construire les transitions",troisieme:"Construire la troisième partie",references:"Utiliser les références"};
@@ -121,10 +138,10 @@ function finish(){
  const weak=order.filter(k=>!scores[k]);
  const solid=order.filter(k=>scores[k]);
  if(!weak.length){
-   stage.innerHTML='<div class="diag-result"><div class="kicker">LES CINQ GESTES TIENNENT</div><h2>Passez à un vrai sujet.</h2><p>Vous avez réussi les cinq situations. Le bon test maintenant est un sujet complet, sans aide au départ.</p><div class="prescription"><strong>Travail conseillé :</strong><br>Choisissez une annale, trouvez seul le problème et le plan, puis comparez avec le corrigé.</div><a class="btn red" href="philosophie-annales.html">Choisir une annale →</a><p class="micro"><button type="button" class="philo-reset" id="diagReset">Recommencer le diagnostic</button></p></div>';
+   stage.innerHTML='<div class="diag-result"><div class="kicker">LES CINQ GESTES TIENNENT</div><h2>Passez à un vrai sujet.</h2><p>Vous avez réussi les cinq situations. Le bon test maintenant est un sujet complet, sans aide au départ.</p><div class="prescription"><strong>Travail conseillé :</strong><br>Choisissez une annale, trouvez seul le problème et le plan, puis comparez avec le corrigé.</div><a class="btn red" href="philosophie-annales.html">Choisir une annale →</a><p class="micro"><button type="button" class="philo-reset" id="diagReset">Recommencer sur un autre sujet</button></p></div>';
  }else{
    const priority=weak[0];
-   stage.innerHTML='<div class="diag-result"><div class="kicker">VOTRE PRIORITÉ</div><h2>'+labels[priority]+'</h2><p>Vous avez réussi '+solid.length+' situation'+(solid.length>1?"s":"")+' sur 5. Ce n’est pas une note : c’est l’endroit où commencer.</p><div class="prescription"><strong>Travail conseillé :</strong><br>'+prescription(priority)+'</div><a class="btn red" href="'+links[priority]+'">Travailler cette priorité →</a> <a class="home-text-link" href="philosophie.html">Revoir le parcours →</a><p class="micro"><button type="button" class="philo-reset" id="diagReset">Recommencer le diagnostic</button></p></div>';
+   stage.innerHTML='<div class="diag-result"><div class="kicker">VOTRE PRIORITÉ</div><h2>'+labels[priority]+'</h2><p>Vous avez réussi '+solid.length+' situation'+(solid.length>1?"s":"")+' sur 5. Ce n’est pas une note : c’est l’endroit où commencer.</p><div class="prescription"><strong>Travail conseillé :</strong><br>'+prescription(priority)+'</div><a class="btn red" href="'+links[priority]+'">Travailler cette priorité →</a> <a class="home-text-link" href="philosophie.html">Revoir le parcours →</a><p class="micro"><button type="button" class="philo-reset" id="diagReset">Recommencer sur un autre sujet</button></p></div>';
  }
  document.getElementById("diagReset").onclick=()=>{recommencer();};
 }
