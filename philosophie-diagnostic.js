@@ -28,7 +28,7 @@ const qs=[
 ["Comme le disait Spinoza, il faut toujours désirer ce qui est bon.",false,"Contresens : Spinoza dit presque l’inverse. Une référence mal comprise affaiblit le devoir."]]}
 ];
 const labels={problematiser:"Trouver le problème d’un sujet",argumenter:"Argumenter",transitions:"Construire les transitions",troisieme:"Construire la troisième partie",references:"Utiliser les références"};
-const links={problematiser:"philosophie-problematisation.html",argumenter:"philosophie-penser-par-soi-meme.html",transitions:"philosophie-dissertation-entrainement.html#ex-transition",troisieme:"philosophie-dissertation-entrainement.html#bataille-iii",references:"philosophie-references.html"};
+const links={problematiser:"philosophie-probleme-pas-a-pas.html",argumenter:"philosophie-penser-par-soi-meme.html",transitions:"philosophie-dissertation-entrainement.html#ex-transition",troisieme:"philosophie-dissertation-entrainement.html#bataille-iii",references:"philosophie-references.html"};
 let i=0; const scores={}; const stage=document.getElementById("diagStage"),prog=document.getElementById("diagProgress");
 const esc=s=>String(s).replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
 function show(){
@@ -61,7 +61,7 @@ function finish(){
 }
 function prescription(k){
  return {
- problematiser:"Suivez l’exemple de la page « Trouver le problème », puis faites les cinq QCM en nommant chaque erreur.",
+ problematiser:"Commencez au clic : un vrai sujet, sept questions, la problématique au bout. Refaites-le sur deux autres sujets, puis passez au niveau 2.",
  argumenter:"Commencez par « Zéro auteur » : une réponse, une raison, un exemple, une difficulté, sans aucun nom propre.",
  transitions:"Faites l’exercice 7 et le « Duel de transitions », puis écrivez vous-même une transition sur un sujet d’annale.",
  troisieme:"Faites la « Bataille des III », puis relisez les sept opérations de la troisième partie.",

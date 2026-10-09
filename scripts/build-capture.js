@@ -5,9 +5,10 @@ const fs=require('fs'),path=require('path');
 const ROOT=path.join(__dirname,'..');
 const RULES=[
  [/^philosophie-bac-2026-.*\.html$/,'Un autre sujet de philosophie ?','Les nouveaux sujets corrigés, au fil de l’année.'],
- [/^philosophie-notion-.*\.html$/,'Continuer sur les autres notions ?','Les nouveaux sujets corrigés, au fil de l’année.'],
+ [/^philosophie-notion-.*\.html$/,'D’autres sujets sur cette notion ?','Les nouveaux sujets corrigés, au fil de l’année.'],
  [/^philosophie-copie-20-.*\.html$/,'D’autres copies à 20 ?','Les nouvelles copies et les nouveaux sujets corrigés.'],
- [/^hlp-20\d\d-.*\.html$/,'Un autre sujet de HLP ?','Les nouveaux sujets corrigés, au fil de l’année.'],
+ [/^hlp-20\d\d-.*\.html$/,'Un autre sujet de HLP ?','Les nouveaux sujets et les nouveaux outils, au fil de l’année.'],
+ [/^philosophie-probleme-pas-a-pas\.html$/,'De nouveaux sujets à faire au clic ?','Les nouveaux sujets pas à pas, au fil de l’année.'],
  [/^bac-20\d\d-.*\.html$/,'Un autre sujet du bac ?','Les nouveaux sujets corrigés, au fil de l’année.'],
 ];
 const START='<!--capture:start-->',END='<!--capture:end-->';

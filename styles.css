@@ -2112,3 +2112,4 @@ div.qcm-options>p{border:0!important;background:none!important;box-shadow:none!i
 .chaine-invite{font-size:18px;line-height:1.45;background:#eee4d3;padding:12px 14px;margin:0 0 10px}
 @media(max-width:760px){.chaine-aside{display:none}.chaine-sujets>span{white-space:nowrap}}
 @media(max-width:760px){.chaine-head{padding-top:24px;padding-bottom:18px}.chaine-head h1{font-size:38px;margin:10px 0 12px}.chaine-head h1 br{display:none}.chaine-head .lede{font-size:19px}.chaine-head .boussole p{padding:7px 12px;font-size:15px}.chaine-head .boussole b{display:inline;margin-right:6px}}
+.chaine-annale{font-size:17px;margin:10px 0 0}

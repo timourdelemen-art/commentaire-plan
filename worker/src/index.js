@@ -456,6 +456,10 @@ function buildSpec(body) {
   };
 }
 
+const RATE = new Map();
+const RATE_WINDOW = 10 * 60 * 1000;
+const RATE_MAX = 30;
+
 export default {
   async fetch(request, env) {
     const origin = request.headers.get("Origin") || "";
@@ -469,9 +473,20 @@ export default {
       return json({ ok: false, error: "Route inconnue." }, 404, origin);
     }
 
-    if (origin && !ALLOWED_ORIGINS.has(origin)) {
+    if (!ALLOWED_ORIGINS.has(origin)) {
       return json({ ok: false, error: "Origine non autorisée." }, 403, origin);
     }
+
+    // Garde-fou simple contre les abus : au plus RATE_MAX demandes par adresse et par fenêtre,
+    // dans chaque instance du worker (mémoire locale : imparfait, mais coupe les boucles automatiques).
+    const ip = request.headers.get("CF-Connecting-IP") || "?";
+    const now = Date.now();
+    const hits = (RATE.get(ip) || []).filter(t => now - t < RATE_WINDOW);
+    if (hits.length >= RATE_MAX) {
+      return json({ ok: false, error: "Beaucoup de demandes en peu de temps : reprenez votre réponse et réessayez dans quelques minutes." }, 429, origin);
+    }
+    hits.push(now); RATE.set(ip, hits);
+    if (RATE.size > 5000) RATE.clear();
 
     if (!env.OPENAI_API_KEY) {
       return json({ ok: false, setup: true, error: "Clé API absente." }, 503, origin);
