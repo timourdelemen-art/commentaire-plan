@@ -202,7 +202,13 @@ niveau2: [
   {b:'pb',p:'pb',w:1,q:'Écrivez la question qui met ces deux pertes face à face, sur le modèle : « … suppose-t-il…, et … suppose-t-il… ? »',m:'Nous dire prisonniers du langage suppose-t-il un point de vue hors de lui, et nous en dire libres, une pensée sans mots qui ne pourrait rien penser ?'}
  ]}
 ],
-niveau3: {sujet:'Peut-on être heureux quand les autres ne le sont pas ?', href:'philosophie-bac-2026-peut-on-etre-heureux-quand-les-autres-ne-le-sont-pas.html'}
+niveau3: [
+ {sujet:'Peut-on être heureux quand les autres ne le sont pas ?',href:'philosophie-bac-2026-peut-on-etre-heureux-quand-les-autres-ne-le-sont-pas.html'},
+ {sujet:'Peut-on être certain d’avoir bien agi ?',href:'philosophie-bac-2026-peut-on-etre-certain-d-avoir-bien-agi.html'},
+ {sujet:'La science doit-elle être utile ?',href:'philosophie-bac-2026-la-science-doit-elle-etre-utile.html'},
+ {sujet:'L’artiste sait-il ce qu’il fait ?',href:'philosophie-bac-2026-l-artiste-sait-il-ce-qu-il-fait.html'},
+ {sujet:'Sommes-nous prisonniers du langage ?',href:'philosophie-bac-2026-sommes-nous-prisonniers-du-langage.html'}
+]
 };
 
 /* Au deuxième niveau, reprendre plusieurs sujets sous une forme plus exigeante :

@@ -10,6 +10,9 @@ const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'
 const T=s=>typo(esc(s));
 const KEY='philo-chaine-fait';
 const MASTERED_KEY='philo-chaine-solides';
+const PRACTICE_KEY='philo-chaine-reprises';
+const readPractice=()=>{try{return JSON.parse(localStorage.getItem(PRACTICE_KEY)||'{}')}catch(e){return {}}};
+const markPractice=id=>{const a=readPractice();a[id]=(a[id]||0)+1;try{localStorage.setItem(PRACTICE_KEY,JSON.stringify(a))}catch(e){}};
 const readMastered=()=>{try{const a=JSON.parse(localStorage.getItem(MASTERED_KEY)||'[]');return Array.isArray(a)?a:[]}catch(e){return []}};
 const saveMastered=a=>{try{localStorage.setItem(MASTERED_KEY,JSON.stringify(a))}catch(e){}};
 const read=()=>{try{return JSON.parse(localStorage.getItem(KEY)||'[]')}catch(e){return []}};
@@ -34,7 +37,7 @@ function tabs(){
 function chooser(){
   if(level===3) return '';
   const done=read(), mastered=readMastered();
-  if(level===2) return `<div class="chaine-sujets"><span>Choisissez parmi les ${D.niveau2.length} sujets pour écrire avec moins d’aide</span>${D.niveau2.map((s,i)=>`<button type="button" data-subj="${i}" class="${i===si?'on':''}">${T(s.sujet)}</button>`).join('')}</div>`;
+  if(level===2) {const seen=readPractice();return `<div class="chaine-sujets"><span>Choisissez parmi les ${D.niveau2.length} sujets pour écrire avec moins d’aide</span>${D.niveau2.map((s,i)=>`<button type="button" data-subj="${i}" class="${i===si?'on':''}">${seen['2:'+s.id]?'↻ déjà essayé · ':''}${T(s.sujet)}</button>`).join('')}</div>`;}
   return `<div class="chaine-sujets"><span>Choisissez un sujet différent pour consolider le geste</span>${D.niveau1.map((s,i)=>`<button type="button" data-subj="${i}" class="${i===si?'on':''}">${mastered.includes(s.id)?'✓ réussi sans erreur · ':done.includes(s.id)?'↻ déjà essayé · ':''}${T(s.sujet)}</button>`).join('')}</div>`;
 }
 function carte(){
@@ -68,11 +71,12 @@ function stepView(){
 function endView(){
   const s=subj();
   const done=read(); if(!done.includes(s.id)){done.push(s.id);save(done);}
+  if(!got._marked){markPractice(level+':'+s.id);got._marked=true;}
   if(level===1&&firstTrySolid){const mastered=readMastered();if(!mastered.includes(s.id)){mastered.push(s.id);saveMastered(mastered);}}
   const mastered=readMastered().filter(id=>D.niveau1.some(s=>s.id===id));
   const ready=mastered.length>=3;
   const remaining=D.niveau1.findIndex((x,j)=>j!==si&&!mastered.includes(x.id));
-  const nextSubj=level===1?remaining>=0:si<D.niveau2.length-1;
+  const nextSubj=level===1?D.niveau1.length>1:D.niveau2.length>1;
   const result=level===1?`<div class="prescription"><strong>${mastered.length} sujet${mastered.length>1?'s':''} réussi${mastered.length>1?'s':''} sans erreur sur 3 conseillés.</strong> ${ready?'Vous avez reconnu et relié les deux difficultés sur plusieurs sujets. Vous pouvez maintenant essayer de les formuler avec moins d’aide.':'Avant de réduire les aides, entraînez-vous sur des sujets différents. Vous pouvez néanmoins explorer le niveau 2 à tout moment.'}${!firstTrySolid?' Sur ce sujet, vous avez eu besoin d’au moins une correction : recommencez pour vérifier votre compréhension.':''}</div>`:'';
   return `<div class="chaine-fin"><div class="kicker">SUJET PARCOURU</div><h2>Vous avez suivi les sept gestes.</h2>
   <p class="chaine-pb">${T(got[6])}</p>
@@ -82,7 +86,7 @@ function endView(){
   ${PLAN_IDS.includes(s.id)?`<p class="chaine-annale"><strong>Étape suivante :</strong> <a class="official-link" href="philosophie-plan-pas-a-pas.html?sujet=${s.id}${level===2?'&niveau=2':''}">Construire le plan de ce sujet →</a></p>`:''}
   ${ANNALE[s.id]?`<p class="chaine-annale">Ce sujet est tombé au bac 2026. <a class="official-link" href="philosophie-bac-2026-${ANNALE[s.id]}.html">L’écrire en entier, avec le corrigé et une copie à 20 →</a></p>`:''}
   <div class="chaine-nav">
-   <button type="button" class="btn small chaine-again">Recommencer ce sujet</button>
+   <button type="button" class="btn small chaine-again">Revoir ce même sujet</button>
    ${nextSubj?`<button type="button" class="btn small chaine-nextsubj">Essayer un autre sujet →</button>`:''}
    ${level>1?`<button type="button" class="home-text-link chaine-prevlevel">← Niveau précédent</button>`:''}
    <button type="button" class="btn red small chaine-nextlevel">${level===1?'Niveau 2 : formuler avec moins d’aide →':'Niveau suivant →'}</button>
@@ -90,10 +94,11 @@ function endView(){
 }
 function level3(){
   const n=D.niveau3;
+  const subjects=Array.isArray(n)?n:[n];
+  const choice=subjects.map((x,k)=>`<li><a href="${x.href}">${T(x.sujet)} →</a></li>`).join('');
   return `<div class="chaine-step"><div class="kicker">NIVEAU 3 · J’ÉCRIS TOUT</div><h2>Un sujet entier, sans propositions.</h2>
   <p>Vous faites seul tout le chemin : la réponse, ce que chaque réponse perd, la problématique. Le corrigé et la copie à 20 vous attendent à la fin.</p>
-  <p class="chaine-pb">${typo('« '+esc(n.sujet)+' »')}</p>
-  <p><a class="btn red small" href="${n.href}">Faire ce sujet →</a></p>
+  <p>Choisissez un sujet que vous n’avez pas encore traité :</p><ul>${choice}</ul>
   <div class="chaine-nav"><button type="button" class="home-text-link chaine-prevlevel">← Niveau précédent</button></div></div>`;
 }
 function render(){
@@ -135,7 +140,7 @@ function bind(){
   };
   const q=(c,f)=>{const el=root.querySelector(c); if(el) el.onclick=f;};
   q('.chaine-again',go);
-  q('.chaine-nextsubj',()=>{if(level===2){si++;go();return;}const mastered=readMastered();const j=D.niveau1.findIndex((x,k)=>k!==si&&!mastered.includes(x.id));if(j>=0){si=j;go();}});
+  q('.chaine-nextsubj',()=>{const a=list(),seen=readPractice(),mastered=readMastered();const candidates=a.map((x,k)=>({k,seen:seen[level+':'+x.id]||0,mastered:level===1&&mastered.includes(x.id)?1:0})).filter(x=>x.k!==si);candidates.sort((x,y)=>x.mastered-y.mastered||x.seen-y.seen||x.k-y.k);if(candidates.length){si=candidates[0].k;go();}});
   q('.chaine-nextlevel',()=>{level=Math.min(3,level+1);si=0;go();});
   q('.chaine-prevlevel',()=>{level=Math.max(1,level-1);si=0;go();});
   q('.chaine-restart',go);
