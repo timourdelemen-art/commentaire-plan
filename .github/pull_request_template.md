@@ -1,5 +1,8 @@
 <!-- Voir AGENTS.md avant toute modification. -->
 
+## Fichiers réservés
+- 
+
 ## Modifications
 - 
 

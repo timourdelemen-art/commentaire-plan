@@ -8,14 +8,14 @@ Propriétaire : un professeur de lettres en lycée (Istanbul). Public : lycéens
 
 ## 1. Coordination entre agents
 
-1. **Avant de commencer** : `git pull`, puis regardez les PR ouvertes (`gh pr list`) et la section « Travaux en cours » ci-dessous. Ne modifiez pas un fichier qu’un autre agent a déclaré, ni un fichier touché par une PR encore ouverte.
-2. **Déclarez votre travail** : ajoutez une ligne dans « Travaux en cours » (agent, branche, fichiers ou motifs de fichiers, date) dans votre première PR, ou dites-le au propriétaire s’il coordonne lui-même.
+1. **Avant de commencer** : `git pull`, puis regardez les PR ouvertes (`gh pr list`), leur rubrique « Fichiers réservés », et le tableau « Chantiers durables » ci-dessous. Ne modifiez pas un fichier qu’un autre agent a déclaré, ni un fichier touché par une PR encore ouverte.
+2. **Déclarez votre travail dans la description de la PR** : rubrique « Fichiers réservés » (fichiers ou motifs de fichiers). Tant que la PR est ouverte, ces fichiers sont réservés. Le tableau « Chantiers durables » ci-dessous ne sert qu’aux chantiers qui s’étendent sur plusieurs PR ou plusieurs jours, pour éviter de modifier ce fichier commun à chaque PR.
 3. **Une PR = un sujet.** Branches : `claude/<sujet>` ou `chatgpt/<sujet>`. Pas de commit direct sur `main`.
 4. **Fichiers partagés à haut risque** (un seul agent à la fois, et prévenir) : `styles.css`, `site-nav.js`, `scripts/seo-build.js`, `netlify.toml`, `worker/src/index.js`, `free-response.js`. Dans `styles.css`, ajoutez vos règles **à la fin**, dans un bloc commenté `/* === sujet === */`, sans réécrire les blocs existants.
 5. **Ne défaites pas le travail de l’autre agent sans le dire.** Si une modification de l’autre agent enfreint une règle de ce fichier, corrigez-la dans une PR séparée qui cite la règle, et signalez-le au propriétaire.
 6. **Avant de fusionner**, refaites `git pull` : si `main` a bougé, refaites le build de test sur la version à jour.
 
-### Travaux en cours
+### Chantiers durables
 
 | Agent | Branche | Fichiers | Depuis |
 | --- | --- | --- | --- |
@@ -26,7 +26,7 @@ Propriétaire : un professeur de lettres en lycée (Istanbul). Public : lycéens
 ## 2. Règles didactiques (non négociables)
 
 - **Simplifier l’accès à la pensée, sans simplifier la pensée elle-même.**
-- **Vocabulaire de la méthode, autorisé s’il aide l’élève** : « le donné », « l’attente », « la transformation », « réalisation », « nécessité de la réponse ». Chaque terme est expliqué simplement, avec un exemple, à sa première apparition sur une page (ex. : « la réalisation, c’est ce que le texte fait : *le poète oppose la ville et la campagne* »). « Transition-question » s’introduit progressivement : d’abord la chose (« une question qui montre ce que la partie précédente n’a pas expliqué »), puis le mot.
+- **Vocabulaire de la méthode, autorisé s’il aide l’élève** : « le donné », « l’attente », « la transformation », « réalisation », « nécessité de la réponse », « opération » (voir § 7). Chaque terme est expliqué simplement, avec un exemple, à sa première apparition sur une page (ex. : « la réalisation, c’est ce que le texte fait : *le poète oppose la ville et la campagne* »). « Transition-question » s’introduit progressivement : d’abord la chose (« une question qui montre ce que la partie précédente n’a pas expliqué »), puis le mot.
 - **Vocabulaire réservé aux documents internes** : « chiasme », « double aporie », « aporie », « reprobématisation », le *Dictionnaire paradoxal*, ses « figures » et ses « résolutions » comme termes techniques. Ils n’apparaissent jamais sur une page élève, ni dans les consignes envoyées au correcteur automatique (`data-feedback-instruction`, critères de `free-response.js` et du worker). Les fichiers `*.md` de théorie ne sont jamais publiés (voir `scripts/clean-publish.js`).
 - **Consignes : six règles.** 1) verbe concret ; 2) quantité attendue (« en une phrase ») ; 3) un exemple sur un autre sujet quand c’est utile ; 4) aucun jargon ; 5) une seule tâche par ligne ; 6) phrases courtes, au « vous ».
 - **Vouvoiement partout**, y compris dans les retours automatiques.
@@ -81,6 +81,9 @@ Plusieurs pages sont **générées** au déploiement (commande de `netlify.toml`
 ### Contenu obligatoire de chaque PR
 
 ```
+## Fichiers réservés
+- (fichiers ou motifs de fichiers que cette PR modifie : personne d’autre n’y touche tant qu’elle est ouverte)
+
 ## Modifications
 - (fichiers et ce qui change, en phrases simples)
 
@@ -111,7 +114,7 @@ Format : date · ce qui s’est passé · la règle qui en découle. Proposez un
 - 2026-10-09 · Une réponse hors sujet suspendait l’exercice 24 heures. · Pas de punition : un message qui aide à reprendre.
 - 2026-10-09 · Les retours automatiques tutoyaient l’élève alors que le site vouvoie. · Vouvoiement partout, y compris dans le worker.
 - 2026-10-09 · Dans plusieurs QCM, la bonne réponse était toujours la plus longue. · Longueurs comparables (§ 2).
-- 2026-10-09 · Deux agents ont travaillé en même temps sur `main` sans se voir (PR #65 à #70). · Section « Travaux en cours » et vérification des PR ouvertes avant de commencer (§ 1).
+- 2026-10-09 · Deux agents ont travaillé en même temps sur `main` sans se voir (PR #65 à #70). · Vérifier les PR ouvertes et leurs « Fichiers réservés » avant de commencer (§ 1).
 - 2026-10-09 · Des termes propres à la méthode (« le donné », « transition-question ») ont été retirés des consignes parce qu’un audit les jugeait techniques. · Ne pas supprimer le vocabulaire de la méthode : l’expliquer, avec un exemple, à sa première apparition (§ 2).
 
 ## 7. Décisions du propriétaire
@@ -122,7 +125,7 @@ Prises (9 octobre 2026) :
 - **Notions de philosophie** : les 17 notions restent accessibles par une entrée secondaire clairement visible sur `philosophie.html` (pas seulement dans un menu replié).
 - **Textes manquants des annales** : un texte n’est intégré qu’après vérification de la source officielle (découpage exact de l’extrait, numéros de ligne) et des droits.
 - **Copies à 20** : chaque correction de scène d’ouverture est examinée individuellement par le propriétaire avant validation.
+- **« Opération »** : conservé, avec une explication simple à sa première apparition : « une opération intellectuelle, c’est quelque chose que vous faites avec une idée : la distinguer, la comparer, la mettre à l’épreuve ou la transformer ». Le terme sert l’autonomie de l’élève.
 
 En attente :
 - Identité de l’éditeur (mentions légales, CGV, confidentialité) et moyen de paiement, avant toute vente ; pages légales à faire relire par un juriste.
-- Le mot « opération » (« III.2 L’opération », page « Opérations philosophiques ») : à garder avec une explication, ou à remplacer.
