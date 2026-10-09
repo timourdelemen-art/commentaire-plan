@@ -23,3 +23,6 @@ if(errors.length)md+='## Régressions bloquantes\n\n'+errors.map(x=>'- '+x).join
 fs.writeFileSync(path.join(ROOT,'performance-report.md'),md);
 console.log(md);
 if(errors.length){console.error('Performance budget found regressions. Deployment is not blocked; review performance-report.md.');}
+
+// Opt-in pour la CI : AUDIT_STRICT=1 rend les erreurs bloquantes après assainissement du référentiel.
+if(errors.length && process.env.AUDIT_STRICT === '1') process.exitCode = 1;
