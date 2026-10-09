@@ -2,82 +2,83 @@
 /* Cinq mini-situations. Chaque option : [texte, statut (true = solide, "def" = défendable, false = à revoir), explication]. */
 const qs=[
 {skill:"problematiser",title:"Quelle problématique est la plus juste ?",context:"Sujet : « Peut-on se mentir à soi-même ? »",options:[
-["Se mentir ne suppose-t-il pas de connaître la vérité qu’on se cache, ce qui rendrait le mensonge à soi-même impossible ?","def","Défendable : c’est une vraie difficulté, mais la question n’examine que la réponse « non » et conclut avant d’avoir examiné l’autre."],
-["Celui qui se ment connaît-il la vérité qu’il se cache, au risque de ne plus s’y tromper, ou l’ignore-t-il, au risque de n’être plus qu’un homme qui se trompe ?",true,"C’est la bonne : chaque réponse perd quelque chose. Si je sais la vérité, je ne peux pas vraiment me tromper ; si je l’ignore, ce n’est plus un mensonge, seulement une erreur."],
+["Se mentir ne suppose-t-il pas de connaître la vérité qu’on se cache, ce qui rendrait le mensonge à soi-même tout simplement impossible ?","def","Défendable : c’est une vraie difficulté, mais la question n’examine que la réponse « non » et conclut avant d’avoir examiné l’autre."],
+["Celui qui se ment connaît-il la vérité qu’il se cache, au risque de ne plus s’y tromper, ou l’ignore-t-il, au risque de simplement se tromper ?",true,"C’est la bonne : chaque réponse perd quelque chose. Si je sais la vérité, je ne peux pas vraiment me tromper ; si je l’ignore, ce n’est plus un mensonge, seulement une erreur."],
 ["Comment pourrait-on se mentir à soi-même, puisque celui qui ment sait toujours, au fond, ce qu’il cherche à se cacher ?",false,"« Comment pourrait-on… puisque… » : la réponse est déjà dans la question."],
 ["Le mensonge à soi-même est-il toujours une faute, même lorsqu’il ne fait de tort à personne d’autre que soi ?",false,"Hors sujet : le sujet demande si c’est possible, pas si c’est une faute."]]},
 {skill:"argumenter",title:"Quel passage argumente vraiment ?",context:"Vous voulez défendre l’idée que suivre ses désirs ne suffit pas à être libre.",options:[
 ["Spinoza l’a montré : suivre ses désirs n’est pas être libre, et c’est l’un des plus grands philosophes de l’histoire.",false,"Un nom n’est pas une raison : on sait qui le dit, pas pourquoi c’est vrai."],
 ["Un désir peut être produit par des causes que je ne maîtrise pas ; l’accomplir ne suffit donc pas à prouver que j’en suis vraiment l’auteur.",true,"C’est la bonne : une raison, puis une conséquence qui en découle. On peut la discuter, donc elle pense."],
-["Par exemple, un fumeur qui a envie d’une cigarette la fume aussitôt, mais il n’est pas libre pour autant.","def","L’exemple est bien choisi, mais il ne dit pas pourquoi le fumeur n’est pas libre : il illustre sans argumenter."],
+["Par exemple, un fumeur qui a envie d’une cigarette la fume aussitôt, sans hésiter un instant, mais il n’est pas libre pour autant.","def","L’exemple est bien choisi, mais il ne dit pas pourquoi le fumeur n’est pas libre : il illustre sans argumenter."],
 ["La liberté est une notion complexe, qui a fait débattre les philosophes depuis l’Antiquité.",false,"Une généralité vraie, mais qui ne défend aucune idée précise."]]},
 {skill:"transitions",title:"Quelle transition fait avancer le devoir ?",context:"Acquis de la partie I : nos désirs nous poussent vers ce qui nous manque. Limite : une fois satisfaits, ils s’éteignent, et l’ennui revient.",options:[
 ["Nous avons vu que le désir vise ce qui nous manque ; voyons maintenant quelles sont ses limites et ses dangers.",false,"Elle annonce la suite sans dire quel problème la rend nécessaire."],
-["Mais comment pourrait-on être heureux en désirant, si tout désir, une fois satisfait, finit dans l’ennui ?",false,"La réponse est déjà dans la question : la partie II n’a plus rien à chercher."],
+["Mais comment pourrait-on être heureux en désirant, si tout désir, une fois satisfait, finit toujours par retomber dans l’ennui ?",false,"La réponse est déjà dans la question : la partie II n’a plus rien à chercher."],
 ["Si le désir s’éteint dès qu’il est satisfait, que cherchons-nous vraiment en désirant : l’objet, ou le fait même de désirer ?",true,"C’est la bonne : elle part exactement de la limite et pose une question vraiment ouverte, qui ouvre la partie II."],
 ["Le désir est donc une question complexe, qui touche tous les aspects de l’existence humaine, du corps à l’esprit.",false,"Une généralité qui quitte la difficulté précise."]]},
 {skill:"troisieme",title:"Quelle troisième partie est la plus forte ?",context:"I : une loi générale garantit l’égalité, la même règle pour tous. II : mais elle ne voit pas les situations particulières, et peut produire une injustice. Reste : comment être juste avec chacun sans cesser de l’être pour tous ?",options:[
 ["Il faut donc appliquer les lois à moitié : un peu de règle commune, un peu d’exception selon les cas.",false,"Couper la poire en deux n’explique rien : on renonce au problème au lieu de le traiter."],
 ["Finalement, il faut supprimer les lois générales et juger chaque cas séparément, selon sa situation.",false,"Choisir un camp efface ce que la partie I avait montré : l’égalité devant la règle."],
-["Il faut distinguer deux plans : la loi fixe la règle pour tous, le juge l’applique avec équité à chaque cas, sans la contredire.",true,"C’est la bonne : elle garde l’acquis de I et de II en distinguant deux plans, la règle et son application."],
+["Distinguer deux plans : la loi fixe la règle pour tous, le juge l’applique à chaque cas avec équité.",true,"C’est la bonne : elle garde l’acquis de I et de II en distinguant deux plans, la règle et son application."],
 ["La justice coûte cher à l’État, et ce coût pose un autre problème, celui des moyens des tribunaux.",false,"Elle change de sujet au lieu de répondre au reste."]]},
 {skill:"references",title:"Quelle référence travaille vraiment ?",context:"Vous voulez montrer qu’un objet ne nous attire pas toujours parce qu’il a d’abord de la valeur.",options:[
-["Spinoza, dans l’Éthique, parle longuement du désir et de ses causes, ce qui montre bien l’importance de la question.",false,"Le nom et le titre sont exacts, mais la référence ne fait rien dans le raisonnement."],
-["Pour Spinoza, le désir est l’essence même de l’homme : c’est lui qui nous fait agir avant tout jugement.","def","Défendable : la phrase est exacte et va dans le bon sens, mais elle n’établit pas encore ce que vous voulez montrer, le renversement entre valeur et désir."],
-["Spinoza renverse le rapport habituel : ce n’est pas parce qu’une chose est bonne que nous la désirons, c’est parce que nous la désirons que nous la jugeons bonne.",true,"C’est la bonne : la référence accomplit exactement l’opération dont votre argument a besoin, un renversement."],
+["Spinoza, dans l’Éthique, parle longuement du désir, de ses causes et de ses effets sur nous, ce qui montre bien toute l’importance de la question.",false,"Le nom et le titre sont exacts, mais la référence ne fait rien dans le raisonnement."],
+["Pour Spinoza, le désir est l’essence même de l’homme : c’est lui qui nous fait agir, bien avant tout jugement que nous portons sur les choses.","def","Défendable : la phrase est exacte et va dans le bon sens, mais elle n’établit pas encore ce que vous voulez montrer, le renversement entre valeur et désir."],
+["Spinoza renverse le rapport : ce n’est pas parce qu’une chose est bonne que nous la désirons, mais parce que nous la désirons que nous la jugeons bonne.",true,"C’est la bonne : la référence accomplit exactement l’opération dont votre argument a besoin, un renversement."],
 ["Comme le disait Spinoza, il faut toujours désirer ce qui est bon, et seulement ce qui est bon pour nous.",false,"Contresens : Spinoza dit presque l’inverse. Une référence mal comprise affaiblit le devoir."]]}
 ];
-/* Banque de situations : même geste intellectuel, sujets différents. */
+/* Banque de situations : même geste intellectuel, sujets différents (vrais sujets du bac).
+   Les quatre propositions ont des longueurs comparables : la bonne ne se repère pas à sa longueur. */
 const problemes=[
 {context:"Sujet : « Peut-on se mentir à soi-même ? »",options:qs[0].options},
 {context:"Sujet : « Faut-il toujours dire la vérité ? »",options:[
-["Dire la vérité est-il toujours préférable au mensonge ?",false,"C’est presque le sujet répété : aucune difficulté des deux réponses n’est formulée."],
-["Dire la vérité respecte-t-il autrui, au risque de le blesser inutilement, ou le mensonge le protège-t-il, au risque de lui retirer la possibilité de décider en connaissance de cause ?",true,"Dire la vérité respecte la liberté d’autrui mais peut lui nuire ; mentir peut le protéger mais lui retire le choix éclairé. La question relie ces deux risques."],
-["Pourquoi le mensonge est-il toujours condamnable ?",false,"La question suppose déjà que mentir est toujours condamnable ; elle écarte la réponse contraire."],
-["La vérité peut-elle blesser ?", "def","Cette question ouvre une difficulté réelle de la franchise, mais elle n’examine pas le risque propre au mensonge protecteur."]]},
-{context:"Sujet : « La liberté consiste-t-elle à faire ce que l’on veut ? »",options:[
-["Être libre, est-ce faire ce que l’on désire, au risque d’obéir à des désirs que l’on ne choisit pas, ou maîtriser ses désirs, au risque de renoncer à ce que l’on veut ?",true,"Suivre ses désirs semble libre mais peut nous soumettre à eux ; les maîtriser rend autonome mais paraît limiter notre volonté. Les deux exigences se heurtent."],
-["Peut-on être libre si l’on suit ses désirs ?", "def","Vous examinez la dépendance aux désirs, mais pas la difficulté inverse : la maîtrise de soi peut sembler contredire la liberté de vouloir."],
-["La liberté est-elle importante pour les êtres humains ?",false,"La question quitte le sens précis de « faire ce que l’on veut »."],
-["Pourquoi faut-il absolument maîtriser ses désirs pour être libre ?",false,"La réponse est présupposée ; l’autre conception de la liberté n’est pas examinée."]]},
+["Dire la vérité est-il toujours préférable au mensonge, quelles que soient les circonstances et les personnes à qui l’on parle ?",false,"C’est presque le sujet répété : aucune difficulté des deux réponses n’est formulée."],
+["Dire la vérité respecte-t-il autrui, au risque de le blesser, ou le mensonge le protège-t-il, au risque de décider à sa place ?",true,"Dire la vérité respecte la liberté d’autrui mais peut lui nuire ; mentir peut le protéger mais lui retire le choix éclairé. La question relie ces deux risques."],
+["Pourquoi le mensonge est-il toujours condamnable, même lorsqu’il cherche à protéger celui à qui l’on ment ?",false,"La question suppose déjà que mentir est toujours condamnable ; elle écarte la réponse contraire."],
+["La vérité peut-elle blesser celui qui l’entend, au point qu’il vaudrait parfois mieux la taire ?","def","Une vraie difficulté de la franchise, mais la question n’examine pas le risque propre au mensonge protecteur."]]},
+{context:"Sujet : « Être libre, est-ce faire ce que l’on veut ? »",options:[
+["Être libre, est-ce suivre ses désirs, au risque d’obéir à ce qu’on n’a pas choisi, ou les maîtriser, au risque de renoncer à vouloir ?",true,"Suivre ses désirs semble libre mais peut nous soumettre à eux ; les maîtriser rend autonome mais paraît limiter notre volonté. Les deux exigences se heurtent."],
+["Peut-on encore se dire libre quand on suit des désirs dont on ne connaît ni l’origine ni la force ?","def","Vous examinez la dépendance aux désirs, mais pas la difficulté inverse : la maîtrise de soi peut sembler contredire la liberté de vouloir."],
+["La liberté est-elle importante pour les êtres humains, et pourquoi tant de philosophes en ont-ils parlé ?",false,"La question quitte le sens précis de « faire ce que l’on veut »."],
+["Pourquoi faut-il absolument maîtriser tous ses désirs pour être vraiment libre, comme le pensaient déjà les philosophes stoïciens ?",false,"La réponse est présupposée ; l’autre conception de la liberté n’est pas examinée."]]},
 {context:"Sujet : « Pour être juste, suffit-il d’obéir aux lois ? »",options:[
-["La loi garantit-elle toujours la justice ?", "def","La possibilité d’une loi injuste est bien identifiée, mais le risque de juger chacun selon son seul avis reste absent."],
-["Pourquoi les lois sont-elles nécessaires ?",false,"Cette question défend l’utilité des lois sans examiner ce qui rend leur obéissance insuffisante."],
-["Obéir à la loi commune garantit-il la justice, au risque de suivre une loi injuste, ou faut-il juger la loi, au risque de perdre une règle commune à tous ?",true,"Obéir préserve une règle commune mais peut imposer l’injustice ; juger la loi préserve l’exigence du juste mais menace la règle partagée. Les deux pertes sont reliées."],
-["Comment désobéir à une loi injuste ?",false,"La question suppose déjà que la loi est injuste et que la désobéissance est la réponse."]]},
+["La loi garantit-elle toujours la justice, ou peut-il exister des lois injustes qu’on serait pourtant tenu de suivre comme les autres ?","def","La possibilité d’une loi injuste est bien vue, mais le risque inverse, que chacun juge selon son seul avis, reste absent."],
+["Pourquoi les lois sont-elles nécessaires pour que les hommes puissent vivre ensemble dans une société ?",false,"Cette question défend l’utilité des lois sans examiner ce qui rend l’obéissance insuffisante."],
+["Être juste, est-ce obéir à la loi commune, au risque de suivre une loi injuste, ou la juger, au risque de perdre la règle commune ?",true,"Obéir préserve une règle commune mais peut imposer l’injustice ; juger la loi préserve l’exigence du juste mais menace la règle partagée. Les deux pertes sont reliées."],
+["Comment faut-il désobéir à une loi injuste sans pour autant tomber dans la violence ou le désordre ?",false,"La question suppose déjà que la loi est injuste et que la désobéissance est la réponse."]]},
 {context:"Sujet : « La science doit-elle être utile ? »",options:[
-["La science vaut-elle par ses applications, au risque de négliger les vérités sans usage immédiat, ou par la recherche désintéressée du vrai, au risque d’oublier qu’elle transforme aussi le monde ?",true,"Exiger l’utilité peut sacrifier la recherche libre ; refuser toute finalité pratique peut masquer le pouvoir d’action de la science. Les deux difficultés sont mises en relation."],
-["Pourquoi la science doit-elle aider les hommes ?",false,"L’obligation d’être utile est posée d’avance ; la recherche libre n’est pas examinée."],
-["La science peut-elle être dangereuse ?",false,"C’est une autre question : le danger n’est pas identique à l’obligation d’être utile."],
-["La science perd-elle sa liberté quand on exige son utilité ?", "def","C’est une difficulté pertinente de l’exigence d’utilité, mais l’autre position n’est pas mise à l’épreuve."]]},
+["La science vaut-elle par ses applications, au risque de négliger le vrai sans usage, ou par le vrai, au risque d’oublier qu’elle agit sur le monde ?",true,"Exiger l’utilité peut sacrifier la recherche libre ; refuser toute finalité pratique peut masquer le pouvoir d’action de la science. Les deux difficultés sont reliées."],
+["Pourquoi la science doit-elle avant tout aider les hommes à vivre mieux, plus longtemps et en meilleure santé, plutôt que seulement connaître ?",false,"L’obligation d’être utile est posée d’avance ; la recherche libre n’est pas examinée."],
+["La science peut-elle devenir dangereuse lorsque ses découvertes tombent entre de mauvaises mains ?",false,"C’est une autre question : le danger n’est pas l’obligation d’être utile."],
+["La science perd-elle sa liberté de chercher quand on exige d’elle des résultats utiles et rapides pour les entreprises et les États qui la financent ?","def","Une difficulté pertinente de l’exigence d’utilité, mais l’autre position n’est pas mise à l’épreuve."]]},
 {context:"Sujet : « L’artiste sait-il ce qu’il fait ? »",options:[
-["L’art est-il un métier ou une inspiration ?", "def","Deux réponses apparaissent, mais on ne comprend pas encore ce que chacune risque de perdre."],
-["Comment l’artiste pourrait-il créer sans savoir-faire ?",false,"La question privilégie d’avance le savoir-faire et ferme la possibilité de l’invention."],
-["L’artiste maîtrise-t-il son œuvre, au risque de n’y laisser aucune invention, ou crée-t-il sans tout prévoir, au risque de ne plus être pleinement l’auteur de ce qu’il produit ?",true,"La maîtrise assure le savoir-faire mais menace la nouveauté ; l’invention échappe au calcul mais interroge la responsabilité de l’auteur. La question relie les deux pertes."],
-["Les artistes ont-ils besoin d’apprendre à dessiner ?",false,"Cette question réduit l’art à une technique particulière et ne traite pas le savoir de l’artiste en général."]]}
+["L’art est-il d’abord un métier qui s’apprend lentement, ou une inspiration qui ne s’apprend jamais ?","def","Deux réponses apparaissent, mais on ne voit pas encore ce que chacune risque de perdre."],
+["Comment l’artiste pourrait-il créer une œuvre véritable sans posséder d’abord un solide savoir-faire, appris pendant de longues années ?",false,"La question privilégie d’avance le savoir-faire et ferme la possibilité de l’invention."],
+["L’artiste maîtrise-t-il son œuvre, au risque de ne rien inventer, ou invente-t-il sans tout prévoir, au risque de n’en être plus l’auteur ?",true,"La maîtrise assure le savoir-faire mais menace la nouveauté ; l’invention échappe au calcul mais interroge la place de l’auteur. La question relie les deux pertes."],
+["Les artistes ont-ils besoin d’apprendre à dessiner ou à jouer d’un instrument avant de créer ?",false,"Cette question réduit l’art à une technique particulière et ne traite pas le savoir de l’artiste en général."]]}
 ];
 /* Deuxième série : renouveler aussi les quatre autres gestes au redémarrage. */
 const autresSituations={
-argumenter:{context:"Vous voulez montrer que l'habitude ne garantit pas qu'une action soit juste.",options:[
-["Une action répétée devient familière ; mais cette familiarité ne dit pas si elle respecte autrui.",true,"La familiarité explique pourquoi l'on agit, pas pourquoi l'acte est juste : une raison précise distingue habitude et justification."],
-["Aristote a beaucoup parlé de l'habitude et de la vertu.",false,"Un auteur cité ne fournit pas encore l'argument."],
-["Par exemple, quelqu'un peut prendre tous les jours la même décision.",false,"L'exemple ne montre pas en quoi la décision est juste ou injuste."],
-["Les habitudes sont importantes dans la vie de chacun.","def","L'idée peut servir d'introduction, mais ne soutient pas la thèse annoncée."]]},
+argumenter:{context:"Vous voulez montrer que l’habitude ne garantit pas qu’une action soit juste.",options:[
+["Une action répétée devient familière ; mais être familière ne dit pas encore si elle respecte autrui.",true,"La familiarité explique pourquoi l’on agit, pas pourquoi l’acte est juste : une raison précise distingue habitude et justification."],
+["Aristote a beaucoup parlé de l’habitude et de la vertu, ce qui prouve l’importance de la question.",false,"Un auteur cité ne fournit pas encore l’argument."],
+["Par exemple, quelqu’un peut prendre chaque jour la même décision sans jamais se demander si elle est juste.","def","L’exemple va dans le bon sens, mais il ne dit pas pourquoi l’habitude ne suffit pas à rendre un acte juste."],
+["Les habitudes occupent une place importante dans la vie de chacun, du matin jusqu’au soir.",false,"Une généralité qui ne soutient pas la thèse annoncée."]]},
 transitions:{context:"Partie I : la technique nous donne du pouvoir sur la nature. Limite : ce pouvoir peut produire des dommages que nous ne savons pas réparer.",options:[
-["Après avoir étudié la technique, nous parlerons de la nature.",false,"Simple annonce : aucune difficulté ne rend la suite nécessaire."],
-["Puisque la technique détruit la nature, il faut y renoncer.",false,"La réponse est décidée avant l'examen de la seconde partie."],
-["Si notre puissance technique peut provoquer des dommages irréversibles, suffit-il de pouvoir agir pour être autorisé à le faire ?",true,"La limite du pouvoir technique devient une question ouverte sur la responsabilité."],
-["La technique a de nombreux avantages et inconvénients.","def","Le contraste est réel, mais la difficulté précise des dommages irréversibles disparaît."]]},
-troisieme:{context:"I : dire la vérité respecte l'autre. II : une vérité brutale peut lui nuire. Reste : comment respecter l'autre sans le tromper ni l'écraser ?",options:[
-["Il faut mentir une fois sur deux pour ne blesser personne.",false,"Un compromis quantitatif ne résout pas la tension."],
-["Il faut distinguer le devoir de ne pas tromper et la manière de dire : la sincérité oblige, mais n'autorise pas la brutalité.",true,"La distinction préserve l'exigence de vérité et le souci d'autrui sans les confondre."],
-["Il faut toujours dire la vérité, quelles que soient les conséquences.",false,"La difficulté de la seconde partie est supprimée."],
-["La vérité est un sujet très ancien.","def","La phrase est vraie, mais elle ne répond pas au problème restant."]]},
+["Après avoir étudié le pouvoir que nous donne la technique sur la nature, nous parlerons maintenant de la nature elle-même.",false,"Simple annonce : aucune difficulté ne rend la suite nécessaire."],
+["Puisque la technique détruit la nature, il faut y renoncer et revenir à une vie plus simple.",false,"La réponse est décidée avant l’examen de la deuxième partie."],
+["Si notre puissance peut causer des dommages irréparables, suffit-il de pouvoir agir pour avoir le droit de le faire ?",true,"La limite du pouvoir technique devient une question ouverte sur la responsabilité."],
+["La technique a donc de nombreux avantages, mais aussi des inconvénients qu’il faut examiner.","def","Le contraste est réel, mais la difficulté précise des dommages irréparables disparaît."]]},
+troisieme:{context:"I : dire la vérité respecte l’autre. II : une vérité brutale peut lui nuire. Reste : comment respecter l’autre sans le tromper ni l’écraser ?",options:[
+["Il faut mentir une fois sur deux, pour ne blesser personne tout en restant assez sincère.",false,"Un compromis de quantité ne résout pas la tension."],
+["Distinguer ne pas tromper et la manière de dire : la sincérité oblige, mais n’autorise pas la brutalité.",true,"La distinction garde l’exigence de vérité et le souci d’autrui sans les confondre."],
+["Il faut toujours dire toute la vérité, quelles que soient les conséquences pour celui ou celle qui l’entend.",false,"La difficulté de la deuxième partie est supprimée : c’est choisir un camp."],
+["La vérité est un sujet très ancien, dont les philosophes discutent depuis l’Antiquité.",false,"La phrase est vraie, mais elle ne répond pas au problème qui reste."]]},
 references:{context:"Vous voulez montrer que douter peut être une méthode pour rechercher une certitude.",options:[
-["Descartes est un grand philosophe du doute.",false,"Le nom ne fait pas comprendre comment le doute aide à connaître."],
-["Descartes doute de ce qu'il croit savoir afin de découvrir une vérité qui résiste au doute lui-même.",true,"La référence explique une opération : mettre les croyances à l'épreuve pour chercher un point certain."],
-["Descartes a écrit le Discours de la méthode.","def","Le titre est pertinent, mais il ne fournit pas l'idée nécessaire à l'argument."],
-["Selon Descartes, il faut douter de tout pour toujours.",false,"Contresens : le doute est une étape de recherche, non une fin en soi."]]}
+["Descartes est un grand philosophe du doute, l’un des plus célèbres de la philosophie française.",false,"Le nom ne fait pas comprendre comment le doute aide à connaître."],
+["Descartes doute de ce qu’il croit savoir pour trouver une vérité qui résiste au doute lui-même.",true,"La référence fait quelque chose dans le raisonnement : mettre les croyances à l’épreuve pour chercher un point certain."],
+["Descartes a écrit le Discours de la méthode, où il explique comment bien conduire sa raison, pas à pas.","def","Le titre est pertinent, mais il ne fournit pas l’idée dont l’argument a besoin."],
+["Selon Descartes, il faut douter de tout, toujours, et ne jamais rien tenir pour certain.",false,"Contresens : le doute est une étape de la recherche, non une fin en soi."]]}
 };
 const questionsInitiales=qs.slice(1).map(q=>({...q}));
 let numeroProbleme=0;

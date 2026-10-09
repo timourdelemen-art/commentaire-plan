@@ -15,6 +15,10 @@ const readPractice=()=>{try{return JSON.parse(localStorage.getItem(PRACTICE_KEY)
 const markPractice=id=>{const a=readPractice();a[id]=(a[id]||0)+1;try{localStorage.setItem(PRACTICE_KEY,JSON.stringify(a))}catch(e){}};
 const readMastered=()=>{try{const a=JSON.parse(localStorage.getItem(MASTERED_KEY)||'[]');return Array.isArray(a)?a:[]}catch(e){return []}};
 const saveMastered=a=>{try{localStorage.setItem(MASTERED_KEY,JSON.stringify(a))}catch(e){}};
+/* Parmi les sujets réussis, ceux où au moins une réponse était seulement « Défendable » (réussite, mais distinguée dans le bilan). */
+const DEF_KEY='philo-chaine-defendables';
+const readDef=()=>{try{const a=JSON.parse(localStorage.getItem(DEF_KEY)||'[]');return Array.isArray(a)?a:[]}catch(e){return []}};
+const saveDef=a=>{try{localStorage.setItem(DEF_KEY,JSON.stringify(a))}catch(e){}};
 const read=()=>{try{return JSON.parse(localStorage.getItem(KEY)||'[]')}catch(e){return []}};
 const save=a=>{try{localStorage.setItem(KEY,JSON.stringify(a))}catch(e){}};
 const shuffle=a=>{const b=a.slice();for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]];}return b;};
@@ -23,7 +27,7 @@ const PLAN_IDS=['justice-lois','inconscient-heureux','certain-bien-agi','science
 const LABEL={ok:'Solide',def:'Défendable',no:'À revoir'};
 const PLACE={raison:'Pourquoi',scene:'La scène',perte:'Ce qu’il perd',pb:'La problématique'};
 
-let level=1, si=0, step=0, got=[], firstTrySolid=true, attempts=0;
+let level=1, si=0, step=0, got=[], hadNo=false, hadDef=false, attempts=0;
 const params=new URLSearchParams(location.search);
 if(params.get('niveau')) level=Math.min(3,Math.max(1,Number(params.get('niveau'))||1));
 const wanted=params.get('sujet');
@@ -36,9 +40,9 @@ function tabs(){
 }
 function chooser(){
   if(level===3) return '';
-  const done=read(), mastered=readMastered();
+  const done=read(), mastered=readMastered(), defs=readDef();
   if(level===2) {const seen=readPractice();return `<div class="chaine-sujets"><span>Choisissez parmi les ${D.niveau2.length} sujets pour écrire avec moins d’aide</span>${D.niveau2.map((s,i)=>`<button type="button" data-subj="${i}" class="${i===si?'on':''}">${seen['2:'+s.id]?'↻ déjà essayé · ':''}${T(s.sujet)}</button>`).join('')}</div>`;}
-  return `<div class="chaine-sujets"><span>Choisissez un sujet différent pour consolider le geste</span>${D.niveau1.map((s,i)=>`<button type="button" data-subj="${i}" class="${i===si?'on':''}">${mastered.includes(s.id)?'✓ réussi sans erreur · ':done.includes(s.id)?'↻ déjà essayé · ':''}${T(s.sujet)}</button>`).join('')}</div>`;
+  return `<div class="chaine-sujets"><span>Choisissez un sujet différent pour consolider le geste</span>${D.niveau1.map((s,i)=>`<button type="button" data-subj="${i}" class="${i===si?'on':''}">${mastered.includes(s.id)?(defs.includes(s.id)?'✓ réussi (défendable) · ':'✓ réussi · '):done.includes(s.id)?'↻ déjà essayé · ':''}${T(s.sujet)}</button>`).join('')}</div>`;
 }
 function carte(){
   const s=subj(); const slot=(i)=>{const e=s.etapes[i];const st=i<step?'done':i===step?'now':'';return `<li class="${st}"><span>${typo(PLACE[e.p])}</span></li>`;};
@@ -72,12 +76,24 @@ function endView(){
   const s=subj();
   const done=read(); if(!done.includes(s.id)){done.push(s.id);save(done);}
   if(!got._marked){markPractice(level+':'+s.id);got._marked=true;}
-  if(level===1&&firstTrySolid){const mastered=readMastered();if(!mastered.includes(s.id)){mastered.push(s.id);saveMastered(mastered);}}
-  const mastered=readMastered().filter(id=>D.niveau1.some(s=>s.id===id));
+  if(level===1&&!hadNo&&!got._validated){
+    got._validated=true;
+    const m=readMastered(), d=readDef();
+    const wasSolid=m.includes(s.id)&&!d.includes(s.id);
+    if(!m.includes(s.id)) m.push(s.id);
+    // le meilleur passage l’emporte : un sujet déjà « Solide » le reste ; un passage « Solide » efface la mention « défendable »
+    const di=d.indexOf(s.id);
+    if(hadDef&&di<0&&!wasSolid) d.push(s.id);
+    if(!hadDef&&di>=0) d.splice(di,1);
+    saveMastered(m); saveDef(d);
+  }
+  const mastered=readMastered().filter(id=>D.niveau1.some(x=>x.id===id));
+  const defs=readDef().filter(id=>mastered.includes(id));
+  const solides=mastered.length-defs.length;
   const ready=mastered.length>=3;
-  const remaining=D.niveau1.findIndex((x,j)=>j!==si&&!mastered.includes(x.id));
   const nextSubj=level===1?D.niveau1.length>1:D.niveau2.length>1;
-  const result=level===1?`<div class="prescription"><strong>${mastered.length} sujet${mastered.length>1?'s':''} réussi${mastered.length>1?'s':''} sans erreur sur 3 conseillés.</strong> ${ready?'Vous avez reconnu et relié les deux difficultés sur plusieurs sujets. Vous pouvez maintenant essayer de les formuler avec moins d’aide.':'Avant de réduire les aides, entraînez-vous sur des sujets différents. Vous pouvez néanmoins explorer le niveau 2 à tout moment.'}${!firstTrySolid?' Sur ce sujet, vous avez eu besoin d’au moins une correction : recommencez pour vérifier votre compréhension.':''}</div>`:'';
+  const ceSujet=hadNo?' Sur ce sujet, une réponse était « À revoir » : le sujet n’est pas encore validé. Recommencez-le, ou essayez un autre sujet.':(hadDef?' Sujet validé : vos réponses étaient solides ou défendables. Repassez-le pour viser « Solide » partout.':' Sujet validé : toutes vos réponses étaient solides.');
+  const result=level===1?`<div class="prescription"><strong>${mastered.length} sujet${mastered.length>1?'s':''} réussi${mastered.length>1?'s':''} sur 3 conseillés</strong>${mastered.length?` (${solides} solide${solides>1?'s':''}, ${defs.length} avec une réponse défendable)`:''}.${ceSujet} ${ready?'Vous avez réussi trois sujets différents : passez au niveau 2, où vous écrirez vous-même certaines réponses.':'Le niveau 2 est conseillé après trois sujets différents réussis ; il reste ouvert à tout moment.'}</div>`:'';
   return `<div class="chaine-fin"><div class="kicker">SUJET PARCOURU</div><h2>Vous avez suivi les sept gestes.</h2>
   <p class="chaine-pb">${T(got[6])}</p>
   <p class="micro">Vous avez examiné ce que perd chacune des deux réponses, puis la question qui relie leurs difficultés. Reconnaître cette relation n’est pas encore savoir la construire seul.</p>
@@ -111,14 +127,14 @@ function render(){
   html+=brouillon();
   root.innerHTML=html; bind();
 }
-function go(){ step=0; got=[]; firstTrySolid=true; attempts=0; render(); root.scrollIntoView({behavior:'smooth',block:'start'}); }
+function go(){ step=0; got=[]; hadNo=false; hadDef=false; attempts=0; render(); root.scrollIntoView({behavior:'smooth',block:'start'}); }
 function bind(){
   root.querySelectorAll('[data-level]').forEach(b=>b.onclick=()=>{level=Number(b.dataset.level);si=0;go();});
   root.querySelectorAll('[data-subj]').forEach(b=>b.onclick=()=>{si=Number(b.dataset.subj);go();});
   const fb=root.querySelector('.chaine-fb');
   root.querySelectorAll('.chaine-opt').forEach(b=>b.onclick=()=>{
     const e=subj().etapes[step], o=e.o[Number(b.dataset.k)], st=o[1];
-    if(st!=='ok') firstTrySolid=false;
+    if(st==='no') hadNo=true; else if(st==='def') hadDef=true;
     attempts++;
     root.querySelectorAll('.chaine-opt').forEach(x=>x.classList.remove('picked'));
     b.classList.add('picked',st);

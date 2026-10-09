@@ -14,6 +14,7 @@ Propriétaire : un professeur de lettres en lycée (Istanbul). Public : lycéens
 4. **Fichiers partagés à haut risque** (un seul agent à la fois, et prévenir) : `styles.css`, `site-nav.js`, `scripts/seo-build.js`, `netlify.toml`, `worker/src/index.js`, `free-response.js`. Dans `styles.css`, ajoutez vos règles **à la fin**, dans un bloc commenté `/* === sujet === */`, sans réécrire les blocs existants.
 5. **Ne défaites pas le travail de l’autre agent sans le dire.** Si une modification de l’autre agent enfreint une règle de ce fichier, corrigez-la dans une PR séparée qui cite la règle, et signalez-le au propriétaire.
 6. **Avant de fusionner**, refaites `git pull` : si `main` a bougé, refaites le build de test sur la version à jour.
+7. **Une PR dont les tests requis ne sont pas réalisés ne peut pas être fusionnée.** Les tests requis sont ceux du § 5 (build, contrôles, navigateur à 390 et 1280 px, vérification pédagogique). Une PR qui indique « tests non réalisés » reste ouverte jusqu’à ce qu’ils soient faits, par son auteur ou par l’autre agent.
 
 ### Chantiers durables
 
@@ -115,6 +116,7 @@ Format : date · ce qui s’est passé · la règle qui en découle. Proposez un
 - 2026-10-09 · Les retours automatiques tutoyaient l’élève alors que le site vouvoie. · Vouvoiement partout, y compris dans le worker.
 - 2026-10-09 · Dans plusieurs QCM, la bonne réponse était toujours la plus longue. · Longueurs comparables (§ 2).
 - 2026-10-09 · Deux agents ont travaillé en même temps sur `main` sans se voir (PR #65 à #70). · Vérifier les PR ouvertes et leurs « Fichiers réservés » avant de commencer (§ 1).
+- 2026-10-09 · Cinq PR (n° 73 à 79) ont été fusionnées en indiquant « tests non réalisés » ; le diagnostic mis en ligne donnait la bonne réponse comme la plus longue dans tous les nouveaux sujets, et un sujet n’était pas un vrai sujet du bac. · Pas de fusion sans tests (§ 1, règle 7) ; la vérification pédagogique aurait détecté les deux défauts.
 - 2026-10-09 · Des termes propres à la méthode (« le donné », « transition-question ») ont été retirés des consignes parce qu’un audit les jugeait techniques. · Ne pas supprimer le vocabulaire de la méthode : l’expliquer, avec un exemple, à sa première apparition (§ 2).
 
 ## 7. Décisions du propriétaire
