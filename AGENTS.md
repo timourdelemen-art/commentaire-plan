@@ -25,11 +25,13 @@ Propriétaire : un professeur de lettres en lycée (Istanbul). Public : lycéens
 
 ## 2. Règles didactiques (non négociables)
 
-- **La théorie reste cachée.** Le chiasme, le *Dictionnaire paradoxal*, les « figures », les « résolutions », « aporie », « double aporie », « reprobématisation », « opération » au sens technique n’apparaissent jamais sur une page élève, ni dans les consignes envoyées au correcteur automatique (`data-feedback-instruction`, critères de `free-response.js` et du worker). Les fichiers `*.md` de théorie ne sont jamais publiés (voir `scripts/clean-publish.js`).
+- **Simplifier l’accès à la pensée, sans simplifier la pensée elle-même.**
+- **Vocabulaire de la méthode, autorisé s’il aide l’élève** : « le donné », « l’attente », « la transformation », « réalisation », « nécessité de la réponse ». Chaque terme est expliqué simplement, avec un exemple, à sa première apparition sur une page (ex. : « la réalisation, c’est ce que le texte fait : *le poète oppose la ville et la campagne* »). « Transition-question » s’introduit progressivement : d’abord la chose (« une question qui montre ce que la partie précédente n’a pas expliqué »), puis le mot.
+- **Vocabulaire réservé aux documents internes** : « chiasme », « double aporie », « aporie », « reprobématisation », le *Dictionnaire paradoxal*, ses « figures » et ses « résolutions » comme termes techniques. Ils n’apparaissent jamais sur une page élève, ni dans les consignes envoyées au correcteur automatique (`data-feedback-instruction`, critères de `free-response.js` et du worker). Les fichiers `*.md` de théorie ne sont jamais publiés (voir `scripts/clean-publish.js`).
 - **Consignes : six règles.** 1) verbe concret ; 2) quantité attendue (« en une phrase ») ; 3) un exemple sur un autre sujet quand c’est utile ; 4) aucun jargon ; 5) une seule tâche par ligne ; 6) phrases courtes, au « vous ».
 - **Vouvoiement partout**, y compris dans les retours automatiques.
 - **Uniquement de vrais sujets d’examen.** Corpus de référence : sujets du bac de philosophie 1996-2026 (branche `corpus`), annales officielles.
-- **Correction en trois états** pour les choix : Solide / Défendable / À revoir, toujours avec une phrase de justification. Plusieurs propositions peuvent être justes (troisième partie). **La bonne réponse ne doit pas être reconnaissable à sa longueur** (écart de longueur < 20 %).
+- **Correction en trois états** pour les choix : Solide / Défendable / À revoir, toujours avec une phrase de justification. Plusieurs propositions peuvent être justes (troisième partie). **La bonne réponse ne doit pas être reconnaissable à sa longueur** : visez des propositions de longueurs comparables, sans formulations artificielles pour égaliser ; sur une série, la bonne réponse n’est pas systématiquement la plus longue.
 - **Boussole** en tête d’exercice : « D’où vous partez / Ce que vous faites / Ce que vous obtenez ».
 - **Désétayage en trois niveaux** quand une chaîne existe : Niveau 1 au clic, Niveau 2 j’écris un peu, Niveau 3 j’écris tout ; navigation libre (recommencer, suivant, niveau précédent, niveau suivant). Modèles : `philosophie-probleme-pas-a-pas.html`, `philosophie-plan-pas-a-pas.html`, `commentaire-pas-a-pas.html`.
 - **La scène d’ouverture d’une dissertation porte les deux réponses et leur double échec**, pas une seule branche.
@@ -70,7 +72,11 @@ Plusieurs pages sont **générées** au déploiement (commande de `netlify.toml`
    `B=$(mktemp -d); git ls-files -co --exclude-standard | tar -cf - -T - | tar -xf - -C $B; (cd $B && eval "$(sed -n 's/^ *command = "\(.*\)"/\1/p' netlify.toml)")`
 2. Servez la copie (`python3 -m http.server`) et testez dans un navigateur à **390 px et 1280 px** : aucune erreur JavaScript, pas de défilement horizontal, chaque clic mène au bon endroit, parcours complet des exercices modifiés.
 3. Vérifiez que `seo-audit` ne signale **aucune nouvelle erreur** et que les contrôles `check-philo-parcours` et `check-global-pages` passent.
-4. Après fusion : vérifiez que le déploiement Netlify est « ready » sur le bon commit, et, si le worker a changé, que l’action « Test du retour déployé » est verte.
+4. **Vérification pédagogique** de chaque exercice ajouté ou modifié, en le faisant soi-même comme un élève :
+   - **le geste** : quel geste intellectuel l’élève accomplit-il réellement (répondre, justifier, pousser une idée, comparer, formuler) ? Est-ce bien celui que la page annonce, et pas une simple reconnaissance ?
+   - **les aides** : chaque aide fait-elle avancer sans donner la réponse ? Les justifications des propositions expliquent-elles pourquoi, en une phrase ?
+   - **l’autonomie** : l’élève peut-il recommencer, passer au niveau suivant, et refaire le geste seul sur un autre sujet ? Le chemin vers l’étape suivante est-il visible ?
+5. Après fusion : vérifiez que le déploiement Netlify est « ready » sur le bon commit, et, si le worker a changé, que l’action « Test du retour déployé » est verte.
 
 ### Contenu obligatoire de chaque PR
 
@@ -81,10 +87,14 @@ Plusieurs pages sont **générées** au déploiement (commande de `netlify.toml`
 ## Tests réalisés
 - build de test : …
 - navigateur 390 px / 1280 px : pages et parcours testés …
+- vérification pédagogique : geste réellement accompli, qualité des aides, reprise autonome
 - autres vérifications (citations, liens, worker…)
 
 ## Points à vérifier
 - (ce qui n’a pas pu être testé, décisions laissées au propriétaire, risques)
+
+## Leçon apprise
+- (si une erreur importante a été corrigée : la ligne proposée pour le § 6, sinon « aucune »)
 ```
 
 ## 6. Leçons apprises (à compléter après chaque erreur importante)
@@ -102,11 +112,17 @@ Format : date · ce qui s’est passé · la règle qui en découle. Proposez un
 - 2026-10-09 · Les retours automatiques tutoyaient l’élève alors que le site vouvoie. · Vouvoiement partout, y compris dans le worker.
 - 2026-10-09 · Dans plusieurs QCM, la bonne réponse était toujours la plus longue. · Longueurs comparables (§ 2).
 - 2026-10-09 · Deux agents ont travaillé en même temps sur `main` sans se voir (PR #65 à #70). · Section « Travaux en cours » et vérification des PR ouvertes avant de commencer (§ 1).
+- 2026-10-09 · Des termes propres à la méthode (« le donné », « transition-question ») ont été retirés des consignes parce qu’un audit les jugeait techniques. · Ne pas supprimer le vocabulaire de la méthode : l’expliquer, avec un exemple, à sa première apparition (§ 2).
 
-## 7. Décisions en attente du propriétaire
+## 7. Décisions du propriétaire
 
+Prises (9 octobre 2026) :
+- **Vocabulaire** : voir § 2 (termes de la méthode expliqués à leur première apparition ; termes de la théorie réservés aux documents internes).
+- **QCM** : longueurs comparables, sans seuil chiffré strict.
+- **Notions de philosophie** : les 17 notions restent accessibles par une entrée secondaire clairement visible sur `philosophie.html` (pas seulement dans un menu replié).
+- **Textes manquants des annales** : un texte n’est intégré qu’après vérification de la source officielle (découpage exact de l’extrait, numéros de ligne) et des droits.
+- **Copies à 20** : chaque correction de scène d’ouverture est examinée individuellement par le propriétaire avant validation.
+
+En attente :
 - Identité de l’éditeur (mentions légales, CGV, confidentialité) et moyen de paiement, avant toute vente ; pages légales à faire relire par un juriste.
-- Vocabulaire de la méthode sur les pages élèves : « le donné », « l’attente », « la transformation », « réalisation », « nécessité de la réponse », « transition-question », « opération ». À garder (avec une explication la première fois) ou à remplacer dans les consignes ?
-- Entrée par les 17 notions sur `philosophie.html` : en évidence ou dans le menu replié ?
-- Textes du domaine public manquant dans 11 annales (bac et brevet) : à fournir en PDF officiel pour être intégrés avec leurs vraies lignes.
-- Scènes d’ouverture de 4 copies à 20 à corriger (religion, science, bonheur, technique) : propositions faites, accord attendu.
+- Le mot « opération » (« III.2 L’opération », page « Opérations philosophiques ») : à garder avec une explication, ou à remplacer.
