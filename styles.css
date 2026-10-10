@@ -2297,7 +2297,7 @@ div.qcm-options>p{border:0!important;background:none!important;box-shadow:none!i
 #chaine-app .pb-repere{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:15px;margin-bottom:6px}
 #chaine-app .pb-repere b{font-weight:700}
 #chaine-app .pb-repere span{color:var(--muted)}
-#chaine-app .pb-jauge{display:grid;grid-template-columns:repeat(3,1fr) 9px repeat(3,1fr) 9px 1fr;column-gap:3px;row-gap:3px;margin-bottom:24px}
+#chaine-app .pb-jauge{display:grid;grid-template-columns:repeat(3,1fr) 9px repeat(3,1fr) 9px repeat(2,1fr);column-gap:3px;row-gap:3px;margin-bottom:24px}
 #chaine-app .pb-jauge i{height:6px;background:#ddd3c4}
 #chaine-app .pb-jauge i.sep{grid-column:auto}
 #chaine-app .pb-jauge i:nth-of-type(4){grid-column:5}
@@ -2307,7 +2307,9 @@ div.qcm-options>p{border:0!important;background:none!important;box-shadow:none!i
 #chaine-app .pb-jauge span{grid-row:2;font:10px 'American Typewriter','Courier New',monospace;letter-spacing:1px;text-transform:uppercase;color:var(--muted)}
 #chaine-app .pb-jauge span:nth-of-type(1){grid-column:1/4}
 #chaine-app .pb-jauge span:nth-of-type(2){grid-column:5/8}
-#chaine-app .pb-jauge span:nth-of-type(3){grid-column:9}
+#chaine-app .pb-jauge span:nth-of-type(3){grid-column:9/11}
+#chaine-app .pb-pbm.pb-court{margin-top:10px}
+#chaine-app .pb-pbm.pb-court::before{content:none}
 #chaine-app .pb-grille{display:grid;grid-template-columns:1fr;gap:28px}
 #chaine-app .pb-step{border-top:0;padding-top:0}
 #chaine-app .pb-pied{margin-top:22px;gap:22px;font-size:15px}
@@ -2421,3 +2423,22 @@ div.qcm-options>p{border:0!important;background:none!important;box-shadow:none!i
 #comm-app .cc-modele em{display:block;font:11px 'American Typewriter','Courier New',monospace;font-style:normal;letter-spacing:1px;text-transform:uppercase;color:#596d49;margin-bottom:4px}
 @media(min-width:1000px){#comm-app .cc-grille{grid-template-columns:minmax(0,1fr) 400px;align-items:start}#comm-app .cc-carte{position:sticky;top:16px;max-height:calc(100vh - 32px);overflow:auto}}
 @media(max-width:760px){#comm-app .cc-suj{font-size:19px;flex-basis:100%}#comm-app .cc-choix .chaine-sujets{grid-template-columns:1fr}#comm-app .cc-jauge{gap:5px}#comm-app .cc-jg small{font-size:9px;letter-spacing:0}#comm-app .cc-fin h2{font-size:28px}#comm-app .cc-fin .chaine-nav .btn{width:100%;justify-content:center}#comm-app .cc-f-trans{margin-left:6px}#comm-app .cc-texte .texte-examen{max-height:none}}
+/* === Commentaire du bac : pourtant, problématique condensée, transitions (fr-commentaire) === */
+.seo-body .prob-forms,.seo-body .prob-tests{font-size:19px;line-height:1.55;padding-left:24px;margin:10px 0 22px;max-width:860px}
+.seo-body .prob-forms li,.seo-body .prob-tests li{margin:0 0 10px}
+.seo-body .prob-forms{list-style:none;padding-left:0}
+.seo-body .prob-forms li{border-left:3px solid #d9d0c2;padding:4px 0 4px 14px}
+.seo-body .prob-exercice{margin:40px 0;padding:26px 0 8px;border-top:1px solid #c9bfb0;border-bottom:1px solid #c9bfb0}
+.seo-body .prob-exercice h2{font-size:30px;margin:6px 0 14px}
+.seo-body .prob-exercice>p{font-size:18px;line-height:1.5}
+.seo-body .prob-exercice .chaine-opts{margin:16px 0 4px}
+.seo-body .transition-pairs{display:grid;gap:18px;margin:14px 0 22px}
+.seo-body .transition-pairs article{border-left:3px solid #d9d0c2;padding:4px 0 4px 16px}
+.seo-body .transition-pairs h3{font-size:20px;margin:0 0 8px;font-weight:400}
+.seo-body .transition-pairs p{font-size:18px;line-height:1.5;margin:0 0 6px}
+.gammes-list{margin:34px 0;padding:24px 0;border-top:1px solid #c9bfb0}
+.gammes-list h2{font-size:28px;font-weight:400;margin:6px 0 10px}
+.gammes-list p{font-size:18px;line-height:1.7}
+.gammes-list a{color:var(--red);border-bottom:1px solid var(--red)}
+#scale-boussole{margin:0 0 22px}
+@media(max-width:700px){.seo-body .prob-exercice h2,.gammes-list h2{font-size:24px}}
