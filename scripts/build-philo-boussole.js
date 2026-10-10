@@ -27,22 +27,6 @@ for(const [page,list] of Object.entries(byPage)){
   fs.writeFileSync(f,s);
 }
 
-/* 1 bis. Bande du parcours (étapes 1 à 5) et script de progression */
-const STEPS=[['philosophie-diagnostic.html','Faire le point'],['philosophie-problematisation.html','Trouver le problème'],['philosophie-dissertation.html','Construire la dissertation'],['philosophie-dissertation-entrainement.html','S’entraîner'],['philosophie-annales.html','Un sujet du bac']];
-const stepOf={};STEPS.forEach(([f],k)=>stepOf[f]=k+1);
-fs.readdirSync(ROOT).filter(f=>/^philosophie-bac-2026-.*\.html$/.test(f)).forEach(f=>stepOf[f]=5);
-const SCRIPT='<script src="philosophie-parcours.js" defer></script>';
-for(const [page,n] of Object.entries(stepOf)){
-  const f=path.join(ROOT,page); let s=fs.readFileSync(f,'utf8');
-  s=s.replace(/<nav class="parcours-strip"[\s\S]*?<\/nav><!--\/parcours-strip-->\n?/,'');
-  const strip=`<nav class="parcours-strip" data-step="${n}" aria-label="Le parcours en cinq étapes"><a class="parcours-home" href="philosophie.html#parcours">Le parcours</a>${STEPS.map(([h,l],k)=>`<a href="${h}" data-n="${k+1}"${k+1===n?' aria-current="step"':''}><b>${k+1}</b><span>${l}</span></a>`).join('')}</nav><!--/parcours-strip-->\n`;
-  const i=s.indexOf('<section class="pagehead">'); if(i<0) throw new Error('pagehead introuvable : '+page);
-  s=s.slice(0,i)+strip+s.slice(i);
-  if(!s.includes(SCRIPT)) s=s.replace('</main>','</main>'+SCRIPT);
-  fs.writeFileSync(f,s);
-}
-{ const f=path.join(ROOT,'philosophie.html'); let s=fs.readFileSync(f,'utf8'); if(!s.includes(SCRIPT)){s=s.replace('</main>','</main>'+SCRIPT);fs.writeFileSync(f,s);} }
-
 /* 2. Page « Je bloque sur… » */
 const card=(href,title,dep,res)=>`<a class="bloque-card" href="${href}"><strong>${T(title)}</strong>${dep?`<span><b>Vous partez de :</b> ${T(dep.replace(/^Vous /,'').replace(/^./,c=>c.toLowerCase()))}</span>`:''}<span><b>Vous obtenez :</b> ${T(res)}</span><i>Faire l’exercice →</i></a>`;
 const sections=GROUPS.map(([key,label,hint])=>{
@@ -63,7 +47,7 @@ const html=`<!doctype html><html lang="fr"><head>
 <link rel="stylesheet" href="styles.css">
 </head><body><header class="top"></header><main class="wrap">
 
-<section class="pagehead"><div><div class="kicker">PHILOSOPHIE · JE BLOQUE SUR…</div>
+<section class="pagehead"><div><div class="kicker">PHILOSOPHIE · ÉTAPE 4 SUR 5 · JE BLOQUE SUR…</div>
 <h1>Qu’est-ce qui<br>vous bloque ?</h1>
 <p class="lede">Chaque exercice dit d’où vous partez, ce que vous allez faire, et ce que vous aurez à la fin. Dix à vingt minutes, avec un corrigé.</p>
 ${nav}
@@ -77,4 +61,32 @@ ${sections}
 </main><script src="site-nav.js"></script></body></html>
 `;
 fs.writeFileSync(path.join(ROOT,LAB),html);
+/* 3. Bande du parcours (cinq gestes), navigation précédent/suivant et script de progression.
+   Source unique des libellés : STEPS (identiques dans site-nav.js et scripts/seo-build.js).
+   Le diagnostic et les cours sont des ressources : bande sans étape courante, pas de numéro. */
+const {PHILO_STEPS:STEPS,PHILO_RESOURCES:RESOURCES}=require('./philo-paths.js');
+const stepOf={};STEPS.forEach(([f],k)=>stepOf[f]=k+1);
+RESOURCES.forEach(f=>stepOf[f]=0);
+fs.readdirSync(ROOT).filter(f=>/^philosophie-bac-2026-.*\.html$/.test(f)).forEach(f=>stepOf[f]=5);
+const SCRIPT='<script src="philosophie-parcours.js" defer></script>';
+const NAVSTYLE='display:flex;flex-wrap:wrap;gap:.6rem 1.2rem;align-items:center;margin:1.2rem 0;padding:.9rem 1rem;border:1px solid #c9bfb0;background:#fffdf8';
+for(const [page,n] of Object.entries(stepOf)){
+  const f=path.join(ROOT,page); let s=fs.readFileSync(f,'utf8');
+  s=s.replace(/<nav class="parcours-strip"[\s\S]*?<\/nav><!--\/parcours-strip-->\n?/,'');
+  s=s.replace(/<nav class="parcours-navigation"[\s\S]*?<\/nav>(<!--\/parcours-navigation-->)?\n?/g,'');
+  const strip=`<nav class="parcours-strip"${n?` data-step="${n}"`:''} aria-label="Le parcours en cinq étapes"><a class="parcours-home" href="philosophie.html#parcours">Le parcours</a>${STEPS.map(([h,l],k)=>`<a href="${h}" data-n="${k+1}"${k+1===n?' aria-current="step"':''}><b>${k+1}</b><span>${l}</span></a>`).join('')}</nav><!--/parcours-strip-->\n`;
+  const head=s.match(/<section class="pagehead[^"]*">/); if(!head) throw new Error('pagehead introuvable : '+page);
+  const i=head.index;
+  s=s.slice(0,i)+strip+s.slice(i);
+  if(n && STEPS[n-1][0]===page){
+    const prev=STEPS[n-2], next=STEPS[n];
+    const nav=`<nav class="parcours-navigation" aria-label="Se déplacer entre les étapes du parcours" style="${NAVSTYLE}"><a href="philosophie.html#parcours">Les cinq étapes</a>${prev?`<a href="${prev[0]}">← Étape ${n-1} : ${prev[1]}</a>`:''}<strong aria-current="step">Étape ${n} sur 5 : ${STEPS[n-1][1]}</strong>${next?`<a href="${next[0]}">Étape ${n+1} : ${next[1]} →</a>`:''}</nav><!--/parcours-navigation-->\n`;
+    const h=s.indexOf('</section>',s.search(/<section class="pagehead[^"]*">/))+'</section>'.length;
+    s=s.slice(0,h)+'\n'+nav+s.slice(h);
+  }
+  if(!s.includes(SCRIPT)) s=s.replace('</main>','</main>'+SCRIPT);
+  fs.writeFileSync(f,s);
+}
+{ const f=path.join(ROOT,'philosophie.html'); let s=fs.readFileSync(f,'utf8'); if(!s.includes(SCRIPT)){s=s.replace('</main>','</main>'+SCRIPT);fs.writeFileSync(f,s);} }
+
 console.log(`Boussoles : ${injected} exercices ; page « Je bloque sur… » : ${GROUPS.length} difficultés.`);

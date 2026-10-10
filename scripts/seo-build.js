@@ -57,7 +57,7 @@ function staticHeader(file){
     portal(file,'philosophie.html','PHILO','Terminale · tronc commun',[
       ['philosophie-probleme-pas-a-pas.html','1 · Trouver le problème','Confronter deux réponses sur un vrai sujet'],
       ['philosophie-plan-pas-a-pas.html','2 · Construire le plan','Organiser des parties qui progressent'],
-      ['philosophie-dissertation-entrainement.html','3 · Passer à la rédaction','Rédiger un argument, une transition, une conclusion'],
+      ['philosophie-dissertation-entrainement.html','3 · Rédiger','Rédiger un argument, une transition, une conclusion'],
       ['philosophie-laboratoire.html','4 · Reprendre une difficulté','Choisir un atelier ciblé'],
       ['philosophie-annales.html','5 · Traiter un sujet du bac','Faire une dissertation puis examiner le corrigé'],
       ['philosophie-diagnostic.html','Diagnostic facultatif','Cinq questions pour choisir son point de départ'],
