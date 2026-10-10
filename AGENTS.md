@@ -127,6 +127,9 @@ Format : date · ce qui s’est passé · la règle qui en découle. Proposez un
 - 2026-10-10 · Un PDF publié en morceaux base64 sur raw.githubusercontent était tronqué, et la page promettait un dossier complet. · Ne jamais lier un fichier sans l’avoir téléchargé et ouvert ; aucune promesse de contenu qui n’existe pas.
 - 2026-10-10 · Une consigne de rédaction du brevet contenant « transitions » était classée par le correcteur comme une transition de commentaire. · Toujours passer le type de retour (`kind`) explicitement.
 - 2026-10-10 · Le bouton « Dicter », ajouté à toutes les zones d’écriture, faisait doublon dans le simulateur d’oral. · Avant d’ajouter un outil partout, chercher les pages qui ont déjà le leur.
+- 2026-10-10 · Deux modèles de commentaire citaient le texte sous une forme adaptée (« sa langue », « tournent et crient ») et un autre comptait mal ses propres citations. · Entre guillemets, le mot exact du texte ; une adaptation se signale par des crochets ; confronter chaque citation au texte publié.
+- 2026-10-10 · Les vers d’un même poème varient selon les éditions (manuscrit, Vanier 1895). · Ne citer que les vers identiques dans deux sources, et le dire sur la page.
+- 2026-10-10 · Après balisage d’un texte modèle (fonctions, couleurs), le texte pouvait dériver. · Vérifier par script que le texte, balises retirées, reste identique à l’original.
 
 ## 7. Décisions du propriétaire
 
