@@ -277,6 +277,281 @@ niveau1: [
   ['L’art est-il vraiment utile à la société, ou n’est-il qu’un luxe pour quelques-uns ?','def','Une autre question : partez du reste de la réponse.'],
   ['Chaque artiste a son style et sa manière de travailler, que personne ne peut imiter.','no','Une formule vide : la conclusion transforme le reste en question.']]}
  ]
+},
+{
+ id:'maitrise-paroles', sujet:'Avons-nous la maîtrise de nos paroles ?', notion:'Le langage', v:2,
+ pb:'Maîtriser ses paroles, est-ce ne plus dire que ce qu’on pensait déjà, et ne pas les maîtriser, est-ce cesser de pouvoir en répondre ?',
+ annale:'avons-nous-la-maitrise-de-nos-paroles',
+ etapes:[
+ {p:'I',k:'installer',q:'Quelle première réponse installer en partie I, avec sa raison ?',o:[
+  ['Nous maîtrisons nos paroles : parler est un acte volontaire, nous choisissons nos mots.','ok','Une réponse au sujet, avec sa raison.'],
+  ['Nous pouvons toujours nous taire, et le silence prouve bien que nous décidons de parler ou non.','def','Une piste, mais se taire n’est pas encore maîtriser ce qu’on dit : rapprochez-vous de la parole elle-même.'],
+  ['Nos paroles nous engagent même quand leur sens nous échappe.','no','C’est déjà une troisième partie : vous tranchez avant d’avoir rien examiné.']]},
+ {p:'I',k:'renforcer',q:'Qu’est-ce qui rend cette réponse la plus forte possible ?',o:[
+  ['Une promesse, un témoignage nous engagent : si nous ne maîtrisions pas nos paroles, aucune ne nous engagerait.','ok','La réponse est poussée au plus fort : la responsabilité elle-même suppose la maîtrise.'],
+  ['Un bon orateur prépare son discours avec soin et sait exactement ce qu’il va dire devant son public.','def','Un exemple de maîtrise, mais il illustre plus qu’il ne renforce : pourquoi la maîtrise serait-elle nécessaire ?'],
+  ['Le lapsus montre que nous disons parfois ce que nous ne voulions pas dire.','no','Il défend la réponse contraire : gardez-le pour la partie II.']]},
+ {p:'I',k:'limite',q:'Où cette réponse cède-t-elle, si on la pousse jusqu’au bout ?',o:[
+  ['Une parole entièrement préparée ne dit rien de neuf : elle récite, alors que nous pensons souvent en parlant.','ok','La limite vient de la réponse : la maîtrise totale tue ce qu’elle voulait maîtriser.'],
+  ['Il arrive que l’émotion nous fasse dire des choses que nous regrettons ensuite, une fois calmés.','def','Vrai, mais l’émotion est une cause extérieure : la limite doit venir de la maîtrise elle-même.'],
+  ['Beaucoup de gens parlent trop vite et sans réfléchir à ce qu’ils disent.','no','Un constat sur certains, pas une limite de la réponse.']]},
+ {p:'T1',k:'transition',q:'Quelle question, née de cette limite, fait passer à la partie II ?',o:[
+  ['Une parole entièrement prévue récite : d’où vient alors ce que nous disons de plus que nous ne savions ?','ok','Elle reprend la limite de la partie I et pose une question ouverte, à laquelle seule la partie II peut répondre.'],
+  ['Une parole entièrement prévue récite : nos paroles disent donc toujours plus que ce que nous voulions dire.','def','Le diagnostic est juste, mais il répond déjà : la partie II est donnée avant d’être pensée. Faites-en une question.'],
+  ['Voyons maintenant les cas où nos paroles nous échappent.','no','Une annonce : elle parle du devoir, pas du problème. Rien ne dit pourquoi on change de réponse.']]},
+ {p:'II',k:'exigence',q:'Comment la partie II répond-elle d’abord à cette question ?',o:[
+  ['De la langue, qui n’est pas à nous : ses mots ont un sens commun qui dépasse notre intention.','ok','Elle répond exactement à la question de transition et nomme ce que la partie I ne voyait pas.'],
+  ['De l’inspiration du moment, qui vient on ne sait d’où et nous surprend nous-mêmes quand nous parlons.','def','Une image, mais elle n’explique rien : dites ce qui, dans la parole elle-même, nous dépasse.'],
+  ['De notre volonté, qui choisit chaque mot avec soin.','no','C’est revenir à la partie I au lieu d’en sortir.']]},
+ {p:'II',k:'position',q:'Quel développement montre que cette exigence est nécessaire ?',o:[
+  ['Le lapsus, le malentendu, le mot blessant dit sans le vouloir montrent que nos paroles nous échappent.','ok','La partie montre ce qu’elle permet de comprendre : une fois dites, nos paroles appartiennent aussi aux autres.'],
+  ['Nos paroles disent plus, et autre chose, que ce que nous voulions : elles nous échappent, voilà tout.','def','C’est bien la position de la partie, mais énoncée, pas développée : montrez ce qu’elle permet de comprendre.'],
+  ['Nous ne savons jamais ce que nous disons, ni pourquoi nous le disons.','no','Excessif : le « non » dit que nos paroles nous échappent en partie, pas toujours.']]},
+ {p:'II',k:'limite',q:'Où cette deuxième réponse cède-t-elle à son tour ?',o:[
+  ['Si nos paroles nous échappent tout à fait, chacun pourra dire « ce n’est pas ce que je voulais dire » : plus personne n’en répond.','ok','La limite vient de la réponse : sans maîtrise, plus d’engagement.'],
+  ['Il est parfois utile de ne pas maîtriser ses paroles, pour être plus sincère avec les autres.','def','Une piste intéressante, mais elle renforce la partie II au lieu d’en montrer la limite.'],
+  ['Les réseaux sociaux déforment nos paroles.','no','Un exemple de plus, pas une limite.']]},
+ {p:'T2',k:'transition',q:'Quelle question montre ce que les deux réponses supposaient ensemble ?',o:[
+  ['Nous tenons nos paroles comme un outil, ou elles nous tiennent : quel pouvoir nous reste-t-il donc sur elles ?','ok','Elle découvre ce que I et II supposaient ensemble, une maîtrise du sens, et pose une question ouverte.'],
+  ['Si la maîtrise récite et que l’absence de maîtrise déresponsabilise, maîtrisons-nous nos paroles ou non ?','def','Elle repose la même alternative, et sa réponse tient en un mot : la partie III ne pourrait que choisir un camp.'],
+  ['Il faudra donc trouver un équilibre entre maîtrise et spontanéité.','no','Une annonce de compromis : elle parle du devoir et promet de couper la poire en deux.']]},
+ {p:'III',k:'probleme',q:'Revenir au problème : qu’est-ce que chacune des deux réponses avait compris ?',o:[
+  ['Celui d’en répondre : la partie II a montré que le sens nous dépasse, la partie I que nos paroles nous engagent.','ok','Elle répond à la question de transition et nomme les deux acquis : la partie III devra garder l’un et l’autre.'],
+  ['Chacune avait raison à moitié : la partie I sur la politesse, la partie II sur la psychologie de chacun.','def','Proche, mais la politesse et la psychologie déplacent le sujet : l’engagement et le sens.'],
+  ['Aucun : nous ne sommes que les porte-voix de la langue.','no','C’est jeter les deux parties : la troisième doit garder ce qu’elles ont établi.']]},
+ {p:'III',k:'operation',q:'Quelle opération permet de tenir les deux ensemble ? Plusieurs peuvent tenir : regardez ce que chacune laisse.',o:[
+  ['Déplacer la difficulté : nous ne maîtrisons pas le sens de nos paroles, mais nous décidons de nous engager en parlant.','ok','Elle garde la responsabilité (I) sans nier que le sens nous dépasse (II).'],
+  ['Distinguer deux sortes de paroles : celles que nous préparons, que nous maîtrisons, et les autres, qui nous échappent toujours.','def','Elle sauve les deux, mais en les séparant : une parole préparée peut aussi nous échapper.'],
+  ['Il faut parler avec prudence, ni trop vite ni trop lentement.','no','Un juste milieu sans raison : le problème reste entier.']]},
+ {p:'III',k:'stabiliser',q:'Que peut-on désormais affirmer, et que cette réponse ne règle-t-elle pas encore ?',o:[
+  ['Maîtriser ses paroles, ce n’est pas tout contrôler, c’est en répondre. Reste : ce qu’elles font aux autres.','ok','La réponse est nette, et son reste est dit : c’est lui que la conclusion reprendra.'],
+  ['Maîtriser ses paroles, ce n’est pas tout contrôler, c’est en répondre : avec cela, toute la difficulté du sujet est réglée.','def','La réponse est juste, mais elle se croit complète : l’écho de nos paroles chez les autres reste hors de portée. Cherchez son reste.'],
+  ['Nous maîtrisons parfois nos paroles, et parfois non.','no','On retombe dans le juste milieu : la réponse de la partie III est perdue.']]},
+ {p:'C',k:'question',q:'Quelle question finale naît de ce reste ?',o:[
+  ['Peut-on vraiment répondre de paroles dont on ne maîtrise ni la portée ni l’écho ?','ok','C’est le reste de la réponse, devenu question : le même problème, posé plus loin.'],
+  ['Faut-il parler moins pour mieux maîtriser ce que l’on dit, et se taire plus souvent ?','def','Une question liée, mais qui ne part pas du reste de la réponse.'],
+  ['La parole est le propre de l’homme, et c’est ce qui fait sa grandeur.','no','Une formule vide : la conclusion transforme le reste en question.']]}
+ ]
+},
+{
+ id:'humanite-religion', sujet:'Peut-on concevoir une humanité sans religion ?', notion:'La religion', v:2,
+ pb:'Une humanité qui ne croirait que ce qu’elle peut prouver garderait-elle de quoi relier les hommes, et une humanité unie par la croyance resterait-elle faite d’hommes qui jugent par eux-mêmes ?',
+ annale:'peut-on-concevoir-une-humanite-sans-religion',
+ etapes:[
+ {p:'I',k:'installer',q:'Quelle première réponse installer en partie I, avec sa raison ?',o:[
+  ['On peut concevoir une humanité sans religion : la raison peut fonder le savoir et la morale.','ok','Une réponse au sujet, avec sa raison.'],
+  ['Beaucoup de gens, aujourd’hui, vivent très bien sans aucune religion, dans de nombreux pays du monde.','def','Un fait, pas encore une raison : dites ce qui rend la religion superflue.'],
+  ['L’humanité peut se passer de la religion, mais non de ce qu’elle assurait.','no','C’est déjà une troisième partie : vous tranchez avant d’avoir rien examiné.']]},
+ {p:'I',k:'renforcer',q:'Qu’est-ce qui rend cette réponse la plus forte possible ?',o:[
+  ['Freud explique la religion par la détresse de l’enfance : une humanité devenue adulte pourrait s’en passer.','ok','La réponse est poussée au plus fort : la religion devient une illusion, que la raison peut dissiper.'],
+  ['Les sciences expliquent aujourd’hui des phénomènes que l’on attribuait autrefois aux dieux, comme la foudre.','def','Un bon exemple, mais il illustre plus qu’il ne renforce : la religion n’est pas seulement une explication du monde.'],
+  ['Durkheim montre que la religion resserre les liens d’une communauté.','no','La référence défend la réponse contraire : gardez-la pour la partie II.']]},
+ {p:'I',k:'limite',q:'Où cette réponse cède-t-elle, si on la pousse jusqu’au bout ?',o:[
+  ['La raison explique la croyance sans remplacer ce qu’elle offrait : un lien entre les hommes, un sens devant la mort.','ok','La limite vient de la réponse : la victoire de la raison laisse une place vide.'],
+  ['Certains croyants refuseront toujours d’abandonner leur religion, quoi qu’on leur démontre et quoi qu’on leur explique.','def','Vrai, mais c’est un constat sur les croyants : la limite doit venir de la raison elle-même.'],
+  ['Les religions ont provoqué beaucoup de guerres dans l’histoire.','no','Un argument pour la partie I, pas sa limite.']]},
+ {p:'T1',k:'transition',q:'Quelle question, née de cette limite, fait passer à la partie II ?',o:[
+  ['La raison gagne contre l’illusion et perd ce que l’illusion donnait : d’où venait donc le lien entre les hommes ?','ok','Elle reprend la limite de la partie I et pose une question ouverte, à laquelle seule la partie II peut répondre.'],
+  ['La raison gagne contre l’illusion, mais perd ce que l’illusion donnait : il faut donc garder la religion.','def','Le diagnostic est juste, mais il répond déjà : la partie II est donnée avant d’être pensée. Faites-en une question.'],
+  ['Après avoir vu les arguments contre la religion, voyons ceux qui la défendent.','no','Une annonce : elle parle du devoir, pas du problème. Rien ne dit pourquoi on change de réponse.']]},
+ {p:'II',k:'exigence',q:'Comment la partie II répond-elle d’abord à cette question ?',o:[
+  ['De la religion elle-même : relier les hommes, c’est ce qu’elle fait, et c’est par là qu’elle appartient à l’humanité.','ok','Elle répond exactement à la question de transition et nomme ce que la partie I perdait.'],
+  ['De la famille et des amis, qui suffisent largement à relier les hommes entre eux, sans aucune religion ni aucun culte.','def','Une réponse, mais trop étroite : la question porte sur ce qui relie toute une communauté.'],
+  ['De la raison, qui relie tous les hommes par des vérités communes.','no','C’est revenir à la partie I au lieu d’en sortir.']]},
+ {p:'II',k:'position',q:'Quel développement montre que cette exigence est nécessaire ?',o:[
+  ['Durkheim : en célébrant le sacré, une communauté se célèbre et se resserre elle-même.','ok','La référence montre ce que la partie permet de comprendre : la religion est d’abord un lien social.'],
+  ['La religion relie les hommes et leur donne des fins communes, ce que la raison seule ne fait pas.','def','C’est bien la position de la partie, mais énoncée, pas développée : montrez ce qu’elle permet de comprendre.'],
+  ['Une humanité sans religion serait forcément immorale et violente.','no','Excessif : la partie II dit que la religion relie, pas que sans elle tout est permis.']]},
+ {p:'II',k:'limite',q:'Où cette deuxième réponse cède-t-elle à son tour ?',o:[
+  ['Ce qui relie une communauté divise l’humanité : chaque religion unit ses fidèles en les séparant des autres.','ok','La limite vient de la réponse : le lien religieux sépare autant qu’il unit.'],
+  ['Les pratiques religieuses reculent dans beaucoup de pays occidentaux depuis un siècle.','def','Un constat, mais extérieur : la limite doit venir du lien religieux lui-même.'],
+  ['Il existe de nombreuses religions différentes dans le monde.','no','Un fait, pas encore une limite : dites ce qu’il produit.']]},
+ {p:'T2',k:'transition',q:'Quelle question montre ce que les deux réponses supposaient ensemble ?',o:[
+  ['Tous deux confondaient la religion avec ce qu’elle assurait : de quoi l’humanité ne peut-elle donc se passer ?','ok','Elle découvre ce que I et II supposaient ensemble et pose une question ouverte.'],
+  ['Si la raison laisse un vide et que la religion divise, l’humanité peut-elle finalement se passer de toute religion ?','def','Elle repose la même alternative, et sa réponse tient en un mot : la partie III ne pourrait que choisir un camp.'],
+  ['Nous verrons pour finir qu’il faut un peu de raison et un peu de religion.','no','Une annonce de compromis : elle parle du devoir et promet de couper la poire en deux.']]},
+ {p:'III',k:'probleme',q:'Revenir au problème : qu’est-ce que chacune des deux réponses avait compris ?',o:[
+  ['De ce qu’elle assurait : la partie II a montré le besoin de lien, la partie I celui de juger par soi-même.','ok','Elle répond à la question de transition et nomme les deux acquis : la partie III devra garder l’un et l’autre.'],
+  ['Chacune avait raison à moitié : la partie I sur la science, la partie II sur la tradition, les rites et les fêtes.','def','Proche, mais la science et la tradition déplacent le sujet : le jugement libre et le lien.'],
+  ['De rien du tout : chacun peut vivre seul.','no','C’est jeter les deux parties : la troisième doit garder ce qu’elles ont établi.']]},
+ {p:'III',k:'operation',q:'Quelle opération permet de tenir les deux ensemble ? Plusieurs peuvent tenir : regardez ce que chacune laisse.',o:[
+  ['Déplacer la difficulté : le lien que la religion assurait peut reposer sur des convictions partagées et comprises, comme la dignité de chaque personne.','ok','Elle garde le jugement libre (I) et le besoin de lien (II).'],
+  ['Distinguer la vie privée et la vie publique : chacun garde sa religion chez soi, et la raison règne dans l’espace commun.','def','Une distinction solide, mais elle ne dit pas ce qui relie les hommes dans l’espace commun.'],
+  ['Il faut une religion modérée, qui ne demande pas trop de croire.','no','Un juste milieu sans raison : le problème reste entier.']]},
+ {p:'III',k:'stabiliser',q:'Que peut-on désormais affirmer, et que cette réponse ne règle-t-elle pas encore ?',o:[
+  ['On peut concevoir une humanité sans religion, mais non sans convictions communes. Reste : celles-ci ressemblent à une foi.','ok','La réponse est nette, et son reste est dit : c’est lui que la conclusion reprendra.'],
+  ['On peut concevoir une humanité sans religion, mais non sans convictions communes : avec cela, tout est réglé.','def','La réponse est juste, mais elle se croit complète : des convictions partagées et transmises ressemblent beaucoup à une foi. Cherchez son reste.'],
+  ['On peut se passer de religion dans certains pays, et pas dans d’autres.','no','On retombe dans le juste milieu : la réponse de la partie III est perdue.']]},
+ {p:'C',k:'question',q:'Quelle question finale naît de ce reste ?',o:[
+  ['Une humanité sans religion peut-elle tenir à ses convictions communes sans retrouver, sous un autre nom, ce qu’elle croyait avoir quitté ?','ok','C’est le reste de la réponse, devenu question : le même problème, posé plus loin.'],
+  ['Les religions finiront-elles un jour par disparaître de la surface de la Terre ?','def','Une question liée, mais qui ne part pas du reste de la réponse.'],
+  ['La religion est un sujet délicat, sur lequel chacun a son opinion.','no','Une formule vide : la conclusion transforme le reste en question.']]}
+ ]
+},
+{
+ id:'nature-besoin', sujet:'La nature a-t-elle besoin de nous ?', notion:'La nature', v:2,
+ pb:'Une nature confiée à nos soins serait-elle encore ce qui se fait sans nous, et une nature qui se passe de nous reste-t-elle un ordre, s’il n’est ordre pour personne ?',
+ annale:'la-nature-a-t-elle-besoin-de-nous',
+ etapes:[
+ {p:'I',k:'installer',q:'Quelle première réponse installer en partie I, avec sa raison ?',o:[
+  ['La nature n’a pas besoin de nous : elle existait avant l’homme et se fait toute seule.','ok','Une réponse au sujet, avec sa raison.'],
+  ['La nature est bien plus grande et plus puissante que nous, comme le montrent les tempêtes et les séismes.','def','Une impression juste, mais pas encore une raison : dites pourquoi la puissance dispenserait du besoin.'],
+  ['C’est nous qui avons besoin d’elle, et non l’inverse.','no','C’est déjà une troisième partie : vous tranchez avant d’avoir rien examiné.']]},
+ {p:'I',k:'renforcer',q:'Qu’est-ce qui rend cette réponse la plus forte possible ?',o:[
+  ['Aristote : la nature a en elle le principe de son mouvement ; avoir besoin de nous, ce serait cesser d’être nature.','ok','La réponse est poussée au plus fort : le besoin contredirait la définition même de la nature.'],
+  ['Les forêts autour de Tchernobyl ont repoussé sans aucun jardinier, dès que l’homme s’est retiré de la zone interdite.','def','Un bon exemple, mais il illustre plus qu’il ne renforce : pourquoi en irait-il toujours ainsi ?'],
+  ['Hans Jonas nous rend responsables de ce qui ne peut plus se protéger seul.','no','La référence défend la réponse contraire : gardez-la pour la partie II.']]},
+ {p:'I',k:'limite',q:'Où cette réponse cède-t-elle, si on la pousse jusqu’au bout ?',o:[
+  ['Une nature qui se passe de nous survit à nos destructions, mais l’ordre que nous admirons, nous savons le défaire.','ok','La limite vient de la réponse : la nature-puissance survit, la nature-ordre peut disparaître.'],
+  ['La nature n’est pas toujours bonne pour l’homme : elle provoque aussi des catastrophes meurtrières, des famines, des épidémies.','def','Vrai, mais cela ne touche pas la question du besoin : la limite doit venir de la réponse elle-même.'],
+  ['Les villes ont remplacé la nature dans beaucoup de régions.','no','Un constat, pas une limite.']]},
+ {p:'T1',k:'transition',q:'Quelle question, née de cette limite, fait passer à la partie II ?',o:[
+  ['La nature qui se passe de nous est une puissance ; celle que nous admirons, nous savons la défaire : que nous impose ce pouvoir ?','ok','Elle reprend la limite de la partie I et pose une question ouverte, à laquelle seule la partie II peut répondre.'],
+  ['La nature qui se passe de nous est une puissance, mais nous savons défaire son ordre : elle a donc besoin de nous.','def','Le diagnostic est juste, mais il répond déjà : la partie II est donnée avant d’être pensée. Faites-en une question.'],
+  ['Voyons maintenant le point de vue des écologistes.','no','Une annonce : elle parle du devoir, pas du problème. Rien ne dit pourquoi on change de réponse.']]},
+ {p:'II',k:'exigence',q:'Comment la partie II répond-elle d’abord à cette question ?',o:[
+  ['Il nous oblige : depuis que l’homme peut détruire des espèces et changer le climat, la nature ne se maintient plus sans nous.','ok','Elle répond exactement à la question de transition et nomme ce que la partie I ne voyait pas.'],
+  ['Il nous donne le droit d’en faire ce que nous voulons, puisque nous en sommes devenus les maîtres.','def','Une réponse, mais elle tire du pouvoir un droit au lieu d’un devoir : la partie II ne naît pas encore.'],
+  ['Rien du tout : la nature s’en remettra, comme toujours.','no','C’est revenir à la partie I au lieu d’en sortir.']]},
+ {p:'II',k:'position',q:'Quel développement montre que cette exigence est nécessaire ?',o:[
+  ['Hans Jonas : ce pouvoir nous rend responsables de ce qui ne peut plus se protéger seul, comme une espèce menacée.','ok','La référence montre ce que la partie permet de comprendre : notre puissance crée notre responsabilité.'],
+  ['Nous avons rendu la nature fragile par notre puissance, et elle a désormais besoin de nous pour se maintenir en vie.','def','C’est bien la position de la partie, mais énoncée, pas développée : montrez ce qu’elle permet de comprendre.'],
+  ['Sans l’homme, la nature serait sauvage et désordonnée.','no','Excessif, et ce n’est pas le « oui » du sujet : il dit que la nature est devenue fragile.']]},
+ {p:'II',k:'limite',q:'Où cette deuxième réponse cède-t-elle à son tour ?',o:[
+  ['Si la nature ne se maintient plus que par nos soins, il faudra tout gérer : elle deviendra un jardin, notre ouvrage.','ok','La limite vient de la réponse : la nature entièrement protégée cesse d’être nature.'],
+  ['Protéger la nature coûte très cher, et les pays n’ont pas tous les moyens de le faire correctement, surtout les plus pauvres.','def','Vrai, mais extérieur : la limite doit venir de l’idée de protection elle-même.'],
+  ['Certains ne croient pas au changement climatique.','no','Hors sujet.']]},
+ {p:'T2',k:'transition',q:'Quelle question montre ce que les deux réponses supposaient ensemble ?',o:[
+  ['Le jardin trahit l’erreur : en voulant que la nature dépende de nous, on oubliait l’autre dépendance. Dans quel sens va le besoin ?','ok','Elle découvre ce que I et II supposaient ensemble et pose une question ouverte.'],
+  ['Si elle se passe de nous et qu’elle devient pourtant fragile, la nature a-t-elle besoin de nous ou non ?','def','Elle repose la même alternative, et sa réponse tient en un mot : la partie III ne pourrait que choisir un camp.'],
+  ['Il faudra donc protéger un peu la nature, mais pas trop.','no','Une annonce de compromis : elle parle du devoir et promet de couper la poire en deux.']]},
+ {p:'III',k:'probleme',q:'Revenir au problème : qu’est-ce que chacune des deux réponses avait compris ?',o:[
+  ['De nous à elle : la partie I voulait une nature qui se fait seule, la partie II une nature protégée.','ok','Elle répond à la question de transition et nomme les deux acquis : la partie III devra garder l’un et l’autre.'],
+  ['Chacune avait raison à moitié : la partie I sur la biologie, la partie II sur la politique et l’écologie.','def','Proche, mais ces domaines déplacent le sujet : l’autonomie de la nature et notre responsabilité.'],
+  ['Dans aucun sens : la nature et l’homme n’ont rien à voir.','no','C’est jeter les deux parties : la troisième doit garder ce qu’elles ont établi.']]},
+ {p:'III',k:'operation',q:'Quelle opération permet de tenir les deux ensemble ? Plusieurs peuvent tenir : regardez ce que chacune laisse.',o:[
+  ['Inverser le rapport : c’est nous qui avons besoin d’une nature qui se fait sans nous ; la protéger, c’est d’abord la laisser faire.','ok','Elle garde l’autonomie de la nature (I) et notre responsabilité (II).'],
+  ['Distinguer deux natures : les espaces sauvages, qu’on laisse faire, et les espaces cultivés, qu’on gère entièrement.','def','Une distinction solide, mais elle laisse de côté la question du besoin : qui a besoin de qui ?'],
+  ['Il faut protéger les espèces les plus belles, et laisser faire le reste.','no','Un tri sans raison : le problème reste entier.']]},
+ {p:'III',k:'stabiliser',q:'Que peut-on désormais affirmer, et que cette réponse ne règle-t-elle pas encore ?',o:[
+  ['La nature n’a pas besoin d’être sauvée ; nous avons besoin qu’elle demeure. Reste : certains soins restent nécessaires.','ok','La réponse est nette, et son reste est dit : c’est lui que la conclusion reprendra.'],
+  ['La nature n’a pas besoin d’être sauvée ; nous avons besoin qu’elle demeure : avec cette formule, la question est entièrement réglée.','def','La réponse est juste, mais elle se croit complète : après nos destructions, la laisser faire ne suffit plus toujours. Cherchez son reste.'],
+  ['La nature a parfois besoin de nous, et parfois non.','no','On retombe dans le juste milieu : la réponse de la partie III est perdue.']]},
+ {p:'C',k:'question',q:'Quelle question finale naît de ce reste ?',o:[
+  ['Une nature que nous devons réparer pour qu’elle puisse se faire sans nous se fait-elle encore sans nous ?','ok','C’est le reste de la réponse, devenu question : le même problème, posé plus loin.'],
+  ['L’homme fait-il lui-même partie de la nature, ou s’en est-il définitivement séparé ?','def','Une vraie question, mais qui ne part pas du reste de la réponse.'],
+  ['La nature est magnifique, et nous devons tous l’aimer et la respecter.','no','Une formule vide : la conclusion transforme le reste en question.']]}
+ ]
+},
+{
+ id:'heureux-autres', sujet:'Peut-on être heureux quand les autres ne le sont pas ?', notion:'Le bonheur', v:2,
+ pb:'Un bonheur fermé au malheur des autres est-il encore un bonheur humain, et un bonheur qui l’accueille peut-il jamais exister, tant qu’il y a des malheureux ?',
+ annale:'peut-on-etre-heureux-quand-les-autres-ne-le-sont-pas',
+ etapes:[
+ {p:'I',k:'installer',q:'Quelle première réponse installer en partie I, avec sa raison ?',o:[
+  ['On peut être heureux quand les autres ne le sont pas : le bonheur dépend de nous, c’est un état intérieur.','ok','Une réponse au sujet, avec sa raison.'],
+  ['On peut être heureux quand les autres ne le sont pas, car on ne connaît jamais tout le malheur qu’il y a dans le monde.','def','Une raison, mais faible : l’ignorance n’est pas encore le bonheur. Cherchez ce qui le rend possible.'],
+  ['On peut être heureux, à condition que ce bonheur reste ouvert aux autres.','no','C’est déjà une troisième partie : vous tranchez avant d’avoir rien examiné.']]},
+ {p:'I',k:'renforcer',q:'Qu’est-ce qui rend cette réponse la plus forte possible ?',o:[
+  ['Épictète : le malheur des autres ne dépend pas de nous ; en faire dépendre mon bonheur me condamne au trouble.','ok','La réponse est poussée au plus fort : me rendre malheureux ne soulage personne.'],
+  ['Certaines personnes restent sereines dans des situations très difficiles, même pendant une guerre ou une longue maladie.','def','Un bon exemple, mais il illustre plus qu’il ne renforce : pourquoi la sérénité serait-elle légitime ?'],
+  ['Rousseau voit dans la pitié un sentiment naturel qui nous fait souffrir de voir souffrir.','no','La référence défend la réponse contraire : gardez-la pour la partie II.']]},
+ {p:'I',k:'limite',q:'Où cette réponse cède-t-elle, si on la pousse jusqu’au bout ?',o:[
+  ['Pour garder ce bonheur, il faut détourner les yeux du malheur d’autrui : il ressemble à de l’indifférence.','ok','La limite vient de la réponse : ce bonheur ne tient qu’à condition de ne plus voir.'],
+  ['Il est difficile d’être heureux quand on regarde les informations tous les soirs à la télévision ou sur son téléphone.','def','Un constat juste, mais dites pourquoi : c’est le bonheur intérieur lui-même qui exige de détourner les yeux.'],
+  ['Certaines personnes sont malheureuses par leur faute.','no','Hors sujet, et ce jugement ne montre pas la limite de la réponse.']]},
+ {p:'T1',k:'transition',q:'Quelle question, née de cette limite, fait passer à la partie II ?',o:[
+  ['Ce bonheur ne dure qu’en détournant les yeux, comme le vieux Turc de Candide : que devient-il quand la souffrance des autres franchit la clôture ?','ok','Elle reprend la limite de la partie I et pose une question ouverte, à laquelle seule la partie II peut répondre.'],
+  ['Ce bonheur ne dure qu’en détournant les yeux : il faut donc s’ouvrir au malheur des autres.','def','Le diagnostic est juste, mais il répond déjà : la partie II est donnée avant d’être pensée. Faites-en une question.'],
+  ['Voyons maintenant ce que pensent ceux qui sont touchés par le malheur des autres.','no','Une annonce : elle parle du devoir, pas du problème. Rien ne dit pourquoi on change de réponse.']]},
+ {p:'II',k:'exigence',q:'Comment la partie II répond-elle d’abord à cette question ?',o:[
+  ['Il ne peut rester entier : le bonheur humain n’est pas celui d’un être isolé, et le sort des autres fait partie du nôtre.','ok','Elle répond exactement à la question de transition et nomme ce que la partie I perdait.'],
+  ['Il disparaît pour un moment, puis revient quand on a oublié ce qu’on a vu.','def','Une réponse, mais elle garde l’oubli comme remède : la partie II ne naît pas encore.'],
+  ['Il continue tranquillement, puisque le malheur des autres ne dépend pas de nous.','no','C’est revenir à la partie I au lieu d’en sortir.']]},
+ {p:'II',k:'position',q:'Quel développement montre que cette exigence est nécessaire ?',o:[
+  ['Rousseau : la pitié est un sentiment naturel ; un bonheur insensible mutilerait ce qui fait de nous des hommes.','ok','La référence montre ce que la partie permet de comprendre : être touché par autrui est humain.'],
+  ['Le malheur des autres nous touche, et notre bonheur ne peut pas rester entier.','def','C’est bien la position de la partie, mais énoncée, pas développée : montrez ce qu’elle permet de comprendre.'],
+  ['Il est égoïste d’être heureux tant que d’autres souffrent quelque part.','no','Excessif : la partie II dit que le malheur nous touche, pas que le bonheur est une faute.']]},
+ {p:'II',k:'limite',q:'Où cette deuxième réponse cède-t-elle à son tour ?',o:[
+  ['Si le malheur d’autrui suffit à empêcher mon bonheur, personne ne sera jamais heureux : il y a toujours des malheureux.','ok','La limite vient de la réponse : le bonheur devient impossible, et ma tristesse n’aide personne.'],
+  ['Il est épuisant de penser sans cesse au malheur des autres, et cela finit par rendre malade.','def','Vrai, mais c’est un effet pratique : la limite doit venir de la réponse elle-même.'],
+  ['Certains malheurs sont plus graves que d’autres.','no','Un constat, pas une limite.']]},
+ {p:'T2',k:'transition',q:'Quelle question montre ce que les deux réponses supposaient ensemble ?',o:[
+  ['Défendu ou sacrifié, ce bonheur restait un avoir, que le malheur des autres menace : quel bonheur pourrait y résister ?','ok','Elle découvre ce que I et II supposaient ensemble, le bonheur comme un bien qu’on possède, et pose une question ouverte.'],
+  ['Si l’indifférence nous ferme et que la pitié nous accable, peut-on finalement être heureux ou non ?','def','Elle repose la même alternative, et sa réponse tient en un mot : la partie III ne pourrait que choisir un camp.'],
+  ['Nous verrons qu’il faut être heureux, mais pas trop.','no','Une annonce de compromis : elle parle du devoir et promet de couper la poire en deux.']]},
+ {p:'III',k:'probleme',q:'Revenir au problème : qu’est-ce que chacune des deux réponses avait compris ?',o:[
+  ['Une joie qui se partage : la partie I avait vu que le bonheur est intérieur, la partie II que les autres nous touchent.','ok','Elle répond à la question de transition et nomme les deux acquis : la partie III devra garder l’un et l’autre.'],
+  ['Chacune avait raison à moitié : la partie I sur la sagesse antique, la partie II sur la morale moderne.','def','Proche, mais l’histoire des idées déplace le sujet : l’intériorité du bonheur et le lien aux autres.'],
+  ['Aucun : le bonheur n’existe pas vraiment.','no','C’est jeter les deux parties : la troisième doit garder ce qu’elles ont établi.']]},
+ {p:'III',k:'operation',q:'Quelle opération permet de tenir les deux ensemble ? Plusieurs peuvent tenir : regardez ce que chacune laisse.',o:[
+  ['Transformer le concept : le bonheur humain n’est pas un abri qu’on protège, mais une joie qui grandit de ce qu’on en donne.','ok','Elle garde l’intériorité du bonheur (I) et le lien aux autres (II).'],
+  ['Distinguer les proches et les lointains : le malheur des proches nous touche de près, celui des inconnus de loin seulement.','def','Une distinction juste, mais elle ne dit pas quel bonheur reste possible : le problème est déplacé, pas traité.'],
+  ['Il faut être heureux, mais un peu moins quand les autres souffrent.','no','Un juste milieu sans raison : le problème reste entier.']]},
+ {p:'III',k:'stabiliser',q:'Que peut-on désormais affirmer, et que cette réponse ne règle-t-elle pas encore ?',o:[
+  ['Être heureux, c’est rester ouvert aux autres. Reste : le malheur de ceux qu’on ne peut pas aider.','ok','La réponse est nette, et son reste est dit : c’est lui que la conclusion reprendra.'],
+  ['Être heureux, ce n’est pas se mettre à l’abri des autres, c’est leur rester ouvert : tout est réglé.','def','La réponse est juste, mais elle se croit complète : le malheur de ceux qu’on ne peut aider demeure. Cherchez son reste.'],
+  ['On peut être heureux quand les autres ne le sont pas, selon les cas.','no','On retombe dans le juste milieu : la réponse de la partie III est perdue.']]},
+ {p:'C',k:'question',q:'Quelle question finale naît de ce reste ?',o:[
+  ['Un bonheur qui porte cette inquiétude est-il encore le bonheur, ou le bonheur humain ne sera-t-il jamais tranquille ?','ok','C’est le reste de la réponse, devenu question : le même problème, posé plus loin.'],
+  ['Faut-il aider les autres pour être heureux soi-même, ou bien les aider pour eux, sans rien attendre en retour de leur part ?','def','Une vraie question, mais qui ne part pas du reste de la réponse.'],
+  ['Le bonheur est un bien précieux que chacun recherche toute sa vie.','no','Une formule vide : la conclusion transforme le reste en question.']]}
+ ]
+},
+{
+ id:'etat-injustice', sujet:'Revient-il principalement à l’État de lutter contre l’injustice ?', notion:'L’État', v:2,
+ pb:'Confier d’abord à l’État la lutte contre l’injustice, est-ce donner à sa force le dernier mot sur le juste, et la confier d’abord à d’autres, est-ce priver la justice de force ?',
+ annale:'revient-il-principalement-a-l-etat-de-lutter-contre-l-injustice',
+ etapes:[
+ {p:'I',k:'installer',q:'Quelle première réponse installer en partie I, avec sa raison ?',o:[
+  ['Il revient principalement à l’État de lutter contre l’injustice, car lui seul a la force d’imposer la loi à tous.','ok','Une réponse au sujet, avec sa raison.'],
+  ['C’est l’État qui fait les lois, donc c’est à lui de les faire appliquer.','def','Une raison, mais circulaire : dites pourquoi lutter contre l’injustice exige l’État.'],
+  ['À l’État la force, aux citoyens le contrôle.','no','C’est déjà une troisième partie : vous tranchez avant d’avoir rien examiné.']]},
+ {p:'I',k:'renforcer',q:'Qu’est-ce qui rend cette réponse la plus forte possible ?',o:[
+  ['Hobbes : sans un pouvoir commun, il n’y a ni loi ni justice, seulement la guerre de chacun contre chacun.','ok','La réponse est poussée au plus fort : l’État n’est pas un acteur parmi d’autres, il rend la justice possible.'],
+  ['L’État punit les crimes, protège les plus faibles, corrige les inégalités par l’impôt et par les aides sociales.','def','Un bon exemple, mais il illustre plus qu’il ne renforce : pourquoi lui seul le pourrait-il ?'],
+  ['Thoreau refuse de payer l’impôt à un gouvernement qui soutient l’esclavage.','no','Il défend la réponse contraire : gardez-le pour la partie II.']]},
+ {p:'I',k:'limite',q:'Où cette réponse cède-t-elle, si on la pousse jusqu’au bout ?',o:[
+  ['Si l’État rend seul la justice possible, il en devient le seul juge : il peut faire de l’injustice une loi.','ok','La limite vient de la réponse : la force qui a le dernier mot peut se tromper sur le juste.'],
+  ['L’État coûte cher, et ses administrations sont souvent lentes et compliquées pour les citoyens.','def','Vrai, mais extérieur : la limite doit venir de la force de l’État elle-même.'],
+  ['Certains pays n’ont pas d’État solide.','no','Un constat, pas une limite de la réponse.']]},
+ {p:'T1',k:'transition',q:'Quelle question, née de cette limite, fait passer à la partie II ?',o:[
+  ['Quand la ségrégation fut loi en Alabama, qui restait-il, au-dessus de l’État, pour juger cette loi ?','ok','Elle reprend la limite de la partie I et pose une question ouverte, à laquelle seule la partie II peut répondre.'],
+  ['Quand la ségrégation fut loi en Alabama, ce sont les citoyens qui ont dû juger cette loi injuste, à la place de l’État.','def','Le diagnostic est juste, mais il répond déjà : la partie II est donnée avant d’être pensée. Faites-en une question.'],
+  ['Voyons maintenant le rôle des citoyens dans la lutte contre l’injustice.','no','Une annonce : elle parle du devoir, pas du problème. Rien ne dit pourquoi on change de réponse.']]},
+ {p:'II',k:'exigence',q:'Comment la partie II répond-elle d’abord à cette question ?',o:[
+  ['Les citoyens : la justice ne se réduit pas à la loi, et c’est en jugeant les lois qu’on les fait progresser.','ok','Elle répond exactement à la question de transition et nomme ce que la partie I perdait.'],
+  ['Les juges, qui sont indépendants et peuvent condamner l’État lui-même quand il viole ses propres lois ou ses engagements.','def','Une bonne piste, mais les juges appliquent les lois : qui juge une loi injuste ?'],
+  ['Personne : l’État a toujours le dernier mot.','no','C’est revenir à la partie I au lieu d’en sortir.']]},
+ {p:'II',k:'position',q:'Quel développement montre que cette exigence est nécessaire ?',o:[
+  ['Antigone, Thoreau, Rosa Parks : chacun oppose à la loi un jugement sur la loi, et la contraint parfois à changer.','ok','La partie montre ce qu’elle permet de comprendre : le jugement des citoyens corrige l’État.'],
+  ['La lutte contre l’injustice revient d’abord aux citoyens, car eux seuls peuvent juger les lois.','def','C’est bien la position de la partie, mais énoncée, pas développée : montrez ce qu’elle permet de comprendre.'],
+  ['L’État est toujours injuste, et seuls les citoyens sont justes.','no','Excessif : la partie II dit que les citoyens jugent les lois, pas que l’État a toujours tort.']]},
+ {p:'II',k:'limite',q:'Où cette deuxième réponse cède-t-elle à son tour ?',o:[
+  ['Si chacun rend justice selon sa conscience, il y a autant de justices que de consciences, et parfois la vengeance.','ok','La limite vient de la réponse : sans la force de la loi, la justice devient inégale.'],
+  ['Les citoyens n’ont pas toujours le temps de s’engager, entre leur travail et leur famille.','def','Vrai, mais extérieur : la limite doit venir du jugement des citoyens lui-même.'],
+  ['Les manifestations peuvent gêner la circulation.','no','Hors sujet.']]},
+ {p:'T2',k:'transition',q:'Quelle question montre ce que les deux réponses supposaient ensemble ?',o:[
+  ['Seul, l’État fait de l’injustice une loi ; seuls, les citoyens en font une vengeance : à qui revient donc la lutte ?','ok','Elle découvre ce que I et II supposaient ensemble, une tâche à confier à un seul, et pose une question ouverte.'],
+  ['Si l’État peut être injuste et que les citoyens se vengent, faut-il finalement confier toute la lutte à l’État seul ?','def','Elle repose la même alternative, et sa réponse tient en un mot : la partie III ne pourrait que choisir un camp.'],
+  ['Il faudra donc partager la lutte à parts égales entre l’État et les citoyens.','no','Une annonce de compromis : elle parle du devoir et promet de couper la poire en deux.']]},
+ {p:'III',k:'probleme',q:'Revenir au problème : qu’est-ce que chacune des deux réponses avait compris ?',o:[
+  ['Aux deux, mais pas pour la même tâche : la partie I a montré qu’il faut la force, la partie II le jugement.','ok','Elle répond à la question de transition et nomme les deux acquis : la partie III devra garder l’un et l’autre.'],
+  ['Chacune avait raison à moitié : la partie I sur l’ordre public, la partie II sur la liberté de chacun de protester.','def','Proche, mais l’ordre et la liberté déplacent le sujet : la force et le jugement.'],
+  ['À personne : l’injustice fait partie du monde.','no','C’est jeter les deux parties : la troisième doit garder ce qu’elles ont établi.']]},
+ {p:'III',k:'operation',q:'Quelle opération permet de tenir les deux ensemble ? Plusieurs peuvent tenir : regardez ce que chacune laisse.',o:[
+  ['Distinguer deux plans : à l’État l’action, qui exige la force ; aux citoyens le jugement, car celui qui a la force ne peut en être le seul juge.','ok','Elle garde la force de l’État (I) et le jugement des citoyens (II).'],
+  ['Penser dans le temps : d’abord les citoyens dénoncent l’injustice, ensuite l’État la corrige par la loi.','def','Elle sauve les deux, mais l’État reste seul juge une fois la loi faite.'],
+  ['Il faut un État ni trop fort ni trop faible.','no','Un juste milieu sans raison : le problème reste entier.']]},
+ {p:'III',k:'stabiliser',q:'Que peut-on désormais affirmer, et que cette réponse ne règle-t-elle pas encore ?',o:[
+  ['L’État a la charge de la justice ; les citoyens en ont la garde. Reste : un État qu’on ne peut plus corriger.','ok','La réponse est nette, et son reste est dit : c’est lui que la conclusion reprendra.'],
+  ['L’État a la charge de la justice ; les citoyens en ont la garde : avec ce partage, toute la difficulté est réglée.','def','La réponse est juste, mais elle se croit complète : ce partage suppose un État que les citoyens peuvent encore corriger. Cherchez son reste.'],
+  ['C’est parfois à l’État de lutter, et parfois aux citoyens.','no','On retombe dans le juste milieu : la réponse de la partie III est perdue.']]},
+ {p:'C',k:'question',q:'Quelle question finale naît de ce reste ?',o:[
+  ['Quand l’État devient lui-même l’injustice et ne se laisse plus corriger, à qui revient la lutte, et avec quelle force ?','ok','C’est le reste de la réponse, devenu question : le même problème, posé plus loin.'],
+  ['Une société parfaitement juste est-elle possible, ou n’est-elle qu’un rêve ?','def','Une vraie question, mais qui ne part pas du reste de la réponse.'],
+  ['La justice est l’affaire de tous, et chacun doit y contribuer.','no','Une formule vide : la conclusion transforme le reste en question.']]}
+ ]
 }
 ],
 niveau2: [
