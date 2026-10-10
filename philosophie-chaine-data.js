@@ -38,9 +38,9 @@ niveau1: [
    ['Comment pourrait-on être juste en obéissant à des lois injustes ?','no','La question a déjà répondu : elle suppose qu’obéir ne suffit pas. Une problématique laisse les deux réponses ouvertes.'],
    ['Qu’est-ce que la justice, qu’est-ce que la loi, et faut-il leur obéir ?','no','Trois questions à la suite, et aucune ne met les deux pertes face à face.']]},
   {b:'pb',p:'pc',q:'Laquelle dit le même problème plus court, sans rien perdre ?',o:[
-   ['Comment être juste, si obéir sans juger peut servir l’injustice et juger sans obéir défait la règle commune ?','ok','Plus courte, et l’on y retrouve encore les deux réponses et ce que chacune perd.'],
-   ['Pour être juste, vaut-il mieux obéir aux lois de son pays ou suivre sa propre conscience ?','def','On garde l’alternative, mais on a perdu ce que chaque réponse risque ; le problème devient un simple choix.'],
-   ['Comment une règle faite pour nous protéger peut-elle devenir, en certains cas, ce qui nous opprime ?','no','Trop générale. Remplacez le mot du sujet par un autre : la question marche encore, elle ne parle plus de ce sujet.'],
+   ['Suffit-il d’obéir pour être juste, si obéir sans juger sert l’injustice, et juger sans obéir défait la règle ?','ok','Plus courte, et l’on y retrouve encore les deux réponses et ce que chacune perd.'],
+   ['Pour être juste, vaut-il mieux obéir aux lois de son pays, ou suivre d’abord sa propre conscience ?','def','On garde l’alternative, mais on a perdu ce que chaque réponse risque ; le problème devient un simple choix.'],
+   ['Comment une règle faite pour nous protéger peut-elle devenir, dans certains cas précis, ce qui nous opprime ?','no','Trop générale. Remplacez le mot du sujet par un autre : la question marche encore, elle ne parle plus de ce sujet.'],
    ['Comment concilier l’obéissance due aux lois et le jugement que chacun doit porter sur elles ?','no','« Concilier » donne déjà la réponse. La problématique doit laisser les deux réponses ouvertes.']]}
  ]},
 {
@@ -77,10 +77,10 @@ niveau1: [
    ['Le bonheur est-il dans l’insouciance ou dans la lucidité ?','def','Défendable, mais incomplet : on voit les deux réponses, pas ce que chacune perd. Il manque les deux « au risque de ».'],
    ['Comment être heureux si l’on voit tout ce qui nous menace ?','no','La question a déjà répondu : elle suppose qu’il faut être inconscient.']]},
   {b:'pb',p:'pc',q:'Laquelle dit le même problème plus court, sans rien perdre ?',o:[
-   ['Comment être heureux, si l’ignorance qui apaise empêche de se savoir heureux, et si la lucidité inquiète ?','ok','Plus courte, et l’on y retrouve encore les deux réponses et ce que chacune perd.'],
-   ['Pour être heureux, vaut-il mieux tout savoir de sa vie, ou ignorer ce qui pourrait nous inquiéter ?','def','On garde l’alternative, mais on a perdu ce que chaque réponse risque ; le problème devient un simple choix.'],
+   ['Faut-il ignorer pour être heureux, si l’ignorance empêche de se savoir heureux, et la lucidité inquiète ?','ok','Plus courte, et l’on y retrouve encore les deux réponses et ce que chacune perd.'],
+   ['Pour être heureux, vaut-il mieux tout savoir de sa propre vie, ou ignorer ce qui pourrait nous inquiéter ?','def','On garde l’alternative, mais on a perdu ce que chaque réponse risque ; le problème devient un simple choix.'],
    ['Comment ce qui nous protège d’une peine peut-il nous priver, en retour, d’un bien plus précieux ?','no','Trop générale. Remplacez le mot du sujet par un autre : la question marche encore, elle ne parle plus de ce sujet.'],
-   ['Comment concilier le repos de l’insouciance et la lucidité sans laquelle on ne se sait pas heureux ?','no','« Concilier » donne déjà la réponse. La problématique doit laisser les deux réponses ouvertes.']]}
+   ['Comment concilier le repos de l’insouciance et la lucidité sans laquelle on ne se sait jamais heureux ?','no','« Concilier » donne déjà la réponse. La problématique doit laisser les deux réponses ouvertes.']]}
  ]},
 {
  id:'certain-bien-agi', sujet:'Peut-on être certain d’avoir bien agi ?', notion:'Le devoir',
@@ -116,8 +116,8 @@ niveau1: [
    ['Peut-on être certain d’avoir bien agi, ou ne le peut-on pas ?','no','C’est le sujet redit deux fois : aucune perte n’apparaît.'],
    ['Comment être certain d’avoir bien agi, puisque les effets nous échappent ?','no','La question a déjà répondu : elle suppose qu’on ne peut pas.']]},
   {b:'pb',p:'pc',q:'Laquelle dit le même problème plus court, sans rien perdre ?',o:[
-   ['Comment être certain d’avoir bien agi, si l’intention ignore les effets, et si les effets dépendent du hasard ?','ok','Plus courte, et l’on y retrouve encore les deux réponses et ce que chacune perd.'],
-   ['Pour juger une action, faut-il regarder l’intention de celui qui agit, ou les conséquences de son acte ?','def','On garde l’alternative, mais on a perdu ce que chaque réponse risque ; le problème devient un simple choix.'],
+   ['Peut-on être certain d’avoir bien agi, si l’intention ignore les effets, et si les effets tiennent au hasard ?','ok','Plus courte, et l’on y retrouve encore les deux réponses et ce que chacune perd.'],
+   ['Pour juger une action, faut-il regarder l’intention de celui qui agit, ou bien les conséquences réelles de son acte ?','def','On garde l’alternative, mais on a perdu ce que chaque réponse risque ; le problème devient un simple choix.'],
    ['Comment pourrions-nous être certains de quoi que ce soit, si toute connaissance humaine reste limitée ?','no','Trop générale. Remplacez le mot du sujet par un autre : la question marche encore, elle ne parle plus de ce sujet.'],
    ['Comment concilier la pureté de l’intention et l’attention aux effets, pour être sûr d’avoir bien agi ?','no','« Concilier » donne déjà la réponse. La problématique doit laisser les deux réponses ouvertes.']]}
  ]},
@@ -155,7 +155,7 @@ niveau1: [
    ['Comment la science pourrait-elle chercher le vrai si elle doit être utile ?','no','La question a déjà répondu : elle oppose d’avance le vrai et l’utile.'],
    ['La science est-elle bonne ou mauvaise pour l’homme ?','no','Une question trop large, qui irait à n’importe quel sujet sur la science.']]},
   {b:'pb',p:'pc',q:'Laquelle dit le même problème plus court, sans rien perdre ?',o:[
-   ['Si la science ne connaît qu’en agissant, peut-elle chercher le vrai pour lui-même sans devenir un pouvoir ?','ok','Plus courte, et l’on y retrouve encore les deux réponses et ce que chacune perd.'],
+   ['La science doit-elle servir, si servir lui fait perdre le vrai, et si le vrai seul oublie qu’elle agit ?','ok','Plus courte, et l’on y retrouve encore les deux réponses et ce que chacune perd.'],
    ['La science doit-elle chercher la vérité pure, ou produire des techniques utiles à toute la société ?','def','On garde l’alternative, mais on a perdu ce que chaque réponse risque ; le problème devient un simple choix.'],
    ['Comment une activité désintéressée peut-elle produire, malgré elle, des effets qui la dépassent tout à fait ?','no','Trop générale. Remplacez le mot du sujet par un autre : la question marche encore, elle ne parle plus de ce sujet.'],
    ['Comment concilier la recherche désintéressée du vrai et les applications utiles qu’on attend de la science ?','no','« Concilier » donne déjà la réponse. La problématique doit laisser les deux réponses ouvertes.']]}
@@ -194,7 +194,7 @@ niveau1: [
    ['L’artiste sait-il ou ne sait-il pas ce qu’il fait ?','no','C’est le sujet redit : aucune perte n’apparaît.'],
    ['Comment l’artiste pourrait-il savoir ce qu’il fait, puisque l’inspiration le dépasse ?','no','La question a déjà répondu : elle suppose qu’il ne le sait pas.']]},
   {b:'pb',p:'pc',q:'Laquelle dit le même problème plus court, sans rien perdre ?',o:[
-   ['Comment l’artiste peut-il être l’auteur de ce qu’il invente, si savoir d’avance l’empêche d’inventer ?','ok','Plus courte, et l’on y retrouve encore les deux réponses et ce que chacune perd.'],
+   ['L’artiste peut-il savoir ce qu’il fait sans cesser d’inventer ce qu’il ne savait pas encore ?','ok','Plus courte, et l’on y retrouve encore les deux réponses et ce que chacune perd.'],
    ['L’artiste crée-t-il grâce au savoir-faire de son métier, ou grâce à une inspiration qui le dépasse ?','def','On garde l’alternative, mais on a perdu ce que chaque réponse risque ; le problème devient un simple choix.'],
    ['Comment peut-on faire quelque chose de vraiment nouveau avec des moyens que l’on connaît déjà bien ?','no','Trop générale. Remplacez le mot du sujet par un autre : la question marche encore, elle ne parle plus de ce sujet.'],
    ['Comment concilier la maîtrise technique de l’artiste et la part d’inspiration qui lui échappe toujours ?','no','« Concilier » donne déjà la réponse. La problématique doit laisser les deux réponses ouvertes.']]}
@@ -225,7 +225,7 @@ niveau2: [
    ['La maîtrise des mots.','no','Le non la garde, au contraire.'],
    ['Les langues étrangères.','no','Le sujet ne parle pas des langues étrangères.']]},
   {b:'pb',p:'pb',w:1,q:'Écrivez la question qui met ces deux pertes face à face, sur le modèle : « … suppose-t-il…, et … suppose-t-il… ? »',m:'Nous dire prisonniers du langage suppose-t-il un point de vue hors de lui, et nous en dire libres, une pensée sans mots qui ne pourrait rien penser ?'},
-  {b:'pb',p:'pc',w:1,q:'À vous : dites votre problématique plus court, en une seule question, sans perdre l’une des deux réponses ni ce que chacune perd.',m:'Si l’on ne pense rien sans les mots, d’où pourrait-on voir que les mots nous enferment ?'}
+  {b:'pb',p:'pc',w:1,q:'À vous : dites votre problématique plus court, en une seule question, sans perdre l’une des deux réponses ni ce que chacune perd.',m:'Pouvons-nous voir les limites du langage sans cesser de penser par lui ?'}
  ]}
 ],
 niveau3: [
