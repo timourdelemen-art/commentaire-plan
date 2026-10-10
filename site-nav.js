@@ -204,7 +204,7 @@ document.addEventListener('DOMContentLoaded',()=> {
   }
 
   /* Dictée : seulement si le navigateur sait transcrire la voix, et jamais en mode examen. */
-  if((window.SpeechRecognition||window.webkitSpeechRecognition) && !/mode-examen/.test(location.pathname)){
+  if((window.SpeechRecognition||window.webkitSpeechRecognition) && !/mode-examen|bac-oral/.test(location.pathname)){
     const d=document.createElement('script'); d.src='/dictee.js'; d.async=true; document.body.appendChild(d);
   }
 
