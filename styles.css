@@ -2486,3 +2486,81 @@ div.qcm-options>p{border:0!important;background:none!important;box-shadow:none!i
 .model-commentary.c20c-on > p{display:none}
 .model-commentary .c20c-view .c20-t{overflow-wrap:anywhere}
 @media(max-width:700px){.model-commentary .c20c-view .c20-t{font-size:17px}.model-commentary .c20c-view .c20-s{padding:9px 0}}
+/* === Commentaires courts à 20 : « Repérer les éléments du plan » (commentaire-reperer.js) et Petit manuel v6 (manuel-procedes.html) === */
+.rep-section .rep-legende{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:6px 22px;margin:14px 0}
+.rep-section .rep-legende div{display:block;padding:6px 0;border-top:1px dotted #bdb3a5}
+.rep-section .rep-legende dt{display:inline;font:700 13px 'American Typewriter','Courier New',monospace;letter-spacing:.05em;text-transform:uppercase;color:var(--red)}
+.rep-section .rep-legende dt::after{content:" : "}
+.rep-section .rep-legende dd{display:inline;margin:0;font-size:16px;line-height:1.45}
+.rep-section .rep-zone{margin:18px 0}
+.rep-section .rep-toggle{border-color:var(--red);color:var(--red)}
+.rep-view{margin-top:16px;background:#fffdf8;border-left:4px solid var(--red);padding:18px 22px}
+.rep-view .rep-chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 16px;padding-bottom:14px;border-bottom:1px dotted #bdb3a5}
+.rep-view .rep-chip{font:13px 'American Typewriter','Courier New',monospace;padding:5px 9px;border:1px solid #6b645b;color:#1d1b18;cursor:pointer;line-height:1.3}
+.rep-view .rep-chip[aria-pressed="false"]{opacity:.45;text-decoration:line-through}
+.rep-view .rep-tout{background:#fff}
+.rep-view .rep-p{display:grid;grid-template-columns:8.5em minmax(0,1fr);gap:14px;padding:8px 0}
+.rep-view .rep-p p{margin:0;font-size:18px;line-height:2.15;overflow-wrap:anywhere}
+.rep-view .rep-p-tr p{font-weight:700}
+.rep-view .rep-marge{font:700 12px/2.6 'American Typewriter','Courier New',monospace;letter-spacing:.08em;color:var(--red);text-align:right;border-right:1px solid #cfc5b6;padding-right:10px}
+.rep-view [data-k]{-webkit-box-decoration-break:clone;box-decoration-break:clone;padding:1px 2px;color:#111}
+.rep-view [data-k]::before{font:700 9px/1 'Courier New',monospace;letter-spacing:.04em;vertical-align:super;padding:1px 2px;margin-right:2px;border:1px solid currentColor;background:#fff;color:#111;text-decoration:none;display:inline-block}
+.rep-view .rep-chip[data-k]::before{vertical-align:middle;margin-right:6px}
+.rep-view [data-k="rep"]{background:#fef08a;border-bottom:3px solid #a16207}
+.rep-view [data-k="rep"]::before{content:"RÉP"}
+.rep-view [data-k="nec"]{background:#e9d5ff;border-bottom:2px dashed #7e22ce}
+.rep-view [data-k="nec"]::before{content:"NÉC"}
+.rep-view [data-k="tr"]{background:#c7d2fe;outline:2px solid #4338ca;outline-offset:1px}
+.rep-view [data-k="tr"]::before{content:"TR"}
+.rep-view [data-k="rea"]{background:#bbf7d0;border-bottom:2px solid #15803d}
+.rep-view [data-k="rea"]::before{content:"RÉA"}
+.rep-view [data-k="el"]{background:#bae6fd;border-bottom:2px dotted #0369a1}
+.rep-view [data-k="el"]::before{content:"ÉL"}
+.rep-view [data-k="pro"]{background:#fbcfe8;border-bottom:3px double #be185d}
+.rep-view [data-k="pro"]::before{content:"PR"}
+.rep-view [data-k="eff"]{background:#fed7aa;text-decoration:underline wavy #c2410c;text-underline-offset:4px}
+.rep-view [data-k="eff"]::before{content:"EF"}
+.rep-view a.rep-manuel{text-decoration-line:underline;text-decoration-color:#be185d;text-decoration-thickness:2px}
+.rep-view a.rep-manuel::after,.c20c-view a.rep-manuel::after{content:"↗";font-size:.7em;margin-left:1px}
+.c20c-view a.rep-manuel{color:inherit;text-decoration:underline;text-decoration-color:var(--red)}
+.rep-view.rep-off-rep .rep-p [data-k="rep"],.rep-view.rep-off-nec .rep-p [data-k="nec"],.rep-view.rep-off-tr .rep-p [data-k="tr"],.rep-view.rep-off-rea .rep-p [data-k="rea"],.rep-view.rep-off-el .rep-p [data-k="el"],.rep-view.rep-off-pro .rep-p [data-k="pro"],.rep-view.rep-off-eff .rep-p [data-k="eff"]{background:none;border-bottom:0;outline:0;text-decoration:none}
+.rep-view.rep-off-rep .rep-p [data-k="rep"]::before,.rep-view.rep-off-nec .rep-p [data-k="nec"]::before,.rep-view.rep-off-tr .rep-p [data-k="tr"]::before,.rep-view.rep-off-rea .rep-p [data-k="rea"]::before,.rep-view.rep-off-el .rep-p [data-k="el"]::before,.rep-view.rep-off-pro .rep-p [data-k="pro"]::before,.rep-view.rep-off-eff .rep-p [data-k="eff"]::before{content:none}
+.rep-view.rep-off-pro .rep-p a.rep-manuel{text-decoration-color:#bdb3a5}
+.rep-maxime{margin:26px 0 4px;padding:18px 22px;border:1px solid #cfc5b6;background:#fffdf8}
+.rep-maxime .rep-maxime-tete{font-weight:700;margin:0 0 12px}
+.rep-maxime blockquote{margin:0 0 14px;padding-left:16px;border-left:3px solid var(--red);font-size:19px;line-height:1.5}
+.rep-maxime blockquote p{margin:0}
+.rep-maxime blockquote footer{font-size:14px;color:var(--muted);margin-top:6px}
+.rep-maxime dl{margin:0}
+.rep-maxime dl div{padding:6px 0;border-top:1px dotted #bdb3a5}
+.rep-maxime dt{display:inline;font:700 12px 'American Typewriter','Courier New',monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--red)}
+.rep-maxime dt::after{content:" — "}
+.rep-maxime dd{display:inline;margin:0;font-size:16px;line-height:1.5}
+.rep-maxime a{color:inherit;text-decoration-color:var(--red)}
+.model-commentary span[id^="c20-"]{scroll-margin-top:90px}
+.model-commentary span[id^="c20-"]:target{background:#fef08a;outline:2px solid #a16207;outline-offset:2px}
+.hialmar-poeme p{line-height:1.6}
+.hialmar-poeme .vn{display:inline-block;width:2.2em;font:12px 'American Typewriter','Courier New',monospace;color:var(--muted)}
+.manuel-v6 .mv6-nav a{padding:20px 18px;border-top:1px solid var(--rule);border-right:1px solid var(--rule);font:14px 'American Typewriter','Courier New',monospace;color:inherit;text-decoration:none}
+.manuel-v6 .mv6-nav a:hover,.manuel-v6 .mv6-nav a:focus-visible{background:#f3eee5;color:var(--red)}
+.manuel-v6 .mv6-nav b{color:var(--red);margin-right:4px}
+.manuel-v6 .mv6-usage{padding:30px 18px;border-bottom:1px solid var(--rule);max-width:980px}
+.manuel-v6 .mv6-usage p{font-size:17px;line-height:1.5;margin:8px 0}
+.manuel-v6 .mv6-family,.manuel-v6 .mv6-sub,.manuel-v6 .procedure-card-grid article{scroll-margin-top:20px}
+.manuel-v6 .mv6-sub{font-size:26px;font-weight:400;margin:40px 0 6px}
+.manuel-v6 .mv6-lead{font-size:17px;line-height:1.5;max-width:900px;margin:6px 0}
+.manuel-v6 .procedure-card-grid article{min-height:0}
+.manuel-v6 .procedure-card-grid article:target{outline:3px solid var(--red);outline-offset:2px;background:#fff8dc}
+.manuel-v6 .mv6-row+.mv6-row{border-top:1px dotted #bdb3a5;margin-top:10px;padding-top:6px}
+.manuel-v6 .mv6-renvoi a,.manuel-v6 .mv6-voir a,.manuel-v6 .mv6-notes a{color:var(--red)}
+.manuel-v6 .procedure-card-grid .mv6-voir{margin-top:12px;font:13px 'American Typewriter','Courier New',monospace}
+.manuel-v6 .mv6-notes{margin:18px 0 0;padding:14px 18px;border-left:3px solid var(--red);background:#fbf8f1;max-width:980px}
+.manuel-v6 .mv6-notes p{font-size:16px;line-height:1.5;margin:6px 0}
+@media(max-width:700px){
+  .rep-view{padding:14px 12px}
+  .rep-view .rep-p{grid-template-columns:1fr;gap:2px}
+  .rep-view .rep-marge{text-align:left;border-right:0;line-height:1.6}
+  .rep-view .rep-marge:empty{display:none}
+  .rep-view .rep-p p{font-size:17px;line-height:2.1}
+  .manuel-v6 .mv6-sub{font-size:22px}
+}
