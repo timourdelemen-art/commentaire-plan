@@ -1,5 +1,5 @@
 [build]
-  command = "node scripts/build-hlp.js && node scripts/build-philo-annales.js && node scripts/build-philo-notions.js && node scripts/build-philo-boussole.js && node scripts/build-capture.js && node scripts/build-typo.js && node scripts/seo-build.js && node scripts/check-philo-parcours.js && node scripts/check-global-pages.js && node scripts/seo-audit.js && node scripts/performance-budget.js && node scripts/clean-publish.js"
+  command = "node scripts/build-hlp.js && node scripts/build-philo-annales.js && node scripts/build-philo-notions.js && node scripts/build-philo-boussole.js && node scripts/build-bac-annales.js && node scripts/build-capture.js && node scripts/build-typo.js && node scripts/seo-build.js && node scripts/check-philo-parcours.js && node scripts/check-global-pages.js && node scripts/seo-audit.js && node scripts/performance-budget.js && node scripts/clean-publish.js"
   publish = "."
 
 [build.environment]

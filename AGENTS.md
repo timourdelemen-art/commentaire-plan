@@ -59,6 +59,7 @@ Plusieurs pages sont **générées** au déploiement (commande de `netlify.toml`
 | `philosophie-notion-*.html`, `philosophie-notions.html` | `philosophie-notions-data.js` | `scripts/build-philo-notions.js` |
 | Copies à 20 (dans les pages ci-dessus et `philosophie-copie-20-*.html`) | `scripts/copies20-data.json` | `scripts/philo-copie20.js` |
 | `philosophie-laboratoire.html` et boussoles des exercices philo | `scripts/philo-exercices.js` | `scripts/build-philo-boussole.js` |
+| Bloc « Ce sujet, étape par étape » des annales du bac (`bac-20*-general-*.html`) | `annales/catalogue-annales.js` | `scripts/build-bac-annales.js` |
 | Formulaire « nouveautés » en bas des pages | règles dans le script | `scripts/build-capture.js` |
 | En-têtes, pieds de page, fil d’Ariane, `sitemap.xml` | `scripts/seo-build.js` | `scripts/seo-build.js` |
 | Banque d’exemples `philosophie-exemples-data.js` | `scripts/exemples/exemples_src.py` | `scripts/exemples/build_exemples.py` (vérifie les citations) |
