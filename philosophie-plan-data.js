@@ -5,41 +5,57 @@
 window.PHILO_PLAN = {
 niveau1: [
 {
- id:'justice-lois', sujet:'Pour être juste, suffit-il d’obéir aux lois ?', notion:'La justice',
+ id:'justice-lois', sujet:'Pour être juste, suffit-il d’obéir aux lois ?', notion:'La justice', v:2,
  pb:'Être juste, est-ce respecter la loi commune, au risque d’obéir à des lois injustes, ou juger les lois, au risque de ruiner la règle commune ?',
  etapes:[
- {p:'I',k:'reponse',q:'Quelle première réponse défendre en partie I ?',o:[
-  ['Obéir aux lois suffit : la loi est la même pour tous et empêche chacun de décider seul du juste.','ok','Une réponse au sujet, avec sa raison : c’est un vrai point de départ.'],
+ {p:'I',k:'installer',q:'Quelle première réponse installer en partie I, avec sa raison ?',o:[
+  ['Obéir aux lois suffit : la loi, la même pour tous, empêche chacun de décider seul du juste.','ok','Une réponse au sujet, avec sa raison : c’est un vrai point de départ.'],
   ['Les lois sont utiles, car sans elles la société serait livrée au désordre et à la violence.','def','Vrai, mais cela parle de l’ordre, pas encore de la justice : rapprochez-vous du sujet.'],
   ['Il faut obéir aux lois justes et désobéir aux lois injustes, selon les situations.','no','C’est déjà une troisième partie : vous tranchez avant d’avoir rien examiné.']]},
- {p:'I',k:'exemple',q:'Quel exemple porte le mieux cette réponse ?',o:[
-  ['Le juge applique la même loi au riche et au pauvre : personne ne fait sa propre justice.','ok','L’exemple montre la raison même de la partie : la règle commune protège de l’arbitraire.'],
-  ['On s’arrête au feu rouge même quand la rue est vide, parce que c’est la loi.','def','C’est de l’obéissance, mais pas encore de la justice : l’exemple montre l’ordre plus que l’égalité.'],
+ {p:'I',k:'renforcer',q:'Qu’est-ce qui rend cette réponse la plus forte possible ?',o:[
+  ['Socrate, condamné à tort, refuse de s’évader : il ne veut pas détruire les lois de la cité.','ok','La réponse est poussée au plus fort : elle tient même quand la loi frappe injustement celui qui obéit.'],
+  ['Le juge applique la même loi au riche et au pauvre : personne ne fait sa propre justice.','def','Un bon exemple de la raison de la partie, mais il illustre plus qu’il ne renforce : la réponse tient-elle encore quand la loi est dure ?'],
   ['Antigone désobéit à Créon pour enterrer son frère, au nom d’une loi plus haute.','no','Cet exemple défend la réponse contraire : gardez-le pour la partie II.']]},
  {p:'I',k:'limite',q:'Où cette réponse cède-t-elle, si on la pousse jusqu’au bout ?',o:[
   ['Une loi peut ordonner l’injuste : obéir sans exception, c’est alors devenir complice.','ok','La limite vient de la réponse elle-même : l’obéissance sans exception finit par servir l’injustice.'],
-  ['Les lois changent d’un pays à l’autre, donc elles ne sont pas toujours justes.','def','Bonne piste, mais la variété des lois ne prouve pas qu’obéir rende injuste. Allez jusqu’au cas où obéir fait le mal.'],
+  ['Les lois changent d’un pays à l’autre et d’une époque à l’autre : elles ne sont donc pas toujours justes.','def','Bonne piste, mais la variété des lois ne prouve pas qu’obéir rende injuste. Allez jusqu’au cas où obéir fait le mal.'],
   ['Beaucoup de gens ne respectent pas les lois, et ne sont pas punis pour autant.','no','Un fait, pas une limite de la réponse : que d’autres désobéissent ne dit rien de celui qui obéit.']]},
- {p:'II',k:'transition',q:'Quelle transition fait naître la partie II de cette limite ?',o:[
-  ['Mais si la loi peut ordonner l’injuste, il faut une justice au-dessus des lois pour les juger.','ok','Elle part de la limite et en tire une exigence nouvelle : la partie II naît de la partie I.'],
-  ['Après avoir étudié l’obéissance aux lois, nous allons étudier la désobéissance.','no','Une annonce : rien ne dit pourquoi on passe de l’une à l’autre.'],
-  ['Toutefois, il existe des cas où il faut désobéir, comme le montre l’histoire.','def','Le passage va dans le bon sens, mais il affirme sans dire pourquoi : reprenez la limite (la loi injuste).']]},
- {p:'II',k:'reponse',q:'Quelle réponse défendre en partie II ?',o:[
-  ['Il ne suffit pas d’obéir : être juste, c’est juger les lois au nom de ce qui est juste.','ok','La réponse contraire, qui garde ce que la partie I perdait : le jugement.'],
-  ['Il faut suivre sa conscience plutôt que la loi, quoi qu’il en coûte à chacun.','def','Proche, mais « suivre sa conscience » ne dit pas au nom de quoi on juge une loi.'],
-  ['Les lois sont toujours injustes, car elles sont faites par les plus puissants.','no','Excessif, et ce n’est pas le « non » du sujet : il dit qu’obéir ne suffit pas, pas que toute loi est injuste.']]},
+ {p:'T1',k:'transition',q:'Quelle question, née de cette limite, fait passer à la partie II ?',o:[
+  ['Mais si la loi peut ordonner l’injuste, au nom de quoi pourra-t-on la juger ?','ok','Elle reprend la limite de la partie I et pose la question à laquelle seule la partie II peut répondre.'],
+  ['Mais si la loi peut ordonner l’injuste, il faut une justice au-dessus des lois pour les juger.','def','Le diagnostic est juste, mais il répond déjà : la partie II est donnée avant d’être pensée. Faites-en une question.'],
+  ['Après avoir étudié l’obéissance aux lois, nous allons étudier la désobéissance.','no','Une annonce : elle parle du devoir, pas du problème. Rien ne dit pourquoi on passe de l’une à l’autre.']]},
+ {p:'II',k:'exigence',q:'Comment la partie II répond-elle d’abord à cette question ?',o:[
+  ['Au nom d’une justice que la loi ne crée pas, et que la première réponse ne pouvait préserver.','ok','Elle répond exactement à la question de transition et nomme ce que la partie I perdait.'],
+  ['Au nom de la conscience de chacun, qui sait toujours, au fond d’elle-même, ce qui est juste.','def','Elle répond à la question, mais « toujours » va trop vite : c’est ce que la partie II devra examiner, et ce sera sa limite.'],
+  ['Au nom de la majorité : une loi est juste quand la plupart des gens l’approuvent.','no','La majorité fait aussi les lois : on retombe dans la partie I au lieu d’en sortir.']]},
+ {p:'II',k:'position',q:'Quel développement montre que cette exigence est nécessaire ?',o:[
+  ['Le refus de Rosa Parks a fait juger la ségrégation : sans désobéissance, la loi injuste serait restée.','ok','La partie montre ce qu’elle permet de comprendre : sans jugement des citoyens, la loi injuste ne serait jamais corrigée.'],
+  ['Il ne suffit pas d’obéir : être juste, c’est juger les lois au nom de ce qui est juste.','def','C’est bien la position de la partie, mais énoncée, pas développée : montrez ce qu’elle permet de comprendre.'],
+  ['Les lois sont toujours injustes, car elles sont faites par les plus puissants pour se protéger.','no','Excessif, et ce n’est pas le « non » du sujet : il dit qu’obéir ne suffit pas, pas que toute loi est injuste.']]},
  {p:'II',k:'limite',q:'Où cette deuxième réponse cède-t-elle à son tour ?',o:[
   ['Si chacun juge les lois à sa façon, il n’y a plus de règle commune : chacun fait sa justice.','ok','La limite vient encore de la réponse : le jugement de chacun ruine ce que la loi garantissait.'],
-  ['Celui qui désobéit s’expose à des sanctions, parfois très lourdes.','def','Vrai, mais c’est une objection extérieure : la limite doit venir du jugement lui-même.'],
-  ['Il est très difficile de savoir avec certitude ce qui est juste.','no','Trop vague : dites ce que cette difficulté produit quand chacun juge seul.']]},
- {p:'III',k:'issue',q:'Quelle troisième partie garde le plus de I et de II ? Plusieurs peuvent tenir : regardez ce que chacune laisse.',o:[
-  ['Obéir en jugeant : respecter la loi, la contester par les voies communes, et désobéir publiquement, en acceptant la sanction, si elle ordonne l’injuste.','ok','Elle garde la règle commune (I) et le jugement (II) : en acceptant sa peine, celui qui désobéit reconnaît encore la loi. Elle laisse un reste : le cas où aucune voie commune n’existe.'],
-  ['Distinguer le légal et le juste : la loi dit ce qui est permis, pas ce qui est juste ; on lui obéit sans lui confier la justice.','def','Une distinction solide, qui sauve les deux parties. Mais elle laisse entière la question pratique : que faire quand les deux s’opposent ? Le reste est plus grand.'],
-  ['Il faut un juste milieu : obéir à la plupart des lois et désobéir seulement à quelques-unes.','no','Couper la poire en deux : rien ne dit lesquelles, ni pourquoi. Le problème reste entier.']]},
- {p:'III',k:'reste',q:'Qu’est-ce que cette troisième partie laisse ouvert, pour la conclusion ?',o:[
-  ['Quand l’État ne laisse aucune voie pour contester ses lois, la désobéissance peut-elle rester juste sans devenir violence ?','ok','C’est le reste exact de la solution : elle supposait des voies communes pour contester.'],
-  ['Peut-on être juste dans une société qui n’aurait plus aucune loi ?','def','Une question liée au sujet, mais qui ne part pas de la solution : dites ce que « obéir en jugeant » laisse sans réponse.'],
-  ['La justice est un sujet passionnant, qui mérite toujours réflexion.','no','Une formule vide : la conclusion dit ce que la solution ne règle pas.']]}
+  ['Celui qui désobéit s’expose à des sanctions, parfois très lourdes, et risque sa propre liberté.','def','Vrai, mais c’est une objection extérieure : la limite doit venir du jugement lui-même.'],
+  ['Il est très difficile de savoir avec certitude ce qui est juste, et chacun en a son idée.','no','Trop vague : dites ce que cette difficulté produit quand chacun juge seul.']]},
+ {p:'T2',k:'transition',q:'Quelle question montre ce que les deux réponses supposaient ensemble ?',o:[
+  ['Obéir ou juger : les deux réponses confiaient la justice à un seul. Faut-il qu’un seul la porte ?','ok','Elle découvre ce que I et II avaient en commun sans le dire : la partie III pourra poser le problème autrement.'],
+  ['Si obéir ne suffit pas et que juger seul détruit la loi, faut-il finalement obéir ou bien désobéir ?','def','Elle reprend les deux limites, mais repose la même alternative : la partie III ne pourrait que choisir un camp.'],
+  ['Il faudra donc, pour finir, trouver un juste équilibre entre l’obéissance et la désobéissance.','no','Une annonce de compromis : elle parle du devoir et promet de couper la poire en deux.']]},
+ {p:'III',k:'probleme',q:'Revenir au problème : qu’est-ce que chacune des deux réponses avait compris ?',o:[
+  ['La partie I : la justice doit être commune. La partie II : elle doit pouvoir être jugée.','ok','Les deux acquis, nommés : la partie III devra garder l’un et l’autre.'],
+  ['La partie I avait raison sur l’ordre public, la partie II avait raison sur la liberté de chacun.','def','Proche, mais l’ordre et la liberté déplacent le sujet : restez sur la justice.'],
+  ['Aucune des deux n’avait raison : il faut reprendre la question autrement.','no','C’est jeter les deux parties : la troisième doit garder ce qu’elles ont établi.']]},
+ {p:'III',k:'operation',q:'Quelle opération permet de tenir les deux ensemble ? Plusieurs peuvent tenir : regardez ce que chacune laisse.',o:[
+  ['Obéir en jugeant : respecter la loi, la contester par les voies communes, et désobéir publiquement, en acceptant la sanction, si elle ordonne l’injuste.','ok','Elle distingue deux plans et garde la règle commune (I) et le jugement (II) : en acceptant sa peine, celui qui désobéit reconnaît encore la loi.'],
+  ['Distinguer le légal et le juste : la loi dit ce qui est permis, pas ce qui est juste ; on lui obéit donc sans jamais lui confier la justice.','def','Une distinction solide, qui sauve les deux parties. Mais elle laisse entière la question pratique : que faire quand les deux s’opposent ?'],
+  ['Il faut un juste milieu : obéir à la plupart des lois, et ne désobéir qu’à quelques-unes, quand elles nous paraissent trop dures.','no','Couper la poire en deux : rien ne dit lesquelles, ni pourquoi. Le problème reste entier.']]},
+ {p:'III',k:'stabiliser',q:'Que peut-on désormais affirmer, et que cette réponse ne règle-t-elle pas encore ?',o:[
+  ['Être juste, c’est obéir en jugeant. Reste un cas : l’État qui ferme toute voie de contestation.','ok','La réponse est nette, et son reste est dit : c’est lui que la conclusion reprendra.'],
+  ['Être juste, c’est obéir en jugeant : avec cette réponse, toute la difficulté du sujet se trouve résolue.','def','La réponse est juste, mais elle se croit complète : elle suppose des voies communes pour contester. Cherchez son reste.'],
+  ['Être juste, c’est parfois obéir et parfois désobéir, selon les cas.','no','On retombe dans le juste milieu : la réponse de la partie III est perdue.']]},
+ {p:'C',k:'question',q:'Quelle question finale naît de ce reste ?',o:[
+  ['Quand l’État ferme toute voie de contestation, la désobéissance peut-elle rester juste sans devenir violence ?','ok','C’est le reste de la réponse, devenu question : le même problème, posé plus loin.'],
+  ['Peut-on encore être juste dans une société qui n’aurait plus aucune loi pour nous guider ?','def','Une question liée au sujet, mais qui ne part pas du reste : dites ce que « obéir en jugeant » laisse sans réponse.'],
+  ['La justice est un sujet passionnant, qui mérite toujours réflexion et qu’on ne finira jamais d’épuiser.','no','Une formule vide : la conclusion transforme le reste en question.']]}
  ]
 },
 {
