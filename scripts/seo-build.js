@@ -27,7 +27,7 @@ const philoPages=new Set(['philosophie.html','dissertation-philosophie-bac.html'
 const brevetPages=new Set(['brevet.html','anthologie-brevet.html','brevet-comprehension.html','brevet-grammaire.html','brevet-reecriture.html','brevet-redaction.html','brevet-imagination.html','brevet-reflexion.html']);
 const hlpPages=new Set(['hlp.html','hlp-premiere.html','hlp-terminale.html','hlp-annales.html']);
 const teacherPages=new Set(['enseignants.html','hlp-professeurs.html','formation.html','bibliotheque.html','pot-bouille-professeurs.html','sequence-pot-bouille.html']);
-const manualPages=new Set(['manuel-procedes.html','bac-commentaire-procedes.html','bac-commentaire-procedes-entrainement.html','laboratoire-effet-ici.html','parcours.html']);
+const manualPages=new Set(['methode-cours.html','methode-brevet.html','methode-seconde.html','methode-hlp.html','manuel-procedes.html','bac-commentaire-procedes.html','bac-commentaire-procedes-entrainement.html','laboratoire-effet-ici.html','parcours.html']);
 
 function portal(file, href,label,sub,items,active,offer){
   return `
@@ -81,6 +81,7 @@ function staticHeader(file){
       ['brevet-redaction.html','Travailler la rédaction','Sujet d’imagination ou sujet de réflexion']
     ],brevetPages.has(base)),
     portal(file,'manuel-procedes.html','MÉTHODE','commentaire · procédés',[
+      ['methode-cours.html','Les cours de méthode','Brevet, seconde, bac, philosophie, HLP'],
       ['commentaire-bac-methode.html','Comprendre la méthode','De la lecture à la problématique et au plan'],
       ['manuel-procedes.html','Chercher un procédé','Définitions, exemples et effets'],
       ['bac-commentaire-procedes.html','Comprendre procédés et effets','Relier forme, effet et interprétation'],
@@ -127,6 +128,7 @@ function crumbSpec(r, title){
   const c=[{name:'Accueil',href:'/'}];
   const SERVICE=/^(offre|apropos|merci|contact|plan-du-site|mentions-legales|cgv|confidentialite|annales|entrainement-annale|eleves|ia-laboratoire)\.html$/;
   if(SERVICE.test(b)) { /* pages de service : pas de rubrique */ }
+  else if(/^methode-/.test(b)) { if(b!=='methode-cours.html') c.push({name:'Cours de méthode',href:'/methode-cours.html'}); }
   else if(/^brevet|anthologie-brevet/.test(b)) c.push({name:'Brevet',href:'/brevet.html'});
   else if(/^philosophie|^dissertation-philosophie/.test(b)) c.push({name:'Philosophie',href:'/philosophie.html'});
   else if(/^hlp-professeurs/.test(b)) { c.push({name:'Enseignants',href:'/enseignants.html'}); }
