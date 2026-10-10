@@ -203,6 +203,11 @@ document.addEventListener('DOMContentLoaded',()=> {
     document.body.appendChild(footer);
   }
 
+  /* Dictée : seulement si le navigateur sait transcrire la voix, et jamais en mode examen. */
+  if((window.SpeechRecognition||window.webkitSpeechRecognition) && !/mode-examen/.test(location.pathname)){
+    const d=document.createElement('script'); d.src='/dictee.js'; d.async=true; document.body.appendChild(d);
+  }
+
   if(!location.pathname.includes('/annales/') && document.querySelector('[data-feedback-kind], [data-feedback-instruction]')){
     const feedbackScript=document.createElement('script');
     feedbackScript.src='free-response.js';
