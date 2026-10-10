@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded',()=> {
   const hlpPages=['hlp.html','hlp-premiere.html','hlp-terminale.html','hlp-annales.html'];
   const brevetPages=['brevet.html','anthologie-brevet.html','brevet-comprehension.html','brevet-grammaire.html','brevet-reecriture.html','brevet-redaction.html','brevet-imagination.html','brevet-reflexion.html'];
   const teacherPages=['enseignants.html','hlp-professeurs.html','formation.html','bibliotheque.html','pot-bouille-professeurs.html','sequence-pot-bouille.html'];
-  const manualPages=['manuel-procedes.html','bac-commentaire-procedes.html','bac-commentaire-procedes-entrainement.html','parcours.html'];
+  const manualPages=['methode-cours.html','methode-brevet.html','methode-seconde.html','methode-hlp.html','manuel-procedes.html','bac-commentaire-procedes.html','bac-commentaire-procedes-entrainement.html','parcours.html'];
   const is=(names)=>names.includes(path)||(names===hlpPages&&/^hlp-(\d{4}|sujet-zero)-/.test(path))||(names===philoPages&&/^philosophie-/.test(path));
 
   const portal=(href,label,sub,items,classes='',offer=null)=>`
@@ -69,6 +69,7 @@ document.addEventListener('DOMContentLoaded',()=> {
       ['brevet-redaction.html','Travailler la rédaction','Sujet d’imagination ou sujet de réflexion']
     ],is(brevetPages)?'active':''),
     portal('manuel-procedes.html','MÉTHODE','commentaire · procédés',[
+      ['methode-cours.html','Les cours de méthode','Brevet, seconde, bac, philosophie, HLP'],
       ['commentaire-bac-methode.html','Comprendre la méthode','De la lecture à la problématique et au plan'],
       ['manuel-procedes.html','Chercher un procédé','Définitions, exemples et effets'],
       ['bac-commentaire-procedes.html','Comprendre procédés et effets','Relier forme, effet et interprétation'],
