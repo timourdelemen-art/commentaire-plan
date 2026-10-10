@@ -2150,7 +2150,7 @@ window.ANNALES_CATALOGUE = {
     "parcours": "../anthologie-brevet.html",
     "dureeExamen": 4200,
     "ia": true,
-    "contexte": "Sujet officiel 2026. Chaque sous-question devient un exercice autonome : correction locale lorsque la réponse est déterminée, IA seulement lorsqu’une réponse ouverte mérite un retour personnalisé.",
+    "contexte": "Sujet officiel du brevet 2026, série générale. Le texte est affiché : pour chaque question ouverte, une réponse possible vous attend après votre essai. Une question à la fois : répondez d’abord seul, puis demandez un coup de pouce, la correction ou un retour sur votre réponse.",
     "supportTitle": "Émile Zola — Une cage de bêtes féroces",
     "supportSource": "Émile Zola, Une cage de bêtes féroces, 1867. Texte reproduit d’après le sujet officiel du DNB 2026, série générale.",
     "supportText": "<p><span class='line-no'>1</span> Un matin, un Lion et une Hyène du Jardin des Plantes<sup>1</sup> réussirent à ouvrir la porte de leur cage, fermée avec négligence.</p><p>La matinée était blanche et un clair soleil luisait gaiement au bord du ciel pâle. Il y avait, sous les grands marronniers, des fraîcheurs pénétrantes, les fraîcheurs tièdes du printemps naissant. <span class='line-no'>5</span> Les deux honnêtes animaux, qui venaient de déjeuner copieusement, se promenèrent avec lenteur dans le Jardin, s’arrêtant de temps à autre, pour se lécher et jouir en braves gens des douceurs de la matinée. Ils se rencontrèrent au fond d’une allée, et, après les politesses d’usage, ils se mirent à marcher de compagnie, causant en toute bonne amitié. Le Jardin ne tarda pas à les ennuyer et à leur paraître bien petit. Alors ils se <span class='line-no'>10</span> demandèrent à quels amusements ils pourraient consacrer leur journée.</p><p>— Ma foi, dit le Lion, j’ai bien envie de contenter un caprice qui me tient depuis longtemps. Voici des années que les hommes viennent, comme des imbéciles, me regarder dans ma cage, et je me suis toujours promis de saisir la première occasion qui se présenterait, pour aller les regarder dans la leur, quitte à paraître aussi bête qu’eux... Je vous propose un bout <span class='line-no'>15</span> de promenade dans la cage des hommes.</p><p>À ce moment, Paris, qui s’éveillait, se mit à rugir d’une telle force que la Hyène s’arrêta court, écoutant avec inquiétude. La clameur de la ville montait, sourde et menaçante, et cette clameur, faite du bruit des voitures, des cris de la rue, de nos sanglots et de nos rires, ressemblait à des hurlements de fureur et à des râles d’agonie.</p><p><span class='line-no'>20</span> — Bon Dieu ! murmura la Hyène, ils s’égorgent pour sûr dans leur cage. Entendez-vous comme ils sont en colère et comme ils pleurent ?</p><p>— Il est de fait, répondit le Lion, qu’ils font un tapage effroyable : quelque dompteur les tourmente peut-être.</p><p>Le bruit croissait et la Hyène avait décidément peur.</p><p><span class='line-no'>25</span> — Croyez-vous, demanda-t-elle, qu’il soit prudent de se hasarder là-dedans ?</p><p>— Bah ! dit le Lion, ils ne vous mangeront pas, que diable ! Venez donc. Ils doivent se mordre d’une belle façon, et cela nous fera rire.</p><p class='micro'><sup>1</sup> Le Jardin des Plantes est un célèbre zoo parisien.</p>",
@@ -2164,7 +2164,8 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 4,
         "consigne": "Pour chacune des deux étapes du texte, choisissez un titre proposé et justifiez votre réponse en vous appuyant sur le texte.",
-        "aide": "Deux choix + deux justifications textuelles. L’IA vérifie surtout la preuve."
+        "aide": "Cherchez le moment où le texte change : où la promenade s’arrête-t-elle, et qu’est-ce qui l’interrompt ? Pour chaque étape, choisissez le titre qui convient, puis citez les mots qui le prouvent.",
+        "correction": "Le texte a deux étapes. Du début jusqu’à la proposition du Lion, les deux animaux sortent de leur cage, se promènent, puis le Lion propose une sortie : le titre qui convient parle de cette promenade et de ce projet. Preuves : ils « se promenèrent avec lenteur dans le Jardin » et le Lion dit : « Je vous propose un bout de promenade dans la cage des hommes. » De « À ce moment » jusqu’à la fin, le bruit de Paris fait peur à la Hyène : le titre qui convient parle de ce bruit et de cette peur. Preuves : « Paris, qui s’éveillait, se mit à rugir » et « la Hyène avait décidément peur ». Les titres à choisir sont dans le sujet officiel."
       },
       {
         "id": "q2a",
@@ -2175,7 +2176,8 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 3,
         "consigne": "Expliquez quel est le caprice du Lion et donnez deux raisons qui l’expliquent.",
-        "aide": "Le caprice + deux raisons distinctes."
+        "aide": "Relisez la réplique du Lion : que veut-il faire ? Cherchez ensuite deux raisons différentes : l’une dans ce qu’il dit des hommes, l’autre dans ce que les deux animaux ressentent juste avant, au Jardin.",
+        "correction": "Le caprice du Lion est d’aller, à son tour, regarder les hommes chez eux : il propose « un bout de promenade dans la cage des hommes ». Première raison : il veut inverser les rôles. « Voici des années que les hommes viennent, comme des imbéciles, me regarder dans ma cage », dit-il ; il veut maintenant « aller les regarder dans la leur ». Deuxième raison : les deux animaux s’ennuient, car « Le Jardin ne tarda pas à les ennuyer et à leur paraître bien petit »."
       },
       {
         "id": "q2b",
@@ -2186,7 +2188,8 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 2,
         "consigne": "Que ressent la Hyène après cette proposition ? Justifiez par le texte.",
-        "aide": "Sentiment + preuve textuelle précise."
+        "aide": "Relevez ce que fait la Hyène et ce qu’elle dit après la proposition du Lion. Quel sentiment ces mots montrent-ils ? Citez-les.",
+        "correction": "La Hyène ressent de l’inquiétude, puis de la peur. Quand Paris se met à rugir, elle « s’arrêta court, écoutant avec inquiétude ». Le texte le dit ensuite clairement : « la Hyène avait décidément peur ». Elle hésite même à partir : « Croyez-vous, demanda-t-elle, qu’il soit prudent de se hasarder là-dedans ? »"
       },
       {
         "id": "q3a",
@@ -2197,7 +2200,8 @@ window.ANNALES_CATALOGUE = {
         "access": "premium",
         "points": 3,
         "consigne": "Pourquoi le Lion parle-t-il de « la cage des hommes » ?",
-        "aide": "Expliquez le renversement de point de vue entre hommes et animaux."
+        "aide": "Utilisez l’outil : « Je m’attendais à ce que la cage soit… Pourtant, le Lion parle de “la cage des hommes”. Pourquoi ? » D’habitude, qui est enfermé et qui regarde ? Dans ce texte, qui veut regarder qui ?",
+        "correction": "Je m’attendais à ce que la cage soit celle des animaux, au Jardin des Plantes. Pourtant, le Lion appelle la ville « la cage des hommes ». Pourquoi ? Parce que le texte inverse le point de vue : pour le Lion, les hommes vivent enfermés dans Paris comme les bêtes dans le zoo. Il veut donc faire comme les visiteurs et « aller les regarder dans la leur ». Ce sont maintenant les hommes qu’on observe comme des bêtes curieuses."
       },
       {
         "id": "q3b",
@@ -2208,7 +2212,8 @@ window.ANNALES_CATALOGUE = {
         "access": "premium",
         "points": 4,
         "consigne": "Trouvez deux autres exemples qui développent l’image d’une « cage des hommes » et expliquez-les.",
-        "aide": "Deux exemples distincts + explication de chacun."
+        "aide": "Cherchez, dans les répliques des deux animaux, d’autres mots qui font des hommes des bêtes enfermées ou dressées. Pour chacun, expliquez ce qu’il fait de la ville et des hommes.",
+        "correction": "Premier exemple : la Hyène imagine que les hommes « s’égorgent pour sûr dans leur cage ». Elle les voit comme des fauves enfermés qui se battent entre eux. Deuxième exemple : le Lion suppose que « quelque dompteur les tourmente peut-être ». Les hommes deviennent des bêtes de cirque, dressées et maltraitées. Autre exemple possible : « Ils doivent se mordre d’une belle façon »."
       },
       {
         "id": "q4",
@@ -2219,7 +2224,8 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 4,
         "consigne": "Comment le narrateur retranscrit-il le bruit ? Appuyez-vous sur deux éléments précis.",
-        "aide": "Deux observations textuelles + leur effet précis.",
+        "aide": "Relisez le paragraphe qui commence par « À ce moment ». Avec quel verbe la ville fait-elle du bruit ? Que contient la longue liste de bruits ? Pour chaque élément, dites ce qu’il fait entendre au lecteur.",
+        "correction": "Premier élément : la ville est présentée comme une bête. Paris « se mit à rugir », et sa clameur ressemble « à des hurlements de fureur et à des râles d’agonie ». Le bruit devient le cri d’un fauve en colère ou blessé : il paraît dangereux. Deuxième élément : une énumération rassemble tous les bruits de la ville : « du bruit des voitures, des cris de la rue, de nos sanglots et de nos rires ». Le lecteur entend un vacarme mêlé, où les rires et les sanglots se confondent. Les adjectifs « sourde et menaçante » et la phrase « Le bruit croissait » montrent aussi que ce bruit inquiète et grandit.",
         "manual": [
           "champ lexical",
           "types et formes de phrases",
@@ -2236,7 +2242,8 @@ window.ANNALES_CATALOGUE = {
         "access": "premium",
         "points": 6,
         "consigne": "Quel est l’intérêt pour l’auteur d’adopter le point de vue des animaux ? Développez deux arguments avec des exemples précis.",
-        "aide": "Deux arguments différents + exemples précis."
+        "aide": "Utilisez l’outil : « Je m’attendais à ce qu’un récit sur des animaux parle surtout des animaux. Pourtant, à travers leurs yeux, on regarde… Pourquoi ? » Cherchez deux intérêts différents : ce que ce regard montre des hommes, et l’effet qu’il produit sur le lecteur. Appuyez chacun sur une citation.",
+        "correction": "Premier intérêt : faire voir les hommes autrement. Le texte inverse les rôles : les animaux sont calmes et polis (« les politesses d’usage », « en braves gens »), alors que les hommes semblent violents : la Hyène croit qu’« ils s’égorgent pour sûr dans leur cage ». Vue de l’extérieur, la ville ressemble à une cage pleine de fureur : l’auteur critique ainsi la vie des hommes. Deuxième intérêt : faire sourire le lecteur, puis le viser. Le Lion se moque des visiteurs qui viennent « comme des imbéciles » et veut aller voir les hommes parce que « cela nous fera rire ». Mais le narrateur parle « de nos sanglots et de nos rires » : le lecteur fait partie de ces hommes que l’on regarde. On rit, puis on comprend que la moquerie nous concerne."
       },
       {
         "id": "q6",
@@ -2247,7 +2254,7 @@ window.ANNALES_CATALOGUE = {
         "access": "premium",
         "points": 6,
         "consigne": "Quels points communs et quelles différences pouvez-vous faire entre le texte et l’image tirée du film La Planète des Singes ? Appuyez-vous sur trois éléments d’analyse précis de l’image.",
-        "aide": "L’IA ne doit rien inventer si l’image officielle n’est pas affichée dans l’interface."
+        "aide": "Travaillez seulement à partir de l’image du sujet officiel : décrivez trois éléments précis que vous voyez, puis comparez chacun avec un passage du texte."
       },
       {
         "id": "q7a",
@@ -2294,7 +2301,8 @@ window.ANNALES_CATALOGUE = {
         "access": "premium",
         "points": 1,
         "consigne": "Quelle est la valeur de « pourraient » dans cette phrase ?",
-        "aide": "La valeur doit être expliquée en contexte."
+        "aide": "Remettez la question des animaux au moment où ils se la posent : « À quels amusements … -nous consacrer notre journée ? » À quel temps serait le verbe ? Que devient ce temps quand on raconte au passé ?",
+        "correction": "« pourraient » a ici une valeur de futur dans le passé. Le récit est au passé (« ils se demandèrent ») ; si les animaux posaient leur question au moment même, ils diraient : « À quels amusements pourrons-nous consacrer notre journée ? » Raconté au passé, ce futur devient un conditionnel. On peut ajouter une nuance de possibilité : rien n’est encore décidé."
       },
       {
         "id": "q9a",
@@ -2349,7 +2357,7 @@ window.ANNALES_CATALOGUE = {
     "parcours": "../anthologie-brevet.html",
     "dureeExamen": 4200,
     "ia": true,
-    "contexte": "Sujet officiel DNB 2025, série générale. Correction locale pour les réponses déterminées ; IA seulement pour les réponses d’interprétation qui gagnent à être relues.",
+    "contexte": "Sujet officiel du brevet 2025, série générale. Le texte est encore protégé par le droit d’auteur : gardez le sujet officiel ouvert à côté. Une question à la fois : répondez d’abord seul, puis demandez un coup de pouce, la correction ou un retour sur votre réponse.",
     "etapes": [
       {
         "id": "q1",
@@ -2371,7 +2379,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 4,
         "consigne": "Pourquoi le narrateur observe-t-il sa mère dans le premier paragraphe ? Deux éléments de réponse sont attendus, chacun illustré par une citation.",
-        "aide": "Cherchez ce qui change lorsqu’elle parle kinyarwanda, puis ce que le narrateur comprend de sa propre ignorance."
+        "aide": "Relisez le premier paragraphe : qu’est-ce qui étonne le narrateur chez sa mère ? Qu’est-ce qu’il ne sait pas d’elle ? Citez une phrase pour chaque élément."
       },
       {
         "id": "q3a",
@@ -2421,7 +2429,7 @@ window.ANNALES_CATALOGUE = {
         "access": "premium",
         "points": 6,
         "consigne": "Comment expliquez-vous les « terribles maux de ventre » du narrateur ? Donnez deux éléments de réponse.",
-        "aide": "Reliez l’effet physique à la violence des images et au silence familial qui empêche de mettre des mots sur ce qui est vu."
+        "aide": "Utilisez l’outil : « Je m’attendais à ce que des images vues à la télévision… Pourtant, le narrateur a de “terribles maux de ventre”. Pourquoi ? » Cherchez deux causes différentes : l’une dans ce qu’il voit, l’autre dans ce qui se passe, ou ne se passe pas, autour de lui pendant le dîner."
       },
       {
         "id": "q6",
@@ -2455,7 +2463,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 1,
         "consigne": "Donnez la valeur de cet imparfait dans le passage.",
-        "aide": "La scène se répète « quasiment chaque soir ».",
+        "aide": "Relisez les mots qui disent quand la scène a lieu : se passe-t-elle une seule fois, ou revient-elle souvent ?",
         "correction": "L’imparfait exprime ici une habitude, une action répétée dans le passé."
       },
       {
@@ -2467,7 +2475,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 1,
         "consigne": "Donnez la nature du mot « religieusement ».",
-        "aide": "Le mot est invariable et précise la manière de regarder.",
+        "aide": "Mettez la phrase au pluriel ou au féminin : le mot change-t-il ? Quelle terminaison porte-t-il ?",
         "correction": "« religieusement » est un adverbe."
       },
       {
@@ -2491,7 +2499,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 2,
         "consigne": "Expliquez le sens du verbe « épier » dans le contexte, puis proposez un synonyme.",
-        "aide": "Le narrateur observe sa mère discrètement et avec attention.",
+        "aide": "Relisez la phrase où apparaît le verbe : comment le narrateur regarde-t-il sa mère, et pourquoi ? Essayez ensuite un autre verbe à sa place : la phrase garde-t-elle son sens ?",
         "correction": "« épier » signifie observer attentivement et souvent en secret. Un synonyme possible est « surveiller »."
       },
       {
@@ -2523,7 +2531,7 @@ window.ANNALES_CATALOGUE = {
     "parcours": "../anthologie-brevet.html",
     "dureeExamen": 4200,
     "ia": true,
-    "contexte": "Sujet officiel DNB 2024, série générale, Métropole. Texte de Marc Dugain sur des soldats blessés au visage pendant la Grande Guerre ; correction locale pour les questions de langue, IA réservée aux réponses réellement interprétatives.",
+    "contexte": "Sujet officiel du brevet 2024, série générale, Métropole. Texte de Marc Dugain sur des soldats blessés au visage pendant la Grande Guerre. Une question à la fois : répondez d’abord seul, puis demandez un coup de pouce, la correction ou un retour sur votre réponse.",
     "etapes": [
       {
         "id": "q1",
@@ -2545,7 +2553,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 2,
         "consigne": "Qu’ont-ils en commun ? Deux éléments de réponse sont attendus.",
-        "aide": "Pensez à leur situation militaire et à leurs blessures."
+        "aide": "Comparez les trois hommes : où étaient-ils, et que leur est-il arrivé ? Cherchez deux points communs différents."
       },
       {
         "id": "q3",
@@ -2556,7 +2564,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 4,
         "consigne": "Peut-on dire que tous les personnages arrivent à communiquer facilement ensemble ? Justifiez par des passages précis du texte.",
-        "aide": "Observez la surdité de Marguerite et les difficultés physiques de certains officiers."
+        "aide": "Pour chaque personnage, cherchez ce qui l’aide ou le gêne pour parler et pour entendre. Citez les passages précis."
       },
       {
         "id": "q4",
@@ -2578,7 +2586,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 3,
         "consigne": "Dans « Elle était comme un parterre de roses saccagé par le milieu », identifiez la figure de style et expliquez pourquoi elle convient au visage de Marguerite.",
-        "aide": "Le mot « comme » signale un rapprochement explicite. Il faut ensuite expliquer la beauté préservée et la destruction centrale.",
+        "aide": "Repérez le mot qui relie les deux parties de la phrase : quelle figure introduit-il ? Expliquez ensuite ce que l’image dit du visage : qu’est-ce qui reste, qu’est-ce qui est abîmé ?",
         "manual": [
           "comparaison",
           "opposition lexicale",
@@ -2594,7 +2602,7 @@ window.ANNALES_CATALOGUE = {
         "access": "premium",
         "points": 4,
         "consigne": "Identifiez deux traits de caractère de Marguerite et justifiez chacun par le texte.",
-        "aide": "Cherchez notamment son courage, sa détermination et sa capacité à affronter le regard des autres."
+        "aide": "Regardez ce que Marguerite choisit de faire et comment elle se comporte devant les autres. Quels traits de caractère ces actes montrent-ils ? Un trait = un adjectif + une preuve."
       },
       {
         "id": "q6",
@@ -2605,7 +2613,7 @@ window.ANNALES_CATALOGUE = {
         "access": "premium",
         "points": 6,
         "consigne": "Quelles réflexions sur la Grande Guerre peut inspirer l’expérience des personnages ? Deux éléments de réponse justifiés par des citations sont attendus.",
-        "aide": "Pensez aux corps durablement mutilés, à la violence de masse et aux conséquences humaines qui continuent loin du front."
+        "aide": "Partez de ce que vivent les personnages : qu’est-ce que la guerre leur a fait, et pour combien de temps ? Formulez deux idées sur la guerre, chacune appuyée sur une citation."
       },
       {
         "id": "q7",
@@ -2616,7 +2624,7 @@ window.ANNALES_CATALOGUE = {
         "access": "premium",
         "points": 6,
         "consigne": "Cette affiche vous paraît-elle une bonne illustration du texte ? Développez deux arguments justifiés à partir du texte et de l’image.",
-        "aide": "Travaillez uniquement à partir de l’image officielle : visages mutilés, groupe de blessés, mémoire collective."
+        "aide": "Travaillez seulement à partir de l’affiche du sujet officiel : décrivez ce que vous voyez, puis cherchez dans le texte ce qui y correspond, ou non."
       },
       {
         "id": "q8",
@@ -2627,7 +2635,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 2,
         "consigne": "Relevez les expansions du nom « club » et indiquez la classe grammaticale de chacune.",
-        "aide": "Cherchez ce qui complète directement le nom puis la proposition introduite par « qui ».",
+        "aide": "Cherchez tous les mots ou groupes qui complètent le nom « club ». Pour vérifier, supprimez-les un par un : la phrase reste-t-elle correcte ?",
         "correction": "Les deux expansions sont « d’officiers », groupe prépositionnel complément du nom « club », et « qui compte à ce jour trois membres actifs et volontiers bienfaiteurs », proposition subordonnée relative."
       },
       {
@@ -2639,7 +2647,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 1,
         "consigne": "Dans « Je compris aussitôt que ni Weil ni moi ne pourrions jamais nous entretenir avec elle », identifiez la proposition subordonnée et le mot subordonnant.",
-        "aide": "La subordonnée commence juste après le verbe « compris ».",
+        "aide": "Cherchez le verbe principal, puis le mot qui introduit une autre proposition après lui.",
         "correction": "La proposition subordonnée est « que ni Weil ni moi ne pourrions jamais nous entretenir avec elle » ; elle est introduite par la conjonction de subordination « que »."
       },
       {
@@ -2675,7 +2683,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 1.5,
         "consigne": "Expliquez le sens de « insupportable » puis trouvez un synonyme.",
-        "aide": "Le contexte indique une situation qu’on ne peut plus supporter.",
+        "aide": "Appuyez-vous sur la formation du mot (préfixe, radical, suffixe), puis vérifiez dans la phrase. Pour le synonyme, essayez-le à la place du mot.",
         "correction": "« insupportable » signifie « qu’on ne peut pas supporter ou tolérer ». Un synonyme possible est « intolérable »."
       },
       {
@@ -2707,7 +2715,7 @@ window.ANNALES_CATALOGUE = {
     "parcours": "../anthologie-brevet.html",
     "dureeExamen": 4200,
     "ia": true,
-    "contexte": "Sujet officiel DNB 2023, série générale, Métropole. George Sand raconte un jeu d’enfants qui devient une fiction totale ; correction locale pour toute la langue, IA seulement pour les réponses ouvertes.",
+    "contexte": "Sujet officiel du brevet 2023, série générale, Métropole. George Sand raconte un jeu d’enfants si fort qu’il semble devenir réel. Une question à la fois : répondez d’abord seul, puis demandez un coup de pouce, la correction ou un retour sur votre réponse.",
     "etapes": [
       {
         "id": "q1",
@@ -2729,7 +2737,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 5,
         "consigne": "Où se passe la scène ? Comment expliquez-vous la présence d’une rivière dans ce lieu ? Justifiez par le texte.",
-        "aide": "Le lieu est réel ; la rivière appartient au jeu et à l’imagination des enfants."
+        "aide": "Utilisez l’outil : « Dans ce lieu, je m’attendais à trouver… Pourtant, le texte parle d’une rivière. Pourquoi ? » Cherchez qui fait apparaître cette rivière, et comment."
       },
       {
         "id": "q3",
@@ -2751,7 +2759,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 3,
         "consigne": "À quoi le jeu des enfants est-il comparé tout au long du texte ? Relevez au moins quatre mots d’un champ lexical qui le prouve.",
-        "aide": "Cherchez le vocabulaire du théâtre et de la représentation.",
+        "aide": "Relevez les mots qui décrivent le jeu : à quel art ou à quel spectacle font-ils penser ? Il en faut au moins quatre du même domaine.",
         "manual": [
           "champ lexical",
           "accumulation",
@@ -2778,7 +2786,7 @@ window.ANNALES_CATALOGUE = {
         "access": "premium",
         "points": 5,
         "consigne": "Quelles réflexions sur l’enfance ce récit inspire-t-il à la narratrice ? Deux éléments justifiés par des passages précis sont attendus.",
-        "aide": "La narratrice insiste sur la puissance de l’imagination enfantine et la capacité des enfants à jouer pleinement des rôles."
+        "aide": "Cherchez les passages où la narratrice adulte commente le jeu au lieu de le raconter. Quelles idées sur l’enfance en tire-t-elle ? Une idée = une phrase + une citation."
       },
       {
         "id": "q6",
@@ -2789,7 +2797,7 @@ window.ANNALES_CATALOGUE = {
         "access": "premium",
         "points": 8,
         "consigne": "Pourquoi cette photographie pourrait-elle illustrer le texte ? Développez deux arguments, chacun justifié par une citation du texte.",
-        "aide": "Comparez le dessin à la craie, l’univers de l’eau, le jeu collectif et l’imagination des enfants."
+        "aide": "Décrivez d’abord la photographie du sujet officiel, puis cherchez dans le texte deux citations qui lui correspondent."
       },
       {
         "id": "q7a",
@@ -2800,7 +2808,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 1,
         "consigne": "Dans « En de certains endroits, elle était fort profonde », donnez la fonction de chaque groupe souligné.",
-        "aide": "Le premier précise le lieu ; le second dépend du verbe « être ».",
+        "aide": "Pour chaque groupe, faites des tests : peut-on le supprimer ? le déplacer ? De quel mot dépend-il ?",
         "correction": "« En de certains endroits » est complément circonstanciel de lieu. « fort profonde » est attribut du sujet « elle »."
       },
       {
@@ -2824,7 +2832,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 1,
         "consigne": "Dans « Si nous rencontrons des écrevisses, elles nous mangeront les pieds », identifiez la proposition subordonnée et le mot subordonnant.",
-        "aide": "La subordonnée commence par « si ».",
+        "aide": "Cherchez le mot qui relie les deux propositions : laquelle ne peut pas rester seule ?",
         "correction": "La proposition subordonnée est « Si nous rencontrons des écrevisses » ; le mot subordonnant est « si »."
       },
       {
@@ -2836,7 +2844,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 1,
         "consigne": "Précisez la fonction grammaticale de cette proposition subordonnée.",
-        "aide": "Elle pose une condition à la réalisation de la principale.",
+        "aide": "Que doit-il se passer pour que la proposition principale se réalise ? Le sens du mot subordonnant vous aide à nommer la fonction.",
         "correction": "La proposition subordonnée est complément circonstanciel de condition de la proposition principale."
       },
       {
@@ -2860,7 +2868,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 1.5,
         "consigne": "Expliquez le sens de « dénouement » en vous appuyant sur sa formation et sur le texte.",
-        "aide": "Le mot désigne le moment où le nœud d’une histoire se défait.",
+        "aide": "Partez de la formation : que veut dire « nouer », et que fait le préfixe « dé- » ? Cherchez ensuite dans le texte ce qui met fin au jeu.",
         "correction": "Le « dénouement » est la fin ou l’issue de l’histoire. Ici, l’arrivée de la mère met fin au jeu et ramène brutalement les enfants à la réalité."
       },
       {
@@ -2892,7 +2900,7 @@ window.ANNALES_CATALOGUE = {
     "parcours": "../anthologie-brevet.html",
     "dureeExamen": 4200,
     "ia": true,
-    "contexte": "Sujet officiel DNB 2022, série générale, Métropole. La fable transforme un rapport de force attendu ; les questions de langue sont corrigées localement et l’IA n’intervient que sur les réponses ouvertes.",
+    "contexte": "Sujet officiel du brevet 2022, série générale, Métropole. Une fable de La Fontaine où le plus fort n’est pas celui qu’on croit. Une question à la fois : répondez d’abord seul, puis demandez un coup de pouce, la correction ou un retour sur votre réponse.",
     "etapes": [
       {
         "id": "q1a",
@@ -2914,7 +2922,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 2,
         "consigne": "Quelle réaction ce propos déclenche-t-il et pourquoi ?",
-        "aide": "Le Lion insulte le Moucheron et méprise sa faiblesse apparente."
+        "aide": "Relisez la réplique du vers 1 : sur quel ton est-elle dite ? Cherchez ensuite ce que fait l’animal à qui elle s’adresse, et pourquoi il le fait."
       },
       {
         "id": "q2a",
@@ -2964,7 +2972,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 3,
         "consigne": "Par quels groupes nominaux le Lion est-il désigné ? Quel effet cela produit-il ?",
-        "aide": "Comparez les désignations qui rappellent sa puissance à celles qui le rabaissent progressivement.",
+        "aide": "Relevez dans l’ordre tous les groupes nominaux qui désignent le Lion. Comparez les premiers et les derniers : que disent-ils de lui ?",
         "manual": [
           "périphrase",
           "choix lexical",
@@ -2980,7 +2988,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 2,
         "consigne": "Quel est le retournement de situation raconté aux vers 30 à 34 ?",
-        "aide": "Le vainqueur du Lion rencontre immédiatement un adversaire beaucoup plus faible en apparence."
+        "aide": "Utilisez l’outil : « Après le combat, je m’attendais à ce que… Pourtant, aux vers 30 à 34, … Pourquoi est-ce surprenant ? » Demandez-vous qui triomphait juste avant, et ce qui lui arrive ensuite."
       },
       {
         "id": "q5",
@@ -2991,7 +2999,7 @@ window.ANNALES_CATALOGUE = {
         "access": "premium",
         "points": 5,
         "consigne": "De quel défaut le Lion et le Moucheron font-ils preuve à tour de rôle ? Justifiez à partir de l’ensemble de la fable.",
-        "aide": "Les deux personnages sous-estiment successivement un adversaire plus petit ou moins impressionnant."
+        "aide": "Pour chaque animal, complétez : « Il croyait… Pourtant… ». Que pense-t-il de lui-même et de son adversaire avant d’être battu ? Cherchez ensuite un seul nom de défaut qui convient aux deux."
       },
       {
         "id": "q6",
@@ -3047,7 +3055,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 1,
         "consigne": "Réécrivez la phrase en remplaçant « lui » par le groupe nominal auquel il renvoie.",
-        "aide": "Le pronom désigne le Lion.",
+        "aide": "Cherchez dans les vers précédents le groupe nominal que le pronom « lui » remplace : à qui la guerre est-elle déclarée ?",
         "correction": "« L’autre déclara la guerre au Lion. »"
       },
       {
@@ -3083,7 +3091,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 1.5,
         "consigne": "De quels éléments le mot « invisible » est-il composé ?",
-        "aide": "Repérez le préfixe négatif et la base liée à « visible ».",
+        "aide": "Découpez le mot en morceaux : y a-t-il un préfixe ? un mot-base ? un suffixe ?",
         "correction": "« invisible » est formé du préfixe négatif « in- » et du mot-base « visible » ; on peut aussi analyser « visible » en radical « vis- » et suffixe « -ible »."
       },
       {
@@ -3095,7 +3103,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 0.5,
         "consigne": "Donnez la définition du mot « invisible » à partir de sa formation.",
-        "aide": "Le préfixe « in- » exprime la négation.",
+        "aide": "Partez des morceaux du mot : que veut dire « visible » ? Que change le préfixe ? Écrivez la définition en commençant par « qui… » ou « qu’on… ».",
         "correction": "« invisible » signifie « qu’on ne peut pas voir »."
       },
       {
@@ -3127,7 +3135,7 @@ window.ANNALES_CATALOGUE = {
     "parcours": "../anthologie-brevet.html",
     "dureeExamen": 4200,
     "ia": true,
-    "contexte": "Sujet officiel DNB 2021, série générale, Métropole. Le parcours conserve les formulations de l’épreuve ; les réponses déterminées sont corrigées localement, les interprétations peuvent recevoir un retour IA.",
+    "contexte": "Sujet officiel du brevet 2021, série générale, Métropole. Les questions gardent les mots exacts de l’épreuve. Une question à la fois : répondez d’abord seul, puis demandez un coup de pouce, la correction ou un retour sur votre réponse.",
     "etapes": [
       {
         "id": "q1",
@@ -3149,7 +3157,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 2,
         "consigne": "Expliquez l’expression « la mélancolique solitude du château ».",
-        "aide": "Reliez la solitude du lieu à la déchéance du Baron et à la tristesse du passage."
+        "aide": "Expliquez chaque mot de l’expression : que veut dire « mélancolique » ? Qu’est-ce qui rend le château solitaire ? Appuyez-vous sur ce que le texte dit du château et de son maître."
       },
       {
         "id": "q2b",
@@ -3160,7 +3168,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 3,
         "consigne": "Justifiez votre explication en vous appuyant sur la construction et le lexique de la phrase qui suit. Trois éléments précis sont attendus.",
-        "aide": "Observez notamment les restrictions, le passage du collectif au singulier et le parallélisme de construction.",
+        "aide": "Relisez lentement la phrase qui suit : comment est-elle construite (négations, répétitions, ordre des groupes) ? Quels mots choisit-elle ? Trouvez trois éléments et dites ce que chacun ajoute à la solitude.",
         "manual": [
           "restriction",
           "antithèse",
@@ -3177,7 +3185,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 6,
         "consigne": "Dans le quatrième paragraphe, quel phénomène se produit le soir ? Comment se déclenche-t-il ? Appuyez-vous sur deux procédés d’écriture que vous analyserez.",
-        "aide": "Il faut identifier la transformation du décor, ce qui la déclenche, puis analyser deux procédés.",
+        "aide": "Dites ce qui change dans le décor le soir, ce qui provoque ce changement, puis analysez deux procédés.",
         "manual": [
           "comparaison",
           "intensité",
@@ -3238,7 +3246,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 1,
         "consigne": "Quelle fonction du groupe « un être presque réel » pouvez-vous ainsi identifier ?",
-        "aide": "Le remplacement par « être » permet de tester une fonction liée au sujet.",
+        "aide": "Une fois le verbe remplacé, demandez-vous : le groupe désigne-t-il une autre personne, ou dit-il ce qu’est le sujet ?",
         "correction": "« un être presque réel » est attribut du sujet « le chasseur ». Le remplacement de « devenait » par « était » fait apparaître clairement cette relation attributive."
       },
       {
@@ -3250,7 +3258,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 6,
         "consigne": "Relevez les trois expansions du nom « portraits » et précisez leur nature ou classe grammaticale.",
-        "aide": "Cherchez un adjectif/participe, un groupe prépositionnel et une proposition relative.",
+        "aide": "Cherchez tous les mots ou groupes qui complètent le nom « portraits », avant et après lui. Pour chacun, regardez par quel mot il commence.",
         "correction": "« enfumés » : participe passé employé comme adjectif (ou adjectif) ; « de la salle à manger » : groupe nominal prépositionnel ; « dont les yeux noirs et fixes semblaient lancer un regard de pitié douloureuse sur leur descendant » : proposition subordonnée relative."
       },
       {
@@ -3282,7 +3290,7 @@ window.ANNALES_CATALOGUE = {
     "parcours": "../anthologie-brevet.html",
     "dureeExamen": 4200,
     "ia": true,
-    "contexte": "Sujet officiel DNB 2019, série générale, Métropole. Les manipulations grammaticales demandées par le sujet sont conservées comme telles.",
+    "contexte": "Sujet officiel du brevet 2019, série générale, Métropole. Les manipulations de grammaire demandées par le sujet sont gardées telles quelles. Une question à la fois : répondez d’abord seul, puis demandez un coup de pouce, la correction ou un retour sur votre réponse.",
     "etapes": [
       {
         "id": "q1a",
@@ -3305,7 +3313,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 1,
         "consigne": "Pour vérifier la délimitation de ce groupe complément d’objet, réécrivez la phrase en le remplaçant par un pronom.",
-        "aide": "Un COD peut être remplacé ici par le pronom « la ».",
+        "aide": "Remplacez tout le groupe par un pronom personnel complément (le, la, les, en…) : lequel convient ? Si la phrase reste correcte, le groupe est bien délimité.",
         "correction": "On peut écrire : « qui la savourait religieusement ». La pronominalisation par « la » confirme à la fois la délimitation du groupe et sa fonction de COD."
       },
       {
@@ -3317,7 +3325,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 4,
         "consigne": "Relevez deux expansions du nom « friandise » de nature grammaticale différente et précisez la nature de chacune.",
-        "aide": "Cherchez par exemple un adjectif et une proposition relative.",
+        "aide": "Relevez les mots ou groupes qui complètent « friandise ». Choisissez-en deux qui ne sont pas construits de la même façon.",
         "correction": "Réponses possibles : « chaude » ou « parfumée d’huile forte » : adjectif qualificatif / groupe adjectival ; « qu’il leur laissait » : proposition subordonnée relative."
       },
       {
@@ -3364,7 +3372,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 4,
         "consigne": "Pourquoi ce moment est-il particulièrement important pour les enfants ? Deux éléments justifiés sont attendus.",
-        "aide": "Pensez à la rareté de la friandise et au rituel collectif du partage."
+        "aide": "Demandez-vous ce que les enfants ont d’habitude, et ce que ce moment leur apporte de différent. Cherchez deux raisons, chacune avec un passage."
       },
       {
         "id": "q5a",
@@ -3386,7 +3394,7 @@ window.ANNALES_CATALOGUE = {
         "access": "premium",
         "points": 4,
         "consigne": "Pourquoi peut-on dire qu’ils sont transformés par la baignade ? Deux éléments justifiés sont attendus.",
-        "aide": "Comparez leur pauvreté ordinaire avec la manière dont le texte les représente dans la mer."
+        "aide": "Utilisez l’outil : « Je m’attendais à voir ces enfants comme… Pourtant, dans la mer, le texte les montre… Pourquoi ? » Comparez ce que le texte dit d’eux d’habitude et pendant la baignade."
       },
       {
         "id": "q6",
@@ -3397,7 +3405,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 6,
         "consigne": "Quels changements apparaissent à la fin du texte ? Développez trois éléments de réponse en vous appuyant sur des passages précis.",
-        "aide": "Observez la lumière, le temps qui passe et le comportement des enfants."
+        "aide": "Comparez la fin du texte avec le début de la baignade : qu’est-ce qui change autour des enfants, et chez eux ? Trouvez trois changements, chacun avec un passage."
       },
       {
         "id": "q7",
@@ -3438,7 +3446,7 @@ window.ANNALES_CATALOGUE = {
     "parcours": "../anthologie-brevet.html",
     "dureeExamen": 4200,
     "ia": true,
-    "contexte": "Sujet officiel DNB 2018, série générale, Métropole. Cette annale permet notamment de travailler la distinction relative / complétive et la transformation du discours direct en discours indirect.",
+    "contexte": "Sujet officiel du brevet 2018, série générale, Métropole. Ce sujet fait travailler la différence entre relative et complétive, et le passage du discours direct au discours indirect. Une question à la fois : répondez d’abord seul, puis demandez un coup de pouce, la correction ou un retour sur votre réponse.",
     "etapes": [
       {
         "id": "q1",
@@ -3449,7 +3457,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 4,
         "consigne": "Où se déroule la scène ? Qui est Léopold ? Pourquoi la situation présentée peut-elle surprendre ? Justifiez votre réponse.",
-        "aide": "Il faut expliquer le décalage entre le lieu, le personnage de Léopold et le cours qui s’y déroule."
+        "aide": "Utilisez l’outil : « Dans ce lieu, je m’attendais à… Pourtant, le texte montre… Pourquoi ? » Donnez le lieu, dites qui est Léopold, puis expliquez ce qui surprend."
       },
       {
         "id": "q2",
@@ -3509,7 +3517,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 4,
         "consigne": "Qu’est-ce qui peut relever également du comique dans la fin du texte ?",
-        "aide": "Cherchez le contraste entre l’émotion intense de Léopold et la réaction de sa femme."
+        "aide": "Comparez la réaction de Léopold et celle des personnes qui l’entourent à la fin : sont-elles à la même hauteur ? Qu’est-ce qui fait sourire ?"
       },
       {
         "id": "q6a",
@@ -3532,7 +3540,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 1,
         "consigne": "Parmi les deux phrases proposées dans le sujet, trouvez et recopiez la proposition subordonnée complétive.",
-        "aide": "Elle complète ici le verbe « s’assura ».",
+        "aide": "Cherchez la proposition qui commence par « que » et complète un verbe, et non un nom.",
         "correction": "La proposition subordonnée complétive est « que la troisième était au complet » ; elle est complément du verbe « s’assura »."
       },
       {
@@ -3580,7 +3588,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 2,
         "consigne": "L’adjectif « étrange » vient du latin « extraneus », « qui n’est pas de la famille, étranger ». Comment ce sens premier peut-il enrichir le sens de l’adjectif dans le texte ?",
-        "aide": "La patronne découvre soudain chez son mari quelque chose qui lui paraît presque étranger."
+        "aide": "Partez du sens latin : « qui n’est pas de la famille ». Relisez la phrase du texte : qui regarde qui ? Que devient le mot « étrange » si on lui donne ce sens-là ?"
       }
     ],
     "texteDomainePublic": false

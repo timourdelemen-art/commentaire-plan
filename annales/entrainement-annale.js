@@ -169,6 +169,40 @@
     return [...relevant,...distractors].slice(0,4);
   }
 
+  /* Brevet : les questions ouvertes reçoivent « une réponse possible » (et non une correction unique),
+     et chaque étape affiche sa boussole. Le bac n’est pas concerné. */
+  const BREVET_CLOSED=["brevet-grammaire","brevet-lexique","brevet-reecriture"];
+  const isBrevetOpen=step=>item.type==="brevet" && !BREVET_CLOSED.includes(step.kind);
+  const correctionLabel=step=>isBrevetOpen(step)?"Voir une réponse possible":"Voir la correction expliquée";
+  const BREVET_BOUSSOLE={
+    "brevet-comprehension":["La question et le texte.","Vous répondez en une phrase, avec les mots de la question, puis vous citez le passage qui le prouve.","Une réponse courte et prouvée."],
+    "brevet-interpretation":["Un passage qui surprend, un retournement ou un point de vue.","Vous complétez : « Je m’attendais à… Pourtant, le texte… Pourquoi ? », puis vous citez le texte.","Une interprétation appuyée sur des mots précis."],
+    "brevet-analyse":["Un passage précis du texte.","Vous relevez un élément, vous nommez le procédé, puis vous dites ce qu’il fait sentir ici.","Une analyse : élément, procédé, effet."],
+    "brevet-image":["L’image du sujet officiel et le texte.","Vous décrivez ce que vous voyez, puis vous le reliez à une citation du texte.","Une comparaison précise entre l’image et le texte."],
+    "brevet-grammaire":["Un mot ou un groupe de mots.","Vous faites une manipulation : supprimer, déplacer, remplacer par un pronom.","Une réponse grammaticale prouvée par le test."],
+    "brevet-lexique":["Un mot du texte.","Vous le découpez en morceaux ou vous le remplacez, puis vous vérifiez dans la phrase.","Le sens du mot dans ce texte."],
+    "brevet-reecriture":["Un passage et un changement imposé.","Vous repérez tous les mots qui dépendent du mot changé, vous réécrivez, puis vous relisez chaque accord.","Un passage réécrit sans oubli."]
+  };
+  if(item.type==="brevet"){
+    const pageBoussole=document.querySelector(".pagehead .boussole");
+    if(pageBoussole) pageBoussole.innerHTML="<p><b>D’où vous partez</b>Le texte du sujet, lu une fois en entier.</p><p><b>Ce que vous faites</b>Une question à la fois : vous répondez seul, puis vous pouvez demander un coup de pouce, une réponse possible ou un retour.</p><p><b>Ce que vous obtenez</b>Des réponses précises, prouvées par le texte, que vous saurez refaire le jour du brevet.</p>";
+  }
+  function renderStepBoussole(step){
+    if(item.type!=="brevet") return;
+    let box=document.getElementById("stepBoussole");
+    if(!box){
+      box=document.createElement("div");
+      box.id="stepBoussole";
+      box.className="boussole brevet-step-boussole";
+      box.setAttribute("aria-label","Boussole de la question");
+      els.instruction.insertAdjacentElement("afterend",box);
+    }
+    const usesPourtant=/Je m’attendais|je m’attendais|Il croyait/.test(step.aide||"");
+    const b=BREVET_BOUSSOLE[usesPourtant?"brevet-interpretation":step.kind];
+    box.hidden=!b;
+    if(b) box.innerHTML="<p><b>D’où vous partez</b>"+b[0]+"</p><p><b>Ce que vous faites</b>"+b[1]+"</p><p><b>Ce que vous obtenez</b>"+b[2]+"</p>";
+  }
+
   const LABEL3={ok:"Solide",def:"Défendable",no:"À revoir"};
   const structured=step=>(step.choix||[]).length>0 && Array.isArray(step.choix[0]);
   function shuffle(a){const b=a.slice();for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]];}return b;}
@@ -176,7 +210,8 @@
     if(!els.manual) return;
     const guidedChoices=(step.choix||[]);
     const isStructured=structured(step);
-    const procedureOptions=procedureChoices(step);
+    /* Brevet : pas de liste de procédés au hasard quand la question n’en demande pas. */
+    const procedureOptions=(item.type==="brevet" && !(step.manual||[]).length)?[]:procedureChoices(step);
     const hasSecond=guidedChoices.length || procedureOptions.length;
     const showSecond=(isStructured?level>=1:level>=2) && hasSecond;
     const showCorrection=level>=3 && step.correction;
@@ -194,7 +229,9 @@
         "</div>";
       if(!guidedChoices.length) html+="<p class='micro'>Le nom du procédé ne suffit jamais : c’est son effet ici qui compte.</p>";
     }
-    if(showCorrection){
+    if(showCorrection && isBrevetOpen(step)){
+      html+="<div class='guided-correction'><div class='kicker'>UNE RÉPONSE POSSIBLE</div><p>"+step.correction+"</p><p class='micro'>D’autres réponses sont justes si elles sont prouvées par le texte. Comparez avec la vôtre : qu’avez-vous oublié ? Puis réécrivez votre réponse avant de poursuivre.</p></div>";
+    }else if(showCorrection){
       html+="<div class='guided-correction'><div class='kicker'>CORRECTION EXPLIQUÉE</div><p>"+step.correction+"</p><p class='micro'>Relisez votre première réponse, puis réécrivez-la avant de poursuivre.</p></div>";
     }
     els.manual.innerHTML=html;
@@ -229,6 +266,11 @@
       els.helpButton.disabled=false;
       els.helpButton.textContent="Voir la correction expliquée";
       els.helpLevel.textContent="Aide 1";
+    }else if(level===1 && item.type==="brevet" && !hasSecond && hasCorrection){
+      els.helpButton.hidden=false;
+      els.helpButton.disabled=false;
+      els.helpButton.textContent=correctionLabel(step);
+      els.helpLevel.textContent="Aide 1";
     }else if(level===1 && (hasSecond||hasCorrection)){
       els.helpButton.hidden=false;
       els.helpButton.disabled=false;
@@ -237,11 +279,11 @@
     }else if(level===2 && hasCorrection){
       els.helpButton.hidden=false;
       els.helpButton.disabled=false;
-      els.helpButton.textContent="Voir la correction expliquée";
+      els.helpButton.textContent=correctionLabel(step);
       els.helpLevel.textContent="Aide 2";
     }else{
       els.helpButton.hidden=true;
-      els.helpLevel.textContent=hasCorrection?"Correction affichée":"Aide affichée";
+      els.helpLevel.textContent=hasCorrection?(isBrevetOpen(step)?"Réponse possible affichée":"Correction affichée"):"Aide affichée";
     }
   }
 
@@ -290,7 +332,8 @@
     const hasSecond=(step.choix||[]).length || (step.manual||[]).length;
     const max=step.correction?3:(hasSecond?2:1);
     const cur=state.help[step.id]||0;
-    state.help[step.id]=Math.min(max,structured(step)&&cur===1?3:cur+1);
+    const skipEmptyLevel=item.type==="brevet" && !hasSecond && cur===1;
+    state.help[step.id]=Math.min(max,(structured(step)||skipEmptyLevel)&&cur===1?3:cur+1);
     save();
     renderHelp(step);
   });
@@ -329,6 +372,7 @@
     els.label.textContent=(step.kind||step.id).toUpperCase();
     els.stepTitle.textContent=step.titre;
     els.instruction.textContent=step.consigne;
+    renderStepBoussole(step);
     els.answer.value=state.answers[step.id]||"";
     els.feedback.classList.remove("show");
     els.feedback.textContent="";
