@@ -1,6 +1,6 @@
 /* Dictée : un bouton « Dicter » sous chaque zone d'écriture, là où le navigateur sait transcrire la voix
    (Chrome, Edge, Safari). Chargé par site-nav.js seulement si la reconnaissance vocale existe.
-   Pas de dictée en mode examen (bac-mode-examen.html) ni sur une zone marquée data-sans-dictee.
+   Pas de dictée en mode examen (bac-mode-examen.html) ni dans le simulateur d’oral (bac-oral.html), qui a son propre micro ni sur une zone marquée data-sans-dictee.
    La voix est transcrite par le service du navigateur (voir confidentialite.html) ; le site ne reçoit que le texte. */
 (()=>{
 const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
