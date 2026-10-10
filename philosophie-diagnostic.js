@@ -16,7 +16,7 @@ const qs=[
 ["Mais comment pourrait-on être heureux en désirant, si tout désir, une fois satisfait, finit toujours par retomber dans l’ennui ?",false,"La réponse est déjà dans la question : la partie II n’a plus rien à chercher."],
 ["Si le désir s’éteint dès qu’il est satisfait, que cherchons-nous vraiment en désirant : l’objet, ou le fait même de désirer ?",true,"C’est la bonne : elle part exactement de la limite et pose une question vraiment ouverte, qui ouvre la partie II."],
 ["Le désir est donc une question complexe, qui touche tous les aspects de l’existence humaine, du corps à l’esprit.",false,"Une généralité qui quitte la difficulté précise."]]},
-{skill:"troisieme",title:"Quelle troisième partie est la plus forte ?",context:"I : une loi générale garantit l’égalité, la même règle pour tous. II : mais elle ne voit pas les situations particulières, et peut produire une injustice. Reste : comment être juste avec chacun sans cesser de l’être pour tous ?",options:[
+{skill:"troisieme",title:"Quelle troisième partie est la plus forte ?",context:"I : une loi générale garantit l’égalité, la même règle pour tous. II : mais elle ne voit pas les situations particulières, et peut produire une injustice. Le problème à résoudre : comment être juste avec chacun sans cesser de l’être pour tous ?",options:[
 ["Il faut donc appliquer les lois à moitié : un peu de règle commune, un peu d’exception selon les cas.",false,"Couper la poire en deux n’explique rien : on renonce au problème au lieu de le traiter."],
 ["Finalement, il faut supprimer les lois générales et juger chaque cas séparément, selon sa situation.",false,"Choisir un camp efface ce que la partie I avait montré : l’égalité devant la règle."],
 ["Distinguer deux plans : la loi fixe la règle pour tous, le juge l’applique à chaque cas avec équité.",true,"C’est la bonne : elle garde l’acquis de I et de II en distinguant deux plans, la règle et son application."],
@@ -67,9 +67,9 @@ argumenter:{context:"Vous voulez montrer que l’habitude ne garantit pas qu’u
 transitions:{context:"Partie I : la technique nous donne du pouvoir sur la nature. Limite : ce pouvoir peut produire des dommages que nous ne savons pas réparer.",options:[
 ["Après avoir étudié le pouvoir que nous donne la technique sur la nature, nous parlerons maintenant de la nature elle-même.",false,"Simple annonce : aucune difficulté ne rend la suite nécessaire."],
 ["Puisque la technique détruit la nature, il faut y renoncer et revenir à une vie plus simple.",false,"La réponse est décidée avant l’examen de la deuxième partie."],
-["Si notre puissance peut causer des dommages irréparables, suffit-il de pouvoir agir pour avoir le droit de le faire ?",true,"La limite du pouvoir technique devient une question ouverte sur la responsabilité."],
+["Si notre puissance peut causer des dommages irréparables, d’où nous viendrait le droit de faire tout ce que nous pouvons ?",true,"La limite du pouvoir technique devient une question ouverte : la partie II devra chercher d’où vient ce droit."],
 ["La technique a donc de nombreux avantages, mais aussi des inconvénients qu’il faut examiner.","def","Le contraste est réel, mais la difficulté précise des dommages irréparables disparaît."]]},
-troisieme:{context:"I : dire la vérité respecte l’autre. II : une vérité brutale peut lui nuire. Reste : comment respecter l’autre sans le tromper ni l’écraser ?",options:[
+troisieme:{context:"I : dire la vérité respecte l’autre. II : une vérité brutale peut lui nuire. Le problème à résoudre : comment respecter l’autre sans le tromper ni l’écraser ?",options:[
 ["Il faut mentir une fois sur deux, pour ne blesser personne tout en restant assez sincère.",false,"Un compromis de quantité ne résout pas la tension."],
 ["Distinguer ne pas tromper et la manière de dire : la sincérité oblige, mais n’autorise pas la brutalité.",true,"La distinction garde l’exigence de vérité et le souci d’autrui sans les confondre."],
 ["Il faut toujours dire toute la vérité, quelles que soient les conséquences pour celui ou celle qui l’entend.",false,"La difficulté de la deuxième partie est supprimée : c’est choisir un camp."],
@@ -81,14 +81,31 @@ references:{context:"Vous voulez montrer que douter peut être une méthode pour
 ["Selon Descartes, il faut douter de tout, toujours, et ne jamais rien tenir pour certain.",false,"Contresens : le doute est une étape de la recherche, non une fin en soi."]]}
 };
 const questionsInitiales=qs.slice(1).map(q=>({...q}));
-let numeroProbleme=0;
-try{numeroProbleme=Number(sessionStorage.getItem("philo-probleme-numero")||"0")||0;}catch(e){}
+/* Chaque reprise présente un sujet différent du précédent, même après rechargement.
+   Une série parcourt les six sujets avant de recommencer : banque finie, sans promesse d'infini. */
+const STORAGE_KEY="philo-diagnostic-sujets-v2";
+let historique=[];
+try {
+ const saved=JSON.parse(localStorage.getItem(STORAGE_KEY)||"[]");
+ if(Array.isArray(saved)) historique=saved.filter(n=>Number.isInteger(n)&&n>=0&&n<problemes.length);
+} catch(e) {}
+let dernierSujet=historique.length?historique[historique.length-1]:-1;
+let nombreReprises=0;
 function choisirProbleme(){
- const p=problemes[numeroProbleme%problemes.length];
+ const disponibles=problemes.map((_,n)=>n).filter(n=>!historique.includes(n));
+ const candidats=disponibles.length?disponibles:problemes.map((_,n)=>n).filter(n=>n!==dernierSujet);
+ const index=candidats[Math.floor(Math.random()*candidats.length)];
+ if(!disponibles.length) historique=[];
+ historique.push(index);
+ dernierSujet=index;
+ try {localStorage.setItem(STORAGE_KEY,JSON.stringify(historique));} catch(e) {}
+ const p=problemes[index];
  qs[0]={...qs[0],context:p.context,options:p.options};
- questionsInitiales.forEach((original,j)=>{const alt=autresSituations[original.skill];qs[j+1]=numeroProbleme%2===0?{...original}:{...original,context:alt.context,options:alt.options};});
- try{sessionStorage.setItem("philo-probleme-numero",String(numeroProbleme+1));}catch(e){}
- numeroProbleme++;
+ questionsInitiales.forEach((original,j)=>{
+  const alt=autresSituations[original.skill];
+  qs[j+1]=nombreReprises%2===0?{...original}:{...original,context:alt.context,options:alt.options};
+ });
+ nombreReprises++;
 }
 function recommencer(){i=0;Object.keys(scores).forEach(k=>delete scores[k]);choisirProbleme();show();}
 const labels={problematiser:"Trouver le problème d’un sujet",argumenter:"Argumenter",transitions:"Construire les transitions",troisieme:"Construire la troisième partie",references:"Utiliser les références"};
@@ -121,10 +138,10 @@ function finish(){
  const weak=order.filter(k=>!scores[k]);
  const solid=order.filter(k=>scores[k]);
  if(!weak.length){
-   stage.innerHTML='<div class="diag-result"><div class="kicker">LES CINQ GESTES TIENNENT</div><h2>Passez à un vrai sujet.</h2><p>Vous avez réussi les cinq situations. Le bon test maintenant est un sujet complet, sans aide au départ.</p><div class="prescription"><strong>Travail conseillé :</strong><br>Choisissez une annale, trouvez seul le problème et le plan, puis comparez avec le corrigé.</div><a class="btn red" href="philosophie-annales.html">Choisir une annale →</a><p class="micro"><button type="button" class="philo-reset" id="diagReset">Recommencer le diagnostic</button></p></div>';
+   stage.innerHTML='<div class="diag-result"><div class="kicker">LES CINQ GESTES TIENNENT</div><h2>Passez à un vrai sujet.</h2><p>Vous avez réussi les cinq situations. Le bon test maintenant est un sujet complet, sans aide au départ.</p><div class="prescription"><strong>Travail conseillé :</strong><br>Choisissez une annale, trouvez seul le problème et le plan, puis comparez avec le corrigé.</div><a class="btn red" href="philosophie-annales.html">Choisir une annale →</a><p class="micro"><button type="button" class="philo-reset" id="diagReset">Recommencer sur un autre sujet</button></p></div>';
  }else{
    const priority=weak[0];
-   stage.innerHTML='<div class="diag-result"><div class="kicker">VOTRE PRIORITÉ</div><h2>'+labels[priority]+'</h2><p>Vous avez réussi '+solid.length+' situation'+(solid.length>1?"s":"")+' sur 5. Ce n’est pas une note : c’est l’endroit où commencer.</p><div class="prescription"><strong>Travail conseillé :</strong><br>'+prescription(priority)+'</div><a class="btn red" href="'+links[priority]+'">Travailler cette priorité →</a> <a class="home-text-link" href="philosophie.html">Revoir le parcours →</a><p class="micro"><button type="button" class="philo-reset" id="diagReset">Recommencer le diagnostic</button></p></div>';
+   stage.innerHTML='<div class="diag-result"><div class="kicker">VOTRE PRIORITÉ</div><h2>'+labels[priority]+'</h2><p>Vous avez réussi '+solid.length+' situation'+(solid.length>1?"s":"")+' sur 5. Ce n’est pas une note : c’est l’endroit où commencer.</p><div class="prescription"><strong>Travail conseillé :</strong><br>'+prescription(priority)+'</div><a class="btn red" href="'+links[priority]+'">Travailler cette priorité →</a> <a class="home-text-link" href="philosophie.html">Revoir le parcours →</a><p class="micro"><button type="button" class="philo-reset" id="diagReset">Recommencer sur un autre sujet</button></p></div>';
  }
  document.getElementById("diagReset").onclick=()=>{recommencer();};
 }
