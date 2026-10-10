@@ -1,14 +1,11 @@
 <!doctype html><html lang="fr"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Séquence Pot-Bouille — PDF complet | Commentaire Plan</title>
-<meta name="description" content="Séquence complète Pot-Bouille de Zola pour la Première : dossier professeur, textes, corrigés, parcours transversal, commentaire et dissertation.">
+<title>Séquence Pot-Bouille — dossier professeur en ligne | Commentaire Plan</title>
+<meta name="description" content="Séquence Pot-Bouille de Zola pour la Première, en ligne : progression, trois extraits, corrigés, grammaire interprétative et entraînement à la dissertation.">
 <link rel="canonical" href="https://commentaire-plan.com/sequence-pot-bouille.html">
 <link rel="stylesheet" href="styles.css">
-<style>
-.pdf-shell{min-height:75vh;margin:1.5rem 0}.pdf-shell iframe{width:100%;height:78vh;border:1px solid #ddd;background:#f7f7f7}
-.pdf-status{padding:1rem 0}.pdf-actions{display:flex;gap:1rem;flex-wrap:wrap;margin:1rem 0}
-</style><script type="speculationrules" data-seo-speculation="1">{"prefetch":[{"where":{"and":[{"href_matches":"/*"},{"not":{"selector_matches":"[download],.no-prefetch"}}]},"eagerness":"moderate"}]}</script>
-<script type="application/ld+json" data-seo-breadcrumbs="1">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://commentaire-plan.com/"},{"@type":"ListItem","position":2,"name":"Bac français","item":"https://commentaire-plan.com/bac.html"},{"@type":"ListItem","position":3,"name":"La séquence complète en PDF."}]}</script>
+<script type="speculationrules" data-seo-speculation="1">{"prefetch":[{"where":{"and":[{"href_matches":"/*"},{"not":{"selector_matches":"[download],.no-prefetch"}}]},"eagerness":"moderate"}]}</script>
+<script type="application/ld+json" data-seo-breadcrumbs="1">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://commentaire-plan.com/"},{"@type":"ListItem","position":2,"name":"Bac français","item":"https://commentaire-plan.com/bac.html"},{"@type":"ListItem","position":3,"name":"La séquence, page par page."}]}</script>
 </head><body><header class="top" data-seo-static-nav="1">
   <div class="wrap mast mast-v3">
     <a class="brand brand-v2" href="/">COMMENTAIRE<br>PLAN</a>
@@ -84,32 +81,20 @@
     <a href="/enseignants.html"><strong>Enseignants</strong><span>Ressources et séquences</span></a>
   </nav>
 </header><main class="wrap">
-<nav class="seo-breadcrumbs wrap" aria-label="Fil d’Ariane"><a href="/">Accueil</a><span aria-hidden="true">›</span><a href="/bac.html">Bac français</a><span aria-hidden="true">›</span><span aria-current="page">La séquence complète en PDF.</span></nav>
+<nav class="seo-breadcrumbs wrap" aria-label="Fil d’Ariane"><a href="/">Accueil</a><span aria-hidden="true">›</span><a href="/bac.html">Bac français</a><span aria-hidden="true">›</span><span aria-current="page">La séquence, page par page.</span></nav>
 <section class="pagehead"><div><div class="kicker">PREMIÈRE · POT-BOUILLE</div>
-<h1>La séquence complète en PDF.</h1>
-<p class="lede">Progression, textes, fiches élèves, corrigés, grammaire interprétative, parcours transversal, commentaire, dissertation et évaluation.</p>
+<h1>La séquence, page par page.</h1>
+<p class="lede">La version PDF de la séquence n’est pas disponible pour le moment. Tout le dossier se consulte en ligne, et chaque page s’imprime depuis le navigateur.</p>
 </div></section>
-<div class="pdf-actions"><a class="btn red" id="openPdf" href="#" aria-disabled="true">Ouvrir le PDF →</a><a class="home-text-link" href="pot-bouille-professeurs.html">Retour au dossier professeur →</a></div>
-<div class="pdf-status" id="status">Chargement du PDF…</div>
-<div class="pdf-shell" id="shell"></div>
-<noscript><p>JavaScript est nécessaire pour reconstituer et afficher ce PDF. Le dossier reste consultable sur la page professeur.</p></noscript>
+<section class="offer-band"><div class="kicker">LE DOSSIER EN LIGNE</div><h2>Ce que vous trouverez, et où.</h2>
+<div class="seo-links">
+<a href="pot-bouille-professeurs.html"><strong>Dossier professeur</strong><span>Progression, séances, grammaire interprétative, parcours transversal →</span></a>
+<a href="pot-bouille-pb01.html"><strong>PB-01 · La cour des cuisines</strong><span>Texte et fiche élève, étayage fort →</span></a>
+<a href="pot-bouille-pb02.html"><strong>PB-02 · Le retour de Berthe</strong><span>Texte et fiche élève, étayage réduit →</span></a>
+<a href="pot-bouille-pb03.html"><strong>PB-03 · Le lendemain du scandale</strong><span>Texte et fiche élève, transfert →</span></a>
+<a href="pot-bouille-corriges.html"><strong>Corrigés PB-01 à PB-03</strong><span>Problématiques, plans, analyses et commentaires brefs rédigés →</span></a>
+<a href="pot-bouille-dissertation.html"><strong>Dissertation</strong><span>Entraînement guidé sur l’œuvre entière →</span></a>
+</div></section>
 </main><script src="site-nav.js"></script>
-<script>
-(async()=>{
- const status=document.getElementById('status'), shell=document.getElementById('shell'), open=document.getElementById('openPdf');
- const base='https://raw.githubusercontent.com/timourdelemen-art/commentaire-plan/7faeeac0e0ce2273e0789fd24b33153011f1c471/.pdfparts/part-';
- try{
-   const parts=await Promise.all(['00','01','02','03'].map(n=>fetch(base+n).then(r=>{if(!r.ok) throw new Error('part '+n); return r.text()})));
-   const b64=parts.join('').replace(/\s+/g,'');
-   const bin=atob(b64), bytes=new Uint8Array(bin.length);
-   for(let i=0;i<bin.length;i++) bytes[i]=bin.charCodeAt(i);
-   const url=URL.createObjectURL(new Blob([bytes],{type:'application/pdf'}));
-   const iframe=document.createElement('iframe'); iframe.src=url; iframe.title='Séquence Pot-Bouille - PDF complet'; shell.appendChild(iframe);
-   open.href=url; open.target='_blank'; open.removeAttribute('aria-disabled'); open.setAttribute('download','sequence-pot-bouille.pdf');
-   status.textContent='PDF chargé. Vous pouvez le consulter ci-dessous ou l’ouvrir séparément.';
- }catch(e){
-   status.textContent='Le PDF ne peut pas être chargé pour le moment. Le contenu pédagogique reste disponible dans le dossier professeur.';
- }
-})();
-</script><footer class="site-footer" data-seo-static-footer="1"><div class="wrap"><a href="/plan-du-site.html">Plan du site</a><a href="/apropos.html">La démarche</a><a href="/offre.html">L’offre</a><a href="/contact.html">Contact</a><a href="/mentions-legales.html">Mentions légales</a><a href="/confidentialite.html">Confidentialité</a><a href="/cgv.html">CGV</a></div></footer>
+<footer class="site-footer" data-seo-static-footer="1"><div class="wrap"><a href="/plan-du-site.html">Plan du site</a><a href="/apropos.html">La démarche</a><a href="/offre.html">L’offre</a><a href="/contact.html">Contact</a><a href="/mentions-legales.html">Mentions légales</a><a href="/confidentialite.html">Confidentialité</a><a href="/cgv.html">CGV</a></div></footer>
 </body></html>

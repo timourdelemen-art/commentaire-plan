@@ -50,7 +50,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
-        "consigne": "En une phrase : à partir de cette situation, que s’attendrait-on normalement à lire ensuite ?",
+        "consigne": "En une phrase, complétez : « On pouvait attendre… ».\nÀ partir de ce que le texte installe, quelle suite paraissait normale ?",
         "aide": "À partir d’un guerrier mortellement blessé après une défaite, quelle évolution paraîtrait la plus attendue ? Une phrase suffit.",
         "choix": [
           [
@@ -75,11 +75,11 @@ window.ANNALES_CATALOGUE = {
         "id": "transformation",
         "kind": "lecture",
         "aiMode": "none",
-        "titre": "3. La transformation",
+        "titre": "3. Pourtant",
         "temps": 360,
         "access": "free",
-        "consigne": "En une ou deux phrases : qu’est-ce que le texte fait de cette situation, au lieu de ce qu’on attendait ?\nExemple sur un autre texte : « au lieu d’une scène de deuil, le poème devient une fête ».",
-        "aide": "Comparez cette attente à ce que Hialmar fait et dit jusqu’au dernier vers. Formulez le déplacement sans encore construire le plan.",
+        "consigne": "En une ou deux phrases, complétez : « Pourtant, le texte produit… ». Dites ce que le texte fait à la place de ce qu’on attendait.\nExemple sur un autre texte : « On pouvait attendre une scène de deuil. Pourtant, le poème en fait une fête. »\nLe pourtant n’a pas besoin d’être spectaculaire : une complication, une intensification ou une résistance suffisent. S’il ne vient pas, relisez le texte : n’inventez pas de problème.",
+        "aide": "Comparez ce qu’on pouvait attendre à ce que Hialmar fait et dit jusqu’au dernier vers. Complétez « Pourtant, le texte produit… » sans encore construire le plan.",
         "choix": [
           [
             "La défaite subie devient, par la parole, une victoire héroïque.",
@@ -89,15 +89,15 @@ window.ANNALES_CATALOGUE = {
           [
             "Le poème décrit avec précision les blessures du guerrier.",
             "no",
-            "C’est ce que le texte montre, pas ce qu’il en fait : il n’y a là aucune transformation."
+            "C’est ce que le texte montre, pas ce qu’il en fait : il n’y a pas encore de pourtant."
           ],
           [
             "Le guerrier oublie sa mort en pensant à celle qu’il aime.",
             "def",
-            "Il pense bien à la fille d’Ylmer, mais il n’oublie pas sa mort : il la commande. C’est là qu’est la transformation."
+            "Il pense bien à la fille d’Ylmer, mais il n’oublie pas sa mort : il la commande. C’est là qu’est le pourtant."
           ]
         ],
-        "correction": "Le poème ne supprime pas la défaite physique : il en transforme le sens. Hialmar reprend une maîtrise par la parole et fait de sa mort une victoire héroïque."
+        "correction": "On pouvait attendre une agonie subie. Pourtant, le poème ne supprime pas la défaite du corps : il en change le sens. Hialmar reprend la maîtrise par la parole et fait de sa mort une victoire héroïque."
       },
       {
         "id": "problematique",
@@ -106,26 +106,26 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Écrivez une question, une seule, qui commence par « Comment » et qui demande comment le texte produit cette surprise.",
+        "consigne": "Dites le problème en une seule question, sans perdre X (ce qu’on pouvait attendre) ni Y (ce que le texte produit pourtant).\nForme possible : « Comment [l’auteur] fait-il de X Y ? » ou « Comment comprendre que… ? »\nTest : relisez votre question. Y retrouvez-vous X et Y ?",
         "aide": "Gardez ensemble l’agonie réellement subie et ce que la parole de Hialmar en fait progressivement.",
         "choix": [
           [
             "Comment le poème décrit-il un champ de bataille après le combat ?",
             "no",
-            "Une question de description : elle ne fait pas apparaître la transformation de l’agonie."
+            "Une question de description : on n’y retrouve ni l’agonie subie ni ce que le poème en fait."
           ],
           [
             "Comment le poème fait-il d’une agonie subie une victoire héroïque ?",
             "ok",
-            "Elle garde ensemble la défaite donnée et la transformation que le poème produit."
+            "On y retrouve X, l’agonie subie, et Y, la victoire héroïque ; et elle ne donne pas la réponse."
           ],
           [
             "Comment Hialmar exprime-t-il son amour pour la fille d’Ylmer ?",
             "def",
-            "Le message d’amour compte, mais il n’est qu’une partie de la transformation : la question est trop étroite."
+            "Le message d’amour compte, mais la question perd X, l’agonie subie : elle est trop étroite."
           ]
         ],
-        "correction": "Problématique modèle : « Comment Leconte de Lisle transforme-t-il l’agonie d’un guerrier vaincu en victoire héroïque ? » Elle garde ensemble la défaite donnée et la transformation produite par le poème."
+        "correction": "Forme développée : « On pouvait attendre une agonie subie. Pourtant, par la parole, Hialmar fait de sa mort une victoire. » Problématique, en une seule question : « Comment Leconte de Lisle fait-il de l’agonie d’un guerrier vaincu une victoire héroïque ? » On y retrouve X, l’agonie, et Y, la victoire."
       },
       {
         "id": "plan",
@@ -162,8 +162,8 @@ window.ANNALES_CATALOGUE = {
         "titre": "6. Pourquoi cet ordre ?",
         "temps": 540,
         "access": "free",
-        "consigne": "Pour chaque partie, en une phrase : pourquoi vient-elle après la précédente ?\nExemple : « La partie II montre ce que la partie I ne suffisait pas à expliquer : … »",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
+        "consigne": "Pour chaque partie, en une phrase : pourquoi votre démonstration a-t-elle besoin d’elle, à cette place ?\nExemple sur un autre texte : « Il faut d’abord montrer la force de l’inégalité : sans elle, l’égalité finale n’aurait rien de surprenant. »",
+        "aide": "Ne résumez pas la partie, et n’écrivez pas encore la transition (la question posée entre deux parties, à l’étape suivante). Dites ce que cette partie apporte que les autres n’apportent pas."
       },
       {
         "id": "transitions",
@@ -172,8 +172,8 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "free",
-        "consigne": "Entre deux parties, écrivez une seule question : celle qui montre ce que la partie précédente n’a pas encore expliqué.",
-        "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir ».",
+        "consigne": "Entre deux parties, écrivez une seule question ouverte (comment, pourquoi, que, qui…) : celle que la partie précédente laisse sans réponse.\nÉvitez « … suffit-il ? » : la réponse (« non ») est déjà dans la question.",
+        "aide": "Reprenez un mot de la partie précédente, puis posez la question. Pas de mini-bilan, pas de « nous allons maintenant voir ». La partie suivante commencera en reprenant le mot clé de votre question.",
         "choix": [
           [
             "Nous allons maintenant étudier la parole et les ordres de Hialmar.",
@@ -191,7 +191,7 @@ window.ANNALES_CATALOGUE = {
             "Le passage est juste, mais il affirme la réponse au lieu de poser la question qui la rend nécessaire."
           ]
         ],
-        "correction": "Après la première solution : « Comment Hialmar peut-il alors rester maître au moment même où son corps ne lui obéit plus ? » Puis : « Mais commander sa propre mort suffit-il à en faire une victoire héroïque ? »"
+        "correction": "Après la première réponse : « Le corps de Hialmar est vaincu : comment peut-il rester maître au moment même où ce corps ne lui obéit plus ? » La partie II reprend le mot clé : « Maître, il l’est encore par la parole… » Entre II et III : « Hialmar commande jusqu’au bout, mais il meurt : quel sens sa parole donne-t-elle à cette mort ? » La partie III commence : « Ce sens est celui d’une victoire… »"
       },
       {
         "id": "realisations",
@@ -200,7 +200,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations : ce que le texte fait",
         "temps": 780,
         "access": "free",
-        "consigne": "Pour chaque partie de votre plan, écrivez deux réalisations, c’est-à-dire deux choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux ou trois réalisations, c’est-à-dire des choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez des actions d’écriture différentes : construire la défaite, donner une autorité à la parole, modifier la valeur de la mort. Une réalisation n’est pas le nom d’une figure."
       },
       {
@@ -226,7 +226,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "free",
-        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qui surprend dans le texte.\nPosez la problématique.\nAnnoncez les parties.",
+        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qu’on pouvait attendre, puis ce que le texte produit pourtant.\nPosez la problématique : le même problème, en une seule question.\nAnnoncez les parties.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -236,18 +236,18 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "free",
-        "consigne": "Rédigez une partie entière, une quinzaine de lignes, à partir de votre réponse et de ce que le texte fait.\nChaque analyse doit prouver l’idée de la partie.",
+        "consigne": "Rédigez une partie entière, une quinzaine de lignes.\nCommencez par votre réponse à la problématique.\nConstruisez-la par deux ou trois réalisations analysées : ce que le texte fait, prouvé par ses mots.\nFinissez sur ce que cette réponse n’explique pas encore.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
         "id": "raccord",
         "kind": "redaction",
         "aiMode": "optional",
-        "titre": "12. Rédiger le raccord",
+        "titre": "12. Rédiger la transition",
         "temps": 360,
         "access": "free",
-        "consigne": "Après votre partie, entre elle et la suivante, écrivez une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
-        "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
+        "consigne": "Après votre partie, écrivez la transition : un court paragraphe à part, une ou deux phrases, qui finit par une question ouverte.\nPuis écrivez la première phrase de la partie suivante : elle reprend le mot clé de votre question.",
+        "aide": "Exemple sur un autre texte : « Le jouet rapproche les deux enfants, mais la grille demeure : comment ce rapprochement devient-il une égalité ? » Puis la partie suivante : « Ce rapprochement devient égalité dans le rire final… »"
       },
       {
         "id": "conclusion",
@@ -256,7 +256,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "free",
-        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.",
+        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.\nPas d’ouverture artificielle sur un autre texte ou un autre sujet.",
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
     ],
@@ -297,17 +297,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
-        "consigne": "En une phrase : à partir de cette situation, que s’attendrait-on normalement à lire ensuite ?",
+        "consigne": "En une phrase, complétez : « On pouvait attendre… ».\nÀ partir de ce que le texte installe, quelle suite paraissait normale ?",
         "aide": "Un récit de voyage pourrait se limiter au trajet, aux lieux et aux étapes. Demandez-vous ce que ce cadre fait d’abord attendre."
       },
       {
         "id": "transformation",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "3. La transformation",
+        "titre": "3. Pourtant",
         "temps": 360,
         "access": "free",
-        "consigne": "En une ou deux phrases : qu’est-ce que le texte fait de cette situation, au lieu de ce qu’on attendait ?\nExemple sur un autre texte : « au lieu d’une scène de deuil, le poème devient une fête ».",
+        "consigne": "En une ou deux phrases, complétez : « Pourtant, le texte produit… ». Dites ce que le texte fait à la place de ce qu’on attendait.\nExemple sur un autre texte : « On pouvait attendre une scène de deuil. Pourtant, le poème en fait une fête. »\nLe pourtant n’a pas besoin d’être spectaculaire : une complication, une intensification ou une résistance suffisent. S’il ne vient pas, relisez le texte : n’inventez pas de problème.",
         "aide": "Observez ce que l’écriture fait de l’expérience du déplacement : ne résumez pas le voyage, formulez ce que le regard ou la perception deviennent dans le passage."
       },
       {
@@ -317,7 +317,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Écrivez une question, une seule, qui commence par « Comment » et qui demande comment le texte produit cette surprise.",
+        "consigne": "Dites le problème en une seule question, sans perdre X (ce qu’on pouvait attendre) ni Y (ce que le texte produit pourtant).\nForme possible : « Comment [l’auteur] fait-il de X Y ? » ou « Comment comprendre que… ? »\nTest : relisez votre question. Y retrouvez-vous X et Y ?",
         "aide": "Votre question doit garder ensemble l’expérience concrète du voyage et le déplacement que l’écriture fait subir au regard."
       },
       {
@@ -337,8 +337,8 @@ window.ANNALES_CATALOGUE = {
         "titre": "6. Pourquoi cet ordre ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque partie, en une phrase : pourquoi vient-elle après la précédente ?\nExemple : « La partie II montre ce que la partie I ne suffisait pas à expliquer : … »",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
+        "consigne": "Pour chaque partie, en une phrase : pourquoi votre démonstration a-t-elle besoin d’elle, à cette place ?\nExemple sur un autre texte : « Il faut d’abord montrer la force de l’inégalité : sans elle, l’égalité finale n’aurait rien de surprenant. »",
+        "aide": "Ne résumez pas la partie, et n’écrivez pas encore la transition (la question posée entre deux parties, à l’étape suivante). Dites ce que cette partie apporte que les autres n’apportent pas."
       },
       {
         "id": "transitions",
@@ -347,8 +347,9 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre deux parties, écrivez une seule question : celle qui montre ce que la partie précédente n’a pas encore expliqué.",
-        "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
+        "consigne": "Entre deux parties, écrivez une seule question ouverte (comment, pourquoi, que, qui…) : celle que la partie précédente laisse sans réponse.\nÉvitez « … suffit-il ? » : la réponse (« non ») est déjà dans la question.",
+        "aide": "Reprenez un mot de la partie précédente, puis posez la question. Pas de mini-bilan, pas de « nous allons maintenant voir ». La partie suivante commencera en reprenant le mot clé de votre question.",
+        "correction": "Une transition possible, si votre partie I a montré le trajet concret des deux voyageurs, de la Serbie vers la Macédoine : « Le voyage se lit d’abord en lieux et en étapes : que devient le regard de celui qui le parcourt ? » La partie II commence en reprenant le mot clé : « Ce regard, l’écriture le déplace… » Complétez avec ce que vous avez observé dans le passage."
       },
       {
         "id": "realisations",
@@ -357,7 +358,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations : ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Pour chaque partie de votre plan, écrivez deux réalisations, c’est-à-dire deux choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux ou trois réalisations, c’est-à-dire des choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez comment le texte organise le regard : choix sensoriels ou lexicaux, point de vue, composition du passage, rythme. Formulez d’abord ce que ces moyens permettent de réaliser."
       },
       {
@@ -383,7 +384,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qui surprend dans le texte.\nPosez la problématique.\nAnnoncez les parties.",
+        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qu’on pouvait attendre, puis ce que le texte produit pourtant.\nPosez la problématique : le même problème, en une seule question.\nAnnoncez les parties.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -393,18 +394,18 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une partie entière, une quinzaine de lignes, à partir de votre réponse et de ce que le texte fait.\nChaque analyse doit prouver l’idée de la partie.",
+        "consigne": "Rédigez une partie entière, une quinzaine de lignes.\nCommencez par votre réponse à la problématique.\nConstruisez-la par deux ou trois réalisations analysées : ce que le texte fait, prouvé par ses mots.\nFinissez sur ce que cette réponse n’explique pas encore.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
         "id": "raccord",
         "kind": "redaction",
         "aiMode": "optional",
-        "titre": "12. Rédiger le raccord",
+        "titre": "12. Rédiger la transition",
         "temps": 360,
         "access": "premium",
-        "consigne": "Après votre partie, entre elle et la suivante, écrivez une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
-        "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
+        "consigne": "Après votre partie, écrivez la transition : un court paragraphe à part, une ou deux phrases, qui finit par une question ouverte.\nPuis écrivez la première phrase de la partie suivante : elle reprend le mot clé de votre question.",
+        "aide": "Exemple sur un autre texte : « Le jouet rapproche les deux enfants, mais la grille demeure : comment ce rapprochement devient-il une égalité ? » Puis la partie suivante : « Ce rapprochement devient égalité dans le rire final… »"
       },
       {
         "id": "conclusion",
@@ -413,7 +414,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
-        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.",
+        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.\nPas d’ouverture artificielle sur un autre texte ou un autre sujet.",
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
     ],
@@ -452,17 +453,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
-        "consigne": "En une phrase : à partir de cette situation, que s’attendrait-on normalement à lire ensuite ?",
+        "consigne": "En une phrase, complétez : « On pouvait attendre… ».\nÀ partir de ce que le texte installe, quelle suite paraissait normale ?",
         "aide": "Une description précise d’un lieu réel pourrait rester géographique ou réaliste. Formulez cette attente simplement."
       },
       {
         "id": "transformation",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "3. La transformation",
+        "titre": "3. Pourtant",
         "temps": 360,
         "access": "free",
-        "consigne": "En une ou deux phrases : qu’est-ce que le texte fait de cette situation, au lieu de ce qu’on attendait ?\nExemple sur un autre texte : « au lieu d’une scène de deuil, le poème devient une fête ».",
+        "consigne": "En une ou deux phrases, complétez : « Pourtant, le texte produit… ». Dites ce que le texte fait à la place de ce qu’on attendait.\nExemple sur un autre texte : « On pouvait attendre une scène de deuil. Pourtant, le poème en fait une fête. »\nLe pourtant n’a pas besoin d’être spectaculaire : une complication, une intensification ou une résistance suffisent. S’il ne vient pas, relisez le texte : n’inventez pas de problème.",
         "aide": "Suivez ce qui arrive à cette lande au fil du passage : comment la description cesse-t-elle d’être seulement géographique ?"
       },
       {
@@ -472,7 +473,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Écrivez une question, une seule, qui commence par « Comment » et qui demande comment le texte produit cette surprise.",
+        "consigne": "Dites le problème en une seule question, sans perdre X (ce qu’on pouvait attendre) ni Y (ce que le texte produit pourtant).\nForme possible : « Comment [l’auteur] fait-il de X Y ? » ou « Comment comprendre que… ? »\nTest : relisez votre question. Y retrouvez-vous X et Y ?",
         "aide": "Gardez ensemble le paysage réel de Lessay et la manière dont le texte modifie progressivement sa perception."
       },
       {
@@ -492,8 +493,8 @@ window.ANNALES_CATALOGUE = {
         "titre": "6. Pourquoi cet ordre ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque partie, en une phrase : pourquoi vient-elle après la précédente ?\nExemple : « La partie II montre ce que la partie I ne suffisait pas à expliquer : … »",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
+        "consigne": "Pour chaque partie, en une phrase : pourquoi votre démonstration a-t-elle besoin d’elle, à cette place ?\nExemple sur un autre texte : « Il faut d’abord montrer la force de l’inégalité : sans elle, l’égalité finale n’aurait rien de surprenant. »",
+        "aide": "Ne résumez pas la partie, et n’écrivez pas encore la transition (la question posée entre deux parties, à l’étape suivante). Dites ce que cette partie apporte que les autres n’apportent pas."
       },
       {
         "id": "transitions",
@@ -502,8 +503,9 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre deux parties, écrivez une seule question : celle qui montre ce que la partie précédente n’a pas encore expliqué.",
-        "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
+        "consigne": "Entre deux parties, écrivez une seule question ouverte (comment, pourquoi, que, qui…) : celle que la partie précédente laisse sans réponse.\nÉvitez « … suffit-il ? » : la réponse (« non ») est déjà dans la question.",
+        "aide": "Reprenez un mot de la partie précédente, puis posez la question. Pas de mini-bilan, pas de « nous allons maintenant voir ». La partie suivante commencera en reprenant le mot clé de votre question.",
+        "correction": "Une transition possible, si votre partie I a montré une lande décrite avec précision, dans son étendue et son isolement : « La lande de Lessay est d’abord un lieu réel : comment ce paysage cesse-t-il d’être seulement géographique ? » La partie II commence en reprenant le mot clé : « Ce paysage cesse d’être seulement géographique quand… » Complétez avec les mots du texte."
       },
       {
         "id": "realisations",
@@ -512,7 +514,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations : ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Pour chaque partie de votre plan, écrivez deux réalisations, c’est-à-dire deux choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux ou trois réalisations, c’est-à-dire des choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez plusieurs opérations : creuser le vide et la solitude, faire circuler des paroles ou croyances, donner au paysage une présence, organiser une montée de l’inquiétude."
       },
       {
@@ -538,7 +540,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qui surprend dans le texte.\nPosez la problématique.\nAnnoncez les parties.",
+        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qu’on pouvait attendre, puis ce que le texte produit pourtant.\nPosez la problématique : le même problème, en une seule question.\nAnnoncez les parties.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -548,18 +550,18 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une partie entière, une quinzaine de lignes, à partir de votre réponse et de ce que le texte fait.\nChaque analyse doit prouver l’idée de la partie.",
+        "consigne": "Rédigez une partie entière, une quinzaine de lignes.\nCommencez par votre réponse à la problématique.\nConstruisez-la par deux ou trois réalisations analysées : ce que le texte fait, prouvé par ses mots.\nFinissez sur ce que cette réponse n’explique pas encore.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
         "id": "raccord",
         "kind": "redaction",
         "aiMode": "optional",
-        "titre": "12. Rédiger le raccord",
+        "titre": "12. Rédiger la transition",
         "temps": 360,
         "access": "premium",
-        "consigne": "Après votre partie, entre elle et la suivante, écrivez une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
-        "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
+        "consigne": "Après votre partie, écrivez la transition : un court paragraphe à part, une ou deux phrases, qui finit par une question ouverte.\nPuis écrivez la première phrase de la partie suivante : elle reprend le mot clé de votre question.",
+        "aide": "Exemple sur un autre texte : « Le jouet rapproche les deux enfants, mais la grille demeure : comment ce rapprochement devient-il une égalité ? » Puis la partie suivante : « Ce rapprochement devient égalité dans le rire final… »"
       },
       {
         "id": "conclusion",
@@ -568,7 +570,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
-        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.",
+        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.\nPas d’ouverture artificielle sur un autre texte ou un autre sujet.",
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
     ],
@@ -598,7 +600,7 @@ window.ANNALES_CATALOGUE = {
         "temps": 300,
         "access": "free",
         "consigne": "En une ou deux phrases : que se passe-t-il au début du texte ? Restez au plus près des mots du passage.",
-        "aide": "Identifiez l’objet de réflexion et la mauvaise habitude de jugement que Montaigne prend en charge. Le donné peut ici être une manière commune de juger, pas une situation narrative."
+        "aide": "Identifiez l’objet de réflexion et la mauvaise habitude de jugement que Montaigne prend en charge. Ce que le texte installe peut ici être une manière commune de juger, pas une situation narrative."
       },
       {
         "id": "attente",
@@ -607,17 +609,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
-        "consigne": "En une phrase : à partir de cette situation, que s’attendrait-on normalement à lire ensuite ?",
+        "consigne": "En une phrase, complétez : « On pouvait attendre… ».\nÀ partir de ce que le texte installe, quelle suite paraissait normale ?",
         "aide": "À partir des hiérarchies et signes sociaux évoqués, quel type de jugement ordinaire pourrait-on attendre ?"
       },
       {
         "id": "transformation",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "3. La transformation",
+        "titre": "3. Pourtant",
         "temps": 360,
         "access": "free",
-        "consigne": "En une ou deux phrases : qu’est-ce que le texte fait de cette situation, au lieu de ce qu’on attendait ?\nExemple sur un autre texte : « au lieu d’une scène de deuil, le poème devient une fête ».",
+        "consigne": "En une ou deux phrases, complétez : « Pourtant, le texte produit… ». Dites ce que le texte fait à la place de ce qu’on attendait.\nExemple sur un autre texte : « On pouvait attendre une scène de deuil. Pourtant, le poème en fait une fête. »\nLe pourtant n’a pas besoin d’être spectaculaire : une complication, une intensification ou une résistance suffisent. S’il ne vient pas, relisez le texte : n’inventez pas de problème.",
         "aide": "Demandez-vous vers quel autre critère Montaigne déplace l’évaluation des hommes. Formulez le déplacement sans encore faire le plan."
       },
       {
@@ -627,7 +629,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Écrivez une question, une seule, qui commence par « Comment » et qui demande comment le texte produit cette surprise.",
+        "consigne": "Dites le problème en une seule question, sans perdre X (ce qu’on pouvait attendre) ni Y (ce que le texte produit pourtant).\nForme possible : « Comment [l’auteur] fait-il de X Y ? » ou « Comment comprendre que… ? »\nTest : relisez votre question. Y retrouvez-vous X et Y ?",
         "aide": "Votre question doit garder ensemble la manière habituelle de juger et le déplacement critique opéré par Montaigne."
       },
       {
@@ -647,8 +649,8 @@ window.ANNALES_CATALOGUE = {
         "titre": "6. Pourquoi cet ordre ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque partie, en une phrase : pourquoi vient-elle après la précédente ?\nExemple : « La partie II montre ce que la partie I ne suffisait pas à expliquer : … »",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
+        "consigne": "Pour chaque partie, en une phrase : pourquoi votre démonstration a-t-elle besoin d’elle, à cette place ?\nExemple sur un autre texte : « Il faut d’abord montrer la force de l’inégalité : sans elle, l’égalité finale n’aurait rien de surprenant. »",
+        "aide": "Ne résumez pas la partie, et n’écrivez pas encore la transition (la question posée entre deux parties, à l’étape suivante). Dites ce que cette partie apporte que les autres n’apportent pas."
       },
       {
         "id": "transitions",
@@ -657,8 +659,9 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre deux parties, écrivez une seule question : celle qui montre ce que la partie précédente n’a pas encore expliqué.",
-        "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
+        "consigne": "Entre deux parties, écrivez une seule question ouverte (comment, pourquoi, que, qui…) : celle que la partie précédente laisse sans réponse.\nÉvitez « … suffit-il ? » : la réponse (« non ») est déjà dans la question.",
+        "aide": "Reprenez un mot de la partie précédente, puis posez la question. Pas de mini-bilan, pas de « nous allons maintenant voir ». La partie suivante commencera en reprenant le mot clé de votre question.",
+        "correction": "Une transition possible, si votre partie I a montré que nos jugements se laissent tromper par les signes extérieurs du rang : « Si le rang trompe le jugement, d’après quoi faut-il juger un homme ? » La partie II commence en reprenant le mot clé : « D’après ce qui lui appartient en propre : Montaigne… » Complétez avec les mots du texte."
       },
       {
         "id": "realisations",
@@ -667,7 +670,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations : ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Pour chaque partie de votre plan, écrivez deux réalisations, c’est-à-dire deux choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux ou trois réalisations, c’est-à-dire des choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez comment l’argumentation déplace le jugement : oppositions, exemples ou comparaisons, paradoxes éventuels, progression du raisonnement."
       },
       {
@@ -693,7 +696,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qui surprend dans le texte.\nPosez la problématique.\nAnnoncez les parties.",
+        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qu’on pouvait attendre, puis ce que le texte produit pourtant.\nPosez la problématique : le même problème, en une seule question.\nAnnoncez les parties.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -703,18 +706,18 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une partie entière, une quinzaine de lignes, à partir de votre réponse et de ce que le texte fait.\nChaque analyse doit prouver l’idée de la partie.",
+        "consigne": "Rédigez une partie entière, une quinzaine de lignes.\nCommencez par votre réponse à la problématique.\nConstruisez-la par deux ou trois réalisations analysées : ce que le texte fait, prouvé par ses mots.\nFinissez sur ce que cette réponse n’explique pas encore.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
         "id": "raccord",
         "kind": "redaction",
         "aiMode": "optional",
-        "titre": "12. Rédiger le raccord",
+        "titre": "12. Rédiger la transition",
         "temps": 360,
         "access": "premium",
-        "consigne": "Après votre partie, entre elle et la suivante, écrivez une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
-        "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
+        "consigne": "Après votre partie, écrivez la transition : un court paragraphe à part, une ou deux phrases, qui finit par une question ouverte.\nPuis écrivez la première phrase de la partie suivante : elle reprend le mot clé de votre question.",
+        "aide": "Exemple sur un autre texte : « Le jouet rapproche les deux enfants, mais la grille demeure : comment ce rapprochement devient-il une égalité ? » Puis la partie suivante : « Ce rapprochement devient égalité dans le rire final… »"
       },
       {
         "id": "conclusion",
@@ -723,7 +726,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
-        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.",
+        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.\nPas d’ouverture artificielle sur un autre texte ou un autre sujet.",
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
     ],
@@ -762,17 +765,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
-        "consigne": "En une phrase : à partir de cette situation, que s’attendrait-on normalement à lire ensuite ?",
+        "consigne": "En une phrase, complétez : « On pouvait attendre… ».\nÀ partir de ce que le texte installe, quelle suite paraissait normale ?",
         "aide": "Le vocabulaire de la guerre et celui de l’amour pourraient rester opposés. Formulez ce que cette coexistence fait d’abord attendre."
       },
       {
         "id": "transformation",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "3. La transformation",
+        "titre": "3. Pourtant",
         "temps": 360,
         "access": "free",
-        "consigne": "En une ou deux phrases : qu’est-ce que le texte fait de cette situation, au lieu de ce qu’on attendait ?\nExemple sur un autre texte : « au lieu d’une scène de deuil, le poème devient une fête ».",
+        "consigne": "En une ou deux phrases, complétez : « Pourtant, le texte produit… ». Dites ce que le texte fait à la place de ce qu’on attendait.\nExemple sur un autre texte : « On pouvait attendre une scène de deuil. Pourtant, le poème en fait une fête. »\nLe pourtant n’a pas besoin d’être spectaculaire : une complication, une intensification ou une résistance suffisent. S’il ne vient pas, relisez le texte : n’inventez pas de problème.",
         "aide": "Observez comment le poème fait circuler les images d’un univers à l’autre. Que devient le langage de la guerre lorsqu’il entre dans le poème amoureux ?"
       },
       {
@@ -782,7 +785,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Écrivez une question, une seule, qui commence par « Comment » et qui demande comment le texte produit cette surprise.",
+        "consigne": "Dites le problème en une seule question, sans perdre X (ce qu’on pouvait attendre) ni Y (ce que le texte produit pourtant).\nForme possible : « Comment [l’auteur] fait-il de X Y ? » ou « Comment comprendre que… ? »\nTest : relisez votre question. Y retrouvez-vous X et Y ?",
         "aide": "Gardez ensemble l’expérience guerrière et l’adresse amoureuse, sans réduire le texte à un simple contraste."
       },
       {
@@ -802,8 +805,8 @@ window.ANNALES_CATALOGUE = {
         "titre": "6. Pourquoi cet ordre ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque partie, en une phrase : pourquoi vient-elle après la précédente ?\nExemple : « La partie II montre ce que la partie I ne suffisait pas à expliquer : … »",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
+        "consigne": "Pour chaque partie, en une phrase : pourquoi votre démonstration a-t-elle besoin d’elle, à cette place ?\nExemple sur un autre texte : « Il faut d’abord montrer la force de l’inégalité : sans elle, l’égalité finale n’aurait rien de surprenant. »",
+        "aide": "Ne résumez pas la partie, et n’écrivez pas encore la transition (la question posée entre deux parties, à l’étape suivante). Dites ce que cette partie apporte que les autres n’apportent pas."
       },
       {
         "id": "transitions",
@@ -812,8 +815,9 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre deux parties, écrivez une seule question : celle qui montre ce que la partie précédente n’a pas encore expliqué.",
-        "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
+        "consigne": "Entre deux parties, écrivez une seule question ouverte (comment, pourquoi, que, qui…) : celle que la partie précédente laisse sans réponse.\nÉvitez « … suffit-il ? » : la réponse (« non ») est déjà dans la question.",
+        "aide": "Reprenez un mot de la partie précédente, puis posez la question. Pas de mini-bilan, pas de « nous allons maintenant voir ». La partie suivante commencera en reprenant le mot clé de votre question.",
+        "correction": "Une transition possible, si votre partie I a montré que le poème réunit l’amour pour Lou, l’éloignement et la guerre : « Guerre et amour se côtoient : que devient le langage de la guerre quand il entre dans le poème d’amour ? » La partie II commence en reprenant le mot clé : « Ce langage de la guerre devient… » Complétez avec les images du poème."
       },
       {
         "id": "realisations",
@@ -822,7 +826,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations : ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Pour chaque partie de votre plan, écrivez deux réalisations, c’est-à-dire deux choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux ou trois réalisations, c’est-à-dire des choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez comment le poème fait communiquer les deux univers : métaphores, oppositions lexicales, rythme et organisation des vers."
       },
       {
@@ -848,7 +852,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qui surprend dans le texte.\nPosez la problématique.\nAnnoncez les parties.",
+        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qu’on pouvait attendre, puis ce que le texte produit pourtant.\nPosez la problématique : le même problème, en une seule question.\nAnnoncez les parties.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -858,18 +862,18 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une partie entière, une quinzaine de lignes, à partir de votre réponse et de ce que le texte fait.\nChaque analyse doit prouver l’idée de la partie.",
+        "consigne": "Rédigez une partie entière, une quinzaine de lignes.\nCommencez par votre réponse à la problématique.\nConstruisez-la par deux ou trois réalisations analysées : ce que le texte fait, prouvé par ses mots.\nFinissez sur ce que cette réponse n’explique pas encore.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
         "id": "raccord",
         "kind": "redaction",
         "aiMode": "optional",
-        "titre": "12. Rédiger le raccord",
+        "titre": "12. Rédiger la transition",
         "temps": 360,
         "access": "premium",
-        "consigne": "Après votre partie, entre elle et la suivante, écrivez une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
-        "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
+        "consigne": "Après votre partie, écrivez la transition : un court paragraphe à part, une ou deux phrases, qui finit par une question ouverte.\nPuis écrivez la première phrase de la partie suivante : elle reprend le mot clé de votre question.",
+        "aide": "Exemple sur un autre texte : « Le jouet rapproche les deux enfants, mais la grille demeure : comment ce rapprochement devient-il une égalité ? » Puis la partie suivante : « Ce rapprochement devient égalité dans le rire final… »"
       },
       {
         "id": "conclusion",
@@ -878,7 +882,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
-        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.",
+        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.\nPas d’ouverture artificielle sur un autre texte ou un autre sujet.",
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
     ],
@@ -917,17 +921,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
-        "consigne": "En une phrase : à partir de cette situation, que s’attendrait-on normalement à lire ensuite ?",
+        "consigne": "En une phrase, complétez : « On pouvait attendre… ».\nÀ partir de ce que le texte installe, quelle suite paraissait normale ?",
         "aide": "L’harmonie du paysage et la proximité des deux personnages pourraient faire attendre un rapprochement ou un aveu heureux."
       },
       {
         "id": "transformation",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "3. La transformation",
+        "titre": "3. Pourtant",
         "temps": 360,
         "access": "free",
-        "consigne": "En une ou deux phrases : qu’est-ce que le texte fait de cette situation, au lieu de ce qu’on attendait ?\nExemple sur un autre texte : « au lieu d’une scène de deuil, le poème devient une fête ».",
+        "consigne": "En une ou deux phrases, complétez : « Pourtant, le texte produit… ». Dites ce que le texte fait à la place de ce qu’on attendait.\nExemple sur un autre texte : « On pouvait attendre une scène de deuil. Pourtant, le poème en fait une fête. »\nLe pourtant n’a pas besoin d’être spectaculaire : une complication, une intensification ou une résistance suffisent. S’il ne vient pas, relisez le texte : n’inventez pas de problème.",
         "aide": "Suivez le basculement du passage : que devient cette harmonie lorsque l’obstacle social revient dans la conscience d’Édouard ?"
       },
       {
@@ -937,7 +941,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Écrivez une question, une seule, qui commence par « Comment » et qui demande comment le texte produit cette surprise.",
+        "consigne": "Dites le problème en une seule question, sans perdre X (ce qu’on pouvait attendre) ni Y (ce que le texte produit pourtant).\nForme possible : « Comment [l’auteur] fait-il de X Y ? » ou « Comment comprendre que… ? »\nTest : relisez votre question. Y retrouvez-vous X et Y ?",
         "aide": "Gardez ensemble la proximité amoureuse et l’impossibilité sociale qui la contrarie."
       },
       {
@@ -957,8 +961,8 @@ window.ANNALES_CATALOGUE = {
         "titre": "6. Pourquoi cet ordre ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque partie, en une phrase : pourquoi vient-elle après la précédente ?\nExemple : « La partie II montre ce que la partie I ne suffisait pas à expliquer : … »",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
+        "consigne": "Pour chaque partie, en une phrase : pourquoi votre démonstration a-t-elle besoin d’elle, à cette place ?\nExemple sur un autre texte : « Il faut d’abord montrer la force de l’inégalité : sans elle, l’égalité finale n’aurait rien de surprenant. »",
+        "aide": "Ne résumez pas la partie, et n’écrivez pas encore la transition (la question posée entre deux parties, à l’étape suivante). Dites ce que cette partie apporte que les autres n’apportent pas."
       },
       {
         "id": "transitions",
@@ -967,8 +971,9 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre deux parties, écrivez une seule question : celle qui montre ce que la partie précédente n’a pas encore expliqué.",
-        "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
+        "consigne": "Entre deux parties, écrivez une seule question ouverte (comment, pourquoi, que, qui…) : celle que la partie précédente laisse sans réponse.\nÉvitez « … suffit-il ? » : la réponse (« non ») est déjà dans la question.",
+        "aide": "Reprenez un mot de la partie précédente, puis posez la question. Pas de mini-bilan, pas de « nous allons maintenant voir ». La partie suivante commencera en reprenant le mot clé de votre question.",
+        "correction": "Une transition possible, si votre partie I a montré l’harmonie de la scène du soir et la proximité d’Édouard et de la femme qu’il aime : « Tout semble rapprocher les deux personnages : comment l’obstacle social revient-il dans ce moment d’harmonie ? » La partie II commence en reprenant le mot clé : « L’obstacle revient par la conscience d’Édouard… » Complétez avec les mots du texte."
       },
       {
         "id": "realisations",
@@ -977,7 +982,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations : ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Pour chaque partie de votre plan, écrivez deux réalisations, c’est-à-dire deux choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux ou trois réalisations, c’est-à-dire des choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez comment le texte fait sentir simultanément l’accord et l’obstacle : perception interne, sensations, oppositions, rythme des pensées puis dialogue."
       },
       {
@@ -1003,7 +1008,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qui surprend dans le texte.\nPosez la problématique.\nAnnoncez les parties.",
+        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qu’on pouvait attendre, puis ce que le texte produit pourtant.\nPosez la problématique : le même problème, en une seule question.\nAnnoncez les parties.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -1013,18 +1018,18 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une partie entière, une quinzaine de lignes, à partir de votre réponse et de ce que le texte fait.\nChaque analyse doit prouver l’idée de la partie.",
+        "consigne": "Rédigez une partie entière, une quinzaine de lignes.\nCommencez par votre réponse à la problématique.\nConstruisez-la par deux ou trois réalisations analysées : ce que le texte fait, prouvé par ses mots.\nFinissez sur ce que cette réponse n’explique pas encore.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
         "id": "raccord",
         "kind": "redaction",
         "aiMode": "optional",
-        "titre": "12. Rédiger le raccord",
+        "titre": "12. Rédiger la transition",
         "temps": 360,
         "access": "premium",
-        "consigne": "Après votre partie, entre elle et la suivante, écrivez une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
-        "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
+        "consigne": "Après votre partie, écrivez la transition : un court paragraphe à part, une ou deux phrases, qui finit par une question ouverte.\nPuis écrivez la première phrase de la partie suivante : elle reprend le mot clé de votre question.",
+        "aide": "Exemple sur un autre texte : « Le jouet rapproche les deux enfants, mais la grille demeure : comment ce rapprochement devient-il une égalité ? » Puis la partie suivante : « Ce rapprochement devient égalité dans le rire final… »"
       },
       {
         "id": "conclusion",
@@ -1033,7 +1038,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
-        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.",
+        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.\nPas d’ouverture artificielle sur un autre texte ou un autre sujet.",
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
     ],
@@ -1072,17 +1077,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
-        "consigne": "En une phrase : à partir de cette situation, que s’attendrait-on normalement à lire ensuite ?",
+        "consigne": "En une phrase, complétez : « On pouvait attendre… ».\nÀ partir de ce que le texte installe, quelle suite paraissait normale ?",
         "aide": "Une scène de femme au miroir pourrait rester un portrait intime ou amoureux. Formulez cette attente sans anticiper l’interprétation."
       },
       {
         "id": "transformation",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "3. La transformation",
+        "titre": "3. Pourtant",
         "temps": 360,
         "access": "free",
-        "consigne": "En une ou deux phrases : qu’est-ce que le texte fait de cette situation, au lieu de ce qu’on attendait ?\nExemple sur un autre texte : « au lieu d’une scène de deuil, le poème devient une fête ».",
+        "consigne": "En une ou deux phrases, complétez : « Pourtant, le texte produit… ». Dites ce que le texte fait à la place de ce qu’on attendait.\nExemple sur un autre texte : « On pouvait attendre une scène de deuil. Pourtant, le poème en fait une fête. »\nLe pourtant n’a pas besoin d’être spectaculaire : une complication, une intensification ou une résistance suffisent. S’il ne vient pas, relisez le texte : n’inventez pas de problème.",
         "aide": "Observez ce que deviennent progressivement le miroir, les cheveux et le geste de se peigner. À quoi la scène intime donne-t-elle accès ?"
       },
       {
@@ -1092,7 +1097,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Écrivez une question, une seule, qui commence par « Comment » et qui demande comment le texte produit cette surprise.",
+        "consigne": "Dites le problème en une seule question, sans perdre X (ce qu’on pouvait attendre) ni Y (ce que le texte produit pourtant).\nForme possible : « Comment [l’auteur] fait-il de X Y ? » ou « Comment comprendre que… ? »\nTest : relisez votre question. Y retrouvez-vous X et Y ?",
         "aide": "Votre question doit garder ensemble l’intimité de la scène et l’élargissement historique ou mémoriel produit par le poème."
       },
       {
@@ -1112,8 +1117,8 @@ window.ANNALES_CATALOGUE = {
         "titre": "6. Pourquoi cet ordre ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque partie, en une phrase : pourquoi vient-elle après la précédente ?\nExemple : « La partie II montre ce que la partie I ne suffisait pas à expliquer : … »",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
+        "consigne": "Pour chaque partie, en une phrase : pourquoi votre démonstration a-t-elle besoin d’elle, à cette place ?\nExemple sur un autre texte : « Il faut d’abord montrer la force de l’inégalité : sans elle, l’égalité finale n’aurait rien de surprenant. »",
+        "aide": "Ne résumez pas la partie, et n’écrivez pas encore la transition (la question posée entre deux parties, à l’étape suivante). Dites ce que cette partie apporte que les autres n’apportent pas."
       },
       {
         "id": "transitions",
@@ -1122,8 +1127,9 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre deux parties, écrivez une seule question : celle qui montre ce que la partie précédente n’a pas encore expliqué.",
-        "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
+        "consigne": "Entre deux parties, écrivez une seule question ouverte (comment, pourquoi, que, qui…) : celle que la partie précédente laisse sans réponse.\nÉvitez « … suffit-il ? » : la réponse (« non ») est déjà dans la question.",
+        "aide": "Reprenez un mot de la partie précédente, puis posez la question. Pas de mini-bilan, pas de « nous allons maintenant voir ». La partie suivante commencera en reprenant le mot clé de votre question.",
+        "correction": "Une transition possible, si votre partie I a montré la scène intime : Elsa au miroir, le geste répété de se peigner, le regard du poète : « Le geste est intime et répété : à quoi cette scène de miroir donne-t-elle accès ? » La partie II commence en reprenant le mot clé : « Elle donne accès à… » Complétez avec ce que le poème fait entrer dans la scène."
       },
       {
         "id": "realisations",
@@ -1132,7 +1138,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations : ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Pour chaque partie de votre plan, écrivez deux réalisations, c’est-à-dire deux choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux ou trois réalisations, c’est-à-dire des choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez comment le poème transforme les objets de la scène : répétitions, images du feu, miroir, mémoire et composition fondée sur le retour des mêmes formules."
       },
       {
@@ -1158,7 +1164,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qui surprend dans le texte.\nPosez la problématique.\nAnnoncez les parties.",
+        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qu’on pouvait attendre, puis ce que le texte produit pourtant.\nPosez la problématique : le même problème, en une seule question.\nAnnoncez les parties.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -1168,18 +1174,18 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une partie entière, une quinzaine de lignes, à partir de votre réponse et de ce que le texte fait.\nChaque analyse doit prouver l’idée de la partie.",
+        "consigne": "Rédigez une partie entière, une quinzaine de lignes.\nCommencez par votre réponse à la problématique.\nConstruisez-la par deux ou trois réalisations analysées : ce que le texte fait, prouvé par ses mots.\nFinissez sur ce que cette réponse n’explique pas encore.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
         "id": "raccord",
         "kind": "redaction",
         "aiMode": "optional",
-        "titre": "12. Rédiger le raccord",
+        "titre": "12. Rédiger la transition",
         "temps": 360,
         "access": "premium",
-        "consigne": "Après votre partie, entre elle et la suivante, écrivez une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
-        "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
+        "consigne": "Après votre partie, écrivez la transition : un court paragraphe à part, une ou deux phrases, qui finit par une question ouverte.\nPuis écrivez la première phrase de la partie suivante : elle reprend le mot clé de votre question.",
+        "aide": "Exemple sur un autre texte : « Le jouet rapproche les deux enfants, mais la grille demeure : comment ce rapprochement devient-il une égalité ? » Puis la partie suivante : « Ce rapprochement devient égalité dans le rire final… »"
       },
       {
         "id": "conclusion",
@@ -1188,7 +1194,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
-        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.",
+        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.\nPas d’ouverture artificielle sur un autre texte ou un autre sujet.",
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
     ],
@@ -1227,17 +1233,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
-        "consigne": "En une phrase : à partir de cette situation, que s’attendrait-on normalement à lire ensuite ?",
+        "consigne": "En une phrase, complétez : « On pouvait attendre… ».\nÀ partir de ce que le texte installe, quelle suite paraissait normale ?",
         "aide": "Un Salon pourrait d’abord faire attendre une description ou un jugement sur une œuvre d’art. Formulez cette attente."
       },
       {
         "id": "transformation",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "3. La transformation",
+        "titre": "3. Pourtant",
         "temps": 360,
         "access": "free",
-        "consigne": "En une ou deux phrases : qu’est-ce que le texte fait de cette situation, au lieu de ce qu’on attendait ?\nExemple sur un autre texte : « au lieu d’une scène de deuil, le poème devient une fête ».",
+        "consigne": "En une ou deux phrases, complétez : « Pourtant, le texte produit… ». Dites ce que le texte fait à la place de ce qu’on attendait.\nExemple sur un autre texte : « On pouvait attendre une scène de deuil. Pourtant, le poème en fait une fête. »\nLe pourtant n’a pas besoin d’être spectaculaire : une complication, une intensification ou une résistance suffisent. S’il ne vient pas, relisez le texte : n’inventez pas de problème.",
         "aide": "Observez jusqu’où la contemplation entraîne Diderot : que devient le commentaire d’art lorsqu’il réfléchit au temps, à sa propre mort puis à la solitude ?"
       },
       {
@@ -1247,7 +1253,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Écrivez une question, une seule, qui commence par « Comment » et qui demande comment le texte produit cette surprise.",
+        "consigne": "Dites le problème en une seule question, sans perdre X (ce qu’on pouvait attendre) ni Y (ce que le texte produit pourtant).\nForme possible : « Comment [l’auteur] fait-il de X Y ? » ou « Comment comprendre que… ? »\nTest : relisez votre question. Y retrouvez-vous X et Y ?",
         "aide": "Gardez ensemble le point de départ esthétique et la méditation personnelle et philosophique qu’il fait naître."
       },
       {
@@ -1267,8 +1273,8 @@ window.ANNALES_CATALOGUE = {
         "titre": "6. Pourquoi cet ordre ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque partie, en une phrase : pourquoi vient-elle après la précédente ?\nExemple : « La partie II montre ce que la partie I ne suffisait pas à expliquer : … »",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
+        "consigne": "Pour chaque partie, en une phrase : pourquoi votre démonstration a-t-elle besoin d’elle, à cette place ?\nExemple sur un autre texte : « Il faut d’abord montrer la force de l’inégalité : sans elle, l’égalité finale n’aurait rien de surprenant. »",
+        "aide": "Ne résumez pas la partie, et n’écrivez pas encore la transition (la question posée entre deux parties, à l’étape suivante). Dites ce que cette partie apporte que les autres n’apportent pas."
       },
       {
         "id": "transitions",
@@ -1277,8 +1283,9 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre deux parties, écrivez une seule question : celle qui montre ce que la partie précédente n’a pas encore expliqué.",
-        "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
+        "consigne": "Entre deux parties, écrivez une seule question ouverte (comment, pourquoi, que, qui…) : celle que la partie précédente laisse sans réponse.\nÉvitez « … suffit-il ? » : la réponse (« non ») est déjà dans la question.",
+        "aide": "Reprenez un mot de la partie précédente, puis posez la question. Pas de mini-bilan, pas de « nous allons maintenant voir ». La partie suivante commencera en reprenant le mot clé de votre question.",
+        "correction": "Une transition possible, si votre partie I a montré la contemplation des ruines peintes et le regard du critique d’art : « Diderot regarde un tableau : jusqu’où cette contemplation des ruines l’entraîne-t-elle ? » La partie II commence en reprenant le mot clé : « Elle l’entraîne jusqu’à… » Complétez avec le mouvement du texte : le temps, sa propre mort, la solitude."
       },
       {
         "id": "realisations",
@@ -1287,7 +1294,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations : ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Pour chaque partie de votre plan, écrivez deux réalisations, c’est-à-dire deux choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux ou trois réalisations, c’est-à-dire des choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez plusieurs mouvements d’écriture : généraliser, confronter l’individu au temps, faire entendre l’émotion, transformer la ruine en espace de retrait. Appuyez-vous sur rythme, énumérations, questions et images."
       },
       {
@@ -1313,7 +1320,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qui surprend dans le texte.\nPosez la problématique.\nAnnoncez les parties.",
+        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qu’on pouvait attendre, puis ce que le texte produit pourtant.\nPosez la problématique : le même problème, en une seule question.\nAnnoncez les parties.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -1323,18 +1330,18 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une partie entière, une quinzaine de lignes, à partir de votre réponse et de ce que le texte fait.\nChaque analyse doit prouver l’idée de la partie.",
+        "consigne": "Rédigez une partie entière, une quinzaine de lignes.\nCommencez par votre réponse à la problématique.\nConstruisez-la par deux ou trois réalisations analysées : ce que le texte fait, prouvé par ses mots.\nFinissez sur ce que cette réponse n’explique pas encore.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
         "id": "raccord",
         "kind": "redaction",
         "aiMode": "optional",
-        "titre": "12. Rédiger le raccord",
+        "titre": "12. Rédiger la transition",
         "temps": 360,
         "access": "premium",
-        "consigne": "Après votre partie, entre elle et la suivante, écrivez une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
-        "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
+        "consigne": "Après votre partie, écrivez la transition : un court paragraphe à part, une ou deux phrases, qui finit par une question ouverte.\nPuis écrivez la première phrase de la partie suivante : elle reprend le mot clé de votre question.",
+        "aide": "Exemple sur un autre texte : « Le jouet rapproche les deux enfants, mais la grille demeure : comment ce rapprochement devient-il une égalité ? » Puis la partie suivante : « Ce rapprochement devient égalité dans le rire final… »"
       },
       {
         "id": "conclusion",
@@ -1343,7 +1350,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
-        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.",
+        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.\nPas d’ouverture artificielle sur un autre texte ou un autre sujet.",
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
     ],
@@ -1382,17 +1389,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
-        "consigne": "En une phrase : à partir de cette situation, que s’attendrait-on normalement à lire ensuite ?",
+        "consigne": "En une phrase, complétez : « On pouvait attendre… ».\nÀ partir de ce que le texte installe, quelle suite paraissait normale ?",
         "aide": "Une rencontre entre deux amants qui s’aiment pourrait faire attendre l’union, la persuasion ou la réconciliation."
       },
       {
         "id": "transformation",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "3. La transformation",
+        "titre": "3. Pourtant",
         "temps": 360,
         "access": "free",
-        "consigne": "En une ou deux phrases : qu’est-ce que le texte fait de cette situation, au lieu de ce qu’on attendait ?\nExemple sur un autre texte : « au lieu d’une scène de deuil, le poème devient une fête ».",
+        "consigne": "En une ou deux phrases, complétez : « Pourtant, le texte produit… ». Dites ce que le texte fait à la place de ce qu’on attendait.\nExemple sur un autre texte : « On pouvait attendre une scène de deuil. Pourtant, le poème en fait une fête. »\nLe pourtant n’a pas besoin d’être spectaculaire : une complication, une intensification ou une résistance suffisent. S’il ne vient pas, relisez le texte : n’inventez pas de problème.",
         "aide": "Observez ce que leur échange fait de cet amour : l’aveu et les larmes suppriment-ils l’obstacle, ou rendent-ils autrement sensible la séparation ?"
       },
       {
@@ -1402,7 +1409,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Écrivez une question, une seule, qui commence par « Comment » et qui demande comment le texte produit cette surprise.",
+        "consigne": "Dites le problème en une seule question, sans perdre X (ce qu’on pouvait attendre) ni Y (ce que le texte produit pourtant).\nForme possible : « Comment [l’auteur] fait-il de X Y ? » ou « Comment comprendre que… ? »\nTest : relisez votre question. Y retrouvez-vous X et Y ?",
         "aide": "Gardez ensemble la force de l’amour partagé et l’exigence de séparation qui structure la scène."
       },
       {
@@ -1422,8 +1429,8 @@ window.ANNALES_CATALOGUE = {
         "titre": "6. Pourquoi cet ordre ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque partie, en une phrase : pourquoi vient-elle après la précédente ?\nExemple : « La partie II montre ce que la partie I ne suffisait pas à expliquer : … »",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
+        "consigne": "Pour chaque partie, en une phrase : pourquoi votre démonstration a-t-elle besoin d’elle, à cette place ?\nExemple sur un autre texte : « Il faut d’abord montrer la force de l’inégalité : sans elle, l’égalité finale n’aurait rien de surprenant. »",
+        "aide": "Ne résumez pas la partie, et n’écrivez pas encore la transition (la question posée entre deux parties, à l’étape suivante). Dites ce que cette partie apporte que les autres n’apportent pas."
       },
       {
         "id": "transitions",
@@ -1432,8 +1439,9 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre deux parties, écrivez une seule question : celle qui montre ce que la partie précédente n’a pas encore expliqué.",
-        "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
+        "consigne": "Entre deux parties, écrivez une seule question ouverte (comment, pourquoi, que, qui…) : celle que la partie précédente laisse sans réponse.\nÉvitez « … suffit-il ? » : la réponse (« non ») est déjà dans la question.",
+        "aide": "Reprenez un mot de la partie précédente, puis posez la question. Pas de mini-bilan, pas de « nous allons maintenant voir ». La partie suivante commencera en reprenant le mot clé de votre question.",
+        "correction": "Une transition possible, si votre partie I a montré que l’amour de Titus et de Bérénice demeure, avoué et partagé : « L’amour est partagé : pourquoi rend-il la séparation plus douloureuse, au lieu de l’empêcher ? » La partie II commence en reprenant le mot clé : « Plus douloureuse, la séparation l’est parce que… » Complétez avec les mots du texte."
       },
       {
         "id": "realisations",
@@ -1442,7 +1450,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations : ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Pour chaque partie de votre plan, écrivez deux réalisations, c’est-à-dire deux choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux ou trois réalisations, c’est-à-dire des choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez comment le dialogue rend le conflit visible : interrogations, reprises, antithèses, rythme des répliques et tension entre douleur privée et gloire publique."
       },
       {
@@ -1468,7 +1476,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qui surprend dans le texte.\nPosez la problématique.\nAnnoncez les parties.",
+        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qu’on pouvait attendre, puis ce que le texte produit pourtant.\nPosez la problématique : le même problème, en une seule question.\nAnnoncez les parties.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -1478,18 +1486,18 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une partie entière, une quinzaine de lignes, à partir de votre réponse et de ce que le texte fait.\nChaque analyse doit prouver l’idée de la partie.",
+        "consigne": "Rédigez une partie entière, une quinzaine de lignes.\nCommencez par votre réponse à la problématique.\nConstruisez-la par deux ou trois réalisations analysées : ce que le texte fait, prouvé par ses mots.\nFinissez sur ce que cette réponse n’explique pas encore.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
         "id": "raccord",
         "kind": "redaction",
         "aiMode": "optional",
-        "titre": "12. Rédiger le raccord",
+        "titre": "12. Rédiger la transition",
         "temps": 360,
         "access": "premium",
-        "consigne": "Après votre partie, entre elle et la suivante, écrivez une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
-        "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
+        "consigne": "Après votre partie, écrivez la transition : un court paragraphe à part, une ou deux phrases, qui finit par une question ouverte.\nPuis écrivez la première phrase de la partie suivante : elle reprend le mot clé de votre question.",
+        "aide": "Exemple sur un autre texte : « Le jouet rapproche les deux enfants, mais la grille demeure : comment ce rapprochement devient-il une égalité ? » Puis la partie suivante : « Ce rapprochement devient égalité dans le rire final… »"
       },
       {
         "id": "conclusion",
@@ -1498,7 +1506,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
-        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.",
+        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.\nPas d’ouverture artificielle sur un autre texte ou un autre sujet.",
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
     ],
@@ -1537,17 +1545,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
-        "consigne": "En une phrase : à partir de cette situation, que s’attendrait-on normalement à lire ensuite ?",
+        "consigne": "En une phrase, complétez : « On pouvait attendre… ».\nÀ partir de ce que le texte installe, quelle suite paraissait normale ?",
         "aide": "Un portrait de personnages humains pourrait individualiser chacun d’eux et les inscrire dans une psychologie réaliste."
       },
       {
         "id": "transformation",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "3. La transformation",
+        "titre": "3. Pourtant",
         "temps": 360,
         "access": "free",
-        "consigne": "En une ou deux phrases : qu’est-ce que le texte fait de cette situation, au lieu de ce qu’on attendait ?\nExemple sur un autre texte : « au lieu d’une scène de deuil, le poème devient une fête ».",
+        "consigne": "En une ou deux phrases, complétez : « Pourtant, le texte produit… ». Dites ce que le texte fait à la place de ce qu’on attendait.\nExemple sur un autre texte : « On pouvait attendre une scène de deuil. Pourtant, le poème en fait une fête. »\nLe pourtant n’a pas besoin d’être spectaculaire : une complication, une intensification ou une résistance suffisent. S’il ne vient pas, relisez le texte : n’inventez pas de problème.",
         "aide": "Observez au contraire les rapprochements avec l’animal, la matière ou la nature, puis demandez-vous ce que ces rapprochements laissent malgré tout apparaître d’humain."
       },
       {
@@ -1557,8 +1565,8 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Écrivez une question, une seule, qui commence par « Comment » et qui demande comment le texte produit cette surprise.",
-        "aide": "Votre question doit garder ensemble la transformation des frères par l’écriture et ce que cette transformation permet de comprendre de leur humanité."
+        "consigne": "Dites le problème en une seule question, sans perdre X (ce qu’on pouvait attendre) ni Y (ce que le texte produit pourtant).\nForme possible : « Comment [l’auteur] fait-il de X Y ? » ou « Comment comprendre que… ? »\nTest : relisez votre question. Y retrouvez-vous X et Y ?",
+        "aide": "Votre question doit garder ensemble ce que l’écriture fait des frères (l’animal, la matière, la nature) et ce qu’elle laisse pourtant voir de leur humanité."
       },
       {
         "id": "plan",
@@ -1577,8 +1585,8 @@ window.ANNALES_CATALOGUE = {
         "titre": "6. Pourquoi cet ordre ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque partie, en une phrase : pourquoi vient-elle après la précédente ?\nExemple : « La partie II montre ce que la partie I ne suffisait pas à expliquer : … »",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
+        "consigne": "Pour chaque partie, en une phrase : pourquoi votre démonstration a-t-elle besoin d’elle, à cette place ?\nExemple sur un autre texte : « Il faut d’abord montrer la force de l’inégalité : sans elle, l’égalité finale n’aurait rien de surprenant. »",
+        "aide": "Ne résumez pas la partie, et n’écrivez pas encore la transition (la question posée entre deux parties, à l’étape suivante). Dites ce que cette partie apporte que les autres n’apportent pas."
       },
       {
         "id": "transitions",
@@ -1587,8 +1595,9 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre deux parties, écrivez une seule question : celle qui montre ce que la partie précédente n’a pas encore expliqué.",
-        "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
+        "consigne": "Entre deux parties, écrivez une seule question ouverte (comment, pourquoi, que, qui…) : celle que la partie précédente laisse sans réponse.\nÉvitez « … suffit-il ? » : la réponse (« non ») est déjà dans la question.",
+        "aide": "Reprenez un mot de la partie précédente, puis posez la question. Pas de mini-bilan, pas de « nous allons maintenant voir ». La partie suivante commencera en reprenant le mot clé de votre question.",
+        "correction": "Une transition possible, si votre partie I a montré que le portrait rapproche les neuf frères de l’animal, de la matière ou de la nature : « Les frères sont peints comme des forces brutes : qu’est-ce qui, malgré tout, reste humain en eux ? » La partie II commence en reprenant le mot clé : « Ce qui reste humain en eux… » Complétez avec les mots du texte."
       },
       {
         "id": "realisations",
@@ -1597,7 +1606,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations : ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Pour chaque partie de votre plan, écrivez deux réalisations, c’est-à-dire deux choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux ou trois réalisations, c’est-à-dire des choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez comment le portrait agit : comparaisons et métaphores, réseaux lexicaux du corps, de l’animal ou de la nature, point de vue et composition collective."
       },
       {
@@ -1623,7 +1632,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qui surprend dans le texte.\nPosez la problématique.\nAnnoncez les parties.",
+        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qu’on pouvait attendre, puis ce que le texte produit pourtant.\nPosez la problématique : le même problème, en une seule question.\nAnnoncez les parties.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -1633,18 +1642,18 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une partie entière, une quinzaine de lignes, à partir de votre réponse et de ce que le texte fait.\nChaque analyse doit prouver l’idée de la partie.",
+        "consigne": "Rédigez une partie entière, une quinzaine de lignes.\nCommencez par votre réponse à la problématique.\nConstruisez-la par deux ou trois réalisations analysées : ce que le texte fait, prouvé par ses mots.\nFinissez sur ce que cette réponse n’explique pas encore.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
         "id": "raccord",
         "kind": "redaction",
         "aiMode": "optional",
-        "titre": "12. Rédiger le raccord",
+        "titre": "12. Rédiger la transition",
         "temps": 360,
         "access": "premium",
-        "consigne": "Après votre partie, entre elle et la suivante, écrivez une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
-        "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
+        "consigne": "Après votre partie, écrivez la transition : un court paragraphe à part, une ou deux phrases, qui finit par une question ouverte.\nPuis écrivez la première phrase de la partie suivante : elle reprend le mot clé de votre question.",
+        "aide": "Exemple sur un autre texte : « Le jouet rapproche les deux enfants, mais la grille demeure : comment ce rapprochement devient-il une égalité ? » Puis la partie suivante : « Ce rapprochement devient égalité dans le rire final… »"
       },
       {
         "id": "conclusion",
@@ -1653,7 +1662,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
-        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.",
+        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.\nPas d’ouverture artificielle sur un autre texte ou un autre sujet.",
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
     ],
@@ -1692,17 +1701,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
-        "consigne": "En une phrase : à partir de cette situation, que s’attendrait-on normalement à lire ensuite ?",
+        "consigne": "En une phrase, complétez : « On pouvait attendre… ».\nÀ partir de ce que le texte installe, quelle suite paraissait normale ?",
         "aide": "On pourrait attendre que le dévoilement fasse simplement réapparaître un Lorenzo vertueux derrière son masque."
       },
       {
         "id": "transformation",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "3. La transformation",
+        "titre": "3. Pourtant",
         "temps": 360,
         "access": "free",
-        "consigne": "En une ou deux phrases : qu’est-ce que le texte fait de cette situation, au lieu de ce qu’on attendait ?\nExemple sur un autre texte : « au lieu d’une scène de deuil, le poème devient une fête ».",
+        "consigne": "En une ou deux phrases, complétez : « Pourtant, le texte produit… ». Dites ce que le texte fait à la place de ce qu’on attendait.\nExemple sur un autre texte : « On pouvait attendre une scène de deuil. Pourtant, le poème en fait une fête. »\nLe pourtant n’a pas besoin d’être spectaculaire : une complication, une intensification ou une résistance suffisent. S’il ne vient pas, relisez le texte : n’inventez pas de problème.",
         "aide": "Suivez sa parole : le masque peut-il être retiré sans conséquence, ou le rôle joué a-t-il transformé celui qui le portait ?"
       },
       {
@@ -1712,7 +1721,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Écrivez une question, une seule, qui commence par « Comment » et qui demande comment le texte produit cette surprise.",
+        "consigne": "Dites le problème en une seule question, sans perdre X (ce qu’on pouvait attendre) ni Y (ce que le texte produit pourtant).\nForme possible : « Comment [l’auteur] fait-il de X Y ? » ou « Comment comprendre que… ? »\nTest : relisez votre question. Y retrouvez-vous X et Y ?",
         "aide": "Gardez ensemble le masque volontairement adopté et la vérité intérieure que le dialogue fait apparaître."
       },
       {
@@ -1732,8 +1741,8 @@ window.ANNALES_CATALOGUE = {
         "titre": "6. Pourquoi cet ordre ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque partie, en une phrase : pourquoi vient-elle après la précédente ?\nExemple : « La partie II montre ce que la partie I ne suffisait pas à expliquer : … »",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
+        "consigne": "Pour chaque partie, en une phrase : pourquoi votre démonstration a-t-elle besoin d’elle, à cette place ?\nExemple sur un autre texte : « Il faut d’abord montrer la force de l’inégalité : sans elle, l’égalité finale n’aurait rien de surprenant. »",
+        "aide": "Ne résumez pas la partie, et n’écrivez pas encore la transition (la question posée entre deux parties, à l’étape suivante). Dites ce que cette partie apporte que les autres n’apportent pas."
       },
       {
         "id": "transitions",
@@ -1742,8 +1751,9 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre deux parties, écrivez une seule question : celle qui montre ce que la partie précédente n’a pas encore expliqué.",
-        "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
+        "consigne": "Entre deux parties, écrivez une seule question ouverte (comment, pourquoi, que, qui…) : celle que la partie précédente laisse sans réponse.\nÉvitez « … suffit-il ? » : la réponse (« non ») est déjà dans la question.",
+        "aide": "Reprenez un mot de la partie précédente, puis posez la question. Pas de mini-bilan, pas de « nous allons maintenant voir ». La partie suivante commencera en reprenant le mot clé de votre question.",
+        "correction": "Une transition possible, si votre partie I a montré le rôle que Lorenzo a choisi de jouer et que Philippe lui demande de quitter : « Philippe veut que Lorenzo sorte de son rôle : que reste-t-il de l’homme quand le masque tombe ? » La partie II commence en reprenant le mot clé : « De l’homme, il reste… » Complétez avec ce que Lorenzo dit de lui-même."
       },
       {
         "id": "realisations",
@@ -1752,7 +1762,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations : ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Pour chaque partie de votre plan, écrivez deux réalisations, c’est-à-dire deux choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux ou trois réalisations, c’est-à-dire des choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez comment le théâtre du masque devient crise de l’identité : images du rôle et du spectacle, antithèses, questions, modalisation et rythme des longues tirades."
       },
       {
@@ -1778,7 +1788,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qui surprend dans le texte.\nPosez la problématique.\nAnnoncez les parties.",
+        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qu’on pouvait attendre, puis ce que le texte produit pourtant.\nPosez la problématique : le même problème, en une seule question.\nAnnoncez les parties.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -1788,18 +1798,18 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une partie entière, une quinzaine de lignes, à partir de votre réponse et de ce que le texte fait.\nChaque analyse doit prouver l’idée de la partie.",
+        "consigne": "Rédigez une partie entière, une quinzaine de lignes.\nCommencez par votre réponse à la problématique.\nConstruisez-la par deux ou trois réalisations analysées : ce que le texte fait, prouvé par ses mots.\nFinissez sur ce que cette réponse n’explique pas encore.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
         "id": "raccord",
         "kind": "redaction",
         "aiMode": "optional",
-        "titre": "12. Rédiger le raccord",
+        "titre": "12. Rédiger la transition",
         "temps": 360,
         "access": "premium",
-        "consigne": "Après votre partie, entre elle et la suivante, écrivez une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
-        "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
+        "consigne": "Après votre partie, écrivez la transition : un court paragraphe à part, une ou deux phrases, qui finit par une question ouverte.\nPuis écrivez la première phrase de la partie suivante : elle reprend le mot clé de votre question.",
+        "aide": "Exemple sur un autre texte : « Le jouet rapproche les deux enfants, mais la grille demeure : comment ce rapprochement devient-il une égalité ? » Puis la partie suivante : « Ce rapprochement devient égalité dans le rire final… »"
       },
       {
         "id": "conclusion",
@@ -1808,7 +1818,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
-        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.",
+        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.\nPas d’ouverture artificielle sur un autre texte ou un autre sujet.",
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
     ],
@@ -1847,17 +1857,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
-        "consigne": "En une phrase : à partir de cette situation, que s’attendrait-on normalement à lire ensuite ?",
+        "consigne": "En une phrase, complétez : « On pouvait attendre… ».\nÀ partir de ce que le texte installe, quelle suite paraissait normale ?",
         "aide": "Une description d’un logement exigu pourrait rester réaliste et pratique, centrée sur ce qui est effectivement là."
       },
       {
         "id": "transformation",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "3. La transformation",
+        "titre": "3. Pourtant",
         "temps": 360,
         "access": "free",
-        "consigne": "En une ou deux phrases : qu’est-ce que le texte fait de cette situation, au lieu de ce qu’on attendait ?\nExemple sur un autre texte : « au lieu d’une scène de deuil, le poème devient une fête ».",
+        "consigne": "En une ou deux phrases, complétez : « Pourtant, le texte produit… ». Dites ce que le texte fait à la place de ce qu’on attendait.\nExemple sur un autre texte : « On pouvait attendre une scène de deuil. Pourtant, le poème en fait une fête. »\nLe pourtant n’a pas besoin d’être spectaculaire : une complication, une intensification ou une résistance suffisent. S’il ne vient pas, relisez le texte : n’inventez pas de problème.",
         "aide": "Observez la place des formes hypothétiques et du désir : comment la description de l’espace réel ouvre-t-elle vers un autre espace possible ou rêvé ?"
       },
       {
@@ -1867,7 +1877,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Écrivez une question, une seule, qui commence par « Comment » et qui demande comment le texte produit cette surprise.",
+        "consigne": "Dites le problème en une seule question, sans perdre X (ce qu’on pouvait attendre) ni Y (ce que le texte produit pourtant).\nForme possible : « Comment [l’auteur] fait-il de X Y ? » ou « Comment comprendre que… ? »\nTest : relisez votre question. Y retrouvez-vous X et Y ?",
         "aide": "Gardez ensemble la matérialité du logement et la projection du désir qui travaille sa description."
       },
       {
@@ -1887,8 +1897,8 @@ window.ANNALES_CATALOGUE = {
         "titre": "6. Pourquoi cet ordre ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque partie, en une phrase : pourquoi vient-elle après la précédente ?\nExemple : « La partie II montre ce que la partie I ne suffisait pas à expliquer : … »",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
+        "consigne": "Pour chaque partie, en une phrase : pourquoi votre démonstration a-t-elle besoin d’elle, à cette place ?\nExemple sur un autre texte : « Il faut d’abord montrer la force de l’inégalité : sans elle, l’égalité finale n’aurait rien de surprenant. »",
+        "aide": "Ne résumez pas la partie, et n’écrivez pas encore la transition (la question posée entre deux parties, à l’étape suivante). Dites ce que cette partie apporte que les autres n’apportent pas."
       },
       {
         "id": "transitions",
@@ -1897,8 +1907,9 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre deux parties, écrivez une seule question : celle qui montre ce que la partie précédente n’a pas encore expliqué.",
-        "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
+        "consigne": "Entre deux parties, écrivez une seule question ouverte (comment, pourquoi, que, qui…) : celle que la partie précédente laisse sans réponse.\nÉvitez « … suffit-il ? » : la réponse (« non ») est déjà dans la question.",
+        "aide": "Reprenez un mot de la partie précédente, puis posez la question. Pas de mini-bilan, pas de « nous allons maintenant voir ». La partie suivante commencera en reprenant le mot clé de votre question.",
+        "correction": "Une transition possible, si votre partie I a montré un logement exigu et insatisfaisant, décrit dans sa réalité matérielle : « L’appartement est trop petit et mal commode : vers quel autre espace la description se tourne-t-elle ? » La partie II commence en reprenant le mot clé : « Cet autre espace est celui du désir… » Complétez avec les formes du texte qui l’ouvrent."
       },
       {
         "id": "realisations",
@@ -1907,7 +1918,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations : ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Pour chaque partie de votre plan, écrivez deux réalisations, c’est-à-dire deux choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux ou trois réalisations, c’est-à-dire des choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez comment l’écriture fait glisser du réel au possible : accumulations d’objets, modalisation, conditionnel, oppositions et composition de la description."
       },
       {
@@ -1933,7 +1944,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qui surprend dans le texte.\nPosez la problématique.\nAnnoncez les parties.",
+        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qu’on pouvait attendre, puis ce que le texte produit pourtant.\nPosez la problématique : le même problème, en une seule question.\nAnnoncez les parties.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -1943,18 +1954,18 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une partie entière, une quinzaine de lignes, à partir de votre réponse et de ce que le texte fait.\nChaque analyse doit prouver l’idée de la partie.",
+        "consigne": "Rédigez une partie entière, une quinzaine de lignes.\nCommencez par votre réponse à la problématique.\nConstruisez-la par deux ou trois réalisations analysées : ce que le texte fait, prouvé par ses mots.\nFinissez sur ce que cette réponse n’explique pas encore.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
         "id": "raccord",
         "kind": "redaction",
         "aiMode": "optional",
-        "titre": "12. Rédiger le raccord",
+        "titre": "12. Rédiger la transition",
         "temps": 360,
         "access": "premium",
-        "consigne": "Après votre partie, entre elle et la suivante, écrivez une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
-        "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
+        "consigne": "Après votre partie, écrivez la transition : un court paragraphe à part, une ou deux phrases, qui finit par une question ouverte.\nPuis écrivez la première phrase de la partie suivante : elle reprend le mot clé de votre question.",
+        "aide": "Exemple sur un autre texte : « Le jouet rapproche les deux enfants, mais la grille demeure : comment ce rapprochement devient-il une égalité ? » Puis la partie suivante : « Ce rapprochement devient égalité dans le rire final… »"
       },
       {
         "id": "conclusion",
@@ -1963,7 +1974,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
-        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.",
+        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.\nPas d’ouverture artificielle sur un autre texte ou un autre sujet.",
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
     ],
@@ -2002,17 +2013,17 @@ window.ANNALES_CATALOGUE = {
         "titre": "2. Ce qu’on pouvait attendre",
         "temps": 300,
         "access": "free",
-        "consigne": "En une phrase : à partir de cette situation, que s’attendrait-on normalement à lire ensuite ?",
+        "consigne": "En une phrase, complétez : « On pouvait attendre… ».\nÀ partir de ce que le texte installe, quelle suite paraissait normale ?",
         "aide": "Une gare désaffectée pourrait n’être qu’un lieu prosaïque, vide ou dégradé."
       },
       {
         "id": "transformation",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "3. La transformation",
+        "titre": "3. Pourtant",
         "temps": 360,
         "access": "free",
-        "consigne": "En une ou deux phrases : qu’est-ce que le texte fait de cette situation, au lieu de ce qu’on attendait ?\nExemple sur un autre texte : « au lieu d’une scène de deuil, le poème devient une fête ».",
+        "consigne": "En une ou deux phrases, complétez : « Pourtant, le texte produit… ». Dites ce que le texte fait à la place de ce qu’on attendait.\nExemple sur un autre texte : « On pouvait attendre une scène de deuil. Pourtant, le poème en fait une fête. »\nLe pourtant n’a pas besoin d’être spectaculaire : une complication, une intensification ou une résistance suffisent. S’il ne vient pas, relisez le texte : n’inventez pas de problème.",
         "aide": "Observez ce que le poème ajoute au lieu matériel : quelles présences, quelles valeurs ou quelle mémoire l’écriture lui rend-elle ?"
       },
       {
@@ -2022,7 +2033,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Écrivez une question, une seule, qui commence par « Comment » et qui demande comment le texte produit cette surprise.",
+        "consigne": "Dites le problème en une seule question, sans perdre X (ce qu’on pouvait attendre) ni Y (ce que le texte produit pourtant).\nForme possible : « Comment [l’auteur] fait-il de X Y ? » ou « Comment comprendre que… ? »\nTest : relisez votre question. Y retrouvez-vous X et Y ?",
         "aide": "Gardez ensemble la banalité ou l’abandon du lieu et la valeur nouvelle que le regard poétique lui confère."
       },
       {
@@ -2042,8 +2053,8 @@ window.ANNALES_CATALOGUE = {
         "titre": "6. Pourquoi cet ordre ?",
         "temps": 540,
         "access": "premium",
-        "consigne": "Pour chaque partie, en une phrase : pourquoi vient-elle après la précédente ?\nExemple : « La partie II montre ce que la partie I ne suffisait pas à expliquer : … »",
-        "aide": "Ne résumez pas la partie. Dites ce qu’elle apporte que les autres réponses n’apportent pas."
+        "consigne": "Pour chaque partie, en une phrase : pourquoi votre démonstration a-t-elle besoin d’elle, à cette place ?\nExemple sur un autre texte : « Il faut d’abord montrer la force de l’inégalité : sans elle, l’égalité finale n’aurait rien de surprenant. »",
+        "aide": "Ne résumez pas la partie, et n’écrivez pas encore la transition (la question posée entre deux parties, à l’étape suivante). Dites ce que cette partie apporte que les autres n’apportent pas."
       },
       {
         "id": "transitions",
@@ -2052,8 +2063,9 @@ window.ANNALES_CATALOGUE = {
         "titre": "7. Les transitions",
         "temps": 420,
         "access": "premium",
-        "consigne": "Entre deux parties, écrivez une seule question : celle qui montre ce que la partie précédente n’a pas encore expliqué.",
-        "aide": "Une transition = une question simple. Pas de mini-bilan, pas de « nous allons maintenant voir »."
+        "consigne": "Entre deux parties, écrivez une seule question ouverte (comment, pourquoi, que, qui…) : celle que la partie précédente laisse sans réponse.\nÉvitez « … suffit-il ? » : la réponse (« non ») est déjà dans la question.",
+        "aide": "Reprenez un mot de la partie précédente, puis posez la question. Pas de mini-bilan, pas de « nous allons maintenant voir ». La partie suivante commencera en reprenant le mot clé de votre question.",
+        "correction": "Une transition possible, si votre partie I a montré la gare abandonnée, ses traces matérielles et sa dégradation : « La gare est vide et oubliée : quelle valeur le regard du poète lui rend-il ? » La partie II commence en reprenant le mot clé : « Cette valeur, le poème la trouve… » Complétez avec les mots du texte."
       },
       {
         "id": "realisations",
@@ -2062,7 +2074,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "8. Les réalisations : ce que le texte fait",
         "temps": 780,
         "access": "premium",
-        "consigne": "Pour chaque partie de votre plan, écrivez deux réalisations, c’est-à-dire deux choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
+        "consigne": "Pour chaque partie de votre plan, écrivez deux ou trois réalisations, c’est-à-dire des choses que le texte fait pour la prouver. Une phrase pour chacune.\nExemple sur un autre texte : « le poète oppose la ville à la campagne ».",
         "aide": "Cherchez comment le lieu est requalifié : choix lexicaux, images, rythme, adresse éventuelle au lieu et progression de la composition."
       },
       {
@@ -2088,7 +2100,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qui surprend dans le texte.\nPosez la problématique.\nAnnoncez les parties.",
+        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qu’on pouvait attendre, puis ce que le texte produit pourtant.\nPosez la problématique : le même problème, en une seule question.\nAnnoncez les parties.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -2098,18 +2110,18 @@ window.ANNALES_CATALOGUE = {
         "titre": "11. Rédiger une grande partie",
         "temps": 1200,
         "access": "premium",
-        "consigne": "Rédigez une partie entière, une quinzaine de lignes, à partir de votre réponse et de ce que le texte fait.\nChaque analyse doit prouver l’idée de la partie.",
+        "consigne": "Rédigez une partie entière, une quinzaine de lignes.\nCommencez par votre réponse à la problématique.\nConstruisez-la par deux ou trois réalisations analysées : ce que le texte fait, prouvé par ses mots.\nFinissez sur ce que cette réponse n’explique pas encore.",
         "aide": "Évitez le catalogue de procédés : élément précis → explication de sa construction → effet → lien avec la réponse."
       },
       {
         "id": "raccord",
         "kind": "redaction",
         "aiMode": "optional",
-        "titre": "12. Rédiger le raccord",
+        "titre": "12. Rédiger la transition",
         "temps": 360,
         "access": "premium",
-        "consigne": "Après votre partie, entre elle et la suivante, écrivez une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
-        "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
+        "consigne": "Après votre partie, écrivez la transition : un court paragraphe à part, une ou deux phrases, qui finit par une question ouverte.\nPuis écrivez la première phrase de la partie suivante : elle reprend le mot clé de votre question.",
+        "aide": "Exemple sur un autre texte : « Le jouet rapproche les deux enfants, mais la grille demeure : comment ce rapprochement devient-il une égalité ? » Puis la partie suivante : « Ce rapprochement devient égalité dans le rire final… »"
       },
       {
         "id": "conclusion",
@@ -2118,7 +2130,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "13. Rédiger la conclusion",
         "temps": 480,
         "access": "premium",
-        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.",
+        "consigne": "En trois ou quatre phrases : répondez à la problématique, en rappelant ce que chaque partie a montré.\nSi le texte laisse une question ouverte, dites-la en une phrase.\nPas d’ouverture artificielle sur un autre texte ou un autre sujet.",
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
     ],
