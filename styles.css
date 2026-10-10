@@ -2470,6 +2470,15 @@ div.qcm-options>p{border:0!important;background:none!important;box-shadow:none!i
 #scale-boussole{margin:0 0 22px}
 @media(max-width:700px){.seo-body .prob-exercice h2,.gammes-list h2{font-size:24px}}
 
+/* === Dissertation de français : copie à 20 sur le Cahier de Douai (bac-dissertation-copie-20-cahier-de-douai.html) === */
+.dc20-page .dc20.c20-plain .c20-h{display:none}
+.dc20-page .dc20.c20-plain .c20-block{margin-bottom:16px;text-indent:1.5em}
+.dc20-page .dc20{margin-top:14px;max-width:980px}
+.dc20-page .dc20-meta{font-size:16px;line-height:1.45}
+.dc20-page .dc20-badge{display:inline-block;font:12px 'American Typewriter','Courier New',monospace;letter-spacing:1.5px;text-transform:uppercase;color:var(--red);border:1px solid var(--red);padding:5px 9px}
+.dc20-page .dc20-toggle[aria-pressed="true"]{border-color:var(--red);color:var(--red)}
+.dc20-page .dc20-note{margin-top:18px}
+@media(max-width:700px){.dc20-page .dc20.c20-plain .c20-block{font-size:18px}.dc20-page .c20-t{font-size:18px}}
 /* === Commentaires à 20, phrase par phrase (commentaire-copie20.js, modèles de commentaire) === */
 .model-commentary .c20c-bar{margin:-8px 0 26px;padding:0 0 18px;border-bottom:1px dotted var(--rule)}
 .model-commentary .c20c-bar .c20c-aide{font-size:15px;line-height:1.5;color:var(--muted);margin:10px 0 0}
