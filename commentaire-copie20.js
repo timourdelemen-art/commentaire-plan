@@ -23,6 +23,12 @@
       [].slice.call(p.querySelectorAll('[data-f]')).forEach(function(s){
         var line=el('p','c20-s'),t=el('span','c20-t');
         t.innerHTML=s.innerHTML;
+        /* un procédé marqué data-m renvoie à sa fiche du Petit manuel des procédés */
+        [].slice.call(t.querySelectorAll('span[data-m]')).forEach(function(m){
+          var a=document.createElement('a');a.href='manuel-procedes.html#'+m.getAttribute('data-m');
+          a.className='rep-manuel';a.title='Fiche du Petit manuel des procédés';a.innerHTML=m.innerHTML;
+          m.parentNode.replaceChild(a,m);
+        });
         var w=document.createTreeWalker(t,NodeFilter.SHOW_TEXT),x;
         while((x=w.nextNode()))x.nodeValue=nb(x.nodeValue);
         line.appendChild(t);line.appendChild(el('span','c20-f',s.getAttribute('data-f')));
