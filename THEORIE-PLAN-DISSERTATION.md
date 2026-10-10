@@ -1,5 +1,12 @@
 # Théorie du plan de dissertation
 
+## Décisions du 10 octobre 2026 (priment sur la suite de ce document)
+
+- **Problématiser le sujet** : « On pourrait penser X (ce que le sujet suggère). Pourtant, l'œuvre montre Y. Comment comprendre que… ? ». Forme développée puis condensée en une seule question (voir `AGENTS.md` § 7).
+- **Plan sur mesure** : aucun plan type, aucun rôle fixe des extraits. Le plan naît de la problématique ; chaque partie répond à la question laissée par la précédente ; les extraits sont choisis ensuite. Le sujet commande.
+- **Formes des vrais sujets** (2023-2026, voie générale) : un mot qui restreint (« ne… que », « seulement », « toujours ») ; une lecture proposée (« Peut-on lire X comme… ») ; un mot qui qualifie (« sérieusement ») ; une citation (« éclaire-t-elle votre lecture ? »). Chaque forme indique où chercher le pourtant.
+- **Transitions** : question directe ouverte, reprise par la partie suivante ; jamais « … suffit-il ? ».
+
 ## Principe directeur
 
 Une dissertation ne juxtapose pas des thèmes. Elle résout progressivement une difficulté construite à partir du sujet et de l'œuvre.
@@ -22,7 +29,7 @@ Restent souples :
 - la forme du plan ;
 - le nombre exact de passages dans un argument ;
 - l'usage ou non d'une référence extérieure ;
-- la formulation précise des transitions, tant que leur fonction est respectée.
+- la formulation des transitions dans le respect de la règle d'élégance : une question directe ouverte, sans « … suffit-il ? », reprise par la première phrase de la partie suivante (décision du 10 octobre 2026).
 
 La dissertation partage avec le commentaire une logique générale :
 - une problématique à résoudre ;
@@ -227,7 +234,7 @@ Si cette phrase n'apporte rien de nouveau ou de plus précis sur l'œuvre, la r�
 
 ## 4. La transition
 
-### La transition = une question qui fait apparaître ce que la réponse précédente ne suffit pas encore à expliquer
+### La transition = une question qui fait apparaître ce que la réponse précédente n'explique pas encore
 
 Elle ne donne pas la partie suivante.
 Elle ne répète pas la nécessité de la réponse suivante.

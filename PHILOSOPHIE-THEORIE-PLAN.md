@@ -103,6 +103,10 @@ Les formules générales du protocole (« Si cette première réponse semble ins
 - III.3 Être juste, c'est obéir en jugeant. Reste : l'État qui ferme toute voie de contestation.
 - Conclusion : quand l'État ferme toute voie de contestation, la désobéissance peut-elle rester juste sans devenir violence ?
 
+## Problématique développée et condensée (10 octobre 2026)
+
+La mise en tension des deux réponses est la forme développée du problème ; la problématique, sa forme condensée. Ce n'est pas un niveau supérieur : la même pensée, écrite avec économie, et toujours reconstructible. Démarche : 1. les deux réponses et ce que chacune perd ; 2. le rapport qui produit ces deux pertes (sans chercher la solution) ; 3. le noyau spécifique, au niveau du sujet (ni rester aux deux pertes, ni monter à une loi générale : « toute condition peut devenir obstacle ») ; 4. la question condensée, la plus courte qui garde tout. Tests : substitution (remplacer le mot central du sujet casse la question), reconstruction (on retrouve les deux réponses et leurs pertes), troisième partie (pas de « concilier »). Mise en garde : condenser trop tôt perd presque toujours une branche (« Comment la technique peut-elle accroître notre liberté tout en menaçant notre autonomie ? » perd la seconde réponse et présuppose déjà les deux faits).
+
 ## Grille de contrôle d'une dissertation (copies à 20, corrigés, bonnes réponses d'exercices)
 
 1. **Introduction** : une scène qui porte deux exigences légitimes et leur contradiction ; une analyse courte ; la généralisation ; la problématique ; l'annonce des questions.

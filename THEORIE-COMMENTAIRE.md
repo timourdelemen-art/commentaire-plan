@@ -30,9 +30,11 @@ La transformation peut porter sur une situation, une valeur, une relation, une i
 
 Elle n’est pas nécessairement chronologique.
 
-Forme de travail fréquente :
+Formule élève (décision du 10 octobre 2026), la seule employée sur les pages élèves :
 
-**X → POURTANT → Y → COMMENT ?**
+**On pouvait attendre X. Pourtant, le texte produit Y. Comment comprendre que… ?**
+
+« Transformation », « donné » et « attente » restent des termes de ce document ; sur une page élève, on dit « ce que le texte installe », « on pouvait attendre », « pourtant ». Le pourtant n'exige pas un renversement spectaculaire : il peut signaler une complication, une intensification ou une résistance. S'il ne fonctionne pas, l'élève n'a pas encore trouvé ce qui pose problème ; il ne doit pas en fabriquer un.
 
 La problématique naît de cet écart réel.
 
@@ -42,15 +44,15 @@ La problématique n’est pas une question ajoutée artificiellement.
 
 Elle formule la difficulté interprétative créée par la transformation.
 
-Forme simple privilégiée :
+Le « On pouvait attendre X. Pourtant, Y. » est la forme développée ; la problématique en est la forme condensée : une seule question, la plus courte qui garde X et Y. Test : on doit retrouver X et Y dans la question, et elle ne contient pas la réponse.
 
-**Comment le texte transforme-t-il X en Y ?**
+Formes simples : « Comment [l'auteur] fait-il de X Y ? », « Comment comprendre que… ? ». On évite « Comment le texte transforme-t-il… ? » sur les pages élèves.
 
 La formulation exacte varie avec le texte.
 
 ## 4. Une grande partie = une solution nécessaire
 
-Le site emploie le mot **SOLUTION** pour l’élève.
+Le site emploie le mot **RÉPONSE** pour l’élève (décision du 10 octobre 2026 ; « solution » n'est plus employé), comme en dissertation et en philosophie.
 
 Une grande partie n’est jamais, par principe :
 - un thème ;
