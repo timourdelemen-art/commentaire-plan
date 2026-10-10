@@ -431,6 +431,10 @@ Sa fonction est de **mettre la conclusion à l'épreuve d'une autre œuvre** :
 - limiter ;
 - préciser la portée de ce qui vient d'être démontré.
 
+### Ce que la refonte de la philosophie (10 octobre 2026) change ici, et ce qu'elle ne change pas
+- **Change** : la règle des citations. Une citation de l'œuvre ou d'un critique est subordonnée au raisonnement (fonction de la partie, de l'argument, de la phrase, puis citation) ; elle est choisie parce qu'elle prouve ce que l'argument avance, jamais parce qu'elle est célèbre. L'élégance des transitions était déjà commune.
+- **Ne change pas** : l'introduction (situer l'œuvre et le sujet, sans scène obligatoire), la souplesse du nombre de parties, la conclusion sans nouvelle question imposée. La scène à deux exigences et les trois opérations de la partie III sont propres à la dissertation philosophique (`PHILOSOPHIE-THEORIE-PLAN.md`) : une dissertation sur œuvre répond à un sujet par l'œuvre, elle ne résout pas une contradiction conceptuelle.
+
 ---
 
 ## 8. Repérage dans une dissertation corrigée
