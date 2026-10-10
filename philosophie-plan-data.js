@@ -72,7 +72,7 @@ niveau1: [
   ['Un enfant joue sans connaître tous les dangers du monde qui l’entoure, et il est heureux.','def','Juste, mais l’enfant ne choisit pas d’ignorer : l’exemple illustre plus qu’il ne renforce.'],
   ['Socrate préfère savoir, même insatisfait, plutôt que vivre dans l’ignorance.','no','Il défend la réponse contraire : gardez-le pour la partie II.']]},
  {p:'I',k:'limite',q:'Où cette réponse cède-t-elle, si on la pousse jusqu’au bout ?',o:[
-  ['Un bonheur fondé sur l’ignorance ne se sait plus heureux, et la réalité finit par revenir.','ok','La limite vient de la réponse : à force d’ignorer, on ignore aussi son bonheur.'],
+  ['Un bonheur fondé sur l’ignorance ne se sait plus heureux, et la réalité finit par revenir.','ok','La limite vient de la réponse : se savoir heureux, c’est savoir qu’on pourrait ne plus l’être ; qui ignore la menace ignore aussi son bonheur.'],
   ['Ignorer certains dangers peut mettre la santé de chacun, et même celle des autres, en grand danger.','def','Vrai, mais c’est une objection extérieure : la limite doit venir du bonheur lui-même.'],
   ['Tout le monde n’a pas la chance de pouvoir rester inconscient de ce qui le menace.','no','Un constat, pas une limite de la réponse.']]},
  {p:'T1',k:'transition',q:'Quelle question, née de cette limite, fait passer à la partie II ?',o:[

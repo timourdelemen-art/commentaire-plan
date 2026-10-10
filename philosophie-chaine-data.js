@@ -48,9 +48,9 @@ niveau1: [
    ['Les gens insouciants ont souvent de la chance.','no','La chance n’est pas une raison : le sujet demande si l’insouciance est une condition du bonheur.'],
    ['Selon Freud, l’inconscient gouverne nos désirs.','no','Attention au sens du mot : ici, « inconscient » veut dire insouciant, qui ne voit pas le danger. Ce n’est pas l’inconscient des psychanalystes.']]},
   {b:'oui',p:'scene',q:'Imaginez quelqu’un qui ne voit jamais rien de ce qui le menace. Que lui arrive-t-il ?',o:[
-   ['Il vit tranquille, mais ne se rend pas compte qu’il est heureux.','ok','Oui : celui qui ne voit rien ne voit pas non plus son propre bonheur.'],
-   ['Il finit forcément par avoir un accident.','no','Ce n’est pas certain. On cherche ce que le oui perd à coup sûr, même si tout va bien.'],
-   ['Il devient très inquiet.','no','C’est le risque de la réponse contraire, celle qui voit tout.']]},
+   ['Il vit tranquille, sans mesurer ce qu’il a : on ne se sait heureux qu’en sachant qu’on pourrait ne plus l’être.','ok','Oui : se savoir heureux, c’est savoir que ce bonheur peut se perdre. Qui ne voit rien de ce qui le menace ne le sait pas.'],
+   ['Tôt ou tard, il finit forcément par avoir un grave accident, puisqu’il ne voit jamais le danger venir.','no','Ce n’est pas certain. On cherche ce que le oui perd à coup sûr, même si tout va bien.'],
+   ['Il devient très inquiet, car il sent confusément que quelque chose le guette, sans savoir quoi au juste.','no','C’est le risque de la réponse contraire, celle qui voit tout.']]},
   {b:'oui',p:'perte',q:'Qu’a-t-il perdu ?',o:[
    ['La conscience d’être heureux.','ok','Oui : le oui garde le repos, mais perd le fait de se savoir heureux.'],
    ['Le repos.','no','Le repos, il l’a : c’est ce que le oui garde.'],
