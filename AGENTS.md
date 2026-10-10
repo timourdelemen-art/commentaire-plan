@@ -120,6 +120,7 @@ Format : date · ce qui s’est passé · la règle qui en découle. Proposez un
 - 2026-10-09 · Cinq PR (n° 73 à 79) ont été fusionnées en indiquant « tests non réalisés » ; le diagnostic mis en ligne donnait la bonne réponse comme la plus longue dans tous les nouveaux sujets, et un sujet n’était pas un vrai sujet du bac. · Pas de fusion sans tests (§ 1, règle 7) ; la vérification pédagogique aurait détecté les deux défauts.
 - 2026-10-09 · Des termes propres à la méthode (« le donné », « transition-question ») ont été retirés des consignes parce qu’un audit les jugeait techniques. · Ne pas supprimer le vocabulaire de la méthode : l’expliquer, avec un exemple, à sa première apparition (§ 2).
 - 2026-10-09 · Une copie à 20 ouvrait sur La Zone d’intérêt, que la banque d’exemples classait elle-même « pour une partie » (une seule réponse) ; une autre citait une réplique de film doublé jamais vérifiée. · Avant de garder une scène d’ouverture, vérifier qu’elle est classée « peut ouvrir ce sujet » dans la banque ; une réplique non vérifiée se paraphrase, sans guillemets.
+- 2026-10-10 · Après le passage aux transitions-questions, le libellé « III.1 Ce qui reste » subsistait dans 17 pages générées, car les corrigés (`philosophie-annales-data.js`, `philosophie-notions-data.js`) reprennent la théorie à côté des copies à 20. · Après un changement de théorie, chercher l’ancienne formule dans le build entier, pas seulement dans les sources modifiées.
 
 ## 7. Décisions du propriétaire
 
