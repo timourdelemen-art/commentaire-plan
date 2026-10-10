@@ -16,7 +16,7 @@ const qs=[
 ["Mais comment pourrait-on être heureux en désirant, si tout désir, une fois satisfait, finit toujours par retomber dans l’ennui ?",false,"La réponse est déjà dans la question : la partie II n’a plus rien à chercher."],
 ["Si le désir s’éteint dès qu’il est satisfait, que cherchons-nous vraiment en désirant : l’objet, ou le fait même de désirer ?",true,"C’est la bonne : elle part exactement de la limite et pose une question vraiment ouverte, qui ouvre la partie II."],
 ["Le désir est donc une question complexe, qui touche tous les aspects de l’existence humaine, du corps à l’esprit.",false,"Une généralité qui quitte la difficulté précise."]]},
-{skill:"troisieme",title:"Quelle troisième partie est la plus forte ?",context:"I : une loi générale garantit l’égalité, la même règle pour tous. II : mais elle ne voit pas les situations particulières, et peut produire une injustice. Reste : comment être juste avec chacun sans cesser de l’être pour tous ?",options:[
+{skill:"troisieme",title:"Quelle troisième partie est la plus forte ?",context:"I : une loi générale garantit l’égalité, la même règle pour tous. II : mais elle ne voit pas les situations particulières, et peut produire une injustice. Le problème à résoudre : comment être juste avec chacun sans cesser de l’être pour tous ?",options:[
 ["Il faut donc appliquer les lois à moitié : un peu de règle commune, un peu d’exception selon les cas.",false,"Couper la poire en deux n’explique rien : on renonce au problème au lieu de le traiter."],
 ["Finalement, il faut supprimer les lois générales et juger chaque cas séparément, selon sa situation.",false,"Choisir un camp efface ce que la partie I avait montré : l’égalité devant la règle."],
 ["Distinguer deux plans : la loi fixe la règle pour tous, le juge l’applique à chaque cas avec équité.",true,"C’est la bonne : elle garde l’acquis de I et de II en distinguant deux plans, la règle et son application."],
@@ -67,9 +67,9 @@ argumenter:{context:"Vous voulez montrer que l’habitude ne garantit pas qu’u
 transitions:{context:"Partie I : la technique nous donne du pouvoir sur la nature. Limite : ce pouvoir peut produire des dommages que nous ne savons pas réparer.",options:[
 ["Après avoir étudié le pouvoir que nous donne la technique sur la nature, nous parlerons maintenant de la nature elle-même.",false,"Simple annonce : aucune difficulté ne rend la suite nécessaire."],
 ["Puisque la technique détruit la nature, il faut y renoncer et revenir à une vie plus simple.",false,"La réponse est décidée avant l’examen de la deuxième partie."],
-["Si notre puissance peut causer des dommages irréparables, suffit-il de pouvoir agir pour avoir le droit de le faire ?",true,"La limite du pouvoir technique devient une question ouverte sur la responsabilité."],
+["Si notre puissance peut causer des dommages irréparables, d’où nous viendrait le droit de faire tout ce que nous pouvons ?",true,"La limite du pouvoir technique devient une question ouverte : la partie II devra chercher d’où vient ce droit."],
 ["La technique a donc de nombreux avantages, mais aussi des inconvénients qu’il faut examiner.","def","Le contraste est réel, mais la difficulté précise des dommages irréparables disparaît."]]},
-troisieme:{context:"I : dire la vérité respecte l’autre. II : une vérité brutale peut lui nuire. Reste : comment respecter l’autre sans le tromper ni l’écraser ?",options:[
+troisieme:{context:"I : dire la vérité respecte l’autre. II : une vérité brutale peut lui nuire. Le problème à résoudre : comment respecter l’autre sans le tromper ni l’écraser ?",options:[
 ["Il faut mentir une fois sur deux, pour ne blesser personne tout en restant assez sincère.",false,"Un compromis de quantité ne résout pas la tension."],
 ["Distinguer ne pas tromper et la manière de dire : la sincérité oblige, mais n’autorise pas la brutalité.",true,"La distinction garde l’exigence de vérité et le souci d’autrui sans les confondre."],
 ["Il faut toujours dire toute la vérité, quelles que soient les conséquences pour celui ou celle qui l’entend.",false,"La difficulté de la deuxième partie est supprimée : c’est choisir un camp."],
