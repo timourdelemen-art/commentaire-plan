@@ -9,10 +9,11 @@ const RULES=[
  [/^philosophie-copie-20-.*\.html$/,'D’autres copies à 20 ?','Les nouvelles copies et les nouveaux sujets corrigés.'],
  [/^hlp-20\d\d-.*\.html$/,'Un autre sujet de HLP ?','Les nouveaux sujets et les nouveaux outils, au fil de l’année.'],
  [/^philosophie-probleme-pas-a-pas\.html$/,'De nouveaux sujets à faire au clic ?','Les nouveaux sujets pas à pas, au fil de l’année.'],
- [/^bac-20\d\d-.*\.html$/,'Un autre sujet du bac ?','Les nouveaux sujets corrigés, au fil de l’année.'],
+ [/^bac-20\d\d-.*\.html$/,'Un autre sujet du bac ?','Les nouveaux sujets guidés, au fil de l’année.','Laissez une adresse : vous êtes prévenu quand de nouveaux sujets guidés sont en ligne, et à l’ouverture de l’accès complet. Au plus un message par mois.'],
 ];
 const START='<!--capture:start-->',END='<!--capture:end-->';
-const block=(file,kick,h2)=>`${START}<section class="offer-band capture" id="prevenu"><div class="section-intro"><div><div class="kicker">${kick.toUpperCase()}</div><h2>${h2}</h2></div><p>Laissez une adresse : vous êtes prévenu quand de nouveaux sujets corrigés sont en ligne, et à l’ouverture de l’accès complet. Au plus un message par mois.</p></div>
+const PARA='Laissez une adresse : vous êtes prévenu quand de nouveaux sujets corrigés sont en ligne, et à l’ouverture de l’accès complet. Au plus un message par mois.';
+const block=(file,kick,h2,para=PARA)=>`${START}<section class="offer-band capture" id="prevenu"><div class="section-intro"><div><div class="kicker">${kick.toUpperCase()}</div><h2>${h2}</h2></div><p>${para}</p></div>
 <form name="nouveautes" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/merci.html" class="lead-form capture-form">
 <input type="hidden" name="form-name" value="nouveautes"><input type="hidden" name="landing_page" value=""><input type="hidden" name="source" value="${file}"><input type="hidden" name="campaign" value=""><input type="hidden" name="referrer" value="">
 <p class="hidden-field"><label>Ne pas remplir <input name="bot-field"></label></p>
@@ -28,7 +29,7 @@ for(const f of fs.readdirSync(ROOT)){
   const p=path.join(ROOT,f); let s=fs.readFileSync(p,'utf8');
   s=s.replace(new RegExp(START+'[\\s\\S]*?'+END+'\\n?'),'');
   if(s.includes('id="prevenu"')||!s.includes('</main>')) continue;
-  s=s.replace('</main>',block(f,r[1],r[2])+'</main>');
+  s=s.replace('</main>',block(f,r[1],r[2],r[3])+'</main>');
   fs.writeFileSync(p,s); n++;
 }
 console.log(`Inscription ajoutée sur ${n} pages.`);
