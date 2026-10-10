@@ -351,8 +351,8 @@
       core.push(
         "Une grande partie est une RÉPONSE nécessaire à la problématique, jamais un thème.",
         "Le mot « établissement » est interdit pour désigner une partie : employer RÉPONSE.",
-        "La NÉCESSITÉ DE LA RÉPONSE explique pourquoi cette réponse est indispensable pour comprendre la transformation et répondre à la problématique.",
-        "Une TRANSITION est uniquement une question simple qui fait apparaître ce qu’il reste encore à expliquer.",
+        "La NÉCESSITÉ DE LA RÉPONSE explique pourquoi cette réponse est indispensable pour comprendre le « pourtant » du texte (ce qu’on pouvait attendre, ce que le texte produit) et répondre à la problématique.",
+        "Une TRANSITION est une question ouverte et directe, placée entre deux parties, qui fait apparaître ce qu’il reste encore à expliquer ; jamais « … suffit-il ? » ni une question fermée ; la partie suivante reprend son mot clé.",
         "RÉALISATION = ce que le texte fait ; ÉLÉMENT TEXTUEL = ce qui le montre ; PROCÉDÉ = comment l’élément est construit ; EFFET = ce que cela change ici.",
         "Pour un procédé, ne jamais valider le seul nom : exiger l’élément précis et l’effet contextualisé.",
         "Ne pas proposer le commentaire complet quand l’élève travaille une étape intermédiaire."

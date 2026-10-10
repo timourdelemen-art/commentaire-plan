@@ -2297,7 +2297,7 @@ div.qcm-options>p{border:0!important;background:none!important;box-shadow:none!i
 #chaine-app .pb-repere{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:15px;margin-bottom:6px}
 #chaine-app .pb-repere b{font-weight:700}
 #chaine-app .pb-repere span{color:var(--muted)}
-#chaine-app .pb-jauge{display:grid;grid-template-columns:repeat(3,1fr) 9px repeat(3,1fr) 9px 1fr;column-gap:3px;row-gap:3px;margin-bottom:24px}
+#chaine-app .pb-jauge{display:grid;grid-template-columns:repeat(3,1fr) 9px repeat(3,1fr) 9px repeat(2,1fr);column-gap:3px;row-gap:3px;margin-bottom:24px}
 #chaine-app .pb-jauge i{height:6px;background:#ddd3c4}
 #chaine-app .pb-jauge i.sep{grid-column:auto}
 #chaine-app .pb-jauge i:nth-of-type(4){grid-column:5}
@@ -2307,7 +2307,9 @@ div.qcm-options>p{border:0!important;background:none!important;box-shadow:none!i
 #chaine-app .pb-jauge span{grid-row:2;font:10px 'American Typewriter','Courier New',monospace;letter-spacing:1px;text-transform:uppercase;color:var(--muted)}
 #chaine-app .pb-jauge span:nth-of-type(1){grid-column:1/4}
 #chaine-app .pb-jauge span:nth-of-type(2){grid-column:5/8}
-#chaine-app .pb-jauge span:nth-of-type(3){grid-column:9}
+#chaine-app .pb-jauge span:nth-of-type(3){grid-column:9/11}
+#chaine-app .pb-pbm.pb-court{margin-top:10px}
+#chaine-app .pb-pbm.pb-court::before{content:none}
 #chaine-app .pb-grille{display:grid;grid-template-columns:1fr;gap:28px}
 #chaine-app .pb-step{border-top:0;padding-top:0}
 #chaine-app .pb-pied{margin-top:22px;gap:22px;font-size:15px}
@@ -2356,3 +2358,101 @@ div.qcm-options>p{border:0!important;background:none!important;box-shadow:none!i
 .diss-plan-exemple{border-left:4px solid var(--red);padding:6px 0 6px 16px;margin:14px 0}
 .diss-plan-exemple p{margin:0 0 8px}
 @media(max-width:760px){.diss-pb .chaine-q{font-size:20px}.diss-pb .chaine-opt{font-size:16px;padding:12px 13px}}
+/* === Commentaire pas à pas : barre, repère et jauge, carte du commentaire, niveau 3 (#comm-app) === */
+#comm-app{max-width:1180px}
+#comm-app .cc-barre{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 16px;padding:0 0 12px;border-bottom:1px solid #c9bfb0;margin-bottom:18px}
+#comm-app .cc-niv{font:12px 'American Typewriter','Courier New',monospace;letter-spacing:1.5px;text-transform:uppercase;color:var(--red)}
+#comm-app .cc-suj{font-size:22px;line-height:1.3;flex:1 1 320px}
+#comm-app .cc-suj i{font:12px 'American Typewriter','Courier New',monospace;font-style:normal;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin-left:6px}
+#comm-app .cc-changer{font:15px Georgia,'Times New Roman',serif;background:none;border:0;border-bottom:1px solid var(--red);color:var(--red);padding:2px 0;cursor:pointer}
+#comm-app .cc-choix{padding:4px 0 18px;border-bottom:1px solid #c9bfb0;margin-bottom:18px}
+#comm-app .cc-choix .chaine-tabs{margin-bottom:16px}
+#comm-app .cc-choix .chaine-sujets{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:8px}
+#comm-app .cc-choix .chaine-sujets>span{grid-column:1/-1}
+#comm-app .cc-choix .chaine-sujets button{max-width:none;white-space:normal;padding:10px 12px}
+#comm-app .chaine-sujets small{display:block;font:11px 'American Typewriter','Courier New',monospace;letter-spacing:1px;text-transform:uppercase;color:#596d49;margin-top:4px}
+#comm-app .chaine-sujets small.cc-genre{color:var(--muted)}
+#comm-app .cc-repere{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:15px;margin-bottom:6px}
+#comm-app .cc-repere span{color:var(--muted)}
+#comm-app .cc-jauge{display:flex;gap:9px;margin-bottom:24px}
+#comm-app .cc-jg{flex:1 1 0;min-width:0;display:flex;flex-direction:column;gap:3px}
+#comm-app .cc-segs{display:flex;gap:3px}
+#comm-app .cc-segs i{flex:1;height:6px;background:#ddd3c4}
+#comm-app .cc-segs i.done{background:#596d49}
+#comm-app .cc-segs i.now{background:var(--red)}
+#comm-app .cc-jg small{font:10px 'American Typewriter','Courier New',monospace;letter-spacing:1px;text-transform:uppercase;color:var(--muted);white-space:nowrap;overflow:hidden}
+#comm-app .cc-jt small{text-align:center}
+#comm-app .cc-grille{display:grid;grid-template-columns:1fr;gap:28px}
+#comm-app .cc-main{min-width:0}
+#comm-app .cc-step{border-top:0;padding-top:0}
+#comm-app .cc-texte{margin:0 0 18px}
+#comm-app .cc-texte summary{cursor:pointer;font-size:17px;margin-bottom:8px}
+#comm-app .cc-texte .texte-examen{max-height:60vh;overflow:auto}
+#comm-app .cc-relire{margin:0 0 12px;font-size:15px}
+#comm-app .cc-relire button,#comm-app .chaine-nav button.home-text-link{background:none;border:0;border-bottom:1px solid var(--red);cursor:pointer;font-family:inherit;font-size:inherit;padding:0 0 3px;color:inherit}
+#comm-app .cc-enonce{font-size:17px;display:grid;gap:6px}
+#comm-app .cc-ctx em{font:11px 'American Typewriter','Courier New',monospace;font-style:normal;letter-spacing:1px;text-transform:uppercase;color:var(--muted);margin-right:4px}
+#comm-app .cc-def{font-size:16px;line-height:1.45;color:var(--muted);margin:-6px 0 14px;border-left:3px solid #c9bfb0;padding-left:10px}
+#comm-app .cc-aide{margin:0 0 10px;font-size:16px}
+#comm-app .cc-aide summary{cursor:pointer;color:var(--red)}
+#comm-app .cc-aide p{margin:6px 0 0;line-height:1.45}
+#comm-app textarea{width:100%;font:18px/1.45 Georgia,'Times New Roman',serif;border:1px solid #8a8378;padding:12px;background:#fff;color:var(--ink)}
+#comm-app .cc-check{margin:10px 0 6px;padding-left:20px;font-size:16px;line-height:1.45}
+#comm-app .cc-warn{margin:0 0 10px;padding:8px 10px;background:#f5e6e2;border-left:3px solid #9b4c43;font-size:16px;line-height:1.45}
+#comm-app .cc-pied{margin-top:22px;gap:22px;font-size:15px}
+#comm-app .cc-pied .home-text-link{color:var(--muted);border-bottom-color:#c9bfb0}
+#comm-app .cc-carte{border:1px dashed #9b9488;background:#fbf7ef;padding:12px 16px}
+#comm-app .cc-carte summary{cursor:pointer;font:12px 'American Typewriter','Courier New',monospace;letter-spacing:1.5px;text-transform:uppercase}
+#comm-app .cc-carte summary span{color:var(--muted);margin-left:6px}
+#comm-app .cc-bloc{border-top:3px solid #c9bfb0;padding-top:8px;margin-top:12px}
+#comm-app .cc-bloc>strong{display:block;font-size:15px;margin-bottom:4px}
+#comm-app .cc-carte p{font-size:15px;line-height:1.45;margin:0 0 8px}
+#comm-app .cc-carte em{display:block;font:11px 'American Typewriter','Courier New',monospace;font-style:normal;letter-spacing:1px;text-transform:uppercase;color:var(--muted)}
+#comm-app .cc-carte .vide{color:#a59d90}
+#comm-app .cc-carte .now em{color:var(--red)}
+#comm-app .cc-pbm{margin-top:12px;padding:10px 12px;border-left:4px solid var(--red);background:#eee4d3;font-size:16px;line-height:1.45}
+#comm-app .cc-pbm.vide{border-left-color:#c9bfb0;font-style:italic}
+#comm-app .cc-trans{margin:10px 0 0 14px;padding:6px 10px;border-left:2px dashed #9b9488;font-size:15px;line-height:1.45;font-style:italic}
+#comm-app .cc-trans.now{border-left-color:var(--red)}
+#comm-app .cc-trans.vide{color:#a59d90}
+#comm-app .cc-fin{border-top:0;padding-top:0}
+#comm-app .cc-fin h2{font-size:32px}
+#comm-app .cc-bilan{border-top:1px solid #c9bfb0;margin-top:18px;padding-top:14px}
+#comm-app .cc-bilan p{margin:0 0 8px;font-size:17px;line-height:1.45}
+#comm-app .cc-valide{color:#596d49}
+#comm-app .cc-a-revoir{color:#9b4c43}
+#comm-app .cc-score span{color:var(--muted)}
+#comm-app .cc-pastilles{display:inline-flex;gap:5px;margin-right:10px;vertical-align:1px}
+#comm-app .cc-pastilles i{width:11px;height:11px;border-radius:50%;border:1.5px solid #596d49}
+#comm-app .cc-pastilles i.on{background:#596d49}
+#comm-app .cc-suite{margin-top:24px;border-top:1px solid #c9bfb0;padding-top:12px}
+#comm-app .cc-suite ul{list-style:none;padding:0;margin:8px 0 0;font-size:17px}
+#comm-app .cc-n3 h2{font-size:30px;margin:8px 0 10px}
+#comm-app .cc-n3>p{font-size:17px;line-height:1.45}
+#comm-app .cc-form{display:grid;gap:14px;margin-top:10px}
+#comm-app .cc-f label{display:block;font-weight:700;font-size:17px;margin-bottom:6px}
+#comm-app .cc-f-trans{margin-left:18px;padding-left:12px;border-left:2px dashed #9b9488}
+#comm-app .cc-f-opt label{font-weight:400;color:var(--muted)}
+#comm-app .cc-modele{margin-top:8px;padding:10px 12px;background:#e6ecdf;border-left:4px solid #596d49;font-size:16px;line-height:1.45}
+#comm-app .cc-modele em{display:block;font:11px 'American Typewriter','Courier New',monospace;font-style:normal;letter-spacing:1px;text-transform:uppercase;color:#596d49;margin-bottom:4px}
+@media(min-width:1000px){#comm-app .cc-grille{grid-template-columns:minmax(0,1fr) 400px;align-items:start}#comm-app .cc-carte{position:sticky;top:16px;max-height:calc(100vh - 32px);overflow:auto}}
+@media(max-width:760px){#comm-app .cc-suj{font-size:19px;flex-basis:100%}#comm-app .cc-choix .chaine-sujets{grid-template-columns:1fr}#comm-app .cc-jauge{gap:5px}#comm-app .cc-jg small{font-size:9px;letter-spacing:0}#comm-app .cc-fin h2{font-size:28px}#comm-app .cc-fin .chaine-nav .btn{width:100%;justify-content:center}#comm-app .cc-f-trans{margin-left:6px}#comm-app .cc-texte .texte-examen{max-height:none}}
+/* === Commentaire du bac : pourtant, problématique condensée, transitions (fr-commentaire) === */
+.seo-body .prob-forms,.seo-body .prob-tests{font-size:19px;line-height:1.55;padding-left:24px;margin:10px 0 22px;max-width:860px}
+.seo-body .prob-forms li,.seo-body .prob-tests li{margin:0 0 10px}
+.seo-body .prob-forms{list-style:none;padding-left:0}
+.seo-body .prob-forms li{border-left:3px solid #d9d0c2;padding:4px 0 4px 14px}
+.seo-body .prob-exercice{margin:40px 0;padding:26px 0 8px;border-top:1px solid #c9bfb0;border-bottom:1px solid #c9bfb0}
+.seo-body .prob-exercice h2{font-size:30px;margin:6px 0 14px}
+.seo-body .prob-exercice>p{font-size:18px;line-height:1.5}
+.seo-body .prob-exercice .chaine-opts{margin:16px 0 4px}
+.seo-body .transition-pairs{display:grid;gap:18px;margin:14px 0 22px}
+.seo-body .transition-pairs article{border-left:3px solid #d9d0c2;padding:4px 0 4px 16px}
+.seo-body .transition-pairs h3{font-size:20px;margin:0 0 8px;font-weight:400}
+.seo-body .transition-pairs p{font-size:18px;line-height:1.5;margin:0 0 6px}
+.gammes-list{margin:34px 0;padding:24px 0;border-top:1px solid #c9bfb0}
+.gammes-list h2{font-size:28px;font-weight:400;margin:6px 0 10px}
+.gammes-list p{font-size:18px;line-height:1.7}
+.gammes-list a{color:var(--red);border-bottom:1px solid var(--red)}
+#scale-boussole{margin:0 0 22px}
+@media(max-width:700px){.seo-body .prob-exercice h2,.gammes-list h2{font-size:24px}}
