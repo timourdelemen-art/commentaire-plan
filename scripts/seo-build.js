@@ -128,6 +128,7 @@ function crumbSpec(r, title){
   const c=[{name:'Accueil',href:'/'}];
   const SERVICE=/^(offre|apropos|merci|contact|plan-du-site|mentions-legales|cgv|confidentialite|annales|entrainement-annale|eleves|ia-laboratoire)\.html$/;
   if(SERVICE.test(b)) { /* pages de service : pas de rubrique */ }
+  else if(/^methode-/.test(b)) { if(b!=='methode-cours.html') c.push({name:'Cours de méthode',href:'/methode-cours.html'}); }
   else if(/^brevet|anthologie-brevet/.test(b)) c.push({name:'Brevet',href:'/brevet.html'});
   else if(/^philosophie|^dissertation-philosophie/.test(b)) c.push({name:'Philosophie',href:'/philosophie.html'});
   else if(/^hlp-professeurs/.test(b)) { c.push({name:'Enseignants',href:'/enseignants.html'}); }
