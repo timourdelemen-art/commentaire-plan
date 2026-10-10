@@ -150,7 +150,7 @@ function prescription(k){
  problematiser:"Commencez au clic : un vrai sujet, sept questions, la problématique au bout. Refaites-le sur deux autres sujets, puis passez au niveau 2.",
  argumenter:"Commencez par « Zéro auteur » : une réponse, une raison, un exemple, une difficulté, sans aucun nom propre.",
  transitions:"Faites l’exercice 7 et le « Duel de transitions », puis écrivez vous-même une transition sur un sujet d’annale.",
- troisieme:"Faites la « Bataille des III », puis relisez les sept opérations de la troisième partie.",
+ troisieme:"Faites la « Bataille des III », puis relisez les trois opérations de la troisième partie.",
  references:"Commencez par « Sauvez cette citation », puis appliquez le test : retirez le nom, le raisonnement tient-il encore ?"
  }[k];
 }

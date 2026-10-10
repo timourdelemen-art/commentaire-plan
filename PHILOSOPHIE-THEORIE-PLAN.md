@@ -1,6 +1,6 @@
 # Théorie du plan de dissertation philosophique
 
-Décision du propriétaire, 10 octobre 2026. Document interne (non publié). Référence pour le cours (`philosophie-dissertation.html`), l'exercice du plan (`philosophie-plan-data.js`), l'exercice « écrire une transition », les corrigés, les copies à 20 et les consignes du correcteur automatique.
+Décision du propriétaire, 10 octobre 2026 ; complétée le 10 octobre (protocole « théorie des résolutions » : introduction-scène, trois opérations, grille de contrôle). Document interne (non publié). Référence pour le cours (`philosophie-dissertation.html`), l'exercice du plan (`philosophie-plan-data.js`), l'exercice « écrire une transition », les corrigés, les copies à 20 et les consignes du correcteur automatique.
 
 ## Principe
 
@@ -18,7 +18,14 @@ Une réponse laisse quelque chose d'inexpliqué ; on le formule en question ; la
 
 ## Structure
 
-**Introduction** : l'idée spontanée ; ce qu'elle menace ; le problème ; annonce des questions, pas des réponses de la partie III.
+**Introduction** (décision du 10 octobre : elle part des **deux** exigences, pas d'une seule idée)
+1. **La scène** (littérature, cinéma, histoire, situation humaine) : elle contient déjà le problème, deux exigences légitimes qui se contredisent. Ce n'est pas une illustration décorative.
+2. **L'analyse courte** (deux ou trois phrases, jamais un commentaire littéraire) : ce que le personnage cherche paraît légitime ; pourtant cette recherche produit une difficulté ; la scène montre deux exigences incompatibles.
+3. **La généralisation** : « Cette situation révèle une difficulté plus générale… » : de la scène à la notion.
+4. **La problématique** : la contradiction formulée en question (forme libre : voir `docs/principe-limpidite-problematique.md`).
+5. **L'annonce du mouvement** : les questions qu'on va se poser, pas les réponses de la partie III.
+
+Côté élève, on dit « les deux exigences qui se contredisent », jamais « double aporie » (§ 2 d'`AGENTS.md`).
 
 **I. Construire l'idée**
 - I.1 Installer : pourquoi l'idée paraît juste (expériences, raisons, exemple analysé).
@@ -34,12 +41,28 @@ Une réponse laisse quelque chose d'inexpliqué ; on le formule en question ; la
 
 **Transition II → III** — porte sur les deux positions à la fois : ce qu'elles supposaient ensemble sans le dire, mis en question. La partie III n'est ni compromis ni synthèse : le problème reposé autrement.
 
-**III. Dépasser l'opposition**
-- III.1 Revenir au problème : ce que chacune avait compris ; pourquoi aucune ne suffit.
-- III.2 L'opération : distinguer deux plans, introduire un processus, inverser un rapport, transformer le concept, déplacer la difficulté, limiter ce qu'on peut savoir, maintenir la tension.
-- III.3 Stabiliser la réponse : ce qu'on peut affirmer, comment cela résout la difficulté, **et ce que cela ne règle pas encore : le reste**.
+**III. Dépasser l'opposition** — ni synthèse, ni compromis, ni troisième opinion : une opération.
+- III.1 Revenir au problème : ce que I avait découvert, ce que II avait découvert, pourquoi ils semblaient incompatibles (le cadrage qui les opposait).
+- III.2 L'opération : **une des trois opérations** (ci-dessous). Un auteur n'est cité que s'il accomplit exactement cette opération.
+- III.3 Stabiliser la réponse : ce que l'opération conserve de I et de II, ce qu'elle transforme, comment elle éclaire le problème de départ, **et ce qu'elle ne règle pas encore : le reste**.
 
-**Conclusion** : la réponse, nette ; ce que le problème nous a appris ; le reste ; le reste devenu question (le même problème, posé plus loin — pas une ouverture sur un autre sujet).
+**Conclusion** (trois temps) : 1. la réponse, nette ; 2. le reste (ce que la résolution ne supprime pas) ; 3. le reste devenu question (le même problème, posé plus loin — pas une ouverture sur un autre sujet). Elle ne répète pas III.
+
+## Les trois opérations de la partie III (côté élève)
+
+Le *Dictionnaire paradoxal* sert de référence interne ; l'élève n'apprend que trois opérations, chacune avec sa question guide. Les sept opérations déjà présentes dans les exercices et les copies en sont des formes : on les garde comme exemples à l'intérieur de chaque famille.
+
+| Opération (élève) | Question guide | Formes déjà présentes sur le site | Résolutions du *Dictionnaire* (interne) |
+|---|---|---|---|
+| **Renverser le rapport** | Et si ce que nous pensions dépendre d'une chose était aussi ce qui la rend possible ? | inverser un rapport (cause/effet, condition/conditionné) | inversion du rapport |
+| **Changer de niveau** | Les deux exigences parlent-elles vraiment du même plan ? | distinguer deux plans ; déplacer la difficulté ; limiter ce qu'on peut savoir | duplication, déplacement, suspension |
+| **Réunir ce qu'on avait séparé** | L'opposition ne vient-elle pas d'une séparation artificielle ? | introduire un processus (deux moments d'un devenir) ; transformer le concept ; maintenir la tension | processualisation, métamorphose, consentement |
+
+L'abolition (choisir un camp) n'est pas une opération de partie III : si une seule réponse échouait, il suffirait de choisir l'autre.
+
+## Les citations
+
+La citation est subordonnée au raisonnement. Ordre : fonction de la partie, fonction de la sous-partie, fonction de la phrase, puis citation éventuelle. Une citation n'est jamais choisie parce qu'elle est célèbre, mais parce qu'elle accomplit une opération précise.
 
 ## Le mot « reste »
 
@@ -62,8 +85,11 @@ Un seul sens dans tout le site : **ce que la réponse finale (III.3) ne règle p
 6. **La reprise** : la partie suivante s'ouvre en reprenant le mot clé de la question.
 7. Elle se mérite par la partie qui la précède : on ne copie pas une formule.
 
+Les formules générales du protocole (« Si cette première réponse semble insuffisante, est-ce parce qu'elle est fausse, ou parce qu'elle ne prend en compte qu'une dimension du problème ? » ; « Le problème vient-il de l'opposition entre ces deux réponses, ou de la manière dont nous avons construit leur opposition ? ») servent de **patron interne** pour trouver la question ; elles ne figurent jamais telles quelles dans une copie ni dans une bonne réponse d'exercice (décision du 10 octobre).
+
 ## Modèle complet : « Pour être juste, suffit-il d'obéir aux lois ? »
 
+- Introduction : Antigone enterre son frère malgré l'édit de Créon. Créon défend une exigence légitime : sans loi commune, la cité se défait. Antigone en défend une autre : il y a des devoirs qu'aucun édit ne peut abolir. Chacun a raison, et chacun détruit ce que l'autre protège. Cette scène révèle une difficulté plus générale : la justice exige une règle commune, mais elle exige aussi de pouvoir juger la règle. Être juste, est-ce respecter la loi commune, au risque d'obéir à des lois injustes, ou juger les lois, au risque de ruiner la règle commune ?
 - I.1 Obéir à la loi, c'est renoncer à se faire justice soi-même : la règle commune arrache le juste à l'arbitraire de chacun.
 - I.2 Socrate, condamné à tort, refuse de s'évader : une loi imparfaite vaut mieux que mille justices privées.
 - I.3 Une loi peut ordonner de commettre l'injuste (et non seulement de le subir, comme Socrate) : obéir sans exception, c'est en devenir complice.
@@ -73,10 +99,22 @@ Un seul sens dans tout le site : **ce que la réponse finale (III.3) ne règle p
 - II.3 Si chacun juge les lois à sa façon, chacun redevient juge de sa propre cause.
 - **T2** : Obéir ou juger : les deux réponses confiaient la justice à un seul. Qui doit la porter, si aucun ne suffit ?
 - III.1 Pas un seul : chacune portait une moitié de la justice. Elle doit être commune (I) et pouvoir être jugée (II).
-- III.2 Distinguer deux plans : à l'État la force de la loi, aux citoyens le pouvoir de la contester publiquement, par des voies communes, en acceptant la sanction.
+- III.2 Changer de niveau (distinguer deux plans) : à l'État la force de la loi, aux citoyens le pouvoir de la contester publiquement, par des voies communes, en acceptant la sanction.
 - III.3 Être juste, c'est obéir en jugeant. Reste : l'État qui ferme toute voie de contestation.
 - Conclusion : quand l'État ferme toute voie de contestation, la désobéissance peut-elle rester juste sans devenir violence ?
 
-## Point en attente
+## Grille de contrôle d'une dissertation (copies à 20, corrigés, bonnes réponses d'exercices)
 
-Le questionnaire du propriétaire formule le problème (étape 5) à partir d'**une seule** idée poussée jusqu'au bout ; la règle actuelle du § 2 d'`AGENTS.md` demande que la scène d'ouverture porte « les deux réponses et leur double échec ». À trancher par le propriétaire avant de modifier l'introduction et l'exercice « Trouver le problème ».
+1. **Introduction** : une scène qui porte deux exigences légitimes et leur contradiction ; une analyse courte ; la généralisation ; la problématique ; l'annonce des questions.
+2. **I** : I.1 installe, I.2 renforce (la position la plus forte possible), I.3 fait naître la limite **de la position elle-même**.
+3. **T1** : une question ouverte, propre au sujet, reprise par la première phrase de II.
+4. **II** : II.1 répond à T1, II.2 construit une position forte, II.3 sa limite propre.
+5. **T2** : une question sur ce que les deux réponses supposaient ensemble.
+6. **III** : III.1 ce que I et II avaient découvert ; III.2 une des trois opérations, identifiable ; III.3 ce qui est conservé, transformé, et le reste.
+7. **Conclusion** : la réponse ; le reste ; le reste devenu question.
+8. **Citations** : chacune accomplit une opération ; aucune n'est plaquée.
+9. **Vocabulaire élève** : ni « double aporie », ni « aporie », ni « résolution » au sens technique, ni « reprobématisation ».
+
+## Point tranché (10 octobre 2026)
+
+L'introduction part **des deux exigences et de leur contradiction**, portées par une scène (règle déjà inscrite au § 2 d'`AGENTS.md`). L'étape 5 du questionnaire du propriétaire (une idée poussée jusqu'au bout) reste un outil de recherche au brouillon : pousser chaque réponse jusqu'au bout fait apparaître sa limite, donc les deux exigences.

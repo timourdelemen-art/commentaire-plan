@@ -44,7 +44,7 @@ niveau1: [
   ['Pas un seul : chacune portait une moitié de la justice. Elle doit être commune (I) et pouvoir être jugée (II).','ok','Elle répond à la question de transition et nomme les deux acquis : la partie III devra garder l’un et l’autre.'],
   ['Chacune avait raison à moitié : la partie I sur l’ordre public, la partie II sur la liberté de chacun.','def','Proche, mais l’ordre et la liberté déplacent le sujet : restez sur la justice.'],
   ['Aucune des deux n’avait raison : il faut reprendre la question de la justice autrement.','no','C’est jeter les deux parties : la troisième doit garder ce qu’elles ont établi.']]},
- {p:'III',k:'operation',q:'Quelle opération permet de tenir les deux ensemble ? Plusieurs peuvent tenir : regardez ce que chacune laisse.',o:[
+ {p:'III',k:'operation',q:'Quelle opération permet de tenir les deux ensemble : renverser le rapport, changer de niveau, ou réunir ce qu’on avait séparé ? Plusieurs peuvent tenir : regardez ce que chacune laisse.',o:[
   ['Obéir en jugeant : respecter la loi, la contester par les voies communes, et désobéir publiquement, en acceptant la sanction, si elle ordonne l’injuste.','ok','Elle répartit la justice entre deux acteurs : la règle commune à l’État (I), le jugement aux citoyens (II). En acceptant sa peine, celui qui désobéit reconnaît encore la loi.'],
   ['Distinguer le légal et le juste : la loi dit ce qui est permis, pas ce qui est juste ; on lui obéit donc sans jamais lui confier la justice.','def','Une distinction solide, qui sauve les deux parties. Mais elle laisse entière la question pratique : que faire quand les deux s’opposent ?'],
   ['Il faut un juste milieu : obéir à la plupart des lois, et ne désobéir qu’à quelques-unes, quand elles nous paraissent trop dures.','no','Couper la poire en deux : rien ne dit lesquelles, ni pourquoi. Le problème reste entier.']]},
@@ -99,7 +99,7 @@ niveau1: [
   ['À condition de savoir autrement : la partie I avait compris que le bonheur veut le repos, la partie II qu’il veut la lucidité.','ok','Elle répond à la question de transition et nomme les deux acquis : la partie III devra garder l’un et l’autre.'],
   ['Chacune avait raison à moitié : la partie I sur le plaisir, la partie II sur la connaissance du monde.','def','Proche, mais le plaisir et la connaissance déplacent le sujet : le repos et la lucidité.'],
   ['Aucune des deux n’avait raison : le bonheur est une question de caractère, voilà tout.','no','C’est jeter les deux parties : la troisième doit garder ce qu’elles ont établi.']]},
- {p:'III',k:'operation',q:'Quelle opération permet de tenir les deux ensemble ? Plusieurs peuvent tenir : regardez ce que chacune laisse.',o:[
+ {p:'III',k:'operation',q:'Quelle opération permet de tenir les deux ensemble : renverser le rapport, changer de niveau, ou réunir ce qu’on avait séparé ? Plusieurs peuvent tenir : regardez ce que chacune laisse.',o:[
   ['Distinguer ce qui dépend de nous et ce qui n’en dépend pas : savoir, mais accepter ce qu’on ne peut changer, comme Épicure devant la mort.','ok','Elle garde la lucidité (II) et le repos (I) : c’est le savoir, non l’ignorance, qui délivre de la crainte.'],
   ['Penser dans le temps : l’insouciance convient à l’enfance, la lucidité à l’âge adulte, chacune à son heure.','def','Elle sauve les deux, mais en les séparant dans le temps : l’adulte reste sans repos.'],
   ['Il faut être un peu conscient et un peu inconscient, selon les moments et les circonstances de la vie.','no','Un juste milieu sans raison : le problème reste entier.']]},
@@ -154,7 +154,7 @@ niveau1: [
   ['Répondre de ce qu’on a fait : la partie I voulait agir avec assurance, la partie II ne rien se cacher.','ok','Elle répond à la question de transition et nomme les deux acquis : la partie III devra garder l’un et l’autre.'],
   ['Chacune avait raison à moitié : la partie I sur la morale, la partie II sur la psychologie.','def','Proche, mais ces deux domaines déplacent le sujet : l’assurance d’agir et la lucidité sur soi.'],
   ['Aucune des deux n’avait raison : la morale n’est qu’une affaire d’opinion.','no','C’est jeter les deux parties : la troisième doit garder ce qu’elles ont établi.']]},
- {p:'III',k:'operation',q:'Quelle opération permet de tenir les deux ensemble ? Plusieurs peuvent tenir : regardez ce que chacune laisse.',o:[
+ {p:'III',k:'operation',q:'Quelle opération permet de tenir les deux ensemble : renverser le rapport, changer de niveau, ou réunir ce qu’on avait séparé ? Plusieurs peuvent tenir : regardez ce que chacune laisse.',o:[
   ['Transformer le concept : on n’est pas sûr d’avoir bien agi, mais on peut être sûr d’avoir agi avec soin, prêt à répondre des effets.','ok','Elle garde l’intention (I) et le souci des effets (II) : la certitude devient un engagement.'],
   ['Distinguer l’intention et les effets : on est certain de l’une, jamais des autres, et on s’en tient là.','def','Elle sauve les deux, mais laisse l’agent coupé en deux : bien voulu, mal fait ?'],
   ['Il faut attendre de connaître tous les effets d’une action avant de juger si elle était bonne.','no','C’est choisir la partie II, et c’est impossible : les effets ne finissent jamais.']]},
@@ -209,7 +209,7 @@ niveau1: [
   ['Deux moments et deux juges : la partie I avait vu sa puissance, la partie II sa liberté de chercher.','ok','Elle répond à la question de transition et nomme les deux acquis : la partie III devra garder l’un et l’autre.'],
   ['Chacune avait raison à moitié : la partie I sur l’économie du savoir, la partie II sur la culture générale.','def','Proche, mais l’économie et la culture déplacent le sujet : la puissance et la liberté de chercher.'],
   ['Aucune des deux : la science n’a pas à être jugée, ni par l’utilité ni par rien.','no','C’est jeter les deux parties : la troisième doit garder ce qu’elles ont établi.']]},
- {p:'III',k:'operation',q:'Quelle opération permet de tenir les deux ensemble ? Plusieurs peuvent tenir : regardez ce que chacune laisse.',o:[
+ {p:'III',k:'operation',q:'Quelle opération permet de tenir les deux ensemble : renverser le rapport, changer de niveau, ou réunir ce qu’on avait séparé ? Plusieurs peuvent tenir : regardez ce que chacune laisse.',o:[
   ['Distinguer deux plans : la recherche n’a pas à être utile, mais la science répond de ce que ses résultats rendent possible.','ok','Elle garde la liberté de chercher (II) et la puissance des résultats (I).'],
   ['Penser dans le temps : d’abord la recherche pure, ensuite les applications, chacune à son tour.','def','Elle sauve les deux, mais oublie la responsabilité : qui répond des usages dangereux ?'],
   ['Il faut une science à moitié utile et à moitié libre, selon les domaines de recherche.','no','Un juste milieu sans raison : le problème reste entier.']]},
@@ -264,7 +264,7 @@ niveau1: [
   ['Pendant le travail : la partie I avait vu la maîtrise, la partie II l’invention, et l’œuvre demande les deux.','ok','Elle répond à la question de transition et nomme les deux acquis : la partie III devra garder l’un et l’autre.'],
   ['Chacune avait raison à moitié : la partie I sur la technique, la partie II sur l’émotion que ressent l’artiste.','def','Proche, mais l’émotion déplace le sujet : il s’agit de l’invention.'],
   ['Aucune des deux n’avait raison : l’art ne s’explique pas, il se ressent.','no','C’est jeter les deux parties : la troisième doit garder ce qu’elles ont établi.']]},
- {p:'III',k:'operation',q:'Quelle opération permet de tenir les deux ensemble ? Plusieurs peuvent tenir : regardez ce que chacune laisse.',o:[
+ {p:'III',k:'operation',q:'Quelle opération permet de tenir les deux ensemble : renverser le rapport, changer de niveau, ou réunir ce qu’on avait séparé ? Plusieurs peuvent tenir : regardez ce que chacune laisse.',o:[
   ['Introduire un processus : l’artiste découvre ce qu’il fait en le faisant, et son métier lui permet de garder ce qu’il découvre.','ok','Elle garde la maîtrise (I) et l’invention (II).'],
   ['Distinguer deux plans : l’artiste sait comment il fait, il ne sait pas ce que l’œuvre signifiera pour d’autres.','def','Elle sauve les deux, mais laisse l’invention hors du travail de l’artiste.'],
   ['L’artiste sait à moitié ce qu’il fait, et l’autre moitié lui échappe toujours un peu.','no','Un juste milieu sans raison : le problème reste entier.']]},
@@ -319,7 +319,7 @@ niveau1: [
   ['Celui d’en répondre : la partie II a montré que le sens nous dépasse, la partie I que nos paroles nous engagent.','ok','Elle répond à la question de transition et nomme les deux acquis : la partie III devra garder l’un et l’autre.'],
   ['Chacune avait raison à moitié : la partie I sur la politesse, la partie II sur la psychologie de chacun.','def','Proche, mais la politesse et la psychologie déplacent le sujet : l’engagement et le sens.'],
   ['Aucun : nous ne sommes que les porte-voix de la langue.','no','C’est jeter les deux parties : la troisième doit garder ce qu’elles ont établi.']]},
- {p:'III',k:'operation',q:'Quelle opération permet de tenir les deux ensemble ? Plusieurs peuvent tenir : regardez ce que chacune laisse.',o:[
+ {p:'III',k:'operation',q:'Quelle opération permet de tenir les deux ensemble : renverser le rapport, changer de niveau, ou réunir ce qu’on avait séparé ? Plusieurs peuvent tenir : regardez ce que chacune laisse.',o:[
   ['Déplacer la difficulté : nous ne maîtrisons pas le sens de nos paroles, mais nous décidons de nous engager en parlant.','ok','Elle garde la responsabilité (I) sans nier que le sens nous dépasse (II).'],
   ['Distinguer deux sortes de paroles : celles que nous préparons, que nous maîtrisons, et les autres, qui nous échappent toujours.','def','Elle sauve les deux, mais en les séparant : une parole préparée peut aussi nous échapper.'],
   ['Il faut parler avec prudence, ni trop vite ni trop lentement.','no','Un juste milieu sans raison : le problème reste entier.']]},
@@ -374,7 +374,7 @@ niveau1: [
   ['De ce qu’elle assurait : la partie II a montré le besoin de lien, la partie I celui de juger par soi-même.','ok','Elle répond à la question de transition et nomme les deux acquis : la partie III devra garder l’un et l’autre.'],
   ['Chacune avait raison à moitié : la partie I sur la science, la partie II sur la tradition, les rites et les fêtes.','def','Proche, mais la science et la tradition déplacent le sujet : le jugement libre et le lien.'],
   ['De rien du tout : chacun peut vivre seul.','no','C’est jeter les deux parties : la troisième doit garder ce qu’elles ont établi.']]},
- {p:'III',k:'operation',q:'Quelle opération permet de tenir les deux ensemble ? Plusieurs peuvent tenir : regardez ce que chacune laisse.',o:[
+ {p:'III',k:'operation',q:'Quelle opération permet de tenir les deux ensemble : renverser le rapport, changer de niveau, ou réunir ce qu’on avait séparé ? Plusieurs peuvent tenir : regardez ce que chacune laisse.',o:[
   ['Déplacer la difficulté : le lien que la religion assurait peut reposer sur des convictions partagées et comprises, comme la dignité de chaque personne.','ok','Elle garde le jugement libre (I) et le besoin de lien (II).'],
   ['Distinguer la vie privée et la vie publique : chacun garde sa religion chez soi, et la raison règne dans l’espace commun.','def','Une distinction solide, mais elle ne dit pas ce qui relie les hommes dans l’espace commun.'],
   ['Il faut une religion modérée, qui ne demande pas trop de croire.','no','Un juste milieu sans raison : le problème reste entier.']]},
@@ -429,8 +429,8 @@ niveau1: [
   ['De nous à elle : la partie I voulait une nature qui se fait seule, la partie II une nature protégée.','ok','Elle répond à la question de transition et nomme les deux acquis : la partie III devra garder l’un et l’autre.'],
   ['Chacune avait raison à moitié : la partie I sur la biologie, la partie II sur la politique et l’écologie.','def','Proche, mais ces domaines déplacent le sujet : l’autonomie de la nature et notre responsabilité.'],
   ['Dans aucun sens : la nature et l’homme n’ont rien à voir.','no','C’est jeter les deux parties : la troisième doit garder ce qu’elles ont établi.']]},
- {p:'III',k:'operation',q:'Quelle opération permet de tenir les deux ensemble ? Plusieurs peuvent tenir : regardez ce que chacune laisse.',o:[
-  ['Inverser le rapport : c’est nous qui avons besoin d’une nature qui se fait sans nous ; la protéger, c’est d’abord la laisser faire.','ok','Elle garde l’autonomie de la nature (I) et notre responsabilité (II).'],
+ {p:'III',k:'operation',q:'Quelle opération permet de tenir les deux ensemble : renverser le rapport, changer de niveau, ou réunir ce qu’on avait séparé ? Plusieurs peuvent tenir : regardez ce que chacune laisse.',o:[
+  ['Renverser le rapport : c’est nous qui avons besoin d’une nature qui se fait sans nous ; la protéger, c’est d’abord la laisser faire.','ok','Elle garde l’autonomie de la nature (I) et notre responsabilité (II).'],
   ['Distinguer deux natures : les espaces sauvages, qu’on laisse faire, et les espaces cultivés, qu’on gère entièrement.','def','Une distinction solide, mais elle laisse de côté la question du besoin : qui a besoin de qui ?'],
   ['Il faut protéger les espèces les plus belles, et laisser faire le reste.','no','Un tri sans raison : le problème reste entier.']]},
  {p:'III',k:'stabiliser',q:'Que peut-on désormais affirmer, et que cette réponse ne règle-t-elle pas encore ?',o:[
@@ -484,7 +484,7 @@ niveau1: [
   ['Une joie qui se partage : la partie I avait vu que le bonheur est intérieur, la partie II que les autres nous touchent.','ok','Elle répond à la question de transition et nomme les deux acquis : la partie III devra garder l’un et l’autre.'],
   ['Chacune avait raison à moitié : la partie I sur la sagesse antique, la partie II sur la morale moderne.','def','Proche, mais l’histoire des idées déplace le sujet : l’intériorité du bonheur et le lien aux autres.'],
   ['Aucun : le bonheur n’existe pas vraiment.','no','C’est jeter les deux parties : la troisième doit garder ce qu’elles ont établi.']]},
- {p:'III',k:'operation',q:'Quelle opération permet de tenir les deux ensemble ? Plusieurs peuvent tenir : regardez ce que chacune laisse.',o:[
+ {p:'III',k:'operation',q:'Quelle opération permet de tenir les deux ensemble : renverser le rapport, changer de niveau, ou réunir ce qu’on avait séparé ? Plusieurs peuvent tenir : regardez ce que chacune laisse.',o:[
   ['Transformer le concept : le bonheur humain n’est pas un abri qu’on protège, mais une joie qui grandit de ce qu’on en donne.','ok','Elle garde l’intériorité du bonheur (I) et le lien aux autres (II).'],
   ['Distinguer les proches et les lointains : le malheur des proches nous touche de près, celui des inconnus de loin seulement.','def','Une distinction juste, mais elle ne dit pas quel bonheur reste possible : le problème est déplacé, pas traité.'],
   ['Il faut être heureux, mais un peu moins quand les autres souffrent.','no','Un juste milieu sans raison : le problème reste entier.']]},
@@ -539,7 +539,7 @@ niveau1: [
   ['Aux deux, mais pas pour la même tâche : la partie I a montré qu’il faut la force, la partie II le jugement.','ok','Elle répond à la question de transition et nomme les deux acquis : la partie III devra garder l’un et l’autre.'],
   ['Chacune avait raison à moitié : la partie I sur l’ordre public, la partie II sur la liberté de chacun de protester.','def','Proche, mais l’ordre et la liberté déplacent le sujet : la force et le jugement.'],
   ['À personne : l’injustice fait partie du monde.','no','C’est jeter les deux parties : la troisième doit garder ce qu’elles ont établi.']]},
- {p:'III',k:'operation',q:'Quelle opération permet de tenir les deux ensemble ? Plusieurs peuvent tenir : regardez ce que chacune laisse.',o:[
+ {p:'III',k:'operation',q:'Quelle opération permet de tenir les deux ensemble : renverser le rapport, changer de niveau, ou réunir ce qu’on avait séparé ? Plusieurs peuvent tenir : regardez ce que chacune laisse.',o:[
   ['Distinguer deux plans : à l’État l’action, qui exige la force ; aux citoyens le jugement, car celui qui a la force ne peut en être le seul juge.','ok','Elle garde la force de l’État (I) et le jugement des citoyens (II).'],
   ['Penser dans le temps : d’abord les citoyens dénoncent l’injustice, ensuite l’État la corrige par la loi.','def','Elle sauve les deux, mais l’État reste seul juge une fois la loi faite.'],
   ['Il faut un État ni trop fort ni trop faible.','no','Un juste milieu sans raison : le problème reste entier.']]},
@@ -590,7 +590,7 @@ niveau2: [
   ['Un milieu : la partie I avait vu que nous pensons dans les mots, la partie II que nous les travaillons.','ok','Elle répond à la question de transition et nomme les deux acquis : la partie III devra garder l’un et l’autre.'],
   ['Chacune avait raison à moitié : la partie I sur la grammaire, la partie II sur la littérature.','def','Proche, mais la grammaire et la littérature déplacent le sujet : la pensée et ses mots.'],
   ['Aucune des deux : le langage n’est qu’un outil pour communiquer avec les autres.','no','C’est jeter les deux parties : la troisième doit garder ce qu’elles ont établi.']]},
- {p:'III',k:'operation',w:1,q:'À vous : écrivez l’opération de la troisième partie, qui garde quelque chose de I et de II. Deux phrases.',m:'Le langage n’est pas une prison mais un milieu, comme l’air pour l’oiseau : il limite et rend possible. Ses limites ne sont pas des murs : elles se déplacent quand on le travaille.'},
+ {p:'III',k:'operation',w:1,q:'À vous : écrivez l’opération de la troisième partie (renverser le rapport, changer de niveau, ou réunir ce qu’on avait séparé), qui garde quelque chose de I et de II. Deux phrases.',m:'Le langage n’est pas une prison mais un milieu, comme l’air pour l’oiseau : il limite et rend possible. Ses limites ne sont pas des murs : elles se déplacent quand on le travaille.'},
  {p:'III',k:'stabiliser',q:'Que peut-on désormais affirmer, et que cette réponse ne règle-t-elle pas encore ?',o:[
   ['Nous ne sommes pas prisonniers du langage, mais nous ne pensons jamais sans lui. Reste : ce qu’on ne sait pas encore dire.','ok','La réponse est nette, et son reste est dit : c’est lui que la conclusion reprendra.'],
   ['Nous ne sommes pas prisonniers du langage, mais nous ne pensons jamais sans lui : avec cette réponse, le problème du sujet est entièrement réglé.','def','La réponse est juste, mais elle se croit complète : certaines expériences restent au bord des mots. Cherchez son reste.'],
