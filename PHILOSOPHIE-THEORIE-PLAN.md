@@ -56,13 +56,13 @@ Un seul sens dans tout le site : **ce que la réponse finale (III.3) ne règle p
 
 - I.1 Obéir à la loi, c'est renoncer à se faire justice soi-même : la règle commune arrache le juste à l'arbitraire de chacun.
 - I.2 Socrate, condamné à tort, refuse de s'évader : une loi imparfaite vaut mieux que mille justices privées.
-- I.3 Poussée jusqu'au bout, l'idée oblige à appeler juste tout ce que la loi ordonne, y compris des lois de ségrégation.
+- I.3 Une loi peut ordonner de commettre l'injuste (et non seulement de le subir, comme Socrate) : obéir sans exception, c'est en devenir complice.
 - **T1** : Mais si la loi peut ordonner l'injuste, au nom de quoi pourra-t-on la juger ?
 - II.1 Au nom d'une justice que la loi ne crée pas, et que la première réponse ne pouvait préserver.
-- II.2 Le refus de Rosa Parks a fait juger la ségrégation : sans désobéissance, la loi injuste serait restée.
+- II.2 Le refus de Rosa Parks a ouvert la lutte qui a fait condamner la ségrégation : la désobéissance a jugé la loi.
 - II.3 Si chacun juge les lois à sa façon, chacun redevient juge de sa propre cause.
 - **T2** : Obéir ou juger : les deux réponses confiaient la justice à un seul. Faut-il qu'un seul la porte ?
-- III.1 La partie I : la justice doit être commune ; la partie II : elle doit pouvoir être jugée.
+- III.1 Non : chacune portait une moitié de la justice. Elle doit être commune (I) et pouvoir être jugée (II).
 - III.2 Distinguer deux plans : à l'État la force de la loi, aux citoyens le pouvoir de la contester publiquement, par des voies communes, en acceptant la sanction.
 - III.3 Être juste, c'est obéir en jugeant. Reste : l'État qui ferme toute voie de contestation.
 - Conclusion : quand l'État ferme toute voie de contestation, la désobéissance peut-elle rester juste sans devenir violence ?

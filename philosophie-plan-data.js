@@ -17,7 +17,7 @@ niveau1: [
   ['Le juge applique la même loi au riche et au pauvre : personne ne fait sa propre justice.','def','Un bon exemple de la raison de la partie, mais il illustre plus qu’il ne renforce : la réponse tient-elle encore quand la loi est dure ?'],
   ['Antigone désobéit à Créon pour enterrer son frère, au nom d’une loi plus haute.','no','Cet exemple défend la réponse contraire : gardez-le pour la partie II.']]},
  {p:'I',k:'limite',q:'Où cette réponse cède-t-elle, si on la pousse jusqu’au bout ?',o:[
-  ['Une loi peut ordonner l’injuste : obéir sans exception, c’est alors devenir complice.','ok','La limite vient de la réponse elle-même : l’obéissance sans exception finit par servir l’injustice.'],
+  ['Une loi peut ordonner de commettre l’injuste : obéir sans exception, c’est alors en devenir complice.','ok','La limite vient de la réponse elle-même. Socrate subissait l’injustice ; ici, la loi oblige à la commettre.'],
   ['Les lois changent d’un pays à l’autre et d’une époque à l’autre : elles ne sont donc pas toujours justes.','def','Bonne piste, mais la variété des lois ne prouve pas qu’obéir rende injuste. Allez jusqu’au cas où obéir fait le mal.'],
   ['Beaucoup de gens ne respectent pas les lois, et ne sont pas punis pour autant.','no','Un fait, pas une limite de la réponse : que d’autres désobéissent ne dit rien de celui qui obéit.']]},
  {p:'T1',k:'transition',q:'Quelle question, née de cette limite, fait passer à la partie II ?',o:[
@@ -29,8 +29,8 @@ niveau1: [
   ['Au nom de la conscience de chacun, qui sait toujours, au fond d’elle-même, ce qui est juste.','def','Elle répond à la question, mais « toujours » va trop vite : c’est ce que la partie II devra examiner, et ce sera sa limite.'],
   ['Au nom de la majorité : une loi est juste quand la plupart des gens l’approuvent.','no','La majorité fait aussi les lois : on retombe dans la partie I au lieu d’en sortir.']]},
  {p:'II',k:'position',q:'Quel développement montre que cette exigence est nécessaire ?',o:[
-  ['Le refus de Rosa Parks a fait juger la ségrégation : sans désobéissance, la loi injuste serait restée.','ok','La partie montre ce qu’elle permet de comprendre : sans jugement des citoyens, la loi injuste ne serait jamais corrigée.'],
-  ['Il ne suffit pas d’obéir : être juste, c’est juger les lois au nom de ce qui est juste.','def','C’est bien la position de la partie, mais énoncée, pas développée : montrez ce qu’elle permet de comprendre.'],
+  ['Le refus de Rosa Parks a ouvert la lutte qui a fait condamner la ségrégation : la désobéissance a jugé la loi.','ok','La partie montre ce qu’elle permet de comprendre : sans le jugement des citoyens, la loi injuste n’aurait pas été corrigée.'],
+  ['Il ne suffit pas d’obéir : être juste, c’est juger les lois au nom de ce qui est juste, et non de ce qui est permis.','def','C’est bien la position de la partie, mais énoncée, pas développée : montrez ce qu’elle permet de comprendre.'],
   ['Les lois sont toujours injustes, car elles sont faites par les plus puissants pour se protéger.','no','Excessif, et ce n’est pas le « non » du sujet : il dit qu’obéir ne suffit pas, pas que toute loi est injuste.']]},
  {p:'II',k:'limite',q:'Où cette deuxième réponse cède-t-elle à son tour ?',o:[
   ['Si chacun juge les lois à sa façon, il n’y a plus de règle commune : chacun fait sa justice.','ok','La limite vient encore de la réponse : le jugement de chacun ruine ce que la loi garantissait.'],
@@ -41,11 +41,11 @@ niveau1: [
   ['Si obéir ne suffit pas et que juger seul détruit la loi, faut-il finalement obéir ou bien désobéir ?','def','Elle reprend les deux limites, mais repose la même alternative : la partie III ne pourrait que choisir un camp.'],
   ['Il faudra donc, pour finir, trouver un juste équilibre entre l’obéissance et la désobéissance.','no','Une annonce de compromis : elle parle du devoir et promet de couper la poire en deux.']]},
  {p:'III',k:'probleme',q:'Revenir au problème : qu’est-ce que chacune des deux réponses avait compris ?',o:[
-  ['La partie I : la justice doit être commune. La partie II : elle doit pouvoir être jugée.','ok','Les deux acquis, nommés : la partie III devra garder l’un et l’autre.'],
-  ['La partie I avait raison sur l’ordre public, la partie II avait raison sur la liberté de chacun.','def','Proche, mais l’ordre et la liberté déplacent le sujet : restez sur la justice.'],
-  ['Aucune des deux n’avait raison : il faut reprendre la question autrement.','no','C’est jeter les deux parties : la troisième doit garder ce qu’elles ont établi.']]},
+  ['Non : chacune portait une moitié de la justice. Elle doit être commune (I) et pouvoir être jugée (II).','ok','Elle répond à la question de transition et nomme les deux acquis : la partie III devra garder l’un et l’autre.'],
+  ['Chacune avait raison à moitié : la partie I sur l’ordre public, la partie II sur la liberté de chacun.','def','Proche, mais l’ordre et la liberté déplacent le sujet : restez sur la justice.'],
+  ['Aucune des deux n’avait raison : il faut reprendre la question de la justice autrement.','no','C’est jeter les deux parties : la troisième doit garder ce qu’elles ont établi.']]},
  {p:'III',k:'operation',q:'Quelle opération permet de tenir les deux ensemble ? Plusieurs peuvent tenir : regardez ce que chacune laisse.',o:[
-  ['Obéir en jugeant : respecter la loi, la contester par les voies communes, et désobéir publiquement, en acceptant la sanction, si elle ordonne l’injuste.','ok','Elle distingue deux plans et garde la règle commune (I) et le jugement (II) : en acceptant sa peine, celui qui désobéit reconnaît encore la loi.'],
+  ['Obéir en jugeant : respecter la loi, la contester par les voies communes, et désobéir publiquement, en acceptant la sanction, si elle ordonne l’injuste.','ok','Elle répartit la justice entre deux acteurs : la règle commune à l’État (I), le jugement aux citoyens (II). En acceptant sa peine, celui qui désobéit reconnaît encore la loi.'],
   ['Distinguer le légal et le juste : la loi dit ce qui est permis, pas ce qui est juste ; on lui obéit donc sans jamais lui confier la justice.','def','Une distinction solide, qui sauve les deux parties. Mais elle laisse entière la question pratique : que faire quand les deux s’opposent ?'],
   ['Il faut un juste milieu : obéir à la plupart des lois, et ne désobéir qu’à quelques-unes, quand elles nous paraissent trop dures.','no','Couper la poire en deux : rien ne dit lesquelles, ni pourquoi. Le problème reste entier.']]},
  {p:'III',k:'stabiliser',q:'Que peut-on désormais affirmer, et que cette réponse ne règle-t-elle pas encore ?',o:[
