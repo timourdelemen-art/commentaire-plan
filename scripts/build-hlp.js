@@ -59,6 +59,8 @@ function pdfLink(x){
   const local=localPdf(x);
   if(local) return {href:local,label:'Lire le sujet et le texte (PDF)',src:'copie du sujet officiel, hébergée sur le site'};
   if(x.bank) return {href:x.pdf,label:'Banque de sujets indexée (PDF)',src:source(x.pdf)};
+  // Ne jamais présenter un miroir privé comme une source officielle.
+  if(/sujets-corriges-bac\.fr/i.test(x.pdf)) return {href:null,label:'PDF officiel à retrouver',src:'référence du sujet conservée ; PDF officiel non localisé'};
   return {href:x.pdf,label:'Lire le sujet et le texte (PDF)',src:source(x.pdf)};
 }
 const workTitle=x=>esc(x.w)+(x.d?' ('+esc(x.d)+')':'');
@@ -75,7 +77,7 @@ function card(x,prof){
   h+='<dl><dt>'+interpLabel(x)+'</dt><dd>'+esc(x.iq)+'</dd><dt>'+essaiLabel(x)+'</dt><dd>'+esc(x.eq)+'</dd></dl>';
   if(e) h+='<p class="hlp-entree">'+(prof?'Entrée : ':'')+esc(e.label)+' <span>· '+esc(e.sem)+'</span></p>';
   if(prof && x.note) h+='<p class="hlp-note">'+esc(x.note)+'</p>';
-  h+='<div class="hlp-actions"><a href="'+fileName(x)+'">Travailler ce sujet →</a><a href="'+esc(p.href)+'" rel="noopener">'+esc(p.label)+' ↗</a>';
+  h+='<div class="hlp-actions"><a href="'+fileName(x)+'">Travailler ce sujet →</a>'+(p.href?'<a href="'+esc(p.href)+'" rel="noopener">'+esc(p.label)+' ↗</a>':'<span class="micro">'+esc(p.label)+'</span>');
   if(prof && x.cor && !/sujets-corriges-bac/.test(x.cor)) h+='<a href="'+esc(x.cor)+'" rel="noopener">Éléments de correction ↗</a>';
   h+='</div></article>';
   return h;
@@ -163,7 +165,7 @@ function page(x){
 </div><aside class="side-note">
 ${x.code?'<p><strong>Code :</strong> '+esc(x.code)+'</p>':''}<p><strong>Texte :</strong> ${esc(x.a)}, <em>${workTitle(x)}</em>${x.tr?', trad. '+esc(x.tr):''}.</p>
 ${e?'<p><strong>Entrée du programme :</strong> '+esc(e.label)+' <span class="micro">('+esc(e.sem)+', classement du site)</span></p>':''}
-<p><a class="official-link" href="${esc(p.href)}" rel="noopener">${esc(p.label)} ↗</a><br><span class="micro">Source : ${esc(p.src)}</span></p>
+<p>${p.href?`<a class="official-link" href="${esc(p.href)}" rel="noopener">${esc(p.label)} ↗</a>`:`<span class="micro">${esc(p.label)}</span>`}<br><span class="micro">Source : ${esc(p.src)}</span></p>
 ${noteHtml}${bankNote}</aside></section>
 
 <section class="offer-band"><div class="kicker">LES DEUX QUESTIONS</div><h2>Ce que le sujet demande.</h2>
@@ -171,7 +173,7 @@ ${noteHtml}${bankNote}</aside></section>
 <div><span class="hlp-filter-label">Première partie · ${interpLabel(x)} · 10 points</span><p class="hlp-q">${esc(x.iq)}</p></div>
 <div><span class="hlp-filter-label">Deuxième partie · ${essaiLabel(x)} · 10 points</span><p class="hlp-q">${esc(x.eq)}</p></div>
 </div>
-<p class="micro">Lisez d’abord le texte dans le PDF du sujet. Les questions sont reproduites telles qu’elles figurent sur le sujet.</p>
+<p class="micro">${p.href?"Lisez d’abord le texte dans le PDF du sujet. Les questions sont reproduites telles qu’elles figurent sur le sujet.":"Le PDF officiel de ce sujet reste à retrouver. Les questions sont indiquées pour référence ; vérifiez le texte avant de commencer l’exercice."}</p>
 </section>
 
 <section class="exercise-wrap hlp-training" data-hlp-id="${x.id}"><div class="exercise-intro"><div><div class="kicker">S’ENTRAÎNER</div><h2>Sept étapes, de la question au plan.</h2></div>
