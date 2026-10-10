@@ -37,11 +37,11 @@ niveau1: [
   ['Celui qui désobéit s’expose à des sanctions, parfois très lourdes, et risque sa propre liberté.','def','Vrai, mais c’est une objection extérieure : la limite doit venir du jugement lui-même.'],
   ['Il est très difficile de savoir avec certitude ce qui est juste, et chacun en a son idée.','no','Trop vague : dites ce que cette difficulté produit quand chacun juge seul.']]},
  {p:'T2',k:'transition',q:'Quelle question montre ce que les deux réponses supposaient ensemble ?',o:[
-  ['Obéir ou juger : les deux réponses confiaient la justice à un seul. Faut-il qu’un seul la porte ?','ok','Elle découvre ce que I et II avaient en commun sans le dire : la partie III pourra poser le problème autrement.'],
-  ['Si obéir ne suffit pas et que juger seul détruit la loi, faut-il finalement obéir ou bien désobéir ?','def','Elle reprend les deux limites, mais repose la même alternative : la partie III ne pourrait que choisir un camp.'],
+  ['Obéir ou juger : les deux réponses confiaient la justice à un seul. Qui doit la porter, si aucun ne suffit ?','ok','Elle découvre ce que I et II avaient en commun sans le dire, et pose une question ouverte : la partie III devra poser le problème autrement.'],
+  ['Si obéir ne suffit pas et que juger seul détruit la loi, faut-il finalement obéir ou bien désobéir ?','def','Elle reprend les deux limites, mais repose la même alternative, et sa réponse tient en un mot : la partie III ne pourrait que choisir un camp.'],
   ['Il faudra donc, pour finir, trouver un juste équilibre entre l’obéissance et la désobéissance.','no','Une annonce de compromis : elle parle du devoir et promet de couper la poire en deux.']]},
  {p:'III',k:'probleme',q:'Revenir au problème : qu’est-ce que chacune des deux réponses avait compris ?',o:[
-  ['Non : chacune portait une moitié de la justice. Elle doit être commune (I) et pouvoir être jugée (II).','ok','Elle répond à la question de transition et nomme les deux acquis : la partie III devra garder l’un et l’autre.'],
+  ['Pas un seul : chacune portait une moitié de la justice. Elle doit être commune (I) et pouvoir être jugée (II).','ok','Elle répond à la question de transition et nomme les deux acquis : la partie III devra garder l’un et l’autre.'],
   ['Chacune avait raison à moitié : la partie I sur l’ordre public, la partie II sur la liberté de chacun.','def','Proche, mais l’ordre et la liberté déplacent le sujet : restez sur la justice.'],
   ['Aucune des deux n’avait raison : il faut reprendre la question de la justice autrement.','no','C’est jeter les deux parties : la troisième doit garder ce qu’elles ont établi.']]},
  {p:'III',k:'operation',q:'Quelle opération permet de tenir les deux ensemble ? Plusieurs peuvent tenir : regardez ce que chacune laisse.',o:[
