@@ -246,7 +246,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "free",
-        "consigne": "Terminez votre partie par une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
+        "consigne": "Après votre partie, entre elle et la suivante, écrivez une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
         "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
       },
       {
@@ -403,7 +403,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
-        "consigne": "Terminez votre partie par une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
+        "consigne": "Après votre partie, entre elle et la suivante, écrivez une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
         "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
       },
       {
@@ -558,7 +558,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
-        "consigne": "Terminez votre partie par une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
+        "consigne": "Après votre partie, entre elle et la suivante, écrivez une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
         "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
       },
       {
@@ -713,7 +713,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
-        "consigne": "Terminez votre partie par une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
+        "consigne": "Après votre partie, entre elle et la suivante, écrivez une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
         "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
       },
       {
@@ -868,7 +868,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
-        "consigne": "Terminez votre partie par une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
+        "consigne": "Après votre partie, entre elle et la suivante, écrivez une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
         "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
       },
       {
@@ -1023,7 +1023,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
-        "consigne": "Terminez votre partie par une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
+        "consigne": "Après votre partie, entre elle et la suivante, écrivez une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
         "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
       },
       {
@@ -1178,7 +1178,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
-        "consigne": "Terminez votre partie par une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
+        "consigne": "Après votre partie, entre elle et la suivante, écrivez une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
         "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
       },
       {
@@ -1333,7 +1333,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
-        "consigne": "Terminez votre partie par une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
+        "consigne": "Après votre partie, entre elle et la suivante, écrivez une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
         "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
       },
       {
@@ -1488,7 +1488,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
-        "consigne": "Terminez votre partie par une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
+        "consigne": "Après votre partie, entre elle et la suivante, écrivez une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
         "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
       },
       {
@@ -1643,7 +1643,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
-        "consigne": "Terminez votre partie par une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
+        "consigne": "Après votre partie, entre elle et la suivante, écrivez une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
         "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
       },
       {
@@ -1798,7 +1798,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
-        "consigne": "Terminez votre partie par une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
+        "consigne": "Après votre partie, entre elle et la suivante, écrivez une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
         "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
       },
       {
@@ -1953,7 +1953,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
-        "consigne": "Terminez votre partie par une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
+        "consigne": "Après votre partie, entre elle et la suivante, écrivez une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
         "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
       },
       {
@@ -2108,7 +2108,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "12. Rédiger le raccord",
         "temps": 360,
         "access": "premium",
-        "consigne": "Terminez votre partie par une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
+        "consigne": "Après votre partie, entre elle et la suivante, écrivez une question, une seule : celle qui montre ce que cette partie n’a pas encore expliqué.",
         "aide": "La transition ne reformule pas ce qui vient d’être démontré : elle ouvre le manque restant."
       },
       {

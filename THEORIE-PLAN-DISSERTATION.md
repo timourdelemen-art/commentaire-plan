@@ -239,7 +239,7 @@ Schéma :
 
 Exemple de forme :
 
-> Cette première réponse permet de montrer que [...]. Mais elle n'explique pas encore [...]. **Comment / pourquoi / jusqu'où [...] ?**
+> Cette première réponse permet de montrer que [...]. Mais elle n'explique pas encore [...] : **comment / pourquoi / jusqu'où [...] ?**
 
 La partie suivante devient nécessaire parce qu'elle devra répondre à cette question.
 
@@ -250,11 +250,13 @@ Dans la copie rédigée, la forme privilégiée est également très simple :
 **ACQUIS DE LA PARTIE → QUESTION SUR CE QUI MANQUE ENCORE**
 
 Exemple :
-> Cette première réponse permet donc d'établir que [...]. **Mais cela suffit-il à expliquer [...] ?**
+> Cette première réponse permet donc d'établir que [...] : **mais comment expliquer alors [...] ?**
 
-La question directe est autorisée et souvent efficace parce qu'elle rend immédiatement visible la progression du raisonnement. Elle n'est cependant pas obligatoire : on peut aussi employer une interrogation indirecte ou une phrase brève qui formule le même manque.
+**Décision du 10 octobre 2026 (commune au français et à la philosophie, voir `PHILOSOPHIE-THEORIE-PLAN.md`)** : la question directe est la règle ; une interrogation indirecte est tolérée (« reste à savoir comment… ») ; une affirmation ne l'est plus, car elle finit presque toujours par donner la réponse.
 
-La qualité de la transition dépend de sa fonction, non de sa ponctuation.
+La question est **ouverte** (comment, pourquoi, jusqu'où, au nom de quoi…). On évite « … suffit-il ? » ou « faut-il vraiment… ? » : la réponse, « non », est déjà dans la question, qui devient décorative.
+
+La partie suivante s'ouvre en reprenant le mot clé de la question : on voit qu'elle y répond.
 
 ### Test d'une bonne transition
 Une transition est réussie si :

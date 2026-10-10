@@ -18,6 +18,16 @@ const save=a=>{try{localStorage.setItem(KEY,JSON.stringify(a))}catch(e){}};
 const shuffle=a=>{const b=a.slice();for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]];}return b;};
 const LABEL={ok:'Solide',def:'Défendable',no:'À revoir'};
 const PLACE={reponse:'La réponse',exemple:'L’exemple',limite:'La limite',transition:'La transition',issue:'L’issue',reste:'Ce qui reste'};
+/* Structure de référence (v2) : trois sous-parties par partie, deux transitions ENTRE les parties,
+   et la question finale de la conclusion, née du reste de la partie III (voir PHILOSOPHIE-THEORIE-PLAN.md). */
+const PLACE2={'I:installer':'I.1 Installer','I:renforcer':'I.2 Renforcer','I:limite':'I.3 La limite','T1:transition':'Transition I → II','II:exigence':'II.1 La nouvelle exigence','II:position':'II.2 La nouvelle réponse','II:limite':'II.3 Sa limite','T2:transition':'Transition II → III','III:probleme':'III.1 Revenir au problème','III:operation':'III.2 L’opération','III:stabiliser':'III.3 Stabiliser la réponse','C:question':'La question finale'};
+const GROUPS2=[['I','Partie I'],['T1','Transition'],['II','Partie II'],['T2','Transition'],['III','Partie III'],['C','Conclusion']];
+const GROUPS1=[['I','Partie I'],['II','Partie II'],['III','Partie III et conclusion']];
+const lab=(s,e)=>s.v===2?(PLACE2[e.p+':'+e.k]||PLACE[e.k]):PLACE[e.k];
+const groupsOf=s=>s.v===2?GROUPS2:GROUPS1;
+const groupName=(s,p)=>(groupsOf(s).find(g=>g[0]===p)||[p,'Partie '+p])[1];
+let open=false;
+const wide=()=>window.matchMedia&&window.matchMedia('(min-width: 1000px)').matches;
 
 let level=1, si=0, step=0, got=[];
 const params=new URLSearchParams(location.search);
@@ -36,28 +46,34 @@ function chooser(){
   if(level===2) return `<div class="chaine-sujets"><span>Un autre sujet pour écrire sans propositions</span>${D.niveau2.map((s,i)=>`<button type="button" data-subj="${i}" class="${i===si?'on':''}">${seen()['2:'+s.id]?'↻ ':''}${T(s.sujet)}</button>`).join('')}</div>`;
   return `<div class="chaine-sujets"><span>Sujet</span>${D.niveau1.map((s,i)=>`<button type="button" data-subj="${i}" class="${i===si?'on':''}">${done.includes(s.id)?'✓ ':''}${T(s.sujet)}</button>`).join('')}<button type="button" class="plan-hasard">Un sujet au hasard</button></div>`;
 }
-function carte(){
-  const s=subj();
-  const slot=i=>{const e=s.etapes[i];const st=i<step?'done':i===step?'now':'';return `<li class="${st}"><span>${typo(PLACE[e.k])}</span></li>`;};
-  const idx=p=>s.etapes.map((e,i)=>e.p===p?i:-1).filter(i=>i>=0);
-  return `<ol class="chaine-carte plan-carte" aria-label="Le plan">${['I','II','III'].map(p=>`<li class="grp"><b>Partie ${p}</b><ol>${idx(p).map(slot).join('')}</ol></li>`).join('')}</ol>`;
+function barre(){
+  const s=subj(), niv=[,'Niveau 1 · Au clic','Niveau 2 · J’écris un peu','Niveau 3 · J’écris tout'][level];
+  const head=`<div class="plan-barre"><span class="plan-niv">${typo(niv)}</span>${level<3?`<span class="plan-suj">${typo('« '+esc(s.sujet)+' »')} <i>${T(s.notion)}</i></span>`:''}<button type="button" class="plan-changer" aria-expanded="${open}">${open?'Fermer':'Changer de niveau ou de sujet'}</button></div>`;
+  return head+(open?`<div class="plan-choix">${tabs()}${chooser()}</div>`:'');
+}
+function repere(){
+  const s=subj(), n=s.etapes.length;
+  const e=s.etapes[Math.min(step,n-1)];
+  const where=step<n?`<b>${typo(groupName(s,e.p))} · ${typo(lab(s,e))}</b><span>Étape ${step+1} sur ${n}</span>`:`<b>Plan terminé</b><span>${n} étapes sur ${n}</span>`;
+  const segs=s.etapes.map((x,i)=>`<i class="${i<step?'done':i===step?'now':''}${i>0&&s.etapes[i-1].p!==x.p?' sep':''}"></i>`).join('');
+  return `<div class="plan-repere">${where}</div><div class="plan-jauge" aria-hidden="true">${segs}</div>`;
 }
 function brouillon(){
-  const s=subj(); if(!got.length) return '';
-  const line=i=>got[i]?`<p><em>${typo(PLACE[s.etapes[i].k])} :</em> ${T(got[i])}</p>`:'';
-  const part=(p,title)=>{const ids=s.etapes.map((e,i)=>e.p===p?i:-1).filter(i=>i>=0); return ids.some(i=>got[i])?`<div><strong>${title}</strong>${ids.map(line).join('')}</div>`:'';};
-  return `<div class="chaine-brouillon"><div class="kicker">VOTRE PLAN DÉTAILLÉ SE CONSTRUIT</div><div><strong>Problématique</strong><p>${T(s.pb)}</p></div>${part('I','Partie I')}${part('II','Partie II')}${part('III','Partie III et conclusion')}</div>`;
+  const s=subj(), n=s.etapes.length, nb=got.filter(Boolean).length;
+  const line=i=>{const e=s.etapes[i], t=got[i];return `<p class="${t?'':'vide'}${i===step?' now':''}"><em>${typo(lab(s,e))}</em>${t?T(t):'…'}</p>`;};
+  const part=([p,title])=>{const ids=s.etapes.map((e,i)=>e.p===p?i:-1).filter(i=>i>=0); if(!ids.length) return ''; const tr=/^T\d/.test(p); return `<div class="plan-bloc${tr?' plan-trans':''}">${tr?'':`<strong>${typo(title)}</strong>`}${ids.map(line).join('')}</div>`;};
+  return `<details class="plan-cote"${wide()||step>=n?' open':''}><summary>Votre plan se construit <span>${nb} sur ${n}</span></summary><div class="plan-bloc"><strong>Problématique</strong><p>${T(s.pb)}</p></div>${groupsOf(s).map(part).join('')}</details>`;
 }
 function stepView(){
   const s=subj(), e=s.etapes[step];
   let body;
   if(e.w){
-    body=`<label class="chaine-q" for="plan-w">${T(e.q)}</label><textarea id="plan-w" rows="3" data-feedback-kind="${({limite:'philo-cout',transition:'philo-transition',issue:'philo-troisieme'})[e.k]||'philo-plan'}" data-feedback-instruction="${esc('Sujet : '+s.sujet+'. Problématique : '+s.pb+'. '+e.q)}"></textarea>
+    body=`<label class="chaine-q" for="plan-w">${T(e.q)}</label><textarea id="plan-w" rows="3" data-feedback-kind="${({limite:'philo-cout',transition:'philo-transition',issue:'philo-troisieme',operation:'philo-troisieme'})[e.k]||'philo-plan'}" data-feedback-instruction="${esc('Sujet : '+s.sujet+'. Problématique : '+s.pb+'. '+e.q)}"></textarea>
     <p><button type="button" class="btn red small plan-compare">Comparer avec une réponse possible</button></p><div class="chaine-fb" aria-live="polite"></div>`;
   } else {
     body=`<p class="chaine-q">${T(e.q)}</p><div class="chaine-opts">${shuffle(e.o.map((o,k)=>k)).map(k=>`<button type="button" class="chaine-opt" data-k="${k}">${T(e.o[k][0])}</button>`).join('')}</div><div class="chaine-fb" aria-live="polite"></div>`;
   }
-  return `<div class="chaine-step"><div class="chaine-num">Question ${step+1} sur ${s.etapes.length} · Partie ${e.p}</div><p class="chaine-enonce"><b>La problématique :</b> ${T(s.pb)}</p>${body}</div>`;
+  return `<div class="chaine-step plan-step"><details class="plan-pb"${step===0?' open':''}><summary>La problématique</summary><p>${T(s.pb)}</p></details>${body}</div>`;
 }
 function endView(){
   const s=subj();
@@ -65,7 +81,7 @@ function endView(){
   if(!got._recorded){record(level+':'+s.id);got._recorded=true;}
   const nextSubj=list().length>1;
   return `<div class="chaine-fin"><div class="kicker">C’EST FAIT</div><h2>Vous avez le plan détaillé.</h2>
-  <p class="micro">Chaque partie naît de la limite de la précédente ; la troisième garde le plus possible des deux premières, et la conclusion dit ce qui reste ouvert.</p>
+  <p class="micro">Chaque partie répond à la question née de la limite de la précédente ; la troisième garde ce que les deux premières avaient compris, et la conclusion transforme ce qui reste en question.</p>
   ${s.annale?`<p class="chaine-annale">Ce sujet est tombé au bac 2026. <a class="official-link" href="philosophie-bac-2026-${s.annale}.html">Le travailler en entier, avec le corrigé et une copie à 20 →</a></p>`:''}
   <div class="chaine-nav">
    <button type="button" class="btn small plan-again">Revoir ce même sujet</button>
@@ -84,18 +100,18 @@ function level3(){
 }
 function render(){
   let html=tabs();
-  if(level===3){ root.innerHTML=html+level3(); bind(); return; }
+  if(level===3){ root.innerHTML=barre()+(open?'':tabs())+level3(); bind(); return; }
   const s=subj();
-  html+=chooser()+`<p class="chaine-sujet">${typo('« '+esc(s.sujet)+' »')} <span>${T(s.notion)}</span></p>`+carte();
-  html+= step<s.etapes.length ? stepView() : endView();
-  html+=brouillon();
+  html=barre()+repere();
+  html+=`<div class="plan-grille"><div class="plan-main">${step<s.etapes.length ? stepView() : endView()}</div>${brouillon()}</div>`;
   root.innerHTML=html; bind();
 }
 function go(){ step=0; got=[]; render(); root.scrollIntoView({behavior:'smooth',block:'start'}); }
 function bind(){
-  root.querySelectorAll('[data-level]').forEach(b=>b.onclick=()=>{level=Number(b.dataset.level);si=0;go();});
-  root.querySelectorAll('[data-subj]').forEach(b=>b.onclick=()=>{si=Number(b.dataset.subj);go();});
-  const h=root.querySelector('.plan-hasard'); if(h) h.onclick=()=>{const j=leastNew(list(),si,level);if(j!==undefined){si=j;go();}};
+  root.querySelectorAll('[data-level]').forEach(b=>b.onclick=()=>{level=Number(b.dataset.level);si=0;open=level!==3?true:false;go();});
+  root.querySelectorAll('[data-subj]').forEach(b=>b.onclick=()=>{si=Number(b.dataset.subj);open=false;go();});
+  const h=root.querySelector('.plan-hasard'); if(h) h.onclick=()=>{const j=leastNew(list(),si,level);if(j!==undefined){si=j;open=false;go();}};
+  const ch=root.querySelector('.plan-changer'); if(ch) ch.onclick=()=>{open=!open;render();};
   const fb=root.querySelector('.chaine-fb');
   root.querySelectorAll('.chaine-opt').forEach(b=>b.onclick=()=>{
     const e=subj().etapes[step], o=e.o[Number(b.dataset.k)], st=o[1];
