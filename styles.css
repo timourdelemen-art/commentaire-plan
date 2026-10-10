@@ -2280,3 +2280,4 @@ div.qcm-options>p{border:0!important;background:none!important;box-shadow:none!i
 #plan-app .plan-bloc p.vide{color:#a59d90}
 #plan-app .plan-bloc p.now em{color:var(--red)}
 #plan-app .plan-trans{margin:12px 0 0;padding:6px 0 6px 12px;border-left:3px solid var(--red);font-style:italic}
+@media(max-width:760px){#plan-app .plan-choix .chaine-sujets{flex-wrap:wrap;overflow:visible}#plan-app .plan-choix .chaine-sujets button{flex:1 1 100%;max-width:none}}
