@@ -25,7 +25,7 @@ const shuffle=a=>{const b=a.slice();for(let i=b.length-1;i>0;i--){const j=Math.f
 const ANNALE={'inconscient-heureux':'faut-il-etre-inconscient-pour-etre-heureux','certain-bien-agi':'peut-on-etre-certain-d-avoir-bien-agi','science-utile':'la-science-doit-elle-etre-utile','artiste-sait':'l-artiste-sait-il-ce-qu-il-fait','prisonniers-langage':'sommes-nous-prisonniers-du-langage'};
 const PLAN_IDS=['justice-lois','inconscient-heureux','certain-bien-agi','science-utile','artiste-sait','prisonniers-langage'];
 const LABEL={ok:'Solide',def:'Défendable',no:'À revoir'};
-const PLACE={raison:'Pourquoi',scene:'La scène',perte:'Ce qu’il perd',pb:'La problématique'};
+const PLACE={raison:'Pourquoi',scene:'La scène',perte:'Ce qu’il perd',pb:'La problématique',pc:'En une seule question'};
 
 let level=1, si=0, step=0, got=[], hadNo=false, hadDef=false, attempts=0;
 const params=new URLSearchParams(location.search);
@@ -40,6 +40,7 @@ function tabs(){
 }
 const GRP={oui:'Le oui',non:'Le non',pb:'La problématique'};
 const grpOf=i=>i<3?'oui':i<6?'non':'pb';
+const NB_ET=()=>subj().etapes.length;
 let open=false;
 const wide=()=>window.matchMedia&&window.matchMedia('(min-width: 1000px)').matches;
 const sans=h=>String(h).replace(/<\/?u>/g,'');
@@ -56,22 +57,23 @@ function barre(){
   return head+(open?`<div class="pb-choix">${tabs()}${chooser()}</div>`:'');
 }
 function repere(){
-  const s=subj(), e=s.etapes[Math.min(step,6)];
-  const where=step<7?`<b>${typo(GRP[grpOf(step)])}${step<6?' · '+typo(PLACE[e.p]):''}</b><span>Question ${step+1} sur 7</span>`:`<b>Problème trouvé</b><span>7 questions sur 7</span>`;
-  const segs=[0,1,2,3,4,5,6].map(i=>`<i class="${i<step?'done':i===step?'now':''}${i===3||i===6?' sep':''}"></i>`).join('');
+  const s=subj(), N=NB_ET(), e=s.etapes[Math.min(step,N-1)];
+  const where=step<N?`<b>${typo(GRP[grpOf(step)])}${step<6||e.p==='pc'?' · '+typo(PLACE[e.p]):''}</b><span>Question ${step+1} sur ${N}</span>`:`<b>Problème trouvé</b><span>${N} questions sur ${N}</span>`;
+  const segs=s.etapes.map((x,i)=>i).map(i=>`<i class="${i<step?'done':i===step?'now':''}${i===3||i===6?' sep':''}"></i>`).join('');
   return `<div class="pb-repere">${where}</div><div class="pb-jauge" aria-hidden="true">${segs}<span>Oui</span><span>Non</span><span>Pb</span></div>`;
 }
 function carte(){
   const s=subj(), nb=got.filter(Boolean).length;
   const cell=i=>{const t=got[i];return `<p class="${t?'':'vide'}${i===step?' now':''}"><em>${typo(PLACE[s.etapes[i].p])}</em>${t?T(t):'…'}</p>`;};
   const col=(k,ids,h)=>`<div class="pb-col pb-${k}"><strong>${h}</strong>${ids.map(cell).join('')}</div>`;
-  return `<details class="pb-carte"${wide()||step>=7?' open':''}><summary>La carte du problème <span>${nb} sur 7</span></summary>
+  return `<details class="pb-carte"${wide()||step>=NB_ET()?' open':''}><summary>La carte du problème <span>${nb} sur ${NB_ET()}</span></summary>
   <div class="pb-cols">${col('oui',[0,1,2],sans(typo(s.oui)))}${col('non',[3,4,5],sans(typo(s.non)))}</div>
-  <div class="pb-pbm${got[6]?'':' vide'}${step===6?' now':''}"><em>La problématique</em>${got[6]?T(got[6]):'Elle naîtra de ce que perdent les deux réponses.'}</div></details>`;
+  <div class="pb-pbm${got[6]?'':' vide'}${step===6?' now':''}"><em>La problématique, développée</em>${got[6]?T(got[6]):'Elle naîtra de ce que perdent les deux réponses.'}</div>${NB_ET()>7?`<div class="pb-pbm pb-court${got[7]?'':' vide'}${step===7?' now':''}"><em>En une seule question</em>${got[7]?T(got[7]):'La même, plus courte, sans perdre l’une des deux réponses.'}</div>`:''}</details>`;
 }
 function stepView(){
   const s=subj(), e=s.etapes[step];
-  const enonce = e.b==='oui'?typo(s.oui):e.b==='non'?typo(s.non):
+  const enonce = e.b==='oui'?typo(s.oui):e.b==='non'?typo(s.non):e.p==='pc'?
+    `Votre problématique : <strong>${T(got[6]||'')}</strong><br>Dites-la plus court, en une seule question, sans perdre l’une des deux réponses ni ce que chacune perd.`:
     `Le oui perd : <strong>${T(got[2]||'')}</strong><br>Le non perd : <strong>${T(got[5]||'')}</strong>`;
   let body;
   if(e.w){
@@ -109,7 +111,7 @@ function endView(){
   const primaire=level===1&&!ready&&nextSubj;
   const suite=[PLAN_IDS.includes(s.id)?`<li><a class="official-link" href="philosophie-plan-pas-a-pas.html?sujet=${s.id}${level===2?'&niveau=2':''}">Construire le plan de ce sujet →</a></li>`:'',ANNALE[s.id]?`<li>Tombé au bac 2026 : <a class="official-link" href="philosophie-bac-2026-${ANNALE[s.id]}.html">l’écrire en entier, avec le corrigé et une copie à 20 →</a></li>`:''].join('');
   return `<div class="chaine-fin pb-fin"><div class="kicker">VOTRE PROBLÉMATIQUE</div><h2>Voici le problème du sujet.</h2>
-  <p class="chaine-pb">${T(got[6])}</p>
+  <p class="chaine-pb">${T(got[NB_ET()-1])}</p>${NB_ET()>7?`<p class="micro">Forme développée : ${T(got[6])}</p>`:''}
   <p class="micro">Il naît de ce que perdent les deux réponses : la carte du problème le montre${wide()?', à droite':', plus bas'}. Reconnaître cette relation n’est pas encore savoir la construire seul.</p>
   ${bilan}
   <div class="chaine-nav">
@@ -132,7 +134,7 @@ function level3(){
 function render(){
   if(level===3){ root.innerHTML=tabs()+level3(); bind(); return; }
   let html=barre()+repere();
-  const main= step<7 ? stepView()+`<div class="chaine-nav pb-pied"><button type="button" class="home-text-link chaine-restart">↻ Recommencer ce sujet</button><a class="home-text-link" href="philosophie-problematisation.html">Revoir la méthode →</a></div>` : endView();
+  const main= step<NB_ET() ? stepView()+`<div class="chaine-nav pb-pied"><button type="button" class="home-text-link chaine-restart">↻ Recommencer ce sujet</button><a class="home-text-link" href="philosophie-problematisation.html">Revoir la méthode →</a></div>` : endView();
   html+=`<div class="pb-grille"><div class="pb-main">${main}</div>${carte()}</div>`;
   root.innerHTML=html; bind();
 }
