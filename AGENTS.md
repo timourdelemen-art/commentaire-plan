@@ -129,6 +129,7 @@ Prises (9 octobre 2026) :
 - **Textes manquants des annales** : un texte n’est intégré qu’après vérification de la source officielle (découpage exact de l’extrait, numéros de ligne) et des droits.
 - **Copies à 20** : chaque correction de scène d’ouverture est examinée individuellement par le propriétaire avant validation. Le 9 octobre, le propriétaire a délégué cet examen pour les quatre copies en attente (religion, science, bonheur, technique) : voir la PR correspondante.
 - **« Opération »** : conservé, avec une explication simple à sa première apparition : « une opération intellectuelle, c’est quelque chose que vous faites avec une idée : la distinguer, la comparer, la mettre à l’épreuve ou la transformer ». Le terme sert l’autonomie de l’élève.
+- **Signature du site** (10 octobre 2026) : « La copie la plus courte qui mérite 20. » est conservée sur l’accueil et la page Philosophie. Elle décrit le modèle visé, pas une note garantie ; ne pas la remplacer sans demande du propriétaire.
 
 En attente :
 - Identité de l’éditeur (mentions légales, CGV, confidentialité) et moyen de paiement, avant toute vente ; pages légales à faire relire par un juriste.
