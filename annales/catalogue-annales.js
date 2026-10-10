@@ -2134,7 +2134,7 @@ window.ANNALES_CATALOGUE = {
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
     ],
-    "texteDomainePublic": true
+    "texteDomainePublic": false
   },
   "brevet-2026-general-zola-cage-betes-feroces": {
     "examen": "Brevet",

@@ -207,6 +207,10 @@ for(const file of pages){
     const self = r==='index.html' ? DOMAIN+'/' : DOMAIN+'/'+r;
     html=html.replace(/<\/head>/i,'<link rel="canonical" href="'+self+'">\n</head>');
   }
+  /* Image de partage (réseaux, messageries) : une seule image pour tout le site. */
+  if(!noindex(html) && !/property=["']og:image["']/.test(html)){
+    html=html.replace(/<\/head>/i,'<meta property="og:image" content="'+DOMAIN+'/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Commentaire Plan : la copie la plus courte qui mérite 20."><meta name="twitter:card" content="summary_large_image">\n</head>');
+  }
   html=injectBreadcrumbs(html,r);
   if(!/type=["']speculationrules["']/.test(html)){
     const speculation='<script type="speculationrules" data-seo-speculation="1">{"prefetch":[{"where":{"and":[{"href_matches":"/*"},{"not":{"selector_matches":"[download],.no-prefetch"}}]},"eagerness":"moderate"}]}<\/script>';

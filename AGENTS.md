@@ -121,6 +121,12 @@ Format : date · ce qui s’est passé · la règle qui en découle. Proposez un
 - 2026-10-09 · Des termes propres à la méthode (« le donné », « transition-question ») ont été retirés des consignes parce qu’un audit les jugeait techniques. · Ne pas supprimer le vocabulaire de la méthode : l’expliquer, avec un exemple, à sa première apparition (§ 2).
 - 2026-10-09 · Une copie à 20 ouvrait sur La Zone d’intérêt, que la banque d’exemples classait elle-même « pour une partie » (une seule réponse) ; une autre citait une réplique de film doublé jamais vérifiée. · Avant de garder une scène d’ouverture, vérifier qu’elle est classée « peut ouvrir ce sujet » dans la banque ; une réplique non vérifiée se paraphrase, sans guillemets.
 - 2026-10-10 · Après le passage aux transitions-questions, le libellé « III.1 Ce qui reste » subsistait dans 17 pages générées, car les corrigés (`philosophie-annales-data.js`, `philosophie-notions-data.js`) reprennent la théorie à côté des copies à 20. · Après un changement de théorie, chercher l’ancienne formule dans le build entier, pas seulement dans les sources modifiées.
+- 2026-10-10 · Un exemple de « Pourquoi cet ordre ? » reprenait la formule de la transition (« ce que la partie I ne suffisait pas à expliquer »). · Les exemples de nécessité ne reprennent jamais la formule de la transition.
+- 2026-10-10 · Écrite d’un seul jet, la bonne réponse d’un QCM était la plus longue dans 83 à 100 % des étapes. · Mesurer les longueurs par script après rédaction ; allonger un distracteur par une erreur plausible plutôt qu’appauvrir la bonne réponse.
+- 2026-10-10 · Une justification citait une position (« la deuxième… ») et devenait fausse dès qu’on déplaçait les réponses. · Désigner la bonne réponse par son contenu, jamais par sa position.
+- 2026-10-10 · Un PDF publié en morceaux base64 sur raw.githubusercontent était tronqué, et la page promettait un dossier complet. · Ne jamais lier un fichier sans l’avoir téléchargé et ouvert ; aucune promesse de contenu qui n’existe pas.
+- 2026-10-10 · Une consigne de rédaction du brevet contenant « transitions » était classée par le correcteur comme une transition de commentaire. · Toujours passer le type de retour (`kind`) explicitement.
+- 2026-10-10 · Le bouton « Dicter », ajouté à toutes les zones d’écriture, faisait doublon dans le simulateur d’oral. · Avant d’ajouter un outil partout, chercher les pages qui ont déjà le leur.
 
 ## 7. Décisions du propriétaire
 
