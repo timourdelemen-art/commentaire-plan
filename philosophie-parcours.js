@@ -1,6 +1,6 @@
 /* Parcours de philosophie : suivi déclaratif des étapes, pas évaluation de maîtrise. */
 (()=>{
-const KEY='philo-parcours-fait';
+const KEY='philo-parcours-fait-v2'; /* v2 : nouvel ordre des cinq gestes (octobre 2026) */
 const read=()=>{try{return JSON.parse(localStorage.getItem(KEY)||'[]')}catch(e){return []}};
 const write=a=>{try{localStorage.setItem(KEY,JSON.stringify(a))}catch(e){}};
 let done=read();
