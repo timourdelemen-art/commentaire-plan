@@ -38,26 +38,36 @@ const subj=()=>list()[si];
 function tabs(){
   return `<nav class="chaine-tabs" aria-label="Niveaux">${[[1,'Niveau 1','Au clic'],[2,'Niveau 2','J’écris un peu'],[3,'Niveau 3','J’écris tout']].map(([n,a,b])=>`<button type="button" data-level="${n}" class="${n===level?'on':''}" ${n===level?'aria-current="step"':''}><b>${a}</b><span>${typo(b)}</span></button>`).join('')}</nav>`;
 }
+const GRP={oui:'Le oui',non:'Le non',pb:'La problématique'};
+const grpOf=i=>i<3?'oui':i<6?'non':'pb';
+let open=false;
+const wide=()=>window.matchMedia&&window.matchMedia('(min-width: 1000px)').matches;
+const sans=h=>String(h).replace(/<\/?u>/g,'');
 function chooser(){
   if(level===3) return '';
   const done=read(), mastered=readMastered(), defs=readDef();
-  if(level===2) {const seen=readPractice();return `<div class="chaine-sujets"><span>Choisissez parmi les ${D.niveau2.length} sujets pour écrire avec moins d’aide</span>${D.niveau2.map((s,i)=>`<button type="button" data-subj="${i}" class="${i===si?'on':''}">${seen['2:'+s.id]?'↻ déjà essayé · ':''}${T(s.sujet)}</button>`).join('')}</div>`;}
-  return `<div class="chaine-sujets"><span>Choisissez un sujet différent pour consolider le geste</span>${D.niveau1.map((s,i)=>`<button type="button" data-subj="${i}" class="${i===si?'on':''}">${mastered.includes(s.id)?(defs.includes(s.id)?'✓ réussi (défendable) · ':'✓ réussi · '):done.includes(s.id)?'↻ déjà essayé · ':''}${T(s.sujet)}</button>`).join('')}</div>`;
+  if(level===2) {const seen=readPractice();return `<div class="chaine-sujets"><span>Sujet</span>${D.niveau2.map((s,i)=>`<button type="button" data-subj="${i}" class="${i===si?'on':''}">${seen['2:'+s.id]?'↻ ':''}${T(s.sujet)}</button>`).join('')}</div>`;}
+  const n=mastered.filter(id=>D.niveau1.some(x=>x.id===id)).length;
+  return `<div class="chaine-sujets"><span>Sujet · ${n} réussi${n>1?'s':''} sur 3 conseillés</span>${D.niveau1.map((s,i)=>`<button type="button" data-subj="${i}" class="${i===si?'on':''}">${mastered.includes(s.id)?'✓ ':done.includes(s.id)?'↻ ':''}${T(s.sujet)}${mastered.includes(s.id)?`<small>${defs.includes(s.id)?'réussi, une réponse défendable':'réussi'}</small>`:done.includes(s.id)?'<small>déjà essayé</small>':''}</button>`).join('')}</div>`;
+}
+function barre(){
+  const s=subj(), niv=[,'Niveau 1 · Au clic','Niveau 2 · J’écris un peu','Niveau 3 · J’écris tout'][level];
+  const head=`<div class="pb-barre"><span class="pb-niv">${typo(niv)}</span>${level<3?`<span class="pb-suj">${typo('« '+esc(s.sujet)+' »')} <i>${T(s.notion)}</i></span>`:''}<button type="button" class="pb-changer" aria-expanded="${open}">${open?'Fermer':'Changer de niveau ou de sujet'}</button></div>`;
+  return head+(open?`<div class="pb-choix">${tabs()}${chooser()}</div>`:'');
+}
+function repere(){
+  const s=subj(), e=s.etapes[Math.min(step,6)];
+  const where=step<7?`<b>${typo(GRP[grpOf(step)])}${step<6?' · '+typo(PLACE[e.p]):''}</b><span>Question ${step+1} sur 7</span>`:`<b>Problème trouvé</b><span>7 questions sur 7</span>`;
+  const segs=[0,1,2,3,4,5,6].map(i=>`<i class="${i<step?'done':i===step?'now':''}${i===3||i===6?' sep':''}"></i>`).join('');
+  return `<div class="pb-repere">${where}</div><div class="pb-jauge" aria-hidden="true">${segs}<span>Oui</span><span>Non</span><span>Pb</span></div>`;
 }
 function carte(){
-  const s=subj(); const slot=(i)=>{const e=s.etapes[i];const st=i<step?'done':i===step?'now':'';return `<li class="${st}"><span>${typo(PLACE[e.p])}</span></li>`;};
-  return `<ol class="chaine-carte" aria-label="La chaîne">
-  <li class="grp"><b>Oui</b><ol>${[0,1,2].map(slot).join('')}</ol></li>
-  <li class="grp"><b>Non</b><ol>${[3,4,5].map(slot).join('')}</ol></li>
-  <li class="grp pb ${step>6?'done':step===6?'now':''}"><b>Problématique</b></li></ol>`;
-}
-function brouillon(){
-  const s=subj(); const line=(i)=>got[i]?`<p><em>${typo(PLACE[s.etapes[i].p])} :</em> ${T(got[i])}</p>`:'';
-  if(!got.length) return '';
-  return `<div class="chaine-brouillon"><div class="kicker">VOTRE BROUILLON SE CONSTRUIT</div>
-  ${got.slice(0,3).some(Boolean)?`<div><strong>${typo(s.oui).replace(/<\/?u>/g,'')}</strong>${[0,1,2].map(line).join('')}</div>`:''}
-  ${got.slice(3,6).some(Boolean)?`<div><strong>${typo(s.non).replace(/<\/?u>/g,'')}</strong>${[3,4,5].map(line).join('')}</div>`:''}
-  ${got[6]?`<div><strong>La problématique</strong><p>${T(got[6])}</p></div>`:''}</div>`;
+  const s=subj(), nb=got.filter(Boolean).length;
+  const cell=i=>{const t=got[i];return `<p class="${t?'':'vide'}${i===step?' now':''}"><em>${typo(PLACE[s.etapes[i].p])}</em>${t?T(t):'…'}</p>`;};
+  const col=(k,ids,h)=>`<div class="pb-col pb-${k}"><strong>${h}</strong>${ids.map(cell).join('')}</div>`;
+  return `<details class="pb-carte"${wide()||step>=7?' open':''}><summary>La carte du problème <span>${nb} sur 7</span></summary>
+  <div class="pb-cols">${col('oui',[0,1,2],sans(typo(s.oui)))}${col('non',[3,4,5],sans(typo(s.non)))}</div>
+  <div class="pb-pbm${got[6]?'':' vide'}${step===6?' now':''}"><em>La problématique</em>${got[6]?T(got[6]):'Elle naîtra de ce que perdent les deux réponses.'}</div></details>`;
 }
 function stepView(){
   const s=subj(), e=s.etapes[step];
@@ -70,7 +80,7 @@ function stepView(){
   } else {
     body=`<p class="chaine-q">${T(e.q)}</p><div class="chaine-opts">${shuffle(e.o.map((o,k)=>k)).map(k=>`<button type="button" class="chaine-opt" data-k="${k}">${T(e.o[k][0])}</button>`).join('')}</div><div class="chaine-fb" aria-live="polite"></div>`;
   }
-  return `<div class="chaine-step"><div class="chaine-num">Question ${step+1} sur 7</div><p class="chaine-enonce">${enonce}</p>${body}</div>`;
+  return `<div class="chaine-step pb-step"><p class="chaine-enonce">${enonce}</p>${body}</div>`;
 }
 function endView(){
   const s=subj();
@@ -92,21 +102,23 @@ function endView(){
   const solides=mastered.length-defs.length;
   const ready=mastered.length>=3;
   const nextSubj=level===1?D.niveau1.length>1:D.niveau2.length>1;
-  const ceSujet=hadNo?' Sur ce sujet, une réponse était « À revoir » : le sujet n’est pas encore validé. Recommencez-le, ou essayez un autre sujet.':(hadDef?' Sujet validé : vos réponses étaient solides ou défendables. Repassez-le pour viser « Solide » partout.':' Sujet validé : toutes vos réponses étaient solides.');
-  const result=level===1?`<div class="prescription"><strong>${mastered.length} sujet${mastered.length>1?'s':''} réussi${mastered.length>1?'s':''} sur 3 conseillés</strong>${mastered.length?` (${solides} solide${solides>1?'s':''}, ${defs.length} avec une réponse défendable)`:''}.${ceSujet} ${ready?'Vous avez réussi trois sujets différents : passez au niveau 2, où vous écrirez vous-même certaines réponses.':'Le niveau 2 est conseillé après trois sujets différents réussis ; il reste ouvert à tout moment.'}</div>`:'';
-  return `<div class="chaine-fin"><div class="kicker">SUJET PARCOURU</div><h2>Vous avez suivi les sept gestes.</h2>
+  const verdict=hadNo?'<b class="pb-a-revoir">Sujet à reprendre.</b> Une réponse était « À revoir » : recommencez-le, ou essayez un autre sujet.':(hadDef?'<b class="pb-valide">✓ Sujet validé.</b> Réponses solides ou défendables : repassez-le pour viser « Solide » partout.':'<b class="pb-valide">✓ Sujet validé.</b> Toutes vos réponses étaient solides.');
+  const pastilles=[0,1,2].map(i=>`<i class="${i<mastered.length?'on':''}"></i>`).join('');
+  const bilan=level===1?`<div class="pb-bilan"><p>${verdict}</p><p class="pb-score"><span class="pb-pastilles" aria-hidden="true">${pastilles}</span><strong>${mastered.length} sujet${mastered.length>1?'s':''} réussi${mastered.length>1?'s':''} sur 3 conseillés</strong>${defs.length?` <span>(dont ${defs.length} avec une réponse défendable)</span>`:''}</p><p class="micro">${ready?'Trois sujets différents réussis : passez au niveau 2, où vous écrirez vous-même certaines réponses.':'Pour consolider le geste, changez de sujet : c’est en le refaisant ailleurs qu’on le possède. Le niveau 2 reste ouvert à tout moment.'}</p></div>`
+   :`<div class="pb-bilan"><p><strong>Ce que vous gagnez :</strong> vous avez formulé vous-même deux difficultés et leur relation, puis comparé vos phrases avec des exemples. Recommencez sur un autre sujet avant d’essayer seul, sans questions intermédiaires.</p></div>`;
+  const primaire=level===1&&!ready&&nextSubj;
+  const suite=[PLAN_IDS.includes(s.id)?`<li><a class="official-link" href="philosophie-plan-pas-a-pas.html?sujet=${s.id}${level===2?'&niveau=2':''}">Construire le plan de ce sujet →</a></li>`:'',ANNALE[s.id]?`<li>Tombé au bac 2026 : <a class="official-link" href="philosophie-bac-2026-${ANNALE[s.id]}.html">l’écrire en entier, avec le corrigé et une copie à 20 →</a></li>`:''].join('');
+  return `<div class="chaine-fin pb-fin"><div class="kicker">VOTRE PROBLÉMATIQUE</div><h2>Voici le problème du sujet.</h2>
   <p class="chaine-pb">${T(got[6])}</p>
-  <p class="micro">Vous avez examiné ce que perd chacune des deux réponses, puis la question qui relie leurs difficultés. Reconnaître cette relation n’est pas encore savoir la construire seul.</p>
-  ${result}
-  ${level===2?'<p class="prescription"><strong>Ce que vous gagnez :</strong> vous avez formulé vous-même deux difficultés et leur relation, puis comparé vos phrases avec des exemples. Recommencez sur un autre sujet avant d’essayer seul, sans questions intermédiaires.</p>':''}
-  ${PLAN_IDS.includes(s.id)?`<p class="chaine-annale"><strong>Étape suivante :</strong> <a class="official-link" href="philosophie-plan-pas-a-pas.html?sujet=${s.id}${level===2?'&niveau=2':''}">Construire le plan de ce sujet →</a></p>`:''}
-  ${ANNALE[s.id]?`<p class="chaine-annale">Ce sujet est tombé au bac 2026. <a class="official-link" href="philosophie-bac-2026-${ANNALE[s.id]}.html">L’écrire en entier, avec le corrigé et une copie à 20 →</a></p>`:''}
+  <p class="micro">Il naît de ce que perdent les deux réponses : la carte du problème le montre${wide()?', à droite':', plus bas'}. Reconnaître cette relation n’est pas encore savoir la construire seul.</p>
+  ${bilan}
   <div class="chaine-nav">
-   <button type="button" class="btn small chaine-again">Revoir ce même sujet</button>
-   ${nextSubj?`<button type="button" class="btn small chaine-nextsubj">Essayer un autre sujet →</button>`:''}
+   ${nextSubj?`<button type="button" class="btn ${primaire?'red ':''}small chaine-nextsubj">${level===1&&!ready?'Consolider sur un autre sujet →':'Essayer un autre sujet →'}</button>`:''}
+   <button type="button" class="btn ${primaire?'':'red '}small chaine-nextlevel">${level===1?'Niveau 2 : formuler avec moins d’aide →':'Niveau suivant →'}</button>
+   <button type="button" class="home-text-link chaine-again">Revoir ce même sujet</button>
    ${level>1?`<button type="button" class="home-text-link chaine-prevlevel">← Niveau précédent</button>`:''}
-   <button type="button" class="btn red small chaine-nextlevel">${level===1?'Niveau 2 : formuler avec moins d’aide →':'Niveau suivant →'}</button>
-  </div>${level===1?'<p class="micro">Au niveau 2, certaines propositions disparaissent : vous devrez écrire vous-même des difficultés et la question qui les relie. L’IA n’est pas nécessaire.</p>':''}</div>`;
+  </div>${level===1?'<p class="micro">Au niveau 2, certaines propositions disparaissent : vous écrivez vous-même des difficultés et la question qui les relie. L’IA n’est pas nécessaire.</p>':''}
+  ${suite?`<div class="pb-suite"><div class="kicker">ET ENSUITE</div><ul>${suite}</ul></div>`:''}</div>`;
 }
 function level3(){
   const n=D.niveau3;
@@ -118,19 +130,17 @@ function level3(){
   <div class="chaine-nav"><button type="button" class="home-text-link chaine-prevlevel">← Niveau précédent</button></div></div>`;
 }
 function render(){
-  let html=tabs();
-  if(level===3){ root.innerHTML=html+level3(); bind(); return; }
-  const s=subj();
-  html+=chooser()+`<p class="chaine-sujet">${typo('« '+esc(s.sujet)+' »')} <span>${T(s.notion)}</span></p>`+carte();
-  html+= step<7 ? stepView() : endView();
-  if(step<7) html+=`<div class="chaine-nav"><button type="button" class="btn small chaine-restart">↻ Recommencer ce sujet</button><a class="home-text-link" href="philosophie-problematisation.html">Revoir la méthode →</a></div>`;
-  html+=brouillon();
+  if(level===3){ root.innerHTML=tabs()+level3(); bind(); return; }
+  let html=barre()+repere();
+  const main= step<7 ? stepView()+`<div class="chaine-nav pb-pied"><button type="button" class="home-text-link chaine-restart">↻ Recommencer ce sujet</button><a class="home-text-link" href="philosophie-problematisation.html">Revoir la méthode →</a></div>` : endView();
+  html+=`<div class="pb-grille"><div class="pb-main">${main}</div>${carte()}</div>`;
   root.innerHTML=html; bind();
 }
 function go(){ step=0; got=[]; hadNo=false; hadDef=false; attempts=0; render(); root.scrollIntoView({behavior:'smooth',block:'start'}); }
 function bind(){
-  root.querySelectorAll('[data-level]').forEach(b=>b.onclick=()=>{level=Number(b.dataset.level);si=0;go();});
-  root.querySelectorAll('[data-subj]').forEach(b=>b.onclick=()=>{si=Number(b.dataset.subj);go();});
+  root.querySelectorAll('[data-level]').forEach(b=>b.onclick=()=>{level=Number(b.dataset.level);si=0;open=level!==3;go();});
+  root.querySelectorAll('[data-subj]').forEach(b=>b.onclick=()=>{si=Number(b.dataset.subj);open=false;go();});
+  const ch=root.querySelector('.pb-changer'); if(ch) ch.onclick=()=>{open=!open;render();};
   const fb=root.querySelector('.chaine-fb');
   root.querySelectorAll('.chaine-opt').forEach(b=>b.onclick=()=>{
     const e=subj().etapes[step], o=e.o[Number(b.dataset.k)], st=o[1];
@@ -157,8 +167,8 @@ function bind(){
   const q=(c,f)=>{const el=root.querySelector(c); if(el) el.onclick=f;};
   q('.chaine-again',go);
   q('.chaine-nextsubj',()=>{const a=list(),seen=readPractice(),mastered=readMastered();const candidates=a.map((x,k)=>({k,seen:seen[level+':'+x.id]||0,mastered:level===1&&mastered.includes(x.id)?1:0})).filter(x=>x.k!==si);candidates.sort((x,y)=>x.mastered-y.mastered||x.seen-y.seen||x.k-y.k);if(candidates.length){si=candidates[0].k;go();}});
-  q('.chaine-nextlevel',()=>{level=Math.min(3,level+1);si=0;go();});
-  q('.chaine-prevlevel',()=>{level=Math.max(1,level-1);si=0;go();});
+  q('.chaine-nextlevel',()=>{level=Math.min(3,level+1);si=0;open=false;go();});
+  q('.chaine-prevlevel',()=>{level=Math.max(1,level-1);si=0;open=false;go();});
   q('.chaine-restart',go);
 }
 render();
