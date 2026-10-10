@@ -2344,6 +2344,20 @@ div.qcm-options>p{border:0!important;background:none!important;box-shadow:none!i
 #chaine-app .pb-suite ul{list-style:none;padding:0;margin:8px 0 0;display:grid;gap:8px;font-size:17px}
 @media(max-width:760px){#chaine-app .pb-fin h2{font-size:28px}#chaine-app .pb-fin .chaine-nav .btn{width:100%;justify-content:center}}
 
+/* === Dissertation de français : « Trouver le problème du sujet » (bac-dissertation.html) et méthode (bac-dissertation-methode.html) === */
+.diss-pb{max-width:980px}
+.diss-pb .chaine-tabs{grid-template-columns:repeat(2,1fr)}
+.diss-forme{font-size:17px;line-height:1.45;margin:0 0 10px;color:var(--muted)}
+.diss-forme b{color:var(--ink)}
+.diss-pb .diss-step+.diss-step{margin-top:22px}
+.diss-pb .chaine-fin{margin-top:22px}
+.diss-pb .diss-n2{padding-top:18px}
+.diss-area{width:100%;min-height:180px;margin:10px 0 6px;padding:14px;font:18px/1.5 Georgia,'Times New Roman',serif;background:#fffdf8;border:1px solid #999}
+.diss-fbm p{margin:0 0 8px}
+.diss-sources{margin-top:22px}
+.diss-plan-exemple{border-left:4px solid var(--red);padding:6px 0 6px 16px;margin:14px 0}
+.diss-plan-exemple p{margin:0 0 8px}
+@media(max-width:760px){.diss-pb .chaine-q{font-size:20px}.diss-pb .chaine-opt{font-size:16px;padding:12px 13px}}
 /* === Commentaire pas à pas : barre, repère et jauge, carte du commentaire, niveau 3 (#comm-app) === */
 #comm-app{max-width:1180px}
 #comm-app .cc-barre{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 16px;padding:0 0 12px;border-bottom:1px solid #c9bfb0;margin-bottom:18px}
