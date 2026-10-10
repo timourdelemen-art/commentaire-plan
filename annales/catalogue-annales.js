@@ -125,7 +125,7 @@ window.ANNALES_CATALOGUE = {
             "Le message d’amour compte, mais la question perd X, l’agonie subie : elle est trop étroite."
           ]
         ],
-        "correction": "Forme développée : « On pouvait attendre une agonie subie. Pourtant, par la parole, Hialmar fait de sa mort une victoire. » Problématique, en une seule question : « Comment Leconte de Lisle fait-il de l’agonie d’un guerrier vaincu une victoire héroïque ? » On y retrouve X, l’agonie, et Y, la victoire."
+        "correction": "Le problème : « On pouvait attendre une agonie subie. Pourtant, par la parole, Hialmar fait de sa mort une victoire. » Problématique, en une seule question : « Comment Leconte de Lisle fait-il de l’agonie d’un guerrier vaincu une victoire héroïque ? » On y retrouve X, l’agonie, et Y, la victoire."
       },
       {
         "id": "plan",

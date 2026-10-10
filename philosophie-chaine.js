@@ -68,7 +68,7 @@ function carte(){
   const col=(k,ids,h)=>`<div class="pb-col pb-${k}"><strong>${h}</strong>${ids.map(cell).join('')}</div>`;
   return `<details class="pb-carte"${wide()||step>=NB_ET()?' open':''}><summary>La carte du problème <span>${nb} sur ${NB_ET()}</span></summary>
   <div class="pb-cols">${col('oui',[0,1,2],sans(typo(s.oui)))}${col('non',[3,4,5],sans(typo(s.non)))}</div>
-  <div class="pb-pbm${got[6]?'':' vide'}${step===6?' now':''}"><em>La problématique, développée</em>${got[6]?T(got[6]):'Elle naîtra de ce que perdent les deux réponses.'}</div>${NB_ET()>7?`<div class="pb-pbm pb-court${got[7]?'':' vide'}${step===7?' now':''}"><em>En une seule question</em>${got[7]?T(got[7]):'La même, plus courte, sans perdre l’une des deux réponses.'}</div>`:''}</details>`;
+  <div class="pb-pbm${got[6]?'':' vide'}${step===6?' now':''}"><em>La problématique</em>${got[6]?T(got[6]):'Elle naîtra de ce que perdent les deux réponses.'}</div>${NB_ET()>7?`<div class="pb-pbm pb-court${got[7]?'':' vide'}${step===7?' now':''}"><em>En une seule question</em>${got[7]?T(got[7]):'La même, plus courte, sans perdre l’une des deux réponses.'}</div>`:''}</details>`;
 }
 function stepView(){
   const s=subj(), e=s.etapes[step];

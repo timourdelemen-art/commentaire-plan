@@ -71,7 +71,7 @@ sujets.forEach(art=>{
   const cmp=art.querySelector('.diss-compare');
   if(cmp) cmp.addEventListener('click',()=>{
     const ta=art.querySelector('.diss-area'), fbm=art.querySelector('.diss-fbm');
-    if(ta.value.trim().length<20){ fbm.className='chaine-fb diss-fbm show no'; fbm.textContent='Écrivez d’abord votre forme longue et votre question : on compare après.'; ta.focus(); return; }
+    if(ta.value.trim().length<20){ fbm.className='chaine-fb diss-fbm show no'; fbm.textContent='Écrivez d’abord votre problème en trois phrases et votre question : on compare après.'; ta.focus(); return; }
     fbm.className='chaine-fb diss-fbm show def';
     fbm.innerHTML='';
     fbm.appendChild(art.querySelector('template.diss-modele').content.cloneNode(true));
