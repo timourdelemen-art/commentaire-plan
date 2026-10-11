@@ -1,0 +1,35 @@
+/* Pages HLP d’écriture : règles limitées à ce module. */
+.ecrire [hidden]{display:none!important}
+.ecrire .ecrire-levels,.ecrire .ecrire-actions,.ecrire .ecrire-stages{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0}
+.ecrire .ecrire-levels button{flex:1 1 9rem;display:grid;gap:.3rem;text-align:left}
+.ecrire button{font:inherit;border:1px solid #b5c6c1;border-radius:8px;background:#fff;color:#183d33;padding:.7rem 1rem;cursor:pointer;max-width:100%}
+.ecrire button[aria-pressed=true]{background:#e4f2eb;border-color:#21624d;box-shadow:inset 0 0 0 1px #21624d}
+.ecrire button:disabled{opacity:.45;cursor:default}
+.ecrire button:focus-visible,.ecrire summary:focus-visible,.ecrire textarea:focus-visible{outline:3px solid #bb6c27;outline-offset:3px}
+.ecrire .ecrire-storage{font-size:.85rem;color:#52635b}
+.ecrire .ecrire-choices{display:grid;gap:.65rem}
+.ecrire .ecrire-choices button{text-align:left}
+.ecrire .ecrire-label{display:block;font-weight:600;margin:1rem 0 .4rem}
+.ecrire textarea{display:block;width:100%;box-sizing:border-box;min-width:0;font:inherit;line-height:1.6;padding:.9rem;border:1px solid #b5c6c1;border-radius:8px;resize:vertical}
+.ecrire .ecrire-step{padding:1rem 0}
+.ecrire .ecrire-step h4{font-size:1.1rem;line-height:1.5;margin:.5rem 0}
+.ecrire details{margin:1rem 0}
+.ecrire summary{cursor:pointer;font-weight:600;line-height:1.5}
+.ecrire .ecrire-model{border-top:1px solid #cbd6d1;padding-top:1.4rem}
+.ecrire .ecrire-row{display:grid;grid-template-columns:minmax(0,2.6fr) minmax(0,1fr);gap:1.5rem;align-items:start;margin:1rem 0}
+.ecrire .ecrire-row p{margin:0;line-height:1.8}
+.ecrire .ecrire-annotation{font-size:.85rem;line-height:1.6;border-left:3px solid #b8cfc3;padding-left:.8rem;color:#506354}
+.ecrire .sans-annotations .ecrire-annotation{display:none}
+.ecrire .sans-annotations .ecrire-row{display:block;max-width:75ch}
+.ecrire .ecrire-note{border-left:3px solid #21624d;padding:.7rem 1rem;background:#f1f6f2}
+.ecrire .ecrire-bank{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+.ecrire .ecrire-card{padding:1.3rem;border:1px solid #cbd6d1;border-radius:10px}
+.ecrire .ecrire-card h3{margin:.4rem 0}
+.ecrire .ecrire-table{overflow-x:auto}
+.ecrire table{width:100%;border-collapse:collapse;line-height:1.6}
+.ecrire th,.ecrire td{text-align:left;vertical-align:top;padding:.8rem;border-bottom:1px solid #cbd6d1}
+.ecrire a,.ecrire p,.ecrire li,.ecrire h2,.ecrire h3,.ecrire h4{overflow-wrap:anywhere}
+@media(max-width:700px){.ecrire .ecrire-row,.ecrire .ecrire-bank{grid-template-columns:minmax(0,1fr)}.ecrire .ecrire-row{gap:.5rem}.ecrire .ecrire-annotation{margin-bottom:.8rem}.ecrire th,.ecrire td{padding:.5rem;font-size:.9rem}}
+@media print{.ecrire button,.ecrire nav,.ecrire textarea,.ecrire-storage{display:none!important}.ecrire .ecrire-row{break-inside:avoid}}
+
+.ecrire-reference {margin-top:3rem;padding:1rem;border-top:2px solid var(--line,#ddd);}

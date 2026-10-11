@@ -58,7 +58,7 @@ Le *Dictionnaire paradoxal* sert de référence interne ; l'élève n'apprend qu
 | **Changer de niveau** | Les deux exigences parlent-elles vraiment du même plan ? | distinguer deux plans ; déplacer la difficulté ; limiter ce qu'on peut savoir | duplication, déplacement, suspension |
 | **Réunir ce qu'on avait séparé** | L'opposition ne vient-elle pas d'une séparation artificielle ? | introduire un processus (deux moments d'un devenir) ; transformer le concept ; maintenir la tension | processualisation, métamorphose, consentement |
 
-L'abolition (choisir un camp) n'est pas une opération de partie III : si une seule réponse échouait, il suffirait de choisir l'autre.
+Choisir un camp sans traiter l’exigence adverse ne suffit pas dans ce parcours. Cela n’épuise pas l’abolition décrite par le Dictionnaire : abandonner une exigence demanderait une justification de son coût, et non une simple préférence.
 
 ## Les citations
 
@@ -117,10 +117,26 @@ La mise en tension des deux réponses est la forme développée du problème ; l
 4. **II** : II.1 répond à T1, II.2 construit une position forte, II.3 sa limite propre.
 5. **T2** : une question sur ce que les deux réponses supposaient ensemble.
 6. **III** : III.1 ce que I et II avaient découvert ; III.2 une des trois opérations, identifiable ; III.3 ce qui est conservé, transformé, et le reste.
-7. **Conclusion** : la réponse ; le reste ; le reste devenu question.
+7. **Conclusion** : la réponse ; le reste ; le reste devenu question. Cette dernière question reproblématise au point où la réponse atteint sa limite : elle ne répète pas le sujet et n’ouvre pas un thème voisin. Le reste doit déjà être identifié en III.3 ; la conclusion en précise l’enjeu, éventuellement par un bref retour à la scène.
 8. **Citations** : chacune accomplit une opération ; aucune n'est plaquée.
 9. **Vocabulaire élève** : ni « double aporie », ni « aporie », ni « résolution » au sens technique, ni « reprobématisation ».
 
 ## Point tranché (10 octobre 2026)
 
 L'introduction part **des deux exigences et de leur contradiction**, portées par une scène (règle déjà inscrite au § 2 d'`AGENTS.md`). L'étape 5 du questionnaire du propriétaire (une idée poussée jusqu'au bout) reste un outil de recherche au brouillon : pousser chaque réponse jusqu'au bout fait apparaître sa limite, donc les deux exigences.
+
+## Sélection comparée des III et contrôle des A20 (11 octobre 2026)
+
+La préface de Guillaume Morano donne un critère local : préserver l’intégrité de ce qui est examiné au moindre prix. Elle ne fournit ni une liste exhaustive des opérations ni une métrique qui déduirait un gagnant. L’économie de mots est une autre contrainte : une copie plus courte n’a pas nécessairement un moindre coût philosophique.
+
+Avant rédaction, comparer au moins trois pistes sérieuses pour le même problème. Pour chacune : proposition concrète, acquis préservés, présupposé requis, coût et difficulté persistante. Le choix peut combiner des opérations. Le justifier contre une concurrence forte, puis éprouver sa meilleure objection. Ne pas fabriquer deux premières parties absurdes pour rendre la troisième inévitable.
+
+Les trois familles élèves organisent les pistes ; elles ne les classent pas. Distinguer deux aspects n’est pas nécessairement une duplication ontologique. Maintenir une tension ne la supprime pas. L’abolition d’une détermination et la suspension du jugement existent dans le Dictionnaire ; leur exclusion d’un schéma pédagogique ne les réfute pas. Pour une A20 construite sur deux acquis légitimes, expliquer le prix de leur abandon au lieu de l’interdire par définition.
+
+La mise en scène s’évalue avant son élégance : faits exacts, deux exigences réellement perceptibles, portée limitée de l’exemple, retour final éclairé par le raisonnement. Une fiction sert d’épreuve conceptuelle ; elle ne constitue pas une preuve empirique universelle. Chaque scène modifiée ou ajoutée demeure soumise à l’examen individuel du propriétaire prévu par AGENTS.md.
+
+La brièveté vient après la solidité : supprimer les redites et le métadiscours, garder les raisons décisives, les distinctions et l’objection qui borne la réponse. Aucun plafond de mots ne certifie une note. Le modèle visé reste « La copie la plus courte qui mérite 20 » ; l’évaluation demeure globale.
+
+Intégration : `scripts/copies20-resolutions.json` contient les comparaisons ; `scripts/check-copies20.js` vérifie leur présence, leur lien avec la copie, le reste de III.3 et la question finale. Le générateur appelle ce contrôle avant de produire les pages : un dossier absent ou périmé interrompt le build. L’empreinte porte sur le texte et ses annotations ; elle atteste la correspondance de versions, jamais la validité philosophique. Le statut `propose` ne devient `relu` qu’avec nom et date du relecteur. Les dossiers restent internes et sont retirés par le nettoyage Netlify.
+
+Le correcteur des exercices applique la même exigence dans un langage élève : pas de score de résolution, pas de note déduite d’une structure, pas de comparaison ajoutée à une consigne qui ne la demande pas. Le type `philo-conclusion` examine spécifiquement le lien réponse → reste → nouvelle question. `philo-reste` désigne uniquement la difficulté finale ; les limites intermédiaires relèvent de `philo-transition`.

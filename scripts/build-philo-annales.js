@@ -15,7 +15,7 @@ const esc=s=>String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').rep
 const PRINT='<p class="print-line"><button type="button" class="philo-print" onclick="document.querySelectorAll(\'details\').forEach(function(d){d.open=true});window.print()">Imprimer la fiche (corrigé compris)</button></p>';
 
 function step(k,h,i,kind,rows){
-  return `<section class="exercise-wrap"><article class="exercise"><div class="kicker">${k}</div><h2>${h}</h2><div class="instruction">${i}</div><textarea rows="${rows}" data-feedback-kind="${kind}"></textarea></article></section>\n`;
+  return `<section class="exercise-wrap"><article class="exercise"><div class="kicker">${k}</div><h2>${h}</h2><div class="instruction">${i}</div><textarea rows="${rows}"${kind.startsWith('philo-texte-')?' data-feedback="off"':''} data-feedback-kind="${kind}"></textarea></article></section>\n`;
 }
 const p=(label,txt)=>txt?`<p><strong>${label} :</strong> ${esc(txt)}</p>`:'';
 
@@ -48,15 +48,15 @@ ${PRINT}</article></section>\n`;
 }
 
 function texte(set,x){
-  const corr=`<section class="exercise-wrap" id="corrige"><article class="exercise"><div class="kicker">APRÈS VOTRE ESSAI</div><h2>Un corrigé possible.</h2><details class="correction"><summary>Comparer avec votre travail</summary>${p('Le problème',x.probleme)}${p('La thèse',x.these)}${(x.moments||[]).length?'<p><strong>Les moments du texte :</strong></p><ol>'+x.moments.map(m=>'<li>'+esc(m)+'</li>').join('')+'</ol>':''}${p('Ce que fait le texte',x.operation)}${p('Dans une dissertation',x.reemploi)}<p class="micro">Ce corrigé résume le texte avec nos mots : relisez toujours le texte lui-même dans le sujet officiel.</p></details>
+  const corr=`<section class="exercise-wrap" id="corrige"><article class="exercise"><div class="kicker">APRÈS VOTRE EXPLICATION</div><h2>Un corrigé possible.</h2><details class="correction"><summary>Comparer avec votre travail</summary>${p('Le problème',x.probleme)}${p('La thèse',x.these)}${(x.moments||[]).length?'<p><strong>Les moments du texte :</strong></p><ol>'+x.moments.map(m=>'<li>'+esc(m)+'</li>').join('')+'</ol>':''}${p('Ce que fait le texte',x.operation)}<p class="micro">Ce corrigé résume le texte avec nos mots : relisez toujours le texte lui-même dans le sujet officiel.</p></details><details><summary>Après l’explication : réemploi facultatif en dissertation</summary>${p('Un usage possible',x.reemploi)}</details>
 ${PRINT}</article></section>\n`;
   return step('1 · LE PROBLÈME','À quelle difficulté le texte répond-il ?','<ol class="consigne-simple"><li>Écrivez la question que l’auteur se pose. Une phrase.</li><li>Écrivez pourquoi elle n’a pas de réponse évidente. Une phrase.</li></ol>','philo-texte-probleme',4)+
   step('2 · LA THÈSE','Quelle réponse l’auteur défend-il ?','<p>Écrivez en une phrase la réponse que l’auteur défend, sans résumer tout le passage.</p>','philo-texte-these',3)+
-  step('3 · LES MOMENTS','Comment le texte avance-t-il ?','<p>Découpez le texte en trois à cinq moments. Pour chacun, écrivez une phrase : ce que l’auteur fait là (il affirme, explique, donne un exemple, répond à une objection, conclut).</p>','philo-texte-moments',6)+
-  step('4 · CE QUE FAIT LE TEXTE','Quel geste l’auteur fait-il pour s’en sortir ?','<p>Un philosophe ne fait pas qu’affirmer : il fait un geste pour sortir de la difficulté.</p><ol class="consigne-simple"><li>Choisissez le geste qui ressemble au texte : sépare-t-il deux choses qu’on confondait (« légal » et « juste ») ? renverse-t-il la cause et l’effet ? montre-t-il que le vrai problème est ailleurs ? change-t-il le sens d’un mot ?</li><li>Complétez : « L’auteur… ; cela lui permet de… »</li></ol>','philo-operation',5)+
-  step('5 · DANS UNE DISSERTATION','À quoi ce texte pourrait-il servir ?','<ol class="consigne-simple"><li>Choisissez un sujet de dissertation parmi les sujets 2026 en bas de cette page, et recopiez-le. Exemple : « Peut-on concevoir une humanité sans religion ? »</li><li>Écrivez dans quelle partie vous utiliseriez ce texte, et pour quoi faire. Une phrase.</li></ol>','philo-reemploi',4)+
+  step('3 · LES MOMENTS','Comment le texte avance-t-il ?','<p>Découpez le texte selon les étapes de son raisonnement. Pour chacune, écrivez une phrase : ce que l’auteur fait là (il affirme, explique, donne un exemple, répond à une objection, conclut). Le nombre dépend de ce texte.</p>','philo-texte-moments',6)+
+  step('4 · EXPLIQUER UNE RAISON','Pourquoi l’auteur soutient-il cette idée ?','<ol class="consigne-simple"><li>Choisissez une phrase importante du texte et recopiez-la.</li><li>Précisez le sens d’un mot décisif, puis expliquez la raison que cette phrase donne.</li><li>Reliez-la au mouvement du texte. Rédigez six à dix phrases pour l’ensemble.</li></ol>','philo-texte-argument',8)+
+  step('5 · L’EXPLICATION ENTIÈRE','Rédigez votre explication complète.','<p>Reprenez votre brouillon et gardez le texte officiel ouvert. Expliquez son problème, sa thèse et ses raisons dans leur mouvement. Choisissez l’organisation qui rend cet extrait intelligible. Terminez par ce qu’il établit et par sa portée.</p><p class="micro">Pour comparer une copie entièrement rédigée : <a href="philosophie-explication.html">trois textes, trois niveaux et modèles annotés →</a>. Aucune note automatique n’est calculée ici.</p>','philo-texte-copie',20)+
   corr+
-  `<section class="offer-band"><div class="kicker">AVANT DE RÉDIGER</div><h2>Quatre vérifications.</h2><div class="sequence-spec"><p>Mon problème explique-t-il pourquoi le texte avait quelque chose à résoudre ?</p><p>Ma thèse dit-elle ce que l’auteur établit, sans résumer le passage ?</p><p>Mes moments suivent-ils l’ordre du texte, chacun avec son rôle ?</p><p>Le geste de l’auteur (question 4) est-il précis, et lié à ce qu’il résout ici ?</p></div></section>\n`;
+  `<section class="offer-band"><div class="kicker">APRÈS RÉDACTION</div><h2>Quatre vérifications.</h2><div class="sequence-spec"><p>Mon problème explique-t-il pourquoi le texte doit argumenter ?</p><p>Ma thèse dit-elle ce que l’auteur établit précisément ?</p><p>Mon explication rend-elle compte des moments et de leurs rôles ?</p><p>Chaque passage important est-il expliqué par ses mots, ses raisons et sa place dans le texte ?</p></div></section>\n`;
 }
 
 function page(set,x,all){
@@ -73,7 +73,7 @@ function page(set,x,all){
 <link rel="canonical" href="${DOMAIN}/${annaleFile(x)}">
 <link rel="stylesheet" href="styles.css">
 </head><body><header class="top"></header><main class="wrap">
-<section class="pagehead"><div><div class="kicker">PHILOSOPHIE · BAC 2026 · ${esc(set.center.toUpperCase())}</div><h1>${esc(x.title)}</h1><p class="lede">${diss?'Travaillez le sujet en cinq questions, sur un brouillon. Le corrigé est en bas : ne l’ouvrez qu’après votre essai.':'Lisez d’abord le texte dans le sujet officiel, deux fois, crayon en main. Puis travaillez-le en cinq questions. Le corrigé est en bas : ne l’ouvrez qu’après votre essai.'}</p></div><aside class="side-note"><p><strong>${diss?'Dissertation':'Explication de texte'}</strong><br>${esc(set.code)}</p><p><a href="${esc(set.source)}">Sujet officiel (PDF) ↗</a></p><p><a href="#corrige">Aller directement au corrigé ↓</a></p><p class="ici"><b>Où vous êtes</b>L’étape 5 du parcours : un vrai sujet du bac. Vous débutez ? <a href="philosophie.html#parcours">Le parcours en cinq étapes →</a></p>${diss?'':'<p class="micro">Les cinq questions suivent l’ordre d’une explication de texte : le problème, la thèse, les moments, le geste de l’auteur, puis ce que le texte vous apporte pour une dissertation.</p>'}</aside></section>
+<section class="pagehead"><div><div class="kicker">PHILOSOPHIE · BAC 2026 · ${esc(set.center.toUpperCase())}</div><h1>${esc(x.title)}</h1><p class="lede">${diss?'Travaillez le sujet en cinq questions, sur un brouillon. Le corrigé est en bas : ne l’ouvrez qu’après votre essai.':'Lisez d’abord le texte dans le sujet officiel, deux fois, crayon en main. Puis préparez et rédigez votre explication en cinq étapes. Le corrigé est en bas : ne l’ouvrez qu’après votre rédaction.'}</p></div><aside class="side-note"><p><strong>${diss?'Dissertation':'Explication de texte'}</strong><br>${esc(set.code)}</p><p><a href="${esc(set.source)}">Sujet officiel (PDF) ↗</a></p><p><a href="#corrige">Aller directement au corrigé ↓</a></p>${diss?'<p class="ici"><b>Où vous êtes</b>L’étape 5 du parcours : un vrai sujet du bac. Vous débutez ? <a href="philosophie.html#parcours">Le parcours en cinq étapes →</a></p>':'<p class="ici"><b>Où vous êtes</b>Un vrai texte du bac à expliquer. <a href="philosophie-explication.html">Méthode, trois niveaux et copies annotées →</a></p><p class="micro">Les cinq étapes conduisent du problème et de la thèse aux raisons du texte, puis à une explication entièrement rédigée.</p>'}</aside></section>
 ${diss?dissertation(set,x)+C20.teaser(x.id):texte(set,x)}
 <section class="offer-band"><div class="kicker">LES AUTRES SUJETS 2026</div><h2>Continuer sur un autre sujet.</h2><div class="seo-links">
 ${others}
@@ -92,6 +92,7 @@ const listHtml=`<!--annales-2026:start-->
 ${all.filter(o=>o.x.type==='dissertation').map(card).join('\n')}
 </div>
 <h3 class="annales-group">Explications de texte</h3>
+<p><a href="philosophie-explication.html">De la lecture à la copie entière : trois niveaux et modèles annotés →</a></p>
 <div class="annales-static-links">
 ${all.filter(o=>o.x.type!=='dissertation').map(card).join('\n')}
 </div>
@@ -113,3 +114,4 @@ fs.writeFileSync(path.join(ROOT,'philosophie-annale.html'),`<!doctype html><html
 </head><body><header class="top"></header><main class="wrap"><section class="pagehead"><div><h1>Redirection…</h1><p><a href="philosophie-annales.html">Toutes les annales de philosophie →</a></p></div></section></main><script src="site-nav.js"></script></body></html>
 `);
 console.log(`Annales philosophie 2026 : ${all.length} pages statiques`);
+require('./build-explication-textes').build(ROOT);

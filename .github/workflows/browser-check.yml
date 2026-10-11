@@ -16,6 +16,15 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Contrôler les banques intégrées
+        run: |
+          node scripts/test-copies20.js
+          node scripts/test-hlp-parcours.js
+          node scripts/test-explication-textes.js
+          node scripts/test-philo-scenes.js
+          node scripts/test-brevet-lecture.js
+          node scripts/test-philo-banque.js
+          (cd scripts/exemples && python -m unittest -q test_verifier)
       - name: Installer Chromium et Playwright
         run: |
           npm install --no-save playwright@1.56.1
@@ -28,4 +37,14 @@ jobs:
           cd "$B"
           eval "$(sed -n 's/^ *command = "\(.*\)"/\1/p' netlify.toml)"
       - name: Contrôler les pages à 390 et 1280 pixels
-        run: node scripts/check-browser-pages.cjs "$BUILD_DIR"
+        run: |
+          node scripts/check-browser-pages.cjs "$BUILD_DIR"
+          node scripts/check-browser-integration.cjs "$BUILD_DIR"
+          node scripts/check-browser-philo-banque.cjs "$BUILD_DIR"
+      - name: Archiver le contrôle visuel
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: navigateur-integration
+          path: ${{ env.BUILD_DIR }}/browser-audit
+          retention-days: 14

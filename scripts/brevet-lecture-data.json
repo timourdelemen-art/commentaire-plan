@@ -1,0 +1,488 @@
+{
+  "cases": [
+    {
+      "id": "2022-q2c",
+      "year": 2022,
+      "author": "Jean de La Fontaine",
+      "work": "Le Lion et le Moucheron",
+      "source": "https://www.education.gouv.fr/sites/default/files/document/Dipl%C3%B4me%20national%20du%20brevet%202022%20-%20Fran%C3%A7ais%20%3A%20Grammaire%20et%20comp%C3%A9tences%20linguistiques%20-%20Compr%C3%A9hension%20et%20comp%C3%A9tences%20d%26%23039%3Binterpr%C3%A9tation%20-%20S%C3%A9rie%20g%C3%A9n%C3%A9rale-327336.pdf",
+      "code": "22GENFRQGCME1",
+      "sourcePages": "Texte : pages 2–3 ; questions : page 4 ; réécriture : page 5.",
+      "annale": "brevet-2022-metropole-general-la-fontaine-lion-moucheron",
+      "step": "q2c",
+      "question": "Comment le fabuliste met-il en évidence le mouvement et l’agitation du combat ? Pour justifier votre réponse, vous vous appuierez notamment sur les verbes, les adverbes et le rythme des vers.",
+      "choices": [
+        [
+          "Les attaques se succèdent ; les verbes, les reprises et les vers font sentir leur rapidité.",
+          "Solide",
+          "Cette piste relie plusieurs détails d’écriture au mouvement que demande la question."
+        ],
+        [
+          "Le Lion est puissant et le Moucheron petit : le combat oppose deux forces très différentes.",
+          "À revoir",
+          "La différence de taille ne dit pas comment l’écriture fait sentir l’agitation."
+        ],
+        [
+          "Les mots de la colère donnent au combat une violence qui finit par épuiser le Lion.",
+          "Défendable",
+          "La colère éclaire la violence ; ajoutez les moyens qui font sentir le mouvement."
+        ]
+      ],
+      "stages": [
+        [
+          "Relevez deux verbes d’action et expliquez leur effet en deux phrases.",
+          "Relisez les attaques et la réaction du Lion, pas seulement l’annonce du combat.",
+          "« fond » fait voir l’attaque brusque ; « Bat » montre une réaction violente et désordonnée."
+        ],
+        [
+          "Expliquez la reprise de « Tantôt » en une phrase.",
+          "Regardez si les attaques gardent le même endroit.",
+          "La reprise de « Tantôt » montre que l’insecte change sans cesse de cible et que le Lion ne peut l’arrêter."
+        ],
+        [
+          "Reliez une longueur de vers au mouvement en deux phrases.",
+          "Comparez un long vers qui énumère et les courts vers des attaques.",
+          "Les vers brefs des attaques accélèrent la succession des gestes ; les verbes rapprochés et les propositions séparées montrent le Lion qui s’agite."
+        ]
+      ],
+      "model": [
+        [
+          "Les verbes d’action font sentir un combat rapide : le Moucheron « fond » sur le Lion, qui « écume », « rugit » et « Bat l’air ». Les gestes s’enchaînent et la riposte du Lion devient désordonnée.",
+          "Les mots exacts sont reliés à ce qu’ils font voir."
+        ],
+        [
+          "La reprise de « Tantôt » fait passer l’insecte d’une partie du corps à une autre. Les vers courts qui décrivent ces attaques accélèrent leur succession. Les propositions rapprochées, notamment dans « Il rugit ; on se cache, on tremble à l’environ », étendent cette agitation aux alentours.",
+          "La réponse explique la répétition et le rythme, sans se limiter à les nommer."
+        ]
+      ],
+      "criteria": [
+        "Vous répondez au mouvement et à l’agitation, pas seulement au vainqueur.",
+        "Vous citez des verbes, une reprise et un détail de rythme.",
+        "Vous expliquez l’effet de chaque appui."
+      ]
+    },
+    {
+      "id": "2022-q5",
+      "year": 2022,
+      "author": "Jean de La Fontaine",
+      "work": "Le Lion et le Moucheron",
+      "source": "https://www.education.gouv.fr/sites/default/files/document/Dipl%C3%B4me%20national%20du%20brevet%202022%20-%20Fran%C3%A7ais%20%3A%20Grammaire%20et%20comp%C3%A9tences%20linguistiques%20-%20Compr%C3%A9hension%20et%20comp%C3%A9tences%20d%26%23039%3Binterpr%C3%A9tation%20-%20S%C3%A9rie%20g%C3%A9n%C3%A9rale-327336.pdf",
+      "code": "22GENFRQGCME1",
+      "sourcePages": "Texte : pages 2–3 ; questions : page 4 ; réécriture : page 5.",
+      "annale": "brevet-2022-metropole-general-la-fontaine-lion-moucheron",
+      "step": "q5",
+      "question": "Au cours de la fable, de quel défaut le Lion et le Moucheron font-ils preuve à tour de rôle ? Justifiez votre réponse en vous appuyant sur l’ensemble de la fable.",
+      "choices": [
+        [
+          "Tous deux montrent de l’orgueil : le Lion méprise le petit, puis le Moucheron célèbre sa victoire.",
+          "Solide",
+          "Le même défaut explique leur assurance et leurs défaites successives."
+        ],
+        [
+          "Tous deux montrent de la violence : ils veulent blesser l’autre et poursuivent le combat sans retenue.",
+          "À revoir",
+          "La violence ne rend pas compte du mépris initial ni du triomphe qui précède le piège."
+        ],
+        [
+          "Tous deux font preuve d’imprudence et sous-estiment ce qui peut encore leur faire du mal.",
+          "Défendable",
+          "L’imprudence convient à leur conduite ; précisez la confiance excessive qui la provoque."
+        ]
+      ],
+      "stages": [
+        [
+          "Nommez le défaut du Lion et prouvez-le en deux phrases.",
+          "Comparez l’insulte initiale à la taille de son adversaire.",
+          "Le Lion est orgueilleux : il traite son adversaire de « chétif insecte » et se croit à l’abri d’un être si petit."
+        ],
+        [
+          "Expliquez le défaut du Moucheron avec un fait et une citation.",
+          "Relisez ce qu’il fait immédiatement après sa victoire.",
+          "Le Moucheron célèbre sa victoire et « Va partout l’annoncer » ; sa gloire lui fait oublier qu’il reste vulnérable."
+        ],
+        [
+          "Écrivez une phrase qui rapproche les deux comportements.",
+          "Le vainqueur du premier combat est-il protégé de toute défaite ?",
+          "Chacun croit sa force suffisante, mais un adversaire jugé insignifiant le met en échec."
+        ]
+      ],
+      "model": [
+        [
+          "Le Lion et le Moucheron font tous deux preuve d’orgueil. Le Lion méprise le « chétif insecte » et se fie à sa supériorité ; pourtant, ce petit adversaire le pousse à se blesser lui-même.",
+          "Le défaut est nommé et expliqué pour le premier animal."
+        ],
+        [
+          "Le Moucheron, à son tour, se retire « avec gloire » et « Va partout l’annoncer ». Son triomphe ne le protège pas : il tombe dans le piège d’une araignée. La fable montre ainsi que vaincre un adversaire ne permet pas de se croire invulnérable.",
+          "La seconde moitié de la fable prouve que le défaut est commun."
+        ]
+      ],
+      "criteria": [
+        "Un même défaut convient aux deux animaux.",
+        "Vous expliquez chaque comportement avec un appui distinct.",
+        "Vous utilisez le début et la fin de la fable."
+      ]
+    },
+    {
+      "id": "2022-q6",
+      "year": 2022,
+      "author": "Jean de La Fontaine",
+      "work": "Le Lion et le Moucheron",
+      "source": "https://www.education.gouv.fr/sites/default/files/document/Dipl%C3%B4me%20national%20du%20brevet%202022%20-%20Fran%C3%A7ais%20%3A%20Grammaire%20et%20comp%C3%A9tences%20linguistiques%20-%20Compr%C3%A9hension%20et%20comp%C3%A9tences%20d%26%23039%3Binterpr%C3%A9tation%20-%20S%C3%A9rie%20g%C3%A9n%C3%A9rale-327336.pdf",
+      "code": "22GENFRQGCME1",
+      "sourcePages": "Texte : pages 2–3 ; questions : page 4 ; réécriture : page 5.",
+      "annale": "brevet-2022-metropole-general-la-fontaine-lion-moucheron",
+      "step": "q6",
+      "question": "Comment comprenez-vous les deux enseignements que le fabuliste donne au lecteur ?",
+      "choices": [
+        [
+          "La force apparente trompe ; réussir une grande épreuve ne garantit pas d’échapper à une petite.",
+          "Solide",
+          "Cette piste distingue les deux enseignements et permet de les relier à deux moments."
+        ],
+        [
+          "Il faut toujours combattre les petits ennemis, car ils sont nécessairement plus dangereux que les grands.",
+          "À revoir",
+          "Le fabuliste dit « souvent », et non toujours : la réponse transforme un avertissement en règle absolue."
+        ],
+        [
+          "Les victoires sont fragiles : il faut rester prudent même quand on a vaincu un adversaire puissant.",
+          "Défendable",
+          "La prudence explique surtout la seconde leçon ; explicitez aussi la première."
+        ]
+      ],
+      "stages": [
+        [
+          "Reformulez le premier enseignement en une phrase.",
+          "Gardez la nuance portée par « souvent ».",
+          "Un adversaire petit ou apparemment faible peut être très dangereux ; il ne faut pas le mépriser."
+        ],
+        [
+          "Reliez ce premier enseignement au combat en deux phrases.",
+          "Qui semble le plus fort ? Qui finit épuisé ?",
+          "Le Lion semble supérieur par sa taille, mais le Moucheron le harcèle jusqu’à l’épuisement."
+        ],
+        [
+          "Reformulez le second enseignement et reliez-le à la fin.",
+          "Distinguez la difficulté vaincue et le piège rencontré ensuite.",
+          "On peut surmonter un grand danger puis mourir d’un incident jugé mineur : le Moucheron bat le Lion mais périt dans une toile."
+        ]
+      ],
+      "model": [
+        [
+          "Le premier enseignement invite à ne pas sous-estimer un ennemi à cause de sa petitesse : un être apparemment faible peut être dangereux. Le Moucheron en donne la preuve lorsqu’il épuise le Lion. Le mot « souvent » laisse une nuance : tous les petits ennemis ne sont pas les plus redoutables.",
+          "La morale est reformulée, nuancée et reliée au récit."
+        ],
+        [
+          "Le second enseignement montre qu’échapper à un grand danger ne met pas à l’abri d’un risque plus modeste. Le Moucheron a vaincu le Lion, mais il meurt dans le piège d’une araignée. Une victoire passée ne dispense donc pas de rester attentif.",
+          "La seconde morale n’est pas confondue avec la première."
+        ]
+      ],
+      "criteria": [
+        "Vous formulez deux enseignements distincts.",
+        "Vous donnez un moment du récit pour chacun.",
+        "Vous gardez les nuances du texte."
+      ]
+    },
+    {
+      "id": "2023-q3",
+      "year": 2023,
+      "author": "George Sand",
+      "work": "Histoire de ma vie",
+      "source": "https://www.education.gouv.fr/sites/default/files/document/Dipl%C3%B4me%20national%20du%20brevet%202023%20-%20Fran%C3%A7ais%20-%20Grammaire%20et%20comp%C3%A9tences%20linguistiques%20-%20Compr%C3%A9hension%20et%20comp%C3%A9tences%20d%26%23039%3Binterpr%C3%A9tation-365133.pdf",
+      "code": "23GENFRQGCME1",
+      "sourcePages": "Texte : pages 2–3 ; questions : page 5 ; réécriture : page 6.",
+      "annale": "brevet-2023-metropole-general-george-sand-histoire-de-ma-vie",
+      "step": "q3",
+      "question": "Cherchez dans le texte trois éléments qui montrent que l’illusion « gagne » et « saisit véritablement » les enfants.",
+      "choices": [
+        [
+          "Ils perdent la réalité, voient un paysage imaginé et prennent le froid du sol pour de l’eau.",
+          "Solide",
+          "Ces trois indices montrent que l’imagination agit sur leurs perceptions."
+        ],
+        [
+          "Ils sont dans une chambre, suivent une rivière dessinée et finissent punis dans un coin.",
+          "À revoir",
+          "Ces faits indiquent le cadre réel et le dénouement, mais ne prouvent pas tous la force de l’illusion."
+        ],
+        [
+          "Ils jouent longtemps, inventent des rôles et improvisent des dialogues comme de véritables acteurs.",
+          "Défendable",
+          "Ces indices montrent l’investissement dans le jeu ; choisissez aussi des perceptions qui remplacent la réalité."
+        ]
+      ],
+      "stages": [
+        [
+          "Relevez un passage qui dit la perte de la réalité et expliquez-le.",
+          "La narratrice adulte nomme directement ce qu’elle éprouvait.",
+          "Elle dit « je perdais la notion de la réalité » : le décor imaginé remplace le lieu où elle joue."
+        ],
+        [
+          "Relevez un élément du paysage imaginé et dites ce qu’il montre.",
+          "Cherchez le verbe qui annonce ce qu’elle croit voir.",
+          "Elle affirme « je croyais voir les arbres, les eaux, les rochers » : la chambre devient pour elle un paysage."
+        ],
+        [
+          "Expliquez en deux phrases la sensation éprouvée pieds nus.",
+          "Distinguez la sensation réelle et ce qu’elle représente dans le jeu.",
+          "Le froid vient du carrelage, mais il lui donne l’impression d’eau : la sensation nourrit l’illusion."
+        ]
+      ],
+      "model": [
+        [
+          "D’abord, la narratrice écrit « je perdais la notion de la réalité » : le jeu lui fait oublier la chambre. Elle ajoute « je croyais voir les arbres, les eaux, les rochers » ; le paysage inventé prend la place des objets réels.",
+          "Deux indices différents sont cités puis expliqués."
+        ],
+        [
+          "Enfin, « le froid du carreau me fit l’effet de l’eau véritable » : une sensation réelle devient pour l’enfant la preuve de la rivière imaginaire. Ces trois éléments montrent que l’illusion transforme sa perception du lieu.",
+          "Le troisième indice relie le corps et l’imagination."
+        ]
+      ],
+      "criteria": [
+        "Vous donnez trois éléments distincts.",
+        "Vous citez les mots exacts sans modifier leur personne.",
+        "Vous expliquez en quoi chaque indice montre l’illusion."
+      ]
+    },
+    {
+      "id": "2023-q4b",
+      "year": 2023,
+      "author": "George Sand",
+      "work": "Histoire de ma vie",
+      "source": "https://www.education.gouv.fr/sites/default/files/document/Dipl%C3%B4me%20national%20du%20brevet%202023%20-%20Fran%C3%A7ais%20-%20Grammaire%20et%20comp%C3%A9tences%20linguistiques%20-%20Compr%C3%A9hension%20et%20comp%C3%A9tences%20d%26%23039%3Binterpr%C3%A9tation-365133.pdf",
+      "code": "23GENFRQGCME1",
+      "sourcePages": "Texte : pages 2–3 ; questions : page 5 ; réécriture : page 6.",
+      "annale": "brevet-2023-metropole-general-george-sand-histoire-de-ma-vie",
+      "step": "q4b",
+      "question": "Identifiez au moins trois moments dans le récit, qui montrent que cette comparaison organise le jeu des enfants.",
+      "choices": [
+        [
+          "Le décor est créé, les personnages improvisent, puis le dénouement met fin à leur représentation.",
+          "Solide",
+          "Ces trois moments suivent le récit et retrouvent l’organisation d’un spectacle."
+        ],
+        [
+          "La rivière se dessine, les chaussures se retirent et le pot à eau se vide sur le sol.",
+          "Défendable",
+          "Ces faits sont exacts ; expliquez comment ils servent un décor, des rôles et une scène."
+        ],
+        [
+          "Le récit évoque un roman, un poème et un voyage : ces trois mots forment trois moments.",
+          "À revoir",
+          "Ces mots désignent des formes imaginaires ; ils ne découpent pas l’action en trois moments."
+        ]
+      ],
+      "stages": [
+        [
+          "Décrivez en une phrase la préparation du décor.",
+          "Revenez au début du jeu, avant le dialogue.",
+          "Les enfants dessinent la rivière à la craie dans la chambre : ils créent le décor de leur spectacle."
+        ],
+        [
+          "Décrivez les rôles et le dialogue en deux phrases.",
+          "Relisez ce que fait Hippolyte et la manière de s’appeler entre enfants.",
+          "Hippolyte joue le maladroit ; les filles se vouvoient et improvisent un dialogue pour rester dans leurs personnages."
+        ],
+        [
+          "Expliquez en deux phrases comment la fin ressemble à un dénouement.",
+          "Le dernier vocabulaire compare la punition à la fin d’une représentation.",
+          "L’intervention de la mère arrête le jeu ; la « toile » tombe, comme au théâtre, mais les cris sont réels."
+        ]
+      ],
+      "model": [
+        [
+          "Le jeu est organisé comme une représentation théâtrale. Au début, les enfants construisent leur décor en dessinant la rivière à la craie sur le sol de la chambre.",
+          "Le premier moment est situé et relié au spectacle."
+        ],
+        [
+          "Ensuite, chacun tient un rôle : Hippolyte joue « le rôle du maladroit ou de l’homme ivre ». Les filles se vouvoient et improvisent des dialogues pour incarner leurs personnages.",
+          "Le deuxième moment explique les rôles et le jeu des acteurs."
+        ],
+        [
+          "Enfin, l’intervention de la mère produit le « dénouement imprévu et dramatique » : le jeu s’arrête et « la toile tomba sur des larmes et des cris véritables ». Le vocabulaire du théâtre organise donc aussi la fin, où la punition remplace la fiction.",
+          "Le troisième moment s’appuie sur la fin du récit."
+        ]
+      ],
+      "criteria": [
+        "Vous rappelez la comparaison avec le théâtre établie à la question précédente.",
+        "Vous distinguez au moins trois moments du récit.",
+        "Vous expliquez le rôle théâtral de chacun."
+      ]
+    },
+    {
+      "id": "2023-q5",
+      "year": 2023,
+      "author": "George Sand",
+      "work": "Histoire de ma vie",
+      "source": "https://www.education.gouv.fr/sites/default/files/document/Dipl%C3%B4me%20national%20du%20brevet%202023%20-%20Fran%C3%A7ais%20-%20Grammaire%20et%20comp%C3%A9tences%20linguistiques%20-%20Compr%C3%A9hension%20et%20comp%C3%A9tences%20d%26%23039%3Binterpr%C3%A9tation-365133.pdf",
+      "code": "23GENFRQGCME1",
+      "sourcePages": "Texte : pages 2–3 ; questions : page 5 ; réécriture : page 6.",
+      "annale": "brevet-2023-metropole-general-george-sand-histoire-de-ma-vie",
+      "step": "q5",
+      "question": "Quelles réflexions sur l’enfance le récit de cet épisode inspire-t-il à la narratrice ? Deux éléments sont attendus. Vous justifierez votre réponse en citant des passages précis du texte.",
+      "choices": [
+        [
+          "L’imagination agrandit le monde des enfants ; leur jeu révèle aussi une réelle capacité d’invention.",
+          "Solide",
+          "Ces deux idées correspondent aux commentaires de la narratrice sur l’enfance."
+        ],
+        [
+          "Les enfants jouent dans la chambre puis sont punis : la narratrice raconte deux événements successifs.",
+          "À revoir",
+          "La question demande des réflexions de l’adulte, pas deux événements de l’histoire."
+        ],
+        [
+          "L’enfance permet d’oublier le réel et de vivre très intensément une histoire inventée à plusieurs.",
+          "Défendable",
+          "Cette lecture éclaire l’imagination ; développez un second aspect distinct, comme le talent d’improvisation."
+        ]
+      ],
+      "stages": [
+        [
+          "Relevez un commentaire de l’adulte sur l’espace et expliquez-le.",
+          "La narratrice oppose les trajets réels au paysage vécu dans le jeu.",
+          "« Dans quel vaste espace les enfants croient agir » montre que leur imagination élargit une chambre en un monde."
+        ],
+        [
+          "Relevez un jugement sur les dialogues inventés par les enfants.",
+          "Cherchez la comparaison avec des acteurs de profession.",
+          "Les acteurs seraient « bien embarrassés d’improviser » aussi bien : les enfants ont une inventivité que l’adulte admire."
+        ],
+        [
+          "Écrivez deux idées distinctes, chacune suivie de sa preuve.",
+          "L’une concerne l’expérience du monde ; l’autre concerne le talent de création.",
+          "L’enfant transforme sa perception par l’imagination ; il peut aussi inventer des rôles et des dialogues avec une grande justesse."
+        ]
+      ],
+      "model": [
+        [
+          "La narratrice admire d’abord la puissance de l’imagination enfantine. Elle s’exclame : « Dans quel vaste espace les enfants croient agir » alors qu’ils ne font que traverser une chambre. Le jeu transforme un espace réduit en un monde très vaste.",
+          "Une réflexion est distinguée d’un simple événement."
+        ],
+        [
+          "Elle reconnaît aussi aux enfants une grande capacité de création. Elle souligne que des « acteurs de profession seraient bien embarrassés d’improviser » leurs dialogues. Leur inventivité et leur justesse ne sont donc pas traitées comme des jeux sans valeur : l’adulte y voit un véritable talent.",
+          "Une seconde réflexion est justifiée et expliquée."
+        ]
+      ],
+      "criteria": [
+        "Vous formulez deux idées de la narratrice sur l’enfance.",
+        "Chaque idée a sa citation précise.",
+        "Vous expliquez les citations au lieu de raconter seulement le jeu."
+      ]
+    },
+    {
+      "id": "2022-q11",
+      "year": 2022,
+      "author": "Jean de La Fontaine",
+      "work": "Le Lion et le Moucheron",
+      "source": "https://www.education.gouv.fr/sites/default/files/document/Dipl%C3%B4me%20national%20du%20brevet%202022%20-%20Fran%C3%A7ais%20%3A%20Grammaire%20et%20comp%C3%A9tences%20linguistiques%20-%20Compr%C3%A9hension%20et%20comp%C3%A9tences%20d%26%23039%3Binterpr%C3%A9tation%20-%20S%C3%A9rie%20g%C3%A9n%C3%A9rale-327336.pdf",
+      "code": "22GENFRQGCME1",
+      "sourcePages": "Texte : pages 2–3 ; questions : page 4 ; réécriture : page 5.",
+      "annale": "brevet-2022-metropole-general-la-fontaine-lion-moucheron",
+      "step": "q11",
+      "question": "Réécrivez le passage suivant en remplaçant « Le malheureux Lion » par « Les malheureux Lions ».",
+      "choices": [
+        [
+          "Changez les verbes et les mots qui reprennent les Lions ; « fureur » reste au singulier.",
+          "Solide",
+          "Le nombre des animaux change, mais chaque mot garde son propre donneur d’accord."
+        ],
+        [
+          "Mettez tous les mots au pluriel : les animaux, leurs actions, les parties du corps et les sentiments.",
+          "À revoir",
+          "La consigne ne demande pas de pluraliser tous les noms du passage."
+        ],
+        [
+          "Changez les verbes à la troisième personne du pluriel et gardez les autres groupes sans modification.",
+          "Défendable",
+          "Les verbes doivent changer, mais les pronoms et déterminants liés aux Lions changent aussi."
+        ]
+      ],
+      "stages": [
+        [
+          "Relevez les verbes dont les Lions deviennent le sujet.",
+          "Le dernier sujet est-il encore les Lions ?",
+          "se déchirent, Font, Battent ont les Lions pour sujet ; fatigue et abat gardent « leur fureur extrême » pour sujet."
+        ],
+        [
+          "Listez les pronoms et déterminants qui dépendent des Lions.",
+          "Le nombre du possesseur change ; celui du nom possédé peut rester le même.",
+          "lui-même devient eux-mêmes ; sa queue devient leur queue ; ses flancs devient leurs flancs ; Le devient Les."
+        ],
+        [
+          "Expliquez en une phrase pourquoi « fatigue » ne prend pas le pluriel.",
+          "Demandez-vous qui fatigue les Lions.",
+          "C’est « leur fureur extrême », sujet singulier, qui les fatigue et les abat."
+        ]
+      ],
+      "model": [
+        [
+          "Les malheureux Lions se déchirent eux-mêmes,\nFont résonner leur queue à l’entour de leurs flancs,\nBattent l’air […] ; et leur fureur extrême\nLes fatigue, les abat",
+          "Les trois premiers verbes s’accordent avec les Lions ; les deux derniers avec « fureur ». Les mots sans lien avec le changement sont conservés."
+        ]
+      ],
+      "criteria": [
+        "Vous recopiez le passage entier, en conservant la coupure signalée.",
+        "Vous changez les pronoms, déterminants et verbes liés aux Lions.",
+        "Vous gardez « fureur », « fatigue » et « abat » au singulier."
+      ]
+    },
+    {
+      "id": "2023-q10",
+      "year": 2023,
+      "author": "George Sand",
+      "work": "Histoire de ma vie",
+      "source": "https://www.education.gouv.fr/sites/default/files/document/Dipl%C3%B4me%20national%20du%20brevet%202023%20-%20Fran%C3%A7ais%20-%20Grammaire%20et%20comp%C3%A9tences%20linguistiques%20-%20Compr%C3%A9hension%20et%20comp%C3%A9tences%20d%26%23039%3Binterpr%C3%A9tation-365133.pdf",
+      "code": "23GENFRQGCME1",
+      "sourcePages": "Texte : pages 2–3 ; questions : page 5 ; réécriture : page 6.",
+      "annale": "brevet-2023-metropole-general-george-sand-histoire-de-ma-vie",
+      "step": "q10",
+      "question": "Réécrivez le passage suivant en remplaçant « Hippolyte » par « ils ». Le groupe nominal « le rôle du maladroit ou de l’homme ivre » ne doit pas être modifié.",
+      "choices": [
+        [
+          "Changez les mots liés à Hippolyte, mais gardez « nous » et le groupe que la consigne protège.",
+          "Solide",
+          "Le nouveau sujet n’entraîne pas le changement des autres personnages ni du groupe imposé."
+        ],
+        [
+          "Changez tous les pronoms en « ils » et tous les verbes à la troisième personne du pluriel.",
+          "À revoir",
+          "« nous l’aidions » garde le sujet nous : les autres enfants ne deviennent pas ils."
+        ],
+        [
+          "Changez les verbes liés à Hippolyte, puis relisez les phrases avant de vérifier les participes passés.",
+          "Défendable",
+          "Cette procédure est utile, mais il faut aussi transformer le pronom complément qui le reprend."
+        ]
+      ],
+      "stages": [
+        [
+          "Listez les formes verbales dont « ils » devient le sujet.",
+          "Il y a un plus-que-parfait et trois imparfaits.",
+          "s’étaient déjà noyés, tombaient, faisaient, nageaient."
+        ],
+        [
+          "Réécrivez seulement « nous l’aidions » et expliquez le changement.",
+          "Le sujet nous reste ; la personne aidée devient plurielle.",
+          "nous les aidions : le pronom complément devient pluriel, mais le verbe garde son sujet nous."
+        ],
+        [
+          "Justifiez l’accord de « noyés » et nommez les mots à conserver.",
+          "Le participe s’accorde ici avec le sujet pluriel.",
+          "« noyés » s’accorde avec ils ; « le rôle du maladroit ou de l’homme ivre » reste inchangé, comme l’impose la consigne."
+        ]
+      ],
+      "model": [
+        [
+          "Ils s’étaient déjà noyés plusieurs fois, nous les aidions à se retirer des grands trous où ils tombaient toujours, car ils faisaient le rôle du maladroit ou de l’homme ivre, et ils nageaient à sec sur le carreau en se débattant et en se lamentant.",
+          "Le sujet pluriel entraîne les accords ; « nous » et le groupe expressément protégé restent inchangés."
+        ]
+      ],
+      "criteria": [
+        "Vous gardez les deux groupes que la consigne ne demande pas de transformer.",
+        "Vous accordez les verbes et « noyés » avec ils.",
+        "Vous remplacez l’ par les, sans changer aidions."
+      ]
+    }
+  ]
+}

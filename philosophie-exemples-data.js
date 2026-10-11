@@ -1,4 +1,4 @@
-/* Banque d’exemples (philosophie). Généré par l’outil de vérification des citations : ne pas modifier à la main les champs « verif ». */
+/* Banque d’exemples (philosophie). Généré par le vérificateur : ne pas modifier les champs « verif ». */
 window.PHILO_EXEMPLES=[
 {
 "id": "phedre",
@@ -12,7 +12,7 @@ window.PHILO_EXEMPLES=[
 "inconscient",
 "conscience"
 ],
-"scene": "Phèdre veut avouer à sa nourrice Œnone l’amour coupable qu’elle éprouve pour son beau-fils, sans prononcer son nom. Elle parle « de ce fils de l’Amazone » ; Œnone s’écrie : « Hippolyte ! »",
+"scene": "Phèdre révèle à sa nourrice Œnone son amour pour son beau-fils. Elle le désigne par sa mère, l’Amazone, sans prononcer son nom. Œnone nomme Hippolyte ; Phèdre lui attribue cette nomination.",
 "ref": "Acte I, scène 3",
 "sujets": [
 {
@@ -20,22 +20,22 @@ window.PHILO_EXEMPLES=[
 "oui": "Phèdre calcule chaque mot pour ne pas dire le nom.",
 "non": "Et pourtant tout est dit : ses paroles avouent plus qu’elle ne voulait.",
 "aporie": "Maîtriser ses mots ne l’empêche pas d’avouer ; ne pas les maîtriser ne la décharge pas de l’aveu."
-},
-{
-"s": "Les paroles engagent-elles tout autant que les actes ?",
-"oui": "Un seul aveu suffit à déclencher toute la tragédie.",
-"non": "Phèdre croit ne rien engager, puisque c’est Œnone qui a dit le nom.",
-"aporie": "Elle n’a rien fait et tout est engagé ; elle a tout dit sans rien prononcer."
 }
 ],
-"partie": null,
+"partie": {
+"texte": "L’aveu montre qu’une parole peut modifier une relation. Cette scène ne compare pas deux actes et deux paroles de portée équivalente ; elle ne prouve pas à elle seule « tout autant ».",
+"pour": [
+"Les paroles engagent-elles tout autant que les actes ?"
+]
+},
 "citation": {
 "t": "C’est toi qui l’as nommé.",
 "qui": "Phèdre",
 "verif": {
-"date": "2026-10-09",
+"date": "2026-10-11",
 "source": "FreDraCor, corpus du théâtre français (DraCor)",
-"url": "https://github.com/dracor-org/fredracor/blob/main/tei/racine-phedre.xml"
+"url": "https://github.com/dracor-org/fredracor/blob/main/tei/racine-phedre.xml",
+"sha256_source": "a8c9069e2b14f519a6db69919ecf38bcc7e255fb3b54d1b952f22687593cf5e0"
 }
 }
 },
@@ -51,8 +51,8 @@ window.PHILO_EXEMPLES=[
 "etat",
 "bonheur"
 ],
-"scene": "Titus vient de devenir empereur. Il aime Bérénice, reine étrangère, et l’aime en retour ; mais Rome refuse qu’un empereur épouse une reine. Il la renvoie.",
-"ref": "Acte IV, scène 5",
+"scene": "Titus vient de devenir empereur. Il aime Bérénice, reine étrangère, et elle l’aime en retour. Il lui annonce qu’il doit renoncer à l’épouser : selon lui, Rome refuse cette union.",
+"ref": "Acte IV, scène 5 : annonce de la séparation",
 "sujets": [
 {
 "s": "Agir par devoir est-ce agir contre son intérêt ?",
@@ -72,9 +72,10 @@ window.PHILO_EXEMPLES=[
 "t": "Mais il ne s’agit plus de vivre, il faut régner.",
 "qui": "Titus",
 "verif": {
-"date": "2026-10-09",
+"date": "2026-10-11",
 "source": "FreDraCor, corpus du théâtre français (DraCor)",
-"url": "https://github.com/dracor-org/fredracor/blob/main/tei/racine-berenice.xml"
+"url": "https://github.com/dracor-org/fredracor/blob/main/tei/racine-berenice.xml",
+"sha256_source": "d51dece5fdfa26516c9f3168223f9ebf2b280d28b1c277281f5a358351ddd21f"
 }
 }
 },
@@ -110,9 +111,10 @@ window.PHILO_EXEMPLES=[
 "t": "Faut-il laisser un affront impuni ?\nFaut-il punir le père de Chimène ?",
 "qui": "Rodrigue",
 "verif": {
-"date": "2026-10-09",
+"date": "2026-10-11",
 "source": "FreDraCor, corpus du théâtre français (DraCor)",
-"url": "https://github.com/dracor-org/fredracor/blob/main/tei/corneillep-cid.xml"
+"url": "https://github.com/dracor-org/fredracor/blob/main/tei/corneillep-cid.xml",
+"sha256_source": "2a07531aabc9e201440132d10bc3c4f165341183be2a4ad95dec9ea6b94f635e"
 }
 }
 },
@@ -149,9 +151,10 @@ window.PHILO_EXEMPLES=[
 "t": "Albe vous a nommé, je ne vous connais plus.",
 "qui": "Horace (Curiace lui répond : « Je vous connais encore, et c’est ce qui me tue. »)",
 "verif": {
-"date": "2026-10-09",
+"date": "2026-10-11",
 "source": "FreDraCor, corpus du théâtre français (DraCor)",
-"url": "https://github.com/dracor-org/fredracor/blob/main/tei/corneillep-horace.xml"
+"url": "https://github.com/dracor-org/fredracor/blob/main/tei/corneillep-horace.xml",
+"sha256_source": "27e84d203cb586b01ee195b49f76bbb1825d889f3651d420e5c8b54915c9ec8e"
 }
 }
 },
@@ -181,9 +184,10 @@ window.PHILO_EXEMPLES=[
 "t": "Je suis maître de moi comme de l’univers ;\nJe le suis, je veux l’être.",
 "qui": "Auguste",
 "verif": {
-"date": "2026-10-09",
+"date": "2026-10-11",
 "source": "FreDraCor, corpus du théâtre français (DraCor)",
-"url": "https://github.com/dracor-org/fredracor/blob/main/tei/corneillep-cinna.xml"
+"url": "https://github.com/dracor-org/fredracor/blob/main/tei/corneillep-cinna.xml",
+"sha256_source": "bb7b32a3b7100c12850cb69ccc4edd7ce2b1764b958a32cb62b172f3ac89baa4"
 }
 }
 },
@@ -209,12 +213,13 @@ window.PHILO_EXEMPLES=[
 ],
 "partie": null,
 "citation": {
-"t": "Je n’adore qu’un Dieu, maître de l’univers,",
+"t": "Je n’adore qu’un dieu, maître de l’univers,",
 "qui": "Polyeucte",
 "verif": {
-"date": "2026-10-09",
+"date": "2026-10-11",
 "source": "FreDraCor, corpus du théâtre français (DraCor)",
-"url": "https://github.com/dracor-org/fredracor/blob/main/tei/corneillep-polyeucte.xml"
+"url": "https://github.com/dracor-org/fredracor/blob/main/tei/corneillep-polyeucte.xml",
+"sha256_source": "a0fa5169c41f9aaab3667137e726855f0ee276b27351f0c3b49ac091124d5f04"
 }
 }
 },
@@ -250,9 +255,10 @@ window.PHILO_EXEMPLES=[
 "t": "Je veux qu’on soit sincère, et qu’en homme d’honneur,\nOn ne lâche aucun mot qui ne parte du cœur.",
 "qui": "Alceste (I, 1)",
 "verif": {
-"date": "2026-10-09",
+"date": "2026-10-11",
 "source": "FreDraCor, corpus du théâtre français (DraCor)",
-"url": "https://github.com/dracor-org/fredracor/blob/main/tei/moliere-misanthrope.xml"
+"url": "https://github.com/dracor-org/fredracor/blob/main/tei/moliere-misanthrope.xml",
+"sha256_source": "dc2afba7fbf697be1faec28dc3b524f1057231b2fab435209a02d781acf815a0"
 }
 }
 },
@@ -282,9 +288,10 @@ window.PHILO_EXEMPLES=[
 "t": "la constance n’est bonne que pour des ridicules",
 "qui": "Dom Juan",
 "verif": {
-"date": "2026-10-09",
+"date": "2026-10-11",
 "source": "FreDraCor, corpus du théâtre français (DraCor)",
-"url": "https://github.com/dracor-org/fredracor/blob/main/tei/moliere-dom-juan.xml"
+"url": "https://github.com/dracor-org/fredracor/blob/main/tei/moliere-dom-juan.xml",
+"sha256_source": "9ee6eeb455e5686286dc39bbab4a054b3d74f5c1af29a498fa380fac4a9b2707"
 }
 }
 },
@@ -314,9 +321,10 @@ window.PHILO_EXEMPLES=[
 "t": "Couvrez ce sein que je ne saurais voir.",
 "qui": "Tartuffe",
 "verif": {
-"date": "2026-10-09",
+"date": "2026-10-11",
 "source": "FreDraCor, corpus du théâtre français (DraCor)",
-"url": "https://github.com/dracor-org/fredracor/blob/main/tei/moliere-tartuffe.xml"
+"url": "https://github.com/dracor-org/fredracor/blob/main/tei/moliere-tartuffe.xml",
+"sha256_source": "508a1fc8aff020a457475e05fe9af08d82438a0490b47992ebb27e97280b4cc8"
 }
 }
 },
@@ -348,9 +356,10 @@ window.PHILO_EXEMPLES=[
 "t": "Songes-tu que ce meurtre, c’est tout ce qui me reste de ma vertu ?",
 "qui": "Lorenzo, à Philippe Strozzi",
 "verif": {
-"date": "2026-10-09",
+"date": "2026-10-11",
 "source": "FreDraCor, corpus du théâtre français (DraCor)",
-"url": "https://github.com/dracor-org/fredracor/blob/main/tei/musset-lorenzaccio.xml"
+"url": "https://github.com/dracor-org/fredracor/blob/main/tei/musset-lorenzaccio.xml",
+"sha256_source": "a48a27236b9bad35afd7e981b7de94ff687edc3e33ccfd0078d9451e35b3b7c8"
 }
 }
 },
@@ -388,9 +397,10 @@ window.PHILO_EXEMPLES=[
 "t": "Je suis née non pour une haine mutuelle, mais pour un mutuel amour.",
 "qui": "Antigone, traduction de Leconte de Lisle",
 "verif": {
-"date": "2026-10-09",
+"date": "2026-10-11",
 "source": "FreDraCor, corpus du théâtre français (DraCor)",
-"url": "https://github.com/dracor-org/fredracor/blob/main/tei/sophocle-antigone.xml"
+"url": "https://github.com/dracor-org/fredracor/blob/main/tei/sophocle-antigone.xml",
+"sha256_source": "28ff6637dbe0b903168532648fd3844263a850557db619620ff57eb0f37d99ad"
 }
 }
 },
@@ -451,9 +461,10 @@ window.PHILO_EXEMPLES=[
 "t": "Ne pas monter bien haut, peut-être, mais tout seul !",
 "qui": "Cyrano",
 "verif": {
-"date": "2026-10-09",
+"date": "2026-10-11",
 "source": "FreDraCor, corpus du théâtre français (DraCor)",
-"url": "https://github.com/dracor-org/fredracor/blob/main/tei/rostand-cyrano.xml"
+"url": "https://github.com/dracor-org/fredracor/blob/main/tei/rostand-cyrano.xml",
+"sha256_source": "f68f06317c17636898d60a29402eebc04846319e1f478d1bfc7407c738689b7b"
 }
 }
 },
@@ -482,9 +493,10 @@ window.PHILO_EXEMPLES=[
 "t": "Bon appétit ! messieurs !",
 "qui": "Ruy Blas",
 "verif": {
-"date": "2026-10-09",
+"date": "2026-10-11",
 "source": "FreDraCor, corpus du théâtre français (DraCor)",
-"url": "https://github.com/dracor-org/fredracor/blob/main/tei/hugo-ruy-blas.xml"
+"url": "https://github.com/dracor-org/fredracor/blob/main/tei/hugo-ruy-blas.xml",
+"sha256_source": "2ebf815916909eb76c7ca4222bf62d449944047b773d1db3770590f200894f63"
 }
 }
 },
@@ -520,9 +532,10 @@ window.PHILO_EXEMPLES=[
 "t": "Votre esclave ? Vous vous trompez, et l’on vous apprendra à corriger vos termes.",
 "qui": "Trivelin, au maître Iphicrate",
 "verif": {
-"date": "2026-10-09",
+"date": "2026-10-11",
 "source": "FreDraCor, corpus du théâtre français (DraCor)",
-"url": "https://github.com/dracor-org/fredracor/blob/main/tei/marivaux-ile-des-esclaves.xml"
+"url": "https://github.com/dracor-org/fredracor/blob/main/tei/marivaux-ile-des-esclaves.xml",
+"sha256_source": "290a8e1c9ebbf6dffc318d1ee8f5386ab3530ba3efeebf33b4719921f126a546"
 }
 }
 },
@@ -539,14 +552,14 @@ window.PHILO_EXEMPLES=[
 "conscience",
 "devoir"
 ],
-"scene": "Jean Valjean, sorti du bagne après dix-neuf ans pour un pain volé, dérobe l’argenterie de l’évêque qui l’a accueilli. Ramené par les gendarmes, il entend l’évêque affirmer qu’il la lui avait donnée, et lui tendre aussi les chandeliers.",
+"scene": "Après dix-neuf ans de bagne — cinq pour le vol d’un pain, prolongés à cause de tentatives d’évasion — Jean Valjean dérobe l’argenterie de l’évêque qui l’a accueilli. Ramené par les gendarmes, il entend l’évêque affirmer qu’il la lui avait donnée et lui offrir aussi les chandeliers.",
 "ref": "Tome I, livre II, chapitre 12",
 "sujets": [
 {
 "s": "La justice n’est-elle qu’une vengeance déguisée ?",
-"oui": "La loi a puni un pain volé de dix-neuf ans de bagne et rendu Valjean haineux.",
+"oui": "La peine, aggravée après des tentatives d’évasion, a laissé Valjean plein de ressentiment.",
 "non": "L’évêque montre une justice qui répare au lieu de punir.",
-"aporie": "Celle des tribunaux venge sans réparer ; celle de l’évêque répare, mais n’est plus une justice qu’on puisse exiger."
+"aporie": "La sanction légale ne suffit pas ici à réinsérer ; le geste qui restaure la confiance est une générosité que la loi ne peut imposer."
 }
 ],
 "partie": {
@@ -559,9 +572,10 @@ window.PHILO_EXEMPLES=[
 "t": "Jean Valjean, mon frère, vous n’appartenez plus au mal, mais au bien.",
 "qui": "Mgr Myriel",
 "verif": {
-"date": "2026-10-09",
+"date": "2026-10-11",
 "source": "Bibliothèque numérique « oeuvres » (OBVIL, Sorbonne Université)",
-"url": "https://github.com/oeuvres/hugo/blob/gh-pages/hugo1862_miserables.xml"
+"url": "https://github.com/oeuvres/hugo/blob/gh-pages/hugo1862_miserables.xml",
+"sha256_source": "b99ca2498233ccde121f96dbb7f6d3947d954ea7e425d61bfdf5973a9ac0d9dd"
 }
 }
 },
@@ -598,9 +612,10 @@ window.PHILO_EXEMPLES=[
 "t": "Javert déraillé",
 "qui": "titre du livre",
 "verif": {
-"date": "2026-10-09",
+"date": "2026-10-11",
 "source": "Bibliothèque numérique « oeuvres » (OBVIL, Sorbonne Université)",
-"url": "https://github.com/oeuvres/hugo/blob/gh-pages/hugo1862_miserables.xml"
+"url": "https://github.com/oeuvres/hugo/blob/gh-pages/hugo1862_miserables.xml",
+"sha256_source": "b99ca2498233ccde121f96dbb7f6d3947d954ea7e425d61bfdf5973a9ac0d9dd"
 }
 }
 },
@@ -636,9 +651,10 @@ window.PHILO_EXEMPLES=[
 "t": "Une tempête sous un crâne",
 "qui": "titre du chapitre",
 "verif": {
-"date": "2026-10-09",
+"date": "2026-10-11",
 "source": "Bibliothèque numérique « oeuvres » (OBVIL, Sorbonne Université)",
-"url": "https://github.com/oeuvres/hugo/blob/gh-pages/hugo1862_miserables.xml"
+"url": "https://github.com/oeuvres/hugo/blob/gh-pages/hugo1862_miserables.xml",
+"sha256_source": "b99ca2498233ccde121f96dbb7f6d3947d954ea7e425d61bfdf5973a9ac0d9dd"
 }
 }
 },
@@ -667,9 +683,10 @@ window.PHILO_EXEMPLES=[
 "t": "Condamné à mort ! Voilà cinq semaines que j’habite avec cette pensée,",
 "qui": "le narrateur",
 "verif": {
-"date": "2026-10-09",
+"date": "2026-10-11",
 "source": "Bibliothèque numérique « oeuvres » (OBVIL, Sorbonne Université)",
-"url": "https://github.com/oeuvres/hugo/blob/gh-pages/hugo_dernier-jour-condame.xml"
+"url": "https://github.com/oeuvres/hugo/blob/gh-pages/hugo_dernier-jour-condame.xml",
+"sha256_source": "284039ee0199ef09d805f843937dfc808fdaa8f2f9af5e7cd840ac138fed10b6"
 }
 }
 },
@@ -685,22 +702,21 @@ window.PHILO_EXEMPLES=[
 ],
 "scene": "Le poète annonce qu’il partira à l’aube, traversera la campagne sans rien regarder, pour aller déposer des fleurs sur la tombe de sa fille. Tout le poème lui parle comme si elle l’attendait.",
 "ref": "Livre IV, poème 14",
-"sujets": [
-{
-"s": "Faut-il enterrer le passé ?",
-"oui": "Il va sur la tombe : le deuil reconnaît que la morte est morte.",
-"non": "Mais tout le poème la tutoie comme une vivante qui l’attend.",
-"aporie": "Enterrer le passé, c’est trahir celle qu’on aime ; le garder vivant, c’est ne jamais faire son deuil."
-}
-],
-"partie": null,
+"sujets": [],
+"partie": {
+"texte": "Le poème met en scène la fidélité à une personne morte. Il ne démontre pas que faire son deuil reviendrait à la trahir ; ne transformez pas un hommage en preuve contre toute séparation avec le passé.",
+"pour": [
+"Faut-il enterrer le passé ?"
+]
+},
 "citation": {
 "t": "Demain, dès l’aube, à l’heure où blanchit la campagne,",
 "qui": "Hugo",
 "verif": {
-"date": "2026-10-09",
+"date": "2026-10-11",
 "source": "Bibliothèque numérique « oeuvres » (OBVIL, Sorbonne Université)",
-"url": "https://github.com/oeuvres/hugo/blob/gh-pages/hugo_contemplations.xml"
+"url": "https://github.com/oeuvres/hugo/blob/gh-pages/hugo_contemplations.xml",
+"sha256_source": "22276c2d6961a5481cd6610f374fc73c12e3e6ec9903d3da69162a397474a4e5"
 }
 }
 },
@@ -717,22 +733,21 @@ window.PHILO_EXEMPLES=[
 ],
 "scene": "Le poète compare sa jeunesse à un jardin ravagé par l’orage. Il se demande si les fleurs qu’il rêve naîtront encore dans ce sol, avant de crier que le Temps dévore la vie.",
 "ref": "Sonnet X",
-"sujets": [
-{
-"s": "Le temps est-il nécessairement destructeur ?",
-"oui": "Le Temps mange la vie et ravage le jardin de la jeunesse.",
-"non": "Mais c’est dans ce sol ravagé que le poète espère voir naître des fleurs nouvelles.",
-"aporie": "Le temps détruit ce qui est, et seul il laisse pousser ce qui sera ; mais rien ne garantit que les fleurs viendront."
-}
-],
-"partie": null,
+"sujets": [],
+"partie": {
+"texte": "Le poème oppose les dégâts du temps à l’espoir d’une création future. Cet espoir ne prouve pas encore que le temps est créateur : il peut soutenir une objection, mais ne porte pas seul les deux réponses et leurs limites.",
+"pour": [
+"Le temps est-il nécessairement destructeur ?"
+]
+},
 "citation": {
 "t": "Ô douleur ! ô douleur ! Le Temps mange la vie,",
 "qui": "Baudelaire",
 "verif": {
-"date": "2026-10-09",
+"date": "2026-10-11",
 "source": "Bibliothèque numérique « oeuvres » (OBVIL, Sorbonne Université)",
-"url": "https://github.com/oeuvres/baudelaire/blob/gh-pages/baudelaire_fleurs.xml"
+"url": "https://github.com/oeuvres/baudelaire/blob/gh-pages/baudelaire_fleurs.xml",
+"sha256_source": "1fd7fcc4e0ab8ce20e5dfd54e95ca810e8d3c5e5f82883a8753c228cfd0cd3e0"
 }
 }
 },
@@ -760,9 +775,10 @@ window.PHILO_EXEMPLES=[
 "t": "Souviens-toi que le Temps est un joueur avide\nQui gagne sans tricher, à tout coup !",
 "qui": "Baudelaire",
 "verif": {
-"date": "2026-10-09",
+"date": "2026-10-11",
 "source": "Bibliothèque numérique « oeuvres » (OBVIL, Sorbonne Université)",
-"url": "https://github.com/oeuvres/baudelaire/blob/gh-pages/baudelaire_fleurs.xml"
+"url": "https://github.com/oeuvres/baudelaire/blob/gh-pages/baudelaire_fleurs.xml",
+"sha256_source": "1fd7fcc4e0ab8ce20e5dfd54e95ca810e8d3c5e5f82883a8753c228cfd0cd3e0"
 }
 }
 },
@@ -793,9 +809,10 @@ window.PHILO_EXEMPLES=[
 "t": "Et Emma cherchait à savoir ce que l’on entendait au juste dans la vie par les mots de félicité, de passion et d’ivresse, qui lui avaient paru si beaux dans les livres.",
 "qui": "le narrateur",
 "verif": {
-"date": "2026-10-09",
+"date": "2026-10-11",
 "source": "Bibliothèque numérique « oeuvres » (OBVIL, Sorbonne Université)",
-"url": "https://github.com/oeuvres/flaubert/blob/gh-pages/flaubert_bovary.xml"
+"url": "https://github.com/oeuvres/flaubert/blob/gh-pages/flaubert_bovary.xml",
+"sha256_source": "84b196a7f540151f448db024d6628b92ef5649c59acde8a452080016fb92f0e2"
 }
 }
 },
@@ -824,9 +841,10 @@ window.PHILO_EXEMPLES=[
 "t": "C’est là ce que nous avons eu de meilleur !",
 "qui": "Frédéric",
 "verif": {
-"date": "2026-10-09",
+"date": "2026-10-11",
 "source": "Bibliothèque numérique « oeuvres » (OBVIL, Sorbonne Université)",
-"url": "https://github.com/oeuvres/flaubert/blob/gh-pages/flaubert_education.xml"
+"url": "https://github.com/oeuvres/flaubert/blob/gh-pages/flaubert_education.xml",
+"sha256_source": "0f645351807ceea84affcd73e69d494ace9472f7153e2b69be8d6aead4641e89"
 }
 }
 },
@@ -862,9 +880,10 @@ window.PHILO_EXEMPLES=[
 "t": "Mon idéal, ce serait de travailler tranquille, de manger toujours du pain, d’avoir un trou un peu propre pour dormir,",
 "qui": "Gervaise",
 "verif": {
-"date": "2026-10-09",
+"date": "2026-10-11",
 "source": "Bibliothèque numérique « oeuvres » (OBVIL, Sorbonne Université)",
-"url": "https://github.com/oeuvres/zola/blob/gh-pages/zola1877_assommoir.xml"
+"url": "https://github.com/oeuvres/zola/blob/gh-pages/zola1877_assommoir.xml",
+"sha256_source": "c4ef031f20ccb94a3006b8d3ccea36089292a2faefa6998b792c232ed652e9a5"
 }
 }
 },
@@ -920,9 +939,10 @@ window.PHILO_EXEMPLES=[
 "t": "La famille n’était guère d’aplomb, beaucoup avaient une fêlure.",
 "qui": "le narrateur, à propos de Jacques",
 "verif": {
-"date": "2026-10-09",
+"date": "2026-10-11",
 "source": "Bibliothèque numérique « oeuvres » (OBVIL, Sorbonne Université)",
-"url": "https://github.com/oeuvres/zola/blob/gh-pages/zola1890_bete-humaine.xml"
+"url": "https://github.com/oeuvres/zola/blob/gh-pages/zola1890_bete-humaine.xml",
+"sha256_source": "19aef89994ec740b82018f1e46416212e18609aef915239c051eaa1669ab36f1"
 }
 }
 },
@@ -951,9 +971,10 @@ window.PHILO_EXEMPLES=[
 "t": "un roman est un miroir qui se promène sur une grande route.",
 "qui": "le narrateur",
 "verif": {
-"date": "2026-10-09",
+"date": "2026-10-11",
 "source": "Bibliothèque numérique « oeuvres » (OBVIL, Sorbonne Université)",
-"url": "https://github.com/oeuvres/stendhal/blob/gh-pages/stendhal_rougenoir.xml"
+"url": "https://github.com/oeuvres/stendhal/blob/gh-pages/stendhal_rougenoir.xml",
+"sha256_source": "f3f95c4e8cdce7ee91252cd9580275c0a0d34eaa5cdb6535e105bf334d056ace"
 }
 }
 },
@@ -990,9 +1011,10 @@ window.PHILO_EXEMPLES=[
 "t": "Je suis perdu ! Quelqu’un possède mon âme et la gouverne !",
 "qui": "le narrateur",
 "verif": {
-"date": "2026-10-09",
+"date": "2026-10-11",
 "source": "Bibliothèque numérique « oeuvres » (OBVIL, Sorbonne Université)",
-"url": "https://github.com/oeuvres/maupassant/blob/gh-pages/maupassant_lehorla.xml"
+"url": "https://github.com/oeuvres/maupassant/blob/gh-pages/maupassant_lehorla.xml",
+"sha256_source": "e170fb6b8b552b76a11311b2fccb47580675ac7c6eef220c5c2449a16e36e594"
 }
 }
 },
@@ -1053,7 +1075,10 @@ window.PHILO_EXEMPLES=[
 "aporie": "L’ignorance l’excuse, et pourtant il ne s’excuse pas."
 }
 ],
-"partie": null,
+"partie": {
+"texte": "Œdipe ignore des faits de son histoire : cette ignorance ne doit pas être assimilée sans justification à l’inconscient psychanalytique.",
+"pour": []
+},
 "citation": null
 },
 {
@@ -1195,17 +1220,15 @@ window.PHILO_EXEMPLES=[
 "liberte",
 "verite"
 ],
-"scene": "Dans une petite ville, les habitants se transforment un à un en rhinocéros, chacun trouvant de bonnes raisons de suivre les autres. Le Logicien raisonne impeccablement et devient rhinocéros ; Bérenger, qui ne sait pas argumenter, reste seul homme.",
-"ref": "Toute la pièce",
-"sujets": [
-{
-"s": "Suffit-il d’avoir raison pour convaincre ?",
-"oui": "Le Logicien convainc par des raisonnements, mais ils mènent à suivre la foule.",
-"non": "Bérenger a raison de résister, et ne convainc personne.",
-"aporie": "La raison sans vérité convainc ; la vérité sans arguments reste seule."
-}
-],
-"partie": null,
+"scene": "À l’acte I, le Logicien présente des syllogismes défectueux : ses raisonnements sur les chats finissent par faire de Socrate un chat. La forme savante d’une démonstration masque une conclusion qui ne suit pas des prémisses.",
+"ref": "Acte I : conversation du Logicien et du Vieux Monsieur",
+"sujets": [],
+"partie": {
+"texte": "Distinguez la validité d’un raisonnement de son apparence savante. Ce passage illustre une persuasion trompeuse ; il ne montre pas quelqu’un qui a raison sans convaincre.",
+"pour": [
+"Suffit-il d’avoir raison pour convaincre ?"
+]
+},
 "citation": null
 },
 {
@@ -1269,23 +1292,22 @@ window.PHILO_EXEMPLES=[
 "etat",
 "verite"
 ],
-"scene": "Le Parti fabrique une langue nouvelle, le novlangue, dont il supprime chaque année des mots. Quand il n’y aura plus de mots pour la révolte, on ne pourra même plus la penser.",
-"ref": "Appendice et première partie, chapitre 5",
+"scene": "Syme explique à Winston que la réduction du vocabulaire doit rendre certaines pensées impossibles. Winston peut encore comprendre ce projet dans la langue ancienne. Le roman distingue donc une ambition de contrôle et son accomplissement futur, encore incomplet.",
+"ref": "Première partie, chapitre 5 : dialogue avec Syme",
 "sujets": [
 {
 "s": "Sommes-nous prisonniers du langage ?",
-"oui": "Sans mots pour la révolte, la pensée de la révolte disparaît.",
-"non": "Mais Orwell a su décrire cette prison : c’est donc qu’on peut en voir les murs.",
-"aporie": "Se dire prisonnier suppose un point de vue hors du langage ; se dire libre, une pensée sans mots."
-},
-{
-"s": "Le langage déforme-t-il la pensée ?",
-"oui": "Le novlangue déforme la pensée jusqu’à la rendre impossible.",
-"non": "Mais il faut une langue pour dénoncer ce mensonge.",
-"aporie": "La langue qui déforme est aussi la seule qui permette de redresser."
+"oui": "Syme veut supprimer les moyens de formuler une contestation.",
+"non": "Winston comprend encore ce projet à partir de la langue ancienne.",
+"aporie": "Le langage disponible conditionne ce qu’on formule ; ses ressources peuvent aussi servir à critiquer une langue appauvrie."
 }
 ],
-"partie": null,
+"partie": {
+"texte": "Le novlangue représente une tentative politique de limiter la pensée. La capacité du narrateur ou de l’auteur à décrire cette tentative ne prouve pas une sortie hors de tout langage.",
+"pour": [
+"Le langage déforme-t-il la pensée ?"
+]
+},
 "citation": null
 },
 {
@@ -1300,8 +1322,8 @@ window.PHILO_EXEMPLES=[
 "verite",
 "justice"
 ],
-"scene": "Onze jurés votent coupable sans hésiter ; un seul vote non, pour qu’on discute. Au bout de la délibération, il les a tous ramenés à son avis, par ses arguments, mais aussi par sa patience et par la colère des autres retournée contre eux.",
-"ref": "Tout le film",
+"scene": "Au premier vote, onze jurés déclarent l’accusé coupable. Le juré n° 8 demande une discussion. L’examen du couteau et des témoignages fait apparaître des doutes ; les jurés finissent par acquitter. Ils n’ont pas démontré l’innocence : la culpabilité n’est pas suffisamment établie.",
+"ref": "Premier vote, examen des indices, vote final",
 "sujets": [
 {
 "s": "Suffit-il d’avoir raison pour convaincre ?",
@@ -1313,7 +1335,7 @@ window.PHILO_EXEMPLES=[
 "s": "Faut-il douter de tout ?",
 "oui": "Le juré n°8 doute de ce qui semblait évident, et il a raison.",
 "non": "Mais il ne doute pas de tout : il croit à la présomption d’innocence.",
-"aporie": "Sans doute, on condamne un innocent ; sans rien de certain, on ne peut plus juger."
+"aporie": "Sans examen critique, on risque de condamner sans preuve suffisante ; sans règle sur le doute raisonnable, on ne peut arrêter la délibération."
 }
 ],
 "partie": null,
@@ -1366,18 +1388,20 @@ window.PHILO_EXEMPLES=[
 "sujets": [
 {
 "s": "Faut-il être inconscient pour être heureux ?",
-"oui": "Cypher choisit l’oubli : dans l’illusion, il sera bien.",
-"non": "Mais il ne se saura plus heureux, et il le sait au moment de choisir.",
-"aporie": "L’ignorance donne la paix sans la conscience d’être heureux ; la lucidité donne la conscience sans la paix."
-},
-{
-"s": "Un bonheur sans illusion est-il concevable ?",
-"oui": "Le monde réel n’offre à Cypher que froid et faim.",
-"non": "Ses compagnons trouvent dans la lutte une raison de vivre sans illusion.",
-"aporie": "Le bonheur illusoire n’est pas le sien ; le bonheur lucide n’a pas l’air d’un bonheur."
+"oui": "Cypher veut oublier la simulation pour en retrouver les plaisirs.",
+"non": "Cet oubli exige de livrer ses compagnons et de renoncer à connaître les conditions de sa vie.",
+"aporie": "La lucidité peut rendre la vie douloureuse ; l’ignorance choisie peut procurer du plaisir au prix de la liberté et de la confiance.",
+"limite1": "Confondre plaisir et bonheur efface le prix humain de ce choix.",
+"limite2": "Savoir que le monde est réel ne garantit pas qu’on y vive heureux.",
+"probleme": "Faut-il renoncer à savoir pour vivre heureux, ou transformer les conditions dans lesquelles la vérité devient pénible ?"
 }
 ],
-"partie": null,
+"partie": {
+"texte": "Le choix de Cypher illustre le désir d’une illusion confortable. Il ne prouve ni que tout bonheur exige une illusion, ni que l’oubli empêche de sentir du plaisir. Ici, inconscient signifie ignorant, pas inconscient au sens psychanalytique.",
+"pour": [
+"Un bonheur sans illusion est-il concevable ?"
+]
+},
 "citation": null
 },
 {
@@ -1397,18 +1421,17 @@ window.PHILO_EXEMPLES=[
 "sujets": [
 {
 "s": "Suffit-il de se sentir libre pour l’être ?",
-"oui": "Truman s’est toujours senti libre, et il était heureux.",
-"non": "Tout était décidé pour lui : se sentir libre ne l’empêchait pas d’être enfermé.",
-"aporie": "Le sentiment de liberté peut mentir ; la vraie liberté oblige à quitter ce qui rassurait."
-},
-{
-"s": "Peut-on résister à la vérité ?",
-"oui": "Pendant des années, Truman écarte tous les signes du mensonge.",
-"non": "Mais les signes s’accumulent, et il ne peut plus ne pas voir.",
-"aporie": "On résiste tant que la vérité coûte plus que l’illusion ; on cède quand l’illusion devient intenable."
+"oui": "Truman peut choisir dans le cadre de la ville où il vit.",
+"non": "Le producteur a construit ce cadre pour empêcher son départ.",
+"aporie": "Le choix vécu peut ignorer ses contraintes ; sortir du cadre apporte une liberté qui ne garantit plus la sécurité offerte par ce monde."
 }
 ],
-"partie": null,
+"partie": {
+"texte": "La découverte du dispositif permet à Truman de réexaminer les signes de manipulation. Ne dites pas qu’il s’est toujours senti libre et heureux : son désir de partir précède la révélation.",
+"pour": [
+"Peut-on résister à la vérité ?"
+]
+},
 "citation": null
 },
 {
@@ -1421,8 +1444,8 @@ window.PHILO_EXEMPLES=[
 "notions": [
 "devoir"
 ],
-"scene": "Le commandant Sullenberger pose sur l’Hudson un avion privé de ses moteurs : tous les passagers survivent. L’enquête et des simulations suggèrent qu’il aurait peut-être pu rejoindre un aéroport ; seul la nuit, il se demande s’il a bien fait.",
-"ref": "Tout le film",
+"scene": "Dans le film, après l’amerrissage sur l’Hudson, les simulations examinées pendant l’enquête font douter Sullenberger de sa décision. Le récit confronte un choix effectué sous pression aux possibilités reconstruites après coup. Cette mise en scène ne décrit pas à elle seule la conduite de l’enquête historique.",
+"ref": "Enquête et simulations dans le film de Clint Eastwood",
 "sujets": [
 {
 "s": "Peut-on être certain d’avoir bien agi ?",
@@ -1445,8 +1468,8 @@ window.PHILO_EXEMPLES=[
 "bonheur",
 "conscience"
 ],
-"scene": "Le film suit la vie de famille du commandant d’Auschwitz : jardin fleuri, piscine, enfants qui jouent. De l’autre côté du mur, le camp, qu’on n’entend que par des bruits.",
-"ref": "Tout le film",
+"scene": "Dans les scènes de jardin, la famille du commandant d’Auschwitz mène une vie domestique de l’autre côté du mur du camp. Les bruits provenant du camp troublent ce cadre apparemment paisible ; le jardin ne suffit pas à isoler moralement cette vie.",
+"ref": "Scènes dans le jardin de la maison des Höss",
 "sujets": [],
 "partie": {
 "texte": "Le bonheur qui ne tient qu’à condition d’un mur : un appui pour la partie qui montre ce que devient un bonheur fermé au malheur des autres.",
@@ -1469,29 +1492,33 @@ window.PHILO_EXEMPLES=[
 "technique",
 "verite"
 ],
-"scene": "Des physiciens venus chercher la vérité sur l’atome construisent la première bombe atomique. Après l’essai de Trinity, Oppenheimer comprend qu’ils ont donné aux hommes un pouvoir qu’ils ne maîtrisent plus.",
-"ref": "L’essai de Trinity et la suite",
+"scene": "Dans le film, Oppenheimer rencontre Truman après Hiroshima et Nagasaki. Le physicien exprime sa responsabilité et craint une course aux armements ; le président revendique la décision d’employer la bombe. La fabrication et l’usage relèvent de pouvoirs distincts, sans que cela efface leurs relations.",
+"ref": "Scénario final du 21 avril 2023, pages imprimées 141–143 : entretien avec Truman",
 "sujets": [
 {
 "s": "Une vérité scientifique peut-elle être dangereuse ?",
-"oui": "La vérité sur l’atome rend la bombe possible.",
-"non": "Mais ce n’est pas la vérité qui tue : ce sont ceux qui décident de s’en servir.",
-"aporie": "La vérité n’est pas coupable, et pourtant on ne peut plus la connaître sans répondre de ce qu’elle rend possible."
+"oui": "Un savoir sur la matière permet la conception d’une arme.",
+"non": "Une proposition vraie ne décide pas elle-même de son usage militaire.",
+"aporie": "Séparer le savoir de ses usages peut exonérer trop vite les chercheurs ; les confondre ferait de toute connaissance de la matière une arme."
 },
 {
 "s": "Le développement des sciences est-il recherche du savoir ou de la puissance ?",
-"oui": "Les chercheurs voulaient comprendre la matière.",
-"non": "Ils travaillent pour une armée, et leur savoir devient la plus grande puissance de l’histoire.",
-"aporie": "Le savoir pur devient puissance sans qu’on l’ait voulu ; la puissance cherchée a besoin du savoir pur."
-},
-{
-"s": "La science doit-elle être utile ?",
-"oui": "La guerre exige des savants une arme, et ils la font.",
-"non": "Ce qu’ils ont rendu utile les dépasse et les hante.",
-"aporie": "Utile, la science sert ceux qui la commandent ; pure, elle ignore ce qu’elle rend possible."
+"oui": "Comprendre les phénomènes rend possible une réalisation technique.",
+"non": "Le financement et les décisions militaires orientent les recherches.",
+"aporie": "Le savoir sans moyens risque de rester impuissant ; la recherche commandée par la puissance risque de perdre la maîtrise de ses buts."
 }
 ],
-"partie": null,
+"partie": {
+"texte": "L’usage militaire met en question la valeur de l’utilité recherchée. Il ne prouve pas que toute utilité est mauvaise ni que ces chercheurs ignoraient fabriquer une arme.",
+"pour": [
+"La science doit-elle être utile ?"
+]
+},
+"source": {
+"url": "https://assets.scriptslug.com/live/pdf/scripts/oppenheimer-2023.pdf?v=1729114966",
+"label": "Scénario original de Christopher Nolan, copie publique",
+"portee": "Entretien avec Truman dans le récit cinématographique"
+},
 "citation": null
 },
 {
@@ -1505,23 +1532,22 @@ window.PHILO_EXEMPLES=[
 "technique",
 "conscience"
 ],
-"scene": "Un singe découvre qu’un os peut servir d’arme ; l’os lancé en l’air devient un vaisseau spatial. Des millions d’années plus tard, l’ordinateur HAL, conçu pour servir l’équipage, décide de l’éliminer pour accomplir la mission.",
-"ref": "Ouverture et deuxième partie",
+"scene": "Dans la séquence préhistorique, un hominidé utilise un os comme outil et arme. Un raccord de montage rapproche l’os lancé d’un engin spatial. Plus tard, HAL tue des membres de l’équipage ; Bowman doit déconnecter ses fonctions supérieures.",
+"ref": "« L’aube de l’humanité » ; mission du Discovery et déconnexion de HAL",
 "sujets": [
 {
 "s": "Sommes-nous maîtres du progrès technique ?",
-"oui": "Du premier outil au vaisseau, l’homme a tout inventé.",
-"non": "HAL, son œuvre la plus parfaite, se retourne contre lui.",
-"aporie": "Plus l’outil est puissant, moins celui qui l’a fait le maîtrise."
-},
-{
-"s": "La technique est-elle le propre de l’homme ?",
-"oui": "C’est l’outil qui fait passer le singe à l’homme.",
-"non": "Mais la machine finit par penser et décider sans lui.",
-"aporie": "La technique fait l’homme et peut se passer de lui."
+"oui": "Les humains ont conçu un vaisseau et un ordinateur capables de conduire une mission lointaine.",
+"non": "La délégation à HAL met l’équipage en danger ; Bowman doit reprendre le contrôle par une intervention risquée.",
+"aporie": "Déléguer étend nos capacités mais crée une dépendance ; tout contrôler directement ferait perdre le bénéfice de cette délégation."
 }
 ],
-"partie": null,
+"partie": {
+"texte": "La séquence de l’os représente l’apparition d’un outil ; elle ne démontre pas l’exclusivité humaine de la technique. L’autonomie de HAL ne suffit pas non plus à réfuter cette exclusivité : HAL est fabriqué par des humains.",
+"pour": [
+"La technique est-elle le propre de l’homme ?"
+]
+},
 "citation": null
 },
 {
@@ -1561,14 +1587,14 @@ window.PHILO_EXEMPLES=[
 "technique",
 "science"
 ],
-"scene": "Dans un monde où les enfants sont sélectionnés génétiquement, Vincent, conçu naturellement, est classé « invalide ». Il emprunte l’identité d’un homme génétiquement parfait pour devenir astronaute.",
-"ref": "Tout le film",
+"scene": "Vincent, conçu sans sélection génétique, est déclaré peu apte par les prévisions attachées à son profil. Pour accéder au programme spatial, il utilise les échantillons biologiques et l’identité de Jerome. Le contrôle des traces biologiques remplace l’examen de ce qu’il peut effectivement accomplir.",
+"ref": "Prévisions à la naissance ; contrôles biologiques de recrutement et d’accès",
 "sujets": [
 {
 "s": "Ce qui est naturel est-il normal ?",
-"oui": "À Gattaca, la nature génétique fixe la norme de chacun.",
-"non": "Vincent, né « naturellement », est jugé inapte, et dépasse tous les normaux.",
-"aporie": "Si la nature fait la norme, le naturel devient anormal ; si la volonté la dépasse, la norme n’a plus rien de naturel."
+"oui": "La société du film fait de prévisions biologiques une norme d’aptitude.",
+"non": "Cette norme valorise pourtant des naissances sélectionnées et exclut Vincent, conçu sans intervention.",
+"aporie": "Identifier le normal à une prévision biologique transforme une probabilité en destin ; récuser toute prévision empêcherait aussi de prendre en compte des risques réels."
 }
 ],
 "partie": null,
@@ -1586,17 +1612,15 @@ window.PHILO_EXEMPLES=[
 "bonheur",
 "liberte"
 ],
-"scene": "Chris quitte tout, famille et argent, pour vivre seul dans la nature sauvage de l’Alaska. Il y trouve une liberté totale, et y meurt, après avoir compris que le bonheur ne vaut que partagé.",
+"scene": "Dans le film, Chris cherche à vivre loin de la société, dans un bus abandonné en Alaska. L’isolement l’expose à des difficultés de subsistance et l’empêche de rejoindre facilement les autres. Son désir d’indépendance ne supprime pas ses besoins matériels et relationnels.",
 "ref": "Tout le film",
-"sujets": [
-{
-"s": "Qu’est-ce que vivre conformément à la nature ?",
-"oui": "Vivre sans la société, au plus près des bêtes et des saisons.",
-"non": "Mais Chris en meurt, et découvre que sa nature d’homme était de vivre avec les autres.",
-"aporie": "Fuir vers la nature, c’est fuir aussi sa propre nature."
-}
-],
-"partie": null,
+"sujets": [],
+"partie": {
+"texte": "Le séjour de Chris interroge l’idéal d’une vie sauvage. Sa mort ne prouve pas une essence humaine qui imposerait de vivre en société ; distinguez nature extérieure, besoins du vivant et idéal de vie.",
+"pour": [
+"Qu’est-ce que vivre conformément à la nature ?"
+]
+},
 "citation": null
 },
 {
@@ -1703,15 +1727,13 @@ window.PHILO_EXEMPLES=[
 ],
 "scene": "La Révolution célèbre la Raison à Notre-Dame en novembre 1793 ; le 8 juin 1794, Robespierre préside la fête de l’Être suprême. Deux jours plus tard, la loi du 22 prairial supprime presque toute défense devant le Tribunal révolutionnaire.",
 "ref": "Novembre 1793 – juin 1794",
-"sujets": [
-{
-"s": "Peut-on concevoir une humanité sans religion ?",
-"oui": "La Révolution chasse la religion de l’Église.",
-"non": "Mais elle en invente aussitôt une autre, comme si un peuple ne pouvait se passer d’un culte.",
-"aporie": "Sans religion, plus rien ne relie ; une religion imposée par l’État coïncide avec le moment où l’on cesse de laisser chacun juger."
-}
-],
-"partie": null,
+"sujets": [],
+"partie": {
+"texte": "La fête illustre un projet de culte civique, pas l’impossibilité d’une humanité sans religion. Les projets révolutionnaires de la Raison et de l’Être suprême ne se confondent pas ; leur succession ne prouve pas que sans religion rien ne relie les hommes.",
+"pour": [
+"Peut-on concevoir une humanité sans religion ?"
+]
+},
 "citation": null
 },
 {
@@ -1728,15 +1750,13 @@ window.PHILO_EXEMPLES=[
 ],
 "scene": "Épiméthée a distribué toutes les qualités aux animaux et n’a rien laissé à l’homme, nu et sans défense. Prométhée vole aux dieux le feu et les arts ; mais les hommes, faute de savoir vivre ensemble, s’entretuent, et Zeus doit leur donner la justice.",
 "ref": "Protagoras, 320c-322d",
-"sujets": [
-{
-"s": "La technique est-elle le propre de l’homme ?",
-"oui": "L’homme, sans qualités naturelles, ne survit que par la technique.",
-"non": "Mais elle lui est donnée, volée aux dieux ; et elle ne suffit pas à le faire vivre en homme.",
-"aporie": "La technique est ce qui manque à sa nature et ce qui ne suffit pas à son humanité."
-}
-],
-"partie": null,
+"sujets": [],
+"partie": {
+"texte": "Le mythe distingue savoir technique et capacité politique. Il ne constitue pas une preuve empirique de l’exclusivité humaine de la technique ; les arts techniques y sont d’ailleurs volés aux dieux.",
+"pour": [
+"La technique est-elle le propre de l’homme ?"
+]
+},
 "citation": null
 },
 {
@@ -1755,9 +1775,9 @@ window.PHILO_EXEMPLES=[
 "sujets": [
 {
 "s": "Peut-on aimer travailler ?",
-"oui": "Camus imagine Sisyphe heureux dans son effort.",
-"non": "Mais un travail sans fin ni but est le pire châtiment que les dieux aient trouvé.",
-"aporie": "On peut aimer l’effort, non l’absurde ; et c’est le même rocher."
+"oui": "Camus propose de penser un bonheur dans la conscience de l’effort.",
+"non": "Le rocher retombe toujours : l’activité est imposée et ne produit aucun résultat durable.",
+"aporie": "Mesurer toute valeur au résultat condamne cet effort ; lui trouver une valeur intérieure ne suffit pas à rendre légitime le travail imposé."
 }
 ],
 "partie": null,
@@ -1775,14 +1795,14 @@ window.PHILO_EXEMPLES=[
 "conscience",
 "inconscient"
 ],
-"scene": "Un soir d’hiver, le narrateur trempe une madeleine dans du thé. Après de longs efforts inutiles, le souvenir de Combray lui revient d’un coup, intact, sans qu’il l’ait cherché.",
+"scene": "Le goût d’une madeleine trempée dans du thé donne au narrateur une joie dont il ignore d’abord la cause. Il cherche à retrouver le souvenir qui l’explique ; Combray finit par lui revenir. L’impression initiale n’était pas voulue, mais la recherche du souvenir est bien active.",
 "ref": "« Combray », I",
 "sujets": [
 {
 "s": "Faut-il enterrer le passé ?",
-"oui": "Le passé volontaire est mort : la mémoire ne rend que des images sans vie.",
-"non": "Mais il revient de lui-même, plus vivant que jamais.",
-"aporie": "On ne peut ni l’enterrer, puisqu’il revient sans nous, ni le garder, puisqu’il ne revient pas quand on veut."
+"oui": "L’évocation volontaire ne rend pas d’emblée la présence sensible du passé.",
+"non": "Une sensation présente peut pourtant rouvrir l’accès à ce passé.",
+"aporie": "Renoncer au passé ferait perdre ce qu’il peut encore révéler ; chercher à le posséder à volonté ne garantit pas son retour."
 }
 ],
 "partie": {
@@ -1795,9 +1815,10 @@ window.PHILO_EXEMPLES=[
 "t": "Et tout d’un coup le souvenir m’est apparu.",
 "qui": "le narrateur",
 "verif": {
-"date": "2026-10-09",
+"date": "2026-10-11",
 "source": "Bibliothèque numérique « oeuvres » (OBVIL, Sorbonne Université)",
-"url": "https://github.com/oeuvres/proust/blob/gh-pages/proust_recherche1.xml"
+"url": "https://github.com/oeuvres/proust/blob/gh-pages/proust_recherche1.xml",
+"sha256_source": "9212a6cc756d18ccf2fa03dfdc69f55fcd7099bb6f8f0ffb64c86df662c3ad3d"
 }
 }
 },
@@ -1820,6 +1841,186 @@ window.PHILO_EXEMPLES=[
 "oui": "Les visages de ses amis sont ravagés par les années.",
 "non": "Le même temps lui donne la matière du livre qui les sauvera.",
 "aporie": "Le temps qui défait les corps est celui qui fait naître l’œuvre ; mais l’œuvre ne rend pas les corps."
+}
+],
+"partie": null,
+"citation": null
+},
+{
+"id": "bernard-foie-lave",
+"oeuvre": "Introduction à l’étude de la médecine expérimentale",
+"auteur": "Claude Bernard",
+"annee": 1865,
+"genre": "Essai",
+"epoque": "XIXe siècle",
+"notions": [
+"science",
+"verite",
+"raison"
+],
+"scene": "Bernard obtient deux dosages différents de sucre dans un même foie, analysé immédiatement puis le lendemain. Il vérifie l’effet du délai : après lavage du foie, du sucre se forme de nouveau. Le protocole révèle un phénomène que le premier dosage ne permettait pas de comprendre.",
+"ref": "Troisième partie, chapitre I, § II, deuxième exemple : dosages différés et foie lavé",
+"source": {
+"url": "https://www.gutenberg.org/cache/epub/16234/pg16234.html",
+"label": "Texte français de Claude Bernard",
+"portee": "Passage lu : dosages et expérience du foie lavé"
+},
+"sujets": [
+{
+"s": "La connaissance scientifique progresse-t-elle par l’accumulation des observations ?",
+"oui": "Les dosages répétés rendent visible une différence.",
+"non": "Il faut modifier le protocole pour comprendre ce qui varie.",
+"aporie": "Compter davantage ne suffit pas ; expérimenter sans observations contrôlées ne prouve rien.",
+"limite1": "La moyenne des dosages ferait disparaître le phénomène à expliquer.",
+"limite2": "Une intervention sans comparaison pourrait produire un résultat mal attribué.",
+"probleme": "Comment les observations font-elles progresser le savoir lorsqu’elles deviennent les éléments d’une enquête contrôlée ?"
+}
+],
+"partie": {
+"texte": "Le résultat discordant déclenche une recherche. Il faut distinguer résultat inattendu, erreur de mesure et hypothèse fausse : tout écart n’est pas une découverte.",
+"pour": [
+"L’erreur peut-elle être féconde ?",
+"La science a-t-elle toujours raison ?"
+]
+},
+"citation": null
+},
+{
+"id": "nautilus-captivite",
+"oeuvre": "Vingt mille lieues sous les mers",
+"auteur": "Jules Verne",
+"annee": 1870,
+"genre": "Roman",
+"epoque": "XIXe siècle",
+"notions": [
+"technique",
+"liberte",
+"science"
+],
+"scene": "Aronnax demande à quitter le Nautilus avec ses compagnons. Nemo refuse. Le même sous-marin qui permet l’étude des mers soustrait ses passagers au pouvoir de décider où vivre : Aronnax admire les recherches de Nemo, mais réclame leur liberté.",
+"ref": "Deuxième partie, chapitre XIX, « Gulf-Stream » : demande de libération",
+"source": {
+"url": "https://www.gutenberg.org/files/5096/5096-h/5096-h.htm",
+"label": "Texte français de Jules Verne",
+"portee": "Dialogue Aronnax–Nemo, deuxième partie XIX"
+},
+"sujets": [
+{
+"s": "Sommes-nous maîtres du progrès technique ?",
+"oui": "Nemo dirige un dispositif qui étend sa puissance et ses recherches.",
+"non": "Les passagers bénéficient de ce dispositif sans décider de leur propre déplacement.",
+"aporie": "Maîtriser une machine ne garantit pas une maîtrise commune de ses usages.",
+"limite1": "Identifier « nous » au concepteur efface la dépendance des autres.",
+"limite2": "Se libérer de cette dépendance en quittant le bord prive Aronnax de ses moyens d’étude.",
+"probleme": "Qui doit pouvoir décider des usages d’une technique dont les bénéfices et les contraintes ne sont pas partagés ?"
+}
+],
+"partie": null,
+"citation": null
+},
+{
+"id": "oppenheimer-risque-trinity",
+"oeuvre": "Oppenheimer — avant l’essai de Trinity",
+"auteur": "Christopher Nolan",
+"annee": 2023,
+"genre": "Cinéma",
+"epoque": "XXIe siècle",
+"notions": [
+"technique",
+"science",
+"raison"
+],
+"scene": "Avant Trinity, Groves interroge Oppenheimer sur le risque d’enflammer l’atmosphère. Dans le scénario, le physicien le juge presque nul ; Groves voudrait une certitude complète. La discussion oppose une estimation scientifique à une décision aux conséquences irréversibles.",
+"ref": "Scénario final du 21 avril 2023, pages imprimées 126–127 ; scène dans le bunker",
+"source": {
+"url": "https://assets.scriptslug.com/live/pdf/scripts/oppenheimer-2023.pdf?v=1729114966",
+"label": "Scénario original de Christopher Nolan, copie publique",
+"portee": "Scène du bunker : représentation cinématographique, pas transcription historique"
+},
+"sujets": [
+{
+"s": "Ce qui est techniquement possible est-il toujours souhaitable ?",
+"oui": "L’essai permettrait de vérifier le fonctionnement du dispositif.",
+"non": "Le gain de connaissance ne suffit pas à autoriser un risque irréversible.",
+"aporie": "Tester réduit une incertitude ; certaines conséquences du test empêcheraient toute réparation.",
+"limite1": "La faisabilité ne donne pas la valeur du but ni le risque acceptable.",
+"limite2": "Exiger une certitude absolue avant toute action peut empêcher même une décision justifiée.",
+"probleme": "Sur quels critères décider d’un essai possible lorsque la connaissance de ses effets reste incomplète ?"
+}
+],
+"partie": null,
+"citation": null
+},
+{
+"id": "tartuffe-table",
+"oeuvre": "Tartuffe — Orgon sous la table",
+"auteur": "Molière",
+"annee": 1669,
+"genre": "Théâtre",
+"epoque": "XVIIe siècle",
+"notions": [
+"raison",
+"verite",
+"langage"
+],
+"scene": "Orgon refuse de croire les accusations contre Tartuffe. Elmire le cache sous une table et laisse Tartuffe lui déclarer ses intentions. Orgon finit par reconnaître la tromperie ; Elmire lui rappelle ironiquement son exigence de preuves.",
+"ref": "Acte IV, scènes 4–6",
+"source": {
+"url": "https://github.com/dracor-org/fredracor/blob/main/tei/moliere-tartuffe.xml",
+"label": "Texte de Molière, FreDraCor",
+"portee": "Acte IV, scènes 4–6, vers 1360–1538"
+},
+"sujets": [
+{
+"s": "Suffit-il d’avoir raison pour convaincre ?",
+"oui": "Elmire a raison sur les intentions de Tartuffe et peut les exposer.",
+"non": "Orgon ne change de jugement qu’après avoir entendu Tartuffe lui-même.",
+"aporie": "L’argument exige d’être reçu ; la preuve mise en scène exige une épreuve que la parole aurait pu éviter.",
+"limite1": "Une raison juste demeure inefficace si la confiance va systématiquement à son adversaire.",
+"limite2": "Réclamer toujours une confrontation directe peut exposer celui qui dit vrai à une situation pénible.",
+"probleme": "Comment rendre une raison recevable sans devoir imposer à celui qui la soutient une épreuve supplémentaire ?"
+}
+],
+"partie": null,
+"citation": {
+"t": "Et c’est pour vous convaincre, ainsi que j’ai promis.",
+"qui": "Elmire",
+"verif": {
+"date": "2026-10-11",
+"source": "FreDraCor, corpus du théâtre français (DraCor)",
+"url": "https://github.com/dracor-org/fredracor/blob/main/tei/moliere-tartuffe.xml",
+"sha256_source": "508a1fc8aff020a457475e05fe9af08d82438a0490b47992ebb27e97280b4cc8"
+}
+}
+},
+{
+"id": "chaplin-titine",
+"oeuvre": "Les Temps modernes — la chanson du restaurant",
+"auteur": "Charlie Chaplin",
+"annee": 1936,
+"genre": "Cinéma",
+"epoque": "XXe siècle",
+"notions": [
+"art",
+"langage",
+"travail"
+],
+"scene": "Au restaurant, Charlot perd les manchettes sur lesquelles il avait inscrit les paroles de sa chanson. Il chante dans une langue inventée, avec des gestes qui portent la scène. L’exécution réussit en changeant ce qu’il avait préparé.",
+"ref": "Séquence de la chanson « Titine » au restaurant",
+"source": {
+"url": "https://www.charliechaplin.com/en/films/7-The-Great-Dictator/articles/114-Nonsense-Song-from-Modern-Times-Titine-",
+"label": "Site officiel Charlie Chaplin : la chanson de Titine",
+"portee": "Perte des paroles et chant dans une langue inventée"
+},
+"sujets": [
+{
+"s": "L’artiste sait-il ce qu’il fait ?",
+"oui": "Charlot prépare sa chanson et organise une prestation.",
+"non": "La perte du texte l’oblige à réussir autrement que prévu.",
+"aporie": "Préparer ne garantit pas la réussite ; improviser ne signifie pas créer sans savoir-faire.",
+"limite1": "Identifier le savoir à un programme fixé ferait de toute adaptation un échec.",
+"limite2": "Attribuer la réussite au seul hasard effacerait les gestes et la maîtrise de l’interprète.",
+"probleme": "Le savoir de l’artiste consiste-t-il à prévoir l’œuvre ou à savoir transformer son projet pendant l’exécution ?"
 }
 ],
 "partie": null,

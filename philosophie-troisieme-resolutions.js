@@ -11,14 +11,14 @@ const cases=[
  {titre:'Distinguer la recherche et ses applications',gain:'Protège l’enquête libre et demande des comptes sur les usages.',cout:'Les choix de recherche et leur financement ont déjà des conséquences avant toute application.',analyse:'Distinction utile, mais sa frontière n’est pas absolue.'},
  {titre:'Imposer une utilité immédiate à chaque recherche',gain:'Rend l’objectif social immédiatement lisible.',cout:'Sacrifie les découvertes imprévisibles que la première partie a rendues nécessaires.',analyse:'Piste trop coûteuse : elle revient au premier camp sans traiter sa limite.'},
  {titre:'Penser une responsabilité publique sans utilité prédéfinie',gain:'Maintient la liberté des questions tout en exigeant des justifications sur les moyens et les risques.',cout:'Qui peut légitimement fixer les limites d’une recherche dont les bénéfices sont encore inconnus ?',analyse:'Issue défendable si la délibération publique ne se transforme pas en censure de l’inconnu.'}
- ],prefer:2,conclusion:'La science ne doit pas être réduite à une utilité connue d’avance, mais sa liberté ne la dispense pas de répondre publiquement de ses moyens et de ses risques. Reste à savoir qui peut décider des limites d’une recherche dont les découvertes sont, par définition, imprévisibles.'}
+ ],prefer:2,conclusion:'La science n’a pas à être utile immédiatement, mais elle doit répondre de ses moyens, de ses risques et des usages prévisibles dès la recherche. Reste la difficulté de juger ce dont les effets ne sont pas encore connus : comment contrôler les moyens et les risques d’une recherche sans exiger d’elle la prévision de ses découvertes ?'}
 ];
 let index=0,chosen=-1;
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function render(){
  const d=cases[index];
  root.innerHTML='<p><strong>Sujet '+(index+1)+' sur '+cases.length+' :</strong> '+esc(d.sujet)+'</p>'+
- '<p><strong>I.</strong> '+esc(d.i)+'</p><p><strong>II.</strong> '+esc(d.ii)+'</p><p><strong>Le reste commun :</strong> '+esc(d.question)+'</p>'+
+ '<p><strong>I.</strong> '+esc(d.i)+'</p><p><strong>II.</strong> '+esc(d.ii)+'</p><p><strong>La difficulté commune :</strong> '+esc(d.question)+'</p>'+
  '<p><strong>Quelle piste traiteriez-vous en priorité ?</strong> Toutes les pistes ne se valent pas, mais plusieurs peuvent éclairer le problème.</p>'+
  '<div class="chaine-opts">'+d.pistes.map((p,k)=>'<button type="button" class="chaine-opt" data-piste="'+k+'" aria-pressed="'+(chosen===k)+'">'+esc(p.titre)+'</button>').join('')+'</div>'+
  '<div id="resolutions-retour" class="chaine-fb" aria-live="polite"></div>'+
