@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "source": "Analyse croisée sujets de dissertation philosophie + dictionnaire paradoxal",
+  "matrices": [
+    {
+      "id": "condition-cachee",
+      "titre": "La condition cachée",
+      "structure": "Ce qui semble limiter une réalité peut être ce qui la rend possible.",
+      "auteurs": ["Rousseau", "Kant", "Spinoza", "Hegel"]
+    },
+    {
+      "id": "definition-renversee",
+      "titre": "La définition spontanée renversée",
+      "structure": "Ce qu'une notion semble être immédiatement doit être redéfini par une analyse plus profonde.",
+      "auteurs": ["Platon", "Descartes", "Nietzsche"]
+    },
+    {
+      "id": "valeur-limite",
+      "titre": "La valeur qui rencontre sa limite interne",
+      "structure": "Une valeur considérée comme absolue peut entrer en contradiction avec ses propres conditions.",
+      "auteurs": ["Pascal", "Nietzsche", "Platon"]
+    },
+    {
+      "id": "desir",
+      "titre": "Le désir : manque ou puissance",
+      "structure": "Le désir peut être compris comme privation ou comme force productive.",
+      "auteurs": ["Platon", "Epicure", "Spinoza"]
+    }
+  ]
+}
