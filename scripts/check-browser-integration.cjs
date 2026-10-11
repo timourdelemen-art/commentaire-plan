@@ -46,7 +46,7 @@ async function journeys(page,name,width){
  for(const width of [390,1280]){
   const context=await browser.newContext({viewport:{width,height:900}});
   for(const name of pages){
-   const page=await context.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));
+   const page=await context.newPage(),errors=[];page.setDefaultTimeout(5000);page.on('pageerror',e=>errors.push(e.message));
    try{
     const response=await page.goto(base+name,{waitUntil:'load'});assert(response.ok());await journeys(page,name,width);
     const overflow=await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth);assert(overflow<=12,`Débordement ${overflow}px`);assert.equal(errors.length,0,errors.join('; '));
