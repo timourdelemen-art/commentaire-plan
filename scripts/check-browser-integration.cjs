@@ -35,6 +35,7 @@ async function journeys(page,name,width){
  if(name==='bibliotheque-litterature-idees.html'){
   assert.equal(await page.locator('.lit-fiche:not([hidden])').count(),9);
   await page.selectOption('#lit-author','Cioran');assert.equal(await page.locator('.lit-fiche:not([hidden])').count(),5);
+  console.log('LIT-OPTIONS',JSON.stringify(await page.locator('#lit-use option').evaluateAll(es=>es.map(e=>({value:e.value,label:e.textContent})))));
   await page.selectOption('#lit-use','commentaire');assert.equal(await page.locator('.lit-fiche:not([hidden])').count(),0);assert(await page.locator('#lit-empty').isVisible());
   await page.locator('#lit-reset').click();await page.fill('#lit-search','liberte');assert.equal(await page.locator('.lit-fiche:not([hidden])').count(),4);
   await page.locator('#lit-reset').click();await page.selectOption('#lit-use','contraction');assert.equal(await page.locator('.lit-fiche:not([hidden])').count(),1);
@@ -64,7 +65,7 @@ async function journeys(page,name,width){
     const overflow=await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth);assert(overflow<=12,`Débordement ${overflow}px`);assert.equal(errors.length,0,errors.join('; '));
     if(['index.html','bibliotheque.html','bibliotheque-litterature.html','bibliotheque-litterature-idees.html','philosophie-banque.html'].includes(name))await page.screenshot({path:path.join(root,'browser-audit',`${name}-${width}.png`),fullPage:true});
     results.push({name,width,ok:true});console.log('OK',width,name);
-   }catch(e){results.push({name,width,ok:false,error:e.message,errors});console.error('FAIL',width,name,e.message);await page.screenshot({path:path.join(root,'browser-audit',`FAIL-${name}-${width}.png`),fullPage:true});}
+   }catch(e){if(name==='bibliotheque-litterature-idees.html')fs.writeFileSync(path.join(root,'browser-audit',`DOM-${width}.html`),await page.content());results.push({name,width,ok:false,error:e.message,errors});console.error('FAIL',width,name,e.message);await page.screenshot({path:path.join(root,'browser-audit',`FAIL-${name}-${width}.png`),fullPage:true});}
    await page.close();
   }
   await context.close();
