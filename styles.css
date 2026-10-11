@@ -2648,3 +2648,14 @@ div.qcm-options>p{border:0!important;background:none!important;box-shadow:none!i
 @media(max-width:1050px){.bred-page .bex-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:760px){.bred-page .bsr-grid,.bred-page .bred-attentes-grid,.bred-page .bco-grid,.bred-page .bex-grid{grid-template-columns:1fr}.bred-page .bsr-grid{padding:0}.bred-page .bc20-copy{padding:32px 6px}.bred-page .bc20-head h2{font-size:30px}.bred-page .bsr-consigne{font-size:17px}.bred-page .bniv-tabs button{flex:1 1 100%;text-align:left}}
 .brevet-redaction-liens{padding:0 18px}.brevet-redaction-liens a{color:var(--red);border-bottom:1px solid var(--red)}
+
+/* === Bibliothèque, annales et navigation simplifiée — octobre 2026 === */
+.library-doors,.home-resources{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-block:32px}
+.library-doors>a,.home-resources>a{display:grid;gap:12px;border:1px solid var(--rule);padding:28px;text-decoration:none;background:var(--paper);color:inherit}
+.library-doors>a:hover,.home-resources>a:hover{border-color:var(--red)}
+.library-doors h2,.library-doors p{margin:0}.library-doors span{font-size:13px;letter-spacing:1px}.home-resources strong{font-size:27px}.home-resources span{line-height:1.5}
+.library-other{margin-block:32px}.annales-jump{display:flex;flex-wrap:wrap;gap:12px;margin-block:24px}.annales-jump a{border:1px solid var(--rule);padding:10px 16px;text-decoration:none}
+@media(min-width:1051px){.nav-portals .portal span{font-size:clamp(10px,1.05vw,15px)!important;letter-spacing:0!important}.nav-portals .portal{padding-inline:6px!important}.nav-portals .portal small{font-size:9px!important}}
+@media(max-width:650px){.library-doors,.home-resources{grid-template-columns:1fr}.library-doors>a,.home-resources>a{padding:22px}}
+
+.portal-wrap:not(.open) .portal-dropdown{opacity:0;visibility:hidden;pointer-events:none}

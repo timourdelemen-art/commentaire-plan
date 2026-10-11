@@ -1,4 +1,5 @@
-import sys,re,json,html,os,datetime
+import sys,re,json,html,os,datetime,hashlib
+from pathlib import Path
 SP=os.path.dirname(os.path.abspath(__file__))
 C=os.environ.get('CORPUS',os.path.join(SP,'corpus'))
 sys.path.insert(0,SP)
@@ -10,30 +11,48 @@ def base(s):
 cache={}
 def text(f):
     if f not in cache:
-        raw=open(os.path.join(C,f),encoding='utf-8').read()
+        raw=Path(C,f).read_text(encoding='utf-8')
         raw=re.sub(r'<(teiHeader|note)[\s\S]*?</\1>',' ',raw); raw=re.sub(r'<lb\s*/>|</l>|</p>|</sp>',' ',raw)
         cache[f]=base(re.sub(r'<[^>]+>',' ',raw))
     return cache[f]
 URL={'fredracor':'https://github.com/dracor-org/fredracor/blob/main/','oe-hugo':'https://github.com/oeuvres/hugo/blob/gh-pages/','oe-zola':'https://github.com/oeuvres/zola/blob/gh-pages/','oe-baudelaire':'https://github.com/oeuvres/baudelaire/blob/gh-pages/','oe-flaubert':'https://github.com/oeuvres/flaubert/blob/gh-pages/','oe-stendhal':'https://github.com/oeuvres/stendhal/blob/gh-pages/','oe-maupassant':'https://github.com/oeuvres/maupassant/blob/gh-pages/','oe-proust':'https://github.com/oeuvres/proust/blob/gh-pages/'}
 NAME={'fredracor':'FreDraCor, corpus du théâtre français (DraCor)'}
-today=datetime.date.today().isoformat()
-out=[];bad=[]
-for e in E:
-    e=dict(e); c=e.pop('cit',None)
-    if c:
-        t=text(c['src']); n=base(c['n'])
-        i=t.lower().find(n.lower())
-        if i<0: bad.append((e['id'],'introuvable')); c=None
-        else:
-            orig=t[i:i+len(n)]
-            mine=base(c['t'].replace('\n',' ')).rstrip('.,;:!? ')
-            if mine.lower() not in base(t[max(0,i-5):i+len(n)+5]).lower() and mine.lower()!=orig.lower():
-                bad.append((e['id'],'texte affiché différent : '+orig))
-            if orig[0]!=n[0] and orig[0].lower()==n[0].lower(): bad.append((e['id'],'casse: corpus='+orig[:30]))
-            top=c['src'].split('/')[0]
-            c={'t':c['t'],'qui':c['qui'],'verif':{'date':today,'source':NAME.get(top,'Bibliothèque numérique « oeuvres » (OBVIL, Sorbonne Université)'),'url':URL[top]+c['src'].split('/',1)[1] if top!='fredracor' else URL[top]+c['src'].split('/',1)[1]}}
-    e['citation']=c
-    out.append(e)
-open(sys.argv[1],'w').write('/* Banque d’exemples (philosophie). Généré par l’outil de vérification des citations : ne pas modifier à la main les champs « verif ». */\nwindow.PHILO_EXEMPLES='+json.dumps(out,ensure_ascii=False,indent=0)+';\n')
-print(len(out),'fiches ;',sum(1 for e in out if e['citation']),'citations vérifiées')
-for b in bad: print('!!',b)
+def checked(c):
+    """Only mark a displayed quotation verified if its exact normalized text exists."""
+    try:
+        t=text(c['src']); needle=base(c['n']); displayed=base(c['t'].replace('\n',' '))
+    except (OSError,KeyError) as err:
+        return None,'source indisponible : '+str(err)
+    if not needle or needle.lower() not in t.lower():
+        return None,'passage introuvable'
+    # Typography is normalized; word order, punctuation and case are preserved.
+    if not displayed or displayed not in t:
+        return None,'texte affiché différent du corpus'
+    top=c['src'].split('/')[0]
+    if top not in URL:
+        return None,'corpus sans provenance'
+    return {'t':c['t'],'qui':c['qui'],'verif':{
+        'date':datetime.date.today().isoformat(),
+        'source':NAME.get(top,'Bibliothèque numérique « oeuvres » (OBVIL, Sorbonne Université)'),
+        'url':URL[top]+c['src'].split('/',1)[1],
+        'sha256_source':hashlib.sha256(Path(C,c['src']).read_bytes()).hexdigest()}},None
+
+def build(output):
+    out=[];bad=[]
+    ids=[e['id'] for e in E]
+    if len(ids)!=len(set(ids)):raise ValueError('Identifiant de scène dupliqué')
+    for item in E:
+        e=dict(item); c=e.pop('cit',None)
+        if c:
+            c,error=checked(c)
+            if error:bad.append((e['id'],error))
+        e['citation']=c;out.append(e)
+    # A rejected quotation is kept only as a scene, with no badge. Return failure
+    # so a release cannot silently turn a failed verification into a success.
+    Path(output).write_text('/* Banque d’exemples (philosophie). Généré par le vérificateur : ne pas modifier les champs « verif ». */\nwindow.PHILO_EXEMPLES='+json.dumps(out,ensure_ascii=False,indent=0)+';\n',encoding='utf-8')
+    print(len(out),'fiches ;',sum(1 for e in out if e['citation']),'citations vérifiées')
+    for b in bad:print('!!',b)
+    return 1 if bad else 0
+
+if __name__=='__main__':
+    sys.exit(build(sys.argv[1]))

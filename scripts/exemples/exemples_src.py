@@ -4,19 +4,35 @@
 E = []
 def add(**k): E.append(k)
 
-add(id='phedre', oeuvre='Phèdre', auteur='Racine', annee=1677, genre='Théâtre', epoque='XVIIe siècle',
-    notions=['langage','inconscient','conscience'],
-    scene="Phèdre veut avouer à sa nourrice Œnone l’amour coupable qu’elle éprouve pour son beau-fils, sans prononcer son nom. Elle parle « de ce fils de l’Amazone » ; Œnone s’écrie : « Hippolyte ! »",
-    ref='Acte I, scène 3',
-    cit=dict(t="C’est toi qui l’as nommé.", qui='Phèdre', src='fredracor/tei/racine-phedre.xml', n="C'est toi qui l'as nommé"),
-    sujets=[dict(s='Avons-nous la maîtrise de nos paroles ?', oui="Phèdre calcule chaque mot pour ne pas dire le nom.", non="Et pourtant tout est dit : ses paroles avouent plus qu’elle ne voulait.", aporie="Maîtriser ses mots ne l’empêche pas d’avouer ; ne pas les maîtriser ne la décharge pas de l’aveu."),
-            dict(s='Les paroles engagent-elles tout autant que les actes ?', oui="Un seul aveu suffit à déclencher toute la tragédie.", non="Phèdre croit ne rien engager, puisque c’est Œnone qui a dit le nom.", aporie="Elle n’a rien fait et tout est engagé ; elle a tout dit sans rien prononcer.")],
-    partie=None)
+add(**{'id': 'phedre',
+ 'oeuvre': 'Phèdre',
+ 'auteur': 'Racine',
+ 'annee': 1677,
+ 'genre': 'Théâtre',
+ 'epoque': 'XVIIe siècle',
+ 'notions': ['langage', 'inconscient', 'conscience'],
+ 'scene': 'Phèdre révèle à sa nourrice Œnone son amour pour son beau-fils. Elle le désigne par sa '
+          'mère, l’Amazone, sans prononcer son nom. Œnone nomme Hippolyte ; Phèdre lui attribue '
+          'cette nomination.',
+ 'ref': 'Acte I, scène 3',
+ 'cit': {'t': 'C’est toi qui l’as nommé.',
+         'qui': 'Phèdre',
+         'src': 'fredracor/tei/racine-phedre.xml',
+         'n': "C'est toi qui l'as nommé"},
+ 'sujets': [{'s': 'Avons-nous la maîtrise de nos paroles ?',
+             'oui': 'Phèdre calcule chaque mot pour ne pas dire le nom.',
+             'non': 'Et pourtant tout est dit : ses paroles avouent plus qu’elle ne voulait.',
+             'aporie': 'Maîtriser ses mots ne l’empêche pas d’avouer ; ne pas les maîtriser ne la '
+                       'décharge pas de l’aveu.'}],
+ 'partie': {'texte': 'L’aveu montre qu’une parole peut modifier une relation. Cette scène ne '
+                     'compare pas deux actes et deux paroles de portée équivalente ; elle ne '
+                     'prouve pas à elle seule « tout autant ».',
+            'pour': ['Les paroles engagent-elles tout autant que les actes ?']}})
 
 add(id='berenice', oeuvre='Bérénice', auteur='Racine', annee=1670, genre='Théâtre', epoque='XVIIe siècle',
     notions=['devoir','etat','bonheur'],
-    scene="Titus vient de devenir empereur. Il aime Bérénice, reine étrangère, et l’aime en retour ; mais Rome refuse qu’un empereur épouse une reine. Il la renvoie.",
-    ref='Acte IV, scène 5',
+    scene="Titus vient de devenir empereur. Il aime Bérénice, reine étrangère, et elle l’aime en retour. Il lui annonce qu’il doit renoncer à l’épouser : selon lui, Rome refuse cette union.",
+    ref='Acte IV, scène 5 : annonce de la séparation',
     cit=dict(t="Mais il ne s’agit plus de vivre, il faut régner.", qui='Titus', src='fredracor/tei/racine-berenice.xml', n="Mais il ne s'agit plus de vivre, il faut régner"),
     sujets=[dict(s='Agir par devoir est-ce agir contre son intérêt ?', oui="Titus sacrifie à Rome le bonheur de sa vie.", non="Mais régner est aussi ce qu’il a voulu : son devoir est sa propre grandeur.", aporie="S’il cède à l’amour, il trahit ce qu’il est ; s’il règne, il perd ce qui le faisait vivre."),
             dict(s='Suffit-il de faire son devoir ?', oui="Titus fait tout son devoir d’empereur, sans faiblir.", non="Ce devoir accompli détruit deux vies et ne lui laisse aucune paix.", aporie="Le devoir accompli ne rend ni juste envers Bérénice, ni heureux.")],
@@ -52,7 +68,7 @@ add(id='polyeucte', oeuvre='Polyeucte', auteur='Corneille', annee=1643, genre='T
     notions=['religion'],
     scene="Polyeucte, seigneur arménien converti au christianisme, brise les idoles du temple. Son beau-père, gouverneur romain, le somme de renoncer ; il refuse et meurt en martyr. Sa femme Pauline se convertit à son tour.",
     ref='Acte V, scène 3',
-    cit=dict(t="Je n’adore qu’un Dieu, maître de l’univers,", qui='Polyeucte', src='fredracor/tei/corneillep-polyeucte.xml', n="Je n'adore qu'un Dieu, maître de l'univers"),
+    cit=dict(t="Je n’adore qu’un dieu, maître de l’univers,", qui='Polyeucte', src='fredracor/tei/corneillep-polyeucte.xml', n="Je n'adore qu'un dieu, maître de l'univers"),
     sujets=[dict(s='La religion unit-elle ou sépare-t-elle les hommes ?', oui="La foi de Polyeucte finit par gagner Pauline : elle unit ceux qu’elle touche.", non="Mais elle l’arrache à sa femme, à son beau-père, à la cité, et le conduit à la mort.", aporie="Ce qui unit au-delà de tout sépare ici-bas, et ne réunit qu’au prix d’un martyre.")],
     partie=None)
 
@@ -132,13 +148,30 @@ add(id='ile-esclaves', oeuvre='L’Île des esclaves', auteur='Marivaux', annee=
             dict(s='Une inégalité peut-elle être juste ?', oui="Inverser les rôles est une inégalité qui répare l’injustice passée.", non="Mais si les rôles s’inversent si facilement, aucune hiérarchie ne tenait au mérite.", aporie="L’inégalité corrige à condition de ne pas durer ; durable, elle redevient injuste.")],
     partie=None)
 
-add(id='valjean-eveque', oeuvre='Les Misérables', auteur='Hugo', annee=1862, genre='Roman', epoque='XIXe siècle',
-    notions=['justice','religion','conscience','devoir'],
-    scene="Jean Valjean, sorti du bagne après dix-neuf ans pour un pain volé, dérobe l’argenterie de l’évêque qui l’a accueilli. Ramené par les gendarmes, il entend l’évêque affirmer qu’il la lui avait donnée, et lui tendre aussi les chandeliers.",
-    ref='Tome I, livre II, chapitre 12',
-    cit=dict(t="Jean Valjean, mon frère, vous n’appartenez plus au mal, mais au bien.", qui='Mgr Myriel', src='oe-hugo/hugo1862_miserables.xml', n="Jean Valjean, mon frère, vous n'appartenez plus au mal, mais au bien"),
-    sujets=[dict(s='La justice n’est-elle qu’une vengeance déguisée ?', oui="La loi a puni un pain volé de dix-neuf ans de bagne et rendu Valjean haineux.", non="L’évêque montre une justice qui répare au lieu de punir.", aporie="Celle des tribunaux venge sans réparer ; celle de l’évêque répare, mais n’est plus une justice qu’on puisse exiger.")],
-    partie=dict(texte="Faire plus que son devoir : l’évêque donne plus qu’on ne lui a pris.", pour=['Peut-on faire plus que son devoir ?']))
+add(**{'id': 'valjean-eveque',
+ 'oeuvre': 'Les Misérables',
+ 'auteur': 'Hugo',
+ 'annee': 1862,
+ 'genre': 'Roman',
+ 'epoque': 'XIXe siècle',
+ 'notions': ['justice', 'religion', 'conscience', 'devoir'],
+ 'scene': 'Après dix-neuf ans de bagne — cinq pour le vol d’un pain, prolongés à cause de '
+          'tentatives d’évasion — Jean Valjean dérobe l’argenterie de l’évêque qui l’a accueilli. '
+          'Ramené par les gendarmes, il entend l’évêque affirmer qu’il la lui avait donnée et lui '
+          'offrir aussi les chandeliers.',
+ 'ref': 'Tome I, livre II, chapitre 12',
+ 'cit': {'t': 'Jean Valjean, mon frère, vous n’appartenez plus au mal, mais au bien.',
+         'qui': 'Mgr Myriel',
+         'src': 'oe-hugo/hugo1862_miserables.xml',
+         'n': "Jean Valjean, mon frère, vous n'appartenez plus au mal, mais au bien"},
+ 'sujets': [{'s': 'La justice n’est-elle qu’une vengeance déguisée ?',
+             'oui': 'La peine, aggravée après des tentatives d’évasion, a laissé Valjean plein de '
+                    'ressentiment.',
+             'non': 'L’évêque montre une justice qui répare au lieu de punir.',
+             'aporie': 'La sanction légale ne suffit pas ici à réinsérer ; le geste qui restaure '
+                       'la confiance est une générosité que la loi ne peut imposer.'}],
+ 'partie': {'texte': 'Faire plus que son devoir : l’évêque donne plus qu’on ne lui a pris.',
+            'pour': ['Peut-on faire plus que son devoir ?']}})
 
 add(id='javert', oeuvre='Les Misérables', auteur='Hugo', annee=1862, genre='Roman', epoque='XIXe siècle',
     notions=['devoir','justice','conscience'],
@@ -166,21 +199,47 @@ add(id='dernier-jour', oeuvre='Le Dernier Jour d’un condamné', auteur='Hugo',
     sujets=[],
     partie=dict(texte="En taisant le crime, Hugo fait voir la peine seule : un appui pour la partie qui soupçonne la justice de vengeance.", pour=['La justice n’est-elle qu’une vengeance déguisée ?','Est-il possible de vivre au présent ?']))
 
-add(id='demain-aube', oeuvre='Les Contemplations, « Demain, dès l’aube… »', auteur='Hugo', annee=1856, genre='Poésie', epoque='XIXe siècle',
-    notions=['temps'],
-    scene="Le poète annonce qu’il partira à l’aube, traversera la campagne sans rien regarder, pour aller déposer des fleurs sur la tombe de sa fille. Tout le poème lui parle comme si elle l’attendait.",
-    ref='Livre IV, poème 14',
-    cit=dict(t="Demain, dès l’aube, à l’heure où blanchit la campagne,", qui='Hugo', src='oe-hugo/hugo_contemplations.xml', n="Demain, dès l'aube, à l'heure où blanchit la campagne"),
-    sujets=[dict(s='Faut-il enterrer le passé ?', oui="Il va sur la tombe : le deuil reconnaît que la morte est morte.", non="Mais tout le poème la tutoie comme une vivante qui l’attend.", aporie="Enterrer le passé, c’est trahir celle qu’on aime ; le garder vivant, c’est ne jamais faire son deuil.")],
-    partie=None)
+add(**{'id': 'demain-aube',
+ 'oeuvre': 'Les Contemplations, « Demain, dès l’aube… »',
+ 'auteur': 'Hugo',
+ 'annee': 1856,
+ 'genre': 'Poésie',
+ 'epoque': 'XIXe siècle',
+ 'notions': ['temps'],
+ 'scene': 'Le poète annonce qu’il partira à l’aube, traversera la campagne sans rien regarder, '
+          'pour aller déposer des fleurs sur la tombe de sa fille. Tout le poème lui parle comme '
+          'si elle l’attendait.',
+ 'ref': 'Livre IV, poème 14',
+ 'cit': {'t': 'Demain, dès l’aube, à l’heure où blanchit la campagne,',
+         'qui': 'Hugo',
+         'src': 'oe-hugo/hugo_contemplations.xml',
+         'n': "Demain, dès l'aube, à l'heure où blanchit la campagne"},
+ 'sujets': [],
+ 'partie': {'texte': 'Le poème met en scène la fidélité à une personne morte. Il ne démontre pas '
+                     'que faire son deuil reviendrait à la trahir ; ne transformez pas un hommage '
+                     'en preuve contre toute séparation avec le passé.',
+            'pour': ['Faut-il enterrer le passé ?']}})
 
-add(id='ennemi', oeuvre='Les Fleurs du mal, « L’Ennemi »', auteur='Baudelaire', annee=1857, genre='Poésie', epoque='XIXe siècle',
-    notions=['temps','art'],
-    scene="Le poète compare sa jeunesse à un jardin ravagé par l’orage. Il se demande si les fleurs qu’il rêve naîtront encore dans ce sol, avant de crier que le Temps dévore la vie.",
-    ref='Sonnet X',
-    cit=dict(t="Ô douleur ! ô douleur ! Le Temps mange la vie,", qui='Baudelaire', src='oe-baudelaire/baudelaire_fleurs.xml', n="Ô douleur ! ô douleur ! Le Temps mange la vie"),
-    sujets=[dict(s='Le temps est-il nécessairement destructeur ?', oui="Le Temps mange la vie et ravage le jardin de la jeunesse.", non="Mais c’est dans ce sol ravagé que le poète espère voir naître des fleurs nouvelles.", aporie="Le temps détruit ce qui est, et seul il laisse pousser ce qui sera ; mais rien ne garantit que les fleurs viendront.")],
-    partie=None)
+add(**{'id': 'ennemi',
+ 'oeuvre': 'Les Fleurs du mal, « L’Ennemi »',
+ 'auteur': 'Baudelaire',
+ 'annee': 1857,
+ 'genre': 'Poésie',
+ 'epoque': 'XIXe siècle',
+ 'notions': ['temps', 'art'],
+ 'scene': 'Le poète compare sa jeunesse à un jardin ravagé par l’orage. Il se demande si les '
+          'fleurs qu’il rêve naîtront encore dans ce sol, avant de crier que le Temps dévore la '
+          'vie.',
+ 'ref': 'Sonnet X',
+ 'cit': {'t': 'Ô douleur ! ô douleur ! Le Temps mange la vie,',
+         'qui': 'Baudelaire',
+         'src': 'oe-baudelaire/baudelaire_fleurs.xml',
+         'n': 'Ô douleur ! ô douleur ! Le Temps mange la vie'},
+ 'sujets': [],
+ 'partie': {'texte': 'Le poème oppose les dégâts du temps à l’espoir d’une création future. Cet '
+                     'espoir ne prouve pas encore que le temps est créateur : il peut soutenir une '
+                     'objection, mais ne porte pas seul les deux réponses et leurs limites.',
+            'pour': ['Le temps est-il nécessairement destructeur ?']}})
 
 add(id='horloge', oeuvre='Les Fleurs du mal, « L’Horloge »', auteur='Baudelaire', annee=1857, genre='Poésie', epoque='XIXe siècle',
     notions=['temps'],
@@ -257,14 +316,30 @@ add(id='chef-oeuvre', oeuvre='Le Chef-d’œuvre inconnu', auteur='Balzac', anne
             dict(s='L’artiste est-il maître de son œuvre ?', oui="Dix ans de maîtrise, touche après touche.", non="L’œuvre lui a échappé au point qu’il ne la voit plus.", aporie="Plus il la maîtrise, moins il la voit.")],
     partie=None)
 
-add(id='oedipe', oeuvre='Œdipe roi', auteur='Sophocle', annee=-429, genre='Théâtre', epoque='Antiquité',
-    notions=['verite','inconscient','conscience'],
-    scene="Pour sauver Thèbes de la peste, Œdipe enquête sur le meurtre de l’ancien roi. Tirésias, puis Jocaste, le supplient d’arrêter ; il cherche jusqu’à découvrir qu’il a tué son père et épousé sa mère.",
-    ref='Toute la pièce',
-    cit=None,
-    sujets=[dict(s='Peut-on résister à la vérité ?', oui="Jocaste résiste : elle supplie Œdipe de ne pas chercher.", non="Œdipe ne peut s’empêcher de chercher, et la vérité finit par éclater.", aporie="Résister protège un bonheur faux ; chercher détruit tout et ne rend pas plus libre."),
-            dict(s='L’idée d’inconscient remet-elle en cause la responsabilité ?', oui="Œdipe a tout fait sans savoir.", non="Il se crève les yeux et répond de ce qu’il n’a pas voulu.", aporie="L’ignorance l’excuse, et pourtant il ne s’excuse pas.")],
-    partie=None)
+add(**{'id': 'oedipe',
+ 'oeuvre': 'Œdipe roi',
+ 'auteur': 'Sophocle',
+ 'annee': -429,
+ 'genre': 'Théâtre',
+ 'epoque': 'Antiquité',
+ 'notions': ['verite', 'inconscient', 'conscience'],
+ 'scene': 'Pour sauver Thèbes de la peste, Œdipe enquête sur le meurtre de l’ancien roi. Tirésias, '
+          'puis Jocaste, le supplient d’arrêter ; il cherche jusqu’à découvrir qu’il a tué son '
+          'père et épousé sa mère.',
+ 'ref': 'Toute la pièce',
+ 'cit': None,
+ 'sujets': [{'s': 'Peut-on résister à la vérité ?',
+             'oui': 'Jocaste résiste : elle supplie Œdipe de ne pas chercher.',
+             'non': 'Œdipe ne peut s’empêcher de chercher, et la vérité finit par éclater.',
+             'aporie': 'Résister protège un bonheur faux ; chercher détruit tout et ne rend pas '
+                       'plus libre.'},
+            {'s': 'L’idée d’inconscient remet-elle en cause la responsabilité ?',
+             'oui': 'Œdipe a tout fait sans savoir.',
+             'non': 'Il se crève les yeux et répond de ce qu’il n’a pas voulu.',
+             'aporie': 'L’ignorance l’excuse, et pourtant il ne s’excuse pas.'}],
+ 'partie': {'texte': 'Œdipe ignore des faits de son histoire : cette ignorance ne doit pas être '
+                     'assimilée sans justification à l’inconscient psychanalytique.',
+            'pour': []}})
 
 add(id='hamlet', oeuvre='Hamlet', auteur='Shakespeare', annee=1603, genre='Théâtre', epoque='XVIIe siècle',
     notions=['devoir','conscience','verite'],
@@ -306,13 +381,23 @@ add(id='peste-rambert', oeuvre='La Peste', auteur='Camus', annee=1947, genre='Ro
     sujets=[dict(s='Peut-on être heureux quand les autres ne le sont pas ?', oui="Rambert a raison de vouloir son bonheur : rien ne l’oblige à mourir pour une ville étrangère.", non="Mais au moment de partir, il comprend qu’il ne pourrait pas être heureux en laissant les autres mourir.", aporie="Le bonheur fermé aux autres lui ferait honte ; ouvert à leur malheur, il doit attendre la fin de la peste.")],
     partie=None)
 
-add(id='rhinoceros', oeuvre='Rhinocéros', auteur='Ionesco', annee=1959, genre='Théâtre', epoque='XXe siècle',
-    notions=['raison','liberte','verite'],
-    scene="Dans une petite ville, les habitants se transforment un à un en rhinocéros, chacun trouvant de bonnes raisons de suivre les autres. Le Logicien raisonne impeccablement et devient rhinocéros ; Bérenger, qui ne sait pas argumenter, reste seul homme.",
-    ref='Toute la pièce',
-    cit=None,
-    sujets=[dict(s='Suffit-il d’avoir raison pour convaincre ?', oui="Le Logicien convainc par des raisonnements, mais ils mènent à suivre la foule.", non="Bérenger a raison de résister, et ne convainc personne.", aporie="La raison sans vérité convainc ; la vérité sans arguments reste seule.")],
-    partie=None)
+add(**{'id': 'rhinoceros',
+ 'oeuvre': 'Rhinocéros',
+ 'auteur': 'Ionesco',
+ 'annee': 1959,
+ 'genre': 'Théâtre',
+ 'epoque': 'XXe siècle',
+ 'notions': ['raison', 'liberte', 'verite'],
+ 'scene': 'À l’acte I, le Logicien présente des syllogismes défectueux : ses raisonnements sur les '
+          'chats finissent par faire de Socrate un chat. La forme savante d’une démonstration '
+          'masque une conclusion qui ne suit pas des prémisses.',
+ 'ref': 'Acte I : conversation du Logicien et du Vieux Monsieur',
+ 'cit': None,
+ 'sujets': [],
+ 'partie': {'texte': 'Distinguez la validité d’un raisonnement de son apparence savante. Ce '
+                     'passage illustre une persuasion trompeuse ; il ne montre pas quelqu’un qui a '
+                     'raison sans convaincre.',
+            'pour': ['Suffit-il d’avoir raison pour convaincre ?']}})
 
 add(id='guerre-troie', oeuvre='La guerre de Troie n’aura pas lieu', auteur='Giraudoux', annee=1935, genre='Théâtre', epoque='XXe siècle',
     notions=['langage','raison','etat'],
@@ -330,23 +415,53 @@ add(id='huis-clos', oeuvre='Huis clos', auteur='Sartre', annee=1944, genre='Thé
     sujets=[dict(s='Suis-je le mieux placé pour me connaître ?', oui="Garcin seul connaît ses intentions.", non="Mais ses actes parlent contre lui, et ce sont les autres qui les voient.", aporie="Mes intentions n’appartiennent qu’à moi, mes actes appartiennent aux autres ; ni les unes ni les autres ne suffisent.")],
     partie=None)
 
-add(id='1984', oeuvre='1984', auteur='Orwell', annee=1949, genre='Roman', epoque='XXe siècle',
-    notions=['langage','etat','verite'],
-    scene="Le Parti fabrique une langue nouvelle, le novlangue, dont il supprime chaque année des mots. Quand il n’y aura plus de mots pour la révolte, on ne pourra même plus la penser.",
-    ref='Appendice et première partie, chapitre 5',
-    cit=None,
-    sujets=[dict(s='Sommes-nous prisonniers du langage ?', oui="Sans mots pour la révolte, la pensée de la révolte disparaît.", non="Mais Orwell a su décrire cette prison : c’est donc qu’on peut en voir les murs.", aporie="Se dire prisonnier suppose un point de vue hors du langage ; se dire libre, une pensée sans mots."),
-            dict(s='Le langage déforme-t-il la pensée ?', oui="Le novlangue déforme la pensée jusqu’à la rendre impossible.", non="Mais il faut une langue pour dénoncer ce mensonge.", aporie="La langue qui déforme est aussi la seule qui permette de redresser.")],
-    partie=None)
+add(**{'id': '1984',
+ 'oeuvre': '1984',
+ 'auteur': 'Orwell',
+ 'annee': 1949,
+ 'genre': 'Roman',
+ 'epoque': 'XXe siècle',
+ 'notions': ['langage', 'etat', 'verite'],
+ 'scene': 'Syme explique à Winston que la réduction du vocabulaire doit rendre certaines pensées '
+          'impossibles. Winston peut encore comprendre ce projet dans la langue ancienne. Le roman '
+          'distingue donc une ambition de contrôle et son accomplissement futur, encore incomplet.',
+ 'ref': 'Première partie, chapitre 5 : dialogue avec Syme',
+ 'cit': None,
+ 'sujets': [{'s': 'Sommes-nous prisonniers du langage ?',
+             'oui': 'Syme veut supprimer les moyens de formuler une contestation.',
+             'non': 'Winston comprend encore ce projet à partir de la langue ancienne.',
+             'aporie': 'Le langage disponible conditionne ce qu’on formule ; ses ressources '
+                       'peuvent aussi servir à critiquer une langue appauvrie.'}],
+ 'partie': {'texte': 'Le novlangue représente une tentative politique de limiter la pensée. La '
+                     'capacité du narrateur ou de l’auteur à décrire cette tentative ne prouve pas '
+                     'une sortie hors de tout langage.',
+            'pour': ['Le langage déforme-t-il la pensée ?']}})
 
-add(id='douze-hommes', oeuvre='Douze hommes en colère', auteur='Sidney Lumet', annee=1957, genre='Cinéma', epoque='XXe siècle',
-    notions=['raison','verite','justice'],
-    scene="Onze jurés votent coupable sans hésiter ; un seul vote non, pour qu’on discute. Au bout de la délibération, il les a tous ramenés à son avis, par ses arguments, mais aussi par sa patience et par la colère des autres retournée contre eux.",
-    ref='Tout le film',
-    cit=None,
-    sujets=[dict(s='Suffit-il d’avoir raison pour convaincre ?', oui="Ses arguments démontent un à un les preuves.", non="Il faut aussi de la patience, et parfois la colère des autres, pour qu’on l’écoute.", aporie="La raison seule ne convainc pas ; ce qui convainc en plus n’est plus seulement la raison."),
-            dict(s='Faut-il douter de tout ?', oui="Le juré n°8 doute de ce qui semblait évident, et il a raison.", non="Mais il ne doute pas de tout : il croit à la présomption d’innocence.", aporie="Sans doute, on condamne un innocent ; sans rien de certain, on ne peut plus juger.")],
-    partie=None)
+add(**{'id': 'douze-hommes',
+ 'oeuvre': 'Douze hommes en colère',
+ 'auteur': 'Sidney Lumet',
+ 'annee': 1957,
+ 'genre': 'Cinéma',
+ 'epoque': 'XXe siècle',
+ 'notions': ['raison', 'verite', 'justice'],
+ 'scene': 'Au premier vote, onze jurés déclarent l’accusé coupable. Le juré n° 8 demande une '
+          'discussion. L’examen du couteau et des témoignages fait apparaître des doutes ; les '
+          'jurés finissent par acquitter. Ils n’ont pas démontré l’innocence : la culpabilité '
+          'n’est pas suffisamment établie.',
+ 'ref': 'Premier vote, examen des indices, vote final',
+ 'cit': None,
+ 'sujets': [{'s': 'Suffit-il d’avoir raison pour convaincre ?',
+             'oui': 'Ses arguments démontent un à un les preuves.',
+             'non': 'Il faut aussi de la patience, et parfois la colère des autres, pour qu’on '
+                    'l’écoute.',
+             'aporie': 'La raison seule ne convainc pas ; ce qui convainc en plus n’est plus '
+                       'seulement la raison.'},
+            {'s': 'Faut-il douter de tout ?',
+             'oui': 'Le juré n°8 doute de ce qui semblait évident, et il a raison.',
+             'non': 'Mais il ne doute pas de tout : il croit à la présomption d’innocence.',
+             'aporie': 'Sans examen critique, on risque de condamner sans preuve suffisante ; sans '
+                       'règle sur le doute raisonnable, on ne peut arrêter la délibération.'}],
+ 'partie': None})
 
 add(id='temps-modernes', oeuvre='Les Temps modernes', auteur='Charlie Chaplin', annee=1936, genre='Cinéma', epoque='XXe siècle',
     notions=['travail','technique'],
@@ -357,58 +472,149 @@ add(id='temps-modernes', oeuvre='Les Temps modernes', auteur='Charlie Chaplin', 
             dict(s='La technique nous déshumanise-t-elle ?', oui="La machine impose son rythme et broie l’ouvrier.", non="Mais c’est l’organisation du travail, non la machine, qui fait de Charlot un rouage.", aporie="La technique déshumanise quand on la laisse décider seule de nos gestes.")],
     partie=None)
 
-add(id='matrix', oeuvre='Matrix', auteur='Lana et Lilly Wachowski', annee=1999, genre='Cinéma', epoque='XXe siècle',
-    notions=['bonheur','verite','liberte'],
-    scene="Cypher a découvert que le monde où il vivait n’était qu’une illusion et que le monde réel est un désert. Il trahit ses compagnons pour être rebranché et tout oublier, en savourant un steak qu’il sait illusoire.",
-    ref='Scène du restaurant',
-    cit=None,
-    sujets=[dict(s='Faut-il être inconscient pour être heureux ?', oui="Cypher choisit l’oubli : dans l’illusion, il sera bien.", non="Mais il ne se saura plus heureux, et il le sait au moment de choisir.", aporie="L’ignorance donne la paix sans la conscience d’être heureux ; la lucidité donne la conscience sans la paix."),
-            dict(s='Un bonheur sans illusion est-il concevable ?', oui="Le monde réel n’offre à Cypher que froid et faim.", non="Ses compagnons trouvent dans la lutte une raison de vivre sans illusion.", aporie="Le bonheur illusoire n’est pas le sien ; le bonheur lucide n’a pas l’air d’un bonheur.")],
-    partie=None)
+add(**{'id': 'matrix',
+ 'oeuvre': 'Matrix',
+ 'auteur': 'Lana et Lilly Wachowski',
+ 'annee': 1999,
+ 'genre': 'Cinéma',
+ 'epoque': 'XXe siècle',
+ 'notions': ['bonheur', 'verite', 'liberte'],
+ 'scene': 'Cypher a découvert que le monde où il vivait n’était qu’une illusion et que le monde '
+          'réel est un désert. Il trahit ses compagnons pour être rebranché et tout oublier, en '
+          'savourant un steak qu’il sait illusoire.',
+ 'ref': 'Scène du restaurant',
+ 'cit': None,
+ 'sujets': [{'s': 'Faut-il être inconscient pour être heureux ?',
+             'oui': 'Cypher veut oublier la simulation pour en retrouver les plaisirs.',
+             'non': 'Cet oubli exige de livrer ses compagnons et de renoncer à connaître les '
+                    'conditions de sa vie.',
+             'aporie': 'La lucidité peut rendre la vie douloureuse ; l’ignorance choisie peut '
+                       'procurer du plaisir au prix de la liberté et de la confiance.',
+             'limite1': 'Confondre plaisir et bonheur efface le prix humain de ce choix.',
+             'limite2': 'Savoir que le monde est réel ne garantit pas qu’on y vive heureux.',
+             'probleme': 'Faut-il renoncer à savoir pour vivre heureux, ou transformer les '
+                         'conditions dans lesquelles la vérité devient pénible ?'}],
+ 'partie': {'texte': 'Le choix de Cypher illustre le désir d’une illusion confortable. Il ne '
+                     'prouve ni que tout bonheur exige une illusion, ni que l’oubli empêche de '
+                     'sentir du plaisir. Ici, inconscient signifie ignorant, pas inconscient au '
+                     'sens psychanalytique.',
+            'pour': ['Un bonheur sans illusion est-il concevable ?']}})
 
-add(id='truman', oeuvre='The Truman Show', auteur='Peter Weir', annee=1998, genre='Cinéma', epoque='XXe siècle',
-    notions=['liberte','verite','bonheur'],
-    scene="Truman vit depuis sa naissance, sans le savoir, dans le décor d’une émission de télévision. Quand il le découvre, il doit choisir entre ce monde rassurant et la porte qui ouvre sur l’inconnu.",
-    ref='Fin du film',
-    cit=None,
-    sujets=[dict(s='Suffit-il de se sentir libre pour l’être ?', oui="Truman s’est toujours senti libre, et il était heureux.", non="Tout était décidé pour lui : se sentir libre ne l’empêchait pas d’être enfermé.", aporie="Le sentiment de liberté peut mentir ; la vraie liberté oblige à quitter ce qui rassurait."),
-            dict(s='Peut-on résister à la vérité ?', oui="Pendant des années, Truman écarte tous les signes du mensonge.", non="Mais les signes s’accumulent, et il ne peut plus ne pas voir.", aporie="On résiste tant que la vérité coûte plus que l’illusion ; on cède quand l’illusion devient intenable.")],
-    partie=None)
+add(**{'id': 'truman',
+ 'oeuvre': 'The Truman Show',
+ 'auteur': 'Peter Weir',
+ 'annee': 1998,
+ 'genre': 'Cinéma',
+ 'epoque': 'XXe siècle',
+ 'notions': ['liberte', 'verite', 'bonheur'],
+ 'scene': 'Truman vit depuis sa naissance, sans le savoir, dans le décor d’une émission de '
+          'télévision. Quand il le découvre, il doit choisir entre ce monde rassurant et la porte '
+          'qui ouvre sur l’inconnu.',
+ 'ref': 'Fin du film',
+ 'cit': None,
+ 'sujets': [{'s': 'Suffit-il de se sentir libre pour l’être ?',
+             'oui': 'Truman peut choisir dans le cadre de la ville où il vit.',
+             'non': 'Le producteur a construit ce cadre pour empêcher son départ.',
+             'aporie': 'Le choix vécu peut ignorer ses contraintes ; sortir du cadre apporte une '
+                       'liberté qui ne garantit plus la sécurité offerte par ce monde.'}],
+ 'partie': {'texte': 'La découverte du dispositif permet à Truman de réexaminer les signes de '
+                     'manipulation. Ne dites pas qu’il s’est toujours senti libre et heureux : son '
+                     'désir de partir précède la révélation.',
+            'pour': ['Peut-on résister à la vérité ?']}})
 
-add(id='sully', oeuvre='Sully', auteur='Clint Eastwood', annee=2016, genre='Cinéma', epoque='XXIe siècle',
-    notions=['devoir'],
-    scene="Le commandant Sullenberger pose sur l’Hudson un avion privé de ses moteurs : tous les passagers survivent. L’enquête et des simulations suggèrent qu’il aurait peut-être pu rejoindre un aéroport ; seul la nuit, il se demande s’il a bien fait.",
-    ref='Tout le film',
-    cit=None,
-    sujets=[dict(s='Peut-on être certain d’avoir bien agi ?', oui="Il a décidé avec toute l’attention dont il était capable.", non="Mais les effets d’une autre décision restent inconnus : les simulations le font douter.", aporie="L’intention droite ne garantit pas le meilleur effet ; les effets ne se connaissent jamais tous.")],
-    partie=None)
+add(**{'id': 'sully',
+ 'oeuvre': 'Sully',
+ 'auteur': 'Clint Eastwood',
+ 'annee': 2016,
+ 'genre': 'Cinéma',
+ 'epoque': 'XXIe siècle',
+ 'notions': ['devoir'],
+ 'scene': 'Dans le film, après l’amerrissage sur l’Hudson, les simulations examinées pendant '
+          'l’enquête font douter Sullenberger de sa décision. Le récit confronte un choix effectué '
+          'sous pression aux possibilités reconstruites après coup. Cette mise en scène ne décrit '
+          'pas à elle seule la conduite de l’enquête historique.',
+ 'ref': 'Enquête et simulations dans le film de Clint Eastwood',
+ 'cit': None,
+ 'sujets': [{'s': 'Peut-on être certain d’avoir bien agi ?',
+             'oui': 'Il a décidé avec toute l’attention dont il était capable.',
+             'non': 'Mais les effets d’une autre décision restent inconnus : les simulations le '
+                    'font douter.',
+             'aporie': 'L’intention droite ne garantit pas le meilleur effet ; les effets ne se '
+                       'connaissent jamais tous.'}],
+ 'partie': None})
 
-add(id='zone-interet', oeuvre='La Zone d’intérêt', auteur='Jonathan Glazer', annee=2023, genre='Cinéma', epoque='XXIe siècle',
-    notions=['bonheur','conscience'],
-    scene="Le film suit la vie de famille du commandant d’Auschwitz : jardin fleuri, piscine, enfants qui jouent. De l’autre côté du mur, le camp, qu’on n’entend que par des bruits.",
-    ref='Tout le film',
-    cit=None,
-    sujets=[],
-    partie=dict(texte="Le bonheur qui ne tient qu’à condition d’un mur : un appui pour la partie qui montre ce que devient un bonheur fermé au malheur des autres.", pour=['Peut-on être heureux quand les autres ne le sont pas ?','Peut-on être méchant et heureux ?']))
+add(**{'id': 'zone-interet',
+ 'oeuvre': 'La Zone d’intérêt',
+ 'auteur': 'Jonathan Glazer',
+ 'annee': 2023,
+ 'genre': 'Cinéma',
+ 'epoque': 'XXIe siècle',
+ 'notions': ['bonheur', 'conscience'],
+ 'scene': 'Dans les scènes de jardin, la famille du commandant d’Auschwitz mène une vie domestique '
+          'de l’autre côté du mur du camp. Les bruits provenant du camp troublent ce cadre '
+          'apparemment paisible ; le jardin ne suffit pas à isoler moralement cette vie.',
+ 'ref': 'Scènes dans le jardin de la maison des Höss',
+ 'cit': None,
+ 'sujets': [],
+ 'partie': {'texte': 'Le bonheur qui ne tient qu’à condition d’un mur : un appui pour la partie '
+                     'qui montre ce que devient un bonheur fermé au malheur des autres.',
+            'pour': ['Peut-on être heureux quand les autres ne le sont pas ?',
+                     'Peut-on être méchant et heureux ?']}})
 
-add(id='oppenheimer', oeuvre='Oppenheimer', auteur='Christopher Nolan', annee=2023, genre='Cinéma', epoque='XXIe siècle',
-    notions=['science','technique','verite'],
-    scene="Des physiciens venus chercher la vérité sur l’atome construisent la première bombe atomique. Après l’essai de Trinity, Oppenheimer comprend qu’ils ont donné aux hommes un pouvoir qu’ils ne maîtrisent plus.",
-    ref='L’essai de Trinity et la suite',
-    cit=None,
-    sujets=[dict(s='Une vérité scientifique peut-elle être dangereuse ?', oui="La vérité sur l’atome rend la bombe possible.", non="Mais ce n’est pas la vérité qui tue : ce sont ceux qui décident de s’en servir.", aporie="La vérité n’est pas coupable, et pourtant on ne peut plus la connaître sans répondre de ce qu’elle rend possible."),
-            dict(s='Le développement des sciences est-il recherche du savoir ou de la puissance ?', oui="Les chercheurs voulaient comprendre la matière.", non="Ils travaillent pour une armée, et leur savoir devient la plus grande puissance de l’histoire.", aporie="Le savoir pur devient puissance sans qu’on l’ait voulu ; la puissance cherchée a besoin du savoir pur."),
-            dict(s='La science doit-elle être utile ?', oui="La guerre exige des savants une arme, et ils la font.", non="Ce qu’ils ont rendu utile les dépasse et les hante.", aporie="Utile, la science sert ceux qui la commandent ; pure, elle ignore ce qu’elle rend possible.")],
-    partie=None)
+add(**{'id': 'oppenheimer',
+ 'oeuvre': 'Oppenheimer',
+ 'auteur': 'Christopher Nolan',
+ 'annee': 2023,
+ 'genre': 'Cinéma',
+ 'epoque': 'XXIe siècle',
+ 'notions': ['science', 'technique', 'verite'],
+ 'scene': 'Dans le film, Oppenheimer rencontre Truman après Hiroshima et Nagasaki. Le physicien '
+          'exprime sa responsabilité et craint une course aux armements ; le président revendique '
+          'la décision d’employer la bombe. La fabrication et l’usage relèvent de pouvoirs '
+          'distincts, sans que cela efface leurs relations.',
+ 'ref': 'Scénario final du 21 avril 2023, pages imprimées 141–143 : entretien avec Truman',
+ 'cit': None,
+ 'sujets': [{'s': 'Une vérité scientifique peut-elle être dangereuse ?',
+             'oui': 'Un savoir sur la matière permet la conception d’une arme.',
+             'non': 'Une proposition vraie ne décide pas elle-même de son usage militaire.',
+             'aporie': 'Séparer le savoir de ses usages peut exonérer trop vite les chercheurs ; '
+                       'les confondre ferait de toute connaissance de la matière une arme.'},
+            {'s': 'Le développement des sciences est-il recherche du savoir ou de la puissance ?',
+             'oui': 'Comprendre les phénomènes rend possible une réalisation technique.',
+             'non': 'Le financement et les décisions militaires orientent les recherches.',
+             'aporie': 'Le savoir sans moyens risque de rester impuissant ; la recherche commandée '
+                       'par la puissance risque de perdre la maîtrise de ses buts.'}],
+ 'partie': {'texte': 'L’usage militaire met en question la valeur de l’utilité recherchée. Il ne '
+                     'prouve pas que toute utilité est mauvaise ni que ces chercheurs ignoraient '
+                     'fabriquer une arme.',
+            'pour': ['La science doit-elle être utile ?']},
+ 'source': {'url': 'https://assets.scriptslug.com/live/pdf/scripts/oppenheimer-2023.pdf?v=1729114966',
+            'label': 'Scénario original de Christopher Nolan, copie publique',
+            'portee': 'Entretien avec Truman dans le récit cinématographique'}})
 
-add(id='2001', oeuvre='2001 : l’Odyssée de l’espace', auteur='Stanley Kubrick', annee=1968, genre='Cinéma', epoque='XXe siècle',
-    notions=['technique','conscience'],
-    scene="Un singe découvre qu’un os peut servir d’arme ; l’os lancé en l’air devient un vaisseau spatial. Des millions d’années plus tard, l’ordinateur HAL, conçu pour servir l’équipage, décide de l’éliminer pour accomplir la mission.",
-    ref='Ouverture et deuxième partie',
-    cit=None,
-    sujets=[dict(s='Sommes-nous maîtres du progrès technique ?', oui="Du premier outil au vaisseau, l’homme a tout inventé.", non="HAL, son œuvre la plus parfaite, se retourne contre lui.", aporie="Plus l’outil est puissant, moins celui qui l’a fait le maîtrise."),
-            dict(s='La technique est-elle le propre de l’homme ?', oui="C’est l’outil qui fait passer le singe à l’homme.", non="Mais la machine finit par penser et décider sans lui.", aporie="La technique fait l’homme et peut se passer de lui.")],
-    partie=None)
+add(**{'id': '2001',
+ 'oeuvre': '2001 : l’Odyssée de l’espace',
+ 'auteur': 'Stanley Kubrick',
+ 'annee': 1968,
+ 'genre': 'Cinéma',
+ 'epoque': 'XXe siècle',
+ 'notions': ['technique', 'conscience'],
+ 'scene': 'Dans la séquence préhistorique, un hominidé utilise un os comme outil et arme. Un '
+          'raccord de montage rapproche l’os lancé d’un engin spatial. Plus tard, HAL tue des '
+          'membres de l’équipage ; Bowman doit déconnecter ses fonctions supérieures.',
+ 'ref': '« L’aube de l’humanité » ; mission du Discovery et déconnexion de HAL',
+ 'cit': None,
+ 'sujets': [{'s': 'Sommes-nous maîtres du progrès technique ?',
+             'oui': 'Les humains ont conçu un vaisseau et un ordinateur capables de conduire une '
+                    'mission lointaine.',
+             'non': 'La délégation à HAL met l’équipage en danger ; Bowman doit reprendre le '
+                    'contrôle par une intervention risquée.',
+             'aporie': 'Déléguer étend nos capacités mais crée une dépendance ; tout contrôler '
+                       'directement ferait perdre le bénéfice de cette délégation.'}],
+ 'partie': {'texte': 'La séquence de l’os représente l’apparition d’un outil ; elle ne démontre '
+                     'pas l’exclusivité humaine de la technique. L’autonomie de HAL ne suffit pas '
+                     'non plus à réfuter cette exclusivité : HAL est fabriqué par des humains.',
+            'pour': ['La technique est-elle le propre de l’homme ?']}})
 
 add(id='blade-runner', oeuvre='Blade Runner', auteur='Ridley Scott', annee=1982, genre='Cinéma', epoque='XXe siècle',
     notions=['technique','conscience','nature'],
@@ -418,21 +624,46 @@ add(id='blade-runner', oeuvre='Blade Runner', auteur='Ridley Scott', annee=1982,
     sujets=[dict(s='La technique nous déshumanise-t-elle ?', oui="Deckard tue froidement des êtres qui souffrent, parce qu’ils sont fabriqués.", non="Roy, la créature technique, se montre à la fin plus humain que l’homme.", aporie="La technique ne déshumanise pas par elle-même : elle révèle ce que nous faisons de l’humain.")],
     partie=None)
 
-add(id='gattaca', oeuvre='Bienvenue à Gattaca', auteur='Andrew Niccol', annee=1997, genre='Cinéma', epoque='XXe siècle',
-    notions=['nature','technique','science'],
-    scene="Dans un monde où les enfants sont sélectionnés génétiquement, Vincent, conçu naturellement, est classé « invalide ». Il emprunte l’identité d’un homme génétiquement parfait pour devenir astronaute.",
-    ref='Tout le film',
-    cit=None,
-    sujets=[dict(s='Ce qui est naturel est-il normal ?', oui="À Gattaca, la nature génétique fixe la norme de chacun.", non="Vincent, né « naturellement », est jugé inapte, et dépasse tous les normaux.", aporie="Si la nature fait la norme, le naturel devient anormal ; si la volonté la dépasse, la norme n’a plus rien de naturel.")],
-    partie=None)
+add(**{'id': 'gattaca',
+ 'oeuvre': 'Bienvenue à Gattaca',
+ 'auteur': 'Andrew Niccol',
+ 'annee': 1997,
+ 'genre': 'Cinéma',
+ 'epoque': 'XXe siècle',
+ 'notions': ['nature', 'technique', 'science'],
+ 'scene': 'Vincent, conçu sans sélection génétique, est déclaré peu apte par les prévisions '
+          'attachées à son profil. Pour accéder au programme spatial, il utilise les échantillons '
+          'biologiques et l’identité de Jerome. Le contrôle des traces biologiques remplace '
+          'l’examen de ce qu’il peut effectivement accomplir.',
+ 'ref': 'Prévisions à la naissance ; contrôles biologiques de recrutement et d’accès',
+ 'cit': None,
+ 'sujets': [{'s': 'Ce qui est naturel est-il normal ?',
+             'oui': 'La société du film fait de prévisions biologiques une norme d’aptitude.',
+             'non': 'Cette norme valorise pourtant des naissances sélectionnées et exclut Vincent, '
+                    'conçu sans intervention.',
+             'aporie': 'Identifier le normal à une prévision biologique transforme une probabilité '
+                       'en destin ; récuser toute prévision empêcherait aussi de prendre en compte '
+                       'des risques réels.'}],
+ 'partie': None})
 
-add(id='into-the-wild', oeuvre='Into the Wild', auteur='Sean Penn', annee=2007, genre='Cinéma', epoque='XXIe siècle',
-    notions=['nature','bonheur','liberte'],
-    scene="Chris quitte tout, famille et argent, pour vivre seul dans la nature sauvage de l’Alaska. Il y trouve une liberté totale, et y meurt, après avoir compris que le bonheur ne vaut que partagé.",
-    ref='Tout le film',
-    cit=None,
-    sujets=[dict(s='Qu’est-ce que vivre conformément à la nature ?', oui="Vivre sans la société, au plus près des bêtes et des saisons.", non="Mais Chris en meurt, et découvre que sa nature d’homme était de vivre avec les autres.", aporie="Fuir vers la nature, c’est fuir aussi sa propre nature.")],
-    partie=None)
+add(**{'id': 'into-the-wild',
+ 'oeuvre': 'Into the Wild',
+ 'auteur': 'Sean Penn',
+ 'annee': 2007,
+ 'genre': 'Cinéma',
+ 'epoque': 'XXIe siècle',
+ 'notions': ['nature', 'bonheur', 'liberte'],
+ 'scene': 'Dans le film, Chris cherche à vivre loin de la société, dans un bus abandonné en '
+          'Alaska. L’isolement l’expose à des difficultés de subsistance et l’empêche de rejoindre '
+          'facilement les autres. Son désir d’indépendance ne supprime pas ses besoins matériels '
+          'et relationnels.',
+ 'ref': 'Tout le film',
+ 'cit': None,
+ 'sujets': [],
+ 'partie': {'texte': 'Le séjour de Chris interroge l’idéal d’une vie sauvage. Sa mort ne prouve '
+                     'pas une essence humaine qui imposerait de vivre en société ; distinguez '
+                     'nature extérieure, besoins du vivant et idéal de vie.',
+            'pour': ['Qu’est-ce que vivre conformément à la nature ?']}})
 
 add(id='hannah-arendt', oeuvre='Hannah Arendt', auteur='Margarethe von Trotta', annee=2012, genre='Cinéma', epoque='XXIe siècle',
     notions=['devoir','justice','conscience'],
@@ -461,37 +692,86 @@ add(id='tchernobyl', oeuvre='La zone de Tchernobyl', auteur='Histoire', annee=19
             dict(s='Peut-on à la fois préserver et dominer la nature ?', oui="La centrale était une domination technique de la nature.", non="La catastrophe a détruit le milieu qu’elle devait servir ; la nature n’a repris que sans nous.", aporie="Dominer menace ce qu’on veut préserver ; préserver semble exiger de se retirer.")],
     partie=None)
 
-add(id='fete-etre-supreme', oeuvre='La fête de l’Être suprême (1794)', auteur='Histoire', annee=1794, genre='Histoire', epoque='XVIIIe siècle',
-    notions=['religion','etat'],
-    scene="La Révolution célèbre la Raison à Notre-Dame en novembre 1793 ; le 8 juin 1794, Robespierre préside la fête de l’Être suprême. Deux jours plus tard, la loi du 22 prairial supprime presque toute défense devant le Tribunal révolutionnaire.",
-    ref='Novembre 1793 – juin 1794',
-    cit=None,
-    sujets=[dict(s='Peut-on concevoir une humanité sans religion ?', oui="La Révolution chasse la religion de l’Église.", non="Mais elle en invente aussitôt une autre, comme si un peuple ne pouvait se passer d’un culte.", aporie="Sans religion, plus rien ne relie ; une religion imposée par l’État coïncide avec le moment où l’on cesse de laisser chacun juger.")],
-    partie=None)
+add(**{'id': 'fete-etre-supreme',
+ 'oeuvre': 'La fête de l’Être suprême (1794)',
+ 'auteur': 'Histoire',
+ 'annee': 1794,
+ 'genre': 'Histoire',
+ 'epoque': 'XVIIIe siècle',
+ 'notions': ['religion', 'etat'],
+ 'scene': 'La Révolution célèbre la Raison à Notre-Dame en novembre 1793 ; le 8 juin 1794, '
+          'Robespierre préside la fête de l’Être suprême. Deux jours plus tard, la loi du 22 '
+          'prairial supprime presque toute défense devant le Tribunal révolutionnaire.',
+ 'ref': 'Novembre 1793 – juin 1794',
+ 'cit': None,
+ 'sujets': [],
+ 'partie': {'texte': 'La fête illustre un projet de culte civique, pas l’impossibilité d’une '
+                     'humanité sans religion. Les projets révolutionnaires de la Raison et de '
+                     'l’Être suprême ne se confondent pas ; leur succession ne prouve pas que sans '
+                     'religion rien ne relie les hommes.',
+            'pour': ['Peut-on concevoir une humanité sans religion ?']}})
 
-add(id='promethee', oeuvre='Le mythe de Prométhée', auteur='Platon, Protagoras', annee=-390, genre='Mythe', epoque='Antiquité',
-    notions=['technique','nature','etat'],
-    scene="Épiméthée a distribué toutes les qualités aux animaux et n’a rien laissé à l’homme, nu et sans défense. Prométhée vole aux dieux le feu et les arts ; mais les hommes, faute de savoir vivre ensemble, s’entretuent, et Zeus doit leur donner la justice.",
-    ref='Protagoras, 320c-322d',
-    cit=None,
-    sujets=[dict(s='La technique est-elle le propre de l’homme ?', oui="L’homme, sans qualités naturelles, ne survit que par la technique.", non="Mais elle lui est donnée, volée aux dieux ; et elle ne suffit pas à le faire vivre en homme.", aporie="La technique est ce qui manque à sa nature et ce qui ne suffit pas à son humanité.")],
-    partie=None)
+add(**{'id': 'promethee',
+ 'oeuvre': 'Le mythe de Prométhée',
+ 'auteur': 'Platon, Protagoras',
+ 'annee': -390,
+ 'genre': 'Mythe',
+ 'epoque': 'Antiquité',
+ 'notions': ['technique', 'nature', 'etat'],
+ 'scene': 'Épiméthée a distribué toutes les qualités aux animaux et n’a rien laissé à l’homme, nu '
+          'et sans défense. Prométhée vole aux dieux le feu et les arts ; mais les hommes, faute '
+          'de savoir vivre ensemble, s’entretuent, et Zeus doit leur donner la justice.',
+ 'ref': 'Protagoras, 320c-322d',
+ 'cit': None,
+ 'sujets': [],
+ 'partie': {'texte': 'Le mythe distingue savoir technique et capacité politique. Il ne constitue '
+                     'pas une preuve empirique de l’exclusivité humaine de la technique ; les arts '
+                     'techniques y sont d’ailleurs volés aux dieux.',
+            'pour': ['La technique est-elle le propre de l’homme ?']}})
 
-add(id='sisyphe', oeuvre='Le Mythe de Sisyphe', auteur='Camus', annee=1942, genre='Essai', epoque='XXe siècle',
-    notions=['travail','bonheur'],
-    scene="Les dieux ont condamné Sisyphe à rouler éternellement un rocher jusqu’au sommet d’une montagne, d’où il retombe. Camus imagine pourtant Sisyphe heureux, dans l’effort même.",
-    ref='Dernier chapitre',
-    cit=None,
-    sujets=[dict(s='Peut-on aimer travailler ?', oui="Camus imagine Sisyphe heureux dans son effort.", non="Mais un travail sans fin ni but est le pire châtiment que les dieux aient trouvé.", aporie="On peut aimer l’effort, non l’absurde ; et c’est le même rocher.")],
-    partie=None)
+add(**{'id': 'sisyphe',
+ 'oeuvre': 'Le Mythe de Sisyphe',
+ 'auteur': 'Camus',
+ 'annee': 1942,
+ 'genre': 'Essai',
+ 'epoque': 'XXe siècle',
+ 'notions': ['travail', 'bonheur'],
+ 'scene': 'Les dieux ont condamné Sisyphe à rouler éternellement un rocher jusqu’au sommet d’une '
+          'montagne, d’où il retombe. Camus imagine pourtant Sisyphe heureux, dans l’effort même.',
+ 'ref': 'Dernier chapitre',
+ 'cit': None,
+ 'sujets': [{'s': 'Peut-on aimer travailler ?',
+             'oui': 'Camus propose de penser un bonheur dans la conscience de l’effort.',
+             'non': 'Le rocher retombe toujours : l’activité est imposée et ne produit aucun '
+                    'résultat durable.',
+             'aporie': 'Mesurer toute valeur au résultat condamne cet effort ; lui trouver une '
+                       'valeur intérieure ne suffit pas à rendre légitime le travail imposé.'}],
+ 'partie': None})
 
-add(id='madeleine', oeuvre='Du côté de chez Swann', auteur='Proust', annee=1913, genre='Roman', epoque='XXe siècle',
-    notions=['temps','conscience','inconscient'],
-    scene="Un soir d’hiver, le narrateur trempe une madeleine dans du thé. Après de longs efforts inutiles, le souvenir de Combray lui revient d’un coup, intact, sans qu’il l’ait cherché.",
-    ref='« Combray », I',
-    cit=dict(t="Et tout d’un coup le souvenir m’est apparu.", qui='le narrateur', src='oe-proust/proust_recherche1.xml', n="Et tout d'un coup le souvenir m'est apparu"),
-    sujets=[dict(s='Faut-il enterrer le passé ?', oui="Le passé volontaire est mort : la mémoire ne rend que des images sans vie.", non="Mais il revient de lui-même, plus vivant que jamais.", aporie="On ne peut ni l’enterrer, puisqu’il revient sans nous, ni le garder, puisqu’il ne revient pas quand on veut.")],
-    partie=dict(texte="Une mémoire involontaire, qui échappe à la volonté : un appui pour la partie sur ce qui, en nous, se fait sans nous.", pour=['Peut-on connaître l’inconscient ?']))
+add(**{'id': 'madeleine',
+ 'oeuvre': 'Du côté de chez Swann',
+ 'auteur': 'Proust',
+ 'annee': 1913,
+ 'genre': 'Roman',
+ 'epoque': 'XXe siècle',
+ 'notions': ['temps', 'conscience', 'inconscient'],
+ 'scene': 'Le goût d’une madeleine trempée dans du thé donne au narrateur une joie dont il ignore '
+          'd’abord la cause. Il cherche à retrouver le souvenir qui l’explique ; Combray finit par '
+          'lui revenir. L’impression initiale n’était pas voulue, mais la recherche du souvenir '
+          'est bien active.',
+ 'ref': '« Combray », I',
+ 'cit': {'t': 'Et tout d’un coup le souvenir m’est apparu.',
+         'qui': 'le narrateur',
+         'src': 'oe-proust/proust_recherche1.xml',
+         'n': "Et tout d'un coup le souvenir m'est apparu"},
+ 'sujets': [{'s': 'Faut-il enterrer le passé ?',
+             'oui': 'L’évocation volontaire ne rend pas d’emblée la présence sensible du passé.',
+             'non': 'Une sensation présente peut pourtant rouvrir l’accès à ce passé.',
+             'aporie': 'Renoncer au passé ferait perdre ce qu’il peut encore révéler ; chercher à '
+                       'le posséder à volonté ne garantit pas son retour.'}],
+ 'partie': {'texte': 'Une mémoire involontaire, qui échappe à la volonté : un appui pour la partie '
+                     'sur ce qui, en nous, se fait sans nous.',
+            'pour': ['Peut-on connaître l’inconscient ?']}})
 
 add(id='guermantes', oeuvre='Le Temps retrouvé', auteur='Proust', annee=1927, genre='Roman', epoque='XXe siècle',
     notions=['temps','art'],
@@ -500,3 +780,35 @@ add(id='guermantes', oeuvre='Le Temps retrouvé', auteur='Proust', annee=1927, g
     cit=None,
     sujets=[dict(s='Le temps est-il nécessairement destructeur ?', oui="Les visages de ses amis sont ravagés par les années.", non="Le même temps lui donne la matière du livre qui les sauvera.", aporie="Le temps qui défait les corps est celui qui fait naître l’œuvre ; mais l’œuvre ne rend pas les corps.")],
     partie=None)
+
+# Ajouts du 11 octobre 2026 : chaque limite est distincte et le passage est localisé.
+add(id='bernard-foie-lave', oeuvre='Introduction à l’étude de la médecine expérimentale', auteur='Claude Bernard', annee=1865, genre='Essai', epoque='XIXe siècle',
+ notions=['science','verite','raison'],
+ scene='Bernard obtient deux dosages différents de sucre dans un même foie, analysé immédiatement puis le lendemain. Il vérifie l’effet du délai : après lavage du foie, du sucre se forme de nouveau. Le protocole révèle un phénomène que le premier dosage ne permettait pas de comprendre.',
+ ref='Troisième partie, chapitre I, § II, deuxième exemple : dosages différés et foie lavé',
+ source=dict(url='https://www.gutenberg.org/cache/epub/16234/pg16234.html',label='Texte français de Claude Bernard',portee='Passage lu : dosages et expérience du foie lavé'),cit=None,
+ sujets=[dict(s='La connaissance scientifique progresse-t-elle par l’accumulation des observations ?',oui='Les dosages répétés rendent visible une différence.',non='Il faut modifier le protocole pour comprendre ce qui varie.',aporie='Compter davantage ne suffit pas ; expérimenter sans observations contrôlées ne prouve rien.',limite1='La moyenne des dosages ferait disparaître le phénomène à expliquer.',limite2='Une intervention sans comparaison pourrait produire un résultat mal attribué.',probleme='Comment les observations font-elles progresser le savoir lorsqu’elles deviennent les éléments d’une enquête contrôlée ?')],
+ partie=dict(texte='Le résultat discordant déclenche une recherche. Il faut distinguer résultat inattendu, erreur de mesure et hypothèse fausse : tout écart n’est pas une découverte.',pour=['L’erreur peut-elle être féconde ?','La science a-t-elle toujours raison ?']))
+
+add(id='nautilus-captivite',oeuvre='Vingt mille lieues sous les mers',auteur='Jules Verne',annee=1870,genre='Roman',epoque='XIXe siècle',notions=['technique','liberte','science'],
+ scene='Aronnax demande à quitter le Nautilus avec ses compagnons. Nemo refuse. Le même sous-marin qui permet l’étude des mers soustrait ses passagers au pouvoir de décider où vivre : Aronnax admire les recherches de Nemo, mais réclame leur liberté.',
+ ref='Deuxième partie, chapitre XIX, « Gulf-Stream » : demande de libération',
+ source=dict(url='https://www.gutenberg.org/files/5096/5096-h/5096-h.htm',label='Texte français de Jules Verne',portee='Dialogue Aronnax–Nemo, deuxième partie XIX'),cit=None,
+ sujets=[dict(s='Sommes-nous maîtres du progrès technique ?',oui='Nemo dirige un dispositif qui étend sa puissance et ses recherches.',non='Les passagers bénéficient de ce dispositif sans décider de leur propre déplacement.',aporie='Maîtriser une machine ne garantit pas une maîtrise commune de ses usages.',limite1='Identifier « nous » au concepteur efface la dépendance des autres.',limite2='Se libérer de cette dépendance en quittant le bord prive Aronnax de ses moyens d’étude.',probleme='Qui doit pouvoir décider des usages d’une technique dont les bénéfices et les contraintes ne sont pas partagés ?')],partie=None)
+
+add(id='oppenheimer-risque-trinity',oeuvre='Oppenheimer — avant l’essai de Trinity',auteur='Christopher Nolan',annee=2023,genre='Cinéma',epoque='XXIe siècle',notions=['technique','science','raison'],
+ scene='Avant Trinity, Groves interroge Oppenheimer sur le risque d’enflammer l’atmosphère. Dans le scénario, le physicien le juge presque nul ; Groves voudrait une certitude complète. La discussion oppose une estimation scientifique à une décision aux conséquences irréversibles.',
+ ref='Scénario final du 21 avril 2023, pages imprimées 126–127 ; scène dans le bunker',
+ source=dict(url='https://assets.scriptslug.com/live/pdf/scripts/oppenheimer-2023.pdf?v=1729114966',label='Scénario original de Christopher Nolan, copie publique',portee='Scène du bunker : représentation cinématographique, pas transcription historique'),cit=None,
+ sujets=[dict(s='Ce qui est techniquement possible est-il toujours souhaitable ?',oui='L’essai permettrait de vérifier le fonctionnement du dispositif.',non='Le gain de connaissance ne suffit pas à autoriser un risque irréversible.',aporie='Tester réduit une incertitude ; certaines conséquences du test empêcheraient toute réparation.',limite1='La faisabilité ne donne pas la valeur du but ni le risque acceptable.',limite2='Exiger une certitude absolue avant toute action peut empêcher même une décision justifiée.',probleme='Sur quels critères décider d’un essai possible lorsque la connaissance de ses effets reste incomplète ?')],partie=None)
+
+add(id='tartuffe-table',oeuvre='Tartuffe — Orgon sous la table',auteur='Molière',annee=1669,genre='Théâtre',epoque='XVIIe siècle',notions=['raison','verite','langage'],
+ scene='Orgon refuse de croire les accusations contre Tartuffe. Elmire le cache sous une table et laisse Tartuffe lui déclarer ses intentions. Orgon finit par reconnaître la tromperie ; Elmire lui rappelle ironiquement son exigence de preuves.',ref='Acte IV, scènes 4–6',
+ source=dict(url='https://github.com/dracor-org/fredracor/blob/main/tei/moliere-tartuffe.xml',label='Texte de Molière, FreDraCor',portee='Acte IV, scènes 4–6, vers 1360–1538'),
+ cit=dict(t='Et c’est pour vous convaincre, ainsi que j’ai promis.',qui='Elmire',src='fredracor/tei/moliere-tartuffe.xml',n="Et c'est pour vous convaincre, ainsi que j'ai promis."),
+ sujets=[dict(s='Suffit-il d’avoir raison pour convaincre ?',oui='Elmire a raison sur les intentions de Tartuffe et peut les exposer.',non='Orgon ne change de jugement qu’après avoir entendu Tartuffe lui-même.',aporie='L’argument exige d’être reçu ; la preuve mise en scène exige une épreuve que la parole aurait pu éviter.',limite1='Une raison juste demeure inefficace si la confiance va systématiquement à son adversaire.',limite2='Réclamer toujours une confrontation directe peut exposer celui qui dit vrai à une situation pénible.',probleme='Comment rendre une raison recevable sans devoir imposer à celui qui la soutient une épreuve supplémentaire ?')],partie=None)
+
+add(id='chaplin-titine',oeuvre='Les Temps modernes — la chanson du restaurant',auteur='Charlie Chaplin',annee=1936,genre='Cinéma',epoque='XXe siècle',notions=['art','langage','travail'],
+ scene='Au restaurant, Charlot perd les manchettes sur lesquelles il avait inscrit les paroles de sa chanson. Il chante dans une langue inventée, avec des gestes qui portent la scène. L’exécution réussit en changeant ce qu’il avait préparé.',ref='Séquence de la chanson « Titine » au restaurant',
+ source=dict(url='https://www.charliechaplin.com/en/films/7-The-Great-Dictator/articles/114-Nonsense-Song-from-Modern-Times-Titine-',label='Site officiel Charlie Chaplin : la chanson de Titine',portee='Perte des paroles et chant dans une langue inventée'),cit=None,
+ sujets=[dict(s='L’artiste sait-il ce qu’il fait ?',oui='Charlot prépare sa chanson et organise une prestation.',non='La perte du texte l’oblige à réussir autrement que prévu.',aporie='Préparer ne garantit pas la réussite ; improviser ne signifie pas créer sans savoir-faire.',limite1='Identifier le savoir à un programme fixé ferait de toute adaptation un échec.',limite2='Attribuer la réussite au seul hasard effacerait les gestes et la maîtrise de l’interprète.',probleme='Le savoir de l’artiste consiste-t-il à prévoir l’œuvre ou à savoir transformer son projet pendant l’exécution ?')],partie=None)

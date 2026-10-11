@@ -1,0 +1,1187 @@
+{
+  "version": 1,
+  "scope": "comparaison locale argumentée, sans note automatique",
+  "copies": {
+    "2026-ag-etat-injustice": {
+      "subject": "Revient-il principalement à l’État de lutter contre l’injustice ?",
+      "requirements": [
+        "Garantir des droits par une force commune",
+        "Permettre la critique de cette force"
+      ],
+      "scene": {
+        "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
+        "analysis": "L’État a été l’auteur de l’injustice et l’instrument de sa fin ; mais il n’a corrigé ses lois que parce que des citoyens les avaient refusées.",
+        "review": "Examen individuel à confirmer par le propriétaire avant fusion ; aucune scène déclarée homologuée automatiquement."
+      },
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "La priorité de l’État concerne la garantie commune des droits, non un monopole du jugement moral. Les citoyens, les associations et les institutions de contrôle doivent pouvoir contester son action.",
+          "preserves": [
+            "Garantir des droits par une force commune",
+            "Permettre la critique de cette force"
+          ],
+          "cost": "Reste le cas où le pouvoir ferme les voies de contestation : les garanties qui rendent ce partage juste ne peuvent plus être présupposées.",
+          "remainingProblem": "Lorsque l’État détruit les voies par lesquelles on pouvait le corriger, comment lui résister sans abandonner l’exigence d’une justice commune ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Inverser : la mobilisation rend la justice publique possible",
+          "preserves": [
+            "Explique le rôle causal des citoyens"
+          ],
+          "cost": "Ne dit pas qui garantit durablement les droits après la mobilisation",
+          "remainingProblem": "Ne dit pas qui garantit durablement les droits après la mobilisation"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Processualiser : contestation, réforme, application",
+          "preserves": [
+            "Relie la critique à un changement institutionnel"
+          ],
+          "cost": "Une succession ne garantit pas les voies de contrôle pendant l’application",
+          "remainingProblem": "Une succession ne garantit pas les voies de contrôle pendant l’application"
+        }
+      ],
+      "selected": "retenue",
+      "comparison": "Le partage contrôlable conserve force et critique simultanément ; il coûte moins qu’une réduction de toute justice à la mobilisation ou à une succession sans contre-pouvoirs.",
+      "strongestObjection": "Les citoyens peuvent défendre eux aussi une injustice.",
+      "responseToObjection": "Le contrôle doit pluraliser les voix et les voies de recours, et non sanctifier l’opinion majoritaire.",
+      "residual": "Reste le cas où le pouvoir ferme les voies de contestation : les garanties qui rendent ce partage juste ne peuvent plus être présupposées.",
+      "conclusionQuestion": "Lorsque l’État détruit les voies par lesquelles on pouvait le corriger, comment lui résister sans abandonner l’exigence d’une justice commune ?",
+      "economy": {
+        "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
+        "words": 834
+      },
+      "review": {
+        "author": "ChatGPT",
+        "status": "propose",
+        "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
+      },
+      "copySha256": "b7e992841c71d6a534ebf908cb84bd406b923b0b8d6c26de7e2790cd156c751c"
+    },
+    "2026-ag-humanite-religion": {
+      "subject": "Peut-on concevoir une humanité sans religion ?",
+      "requirements": [
+        "Assurer des liens et des fins communes",
+        "Conserver l’examen libre des croyances"
+      ],
+      "scene": {
+        "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
+        "analysis": "À peine a-t-on chassé la religion qu’on en invente une autre, comme si un peuple ne pouvait se passer d’un culte commun.",
+        "review": "Examen individuel à confirmer par le propriétaire avant fusion ; aucune scène déclarée homologuée automatiquement."
+      },
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "Le fait que la religion ait assuré ces fonctions ne prouve pas qu’elle seule puisse les assurer. Une communauté peut reconnaître des droits et organiser une solidarité sans partager une révélation, un culte ou une autorité sacrée.",
+          "preserves": [
+            "Assurer des liens et des fins communes",
+            "Conserver l’examen libre des croyances"
+          ],
+          "cost": "Reste que des principes discutables peuvent être sacralisés : un lien initialement ouvert à la critique peut devenir un dogme qui interdit de le contester.",
+          "remainingProblem": "Comment maintenir des convictions communes assez fortes pour nous unir, sans les rendre sacrées au point d’interdire leur examen ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Métamorphoser : une religion rationnelle commune",
+          "preserves": [
+            "Maintient une forme collective et des convictions discutées"
+          ],
+          "cost": "Risque de renommer religion toute conviction commune, sans établir la nécessité du sacré",
+          "remainingProblem": "Risque de renommer religion toute conviction commune, sans établir la nécessité du sacré"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Suspendre : on ignore ce qu’une humanité entière pourrait devenir",
+          "preserves": [
+            "Évite une prédiction historique injustifiée"
+          ],
+          "cost": "Le sujet demande une possibilité concevable, pas une prévision ; on peut examiner une cohérence",
+          "remainingProblem": "Le sujet demande une possibilité concevable, pas une prévision ; on peut examiner une cohérence"
+        }
+      ],
+      "selected": "retenue",
+      "comparison": "La distinction fonction/forme montre une possibilité sans nier le besoin de lien ni rebaptiser toute morale religion ; son risque de sacralisation est explicitement conservé.",
+      "strongestObjection": "Les principes laïques peuvent devenir aussi dogmatiques qu’un culte.",
+      "responseToObjection": "La différence porte sur la possibilité de critique, non sur une immunité de la laïcité à tout dogmatisme.",
+      "residual": "Reste que des principes discutables peuvent être sacralisés : un lien initialement ouvert à la critique peut devenir un dogme qui interdit de le contester.",
+      "conclusionQuestion": "Comment maintenir des convictions communes assez fortes pour nous unir, sans les rendre sacrées au point d’interdire leur examen ?",
+      "economy": {
+        "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
+        "words": 872
+      },
+      "review": {
+        "author": "ChatGPT",
+        "status": "propose",
+        "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
+      },
+      "copySha256": "f66334a5aa5ab64857c2a169206385182f65faddc2846ebc63c7a997070e8780"
+    },
+    "2026-an-artiste-sait": {
+      "subject": "L’artiste sait-il ce qu’il fait ?",
+      "requirements": [
+        "Reconnaître le savoir et les choix de l’artiste",
+        "Préserver l’invention imprévisible"
+      ],
+      "scene": {
+        "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
+        "analysis": "Quand il le montre enfin, Porbus et le jeune Poussin ne voient qu’un amas confus de couleurs, d’où sort seulement, dans un coin, un pied d’une perfection vivante, alors que Frenhofer croyait avoir peint le tableau le plus parfait du monde.",
+        "review": "Examen individuel à confirmer par le propriétaire avant fusion ; aucune scène déclarée homologuée automatiquement."
+      },
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "Une possibilité imprévue n’est pas un hasard simplement subi si l’artiste la reconnaît, la juge et la retravaille. Son savoir porte aussi sur cette capacité de faire évoluer son projet.",
+          "preserves": [
+            "Reconnaître le savoir et les choix de l’artiste",
+            "Préserver l’invention imprévisible"
+          ],
+          "cost": "Reste que l’œuvre peut recevoir des significations que même ce jugement exercé pendant la création n’avait pas envisagées.",
+          "remainingProblem": "Jusqu’où le savoir de l’artiste peut-il porter sur son œuvre, si celle-ci continue de prendre sens dans des regards qu’il ne dirige pas ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Distinguer savoir technique et sens de l’œuvre",
+          "preserves": [
+            "Sauve la maîtrise partielle sans exiger un savoir total"
+          ],
+          "cost": "Éclaire deux objets du savoir, mais explique moins directement comment l’invention devient un choix",
+          "remainingProblem": "Éclaire deux objets du savoir, mais explique moins directement comment l’invention devient un choix"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Consentir : l’artiste est traversé par une création qui le dépasse",
+          "preserves": [
+            "Prend au sérieux ce qui n’est pas prévisible"
+          ],
+          "cost": "Sans mécanisme de reconnaissance, l’auteur risque de redevenir un simple lieu de passage",
+          "remainingProblem": "Sans mécanisme de reconnaissance, l’auteur risque de redevenir un simple lieu de passage"
+        }
+      ],
+      "selected": "retenue",
+      "comparison": "Le processus de reconnaissance et de correction explique le lien entre métier et invention ; la distinction des savoirs le complète, mais ne le remplace pas.",
+      "strongestObjection": "Une idée peut être inventée avant tout geste matériel.",
+      "responseToObjection": "Le processus inclut essais mentaux, esquisses et reprises ; il n’interdit pas le projet, seulement son identification au savoir total de l’œuvre.",
+      "residual": "Reste que l’œuvre peut recevoir des significations que même ce jugement exercé pendant la création n’avait pas envisagées.",
+      "conclusionQuestion": "Jusqu’où le savoir de l’artiste peut-il porter sur son œuvre, si celle-ci continue de prendre sens dans des regards qu’il ne dirige pas ?",
+      "economy": {
+        "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
+        "words": 710
+      },
+      "review": {
+        "author": "ChatGPT",
+        "status": "propose",
+        "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
+      },
+      "copySha256": "4fa38f6635fc9f5ffbcd37dec1ef78ecb44613790b922c099f26c08c2e4a0023"
+    },
+    "2026-an-science-utile": {
+      "subject": "La science doit-elle être utile ?",
+      "requirements": [
+        "Préserver les découvertes dont l’usage est imprévisible",
+        "Justifier les moyens et les risques de la recherche"
+      ],
+      "scene": {
+        "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
+        "analysis": "Un siècle plus tard, chaque GPS doit corriger l’heure de ses satellites selon ses équations, faute de quoi il se tromperait de plusieurs kilomètres par jour.",
+        "review": "Examen individuel à confirmer par le propriétaire avant fusion ; aucune scène déclarée homologuée automatiquement."
+      },
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "Ne pas imposer une application connue d’avance n’interdit pas d’examiner un protocole, ses dangers ou l’emploi des ressources. La liberté de chercher concerne la question scientifique ; elle n’exempte pas les pratiques de recherche de toute responsabilité.",
+          "preserves": [
+            "Préserver les découvertes dont l’usage est imprévisible",
+            "Justifier les moyens et les risques de la recherche"
+          ],
+          "cost": "Reste la difficulté de juger publiquement une recherche dont ni les bénéfices ni certains risques ne sont encore connus.",
+          "remainingProblem": "Comment contrôler les moyens et les risques d’une recherche sans exiger d’elle la prévision des découvertes qui justifient sa liberté ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Distinguer recherche puis applications",
+          "preserves": [
+            "Protège les questions scientifiques contre l’utilité immédiate"
+          ],
+          "cost": "Reporte la responsabilité après des décisions et interventions déjà lourdes de conséquences",
+          "remainingProblem": "Reporte la responsabilité après des décisions et interventions déjà lourdes de conséquences"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Processualiser : alterner recherche fondamentale et application",
+          "preserves": [
+            "Reconnaît les retours des usages sur la recherche"
+          ],
+          "cost": "L’alternance ne fournit pas à elle seule de critère pour juger les pratiques pendant la recherche",
+          "remainingProblem": "L’alternance ne fournit pas à elle seule de critère pour juger les pratiques pendant la recherche"
+        }
+      ],
+      "selected": "retenue",
+      "comparison": "La responsabilité sur les pratiques dès la recherche évite le report fautif sans prescrire les résultats ; elle préserve mieux les deux acquis que le simple partage chronologique.",
+      "strongestObjection": "Le contrôle public peut censurer les questions dont il ne comprend pas l’intérêt.",
+      "responseToObjection": "Distinguer justification des moyens et promesse de rendement protège l’inconnu ; la légitimité du contrôle demeure le reste à discuter.",
+      "residual": "Reste la difficulté de juger publiquement une recherche dont ni les bénéfices ni certains risques ne sont encore connus.",
+      "conclusionQuestion": "Comment contrôler les moyens et les risques d’une recherche sans exiger d’elle la prévision des découvertes qui justifient sa liberté ?",
+      "economy": {
+        "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
+        "words": 822
+      },
+      "review": {
+        "author": "ChatGPT",
+        "status": "propose",
+        "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
+      },
+      "copySha256": "404bc3749b86ecc8d5cfa13408bb93925be7b573bb105168968579ecdae7be92"
+    },
+    "2026-asie-inconscient-bonheur": {
+      "subject": "Faut-il être inconscient pour être heureux ?",
+      "requirements": [
+        "Préserver une paix possible",
+        "Pouvoir reconnaître et affronter les dangers"
+      ],
+      "scene": {
+        "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
+        "analysis": "Savourant un steak dont il sait qu’il n’existe pas, il conclut que l’ignorance fait le bonheur ; on le méprise, on le comprend aussi.",
+        "review": "Examen individuel à confirmer par le propriétaire avant fusion ; aucune scène déclarée homologuée automatiquement."
+      },
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "La lucidité ne consiste pas seulement à accumuler les menaces : elle peut distinguer un danger réel d’une représentation qui nous tourmente inutilement. Connaître peut alors diminuer la crainte plutôt que l’accroître.",
+          "preserves": [
+            "Préserver une paix possible",
+            "Pouvoir reconnaître et affronter les dangers"
+          ],
+          "cost": "Reste la souffrance liée à un mal réel, notamment la perte d’un proche : réfuter une peur imaginaire ne supprime pas cette douleur.",
+          "remainingProblem": "Lorsque la souffrance vient d’une perte réelle que comprendre ne supprime pas, comment la lucidité peut-elle encore contribuer au bonheur ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Distinguer ce qui dépend de nous de ce qui n’en dépend pas",
+          "preserves": [
+            "Oriente l’action et les jugements vers une maîtrise possible"
+          ],
+          "cost": "Les dommages réels ne deviennent pas indifférents par le seul fait de ne pas dépendre de nous",
+          "remainingProblem": "Les dommages réels ne deviennent pas indifférents par le seul fait de ne pas dépendre de nous"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Consentir à l’inquiétude comme dimension d’une vie lucide",
+          "preserves": [
+            "Ne promet pas une sagesse qui supprimerait toute douleur"
+          ],
+          "cost": "Établit une valeur de la lucidité sans encore expliquer son pouvoir d’apaisement",
+          "remainingProblem": "Établit une valeur de la lucidité sans encore expliquer son pouvoir d’apaisement"
+        }
+      ],
+      "selected": "retenue",
+      "comparison": "L’examen des représentations donne un mécanisme local d’apaisement, sans confondre absence de contrôle et absence de douleur ; le consentement reste utile devant la perte réelle.",
+      "strongestObjection": "La lucidité peut établir une menace réelle et irréparable.",
+      "responseToObjection": "La copie limite explicitement sa portée : le savoir peut défaire une crainte imaginaire, pas supprimer tout mal réel.",
+      "residual": "Reste la souffrance liée à un mal réel, notamment la perte d’un proche : réfuter une peur imaginaire ne supprime pas cette douleur.",
+      "conclusionQuestion": "Lorsque la souffrance vient d’une perte réelle que comprendre ne supprime pas, comment la lucidité peut-elle encore contribuer au bonheur ?",
+      "economy": {
+        "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
+        "words": 729
+      },
+      "review": {
+        "author": "ChatGPT",
+        "status": "propose",
+        "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
+      },
+      "copySha256": "40bdd61ee3090295714b92f4f76ab01d1f7fa782f00e2048a70335e2f26a714e"
+    },
+    "2026-asie-langage": {
+      "subject": "Sommes-nous prisonniers du langage ?",
+      "requirements": [
+        "Reconnaître une langue héritée et commune",
+        "Expliquer la critique et l’invention dans cette langue"
+      ],
+      "scene": {
+        "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
+        "analysis": "Le but est clair : quand il n’y aura plus de mots pour la révolte, on ne pourra même plus la penser ; mais le roman lui-même invente des mots pour rendre pensable ce danger : la langue peut-elle aussi servir à critiquer ce qui enferme ?",
+        "review": "Examen individuel à confirmer par le propriétaire avant fusion ; aucune scène déclarée homologuée automatiquement."
+      },
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "Nous pouvons contester une expression avec d’autres expressions, expliquer un mot inconnu ou comparer des traductions. La critique n’exige donc pas de sortir de tout langage : elle travaille ses ressources contre ses habitudes.",
+          "preserves": [
+            "Reconnaître une langue héritée et commune",
+            "Expliquer la critique et l’invention dans cette langue"
+          ],
+          "cost": "Reste que cette transformation dépend de ressources partagées : une expérience peut demeurer difficile à communiquer tant que d’autres ne reconnaissent pas les mots proposés.",
+          "remainingProblem": "Comment une pensée nouvelle peut-elle devenir partageable lorsque les mots par lesquels elle cherche à se dire ne sont pas encore compris ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Inverser : la pensée crée la langue dont elle dépend",
+          "preserves": [
+            "Explique les innovations expressives"
+          ],
+          "cost": "La pensée individuelle ne crée pas seule les ressources communes dont elle part",
+          "remainingProblem": "La pensée individuelle ne crée pas seule les ressources communes dont elle part"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Processualiser : transformer progressivement la langue",
+          "preserves": [
+            "Explique l’évolution de ses limites"
+          ],
+          "cost": "Un simple changement historique ne distingue pas enrichissement et appauvrissement imposé",
+          "remainingProblem": "Un simple changement historique ne distingue pas enrichissement et appauvrissement imposé"
+        }
+      ],
+      "selected": "retenue",
+      "comparison": "La transformation de l’image est démontrée par définition, comparaison et métaphore ; elle s’adjoint un processus de reprise plutôt qu’une analogie suffisante par elle-même.",
+      "strongestObjection": "Un régime peut supprimer les moyens de critique.",
+      "responseToObjection": "La copie n’affirme pas une liberté garantie : elle distingue la possibilité de travailler la langue de sa suppression institutionnelle.",
+      "residual": "Reste que cette transformation dépend de ressources partagées : une expérience peut demeurer difficile à communiquer tant que d’autres ne reconnaissent pas les mots proposés.",
+      "conclusionQuestion": "Comment une pensée nouvelle peut-elle devenir partageable lorsque les mots par lesquels elle cherche à se dire ne sont pas encore compris ?",
+      "economy": {
+        "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
+        "words": 787
+      },
+      "review": {
+        "author": "ChatGPT",
+        "status": "propose",
+        "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
+      },
+      "copySha256": "e66f371e19f8ef8a74031319897ff1cdd1d7ff1e3aea87333dd203fe13bc0848"
+    },
+    "2026-g1-bien-agir": {
+      "subject": "Peut-on être certain d’avoir bien agi ?",
+      "requirements": [
+        "Examiner motifs et effets pour juger moralement",
+        "Permettre un jugement et une action malgré l’incertitude"
+      ],
+      "scene": {
+        "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
+        "analysis": "Le film de Clint Eastwood, Sully, montre ce qui suit : l’enquête, les simulations qui laissent penser qu’il aurait peut-être pu regagner un aéroport, et le pilote qui, seul la nuit, se demande s’il a bien fait.",
+        "review": "Examen individuel à confirmer par le propriétaire avant fusion ; aucune scène déclarée homologuée automatiquement."
+      },
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "La certitude absolue d’avoir bien agi demeure hors de portée ; un jugement justifié reste pourtant possible. Il compare les raisons accessibles, les risques prévisibles et les autres décisions possibles, puis accepte d’être révisé.",
+          "preserves": [
+            "Examiner motifs et effets pour juger moralement",
+            "Permettre un jugement et une action malgré l’incertitude"
+          ],
+          "cost": "Reste qu’un effet imprévisible peut conduire à réviser l’appréciation d’un choix pourtant raisonnable au moment d’agir.",
+          "remainingProblem": "Comment juger un acte raisonnablement décidé lorsque ses conséquences imprévisibles en révèlent ensuite le mal ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Métamorphoser la certitude en engagement responsable",
+          "preserves": [
+            "Conserve l’exigence de répondre de l’acte"
+          ],
+          "cost": "Répondre de l’acte ne démontre pas sa bonté : risque de substitution du sujet",
+          "remainingProblem": "Répondre de l’acte ne démontre pas sa bonté : risque de substitution du sujet"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Consentir au doute et agir sans assurance",
+          "preserves": [
+            "Évite une fausse infaillibilité"
+          ],
+          "cost": "L’action malgré le doute n’explique pas la différence entre un choix justifié et un choix arbitraire",
+          "remainingProblem": "L’action malgré le doute n’explique pas la différence entre un choix justifié et un choix arbitraire"
+        }
+      ],
+      "selected": "retenue",
+      "comparison": "La distinction certitude absolue/jugement justifié répond explicitement au sujet et fournit des critères de comparaison ; la responsabilité y sert de contrôle, non de preuve.",
+      "strongestObjection": "Une décision justifiée peut avoir des conséquences mauvaises.",
+      "responseToObjection": "Le jugement reste révisable ; distinguer raisons disponibles et effets ultérieurs est précisément l’objet de la question finale.",
+      "residual": "Reste qu’un effet imprévisible peut conduire à réviser l’appréciation d’un choix pourtant raisonnable au moment d’agir.",
+      "conclusionQuestion": "Comment juger un acte raisonnablement décidé lorsque ses conséquences imprévisibles en révèlent ensuite le mal ?",
+      "economy": {
+        "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
+        "words": 818
+      },
+      "review": {
+        "author": "ChatGPT",
+        "status": "propose",
+        "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
+      },
+      "copySha256": "96be7b534188f3a246edf07254c0d1b93a06f9b8f7e632072d704f8ec5c8d105"
+    },
+    "2026-g1-nature-besoin": {
+      "subject": "La nature a-t-elle besoin de nous ?",
+      "requirements": [
+        "Préserver les capacités propres des êtres naturels",
+        "Assumer les dommages dont notre action est responsable"
+      ],
+      "scene": {
+        "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
+        "analysis": "Là où l’homme s’est retiré, la nature n’a pas attendu qu’on la sauve ; pourtant nous parlons de « sauver la planète », comme si elle dépendait de nous.",
+        "review": "Examen individuel à confirmer par le propriétaire avant fusion ; aucune scène déclarée homologuée automatiquement."
+      },
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "La nature comme ensemble des processus ne dépend pas de notre présence ; des espèces et des équilibres déterminés peuvent dépendre de nos choix. Notre propre dépendance envers eux donne une raison de les protéger sans prétendre gouverner chaque processus.",
+          "preserves": [
+            "Préserver les capacités propres des êtres naturels",
+            "Assumer les dommages dont notre action est responsable"
+          ],
+          "cost": "Reste que choisir le milieu à restaurer suppose un jugement humain : quelle autonomie préserver quand plusieurs formes de vie entrent en conflit ?",
+          "remainingProblem": "Comment choisir ce qu’il faut restaurer sans faire de nos préférences la seule mesure d’une nature que nous voulons autonome ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Inverser : seuls les hommes ont besoin de la nature",
+          "preserves": [
+            "Évite la fiction d’une nature globalement dépendante de l’homme"
+          ],
+          "cost": "Notre besoin ne supprime pas celui d’un milieu abîmé envers certains soins",
+          "remainingProblem": "Notre besoin ne supprime pas celui d’un milieu abîmé envers certains soins"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Processualiser : réparer puis se retirer",
+          "preserves": [
+            "Rend intelligible une intervention en vue de l’autonomie"
+          ],
+          "cost": "La frontière entre intervention temporaire et entretien durable ne vaut pas pour tous les milieux",
+          "remainingProblem": "La frontière entre intervention temporaire et entretien durable ne vaut pas pour tous les milieux"
+        }
+      ],
+      "selected": "retenue",
+      "comparison": "La distinction entre processus naturels et milieux déterminés rend l’inversion non exclusive ; elle accueille réparation et autonomie sans nier les besoins locaux.",
+      "strongestObjection": "Restaurer implique de choisir humainement un état du milieu.",
+      "responseToObjection": "Ce choix ne devient pas neutre : il constitue le coût explicite et le point de départ de la conclusion.",
+      "residual": "Reste que choisir le milieu à restaurer suppose un jugement humain : quelle autonomie préserver quand plusieurs formes de vie entrent en conflit ?",
+      "conclusionQuestion": "Comment choisir ce qu’il faut restaurer sans faire de nos préférences la seule mesure d’une nature que nous voulons autonome ?",
+      "economy": {
+        "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
+        "words": 811
+      },
+      "review": {
+        "author": "ChatGPT",
+        "status": "propose",
+        "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
+      },
+      "copySha256": "1d601cc56d4b7b8ff3e1ed22597c64ec0481144c1da99cfb62234d84b06c4d40"
+    },
+    "2026-me-bonheur-autres": {
+      "subject": "Peut-on être heureux quand les autres ne le sont pas ?",
+      "requirements": [
+        "Préserver la possibilité d’une vie heureuse",
+        "Reconnaître le malheur d’autrui et nos obligations"
+      ],
+      "scene": {
+        "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
+        "analysis": "Leur modèle est un vieux Turc qui ne sait rien des vizirs qu’on vient d’étrangler dans la capitale, et ne s’occupe que de son jardin.",
+        "review": "Examen individuel à confirmer par le propriétaire avant fusion ; aucune scène déclarée homologuée automatiquement."
+      },
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "La compassion n’oblige pas à reproduire en soi toute la souffrance dont on prend connaissance. Un bonheur peut inclure de l’inquiétude et se prolonger en aide ; la joie ne démontre alors ni l’ignorance ni l’approbation du malheur.",
+          "preserves": [
+            "Préserver la possibilité d’une vie heureuse",
+            "Reconnaître le malheur d’autrui et nos obligations"
+          ],
+          "cost": "Reste le cas où mon bonheur repose matériellement sur une injustice subie par d’autres : leur porter de l’attention ne suffit plus.",
+          "remainingProblem": "Que doit changer celui dont le bonheur dépend d’une injustice, pour que son souci d’autrui ne demeure pas une simple bonne conscience ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Distinguer proches et lointains",
+          "preserves": [
+            "Évite de faire dépendre chaque joie de toute souffrance du monde"
+          ],
+          "cost": "La distance seule ne justifie pas l’indifférence ni la participation à une injustice",
+          "remainingProblem": "La distance seule ne justifie pas l’indifférence ni la participation à une injustice"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Métamorphoser le bonheur en joie partagée",
+          "preserves": [
+            "Rend le bonheur relationnel plutôt que fermé"
+          ],
+          "cost": "La joie partagée peut ne pas atteindre les victimes dont elle dépend matériellement",
+          "remainingProblem": "La joie partagée peut ne pas atteindre les victimes dont elle dépend matériellement"
+        }
+      ],
+      "selected": "retenue",
+      "comparison": "La compatibilité de joie, attention et action préserve une possibilité sans déclarer tout bonheur innocent ; la dépendance envers l’injustice devient l’épreuve résiduelle.",
+      "strongestObjection": "Une personne profite d’une exploitation tout en aidant quelques victimes.",
+      "responseToObjection": "La sollicitude ne suffit pas : la copie exige d’examiner et de transformer les conditions du bonheur.",
+      "residual": "Reste le cas où mon bonheur repose matériellement sur une injustice subie par d’autres : leur porter de l’attention ne suffit plus.",
+      "conclusionQuestion": "Que doit changer celui dont le bonheur dépend d’une injustice, pour que son souci d’autrui ne demeure pas une simple bonne conscience ?",
+      "economy": {
+        "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
+        "words": 791
+      },
+      "review": {
+        "author": "ChatGPT",
+        "status": "propose",
+        "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
+      },
+      "copySha256": "b7d1d0ddd16c1ca79c501767ccbefc0134eb9b2cb176abb7f0ff2a23d9966579"
+    },
+    "2026-me-paroles": {
+      "subject": "Avons-nous la maîtrise de nos paroles ?",
+      "requirements": [
+        "Reconnaître notre pouvoir de formulation",
+        "Ne pas nier les interprétations et effets qui nous échappent"
+      ],
+      "scene": {
+        "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
+        "analysis": "Elle parle de « ce fils de l’Amazone » ; Œnone s’écrie : « Hippolyte ! », et Phèdre répond : « C’est toi qui l’as nommé. »",
+        "review": "Examen individuel à confirmer par le propriétaire avant fusion ; aucune scène déclarée homologuée automatiquement."
+      },
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "Nous pouvons choisir des mots, vérifier ce que l’autre a compris et rectifier un malentendu ; nous ne pouvons pas décider à sa place de toute interprétation. La maîtrise est donc un travail de formulation et de reprise, plutôt qu’une propriété acquise avant de parler.",
+          "preserves": [
+            "Reconnaître notre pouvoir de formulation",
+            "Ne pas nier les interprétations et effets qui nous échappent"
+          ],
+          "cost": "Reste qu’une parole peut produire un effet irréversible avant que sa rectification soit entendue.",
+          "remainingProblem": "Comment répondre d’une parole dont on peut corriger le sens, mais dont on ne peut plus réparer tous les effets ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Inverser : la parole nous engage plutôt que nous la maîtrisons",
+          "preserves": [
+            "Explique la responsabilité attachée aux mots"
+          ],
+          "cost": "Réduit trop vite toute parole à la promesse et remplace la maîtrise par l’engagement",
+          "remainingProblem": "Réduit trop vite toute parole à la promesse et remplace la maîtrise par l’engagement"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Consentir à l’équivocité de toute parole",
+          "preserves": [
+            "Évite le fantasme d’un sens totalement contrôlé"
+          ],
+          "cost": "Sans reprise ni rectification, on ne décrit plus ce qui reste effectivement maîtrisable",
+          "remainingProblem": "Sans reprise ni rectification, on ne décrit plus ce qui reste effectivement maîtrisable"
+        }
+      ],
+      "selected": "retenue",
+      "comparison": "La maîtrise partielle et exercée dans l’échange s’applique aux promesses comme aux explications ; elle répond au pouvoir effectif sans promettre le contrôle des effets.",
+      "strongestObjection": "La correction arrive après une blessure irréparable.",
+      "responseToObjection": "Précisément : pouvoir rectifier le sens ne garantit pas pouvoir effacer ses effets ; ce coût fonde la conclusion.",
+      "residual": "Reste qu’une parole peut produire un effet irréversible avant que sa rectification soit entendue.",
+      "conclusionQuestion": "Comment répondre d’une parole dont on peut corriger le sens, mais dont on ne peut plus réparer tous les effets ?",
+      "economy": {
+        "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
+        "words": 761
+      },
+      "review": {
+        "author": "ChatGPT",
+        "status": "propose",
+        "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
+      },
+      "copySha256": "b07da545402a7186def174765d718a7bf5196bf9f423fe0d5cb774375c4505d4"
+    },
+    "notion-inconscient": {
+      "subject": "L’idée d’inconscient remet-elle en cause la responsabilité ?",
+      "requirements": [
+        "Reconnaître ce qui échappe au choix conscient",
+        "Préserver une responsabilité proportionnée aux capacités"
+      ],
+      "scene": {
+        "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
+        "analysis": "Quand la vérité éclate, il se crève les yeux et réclame l’exil : les conséquences lui appartiennent, mais a-t-il voulu les crimes dont il découvre être l’auteur ?",
+        "review": "Examen individuel à confirmer par le propriétaire avant fusion ; aucune scène déclarée homologuée automatiquement."
+      },
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "Un désir ignoré, un acte accompli et une conséquence à réparer n’engagent pas la même responsabilité. L’inconscient invite à examiner la capacité réelle de comprendre et de choisir ; la responsabilité se construit aussi lorsque nous apprenons à reconnaître ce qui nous détermine.",
+          "preserves": [
+            "Reconnaître ce qui échappe au choix conscient",
+            "Préserver une responsabilité proportionnée aux capacités"
+          ],
+          "cost": "Reste qu’on ne peut jamais établir exactement toute la part consciente et inconsciente d’un acte : il faut pourtant décider ce qui peut être imputé à son auteur.",
+          "remainingProblem": "Comment attribuer une responsabilité juste lorsque la connaissance de ce qui a déterminé l’acte demeure incomplète ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Processualiser : devenir responsable en se connaissant",
+          "preserves": [
+            "Fait de la responsabilité une tâche plutôt qu’un état total"
+          ],
+          "cost": "Ne suffit pas à juger les actes passés ni à distinguer imputation et réparation",
+          "remainingProblem": "Ne suffit pas à juger les actes passés ni à distinguer imputation et réparation"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Suspendre : les motifs inconscients empêchent toute attribution certaine",
+          "preserves": [
+            "Évite une culpabilité fondée sur la transparence supposée"
+          ],
+          "cost": "La décision de responsabilité ne peut toujours attendre une connaissance exhaustive",
+          "remainingProblem": "La décision de responsabilité ne peut toujours attendre une connaissance exhaustive"
+        }
+      ],
+      "selected": "retenue",
+      "comparison": "La distinction désir/acte/réparation complète le processus de connaissance ; elle évite aussi bien l’excuse totale que la faute imputée à chaque désir.",
+      "strongestObjection": "Nous ne savons pas exactement quelle part de choix demeurait.",
+      "responseToObjection": "La copie ne calcule pas cette part : elle en fait la difficulté persistante de toute attribution juste.",
+      "residual": "Reste qu’on ne peut jamais établir exactement toute la part consciente et inconsciente d’un acte : il faut pourtant décider ce qui peut être imputé à son auteur.",
+      "conclusionQuestion": "Comment attribuer une responsabilité juste lorsque la connaissance de ce qui a déterminé l’acte demeure incomplète ?",
+      "economy": {
+        "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
+        "words": 851
+      },
+      "review": {
+        "author": "ChatGPT",
+        "status": "propose",
+        "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
+      },
+      "copySha256": "156ca74dae5a4796fbf0a04a8db3e9e4b91d986543bfc9706bdb5a556a6b7d43"
+    },
+    "notion-liberte": {
+      "subject": "S’engager, est-ce renoncer à sa liberté ?",
+      "requirements": [
+        "Donner durée et force à la promesse",
+        "Conserver la capacité de juger et de faire autrement"
+      ],
+      "scene": {
+        "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
+        "analysis": "Antigone refuse cet édit par fidélité à son frère : tous deux sont engagés, mais leur fidélité leur laisse-t-elle encore le pouvoir de juger ce qu’elle exige ?",
+        "review": "Examen individuel à confirmer par le propriétaire avant fusion ; aucune scène déclarée homologuée automatiquement."
+      },
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "Une promesse donne à autrui une raison de compter sur nous : elle oblige au-delà de notre préférence présente. La reprendre librement consiste à reconnaître cette raison, non à décider chaque matin qu’elle ne vaut que si elle nous plaît encore.",
+          "preserves": [
+            "Donner durée et force à la promesse",
+            "Conserver la capacité de juger et de faire autrement"
+          ],
+          "cost": "Reste le conflit entre une obligation encore légitime et une transformation profonde de celui qui l’a contractée : aucune règle simple ne fixe le prix acceptable de la fidélité.",
+          "remainingProblem": "Quand la fidélité exige de renoncer à ce que l’on est devenu, comment juger si elle accomplit encore la liberté ou la sacrifie ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Processualiser : renouveler librement la promesse chaque jour",
+          "preserves": [
+            "Montre que tenir peut rester un acte présent"
+          ],
+          "cost": "Si la promesse ne vaut qu’à chaque nouveau consentement, l’obligation envers autrui disparaît",
+          "remainingProblem": "Si la promesse ne vaut qu’à chaque nouveau consentement, l’obligation envers autrui disparaît"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Inverser : la promesse construit la liberté durable",
+          "preserves": [
+            "Explique qu’un lien puisse libérer de l’humeur"
+          ],
+          "cost": "Une fidélité devenue injuste peut alors paraître libre par sa seule constance",
+          "remainingProblem": "Une fidélité devenue injuste peut alors paraître libre par sa seule constance"
+        }
+      ],
+      "selected": "retenue",
+      "comparison": "La fidélité raisonnée conserve une obligation qui dépasse l’humeur tout en donnant des critères de rupture ; elle complète le processus par la raison due à autrui.",
+      "strongestObjection": "Une promesse légitime devient insupportable à celui qui a changé.",
+      "responseToObjection": "Le changement ne suffit pas automatiquement à annuler l’obligation ; son prix doit être jugé et demeure explicitement ouvert.",
+      "residual": "Reste le conflit entre une obligation encore légitime et une transformation profonde de celui qui l’a contractée : aucune règle simple ne fixe le prix acceptable de la fidélité.",
+      "conclusionQuestion": "Quand la fidélité exige de renoncer à ce que l’on est devenu, comment juger si elle accomplit encore la liberté ou la sacrifie ?",
+      "economy": {
+        "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
+        "words": 789
+      },
+      "review": {
+        "author": "ChatGPT",
+        "status": "propose",
+        "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
+      },
+      "copySha256": "cda4c411972a9b153931237a1e4ff11e0581f774f4fccc607ed40eee12714792"
+    },
+    "notion-raison": {
+      "subject": "Suffit-il d’avoir raison pour convaincre ?",
+      "requirements": [
+        "Préserver la force des raisons valides",
+        "Rendre ces raisons accessibles à un esprit situé"
+      ],
+      "scene": {
+        "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
+        "analysis": "Un seul vote non, non qu’il le croie innocent, mais pour qu’on en discute ; au terme d’une longue délibération, il les aura tous ramenés à son avis, un par un.",
+        "review": "Examen individuel à confirmer par le propriétaire avant fusion ; aucune scène déclarée homologuée automatiquement."
+      },
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "Avoir raison désigne la validité d’un jugement ; convaincre exige que l’autre puisse en examiner les raisons. Clarifier un terme, reprendre une objection ou proposer une vérification peut favoriser cette reconnaissance sans remplacer la preuve par la séduction.",
+          "preserves": [
+            "Préserver la force des raisons valides",
+            "Rendre ces raisons accessibles à un esprit situé"
+          ],
+          "cost": "Reste le refus d’examiner : aucune présentation honnête ne garantit que l’autre accepte de mettre sa conviction à l’épreuve.",
+          "remainingProblem": "Que peut encore faire la raison devant un refus de l’examiner, sans transformer la recherche de conviction en contrainte ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Distinguer conviction rationnelle et persuasion affective",
+          "preserves": [
+            "Protège la vérité contre la seule séduction"
+          ],
+          "cost": "Risque de classer les moyens sans expliquer comment rendre une preuve effectivement examinable",
+          "remainingProblem": "Risque de classer les moyens sans expliquer comment rendre une preuve effectivement examinable"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Processualiser : laisser la vérité convaincre avec le temps",
+          "preserves": [
+            "Reconnaît l’apprentissage et la maturation"
+          ],
+          "cost": "La durée ne fournit pas à elle seule le mécanisme qui distingue réflexion et répétition persuasive",
+          "remainingProblem": "La durée ne fournit pas à elle seule le mécanisme qui distingue réflexion et répétition persuasive"
+        }
+      ],
+      "selected": "retenue",
+      "comparison": "L’appropriation par vérification explique le passage de validité à adhésion sans dévaluer la preuve ; elle vaut pour le dialogue comme pour une démonstration écrite.",
+      "strongestObjection": "Un interlocuteur refuse tout examen.",
+      "responseToObjection": "Une présentation rationnelle ne garantit pas son accueil : la copie garde ce refus comme limite, sans autoriser la contrainte.",
+      "residual": "Reste le refus d’examiner : aucune présentation honnête ne garantit que l’autre accepte de mettre sa conviction à l’épreuve.",
+      "conclusionQuestion": "Que peut encore faire la raison devant un refus de l’examiner, sans transformer la recherche de conviction en contrainte ?",
+      "economy": {
+        "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
+        "words": 813
+      },
+      "review": {
+        "author": "ChatGPT",
+        "status": "propose",
+        "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
+      },
+      "copySha256": "2e77fb6cb8d07f0d3a08a5560a309f1c5b5d4172c422b2ad6af85f95a9db11b1"
+    },
+    "notion-technique": {
+      "subject": "Ce qui est techniquement possible est-il toujours souhaitable ?",
+      "requirements": [
+        "Préserver les biens rendus possibles par la technique",
+        "Ne pas autoriser tout moyen et tout risque au nom du pouvoir"
+      ],
+      "scene": {
+        "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
+        "analysis": "Plus tard, il promet à la créature de lui fabriquer une compagne, puis la détruit avant de l’achever, de peur d’engendrer une race de monstres ; la créature se venge sur ceux qu’il aime.",
+        "review": "Examen individuel à confirmer par le propriétaire avant fusion ; aucune scène déclarée homologuée automatiquement."
+      },
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "Le souhaitable exige de justifier la fin, les moyens et les effets prévisibles. Une fin digne ne rend pas tous ses moyens acceptables : soigner ne suffit pas à autoriser une expérience imposée à ceux qui en subiront les risques.",
+          "preserves": [
+            "Préserver les biens rendus possibles par la technique",
+            "Ne pas autoriser tout moyen et tout risque au nom du pouvoir"
+          ],
+          "cost": "Reste que des conséquences décisives peuvent être inconnues : le jugement doit parfois décider sans pouvoir établir complètement la sécurité d’un projet.",
+          "remainingProblem": "Comment décider d’un possible technique lorsque ses risques sont incertains et que l’attente elle-même peut priver les hommes d’un bien ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Distinguer possible et fins collectivement choisies",
+          "preserves": [
+            "Évite de faire du pouvoir son propre critère"
+          ],
+          "cost": "Une fin digne ou majoritaire peut couvrir un moyen injuste et des risques imposés aux absents",
+          "remainingProblem": "Une fin digne ou majoritaire peut couvrir un moyen injuste et des risques imposés aux absents"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Processualiser : expérimenter puis corriger",
+          "preserves": [
+            "Préserve apprentissage et innovation"
+          ],
+          "cost": "La correction peut devenir impossible après un dommage irréversible",
+          "remainingProblem": "La correction peut devenir impossible après un dommage irréversible"
+        }
+      ],
+      "selected": "retenue",
+      "comparison": "L’examen conjoint fins/moyens/risques inclut les personnes absentes du choix ; il conserve l’innovation sans assimiler accord public et justification morale.",
+      "strongestObjection": "Refuser dans l’incertitude peut priver d’un remède.",
+      "responseToObjection": "Le risque de ne pas agir entre dans la comparaison ; son arbitrage avec le risque de réalisation est le reste.",
+      "residual": "Reste que des conséquences décisives peuvent être inconnues : le jugement doit parfois décider sans pouvoir établir complètement la sécurité d’un projet.",
+      "conclusionQuestion": "Comment décider d’un possible technique lorsque ses risques sont incertains et que l’attente elle-même peut priver les hommes d’un bien ?",
+      "economy": {
+        "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
+        "words": 885
+      },
+      "review": {
+        "author": "ChatGPT",
+        "status": "propose",
+        "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
+      },
+      "copySha256": "af56b9298f3b59ba0ab5967582bf51f9e7aca5a093bc683ad8394d1ccff29652"
+    },
+    "notion-temps": {
+      "subject": "Le temps est-il nécessairement destructeur ?",
+      "requirements": [
+        "Reconnaître les pertes réelles",
+        "Reconnaître la formation et la nouveauté dans la durée"
+      ],
+      "scene": {
+        "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
+        "analysis": "Ces déguisements sont l’œuvre du temps ; pourtant, quelques instants plus tôt, des souvenirs soudain ressurgis lui ont révélé l’œuvre qu’il lui reste à écrire, le livre qui sauvera ce temps perdu.",
+        "review": "Examen individuel à confirmer par le propriétaire avant fusion ; aucune scène déclarée homologuée automatiquement."
+      },
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "Le temps permet des transformations où ce qui disparaît laisse des capacités ou des effets : l’apprentissage remplace une ignorance, une œuvre reprend une expérience. Ces gains ne rendent pas la chose perdue, mais empêchent d’assimiler tout passage à une pure ruine.",
+          "preserves": [
+            "Reconnaître les pertes réelles",
+            "Reconnaître la formation et la nouveauté dans la durée"
+          ],
+          "cost": "Reste qu’une transformation féconde ne compense pas nécessairement la perte singulière dont elle procède : une œuvre ne rend pas une personne morte.",
+          "remainingProblem": "À quelles conditions ce que le temps permet de créer peut-il donner sens à une perte, sans prétendre la réparer ni la justifier ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Distinguer ce qui existe de ce qui a existé",
+          "preserves": [
+            "Sauve l’irrévocabilité d’un événement passé"
+          ],
+          "cost": "Le fait de ne plus pouvoir ne pas avoir été ne conserve pas l’être détruit",
+          "remainingProblem": "Le fait de ne plus pouvoir ne pas avoir été ne conserve pas l’être détruit"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Inverser : la destruction est condition de création",
+          "preserves": [
+            "Relie disparition et nouveauté dans certains processus"
+          ],
+          "cost": "Universalise trop vite ce lien et transforme les pertes singulières en sacrifices justifiés",
+          "remainingProblem": "Universalise trop vite ce lien et transforme les pertes singulières en sacrifices justifiés"
+        }
+      ],
+      "selected": "retenue",
+      "comparison": "La distinction disparition/transformation rend compte des gains sans confondre mémoire et restitution, ni proclamer toute perte nécessaire au progrès.",
+      "strongestObjection": "Une création succède à une perte sans la compenser.",
+      "responseToObjection": "La copie distingue explicitement création et compensation ; donner sens sans justifier la perte devient sa question finale.",
+      "residual": "Reste qu’une transformation féconde ne compense pas nécessairement la perte singulière dont elle procède : une œuvre ne rend pas une personne morte.",
+      "conclusionQuestion": "À quelles conditions ce que le temps permet de créer peut-il donner sens à une perte, sans prétendre la réparer ni la justifier ?",
+      "economy": {
+        "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
+        "words": 846
+      },
+      "review": {
+        "author": "ChatGPT",
+        "status": "propose",
+        "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
+      },
+      "copySha256": "e1b3fff6c404ec80731b54aa50e6d9b18272f84a91eb3b191603aadd3cf38875"
+    },
+    "notion-travail": {
+      "subject": "Le travail nous rend-il plus humain ?",
+      "requirements": [
+        "Reconnaître la formation par l’activité",
+        "Reconnaître la contrainte et l’aliénation du travail réel"
+      ],
+      "scene": {
+        "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
+        "analysis": "Et pourtant, le même Charlot passe le film à chercher du travail, car sans lui il n’a ni toit ni place parmi les autres.",
+        "review": "Examen individuel à confirmer par le propriétaire avant fusion ; aucune scène déclarée homologuée automatiquement."
+      },
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "Un travail forme lorsque l’agent peut comprendre un but, développer une capacité et participer au jugement sur ce qu’il fait. Sa reconnaissance sociale importe aussi : une compétence niée peut servir autrui sans donner au travailleur une place autonome.",
+          "preserves": [
+            "Reconnaître la formation par l’activité",
+            "Reconnaître la contrainte et l’aliénation du travail réel"
+          ],
+          "cost": "Reste qu’une société a besoin de tâches pénibles dont l’organisation peut réduire, mais pas toujours supprimer, la répétition et la fatigue.",
+          "remainingProblem": "Comment partager les tâches nécessaires qui restent pénibles, sans réserver à certains le travail formateur et à d’autres sa seule contrainte ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Métamorphoser le travail en activité libre",
+          "preserves": [
+            "Préserve création et initiative"
+          ],
+          "cost": "Risque de sauver seulement un travail idéal en excluant les tâches nécessaires contraintes",
+          "remainingProblem": "Risque de sauver seulement un travail idéal en excluant les tâches nécessaires contraintes"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Processualiser : traverser l’aliénation pour se former",
+          "preserves": [
+            "Explique certains apprentissages dans la contrainte"
+          ],
+          "cost": "Risque de rendre toute souffrance formatrice sans épreuve de ses effets réels",
+          "remainingProblem": "Risque de rendre toute souffrance formatrice sans épreuve de ses effets réels"
+        }
+      ],
+      "selected": "retenue",
+      "comparison": "Les critères de compréhension, jugement et coopération permettent d’évaluer l’organisation réelle ; ils n’effacent pas les tâches qui demeurent pénibles.",
+      "strongestObjection": "Une tâche utile reste répétitive malgré une organisation plus juste.",
+      "responseToObjection": "Le pouvoir formateur n’est pas promis partout : la répartition des tâches nécessaires constitue le reste.",
+      "residual": "Reste qu’une société a besoin de tâches pénibles dont l’organisation peut réduire, mais pas toujours supprimer, la répétition et la fatigue.",
+      "conclusionQuestion": "Comment partager les tâches nécessaires qui restent pénibles, sans réserver à certains le travail formateur et à d’autres sa seule contrainte ?",
+      "economy": {
+        "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
+        "words": 838
+      },
+      "review": {
+        "author": "ChatGPT",
+        "status": "propose",
+        "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
+      },
+      "copySha256": "6bd123a846c4a58314e598fb8288076b630e28909e237d94e3c7e9f35c88041d"
+    },
+    "notion-verite": {
+      "subject": "Toute vérité est-elle bonne à dire ?",
+      "requirements": [
+        "Respecter l’exactitude et le jugement d’autrui",
+        "Respecter les droits et les effets de la divulgation"
+      ],
+      "scene": {
+        "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
+        "analysis": "Il a raison, car le sonnet est médiocre ; mais il se fait un ennemi, et la scène tourne à l’affaire d’honneur.",
+        "review": "Examen individuel à confirmer par le propriétaire avant fusion ; aucune scène déclarée homologuée automatiquement."
+      },
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "Une vérité est vraie indépendamment de l’opportunité de la dire. La véracité interdit de présenter sciemment le faux comme vrai ; elle ne suffit pas à établir un devoir de révéler un secret ou une information qui concerne un tiers.",
+          "preserves": [
+            "Respecter l’exactitude et le jugement d’autrui",
+            "Respecter les droits et les effets de la divulgation"
+          ],
+          "cost": "Reste le conflit entre un secret légitime et une information nécessaire à la protection d’autrui : les deux exigences peuvent demeurer sérieuses.",
+          "remainingProblem": "Quand protéger quelqu’un exige de rompre une confiance légitime, comment justifier ce que l’on révèle sans abolir le devoir de discrétion ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Déplacer : seule la manière de dire importe",
+          "preserves": [
+            "Explique le rôle du tact sans renoncer à l’honnêteté"
+          ],
+          "cost": "Le tact ne rend pas légitime une divulgation injuste et ne supprime pas tous ses dommages",
+          "remainingProblem": "Le tact ne rend pas légitime une divulgation injuste et ne supprime pas tous ses dommages"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Consentir : la vérité blesse parfois nécessairement",
+          "preserves": [
+            "Reconnaît que certaines informations doivent être données malgré leur douleur"
+          ],
+          "cost": "Ne distingue pas les douleurs nécessaires de celles qu’une divulgation injustifiée impose",
+          "remainingProblem": "Ne distingue pas les douleurs nécessaires de celles qu’une divulgation injustifiée impose"
+        }
+      ],
+      "selected": "retenue",
+      "comparison": "La distinction vérité/véracité/divulgation traite aussi bien le silence que la manière de dire ; elle évite de résoudre le sujet par le seul tact.",
+      "strongestObjection": "Protéger quelqu’un peut exiger de rompre un secret légitime.",
+      "responseToObjection": "Les droits entrent alors réellement en conflit ; la question finale porte sur la justification de cette rupture.",
+      "residual": "Reste le conflit entre un secret légitime et une information nécessaire à la protection d’autrui : les deux exigences peuvent demeurer sérieuses.",
+      "conclusionQuestion": "Quand protéger quelqu’un exige de rompre une confiance légitime, comment justifier ce que l’on révèle sans abolir le devoir de discrétion ?",
+      "economy": {
+        "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
+        "words": 868
+      },
+      "review": {
+        "author": "ChatGPT",
+        "status": "propose",
+        "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
+      },
+      "copySha256": "dfa1a9b06fee3007aaef5beb60c1f27ec2361893f699b79d5f77df91a3df0c45"
+    },
+    "2025-me-verite": {
+      "subject": "La vérité est-elle toujours convaincante ?",
+      "requirements": [
+        "Préserver la validité des raisons",
+        "Expliquer leur reconnaissance sans manipulation"
+      ],
+      "scene": {
+        "source": "Référence de l’œuvre indiquée dans la copie ; récit paraphrasé sans citation.",
+        "analysis": "Il sait quelque chose que les autres ignorent ; pourtant ce savoir ne leur apparaît pas comme une raison de le croire. La vérité peut éclairer celui qui la découvre sans s’imposer à ceux auxquels il la dit.",
+        "review": "Examen individuel à confirmer par le propriétaire avant fusion."
+      },
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "Distinguer validité et réception ne les sépare pas définitivement : expliquer les termes, reconstruire un raisonnement et répondre aux objections peut permettre à l’autre de reconnaître lui-même ce qui justifie l’affirmation.",
+          "preserves": [
+            "Préserver la validité des raisons",
+            "Expliquer leur reconnaissance sans manipulation"
+          ],
+          "cost": "Reste que l’interlocuteur peut refuser toute vérification : rendre la preuve accessible ne garantit pas qu’il acceptera de l’examiner.",
+          "remainingProblem": "Lorsque toute vérification est refusée, comment défendre la vérité sans confondre la conviction rationnelle avec une adhésion imposée ?"
+        },
+        {
+          "id": "alternative-0",
+          "proposal": "Distinguer vérité et persuasion",
+          "preserves": [
+            "Protège la validité contre l’adhésion"
+          ],
+          "cost": "Sépare les plans sans expliquer comment la preuve devient accessible",
+          "remainingProblem": "Sépare les plans sans expliquer comment la preuve devient accessible"
+        },
+        {
+          "id": "alternative-1",
+          "proposal": "Processualiser : l’habitude finit par rendre le vrai convaincant",
+          "preserves": [
+            "Reconnaît le temps nécessaire à l’apprentissage"
+          ],
+          "cost": "La répétition d’un énoncé faux peut aussi produire l’adhésion",
+          "remainingProblem": "La répétition d’un énoncé faux peut aussi produire l’adhésion"
+        }
+      ],
+      "selected": "retenue",
+      "comparison": "L’appropriation par examen relie les plans au lieu de les juxtaposer, et distingue apprentissage et répétition persuasive.",
+      "strongestObjection": "Une preuve comprise peut rester refusée par intérêt.",
+      "responseToObjection": "Le refus de vérifier demeure une limite : le mécanisme n’est pas une garantie d’adhésion.",
+      "residual": "Reste que l’interlocuteur peut refuser toute vérification : rendre la preuve accessible ne garantit pas qu’il acceptera de l’examiner.",
+      "conclusionQuestion": "Lorsque toute vérification est refusée, comment défendre la vérité sans confondre la conviction rationnelle avec une adhésion imposée ?",
+      "economy": {
+        "principle": "Préserver raisons, objection et réponse avant de supprimer une phrase.",
+        "words": 630
+      },
+      "review": {
+        "author": "ChatGPT",
+        "status": "propose",
+        "independentReview": "À effectuer par Claude ; aucune note certifiée."
+      },
+      "subjectVerification": {
+        "code": "25-PHGEME1",
+        "page": 2,
+        "date": "2026-10-11",
+        "title": "La vérité est-elle toujours convaincante ?",
+        "sourceDocument": "Document officiel de la session 2025, libellé contrôlé page 2 ; index ministériel lié dans la page."
+      },
+      "copySha256": "909b7626e046a335f829b17d3c5ff37770ca72c38f8da2c429d65c82eae8a2ec"
+    },
+    "2025-me-avenir-technique": {
+      "subject": "Notre avenir dépend-il de la technique ?",
+      "requirements": [
+        "Reconnaître les conditions et dépendances techniques",
+        "Préserver une décision collective sur les fins"
+      ],
+      "scene": {
+        "source": "Référence de l’œuvre indiquée dans la copie ; récit paraphrasé sans citation.",
+        "analysis": "Les moyens de survivre ne donnent donc pas à eux seuls les moyens de vivre ensemble. Pourtant la justice ne nourrit ni n’abrite ceux auxquels manquent les techniques.",
+        "review": "Examen individuel à confirmer par le propriétaire avant fusion."
+      },
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "Le rapport va dans les deux sens : nos fins orientent les techniques, mais celles-ci transforment nos fins et nos possibilités. Choisir l’avenir exige donc de juger aussi la manière dont les moyens nous rendent dépendants.",
+          "preserves": [
+            "Reconnaître les conditions et dépendances techniques",
+            "Préserver une décision collective sur les fins"
+          ],
+          "cost": "Reste que certains choix deviennent irréversibles ou que leurs conséquences ne sont découvertes qu’après leur adoption : la possibilité de révision ne peut pas toujours être garantie.",
+          "remainingProblem": "Comment décider ensemble lorsque les moyens qui promettent un avenir meilleur risquent de supprimer la possibilité de le choisir autrement ?"
+        },
+        {
+          "id": "alternative-0",
+          "proposal": "Distinguer moyens techniques et fins politiques",
+          "preserves": [
+            "Reconnaît la place du jugement"
+          ],
+          "cost": "Présuppose des moyens neutres et des fins indépendantes de leur transformation",
+          "remainingProblem": "Présuppose des moyens neutres et des fins indépendantes de leur transformation"
+        },
+        {
+          "id": "alternative-1",
+          "proposal": "Processualiser : choisir les usages après les inventions",
+          "preserves": [
+            "Préserve un examen des applications"
+          ],
+          "cost": "Certaines dépendances sont déjà irréversibles quand cet examen commence",
+          "remainingProblem": "Certaines dépendances sont déjà irréversibles quand cet examen commence"
+        }
+      ],
+      "selected": "retenue",
+      "comparison": "Le rapport réciproque permet de juger aussi la production des moyens ; il ne reporte pas tout choix après leur adoption.",
+      "strongestObjection": "Les conséquences peuvent rester imprévisibles.",
+      "responseToObjection": "Conserver des possibilités de correction réduit un coût sans le supprimer ; l’irréversibilité fonde la conclusion.",
+      "residual": "Reste que certains choix deviennent irréversibles ou que leurs conséquences ne sont découvertes qu’après leur adoption : la possibilité de révision ne peut pas toujours être garantie.",
+      "conclusionQuestion": "Comment décider ensemble lorsque les moyens qui promettent un avenir meilleur risquent de supprimer la possibilité de le choisir autrement ?",
+      "economy": {
+        "principle": "Préserver raisons, objection et réponse avant de supprimer une phrase.",
+        "words": 641
+      },
+      "review": {
+        "author": "ChatGPT",
+        "status": "propose",
+        "independentReview": "À effectuer par Claude ; aucune note certifiée."
+      },
+      "subjectVerification": {
+        "code": "25-PHGEME1",
+        "page": 2,
+        "date": "2026-10-11",
+        "title": "Notre avenir dépend-il de la technique ?",
+        "sourceDocument": "Document officiel de la session 2025, libellé contrôlé page 2 ; index ministériel lié dans la page."
+      },
+      "copySha256": "dd7af172c1b063c2e490dad708d93bf30d343434f0f82a6ae07b8472c6599a41"
+    },
+    "2025-me-besoin-art": {
+      "subject": "Avons-nous besoin d’art ?",
+      "requirements": [
+        "Reconnaître la liberté des goûts",
+        "Reconnaître les besoins de perception, expression et partage"
+      ],
+      "scene": {
+        "source": "Référence de l’œuvre indiquée dans la copie ; récit paraphrasé sans citation.",
+        "analysis": "Le chant n’est ni un repas ni un abri. Pourtant il touche une expérience que l’accueil matériel n’avait pas fait reconnaître : vivre parmi les autres demande-t-il aussi de pouvoir leur faire entendre ce que l’on a vécu ?",
+        "review": "Examen individuel à confirmer par le propriétaire avant fusion."
+      },
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "Le besoin peut porter sur une possibilité : créer, écouter, regarder et partager des formes, plutôt que posséder une œuvre déterminée. L’art y répond diversement, par des pratiques ordinaires comme par des œuvres élaborées.",
+          "preserves": [
+            "Reconnaître la liberté des goûts",
+            "Reconnaître les besoins de perception, expression et partage"
+          ],
+          "cost": "Reste que le récit, le jeu ou la conversation peuvent aussi exprimer et partager une expérience : il faut encore préciser ce que l’art apporte que ces autres pratiques ne réalisent pas toujours.",
+          "remainingProblem": "Qu’apporte une forme artistique à l’expression d’une expérience, que le récit ordinaire et la conversation ne peuvent pas toujours lui donner ?"
+        },
+        {
+          "id": "alternative-0",
+          "proposal": "Distinguer besoin biologique et besoin spirituel",
+          "preserves": [
+            "Élargit la vie humaine au-delà de la survie"
+          ],
+          "cost": "Ne démontre pas pourquoi un besoin spirituel exigerait précisément une réponse artistique",
+          "remainingProblem": "Ne démontre pas pourquoi un besoin spirituel exigerait précisément une réponse artistique"
+        },
+        {
+          "id": "alternative-1",
+          "proposal": "Métamorphoser l’art en toute activité expressive",
+          "preserves": [
+            "Rend le besoin largement accessible"
+          ],
+          "cost": "Sauve la nécessité en supprimant la distinction entre art et expression ordinaire",
+          "remainingProblem": "Sauve la nécessité en supprimant la distinction entre art et expression ordinaire"
+        }
+      ],
+      "selected": "retenue",
+      "comparison": "Le besoin d’une possibilité maintient liberté et fonction sans rendre toute œuvre indispensable ; la frontière avec les autres pratiques reste assumée plutôt que supprimée.",
+      "strongestObjection": "Une conversation peut remplir la fonction de partage.",
+      "responseToObjection": "La copie n’assimile pas toute expression à l’art : sa contribution spécifique reste l’objet de la conclusion.",
+      "residual": "Reste que le récit, le jeu ou la conversation peuvent aussi exprimer et partager une expérience : il faut encore préciser ce que l’art apporte que ces autres pratiques ne réalisent pas toujours.",
+      "conclusionQuestion": "Qu’apporte une forme artistique à l’expression d’une expérience, que le récit ordinaire et la conversation ne peuvent pas toujours lui donner ?",
+      "economy": {
+        "principle": "Préserver raisons, objection et réponse avant de supprimer une phrase.",
+        "words": 687
+      },
+      "review": {
+        "author": "ChatGPT",
+        "status": "propose",
+        "independentReview": "À effectuer par Claude ; aucune note certifiée."
+      },
+      "subjectVerification": {
+        "code": "25-PHTEME1",
+        "page": 2,
+        "date": "2026-10-11",
+        "title": "Avons-nous besoin d’art ?",
+        "sourceDocument": "Document officiel de la session 2025, libellé contrôlé page 2 ; index ministériel lié dans la page."
+      },
+      "copySha256": "cf70b3219069ec26ed143b90ee5735e91d56d8a18daa4f8cd6411c37d04e290c"
+    }
+  }
+}

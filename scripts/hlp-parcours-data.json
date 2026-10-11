@@ -1,0 +1,1028 @@
+{
+  "version": 1,
+  "verifiedOn": "2026-10-11",
+  "subjects": [
+    {
+      "id": "premiere-moliere",
+      "level": "premiere",
+      "author": "Molière",
+      "work": "George Dandin, acte I, scène 4 (1668)",
+      "session": "Sujet zéro n° 2 de première, 2019 · entraînement",
+      "code": "Sujet zéro n° 2",
+      "source": "https://eduscol.education.gouv.fr/sites/default/files/document/ra19lyceeg1-thlpexemple-sujet-commentesujet-zero21205357pdf-83931.pdf",
+      "pages": "Texte et questions : page 1 du PDF.",
+      "entry": "Les pouvoirs de la parole",
+      "responses": [
+        {
+          "id": "interpretation",
+          "kind": "interpL",
+          "question": "Selon vous, qui domine dans le dialogue ci-dessus ?",
+          "choices": [
+            [
+              "Les nobles dominent l’échange, mais Dandin déstabilise leur prestige.",
+              "Solide",
+              "Vous distinguez le contrôle de la conversation et la contestation des titres sociaux."
+            ],
+            [
+              "Les nobles dominent parce qu’ils réfutent les reproches faits au mariage.",
+              "À revoir",
+              "Ils contrôlent les appellations, mais ne réfutent pas les reproches économiques de Dandin."
+            ],
+            [
+              "Les nobles dominent Dandin, puisqu’ils lui imposent leurs règles.",
+              "Défendable",
+              "Cette lecture tient, mais elle doit examiner la riposte finale de Dandin."
+            ]
+          ],
+          "stages": [
+            [
+              "Définissez « domine » en une phrase, pour ce dialogue.",
+              "Distinguez la possibilité de parler et la force de ce qui est dit.",
+              "Dominer peut être imposer les règles de l’échange ; cela ne garantit pas de convaincre le public."
+            ],
+            [
+              "Relevez deux interruptions différentes. Expliquez chacune en une phrase.",
+              "Regardez les façons de nommer le père et l’épouse.",
+              "Les beaux-parents déplacent la plainte vers le respect des appellations : la forme de la parole empêche d’en entendre le contenu."
+            ],
+            [
+              "Expliquez la dernière réplique de Dandin en trois phrases.",
+              "Comparez l’argent apporté et le titre reçu.",
+              "Dandin oppose son secours financier à un gain surtout nominal ; il dénonce la disproportion de l’échange et fragilise le prestige des nobles."
+            ],
+            [
+              "Rangez vos idées en deux ou trois étapes. Justifiez l’ordre en une phrase.",
+              "Demandez-vous ce que change la riposte après les interruptions.",
+              "Montrer d’abord le contrôle aristocratique rend ensuite visible sa fragilité ; un autre ordre est possible s’il démontre cette différence."
+            ],
+            [
+              "Rédigez un paragraphe de cinq à huit phrases sur un appui du texte.",
+              "Reliez un détail du dialogue à votre réponse sur la domination.",
+              "Un paragraphe solide explique une interruption ou la réplique finale et en tire une conclusion précise sur le rapport de force."
+            ]
+          ],
+          "criteria": [
+            "Je réponds à « qui domine », en distinguant les formes de domination.",
+            "J’explique les interruptions et la riposte avec des appuis précis.",
+            "Je distingue le point de vue des personnages et l’effet sur le public."
+          ],
+          "model": [
+            [
+              "Les Sotenville semblent dominer cette conversation : ils imposent à Dandin les conditions auxquelles il peut parler. Pourtant, celui-ci finit par attaquer la valeur de leur noblesse. Le dialogue distingue ainsi le pouvoir de régler l’échange et celui de mettre au jour une contradiction.",
+              "Une réponse immédiate, précisée plutôt qu’un résumé de la scène."
+            ],
+            [
+              "Dandin vient se plaindre de son mariage ; ses beaux-parents l’arrêtent sur les appellations qu’il emploie. Le père exige une manière respectueuse de s’adresser à lui. La mère refuse que Dandin désigne simplement leur fille comme son épouse. Chaque correction détourne donc la parole de son objet : avant de pouvoir exposer son tort, le mari doit reconnaître la supériorité sociale de ceux auxquels il le soumet. Les interruptions font de la politesse un moyen de domination.",
+              "La forme théâtrale est analysée par ce qu’elle fait à la plainte."
+            ],
+            [
+              "Cette autorité produit néanmoins une absurdité que Dandin rend audible : « ma femme n’est pas ma femme ? » Sa question oppose un fait, le mariage, à une règle de langage qui paraît l’annuler. Les nobles se donnent le droit de définir même ce qui appartient à sa vie. Mais le spectateur entend aussi le ridicule de cette exigence : imposer un vocabulaire ne suffit pas à rendre cohérent ce qu’il commande.",
+              "La citation exacte sert une interprétation ; elle n’est pas décorative."
+            ],
+            [
+              "Dandin cesse enfin de demander seulement qu’on l’écoute : il rappelle ce qu’il a apporté. Son argent a relevé la famille ; en échange, il a surtout obtenu le nom de Monsieur de la Dandinière. L’opposition entre un secours réel et un allongement nominal révèle la dépendance matérielle des nobles. Ceux qui prétendent lui être supérieurs lui doivent leur situation. Sa colère ne lui donne pas soudain le pouvoir social, mais elle expose le prix exorbitant du prestige qu’il a acheté.",
+              "La riposte est prise au sérieux sans inventer une victoire complète."
+            ],
+            [
+              "Les Sotenville dominent donc les règles du dialogue ; Dandin conteste leur légitimité. Molière fait du théâtre le lieu où leur supériorité peut être exercée devant lui et défaite, au moins en partie, devant le public.",
+              "La conclusion répond à la question en maintenant la différence démontrée."
+            ]
+          ]
+        },
+        {
+          "id": "reflexion",
+          "kind": "reflexionP",
+          "question": "La parole peut-elle être une arme sociale ?",
+          "choices": [
+            [
+              "La parole est une arme seulement lorsqu’elle contient une insulte.",
+              "À revoir",
+              "Les interruptions polies de la scène produisent aussi une domination sociale."
+            ],
+            [
+              "La parole peut agir sur les rapports sociaux en fixant qui est entendu.",
+              "Solide",
+              "Vous expliquez une efficacité sociale, au lieu de réduire l’arme à la violence verbale."
+            ],
+            [
+              "La parole est une arme parce qu’elle peut blesser quelqu’un.",
+              "Défendable",
+              "Il faut préciser ce qui fait de cette blessure un effet social, et pas seulement personnel."
+            ]
+          ],
+          "stages": [
+            [
+              "Définissez « arme sociale » en deux phrases.",
+              "Une arme agit ; « sociale » concerne les rapports entre des personnes ou des groupes.",
+              "La parole devient une arme sociale si elle modifie un rapport de pouvoir, une réputation, une exclusion ou une reconnaissance."
+            ],
+            [
+              "Expliquez en trois phrases ce que la scène de Dandin apprend au sujet.",
+              "L’attaque peut prendre la forme d’une règle de politesse.",
+              "Le langage peut réduire un interlocuteur au silence sans insulte ; il peut aussi dévoiler la dépendance de ceux qui le dominent."
+            ],
+            [
+              "Choisissez un exemple précis. Expliquez comment la parole y agit, en quatre phrases.",
+              "Vous pouvez étudier un refus de parole, une accusation ou une défense.",
+              "L’exemple doit faire voir un mécanisme : modifier un statut, empêcher une plainte ou rendre un tort public."
+            ],
+            [
+              "Écrivez une objection à votre réponse. Précisez-la en deux phrases.",
+              "Une parole vraie est-elle toujours entendue ?",
+              "La force du langage dépend aussi de l’auditoire, du statut et de moyens d’action ; cette limite évite de lui attribuer une puissance magique."
+            ],
+            [
+              "Rédigez un paragraphe de cinq à huit phrases : une idée, sa raison et son exemple.",
+              "Chaque phrase doit faire avancer votre réponse.",
+              "Une réponse personnelle est argumentée ; la précision de l’exemple compte davantage que l’accumulation de noms."
+            ]
+          ],
+          "criteria": [
+            "Je précise le sens social de l’arme.",
+            "Je pars du texte et je développe une réflexion personnelle justifiée.",
+            "Mes exemples expliquent l’efficacité et les conditions de la parole."
+          ],
+          "model": [
+            [
+              "La parole peut être une arme sociale sans devenir une insulte. Une arme permet d’agir sur autrui ; la parole acquiert ce pouvoir lorsqu’elle organise ce qui peut être dit, par qui et devant qui. La scène de George Dandin montre précisément une violence exercée sous les formes de la politesse.",
+              "Le sujet est défini à partir du texte, sans introduction de dissertation imposée."
+            ],
+            [
+              "Les Sotenville n’ont pas besoin de réfuter la plainte : ils la retardent en corrigeant les appellations du plaignant. Leur rang devient la condition préalable de toute discussion. La règle paraît commune, mais elle profite à ceux qui la fixent. De même, disqualifier quelqu’un pour sa manière de parler peut permettre de ne jamais examiner la vérité de ce qu’il dit. La parole agit alors sur la place sociale de l’interlocuteur : elle décide s’il sera reconnu comme capable de réclamer justice.",
+              "Une idée, un mécanisme et une conséquence sociale."
+            ],
+            [
+              "Mais une arme peut changer de main. Dandin rappelle que son argent a sauvé ceux qui lui imposent leur supériorité. Il rend visible ce qu’un titre dissimulait. Dans le J’accuse d’Émile Zola, la prise de parole publique fait également d’une injustice une affaire qui oblige l’opinion à se prononcer. Elle ne corrige pas immédiatement le tort ; elle rompt le silence qui protégeait les responsables. L’efficacité sociale consiste ici à déplacer les conditions du jugement.",
+              "Une référence précise fait progresser l’argument : rendre un tort public."
+            ],
+            [
+              "Il serait pourtant faux de croire que bien parler suffit à vaincre. Dandin reste exposé au pouvoir de ses beaux-parents. Une défense vraie peut être refusée par un auditoire hostile, tandis qu’une accusation mensongère peut bénéficier d’une autorité reconnue. La force d’une parole dépend donc de sa circulation, de ceux qui l’écoutent et des institutions qui lui donnent suite. Cette dépendance explique aussi pourquoi l’accès à la parole constitue un enjeu social.",
+              "La limite porte sur l’efficacité réelle, sans fabriquer une partie contraire automatique."
+            ],
+            [
+              "La parole est ainsi une arme possible, de domination comme de contestation. Son enjeu ne se réduit pas à blesser : elle peut fixer une place ou rendre cette place discutable. La rendre plus juste suppose de juger les raisons entendues, plutôt que le seul rang de celui qui les prononce.",
+              "Une réponse nette et une conséquence justifiée ferment l’essai."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "premiere-descartes",
+      "level": "premiere",
+      "author": "René Descartes",
+      "work": "Discours de la méthode, première partie (1637)",
+      "session": "Sujet zéro n° 3 de première, 2019 · entraînement",
+      "code": "Sujet zéro n° 3",
+      "source": "https://eduscol.education.gouv.fr/sites/default/files/document/ra19lyceeg1-thlpexemple-sujet-commentesujet-zero31205359pdf-83934.pdf",
+      "pages": "Texte et questions : page 1 du PDF.",
+      "entry": "Les représentations du monde",
+      "responses": [
+        {
+          "id": "interpretation",
+          "kind": "interpP",
+          "question": "Quels bénéfices Descartes retire-t-il de ses voyages ?",
+          "choices": [
+            [
+              "Les voyages lui révèlent les coutumes qui doivent servir de lois.",
+              "À revoir",
+              "La diversité des coutumes lui apprend justement à ne pas les prendre pour des vérités certaines."
+            ],
+            [
+              "Les voyages lui apprennent à douter des croyances habituelles.",
+              "Défendable",
+              "Il faut relier ce doute à un jugement plus raisonnable et à la conduite de sa vie."
+            ],
+            [
+              "Les voyages éprouvent ses jugements et l’affranchissent des habitudes.",
+              "Solide",
+              "Vous réunissez l’épreuve des affaires réelles et la remise en cause des certitudes coutumières."
+            ]
+          ],
+          "stages": [
+            [
+              "Dites en une phrase ce que « bénéfices » vous demande de rechercher.",
+              "Un bénéfice est un effet favorable, pas seulement un événement du voyage.",
+              "La réponse doit expliquer les progrès du jugement que Descartes attribue à ses voyages."
+            ],
+            [
+              "Comparez l’étude scolaire et les affaires réelles en trois phrases.",
+              "Repérez ce qui arrive lorsqu’un raisonnement est faux.",
+              "Dans les affaires, les effets corrigent les mauvaises décisions ; certaines spéculations peuvent au contraire nourrir la vanité sans épreuve comparable."
+            ],
+            [
+              "Expliquez en trois phrases pourquoi la diversité des coutumes ne fournit pas une vérité immédiate.",
+              "Comparez « appris par la coutume » et « établi par raison ».",
+              "Voir d’autres usages déstabilise les évidences reçues ; cela libère le jugement sans prouver que toutes les opinions se valent."
+            ],
+            [
+              "Écrivez deux ou trois étapes de réponse. Reliez-les en une phrase.",
+              "Faites apparaître le passage de l’expérience extérieure au travail du jugement.",
+              "Les voyages mettent les raisonnements à l’épreuve et délivrent de certitudes habituelles : ces bénéfices préparent une recherche rationnelle."
+            ],
+            [
+              "Rédigez un paragraphe de cinq à huit phrases sur l’un de ces bénéfices.",
+              "Expliquez une raison du texte plutôt que de raconter les déplacements.",
+              "La réponse doit montrer comment le voyage transforme le jugement et préciser ce qu’il ne prouve pas encore."
+            ]
+          ],
+          "criteria": [
+            "Je réponds sur les bénéfices, pas sur la biographie de Descartes.",
+            "Je reconstruis les raisons utiles à cette question.",
+            "Je distingue libération des préjugés et vérité déjà acquise."
+          ],
+          "model": [
+            [
+              "Les voyages ne donnent pas à Descartes une doctrine qu’il suffirait d’adopter. Ils lui apportent une épreuve de ses raisonnements et une distance à l’égard de ses habitudes. Leur bénéfice principal est donc de préparer un jugement plus autonome, utile à la conduite de sa vie.",
+              "La réponse annonce les bénéfices précis demandés."
+            ],
+            [
+              "Le premier avantage tient au contraste entre l’étude des lettres et le « grand livre du monde ». Dans les affaires réelles, celui qui raisonne mal risque d’en subir les effets. Une décision ne vaut pas seulement parce qu’elle paraît ingénieuse : son résultat la met à l’épreuve. Descartes oppose cette exigence aux spéculations dont l’auteur peut tirer de la vanité précisément parce qu’elles s’éloignent du sens commun. Ce n’est pas tout savoir scolaire qui est rejeté ; c’est un raisonnement qui peut se satisfaire de sa vraisemblance sans répondre de ses conséquences.",
+              "Le contraste est expliqué, avec une précaution qui évite le contresens."
+            ],
+            [
+              "Voyager lui fait également rencontrer des mœurs diverses. Or cette diversité ne révèle pas aussitôt une coutume incontestablement meilleure : Descartes trouve presque autant de différences entre les peuples qu’entre les opinions des philosophes. L’expérience ne dispense donc pas de réfléchir. Son profit est d’empêcher qu’une habitude locale se donne pour une nécessité universelle. Ce qui paraissait évident parce que tout l’entourage le pratiquait perd son autorité exclusive lorsqu’on rencontre d’autres manières de vivre.",
+              "Une difficulté du texte devient une raison, au lieu d’être effacée."
+            ],
+            [
+              "Descartes apprend ainsi à « ne rien croire trop fermement » sur le seul fondement de l’exemple et de la coutume. Cette réserve ne signifie pas qu’aucune vérité n’existe : elle distingue les sources insuffisantes de certitude et ouvre un meilleur usage de la raison. Les voyages délivrent d’erreurs qui obscurcissaient le jugement ; ils ne produisent pas mécaniquement le jugement vrai. L’exigence de discerner le vrai du faux reste liée à celle de voir clair dans ses actions.",
+              "La citation est reliée à la portée exacte de l’apprentissage."
+            ],
+            [
+              "Le bénéfice des voyages est donc moins de collectionner des opinions que de transformer la manière de les recevoir. L’épreuve des conséquences et la comparaison des coutumes rendent possible une recherche personnelle : Descartes se rend mieux capable de juger, sans prétendre que le voyage ait déjà tout décidé.",
+              "La conclusion reste centrée sur les bénéfices de ces voyages."
+            ]
+          ]
+        },
+        {
+          "id": "reflexion",
+          "kind": "reflexionL",
+          "question": "Lire un récit de voyage, est-ce découvrir une autre culture ?",
+          "choices": [
+            [
+              "Un récit donne accès à une culture, à travers un regard à examiner.",
+              "Solide",
+              "Vous tenez ensemble l’accès à l’ailleurs et la médiation propre au récit."
+            ],
+            [
+              "Un récit révèle une autre culture dès qu’il décrit ses coutumes.",
+              "Défendable",
+              "La description est un accès, mais ses choix et ses jugements doivent être interrogés."
+            ],
+            [
+              "Un récit ne renseigne que sur l’auteur, jamais sur le pays visité.",
+              "À revoir",
+              "Une médiation peut transmettre une connaissance ; elle ne l’annule pas par principe."
+            ]
+          ],
+          "stages": [
+            [
+              "Définissez « découvrir une autre culture » en deux phrases.",
+              "Distinguez connaître des coutumes et déplacer votre regard.",
+              "Découvrir implique apprendre des usages et comprendre leur sens ; cela peut aussi remettre en question ses propres évidences."
+            ],
+            [
+              "Expliquez en trois phrases le lien entre les voyages de Descartes et la lecture d’un récit.",
+              "Voyager et lire ne sont pas identiques, mais peuvent avoir un effet comparable.",
+              "La diversité rencontrée peut délivrer d’une certitude coutumière ; dans un récit, cet effet passe par les choix du narrateur."
+            ],
+            [
+              "Présentez une œuvre précise en quatre phrases, en expliquant ce qu’elle fait découvrir.",
+              "Comparez description, comparaison et jugement.",
+              "L’œuvre doit être analysée pour la rencontre qu’elle organise ; citer un nom d’explorateur ne suffit pas."
+            ],
+            [
+              "Écrivez une limite de cette découverte. Proposez une manière de la dépasser, en deux phrases.",
+              "Vous pouvez examiner les préjugés, la fiction ou la sélection des épisodes.",
+              "Croiser les récits et interroger le point de vue transforme une représentation partielle en occasion de connaissance."
+            ],
+            [
+              "Rédigez un paragraphe de cinq à huit phrases sur un effet de la lecture.",
+              "Appuyez votre réponse sur le fonctionnement d’un récit.",
+              "L’essai littéraire explique la médiation du récit, sans se réduire à une opinion générale sur les voyages."
+            ]
+          ],
+          "criteria": [
+            "Je distingue voyage vécu, récit et lecture.",
+            "J’analyse une œuvre précise et son point de vue.",
+            "Je réponds à la question de la découverte culturelle."
+          ],
+          "model": [
+            [
+              "Lire un récit de voyage peut faire découvrir une autre culture, mais cette découverte n’est pas une présence immédiate au pays décrit. Le lecteur rencontre un monde sélectionné, ordonné et jugé par quelqu’un. C’est précisément en examinant cette médiation qu’il peut apprendre, plutôt qu’en la prenant pour un obstacle à toute connaissance.",
+              "Une position claire porte sur la lecture et sur la forme du récit."
+            ],
+            [
+              "Descartes explique que la diversité des coutumes lui a permis de desserrer l’autorité des siennes. Le récit peut offrir au lecteur une expérience comparable : d’autres façons de manger, de croire ou de vivre ensemble cessent de sembler impossibles. Dans l’Histoire d’un voyage fait en la terre du Brésil, Jean de Léry décrit les Tupinambas et compare certains de leurs usages à ceux des Européens. La découverte concerne donc aussi le regard européen : ce qu’il condamne ailleurs peut l’obliger à reconsidérer ses propres violences. La différence n’est plus seulement une curiosité ; elle devient une interrogation.",
+              "La référence est précise et sa fonction argumentative est explicitée."
+            ],
+            [
+              "Cependant, un voyageur n’observe jamais tout, et son langage porte les catégories avec lesquelles il comprend ce qu’il voit. Ses surprises peuvent grossir certains usages ; une condamnation peut masquer leur sens pour ceux qui les pratiquent. Le lecteur ne doit donc pas confondre une description et la totalité d’une culture. Il découvre aussi ce que l’auteur a pu, voulu ou cru voir. Comparer plusieurs témoignages et distinguer observation et jugement enrichit la lecture sans exiger d’ignorer ce qu’elle apprend.",
+              "Une réserve concerne le récit lui-même, avec une réponse pratique."
+            ],
+            [
+              "La fiction accentue cette différence. Dans Candide, les déplacements de Voltaire conduisent notamment à l’Eldorado, dont le fonctionnement met en question les valeurs de l’Europe. Le lecteur ne découvre pas les coutumes documentées d’un pays réel : il découvre une possibilité culturelle imaginée, qui rend ses propres institutions moins évidentes. Il faut alors ajuster la connaissance attendue au genre du récit. Une invention peut instruire le jugement sans constituer un témoignage ethnographique.",
+              "Le second exemple distingue deux sens de « découvrir », au lieu de répéter le premier."
+            ],
+            [
+              "Lire un récit de voyage est donc une découverte possible de l’autre, et parfois une découverte de nos propres limites. Elle devient plus sûre lorsque le lecteur demande à la fois ce qui lui est montré et par quel regard cela lui est montré. L’ailleurs reste accessible à travers un récit, à condition de ne pas réduire toute une culture à ce récit.",
+              "La conclusion répond sans ouverture artificielle."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "terminale-riviere",
+      "level": "terminale",
+      "author": "Jacques Rivière",
+      "work": "Lettre à Antonin Artaud, 8 juin 1924",
+      "session": "Sujet zéro n° 2 de terminale, 2020",
+      "code": "Sujet zéro n° 2",
+      "source": "https://eduscol.education.gouv.fr/sites/default/files/document/ra20lyceegthlpsujetzero2lettre-antonin-artaud1340031pdf-83952.pdf",
+      "pages": "Texte et questions : pages 2 et 3 du PDF.",
+      "entry": "Les métamorphoses du moi",
+      "responses": [
+        {
+          "id": "interpretation",
+          "kind": "interpL",
+          "question": "En quoi la réflexion de Jacques Rivière expose-t-elle les déchirements du Moi ?",
+          "choices": [
+            [
+              "Rivière met en récit une séparation entre existence certaine et présence à soi.",
+              "Solide",
+              "Vous identifiez le déchirement et un enjeu de sa mise en forme dans la lettre."
+            ],
+            [
+              "Rivière décrit une crise personnelle qui l’empêche parfois de bien écrire.",
+              "Défendable",
+              "Ce point de départ doit devenir une analyse du moi et des formes qui l’exposent."
+            ],
+            [
+              "Rivière prouve que le moi est une illusion entièrement produite par autrui.",
+              "À revoir",
+              "Il ne nie pas son existence : il distingue exister et posséder pleinement son être."
+            ]
+          ],
+          "stages": [
+            [
+              "Distinguez un simple changement et un « déchirement », en deux phrases.",
+              "Cherchez deux aspects de soi que le texte ne parvient pas à faire coïncider.",
+              "Le déchirement oppose la certitude d’exister à l’impossibilité d’habiter constamment et pleinement cet être."
+            ],
+            [
+              "Analysez l’image du toit en trois phrases.",
+              "Comparez la plénitude envisagée et la possibilité de se reconstruire jusqu’à elle.",
+              "L’image de la construction suspendue donne une forme sensible à l’écart entre le moi éprouvé et un être complet inaccessible."
+            ],
+            [
+              "Expliquez en trois phrases l’effet produit par la présence d’Artaud dans cette lettre.",
+              "La lettre est une adresse, pas un exposé impersonnel.",
+              "La réponse à Artaud permet de reconnaître une expérience commune sans effacer la singularité des deux souffrances."
+            ],
+            [
+              "Proposez un ordre pour deux ou trois idées. Justifiez-le en une phrase.",
+              "Distinguez le constat intérieur, sa mise en image et son élargissement.",
+              "L’ordre doit montrer comment la confidence devient une réflexion sur l’instabilité du moi, plutôt qu’un catalogue d’images."
+            ],
+            [
+              "Rédigez un paragraphe de six à dix phrases sur une forme du déchirement.",
+              "Reliez l’image, le mouvement de la lettre et la question posée.",
+              "La réponse interprète la manière d’exposer une division ; elle ne pose pas un diagnostic médical."
+            ]
+          ],
+          "criteria": [
+            "Je précise les deux aspects du moi qui se déchirent.",
+            "J’analyse les images, l’adresse et le mouvement de la lettre.",
+            "Je distingue une expérience personnelle et son élargissement réfléchi."
+          ],
+          "model": [
+            [
+              "Rivière expose un moi qui existe sans parvenir à se posséder continûment. Le déchirement n’oppose donc pas l’être au néant, mais la certitude d’une existence à une présence à soi toujours insuffisante. La lettre à Artaud rend cette division sensible par le dialogue, les images et une réflexion qui dépasse progressivement la confidence.",
+              "La question dirige la lecture : quelles divisions et comment sont-elles exposées ?"
+            ],
+            [
+              "L’adresse à Artaud donne d’abord une forme partagée à l’expérience. Rivière reconnaît chez son correspondant un rapport intermittent à soi, tout en maintenant que leurs souffrances diffèrent. Il écarte l’explication commode par l’inspiration : l’enjeu est plus profond, puisqu’il s’agit de degrés dans sa propre réalité. La lettre ne réduit donc pas Artaud à un cas général ; elle fait naître une pensée de la rencontre entre deux expériences. La comparaison permet de nommer ce qui serait difficile à saisir seul : le sentiment de n’être que partiellement celui que l’on pourrait être.",
+              "Le genre épistolaire est lié au travail de pensée."
+            ],
+            [
+              "Rivière distingue ensuite le fait d’exister et celui de se réaliser pleinement. Le moi éprouvé se sent faible auprès d’un être complet auquel il n’accède pas. L’image du « toit au-dessus de moi » rend cet écart presque spatial : une plénitude subsiste comme horizon, mais le sujet ne voit plus comment se reconstruire jusqu’à elle. Il n’est pas seulement privé d’une réussite extérieure ; il est séparé de sa propre possibilité. L’image de la construction suspendue expose ainsi un rapport à soi divisé, sans nier la certitude d’exister.",
+              "L’image est analysée comme une manière de rendre intelligible la division."
+            ],
+            [
+              "Le texte donne aussi une étrange autonomie aux sentiments et aux idées familières. Leur affaiblissement les rend presque étrangers : « ils me regardent ». La personnification renverse la relation habituelle entre un sujet et ses pensées. Elles sont encore présentes, mais semblent témoigner de leur propre absence ; les reconnaître ne suffit donc pas à se sentir capable de les porter. Le moi se déchire jusque dans ce qui paraît lui appartenir le plus intimement.",
+              "Un effet d’écriture précise la différence entre reconnaissance et possession de soi."
+            ],
+            [
+              "Enfin, le rôle tenu devant les autres peut continuer lorsque les ressources intérieures font défaut. La continuité sociale masque alors une discontinuité vécue. En rapprochant cette expérience des intermittences du cœur puis en l’élargissant à l’être, Rivière passe d’un état singulier à une interrogation sur le fonctionnement du moi. La réflexion ne reconstruit pas une unité certaine : elle oblige à entendre ensemble les moments où l’on se sent soi et ceux où cette évidence se retire.",
+              "Le mouvement du texte est expliqué sans raconter toute la correspondance."
+            ],
+            [
+              "La lettre expose donc ces déchirements sans en abolir les causes : entre existence et plénitude, pensées reconnues et pensées réellement habitées, rôle habituel et présence intérieure. Elle leur donne une forme communicable. Elle manifeste ainsi une unité minimale — pouvoir reconnaître et dire sa division — sans prétendre retrouver un moi parfaitement continu.",
+              "La conclusion revient au verbe « expose » et à la portée de l’écriture."
+            ]
+          ]
+        },
+        {
+          "id": "essai",
+          "kind": "essaiP",
+          "question": "Parvient-on jamais à être soi-même ?",
+          "choices": [
+            [
+              "Être soi-même consiste à découvrir un caractère fixé une fois pour toutes.",
+              "À revoir",
+              "Cette définition exclut sans raison le changement et les choix par lesquels on se constitue."
+            ],
+            [
+              "On peut être soi-même en répondant de sa vie, sans se posséder entièrement.",
+              "Solide",
+              "Vous proposez un sens défendable de l’identité qui répond à l’instabilité décrite par Rivière."
+            ],
+            [
+              "On parvient à être soi-même quand les autres reconnaissent notre identité.",
+              "Défendable",
+              "Cette reconnaissance compte, mais ne suffit pas à résoudre la distance intérieure à soi."
+            ]
+          ],
+          "stages": [
+            [
+              "Distinguez deux sens d’« être soi-même », en deux phrases.",
+              "Comparez être un individu et vivre d’une manière que l’on reconnaît comme sienne.",
+              "L’identité numérique ne garantit ni la connaissance de soi ni l’accord entre les choix et ce que l’on tient pour juste."
+            ],
+            [
+              "Formulez en trois phrases la difficulté que la lettre apporte au sujet.",
+              "« Jamais » demande si une réussite est possible, pas si elle est permanente.",
+              "L’intermittence rend douteuse une possession complète de soi, mais ne prouve pas qu’aucune manière d’être soi ne soit possible."
+            ],
+            [
+              "Défendez une réponse avec une raison et un exemple, en cinq phrases.",
+              "Vous pouvez distinguer une identité toute faite et une fidélité construite.",
+              "L’exemple doit montrer comment un acte ou une parole peut être reconnu comme sien, sans supposer une transparence totale."
+            ],
+            [
+              "Examinez une objection à votre réponse, en trois phrases.",
+              "Changer signifie-t-il nécessairement se trahir ?",
+              "La réponse doit distinguer révision réfléchie et simple soumission, pour expliquer une fidélité qui n’interdit pas d’évoluer."
+            ],
+            [
+              "Rédigez un paragraphe de six à dix phrases qui précise votre réponse.",
+              "Faites travailler une distinction plutôt que d’ajouter un auteur.",
+              "Une pensée personnelle devient plus ferme lorsqu’elle précise le sens et les limites de ce qu’elle affirme."
+            ]
+          ],
+          "criteria": [
+            "Je distingue identité, connaissance de soi et accord avec soi.",
+            "Je tiens compte de « jamais » et de l’expérience de Rivière.",
+            "Je justifie une réponse personnelle avec des exemples analysés."
+          ],
+          "model": [
+            [
+              "Je ne crois pas qu’être soi-même exige de se sentir pleinement présent à soi à chaque instant. La lettre de Rivière montre combien cette exigence peut rendre toute vie insuffisante. Mais renoncer à une possession totale de soi ne signifie pas renoncer à toute fidélité : il faut distinguer un moi parfaitement achevé et une manière de répondre de ce que l’on devient.",
+              "Le « je » assume une position raisonnée ; il n’est pas une obligation de forme."
+            ],
+            [
+              "Au sens le plus simple, chacun est déjà soi : même lorsqu’il se trompe sur lui-même, personne ne devient littéralement quelqu’un d’autre. Pourtant, la question porte sur une réussite plus difficile. On peut agir uniquement pour satisfaire l’attente d’autrui, parler contre sa conviction ou se reconnaître mal dans son rôle. L’identité personnelle subsiste, mais l’accord avec soi manque. Rivière décrit précisément ce décalage lorsqu’une existence sociale continue malgré l’appauvrissement du sentiment intérieur d’être.",
+              "Les sens sont distingués à partir de la difficulté du texte."
+            ],
+            [
+              "Chercher cet accord en découvrant un caractère immuable serait une voie fragile. Mes goûts changent, une rencontre déplace mes projets, une erreur reconnue modifie mon jugement. Faut-il y voir autant de trahisons ? Dans les Essais, Montaigne fait de l’examen de sa vie un travail attentif à la variation. Cette manière d’écrire ne livre pas une définition définitive de soi : elle accueille la différence entre plusieurs moments et cherche à la comprendre. La sincérité peut donc consister à reconnaître une évolution, au lieu de rester fidèle à une image devenue fausse.",
+              "Une référence sert une distinction : fidélité ne signifie pas immobilité."
+            ],
+            [
+              "Cependant, tout changement ne devient pas authentique parce qu’il est raconté. On peut justifier après coup une capitulation ou appeler liberté le désir d’approbation. Être soi-même réclame alors des raisons que l’on accepte d’examiner, y compris lorsque les autres nous contredisent. Refuser une faveur obtenue contre sa conviction peut être un acte de fidélité ; modifier cette conviction après avoir reconnu une injustice peut l’être aussi. Ce qui compte n’est pas de conserver chaque opinion, mais de ne pas abandonner l’examen de ses actes.",
+              "La réponse est éprouvée par une objection réelle et par deux cas distincts."
+            ],
+            [
+              "Cette fidélité se construit également avec les autres. Une promesse nous donne une continuité ; un interlocuteur peut révéler une contradiction que nous ne voyions pas. La reconnaissance sociale est donc une aide, mais elle ne fournit pas à elle seule le critère : être conforme au rôle attendu n’est pas toujours être d’accord avec ce que l’on fait. La lettre de Rivière en témoigne tout en montrant qu’adresser sa difficulté à Artaud rend déjà cette difficulté plus pensable.",
+              "Le retour au texte précise le rôle d’autrui ; il ne le répète pas."
+            ],
+            [
+              "On peut ainsi parvenir à être soi-même dans certains actes et dans une conduite reprise, sans atteindre un état définitif. La réussite n’est pas une présence intérieure sans interruption : elle est une fidélité capable de reconnaître ses limites, de justifier ses choix et de corriger ses erreurs. Cela répond à « jamais » par une possibilité réelle, mais non par une perfection permanente.",
+              "La conclusion répond au petit mot du sujet et stabilise le sens retenu."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "terminale-alain",
+      "level": "terminale",
+      "author": "Alain",
+      "work": "Les Idées et les Âges (1927)",
+      "session": "Sujet zéro n° 1 de terminale, 2020",
+      "code": "Sujet zéro n° 1",
+      "source": "https://eduscol.education.gouv.fr/sites/default/files/document/ra20lyceegthlpsujetzero1les-idees-et-les-ages1340029pdf-83949.pdf",
+      "pages": "Texte et questions : page 2 du PDF.",
+      "entry": "Les métamorphoses du moi",
+      "responses": [
+        {
+          "id": "interpretation",
+          "kind": "interpP",
+          "question": "Comment Alain justifie-t-il l’idée d’une constitution inébranlable de la personnalité ?",
+          "choices": [
+            [
+              "Alain affirme que tous les choix et toutes les opinions demeurent identiques.",
+              "À revoir",
+              "L’argument porte sur des signes persistants de la singularité, pas sur l’immutabilité de toute pensée."
+            ],
+            [
+              "Alain s’appuie sur la persistance des signes qui rendent chacun reconnaissable.",
+              "Solide",
+              "Vous identifiez les observations dont il tire son idée, sans étendre abusivement sa portée."
+            ],
+            [
+              "Alain constate que les vêtements ne suffisent pas à changer de personnalité.",
+              "Défendable",
+              "Ce constat est utile, mais il faut expliquer les autres signes et la résistance aux changements sociaux."
+            ]
+          ],
+          "stages": [
+            [
+              "Dites en deux phrases ce que « comment justifie-t-il » demande.",
+              "Une justification indique une raison, pas seulement une opinion.",
+              "Il faut reconstruire les observations et les comparaisons par lesquelles Alain soutient la persistance d’une singularité."
+            ],
+            [
+              "Relevez deux signes corporels. Expliquez leur valeur en trois phrases.",
+              "Comparez les marques acquises et les traits qui restent reconnaissables.",
+              "Alain admet les traces de l’âge ou du métier ; elles ne font pas disparaître ce qui permet de reconnaître le même individu."
+            ],
+            [
+              "Expliquez en trois phrases le rôle des exemples de pouvoir et de costume.",
+              "Pourquoi choisir des personnes capables de commander ?",
+              "Le contraste renforce la thèse : le pouvoir exercé sur autrui ne suffit pas à refaire sa constitution ; les signes communs du costume n’effacent pas non plus ses signes singuliers."
+            ],
+            [
+              "Rangez vos raisons en deux ou trois étapes. Justifiez leur lien en une phrase.",
+              "Passez du constat à l’épreuve des transformations possibles.",
+              "La persistance observée devient plus forte lorsque même les moyens sociaux de transformation paraissent incapables de l’abolir."
+            ],
+            [
+              "Rédigez un paragraphe de six à dix phrases qui explique une justification.",
+              "Distinguez preuve proposée par Alain et conclusion plus forte que le texte.",
+              "Un paragraphe juste explique les raisons de l’auteur sans lui attribuer l’idée que toute vie intérieure est figée."
+            ]
+          ],
+          "criteria": [
+            "J’explique les justifications et leur articulation.",
+            "Je tiens compte des changements que le texte admet.",
+            "Je ne confonds pas constitution persistante et immobilité de toute la personne."
+          ],
+          "model": [
+            [
+              "Alain justifie la persistance de la personnalité par des signes qui rendent une personne reconnaissable malgré les transformations de sa vie. Il admet les marques de l’âge, du métier ou du rôle social, mais distingue ces modifications d’une constitution singulière qu’elles ne parviennent pas à refaire. Son raisonnement passe du constat de cette persistance à l’épreuve des moyens qui pourraient sembler la démentir.",
+              "La réponse donne l’argument et sa portée, sans discuter toute la doctrine d’Alain."
+            ],
+            [
+              "Le premier appui est la continuité perceptible du corps. La forme, la couleur, les gestes permettent de reconnaître quelqu’un à travers les années. L’âge et la profession peuvent laisser des traces : cette concession interdit de lire le texte comme un refus de tout changement. Ce qu’Alain soutient est plus précis : les modifications se déposent sur une singularité qui reste repérable. Reconnaître n’est donc pas constater une reproduction parfaite ; c’est discerner le même être à travers les différences.",
+              "Une concession du texte devient une distinction conceptuelle."
+            ],
+            [
+              "Le regard d’autrui donne à cette continuité une valeur de confirmation. Celui qui reconnaît une personne ne suit pas seulement le récit qu’elle fait d’elle-même ; il retrouve des signes qui l’identifient. Alain ne fonde donc pas sa justification sur la seule conviction intérieure d’être identique. Il s’appuie sur une manifestation extérieure persistante, qui résiste à la volonté de se présenter autrement. La personnalité paraît inscrite dans une manière d’être avant de l’être dans un titre ou une fonction.",
+              "Le rôle de la reconnaissance est expliqué, au lieu d’être simplement nommé."
+            ],
+            [
+              "Les figures de pouvoir renforcent ensuite ce contraste. Une personne riche ou persuasive peut agir sur autrui, mais ce pouvoir ne lui permet pas de refaire le front, les mains ou les mouvements singuliers de celui qu’elle rencontre. Alexandre, César, Louis XIV et Napoléon donnent à ce constat l’épreuve des puissances les plus étendues : leur domination n’abolit pas ces différences. Si même un tel pouvoir rencontre une résistance, celle-ci ne tient pas simplement à un manque de moyens. La constitution personnelle apparaît comme une limite à l’action exercée sur l’autre.",
+              "L’exemple a une fonction argumentative précise : éprouver l’étendue du pouvoir."
+            ],
+            [
+              "Les costumes et les usages de politesse offrent une dernière épreuve. Ils modifient la présentation publique, mais ne font pas disparaître la singularité reconnaissable. Alain oppose les signes communs du rôle aux signes propres à chacun. Ceux-ci ne sont donc pas seulement une apparence : leur accord manifeste une manière singulière d’être. Toutefois, ils ne démontrent pas que les convictions ou les décisions resteraient toutes identiques. La question finale maintient une difficulté : ce qui résiste est perçu avec assurance, mais il reste à déterminer précisément ce qu’il signifie.",
+              "La portée est précisée à partir de ce que l’extrait établit effectivement."
+            ],
+            [
+              "La justification réunit donc une continuité observée, sa reconnaissance par autrui et sa résistance au pouvoir de se transformer socialement. L’idée d’une constitution inébranlable est soutenue par cette limite du changement ; elle ne doit pas être confondue avec la négation de toute évolution personnelle.",
+              "Une conclusion centrée sur la justification demandée."
+            ]
+          ]
+        },
+        {
+          "id": "essai",
+          "kind": "essaiL",
+          "question": "« quelque chose qui ne peut changer » : la littérature libère-t-elle de l’assignation à une identité ?",
+          "choices": [
+            [
+              "La littérature libère forcément, parce que tous ses personnages sont inventés.",
+              "À revoir",
+              "Une fiction peut aussi enfermer un personnage dans un type ou un lecteur dans un cliché."
+            ],
+            [
+              "La littérature peut montrer une personne autrement que par son étiquette sociale.",
+              "Solide",
+              "Vous identifiez un pouvoir précis, qu’une analyse d’œuvre peut ensuite éprouver."
+            ],
+            [
+              "La littérature libère lorsqu’elle montre un personnage qui change au cours du récit.",
+              "Défendable",
+              "Il faut distinguer une évolution réelle de la simple confirmation d’une identité attendue."
+            ]
+          ],
+          "stages": [
+            [
+              "Distinguez identité et assignation à une identité, en deux phrases.",
+              "Être nommé peut reconnaître ; être réduit à un nom peut enfermer.",
+              "L’assignation fixe une personne dans une définition censée décider à l’avance de ce qu’elle vaut et peut devenir."
+            ],
+            [
+              "Expliquez en trois phrases le déplacement du texte d’Alain vers la question littéraire.",
+              "Persister comme personne et être enfermé dans une étiquette ne sont pas équivalents.",
+              "La réflexion doit distinguer une singularité reconnaissable d’une identité imposée, pour examiner l’action du récit."
+            ],
+            [
+              "Analysez un personnage en cinq phrases, en montrant ce que le récit fait de son identité.",
+              "Comparez la désignation sociale et les actes donnés à lire.",
+              "L’analyse explique comment le lecteur est conduit à réviser un classement, au lieu de raconter toute l’intrigue."
+            ],
+            [
+              "Présentez en trois phrases un cas où la littérature fixe une identité.",
+              "Un type comique, un stéréotype ou une intrigue prévisible peut servir.",
+              "Cette réserve doit porter sur une forme littéraire et préciser une condition de la libération."
+            ],
+            [
+              "Rédigez un paragraphe de six à dix phrases sur cette condition.",
+              "Expliquez le lien entre construction du personnage et regard du lecteur.",
+              "L’essai montre ce que fait une œuvre, pas seulement le message moral qu’on lui attribue."
+            ]
+          ],
+          "criteria": [
+            "Je distingue singularité et étiquette imposée.",
+            "J’analyse la construction de personnages et le regard du lecteur.",
+            "Je précise une puissance et une limite de la littérature."
+          ],
+          "model": [
+            [
+              "La littérature peut libérer de l’assignation à une identité parce qu’elle donne à lire ce qu’une étiquette laisse hors champ. Mais elle ne libère pas simplement en remplaçant une identité par une autre. Sa puissance tient plutôt à la possibilité de montrer une personne comme irréductible au classement qui prétend décider de toute sa vie.",
+              "Une thèse proprement littéraire, sans plan dialectique annoncé."
+            ],
+            [
+              "Alain insiste sur une singularité qui résiste aux changements de rôle et de costume. Or cette permanence n’est pas nécessairement une assignation : être reconnaissable n’implique pas que les autres aient le droit de fixer ce que l’on peut devenir. L’assignation commence lorsque le nom d’une classe, d’une faute ou d’un caractère prétend suffire à expliquer tous les actes. La littérature peut opposer à cette réduction le temps d’une vie, les contradictions d’un désir et les raisons d’un choix.",
+              "Le texte sert de point de départ ; son idée n’est pas confondue avec le problème de l’essai."
+            ],
+            [
+              "Dans Les Misérables, Jean Valjean est poursuivi par l’identité de l’ancien forçat. Pour Javert, cette désignation tend à rendre impossible une autre lecture de ses actes. Pourtant, le roman conduit le lecteur à suivre les transformations de Valjean, son secours à Fantine et son attachement à Cosette. Ces épisodes ne nient pas son passé ; ils empêchent ce passé d’épuiser ce qu’il est. La durée narrative devient ainsi une objection à la fixité du classement : le lecteur dispose d’une histoire que l’étiquette ne sait pas contenir.",
+              "Une œuvre précise est analysée par un mécanisme de lecture."
+            ],
+            [
+              "L’accès à la vie intérieure peut également rompre une assignation. Dans Madame Bovary, la lecture ne s’arrête pas à la condamnation d’Emma comme épouse infidèle. Elle rend sensibles ses attentes, les modèles romanesques qu’elle reprend et la distance entre ces modèles et son existence. Comprendre n’oblige pas à approuver ses actes. Cela oblige à reconnaître qu’une désignation morale ne dispense pas d’en examiner les raisons. La fiction libère alors le jugement du lecteur de sa facilité à conclure trop tôt.",
+              "Le deuxième exemple apporte une autre opération littéraire, avec une distinction morale."
+            ],
+            [
+              "Cependant, les œuvres produisent aussi des types. Un personnage peut n’exister que pour confirmer un trait que le lecteur lui attribue d’avance ; un stéréotype peut rendre une identité plus rigide encore. Même un roman complexe peut être lu comme un répertoire d’étiquettes. La puissance de libération dépend donc d’une forme qui donne accès à la pluralité d’une personne et d’une lecture qui accepte de réviser son jugement. L’invention n’est pas par elle-même une garantie d’ouverture.",
+              "La limite concerne à la fois l’œuvre et sa lecture."
+            ],
+            [
+              "La littérature libère donc moins de toute identité que de l’idée qu’une identité suffirait à décider de tout. Elle rend visibles la continuité d’une personne, ses changements et les regards qui la définissent. Son apport est de faire durer l’attention là où l’assignation voulait terminer le jugement.",
+              "La conclusion précise ce qui est libéré ; elle n’ajoute pas une nouvelle question obligatoire."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "terminale-condorcet",
+      "level": "terminale",
+      "author": "Condorcet",
+      "work": "Cinq mémoires sur l’instruction publique (1791)",
+      "session": "Bac 2025 · Métropole · jour 1",
+      "code": "25-HLPJ1ME1",
+      "source": "https://eduscol.education.fr/document/70617/download",
+      "pages": "Version accessible : texte pages 2 et 3, questions page 3.",
+      "entry": "Les expressions de la sensibilité",
+      "responses": [
+        {
+          "id": "interpretation",
+          "kind": "interpP",
+          "question": "Pourquoi, d’après ce texte, faut-il « exercer l’âme des enfants » à la pitié ?",
+          "choices": [
+            [
+              "Il faut produire une émotion identique chez tous pour garantir leur obéissance.",
+              "À revoir",
+              "Condorcet relie la pitié à la justice et à la liberté ; il ne prescrit pas l’uniformité affective."
+            ],
+            [
+              "Il faut entretenir une disposition naturelle qui soutient les rapports justes.",
+              "Solide",
+              "Vous reliez le caractère naturel, sa fragilité et les conséquences morales et politiques."
+            ],
+            [
+              "Il faut apprendre à remarquer les souffrances pour pouvoir les partager.",
+              "Défendable",
+              "Cette raison doit être reliée au risque d’endurcissement et à la portée politique de la pitié."
+            ]
+          ],
+          "stages": [
+            [
+              "Expliquez en deux phrases pourquoi « naturel » ne signifie pas « assuré » dans ce texte.",
+              "Une disposition peut exister et rester fragile.",
+              "La pitié est naturelle, mais l’inattention ou l’habitude de la cruauté peut empêcher son développement."
+            ],
+            [
+              "Analysez en trois phrases le rapport entre exercice, attention et souffrance d’autrui.",
+              "L’exercice ne se réduit pas à apprendre une définition.",
+              "Éduquer rend la souffrance perceptible et entretient la possibilité d’y répondre ; la disposition doit devenir une attention réelle."
+            ],
+            [
+              "Expliquez en trois phrases le passage de la morale à la politique.",
+              "Repérez les conséquences de la férocité pour la liberté.",
+              "L’insensibilité peut rendre acceptables l’oppression et des lois inégales ; former la pitié soutient donc les conditions d’une vie commune juste."
+            ],
+            [
+              "Ordonnez les raisons en deux ou trois étapes. Justifiez leur lien en une phrase.",
+              "Distinguez la fragilité de la disposition, son effet moral et son enjeu collectif.",
+              "La nécessité de l’exercice se comprend par le risque de perte et par ce que cette perte rend possible."
+            ],
+            [
+              "Rédigez un paragraphe de six à dix phrases qui explique une raison de l’exercice.",
+              "Ne confondez pas émotion, règle morale et soumission.",
+              "Le paragraphe doit expliquer ce que la pitié apporte à la conduite et pourquoi son développement demande une formation."
+            ]
+          ],
+          "criteria": [
+            "Je réponds à « pourquoi faut-il » avec les raisons du texte.",
+            "Je distingue disposition naturelle et développement assuré.",
+            "Je relie formation sensible, jugement moral et liberté politique."
+          ],
+          "model": [
+            [
+              "Il faut exercer les enfants à la pitié parce qu’une disposition naturelle à partager la souffrance d’autrui peut s’affaiblir si elle n’est pas entretenue. Pour Condorcet, cette fragilité engage davantage qu’une qualité affective : la perte de la pitié menace la conduite morale et rend plus acceptable l’oppression. L’exercice protège ainsi une ressource de la justice.",
+              "La réponse réunit les raisons, sans simple reprise de la question."
+            ],
+            [
+              "Le texte présente la pitié comme une capacité sensible : la souffrance d’un autre peut nous affecter. Mais cette possibilité ne produit pas mécaniquement une attention effective. Il faut apprendre à reconnaître les signes de la peine et ne pas détourner systématiquement le regard. L’image d’une disposition fragile fait comprendre pourquoi l’éducation ne crée pas toute sensibilité à partir de rien : elle aide ce qui existe à se développer et empêche ce qui pourrait le détruire.",
+              "Le lien entre nature et exercice est expliqué par une distinction."
+            ],
+            [
+              "La cruauté envers les animaux fournit un cas décisif. Une pratique répétée peut rendre indifférent à une souffrance qui devrait être perçue. L’enjeu dépasse donc le plaisir ou le déplaisir éprouvé sur le moment : une habitude transforme durablement la manière de répondre à un être vulnérable. Exercer la pitié consiste notamment à ne pas laisser cette insensibilité devenir normale. Le sentiment naturel n’est pas un bien que l’on posséderait sans pouvoir le perdre.",
+              "L’exemple est situé dans la démonstration : une disposition peut être détruite."
+            ],
+            [
+              "Condorcet précise aussi ce qui manquerait à une morale privée de pitié. Le calcul de l’intérêt peut recommander certains comportements, mais il ne donne pas nécessairement une attention à celui qui souffre lorsque cette attention ne rapporte rien. La pitié fait entrer la souffrance d’autrui parmi les raisons d’agir. Cela n’abolit pas la réflexion : cela lui évite de ne compter que les avantages du sujet qui calcule. La formation sensible prépare ainsi une conduite qui ne ramène pas tout à soi.",
+              "Le rôle moral est explicité sans opposer absolument sensibilité et raison."
+            ],
+            [
+              "Enfin, le texte donne à cet exercice une portée politique. L’endurcissement et la férocité ne menacent pas seulement les relations privées : ils peuvent aider à supporter, à excuser ou à reproduire la tyrannie et l’inégalité des lois. Celui qui ne se laisse plus atteindre par les souffrances infligées à d’autres trouve plus facilement ces injustices acceptables. L’éducation à la pitié n’est donc pas une préparation à l’obéissance ; elle entretient une disposition susceptible de rendre l’oppression intolérable.",
+              "La fin du texte est reliée à la question plutôt qu’ajoutée comme un thème."
+            ],
+            [
+              "L’exercice est nécessaire parce que la pitié est à la fois naturelle, vulnérable et décisive pour la vie commune. Former l’âme des enfants revient à faire durer une attention à autrui, dont la disparition priverait la morale d’un ressort et la liberté d’un soutien.",
+              "Une conclusion brève répond à la nécessité demandée."
+            ]
+          ]
+        },
+        {
+          "id": "essai",
+          "kind": "essaiL",
+          "question": "La littérature a-t-elle pour vocation d’éduquer à la sensibilité ?",
+          "choices": [
+            [
+              "Toute œuvre doit apprendre au lecteur quels sentiments sont moralement bons.",
+              "À revoir",
+              "Le sujet demande d’examiner une vocation ; il ne donne pas cette obligation pour acquise."
+            ],
+            [
+              "Une œuvre éduque la sensibilité dès qu’elle provoque une émotion intense.",
+              "Défendable",
+              "L’intensité ne prouve pas l’éducation : il faut examiner ce que l’émotion fait comprendre."
+            ],
+            [
+              "Une œuvre peut former l’attention sensible sans lui assigner une fin unique.",
+              "Solide",
+              "Vous distinguez une puissance de la littérature et une vocation imposée à toute œuvre."
+            ]
+          ],
+          "stages": [
+            [
+              "Distinguez provoquer une émotion et éduquer à la sensibilité, en deux phrases.",
+              "Être bouleversé ne suffit pas à apprendre à mieux percevoir.",
+              "Éduquer implique transformer une attention et un jugement, pas seulement produire une réaction intense."
+            ],
+            [
+              "Expliquez en trois phrases comment le texte de Condorcet ouvre la question littéraire.",
+              "Une disposition fragile peut être entretenue par des représentations.",
+              "La littérature peut exercer l’attention à autrui ; il reste à déterminer si cette puissance est sa fin nécessaire."
+            ],
+            [
+              "Analysez une œuvre en cinq phrases : une forme d’écriture et son effet sensible.",
+              "Examinez le point de vue, le détail, l’ironie ou la durée narrative.",
+              "Une œuvre doit être analysée pour sa manière de faire percevoir ; un catalogue de thèmes touchants ne suffit pas."
+            ],
+            [
+              "Examinez « vocation » en trois phrases, à partir d’un contre-exemple.",
+              "Une œuvre comique, dérangeante ou énigmatique ne cherche pas forcément la pitié.",
+              "Une fin unique risque de réduire la diversité des expériences littéraires ; cette réserve ne supprime pas leur pouvoir formateur."
+            ],
+            [
+              "Rédigez un paragraphe de six à dix phrases qui précise votre réponse.",
+              "Reliez une analyse de forme à la question de l’éducation.",
+              "La réponse doit distinguer apprendre à sentir, éprouver une émotion et recevoir une leçon morale."
+            ]
+          ],
+          "criteria": [
+            "Je travaille le mot « vocation ».",
+            "J’analyse les formes par lesquelles une œuvre modifie l’attention.",
+            "Je distingue émotion intense, sensibilité formée et morale prescrite."
+          ],
+          "model": [
+            [
+              "La littérature peut éduquer à la sensibilité en nous rendant attentifs à des vies que nous percevions mal. Mais faire de cette puissance sa vocation unique obligerait toute œuvre à poursuivre la même fin. Je distinguerai donc ce qu’une lecture peut former et ce que l’on aurait tort d’exiger de toute littérature.",
+              "Le mot « vocation » commande la réponse ; la progression annoncée reste libre."
+            ],
+            [
+              "Condorcet montre que la pitié ne se maintient pas sans exercice. Une œuvre peut offrir cet exercice en donnant du temps et une forme à la souffrance d’autrui. Dans Les Misérables, l’histoire de Fantine ne laisse pas le lecteur s’arrêter à un jugement sur sa déchéance. La succession des contraintes, la précarité et les décisions arrachées par la nécessité rendent visible ce qu’un regard pressé réduirait à une faute individuelle. Le récit forme ainsi une attention aux causes d’une situation, pas seulement une réaction devant un malheur.",
+              "La forme narrative est analysée comme un exercice d’attention."
+            ],
+            [
+              "Cette éducation ne passe pas toujours par l’attendrissement. Dans Le Loup et l’Agneau, La Fontaine construit un échange où les raisons de l’agneau ne peuvent arrêter la décision du loup. La logique des répliques fait éprouver la violence d’un pouvoir qui cherche un prétexte plutôt qu’une vérité. Le lecteur apprend à reconnaître une injustice sous l’apparence d’une argumentation. Sa sensibilité se forme par la précision du jugement, et non parce qu’on lui demanderait de ressentir une émotion déterminée.",
+              "Une autre forme, la fable, distingue émotion et discernement."
+            ],
+            [
+              "Pour autant, émouvoir n’est pas encore éduquer. Une œuvre peut solliciter des réactions convenues, simplifier les personnes en victimes et coupables ou laisser le lecteur satisfait de sa propre bonté. L’effet intense risque alors de dispenser d’examiner. Une lecture exigeante doit demander comment l’émotion est produite et ce qu’elle rend perceptible. La sensibilité formée n’est pas celle qui réagit le plus fort ; elle devient capable d’attention plus fine et de révision.",
+              "Une objection réelle évite de mesurer la qualité à l’intensité des affects."
+            ],
+            [
+              "Il faut surtout garder la diversité des fins littéraires. Dans L’Albatros de Baudelaire, le rapprochement du poète et de l’oiseau déplace le regard sur une humiliation ; il explore aussi une condition de la création. Réduire le poème à une leçon de compassion ferait perdre la puissance de ses images et l’écart entre l’élévation et la maladresse. Une œuvre peut former notre manière de sentir en poursuivant autre chose qu’une intention éducative explicite. Sa liberté est une condition de ces découvertes.",
+              "Une œuvre est ramenée à sa pluralité, au lieu d’être instrumentalisée."
+            ],
+            [
+              "Éduquer à la sensibilité est donc une possibilité majeure de la littérature, mais non une mission uniforme à laquelle elle devrait se soumettre. Le lecteur y gagne lorsqu’il apprend à percevoir davantage et à juger moins vite. Cette formation tient à la rencontre d’une œuvre singulière, plutôt qu’à l’application d’une morale identique à toutes.",
+              "Une conclusion précise la portée de « vocation » sans détacher un nouveau débat."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "terminale-sand",
+      "level": "terminale",
+      "author": "George Sand",
+      "work": "Histoire de ma vie (1855)",
+      "session": "Bac 2026 · Centres étrangers, groupe 1 · jour 1",
+      "code": "26-HLPJ1G11",
+      "source": "https://www.education.gouv.fr/sites/default/files/document/baccalaureat-general-2026-humanites-litterature-et-philosophie-jour-1-517244.pdf",
+      "pages": "Texte : page 2 ; questions : page 3 du PDF.",
+      "entry": "Création, continuités et ruptures",
+      "responses": [
+        {
+          "id": "interpretation",
+          "kind": "interpL",
+          "question": "Quelles sont, selon cet extrait, les conditions favorables à la création ?",
+          "choices": [
+            [
+              "Sand décrit un retrait complet qui exclut tout lien avec les êtres vivants.",
+              "À revoir",
+              "Le lieu de travail reste lié aux enfants, aux personnes qui le protègent, aux animaux et aux amis."
+            ],
+            [
+              "Sand protège le temps et le silence dont son travail d’écriture a besoin.",
+              "Défendable",
+              "Cette lecture doit aussi préciser l’appropriation du lieu et le caractère provisoire de la retraite."
+            ],
+            [
+              "Sand organise une solitude choisie, matérielle et temporaire, au sein de ses liens.",
+              "Solide",
+              "Vous expliquez les conditions du retrait sans le confondre avec une rupture absolue."
+            ]
+          ],
+          "stages": [
+            [
+              "Distinguez une condition favorable et une nécessité universelle, en deux phrases.",
+              "La question porte sur cet extrait, pas sur tous les créateurs.",
+              "Il faut expliquer ce que Sand aménage pour créer, sans transformer son expérience en loi de toute création."
+            ],
+            [
+              "Relevez deux détails du logement. Expliquez leur fonction en trois phrases.",
+              "Comparez confort visible, possession du temps et protection du silence.",
+              "Le lieu est rendu favorable par l’usage qu’elle peut en faire et la liberté qu’il protège, plutôt que par son luxe."
+            ],
+            [
+              "Expliquez en trois phrases le sens de « prison volontaire » dans ce passage.",
+              "Le choix de la fermeture compte autant que la fermeture.",
+              "L’enfermement choisi rend possible une disponibilité intérieure ; il se distingue d’une contrainte subie."
+            ],
+            [
+              "Reliez la retraite aux liens maintenus, en trois phrases.",
+              "Repérez ce qui précède la fermeture et ce qui suit la fin du roman.",
+              "Le retrait est rendu possible par d’autres personnes et s’achève par la réouverture aux amis : il appartient à un rythme de vie."
+            ],
+            [
+              "Rédigez un paragraphe de six à dix phrases sur une condition favorable.",
+              "Expliquez un détail et le rapport que l’écriture établit entre solitude et liberté.",
+              "L’interprétation analyse la singularité de l’expérience et sa mise en récit, au lieu de donner des conseils généraux."
+            ]
+          ],
+          "criteria": [
+            "Je réponds sur les conditions de cet extrait.",
+            "J’analyse le lieu, le temps, le silence et le retrait choisi.",
+            "Je prends en compte les liens qui rendent ce retrait possible et sa fin."
+          ],
+          "model": [
+            [
+              "Dans cet extrait, créer exige surtout de pouvoir disposer de son temps et de son attention. Sand aménage une solitude choisie : elle soustrait provisoirement son travail aux sollicitations, sans abolir ses liens avec les autres. Le récit fait ainsi de la retraite une liberté construite, davantage qu’un isolement absolu.",
+              "La réponse se limite à l’extrait et évite une loi universelle sur les artistes."
+            ],
+            [
+              "Les conditions sont d’abord matérielles. La pièce rendue disponible, les arrangements qui protègent le secret du séjour et le concours des personnes qui entourent Sand composent un espace où l’écriture peut se poursuivre. Le détail du logement compte moins comme décor que comme possibilité d’usage. Un lieu simple devient précieux parce qu’il garantit le silence et laisse à celle qui l’occupe la maîtrise de ses heures. Le contraste avec ce qu’en feront d’autres occupants montre que sa valeur dépend du travail qu’il rend possible.",
+              "Les détails du lieu sont interprétés par leur fonction dans la création."
+            ],
+            [
+              "L’expression « prison volontaire » réunit une fermeture et un choix. Prise seule, la prison suggérerait une liberté supprimée ; l’adjectif transforme son sens. Sand s’y retire pour se rendre disponible à l’écriture. Elle se ferme aux visites imprévues afin de ne pas subir leur rythme. La condition favorable n’est donc pas le confinement en lui-même : c’est la possibilité de décider quand interrompre les relations et à quoi consacrer le temps ainsi protégé.",
+              "Une formulation du texte est expliquée, sans nommer un procédé pour lui-même."
+            ],
+            [
+              "Ce retrait ne signifie pourtant pas l’abolition de toute présence vivante. Sand garde des liens avec ses enfants ; les animaux et l’attention au dehors maintiennent une relation sensible au monde. La solitude n’est pas un vide où l’on créerait sans aucun contact. Elle distingue plutôt les relations qui dispersent le travail et celles qui peuvent lui laisser son calme. Le récit permet de comprendre un équilibre singulier, sans supposer que tout échange humain empêcherait l’invention.",
+              "La lecture tient compte des détails qui empêchent un contresens."
+            ],
+            [
+              "La fin du roman donne enfin sa mesure temporelle à la retraite. Une fois le travail achevé, Sand rouvre la porte aux amis. La clôture avait donc une tâche et une durée ; elle n’était pas une décision de vivre contre la société. La succession des moments fait apparaître un rythme : se retirer pour écrire, puis reprendre la relation. La création peut nécessiter une protection provisoire de l’attention, tout en demeurant insérée dans une existence partagée.",
+              "La composition du passage donne un sens à la solitude."
+            ],
+            [
+              "Les conditions favorables sont ainsi un lieu approprié, un temps protégé, le silence et la liberté d’organiser les contacts. Elles reposent elles-mêmes sur des liens et ne valent pas comme rupture définitive. Sand décrit une solitude dont elle peut décider : c’est cette maîtrise, plutôt que l’enfermement seul, qui rend la création possible ici.",
+              "La conclusion rassemble les conditions effectivement analysées."
+            ]
+          ]
+        },
+        {
+          "id": "essai",
+          "kind": "essaiP",
+          "question": "La création exige-t-elle nécessairement de rompre avec la société ?",
+          "choices": [
+            [
+              "Créer peut demander une distance envers certains usages, sans abolir les liens.",
+              "Solide",
+              "Vous distinguez la rupture totale et les distances précises que la création peut requérir."
+            ],
+            [
+              "Créer exige toujours de rejeter les œuvres antérieures et de vivre à l’écart.",
+              "À revoir",
+              "La reprise d’un genre et les conditions sociales du travail contredisent cette nécessité absolue."
+            ],
+            [
+              "Créer demande parfois la solitude pour préserver une attention personnelle.",
+              "Défendable",
+              "Ce cas doit être relié à « nécessairement » et à la société, qui ne se réduit pas aux visites."
+            ]
+          ],
+          "stages": [
+            [
+              "Distinguez solitude, désaccord et rupture avec la société, en trois phrases.",
+              "Ces mots ne désignent ni la même durée ni la même étendue.",
+              "Une protection du temps ou un refus de convention ne supprime pas forcément les relations, le langage et les institutions."
+            ],
+            [
+              "Expliquez en trois phrases ce que Sand permet de soutenir et ce qu’elle ne prouve pas.",
+              "Examinez le caractère choisi et temporaire du retrait.",
+              "Son expérience justifie une distance utile, pas la nécessité universelle d’une séparation totale."
+            ],
+            [
+              "Défendez une réponse avec une raison et une œuvre précise, en cinq phrases.",
+              "Une création peut reprendre une forme commune en la transformant.",
+              "L’exemple doit montrer les liens ou les conventions qui alimentent l’invention, sans réduire celle-ci à la répétition."
+            ],
+            [
+              "Examinez en trois phrases le cas d’une convention qui empêche de créer.",
+              "Distinguez refuser une attente et n’avoir plus aucun lien.",
+              "La réponse doit reconnaître les conflits réels tout en précisant ce qui est rompu et ce qui reste nécessaire."
+            ],
+            [
+              "Rédigez un paragraphe de six à dix phrases qui répond à « nécessairement ».",
+              "Une impossibilité universelle ne se déduit pas d’un exemple de solitude.",
+              "Le paragraphe doit justifier le refus ou l’acceptation de la nécessité et expliquer une condition précise de création."
+            ]
+          ],
+          "criteria": [
+            "Je travaille « nécessairement » et le sens de « rompre ».",
+            "Je pars du retrait décrit par Sand sans en faire une loi universelle.",
+            "Je distingue les conflits créateurs et les liens qui soutiennent la création."
+          ],
+          "model": [
+            [
+              "La création peut demander de se retirer ou de contester une attente sociale. Elle n’exige pourtant pas nécessairement de rompre avec la société tout entière. Le retrait de Sand le suggère : il protège l’attention, reste soutenu par des relations et se termine lorsque le roman est achevé. Il faut donc préciser ce avec quoi l’on rompt, plutôt que faire de la séparation absolue une condition de l’invention.",
+              "Le texte lance une réponse personnelle centrée sur le mot « nécessairement »."
+            ],
+            [
+              "Créer suppose de ne pas laisser toutes les sollicitations décider de son travail. Un jugement attendu peut pousser à reproduire ce qui plaît ; des visites permanentes peuvent rendre impossible une attention longue. La distance devient alors une condition de liberté : elle permet à une idée de se développer avant de chercher l’approbation. Sand ferme sa porte pour maîtriser son temps. Cependant, cette maîtrise ne prouve pas qu’une société absente serait préférable : elle règle certaines relations pour pouvoir travailler.",
+              "Un argument favorable au retrait est reconnu sans devenir une nécessité absolue."
+            ],
+            [
+              "La création utilise aussi ce qui est commun. Le langage, les techniques et les genres ne sont pas inventés entièrement par chaque créateur. Molière reprend des ressources de la comédie et représente des rapports sociaux reconnaissables ; dans George Dandin, cette familiarité rend perceptible la violence des règles de politesse. L’œuvre transforme ce qu’elle reçoit. Rompre tout lien avec les formes et les expériences partagées ne serait donc pas la garantie d’une nouveauté : cela pourrait priver l’invention de ses moyens et de son objet.",
+              "Une œuvre précise soutient l’idée de transformation des ressources communes."
+            ],
+            [
+              "On objectera qu’une société peut imposer des interdits, des attentes ou des classements qui empêchent une œuvre d’exister. Le désaccord devient alors plus qu’une préférence de travail. Refuser ces prescriptions peut être nécessaire pour créer ce que l’on juge juste. Mais ce refus vise une contrainte déterminée. Il peut s’appuyer sur des alliés, sur une autre tradition ou sur un public encore à former. La rupture avec une norme ne signifie pas que l’œuvre naît sans relations ni qu’elle renonce à être reçue.",
+              "Une objection est traitée en précisant l’étendue de la rupture."
+            ],
+            [
+              "Enfin, la création peut elle-même constituer une manière nouvelle d’entrer en relation. Une œuvre rend visible une expérience privée, donne une forme commune à une inquiétude ou propose de percevoir autrement. Le retrait qui précède sa naissance peut ainsi préparer un échange plus exigeant. Dans le passage de Sand, la réouverture de la porte ne contredit pas la retraite : elle montre que celle-ci a sa place dans un rythme, et non qu’elle exprime un rejet définitif des autres.",
+              "Le retour au texte fait avancer la réponse vers le sens social de l’œuvre."
+            ],
+            [
+              "La création exige donc une liberté envers certaines attentes, parfois une solitude et parfois un conflit. Elle ne nécessite pas la destruction de tous les liens sociaux. Sa condition la plus précise est de pouvoir choisir et transformer ses rapports au monde, assez pour produire une œuvre qui ne soit pas simplement commandée par lui.",
+              "Une réponse directe distingue condition de liberté et rupture totale."
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

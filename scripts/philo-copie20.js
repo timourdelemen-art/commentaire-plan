@@ -2,6 +2,9 @@
 const fs=require('fs');
 const path=require('path');
 const DATA=JSON.parse(fs.readFileSync(path.join(__dirname,'copies20-data.json'),'utf8'));
+const ADDITIONAL=JSON.parse(fs.readFileSync(path.join(__dirname,'copies20-additional.json'),'utf8'));
+const LEDGER=JSON.parse(fs.readFileSync(path.join(__dirname,'copies20-resolutions.json'),'utf8'));
+require('./check-copies20').assertValid(DATA,LEDGER,ADDITIONAL);
 // Typographie : espaces insécables avant ; : ! ? » et après «
 const nb=s=>String(s).replace(/ ([;:!?»])/g,' $1').replace(/« /g,'« ');
 const esc=s=>nb(String(s==null?'':s)).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
@@ -14,34 +17,42 @@ function section(key){
   const d=DATA[key]; if(!d) return '';
   const {n,w}=stats(d);
   return `<section class="offer-band c20-teaser" id="copie-20"><div class="kicker">LA COPIE À 20</div><h2>Le devoir le plus court qui mérite 20.</h2>
-<p>${n} phrases, environ ${Math.round(w/10)*10} mots, soit trois pages manuscrites. Chaque phrase a sa fonction dans le plan, écrite en marge ; aux charnières, le rôle du lien logique. Lisez-la d’abord avec les fonctions, pour voir la machine, puis sans, pour voir que c’est une vraie copie.</p>
+<p>${n} phrases, environ ${Math.round(w/10)*10} mots. Chaque phrase a sa fonction dans le plan, écrite en marge ; aux charnières, le rôle du lien logique. Lisez-la d’abord avec les fonctions, pour voir la machine, puis sans, pour voir que c’est une vraie copie.</p>
 <p><button type="button" class="philo-print c20-toggle" aria-controls="c20-${key}">Masquer les fonctions</button></p>
 <div class="c20" id="c20-${key}">${d.map(([h,ss])=>block(h,ss,'h3')).join('')}</div>
 </section>
 ${TOGGLE}
 `;
 }
-function vitrine(){
-  const d=DATA['notion-liberte']; const {n,w}=stats(d);
+function vitrine(key='notion-liberte',meta=null){
+  const d=DATA[key]; const {n,w}=stats(d);
+  const subject=meta?meta.title:'S’engager, est-ce renoncer à sa liberté ?';
+  const filename=meta?meta.file:VITRINE;
+  const extraLinks=Object.entries(ADDITIONAL).map(([k,m])=>`<li><a href="${esc(m.file)}">${esc(m.title)}</a> · ${esc(m.exam)}</li>`).join('');
   return `<!doctype html><html lang="fr"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Copie à 20 en philosophie, commentée phrase par phrase</title>
-<meta name="description" content="Une dissertation de philosophie qui mérite 20, la plus courte possible : « S’engager, est-ce renoncer à sa liberté ? ». Chaque phrase, sa fonction dans le plan.">
-<link rel="canonical" href="https://commentaire-plan.com/${VITRINE}">
+<title>${esc(subject)} : copie à 20 en philosophie</title>
+<meta name="description" content="Une dissertation de philosophie qui mérite 20, la plus courte possible : « ${esc(subject)} ». Chaque phrase, sa fonction dans le plan.">
+<link rel="canonical" href="https://commentaire-plan.com/${filename}">
 <link rel="stylesheet" href="styles.css">
 </head><body><header class="top"></header><main class="wrap">
 <section class="pagehead"><div><div class="kicker">PHILOSOPHIE · LA COPIE À 20</div>
-<h1>« S’engager, est-ce renoncer à sa liberté ? »</h1>
-<p class="lede">Le devoir le plus court qui mérite 20 : ${n} phrases, environ ${Math.round(w/10)*10} mots, soit trois pages manuscrites. Chaque phrase a sa fonction dans le plan ; elle est écrite en marge, avec, aux charnières, le rôle du lien logique.</p>
+<h1>« ${esc(subject)} »</h1>
+${meta?`<p class="micro">${esc(meta.exam)} · ${esc(meta.code)} · <a class="official-link" href="${esc(meta.source)}">Annales officielles →</a></p>`:''}
+<p class="lede">Le devoir le plus court qui mérite 20 : ${n} phrases, environ ${Math.round(w/10)*10} mots. Chaque phrase a sa fonction dans le plan ; elle est écrite en marge, avec, aux charnières, le rôle du lien logique.</p>
 </div><aside class="side-note"><p><strong>Comment lire ?</strong><br>D’abord avec les fonctions, pour voir la machine. Puis sans, pour voir que c’est une vraie copie.</p><p><button type="button" class="philo-print c20-toggle" aria-controls="c20-vitrine">Masquer les fonctions</button></p></aside></section>
 <section class="offer-band c20" id="c20-vitrine">${d.map(([h,ss])=>block(h,ss,'h2')).join('')}</section>
 <section class="offer-band"><div class="kicker">POURQUOI CETTE COPIE MÉRITE 20</div><h2>Rien n’y est décoratif.</h2>
-<div class="grid-3"><div><strong>Un problème réel</strong><p>Les deux réponses perdent quelque chose, et la problématique le dit en une seule question.</p></div><div><strong>Un plan qui avance</strong><p>Chaque limite naît de l’idée poussée jusqu’au bout ; chaque transition en fait une question. Aucun « d’abord », aucun « de plus » : les liens sont dans la pensée.</p></div><div><strong>Des auteurs qui travaillent</strong><p>Trois références, et chacune accomplit quelque chose : pousser l’idée, porter la réponse, réaliser l’opération.</p></div></div>
-<p>Toutes les copies à 20 : sur la page de chaque sujet du bac 2026 (<a class="official-link" href="philosophie-annales.html">les annales →</a>) et de chaque notion (<a class="official-link" href="philosophie-notions.html">les 17 notions →</a>).</p>
-<p><a class="official-link" href="philosophie-notion-liberte.html">L’atelier de la liberté →</a> · <a class="official-link" href="philosophie-dissertation.html#liens">L’architecture logique d’une dissertation →</a></p></section>
+<div class="grid-3"><div><strong>Un problème réel</strong><p>Les deux réponses perdent quelque chose, et la problématique le dit en une seule question.</p></div><div><strong>Un plan qui avance</strong><p>Chaque limite naît de l’idée poussée jusqu’au bout ; chaque transition en fait une question. Aucun « d’abord », aucun « de plus » : les liens sont dans la pensée.</p></div><div><strong>Des auteurs qui travaillent</strong><p>Les références sont choisies pour accomplir quelque chose : pousser l’idée, porter la réponse, réaliser l’opération.</p></div></div>
+<p>Les copies à 20 : sur les pages des sujets du bac 2026 (<a class="official-link" href="philosophie-annales.html">les annales →</a>) et de chaque notion (<a class="official-link" href="philosophie-notions.html">les 17 notions →</a>).</p>
+<h3>Trois nouveaux sujets, pour refaire le travail</h3><ul>${extraLinks}</ul>
+<p><a class="official-link" href="philosophie-notion-${meta?esc(meta.notion):'liberte'}.html">Travailler la notion →</a> · <a class="official-link" href="philosophie-dissertation.html#liens">L’architecture logique d’une dissertation →</a></p></section>
 </main><script src="site-nav.js"></script>
 ${TOGGLE}
 </body></html>
 `;
 }
-module.exports={teaser:section,section,vitrine,VITRINE,has:k=>Boolean(DATA[k])};
+function writeAdditional(root){
+  for(const [key,meta]of Object.entries(ADDITIONAL))fs.writeFileSync(path.join(root,meta.file),vitrine(key,meta));
+}
+module.exports={teaser:section,section,vitrine,writeAdditional,VITRINE,has:k=>Boolean(DATA[k])};

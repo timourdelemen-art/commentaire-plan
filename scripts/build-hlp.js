@@ -83,7 +83,7 @@ function card(x,prof){
   return h;
 }
 function bank(prof){
-  return '<p class="hlp-count" aria-live="polite">'+DATA.length+' sujets</p><div class="hlp-bank">'+DATA.map(x=>card(x,prof)).join('\n')+'</div>';
+  return '<p><a class="official-link" href="hlp-ecrire.html">De la question à la rédaction : trois niveaux et modèles HLP annotés →</a></p><p class="hlp-count" aria-live="polite">'+DATA.length+' sujets</p><div class="hlp-bank">'+DATA.map(x=>card(x,prof)).join('\n')+'</div>';
 }
 function stats(){
   const rows=Object.entries(ENTREES).map(([k,v])=>{
@@ -104,13 +104,13 @@ function inject(file,marker,html){
 /* ---------- Page par sujet ---------- */
 const CHECK={
   interpL:['La réponse porte sur la question posée, pas sur tout le texte.','Chaque étape s’appuie sur des citations précises, analysées (procédé → effet ici), et revient à la question.','Les étapes progressent : la deuxième dit quelque chose que la première ne disait pas.','Le texte est lu comme un texte littéraire : énonciation, images, rythme, composition comptent.'],
-  interpP:['La thèse de l’auteur est reformulée avec précision, sans la répéter mot pour mot.','Le raisonnement est reconstitué : distinctions, arguments, exemples, objections éventuelles.','Chaque étape cite le texte et explique ce que la phrase citée fait dans l’argument.','La réponse à la question est explicite en conclusion.'],
-  essaiP:['Les mots du sujet sont définis, et vous avez repéré ce que la question tient pour acquis.','Une première réponse plausible est défendue sérieusement avant d’être discutée.','La difficulté naît de cette réponse poussée jusqu’au bout, pas d’une opposition plaquée.','Les références (philosophiques, littéraires, artistiques) font avancer l’argument au lieu de l’illustrer.'],
-  essaiL:['La question est rapportée à la littérature et aux arts, pas seulement à des idées générales.','Chaque partie s’appuie sur des œuvres précises, lues pendant l’année ou personnellement.','Les exemples sont analysés : on dit ce que l’œuvre fait, pas seulement ce qu’elle raconte.','La réflexion avance : chaque partie répond à une limite de la précédente.']
+  interpP:['La réponse explique l’enjeu désigné par la question, sans chercher une explication exhaustive.','Les idées et les raisons utiles à cette lecture sont reconstruites avec précision.','Les passages choisis sont expliqués et reliés à la question.','La réponse à la question est explicite.'],
+  essaiP:['Les mots importants du sujet sont précisés dans le sens utile à la réponse.','La question soulevée par le texte est travaillée par une réflexion personnelle.','Les raisons et les exemples font progresser la réponse ; une réserve peut la préciser.','L’ordre est justifié par les idées, sans nombre de parties imposé.'],
+  essaiL:['La question est rapportée à la littérature et aux arts.','Les œuvres choisies sont précises et reliées à une raison.','Les exemples sont analysés : on dit ce que l’œuvre fait comprendre, pas seulement ce qu’elle raconte.','La réflexion progresse selon la question, sans plan obligatoire.']
 };
 function step(n,title,task,kind,checks,rows=4){
   return '<article class="exercise hlp-step"><div class="kicker">ÉTAPE '+n+'</div><h3>'+title+'</h3><p class="instruction">'+task+'</p>'
-   +'<textarea rows="'+rows+'" aria-label="'+esc(title)+'" data-hlp-save="'+n+'" data-feedback-kind="'+kind+'" data-feedback-instruction="'+esc(task.replace(/<br>/g,' '))+'"></textarea>'
+   +'<textarea rows="'+rows+'" aria-label="'+esc(title)+'" data-hlp-save="'+n+'" data-feedback="off" data-feedback-kind="'+kind+'" data-feedback-instruction="'+esc(task.replace(/<br>/g,' '))+'"></textarea>'
    +'<details class="correction"><summary>Vérifier avec la grille</summary><ul>'+checks.map(c=>'<li>'+c+'</li>').join('')+'</ul></details></article>';
 }
 function related(x){
@@ -142,8 +142,8 @@ function page(x){
     step(3,'Construire la réponse','Écrivez deux ou trois étapes de réponse, une phrase chacune.<br>Rangez-les pour que chaque étape s’appuie sur la précédente.','hlp-interp-plan',['Chaque étape répond à la question, avec ses mots.','Chaque étape s’appuie sur un passage relevé à l’étape 2.','La dernière étape dit ce que les premières ne suffisaient pas à montrer.'],6),
     step(4,'Comprendre le sujet d’essai','Définissez en une phrase chacun des mots importants du sujet.<br>Puis dites, en une phrase, ce que le sujet oblige à examiner.','hlp-essai-comprendre',['Chaque mot important est défini dans son sens courant.','Vous dites ce que le sujet oblige à examiner, pas seulement de quoi il parle.']),
     step(5,'Construire l’idée','Donnez la première réponse qui paraît juste, avec la raison qui la rend plausible.','hlp-essai-idee',['La réponse est nette (oui, non, à certaines conditions).','La raison est précise et pourrait convaincre quelqu’un.']),
-    step(6,'La pousser jusqu’au bout et chercher la difficulté','En une phrase : si cette réponse est vraie, que faut-il admettre ?<br>En une phrase : qu’est-ce qu’elle oblige à sacrifier, ou laisse sans explication ?','hlp-essai-difficulte',['La conséquence découle vraiment de la première réponse.','La difficulté est propre à ce sujet, pas une objection générale.'],5),
-    step(7,'Formuler le problème et le plan','Écrivez la problématique en une seule question.<br>Puis écrivez les trois parties, une phrase chacune.','hlp-essai-plan',CHECK[eKind],6)
+    step(6,'Éprouver et préciser votre idée','Présentez un cas ou une raison qui rend votre réponse moins évidente. Deux phrases.<br>Précisez ce que vous maintenez ou modifiez. Une phrase.','hlp-essai-difficulte',['Le cas ou la raison concerne exactement la question.','La précision découle de cet examen, sans opposition automatique.'],5),
+    step(7,'Ordonner votre réflexion','Écrivez la réponse que vous voulez soutenir. Une phrase.<br>Rangez les étapes nécessaires pour la justifier, une phrase chacune, sans nombre imposé.<br>Expliquez en une phrase pourquoi cet ordre fait avancer la réflexion.','hlp-essai-plan',CHECK[eKind],6)
   ].join('');
   const noteHtml=x.note?'<p class="hlp-note">'+esc(x.note)+'</p>':'';
   const bankNote=x.bank?'<p class="micro">Libellés relevés dans la banque de sujets indexée de l’académie de Lille : le PDF isolé de ce sujet n’est pas en ligne.</p>':'';
@@ -177,14 +177,14 @@ ${noteHtml}${bankNote}</aside></section>
 </section>
 
 <section class="exercise-wrap hlp-training" data-hlp-id="${x.id}"><div class="exercise-intro"><div><div class="kicker">S’ENTRAÎNER</div><h2>Sept étapes, de la question au plan.</h2></div>
-<p>Écrivez avant d’ouvrir la grille : elle ne s’ouvre qu’après une tentative. Vos réponses restent sur cet appareil. En 20 minutes, faites les étapes 1, 4 et 5 ; en une heure, toutes ; en quatre heures, rédigez ensuite le devoir complet sans aide.</p></div>
+<p>Écrivez avant d’ouvrir la grille : elle ne s’ouvre qu’après une tentative. Vos réponses restent sur cet appareil. En 20 minutes, faites les étapes 1, 4 et 5 ; en une heure, toutes ; en quatre heures, rédigez ensuite le devoir complet sans aide. Comparez vos réponses aux grilles HLP ; aucune note automatique n’est donnée.</p></div>
 ${steps}
 <p><button type="button" class="btn small hlp-clear">Effacer mes réponses</button></p>
 </section>
 
 <section class="offer-band"><div class="kicker">MÊME ENTRÉE DU PROGRAMME</div><h2>Sujets proches pour réviser.</h2>
 <div class="seo-links">${related(x)}</div>
-<p><a class="official-link" href="hlp-annales.html">Tous les sujets HLP →</a> · <a class="official-link" href="hlp-terminale.html">Programme et épreuve de Terminale →</a> · <a class="official-link" href="philosophie-problematisation.html">Construire un problème →</a></p>
+<p><a class="official-link" href="hlp-annales.html">Tous les sujets HLP →</a> · <a class="official-link" href="hlp-terminale.html">Programme et épreuve de Terminale →</a> · <a class="official-link" href="hlp-ecrire.html">Rédiger une réponse HLP →</a></p>
 </section>
 
 </main>
@@ -206,3 +206,4 @@ inject('hlp-professeurs.html','HLP-BANK',bank(true));
 inject('hlp-professeurs.html','HLP-STATS',stats());
 inject('hlp-annales.html','HLP-COUNT',String(DATA.length));
 console.log('HLP : '+DATA.length+' sujets, '+keep.size+' pages générées, '+DATA.filter(localPdf).length+' PDF locaux.');
+require('./build-hlp-parcours').build(ROOT);
