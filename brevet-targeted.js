@@ -41,15 +41,17 @@
       });
     }
   }
+  const progressive=new Set(['2022-q2c','2022-q5','2022-q6','2022-q11','2023-q3','2023-q4b','2023-q5','2023-q10']);
   rows.sort((a,b)=>b.annee-a.annee || a.titre.localeCompare(b.titre,"fr"));
   const aiLabel=x=>x.aiMode==="none"?"Correction locale":x.aiMode==="recommended"?"Retour personnalisé conseillé":"Retour personnalisé possible";
   host.innerHTML=rows.length?rows.map(x=>`
-    <a class="brevet-bank-card" href="annales/entrainement-annale.html?id=${encodeURIComponent(x.id)}&mode=targeted&step=${encodeURIComponent(x.step)}">
+    <a class="brevet-bank-card" href="${progressive.has(x.annee+'-'+x.step)?'brevet-lecture-parcours.html#'+x.annee+'-'+x.step:'annales/entrainement-annale.html?id='+encodeURIComponent(x.id)+'&mode=targeted&step='+encodeURIComponent(x.step)}">
       <div class="brevet-bank-meta">${esc(x.annee)} · ${esc(x.auteur)} · ${esc(x.oeuvre)}</div>
       <h3>${esc(x.titre)}</h3>
       <div class="brevet-bank-tags">
         <span>${x.access==="premium"?"ACCÈS COMPLET":"GRATUIT"}</span>
         <span>${esc(aiLabel(x))}</span>
+        ${progressive.has(x.annee+'-'+x.step)?"<span>Trois niveaux · modèle annoté</span>":""}
         ${x.correction&&x.open?"<span>Réponse possible</span>":""}
       </div>
       <b>Faire cet exercice →</b>
