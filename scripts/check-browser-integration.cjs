@@ -3,7 +3,7 @@
 const fs=require('node:fs'),path=require('node:path'),http=require('node:http'),assert=require('node:assert/strict');
 const {chromium}=require('playwright');
 const root=path.resolve(process.argv[2]||'.');
-const pages=[...new Set(['index.html','bibliotheque.html','bibliotheque-litterature.html','annales.html','philosophie.html','philosophie-banque.html','philosophie-explication.html','philosophie-exemples.html','philosophie-troisieme-resolutions.html','hlp.html','hlp-premiere.html','hlp-terminale.html','hlp-ecrire.html','brevet.html','brevet-lecture-parcours.html',...fs.readdirSync(root).filter(n=>/^(hlp-parcours-.*|philosophie-explication-.+|philosophie-copie-20-.+|philosophie-notion-.+|philosophie-bac-2026-.+)\.html$/.test(n))])];
+const pages=[...new Set(['index.html','bibliotheque.html','bibliotheque-litterature.html','bibliotheque-litterature-idees.html','annales.html','philosophie.html','philosophie-banque.html','philosophie-explication.html','philosophie-exemples.html','philosophie-troisieme-resolutions.html','hlp.html','hlp-premiere.html','hlp-terminale.html','hlp-ecrire.html','brevet.html','brevet-lecture-parcours.html',...fs.readdirSync(root).filter(n=>/^(hlp-parcours-.*|philosophie-explication-.+|philosophie-copie-20-.+|philosophie-notion-.+|philosophie-bac-2026-.+)\.html$/.test(n))])];
 const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript','.css':'text/css','.svg':'image/svg+xml','.json':'application/json','.png':'image/png','.jpg':'image/jpeg','.woff2':'font/woff2'};
 const server=http.createServer((req,res)=>{const file=path.resolve(root,'.'+new URL(req.url,'http://localhost').pathname);if(!file.startsWith(root+path.sep))return res.writeHead(403).end();fs.readFile(file,(e,b)=>{if(e)return res.writeHead(404).end();res.writeHead(200,{'Content-Type':mime[path.extname(file)]||'application/octet-stream'}).end(b);});});
 const results=[];
@@ -32,6 +32,19 @@ async function journeys(page,name,width){
   const saved=await boxes.first().locator('[data-panel="1"] [data-draft]').first().inputValue();await page.reload();assert.equal(await page.locator('.ecrire [data-parcours]').first().locator('[data-panel="1"] [data-draft]').first().inputValue(),saved);
   const box=page.locator('.ecrire [data-parcours]').first();page.once('dialog',d=>d.accept());await box.locator('[data-erase]').click();assert.equal(await box.locator('[data-draft]').first().inputValue(),'');
  }
+ if(name==='bibliotheque-litterature-idees.html'){
+  assert.equal(await page.locator('.lit-fiche:not([hidden])').count(),9);
+  await page.selectOption('#lit-author','Cioran');assert.equal(await page.locator('.lit-fiche:not([hidden])').count(),5);
+  console.log('LIT-OPTIONS',JSON.stringify(await page.locator('#lit-use option').evaluateAll(es=>es.map(e=>({value:e.value,label:e.textContent})))));
+  await page.selectOption('#lit-use','commentaire');assert.equal(await page.locator('.lit-fiche:not([hidden])').count(),0);assert(await page.locator('#lit-empty').isVisible());
+  await page.locator('#lit-reset').click();await page.fill('#lit-search','liberte');assert.equal(await page.locator('.lit-fiche:not([hidden])').count(),4);
+  await page.locator('#lit-reset').click();await page.selectOption('#lit-use','contraction');assert.equal(await page.locator('.lit-fiche:not([hidden])').count(),1);
+  const fiche=page.locator('#cioran-creation');await fiche.locator('.lit-details>summary').click();await fiche.locator('textarea').fill('Mon explication des passions et de la création.');
+  await fiche.locator('details summary').last().click();assert(await fiche.getByText('Concevoir une œuvre ne suffit pas à la produire', {exact:false}).isVisible());
+  await page.reload();await page.locator('#cioran-creation .lit-details>summary').click();assert.equal(await page.locator('#draft-cioran-creation').inputValue(),'Mon explication des passions et de la création.');
+  await page.locator('#lafontaine-liberte .lit-details>summary').click();await page.fill('#draft-lafontaine-liberte','Un autre brouillon à préserver.');
+  page.once('dialog',d=>d.accept());await page.locator('[data-lit-erase="cioran-creation"]').click();assert.equal(await page.locator('#draft-cioran-creation').inputValue(),'');assert.equal(await page.locator('#draft-lafontaine-liberte').inputValue(),'Un autre brouillon à préserver.');
+ }
  if(name==='philosophie-exemples.html'){
   const subject=await page.locator('#ex-sujet option').evaluateAll(es=>es.find(e=>e.textContent.includes('convaincre')).value);await page.selectOption('#ex-sujet',subject);
   const buttons=page.locator('[data-compare]');assert(await buttons.count()>0);await buttons.first().click();const draft=page.locator('[data-draft-field="preference"]');await draft.fill('Cette scène distingue validité et réception des raisons.');await page.reload();assert.equal(await page.locator('[data-draft-field="preference"]').inputValue(),'Cette scène distingue validité et réception des raisons.');
@@ -50,9 +63,9 @@ async function journeys(page,name,width){
    try{
     const response=await page.goto(base+name,{waitUntil:'load'});assert(response.ok());await journeys(page,name,width);
     const overflow=await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth);assert(overflow<=12,`Débordement ${overflow}px`);assert.equal(errors.length,0,errors.join('; '));
-    if(['index.html','bibliotheque.html','bibliotheque-litterature.html','philosophie-banque.html'].includes(name))await page.screenshot({path:path.join(root,'browser-audit',`${name}-${width}.png`),fullPage:true});
+    if(['index.html','bibliotheque.html','bibliotheque-litterature.html','bibliotheque-litterature-idees.html','philosophie-banque.html'].includes(name))await page.screenshot({path:path.join(root,'browser-audit',`${name}-${width}.png`),fullPage:true});
     results.push({name,width,ok:true});console.log('OK',width,name);
-   }catch(e){results.push({name,width,ok:false,error:e.message,errors});console.error('FAIL',width,name,e.message);await page.screenshot({path:path.join(root,'browser-audit',`FAIL-${name}-${width}.png`),fullPage:true});}
+   }catch(e){if(name==='bibliotheque-litterature-idees.html')fs.writeFileSync(path.join(root,'browser-audit',`DOM-${width}.html`),await page.content());results.push({name,width,ok:false,error:e.message,errors});console.error('FAIL',width,name,e.message);await page.screenshot({path:path.join(root,'browser-audit',`FAIL-${name}-${width}.png`),fullPage:true});}
    await page.close();
   }
   await context.close();
