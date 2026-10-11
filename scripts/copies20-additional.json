@@ -1,0 +1,26 @@
+{
+  "2025-me-verite": {
+    "title": "La vérité est-elle toujours convaincante ?",
+    "notion": "verite",
+    "file": "philosophie-copie-20-2025-me-verite.html",
+    "exam": "Métropole 2025 · voie générale",
+    "code": "25-PHGEME1",
+    "source": "https://eduscol.education.gouv.fr/5199/annales-des-epreuves-du-baccalaureat-des-voies-generale-et-technologique"
+  },
+  "2025-me-avenir-technique": {
+    "title": "Notre avenir dépend-il de la technique ?",
+    "notion": "technique",
+    "file": "philosophie-copie-20-2025-me-avenir-technique.html",
+    "exam": "Métropole 2025 · voie générale",
+    "code": "25-PHGEME1",
+    "source": "https://eduscol.education.gouv.fr/5199/annales-des-epreuves-du-baccalaureat-des-voies-generale-et-technologique"
+  },
+  "2025-me-besoin-art": {
+    "title": "Avons-nous besoin d’art ?",
+    "notion": "art",
+    "file": "philosophie-copie-20-2025-me-besoin-art.html",
+    "exam": "Métropole 2025 · voie technologique",
+    "code": "25-PHTEME1",
+    "source": "https://eduscol.education.gouv.fr/5199/annales-des-epreuves-du-baccalaureat-des-voies-generale-et-technologique"
+  }
+}
