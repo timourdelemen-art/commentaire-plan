@@ -1,0 +1,1065 @@
+{
+  "date": "2026-10-11",
+  "portee": "Inventaire et contrôle structurel. Aucune certification globale de justesse narrative ou du meilleur choix de scène.",
+  "scenes": [
+    {
+      "id": "phedre",
+      "sha256_fiche": "4d4fa93eaeb168c824a030b5c734a71e350908684a05b86bcd846c465e896667",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": true,
+      "raccords": [
+        {
+          "sujet": "Avons-nous la maîtrise de nos paroles ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "berenice",
+      "sha256_fiche": "b5c3d30e2a73b4715848d03697e495b848ea86d71808fde3f2c5dbfb0db77cd4",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": true,
+      "raccords": [
+        {
+          "sujet": "Agir par devoir est-ce agir contre son intérêt ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        },
+        {
+          "sujet": "Suffit-il de faire son devoir ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "cid",
+      "sha256_fiche": "f4c982dbd2fcafd6db43c7f083249788d9aa4a1eb457248f86c1b75108262491",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": true,
+      "raccords": [
+        {
+          "sujet": "Qui peut me dire ce que je dois faire ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        },
+        {
+          "sujet": "Peut-on être libre quand on n’a pas le choix ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "horace",
+      "sha256_fiche": "353176c5a087030a5232d495343155f1f14afd6dfd180fbf1c5d8a10ab481ac8",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": true,
+      "raccords": [
+        {
+          "sujet": "Que devons-nous à l’État ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        },
+        {
+          "sujet": "L’individu doit-il se méfier de l’État ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "cinna",
+      "sha256_fiche": "14f9ea4be615c5ef0e460080a0355324cfb6bc7bc3e0bc1b83368396023d4f91",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": true,
+      "raccords": [],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "polyeucte",
+      "sha256_fiche": "7771569a5c6ea5126037e5515b52a3b8420a631043e92daacc6c38cf4fbdf5ad",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": true,
+      "raccords": [
+        {
+          "sujet": "La religion unit-elle ou sépare-t-elle les hommes ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Préciser les scènes V.3 et V.5–6 : refus, martyre et conversion ne sont pas simultanés.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "misanthrope",
+      "sha256_fiche": "59352c7a9fe14e5d644db8a458d18ee50c41dbf64f9f5d4017541d51fed98890",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": true,
+      "raccords": [
+        {
+          "sujet": "Toute vérité est-elle bonne à dire ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        },
+        {
+          "sujet": "Peut-on tout dire ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Le jugement d’Alceste sur le sonnet n’est pas une vérité objective incontestable.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "domjuan",
+      "sha256_fiche": "ef3fe31d6d8990b81c60905f6ba8e5e6e15c35ea1eded768cd7d85a1872a61e1",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": true,
+      "raccords": [],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "tartuffe",
+      "sha256_fiche": "4439946157664133c55f5e9da68fbd04790d821edbc42bfd886429c6a6b0c166",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": true,
+      "raccords": [
+        {
+          "sujet": "Peut-on critiquer la religion sans la rejeter ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Le raccord à la critique de la religion importe des éléments extérieurs à III.2 ; reclasser ou réécrire.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "lorenzaccio",
+      "sha256_fiche": "f933c879871a4473b9a944c25ba5c3ace439139290a74f902e94a94862c76378",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": true,
+      "raccords": [
+        {
+          "sujet": "Au nom de quoi peut-on s’opposer à l’État ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "antigone-sophocle",
+      "sha256_fiche": "12d09c05d9b753414c463741aac6d84a1ba35952b5aff158713f551c9c0b2fd0",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": true,
+      "raccords": [
+        {
+          "sujet": "Est-il toujours injuste de désobéir aux lois ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        },
+        {
+          "sujet": "Au nom de quoi peut-on s’opposer à l’État ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Créon commande plutôt qu’il n’obéit ; distinguer édit politique et devoir envers le mort.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "antigone-anouilh",
+      "sha256_fiche": "343b3526ab7da2bfb88d0d1752e59f319c4ce468ef79dd8aa003014b91b211fc",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": false,
+      "raccords": [
+        {
+          "sujet": "S’engager, est-ce renoncer à sa liberté ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        },
+        {
+          "sujet": "Peut-on être libre quand on n’a pas le choix ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Passage de l’édition à consulter avant validation narrative complète.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "cyrano",
+      "sha256_fiche": "7d0db60b73414e5c68c5713b56fc2f11e9dfa11241806259bd63876f779617f3",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": true,
+      "raccords": [
+        {
+          "sujet": "S’engager, est-ce renoncer à sa liberté ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "L’acte II.8 ne contient pas à lui seul les quinze ans de dissimulation révélés à V.5.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "ruyblas",
+      "sha256_fiche": "b74b60509ce09cb95e10ab7e7ee0b310cde5251405ee0fe11dba4d84498334a0",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": true,
+      "raccords": [],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "ile-esclaves",
+      "sha256_fiche": "c8b450734140e35b0fdf61c99c34bb0194dd550ec8a45b452187e293650d1136",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": true,
+      "raccords": [
+        {
+          "sujet": "La justice n’est-elle qu’une vengeance déguisée ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        },
+        {
+          "sujet": "Une inégalité peut-elle être juste ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "valjean-eveque",
+      "sha256_fiche": "80e89aaefb5b8463592bc897cb68ba0347943cf0c38e429f283883eb2c903466",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": true,
+      "raccords": [
+        {
+          "sujet": "La justice n’est-elle qu’une vengeance déguisée ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "javert",
+      "sha256_fiche": "198361470cb9b72c86a98a497856acf136c6b04ddcea7daa167574feaa89ba1f",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": true,
+      "raccords": [
+        {
+          "sujet": "Est-il toujours injuste de désobéir aux lois ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        },
+        {
+          "sujet": "Suffit-il de faire son devoir ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "tempete-crane",
+      "sha256_fiche": "40b5058f8de87cbb42592e41acb86da1efe080b0ec5672df1f3e76f387a0fa64",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": true,
+      "raccords": [
+        {
+          "sujet": "La conscience peut-elle être un fardeau ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        },
+        {
+          "sujet": "Faut-il se méfier de sa conscience ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "dernier-jour",
+      "sha256_fiche": "36c037dc2e9cfb0306364f23d31faedaa7b5064ba698ff23c7429711cdb043a1",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": true,
+      "raccords": [],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "demain-aube",
+      "sha256_fiche": "8e18fa768c638f7a968ddff5348599ec3f6e6b766c21a5a474b72fb3ca1e2c6d",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": true,
+      "raccords": [],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "ennemi",
+      "sha256_fiche": "5733c30a5829f6d33e24500dcead409e40b81192d6e7b6e211f8afa0bb28f9f1",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": true,
+      "raccords": [],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "horloge",
+      "sha256_fiche": "4ee77c55b87fe6d109a6a09998ba037ddd49c2e10aee8fb6eb4ad68119049cbb",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": true,
+      "raccords": [],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "bovary",
+      "sha256_fiche": "faf889882f88398d31c905bd1537a6e5b1aa9ae5cfb39ac9eba89b89ae9c6ce6",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": true,
+      "raccords": [
+        {
+          "sujet": "Un bonheur sans illusion est-il concevable ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "education-fin",
+      "sha256_fiche": "d26ae0a29c6b4191c13266d16143c91dfcf6afcf604fc088032727d0073b76f1",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": true,
+      "raccords": [],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "assommoir",
+      "sha256_fiche": "d7af25f4f9e416b7f2c59595a7297ff31621a5ad3260d74be4e2fc2b791e2330",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": true,
+      "raccords": [
+        {
+          "sujet": "Ne travaille-t-on que pour subvenir à ses besoins ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        },
+        {
+          "sujet": "Dépend-il de nous d’être heureux ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Ne pas attribuer la chute de Gervaise au seul arrêt du travail ; relocaliser les épisodes.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "germinal",
+      "sha256_fiche": "ecb6efc832cba3dcc17503f8701075793671ce4e35e2fb0b6dc6829b77933b6c",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": false,
+      "raccords": [
+        {
+          "sujet": "Le travail divise-t-il les hommes ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Préciser les livres des scènes : faim, intervention militaire et dénouement ne se confondent pas.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "bete-humaine",
+      "sha256_fiche": "9b21adfc76b0d5fc8b36a9b6b97d89722e490c18940f237f122191cc2fd05ae4",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": true,
+      "raccords": [
+        {
+          "sujet": "L’idée d’inconscient remet-elle en cause la responsabilité ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Distinguer hérédité romanesque et inconscient psychanalytique ; localiser le meurtre séparément.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "rouge-miroir",
+      "sha256_fiche": "3b11f7012ed4037ab07ae5af33baa99454df738f9eae7af1ca87e8829d2e94e7",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": true,
+      "raccords": [],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "horla",
+      "sha256_fiche": "4256be3e2f3fbaf3fb249b4d0f44339b5e3be578aedbd8e034b0dbb68c1e9c31",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": true,
+      "raccords": [
+        {
+          "sujet": "Suis-je le mieux placé pour me connaître ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        },
+        {
+          "sujet": "L’idée d’inconscient remet-elle en cause la responsabilité ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "L’hypothèse d’une possession fantastique ne prouve pas l’inconscient psychanalytique.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "chef-oeuvre",
+      "sha256_fiche": "2fa348a0a832f25b4ed7a5a664a478dbec308e04f281e058cc8ff685517c71a6",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": false,
+      "raccords": [
+        {
+          "sujet": "L’artiste sait-il ce qu’il fait ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        },
+        {
+          "sujet": "L’artiste est-il maître de son œuvre ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Relire la fin dans une édition source et contrôler les deux limites avant homologation.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "oedipe",
+      "sha256_fiche": "327e2331dfa7186c341afb31afe4e32063385ce006dd701802892864dde8a357",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": false,
+      "raccords": [
+        {
+          "sujet": "Peut-on résister à la vérité ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        },
+        {
+          "sujet": "L’idée d’inconscient remet-elle en cause la responsabilité ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "hamlet",
+      "sha256_fiche": "c40832f7f429e545e8e5851a977eaebc16f5b9f41517d3b473050095dbc7ed39",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": false,
+      "raccords": [
+        {
+          "sujet": "Qui peut me dire ce que je dois faire ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "candide",
+      "sha256_fiche": "1aeed2276ecf2286154f449b3e7a3f5ea2b471fd08d73f5544a2635b8bf0a1ba",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": false,
+      "raccords": [
+        {
+          "sujet": "Peut-on être heureux quand les autres ne le sont pas ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "frankenstein",
+      "sha256_fiche": "30581fd766a35567f09021151279675824635bc8453241d886ff3af7e57bed29",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": false,
+      "raccords": [
+        {
+          "sujet": "Ce qui est techniquement possible est-il toujours souhaitable ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Deux épisodes éloignés ; réécrire le choix de la compagne à partir du chapitre 20 dans une édition identifiée.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "etranger",
+      "sha256_fiche": "d24d13a7dc05f94e6e8a2ec0e3e7e02784f7d5eb8651b3d33a3683a556a6a50e",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": false,
+      "raccords": [
+        {
+          "sujet": "Toute vérité est-elle bonne à dire ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "La sincérité au procès ne permet pas de prouver que mentir aurait sauvé Meursault.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "peste-rambert",
+      "sha256_fiche": "3914785bdcee088c9695decbef4d97e14fa91d4cde4ebae1ec5ca3fe06074710",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": false,
+      "raccords": [
+        {
+          "sujet": "Peut-on être heureux quand les autres ne le sont pas ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Le choix de rester ne prouve pas que tout bonheur doit attendre la fin de l’épidémie.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "rhinoceros",
+      "sha256_fiche": "998403f60608d0aaa1a2b536456942794e57a0267abdc0b8aeb0c0c08ceed5a2",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": false,
+      "raccords": [],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "guerre-troie",
+      "sha256_fiche": "faf99154dbbe044eec5cac417dbbef9fdcde32dac6e88a66362f0ceaa8b32069",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": false,
+      "raccords": [
+        {
+          "sujet": "Discuter, est-ce renoncer à la violence ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "huis-clos",
+      "sha256_fiche": "42c8618398abbae3d04726091e9db7151d428ae0d3969cd59a130b7cdf996dff",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": false,
+      "raccords": [
+        {
+          "sujet": "Suis-je le mieux placé pour me connaître ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Garcin ne possède pas nécessairement un accès infaillible à ses intentions ; les autres ne sont pas des juges impartiaux.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "1984",
+      "sha256_fiche": "630614654fdfbab37d6b3e015268349f5311b47010809dce074a4683d12892e7",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": false,
+      "raccords": [
+        {
+          "sujet": "Sommes-nous prisonniers du langage ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "douze-hommes",
+      "sha256_fiche": "ef75157a10c65c3c6f4b727f7a81e6101ab23d4875ab792b60042acd4f1afb0d",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": false,
+      "raccords": [
+        {
+          "sujet": "Suffit-il d’avoir raison pour convaincre ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        },
+        {
+          "sujet": "Faut-il douter de tout ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "temps-modernes",
+      "sha256_fiche": "12d194f5ec9051f668c69b12d0ad758d71d4ae9d0a2ca8240576179b3944f79b",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": false,
+      "raccords": [
+        {
+          "sujet": "Le travail nous rend-il plus humain ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        },
+        {
+          "sujet": "La technique nous déshumanise-t-elle ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "La chaîne et la recherche d’emploi sont des séquences différentes ; éviter machine contre organisation comme explication exclusive.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "matrix",
+      "sha256_fiche": "2de87ae7d332e270191ff2fc9a23babdd4716fac6fd519a6a13ff692ed18f159",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": false,
+      "raccords": [
+        {
+          "sujet": "Faut-il être inconscient pour être heureux ?",
+          "deux_limites_explicites": true,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Lire la scène du restaurant, pas seulement le synopsis ; ignorant ne veut pas dire dépourvu d’expérience heureuse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "truman",
+      "sha256_fiche": "a941866b5c0e07fc9f1f4a399f1fee2315d831f0ea89a2f10fd8b2d4d50d322c",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": false,
+      "raccords": [
+        {
+          "sujet": "Suffit-il de se sentir libre pour l’être ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Vérifier les détails du choix final dans le film ; pas de généralisation sur son bonheur antérieur.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "sully",
+      "sha256_fiche": "6b60c4680b8b9fd848ae24ca7a4488af41dfdb35c913fe34c5fdd82a62bfef26",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": false,
+      "raccords": [
+        {
+          "sujet": "Peut-on être certain d’avoir bien agi ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Film et enquête historique doivent rester distingués.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "zone-interet",
+      "sha256_fiche": "628a608c7e261e3ecb8949d4fecdf6f636caad455615eacd4b194e0b7f583dd1",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": false,
+      "raccords": [],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "oppenheimer",
+      "sha256_fiche": "69f6994441b98a5db3206aa88f72c6c7a470687c84d2cbd07d0ce5b8e94e72a3",
+      "source_narrative": {
+        "url": "https://assets.scriptslug.com/live/pdf/scripts/oppenheimer-2023.pdf?v=1729114966",
+        "label": "Scénario original de Christopher Nolan, copie publique",
+        "portee": "Entretien avec Truman dans le récit cinématographique"
+      },
+      "statut_narratif": "passage_consulte",
+      "citation_controlee": false,
+      "raccords": [
+        {
+          "sujet": "Une vérité scientifique peut-elle être dangereuse ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        },
+        {
+          "sujet": "Le développement des sciences est-il recherche du savoir ou de la puissance ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "2001",
+      "sha256_fiche": "1fec1bf666bfcc4cf82e45d3b930dd96c5adac00904c6a179a853e338abf7d6f",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": false,
+      "raccords": [
+        {
+          "sujet": "Sommes-nous maîtres du progrès technique ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "blade-runner",
+      "sha256_fiche": "4ec0f61bb1e9deab7f2af6ac91c6969fffc11937c1eb6565698c2744852ca5c1",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": false,
+      "raccords": [
+        {
+          "sujet": "La technique nous déshumanise-t-elle ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Distinguer fabrication biologique, statut juridique et conduite moralement humaine.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "gattaca",
+      "sha256_fiche": "050ea02c95e43bcf09d66409d899693f09ff277d07f359c89a7d5df65e1c51a6",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": false,
+      "raccords": [
+        {
+          "sujet": "Ce qui est naturel est-il normal ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "into-the-wild",
+      "sha256_fiche": "85e7c5334e14bc098d174746a1692701982e195093169328f97639af08ea3bcb",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": false,
+      "raccords": [],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "hannah-arendt",
+      "sha256_fiche": "303987bb7df670d2c6166c1f20d43f827d281c47af95d7d13ab7fd377a20d396",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": false,
+      "raccords": [
+        {
+          "sujet": "Peut-on faire son devoir par habitude ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        },
+        {
+          "sujet": "Pour être juste, suffit-il d’obéir aux lois ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "rosa-parks",
+      "sha256_fiche": "3dded9e9a3b4719180c8773c82625926fc0cc48741e8c5d288e0297d524c2962",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": false,
+      "raccords": [
+        {
+          "sujet": "Revient-il principalement à l’État de lutter contre l’injustice ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        },
+        {
+          "sujet": "Est-il toujours injuste de désobéir aux lois ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Préciser section occupée, ordre de déplacement et arrêt Browder v. Gayle ; ne pas attribuer tout le résultat à un procès de Parks.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "tchernobyl",
+      "sha256_fiche": "07e9fef038927a6b0a3b06fb2f12e7579b90a3b18568b7c77425c6ed20a040df",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": false,
+      "raccords": [
+        {
+          "sujet": "La nature a-t-elle besoin de nous ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        },
+        {
+          "sujet": "Peut-on à la fois préserver et dominer la nature ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "La présence d’animaux ne prouve ni l’innocuité des radiations ni une nature entièrement sauvée.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "fete-etre-supreme",
+      "sha256_fiche": "923177960863809086232837a7f0aaea47e4e6af148bd92cc5d7dd16e147ecc8",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": false,
+      "raccords": [],
+      "point_a_revoir": "Projet de culte civique ; aucune preuve de nécessité universelle de religion.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "promethee",
+      "sha256_fiche": "00828785e2f487db5a1a7e86c80bfec0aec83115e60719c37ceb6345e2df6675",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": false,
+      "raccords": [],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "sisyphe",
+      "sha256_fiche": "34c8dfcb504af386bdad7e4b5014ec39d4cc68860e003c85c2e698a522facdd0",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": false,
+      "raccords": [
+        {
+          "sujet": "Peut-on aimer travailler ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "madeleine",
+      "sha256_fiche": "0c5e8ff190a01484fdf266703ff7bc61793c7ededec69de489502b764cad04f5",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": true,
+      "raccords": [
+        {
+          "sujet": "Faut-il enterrer le passé ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "guermantes",
+      "sha256_fiche": "4f734eaad0dba7d9c97b5e5751774735cf8cf4d391c4089121909116a94618b2",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": false,
+      "raccords": [
+        {
+          "sujet": "Le temps est-il nécessairement destructeur ?",
+          "deux_limites_explicites": false,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Contrôler l’ordre des réminiscences et de la reconnaissance des visages dans la matinée.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "bernard-foie-lave",
+      "sha256_fiche": "0935674d73b6f16d3774a86446f06dd29a54a861ceded061e09ed23048b83d75",
+      "source_narrative": {
+        "url": "https://www.gutenberg.org/cache/epub/16234/pg16234.html",
+        "label": "Texte français de Claude Bernard",
+        "portee": "Passage lu : dosages et expérience du foie lavé"
+      },
+      "statut_narratif": "passage_consulte",
+      "citation_controlee": false,
+      "raccords": [
+        {
+          "sujet": "La connaissance scientifique progresse-t-elle par l’accumulation des observations ?",
+          "deux_limites_explicites": true,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "nautilus-captivite",
+      "sha256_fiche": "828b058d89e97cf1ec97b32aab93e07dfccccb886dfedb47f34c08f2f2761edc",
+      "source_narrative": {
+        "url": "https://www.gutenberg.org/files/5096/5096-h/5096-h.htm",
+        "label": "Texte français de Jules Verne",
+        "portee": "Dialogue Aronnax–Nemo, deuxième partie XIX"
+      },
+      "statut_narratif": "passage_consulte",
+      "citation_controlee": false,
+      "raccords": [
+        {
+          "sujet": "Sommes-nous maîtres du progrès technique ?",
+          "deux_limites_explicites": true,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "oppenheimer-risque-trinity",
+      "sha256_fiche": "a8e9ad80cc9fa2a53db7aba0dcf503021fedc5580a4499ec5d636a8d802be739",
+      "source_narrative": {
+        "url": "https://assets.scriptslug.com/live/pdf/scripts/oppenheimer-2023.pdf?v=1729114966",
+        "label": "Scénario original de Christopher Nolan, copie publique",
+        "portee": "Scène du bunker : représentation cinématographique, pas transcription historique"
+      },
+      "statut_narratif": "passage_consulte",
+      "citation_controlee": false,
+      "raccords": [
+        {
+          "sujet": "Ce qui est techniquement possible est-il toujours souhaitable ?",
+          "deux_limites_explicites": true,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "tartuffe-table",
+      "sha256_fiche": "4ee4b1c5d52d627d146b573fb070fa6106f9e90e1d739a7d70f82c53bccc4808",
+      "source_narrative": {
+        "url": "https://github.com/dracor-org/fredracor/blob/main/tei/moliere-tartuffe.xml",
+        "label": "Texte de Molière, FreDraCor",
+        "portee": "Acte IV, scènes 4–6, vers 1360–1538"
+      },
+      "statut_narratif": "passage_consulte",
+      "citation_controlee": true,
+      "raccords": [
+        {
+          "sujet": "Suffit-il d’avoir raison pour convaincre ?",
+          "deux_limites_explicites": true,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    },
+    {
+      "id": "chaplin-titine",
+      "sha256_fiche": "da4b1585a3540752ae9c134da7d49190a02784754b3c73ff35cc015fee06d111",
+      "source_narrative": {
+        "url": "https://www.charliechaplin.com/en/films/7-The-Great-Dictator/articles/114-Nonsense-Song-from-Modern-Times-Titine-",
+        "label": "Site officiel Charlie Chaplin : la chanson de Titine",
+        "portee": "Perte des paroles et chant dans une langue inventée"
+      },
+      "statut_narratif": "passage_consulte",
+      "citation_controlee": false,
+      "raccords": [
+        {
+          "sujet": "L’artiste sait-il ce qu’il fait ?",
+          "deux_limites_explicites": true,
+          "validation_independante": false
+        }
+      ],
+      "point_a_revoir": "Relire le passage, la portée de chaque piste et le coût de chaque réponse.",
+      "homologation_ouverture": false
+    }
+  ]
+}

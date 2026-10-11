@@ -1,0 +1,9 @@
+/* Comparaison des scènes : règles limitées à cette page. */
+.ex-wrap {min-width:0;} .ex-wrap textarea {width:100%;max-width:100%;box-sizing:border-box;min-height:7rem;}
+.ex-workshop {margin-top:2rem;padding:clamp(1rem,3vw,2rem);border:1px solid var(--line,#ddd);background:var(--paper,#fff);}
+.ex-workshop label {display:block;font-weight:600;margin:1.3rem 0;} .ex-workshop textarea {display:block;margin-top:.5rem;font-weight:400;}
+.ex-compare-grid {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.25rem;} .ex-compare-grid article {min-width:0;padding:1rem;border:1px solid var(--line,#ddd);}
+.ex-wrap button:focus-visible,.ex-wrap textarea:focus-visible {outline:3px solid #8c3029;outline-offset:3px;} .ex-actions {margin-top:1rem;}
+.ex-wrap select,.ex-wrap input {max-width:100%;min-width:0;} .ex-workshop p,.ex-workshop a {overflow-wrap:anywhere;}
+@media(max-width:600px){.ex-compare-grid{grid-template-columns:1fr;}.ex-sujet-line{flex-wrap:wrap;}.ex-sujet-line select{width:100%;}}
+@media print{.ex-controls,.ex-actions{display:none;}.ex-compare-grid{grid-template-columns:1fr;}.ex-workshop textarea{border:1px solid #999;}}
