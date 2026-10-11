@@ -2580,3 +2580,71 @@ div.qcm-options>p{border:0!important;background:none!important;box-shadow:none!i
 .vs-page .vs-ver{color:var(--muted)}
 .vs-page .side-note p{overflow-wrap:anywhere}
 @media(max-width:700px){.vs-page .vs-q{font-size:17px}.vs-page .vs-oeuvre h3{font-size:22px}}
+/* === brevet : sujets de rédaction, copies à 20, connecteurs, exemples (tâche brevet-redaction-20) === */
+.bred-page .section-intro a,.bred-page .prose a,.bred-page .micro a,.bred-page .bred-liste a,.bred-page .bsr-links a{color:var(--red);border-bottom:1px solid var(--red)}
+.bred-page .bsr-links{display:flex;flex-wrap:wrap;gap:8px 22px;list-style:none;padding:0;margin:12px 0;font-size:18px}
+.bred-page .bsr-section{border-bottom:1px solid var(--rule);padding-bottom:30px}
+.bred-page .bsr-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;padding:0 18px}
+.bred-page .bsr-card{border-top:3px solid var(--red);background:#fbf7ef;padding:20px 22px 14px;scroll-margin-top:20px;min-width:0}
+.bred-page .bsr-card:target{outline:3px solid var(--red);outline-offset:2px}
+.bred-page .bsr-meta{font:700 12px/1.4 'American Typewriter','Courier New',monospace;letter-spacing:1.4px;color:var(--red);margin:0 0 10px}
+.bred-page .bsr-consigne{margin:0 0 14px;padding:0 0 0 14px;border-left:3px solid #d9d0c2;font-size:18px;line-height:1.5}
+.bred-page .bsr-contexte,.bred-page .bsr-piege{font-size:16px;line-height:1.5;margin:8px 0}
+.bred-page .bsr-piege{background:#f3ead2;padding:8px 12px}
+.bred-page .bsr-actions{display:flex;flex-wrap:wrap;gap:4px 20px;margin:12px 0 4px}
+.bred-page .bsr-actions .official-link{margin-top:6px}
+.bred-page .bsr-code{font:12px 'American Typewriter','Courier New',monospace;color:var(--muted);margin:8px 0 0}
+.bred-page .bsr-ecrire .exam-writing-area{min-height:420px}
+.bred-page textarea.bred-small{min-height:0;margin-top:10px}
+.bred-page .bred-attentes-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin-top:14px}
+.bred-page .bred-attentes-grid b{font:700 13px 'American Typewriter','Courier New',monospace;letter-spacing:1px;text-transform:uppercase;color:var(--red)}
+.bred-page .bred-attentes-grid p{font-size:17px;line-height:1.5;margin:6px 0}
+.bred-page .bred-sous{font-size:18px;line-height:1.45}
+.bred-page .bred-contrat{padding-left:22px}
+.bred-page .bred-contrat li{font-size:19px;line-height:1.5;margin:0 0 14px}
+.bred-page .bred-ex{display:block;font-size:15px;color:var(--muted);margin-top:2px}
+.bred-page .bred-liste{font-size:18px;line-height:1.7}
+.bred-page .bc20-copy{padding:44px 18px;border-bottom:1px solid var(--rule);scroll-margin-top:20px}
+.bred-page .bc20-head h2{font-size:38px;line-height:1.05;margin:10px 0 12px;font-weight:400}
+.bred-page .bc20-meta{font-size:16px;line-height:1.45}
+.bred-page .bc20-toggle[aria-pressed="true"]{border-color:var(--red);color:var(--red)}
+.bred-page .bc20-texte{max-width:980px}
+.bred-page .bc20-valorise{margin:26px 0 0;padding:16px 20px;border-left:4px solid var(--red);background:#eee5d5;max-width:980px}
+.bred-page .bc20-valorise ul{margin:8px 0 0;padding-left:20px}
+.bred-page .bc20-valorise li{font-size:17px;line-height:1.5;margin:6px 0}
+.bred-page .bniv-tabs{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 18px}
+.bred-page .bniv-tabs button{font:14px 'American Typewriter','Courier New',monospace;background:transparent;border:1px solid #827d74;padding:10px 14px;cursor:pointer;color:var(--ink)}
+.bred-page .bniv-tabs button[aria-selected="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.bred-page .bniv-aide{font-size:17px;color:var(--muted);margin:0 0 6px}
+.bred-page .bniv-nav{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0 0;padding-top:18px;border-top:1px dotted var(--rule)}
+.bred-page .bniv-nav button{font:15px Georgia,'Times New Roman',serif;background:transparent;border:1px solid var(--rule);padding:9px 14px;cursor:pointer;color:var(--ink)}
+.bred-page .bniv-nav .bniv-next{background:var(--red);border-color:var(--red);color:#fff}
+.bred-page .brevet-qcm .chaine-opts{max-width:1050px;margin-top:14px}
+.bred-page .bordre-items{display:grid;gap:10px;max-width:1050px;margin-top:14px}
+.bred-page .bordre-item{display:grid;grid-template-columns:34px minmax(0,1fr);gap:8px;text-align:left;font:17px/1.45 Georgia,'Times New Roman',serif;background:#fff;border:1px solid #8a8378;padding:12px 14px;cursor:pointer;color:var(--ink)}
+.bred-page .bordre-item.done{background:#f3eee5;cursor:default}
+.bred-page .bordre-n{font:700 15px 'American Typewriter','Courier New',monospace;color:var(--red)}
+.bred-page .bordre-again{display:inline-flex;margin:10px 0 0;min-width:0;height:auto;padding:8px 14px;font-size:15px}
+.bred-page .bchasse-texte{font-size:18px;line-height:2;max-width:1050px}
+.bred-page .bchasse-texte .chaine-opt{display:inline;padding:2px 6px;font-size:18px;line-height:1.7;border-style:dashed;text-align:left}
+.bred-page .bco-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin-top:16px}
+.bred-page .bco-card{border-top:3px solid var(--red);background:#fbf7ef;padding:16px 20px;min-width:0}
+.bred-page .bco-card h3{font-size:26px;font-weight:400;margin:4px 0}
+.bred-page .bco-card p{font-size:16px;line-height:1.5;margin:6px 0}
+.bred-page .bco-mots{font:15px 'American Typewriter','Courier New',monospace;color:var(--red)}
+.bred-page .bco-ex{font-style:italic;border-left:3px solid #d9d0c2;padding-left:10px}
+.bred-page .bco-ex u{text-decoration-color:var(--red);text-decoration-thickness:2px}
+.bred-page .bco-piege{background:#f3ead2;padding:6px 10px}
+.bred-page .bex-section{padding:40px 18px;border-bottom:1px solid var(--rule)}
+.bred-page .bex-filtres{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 0}
+.bred-page .bex-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-top:20px}
+.bred-page .bex-card{border-top:3px solid var(--red);background:#fbf7ef;padding:16px 18px;min-width:0;scroll-margin-top:20px}
+.bred-page .bex-card h3{font-size:22px;font-weight:400;margin:2px 0}
+.bred-page .bex-card p{font-size:16px;line-height:1.5;margin:6px 0}
+.bred-page .bex-auteur{color:var(--muted)}
+.bred-page .bex-prouve{background:#f3ead2;padding:6px 10px}
+.bred-page .bex-sujets a{color:var(--red);border-bottom:1px solid var(--red)}
+.bred-page .bex-themes{font:12px 'American Typewriter','Courier New',monospace;color:var(--muted)}
+@media(max-width:1050px){.bred-page .bex-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){.bred-page .bsr-grid,.bred-page .bred-attentes-grid,.bred-page .bco-grid,.bred-page .bex-grid{grid-template-columns:1fr}.bred-page .bsr-grid{padding:0}.bred-page .bc20-copy{padding:32px 6px}.bred-page .bc20-head h2{font-size:30px}.bred-page .bsr-consigne{font-size:17px}.bred-page .bniv-tabs button{flex:1 1 100%;text-align:left}}
+.brevet-redaction-liens{padding:0 18px}.brevet-redaction-liens a{color:var(--red);border-bottom:1px solid var(--red)}
