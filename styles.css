@@ -2562,3 +2562,21 @@ div.qcm-options>p{border:0!important;background:none!important;box-shadow:none!i
   .rep-view .rep-p p{font-size:17px;line-height:2.1}
   .manuel-v6 .mv6-sub{font-size:22px}
 }
+
+/* === dissertation-sujets-20 : banque des vrais sujets de dissertation (bac-dissertation-sujets.html) === */
+.vs-page .vs-prog p{font-size:17px;line-height:1.5;margin:0 0 10px}
+.vs-page .vs-alerte{background:#eee4d3;padding:16px 18px;font-size:16px;line-height:1.5}
+.vs-page .vs-formes-list{padding-left:20px;font-size:17px;line-height:1.5}
+.vs-page .vs-oeuvre{margin-top:30px}
+.vs-page .vs-oeuvre h3{font-size:26px;font-weight:400;margin:0 0 4px}
+.vs-page .vs-parcours{font:13px 'American Typewriter','Courier New',monospace;letter-spacing:1px;color:var(--red);margin:0 0 12px}
+.vs-page .vs-list{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+.vs-page .vs-item{padding:14px 0;border-bottom:1px dotted var(--rule)}
+.vs-page .vs-q{font-size:19px;line-height:1.45;margin:0 0 6px;overflow-wrap:anywhere}
+.vs-page .vs-meta{font:13px 'American Typewriter','Courier New',monospace;letter-spacing:.5px;color:var(--muted);margin:0 0 4px}
+.vs-page .vs-forme{font-size:15px;line-height:1.45;margin:0 0 4px}
+.vs-page .vs-src{font-size:14px;margin:0;display:flex;flex-wrap:wrap;gap:6px 16px}
+.vs-page .vs-src a{color:var(--red);border-bottom:1px solid var(--red)}
+.vs-page .vs-ver{color:var(--muted)}
+.vs-page .side-note p{overflow-wrap:anywhere}
+@media(max-width:700px){.vs-page .vs-q{font-size:17px}.vs-page .vs-oeuvre h3{font-size:22px}}
