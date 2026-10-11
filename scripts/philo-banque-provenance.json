@@ -1,0 +1,109 @@
+{
+  "status": "references-commentees-sans-reproduction",
+  "source_files": [
+    {
+      "author": "Platon",
+      "sha256": "5024f83916d3d844c3ea45254847f16607f0d6f277258e786a2de78f0f866485"
+    },
+    {
+      "author": "Aristote",
+      "sha256": "bb7839c70e0f9c9b2f1adcb32e6c8a188cc7801c0b373b4ea68b243efdb9c180"
+    },
+    {
+      "author": "Nietzsche",
+      "sha256": "952d2db67f5bffd472803534bed9f2e3192df4b960304ab41da71e126eccb7dc"
+    }
+  ],
+  "entries": [
+    {
+      "id": "platon-persuasion",
+      "locator": "454c–455a",
+      "status": "relecture-descriptive-effectuee",
+      "quotation_verified": false
+    },
+    {
+      "id": "platon-recherche",
+      "locator": "80d–86c",
+      "status": "relecture-descriptive-effectuee",
+      "quotation_verified": false
+    },
+    {
+      "id": "platon-ecriture",
+      "locator": "274c–277a",
+      "status": "relecture-descriptive-effectuee",
+      "quotation_verified": false
+    },
+    {
+      "id": "platon-caverne",
+      "locator": "VII, 514a–517a",
+      "status": "relecture-descriptive-effectuee",
+      "quotation_verified": false
+    },
+    {
+      "id": "platon-desir",
+      "locator": "210a–212a",
+      "status": "relecture-descriptive-effectuee",
+      "quotation_verified": false
+    },
+    {
+      "id": "aristote-bonheur",
+      "locator": "I, 7, 1097b22–1098a20",
+      "status": "relecture-descriptive-effectuee",
+      "quotation_verified": false
+    },
+    {
+      "id": "aristote-vertu",
+      "locator": "II, 1–4, 1103a14–1105b18",
+      "status": "relecture-descriptive-effectuee",
+      "quotation_verified": false
+    },
+    {
+      "id": "aristote-savoir",
+      "locator": "I, 2, 71b9–72a5",
+      "status": "relecture-descriptive-effectuee",
+      "quotation_verified": false
+    },
+    {
+      "id": "aristote-discours",
+      "locator": "I, 1–2, 1355a–1356a",
+      "status": "relecture-descriptive-effectuee",
+      "quotation_verified": false
+    },
+    {
+      "id": "aristote-cite",
+      "locator": "I, 2, 1253a1–18",
+      "status": "relecture-descriptive-effectuee",
+      "quotation_verified": false
+    },
+    {
+      "id": "aristote-art",
+      "locator": "4, 1448b4–19",
+      "status": "relecture-descriptive-effectuee",
+      "quotation_verified": false
+    },
+    {
+      "id": "nietzsche-valeurs",
+      "locator": "I, §§ 2 et 10",
+      "status": "relecture-descriptive-effectuee",
+      "quotation_verified": false
+    },
+    {
+      "id": "nietzsche-verite",
+      "locator": "§ 344",
+      "status": "relecture-descriptive-effectuee",
+      "quotation_verified": false
+    },
+    {
+      "id": "nietzsche-perspective",
+      "locator": "§ 22",
+      "status": "relecture-descriptive-effectuee",
+      "quotation_verified": false
+    },
+    {
+      "id": "nietzsche-liberte",
+      "locator": "I, « Des trois métamorphoses »",
+      "status": "relecture-descriptive-effectuee",
+      "quotation_verified": false
+    }
+  ]
+}
