@@ -1,3 +1,4 @@
+import { generateDissertation } from './philo-dissertation-generator.js';
 import { THIRD_PART_REVIEW, RESIDUAL_REVIEW, CONCLUSION_REVIEW } from './philo-resolution-policy.js';
 const ALLOWED_ORIGINS = new Set([
   "https://commentaire-plan.com",
@@ -473,6 +474,7 @@ export default {
     }
 
     const url = new URL(request.url);
+    if (request.method === "POST" && url.pathname === "/api/generate-dissertation") return generateDissertation(request, env);
     if (request.method !== "POST" || url.pathname !== "/api/analyze") {
       return json({ ok: false, error: "Route inconnue." }, 404, origin);
     }
