@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Atelier expérimental — copie de philosophie</title><meta name="robots" content="noindex,nofollow"><link rel="stylesheet" href="/styles.css">
+<style>
+.atelier{max-width:820px;margin:2rem auto;padding:0 1rem}.atelier textarea{width:100%;min-height:5rem;padding:.8rem;font:inherit}.atelier button{padding:.8rem 1.2rem;margin:.7rem 0;cursor:pointer}.atelier article{line-height:1.75}.atelier article p{margin:1.1rem 0}.atelier .notice{border-left:3px solid #888;padding:.8rem 1rem;background:#f7f5f0}.atelier .copie{border-top:1px solid #bbb;margin-top:1.5rem;padding-top:1rem}.atelier [hidden]{display:none!important}
+</style></head><body><main class="atelier">
+<p><a href="/philosophie.html">← Philosophie</a></p>
+<p class="kicker">ESSAI DE RÉDACTION · VERSION DE PRÉVISUALISATION</p>
+<h1>Créer une copie expérimentale</h1>
+<p class="notice">Un seul sujet est disponible pour cette première démonstration. La rédaction est un modèle original préparé et contrôlé pour ce sujet, non une génération libre par intelligence artificielle. Aucune note n'est garantie. Les outils d'analyse restent en arrière-plan.</p>
+<label for="sujet"><strong>Sujet étudié</strong></label>
+<textarea id="sujet" readonly>Peut-on avoir raison contre tout le monde ?</textarea>
+<p><button id="creer" type="button">Créer la copie</button> <button id="masquer" type="button" hidden>Masquer la copie</button></p>
+<p id="statut" role="status" aria-live="polite"></p>
+<article id="copie" class="copie" hidden>
+<h2>Peut-on avoir raison contre tout le monde ?</h2>
+<h3>Introduction</h3>
+<p>Un chercheur peut maintenir une découverte contre l'avis de ses collègues ; un fanatique peut opposer à toute objection la même certitude. Tous deux se disent seuls contre tous. Pourtant, l'un accepte que les preuves décident, tandis que l'autre tient le désaccord pour une preuve de sa supériorité. Si la vérité ne se décide pas au vote, comment distinguer celui qui a raison seul de celui qui se trompe obstinément ? Peut-on avoir raison contre tout le monde sans se dispenser de répondre à chacun ?</p>
+<h3>I. L'accord de tous ne fait pas la vérité</h3>
+<p>Une proposition n'est pas vraie parce qu'une majorité l'approuve. Même unanime, une erreur demeure une erreur. L'histoire des sciences montre que des hypothèses minoritaires peuvent résister à l'examen mieux que les convictions reçues. Avoir raison contre tous est donc possible : le nombre des adversaires ne réfute aucun argument.</p>
+<p>Mais ce premier constat semble offrir un refuge à toute conviction solitaire. Puisque le désaccord ne prouve pas mon erreur, pourquoi ne pas me croire infaillible ?</p>
+<h3>II. La solitude ne garantit pas davantage la vérité</h3>
+<p>Celui qui se déclare seul détenteur du vrai risque de confondre indépendance et obstination. Une affirmation qui refuse tout examen ne gagne rien à être impopulaire. Descartes fait du doute un exercice de rigueur, non un permis de s'enfermer dans son opinion. Avoir raison exige des raisons que l'on puisse éprouver, y compris lorsque personne ne les accepte encore.</p>
+<p>Mais si la validité d'une pensée ne dépend pas de son accueil, pourquoi faut-il néanmoins la soumettre aux autres ?</p>
+<h3>III. Avoir raison seul, c'est pouvoir rendre raison à tous</h3>
+<p>Il faut distinguer l'accord effectivement obtenu de l'accord auquel une justification peut légitimement prétendre. Une démonstration peut être correcte avant d'être reconnue ; elle doit cependant pouvoir être reprise, discutée et corrigée par d'autres esprits. La vérité n'exige donc pas l'unanimité présente, mais elle interdit de transformer la solitude en privilège. Ce qui compte n'est pas d'être contre tous : c'est de proposer des raisons qui ne valent pas pour soi seul.</p>
+<h3>Conclusion</h3>
+<p>On peut avoir raison contre tout le monde, car le nombre ne décide pas du vrai. Mais on ne saurait tirer de ce désaccord la preuve qu'on a raison. La pensée juste peut être solitaire dans sa découverte ; elle demeure ouverte, dans sa justification, à l'examen de tous.</p>
+</article>
+<p><small>Prototype éditorial : un texte fixé pour tester le parcours. Il ne s'agit pas encore d'un générateur capable de traiter n'importe quel sujet.</small></p>
+</main>
+<script>
+const a=document.getElementById('copie'),b=document.getElementById('creer'),c=document.getElementById('masquer'),s=document.getElementById('statut');
+b.addEventListener('click',()=>{a.hidden=false;c.hidden=false;s.textContent='Copie affichée. Vous pouvez la lire et la comparer à votre propre travail.';a.scrollIntoView({block:'start',behavior:'smooth'});});
+c.addEventListener('click',()=>{a.hidden=true;c.hidden=true;s.textContent='Copie masquée.';b.focus();});
+</script></body></html>
