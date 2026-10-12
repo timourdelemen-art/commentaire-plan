@@ -1,29 +1,61 @@
 {
-  "version": "1.0",
-  "source": "Analyse croisée sujets de dissertation philosophie + dictionnaire paradoxal",
+  "version": "1.1",
+  "source": "Analyse croisée sujets de dissertation philosophie + dictionnaire paradoxal + moteur interne",
+  "problemes": [
+    {
+      "id": "condition-abolition",
+      "titre": "Condition de possibilité et abolition",
+      "structure": "Ce qui rend une réalité possible peut menacer ce qu'elle rend possible."
+    },
+    {
+      "id": "contradiction-interne",
+      "titre": "Contradiction interne",
+      "structure": "Une notion porte des exigences qui semblent incompatibles."
+    }
+  ],
+  "resolutions": [
+    {
+      "id": "duplication-ontologique",
+      "titre": "Duplication ontologique",
+      "structure": "Distinguer des niveaux de réalité pour résoudre une contradiction apparente."
+    },
+    {
+      "id": "transformation-rapport",
+      "titre": "Transformation du rapport",
+      "structure": "Modifier la relation entre les termes du problème."
+    }
+  ],
   "matrices": [
     {
       "id": "condition-cachee",
       "titre": "La condition cachée",
       "structure": "Ce qui semble limiter une réalité peut être ce qui la rend possible.",
+      "probleme": "condition-abolition",
+      "resolution": "transformation-rapport",
       "auteurs": ["Rousseau", "Kant", "Spinoza", "Hegel"]
     },
     {
       "id": "definition-renversee",
       "titre": "La définition spontanée renversée",
       "structure": "Ce qu'une notion semble être immédiatement doit être redéfini par une analyse plus profonde.",
+      "probleme": "contradiction-interne",
+      "resolution": "transformation-rapport",
       "auteurs": ["Platon", "Descartes", "Nietzsche"]
     },
     {
       "id": "valeur-limite",
       "titre": "La valeur qui rencontre sa limite interne",
       "structure": "Une valeur considérée comme absolue peut entrer en contradiction avec ses propres conditions.",
+      "probleme": "condition-abolition",
+      "resolution": "duplication-ontologique",
       "auteurs": ["Pascal", "Nietzsche", "Platon"]
     },
     {
       "id": "desir",
       "titre": "Le désir : manque ou puissance",
       "structure": "Le désir peut être compris comme privation ou comme force productive.",
+      "probleme": "contradiction-interne",
+      "resolution": "transformation-rapport",
       "auteurs": ["Platon", "Epicure", "Spinoza"]
     }
   ]
