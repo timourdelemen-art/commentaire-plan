@@ -1,0 +1,10 @@
+{
+  "mode": "test_interne",
+  "sujet": "Peut-on avoir raison contre tout le monde ?",
+  "analyse_moteur": {
+    "tension": "verite et validation collective",
+    "matrices": ["apparence-realite", "individu-totalite"],
+    "resolution": "distinguer verite et reconnaissance sociale"
+  },
+  "objectif": "Verifier que le moteur ameliore la problematisation sans apparaitre dans l'interface eleve."
+}
