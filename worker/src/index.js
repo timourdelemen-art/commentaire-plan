@@ -2,7 +2,8 @@ import { THIRD_PART_REVIEW, RESIDUAL_REVIEW, CONCLUSION_REVIEW } from './philo-r
 const ALLOWED_ORIGINS = new Set([
   "https://commentaire-plan.com",
   "https://www.commentaire-plan.com",
-  "https://commentaire-dissertation.netlify.app"
+  "https://commentaire-dissertation.netlify.app",
+  "https://deploy-preview-134--commentaire-dissertation.netlify.app"
 ]);
 
 const CORE_EXERCISES = {
