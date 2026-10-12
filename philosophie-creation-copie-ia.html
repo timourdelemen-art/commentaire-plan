@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Création de copie philosophique IA</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="wrap">
+<section class="pagehead">
+<h1>Créer une copie de dissertation philosophique</h1>
+<p>Entrez un sujet : le moteur prépare une copie guidée.</p>
+</section>
+<section class="card">
+<label for="sujet">Sujet</label>
+<textarea id="sujet" rows="4" placeholder="Exemple : Peut-on avoir raison contre tout le monde ?"></textarea>
+<button id="generer">Créer la copie</button>
+<pre id="resultat"></pre>
+</section>
+</main>
+<script>
+const ENDPOINT="https://atelier-commentaire-ia.timour-delemen.workers.dev/api/generate-dissertation";
+const btn=document.getElementById('generer');
+const out=document.getElementById('resultat');
+btn.addEventListener('click',async()=>{
+ const sujet=document.getElementById('sujet').value.trim();
+ if(!sujet){out.textContent='Veuillez saisir un sujet.';return;}
+ out.textContent='Génération en cours...';
+ try{
+  const r=await fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({sujet})});
+  const data=await r.json();
+  out.textContent=JSON.stringify(data,null,2);
+ }catch(e){out.textContent='Erreur : '+e.message;}
+});
+</script>
+</body>
+</html>
