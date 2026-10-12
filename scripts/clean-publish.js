@@ -12,5 +12,6 @@ const walk=d=>{ for(const e of fs.readdirSync(d,{withFileTypes:true})){
   else if(/\.md$/i.test(e.name)){ fs.unlinkSync(p); n++; }
 }};
 walk(ROOT);
-for(const d of ['worker','scripts']){ const p=path.join(ROOT,d); if(fs.existsSync(p)){ fs.rmSync(p,{recursive:true,force:true}); n++; } }
+for(const d of ['worker','scripts','tests']){ const p=path.join(ROOT,d); if(fs.existsSync(p)){ fs.rmSync(p,{recursive:true,force:true}); n++; } }
+for(const p of ['data/moteur-philosophique.json','data/philosophie-matrices.json','js/moteur-philosophique.js','js/generateur-copies-test.js','js/generateur-copie-moteur.js']){const f=path.join(ROOT,p);if(fs.existsSync(f)){fs.unlinkSync(f);n++;}}
 console.log(`clean-publish : ${n} fichiers ou dossiers retirés du site publié.`);
