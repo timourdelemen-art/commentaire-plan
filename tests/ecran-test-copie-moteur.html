@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Test interne moteur copie</title>
+</head>
+<body>
+  <h1>Test interne du moteur de copie</h1>
+  <p>Cette page est un outil de test et n'est pas une page élève.</p>
+  <label>Sujet :</label>
+  <input id="sujet" value="Peut-on avoir raison contre tout le monde ?" />
+  <button id="tester">Analyser</button>
+  <pre id="resultat"></pre>
+
+  <script type="module">
+    import { preparerCopieAvecMoteur } from '../js/generateur-copie-moteur.js';
+
+    document.getElementById('tester').addEventListener('click', async () => {
+      const sujet = document.getElementById('sujet').value;
+      const resultat = await preparerCopieAvecMoteur(sujet);
+      document.getElementById('resultat').textContent = JSON.stringify(resultat, null, 2);
+    });
+  </script>
+</body>
+</html>
