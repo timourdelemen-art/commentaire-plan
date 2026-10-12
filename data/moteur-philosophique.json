@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "source": "Dictionnaire paradoxal de la philosophie - analyse des prefaces",
+  "problemes": [
+    {
+      "id": "condition-abolition",
+      "nom": "Condition de possibilité et abolition",
+      "description": "Ce qui rend une chose possible peut menacer ce qu'elle rend possible."
+    },
+    {
+      "id": "contradiction-interne",
+      "nom": "Contradiction interne",
+      "description": "Une notion porte des exigences qui semblent incompatibles."
+    }
+  ],
+  "resolutions": [
+    {
+      "id": "duplication-ontologique",
+      "nom": "Duplication ontologique",
+      "description": "Résoudre une contradiction par distinction de niveaux de réalité."
+    },
+    {
+      "id": "transformation",
+      "nom": "Transformation du rapport",
+      "description": "Modifier le rapport entre les termes du problème."
+    }
+  ],
+  "matrices": []
+}
