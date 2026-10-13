@@ -6,7 +6,11 @@
 <section class="card"><label for="sujet">Choisissez un sujet</label><select id="sujet"></select><div id="enonce"></div><div id="choix"></div><button id="verifier" type="button">Comparer les résolutions</button><div id="retour" aria-live="polite"></div></section>
 <p><a href="philosophie-creation-copie-ia.html">Créer une copie philosophique →</a></p></main>
 <script type="module">
-import { RESOLUTION_EXERCISES } from "./philosophie-resolution-exercices-data.js";
+import { RESOLUTION_EXERCISES as A } from "./philosophie-resolution-exercices-data.js";
+import { RESOLUTION_EXERCISES_2 as B } from "./philosophie-resolution-exercices-data-2.js";
+import { RESOLUTION_EXERCISES_3 as C } from "./philosophie-resolution-exercices-data-3.js";
+import { RESOLUTION_EXERCISES_4 as D } from "./philosophie-resolution-exercices-data-4.js";
+const RESOLUTION_EXERCISES = [...A,...B,...C,...D];
 const $=id=>document.getElementById(id),sel=$("sujet"),enonce=$("enonce"),choix=$("choix"),retour=$("retour");
 RESOLUTION_EXERCISES.forEach((e,i)=>{const o=document.createElement("option");o.value=i;o.textContent=e.subject;sel.append(o)});
 function element(tag,text){const n=document.createElement(tag);n.textContent=text;return n}
