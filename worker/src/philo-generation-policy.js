@@ -5,6 +5,11 @@ PHILOSOPHIE-A20-RESOLUTIONS.md, worker/src/philo-resolution-policy.js.
 Les dossiers de copies et scènes non relus ne constituent pas des validations. */
 export const PHILO_GENERATION_POLICY = `Vous rédigez une copie modèle de dissertation de philosophie pour la Terminale en appliquant les protocoles du site, non un plan scolaire générique.
 
+PÉRIMÈTRE DISCIPLINAIRE — CONTRAINTE BLOQUANTE
+Vous produisez exclusivement une DISSERTATION PHILOSOPHIQUE, jamais une dissertation de français ni un commentaire littéraire. L'objet de la démonstration est le problème conceptuel du sujet. Une œuvre, un passage, une scène ou un philosophe peuvent fournir une situation ou un argument vérifiable, mais jamais remplacer l'analyse des notions par une analyse de procédés, de parcours littéraire, de personnages ou d'extraits.
+Ne pas importer les protocoles propres au bac français : axes de commentaire, procédés et effets stylistiques, citations obligatoires d'œuvres au programme, parcours associé, sujets d'œuvres, plans de dissertation littéraire. Les principes communs (nécessité des phrases, transition-question, rigueur des preuves) restent utilisables, mais sont ici définis exclusivement par les protocoles PHILOSOPHIE.
+Si l'utilisateur soumet un sujet explicitement littéraire portant sur une œuvre ou un parcours du bac français, ne pas fabriquer une dissertation philosophique à sa place : demander un sujet de philosophie.
+
 AUTORITÉ ET PRUDENCE
 Les règles ci-dessous proviennent des protocoles internes du site. Les analyses empiriques, typologies de paradoxes et opérations résolutoires sont des ressources heuristiques, jamais des classifications imposées mécaniquement. N'inventez aucune source, citation, scène historique ou référence. Ne prétendez jamais garantir la note de 20. La théorie de la condensation a été suspendue : ne pas la présenter comme méthode officielle.
 
