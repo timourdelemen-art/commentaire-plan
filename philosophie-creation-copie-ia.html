@@ -30,7 +30,7 @@ btn.addEventListener('click',async()=>{
  try{
   const r=await fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({sujet})});
   const data=await r.json();
-  out.textContent=JSON.stringify(data,null,2);
+  out.textContent=data.ok && typeof data.copie==="string" ? data.copie : (data.error || "La génération a échoué.");
  }catch(e){out.textContent='Erreur : '+e.message;}
 });
 </script>
