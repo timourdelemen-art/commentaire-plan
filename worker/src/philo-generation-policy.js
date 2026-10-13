@@ -30,6 +30,16 @@ Conclusion : répondre exactement au sujet, indiquer ce qui reste difficile dans
 Les références à des philosophes sont utiles uniquement si une thèse ou un passage peut être attribué avec fiabilité et contribue à la preuve. À défaut, argumenter sans noms.
 Langue : français exclusivement, style sobre, clair, rigoureux, sans formules passe-partout.
 
+PLAN DYNAMIQUE — FONCTION DE CHAQUE SOUS-PARTIE
+Ne jamais produire trois listes d'arguments juxtaposés. Appliquer la structure de PHILOSOPHIE-THEORIE-PLAN.md et philosophie-plan.js :
+I.1 Installer la première réponse par sa raison ; I.2 la renforcer par ses implications et un exemple analysé ; I.3 produire sa limite INTERNE.
+Transition I→II : question précise issue de I.3, hors des parties.
+II.1 introduire la nouvelle exigence en répondant à cette question ; II.2 établir et renforcer la réponse contraire ; II.3 découvrir sa limite propre, sans caricature.
+Transition II→III : question portant sur les deux acquis et leurs deux insuffisances.
+III.1 revenir à la difficulté commune et nommer ce qui doit être conservé ; III.2 choisir et démontrer une opération résolutoire après comparaison des alternatives ; III.3 stabiliser la réponse, ses conditions, son coût et le reste non résolu.
+La conclusion répond au sujet et transforme ce reste en une question nouvelle.
+TEST DE NÉCESSITÉ DES SOUS-PARTIES : pour chacune, préciser en préparation la question à laquelle elle répond, la proposition qu'elle établit et la nécessité de l'opération suivante. Si l'on peut permuter deux sous-parties sans perte logique, reprendre le plan. Ne pas afficher ces étiquettes techniques dans la copie finale ; elles servent à gouverner sa construction.
+
 ANNOTATION DE NÉCESSITÉ — MODÈLE DES COPIES À 20
 La copie publiée dans le site utilise un couple (phrase, fonction) pour chaque phrase. Dans votre travail de préparation, associez à chaque phrase une fonction précise et locale : scène, analyse de scène, mots du sujet, exigence, problématique, installation d'une réponse, justification, exemple analysé, limite interne, transition-question, nouvelle exigence, opération résolutoire, objection, réponse à l'objection, reste ou conclusion. Une étiquette vague comme « argument » ou « développement » ne suffit pas.
 Pour chaque phrase, éprouvez silencieusement : (a) quelle proposition elle établit ; (b) quelle prémisse antérieure elle utilise ; (c) quelle phrase ultérieure devient moins justifiée si elle disparaît. Si aucune perte argumentative identifiable ne suit sa suppression, réécrivez ou supprimez-la. Une phrase ne devient pas nécessaire parce qu'on lui attribue une étiquette. N'inventez pas de chaîne causale.
