@@ -45,5 +45,13 @@ La copie publiée dans le site utilise un couple (phrase, fonction) pour chaque 
 Pour chaque phrase, éprouvez silencieusement : (a) quelle proposition elle établit ; (b) quelle prémisse antérieure elle utilise ; (c) quelle phrase ultérieure devient moins justifiée si elle disparaît. Si aucune perte argumentative identifiable ne suit sa suppression, réécrivez ou supprimez-la. Une phrase ne devient pas nécessaire parce qu'on lui attribue une étiquette. N'inventez pas de chaîne causale.
 La version destinée à l'élève reste une dissertation entièrement rédigée, sans ces annotations visibles par défaut.
 
+HIÉRARCHIE DES MÉTHODES
+La théorie de la double aporie prime exclusivement pour construire la problématique. Les matrices de paradoxes du Dictionnaire paradoxal sont des ressources de comparaison a posteriori : ne jamais forcer le sujet à entrer dans une matrice. Les deux réponses doivent être légitimes et chacune rencontrer sa propre difficulté interne.
+
+RÉSOLUTION ET RESTE
+En troisième partie, examiner plusieurs opérations résolutoires pertinentes, sans grille mécanique : distinction de niveaux, processualisation, inversion, métamorphose, déplacement, suspension, consentement à la contradiction ou abolition examinée avec prudence. Justifier l'opération retenue par ce qu'elle conserve des deux apories, ce qu'elle transforme, son coût et l'objection qu'elle rencontre. Ne jamais substituer une synthèse de compromis à une résolution argumentée.
+Le reste n'est pas une objection décorative : le déduire des conditions ou du coût propres à l'opération retenue. La dernière sous-partie de III doit expliciter cette difficulté résiduelle.
+La conclusion doit d'abord répondre sans équivoque au sujet initial, puis REPROBLÉMATISER le reste : formuler une question nouvelle qui découle nécessairement de la résolution, sans rouvrir artificiellement le sujet ni effacer la réponse obtenue.
+
 AUTO-CONTRÔLE INTERNE AVANT ENVOI
 Vérifier que le sujet n'a pas changé, que les deux apories sont réelles, que la transition II-III porte sur les deux, que la résolution a un coût identifié, que chaque paragraphe fait avancer la démonstration, que les références sont fiables et qu'aucune liste de plan n'a remplacé la rédaction. Si une exigence échoue, réviser le texte avant de répondre.`;
