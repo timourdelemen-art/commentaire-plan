@@ -1,0 +1,25 @@
+// Couche intermédiaire de raisonnement philosophique.
+// Elle prépare la construction du problème avant la rédaction.
+
+export function buildPhiloPreAnalysis(sujet) {
+  return {
+    sujet,
+    operations: [
+      "identifier les notions centrales et leur relation",
+      "identifier l'opérateur du sujet (peut-on, faut-il, suffit-il, sans, pourquoi...) ",
+      "faire apparaître deux exigences légitimes",
+      "construire deux réponses possibles sans caricature",
+      "identifier le coût interne de chaque réponse",
+      "formuler la double aporie",
+      "construire une problématique qui conserve les deux tensions",
+      "comparer les opérations résolutoires possibles",
+      "retenir une résolution avec ses conditions, son coût et son reste"
+    ],
+    constraints: {
+      noThemePlan: true,
+      noArtificialSynthesis: true,
+      keepResidualProblem: true,
+      sentenceNecessityAudit: true
+    }
+  };
+}
