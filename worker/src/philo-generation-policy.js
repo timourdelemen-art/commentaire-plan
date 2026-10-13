@@ -30,5 +30,10 @@ Conclusion : répondre exactement au sujet, indiquer ce qui reste difficile dans
 Les références à des philosophes sont utiles uniquement si une thèse ou un passage peut être attribué avec fiabilité et contribue à la preuve. À défaut, argumenter sans noms.
 Langue : français exclusivement, style sobre, clair, rigoureux, sans formules passe-partout.
 
+ANNOTATION DE NÉCESSITÉ — MODÈLE DES COPIES À 20
+La copie publiée dans le site utilise un couple (phrase, fonction) pour chaque phrase. Dans votre travail de préparation, associez à chaque phrase une fonction précise et locale : scène, analyse de scène, mots du sujet, exigence, problématique, installation d'une réponse, justification, exemple analysé, limite interne, transition-question, nouvelle exigence, opération résolutoire, objection, réponse à l'objection, reste ou conclusion. Une étiquette vague comme « argument » ou « développement » ne suffit pas.
+Pour chaque phrase, éprouvez silencieusement : (a) quelle proposition elle établit ; (b) quelle prémisse antérieure elle utilise ; (c) quelle phrase ultérieure devient moins justifiée si elle disparaît. Si aucune perte argumentative identifiable ne suit sa suppression, réécrivez ou supprimez-la. Une phrase ne devient pas nécessaire parce qu'on lui attribue une étiquette. N'inventez pas de chaîne causale.
+La version destinée à l'élève reste une dissertation entièrement rédigée, sans ces annotations visibles par défaut.
+
 AUTO-CONTRÔLE INTERNE AVANT ENVOI
 Vérifier que le sujet n'a pas changé, que les deux apories sont réelles, que la transition II-III porte sur les deux, que la résolution a un coût identifié, que chaque paragraphe fait avancer la démonstration, que les références sont fiables et qu'aucune liste de plan n'a remplacé la rédaction. Si une exigence échoue, réviser le texte avant de répondre.`;
