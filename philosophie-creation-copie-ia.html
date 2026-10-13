@@ -6,42 +6,28 @@
 <title>Création de copie philosophique IA</title>
 <link rel="stylesheet" href="styles.css">
 <style>
-body.creation-page{min-height:100vh;background:linear-gradient(rgba(0,0,20,.35),rgba(0,0,20,.75)),url('/images/galaxie-telescope.jpg') center/cover fixed;color:white}
-.creation-hero{text-align:center;max-width:1100px;margin:auto;padding:35px 20px}
-.creation-hero img{width:min(900px,95%);max-height:620px;object-fit:cover;border-radius:30px;box-shadow:0 25px 80px rgba(0,0,0,.7)}
-.philo-entry{display:flex;align-items:center;justify-content:center;gap:30px;max-width:1300px;margin:30px auto;padding:20px}
-.philo-name{font-size:2.2rem;font-weight:800;text-shadow:0 0 20px #fff}
-.nietzsche{color:#e8b000}.freud{color:#8fd3ff}
-.generate-card,.card{background:rgba(255,255,255,.12);backdrop-filter:blur(12px);padding:35px;border-radius:30px}
-.subject-box{width:100%;min-height:220px;font-size:1.35rem;padding:25px;border-radius:20px}
-.card{max-width:1000px;margin:auto;color:white}
+body.creation-page{min-height:100vh;margin:0;background:linear-gradient(rgba(0,0,20,.35),rgba(0,0,20,.75)),url('/images/creation-copie-officielle.webp.png') center/cover fixed;color:white}
+.creation-overlay{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:40px 20px;text-align:center}
+.generate-card{width:min(850px,90%);background:rgba(0,0,0,.4);backdrop-filter:blur(10px);padding:35px;border-radius:30px}
+.subject-box{width:100%;min-height:220px;font-size:1.3rem;padding:20px;border-radius:20px}
+button{margin-top:20px;padding:15px 35px;border-radius:30px}
+#resultat{white-space:pre-wrap;background:white;color:#111;padding:20px;border-radius:20px}
 </style>
 </head>
 <body class="creation-page">
-<main class="wrap">
-<section class="creation-hero">
-<img src="/images/creation-copie-officielle.webp.png" alt="Création de copie philosophique">
+<main class="creation-overlay">
 <h1>Créer une copie philosophique guidée</h1>
 <p>Entrez votre sujet et laissez le moteur construire la dissertation.</p>
-</section>
-<section class="philo-entry">
-<div class="philo-name nietzsche">Nietzsche</div>
-<div class="generate-card">
+<section class="generate-card">
 <label for="sujet">Votre sujet philosophique</label>
-<textarea class="subject-box" id="sujet" placeholder="Exemple : Peut-on être libre sans être responsable ?"></textarea>
-</div>
-<div class="philo-name freud">Freud</div>
-</section>
-<section class="card">
+<textarea id="sujet" class="subject-box" placeholder="Exemple : Peut-on être libre sans être responsable ?"></textarea>
 <button id="generer">Créer la copie</button>
 <pre id="resultat"></pre>
 </section>
 </main>
 <script>
 const ENDPOINT="https://atelier-commentaire-ia.timour-delemen.workers.dev/api/generate-dissertation";
-const btn=document.getElementById('generer');
-const out=document.getElementById('resultat');
-btn.onclick=async()=>{const sujet=document.getElementById('sujet').value.trim();if(!sujet){out.textContent='Veuillez saisir un sujet.';return;}out.textContent='Génération en cours...';try{const r=await fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({sujet})});const d=await r.json();out.textContent=d.ok&&d.copie?d.copie:(d.error||'Erreur')}catch(e){out.textContent=e.message}};
+document.getElementById('generer').onclick=async()=>{const sujet=document.getElementById('sujet').value.trim();const out=document.getElementById('resultat');if(!sujet){out.textContent='Veuillez saisir un sujet.';return;}out.textContent='Génération en cours...';try{const r=await fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({sujet})});const d=await r.json();out.textContent=d.ok&&d.copie?d.copie:(d.error||'Erreur')}catch(e){out.textContent=e.message}};
 </script>
 </body>
 </html>
