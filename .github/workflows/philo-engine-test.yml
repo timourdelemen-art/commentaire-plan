@@ -1,0 +1,23 @@
+name: Philosophy Engine Test
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'worker/src/philo-*.js'
+      - '.github/workflows/philo-engine-test.yml'
+
+jobs:
+  test-philo-engine:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run philosophy engine test
+        run: node worker/src/philo-engine-test.js
