@@ -1,4 +1,5 @@
 import { PHILO_GENERATION_POLICY } from './philo-generation-policy.js';
+import { auditPhiloCopySentences } from './philo-sentence-audit.js';
 import { THIRD_PART_REVIEW, RESIDUAL_REVIEW, CONCLUSION_REVIEW } from './philo-resolution-policy.js';
 const ALLOWED_ORIGINS = new Set([
   "https://commentaire-plan.com",
@@ -555,7 +556,7 @@ export default {
       const data=await apiResponse.json();
       const copie=extractOutputText(data);
       if(!copie) return json({ok:false,error:"La génération n'a pas renvoyé de texte."},502,origin);
-      return json({ok:true,sujet,copie},200,origin);
+      return json({ok:true,sujet,copie,audit:auditPhiloCopySentences(copie)},200,origin);
     }
 
     const answer = clean(body.answer, 5000);
