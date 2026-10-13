@@ -474,7 +474,7 @@ export default {
     }
 
     const url = new URL(request.url);
-    if (request.method !== "POST" || url.pathname !== "/api/analyze") {
+    if (request.method !== "POST" || !["/api/analyze","/api/generate-dissertation"].includes(url.pathname)) {
       return json({ ok: false, error: "Route inconnue." }, 404, origin);
     }
 
@@ -527,6 +527,32 @@ export default {
       const extracted=extractOutputText(vd);
       if(!extracted) return json({ok:false,error:"Aucun texte lisible n’a été extrait."},422,origin);
       return json({ok:true,extracted_text:extracted},200,origin);
+    }
+
+    if (url.pathname === "/api/generate-dissertation") {
+      const sujet = clean(body.sujet, 500);
+      if (sujet.length < 10) return json({ok:false,error:"Veuillez saisir un sujet de dissertation suffisamment précis."},400,origin);
+      const payload = {
+        model: env.OPENAI_MODEL || "gpt-5-mini",
+        instructions: "Vous êtes un professeur de philosophie de Terminale. Rédigez une dissertation philosophique modèle en français sur le sujet fourni, de manière rigoureuse, argumentée et intelligible. Commencez par analyser les termes du sujet, puis formulez une véritable problématique fondée sur deux exigences en tension. Développez une introduction, trois parties argumentées reliées par des transitions nécessaires, puis une conclusion. Distinguez clairement les arguments des références. N'inventez aucune citation, attribution ni source. Ne prétendez pas qu'une copie mérite une note garantie. La réponse est un modèle de travail, non une copie officielle.",
+        input: [{role:"user",content:[{type:"input_text",text:"Sujet de dissertation : "+sujet}]}],
+        max_output_tokens: 6000,
+        store: false
+      };
+      if (/^(gpt-5|o\\d)/.test(payload.model)) payload.reasoning={effort:"low"};
+      let apiResponse;
+      try {
+        apiResponse=await fetch("https://api.openai.com/v1/responses",{
+          method:"POST",
+          headers:{"Authorization":"Bearer "+env.OPENAI_API_KEY,"Content-Type":"application/json"},
+          body:JSON.stringify(payload)
+        });
+      } catch { return json({ok:false,error:"Le moteur IA ne répond pas."},502,origin); }
+      if(!apiResponse.ok) return json({ok:false,error:"Le moteur IA a refusé la génération."},502,origin);
+      const data=await apiResponse.json();
+      const copie=extractOutputText(data);
+      if(!copie) return json({ok:false,error:"La génération n'a pas renvoyé de texte."},502,origin);
+      return json({ok:true,sujet,copie},200,origin);
     }
 
     const answer = clean(body.answer, 5000);
