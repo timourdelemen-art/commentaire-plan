@@ -1,3 +1,4 @@
+import { PHILO_GENERATION_POLICY } from './philo-generation-policy.js';
 import { THIRD_PART_REVIEW, RESIDUAL_REVIEW, CONCLUSION_REVIEW } from './philo-resolution-policy.js';
 const ALLOWED_ORIGINS = new Set([
   "https://commentaire-plan.com",
@@ -534,7 +535,7 @@ export default {
       if (sujet.length < 10) return json({ok:false,error:"Veuillez saisir un sujet de dissertation suffisamment précis."},400,origin);
       const payload = {
         model: env.OPENAI_MODEL || "gpt-5-mini",
-        instructions: "Vous êtes un professeur de philosophie de Terminale. Rédigez une dissertation philosophique modèle en français sur le sujet fourni, de manière rigoureuse, argumentée et intelligible. Commencez par analyser les termes du sujet, puis formulez une véritable problématique fondée sur deux exigences en tension. Développez une introduction, trois parties argumentées reliées par des transitions nécessaires, puis une conclusion. Distinguez clairement les arguments des références. N'inventez aucune citation, attribution ni source. Ne prétendez pas qu'une copie mérite une note garantie. La réponse est un modèle de travail, non une copie officielle.",
+        instructions: PHILO_GENERATION_POLICY,
         input: [{role:"user",content:[{type:"input_text",text:"Sujet de dissertation : "+sujet}]}],
         max_output_tokens: 6000,
         store: false
