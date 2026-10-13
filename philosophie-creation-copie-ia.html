@@ -18,20 +18,24 @@
 <p><a href="philosophie-choisir-resolution.html">S’entraîner à choisir la meilleure troisième partie →</a></p>
 <button id="generer">Créer la copie</button>
 <pre id="resultat"></pre>
+<div id="audit" aria-live="polite"></div>
 </section>
 </main>
 <script>
 const ENDPOINT="https://atelier-commentaire-ia.timour-delemen.workers.dev/api/generate-dissertation";
 const btn=document.getElementById('generer');
 const out=document.getElementById('resultat');
+const audit=document.getElementById('audit');
 btn.addEventListener('click',async()=>{
  const sujet=document.getElementById('sujet').value.trim();
  if(!sujet){out.textContent='Veuillez saisir un sujet.';return;}
  out.textContent='Génération en cours...';
+ audit.textContent='';
  try{
   const r=await fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({sujet})});
   const data=await r.json();
   out.textContent=data.ok && typeof data.copie==="string" ? data.copie : (data.error || "La génération a échoué.");
+  if(data.audit){const a=data.audit; audit.textContent="Audit formel : "+(a.ok?"aucune anomalie formelle détectée":"points à revoir")+". "+a.sentenceCount+" phrases repérées. "+a.problems.join(" ")+" Ce contrôle ne certifie pas la qualité philosophique.";}
  }catch(e){out.textContent='Erreur : '+e.message;}
 });
 </script>
