@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Choisir la troisième partie — Philosophie</title><link rel="stylesheet" href="styles.css"></head>
+<body><main class="wrap"><section class="pagehead"><h1>Quelle troisième partie résout le mieux le problème ?</h1>
+<p>Comparez trois résolutions sérieuses : ce qu'elles préservent, leur coût et la difficulté qu'elles laissent ouverte. Les solutions proposées sont des références de travail, non des corrigés homologués.</p></section>
+<section class="card"><label for="sujet">Choisissez un sujet</label><select id="sujet"></select><div id="enonce"></div><div id="choix"></div><button id="verifier" type="button">Comparer les résolutions</button><div id="retour" aria-live="polite"></div></section>
+<p><a href="philosophie-creation-copie-ia.html">Créer une copie philosophique →</a></p></main>
+<script type="module">
+import { RESOLUTION_EXERCISES } from "./philosophie-resolution-exercices-data.js";
+const $=id=>document.getElementById(id),sel=$("sujet"),enonce=$("enonce"),choix=$("choix"),retour=$("retour");
+RESOLUTION_EXERCISES.forEach((e,i)=>{const o=document.createElement("option");o.value=i;o.textContent=e.subject;sel.append(o)});
+function element(tag,text){const n=document.createElement(tag);n.textContent=text;return n}
+function render(){const e=RESOLUTION_EXERCISES[Number(sel.value)||0];enonce.replaceChildren();choix.replaceChildren();retour.replaceChildren();
+enonce.append(element("h2",e.subject),element("p","Deux exigences à préserver : "+e.requirements.join(" / ")));
+e.candidates.forEach((c,i)=>{const box=document.createElement("div");box.className="card";const lab=document.createElement("label");const input=document.createElement("input");input.type="radio";input.name="resolution";input.value=c.id;lab.append(input,document.createTextNode(" Proposition "+(i+1)));box.append(lab,element("p",c.proposal));choix.append(box)})}
+sel.addEventListener("change",render);
+$("verifier").addEventListener("click",()=>{const e=RESOLUTION_EXERCISES[Number(sel.value)||0];const selected=document.querySelector('input[name="resolution"]:checked');retour.replaceChildren();if(!selected){retour.append(element("p","Choisissez une proposition avant de comparer."));return}
+const c=e.candidates.find(x=>x.id===selected.value);retour.append(element("h2","Analyse de votre choix"),element("p","Coût de cette proposition : "+c.cost),element("p","Problème restant : "+c.remainingProblem),element("h3","Comparaison du dossier éditorial"),element("p",e.comparison),element("p","Solution retenue dans ce dossier : proposition "+(e.candidates.findIndex(x=>x.id===e.selected)+1)+". Ce choix reste discutable."),element("h3","Reproblématisation du reste"),element("p",e.conclusionQuestion))});
+render();
+</script></body></html>
