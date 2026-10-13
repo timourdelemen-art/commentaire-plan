@@ -533,6 +533,8 @@ export default {
     if (url.pathname === "/api/generate-dissertation") {
       const sujet = clean(body.sujet, 500);
       if (sujet.length < 10) return json({ok:false,error:"Veuillez saisir un sujet de dissertation suffisamment précis."},400,origin);
+      const literarySubject = /(?:œuvre|oeuvre|parcours associé|commentaire littéraire|dissertation littéraire|cahier de douai|on ne badine pas avec l'amour|le menteur)/i.test(sujet);
+      if (literarySubject) return json({ok:false,error:"Ce module est réservé à la dissertation philosophique. Pour une dissertation sur une œuvre ou un parcours littéraire, utilisez le parcours Bac français."},422,origin);
       const payload = {
         model: env.OPENAI_MODEL || "gpt-5-mini",
         instructions: PHILO_GENERATION_POLICY,
