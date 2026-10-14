@@ -42,6 +42,9 @@ Le modèle renvoie seulement :
 
 Un second contrôle valide la réponse du modèle avant de l'envoyer au navigateur.
 
+### Erreurs de génération de dissertation philosophique
+En cas de refus HTTP d'OpenAI, le navigateur reçoit le statut amont et les champs `code` et `type` de l'erreur. La clé API, le sujet, les instructions et le contenu de la réponse ne sont pas inclus.
+
 ## Petit manuel des procédés
 
 Le PDF complet n'est pas envoyé au modèle ni publié comme ressource statique gratuite.
