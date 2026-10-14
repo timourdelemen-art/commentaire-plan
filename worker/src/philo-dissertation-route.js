@@ -3,6 +3,7 @@ import { auditPhiloCopySentences } from './philo-sentence-audit.js';
 import {
   COPY20_STAGE_ORDER,
   getCopy20SentenceFunctions,
+  reconstructCopy20Dissertation,
   validateCopy20Annotations
 } from './philo-engine/copy20-functions.js';
 
@@ -76,7 +77,6 @@ function buildCopy20OutputSchema() {
       },
       selectedCandidateId: { type: 'string' }
     }),
-    copie: { type: 'string' },
     phrases: strictObject(annotations)
   });
 }
@@ -255,7 +255,7 @@ export async function generatePhilosophicalDissertation(sujet, env) {
   if (!validateOpeningComparison(generated.openingComparison)) {
     throw new Error('La comparaison des trois situations d’ouverture est incomplète ou invalide.');
   }
-  const copie = typeof generated.copie === 'string' ? generated.copie.trim() : '';
+  const copie = reconstructCopy20Dissertation(generated.phrases);
   const copy20Audit = validateCopy20Annotations(copie, generated.phrases);
   if (!copy20Audit.ok) {
     throw new Error('Les annotations COPY20 ne correspondent pas à la copie.');

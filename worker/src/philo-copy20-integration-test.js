@@ -6,6 +6,7 @@ import { generatePhilosophicalDissertation } from './philo-dissertation-route.js
 import {
   COPY20_STAGE_ORDER,
   getCopy20SentenceFunctions,
+  reconstructCopy20Dissertation,
   validateCopy20Annotations
 } from './philo-engine/copy20-functions.js';
 
@@ -40,63 +41,124 @@ assert.deepEqual(writingRules.sentenceFunctions, [
   'installer', 'justifier', 'distinguer', 'objecter', 'répondre', 'transformer', 'conclure'
 ]);
 assert.deepEqual(writingRules.copy20AnnotationStages, COPY20_STAGE_ORDER);
+assert.match(writingRules.copy20Format, /ne produisez pas de propriété copie/);
+assert.match(writingRules.copy20Format, /le Worker les ajoute à la reconstruction/);
 assert.match(generationContext.politique_dissertation, /exactement trois situations/);
 assert.match(generationContext.politique_dissertation, /deux exigences/);
 assert.match(generationContext.politique_dissertation, /transition II-III/);
 assert.match(generationContext.politique_dissertation, /matrices de paradoxes du Dictionnaire paradoxal/);
 
-const headingByStage = {
-  introduction: 'INTRODUCTION',
-  partieI: 'I. Partie I',
-  'I.1': 'I.1 Installer',
-  'I.2': 'I.2 Renforcer',
-  'I.3': 'I.3 Limite',
-  'transitionI-II': '',
-  partieII: 'II. Partie II',
-  'II.1': 'II.1 Exigence',
-  'II.2': 'II.2 Réponse',
-  'II.3': 'II.3 Limite',
-  'transitionII-III': '',
-  'III.1': 'III.1 Revenir au problème',
-  'III.2': 'III.2 Opération',
-  'III.3': 'III.3 Stabiliser',
-  conclusion: 'CONCLUSION'
-};
 const openingFunction = functionsByStage.introduction.find((label) =>
   label === 'La scène d’ouverture'
 );
 assert.ok(openingFunction, 'L’intitulé COPY20 exact de l’ouverture doit rester disponible.');
+function phraseForStage(stage, index) {
+  if (stage === 'introduction') return 'Imaginons une expérience de pensée précise.';
+  if (stage === 'transitionI-II') return 'Mais cette réponse laisse une difficulté sans réponse.';
+  if (stage === 'transitionII-III') return 'Pourtant, cette objection ne règle pas encore la tension.';
+  if (stage === 'I.2') return `Phrase ${index + 1} : « mot exact » !`;
+  return `Phrase ${index + 1}.`;
+}
 const stagedPhrases = Object.fromEntries(COPY20_STAGE_ORDER.map((stage, index) => [
   stage,
   [{
-    phrase: stage === 'introduction'
-      ? 'Imaginons une expérience de pensée précise.'
-      : `Phrase ${index + 1}.`,
+    phrase: phraseForStage(stage, index),
     fonction: stage === 'introduction' ? openingFunction : functionsByStage[stage][0]
   }]
 ]));
-const copy = COPY20_STAGE_ORDER.map((stage) =>
-  [headingByStage[stage], ...stagedPhrases[stage].map(({ phrase }) => phrase)]
-    .filter(Boolean)
-    .join('\n')
-).join('\n\n');
+const copy = reconstructCopy20Dissertation(stagedPhrases);
 
 const validAnnotations = validateCopy20Annotations(copy, stagedPhrases);
 assert.equal(validAnnotations.ok, true, validAnnotations.problems.join('; '));
 assert.equal(validAnnotations.philosophicalNecessityEvaluated, false);
+assert.deepEqual(validAnnotations.phrases, COPY20_STAGE_ORDER.flatMap((stage) => stagedPhrases[stage]));
+assert.ok(copy.includes(stagedPhrases['I.2'][0].phrase), 'La ponctuation de chaque phrase doit être restituée sans modification.');
+
+const sectionHeadings = [
+  'INTRODUCTION',
+  'I. Partie I',
+  'II. Partie II',
+  'III. Partie III',
+  'CONCLUSION'
+];
+assert.ok(sectionHeadings.every((heading) => copy.includes(heading)));
+assert.deepEqual(
+  sectionHeadings.map((heading) => copy.indexOf(heading)),
+  [...sectionHeadings.map((heading) => copy.indexOf(heading))].sort((a, b) => a - b)
+);
+const subsectionHeadings = [
+  'I.1 Installer',
+  'I.2 Renforcer',
+  'I.3 Limite',
+  'II.1 Nouvelle exigence',
+  'II.2 Nouvelle réponse',
+  'II.3 Sa limite',
+  'III.1 Revenir au problème',
+  'III.2 L’opération',
+  'III.3 Stabiliser la réponse'
+];
+assert.deepEqual(
+  subsectionHeadings.map((heading) => copy.indexOf(heading)),
+  [...subsectionHeadings.map((heading) => copy.indexOf(heading))].sort((a, b) => a - b)
+);
+assert.equal(subsectionHeadings.every((heading) => copy.includes(heading)), true);
+assert.ok(
+  copy.indexOf(stagedPhrases['transitionI-II'][0].phrase) > copy.indexOf('I.3 Limite') &&
+  copy.indexOf(stagedPhrases['transitionI-II'][0].phrase) < copy.indexOf('II. Partie II')
+);
+assert.ok(
+  copy.indexOf(stagedPhrases['transitionII-III'][0].phrase) > copy.indexOf('II.3 Sa limite') &&
+  copy.indexOf(stagedPhrases['transitionII-III'][0].phrase) < copy.indexOf('III. Partie III')
+);
+let previousPhraseIndex = -1;
+for (const { phrase } of validAnnotations.phrases) {
+  const phraseIndex = copy.indexOf(phrase, previousPhraseIndex + 1);
+  assert.ok(phraseIndex > previousPhraseIndex, `Phrase restituée dans l’ordre : ${phrase}`);
+  previousPhraseIndex = phraseIndex;
+}
 
 const wrongLabel = structuredClone(stagedPhrases);
 wrongLabel['I.1'][0].fonction = functionsByStage.introduction[0];
-assert.equal(validateCopy20Annotations(copy, wrongLabel).ok, false);
+assert.equal(validateCopy20Annotations(reconstructCopy20Dissertation(wrongLabel), wrongLabel).ok, false);
 
 const wrongOrder = structuredClone(stagedPhrases);
 [wrongOrder.introduction[0], wrongOrder.partieI[0]] =
   [wrongOrder.partieI[0], wrongOrder.introduction[0]];
-assert.equal(validateCopy20Annotations(copy, wrongOrder).ok, false);
+assert.equal(validateCopy20Annotations(reconstructCopy20Dissertation(wrongOrder), wrongOrder).ok, false);
 
-const wrongSentence = structuredClone(stagedPhrases);
-wrongSentence['III.3'][0].phrase = 'Phrase absente.';
-assert.equal(validateCopy20Annotations(copy, wrongSentence).ok, false);
+const misorderedStages = Object.fromEntries([
+  ['partieI', stagedPhrases.partieI],
+  ['introduction', stagedPhrases.introduction],
+  ...COPY20_STAGE_ORDER.slice(2).map((stage) => [stage, stagedPhrases[stage]])
+]);
+assert.equal(
+  validateCopy20Annotations(
+    reconstructCopy20Dissertation(misorderedStages),
+    misorderedStages
+  ).ok,
+  false
+);
+
+const missingStage = structuredClone(stagedPhrases);
+delete missingStage['II.2'];
+assert.equal(
+  validateCopy20Annotations(reconstructCopy20Dissertation(missingStage), missingStage).ok,
+  false
+);
+
+const emptyStage = structuredClone(stagedPhrases);
+emptyStage['III.3'] = [];
+assert.equal(
+  validateCopy20Annotations(reconstructCopy20Dissertation(emptyStage), emptyStage).ok,
+  false
+);
+
+const multilinePhrase = structuredClone(stagedPhrases);
+multilinePhrase['III.3'][0].phrase = 'Une phrase.\nUne autre phrase.';
+assert.equal(
+  validateCopy20Annotations(reconstructCopy20Dissertation(multilinePhrase), multilinePhrase).ok,
+  false
+);
 
 const originalFetch = globalThis.fetch;
 const testAporia = {
@@ -139,7 +201,6 @@ const validOpeningComparison = {
 };
 let nextGenerated = {
   openingComparison: validOpeningComparison,
-  copie: copy,
   phrases: stagedPhrases
 };
 let nextOpenAIResponse = null;
@@ -185,11 +246,13 @@ try {
   assert.match(capturedPayload.instructions, /exactRelevance/);
   assert.match(capturedPayload.instructions, /literaryQuality/);
   assert.match(capturedPayload.instructions, /cas fictif/);
+  assert.match(capturedPayload.instructions, /ne produisez pas de propriété copie/);
   assert.equal(capturedPayload.text.format.type, 'json_schema');
   assert.equal(capturedPayload.text.format.name, 'copy20_dissertation');
   assert.equal(capturedPayload.text.format.strict, true);
   const outputSchema = capturedPayload.text.format.schema;
   assertStrictSchema(outputSchema);
+  assert.equal(Object.hasOwn(outputSchema.properties, 'copie'), false);
   assert.deepEqual(
     Object.keys(outputSchema.properties.phrases.properties),
     COPY20_STAGE_ORDER
@@ -222,9 +285,13 @@ try {
   const body = await response.json();
   assert.equal(response.status, 200);
   assert.equal(body.ok, true);
-  assert.equal(body.copie, copy.trim());
+  assert.equal(body.copie, copy);
   assert.deepEqual(Object.keys(body).sort(), ['audit', 'copie', 'ok', 'phrases', 'sujet']);
   assert.equal(Array.isArray(body.phrases), true);
+  assert.deepEqual(body.phrases, validAnnotations.phrases);
+  assert.equal(body.copie.includes(stagedPhrases['I.2'][0].phrase), true);
+  assert.equal(body.copie.includes(stagedPhrases['transitionI-II'][0].phrase), true);
+  assert.equal(body.copie.includes(stagedPhrases['transitionII-III'][0].phrase), true);
   assert.equal(typeof body.audit.sentenceCount, 'number');
   assert.equal(body.audit.copy20.ok, true);
   assert.equal(body.phrases.every((entry) =>
@@ -272,7 +339,6 @@ try {
 
   nextGenerated = {
     openingComparison: validOpeningComparison,
-    copie: copy,
     phrases: wrongLabel
   };
   const invalidResponse = await worker.fetch(new Request(
@@ -298,7 +364,6 @@ try {
       ...validOpeningComparison,
       candidates: validOpeningComparison.candidates.slice(0, 2)
     },
-    copie: copy,
     phrases: stagedPhrases
   };
   const invalidComparisonResponse = await worker.fetch(new Request(
@@ -320,8 +385,6 @@ try {
 
   nextGenerated = {
     openingComparison: validOpeningComparison,
-    copie: copy.replace('Imaginons une expérience de pensée précise.',
-      'La liberté dépend de la responsabilité.'),
     phrases: {
       ...stagedPhrases,
       introduction: [{
@@ -350,4 +413,4 @@ try {
   globalThis.fetch = originalFetch;
 }
 
-console.log('OK : source COPY20, comparaison structurée de trois situations, génération en un appel et contrat Worker validés.');
+console.log('OK : source COPY20, reconstruction depuis les phrases, comparaison des trois situations et contrat Worker validés.');
