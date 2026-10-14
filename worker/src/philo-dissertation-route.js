@@ -139,7 +139,6 @@ export async function generatePhilosophicalDissertation(sujet, env) {
         ]
       }
     ],
-    text: { format: { type: 'json_object' } },
     max_output_tokens: 14000,
     store: false
   };

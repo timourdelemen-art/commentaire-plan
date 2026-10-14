@@ -159,7 +159,8 @@ try {
   assert.match(capturedPayload.instructions, /exactRelevance/);
   assert.match(capturedPayload.instructions, /literaryQuality/);
   assert.match(capturedPayload.instructions, /cas fictif/);
-  assert.deepEqual(capturedPayload.text, { format: { type: 'json_object' } });
+  assert.equal(Object.hasOwn(capturedPayload, 'text'), false);
+  assert.equal(capturedPayload.max_output_tokens, 14000);
   assert.equal(capturedPayload.store, false);
   assert.equal(modelRequestCount, 1);
 
