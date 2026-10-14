@@ -85,6 +85,29 @@ function extractOutputText(data) {
   return '';
 }
 
+function safeDiagnosticField(value) {
+  if (typeof value !== 'string') return null;
+  const sanitized = value.replace(/[^a-zA-Z0-9_.:-]/g, '_').slice(0, 128);
+  return sanitized || null;
+}
+
+async function logOpenAIHttpError(response) {
+  let apiError = null;
+  try {
+    const data = await response.clone().json();
+    if (data?.error && typeof data.error === 'object') apiError = data.error;
+  } catch {
+    // Non-JSON upstream error bodies are intentionally not logged.
+  }
+
+  console.error('OpenAI Responses API request failed', JSON.stringify({
+    status: response.status,
+    code: safeDiagnosticField(apiError?.code),
+    type: safeDiagnosticField(apiError?.type),
+    requestId: safeDiagnosticField(response.headers.get('x-request-id'))
+  }));
+}
+
 export async function generatePhilosophicalDissertation(sujet, env) {
   const moteur = JSON.stringify(buildPhiloGenerationContext(sujet));
 
@@ -117,6 +140,7 @@ export async function generatePhilosophicalDissertation(sujet, env) {
   });
 
   if (!response.ok) {
+    await logOpenAIHttpError(response);
     throw new Error('Le moteur IA a refusé la génération.');
   }
 
