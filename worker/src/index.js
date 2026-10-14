@@ -1,5 +1,4 @@
-import { PHILO_GENERATION_POLICY } from './philo-generation-policy.js';
-import { auditPhiloCopySentences } from './philo-sentence-audit.js';
+import { generatePhilosophicalDissertation } from './philo-dissertation-route.js';
 import { THIRD_PART_REVIEW, RESIDUAL_REVIEW, CONCLUSION_REVIEW } from './philo-resolution-policy.js';
 const ALLOWED_ORIGINS = new Set([
   "https://commentaire-plan.com",
@@ -536,27 +535,17 @@ export default {
       if (sujet.length < 10) return json({ok:false,error:"Veuillez saisir un sujet de dissertation suffisamment précis."},400,origin);
       const literarySubject = /(?:œuvre|oeuvre|parcours associé|commentaire littéraire|dissertation littéraire|cahier de douai|on ne badine pas avec l'amour|le menteur)/i.test(sujet);
       if (literarySubject) return json({ok:false,error:"Ce module est réservé à la dissertation philosophique. Pour une dissertation sur une œuvre ou un parcours littéraire, utilisez le parcours Bac français."},422,origin);
-      const payload = {
-        model: env.OPENAI_MODEL || "gpt-5-mini",
-        instructions: PHILO_GENERATION_POLICY,
-        input: [{role:"user",content:[{type:"input_text",text:"Sujet de dissertation : "+sujet}]}],
-        max_output_tokens: 6000,
-        store: false
-      };
-      if (/^(gpt-5|o\\d)/.test(payload.model)) payload.reasoning={effort:"low"};
-      let apiResponse;
+      let dissertation;
       try {
-        apiResponse=await fetch("https://api.openai.com/v1/responses",{
-          method:"POST",
-          headers:{"Authorization":"Bearer "+env.OPENAI_API_KEY,"Content-Type":"application/json"},
-          body:JSON.stringify(payload)
-        });
-      } catch { return json({ok:false,error:"Le moteur IA ne répond pas."},502,origin); }
-      if(!apiResponse.ok) return json({ok:false,error:"Le moteur IA a refusé la génération."},502,origin);
-      const data=await apiResponse.json();
-      const copie=extractOutputText(data);
-      if(!copie) return json({ok:false,error:"La génération n'a pas renvoyé de texte."},502,origin);
-      return json({ok:true,sujet,copie,audit:auditPhiloCopySentences(copie)},200,origin);
+        dissertation = await generatePhilosophicalDissertation(sujet, env);
+      } catch (error) {
+        const message = error?.message === "Le moteur IA a refusé la génération."
+          ? "Le moteur IA a refusé la génération."
+          : "Le moteur IA ne répond pas.";
+        return json({ok:false,error:message},502,origin);
+      }
+      if(!dissertation.copie) return json({ok:false,error:"La génération n'a pas renvoyé de texte."},502,origin);
+      return json({ok:true,sujet,copie:dissertation.copie,audit:dissertation.audit},200,origin);
     }
 
     const answer = clean(body.answer, 5000);
