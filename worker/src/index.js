@@ -541,11 +541,19 @@ export default {
       } catch (error) {
         const message = error?.message === "Le moteur IA a refusé la génération."
           ? "Le moteur IA a refusé la génération."
-          : "Le moteur IA ne répond pas.";
+          : error?.message === "La réponse du modèle ne respecte pas le format JSON COPY20."
+            ? error.message
+            : error?.message === "Les annotations COPY20 ne correspondent pas à la copie."
+              ? error.message
+              : error?.message === "La comparaison des trois situations d’ouverture est incomplète ou invalide."
+                ? error.message
+                : error?.message === "L’ouverture doit être explicitement présentée comme une expérience de pensée ou un cas fictif."
+                  ? error.message
+              : "Le moteur IA ne répond pas.";
         return json({ok:false,error:message},502,origin);
       }
       if(!dissertation.copie) return json({ok:false,error:"La génération n'a pas renvoyé de texte."},502,origin);
-      return json({ok:true,sujet,copie:dissertation.copie,audit:dissertation.audit},200,origin);
+      return json({ok:true,sujet,copie:dissertation.copie,phrases:dissertation.phrases,audit:dissertation.audit},200,origin);
     }
 
     const answer = clean(body.answer, 5000);

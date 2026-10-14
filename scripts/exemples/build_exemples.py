@@ -4,6 +4,64 @@ SP=os.path.dirname(os.path.abspath(__file__))
 C=os.environ.get('CORPUS',os.path.join(SP,'corpus'))
 sys.path.insert(0,SP)
 from exemples_src import E
+
+def build_scene_bank(output=None, examples=None, audit_path=None):
+    """Build the Worker candidate bank from the example source and scene audit."""
+    examples = E if examples is None else examples
+    audit_path = Path(audit_path or Path(SP,'scenes-audit.json'))
+    output = Path(output or Path(SP).resolve().parents[1] /
+                  'worker/src/philo-engine/scene-bank.json')
+    audit_data = json.loads(audit_path.read_text(encoding='utf-8'))
+    audits = {scene['id']: scene for scene in audit_data['scenes']}
+    candidates = []
+
+    for item in examples:
+        audit = audits.get(item['id'])
+        if not audit:
+            continue
+        links = []
+        audited_links = {link['sujet']: link for link in audit.get('raccords', [])}
+        for subject in item.get('sujets') or []:
+            if not subject.get('limite1') or not subject.get('limite2'):
+                continue
+            links.append({
+                **subject,
+                'audit': audited_links.get(subject['s'])
+            })
+        if not links:
+            continue
+        candidates.append({
+            'id': item['id'],
+            'oeuvre': item.get('oeuvre'),
+            'auteur': item.get('auteur'),
+            'annee': item.get('annee'),
+            'genre': item.get('genre'),
+            'ref': item.get('ref'),
+            'scene': item.get('scene'),
+            'scene_description_sha256': hashlib.sha256(
+                (item.get('scene') or '').encode('utf-8')
+            ).hexdigest(),
+            'sujets': links,
+            'audit': {
+                'sha256_fiche': audit.get('sha256_fiche'),
+                'source_narrative': audit.get('source_narrative'),
+                'statut_narratif': audit.get('statut_narratif'),
+                'citation_controlee': audit.get('citation_controlee'),
+                'homologation_ouverture': audit.get('homologation_ouverture'),
+                'description_fidelity_verified': audit.get(
+                    'description_fidelity_verified', False
+                ),
+                'verified_scene_description_sha256': audit.get(
+                    'verified_scene_description_sha256'
+                )
+            }
+        })
+
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(json.dumps(candidates, ensure_ascii=False, indent=2) + '\n',
+                      encoding='utf-8')
+    return candidates
+
 def base(s):
     s=html.unescape(s).replace('œ','oe').replace('Œ','Oe').replace('’',"'").replace('ʼ',"'").replace(' ',' ').replace(' ',' ')
     s=re.sub(r'[«»“”"]',' ',s); s=re.sub(r'\s*([;:!?,.])',r'\1',s); s=re.sub(r'\s+',' ',s).replace("' ","'")
@@ -55,4 +113,6 @@ def build(output):
     return 1 if bad else 0
 
 if __name__=='__main__':
-    sys.exit(build(sys.argv[1]))
+    status=build(sys.argv[1])
+    build_scene_bank()
+    sys.exit(status)
