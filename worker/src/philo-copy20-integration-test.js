@@ -74,6 +74,58 @@ assert.equal(validAnnotations.philosophicalNecessityEvaluated, false);
 assert.deepEqual(validAnnotations.phrases, COPY20_STAGE_ORDER.flatMap((stage) => stagedPhrases[stage]));
 assert.ok(copy.includes(stagedPhrases['I.2'][0].phrase), 'La ponctuation de chaque phrase doit être restituée sans modification.');
 
+for (const phrase of [
+  'M. X défend une idée avec précision.',
+  'Il demande : « vraiment ?! »',
+  'Cette proposition reste sans ponctuation terminale'
+]) {
+  const phraseCase = structuredClone(stagedPhrases);
+  phraseCase['I.1'] = [{
+    phrase,
+    fonction: functionsByStage['I.1'][0]
+  }];
+  const reconstructed = reconstructCopy20Dissertation(phraseCase);
+  assert.equal(
+    validateCopy20Annotations(reconstructed, phraseCase, { compareText: false }).ok,
+    true,
+    `Une phrase annotée doit rester valide sans resegmentation : ${phrase}`
+  );
+}
+
+const abbreviationCase = structuredClone(stagedPhrases);
+abbreviationCase['I.1'] = [{
+  phrase: 'M. X défend une idée avec précision.',
+  fonction: functionsByStage['I.1'][0]
+}];
+assert.equal(
+  validateCopy20Annotations(
+    reconstructCopy20Dissertation(abbreviationCase),
+    abbreviationCase
+  ).ok,
+  false,
+  'La validation textuelle historique peut segmenter l’abréviation M. en trop.'
+);
+
+const unterminatedCase = structuredClone(stagedPhrases);
+unterminatedCase['I.1'] = [{
+  phrase: 'Cette proposition reste sans ponctuation terminale',
+  fonction: functionsByStage['I.1'][0]
+}];
+assert.equal(
+  validateCopy20Annotations(
+    reconstructCopy20Dissertation(unterminatedCase),
+    unterminatedCase
+  ).ok,
+  false,
+  'La validation textuelle historique peut fusionner une phrase sans point terminal.'
+);
+
+assert.equal(
+  validateCopy20Annotations('Texte divergent.', stagedPhrases).ok,
+  false,
+  'La comparaison textuelle reste active par défaut pour les autres parcours.'
+);
+
 const sectionHeadings = [
   'INTRODUCTION',
   'I. Partie I',
@@ -120,6 +172,15 @@ for (const { phrase } of validAnnotations.phrases) {
 const wrongLabel = structuredClone(stagedPhrases);
 wrongLabel['I.1'][0].fonction = functionsByStage.introduction[0];
 assert.equal(validateCopy20Annotations(reconstructCopy20Dissertation(wrongLabel), wrongLabel).ok, false);
+assert.equal(
+  validateCopy20Annotations(
+    reconstructCopy20Dissertation(wrongLabel),
+    wrongLabel,
+    { compareText: false }
+  ).ok,
+  false,
+  'Désactiver la comparaison du texte ne désactive pas les fonctions autorisées.'
+);
 
 const wrongOrder = structuredClone(stagedPhrases);
 [wrongOrder.introduction[0], wrongOrder.partieI[0]] =
@@ -134,7 +195,8 @@ const misorderedStages = Object.fromEntries([
 assert.equal(
   validateCopy20Annotations(
     reconstructCopy20Dissertation(misorderedStages),
-    misorderedStages
+    misorderedStages,
+    { compareText: false }
   ).ok,
   false
 );
@@ -301,6 +363,30 @@ try {
   ), true);
   assert.equal(body.audit.copy20.philosophicalNecessityEvaluated, false);
 
+  const segmentationEdgePhrases = structuredClone(stagedPhrases);
+  segmentationEdgePhrases['I.1'][0].phrase = 'M. X défend une idée avec précision.';
+  segmentationEdgePhrases['I.2'][0].phrase = 'Il demande : « vraiment ?! »';
+  segmentationEdgePhrases['I.3'][0].phrase = 'Cette proposition reste sans ponctuation terminale';
+  nextGenerated = {
+    openingComparison: validOpeningComparison,
+    phrases: segmentationEdgePhrases
+  };
+  const segmentationEdgeResponse = await requestWorkerGeneration('copy20-test-segmentation-edge-cases');
+  const segmentationEdgeBody = await segmentationEdgeResponse.json();
+  assert.equal(segmentationEdgeResponse.status, 200);
+  assert.equal(segmentationEdgeBody.ok, true);
+  for (const { phrase } of [
+    segmentationEdgePhrases['I.1'][0],
+    segmentationEdgePhrases['I.2'][0],
+    segmentationEdgePhrases['I.3'][0]
+  ]) {
+    assert.ok(segmentationEdgeBody.copie.includes(phrase));
+  }
+  nextGenerated = {
+    openingComparison: validOpeningComparison,
+    phrases: stagedPhrases
+  };
+
   nextOpenAIResponse = {
     status: 'incomplete',
     incomplete_details: { reason: 'max_output_tokens' },
@@ -357,7 +443,7 @@ try {
   assert.equal(invalidResponse.status, 502);
   assert.match(invalidBody.error, /annotations COPY20 ne correspondent pas/);
 
-  assert.equal(modelRequestCount, 6);
+  assert.equal(modelRequestCount, 7);
 
   nextGenerated = {
     openingComparison: {
@@ -381,7 +467,7 @@ try {
   const invalidComparisonBody = await invalidComparisonResponse.json();
   assert.equal(invalidComparisonResponse.status, 502);
   assert.match(invalidComparisonBody.error, /comparaison des trois situations/);
-  assert.equal(modelRequestCount, 7);
+  assert.equal(modelRequestCount, 8);
 
   nextGenerated = {
     openingComparison: validOpeningComparison,
@@ -408,7 +494,7 @@ try {
   const nonFictionalOpeningBody = await nonFictionalOpeningResponse.json();
   assert.equal(nonFictionalOpeningResponse.status, 502);
   assert.match(nonFictionalOpeningBody.error, /expérience de pensée ou un cas fictif/);
-  assert.equal(modelRequestCount, 8);
+  assert.equal(modelRequestCount, 9);
 } finally {
   globalThis.fetch = originalFetch;
 }

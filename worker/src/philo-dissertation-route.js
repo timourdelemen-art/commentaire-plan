@@ -256,7 +256,9 @@ export async function generatePhilosophicalDissertation(sujet, env) {
     throw new Error('La comparaison des trois situations d’ouverture est incomplète ou invalide.');
   }
   const copie = reconstructCopy20Dissertation(generated.phrases);
-  const copy20Audit = validateCopy20Annotations(copie, generated.phrases);
+  const copy20Audit = validateCopy20Annotations(copie, generated.phrases, {
+    compareText: false
+  });
   if (!copy20Audit.ok) {
     throw new Error('Les annotations COPY20 ne correspondent pas à la copie.');
   }
