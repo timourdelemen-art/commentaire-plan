@@ -72,6 +72,54 @@ export function getCopy20SentenceFunctions() {
   );
 }
 
+const COPY20_STAGE_HEADINGS = {
+  introduction: 'INTRODUCTION',
+  partieI: 'I. Partie I',
+  'I.1': 'I.1 Installer',
+  'I.2': 'I.2 Renforcer',
+  'I.3': 'I.3 Limite',
+  partieII: 'II. Partie II',
+  'II.1': 'II.1 Nouvelle exigence',
+  'II.2': 'II.2 Nouvelle réponse',
+  'II.3': 'II.3 Sa limite',
+  'III.1': 'III.1 Revenir au problème',
+  'III.2': 'III.2 L’opération',
+  'III.3': 'III.3 Stabiliser la réponse',
+  conclusion: 'CONCLUSION'
+};
+
+export function reconstructCopy20Dissertation(stagedPhrases) {
+  const textFor = (stage) => {
+    const entries = stagedPhrases?.[stage];
+    if (!Array.isArray(entries)) return '';
+    return entries
+      .filter((entry) => entry && typeof entry.phrase === 'string')
+      .map((entry) => entry.phrase)
+      .join(' ');
+  };
+  const headingBlock = (stage) =>
+    `${COPY20_STAGE_HEADINGS[stage]}\n\n${textFor(stage)}`;
+
+  return [
+    headingBlock('introduction'),
+    headingBlock('partieI'),
+    headingBlock('I.1'),
+    headingBlock('I.2'),
+    headingBlock('I.3'),
+    textFor('transitionI-II'),
+    headingBlock('partieII'),
+    headingBlock('II.1'),
+    headingBlock('II.2'),
+    headingBlock('II.3'),
+    textFor('transitionII-III'),
+    'III. Partie III',
+    headingBlock('III.1'),
+    headingBlock('III.2'),
+    headingBlock('III.3'),
+    headingBlock('conclusion')
+  ].join('\n\n');
+}
+
 function sentenceList(copy) {
   const body = copy
     .split(/\r?\n/)
@@ -122,6 +170,8 @@ export function validateCopy20Annotations(copy, stagedPhrases) {
       if (!entry || typeof entry !== 'object' || Array.isArray(entry) ||
           Object.keys(entry).length !== 2 ||
           typeof entry.phrase !== 'string' || !entry.phrase.trim() ||
+          entry.phrase !== entry.phrase.trim() ||
+          /[\r\n]/u.test(entry.phrase) ||
           typeof entry.fonction !== 'string') {
         problems.push(`Une annotation de l’étape ${stage} n’a pas le format {phrase, fonction}.`);
         continue;
@@ -129,7 +179,7 @@ export function validateCopy20Annotations(copy, stagedPhrases) {
       if (!COPY20_FUNCTIONS_BY_STAGE[stage].includes(entry.fonction)) {
         problems.push(`Fonction COPY20 non autorisée pour l’étape ${stage}.`);
       }
-      phrases.push({ phrase: entry.phrase.trim(), fonction: entry.fonction });
+      phrases.push({ phrase: entry.phrase, fonction: entry.fonction });
     }
   }
 
