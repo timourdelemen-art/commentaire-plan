@@ -20,6 +20,16 @@ const catalogFunctions = new Set(Object.values(functionsByStage).flat());
 assert.deepEqual(catalogFunctions, sourceFunctions);
 assert.equal(sourceFunctions.size, 144);
 
+function assertStrictSchema(schema) {
+  if (schema.type === 'object') {
+    assert.equal(schema.additionalProperties, false);
+    assert.deepEqual(schema.required, Object.keys(schema.properties));
+    for (const property of Object.values(schema.properties)) assertStrictSchema(property);
+  } else if (schema.type === 'array') {
+    assertStrictSchema(schema.items);
+  }
+}
+
 const writingRules = buildPhiloGenerationContext('Peut-on être libre sans être responsable ?').redaction;
 const generationContext = buildPhiloGenerationContext('Peut-on être libre sans être responsable ?');
 assert.equal('sceneSelection' in generationContext, false);
@@ -132,6 +142,7 @@ let nextGenerated = {
   copie: copy,
   phrases: stagedPhrases
 };
+let nextOpenAIResponse = null;
 let capturedPayload;
 let modelRequestCount = 0;
 globalThis.fetch = async (input, requestOptions = {}) => {
@@ -140,11 +151,26 @@ globalThis.fetch = async (input, requestOptions = {}) => {
     modelRequestCount += 1;
     capturedPayload = JSON.parse(requestOptions.body);
     return new Response(JSON.stringify({
-      output_text: JSON.stringify(nextGenerated)
+      ...(nextOpenAIResponse || { output_text: JSON.stringify(nextGenerated) })
     }), { status: 200, headers: { 'Content-Type': 'application/json' } });
   }
   throw new Error(`URL inattendue dans le test : ${url}`);
 };
+
+async function requestWorkerGeneration(clientId) {
+  return worker.fetch(new Request(
+    'https://worker.example/api/generate-dissertation',
+    {
+      method: 'POST',
+      headers: {
+        Origin: 'https://commentaire-plan.com',
+        'CF-Connecting-IP': clientId,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ sujet: 'Peut-on être libre sans être responsable ?' })
+    }
+  ), { OPENAI_API_KEY: 'test-key' });
+}
 
 try {
   const dissertation = await generatePhilosophicalDissertation(
@@ -159,7 +185,24 @@ try {
   assert.match(capturedPayload.instructions, /exactRelevance/);
   assert.match(capturedPayload.instructions, /literaryQuality/);
   assert.match(capturedPayload.instructions, /cas fictif/);
-  assert.equal(Object.hasOwn(capturedPayload, 'text'), false);
+  assert.equal(capturedPayload.text.format.type, 'json_schema');
+  assert.equal(capturedPayload.text.format.name, 'copy20_dissertation');
+  assert.equal(capturedPayload.text.format.strict, true);
+  const outputSchema = capturedPayload.text.format.schema;
+  assertStrictSchema(outputSchema);
+  assert.deepEqual(
+    Object.keys(outputSchema.properties.phrases.properties),
+    COPY20_STAGE_ORDER
+  );
+  for (const stage of COPY20_STAGE_ORDER) {
+    const functionSchema = outputSchema.properties.phrases.properties[stage]
+      .items.properties.fonction;
+    assert.deepEqual(functionSchema.enum, functionsByStage[stage]);
+    assert.deepEqual(
+      outputSchema.properties.phrases.properties[stage].items.required,
+      ['phrase', 'fonction']
+    );
+  }
   assert.equal(capturedPayload.max_output_tokens, 14000);
   assert.equal(capturedPayload.store, false);
   assert.equal(modelRequestCount, 1);
@@ -191,6 +234,42 @@ try {
   ), true);
   assert.equal(body.audit.copy20.philosophicalNecessityEvaluated, false);
 
+  nextOpenAIResponse = {
+    status: 'incomplete',
+    incomplete_details: { reason: 'max_output_tokens' },
+    output_text: '{"partial":'
+  };
+  const truncatedResponse = await requestWorkerGeneration('copy20-test-truncated');
+  const truncatedBody = await truncatedResponse.json();
+  assert.equal(truncatedResponse.status, 502);
+  assert.equal(
+    truncatedBody.error,
+    'La réponse du modèle est incomplète : la limite de tokens de sortie a été atteinte.'
+  );
+
+  nextOpenAIResponse = {
+    status: 'incomplete',
+    incomplete_details: { reason: 'content_filter' },
+    output_text: ''
+  };
+  const incompleteResponse = await requestWorkerGeneration('copy20-test-incomplete');
+  const incompleteBody = await incompleteResponse.json();
+  assert.equal(incompleteResponse.status, 502);
+  assert.equal(incompleteBody.error, 'La réponse du modèle est incomplète.');
+
+  nextOpenAIResponse = {
+    status: 'completed',
+    output_text: `Préambule non JSON ${JSON.stringify(nextGenerated)}`
+  };
+  const malformedResponse = await requestWorkerGeneration('copy20-test-malformed-json');
+  const malformedBody = await malformedResponse.json();
+  assert.equal(malformedResponse.status, 502);
+  assert.equal(
+    malformedBody.error,
+    'La réponse du modèle ne respecte pas le format JSON COPY20.'
+  );
+  nextOpenAIResponse = null;
+
   nextGenerated = {
     openingComparison: validOpeningComparison,
     copie: copy,
@@ -212,7 +291,7 @@ try {
   assert.equal(invalidResponse.status, 502);
   assert.match(invalidBody.error, /annotations COPY20 ne correspondent pas/);
 
-  assert.equal(modelRequestCount, 3);
+  assert.equal(modelRequestCount, 6);
 
   nextGenerated = {
     openingComparison: {
@@ -237,7 +316,7 @@ try {
   const invalidComparisonBody = await invalidComparisonResponse.json();
   assert.equal(invalidComparisonResponse.status, 502);
   assert.match(invalidComparisonBody.error, /comparaison des trois situations/);
-  assert.equal(modelRequestCount, 4);
+  assert.equal(modelRequestCount, 7);
 
   nextGenerated = {
     openingComparison: validOpeningComparison,
@@ -266,7 +345,7 @@ try {
   const nonFictionalOpeningBody = await nonFictionalOpeningResponse.json();
   assert.equal(nonFictionalOpeningResponse.status, 502);
   assert.match(nonFictionalOpeningBody.error, /expérience de pensée ou un cas fictif/);
-  assert.equal(modelRequestCount, 5);
+  assert.equal(modelRequestCount, 8);
 } finally {
   globalThis.fetch = originalFetch;
 }

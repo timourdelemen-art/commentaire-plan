@@ -541,15 +541,19 @@ export default {
       } catch (error) {
         const message = error?.message === "Le moteur IA a refusé la génération."
           ? "Le moteur IA a refusé la génération."
-          : error?.message === "La réponse du modèle ne respecte pas le format JSON COPY20."
+          : error?.message === "La réponse du modèle est incomplète : la limite de tokens de sortie a été atteinte."
             ? error.message
-            : error?.message === "Les annotations COPY20 ne correspondent pas à la copie."
+            : error?.message === "La réponse du modèle est incomplète."
               ? error.message
-              : error?.message === "La comparaison des trois situations d’ouverture est incomplète ou invalide."
+              : error?.message === "La réponse du modèle ne respecte pas le format JSON COPY20."
                 ? error.message
-                : error?.message === "L’ouverture doit être explicitement présentée comme une expérience de pensée ou un cas fictif."
+                : error?.message === "Les annotations COPY20 ne correspondent pas à la copie."
                   ? error.message
-              : "Le moteur IA ne répond pas.";
+                  : error?.message === "La comparaison des trois situations d’ouverture est incomplète ou invalide."
+                    ? error.message
+                    : error?.message === "L’ouverture doit être explicitement présentée comme une expérience de pensée ou un cas fictif."
+                      ? error.message
+                      : "Le moteur IA ne répond pas.";
         const errorResponse = { ok: false, error: message };
         if (error?.message === "Le moteur IA a refusé la génération." &&
             error.diagnostic) {
