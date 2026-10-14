@@ -27,7 +27,7 @@ button{margin-top:20px;padding:15px 35px;border-radius:30px}
 </main>
 <script>
 const ENDPOINT="https://atelier-commentaire-ia.timour-delemen.workers.dev/api/generate-dissertation";
-document.getElementById('generer').onclick=async()=>{const sujet=document.getElementById('sujet').value.trim();const out=document.getElementById('resultat');if(!sujet){out.textContent='Veuillez saisir un sujet.';return;}out.textContent='Génération en cours...';try{const r=await fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({sujet})});const d=await r.json();out.textContent=d.ok&&d.copie?d.copie:(d.error||'Erreur')}catch(e){out.textContent=e.message}};
+document.getElementById('generer').onclick=async()=>{const sujet=document.getElementById('sujet').value.trim();const out=document.getElementById('resultat');if(!sujet){out.textContent='Veuillez saisir un sujet.';return;}out.textContent='Génération en cours...';try{const r=await fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({sujet})});const d=await r.json();if(d.ok&&d.copie){out.textContent=d.copie;return;}const diagnostic=d.diagnostic||{};const status=Number.isInteger(diagnostic.status)&&diagnostic.status>=100&&diagnostic.status<=599?diagnostic.status:null;const code=typeof diagnostic.code==='string'&&/^[a-z][a-z0-9_]{0,63}$/.test(diagnostic.code)?diagnostic.code:null;const details=[status===null?'':`HTTP ${status}`,code||''].filter(Boolean).join(' · ');out.textContent=`${d.error||'Erreur'}${details?` (${details})`:''}`}catch(e){out.textContent=e.message}};
 </script>
 </body>
 </html>
