@@ -147,7 +147,7 @@ function sentenceList(copy) {
   return sentences;
 }
 
-export function validateCopy20Annotations(copy, stagedPhrases) {
+export function validateCopy20Annotations(copy, stagedPhrases, { compareText = true } = {}) {
   const problems = [];
   const stageKeys = stagedPhrases && typeof stagedPhrases === 'object' && !Array.isArray(stagedPhrases)
     ? Object.keys(stagedPhrases)
@@ -183,11 +183,13 @@ export function validateCopy20Annotations(copy, stagedPhrases) {
     }
   }
 
-  const sentences = typeof copy === 'string' ? sentenceList(copy) : [];
-  const normalizedPhrases = phrases.map(({ phrase }) => phrase.replace(/\s+/gu, ' '));
-  if (normalizedPhrases.length !== sentences.length ||
-      normalizedPhrases.some((phrase, index) => phrase !== sentences[index])) {
-    problems.push('Les annotations ne correspondent pas exactement, phrase par phrase, à la copie.');
+  const sentences = compareText && typeof copy === 'string' ? sentenceList(copy) : [];
+  if (compareText) {
+    const normalizedPhrases = phrases.map(({ phrase }) => phrase.replace(/\s+/gu, ' '));
+    if (normalizedPhrases.length !== sentences.length ||
+        normalizedPhrases.some((phrase, index) => phrase !== sentences[index])) {
+      problems.push('Les annotations ne correspondent pas exactement, phrase par phrase, à la copie.');
+    }
   }
 
   return {
@@ -195,7 +197,7 @@ export function validateCopy20Annotations(copy, stagedPhrases) {
     problems,
     phrases,
     annotationCount: phrases.length,
-    sentenceCount: sentences.length,
+    sentenceCount: compareText ? sentences.length : phrases.length,
     philosophicalNecessityEvaluated: false
   };
 }
