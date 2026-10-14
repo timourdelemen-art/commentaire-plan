@@ -2,6 +2,7 @@ import { buildPhiloGenerationContext } from './philo-dissertation-generator.js';
 import { auditPhiloCopySentences } from './philo-sentence-audit.js';
 import {
   COPY20_STAGE_ORDER,
+  getCopy20SentenceFunctions,
   validateCopy20Annotations
 } from './philo-engine/copy20-functions.js';
 
@@ -15,6 +16,70 @@ const OPENING_ASSESSMENT_DIMENSIONS = [
   'literaryQuality'
 ];
 const GENERATION_FORMAT_ERROR = 'La réponse du modèle ne respecte pas le format JSON COPY20.';
+const GENERATION_INCOMPLETE_ERROR = 'La réponse du modèle est incomplète.';
+const GENERATION_TOKEN_LIMIT_ERROR = 'La réponse du modèle est incomplète : la limite de tokens de sortie a été atteinte.';
+
+function strictObject(properties) {
+  return {
+    type: 'object',
+    properties,
+    required: Object.keys(properties),
+    additionalProperties: false
+  };
+}
+
+function buildCopy20OutputSchema() {
+  const assessmentProperties = Object.fromEntries(
+    OPENING_ASSESSMENT_DIMENSIONS.map((dimension) => [
+      dimension,
+      strictObject({
+        score: { type: 'integer' },
+        rationale: { type: 'string' }
+      })
+    ])
+  );
+  const aporiaProperties = Object.fromEntries([
+    'firstRequirement',
+    'firstResponse',
+    'firstDifficulty',
+    'contraryRequirement',
+    'contraryResponse',
+    'contraryDifficulty',
+    'problematic'
+  ].map((field) => [field, { type: 'string' }]));
+  const copy20Functions = getCopy20SentenceFunctions();
+  const annotations = Object.fromEntries(COPY20_STAGE_ORDER.map((stage) => [
+    stage,
+    {
+      type: 'array',
+      items: strictObject({
+        phrase: { type: 'string' },
+        fonction: {
+          type: 'string',
+          enum: copy20Functions[stage]
+        }
+      })
+    }
+  ]));
+
+  return strictObject({
+    openingComparison: strictObject({
+      aporia: strictObject(aporiaProperties),
+      candidates: {
+        type: 'array',
+        items: strictObject({
+          id: { type: 'string' },
+          structure: { type: 'string' },
+          situation: { type: 'string' },
+          assessment: strictObject(assessmentProperties)
+        })
+      },
+      selectedCandidateId: { type: 'string' }
+    }),
+    copie: { type: 'string' },
+    phrases: strictObject(annotations)
+  });
+}
 
 function validateOpeningComparison(comparison) {
   if (!comparison || typeof comparison !== 'object' ||
@@ -140,7 +205,15 @@ export async function generatePhilosophicalDissertation(sujet, env) {
       }
     ],
     max_output_tokens: 14000,
-    store: false
+    store: false,
+    text: {
+      format: {
+        type: 'json_schema',
+        name: 'copy20_dissertation',
+        strict: true,
+        schema: buildCopy20OutputSchema()
+      }
+    }
   };
 
   const response = await fetch('https://api.openai.com/v1/responses', {
@@ -164,6 +237,11 @@ export async function generatePhilosophicalDissertation(sujet, env) {
   }
 
   const data = await response.json();
+  if (data.status === 'incomplete') {
+    throw new Error(data.incomplete_details?.reason === 'max_output_tokens'
+      ? GENERATION_TOKEN_LIMIT_ERROR
+      : GENERATION_INCOMPLETE_ERROR);
+  }
   const output = extractOutputText(data);
   let generated;
   try {
