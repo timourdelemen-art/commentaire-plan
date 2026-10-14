@@ -12,12 +12,20 @@ if (!context) {
   throw new Error('Le contexte philosophique n’a pas été produit.');
 }
 
-if (context.mode !== 'double-aporie-resolution') {
+if (context.moteur?.mode !== 'double-aporie-resolution') {
   throw new Error('Le moteur philosophique n’a pas fourni le mode attendu.');
 }
 
-if (!Array.isArray(context.consignes_actives)) {
+if (!Array.isArray(context.consignes_actives) ||
+    !Array.isArray(context.redaction?.sentenceFunctions) ||
+    !context.redaction?.copy20SentenceFunctions) {
   throw new Error('Les contraintes de génération sont absentes.');
+}
+
+if ('sceneSelection' in context || 'recherche_documentaire' in context ||
+    !context.chaine_generation[0].includes('avant toute situation') ||
+    !context.chaine_generation[1].includes('trois situations fictives')) {
+  throw new Error('Le parcours actif doit construire l’aporie avant toute candidate et rester indépendant des sources documentaires.');
 }
 
 console.log('OK : intégration moteur philosophique -> contexte de génération validée.');

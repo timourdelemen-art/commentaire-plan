@@ -1,0 +1,232 @@
+[
+  {
+    "id": "matrix",
+    "oeuvre": "Matrix",
+    "auteur": "Lana et Lilly Wachowski",
+    "annee": 1999,
+    "genre": "Cinéma",
+    "ref": "Scène du restaurant",
+    "scene": "Cypher a découvert que le monde où il vivait n’était qu’une illusion et que le monde réel est un désert. Il trahit ses compagnons pour être rebranché et tout oublier, en savourant un steak qu’il sait illusoire.",
+    "scene_description_sha256": "437b9a3ef51346bb261fde188822ef58144277c731649a9b85b3269c1dc396e2",
+    "sujets": [
+      {
+        "s": "Faut-il être inconscient pour être heureux ?",
+        "oui": "Cypher veut oublier la simulation pour en retrouver les plaisirs.",
+        "non": "Cet oubli exige de livrer ses compagnons et de renoncer à connaître les conditions de sa vie.",
+        "aporie": "La lucidité peut rendre la vie douloureuse ; l’ignorance choisie peut procurer du plaisir au prix de la liberté et de la confiance.",
+        "limite1": "Confondre plaisir et bonheur efface le prix humain de ce choix.",
+        "limite2": "Savoir que le monde est réel ne garantit pas qu’on y vive heureux.",
+        "probleme": "Faut-il renoncer à savoir pour vivre heureux, ou transformer les conditions dans lesquelles la vérité devient pénible ?",
+        "audit": {
+          "sujet": "Faut-il être inconscient pour être heureux ?",
+          "deux_limites_explicites": true,
+          "validation_independante": false
+        }
+      }
+    ],
+    "audit": {
+      "sha256_fiche": "2de87ae7d332e270191ff2fc9a23babdd4716fac6fd519a6a13ff692ed18f159",
+      "source_narrative": null,
+      "statut_narratif": "a_relire_dans_edition_source",
+      "citation_controlee": false,
+      "homologation_ouverture": false,
+      "description_fidelity_verified": false,
+      "verified_scene_description_sha256": null
+    }
+  },
+  {
+    "id": "bernard-foie-lave",
+    "oeuvre": "Introduction à l’étude de la médecine expérimentale",
+    "auteur": "Claude Bernard",
+    "annee": 1865,
+    "genre": "Essai",
+    "ref": "Troisième partie, chapitre I, § II, deuxième exemple : dosages différés et foie lavé",
+    "scene": "Bernard obtient deux dosages différents de sucre dans un même foie, analysé immédiatement puis le lendemain. Il vérifie l’effet du délai : après lavage du foie, du sucre se forme de nouveau. Le protocole révèle un phénomène que le premier dosage ne permettait pas de comprendre.",
+    "scene_description_sha256": "767347d7255edb8f5dafdbd732372f258d30ec9c64a8ca8fc8ac4da2fdfee071",
+    "sujets": [
+      {
+        "s": "La connaissance scientifique progresse-t-elle par l’accumulation des observations ?",
+        "oui": "Les dosages répétés rendent visible une différence.",
+        "non": "Il faut modifier le protocole pour comprendre ce qui varie.",
+        "aporie": "Compter davantage ne suffit pas ; expérimenter sans observations contrôlées ne prouve rien.",
+        "limite1": "La moyenne des dosages ferait disparaître le phénomène à expliquer.",
+        "limite2": "Une intervention sans comparaison pourrait produire un résultat mal attribué.",
+        "probleme": "Comment les observations font-elles progresser le savoir lorsqu’elles deviennent les éléments d’une enquête contrôlée ?",
+        "audit": {
+          "sujet": "La connaissance scientifique progresse-t-elle par l’accumulation des observations ?",
+          "deux_limites_explicites": true,
+          "validation_independante": false
+        }
+      }
+    ],
+    "audit": {
+      "sha256_fiche": "0935674d73b6f16d3774a86446f06dd29a54a861ceded061e09ed23048b83d75",
+      "source_narrative": {
+        "url": "https://www.gutenberg.org/cache/epub/16234/pg16234.html",
+        "label": "Texte français de Claude Bernard",
+        "portee": "Passage lu : dosages et expérience du foie lavé"
+      },
+      "statut_narratif": "passage_consulte",
+      "citation_controlee": false,
+      "homologation_ouverture": false,
+      "description_fidelity_verified": false,
+      "verified_scene_description_sha256": null
+    }
+  },
+  {
+    "id": "nautilus-captivite",
+    "oeuvre": "Vingt mille lieues sous les mers",
+    "auteur": "Jules Verne",
+    "annee": 1870,
+    "genre": "Roman",
+    "ref": "Deuxième partie, chapitre XIX, « Gulf-Stream » : demande de libération",
+    "scene": "Aronnax demande à quitter le Nautilus avec ses compagnons. Nemo refuse. Le même sous-marin qui permet l’étude des mers soustrait ses passagers au pouvoir de décider où vivre : Aronnax admire les recherches de Nemo, mais réclame leur liberté.",
+    "scene_description_sha256": "bbd43617967873a49b6f4b10945e488a00808d6e83fde81ad9a0584db684cac8",
+    "sujets": [
+      {
+        "s": "Sommes-nous maîtres du progrès technique ?",
+        "oui": "Nemo dirige un dispositif qui étend sa puissance et ses recherches.",
+        "non": "Les passagers bénéficient de ce dispositif sans décider de leur propre déplacement.",
+        "aporie": "Maîtriser une machine ne garantit pas une maîtrise commune de ses usages.",
+        "limite1": "Identifier « nous » au concepteur efface la dépendance des autres.",
+        "limite2": "Se libérer de cette dépendance en quittant le bord prive Aronnax de ses moyens d’étude.",
+        "probleme": "Qui doit pouvoir décider des usages d’une technique dont les bénéfices et les contraintes ne sont pas partagés ?",
+        "audit": {
+          "sujet": "Sommes-nous maîtres du progrès technique ?",
+          "deux_limites_explicites": true,
+          "validation_independante": false
+        }
+      }
+    ],
+    "audit": {
+      "sha256_fiche": "828b058d89e97cf1ec97b32aab93e07dfccccb886dfedb47f34c08f2f2761edc",
+      "source_narrative": {
+        "url": "https://www.gutenberg.org/files/5096/5096-h/5096-h.htm",
+        "label": "Texte français de Jules Verne",
+        "portee": "Dialogue Aronnax–Nemo, deuxième partie XIX"
+      },
+      "statut_narratif": "passage_consulte",
+      "citation_controlee": false,
+      "homologation_ouverture": false,
+      "description_fidelity_verified": false,
+      "verified_scene_description_sha256": null
+    }
+  },
+  {
+    "id": "oppenheimer-risque-trinity",
+    "oeuvre": "Oppenheimer — avant l’essai de Trinity",
+    "auteur": "Christopher Nolan",
+    "annee": 2023,
+    "genre": "Cinéma",
+    "ref": "Scénario final du 21 avril 2023, pages imprimées 126–127 ; scène dans le bunker",
+    "scene": "Avant Trinity, Groves interroge Oppenheimer sur le risque d’enflammer l’atmosphère. Dans le scénario, le physicien le juge presque nul ; Groves voudrait une certitude complète. La discussion oppose une estimation scientifique à une décision aux conséquences irréversibles.",
+    "scene_description_sha256": "6d3050642479c29805a4d2dcee7904c6763a86a79e47193d4ae1262c2c18f263",
+    "sujets": [
+      {
+        "s": "Ce qui est techniquement possible est-il toujours souhaitable ?",
+        "oui": "L’essai permettrait de vérifier le fonctionnement du dispositif.",
+        "non": "Le gain de connaissance ne suffit pas à autoriser un risque irréversible.",
+        "aporie": "Tester réduit une incertitude ; certaines conséquences du test empêcheraient toute réparation.",
+        "limite1": "La faisabilité ne donne pas la valeur du but ni le risque acceptable.",
+        "limite2": "Exiger une certitude absolue avant toute action peut empêcher même une décision justifiée.",
+        "probleme": "Sur quels critères décider d’un essai possible lorsque la connaissance de ses effets reste incomplète ?",
+        "audit": {
+          "sujet": "Ce qui est techniquement possible est-il toujours souhaitable ?",
+          "deux_limites_explicites": true,
+          "validation_independante": false
+        }
+      }
+    ],
+    "audit": {
+      "sha256_fiche": "a8e9ad80cc9fa2a53db7aba0dcf503021fedc5580a4499ec5d636a8d802be739",
+      "source_narrative": {
+        "url": "https://assets.scriptslug.com/live/pdf/scripts/oppenheimer-2023.pdf?v=1729114966",
+        "label": "Scénario original de Christopher Nolan, copie publique",
+        "portee": "Scène du bunker : représentation cinématographique, pas transcription historique"
+      },
+      "statut_narratif": "passage_consulte",
+      "citation_controlee": false,
+      "homologation_ouverture": false,
+      "description_fidelity_verified": false,
+      "verified_scene_description_sha256": null
+    }
+  },
+  {
+    "id": "tartuffe-table",
+    "oeuvre": "Tartuffe — Orgon sous la table",
+    "auteur": "Molière",
+    "annee": 1669,
+    "genre": "Théâtre",
+    "ref": "Acte IV, scènes 4–6",
+    "scene": "Orgon refuse de croire les accusations contre Tartuffe. Elmire le cache sous une table et laisse Tartuffe lui déclarer ses intentions. Orgon finit par reconnaître la tromperie ; Elmire lui rappelle ironiquement son exigence de preuves.",
+    "scene_description_sha256": "6d4582f0d42b067087faf3c8aa6e57f07d4ba15c2a87673cf1b850a33e97109e",
+    "sujets": [
+      {
+        "s": "Suffit-il d’avoir raison pour convaincre ?",
+        "oui": "Elmire a raison sur les intentions de Tartuffe et peut les exposer.",
+        "non": "Orgon ne change de jugement qu’après avoir entendu Tartuffe lui-même.",
+        "aporie": "L’argument exige d’être reçu ; la preuve mise en scène exige une épreuve que la parole aurait pu éviter.",
+        "limite1": "Une raison juste demeure inefficace si la confiance va systématiquement à son adversaire.",
+        "limite2": "Réclamer toujours une confrontation directe peut exposer celui qui dit vrai à une situation pénible.",
+        "probleme": "Comment rendre une raison recevable sans devoir imposer à celui qui la soutient une épreuve supplémentaire ?",
+        "audit": {
+          "sujet": "Suffit-il d’avoir raison pour convaincre ?",
+          "deux_limites_explicites": true,
+          "validation_independante": false
+        }
+      }
+    ],
+    "audit": {
+      "sha256_fiche": "4ee4b1c5d52d627d146b573fb070fa6106f9e90e1d739a7d70f82c53bccc4808",
+      "source_narrative": {
+        "url": "https://github.com/dracor-org/fredracor/blob/main/tei/moliere-tartuffe.xml",
+        "label": "Texte de Molière, FreDraCor",
+        "portee": "Acte IV, scènes 4–6, vers 1360–1538"
+      },
+      "statut_narratif": "passage_consulte",
+      "citation_controlee": true,
+      "homologation_ouverture": false,
+      "description_fidelity_verified": false,
+      "verified_scene_description_sha256": null
+    }
+  },
+  {
+    "id": "chaplin-titine",
+    "oeuvre": "Les Temps modernes — la chanson du restaurant",
+    "auteur": "Charlie Chaplin",
+    "annee": 1936,
+    "genre": "Cinéma",
+    "ref": "Séquence de la chanson « Titine » au restaurant",
+    "scene": "Au restaurant, Charlot perd les manchettes sur lesquelles il avait inscrit les paroles de sa chanson. Il chante dans une langue inventée, avec des gestes qui portent la scène. L’exécution réussit en changeant ce qu’il avait préparé.",
+    "scene_description_sha256": "ef7721cc8b1c20cdf62d2db01e06897288d70d80f0697509ac348ea13c343cfc",
+    "sujets": [
+      {
+        "s": "L’artiste sait-il ce qu’il fait ?",
+        "oui": "Charlot prépare sa chanson et organise une prestation.",
+        "non": "La perte du texte l’oblige à réussir autrement que prévu.",
+        "aporie": "Préparer ne garantit pas la réussite ; improviser ne signifie pas créer sans savoir-faire.",
+        "limite1": "Identifier le savoir à un programme fixé ferait de toute adaptation un échec.",
+        "limite2": "Attribuer la réussite au seul hasard effacerait les gestes et la maîtrise de l’interprète.",
+        "probleme": "Le savoir de l’artiste consiste-t-il à prévoir l’œuvre ou à savoir transformer son projet pendant l’exécution ?",
+        "audit": {
+          "sujet": "L’artiste sait-il ce qu’il fait ?",
+          "deux_limites_explicites": true,
+          "validation_independante": false
+        }
+      }
+    ],
+    "audit": {
+      "sha256_fiche": "da4b1585a3540752ae9c134da7d49190a02784754b3c73ff35cc015fee06d111",
+      "source_narrative": {
+        "url": "https://www.charliechaplin.com/en/films/7-The-Great-Dictator/articles/114-Nonsense-Song-from-Modern-Times-Titine-",
+        "label": "Site officiel Charlie Chaplin : la chanson de Titine",
+        "portee": "Perte des paroles et chant dans une langue inventée"
+      },
+      "statut_narratif": "passage_consulte",
+      "citation_controlee": false,
+      "homologation_ouverture": false,
+      "description_fidelity_verified": false,
+      "verified_scene_description_sha256": null
+    }
+  }
+]

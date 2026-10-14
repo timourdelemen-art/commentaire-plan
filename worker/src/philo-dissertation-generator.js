@@ -1,5 +1,7 @@
 import { generatePhiloContext } from './philo-runtime.js';
 import { adaptPhiloContext } from './philo-generation-adapter.js';
+import { PHILO_GENERATION_POLICY } from './philo-generation-policy.js';
+import { buildWritingRules } from './philo-engine/writing-engine.js';
 
 // Orchestrateur complet de la génération philosophique.
 // Il expose la chaîne du moteur plutôt qu'un simple ensemble de contraintes.
@@ -22,11 +24,13 @@ export function buildPhiloGenerationContext(sujet) {
     },
     preparation: adapted.preparation,
     consignes_actives: adapted.consignes_actives,
+    politique_dissertation: PHILO_GENERATION_POLICY,
+    redaction: buildWritingRules(),
     chaine_generation: [
-      'construire une ouverture philosophique concrète',
-      'faire apparaître une situation problématique réelle',
-      'formuler deux apories reliées',
-      'transformer la situation concrète en problème philosophique',
+      'analyser le sujet et construire la double aporie avant toute situation',
+      'imaginer et comparer trois situations fictives de structures distinctes',
+      'choisir la situation la plus féconde au regard des critères',
+      'développer la situation comme expérience de pensée ou cas fictif',
       'construire une problématique conservant la tension',
       'produire un plan dynamique nécessaire',
       'construire une troisième partie comme opération de transformation',
