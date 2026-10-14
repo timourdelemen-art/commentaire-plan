@@ -550,7 +550,12 @@ export default {
                 : error?.message === "L’ouverture doit être explicitement présentée comme une expérience de pensée ou un cas fictif."
                   ? error.message
               : "Le moteur IA ne répond pas.";
-        return json({ok:false,error:message},502,origin);
+        const errorResponse = { ok: false, error: message };
+        if (error?.message === "Le moteur IA a refusé la génération." &&
+            error.diagnostic) {
+          errorResponse.diagnostic = error.diagnostic;
+        }
+        return json(errorResponse,502,origin);
       }
       if(!dissertation.copie) return json({ok:false,error:"La génération n'a pas renvoyé de texte."},502,origin);
       return json({ok:true,sujet,copie:dissertation.copie,phrases:dissertation.phrases,audit:dissertation.audit},200,origin);

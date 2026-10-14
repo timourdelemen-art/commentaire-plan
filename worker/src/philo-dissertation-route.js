@@ -91,7 +91,16 @@ function safeDiagnosticField(value) {
   return sanitized || null;
 }
 
-async function logOpenAIHttpError(response) {
+function safeProviderErrorIdentifier(value, privateValues) {
+  if (typeof value !== 'string' || !/^[a-z][a-z0-9_]{0,63}$/.test(value)) return null;
+  if (privateValues.some((privateValue) =>
+    typeof privateValue === 'string' && privateValue &&
+    (privateValue.includes(value) || value.includes(privateValue))
+  )) return null;
+  return value;
+}
+
+async function logOpenAIHttpError(response, privateValues) {
   let apiError = null;
   try {
     const data = await response.clone().json();
@@ -100,23 +109,28 @@ async function logOpenAIHttpError(response) {
     // Non-JSON upstream error bodies are intentionally not logged.
   }
 
-  console.error('OpenAI Responses API request failed', JSON.stringify({
+  const diagnostic = {
     status: response.status,
-    code: safeDiagnosticField(apiError?.code),
-    type: safeDiagnosticField(apiError?.type),
+    code: safeProviderErrorIdentifier(apiError?.code, privateValues),
+    type: safeProviderErrorIdentifier(apiError?.type, privateValues)
+  };
+  console.error('OpenAI Responses API request failed', JSON.stringify({
+    ...diagnostic,
     requestId: safeDiagnosticField(response.headers.get('x-request-id'))
   }));
+  return diagnostic;
 }
 
 export async function generatePhilosophicalDissertation(sujet, env) {
   const moteur = JSON.stringify(buildPhiloGenerationContext(sujet));
+  const instructions =
+    'Tu es le générateur de dissertation philosophique du site Commentaire Plan.\n' +
+    'Utilise le moteur philosophique fourni pour construire une dissertation complète.\n\n' +
+    moteur;
 
   const payload = {
     model: env.OPENAI_MODEL || 'gpt-5-mini',
-    instructions:
-      'Tu es le générateur de dissertation philosophique du site Commentaire Plan.\n' +
-      'Utilise le moteur philosophique fourni pour construire une dissertation complète.\n\n' +
-      moteur,
+    instructions,
     input: [
       {
         role: 'user',
@@ -140,8 +154,14 @@ export async function generatePhilosophicalDissertation(sujet, env) {
   });
 
   if (!response.ok) {
-    await logOpenAIHttpError(response);
-    throw new Error('Le moteur IA a refusé la génération.');
+    const diagnostic = await logOpenAIHttpError(response, [
+      env.OPENAI_API_KEY,
+      sujet,
+      instructions
+    ]);
+    const error = new Error('Le moteur IA a refusé la génération.');
+    error.diagnostic = diagnostic;
+    throw error;
   }
 
   const data = await response.json();
