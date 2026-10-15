@@ -12,8 +12,9 @@ export function buildPhiloPreAnalysis(sujet) {
       "identifier le coût interne de chaque réponse",
       "formuler la double aporie",
       "construire une problématique qui conserve les deux tensions",
-      "comparer les opérations résolutoires possibles",
-      "retenir une résolution avec ses conditions, son coût et son reste"
+      "construire trois résolutions concrètes distinctes à partir des formes opératoires disponibles, sans les transformer en recette",
+      "comparer leurs présupposés, acquis, sacrifices, objections, conditions, coûts et restes sans score",
+      "retenir la plus défendable pour le sujet et justifier ce choix contre sa meilleure concurrente avant de rédiger III"
     ],
     constraints: {
       noThemePlan: true,

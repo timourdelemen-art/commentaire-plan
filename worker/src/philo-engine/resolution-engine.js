@@ -1,14 +1,44 @@
-/* Résolution : les matrices servent à comparer des opérations, pas à imposer un problème. */
-export function compareResolutions(plan, aporia) {
+import PHILOSOPHY_MATRICES from '../../../data/philosophie-matrices.json' with { type: 'json' };
+import { RESOLUTION_FORMS } from './resolution-registry.js';
+
+/*
+ * Prépare les ressources et le protocole à transmettre au modèle. La
+ * comparaison philosophique et le choix sont produits par le modèle dans
+ * resolutionPreparation ; ce module ne les simule pas par heuristiques.
+ */
+export function compareResolutions(subject) {
   return {
-    plan,
-    aporia,
-    criteria: [
-      'ce que la résolution conserve des deux exigences',
-      'ce qu’elle transforme',
-      'son coût philosophique',
-      'le reste qu’elle produit'
+    subject,
+    sourceNote: 'Les procédures sont des adaptations opératoires des formes données, non des citations. Les matrices jointes sont un référentiel partiel, pas le Dictionnaire complet.',
+    aporiaSource: 'openingComparison.aporia',
+    forms: RESOLUTION_FORMS,
+    matrices: PHILOSOPHY_MATRICES.matrices,
+    procedure: [
+      'Construire trois propositions sérieuses et réellement distinctes pour le même problème ; elles peuvent combiner des formes ou relever d’une même forme si leurs transformations diffèrent.',
+      'Pour chaque proposition, préciser la réponse au sujet, la difficulté transformée, les étapes, le traitement des deux difficultés, les acquis conservés et sacrifices, les hypothèses et leur justification, l’objection la plus forte et sa réponse, les conditions, le coût et le reste.',
+      'Comparer sans notes selon la fidélité au sujet et à son opérateur, le traitement des deux difficultés, la conservation justifiée, les sacrifices et ajouts, la solidité face à l’objection, et la précision du reste.',
+      'Choisir la proposition la plus défendable pour ce problème précis et justifier le choix contre la meilleure concurrente. Aucun classement universel des formes.',
+      'Faire gouverner III.1, III.2 et III.3 par la proposition retenue ; cette préparation doit être achevée avant la rédaction des phrases.',
+      'Si aucune proposition ne convient, reprendre la comparaison dans cette même préparation ; ne pas laisser une sous-partie vide et ne pas inventer une résolution par défaut.'
     ],
-    status: 'comparison-required'
+    comparisonFields: [
+      'forms',
+      'answerToSubject',
+      'transformedDifficulty',
+      'reasoningSteps',
+      'treatsFirstDifficulty',
+      'treatsSecondDifficulty',
+      'preserves',
+      'sacrifices',
+      'additionalAssumptions',
+      'assumptionJustification',
+      'strongestObjection',
+      'responseToObjection',
+      'conditions',
+      'cost',
+      'remainder'
+    ],
+    candidateIds: ['candidate-1', 'candidate-2', 'candidate-3'],
+    status: 'model-comparison-required'
   };
 }

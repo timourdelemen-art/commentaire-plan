@@ -25,7 +25,7 @@ export function buildPhiloGenerationContext(sujet) {
     preparation: adapted.preparation,
     consignes_actives: adapted.consignes_actives,
     politique_dissertation: PHILO_GENERATION_POLICY,
-    redaction: buildWritingRules(),
+    redaction: buildWritingRules(sujet),
     chaine_generation: [
       'analyser le sujet et construire la double aporie avant toute situation',
       'imaginer et comparer trois situations fictives de structures distinctes',
