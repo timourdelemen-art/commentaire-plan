@@ -20,6 +20,35 @@ const OPENING_ASSESSMENT_DIMENSIONS = [
 const GENERATION_FORMAT_ERROR = 'La réponse du modèle ne respecte pas le format JSON COPY20.';
 const GENERATION_INCOMPLETE_ERROR = 'La réponse du modèle est incomplète.';
 const GENERATION_TOKEN_LIMIT_ERROR = 'La réponse du modèle est incomplète : la limite de tokens de sortie a été atteinte.';
+const DEFAULT_OPENAI_TIMEOUT_MS = 180_000;
+const MAX_OPENAI_TIMEOUT_MS = 180_000;
+
+function openAiTimeoutMs(env) {
+  const configured = env.DISSERTATION_OPENAI_TIMEOUT_MS;
+  if (configured === undefined || configured === '') return DEFAULT_OPENAI_TIMEOUT_MS;
+
+  const timeoutMs = Number(configured);
+  if (!Number.isSafeInteger(timeoutMs) || timeoutMs < 1_000 || timeoutMs > MAX_OPENAI_TIMEOUT_MS) {
+    throw new Error('Configuration du délai maximal de génération invalide.');
+  }
+  return timeoutMs;
+}
+
+function createGenerationLogger() {
+  const startedAt = Date.now();
+  let previousStageAt = startedAt;
+  return (stage, errorCode) => {
+    const now = Date.now();
+    console.info(JSON.stringify({
+      event: 'dissertation_generation',
+      stage,
+      duration_ms: now - previousStageAt,
+      elapsed_ms: now - startedAt,
+      ...(errorCode ? { error_code: errorCode } : {})
+    }));
+    previousStageAt = now;
+  };
+}
 
 function strictObject(properties) {
   return {
@@ -228,7 +257,18 @@ async function logOpenAIHttpError(response, privateValues) {
 }
 
 export async function generatePhilosophicalDissertation(sujet, env) {
+  const logStage = createGenerationLogger();
+  logStage('started');
+  let timeoutMs;
+  try {
+    timeoutMs = openAiTimeoutMs(env);
+  } catch (error) {
+    logStage('configuration_error', 'invalid_timeout_configuration');
+    error.diagnostic = { code: 'invalid_timeout_configuration' };
+    throw error;
+  }
   const moteur = JSON.stringify(buildPhiloGenerationContext(sujet));
+  logStage('context_built');
   const instructions =
     'Tu es le générateur de dissertation philosophique du site Commentaire Plan.\n' +
     'Utilise le moteur philosophique fourni pour construire une dissertation complète.\n\n' +
@@ -257,27 +297,68 @@ export async function generatePhilosophicalDissertation(sujet, env) {
     }
   };
 
-  const response = await fetch('https://api.openai.com/v1/responses', {
-    method: 'POST',
-    headers: {
-      'Authorization': 'Bearer ' + env.OPENAI_API_KEY,
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(payload)
-  });
+  const controller = new AbortController();
+  let timedOut = false;
+  let readingResponse = false;
+  let response;
+  let data;
+  const timeoutId = setTimeout(() => {
+    timedOut = true;
+    controller.abort();
+  }, timeoutMs);
 
-  if (!response.ok) {
-    const diagnostic = await logOpenAIHttpError(response, [
-      env.OPENAI_API_KEY,
-      sujet,
-      instructions
-    ]);
-    const error = new Error('Le moteur IA a refusé la génération.');
-    error.diagnostic = diagnostic;
+  logStage('openai_request_started');
+  try {
+    response = await fetch('https://api.openai.com/v1/responses', {
+      method: 'POST',
+      headers: {
+        'Authorization': 'Bearer ' + env.OPENAI_API_KEY,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(payload),
+      signal: controller.signal
+    });
+    logStage('openai_response_received');
+
+    if (!response.ok) {
+      const diagnostic = await logOpenAIHttpError(response, [
+        env.OPENAI_API_KEY,
+        sujet,
+        instructions
+      ]);
+      const error = new Error('Le moteur IA a refusé la génération.');
+      error.diagnostic = diagnostic;
+      throw error;
+    }
+
+    readingResponse = true;
+    data = await response.json();
+    logStage('openai_response_read');
+  } catch (error) {
+    if (timedOut) {
+      logStage('openai_timeout', 'openai_timeout');
+      const timeoutSeconds = Math.round(timeoutMs / 1_000);
+      const timeoutUnit = timeoutSeconds === 1 ? 'seconde' : 'secondes';
+      const timeoutError = new Error(
+        `Le moteur IA n’a pas répondu dans le délai maximal de ${timeoutSeconds} ${timeoutUnit}.`
+      );
+      timeoutError.diagnostic = { code: 'openai_timeout' };
+      throw timeoutError;
+    }
+
+    if (error?.diagnostic) {
+      logStage('openai_http_error', 'openai_http_error');
+    } else {
+      logStage(
+        readingResponse ? 'openai_response_read_error' : 'openai_request_error',
+        readingResponse ? 'openai_response_read_error' : 'openai_network_error'
+      );
+    }
     throw error;
+  } finally {
+    clearTimeout(timeoutId);
   }
 
-  const data = await response.json();
   if (data.status === 'incomplete') {
     throw new Error(data.incomplete_details?.reason === 'max_output_tokens'
       ? GENERATION_TOKEN_LIMIT_ERROR
@@ -307,6 +388,7 @@ export async function generatePhilosophicalDissertation(sujet, env) {
     throw new Error('L’ouverture doit être explicitement présentée comme une expérience de pensée ou un cas fictif.');
   }
 
+  logStage('completed');
   return {
     copie,
     phrases: copy20Audit.phrases.map(({ phrase, fonction }) => ({ phrase, fonction })),
