@@ -6,6 +6,7 @@ import {
   reconstructCopy20Dissertation,
   validateCopy20Annotations
 } from './philo-engine/copy20-functions.js';
+import { RESOLUTION_FORMS } from './philo-engine/resolution-registry.js';
 
 const OPENING_ASSESSMENT_DIMENSIONS = [
   'exactRelevance',
@@ -49,6 +50,30 @@ function buildCopy20OutputSchema() {
     'problematic'
   ].map((field) => [field, { type: 'string' }]));
   const copy20Functions = getCopy20ArgumentFunctions();
+  const candidateIds = ['candidate-1', 'candidate-2', 'candidate-3'];
+  const resolutionCandidateProperties = {
+    forms: {
+      type: 'array',
+      items: {
+        type: 'string',
+        enum: RESOLUTION_FORMS.map(({ id }) => id)
+      }
+    },
+    answerToSubject: { type: 'string' },
+    transformedDifficulty: { type: 'string' },
+    reasoningSteps: { type: 'array', items: { type: 'string' } },
+    treatsFirstDifficulty: { type: 'string' },
+    treatsSecondDifficulty: { type: 'string' },
+    preserves: { type: 'string' },
+    sacrifices: { type: 'string' },
+    additionalAssumptions: { type: 'string' },
+    assumptionJustification: { type: 'string' },
+    strongestObjection: { type: 'string' },
+    responseToObjection: { type: 'string' },
+    conditions: { type: 'string' },
+    cost: { type: 'string' },
+    remainder: { type: 'string' }
+  };
   const annotations = Object.fromEntries(COPY20_STAGE_ORDER.map((stage) => [
     stage,
     {
@@ -77,6 +102,21 @@ function buildCopy20OutputSchema() {
         })
       },
       selectedCandidateId: { type: 'string' }
+    }),
+    resolutionPreparation: strictObject({
+      candidates: strictObject(Object.fromEntries(
+        candidateIds.map((id) => [id, strictObject(resolutionCandidateProperties)])
+      )),
+      selectedCandidateId: {
+        type: 'string',
+        enum: candidateIds
+      },
+      strongestCompetitorId: {
+        type: 'string',
+        enum: candidateIds
+      },
+      selectionReason: { type: 'string' },
+      comparisonAgainstCompetitor: { type: 'string' }
     }),
     phrases: strictObject(annotations)
   });

@@ -37,6 +37,10 @@ function assertStrictSchema(schema) {
 
 const writingRules = buildPhiloGenerationContext('Peut-on être libre sans être responsable ?').redaction;
 const generationContext = buildPhiloGenerationContext('Peut-on être libre sans être responsable ?');
+assert.equal(writingRules.resolutionSelection.forms.length, 8);
+assert.equal(writingRules.resolutionSelection.matrices.length, 4);
+assert.equal(writingRules.resolutionSelection.status, 'model-comparison-required');
+assert.match(writingRules.resolutionSelection.sourceNote, /pas le Dictionnaire complet/);
 assert.equal('sceneSelection' in generationContext, false);
 assert.equal('recherche_documentaire' in generationContext, false);
 assert.match(generationContext.chaine_generation[0], /avant toute situation/);
@@ -50,11 +54,13 @@ assert.match(writingRules.copy20Format, /le Worker reconstruit la copie depuis l
 assert.match(writingRules.copy20Format, /aucun titre, numéro de partie ou préfixe de fonction/);
 assert.match(writingRules.copy20Format, /fonction et operation/);
 assert.match(writingRules.copy20Protocol, /opération intellectuelle particulière/);
+assert.match(writingRules.copy20Protocol, /AVANT LES PHRASES/);
+assert.match(writingRules.copy20Protocol, /resolutionPreparation/);
 assert.match(writingRules.copy20Protocol, /argument de référence précisément attribué/);
 assert.match(writingRules.copy20Protocol, /difficulté qui lui est interne/);
 assert.match(writingRules.copy20Protocol, /de véritables questions ouvertes auxquelles la partie suivante répond/);
 assert.match(writingRules.copy20Protocol, /toute reprise lexicale annotée doit se lire dans le texte/);
-assert.match(writingRules.copy20Protocol, /ressources du Dictionnaire paradoxal/);
+assert.match(writingRules.copy20Protocol, /candidate sélectionnée/);
 for (const subpart of ['I.1', 'I.2', 'I.3', 'II.1', 'II.2', 'II.3', 'III.1', 'III.2', 'III.3']) {
   assert.match(writingRules.copy20Protocol, new RegExp(`${subpart} — Départ`));
 }
@@ -63,6 +69,7 @@ assert.match(writingRules.copy20Protocol, /TRANSITION II-III — Hors des partie
 assert.match(generationContext.politique_dissertation, /exactement trois situations/);
 assert.match(generationContext.politique_dissertation, /deux exigences/);
 assert.match(generationContext.politique_dissertation, /redaction\.copy20Protocol/);
+assert.match(generationContext.politique_dissertation, /trois résolutions concrètes/);
 assert.doesNotMatch(generationContext.politique_dissertation, /ANNOTATION DE NÉCESSITÉ|RÉSOLUTION ET RESTE/);
 
 const openingFunction = 'scène d’ouverture';
@@ -282,10 +289,47 @@ const validOpeningComparison = {
   ],
   selectedCandidateId: 'limit-case'
 };
-let nextGenerated = {
-  openingComparison: validOpeningComparison,
-  phrases: stagedPhrases
+const validResolutionCandidate = (forms, answer) => ({
+  forms,
+  answerToSubject: answer,
+  transformedDifficulty: 'Transformer le présupposé qui rend les deux difficultés incompatibles.',
+  reasoningSteps: ['Établir le présupposé', 'En démontrer le déplacement'],
+  treatsFirstDifficulty: 'Conserver ce que la première réponse explique.',
+  treatsSecondDifficulty: 'Répondre au coût révélé par la réponse contraire.',
+  preserves: 'Les deux acquis établis en I et II.',
+  sacrifices: 'Écarter la prétention à une résolution sans coût.',
+  additionalAssumptions: 'Aucune autre que la distinction conceptuelle du sujet.',
+  assumptionJustification: 'La distinction est établie par les conséquences déjà examinées.',
+  strongestObjection: 'Cette proposition peut masquer un déplacement de la difficulté.',
+  responseToObjection: 'Le coût est maintenu comme condition et reste.',
+  conditions: 'La distinction doit être démontrée et opérante.',
+  cost: 'Une difficulté reste à traiter dans les cas où cette condition échoue.',
+  remainder: 'La limite de la condition ouvre une question déterminée.'
+});
+const validResolutionPreparation = {
+  candidates: {
+    'candidate-1': validResolutionCandidate(
+      ['duplication-ontologique'],
+      'Réponse du candidat 1.'
+    ),
+    'candidate-2': validResolutionCandidate(
+      ['processualisation', 'metamorphose'],
+      'Réponse du candidat 2.'
+    ),
+    'candidate-3': validResolutionCandidate(
+      ['suspension-epistemique'],
+      'Réponse du candidat 3.'
+    )
+  },
+  selectedCandidateId: 'candidate-2',
+  strongestCompetitorId: 'candidate-1',
+  selectionReason: 'Le candidat 2 transforme les deux difficultés sans sacrifier les acquis.',
+  comparisonAgainstCompetitor: 'Le candidat 1 sépare les niveaux mais explique moins leur transformation.'
 };
+function generatedOutput(openingComparison, phrases, resolutionPreparation = validResolutionPreparation) {
+  return { openingComparison, resolutionPreparation, phrases };
+}
+let nextGenerated = generatedOutput(validOpeningComparison, stagedPhrases);
 let nextOpenAIResponse = null;
 let capturedPayload;
 let modelRequestCount = 0;
@@ -333,6 +377,15 @@ try {
   assert.match(capturedPayload.instructions, /literaryQuality/);
   assert.match(capturedPayload.instructions, /cas fictif/);
   assert.match(capturedPayload.instructions, /sans propriété copie/);
+  assert.match(capturedPayload.instructions, /resolutionPreparation/);
+  const serializedContext = capturedPayload.instructions.slice(
+    capturedPayload.instructions.indexOf('\n\n') + 2
+  );
+  const transmittedContext = JSON.parse(serializedContext);
+  assert.equal(transmittedContext.redaction.resolutionSelection.forms.length, 8);
+  assert.equal(transmittedContext.redaction.resolutionSelection.matrices.length, 4);
+  assert.match(transmittedContext.redaction.resolutionSelection.sourceNote, /non exhaustif|pas le Dictionnaire complet/iu);
+  assert.equal(transmittedContext.redaction.resolutionSelection.candidateIds.length, 3);
   assert.equal(capturedPayload.text.format.type, 'json_schema');
   assert.equal(capturedPayload.text.format.name, 'copy20_dissertation');
   assert.equal(capturedPayload.text.format.strict, true);
@@ -341,7 +394,38 @@ try {
   assert.equal(Object.hasOwn(outputSchema.properties, 'copie'), false);
   assert.deepEqual(
     Object.keys(outputSchema.properties).sort(),
-    ['openingComparison', 'phrases']
+    ['openingComparison', 'phrases', 'resolutionPreparation']
+  );
+  assert.deepEqual(Object.keys(outputSchema.properties), [
+    'openingComparison',
+    'resolutionPreparation',
+    'phrases'
+  ]);
+  const resolutionSchema = outputSchema.properties.resolutionPreparation;
+  assert.deepEqual(
+    Object.keys(resolutionSchema.properties.candidates.properties),
+    ['candidate-1', 'candidate-2', 'candidate-3']
+  );
+  assert.deepEqual(
+    resolutionSchema.properties.selectedCandidateId.enum,
+    ['candidate-1', 'candidate-2', 'candidate-3']
+  );
+  assert.equal(Object.hasOwn(resolutionSchema.properties, 'score'), false);
+  assert.deepEqual(
+    resolutionSchema.properties.candidates.properties['candidate-1']
+      .properties.forms.items.enum,
+    generationContext.redaction.resolutionSelection.forms.map(({ id }) => id)
+  );
+  for (const candidate of Object.values(resolutionSchema.properties.candidates.properties)) {
+    assert.deepEqual(
+      Object.keys(candidate.properties),
+      generationContext.redaction.resolutionSelection.comparisonFields
+    );
+    assert.equal(Object.hasOwn(candidate.properties, 'score'), false);
+  }
+  assert.equal(
+    Object.hasOwn(outputSchema.properties, 'copie'),
+    false
   );
   assert.deepEqual(
     Object.keys(outputSchema.properties.phrases.properties),
@@ -374,6 +458,7 @@ try {
   assert.equal(body.ok, true);
   assert.equal(body.copie, copy);
   assert.deepEqual(Object.keys(body).sort(), ['audit', 'copie', 'ok', 'phrases', 'sujet']);
+  assert.equal(Object.hasOwn(body, 'resolutionPreparation'), false);
   assert.equal(Array.isArray(body.phrases), true);
   assert.deepEqual(
     body.phrases,
@@ -395,10 +480,7 @@ try {
   segmentationEdgePhrases['I.1'][0].phrase = 'M. X défend une idée avec précision.';
   segmentationEdgePhrases['I.2'][0].phrase = 'Il demande : « vraiment ?! »';
   segmentationEdgePhrases['I.3'][0].phrase = 'Cette proposition reste sans ponctuation terminale';
-  nextGenerated = {
-    openingComparison: validOpeningComparison,
-    phrases: segmentationEdgePhrases
-  };
+  nextGenerated = generatedOutput(validOpeningComparison, segmentationEdgePhrases);
   const segmentationEdgeResponse = await requestWorkerGeneration('copy20-test-segmentation-edge-cases');
   const segmentationEdgeBody = await segmentationEdgeResponse.json();
   assert.equal(segmentationEdgeResponse.status, 200);
@@ -410,10 +492,7 @@ try {
   ]) {
     assert.ok(segmentationEdgeBody.copie.includes(phrase));
   }
-  nextGenerated = {
-    openingComparison: validOpeningComparison,
-    phrases: stagedPhrases
-  };
+  nextGenerated = generatedOutput(validOpeningComparison, stagedPhrases);
 
   const completeThirdPart = structuredClone(stagedPhrases);
   completeThirdPart['III.1'] = [{
@@ -467,10 +546,24 @@ try {
       problematic: 'Comment la technique peut-elle accroître la liberté sans fixer seule ses fins ?'
     }
   };
-  nextGenerated = {
-    openingComparison: technologyOpeningComparison,
-    phrases: completeThirdPart
+  const technologyResolutionPreparation = {
+    ...validResolutionPreparation,
+    selectedCandidateId: 'candidate-3',
+    strongestCompetitorId: 'candidate-2',
+    selectionReason: 'Cette proposition éprouve directement les deux difficultés du sujet technique.',
+    candidates: {
+      ...validResolutionPreparation.candidates,
+      'candidate-3': validResolutionCandidate(
+        ['inversion-indexation', 'metamorphose'],
+        'La technique accroît la liberté si les personnes peuvent réviser les fins et les règles des outils.'
+      )
+    }
   };
+  nextGenerated = generatedOutput(
+    technologyOpeningComparison,
+    completeThirdPart,
+    technologyResolutionPreparation
+  );
   const completeThirdPartResponse = await requestWorkerGeneration(
     'copy20-test-complete-new-third-part',
     'La technique nous rend-elle plus libres ?'
@@ -479,6 +572,7 @@ try {
   assert.equal(completeThirdPartResponse.status, 200);
   assert.equal(completeThirdPartBody.ok, true);
   assert.equal(completeThirdPartBody.sujet, 'La technique nous rend-elle plus libres ?');
+  assert.equal(Object.hasOwn(completeThirdPartBody, 'resolutionPreparation'), false);
   assert.ok(completeThirdPartBody.copie.includes(completeThirdPart['III.1'][0].phrase));
   assert.ok(completeThirdPartBody.copie.includes(completeThirdPart['III.2'][1].phrase));
   assert.ok(completeThirdPartBody.copie.includes(completeThirdPart['III.3'][2].phrase));
@@ -501,10 +595,7 @@ try {
   );
   assert.equal(modelRequestCount, 4);
 
-  nextGenerated = {
-    openingComparison: validOpeningComparison,
-    phrases: stagedPhrases
-  };
+  nextGenerated = generatedOutput(validOpeningComparison, stagedPhrases);
 
   nextOpenAIResponse = {
     status: 'incomplete',
@@ -542,10 +633,7 @@ try {
   );
   nextOpenAIResponse = null;
 
-  nextGenerated = {
-    openingComparison: validOpeningComparison,
-    phrases: wrongLabel
-  };
+  nextGenerated = generatedOutput(validOpeningComparison, wrongLabel);
   const invalidResponse = await worker.fetch(new Request(
     'https://worker.example/api/generate-dissertation',
     {
@@ -564,13 +652,10 @@ try {
 
   assert.equal(modelRequestCount, 8);
 
-  nextGenerated = {
-    openingComparison: {
-      ...validOpeningComparison,
-      candidates: validOpeningComparison.candidates.slice(0, 2)
-    },
-    phrases: stagedPhrases
-  };
+  nextGenerated = generatedOutput({
+    ...validOpeningComparison,
+    candidates: validOpeningComparison.candidates.slice(0, 2)
+  }, stagedPhrases);
   const invalidComparisonResponse = await worker.fetch(new Request(
     'https://worker.example/api/generate-dissertation',
     {
@@ -588,17 +673,14 @@ try {
   assert.match(invalidComparisonBody.error, /comparaison des trois situations/);
   assert.equal(modelRequestCount, 9);
 
-  nextGenerated = {
-    openingComparison: validOpeningComparison,
-    phrases: {
+  nextGenerated = generatedOutput(validOpeningComparison, {
       ...stagedPhrases,
       introduction: [{
         phrase: 'La liberté dépend de la responsabilité.',
         fonction: openingFunction,
         operation: 'Énoncer une proposition sans la présenter comme une scène fictive.'
       }]
-    }
-  };
+    });
   const nonFictionalOpeningResponse = await worker.fetch(new Request(
     'https://worker.example/api/generate-dissertation',
     {

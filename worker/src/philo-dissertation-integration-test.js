@@ -18,7 +18,9 @@ if (context.moteur?.mode !== 'double-aporie-resolution') {
 
 if (!Array.isArray(context.consignes_actives) ||
     !Array.isArray(context.redaction?.sentenceFunctions) ||
-    !context.redaction?.copy20ArgumentFunctions) {
+    !context.redaction?.copy20ArgumentFunctions ||
+context.redaction?.resolutionSelection?.forms?.length !== 8 ||
+context.redaction?.resolutionSelection?.matrices?.length !== 4) {
   throw new Error('Les contraintes de génération sont absentes.');
 }
 
