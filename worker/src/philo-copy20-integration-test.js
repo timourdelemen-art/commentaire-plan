@@ -170,7 +170,33 @@ assert.equal(
   'Chaque annotation interne contient structurellement une opération.'
 );
 
-assert.equal(copy.split('\n\n').length, COPY20_STAGE_ORDER.length);
+const copyParagraphGroups = copy.split('\n\n').map((group) => group.split('\n'));
+assert.deepEqual(
+  copyParagraphGroups.map((group) => group.length),
+  [1, 3, 1, 3, 1, 3, 1],
+  'Les parties ont chacune trois paragraphes et les transitions restent isolées.'
+);
+assert.deepEqual(copyParagraphGroups, [
+  [stagedPhrases.introduction[0].phrase],
+  [
+    `${stagedPhrases.partieI[0].phrase} ${stagedPhrases['I.1'][0].phrase}`,
+    stagedPhrases['I.2'][0].phrase,
+    stagedPhrases['I.3'][0].phrase
+  ],
+  [stagedPhrases['transitionI-II'][0].phrase],
+  [
+    `${stagedPhrases.partieII[0].phrase} ${stagedPhrases['II.1'][0].phrase}`,
+    stagedPhrases['II.2'][0].phrase,
+    stagedPhrases['II.3'][0].phrase
+  ],
+  [stagedPhrases['transitionII-III'][0].phrase],
+  [
+    stagedPhrases['III.1'][0].phrase,
+    stagedPhrases['III.2'][0].phrase,
+    stagedPhrases['III.3'][0].phrase
+  ],
+  [stagedPhrases.conclusion[0].phrase]
+], 'Les phrases annotées sont conservées dans les paragraphes et l’ordre demandés.');
 assert.doesNotMatch(
   copy,
   /(?:^|\n)(?:INTRODUCTION|CONCLUSION|I{1,3}(?:\.\d+)?(?:\s|$))/u,
