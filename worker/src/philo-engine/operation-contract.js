@@ -3,17 +3,17 @@
  * Les textes et annotations historiques COPY20 ne sont pas modifiés.
  */
 export const ARGUMENT_PREPARATION = {
-  'I.answer': 'Première réponse au libellé exact.',
+  'I.answer': 'Première réponse au libellé exact, avec le sens, le rapport et la portée retenus.',
   'I.reason': 'Raison et appui qui rendent cette réponse défendable.',
   'I.reinforcement': 'Argument qui renforce cette raison, avant toute critique.',
   'I.gain': 'Proposition acquise grâce à ce renforcement.',
-  'I.limit': 'Dérivation de la difficulté interne à partir de cette justification.',
+  'I.limit': 'Dérivation de la difficulté interne à partir de cette justification : expliciter le passage contestable, sans transformer un risque possible en conséquence nécessaire.',
   'I.transition': 'Difficulté à interroger pour rendre II nécessaire ; pas une transition pré-rédigée.',
   'II.requirement': 'Exigence légitime appelée par cette difficulté.',
   'II.reason': 'Justification de cette exigence, répondant à la cible de transition.',
-  'II.answer': 'Réponse contraire avec sa raison et ses appuis.',
+  'II.answer': 'Réponse contraire avec sa raison et ses appuis : préciser ce qu’elle conteste de I sur le même sujet ; si les deux propositions sont compatibles, reconstruire leur opposition sans changer silencieusement de sens ni de question.',
   'II.gain': 'Proposition acquise grâce à cette réponse.',
-  'II.limit': 'Dérivation de sa difficulté propre, sans caricature.',
+  'II.limit': 'Dérivation de sa difficulté propre, sans caricature : montrer pourquoi sa justification rencontre cet obstacle ; ne pas lui attribuer une négation ou un refus qu’elle n’implique pas.',
   'II.transition': 'Question à construire à partir des deux limites, sans annoncer la résolution.'
 };
 
@@ -22,9 +22,9 @@ const step = (id, source, uses, work) => ({ id, source, uses, work });
 export const OPERATION_CONTRACT = {
   introduction: [
     step('intro.scene', 'openingComparison.selected', [], 'Exposer la scène singulière choisie : les détails portent les deux exigences et leurs difficultés, sans supposer la solution.'),
-    step('intro.sceneAnalysis', 'openingComparison.aporia', ['intro.scene'], 'Interpréter les détails pour dégager les deux tensions avant les grands mots ; limiter les inférences tirées de l’exemple.'),
+    step('intro.sceneAnalysis', 'openingComparison.aporia', ['intro.scene'], 'Interpréter un détail précis pour chaque exigence et montrer ce qui lui résiste dans la scène ; ne pas simplement annoncer deux tensions ; limiter les inférences tirées de l’exemple.'),
     step('intro.generalization', 'openingComparison.aporia', ['intro.sceneAnalysis'], 'Passer de cette difficulté concrète à la relation générale interrogée, sans généraliser abusivement.'),
-    step('intro.terms', 'sujet', ['intro.sceneAnalysis'], 'Déterminer les notions et l’opérateur exact, distinguer les sens et les niveaux ; ne pas inventer une opposition entre propositions compatibles.'),
+    step('intro.terms', 'sujet', ['intro.sceneAnalysis'], 'Déterminer effectivement les notions et l’opérateur exact, distinguer les sens et les niveaux ; annoncer leur définition ou poser une liste de questions ne les définit pas ; ne pas inventer une opposition entre propositions compatibles.'),
     step('intro.firstAnswerCost', 'openingComparison.aporia', ['intro.generalization', 'intro.terms'], 'Établir ensemble première réponse, raison et difficulté interne menaçant une exigence légitime.'),
     step('intro.secondAnswerCost', 'openingComparison.aporia', ['intro.firstAnswerCost'], 'Établir ensemble réponse contraire, raison propre et difficulté interne ; conserver la légitimité des deux réponses.'),
     step('intro.problem', 'openingComparison.aporia.problematic', ['intro.firstAnswerCost', 'intro.secondAnswerCost'], 'Formuler une seule question reliant les deux apories, fidèle au sujet et sans solution anticipée ni demande de conciliation.'),
@@ -54,14 +54,14 @@ export const OPERATION_CONTRACT = {
     step('II.gain', 'argumentPreparation.II.gain', ['II.defendAnswer'], 'Établir ce que cette réponse permet effectivement de comprendre.')
   ],
   'II.3': [
-    step('II.deriveLimit', 'argumentPreparation.II.limit', ['II.defendAnswer', 'II.gain'], 'Dériver la limite propre de la réponse telle qu’elle vient d’être défendue, sans objection extérieure plaquée.'),
+    step('II.deriveLimit', 'argumentPreparation.II.limit', ['II.defendAnswer', 'II.gain'], 'Dériver la limite propre de la réponse telle qu’elle vient d’être défendue, sans objection extérieure plaquée ; vérifier qu’elle ne repose pas sur une conséquence que cette réponse peut refuser sans se contredire.'),
     step('II.stateLimit', 'argumentPreparation.II.limit', ['II.deriveLimit'], 'Formuler son coût tout en maintenant ses acquis.')
   ],
   'transitionII-III': [step('transitionII-III.question', 'argumentPreparation.II.transition', ['I.stateLimit', 'II.stateLimit'], 'Poser une question ouverte sur les deux difficultés et leur présupposé éventuel, sans dévoiler l’opération choisie.')],
   'III.1': [
     step('III.preserveI', 'argumentPreparation.I.gain', ['I.gain'], 'Reprendre précisément le premier acquis à préserver.'),
     step('III.preserveII', 'argumentPreparation.II.gain', ['II.gain'], 'Reprendre précisément le second acquis à préserver.'),
-    step('III.commonDifficulty', 'resolutionPreparation.selected.transformedDifficulty', ['III.preserveI', 'III.preserveII', 'transitionII-III.question'], 'Établir le cadrage qui rendait ces acquis incompatibles et ce que la candidate retenue doit transformer.')
+    step('III.commonDifficulty', 'resolutionPreparation.selected.transformedDifficulty', ['III.preserveI', 'III.preserveII', 'transitionII-III.question'], 'Établir la difficulté encore réelle et le présupposé éventuel à transformer ; vérifier si les acquis sont incompatibles ou seulement tenus pour tels. Leur compatibilité n’impose ni contradiction à maintenir ni compromis à fabriquer.')
   ],
   'III.2': [
     step('III.operation', 'resolutionPreparation.selected.reasoningSteps', ['III.commonDifficulty'], 'Accomplir les étapes concrètes de la candidate sélectionnée ; ne pas seulement nommer sa matrice.'),
@@ -72,7 +72,7 @@ export const OPERATION_CONTRACT = {
     step('III.replyObjection', 'resolutionPreparation.selected.responseToObjection', ['III.objection'], 'Répondre sur le point attaqué et reconnaître ce qui résiste ; ne pas prétendre lever l’objection par une procédure qui ne la traite pas.')
   ],
   'III.3': [
-    step('III.answer', 'resolutionPreparation.selected.answerToSubject', ['III.treatFirstDifficulty', 'III.treatSecondDifficulty', 'III.replyObjection'], 'Déduire la réponse au libellé exact ; ne pas le restreindre silencieusement.'),
+    step('III.answer', 'resolutionPreparation.selected.answerToSubject', ['III.treatFirstDifficulty', 'III.treatSecondDifficulty', 'III.replyObjection'], 'Déduire la réponse au libellé exact ; ne pas le restreindre silencieusement. Si une distinction lève une équivoque, répondre nettement avec cette distinction, plutôt que conclure oui et non à deux questions différentes.'),
     step('III.scopeCondition', 'resolutionPreparation.selected.conditions', ['III.answer'], 'Préciser la portée, les conditions et le coût établis par l’épreuve.'),
     step('III.remainder', 'resolutionPreparation.selected.remainder', ['III.scopeCondition', 'III.replyObjection'], 'Déduire un reste déterminé de cette opération et de son coût, non des incertitudes générales.')
   ],
