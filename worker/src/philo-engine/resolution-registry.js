@@ -49,7 +49,7 @@ export const RESOLUTION_FORMS = [
   {
     id: 'consentement-contradiction',
     name: 'Consentement à la contradiction',
-    operation: 'Établir les exigences et leurs raisons ; examiner les tentatives pertinentes de dépassement ; justifier le maintien de la tension ; préciser une manière de penser ou d’agir qui assume effectivement les deux déterminations.',
-    residualRisk: 'Contradiction maintenue et engagement nécessaire, sans prétendre l’avoir supprimée.'
+    operation: 'Établir les exigences et leurs raisons ; formuler précisément ce qui reste incompatible sous le même rapport, au même moment et dans le même sens, ou quelles exigences pratiques ne peuvent être satisfaites ensemble. Tester d’abord si une distinction de sens, de niveau ou de relation lève la difficulté. Si elle la lève, ne pas retenir cette forme. Sinon examiner les tentatives pertinentes de dépassement, justifier leur insuffisance et préciser une manière de penser ou d’agir qui assume effectivement les deux déterminations.',
+    residualRisk: 'Tension irréductible maintenue et engagement nécessaire, sans prétendre l’avoir supprimée. Une différence entre constat et jugement, ou une simple vigilance à poursuivre, ne démontre pas cette irréductibilité.'
   }
 ];
