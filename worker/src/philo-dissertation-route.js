@@ -2,7 +2,7 @@ import { buildPhiloGenerationContext } from './philo-dissertation-generator.js';
 import { auditPhiloCopySentences } from './philo-sentence-audit.js';
 import {
   COPY20_STAGE_ORDER,
-  getCopy20SentenceFunctions,
+  getCopy20ArgumentFunctions,
   reconstructCopy20Dissertation,
   validateCopy20Annotations
 } from './philo-engine/copy20-functions.js';
@@ -48,7 +48,7 @@ function buildCopy20OutputSchema() {
     'contraryDifficulty',
     'problematic'
   ].map((field) => [field, { type: 'string' }]));
-  const copy20Functions = getCopy20SentenceFunctions();
+  const copy20Functions = getCopy20ArgumentFunctions();
   const annotations = Object.fromEntries(COPY20_STAGE_ORDER.map((stage) => [
     stage,
     {
@@ -58,7 +58,8 @@ function buildCopy20OutputSchema() {
         fonction: {
           type: 'string',
           enum: copy20Functions[stage]
-        }
+        },
+        operation: { type: 'string' }
       })
     }
   ]));
@@ -134,7 +135,7 @@ function validateOpeningComparison(comparison) {
 
 function hasExplicitFictionalOpening(phrases) {
   return phrases.some((entry) =>
-    entry.fonction === 'La scène d’ouverture' &&
+    entry.fonction === 'scène d’ouverture' &&
     /\b(?:expérience de pensée|cas fictif|situation fictive|imaginons|supposons)\b/iu
       .test(entry.phrase)
   );
@@ -268,7 +269,7 @@ export async function generatePhilosophicalDissertation(sujet, env) {
 
   return {
     copie,
-    phrases: copy20Audit.phrases,
+    phrases: copy20Audit.phrases.map(({ phrase, fonction }) => ({ phrase, fonction })),
     audit: {
       ...auditPhiloCopySentences(copie),
       copy20: {

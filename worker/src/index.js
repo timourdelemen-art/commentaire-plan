@@ -553,7 +553,7 @@ export default {
                     ? error.message
                     : error?.message === "L’ouverture doit être explicitement présentée comme une expérience de pensée ou un cas fictif."
                       ? error.message
-                      : "Le moteur IA ne répond pas.";
+                    : "Le moteur IA ne répond pas.";
         const errorResponse = { ok: false, error: message };
         if (error?.message === "Le moteur IA a refusé la génération." &&
             error.diagnostic) {

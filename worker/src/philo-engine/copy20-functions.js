@@ -72,21 +72,45 @@ export function getCopy20SentenceFunctions() {
   );
 }
 
-const COPY20_STAGE_HEADINGS = {
-  introduction: 'INTRODUCTION',
-  partieI: 'I. Partie I',
-  'I.1': 'I.1 Installer',
-  'I.2': 'I.2 Renforcer',
-  'I.3': 'I.3 Limite',
-  partieII: 'II. Partie II',
-  'II.1': 'II.1 Nouvelle exigence',
-  'II.2': 'II.2 Nouvelle réponse',
-  'II.3': 'II.3 Sa limite',
-  'III.1': 'III.1 Revenir au problème',
-  'III.2': 'III.2 L’opération',
-  'III.3': 'III.3 Stabiliser la réponse',
-  conclusion: 'CONCLUSION'
+const COPY20_ARGUMENT_FUNCTIONS_BY_STAGE = {
+  introduction: [
+    'scène d’ouverture',
+    'analyse de la scène',
+    'analyse des termes',
+    'première réponse',
+    'réponse contraire',
+    'problématique',
+    'annonce du parcours'
+  ],
+  partieI: ['thèse directrice'],
+  'I.1': ['réponse directrice', 'raison', 'exemple analysé'],
+  'I.2': ['argument de référence', 'exemple analysé', 'conséquence', 'développement de l’argument'],
+  'I.3': ['limite interne : dérivation', 'formulation de la limite'],
+  'transitionI-II': ['question de transition'],
+  partieII: ['thèse contraire'],
+  'II.1': ['exigence nouvelle', 'justification de l’exigence'],
+  'II.2': ['argument contraire', 'argument de référence', 'exemple analysé', 'conséquence'],
+  'II.3': ['limite interne : dérivation', 'formulation de la limite'],
+  'transitionII-III': ['question de transition'],
+  'III.1': ['acquis à préserver', 'problème commun'],
+  'III.2': [
+    'opération',
+    'raison de l’opération',
+    'exemple analysé',
+    'mise à l’épreuve',
+    'objection',
+    'réponse à l’objection',
+    'conséquence'
+  ],
+  'III.3': ['réponse stabilisée', 'portée et condition', 'reste'],
+  conclusion: ['réponse au sujet', 'retour à la scène', 'question nouvelle']
 };
+
+export function getCopy20ArgumentFunctions() {
+  return Object.fromEntries(
+    COPY20_STAGE_ORDER.map((stage) => [stage, [...COPY20_ARGUMENT_FUNCTIONS_BY_STAGE[stage]]])
+  );
+}
 
 export function reconstructCopy20Dissertation(stagedPhrases) {
   const textFor = (stage) => {
@@ -97,27 +121,10 @@ export function reconstructCopy20Dissertation(stagedPhrases) {
       .map((entry) => entry.phrase)
       .join(' ');
   };
-  const headingBlock = (stage) =>
-    `${COPY20_STAGE_HEADINGS[stage]}\n\n${textFor(stage)}`;
-
-  return [
-    headingBlock('introduction'),
-    headingBlock('partieI'),
-    headingBlock('I.1'),
-    headingBlock('I.2'),
-    headingBlock('I.3'),
-    textFor('transitionI-II'),
-    headingBlock('partieII'),
-    headingBlock('II.1'),
-    headingBlock('II.2'),
-    headingBlock('II.3'),
-    textFor('transitionII-III'),
-    'III. Partie III',
-    headingBlock('III.1'),
-    headingBlock('III.2'),
-    headingBlock('III.3'),
-    headingBlock('conclusion')
-  ].join('\n\n');
+  return COPY20_STAGE_ORDER
+    .map(textFor)
+    .filter(Boolean)
+    .join('\n\n');
 }
 
 function sentenceList(copy) {
@@ -168,18 +175,24 @@ export function validateCopy20Annotations(copy, stagedPhrases, { compareText = t
 
     for (const entry of entries) {
       if (!entry || typeof entry !== 'object' || Array.isArray(entry) ||
-          Object.keys(entry).length !== 2 ||
+          Object.keys(entry).length !== 3 ||
           typeof entry.phrase !== 'string' || !entry.phrase.trim() ||
           entry.phrase !== entry.phrase.trim() ||
           /[\r\n]/u.test(entry.phrase) ||
-          typeof entry.fonction !== 'string') {
-        problems.push(`Une annotation de l’étape ${stage} n’a pas le format {phrase, fonction}.`);
+          typeof entry.fonction !== 'string' ||
+          typeof entry.operation !== 'string' ||
+          !entry.operation.trim()) {
+        problems.push(`Une annotation de l’étape ${stage} n’a pas le format {phrase, fonction, operation}.`);
         continue;
       }
-      if (!COPY20_FUNCTIONS_BY_STAGE[stage].includes(entry.fonction)) {
+      if (!COPY20_ARGUMENT_FUNCTIONS_BY_STAGE[stage].includes(entry.fonction)) {
         problems.push(`Fonction COPY20 non autorisée pour l’étape ${stage}.`);
       }
-      phrases.push({ phrase: entry.phrase, fonction: entry.fonction });
+      phrases.push({
+        phrase: entry.phrase,
+        fonction: entry.fonction,
+        operation: entry.operation
+      });
     }
   }
 
