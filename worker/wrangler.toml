@@ -2,6 +2,10 @@ name = "atelier-commentaire-ia"
 main = "src/index.js"
 compatibility_date = "2026-10-02"
 
+# Une génération peut demander plusieurs minutes ; la page garde 15 s de marge.
+[vars]
+DISSERTATION_OPENAI_TIMEOUT_MS = "180000"
+
 # Ne jamais placer la clé OpenAI ici.
 # Dans Cloudflare, conserver OPENAI_API_KEY comme Secret.
 # OPENAI_MODEL est facultatif : le Worker utilise gpt-5-mini par défaut.

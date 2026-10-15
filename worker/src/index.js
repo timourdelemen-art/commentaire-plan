@@ -539,7 +539,9 @@ export default {
       try {
         dissertation = await generatePhilosophicalDissertation(sujet, env);
       } catch (error) {
-        const message = error?.message === "Le moteur IA a refusé la génération."
+        const message = ["openai_timeout", "invalid_timeout_configuration"].includes(error?.diagnostic?.code)
+          ? error.message
+          : error?.message === "Le moteur IA a refusé la génération."
           ? "Le moteur IA a refusé la génération."
           : error?.message === "La réponse du modèle est incomplète : la limite de tokens de sortie a été atteinte."
             ? error.message
@@ -555,8 +557,7 @@ export default {
                       ? error.message
                     : "Le moteur IA ne répond pas.";
         const errorResponse = { ok: false, error: message };
-        if (error?.message === "Le moteur IA a refusé la génération." &&
-            error.diagnostic) {
+        if (error?.diagnostic) {
           errorResponse.diagnostic = error.diagnostic;
         }
         return json(errorResponse,502,origin);
