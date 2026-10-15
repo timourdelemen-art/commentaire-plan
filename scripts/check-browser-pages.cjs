@@ -5,7 +5,7 @@ const path = require('node:path');
 const http = require('node:http');
 const {chromium} = require('playwright');
 const root = path.resolve(process.argv[2] || '.');
-const pages = ['index.html', 'philosophie.html', 'hlp-annales.html', 'bac.html', 'brevet.html', 'hlp.html'];
+const pages = ['index.html', 'philosophie.html', 'hlp-annales.html', 'bac.html', 'brevet.html', 'hlp.html', 'philosophie-creation-copie-ia.html'];
 const mime = {'.html':'text/html; charset=utf-8','.js':'text/javascript','.css':'text/css','.svg':'image/svg+xml','.json':'application/json','.png':'image/png','.jpg':'image/jpeg','.woff2':'font/woff2'};
 const server = http.createServer((req,res) => {
   const pathname = decodeURIComponent(new URL(req.url,'http://localhost').pathname);
@@ -27,6 +27,8 @@ const server = http.createServer((req,res) => {
     for(const name of pages){
       const page=await context.newPage();
       const errors=[];
+      let generationRequests=0;
+      page.on('request',request=>{if(new URL(request.url()).pathname==='/api/generate-dissertation')generationRequests++;});
       page.on('pageerror',e=>errors.push(e.message));
       const response=await page.goto(base+name,{waitUntil:'domcontentloaded'});
       const result=await page.evaluate(()=>({
@@ -35,7 +37,14 @@ const server = http.createServer((req,res) => {
         overflow:document.documentElement.scrollWidth-innerWidth,
         invalidLinks:[...document.querySelectorAll('a[href]')].filter(a=>['null','undefined','#'].includes(a.getAttribute('href'))).length
       }));
-      const bad=!response?.ok()||!result.h1||result.body<150||result.overflow>12||result.invalidLinks>0||errors.length>0;
+      let pauseInvalid=false;
+      if(name==='philosophie-creation-copie-ia.html'){
+        pauseInvalid=await page.locator('.pause-main button, .pause-main textarea, .pause-main input').count()>0 ||
+          !await page.locator('h1').innerText().then(text=>text.includes('en pause'));
+        await page.getByRole('link',{name:'Consulter les ressources de philosophie'}).click();
+        pauseInvalid=pauseInvalid||!page.url().endsWith('/philosophie.html')||generationRequests>0;
+      }
+      const bad=!response?.ok()||!result.h1||result.body<150||result.overflow>12||result.invalidLinks>0||errors.length>0||pauseInvalid;
       if(bad){failures++;console.error(JSON.stringify({name,width,status:response?.status(),...result,errors:errors.slice(0,3)}));}
       else console.log('OK',width,name);
       await page.close();

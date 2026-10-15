@@ -442,13 +442,13 @@ async function requestWorkerGeneration(
       },
       body: JSON.stringify({ sujet })
     }
-  ), { OPENAI_API_KEY: 'test-key' });
+  ), { OPENAI_API_KEY: 'test-key', DISSERTATION_GENERATION_ENABLED: 'true' });
 }
 
 try {
   const dissertation = await generatePhilosophicalDissertation(
     'Peut-on être libre sans être responsable ?',
-    { OPENAI_API_KEY: 'test-key' }
+    { OPENAI_API_KEY: 'test-key', DISSERTATION_GENERATION_ENABLED: 'true' }
   );
   assert.equal(dissertation.copie, copy.trim());
   assert.equal(dissertation.phrases.length, COPY20_STAGE_ORDER.length);
@@ -542,7 +542,7 @@ try {
       },
       body: JSON.stringify({ sujet: 'Peut-on être libre sans être responsable ?' })
     }
-  ), { OPENAI_API_KEY: 'test-key' });
+  ), { OPENAI_API_KEY: 'test-key', DISSERTATION_GENERATION_ENABLED: 'true' });
   const body = await response.json();
   assert.equal(response.status, 200);
   assert.equal(body.ok, true);
@@ -737,7 +737,7 @@ try {
       },
       body: JSON.stringify({ sujet: 'Peut-on être libre sans être responsable ?' })
     }
-  ), { OPENAI_API_KEY: 'test-key' });
+  ), { OPENAI_API_KEY: 'test-key', DISSERTATION_GENERATION_ENABLED: 'true' });
   const invalidBody = await invalidResponse.json();
   assert.equal(invalidResponse.status, 502);
   assert.match(invalidBody.error, /annotations COPY20 ne correspondent pas/);
@@ -759,7 +759,7 @@ try {
       },
       body: JSON.stringify({ sujet: 'Peut-on être libre sans être responsable ?' })
     }
-  ), { OPENAI_API_KEY: 'test-key' });
+  ), { OPENAI_API_KEY: 'test-key', DISSERTATION_GENERATION_ENABLED: 'true' });
   const invalidComparisonBody = await invalidComparisonResponse.json();
   assert.equal(invalidComparisonResponse.status, 502);
   assert.match(invalidComparisonBody.error, /comparaison des trois situations/);
@@ -784,7 +784,7 @@ try {
       },
       body: JSON.stringify({ sujet: 'Peut-on être libre sans être responsable ?' })
     }
-  ), { OPENAI_API_KEY: 'test-key' });
+  ), { OPENAI_API_KEY: 'test-key', DISSERTATION_GENERATION_ENABLED: 'true' });
   const nonFictionalOpeningBody = await nonFictionalOpeningResponse.json();
   assert.equal(nonFictionalOpeningResponse.status, 502);
   assert.match(nonFictionalOpeningBody.error, /expérience de pensée ou un cas fictif/);

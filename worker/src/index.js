@@ -483,6 +483,11 @@ export default {
       return json({ ok: false, error: "Origine non autorisée." }, 403, origin);
     }
 
+    // Fermé par défaut : aucun appel OpenAI, même depuis une ancienne page.
+    if (url.pathname === "/api/generate-dissertation" && env.DISSERTATION_GENERATION_ENABLED !== "true") {
+      return json({ ok: false, code: "dissertation_disabled", error: "La génération de dissertations est actuellement désactivée." }, 503, origin);
+    }
+
     // Garde-fou simple contre les abus : au plus RATE_MAX demandes par adresse et par fenêtre,
     // dans chaque instance du worker (mémoire locale : imparfait, mais coupe les boucles automatiques).
     const ip = request.headers.get("CF-Connecting-IP") || "?";

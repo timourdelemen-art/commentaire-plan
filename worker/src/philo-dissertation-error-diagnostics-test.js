@@ -42,7 +42,7 @@ try {
       },
       body: JSON.stringify({ sujet })
     }
-  ), { OPENAI_API_KEY: 'test-openai-api-key' });
+  ), { OPENAI_API_KEY: 'test-openai-api-key', DISSERTATION_GENERATION_ENABLED: 'true' });
   const body = await response.json();
 
   assert.equal(response.status, 502);
@@ -79,7 +79,7 @@ try {
       },
       body: JSON.stringify({ sujet })
     }
-  ), { OPENAI_API_KEY: 'test-openai-api-key' });
+  ), { OPENAI_API_KEY: 'test-openai-api-key', DISSERTATION_GENERATION_ENABLED: 'true' });
   const secondBody = await secondResponse.json();
   assert.deepEqual(secondBody.diagnostic, {
     status: 429,
