@@ -6,6 +6,7 @@ import {
   reconstructCopy20Dissertation,
   validateCopy20Annotations
 } from './philo-engine/copy20-functions.js';
+import { ARGUMENT_PREPARATION, auditOperationCoverage, auditPreparationLinks, operationIdsFor } from './philo-engine/operation-contract.js';
 import { RESOLUTION_FORMS } from './philo-engine/resolution-registry.js';
 
 const OPENING_ASSESSMENT_DIMENSIONS = [
@@ -52,6 +53,7 @@ function buildCopy20OutputSchema() {
   const copy20Functions = getCopy20ArgumentFunctions();
   const candidateIds = ['candidate-1', 'candidate-2', 'candidate-3'];
   const resolutionCandidateProperties = {
+    basis: { type: 'array', items: { type: 'string', enum: Object.keys(ARGUMENT_PREPARATION) } },
     forms: {
       type: 'array',
       items: {
@@ -84,7 +86,8 @@ function buildCopy20OutputSchema() {
           type: 'string',
           enum: copy20Functions[stage]
         },
-        operation: { type: 'string' }
+        operation: { type: 'string' },
+        operations: { type: 'array', items: { type: 'string', enum: operationIdsFor(stage) } }
       })
     }
   ]));
@@ -103,6 +106,9 @@ function buildCopy20OutputSchema() {
       },
       selectedCandidateId: { type: 'string' }
     }),
+    argumentPreparation: strictObject(Object.fromEntries(
+      Object.entries(ARGUMENT_PREPARATION).map(([id, description]) => [id, { type: 'string', description }])
+    )),
     resolutionPreparation: strictObject({
       candidates: strictObject(Object.fromEntries(
         candidateIds.map((id) => [id, strictObject(resolutionCandidateProperties)])
@@ -316,7 +322,9 @@ export async function generatePhilosophicalDissertation(sujet, env) {
         ok: true,
         annotationCount: copy20Audit.annotationCount,
         sentenceCount: copy20Audit.sentenceCount,
-        philosophicalNecessityEvaluated: false
+        philosophicalNecessityEvaluated: false,
+        operationCoverage: auditOperationCoverage(generated.phrases),
+        preparationLinks: auditPreparationLinks(generated, sujet)
       }
     }
   };

@@ -1,22 +1,7 @@
+import { OPERATION_CONTRACT } from './operation-contract.js';
 import COPY20_DATA from '../../../scripts/copies20-data.json' with { type: 'json' };
 
-export const COPY20_STAGE_ORDER = [
-  'introduction',
-  'partieI',
-  'I.1',
-  'I.2',
-  'I.3',
-  'transitionI-II',
-  'partieII',
-  'II.1',
-  'II.2',
-  'II.3',
-  'transitionII-III',
-  'III.1',
-  'III.2',
-  'III.3',
-  'conclusion'
-];
+export const COPY20_STAGE_ORDER = Object.keys(OPERATION_CONTRACT);
 
 function isTransition(functionLabel) {
   return /^(?:la\s+)?transition(?:\s|·|$)/i.test(functionLabel);
@@ -189,14 +174,15 @@ export function validateCopy20Annotations(copy, stagedPhrases, { compareText = t
   const phrases = [];
   for (const stage of COPY20_STAGE_ORDER) {
     const entries = stagedPhrases?.[stage];
-    if (!Array.isArray(entries) || entries.length === 0) {
+    if (!Array.isArray(entries) || (entries.length === 0 && !['partieI', 'partieII'].includes(stage))) {
       problems.push(`La liste des phrases de l’étape ${stage} est absente.`);
       continue;
     }
 
     for (const entry of entries) {
       if (!entry || typeof entry !== 'object' || Array.isArray(entry) ||
-          Object.keys(entry).length !== 3 ||
+          ![3, 4].includes(Object.keys(entry).length) ||
+          (Object.keys(entry).length === 4 && !Object.hasOwn(entry, 'operations')) ||
           typeof entry.phrase !== 'string' || !entry.phrase.trim() ||
           entry.phrase !== entry.phrase.trim() ||
           /[\r\n]/u.test(entry.phrase) ||
@@ -212,7 +198,8 @@ export function validateCopy20Annotations(copy, stagedPhrases, { compareText = t
       phrases.push({
         phrase: entry.phrase,
         fonction: entry.fonction,
-        operation: entry.operation
+        operation: entry.operation,
+        ...(Object.hasOwn(entry, 'operations') ? { operations: entry.operations } : {})
       });
     }
   }

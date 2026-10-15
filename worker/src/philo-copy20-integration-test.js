@@ -11,6 +11,8 @@ import {
   validateCopy20Annotations
 } from './philo-engine/copy20-functions.js';
 
+import { ARGUMENT_PREPARATION, OPERATION_CONTRACT, OPERATION_IDS, operationIdsFor, auditOperationCoverage, auditPreparationLinks, preparationFor } from './philo-engine/operation-contract.js';
+
 const historicalFunctionsByStage = getCopy20SentenceFunctions();
 const argumentFunctionsByStage = getCopy20ArgumentFunctions();
 const sourceFunctions = new Set(
@@ -53,7 +55,7 @@ assert.match(writingRules.copy20Format, /sans propriété copie/);
 assert.match(writingRules.copy20Format, /le Worker reconstruit la copie depuis les seules phrases/);
 assert.match(writingRules.copy20Format, /aucun titre, numéro de partie ou préfixe de fonction/);
 assert.match(writingRules.copy20Format, /fonction et operation/);
-assert.match(writingRules.copy20Protocol, /opération intellectuelle particulière/);
+assert.match(writingRules.copy20Format, /opération intellectuelle particulière/);
 assert.match(writingRules.copy20Protocol, /AVANT LES PHRASES/);
 assert.match(writingRules.copy20Protocol, /resolutionPreparation/);
 assert.match(writingRules.copy20Protocol, /argument de référence précisément attribué/);
@@ -61,11 +63,12 @@ assert.match(writingRules.copy20Protocol, /difficulté qui lui est interne/);
 assert.match(writingRules.copy20Protocol, /de véritables questions ouvertes auxquelles la partie suivante répond/);
 assert.match(writingRules.copy20Protocol, /toute reprise lexicale annotée doit se lire dans le texte/);
 assert.match(writingRules.copy20Protocol, /candidate sélectionnée/);
-for (const subpart of ['I.1', 'I.2', 'I.3', 'II.1', 'II.2', 'II.3', 'III.1', 'III.2', 'III.3']) {
-  assert.match(writingRules.copy20Protocol, new RegExp(`${subpart} — Départ`));
+assert.deepEqual(Object.keys(OPERATION_CONTRACT), COPY20_STAGE_ORDER);
+for (const operation of Object.values(OPERATION_CONTRACT).flat()) {
+  assert.equal(typeof operation.source, 'string');
+  for (const dependency of operation.uses) assert.ok(OPERATION_IDS.includes(dependency));
 }
-assert.match(writingRules.copy20Protocol, /TRANSITION I-II — Hors des parties/);
-assert.match(writingRules.copy20Protocol, /TRANSITION II-III — Hors des parties/);
+assert.deepEqual(Object.keys(writingRules.argumentPreparation), Object.keys(ARGUMENT_PREPARATION));
 assert.match(generationContext.politique_dissertation, /exactement trois situations/);
 assert.match(generationContext.politique_dissertation, /deux exigences/);
 assert.match(generationContext.politique_dissertation, /redaction\.copy20Protocol/);
@@ -86,10 +89,38 @@ const stagedPhrases = Object.fromEntries(COPY20_STAGE_ORDER.map((stage, index) =
   [{
     phrase: phraseForStage(stage, index),
     fonction: stage === 'introduction' ? openingFunction : argumentFunctionsByStage[stage][0],
-    operation: `Opération argumentative propre au passage de l’étape ${stage}.`
+    operation: `Opération argumentative propre au passage de l’étape ${stage}.`,
+    operations: operationIdsFor(stage)
   }]
 ]));
 const copy = reconstructCopy20Dissertation(stagedPhrases);
+
+// Ces fixtures contrôlent des liens, pas la qualité des phrases artificielles.
+assert.equal(auditOperationCoverage(stagedPhrases).complete, true);
+const omittedAnalysis = structuredClone(stagedPhrases);
+omittedAnalysis.introduction[0].operations = omittedAnalysis.introduction[0].operations
+  .filter(id => id !== 'intro.sceneAnalysis');
+assert.deepEqual(auditOperationCoverage(omittedAnalysis).missing, ['intro.sceneAnalysis']);
+assert.equal(validateCopy20Annotations(reconstructCopy20Dissertation(omittedAnalysis),
+  omittedAnalysis, { compareText: false }).ok, true, 'Une omission déclarée ne supprime pas la copie.');
+const invalidLink = structuredClone(stagedPhrases);
+invalidLink['I.2'][0].operations = ['III.operation'];
+assert.equal(auditOperationCoverage(invalidLink).invalidReferences, 1);
+const sharedOperation = structuredClone(stagedPhrases);
+sharedOperation['I.2'].push({ ...sharedOperation['I.2'][0], phrase: 'Un autre appui.' });
+assert.equal(auditOperationCoverage(sharedOperation).complete, true,
+  'Une opération peut être portée par plusieurs passages.');
+const noDuplicateThesis = structuredClone(stagedPhrases);
+noDuplicateThesis['I.1'][0].operations.push('I.answer');
+noDuplicateThesis['II.1'][0].operations.push('II.defendAnswer');
+noDuplicateThesis.partieI = [];
+noDuplicateThesis.partieII = [];
+assert.equal(validateCopy20Annotations(reconstructCopy20Dissertation(noDuplicateThesis),
+  noDuplicateThesis, { compareText: false }).ok, true);
+assert.equal(auditOperationCoverage(noDuplicateThesis).complete, true);
+assert.deepEqual(reconstructCopy20Dissertation(noDuplicateThesis).split('\n\n').map(g => g.split('\n').length),
+  [1, 3, 1, 3, 1, 3, 1]);
+
 
 const validAnnotations = validateCopy20Annotations(copy, stagedPhrases);
 assert.equal(validAnnotations.ok, true, validAnnotations.problems.join('; '));
@@ -316,6 +347,7 @@ const validOpeningComparison = {
   selectedCandidateId: 'limit-case'
 };
 const validResolutionCandidate = (forms, answer) => ({
+  basis: ['I.gain', 'I.limit', 'II.gain', 'II.limit'],
   forms,
   answerToSubject: answer,
   transformedDifficulty: 'Transformer le présupposé qui rend les deux difficultés incompatibles.',
@@ -353,7 +385,31 @@ const validResolutionPreparation = {
   comparisonAgainstCompetitor: 'Le candidat 1 sépare les niveaux mais explique moins leur transformation.'
 };
 function generatedOutput(openingComparison, phrases, resolutionPreparation = validResolutionPreparation) {
-  return { openingComparison, resolutionPreparation, phrases };
+  return { openingComparison, argumentPreparation: Object.fromEntries(
+    Object.keys(ARGUMENT_PREPARATION).map(id => [id, `Proposition préparée pour ${id}.`])
+  ), resolutionPreparation, phrases };
+}
+const linkedPreparation = generatedOutput(validOpeningComparison, stagedPhrases);
+assert.equal(auditPreparationLinks(linkedPreparation, 'Sujet').complete, true);
+const danglingPreparation = structuredClone(linkedPreparation);
+delete danglingPreparation.argumentPreparation['I.limit'];
+assert.ok(auditPreparationLinks(danglingPreparation, 'Sujet').missingSources.includes('I.deriveLimit'));
+danglingPreparation.resolutionPreparation.candidates['candidate-1'].basis = ['unknown'];
+assert.equal(auditPreparationLinks(danglingPreparation, 'Sujet').invalidBasisReferences, 1);
+assert.equal(auditPreparationLinks(danglingPreparation, 'Sujet').candidatesWithoutBothLimits, 1);
+// Deux sujets, un même lien de contrat vers une opération propre au sujet.
+for (const [sujet, gain, operation] of [
+  ['La nature a-t-elle besoin de nous ?', 'Les processus ont une dynamique propre.',
+    'Intervenir pour enlever un obstacle à l’autonomie, puis pouvoir se retirer.'],
+  ['Revient-il principalement à l’État de lutter contre l’injustice ?', 'Les droits exigent une garantie publique.',
+    'Distinguer la garantie des droits du monopole du jugement sur leur justice.']
+]) {
+  const sample = structuredClone(linkedPreparation);
+  sample.argumentPreparation['I.gain'] = gain;
+  sample.resolutionPreparation.candidates['candidate-2'].reasoningSteps = [operation];
+  assert.equal(preparationFor('argumentPreparation.I.gain', sample, sujet), gain);
+  assert.deepEqual(preparationFor('resolutionPreparation.selected.reasoningSteps', sample, sujet), [operation]);
+  assert.equal(auditPreparationLinks(sample, sujet).complete, true);
 }
 let nextGenerated = generatedOutput(validOpeningComparison, stagedPhrases);
 let nextOpenAIResponse = null;
@@ -420,10 +476,11 @@ try {
   assert.equal(Object.hasOwn(outputSchema.properties, 'copie'), false);
   assert.deepEqual(
     Object.keys(outputSchema.properties).sort(),
-    ['openingComparison', 'phrases', 'resolutionPreparation']
+    ['argumentPreparation', 'openingComparison', 'phrases', 'resolutionPreparation']
   );
   assert.deepEqual(Object.keys(outputSchema.properties), [
     'openingComparison',
+    'argumentPreparation',
     'resolutionPreparation',
     'phrases'
   ]);
@@ -461,8 +518,15 @@ try {
     const phraseSchema = outputSchema.properties.phrases.properties[stage].items;
     const functionSchema = phraseSchema.properties.fonction;
     assert.deepEqual(functionSchema.enum, argumentFunctionsByStage[stage]);
-    assert.deepEqual(phraseSchema.required, ['phrase', 'fonction', 'operation']);
+    assert.deepEqual(phraseSchema.required, ['phrase', 'fonction', 'operation', 'operations']);
   }
+  assert.deepEqual(outputSchema.properties.argumentPreparation.required, Object.keys(ARGUMENT_PREPARATION));
+  for (const stage of COPY20_STAGE_ORDER) {
+    assert.deepEqual(outputSchema.properties.phrases.properties[stage].items.properties.operations.items.enum,
+      operationIdsFor(stage));
+  }
+  assert.deepEqual(resolutionSchema.properties.candidates.properties['candidate-1'].properties.basis.items.enum,
+    Object.keys(ARGUMENT_PREPARATION));
   assert.equal(capturedPayload.max_output_tokens, 14000);
   assert.equal(capturedPayload.store, false);
   assert.equal(modelRequestCount, 1);
@@ -495,6 +559,8 @@ try {
   assert.equal(body.copie.includes(stagedPhrases['transitionII-III'][0].phrase), true);
   assert.equal(typeof body.audit.sentenceCount, 'number');
   assert.equal(body.audit.copy20.ok, true);
+  assert.equal(body.audit.copy20.operationCoverage.complete, true);
+  assert.equal(body.audit.copy20.preparationLinks.complete, true);
   assert.equal(body.phrases.every((entry) =>
     Object.keys(entry).length === 2 &&
     typeof entry.phrase === 'string' &&
