@@ -113,16 +113,37 @@ export function getCopy20ArgumentFunctions() {
 }
 
 export function reconstructCopy20Dissertation(stagedPhrases) {
-  const textFor = (stage) => {
+  const textFor = (...stages) => stages.flatMap((stage) => {
     const entries = stagedPhrases?.[stage];
     if (!Array.isArray(entries)) return '';
     return entries
       .filter((entry) => entry && typeof entry.phrase === 'string')
-      .map((entry) => entry.phrase)
-      .join(' ');
-  };
-  return COPY20_STAGE_ORDER
-    .map(textFor)
+      .map((entry) => entry.phrase);
+  }).join(' ');
+  const paragraphs = [
+    [textFor('introduction')],
+    [
+      textFor('partieI', 'I.1'),
+      textFor('I.2'),
+      textFor('I.3')
+    ],
+    [textFor('transitionI-II')],
+    [
+      textFor('partieII', 'II.1'),
+      textFor('II.2'),
+      textFor('II.3')
+    ],
+    [textFor('transitionII-III')],
+    [
+      textFor('III.1'),
+      textFor('III.2'),
+      textFor('III.3')
+    ],
+    [textFor('conclusion')]
+  ];
+
+  return paragraphs
+    .map((group) => group.filter(Boolean).join('\n'))
     .filter(Boolean)
     .join('\n\n');
 }

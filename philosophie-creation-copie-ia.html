@@ -4,30 +4,110 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Création de copie philosophique IA</title>
-<link rel="stylesheet" href="styles.css">
 <style>
-body.creation-page{min-height:100vh;margin:0;background:linear-gradient(rgba(0,0,20,.35),rgba(0,0,20,.75)),url('/images/creation-copie-officielle.webp.png') center/cover fixed;color:white}
-.creation-overlay{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:40px 20px;text-align:center}
-.generate-card{width:min(850px,90%);background:rgba(0,0,0,.4);backdrop-filter:blur(10px);padding:35px;border-radius:30px}
-.subject-box{width:100%;min-height:220px;font-size:1.3rem;padding:20px;border-radius:20px}
-button{margin-top:20px;padding:15px 35px;border-radius:30px}
-#resultat{white-space:pre-wrap;background:white;color:#111;padding:20px;border-radius:20px}
+*{box-sizing:border-box}
+body.creation-page{min-width:0;min-height:100vh;margin:0;background:#080916;color:#fff;font-family:Georgia,"Times New Roman",serif}
+.creation-main{min-height:100vh;padding:clamp(1.25rem,3vw,2.5rem) 1rem 3rem}
+.creation-header{margin:0 auto 1.25rem;text-align:center}
+.creation-header h1{margin:0;font-size:clamp(1.25rem,2.5vw,1.8rem);font-weight:500}
+.composition{position:relative;isolation:isolate;width:min(100%,1080px);aspect-ratio:3/2;margin:0 auto;overflow:hidden}
+.composition-art{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}
+.subject-label{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.subject-input{position:absolute;z-index:1;left:18.8%;top:73.6%;width:62.4%;height:10.2%;resize:none;overflow:auto;padding:.65em 1em;border:2px solid #eee;border-radius:999px;background:#12131b;box-shadow:inset 0 0 9px #fff8,0 0 12px #fff8;color:#fff;font:clamp(16px,1.7vw,21px)/1.3 Georgia,"Times New Roman",serif}
+.subject-input::placeholder{color:#dedde0;opacity:1}
+.generate-button{position:absolute;z-index:1;left:30%;top:84.3%;width:40%;height:10.2%;padding:.35em .7em;border:3px solid #f5f5f5;border-radius:18px;background:linear-gradient(180deg,#35353a,#111116 45%,#3c3c42);box-shadow:inset 0 0 8px #fff,0 0 15px #fff9;color:#fff;font:clamp(14px,1.45vw,18px)/1.2 Georgia,"Times New Roman",serif;text-shadow:0 1px 2px #000;cursor:pointer}
+.generate-button:hover:not(:disabled){background:linear-gradient(180deg,#55555b,#1d1d23 45%,#58585e)}
+.generate-button:disabled{cursor:wait;opacity:.78}
+.subject-input:focus-visible,.generate-button:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.generation-status{min-height:1.5em;max-width:880px;margin:1rem auto 0;text-align:center;font:1rem/1.5 system-ui,sans-serif}
+.result-panel{width:min(100%,880px);margin:2rem auto 0;padding:clamp(1.25rem,4vw,3rem);border:1px solid #d3d0c8;border-radius:12px;background:rgba(250,249,246,.98);box-shadow:0 12px 36px #0008;color:#222;font:22px/1.7 Georgia,"Times New Roman",serif;text-align:justify;text-align-last:left;hyphens:auto;overflow-wrap:anywhere}
+.result-panel[hidden]{display:none}
+.copy-group+.copy-group{margin-top:1.7em}
+.copy-paragraph{margin:0;text-indent:1.5em}
+@media(max-width:600px){
+  .creation-main{padding:1.25rem .5rem 2rem}
+  .creation-header{margin-bottom:1rem}
+  .composition{width:min(100%,450px);aspect-ratio:1/1}
+  .subject-input{left:3.5%;top:72%;width:93%;height:12%;padding:.55em .8em;border-radius:22px;font-size:16px}
+  .generate-button{left:20%;top:84%;width:60%;height:12%;padding:.25em .5em;border-radius:14px;font-size:14px}
+  .result-panel{margin-top:1.5rem;font-size:18px}
+  .copy-group+.copy-group{margin-top:1.45em}
+}
 </style>
 </head>
 <body class="creation-page">
-<main class="creation-overlay">
-<h1>Créer une copie philosophique guidée</h1>
-<p>Entrez votre sujet et laissez le moteur construire la dissertation.</p>
-<section class="generate-card">
-<label for="sujet">Votre sujet philosophique</label>
-<textarea id="sujet" class="subject-box" placeholder="Exemple : Peut-on être libre sans être responsable ?"></textarea>
-<button id="generer">Créer la copie</button>
-<pre id="resultat"></pre>
-</section>
+<main class="creation-main">
+  <header class="creation-header">
+    <h1>Créer une copie philosophique guidée</h1>
+  </header>
+  <section class="composition" aria-label="Générateur de dissertation philosophique">
+    <img class="composition-art" src="images/creation-copie-cosmique.png" alt="">
+    <label class="subject-label" for="sujet">Votre sujet philosophique</label>
+    <textarea id="sujet" class="subject-input" placeholder="Saisissez votre sujet philosophique…" rows="2"></textarea>
+    <button id="generer" class="generate-button" type="button" aria-controls="resultat">Créer la copie</button>
+  </section>
+  <p id="generation-status" class="generation-status" role="status" aria-live="polite"></p>
+  <section id="resultat" class="result-panel" lang="fr" aria-label="Dissertation générée" hidden></section>
 </main>
 <script>
 const ENDPOINT="https://atelier-commentaire-ia.timour-delemen.workers.dev/api/generate-dissertation";
-document.getElementById('generer').onclick=async()=>{const sujet=document.getElementById('sujet').value.trim();const out=document.getElementById('resultat');if(!sujet){out.textContent='Veuillez saisir un sujet.';return;}out.textContent='Génération en cours...';try{const r=await fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({sujet})});const d=await r.json();if(d.ok&&d.copie){out.textContent=d.copie;return;}const diagnostic=d.diagnostic||{};const status=Number.isInteger(diagnostic.status)&&diagnostic.status>=100&&diagnostic.status<=599?diagnostic.status:null;const code=typeof diagnostic.code==='string'&&/^[a-z][a-z0-9_]{0,63}$/.test(diagnostic.code)?diagnostic.code:null;const details=[status===null?'':`HTTP ${status}`,code||''].filter(Boolean).join(' · ');out.textContent=`${d.error||'Erreur'}${details?` (${details})`:''}`}catch(e){out.textContent=e.message}};
+const composition=document.querySelector(".composition");
+const subject=document.getElementById("sujet");
+const generateButton=document.getElementById("generer");
+const status=document.getElementById("generation-status");
+const result=document.getElementById("resultat");
+
+function renderCopy(copy){
+  result.replaceChildren();
+  for(const groupText of copy.split(/\n{2,}/u).filter(Boolean)){
+    const group=document.createElement("div");
+    group.className="copy-group";
+    for(const paragraphText of groupText.split(/\n/u).filter(Boolean)){
+      const paragraph=document.createElement("p");
+      paragraph.className="copy-paragraph";
+      paragraph.lang="fr";
+      paragraph.textContent=paragraphText;
+      group.append(paragraph);
+    }
+    result.append(group);
+  }
+  result.hidden=result.childElementCount===0;
+}
+
+generateButton.addEventListener("click",async()=>{
+  const sujet=subject.value.trim();
+  if(!sujet){
+    status.textContent="Saisissez un sujet philosophique.";
+    subject.focus();
+    return;
+  }
+  if(generateButton.disabled)return;
+
+  generateButton.disabled=true;
+  composition.setAttribute("aria-busy","true");
+  result.hidden=true;
+  result.replaceChildren();
+  status.textContent="Génération en cours…";
+  try{
+    const response=await fetch(ENDPOINT,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({sujet})});
+    const data=await response.json();
+    if(data?.ok&&typeof data.copie==="string"&&data.copie){
+      renderCopy(data.copie);
+      status.textContent="Copie générée.";
+      return;
+    }
+    const diagnostic=data?.diagnostic||{};
+    const diagnosticStatus=Number.isInteger(diagnostic.status)&&diagnostic.status>=100&&diagnostic.status<=599?diagnostic.status:null;
+    const code=typeof diagnostic.code==="string"&&/^[a-z][a-z0-9_]{0,63}$/.test(diagnostic.code)?diagnostic.code:null;
+    const details=[diagnosticStatus===null?"":`HTTP ${diagnosticStatus}`,code||""].filter(Boolean).join(" · ");
+    status.textContent=`${data?.error||"Erreur"}${details?` (${details})`:""}`;
+  }catch(error){
+    status.textContent=error instanceof Error?error.message:"Erreur de génération.";
+  }finally{
+    generateButton.disabled=false;
+    composition.removeAttribute("aria-busy");
+  }
+});
 </script>
 </body>
 </html>
