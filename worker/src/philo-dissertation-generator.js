@@ -32,10 +32,10 @@ export function buildPhiloGenerationContext(sujet) {
       'choisir la situation la plus féconde au regard des critères',
       'développer la situation comme expérience de pensée ou cas fictif',
       'construire une problématique conservant la tension',
-      'produire un plan dynamique nécessaire',
+      'préparer les arguments, acquis, limites et cibles de transition de I et II dans argumentPreparation',
       'construire une troisième partie comme opération de transformation',
       'conclure en conservant un reste problématique',
-      'auditer la nécessité des phrases'
+      'réviser la langue et la nécessité des passages sans perdre leurs opérations ni produire une seconde copie'
     ]
   };
 }
