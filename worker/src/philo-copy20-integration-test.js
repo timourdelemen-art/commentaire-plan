@@ -301,7 +301,10 @@ globalThis.fetch = async (input, requestOptions = {}) => {
   throw new Error(`URL inattendue dans le test : ${url}`);
 };
 
-async function requestWorkerGeneration(clientId) {
+async function requestWorkerGeneration(
+  clientId,
+  sujet = 'Peut-on être libre sans être responsable ?'
+) {
   return worker.fetch(new Request(
     'https://worker.example/api/generate-dissertation',
     {
@@ -311,7 +314,7 @@ async function requestWorkerGeneration(clientId) {
         'CF-Connecting-IP': clientId,
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify({ sujet: 'Peut-on être libre sans être responsable ?' })
+      body: JSON.stringify({ sujet })
     }
   ), { OPENAI_API_KEY: 'test-key' });
 }
@@ -452,14 +455,30 @@ try {
       operation: 'Dégager la difficulté qui subsiste lorsque la condition d’autonomie n’est pas satisfaite.'
     }
   ];
+  const technologyOpeningComparison = {
+    ...validOpeningComparison,
+    aporia: {
+      firstRequirement: 'La technique doit accroître les capacités réelles d’agir.',
+      firstResponse: 'La technique élargit les choix et les moyens disponibles.',
+      firstDifficulty: 'Mais les choix proposés peuvent dépendre de fins imposées.',
+      contraryRequirement: 'Les personnes doivent pouvoir décider des fins poursuivies.',
+      contraryResponse: 'La liberté exige de discuter les fins inscrites dans les outils.',
+      contraryDifficulty: 'Mais refuser les outils peut priver de capacités nouvelles.',
+      problematic: 'Comment la technique peut-elle accroître la liberté sans fixer seule ses fins ?'
+    }
+  };
   nextGenerated = {
-    openingComparison: validOpeningComparison,
+    openingComparison: technologyOpeningComparison,
     phrases: completeThirdPart
   };
-  const completeThirdPartResponse = await requestWorkerGeneration('copy20-test-complete-new-third-part');
+  const completeThirdPartResponse = await requestWorkerGeneration(
+    'copy20-test-complete-new-third-part',
+    'La technique nous rend-elle plus libres ?'
+  );
   const completeThirdPartBody = await completeThirdPartResponse.json();
   assert.equal(completeThirdPartResponse.status, 200);
   assert.equal(completeThirdPartBody.ok, true);
+  assert.equal(completeThirdPartBody.sujet, 'La technique nous rend-elle plus libres ?');
   assert.ok(completeThirdPartBody.copie.includes(completeThirdPart['III.1'][0].phrase));
   assert.ok(completeThirdPartBody.copie.includes(completeThirdPart['III.2'][1].phrase));
   assert.ok(completeThirdPartBody.copie.includes(completeThirdPart['III.3'][2].phrase));
