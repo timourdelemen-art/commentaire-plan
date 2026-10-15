@@ -41,12 +41,19 @@ assert.deepEqual(writingRules.sentenceFunctions, [
   'installer', 'justifier', 'distinguer', 'objecter', 'répondre', 'transformer', 'conclure'
 ]);
 assert.deepEqual(writingRules.copy20AnnotationStages, COPY20_STAGE_ORDER);
-assert.match(writingRules.copy20Format, /ne produisez pas de propriété copie/);
-assert.match(writingRules.copy20Format, /le Worker les ajoute à la reconstruction/);
+assert.match(writingRules.copy20Format, /sans propriété copie/);
+assert.match(writingRules.copy20Format, /le Worker reconstruit la copie à partir des seules phrases/);
+assert.match(writingRules.copy20Format, /aucun titre, numéro de partie ou préfixe de fonction/);
+assert.match(writingRules.copy20Protocol, /opération intellectuelle déterminée/);
+assert.match(writingRules.copy20Protocol, /argument de référence précisément attribué/);
+assert.match(writingRules.copy20Protocol, /découle de la justification elle-même/);
+assert.match(writingRules.copy20Protocol, /paragraphes rédigés sous forme de questions ouvertes/);
+assert.match(writingRules.copy20Protocol, /reprises annoncées existent réellement/);
+assert.match(writingRules.copy20Protocol, /ressources du Dictionnaire paradoxal/);
 assert.match(generationContext.politique_dissertation, /exactement trois situations/);
 assert.match(generationContext.politique_dissertation, /deux exigences/);
-assert.match(generationContext.politique_dissertation, /transition II-III/);
-assert.match(generationContext.politique_dissertation, /matrices de paradoxes du Dictionnaire paradoxal/);
+assert.match(generationContext.politique_dissertation, /redaction\.copy20Protocol/);
+assert.doesNotMatch(generationContext.politique_dissertation, /ANNOTATION DE NÉCESSITÉ|RÉSOLUTION ET RESTE/);
 
 const openingFunction = functionsByStage.introduction.find((label) =>
   label === 'La scène d’ouverture'
@@ -54,8 +61,8 @@ const openingFunction = functionsByStage.introduction.find((label) =>
 assert.ok(openingFunction, 'L’intitulé COPY20 exact de l’ouverture doit rester disponible.');
 function phraseForStage(stage, index) {
   if (stage === 'introduction') return 'Imaginons une expérience de pensée précise.';
-  if (stage === 'transitionI-II') return 'Mais cette réponse laisse une difficulté sans réponse.';
-  if (stage === 'transitionII-III') return 'Pourtant, cette objection ne règle pas encore la tension.';
+  if (stage === 'transitionI-II') return 'Mais cette réponse laisse une difficulté sans réponse : que devient alors cette exigence ?';
+  if (stage === 'transitionII-III') return 'Pourtant, que faut-il transformer pour préserver les deux acquis ?';
   if (stage === 'I.2') return `Phrase ${index + 1} : « mot exact » !`;
   return `Phrase ${index + 1}.`;
 }
@@ -126,41 +133,25 @@ assert.equal(
   'La comparaison textuelle reste active par défaut pour les autres parcours.'
 );
 
-const sectionHeadings = [
-  'INTRODUCTION',
-  'I. Partie I',
-  'II. Partie II',
-  'III. Partie III',
-  'CONCLUSION'
-];
-assert.ok(sectionHeadings.every((heading) => copy.includes(heading)));
-assert.deepEqual(
-  sectionHeadings.map((heading) => copy.indexOf(heading)),
-  [...sectionHeadings.map((heading) => copy.indexOf(heading))].sort((a, b) => a - b)
+assert.equal(copy.split('\n\n').length, COPY20_STAGE_ORDER.length);
+assert.doesNotMatch(
+  copy,
+  /(?:^|\n)(?:INTRODUCTION|CONCLUSION|I{1,3}(?:\.\d+)?(?:\s|$))/u,
+  'La copie finale ne contient pas de titres ni de numéros de partie.'
 );
-const subsectionHeadings = [
-  'I.1 Installer',
-  'I.2 Renforcer',
-  'I.3 Limite',
-  'II.1 Nouvelle exigence',
-  'II.2 Nouvelle réponse',
-  'II.3 Sa limite',
-  'III.1 Revenir au problème',
-  'III.2 L’opération',
-  'III.3 Stabiliser la réponse'
-];
-assert.deepEqual(
-  subsectionHeadings.map((heading) => copy.indexOf(heading)),
-  [...subsectionHeadings.map((heading) => copy.indexOf(heading))].sort((a, b) => a - b)
-);
-assert.equal(subsectionHeadings.every((heading) => copy.includes(heading)), true);
+assert.match(stagedPhrases['transitionI-II'][0].phrase, /\?$/u);
+assert.match(stagedPhrases['transitionII-III'][0].phrase, /\?$/u);
 assert.ok(
-  copy.indexOf(stagedPhrases['transitionI-II'][0].phrase) > copy.indexOf('I.3 Limite') &&
-  copy.indexOf(stagedPhrases['transitionI-II'][0].phrase) < copy.indexOf('II. Partie II')
+  copy.indexOf(stagedPhrases['transitionI-II'][0].phrase) >
+    copy.indexOf(stagedPhrases['I.3'][0].phrase) &&
+  copy.indexOf(stagedPhrases['transitionI-II'][0].phrase) <
+    copy.indexOf(stagedPhrases.partieII[0].phrase)
 );
 assert.ok(
-  copy.indexOf(stagedPhrases['transitionII-III'][0].phrase) > copy.indexOf('II.3 Sa limite') &&
-  copy.indexOf(stagedPhrases['transitionII-III'][0].phrase) < copy.indexOf('III. Partie III')
+  copy.indexOf(stagedPhrases['transitionII-III'][0].phrase) >
+    copy.indexOf(stagedPhrases['II.3'][0].phrase) &&
+  copy.indexOf(stagedPhrases['transitionII-III'][0].phrase) <
+    copy.indexOf(stagedPhrases['III.1'][0].phrase)
 );
 let previousPhraseIndex = -1;
 for (const { phrase } of validAnnotations.phrases) {
@@ -263,6 +254,7 @@ const validOpeningComparison = {
 };
 let nextGenerated = {
   openingComparison: validOpeningComparison,
+  annotationIssues: [],
   phrases: stagedPhrases
 };
 let nextOpenAIResponse = null;
@@ -304,17 +296,21 @@ try {
   assert.equal(dissertation.phrases.length, COPY20_STAGE_ORDER.length);
   assert.equal(dissertation.audit.copy20.ok, true);
   assert.equal(dissertation.audit.copy20.philosophicalNecessityEvaluated, false);
-  assert.match(capturedPayload.instructions, /double aporie doit être construite avant d’imaginer les situations/);
+  assert.match(capturedPayload.instructions, /Construisez la double aporie avant d’imaginer les situations/);
   assert.match(capturedPayload.instructions, /exactRelevance/);
   assert.match(capturedPayload.instructions, /literaryQuality/);
   assert.match(capturedPayload.instructions, /cas fictif/);
-  assert.match(capturedPayload.instructions, /ne produisez pas de propriété copie/);
+  assert.match(capturedPayload.instructions, /sans propriété copie/);
   assert.equal(capturedPayload.text.format.type, 'json_schema');
   assert.equal(capturedPayload.text.format.name, 'copy20_dissertation');
   assert.equal(capturedPayload.text.format.strict, true);
   const outputSchema = capturedPayload.text.format.schema;
   assertStrictSchema(outputSchema);
   assert.equal(Object.hasOwn(outputSchema.properties, 'copie'), false);
+  assert.deepEqual(
+    Object.keys(outputSchema.properties).sort(),
+    ['annotationIssues', 'openingComparison', 'phrases']
+  );
   assert.deepEqual(
     Object.keys(outputSchema.properties.phrases.properties),
     COPY20_STAGE_ORDER
@@ -369,6 +365,7 @@ try {
   segmentationEdgePhrases['I.3'][0].phrase = 'Cette proposition reste sans ponctuation terminale';
   nextGenerated = {
     openingComparison: validOpeningComparison,
+    annotationIssues: [],
     phrases: segmentationEdgePhrases
   };
   const segmentationEdgeResponse = await requestWorkerGeneration('copy20-test-segmentation-edge-cases');
@@ -384,6 +381,7 @@ try {
   }
   nextGenerated = {
     openingComparison: validOpeningComparison,
+    annotationIssues: [],
     phrases: stagedPhrases
   };
 
@@ -425,6 +423,7 @@ try {
 
   nextGenerated = {
     openingComparison: validOpeningComparison,
+    annotationIssues: [],
     phrases: wrongLabel
   };
   const invalidResponse = await worker.fetch(new Request(
@@ -446,10 +445,29 @@ try {
   assert.equal(modelRequestCount, 7);
 
   nextGenerated = {
+    openingComparison: validOpeningComparison,
+    annotationIssues: [{
+      stage: 'III.2',
+      operation: 'distinguer les usages et la valeur propre de la connaissance'
+    }],
+    phrases: {
+      ...stagedPhrases,
+      'III.2': []
+    }
+  };
+  const catalogGapResponse = await requestWorkerGeneration('copy20-test-catalog-gap');
+  const catalogGapBody = await catalogGapResponse.json();
+  assert.equal(catalogGapResponse.status, 502);
+  assert.match(catalogGapBody.error, /III\.2.*distinguer les usages/);
+  assert.deepEqual(Object.keys(catalogGapBody).sort(), ['error', 'ok']);
+  assert.equal(modelRequestCount, 8);
+
+  nextGenerated = {
     openingComparison: {
       ...validOpeningComparison,
       candidates: validOpeningComparison.candidates.slice(0, 2)
     },
+    annotationIssues: [],
     phrases: stagedPhrases
   };
   const invalidComparisonResponse = await worker.fetch(new Request(
@@ -467,10 +485,11 @@ try {
   const invalidComparisonBody = await invalidComparisonResponse.json();
   assert.equal(invalidComparisonResponse.status, 502);
   assert.match(invalidComparisonBody.error, /comparaison des trois situations/);
-  assert.equal(modelRequestCount, 8);
+  assert.equal(modelRequestCount, 9);
 
   nextGenerated = {
     openingComparison: validOpeningComparison,
+    annotationIssues: [],
     phrases: {
       ...stagedPhrases,
       introduction: [{
@@ -494,7 +513,7 @@ try {
   const nonFictionalOpeningBody = await nonFictionalOpeningResponse.json();
   assert.equal(nonFictionalOpeningResponse.status, 502);
   assert.match(nonFictionalOpeningBody.error, /expérience de pensée ou un cas fictif/);
-  assert.equal(modelRequestCount, 9);
+  assert.equal(modelRequestCount, 10);
 } finally {
   globalThis.fetch = originalFetch;
 }

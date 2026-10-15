@@ -19,6 +19,7 @@ const OPENING_ASSESSMENT_DIMENSIONS = [
 const GENERATION_FORMAT_ERROR = 'La réponse du modèle ne respecte pas le format JSON COPY20.';
 const GENERATION_INCOMPLETE_ERROR = 'La réponse du modèle est incomplète.';
 const GENERATION_TOKEN_LIMIT_ERROR = 'La réponse du modèle est incomplète : la limite de tokens de sortie a été atteinte.';
+const COPY20_CATALOG_GAP_CODE = 'COPY20_ANNOTATION_CATALOG_GAP';
 
 function strictObject(properties) {
   return {
@@ -62,6 +63,13 @@ function buildCopy20OutputSchema() {
       })
     }
   ]));
+  const annotationIssues = {
+    type: 'array',
+    items: strictObject({
+      stage: { type: 'string', enum: COPY20_STAGE_ORDER },
+      operation: { type: 'string' }
+    })
+  };
 
   return strictObject({
     openingComparison: strictObject({
@@ -77,7 +85,25 @@ function buildCopy20OutputSchema() {
       },
       selectedCandidateId: { type: 'string' }
     }),
-    phrases: strictObject(annotations)
+    phrases: strictObject(annotations),
+    annotationIssues
+  });
+}
+
+function validateCopy20AnnotationIssues(issues) {
+  if (!Array.isArray(issues) || issues.length > COPY20_STAGE_ORDER.length) return false;
+  const stages = new Set();
+  return issues.every((issue) => {
+    if (!issue || typeof issue !== 'object' || Array.isArray(issue) ||
+        Object.keys(issue).length !== 2 ||
+        !COPY20_STAGE_ORDER.includes(issue.stage) ||
+        typeof issue.operation !== 'string' ||
+        issue.operation.trim().length < 8 ||
+        issue.operation.length > 160 ||
+        /[\r\n]/u.test(issue.operation) ||
+        stages.has(issue.stage)) return false;
+    stages.add(issue.stage);
+    return true;
   });
 }
 
@@ -251,6 +277,19 @@ export async function generatePhilosophicalDissertation(sujet, env) {
   }
   if (!generated || typeof generated !== 'object' || Array.isArray(generated)) {
     throw new Error(GENERATION_FORMAT_ERROR);
+  }
+  if (!validateCopy20AnnotationIssues(generated.annotationIssues)) {
+    throw new Error(GENERATION_FORMAT_ERROR);
+  }
+  if (generated.annotationIssues.length) {
+    const details = generated.annotationIssues.map(({ stage, operation }) =>
+      `${stage} : ${operation.replace(/[<>&]/gu, ' ').replace(/\s+/gu, ' ').trim()}`
+    );
+    const error = new Error(
+      `Le catalogue COPY20 ne permet pas une annotation exacte : ${details.join('; ')}.`
+    );
+    error.code = COPY20_CATALOG_GAP_CODE;
+    throw error;
   }
   if (!validateOpeningComparison(generated.openingComparison)) {
     throw new Error('La comparaison des trois situations d’ouverture est incomplète ou invalide.');

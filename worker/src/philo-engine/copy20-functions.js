@@ -72,22 +72,6 @@ export function getCopy20SentenceFunctions() {
   );
 }
 
-const COPY20_STAGE_HEADINGS = {
-  introduction: 'INTRODUCTION',
-  partieI: 'I. Partie I',
-  'I.1': 'I.1 Installer',
-  'I.2': 'I.2 Renforcer',
-  'I.3': 'I.3 Limite',
-  partieII: 'II. Partie II',
-  'II.1': 'II.1 Nouvelle exigence',
-  'II.2': 'II.2 Nouvelle réponse',
-  'II.3': 'II.3 Sa limite',
-  'III.1': 'III.1 Revenir au problème',
-  'III.2': 'III.2 L’opération',
-  'III.3': 'III.3 Stabiliser la réponse',
-  conclusion: 'CONCLUSION'
-};
-
 export function reconstructCopy20Dissertation(stagedPhrases) {
   const textFor = (stage) => {
     const entries = stagedPhrases?.[stage];
@@ -97,27 +81,10 @@ export function reconstructCopy20Dissertation(stagedPhrases) {
       .map((entry) => entry.phrase)
       .join(' ');
   };
-  const headingBlock = (stage) =>
-    `${COPY20_STAGE_HEADINGS[stage]}\n\n${textFor(stage)}`;
-
-  return [
-    headingBlock('introduction'),
-    headingBlock('partieI'),
-    headingBlock('I.1'),
-    headingBlock('I.2'),
-    headingBlock('I.3'),
-    textFor('transitionI-II'),
-    headingBlock('partieII'),
-    headingBlock('II.1'),
-    headingBlock('II.2'),
-    headingBlock('II.3'),
-    textFor('transitionII-III'),
-    'III. Partie III',
-    headingBlock('III.1'),
-    headingBlock('III.2'),
-    headingBlock('III.3'),
-    headingBlock('conclusion')
-  ].join('\n\n');
+  return COPY20_STAGE_ORDER
+    .map(textFor)
+    .filter(Boolean)
+    .join('\n\n');
 }
 
 function sentenceList(copy) {
