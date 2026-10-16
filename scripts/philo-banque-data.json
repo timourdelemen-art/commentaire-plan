@@ -9350,6 +9350,1550 @@
         }
       ],
       "editionNote": "Le volume indique une mise en français moderne par Charles Wincesky et prend pour référence les Œuvres de P. Corneille éditées par Charles Marty-Laveaux (Hachette, 1862). Les vers sont repris dans la forme du livre fourni."
+    },
+    {
+      "id": "bachelard-lumiere-et-ombres",
+      "code": "BA01",
+      "author": "Bachelard",
+      "title": "La connaissance éclaire et laisse des ombres",
+      "quote": "La connaissance du réel est une lumière qui projette toujours quelque part des ombres.",
+      "locator": "Chapitre I, section I",
+      "notions": [
+        "science",
+        "verite",
+        "raison"
+      ],
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Connaître un aspect du réel signifie-t-il dissiper toute obscurité ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Bachelard affirme que la connaissance éclaire tout en laissant subsister des zones d’ombre."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La lumière désigne une compréhension déterminée, tandis que l’ombre marque ses limites et les difficultés qu’elle peut masquer."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Un savoir acquis peut devenir un obstacle lorsqu’on le prend pour une explication complète et qu’on cesse de l’interroger."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une généralisation utile peut ainsi empêcher de remarquer les phénomènes qui exigent de la modifier."
+        },
+        {
+          "function": "La portée",
+          "sentence": "L’image invite à prolonger la recherche et à rectifier le savoir, sans conclure que toutes les connaissances seraient illusoires."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Faut-il attendre de la science qu’elle ait réponse à tout ?",
+          "function": "Limiter une attente de savoir total",
+          "reason": "Distinguer une connaissance fondée de la prétention à dissiper d’un seul coup toutes les difficultés.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=55",
+          "sourceLabel": "Recueil académique · p. 55"
+        },
+        {
+          "subject": "Les progrès de la connaissance nous rapprochent-ils d’une vérité définitive ?",
+          "function": "Interroger l’idée d’achèvement",
+          "reason": "Montrer qu’un progrès peut faire apparaître des limites nouvelles et appeler une nouvelle enquête.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=72",
+          "sourceLabel": "Recueil académique · p. 72"
+        }
+      ],
+      "work": "La Formation de l’esprit scientifique",
+      "edition": "Édition numérique fournie, sans pagination",
+      "publisher": "J. Vrin",
+      "editionYear": "date de l’édition numérique non indiquée",
+      "originalLanguage": "français",
+      "translator": null,
+      "editionNote": "Première publication en 1938 ; la mention 1934 du fichier est erronée. Le texte est repéré par chapitre et section."
+    },
+    {
+      "id": "bachelard-question-et-connaissance",
+      "code": "BA02",
+      "author": "Bachelard",
+      "title": "Le savoir répond à un problème",
+      "quote": "Pour un esprit scientifique, toute connaissance est une réponse à une question.",
+      "locator": "Chapitre I, section I",
+      "notions": [
+        "science",
+        "raison",
+        "verite"
+      ],
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Suffit-il d’accumuler des faits pour posséder un savoir ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Bachelard rapporte la connaissance scientifique à la question qui lui donne son sens."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La question est ici un problème construit, et la réponse une proposition dont on peut comprendre la nécessité et les conditions."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Sans problème précis, un fait risque de rester une curiosité ou de confirmer une opinion déjà installée."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Demander comment varie une résistance électrique permet d’organiser des mesures plutôt que de collectionner des étincelles spectaculaires."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La recherche demande donc une activité de l’esprit, sans que cette construction dispense de contrôler expérimentalement la réponse."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Les faits parlent-ils d’eux-mêmes ?",
+          "function": "Établir la nécessité d’une question",
+          "reason": "Expliquer pourquoi un fait ne devient instructif qu’à l’intérieur d’un problème qui précise ce qu’il permet de vérifier.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=57",
+          "sourceLabel": "Recueil académique · p. 57"
+        },
+        {
+          "subject": "La connaissance scientifique progresse-t-elle par l’accumulation des observations ?",
+          "function": "Distinguer accumulation et recherche",
+          "reason": "Montrer que multiplier les observations ne remplace pas la formulation d’un problème et le choix des observations pertinentes.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=55",
+          "sourceLabel": "Recueil académique · p. 55"
+        }
+      ],
+      "work": "La Formation de l’esprit scientifique",
+      "edition": "Édition numérique fournie, sans pagination",
+      "publisher": "J. Vrin",
+      "editionYear": "date de l’édition numérique non indiquée",
+      "originalLanguage": "français",
+      "translator": null,
+      "editionNote": "Première publication en 1938 ; la mention 1934 du fichier est erronée. Le texte est repéré par chapitre et section."
+    },
+    {
+      "id": "bachelard-formation-et-reforme",
+      "code": "BA03",
+      "author": "Bachelard",
+      "title": "Apprendre exige de se corriger",
+      "quote": "L'esprit scientifique doit se former en se réformant.",
+      "locator": "Chapitre II, section I",
+      "notions": [
+        "science",
+        "raison",
+        "verite"
+      ],
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "L’esprit devient-il scientifique en ajoutant simplement des connaissances à ce qu’il sait déjà ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Bachelard affirme que sa formation exige une transformation de ses façons de penser."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Se former signifie acquérir une capacité, tandis que se réformer implique de corriger des habitudes et des convictions antérieures."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Les premières explications ne sont pas seulement incomplètes, car elles peuvent empêcher de poser les questions utiles."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "L’élève qui admire une expérience spectaculaire doit apprendre à isoler la relation précise qu’elle permet d’étudier."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La correction participe ainsi du progrès, sans faire de toute erreur une découverte ni de toute nouveauté une vérité."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’erreur a-t-elle un rôle dans l’élaboration de la vérité ?",
+          "function": "Montrer une correction formatrice",
+          "reason": "Présenter l’erreur analysée comme ce qui oblige à modifier une manière de connaître, plutôt que comme un simple manque de résultat.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=71",
+          "sourceLabel": "Recueil académique · p. 71"
+        },
+        {
+          "subject": "La connaissance commune est-elle, pour la connaissance scientifique, un point d’appui ou un obstacle ?",
+          "function": "Décrire une transformation du savoir premier",
+          "reason": "Expliquer pourquoi passer à une enquête scientifique peut exiger de réformer les évidences de l’expérience quotidienne.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=55",
+          "sourceLabel": "Recueil académique · p. 55"
+        }
+      ],
+      "work": "La Formation de l’esprit scientifique",
+      "edition": "Édition numérique fournie, sans pagination",
+      "publisher": "J. Vrin",
+      "editionYear": "date de l’édition numérique non indiquée",
+      "originalLanguage": "français",
+      "translator": null,
+      "editionNote": "Première publication en 1938 ; la mention 1934 du fichier est erronée. Le texte est repéré par chapitre et section."
+    },
+    {
+      "id": "bachelard-concept-et-deformation",
+      "code": "BA04",
+      "author": "Bachelard",
+      "title": "Un concept fécond peut se transformer",
+      "quote": "En effet, d'après nous, la richesse d'un concept scientifique se mesure à sa puissance de déformation.",
+      "locator": "Chapitre III, section III",
+      "notions": [
+        "science",
+        "raison"
+      ],
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Un concept est-il d’autant plus solide qu’il reste identique en toute circonstance ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Bachelard mesure sa richesse à sa capacité de transformation."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La déformation désigne une modification réglée du concept pour intégrer des conditions nouvelles, et non une déformation arbitraire des faits."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une définition trop rigide peut réunir des ressemblances apparentes tout en empêchant d’étudier les différences pertinentes."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "L’étude de la fermentation progresse lorsqu’elle distingue les processus et leurs conditions, au lieu d’expliquer tout changement par un même mot."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La rigueur consiste donc aussi à rendre les concepts révisables, sans renoncer à leur précision."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Les vérités scientifiques sont-elles définitives ?",
+          "function": "Distinguer rigueur et immobilité",
+          "reason": "Montrer comment la transformation d’un concept peut accroître la précision du savoir au lieu de simplement le rendre incertain.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=56",
+          "sourceLabel": "Recueil académique · p. 56"
+        },
+        {
+          "subject": "Une théorie scientifique doit-elle se prémunir contre toute critique ?",
+          "function": "Donner une fonction positive à la révision",
+          "reason": "Expliquer pourquoi protéger un concept de toute modification peut diminuer sa capacité à rendre compte de nouveaux phénomènes.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=58",
+          "sourceLabel": "Recueil académique · p. 58"
+        }
+      ],
+      "work": "La Formation de l’esprit scientifique",
+      "edition": "Édition numérique fournie, sans pagination",
+      "publisher": "J. Vrin",
+      "editionYear": "date de l’édition numérique non indiquée",
+      "originalLanguage": "français",
+      "translator": null,
+      "editionNote": "Première publication en 1938 ; la mention 1934 du fichier est erronée. Le texte est repéré par chapitre et section."
+    },
+    {
+      "id": "bachelard-concept-et-realisation",
+      "code": "BA05",
+      "author": "Bachelard",
+      "title": "La technique participe au concept scientifique",
+      "quote": "Un concept est devenu scientifique dans la proportion où il est devenu technique, où il est accompagné d'une technique de réalisation.",
+      "locator": "Chapitre III, section III",
+      "notions": [
+        "science",
+        "technique",
+        "raison"
+      ],
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La technique intervient-elle seulement après que la science a produit ses connaissances ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Bachelard lie le caractère scientifique d’un concept à une technique qui permet de le réaliser."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Réaliser signifie ici produire ou isoler un phénomène dans des conditions déterminées, pour éprouver ce que le concept affirme."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Les opérations techniques donnent aux distinctions théoriques une prise sur des phénomènes contrôlables."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Les procédés de stérilisation permettent ainsi de préciser les conditions de la fermentation et de distinguer ce qui la rend possible."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La technique peut donc contribuer à la construction du savoir, sans que toute recette efficace constitue déjà une science."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La technique n’est-elle qu’une application de la science ?",
+          "function": "Renverser une dépendance à sens unique",
+          "reason": "Montrer que certaines opérations techniques permettent de définir et de contrôler le phénomène dont la science forme le concept.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=56",
+          "sourceLabel": "Recueil académique · p. 56"
+        },
+        {
+          "subject": "Le progrès scientifique est-il lié à l’évolution des techniques ?",
+          "function": "Expliquer une dépendance concrète",
+          "reason": "Relier un progrès de conceptualisation à de nouvelles possibilités de production, d’isolement ou de contrôle des phénomènes.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=56",
+          "sourceLabel": "Recueil académique · p. 56"
+        }
+      ],
+      "work": "La Formation de l’esprit scientifique",
+      "edition": "Édition numérique fournie, sans pagination",
+      "publisher": "J. Vrin",
+      "editionYear": "date de l’édition numérique non indiquée",
+      "originalLanguage": "français",
+      "translator": null,
+      "editionNote": "Première publication en 1938 ; la mention 1934 du fichier est erronée. Le texte est repéré par chapitre et section."
+    },
+    {
+      "id": "bachelard-metaphores-et-raison",
+      "code": "BA06",
+      "author": "Bachelard",
+      "title": "Une image séduisante peut arrêter la pensée",
+      "quote": "Qu'on le veuille ou non, les métaphores séduisent la raison.",
+      "locator": "Chapitre IV, section III",
+      "notions": [
+        "langage",
+        "raison",
+        "science"
+      ],
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une image qui rend un phénomène familier nous en donne-t-elle l’explication ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Bachelard souligne le pouvoir de séduction des métaphores sur la raison elle-même."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La séduction produit une adhésion, tandis que l’explication doit établir des relations contrôlables."
+        },
+        {
+          "function": "La raison",
+          "sentence": "En projetant les propriétés d’un objet connu sur un phénomène différent, une image peut faire croire que la question est résolue."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Comparer l’air à une éponge suggère qu’il absorbe des matières sans expliquer les conditions précises de cette absorption."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La critique vise l’image prise pour une preuve, sans supprimer la valeur poétique des métaphores ni leur usage pédagogique contrôlé."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Le langage peut-il être un obstacle à la recherche de la vérité ?",
+          "function": "Analyser une fausse explication",
+          "reason": "Montrer comment une métaphore familière peut donner l’impression de comprendre et interrompre l’enquête.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=35",
+          "sourceLabel": "Recueil académique · p. 35"
+        },
+        {
+          "subject": "La démarche scientifique exclut-elle tout recours à l’imagination ?",
+          "function": "Distinguer suggestion et justification",
+          "reason": "Examiner l’utilité d’une image en exigeant que ses suggestions soient reprises et contrôlées par un travail conceptuel.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=59",
+          "sourceLabel": "Recueil académique · p. 59"
+        }
+      ],
+      "work": "La Formation de l’esprit scientifique",
+      "edition": "Édition numérique fournie, sans pagination",
+      "publisher": "J. Vrin",
+      "editionYear": "date de l’édition numérique non indiquée",
+      "originalLanguage": "français",
+      "translator": null,
+      "editionNote": "Première publication en 1938 ; la mention 1934 du fichier est erronée. Le texte est repéré par chapitre et section."
+    },
+    {
+      "id": "bachelard-passion-et-erreur",
+      "code": "BA07",
+      "author": "Bachelard",
+      "title": "Une passion vraie peut protéger une idée fausse",
+      "quote": "C'est alors la passion vraie qui forme obstacle à la rectification de l'idée fausse.",
+      "locator": "Chapitre VII, section III",
+      "notions": [
+        "verite",
+        "conscience",
+        "raison"
+      ],
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La sincérité d’un sentiment garantit-elle la vérité du jugement qu’il soutient ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Bachelard montre qu’une passion réellement éprouvée peut empêcher de corriger une idée fausse."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Vraie qualifie ici l’existence de la passion, non la justesse de la croyance qui lui est associée."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Le sujet peut prendre le réconfort qu’il ressent pour une preuve de la propriété qu’il attribue à un objet."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "La joie de posséder de l’or a ainsi été confondue avec une prétendue efficacité médicale de cette matière."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Il faut donc distinguer authenticité affective et validation objective, sans nier la réalité de l’expérience vécue."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La certitude est-elle une garantie de vérité ?",
+          "function": "Distinguer force de conviction et preuve",
+          "reason": "Expliquer pourquoi une conviction peut être intense parce qu’elle protège une satisfaction, plutôt que parce qu’elle est fondée.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=71",
+          "sourceLabel": "Recueil académique · p. 71"
+        },
+        {
+          "subject": "Suffit-il de connaître la vérité pour renoncer à ses préjugés ?",
+          "function": "Identifier une résistance affective",
+          "reason": "Montrer qu’un attachement peut survivre à l’objection parce que l’abandon de l’idée coûterait aussi une satisfaction.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=75",
+          "sourceLabel": "Recueil académique · p. 75"
+        }
+      ],
+      "work": "La Formation de l’esprit scientifique",
+      "edition": "Édition numérique fournie, sans pagination",
+      "publisher": "J. Vrin",
+      "editionYear": "date de l’édition numérique non indiquée",
+      "originalLanguage": "français",
+      "translator": null,
+      "editionNote": "Première publication en 1938 ; la mention 1934 du fichier est erronée. Le texte est repéré par chapitre et section."
+    },
+    {
+      "id": "bachelard-mesure-et-reflexion",
+      "code": "BA08",
+      "author": "Bachelard",
+      "title": "Mesurer demande de penser",
+      "quote": "Il faut réfléchir pour mesurer et non pas mesurer pour réfléchir.",
+      "locator": "Chapitre XI, section II",
+      "notions": [
+        "science",
+        "raison",
+        "technique"
+      ],
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une mesure chiffrée est-elle objective du seul fait qu’elle donne un nombre ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Bachelard subordonne la mesure à une réflexion préalable sur ses conditions."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Mesurer suppose de définir la grandeur pertinente, la méthode employée et le degré de précision accessible."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Des décimales supplémentaires ne donnent aucun savoir si elles dépassent la sensibilité de l’appareil ou la stabilité de l’objet."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Calculer très précisément le rayon d’un arbre à partir d’une circonférence approximative fabrique une exactitude illusoire."
+        },
+        {
+          "function": "La portée",
+          "sentence": "L’objectivité demande donc une précision justifiée, sans confondre l’approximation maîtrisée avec une mesure négligente."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Une vérité scientifique peut-elle être approximative ?",
+          "function": "Justifier une approximation réglée",
+          "reason": "Distinguer la connaissance des limites d’une mesure et l’accumulation trompeuse de chiffres.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=57",
+          "sourceLabel": "Recueil académique · p. 57"
+        },
+        {
+          "subject": "N’y a-t-il de science que de ce qui est mathématisable ?",
+          "function": "Préciser ce que signifie quantifier",
+          "reason": "Montrer que la présence de nombres ne suffit pas : il faut établir ce qui est mesuré et avec quelle validité.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=55",
+          "sourceLabel": "Recueil académique · p. 55"
+        }
+      ],
+      "work": "La Formation de l’esprit scientifique",
+      "edition": "Édition numérique fournie, sans pagination",
+      "publisher": "J. Vrin",
+      "editionYear": "date de l’édition numérique non indiquée",
+      "originalLanguage": "français",
+      "translator": null,
+      "editionNote": "Première publication en 1938 ; la mention 1934 du fichier est erronée. Le texte est repéré par chapitre et section."
+    },
+    {
+      "id": "bachelard-instrument-et-objectivite",
+      "code": "BA09",
+      "author": "Bachelard",
+      "title": "L’instrument transforme l’observation",
+      "quote": "La connaissance devient objective dans la proportion où elle devient instrumentale.",
+      "locator": "Chapitre XI, section III",
+      "notions": [
+        "science",
+        "technique",
+        "raison"
+      ],
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "L’instrument remplace-t-il simplement un sens humain moins précis ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Bachelard lui attribue un rôle dans la constitution même de l’objectivité."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Une connaissance instrumentale repose sur un dispositif construit, étalonné et soumis à des contrôles."
+        },
+        {
+          "function": "La raison",
+          "sentence": "L’appareil ne donne un résultat fiable que si ses conditions de fonctionnement sont définies et ses erreurs repérées."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une bulle d’air oubliée dans un baromètre suffit à modifier sa hauteur et à fausser les comparaisons."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La technique rend donc l’observation contrôlable, sans assurer par sa seule présence la vérité de toute interprétation."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Peut-on dire que la connaissance scientifique consiste à substituer à la sensibilité de l’homme celle d’un instrument de mesure ?",
+          "function": "Dépasser l’idée d’un simple remplacement",
+          "reason": "Expliquer que l’instrument impose aussi une méthode, des conditions de comparaison et un contrôle des erreurs.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=55",
+          "sourceLabel": "Recueil académique · p. 55"
+        },
+        {
+          "subject": "Le progrès scientifique est-il lié à l’évolution des techniques ?",
+          "function": "Montrer une condition de l’observation objective",
+          "reason": "Étudier comment un instrument mieux construit permet de définir plus précisément le phénomène étudié.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=56",
+          "sourceLabel": "Recueil académique · p. 56"
+        }
+      ],
+      "work": "La Formation de l’esprit scientifique",
+      "edition": "Édition numérique fournie, sans pagination",
+      "publisher": "J. Vrin",
+      "editionYear": "date de l’édition numérique non indiquée",
+      "originalLanguage": "français",
+      "translator": null,
+      "editionNote": "Première publication en 1938 ; la mention 1934 du fichier est erronée. Le texte est repéré par chapitre et section."
+    },
+    {
+      "id": "bachelard-resultats-et-demonstration",
+      "code": "BA10",
+      "author": "Bachelard",
+      "title": "Savoir les résultats ne suffit pas",
+      "quote": "Mais l'enseignement des résultats de la science n'est jamais un enseignement scientifique.",
+      "locator": "Chapitre XI, section VII",
+      "notions": [
+        "science",
+        "raison",
+        "verite"
+      ],
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Connaître les conclusions d’une science suffit-il pour penser scientifiquement ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Bachelard distingue la transmission des résultats et la formation à leur démarche de production."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le résultat est une proposition retenue, tandis que l’enseignement scientifique rend compréhensibles les raisons qui l’établissent."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Sans ces raisons, l’élève risque de rattacher la formule apprise à des images ou à des explications personnelles erronées."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Retenir que l’orbite terrestre est une ellipse ne fait pas comprendre le rôle de ses foyers ni la loi du mouvement."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Apprendre une science demande donc de pouvoir reconstruire et discuter ses raisons, au-delà de la récitation de ses acquis."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Savoir, est-ce ne rien croire ?",
+          "function": "Distinguer savoir personnel et confiance reçue",
+          "reason": "Examiner le statut d’un résultat admis sur l’autorité d’un cours, puis la compréhension des raisons qui permet de se l’approprier.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=55",
+          "sourceLabel": "Recueil académique · p. 55"
+        },
+        {
+          "subject": "Les résultats des sciences sont-ils indiscutables ?",
+          "function": "Réintroduire les raisons du résultat",
+          "reason": "Montrer qu’une conclusion ne devient pas scientifique en étant soustraite à l’explication et à l’examen.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=55",
+          "sourceLabel": "Recueil académique · p. 55"
+        }
+      ],
+      "work": "La Formation de l’esprit scientifique",
+      "edition": "Édition numérique fournie, sans pagination",
+      "publisher": "J. Vrin",
+      "editionYear": "date de l’édition numérique non indiquée",
+      "originalLanguage": "français",
+      "translator": null,
+      "editionNote": "Première publication en 1938 ; la mention 1934 du fichier est erronée. Le texte est repéré par chapitre et section."
+    },
+    {
+      "id": "bachelard-enseigner-et-apprendre",
+      "code": "BA11",
+      "author": "Bachelard",
+      "title": "Transmettre met le savoir à l’épreuve",
+      "quote": "Une instruction qu'on reçoit sans la transmettre forme des esprits sans dynamisme, sans autocritique.",
+      "locator": "Chapitre XII, section II",
+      "notions": [
+        "science",
+        "langage",
+        "raison"
+      ],
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Recevoir une connaissance assure-t-il qu’on puisse en répondre par soi-même ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Bachelard fait de la transmission un exercice qui développe l’activité et la critique de l’esprit."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Transmettre demande de rendre des raisons accessibles à autrui, et l’autocritique consiste à examiner ses propres insuffisances."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Les difficultés d’un interlocuteur obligent à reprendre ce qui paraissait évident et à préciser les étapes laissées implicites."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un élève qui explique une démonstration à un camarade découvre parfois qu’il en connaissait la conclusion sans maîtriser un passage."
+        },
+        {
+          "function": "La portée",
+          "sentence": "L’apprentissage gagne ainsi à devenir réciproque, sans réduire la vérité à l’accord du groupe ni dévaloriser tout travail solitaire."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "A-t-on besoin des autres pour trouver la vérité ?",
+          "function": "Donner une fonction au contrôle réciproque",
+          "reason": "Montrer comment expliquer à autrui peut révéler une difficulté et conduire à rectifier son propre raisonnement.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=75",
+          "sourceLabel": "Recueil académique · p. 75"
+        },
+        {
+          "subject": "Pourquoi échanger des idées ?",
+          "function": "Dépasser la simple circulation des opinions",
+          "reason": "Présenter l’échange comme une mise à l’épreuve des raisons de chacun, qui peut modifier leur compréhension.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=36",
+          "sourceLabel": "Recueil académique · p. 36"
+        }
+      ],
+      "work": "La Formation de l’esprit scientifique",
+      "edition": "Édition numérique fournie, sans pagination",
+      "publisher": "J. Vrin",
+      "editionYear": "date de l’édition numérique non indiquée",
+      "originalLanguage": "français",
+      "translator": null,
+      "editionNote": "Première publication en 1938 ; la mention 1934 du fichier est erronée. Le texte est repéré par chapitre et section."
+    },
+    {
+      "id": "bachelard-objet-et-transformation",
+      "code": "BA12",
+      "author": "Bachelard",
+      "title": "Connaître transforme celui qui connaît",
+      "quote": "Si l'objet m'instruit, il me modifie.",
+      "locator": "Chapitre XII, section II",
+      "notions": [
+        "science",
+        "conscience",
+        "raison"
+      ],
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Connaître change-t-il seulement ce que nous savons du monde ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Bachelard affirme que l’objet instruit en transformant aussi l’esprit qui l’étudie."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’instruction n’est pas ici une simple information ajoutée, mais une modification de nos manières de comprendre."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Un phénomène qui résiste à nos prévisions oblige à réviser nos concepts et les attentes qui guidaient l’enquête."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "La découverte d’un mouvement que le modèle prévu n’explique pas peut imposer de nouvelles relations mathématiques."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La connaissance possède ainsi une force formatrice, sans que le réel se réduise à ce que le sujet souhaite y trouver."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Avons-nous quelque chose à apprendre de nos erreurs ?",
+          "function": "Montrer une transformation du sujet",
+          "reason": "Expliquer qu’une erreur instruite peut modifier les habitudes de pensée qui la produisaient.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=76",
+          "sourceLabel": "Recueil académique · p. 76"
+        },
+        {
+          "subject": "La science nous éloigne-t-elle de la réalité ?",
+          "function": "Distinguer rencontre et projection",
+          "reason": "Montrer qu’atteindre le réel peut demander de renoncer à nos représentations familières plutôt que de les retrouver partout.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=58",
+          "sourceLabel": "Recueil académique · p. 58"
+        }
+      ],
+      "work": "La Formation de l’esprit scientifique",
+      "edition": "Édition numérique fournie, sans pagination",
+      "publisher": "J. Vrin",
+      "editionYear": "date de l’édition numérique non indiquée",
+      "originalLanguage": "français",
+      "translator": null,
+      "editionNote": "Première publication en 1938 ; la mention 1934 du fichier est erronée. Le texte est repéré par chapitre et section."
+    },
+    {
+      "id": "bachelard-maitre-et-contradiction",
+      "code": "BA13",
+      "author": "Bachelard",
+      "title": "Continuer une pensée en la contredisant",
+      "quote": "Dans l'œuvre de la science seulement on peut aimer ce qu'on détruit, on peut continuer le passé en le niant, on peut vénérer son maître en le contredisant.",
+      "locator": "Chapitre XII, section III",
+      "notions": [
+        "science",
+        "verite",
+        "raison",
+        "temps"
+      ],
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Respecter un héritage intellectuel exige-t-il de le conserver intact ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Bachelard présente la contradiction scientifique comme une manière de prolonger ce que l’on admire."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Détruire et nier désignent ici la critique de résultats ou de cadres explicatifs, tandis que continuer signifie reprendre leur exigence de recherche."
+        },
+        {
+          "function": "La raison",
+          "sentence": "On peut rester fidèle à la démarche d’un maître précisément en refusant de transformer ses réponses en dogmes."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une théorie nouvelle peut limiter la validité d’une théorie ancienne tout en expliquant pourquoi celle-ci réussissait dans certaines conditions."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La fidélité devient alors un travail critique, sans faire de toute rupture un progrès ni de cette formule une loi de toute activité humaine."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Y a-t-il contradiction entre la prétention des sciences à la vérité et le fait qu’elles ont une histoire ?",
+          "function": "Penser une continuité par rectification",
+          "reason": "Montrer que la reprise critique du passé peut conserver ses problèmes et expliquer ses réussites en limitant ses prétentions.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=58",
+          "sourceLabel": "Recueil académique · p. 58"
+        },
+        {
+          "subject": "Peut-on remettre en question une vérité établie scientifiquement ?",
+          "function": "Distinguer critique et rejet arbitraire",
+          "reason": "Présenter une contestation appuyée sur des raisons comme la poursuite du travail scientifique lui-même.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=57",
+          "sourceLabel": "Recueil académique · p. 57"
+        }
+      ],
+      "work": "La Formation de l’esprit scientifique",
+      "edition": "Édition numérique fournie, sans pagination",
+      "publisher": "J. Vrin",
+      "editionYear": "date de l’édition numérique non indiquée",
+      "originalLanguage": "français",
+      "translator": null,
+      "editionNote": "Première publication en 1938 ; la mention 1934 du fichier est erronée. Le texte est repéré par chapitre et section."
+    },
+    {
+      "id": "freud-souvenirs-remanies",
+      "code": "F01",
+      "author": "Freud",
+      "title": "Se souvenir, c’est aussi remanier",
+      "quote": "Nos souvenirs d’enfance ne nous montrent pas les premières années de la vie telles qu’elles étaient, mais telles qu’elles sont apparues au cours de périodes d’éveil ultérieures.",
+      "locator": "Conclusion du texte (1899)",
+      "notions": [
+        "temps",
+        "conscience",
+        "inconscient"
+      ],
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Nos souvenirs nous donnent-ils un accès intact à ce que nous avons vécu ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Freud soutient que les souvenirs d’enfance portent la marque de remaniements ultérieurs."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le passé vécu se distingue de sa présentation psychique, qui peut être réorganisée par des désirs et des préoccupations plus tardifs."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Un détail conservé peut prendre sa force dans une situation postérieure et servir de substitut à un autre contenu."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Dans le souvenir de la prairie, les fleurs et le pain prennent sens lorsque Freud les rapproche des préoccupations ultérieures de son interlocuteur."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La mémoire devient ainsi un objet d’interprétation, sans que cela autorise à déclarer tout souvenir inventé."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Pourquoi cherchons-nous à connaître notre passé ?",
+          "function": "Distinguer souvenir et connaissance de soi",
+          "reason": "Montrer que l’enquête sur le passé doit aussi examiner la manière dont le souvenir s’est constitué.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=66",
+          "sourceLabel": "Recueil académique · p. 66"
+        },
+        {
+          "subject": "La conscience de soi est-elle une connaissance ?",
+          "function": "Limiter l’évidence du souvenir",
+          "reason": "Expliquer pourquoi un souvenir présent à la conscience peut demander une interprétation au lieu de fournir immédiatement la vérité du passé.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=18",
+          "sourceLabel": "Recueil académique · p. 18"
+        }
+      ],
+      "work": "Les souvenirs-écrans",
+      "collection": "La Répétition : mémoire et compulsion",
+      "edition": "Petite Bibliothèque Payot",
+      "publisher": "Payot & Rivages",
+      "editionYear": "2019",
+      "translator": "Olivier Mannoni",
+      "editionNote": "Traduction de 2019 ; référence au texte original, repris dans ce recueil."
+    },
+    {
+      "id": "freud-repeter-sans-savoir",
+      "code": "F02",
+      "author": "Freud",
+      "title": "Le passé peut revenir dans l’action",
+      "quote": "Il ne le reproduit pas comme souvenir, mais comme acte, il le réitère, sans savoir bien entendu qu’il le répète.",
+      "locator": "L’agir dans la cure (1914)",
+      "notions": [
+        "inconscient",
+        "conscience",
+        "liberte",
+        "temps"
+      ],
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Un passé oublié cesse-t-il pour autant d’agir dans le présent ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Freud décrit un patient qui reproduit dans ses actes ce qu’il ne se remémore pas."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le pronom renvoie au contenu oublié ou refoulé, et la répétition désigne son retour dans une conduite présente."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Le sujet peut donc éprouver comme une réaction actuelle ce qui reprend une ancienne manière d’entrer en relation."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Dans la cure, il peut se montrer méfiant envers l’analyste sans reconnaître le retour d’une défiance ancienne envers une figure d’autorité."
+        },
+        {
+          "function": "La portée",
+          "sentence": "L’oubli ne suffit donc pas à libérer du passé, sans que toute conduite répétée prouve à elle seule un refoulement."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Pour se libérer du passé faut-il l’oublier ?",
+          "function": "Contester la suffisance de l’oubli",
+          "reason": "Montrer que l’absence de souvenir conscient peut coexister avec la persistance d’une conduite héritée du passé.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=66",
+          "sourceLabel": "Recueil académique · p. 66"
+        },
+        {
+          "subject": "L’inconscient pèse-t-il sur nous comme un destin ?",
+          "function": "Distinguer contrainte méconnue et fatalité",
+          "reason": "Présenter la répétition comme une détermination à reconnaître et à travailler, sans conclure qu’elle serait irréversible.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=28",
+          "sourceLabel": "Recueil académique · p. 28"
+        }
+      ],
+      "work": "Remémoration, répétition et perlaboration",
+      "collection": "La Répétition : mémoire et compulsion",
+      "edition": "Petite Bibliothèque Payot",
+      "publisher": "Payot & Rivages",
+      "editionYear": "2019",
+      "translator": "Olivier Mannoni",
+      "editionNote": "Traduction de 2019 ; référence au texte original, repris dans ce recueil."
+    },
+    {
+      "id": "freud-modele-et-limites",
+      "code": "F03",
+      "author": "Freud",
+      "title": "Une analogie éclaire sans tout expliquer",
+      "quote": "Il faut bien que l’analogie d’un appareil supplétif de ce type avec l’organe modèle prenne fin quelque part.",
+      "locator": "Les limites du modèle (1925)",
+      "notions": [
+        "science",
+        "technique",
+        "raison"
+      ],
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Un appareil qui ressemble à un fonctionnement psychique permet-il de l’expliquer entièrement ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Freud reconnaît une limite à l’analogie qu’il construit avec le bloc magique."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’appareil supplétif est un support externe de mémoire, tandis que l’organe modèle désigne l’appareil psychique qu’il aide à penser."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La comparaison rend certaines relations intelligibles sans garantir que tous les fonctionnements se correspondent."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Le bloc magique associe une surface disponible pour de nouvelles inscriptions et des traces durables, mais ne reproduit pas par lui-même ces traces de manière vivante."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Un modèle doit donc être jugé aussi par ses limites, sans perdre pour autant toute valeur explicative."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’imagination a-t-elle une place dans la connaissance scientifique ?",
+          "function": "Délimiter la valeur d’une analogie",
+          "reason": "Montrer qu’un modèle imaginé peut rendre un problème intelligible si l’on précise ce qu’il permet et ce qu’il ne reproduit pas.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=59",
+          "sourceLabel": "Recueil académique · p. 59"
+        },
+        {
+          "subject": "Le vivant est-il un objet comme les autres ?",
+          "function": "Limiter la comparaison avec un appareil",
+          "reason": "Examiner ce que l’analogie technique fait comprendre d’une fonction vivante et ce qu’elle laisse sans équivalent.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=58",
+          "sourceLabel": "Recueil académique · p. 58"
+        }
+      ],
+      "work": "Note sur le « bloc magique »",
+      "collection": "La Répétition : mémoire et compulsion",
+      "edition": "Petite Bibliothèque Payot",
+      "publisher": "Payot & Rivages",
+      "editionYear": "2019",
+      "translator": "Olivier Mannoni",
+      "editionNote": "Traduction de 2019 ; référence au texte original, repris dans ce recueil."
+    },
+    {
+      "id": "freud-moi-et-inconscient",
+      "code": "F04",
+      "author": "Freud",
+      "title": "Le moi déborde la conscience",
+      "quote": "Il est certain qu’une grande part du moi est elle-même inconsciente, précisément ce que l’on peut nommer le noyau du moi ; le terme de préconscient ne recouvre qu’une petite partie du moi.",
+      "locator": "Chapitre III, passage sur la résistance (formulation remaniée en 1921)",
+      "notions": [
+        "inconscient",
+        "conscience"
+      ],
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Le moi coïncide-t-il avec ce dont le sujet a conscience ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Freud affirme qu’une part importante du moi demeure elle-même inconsciente."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le moi désigne une organisation psychique, tandis que conscient et préconscient qualifient des modes d’accès aux contenus psychiques."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Les défenses qui maintiennent certains contenus à distance peuvent agir sans être reconnues par celui qui les exerce."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Dans la cure, le patient peut résister à une association sans connaître le motif de cette résistance."
+        },
+        {
+          "function": "La portée",
+          "sentence": "L’inconscient ne se réduit donc pas à un second personnage opposé au moi, et cette distinction demande une enquête au-delà de l’introspection immédiate."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’hypothèse de l’inconscient psychique revient-elle à admettre un autre moi en moi ?",
+          "function": "Écarter le dédoublement en personnages",
+          "reason": "Distinguer la part inconsciente du moi et l’image trompeuse d’un étranger intérieur qui déciderait à sa place.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=29",
+          "sourceLabel": "Recueil académique · p. 29"
+        },
+        {
+          "subject": "Peut-on parvenir à une complète conscience de soi ?",
+          "function": "Identifier une difficulté de l’introspection",
+          "reason": "Montrer que le sujet ne reconnaît pas immédiatement les mécanismes par lesquels il se défend contre certaines pensées.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=18",
+          "sourceLabel": "Recueil académique · p. 18"
+        }
+      ],
+      "work": "Au-delà du principe de plaisir",
+      "collection": "La Répétition : mémoire et compulsion",
+      "edition": "Petite Bibliothèque Payot",
+      "publisher": "Payot & Rivages",
+      "editionYear": "2019",
+      "translator": "Jean Laplanche et J.-B. Pontalis",
+      "editionNote": "Extrait d’Au-delà du principe de plaisir, dans la traduction publiée chez Payot en 2010 et reprise dans ce recueil ; les trois premiers essais du recueil ont un autre traducteur."
+    },
+    {
+      "id": "freud-jeu-et-deplaisir",
+      "code": "F05",
+      "author": "Freud",
+      "title": "Le jeu peut reprendre une expérience pénible",
+      "quote": "On observe aussi que le caractère déplaisant de l’expérience vécue ne la rend pas toujours inutilisable pour le jeu.",
+      "locator": "Chapitre II, le jeu de la bobine",
+      "notions": [
+        "inconscient",
+        "art",
+        "conscience"
+      ],
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Jouer consiste-t-il seulement à reproduire des expériences agréables ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Freud observe qu’une expérience pénible peut aussi fournir la matière d’un jeu."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le déplaisir de ce qui a été subi se distingue du plaisir possible à le reprendre activement."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Le changement de position permet d’envisager un gain de maîtrise, même si cette interprétation ne suffit pas à trancher tous les cas."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "L’enfant qui fait disparaître et revenir une bobine reprend ainsi la situation de l’absence maternelle en devenant l’auteur du mouvement."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le jeu ne reflète donc pas seulement un plaisir passé, sans constituer à lui seul une preuve de pulsion de mort ni une guérison assurée."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Nos désirs s’expliquent-ils seulement par la recherche du plaisir ?",
+          "function": "Distinguer plaisir immédiat et reprise d’une épreuve",
+          "reason": "Examiner comment le retour d’un événement pénible peut aussi viser une position plus active, sans prouver l’absence de toute satisfaction.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=90",
+          "sourceLabel": "Recueil académique · p. 90"
+        },
+        {
+          "subject": "L’art est-il un divertissement ?",
+          "function": "Proposer une comparaison avec le jeu",
+          "reason": "Distinguer le caractère pénible d’un événement et l’intérêt de sa reprise dans une représentation, sans confondre jeu enfantin et œuvre d’art.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6"
+        }
+      ],
+      "work": "Au-delà du principe de plaisir",
+      "collection": "La Répétition : mémoire et compulsion",
+      "edition": "Petite Bibliothèque Payot",
+      "publisher": "Payot & Rivages",
+      "editionYear": "2019",
+      "translator": "Jean Laplanche et J.-B. Pontalis",
+      "editionNote": "Extrait d’Au-delà du principe de plaisir, dans la traduction publiée chez Payot en 2010 et reprise dans ce recueil ; les trois premiers essais du recueil ont un autre traducteur."
+    },
+    {
+      "id": "freud-pulsion-et-objet",
+      "code": "F06",
+      "author": "Freud",
+      "title": "L’objet ne suffit pas à expliquer le désir",
+      "quote": "Il est probable que la pulsion sexuelle commence par être indépendante de son objet et que ce n’est pas non plus aux charmes de celui-ci qu’elle doit sa genèse.",
+      "locator": "Premier essai, « Déduction »",
+      "notions": [
+        "nature",
+        "inconscient",
+        "conscience"
+      ],
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Désirons-nous un objet uniquement parce qu’il possède des qualités attirantes ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Freud avance que la pulsion sexuelle ne naît probablement pas de l’objet auquel elle s’attache."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La pulsion est une poussée, tandis que l’objet est ce par quoi elle cherche une satisfaction."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La diversité des attachements conduit à desserrer le lien apparemment naturel et nécessaire entre les deux."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Des personnes peuvent investir des objets différents, sans que les propriétés de ces objets suffisent à expliquer l’existence même de la poussée."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La proposition invite à examiner l’histoire des attachements, sans faire de tout désir un choix volontaire ni nier toute qualité des objets."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’objet du désir en est-il la cause ?",
+          "function": "Distinguer poussée et objet d’attachement",
+          "reason": "Contester l’idée que les seules qualités de l’objet suffisent à produire et à expliquer le désir.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=90",
+          "sourceLabel": "Recueil académique · p. 90"
+        },
+        {
+          "subject": "Les hommes savent-ils ce qu’ils désirent ?",
+          "function": "Séparer objet désigné et origine du désir",
+          "reason": "Montrer que nommer ce qu’on désire ne signifie pas connaître les processus qui nous y attachent.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=20",
+          "sourceLabel": "Recueil académique · p. 20"
+        }
+      ],
+      "work": "Trois essais sur la théorie sexuelle",
+      "edition": "Champs · traduction de Fernand Cambon (2011)",
+      "publisher": "Flammarion",
+      "editionYear": "2019",
+      "translator": "Fernand Cambon",
+      "editionNote": "Texte de 1905, remanié jusqu’en 1924 ; traduction de la version de 1924. Les pages du PDF ne sont pas celles de l’édition imprimée."
+    },
+    {
+      "id": "freud-amour-et-autorite",
+      "code": "F07",
+      "author": "Freud",
+      "title": "L’amour peut donner autorité",
+      "quote": "La crédulité de l’amour devient ainsi une source importante, sinon originaire, de l’autorité.",
+      "locator": "Premier essai, « Surestimation de l’objet sexuel »",
+      "notions": [
+        "raison",
+        "conscience",
+        "liberte"
+      ],
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Accordons-nous toujours notre confiance à quelqu’un parce que ses jugements sont fondés ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Freud montre que l’attachement amoureux peut devenir une source d’autorité."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La crédulité désigne une adhésion insuffisamment examinée, et l’autorité le pouvoir reconnu à la parole d’une personne."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La surestimation de l’être aimé peut s’étendre de ses qualités désirées à ses capacités intellectuelles et à ses opinions."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "On peut ainsi accepter le jugement d’une personne admirée dans un domaine où aucune compétence ne lui est pourtant reconnue."
+        },
+        {
+          "function": "La portée",
+          "sentence": "L’analyse éclaire une origine affective de l’obéissance, sans réduire toute autorité à l’amour ni toute confiance à la crédulité."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La certitude est-elle une garantie de vérité ?",
+          "function": "Examiner une adhésion affective",
+          "reason": "Montrer comment l’assurance reçue d’une personne aimée peut être confondue avec une raison de tenir son jugement pour vrai.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=71",
+          "sourceLabel": "Recueil académique · p. 71"
+        },
+        {
+          "subject": "Le désir est-il aveugle ?",
+          "function": "Décrire une extension de l’idéalisation",
+          "reason": "Analyser le passage de l’attrait amoureux à une confiance intellectuelle qui échappe à l’examen.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=90",
+          "sourceLabel": "Recueil académique · p. 90"
+        }
+      ],
+      "work": "Trois essais sur la théorie sexuelle",
+      "edition": "Champs · traduction de Fernand Cambon (2011)",
+      "publisher": "Flammarion",
+      "editionYear": "2019",
+      "translator": "Fernand Cambon",
+      "editionNote": "Texte de 1905, remanié jusqu’en 1924 ; traduction de la version de 1924. Les pages du PDF ne sont pas celles de l’édition imprimée."
+    },
+    {
+      "id": "freud-pulsion-et-corps",
+      "code": "F08",
+      "author": "Freud",
+      "title": "Le psychisme ne se sépare pas simplement du corps",
+      "quote": "Pulsion est ainsi l’un des concepts de la démarcation entre le psychique et le corporel.",
+      "locator": "Premier essai, « Pulsions partielles et zones érogènes » (ajout de 1915)",
+      "notions": [
+        "nature",
+        "conscience",
+        "inconscient"
+      ],
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une poussée corporelle est-elle déjà une pensée, ou reste-t-elle étrangère au psychisme ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Freud situe le concept de pulsion à la limite du corporel et du psychique."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La pulsion désigne la représentance psychique d’une excitation interne continue, plutôt qu’un simple stimulus extérieur."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Un processus organique peut ainsi imposer une exigence au travail psychique sans être directement connu par la conscience."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Le besoin de satisfaction mobilise des représentations et des conduites, au lieu de rester une modification locale d’un organe."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le concept oblige donc à articuler corps et vie psychique, sans réduire cette dernière à la conscience ni expliquer toutes ses opérations par la physiologie."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La notion d’inconscient psychique est-elle contradictoire ?",
+          "function": "Distinguer psychique et conscient",
+          "reason": "Montrer pourquoi une force peut participer à la vie psychique par ses représentations et ses effets sans être immédiatement consciente.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=28",
+          "sourceLabel": "Recueil académique · p. 28"
+        },
+        {
+          "subject": "Sommes-nous conscients de ce que nous désirons ?",
+          "function": "Distinguer exigence et connaissance",
+          "reason": "Expliquer que subir une poussée et en connaître les sources ou les objets ne constituent pas une même opération.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=20",
+          "sourceLabel": "Recueil académique · p. 20"
+        }
+      ],
+      "work": "Trois essais sur la théorie sexuelle",
+      "edition": "Champs · traduction de Fernand Cambon (2011)",
+      "publisher": "Flammarion",
+      "editionYear": "2019",
+      "translator": "Fernand Cambon",
+      "editionNote": "Texte de 1905, remanié jusqu’en 1924 ; traduction de la version de 1924. Les pages du PDF ne sont pas celles de l’édition imprimée."
+    },
+    {
+      "id": "freud-plaisir-et-relance",
+      "code": "F09",
+      "author": "Freud",
+      "title": "Le plaisir peut relancer le désir",
+      "quote": "Comment se fait-il que le plaisir ressenti suscite le besoin d’un plaisir plus grand ?",
+      "locator": "Troisième essai, « La tension sexuelle »",
+      "notions": [
+        "bonheur",
+        "raison",
+        "conscience"
+      ],
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Le plaisir apaise-t-il nécessairement le besoin qui l’a fait rechercher ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Freud demande pourquoi un plaisir peut au contraire susciter la recherche d’un plaisir accru."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Il distingue un plaisir qui stimule l’excitation et un plaisir de satisfaction qui met momentanément fin à la tension."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une même expérience peut donc être agréable tout en faisant naître une exigence nouvelle."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Dans son analyse du plaisir préliminaire, une stimulation plaisante accroît l’excitation au lieu de l’éteindre."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Cette difficulté empêche d’identifier toute jouissance à un repos, sans établir que toute satisfaction humaine serait impossible."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Le désir nous condamne-t-il à l’insatisfaction ?",
+          "function": "Distinguer deux effets du plaisir",
+          "reason": "Montrer qu’un plaisir peut relancer la demande sans que tout plaisir ait nécessairement cet effet.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=91",
+          "sourceLabel": "Recueil académique · p. 91"
+        },
+        {
+          "subject": "Suffit-il d’avoir ce que l’on désire pour être heureux ?",
+          "function": "Interroger la suffisance de la satisfaction ponctuelle",
+          "reason": "Examiner le cas où obtenir un plaisir augmente la demande, puis distinguer cette relance d’un bonheur durable.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=91",
+          "sourceLabel": "Recueil académique · p. 91"
+        }
+      ],
+      "work": "Trois essais sur la théorie sexuelle",
+      "edition": "Champs · traduction de Fernand Cambon (2011)",
+      "publisher": "Flammarion",
+      "editionYear": "2019",
+      "translator": "Fernand Cambon",
+      "editionNote": "Texte de 1905, remanié jusqu’en 1924 ; traduction de la version de 1924. Les pages du PDF ne sont pas celles de l’édition imprimée."
+    },
+    {
+      "id": "freud-trouvaille-et-retrouvaille",
+      "code": "F10",
+      "author": "Freud",
+      "title": "Le nouveau porte la trace d’un ancien bonheur",
+      "quote": "La trouvaille d’objet est proprement une re-trouvaille.",
+      "locator": "Troisième essai, « La trouvaille d’objet »",
+      "notions": [
+        "temps",
+        "inconscient",
+        "conscience"
+      ],
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Le premier objet d’un amour est-il entièrement nouveau pour celui qui le désire ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Freud soutient que la trouvaille d’un objet reprend le modèle d’une satisfaction antérieure."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La retrouvaille désigne une relation à des traces psychiques, et non le retour nécessaire de la même personne."
+        },
+        {
+          "function": "La raison",
+          "sentence": "L’attachement nouveau peut être orienté par les premières expériences de soin et de satisfaction, même lorsque celles-ci ne sont pas remémorées."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Freud prend pour modèle la satisfaction initiale de l’enfant nourri au sein et les relations qui se construisent dans son prolongement."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Aimer engage ainsi une histoire, sans condamner chacun à reproduire à l’identique ses attachements infantiles."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Tous nos désirs sont-ils personnels ?",
+          "function": "Examiner l’histoire singulière des attachements",
+          "reason": "Montrer comment un désir présent peut porter la trace d’expériences anciennes, sans être pour autant un choix transparent du sujet.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=92",
+          "sourceLabel": "Recueil académique · p. 92"
+        },
+        {
+          "subject": "Mon passé détermine-t-il mon avenir ?",
+          "function": "Distinguer modèle et fatalité",
+          "reason": "Présenter les traces du passé comme des conditions des attachements futurs, sans assimiler leur influence à un scénario intégralement fixé.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=67",
+          "sourceLabel": "Recueil académique · p. 67"
+        }
+      ],
+      "work": "Trois essais sur la théorie sexuelle",
+      "edition": "Champs · traduction de Fernand Cambon (2011)",
+      "publisher": "Flammarion",
+      "editionYear": "2019",
+      "translator": "Fernand Cambon",
+      "editionNote": "Texte de 1905, remanié jusqu’en 1924 ; traduction de la version de 1924. Les pages du PDF ne sont pas celles de l’édition imprimée."
+    },
+    {
+      "id": "freud-beaute-et-desir",
+      "code": "F11",
+      "author": "Freud",
+      "title": "Le beau et le désir peuvent avoir une histoire commune",
+      "quote": "Il me semble indubitable que le concept de « beau » s’enracine dans le terreau de l’excitation sexuelle et signifie originairement ce qui est sexuellement stimulant (« die Reize »).",
+      "locator": "Premier essai, « Palper et regarder », note 27 (ajout de 1915)",
+      "notions": [
+        "art",
+        "nature",
+        "conscience"
+      ],
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Le jugement de beauté peut-il être compris sans examiner ses liens avec le désir ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Freud propose de chercher une origine du beau dans l’excitation sexuelle."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "S’enraciner désigne une genèse, tandis que signifier originairement ne revient pas à définir tous les usages ultérieurs du mot."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une recherche sur la provenance d’un intérêt esthétique se distingue de l’affirmation que tout jugement de goût viserait une satisfaction sexuelle immédiate."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Dans la même note, Freud souligne que les organes les plus excitants ne sont pas nécessairement jugés beaux."
+        },
+        {
+          "function": "La portée",
+          "sentence": "L’hypothèse ouvre donc une enquête sur les transformations du désir, sans suffire à réduire toute beauté à l’agrément sensuel."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Pourquoi sommes-nous sensibles à la beauté ?",
+          "function": "Proposer une hypothèse sur l’origine de l’intérêt esthétique",
+          "reason": "Distinguer la genèse pulsionnelle proposée par Freud et la valeur ou le sens d’une expérience esthétique particulière.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=8",
+          "sourceLabel": "Recueil académique · p. 8"
+        },
+        {
+          "subject": "L’art n’a-t-il pour but que le plaisir ?",
+          "function": "Distinguer origine et finalité",
+          "reason": "Examiner un enracinement possible de l’intérêt pour le beau dans le plaisir, sans en déduire que toute œuvre ne poursuit que cette fin.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6"
+        }
+      ],
+      "work": "Trois essais sur la théorie sexuelle",
+      "edition": "Champs · traduction de Fernand Cambon (2011)",
+      "publisher": "Flammarion",
+      "editionYear": "2019",
+      "translator": "Fernand Cambon",
+      "editionNote": "Texte de 1905, remanié jusqu’en 1924 ; traduction de la version de 1924. Les pages du PDF ne sont pas celles de l’édition imprimée."
+    },
+    {
+      "id": "freud-parole-et-presence",
+      "code": "F12",
+      "author": "Freud",
+      "title": "Une voix rend le proche présent",
+      "quote": "Ça ne fait rien, répondit l’enfant, quand quelqu’un parle, il fait jour.",
+      "locator": "Troisième essai, « Angoisse infantile », note 17",
+      "notions": [
+        "langage",
+        "conscience"
+      ],
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une parole agit-elle seulement par les informations qu’elle transmet ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Freud rapporte la réponse d’un enfant que la voix de sa tante rassure dans l’obscurité."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le jour désigne ici une présence ressentie, et non un changement de l’éclairage matériel."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Entendre une personne aimée peut modifier la situation vécue en donnant un signe sensible que l’on n’est pas seul."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "L’enfant demande à sa tante de parler alors même qu’il sait qu’il ne pourra pas la voir."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Cette scène éclaire la portée relationnelle de la parole, sans prouver qu’elle suffise à dissiper toute peur."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La parole a-t-elle le pouvoir de changer les choses ?",
+          "function": "Distinguer situation matérielle et expérience vécue",
+          "reason": "Montrer qu’une voix peut modifier le sentiment de solitude sans transformer la lumière ni les objets présents.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=34",
+          "sourceLabel": "Recueil académique · p. 34"
+        },
+        {
+          "subject": "Le langage ne sert-il qu’à communiquer ?",
+          "function": "Préciser ce qui se joue dans la parole",
+          "reason": "Élargir l’analyse au signe de présence et au lien affectif, sans exclure que cette présence soit elle aussi communiquée.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=36",
+          "sourceLabel": "Recueil académique · p. 36"
+        }
+      ],
+      "work": "Trois essais sur la théorie sexuelle",
+      "edition": "Champs · traduction de Fernand Cambon (2011)",
+      "publisher": "Flammarion",
+      "editionYear": "2019",
+      "translator": "Fernand Cambon",
+      "editionNote": "Texte de 1905, remanié jusqu’en 1924 ; traduction de la version de 1924. Les pages du PDF ne sont pas celles de l’édition imprimée.",
+      "speaker": "Un garçon de trois ans",
+      "situation": "Freud rapporte les paroles d’un enfant qui demande à sa tante de le rassurer en parlant dans le noir."
     }
   ]
 }
