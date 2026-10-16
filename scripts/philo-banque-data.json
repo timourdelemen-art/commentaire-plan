@@ -13697,6 +13697,1554 @@
           "sourceLabel": "Recueil académique · p. 77"
         }
       ]
+    },
+    {
+      "id": "rousseau-la-menace-et-le-coup",
+      "code": "RR01",
+      "author": "Rousseau",
+      "title": "La menace et le coup",
+      "work": "Les Rêveries du promeneur solitaire",
+      "locator": "Première promenade · p. 7 (PDF p. 79)",
+      "quote": "Leur attente me tourmente cent fois plus que leur présence, et la menace m’est plus terrible que le coup.",
+      "notions": [
+        "temps",
+        "bonheur",
+        "conscience"
+      ],
+      "edition": "Édition critique publiée par John S. Spink, d’après les manuscrits autographes",
+      "publisher": "Librairie Marcel Didier",
+      "editionYear": 1948,
+      "translator": null,
+      "originalLanguage": "français",
+      "situation": "Rousseau compare les maux qu’il éprouve à ceux que son imagination lui fait redouter.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Un mal encore absent peut-il nous affecter davantage qu’une souffrance présente ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Rousseau décrit une attente qui amplifie les maux au point de devenir plus pénible que leur arrivée."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La menace désigne une possibilité imaginée, tandis que le coup désigne le mal effectivement éprouvé."
+        },
+        {
+          "function": "La raison",
+          "sentence": "L’imagination multiplie les conséquences possibles là où l’événement réel finit par imposer ses limites."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "L’annonce d’un échec peut ainsi occuper tout notre esprit avant même que nous sachions ce qui arrivera."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La comparaison invite à distinguer la souffrance actuelle de son anticipation, sans nier la gravité des maux réels."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’imagination est-elle la cause de notre malheur ?",
+          "function": "Montrer comment une possibilité devient une souffrance présente",
+          "reason": "L’attente amplifie ce qui est redouté ; distinguer ce mécanisme des douleurs que l’imagination ne produit pas.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=17",
+          "sourceLabel": "Recueil académique · p. 17"
+        },
+        {
+          "subject": "Est-il possible de vivre au présent ?",
+          "function": "Identifier ce qui nous arrache au présent",
+          "reason": "Le mal futur, simplement possible, devient le centre de la vie actuelle ; examiner les moyens de limiter cette emprise sans renoncer à prévoir.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=65",
+          "sourceLabel": "Recueil académique · p. 65"
+        }
+      ]
+    },
+    {
+      "id": "rousseau-apprendre-trop-tard",
+      "code": "RR02",
+      "author": "Rousseau",
+      "title": "Apprendre trop tard",
+      "work": "Les Rêveries du promeneur solitaire",
+      "locator": "Troisième promenade · p. 38 (PDF p. 110)",
+      "quote": "Est-il tems au moment qu’il faut mourir, d’apprendre comment on auroit dû vivre?",
+      "notions": [
+        "temps",
+        "raison",
+        "bonheur"
+      ],
+      "edition": "Édition critique publiée par John S. Spink, d’après les manuscrits autographes",
+      "publisher": "Librairie Marcel Didier",
+      "editionYear": 1948,
+      "translator": null,
+      "originalLanguage": "français",
+      "situation": "Reprenant l’idée d’apprendre en vieillissant, Rousseau interroge l’usage d’une sagesse acquise à la fin de la vie.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une leçon conserve-t-elle toute sa valeur lorsqu’il ne reste plus de temps pour la mettre en pratique ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Rousseau demande ce que peut encore une connaissance de la vie acquise au moment de la quitter."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La sagesse ne consiste pas seulement à comprendre après coup, mais aussi à pouvoir orienter sa conduite."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Un savoir peut arriver trop tard pour transformer les choix auxquels il aurait donné un autre sens."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Comprendre au terme d’une existence ce qui méritait notre attention ne permet pas de recommencer toutes les années écoulées."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La question fait donc du moment de l’apprentissage un problème philosophique, sans retirer toute valeur à une compréhension tardive."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Les connaissances nous aident-elles à vivre ?",
+          "function": "Introduire la condition temporelle de leur usage",
+          "reason": "Une connaissance utile par son contenu peut devenir difficile à employer si elle arrive lorsque l’action n’est plus possible.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=15",
+          "sourceLabel": "Recueil académique · p. 15"
+        },
+        {
+          "subject": "Quelles leçons pouvons-nous tirer de nos expériences ?",
+          "function": "Interroger le décalage entre l’expérience et sa leçon",
+          "reason": "L’épreuve instruit parfois après les décisions décisives ; discuter comment cette compréhension peut encore guider la vie restante.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=103",
+          "sourceLabel": "Recueil académique · p. 103"
+        }
+      ]
+    },
+    {
+      "id": "rousseau-ce-qui-me-convient-est-il-vrai",
+      "code": "RR03",
+      "author": "Rousseau",
+      "title": "Ce qui me convient est-il vrai",
+      "work": "Les Rêveries du promeneur solitaire",
+      "locator": "Troisième promenade · p. 53 (PDF p. 125)",
+      "quote": "Pour croire que les choses sont ainsi suffit-il qu’elles me conviennent?",
+      "notions": [
+        "verite",
+        "religion",
+        "raison"
+      ],
+      "edition": "Édition critique publiée par John S. Spink, d’après les manuscrits autographes",
+      "publisher": "Librairie Marcel Didier",
+      "editionYear": 1948,
+      "translator": null,
+      "originalLanguage": "français",
+      "situation": "En examinant ses convictions religieuses, Rousseau distingue leur pouvoir de consolation des raisons de les tenir pour vraies.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Le réconfort qu’apporte une croyance suffit-il à justifier son contenu ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Rousseau interroge la tentation de croire une proposition parce qu’elle répond à ses besoins."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La convenance désigne ici l’accord avec nos désirs, tandis que la vérité concerne ce qui est réellement."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une raison de souhaiter qu’une idée soit vraie n’établit pas encore qu’elle le soit."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Espérer une justice après la mort peut consoler sans constituer, par ce seul effet, une preuve de son existence."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Cette exigence critique traverse son examen de la foi, sans signifier qu’il abandonne finalement toute conviction religieuse."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La religion a-t-elle pour but de consoler les hommes ?",
+          "function": "Séparer une fonction de la religion et la justification de ses croyances",
+          "reason": "Le soulagement peut expliquer l’attachement à une croyance ; il ne tranche pas à lui seul la question de sa vérité.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=53",
+          "sourceLabel": "Recueil académique · p. 53"
+        },
+        {
+          "subject": "Faut-il préférer la vérité au bonheur ?",
+          "function": "Mettre en question une adhésion fondée sur le réconfort",
+          "reason": "Rousseau refuse de confondre ce qui rassure et ce qui justifie ; examiner la possibilité d’une conviction à la fois consolante et réfléchie.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=15",
+          "sourceLabel": "Recueil académique · p. 15"
+        }
+      ]
+    },
+    {
+      "id": "rousseau-inventer-sans-mentir",
+      "code": "RR04",
+      "author": "Rousseau",
+      "title": "Inventer sans mentir",
+      "work": "Les Rêveries du promeneur solitaire",
+      "locator": "Quatrième promenade · p. 85 (PDF p. 157)",
+      "quote": "J’ai souvent débité bien des fables, mais j’ai très rarement menti.",
+      "notions": [
+        "verite",
+        "art",
+        "devoir"
+      ],
+      "edition": "Édition critique publiée par John S. Spink, d’après les manuscrits autographes",
+      "publisher": "Librairie Marcel Didier",
+      "editionYear": 1948,
+      "translator": null,
+      "originalLanguage": "français",
+      "situation": "Rousseau examine les inventions de ses récits et leur différence avec la tromperie, puis reconnaît une exigence de vérité envers soi.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Toute parole qui s’écarte des faits constitue-t-elle un mensonge ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Rousseau distingue les fables qu’il raconte des mensonges par lesquels on trompe injustement quelqu’un."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’invention concerne le contenu du récit, tandis que le mensonge engage aussi une intention et une relation à autrui."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Un récit reconnu comme imaginaire ne produit pas la même tromperie qu’un fait inventé présenté comme certain."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une fable annoncée comme telle peut instruire son lecteur sans lui faire croire que les animaux parlent réellement."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La distinction éclaire la fiction, mais Rousseau reconnaît ensuite que l’ornement du récit peut aussi nuire à sa propre fidélité au vrai."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Peut-on reprocher à l’art d’être mensonger ?",
+          "function": "Distinguer invention reconnue et tromperie",
+          "reason": "L’écart aux faits ne suffit pas à constituer un mensonge : interroger le statut que l’œuvre donne à son récit.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=10",
+          "sourceLabel": "Recueil académique · p. 10"
+        },
+        {
+          "subject": "Faut-il toujours dire la vérité ?",
+          "function": "Préciser ce qui est en jeu dans l’exigence de vérité",
+          "reason": "La phrase invite à examiner l’intention et les effets de la parole ; elle ne dispense pas d’une exigence de sincérité envers soi-même.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=71",
+          "sourceLabel": "Recueil académique · p. 71"
+        }
+      ]
+    },
+    {
+      "id": "rousseau-le-calme-vivant",
+      "code": "RR05",
+      "author": "Rousseau",
+      "title": "Le calme vivant",
+      "work": "Les Rêveries du promeneur solitaire",
+      "locator": "Cinquième promenade · p. 102 (PDF p. 174)",
+      "quote": "Sans mouvement, la vie n’est qu’une letargie.",
+      "notions": [
+        "bonheur",
+        "temps",
+        "nature"
+      ],
+      "edition": "Édition critique publiée par John S. Spink, d’après les manuscrits autographes",
+      "publisher": "Librairie Marcel Didier",
+      "editionYear": 1948,
+      "translator": null,
+      "originalLanguage": "français",
+      "situation": "À propos de la rêverie au bord du lac, Rousseau décrit le mouvement modéré qui accompagne une tranquillité heureuse.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La tranquillité heureuse se confond-elle avec une absence complète de mouvement ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Rousseau soutient qu’une vie entièrement immobile tomberait dans une forme d’engourdissement."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La léthargie désigne ici l’effacement du sentiment de vivre, distinct du calme d’une conscience éveillée."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Un mouvement doux et régulier peut entretenir ce sentiment sans provoquer les inquiétudes d’une agitation excessive."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Le bruit des vagues et les variations paisibles du lac accompagnent ainsi sa rêverie au lieu de la disperser."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Il s’agit donc de chercher une tranquillité vivante, sans faire de l’activité incessante une condition du bonheur."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Le bonheur se trouve-t-il dans le repos ?",
+          "function": "Distinguer le repos de l’engourdissement",
+          "reason": "La rêverie demande du calme et un mouvement modéré ; préciser ce qu’un repos heureux laisse subsister de vie sensible.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=13",
+          "sourceLabel": "Recueil académique · p. 13"
+        },
+        {
+          "subject": "Vivre et exister, est-ce la même chose ?",
+          "function": "Introduire la question du sentiment de vivre",
+          "reason": "L’opposition entre mouvement et léthargie permet d’examiner la présence à son existence ; elle ne fournit pas une définition biologique de la vie.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=102",
+          "sourceLabel": "Recueil académique · p. 102"
+        }
+      ]
+    },
+    {
+      "id": "rousseau-la-dette-et-le-don",
+      "code": "RR06",
+      "author": "Rousseau",
+      "title": "La dette et le don",
+      "work": "Les Rêveries du promeneur solitaire",
+      "locator": "Sixième promenade · p. 113 (PDF p. 193)",
+      "quote": "Quand je paye une dette c’est un devoir que je remplis; quand je fais un don c’est un plaisir que je me donne.",
+      "notions": [
+        "devoir",
+        "liberte",
+        "bonheur"
+      ],
+      "edition": "Édition critique publiée par John S. Spink, d’après les manuscrits autographes",
+      "publisher": "Librairie Marcel Didier",
+      "editionYear": 1948,
+      "translator": null,
+      "originalLanguage": "français",
+      "situation": "Rousseau compare le service librement offert et l’attente qui finit par le transformer en obligation.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Accomplir une obligation et faire spontanément plaisir à quelqu’un sont-ils vécus de la même manière ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Rousseau oppose le devoir de payer une dette au plaisir qu’il éprouve à faire un don."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La dette implique une obligation préalable, tandis que le don se présente ici comme une initiative libre."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une attente imposée peut changer le sens affectif du même geste en faisant disparaître sa spontanéité."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Le service autrefois offert avec joie peut devenir pesant lorsque son bénéficiaire le réclame comme un dû."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Cette différence ne rend pas devoir et plaisir incompatibles, puisque Rousseau ajoute que l’habitude de la vertu peut les réunir."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Faire son devoir exclut-il tout plaisir ?",
+          "function": "Distinguer une opposition vécue et une incompatibilité de principe",
+          "reason": "La dette et le don ne procurent pas ici le même plaisir, mais la suite admet un plaisir propre à l’exercice habituel du devoir.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=23",
+          "sourceLabel": "Recueil académique · p. 23"
+        },
+        {
+          "subject": "Peut-on rester libre et se sentir obligé ?",
+          "function": "Examiner le passage de l’initiative à l’exigence",
+          "reason": "L’attente d’autrui peut peser sur le geste ; distinguer cette contrainte ressentie de l’adhésion libre à une obligation reconnue.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=22",
+          "sourceLabel": "Recueil académique · p. 22"
+        }
+      ]
+    },
+    {
+      "id": "rousseau-soublier-pour-mediter",
+      "code": "RR07",
+      "author": "Rousseau",
+      "title": "S’oublier pour méditer",
+      "work": "Les Rêveries du promeneur solitaire",
+      "locator": "Septième promenade · p. 135 (PDF p. 215)",
+      "quote": "Je ne médite, je ne rêve jamais plus délicieusement que quand je m’oublie moi-même.",
+      "notions": [
+        "conscience",
+        "nature",
+        "bonheur"
+      ],
+      "edition": "Édition critique publiée par John S. Spink, d’après les manuscrits autographes",
+      "publisher": "Librairie Marcel Didier",
+      "editionYear": 1948,
+      "translator": null,
+      "originalLanguage": "français",
+      "situation": "La contemplation des plantes détourne Rousseau de ses intérêts personnels et lui donne le sentiment de participer à la nature entière.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La conscience doit-elle toujours se prendre elle-même pour centre ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Rousseau décrit une méditation plus heureuse lorsqu’il cesse de se préoccuper de lui-même."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "S’oublier signifie ici suspendre ses intérêts particuliers, sans perdre toute conscience de ce qui est éprouvé."
+        },
+        {
+          "function": "La raison",
+          "sentence": "L’attention devient disponible pour les êtres environnants lorsque les soucis personnels cessent de l’occuper entièrement."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Au milieu des plantes, il se sent participer à un ensemble qui dépasse les limites de son histoire individuelle."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le passage permet de penser une ouverture de la conscience au monde, plutôt que son abolition dans une inconscience heureuse."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La conscience n’est-elle tournée que vers elle-même ?",
+          "function": "Montrer une conscience ouverte au monde",
+          "reason": "Rousseau ne cesse pas de sentir : il décrit une attention libérée de la préoccupation personnelle et dirigée vers la nature.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=18",
+          "sourceLabel": "Recueil académique · p. 18"
+        },
+        {
+          "subject": "L’inconscience est-elle la condition du bonheur ?",
+          "function": "Distinguer oubli de soi et disparition de la conscience",
+          "reason": "La rêverie demeure une expérience consciente ; le bonheur peut demander de moins se préoccuper de soi sans ne plus rien éprouver.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=14",
+          "sourceLabel": "Recueil académique · p. 14"
+        }
+      ]
+    },
+    {
+      "id": "rousseau-un-fragment-pour-retrouver-un-monde",
+      "code": "RR08",
+      "author": "Rousseau",
+      "title": "Un fragment pour retrouver un monde",
+      "work": "Les Rêveries du promeneur solitaire",
+      "locator": "Septième promenade · p. 151 (PDF p. 231)",
+      "quote": "Les fragmens des plantes que j’y ai cueillies suffisent pour me rappeller tout ce magnifique spectacle.",
+      "notions": [
+        "temps",
+        "conscience",
+        "nature"
+      ],
+      "edition": "Édition critique publiée par John S. Spink, d’après les manuscrits autographes",
+      "publisher": "Librairie Marcel Didier",
+      "editionYear": 1948,
+      "translator": null,
+      "originalLanguage": "français",
+      "situation": "Feuilleter son herbier permet à Rousseau de retrouver par le souvenir les paysages de ses anciennes excursions.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Comment un objet minuscule peut-il rendre présent tout un moment disparu ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Rousseau décrit des fragments de plantes qui réveillent le souvenir d’un paysage entier."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La trace matérielle conservée se distingue du passé lui-même, mais elle peut en relancer l’évocation."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Les sensations et les circonstances associées à la plante donnent au fragment une richesse absente de sa seule apparence."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une feuille de son herbier fait ainsi revenir les bois, les rochers et les eaux aperçus lors de la cueillette."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le passage montre une médiation matérielle de la mémoire, sans garantir que le souvenir restitue intégralement les faits passés."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Tout s’en va-t-il avec le temps ?",
+          "function": "Distinguer disparition et possibilité de remémoration",
+          "reason": "Le paysage ne subsiste pas dans le fragment, mais une trace permet d’en retrouver l’expérience par la mémoire.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=65",
+          "sourceLabel": "Recueil académique · p. 65"
+        },
+        {
+          "subject": "Pourquoi revenir sur le passé ?",
+          "function": "Montrer un retour qui enrichit l’expérience présente",
+          "reason": "L’herbier réveille un monde de sensations et d’affections ; examiner ce que cette reprise apporte sans l’assimiler à un retour réel en arrière.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=66",
+          "sourceLabel": "Recueil académique · p. 66"
+        }
+      ]
+    },
+    {
+      "id": "rousseau-combattre-lopinion-sous-son-joug",
+      "code": "RR09",
+      "author": "Rousseau",
+      "title": "Combattre l’opinion sous son joug",
+      "work": "Les Rêveries du promeneur solitaire",
+      "locator": "Huitième promenade · p. 159–160 (PDF p. 239–240)",
+      "quote": "Quand je m’élevois avec tant d’ardeur contre l’opinion, je portois encor son joug sans que je m’en apperçusse.",
+      "notions": [
+        "liberte",
+        "conscience",
+        "raison"
+      ],
+      "edition": "Édition critique publiée par John S. Spink, d’après les manuscrits autographes",
+      "publisher": "Librairie Marcel Didier",
+      "editionYear": 1948,
+      "translator": null,
+      "originalLanguage": "français",
+      "situation": "Rousseau reconnaît que son opposition au jugement public conservait encore le désir d’en obtenir une appréciation favorable.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "S’opposer au jugement des autres suffit-il à devenir indépendant de lui ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Rousseau reconnaît avoir porté le joug de l’opinion au moment même où il la combattait."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’opposition manifeste un refus, tandis que l’indépendance demande de ne plus régler entièrement sa conduite sur le jugement combattu."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Celui qui veut avant tout faire reconnaître son mépris demeure attaché à l’approbation de ceux auxquels il s’oppose."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Rousseau découvre ainsi que son ardeur contre le public conservait un souci de l’estime publique."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Cette analyse invite à examiner les motifs d’une révolte, sans assimiler toute contestation à une dépendance cachée."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Suffit-il de se sentir libre pour l’être ?",
+          "function": "Opposer le sentiment d’indépendance à l’examen de ses motifs",
+          "reason": "La contestation peut procurer une impression de liberté alors que le jugement rejeté continue de commander la conduite.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=39",
+          "sourceLabel": "Recueil académique · p. 39"
+        },
+        {
+          "subject": "Peut-on être soi-même sans les autres ?",
+          "function": "Examiner une dépendance qui subsiste dans le refus",
+          "reason": "Rousseau montre que combattre autrui peut encore être une manière de vivre sous son regard ; distinguer relation aux autres et soumission à leur opinion.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=82",
+          "sourceLabel": "Recueil académique · p. 82"
+        }
+      ]
+    },
+    {
+      "id": "rousseau-se-recueillir-pour-aimer",
+      "code": "RR10",
+      "author": "Rousseau",
+      "title": "Se recueillir pour aimer",
+      "work": "Les Rêveries du promeneur solitaire",
+      "locator": "Dixième promenade · p. 208 (PDF p. 288)",
+      "quote": "J’ai besoin de me recueillir pour aimer.",
+      "notions": [
+        "conscience",
+        "bonheur",
+        "liberte"
+      ],
+      "edition": "Édition critique publiée par John S. Spink, d’après les manuscrits autographes",
+      "publisher": "Librairie Marcel Didier",
+      "editionYear": 1948,
+      "translator": null,
+      "originalLanguage": "français",
+      "situation": "Évoquant Mme de Warens, Rousseau relie le calme de la solitude à la possibilité de laisser croître ses sentiments affectueux.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Le retrait dans la solitude éloigne-t-il nécessairement des autres ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Rousseau présente le recueillement comme une condition de son affection."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Se recueillir consiste ici à rassembler son attention, tandis qu’aimer suppose de se rendre disponible à un autre être."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Le tumulte disperse les sentiments que le calme permet au contraire d’éprouver et de laisser croître."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "En évoquant sa vie auprès de Mme de Warens, il associe ainsi la retraite champêtre à l’intimité affective."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Sa phrase montre une solitude qui prépare la relation, sans établir qu’il faudrait toujours être seul pour aimer."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La solitude est-elle sans valeur ?",
+          "function": "Montrer la valeur relationnelle d’un retrait",
+          "reason": "Le recueillement permet de mieux aimer : la solitude peut soutenir un lien au lieu de le supprimer.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=82",
+          "sourceLabel": "Recueil académique · p. 82"
+        },
+        {
+          "subject": "La présence d’autrui nous évite-t-elle la solitude ?",
+          "function": "Distinguer proximité physique et disponibilité affective",
+          "reason": "La relation ne se réduit pas à la présence continuelle ; un temps de retrait peut rendre l’attention à autrui plus profonde.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=80",
+          "sourceLabel": "Recueil académique · p. 80"
+        }
+      ]
+    },
+    {
+      "id": "rousseau-etre-autre-sans-etre-meilleur",
+      "code": "RC01",
+      "author": "Rousseau",
+      "title": "Être autre sans être meilleur",
+      "work": "Les Confessions",
+      "locator": "Livre I · p. 43 (PDF p. 47)",
+      "quote": "Si je ne vaux pas mieux, au moins je suis autre.",
+      "notions": [
+        "conscience",
+        "justice"
+      ],
+      "edition": "Tome I, présentation de Michel Launay, Garnier-Flammarion",
+      "publisher": "Flammarion",
+      "editionYear": 1968,
+      "translator": null,
+      "originalLanguage": "français",
+      "situation": "Au seuil de son autoportrait, Rousseau affirme sa singularité sans la confondre avec une supériorité morale.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Reconnaître une différence entre les personnes oblige-t-il à les classer ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Rousseau affirme être autre, même s’il ne vaut pas mieux que les autres hommes."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La singularité désigne une manière propre d’exister, tandis que la supériorité suppose une comparaison selon un critère de valeur."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une vie peut donc mériter d’être comprise dans sa particularité sans être proposée comme un modèle."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Le projet des Confessions donne ainsi à lire des fautes et des contradictions aussi bien que des qualités."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La formule permet de distinguer la connaissance d’une personne de son classement moral, sans dispenser de juger ses actes."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Pour être soi-même, faut-il se différencier des autres ?",
+          "function": "Distinguer singularité et recherche de supériorité",
+          "reason": "Être différent ne signifie pas nécessairement chercher à surpasser autrui ; examiner ce qui constitue une histoire personnelle.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=82",
+          "sourceLabel": "Recueil académique · p. 82"
+        },
+        {
+          "subject": "Les différences sont-elles des inégalités ?",
+          "function": "Dissocier différence et hiérarchie de valeur",
+          "reason": "La formule affirme une différence sans conclure à une valeur supérieure ; préciser ensuite quand une différence devient une inégalité.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=30",
+          "sourceLabel": "Recueil académique · p. 30"
+        }
+      ]
+    },
+    {
+      "id": "rousseau-sentir-avant-de-penser",
+      "code": "RC02",
+      "author": "Rousseau",
+      "title": "Sentir avant de penser",
+      "work": "Les Confessions",
+      "locator": "Livre I · p. 46 (PDF p. 50)",
+      "quote": "Je sentis avant de penser : c’est le sort commun de l’humanité.",
+      "notions": [
+        "conscience",
+        "raison"
+      ],
+      "edition": "Tome I, présentation de Michel Launay, Garnier-Flammarion",
+      "publisher": "Flammarion",
+      "editionYear": 1968,
+      "translator": null,
+      "originalLanguage": "français",
+      "situation": "Rousseau évoque les émotions éveillées par ses premières lectures avant qu’il sache clairement comprendre ce qu’il éprouvait.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Notre vie intérieure commence-t-elle par des idées clairement comprises ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Rousseau affirme avoir d’abord senti avant de pouvoir penser ce qu’il éprouvait."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Sentir désigne ici une expérience affective, tandis que penser implique une élaboration plus distincte de ses objets."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Les émotions peuvent nous atteindre avant que nous sachions les expliquer ou en reconnaître les causes."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Les romans lus dans son enfance lui font ainsi éprouver des passions dont il ne possède pas encore l’expérience vécue."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Cette évocation souligne la profondeur affective de la pensée, sans démontrer à elle seule une loi scientifique du développement humain."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Peut-on penser sans sentir ?",
+          "function": "Interroger la dépendance de la pensée à la sensibilité",
+          "reason": "Le récit donne à l’émotion une antériorité dans la formation de la vie intérieure ; distinguer cette origine de la validité d’un raisonnement.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=18",
+          "sourceLabel": "Recueil académique · p. 18"
+        },
+        {
+          "subject": "L’art transforme-t-il notre conscience du réel ?",
+          "function": "Montrer une formation de la sensibilité par la fiction",
+          "reason": "Les lectures éveillent des affects avant l’expérience des situations racontées ; l’œuvre modifie ainsi les manières de percevoir et d’attendre.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=8",
+          "sourceLabel": "Recueil académique · p. 8"
+        }
+      ]
+    },
+    {
+      "id": "rousseau-laveu-et-la-honte",
+      "code": "RC03",
+      "author": "Rousseau",
+      "title": "L’aveu et la honte",
+      "work": "Les Confessions",
+      "locator": "Livre I · p. 55 (PDF p. 59)",
+      "quote": "Ce n’est pas ce qui est criminel qui coûte le plus à dire, c’est ce qui est ridicule et honteux.",
+      "notions": [
+        "conscience",
+        "verite",
+        "devoir"
+      ],
+      "edition": "Tome I, présentation de Michel Launay, Garnier-Flammarion",
+      "publisher": "Flammarion",
+      "editionYear": 1968,
+      "translator": null,
+      "originalLanguage": "français",
+      "situation": "Après un aveu intime, Rousseau remarque que la peur du ridicule peut rendre une confession plus difficile que celle d’une faute.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La difficulté d’un aveu mesure-t-elle la gravité de ce que nous avons fait ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Rousseau soutient que le ridicule et la honte peuvent coûter davantage à dire que le crime."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La honte concerne notamment l’image de soi exposée au regard d’autrui, tandis que la culpabilité concerne une faute commise."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La crainte d’être méprisé peut retenir la parole indépendamment du tort réellement causé."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une maladresse sans victime peut ainsi être plus difficile à raconter qu’une action grave dont on assume le récit."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Cette distinction invite à examiner ce qui résiste dans l’aveu, sans minimiser la responsabilité attachée aux actes criminels."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La conscience peut-elle nous cacher ce que nous sommes ?",
+          "function": "Montrer une résistance liée à l’image de soi",
+          "reason": "Ce qui menace notre représentation de nous-mêmes peut devenir difficile à avouer ; distinguer cette résistance de l’ignorance du fait.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=20",
+          "sourceLabel": "Recueil académique · p. 20"
+        },
+        {
+          "subject": "Faut-il toujours dire la vérité ?",
+          "function": "Identifier un coût de la sincérité distinct du jugement moral",
+          "reason": "Le vrai peut exposer au ridicule sans révéler une faute grave ; examiner ce qui rend l’aveu difficile avant d’en déterminer le devoir.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=71",
+          "sourceLabel": "Recueil académique · p. 71"
+        }
+      ]
+    },
+    {
+      "id": "rousseau-payer-ses-coups-pour-voler",
+      "code": "RC04",
+      "author": "Rousseau",
+      "title": "Payer ses coups pour voler",
+      "work": "Les Confessions",
+      "locator": "Livre I · p. 71 (PDF p. 75)",
+      "quote": "Je jugeais que me battre comme fripon, c’était m’autoriser à l’être.",
+      "notions": [
+        "justice",
+        "devoir",
+        "liberte"
+      ],
+      "edition": "Tome I, présentation de Michel Launay, Garnier-Flammarion",
+      "publisher": "Flammarion",
+      "editionYear": 1968,
+      "translator": null,
+      "originalLanguage": "français",
+      "situation": "Maltraité chez son maître d’apprentissage, le jeune Rousseau interprète les coups reçus comme une compensation qui lui permettrait de voler.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une punition empêche-t-elle nécessairement la conduite qu’elle condamne ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Rousseau raconte avoir interprété les coups de son maître comme une autorisation de devenir fripon."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La sanction cesse alors de rappeler une règle et devient, dans son raisonnement, le prix supposé d’une transgression."
+        },
+        {
+          "function": "La raison",
+          "sentence": "En estimant avoir déjà payé par la souffrance, il transforme la peine subie en justification de nouvelles fautes."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Dans cet apprentissage, les mauvais traitements nourrissent ainsi la volonté de voler au lieu de la faire disparaître."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le récit critique un effet possible de la violence punitive, sans valider l’excuse que le jeune homme se donnait."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Est-ce pour prévenir la récidive que la justice punit ?",
+          "function": "Éprouver les effets éducatifs attendus de la peine",
+          "reason": "Le récit montre une sanction interprétée comme paiement ; distinguer cette maltraitance privée d’une peine publique et examiner ce qui prévient réellement la récidive.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=30",
+          "sourceLabel": "Recueil académique · p. 30"
+        },
+        {
+          "subject": "Le malheur donne-t-il le droit d’être injuste ?",
+          "function": "Analyser une justification trompeuse de l’injustice",
+          "reason": "Les coups expliquent le raisonnement de l’apprenti sans rendre son vol juste ; distinguer la cause d’un acte et son autorisation morale.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=14",
+          "sourceLabel": "Recueil académique · p. 14"
+        }
+      ]
+    },
+    {
+      "id": "rousseau-voler-le-talent-avec-ses-uvres",
+      "code": "RC05",
+      "author": "Rousseau",
+      "title": "Voler le talent avec ses œuvres",
+      "work": "Les Confessions",
+      "locator": "Livre I · p. 71 (PDF p. 75)",
+      "quote": "je croyais voler le talent avec ses productions.",
+      "notions": [
+        "art",
+        "travail",
+        "technique"
+      ],
+      "edition": "Tome I, présentation de Michel Launay, Garnier-Flammarion",
+      "publisher": "Flammarion",
+      "editionYear": 1968,
+      "translator": null,
+      "originalLanguage": "français",
+      "situation": "Apprenti graveur, Rousseau dérobe des outils et des productions de son maître en imaginant s’approprier aussi son savoir-faire.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Posséder les résultats d’un travail permet-il de posséder le talent qui les produit ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Le jeune Rousseau croit pouvoir voler un talent en dérobant ses productions."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’objet réalisé se distingue de la capacité acquise par laquelle il a été fabriqué."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Des outils et des modèles peuvent aider à apprendre, mais leur possession ne transmet pas immédiatement la maîtrise du geste."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "L’apprenti s’empare ainsi d’empreintes et d’ouvrages sans acquérir par ce seul vol l’habileté de son maître."
+        },
+        {
+          "function": "La portée",
+          "sentence": "L’erreur racontée fait voir la différence entre avoir une œuvre et savoir la produire, sans nier le rôle formateur des modèles."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’activité artistique est-elle un travail ?",
+          "function": "Distinguer le résultat visible et la capacité acquise",
+          "reason": "Le talent ne se transporte pas avec l’objet volé ; examiner l’exercice et l’apprentissage nécessaires à la production artistique.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6"
+        },
+        {
+          "subject": "Est-ce en imitant qu’on devient artiste ?",
+          "function": "Préciser les conditions d’un usage formateur des modèles",
+          "reason": "Disposer de productions à imiter ne suffit pas ; l’imitation doit devenir une activité d’apprentissage et de transformation du geste.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6"
+        }
+      ]
+    },
+    {
+      "id": "rousseau-la-foi-recue",
+      "code": "RC06",
+      "author": "Rousseau",
+      "title": "La foi reçue",
+      "work": "Les Confessions",
+      "locator": "Livre II · p. 99 (PDF p. 103)",
+      "quote": "la foi dogmatique est un fruit de l’éducation.",
+      "notions": [
+        "religion",
+        "raison",
+        "verite"
+      ],
+      "edition": "Tome I, présentation de Michel Launay, Garnier-Flammarion",
+      "publisher": "Flammarion",
+      "editionYear": 1968,
+      "translator": null,
+      "originalLanguage": "français",
+      "situation": "À propos de sa conversion, Rousseau distingue les doctrines religieuses apprises de ce qu’un enfant peut comprendre par lui-même.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Nos convictions religieuses sont-elles indépendantes de ce que l’on nous a enseigné ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Rousseau présente la foi dogmatique comme le produit d’une éducation."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La foi dogmatique désigne ici l’adhésion à des doctrines déterminées, distincte d’un simple sentiment religieux."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Le milieu dans lequel un enfant grandit lui transmet des croyances avant qu’il puisse en discuter les fondements."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Rousseau remarque ainsi qu’il reprenait les convictions inculquées autour de lui sans encore les comprendre pleinement."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Expliquer cette transmission invite à un examen personnel, mais ne suffit pas à prouver que toute croyance reçue serait fausse."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La religion est-elle une production culturelle comme les autres ?",
+          "function": "Identifier la transmission des doctrines religieuses",
+          "reason": "La foi dogmatique dépend ici d’un apprentissage ; distinguer cette formation culturelle de la question de la vérité et du sens des croyances.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=53",
+          "sourceLabel": "Recueil académique · p. 53"
+        },
+        {
+          "subject": "Peut-on expliquer la croyance religieuse sans la détruire ?",
+          "function": "Séparer l’origine d’une conviction et sa justification",
+          "reason": "Une croyance apprise peut ensuite être examinée et reprise ; sa provenance éducative ne constitue pas à elle seule une réfutation.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=53",
+          "sourceLabel": "Recueil académique · p. 53"
+        }
+      ]
+    },
+    {
+      "id": "rousseau-des-impromptus-a-loisir",
+      "code": "RC07",
+      "author": "Rousseau",
+      "title": "Des impromptus à loisir",
+      "work": "Les Confessions",
+      "locator": "Livre III · p. 151 (PDF p. 155)",
+      "quote": "je fais d’excellents impromptus à loisir",
+      "notions": [
+        "art",
+        "temps",
+        "travail"
+      ],
+      "edition": "Tome I, présentation de Michel Launay, Garnier-Flammarion",
+      "publisher": "Flammarion",
+      "editionYear": 1968,
+      "translator": null,
+      "originalLanguage": "français",
+      "situation": "Décrivant la lenteur avec laquelle ses idées se forment, Rousseau oppose son écriture préparée à sa difficulté de répondre immédiatement.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Ce qui paraît spontané doit-il nécessairement naître dans l’instant ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Rousseau associe paradoxalement l’impromptu à la disponibilité d’un temps de préparation."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’impromptu suggère une invention immédiate, tandis que le loisir désigne le temps nécessaire à l’élaboration."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La vivacité d’une expression peut résulter d’une maturation que son destinataire ne voit pas."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Rousseau précise ainsi que ses manuscrits raturés témoignent du travail qui précède la clarté de ses formulations."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Sa formule permet de distinguer l’effet de spontanéité et les conditions de création, sans nier toute invention véritablement immédiate."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Faut-il recourir à la notion d’inspiration pour rendre compte de la production artistique ?",
+          "function": "Rendre visible une préparation derrière la spontanéité",
+          "reason": "L’expression vive peut venir après un long travail ; l’apparence d’aisance ne suffit pas à expliquer l’œuvre par une inspiration instantanée.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6"
+        },
+        {
+          "subject": "L’activité artistique est-elle un travail ?",
+          "function": "Montrer le travail d’élaboration de la forme",
+          "reason": "Le temps de maturation et les ratures participent à la réussite ; distinguer la peine de la création et l’aisance du résultat.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6"
+        }
+      ]
+    },
+    {
+      "id": "rousseau-douze-heures-et-des-siecles",
+      "code": "RC08",
+      "author": "Rousseau",
+      "title": "Douze heures et des siècles",
+      "work": "Les Confessions",
+      "locator": "Livre IV · p. 177 (PDF p. 181)",
+      "quote": "Douze heures passées ensemble nous valaient des siècles de familiarité.",
+      "notions": [
+        "temps",
+        "conscience",
+        "bonheur"
+      ],
+      "edition": "Tome I, présentation de Michel Launay, Garnier-Flammarion",
+      "publisher": "Flammarion",
+      "editionYear": 1968,
+      "translator": null,
+      "originalLanguage": "français",
+      "situation": "Après une journée avec Mlles de Graffenried et Galley, Rousseau évoque l’intimité née d’une rencontre pourtant très brève.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La durée d’une relation se réduit-elle au nombre d’heures écoulées ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Rousseau donne à douze heures partagées la valeur de siècles de familiarité."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le temps mesuré reste bref, mais la proximité éprouvée lui donne une profondeur affective considérable."
+        },
+        {
+          "function": "La raison",
+          "sentence": "L’intensité d’une expérience peut transformer rapidement le rapport que des personnes entretiennent entre elles."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "La journée de promenade et de jeux racontée dans ce passage lui laisse ainsi le sentiment d’une intimité ancienne."
+        },
+        {
+          "function": "La portée",
+          "sentence": "L’exagération rend sensible la différence entre durée mesurée et durée vécue, sans affirmer que les horloges avancent différemment."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Mesurer le temps, est-ce en faire l’expérience ?",
+          "function": "Distinguer quantité mesurée et intensité vécue",
+          "reason": "Douze heures se mesurent identiquement, mais leur valeur affective déborde ce compte ; examiner ce que la mesure laisse hors de sa description.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=66",
+          "sourceLabel": "Recueil académique · p. 66"
+        },
+        {
+          "subject": "L’éphémère a-t-il de la valeur ?",
+          "function": "Montrer la profondeur d’une rencontre brève",
+          "reason": "La brièveté n’empêche pas la familiarité ni le souvenir durable ; la valeur d’un moment ne se déduit pas seulement de sa durée.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=65",
+          "sourceLabel": "Recueil académique · p. 65"
+        }
+      ]
+    },
+    {
+      "id": "rousseau-une-verite-mal-fondee",
+      "code": "RC09",
+      "author": "Rousseau",
+      "title": "Une vérité mal fondée",
+      "work": "Les Confessions",
+      "locator": "Livre IV · p. 191 (PDF p. 195)",
+      "quote": "lors même qu’on rencontre la vérité, l’on est sujet à se fonder sur des principes trompeurs!",
+      "notions": [
+        "verite",
+        "raison",
+        "science"
+      ],
+      "edition": "Tome I, présentation de Michel Launay, Garnier-Flammarion",
+      "publisher": "Flammarion",
+      "editionYear": 1968,
+      "translator": null,
+      "originalLanguage": "français",
+      "situation": "Un homme découvre que Rousseau ment sur son origine, mais emploie un test qui pourrait aussi tromper un véritable Parisien.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une conclusion vraie garantit-elle la qualité du raisonnement qui y conduit ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Rousseau rappelle qu’on peut rencontrer la vérité en partant de principes trompeurs."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La vérité d’une conclusion se distingue de la solidité des raisons proposées pour la soutenir."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Un indice mal choisi peut confirmer par hasard un fait réel tout en conduisant ailleurs à une erreur."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Ignorer un détail du Marché-Neuf ne prouve pas que l’on n’a jamais vécu à Paris, même si Rousseau mentait alors sur son origine."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le récit invite donc à vérifier la méthode autant que le résultat, sans conclure que toute preuve serait illusoire."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Comment peut-on savoir que l’on a raison ?",
+          "function": "Distinguer conclusion vraie et connaissance justifiée",
+          "reason": "Le soupçon est confirmé, mais son critère reste trompeur ; la réussite ponctuelle ne valide pas le raisonnement.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=51",
+          "sourceLabel": "Recueil académique · p. 51"
+        },
+        {
+          "subject": "Faut-il se méfier des évidences ?",
+          "function": "Mettre à l’épreuve un indice apparemment décisif",
+          "reason": "Le manque d’une connaissance locale semble prouver une origine mensongère ; construire un contre-exemple montre la fragilité de cette évidence.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=20",
+          "sourceLabel": "Recueil académique · p. 20"
+        }
+      ]
+    },
+    {
+      "id": "rousseau-aimer-sans-convoiter",
+      "code": "RC10",
+      "author": "Rousseau",
+      "title": "Aimer sans convoiter",
+      "work": "Les Confessions",
+      "locator": "Livre V · p. 234 (PDF p. 238)",
+      "quote": "Enfin, je l’aimais trop pour la convoiter : voilà ce qu’il y a de plus clair dans mes idées.",
+      "notions": [
+        "bonheur",
+        "conscience",
+        "liberte"
+      ],
+      "edition": "Tome I, présentation de Michel Launay, Garnier-Flammarion",
+      "publisher": "Flammarion",
+      "editionYear": 1968,
+      "translator": null,
+      "originalLanguage": "français",
+      "situation": "Rousseau décrit son attachement à Mme de Warens et la tonalité presque filiale qui rend son désir de possession difficile.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Aimer quelqu’un se confond-il nécessairement avec le désir de le posséder ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Rousseau décrit un amour si tendre qu’il ne se traduit pas par la convoitise."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’attachement à une personne se distingue ici de l’attente d’une jouissance centrée sur soi."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La familiarité affective et presque filiale transforme le sens de la relation au lieu d’en diminuer simplement la force."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Son lien avec Mme de Warens devient ainsi plus tendre sans rendre sa première union physique plus heureuse."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le passage invite à distinguer les formes du désir et de l’amour, sans prétendre que toute affection profonde exclurait la sexualité."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Le désir nous éloigne-t-il d’autrui ?",
+          "function": "Distinguer attachement à une personne et convoitise",
+          "reason": "Le récit montre un amour qui ne se réduit pas à vouloir posséder ; discuter les formes du désir qui rapprochent ou qui enferment l’autre dans une attente.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=81",
+          "sourceLabel": "Recueil académique · p. 81"
+        },
+        {
+          "subject": "Suffit-il d’avoir ce que l’on désire pour être heureux ?",
+          "function": "Distinguer la jouissance obtenue et l’accord affectif",
+          "reason": "L’union désirée ne donne pas automatiquement le bonheur ; considérer l’histoire et la signification du lien, au-delà de la seule satisfaction.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=16",
+          "sourceLabel": "Recueil académique · p. 16"
+        }
+      ]
+    },
+    {
+      "id": "rousseau-vivre-et-sepuiser-par-ses-passions",
+      "code": "RC11",
+      "author": "Rousseau",
+      "title": "Vivre et s’épuiser par ses passions",
+      "work": "Les Confessions",
+      "locator": "Livre V · p. 255 (PDF p. 259)",
+      "quote": "Mes passions m’ont fait vivre, et mes passions m’ont tué.",
+      "notions": [
+        "bonheur",
+        "conscience",
+        "liberte"
+      ],
+      "edition": "Tome I, présentation de Michel Launay, Garnier-Flammarion",
+      "publisher": "Flammarion",
+      "editionYear": 1968,
+      "translator": null,
+      "originalLanguage": "français",
+      "situation": "Rousseau attribue à l’intensité de ses passions aussi bien la force de son existence que son épuisement physique.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Ce qui donne de l’intensité à la vie peut-il aussi l’épuiser ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Rousseau attribue à ses passions le double effet de le faire vivre et de le détruire."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La passion désigne ici un investissement qui mobilise fortement les sensations, l’imagination et les forces du corps."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La même intensité nourrit l’attachement aux choses et rend difficile toute mesure dans la manière de s’y livrer."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Il évoque notamment la musique et les lectures auxquelles il se donne avec une ardeur qui finit par le fatiguer."
+        },
+        {
+          "function": "La portée",
+          "sentence": "L’expression dramatise cette ambivalence sans constituer un diagnostic médical ni établir que toute passion serait nécessairement destructrice."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Toute passion est-elle déraisonnable ?",
+          "function": "Distinguer la puissance d’un attachement et son dérèglement",
+          "reason": "Le même élan anime et épuise ; examiner les conditions d’une passion féconde plutôt que condamner toute intensité.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=52",
+          "sourceLabel": "Recueil académique · p. 52"
+        },
+        {
+          "subject": "Être raisonnable, est-ce faire taire ses désirs ?",
+          "function": "Poser le problème d’une mesure qui ne supprime pas la vie affective",
+          "reason": "Si les passions font aussi vivre, leur extinction ne peut être tenue immédiatement pour l’idéal ; discuter leur orientation et leurs limites.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=51",
+          "sourceLabel": "Recueil académique · p. 51"
+        }
+      ]
+    },
+    {
+      "id": "rousseau-une-confiance-sans-contrainte",
+      "code": "RC12",
+      "author": "Rousseau",
+      "title": "Une confiance sans contrainte",
+      "work": "Les Confessions",
+      "locator": "Livre VI · p. 273 (PDF p. 277)",
+      "quote": "Je voulais qu’ils m’aimassent en liberté.",
+      "notions": [
+        "nature",
+        "devoir",
+        "liberte"
+      ],
+      "edition": "Tome I, présentation de Michel Launay, Garnier-Flammarion",
+      "publisher": "Flammarion",
+      "editionYear": 1968,
+      "translator": null,
+      "originalLanguage": "français",
+      "situation": "Rousseau évoque les animaux apprivoisés, notamment ses pigeons, et la confiance qu’il souhaite leur inspirer sans la trahir.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une relation avec l’animal peut-elle viser autre chose que son obéissance ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Rousseau souhaite être aimé des animaux tout en les laissant libres de venir à lui."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La confiance se distingue ici d’une docilité obtenue par la peur ou par une contrainte immédiate."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Elle demande que l’animal puisse approcher sans que sa vulnérabilité soit utilisée contre lui."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Les pigeons familiers viennent sur ses bras et sur sa tête parce qu’il les a accoutumés à ne pas le craindre."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Ce souhait ouvre une réflexion sur les limites de la domination, sans prouver que l’attachement animal serait identique à l’amour humain."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Avons-nous des devoirs envers la nature ?",
+          "function": "Donner un contenu concret à la responsabilité envers les animaux",
+          "reason": "Ne pas trahir une confiance suscitée engage la conduite humaine ; discuter ce devoir sans supposer que les animaux contractent comme des personnes.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=23",
+          "sourceLabel": "Recueil académique · p. 23"
+        },
+        {
+          "subject": "Le projet de maîtriser la nature est-il raisonnable ?",
+          "function": "Distinguer coopération et domination sans limites",
+          "reason": "La relation recherchée laisse à l’animal une liberté de mouvement ; examiner ce que la maîtrise ferait perdre en imposant seulement l’obéissance.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=47",
+          "sourceLabel": "Recueil académique · p. 47"
+        }
+      ]
+    },
+    {
+      "id": "rousseau-se-sentir-petit-et-lame-elevee",
+      "code": "RC13",
+      "author": "Rousseau",
+      "title": "Se sentir petit et l’âme élevée",
+      "work": "Les Confessions",
+      "locator": "Livre VI · p. 294 (PDF p. 298)",
+      "quote": "Je sentais, tout en me faisant petit, je ne sais quoi qui m’élevait l’âme",
+      "notions": [
+        "art",
+        "conscience",
+        "technique"
+      ],
+      "edition": "Tome I, présentation de Michel Launay, Garnier-Flammarion",
+      "publisher": "Flammarion",
+      "editionYear": 1968,
+      "translator": null,
+      "originalLanguage": "français",
+      "situation": "Devant le pont du Gard, Rousseau éprouve sa petitesse corporelle et admire la puissance humaine manifestée par le monument.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Pourquoi la petitesse éprouvée devant un monument peut-elle s’accompagner d’une élévation intérieure ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Rousseau décrit une admiration qui le fait se sentir petit tout en lui élevant l’âme."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La petitesse concerne sa place sensible dans l’espace, tandis que l’élévation désigne la valeur qu’il éprouve dans cette rencontre."
+        },
+        {
+          "function": "La raison",
+          "sentence": "L’immensité de l’ouvrage dépasse son corps mais lui rend présente la puissance de ceux qui l’ont construit."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "En parcourant les voûtes du pont du Gard, il se compare à un insecte et admire les bâtisseurs romains."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Cette expérience permet d’interroger une grandeur esthétique qui excède l’agrément, sans réduire la valeur du monument à ses seules dimensions."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’expérience de l’œuvre d’art modifie-t-elle la conscience que nous avons du monde ?",
+          "function": "Analyser une transformation de la relation à soi et à l’espace",
+          "reason": "Le monument change le sentiment de sa propre taille et de la puissance humaine ; la perception devient une expérience de valeur.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=8",
+          "sourceLabel": "Recueil académique · p. 8"
+        },
+        {
+          "subject": "Beauté et utilité sont-elles incompatibles ?",
+          "function": "Montrer qu’un ouvrage utile peut susciter une expérience esthétique",
+          "reason": "L’aqueduc ne cesse pas d’être un ouvrage technique lorsqu’il élève l’âme ; distinguer sa fonction pratique et la grandeur éprouvée devant lui.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6"
+        }
+      ]
+    },
+    {
+      "id": "rousseau-la-vertu-et-la-fierte-de-soi",
+      "code": "RC14",
+      "author": "Rousseau",
+      "title": "La vertu et la fierté de soi",
+      "work": "Les Confessions",
+      "locator": "Livre VI · p. 298 (PDF p. 302)",
+      "quote": "L’orgueil eut peut-être autant de part à ma résolution que la vertu",
+      "notions": [
+        "devoir",
+        "conscience",
+        "verite"
+      ],
+      "edition": "Tome I, présentation de Michel Launay, Garnier-Flammarion",
+      "publisher": "Flammarion",
+      "editionYear": 1968,
+      "translator": null,
+      "originalLanguage": "français",
+      "situation": "Après avoir renoncé à retrouver Mme de Larnage, Rousseau s’interroge sur les motifs de sa résolution et sur sa propre estime.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une conduite conforme au devoir révèle-t-elle toujours un motif purement moral ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Rousseau reconnaît que sa fierté personnelle a peut-être autant guidé sa résolution que la vertu."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La conformité au devoir se distingue du motif qui conduit à l’accomplir, notamment le souci de sa propre estime."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Des motivations différentes peuvent soutenir le même choix et rester difficiles à séparer dans la conscience."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Renoncer à une aventure peut ainsi répondre à la fidélité comme au désir de ne pas démentir l’image que l’on se fait de soi."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Cet examen complique le jugement moral sur les intentions sans retirer toute valeur à une résolution dont les motifs sont mêlés."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Est-ce l’intention qui fait la valeur morale de nos actes ?",
+          "function": "Distinguer l’acte visible et la pluralité de ses motifs",
+          "reason": "Une même renonciation peut procéder de la vertu et de l’orgueil ; discuter ce que cette pluralité change à sa valeur morale.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=115",
+          "sourceLabel": "Recueil académique · p. 115"
+        },
+        {
+          "subject": "Suffit-il d’avoir bonne conscience pour être sûr d’agir moralement ?",
+          "function": "Mettre à l’épreuve la satisfaction de soi",
+          "reason": "L’estime éprouvée après le choix ne certifie pas la pureté de son motif ; la conscience doit encore examiner ce qui l’a guidée.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=18",
+          "sourceLabel": "Recueil académique · p. 18"
+        }
+      ]
+    },
+    {
+      "id": "rousseau-voir-le-mal-sans-pouvoir-y-remedier",
+      "code": "RC15",
+      "author": "Rousseau",
+      "title": "Voir le mal sans pouvoir y remédier",
+      "work": "Les Confessions",
+      "locator": "Livre VI · p. 305 (PDF p. 309)",
+      "quote": "Mais que me servait de voir le mal sans savoir appliquer le remède ?",
+      "notions": [
+        "raison",
+        "technique",
+        "travail"
+      ],
+      "edition": "Tome I, présentation de Michel Launay, Garnier-Flammarion",
+      "publisher": "Flammarion",
+      "editionYear": 1968,
+      "translator": null,
+      "originalLanguage": "français",
+      "situation": "Précepteur chez M. de Mably, Rousseau reconnaît ses erreurs et celles de ses élèves sans parvenir à transformer sa manière de les instruire.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Comprendre ce qui ne va pas suffit-il pour savoir agir efficacement ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Rousseau constate que voir le mal ne lui donnait pas la capacité d’appliquer le remède."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le diagnostic désigne la reconnaissance d’une difficulté, tandis que le savoir pratique concerne les moyens de la résoudre."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une connaissance de la situation reste insuffisante si celui qui agit manque de patience, de méthode ou de maîtrise de soi."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Comme précepteur, il comprend les ruses de ses élèves mais répond par une colère qui rend son enseignement inefficace."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le passage distingue donc comprendre et savoir intervenir, sans conclure que la réflexion serait inutile à l’action."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Les connaissances nous aident-elles à vivre ?",
+          "function": "Distinguer une aide nécessaire et une condition suffisante",
+          "reason": "Le diagnostic peut orienter l’action sans en fournir toute la capacité ; examiner les habitudes et le jugement pratique qui rendent le savoir opérant.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=15",
+          "sourceLabel": "Recueil académique · p. 15"
+        },
+        {
+          "subject": "La valeur d’une théorie se mesure-t-elle à son efficacité pratique ?",
+          "function": "Distinguer justesse de l’analyse et réussite de son application",
+          "reason": "L’échec du précepteur n’établit pas que son analyse soit fausse ; demander quelles médiations permettent de passer de la compréhension à l’intervention.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=104",
+          "sourceLabel": "Recueil académique · p. 104"
+        }
+      ]
     }
   ]
 }

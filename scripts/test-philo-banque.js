@@ -1,9 +1,9 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
 const {select,resolveId}=require('../philosophie-banque.js');
 const data=JSON.parse(fs.readFileSync(path.join(__dirname,'philo-banque-data.json'),'utf8'));
-assert.equal(data.version,2);assert.equal(data.entries.length,221);assert.equal(new Set(data.entries.map(e=>e.id)).size,221);
-assert.equal(data.entries.reduce((n,e)=>n+e.uses.length,0),448);
-assert.equal(new Set(data.entries.flatMap(e=>e.uses.map(u=>u.subject))).size,278);
+assert.equal(data.version,2);assert.equal(data.entries.length,246);assert.equal(new Set(data.entries.map(e=>e.id)).size,246);
+assert.equal(data.entries.reduce((n,e)=>n+e.uses.length,0),498);
+assert.equal(new Set(data.entries.flatMap(e=>e.uses.map(u=>u.subject))).size,308);
 const functions=['Le problème','L’affirmation','Les concepts','La raison','L’exemple','La portée'];
 for(const e of data.entries){
  assert.deepEqual(e.commentary.map(c=>c.function),functions);assert(e.commentary.every(c=>c.sentence.trim().length>25));
@@ -47,6 +47,9 @@ for(const id of ['platon-persuasion','aristote-vertu','nietzsche-liberte'])asser
 assert.equal(resolveId(data,'platon-caverne'),null);
 for(const [oldId,newId] of Object.entries(data.legacyIds))if(newId)assert(data.entries.some(e=>e.id===resolveId(data,oldId)),oldId);
 const pub={window:{}};vm.runInNewContext(fs.readFileSync(path.join(__dirname,'../philosophie-banque-data.js'),'utf8'),pub);assert.equal(JSON.stringify(pub.window.PHILO_BANQUE),JSON.stringify(data));
-const h=fs.readFileSync(path.join(__dirname,'../philosophie-banque.html'),'utf8');assert.equal((h.match(/<details id="citation-/g)||[]).length,221);
-assert(!h.includes('Quinze références'));assert(!h.includes('bank-exercise'));assert.equal((h.match(/<h3>Commentaire<\/h3>/g)||[]).length,221);
-console.log('221 fiches, 448 usages, 278 sujets ; commentaires courts, filtres, anciens liens, sources et catalogue OK.');
+const h=fs.readFileSync(path.join(__dirname,'../philosophie-banque.html'),'utf8');assert.equal((h.match(/<details id="citation-/g)||[]).length,246);
+assert(!h.includes('Quinze références'));assert(!h.includes('bank-exercise'));assert.equal((h.match(/<h3>Commentaire<\/h3>/g)||[]).length,246);
+console.log('246 fiches, 498 usages, 308 sujets ; commentaires courts, filtres, anciens liens, sources et catalogue OK.');
+
+assert.equal(select(data.entries,{author:'Rousseau'}).length,26);
+for(const prefix of ['RR','RC']){const es=data.entries.filter(e=>e.code.startsWith(prefix));assert.equal(es.length,prefix==='RR'?10:15);for(const e of es){assert.equal(e.uses.length,2);assert.equal(e.originalLanguage,'français');assert.equal(e.translator,null);assert(e.locator.includes('PDF p.'));assert(!e.verse);}}

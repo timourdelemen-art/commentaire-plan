@@ -1,6 +1,6 @@
 {
   "status": "citations-courtes-et-commentaires",
-  "owner_decision": "16 octobre 2026 : remplacer les anciennes fiches par la sélection de citations fournie et approuvée, en deux parties dissertation et commentaire. Le même jour : poursuivre selon le même principe avec l’Éthique fournie. Le même jour : intégrer Cioran, écrivain et penseur, à partir des deux ouvrages fournis, après sélection rigoureuse sans quota. Le même jour : développer les usages de « L’Arbre de vie » et de la relecture de la Genèse. Le même jour : poursuivre avec les deux Critiques de Kant fournies, en choisissant des phrases autonomes et des emplois précis sur deux ou trois sujets du bac. Le même jour : intégrer une sélection philosophique de Baudelaire et Racine à partir des deux volumes fournis, avec un ou deux vers conservés exactement, sujets du bac attestés et situation dramatique très brève ; comparer Baudelaire à des éditions consultables en ligne. Le même jour : poursuivre avec Corneille en privilégiant ensemble portée philosophique et beauté ; auditer les 33 choix de Baudelaire et Racine et remplacer les plus faibles. Le même jour : lire intégralement les trois volumes fournis de Bachelard et Freud, sélectionner leurs meilleurs courts extraits pour les dissertations du bac, puis poursuivre le modèle existant. Le même jour : poursuivre la sélection rigoureuse et le modèle existant avec les deux ouvrages de Simondon fournis ; courts extraits authentiques, sujets du bac attestés et commentaires originaux. Le même jour : compléter sans doublons à partir des annales d’explication de texte du bac, avec des phrases autonomes, des usages précis et le même modèle de fiche. Le 16 octobre 2026 : intégrer une sélection philosophique et esthétique des Fables de La Fontaine fournies, en recherchant les pépites dans les récits aussi bien que dans les morales ; terminer La Fontaine avant Rousseau.",
+  "owner_decision": "16 octobre 2026 : remplacer les anciennes fiches par la sélection de citations fournie et approuvée, en deux parties dissertation et commentaire. Le même jour : poursuivre selon le même principe avec l’Éthique fournie. Le même jour : intégrer Cioran, écrivain et penseur, à partir des deux ouvrages fournis, après sélection rigoureuse sans quota. Le même jour : développer les usages de « L’Arbre de vie » et de la relecture de la Genèse. Le même jour : poursuivre avec les deux Critiques de Kant fournies, en choisissant des phrases autonomes et des emplois précis sur deux ou trois sujets du bac. Le même jour : intégrer une sélection philosophique de Baudelaire et Racine à partir des deux volumes fournis, avec un ou deux vers conservés exactement, sujets du bac attestés et situation dramatique très brève ; comparer Baudelaire à des éditions consultables en ligne. Le même jour : poursuivre avec Corneille en privilégiant ensemble portée philosophique et beauté ; auditer les 33 choix de Baudelaire et Racine et remplacer les plus faibles. Le même jour : lire intégralement les trois volumes fournis de Bachelard et Freud, sélectionner leurs meilleurs courts extraits pour les dissertations du bac, puis poursuivre le modèle existant. Le même jour : poursuivre la sélection rigoureuse et le modèle existant avec les deux ouvrages de Simondon fournis ; courts extraits authentiques, sujets du bac attestés et commentaires originaux. Le même jour : compléter sans doublons à partir des annales d’explication de texte du bac, avec des phrases autonomes, des usages précis et le même modèle de fiche. Le 16 octobre 2026 : intégrer une sélection philosophique et esthétique des Fables de La Fontaine fournies, en recherchant les pépites dans les récits aussi bien que dans les morales ; terminer La Fontaine avant Rousseau. Le 16 octobre 2026 : poursuivre après les Fables avec Les Rêveries du promeneur solitaire et le tome I des Confessions fournis ; sélection rigoureuse de courtes citations, sujets réels et même modèle de fiche.",
   "source_files": [
     {
       "author": "Platon",
@@ -88,6 +88,14 @@
     {
       "work": "La Fontaine · Fables choisies mises en vers · édition Georges Couton, Bordas, 1990",
       "sha256": "bb8e40449fd98f175692ec03318722381866c394418ada3cdfb262999abf7d96"
+    },
+    {
+      "work": "Rousseau · Les Rêveries du promeneur solitaire, Spink, Marcel Didier, 1948",
+      "sha256": "bd7407d61cfe138b681adb5464f121b57c81d63c4e9bbe512c61f0dfd1c65fd0"
+    },
+    {
+      "work": "Rousseau · Les Confessions, tome I, présentation Michel Launay, Garnier-Flammarion, ©1968",
+      "sha256": "763b5b0428e98366e1f3b76b4888ebb8382b484a318c3287ad01d1fc25a76bd6"
     }
   ],
   "subject_source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf",
@@ -2737,6 +2745,231 @@
       "quote_sha256": "d19944f1e513f24393e1963517a5e830920a9089bf08e6c6b4cb12e5d29de8cf",
       "translator_status": "Texte original français",
       "verification": "Vers contrôlés sur les images du volume fourni ; contexte intégral de la fable lu ; comparaison dans des éditions anciennes documentée dans LA-FONTAINE-SELECTION.md. Ponctuation et graphies de Couton conservées."
+    },
+    {
+      "id": "rousseau-la-menace-et-le-coup",
+      "source_location": "Première promenade · p. 7 (PDF p. 79)",
+      "source_file_sha256": "bd7407d61cfe138b681adb5464f121b57c81d63c4e9bbe512c61f0dfd1c65fd0",
+      "quotation_verified": true,
+      "quote_sha256": "eaa8416124c82aca3cea257f874cf0e0ddc15118f610e4c3988fc3d55af56db7",
+      "translator_status": "Texte original français",
+      "verification": "Passage contrôlé sur l’image de la page du volume fourni ; texte principal des dix promenades et des six livres du tome I lu ; découpage, graphies, contexte et comparaison externe documentés dans ROUSSEAU-SELECTION.md."
+    },
+    {
+      "id": "rousseau-apprendre-trop-tard",
+      "source_location": "Troisième promenade · p. 38 (PDF p. 110)",
+      "source_file_sha256": "bd7407d61cfe138b681adb5464f121b57c81d63c4e9bbe512c61f0dfd1c65fd0",
+      "quotation_verified": true,
+      "quote_sha256": "0f900c58c465eadcb6fb5a8066369f08129cb152c7c7717dc450542c600c0303",
+      "translator_status": "Texte original français",
+      "verification": "Passage contrôlé sur l’image de la page du volume fourni ; texte principal des dix promenades et des six livres du tome I lu ; découpage, graphies, contexte et comparaison externe documentés dans ROUSSEAU-SELECTION.md."
+    },
+    {
+      "id": "rousseau-ce-qui-me-convient-est-il-vrai",
+      "source_location": "Troisième promenade · p. 53 (PDF p. 125)",
+      "source_file_sha256": "bd7407d61cfe138b681adb5464f121b57c81d63c4e9bbe512c61f0dfd1c65fd0",
+      "quotation_verified": true,
+      "quote_sha256": "6d8d4211d2177269be7947d282ac72ac826129b5f86c0bac57a8f397be90d857",
+      "translator_status": "Texte original français",
+      "verification": "Passage contrôlé sur l’image de la page du volume fourni ; texte principal des dix promenades et des six livres du tome I lu ; découpage, graphies, contexte et comparaison externe documentés dans ROUSSEAU-SELECTION.md."
+    },
+    {
+      "id": "rousseau-inventer-sans-mentir",
+      "source_location": "Quatrième promenade · p. 85 (PDF p. 157)",
+      "source_file_sha256": "bd7407d61cfe138b681adb5464f121b57c81d63c4e9bbe512c61f0dfd1c65fd0",
+      "quotation_verified": true,
+      "quote_sha256": "a8cf10cf16a3da9d7f5cb5710e2e9ec852be4ce5e9c4bd710474a42a72c6e938",
+      "translator_status": "Texte original français",
+      "verification": "Passage contrôlé sur l’image de la page du volume fourni ; texte principal des dix promenades et des six livres du tome I lu ; découpage, graphies, contexte et comparaison externe documentés dans ROUSSEAU-SELECTION.md."
+    },
+    {
+      "id": "rousseau-le-calme-vivant",
+      "source_location": "Cinquième promenade · p. 102 (PDF p. 174)",
+      "source_file_sha256": "bd7407d61cfe138b681adb5464f121b57c81d63c4e9bbe512c61f0dfd1c65fd0",
+      "quotation_verified": true,
+      "quote_sha256": "f5d63365bef92a31e7abc858d78017c0cec457d3eacae2b3fdca8b89a7f42427",
+      "translator_status": "Texte original français",
+      "verification": "Passage contrôlé sur l’image de la page du volume fourni ; texte principal des dix promenades et des six livres du tome I lu ; découpage, graphies, contexte et comparaison externe documentés dans ROUSSEAU-SELECTION.md."
+    },
+    {
+      "id": "rousseau-la-dette-et-le-don",
+      "source_location": "Sixième promenade · p. 113 (PDF p. 193)",
+      "source_file_sha256": "bd7407d61cfe138b681adb5464f121b57c81d63c4e9bbe512c61f0dfd1c65fd0",
+      "quotation_verified": true,
+      "quote_sha256": "abfb2d4ef36daa6e70031c0da965f439e6ba6c33d9e2768d0a71e8bd455c6afb",
+      "translator_status": "Texte original français",
+      "verification": "Passage contrôlé sur l’image de la page du volume fourni ; texte principal des dix promenades et des six livres du tome I lu ; découpage, graphies, contexte et comparaison externe documentés dans ROUSSEAU-SELECTION.md."
+    },
+    {
+      "id": "rousseau-soublier-pour-mediter",
+      "source_location": "Septième promenade · p. 135 (PDF p. 215)",
+      "source_file_sha256": "bd7407d61cfe138b681adb5464f121b57c81d63c4e9bbe512c61f0dfd1c65fd0",
+      "quotation_verified": true,
+      "quote_sha256": "7952c742e74e2a63ac08e78e68554ac5e3fb61ead0b31eda0de0af839d6591cc",
+      "translator_status": "Texte original français",
+      "verification": "Passage contrôlé sur l’image de la page du volume fourni ; texte principal des dix promenades et des six livres du tome I lu ; découpage, graphies, contexte et comparaison externe documentés dans ROUSSEAU-SELECTION.md."
+    },
+    {
+      "id": "rousseau-un-fragment-pour-retrouver-un-monde",
+      "source_location": "Septième promenade · p. 151 (PDF p. 231)",
+      "source_file_sha256": "bd7407d61cfe138b681adb5464f121b57c81d63c4e9bbe512c61f0dfd1c65fd0",
+      "quotation_verified": true,
+      "quote_sha256": "7e054d00dc4b10e251b39e31db182db5a97007e775860e5e00f328ddfde223ed",
+      "translator_status": "Texte original français",
+      "verification": "Passage contrôlé sur l’image de la page du volume fourni ; texte principal des dix promenades et des six livres du tome I lu ; découpage, graphies, contexte et comparaison externe documentés dans ROUSSEAU-SELECTION.md."
+    },
+    {
+      "id": "rousseau-combattre-lopinion-sous-son-joug",
+      "source_location": "Huitième promenade · p. 159–160 (PDF p. 239–240)",
+      "source_file_sha256": "bd7407d61cfe138b681adb5464f121b57c81d63c4e9bbe512c61f0dfd1c65fd0",
+      "quotation_verified": true,
+      "quote_sha256": "ac783e7545ed1cfeb73776b6a756cc38c801c3ab39902a3a1c546000644ee656",
+      "translator_status": "Texte original français",
+      "verification": "Passage contrôlé sur l’image de la page du volume fourni ; texte principal des dix promenades et des six livres du tome I lu ; découpage, graphies, contexte et comparaison externe documentés dans ROUSSEAU-SELECTION.md."
+    },
+    {
+      "id": "rousseau-se-recueillir-pour-aimer",
+      "source_location": "Dixième promenade · p. 208 (PDF p. 288)",
+      "source_file_sha256": "bd7407d61cfe138b681adb5464f121b57c81d63c4e9bbe512c61f0dfd1c65fd0",
+      "quotation_verified": true,
+      "quote_sha256": "c51758d1c6020bdd9b1773bb0a2a21daaf9d8ae9977304d85a6cb4fe21e2489c",
+      "translator_status": "Texte original français",
+      "verification": "Passage contrôlé sur l’image de la page du volume fourni ; texte principal des dix promenades et des six livres du tome I lu ; découpage, graphies, contexte et comparaison externe documentés dans ROUSSEAU-SELECTION.md."
+    },
+    {
+      "id": "rousseau-etre-autre-sans-etre-meilleur",
+      "source_location": "Livre I · p. 43 (PDF p. 47)",
+      "source_file_sha256": "763b5b0428e98366e1f3b76b4888ebb8382b484a318c3287ad01d1fc25a76bd6",
+      "quotation_verified": true,
+      "quote_sha256": "0ad3932dfb48a8ca414a9e8f161159703f9b8f96038e8ddb6c521d8213423aa5",
+      "translator_status": "Texte original français",
+      "verification": "Passage contrôlé sur l’image de la page du volume fourni ; texte principal des dix promenades et des six livres du tome I lu ; découpage, graphies, contexte et comparaison externe documentés dans ROUSSEAU-SELECTION.md."
+    },
+    {
+      "id": "rousseau-sentir-avant-de-penser",
+      "source_location": "Livre I · p. 46 (PDF p. 50)",
+      "source_file_sha256": "763b5b0428e98366e1f3b76b4888ebb8382b484a318c3287ad01d1fc25a76bd6",
+      "quotation_verified": true,
+      "quote_sha256": "c2aa12a67b88e15c92b290da50759c6b3bf1d5e4157858baa730434f03f72c75",
+      "translator_status": "Texte original français",
+      "verification": "Passage contrôlé sur l’image de la page du volume fourni ; texte principal des dix promenades et des six livres du tome I lu ; découpage, graphies, contexte et comparaison externe documentés dans ROUSSEAU-SELECTION.md."
+    },
+    {
+      "id": "rousseau-laveu-et-la-honte",
+      "source_location": "Livre I · p. 55 (PDF p. 59)",
+      "source_file_sha256": "763b5b0428e98366e1f3b76b4888ebb8382b484a318c3287ad01d1fc25a76bd6",
+      "quotation_verified": true,
+      "quote_sha256": "6c24d2c887beaf7971ccb3bda5b26e4f92a9f9ba4dccd49a2a249ab9a22b0fd9",
+      "translator_status": "Texte original français",
+      "verification": "Passage contrôlé sur l’image de la page du volume fourni ; texte principal des dix promenades et des six livres du tome I lu ; découpage, graphies, contexte et comparaison externe documentés dans ROUSSEAU-SELECTION.md."
+    },
+    {
+      "id": "rousseau-payer-ses-coups-pour-voler",
+      "source_location": "Livre I · p. 71 (PDF p. 75)",
+      "source_file_sha256": "763b5b0428e98366e1f3b76b4888ebb8382b484a318c3287ad01d1fc25a76bd6",
+      "quotation_verified": true,
+      "quote_sha256": "750587d1c55fc358b1f3a1e39279dc862a49473db51dfdcf5f7b19788b899b74",
+      "translator_status": "Texte original français",
+      "verification": "Passage contrôlé sur l’image de la page du volume fourni ; texte principal des dix promenades et des six livres du tome I lu ; découpage, graphies, contexte et comparaison externe documentés dans ROUSSEAU-SELECTION.md."
+    },
+    {
+      "id": "rousseau-voler-le-talent-avec-ses-uvres",
+      "source_location": "Livre I · p. 71 (PDF p. 75)",
+      "source_file_sha256": "763b5b0428e98366e1f3b76b4888ebb8382b484a318c3287ad01d1fc25a76bd6",
+      "quotation_verified": true,
+      "quote_sha256": "8e80cc4aa6b75ed10d38b342dd1f617db5c06dd568b241a232689e48fbf93774",
+      "translator_status": "Texte original français",
+      "verification": "Passage contrôlé sur l’image de la page du volume fourni ; texte principal des dix promenades et des six livres du tome I lu ; découpage, graphies, contexte et comparaison externe documentés dans ROUSSEAU-SELECTION.md."
+    },
+    {
+      "id": "rousseau-la-foi-recue",
+      "source_location": "Livre II · p. 99 (PDF p. 103)",
+      "source_file_sha256": "763b5b0428e98366e1f3b76b4888ebb8382b484a318c3287ad01d1fc25a76bd6",
+      "quotation_verified": true,
+      "quote_sha256": "c502268aac2ba1d31345489210954ed93571aaf34bea0b3d560534e9d059384a",
+      "translator_status": "Texte original français",
+      "verification": "Passage contrôlé sur l’image de la page du volume fourni ; texte principal des dix promenades et des six livres du tome I lu ; découpage, graphies, contexte et comparaison externe documentés dans ROUSSEAU-SELECTION.md."
+    },
+    {
+      "id": "rousseau-des-impromptus-a-loisir",
+      "source_location": "Livre III · p. 151 (PDF p. 155)",
+      "source_file_sha256": "763b5b0428e98366e1f3b76b4888ebb8382b484a318c3287ad01d1fc25a76bd6",
+      "quotation_verified": true,
+      "quote_sha256": "0c2fa4ece3a39d0e687290e240b7464b04de600754b4c9fcb242dddf8e8fd56f",
+      "translator_status": "Texte original français",
+      "verification": "Passage contrôlé sur l’image de la page du volume fourni ; texte principal des dix promenades et des six livres du tome I lu ; découpage, graphies, contexte et comparaison externe documentés dans ROUSSEAU-SELECTION.md."
+    },
+    {
+      "id": "rousseau-douze-heures-et-des-siecles",
+      "source_location": "Livre IV · p. 177 (PDF p. 181)",
+      "source_file_sha256": "763b5b0428e98366e1f3b76b4888ebb8382b484a318c3287ad01d1fc25a76bd6",
+      "quotation_verified": true,
+      "quote_sha256": "d78f4f658d2c8a497d2d551f3a38153d68f4b078153570d93f4210b912ea5b01",
+      "translator_status": "Texte original français",
+      "verification": "Passage contrôlé sur l’image de la page du volume fourni ; texte principal des dix promenades et des six livres du tome I lu ; découpage, graphies, contexte et comparaison externe documentés dans ROUSSEAU-SELECTION.md."
+    },
+    {
+      "id": "rousseau-une-verite-mal-fondee",
+      "source_location": "Livre IV · p. 191 (PDF p. 195)",
+      "source_file_sha256": "763b5b0428e98366e1f3b76b4888ebb8382b484a318c3287ad01d1fc25a76bd6",
+      "quotation_verified": true,
+      "quote_sha256": "66d5403e0be6cc16ea1e6c0ada3c68b7de9cf7a274c006ed5035873f6a32d307",
+      "translator_status": "Texte original français",
+      "verification": "Passage contrôlé sur l’image de la page du volume fourni ; texte principal des dix promenades et des six livres du tome I lu ; découpage, graphies, contexte et comparaison externe documentés dans ROUSSEAU-SELECTION.md."
+    },
+    {
+      "id": "rousseau-aimer-sans-convoiter",
+      "source_location": "Livre V · p. 234 (PDF p. 238)",
+      "source_file_sha256": "763b5b0428e98366e1f3b76b4888ebb8382b484a318c3287ad01d1fc25a76bd6",
+      "quotation_verified": true,
+      "quote_sha256": "009da9b795ab50be0633249a995295b7b4f4aef40a4cfdaacb4a8c7cf11e5091",
+      "translator_status": "Texte original français",
+      "verification": "Passage contrôlé sur l’image de la page du volume fourni ; texte principal des dix promenades et des six livres du tome I lu ; découpage, graphies, contexte et comparaison externe documentés dans ROUSSEAU-SELECTION.md."
+    },
+    {
+      "id": "rousseau-vivre-et-sepuiser-par-ses-passions",
+      "source_location": "Livre V · p. 255 (PDF p. 259)",
+      "source_file_sha256": "763b5b0428e98366e1f3b76b4888ebb8382b484a318c3287ad01d1fc25a76bd6",
+      "quotation_verified": true,
+      "quote_sha256": "87eebcb3986b3b3a4301836abe098e46009d53cb481a16042eba62ab6e5b1dcb",
+      "translator_status": "Texte original français",
+      "verification": "Passage contrôlé sur l’image de la page du volume fourni ; texte principal des dix promenades et des six livres du tome I lu ; découpage, graphies, contexte et comparaison externe documentés dans ROUSSEAU-SELECTION.md."
+    },
+    {
+      "id": "rousseau-une-confiance-sans-contrainte",
+      "source_location": "Livre VI · p. 273 (PDF p. 277)",
+      "source_file_sha256": "763b5b0428e98366e1f3b76b4888ebb8382b484a318c3287ad01d1fc25a76bd6",
+      "quotation_verified": true,
+      "quote_sha256": "29e657ca6b363e2e173a296ffb116c49779eab56cccfb02e0b851be847648175",
+      "translator_status": "Texte original français",
+      "verification": "Passage contrôlé sur l’image de la page du volume fourni ; texte principal des dix promenades et des six livres du tome I lu ; découpage, graphies, contexte et comparaison externe documentés dans ROUSSEAU-SELECTION.md."
+    },
+    {
+      "id": "rousseau-se-sentir-petit-et-lame-elevee",
+      "source_location": "Livre VI · p. 294 (PDF p. 298)",
+      "source_file_sha256": "763b5b0428e98366e1f3b76b4888ebb8382b484a318c3287ad01d1fc25a76bd6",
+      "quotation_verified": true,
+      "quote_sha256": "8d1c5401da1125a405ef8af151c2df96b14bd26f1cab98aeb0e3e06f7e291d33",
+      "translator_status": "Texte original français",
+      "verification": "Passage contrôlé sur l’image de la page du volume fourni ; texte principal des dix promenades et des six livres du tome I lu ; découpage, graphies, contexte et comparaison externe documentés dans ROUSSEAU-SELECTION.md."
+    },
+    {
+      "id": "rousseau-la-vertu-et-la-fierte-de-soi",
+      "source_location": "Livre VI · p. 298 (PDF p. 302)",
+      "source_file_sha256": "763b5b0428e98366e1f3b76b4888ebb8382b484a318c3287ad01d1fc25a76bd6",
+      "quotation_verified": true,
+      "quote_sha256": "65629c9058e32f40237e1b4ed6fa0e83fb878c6799647a7b93483ef5f6584188",
+      "translator_status": "Texte original français",
+      "verification": "Passage contrôlé sur l’image de la page du volume fourni ; texte principal des dix promenades et des six livres du tome I lu ; découpage, graphies, contexte et comparaison externe documentés dans ROUSSEAU-SELECTION.md."
+    },
+    {
+      "id": "rousseau-voir-le-mal-sans-pouvoir-y-remedier",
+      "source_location": "Livre VI · p. 305 (PDF p. 309)",
+      "source_file_sha256": "763b5b0428e98366e1f3b76b4888ebb8382b484a318c3287ad01d1fc25a76bd6",
+      "quotation_verified": true,
+      "quote_sha256": "8e96c3ce9a4fca08c4ea99d00054f2d1997cfffb1cb9318d606b21f724e57931",
+      "translator_status": "Texte original français",
+      "verification": "Passage contrôlé sur l’image de la page du volume fourni ; texte principal des dix promenades et des six livres du tome I lu ; découpage, graphies, contexte et comparaison externe documentés dans ROUSSEAU-SELECTION.md."
     }
   ],
   "spinoza_edition_note": "La page de titre (part0002.xhtml) attribue édition et traduction à Maxime Rovere, © Flammarion 2021, ISBN numérique 9782080205179. Les noms figurant dans le nom du fichier téléversé ne servent pas à attribuer la traduction.",
