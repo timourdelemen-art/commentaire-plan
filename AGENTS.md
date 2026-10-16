@@ -155,5 +155,7 @@ Prises (9 octobre 2026) :
 
 - **Spinoza** (16 octobre 2026) : le propriétaire demande de poursuivre la banque selon le même principe avec l’*Éthique* fournie ; courts extraits vérifiés dans la traduction de Maxime Rovere (Flammarion, 2021), sujets réels et commentaires originaux.
 
+- **Cioran** (16 octobre 2026) : le propriétaire demande d’intégrer une sélection rigoureuse de courtes phrases des deux livres fournis, *Précis de décomposition* et *La Chute dans le temps*, dans la bibliothèque philosophique. Le présenter comme écrivain et penseur, expliquer les paradoxes et leur portée sans fabriquer de système ni fixer un quota de citations. Même format Dissertation / Commentaire.
+
 En attente :
 - Identité de l’éditeur (mentions légales, CGV, confidentialité) et moyen de paiement, avant toute vente ; pages légales à faire relire par un juriste.
