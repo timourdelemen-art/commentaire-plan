@@ -11446,6 +11446,960 @@
       "translator": null,
       "originalLanguage": "français",
       "editionNote": "Première publication partielle en 1964 ; édition augmentée de 1995. Les pages indiquées sont celles de l’édition imprimée."
+    },
+    {
+      "id": "alain-obeir-et-resister",
+      "code": "AN01",
+      "author": "Alain",
+      "title": "Obéir et résister",
+      "work": "Propos",
+      "locator": "4 septembre 1912 · recueil des textes du bac, p. 689",
+      "quote": "Résistance et obéissance, voilà les deux vertus du citoyen.",
+      "notions": [
+        "etat",
+        "liberte",
+        "devoir"
+      ],
+      "edition": "Sujets de textes de philosophie du bac, 1996–2026, recueil de Marc Anglaret mis à jour par Paul Hamel",
+      "publisher": "Académie de Montpellier",
+      "editionYear": 2026,
+      "translator": null,
+      "originalLanguage": "français",
+      "quoteSource": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-textes-philo-1996-2026.pdf#page=689",
+      "quoteSourceLabel": "Lire le texte du bac · p. 689",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Comment préserver la liberté sans détruire l’ordre commun ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Alain demande au citoyen d’associer l’obéissance aux lois et la résistance à l’arbitraire."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’obéissance rend possible une vie réglée, tandis que la résistance désigne ici la vigilance et la critique du pouvoir."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Un ordre soustrait à toute contestation menace les libertés qu’il devrait protéger."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un citoyen peut respecter une décision publique tout en la critiquant et en demandant sa révision."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La formule permet ainsi de penser une citoyenneté active, sans transformer toute désobéissance en vertu."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Obéir, est-ce nécessairement se soumettre ?",
+          "function": "Distinguer deux formes d’obéissance",
+          "reason": "Montrer qu’une obéissance accompagnée de vigilance et de contestation ne livre pas son jugement au pouvoir.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=39",
+          "sourceLabel": "Recueil académique · p. 39"
+        },
+        {
+          "subject": "L’État est-il menacé quand les citoyens discutent les lois ?",
+          "function": "Renverser une objection",
+          "reason": "Soutenir que la critique peut protéger les libertés et maintenir un ordre légitime plutôt que le détruire.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=26",
+          "sourceLabel": "Recueil académique · p. 26"
+        }
+      ],
+      "editionNote": "Date du propos vérifiée dans l’édition de l’Association des Amis d’Alain."
+    },
+    {
+      "id": "alain-la-distance-a-soi",
+      "code": "AN02",
+      "author": "Alain",
+      "title": "La distance à soi",
+      "work": "Vigiles de l’esprit",
+      "locator": "« L’inconscient », 17 juin 1923 · recueil des textes du bac, p. 1071",
+      "quote": "Pour prendre conscience, il faut se diviser soi-même.",
+      "notions": [
+        "conscience",
+        "liberte",
+        "raison"
+      ],
+      "edition": "Sujets de textes de philosophie du bac, 1996–2026, recueil de Marc Anglaret mis à jour par Paul Hamel",
+      "publisher": "Académie de Montpellier",
+      "editionYear": 2026,
+      "translator": null,
+      "originalLanguage": "français",
+      "quoteSource": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-textes-philo-1996-2026.pdf#page=1071",
+      "quoteSourceLabel": "Lire le texte du bac · p. 1071",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Peut-on prendre conscience de ses actes en se laissant entièrement absorber par eux ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Alain affirme que la réflexion exige une distance à l’égard de soi."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Se diviser signifie devenir pour soi un objet d’examen, sans se transformer en deux personnes."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Celui qui s’interroge sur son impulsion cesse déjà de lui obéir sans réserve."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Au moment de répondre avec colère, se demander pourquoi l’on s’emporte ouvre une possibilité de retenue."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La conscience apparaît ainsi comme un exercice critique, et non comme une connaissance immédiate et complète de soi."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Prendre conscience de soi, est-ce devenir étranger à soi ?",
+          "function": "Préciser une condition de la réflexion",
+          "reason": "Distinguer la distance nécessaire à l’examen de soi et la perte de son identité.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=80",
+          "sourceLabel": "Recueil académique · p. 80"
+        },
+        {
+          "subject": "La conscience de soi rend-elle libre ?",
+          "function": "Établir une possibilité de libération",
+          "reason": "Expliquer comment l’examen d’une impulsion permet de suspendre une réaction, sans garantir une maîtrise totale.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=19",
+          "sourceLabel": "Recueil académique · p. 19"
+        }
+      ],
+      "editionNote": "Titre et date vérifiés dans Vigiles de l’esprit (1942), section L ; le sujet ne précise pas ce recueil."
+    },
+    {
+      "id": "bergson-inventer-prend-temps",
+      "code": "AN03",
+      "author": "Bergson",
+      "title": "Inventer prend du temps",
+      "work": "L’Évolution créatrice",
+      "locator": "Chapitre IV · recueil des textes du bac, p. 1019",
+      "quote": "Le temps d’invention ne fait qu’un ici avec l’invention même.",
+      "notions": [
+        "temps",
+        "art",
+        "travail"
+      ],
+      "edition": "Sujets de textes de philosophie du bac, 1996–2026, recueil de Marc Anglaret mis à jour par Paul Hamel",
+      "publisher": "Académie de Montpellier",
+      "editionYear": 2026,
+      "translator": null,
+      "originalLanguage": "français",
+      "quoteSource": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-textes-philo-1996-2026.pdf#page=1019",
+      "quoteSourceLabel": "Lire le texte du bac · p. 1019",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Le temps consacré à créer est-il seulement un délai avant le résultat ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Bergson soutient que l’invention se forme dans une durée qui appartient à son contenu."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Inventer diffère d’assembler un résultat déjà donné, car l’idée se transforme en se réalisant."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Réduire cette durée pourrait donc modifier l’œuvre elle-même et pas seulement avancer sa livraison."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un peintre découvre dans son travail des rapports de couleurs qu’aucun plan initial ne fixait entièrement."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le temps peut ainsi produire du nouveau, sans que toute lenteur soit pour autant créatrice."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Faut-il toujours chercher à gagner du temps ?",
+          "function": "Contester une règle générale",
+          "reason": "Montrer qu’accélérer une invention peut en modifier le contenu, au lieu de donner le même résultat plus vite.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=65",
+          "sourceLabel": "Recueil académique · p. 65"
+        },
+        {
+          "subject": "La création artistique est-elle un travail ?",
+          "function": "Caractériser le travail créateur",
+          "reason": "Distinguer la maturation d’une œuvre de l’exécution d’un modèle entièrement fixé à l’avance.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=68",
+          "sourceLabel": "Recueil académique · p. 68"
+        }
+      ]
+    },
+    {
+      "id": "comte-les-limites-de-lintrospection",
+      "code": "AN04",
+      "author": "Comte",
+      "title": "Les limites de l’introspection",
+      "work": "Cours de philosophie positive",
+      "locator": "Première leçon · recueil des textes du bac, p. 529",
+      "quote": "L’individu pensant ne saurait se partager en deux dont l’un raisonnerait, tandis que l’autre regarderait raisonner.",
+      "notions": [
+        "conscience",
+        "science",
+        "raison"
+      ],
+      "edition": "Sujets de textes de philosophie du bac, 1996–2026, recueil de Marc Anglaret mis à jour par Paul Hamel",
+      "publisher": "Académie de Montpellier",
+      "editionYear": 2026,
+      "translator": null,
+      "originalLanguage": "français",
+      "quoteSource": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-textes-philo-1996-2026.pdf#page=529",
+      "quoteSourceLabel": "Lire le texte du bac · p. 529",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Peut-on observer son raisonnement pendant qu’on le produit ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Comte conteste la possibilité d’une observation intérieure simultanée des opérations intellectuelles."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’introspection prétend faire du même esprit le sujet qui pense et l’observateur de cette pensée."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Or l’attention consacrée à observer risque de transformer ou d’interrompre l’activité étudiée."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Chercher à surveiller chaque étape d’un calcul peut faire perdre le fil du calcul lui-même."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Cette difficulté invite à examiner les méthodes de connaissance de soi, sans prouver que toute réflexion intérieure serait impossible."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Peut-on se connaître soi-même ?",
+          "function": "Soulever une difficulté de méthode",
+          "reason": "Interroger la possibilité de s’observer pendant que l’on pense ; distinguer cette difficulté de toute connaissance rétrospective.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=20",
+          "sourceLabel": "Recueil académique · p. 20"
+        },
+        {
+          "subject": "L’esprit peut-il être objet de science ?",
+          "function": "Mettre à l’épreuve une méthode",
+          "reason": "Montrer pourquoi l’observation intérieure immédiate demande un examen critique avant de servir de méthode scientifique.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=57",
+          "sourceLabel": "Recueil académique · p. 57"
+        }
+      ]
+    },
+    {
+      "id": "diderot-le-bon-despote",
+      "code": "AN05",
+      "author": "Diderot",
+      "title": "Le bon despote",
+      "work": "Réfutation suivie de l’ouvrage d’Helvétius",
+      "locator": "Passage sur le gouvernement arbitraire · recueil des textes du bac, p. 266",
+      "quote": "Le gouvernement arbitraire d’un prince juste et éclairé est toujours mauvais.",
+      "notions": [
+        "etat",
+        "justice",
+        "liberte"
+      ],
+      "edition": "Sujets de textes de philosophie du bac, 1996–2026, recueil de Marc Anglaret mis à jour par Paul Hamel",
+      "publisher": "Académie de Montpellier",
+      "editionYear": 2026,
+      "translator": null,
+      "originalLanguage": "français",
+      "quoteSource": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-textes-philo-1996-2026.pdf#page=266",
+      "quoteSourceLabel": "Lire le texte du bac · p. 266",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Les qualités d’un gouvernant suffisent-elles à rendre son pouvoir légitime ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Diderot condamne même le pouvoir arbitraire d’un prince bien intentionné."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’arbitraire tient à l’absence de limites et de droit d’opposition, non à la seule cruauté du chef."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une autorité bienfaisante habitue ses sujets à la dépendance et les expose aux décisions de ses successeurs."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un prince généreux peut accorder un avantage que le suivant retirera sans recours possible."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La liberté exige donc des garanties durables, au-delà de la confiance accordée à une personne."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’État doit-il reconnaître des limites à sa puissance ?",
+          "function": "Justifier une limite institutionnelle",
+          "reason": "Expliquer que la bienveillance du pouvoir ne remplace ni les droits des citoyens ni leur possibilité de s’opposer.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=25",
+          "sourceLabel": "Recueil académique · p. 25"
+        },
+        {
+          "subject": "L’État doit-il garantir le bonheur des citoyens ?",
+          "function": "Écarter une justification insuffisante",
+          "reason": "Montrer qu’un bonheur dispensé par un pouvoir sans limites peut installer une dépendance politiquement dangereuse.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=25",
+          "sourceLabel": "Recueil académique · p. 25"
+        }
+      ],
+      "editionNote": "Le titre est celui du recueil actuel, confirmé dans l’œuvre ; l’ancienne compilation attribuait à tort ce passage à une Lettre à Helvétius."
+    },
+    {
+      "id": "durkheim-des-pouvoirs-qui-se-limitent",
+      "code": "AN06",
+      "author": "Durkheim",
+      "title": "Des pouvoirs qui se limitent",
+      "work": "Une révision de l’idée socialiste",
+      "locator": "Article de 1899 · recueil des textes du bac, p. 420",
+      "quote": "Ce qui libère l’individu, ce n’est pas la suppression de tout centre régulateur, c’est leur multiplication, pourvu que ces centres multiples soient coordonnés et subordonnés les uns aux autres.",
+      "notions": [
+        "etat",
+        "liberte",
+        "justice"
+      ],
+      "edition": "Sujets de textes de philosophie du bac, 1996–2026, recueil de Marc Anglaret mis à jour par Paul Hamel",
+      "publisher": "Académie de Montpellier",
+      "editionYear": 2026,
+      "translator": null,
+      "originalLanguage": "français",
+      "quoteSource": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-textes-philo-1996-2026.pdf#page=420",
+      "quoteSourceLabel": "Lire le texte du bac · p. 420",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La liberté demande-t-elle de supprimer toute autorité sociale ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Durkheim soutient qu’elle peut dépendre de plusieurs pouvoirs capables de se limiter mutuellement."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Les centres régulateurs sont l’État et les groupes organisés, notamment territoriaux ou professionnels."
+        },
+        {
+          "function": "La raison",
+          "sentence": "L’État protège contre l’oppression des groupes, tandis que leur autonomie freine les empiétements du pouvoir central."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une organisation professionnelle peut défendre ses membres face à l’administration tout en restant soumise à des règles communes."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La pluralité protège donc à condition d’être organisée, et non par la simple accumulation d’autorités concurrentes."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’État est-il l’ennemi de l’individu ?",
+          "function": "Dépasser une opposition trop simple",
+          "reason": "Examiner comment l’État et les groupes intermédiaires peuvent protéger l’individu en limitant réciproquement leur puissance.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=25",
+          "sourceLabel": "Recueil académique · p. 25"
+        },
+        {
+          "subject": "La liberté consiste-t-elle à n’obéir à personne ?",
+          "function": "Proposer une autre condition de la liberté",
+          "reason": "Montrer que des autorités coordonnées peuvent empêcher la domination d’une autorité unique.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=38",
+          "sourceLabel": "Recueil académique · p. 38"
+        }
+      ],
+      "editionNote": "Le sujet donne le titre L’État et la société civile ; le passage est retrouvé dans l’article Une révision de l’idée socialiste (1899)."
+    },
+    {
+      "id": "montesquieu-commerce-et-paix",
+      "code": "AN07",
+      "author": "Montesquieu",
+      "title": "Commerce et paix",
+      "work": "De l’Esprit des lois",
+      "locator": "Livre XX, chapitre II · recueil des textes du bac, p. 693",
+      "quote": "L’effet naturel du commerce est de porter à la paix.",
+      "notions": [
+        "etat",
+        "justice",
+        "raison"
+      ],
+      "edition": "Sujets de textes de philosophie du bac, 1996–2026, recueil de Marc Anglaret mis à jour par Paul Hamel",
+      "publisher": "Académie de Montpellier",
+      "editionYear": 2026,
+      "translator": null,
+      "originalLanguage": "français",
+      "quoteSource": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-textes-philo-1996-2026.pdf#page=693",
+      "quoteSourceLabel": "Lire le texte du bac · p. 693",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Des intérêts économiques peuvent-ils rapprocher des peuples que tout oppose ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Montesquieu montre que le commerce peut favoriser des relations pacifiques."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’échange crée une dépendance réciproque entre celui qui souhaite acheter et celui qui souhaite vendre."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La guerre risque alors de détruire un avantage que chacun trouve dans la relation."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Deux pays qui dépendent de leurs débouchés respectifs ont un motif de préserver leurs échanges."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Il s’agit d’une raison de préférer la paix, sans garantie que l’intérêt économique suffise à empêcher toute guerre."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Le commerce favorise-t-il la paix ?",
+          "function": "Expliquer un mécanisme pacificateur",
+          "reason": "Relier les besoins réciproques à l’intérêt de maintenir les relations, puis examiner les limites de ce mécanisme.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=97",
+          "sourceLabel": "Recueil académique · p. 97"
+        },
+        {
+          "subject": "Les échanges nous rapprochent-ils toujours les uns des autres ?",
+          "function": "Distinguer rapprochement et vertu",
+          "reason": "Montrer qu’une dépendance utile peut unir des nations sans produire nécessairement la générosité entre les personnes.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=97",
+          "sourceLabel": "Recueil académique · p. 97"
+        }
+      ],
+      "editionNote": "Le texte poursuit en distinguant l’union des nations et les rapports entre particuliers ; sa réserve est conservée dans l’explication."
+    },
+    {
+      "id": "tocqueville-la-limite-de-la-majorite",
+      "code": "AN08",
+      "author": "Tocqueville",
+      "title": "La limite de la majorité",
+      "work": "De la démocratie en Amérique",
+      "locator": "Première Démocratie (1835), deuxième partie, chapitre VII · recueil des textes du bac, p. 627",
+      "quote": "La justice forme donc la borne du droit de chaque peuple.",
+      "notions": [
+        "etat",
+        "justice",
+        "liberte"
+      ],
+      "edition": "Sujets de textes de philosophie du bac, 1996–2026, recueil de Marc Anglaret mis à jour par Paul Hamel",
+      "publisher": "Académie de Montpellier",
+      "editionYear": 2026,
+      "translator": null,
+      "originalLanguage": "français",
+      "quoteSource": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-textes-philo-1996-2026.pdf#page=627",
+      "quoteSourceLabel": "Lire le texte du bac · p. 627",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une décision devient-elle juste dès lors que la majorité l’approuve ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Tocqueville oppose une limite de justice au pouvoir souverain d’un peuple."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La souveraineté désigne l’autorité de décider, tandis que la justice permet de juger la décision elle-même."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une majorité peut poursuivre ses intérêts contre une minorité aussi bien qu’un individu abuse de sa force."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un vote qui prive une minorité de droits ne devient pas juste par le seul nombre de ses partisans."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le principe majoritaire doit donc s’accompagner de limites, sans que toute opposition particulière incarne automatiquement la justice."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La consultation des citoyens suffit-elle à faire la démocratie ?",
+          "function": "Montrer une condition supplémentaire",
+          "reason": "Expliquer pourquoi le vote ne suffit pas si la majorité peut supprimer les droits d’une minorité.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=121",
+          "sourceLabel": "Recueil académique · p. 121"
+        },
+        {
+          "subject": "Pour être juste, suffit-il d’obéir aux lois ?",
+          "function": "Distinguer légalité et justice",
+          "reason": "Montrer qu’une loi voulue par la majorité peut rester soumise à une exigence de justice qui en limite l’autorité.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=33",
+          "sourceLabel": "Recueil académique · p. 33"
+        }
+      ]
+    },
+    {
+      "id": "rousseau-le-bonheur-despere",
+      "code": "AN09",
+      "author": "Rousseau",
+      "title": "Le bonheur d’espérer",
+      "work": "Julie ou La Nouvelle Héloïse",
+      "locator": "Sixième partie, lettre VIII · recueil des textes du bac, p. 607",
+      "quote": "On jouit moins de ce qu’on obtient que de ce qu’on espère et l’on n’est heureux qu’avant d’être heureux.",
+      "notions": [
+        "bonheur",
+        "conscience",
+        "temps"
+      ],
+      "edition": "Sujets de textes de philosophie du bac, 1996–2026, recueil de Marc Anglaret mis à jour par Paul Hamel",
+      "publisher": "Académie de Montpellier",
+      "editionYear": 2026,
+      "translator": null,
+      "originalLanguage": "français",
+      "quoteSource": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-textes-philo-1996-2026.pdf#page=607",
+      "quoteSourceLabel": "Lire le texte du bac · p. 607",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Le bonheur dépend-il davantage de la possession ou de l’attente ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Rousseau fait exprimer à Julie le plaisir que l’espoir ajoute à l’objet désiré."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’imagination embellit ce qui manque et permet d’en jouir avant de le posséder."
+        },
+        {
+          "function": "La raison",
+          "sentence": "L’obtention confronte au contraire l’objet réel à la richesse de ce qu’on avait imaginé."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un voyage longtemps rêvé peut perdre une partie de son charme une fois confronté à ses conditions concrètes."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La formule éclaire la déception du désir satisfait, sans établir que toute satisfaction réelle serait malheureuse."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Le bonheur n’est-il que dans l’attente du bonheur ?",
+          "function": "Soutenir une réponse paradoxale",
+          "reason": "Montrer comment l’espérance produit dès maintenant une jouissance que la possession peut dissiper.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=13",
+          "sourceLabel": "Recueil académique · p. 13"
+        },
+        {
+          "subject": "Suffit-il d’avoir ce que l’on désire pour être heureux ?",
+          "function": "Contester une condition suffisante",
+          "reason": "Distinguer l’objet obtenu et le plaisir que l’imagination lui ajoutait pendant l’attente.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=16",
+          "sourceLabel": "Recueil académique · p. 16"
+        }
+      ],
+      "speaker": "Julie de Wolmar",
+      "situation": "Dans une lettre à Saint-Preux, Julie examine le désir et la déception de la possession."
+    },
+    {
+      "id": "pascal-etre-ou-paraitre-courageux",
+      "code": "AN10",
+      "author": "Pascal",
+      "title": "Être ou paraître courageux",
+      "work": "Pensées",
+      "locator": "Fragment 147, numérotation Brunschvicg · recueil des textes du bac, p. 1115",
+      "quote": "Nous serions de bon cœur poltrons pour en acquérir la réputation d’être vaillants.",
+      "notions": [
+        "conscience",
+        "devoir",
+        "liberte"
+      ],
+      "edition": "Sujets de textes de philosophie du bac, 1996–2026, recueil de Marc Anglaret mis à jour par Paul Hamel",
+      "publisher": "Académie de Montpellier",
+      "editionYear": 2026,
+      "translator": null,
+      "originalLanguage": "français",
+      "quoteSource": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-textes-philo-1996-2026.pdf#page=1115",
+      "quoteSourceLabel": "Lire le texte du bac · p. 1115",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Préférons-nous posséder une vertu ou être reconnus pour elle ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Pascal décrit le renversement par lequel la réputation devient plus précieuse que la qualité réelle."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’être imaginaire est l’image de nous qui vit dans l’esprit des autres."
+        },
+        {
+          "function": "La raison",
+          "sentence": "À vouloir embellir cette image, nous pouvons sacrifier la conduite qui justifierait réellement l’estime."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un soldat pourrait éviter le danger tout en s’attribuant les exploits d’un autre pour passer pour courageux."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La recherche de reconnaissance demande donc un examen moral, sans que toute estime publique soit trompeuse."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Ne fait-on son devoir que par crainte du regard d’autrui ?",
+          "function": "Mettre en évidence un mobile ambigu",
+          "reason": "Montrer que le souci du jugement public peut pousser à rechercher les signes de la vertu plutôt qu’à agir vertueusement.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=80",
+          "sourceLabel": "Recueil académique · p. 80"
+        },
+        {
+          "subject": "Puis-je être moi-même sans le regard d’autrui ?",
+          "function": "Examiner un risque de dépendance",
+          "reason": "Expliquer comment l’image sociale peut prendre tant de valeur que l’on sacrifie sa conduite réelle pour la préserver.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=80",
+          "sourceLabel": "Recueil académique · p. 80"
+        }
+      ]
+    },
+    {
+      "id": "leibniz-condition-et-essence",
+      "code": "AN11",
+      "author": "Leibniz",
+      "title": "Condition et essence",
+      "work": "Sur ce qui passe les sens et la matière",
+      "locator": "Texte français, daté de juin 1702 par l’édition critique · recueil des textes du bac, p. 1050",
+      "quote": "Mais ce qui est nécessaire pour quelque chose, n’en fait point l’essence pour cela.",
+      "notions": [
+        "raison",
+        "science",
+        "verite"
+      ],
+      "edition": "Sujets de textes de philosophie du bac, 1996–2026, recueil de Marc Anglaret mis à jour par Paul Hamel",
+      "publisher": "Académie de Montpellier",
+      "editionYear": 2026,
+      "translator": null,
+      "originalLanguage": "français",
+      "quoteSource": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-textes-philo-1996-2026.pdf#page=1050",
+      "quoteSourceLabel": "Lire le texte du bac · p. 1050",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Ce dont une chose dépend suffit-il à définir ce qu’elle est ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Leibniz distingue une condition nécessaire et l’essence de ce qu’elle rend possible."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La condition doit être présente pour qu’une chose existe, tandis que l’essence dit ce qui la constitue."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Les sens peuvent ainsi être indispensables à notre pensée sans expliquer à eux seuls les vérités nécessaires du raisonnement."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "L’air est nécessaire à notre vie, mais notre vie ne se confond pas avec l’air que nous respirons."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Cette distinction oblige à examiner ce qu’une explication établit vraiment, sans nier le rôle des conditions sensibles."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’expérience est-elle la seule source du savoir ?",
+          "function": "Distinguer condition et fondement",
+          "reason": "Accorder que les sens sont nécessaires à notre pensée, puis demander s’ils suffisent à rendre compte des vérités nécessaires.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=57",
+          "sourceLabel": "Recueil académique · p. 57"
+        },
+        {
+          "subject": "La raison est-elle plus fiable que l’expérience ?",
+          "function": "Préciser les contributions respectives",
+          "reason": "Éviter de confondre le rôle des sensations dans l’acquisition des connaissances et la justification rationnelle de leur nécessité.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=52",
+          "sourceLabel": "Recueil académique · p. 52"
+        }
+      ],
+      "editionNote": "Datation de l’édition critique de Münster : début à mi-juin 1702 ; la date de 1704 parfois donnée en ligne n’est pas retenue."
+    },
+    {
+      "id": "weil-des-hommes-traites-en-choses",
+      "code": "AN12",
+      "author": "Simone Weil",
+      "title": "Des hommes traités en choses",
+      "work": "La Condition ouvrière",
+      "locator": "Passage sur les rapports dans l’usine · recueil des textes du bac, p. 105",
+      "quote": "Les choses jouent le rôle des hommes, les hommes jouent le rôle des choses ; c’est la racine du mal.",
+      "notions": [
+        "travail",
+        "technique",
+        "justice"
+      ],
+      "edition": "Sujets de textes de philosophie du bac, 1996–2026, recueil de Marc Anglaret mis à jour par Paul Hamel",
+      "publisher": "Académie de Montpellier",
+      "editionYear": 2026,
+      "translator": null,
+      "originalLanguage": "français",
+      "quoteSource": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-textes-philo-1996-2026.pdf#page=105",
+      "quoteSourceLabel": "Lire le texte du bac · p. 105",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Que devient le travailleur quand la production compte davantage que sa personne ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Simone Weil décrit une organisation où l’ouvrier est traité comme un élément interchangeable."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’inversion oppose les produits suivis et identifiés aux personnes réduites à une fonction et à un rythme imposés."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Lorsque la compréhension de l’ensemble est réservée aux dirigeants, l’exécutant perd la maîtrise du sens de son activité."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un ouvrier déplacé d’une machine à l’autre sans explication peut être géré comme une pièce disponible."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La critique vise cette organisation du travail, et ne condamne pas toute activité industrielle à déshumaniser."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Le travail fait-il violence à notre humanité ?",
+          "function": "Identifier une forme de déshumanisation",
+          "reason": "Analyser le traitement des travailleurs comme éléments interchangeables, au lieu de réduire la violence à la seule pénibilité physique.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=68",
+          "sourceLabel": "Recueil académique · p. 68"
+        },
+        {
+          "subject": "La technique résout-elle tous les problèmes qui se posent au travail ?",
+          "function": "Déplacer le problème vers l’organisation",
+          "reason": "Montrer qu’une production techniquement efficace peut laisser intacte la dépossession des exécutants.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=69",
+          "sourceLabel": "Recueil académique · p. 69"
+        }
+      ],
+      "editionNote": "Le sujet porte la date 1942 ; La Condition ouvrière est un recueil posthume publié en 1951."
+    },
+    {
+      "id": "weil-leffort-et-la-maitrise-de-soi",
+      "code": "AN13",
+      "author": "Simone Weil",
+      "title": "L’effort et la maîtrise de soi",
+      "work": "Réflexions sur les causes de la liberté et de l’oppression sociale",
+      "locator": "Texte rédigé en 1934 · recueil des textes du bac, p. 86",
+      "quote": "Ce sont les obstacles auxquels on se heurte et qu’il faut surmonter qui fournissent l’occasion de se vaincre soi-même.",
+      "notions": [
+        "travail",
+        "liberte",
+        "raison"
+      ],
+      "edition": "Sujets de textes de philosophie du bac, 1996–2026, recueil de Marc Anglaret mis à jour par Paul Hamel",
+      "publisher": "Académie de Montpellier",
+      "editionYear": 2026,
+      "translator": null,
+      "originalLanguage": "français",
+      "quoteSource": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-textes-philo-1996-2026.pdf#page=86",
+      "quoteSourceLabel": "Lire le texte du bac · p. 86",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "L’absence d’obstacles suffirait-elle à nous rendre maîtres de nous-mêmes ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Simone Weil voit dans l’effort demandé par le réel une occasion de discipliner ses propres impulsions."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Se vaincre signifie ici apprendre à régler sa conduite plutôt que suivre chaque caprice."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une difficulté extérieure impose une exigence que notre fantaisie ne peut pas supprimer à volonté."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un apprenti ajuste patiemment son geste à la résistance du matériau au lieu d’abandonner à la première contrariété."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le travail peut ainsi former la liberté, sans que toute souffrance ou toute oppression devienne pour autant éducative."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Le travail peut-il rendre libre ?",
+          "function": "Expliquer une formation de la liberté",
+          "reason": "Montrer comment l’effort réglé par les exigences d’une tâche peut libérer de la soumission au caprice.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=69",
+          "sourceLabel": "Recueil académique · p. 69"
+        },
+        {
+          "subject": "Tout travail est-il un travail sur soi ?",
+          "function": "Établir une possibilité à examiner",
+          "reason": "Décrire ce que l’effort peut transformer dans le sujet, puis demander quelles conditions de travail permettent cette formation.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=68",
+          "sourceLabel": "Recueil académique · p. 68"
+        }
+      ]
+    },
+    {
+      "id": "mill-choisir-au-lieu-de-suivre",
+      "code": "AN14",
+      "author": "Mill",
+      "title": "Choisir au lieu de suivre",
+      "work": "De la liberté",
+      "locator": "Chapitre III · recueil des textes du bac, p. 264",
+      "quote": "Celui qui n’agit jamais que suivant la coutume ne fait pas de choix.",
+      "notions": [
+        "liberte",
+        "raison",
+        "devoir"
+      ],
+      "edition": "Sujets de textes de philosophie du bac, 1996–2026, recueil de Marc Anglaret mis à jour par Paul Hamel",
+      "publisher": "Académie de Montpellier",
+      "editionYear": 2026,
+      "translator": "Non indiqué dans le recueil",
+      "quoteSource": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-textes-philo-1996-2026.pdf#page=264",
+      "quoteSourceLabel": "Lire le texte du bac · p. 264",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une conduite correcte suffit-elle à prouver que l’on agit librement ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Mill distingue suivre une coutume et choisir soi-même sa conduite."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La coutume transmet une expérience collective, tandis que le choix exerce le jugement personnel."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Même une règle adaptée ne développe pas ce jugement lorsqu’on la suit uniquement parce que tous la suivent."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Reprendre le métier familial sans en examiner les raisons ne constitue pas le même acte que le choisir après réflexion."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La liberté demande donc un exercice du discernement, sans imposer de rejeter toutes les traditions."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Peut-on choisir sa vie ?",
+          "function": "Préciser ce que signifie choisir",
+          "reason": "Distinguer adopter une manière de vivre après examen et reproduire un modèle uniquement parce qu’il est reçu.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=44",
+          "sourceLabel": "Recueil académique · p. 44"
+        },
+        {
+          "subject": "Être libre, est-ce faire ce que l’on veut ?",
+          "function": "Interroger l’origine de la volonté",
+          "reason": "Demander si ce que l’on veut résulte d’un jugement personnel ou de la seule imitation des usages.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=38",
+          "sourceLabel": "Recueil académique · p. 38"
+        }
+      ],
+      "editionNote": "Phrase également attestée dans la traduction de Charles Brook Dupont-White (1860) ; le recueil ne précise pas la traduction de son extrait."
+    },
+    {
+      "id": "arendt-un-espace-pour-la-liberte",
+      "code": "AN15",
+      "author": "Arendt",
+      "title": "Un espace pour la liberté",
+      "work": "La Crise de la culture",
+      "locator": "« Qu’est-ce que la liberté ? » · recueil des textes du bac, p. 124",
+      "quote": "Sans une vie publique politiquement garantie, il manque à la liberté l’espace du monde où faire son apparition.",
+      "notions": [
+        "liberte",
+        "etat",
+        "langage"
+      ],
+      "edition": "Sujets de textes de philosophie du bac, 1996–2026, recueil de Marc Anglaret mis à jour par Paul Hamel",
+      "publisher": "Académie de Montpellier",
+      "editionYear": 2026,
+      "translator": "Non indiqué dans le recueil",
+      "quoteSource": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-textes-philo-1996-2026.pdf#page=124",
+      "quoteSourceLabel": "Lire le texte du bac · p. 124",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La liberté peut-elle devenir effective si chacun reste enfermé dans sa vie privée ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Arendt affirme que la liberté politique a besoin d’un espace public garanti."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Cet espace permet à des personnes différentes de parler et d’agir ensemble devant d’autres."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une aspiration intérieure ne suffit pas à produire une action libre lorsque toute initiative publique est interdite."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Pouvoir discuter d’une décision commune et proposer une action rend la liberté visible dans le monde partagé."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La formule distingue donc la liberté politique de son seul désir intérieur, sans nier l’existence de ce désir sous la contrainte."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Y a-t-il d’autres formes de liberté que la liberté politique ?",
+          "function": "Définir une forme particulière de liberté",
+          "reason": "Distinguer l’aspiration intime et la liberté qui se manifeste par l’action et la parole dans un monde commun.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=45",
+          "sourceLabel": "Recueil académique · p. 45"
+        },
+        {
+          "subject": "L’État est-il le garant de ma liberté ?",
+          "function": "Énoncer une condition politique",
+          "reason": "Examiner les garanties qui rendent possibles l’expression et l’initiative publiques, au-delà de la simple absence d’entraves privées.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=26",
+          "sourceLabel": "Recueil académique · p. 26"
+        }
+      ],
+      "editionNote": "Formulation française exacte du sujet : « l’espace du monde » ; l’ancienne compilation porte une autre variante, « l’espace mondain »."
     }
   ]
 }
