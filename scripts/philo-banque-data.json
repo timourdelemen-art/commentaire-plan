@@ -4754,6 +4754,1373 @@
           "sourceLabel": "Recueil académique · p. 60"
         }
       ]
+    },
+    {
+      "id": "kant-experience-et-origine",
+      "code": "K01",
+      "author": "Kant",
+      "title": "Commencer avec l’expérience",
+      "work": "Critique de la raison pure",
+      "locator": "Introduction, I · B 1–2",
+      "quote": "Cela dit, bien que toute notre connaissance s'amorce avec l'expérience, il n'en résulte pas pour autant qu'elle dérive dans sa totalité de l'expérience.",
+      "notions": [
+        "science",
+        "raison"
+      ],
+      "edition": "GF · 3e édition corrigée, réédition 2021",
+      "publisher": "Flammarion",
+      "editionYear": 2021,
+      "translator": "Alain Renaut",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Tout ce que nous connaissons vient-il de ce que nous avons éprouvé ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Kant distingue le commencement de la connaissance et l’origine de tous ses éléments."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’expérience éveille notre connaissance, mais cela ne prouve pas qu’elle fournisse aussi les règles qui l’organisent."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Pour connaître un objet, nous devons relier ce que nous recevons des sens, et non seulement accumuler des impressions."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Observer plusieurs changements ne suffit pas, à lui seul, à expliquer pourquoi nous recherchons pour chacun une cause."
+        },
+        {
+          "function": "La portée",
+          "sentence": "L’expérience est donc indispensable à la connaissance, sans être nécessairement la source de toutes ses conditions."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’expérience est-elle la seule source de la connaissance ?",
+          "function": "Distinguer le commencement et le fondement",
+          "reason": "Après avoir établi le rôle des sens, montrer que les règles qui organisent leurs données ne sont pas de simples impressions.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=103",
+          "sourceLabel": "Recueil académique · p. 103"
+        },
+        {
+          "subject": "D’où viennent nos connaissances ?",
+          "function": "Dépasser une réponse exclusivement empirique",
+          "reason": "Distinguer ce que nous recevons des objets et ce que notre pouvoir de connaître apporte à leur organisation.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=103",
+          "sourceLabel": "Recueil académique · p. 103"
+        }
+      ]
+    },
+    {
+      "id": "kant-penser-et-recevoir",
+      "code": "K02",
+      "author": "Kant",
+      "title": "Penser et recevoir",
+      "work": "Critique de la raison pure",
+      "locator": "Logique transcendantale, introduction, I · A 51 / B 75",
+      "quote": "Des pensées sans contenu sont vides, des intuitions sans concepts sont aveugles.",
+      "notions": [
+        "science",
+        "raison",
+        "verite"
+      ],
+      "edition": "GF · 3e édition corrigée, réédition 2021",
+      "publisher": "Flammarion",
+      "editionYear": 2021,
+      "translator": "Alain Renaut",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Suffit-il de penser avec rigueur ou de bien observer pour connaître ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Kant affirme que notre connaissance exige l’union des concepts et des intuitions sensibles."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le concept permet de penser un objet, tandis que l’intuition le donne à notre sensibilité."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une pensée sans objet reste vide, mais ce qui est reçu sans être pensé ne devient pas encore une connaissance de cet objet."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Recueillir des observations sans les organiser ne remplace pas une théorie, et une théorie sans rapport à des objets ne suffit pas davantage."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Il faut donc articuler réception et pensée, sans réduire la connaissance à l’une de ces deux activités."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Une expérience sans théorie nous apprend-elle quelque chose ?",
+          "function": "Montrer le besoin d’une organisation conceptuelle",
+          "reason": "Après avoir reconnu la valeur de l’observation, expliquer pourquoi recevoir des données ne suffit pas à les comprendre.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=133",
+          "sourceLabel": "Recueil académique · p. 133"
+        },
+        {
+          "subject": "Une théorie sans expérience nous apprend-elle quelque chose ?",
+          "function": "Fixer une condition de la connaissance des objets",
+          "reason": "Limiter la puissance de la construction intellectuelle en exigeant qu’un objet puisse correspondre aux concepts.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=133",
+          "sourceLabel": "Recueil académique · p. 133"
+        }
+      ]
+    },
+    {
+      "id": "kant-bien-questionner",
+      "code": "K03",
+      "author": "Kant",
+      "title": "Apprendre à questionner",
+      "work": "Critique de la raison pure",
+      "locator": "Logique transcendantale, introduction, III · A 58 / B 82–83",
+      "quote": "C'est déjà une grande et nécessaire preuve de sagesse ou d'intelligence que de savoir quelles questions on peut raisonnablement poser.",
+      "notions": [
+        "raison",
+        "verite"
+      ],
+      "edition": "GF · 3e édition corrigée, réédition 2021",
+      "publisher": "Flammarion",
+      "editionYear": 2021,
+      "translator": "Alain Renaut",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Toute question mérite-t-elle qu’on cherche immédiatement à y répondre ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Kant fait de l’examen des questions une marque de sagesse."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Une question raisonnable doit avoir un sens et ne pas présupposer ce qu’il faudrait justement établir."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Si sa formulation impose une supposition absurde, répondre risque de nous enfermer dans cette erreur."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Demander la couleur du nombre sept suppose ainsi qu’un nombre puisse posséder une propriété sensible."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Bien raisonner commence donc parfois par corriger la question, plutôt que par choisir entre les réponses qu’elle semble autoriser."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Peut-on apprendre à penser ?",
+          "function": "Définir un premier exercice du jugement",
+          "reason": "Avant la recherche d’une réponse, faire de l’examen des présupposés de la question un apprentissage de la pensée.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=51",
+          "sourceLabel": "Recueil académique · p. 51"
+        },
+        {
+          "subject": "La raison peut-elle tout expliquer ?",
+          "function": "Examiner la légitimité de la demande",
+          "reason": "Avant de conclure à l’impuissance de la raison, vérifier que ce qu’on lui demande d’expliquer est formulé de manière cohérente.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=49",
+          "sourceLabel": "Recueil académique · p. 49"
+        }
+      ]
+    },
+    {
+      "id": "kant-coherence-et-verite",
+      "code": "K04",
+      "author": "Kant",
+      "title": "La cohérence ne suffit pas",
+      "work": "Critique de la raison pure",
+      "locator": "Logique transcendantale, introduction, III · A 59–60 / B 84",
+      "quote": "Car quand bien même une connaissance parvient à concorder pleinement avec la forme logique, c'est-à-dire à ne pas se contredire elle-même, elle peut cependant toujours contredire l'objet.",
+      "notions": [
+        "verite",
+        "raison",
+        "science"
+      ],
+      "edition": "GF · 3e édition corrigée, réédition 2021",
+      "publisher": "Flammarion",
+      "editionYear": 2021,
+      "translator": "Alain Renaut",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une pensée sans contradiction est-elle nécessairement vraie ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Kant affirme qu’une connaissance logiquement cohérente peut pourtant ne pas correspondre à son objet."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La cohérence concerne l’accord des propositions entre elles, tandis que la vérité engage leur rapport à ce dont elles parlent."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Les règles logiques permettent d’écarter certaines erreurs, mais elles ne fournissent pas à elles seules le contenu vrai."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un récit inventé peut être parfaitement cohérent sans que les événements qu’il raconte aient eu lieu."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La logique demeure donc nécessaire à la recherche du vrai, sans constituer un critère suffisant de toute vérité."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La cohérence d’une pensée suffit-elle à garantir sa vérité ?",
+          "function": "Distinguer une condition nécessaire d’une condition suffisante",
+          "reason": "Après avoir montré la nécessité d’éviter la contradiction, établir qu’une pensée cohérente peut encore manquer son objet.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=51",
+          "sourceLabel": "Recueil académique · p. 51"
+        },
+        {
+          "subject": "La rigueur d’un raisonnement suffit-elle pour garantir la vérité ?",
+          "function": "Limiter la portée de la seule rigueur formelle",
+          "reason": "Séparer la validité de l’enchaînement logique et la vérité des affirmations auxquelles il s’applique.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=88",
+          "sourceLabel": "Recueil académique · p. 88"
+        }
+      ]
+    },
+    {
+      "id": "kant-sens-et-jugement",
+      "code": "K05",
+      "author": "Kant",
+      "title": "Les sens ne jugent pas",
+      "work": "Critique de la raison pure",
+      "locator": "Dialectique transcendantale, introduction, I · A 293–294 / B 350",
+      "quote": "On peut donc assurément dire avec justesse que les sens ne commettent pas d'erreur, non pas toutefois parce qu'ils jugent toujours de façon juste, mais parce qu'ils ne portent aucun jugement.",
+      "notions": [
+        "verite",
+        "raison"
+      ],
+      "edition": "GF · 3e édition corrigée, réédition 2021",
+      "publisher": "Flammarion",
+      "editionYear": 2021,
+      "translator": "Alain Renaut",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Les sens nous trompent-ils lorsqu’une perception nous conduit à l’erreur ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Kant distingue ce que les sens donnent et le jugement que nous portons sur cette donnée."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Sentir est recevoir une représentation, tandis que juger consiste à affirmer quelque chose d’un objet."
+        },
+        {
+          "function": "La raison",
+          "sentence": "L’erreur apparaît lorsque nous attribuons à l’objet ce que sa seule apparence ne permet pas d’établir."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un bâton plongé dans l’eau paraît brisé, mais c’est affirmer qu’il est réellement brisé qui constitue l’erreur."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Il faut donc examiner notre interprétation des perceptions, sans prétendre que toute apparence nous livre immédiatement la réalité."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’ignorance est-elle la seule cause de nos erreurs ?",
+          "function": "Identifier une erreur d’interprétation",
+          "reason": "Après le manque de connaissances, examiner la confusion entre une apparence sensible et un jugement sur l’objet.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=71",
+          "sourceLabel": "Recueil académique · p. 71"
+        },
+        {
+          "subject": "Faut-il ne croire que ce que l’on voit ?",
+          "function": "Distinguer voir et affirmer",
+          "reason": "Montrer qu’un témoignage des sens doit être interprété et que la confiance dans la vue ne dispense pas de juger.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=103",
+          "sourceLabel": "Recueil académique · p. 103"
+        }
+      ]
+    },
+    {
+      "id": "kant-illusion-et-lucidite",
+      "code": "K06",
+      "author": "Kant",
+      "title": "Comprendre une illusion ne l’abolit pas",
+      "work": "Critique de la raison pure",
+      "locator": "Dialectique transcendantale, introduction, I · A 297 / B 353–354",
+      "quote": "L'apparence transcendantale, au contraire, ne cesse pas, quand bien même on l'a découverte et que la critique transcendantale en a fait voir clairement le néant (par exemple, l'apparence qui se trouve contenue dans la proposition : le monde doit nécessairement posséder un commencement chronologique).",
+      "notions": [
+        "verite",
+        "raison"
+      ],
+      "edition": "GF · 3e édition corrigée, réédition 2021",
+      "publisher": "Flammarion",
+      "editionYear": 2021,
+      "translator": "Alain Renaut",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Comprendre pourquoi nous sommes trompés fait-il disparaître toute illusion ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Kant affirme que certaines apparences produites par la raison persistent après leur explication."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’apparence transcendantale consiste à prendre une exigence de notre pensée pour une propriété nécessaire des choses elles-mêmes."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Le besoin de donner à nos explications un terme définitif nous pousse ainsi à dépasser ce que nous pouvons connaître."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Nous sommes tentés d’affirmer un premier commencement du monde parce que la remontée des causes nous paraît devoir s’arrêter."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La critique peut empêcher notre adhésion à cette apparence sans supprimer la tendance qui la produit."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Dissiper une illusion, est-ce seulement corriger une erreur ?",
+          "function": "Distinguer la persistance de l’apparence et l’adhésion",
+          "reason": "Après la rectification d’un jugement faux, montrer pourquoi une illusion peut continuer à solliciter notre pensée.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=71",
+          "sourceLabel": "Recueil académique · p. 71"
+        },
+        {
+          "subject": "L’ignorance est-elle la seule cause de nos erreurs ?",
+          "function": "Mettre en évidence une tendance de la raison",
+          "reason": "Montrer que certaines erreurs naissent d’un besoin d’explication absolue, et non du seul manque d’informations.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=71",
+          "sourceLabel": "Recueil académique · p. 71"
+        }
+      ]
+    },
+    {
+      "id": "kant-concevoir-et-exister",
+      "code": "K07",
+      "author": "Kant",
+      "title": "Concevoir n’est pas faire exister",
+      "work": "Critique de la raison pure",
+      "locator": "Dialectique transcendantale, idéal de la raison pure, section IV · A 598–599 / B 626–627",
+      "quote": "Être n'est à l'évidence pas un prédicat réel, c'est-à-dire un concept de quelque chose qui puisse s'ajouter au concept d'une chose.",
+      "notions": [
+        "raison",
+        "religion",
+        "verite"
+      ],
+      "edition": "GF · 3e édition corrigée, réédition 2021",
+      "publisher": "Flammarion",
+      "editionYear": 2021,
+      "translator": "Alain Renaut",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Peut-on établir l’existence d’une chose en analysant seulement son concept ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Kant refuse de traiter l’existence comme une propriété ajoutée à la définition d’une chose."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Un prédicat réel désigne ici une détermination du contenu du concept, et non le fait que son objet existe."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Dire qu’une chose existe ne complète donc pas sa description, mais pose qu’un objet correspond à cette description."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Cent pièces réelles n’ont pas une propriété descriptive de plus que cent pièces possibles, même si leur possession change ma fortune."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La pensée du possible ne suffit donc pas à prouver l’existence, sans que cette critique démontre l’inexistence de ce qu’elle vise."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La raison suffit-elle à connaître le réel ?",
+          "function": "Distinguer la possibilité pensée et l’existence",
+          "reason": "Après la construction d’un concept cohérent, montrer pourquoi il reste à établir que son objet existe.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=52",
+          "sourceLabel": "Recueil académique · p. 52"
+        },
+        {
+          "subject": "Est-il déraisonnable de croire en Dieu ?",
+          "function": "Délimiter la portée d’une preuve rationnelle",
+          "reason": "Examiner l’échec d’une preuve tirée du seul concept de Dieu, sans transformer cet échec en démonstration de son inexistence.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=50",
+          "sourceLabel": "Recueil académique · p. 50"
+        }
+      ]
+    },
+    {
+      "id": "kant-raison-et-libre-critique",
+      "code": "K08",
+      "author": "Kant",
+      "title": "La raison doit accepter la critique",
+      "work": "Critique de la raison pure",
+      "locator": "Discipline de la raison pure, section II · A 738–739 / B 766–767",
+      "quote": "La raison doit, dans toutes ses entreprises, se soumettre à la critique, et elle ne peut par aucun interdit attenter à la liberté de cette dernière sans se nuire à elle-même et sans attirer sur elle un soupçon qui lui est dommageable.",
+      "notions": [
+        "raison",
+        "liberte",
+        "verite"
+      ],
+      "edition": "GF · 3e édition corrigée, réédition 2021",
+      "publisher": "Flammarion",
+      "editionYear": 2021,
+      "translator": "Alain Renaut",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La raison peut-elle protéger son autorité en interdisant qu’on la conteste ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Kant affirme que la raison se nuit lorsqu’elle soustrait ses entreprises à la critique."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Critiquer signifie ici examiner les raisons d’une affirmation, et non la rejeter par principe."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une interdiction empêche l’épreuve des arguments et rend suspecte l’autorité qui refuse de s’y soumettre."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une théorie qui répond aux objections par la censure ne montre pas pourquoi ses conclusions devraient être admises."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La liberté de la critique appartient donc à l’exercice de la raison, sans rendre toutes les objections également fondées."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Une théorie scientifique doit-elle se prémunir contre toute critique ?",
+          "function": "Distinguer la défense d’une théorie et sa mise à l’abri",
+          "reason": "Après avoir reconnu la nécessité de défendre des résultats, montrer pourquoi l’interdiction des objections compromet leur justification.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=133",
+          "sourceLabel": "Recueil académique · p. 133"
+        },
+        {
+          "subject": "Puis-je perdre ma liberté de penser ?",
+          "function": "Montrer une condition publique de l’examen rationnel",
+          "reason": "Après l’indépendance intérieure, examiner le rôle de la liberté d’exposer et de discuter les objections.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=39",
+          "sourceLabel": "Recueil académique · p. 39"
+        }
+      ]
+    },
+    {
+      "id": "kant-persuasion-et-fondement",
+      "code": "K09",
+      "author": "Kant",
+      "title": "Être persuadé ne suffit pas",
+      "work": "Critique de la raison pure",
+      "locator": "Canon de la raison pure, section III · A 820–821 / B 848–849",
+      "quote": "La persuasion est une simple apparence, parce que le fondement du jugement, qui réside uniquement dans le sujet, est tenu pour objectif.",
+      "notions": [
+        "verite",
+        "raison"
+      ],
+      "edition": "GF · 3e édition corrigée, réédition 2021",
+      "publisher": "Flammarion",
+      "editionYear": 2021,
+      "translator": "Alain Renaut",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La force avec laquelle je crois une proposition suffit-elle à la justifier ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Kant appelle persuasion l’adhésion qui prend un fondement seulement personnel pour une raison objective."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le fondement subjectif explique pourquoi je suis convaincu, tandis qu’une raison objective doit pouvoir justifier le jugement pour d’autres."
+        },
+        {
+          "function": "La raison",
+          "sentence": "L’intensité de mon sentiment ne transforme pas ce qui agit sur moi en preuve de ce que j’affirme."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une rumeur peut me sembler certaine parce qu’elle confirme mes peurs, sans que cette peur établisse sa vérité."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Examiner une certitude exige donc de distinguer ses causes personnelles et ses raisons partageables, sans confondre toute conviction avec une illusion."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La certitude est-elle une garantie de vérité ?",
+          "function": "Distinguer l’assurance personnelle et la justification",
+          "reason": "Après avoir décrit la force d’une certitude, examiner si ses raisons valent au-delà de celui qui l’éprouve.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=71",
+          "sourceLabel": "Recueil académique · p. 71"
+        },
+        {
+          "subject": "La conviction d’avoir raison fait-elle obstacle au dialogue ?",
+          "function": "Identifier une fermeture possible de la discussion",
+          "reason": "Montrer comment prendre ses raisons personnelles pour des preuves suffisantes peut empêcher l’examen des objections.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=50",
+          "sourceLabel": "Recueil académique · p. 50"
+        }
+      ]
+    },
+    {
+      "id": "kant-opinion-et-insuffisance",
+      "code": "K10",
+      "author": "Kant",
+      "title": "Une opinion consciente de ses limites",
+      "work": "Critique de la raison pure",
+      "locator": "Canon de la raison pure, section III · A 822 / B 850",
+      "quote": "L'opinion est une créance consciente d'être insuffisante subjectivement tout autant qu'objectivement.",
+      "notions": [
+        "verite",
+        "raison",
+        "science"
+      ],
+      "edition": "GF · 3e édition corrigée, réédition 2021",
+      "publisher": "Flammarion",
+      "editionYear": 2021,
+      "translator": "Alain Renaut",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Avoir une opinion signifie-t-il nécessairement prétendre savoir ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Kant définit l’opinion comme une adhésion consciente de son insuffisance."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La créance est le fait de tenir une proposition pour vraie, sans que cette adhésion soit toujours un savoir."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Dans l’opinion, les raisons disponibles ne suffisent ni à assurer pleinement celui qui juge ni à justifier le jugement pour chacun."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un médecin peut envisager un diagnostic provisoire tout en reconnaissant que les examens nécessaires manquent encore."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Une opinion peut donc orienter une recherche si elle reconnaît ses limites, sans acquérir pour autant la valeur d’un savoir."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’opinion a-t-elle nécessairement tort ?",
+          "function": "Distinguer l’insuffisance et la fausseté",
+          "reason": "Après la critique des opinions assurées, montrer qu’un jugement provisoire peut reconnaître ses limites sans être nécessairement faux.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=71",
+          "sourceLabel": "Recueil académique · p. 71"
+        },
+        {
+          "subject": "Le savant doit-il fuir l’incertitude ?",
+          "function": "Donner une place au jugement provisoire",
+          "reason": "Montrer que reconnaître l’insuffisance de ses raisons permet de poursuivre la recherche au lieu d’affirmer prématurément un savoir.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=133",
+          "sourceLabel": "Recueil académique · p. 133"
+        }
+      ]
+    },
+    {
+      "id": "kant-bonheur-et-totalite",
+      "code": "K11",
+      "author": "Kant",
+      "title": "Le bonheur et la totalité des désirs",
+      "work": "Critique de la raison pure",
+      "locator": "Canon de la raison pure, section II · A 806 / B 834",
+      "quote": "Le bonheur est la satisfaction de toutes nos inclinations (aussi bien extensive, à l'égard de leur variété, qu'intensive, quant à leur degré, et même protensive, du point de vue de leur durée).",
+      "notions": [
+        "bonheur",
+        "raison"
+      ],
+      "edition": "GF · 3e édition corrigée, réédition 2021",
+      "publisher": "Flammarion",
+      "editionYear": 2021,
+      "translator": "Alain Renaut",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Être heureux consiste-t-il à obtenir une satisfaction particulière ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Kant définit le bonheur par la satisfaction de l’ensemble de nos inclinations."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Cette totalité concerne la variété de nos désirs, l’intensité de leur satisfaction et sa durée."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Un plaisir isolé ne suffit donc pas à garantir que les autres dimensions de notre vie nous satisfassent."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Réussir un projet longtemps désiré peut coexister avec la solitude, l’inquiétude ou la peur de perdre cette réussite."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Cette définition explique l’exigence du bonheur, sans prouver que nous sachions toujours quels moyens permettraient de l’atteindre."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Suffit-il d’avoir ce que l’on désire pour être heureux ?",
+          "function": "Distinguer une satisfaction et le bonheur",
+          "reason": "Après avoir reconnu la joie d’un désir comblé, élargir l’examen à l’ensemble des inclinations et à leur durée.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=91",
+          "sourceLabel": "Recueil académique · p. 91"
+        },
+        {
+          "subject": "Le bonheur est-il inaccessible à l’homme ?",
+          "function": "Préciser la difficulté de l’idéal",
+          "reason": "Montrer pourquoi la totalité, l’intensité et la durée des satisfactions rendent le bonheur plus exigeant qu’un plaisir momentané.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=13",
+          "sourceLabel": "Recueil académique · p. 13"
+        }
+      ]
+    },
+    {
+      "id": "kant-apprendre-a-philosopher",
+      "code": "K12",
+      "author": "Kant",
+      "title": "Apprendre à philosopher",
+      "work": "Critique de la raison pure",
+      "locator": "Architectonique de la raison pure · A 838 / B 866",
+      "quote": "On peut seulement apprendre à philosopher, c'est-à-dire à exercer le talent de la raison dans la mise en œuvre de ses principes universels à la faveur de certaines tentatives qui se présentent, même si se trouve toujours réservé le droit qu'a la raison d'examiner ces principes eux-mêmes quant à leurs sources, pour les confirmer ou les rejeter.",
+      "notions": [
+        "raison",
+        "verite",
+        "liberte"
+      ],
+      "edition": "GF · 3e édition corrigée, réédition 2021",
+      "publisher": "Flammarion",
+      "editionYear": 2021,
+      "translator": "Alain Renaut",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Apprendre les pensées des philosophes suffit-il pour savoir philosopher ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Kant distingue l’apprentissage d’un système et l’exercice personnel de la raison."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Philosopher consiste à mettre des principes à l’épreuve tout en conservant le droit de les examiner eux-mêmes."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Celui qui ne fait que répéter une doctrine dépend encore de la raison d’autrui, même s’il la connaît parfaitement."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Retenir une démonstration ne dispense pas de comprendre ses raisons ni d’examiner l’objection qui pourrait la fragiliser."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Les œuvres peuvent donc former notre jugement, à condition de devenir des occasions de penser plutôt que des autorités à réciter."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Peut-on apprendre à penser ?",
+          "function": "Définir les conditions d’un apprentissage autonome",
+          "reason": "Après la transmission des connaissances, montrer que l’élève doit pouvoir examiner les principes et non seulement répéter les conclusions.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=51",
+          "sourceLabel": "Recueil académique · p. 51"
+        },
+        {
+          "subject": "Peut-on être philosophe sans être savant ?",
+          "function": "Distinguer l’érudition et l’exercice du jugement",
+          "reason": "Montrer que l’accumulation des doctrines ne suffit pas à philosopher, sans conclure que les connaissances seraient inutiles.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=146",
+          "sourceLabel": "Recueil académique · p. 146"
+        }
+      ]
+    },
+    {
+      "id": "kant-juger-le-particulier",
+      "code": "K13",
+      "author": "Kant",
+      "title": "Juger le cas particulier",
+      "work": "Critique de la faculté de juger",
+      "locator": "Introduction publiée, IV",
+      "quote": "La faculté de juger en général est le pouvoir de penser le particulier comme compris sous l'universel.",
+      "notions": [
+        "raison",
+        "science"
+      ],
+      "edition": "GF · édition avec bibliographie mise à jour (2015)",
+      "publisher": "Flammarion",
+      "editionYear": 2015,
+      "translator": "Alain Renaut",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Juger consiste-t-il seulement à appliquer une règle déjà connue ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Kant définit le jugement comme le pouvoir de penser un cas particulier sous une règle générale."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le particulier est ce cas singulier, tandis que l’universel est la règle ou le principe sous lequel nous le comprenons."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Mais nous pouvons soit disposer de cette règle, soit devoir la chercher à partir du cas rencontré."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Identifier un triangle grâce à sa définition diffère ainsi de chercher une régularité parmi des phénomènes encore mal connus."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Juger demande donc tantôt une application, tantôt une recherche, et ne se réduit pas toujours à répéter une règle."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Peut-on apprendre à penser ?",
+          "function": "Distinguer deux exercices du jugement",
+          "reason": "Après l’apprentissage des règles, montrer que penser exige aussi de chercher celle qui convient lorsqu’elle n’est pas donnée.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=51",
+          "sourceLabel": "Recueil académique · p. 51"
+        },
+        {
+          "subject": "L’expérience nous instruit-elle ?",
+          "function": "Expliquer le travail accompli sur les cas",
+          "reason": "Montrer que rencontrer des faits devient instructif lorsque le jugement cherche une règle qui permette de les comprendre.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=103",
+          "sourceLabel": "Recueil académique · p. 103"
+        }
+      ]
+    },
+    {
+      "id": "kant-plaire-sans-posseder",
+      "code": "K14",
+      "author": "Kant",
+      "title": "Plaire sans vouloir posséder",
+      "work": "Critique de la faculté de juger",
+      "locator": "§ 5 · définition du beau déduite du premier moment",
+      "quote": "Le goût est la faculté de juger un objet ou un mode de représentation par l'intermédiaire de la satisfaction ou du déplaisir, de manière désintéressée.",
+      "notions": [
+        "art"
+      ],
+      "edition": "GF · édition avec bibliographie mise à jour (2015)",
+      "publisher": "Flammarion",
+      "editionYear": 2015,
+      "translator": "Alain Renaut",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Apprécier une beauté revient-il à désirer posséder ce qui nous plaît ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Kant distingue le jugement de goût et la satisfaction liée à un intérêt pour l’objet."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le désintéressement signifie ici que le plaisir ne dépend pas du désir de posséder l’objet ou d’en tirer avantage."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Je peux ainsi prendre plaisir à sa représentation sans me demander ce que son existence m’apporte."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Admirer la forme d’un palais ne revient pas à vouloir y habiter ni à approuver les dépenses de son propriétaire."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le jugement de goût peut donc être désintéressé sans être indifférent, puisque la beauté nous procure précisément une satisfaction."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La valeur de l’art réside-t-elle dans son inutilité ?",
+          "function": "Distinguer le désintéressement et l’absence de valeur",
+          "reason": "Après la recherche d’une utilité, montrer qu’une satisfaction peut avoir une valeur sans dépendre d’un avantage à obtenir.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=7",
+          "sourceLabel": "Recueil académique · p. 7"
+        },
+        {
+          "subject": "Beauté et utilité sont-elles incompatibles ?",
+          "function": "Distinguer deux façons d’apprécier le même objet",
+          "reason": "Montrer qu’un objet peut être utile, tandis que le plaisir pris à sa beauté ne dépend pas de cet usage.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6"
+        }
+      ]
+    },
+    {
+      "id": "kant-beau-et-universalite",
+      "code": "K15",
+      "author": "Kant",
+      "title": "Un plaisir qui demande à être partagé",
+      "work": "Critique de la faculté de juger",
+      "locator": "§ 9 · définition du beau déduite du deuxième moment",
+      "quote": "Est beau ce qui plaît universellement sans concept.",
+      "notions": [
+        "art",
+        "raison"
+      ],
+      "edition": "GF · édition avec bibliographie mise à jour (2015)",
+      "publisher": "Flammarion",
+      "editionYear": 2015,
+      "translator": "Alain Renaut",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Dire qu’une chose est belle signifie-t-il seulement qu’elle me plaît personnellement ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Kant affirme que le jugement de beauté prétend à un plaisir partageable par tous sans démonstration par concepts."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’universalité est ici une exigence d’accord, et non le constat que chacun apprécie effectivement le même objet."
+        },
+        {
+          "function": "La raison",
+          "sentence": "En disant beau plutôt qu’agréable pour moi, je sollicite l’adhésion d’autrui sans pouvoir l’imposer par une preuve."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Deux visiteurs peuvent discuter de la beauté d’un tableau alors qu’ils ne discuteraient pas de la même manière d’une préférence pour une saveur."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le goût n’est donc ni un simple caprice privé ni une connaissance démontrable, et les désaccords ne disparaissent pas pour autant."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’art est-il une affaire de goût personnel ?",
+          "function": "Dépasser l’opposition entre caprice et preuve",
+          "reason": "Après la diversité des préférences, montrer qu’un jugement esthétique peut réclamer un accord sans devenir une démonstration.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6"
+        },
+        {
+          "subject": "Peut-on démontrer qu’une œuvre d’art est belle ?",
+          "function": "Distinguer l’exigence d’accord et la preuve",
+          "reason": "Montrer que demander l’adhésion d’autrui ne suppose pas qu’on puisse déduire la beauté de l’œuvre à partir d’un concept.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=88",
+          "sourceLabel": "Recueil académique · p. 88"
+        }
+      ]
+    },
+    {
+      "id": "kant-beau-sans-recette",
+      "code": "K16",
+      "author": "Kant",
+      "title": "La beauté n’a pas de recette",
+      "work": "Critique de la faculté de juger",
+      "locator": "§ 17 · De l’idéal de la beauté",
+      "quote": "Il ne peut y avoir nulle règle objective du goût qui détermine par concepts ce qui est beau.",
+      "notions": [
+        "art",
+        "raison"
+      ],
+      "edition": "GF · édition avec bibliographie mise à jour (2015)",
+      "publisher": "Flammarion",
+      "editionYear": 2015,
+      "translator": "Alain Renaut",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une définition permettrait-elle de décider automatiquement de ce qui est beau ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Kant refuse l’existence d’une règle objective qui déduirait la beauté à partir de concepts."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Une telle règle devrait imposer le jugement de goût comme une conclusion démontrée."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Or le plaisir esthétique doit être éprouvé par le sujet et ne peut être remplacé par un raisonnement sur des propriétés."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Connaître les proportions d’un bâtiment ne force pas à trouver sa façade belle."
+        },
+        {
+          "function": "La portée",
+          "sentence": "On peut donc éduquer et discuter le goût sans posséder une formule qui dicterait nécessairement l’appréciation de chacun."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Faut-il renoncer à définir le beau ?",
+          "function": "Distinguer une réflexion et une règle de décision",
+          "reason": "Après le besoin de préciser la beauté, refuser qu’une définition dispense de l’expérience du jugement.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6"
+        },
+        {
+          "subject": "Peut-on prouver qu’une œuvre d’art est belle ?",
+          "function": "Limiter la portée des arguments démonstratifs",
+          "reason": "Montrer que l’analyse des propriétés de l’œuvre peut éclairer le regard sans contraindre le plaisir comme une conclusion logique.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=88",
+          "sourceLabel": "Recueil académique · p. 88"
+        }
+      ]
+    },
+    {
+      "id": "kant-sublime-et-resistance",
+      "code": "K17",
+      "author": "Kant",
+      "title": "Un plaisir qui résiste aux sens",
+      "work": "Critique de la faculté de juger",
+      "locator": "Remarque générale après le § 29 · exposition des jugements esthétiques réfléchissants",
+      "quote": "Est sublime ce qui plaît immédiatement à travers la résistance qu'il oppose à l'intérêt des sens.",
+      "notions": [
+        "nature",
+        "raison",
+        "art"
+      ],
+      "edition": "GF · édition avec bibliographie mise à jour (2015)",
+      "publisher": "Flammarion",
+      "editionYear": 2015,
+      "translator": "Alain Renaut",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Comment pouvons-nous éprouver une satisfaction devant ce qui contrarie notre sensibilité ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Kant distingue le sublime d’un plaisir qui satisferait immédiatement les sens."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le sublime fait éprouver une résistance sensible, puis révèle dans l’esprit une capacité qui ne se mesure pas à cette résistance."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Face à une puissance naturelle, notre faiblesse physique peut ainsi faire ressortir une destination rationnelle qui ne se réduit pas à la force."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Observer une tempête depuis un lieu sûr peut susciter ce sentiment mêlé de recul et d’élévation."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le sublime n’est donc pas le simple charme d’un spectacle, et il ne suppose ni de rechercher le danger ni d’aimer souffrir."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Faut-il prendre la nature pour modèle ?",
+          "function": "Distinguer puissance naturelle et valeur rationnelle",
+          "reason": "Après l’admiration de la nature, montrer que sa puissance peut révéler une exigence humaine qui ne consiste pas à l’imiter.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=46",
+          "sourceLabel": "Recueil académique · p. 46"
+        },
+        {
+          "subject": "L’art n’a-t-il pour but que le plaisir ?",
+          "function": "Distinguer satisfaction esthétique et agrément immédiat",
+          "reason": "Introduire, à partir de l’analyse du sublime naturel, la possibilité d’une satisfaction qui passe par une résistance sensible, sans assimiler toute œuvre au sublime.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6"
+        }
+      ]
+    },
+    {
+      "id": "kant-savoir-et-savoir-faire",
+      "code": "K18",
+      "author": "Kant",
+      "title": "Savoir n’est pas encore savoir faire",
+      "work": "Critique de la faculté de juger",
+      "locator": "§ 43 · De l’art en général",
+      "quote": "Seul ce que l'on n'a pas aussitôt l'habileté de faire du simple fait qu'on le connaît de la manière la plus parfaite relève de l'art.",
+      "notions": [
+        "art",
+        "technique",
+        "travail"
+      ],
+      "edition": "GF · édition avec bibliographie mise à jour (2015)",
+      "publisher": "Flammarion",
+      "editionYear": 2015,
+      "translator": "Alain Renaut",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Connaître parfaitement une manière de faire suffit-il pour savoir la réaliser ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Kant distingue le savoir théorique et l’habileté pratique que requiert l’art."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’art désigne ici un savoir-faire, dans un sens plus large que les seuls beaux-arts."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La connaissance du résultat recherché ne donne pas nécessairement la capacité de le produire."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Décrire avec précision une bonne chaussure ne rend pas capable de la fabriquer."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La pratique exige donc une habileté propre, sans que cela rende les connaissances inutiles à celui qui apprend un métier ou un art."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La maîtrise technique suffit-elle à définir l’artiste ?",
+          "function": "Reconnaître d’abord une dimension pratique irréductible",
+          "reason": "Avant de chercher ce qui distingue l’artiste, établir qu’une connaissance théorique ne remplace pas l’habileté de produire.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=61",
+          "sourceLabel": "Recueil académique · p. 61"
+        },
+        {
+          "subject": "L’art s’apprend-il ?",
+          "function": "Préciser ce qui doit être appris",
+          "reason": "Distinguer l’acquisition d’informations et la formation d’une habileté par l’exercice, sans prétendre que toute création se réduise à cette habileté.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=7",
+          "sourceLabel": "Recueil académique · p. 7"
+        }
+      ]
+    },
+    {
+      "id": "kant-genie-et-regles",
+      "code": "K19",
+      "author": "Kant",
+      "title": "Créer des règles par l’œuvre",
+      "work": "Critique de la faculté de juger",
+      "locator": "§ 46 · Les beaux-arts sont les arts du génie",
+      "quote": "Le génie est le talent (don naturel) qui donne à l'art ses règles.",
+      "notions": [
+        "art",
+        "nature",
+        "technique"
+      ],
+      "edition": "GF · édition avec bibliographie mise à jour (2015)",
+      "publisher": "Flammarion",
+      "editionYear": 2015,
+      "translator": "Alain Renaut",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "L’artiste crée-t-il seulement en appliquant une méthode déjà disponible ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Kant définit le génie comme un talent qui donne à l’art ses règles."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Ces règles ne sont pas une recette transmise avant l’œuvre, mais ce qui devient exemplaire à travers une création originale."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une œuvre du génie ouvre ainsi une possibilité que les autres peuvent explorer sans simplement la copier."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un poème peut inventer une manière d’associer rythme et images dont d’autres auteurs apprendront à leur tour."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le génie ne se réduit donc pas à l’application technique, sans dispenser l’artiste du travail, de l’apprentissage ou du jugement."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Est-ce en imitant qu’on devient artiste ?",
+          "function": "Distinguer l’apprentissage et la création exemplaire",
+          "reason": "Après la valeur formatrice des modèles, montrer que l’originalité artistique ne consiste pas à reproduire leurs résultats.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6"
+        },
+        {
+          "subject": "Faut-il recourir à la notion d’inspiration pour rendre compte de la production artistique ?",
+          "function": "Donner un contenu précis au don créateur",
+          "reason": "Expliquer la nouveauté des règles par l’œuvre, sans transformer l’inspiration en absence de travail ou en intervention mystérieuse.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6"
+        }
+      ]
+    },
+    {
+      "id": "kant-art-et-naturel",
+      "code": "K20",
+      "author": "Kant",
+      "title": "L’art et l’apparence du naturel",
+      "work": "Critique de la faculté de juger",
+      "locator": "§ 45 · Les beaux-arts et l’apparence de la nature",
+      "quote": "La nature était belle lorsqu'en même temps elle avait l'apparence de l'art ; et l'art ne peut être appelé beau que si nous sommes conscients qu'il s'agit d'art et que celui-ci prend cependant pour nous l'apparence de la nature.",
+      "notions": [
+        "art",
+        "nature",
+        "technique"
+      ],
+      "edition": "GF · édition avec bibliographie mise à jour (2015)",
+      "publisher": "Flammarion",
+      "editionYear": 2015,
+      "translator": "Alain Renaut",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une œuvre doit-elle montrer la contrainte du travail qui l’a rendue possible ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Kant affirme que le bel art doit paraître naturel tout en restant reconnu comme de l’art."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le naturel désigne ici une liberté apparente à l’égard des règles, et non l’absence de fabrication."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Si la méthode s’impose comme une contrainte visible, l’œuvre semble exécutée mécaniquement plutôt que librement composée."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un vers très travaillé peut sembler aller de soi sans que le lecteur ignore qu’un poète l’a composé."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le naturel peut donc être un effet de l’art, sans se confondre avec une tromperie qui ferait passer l’œuvre pour un objet naturel."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’art s’apprend-il ?",
+          "function": "Distinguer l’effort de formation et son effet sensible",
+          "reason": "Après la nécessité du travail, montrer que la réussite peut consister à ne pas donner l’impression d’une application laborieuse.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=7",
+          "sourceLabel": "Recueil académique · p. 7"
+        },
+        {
+          "subject": "Faut-il prendre la nature pour modèle ?",
+          "function": "Préciser le sens d’un modèle naturel pour l’art",
+          "reason": "Montrer que l’artiste peut rechercher une apparence de liberté plutôt que copier les formes des objets naturels.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=46",
+          "sourceLabel": "Recueil académique · p. 46"
+        }
+      ]
+    },
+    {
+      "id": "kant-beaute-de-la-representation",
+      "code": "K21",
+      "author": "Kant",
+      "title": "La beauté de la représentation",
+      "work": "Critique de la faculté de juger",
+      "locator": "§ 48 · Du rapport du génie au goût",
+      "quote": "Une beauté naturelle est une belle chose ; la beauté artistique est une belle représentation d'une chose.",
+      "notions": [
+        "art",
+        "nature"
+      ],
+      "edition": "GF · édition avec bibliographie mise à jour (2015)",
+      "publisher": "Flammarion",
+      "editionYear": 2015,
+      "translator": "Alain Renaut",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La beauté d’une œuvre exige-t-elle que son sujet soit lui-même beau ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Kant distingue une belle chose et la belle représentation d’une chose."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La beauté naturelle concerne l’objet considéré, tandis que la beauté artistique engage la manière de le présenter."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La valeur esthétique d’une représentation ne se déduit donc pas de l’agrément que procurerait son sujet dans la réalité."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une peinture peut représenter avec force un visage marqué par l’âge sans chercher à l’embellir."
+        },
+        {
+          "function": "La portée",
+          "sentence": "L’art peut ainsi représenter des choses déplaisantes, sans que toute représentation de la laideur devienne pour autant une belle œuvre."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La laideur peut-elle intéresser l’artiste ?",
+          "function": "Dissocier la valeur de l’œuvre et l’agrément du sujet",
+          "reason": "Après l’association spontanée de l’art et du beau, montrer qu’une chose déplaisante peut recevoir une belle représentation.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=7",
+          "sourceLabel": "Recueil académique · p. 7"
+        },
+        {
+          "subject": "L’œuvre d’art est-elle nécessairement belle ?",
+          "function": "Préciser ce qui est jugé beau",
+          "reason": "Distinguer la beauté de la représentation et celle de son sujet, avant de discuter les œuvres qui refusent elles-mêmes la beauté.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=7",
+          "sourceLabel": "Recueil académique · p. 7"
+        }
+      ]
+    },
+    {
+      "id": "kant-vivant-et-machine",
+      "code": "K22",
+      "author": "Kant",
+      "title": "Le vivant et la machine",
+      "work": "Critique de la faculté de juger",
+      "locator": "§ 65 · Les choses en tant que fins naturelles",
+      "quote": "Un être organisé n'est donc pas simplement une machine, étant donné que la machine a exclusivement la force motrice ; mais il possède en soi une force formatrice qu'il communique aux matières qui n'en disposent pas (il les organise) : c'est donc une force formatrice qui se propage et qui ne peut être expliquée uniquement par le pouvoir moteur (par le mécanisme).",
+      "notions": [
+        "nature",
+        "science",
+        "technique"
+      ],
+      "edition": "GF · édition avec bibliographie mise à jour (2015)",
+      "publisher": "Flammarion",
+      "editionYear": 2015,
+      "translator": "Alain Renaut",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Comprendre le vivant revient-il à décrire une machine particulièrement complexe ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Kant distingue la force motrice d’une machine et la force formatrice d’un être organisé."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le vivant ne se borne pas à transmettre des mouvements, puisqu’il assimile des matières et contribue à sa propre formation."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Dans une machine, les pièces ne produisent pas normalement les autres pièces, alors que l’organisation vivante entretient les conditions de son activité."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un arbre grandit en organisant les matières qu’il reçoit, tandis qu’une montre ne fabrique pas elle-même ses rouages."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Cette distinction indique une difficulté du modèle mécanique chez Kant, sans établir une limite définitive de la biologie contemporaine."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Un être vivant peut-il être assimilé à une machine ?",
+          "function": "Faire apparaître la limite de l’analogie",
+          "reason": "Après les ressemblances de fonctionnement, comparer la transmission d’un mouvement et la capacité de se former et de se maintenir.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=64",
+          "sourceLabel": "Recueil académique · p. 64"
+        },
+        {
+          "subject": "Faut-il, pour connaître le vivant, l’assimiler à une machine ?",
+          "function": "Distinguer l’utilité d’un modèle et sa suffisance",
+          "reason": "Reconnaître l’intérêt de l’explication mécanique, puis examiner ce qu’elle laisse à comprendre de l’organisation vivante.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=64",
+          "sourceLabel": "Recueil académique · p. 64"
+        }
+      ]
+    },
+    {
+      "id": "kant-organisme-et-reciprocite",
+      "code": "K23",
+      "author": "Kant",
+      "title": "Dans le vivant, fin et moyen",
+      "work": "Critique de la faculté de juger",
+      "locator": "§ 66 · La finalité interne dans les êtres organisés",
+      "quote": "Ce principe, qui constitue en même temps la définition des êtres organisés, est le suivant : un produit organisé de la nature est celui dans lequel tout est fin et réciproquement aussi moyen.",
+      "notions": [
+        "nature",
+        "science"
+      ],
+      "edition": "GF · édition avec bibliographie mise à jour (2015)",
+      "publisher": "Flammarion",
+      "editionYear": 2015,
+      "translator": "Alain Renaut",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Peut-on comprendre un organe en l’isolant entièrement de l’organisme ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Kant propose de juger l’être organisé comme un tout dans lequel les parties sont réciproquement fins et moyens."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Une partie contribue à l’existence des autres et du tout, dont elle reçoit elle-même les conditions de son maintien."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Cette réciprocité conduit à comprendre chaque organe à partir de l’organisation à laquelle il participe."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une feuille nourrit l’arbre dont les racines et les autres parties rendent possible sa propre croissance."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La finalité guide ici notre jugement sur le vivant, sans prouver qu’un créateur aurait consciemment conçu chaque détail de l’organisme."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Suffit-il de connaître la matière pour connaître le vivant ?",
+          "function": "Introduire la relation entre les parties et le tout",
+          "reason": "Après l’inventaire des constituants matériels, examiner leurs fonctions réciproques dans l’organisation de l’être vivant.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=134",
+          "sourceLabel": "Recueil académique · p. 134"
+        },
+        {
+          "subject": "Le vivant est-il entièrement explicable ?",
+          "function": "Distinguer un principe de recherche et une explication acquise",
+          "reason": "Montrer que comprendre les organes par leurs relations guide l’étude, sans donner à lui seul l’explication de leur production.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=134",
+          "sourceLabel": "Recueil académique · p. 134"
+        }
+      ]
     }
   ]
 }
