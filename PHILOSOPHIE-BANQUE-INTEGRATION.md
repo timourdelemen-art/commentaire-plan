@@ -6,16 +6,16 @@ Le propriétaire a fourni trois recueils, approuvé l’inventaire de 45 citatio
 
 ## Contenu
 
-- 78 citations : quinze de Platon, quinze d’Aristote, quinze de Nietzsche, quinze de Spinoza et dix-huit de Cioran.
-- 163 usages proposés sur 116 libellés de sujets distincts, avec deux ou trois sujets par fiche.
-- 78 commentaires originaux de six phrases, de 145 mots au plus ; aucune prétention à un protocole officiel de six phrases.
+- 101 citations : quinze de Platon, quinze d’Aristote, quinze de Nietzsche, quinze de Spinoza, dix-huit de Cioran et vingt-trois de Kant.
+- 209 usages proposés sur 144 libellés de sujets distincts, avec deux ou trois sujets par fiche.
+- 101 commentaires originaux de six phrases, de 145 mots au plus ; aucune prétention à un protocole officiel de six phrases.
 - Sept liens vers des copies A20 existantes, avec indication de la sous-partie examinée. Il s’agit d’insertions possibles, pas de citations déjà présentes dans les copies.
 - Les sujets anciens sont attestés dans le recueil de l’académie de Montpellier, 1996-2025, aux pages conservées dans les données. Sept raccords sont vérifiés dans les PDF ministériels 2026 (Amérique du Nord et Asie).
 - Les traductions individuelles non identifiées restent explicitement indiquées comme à préciser. Les noms ne sont pas inventés.
 
 ## Sources et contrôle
 
-La sélection et ses citations viennent des six ouvrages fournis dans la conversation. Le registre scripts/philo-banque-provenance.json conserve les empreintes des sources, le passage interne et l’empreinte du texte de chaque citation contrôlée. Les livres, noms de fichiers privés et identifiants Library ne sont pas commis. Les espaces et renvois de notes ont été normalisés ; les mots des citations ne sont pas remplacés.
+La sélection et ses citations viennent des huit ouvrages fournis dans la conversation. Le registre scripts/philo-banque-provenance.json conserve les empreintes des sources, le passage interne et l’empreinte du texte de chaque citation contrôlée. Les livres, noms de fichiers privés et identifiants Library ne sont pas commis. Les espaces et renvois de notes ont été normalisés ; les mots des citations ne sont pas remplacés.
 
 Le propriétaire a expressément demandé l’intégration de ces courts extraits après lecture du recueil. Aucun ouvrage ni chapitre entier n’est publié. La décision porte sur cette sélection, pas sur une autorisation générale de reproduire les traductions.
 
@@ -23,7 +23,7 @@ Le propriétaire a expressément demandé l’intégration de ces courts extrait
 
 Source : scripts/philo-banque-data.json. Génération : node scripts/build-philo-banque.js. Le script vérifie les citations contre les empreintes, les six fonctions, les sources des sujets, les liens A20, et produit philosophie-banque-data.js ainsi que le catalogue HTML complet. --check vérifie la fraîcheur des deux sorties. Les sorties sont commises car le build général ne relance pas ce générateur.
 
-La page fonctionne sans JavaScript : soixante-dix-huit fiches complètes dans des blocs dépliables. Avec JavaScript : filtres, lecteur unique, lecture annotée ou continue, lien direct partageable. La recherche ne promet aucun classement sémantique automatique. Le sélecteur ne fait que filtrer des raccords documentés.
+La page fonctionne sans JavaScript : cent une fiches complètes dans des blocs dépliables. Avec JavaScript : filtres, lecteur unique, lecture annotée ou continue, lien direct partageable. La recherche ne promet aucun classement sémantique automatique. Le sélecteur ne fait que filtrer des raccords documentés.
 
 Les anciennes fiches sont retirées des données et du catalogue. Onze anciens identifiants renvoient vers une nouvelle fiche du même passage ou thème repris ; quatre identifiants sans équivalent présentent un message de retrait. Les anciens brouillons du navigateur ne sont ni utilisés ni effacés.
 
@@ -56,3 +56,13 @@ Le 16 octobre 2026, le propriétaire demande de développer les usages de la rel
 Six fiches complémentaires de « L’Arbre de vie » : C13 le malaise antérieur à la transgression ; C14 connaissance et perte de familiarité ; C15 précarité et conscience de la mortalité ; C16 entrée dans le temps vécu ; C17 outil comme compensation ; C18 distinction entre devenir et progrès. Treize usages nouveaux sur des sujets attestés : douze dans le recueil académique et un raccord à la copie Asie 2026, « Faut-il être inconscient pour être heureux ? », I.2, en complément de l’argument pascalien. Le chapitre entier a été relu, y compris sa distinction finale entre un savoir tourné vers la puissance et un savoir tourné vers la délivrance. Les commentaires ne condamnent donc pas tout savoir au nom de Cioran.
 
 La recherche inclut désormais la référence du passage : « arbre de vie » retrouve les six fiches ensemble. Le complément représente 18 fiches Cioran en tout, dont six du Précis et douze de La Chute. L’innocence du mythe, le temps vécu et les affirmations polémiques sur le vivant ne sont pas présentés comme des faits historiques, physiques ou biologiques.
+
+## Extension Kant
+
+Le propriétaire demande de poursuivre avec les deux Critiques fournies, en privilégiant des phrases complètes qui restent intelligibles hors de leur paragraphe et permettent des emplois argumentatifs précis. La reprise retrouve la trace d’une sélection antérieure de 27 citations, mais pas son détail : les 23 fiches ajoutées ici sont une sélection vérifiée de nouveau dans les EPUB, et non une restitution prétendue de cette liste. Douze phrases proviennent de la *Critique de la raison pure*, onze de la *Critique de la faculté de juger*. Aucune lecture exhaustive nouvelle des deux ouvrages n’est certifiée par ce travail de sélection et de contextualisation.
+
+Les deux traductions sont d’Alain Renaut. La première est identifiée sur la page de titre ; la seconde par la notice BnF cb44435653s correspondant à l’ISBN du livre fourni. L’année 2015 de la troisième Critique correspond au dépôt légal de l’édition, confirmé par la BnF, et non à l’année indiquée dans le nom du fichier ou à la première publication (1790). La première Critique utilise les repères A/B, l’autre les paragraphes ou divisions nommées, sans pagination française inventée. Appels de notes et repères intercalés de l’édition allemande sont retirés ; aucun mot des phrases n’est remplacé ni coupé. Le registre conserve l’emplacement exact et les empreintes.
+
+Les 46 emplois sont vérifiés par comparaison du libellé avec la page du PDF académique 1996–2025. Le recueil des 11 000 sujets de Baptiste Mélès ne sert pas d’attestation de sujet du bac. Chaque commentaire suit les six fonctions et reste sous 145 mots ; les usages indiquent l’étape argumentative où la distinction devient utile. Aucun nouveau raccord A20 n’est annoncé sans lecture de la copie correspondante.
+
+Relecture : commencement empirique distinct de l’origine de toutes les conditions ; cohérence nécessaire mais insuffisante ; jugement distinct de la sensation ; persistance de l’apparence distincte de l’adhésion ; critique de la preuve ontologique distincte d’une preuve d’inexistence ; certitude personnelle distincte de justification ; opinion insuffisante distincte d’une opinion fausse ; universalité du goût revendiquée plutôt que constatée ; sans concept distinct de sans réflexion ; désintéressement distinct d’indifférence ; génie compatible avec apprentissage technique ; naturel artistique distinct d’une copie de la nature ; beauté de la représentation distincte de celle du sujet ; finalité comme principe du jugement, non preuve d’un créateur ou verdict sur les limites de la biologie contemporaine.
