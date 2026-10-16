@@ -15,3 +15,6 @@
 @media print{.bank-finder,.bank-grid,.bank-reader-top,.bank-links,.bank-text-button,.bank-edition summary{display:none}.bank-reader{border:0;padding:0;max-width:none}.bank-main{padding:0}.bank-section{break-inside:avoid}.bank-quote p{font-size:18pt}.bank-paragraph{font-size:11pt}}
 
 .bank-main .bank-nobr{white-space:nowrap}
+
+/* Vers cités : même lecteur, découpe originale et situation dramatique brève. */
+.bank-verse{white-space:pre-line}.bank-situation{font-size:.86rem;line-height:1.65;color:var(--bank-muted);margin:8px 0 14px}

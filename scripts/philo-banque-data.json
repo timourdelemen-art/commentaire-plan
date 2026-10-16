@@ -6121,6 +6121,2079 @@
           "sourceLabel": "Recueil académique · p. 134"
         }
       ]
+    },
+    {
+      "id": "baudelaire-nature-et-signes",
+      "code": "B01",
+      "author": "Baudelaire",
+      "title": "La nature à interpréter",
+      "work": "Correspondances",
+      "locator": "v. 1–2 · p. 39",
+      "quote": "La Nature est un temple où de vivants piliers\nLaissent parfois sortir de confuses paroles;",
+      "notions": [
+        "nature",
+        "langage",
+        "art"
+      ],
+      "edition": "Les Fleurs du Mal et autres poèmes · préface d’Henri Lemaitre",
+      "publisher": "Garnier-Flammarion",
+      "editionYear": 1964,
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La nature nous livre-t-elle immédiatement ce qu’elle signifie ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Le poème présente la nature comme un temple dont les paroles restent confuses."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Les piliers vivants rapprochent l’ordre naturel d’un lieu sacré, tandis que la parole suggère une présence à comprendre."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Mais cette parole demande une interprétation, puisque son sens ne se donne pas avec la netteté d’un message ordinaire."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une forêt peut ainsi être perçue comme un ensemble de choses ou comme un paysage chargé de correspondances."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La poésie ouvre une autre attention au monde, sans démontrer que la nature possède littéralement un langage humain."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’art peut-il nous apprendre à voir le monde autrement ?",
+          "function": "Déplacer notre manière de percevoir",
+          "reason": "Après la description des objets, montrer comment l’image poétique fait apparaître des relations que le regard habituel néglige.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6"
+        },
+        {
+          "subject": "L’art est-il une interprétation du monde ?",
+          "function": "Distinguer interprétation et explication",
+          "reason": "Si l’on examine le sens prêté à la nature, distinguer la lecture de ses symboles et la connaissance scientifique de ses causes.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=11",
+          "sourceLabel": "Recueil académique · p. 11"
+        }
+      ],
+      "collection": "Les Fleurs du Mal"
+    },
+    {
+      "id": "baudelaire-art-et-temps",
+      "code": "B02",
+      "author": "Baudelaire",
+      "title": "L’œuvre exige plus de temps que la vie",
+      "work": "Le Guignon",
+      "locator": "v. 3–4 · p. 45",
+      "quote": "Bien qu’on ait du cœur à l’ouvrage,\nL’Art est long et le Temps est court.",
+      "notions": [
+        "art",
+        "temps",
+        "travail"
+      ],
+      "edition": "Les Fleurs du Mal et autres poèmes · préface d’Henri Lemaitre",
+      "publisher": "Garnier-Flammarion",
+      "editionYear": 1964,
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La bonne volonté suffit-elle à mener une œuvre à son accomplissement ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Le poème oppose la longueur du travail artistique à la brièveté du temps disponible."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Avoir du cœur à l’ouvrage signifie s’y engager, sans disposer pour autant de toute la durée nécessaire."
+        },
+        {
+          "function": "La raison",
+          "sentence": "L’artiste peut donc éprouver une disproportion entre son effort, l’exigence de son art et les limites de sa vie."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un créateur peut consacrer des années à une œuvre sans lui donner encore la forme qu’il cherche."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La création fait ainsi rencontrer notre finitude, sans que la durée de l’effort garantisse à elle seule la valeur du résultat."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’activité artistique est-elle un travail ?",
+          "function": "Mettre au jour l’effort de création",
+          "reason": "Après l’image de l’inspiration immédiate, faire apparaître la durée et la difficulté nécessaires à l’élaboration de l’œuvre.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6"
+        },
+        {
+          "subject": "Maîtrise-t-on le temps ?",
+          "function": "Distinguer l’engagement et la disponibilité du temps",
+          "reason": "Montrer que vouloir accomplir une œuvre n’abolit pas la limite de la durée dont nous disposons.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=42",
+          "sourceLabel": "Recueil académique · p. 42"
+        }
+      ],
+      "collection": "Les Fleurs du Mal"
+    },
+    {
+      "id": "baudelaire-beaute-et-bien",
+      "code": "B03",
+      "author": "Baudelaire",
+      "title": "La beauté répond-elle du bien ?",
+      "work": "Hymne à la Beauté",
+      "locator": "v. 11–12 · p. 52",
+      "quote": "Tu sèmes au hasard la joie et les désastres,\nEt tu gouvernes tout et ne réponds de rien.",
+      "notions": [
+        "art",
+        "devoir"
+      ],
+      "edition": "Les Fleurs du Mal et autres poèmes · préface d’Henri Lemaitre",
+      "publisher": "Garnier-Flammarion",
+      "editionYear": 1964,
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Ce qui nous éblouit est-il nécessairement bon ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "La voix poétique s’adresse à une Beauté capable de produire aussi bien la joie que le désastre."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La beauté devient une puissance personnifiée dont l’efficacité ne s’accompagne d’aucune responsabilité morale."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Notre fascination peut donc nous soumettre à ce qui nous attire avant que nous ayons jugé ses effets."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une forme admirable peut servir un discours violent sans perdre immédiatement son pouvoir de séduction."
+        },
+        {
+          "function": "La portée",
+          "sentence": "L’expérience esthétique doit ainsi être distinguée de l’approbation morale, sans conclure que toute beauté serait mauvaise."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’art nous rend-il meilleurs ?",
+          "function": "Contester le passage automatique du beau au bien",
+          "reason": "Après le pouvoir d’élévation prêté à l’art, examiner une fascination esthétique qui ne garantit pas une amélioration morale.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6"
+        },
+        {
+          "subject": "La beauté est-elle la seule fin de l’art ?",
+          "function": "Ouvrir l’examen de la responsabilité artistique",
+          "reason": "Une fois reconnue la puissance du beau, demander si cette puissance suffit à justifier ce que l’œuvre fait éprouver ou accepter.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=7",
+          "sourceLabel": "Recueil académique · p. 7"
+        }
+      ],
+      "collection": "Les Fleurs du Mal"
+    },
+    {
+      "id": "baudelaire-souvenir-et-presence",
+      "code": "B04",
+      "author": "Baudelaire",
+      "title": "Rendre le passé présent",
+      "work": "Le Balcon",
+      "locator": "v. 21–22 · p. 63",
+      "quote": "Je sais l’art d’évoquer les minutes heureuses,\nEt revis mon passé blotti dans tes genoux.",
+      "notions": [
+        "temps",
+        "conscience"
+      ],
+      "edition": "Les Fleurs du Mal et autres poèmes · préface d’Henri Lemaitre",
+      "publisher": "Garnier-Flammarion",
+      "editionYear": 1964,
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Le souvenir rend-il présent ce qui a disparu ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "La voix poétique affirme son pouvoir d’évoquer et de revivre des instants heureux."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’évocation est une activité de la mémoire, tandis que revivre dit l’intensité présente de ce rappel."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Les sensations et la proximité de l’être aimé semblent rendre au passé une présence que la chronologie lui refuse."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un parfum familier peut faire renaître avec force l’atmosphère d’une rencontre ancienne."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La mémoire peut donc transformer notre expérience du présent, sans restituer matériellement l’événement ni abolir sa perte."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Est-il possible d’échapper au temps ?",
+          "function": "Distinguer le retour sensible et le retour réel",
+          "reason": "Après l’irréversibilité des événements, examiner la présence intérieure qu’un souvenir peut leur rendre.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=65",
+          "sourceLabel": "Recueil académique · p. 65"
+        },
+        {
+          "subject": "Est-il possible de vivre au présent ?",
+          "function": "Montrer que le présent accueille le passé",
+          "reason": "Contester un présent réduit à l’instant isolé en analysant la manière dont le souvenir habite l’expérience actuelle.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=65",
+          "sourceLabel": "Recueil académique · p. 65"
+        }
+      ],
+      "collection": "Les Fleurs du Mal"
+    },
+    {
+      "id": "baudelaire-remords-et-irreparable",
+      "code": "B05",
+      "author": "Baudelaire",
+      "title": "Ce que le remords ne répare pas",
+      "work": "L’Irréparable",
+      "locator": "v. 36–37 · p. 80",
+      "quote": "L’Irréparable ronge avec sa dent maudite\nNotre âme, piteux monument,",
+      "notions": [
+        "conscience",
+        "devoir",
+        "temps"
+      ],
+      "edition": "Les Fleurs du Mal et autres poèmes · préface d’Henri Lemaitre",
+      "publisher": "Garnier-Flammarion",
+      "editionYear": 1964,
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Reconnaître une faute suffit-il à réparer ce qu’elle a détruit ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Le poème représente l’irréparable comme une force qui ronge l’âme."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’âme devient un monument fragile, et la dent transforme le remords en une action lente de destruction."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La conscience du mal accompli peut donc persister sans donner le pouvoir de défaire l’événement."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Regretter d’avoir trahi une confiance ne rétablit pas immédiatement la relation antérieure."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Il faut distinguer le remords, la réparation possible et l’effacement impossible du passé, sans faire de toute culpabilité une condamnation sans issue."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Peut-on se libérer du passé ?",
+          "function": "Distinguer reconnaître et défaire",
+          "reason": "Après le rôle libérateur de l’aveu, montrer que comprendre sa faute ne supprime pas toutes ses conséquences.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=42",
+          "sourceLabel": "Recueil académique · p. 42"
+        },
+        {
+          "subject": "Pour se libérer du passé faut-il l’oublier ?",
+          "function": "Distinguer l’oubli et la réparation",
+          "reason": "Après l’oubli conçu comme libération, distinguer l’effacement d’un souvenir et la réparation des conséquences de l’acte.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=42",
+          "sourceLabel": "Recueil académique · p. 42"
+        }
+      ],
+      "collection": "Les Fleurs du Mal"
+    },
+    {
+      "id": "baudelaire-obscurite-et-memoire",
+      "code": "B06",
+      "author": "Baudelaire",
+      "title": "La nuit ne suffit pas à oublier",
+      "work": "Obsession",
+      "locator": "v. 9–10 · p. 97",
+      "quote": "Comme tu me plairais, ô nuit! sans ces étoiles\nDont la lumière parle un langage connu!",
+      "notions": [
+        "conscience",
+        "temps"
+      ],
+      "edition": "Les Fleurs du Mal et autres poèmes · préface d’Henri Lemaitre",
+      "publisher": "Garnier-Flammarion",
+      "editionYear": 1964,
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Peut-on échapper à ce qui nous habite en supprimant les signes du monde extérieur ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "La voix poétique désire une nuit privée des étoiles dont la lumière lui parle encore."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le langage connu des étoiles désigne un monde qui réveille des significations et des souvenirs devenus douloureux."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Mais la fin du poème peuple aussi les ténèbres de figures disparues qui jaillissent du regard lui-même."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Fermer les yeux peut ainsi laisser revenir une image que la présence des choses ne suffit pas à expliquer."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La fuite du monde rencontre donc une mémoire intérieure, sans que cette expérience poétique établisse l’impossibilité de tout apaisement."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Peut-on se libérer du passé ?",
+          "function": "Montrer la limite d’une fuite extérieure",
+          "reason": "Après l’éloignement des lieux douloureux, examiner ce qui continue à revenir par la mémoire.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=42",
+          "sourceLabel": "Recueil académique · p. 42"
+        },
+        {
+          "subject": "Suis-je le mieux placé pour me connaître ?",
+          "function": "Interroger l’opacité de notre vie intérieure",
+          "reason": "Montrer qu’une pensée ou une image peut s’imposer à nous sans que nous maîtrisions ce qu’elle révèle de notre histoire.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=18",
+          "sourceLabel": "Recueil académique · p. 18"
+        }
+      ],
+      "collection": "Les Fleurs du Mal"
+    },
+    {
+      "id": "baudelaire-monde-et-desir",
+      "code": "B07",
+      "author": "Baudelaire",
+      "title": "Quand le monde perd son attrait",
+      "work": "Le Goût du néant",
+      "locator": "v. 10 · p. 97",
+      "quote": "Le Printemps adorable a perdu son odeur!",
+      "notions": [
+        "bonheur",
+        "conscience",
+        "nature"
+      ],
+      "edition": "Les Fleurs du Mal et autres poèmes · préface d’Henri Lemaitre",
+      "publisher": "Garnier-Flammarion",
+      "editionYear": 1964,
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Suffit-il que le monde offre des plaisirs pour que nous puissions en jouir ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Dans le poème, le printemps semble avoir perdu jusqu’à son odeur."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le printemps représente le renouveau sensible, mais l’épuisement intérieur lui retire son pouvoir d’attirer."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Le monde n’a pas nécessairement cessé d’offrir ses biens : c’est la relation du sujet à ces biens qui s’est altérée."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une fête peut demeurer animée et belle sans éveiller aucun plaisir chez celui qui la traverse dans le désenchantement."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le bonheur suppose donc une capacité d’être affecté par ce qui arrive, sans réduire toute souffrance à une simple attitude volontaire."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Suffit-il d’avoir ce que l’on désire pour être heureux ?",
+          "function": "Examiner la capacité de goûter les biens",
+          "reason": "Après la possession des objets souhaités, montrer que la satisfaction dépend aussi du rapport vivant que nous entretenons avec eux.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=16",
+          "sourceLabel": "Recueil académique · p. 16"
+        },
+        {
+          "subject": "De quel bonheur sommes-nous capables ?",
+          "function": "Distinguer la vie intérieure et sa maîtrise",
+          "reason": "Reconnaître le rôle de notre disposition sensible sans prétendre qu’il suffirait de décider d’être heureux.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=13",
+          "sourceLabel": "Recueil académique · p. 13"
+        }
+      ],
+      "collection": "Les Fleurs du Mal"
+    },
+    {
+      "id": "baudelaire-douleur-et-transfiguration",
+      "code": "B08",
+      "author": "Baudelaire",
+      "title": "La douleur transforme ce qu’elle voit",
+      "work": "Alchimie de la douleur",
+      "locator": "v. 9–10 · p. 98",
+      "quote": "Par toi je change l’or en fer\nEt le paradis en enfers;",
+      "notions": [
+        "conscience",
+        "art"
+      ],
+      "edition": "Les Fleurs du Mal et autres poèmes · préface d’Henri Lemaitre",
+      "publisher": "Garnier-Flammarion",
+      "editionYear": 1964,
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Notre état intérieur peut-il modifier la valeur que le monde prend pour nous ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "La voix poétique attribue à un Hermès mystérieux la transformation de l’or en fer et du paradis en enfers."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Cette alchimie inverse la promesse d’enrichissement associée à la figure de Midas."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La douleur agit sur la représentation : ce qui pouvait apparaître précieux devient le signe d’un malheur."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un paysage lumineux peut ainsi sembler funèbre à celui qui vient d’y perdre un être aimé."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le poème montre une transformation du monde vécu, sans soutenir que la tristesse change matériellement la nature des choses."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Peut-on penser sans sentir ?",
+          "function": "Montrer la part des affects dans la représentation",
+          "reason": "Après l’idée d’une pensée détachée des émotions, examiner la manière dont la douleur oriente ce qui est perçu et interprété.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=18",
+          "sourceLabel": "Recueil académique · p. 18"
+        },
+        {
+          "subject": "L’art est-il une forme de connaissance ?",
+          "function": "Reconnaître un savoir de l’expérience vécue",
+          "reason": "Montrer que l’image poétique rend intelligible la puissance de la douleur sans fournir une explication scientifique de ses causes.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6"
+        }
+      ],
+      "collection": "Les Fleurs du Mal",
+      "editionNote": "Le volume fourni porte « enfers » ; l’édition de 1861 consultée en ligne porte « enfer »."
+    },
+    {
+      "id": "baudelaire-soi-et-conflit",
+      "code": "B09",
+      "author": "Baudelaire",
+      "title": "Être à la fois blessé et blessant",
+      "work": "L’Héautontimorouménos",
+      "locator": "v. 21–22 · p. 99",
+      "quote": "Je suis la plaie et le couteau!\nJe suis le soufflet et la joue!",
+      "notions": [
+        "conscience"
+      ],
+      "edition": "Les Fleurs du Mal et autres poèmes · préface d’Henri Lemaitre",
+      "publisher": "Garnier-Flammarion",
+      "editionYear": 1964,
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Le conflit intérieur suppose-t-il que deux personnes différentes s’affrontent en nous ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "La voix poétique s’identifie à la fois à la blessure et à l’instrument qui la produit."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La plaie et le couteau, puis le soufflet et la joue, réunissent dans un même sujet les positions opposées du patient et de l’agent."
+        },
+        {
+          "function": "La raison",
+          "sentence": "L’image fait comprendre une souffrance dans laquelle celui qui éprouve le mal participe aussi à sa reprise."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une personne peut ainsi se faire souffrir en se répétant une accusation qu’elle ne cesse de retourner contre elle-même."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le sujet peut donc être divisé dans son rapport à soi, sans que cette image rende toute victime responsable de la violence subie."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Peut-on être en conflit avec soi-même ?",
+          "function": "Donner une forme précise à la division intérieure",
+          "reason": "Après l’unité de la personne, montrer comment un même sujet peut occuper des positions opposées dans son expérience de soi.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=20",
+          "sourceLabel": "Recueil académique · p. 20"
+        },
+        {
+          "subject": "La conscience de soi est-elle trompeuse ?",
+          "function": "Interroger un rapport à soi qui se blesse",
+          "reason": "Examiner une conscience qui ne se contente pas de constater son état, mais peut entretenir une interprétation douloureuse de soi.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=20",
+          "sourceLabel": "Recueil académique · p. 20"
+        }
+      ],
+      "collection": "Les Fleurs du Mal"
+    },
+    {
+      "id": "baudelaire-conscience-et-miroir",
+      "code": "B10",
+      "author": "Baudelaire",
+      "title": "Un miroir clair et sombre",
+      "work": "L’Irrémédiable",
+      "locator": "v. 33–34 · p. 101",
+      "quote": "Tête-à-tête sombre et limpide\nQu’un cœur devenu son miroir!",
+      "notions": [
+        "conscience",
+        "verite"
+      ],
+      "edition": "Les Fleurs du Mal et autres poèmes · préface d’Henri Lemaitre",
+      "publisher": "Garnier-Flammarion",
+      "editionYear": 1964,
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Se voir lucidement suffit-il à sortir de ce qui nous fait souffrir ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Le poème représente un cœur devenu son propre miroir dans un tête-à-tête à la fois sombre et limpide."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La limpidité évoque une lucidité, tandis que l’obscurité maintient le sujet dans l’épreuve du mal."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La conscience peut ainsi éclairer sa condition sans posséder par cet éclairage le pouvoir de la transformer."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Comprendre le mécanisme d’un regret ne suffit pas toujours à cesser de l’éprouver."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La connaissance de soi et la délivrance doivent donc être distinguées, sans conclure que toute lucidité serait vaine."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Être conscient, est-ce savoir ?",
+          "function": "Distinguer présence à soi et connaissance accomplie",
+          "reason": "Après le sentiment d’être présent à soi, examiner ce que la conscience parvient réellement à comprendre de sa propre condition.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=18",
+          "sourceLabel": "Recueil académique · p. 18"
+        },
+        {
+          "subject": "La connaissance peut-elle nuire au bonheur ?",
+          "function": "Examiner une lucidité sans délivrance immédiate",
+          "reason": "Montrer pourquoi voir plus clairement sa souffrance ne garantit pas d’en être immédiatement libéré.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=15",
+          "sourceLabel": "Recueil académique · p. 15"
+        }
+      ],
+      "collection": "Les Fleurs du Mal"
+    },
+    {
+      "id": "baudelaire-temps-et-jeu",
+      "code": "B11",
+      "author": "Baudelaire",
+      "title": "Un jeu dont le temps gagne les parties",
+      "work": "L’Horloge",
+      "locator": "v. 17–18 · p. 102",
+      "quote": "Souviens-toi que le Temps est un joueur avide\nQui gagne sans tricher, à tout coup! c’est la loi.",
+      "notions": [
+        "temps",
+        "liberte"
+      ],
+      "edition": "Les Fleurs du Mal et autres poèmes · préface d’Henri Lemaitre",
+      "publisher": "Garnier-Flammarion",
+      "editionYear": 1964,
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Pouvons-nous vaincre le temps en conduisant mieux notre vie ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "L’horloge personnifiée présente le temps comme un joueur dont la victoire est régulière."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’image du jeu suggère un affrontement, mais l’absence de tricherie renvoie à une condition commune plutôt qu’à une injustice exceptionnelle."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Aucune habileté ne supprime l’écoulement de la durée ni la limite de la vie."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Organiser parfaitement une journée permet de mieux l’employer, sans empêcher qu’elle s’achève."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le rappel de cette limite peut orienter notre usage du temps, sans imposer la conclusion que toute action serait inutile."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Maîtrise-t-on le temps ?",
+          "function": "Distinguer organiser et abolir l’écoulement",
+          "reason": "Après les moyens de gagner du temps, montrer que l’efficacité ne supprime pas notre condition temporelle.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=42",
+          "sourceLabel": "Recueil académique · p. 42"
+        },
+        {
+          "subject": "Faut-il toujours chercher à gagner du temps ?",
+          "function": "Interroger la fin de l’efficacité",
+          "reason": "Une fois reconnue la durée limitée de la vie, demander à quoi doit servir le temps rendu disponible.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=65",
+          "sourceLabel": "Recueil académique · p. 65"
+        }
+      ],
+      "collection": "Les Fleurs du Mal"
+    },
+    {
+      "id": "baudelaire-ville-et-memoire",
+      "code": "B12",
+      "author": "Baudelaire",
+      "title": "La ville change, la mémoire demeure",
+      "work": "Le Cygne",
+      "locator": "I, v. 7–8 · p. 107",
+      "quote": "Le vieux Paris n’est plus (la forme d’une ville\nChange plus vite, hélas! que le cœur d’un mortel);",
+      "notions": [
+        "temps",
+        "conscience"
+      ],
+      "edition": "Les Fleurs du Mal et autres poèmes · préface d’Henri Lemaitre",
+      "publisher": "Garnier-Flammarion",
+      "editionYear": 1964,
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Changer le monde extérieur suffit-il à transformer ce que nous y vivons ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Le poème oppose la transformation rapide de Paris à la lenteur des changements du cœur humain."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La ville désigne un lieu matériel, tandis que le cœur conserve les attachements et les pertes liés à ses anciennes formes."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Le sujet peut donc habiter simultanément une ville présente et celle que sa mémoire continue de lui rendre sensible."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une rue reconstruite reste, pour un ancien habitant, le lieu d’une rencontre dont aucun bâtiment ne porte plus la trace."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le changement matériel et le temps vécu suivent ainsi des rythmes différents, sans que la mémoire soit pour autant immobile."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Peut-on se libérer du passé ?",
+          "function": "Distinguer disparition matérielle et persistance intérieure",
+          "reason": "Après la transformation des lieux, montrer pourquoi leur effacement ne supprime pas immédiatement ce qu’ils représentent pour nous.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=42",
+          "sourceLabel": "Recueil académique · p. 42"
+        },
+        {
+          "subject": "Mesurer le temps, est-ce en faire l’expérience ?",
+          "function": "Faire apparaître la diversité des rythmes vécus",
+          "reason": "Opposer à la durée uniforme l’écart entre la vitesse du changement extérieur et celle des attachements.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=66",
+          "sourceLabel": "Recueil académique · p. 66"
+        }
+      ],
+      "collection": "Les Fleurs du Mal"
+    },
+    {
+      "id": "baudelaire-mort-et-consolation",
+      "code": "B13",
+      "author": "Baudelaire",
+      "title": "Une consolation qui aide à vivre",
+      "work": "La Mort des pauvres",
+      "locator": "v. 1 · p. 148",
+      "quote": "C’est la Mort qui console, hélas! et qui fait vivre;",
+      "notions": [
+        "religion",
+        "bonheur"
+      ],
+      "edition": "Les Fleurs du Mal et autres poèmes · préface d’Henri Lemaitre",
+      "publisher": "Garnier-Flammarion",
+      "editionYear": 1964,
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Ce qui met fin à la vie peut-il devenir l’objet d’une consolation pendant la vie ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Le poème présente paradoxalement la Mort comme ce qui console les pauvres et leur donne la force de vivre."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La Mort personnifiée devient la promesse d’un repos et d’un accueil refusés dans leur existence présente."
+        },
+        {
+          "function": "La raison",
+          "sentence": "L’espoir d’une fin de la misère peut ainsi soutenir ceux qui l’endurent, alors même que cette fin demeure inconnue."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "La suite du poème évoque une auberge où il serait enfin possible de manger, de dormir et de s’asseoir."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Cette image permet d’examiner la fonction d’une espérance, sans prouver l’existence d’un au-delà ni présenter la mort comme un conseil."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La mort est-elle un obstacle au bonheur ?",
+          "function": "Distinguer la fin redoutée et l’espérance de repos",
+          "reason": "Après la mort comme privation de vie, examiner la consolation que sa représentation peut offrir au sein d’une existence misérable.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=17",
+          "sourceLabel": "Recueil académique · p. 17"
+        },
+        {
+          "subject": "La religion a-t-elle pour but de consoler les hommes ?",
+          "function": "Préciser ce que peut faire une espérance",
+          "reason": "Montrer comment une représentation de l’au-delà peut soutenir la vie, avant d’examiner si cette fonction épuise le sens de la religion.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=53",
+          "sourceLabel": "Recueil académique · p. 53"
+        }
+      ],
+      "collection": "Les Fleurs du Mal"
+    },
+    {
+      "id": "baudelaire-plaisir-et-desir",
+      "code": "B14",
+      "author": "Baudelaire",
+      "title": "Le plaisir nourrit-il le désir ?",
+      "work": "Le Voyage",
+      "locator": "IV, v. 69 · p. 153",
+      "quote": "— La jouissance ajoute au désir de la force.",
+      "notions": [
+        "bonheur",
+        "liberte"
+      ],
+      "edition": "Les Fleurs du Mal et autres poèmes · préface d’Henri Lemaitre",
+      "publisher": "Garnier-Flammarion",
+      "editionYear": 1964,
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La satisfaction met-elle nécessairement fin au désir ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Dans le récit du voyage, la jouissance est présentée comme ce qui accroît la force du désir."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La jouissance est la satisfaction éprouvée, tandis que le désir demeure un mouvement vers ce qui n’est pas encore obtenu."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Le plaisir peut entretenir ce mouvement en faisant souhaiter son retour ou une satisfaction plus intense."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une expérience longtemps attendue peut ainsi susciter, une fois vécue, le désir de la recommencer autrement."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Satisfaire un désir ne signifie donc pas toujours l’éteindre, sans que tout plaisir doive nécessairement conduire à une poursuite sans limite."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Suffit-il d’avoir ce que l’on désire pour être heureux ?",
+          "function": "Mettre en question l’extinction du manque",
+          "reason": "Après le plaisir d’obtenir l’objet souhaité, montrer que la satisfaction peut relancer le désir plutôt qu’installer un contentement durable.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=16",
+          "sourceLabel": "Recueil académique · p. 16"
+        },
+        {
+          "subject": "Satisfaire ses désirs peut-il rendre malheureux ?",
+          "function": "Expliquer un renouvellement de la dépendance",
+          "reason": "Montrer comment le plaisir obtenu peut devenir l’exigence d’une répétition ou d’une intensification toujours nouvelle.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=16",
+          "sourceLabel": "Recueil académique · p. 16"
+        }
+      ],
+      "collection": "Les Fleurs du Mal"
+    },
+    {
+      "id": "baudelaire-douleur-et-dialogue",
+      "code": "B15",
+      "author": "Baudelaire",
+      "title": "Parler à sa douleur",
+      "work": "Recueillement",
+      "locator": "v. 1 · p. 200",
+      "quote": "Sois sage, ô ma Douleur, et tiens-toi plus tranquille.",
+      "notions": [
+        "conscience",
+        "liberte"
+      ],
+      "edition": "Les Fleurs du Mal et autres poèmes · préface d’Henri Lemaitre",
+      "publisher": "Garnier-Flammarion",
+      "editionYear": 1964,
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Faut-il supprimer une souffrance pour modifier le rapport que nous entretenons avec elle ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "La voix poétique s’adresse à sa Douleur comme à une compagne qu’elle cherche à apaiser."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La personnification distingue celui qui parle et ce qu’il éprouve, sans les rendre étrangers l’un à l’autre."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Mettre la douleur en mots peut ouvrir une distance qui ne se confond ni avec son effacement ni avec son déni."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "La suite du poème transforme cette adresse en une marche commune à l’écart de la fête et de ses remords."
+        },
+        {
+          "function": "La portée",
+          "sentence": "L’apaisement peut donc passer par une autre relation à sa souffrance, sans faire de la poésie un remède universel."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Faut-il combattre les passions pour être libre ?",
+          "function": "Distinguer suppression et mise à distance",
+          "reason": "Après la maîtrise conçue comme lutte, examiner la liberté qui peut naître d’une relation plus réfléchie à ce que nous éprouvons.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=45",
+          "sourceLabel": "Recueil académique · p. 45"
+        },
+        {
+          "subject": "Le langage nous éloigne-t-il du réel ?",
+          "function": "Montrer une médiation qui transforme l’expérience",
+          "reason": "Analyser comment parler à sa douleur peut modifier la manière de la vivre, sans prétendre qu’elle n’existe plus.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=36",
+          "sourceLabel": "Recueil académique · p. 36"
+        }
+      ],
+      "collection": "Nouvelles Fleurs du Mal"
+    },
+    {
+      "id": "baudelaire-boue-et-or",
+      "code": "B16",
+      "author": "Baudelaire",
+      "title": "Faire œuvre avec ce qui déplaît",
+      "work": "Ébauche d’un épilogue pour la deuxième édition des « Fleurs du Mal »",
+      "locator": "deux derniers vers · p. 214",
+      "quote": "Car j’ai de chaque chose extrait la quintessence,\nTu m’as donné ta boue et j’en ai fait de l’or.",
+      "notions": [
+        "art",
+        "nature"
+      ],
+      "edition": "Les Fleurs du Mal et autres poèmes · préface d’Henri Lemaitre",
+      "publisher": "Garnier-Flammarion",
+      "editionYear": 1964,
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "L’art doit-il choisir une matière déjà belle pour produire de la beauté ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Dans cette ébauche adressée à Paris, le poète affirme avoir changé la boue reçue en or."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La boue désigne une matière dépréciée, tandis que l’or figure la valeur que le travail poétique lui donne."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La création ne se borne donc pas à reproduire son objet : elle en extrait et en compose une forme nouvelle."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une scène urbaine pénible peut devenir, par le rythme et les images, une expérience sensible qui donne à penser."
+        },
+        {
+          "function": "La portée",
+          "sentence": "L’art peut ainsi transfigurer sa matière, sans rendre moralement bons les maux qu’il représente."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La laideur peut-elle intéresser l’artiste ?",
+          "function": "Distinguer la matière et la valeur de l’œuvre",
+          "reason": "Après l’identification de l’art aux beaux objets, montrer que la création peut donner une forme précieuse à une matière dépréciée.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=7",
+          "sourceLabel": "Recueil académique · p. 7"
+        },
+        {
+          "subject": "L’art peut-il nous apprendre à voir le monde autrement ?",
+          "function": "Définir une transformation du regard",
+          "reason": "Montrer comment une œuvre fait apparaître des rapports et une valeur que l’objet ne livrait pas au regard ordinaire.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6"
+        }
+      ]
+    },
+    {
+      "id": "racine-bonheur-et-interet",
+      "code": "R01",
+      "author": "Racine",
+      "title": "Le bonheur de l’autre et mon intérêt",
+      "work": "Alexandre le Grand",
+      "locator": "Acte III, scène VII",
+      "quote": "Et puisque mon repos doit dépendre du sien,\nAchevons son bonheur pour établir le mien.",
+      "notions": [
+        "bonheur"
+      ],
+      "edition": "Œuvres complètes et annexes (annotées)",
+      "publisher": "Arvensa Éditions",
+      "editionYear": 2012,
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Chercher le bonheur d’autrui exclut-il de poursuivre son propre intérêt ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Alexandre veut établir le bonheur de Taxile parce que sa propre tranquillité en dépend."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le bonheur d’autrui apparaît ici comme un bien recherché et comme un moyen de parvenir à une satisfaction personnelle."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une action favorable à l’autre peut donc être soutenue par un intérêt qui ne se présente pas comme un pur sacrifice."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "La stratégie d’Alexandre consiste à obtenir l’appui amoureux de Taxile en favorisant les projets de ce dernier."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La réciprocité des avantages peut servir autrui, sans établir à elle seule que l’intention soit désintéressée ou que tous les intérêts coïncident."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La recherche du bonheur est-elle un idéal égoïste ?",
+          "function": "Distinguer intérêt personnel et indifférence à autrui",
+          "reason": "Après l’opposition entre mon bonheur et celui des autres, examiner une action dans laquelle ils deviennent liés.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=13",
+          "sourceLabel": "Recueil académique · p. 13"
+        },
+        {
+          "subject": "Les hommes n’agissent-ils que par intérêt ?",
+          "function": "Examiner une bienveillance intéressée",
+          "reason": "Montrer qu’aider quelqu’un et attendre un avantage de cette aide peuvent coexister, sans généraliser ce motif à toute conduite.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=147",
+          "sourceLabel": "Recueil académique · p. 147"
+        }
+      ],
+      "speaker": "Alexandre",
+      "situation": "Alexandre veut favoriser le bonheur de Taxile pour servir son propre amour."
+    },
+    {
+      "id": "racine-passion-et-destin",
+      "code": "R02",
+      "author": "Racine",
+      "title": "Se livrer à ce qui nous entraîne",
+      "work": "Andromaque",
+      "locator": "Acte I, scène I",
+      "quote": "Je me livre en aveugle au destin qui m’entraîne.",
+      "notions": [
+        "liberte",
+        "conscience"
+      ],
+      "edition": "Œuvres complètes et annexes (annotées)",
+      "publisher": "Arvensa Éditions",
+      "editionYear": 2012,
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une passion devient-elle un destin dès lors que nous ne réussissons pas à lui résister ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Oreste présente son retour vers Hermione comme l’abandon d’une résistance devenue vaine."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le destin nomme ce qui l’entraîne, mais le verbe se livrer conserve la trace de sa propre participation."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La réplique associe donc l’expérience d’une contrainte intérieure et le geste de céder à cette contrainte."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Oreste ne vient pas seulement subir une rencontre : il annonce qu’il cherchera à fléchir Hermione ou à l’enlever."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La passion peut ainsi être vécue comme une fatalité, sans que cette présentation suffise à abolir toute responsabilité dans les actes."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Le désir est-il un obstacle à la liberté ?",
+          "function": "Distinguer subir un désir et s’y abandonner",
+          "reason": "Après la force éprouvée de la passion, examiner la participation du sujet à ce qui l’entraîne.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=43",
+          "sourceLabel": "Recueil académique · p. 43"
+        },
+        {
+          "subject": "Est-ce l’ignorance de ce que nous sommes qui fait la force de nos passions ?",
+          "function": "Limiter la suffisance de la lucidité",
+          "reason": "Montrer qu’un personnage peut reconnaître son attachement sans parvenir pour autant à lui résister.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=131",
+          "sourceLabel": "Recueil académique · p. 131"
+        }
+      ],
+      "speaker": "Oreste",
+      "situation": "Oreste explique à Pylade son retour auprès d’Hermione malgré ses efforts pour l’oublier."
+    },
+    {
+      "id": "racine-amour-et-merite",
+      "code": "R03",
+      "author": "Racine",
+      "title": "Aimer au-delà des raisons d’aimer",
+      "work": "Andromaque",
+      "locator": "Acte IV, scène V",
+      "quote": "Je t’aimais inconstant, qu’aurais-je fait fidèle?",
+      "notions": [
+        "bonheur",
+        "raison"
+      ],
+      "edition": "Œuvres complètes et annexes (annotées)",
+      "publisher": "Arvensa Éditions",
+      "editionYear": 2012,
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "L’attachement amoureux se mesure-t-il aux qualités de la personne aimée ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Hermione affirme avoir aimé Pyrrhus malgré son inconstance et imagine la force d’un amour récompensé par sa fidélité."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’opposition entre inconstant et fidèle sépare la conduite réelle de l’être aimé et celle qu’elle attendait de lui."
+        },
+        {
+          "function": "La raison",
+          "sentence": "L’amour peut persister lorsque les raisons de faire confiance à l’autre sont démenties par ses actes."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Hermione reproche à Pyrrhus son abandon tout en avouant qu’elle doute encore de ne plus l’aimer."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le désir ne suit donc pas mécaniquement notre jugement sur l’autre, sans que sa persistance justifie d’accepter toute conduite."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Ne désirons-nous que les choses que nous estimons bonnes ?",
+          "function": "Distinguer l’attachement et le jugement",
+          "reason": "Après le désir orienté vers un bien, examiner un amour qui survit à la condamnation de la conduite de l’être aimé.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=92",
+          "sourceLabel": "Recueil académique · p. 92"
+        },
+        {
+          "subject": "La raison s’oppose-t-elle nécessairement au désir ?",
+          "function": "Préciser un conflit intérieur",
+          "reason": "Montrer que le jugement porté sur une personne peut entrer en conflit avec un attachement qui ne disparaît pas sur commande.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=51",
+          "sourceLabel": "Recueil académique · p. 51"
+        }
+      ],
+      "speaker": "Hermione",
+      "situation": "Hermione reproche à Pyrrhus de l’abandonner pour épouser Andromaque."
+    },
+    {
+      "id": "racine-honneur-et-argent",
+      "code": "R04",
+      "author": "Racine",
+      "title": "La reconnaissance et l’argent",
+      "work": "Les Plaideurs",
+      "locator": "Acte I, scène I",
+      "quote": "Mais sans argent l'honneur n'est qu'une maladie.",
+      "notions": [
+        "justice",
+        "travail"
+      ],
+      "edition": "Œuvres complètes et annexes (annotées)",
+      "publisher": "Arvensa Éditions",
+      "editionYear": 2012,
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Les marques d’honneur suffisent-elles à donner une valeur réelle à une condition sociale ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Petit Jean oppose les égards qu’il recevait à l’argent qu’il attendait de sa place."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’honneur désigne ici la considération affichée, tandis que l’argent en représente l’avantage matériel."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La formule comique révèle la manière dont le personnage mesure la reconnaissance à ce qu’elle lui rapporte."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Son récit rappelle qu’il faisait payer l’accès à la maison du juge malgré les salutations respectueuses des visiteurs."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La réplique permet de discuter la valeur sociale des honneurs, sans transformer le calcul du portier en jugement universel de Racine."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Le travail n’est-il qu’un moyen de subsistance ?",
+          "function": "Distinguer rémunération et reconnaissance",
+          "reason": "Après la considération attachée à une fonction, examiner la place du revenu dans la valeur que le travailleur lui attribue.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=68",
+          "sourceLabel": "Recueil académique · p. 68"
+        },
+        {
+          "subject": "Les hommes n’agissent-ils que par intérêt ?",
+          "function": "Mettre à l’épreuve le langage des honneurs",
+          "reason": "Montrer comment les marques de respect peuvent accompagner des calculs d’avantage, sans réduire toute reconnaissance à ce calcul.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=147",
+          "sourceLabel": "Recueil académique · p. 147"
+        }
+      ],
+      "speaker": "Petit Jean",
+      "situation": "Le portier Petit Jean raconte les profits qu’il tirait de sa place chez un juge."
+    },
+    {
+      "id": "racine-amour-et-domination",
+      "code": "R05",
+      "author": "Racine",
+      "title": "Prendre plaisir au pouvoir sur l’autre",
+      "work": "Britannicus",
+      "locator": "Acte II, scène II",
+      "quote": "J'aimais jusqu'à ses pleurs que je faisais couler.",
+      "notions": [
+        "liberte",
+        "devoir"
+      ],
+      "edition": "Œuvres complètes et annexes (annotées)",
+      "publisher": "Arvensa Éditions",
+      "editionYear": 2012,
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Tout plaisir éprouvé auprès d’un être aimé est-il un signe d’amour pour lui ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Néron avoue aimer jusqu’aux pleurs de Junie dont il se sait la cause."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le plaisir ne porte plus seulement sur sa présence, mais sur la manifestation de sa dépendance et de sa souffrance."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La situation fait apparaître une satisfaction de domination qui utilise l’autre au lieu de rechercher son bien."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Néron raconte à Narcisse avoir mêlé les soupirs et la menace dans le dialogue qu’il imaginait avec Junie."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le nom d’amour peut donc couvrir une jouissance du pouvoir, sans que cette réplique autorise à identifier tout attachement à la cruauté."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Faut-il chercher le bonheur à tout prix ?",
+          "function": "Distinguer le plaisir et sa justification morale",
+          "reason": "Après le caractère agréable d’une satisfaction, examiner ce qu’elle prend pour objet et ce qu’elle fait subir à autrui.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=13",
+          "sourceLabel": "Recueil académique · p. 13"
+        },
+        {
+          "subject": "Être libre, est-ce faire ce que l’on veut ?",
+          "function": "Montrer la limite du bon plaisir",
+          "reason": "Opposer à la satisfaction de celui qui peut agir la liberté de la personne sur laquelle il exerce ce pouvoir.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=38",
+          "sourceLabel": "Recueil académique · p. 38"
+        }
+      ],
+      "speaker": "Néron",
+      "situation": "Néron raconte à Narcisse sa fascination pour Junie qu’il a fait enlever."
+    },
+    {
+      "id": "racine-geste-et-mensonge",
+      "code": "R06",
+      "author": "Racine",
+      "title": "Un même geste, deux intentions",
+      "work": "Britannicus",
+      "locator": "Acte IV, scène III",
+      "quote": "J'embrasse mon rival, mais c'est pour l'étouffer.",
+      "notions": [
+        "verite",
+        "langage"
+      ],
+      "edition": "Œuvres complètes et annexes (annotées)",
+      "publisher": "Arvensa Éditions",
+      "editionYear": 2012,
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Le sens d’un geste se lit-il immédiatement dans son apparence ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Néron annonce qu’il emploiera le geste de l’embrassement pour préparer la destruction de son rival."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’embrassade signifie ordinairement l’accord, mais le but avoué lui donne ici une fonction opposée."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La confiance produite par le signe peut ainsi devenir l’instrument qui empêche l’autre de se défendre."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "La réconciliation annoncée à Britannicus doit masquer le projet que Néron confie à Burrhus."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Interpréter une action demande donc d’examiner son contexte et son intention, sans conclure que toute marque d’affection serait mensongère."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Faut-il ne croire que ce que l’on voit ?",
+          "function": "Distinguer le signe visible et l’intention",
+          "reason": "Après la confiance dans l’apparence d’un geste, montrer comment le même signe peut servir une intention contraire.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=57",
+          "sourceLabel": "Recueil académique · p. 57"
+        },
+        {
+          "subject": "Le langage trahit-il la pensée ?",
+          "function": "Étendre l’examen aux gestes qui signifient",
+          "reason": "Montrer qu’un signe de réconciliation peut produire une croyance destinée à cacher le projet véritable de celui qui l’emploie.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=36",
+          "sourceLabel": "Recueil académique · p. 36"
+        }
+      ],
+      "speaker": "Néron",
+      "situation": "Néron révèle à Burrhus que sa réconciliation avec Britannicus cache un projet meurtrier."
+    },
+    {
+      "id": "racine-regner-et-vivre",
+      "code": "R07",
+      "author": "Racine",
+      "title": "La fonction publique et la vie personnelle",
+      "work": "Bérénice",
+      "locator": "Acte IV, scène 5",
+      "quote": "Mais il ne s'agit plus de vivre, il faut régner.",
+      "notions": [
+        "devoir",
+        "etat",
+        "bonheur"
+      ],
+      "edition": "Œuvres complètes et annexes (annotées)",
+      "publisher": "Arvensa Éditions",
+      "editionYear": 2012,
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une fonction publique peut-elle exiger le sacrifice de ce qui donne sens à la vie personnelle ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Titus oppose la nécessité de régner à la possibilité de vivre auprès de Bérénice."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Vivre désigne ici la vie affective qui lui est chère, tandis que régner renvoie à l’obligation politique qu’il revendique."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Son rôle d’empereur lui paraît imposer une décision que son amour refuse."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Il reconnaît la souffrance de la séparation au moment même où il l’annonce à Bérénice."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La réplique rend sensible un conflit entre devoir et bonheur, sans prouver que la nécessité invoquée par le souverain soit incontestable."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Faire son devoir sans être heureux, est-ce toute la morale ?",
+          "function": "Faire apparaître le coût d’une obligation",
+          "reason": "Après le bonheur d’accomplir son devoir, examiner une décision qui paraît exiger le renoncement à une vie heureuse.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=14",
+          "sourceLabel": "Recueil académique · p. 14"
+        },
+        {
+          "subject": "L’État est-il, par définition, indifférent aux intérêts particuliers ?",
+          "function": "Examiner le conflit entre rôle et attachement",
+          "reason": "Montrer qu’une responsabilité publique peut être vécue comme une exigence opposée aux désirs de la personne qui l’exerce.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=26",
+          "sourceLabel": "Recueil académique · p. 26"
+        }
+      ],
+      "speaker": "Titus",
+      "situation": "Titus explique à Bérénice pourquoi il renonce à leur union au nom de Rome."
+    },
+    {
+      "id": "racine-aimer-et-quitter",
+      "code": "R08",
+      "author": "Racine",
+      "title": "Se séparer sans cesser d’aimer",
+      "work": "Bérénice",
+      "locator": "Acte V, scène dernière",
+      "quote": "Je l'aime, je le fuis; Titus m'aime, il me quitte.",
+      "notions": [
+        "liberte",
+        "devoir",
+        "bonheur"
+      ],
+      "edition": "Œuvres complètes et annexes (annotées)",
+      "publisher": "Arvensa Éditions",
+      "editionYear": 2012,
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La séparation prouve-t-elle que l’amour a disparu ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Bérénice affirme que Titus et elle se quittent alors même qu’ils s’aiment encore."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le parallélisme des deux propositions distingue la persistance du sentiment et la décision de renoncer à l’union."
+        },
+        {
+          "function": "La raison",
+          "sentence": "L’action peut ainsi contredire le désir sans que celui-ci soit simplement effacé."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Bérénice transforme leur séparation en exemple douloureux et demande à Antiochus de poursuivre sa vie."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Aimer et choisir de partir peuvent donc coexister, sans faire de toute séparation la preuve d’un libre accord heureux."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Être libre, est-ce faire ce que l’on veut ?",
+          "function": "Distinguer le désir et la conduite",
+          "reason": "Après la liberté d’accomplir ses souhaits, examiner la décision de s’en séparer lorsqu’une autre exigence intervient.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=38",
+          "sourceLabel": "Recueil académique · p. 38"
+        },
+        {
+          "subject": "Faire son devoir sans être heureux, est-ce toute la morale ?",
+          "function": "Maintenir les deux exigences dans la décision",
+          "reason": "Montrer qu’un renoncement peut laisser entier l’attachement sacrifié, au lieu de résoudre le conflit par sa disparition.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=14",
+          "sourceLabel": "Recueil académique · p. 14"
+        }
+      ],
+      "speaker": "Bérénice",
+      "situation": "Bérénice annonce sa séparation d’avec Titus et exhorte Antiochus à vivre."
+    },
+    {
+      "id": "racine-aimer-sans-contraindre",
+      "code": "R09",
+      "author": "Racine",
+      "title": "La protection n’achète pas le consentement",
+      "work": "Mithridate",
+      "locator": "Acte I, scène II",
+      "quote": "Pour me faire, Seigneur, consentir à vous voir,\nVous n’aurez pas besoin d’un injuste pouvoir.",
+      "notions": [
+        "liberte",
+        "justice"
+      ],
+      "edition": "Œuvres complètes et annexes (annotées)",
+      "publisher": "Arvensa Éditions",
+      "editionYear": 2012,
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Protéger une personne donne-t-il le droit d’exiger son attachement ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Monime assure à Xipharès qu’il n’aura pas besoin de la contraindre pour qu’elle accepte de le voir."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le consentement est distingué d’un pouvoir qui imposerait la relation au nom de l’aide apportée."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La réponse rend possible un rapprochement parce qu’elle n’est pas présentée comme une soumission exigible."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Monime demande précisément à Xipharès de la défendre contre le mariage forcé voulu par Pharnace."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le secours peut ainsi respecter la liberté de l’autre, sans transformer sa gratitude ou son affection en une dette obligatoire."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’indépendance suffit-elle à définir la liberté ?",
+          "function": "Distinguer recevoir une aide et être soumis",
+          "reason": "Après la dépendance matérielle créée par un secours, montrer qu’elle n’autorise pas à disposer du consentement de la personne aidée.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=38",
+          "sourceLabel": "Recueil académique · p. 38"
+        },
+        {
+          "subject": "Peut-on faire le bonheur d’autrui ?",
+          "function": "Fixer une limite à la bienveillance",
+          "reason": "Montrer que prétendre protéger ou aimer quelqu’un ne suffit pas à justifier une relation imposée.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=15",
+          "sourceLabel": "Recueil académique · p. 15"
+        }
+      ],
+      "speaker": "Monime",
+      "situation": "Monime demande à Xipharès de la protéger du mariage que Pharnace veut lui imposer."
+    },
+    {
+      "id": "racine-oracle-et-interpretation",
+      "code": "R10",
+      "author": "Racine",
+      "title": "L’autorité d’une parole et son interprétation",
+      "work": "Iphigénie",
+      "locator": "Acte IV, scène IV",
+      "quote": "Un oracle dit-il tout ce qu'il semble dire?",
+      "notions": [
+        "religion",
+        "raison",
+        "langage"
+      ],
+      "edition": "Œuvres complètes et annexes (annotées)",
+      "publisher": "Arvensa Éditions",
+      "editionYear": 2012,
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Respecter une parole tenue pour sacrée impose-t-il d’accepter immédiatement le sens qu’on lui donne ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Clytemnestre met en doute l’interprétation de l’oracle invoqué pour sacrifier Iphigénie."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Elle distingue ce que la parole semble dire et le sens qu’un examen pourrait faire apparaître."
+        },
+        {
+          "function": "La raison",
+          "sentence": "L’autorité accordée à l’oracle ne supprime donc pas la responsabilité de ceux qui décident de son application."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "La mère oppose à la lecture meurtrière la question d’un ciel juste qui demanderait le sang de l’innocence."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La croyance peut ainsi appeler un travail d’interprétation, sans que le doute garantisse à lui seul la lecture que nous préférons."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Croire, est-ce renoncer à la raison ?",
+          "function": "Distinguer croire et accepter une lecture sans examen",
+          "reason": "Après l’autorité reconnue à une parole, montrer que son interprétation demeure une tâche de la raison.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=51",
+          "sourceLabel": "Recueil académique · p. 51"
+        },
+        {
+          "subject": "Peut-on interpréter sans inventer ?",
+          "function": "Examiner la responsabilité de l’interprète",
+          "reason": "Montrer que la gravité d’une décision oblige à discuter le sens d’une parole, sans autoriser des interprétations arbitraires.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=110",
+          "sourceLabel": "Recueil académique · p. 110"
+        }
+      ],
+      "speaker": "Clytemnestre",
+      "situation": "Clytemnestre conteste devant Agamemnon l’oracle invoqué pour sacrifier leur fille."
+    },
+    {
+      "id": "racine-innocence-et-preuve",
+      "code": "R11",
+      "author": "Racine",
+      "title": "L’innocence vécue ne fait pas preuve",
+      "work": "Phèdre",
+      "locator": "Acte IV, scène 2",
+      "quote": "Le jour n’est pas plus pur que le fond de mon cœur.",
+      "notions": [
+        "justice",
+        "conscience",
+        "verite"
+      ],
+      "edition": "Œuvres complètes et annexes (annotées)",
+      "publisher": "Arvensa Éditions",
+      "editionYear": 2012,
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La certitude intime d’être innocent suffit-elle à convaincre celui qui nous accuse ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Hippolyte affirme la pureté de son cœur en la comparant à la clarté du jour."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La lumière rend sensible une innocence qu’il éprouve, mais que son père ne peut pas directement voir."
+        },
+        {
+          "function": "La raison",
+          "sentence": "L’écart entre l’assurance du fils et la défiance de Thésée montre la difficulté de communiquer une vérité sur soi."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Thésée prend même la rigueur morale d’Hippolyte pour un orgueil qui renforcerait sa culpabilité."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Une conviction intérieure peut donc être fondée sans constituer une preuve publique suffisante, ce qui oblige aussi l’accusateur à examiner ses préjugés."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La certitude est-elle une garantie de vérité ?",
+          "function": "Distinguer certitude vécue et preuve pour autrui",
+          "reason": "Examiner une certitude fondée qui ne suffit pourtant pas à établir publiquement la vérité du jugement.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=71",
+          "sourceLabel": "Recueil académique · p. 71"
+        },
+        {
+          "subject": "Comment savoir ce qui est juste ?",
+          "function": "Distinguer le sentiment et l’établissement de l’innocence",
+          "reason": "Montrer que la conscience du sujet doit être confrontée aux faits, sans présumer pour autant que le refus de le croire soit juste.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=30",
+          "sourceLabel": "Recueil académique · p. 30"
+        }
+      ],
+      "speaker": "Hippolyte",
+      "situation": "Accusé par Œnone, Hippolyte affirme son innocence devant Thésée, qui ne le croit pas."
+    },
+    {
+      "id": "racine-passion-et-corps",
+      "code": "R12",
+      "author": "Racine",
+      "title": "Le corps précède la maîtrise",
+      "work": "Phèdre",
+      "locator": "Acte I, scène 3",
+      "quote": "Je le vis, je rougis, je pâlis à sa vue;",
+      "notions": [
+        "conscience",
+        "liberte"
+      ],
+      "edition": "Œuvres complètes et annexes (annotées)",
+      "publisher": "Arvensa Éditions",
+      "editionYear": 2012,
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Sommes-nous maîtres de tout ce que notre corps manifeste ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Phèdre raconte sa rencontre avec Hippolyte par une succession immédiate de réactions corporelles."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Voir, rougir et pâlir rapprochent la perception de l’autre et une émotion qui transforme le corps."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La rapidité des verbes fait éprouver un bouleversement qui n’attend pas une décision réfléchie."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Le récit permet ainsi à Phèdre de reconnaître après coup ce qu’elle a éprouvé lors de cette première rencontre."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La passion peut donc se manifester avant notre maîtrise consciente, sans que toute réaction involontaire détermine nécessairement nos actions futures."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Sommes-nous conscients de ce que nous désirons ?",
+          "function": "Distinguer manifestation et compréhension du désir",
+          "reason": "Après la conscience immédiate d’une émotion, examiner le travail nécessaire pour reconnaître ce qui nous affecte.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=20",
+          "sourceLabel": "Recueil académique · p. 20"
+        },
+        {
+          "subject": "Le désir est-il un obstacle à la liberté ?",
+          "function": "Distinguer l’émotion reçue et la décision",
+          "reason": "Reconnaître les réactions involontaires du corps sans conclure qu’elles commandent entièrement la conduite à venir.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=43",
+          "sourceLabel": "Recueil académique · p. 43"
+        }
+      ],
+      "speaker": "Phèdre",
+      "situation": "Phèdre raconte à Œnone sa première rencontre avec Hippolyte."
+    },
+    {
+      "id": "racine-conscience-et-justification",
+      "code": "R13",
+      "author": "Racine",
+      "title": "Se croire dans son devoir",
+      "work": "Athalie",
+      "locator": "Acte II, scène V",
+      "quote": "Ce que j’ai fait, Abner, j’ai cru le devoir faire.",
+      "notions": [
+        "conscience",
+        "devoir",
+        "justice"
+      ],
+      "edition": "Œuvres complètes et annexes (annotées)",
+      "publisher": "Arvensa Éditions",
+      "editionYear": 2012,
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Croire avoir accompli son devoir suffit-il à justifier ses actes ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Athalie présente les violences de son règne comme des actions qu’elle croyait nécessaires."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La réplique affirme une conviction personnelle, mais n’établit pas encore la justice de ce qui a été fait."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Le sentiment du devoir peut devenir une manière de soustraire ses actes au jugement d’autrui."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Athalie déclare aussitôt qu’elle ne reconnaît pas le peuple comme juge de sa conduite."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La bonne conscience doit donc être distinguée de la justification morale, sans supposer qu’une conviction sincère serait toujours mensongère."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Suffit-il d’avoir bonne conscience pour être sûr d’agir moralement ?",
+          "function": "Distinguer conviction et justification",
+          "reason": "Après la sincérité de l’intention, exiger l’examen des raisons et des conséquences de l’action.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=18",
+          "sourceLabel": "Recueil académique · p. 18"
+        },
+        {
+          "subject": "Peut-on toujours savoir comment agir avec justice ?",
+          "function": "Examiner une certitude qui protège de l’examen",
+          "reason": "Montrer comment une personne peut se croire fondée à agir tout en refusant les objections de ceux qui subissent ses décisions.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=30",
+          "sourceLabel": "Recueil académique · p. 30"
+        }
+      ],
+      "speaker": "Athalie",
+      "situation": "Athalie justifie devant Abner et Mathan les violences qui ont établi son pouvoir."
+    },
+    {
+      "id": "racine-justice-et-surete",
+      "code": "R14",
+      "author": "Racine",
+      "title": "La sûreté contre la justice",
+      "work": "Athalie",
+      "locator": "Acte II, scène V",
+      "quote": "Est-ce aux rois à garder cette lente justice?\nLeur sûreté souvent dépend d’un prompt supplice.",
+      "notions": [
+        "etat",
+        "justice"
+      ],
+      "edition": "Œuvres complètes et annexes (annotées)",
+      "publisher": "Arvensa Éditions",
+      "editionYear": 2012,
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La sécurité du pouvoir autorise-t-elle à supprimer les garanties de la justice ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Mathan oppose la lenteur de la justice à la rapidité du supplice qu’il recommande."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La sûreté désigne ici la protection du souverain, tandis que la justice suppose un examen qui retarde la sanction."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Présenter cette attente comme un danger permet de traiter le soupçon comme une raison suffisante de tuer."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Mathan propose ainsi de supprimer l’enfant caché dans le Temple avant que son identité soit pleinement établie."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La réplique expose une justification de la violence politique, sans constituer une approbation de cette justification par Racine."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’État doit-il préférer l’injustice au désordre ?",
+          "function": "Mettre à l’épreuve l’argument de l’urgence",
+          "reason": "Après la nécessité de protéger l’ordre public, distinguer une menace établie et un soupçon exploité pour supprimer les garanties du jugement.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=25",
+          "sourceLabel": "Recueil académique · p. 25"
+        },
+        {
+          "subject": "La justice met-elle fin à la loi du plus fort ?",
+          "function": "Examiner ce que la rapidité sacrifie",
+          "reason": "Montrer que raccourcir le jugement peut revenir à le remplacer par la volonté de celui qui dispose de la force.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=30",
+          "sourceLabel": "Recueil académique · p. 30"
+        }
+      ],
+      "speaker": "Mathan",
+      "situation": "Mathan conseille à Athalie de supprimer l’enfant caché dans le Temple."
+    },
+    {
+      "id": "racine-pouvoir-et-flatterie",
+      "code": "R15",
+      "author": "Racine",
+      "title": "Le pouvoir peut perdre le jugement",
+      "work": "Athalie",
+      "locator": "Acte IV, scène III",
+      "quote": "De l’absolu pouvoir vous ignorez l’ivresse,\nEt des lâches flatteurs la voix enchanteresse.",
+      "notions": [
+        "etat",
+        "verite",
+        "liberte"
+      ],
+      "edition": "Œuvres complètes et annexes (annotées)",
+      "publisher": "Arvensa Éditions",
+      "editionYear": 2012,
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Disposer d’un pouvoir sans obstacle rend-il plus capable de bien juger ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Joad avertit Joas que le pouvoir absolu et les flatteries peuvent l’enivrer."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’ivresse figure une perte de mesure, tandis que la voix enchanteresse des flatteurs rend cette perte agréable."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Celui qui peut tout entendre confirmer risque de confondre ses désirs avec ce qui est juste."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Joad annonce que des conseillers présenteront au jeune roi les lois comme des contraintes réservées au peuple."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Limiter le pouvoir et préserver la contradiction deviennent donc des conditions du jugement, sans garantir qu’un souverain conseillé soit toujours lucide."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’abus de pouvoir est-il inévitable ?",
+          "function": "Expliquer un mécanisme de démesure",
+          "reason": "Après les capacités que donne le pouvoir, examiner l’affaiblissement du jugement lorsque la flatterie remplace les objections.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=26",
+          "sourceLabel": "Recueil académique · p. 26"
+        },
+        {
+          "subject": "Toute vérité est-elle bonne à dire ?",
+          "function": "Montrer le besoin d’une parole qui résiste",
+          "reason": "Après le risque de déplaire, montrer ce qu’un détenteur de pouvoir perd lorsque son entourage ne lui dit plus que ce qu’il veut entendre.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=72",
+          "sourceLabel": "Recueil académique · p. 72"
+        }
+      ],
+      "speaker": "Joad",
+      "situation": "Joad avertit le jeune Joas des dangers du pouvoir et des flatteurs."
+    },
+    {
+      "id": "racine-naissance-et-consentement",
+      "code": "R16",
+      "author": "Racine",
+      "title": "Le titre suffit-il à légitimer le pouvoir ?",
+      "work": "La Thébaïde",
+      "locator": "Acte II, scène 3",
+      "quote": "Est-ce au peuple, Madame, à se choisir un maître?\nSitôt qu’il hait un roi, doit-on cesser de l’être?",
+      "notions": [
+        "etat",
+        "justice",
+        "liberte"
+      ],
+      "edition": "Œuvres complètes et annexes (annotées)",
+      "publisher": "Arvensa Éditions",
+      "editionYear": 2012,
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Le droit de gouverner peut-il se passer de l’accord de ceux qui sont gouvernés ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Polynice refuse de faire dépendre son titre royal du choix ou de l’hostilité du peuple."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Il oppose la légitimité qu’il tire de sa naissance à une volonté collective qu’il réduit au caprice."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Son raisonnement suppose que la possession du titre suffit à fonder l’obéissance, même lorsque les sujets le rejettent."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Jocaste lui objecte alors qu’un prince imposé à un peuple hostile risque de devenir un tyran."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le passage permet donc d’interroger le fondement de l’autorité, sans confondre la prétention dynastique du personnage avec une démonstration de sa justice."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "De quel droit l’État exerce-t-il un pouvoir ?",
+          "function": "Distinguer le titre et l’accord des gouvernés",
+          "reason": "Après la possession reconnue d’une fonction, examiner si son origine suffit à rendre l’obéissance légitime.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=26",
+          "sourceLabel": "Recueil académique · p. 26"
+        },
+        {
+          "subject": "Le pouvoir politique peut-il appartenir à ceux qui sont gouvernés ?",
+          "function": "Distinguer l’examen d’un jugement et le droit de choisir",
+          "reason": "Montrer que contester une décision collective ne suffit pas à démontrer que les gouvernés ne doivent avoir aucun choix.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=26",
+          "sourceLabel": "Recueil académique · p. 26"
+        }
+      ],
+      "speaker": "Polynice",
+      "situation": "Polynice revendique son droit au trône malgré l’hostilité des Thébains."
+    },
+    {
+      "id": "racine-justice-et-information",
+      "code": "R17",
+      "author": "Racine",
+      "title": "Un bon juge peut être trompé",
+      "work": "Esther",
+      "locator": "Acte III, scène dernière",
+      "quote": "On peut des plus grands rois surprendre la justice.",
+      "notions": [
+        "justice",
+        "verite",
+        "etat"
+      ],
+      "edition": "Œuvres complètes et annexes (annotées)",
+      "publisher": "Arvensa Éditions",
+      "editionYear": 2012,
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La volonté d’être juste suffit-elle à empêcher une décision injuste ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Le chœur affirme qu’il est possible de tromper la justice même des plus grands rois."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Surprendre signifie ici abuser le jugement en lui présentant des raisons ou des faits trompeurs."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une autorité bien intentionnée peut donc commettre l’injustice si elle dépend d’une information manipulée."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Dans la pièce, Aman a obtenu d’Assuérus une décision contre les Juifs en abusant de sa confiance."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La justice exige ainsi l’examen des témoignages et des intérêts qui les orientent, sans que la bonne intention dispense de cette vigilance."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Être juste, est-ce être neutre ?",
+          "function": "Ajouter l’exigence d’une information examinée",
+          "reason": "Après l’absence de parti pris, montrer qu’un jugement peut encore être faussé par les faits qu’on lui présente.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=30",
+          "sourceLabel": "Recueil académique · p. 30"
+        },
+        {
+          "subject": "Peut-on toujours savoir comment agir avec justice ?",
+          "function": "Distinguer volonté et effet de la décision",
+          "reason": "Examiner une injustice produite par un jugement trompé, sans effacer la responsabilité de vérifier ce qui est affirmé.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=30",
+          "sourceLabel": "Recueil académique · p. 30"
+        }
+      ],
+      "speaker": "Une Israélite du chœur",
+      "situation": "Après la chute d’Aman, le chœur médite sur les pièges tendus aux rois."
     }
   ]
 }
