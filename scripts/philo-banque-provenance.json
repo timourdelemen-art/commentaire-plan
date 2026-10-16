@@ -1,6 +1,6 @@
 {
   "status": "citations-courtes-et-commentaires",
-  "owner_decision": "16 octobre 2026 : remplacer les anciennes fiches par la sélection de citations fournie et approuvée, en deux parties dissertation et commentaire. Le même jour : poursuivre selon le même principe avec l’Éthique fournie. Le même jour : intégrer Cioran, écrivain et penseur, à partir des deux ouvrages fournis, après sélection rigoureuse sans quota. Le même jour : développer les usages de « L’Arbre de vie » et de la relecture de la Genèse. Le même jour : poursuivre avec les deux Critiques de Kant fournies, en choisissant des phrases autonomes et des emplois précis sur deux ou trois sujets du bac. Le même jour : intégrer une sélection philosophique de Baudelaire et Racine à partir des deux volumes fournis, avec un ou deux vers conservés exactement, sujets du bac attestés et situation dramatique très brève ; comparer Baudelaire à des éditions consultables en ligne. Le même jour : poursuivre avec Corneille en privilégiant ensemble portée philosophique et beauté ; auditer les 33 choix de Baudelaire et Racine et remplacer les plus faibles.",
+  "owner_decision": "16 octobre 2026 : remplacer les anciennes fiches par la sélection de citations fournie et approuvée, en deux parties dissertation et commentaire. Le même jour : poursuivre selon le même principe avec l’Éthique fournie. Le même jour : intégrer Cioran, écrivain et penseur, à partir des deux ouvrages fournis, après sélection rigoureuse sans quota. Le même jour : développer les usages de « L’Arbre de vie » et de la relecture de la Genèse. Le même jour : poursuivre avec les deux Critiques de Kant fournies, en choisissant des phrases autonomes et des emplois précis sur deux ou trois sujets du bac. Le même jour : intégrer une sélection philosophique de Baudelaire et Racine à partir des deux volumes fournis, avec un ou deux vers conservés exactement, sujets du bac attestés et situation dramatique très brève ; comparer Baudelaire à des éditions consultables en ligne. Le même jour : poursuivre avec Corneille en privilégiant ensemble portée philosophique et beauté ; auditer les 33 choix de Baudelaire et Racine et remplacer les plus faibles. Le même jour : lire intégralement les trois volumes fournis de Bachelard et Freud, sélectionner leurs meilleurs courts extraits pour les dissertations du bac, puis poursuivre le modèle existant.",
   "source_files": [
     {
       "author": "Platon",
@@ -49,6 +49,21 @@
     {
       "author": "Corneille",
       "sha256": "0c8207eff89373eb0e395b05100d049ed87c85274482ccdd1ee931b24e514bbb"
+    },
+    {
+      "author": "Bachelard",
+      "work": "La Formation de l’esprit scientifique",
+      "sha256": "2ae4858972c39e16f8c59656846584068d3ea05f42b954dbe7af5fcf7f681855"
+    },
+    {
+      "author": "Freud",
+      "work": "Trois essais sur la théorie sexuelle",
+      "sha256": "c200b5bea21f386ddeed059003f593d38705e5cdbf37b764ee5208b77415a83e"
+    },
+    {
+      "author": "Freud",
+      "work": "La Répétition : mémoire et compulsion",
+      "sha256": "318395e6841585130c6a207e8ca00909a9ea6f85abc821bee409eb866cb7a589"
     }
   ],
   "subject_source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf",
@@ -2009,6 +2024,281 @@
       "matrix_entry": "Domination",
       "philosophical_theme": "Intérêt",
       "matrix_scope": "Rapprochement avec une entrée attestée du Dictionnaire paradoxal ; la scène fournit une difficulté à examiner, non une doctrine de Corneille ni une preuve de la solution du dictionnaire."
+    },
+    {
+      "id": "bachelard-lumiere-et-ombres",
+      "code": "BA01",
+      "author": "Bachelard",
+      "locator": "Chapitre I, section I",
+      "source_location": "EPUB fourni, OEBPS/sections/texte_1.xhtml, paragraphe 3",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au volume fourni ; espaces normalisés et seuls appels de notes retirés ; phrase et contexte relus.",
+      "quote_sha256": "a9b7001c64cb3b17f91fd0be726fe4fb9dd46778f4a0df4e69b10b20dc318bf7",
+      "translator_status": "original_french"
+    },
+    {
+      "id": "bachelard-question-et-connaissance",
+      "code": "BA02",
+      "author": "Bachelard",
+      "locator": "Chapitre I, section I",
+      "source_location": "EPUB fourni, OEBPS/sections/texte_1.xhtml, paragraphe 5",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au volume fourni ; espaces normalisés et seuls appels de notes retirés ; phrase et contexte relus.",
+      "quote_sha256": "ed4afc216a4ddb20a344dd0524ddfdd31d301c86272aaaaa3cec7266bc2edb60",
+      "translator_status": "original_french"
+    },
+    {
+      "id": "bachelard-formation-et-reforme",
+      "code": "BA03",
+      "author": "Bachelard",
+      "locator": "Chapitre II, section I",
+      "source_location": "EPUB fourni, OEBPS/sections/texte_1.xhtml, paragraphe 31",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au volume fourni ; espaces normalisés et seuls appels de notes retirés ; phrase et contexte relus.",
+      "quote_sha256": "cbc587a0b6fc4b41c7c60848aeb631431fcb243fe8b7b30491f30bd6a0f01e43",
+      "translator_status": "original_french"
+    },
+    {
+      "id": "bachelard-concept-et-deformation",
+      "code": "BA04",
+      "author": "Bachelard",
+      "locator": "Chapitre III, section III",
+      "source_location": "EPUB fourni, OEBPS/sections/texte_1.xhtml, paragraphe 121",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au volume fourni ; espaces normalisés et seuls appels de notes retirés ; phrase et contexte relus.",
+      "quote_sha256": "63e326079328793eefa618866f5d2b2f63301e202ab5c79a874d9015a751f2ea",
+      "translator_status": "original_french"
+    },
+    {
+      "id": "bachelard-concept-et-realisation",
+      "code": "BA05",
+      "author": "Bachelard",
+      "locator": "Chapitre III, section III",
+      "source_location": "EPUB fourni, OEBPS/sections/texte_1.xhtml, paragraphe 123",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au volume fourni ; espaces normalisés et seuls appels de notes retirés ; phrase et contexte relus.",
+      "quote_sha256": "a78729da5519037d9cee30f4b82c70c13bf3f454d87d72bcff06ae254015b01d",
+      "translator_status": "original_french"
+    },
+    {
+      "id": "bachelard-metaphores-et-raison",
+      "code": "BA06",
+      "author": "Bachelard",
+      "locator": "Chapitre IV, section III",
+      "source_location": "EPUB fourni, OEBPS/sections/texte_1.xhtml, paragraphe 168",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au volume fourni ; espaces normalisés et seuls appels de notes retirés ; phrase et contexte relus.",
+      "quote_sha256": "15f0ab9aa1d65979007212fae7a48991ef2db7d2fd2ddf401704e3f5b99d0a65",
+      "translator_status": "original_french"
+    },
+    {
+      "id": "bachelard-passion-et-erreur",
+      "code": "BA07",
+      "author": "Bachelard",
+      "locator": "Chapitre VII, section III",
+      "source_location": "EPUB fourni, texte_2.xhtml, paragraphe 117",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au volume fourni ; espaces normalisés et seuls appels de notes retirés ; phrase et contexte relus.",
+      "quote_sha256": "d9e0be255563f495d2dbd3fbe2ab8d4469b7288c725b731f995caf19c6459945",
+      "translator_status": "original_french"
+    },
+    {
+      "id": "bachelard-mesure-et-reflexion",
+      "code": "BA08",
+      "author": "Bachelard",
+      "locator": "Chapitre XI, section II",
+      "source_location": "EPUB fourni, texte_3.xhtml, paragraphe 129",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au volume fourni ; espaces normalisés et seuls appels de notes retirés ; phrase et contexte relus.",
+      "quote_sha256": "d6934fa44de8a33abe54d3059badea6724bf8b5d53be758e25fd23436dbcc2f4",
+      "translator_status": "original_french"
+    },
+    {
+      "id": "bachelard-instrument-et-objectivite",
+      "code": "BA09",
+      "author": "Bachelard",
+      "locator": "Chapitre XI, section III",
+      "source_location": "EPUB fourni, texte_3.xhtml, paragraphe 141",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au volume fourni ; espaces normalisés et seuls appels de notes retirés ; phrase et contexte relus.",
+      "quote_sha256": "dea69de1d74c3e3730ae61cd6afc9e26dddb3e41ba5f37568a165ae3ab0e281d",
+      "translator_status": "original_french"
+    },
+    {
+      "id": "bachelard-resultats-et-demonstration",
+      "code": "BA10",
+      "author": "Bachelard",
+      "locator": "Chapitre XI, section VII",
+      "source_location": "EPUB fourni, texte_3.xhtml, paragraphe 181",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au volume fourni ; espaces normalisés et seuls appels de notes retirés ; phrase et contexte relus.",
+      "quote_sha256": "0002d2627748d0924a5f9260d0f78cab21494f219e4214dcf3446e94841c3b45",
+      "translator_status": "original_french"
+    },
+    {
+      "id": "bachelard-enseigner-et-apprendre",
+      "code": "BA11",
+      "author": "Bachelard",
+      "locator": "Chapitre XII, section II",
+      "source_location": "EPUB fourni, texte_3.xhtml, paragraphe 201",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au volume fourni ; espaces normalisés et seuls appels de notes retirés ; phrase et contexte relus.",
+      "quote_sha256": "3bfdc540eead90d60c0cd62925af5f859b8989f6f6a5cf8b892ae27d473ac5e5",
+      "translator_status": "original_french"
+    },
+    {
+      "id": "bachelard-objet-et-transformation",
+      "code": "BA12",
+      "author": "Bachelard",
+      "locator": "Chapitre XII, section II",
+      "source_location": "EPUB fourni, texte_3.xhtml, paragraphe 210",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au volume fourni ; espaces normalisés et seuls appels de notes retirés ; phrase et contexte relus.",
+      "quote_sha256": "f3a3b0c01a512f849c28e459cb6c82c7f88ecd14163cb8ce25d7d6064f59db44",
+      "translator_status": "original_french"
+    },
+    {
+      "id": "bachelard-maitre-et-contradiction",
+      "code": "BA13",
+      "author": "Bachelard",
+      "locator": "Chapitre XII, section III",
+      "source_location": "EPUB fourni, texte_3.xhtml, paragraphe 213",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au volume fourni ; espaces normalisés et seuls appels de notes retirés ; phrase et contexte relus.",
+      "quote_sha256": "3d68cd4dda6bcfe0699cf3c088d8a0a889031fb96cc65b79c8de9364977cc20f",
+      "translator_status": "original_french"
+    },
+    {
+      "id": "freud-souvenirs-remanies",
+      "code": "F01",
+      "author": "Freud",
+      "locator": "Conclusion du texte (1899)",
+      "source_location": "EPUB fourni, OPS/chap1.xhtml, paragraphe 62",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au volume fourni ; espaces normalisés et seuls appels de notes retirés ; phrase et contexte relus.",
+      "quote_sha256": "b2f481bf62ca04d321c8dfddad92ff4f55556f71cf55b7312ba8b10e386d65ac",
+      "translator_status": "identified"
+    },
+    {
+      "id": "freud-repeter-sans-savoir",
+      "code": "F02",
+      "author": "Freud",
+      "locator": "L’agir dans la cure (1914)",
+      "source_location": "EPUB fourni, OPS/chap2.xhtml, paragraphe 10",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au volume fourni ; espaces normalisés et seuls appels de notes retirés ; phrase et contexte relus.",
+      "quote_sha256": "f63c224c2640f8f2b5c02225f65688d5ba37fe4c388a3f9ac93ba3b690e90402",
+      "translator_status": "identified"
+    },
+    {
+      "id": "freud-modele-et-limites",
+      "code": "F03",
+      "author": "Freud",
+      "locator": "Les limites du modèle (1925)",
+      "source_location": "EPUB fourni, OPS/chap3.xhtml, paragraphe 10",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au volume fourni ; espaces normalisés et seuls appels de notes retirés ; phrase et contexte relus.",
+      "quote_sha256": "bf7c722f0a778a4f725911208e8057eb7180313013502cbc1fdb81e5f30a79b8",
+      "translator_status": "identified"
+    },
+    {
+      "id": "freud-moi-et-inconscient",
+      "code": "F04",
+      "author": "Freud",
+      "locator": "Chapitre III, passage sur la résistance (formulation remaniée en 1921)",
+      "source_location": "EPUB fourni, OPS/chap4.xhtml, paragraphe 3",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au volume fourni ; espaces normalisés et seuls appels de notes retirés ; phrase et contexte relus.",
+      "quote_sha256": "18a4545b5bae0fe80da03d5e3a4c236ddc089ef90564e65f8998eca161e53dd7",
+      "translator_status": "identified"
+    },
+    {
+      "id": "freud-jeu-et-deplaisir",
+      "code": "F05",
+      "author": "Freud",
+      "locator": "Chapitre II, le jeu de la bobine",
+      "source_location": "EPUB fourni, OPS/chap5.xhtml, paragraphe 5",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au volume fourni ; espaces normalisés et seuls appels de notes retirés ; phrase et contexte relus.",
+      "quote_sha256": "6e1a5f6e8055a3a854db4912dbbd800534527f3ca8c1117aaef59043809905df",
+      "translator_status": "identified"
+    },
+    {
+      "id": "freud-pulsion-et-objet",
+      "code": "F06",
+      "author": "Freud",
+      "locator": "Premier essai, « Déduction »",
+      "source_location": "PDF fourni, page 56",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au volume fourni ; espaces normalisés et seuls appels de notes retirés ; phrase et contexte relus.",
+      "quote_sha256": "2e336bc7f14f42b926c49d71d60a045d2e5102fd1928477e055772f86eea2a57",
+      "translator_status": "identified"
+    },
+    {
+      "id": "freud-amour-et-autorite",
+      "code": "F07",
+      "author": "Freud",
+      "locator": "Premier essai, « Surestimation de l’objet sexuel »",
+      "source_location": "PDF fourni, page 58",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au volume fourni ; espaces normalisés et seuls appels de notes retirés ; phrase et contexte relus.",
+      "quote_sha256": "4698259312716555fd9bd500edea8807504c8ee7a40e3cd6c5a04845c6a2863e",
+      "translator_status": "identified"
+    },
+    {
+      "id": "freud-pulsion-et-corps",
+      "code": "F08",
+      "author": "Freud",
+      "locator": "Premier essai, « Pulsions partielles et zones érogènes » (ajout de 1915)",
+      "source_location": "PDF fourni, page 71",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au volume fourni ; espaces normalisés et seuls appels de notes retirés ; phrase et contexte relus.",
+      "quote_sha256": "8758c1f8fe1b2e8aa3197d835571ebee616af8ddbfe772ae27ed860099fbf26f",
+      "translator_status": "identified"
+    },
+    {
+      "id": "freud-plaisir-et-relance",
+      "code": "F09",
+      "author": "Freud",
+      "locator": "Troisième essai, « La tension sexuelle »",
+      "source_location": "PDF fourni, page 106",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au volume fourni ; espaces normalisés et seuls appels de notes retirés ; phrase et contexte relus.",
+      "quote_sha256": "e9ef451a74c337d252ac5ef46e0cad6722989e3273f5da14c6cc6f2c0fed5e86",
+      "translator_status": "identified"
+    },
+    {
+      "id": "freud-trouvaille-et-retrouvaille",
+      "code": "F10",
+      "author": "Freud",
+      "locator": "Troisième essai, « La trouvaille d’objet »",
+      "source_location": "PDF fourni, page 115",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au volume fourni ; espaces normalisés et seuls appels de notes retirés ; phrase et contexte relus.",
+      "quote_sha256": "4848cc5e0c40e0190f48a7daf2e5a00e9370f4c0c8fc5f7d4ea34df8d015c8b0",
+      "translator_status": "identified"
+    },
+    {
+      "id": "freud-beaute-et-desir",
+      "code": "F11",
+      "author": "Freud",
+      "locator": "Premier essai, « Palper et regarder », note 27 (ajout de 1915)",
+      "source_location": "PDF fourni, page 368",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au volume fourni ; espaces normalisés et seuls appels de notes retirés ; phrase et contexte relus.",
+      "quote_sha256": "5e1d077dcc30ad759197940d9d1aa2ae290dfb8a3176af7a066deba7a5b6838c",
+      "translator_status": "identified"
+    },
+    {
+      "id": "freud-parole-et-presence",
+      "code": "F12",
+      "author": "Freud",
+      "locator": "Troisième essai, « Angoisse infantile », note 17",
+      "source_location": "PDF fourni, page 458",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au volume fourni ; espaces normalisés et seuls appels de notes retirés ; phrase et contexte relus.",
+      "quote_sha256": "8d84f0e6480527970c4963399f734e370b8fcc6c93f62fbf74ab8493c72a6714",
+      "translator_status": "identified"
     }
   ],
   "spinoza_edition_note": "La page de titre (part0002.xhtml) attribue édition et traduction à Maxime Rovere, © Flammarion 2021, ISBN numérique 9782080205179. Les noms figurant dans le nom du fichier téléversé ne servent pas à attribuer la traduction.",
