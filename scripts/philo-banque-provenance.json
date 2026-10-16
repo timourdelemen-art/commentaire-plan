@@ -1,6 +1,6 @@
 {
   "status": "citations-courtes-et-commentaires",
-  "owner_decision": "16 octobre 2026 : remplacer les anciennes fiches par la sélection de citations fournie et approuvée, en deux parties dissertation et commentaire. Le même jour : poursuivre selon le même principe avec l’Éthique fournie. Le même jour : intégrer Cioran, écrivain et penseur, à partir des deux ouvrages fournis, après sélection rigoureuse sans quota. Le même jour : développer les usages de « L’Arbre de vie » et de la relecture de la Genèse. Le même jour : poursuivre avec les deux Critiques de Kant fournies, en choisissant des phrases autonomes et des emplois précis sur deux ou trois sujets du bac. Le même jour : intégrer une sélection philosophique de Baudelaire et Racine à partir des deux volumes fournis, avec un ou deux vers conservés exactement, sujets du bac attestés et situation dramatique très brève ; comparer Baudelaire à des éditions consultables en ligne. Le même jour : poursuivre avec Corneille en privilégiant ensemble portée philosophique et beauté ; auditer les 33 choix de Baudelaire et Racine et remplacer les plus faibles. Le même jour : lire intégralement les trois volumes fournis de Bachelard et Freud, sélectionner leurs meilleurs courts extraits pour les dissertations du bac, puis poursuivre le modèle existant. Le même jour : poursuivre la sélection rigoureuse et le modèle existant avec les deux ouvrages de Simondon fournis ; courts extraits authentiques, sujets du bac attestés et commentaires originaux. Le même jour : compléter sans doublons à partir des annales d’explication de texte du bac, avec des phrases autonomes, des usages précis et le même modèle de fiche.",
+  "owner_decision": "16 octobre 2026 : remplacer les anciennes fiches par la sélection de citations fournie et approuvée, en deux parties dissertation et commentaire. Le même jour : poursuivre selon le même principe avec l’Éthique fournie. Le même jour : intégrer Cioran, écrivain et penseur, à partir des deux ouvrages fournis, après sélection rigoureuse sans quota. Le même jour : développer les usages de « L’Arbre de vie » et de la relecture de la Genèse. Le même jour : poursuivre avec les deux Critiques de Kant fournies, en choisissant des phrases autonomes et des emplois précis sur deux ou trois sujets du bac. Le même jour : intégrer une sélection philosophique de Baudelaire et Racine à partir des deux volumes fournis, avec un ou deux vers conservés exactement, sujets du bac attestés et situation dramatique très brève ; comparer Baudelaire à des éditions consultables en ligne. Le même jour : poursuivre avec Corneille en privilégiant ensemble portée philosophique et beauté ; auditer les 33 choix de Baudelaire et Racine et remplacer les plus faibles. Le même jour : lire intégralement les trois volumes fournis de Bachelard et Freud, sélectionner leurs meilleurs courts extraits pour les dissertations du bac, puis poursuivre le modèle existant. Le même jour : poursuivre la sélection rigoureuse et le modèle existant avec les deux ouvrages de Simondon fournis ; courts extraits authentiques, sujets du bac attestés et commentaires originaux. Le même jour : compléter sans doublons à partir des annales d’explication de texte du bac, avec des phrases autonomes, des usages précis et le même modèle de fiche. Le 16 octobre 2026 : intégrer une sélection philosophique et esthétique des Fables de La Fontaine fournies, en recherchant les pépites dans les récits aussi bien que dans les morales ; terminer La Fontaine avant Rousseau.",
   "source_files": [
     {
       "author": "Platon",
@@ -84,6 +84,10 @@
       "work": "orleans-911.pdf",
       "url": "https://pedagogie.ac-orleans-tours.fr/documents/pdf/recueil_sujets_-_textes.pdf",
       "sha256": "4540764bacbb31dea465970929fb206ad8155013302769184a4adf976e89efa9"
+    },
+    {
+      "work": "La Fontaine · Fables choisies mises en vers · édition Georges Couton, Bordas, 1990",
+      "sha256": "bb8e40449fd98f175692ec03318722381866c394418ada3cdfb262999abf7d96"
     }
   ],
   "subject_source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf",
@@ -2553,6 +2557,186 @@
       "quote_sha256": "f6b3c30aec2e405a1aace3a9983d8f88aee35651ebd0335c91b14c125480b203",
       "translator_status": "Non nommé dans le recueil ; aucune attribution conjecturale",
       "verification": "Phrase entière contrôlée dans le texte académique et sur le rendu du PDF ; contexte du sujet lu intégralement. Bibliographie et variantes documentées dans ANNALES-CITATIONS-SELECTION.md."
+    },
+    {
+      "id": "la-fontaine-accuser-le-miroir",
+      "source_location": "Livre I, fable XI · p. 44 (PDF p. 110)",
+      "source_file_sha256": "bb8e40449fd98f175692ec03318722381866c394418ada3cdfb262999abf7d96",
+      "quotation_verified": true,
+      "quote_sha256": "777cde39cb04a413c1cc06a7dda6b4fc493cefdf160c04332b640cd3205b85cc",
+      "translator_status": "Texte original français",
+      "verification": "Vers contrôlés sur les images du volume fourni ; contexte intégral de la fable lu ; comparaison dans des éditions anciennes documentée dans LA-FONTAINE-SELECTION.md. Ponctuation et graphies de Couton conservées."
+    },
+    {
+      "id": "la-fontaine-appeler-la-mort-retenir-la-vie",
+      "source_location": "Livre I, fable XVI · p. 50 (PDF p. 118)",
+      "source_file_sha256": "bb8e40449fd98f175692ec03318722381866c394418ada3cdfb262999abf7d96",
+      "quotation_verified": true,
+      "quote_sha256": "9cc3760f8469e084ec87eb54cac79a13a3df4232fa27da46b07c01882ad29afe",
+      "translator_status": "Texte original français",
+      "verification": "Vers contrôlés sur les images du volume fourni ; contexte intégral de la fable lu ; comparaison dans des éditions anciennes documentée dans LA-FONTAINE-SELECTION.md. Ponctuation et graphies de Couton conservées."
+    },
+    {
+      "id": "la-fontaine-qui-peint-la-victoire",
+      "source_location": "Livre III, fable X · p. 94 (PDF p. 174)",
+      "source_file_sha256": "bb8e40449fd98f175692ec03318722381866c394418ada3cdfb262999abf7d96",
+      "quotation_verified": true,
+      "quote_sha256": "3eb81fbb971f8d95e8e431bf5d7d66344deb80269213a95cbe082220da3c99ec",
+      "translator_status": "Texte original français",
+      "verification": "Vers contrôlés sur les images du volume fourni ; contexte intégral de la fable lu ; comparaison dans des éditions anciennes documentée dans LA-FONTAINE-SELECTION.md. Ponctuation et graphies de Couton conservées."
+    },
+    {
+      "id": "la-fontaine-enfermer-sa-joie-avec-son-argent",
+      "source_location": "Livre VIII, fable II · p. 208 (PDF p. 304)",
+      "source_file_sha256": "bb8e40449fd98f175692ec03318722381866c394418ada3cdfb262999abf7d96",
+      "quotation_verified": true,
+      "quote_sha256": "75c94a95ff5b059ef0c265ed88f96c85b479ae43c3dc695da57c3626237938b5",
+      "translator_status": "Texte original français",
+      "verification": "Vers contrôlés sur les images du volume fourni ; contexte intégral de la fable lu ; comparaison dans des éditions anciennes documentée dans LA-FONTAINE-SELECTION.md. Ponctuation et graphies de Couton conservées."
+    },
+    {
+      "id": "la-fontaine-le-plaisir-de-comprendre",
+      "source_location": "Livre VI, fable I · p. 153 (PDF p. 243)",
+      "source_file_sha256": "bb8e40449fd98f175692ec03318722381866c394418ada3cdfb262999abf7d96",
+      "quotation_verified": true,
+      "quote_sha256": "c5e7d983804bd8520d4a010f2105af39050a253ae6ddbe13d725c222c5098e32",
+      "translator_status": "Texte original français",
+      "verification": "Vers contrôlés sur les images du volume fourni ; contexte intégral de la fable lu ; comparaison dans des éditions anciennes documentée dans LA-FONTAINE-SELECTION.md. Ponctuation et graphies de Couton conservées."
+    },
+    {
+      "id": "la-fontaine-changer-de-maitre-rester-soumis",
+      "source_location": "Livre VI, fable VIII · p. 160 (PDF p. 250)",
+      "source_file_sha256": "bb8e40449fd98f175692ec03318722381866c394418ada3cdfb262999abf7d96",
+      "quotation_verified": true,
+      "quote_sha256": "0bd7118d9340e08620a20f13cd0dc2b1dc85248e5febcafb1a131d5d804d9c31",
+      "translator_status": "Texte original français",
+      "verification": "Vers contrôlés sur les images du volume fourni ; contexte intégral de la fable lu ; comparaison dans des éditions anciennes documentée dans LA-FONTAINE-SELECTION.md. Ponctuation et graphies de Couton conservées."
+    },
+    {
+      "id": "la-fontaine-la-puissance-devant-le-juge",
+      "source_location": "Livre VII, fable I · p. 180 (PDF p. 270)",
+      "source_file_sha256": "bb8e40449fd98f175692ec03318722381866c394418ada3cdfb262999abf7d96",
+      "quotation_verified": true,
+      "quote_sha256": "50e50d9750fc1e58006fc53ed83aa9d4766387dc2c8ec11d35a9af775a98a417",
+      "translator_status": "Texte original français",
+      "verification": "Vers contrôlés sur les images du volume fourni ; contexte intégral de la fable lu ; comparaison dans des éditions anciennes documentée dans LA-FONTAINE-SELECTION.md. Ponctuation et graphies de Couton conservées."
+    },
+    {
+      "id": "la-fontaine-redresser-le-baton-par-le-jugement",
+      "source_location": "Livre VII, fable XVII · p. 201 (PDF p. 297)",
+      "source_file_sha256": "bb8e40449fd98f175692ec03318722381866c394418ada3cdfb262999abf7d96",
+      "quotation_verified": true,
+      "quote_sha256": "965694bbd6e3b16769bb2d80ece2fb34851f35ae6a966e187ea813ea2a1c7cbc",
+      "translator_status": "Texte original français",
+      "verification": "Vers contrôlés sur les images du volume fourni ; contexte intégral de la fable lu ; comparaison dans des éditions anciennes documentée dans LA-FONTAINE-SELECTION.md. Ponctuation et graphies de Couton conservées."
+    },
+    {
+      "id": "la-fontaine-vouloir-aider-ne-suffit-pas",
+      "source_location": "Livre VIII, fable X · p. 218 (PDF p. 314)",
+      "source_file_sha256": "bb8e40449fd98f175692ec03318722381866c394418ada3cdfb262999abf7d96",
+      "quotation_verified": true,
+      "quote_sha256": "ab23446d896d0d93a8f7e3a36b769af8ed3323009339031f0ff2ba6fc6d83464",
+      "translator_status": "Texte original français",
+      "verification": "Vers contrôlés sur les images du volume fourni ; contexte intégral de la fable lu ; comparaison dans des éditions anciennes documentée dans LA-FONTAINE-SELECTION.md. Ponctuation et graphies de Couton conservées."
+    },
+    {
+      "id": "la-fontaine-un-monde-dans-la-presence-aimee",
+      "source_location": "Livre IX, fable II · p. 247 (PDF p. 343)",
+      "source_file_sha256": "bb8e40449fd98f175692ec03318722381866c394418ada3cdfb262999abf7d96",
+      "quotation_verified": true,
+      "quote_sha256": "d99d55f3bf6fe1807d580176a095473065497ffdebe125dd02a5d23bc1dea27c",
+      "translator_status": "Texte original français",
+      "verification": "Vers contrôlés sur les images du volume fourni ; contexte intégral de la fable lu ; comparaison dans des éditions anciennes documentée dans LA-FONTAINE-SELECTION.md. Ponctuation et graphies de Couton conservées."
+    },
+    {
+      "id": "la-fontaine-du-marbre-au-dieu",
+      "source_location": "Livre IX, fable VI · p. 251 (PDF p. 349)",
+      "source_file_sha256": "bb8e40449fd98f175692ec03318722381866c394418ada3cdfb262999abf7d96",
+      "quotation_verified": true,
+      "quote_sha256": "09b1d91aea1731779ddf087f193845ba8913cd64814f14bcbecccb4bad966702",
+      "translator_status": "Texte original français",
+      "verification": "Vers contrôlés sur les images du volume fourni ; contexte intégral de la fable lu ; comparaison dans des éditions anciennes documentée dans LA-FONTAINE-SELECTION.md. Ponctuation et graphies de Couton conservées."
+    },
+    {
+      "id": "la-fontaine-les-limites-de-la-ressemblance",
+      "source_location": "Livre IX, fable XII · p. 258 (PDF p. 356)",
+      "source_file_sha256": "bb8e40449fd98f175692ec03318722381866c394418ada3cdfb262999abf7d96",
+      "quotation_verified": true,
+      "quote_sha256": "ba3d9f9c66a3322734f0ea213d562e8ae67373590e150d4251731dd773370bfb",
+      "translator_status": "Texte original français",
+      "verification": "Vers contrôlés sur les images du volume fourni ; contexte intégral de la fable lu ; comparaison dans des éditions anciennes documentée dans LA-FONTAINE-SELECTION.md. Ponctuation et graphies de Couton conservées."
+    },
+    {
+      "id": "la-fontaine-une-tache-commune-aux-castors",
+      "source_location": "Fin du livre IX · p. 268 (PDF p. 366)",
+      "source_file_sha256": "bb8e40449fd98f175692ec03318722381866c394418ada3cdfb262999abf7d96",
+      "quotation_verified": true,
+      "quote_sha256": "c787bd98bad8009bdc7d1a46582292e88e43d6dcb995c1f086c39f158b3ab790",
+      "translator_status": "Texte original français",
+      "verification": "Vers contrôlés sur les images du volume fourni ; contexte intégral de la fable lu ; comparaison dans des éditions anciennes documentée dans LA-FONTAINE-SELECTION.md. Ponctuation et graphies de Couton conservées."
+    },
+    {
+      "id": "la-fontaine-lutilite-deguisee-en-justice",
+      "source_location": "Livre X, fable I · p. 275 (PDF p. 375)",
+      "source_file_sha256": "bb8e40449fd98f175692ec03318722381866c394418ada3cdfb262999abf7d96",
+      "quotation_verified": true,
+      "quote_sha256": "0ac888edd344c1132d9247d7089005b346b01c52697fa695d9d5a1e3d519f024",
+      "translator_status": "Texte original français",
+      "verification": "Vers contrôlés sur les images du volume fourni ; contexte intégral de la fable lu ; comparaison dans des éditions anciennes documentée dans LA-FONTAINE-SELECTION.md. Ponctuation et graphies de Couton conservées."
+    },
+    {
+      "id": "la-fontaine-planter-pour-ceux-qui-viendront",
+      "source_location": "Livre XI, fable VIII · p. 309 (PDF p. 409)",
+      "source_file_sha256": "bb8e40449fd98f175692ec03318722381866c394418ada3cdfb262999abf7d96",
+      "quotation_verified": true,
+      "quote_sha256": "9596afe26e12c158d5cdde9e5a941e9232758bc94e3e6330b0647c530cafc704",
+      "translator_status": "Texte original français",
+      "verification": "Vers contrôlés sur les images du volume fourni ; contexte intégral de la fable lu ; comparaison dans des éditions anciennes documentée dans LA-FONTAINE-SELECTION.md. Ponctuation et graphies de Couton conservées."
+    },
+    {
+      "id": "la-fontaine-tailler-les-desirs-ou-detruire-la-vie",
+      "source_location": "Livre XII, fable XX · p. 349 (PDF p. 459)",
+      "source_file_sha256": "bb8e40449fd98f175692ec03318722381866c394418ada3cdfb262999abf7d96",
+      "quotation_verified": true,
+      "quote_sha256": "1a1046e5f1416750eed241bb2b71384752a05857a799bcf030ce34efe178cd31",
+      "translator_status": "Texte original français",
+      "verification": "Vers contrôlés sur les images du volume fourni ; contexte intégral de la fable lu ; comparaison dans des éditions anciennes documentée dans LA-FONTAINE-SELECTION.md. Ponctuation et graphies de Couton conservées."
+    },
+    {
+      "id": "la-fontaine-un-adieu-qui-ne-peut-plus-se-dire",
+      "source_location": "Livre XII, fable XXV · p. 360 (PDF p. 470)",
+      "source_file_sha256": "bb8e40449fd98f175692ec03318722381866c394418ada3cdfb262999abf7d96",
+      "quotation_verified": true,
+      "quote_sha256": "f0598ddb8e882874600ca12c4e59b6ae727481b5e30d79a7df97c9c6f7af3766",
+      "translator_status": "Texte original français",
+      "verification": "Vers contrôlés sur les images du volume fourni ; contexte intégral de la fable lu ; comparaison dans des éditions anciennes documentée dans LA-FONTAINE-SELECTION.md. Ponctuation et graphies de Couton conservées."
+    },
+    {
+      "id": "la-fontaine-laisser-reposer-leau",
+      "source_location": "Livre XII, fable XXIX · p. 389 (PDF p. 501)",
+      "source_file_sha256": "bb8e40449fd98f175692ec03318722381866c394418ada3cdfb262999abf7d96",
+      "quotation_verified": true,
+      "quote_sha256": "1ced00a82a63d0cb3fe0b3bda21e32530b39928fbacc05db4a495eb52303a0cd",
+      "translator_status": "Texte original français",
+      "verification": "Vers contrôlés sur les images du volume fourni ; contexte intégral de la fable lu ; comparaison dans des éditions anciennes documentée dans LA-FONTAINE-SELECTION.md. Ponctuation et graphies de Couton conservées."
+    },
+    {
+      "id": "la-fontaine-le-temps-qui-rend-les-plaisirs",
+      "source_location": "Livre VI, fable XXI · p. 170 (PDF p. 260)",
+      "source_file_sha256": "bb8e40449fd98f175692ec03318722381866c394418ada3cdfb262999abf7d96",
+      "quotation_verified": true,
+      "quote_sha256": "7bb0d27bacf0b5d9a7c43bd62b0d7067435456e1f9fc180fe3a1c3d4974d86d6",
+      "translator_status": "Texte original français",
+      "verification": "Vers contrôlés sur les images du volume fourni ; contexte intégral de la fable lu ; comparaison dans des éditions anciennes documentée dans LA-FONTAINE-SELECTION.md. Ponctuation et graphies de Couton conservées."
+    },
+    {
+      "id": "la-fontaine-entendre-ce-que-lon-soupconne",
+      "source_location": "Livre XII, fable XXVIII · p. 380 (PDF p. 490)",
+      "source_file_sha256": "bb8e40449fd98f175692ec03318722381866c394418ada3cdfb262999abf7d96",
+      "quotation_verified": true,
+      "quote_sha256": "d19944f1e513f24393e1963517a5e830920a9089bf08e6c6b4cb12e5d29de8cf",
+      "translator_status": "Texte original français",
+      "verification": "Vers contrôlés sur les images du volume fourni ; contexte intégral de la fable lu ; comparaison dans des éditions anciennes documentée dans LA-FONTAINE-SELECTION.md. Ponctuation et graphies de Couton conservées."
     }
   ],
   "spinoza_edition_note": "La page de titre (part0002.xhtml) attribue édition et traduction à Maxime Rovere, © Flammarion 2021, ISBN numérique 9782080205179. Les noms figurant dans le nom du fichier téléversé ne servent pas à attribuer la traduction.",
