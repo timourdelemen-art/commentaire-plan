@@ -1,6 +1,6 @@
 {
   "status": "citations-courtes-et-commentaires",
-  "owner_decision": "16 octobre 2026 : remplacer les anciennes fiches par la sélection de citations fournie et approuvée, en deux parties dissertation et commentaire. Le même jour : poursuivre selon le même principe avec l’Éthique fournie. Le même jour : intégrer Cioran, écrivain et penseur, à partir des deux ouvrages fournis, après sélection rigoureuse sans quota. Le même jour : développer les usages de « L’Arbre de vie » et de la relecture de la Genèse. Le même jour : poursuivre avec les deux Critiques de Kant fournies, en choisissant des phrases autonomes et des emplois précis sur deux ou trois sujets du bac. Le même jour : intégrer une sélection philosophique de Baudelaire et Racine à partir des deux volumes fournis, avec un ou deux vers conservés exactement, sujets du bac attestés et situation dramatique très brève ; comparer Baudelaire à des éditions consultables en ligne. Le même jour : poursuivre avec Corneille en privilégiant ensemble portée philosophique et beauté ; auditer les 33 choix de Baudelaire et Racine et remplacer les plus faibles. Le même jour : lire intégralement les trois volumes fournis de Bachelard et Freud, sélectionner leurs meilleurs courts extraits pour les dissertations du bac, puis poursuivre le modèle existant. Le même jour : poursuivre la sélection rigoureuse et le modèle existant avec les deux ouvrages de Simondon fournis ; courts extraits authentiques, sujets du bac attestés et commentaires originaux.",
+  "owner_decision": "16 octobre 2026 : remplacer les anciennes fiches par la sélection de citations fournie et approuvée, en deux parties dissertation et commentaire. Le même jour : poursuivre selon le même principe avec l’Éthique fournie. Le même jour : intégrer Cioran, écrivain et penseur, à partir des deux ouvrages fournis, après sélection rigoureuse sans quota. Le même jour : développer les usages de « L’Arbre de vie » et de la relecture de la Genèse. Le même jour : poursuivre avec les deux Critiques de Kant fournies, en choisissant des phrases autonomes et des emplois précis sur deux ou trois sujets du bac. Le même jour : intégrer une sélection philosophique de Baudelaire et Racine à partir des deux volumes fournis, avec un ou deux vers conservés exactement, sujets du bac attestés et situation dramatique très brève ; comparer Baudelaire à des éditions consultables en ligne. Le même jour : poursuivre avec Corneille en privilégiant ensemble portée philosophique et beauté ; auditer les 33 choix de Baudelaire et Racine et remplacer les plus faibles. Le même jour : lire intégralement les trois volumes fournis de Bachelard et Freud, sélectionner leurs meilleurs courts extraits pour les dissertations du bac, puis poursuivre le modèle existant. Le même jour : poursuivre la sélection rigoureuse et le modèle existant avec les deux ouvrages de Simondon fournis ; courts extraits authentiques, sujets du bac attestés et commentaires originaux. Le même jour : compléter sans doublons à partir des annales d’explication de texte du bac, avec des phrases autonomes, des usages précis et le même modèle de fiche.",
   "source_files": [
     {
       "author": "Platon",
@@ -74,6 +74,16 @@
       "author": "Simondon",
       "work": "L’Individu et sa genèse physico-biologique",
       "sha256": "10b6c6fd702277daf4c60f8c09d6348f240fc9b997d62e95c33aab7917b5a33f"
+    },
+    {
+      "work": "montpellier-2026.pdf",
+      "url": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-textes-philo-1996-2026.pdf",
+      "sha256": "54e91bd6301ef8a67947dde506de6dad38b5e5726063edd5e14970da4060301b"
+    },
+    {
+      "work": "orleans-911.pdf",
+      "url": "https://pedagogie.ac-orleans-tours.fr/documents/pdf/recueil_sujets_-_textes.pdf",
+      "sha256": "4540764bacbb31dea465970929fb206ad8155013302769184a4adf976e89efa9"
     }
   ],
   "subject_source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf",
@@ -2408,6 +2418,141 @@
       "verification": "Phrase complète confrontée au texte OCR et visuellement à la page scannée du PDF fourni ; espaces et césures normalisés.",
       "quote_sha256": "1cbccb2158c01e9afd5fed7514125b0cb9abfdc74fda46e9404b45e81152c8ae",
       "translator_status": "original-french"
+    },
+    {
+      "id": "alain-obeir-et-resister",
+      "source_location": "4 septembre 1912 · recueil des textes du bac, p. 689",
+      "source_url": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-textes-philo-1996-2026.pdf#page=689",
+      "quotation_verified": true,
+      "quote_sha256": "8405ce1388d539886de6a805d6b01d5de052ec30114a83481413b9c032763681",
+      "translator_status": "Texte original français",
+      "verification": "Phrase entière contrôlée dans le texte académique et sur le rendu du PDF ; contexte du sujet lu intégralement. Bibliographie et variantes documentées dans ANNALES-CITATIONS-SELECTION.md."
+    },
+    {
+      "id": "alain-la-distance-a-soi",
+      "source_location": "« L’inconscient », 17 juin 1923 · recueil des textes du bac, p. 1071",
+      "source_url": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-textes-philo-1996-2026.pdf#page=1071",
+      "quotation_verified": true,
+      "quote_sha256": "4ae3cc094560c9d1444271c2cf99acfd3add9477569675715a375dfe424d2c93",
+      "translator_status": "Texte original français",
+      "verification": "Phrase entière contrôlée dans le texte académique et sur le rendu du PDF ; contexte du sujet lu intégralement. Bibliographie et variantes documentées dans ANNALES-CITATIONS-SELECTION.md."
+    },
+    {
+      "id": "bergson-inventer-prend-temps",
+      "source_location": "Chapitre IV · recueil des textes du bac, p. 1019",
+      "source_url": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-textes-philo-1996-2026.pdf#page=1019",
+      "quotation_verified": true,
+      "quote_sha256": "eae3e510f3ef3623c757f745294acef441b0a92fde5215c9e5294b63e1c750ca",
+      "translator_status": "Texte original français",
+      "verification": "Phrase entière contrôlée dans le texte académique et sur le rendu du PDF ; contexte du sujet lu intégralement. Bibliographie et variantes documentées dans ANNALES-CITATIONS-SELECTION.md."
+    },
+    {
+      "id": "comte-les-limites-de-lintrospection",
+      "source_location": "Première leçon · recueil des textes du bac, p. 529",
+      "source_url": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-textes-philo-1996-2026.pdf#page=529",
+      "quotation_verified": true,
+      "quote_sha256": "d84fea04e663db8c19f03bb092a2d4b29aac9227193ac09674081ebf8182c96d",
+      "translator_status": "Texte original français",
+      "verification": "Phrase entière contrôlée dans le texte académique et sur le rendu du PDF ; contexte du sujet lu intégralement. Bibliographie et variantes documentées dans ANNALES-CITATIONS-SELECTION.md."
+    },
+    {
+      "id": "diderot-le-bon-despote",
+      "source_location": "Passage sur le gouvernement arbitraire · recueil des textes du bac, p. 266",
+      "source_url": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-textes-philo-1996-2026.pdf#page=266",
+      "quotation_verified": true,
+      "quote_sha256": "4715ff56d8e8947e399b8ac05049865fc15d5408fa1bf00fb1221cdbd3d4fb38",
+      "translator_status": "Texte original français",
+      "verification": "Phrase entière contrôlée dans le texte académique et sur le rendu du PDF ; contexte du sujet lu intégralement. Bibliographie et variantes documentées dans ANNALES-CITATIONS-SELECTION.md."
+    },
+    {
+      "id": "durkheim-des-pouvoirs-qui-se-limitent",
+      "source_location": "Article de 1899 · recueil des textes du bac, p. 420",
+      "source_url": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-textes-philo-1996-2026.pdf#page=420",
+      "quotation_verified": true,
+      "quote_sha256": "2815542b779bbb0823e7c64af10ab67f4ec5451780e4a5beebc77e2fdd89d9f3",
+      "translator_status": "Texte original français",
+      "verification": "Phrase entière contrôlée dans le texte académique et sur le rendu du PDF ; contexte du sujet lu intégralement. Bibliographie et variantes documentées dans ANNALES-CITATIONS-SELECTION.md."
+    },
+    {
+      "id": "montesquieu-commerce-et-paix",
+      "source_location": "Livre XX, chapitre II · recueil des textes du bac, p. 693",
+      "source_url": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-textes-philo-1996-2026.pdf#page=693",
+      "quotation_verified": true,
+      "quote_sha256": "f9b8cfc8325e2b185f4ff969002e32418bcbf8a5c6c522e17ef754111cd266f2",
+      "translator_status": "Texte original français",
+      "verification": "Phrase entière contrôlée dans le texte académique et sur le rendu du PDF ; contexte du sujet lu intégralement. Bibliographie et variantes documentées dans ANNALES-CITATIONS-SELECTION.md."
+    },
+    {
+      "id": "tocqueville-la-limite-de-la-majorite",
+      "source_location": "Première Démocratie (1835), deuxième partie, chapitre VII · recueil des textes du bac, p. 627",
+      "source_url": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-textes-philo-1996-2026.pdf#page=627",
+      "quotation_verified": true,
+      "quote_sha256": "b9bf45edbcb9c84f857c303905a4e6fb2ee266ba93828f2ff0694dac7a7b0c3a",
+      "translator_status": "Texte original français",
+      "verification": "Phrase entière contrôlée dans le texte académique et sur le rendu du PDF ; contexte du sujet lu intégralement. Bibliographie et variantes documentées dans ANNALES-CITATIONS-SELECTION.md."
+    },
+    {
+      "id": "rousseau-le-bonheur-despere",
+      "source_location": "Sixième partie, lettre VIII · recueil des textes du bac, p. 607",
+      "source_url": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-textes-philo-1996-2026.pdf#page=607",
+      "quotation_verified": true,
+      "quote_sha256": "ecb7f2ec9e604f93892cbcba6860c1f0bfcbec879daacd44700fedf71d048d9b",
+      "translator_status": "Texte original français",
+      "verification": "Phrase entière contrôlée dans le texte académique et sur le rendu du PDF ; contexte du sujet lu intégralement. Bibliographie et variantes documentées dans ANNALES-CITATIONS-SELECTION.md."
+    },
+    {
+      "id": "pascal-etre-ou-paraitre-courageux",
+      "source_location": "Fragment 147, numérotation Brunschvicg · recueil des textes du bac, p. 1115",
+      "source_url": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-textes-philo-1996-2026.pdf#page=1115",
+      "quotation_verified": true,
+      "quote_sha256": "53c69b894ceb17a4e26d4714dfb7aa275ee9bfb623d93ac020027ad89e72bc71",
+      "translator_status": "Texte original français",
+      "verification": "Phrase entière contrôlée dans le texte académique et sur le rendu du PDF ; contexte du sujet lu intégralement. Bibliographie et variantes documentées dans ANNALES-CITATIONS-SELECTION.md."
+    },
+    {
+      "id": "leibniz-condition-et-essence",
+      "source_location": "Texte français, daté de juin 1702 par l’édition critique · recueil des textes du bac, p. 1050",
+      "source_url": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-textes-philo-1996-2026.pdf#page=1050",
+      "quotation_verified": true,
+      "quote_sha256": "abf682411fe033e96bd1de6706e47023f1f7f673fdda4500911b25585e54e6f7",
+      "translator_status": "Texte original français",
+      "verification": "Phrase entière contrôlée dans le texte académique et sur le rendu du PDF ; contexte du sujet lu intégralement. Bibliographie et variantes documentées dans ANNALES-CITATIONS-SELECTION.md."
+    },
+    {
+      "id": "weil-des-hommes-traites-en-choses",
+      "source_location": "Passage sur les rapports dans l’usine · recueil des textes du bac, p. 105",
+      "source_url": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-textes-philo-1996-2026.pdf#page=105",
+      "quotation_verified": true,
+      "quote_sha256": "d74969f1960e204087cda7b3139c3b41d9a7ce9390ce601cefae888aa4784593",
+      "translator_status": "Texte original français",
+      "verification": "Phrase entière contrôlée dans le texte académique et sur le rendu du PDF ; contexte du sujet lu intégralement. Bibliographie et variantes documentées dans ANNALES-CITATIONS-SELECTION.md."
+    },
+    {
+      "id": "weil-leffort-et-la-maitrise-de-soi",
+      "source_location": "Texte rédigé en 1934 · recueil des textes du bac, p. 86",
+      "source_url": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-textes-philo-1996-2026.pdf#page=86",
+      "quotation_verified": true,
+      "quote_sha256": "6b318338da30b0ed6e130713617ba01a4723b5cb0cf5cc9f3869df980a9f9e65",
+      "translator_status": "Texte original français",
+      "verification": "Phrase entière contrôlée dans le texte académique et sur le rendu du PDF ; contexte du sujet lu intégralement. Bibliographie et variantes documentées dans ANNALES-CITATIONS-SELECTION.md."
+    },
+    {
+      "id": "mill-choisir-au-lieu-de-suivre",
+      "source_location": "Chapitre III · recueil des textes du bac, p. 264",
+      "source_url": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-textes-philo-1996-2026.pdf#page=264",
+      "quotation_verified": true,
+      "quote_sha256": "fcc829dedf9aeba0fae6a5e29adfada19d80521fd945b33b409482be53bc3173",
+      "translator_status": "Non nommé dans le recueil ; aucune attribution conjecturale",
+      "verification": "Phrase entière contrôlée dans le texte académique et sur le rendu du PDF ; contexte du sujet lu intégralement. Bibliographie et variantes documentées dans ANNALES-CITATIONS-SELECTION.md."
+    },
+    {
+      "id": "arendt-un-espace-pour-la-liberte",
+      "source_location": "« Qu’est-ce que la liberté ? » · recueil des textes du bac, p. 124",
+      "source_url": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-textes-philo-1996-2026.pdf#page=124",
+      "quotation_verified": true,
+      "quote_sha256": "f6b3c30aec2e405a1aace3a9983d8f88aee35651ebd0335c91b14c125480b203",
+      "translator_status": "Non nommé dans le recueil ; aucune attribution conjecturale",
+      "verification": "Phrase entière contrôlée dans le texte académique et sur le rendu du PDF ; contexte du sujet lu intégralement. Bibliographie et variantes documentées dans ANNALES-CITATIONS-SELECTION.md."
     }
   ],
   "spinoza_edition_note": "La page de titre (part0002.xhtml) attribue édition et traduction à Maxime Rovere, © Flammarion 2021, ISBN numérique 9782080205179. Les noms figurant dans le nom du fichier téléversé ne servent pas à attribuer la traduction.",
