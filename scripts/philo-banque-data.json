@@ -1,1019 +1,2727 @@
 {
-  "version": 1,
-  "updated": "2026-10-11",
+  "version": 2,
+  "updated": "2026-10-16",
+  "legacyIds": {
+    "platon-persuasion": "platon-convaincre-sans-faire-connaitre",
+    "platon-recherche": "platon-apprendre-et-se-ressouvenir",
+    "platon-ecriture": "platon-le-silence-de-lecrit",
+    "platon-caverne": null,
+    "platon-desir": null,
+    "aristote-bonheur": "aristote-le-bonheur-et-le-loisir",
+    "aristote-vertu": "aristote-devenir-juste",
+    "aristote-savoir": "aristote-connaitre-la-cause",
+    "aristote-discours": null,
+    "aristote-cite": "aristote-lanimal-politique",
+    "aristote-art": "aristote-imiter-pour-apprendre",
+    "nietzsche-valeurs": "nietzsche-le-ressentiment-et-les-valeurs",
+    "nietzsche-verite": "nietzsche-lhypothese-scientifique",
+    "nietzsche-perspective": null,
+    "nietzsche-liberte": "nietzsche-se-liberer-et-creer"
+  },
   "entries": [
     {
-      "id": "platon-persuasion",
+      "id": "platon-savoir-et-croire",
+      "code": "P01",
       "author": "Platon",
+      "title": "Savoir et croire",
       "work": "Gorgias",
-      "locator": "454c–455a",
-      "title": "La persuasion et la vérité",
-      "notions": [
-        "langage",
-        "verite",
-        "raison"
-      ],
-      "problem": "Convaincre fait-il connaître ?",
-      "explanation": "Socrate distingue une conviction accompagnée de savoir d’une conviction qui fait seulement croire. Gorgias reconnaît que la rhétorique judiciaire produit la seconde. L’accord d’un auditoire ne suffit donc pas à établir la connaissance de ce qui est juste.",
-      "distinction": "adhésion et connaissance",
-      "misreading": "Toute persuasion est nécessairement mensongère.",
-      "edition": "Œuvres complètes, sous la direction de Luc Brisson",
-      "editionYear": "2008",
-      "translator": "Collectif ; traduction du dialogue à préciser",
-      "publication": "IVe siècle av. J.-C. ; datation discutée",
-      "text": null,
-      "quotations": [],
-      "reviewStatus": "reference-commentee",
-      "uses": [
-        {
-          "subject": "Suffit-il d’avoir raison pour convaincre ?",
-          "function": "distinction",
-          "claim": "Une conviction collective ne constitue pas encore une preuve.",
-          "keywords": [
-            "conviction",
-            "croyance",
-            "preuve",
-            "persuader",
-            "convaincre",
-            "auditoire"
-          ],
-          "reason": "La distinction entre adhésion et connaissance précise ce que cet argument doit établir.",
-          "limit": "Toute persuasion est nécessairement mensongère."
-        },
-        {
-          "subject": "Suffit-il d’avoir raison pour convaincre ?",
-          "function": "objection",
-          "claim": "Une conviction collective ne constitue pas encore une preuve.",
-          "keywords": [
-            "conviction",
-            "croyance",
-            "preuve",
-            "persuader",
-            "convaincre",
-            "auditoire"
-          ],
-          "reason": "Cette référence permet de contester une identification trop rapide entre adhésion et connaissance.",
-          "limit": "Toute persuasion est nécessairement mensongère."
-        }
-      ],
-      "exercise": {
-        "prompt": "Expliquez la distinction entre adhésion et connaissance en quatre phrases.",
-        "hint": "Définissez les deux termes. Expliquez pourquoi leur différence compte dans ce passage.",
-        "model": "Socrate distingue une conviction accompagnée de savoir d’une conviction qui fait seulement croire. Gorgias reconnaît que la rhétorique judiciaire produit la seconde. L’accord d’un auditoire ne suffit donc pas à établir la connaissance de ce qui est juste. Pour employer cette référence, il faut donc expliquer la différence entre adhésion et connaissance. Elle ne permet pas de conclure que toute persuasion est nécessairement mensongère.",
-        "checklist": [
-          "Je distingue les deux termes sans les confondre.",
-          "Je relie leur différence au problème du passage.",
-          "Je précise une limite du rapprochement avec mon sujet."
-        ]
-      },
-      "sourceUrl": "https://catalogue.bnf.fr/rechercher.do?motRecherche=9782081218109"
-    },
-    {
-      "id": "platon-recherche",
-      "author": "Platon",
-      "work": "Ménon",
-      "locator": "80d–86c",
-      "title": "La recherche du savoir",
-      "notions": [
-        "raison",
-        "verite",
-        "science"
-      ],
-      "problem": "Comment chercher ce que l’on ne connaît pas ?",
-      "explanation": "Ménon soutient qu’une recherche paraît impossible : on ne chercherait pas ce que l’on sait, et on ne pourrait reconnaître ce que l’on ignore. Socrate répond par la réminiscence et par le questionnement d’un jeune esclave sur un problème géométrique. Reconnaître son erreur ouvre une recherche au lieu de la clore.",
-      "distinction": "ignorance reconnue et ignorance qui se croit savante",
-      "misreading": "Tout savoir vient spontanément sans apprentissage ni examen.",
-      "edition": "Œuvres complètes, sous la direction de Luc Brisson",
-      "editionYear": "2008",
-      "translator": "Collectif ; traduction du dialogue à préciser",
-      "publication": "IVe siècle av. J.-C. ; datation discutée",
-      "text": null,
-      "quotations": [],
-      "reviewStatus": "reference-commentee",
-      "uses": [
-        {
-          "subject": "L’erreur peut-elle être féconde ?",
-          "function": "distinction",
-          "claim": "Une erreur examinée peut conduire à reconstruire une raison.",
-          "keywords": [
-            "erreur",
-            "recherche",
-            "apprendre",
-            "ignorance",
-            "question",
-            "doute"
-          ],
-          "reason": "La distinction entre ignorance reconnue et ignorance qui se croit savante précise ce que cet argument doit établir.",
-          "limit": "Tout savoir vient spontanément sans apprentissage ni examen."
-        },
-        {
-          "subject": "L’erreur peut-elle être féconde ?",
-          "function": "raison",
-          "claim": "Une erreur examinée peut conduire à reconstruire une raison.",
-          "keywords": [
-            "erreur",
-            "recherche",
-            "apprendre",
-            "ignorance",
-            "question",
-            "doute"
-          ],
-          "reason": "Cette référence fournit un raisonnement pour soutenir cet argument ; il faut en expliquer les étapes.",
-          "limit": "Tout savoir vient spontanément sans apprentissage ni examen."
-        }
-      ],
-      "exercise": {
-        "prompt": "Expliquez la distinction entre ignorance reconnue et ignorance qui se croit savante en quatre phrases.",
-        "hint": "Définissez les deux termes. Expliquez pourquoi leur différence compte dans ce passage.",
-        "model": "Ménon soutient qu’une recherche paraît impossible : on ne chercherait pas ce que l’on sait, et on ne pourrait reconnaître ce que l’on ignore. Socrate répond par la réminiscence et par le questionnement d’un jeune esclave sur un problème géométrique. Reconnaître son erreur ouvre une recherche au lieu de la clore. Pour employer cette référence, il faut donc expliquer la différence entre ignorance reconnue et ignorance qui se croit savante. Elle ne permet pas de conclure que tout savoir vient spontanément sans apprentissage ni examen.",
-        "checklist": [
-          "Je distingue les deux termes sans les confondre.",
-          "Je relie leur différence au problème du passage.",
-          "Je précise une limite du rapprochement avec mon sujet."
-        ]
-      },
-      "sourceUrl": "https://catalogue.bnf.fr/rechercher.do?motRecherche=9782081218109"
-    },
-    {
-      "id": "platon-ecriture",
-      "author": "Platon",
-      "work": "Phèdre",
-      "locator": "274c–277a",
-      "title": "Information et pensée",
-      "notions": [
-        "langage",
-        "technique",
-        "raison"
-      ],
-      "problem": "Conserver une information suffit-il à la comprendre ?",
-      "explanation": "Dans le récit de Theuth et Thamous, l’invention de l’écriture est évaluée selon ses effets sur l’apprentissage. Le signe extérieur peut rappeler quelque chose sans donner la compréhension qui permet de répondre aux questions. L’écriture ne sait pas défendre seule son propos ; un discours vivant suppose une pensée capable de l’expliquer.",
-      "distinction": "rappel extérieur et compréhension",
-      "misreading": "Platon refuse toute écriture, y compris ses propres dialogues.",
-      "edition": "Œuvres complètes, sous la direction de Luc Brisson",
-      "editionYear": "2008",
-      "translator": "Collectif ; traduction du dialogue à préciser",
-      "publication": "IVe siècle av. J.-C. ; datation discutée",
-      "text": null,
-      "quotations": [],
-      "reviewStatus": "reference-commentee",
-      "uses": [
-        {
-          "subject": "Sommes-nous prisonniers du langage ?",
-          "function": "distinction",
-          "claim": "Disposer des signes ne dispense pas de comprendre ce qu’ils signifient.",
-          "keywords": [
-            "ecriture",
-            "signe",
-            "information",
-            "comprendre",
-            "mémoire",
-            "discours",
-            "langage"
-          ],
-          "reason": "La distinction entre rappel extérieur et compréhension précise ce que cet argument doit établir.",
-          "limit": "Platon refuse toute écriture, y compris ses propres dialogues."
-        },
-        {
-          "subject": "Sommes-nous prisonniers du langage ?",
-          "function": "objection",
-          "claim": "Disposer des signes ne dispense pas de comprendre ce qu’ils signifient.",
-          "keywords": [
-            "ecriture",
-            "signe",
-            "information",
-            "comprendre",
-            "mémoire",
-            "discours",
-            "langage"
-          ],
-          "reason": "Cette référence permet de contester une identification trop rapide entre rappel extérieur et compréhension.",
-          "limit": "Platon refuse toute écriture, y compris ses propres dialogues."
-        }
-      ],
-      "exercise": {
-        "prompt": "Expliquez la distinction entre rappel extérieur et compréhension en quatre phrases.",
-        "hint": "Définissez les deux termes. Expliquez pourquoi leur différence compte dans ce passage.",
-        "model": "Dans le récit de Theuth et Thamous, l’invention de l’écriture est évaluée selon ses effets sur l’apprentissage. Le signe extérieur peut rappeler quelque chose sans donner la compréhension qui permet de répondre aux questions. L’écriture ne sait pas défendre seule son propos ; un discours vivant suppose une pensée capable de l’expliquer. Pour employer cette référence, il faut donc expliquer la différence entre rappel extérieur et compréhension. Elle ne permet pas de conclure que platon refuse toute écriture, y compris ses propres dialogues.",
-        "checklist": [
-          "Je distingue les deux termes sans les confondre.",
-          "Je relie leur différence au problème du passage.",
-          "Je précise une limite du rapprochement avec mon sujet."
-        ]
-      },
-      "sourceUrl": "https://catalogue.bnf.fr/rechercher.do?motRecherche=9782081218109"
-    },
-    {
-      "id": "platon-caverne",
-      "author": "Platon",
-      "work": "République",
-      "locator": "VII, 514a–517a",
-      "title": "Apparence et réalité",
+      "locator": "454d",
+      "quote": "Savoir et croyance ne sont donc pas la même chose, c’est évident.",
       "notions": [
         "verite",
-        "raison",
-        "conscience"
+        "raison"
       ],
-      "problem": "Pourquoi une apparence familière peut-elle passer pour le réel ?",
-      "explanation": "Les prisonniers prennent les ombres pour les choses parce qu’ils n’ont accès qu’à elles. La libération oblige à changer de regard et à supporter une désorientation. L’image ne raconte pas seulement une tromperie : elle rend sensible le travail d’une éducation qui transforme ce qu’on tient pour évident.",
-      "distinction": "familiarité d’une représentation et justification",
-      "misreading": "Toutes les perceptions sont fausses ou le corps est inutile.",
       "edition": "Œuvres complètes, sous la direction de Luc Brisson",
-      "editionYear": "2008",
-      "translator": "Collectif ; traduction du dialogue à préciser",
-      "publication": "IVe siècle av. J.-C. ; datation discutée",
-      "text": null,
-      "quotations": [],
-      "reviewStatus": "reference-commentee",
-      "uses": [
+      "publisher": "Flammarion",
+      "editionYear": 2008,
+      "translator": "Monique Canto (attribution de la traduction GF rappelée dans le recueil Aristote, PDF p. 18)",
+      "commentary": [
         {
-          "subject": "Peut-on résister à la vérité ?",
-          "function": "distinction",
-          "claim": "L’habitude peut rendre une vérité nouvelle difficile à reconnaître.",
-          "keywords": [
-            "apparence",
-            "habitude",
-            "education",
-            "perception",
-            "ombre",
-            "évidence",
-            "regard"
-          ],
-          "reason": "La distinction entre familiarité d’une représentation et justification précise ce que cet argument doit établir.",
-          "limit": "Toutes les perceptions sont fausses ou le corps est inutile."
+          "function": "Le problème",
+          "sentence": "Être certain d’une idée suffit-il pour la connaître ?"
         },
         {
-          "subject": "Peut-on résister à la vérité ?",
-          "function": "raison",
-          "claim": "L’habitude peut rendre une vérité nouvelle difficile à reconnaître.",
-          "keywords": [
-            "apparence",
-            "habitude",
-            "education",
-            "perception",
-            "ombre",
-            "évidence",
-            "regard"
-          ],
-          "reason": "Cette référence fournit un raisonnement pour soutenir cet argument ; il faut en expliquer les étapes.",
-          "limit": "Toutes les perceptions sont fausses ou le corps est inutile."
+          "function": "L’affirmation",
+          "sentence": "Socrate distingue le fait de croire une proposition et le fait de savoir qu’elle est vraie."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La croyance est une adhésion qui peut être vraie ou fausse, tandis que le savoir ne peut pas être faux sans cesser d’être un savoir."
+        },
+        {
+          "function": "La raison",
+          "sentence": "C’est pourquoi la force de notre conviction ne permet pas, à elle seule, de distinguer la croyance du savoir."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un accusateur peut croire sincèrement un homme coupable alors que l’enquête établit son innocence."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Il faut donc examiner ce qui justifie une affirmation, sans conclure que toute croyance serait nécessairement fausse."
         }
       ],
-      "exercise": {
-        "prompt": "Expliquez la distinction entre familiarité d’une représentation et justification en quatre phrases.",
-        "hint": "Définissez les deux termes. Expliquez pourquoi leur différence compte dans ce passage.",
-        "model": "Les prisonniers prennent les ombres pour les choses parce qu’ils n’ont accès qu’à elles. La libération oblige à changer de regard et à supporter une désorientation. L’image ne raconte pas seulement une tromperie : elle rend sensible le travail d’une éducation qui transforme ce qu’on tient pour évident. Pour employer cette référence, il faut donc expliquer la différence entre familiarité d’une représentation et justification. Elle ne permet pas de conclure que toutes les perceptions sont fausses ou le corps est inutile.",
-        "checklist": [
-          "Je distingue les deux termes sans les confondre.",
-          "Je relie leur différence au problème du passage.",
-          "Je précise une limite du rapprochement avec mon sujet."
-        ]
-      },
-      "sourceUrl": "https://catalogue.bnf.fr/rechercher.do?motRecherche=9782081218109"
+      "uses": [
+        {
+          "subject": "Croire sans savoir, est-ce raisonnable ?",
+          "function": "Introduire une distinction",
+          "reason": "Distinguer l’adhésion à une proposition de la possession de ses raisons.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=83",
+          "sourceLabel": "Recueil académique · p. 83"
+        },
+        {
+          "subject": "Être conscient, est-ce savoir ?",
+          "function": "Limiter une première réponse",
+          "reason": "Être convaincu de quelque chose ne garantit pas qu’on le connaisse.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=18",
+          "sourceLabel": "Recueil académique · p. 18"
+        }
+      ],
+      "speaker": "Socrate"
     },
     {
-      "id": "platon-desir",
+      "id": "platon-convaincre-sans-faire-connaitre",
+      "code": "P02",
       "author": "Platon",
-      "work": "Banquet",
-      "locator": "210a–212a",
-      "title": "Le désir comme élévation",
+      "title": "Convaincre sans faire connaître",
+      "work": "Gorgias",
+      "locator": "454e–455a",
+      "quote": "La rhétorique est donc, semble-t-il, productrice de conviction ; elle fait croire que le juste et l’injuste sont ceci et cela, mais elle ne les fait pas connaître.",
       "notions": [
-        "art",
-        "bonheur",
-        "raison"
-      ],
-      "problem": "Le désir doit-il rester attaché à un seul objet ?",
-      "explanation": "Dans le discours rapporté de Diotime, l’apprentissage du désir passe des beaux corps aux âmes, aux activités et aux connaissances, puis au beau lui-même. Ce parcours déplace l’objet aimé et ce que l’on cherche en lui. Il ne consiste pas simplement à accumuler des satisfactions particulières.",
-      "distinction": "possession d’un objet et transformation du désir",
-      "misreading": "Tout désir sensible est immédiatement condamné.",
-      "edition": "Œuvres complètes, sous la direction de Luc Brisson",
-      "editionYear": "2008",
-      "translator": "Collectif ; traduction du dialogue à préciser",
-      "publication": "IVe siècle av. J.-C. ; datation discutée",
-      "text": null,
-      "quotations": [],
-      "reviewStatus": "reference-commentee",
-      "uses": [
-        {
-          "subject": "L’art peut-il nous apprendre à voir le monde autrement ?",
-          "function": "distinction",
-          "claim": "L’attention au beau peut transformer ce qui mérite d’être recherché.",
-          "keywords": [
-            "desir",
-            "beauté",
-            "beau",
-            "amour",
-            "elevation",
-            "transformation",
-            "objet"
-          ],
-          "reason": "La distinction entre possession d’un objet et transformation du désir précise ce que cet argument doit établir.",
-          "limit": "Tout désir sensible est immédiatement condamné."
-        },
-        {
-          "subject": "L’art peut-il nous apprendre à voir le monde autrement ?",
-          "function": "raison",
-          "claim": "L’attention au beau peut transformer ce qui mérite d’être recherché.",
-          "keywords": [
-            "desir",
-            "beauté",
-            "beau",
-            "amour",
-            "elevation",
-            "transformation",
-            "objet"
-          ],
-          "reason": "Cette référence fournit un raisonnement pour soutenir cet argument ; il faut en expliquer les étapes.",
-          "limit": "Tout désir sensible est immédiatement condamné."
-        }
-      ],
-      "exercise": {
-        "prompt": "Expliquez la distinction entre possession d’un objet et transformation du désir en quatre phrases.",
-        "hint": "Définissez les deux termes. Expliquez pourquoi leur différence compte dans ce passage.",
-        "model": "Dans le discours rapporté de Diotime, l’apprentissage du désir passe des beaux corps aux âmes, aux activités et aux connaissances, puis au beau lui-même. Ce parcours déplace l’objet aimé et ce que l’on cherche en lui. Il ne consiste pas simplement à accumuler des satisfactions particulières. Pour employer cette référence, il faut donc expliquer la différence entre possession d’un objet et transformation du désir. Elle ne permet pas de conclure que tout désir sensible est immédiatement condamné.",
-        "checklist": [
-          "Je distingue les deux termes sans les confondre.",
-          "Je relie leur différence au problème du passage.",
-          "Je précise une limite du rapprochement avec mon sujet."
-        ]
-      },
-      "sourceUrl": "https://catalogue.bnf.fr/rechercher.do?motRecherche=9782081218109"
-    },
-    {
-      "id": "aristote-bonheur",
-      "author": "Aristote",
-      "work": "Éthique à Nicomaque",
-      "locator": "I, 7, 1097b22–1098a20",
-      "title": "Le bonheur comme activité accomplie",
-      "notions": [
-        "bonheur",
-        "raison"
-      ],
-      "problem": "Le bonheur est-il un état passif ?",
-      "explanation": "Aristote recherche ce qui caractérise une vie humaine accomplie. Il distingue la simple possession d’une aptitude de son exercice effectif, puis rapporte le bien humain à une activité rationnelle exercée avec excellence. Un instant agréable ne suffit pas : l’évaluation porte sur une vie accomplie.",
-      "distinction": "possession d’une capacité et exercice de cette capacité",
-      "misreading": "Le bonheur exclut tout plaisir et tout bien extérieur.",
-      "edition": "Œuvres complètes, sous la direction de Pierre Pellegrin",
-      "editionYear": "2014",
-      "translator": "Richard Bodéüs",
-      "publication": "IVe siècle av. J.-C. ; datation discutée",
-      "text": null,
-      "quotations": [],
-      "reviewStatus": "reference-commentee",
-      "uses": [
-        {
-          "subject": "Le bonheur se trouve-t-il dans le repos ?",
-          "function": "distinction",
-          "claim": "Une vie heureuse implique l’exercice de capacités et pas seulement l’absence de trouble.",
-          "keywords": [
-            "bonheur",
-            "activité",
-            "capacité",
-            "exercice",
-            "repos",
-            "plaisir",
-            "vie"
-          ],
-          "reason": "La distinction entre possession d’une capacité et exercice de cette capacité précise ce que cet argument doit établir.",
-          "limit": "Le bonheur exclut tout plaisir et tout bien extérieur."
-        },
-        {
-          "subject": "Le bonheur se trouve-t-il dans le repos ?",
-          "function": "raison",
-          "claim": "Une vie heureuse implique l’exercice de capacités et pas seulement l’absence de trouble.",
-          "keywords": [
-            "bonheur",
-            "activité",
-            "capacité",
-            "exercice",
-            "repos",
-            "plaisir",
-            "vie"
-          ],
-          "reason": "Cette référence fournit un raisonnement pour soutenir cet argument ; il faut en expliquer les étapes.",
-          "limit": "Le bonheur exclut tout plaisir et tout bien extérieur."
-        }
-      ],
-      "exercise": {
-        "prompt": "Expliquez la distinction entre possession d’une capacité et exercice de cette capacité en quatre phrases.",
-        "hint": "Définissez les deux termes. Expliquez pourquoi leur différence compte dans ce passage.",
-        "model": "Aristote recherche ce qui caractérise une vie humaine accomplie. Il distingue la simple possession d’une aptitude de son exercice effectif, puis rapporte le bien humain à une activité rationnelle exercée avec excellence. Un instant agréable ne suffit pas : l’évaluation porte sur une vie accomplie. Pour employer cette référence, il faut donc expliquer la différence entre possession d’une capacité et exercice de cette capacité. Elle ne permet pas de conclure que le bonheur exclut tout plaisir et tout bien extérieur.",
-        "checklist": [
-          "Je distingue les deux termes sans les confondre.",
-          "Je relie leur différence au problème du passage.",
-          "Je précise une limite du rapprochement avec mon sujet."
-        ]
-      },
-      "sourceUrl": "https://catalogue.bnf.fr/rechercher.do?motRecherche=9782081273160"
-    },
-    {
-      "id": "aristote-vertu",
-      "author": "Aristote",
-      "work": "Éthique à Nicomaque",
-      "locator": "II, 1–4, 1103a14–1105b18",
-      "title": "Devenir vertueux",
-      "notions": [
-        "devoir",
-        "liberte"
-      ],
-      "problem": "Peut-on devenir juste par la pratique ?",
-      "explanation": "La vertu morale se forme par les actes répétés. Pourtant un acte conforme ne suffit pas à rendre son auteur vertueux : il doit savoir ce qu’il fait, choisir l’acte pour lui-même et agir depuis une disposition stable. L’habitude éducative ne se réduit donc pas à un automatisme sans jugement.",
-      "distinction": "acte extérieurement conforme et disposition choisie",
-      "misreading": "La répétition mécanique garantit la vertu.",
-      "edition": "Œuvres complètes, sous la direction de Pierre Pellegrin",
-      "editionYear": "2014",
-      "translator": "Richard Bodéüs",
-      "publication": "IVe siècle av. J.-C. ; datation discutée",
-      "text": null,
-      "quotations": [],
-      "reviewStatus": "reference-commentee",
-      "uses": [
-        {
-          "subject": "Peut-on faire son devoir par habitude ?",
-          "function": "distinction",
-          "claim": "L’habitude peut former le caractère sans supprimer les exigences du choix.",
-          "keywords": [
-            "habitude",
-            "choix",
-            "disposition",
-            "acte",
-            "vertu",
-            "juste",
-            "devoir",
-            "répétition"
-          ],
-          "reason": "La distinction entre acte extérieurement conforme et disposition choisie précise ce que cet argument doit établir.",
-          "limit": "La répétition mécanique garantit la vertu."
-        },
-        {
-          "subject": "Peut-on faire son devoir par habitude ?",
-          "function": "raison",
-          "claim": "L’habitude peut former le caractère sans supprimer les exigences du choix.",
-          "keywords": [
-            "habitude",
-            "choix",
-            "disposition",
-            "acte",
-            "vertu",
-            "juste",
-            "devoir",
-            "répétition"
-          ],
-          "reason": "Cette référence fournit un raisonnement pour soutenir cet argument ; il faut en expliquer les étapes.",
-          "limit": "La répétition mécanique garantit la vertu."
-        }
-      ],
-      "exercise": {
-        "prompt": "Expliquez la distinction entre acte extérieurement conforme et disposition choisie en quatre phrases.",
-        "hint": "Définissez les deux termes. Expliquez pourquoi leur différence compte dans ce passage.",
-        "model": "La vertu morale se forme par les actes répétés. Pourtant un acte conforme ne suffit pas à rendre son auteur vertueux : il doit savoir ce qu’il fait, choisir l’acte pour lui-même et agir depuis une disposition stable. L’habitude éducative ne se réduit donc pas à un automatisme sans jugement. Pour employer cette référence, il faut donc expliquer la différence entre acte extérieurement conforme et disposition choisie. Elle ne permet pas de conclure que la répétition mécanique garantit la vertu.",
-        "checklist": [
-          "Je distingue les deux termes sans les confondre.",
-          "Je relie leur différence au problème du passage.",
-          "Je précise une limite du rapprochement avec mon sujet."
-        ]
-      },
-      "sourceUrl": "https://catalogue.bnf.fr/rechercher.do?motRecherche=9782081273160"
-    },
-    {
-      "id": "aristote-savoir",
-      "author": "Aristote",
-      "work": "Seconds Analytiques",
-      "locator": "I, 2, 71b9–72a5",
-      "title": "Construire un savoir",
-      "notions": [
-        "science",
-        "raison",
-        "verite"
-      ],
-      "problem": "Constater un fait suffit-il à le connaître scientifiquement ?",
-      "explanation": "Connaître scientifiquement, au sens étudié ici, exige de comprendre la cause et le lien qui rend le fait nécessaire. La démonstration part de principes appropriés et construit cette dépendance. Cette conception concerne le savoir démonstratif ; elle ne se confond pas avec toute pratique scientifique contemporaine.",
-      "distinction": "constat d’un fait et connaissance de sa cause",
-      "misreading": "Une succession d’observations constitue à elle seule une démonstration.",
-      "edition": "Œuvres complètes, sous la direction de Pierre Pellegrin",
-      "editionYear": "2014",
-      "translator": "Recueil collectif dirigé par Pierre Pellegrin ; attribution individuelle à confirmer",
-      "publication": "IVe siècle av. J.-C. ; datation discutée",
-      "text": null,
-      "quotations": [],
-      "reviewStatus": "reference-commentee",
-      "uses": [
-        {
-          "subject": "La connaissance scientifique progresse-t-elle par l’accumulation des observations ?",
-          "function": "distinction",
-          "claim": "Accumuler des faits ne remplace pas l’explication de leurs relations.",
-          "keywords": [
-            "cause",
-            "demonstration",
-            "observation",
-            "faits",
-            "explication",
-            "nécessité",
-            "science"
-          ],
-          "reason": "La distinction entre constat d’un fait et connaissance de sa cause précise ce que cet argument doit établir.",
-          "limit": "Une succession d’observations constitue à elle seule une démonstration."
-        },
-        {
-          "subject": "La connaissance scientifique progresse-t-elle par l’accumulation des observations ?",
-          "function": "raison",
-          "claim": "Accumuler des faits ne remplace pas l’explication de leurs relations.",
-          "keywords": [
-            "cause",
-            "demonstration",
-            "observation",
-            "faits",
-            "explication",
-            "nécessité",
-            "science"
-          ],
-          "reason": "Cette référence fournit un raisonnement pour soutenir cet argument ; il faut en expliquer les étapes.",
-          "limit": "Une succession d’observations constitue à elle seule une démonstration."
-        }
-      ],
-      "exercise": {
-        "prompt": "Expliquez la distinction entre constat d’un fait et connaissance de sa cause en quatre phrases.",
-        "hint": "Définissez les deux termes. Expliquez pourquoi leur différence compte dans ce passage.",
-        "model": "Connaître scientifiquement, au sens étudié ici, exige de comprendre la cause et le lien qui rend le fait nécessaire. La démonstration part de principes appropriés et construit cette dépendance. Cette conception concerne le savoir démonstratif ; elle ne se confond pas avec toute pratique scientifique contemporaine. Pour employer cette référence, il faut donc expliquer la différence entre constat d’un fait et connaissance de sa cause. Elle ne permet pas de conclure que une succession d’observations constitue à elle seule une démonstration.",
-        "checklist": [
-          "Je distingue les deux termes sans les confondre.",
-          "Je relie leur différence au problème du passage.",
-          "Je précise une limite du rapprochement avec mon sujet."
-        ]
-      },
-      "sourceUrl": "https://catalogue.bnf.fr/rechercher.do?motRecherche=9782081273160"
-    },
-    {
-      "id": "aristote-discours",
-      "author": "Aristote",
-      "work": "Rhétorique",
-      "locator": "I, 1–2, 1355a–1356a",
-      "title": "La rationalité du discours",
-      "notions": [
-        "langage",
-        "raison"
-      ],
-      "problem": "Argumenter revient-il à produire une preuve scientifique ?",
-      "explanation": "Aristote étudie les moyens de persuasion disponibles dans une situation. Le discours raisonné en fait partie, mais les dispositions de l’orateur et de l’auditoire comptent également. La rhétorique permet d’examiner une question discutable ; elle n’assure pas que toute persuasion soit juste ni que tout discours soit démonstratif.",
-      "distinction": "argument plausible et démonstration nécessaire",
-      "misreading": "Aristote justifie n’importe quelle manipulation efficace.",
-      "edition": "Œuvres complètes, sous la direction de Pierre Pellegrin",
-      "editionYear": "2014",
-      "translator": "Recueil collectif dirigé par Pierre Pellegrin ; attribution individuelle à confirmer",
-      "publication": "IVe siècle av. J.-C. ; datation discutée",
-      "text": null,
-      "quotations": [],
-      "reviewStatus": "reference-commentee",
-      "uses": [
-        {
-          "subject": "Suffit-il d’avoir raison pour convaincre ?",
-          "function": "distinction",
-          "claim": "Une raison doit être rendue recevable dans une situation de discussion.",
-          "keywords": [
-            "persuasion",
-            "auditoire",
-            "argument",
-            "probable",
-            "demonstration",
-            "convaincre",
-            "discours"
-          ],
-          "reason": "La distinction entre argument plausible et démonstration nécessaire précise ce que cet argument doit établir.",
-          "limit": "Aristote justifie n’importe quelle manipulation efficace."
-        },
-        {
-          "subject": "Suffit-il d’avoir raison pour convaincre ?",
-          "function": "raison",
-          "claim": "Une raison doit être rendue recevable dans une situation de discussion.",
-          "keywords": [
-            "persuasion",
-            "auditoire",
-            "argument",
-            "probable",
-            "demonstration",
-            "convaincre",
-            "discours"
-          ],
-          "reason": "Cette référence fournit un raisonnement pour soutenir cet argument ; il faut en expliquer les étapes.",
-          "limit": "Aristote justifie n’importe quelle manipulation efficace."
-        }
-      ],
-      "exercise": {
-        "prompt": "Expliquez la distinction entre argument plausible et démonstration nécessaire en quatre phrases.",
-        "hint": "Définissez les deux termes. Expliquez pourquoi leur différence compte dans ce passage.",
-        "model": "Aristote étudie les moyens de persuasion disponibles dans une situation. Le discours raisonné en fait partie, mais les dispositions de l’orateur et de l’auditoire comptent également. La rhétorique permet d’examiner une question discutable ; elle n’assure pas que toute persuasion soit juste ni que tout discours soit démonstratif. Pour employer cette référence, il faut donc expliquer la différence entre argument plausible et démonstration nécessaire. Elle ne permet pas de conclure que aristote justifie n’importe quelle manipulation efficace.",
-        "checklist": [
-          "Je distingue les deux termes sans les confondre.",
-          "Je relie leur différence au problème du passage.",
-          "Je précise une limite du rapprochement avec mon sujet."
-        ]
-      },
-      "sourceUrl": "https://catalogue.bnf.fr/rechercher.do?motRecherche=9782081273160"
-    },
-    {
-      "id": "aristote-cite",
-      "author": "Aristote",
-      "work": "Les Politiques",
-      "locator": "I, 2, 1253a1–18",
-      "title": "L’homme et la cité",
-      "notions": [
-        "etat",
         "langage",
         "justice",
-        "nature"
-      ],
-      "problem": "Pourquoi la vie commune demande-t-elle plus que des besoins partagés ?",
-      "explanation": "Aristote distingue la voix qui manifeste l’agréable et le pénible du langage qui permet de discuter de l’utile, du nuisible, du juste et de l’injuste. La communauté politique repose sur ce partage de jugements. Sa cité antique ne doit pas être identifiée sans précaution à l’État moderne.",
-      "distinction": "signal sensible et discussion du juste",
-      "misreading": "Tout État existant est légitime parce qu’il serait naturel.",
-      "edition": "Œuvres complètes, sous la direction de Pierre Pellegrin",
-      "editionYear": "2014",
-      "translator": "Recueil collectif dirigé par Pierre Pellegrin ; attribution individuelle à confirmer",
-      "publication": "IVe siècle av. J.-C. ; datation discutée",
-      "text": null,
-      "quotations": [],
-      "reviewStatus": "reference-commentee",
-      "uses": [
-        {
-          "subject": "Que peut la raison pour exclure la violence ?",
-          "function": "distinction",
-          "claim": "Discuter du juste ouvre une médiation entre les intérêts en conflit.",
-          "keywords": [
-            "politique",
-            "cité",
-            "justice",
-            "langage",
-            "discussion",
-            "commun",
-            "violence"
-          ],
-          "reason": "La distinction entre signal sensible et discussion du juste précise ce que cet argument doit établir.",
-          "limit": "Tout État existant est légitime parce qu’il serait naturel."
-        },
-        {
-          "subject": "Que peut la raison pour exclure la violence ?",
-          "function": "raison",
-          "claim": "Discuter du juste ouvre une médiation entre les intérêts en conflit.",
-          "keywords": [
-            "politique",
-            "cité",
-            "justice",
-            "langage",
-            "discussion",
-            "commun",
-            "violence"
-          ],
-          "reason": "Cette référence fournit un raisonnement pour soutenir cet argument ; il faut en expliquer les étapes.",
-          "limit": "Tout État existant est légitime parce qu’il serait naturel."
-        }
-      ],
-      "exercise": {
-        "prompt": "Expliquez la distinction entre signal sensible et discussion du juste en quatre phrases.",
-        "hint": "Définissez les deux termes. Expliquez pourquoi leur différence compte dans ce passage.",
-        "model": "Aristote distingue la voix qui manifeste l’agréable et le pénible du langage qui permet de discuter de l’utile, du nuisible, du juste et de l’injuste. La communauté politique repose sur ce partage de jugements. Sa cité antique ne doit pas être identifiée sans précaution à l’État moderne. Pour employer cette référence, il faut donc expliquer la différence entre signal sensible et discussion du juste. Elle ne permet pas de conclure que tout État existant est légitime parce qu’il serait naturel.",
-        "checklist": [
-          "Je distingue les deux termes sans les confondre.",
-          "Je relie leur différence au problème du passage.",
-          "Je précise une limite du rapprochement avec mon sujet."
-        ]
-      },
-      "sourceUrl": "https://catalogue.bnf.fr/rechercher.do?motRecherche=9782081273160"
-    },
-    {
-      "id": "aristote-art",
-      "author": "Aristote",
-      "work": "Poétique",
-      "locator": "4, 1448b4–19",
-      "title": "La connaissance par l’art",
-      "notions": [
-        "art",
         "verite"
       ],
-      "problem": "Comment une représentation peut-elle instruire et plaire ?",
-      "explanation": "Aristote explique le plaisir des représentations par l’apprentissage et la reconnaissance. Une image peut plaire alors que la chose représentée serait pénible à regarder. L’attention ne porte plus seulement sur l’objet réel mais sur ce que sa représentation permet de reconnaître.",
-      "distinction": "objet représenté et activité de reconnaissance",
-      "misreading": "Toute œuvre est une copie fidèle et une preuve historique.",
-      "edition": "Œuvres complètes, sous la direction de Pierre Pellegrin",
-      "editionYear": "2014",
-      "translator": "Recueil collectif dirigé par Pierre Pellegrin ; attribution individuelle à confirmer",
-      "publication": "IVe siècle av. J.-C. ; datation discutée",
-      "text": null,
-      "quotations": [],
-      "reviewStatus": "reference-commentee",
-      "uses": [
+      "edition": "Œuvres complètes, sous la direction de Luc Brisson",
+      "publisher": "Flammarion",
+      "editionYear": 2008,
+      "translator": "Monique Canto (attribution de la traduction GF rappelée dans le recueil Aristote, PDF p. 18)",
+      "commentary": [
         {
-          "subject": "L’art peut-il nous apprendre à voir le monde autrement ?",
-          "function": "distinction",
-          "claim": "La représentation fait reconnaître des relations qui dépassent le simple agrément.",
-          "keywords": [
-            "art",
-            "representation",
-            "imitation",
-            "reconnaitre",
-            "apprendre",
-            "plaisir",
-            "image"
-          ],
-          "reason": "La distinction entre objet représenté et activité de reconnaissance précise ce que cet argument doit établir.",
-          "limit": "Toute œuvre est une copie fidèle et une preuve historique."
+          "function": "Le problème",
+          "sentence": "Un discours qui convainc fait-il nécessairement connaître la vérité ?"
         },
         {
-          "subject": "L’art peut-il nous apprendre à voir le monde autrement ?",
-          "function": "raison",
-          "claim": "La représentation fait reconnaître des relations qui dépassent le simple agrément.",
-          "keywords": [
-            "art",
-            "representation",
-            "imitation",
-            "reconnaitre",
-            "apprendre",
-            "plaisir",
-            "image"
-          ],
-          "reason": "Cette référence fournit un raisonnement pour soutenir cet argument ; il faut en expliquer les étapes.",
-          "limit": "Toute œuvre est une copie fidèle et une preuve historique."
+          "function": "L’affirmation",
+          "sentence": "Socrate affirme que la rhétorique peut faire adopter un jugement sur le juste sans en donner la connaissance."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Produire une conviction signifie obtenir l’accord de l’auditeur, tandis que faire connaître exige de lui permettre de comprendre pourquoi le jugement est vrai."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Dans une assemblée ou un tribunal, l’orateur peut emporter cet accord sans transmettre un savoir à chacun de ceux qui l’écoutent."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un jury ému par un plaidoyer peut ainsi approuver une conclusion sans avoir examiné ce qui la justifie."
+        },
+        {
+          "function": "La portée",
+          "sentence": "L’efficacité d’une parole ne garantit donc pas sa vérité, même si une parole vraie peut aussi chercher à convaincre."
         }
       ],
-      "exercise": {
-        "prompt": "Expliquez la distinction entre objet représenté et activité de reconnaissance en quatre phrases.",
-        "hint": "Définissez les deux termes. Expliquez pourquoi leur différence compte dans ce passage.",
-        "model": "Aristote explique le plaisir des représentations par l’apprentissage et la reconnaissance. Une image peut plaire alors que la chose représentée serait pénible à regarder. L’attention ne porte plus seulement sur l’objet réel mais sur ce que sa représentation permet de reconnaître. Pour employer cette référence, il faut donc expliquer la différence entre objet représenté et activité de reconnaissance. Elle ne permet pas de conclure que toute œuvre est une copie fidèle et une preuve historique.",
-        "checklist": [
-          "Je distingue les deux termes sans les confondre.",
-          "Je relie leur différence au problème du passage.",
-          "Je précise une limite du rapprochement avec mon sujet."
-        ]
-      },
-      "sourceUrl": "https://catalogue.bnf.fr/rechercher.do?motRecherche=9782081273160"
+      "uses": [
+        {
+          "subject": "Bien parler, est-ce bien penser ?",
+          "function": "Contester une assimilation",
+          "reason": "L’efficacité persuasive ne prouve pas la justesse de la pensée.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=34",
+          "sourceLabel": "Recueil académique · p. 34"
+        },
+        {
+          "subject": "Comment savoir ce qui est juste ?",
+          "function": "Écarter un faux critère",
+          "reason": "L’accord produit par un orateur n’établit pas le savoir du juste.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=30",
+          "sourceLabel": "Recueil académique · p. 30"
+        }
+      ],
+      "speaker": "Socrate"
     },
     {
-      "id": "nietzsche-valeurs",
-      "author": "Nietzsche",
-      "work": "Généalogie de la morale",
-      "locator": "I, §§ 2 et 10",
-      "title": "La naissance des valeurs",
+      "id": "platon-subir-ou-commettre-linjustice",
+      "code": "P03",
+      "author": "Platon",
+      "title": "Subir ou commettre l’injustice",
+      "work": "Gorgias",
+      "locator": "469c",
+      "quote": "Mais, s’il était nécessaire soit de commettre l’injustice soit de la subir, je choisirais de la subir plutôt que de la commettre.",
+      "notions": [
+        "justice",
+        "devoir"
+      ],
+      "edition": "Œuvres complètes, sous la direction de Luc Brisson",
+      "publisher": "Flammarion",
+      "editionYear": 2008,
+      "translator": "Monique Canto (attribution de la traduction GF rappelée dans le recueil Aristote, PDF p. 18)",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Faut-il préserver sa sécurité au prix d’une injustice ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Socrate affirme que, s’il devait choisir, il préférerait subir l’injustice plutôt que la commettre."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Subir l’injustice signifie être victime d’un tort, tandis que la commettre signifie devenir responsable d’une action injuste."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Il juge ce second mal plus grave parce qu’il abîme la qualité morale de celui qui agit, au lieu de seulement lui infliger un dommage extérieur."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Accuser un innocent pour éviter soi-même une peine préserverait peut-être notre sécurité, mais nous rendrait responsables de sa condamnation."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La justice de notre conduite vaut donc davantage que l’évitement de toute souffrance, sans que cela oblige à rechercher le malheur."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Faut-il chercher le bonheur à tout prix ?",
+          "function": "Fixer une limite morale",
+          "reason": "La préservation de soi ne justifie pas n’importe quelle action.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=13",
+          "sourceLabel": "Recueil académique · p. 13"
+        },
+        {
+          "subject": "Le malheur donne-t-il le droit d’être injuste ?",
+          "function": "Soutenir une réponse négative",
+          "reason": "Souffrir ne rend pas juste l’injustice que l’on commet.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=31",
+          "sourceLabel": "Recueil académique · p. 31"
+        }
+      ],
+      "speaker": "Socrate"
+    },
+    {
+      "id": "platon-justice-et-bonheur",
+      "code": "P04",
+      "author": "Platon",
+      "title": "Justice et bonheur",
+      "work": "Gorgias",
+      "locator": "470e",
+      "quote": "J’affirme que l’être (homme ou femme) doté d’une bonne nature morale est heureux, mais que l’être injuste et méchant est malheureux.",
+      "notions": [
+        "bonheur",
+        "justice"
+      ],
+      "edition": "Œuvres complètes, sous la direction de Luc Brisson",
+      "publisher": "Flammarion",
+      "editionYear": 2008,
+      "translator": "Monique Canto (attribution de la traduction GF rappelée dans le recueil Aristote, PDF p. 18)",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La puissance et la réussite suffisent-elles pour être heureux ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Socrate soutient qu’une personne juste est heureuse et qu’une personne injuste est malheureuse."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Il rapporte ainsi le bonheur à la manière dont une personne conduit sa vie, plutôt qu’à la seule quantité de biens dont elle dispose."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une conduite injuste laisse les désirs et les rapports de force gouverner la vie, au lieu de les régler selon ce qui est bon."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un dirigeant capable de faire tout ce qui lui plaît peut encore vivre dans la crainte, l’avidité et le désordre."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le succès extérieur ne prouve donc pas le bonheur, mais le lien affirmé entre justice et bonheur demande encore à être défendu."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’homme injuste peut-il être heureux ?",
+          "function": "Défendre une réponse négative",
+          "reason": "Distinguer les avantages de l’injuste et le bien de son âme.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=31",
+          "sourceLabel": "Recueil académique · p. 31"
+        },
+        {
+          "subject": "La morale peut-elle se définir comme l’art d’être heureux ?",
+          "function": "Construire une réponse affirmative",
+          "reason": "La justice peut être comprise comme une condition du bonheur.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=115",
+          "sourceLabel": "Recueil académique · p. 115"
+        }
+      ],
+      "speaker": "Socrate"
+    },
+    {
+      "id": "platon-linjustice-ne-justifie-pas-linjustice",
+      "code": "P05",
+      "author": "Platon",
+      "title": "L’injustice ne justifie pas l’injustice",
+      "work": "Criton",
+      "locator": "49b",
+      "quote": "Il s’ensuit que même à l’injustice il ne faut en aucune façon répondre par l’injustice, comme se l’imaginent les gens, dès lors que l’on admet qu’il ne faut jamais commettre l’injustice.",
+      "notions": [
+        "justice",
+        "devoir"
+      ],
+      "edition": "Œuvres complètes, sous la direction de Luc Brisson",
+      "publisher": "Flammarion",
+      "editionYear": 2008,
+      "translator": null,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une injustice subie rend-elle juste notre vengeance ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Socrate refuse de répondre à l’injustice par une autre injustice."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’injustice désigne ici le tort que l’on fait à autrui, même lorsque cet autre nous a d’abord nui."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Si faire injustement du tort est mauvais, le tort subi ne suffit pas à changer la valeur de l’action par laquelle nous ripostons."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Être victime d’un mensonge n’autorise pas à fabriquer à son tour une fausse accusation."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La riposte doit donc rester juste, ce qui permet de distinguer la sanction d’une faute et la vengeance qui reproduit cette faute."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Le malheur donne-t-il le droit d’être injuste ?",
+          "function": "Réfuter une justification",
+          "reason": "La situation de victime ne supprime pas l’exigence de justice.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=31",
+          "sourceLabel": "Recueil académique · p. 31"
+        },
+        {
+          "subject": "Ressentir l’injustice m’apprend-il ce qui est juste ?",
+          "function": "Limiter le sentiment comme critère",
+          "reason": "Le sentiment d’avoir subi un tort peut encore conduire à faire du tort.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=31",
+          "sourceLabel": "Recueil académique · p. 31"
+        }
+      ],
+      "speaker": "Socrate"
+    },
+    {
+      "id": "platon-une-opinion-vraie-peut-guider",
+      "code": "P06",
+      "author": "Platon",
+      "title": "Une opinion vraie peut guider",
+      "work": "Ménon",
+      "locator": "97b",
+      "quote": "Donc, une opinion vraie n’est pas un moins bon guide, pour la rectitude de l’action, que la raison.",
+      "notions": [
+        "raison",
+        "verite",
+        "devoir"
+      ],
+      "edition": "Œuvres complètes, sous la direction de Luc Brisson",
+      "publisher": "Flammarion",
+      "editionYear": 2008,
+      "translator": null,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Faut-il toujours savoir pourquoi une action est correcte pour agir correctement ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Socrate reconnaît qu’une opinion vraie peut guider une action aussi bien qu’un savoir."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’opinion vraie atteint le vrai sans nécessairement pouvoir le justifier, alors que le savoir en possède les raisons."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Pour arriver au bon résultat, la vérité de l’indication peut suffire, même lorsque celui qui la donne ne sait pas l’expliquer."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Dans le dialogue, quelqu’un qui a une opinion vraie du chemin de Larissa peut guider les voyageurs aussi bien que celui qui connaît ce chemin."
+        },
+        {
+          "function": "La portée",
+          "sentence": "L’efficacité pratique ne permet donc pas de confondre opinion et savoir, car une opinion vraie reste plus fragile qu’une connaissance justifiée."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Faut-il suivre sa raison pour agir moralement ?",
+          "function": "Nuancer la nécessité du savoir",
+          "reason": "Une action correcte peut être guidée par une opinion vraie.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=50",
+          "sourceLabel": "Recueil académique · p. 50"
+        },
+        {
+          "subject": "Croire sans savoir, est-ce raisonnable ?",
+          "function": "Distinguer vérité et justification",
+          "reason": "Une croyance peut être vraie sans que son détenteur sache en rendre raison.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=83",
+          "sourceLabel": "Recueil académique · p. 83"
+        }
+      ],
+      "speaker": "Socrate"
+    },
+    {
+      "id": "platon-apprendre-et-se-ressouvenir",
+      "code": "P07",
+      "author": "Platon",
+      "title": "Apprendre et se ressouvenir",
+      "work": "Ménon",
+      "locator": "81d",
+      "quote": "Ainsi, le fait de chercher et le fait d’apprendre sont, au total, une réminiscence.",
+      "notions": [
+        "raison",
+        "science"
+      ],
+      "edition": "Œuvres complètes, sous la direction de Luc Brisson",
+      "publisher": "Flammarion",
+      "editionYear": 2008,
+      "translator": null,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Comment chercher une connaissance que l’on ne possède pas encore ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Socrate propose de comprendre la recherche et l’apprentissage comme une réminiscence."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La réminiscence est le retour à une connaissance que l’âme aurait acquise avant sa vie présente."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Cette hypothèse permet d’expliquer comment une réponse peut être reconnue comme vraie sans avoir été simplement reçue d’un maître."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "L’interrogation du jeune serviteur dans le Ménon fait apparaître une réponse géométrique à travers ses erreurs et ses rectifications."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Apprendre serait donc retrouver par l’examen, mais l’expérience du dialogue ne prouve pas à elle seule l’existence antérieure de l’âme."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "D’où viennent nos connaissances ?",
+          "function": "Proposer une origine du savoir",
+          "reason": "La réminiscence fait dépendre l’apprentissage d’un savoir antérieur de l’âme.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=103",
+          "sourceLabel": "Recueil académique · p. 103"
+        },
+        {
+          "subject": "Être conscient, est-ce savoir ?",
+          "function": "Distinguer possession et accès",
+          "reason": "Une connaissance supposée présente dans l’âme peut encore demander à être retrouvée.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=18",
+          "sourceLabel": "Recueil académique · p. 18"
+        }
+      ],
+      "speaker": "Socrate"
+    },
+    {
+      "id": "platon-pourquoi-les-hommes-sassocient",
+      "code": "P08",
+      "author": "Platon",
+      "title": "Pourquoi les hommes s’associent",
+      "work": "La République",
+      "locator": "II, 369c",
+      "quote": "Dès lors, un homme recourt à un autre pour un besoin particulier, puis à un autre en fonction de tel autre besoin, et parce qu’ils manquent d’une multitude de choses, les hommes se rassemblent nombreux au sein d’une même fondation, s’associant pour s’entraider.",
+      "notions": [
+        "etat",
+        "travail"
+      ],
+      "edition": "Œuvres complètes, sous la direction de Luc Brisson",
+      "publisher": "Flammarion",
+      "editionYear": 2008,
+      "translator": null,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Pourquoi les hommes ne vivent-ils pas chacun de leur côté ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Socrate explique leur association par la diversité de leurs besoins et leur incapacité à les satisfaire seuls."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’entraide consiste à recevoir d’autrui ce que l’on ne peut produire soi-même et à lui apporter en retour une autre contribution."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Comme chacun manque de plusieurs choses, la coopération et la répartition des activités rendent la vie commune avantageuse."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Le cultivateur peut fournir la nourriture tandis que le bâtisseur construit les logements dont tous ont besoin."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Les besoins expliquent donc une raison de vivre ensemble, sans suffire à déterminer ce qui rend cette communauté juste."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Est-ce la faiblesse qui nous pousse à vivre en société ?",
+          "function": "Installer une première réponse",
+          "reason": "L’insuffisance de chacun explique le recours à la coopération.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=126",
+          "sourceLabel": "Recueil académique · p. 126"
+        },
+        {
+          "subject": "Les hommes ne vivent-ils en société que par intérêt ?",
+          "function": "Donner sa part de vérité à l’intérêt",
+          "reason": "L’entraide répond aux besoins ; il reste à examiner si elle épuise le sens de la société.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=126",
+          "sourceLabel": "Recueil académique · p. 126"
+        }
+      ],
+      "speaker": "Socrate"
+    },
+    {
+      "id": "platon-la-justice-et-les-fonctions",
+      "code": "P09",
+      "author": "Platon",
+      "title": "La justice et les fonctions",
+      "work": "La République",
+      "locator": "IV, 433b",
+      "quote": "Et nous avons dit, de plus, que la justice consiste à s’occuper de ses tâches propres et à ne pas se disperser dans des tâches diverses, et cela, nous l’avons souvent entendu dire de plusieurs autres et nous-mêmes l’avons affirmé à plusieurs reprises.",
+      "notions": [
+        "justice",
+        "etat"
+      ],
+      "edition": "Œuvres complètes, sous la direction de Luc Brisson",
+      "publisher": "Flammarion",
+      "editionYear": 2008,
+      "translator": null,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Qu’est-ce qui rend juste l’organisation d’une cité ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Socrate propose que chacun y accomplisse la tâche qui lui revient sans empiéter sur celles des autres."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La justice est alors un ordre des fonctions, et non seulement le respect de règles dans les échanges entre personnes."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La cité fonctionne comme un ensemble dont chaque activité contribue au bien commun lorsqu’elle tient sa place."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Les gardiens doivent ainsi protéger la cité plutôt qu’utiliser leur pouvoir pour s’approprier le travail des autres."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Cette conception exige un accord entre les fonctions, mais laisse à examiner la justice de leur répartition et la possibilité d’en changer."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Comment savoir ce qui est juste ?",
+          "function": "Proposer un critère à examiner",
+          "reason": "Définir le juste par l’organisation et la répartition des fonctions.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=30",
+          "sourceLabel": "Recueil académique · p. 30"
+        },
+        {
+          "subject": "L’État doit-il mettre fin aux injustices ?",
+          "function": "Préciser ce que l’État devrait réaliser",
+          "reason": "Envisager la justice comme un ordre des fonctions, puis en examiner les limites.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=31",
+          "sourceLabel": "Recueil académique · p. 31"
+        }
+      ],
+      "speaker": "Socrate"
+    },
+    {
+      "id": "platon-la-liberte-qui-devient-servitude",
+      "code": "P10",
+      "author": "Platon",
+      "title": "La liberté qui devient servitude",
+      "work": "La République",
+      "locator": "VIII, 564a",
+      "quote": "Une liberté excessive ne peut donc apparemment se muer qu’en une servitude excessive, et cela aussi bien pour l’individu que pour la cité.",
+      "notions": [
+        "liberte",
+        "etat"
+      ],
+      "edition": "Œuvres complètes, sous la direction de Luc Brisson",
+      "publisher": "Flammarion",
+      "editionYear": 2008,
+      "translator": null,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une liberté sans aucune limite peut-elle se conserver ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Socrate soutient que la recherche d’une liberté excessive peut aboutir à une servitude excessive."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La liberté visée ici est le refus de toute autorité et de toute règle, tandis que la servitude est la soumission à un pouvoir qui ne rencontre plus de limites."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Dans l’analyse de Platon, le désordre des désirs et des conflits peut préparer l’appel à un protecteur qui finit par dominer tous les autres."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un chef d’abord soutenu contre les puissants peut supprimer ses adversaires puis les garanties de ceux qui l’ont soutenu."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La liberté peut donc avoir besoin de limites communes, sans que cela permette de présenter toute démocratie comme une tyrannie en devenir."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’État est-il le garant de ma liberté ?",
+          "function": "Faire apparaître une limite",
+          "reason": "L’absence de règle commune peut préparer la domination plutôt que la liberté.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=40",
+          "sourceLabel": "Recueil académique · p. 40"
+        },
+        {
+          "subject": "Peut-on opposer le devoir à la liberté ?",
+          "function": "Dépasser une opposition simple",
+          "reason": "Certaines contraintes peuvent empêcher la liberté de se détruire elle-même.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=40",
+          "sourceLabel": "Recueil académique · p. 40"
+        }
+      ],
+      "speaker": "Socrate"
+    },
+    {
+      "id": "platon-le-silence-de-lecrit",
+      "code": "P11",
+      "author": "Platon",
+      "title": "Le silence de l’écrit",
+      "work": "Phèdre",
+      "locator": "275d",
+      "quote": "Car, à mon avis, ce qu’il y a de terrible, Phèdre, c’est la ressemblance qu’entretient l’écriture avec la peinture.",
+      "notions": [
+        "langage",
+        "raison"
+      ],
+      "edition": "Œuvres complètes, sous la direction de Luc Brisson",
+      "publisher": "Flammarion",
+      "editionYear": 2008,
+      "translator": null,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Un texte écrit peut-il expliquer lui-même ce que nous ne comprenons pas en lui ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Socrate compare l’écriture à la peinture parce que l’une et l’autre semblent vivantes sans pouvoir répondre à nos questions."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La ressemblance porte sur une présence apparente qui laisse pourtant le lecteur ou le spectateur sans réponse nouvelle."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une fois fixé, le discours répète les mêmes signes et ne choisit ni ses lecteurs ni les explications dont ils ont besoin."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une définition écrite ne peut pas reconnaître notre erreur de lecture et la corriger comme le ferait un interlocuteur."
+        },
+        {
+          "function": "La portée",
+          "sentence": "L’écrit peut soutenir la compréhension, mais sa conservation ne remplace pas le travail vivant de l’explication."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Le langage n’est-il qu’un outil ?",
+          "function": "Examiner une limite du support",
+          "reason": "Le discours écrit circule sans pouvoir ajuster sa réponse au lecteur.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=61",
+          "sourceLabel": "Recueil académique · p. 61"
+        },
+        {
+          "subject": "Bien parler, est-ce bien penser ?",
+          "function": "Introduire l’exigence de justification",
+          "reason": "Un discours fixé ne remplace pas l’aptitude vivante à répondre aux objections.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=34",
+          "sourceLabel": "Recueil académique · p. 34"
+        }
+      ],
+      "speaker": "Socrate"
+    },
+    {
+      "id": "platon-linspiration-du-poete",
+      "code": "P12",
+      "author": "Platon",
+      "title": "L’inspiration du poète",
+      "work": "Ion",
+      "locator": "533e",
+      "quote": "En effet, tous les poètes auteurs de vers épiques – je parle des bons poètes – ne sont pas tels par l’effet d’un art, mais c’est inspirés par le dieu et possédés par lui qu’ils profèrent tous ces beaux poèmes.",
+      "notions": [
+        "art"
+      ],
+      "edition": "Œuvres complètes, sous la direction de Luc Brisson",
+      "publisher": "Flammarion",
+      "editionYear": 2008,
+      "translator": null,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Comment un poète peut-il réussir sans savoir expliquer sa réussite ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Dans l’Ion, Socrate attribue la puissance des bons poètes à une inspiration divine plutôt qu’à la maîtrise d’un art."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’art est ici un savoir réglé dont on peut rendre raison, tandis que l’inspiration fait parler sous l’effet d’une puissance qui nous dépasse."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Le dialogue distingue ainsi la force d’une parole poétique et les connaissances que son auteur ou son interprète peut réellement justifier."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Ion peut émouvoir en récitant Homère sans connaître pour autant la médecine ou la stratégie dont les poèmes parlent."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La réussite poétique ne prouve donc pas la possession du savoir correspondant, sans que cela suffise à exclure tout travail du poète."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Faut-il recourir à la notion d’inspiration pour rendre compte de la production artistique ?",
+          "function": "Soutenir une hypothèse à discuter",
+          "reason": "La beauté produite peut dépasser le savoir explicite de son auteur.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6"
+        },
+        {
+          "subject": "L’artiste est-il maître de son œuvre ?",
+          "function": "Limiter la maîtrise",
+          "reason": "Le poète ne commande pas entièrement ce qui fait la valeur de sa production.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=7",
+          "sourceLabel": "Recueil académique · p. 7"
+        },
+        {
+          "subject": "L’artiste sait-il ce qu’il fait ?",
+          "function": "II.2 : construire la nouvelle réponse",
+          "reason": "L’inspiration permet de distinguer produire une œuvre réussie et savoir expliquer sa production.",
+          "source": "https://www.education.gouv.fr/sites/default/files/document/baccalaureat-general-2026-philosophie-517046.pdf#page=2",
+          "sourceLabel": "Bac 2026 · Amérique du Nord",
+          "a20": "philosophie-bac-2026-l-artiste-sait-il-ce-qu-il-fait.html",
+          "a20Step": "II.2",
+          "a20Status": "Une insertion possible dans ce raisonnement ; la citation ne figure pas déjà dans la copie."
+        }
+      ],
+      "speaker": "Socrate"
+    },
+    {
+      "id": "platon-le-dialogue-interieur",
+      "code": "P13",
+      "author": "Platon",
+      "title": "Le dialogue intérieur",
+      "work": "Théétète",
+      "locator": "189e–190a",
+      "quote": "Car voici ce que me semble faire l’âme quand elle pense : rien d’autre que dialoguer, s’interrogeant elle-même et répondant, affirmant et niant.",
+      "notions": [
+        "conscience",
+        "langage",
+        "raison"
+      ],
+      "edition": "Œuvres complètes, sous la direction de Luc Brisson",
+      "publisher": "Flammarion",
+      "editionYear": 2008,
+      "translator": null,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Comment pouvons-nous discuter une idée lorsque nous sommes seuls ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Socrate décrit la pensée comme un dialogue que l’âme entretient avec elle-même."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Dialoguer signifie ici se poser des questions, avancer des réponses et examiner ce que l’on doit affirmer ou nier."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La pensée ne reçoit donc pas seulement des idées, elle les confronte avant de se fixer sur un jugement."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Avant de tenir une promesse pour obligatoire dans une situation nouvelle, nous pouvons en examiner intérieurement les raisons et les objections."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La parole intérieure éclaire ainsi le travail du jugement, sans établir que toute forme de pensée soit un discours prononcé en silence."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Penser, est-ce se parler à soi-même ?",
+          "function": "Défendre une analyse du penser",
+          "reason": "L’interrogation et la réponse peuvent s’effectuer intérieurement.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=34",
+          "sourceLabel": "Recueil académique · p. 34"
+        },
+        {
+          "subject": "Peut-on penser sans douter ?",
+          "function": "Montrer le rôle de l’examen",
+          "reason": "Penser implique de mettre des propositions à l’épreuve avant de trancher.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=50",
+          "sourceLabel": "Recueil académique · p. 50"
+        }
+      ],
+      "speaker": "Socrate"
+    },
+    {
+      "id": "platon-le-temps-et-leternite",
+      "code": "P14",
+      "author": "Platon",
+      "title": "Le temps et l’éternité",
+      "work": "Timée",
+      "locator": "37d",
+      "quote": "Le démiurge a donc l’idée de fabriquer une image mobile de l’éternité ; et, tandis qu’il met le ciel en ordre, il fabrique de l’éternité qui reste dans l’unité une certaine image éternelle progressant suivant le nombre, celle-là même que précisément nous appelons le « temps ».",
+      "notions": [
+        "temps"
+      ],
+      "edition": "Œuvres complètes, sous la direction de Luc Brisson",
+      "publisher": "Flammarion",
+      "editionYear": 2008,
+      "translator": null,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Comment un monde changeant peut-il présenter un ordre durable ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Le Timée présente le temps comme une image mobile de l’éternité produite avec l’organisation du ciel."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’éternité demeure dans l’unité, tandis que le temps se déploie dans une succession réglée par le nombre."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Les mouvements célestes permettent de retrouver un ordre dans le changement au lieu de le laisser à une succession sans mesure."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Le retour des jours, des mois et des années donne ainsi des repères réguliers à ce qui naît et se transforme."
+        },
+        {
+          "function": "La portée",
+          "sentence": "L’éternité n’est donc pas un temps qui ne finirait jamais, mais ce dont le temps reproduit l’ordre à travers la succession."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Est-il possible d’échapper au temps ?",
+          "function": "Distinguer deux modes d’être",
+          "reason": "L’éternité ne désigne pas simplement un temps qui durerait sans fin.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=65",
+          "sourceLabel": "Recueil académique · p. 65"
+        },
+        {
+          "subject": "Maîtrise-t-on le temps ?",
+          "function": "Préciser l’objet de la maîtrise",
+          "reason": "Le nombre et l’ordre rendent le temps mesurable sans le rendre disponible à volonté.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=66",
+          "sourceLabel": "Recueil académique · p. 66"
+        }
+      ],
+      "speaker": "Timée"
+    },
+    {
+      "id": "platon-les-richesses-et-la-vertu",
+      "code": "P15",
+      "author": "Platon",
+      "title": "Les richesses et la vertu",
+      "work": "Apologie de Socrate",
+      "locator": "30b",
+      "quote": "Ce n’est pas des richesses que vient la vertu, mais c’est de la vertu que viennent les richesses et tous les autres biens, pour les particuliers comme pour l’État.",
+      "notions": [
+        "bonheur",
+        "devoir"
+      ],
+      "edition": "Œuvres complètes, sous la direction de Luc Brisson",
+      "publisher": "Flammarion",
+      "editionYear": 2008,
+      "translator": null,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La possession de richesses suffit-elle à rendre une vie bonne ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Socrate donne la priorité à la vertu plutôt qu’à l’acquisition des richesses."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La vertu est la qualité morale qui règle notre conduite, tandis que les richesses sont des ressources dont la valeur dépend aussi de l’usage."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une possession peut servir une action bonne ou aggraver une conduite injuste, de sorte que son utilité ne garantit pas son bon emploi."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une fortune peut permettre d’aider des proches, mais aussi d’acheter des complicités pour nuire à autrui."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Il faut donc prendre soin de sa conduite pour faire bon usage des biens, sans promettre que la vertu enrichira toujours celui qui la pratique."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Suffit-il d’avoir ce que l’on désire pour être heureux ?",
+          "function": "Distinguer possession et bien véritable",
+          "reason": "La possession ne suffit pas : il faut examiner le rapport que l’on entretient avec ce que l’on possède.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=91",
+          "sourceLabel": "Recueil académique · p. 91"
+        },
+        {
+          "subject": "Faut-il chercher le bonheur à tout prix ?",
+          "function": "Définir une condition morale",
+          "reason": "Les avantages matériels ne justifient pas le sacrifice de la vertu.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=13",
+          "sourceLabel": "Recueil académique · p. 13"
+        }
+      ],
+      "speaker": "Socrate"
+    },
+    {
+      "id": "aristote-le-desir-de-savoir",
+      "code": "A01",
+      "author": "Aristote",
+      "title": "Le désir de savoir",
+      "work": "Métaphysique",
+      "locator": "A, 1, 980a21",
+      "quote": "Tous les humains ont par nature le désir de savoir.",
+      "notions": [
+        "science",
+        "raison"
+      ],
+      "edition": "Œuvres complètes, sous la direction de Pierre Pellegrin",
+      "publisher": "Flammarion",
+      "editionYear": 2014,
+      "translator": null,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La connaissance n’a-t-elle de valeur que lorsqu’elle sert à quelque chose ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Aristote affirme que le désir de savoir appartient à la nature humaine."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Ce désir peut porter sur la connaissance elle-même, sans se réduire à la recherche d’un avantage pratique."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Aristote en prend pour indice le plaisir des sensations, particulièrement celui de voir, même lorsque nous n’en attendons aucune action utile."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Nous pouvons ainsi observer les formes d’un paysage par intérêt pour leurs différences, sans vouloir en tirer un produit."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La connaissance peut donc valoir pour elle-même, sans que cela rende toute recherche également souhaitable ou prioritaire."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Peut-on désirer savoir pour savoir ?",
+          "function": "Soutenir une valeur propre du connaître",
+          "reason": "La recherche de connaissance peut être désirée indépendamment de son utilité.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=90",
+          "sourceLabel": "Recueil académique · p. 90"
+        },
+        {
+          "subject": "Pourquoi désire-t-on savoir ?",
+          "function": "Proposer une origine du désir",
+          "reason": "Le texte rattache le désir de savoir à la nature humaine et au plaisir de percevoir.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=90",
+          "sourceLabel": "Recueil académique · p. 90"
+        },
+        {
+          "subject": "La science doit-elle être utile ?",
+          "function": "II.1 : introduire une autre exigence",
+          "reason": "Le désir de savoir peut donner une valeur propre à la connaissance, distincte de son utilité pratique.",
+          "source": "https://www.education.gouv.fr/sites/default/files/document/baccalaureat-general-2026-philosophie-517046.pdf#page=2",
+          "sourceLabel": "Bac 2026 · Amérique du Nord",
+          "a20": "philosophie-bac-2026-la-science-doit-elle-etre-utile.html",
+          "a20Step": "II.1",
+          "a20Status": "Une insertion possible dans ce raisonnement ; la citation ne figure pas déjà dans la copie."
+        }
+      ]
+    },
+    {
+      "id": "aristote-connaitre-la-cause",
+      "code": "A02",
+      "author": "Aristote",
+      "title": "Connaître la cause",
+      "work": "Seconds Analytiques",
+      "locator": "I, 2, 71b9–12",
+      "quote": "Nous pensons connaître scientifiquement chaque chose au sens absolu, et non pas à la manière sophistique par accident, lorsque nous pensons connaître la cause du fait de laquelle la chose est, savoir que c’est bien la cause de la chose et que cette chose ne peut pas être autrement qu’elle n’est.",
+      "notions": [
+        "science",
+        "verite"
+      ],
+      "edition": "Œuvres complètes, sous la direction de Pierre Pellegrin",
+      "publisher": "Flammarion",
+      "editionYear": 2014,
+      "translator": null,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Connaître un fait suffit-il pour le comprendre scientifiquement ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Aristote exige que le savoir scientifique fasse connaître la cause du fait et sa nécessité."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La cause explique pourquoi la chose est ainsi, tandis que la nécessité signifie qu’elle ne peut pas être autrement dans les conditions considérées."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Un constat isolé n’explique pas encore pourquoi le fait se produit et ne donne donc pas à lui seul cette connaissance."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Voir une éclipse n’équivaut pas à comprendre pourquoi la Terre interposée prive la Lune de lumière."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Ce modèle distingue la science du simple constat, mais doit être confronté aux formes de connaissance qui portent sur des faits variables ou probables."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Savoir, est-ce ne rien croire ?",
+          "function": "Définir une exigence de connaissance",
+          "reason": "La science n’est pas seulement une conviction vraie ; elle doit rendre raison du fait.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=55",
+          "sourceLabel": "Recueil académique · p. 55"
+        },
+        {
+          "subject": "Croire sans savoir, est-ce raisonnable ?",
+          "function": "Distinguer assentiment et science",
+          "reason": "La croyance peut manquer de l’explication causale requise par le savoir scientifique.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=83",
+          "sourceLabel": "Recueil académique · p. 83"
+        }
+      ]
+    },
+    {
+      "id": "aristote-apprendre-en-faisant",
+      "code": "A03",
+      "author": "Aristote",
+      "title": "Apprendre en faisant",
+      "work": "Éthique à Nicomaque",
+      "locator": "II, 1, 1103a32–33",
+      "quote": "En effet, ce qu’on doit apprendre à faire, c’est en le faisant que nous l’apprenons.",
+      "notions": [
+        "technique",
+        "art"
+      ],
+      "edition": "Œuvres complètes, sous la direction de Pierre Pellegrin",
+      "publisher": "Flammarion",
+      "editionYear": 2014,
+      "translator": "Richard Bodéüs (identifié dans la note sur cette édition, PDF p. 19)",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Comment acquérir une capacité que l’on ne sait pas encore exercer ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Aristote affirme que certaines activités s’apprennent par leur pratique."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Apprendre à faire consiste à former une capacité durable, et pas seulement à recevoir une règle."
+        },
+        {
+          "function": "La raison",
+          "sentence": "L’exercice transforme progressivement celui qui agit et lui permet de mieux accomplir ce qu’il essaie déjà de faire."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "On apprend à jouer d’un instrument en jouant, en corrigeant ses erreurs et en reprenant les passages difficiles."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La pratique est donc formatrice, à condition de ne pas confondre un exercice qui progresse avec la répétition aveugle d’un défaut."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Est-ce en imitant qu’on devient artiste ?",
+          "function": "Construire la part de vérité de la pratique",
+          "reason": "L’exercice forme des capacités, sans suffire à expliquer toute création.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6"
+        },
+        {
+          "subject": "La maîtrise technique suffit-elle à définir l’artiste ?",
+          "function": "Installer un acquis à dépasser",
+          "reason": "La pratique est nécessaire à une maîtrise, mais ne définit pas seule l’artiste.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=61",
+          "sourceLabel": "Recueil académique · p. 61"
+        }
+      ]
+    },
+    {
+      "id": "aristote-devenir-juste",
+      "code": "A04",
+      "author": "Aristote",
+      "title": "Devenir juste",
+      "work": "Éthique à Nicomaque",
+      "locator": "II, 1, 1103b1–2",
+      "quote": "De la même façon, c’est donc aussi en exécutant des actes justes que nous devenons justes, des actes tempérants qu’on devient tempérant et des actes courageux qu’on devient courageux.",
       "notions": [
         "devoir",
         "justice"
       ],
-      "problem": "Comment se forment nos jugements de valeur ?",
-      "explanation": "Nietzsche compare deux modes de formation des valeurs. Dans le premier, l’affirmation de soi précède la désignation de ce qui est inférieur. Dans le second, le ressentiment commence par condamner un adversaire, puis construit sa propre valeur par opposition. La question porte sur la production d’une évaluation et ses effets.",
-      "distinction": "affirmation de soi et évaluation réactive",
-      "misreading": "Une origine historique suffit à réfuter toute valeur morale.",
-      "edition": "Œuvres, préface de Patrick Wotling",
-      "editionYear": "2010",
-      "translator": "Éric Blondel, Ole Hansen-Løve, Théo Leydenbach et Pierre Pénisson",
-      "publication": "1887",
-      "text": null,
-      "quotations": [],
-      "reviewStatus": "reference-commentee",
-      "uses": [
+      "edition": "Œuvres complètes, sous la direction de Pierre Pellegrin",
+      "publisher": "Flammarion",
+      "editionYear": 2014,
+      "translator": "Richard Bodéüs (identifié dans la note sur cette édition, PDF p. 19)",
+      "commentary": [
         {
-          "subject": "Qui peut me dire ce que je dois faire ?",
-          "function": "distinction",
-          "claim": "L’autorité d’une valeur demande aussi l’examen de sa formation.",
-          "keywords": [
-            "valeur",
-            "origine",
-            "morale",
-            "ressentiment",
-            "evaluation",
-            "autorité",
-            "devoir"
-          ],
-          "reason": "La distinction entre affirmation de soi et évaluation réactive précise ce que cet argument doit établir.",
-          "limit": "Une origine historique suffit à réfuter toute valeur morale."
+          "function": "Le problème",
+          "sentence": "Suffit-il de connaître la justice pour devenir juste ?"
         },
         {
-          "subject": "Qui peut me dire ce que je dois faire ?",
-          "function": "raison",
-          "claim": "L’autorité d’une valeur demande aussi l’examen de sa formation.",
-          "keywords": [
-            "valeur",
-            "origine",
-            "morale",
-            "ressentiment",
-            "evaluation",
-            "autorité",
-            "devoir"
-          ],
-          "reason": "Cette référence fournit un raisonnement pour soutenir cet argument ; il faut en expliquer les étapes.",
-          "limit": "Une origine historique suffit à réfuter toute valeur morale."
+          "function": "L’affirmation",
+          "sentence": "Aristote affirme que les qualités morales se forment par l’accomplissement des actes correspondants."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Devenir juste signifie acquérir une disposition stable à choisir et à faire ce qui est juste."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Nos actes répétés façonnent nos manières de désirer, de décider et de réagir, comme les exercices façonnent une capacité technique."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Apprendre à partager équitablement prépare à reconnaître et à choisir l’équité dans des situations nouvelles."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La formation morale demande donc des actes, mais une action extérieurement juste ne prouve pas encore que son auteur agisse avec justice et pour de bonnes raisons."
         }
       ],
-      "exercise": {
-        "prompt": "Expliquez la distinction entre affirmation de soi et évaluation réactive en quatre phrases.",
-        "hint": "Définissez les deux termes. Expliquez pourquoi leur différence compte dans ce passage.",
-        "model": "Nietzsche compare deux modes de formation des valeurs. Dans le premier, l’affirmation de soi précède la désignation de ce qui est inférieur. Dans le second, le ressentiment commence par condamner un adversaire, puis construit sa propre valeur par opposition. La question porte sur la production d’une évaluation et ses effets. Pour employer cette référence, il faut donc expliquer la différence entre affirmation de soi et évaluation réactive. Elle ne permet pas de conclure que une origine historique suffit à réfuter toute valeur morale.",
-        "checklist": [
-          "Je distingue les deux termes sans les confondre.",
-          "Je relie leur différence au problème du passage.",
-          "Je précise une limite du rapprochement avec mon sujet."
-        ]
-      },
-      "sourceUrl": "https://catalogue.bnf.fr/rechercher.do?motRecherche=Nietzsche+Oeuvres+Flammarion+2010"
+      "uses": [
+        {
+          "subject": "Faut-il suivre sa raison pour agir moralement ?",
+          "function": "Compléter la connaissance par la formation",
+          "reason": "Connaître le bien ne remplace pas l’acquisition d’une disposition à l’accomplir.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=50",
+          "sourceLabel": "Recueil académique · p. 50"
+        },
+        {
+          "subject": "Le sentiment de la justice est-il naturel ?",
+          "function": "Construire la part de l’acquisition",
+          "reason": "La conduite juste suppose une formation par les actes.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=46",
+          "sourceLabel": "Recueil académique · p. 46"
+        }
+      ]
     },
     {
-      "id": "nietzsche-verite",
-      "author": "Nietzsche",
-      "work": "Le Gai Savoir",
-      "locator": "§ 344",
-      "title": "Pourquoi vouloir la vérité ?",
+      "id": "aristote-le-juste-milieu",
+      "code": "A05",
+      "author": "Aristote",
+      "title": "Le juste milieu",
+      "work": "Éthique à Nicomaque",
+      "locator": "II, 6, 1106b36–1107a1",
+      "quote": "Par conséquent, la vertu est un état décisionnel qui consiste en une moyenne, fixée relativement à nous.",
       "notions": [
-        "verite",
-        "science",
+        "devoir",
         "raison"
       ],
-      "problem": "La valeur de la vérité va-t-elle de soi ?",
-      "explanation": "Nietzsche examine la confiance que la science place dans la vérité. Même la recherche qui refuse les convictions suppose un engagement envers la valeur du vrai. Demander pourquoi on préfère la vérité déplace le problème : il faut examiner cette préférence plutôt que seulement l’exactitude d’une proposition.",
-      "distinction": "vérification d’une proposition et évaluation du vrai",
-      "misreading": "La science est inutile ou toutes les erreurs se valent.",
-      "edition": "Œuvres, préface de Patrick Wotling",
-      "editionYear": "2010",
-      "translator": "Patrick Wotling",
-      "publication": "1882 ; livre V ajouté en 1887",
-      "text": null,
-      "quotations": [],
-      "reviewStatus": "reference-commentee",
-      "uses": [
+      "edition": "Œuvres complètes, sous la direction de Pierre Pellegrin",
+      "publisher": "Flammarion",
+      "editionYear": 2014,
+      "translator": "Richard Bodéüs (identifié dans la note sur cette édition, PDF p. 19)",
+      "commentary": [
         {
-          "subject": "La vérité peut-elle être dangereuse ?",
-          "function": "distinction",
-          "claim": "La recherche du vrai ne dispense pas d’examiner les effets et la valeur de cette recherche.",
-          "keywords": [
-            "vérité",
-            "valeur",
-            "science",
-            "croyance",
-            "volonté",
-            "exactitude",
-            "danger"
-          ],
-          "reason": "La distinction entre vérification d’une proposition et évaluation du vrai précise ce que cet argument doit établir.",
-          "limit": "La science est inutile ou toutes les erreurs se valent."
+          "function": "Le problème",
+          "sentence": "Agir bien consiste-t-il à appliquer partout une quantité identique ?"
         },
         {
-          "subject": "La vérité peut-elle être dangereuse ?",
-          "function": "objection",
-          "claim": "La recherche du vrai ne dispense pas d’examiner les effets et la valeur de cette recherche.",
-          "keywords": [
-            "vérité",
-            "valeur",
-            "science",
-            "croyance",
-            "volonté",
-            "exactitude",
-            "danger"
-          ],
-          "reason": "Cette référence permet de contester une identification trop rapide entre vérification d’une proposition et évaluation du vrai.",
-          "limit": "La science est inutile ou toutes les erreurs se valent."
+          "function": "L’affirmation",
+          "sentence": "Aristote définit la vertu comme une disposition à choisir un milieu relatif à celui qui agit."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Ce milieu évite l’excès et le défaut selon les circonstances, au lieu de partager mécaniquement la distance entre deux extrêmes."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une action réussie doit convenir à la situation et à la personne, ce qui exige un jugement plutôt qu’une recette."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Le courage évite ainsi la fuite devant tout danger comme l’exposition irréfléchie à n’importe quel risque."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La vertu recherche donc ce qui convient, sans signifier que toute action mauvaise pourrait devenir bonne par simple modération."
         }
       ],
-      "exercise": {
-        "prompt": "Expliquez la distinction entre vérification d’une proposition et évaluation du vrai en quatre phrases.",
-        "hint": "Définissez les deux termes. Expliquez pourquoi leur différence compte dans ce passage.",
-        "model": "Nietzsche examine la confiance que la science place dans la vérité. Même la recherche qui refuse les convictions suppose un engagement envers la valeur du vrai. Demander pourquoi on préfère la vérité déplace le problème : il faut examiner cette préférence plutôt que seulement l’exactitude d’une proposition. Pour employer cette référence, il faut donc expliquer la différence entre vérification d’une proposition et évaluation du vrai. Elle ne permet pas de conclure que la science est inutile ou toutes les erreurs se valent.",
-        "checklist": [
-          "Je distingue les deux termes sans les confondre.",
-          "Je relie leur différence au problème du passage.",
-          "Je précise une limite du rapprochement avec mon sujet."
-        ]
-      },
-      "sourceUrl": "https://catalogue.bnf.fr/rechercher.do?motRecherche=Nietzsche+Oeuvres+Flammarion+2010"
+      "uses": [
+        {
+          "subject": "Faut-il suivre sa raison pour agir moralement ?",
+          "function": "Préciser le jugement pratique",
+          "reason": "La règle doit être appliquée par un choix attentif aux circonstances.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=50",
+          "sourceLabel": "Recueil académique · p. 50"
+        },
+        {
+          "subject": "Pouvons-nous faire coïncider nos désirs avec nos devoirs ?",
+          "function": "Construire une transformation du désir",
+          "reason": "La vertu éduque les affections au lieu de seulement les supprimer.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=91",
+          "sourceLabel": "Recueil académique · p. 91"
+        }
+      ]
     },
     {
-      "id": "nietzsche-perspective",
-      "author": "Nietzsche",
-      "work": "Par-delà bien et mal",
-      "locator": "§ 22",
-      "title": "Perspective et pensée",
+      "id": "aristote-deliberer-sur-les-moyens",
+      "code": "A06",
+      "author": "Aristote",
+      "title": "Délibérer sur les moyens",
+      "work": "Éthique à Nicomaque",
+      "locator": "III, 3, 1112b11–12",
+      "quote": "D’autre part, nous ne délibérons pas des fins, mais des moyens pour y parvenir.",
       "notions": [
-        "verite",
-        "science",
+        "technique",
+        "raison"
+      ],
+      "edition": "Œuvres complètes, sous la direction de Pierre Pellegrin",
+      "publisher": "Flammarion",
+      "editionYear": 2014,
+      "translator": "Richard Bodéüs (identifié dans la note sur cette édition, PDF p. 19)",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Que cherchons-nous lorsque nous délibérons sur une action ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Aristote distingue la fin déjà posée et les moyens que la délibération examine pour l’atteindre."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La fin est ce que nous voulons obtenir, tandis que les moyens sont les actions susceptibles d’y conduire."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une fois le but fixé, la délibération porte sur ce qui dépend de nous et sur les voies réellement possibles."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Le médecin qui cherche à guérir compare les traitements adaptés plutôt que de redéfinir la guérison à chaque décision."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Choisir des moyens efficaces ne suffit donc pas à justifier une fin, dont la valeur peut demander un autre examen."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Existe-t-il des techniques pour être heureux ?",
+          "function": "Distinguer fin et moyens",
+          "reason": "Un procédé peut aider à atteindre un but sans établir en quoi consiste le bonheur.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=61",
+          "sourceLabel": "Recueil académique · p. 61"
+        },
+        {
+          "subject": "La maîtrise technique suffit-elle à définir l’artiste ?",
+          "function": "Délimiter la technique",
+          "reason": "Savoir exécuter les moyens ne règle pas à soi seul la valeur de la fin artistique.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=61",
+          "sourceLabel": "Recueil académique · p. 61"
+        }
+      ]
+    },
+    {
+      "id": "aristote-les-amis-et-les-autres-biens",
+      "code": "A07",
+      "author": "Aristote",
+      "title": "Les amis et les autres biens",
+      "work": "Éthique à Nicomaque",
+      "locator": "VIII, 1, 1155a5–6",
+      "quote": "Sans amis en effet nul ne choisirait de vivre, aurait-il tous les biens qui restent ; car c’est lorsqu’ils sont riches et en possession des formes du pouvoir et de la puissance que les gens éprouvent surtout le besoin d’amis.",
+      "notions": [
+        "bonheur"
+      ],
+      "edition": "Œuvres complètes, sous la direction de Pierre Pellegrin",
+      "publisher": "Flammarion",
+      "editionYear": 2014,
+      "translator": "Richard Bodéüs (identifié dans la note sur cette édition, PDF p. 19)",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Posséder tous les autres biens rendrait-il l’amitié superflue ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Aristote affirme que même une vie comblée de richesses et de pouvoir resterait indésirable sans amis."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’amitié est une relation dans laquelle on souhaite du bien à l’autre pour lui-même et de manière réciproque."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Les biens possédés ne remplacent ni la possibilité de les partager ni celle d’agir avec des personnes auxquelles on tient."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une réussite matérielle peut laisser sans personne avec qui se réjouir ou accomplir une action généreuse."
+        },
+        {
+          "function": "La portée",
+          "sentence": "L’amitié appartient donc à la vie bonne au lieu de seulement compenser un manque de ressources."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La recherche du bonheur est-elle un idéal égoïste ?",
+          "function": "Contester l’autosuffisance solitaire",
+          "reason": "La vie bonne inclut un lien avec autrui qui ne se réduit pas à sa possession.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=13",
+          "sourceLabel": "Recueil académique · p. 13"
+        },
+        {
+          "subject": "Suffit-il d’avoir ce que l’on désire pour être heureux ?",
+          "function": "Limiter l’accumulation des biens",
+          "reason": "La possession de nombreux biens peut laisser manquer l’amitié.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=91",
+          "sourceLabel": "Recueil académique · p. 91"
+        }
+      ]
+    },
+    {
+      "id": "aristote-le-bonheur-et-le-loisir",
+      "code": "A08",
+      "author": "Aristote",
+      "title": "Le bonheur et le loisir",
+      "work": "Éthique à Nicomaque",
+      "locator": "X, 7, 1177b4",
+      "quote": "De plus, le bonheur semble impliquer le loisir.",
+      "notions": [
+        "bonheur",
+        "travail"
+      ],
+      "edition": "Œuvres complètes, sous la direction de Pierre Pellegrin",
+      "publisher": "Flammarion",
+      "editionYear": 2014,
+      "translator": "Richard Bodéüs (identifié dans la note sur cette édition, PDF p. 19)",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Être libéré du travail suffit-il pour être heureux ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Aristote rapporte le bonheur au loisir, c’est-à-dire à une activité choisie pour elle-même."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le loisir s’oppose ici à l’occupation imposée par la nécessité, et non à toute activité."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Si l’on peine pour obtenir du repos, ce repos doit permettre une manière de vivre qui ait sa valeur propre."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Étudier une question pour la comprendre peut ainsi donner un sens au temps libéré, au lieu de seulement remplir un vide."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le bonheur ne se réduit donc ni à travailler sans fin ni à ne rien faire, mais demande d’examiner les activités auxquelles la vie peut se consacrer."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Travailler moins, est-ce vivre mieux ?",
+          "function": "Distinguer temps libéré et vie bonne",
+          "reason": "La réduction de la peine vaut par les activités qu’elle rend possibles.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=68",
+          "sourceLabel": "Recueil académique · p. 68"
+        },
+        {
+          "subject": "Faut-il travailler pour être heureux ?",
+          "function": "Distinguer condition et fin",
+          "reason": "Le travail peut préparer les conditions d’une vie qui trouve sa fin ailleurs.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=68",
+          "sourceLabel": "Recueil académique · p. 68"
+        }
+      ]
+    },
+    {
+      "id": "aristote-lanimal-politique",
+      "code": "A09",
+      "author": "Aristote",
+      "title": "L’animal politique",
+      "work": "Les Politiques",
+      "locator": "I, 2, 1253a7–8",
+      "quote": "Que l’homme soit un animal politique plus que n’importe quelle abeille et que n’importe quel animal grégaire, c’est évident.",
+      "notions": [
+        "etat",
+        "langage"
+      ],
+      "edition": "Œuvres complètes, sous la direction de Pierre Pellegrin",
+      "publisher": "Flammarion",
+      "editionYear": 2014,
+      "translator": "Pierre Pellegrin (remarque préliminaire, PDF p. 18)",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La vie politique n’est-elle qu’une façon de se regrouper ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Aristote affirme que l’être humain est politique dans un sens plus fort que les animaux vivant en groupe."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La vie politique suppose une communauté capable de discuter ce qui est avantageux, juste ou injuste."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Le langage permet de mettre ces évaluations en commun, au-delà de la simple expression du plaisir ou de la douleur."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Débattre d’une loi commune demande ainsi de donner des raisons sur ce qui doit valoir pour les citoyens."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La communauté humaine ne se comprend donc pas seulement par la proximité physique ou l’instinct de regroupement."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Doit-on tout attendre de l’État ?",
+          "function": "Fonder le besoin de communauté",
+          "reason": "La communauté politique répond à une dimension constitutive de la vie humaine, sans se confondre avec toute sa vie.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=25",
+          "sourceLabel": "Recueil académique · p. 25"
+        },
+        {
+          "subject": "Le langage des animaux est-il comparable à celui des hommes ?",
+          "function": "Introduire une différence de fonction",
+          "reason": "L’enjeu politique du langage distingue la communauté humaine du simple grégarisme.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=34",
+          "sourceLabel": "Recueil académique · p. 34"
+        }
+      ]
+    },
+    {
+      "id": "aristote-le-langage-et-le-juste",
+      "code": "A10",
+      "author": "Aristote",
+      "title": "Le langage et le juste",
+      "work": "Les Politiques",
+      "locator": "I, 2, 1253a14–15",
+      "quote": "Mais le langage existe en vue de manifester l’avantageux et le nuisible, et par suite aussi le juste et l’injuste.",
+      "notions": [
+        "langage",
+        "justice",
+        "etat"
+      ],
+      "edition": "Œuvres complètes, sous la direction de Pierre Pellegrin",
+      "publisher": "Flammarion",
+      "editionYear": 2014,
+      "translator": "Pierre Pellegrin (remarque préliminaire, PDF p. 18)",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Le langage sert-il seulement à transmettre des sensations ou des informations ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Aristote lui attribue la capacité de rendre manifestes l’utile, le nuisible, le juste et l’injuste."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Manifester signifie rendre une évaluation compréhensible et discutable par d’autres personnes."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La mise en commun de tels jugements permet aux hommes de former une communauté qui se donne des règles."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Discuter de la répartition d’une charge publique exige d’expliquer pourquoi une solution serait équitable et pas seulement avantageuse pour soi."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le langage contribue donc à la vie politique, sans garantir que les décisions prises par la parole soient toujours justes."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Faire usage du langage, est-ce renoncer à la violence ?",
+          "function": "Construire une alternative à la force",
+          "reason": "Discuter publiquement du juste peut remplacer la seule imposition d’un intérêt.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=34",
+          "sourceLabel": "Recueil académique · p. 34"
+        },
+        {
+          "subject": "Le langage n’est-il qu’un outil ?",
+          "function": "Élargir la fonction du langage",
+          "reason": "Le langage participe à la constitution de la communauté politique.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=61",
+          "sourceLabel": "Recueil académique · p. 61"
+        }
+      ]
+    },
+    {
+      "id": "aristote-imiter-pour-apprendre",
+      "code": "A11",
+      "author": "Aristote",
+      "title": "Imiter pour apprendre",
+      "work": "Poétique",
+      "locator": "4, 1448b4–8",
+      "quote": "En effet, les êtres humains sont dès leur enfance naturellement enclins à imiter, et cela précisément les distingue des autres animaux : l’homme est l’être le plus enclin à imiter, et il fait ses premiers apprentissages au moyen de l’imitation.",
+      "notions": [
+        "art",
         "nature"
       ],
-      "problem": "Une interprétation peut-elle se présenter comme un fait neutre ?",
-      "explanation": "Nietzsche discute la manière dont les physiciens formulent des lois de la nature. Il conteste une interprétation qui paraît aller de soi et lui oppose une autre lecture. Il reconnaît que cette contre-proposition est elle aussi une interprétation. Le passage met ainsi à l’épreuve la prétention à parler sans perspective.",
-      "distinction": "phénomène et lecture du phénomène",
-      "misreading": "Tous les points de vue sont également justifiés.",
-      "edition": "Œuvres, préface de Patrick Wotling",
-      "editionYear": "2010",
-      "translator": "Patrick Wotling",
-      "publication": "1886",
-      "text": null,
-      "quotations": [],
-      "reviewStatus": "reference-commentee",
-      "uses": [
+      "edition": "Œuvres complètes, sous la direction de Pierre Pellegrin",
+      "publisher": "Flammarion",
+      "editionYear": 2014,
+      "translator": null,
+      "commentary": [
         {
-          "subject": "La vérité est-elle affaire de point de vue ?",
-          "function": "distinction",
-          "claim": "Identifier une perspective oblige à examiner ses présupposés et sa portée.",
-          "keywords": [
-            "perspective",
-            "interpretation",
-            "nature",
-            "loi",
-            "point",
-            "vue",
-            "neutralité"
-          ],
-          "reason": "La distinction entre phénomène et lecture du phénomène précise ce que cet argument doit établir.",
-          "limit": "Tous les points de vue sont également justifiés."
+          "function": "Le problème",
+          "sentence": "L’imitation empêche-t-elle de comprendre et d’apprendre ?"
         },
         {
-          "subject": "La vérité est-elle affaire de point de vue ?",
-          "function": "objection",
-          "claim": "Identifier une perspective oblige à examiner ses présupposés et sa portée.",
-          "keywords": [
-            "perspective",
-            "interpretation",
-            "nature",
-            "loi",
-            "point",
-            "vue",
-            "neutralité"
-          ],
-          "reason": "Cette référence permet de contester une identification trop rapide entre phénomène et lecture du phénomène.",
-          "limit": "Tous les points de vue sont également justifiés."
+          "function": "L’affirmation",
+          "sentence": "Aristote voit dans l’imitation une tendance humaine naturelle et une origine des premiers apprentissages."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Imiter consiste à reprendre ou à représenter une action ou une forme, ce qui n’exclut pas d’en comprendre l’organisation."
+        },
+        {
+          "function": "La raison",
+          "sentence": "L’enfant apprend en reproduisant des gestes, et le plaisir de reconnaître ce qui est représenté contribue aussi à l’intérêt des œuvres."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un dessin peut nous faire reconnaître la posture d’un animal en sélectionnant quelques traits au lieu de tout copier."
+        },
+        {
+          "function": "La portée",
+          "sentence": "L’imitation peut donc former la perception et l’intelligence, sans suffire à expliquer à elle seule toute création artistique."
         }
       ],
-      "exercise": {
-        "prompt": "Expliquez la distinction entre phénomène et lecture du phénomène en quatre phrases.",
-        "hint": "Définissez les deux termes. Expliquez pourquoi leur différence compte dans ce passage.",
-        "model": "Nietzsche discute la manière dont les physiciens formulent des lois de la nature. Il conteste une interprétation qui paraît aller de soi et lui oppose une autre lecture. Il reconnaît que cette contre-proposition est elle aussi une interprétation. Le passage met ainsi à l’épreuve la prétention à parler sans perspective. Pour employer cette référence, il faut donc expliquer la différence entre phénomène et lecture du phénomène. Elle ne permet pas de conclure que tous les points de vue sont également justifiés.",
-        "checklist": [
-          "Je distingue les deux termes sans les confondre.",
-          "Je relie leur différence au problème du passage.",
-          "Je précise une limite du rapprochement avec mon sujet."
-        ]
-      },
-      "sourceUrl": "https://catalogue.bnf.fr/rechercher.do?motRecherche=Nietzsche+Oeuvres+Flammarion+2010"
+      "uses": [
+        {
+          "subject": "Est-ce en imitant qu’on devient artiste ?",
+          "function": "Installer le rôle de l’imitation",
+          "reason": "L’imitation forme les premières capacités et ne s’oppose pas d’emblée à l’art.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6"
+        },
+        {
+          "subject": "Faut-il prendre la nature pour modèle ?",
+          "function": "Nuancer l’opposition nature et culture",
+          "reason": "L’imitation peut être naturelle à l’être humain sans fixer un modèle unique à reproduire.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=46",
+          "sourceLabel": "Recueil académique · p. 46"
+        }
+      ]
     },
     {
-      "id": "nietzsche-liberte",
+      "id": "aristote-la-connaissance-par-la-fiction",
+      "code": "A12",
+      "author": "Aristote",
+      "title": "La connaissance par la fiction",
+      "work": "Poétique",
+      "locator": "9, 1451b6–7",
+      "quote": "En effet, la poésie raconte les événements davantage dans leur généralité ; l’histoire, les événements dans leur particularité.",
+      "notions": [
+        "art",
+        "verite"
+      ],
+      "edition": "Œuvres complètes, sous la direction de Pierre Pellegrin",
+      "publisher": "Flammarion",
+      "editionYear": 2014,
+      "translator": null,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une fiction peut-elle nous apprendre quelque chose sans raconter un fait réel ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Aristote distingue le récit des faits particuliers et la représentation de ce qui pourrait arriver de manière générale."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le général désigne ici des rapports vraisemblables ou nécessaires entre un type de situation, une conduite et ses conséquences."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une intrigue inventée peut faire comprendre ces rapports en les organisant de manière cohérente."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une tragédie peut montrer comment une décision aveugle conduit au malheur sans que tous ses personnages aient réellement existé."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La connaissance apportée par une œuvre ne se mesure donc pas seulement à l’exactitude historique des événements qu’elle représente."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’art est-il une forme de connaissance ?",
+          "function": "Établir un pouvoir de compréhension",
+          "reason": "La fiction fait saisir des rapports vraisemblables ou nécessaires entre les actions.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6"
+        },
+        {
+          "subject": "L’art est-il indifférent à la vérité ?",
+          "function": "Distinguer vérité et fait réel",
+          "reason": "Ne pas raconter un événement réellement arrivé n’implique pas de ne rien faire comprendre.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=73",
+          "sourceLabel": "Recueil académique · p. 73"
+        }
+      ]
+    },
+    {
+      "id": "aristote-la-main-et-lintelligence",
+      "code": "A13",
+      "author": "Aristote",
+      "title": "La main et l’intelligence",
+      "work": "Les Parties des animaux",
+      "locator": "IV, 10, 687a7–10",
+      "quote": "Anaxagore dit ainsi que c’est du fait qu’il a des mains que l’être humain est le plus intelligent des animaux, alors qu’il est rationnel que ce soit du fait qu’il est le plus intelligent qu’il soit pourvu de mains.",
+      "notions": [
+        "technique",
+        "nature"
+      ],
+      "edition": "Œuvres complètes, sous la direction de Pierre Pellegrin",
+      "publisher": "Flammarion",
+      "editionYear": 2014,
+      "translator": null,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "L’intelligence vient-elle de l’outil ou explique-t-elle la capacité d’en user ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Aristote refuse la thèse d’Anaxagore qui fait des mains la cause de la supériorité intellectuelle humaine."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Il distingue la possession d’un instrument et l’aptitude à l’employer de plusieurs manières."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Dans son explication, la nature attribue la main à l’être capable de tirer parti de nombreux instruments."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Posséder une flûte ne donne pas l’art d’en jouer, alors que cet art permet de faire bon usage de l’instrument."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La technique suppose donc des capacités d’usage, mais cette explication ne suffit pas à nier que les outils puissent ensuite développer ces capacités."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Y a-t-il de l’intelligence dans les techniques ?",
+          "function": "Articuler capacité et instrument",
+          "reason": "La main polyvalente rend possible l’exercice de nombreuses techniques, selon une intelligence qui sait en user.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=99",
+          "sourceLabel": "Recueil académique · p. 99"
+        },
+        {
+          "subject": "La maîtrise technique suffit-elle à définir l’artiste ?",
+          "function": "Distinguer instrument et aptitude",
+          "reason": "La disponibilité de l’instrument ne produit pas à elle seule la capacité d’en user.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=61",
+          "sourceLabel": "Recueil académique · p. 61"
+        }
+      ]
+    },
+    {
+      "id": "aristote-le-temps-et-le-mouvement",
+      "code": "A14",
+      "author": "Aristote",
+      "title": "Le temps et le mouvement",
+      "work": "Physique",
+      "locator": "IV, 11, 219b1–2",
+      "quote": "Car c’est cela le temps : le nombre d’un mouvement selon l’antérieur et le postérieur.",
+      "notions": [
+        "temps"
+      ],
+      "edition": "Œuvres complètes, sous la direction de Pierre Pellegrin",
+      "publisher": "Flammarion",
+      "editionYear": 2014,
+      "translator": null,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Le temps se confond-il avec les changements que nous observons ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Aristote définit le temps comme ce qui permet de nombrer le mouvement selon l’avant et l’après."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le nombre désigne ici l’ordre et la quantité du changement, tandis que l’antérieur et le postérieur distinguent ses moments."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Nous reconnaissons un intervalle de temps lorsque nous distinguons des étapes d’un changement et ce qui les sépare."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Le déplacement régulier d’une aiguille permet de mesurer l’attente d’un événement sans être cet événement lui-même."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le temps se rapporte donc au mouvement sans lui être identique, et sa mesure ne donne pas le pouvoir d’en commander le passage."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Maîtrise-t-on le temps ?",
+          "function": "Distinguer mesure et pouvoir",
+          "reason": "Mesurer un mouvement ne signifie pas commander son écoulement.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=66",
+          "sourceLabel": "Recueil académique · p. 66"
+        },
+        {
+          "subject": "Est-il possible d’échapper au temps ?",
+          "function": "Préciser la condition du devenir",
+          "reason": "Interroger le rapport entre être soumis au changement et être dans le temps.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=65",
+          "sourceLabel": "Recueil académique · p. 65"
+        }
+      ]
+    },
+    {
+      "id": "aristote-des-rigueurs-differentes",
+      "code": "A15",
+      "author": "Aristote",
+      "title": "Des rigueurs différentes",
+      "work": "Éthique à Nicomaque",
+      "locator": "I, 7, 1098a26–29",
+      "quote": "Il faut cependant garder aussi en mémoire ce qu’on a dit précédemment, et ne pas réclamer le même genre de rigueur partout.",
+      "notions": [
+        "raison",
+        "science",
+        "devoir"
+      ],
+      "edition": "Œuvres complètes, sous la direction de Pierre Pellegrin",
+      "publisher": "Flammarion",
+      "editionYear": 2014,
+      "translator": "Richard Bodéüs (identifié dans la note sur cette édition, PDF p. 19)",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Toute connaissance doit-elle atteindre la précision d’une démonstration mathématique ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Aristote demande d’ajuster le genre de rigueur à l’objet étudié."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La rigueur consiste à justifier suffisamment ce que l’on affirme selon la nature du problème."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une matière variable ne permet pas toujours la même exactitude qu’un objet défini par des rapports nécessaires."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Le géomètre cherche les propriétés de l’angle droit, tandis que le menuisier en cherche une réalisation assez précise pour son travail."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Exiger une précision adaptée ne dispense donc pas d’argumenter, mais évite de rendre impossible un jugement en lui demandant une certitude étrangère à son objet."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Faut-il suivre sa raison pour agir moralement ?",
+          "function": "Distinguer raison pratique et démonstration",
+          "reason": "L’incertitude des situations ne supprime pas l’exigence de jugement.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=50",
+          "sourceLabel": "Recueil académique · p. 50"
+        },
+        {
+          "subject": "Comment savoir ce qui est juste ?",
+          "function": "Délimiter le type de certitude attendu",
+          "reason": "La recherche du juste ne se traite pas nécessairement comme un calcul géométrique.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=30",
+          "sourceLabel": "Recueil académique · p. 30"
+        }
+      ]
+    },
+    {
+      "id": "nietzsche-la-meconnaissance-de-soi",
+      "code": "N01",
       "author": "Nietzsche",
+      "title": "La méconnaissance de soi",
+      "work": "Généalogie de la morale",
+      "locator": "Avant-propos, § 1",
+      "quote": "Nous ne nous connaissons pas nous-mêmes, nous les hommes de la connaissance, et nous sommes nous-mêmes inconnus à nous-mêmes.",
+      "notions": [
+        "conscience",
+        "inconscient"
+      ],
+      "edition": "Œuvres, préface de Patrick Wotling",
+      "publisher": "Flammarion",
+      "editionYear": 2010,
+      "translator": "Éric Blondel, Ole Hansen-Løve, Théo Leydenbach et Pierre Pénisson",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La connaissance du monde garantit-elle la connaissance de soi ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Nietzsche affirme que les hommes voués à la connaissance peuvent demeurer étrangers à eux-mêmes."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Se connaître demande de comprendre ses propres manières de vivre et de vouloir, au-delà du savoir que l’on accumule sur des objets."
+        },
+        {
+          "function": "La raison",
+          "sentence": "L’attention portée à ce que nous cherchons peut nous détourner de l’examen de celui qui cherche."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un chercheur peut décrire avec précision son domaine sans reconnaître ce qui oriente son ambition ou ses rivalités."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La proximité avec soi ne vaut donc pas connaissance immédiate, sans que cela rende tout examen de soi impossible."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Suis-je le mieux placé pour me connaître ?",
+          "function": "Contester un privilège immédiat",
+          "reason": "La proximité avec soi peut aller de pair avec la méconnaissance de ses propres activités.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=18",
+          "sourceLabel": "Recueil académique · p. 18"
+        },
+        {
+          "subject": "Être conscient, est-ce savoir ?",
+          "function": "Distinguer expérience de soi et connaissance",
+          "reason": "Se vivre soi-même ne suffit pas à se comprendre.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=18",
+          "sourceLabel": "Recueil académique · p. 18"
+        }
+      ]
+    },
+    {
+      "id": "nietzsche-les-interpretations-morales",
+      "code": "N02",
+      "author": "Nietzsche",
+      "title": "Les interprétations morales",
+      "work": "Par-delà bien et mal",
+      "locator": "§ 108",
+      "quote": "Il n’y a pas de phénomènes moraux du tout, mais seulement une interprétation morale de phénomènes…",
+      "notions": [
+        "devoir",
+        "justice"
+      ],
+      "edition": "Œuvres, préface de Patrick Wotling",
+      "publisher": "Flammarion",
+      "editionYear": 2010,
+      "translator": "Patrick Wotling",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Le bien et le mal sont-ils des propriétés que l’on constaterait directement dans les faits ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Nietzsche affirme que la qualification morale d’un phénomène relève d’une interprétation."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Interpréter moralement consiste à rapporter ce qui arrive à des valeurs qui permettent de le louer ou de le condamner."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La description d’un geste ne contient pas encore les critères au nom desquels nous le jugeons."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Garder le silence peut être loué comme de la discrétion ou condamné comme de la lâcheté selon le sens qu’on lui donne."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Il faut donc examiner les évaluations à l’œuvre dans un jugement moral, sans conclure que toutes les interprétations ont la même valeur."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Suffit-il d’avoir bonne conscience pour être sûr d’agir moralement ?",
+          "function": "Mettre en cause l’évidence morale",
+          "reason": "Une évaluation intériorisée ne prouve pas sa propre validité.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=22",
+          "sourceLabel": "Recueil académique · p. 22"
+        },
+        {
+          "subject": "Le sentiment de la justice est-il naturel ?",
+          "function": "Introduire l’histoire de l’évaluation",
+          "reason": "Ce qui paraît immédiatement juste peut résulter d’une interprétation acquise.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=46",
+          "sourceLabel": "Recueil académique · p. 46"
+        }
+      ]
+    },
+    {
+      "id": "nietzsche-devenir-ce-que-lon-combat",
+      "code": "N03",
+      "author": "Nietzsche",
+      "title": "Devenir ce que l’on combat",
+      "work": "Par-delà bien et mal",
+      "locator": "§ 146",
+      "quote": "Que celui qui lutte avec des monstres veille à ce que cela ne le transforme pas en monstre.",
+      "notions": [
+        "justice",
+        "etat"
+      ],
+      "edition": "Œuvres, préface de Patrick Wotling",
+      "publisher": "Flammarion",
+      "editionYear": 2010,
+      "translator": "Patrick Wotling",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une lutte juste protège-t-elle toujours celui qui la mène de devenir injuste ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Nietzsche avertit que le combat contre les monstres peut transformer le combattant en monstre."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le monstre désigne ici ce dont on combat la violence ou la cruauté, et la transformation touche les pratiques de celui qui s’y oppose."
+        },
+        {
+          "function": "La raison",
+          "sentence": "L’habitude d’affronter un adversaire peut faire adopter ses moyens et perdre de vue la fin initiale."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un pouvoir qui prétend combattre la terreur peut en venir à imposer lui-même la peur et l’arbitraire."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La valeur d’un combat ne dispense donc pas d’examiner ses moyens et leurs effets sur ceux qui les emploient."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Le malheur donne-t-il le droit d’être injuste ?",
+          "function": "Limiter les moyens de la riposte",
+          "reason": "Combattre un mal ne légitime pas la reproduction de ce mal.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=31",
+          "sourceLabel": "Recueil académique · p. 31"
+        },
+        {
+          "subject": "L’État doit-il préférer l’injustice au désordre ?",
+          "function": "Mettre à l’épreuve une justification",
+          "reason": "Lutter contre le désordre peut corrompre la fin annoncée si les moyens deviennent injustes.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=31",
+          "sourceLabel": "Recueil académique · p. 31"
+        }
+      ]
+    },
+    {
+      "id": "nietzsche-les-affects-qui-se-combattent",
+      "code": "N04",
+      "author": "Nietzsche",
+      "title": "Les affects qui se combattent",
+      "work": "Par-delà bien et mal",
+      "locator": "§ 117",
+      "quote": "La volonté de surmonter un affect n’est en dernière instance que la volonté d’un autre ou de plusieurs autres affects.",
+      "notions": [
+        "conscience",
+        "inconscient",
+        "liberte"
+      ],
+      "edition": "Œuvres, préface de Patrick Wotling",
+      "publisher": "Flammarion",
+      "editionYear": 2010,
+      "translator": "Patrick Wotling",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Lorsque nous maîtrisons un désir, est-ce nécessairement la raison seule qui commande ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Nietzsche propose de comprendre la domination d’un affect par la force d’autres affects."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Un affect est une manière de sentir et d’être poussé à agir, comme la peur, la fierté ou l’attachement."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La décision de résister peut donc être soutenue par des forces affectives que l’on ne reconnaît pas immédiatement."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Refuser une satisfaction présente peut tenir au désir plus fort de réussir, de tenir une promesse ou de garder l’estime d’autrui."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La maîtrise de soi demande ainsi de comprendre l’organisation de nos désirs, au lieu de supposer une volonté sans aucun mobile affectif."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Pouvons-nous faire coïncider nos désirs avec nos devoirs ?",
+          "function": "Déplacer l’opposition raison et désir",
+          "reason": "Une conduite réglée peut mobiliser et organiser des affects.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=91",
+          "sourceLabel": "Recueil académique · p. 91"
+        },
+        {
+          "subject": "Sommes-nous conscients de ce que nous désirons ?",
+          "function": "Interroger le motif de la maîtrise",
+          "reason": "Le désir de se maîtriser peut lui-même avoir des mobiles affectifs inaperçus.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=91",
+          "sourceLabel": "Recueil académique · p. 91"
+        }
+      ]
+    },
+    {
+      "id": "nietzsche-le-ressentiment-et-les-valeurs",
+      "code": "N05",
+      "author": "Nietzsche",
+      "title": "Le ressentiment et les valeurs",
+      "work": "Généalogie de la morale",
+      "locator": "I, § 10",
+      "quote": "L’insurrection des esclaves dans la morale commence lorsque le ressentiment lui-même devient créateur et engendre des valeurs : le ressentiment d’êtres tels que la véritable réaction, celle de l’acte, leur est interdite, qui ne s’en sortent indemnes que par une vengeance imaginaire.",
+      "notions": [
+        "devoir",
+        "justice"
+      ],
+      "edition": "Œuvres, préface de Patrick Wotling",
+      "publisher": "Flammarion",
+      "editionYear": 2010,
+      "translator": "Éric Blondel, Ole Hansen-Løve, Théo Leydenbach et Pierre Pénisson",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Des valeurs morales peuvent-elles naître d’une impossibilité d’agir ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Nietzsche décrit le ressentiment comme une force capable de créer des valeurs."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le ressentiment est une hostilité durable qui, ne pouvant se décharger dans l’action, se transforme en évaluation de l’adversaire."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La vengeance devient alors imaginaire, car elle déprécie ce qu’elle ne peut effectivement vaincre."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une personne impuissante à rivaliser peut présenter toute réussite adverse comme un vice et sa propre impuissance comme une vertu."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Cette analyse invite à interroger l’origine des jugements, sans autoriser à réduire toute demande de justice à du ressentiment."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Ressentir l’injustice m’apprend-il ce qui est juste ?",
+          "function": "Distinguer ressentiment et jugement juste",
+          "reason": "Un sentiment d’impuissance peut produire une évaluation sans en garantir la justice.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=31",
+          "sourceLabel": "Recueil académique · p. 31"
+        },
+        {
+          "subject": "Suffit-il d’avoir bonne conscience pour être sûr d’agir moralement ?",
+          "function": "Interroger la provenance des valeurs",
+          "reason": "L’origine affective d’un jugement peut rester masquée à celui qui le porte.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=22",
+          "sourceLabel": "Recueil académique · p. 22"
+        }
+      ]
+    },
+    {
+      "id": "nietzsche-les-convictions-comme-prisons",
+      "code": "N06",
+      "author": "Nietzsche",
+      "title": "Les convictions comme prisons",
+      "work": "L’Antéchrist",
+      "locator": "§ 54",
+      "quote": "Les convictions sont des prisons.",
+      "notions": [
+        "liberte",
+        "verite"
+      ],
+      "edition": "Œuvres, préface de Patrick Wotling",
+      "publisher": "Flammarion",
+      "editionYear": 2010,
+      "translator": "Éric Blondel",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une conviction peut-elle empêcher de penser librement ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Nietzsche compare les convictions à des prisons lorsqu’elles soumettent le jugement au lieu de le servir."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La conviction devient enfermement quand une idée est tenue pour intouchable et décide d’avance de ce que l’on acceptera d’examiner."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Celui qui en dépend écarte les objections pour préserver sa certitude au lieu de mesurer celle-ci aux objections."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une personne persuadée qu’un groupe a toujours tort peut refuser d’entendre même les raisons qu’il avance."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La liberté de penser exige donc de pouvoir reprendre ses convictions, sans imposer l’indécision permanente ni l’absence de toute fin."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Croire nous empêche-t-il de chercher la vérité ?",
+          "function": "Soutenir une objection au dogmatisme",
+          "reason": "Tenir une affirmation pour intouchable ferme l’enquête.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=83",
+          "sourceLabel": "Recueil académique · p. 83"
+        },
+        {
+          "subject": "Puis-je perdre ma liberté de penser ?",
+          "function": "Montrer une servitude intérieure",
+          "reason": "L’enfermement peut venir d’une conviction à laquelle on ne s’autorise plus à toucher.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=39",
+          "sourceLabel": "Recueil académique · p. 39"
+        }
+      ]
+    },
+    {
+      "id": "nietzsche-lhypothese-scientifique",
+      "code": "N07",
+      "author": "Nietzsche",
+      "title": "L’hypothèse scientifique",
+      "work": "Le Gai Savoir",
+      "locator": "§ 344",
+      "quote": "Dans la science, les convictions n’ont pas droit de cité, voilà ce que l’on dit à juste titre : c’est seulement lorsqu’elles s’abaissent au rang modeste d’une hypothèse, d’un point de vue expérimental provisoire, d’une fiction régulatrice, que l’on a le droit de leur accorder l’accès au royaume de la connaissance et de leur y reconnaître même une certaine valeur, – toujours avec cette restriction de demeurer soumises à la surveillance policière, à la police de la méfiance.",
+      "notions": [
+        "science",
+        "verite",
+        "religion"
+      ],
+      "edition": "Œuvres, préface de Patrick Wotling",
+      "publisher": "Flammarion",
+      "editionYear": 2010,
+      "translator": "Patrick Wotling",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Quelle différence sépare une hypothèse scientifique d’une conviction intangible ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Nietzsche affirme qu’une proposition n’entre dans la science qu’en acceptant d’être tenue pour provisoire et examinable."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’hypothèse est une explication proposée à l’épreuve, tandis que la conviction prétend ici soustraire son contenu à la remise en question."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La discipline scientifique exige que les raisons de conserver une proposition puissent être discutées et ses insuffisances recherchées."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une explication que des observations contraires ne permettraient jamais de corriger serait protégée de l’examen plutôt que soutenue par lui."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le passage distingue ainsi recherche et dogmatisme, avant d’interroger dans la suite du paragraphe la confiance des savants dans la valeur de la vérité."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Croire en la science, est-ce une forme de religion ?",
+          "function": "Distinguer méthode et adhésion inconditionnelle",
+          "reason": "L’hypothèse scientifique doit rester exposée à la critique.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=56",
+          "sourceLabel": "Recueil académique · p. 56"
+        },
+        {
+          "subject": "Savoir, est-ce ne rien croire ?",
+          "function": "Nuancer l’opposition",
+          "reason": "Une hypothèse est admise provisoirement sans être tenue pour une certitude intangible.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=55",
+          "sourceLabel": "Recueil académique · p. 55"
+        }
+      ]
+    },
+    {
+      "id": "nietzsche-lart-et-la-lucidite",
+      "code": "N08",
+      "author": "Nietzsche",
+      "title": "L’art et la lucidité",
+      "work": "Le Gai Savoir",
+      "locator": "§ 107",
+      "quote": "Si nous n’avions pas donné notre approbation aux arts et inventé cette espèce de culte du non-vrai : la compréhension de l’universalité du non-vrai et du mensonge que nous offrent à présent les sciences – la compréhension de l’illusion et de l’erreur comme condition de l’existence connaissante et percevante –, nous seraient totalement insupportables.",
+      "notions": [
+        "art",
+        "verite",
+        "bonheur"
+      ],
+      "edition": "Œuvres, préface de Patrick Wotling",
+      "publisher": "Flammarion",
+      "editionYear": 2010,
+      "translator": "Patrick Wotling",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Comment supporter une connaissance qui révèle la part d’illusion dans notre existence ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Nietzsche attribue à l’art la puissance de rendre cette lucidité vivable."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’apparence artistique est une forme que nous savons produite et à laquelle nous pouvons pourtant prendre plaisir."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Elle permet de ne pas réduire toute expérience à la seule dénonciation de ses erreurs ou de ses imperfections."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une œuvre peut donner forme à une souffrance sans la supprimer ni prétendre qu’elle n’a jamais eu lieu."
+        },
+        {
+          "function": "La portée",
+          "sentence": "L’art peut donc soutenir une relation à la vérité, sans se confondre avec un mensonge destiné à tromper autrui."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’art nous aide-t-il à vivre ?",
+          "function": "Défendre une nécessité de l’art",
+          "reason": "L’expérience esthétique permet une relation supportable à l’existence.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6"
+        },
+        {
+          "subject": "Faut-il préférer la vérité au bonheur ?",
+          "function": "Faire apparaître un coût de la lucidité",
+          "reason": "La connaissance peut demander une puissance de mise en forme pour être vécue.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=73",
+          "sourceLabel": "Recueil académique · p. 73"
+        }
+      ]
+    },
+    {
+      "id": "nietzsche-donner-forme-a-son-caractere",
+      "code": "N09",
+      "author": "Nietzsche",
+      "title": "Donner forme à son caractère",
+      "work": "Le Gai Savoir",
+      "locator": "§ 290",
+      "quote": "« Donner du style » à son caractère – un art grand et rare !",
+      "notions": [
+        "conscience",
+        "liberte"
+      ],
+      "edition": "Œuvres, préface de Patrick Wotling",
+      "publisher": "Flammarion",
+      "editionYear": 2010,
+      "translator": "Patrick Wotling",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Devenir soi-même consiste-t-il seulement à découvrir un caractère déjà fixé ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Nietzsche présente la mise en forme de son caractère comme un art exigeant."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Donner du style signifie organiser ses forces et ses faiblesses selon une forme que l’on travaille."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Ce travail suppose de reconnaître ses dispositions puis de les exercer, de les transformer ou de leur donner une autre place."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une grande sensibilité peut devenir un obstacle si elle nous disperse ou une ressource si un travail d’écriture lui donne une forme."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La formation de soi unit donc connaissance et exercice, sans permettre de se fabriquer arbitrairement à partir de rien."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Faut-il apprendre à se connaître soi-même ?",
+          "function": "Relier connaissance et formation de soi",
+          "reason": "Reconnaître ses forces et ses faiblesses peut permettre de les organiser.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=129",
+          "sourceLabel": "Recueil académique · p. 129"
+        },
+        {
+          "subject": "Suis-je le mieux placé pour me connaître ?",
+          "function": "Déplacer la connaissance vers une tâche",
+          "reason": "Se connaître demande un travail de composition plutôt qu’une simple inspection immédiate.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=18",
+          "sourceLabel": "Recueil académique · p. 18"
+        }
+      ]
+    },
+    {
+      "id": "nietzsche-se-liberer-et-creer",
+      "code": "N10",
+      "author": "Nietzsche",
+      "title": "Se libérer et créer",
       "work": "Ainsi parlait Zarathoustra",
       "locator": "I, « Des trois métamorphoses »",
-      "title": "La liberté comme création",
+      "quote": "Créer des valeurs nouvelles, le lion lui-même n’y est pas encore apte ; mais s’affranchir afin de devenir apte à créer des valeurs nouvelles, voilà ce que peut la force du lion.",
       "notions": [
         "liberte",
         "devoir"
       ],
-      "problem": "Refuser une obligation suffit-il à être libre ?",
-      "explanation": "Le chameau porte les obligations ; le lion conquiert la possibilité de leur opposer un refus ; l’enfant figure une nouvelle affirmation créatrice. La libération n’est donc pas achevée par la seule négation. Il faut distinguer le droit de créer des valeurs et la création elle-même.",
-      "distinction": "refus d’une contrainte et affirmation créatrice",
-      "misreading": "Être libre consiste à suivre n’importe quelle impulsion.",
       "edition": "Œuvres, préface de Patrick Wotling",
-      "editionYear": "2010",
-      "translator": "Geneviève Bianquis, révision de Paul Mathias",
-      "publication": "1883–1885",
-      "text": null,
-      "quotations": [],
-      "reviewStatus": "reference-commentee",
-      "uses": [
+      "publisher": "Flammarion",
+      "editionYear": 2010,
+      "translator": "Geneviève Bianquis, traduction revue par Paul Mathias",
+      "commentary": [
         {
-          "subject": "Suffit-il de se sentir libre pour l’être ?",
-          "function": "distinction",
-          "claim": "La liberté exige une transformation effective, pas seulement un sentiment de refus.",
-          "keywords": [
-            "liberté",
-            "creation",
-            "refus",
-            "contrainte",
-            "valeur",
-            "affirmation",
-            "choix"
-          ],
-          "reason": "La distinction entre refus d’une contrainte et affirmation créatrice précise ce que cet argument doit établir.",
-          "limit": "Être libre consiste à suivre n’importe quelle impulsion."
+          "function": "Le problème",
+          "sentence": "Suffit-il de refuser les valeurs reçues pour devenir capable de créer ?"
         },
         {
-          "subject": "Suffit-il de se sentir libre pour l’être ?",
-          "function": "raison",
-          "claim": "La liberté exige une transformation effective, pas seulement un sentiment de refus.",
-          "keywords": [
-            "liberté",
-            "creation",
-            "refus",
-            "contrainte",
-            "valeur",
-            "affirmation",
-            "choix"
-          ],
-          "reason": "Cette référence fournit un raisonnement pour soutenir cet argument ; il faut en expliquer les étapes.",
-          "limit": "Être libre consiste à suivre n’importe quelle impulsion."
+          "function": "L’affirmation",
+          "sentence": "Zarathoustra distingue la libération accomplie par le lion et la création de valeurs nouvelles."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le lion représente la force de dire non à une autorité qui impose ses commandements comme sacrés."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Ce refus ouvre une liberté, mais ne fournit pas encore les fins auxquelles elle pourra se consacrer."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Abandonner une règle imposée ne dit pas encore quel engagement nous voulons prendre ni quelle vie nous voulons construire."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La liberté ne s’achève donc pas dans l’opposition, puisque l’affirmation de nouvelles valeurs demande une autre puissance, représentée ensuite par l’enfant."
         }
       ],
-      "exercise": {
-        "prompt": "Expliquez la distinction entre refus d’une contrainte et affirmation créatrice en quatre phrases.",
-        "hint": "Définissez les deux termes. Expliquez pourquoi leur différence compte dans ce passage.",
-        "model": "Le chameau porte les obligations ; le lion conquiert la possibilité de leur opposer un refus ; l’enfant figure une nouvelle affirmation créatrice. La libération n’est donc pas achevée par la seule négation. Il faut distinguer le droit de créer des valeurs et la création elle-même. Pour employer cette référence, il faut donc expliquer la différence entre refus d’une contrainte et affirmation créatrice. Elle ne permet pas de conclure que être libre consiste à suivre n’importe quelle impulsion.",
-        "checklist": [
-          "Je distingue les deux termes sans les confondre.",
-          "Je relie leur différence au problème du passage.",
-          "Je précise une limite du rapprochement avec mon sujet."
-        ]
-      },
-      "sourceUrl": "https://catalogue.bnf.fr/rechercher.do?motRecherche=Nietzsche+Oeuvres+Flammarion+2010"
+      "uses": [
+        {
+          "subject": "Peut-on opposer le devoir à la liberté ?",
+          "function": "Distinguer refus et création",
+          "reason": "Dire non à une obligation peut être une étape sans constituer l’autonomie entière.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=40",
+          "sourceLabel": "Recueil académique · p. 40"
+        },
+        {
+          "subject": "Puis-je perdre ma liberté de penser ?",
+          "function": "Construire une émancipation",
+          "reason": "La critique des valeurs reçues ouvre une possibilité, sans fournir à elle seule de nouvelles valeurs.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=39",
+          "sourceLabel": "Recueil académique · p. 39"
+        }
+      ]
+    },
+    {
+      "id": "nietzsche-les-limites-de-la-connaissance",
+      "code": "N11",
+      "author": "Nietzsche",
+      "title": "Les limites de la connaissance",
+      "work": "Le Crépuscule des idoles",
+      "locator": "« Maximes et pointes », § 5",
+      "quote": "La sagesse trace des limites, même à la connaissance.",
+      "notions": [
+        "raison",
+        "bonheur",
+        "verite"
+      ],
+      "edition": "Œuvres, préface de Patrick Wotling",
+      "publisher": "Flammarion",
+      "editionYear": 2010,
+      "translator": "Henri Albert",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Faut-il vouloir tout connaître sans jamais interroger ce que cette recherche engage ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Nietzsche affirme que la sagesse peut fixer des limites au désir de connaissance."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La sagesse désigne ici une manière de conduire sa vie qui ne traite pas tout savoir comme un bien inconditionnel."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La recherche doit aussi répondre de ce qu’elle exige de nous et de la place qu’elle prend parmi nos activités."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Chercher sans fin à connaître chaque jugement d’autrui sur nous peut nourrir l’inquiétude au lieu d’éclairer une décision."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Interroger les limites du connaître ne revient donc pas à préférer toute ignorance, mais à juger la valeur d’une recherche déterminée."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Faut-il préférer la vérité au bonheur ?",
+          "function": "Interroger la valeur inconditionnelle du savoir",
+          "reason": "Il faut aussi examiner ce que l’exigence de savoir engage pour la vie.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=73",
+          "sourceLabel": "Recueil académique · p. 73"
+        },
+        {
+          "subject": "Savoir rend-il malheureux ?",
+          "function": "Déplacer la question vers l’usage du savoir",
+          "reason": "La sagesse peut régler la recherche au lieu d’identifier ignorance et bonheur.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=55",
+          "sourceLabel": "Recueil académique · p. 55"
+        }
+      ]
+    },
+    {
+      "id": "nietzsche-lepreuve-et-la-force",
+      "code": "N12",
+      "author": "Nietzsche",
+      "title": "L’épreuve et la force",
+      "work": "Le Crépuscule des idoles",
+      "locator": "« Maximes et pointes », § 8",
+      "quote": "Ce qui ne me fait pas mourir me rend plus fort.",
+      "notions": [
+        "bonheur"
+      ],
+      "edition": "Œuvres, préface de Patrick Wotling",
+      "publisher": "Flammarion",
+      "editionYear": 2010,
+      "translator": "Henri Albert",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une difficulté doit-elle être jugée seulement d’après la souffrance qu’elle inflige ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Nietzsche affirme à la première personne qu’une épreuve qui ne le détruit pas peut accroître sa force."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La force désigne ici une puissance de vivre et de surmonter, et non la simple absence de blessure."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une résistance peut nous obliger à développer des capacités qui ne s’exerceraient pas dans une vie entièrement protégée."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un échec peut conduire à reprendre un travail et à mieux comprendre ses exigences."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La formule invite ainsi à penser la transformation d’une épreuve, mais ne démontre pas que toute souffrance renforce nécessairement celui qui la subit."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Faut-il chercher le bonheur à tout prix ?",
+          "function": "Distinguer bonheur et absence d’épreuve",
+          "reason": "Une vie peut gagner en puissance en traversant une difficulté.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=13",
+          "sourceLabel": "Recueil académique · p. 13"
+        },
+        {
+          "subject": "Satisfaire ses désirs peut-il rendre malheureux ?",
+          "function": "Contester l’évitement de toute frustration",
+          "reason": "Le refus immédiat d’un désir peut avoir une valeur formatrice, sans que toute frustration soit bonne.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=91",
+          "sourceLabel": "Recueil académique · p. 91"
+        }
+      ]
+    },
+    {
+      "id": "nietzsche-le-besoin-de-musique",
+      "code": "N13",
+      "author": "Nietzsche",
+      "title": "Le besoin de musique",
+      "work": "Le Crépuscule des idoles",
+      "locator": "« Maximes et pointes », § 33",
+      "quote": "Sans musique la vie serait une erreur.",
+      "notions": [
+        "art",
+        "bonheur"
+      ],
+      "edition": "Œuvres, préface de Patrick Wotling",
+      "publisher": "Flammarion",
+      "editionYear": 2010,
+      "translator": "Henri Albert",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La valeur d’une vie se réduit-elle à la satisfaction des besoins indispensables ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Nietzsche donne à la musique une importance telle qu’une vie qui en serait privée lui paraît manquer son sens."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’erreur désigne ici une manière de vivre appauvrie plutôt qu’une proposition intellectuellement fausse."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La musique peut donner rythme, intensité et forme à l’expérience, au-delà de ce qui sert seulement à survivre."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un chant peut faire éprouver ensemble une joie ou une douleur que la seule description ne ferait pas vivre de la même manière."
+        },
+        {
+          "function": "La portée",
+          "sentence": "L’art peut donc appartenir à ce qui rend une existence désirable, sans que chaque œuvre produise le même effet sur chacun."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Avons-nous besoin d’art ?",
+          "function": "Défendre un besoin au-delà de la survie",
+          "reason": "Une vie humaine ne s’évalue pas seulement à sa conservation matérielle.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6"
+        },
+        {
+          "subject": "L’art est-il un luxe ?",
+          "function": "Contester l’idée d’un simple supplément",
+          "reason": "La musique peut être comprise comme une composante de la valeur d’une vie.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6"
+        }
+      ]
+    },
+    {
+      "id": "nietzsche-la-raison-et-les-sens",
+      "code": "N14",
+      "author": "Nietzsche",
+      "title": "La raison et les sens",
+      "work": "Le Crépuscule des idoles",
+      "locator": "« La “raison” dans la philosophie », § 2",
+      "quote": "Si nous faussons le témoignage des sens, c’est la « raison » qui en est la cause.",
+      "notions": [
+        "raison",
+        "verite"
+      ],
+      "edition": "Œuvres, préface de Patrick Wotling",
+      "publisher": "Flammarion",
+      "editionYear": 2010,
+      "translator": "Henri Albert",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Les erreurs viennent-elles toujours des sens plutôt que de nos interprétations ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Nietzsche accuse certaines constructions de la raison de fausser le témoignage sensible."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Les sens présentent le changement, tandis que la raison visée ici cherche des choses fixes et identiques derrière ce changement."
+        },
+        {
+          "function": "La raison",
+          "sentence": "L’erreur peut donc venir de catégories que nous imposons à l’expérience en les prenant pour la réalité elle-même."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Nommer une chose peut nous inciter à la croire absolument identique alors même que nous en observons les transformations."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La critique demande ainsi d’examiner nos manières d’interpréter, sans déclarer que tout raisonnement serait trompeur."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Peut-on penser sans sentir ?",
+          "function": "Montrer la dépendance envers le sensible",
+          "reason": "L’interprétation doit répondre de ce qu’elle fait au témoignage des sens.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=18",
+          "sourceLabel": "Recueil académique · p. 18"
+        },
+        {
+          "subject": "Faut-il ne croire que ce que l’on voit ?",
+          "function": "Distinguer perception et interprétation",
+          "reason": "L’erreur ne se situe pas nécessairement dans la sensation elle-même.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=103",
+          "sourceLabel": "Recueil académique · p. 103"
+        }
+      ]
+    },
+    {
+      "id": "nietzsche-la-grammaire-et-la-metaphysique",
+      "code": "N15",
+      "author": "Nietzsche",
+      "title": "La grammaire et la métaphysique",
+      "work": "Le Crépuscule des idoles",
+      "locator": "« La “raison” dans la philosophie », § 5",
+      "quote": "Je crains bien que nous ne nous débarrassions jamais de Dieu, puisque nous croyons encore à la grammaire…",
+      "notions": [
+        "langage",
+        "religion"
+      ],
+      "edition": "Œuvres, préface de Patrick Wotling",
+      "publisher": "Flammarion",
+      "editionYear": 2010,
+      "translator": "Henri Albert",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Abandonner une croyance religieuse suffit-il à abandonner les habitudes de pensée qui lui sont liées ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Nietzsche soutient que certaines croyances métaphysiques peuvent subsister dans notre confiance envers la grammaire."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Croire à la grammaire signifie ici prendre la structure de nos phrases pour une description nécessaire de la structure du réel."
+        },
+        {
+          "function": "La raison",
+          "sentence": "L’habitude de rapporter une action à un sujet peut nous conduire à supposer derrière tout événement un agent ou une substance qui le produirait."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Dire « je pense » peut ainsi nous faire traiter le « je » comme une réalité déjà connue, alors que la forme de la phrase ne démontre pas son existence comme substance."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La critique doit donc examiner les présupposés de nos formulations, au lieu de croire que supprimer le mot « Dieu » libérerait à lui seul la pensée de toute métaphysique."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Le langage déforme-t-il la pensée ?",
+          "function": "Interroger une contrainte inaperçue",
+          "reason": "La forme grammaticale peut suggérer des êtres ou des causes qu’il reste à justifier.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=34",
+          "sourceLabel": "Recueil académique · p. 34"
+        },
+        {
+          "subject": "Croire, est-ce renoncer à la raison ?",
+          "function": "Déplacer l’opposition croyance et rationalité",
+          "reason": "La pensée qui se croit délivrée de la croyance peut en conserver certains présupposés.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=83",
+          "sourceLabel": "Recueil académique · p. 83"
+        },
+        {
+          "subject": "Sommes-nous prisonniers du langage ?",
+          "function": "I.2 : renforcer la première réponse",
+          "reason": "La grammaire peut imposer à notre pensée des catégories que nous n’avons pas explicitement choisies.",
+          "source": "https://www.education.gouv.fr/sites/default/files/document/baccalaureat-general-2026-philosophie-517430.pdf#page=2",
+          "sourceLabel": "Bac 2026 · Asie",
+          "a20": "philosophie-bac-2026-sommes-nous-prisonniers-du-langage.html",
+          "a20Step": "I.2",
+          "a20Status": "Une insertion possible dans ce raisonnement ; la citation ne figure pas déjà dans la copie."
+        }
+      ]
     }
   ]
 }

@@ -1,52 +1,46 @@
-/* Banque de références : suggestions explicables, jamais de note automatique. */
+/* Citations : un sens expliqué et des emplois argumentatifs précis. */
 (function(root){
 'use strict';
 const norm=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[’']/g,' ').replace(/[^a-z0-9]+/g,' ').trim();
-const words=s=>norm(s).split(' ').filter(w=>w.length>3);
-function select(entries,{query='',author='',notion='',subject='',argument='',function:fn=''}={}){
- const q=words(query),args=new Set(words(argument));
- return entries.filter(e=>(!author||e.author===author)&&(!notion||e.notions.includes(notion))&&q.every(w=>norm([e.title,e.work,e.author,e.problem,e.explanation,e.distinction].join(' ')).includes(w))).map(e=>{
-  const eligible=e.uses.filter(u=>(!fn||u.function===fn)&&(!subject||norm(u.subject)===norm(subject)));
-  const ranked=eligible.map(u=>({use:u,hits:u.keywords.filter(w=>args.has(norm(w)))})).filter(x=>!argument||x.hits.length).sort((a,b)=>b.hits.length-a.hits.length);
-  return {entry:e,use:ranked[0]?.use||null,hits:ranked[0]?.hits||[]};
- }).filter(x=>(!subject&&!fn&&!argument)||x.use).sort((a,b)=>b.hits.length-a.hits.length||a.entry.id.localeCompare(b.entry.id));
+const words=s=>norm(s).split(' ').filter(Boolean);
+function select(entries,{query='',author='',notion='',subject=''}={}){
+ const q=words(query);
+ return entries.filter(e=>(!author||e.author===author)&&(!notion||e.notions.includes(notion))&&(!subject||e.uses.some(u=>norm(u.subject)===norm(subject)))&&q.every(w=>norm([e.title,e.quote,e.author,e.work,...e.commentary.map(c=>c.sentence),...e.uses.flatMap(u=>[u.subject,u.function,u.reason])].join(' ')).includes(w)));
 }
-const key=(id,level)=>'philo-banque:v1:'+id+':'+level;
-const api={norm,words,select,key};if(typeof module!=='undefined'&&module.exports)module.exports=api;
-root.PhiloBanque=api;
-if(typeof document==='undefined')return;
-const data=root.PHILO_BANQUE; if(!data)return;
-const $=id=>document.getElementById(id),esc=s=>String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-let selected='',level=1;
-const params=new URLSearchParams(location.search);
-const sourceState=$('bank-status');
-function storeDraft(){const el=$('bank-draft');if(!el)return;try{localStorage.setItem(key(selected,level),el.value);$('draft-state').textContent='Brouillon enregistré dans ce navigateur.';}catch(_){$('draft-state').textContent='La sauvegarde est indisponible. Conservez votre réponse avant de quitter la page.';}}
-function readDraft(){try{return localStorage.getItem(key(selected,level))||'';}catch(_){return '';}}
-function exercise(e){
- const task=level===1?'Choisissez la lecture la plus précise, puis justifiez-la en une phrase.':level===2?e.exercise.prompt:'Rédigez en six à huit phrases une explication du problème et du raisonnement de ce passage. Précisez une limite de son emploi en dissertation.';
- $('bank-exercise').innerHTML='<h3>Expliquer cette référence</h3><div class="bank-levels" role="group" aria-label="Niveau">'+[1,2,3].map(n=>'<button type="button" data-level="'+n+'" aria-pressed="'+(level===n)+'">Niveau '+n+' · '+['au clic','j’écris un peu','j’écris tout'][n-1]+'</button>').join('')+'</div><p>'+esc(task)+'</p>'+(level===1?'<div class="bank-choices">'+['Distinguer '+e.distinction+'.',e.misreading,'Repérer une idée utile sans préciser encore sa portée.'].map((t,i)=>'<button type="button" data-choice="'+i+'">'+esc(t)+'</button>').join('')+'<p id="choice-result" role="status"></p>':'')+'<label for="bank-draft">Votre réponse</label><textarea id="bank-draft" rows="6" data-sans-feedback="true" data-sans-dictee="true"></textarea><p id="draft-state" class="bank-muted" role="status"></p>'+(level<3?'<details><summary>Un indice</summary><p>'+esc(e.exercise.hint)+'</p></details>':'')+'<details><summary>Comparer avec une explication</summary><p>'+esc(e.exercise.model)+'</p><ul>'+e.exercise.checklist.map(t=>'<li>'+esc(t)+'</li>').join('')+'</ul><p>Cette proposition est une explication du site ; elle ne remplace pas la lecture du passage référencé.</p></details><div class="bank-actions"><button type="button" id="restart">Recommencer ce niveau</button><button type="button" id="erase">Effacer ce brouillon</button><button type="button" id="another">Travailler une autre fiche</button></div>';
- $('bank-draft').value=readDraft();$('bank-draft').addEventListener('input',storeDraft);
- document.querySelectorAll('[data-level]').forEach(b=>b.onclick=()=>{storeDraft();level=Number(b.dataset.level);exercise(e);});
- document.querySelectorAll('[data-choice]').forEach(b=>b.onclick=()=>{const i=Number(b.dataset.choice);$('choice-result').textContent=[['Solide','La distinction précise ce que le passage permet de comprendre.'],['À revoir',e.misreading+' '+e.explanation],['Défendable','Il faut encore nommer la distinction et expliquer sa fonction dans le raisonnement.']][i].join(' — ');});
- $('restart').onclick=()=>exercise(e);$('erase').onclick=()=>{try{localStorage.removeItem(key(selected,level));}catch(_){}$('bank-draft').value='';$('draft-state').textContent='Brouillon de ce niveau effacé.';};
- $('another').onclick=()=>{$('bank-results').scrollIntoView({behavior:'smooth'});$('bank-results').querySelector('button')?.focus();};
+function resolveId(data,id){return Object.hasOwn(data.legacyIds,id)?data.legacyIds[id]:id;}
+const api={norm,words,select,resolveId};if(typeof module!=='undefined'&&module.exports)module.exports=api;root.PhiloBanque=api;
+if(typeof document==='undefined'||!root.PHILO_BANQUE)return;
+const data=root.PHILO_BANQUE,$=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const safeHref=s=>/^(?:https:\/\/(?:www\.)?(?:education\.gouv\.fr|pedagogie\.ac-montpellier\.fr)\/|philosophie-[a-z0-9-]+\.html$)/.test(s)?esc(s):'';
+const names={art:'L’art',bonheur:'Le bonheur',conscience:'La conscience',devoir:'Le devoir',etat:'L’État',inconscient:'L’inconscient',justice:'La justice',langage:'Le langage',liberte:'La liberté',nature:'La nature',raison:'La raison',religion:'La religion',science:'La science',technique:'La technique',temps:'Le temps',travail:'Le travail',verite:'La vérité'};
+let selected='',annotated=true,matches=[];const fields=['query','author','notion','subject'];
+function syncURL(){const p=new URLSearchParams();for(const k of fields)if($(k).value)p.set(k,$(k).value);if(selected)p.set('fiche',selected);history.replaceState(null,'',location.pathname+(p.size?'?'+p.toString():''));}
+function renderReader(e){
+ $('bank-reader').hidden=false;
+ $('bank-reference').innerHTML='<p class="bank-kicker">'+esc(e.author)+(e.speaker?' · '+esc(e.speaker)+' parle':'')+'</p><h2 id="reader-title">'+esc(e.title)+'</h2><blockquote class="bank-quote"><p><strong>« '+esc(e.quote)+' »</strong></p></blockquote><p class="bank-work"><cite>'+esc(e.work)+'</cite> · '+esc(e.locator)+'</p><details class="bank-edition"><summary>L’édition de cette citation</summary><p>'+esc(e.edition)+', '+esc(e.publisher)+', '+esc(e.editionYear)+'.<br>Traduction : '+esc(e.translator||'attribution individuelle à préciser dans cette édition')+'.</p></details>';
+ $('bank-dissertation').innerHTML='<div class="bank-section-head"><span class="bank-number" aria-hidden="true">01</span><div><h3>Dissertation</h3><p>Ce que cette phrase peut faire dans votre raisonnement.</p></div></div><div class="bank-uses">'+e.uses.map(u=>'<article class="bank-use"><h4>'+esc(u.subject)+'</h4><p><strong>'+esc(u.function)+'.</strong> '+esc(u.reason)+'</p><div class="bank-source"><a href="'+safeHref(u.source)+'" target="_blank" rel="noopener">'+esc(u.sourceLabel)+' ↗</a>'+(u.a20?' · <a href="'+safeHref(u.a20)+'">Voir la copie A20 · '+esc(u.a20Step)+' →</a>':'')+'</div>'+(u.a20?'<p class="bank-a20-note">Une insertion possible dans cette copie.</p>':'')+'</article>').join('')+'</div><p class="bank-note">La fonction dépend de l’argument que vous construisez, pas seulement du thème du sujet.</p>';
+ $('bank-commentary').innerHTML='<div class="bank-section-head"><span class="bank-number" aria-hidden="true">02</span><div><h3>Commentaire</h3><p>Comprendre la phrase, ses raisons et sa portée.</p></div></div><button type="button" id="toggle-functions" class="bank-text-button" aria-pressed="'+annotated+'" aria-controls="bank-paragraph">'+(annotated?'Lire sans les fonctions':'Voir la fonction des phrases')+'</button><p id="bank-paragraph" class="bank-paragraph'+(annotated?' is-annotated':'')+'">'+e.commentary.map(c=>'<span class="bank-sentence"><span class="bank-function">'+esc(c.function)+'</span><span class="bank-sentence-text">'+esc(c.sentence)+'</span></span> ').join('')+'</p><p class="bank-note">Dans une explication de texte, adaptez cette lecture au rôle de la phrase dans le passage étudié.</p>';
+ $('toggle-functions').onclick=()=>{annotated=!annotated;$('bank-paragraph').classList.toggle('is-annotated',annotated);$('toggle-functions').setAttribute('aria-pressed',String(annotated));$('toggle-functions').textContent=annotated?'Lire sans les fonctions':'Voir la fonction des phrases';};
 }
 function open(id,focus=true){
- storeDraft();const e=data.entries.find(e=>e.id===id);if(!e)return;selected=id;level=1;
- const card=$('bank-reader');card.hidden=false;
- $('bank-reference').innerHTML='<p class="bank-kicker">'+esc(e.author)+'</p><h2 id="reader-title">'+esc(e.title)+'</h2><p class="bank-work"><cite>'+esc(e.work)+'</cite> · '+esc(e.locator)+'</p><p class="bank-muted">Œuvre : '+esc(e.publication)+'<br>Édition consultée : '+esc(e.edition)+', Flammarion, '+esc(e.editionYear)+'.<br>Traduction : '+esc(e.translator)+'.</p><h3>'+esc(e.problem)+'</h3><p>'+esc(e.explanation)+'</p><div class="bank-distinction"><strong>La distinction utile</strong><p>'+esc(e.distinction)+'</p></div><details><summary>Employer cette référence en dissertation</summary>'+e.uses.map(u=>'<p><strong>Sujet :</strong> '+esc(u.subject)+'</p><p><strong>Argument :</strong> '+esc(u.claim)+'</p><p>'+esc(u.reason)+'</p><p><strong>À éviter :</strong> '+esc(u.limit)+'</p>').join('')+'</details><p class="bank-muted">Explication originale du site. La traduction récente du passage n’est pas reproduite ici.</p>';
- exercise(e);syncURL();if(focus){card.scrollIntoView({behavior:'smooth',block:'start'});$('reader-title').setAttribute('tabindex','-1');$('reader-title').focus({preventScroll:true});}
+ const actual=resolveId(data,id),e=data.entries.find(e=>e.id===actual);
+ if(!e){$('bank-message').textContent='Cette ancienne fiche a été retirée. Choisissez une citation dans le nouveau recueil.';return;}
+ selected=e.id;$('bank-message').textContent='';renderReader(e);syncURL();document.querySelectorAll('[data-open]').forEach(a=>{if(a.dataset.open===selected)a.setAttribute('aria-current','true');else a.removeAttribute('aria-current');});
+ if(focus){$('reader-title').setAttribute('tabindex','-1');$('reader-title').focus({preventScroll:true});$('bank-reader').scrollIntoView({behavior:'smooth',block:'start'});}
 }
-function syncURL(){const p=new URLSearchParams();for(const id of ['query','author','notion','subject','argument','function'])if($(id).value)p.set(id,$(id).value);if(selected)p.set('fiche',selected);history.replaceState(null,'',location.pathname+(p.size?'?'+p.toString():''));}
-function render(){const opts={};for(const id of ['query','author','notion','subject','argument','function'])opts[id]=$(id).value;const matches=select(data.entries,opts);$('bank-results').innerHTML=matches.map(x=>'<article><p class="bank-kicker">'+esc(x.entry.author)+'</p><h3>'+esc(x.entry.title)+'</h3><p><cite>'+esc(x.entry.work)+'</cite> · '+esc(x.entry.locator)+'</p><p>'+esc(x.use?.reason||x.entry.problem)+'</p>'+(opts.argument?'<p class="bank-muted">Mots rapprochés : '+esc(x.hits.join(', '))+'. Vérifiez le sens de votre argument dans la fiche.</p>':'')+'<button type="button" data-open="'+esc(x.entry.id)+'">Lire et travailler cette fiche →</button></article>').join('');
- sourceState.textContent=matches.length+' fiche'+(matches.length>1?'s':'')+' trouvée'+(matches.length>1?'s':'')+(opts.argument?' · rapprochement lexical, à examiner.':'.');
- if(!matches.length)$('bank-results').innerHTML='<p>Aucun raccord documenté pour ces critères. Retirez un filtre ou cherchez une idée plus précise. Cela ne prouve pas qu’aucun texte pertinent existe.</p>';
- document.querySelectorAll('[data-open]').forEach(b=>b.onclick=()=>open(b.dataset.open));syncURL();
+function render(){
+ matches=select(data.entries,Object.fromEntries(fields.map(k=>[k,$(k).value])));
+ $('bank-status').textContent=matches.length+' citation'+(matches.length>1?'s':'')+(matches.length===1?' trouvée.':' trouvées.');
+ $('bank-results').innerHTML=matches.length?matches.map(e=>'<article class="bank-card"><p class="bank-kicker">'+esc(e.author)+'</p><h3><a href="?fiche='+esc(e.id)+'" data-open="'+esc(e.id)+'"'+(e.id===selected?' aria-current="true"':'')+'>'+esc(e.title)+'</a></h3><p class="bank-preview">« '+esc(e.quote)+' »</p><p class="bank-card-reference"><cite>'+esc(e.work)+'</cite> · '+esc(e.locator)+'</p><span class="bank-read" aria-hidden="true">Lire la fiche →</span></article>').join(''):'<p class="bank-empty">Aucune citation pour ces critères. Retirez un filtre ou choisissez une autre formulation.</p>';
+ document.querySelectorAll('[data-open]').forEach(a=>a.onclick=ev=>{if(ev.metaKey||ev.ctrlKey||ev.shiftKey||ev.altKey)return;ev.preventDefault();open(a.dataset.open);});
+ if(selected&&!matches.some(e=>e.id===selected)){selected='';$('bank-reader').hidden=true;}syncURL();
 }
-$('author').innerHTML+=[...new Set(data.entries.map(e=>e.author))].map(a=>'<option>'+esc(a)+'</option>').join('');
-$('notion').innerHTML+=Object.entries(root.PHILO_NOTIONS_NOMS||{}).map(([k,n])=>'<option value="'+k+'">'+esc(n)+'</option>').join('');
-$('subject').innerHTML+=[...new Set(data.entries.flatMap(e=>e.uses.map(u=>u.subject)))].map(s=>'<option>'+esc(s)+'</option>').join('');
-for(const id of ['query','author','notion','subject','argument','function']){const v=params.get(id);if(v)$(id).value=v;$(id).addEventListener(id==='query'||id==='argument'?'input':'change',render);}
-$('bank-reset').onclick=()=>{for(const id of ['query','author','notion','subject','argument','function'])$(id).value='';render();};
-render();if(params.get('fiche'))open(params.get('fiche'),false);
+for(const a of [...new Set(data.entries.map(e=>e.author))])$('author').add(new Option(a,a));
+for(const [k,v] of Object.entries(names))if(data.entries.some(e=>e.notions.includes(k)))$('notion').add(new Option(v,k));
+for(const s of [...new Set(data.entries.flatMap(e=>e.uses.map(u=>u.subject)))].sort((a,b)=>a.localeCompare(b,'fr')))$('subject').add(new Option(s,s));
+const initial=new URLSearchParams(location.search);
+for(const k of fields){const v=initial.get(k);if(v)$(k).value=v;$(k).addEventListener(k==='query'?'input':'change',render);}
+$('bank-reset').onclick=()=>{for(const k of fields)$(k).value='';$('bank-message').textContent='';render();};
+$('bank-close').onclick=()=>{selected='';$('bank-reader').hidden=true;syncURL();$('find-title').setAttribute('tabindex','-1');$('find-title').focus();};
+$('bank-controls').hidden=false;document.documentElement.classList.add('bank-ready');render();if(initial.get('fiche'))open(initial.get('fiche'),false);
 })(typeof window==='undefined'?globalThis:window);
