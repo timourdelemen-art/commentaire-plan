@@ -1,27 +1,36 @@
-# Banque philosophique — intégration
+# Recueil de citations — intégration du 16 octobre 2026
 
-15 fiches : 5 Platon, 6 Aristote, 4 Nietzsche. Elles reprennent les thèmes préparés dans la conversation précédente ; les explications et exercices sont écrits ici. Les citations qui y étaient annoncées ne sont pas réputées vérifiées. Aucun livre fourni, extrait protégé, URL de téléchargement privé ou identifiant Library n'est commité.
+## Décision du propriétaire
 
-Sources consultées : Platon, Œuvres complètes, direction Luc Brisson, Flammarion 2008 ; Aristote, Œuvres complètes, direction Pierre Pellegrin, Flammarion 2014 ; Nietzsche, Œuvres, préface Patrick Wotling, Flammarion 2010. Repères Stephanus, Bekker, sections d'aphorismes et chapitres dans chaque fiche. Le registre de provenance conserve les empreintes des fichiers ; il ne certifie pas une traduction ni une note. Attribution individuelle des traductions de Platon et de plusieurs traités aristotéliciens encore à préciser. Les traducteurs Nietzsche sont identifiés sur la page de titre.
+Le propriétaire a fourni trois recueils, approuvé l’inventaire de 45 citations et demandé leur intégration à la place des quinze anciennes fiches. Chaque nouvelle fiche comporte la citation exacte, une partie Dissertation et une partie Commentaire. Les six fonctions du commentaire sont visibles par défaut et peuvent être masquées sans modifier le paragraphe.
+
+## Contenu
+
+- 45 citations : quinze de Platon, quinze d’Aristote, quinze de Nietzsche.
+- 93 usages proposés sur 63 libellés de sujets distincts, avec deux ou trois sujets par fiche.
+- 45 commentaires originaux de six phrases, entre 93 et 138 mots ; aucune prétention à un protocole officiel de six phrases.
+- Trois liens vers des copies A20 existantes, avec indication de la sous-partie examinée. Il s’agit d’insertions possibles, pas de citations déjà présentes dans les copies.
+- Les sujets anciens sont attestés dans le recueil de l’académie de Montpellier, 1996-2025, aux pages conservées dans les données. Trois raccords sont vérifiés dans les PDF ministériels 2026 (Amérique du Nord et Asie).
+- Les traductions individuelles non identifiées restent explicitement indiquées comme à préciser. Les noms ne sont pas inventés.
+
+## Sources et contrôle
+
+La sélection et ses citations viennent des trois recueils fournis dans la conversation. Le registre scripts/philo-banque-provenance.json conserve les empreintes des sources, le passage interne et l’empreinte du texte de chaque citation contrôlée. Les livres, noms de fichiers privés et identifiants Library ne sont pas commis. Les espaces et renvois de notes ont été normalisés ; les mots des citations ne sont pas remplacés.
+
+Le propriétaire a expressément demandé l’intégration de ces courts extraits après lecture du recueil. Aucun ouvrage ni chapitre entier n’est publié. La décision porte sur cette sélection, pas sur une autorisation générale de reproduire les traductions.
 
 ## Architecture
 
-- Source : scripts/philo-banque-data.json. Générer : node scripts/build-philo-banque.js. Contrôle de fraîcheur : --check.
-- Données publiques générées commitées : philosophie-banque-data.js. Le build actuel ne relance pas ce générateur ; le contrôle dédié en CI empêche une divergence avant fusion.
-- Entrée depuis philosophie.html et philosophie-references.html ; styles isolés, aucun menu partagé ni worker modifié.
-- Sélecteur pur PhiloBanque.select utilisable par d'autres pages. Fonctions documentées distinction/raison/objection, sujets exacts puis recoupement lexical de l'argument. Les mots partagés ne prouvent pas l'accord philosophique. Zéro résultat pour un argument non couvert ; aucune garantie d'optimalité.
-- Trois niveaux ; justification après choix, explication partielle, autonome ; modèle replié, brouillon par fiche/niveau. Effacer touche seulement ce brouillon. Aucun correcteur IA général.
+Source : scripts/philo-banque-data.json. Génération : node scripts/build-philo-banque.js. Le script vérifie les citations contre les empreintes, les six fonctions, les sources des sujets, les liens A20, et produit philosophie-banque-data.js ainsi que le catalogue HTML complet. --check vérifie la fraîcheur des deux sorties. Les sorties sont commises car le build général ne relance pas ce générateur.
 
-## Périmètre et suites
+La page fonctionne sans JavaScript : quarante-cinq fiches complètes dans des blocs dépliables. Avec JavaScript : filtres, lecteur unique, lecture annotée ou continue, lien direct partageable. La recherche ne promet aucun classement sémantique automatique. Le sélecteur ne fait que filtrer des raccords documentés.
 
-Banque de références commentées, pas encore bibliothèque d'extraits ni sélecteur de citations authentifiées. L'import des passages, leurs droits et leur vérification textuelle restent à traiter ; leur réception n'autorise pas à republier des traductions protégées selon AGENTS.md §3. Aucun Hegel ancien ; son ajout attend le choix du propriétaire.
+Les anciennes fiches sont retirées des données et du catalogue. Douze anciens identifiants renvoient vers une nouvelle fiche du même passage ou thème repris ; trois identifiants sans équivalent présentent un message de retrait. Les anciens brouillons du navigateur ne sont ni utilisés ni effacés.
 
-Les 11 000 sujets de Mélès ne sont pas intégrés : extraction et segmentation non homologuées. Aucune couverture exhaustive des 17 notions prétendue. Les sujets proposés sont vérifiés contre PHILO_SUJETS ; ce contrôle ne remplace pas leur source officielle.
+Aucun worker, menu partagé, copie A20 ou mécanisme de correction automatique n’est modifié.
 
 ## Vérification pédagogique
 
-L'élève doit expliquer une différence et son utilité, non réciter un nom. Chaque fiche propose un problème spécifique, une explication, un contresens et un raccord argumentatif. Le niveau 1 demande une justification après un choix ; niveaux 2/3 font écrire. La comparaison au modèle laisse au lecteur le jugement ; pas de note automatique. La proposition solide de chaque choix n'est pas systématiquement la plus longue ; mesurer avant nouvelle extension. Les textes de modèle sont des propositions du site, jamais des copies garanties à 20.
+Les trois volets sont distincts : la citation ; son usage dans un argument propre à un sujet ; son explication autonome dans son contexte d’origine. Le commentaire ne prouve pas sa qualité par le seul compte des phrases. Chaque phrase a été relue selon son apport : difficulté, affirmation, concepts, justification, exemple, portée. Les précautions importantes des fiches sont intégrées dans la phrase de portée plutôt qu’ajoutées en longues notes.
 
-## Vérification technique
-
-Test Node du sélecteur, 15 IDs, 5/6/4 auteurs, raccords aux sujets, faux rapprochements refusés, données fraîches : réussi. Syntaxe JS : réussie. Contrôle navigateur dédié via GitHub Actions sur 390/1280 : filtres, choix, niveaux, stockage, rechargement et effacement. Ne fusionner qu'après réussite du workflow.
+Le choix d’un sujet fournit une fonction argumentative, pas un plan universel I/II/III. Le lecteur doit l’adapter à son argument. Aucun exercice, évaluation ou note n’est promis sur cette page de lecture.

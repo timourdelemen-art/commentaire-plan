@@ -1,5 +1,6 @@
 {
-  "status": "references-commentees-sans-reproduction",
+  "status": "citations-courtes-et-commentaires",
+  "owner_decision": "16 octobre 2026 : remplacer les anciennes fiches par la sélection de citations fournie et approuvée, en deux parties dissertation et commentaire.",
   "source_files": [
     {
       "author": "Platon",
@@ -14,96 +15,502 @@
       "sha256": "952d2db67f5bffd472803534bed9f2e3192df4b960304ab41da71e126eccb7dc"
     }
   ],
+  "subject_source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf",
   "entries": [
     {
-      "id": "platon-persuasion",
-      "locator": "454c–455a",
-      "status": "relecture-descriptive-effectuee",
-      "quotation_verified": false
+      "id": "platon-savoir-et-croire",
+      "code": "P01",
+      "author": "Platon",
+      "locator": "454d",
+      "source_location": "EPUB fourni, OEBPS/p19chap1.html",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "f0373ef7b1207c298b3a35758529ade6459a526b8d8d484774d15396ca99b81d",
+      "translator_status": "identified"
     },
     {
-      "id": "platon-recherche",
-      "locator": "80d–86c",
-      "status": "relecture-descriptive-effectuee",
-      "quotation_verified": false
+      "id": "platon-convaincre-sans-faire-connaitre",
+      "code": "P02",
+      "author": "Platon",
+      "locator": "454e–455a",
+      "source_location": "EPUB fourni, OEBPS/p19chap1.html",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "ac9eac3b0482fb53f0c3b1793bdbc5e8daa6f4b535d4b2f9eb6716a4a0181ee6",
+      "translator_status": "identified"
     },
     {
-      "id": "platon-ecriture",
-      "locator": "274c–277a",
-      "status": "relecture-descriptive-effectuee",
-      "quotation_verified": false
+      "id": "platon-subir-ou-commettre-linjustice",
+      "code": "P03",
+      "author": "Platon",
+      "locator": "469c",
+      "source_location": "EPUB fourni, OEBPS/p19chap1.html",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "d31409529a482e62eda396f6e62f857bf76665d6237bc29c0ef4dbc367fa9a81",
+      "translator_status": "identified"
     },
     {
-      "id": "platon-caverne",
-      "locator": "VII, 514a–517a",
-      "status": "relecture-descriptive-effectuee",
-      "quotation_verified": false
+      "id": "platon-justice-et-bonheur",
+      "code": "P04",
+      "author": "Platon",
+      "locator": "470e",
+      "source_location": "EPUB fourni, OEBPS/p19chap1.html",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "bf6b5670d7390bac7c1a3ec88ad467649f58c637d6d9ea43e6b7077f039e9cfa",
+      "translator_status": "identified"
     },
     {
-      "id": "platon-desir",
-      "locator": "210a–212a",
-      "status": "relecture-descriptive-effectuee",
-      "quotation_verified": false
+      "id": "platon-linjustice-ne-justifie-pas-linjustice",
+      "code": "P05",
+      "author": "Platon",
+      "locator": "49b",
+      "source_location": "EPUB fourni, OEBPS/p11chap1.html",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "0eb922ca4099a9d424a4ffe6f24441b013699419ec7681b227c7b40c6062d029",
+      "translator_status": "not-attributed"
     },
     {
-      "id": "aristote-bonheur",
-      "locator": "I, 7, 1097b22–1098a20",
-      "status": "relecture-descriptive-effectuee",
-      "quotation_verified": false
+      "id": "platon-une-opinion-vraie-peut-guider",
+      "code": "P06",
+      "author": "Platon",
+      "locator": "97b",
+      "source_location": "EPUB fourni, OEBPS/p30chap1.html",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "8a98d70aa268230d86807d45e8097629feb3578203cd2b6854ead95436c34781",
+      "translator_status": "not-attributed"
     },
     {
-      "id": "aristote-vertu",
-      "locator": "II, 1–4, 1103a14–1105b18",
-      "status": "relecture-descriptive-effectuee",
-      "quotation_verified": false
+      "id": "platon-apprendre-et-se-ressouvenir",
+      "code": "P07",
+      "author": "Platon",
+      "locator": "81d",
+      "source_location": "EPUB fourni, OEBPS/p30chap1.html",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "c30b9abeea3c81c2a713ebd2f7364893bdfc77e3d1de027612229c8f4fa9e444",
+      "translator_status": "not-attributed"
     },
     {
-      "id": "aristote-savoir",
-      "locator": "I, 2, 71b9–72a5",
-      "status": "relecture-descriptive-effectuee",
-      "quotation_verified": false
+      "id": "platon-pourquoi-les-hommes-sassocient",
+      "code": "P08",
+      "author": "Platon",
+      "locator": "II, 369c",
+      "source_location": "EPUB fourni, OEBPS/p38chap2.html",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "7a7a51cc04e1438dc1117187957358a9069878eeb95ae56311baf86b73c929ef",
+      "translator_status": "not-attributed"
     },
     {
-      "id": "aristote-discours",
-      "locator": "I, 1–2, 1355a–1356a",
-      "status": "relecture-descriptive-effectuee",
-      "quotation_verified": false
+      "id": "platon-la-justice-et-les-fonctions",
+      "code": "P09",
+      "author": "Platon",
+      "locator": "IV, 433b",
+      "source_location": "EPUB fourni, OEBPS/p38chap5.html",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "d9f7178ee877abcddabf3e75dabccf6b711db7ebd324e7b4c3dee049e1fc161d",
+      "translator_status": "not-attributed"
     },
     {
-      "id": "aristote-cite",
-      "locator": "I, 2, 1253a1–18",
-      "status": "relecture-descriptive-effectuee",
-      "quotation_verified": false
+      "id": "platon-la-liberte-qui-devient-servitude",
+      "code": "P10",
+      "author": "Platon",
+      "locator": "VIII, 564a",
+      "source_location": "EPUB fourni, OEBPS/p38chap7.html",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "56a66634ed9b108f85204b03f0845c97646ffa9b99e1c7aaca45db97acb4f88d",
+      "translator_status": "not-attributed"
     },
     {
-      "id": "aristote-art",
-      "locator": "4, 1448b4–19",
-      "status": "relecture-descriptive-effectuee",
-      "quotation_verified": false
+      "id": "platon-le-silence-de-lecrit",
+      "code": "P11",
+      "author": "Platon",
+      "locator": "275d",
+      "source_location": "EPUB fourni, OEBPS/p34chap1.html",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "e5119b0f52b70ce5ba21e2b9920588215622f3ebac9d1e3d082e88dd9f5e8dac",
+      "translator_status": "not-attributed"
     },
     {
-      "id": "nietzsche-valeurs",
-      "locator": "I, §§ 2 et 10",
-      "status": "relecture-descriptive-effectuee",
-      "quotation_verified": false
+      "id": "platon-linspiration-du-poete",
+      "code": "P12",
+      "author": "Platon",
+      "locator": "533e",
+      "source_location": "EPUB fourni, OEBPS/p23chap1.html",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "554776ec361adbefc585b3e4350e74ca9e5f45d1420b9d0bbd7df7609d80d07c",
+      "translator_status": "not-attributed"
     },
     {
-      "id": "nietzsche-verite",
+      "id": "platon-le-dialogue-interieur",
+      "code": "P13",
+      "author": "Platon",
+      "locator": "189e–190a",
+      "source_location": "EPUB fourni, OEBPS/p43chap2.html",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "55d59ecbd0324976285584ec8f06ea4123f42ae42550fbcf1166b419ebc5479b",
+      "translator_status": "not-attributed"
+    },
+    {
+      "id": "platon-le-temps-et-leternite",
+      "code": "P14",
+      "author": "Platon",
+      "locator": "37d",
+      "source_location": "EPUB fourni, OEBPS/p44chap1-1.html",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "779da9aef45dd85291d1ed6c65bde8e53b431fed2db7092356f21b21ba17de1d",
+      "translator_status": "not-attributed"
+    },
+    {
+      "id": "platon-les-richesses-et-la-vertu",
+      "code": "P15",
+      "author": "Platon",
+      "locator": "30b",
+      "source_location": "EPUB fourni, OEBPS/p4chap1.html",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "14521f513372ca94473ab5629716c045007ad47fcc1d1d16825aa43269ccbdd3",
+      "translator_status": "not-attributed"
+    },
+    {
+      "id": "aristote-le-desir-de-savoir",
+      "code": "A01",
+      "author": "Aristote",
+      "locator": "A, 1, 980a21",
+      "source_location": "PDF fourni, page 1802",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "4116fb1679792c1597c9c60cf57240235a358095a2a4eb77e5a0326ac1e9c1ec",
+      "translator_status": "not-attributed"
+    },
+    {
+      "id": "aristote-connaitre-la-cause",
+      "code": "A02",
+      "author": "Aristote",
+      "locator": "I, 2, 71b9–12",
+      "source_location": "PDF fourni, page 218",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "27c02685ca34205ed628ad02750ff61dcbc5befc15e8eb946916ee3afcba6b0b",
+      "translator_status": "not-attributed"
+    },
+    {
+      "id": "aristote-apprendre-en-faisant",
+      "code": "A03",
+      "author": "Aristote",
+      "locator": "II, 1, 1103a32–33",
+      "source_location": "PDF fourni, page 2015",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "3bde443637073629b919f9001e35e1ba09c3925bd9cc6b5eeac4857de95bc994",
+      "translator_status": "identified"
+    },
+    {
+      "id": "aristote-devenir-juste",
+      "code": "A04",
+      "author": "Aristote",
+      "locator": "II, 1, 1103b1–2",
+      "source_location": "PDF fourni, page 2015",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "7d2f02803476a41782b64bb89f733644f68866485ee442f403f497216149b9a4",
+      "translator_status": "identified"
+    },
+    {
+      "id": "aristote-le-juste-milieu",
+      "code": "A05",
+      "author": "Aristote",
+      "locator": "II, 6, 1106b36–1107a1",
+      "source_location": "PDF fourni, page 2022",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "012f0296bcb0f65013464936f63b168bea7ffb57a78ec30dce6c87f425bbffa7",
+      "translator_status": "identified"
+    },
+    {
+      "id": "aristote-deliberer-sur-les-moyens",
+      "code": "A06",
+      "author": "Aristote",
+      "locator": "III, 3, 1112b11–12",
+      "source_location": "PDF fourni, page 2036",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "f8ca576166e9630ea1620a72d4bd16c2c6d272c9fa29fe934aeac914715bfb4e",
+      "translator_status": "identified"
+    },
+    {
+      "id": "aristote-les-amis-et-les-autres-biens",
+      "code": "A07",
+      "author": "Aristote",
+      "locator": "VIII, 1, 1155a5–6",
+      "source_location": "PDF fourni, page 2138",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "08991983e9f12a992f171d074b599f9ffdfc2d90592bc5536c9cea2e5d08636b",
+      "translator_status": "identified"
+    },
+    {
+      "id": "aristote-le-bonheur-et-le-loisir",
+      "code": "A08",
+      "author": "Aristote",
+      "locator": "X, 7, 1177b4",
+      "source_location": "PDF fourni, page 2190",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "daf9551178545cf611798c1a93a2fccd4190e36ec9a3a93db241aac64d6c8ede",
+      "translator_status": "identified"
+    },
+    {
+      "id": "aristote-lanimal-politique",
+      "code": "A09",
+      "author": "Aristote",
+      "locator": "I, 2, 1253a7–8",
+      "source_location": "PDF fourni, page 2295",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "f7f5c522d758ee76ec8ff2e12a65dceacc3cc0973f994faf3610bca580bfc836",
+      "translator_status": "identified"
+    },
+    {
+      "id": "aristote-le-langage-et-le-juste",
+      "code": "A10",
+      "author": "Aristote",
+      "locator": "I, 2, 1253a14–15",
+      "source_location": "PDF fourni, page 2295",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "c952081ce2f55659218f3c39a0a7c020b2e3135d3a45a3ff99411a042215d289",
+      "translator_status": "identified"
+    },
+    {
+      "id": "aristote-imiter-pour-apprendre",
+      "code": "A11",
+      "author": "Aristote",
+      "locator": "4, 1448b4–8",
+      "source_location": "PDF fourni, page 2747",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "c9f68e25db76f4465442bcbf47aedc24adb8133469d8c74860c0df909dd78b71",
+      "translator_status": "not-attributed"
+    },
+    {
+      "id": "aristote-la-connaissance-par-la-fiction",
+      "code": "A12",
+      "author": "Aristote",
+      "locator": "9, 1451b6–7",
+      "source_location": "PDF fourni, page 2754",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "a5a729e9e468ffb7c885ff4349a515d623a54ec6a041ea4f924fd1cf5166850d",
+      "translator_status": "not-attributed"
+    },
+    {
+      "id": "aristote-la-main-et-lintelligence",
+      "code": "A13",
+      "author": "Aristote",
+      "locator": "IV, 10, 687a7–10",
+      "source_location": "PDF fourni, page 1587",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "fbbd70b926c00b62de62847f15f1b3264998ea511bc25136c382873a14bb4195",
+      "translator_status": "not-attributed"
+    },
+    {
+      "id": "aristote-le-temps-et-le-mouvement",
+      "code": "A14",
+      "author": "Aristote",
+      "locator": "IV, 11, 219b1–2",
+      "source_location": "PDF fourni, page 610",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "72b731fabf1105c65d09e579f9d5e6bad23992e9d4d0e9289bfb8bebfa22bbbe",
+      "translator_status": "not-attributed"
+    },
+    {
+      "id": "aristote-des-rigueurs-differentes",
+      "code": "A15",
+      "author": "Aristote",
+      "locator": "I, 7, 1098a26–29",
+      "source_location": "PDF fourni, page 2004",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "b6ffa32229a287f4ee26eca80782c8f00e1a41f2346dacfeb7e0fbe89d2a37a8",
+      "translator_status": "identified"
+    },
+    {
+      "id": "nietzsche-la-meconnaissance-de-soi",
+      "code": "N01",
+      "author": "Nietzsche",
+      "locator": "Avant-propos, § 1",
+      "source_location": "EPUB fourni, OEBPS/Text/400genealogie1.html",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "48c68adf0353892a6b4975d19a6a8d20d087ee8c1604d8ad4ba1fcd489e8accd",
+      "translator_status": "identified"
+    },
+    {
+      "id": "nietzsche-les-interpretations-morales",
+      "code": "N02",
+      "author": "Nietzsche",
+      "locator": "§ 108",
+      "source_location": "EPUB fourni, OEBPS/Text/304pardela4.html",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "b856c5574a629e818208d8b2444ca99295a1ca303564d85eabd2917c5cf703b5",
+      "translator_status": "identified"
+    },
+    {
+      "id": "nietzsche-devenir-ce-que-lon-combat",
+      "code": "N03",
+      "author": "Nietzsche",
+      "locator": "§ 146",
+      "source_location": "EPUB fourni, OEBPS/Text/304pardela4.html",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "9d6baf2e22f021a42a614f558960aa166f93c63ce71d15257dcea526acbccdb6",
+      "translator_status": "identified"
+    },
+    {
+      "id": "nietzsche-les-affects-qui-se-combattent",
+      "code": "N04",
+      "author": "Nietzsche",
+      "locator": "§ 117",
+      "source_location": "EPUB fourni, OEBPS/Text/304pardela4.html",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "da2bb9b1568fd52ea15955e8ec7f181fe8c1e4a80dea4c82dfade926dae6eea9",
+      "translator_status": "identified"
+    },
+    {
+      "id": "nietzsche-le-ressentiment-et-les-valeurs",
+      "code": "N05",
+      "author": "Nietzsche",
+      "locator": "I, § 10",
+      "source_location": "EPUB fourni, OEBPS/Text/401genealogie1.html",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "93bf263a547b43b491b6b15424045fa45d2dac1c41efe91aa864bf4dc8dda1e1",
+      "translator_status": "identified"
+    },
+    {
+      "id": "nietzsche-les-convictions-comme-prisons",
+      "code": "N06",
+      "author": "Nietzsche",
+      "locator": "§ 54",
+      "source_location": "EPUB fourni, OEBPS/Text/702antechrist2.html",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "e1d6139b2b25ca50b3bb67b27449a6e0c95992ac3a044f6b94eca12d2871c954",
+      "translator_status": "identified"
+    },
+    {
+      "id": "nietzsche-lhypothese-scientifique",
+      "code": "N07",
+      "author": "Nietzsche",
       "locator": "§ 344",
-      "status": "relecture-descriptive-effectuee",
-      "quotation_verified": false
+      "source_location": "EPUB fourni, OEBPS/Text/105livre5.html",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "5e6c3b973799ac72148a0928e0e5bf21cf967100ee7c8ebee6126935b1bd53c9",
+      "translator_status": "identified"
     },
     {
-      "id": "nietzsche-perspective",
-      "locator": "§ 22",
-      "status": "relecture-descriptive-effectuee",
-      "quotation_verified": false
+      "id": "nietzsche-lart-et-la-lucidite",
+      "code": "N08",
+      "author": "Nietzsche",
+      "locator": "§ 107",
+      "source_location": "EPUB fourni, OEBPS/Text/102livre2.html",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "38726d2e088567e864ccaac3df434e969ba87f91a0f5716c4f5e76c62183cdbd",
+      "translator_status": "identified"
     },
     {
-      "id": "nietzsche-liberte",
+      "id": "nietzsche-donner-forme-a-son-caractere",
+      "code": "N09",
+      "author": "Nietzsche",
+      "locator": "§ 290",
+      "source_location": "EPUB fourni, OEBPS/Text/104livre4.html",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "d17b2781dcf1d0fa146c0239832b424f634e923b9d8c0b5134c7a09f959240ca",
+      "translator_status": "identified"
+    },
+    {
+      "id": "nietzsche-se-liberer-et-creer",
+      "code": "N10",
+      "author": "Nietzsche",
       "locator": "I, « Des trois métamorphoses »",
-      "status": "relecture-descriptive-effectuee",
-      "quotation_verified": false
+      "source_location": "EPUB fourni, OEBPS/Text/212discours.html",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "11e8400d81061ed9dace6166a51769c01e6f33f0582fd9b8b43807b978d7b9f4",
+      "translator_status": "identified"
+    },
+    {
+      "id": "nietzsche-les-limites-de-la-connaissance",
+      "code": "N11",
+      "author": "Nietzsche",
+      "locator": "« Maximes et pointes », § 5",
+      "source_location": "EPUB fourni, OEBPS/Text/602idoles2.html",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "dbe1bf21ff6eded357e4910f412f86cfc3d2b023787b8f5e0ca29dfcb1aa7b5f",
+      "translator_status": "identified"
+    },
+    {
+      "id": "nietzsche-lepreuve-et-la-force",
+      "code": "N12",
+      "author": "Nietzsche",
+      "locator": "« Maximes et pointes », § 8",
+      "source_location": "EPUB fourni, OEBPS/Text/602idoles2.html",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "0b7bca5dd4c6776ec76e5336560567b211eaf442535086abc66ae6e143f56ca4",
+      "translator_status": "identified"
+    },
+    {
+      "id": "nietzsche-le-besoin-de-musique",
+      "code": "N13",
+      "author": "Nietzsche",
+      "locator": "« Maximes et pointes », § 33",
+      "source_location": "EPUB fourni, OEBPS/Text/602idoles2.html",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "f53a1ea6a19aaaa86d2e179ad8c9ed90d0345aea89d11079e61a4ba2697b70a8",
+      "translator_status": "identified"
+    },
+    {
+      "id": "nietzsche-la-raison-et-les-sens",
+      "code": "N14",
+      "author": "Nietzsche",
+      "locator": "« La “raison” dans la philosophie », § 2",
+      "source_location": "EPUB fourni, OEBPS/Text/604idoles4.html",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "79bf75e3e599aa3a05d206eb69c43aca8a43013be11341fa11cbcaf05b5eb757",
+      "translator_status": "identified"
+    },
+    {
+      "id": "nietzsche-la-grammaire-et-la-metaphysique",
+      "code": "N15",
+      "author": "Nietzsche",
+      "locator": "« La “raison” dans la philosophie », § 5",
+      "source_location": "EPUB fourni, OEBPS/Text/604idoles4.html",
+      "quotation_verified": true,
+      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
+      "quote_sha256": "f01f0b94d6e2bba70d8721791d72b9fb743983da8b9fad0fc8337b350013ff72",
+      "translator_status": "identified"
     }
   ]
 }

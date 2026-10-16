@@ -1,67 +1,46 @@
 #!/usr/bin/env node
-/* Contrôle navigateur sur une copie jetable du site généré. */
-const fs = require('node:fs');
-const path = require('node:path');
-const http = require('node:http');
-const {chromium} = require('playwright');
-const root = path.resolve(process.argv[2] || '.');
-const pages = ['philosophie-banque.html'];
-const mime = {'.html':'text/html; charset=utf-8','.js':'text/javascript','.css':'text/css','.svg':'image/svg+xml','.json':'application/json','.png':'image/png','.jpg':'image/jpeg','.woff2':'font/woff2'};
-const server = http.createServer((req,res) => {
-  const pathname = decodeURIComponent(new URL(req.url,'http://localhost').pathname);
-  const file = path.resolve(root,'.'+(pathname==='/'?'/index.html':pathname));
-  if (!file.startsWith(root+path.sep)) {res.writeHead(403).end();return;}
-  fs.readFile(file,(err,data)=>{
-    if(err){res.writeHead(404).end('Not found');return;}
-    res.writeHead(200,{'Content-Type':mime[path.extname(file)]||'application/octet-stream'});
-    res.end(data);
-  });
-});
+const fs=require('node:fs'),path=require('node:path'),http=require('node:http'),assert=require('node:assert/strict');
+const {chromium}=require('playwright');const root=path.resolve(process.argv[2]||'.');
+const data=JSON.parse(fs.readFileSync(path.join(__dirname,'philo-banque-data.json'),'utf8'));
+const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript','.css':'text/css','.svg':'image/svg+xml','.json':'application/json','.png':'image/png','.jpg':'image/jpeg','.woff2':'font/woff2'};
+const server=http.createServer((req,res)=>{const p=decodeURIComponent(new URL(req.url,'http://localhost').pathname),f=path.resolve(root,'.'+(p==='/'?'/index.html':p));if(!f.startsWith(root+path.sep)){res.writeHead(403).end();return;}fs.readFile(f,(err,b)=>{if(err){res.writeHead(404).end('Not found');return;}res.writeHead(200,{'Content-Type':mime[path.extname(f)]||'application/octet-stream'});res.end(b);});});
 (async()=>{
-  await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
-  const base='http://127.0.0.1:'+server.address().port+'/';
-  const browser=await chromium.launch({headless:true});
-  let failures=0;
-  for(const width of [390,1280]){
-    const context=await browser.newContext({viewport:{width,height:850}});
-    for(const name of pages){
-      const page=await context.newPage();
-      const errors=[];
-      page.on('pageerror',e=>errors.push(e.message));
-      const response=await page.goto(base+name,{waitUntil:'domcontentloaded'});
-      await page.waitForSelector('[data-open]');
-      await page.selectOption('#author','Platon');
-      if(await page.locator('[data-open]').count()!==5)throw Error('Filtre auteur');
-      await page.locator('[data-open]').first().click();
-      await page.locator('[data-choice="0"]').click();
-      if(!(await page.locator('#choice-result').innerText()).includes('Solide'))throw Error('Correction');
-      await page.fill('#bank-draft','Mon brouillon de contrôle');
-      await page.locator('[data-level="2"]').click();
-      if(await page.inputValue('#bank-draft'))throw Error('Niveaux non isolés');
-      await page.locator('[data-level="1"]').click();
-      if(await page.inputValue('#bank-draft')!=='Mon brouillon de contrôle')throw Error('Brouillon perdu');
-      await page.reload();
-      await page.waitForSelector('#bank-draft');
-      if(await page.inputValue('#bank-draft')!=='Mon brouillon de contrôle')throw Error('Reprise perdue');
-      await page.locator('#erase').click();
-      if(await page.inputValue('#bank-draft'))throw Error('Effacement');
-      await page.locator('[data-level="3"]').click();
-      if(await page.locator('#bank-exercise details').count()!==1)throw Error('Aide trop visible en autonomie');
-      await page.locator('#bank-reset').click();
-      if(await page.locator('[data-open]').count()!==15)throw Error('Réinitialisation');
-      const result=await page.evaluate(()=>({
-        h1:!!document.querySelector('h1'),
-        body:document.body.innerText.trim().length,
-        overflow:document.documentElement.scrollWidth-innerWidth,
-        invalidLinks:[...document.querySelectorAll('a[href]')].filter(a=>['null','undefined','#'].includes(a.getAttribute('href'))).length
-      }));
-      const bad=!response?.ok()||!result.h1||result.body<150||result.overflow>12||result.invalidLinks>0||errors.length>0;
-      if(bad){failures++;console.error(JSON.stringify({name,width,status:response?.status(),...result,errors:errors.slice(0,3)}));}
-      else console.log('OK',width,name);
-      await page.close();
-    }
-    await context.close();
+ await new Promise(r=>server.listen(0,'127.0.0.1',r));const base='http://127.0.0.1:'+server.address().port+'/';
+ const browser=await chromium.launch({headless:true,executablePath:process.env.PHILO_BROWSER_EXECUTABLE||undefined});
+ try{for(const width of [390,1280]){
+  const context=await browser.newContext({viewport:{width,height:900},reducedMotion:'reduce'}),page=await context.newPage(),errors=[];
+  page.on('pageerror',e=>errors.push(e.message));assert((await page.goto(base+'philosophie-banque.html')).ok());await page.waitForSelector('[data-open]');
+  assert.equal(await page.locator('[data-open]').count(),45);assert.equal(await page.locator('#notion option').count(),18);
+  await page.selectOption('#author','Aristote');assert.equal(await page.locator('[data-open]').count(),15);
+  await page.fill('#query','reminiscence');assert.equal(await page.locator('[data-open]').count(),0);assert(await page.locator('.bank-empty').isVisible());
+  await page.locator('#bank-reset').click();await page.fill('#query','reminiscence');assert.equal(await page.locator('[data-open]').count(),1);
+  await page.locator('[data-open]').click();assert.equal(await page.locator('.bank-sentence').count(),6);
+  assert(await page.locator('#bank-commentary').isVisible());assert(await page.locator('#bank-dissertation').isVisible());
+  await page.locator('#bank-reset').click();
+  // Exercise every complete fiche: exact quotation, annotation text and source links.
+  for(const e of data.entries){
+   await page.locator('[data-open="'+e.id+'"]').click();
+   assert.equal(await page.locator('.bank-quote strong').textContent(),'« '+e.quote+' »');
+   assert.equal(await page.locator('.bank-use').count(),e.uses.length);
+   assert.deepEqual(await page.locator('.bank-sentence-text').allTextContents(),e.commentary.map(c=>c.sentence));
+   const before=await page.locator('.bank-sentence-text').allTextContents();await page.locator('#toggle-functions').click();
+   assert.deepEqual(await page.locator('.bank-sentence-text').allTextContents(),before);await page.locator('#toggle-functions').click();
+   assert(await page.locator('.bank-function').first().isVisible());
+   assert.equal(await page.locator('#bank-reader a[href=""]').count(),0);
+   const overflow=await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth);assert(overflow<=1,e.id+' overflow '+overflow);
   }
-  await browser.close();
-  if(failures)process.exitCode=1;
+  const last=data.entries.at(-1);assert((await page.locator('#bank-reader').innerText()).includes('Copie A20')||(await page.locator('#bank-reader').innerText()).includes('copie A20'));
+  const href=await page.locator('#bank-reader a[href^="philosophie-"]').first().getAttribute('href');assert((await page.request.get(base+href)).ok());
+  await page.reload();assert.equal(await page.locator('.bank-quote strong').textContent(),'« '+last.quote+' »');
+  await page.locator('#bank-close').click();assert(await page.locator('#bank-reader').isHidden());
+  await page.locator('.bank-subject-filter summary').click();await page.selectOption('#subject','La science doit-elle être utile ?');assert.equal(await page.locator('[data-open]').count(),1);
+  await page.locator('#bank-reset').click();await page.goto(base+'philosophie-banque.html?fiche=platon-persuasion');assert((await page.locator('#reader-title').textContent()).includes('Convaincre'));
+  await page.goto(base+'philosophie-banque.html?fiche=platon-caverne');assert((await page.locator('#bank-message').textContent()).includes('retirée'));assert(await page.locator('#bank-reader').isHidden());
+  await page.goto(base+'philosophie-banque.html?query=%3Cimg%20src%3Dx%20onerror%3Dalert(1)%3E');assert.equal(await page.locator('#bank-results img').count(),0);
+  assert.deepEqual(errors,[]);
+  if(process.env.PHILO_SCREENSHOT_DIR){fs.mkdirSync(process.env.PHILO_SCREENSHOT_DIR,{recursive:true});await page.goto(base+'philosophie-banque.html?fiche='+data.entries.find(e=>e.code==='A01').id);await page.screenshot({path:path.join(process.env.PHILO_SCREENSHOT_DIR,'bank-'+width+'.png'),fullPage:true});}
+  await context.close();
+  const nojs=await browser.newContext({javaScriptEnabled:false,viewport:{width,height:900}}),p=await nojs.newPage();await p.goto(base+'philosophie-banque.html');assert.equal(await p.locator('.bank-static details').count(),45);await p.locator('.bank-static details').first().locator('summary').click();assert(await p.locator('.bank-static blockquote').first().isVisible());assert(await p.locator('#bank-controls').isHidden());await nojs.close();
+  console.log('OK',width,'— 45 fiches, 2 lectures, filtres, annotations, A20, anciens liens, rechargement, sans JavaScript.');
+ }}finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;}).finally(()=>server.close());
