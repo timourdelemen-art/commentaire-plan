@@ -6,16 +6,16 @@ Le propriétaire a fourni trois recueils, approuvé l’inventaire de 45 citatio
 
 ## Contenu
 
-- 101 citations : quinze de Platon, quinze d’Aristote, quinze de Nietzsche, quinze de Spinoza, dix-huit de Cioran et vingt-trois de Kant.
-- 209 usages proposés sur 144 libellés de sujets distincts, avec deux ou trois sujets par fiche.
-- 101 commentaires originaux de six phrases, de 145 mots au plus ; aucune prétention à un protocole officiel de six phrases.
+- 134 citations : quinze de Platon, quinze d’Aristote, quinze de Nietzsche, quinze de Spinoza, dix-huit de Cioran, vingt-trois de Kant, seize de Baudelaire et dix-sept de Racine.
+- 275 usages proposés sur 169 libellés de sujets distincts, avec deux ou trois sujets par fiche.
+- 134 commentaires originaux de six phrases, de 145 mots au plus ; aucune prétention à un protocole officiel de six phrases.
 - Sept liens vers des copies A20 existantes, avec indication de la sous-partie examinée. Il s’agit d’insertions possibles, pas de citations déjà présentes dans les copies.
 - Les sujets anciens sont attestés dans le recueil de l’académie de Montpellier, 1996-2025, aux pages conservées dans les données. Sept raccords sont vérifiés dans les PDF ministériels 2026 (Amérique du Nord et Asie).
 - Les traductions individuelles non identifiées restent explicitement indiquées comme à préciser. Les noms ne sont pas inventés.
 
 ## Sources et contrôle
 
-La sélection et ses citations viennent des huit ouvrages fournis dans la conversation. Le registre scripts/philo-banque-provenance.json conserve les empreintes des sources, le passage interne et l’empreinte du texte de chaque citation contrôlée. Les livres, noms de fichiers privés et identifiants Library ne sont pas commis. Les espaces et renvois de notes ont été normalisés ; les mots des citations ne sont pas remplacés.
+La sélection et ses citations viennent des dix ouvrages fournis dans la conversation. Le registre scripts/philo-banque-provenance.json conserve les empreintes des sources, le passage interne et l’empreinte du texte de chaque citation contrôlée. Les livres, noms de fichiers privés et identifiants Library ne sont pas commis. Les espaces et renvois de notes ont été normalisés ; les mots des citations ne sont pas remplacés.
 
 Le propriétaire a expressément demandé l’intégration de ces courts extraits après lecture du recueil. Aucun ouvrage ni chapitre entier n’est publié. La décision porte sur cette sélection, pas sur une autorisation générale de reproduire les traductions.
 
@@ -23,7 +23,7 @@ Le propriétaire a expressément demandé l’intégration de ces courts extrait
 
 Source : scripts/philo-banque-data.json. Génération : node scripts/build-philo-banque.js. Le script vérifie les citations contre les empreintes, les six fonctions, les sources des sujets, les liens A20, et produit philosophie-banque-data.js ainsi que le catalogue HTML complet. --check vérifie la fraîcheur des deux sorties. Les sorties sont commises car le build général ne relance pas ce générateur.
 
-La page fonctionne sans JavaScript : cent une fiches complètes dans des blocs dépliables. Avec JavaScript : filtres, lecteur unique, lecture annotée ou continue, lien direct partageable. La recherche ne promet aucun classement sémantique automatique. Le sélecteur ne fait que filtrer des raccords documentés.
+La page fonctionne sans JavaScript : cent trente-quatre fiches complètes dans des blocs dépliables. Avec JavaScript : filtres, lecteur unique, lecture annotée ou continue, lien direct partageable. La recherche ne promet aucun classement sémantique automatique. Le sélecteur ne fait que filtrer des raccords documentés.
 
 Les anciennes fiches sont retirées des données et du catalogue. Onze anciens identifiants renvoient vers une nouvelle fiche du même passage ou thème repris ; quatre identifiants sans équivalent présentent un message de retrait. Les anciens brouillons du navigateur ne sont ni utilisés ni effacés.
 
@@ -66,3 +66,13 @@ Les deux traductions sont d’Alain Renaut. La première est identifiée sur la 
 Les 46 emplois sont vérifiés par comparaison du libellé avec la page du PDF académique 1996–2025. Le recueil des 11 000 sujets de Baptiste Mélès ne sert pas d’attestation de sujet du bac. Chaque commentaire suit les six fonctions et reste sous 145 mots ; les usages indiquent l’étape argumentative où la distinction devient utile. Aucun nouveau raccord A20 n’est annoncé sans lecture de la copie correspondante.
 
 Relecture : commencement empirique distinct de l’origine de toutes les conditions ; cohérence nécessaire mais insuffisante ; jugement distinct de la sensation ; persistance de l’apparence distincte de l’adhésion ; critique de la preuve ontologique distincte d’une preuve d’inexistence ; certitude personnelle distincte de justification ; opinion insuffisante distincte d’une opinion fausse ; universalité du goût revendiquée plutôt que constatée ; sans concept distinct de sans réflexion ; désintéressement distinct d’indifférence ; génie compatible avec apprentissage technique ; naturel artistique distinct d’une copie de la nature ; beauté de la représentation distincte de celle du sujet ; finalité comme principe du jugement, non preuve d’un créateur ou verdict sur les limites de la biologie contemporaine.
+
+## Extension Baudelaire et Racine
+
+Trente-trois fiches reprennent le modèle existant : citation, référence en italique, Dissertation avec deux sujets du bac et fonctions argumentatives, Commentaire en six phrases. Les vers restent limités à deux par fiche. Les seize extraits de Baudelaire ont été relus sur les pages numérisées du volume Garnier-Flammarion de 1964 fourni et comparés aux textes de Wikisource. Les dix-sept extraits de Racine sont prélevés directement dans les scènes de l’EPUB Arvensa de 2012, avec conservation des mots, de la ponctuation et des limites de vers. Chaque réplique porte son locuteur, son acte, sa scène et une situation très brève. Aucun propos d’un personnage n’est présenté comme la doctrine de Racine.
+
+Le dépouillement a porté sur l’ensemble du corpus extrait : inventaire des poèmes et des 353 scènes des douze pièces. La sélection et la lecture contextualisée des passages retenus ne constituent pas une lecture littéraire exhaustive de chaque ligne des deux volumes. Onze pièces sont représentées ; aucun quota par œuvre n’est imposé. Les matrices philosophiques orientent la sélection et la rédaction sans devenir une rubrique supplémentaire sur la page élève.
+
+Les références distinguent le recueil proprement dit, les Nouvelles Fleurs du Mal et l’Ébauche d’un épilogue pour la deuxième édition. La variante « Et le paradis en enfers; » d’Alchimie de la douleur est conservée conformément au livre fourni ; la comparaison en ligne donne « en enfer ». Cette différence est signalée dans le détail d’édition : aucune harmonisation silencieuse. La réplique sur le peuple qui choisirait son maître est attribuée à Polynice (La Thébaïde, II, 3), non à Étéocle ; l’oracle d’Iphigénie est interrogé par Clytemnestre ; la justice expéditive d’Athalie est défendue par Mathan.
+
+Les 66 emplois nouveaux sont raccordés à des libellés retrouvés dans le PDF académique du bac 1996–2025, avec lien vers la page. Le recueil des 11 000 sujets ne suffit pas à attester un sujet du bac. Les situations restent brèves ; les explications distinguent la parole poétique d’une démonstration, la métaphore d’une loi et les passions représentées d’une prescription morale. Les 101 fiches antérieures sont conservées à l’identique dans les données.
