@@ -1,6 +1,6 @@
 {
   "status": "citations-courtes-et-commentaires",
-  "owner_decision": "16 octobre 2026 : remplacer les anciennes fiches par la sélection de citations fournie et approuvée, en deux parties dissertation et commentaire. Le même jour : poursuivre selon le même principe avec l’Éthique fournie. Le même jour : intégrer Cioran, écrivain et penseur, à partir des deux ouvrages fournis, après sélection rigoureuse sans quota. Le même jour : développer les usages de « L’Arbre de vie » et de la relecture de la Genèse. Le même jour : poursuivre avec les deux Critiques de Kant fournies, en choisissant des phrases autonomes et des emplois précis sur deux ou trois sujets du bac. Le même jour : intégrer une sélection philosophique de Baudelaire et Racine à partir des deux volumes fournis, avec un ou deux vers conservés exactement, sujets du bac attestés et situation dramatique très brève ; comparer Baudelaire à des éditions consultables en ligne. Le même jour : poursuivre avec Corneille en privilégiant ensemble portée philosophique et beauté ; auditer les 33 choix de Baudelaire et Racine et remplacer les plus faibles. Le même jour : lire intégralement les trois volumes fournis de Bachelard et Freud, sélectionner leurs meilleurs courts extraits pour les dissertations du bac, puis poursuivre le modèle existant.",
+  "owner_decision": "16 octobre 2026 : remplacer les anciennes fiches par la sélection de citations fournie et approuvée, en deux parties dissertation et commentaire. Le même jour : poursuivre selon le même principe avec l’Éthique fournie. Le même jour : intégrer Cioran, écrivain et penseur, à partir des deux ouvrages fournis, après sélection rigoureuse sans quota. Le même jour : développer les usages de « L’Arbre de vie » et de la relecture de la Genèse. Le même jour : poursuivre avec les deux Critiques de Kant fournies, en choisissant des phrases autonomes et des emplois précis sur deux ou trois sujets du bac. Le même jour : intégrer une sélection philosophique de Baudelaire et Racine à partir des deux volumes fournis, avec un ou deux vers conservés exactement, sujets du bac attestés et situation dramatique très brève ; comparer Baudelaire à des éditions consultables en ligne. Le même jour : poursuivre avec Corneille en privilégiant ensemble portée philosophique et beauté ; auditer les 33 choix de Baudelaire et Racine et remplacer les plus faibles. Le même jour : lire intégralement les trois volumes fournis de Bachelard et Freud, sélectionner leurs meilleurs courts extraits pour les dissertations du bac, puis poursuivre le modèle existant. Le même jour : poursuivre la sélection rigoureuse et le modèle existant avec les deux ouvrages de Simondon fournis ; courts extraits authentiques, sujets du bac attestés et commentaires originaux.",
   "source_files": [
     {
       "author": "Platon",
@@ -64,6 +64,16 @@
       "author": "Freud",
       "work": "La Répétition : mémoire et compulsion",
       "sha256": "318395e6841585130c6a207e8ca00909a9ea6f85abc821bee409eb866cb7a589"
+    },
+    {
+      "author": "Simondon",
+      "work": "Sur la philosophie (1950–1980)",
+      "sha256": "9dc74be9c15e40cc9c48fb55c5dfe6c3d807066cd1d9288900e58f2dd599127e"
+    },
+    {
+      "author": "Simondon",
+      "work": "L’Individu et sa genèse physico-biologique",
+      "sha256": "10b6c6fd702277daf4c60f8c09d6348f240fc9b997d62e95c33aab7917b5a33f"
     }
   ],
   "subject_source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf",
@@ -2299,6 +2309,105 @@
       "verification": "Comparaison mot pour mot au volume fourni ; espaces normalisés et seuls appels de notes retirés ; phrase et contexte relus.",
       "quote_sha256": "8d84f0e6480527970c4963399f734e370b8fcc6c93f62fbf74ab8493c72a6714",
       "translator_status": "identified"
+    },
+    {
+      "id": "simondon-culture-et-rencontre",
+      "code": "SI01",
+      "author": "Simondon",
+      "locator": "« Humanisme culturel, humanisme négatif, humanisme nouveau » (1953)",
+      "source_location": "EPUB fourni, OEBPS/XHTML/c12_chapter.xhtml, paragraphe 5",
+      "quotation_verified": true,
+      "verification": "Phrase complète confrontée au paragraphe de l’EPUB fourni ; espaces et renvoi de note normalisés.",
+      "quote_sha256": "081f9f3d4e2719f5138148d6b883aef8232a11e34be8a62426c685673978bd96",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "simondon-langage-perfectible",
+      "code": "SI02",
+      "author": "Simondon",
+      "locator": "« Les encyclopédies et l’esprit encyclopédique » (vers 1950)",
+      "source_location": "EPUB fourni, OEBPS/XHTML/c18_chapter.xhtml, paragraphe 7",
+      "quotation_verified": true,
+      "verification": "Phrase complète confrontée au paragraphe de l’EPUB fourni ; espaces et renvoi de note normalisés.",
+      "quote_sha256": "9e70c5ed359450ffdb52a52773a055e4647ad300e50be9e5f0ffbf8fb3de84e7",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "simondon-technique-et-invention",
+      "code": "SI03",
+      "author": "Simondon",
+      "locator": "« L’ordre des objets techniques comme paradigme d’universalité axiologique dans la relation interhumaine » (vers 1956)",
+      "source_location": "EPUB fourni, OEBPS/XHTML/c30_chapter.xhtml, paragraphe 6",
+      "quotation_verified": true,
+      "verification": "Phrase complète confrontée au paragraphe de l’EPUB fourni ; espaces et renvoi de note normalisés.",
+      "quote_sha256": "c4d54dd4c61672087347e8b50f75f1c088f8c91da2b91240c4153f16ba23c299",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "simondon-liberte-et-relation",
+      "code": "SI04",
+      "author": "Simondon",
+      "locator": "« L’ordre des objets techniques comme paradigme d’universalité axiologique dans la relation interhumaine » (vers 1956)",
+      "source_location": "EPUB fourni, OEBPS/XHTML/c30_chapter.xhtml, paragraphe 16",
+      "quotation_verified": true,
+      "verification": "Phrase complète confrontée au paragraphe de l’EPUB fourni ; espaces et renvoi de note normalisés.",
+      "quote_sha256": "7e95368fac5cddc14f23d26dc6ce2bb310df03bb836f84a107d32ab3d59d4f9e",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "simondon-juger-et-reparer",
+      "code": "SI05",
+      "author": "Simondon",
+      "locator": "« L’ordre des objets techniques comme paradigme d’universalité axiologique dans la relation interhumaine » (vers 1956)",
+      "source_location": "EPUB fourni, OEBPS/XHTML/c30_chapter.xhtml, paragraphe 26",
+      "quotation_verified": true,
+      "verification": "Phrase complète confrontée au paragraphe de l’EPUB fourni ; espaces et renvoi de note normalisés.",
+      "quote_sha256": "d5ade9b47073700d5a9a9c4423a704e12d007a8f5279088e76343d22a2123539",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "simondon-matiere-et-forme",
+      "code": "SI06",
+      "author": "Simondon",
+      "locator": "Première partie, chap. I « Forme et matière », I, 1, p. 39",
+      "source_location": "PDF fourni, page 37 ; Première partie, chap. I « Forme et matière », I, 1, p. 39",
+      "quotation_verified": true,
+      "verification": "Phrase complète confrontée au texte OCR et visuellement à la page scannée du PDF fourni ; espaces et césures normalisés.",
+      "quote_sha256": "3c0a36895186aae9b331fae8746c8a834b4574afe16a5b507f986fa5472d7dd9",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "simondon-individu-et-relations",
+      "code": "SI07",
+      "author": "Simondon",
+      "locator": "Première partie, chap. I « Forme et matière », III, 1, p. 60",
+      "source_location": "PDF fourni, page 58 ; Première partie, chap. I « Forme et matière », III, 1, p. 60",
+      "quotation_verified": true,
+      "verification": "Phrase complète confrontée au texte OCR et visuellement à la page scannée du PDF fourni ; espaces et césures normalisés.",
+      "quote_sha256": "5f8a5c362b81eaa8062832ea88f276aaba9c149ce686ae22309007f5e51256bd",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "simondon-animal-et-pensee",
+      "code": "SI08",
+      "author": "Simondon",
+      "locator": "Deuxième partie, chap. I, I, 2, p. 163, note 6",
+      "source_location": "PDF fourni, page 161 ; Deuxième partie, chap. I, I, 2, p. 163, note 6",
+      "quotation_verified": true,
+      "verification": "Phrase complète confrontée au texte OCR et visuellement à la page scannée du PDF fourni ; espaces et césures normalisés.",
+      "quote_sha256": "a72606ba332bc4c7e551cbb9fbfeda8621b61591a53378740cd31923e1c98ac1",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "simondon-ethique-et-vie-courante",
+      "code": "SI09",
+      "author": "Simondon",
+      "locator": "Conclusion, p. 244",
+      "source_location": "PDF fourni, page 242 ; Conclusion, p. 244",
+      "quotation_verified": true,
+      "verification": "Phrase complète confrontée au texte OCR et visuellement à la page scannée du PDF fourni ; espaces et césures normalisés.",
+      "quote_sha256": "1cbccb2158c01e9afd5fed7514125b0cb9abfdc74fda46e9404b45e81152c8ae",
+      "translator_status": "original-french"
     }
   ],
   "spinoza_edition_note": "La page de titre (part0002.xhtml) attribue édition et traduction à Maxime Rovere, © Flammarion 2021, ISBN numérique 9782080205179. Les noms figurant dans le nom du fichier téléversé ne servent pas à attribuer la traduction.",

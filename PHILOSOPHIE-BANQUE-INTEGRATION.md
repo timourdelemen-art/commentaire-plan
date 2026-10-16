@@ -6,9 +6,9 @@ Le propriétaire a fourni trois recueils, approuvé l’inventaire de 45 citatio
 
 ## Contenu
 
-- 177 citations : quinze de Platon, quinze d’Aristote, quinze de Nietzsche, quinze de Spinoza, dix-huit de Cioran, vingt-trois de Kant, seize de Baudelaire, dix-sept de Racine et dix-huit de Corneille, treize de Bachelard et douze de Freud.
-- 360 usages proposés sur 208 libellés de sujets distincts, avec un à trois sujets par fiche.
-- 177 commentaires originaux de six phrases, de 145 mots au plus ; aucune prétention à un protocole officiel de six phrases.
+- 186 citations : quinze de Platon, quinze d’Aristote, quinze de Nietzsche, quinze de Spinoza, dix-huit de Cioran, vingt-trois de Kant, seize de Baudelaire, dix-sept de Racine et dix-huit de Corneille, treize de Bachelard douze de Freud et neuf de Simondon.
+- 378 usages proposés sur 224 libellés de sujets distincts, avec un à trois sujets par fiche.
+- 186 commentaires originaux de six phrases, de 145 mots au plus ; aucune prétention à un protocole officiel de six phrases.
 - Sept liens vers des copies A20 existantes, avec indication de la sous-partie examinée. Il s’agit d’insertions possibles, pas de citations déjà présentes dans les copies.
 - Les sujets anciens sont attestés dans le recueil de l’académie de Montpellier, 1996-2025, aux pages conservées dans les données. Sept raccords sont vérifiés dans les PDF ministériels 2026 (Amérique du Nord et Asie).
 - Les traductions individuelles non identifiées restent explicitement indiquées comme à préciser. Les noms ne sont pas inventés.
@@ -90,3 +90,9 @@ L’audit de chacune des 33 fiches Baudelaire/Racine est motivé dans PHILOSOPHI
 Lecture intégrale des trois nouveaux volumes avant sélection (journal et décisions dans BACHELARD-FREUD-LECTURE.md). 25 courts extraits et 50 usages de sujets du bac attestés page par page. Première publication de La Formation en 1938 malgré la métadonnée 1934 ; traduction Cambon des Trois essais distinguée de celles du recueil Payot (Mannoni, puis Laplanche/Pontalis). La parole de l'enfant est explicitement rapportée par Freud. Aucun ouvrage complet publié.
 
 Validation de cette extension : génération et test des 177 fiches ; build intégral sur copie jetable (292 pages, contrôle global zéro erreur/20 avertissements, SEO zéro erreur/1 avertissement) ; navigateur à 390 et 1280 px, tous les extraits, six fonctions, filtres, titres en italique, situations, traductions et fonctionnement sans JavaScript. Le budget de taille de la banque était déjà dépassé avant cette extension (HTML358Ko, donnéesJS352Ko) ; elle l'augmente (HTML420Ko, JSlocal434Ko). Ce point reste une limite de la page complète, sans modification des seuils de contrôle.
+
+## Extension Simondon
+
+Neuf citations des deux livres fournis, dix-huit usages sur des sujets du bac et neuf commentaires de six phrases. Lecture de tout le texte disponible documentée dans SIMONDON-LECTURE.md : quatre pages absentes du scan et deux pages répétées, sans reconstitution des lacunes. Contrôle visuel des extraits du PDF, distinction des textes de Simondon et des interventions éditoriales. Édition Millon datée 1995, matériaux préparatoires du recueil PUF datés vers 1956, aucune attribution au livre définitif de 1958.
+
+Validation : génération et test des 186 fiches, comparaison des 177 fiches précédentes inchangées, build intégral sur copie jetable (292 pages, contrôle global zéro erreur/20 avertissements existants, SEO zéro erreur/1 avertissement existant), navigateur 390/1280 px sur toutes les fiches, deux lectures, filtres, six fonctions, italiques, sources, anciens liens et fonctionnement sans JavaScript. La limite de poids préexistante augmente à HTML442Ko/JSlocal457Ko ; aucun seuil ni contrôle n’est modifié pour la masquer.

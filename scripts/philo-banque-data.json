@@ -10894,6 +10894,558 @@
       "editionNote": "Texte de 1905, remanié jusqu’en 1924 ; traduction de la version de 1924. Les pages du PDF ne sont pas celles de l’édition imprimée.",
       "speaker": "Un garçon de trois ans",
       "situation": "Freud rapporte les paroles d’un enfant qui demande à sa tante de le rassurer en parlant dans le noir."
+    },
+    {
+      "id": "simondon-culture-et-rencontre",
+      "code": "SI01",
+      "author": "Simondon",
+      "title": "La culture rapproche des vies éloignées",
+      "quote": "Car la culture est le seul moyen que nous ayons de participer à la vie des temps révolus et des sociétés étrangères de manière à les rendre moins révolus et moins étrangères.",
+      "locator": "« Humanisme culturel, humanisme négatif, humanisme nouveau » (1953)",
+      "notions": [
+        "raison",
+        "temps"
+      ],
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La différence des époques et des coutumes condamne-t-elle les hommes à rester étrangers les uns aux autres ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Simondon affirme que la culture permet de participer à des vies éloignées de la nôtre."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Participer signifie ici comprendre une expérience humaine, sans avoir à adopter toutes ses croyances."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Les œuvres et les savoirs transmis rendent accessibles des façons de vivre que notre seule expérience ne nous ferait pas rencontrer."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Lire une tragédie antique permet ainsi de reconnaître une épreuve humaine dans un monde très différent du nôtre."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La culture ouvre donc une possibilité de rapprochement, dont la réalisation exige un effort de compréhension."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La culture sépare-t-elle ou rapproche-t-elle les hommes ?",
+          "function": "Construire la possibilité du rapprochement",
+          "reason": "Montrer que la différence culturelle peut devenir l’occasion de comprendre une autre expérience humaine plutôt qu’un obstacle définitif.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=85",
+          "sourceLabel": "Recueil académique · p. 85"
+        },
+        {
+          "subject": "La culture libère-t-elle des préjugés ?",
+          "function": "Préciser une condition de la libération",
+          "reason": "Expliquer que rencontrer des vies éloignées peut défaire la croyance selon laquelle nos propres usages seraient la seule mesure de l’humanité.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=84",
+          "sourceLabel": "Recueil académique · p. 84"
+        }
+      ],
+      "work": "Sur la philosophie (1950–1980)",
+      "edition": "Édition établie par Nathalie Simondon et Irlande Saurin",
+      "publisher": "Presses universitaires de France",
+      "editionYear": "2016",
+      "translator": null,
+      "originalLanguage": "français",
+      "editionNote": "Recueil de textes rédigés entre 1950 et 1980 ; la date du texte cité est précisée dans la référence."
+    },
+    {
+      "id": "simondon-langage-perfectible",
+      "code": "SI02",
+      "author": "Simondon",
+      "title": "Le langage reste à inventer",
+      "quote": "Pour démystifier le langage, il faut le montrer inachevé, perfectible, en voie de constitution.",
+      "locator": "« Les encyclopédies et l’esprit encyclopédique » (vers 1950)",
+      "notions": [
+        "langage",
+        "raison"
+      ],
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Les mots imposent-ils à la pensée un cadre définitivement fixé ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Simondon invite à comprendre le langage comme une œuvre humaine encore perfectible."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Démystifier consiste à retirer aux mots leur apparence de réalités immuables et mystérieuses."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Retrouver leur histoire et les inventions de sens qu’ils conservent permet de les examiner et de les transformer."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Préciser le sens du mot liberté dans une discussion peut ainsi défaire une opposition qui semblait insurmontable."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le langage peut être travaillé par la pensée, même si cette pensée doit partir de mots déjà disponibles."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Le langage trahit-il la pensée ?",
+          "function": "Dépasser la plainte contre les mots",
+          "reason": "Montrer que les limites du vocabulaire appellent un travail de précision et d’invention plutôt qu’un abandon du langage.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=36",
+          "sourceLabel": "Recueil académique · p. 36"
+        },
+        {
+          "subject": "Le langage détermine-t-il notre rapport au réel ?",
+          "function": "Limiter le caractère définitif de la détermination",
+          "reason": "Reconnaître que les mots orientent notre compréhension tout en soutenant que leur sens peut être repris et transformé.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=36",
+          "sourceLabel": "Recueil académique · p. 36"
+        }
+      ],
+      "work": "Sur la philosophie (1950–1980)",
+      "edition": "Édition établie par Nathalie Simondon et Irlande Saurin",
+      "publisher": "Presses universitaires de France",
+      "editionYear": "2016",
+      "translator": null,
+      "originalLanguage": "français",
+      "editionNote": "Recueil de textes rédigés entre 1950 et 1980 ; la date du texte cité est précisée dans la référence."
+    },
+    {
+      "id": "simondon-technique-et-invention",
+      "code": "SI03",
+      "author": "Simondon",
+      "title": "La technique possède sa pensée propre",
+      "quote": "C’est refuser de comprendre la nature de l’être technique que de le considérer comme un sous-produit de la pensée scientifique ou un instrument au service des fins morales.",
+      "locator": "« L’ordre des objets techniques comme paradigme d’universalité axiologique dans la relation interhumaine » (vers 1956)",
+      "notions": [
+        "technique",
+        "science",
+        "devoir"
+      ],
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Comprend-on une machine en connaissant seulement les lois qu’elle applique ou le but qu’elle sert ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Simondon refuse de réduire l’être technique à l’application d’un savoir ou à un simple moyen."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’être technique est ici un fonctionnement organisé qui relie des contraintes naturelles à des possibilités d’action."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Son invention exige de rendre compatibles plusieurs nécessités que la connaissance séparée des lois ne réunit pas encore."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Concevoir un moteur suppose ainsi d’organiser ensemble combustion, refroidissement et transmission du mouvement."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Cette autonomie de l’invention oblige à comprendre les techniques, sans les soustraire à la responsabilité morale."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La technique n’est-elle qu’une application de la science ?",
+          "function": "Contester la réduction à la science appliquée",
+          "reason": "Distinguer la connaissance des lois de l’invention d’un fonctionnement qui les fait agir ensemble.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=56",
+          "sourceLabel": "Recueil académique · p. 56"
+        },
+        {
+          "subject": "La technique est-elle moralement neutre ?",
+          "function": "Distinguer compréhension technique et évaluation morale",
+          "reason": "Établir qu’un objet possède une organisation propre avant d’examiner les fins qu’il permet de servir, sans conclure à son innocence morale.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=63",
+          "sourceLabel": "Recueil académique · p. 63"
+        }
+      ],
+      "work": "Sur la philosophie (1950–1980)",
+      "edition": "Édition établie par Nathalie Simondon et Irlande Saurin",
+      "publisher": "Presses universitaires de France",
+      "editionYear": "2016",
+      "translator": null,
+      "originalLanguage": "français",
+      "editionNote": "Recueil de textes rédigés entre 1950 et 1980 ; la date du texte cité est précisée dans la référence."
+    },
+    {
+      "id": "simondon-liberte-et-relation",
+      "code": "SI04",
+      "author": "Simondon",
+      "title": "Agir librement entre soi et les autres",
+      "quote": "Un pur individualisme ou un pur sociologisme font évanouir la liberté de l’acte.",
+      "locator": "« L’ordre des objets techniques comme paradigme d’universalité axiologique dans la relation interhumaine » (vers 1956)",
+      "notions": [
+        "liberte",
+        "devoir"
+      ],
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La liberté vient-elle seulement de l’individu ou des règles de la société ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Simondon refuse d’expliquer l’acte libre exclusivement par l’un de ces deux termes."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’individualisme isole les exigences personnelles, tandis que le sociologisme ramène l’action aux déterminations sociales."
+        },
+        {
+          "function": "La raison",
+          "sentence": "L’acte libre invente une manière de rendre compatibles des exigences que les règles déjà établies ne suffisaient pas à accorder."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Dans un travail commun, proposer une nouvelle répartition des tâches peut concilier initiative personnelle et engagements collectifs."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La liberté se pense ainsi comme une invention dans la relation, dont la valeur reste à justifier."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Les hommes peuvent-ils s’associer sans renoncer à leur liberté ?",
+          "function": "Chercher une liberté dans l’action commune",
+          "reason": "Montrer qu’une association peut permettre l’invention de rapports nouveaux plutôt que la seule soumission à des règles déjà fixées.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=45",
+          "sourceLabel": "Recueil académique · p. 45"
+        },
+        {
+          "subject": "La vie en société favorise-elle la liberté ?",
+          "function": "Distinguer cadre social et initiative",
+          "reason": "Examiner comment une initiative transforme une relation sociale, au lieu de faire de la société la cause suffisante ou l’ennemie nécessaire de la liberté.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=45",
+          "sourceLabel": "Recueil académique · p. 45"
+        }
+      ],
+      "work": "Sur la philosophie (1950–1980)",
+      "edition": "Édition établie par Nathalie Simondon et Irlande Saurin",
+      "publisher": "Presses universitaires de France",
+      "editionYear": "2016",
+      "translator": null,
+      "originalLanguage": "français",
+      "editionNote": "Recueil de textes rédigés entre 1950 et 1980 ; la date du texte cité est précisée dans la référence."
+    },
+    {
+      "id": "simondon-juger-et-reparer",
+      "code": "SI05",
+      "author": "Simondon",
+      "title": "Le jugement moral engage un geste",
+      "quote": "Le vrai jugement moral, comme le vrai jugement technique, est inadéquat s’il vise à être une pure expertise : il ne peut se dissocier du début du geste réparateur.",
+      "locator": "« L’ordre des objets techniques comme paradigme d’universalité axiologique dans la relation interhumaine » (vers 1956)",
+      "notions": [
+        "justice",
+        "devoir"
+      ],
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Juger moralement consiste-t-il seulement à établir un diagnostic sur une personne ou sur son acte ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Simondon affirme qu’un jugement moral adéquat doit amorcer une réparation."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La pure expertise désigne ici une évaluation qui constate et classe sans commencer à transformer la situation."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La comparaison avec la technique invite à chercher comment rendre possible un fonctionnement meilleur plutôt qu’à fixer une identité définitive."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Reconnaître une faute dans un groupe peut ainsi conduire à réparer le dommage et à modifier l’organisation qui l’a favorisée."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Cette exigence élargit le jugement à la responsabilité pratique, sans effacer la faute ni remplacer les procédures judiciaires."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Un homme peut-il en juger un autre ?",
+          "function": "Proposer une condition du jugement moral",
+          "reason": "Distinguer l’étiquette définitive portée sur une personne d’une appréciation qui engage une possibilité de réparation.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=32",
+          "sourceLabel": "Recueil académique · p. 32"
+        },
+        {
+          "subject": "Pourquoi demander justice ?",
+          "function": "Élargir la demande au-delà du constat",
+          "reason": "Introduire l’exigence de réparation du tort, en précisant que cette thèse sur le jugement moral ne définit pas à elle seule la justice judiciaire.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=31",
+          "sourceLabel": "Recueil académique · p. 31"
+        }
+      ],
+      "work": "Sur la philosophie (1950–1980)",
+      "edition": "Édition établie par Nathalie Simondon et Irlande Saurin",
+      "publisher": "Presses universitaires de France",
+      "editionYear": "2016",
+      "translator": null,
+      "originalLanguage": "français",
+      "editionNote": "Recueil de textes rédigés entre 1950 et 1980 ; la date du texte cité est précisée dans la référence."
+    },
+    {
+      "id": "simondon-matiere-et-forme",
+      "code": "SI06",
+      "author": "Simondon",
+      "title": "La matière contribue à la forme",
+      "quote": "La qualité de la matière est source de forme, élément de forme que l’opération technique fait changer d’échelle.",
+      "locator": "Première partie, chap. I « Forme et matière », I, 1, p. 39",
+      "notions": [
+        "travail",
+        "technique",
+        "nature"
+      ],
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Travailler une matière consiste-t-il à lui imposer une forme qu’elle ne possède aucunement ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Simondon soutient que les propriétés de la matière contribuent à la forme obtenue."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La qualité désigne ici des propriétés physiques, et l’opération technique le travail concret qui les met en œuvre."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Le moule ne suffit pas à produire une brique : l’argile doit pouvoir se déformer puis conserver le contour reçu."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "L’artisan prépare donc la terre en la broyant, en la mouillant et en la pétrissant."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le travail apparaît ainsi comme une mise en œuvre de possibilités naturelles, qui exige aussi de connaître leurs limites."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Le travail n’est-il qu’une lutte avec la nature ?",
+          "function": "Contester la seule logique de la lutte",
+          "reason": "Montrer que l’efficacité du travail vient aussi de propriétés naturelles dont l’artisan apprend à se servir.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=47",
+          "sourceLabel": "Recueil académique · p. 47"
+        },
+        {
+          "subject": "Travailler, est-ce seulement mettre en œuvre une technique ?",
+          "function": "Éclairer l’intelligence de la situation concrète",
+          "reason": "Distinguer l’application mécanique d’une recette de l’attention aux propriétés de la matière effectivement travaillée.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=69",
+          "sourceLabel": "Recueil académique · p. 69"
+        }
+      ],
+      "work": "L’Individu et sa genèse physico-biologique",
+      "edition": "Krisis · nouvelle édition augmentée",
+      "publisher": "Jérôme Millon",
+      "editionYear": "1995",
+      "translator": null,
+      "originalLanguage": "français",
+      "editionNote": "Première publication partielle en 1964 ; édition augmentée de 1995. Les pages indiquées sont celles de l’édition imprimée."
+    },
+    {
+      "id": "simondon-individu-et-relations",
+      "code": "SI07",
+      "author": "Simondon",
+      "title": "L’individu se forme dans la relation",
+      "quote": "L’individu est réalité d’une relation constituante, non intériorité d’un terme constitué.",
+      "locator": "Première partie, chap. I « Forme et matière », III, 1, p. 60",
+      "notions": [
+        "conscience",
+        "nature"
+      ],
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Faut-il concevoir l’individu comme un être déjà achevé avant toute relation ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Simondon propose de comprendre l’individu par la relation qui le constitue."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Une relation constituante fait naître une réalité, tandis qu’un terme constitué serait déjà donné avant elle."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Dans l’individuation physique étudiée ici, matière, énergie et milieu participent à une même opération de formation."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Le cristal se forme ainsi dans des conditions de milieu dont sa croissance ne peut être séparée."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Cette thèse invite à repenser aussi la formation du sujet dans ses relations, sans réduire sa vie psychique à un processus physique."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Peut-on se connaître soi-même sans l’aide d’autrui ?",
+          "function": "Questionner le modèle d’un moi déjà achevé",
+          "reason": "Ouvrir la recherche sur les relations qui nous forment ; leur importance pour la connaissance de soi demande ensuite un argument propre au sujet humain.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=82",
+          "sourceLabel": "Recueil académique · p. 82"
+        },
+        {
+          "subject": "Suis-je ce que mon passé a fait de moi ?",
+          "function": "Introduire la formation plutôt qu’une essence fixe",
+          "reason": "Penser l’individu à partir de sa genèse, sans faire du résultat passé une identité définitivement close.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=67",
+          "sourceLabel": "Recueil académique · p. 67"
+        }
+      ],
+      "work": "L’Individu et sa genèse physico-biologique",
+      "edition": "Krisis · nouvelle édition augmentée",
+      "publisher": "Jérôme Millon",
+      "editionYear": "1995",
+      "translator": null,
+      "originalLanguage": "français",
+      "editionNote": "Première publication partielle en 1964 ; édition augmentée de 1995. Les pages indiquées sont celles de l’édition imprimée."
+    },
+    {
+      "id": "simondon-animal-et-pensee",
+      "code": "SI08",
+      "author": "Simondon",
+      "title": "La pensée ne trace pas une frontière simple",
+      "quote": "Ceci ne signifie pas qu’il y ait des êtres seulement vivants et d’autres vivants et pensants : il est probable que les animaux se trouvent parfois en situation psychique.",
+      "locator": "Deuxième partie, chap. I, I, 2, p. 163, note 6",
+      "notions": [
+        "nature",
+        "raison",
+        "conscience"
+      ],
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La pensée permet-elle de séparer absolument l’homme des autres vivants ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Simondon envisage que les animaux puissent eux aussi rencontrer des situations psychiques."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le psychisme désigne ici la recherche d’une résolution quand les régulations vitales ne suffisent plus."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La différence porte alors sur la fréquence et les possibilités de cette recherche plutôt que sur deux essences entièrement séparées."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Selon la note, les ressources du symbolisme permettent à l’homme de faire plus souvent appel au psychisme."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Présentée comme probable, cette hypothèse conteste une séparation absolue sans effacer les différences ni constituer une preuve expérimentale."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Y a-t-il une différence de nature entre l’homme et l’animal ?",
+          "function": "Mettre en question une frontière absolue",
+          "reason": "Opposer à la distinction de deux essences l’hypothèse de situations psychiques possibles chez les animaux.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=48",
+          "sourceLabel": "Recueil académique · p. 48"
+        },
+        {
+          "subject": "Prétendre distinguer l’homme de l’animal, est-ce légitime ?",
+          "function": "Préciser ce que la distinction peut signifier",
+          "reason": "Distinguer des possibilités et des fréquences d’activité sans réserver toute pensée à l’humanité.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=48",
+          "sourceLabel": "Recueil académique · p. 48"
+        }
+      ],
+      "work": "L’Individu et sa genèse physico-biologique",
+      "edition": "Krisis · nouvelle édition augmentée",
+      "publisher": "Jérôme Millon",
+      "editionYear": "1995",
+      "translator": null,
+      "originalLanguage": "français",
+      "editionNote": "Première publication partielle en 1964 ; édition augmentée de 1995. Les pages indiquées sont celles de l’édition imprimée."
+    },
+    {
+      "id": "simondon-ethique-et-vie-courante",
+      "code": "SI09",
+      "author": "Simondon",
+      "title": "La morale se construit dans la vie",
+      "quote": "Une véritable éthique serait celle qui tiendrait compte de la vie courante sans s’assoupir dans le courant de cette vie, qui saurait définir à travers les normes un sens qui les dépasse.",
+      "locator": "Conclusion, p. 244",
+      "notions": [
+        "devoir",
+        "raison"
+      ],
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La morale doit-elle quitter la vie quotidienne ou se conformer à ses habitudes ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Simondon cherche une éthique attentive à la vie courante et capable de dépasser ses règles établies."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Les normes sont ici les règles d’une situation donnée, tandis que leur sens permet de les interroger et de les transformer."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une morale séparée de la vie perd sa prise sur l’action, mais l’obéissance aux usages ne justifie pas leur valeur."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une règle de coopération peut être révisée lorsque son application empêche certains membres du groupe de participer."
+        },
+        {
+          "function": "La portée",
+          "sentence": "L’exigence morale se cherche ainsi dans la transformation réfléchie des pratiques, plutôt que dans leur simple répétition."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Faire son devoir, est-ce là toute la morale ?",
+          "function": "Interroger les règles du devoir",
+          "reason": "Distinguer l’exécution d’une règle déjà reçue de la recherche du sens qui permet de l’évaluer et de la transformer.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=24",
+          "sourceLabel": "Recueil académique · p. 24"
+        },
+        {
+          "subject": "Les conventions sociales peuvent-elles tenir lieu de morale ?",
+          "function": "Dépasser la conformité aux usages",
+          "reason": "Montrer qu’une éthique doit prendre appui sur la vie commune tout en gardant la capacité d’en interroger les normes.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=118",
+          "sourceLabel": "Recueil académique · p. 118"
+        }
+      ],
+      "work": "L’Individu et sa genèse physico-biologique",
+      "edition": "Krisis · nouvelle édition augmentée",
+      "publisher": "Jérôme Millon",
+      "editionYear": "1995",
+      "translator": null,
+      "originalLanguage": "français",
+      "editionNote": "Première publication partielle en 1964 ; édition augmentée de 1995. Les pages indiquées sont celles de l’édition imprimée."
     }
   ]
 }
