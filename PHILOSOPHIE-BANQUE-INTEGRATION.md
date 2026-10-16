@@ -48,3 +48,7 @@ Douze phrases autonomes ont été retenues après examen, six dans le *Précis d
 Vingt-quatre emplois renvoient au recueil académique ; deux autres sont reliés à des sujets officiels 2026 et à des copies A20 examinées : *Peut-on concevoir une humanité sans religion ?*, II.3, pour la sacralisation et le risque d’exclusion ; *L’artiste sait-il ce qu’il fait ?*, II.3, pour discuter la différence entre le détachement radical et la lucidité nécessaire au travail de l’artiste. Aucun raccord ne prétend que ces citations se trouvent déjà dans les copies.
 
 Les commentaires reconstruisent un argument local, sans prêter à Cioran une doctrine unifiée : faux absolus, définition et présence, ennui, explication et épreuve, conflit du désir et des principes, réflexion sur la sensation, passage du doute théorique au doute pratique, conversion et contrainte, besoin de reconnaissance, conscience corporelle, création et détachement, temps vécu. Les métaphores sont explicitées ; les généralisations polémiques sont distinguées des lois démontrées. L’intensité de la conscience n’est confondue ni avec un savoir complet ni avec une puissance accrue ; l’échec pratique d’un principe ne prouve pas sa fausseté logique.
+
+## Complément demandé : « L’Arbre de vie »
+
+Le 16 octobre 2026, le propriétaire demande de développer les usages de la relecture de la Genèse dans le premier chapitre de La Chute dans le temps. Sélection de phrases autonomes et rédaction des fiches au même format, après vérification dans le fichier fourni.
