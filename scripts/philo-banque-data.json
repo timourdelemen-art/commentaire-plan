@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-10-16",
+  "updated": "2026-10-17",
   "legacyIds": {
     "platon-persuasion": "platon-convaincre-sans-faire-connaitre",
     "platon-recherche": "platon-apprendre-et-se-ressouvenir",
@@ -12400,6 +12400,1303 @@
         }
       ],
       "editionNote": "Formulation française exacte du sujet : « l’espace du monde » ; l’ancienne compilation porte une autre variante, « l’espace mondain »."
+    },
+    {
+      "id": "la-fontaine-accuser-le-miroir",
+      "code": "LF01",
+      "author": "La Fontaine",
+      "title": "Accuser le miroir",
+      "work": "L’Homme et son Image",
+      "collection": "Fables choisies mises en vers",
+      "locator": "Livre I, fable XI · p. 44 (PDF p. 110)",
+      "quote": "Il accusait toujours les miroirs d’être faux,\nVivant plus que content dans son erreur profonde.",
+      "verse": true,
+      "notions": [
+        "conscience",
+        "verite",
+        "bonheur"
+      ],
+      "edition": "Édition de Georges Couton, Classiques Garnier",
+      "publisher": "Bordas",
+      "editionYear": 1990,
+      "translator": null,
+      "originalLanguage": "français",
+      "speaker": "Le narrateur",
+      "situation": "Un homme épris de lui-même refuse les reflets qui contredisent la haute opinion qu’il a de sa beauté.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Pourquoi la connaissance de soi rencontre-t-elle parfois une résistance en nous-mêmes ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "La Fontaine peint un homme qui préfère condamner les miroirs plutôt que corriger son jugement."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le miroir représente ici un témoignage extérieur, tandis que l’erreur entretient une satisfaction intérieure."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Ce qui déplaît au personnage lui paraît faux parce qu’il confond son désir d’être beau avec une preuve."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "De même, un reproche justifié peut être rejeté comme malveillant lorsqu’il blesse notre amour-propre."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le récit fait donc voir un obstacle affectif à la connaissance de soi, sans établir que toute critique serait vraie."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Peut-on se voir tel que l’on est ?",
+          "function": "Montrer une résistance à la connaissance de soi",
+          "reason": "L’homme dispose de reflets, mais refuse leur témoignage : l’obstacle tient à l’accueil du jugement autant qu’au manque d’informations.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=20",
+          "sourceLabel": "Recueil académique · p. 20"
+        },
+        {
+          "subject": "Faut-il préférer la vérité au bonheur ?",
+          "function": "Mettre à l’épreuve un bonheur fondé sur l’illusion",
+          "reason": "La satisfaction du personnage dépend d’une erreur entretenue ; examiner sa fragilité plutôt que supposer que toute vérité rend heureux.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=15",
+          "sourceLabel": "Recueil académique · p. 15"
+        }
+      ]
+    },
+    {
+      "id": "la-fontaine-appeler-la-mort-retenir-la-vie",
+      "code": "LF02",
+      "author": "La Fontaine",
+      "title": "Appeler la mort, retenir la vie",
+      "work": "La Mort et le Bûcheron",
+      "collection": "Fables choisies mises en vers",
+      "locator": "Livre I, fable XVI · p. 50 (PDF p. 118)",
+      "quote": "C’est, dit-il, afin de m’aider\nA recharger ce bois; tu ne tarderas guère.",
+      "verse": true,
+      "notions": [
+        "conscience",
+        "bonheur",
+        "liberte"
+      ],
+      "edition": "Édition de Georges Couton, Classiques Garnier",
+      "publisher": "Bordas",
+      "editionYear": 1990,
+      "translator": null,
+      "originalLanguage": "français",
+      "speaker": "Le Bûcheron",
+      "situation": "Épuisé, le bûcheron appelle la Mort ; lorsqu’elle paraît, il lui demande seulement de l’aider à porter son bois.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Savons-nous toujours ce que nous désirons lorsque nous exprimons notre détresse ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Le bûcheron qui appelait la Mort lui demande finalement de l’aider à poursuivre sa vie."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Vouloir la fin d’une souffrance se distingue alors de vouloir la fin de son existence."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La présence de la Mort révèle un attachement à la vie que la plainte semblait avoir effacé."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Dans cette scène, le bois rechargé représente le retour à une condition pénible que le personnage préfère néanmoins conserver."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La réplique invite ainsi à interroger le sens d’un désir déclaré, sans transformer ce cas fictif en vérité universelle sur la souffrance."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Les hommes savent-ils ce qu’ils désirent ?",
+          "function": "Distinguer la plainte et son objet véritable",
+          "reason": "L’appel de la Mort devient une demande d’aide : analyser l’écart entre les mots prononcés et le désir qui se révèle dans l’épreuve.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=20",
+          "sourceLabel": "Recueil académique · p. 20"
+        },
+        {
+          "subject": "La souffrance est-elle au cœur de l’existence ?",
+          "function": "Nuancer l’identification de vivre et souffrir",
+          "reason": "La scène associe le poids de l’existence à un attachement persistant à la vie ; elle ouvre la discussion sans justifier toute souffrance.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=16",
+          "sourceLabel": "Recueil académique · p. 16"
+        }
+      ]
+    },
+    {
+      "id": "la-fontaine-qui-peint-la-victoire",
+      "code": "LF03",
+      "author": "La Fontaine",
+      "title": "Qui peint la victoire ?",
+      "work": "Le Lion abattu par l’Homme",
+      "collection": "Fables choisies mises en vers",
+      "locator": "Livre III, fable X · p. 94 (PDF p. 174)",
+      "quote": "Avec plus de raison nous aurions le dessus,\nSi mes confrères savaient peindre.",
+      "verse": true,
+      "notions": [
+        "art",
+        "verite",
+        "justice"
+      ],
+      "edition": "Édition de Georges Couton, Classiques Garnier",
+      "publisher": "Bordas",
+      "editionYear": 1990,
+      "translator": null,
+      "originalLanguage": "français",
+      "speaker": "Le Lion",
+      "situation": "Devant un tableau glorifiant un homme victorieux d’un lion, un lion conteste le privilège humain de produire les images.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une image montre-t-elle les faits indépendamment de celui qui la produit ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Le lion suggère que la victoire humaine représentée dépend aussi du pouvoir humain de peindre."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La représentation sélectionne un point de vue et ne se confond donc pas avec une preuve impartiale."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Celui qui possède les moyens de représenter peut rendre sa propre supériorité visible et laisser celle des autres sans image."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Le tableau admiré par les hommes devient ainsi, pour le lion, le témoignage de leur avantage dans la fabrication des récits."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La réplique invite à examiner la position du représentant, sans garantir qu’une peinture de lion serait plus objective."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Que peut nous apprendre une image ?",
+          "function": "Distinguer ce qui est représenté et le point de vue du représentant",
+          "reason": "Le tableau renseigne sur la gloire que les hommes se donnent autant que sur le combat qu’il prétend montrer.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=8",
+          "sourceLabel": "Recueil académique · p. 8"
+        },
+        {
+          "subject": "Peut-on reprocher à l’art d’être mensonger ?",
+          "function": "Interroger une représentation qui se donne pour une preuve",
+          "reason": "L’image peut fabriquer une évidence favorable à son auteur ; distinguer cette prétention de la liberté reconnue à la fiction.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=10",
+          "sourceLabel": "Recueil académique · p. 10"
+        }
+      ]
+    },
+    {
+      "id": "la-fontaine-enfermer-sa-joie-avec-son-argent",
+      "code": "LF04",
+      "author": "La Fontaine",
+      "title": "Enfermer sa joie avec son argent",
+      "work": "Le Savetier et le Financier",
+      "collection": "Fables choisies mises en vers",
+      "locator": "Livre VIII, fable II · p. 208 (PDF p. 304)",
+      "quote": "Il retourne chez lui : dans sa cave il enserre\nL’argent et sa joie à la fois.",
+      "verse": true,
+      "notions": [
+        "bonheur",
+        "liberte"
+      ],
+      "edition": "Édition de Georges Couton, Classiques Garnier",
+      "publisher": "Bordas",
+      "editionYear": 1990,
+      "translator": null,
+      "originalLanguage": "français",
+      "speaker": "Le narrateur",
+      "situation": "Après avoir reçu cent écus du financier, le savetier cache l’argent et perd la tranquillité qui le faisait chanter.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Posséder davantage suffit-il à mieux vivre ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "La Fontaine représente un savetier dont l’argent nouvellement reçu enferme aussi la joie."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La possession matérielle se distingue ici de la disponibilité intérieure nécessaire au bonheur."
+        },
+        {
+          "function": "La raison",
+          "sentence": "En craignant constamment de perdre son trésor, le personnage transforme un avantage en source de dépendance."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "L’argent caché dans la cave mobilise désormais son attention et fait taire les chansons qui accompagnaient son travail."
+        },
+        {
+          "function": "La portée",
+          "sentence": "L’image permet donc de discuter la valeur des biens par leurs effets sur la vie, sans présenter la pauvreté comme un idéal."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Suffit-il d’avoir ce que l’on désire pour être heureux ?",
+          "function": "Opposer la possession d’un bien et la capacité d’en jouir",
+          "reason": "Le don enrichit le savetier mais suscite la peur de perdre ; la satisfaction matérielle ne garantit pas la tranquillité.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=16",
+          "sourceLabel": "Recueil académique · p. 16"
+        },
+        {
+          "subject": "La liberté s’oppose-t-elle à la sécurité ?",
+          "function": "Montrer une recherche de sécurité qui devient une dépendance",
+          "reason": "En protégeant sans cesse son trésor, le savetier perd sa liberté d’attention ; distinguer une sécurité utile d’une inquiétude entretenue par elle.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=38",
+          "sourceLabel": "Recueil académique · p. 38"
+        }
+      ]
+    },
+    {
+      "id": "la-fontaine-le-plaisir-de-comprendre",
+      "code": "LF05",
+      "author": "La Fontaine",
+      "title": "Le plaisir de comprendre",
+      "work": "Le Pâtre et le Lion",
+      "collection": "Fables choisies mises en vers",
+      "locator": "Livre VI, fable I · p. 153 (PDF p. 243)",
+      "quote": "Une Morale nue apporte de l’ennui;\nLe conte fait passer le précepte avec lui.",
+      "verse": true,
+      "notions": [
+        "art",
+        "langage",
+        "raison"
+      ],
+      "edition": "Édition de Georges Couton, Classiques Garnier",
+      "publisher": "Bordas",
+      "editionYear": 1990,
+      "translator": null,
+      "originalLanguage": "français",
+      "speaker": "Le narrateur",
+      "situation": "Avant de raconter la rencontre d’un pâtre et d’un lion, le poète explique comment la fable associe plaisir et instruction.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Le plaisir d’une œuvre empêche-t-il de réfléchir ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "La Fontaine soutient que le récit peut rendre une leçon plus accessible qu’un précepte isolé."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le conte donne une situation sensible à une règle morale qui resterait autrement abstraite."
+        },
+        {
+          "function": "La raison",
+          "sentence": "L’intérêt pris aux personnages conduit le lecteur à suivre les conséquences de leurs actions et à examiner leurs choix."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "L’ours qui tue son ami en voulant le protéger fait comprendre les dangers d’une intention privée de jugement."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La formule montre ainsi une coopération possible entre plaisir et réflexion, sans réduire toute œuvre d’art à une leçon."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’art n’a-t-il pour but que le plaisir ?",
+          "function": "Associer le plaisir du récit à un travail de réflexion",
+          "reason": "La fable plaît en faisant suivre une action dont les conséquences instruisent ; le plaisir peut participer à une autre fin.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6"
+        },
+        {
+          "subject": "L’art doit-il nous instruire ?",
+          "function": "Décrire une manière d’instruire propre au récit",
+          "reason": "Le précepte devient intelligible dans une situation imaginée ; cette possibilité ne suffit pas à imposer une mission morale à tout art.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6"
+        }
+      ]
+    },
+    {
+      "id": "la-fontaine-changer-de-maitre-rester-soumis",
+      "code": "LF06",
+      "author": "La Fontaine",
+      "title": "Changer de maître, rester soumis",
+      "work": "Le Vieillard et l’Âne",
+      "collection": "Fables choisies mises en vers",
+      "locator": "Livre VI, fable VIII · p. 160 (PDF p. 250)",
+      "quote": "Notre ennemi, c’est notre Maître :\nJe vous le dis en bon François.",
+      "verse": true,
+      "notions": [
+        "liberte",
+        "etat",
+        "justice"
+      ],
+      "edition": "Édition de Georges Couton, Classiques Garnier",
+      "publisher": "Bordas",
+      "editionYear": 1990,
+      "translator": null,
+      "originalLanguage": "français",
+      "speaker": "L’Âne",
+      "situation": "L’âne refuse de fuir l’ennemi : il pense que changer de propriétaire ne modifiera pas la charge qu’il doit porter.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Un changement de pouvoir suffit-il à supprimer la domination ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "L’âne considère son maître actuel comme son ennemi parce qu’il demeure celui qui lui impose sa charge."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La liberté se distingue ici du simple remplacement de la personne qui commande."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Du point de vue du dominé, la victoire d’un camp importe peu si elle laisse intacte la relation de servitude."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Dans la fable, l’animal compare les charges attendues plutôt que les fidélités que le vieillard voudrait lui faire partager."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Sa réplique oblige donc à examiner les conditions concrètes de l’obéissance, sans prouver que tous les pouvoirs se valent."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’État exerce-t-il nécessairement une domination ?",
+          "function": "Introduire le point de vue de celui qui subit le pouvoir",
+          "reason": "La réplique distingue l’identité des dirigeants et les effets de leur autorité ; elle sert de comparaison, sans assimiler d’emblée l’État au propriétaire.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=25",
+          "sourceLabel": "Recueil académique · p. 25"
+        },
+        {
+          "subject": "La liberté consiste-t-elle à n’obéir à personne ?",
+          "function": "Distinguer changement de maître et libération",
+          "reason": "Le refus de l’âne révèle qu’une nouvelle autorité peut reconduire la même dépendance ; examiner ensuite les formes d’obéissance compatibles avec la liberté.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=38",
+          "sourceLabel": "Recueil académique · p. 38"
+        }
+      ]
+    },
+    {
+      "id": "la-fontaine-la-puissance-devant-le-juge",
+      "code": "LF07",
+      "author": "La Fontaine",
+      "title": "La puissance devant le juge",
+      "work": "Les Animaux malades de la peste",
+      "collection": "Fables choisies mises en vers",
+      "locator": "Livre VII, fable I · p. 180 (PDF p. 270)",
+      "quote": "Selon que vous serez puissant ou misérable,\nLes jugements de cour vous rendront blanc ou noir.",
+      "verse": true,
+      "notions": [
+        "justice",
+        "etat",
+        "verite"
+      ],
+      "edition": "Édition de Georges Couton, Classiques Garnier",
+      "publisher": "Bordas",
+      "editionYear": 1990,
+      "translator": null,
+      "originalLanguage": "français",
+      "speaker": "Le narrateur",
+      "situation": "Le lion est absous de ses violences ; l’âne, coupable d’avoir brouté un peu d’herbe, est désigné comme victime expiatoire.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une décision prononcée par un tribunal est-elle nécessairement juste ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "La Fontaine dénonce des jugements qui changent selon la puissance de l’accusé."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le verdict officiel se sépare alors de l’examen impartial des actes commis."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La peur des puissants fait excuser leurs crimes, tandis que la faiblesse de l’âne rend sa faute disproportionnellement punissable."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Le même conseil absout ainsi le lion et condamne celui qui ne peut se défendre contre lui."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Ces vers permettent de penser les conditions d’une justice indépendante, plutôt que de conclure que tout jugement est nécessairement corrompu."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La justice met-elle fin à la loi du plus fort ?",
+          "function": "Montrer une institution judiciaire capturée par la puissance",
+          "reason": "Le jugement prolonge le rapport de force au lieu de le corriger ; définir les garanties qui permettraient d’en sortir.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=30",
+          "sourceLabel": "Recueil académique · p. 30"
+        },
+        {
+          "subject": "La loi est-elle une garantie contre l’injustice ?",
+          "function": "Établir que l’impartialité de l’application est décisive",
+          "reason": "La présence d’une procédure ne suffit pas si le rang de l’accusé détermine le verdict ; distinguer légalité formelle et protection effective.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=33",
+          "sourceLabel": "Recueil académique · p. 33"
+        }
+      ]
+    },
+    {
+      "id": "la-fontaine-redresser-le-baton-par-le-jugement",
+      "code": "LF08",
+      "author": "La Fontaine",
+      "title": "Redresser le bâton par le jugement",
+      "work": "Un Animal dans la Lune",
+      "collection": "Fables choisies mises en vers",
+      "locator": "Livre VII, fable XVII · p. 201 (PDF p. 297)",
+      "quote": "Quand l’eau courbe un bâton ma raison le redresse,\nLa raison décide en maîtresse.",
+      "verse": true,
+      "notions": [
+        "raison",
+        "science",
+        "verite"
+      ],
+      "edition": "Édition de Georges Couton, Classiques Garnier",
+      "publisher": "Bordas",
+      "editionYear": 1990,
+      "translator": null,
+      "originalLanguage": "français",
+      "speaker": "Le narrateur",
+      "situation": "Le poète examine les apparences trompeuses avant de raconter comment une souris dans une lunette fut prise pour un animal lunaire.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Faut-il rejeter les sens parce que certaines apparences nous trompent ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "La Fontaine attribue à la raison le pouvoir de corriger le jugement immédiatement suggéré par la vue."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le bâton paraît courbé dans l’eau sans que sa forme réelle ait changé."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Comprendre les conditions de l’observation permet de distinguer ce que l’on voit de ce que l’on doit en conclure."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Dans la suite du récit, l’examen de la lunette explique l’animal aperçu dans la Lune par une souris logée entre les verres."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La citation défend donc une perception examinée par la raison, sans établir que celle-ci connaîtrait tout indépendamment de l’expérience."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La raison est-elle plus fiable que l’expérience ?",
+          "function": "Distinguer l’observation et son interprétation",
+          "reason": "Le bâton apparent ne doit pas être pris pour une description immédiate du réel ; la raison explique l’apparence en tenant compte du milieu.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=52",
+          "sourceLabel": "Recueil académique · p. 52"
+        },
+        {
+          "subject": "Faut-il chercher la vérité au-delà des apparences ?",
+          "function": "Préciser le sens du dépassement des apparences",
+          "reason": "Dépasser la première impression consiste ici à en comprendre la cause, et non à abandonner l’observation du monde sensible.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=71",
+          "sourceLabel": "Recueil académique · p. 71"
+        }
+      ]
+    },
+    {
+      "id": "la-fontaine-vouloir-aider-ne-suffit-pas",
+      "code": "LF09",
+      "author": "La Fontaine",
+      "title": "Vouloir aider ne suffit pas",
+      "work": "L’Ours et l’Amateur des Jardins",
+      "collection": "Fables choisies mises en vers",
+      "locator": "Livre VIII, fable X · p. 218 (PDF p. 314)",
+      "quote": "Rien n’est si dangereux qu’un ignorant ami;\nMieux vaudrait un sage ennemi.",
+      "verse": true,
+      "notions": [
+        "devoir",
+        "raison",
+        "justice"
+      ],
+      "edition": "Édition de Georges Couton, Classiques Garnier",
+      "publisher": "Bordas",
+      "editionYear": 1990,
+      "translator": null,
+      "originalLanguage": "français",
+      "speaker": "Le narrateur",
+      "situation": "Pour chasser une mouche du visage de son ami endormi, l’ours lance un pavé et tue celui qu’il voulait protéger.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La bonne intention garantit-elle la valeur d’une action ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "La Fontaine montre qu’un ami peut devenir dangereux lorsqu’il agit sans jugement."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La bienveillance désigne la fin recherchée, tandis que la prudence examine les moyens et leurs conséquences."
+        },
+        {
+          "function": "La raison",
+          "sentence": "L’ours vise un bien mais choisit un moyen qui détruit la personne à laquelle il voulait le procurer."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Le pavé lancé contre la mouche rend visible cette disproportion entre l’aide désirée et le dommage produit."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La formule appelle donc à joindre le discernement à l’affection, sans recommander de préférer systématiquement les ennemis aux amis."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Suffit-il que son intention soit bonne pour qu’une action soit morale ?",
+          "function": "Construire un contre-exemple à la suffisance de l’intention",
+          "reason": "L’ours veut protéger son ami mais le tue ; interroger la responsabilité dans le choix des moyens et la prévision des conséquences.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=115",
+          "sourceLabel": "Recueil académique · p. 115"
+        },
+        {
+          "subject": "Peut-on faire le bonheur d’autrui ?",
+          "function": "Distinguer aider autrui et lui imposer son idée du bien",
+          "reason": "Le désir de rendre service devient destructeur faute de discernement ; montrer qu’une aide doit tenir compte de celui qui la reçoit.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=15",
+          "sourceLabel": "Recueil académique · p. 15"
+        }
+      ]
+    },
+    {
+      "id": "la-fontaine-un-monde-dans-la-presence-aimee",
+      "code": "LF10",
+      "author": "La Fontaine",
+      "title": "Un monde dans la présence aimée",
+      "work": "Les Deux Pigeons",
+      "collection": "Fables choisies mises en vers",
+      "locator": "Livre IX, fable II · p. 247 (PDF p. 343)",
+      "quote": "Soyez-vous l’un à l’autre un monde toujours beau,\nToujours divers, toujours nouveau;",
+      "verse": true,
+      "notions": [
+        "bonheur",
+        "temps"
+      ],
+      "edition": "Édition de Georges Couton, Classiques Garnier",
+      "publisher": "Bordas",
+      "editionYear": 1990,
+      "translator": null,
+      "originalLanguage": "français",
+      "speaker": "Le narrateur",
+      "situation": "Après le retour du pigeon voyageur auprès de son compagnon, le narrateur s’adresse aux amants et évoque sa propre jeunesse.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Le bonheur exige-t-il de chercher sans cesse de nouveaux objets ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "La Fontaine invite les amants à trouver une diversité renouvelée dans leur présence réciproque."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La nouveauté désigne ici une qualité de l’attention autant qu’un changement de lieu ou de personne."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Ce qui semblait familier peut encore surprendre lorsque l’autre n’est pas réduit à ce que l’on croit déjà savoir de lui."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Au retour du voyageur, la proximité retrouvée prend ainsi un prix que l’éloignement avait fait oublier."
+        },
+        {
+          "function": "La portée",
+          "sentence": "L’image ouvre une réflexion sur la fidélité vivante, tout en laissant discuter l’idéal d’un couple qui voudrait tenir lieu de tout."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Comment être heureux, si rien ne dure ?",
+          "function": "Penser une durée qui accueille le renouvellement",
+          "reason": "La relation peut durer en restant diverse ; distinguer la fidélité d’une immobilité qui prétendrait arrêter le changement.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=15",
+          "sourceLabel": "Recueil académique · p. 15"
+        },
+        {
+          "subject": "Suffit-il d’être proche d’autrui pour le connaître ?",
+          "function": "Distinguer la familiarité et une attention renouvelée",
+          "reason": "L’autre demeure un monde à découvrir ; la proximité ne vaut connaissance que si elle laisse place à sa diversité.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=80",
+          "sourceLabel": "Recueil académique · p. 80"
+        }
+      ]
+    },
+    {
+      "id": "la-fontaine-du-marbre-au-dieu",
+      "code": "LF11",
+      "author": "La Fontaine",
+      "title": "Du marbre au dieu",
+      "work": "Le Statuaire et la Statue de Jupiter",
+      "collection": "Fables choisies mises en vers",
+      "locator": "Livre IX, fable VI · p. 251 (PDF p. 349)",
+      "quote": "Qu’en fera, dit-il, mon ciseau ?\nSera-t-il Dieu, table ou cuvette ?",
+      "verse": true,
+      "notions": [
+        "art",
+        "religion",
+        "technique"
+      ],
+      "edition": "Édition de Georges Couton, Classiques Garnier",
+      "publisher": "Bordas",
+      "editionYear": 1990,
+      "translator": null,
+      "originalLanguage": "français",
+      "speaker": "Le Statuaire",
+      "situation": "Un sculpteur hésite sur la destination d’un bloc de marbre ; après avoir sculpté Jupiter, il redoute sa propre création.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Comment une matière travaillée peut-elle recevoir une puissance qui semble dépasser son fabricant ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Le statuaire envisage plusieurs destinations pour le même marbre, dont celle d’une figure divine."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La matière ne détermine donc pas à elle seule la signification ni l’usage de l’objet."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Le choix d’une forme, puis le regard porté sur elle, peuvent faire d’une fabrication humaine une présence redoutée."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Dans le récit, le sculpteur finit par trembler devant le Jupiter qu’il vient lui-même de façonner."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La scène permet d’interroger les pouvoirs de l’image et la croyance en une idole, sans démontrer que toute religion serait une illusion."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Qu’est-ce qui fait d’un objet une œuvre d’art ?",
+          "function": "Distinguer la matière et la signification de la forme",
+          "reason": "Le même bloc peut devenir objet usuel ou figure de Jupiter ; examiner le travail de la forme et la manière de recevoir l’objet.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=8",
+          "sourceLabel": "Recueil académique · p. 8"
+        },
+        {
+          "subject": "L’artiste est-il maître de son œuvre ?",
+          "function": "Montrer une création qui agit en retour sur son créateur",
+          "reason": "Le sculpteur choisit la figure, puis subit l’effroi qu’elle suscite ; distinguer la maîtrise de la fabrication et celle des effets de l’œuvre.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=7",
+          "sourceLabel": "Recueil académique · p. 7"
+        }
+      ]
+    },
+    {
+      "id": "la-fontaine-les-limites-de-la-ressemblance",
+      "code": "LF12",
+      "author": "La Fontaine",
+      "title": "Les limites de la ressemblance",
+      "work": "Le Cierge",
+      "collection": "Fables choisies mises en vers",
+      "locator": "Livre IX, fable XII · p. 258 (PDF p. 356)",
+      "quote": "Tout en tout est divers : ôtez-vous de l’esprit\nQu’aucun être ait été composé sur le vôtre.",
+      "verse": true,
+      "notions": [
+        "raison",
+        "science",
+        "nature"
+      ],
+      "edition": "Édition de Georges Couton, Classiques Garnier",
+      "publisher": "Bordas",
+      "editionYear": 1990,
+      "translator": null,
+      "originalLanguage": "français",
+      "speaker": "Le narrateur",
+      "situation": "Un cierge se jette dans le feu pour devenir aussi solide qu’une brique ; il fond au lieu de durcir.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Peut-on attribuer à un être les propriétés d’un autre parce qu’ils semblent comparables ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "La Fontaine avertit contre les raisonnements qui oublient la différence de constitution des choses."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le mot « aucun » signifie ici quelque être que ce soit, et la composition désigne ce dont chacun est fait."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Un traitement favorable à une matière peut en détruire une autre si leur nature diffère."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Le cierge imite ainsi la brique durcie par le feu, mais sa cire fond dans les mêmes flammes."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le récit demande donc de vérifier la pertinence d’une analogie, sans interdire toute comparaison ni toute connaissance générale."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Suffit-il de bien raisonner pour être raisonnable ?",
+          "function": "Montrer la nécessité d’examiner les prémisses",
+          "reason": "L’imitation paraît cohérente mais repose sur une fausse équivalence entre cire et argile ; la validité d’une déduction ne garantit pas ses points de départ.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=49",
+          "sourceLabel": "Recueil académique · p. 49"
+        },
+        {
+          "subject": "Dans quels domaines est-il légitime de prendre la nature comme modèle ?",
+          "function": "Fixer une condition de pertinence du modèle",
+          "reason": "Une propriété observée ne se transpose pas sans examen ; comparer la constitution des êtres avant de reproduire un procédé.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=46",
+          "sourceLabel": "Recueil académique · p. 46"
+        }
+      ]
+    },
+    {
+      "id": "la-fontaine-une-tache-commune-aux-castors",
+      "code": "LF13",
+      "author": "La Fontaine",
+      "title": "Une tâche commune aux castors",
+      "work": "Discours à Madame de La Sablière",
+      "collection": "Fables choisies mises en vers",
+      "locator": "Fin du livre IX · p. 268 (PDF p. 366)",
+      "quote": "Chaque Castor agit; commune en est la tâche;\nLe vieux y fait marcher le jeune sans relâche.",
+      "verse": true,
+      "notions": [
+        "nature",
+        "technique",
+        "travail"
+      ],
+      "edition": "Édition de Georges Couton, Classiques Garnier",
+      "publisher": "Bordas",
+      "editionYear": 1990,
+      "translator": null,
+      "originalLanguage": "français",
+      "speaker": "Le narrateur",
+      "situation": "Pour discuter la réduction des animaux à des machines, le poète représente des castors organisant ensemble la construction de leurs ouvrages.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "L’activité organisée et la construction d’ouvrages appartiennent-elles exclusivement aux humains ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "La Fontaine décrit des castors dont les actions particulières participent à une tâche commune."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le travail collectif suppose ici une articulation des activités qui dépasse la simple juxtaposition de mouvements."
+        },
+        {
+          "function": "La raison",
+          "sentence": "L’ouvrage achevé invite à se demander comment des conduites différentes peuvent concourir à un résultat partagé."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Le poète représente l’ancien faisant travailler le jeune pour donner à voir cette organisation."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Cette image conteste une frontière trop simple entre humains et animaux, mais elle ne constitue pas une preuve zoologique des rôles qu’elle leur prête."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La technique est-elle le propre de l’homme ?",
+          "function": "Mettre à l’épreuve une définition exclusivement humaine",
+          "reason": "L’image des bâtisseurs animaux oblige à préciser si la technique se définit par l’ouvrage produit, l’organisation ou la conscience du projet.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=60",
+          "sourceLabel": "Recueil académique · p. 60"
+        },
+        {
+          "subject": "L’homme est-il une exception dans la nature ?",
+          "function": "Discuter le monopole humain de l’activité organisée",
+          "reason": "Le poème attribue une tâche commune aux castors ; s’en servir pour poser une question conceptuelle, sans transformer l’anthropomorphisme en observation scientifique.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=46",
+          "sourceLabel": "Recueil académique · p. 46"
+        }
+      ]
+    },
+    {
+      "id": "la-fontaine-lutilite-deguisee-en-justice",
+      "code": "LF14",
+      "author": "La Fontaine",
+      "title": "L’utilité déguisée en justice",
+      "work": "L’Homme et la Couleuvre",
+      "collection": "Fables choisies mises en vers",
+      "locator": "Livre X, fable I · p. 275 (PDF p. 375)",
+      "quote": "Mes jours sont en tes mains, tranche-les : ta justice,\nC’est ton utilité, ton plaisir, ton caprice;",
+      "verse": true,
+      "notions": [
+        "justice",
+        "nature",
+        "devoir"
+      ],
+      "edition": "Édition de Georges Couton, Classiques Garnier",
+      "publisher": "Bordas",
+      "editionYear": 1990,
+      "translator": null,
+      "originalLanguage": "français",
+      "speaker": "La Couleuvre",
+      "situation": "Capturée par un homme qui invoque son droit de la tuer, la couleuvre conteste la justice de celui qui dispose d’elle.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Celui qui peut imposer une décision possède-t-il pour autant une raison juste de le faire ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "La couleuvre accuse l’homme de donner le nom de justice à son intérêt personnel."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La puissance de disposer d’un être se distingue d’un droit fondé sur une règle impartiale."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Un jugement devient arbitraire si celui qui le prononce le mesure seulement à son utilité ou à son plaisir."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Dans la fable, l’homme sollicite des témoignages mais finit par tuer malgré les accusations portées contre lui."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La réplique invite donc à examiner la légitimité de notre pouvoir sur les vivants, sans supposer que la nature parle réellement comme un tribunal."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La relation entre l’humanité et la nature implique-t-elle un rapport de domination ?",
+          "function": "Faire entendre le point de vue du vivant dominé",
+          "reason": "La couleuvre révèle le pouvoir humain de décider pour elle ; distinguer la capacité d’exploiter et la légitimité de cet usage.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=46",
+          "sourceLabel": "Recueil académique · p. 46"
+        },
+        {
+          "subject": "Avons-nous des devoirs envers la nature ?",
+          "function": "Interroger l’intérêt humain comme unique mesure",
+          "reason": "La contestation du reptile oblige à demander si notre utilité suffit à justifier le traitement d’autres vivants ; la personnification sert l’examen moral.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=23",
+          "sourceLabel": "Recueil académique · p. 23"
+        }
+      ]
+    },
+    {
+      "id": "la-fontaine-planter-pour-ceux-qui-viendront",
+      "code": "LF15",
+      "author": "La Fontaine",
+      "title": "Planter pour ceux qui viendront",
+      "work": "Le Vieillard et les trois jeunes Hommes",
+      "collection": "Fables choisies mises en vers",
+      "locator": "Livre XI, fable VIII · p. 309 (PDF p. 409)",
+      "quote": "Mes arrière-neveux me devront cet ombrage :",
+      "verse": true,
+      "notions": [
+        "temps",
+        "devoir",
+        "bonheur"
+      ],
+      "edition": "Édition de Georges Couton, Classiques Garnier",
+      "publisher": "Bordas",
+      "editionYear": 1990,
+      "translator": null,
+      "originalLanguage": "français",
+      "speaker": "Le Vieillard",
+      "situation": "Un octogénaire plante un arbre ; trois jeunes gens lui reprochent de travailler pour un avenir dont il ne jouira pas.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une action perd-elle son sens si son auteur ne profite pas lui-même de ses fruits ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Le vieillard justifie sa plantation par l’ombre dont bénéficieront les générations futures."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Ses « arrière-neveux » désignent ici la postérité, et non les seuls enfants de ses neveux."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Le bien visé peut dépasser la durée d’une vie sans cesser de donner un sens à l’action présente."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "L’arbre planté aujourd’hui rend possible un repos futur pour des personnes que le planteur ne connaîtra pas."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Ce vers permet ainsi de penser la responsabilité envers l’avenir et une joie de contribuer, sans confondre toute prévoyance avec une obligation absolue."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Sommes-nous responsables de l’avenir ?",
+          "function": "Étendre l’horizon des destinataires de l’action",
+          "reason": "Le vieillard agit pour une postérité absente ; montrer que la responsabilité peut porter sur les conditions de vie laissées aux suivants.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=65",
+          "sourceLabel": "Recueil académique · p. 65"
+        },
+        {
+          "subject": "Agir par devoir est-ce agir contre son intérêt ?",
+          "function": "Distinguer profit personnel et joie de contribuer",
+          "reason": "Le vieillard renonce au bénéfice direct de l’ombre mais trouve un fruit présent dans le bien d’autrui ; discuter l’opposition trop simple entre intérêt et devoir.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=22",
+          "sourceLabel": "Recueil académique · p. 22"
+        }
+      ]
+    },
+    {
+      "id": "la-fontaine-tailler-les-desirs-ou-detruire-la-vie",
+      "code": "LF16",
+      "author": "La Fontaine",
+      "title": "Tailler les désirs ou détruire la vie",
+      "work": "Le Philosophe scythe",
+      "collection": "Fables choisies mises en vers",
+      "locator": "Livre XII, fable XX · p. 349 (PDF p. 459)",
+      "quote": "Ils ôtent à nos cœurs le principal ressort;\nIls font cesser de vivre avant que l’on soit mort.",
+      "verse": true,
+      "notions": [
+        "raison",
+        "bonheur",
+        "liberte"
+      ],
+      "edition": "Édition de Georges Couton, Classiques Garnier",
+      "publisher": "Bordas",
+      "editionYear": 1990,
+      "translator": null,
+      "originalLanguage": "français",
+      "speaker": "Le narrateur",
+      "situation": "Un philosophe taille tous ses arbres sans discernement ; le narrateur y voit l’image de ceux qui veulent supprimer tous les désirs.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La maîtrise des passions exige-t-elle leur suppression complète ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "La Fontaine reproche à une discipline excessive de détruire les forces mêmes qui animent l’existence."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le « ressort » désigne l’élan du désir, tandis que vivre ne signifie pas ici seulement conserver ses fonctions biologiques."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Retrancher indistinctement les désirs nuisibles et les souhaits innocents fait disparaître ce qui donnait un prix à l’action."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Le jardin ravagé par une taille aveugle figure cette vie appauvrie au nom de son amélioration."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Les vers critiquent donc un ascétisme sans discernement, représenté par un stoïcien excessif, et non toute la philosophie stoïcienne ni toute maîtrise de soi."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Être raisonnable, est-ce faire taire ses désirs ?",
+          "function": "Distinguer le discernement et la suppression indifférenciée",
+          "reason": "Le jardin détruit montre le coût d’une discipline qui confond tous les désirs ; examiner ceux qu’il faut régler et ceux qu’il faut cultiver.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=51",
+          "sourceLabel": "Recueil académique · p. 51"
+        },
+        {
+          "subject": "Le bonheur consiste-t-il à ne plus rien désirer ?",
+          "function": "Contester un idéal de tranquillité obtenu par l’appauvrissement",
+          "reason": "Supprimer jusqu’aux souhaits innocents conserve une vie biologique mais en éteint l’élan ; distinguer la fin du trouble et la possibilité du bonheur.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=16",
+          "sourceLabel": "Recueil académique · p. 16"
+        }
+      ]
+    },
+    {
+      "id": "la-fontaine-un-adieu-qui-ne-peut-plus-se-dire",
+      "code": "LF17",
+      "author": "La Fontaine",
+      "title": "Un adieu qui ne peut plus se dire",
+      "work": "Philémon et Baucis",
+      "collection": "Fables choisies mises en vers",
+      "locator": "Livre XII, fable XXV · p. 360 (PDF p. 470)",
+      "quote": "L’un et l’autre se dit adieu de la pensée :\nLe corps n’est tantôt plus que feuillage et que bois.",
+      "verse": true,
+      "notions": [
+        "langage",
+        "conscience",
+        "temps"
+      ],
+      "edition": "Édition de Georges Couton, Classiques Garnier",
+      "publisher": "Bordas",
+      "editionYear": 1990,
+      "translator": null,
+      "originalLanguage": "français",
+      "speaker": "Le narrateur",
+      "situation": "Philémon et Baucis, vieillards unis par l’amour, se transforment en arbres ; leur métamorphose empêche les paroles et les gestes d’adieu.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La disparition de la parole rend-elle toute pensée impossible ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "La Fontaine imagine deux êtres qui se disent intérieurement adieu lorsque leur corps ne peut plus parler."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La pensée de l’autre se distingue ici de son expression par des mots ou des gestes."
+        },
+        {
+          "function": "La raison",
+          "sentence": "L’écorce qui gagne le corps empêche la manifestation de l’amour sans que le récit fasse aussitôt disparaître cet amour."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Philémon veut tendre les bras et parler à Baucis, mais leur transformation laisse seulement subsister l’adieu pensé."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Ces vers donnent ainsi une forme sensible à la distinction entre pensée et expression, sans prouver une communication effective des consciences sans langage."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Peut-on séparer penser et parler ?",
+          "function": "Distinguer la vie intérieure et son expression corporelle",
+          "reason": "La métamorphose figure une pensée qui subsiste quand la parole devient impossible ; utiliser la fiction pour préciser la distinction, non pour fournir une preuve.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=36",
+          "sourceLabel": "Recueil académique · p. 36"
+        },
+        {
+          "subject": "Les mots peuvent-ils nous manquer pour dire quelque chose ?",
+          "function": "Montrer une expérience qui excède la possibilité de la dire",
+          "reason": "L’adieu reste présent à la pensée tandis que le corps ne peut plus le manifester ; interroger la perte que représente cette impossibilité d’expression.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=36",
+          "sourceLabel": "Recueil académique · p. 36"
+        }
+      ]
+    },
+    {
+      "id": "la-fontaine-laisser-reposer-leau",
+      "code": "LF18",
+      "author": "La Fontaine",
+      "title": "Laisser reposer l’eau",
+      "work": "Le Juge arbitre, l’Hospitalier, et le Solitaire",
+      "collection": "Fables choisies mises en vers",
+      "locator": "Livre XII, fable XXIX · p. 389 (PDF p. 501)",
+      "quote": "Mes Frères, dit le Saint, laissez-la reposer,\nVous verrez alors votre image.",
+      "verse": true,
+      "notions": [
+        "conscience",
+        "temps"
+      ],
+      "edition": "Édition de Georges Couton, Classiques Garnier",
+      "publisher": "Bordas",
+      "editionYear": 1990,
+      "translator": null,
+      "originalLanguage": "français",
+      "speaker": "Le Solitaire",
+      "situation": "À deux amis absorbés par leurs tâches, le solitaire montre une eau agitée qui ne peut refléter leur visage avant de s’apaiser.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "L’agitation des activités permet-elle de se connaître soi-même ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Le solitaire propose à ses amis de laisser reposer l’eau pour y retrouver leur image."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La surface troublée figure une attention dispersée qui ne distingue plus ce qu’elle cherche à observer."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Le retour à soi demande alors une interruption des sollicitations, comme le reflet exige que la vase cesse de masquer l’eau."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Les deux amis doivent attendre au lieu d’agiter davantage la source pour tenter de mieux s’y voir."
+        },
+        {
+          "function": "La portée",
+          "sentence": "L’image invite donc à ménager un temps de réflexion, sans faire de l’abandon des devoirs envers autrui une règle générale."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Peut-on se connaître soi-même ?",
+          "function": "Décrire une condition d’attention à soi",
+          "reason": "Le reflet ne manque pas de miroir mais d’une eau calme ; examiner le rôle d’un recul temporaire dans l’examen de ses actes.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=20",
+          "sourceLabel": "Recueil académique · p. 20"
+        },
+        {
+          "subject": "Faut-il toujours chercher à gagner du temps ?",
+          "function": "Montrer la fécondité d’une interruption",
+          "reason": "Attendre que l’eau repose rend possible ce qu’une activité accrue empêchait ; distinguer un temps perdu et un temps nécessaire à la compréhension.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=65",
+          "sourceLabel": "Recueil académique · p. 65"
+        }
+      ]
+    },
+    {
+      "id": "la-fontaine-le-temps-qui-rend-les-plaisirs",
+      "code": "LF19",
+      "author": "La Fontaine",
+      "title": "Le temps qui rend les plaisirs",
+      "work": "La Jeune Veuve",
+      "collection": "Fables choisies mises en vers",
+      "locator": "Livre VI, fable XXI · p. 170 (PDF p. 260)",
+      "quote": "Sur les ailes du Temps la tristesse s’envole;\nLe Temps ramène les plaisirs.",
+      "verse": true,
+      "notions": [
+        "temps",
+        "bonheur",
+        "conscience"
+      ],
+      "edition": "Édition de Georges Couton, Classiques Garnier",
+      "publisher": "Bordas",
+      "editionYear": 1990,
+      "translator": null,
+      "originalLanguage": "français",
+      "speaker": "Le narrateur",
+      "situation": "Le narrateur annonce l’histoire d’une jeune veuve dont le chagrin se transforme progressivement et qui envisage une nouvelle union.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Le temps ne fait-il que nous retirer ce que nous aimons ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "La Fontaine lui attribue aussi le pouvoir de diminuer la tristesse et de rouvrir la possibilité des plaisirs."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La durée ne désigne donc pas seulement une succession de pertes, mais une transformation de notre manière de sentir."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Un état affectif qui semble occuper toute l’existence présente peut cesser d’en déterminer chaque moment."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Le récit montre ainsi une veuve passant du désespoir à la perspective d’une nouvelle union."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Ces vers invitent à penser une puissance réparatrice du temps, sans promettre que toute souffrance disparaît ni fixer une durée au deuil."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Le temps est-il nécessairement destructeur ?",
+          "function": "Opposer à la perte une transformation réparatrice",
+          "reason": "Le temps atténue ici la tristesse et rend les plaisirs possibles ; discuter une durée qui modifie la souffrance au lieu de seulement détruire.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=65",
+          "sourceLabel": "Recueil académique · p. 65"
+        },
+        {
+          "subject": "Sommes-nous condamnés à subir le temps ?",
+          "function": "Nuancer l’assimilation de toute passivité à un mal",
+          "reason": "Une transformation non entièrement voulue peut rouvrir la vie ; examiner ce qu’il faut accueillir autant que ce que l’on voudrait maîtriser.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=65",
+          "sourceLabel": "Recueil académique · p. 65"
+        }
+      ]
+    },
+    {
+      "id": "la-fontaine-entendre-ce-que-lon-soupconne",
+      "code": "LF20",
+      "author": "La Fontaine",
+      "title": "Entendre ce que l’on soupçonne",
+      "work": "Les Filles de Minée",
+      "collection": "Fables choisies mises en vers",
+      "locator": "Livre XII, fable XXVIII · p. 380 (PDF p. 490)",
+      "quote": "Elle croit y trouver, non le sens qu’ils cachaient,\nMais celui seulement que ses soupçons cherchaient.",
+      "verse": true,
+      "notions": [
+        "langage",
+        "verite",
+        "conscience"
+      ],
+      "edition": "Édition de Georges Couton, Classiques Garnier",
+      "publisher": "Bordas",
+      "editionYear": 1990,
+      "translator": null,
+      "originalLanguage": "français",
+      "speaker": "Clymène",
+      "situation": "Clymène raconte Procris, qui prend l’appel de Céphale à la brise pour celui d’une rivale.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Comprendre une parole consiste-t-il à y retrouver ce que l’on attendait déjà ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Clymène raconte comment Procris prête aux paroles de Céphale le sens que lui suggère sa jalousie."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’interprétation se distingue ici d’une découverte lorsque le soupçon fournit d’avance la réponse recherchée."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La passion sélectionne ce qui paraît confirmer sa crainte au lieu d’examiner les autres significations possibles."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Céphale invoque la brise pour se rafraîchir, mais Procris entend l’appel d’une femme aimée."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le récit invite donc à confronter une interprétation à ses raisons et à son contexte, sans conclure que toute compréhension serait impossible."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Suffirait-il de parler la même langue pour se comprendre ?",
+          "function": "Montrer un obstacle affectif à la compréhension",
+          "reason": "Procris connaît les mots mais leur donne un sens dicté par sa jalousie ; le partage de la langue ne garantit pas l’examen du contexte.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=36",
+          "sourceLabel": "Recueil académique · p. 36"
+        },
+        {
+          "subject": "Toutes les interprétations se valent-elles ?",
+          "function": "Distinguer l’interprétation étayée et la confirmation d’un soupçon",
+          "reason": "La lecture jalouse néglige la situation de Céphale ; comparer les interprétations par leurs raisons plutôt que par la seule conviction de celui qui les défend.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=77",
+          "sourceLabel": "Recueil académique · p. 77"
+        }
+      ]
     }
   ]
 }
