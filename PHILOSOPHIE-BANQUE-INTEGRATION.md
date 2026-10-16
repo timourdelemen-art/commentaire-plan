@@ -6,11 +6,11 @@ Le propriétaire a fourni trois recueils, approuvé l’inventaire de 45 citatio
 
 ## Contenu
 
-- 72 citations : quinze de Platon, quinze d’Aristote, quinze de Nietzsche, quinze de Spinoza et douze de Cioran.
-- 150 usages proposés sur 108 libellés de sujets distincts, avec deux ou trois sujets par fiche.
-- 72 commentaires originaux de six phrases, de 145 mots au plus ; aucune prétention à un protocole officiel de six phrases.
-- Six liens vers des copies A20 existantes, avec indication de la sous-partie examinée. Il s’agit d’insertions possibles, pas de citations déjà présentes dans les copies.
-- Les sujets anciens sont attestés dans le recueil de l’académie de Montpellier, 1996-2025, aux pages conservées dans les données. Six raccords sont vérifiés dans les PDF ministériels 2026 (Amérique du Nord et Asie).
+- 78 citations : quinze de Platon, quinze d’Aristote, quinze de Nietzsche, quinze de Spinoza et dix-huit de Cioran.
+- 163 usages proposés sur 116 libellés de sujets distincts, avec deux ou trois sujets par fiche.
+- 78 commentaires originaux de six phrases, de 145 mots au plus ; aucune prétention à un protocole officiel de six phrases.
+- Sept liens vers des copies A20 existantes, avec indication de la sous-partie examinée. Il s’agit d’insertions possibles, pas de citations déjà présentes dans les copies.
+- Les sujets anciens sont attestés dans le recueil de l’académie de Montpellier, 1996-2025, aux pages conservées dans les données. Sept raccords sont vérifiés dans les PDF ministériels 2026 (Amérique du Nord et Asie).
 - Les traductions individuelles non identifiées restent explicitement indiquées comme à préciser. Les noms ne sont pas inventés.
 
 ## Sources et contrôle
@@ -23,7 +23,7 @@ Le propriétaire a expressément demandé l’intégration de ces courts extrait
 
 Source : scripts/philo-banque-data.json. Génération : node scripts/build-philo-banque.js. Le script vérifie les citations contre les empreintes, les six fonctions, les sources des sujets, les liens A20, et produit philosophie-banque-data.js ainsi que le catalogue HTML complet. --check vérifie la fraîcheur des deux sorties. Les sorties sont commises car le build général ne relance pas ce générateur.
 
-La page fonctionne sans JavaScript : soixante-douze fiches complètes dans des blocs dépliables. Avec JavaScript : filtres, lecteur unique, lecture annotée ou continue, lien direct partageable. La recherche ne promet aucun classement sémantique automatique. Le sélecteur ne fait que filtrer des raccords documentés.
+La page fonctionne sans JavaScript : soixante-dix-huit fiches complètes dans des blocs dépliables. Avec JavaScript : filtres, lecteur unique, lecture annotée ou continue, lien direct partageable. La recherche ne promet aucun classement sémantique automatique. Le sélecteur ne fait que filtrer des raccords documentés.
 
 Les anciennes fiches sont retirées des données et du catalogue. Onze anciens identifiants renvoient vers une nouvelle fiche du même passage ou thème repris ; quatre identifiants sans équivalent présentent un message de retrait. Les anciens brouillons du navigateur ne sont ni utilisés ni effacés.
 
@@ -52,3 +52,7 @@ Les commentaires reconstruisent un argument local, sans prêter à Cioran une do
 ## Complément demandé : « L’Arbre de vie »
 
 Le 16 octobre 2026, le propriétaire demande de développer les usages de la relecture de la Genèse dans le premier chapitre de La Chute dans le temps. Sélection de phrases autonomes et rédaction des fiches au même format, après vérification dans le fichier fourni.
+
+Six fiches complémentaires de « L’Arbre de vie » : C13 le malaise antérieur à la transgression ; C14 connaissance et perte de familiarité ; C15 précarité et conscience de la mortalité ; C16 entrée dans le temps vécu ; C17 outil comme compensation ; C18 distinction entre devenir et progrès. Treize usages nouveaux sur des sujets attestés : douze dans le recueil académique et un raccord à la copie Asie 2026, « Faut-il être inconscient pour être heureux ? », I.2, en complément de l’argument pascalien. Le chapitre entier a été relu, y compris sa distinction finale entre un savoir tourné vers la puissance et un savoir tourné vers la délivrance. Les commentaires ne condamnent donc pas tout savoir au nom de Cioran.
+
+La recherche inclut désormais la référence du passage : « arbre de vie » retrouve les six fiches ensemble. Le complément représente 18 fiches Cioran en tout, dont six du Précis et douze de La Chute. L’innocence du mythe, le temps vécu et les affirmations polémiques sur le vivant ne sont pas présentés comme des faits historiques, physiques ou biologiques.

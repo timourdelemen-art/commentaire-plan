@@ -4374,6 +4374,386 @@
           "sourceLabel": "Recueil académique · p. 66"
         }
       ]
+    },
+    {
+      "id": "cioran-le-malaise-avant-la-faute",
+      "code": "C13",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "Le malaise avant la faute",
+      "work": "La Chute dans le temps",
+      "locator": "« L’Arbre de vie »",
+      "quote": "La malédiction qui nous accable pesait déjà sur notre premier ancêtre, bien avant qu’il se tournât vers l’arbre de la connaissance.",
+      "notions": [
+        "bonheur",
+        "religion"
+      ],
+      "edition": "La Chute dans le temps (première publication)",
+      "publisher": "Gallimard",
+      "editionYear": "1964",
+      "originalLanguage": "français",
+      "translator": null,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Pourquoi désirer quitter un bonheur dont on disposerait déjà ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran situe le malaise d’Adam avant la transgression, au cœur même du paradis."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La malédiction désigne ici une insatisfaction constitutive, et le premier ancêtre est la figure biblique par laquelle cette condition humaine est interrogée."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Si Adam cède si facilement à la tentation, c’est, selon cette lecture, que la paix disponible ne suffisait déjà pas à le satisfaire."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un repos longtemps désiré peut ainsi laisser paraître une nouvelle impatience lorsqu’aucun obstacle extérieur ne trouble plus notre vie."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La relecture du mythe interroge notre aptitude au bonheur, sans établir que toute insatisfaction soit universelle ni que cette interprétation soit le sens unique de la Genèse."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Le bonheur est-il inaccessible à l’homme ?",
+          "function": "Déplacer la difficulté vers notre rapport au bonheur",
+          "reason": "L’obstacle peut tenir à notre incapacité de nous satisfaire d’un bonheur présent, et pas seulement aux événements qui nous en privent.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=13",
+          "sourceLabel": "Recueil académique · p. 13"
+        },
+        {
+          "subject": "Un bonheur sans illusion est-il concevable ?",
+          "function": "Interroger l’idéal d’une innocence heureuse",
+          "reason": "La fiction d’un paradis antérieur au savoir peut elle-même dissimuler une inquiétude déjà présente.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=13",
+          "sourceLabel": "Recueil académique · p. 13"
+        }
+      ]
+    },
+    {
+      "id": "cioran-connaitre-et-perdre-la-familiarite-du-monde",
+      "code": "C14",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "Connaître et perdre la familiarité du monde",
+      "work": "La Chute dans le temps",
+      "locator": "« L’Arbre de vie »",
+      "quote": "Le désir de connaître, empreint de perversité et de corruption, plus il nous tient, plus il nous rend incapables de demeurer à l’intérieur de quelque réalité que ce soit.",
+      "notions": [
+        "raison",
+        "verite",
+        "bonheur"
+      ],
+      "edition": "La Chute dans le temps (première publication)",
+      "publisher": "Gallimard",
+      "editionYear": "1964",
+      "originalLanguage": "français",
+      "translator": null,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Le désir de savoir nous rapproche-t-il toujours du monde dans lequel nous vivons ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran décrit une connaissance qui éloigne de la participation immédiate aux choses à mesure qu’elle cherche à les analyser."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Demeurer à l’intérieur d’une réalité signifie ici y être engagé sans la tenir constamment à distance comme un objet à examiner."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Dans sa relecture de la Genèse, la curiosité rompt une familiarité et pousse l’homme vers de nouvelles questions plutôt que vers un repos définitif."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Analyser sans cesse les raisons d’une joie peut modifier cette joie et empêcher de s’y abandonner."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le vocabulaire de la faute dramatise cette rupture, sans démontrer que tout savoir soit nuisible ni que toute analyse interdise de vivre."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Le désir de savoir est-il naturel ?",
+          "function": "Distinguer élan spontané et accord avec la nature",
+          "reason": "Le désir de connaître peut être puissant tout en nous éloignant, selon Cioran, d’une adhésion immédiate à notre condition.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=48",
+          "sourceLabel": "Recueil académique · p. 48"
+        },
+        {
+          "subject": "La connaissance peut-elle nuire au bonheur ?",
+          "function": "Analyser le prix d’une mise à distance",
+          "reason": "Le regard qui examine peut défaire certaines évidences dont une expérience heureuse se nourrissait.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=15",
+          "sourceLabel": "Recueil académique · p. 15"
+        },
+        {
+          "subject": "Faut-il être inconscient pour être heureux ?",
+          "function": "I.2 : renforcer l’attrait de l’insouciance",
+          "reason": "Le désir d’analyse peut rompre une familiarité heureuse et nourrir l’inquiétude ; cette première réponse reste à confronter aux dangers que l’ignorance ne supprime pas.",
+          "source": "https://www.education.gouv.fr/sites/default/files/document/baccalaureat-general-2026-philosophie-517430.pdf#page=2",
+          "sourceLabel": "Bac 2026 · Asie",
+          "a20": "philosophie-bac-2026-faut-il-etre-inconscient-pour-etre-heureux.html",
+          "a20Step": "I.2",
+          "a20Status": "Insertion possible après lecture de la copie, en complément de Pascal, sans assimiler les deux arguments."
+        }
+      ]
+    },
+    {
+      "id": "cioran-la-conscience-de-notre-fragilite",
+      "code": "C15",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "La conscience de notre fragilité",
+      "work": "La Chute dans le temps",
+      "locator": "« L’Arbre de vie »",
+      "quote": "L’inorganique se suffit à lui-même ; l’organique est dépendant, menacé, instable ; le conscient est quintessence de caducité.",
+      "notions": [
+        "conscience",
+        "nature",
+        "temps"
+      ],
+      "edition": "La Chute dans le temps (première publication)",
+      "publisher": "Gallimard",
+      "editionYear": "1964",
+      "originalLanguage": "français",
+      "translator": null,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La conscience de notre condition ajoute-t-elle une épreuve à notre fragilité physique ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran présente la conscience comme une intensification de la précarité propre au vivant."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La caducité désigne le caractère périssable, tandis que la quintessence en figure ici la concentration extrême."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Dans ce passage, l’homme éprouve sa dépendance et anticipe sa mort, au lieu de seulement subir les limites de son organisme."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Prévoir la disparition future d’un bonheur peut ainsi troubler une joie qui n’est pas encore menacée dans le présent."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Cette gradation éclaire le poids de la mortalité connue, sans décrire scientifiquement tous les vivants ni établir que toute conscience exclue la joie."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La mort est-elle un obstacle au bonheur ?",
+          "function": "Distinguer mortalité et anticipation de la mort",
+          "reason": "La conscience d’une fin peut peser sur le présent avant que cette fin survienne.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=17",
+          "sourceLabel": "Recueil académique · p. 17"
+        },
+        {
+          "subject": "Peut-on être pleinement homme sans penser à la mort ?",
+          "function": "Interroger la place de la finitude dans la conscience",
+          "reason": "Le passage lie la singularité humaine au savoir de sa précarité, dont il faut examiner aussi les effets sur la vie.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=137",
+          "sourceLabel": "Recueil académique · p. 137"
+        }
+      ]
+    },
+    {
+      "id": "cioran-le-savoir-nous-precipite-dans-le-temps",
+      "code": "C16",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "Le savoir nous précipite dans le temps",
+      "work": "La Chute dans le temps",
+      "locator": "« L’Arbre de vie »",
+      "quote": "Précipités par le savoir dans le temps, nous fûmes du même coup dotés d’un destin.",
+      "notions": [
+        "temps",
+        "conscience",
+        "religion"
+      ],
+      "edition": "La Chute dans le temps (première publication)",
+      "publisher": "Gallimard",
+      "editionYear": "1964",
+      "originalLanguage": "français",
+      "translator": null,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Comment le savoir pourrait-il nous faire entrer dans un temps où nous vivons déjà ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran interprète la sortie du paradis comme l’apparition d’une existence consciente de son devenir."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le temps désigne ici l’expérience de la perte et des possibles, tandis que le destin donne à notre vie la forme d’une histoire orientée vers sa fin."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Le savoir rompt l’adhésion innocente au présent en faisant apparaître ce qui pourrait arriver et ce qui ne reviendra plus."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Savoir qu’une rencontre peut être la dernière transforme un moment ordinaire en événement chargé d’attente et de regret."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Cette lecture philosophique du mythe distingue le temps vécu de la simple durée, sans prétendre que les êtres privés de ce savoir échappent au changement physique."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Est-il possible d’échapper au temps ?",
+          "function": "Distinguer durée physique et conscience du devenir",
+          "reason": "Le paradis figure une innocence soustraite à l’expérience inquiète de la perte, plutôt qu’une simple absence de changement.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=65",
+          "sourceLabel": "Recueil académique · p. 65"
+        },
+        {
+          "subject": "La conscience de ce que nous sommes peut-elle faire obstacle à notre bonheur ?",
+          "function": "Montrer le poids de l’anticipation",
+          "reason": "La conscience de notre avenir et de notre fin peut troubler l’adhésion au présent, sans suffire à condamner toute lucidité.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=13",
+          "sourceLabel": "Recueil académique · p. 13"
+        }
+      ]
+    },
+    {
+      "id": "cioran-l-outil-et-la-faiblesse-humaine",
+      "code": "C17",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "L’outil et la faiblesse humaine",
+      "work": "La Chute dans le temps",
+      "locator": "« L’Arbre de vie »",
+      "quote": "N’éprouvant nul besoin d’ajouter à sa force, qui est réelle, un fauve ne s’abaisse pas à l’outil.",
+      "notions": [
+        "technique",
+        "nature"
+      ],
+      "edition": "La Chute dans le temps (première publication)",
+      "publisher": "Gallimard",
+      "editionYear": "1964",
+      "originalLanguage": "français",
+      "translator": null,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La puissance technique prouve-t-elle une force naturelle supérieure ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran renverse cette interprétation en présentant l’outil comme une compensation dont l’animal puissant n’aurait pas besoin."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La force réelle désigne ici une puissance corporelle disponible, tandis que l’outil ajoute des moyens artificiels à un organisme insuffisamment armé."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Dans le récit de la sortie du paradis, l’inadaptation humaine devient ainsi le ressort d’une conquête toujours plus ambitieuse."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un instrument de coupe permet à une main de réaliser ce qu’elle ne pourrait accomplir par sa seule force."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le verbe s’abaisser exprime une provocation qui renverse notre hiérarchie habituelle, sans fournir une classification scientifique des animaux ni prouver que tout outil soit dégradant."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La technique nous libère-t-elle de la nature ?",
+          "function": "Retrouver une dépendance dans la puissance acquise",
+          "reason": "L’invention technique peut répondre à des limites naturelles plutôt que nous en rendre absolument indépendants.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=47",
+          "sourceLabel": "Recueil académique · p. 47"
+        },
+        {
+          "subject": "La technique naît-elle de nos besoins ou de nos rêves ?",
+          "function": "Relier compensation et ambition",
+          "reason": "Un manque initial peut susciter des moyens dont le développement dépasse ensuite la seule satisfaction du besoin.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=60",
+          "sourceLabel": "Recueil académique · p. 60"
+        }
+      ]
+    },
+    {
+      "id": "cioran-devenir-n-est-pas-progresser",
+      "code": "C18",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "Devenir n’est pas progresser",
+      "work": "La Chute dans le temps",
+      "locator": "« L’Arbre de vie »",
+      "quote": "Devenir et progrès sont notions en apparence voisines, en fait divergentes.",
+      "notions": [
+        "technique",
+        "temps",
+        "raison"
+      ],
+      "edition": "La Chute dans le temps (première publication)",
+      "publisher": "Gallimard",
+      "editionYear": "1964",
+      "originalLanguage": "français",
+      "translator": null,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Le simple fait de changer nous conduit-il nécessairement vers un état meilleur ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran refuse d’identifier le devenir à un progrès."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le devenir désigne une transformation, tandis que le progrès suppose un critère permettant de juger cette transformation meilleure."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une suite de nouveautés ne justifie donc pas à elle seule une confiance dans l’amélioration de la condition humaine."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une machine plus puissante peut faciliter une tâche tout en augmentant des dépendances ou des destructions."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Cette distinction oblige à évaluer les transformations plutôt qu’à célébrer leur nouveauté, sans prouver que toute amélioration soit impossible ni que tout changement soit une dégradation."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Faut-il voir dans l’histoire humaine un progrès constant ?",
+          "function": "Distinguer succession et amélioration",
+          "reason": "L’enchaînement des changements n’établit pas leur valeur ni leur direction vers un mieux.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=52",
+          "sourceLabel": "Recueil académique · p. 52"
+        },
+        {
+          "subject": "Le progrès de l’humanité se réduit-il au progrès technique ?",
+          "function": "Distinguer puissance des moyens et valeur des fins",
+          "reason": "Une efficacité accrue ne suffit pas à établir une amélioration du bonheur, de la justice ou de la liberté.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=60",
+          "sourceLabel": "Recueil académique · p. 60"
+        }
+      ]
     }
   ]
 }

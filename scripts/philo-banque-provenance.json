@@ -1,6 +1,6 @@
 {
   "status": "citations-courtes-et-commentaires",
-  "owner_decision": "16 octobre 2026 : remplacer les anciennes fiches par la sélection de citations fournie et approuvée, en deux parties dissertation et commentaire. Le même jour : poursuivre selon le même principe avec l’Éthique fournie. Le même jour : intégrer Cioran, écrivain et penseur, à partir des deux ouvrages fournis, après sélection rigoureuse sans quota.",
+  "owner_decision": "16 octobre 2026 : remplacer les anciennes fiches par la sélection de citations fournie et approuvée, en deux parties dissertation et commentaire. Le même jour : poursuivre selon le même principe avec l’Éthique fournie. Le même jour : intégrer Cioran, écrivain et penseur, à partir des deux ouvrages fournis, après sélection rigoureuse sans quota. Le même jour : développer les usages de « L’Arbre de vie » et de la relecture de la Genèse.",
   "source_files": [
     {
       "author": "Platon",
@@ -821,6 +821,72 @@
       "quotation_verified": true,
       "verification": "Comparaison mot pour mot au livre fourni ; seuls espaces normalisés. Passage et contexte relus. Comparaison au HTML en préservant les espaces autour des italiques.",
       "quote_sha256": "77e5e9008778fa2e4ceef36f6bdd435fa48cf041240ce613e98858693a8c0258",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "cioran-le-malaise-avant-la-faute",
+      "code": "C13",
+      "author": "Cioran",
+      "locator": "« L’Arbre de vie »",
+      "source_location": "EPUB fourni, Cioran-La chute dans le temps_split_001.htm",
+      "quotation_verified": true,
+      "verification": "Phrase complète retrouvée littéralement dans le chapitre fourni ; mots et ponctuation conservés, seuls espaces normalisés. Chapitre entier relu ; interprétation de la Genèse distinguée du récit biblique et des connaissances scientifiques.",
+      "quote_sha256": "c24a6220eb0c2bc054d4453b86522a6497f43cc92d63767120fdcc888746af29",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "cioran-connaitre-et-perdre-la-familiarite-du-monde",
+      "code": "C14",
+      "author": "Cioran",
+      "locator": "« L’Arbre de vie »",
+      "source_location": "EPUB fourni, Cioran-La chute dans le temps_split_001.htm",
+      "quotation_verified": true,
+      "verification": "Phrase complète retrouvée littéralement dans le chapitre fourni ; mots et ponctuation conservés, seuls espaces normalisés. Chapitre entier relu ; interprétation de la Genèse distinguée du récit biblique et des connaissances scientifiques.",
+      "quote_sha256": "4760697877f5b1502235cc1a55dab945f5cfb8f5ceb0735db68b2cc8cefd6bfd",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "cioran-la-conscience-de-notre-fragilite",
+      "code": "C15",
+      "author": "Cioran",
+      "locator": "« L’Arbre de vie »",
+      "source_location": "EPUB fourni, Cioran-La chute dans le temps_split_001.htm",
+      "quotation_verified": true,
+      "verification": "Phrase complète retrouvée littéralement dans le chapitre fourni ; mots et ponctuation conservés, seuls espaces normalisés. Chapitre entier relu ; interprétation de la Genèse distinguée du récit biblique et des connaissances scientifiques.",
+      "quote_sha256": "3176266930bf79e27d26661127107134dd4589e43eb51c9d0dd2272c7905c4ee",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "cioran-le-savoir-nous-precipite-dans-le-temps",
+      "code": "C16",
+      "author": "Cioran",
+      "locator": "« L’Arbre de vie »",
+      "source_location": "EPUB fourni, Cioran-La chute dans le temps_split_001.htm",
+      "quotation_verified": true,
+      "verification": "Phrase complète retrouvée littéralement dans le chapitre fourni ; mots et ponctuation conservés, seuls espaces normalisés. Chapitre entier relu ; interprétation de la Genèse distinguée du récit biblique et des connaissances scientifiques.",
+      "quote_sha256": "bf9d93e1560e396b5c03557a869d5d453d33397c3f6441fc5cfbb7e803f7d9fb",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "cioran-l-outil-et-la-faiblesse-humaine",
+      "code": "C17",
+      "author": "Cioran",
+      "locator": "« L’Arbre de vie »",
+      "source_location": "EPUB fourni, Cioran-La chute dans le temps_split_001.htm",
+      "quotation_verified": true,
+      "verification": "Phrase complète retrouvée littéralement dans le chapitre fourni ; mots et ponctuation conservés, seuls espaces normalisés. Chapitre entier relu ; interprétation de la Genèse distinguée du récit biblique et des connaissances scientifiques.",
+      "quote_sha256": "11d4470fd36bffc4f0cc12954bb8daa1db4181bd1c49559da1a43becb009a41c",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "cioran-devenir-n-est-pas-progresser",
+      "code": "C18",
+      "author": "Cioran",
+      "locator": "« L’Arbre de vie »",
+      "source_location": "EPUB fourni, Cioran-La chute dans le temps_split_001.htm",
+      "quotation_verified": true,
+      "verification": "Phrase complète retrouvée littéralement dans le chapitre fourni ; mots et ponctuation conservés, seuls espaces normalisés. Chapitre entier relu ; interprétation de la Genèse distinguée du récit biblique et des connaissances scientifiques.",
+      "quote_sha256": "d177e3271e773d254559e9cd4773844bd23fea2a4512aa6e6eb6fb6c19271d39",
       "translator_status": "original-french"
     }
   ],

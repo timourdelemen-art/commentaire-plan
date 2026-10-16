@@ -5,7 +5,7 @@ const norm=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLo
 const words=s=>norm(s).split(' ').filter(Boolean);
 function select(entries,{query='',author='',notion='',subject=''}={}){
  const q=words(query);
- return entries.filter(e=>(!author||e.author===author)&&(!notion||e.notions.includes(notion))&&(!subject||e.uses.some(u=>norm(u.subject)===norm(subject)))&&q.every(w=>norm([e.title,e.quote,e.author,e.work,...e.commentary.map(c=>c.sentence),...e.uses.flatMap(u=>[u.subject,u.function,u.reason])].join(' ')).includes(w)));
+ return entries.filter(e=>(!author||e.author===author)&&(!notion||e.notions.includes(notion))&&(!subject||e.uses.some(u=>norm(u.subject)===norm(subject)))&&q.every(w=>norm([e.title,e.quote,e.author,e.work,e.locator,...e.commentary.map(c=>c.sentence),...e.uses.flatMap(u=>[u.subject,u.function,u.reason])].join(' ')).includes(w)));
 }
 function resolveId(data,id){return Object.hasOwn(data.legacyIds,id)?data.legacyIds[id]:id;}
 const api={norm,words,select,resolveId};if(typeof module!=='undefined'&&module.exports)module.exports=api;root.PhiloBanque=api;
