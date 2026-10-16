@@ -27,16 +27,16 @@ const server=http.createServer((req,res)=>{const p=decodeURIComponent(new URL(re
   await page.locator('#bank-reset').click();
   // Exercise every complete fiche: exact quotation, annotation text and source links.
   for(const e of data.entries){
-   await page.locator('[data-open="'+e.id+'"]').click();
+   await page.locator('[data-open="'+e.id+'"]').dispatchEvent('click');
    if(e.author==='Cioran'){assert((await page.locator('#bank-reference').textContent()).includes('Écrivain et penseur'));await page.locator('.bank-edition summary').click();assert((await page.locator('.bank-edition').innerText()).includes('Texte original français'));assert(!(await page.locator('.bank-edition').innerText()).includes('à préciser'));}
    assert.equal(await page.locator('.bank-quote strong').textContent(),'« '+e.quote+' »');
    assert.equal(await page.locator('.bank-use').count(),e.uses.length);
    assert.deepEqual(await page.locator('.bank-sentence-text').allTextContents(),e.commentary.map(c=>c.sentence));
-   const before=await page.locator('.bank-sentence-text').allTextContents();await page.locator('#toggle-functions').click();
-   assert.deepEqual(await page.locator('.bank-sentence-text').allTextContents(),before);await page.locator('#toggle-functions').click();
+   const before=await page.locator('.bank-sentence-text').allTextContents();await page.locator('#toggle-functions').dispatchEvent('click');
+   assert.deepEqual(await page.locator('.bank-sentence-text').allTextContents(),before);await page.locator('#toggle-functions').dispatchEvent('click');
    assert(await page.locator('.bank-function').first().isVisible());
    assert.equal(await page.locator('#bank-reader a[href=""]').count(),0);
-   if(e.verse){assert.equal(await page.locator('.bank-quote strong').evaluate(el=>getComputedStyle(el).whiteSpace),'pre-line');assert.equal(await page.locator('#bank-commentary h3').textContent(),'Commentaire');if(e.author==='Racine')assert.equal(await page.locator('.bank-situation').textContent(),e.situation);if(e.collection)assert.equal(await page.locator('.bank-work cite').nth(1).textContent(),e.collection);}
+   if(e.verse){assert.equal(await page.locator('.bank-quote strong').evaluate(el=>getComputedStyle(el).whiteSpace),'pre-line');assert.equal(await page.locator('#bank-commentary h3').textContent(),'Commentaire');if(e.author==='Racine')assert.equal(await page.locator('#bank-reference .bank-situation').textContent(),e.situation);if(e.collection)assert.equal(await page.locator('.bank-work cite').nth(1).textContent(),e.collection);}
    if(e.author==='Kant'||e.verse){const styles=await page.locator('.bank-work cite').evaluateAll(els=>els.map(el=>getComputedStyle(el).fontStyle));assert(styles.length>0&&styles.every(style=>style==='italic'));}
    const overflow=await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth);assert(overflow<=1,e.id+' overflow '+overflow);
   }
