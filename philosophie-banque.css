@@ -13,3 +13,5 @@
 @media(max-width:540px){.bank-main{padding:28px 17px 65px}.bank-grid{grid-template-columns:1fr}.bank-filters{gap:13px}.bank-main select{font-size:.85rem;padding-left:9px}.bank-card{padding:24px}.bank-reader{margin:24px -1px 30px;padding:25px 20px}.bank-reader h2{font-size:1.15rem}.bank-paragraph.is-annotated .bank-sentence{grid-template-columns:1fr;gap:3px;padding:10px 0}.bank-section-head{gap:12px}.bank-section-head h3{font-size:1.6rem}.bank-use{padding-left:13px}.bank-filter-footer{gap:10px}.bank-section{padding-top:24px}.bank-source{line-height:2}}
 @media(prefers-reduced-motion:reduce){.bank-card{transition:none}}
 @media print{.bank-finder,.bank-grid,.bank-reader-top,.bank-links,.bank-text-button,.bank-edition summary{display:none}.bank-reader{border:0;padding:0;max-width:none}.bank-main{padding:0}.bank-section{break-inside:avoid}.bank-quote p{font-size:18pt}.bank-paragraph{font-size:11pt}}
+
+.bank-main .bank-nobr{white-space:nowrap}
