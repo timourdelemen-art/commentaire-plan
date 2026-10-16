@@ -1,8 +1,8 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
 const {select,resolveId}=require('../philosophie-banque.js');
 const data=JSON.parse(fs.readFileSync(path.join(__dirname,'philo-banque-data.json'),'utf8'));
-assert.equal(data.version,2);assert.equal(data.entries.length,134);assert.equal(new Set(data.entries.map(e=>e.id)).size,134);
-assert.equal(data.entries.reduce((n,e)=>n+e.uses.length,0),275);
+assert.equal(data.version,2);assert.equal(data.entries.length,152);assert.equal(new Set(data.entries.map(e=>e.id)).size,152);
+assert.equal(data.entries.reduce((n,e)=>n+e.uses.length,0),310);
 assert.equal(new Set(data.entries.flatMap(e=>e.uses.map(u=>u.subject))).size,169);
 const functions=['Le problème','L’affirmation','Les concepts','La raison','L’exemple','La portée'];
 for(const e of data.entries){
@@ -17,7 +17,8 @@ assert.equal(select(data.entries,{author:'Cioran'}).length,18);
 assert.equal(select(data.entries,{author:'Kant'}).length,23);
 assert.equal(select(data.entries,{author:'Baudelaire'}).length,16);
 assert.equal(select(data.entries,{author:'Racine'}).length,17);
-for(const e of data.entries.filter(e=>e.verse)){assert(e.quote.split('\n').length<=2);assert.equal(e.originalLanguage,'français');if(e.author==='Racine'){assert(e.speaker&&e.situation);assert(e.situation.split(/\s+/).length<=22);}}
+assert.equal(select(data.entries,{author:'Corneille'}).length,18);
+for(const e of data.entries.filter(e=>e.verse)){assert(e.quote.split('\n').length<=2);assert.equal(e.originalLanguage,'français');if(['Racine','Corneille'].includes(e.author)){assert(e.speaker&&e.situation);assert(e.situation.split(/\s+/).length<=22);}}
 assert.equal(select(data.entries,{author:'Racine',query:'Polynice'}).length,1);
 assert.equal(select(data.entries,{author:'Baudelaire',query:'Nouvelles Fleurs du Mal'}).length,1);
 assert.equal(select(data.entries,{author:'Kant',query:'raison pure'}).length,12);
@@ -33,7 +34,8 @@ assert.equal(select(data.entries,{author:'Aristote',notion:'art',subject:'L’ar
 for(const e of select(data.entries,{notion:'justice'}))assert(e.notions.includes('justice'));
 for(const id of ['platon-persuasion','aristote-vertu','nietzsche-liberte'])assert(data.entries.some(e=>e.id===resolveId(data,id)));
 assert.equal(resolveId(data,'platon-caverne'),null);
+for(const [oldId,newId] of Object.entries(data.legacyIds))if(newId)assert(data.entries.some(e=>e.id===resolveId(data,oldId)),oldId);
 const pub={window:{}};vm.runInNewContext(fs.readFileSync(path.join(__dirname,'../philosophie-banque-data.js'),'utf8'),pub);assert.equal(JSON.stringify(pub.window.PHILO_BANQUE),JSON.stringify(data));
-const h=fs.readFileSync(path.join(__dirname,'../philosophie-banque.html'),'utf8');assert.equal((h.match(/<details id="citation-/g)||[]).length,134);
-assert(!h.includes('Quinze références'));assert(!h.includes('bank-exercise'));assert.equal((h.match(/<h3>Commentaire<\/h3>/g)||[]).length,134);
-console.log('134 fiches, 275 usages, 169 sujets ; commentaires courts, filtres, anciens liens, sources et catalogue OK.');
+const h=fs.readFileSync(path.join(__dirname,'../philosophie-banque.html'),'utf8');assert.equal((h.match(/<details id="citation-/g)||[]).length,152);
+assert(!h.includes('Quinze références'));assert(!h.includes('bank-exercise'));assert.equal((h.match(/<h3>Commentaire<\/h3>/g)||[]).length,152);
+console.log('152 fiches, 310 usages, 169 sujets ; commentaires courts, filtres, anciens liens, sources et catalogue OK.');
