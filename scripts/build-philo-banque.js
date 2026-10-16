@@ -9,8 +9,8 @@ for(const e of data.entries){
  for(const k of ['id','author','work','locator','title','edition','editionYear','quote'])if(!e[k])throw Error(e.id+': '+k+' manquant');
  if(e.author==='Cioran'&&(e.originalLanguage!=='français'||e.authorRole!=='Écrivain et penseur'))throw Error(e.id+': langue originale et statut requis');
  if(e.commentary.length!==6||e.commentary.some((c,i)=>c.function!==functions[i]||!c.sentence))throw Error(e.id+': six fonctions complètes requises');
- if(e.verse&&(!['Baudelaire','Racine'].includes(e.author)||e.quote.split('\n').length>2))throw Error(e.id+': un ou deux vers requis');
- if(e.author==='Racine'&&(!e.speaker||!e.situation||e.situation.split(/\s+/).length>22))throw Error(e.id+': situation dramatique brève requise');
+ if(e.verse&&(!['Baudelaire','Racine','Corneille'].includes(e.author)||e.quote.split('\n').length>2))throw Error(e.id+': un ou deux vers requis');
+ if(['Racine','Corneille'].includes(e.author)&&(!e.speaker||!e.situation||e.situation.split(/\s+/).length>22))throw Error(e.id+': situation dramatique brève requise');
  if(e.uses.length<1||e.uses.length>3)throw Error(e.id+': un à trois sujets requis');
  for(const u of e.uses){
   if(!u.subject||!u.function||!u.reason||!/^https:\/\/(?:www\.)?(?:education\.gouv\.fr|pedagogie\.ac-montpellier\.fr)\//.test(u.source))throw Error(e.id+': usage non documenté');

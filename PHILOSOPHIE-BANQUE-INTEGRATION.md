@@ -6,16 +6,16 @@ Le propriétaire a fourni trois recueils, approuvé l’inventaire de 45 citatio
 
 ## Contenu
 
-- 134 citations : quinze de Platon, quinze d’Aristote, quinze de Nietzsche, quinze de Spinoza, dix-huit de Cioran, vingt-trois de Kant, seize de Baudelaire et dix-sept de Racine.
-- 275 usages proposés sur 169 libellés de sujets distincts, avec deux ou trois sujets par fiche.
-- 134 commentaires originaux de six phrases, de 145 mots au plus ; aucune prétention à un protocole officiel de six phrases.
+- 152 citations : quinze de Platon, quinze d’Aristote, quinze de Nietzsche, quinze de Spinoza, dix-huit de Cioran, vingt-trois de Kant, seize de Baudelaire, dix-sept de Racine et dix-huit de Corneille.
+- 310 usages proposés sur 169 libellés de sujets distincts, avec un à trois sujets par fiche.
+- 152 commentaires originaux de six phrases, de 145 mots au plus ; aucune prétention à un protocole officiel de six phrases.
 - Sept liens vers des copies A20 existantes, avec indication de la sous-partie examinée. Il s’agit d’insertions possibles, pas de citations déjà présentes dans les copies.
 - Les sujets anciens sont attestés dans le recueil de l’académie de Montpellier, 1996-2025, aux pages conservées dans les données. Sept raccords sont vérifiés dans les PDF ministériels 2026 (Amérique du Nord et Asie).
 - Les traductions individuelles non identifiées restent explicitement indiquées comme à préciser. Les noms ne sont pas inventés.
 
 ## Sources et contrôle
 
-La sélection et ses citations viennent des dix ouvrages fournis dans la conversation. Le registre scripts/philo-banque-provenance.json conserve les empreintes des sources, le passage interne et l’empreinte du texte de chaque citation contrôlée. Les livres, noms de fichiers privés et identifiants Library ne sont pas commis. Les espaces et renvois de notes ont été normalisés ; les mots des citations ne sont pas remplacés.
+La sélection et ses citations viennent des onze ouvrages fournis dans la conversation. Le registre scripts/philo-banque-provenance.json conserve les empreintes des sources, le passage interne et l’empreinte du texte de chaque citation contrôlée. Les livres, noms de fichiers privés et identifiants Library ne sont pas commis. Les espaces et renvois de notes ont été normalisés ; les mots des citations ne sont pas remplacés.
 
 Le propriétaire a expressément demandé l’intégration de ces courts extraits après lecture du recueil. Aucun ouvrage ni chapitre entier n’est publié. La décision porte sur cette sélection, pas sur une autorisation générale de reproduire les traductions.
 
@@ -23,7 +23,7 @@ Le propriétaire a expressément demandé l’intégration de ces courts extrait
 
 Source : scripts/philo-banque-data.json. Génération : node scripts/build-philo-banque.js. Le script vérifie les citations contre les empreintes, les six fonctions, les sources des sujets, les liens A20, et produit philosophie-banque-data.js ainsi que le catalogue HTML complet. --check vérifie la fraîcheur des deux sorties. Les sorties sont commises car le build général ne relance pas ce générateur.
 
-La page fonctionne sans JavaScript : cent trente-quatre fiches complètes dans des blocs dépliables. Avec JavaScript : filtres, lecteur unique, lecture annotée ou continue, lien direct partageable. La recherche ne promet aucun classement sémantique automatique. Le sélecteur ne fait que filtrer des raccords documentés.
+La page fonctionne sans JavaScript : cent cinquante-deux fiches complètes dans des blocs dépliables. Avec JavaScript : filtres, lecteur unique, lecture annotée ou continue, lien direct partageable. La recherche ne promet aucun classement sémantique automatique. Le sélecteur ne fait que filtrer des raccords documentés.
 
 Les anciennes fiches sont retirées des données et du catalogue. Onze anciens identifiants renvoient vers une nouvelle fiche du même passage ou thème repris ; quatre identifiants sans équivalent présentent un message de retrait. Les anciens brouillons du navigateur ne sont ni utilisés ni effacés.
 
@@ -76,3 +76,11 @@ Le dépouillement a porté sur l’ensemble du corpus extrait : inventaire des p
 Les références distinguent le recueil proprement dit, les Nouvelles Fleurs du Mal et l’Ébauche d’un épilogue pour la deuxième édition. La variante « Et le paradis en enfers; » d’Alchimie de la douleur est conservée conformément au livre fourni ; la comparaison en ligne donne « en enfer ». Cette différence est signalée dans le détail d’édition : aucune harmonisation silencieuse. La réplique sur le peuple qui choisirait son maître est attribuée à Polynice (La Thébaïde, II, 3), non à Étéocle ; l’oracle d’Iphigénie est interrogé par Clytemnestre ; la justice expéditive d’Athalie est défendue par Mathan.
 
 Les 66 emplois nouveaux sont raccordés à des libellés retrouvés dans le PDF académique du bac 1996–2025, avec lien vers la page. Le recueil des 11 000 sujets ne suffit pas à attester un sujet du bac. Les situations restent brèves ; les explications distinguent la parole poétique d’une démonstration, la métaphore d’une loi et les passions représentées d’une prescription morale. Les 101 fiches antérieures sont conservées à l’identique dans les données.
+
+## Corneille et audit esthétique des vers
+
+Dix-huit extraits de douze pièces sont prélevés dans l’EPUB Arvensa fourni, avec personnage, acte, scène et situation brève. Les mots et la ponctuation de ce volume sont conservés, les espaces de mise en page normalisés et les appels de notes retirés. Le volume indique une mise en français moderne par Charles Wincesky et une référence à Marty-Laveaux (Hachette, 1862). Aucune année d’édition n’est déduite du nom de fichier ou des métadonnées manifestement invalides ; la date est dite non indiquée. Comparaison à Théâtre classique ou à l’édition Marty-Laveaux sur Wikisource : mêmes mots pour les dix-huit passages, typographie propre au livre fourni. Les usages sont attestés à leur page dans le recueil académique du bac.
+
+Le corpus a été extrait et inventorié, puis les scènes retenues et leurs échanges environnants relus ; il ne s’agit pas d’une certification de lecture littéraire exhaustive des œuvres complètes. Les sections critiques, traductions religieuses et pièces en collaboration ne sont pas utilisées pour attribuer à Corneille seul un texte dramatique. Le registre conserve le chemin et la position de chaque prélèvement.
+
+L’audit de chacune des 33 fiches Baudelaire/Racine est motivé dans PHILOSOPHIE-CITATIONS-AUDIT.md. Il retient cinq remplacements, sans prétendre établir un classement objectif des plus beaux vers de ces auteurs. B05 et B10, R01, R04 et R09 sont refaits entièrement : citation, référence, titre, sujets, fonctions et commentaire. Les anciens liens redirigent vers leur remplacement. Les 129 autres fiches conservent exactement leurs données. Les citations retirées restent consignées dans le registre interne pour rendre la décision vérifiable ; elles ne sont plus publiées dans le catalogue.

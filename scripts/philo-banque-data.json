@@ -16,7 +16,12 @@
     "nietzsche-valeurs": "nietzsche-le-ressentiment-et-les-valeurs",
     "nietzsche-verite": "nietzsche-lhypothese-scientifique",
     "nietzsche-perspective": null,
-    "nietzsche-liberte": "nietzsche-se-liberer-et-creer"
+    "nietzsche-liberte": "nietzsche-se-liberer-et-creer",
+    "baudelaire-remords-et-irreparable": "baudelaire-memoire-et-duree",
+    "baudelaire-conscience-et-miroir": "baudelaire-rencontre-et-possible",
+    "racine-bonheur-et-interet": "racine-pouvoir-et-peur",
+    "racine-honneur-et-argent": "racine-separation-et-avenir",
+    "racine-aimer-sans-contraindre": "racine-desir-et-fuite"
   },
   "entries": [
     {
@@ -6373,17 +6378,16 @@
       "collection": "Les Fleurs du Mal"
     },
     {
-      "id": "baudelaire-remords-et-irreparable",
+      "id": "baudelaire-memoire-et-duree",
       "code": "B05",
       "author": "Baudelaire",
-      "title": "Ce que le remords ne répare pas",
-      "work": "L’Irréparable",
-      "locator": "v. 36–37 · p. 80",
-      "quote": "L’Irréparable ronge avec sa dent maudite\nNotre âme, piteux monument,",
+      "title": "Une mémoire plus vieille que soi",
+      "work": "Spleen",
+      "locator": "LXXVI · v. 1 · p. 94",
+      "quote": "J’ai plus de souvenirs que si j’avais mille ans.",
       "notions": [
-        "conscience",
-        "devoir",
-        "temps"
+        "temps",
+        "conscience"
       ],
       "edition": "Les Fleurs du Mal et autres poèmes · préface d’Henri Lemaitre",
       "publisher": "Garnier-Flammarion",
@@ -6394,41 +6398,41 @@
       "commentary": [
         {
           "function": "Le problème",
-          "sentence": "Reconnaître une faute suffit-il à réparer ce qu’elle a détruit ?"
+          "sentence": "Le poids d’une vie se mesure-t-il au nombre des années vécues ?"
         },
         {
           "function": "L’affirmation",
-          "sentence": "Le poème représente l’irréparable comme une force qui ronge l’âme."
+          "sentence": "La voix poétique éprouve une mémoire plus chargée que ne le serait celle d’une existence millénaire."
         },
         {
           "function": "Les concepts",
-          "sentence": "L’âme devient un monument fragile, et la dent transforme le remords en une action lente de destruction."
+          "sentence": "L’hyperbole des mille ans oppose la durée comptable à l’accumulation intérieure des souvenirs."
         },
         {
           "function": "La raison",
-          "sentence": "La conscience du mal accompli peut donc persister sans donner le pouvoir de défaire l’événement."
+          "sentence": "Le passé ne demeure pas seulement derrière nous : il peut encombrer le présent et rendre chaque instant lourd de ce qui a été vécu."
         },
         {
           "function": "L’exemple",
-          "sentence": "Regretter d’avoir trahi une confiance ne rétablit pas immédiatement la relation antérieure."
+          "sentence": "Le poème compare ensuite le cerveau à un meuble rempli, puis à un caveau."
         },
         {
           "function": "La portée",
-          "sentence": "Il faut distinguer le remords, la réparation possible et l’effacement impossible du passé, sans faire de toute culpabilité une condamnation sans issue."
+          "sentence": "La mémoire transforme ainsi l’expérience du temps, sans que sa richesse garantisse une vie plus heureuse ou un savoir plus juste."
         }
       ],
       "uses": [
         {
-          "subject": "Peut-on se libérer du passé ?",
-          "function": "Distinguer reconnaître et défaire",
-          "reason": "Après le rôle libérateur de l’aveu, montrer que comprendre sa faute ne supprime pas toutes ses conséquences.",
-          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=42",
-          "sourceLabel": "Recueil académique · p. 42"
+          "subject": "Mesurer le temps, est-ce en faire l’expérience ?",
+          "function": "Distinguer âge et durée vécue",
+          "reason": "Après la mesure chronologique, examiner la densité du passé qui persiste dans le présent.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=66",
+          "sourceLabel": "Recueil académique · p. 66"
         },
         {
           "subject": "Pour se libérer du passé faut-il l’oublier ?",
-          "function": "Distinguer l’oubli et la réparation",
-          "reason": "Après l’oubli conçu comme libération, distinguer l’effacement d’un souvenir et la réparation des conséquences de l’acte.",
+          "function": "Montrer le poids possible du souvenir",
+          "reason": "Avant de valoriser toute mémoire, examiner l’expérience d’une accumulation qui encombre le présent.",
           "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=42",
           "sourceLabel": "Recueil académique · p. 42"
         }
@@ -6685,16 +6689,17 @@
       "collection": "Les Fleurs du Mal"
     },
     {
-      "id": "baudelaire-conscience-et-miroir",
+      "id": "baudelaire-rencontre-et-possible",
       "code": "B10",
       "author": "Baudelaire",
-      "title": "Un miroir clair et sombre",
-      "work": "L’Irrémédiable",
-      "locator": "v. 33–34 · p. 101",
-      "quote": "Tête-à-tête sombre et limpide\nQu’un cœur devenu son miroir!",
+      "title": "L’amour qui aurait pu être",
+      "work": "À une passante",
+      "locator": "v. 13–14 · p. 114",
+      "quote": "Car j’ignore où tu fuis, tu ne sais où je vais,\nO toi que j’eusse aimée, ô toi qui le savais!",
       "notions": [
-        "conscience",
-        "verite"
+        "temps",
+        "bonheur",
+        "conscience"
       ],
       "edition": "Les Fleurs du Mal et autres poèmes · préface d’Henri Lemaitre",
       "publisher": "Garnier-Flammarion",
@@ -6705,43 +6710,43 @@
       "commentary": [
         {
           "function": "Le problème",
-          "sentence": "Se voir lucidement suffit-il à sortir de ce qui nous fait souffrir ?"
+          "sentence": "Peut-on éprouver la perte d’une relation qui n’a jamais commencé ?"
         },
         {
           "function": "L’affirmation",
-          "sentence": "Le poème représente un cœur devenu son propre miroir dans un tête-à-tête à la fois sombre et limpide."
+          "sentence": "La voix poétique s’adresse à une inconnue disparue comme à celle qu’elle aurait pu aimer."
         },
         {
           "function": "Les concepts",
-          "sentence": "La limpidité évoque une lucidité, tandis que l’obscurité maintient le sujet dans l’épreuve du mal."
+          "sentence": "Le passé non réalisé de l’amour contraste avec l’affirmation d’un savoir attribué à la passante."
         },
         {
           "function": "La raison",
-          "sentence": "La conscience peut ainsi éclairer sa condition sans posséder par cet éclairage le pouvoir de la transformer."
+          "sentence": "Le regard croisé suffit à faire naître un possible, mais ne donne ni connaissance de l’autre ni chemin pour la retrouver."
         },
         {
           "function": "L’exemple",
-          "sentence": "Comprendre le mécanisme d’un regret ne suffit pas toujours à cesser de l’éprouver."
+          "sentence": "Dans la rue, la rencontre ne dure qu’un instant avant que leurs directions les séparent."
         },
         {
           "function": "La portée",
-          "sentence": "La connaissance de soi et la délivrance doivent donc être distinguées, sans conclure que toute lucidité serait vaine."
+          "sentence": "Une possibilité manquée peut ainsi marquer une vie réelle, sans que l’intensité de l’émotion prouve la réciprocité imaginée du sentiment."
         }
       ],
       "uses": [
         {
-          "subject": "Être conscient, est-ce savoir ?",
-          "function": "Distinguer présence à soi et connaissance accomplie",
-          "reason": "Après le sentiment d’être présent à soi, examiner ce que la conscience parvient réellement à comprendre de sa propre condition.",
-          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=18",
-          "sourceLabel": "Recueil académique · p. 18"
+          "subject": "Suffit-il d’avoir ce que l’on désire pour être heureux ?",
+          "function": "Examiner le bonheur imaginé",
+          "reason": "Distinguer le bien réel d’une relation et la promesse que le désir projette sur une rencontre inconnue.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=16",
+          "sourceLabel": "Recueil académique · p. 16"
         },
         {
-          "subject": "La connaissance peut-elle nuire au bonheur ?",
-          "function": "Examiner une lucidité sans délivrance immédiate",
-          "reason": "Montrer pourquoi voir plus clairement sa souffrance ne garantit pas d’en être immédiatement libéré.",
-          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=15",
-          "sourceLabel": "Recueil académique · p. 15"
+          "subject": "Le désir est-il aveugle ?",
+          "function": "Distinguer rencontre et projection",
+          "reason": "Après la force révélatrice d’un regard, examiner le savoir réciproque que le désir imagine sans pouvoir le vérifier.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=90",
+          "sourceLabel": "Recueil académique · p. 90"
         }
       ],
       "collection": "Les Fleurs du Mal"
@@ -7118,15 +7123,16 @@
       ]
     },
     {
-      "id": "racine-bonheur-et-interet",
+      "id": "racine-pouvoir-et-peur",
       "code": "R01",
       "author": "Racine",
-      "title": "Le bonheur de l’autre et mon intérêt",
-      "work": "Alexandre le Grand",
-      "locator": "Acte III, scène VII",
-      "quote": "Et puisque mon repos doit dépendre du sien,\nAchevons son bonheur pour établir le mien.",
+      "title": "Faire peur et devoir tout craindre",
+      "work": "Britannicus",
+      "locator": "Acte IV, scène III",
+      "quote": "Craint de tout l'univers, il vous faudra tout craindre,\nToujours punir, toujours trembler dans vos projets,",
       "notions": [
-        "bonheur"
+        "etat",
+        "liberte"
       ],
       "edition": "Œuvres complètes et annexes (annotées)",
       "publisher": "Arvensa Éditions",
@@ -7137,47 +7143,47 @@
       "commentary": [
         {
           "function": "Le problème",
-          "sentence": "Chercher le bonheur d’autrui exclut-il de poursuivre son propre intérêt ?"
+          "sentence": "Le pouvoir de faire peur délivre-t-il de la peur ?"
         },
         {
           "function": "L’affirmation",
-          "sentence": "Alexandre veut établir le bonheur de Taxile parce que sa propre tranquillité en dépend."
+          "sentence": "Burrhus annonce que Néron, craint de tous, devra lui-même vivre dans une crainte continuelle."
         },
         {
           "function": "Les concepts",
-          "sentence": "Le bonheur d’autrui apparaît ici comme un bien recherché et comme un moyen de parvenir à une satisfaction personnelle."
+          "sentence": "Le retour de craindre inverse les positions du maître redouté et de celui qui se sent menacé."
         },
         {
           "function": "La raison",
-          "sentence": "Une action favorable à l’autre peut donc être soutenue par un intérêt qui ne se présente pas comme un pur sacrifice."
+          "sentence": "La violence appelle des vengeurs et conduit à de nouvelles violences pour contenir les ennemis qu’elle produit."
         },
         {
           "function": "L’exemple",
-          "sentence": "La stratégie d’Alexandre consiste à obtenir l’appui amoureux de Taxile en favorisant les projets de ce dernier."
+          "sentence": "Burrhus explique que le meurtre de Britannicus susciterait des défenseurs auxquels d’autres succéderaient."
         },
         {
           "function": "La portée",
-          "sentence": "La réciprocité des avantages peut servir autrui, sans établir à elle seule que l’intention soit désintéressée ou que tous les intérêts coïncident."
+          "sentence": "La domination peut donc enfermer celui qui l’exerce, sans que cette conséquence dispense de juger aussi le tort fait à ses victimes."
         }
       ],
       "uses": [
         {
-          "subject": "La recherche du bonheur est-elle un idéal égoïste ?",
-          "function": "Distinguer intérêt personnel et indifférence à autrui",
-          "reason": "Après l’opposition entre mon bonheur et celui des autres, examiner une action dans laquelle ils deviennent liés.",
-          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=13",
-          "sourceLabel": "Recueil académique · p. 13"
+          "subject": "L’abus de pouvoir est-il inévitable ?",
+          "function": "Expliquer un enchaînement de violences",
+          "reason": "Montrer comment un premier crime peut rendre nécessaires, aux yeux du tyran, de nouvelles répressions.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=26",
+          "sourceLabel": "Recueil académique · p. 26"
         },
         {
-          "subject": "Les hommes n’agissent-ils que par intérêt ?",
-          "function": "Examiner une bienveillance intéressée",
-          "reason": "Montrer qu’aider quelqu’un et attendre un avantage de cette aide peuvent coexister, sans généraliser ce motif à toute conduite.",
-          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=147",
-          "sourceLabel": "Recueil académique · p. 147"
+          "subject": "Être libre, est-ce faire ce que l’on veut ?",
+          "function": "Distinguer domination et liberté",
+          "reason": "Opposer le pouvoir d’imposer sa volonté à la dépendance croissante envers la peur et la défense de sa position.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=38",
+          "sourceLabel": "Recueil académique · p. 38"
         }
       ],
-      "speaker": "Alexandre",
-      "situation": "Alexandre veut favoriser le bonheur de Taxile pour servir son propre amour."
+      "speaker": "Burrhus",
+      "situation": "Burrhus avertit Néron que le meurtre de Britannicus l’enfermerait dans une suite de violences."
     },
     {
       "id": "racine-passion-et-destin",
@@ -7306,16 +7312,16 @@
       "situation": "Hermione reproche à Pyrrhus de l’abandonner pour épouser Andromaque."
     },
     {
-      "id": "racine-honneur-et-argent",
+      "id": "racine-separation-et-avenir",
       "code": "R04",
       "author": "Racine",
-      "title": "La reconnaissance et l’argent",
-      "work": "Les Plaideurs",
-      "locator": "Acte I, scène I",
-      "quote": "Mais sans argent l'honneur n'est qu'une maladie.",
+      "title": "Un avenir rendu sensible par l’absence",
+      "work": "Bérénice",
+      "locator": "Acte IV, scène 5",
+      "quote": "Dans un mois, dans un an, comment souffrirons-nous,\nSeigneur, que tant de mers me séparent de vous?",
       "notions": [
-        "justice",
-        "travail"
+        "temps",
+        "bonheur"
       ],
       "edition": "Œuvres complètes et annexes (annotées)",
       "publisher": "Arvensa Éditions",
@@ -7326,47 +7332,47 @@
       "commentary": [
         {
           "function": "Le problème",
-          "sentence": "Les marques d’honneur suffisent-elles à donner une valeur réelle à une condition sociale ?"
+          "sentence": "Un avenir encore absent peut-il déjà nous faire souffrir ?"
         },
         {
           "function": "L’affirmation",
-          "sentence": "Petit Jean oppose les égards qu’il recevait à l’argent qu’il attendait de sa place."
+          "sentence": "Bérénice interroge Titus sur la manière dont ils supporteront leur séparation dans les mois et les années à venir."
         },
         {
           "function": "Les concepts",
-          "sentence": "L’honneur désigne ici la considération affichée, tandis que l’argent en représente l’avantage matériel."
+          "sentence": "La succession du mois et de l’an donne une durée à l’absence, tandis que les mers en font sentir la distance."
         },
         {
           "function": "La raison",
-          "sentence": "La formule comique révèle la manière dont le personnage mesure la reconnaissance à ce qu’elle lui rapporte."
+          "sentence": "Imaginer le futur transporte ainsi dans le présent une douleur dont l’événement n’a pas encore eu lieu."
         },
         {
           "function": "L’exemple",
-          "sentence": "Son récit rappelle qu’il faisait payer l’accès à la maison du juge malgré les salutations respectueuses des visiteurs."
+          "sentence": "Bérénice prolonge sa question en évoquant des journées qui recommenceront sans qu’ils puissent se revoir."
         },
         {
           "function": "La portée",
-          "sentence": "La réplique permet de discuter la valeur sociale des honneurs, sans transformer le calcul du portier en jugement universel de Racine."
+          "sentence": "Le temps vécu dépend donc aussi de l’anticipation, sans que l’image du malheur à venir en fixe définitivement l’expérience réelle."
         }
       ],
       "uses": [
         {
-          "subject": "Le travail n’est-il qu’un moyen de subsistance ?",
-          "function": "Distinguer rémunération et reconnaissance",
-          "reason": "Après la considération attachée à une fonction, examiner la place du revenu dans la valeur que le travailleur lui attribue.",
-          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=68",
-          "sourceLabel": "Recueil académique · p. 68"
+          "subject": "Mesurer le temps, est-ce en faire l’expérience ?",
+          "function": "Distinguer calendrier et absence vécue",
+          "reason": "À la mesure des mois et des années, opposer ce que leur durée signifie pour ceux qui anticipent une séparation.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=66",
+          "sourceLabel": "Recueil académique · p. 66"
         },
         {
-          "subject": "Les hommes n’agissent-ils que par intérêt ?",
-          "function": "Mettre à l’épreuve le langage des honneurs",
-          "reason": "Montrer comment les marques de respect peuvent accompagner des calculs d’avantage, sans réduire toute reconnaissance à ce calcul.",
-          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=147",
-          "sourceLabel": "Recueil académique · p. 147"
+          "subject": "Le bonheur est-il inaccessible à l’homme ?",
+          "function": "Examiner la souffrance anticipée",
+          "reason": "Montrer comment le présent peut être troublé par une perte à venir, sans conclure de cette possibilité à l’impossibilité de tout bonheur.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=13",
+          "sourceLabel": "Recueil académique · p. 13"
         }
       ],
-      "speaker": "Petit Jean",
-      "situation": "Le portier Petit Jean raconte les profits qu’il tirait de sa place chez un juge."
+      "speaker": "Bérénice",
+      "situation": "Bérénice fait éprouver à Titus la durée de leur séparation annoncée."
     },
     {
       "id": "racine-amour-et-domination",
@@ -7623,16 +7629,17 @@
       "situation": "Bérénice annonce sa séparation d’avec Titus et exhorte Antiochus à vivre."
     },
     {
-      "id": "racine-aimer-sans-contraindre",
+      "id": "racine-desir-et-fuite",
       "code": "R09",
       "author": "Racine",
-      "title": "La protection n’achète pas le consentement",
+      "title": "Prolonger le péril que l’on fuit",
       "work": "Mithridate",
-      "locator": "Acte I, scène II",
-      "quote": "Pour me faire, Seigneur, consentir à vous voir,\nVous n’aurez pas besoin d’un injuste pouvoir.",
+      "locator": "Acte II, scène VI",
+      "quote": "Plus je vous parle, et plus, trop faible que je suis,\nJe cherche à prolonger le péril que je fuis.",
       "notions": [
         "liberte",
-        "justice"
+        "conscience",
+        "raison"
       ],
       "edition": "Œuvres complètes et annexes (annotées)",
       "publisher": "Arvensa Éditions",
@@ -7643,47 +7650,47 @@
       "commentary": [
         {
           "function": "Le problème",
-          "sentence": "Protéger une personne donne-t-il le droit d’exiger son attachement ?"
+          "sentence": "Savoir qu’une situation nous met en danger suffit-il à vouloir y mettre fin ?"
         },
         {
           "function": "L’affirmation",
-          "sentence": "Monime assure à Xipharès qu’il n’aura pas besoin de la contraindre pour qu’elle accepte de le voir."
+          "sentence": "Monime reconnaît que sa conversation avec Xipharès prolonge précisément le péril auquel elle veut échapper."
         },
         {
           "function": "Les concepts",
-          "sentence": "Le consentement est distingué d’un pouvoir qui imposerait la relation au nom de l’aide apportée."
+          "sentence": "Le péril désigne ici le risque de céder à son amour et de trahir l’engagement qui la lie à Mithridate."
         },
         {
           "function": "La raison",
-          "sentence": "La réponse rend possible un rapprochement parce qu’elle n’est pas présentée comme une soumission exigible."
+          "sentence": "La lucidité accompagne donc le plaisir au lieu de l’abolir : parler encore permet de différer la séparation jugée nécessaire."
         },
         {
           "function": "L’exemple",
-          "sentence": "Monime demande précisément à Xipharès de la défendre contre le mariage forcé voulu par Pharnace."
+          "sentence": "Monime finit pourtant par partir et demande à Xipharès de l’éviter."
         },
         {
           "function": "La portée",
-          "sentence": "Le secours peut ainsi respecter la liberté de l’autre, sans transformer sa gratitude ou son affection en une dette obligatoire."
+          "sentence": "Le sujet peut connaître sa contradiction et agir pour y résister, sans que le seul aveu de faiblesse garantisse la maîtrise de ses choix."
         }
       ],
       "uses": [
         {
-          "subject": "L’indépendance suffit-elle à définir la liberté ?",
-          "function": "Distinguer recevoir une aide et être soumis",
-          "reason": "Après la dépendance matérielle créée par un secours, montrer qu’elle n’autorise pas à disposer du consentement de la personne aidée.",
-          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=38",
-          "sourceLabel": "Recueil académique · p. 38"
+          "subject": "Faut-il combattre les passions pour être libre ?",
+          "function": "Distinguer lucidité et maîtrise",
+          "reason": "Après la reconnaissance d’une passion, examiner l’effort nécessaire pour interrompre une situation qui la nourrit.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=45",
+          "sourceLabel": "Recueil académique · p. 45"
         },
         {
-          "subject": "Peut-on faire le bonheur d’autrui ?",
-          "function": "Fixer une limite à la bienveillance",
-          "reason": "Montrer que prétendre protéger ou aimer quelqu’un ne suffit pas à justifier une relation imposée.",
-          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=15",
-          "sourceLabel": "Recueil académique · p. 15"
+          "subject": "La raison s’oppose-t-elle nécessairement au désir ?",
+          "function": "Montrer une raison présente dans le conflit",
+          "reason": "La conscience du risque peut coexister avec le plaisir de le prolonger : la raison n’est pas simplement absente du désir.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=51",
+          "sourceLabel": "Recueil académique · p. 51"
         }
       ],
       "speaker": "Monime",
-      "situation": "Monime demande à Xipharès de la protéger du mariage que Pharnace veut lui imposer."
+      "situation": "Monime fait ses adieux à Xipharès pour rester fidèle à son engagement envers Mithridate."
     },
     {
       "id": "racine-oracle-et-interpretation",
@@ -8194,6 +8201,1155 @@
       ],
       "speaker": "Une Israélite du chœur",
       "situation": "Après la chute d’Aman, le chœur médite sur les pièges tendus aux rois."
+    },
+    {
+      "id": "corneille-liberte-dans-les-liens",
+      "code": "CO01",
+      "author": "Corneille",
+      "title": "Être libre jusque dans l’attachement",
+      "work": "La Place Royale",
+      "locator": "Acte I, scène IV",
+      "quote": "Je veux la liberté dans le milieu des fers.",
+      "speaker": "Alidor",
+      "situation": "Alidor explique à Cléandre pourquoi il veut rompre avec Angélique, qui l’aime.",
+      "notions": [
+        "liberte",
+        "conscience"
+      ],
+      "edition": "Œuvres complètes · texte modernisé",
+      "publisher": "Arvensa Éditions",
+      "editionYear": "date non indiquée dans le volume",
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Peut-on aimer sans rien perdre de sa liberté ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Alidor veut conserver, au sein même de l’attachement amoureux, une entière disposition de lui-même."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Les fers figurent le lien passionnel, tandis que la liberté désigne le pouvoir d’aimer et de cesser d’aimer à volonté."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Il exige ainsi que le sentiment dépende de sa décision, au lieu de découvrir une volonté déjà engagée par ce qu’elle aime."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Il prépare la rupture avec Angélique alors même qu’elle l’aime et qu’il reconnaît sa perfection."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La réplique interroge une liberté comprise comme absence de dépendance, sans justifier les violences commises pour la préserver."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’indépendance suffit-elle à définir la liberté ?",
+          "function": "Éprouver une liberté sans attachement",
+          "reason": "Après l’indépendance prise pour modèle, examiner ce qu’une volonté perd lorsqu’elle refuse tout lien qui pourrait la transformer.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=38",
+          "sourceLabel": "Recueil académique · p. 38"
+        },
+        {
+          "subject": "Faut-il combattre les passions pour être libre ?",
+          "function": "Distinguer maîtrise et refus de l’attachement",
+          "reason": "Faire apparaître le risque de combattre le sentiment jusqu’à traiter la personne aimée comme un obstacle à supprimer.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=45",
+          "sourceLabel": "Recueil académique · p. 45"
+        }
+      ],
+      "editionNote": "Le volume indique une mise en français moderne par Charles Wincesky et prend pour référence les Œuvres de P. Corneille éditées par Charles Marty-Laveaux (Hachette, 1862). Les vers sont repris dans la forme du livre fourni."
+    },
+    {
+      "id": "corneille-temps-et-promesse",
+      "code": "CO02",
+      "author": "Corneille",
+      "title": "Promettre malgré le changement",
+      "work": "La Place Royale",
+      "locator": "Acte I, scène IV",
+      "quote": "Du temps, qui change tout, les révolutions\nNe changent-elles pas nos résolutions ?",
+      "speaker": "Alidor",
+      "situation": "Alidor invoque le changement des sentiments pour refuser de se lier par le mariage.",
+      "notions": [
+        "temps",
+        "devoir",
+        "liberte"
+      ],
+      "edition": "Œuvres complètes · texte modernisé",
+      "publisher": "Arvensa Éditions",
+      "editionYear": "date non indiquée dans le volume",
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Comment engager son avenir si nos sentiments peuvent changer ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Alidor invoque les transformations du temps pour mettre en doute la permanence de nos résolutions."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Les révolutions désignent les changements qui nous affectent, et les résolutions les décisions par lesquelles nous prétendons orienter notre conduite."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Le retour sonore des deux mots rapproche ce qui nous arrive et ce que nous croyons décider durablement."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Alidor craint de demeurer marié lorsque la beauté ou son propre goût ne soutiendront plus son amour."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La promesse doit donc être pensée avec la possibilité du changement, sans conclure que toute fidélité serait impossible ou sans valeur."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Maîtrise-t-on le temps ?",
+          "function": "Distinguer décision présente et maîtrise de l’avenir",
+          "reason": "Au moment d’examiner nos projets, montrer que décider aujourd’hui ne garantit pas la permanence des sentiments qui motivent la décision.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=42",
+          "sourceLabel": "Recueil académique · p. 42"
+        },
+        {
+          "subject": "Pouvons-nous faire coïncider nos désirs avec nos devoirs ?",
+          "function": "Introduire la durée de l’engagement",
+          "reason": "Après un accord présent du désir et du devoir, demander ce qui soutient l’engagement lorsque cet accord se défait.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=23",
+          "sourceLabel": "Recueil académique · p. 23"
+        }
+      ],
+      "editionNote": "Le volume indique une mise en français moderne par Charles Wincesky et prend pour référence les Œuvres de P. Corneille éditées par Charles Marty-Laveaux (Hachette, 1862). Les vers sont repris dans la forme du livre fourni."
+    },
+    {
+      "id": "corneille-amour-et-trahison",
+      "code": "CO03",
+      "author": "Corneille",
+      "title": "Quand l’amour agit comme la haine",
+      "work": "La Place Royale",
+      "locator": "Acte IV, scène V",
+      "quote": "Si mon feu la trahit, que lui ferait ma haine ?",
+      "speaker": "Alidor",
+      "situation": "Alidor éprouve des remords après avoir organisé l’enlèvement d’Angélique au profit de son ami.",
+      "notions": [
+        "devoir",
+        "conscience"
+      ],
+      "edition": "Œuvres complètes · texte modernisé",
+      "publisher": "Arvensa Éditions",
+      "editionYear": "date non indiquée dans le volume",
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Le sentiment d’aimer garantit-il que nous agissions pour le bien de l’autre ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Alidor s’étonne que son amour conduise à trahir Angélique comme pourrait le faire la haine."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le feu désigne la passion amoureuse, dont les effets contredisent ici la bienveillance attendue."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Le rapprochement de l’amour et de la haine oblige à juger une conduite autrement que par le nom du sentiment invoqué."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Pour retrouver sa liberté, Alidor a favorisé l’enlèvement de celle qui lui demeure attachée."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La lucidité du remords met au jour une contradiction de l’action, sans suffire à réparer le mal ni à transformer immédiatement la conduite."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Peut-on faire le bonheur d’autrui ?",
+          "function": "Examiner les actes derrière le sentiment",
+          "reason": "Dans l’étude de la bienveillance, distinguer aimer quelqu’un et traiter effectivement ses intérêts avec respect.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=15",
+          "sourceLabel": "Recueil académique · p. 15"
+        },
+        {
+          "subject": "Suffit-il d’avoir bonne conscience pour être sûr d’agir moralement ?",
+          "function": "Évaluer une intention par ses effets",
+          "reason": "Montrer que le nom honorable donné à son sentiment ne dispense pas d’examiner la trahison qu’il accompagne.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=18",
+          "sourceLabel": "Recueil académique · p. 18"
+        }
+      ],
+      "editionNote": "Le volume indique une mise en français moderne par Charles Wincesky et prend pour référence les Œuvres de P. Corneille éditées par Charles Marty-Laveaux (Hachette, 1862). Les vers sont repris dans la forme du livre fourni."
+    },
+    {
+      "id": "corneille-victoire-et-merite",
+      "code": "CO04",
+      "author": "Corneille",
+      "title": "Ce que coûte une victoire",
+      "work": "Le Cid",
+      "locator": "Acte II, scène II",
+      "quote": "A vaincre sans péril, on triomphe sans gloire.",
+      "speaker": "Le Comte",
+      "situation": "Le Comte tente de dissuader Rodrigue de l’affronter en duel.",
+      "notions": [
+        "devoir",
+        "justice"
+      ],
+      "edition": "Œuvres complètes · texte modernisé",
+      "publisher": "Arvensa Éditions",
+      "editionYear": "date non indiquée dans le volume",
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Toute victoire mérite-t-elle l’admiration ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Le Comte affirme qu’une victoire sans danger n’apporte aucune gloire."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Vaincre désigne le résultat du combat, tandis que la gloire renvoie à la reconnaissance d’une valeur manifestée."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La difficulté compte donc dans l’appréciation de l’exploit : le seul succès ne dit pas encore ce que le vainqueur a accompli."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Le Comte croit qu’affronter le jeune Rodrigue serait pour lui un combat trop inégal."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le vers distingue réussite et mérite, mais l’assurance du personnage rappelle qu’on peut aussi mal évaluer le danger et sa propre supériorité."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Être juste, est-ce être neutre ?",
+          "function": "Prendre en compte l’inégalité des situations",
+          "reason": "Pour juger un résultat, examiner si une même victoire représente le même effort selon les forces initiales des adversaires.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=30",
+          "sourceLabel": "Recueil académique · p. 30"
+        },
+        {
+          "subject": "Une inégalité peut-elle être juste ?",
+          "function": "Évaluer une différence de mérite",
+          "reason": "Distinguer deux succès semblables par la difficulté rencontrée, puis examiner si cette différence peut justifier une reconnaissance inégale.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=31",
+          "sourceLabel": "Recueil académique · p. 31"
+        }
+      ],
+      "editionNote": "Le volume indique une mise en français moderne par Charles Wincesky et prend pour référence les Œuvres de P. Corneille éditées par Charles Marty-Laveaux (Hachette, 1862). Les vers sont repris dans la forme du livre fourni."
+    },
+    {
+      "id": "corneille-patrie-et-humanite",
+      "code": "CO05",
+      "author": "Corneille",
+      "title": "Garder l’humain dans le devoir",
+      "work": "Horace",
+      "locator": "Acte II, scène III",
+      "quote": "Je rends grâces aux Dieux de n'être pas Romain,\nPour conserver encore quelque chose d'humain.",
+      "speaker": "Curiace",
+      "situation": "Curiace refuse l’insensibilité d’Horace alors que leurs cités les obligent à se combattre.",
+      "notions": [
+        "devoir",
+        "etat"
+      ],
+      "edition": "Œuvres complètes · texte modernisé",
+      "publisher": "Arvensa Éditions",
+      "editionYear": "date non indiquée dans le volume",
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Le dévouement à la patrie exige-t-il de ne plus éprouver de compassion ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Curiace préfère conserver une sensibilité humaine plutôt que d’adopter l’insensibilité présentée par Horace comme une vertu romaine."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le rapprochement de Romain et d’humain oppose une identité politique à une exigence qui dépasse l’appartenance civique."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Il peut accepter son devoir tout en refusant de tenir la souffrance devant le meurtre d’un proche pour une faiblesse honteuse."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Désigné pour combattre Horace, il ne se dérobe pas, mais reconnaît l’horreur de leur affrontement."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La compassion peut ainsi accompagner le courage, sans que la seule émotion suffise à décider quel devoir doit l’emporter."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Peut-on opposer le devoir à la liberté ?",
+          "function": "Interroger le contenu du devoir invoqué",
+          "reason": "Avant de traiter l’obéissance comme une nécessité absolue, demander si l’appartenance politique autorise à étouffer toute objection humaine.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=22",
+          "sourceLabel": "Recueil académique · p. 22"
+        },
+        {
+          "subject": "Faire son devoir sans être heureux, est-ce toute la morale ?",
+          "function": "Préserver la sensibilité dans l’action juste",
+          "reason": "Après le sacrifice du bonheur, examiner si le devoir exige aussi la disparition de la compassion et du trouble moral.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=14",
+          "sourceLabel": "Recueil académique · p. 14"
+        }
+      ],
+      "editionNote": "Le volume indique une mise en français moderne par Charles Wincesky et prend pour référence les Œuvres de P. Corneille éditées par Charles Marty-Laveaux (Hachette, 1862). Les vers sont repris dans la forme du livre fourni."
+    },
+    {
+      "id": "corneille-pouvoir-et-maitrise-de-soi",
+      "code": "CO06",
+      "author": "Corneille",
+      "title": "La souveraineté sur sa colère",
+      "work": "Cinna",
+      "locator": "Acte V, scène III",
+      "quote": "Je suis maître de moi comme de l'univers ;",
+      "speaker": "Auguste",
+      "situation": "Auguste renonce à se venger des conjurés et leur accorde son pardon.",
+      "notions": [
+        "liberte",
+        "etat",
+        "conscience"
+      ],
+      "edition": "Œuvres complètes · texte modernisé",
+      "publisher": "Arvensa Éditions",
+      "editionYear": "date non indiquée dans le volume",
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Le pouvoir sur les autres suffit-il à faire de nous les maîtres de nous-mêmes ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Auguste affirme sa maîtrise intérieure au moment de renoncer à la vengeance."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le même mot de maître rapproche la souveraineté politique et le gouvernement de sa propre colère."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Pourtant, pouvoir punir et pouvoir retenir sa colère ne sont pas une seule puissance : le second exige de résister à une impulsion."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Auguste choisit le pardon alors que les conjurés lui ont donné des raisons de s’indigner."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La liberté apparaît dans la manière d’exercer son pouvoir, sans que cette proclamation efface les violences antérieures du souverain."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Être libre, est-ce faire ce que l’on veut ?",
+          "function": "Distinguer toute-puissance et maîtrise de soi",
+          "reason": "Après la possibilité d’assouvir sa colère, présenter une décision qui consiste à ne pas exercer la violence disponible.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=38",
+          "sourceLabel": "Recueil académique · p. 38"
+        },
+        {
+          "subject": "L’abus de pouvoir est-il inévitable ?",
+          "function": "Examiner une retenue possible du pouvoir",
+          "reason": "Faire du pardon un cas de limitation volontaire, sans en déduire qu’un pouvoir sans contrôle serait toujours bien exercé.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=26",
+          "sourceLabel": "Recueil académique · p. 26"
+        }
+      ],
+      "editionNote": "Le volume indique une mise en français moderne par Charles Wincesky et prend pour référence les Œuvres de P. Corneille éditées par Charles Marty-Laveaux (Hachette, 1862). Les vers sont repris dans la forme du livre fourni."
+    },
+    {
+      "id": "corneille-desir-et-attente",
+      "code": "CO07",
+      "author": "Corneille",
+      "title": "L’attente nourrit le désir",
+      "work": "Polyeucte",
+      "locator": "Acte I, scène I",
+      "quote": "Et le désir s'accroît quand l'effet se recule.",
+      "speaker": "Polyeucte",
+      "situation": "Polyeucte explique à Néarque que différer son baptême n’affaiblit pas son désir de le recevoir.",
+      "notions": [
+        "bonheur",
+        "temps"
+      ],
+      "edition": "Œuvres complètes · texte modernisé",
+      "publisher": "Arvensa Éditions",
+      "editionYear": "date non indiquée dans le volume",
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "L’éloignement d’une satisfaction affaiblit-il nécessairement le désir ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Polyeucte affirme que le report de son baptême accroît l’ardeur avec laquelle il le souhaite."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’effet est ici l’accomplissement attendu, tandis que le désir demeure tourné vers ce qui n’a pas encore lieu."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La distance peut entretenir la représentation d’un bien et renforcer l’élan qui porte vers lui."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Néarque interprète au contraire ce délai comme le signe d’une ferveur qui risque de s’éteindre."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La scène oppose donc deux devenirs possibles de l’attente, sans établir que tout obstacle augmente toujours le désir."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Ne désirons-nous que ce qui nous manque ?",
+          "function": "Examiner le rôle de la distance",
+          "reason": "Après le manque qui déclenche le désir, montrer comment le délai peut encore l’entretenir en maintenant son objet à venir.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=90",
+          "sourceLabel": "Recueil académique · p. 90"
+        },
+        {
+          "subject": "Suffit-il d’avoir ce que l’on désire pour être heureux ?",
+          "function": "Interroger la valeur de l’attente",
+          "reason": "Distinguer le mouvement du désir, parfois intensifié par le report, et l’état de satisfaction qu’il vise.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=16",
+          "sourceLabel": "Recueil académique · p. 16"
+        }
+      ],
+      "editionNote": "Le volume indique une mise en français moderne par Charles Wincesky et prend pour référence les Œuvres de P. Corneille éditées par Charles Marty-Laveaux (Hachette, 1862). Les vers sont repris dans la forme du livre fourni."
+    },
+    {
+      "id": "corneille-croire-et-voir",
+      "code": "CO08",
+      "author": "Corneille",
+      "title": "L’évidence vécue de la foi",
+      "work": "Polyeucte",
+      "locator": "Acte V, scène V",
+      "quote": "Je vois, je sais, je crois, je suis désabusée :",
+      "speaker": "Pauline",
+      "situation": "Après le supplice de Polyeucte, Pauline proclame devant Félix sa conversion au christianisme.",
+      "notions": [
+        "religion",
+        "verite",
+        "raison"
+      ],
+      "edition": "Œuvres complètes · texte modernisé",
+      "publisher": "Arvensa Éditions",
+      "editionYear": "date non indiquée dans le volume",
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une conviction vécue comme une évidence vaut-elle une preuve pour tous ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Pauline présente sa conversion comme une ouverture des yeux et une sortie de l’erreur."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Voir, savoir et croire s’enchaînent dans un même élan, sans que leurs différences soient examinées."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Le rythme de l’affirmation fait entendre une certitude intérieure dont la force ne constitue pas encore une démonstration partageable."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Le supplice de Polyeucte devient pour Pauline le signe qui transforme sa manière de comprendre sa vie."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le vers permet de distinguer expérience de la foi et justification publique, sans réduire la conversion du personnage à une simple tromperie."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Faut-il ne croire que ce que l’on voit ?",
+          "function": "Distinguer voir un événement et lui donner un sens",
+          "reason": "L’événement perçu peut soutenir une croyance sans imposer à tous l’interprétation religieuse qu’en tire le personnage.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=57",
+          "sourceLabel": "Recueil académique · p. 57"
+        },
+        {
+          "subject": "La certitude est-elle une garantie de vérité ?",
+          "function": "Distinguer intensité et justification",
+          "reason": "Après la force intime d’une conviction, demander quelles raisons pourraient en établir la vérité pour autrui.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=71",
+          "sourceLabel": "Recueil académique · p. 71"
+        }
+      ],
+      "editionNote": "Le volume indique une mise en français moderne par Charles Wincesky et prend pour référence les Œuvres de P. Corneille éditées par Charles Marty-Laveaux (Hachette, 1862). Les vers sont repris dans la forme du livre fourni."
+    },
+    {
+      "id": "corneille-mensonge-et-memoire",
+      "code": "CO09",
+      "author": "Corneille",
+      "title": "La mémoire nécessaire au mensonge",
+      "work": "Le Menteur",
+      "locator": "Acte IV, scène V",
+      "quote": "Il faut bonne mémoire après qu'on a menti.",
+      "speaker": "Cliton",
+      "situation": "Cliton rappelle à Dorante la difficulté de maintenir la cohérence de ses inventions.",
+      "notions": [
+        "langage",
+        "verite",
+        "conscience"
+      ],
+      "edition": "Œuvres complètes · texte modernisé",
+      "publisher": "Arvensa Éditions",
+      "editionYear": "date non indiquée dans le volume",
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Inventer librement une histoire nous dispense-t-il de toute contrainte ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cliton rappelle que mentir oblige à se souvenir de ce qu’on a déjà raconté."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La mémoire maintient la continuité entre plusieurs affirmations, même lorsqu’elles ne correspondent pas aux faits."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Chaque invention engage ainsi le menteur dans une histoire dont il doit ensuite préserver la cohérence."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Dorante répond qu’il compte sur son esprit pour réparer ses défauts de mémoire."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La cohérence peut donc être fabriquée au service du faux, sans que la vérité se reconnaisse toujours à un récit hésitant ou assuré."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La cohérence d’une pensée suffit-elle à garantir sa vérité ?",
+          "function": "Montrer une cohérence mensongère",
+          "reason": "Après la non-contradiction exigée du discours vrai, rappeler qu’un récit inventé peut lui aussi rester cohérent.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=51",
+          "sourceLabel": "Recueil académique · p. 51"
+        },
+        {
+          "subject": "Le langage trahit-il la pensée ?",
+          "function": "Examiner la difficulté de la dissimulation",
+          "reason": "Distinguer le mensonge voulu et les contradictions involontaires par lesquelles une invention risque de se découvrir.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=36",
+          "sourceLabel": "Recueil académique · p. 36"
+        }
+      ],
+      "editionNote": "Le volume indique une mise en français moderne par Charles Wincesky et prend pour référence les Œuvres de P. Corneille éditées par Charles Marty-Laveaux (Hachette, 1862). Les vers sont repris dans la forme du livre fourni."
+    },
+    {
+      "id": "corneille-scene-et-realite",
+      "code": "CO10",
+      "author": "Corneille",
+      "title": "Les ennemis sur scène, les amis après",
+      "work": "L’Illusion comique",
+      "locator": "Acte V, scène V",
+      "quote": "Le traître et le trahi, le mort et le vivant,\nSe trouvent à la fin amis comme devant.",
+      "speaker": "Alcandre",
+      "situation": "Alcandre révèle à Pridamant que la mort de son fils était une représentation théâtrale.",
+      "notions": [
+        "art",
+        "verite"
+      ],
+      "edition": "Œuvres complètes · texte modernisé",
+      "publisher": "Arvensa Éditions",
+      "editionYear": "date non indiquée dans le volume",
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une émotion réelle exige-t-elle que l’événement représenté ait réellement eu lieu ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Alcandre révèle que les ennemis montrés sur scène se retrouvent amis une fois la représentation achevée."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le mort et le vivant désignent des rôles, tandis que les amis sont les acteurs qui les interprètent."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Le spectateur peut donc éprouver une douleur véritable devant une mort qui appartient à la fiction."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Pridamant a cru voir assassiner son fils avant de le découvrir partageant la recette avec ses compagnons."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La vérité de l’émotion se distingue de la réalité de l’événement, sans que toute illusion soit pour autant dépourvue d’effets ou de risques."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’art est-il indifférent à la vérité ?",
+          "function": "Distinguer fiction et tromperie",
+          "reason": "Après l’inexactitude des faits représentés, examiner une fiction dont le dispositif peut finalement être reconnu par le spectateur.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=10",
+          "sourceLabel": "Recueil académique · p. 10"
+        },
+        {
+          "subject": "L’art n’a-t-il pour but que le plaisir ?",
+          "function": "Examiner le plaisir d’une émotion douloureuse",
+          "reason": "Montrer qu’une représentation tragique peut produire de la peine et contribuer pourtant à l’expérience artistique.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6"
+        }
+      ],
+      "editionNote": "Le volume indique une mise en français moderne par Charles Wincesky et prend pour référence les Œuvres de P. Corneille éditées par Charles Marty-Laveaux (Hachette, 1862). Les vers sont repris dans la forme du livre fourni."
+    },
+    {
+      "id": "corneille-cite-et-legitimite",
+      "code": "CO11",
+      "author": "Corneille",
+      "title": "Où demeure une cité ?",
+      "work": "Sertorius",
+      "locator": "Acte III, scène I",
+      "quote": "Rome n'est plus dans Rome, elle est toute où je suis.",
+      "speaker": "Sertorius",
+      "situation": "Sertorius oppose à Pompée la légitimité républicaine des Romains rassemblés autour de lui en exil.",
+      "notions": [
+        "etat",
+        "justice"
+      ],
+      "edition": "Œuvres complètes · texte modernisé",
+      "publisher": "Arvensa Éditions",
+      "editionYear": "date non indiquée dans le volume",
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une communauté politique se confond-elle avec le lieu où siège son pouvoir ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Sertorius affirme que la vraie Rome demeure auprès des républicains qui l’accompagnent en exil."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le premier nom de Rome désigne une communauté et ses principes, le second l’espace matériel de la ville."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La répétition du même mot rend sensible l’écart possible entre l’occupation d’un territoire et la fidélité à un ordre politique."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Sertorius oppose les soutiens réunis autour de lui aux proscriptions exercées sous l’autorité de Sylla."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le vers permet d’interroger la légitimité au-delà du pouvoir établi, sans prouver que le personnage incarne à lui seul toute la cité."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "De quel droit l’État exerce-t-il un pouvoir ?",
+          "function": "Distinguer possession et légitimité",
+          "reason": "Après l’autorité installée dans ses institutions, demander ce qui rend légitime celui qui prétend parler au nom de la communauté.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=26",
+          "sourceLabel": "Recueil académique · p. 26"
+        },
+        {
+          "subject": "Le pouvoir politique peut-il appartenir à ceux qui sont gouvernés ?",
+          "function": "Distinguer communauté et gouvernants",
+          "reason": "Examiner si une communauté peut maintenir ses exigences politiques lorsqu’elle conteste ceux qui occupent le pouvoir.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=26",
+          "sourceLabel": "Recueil académique · p. 26"
+        }
+      ],
+      "editionNote": "Le volume indique une mise en français moderne par Charles Wincesky et prend pour référence les Œuvres de P. Corneille éditées par Charles Marty-Laveaux (Hachette, 1862). Les vers sont repris dans la forme du livre fourni."
+    },
+    {
+      "id": "corneille-naissance-et-valeur",
+      "code": "CO12",
+      "author": "Corneille",
+      "title": "Ce que nous ne choisissons pas",
+      "work": "Othon",
+      "locator": "Acte II, scène II",
+      "quote": "Un pur hasard sans nous règle notre naissance ;",
+      "speaker": "Martian",
+      "situation": "L’affranchi Martian répond au mépris de Plautine pour son origine servile.",
+      "notions": [
+        "justice",
+        "liberte"
+      ],
+      "edition": "Œuvres complètes · texte modernisé",
+      "publisher": "Arvensa Éditions",
+      "editionYear": "date non indiquée dans le volume",
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Ce qui nous a été donné sans choix peut-il mesurer notre valeur ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Martian rappelle que notre naissance dépend d’un hasard auquel nous n’avons pas pris part."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La naissance désigne ici l’origine sociale, dont le personnage refuse de faire un mérite personnel."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Il oppose à cette condition reçue la valeur qu’il prétend avoir acquise par ses actions."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Ancien esclave, il répond au mépris de Plautine en faisant valoir sa puissance présente."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le vers détache la dignité de l’origine, mais le contexte oblige aussi à distinguer mérite réel et réussite dans les intrigues du pouvoir."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Être juste, est-ce être neutre ?",
+          "function": "Distinguer origine et mérite",
+          "reason": "Avant de juger également les réussites, examiner les différences de départ et refuser d’attribuer un mérite à la naissance elle-même.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=30",
+          "sourceLabel": "Recueil académique · p. 30"
+        },
+        {
+          "subject": "Toutes les inégalités sont-elles des injustices ?",
+          "function": "Interroger la justification des rangs",
+          "reason": "Distinguer le fait d’une différence de naissance et le droit qu’on prétend en tirer sur autrui.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=33",
+          "sourceLabel": "Recueil académique · p. 33"
+        }
+      ],
+      "editionNote": "Le volume indique une mise en français moderne par Charles Wincesky et prend pour référence les Œuvres de P. Corneille éditées par Charles Marty-Laveaux (Hachette, 1862). Les vers sont repris dans la forme du livre fourni."
+    },
+    {
+      "id": "corneille-devoir-et-desir",
+      "code": "CO13",
+      "author": "Corneille",
+      "title": "Ce que l’on se doit contre ce que l’on désire",
+      "work": "Pulchérie",
+      "locator": "Acte I, scène I",
+      "quote": "Ce qu'on se doit combat ce qu'on se veut donner :",
+      "speaker": "Pulchérie",
+      "situation": "Pulchérie explique à Léon le conflit entre leur amour et les exigences de son rang.",
+      "notions": [
+        "devoir",
+        "bonheur"
+      ],
+      "edition": "Œuvres complètes · texte modernisé",
+      "publisher": "Arvensa Éditions",
+      "editionYear": "date non indiquée dans le volume",
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Tout ce que nous désirons nous paraît-il compatible avec l’idée que nous avons de nous-mêmes ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Pulchérie oppose les exigences de son rang au bonheur amoureux qu’elle voudrait s’accorder."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Ce qu’on se doit désigne une obligation revendiquée, tandis que se donner évoque la satisfaction consentie à son propre désir."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Le conflit traverse donc un même sujet, partagé entre son attachement et une dignité qu’il estime devoir préserver."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Pulchérie aime Léon mais refuse d’abord un mariage qui ne lui conserverait pas le rang impérial."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le vers éclaire un désaccord du désir et du devoir, sans identifier automatiquement l’orgueil social à une exigence morale juste."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Pouvons-nous faire coïncider nos désirs avec nos devoirs ?",
+          "function": "Faire apparaître le conflit intérieur",
+          "reason": "Après leur accord possible, examiner le cas où une même personne s’attache à deux exigences qu’elle ne parvient pas à satisfaire ensemble.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=23",
+          "sourceLabel": "Recueil académique · p. 23"
+        },
+        {
+          "subject": "Faire son devoir sans être heureux, est-ce toute la morale ?",
+          "function": "Examiner le devoir que l’on s’impose",
+          "reason": "Avant de valoriser le sacrifice, demander si l’obligation revendiquée relève de la justice ou de la préservation d’un rang.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=14",
+          "sourceLabel": "Recueil académique · p. 14"
+        }
+      ],
+      "editionNote": "Le volume indique une mise en français moderne par Charles Wincesky et prend pour référence les Œuvres de P. Corneille éditées par Charles Marty-Laveaux (Hachette, 1862). Les vers sont repris dans la forme du livre fourni."
+    },
+    {
+      "id": "corneille-amour-et-duree-douloureuse",
+      "code": "CO14",
+      "author": "Corneille",
+      "title": "L’amour dans une mort qui dure",
+      "work": "Suréna",
+      "locator": "Acte I, scène III",
+      "quote": "Je veux, sans que la mort ose me secourir,\nToujours aimer, toujours souffrir, toujours mourir.",
+      "speaker": "Eurydice",
+      "situation": "Promise à Pacorus, Eurydice refuse que la mort abrège son amour douloureux pour Suréna.",
+      "notions": [
+        "temps",
+        "bonheur"
+      ],
+      "edition": "Œuvres complètes · texte modernisé",
+      "publisher": "Arvensa Éditions",
+      "editionYear": "date non indiquée dans le volume",
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Peut-on vouloir prolonger une souffrance plutôt que renoncer à ce qui la fait naître ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Eurydice souhaite continuer d’aimer et de souffrir sans que la mort interrompe cette fidélité."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Toujours mourir ne désigne pas des décès répétés, mais une douleur qui semble recommencer à chaque instant."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La reprise du même adverbe lie l’amour, la souffrance et la durée dans un mouvement sans repos."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Promise à Pacorus, Eurydice demande ensuite à Suréna de ne pas épouser Mandane."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le passage montre un attachement dont la valeur ne se réduit pas au plaisir, sans faire de la souffrance une preuve nécessaire de l’amour."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Faut-il chercher le bonheur à tout prix ?",
+          "function": "Examiner le prix du renoncement",
+          "reason": "Montrer qu’un sujet peut refuser l’apaisement s’il lui paraît signifier l’abandon d’un attachement essentiel.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=13",
+          "sourceLabel": "Recueil académique · p. 13"
+        },
+        {
+          "subject": "Mesurer le temps, est-ce en faire l’expérience ?",
+          "function": "Faire sentir une durée affective",
+          "reason": "Après le temps mesuré, examiner une douleur où chaque moment semble reconduire la même épreuve.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=66",
+          "sourceLabel": "Recueil académique · p. 66"
+        }
+      ],
+      "editionNote": "Le volume indique une mise en français moderne par Charles Wincesky et prend pour référence les Œuvres de P. Corneille éditées par Charles Marty-Laveaux (Hachette, 1862). Les vers sont repris dans la forme du livre fourni."
+    },
+    {
+      "id": "corneille-silence-et-aveu",
+      "code": "CO15",
+      "author": "Corneille",
+      "title": "Quand le silence révèle",
+      "work": "Suréna",
+      "locator": "Acte IV, scène IV",
+      "quote": "Le soin de le cacher découvre ce qu'il cache,\nEt son silence dit tout ce qu'il craint qu'on sache.",
+      "speaker": "Pacorus",
+      "situation": "Pacorus soupçonne l’amour secret de Suréna malgré les précautions prises pour le dissimuler.",
+      "notions": [
+        "langage",
+        "conscience"
+      ],
+      "edition": "Œuvres complètes · texte modernisé",
+      "publisher": "Arvensa Éditions",
+      "editionYear": "date non indiquée dans le volume",
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Se taire suffit-il à garder un secret ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Pacorus affirme que les précautions prises pour cacher un amour finissent par le révéler."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le silence ne vaut plus absence de signe : il devient une conduite susceptible d’être interprétée."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Le souci de dissimuler modifie les gestes et les refus, qui peuvent attirer précisément l’attention que l’on voulait éviter."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Pacorus juge trop préparées les raisons par lesquelles Suréna refuse d’épouser Mandane."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le langage déborde ainsi les paroles prononcées, sans que tout silence autorise une interprétation certaine ni une intrusion dans la vie d’autrui."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Le langage trahit-il la pensée ?",
+          "function": "Examiner les signes involontaires",
+          "reason": "Après la parole maîtrisée, montrer qu’une précaution ou un silence peut exprimer ce que le sujet voulait taire.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=36",
+          "sourceLabel": "Recueil académique · p. 36"
+        },
+        {
+          "subject": "Le langage n’est-il qu’un outil ?",
+          "function": "Interroger la maîtrise des signes",
+          "reason": "Faire apparaître des significations produites par une conduite qui échappe en partie à l’usage volontaire du langage.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=35",
+          "sourceLabel": "Recueil académique · p. 35"
+        }
+      ],
+      "editionNote": "Le volume indique une mise en français moderne par Charles Wincesky et prend pour référence les Œuvres de P. Corneille éditées par Charles Marty-Laveaux (Hachette, 1862). Les vers sont repris dans la forme du livre fourni."
+    },
+    {
+      "id": "corneille-service-et-ingratitude",
+      "code": "CO16",
+      "author": "Corneille",
+      "title": "Le bienfait qui devient une menace",
+      "work": "Suréna",
+      "locator": "Acte V, scène II",
+      "quote": "Plus on sert des ingrats, plus on s'en fait haïr :\nTout ce qu'on fait pour eux ne fait que nous trahir.",
+      "speaker": "Suréna",
+      "situation": "Suréna explique à Eurydice pourquoi ses services rendus au roi se retournent contre lui.",
+      "notions": [
+        "etat",
+        "devoir"
+      ],
+      "edition": "Œuvres complètes · texte modernisé",
+      "publisher": "Arvensa Éditions",
+      "editionYear": "date non indiquée dans le volume",
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Rendre service assure-t-il la reconnaissance de celui qui en bénéficie ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Suréna explique que ses services ont accru la haine du roi au lieu de lui garantir sa faveur."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le service crée une dette, mais aussi la conscience d’une dépendance envers celui dont le mérite devient difficile à égaler."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Le souverain peut alors éprouver comme une humiliation ce qui devrait l’engager à la gratitude."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Suréna estime que sa gloire et les victoires qui ont soutenu le roi sont devenues son véritable crime."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La gratitude dépend donc du rapport au bienfaiteur, sans que cette situation permette de déclarer tout service vain ou toute reconnaissance impossible."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’abus de pouvoir est-il inévitable ?",
+          "function": "Examiner la peur du mérite d’autrui",
+          "reason": "Montrer comment un souverain peut transformer son besoin d’être aidé en désir d’abaisser celui dont il dépend.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=26",
+          "sourceLabel": "Recueil académique · p. 26"
+        }
+      ],
+      "editionNote": "Le volume indique une mise en français moderne par Charles Wincesky et prend pour référence les Œuvres de P. Corneille éditées par Charles Marty-Laveaux (Hachette, 1862). Les vers sont repris dans la forme du livre fourni."
+    },
+    {
+      "id": "corneille-amour-et-contrainte",
+      "code": "CO17",
+      "author": "Corneille",
+      "title": "L’amour ne se commande pas",
+      "work": "Suréna",
+      "locator": "Acte IV, scène IV",
+      "quote": "Il hait tous les emplois où la force l'appelle :\nDès qu'on le violente, on en fait un rebelle ;",
+      "speaker": "Suréna",
+      "situation": "Suréna explique à Pacorus que l’amour ne peut obéir aux ordres du pouvoir.",
+      "notions": [
+        "liberte",
+        "etat"
+      ],
+      "edition": "Œuvres complètes · texte modernisé",
+      "publisher": "Arvensa Éditions",
+      "editionYear": "date non indiquée dans le volume",
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Le pouvoir de commander les actes donne-t-il celui de commander les sentiments ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Suréna affirme que l’amour se révolte contre les tâches auxquelles la force veut l’employer."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La personnification fait de l’amour un sujet rebelle, distinct de l’obéissance qu’un souverain peut exiger."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La contrainte peut obtenir une conduite extérieure sans produire l’attachement qui lui donnerait un autre sens."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Pacorus exige que Suréna intervienne pour changer les sentiments d’Eurydice, alors qu’il ne maîtrise pas davantage les siens."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le passage révèle une limite du commandement, sans faire de toute passion une liberté déjà réfléchie ni de tout refus un droit sans condition."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La liberté exclut-elle l’obéissance ?",
+          "function": "Distinguer conduite et adhésion",
+          "reason": "Après l’obéissance extérieure, examiner ce qu’un ordre ne peut produire par lui-même dans le sentiment du sujet.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=38",
+          "sourceLabel": "Recueil académique · p. 38"
+        },
+        {
+          "subject": "L’État est-il, par définition, indifférent aux intérêts particuliers ?",
+          "function": "Délimiter la prétention du pouvoir",
+          "reason": "Montrer le conflit né lorsqu’un projet politique exige non seulement des actes, mais la transformation des attachements privés.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=26",
+          "sourceLabel": "Recueil académique · p. 26"
+        }
+      ],
+      "editionNote": "Le volume indique une mise en français moderne par Charles Wincesky et prend pour référence les Œuvres de P. Corneille éditées par Charles Marty-Laveaux (Hachette, 1862). Les vers sont repris dans la forme du livre fourni."
+    },
+    {
+      "id": "corneille-alliance-et-interet",
+      "code": "CO18",
+      "author": "Corneille",
+      "title": "L’allié et l’ennemi de l’ennemi",
+      "work": "Nicomède",
+      "locator": "Acte IV, scène V",
+      "quote": "Rome ne m'aime pas : elle hait Nicomède ;",
+      "speaker": "Attale",
+      "situation": "Attale reconnaît devant Flaminius que Rome le soutient pour affaiblir son frère Nicomède.",
+      "notions": [
+        "etat",
+        "conscience"
+      ],
+      "edition": "Œuvres complètes · texte modernisé",
+      "publisher": "Arvensa Éditions",
+      "editionYear": "date non indiquée dans le volume",
+      "originalLanguage": "français",
+      "translator": null,
+      "verse": true,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Le soutien d’une puissance prouve-t-il qu’elle recherche notre bien ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Attale comprend que Rome le favorise pour affaiblir Nicomède plutôt que par attachement à sa personne."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’opposition entre aimer et haïr sépare le bénéficiaire apparent de l’action et sa cible véritable."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une aide peut donc servir celui qui la reçoit tout en restant subordonnée à un intérêt qui lui est extérieur."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Flaminius soutient les ambitions d’Attale, mais refuse qu’elles conduisent à l’union politique qui renforcerait le royaume."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La convergence provisoire des intérêts ne suffit pas à établir une fidélité, sans rendre pour autant toute coopération mensongère."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Peut-on faire le bonheur d’autrui ?",
+          "function": "Distinguer aide et bienveillance",
+          "reason": "Lorsqu’une action profite à autrui, examiner si ce profit constitue sa fin ou le moyen d’atteindre un autre adversaire.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=15",
+          "sourceLabel": "Recueil académique · p. 15"
+        },
+        {
+          "subject": "La recherche du bonheur est-elle un idéal égoïste ?",
+          "function": "Examiner un avantage partagé sans désintéressement",
+          "reason": "Distinguer une convergence d’intérêts et la volonté de rechercher le bien de l’autre pour lui-même.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=13",
+          "sourceLabel": "Recueil académique · p. 13"
+        }
+      ],
+      "editionNote": "Le volume indique une mise en français moderne par Charles Wincesky et prend pour référence les Œuvres de P. Corneille éditées par Charles Marty-Laveaux (Hachette, 1862). Les vers sont repris dans la forme du livre fourni."
     }
   ]
 }
