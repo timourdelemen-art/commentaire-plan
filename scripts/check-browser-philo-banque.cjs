@@ -22,7 +22,7 @@ const server=http.createServer((req,res)=>{const p=decodeURIComponent(new URL(re
   // Exercise every complete fiche: exact quotation, annotation text and source links.
   for(const e of data.entries){
    await page.locator('[data-open="'+e.id+'"]').click();
-   if(e.author==='Cioran'){assert((await page.locator('#bank-reference').innerText()).includes('Écrivain et penseur'));await page.locator('.bank-edition summary').click();assert((await page.locator('.bank-edition').innerText()).includes('Texte original français'));assert(!(await page.locator('.bank-edition').innerText()).includes('à préciser'));}
+   if(e.author==='Cioran'){assert((await page.locator('#bank-reference').textContent()).includes('Écrivain et penseur'));await page.locator('.bank-edition summary').click();assert((await page.locator('.bank-edition').innerText()).includes('Texte original français'));assert(!(await page.locator('.bank-edition').innerText()).includes('à préciser'));}
    assert.equal(await page.locator('.bank-quote strong').textContent(),'« '+e.quote+' »');
    assert.equal(await page.locator('.bank-use').count(),e.uses.length);
    assert.deepEqual(await page.locator('.bank-sentence-text').allTextContents(),e.commentary.map(c=>c.sentence));
