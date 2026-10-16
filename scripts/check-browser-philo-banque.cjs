@@ -10,7 +10,8 @@ const server=http.createServer((req,res)=>{const p=decodeURIComponent(new URL(re
  try{for(const width of [390,1280]){
   const context=await browser.newContext({viewport:{width,height:900},reducedMotion:'reduce'}),page=await context.newPage(),errors=[];
   page.on('pageerror',e=>errors.push(e.message));assert((await page.goto(base+'philosophie-banque.html')).ok());await page.waitForSelector('[data-open]');
-  assert.equal(await page.locator('[data-open]').count(),60);assert.equal(await page.locator('#notion option').count(),18);
+  assert.equal(await page.locator('[data-open]').count(),72);assert.equal(await page.locator('#notion option').count(),18);
+  await page.selectOption('#author','Cioran');assert.equal(await page.locator('[data-open]').count(),12);
   await page.selectOption('#author','Spinoza');assert.equal(await page.locator('[data-open]').count(),15);
   await page.selectOption('#author','Aristote');assert.equal(await page.locator('[data-open]').count(),15);
   await page.fill('#query','reminiscence');assert.equal(await page.locator('[data-open]').count(),0);assert(await page.locator('.bank-empty').isVisible());
@@ -21,6 +22,7 @@ const server=http.createServer((req,res)=>{const p=decodeURIComponent(new URL(re
   // Exercise every complete fiche: exact quotation, annotation text and source links.
   for(const e of data.entries){
    await page.locator('[data-open="'+e.id+'"]').click();
+   if(e.author==='Cioran'){assert((await page.locator('#bank-reference').innerText()).includes('Écrivain et penseur'));await page.locator('.bank-edition summary').click();assert((await page.locator('.bank-edition').innerText()).includes('Texte original français'));assert(!(await page.locator('.bank-edition').innerText()).includes('à préciser'));}
    assert.equal(await page.locator('.bank-quote strong').textContent(),'« '+e.quote+' »');
    assert.equal(await page.locator('.bank-use').count(),e.uses.length);
    assert.deepEqual(await page.locator('.bank-sentence-text').allTextContents(),e.commentary.map(c=>c.sentence));
@@ -39,9 +41,9 @@ const server=http.createServer((req,res)=>{const p=decodeURIComponent(new URL(re
   await page.goto(base+'philosophie-banque.html?fiche=platon-caverne');assert((await page.locator('#bank-message').textContent()).includes('retirée'));assert(await page.locator('#bank-reader').isHidden());
   await page.goto(base+'philosophie-banque.html?query=%3Cimg%20src%3Dx%20onerror%3Dalert(1)%3E');assert.equal(await page.locator('#bank-results img').count(),0);
   assert.deepEqual(errors,[]);
-  if(process.env.PHILO_SCREENSHOT_DIR){fs.mkdirSync(process.env.PHILO_SCREENSHOT_DIR,{recursive:true});await page.goto(base+'philosophie-banque.html?fiche='+data.entries.find(e=>e.code==='S12').id);await page.screenshot({path:path.join(process.env.PHILO_SCREENSHOT_DIR,'bank-'+width+'.png'),fullPage:true});}
+  if(process.env.PHILO_SCREENSHOT_DIR){fs.mkdirSync(process.env.PHILO_SCREENSHOT_DIR,{recursive:true});await page.goto(base+'philosophie-banque.html?fiche='+data.entries.find(e=>e.code==='C02').id);await page.screenshot({path:path.join(process.env.PHILO_SCREENSHOT_DIR,'bank-'+width+'.png'),fullPage:true});}
   await context.close();
-  const nojs=await browser.newContext({javaScriptEnabled:false,viewport:{width,height:900}}),p=await nojs.newPage();await p.goto(base+'philosophie-banque.html');assert.equal(await p.locator('.bank-static details').count(),60);await p.locator('.bank-static details').first().locator('summary').click();assert(await p.locator('.bank-static blockquote').first().isVisible());assert(await p.locator('#bank-controls').isHidden());await nojs.close();
-  console.log('OK',width,'— 60 fiches, 2 lectures, filtres, annotations, A20, anciens liens, rechargement, sans JavaScript.');
+  const nojs=await browser.newContext({javaScriptEnabled:false,viewport:{width,height:900}}),p=await nojs.newPage();await p.goto(base+'philosophie-banque.html');assert.equal(await p.locator('.bank-static details').count(),72);await p.locator('.bank-static details').first().locator('summary').click();assert(await p.locator('.bank-static blockquote').first().isVisible());assert(await p.locator('#bank-controls').isHidden());await nojs.close();
+  console.log('OK',width,'— 72 fiches, 2 lectures, filtres, annotations, A20, anciens liens, rechargement, sans JavaScript.');
  }}finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;}).finally(()=>server.close());

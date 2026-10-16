@@ -3621,6 +3621,759 @@
           "sourceLabel": "Recueil académique · p. 99"
         }
       ]
+    },
+    {
+      "id": "cioran-les-faux-absolus",
+      "code": "C01",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "Les faux absolus",
+      "work": "Précis de décomposition",
+      "locator": "« Généalogie du fanatisme »",
+      "quote": "L’histoire n’est qu’un défilé de faux Absolus, une succession de temples élevés à des prétextes, un avilissement de l’esprit devant l’improbable.",
+      "notions": [
+        "religion",
+        "raison"
+      ],
+      "edition": "Précis de décomposition (première publication)",
+      "publisher": "Gallimard",
+      "editionYear": "1949",
+      "originalLanguage": "français",
+      "translator": null,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Abandonner une religion suffit-il à se libérer de toute croyance absolue ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran présente l’histoire comme une succession d’objets humains transformés en absolus."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Un faux absolu est ici une valeur ou une cause particulière soustraite à toute discussion et adorée comme une divinité."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Le besoin de croire peut donc déplacer sa ferveur vers une nation, une classe ou une idée sans changer de fonctionnement."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une cause politique devient ainsi une idole lorsque toute objection passe pour une trahison."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Cette image dénonce une possibilité du fanatisme, mais sa généralisation polémique ne démontre pas que toute conviction ou toute histoire se réduise à ce mécanisme."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’esprit religieux ne se manifeste-t-il que dans les religions ?",
+          "function": "Déplacer la frontière du religieux",
+          "reason": "Interroger les formes de sacralisation qui survivent dans des idéologies se déclarant étrangères à la religion.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=53",
+          "sourceLabel": "Recueil académique · p. 53"
+        },
+        {
+          "subject": "L’histoire enseigne-t-elle la relativité des valeurs ?",
+          "function": "Mettre à distance les valeurs proclamées absolues",
+          "reason": "La succession des causes sacralisées invite à examiner leur prétention à une validité inconditionnelle.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=106",
+          "sourceLabel": "Recueil académique · p. 106"
+        },
+        {
+          "subject": "Peut-on concevoir une humanité sans religion ?",
+          "function": "II.3 : limiter la force du lien religieux",
+          "reason": "Une communauté peut transformer sa croyance commune en absolu et exclure la contestation ; une idéologie séculière peut reproduire ce mécanisme.",
+          "source": "https://www.education.gouv.fr/sites/default/files/document/baccalaureat-general-2026-philosophie-517529.pdf#page=2",
+          "sourceLabel": "Bac 2026 · Antilles et Guyane",
+          "a20": "philosophie-bac-2026-peut-on-concevoir-une-humanite-sans-religion.html",
+          "a20Step": "II.3",
+          "a20Status": "Insertion possible après lecture de la copie ; citation absente du modèle."
+        }
+      ]
+    },
+    {
+      "id": "cioran-les-mots-et-la-presence-des-choses",
+      "code": "C02",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "Les mots et la présence des choses",
+      "work": "Précis de décomposition",
+      "locator": "« Dans le cimetière des définitions »",
+      "quote": "Sous chaque formule gît un cadavre : l’être ou l’objet meurt sous le prétexte auquel ils ont donné lieu.",
+      "notions": [
+        "langage",
+        "verite"
+      ],
+      "edition": "Précis de décomposition (première publication)",
+      "publisher": "Gallimard",
+      "editionYear": "1949",
+      "originalLanguage": "français",
+      "translator": null,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une formule rend-elle compte d’une chose ou risque-t-elle de s’y substituer ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran décrit la définition comme une opération qui peut faire disparaître la présence vivante de son objet."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le cadavre est une métaphore de la chose réduite à ce que notre formule en retient, et non détruite matériellement."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Lorsque l’esprit prend sa définition pour la réalité entière, il néglige ce que la rencontre sensible et singulière lui faisait éprouver."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Réduire une personne à une étiquette peut ainsi empêcher d’écouter ce qui, dans sa conduite, dément cette étiquette."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La formule oblige à éprouver nos mots au contact des choses, sans établir que toute définition soit inutile ou nécessairement trompeuse."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Le langage nous éloigne-t-il du réel ?",
+          "function": "Analyser le risque de substitution",
+          "reason": "Un énoncé peut devenir un écran lorsqu’il remplace l’attention portée à ce qu’il désigne.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=36",
+          "sourceLabel": "Recueil académique · p. 36"
+        },
+        {
+          "subject": "Le langage peut-il être un obstacle à la recherche de la vérité ?",
+          "function": "Critiquer une définition figée",
+          "reason": "Il faut distinguer l’outil qui permet de chercher de la formule qui prétend clore la recherche.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=35",
+          "sourceLabel": "Recueil académique · p. 35"
+        }
+      ]
+    },
+    {
+      "id": "cioran-l-ennui-et-le-sens-de-vivre",
+      "code": "C03",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "L’ennui et le sens de vivre",
+      "work": "Précis de décomposition",
+      "locator": "« Désarticulation du temps »",
+      "quote": "La vie se crée dans le délire et se défait dans l’ennui.",
+      "notions": [
+        "bonheur",
+        "temps"
+      ],
+      "edition": "Précis de décomposition (première publication)",
+      "publisher": "Gallimard",
+      "editionYear": "1949",
+      "originalLanguage": "français",
+      "translator": null,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Le repos et l’absence de difficultés suffisent-ils à donner le sentiment de vivre ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran oppose l’élan qui peuple la vie de significations à l’ennui qui les défait."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le délire désigne ici nos investissements excessifs dans des désirs et des valeurs, tandis que l’ennui les prive de leur évidence."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Lorsque plus rien ne nous attire, les instants continuent de passer mais cessent de porter des possibilités auxquelles nous tenons."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une journée entièrement libre peut ainsi paraître interminable si aucun projet ne rend ses moments désirables."
+        },
+        {
+          "function": "La portée",
+          "sentence": "L’opposition éclaire la fragilité du sens vécu, sans faire de tout engagement une maladie ni de tout repos un vide."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Le bonheur se trouve-t-il dans le repos ?",
+          "function": "Limiter l’idéal d’absence de trouble",
+          "reason": "Le repos ne suffit pas si la disparition des préoccupations retire aussi tout intérêt à ce que l’on vit.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=13",
+          "sourceLabel": "Recueil académique · p. 13"
+        },
+        {
+          "subject": "Un bonheur sans illusion est-il concevable ?",
+          "function": "Interroger le rôle des attachements",
+          "reason": "Examiner si le sentiment de vivre dépend de valeurs investies au-delà de ce qu’une lucidité critique peut garantir.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=13",
+          "sourceLabel": "Recueil académique · p. 13"
+        }
+      ]
+    },
+    {
+      "id": "cioran-expliquer-et-vivre",
+      "code": "C04",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "Expliquer et vivre",
+      "work": "Précis de décomposition",
+      "locator": "« Adieu à la philosophie »",
+      "quote": "On ne peut éluder l’existence par des explications, on ne peut que la subir, l’aimer ou la haïr, l’adorer ou la craindre, dans cette alternance de félicité et d’horreur qui exprime le rythme même de l’être, ses oscillations, ses dissonances, ses véhémences amères ou allègres.",
+      "notions": [
+        "raison",
+        "bonheur"
+      ],
+      "edition": "Précis de décomposition (première publication)",
+      "publisher": "Gallimard",
+      "editionYear": "1949",
+      "originalLanguage": "français",
+      "translator": null,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Comprendre pourquoi nous souffrons suffit-il à nous dispenser de vivre cette souffrance ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran conteste le pouvoir des explications de nous soustraire à l’épreuve de l’existence."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Éluder signifie esquiver, tandis qu’expliquer consiste à rendre intelligible ce qui arrive plutôt qu’à l’éprouver à notre place."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une théorie peut décrire une situation sans supprimer les sentiments contradictoires dans lesquels nous la traversons."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Connaître les mécanismes du deuil ne fait pas disparaître immédiatement la douleur d’une perte."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Cette critique limite la prétention du savoir à nous délivrer de toute épreuve, sans prouver qu’une explication ne puisse jamais nous aider à vivre."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Les connaissances nous aident-elles à vivre ?",
+          "function": "Limiter le pouvoir du savoir",
+          "reason": "Comprendre une épreuve ne dispense pas de la traverser ; il reste à préciser en quoi la compréhension peut néanmoins aider.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=15",
+          "sourceLabel": "Recueil académique · p. 15"
+        },
+        {
+          "subject": "La raison peut-elle tout expliquer ?",
+          "function": "Distinguer explication et expérience",
+          "reason": "Même une explication étendue ne remplace pas l’expérience vécue, ce qui ne constitue pas à soi seul une réfutation de cette explication.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=49",
+          "sourceLabel": "Recueil académique · p. 49"
+        }
+      ]
+    },
+    {
+      "id": "cioran-les-desirs-dementent-nos-principes",
+      "code": "C05",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "Les désirs démentent nos principes",
+      "work": "Précis de décomposition",
+      "locator": "« Cosmogonie du désir »",
+      "quote": "Chaque désir humilie la somme de nos vérités et nous oblige à reconsidérer nos négations.",
+      "notions": [
+        "raison",
+        "liberte"
+      ],
+      "edition": "Précis de décomposition (première publication)",
+      "publisher": "Gallimard",
+      "editionYear": "1949",
+      "originalLanguage": "français",
+      "translator": null,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Nos conclusions intellectuelles commandent-elles effectivement nos désirs ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran montre le désir revenant contredire les raisons par lesquelles nous prétendions nous détacher de la vie."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Les vérités et les négations désignent ici les conclusions pessimistes du narrateur, tandis que le désir marque la persistance de son attachement."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Le corps peut continuer de vouloir ce que l’esprit avait déclaré vain, révélant un écart entre conviction théorique et conduite effective."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Celui qui proclame l’inutilité des honneurs peut encore attendre avec impatience un signe de reconnaissance."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le désir éprouve ainsi la portée pratique de nos principes, sans que sa force suffise à démontrer leur fausseté logique."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La raison s’oppose-t-elle nécessairement au désir ?",
+          "function": "Analyser un conflit sans le généraliser",
+          "reason": "Les raisons de se détacher peuvent échouer à éteindre un attachement, ce qui ne condamne pas toute alliance entre raison et désir.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=51",
+          "sourceLabel": "Recueil académique · p. 51"
+        },
+        {
+          "subject": "Peut-on être en conflit avec soi-même ?",
+          "function": "Distinguer jugement et attachement",
+          "reason": "Un même individu peut soutenir une conclusion et continuer de désirer ce qu’elle dévalue.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=20",
+          "sourceLabel": "Recueil académique · p. 20"
+        }
+      ]
+    },
+    {
+      "id": "cioran-reflechir-transforme-la-sensation",
+      "code": "C06",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "Réfléchir transforme la sensation",
+      "work": "Précis de décomposition",
+      "locator": "« Visages de la décadence »",
+      "quote": "Méditer ses sensations – savoir que l’on mange, – c’est là une prise de conscience grâce à laquelle un acte élémentaire dépasse son but immédiat.",
+      "notions": [
+        "conscience",
+        "nature"
+      ],
+      "edition": "Précis de décomposition (première publication)",
+      "publisher": "Gallimard",
+      "editionYear": "1949",
+      "originalLanguage": "français",
+      "translator": null,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La conscience accompagne-t-elle seulement nos actes ou en transforme-t-elle la signification ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran affirme que l’attention portée à une sensation modifie un acte aussi élémentaire que manger."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le but immédiat est ici de se nourrir, tandis que méditer sa sensation fait du repas un objet de réflexion et de recherche."
+        },
+        {
+          "function": "La raison",
+          "sentence": "L’acte ne se limite plus à satisfaire un besoin lorsque l’esprit s’intéresse à la qualité et aux variations de ce qu’il éprouve."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Comparer lentement des saveurs introduit ainsi une recherche du goût au-delà de la seule faim."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Dans ce passage sur la décadence, ce raffinement reste ambivalent et ne vaut donc pas comme preuve que toute réflexion améliore la vie."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Sommes-nous conscients ou le devenons-nous ?",
+          "function": "Distinguer vécu immédiat et réflexion",
+          "reason": "La prise de conscience peut modifier le sens d’un acte déjà accompli sans attention réfléchie.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=18",
+          "sourceLabel": "Recueil académique · p. 18"
+        },
+        {
+          "subject": "La conscience de ce que nous sommes peut-elle faire obstacle à notre bonheur ?",
+          "function": "Interroger les effets du retour sur soi",
+          "reason": "La réflexion enrichit parfois une sensation, mais peut aussi compliquer et inquiéter ce qui se faisait spontanément.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=13",
+          "sourceLabel": "Recueil académique · p. 13"
+        }
+      ]
+    },
+    {
+      "id": "cioran-le-doute-et-la-vie-commune",
+      "code": "C07",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "Le doute et la vie commune",
+      "work": "La Chute dans le temps",
+      "locator": "« Le sceptique et le barbare »",
+      "quote": "Une civilisation débute par le mythe et finit dans le doute ; doute théorique qui, lorsqu’elle le retourne contre elle-même, s’achève en doute pratique.",
+      "notions": [
+        "raison",
+        "verite"
+      ],
+      "edition": "La Chute dans le temps (première publication)",
+      "publisher": "Gallimard",
+      "editionYear": "1964",
+      "originalLanguage": "français",
+      "translator": null,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La critique des croyances peut-elle finir par atteindre notre capacité d’agir ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran décrit une civilisation dont le doute passe de l’examen des idées à l’incertitude sur ses propres fins."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le doute théorique porte sur ce que l’on tient pour vrai, tandis que le doute pratique atteint les valeurs qui orientent les actes."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Lorsqu’une communauté ne reconnaît plus aucun motif de préférer une fin à une autre, sa lucidité peut se convertir en impuissance."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un groupe qui remet indéfiniment en question toutes ses raisons de décider peut ne plus parvenir à choisir une action commune."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Ce schéma tragique interroge le coût d’un doute généralisé, sans constituer une loi démontrée de la naissance et de la mort de toutes les civilisations."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Douter, est-ce renoncer à la vérité ?",
+          "function": "Distinguer examen et désorientation",
+          "reason": "Le doute peut servir la recherche, mais son extension à toute raison de juger peut retirer à cette recherche sa direction.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=71",
+          "sourceLabel": "Recueil académique · p. 71"
+        },
+        {
+          "subject": "Peut-on ne croire en rien ?",
+          "function": "Examiner les conditions de l’action",
+          "reason": "Une suspension totale des convictions pose la question des raisons qui permettraient encore de décider.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=83",
+          "sourceLabel": "Recueil académique · p. 83"
+        }
+      ]
+    },
+    {
+      "id": "cioran-convertir-et-contraindre",
+      "code": "C08",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "Convertir et contraindre",
+      "work": "La Chute dans le temps",
+      "locator": "« Portrait du civilisé »",
+      "quote": "Ce n’est point pour libérer, c’est pour enchaîner qu’on s’applique à convertir.",
+      "notions": [
+        "religion",
+        "liberte"
+      ],
+      "edition": "La Chute dans le temps (première publication)",
+      "publisher": "Gallimard",
+      "editionYear": "1964",
+      "originalLanguage": "français",
+      "translator": null,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Vouloir faire adopter sa conviction revient-il toujours à servir la liberté d’autrui ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran soupçonne la conversion de prolonger une volonté de soumettre sous une promesse de libération."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Convertir signifie faire adhérer à une croyance, et la chaîne figure ici une dépendance imposée au jugement."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Celui qui ne supporte pas sa propre discipline peut vouloir la généraliser plutôt que reconnaître à un autre la possibilité de s’en passer."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une doctrine devient contraignante lorsque celui qui prétend sauver autrui lui retire le droit de refuser son salut."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La formule démasque une logique possible du prosélytisme, mais son absoluité polémique ne suffit pas à identifier toute transmission d’une croyance à une oppression."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La religion unit-elle ou sépare-t-elle les hommes ?",
+          "function": "Interroger les conditions du rassemblement",
+          "reason": "L’union autour d’une croyance peut devenir une exigence d’uniformité qui exclut le refus et la différence.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=53",
+          "sourceLabel": "Recueil académique · p. 53"
+        },
+        {
+          "subject": "La liberté exclut-elle l’obéissance ?",
+          "function": "Critiquer une soumission présentée comme un salut",
+          "reason": "Il faut examiner si l’adhésion conserve la possibilité de juger et de refuser, au-delà de la liberté annoncée.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=38",
+          "sourceLabel": "Recueil académique · p. 38"
+        }
+      ]
+    },
+    {
+      "id": "cioran-l-assurance-et-le-besoin-d-eloge",
+      "code": "C09",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "L’assurance et le besoin d’éloge",
+      "work": "La Chute dans le temps",
+      "locator": "« Désir et horreur de la gloire »",
+      "quote": "En apparence, tout le monde est content de soi ; en réalité, personne.",
+      "notions": [
+        "conscience",
+        "bonheur"
+      ],
+      "edition": "La Chute dans le temps (première publication)",
+      "publisher": "Gallimard",
+      "editionYear": "1964",
+      "originalLanguage": "français",
+      "translator": null,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "L’assurance que nous montrons aux autres prouve-t-elle que nous sommes satisfaits de nous-mêmes ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran oppose l’image publique de la satisfaction à une insécurité intérieure que l’éloge vient apaiser."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’apparence désigne ce que nous affichons, tandis que le contentement de soi désigne ici une estime assez stable pour ne plus chercher de confirmation."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Le besoin persistant de compliments peut révéler une dépendance au jugement d’autrui jusque chez celui qui se dit supérieur à ce jugement."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une personne affichant son indifférence aux critiques peut pourtant attendre avec impatience des félicitations."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La symétrie provocatrice entre tout le monde et personne invite à interroger cette dépendance, sans établir que nul ne puisse jamais acquérir une estime de soi solide."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Avons-nous besoin d’autrui pour avoir conscience de nous-mêmes ?",
+          "function": "Distinguer conscience de soi et validation",
+          "reason": "Le besoin d’approbation montre un rôle du regard d’autrui, sans prouver que toute conscience de soi dépende de ses éloges.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=19",
+          "sourceLabel": "Recueil académique · p. 19"
+        },
+        {
+          "subject": "La conscience de soi est-elle trompeuse ?",
+          "function": "Interroger l’image que l’on se donne",
+          "reason": "Le sentiment d’assurance peut masquer à soi-même une demande de reconnaissance.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=20",
+          "sourceLabel": "Recueil académique · p. 20"
+        }
+      ]
+    },
+    {
+      "id": "cioran-le-corps-revele-par-l-epreuve",
+      "code": "C10",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "Le corps révélé par l’épreuve",
+      "work": "La Chute dans le temps",
+      "locator": "« Sur la maladie »",
+      "quote": "Pour que la conscience atteigne à une certaine intensité, il faut que l’organisme pâtisse et même qu’il se désagrège : la conscience, à ses débuts, est conscience des organes.",
+      "notions": [
+        "conscience",
+        "nature",
+        "liberte"
+      ],
+      "edition": "La Chute dans le temps (première publication)",
+      "publisher": "Gallimard",
+      "editionYear": "1964",
+      "originalLanguage": "français",
+      "translator": null,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Le corps devient-il plus présent à la conscience lorsqu’il cesse de fonctionner sans difficulté ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran rapporte l’intensification de la conscience à l’épreuve d’un organisme qui souffre."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La conscience des organes désigne ici leur présence insistante dans notre expérience, plutôt qu’un savoir anatomique complet."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Ce qui se faisait oublier dans une activité aisée retient notre attention dès qu’une gêne ou une douleur interrompt cette activité."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une difficulté à respirer peut ainsi rendre sensible une fonction que nous accomplissions sans y penser."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Ce diagnostic polémique éclaire une expérience du corps empêché, sans établir que la souffrance soit nécessaire à toute conscience ni que cette conscience accrue rende plus libre."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Peut-on penser sans sentir ?",
+          "function": "Montrer un enracinement corporel de la réflexion",
+          "reason": "Une modification corporelle peut devenir le point de départ d’une attention et d’une réflexion sur soi.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=18",
+          "sourceLabel": "Recueil académique · p. 18"
+        },
+        {
+          "subject": "La conscience est-elle source de liberté ou de contrainte ?",
+          "function": "Distinguer conscience accrue et pouvoir accru",
+          "reason": "Mieux sentir sa dépendance corporelle ne donne pas nécessairement les moyens de la surmonter.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=19",
+          "sourceLabel": "Recueil académique · p. 19"
+        }
+      ]
+    },
+    {
+      "id": "cioran-la-creation-et-la-clairvoyance",
+      "code": "C11",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "La création et la clairvoyance",
+      "work": "La Chute dans le temps",
+      "locator": "« Les dangers de la sagesse »",
+      "quote": "Produire, « créer », c’est s’interdire la clairvoyance, c’est avoir le courage ou le bonheur de ne pas percevoir le mensonge de la diversité, le caractère trompeur du multiple.",
+      "notions": [
+        "art",
+        "verite"
+      ],
+      "edition": "La Chute dans le temps (première publication)",
+      "publisher": "Gallimard",
+      "editionYear": "1964",
+      "originalLanguage": "français",
+      "translator": null,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une lucidité qui relativise toute apparence laisse-t-elle encore un motif de créer ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran présente la création comme un engagement dans des différences qu’une sagesse détachée tend à dissoudre."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La clairvoyance désigne ici ce détachement radical, tandis que la diversité est le monde des formes et des conflits qui fournit ses matériaux à l’artiste."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Créer suppose d’accorder assez d’importance à ces différences pour les explorer plutôt que les ramener toutes au même néant."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un romancier travaille les conflits de ses personnages parce qu’il consent à prendre au sérieux leurs attachements singuliers."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Cette provocation oppose deux rapports au monde, sans démontrer que l’artiste doive ignorer son métier ou renoncer à tout examen critique de son œuvre."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’art est-il une forme de connaissance ?",
+          "function": "Distinguer attention créatrice et détachement",
+          "reason": "Une œuvre peut explorer des apparences auxquelles une certaine sagesse refuserait de s’attacher.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6"
+        },
+        {
+          "subject": "Faut-il préférer la vérité au bonheur ?",
+          "function": "Interroger les effets d’une lucidité radicale",
+          "reason": "Examiner si dévoiler toute apparence comme trompeuse peut détruire aussi des motifs de vivre et de créer.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=15",
+          "sourceLabel": "Recueil académique · p. 15"
+        },
+        {
+          "subject": "L’artiste sait-il ce qu’il fait ?",
+          "function": "II.3 : mettre à l’épreuve une création sans lucidité",
+          "reason": "Confronter le détachement radical visé par Cioran à la lucidité du travail artistique : refuser une sagesse qui dissout les apparences n’interdit pas les choix et les corrections.",
+          "source": "https://www.education.gouv.fr/sites/default/files/document/baccalaureat-general-2026-philosophie-517046.pdf#page=2",
+          "sourceLabel": "Bac 2026 · Amérique du Nord",
+          "a20": "philosophie-bac-2026-l-artiste-sait-il-ce-qu-il-fait.html",
+          "a20Step": "II.3",
+          "a20Status": "Insertion possible comme thèse à discuter après lecture de la copie ; citation absente du modèle."
+        }
+      ]
+    },
+    {
+      "id": "cioran-l-avenir-deja-passe",
+      "code": "C12",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "L’avenir déjà passé",
+      "work": "La Chute dans le temps",
+      "locator": "« Tomber du temps »",
+      "quote": "Vivre, c’est subir la magie du possible ; mais lorsqu’on perçoit dans le possible même du révolu à venir, tout devient virtuellement passé, et il n’y a plus de présent ni de futur.",
+      "notions": [
+        "temps",
+        "conscience"
+      ],
+      "edition": "La Chute dans le temps (première publication)",
+      "publisher": "Gallimard",
+      "editionYear": "1964",
+      "originalLanguage": "français",
+      "translator": null,
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Que devient le présent si nous regardons chaque possibilité comme déjà révolue ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran décrit une expérience où l’anticipation de la disparition retire aux instants leur ouverture."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le possible est ce qui peut encore advenir, tandis que le révolu désigne ce qui est achevé et ne peut plus être modifié."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Traiter par avance un projet comme un souvenir détruit l’attente qui permettrait de s’y engager et d’en éprouver la nouveauté."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Imaginer une rencontre uniquement comme ce qui sera bientôt terminé peut empêcher d’être disponible à ce qui s’y passe."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La formule éclaire ainsi une manière de perdre le présent, sans affirmer que le temps physique cesse de s’écouler ni que toute anticipation soit paralysante."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Est-il possible de vivre au présent ?",
+          "function": "Distinguer présence chronologique et disponibilité",
+          "reason": "Être dans l’instant ne suffit pas si l’on le considère déjà comme un passé clos.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=65",
+          "sourceLabel": "Recueil académique · p. 65"
+        },
+        {
+          "subject": "Mesurer le temps, est-ce en faire l’expérience ?",
+          "function": "Distinguer mesure et temps vécu",
+          "reason": "Un même intervalle mesuré peut être vécu comme une ouverture ou comme une disparition déjà accomplie.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=66",
+          "sourceLabel": "Recueil académique · p. 66"
+        }
+      ]
     }
   ]
 }

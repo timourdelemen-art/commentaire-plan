@@ -1,6 +1,6 @@
 {
   "status": "citations-courtes-et-commentaires",
-  "owner_decision": "16 octobre 2026 : remplacer les anciennes fiches par la sélection de citations fournie et approuvée, en deux parties dissertation et commentaire. Le même jour : poursuivre selon le même principe avec l’Éthique fournie.",
+  "owner_decision": "16 octobre 2026 : remplacer les anciennes fiches par la sélection de citations fournie et approuvée, en deux parties dissertation et commentaire. Le même jour : poursuivre selon le même principe avec l’Éthique fournie. Le même jour : intégrer Cioran, écrivain et penseur, à partir des deux ouvrages fournis, après sélection rigoureuse sans quota.",
   "source_files": [
     {
       "author": "Platon",
@@ -17,6 +17,16 @@
     {
       "author": "Spinoza",
       "sha256": "03604f92fdc8d0ead989e4eac70219dcc0d66cca9addad7405729d81d89bf87c"
+    },
+    {
+      "author": "Cioran",
+      "work": "Précis de décomposition",
+      "sha256": "84f9f37cd16f017adeb00c99bd0abb8492335f8814c50e9f80100b650a0a44af"
+    },
+    {
+      "author": "Cioran",
+      "work": "La Chute dans le temps",
+      "sha256": "c0d12d90107a5568e3866099efa3e7aea95880769f0f744663ea05adb679a7f5"
     }
   ],
   "subject_source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf",
@@ -680,7 +690,140 @@
       "verification": "Citation retrouvée mot pour mot dans le XHTML fourni ; balises et seuls appels de notes retirés, espaces normalisés. Proposition, démonstration et contexte relus.",
       "quote_sha256": "d64e0810172f97a9554754e7658ada8b7066a62a2d21e91e8dc298a87569919e",
       "translator_status": "identified"
+    },
+    {
+      "id": "cioran-les-faux-absolus",
+      "code": "C01",
+      "author": "Cioran",
+      "locator": "« Généalogie du fanatisme »",
+      "source_location": "PDF fourni, page numérique 4",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au livre fourni ; seuls espaces normalisés. Passage et contexte relus. Contrôle visuel du PDF rendu.",
+      "quote_sha256": "0328f9fcb66c563b9e2349de7bbbb6842eab263587d50e85180add69c3f47c0c",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "cioran-les-mots-et-la-presence-des-choses",
+      "code": "C02",
+      "author": "Cioran",
+      "locator": "« Dans le cimetière des définitions »",
+      "source_location": "PDF fourni, page numérique 8",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au livre fourni ; seuls espaces normalisés. Passage et contexte relus. Contrôle visuel du PDF rendu.",
+      "quote_sha256": "02e2276a27784005a955db710e8146d2586cc32bc32fd287246f153e41e8c7d7",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "cioran-l-ennui-et-le-sens-de-vivre",
+      "code": "C03",
+      "author": "Cioran",
+      "locator": "« Désarticulation du temps »",
+      "source_location": "PDF fourni, page numérique 14",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au livre fourni ; seuls espaces normalisés. Passage et contexte relus. Contrôle visuel du PDF rendu.",
+      "quote_sha256": "dc5570e86c6fb17e9f24c9027d46cf0855d933058f84d7cfc211436e35248660",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "cioran-expliquer-et-vivre",
+      "code": "C04",
+      "author": "Cioran",
+      "locator": "« Adieu à la philosophie »",
+      "source_location": "PDF fourni, page numérique 45",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au livre fourni ; seuls espaces normalisés. Passage et contexte relus. Contrôle visuel du PDF rendu.",
+      "quote_sha256": "2468fce111b3d33db04073296bf4fb1642f2b792cc20dcccc94d2628855647c7",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "cioran-les-desirs-dementent-nos-principes",
+      "code": "C05",
+      "author": "Cioran",
+      "locator": "« Cosmogonie du désir »",
+      "source_location": "PDF fourni, page numérique 65",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au livre fourni ; seuls espaces normalisés. Passage et contexte relus. Contrôle visuel du PDF rendu.",
+      "quote_sha256": "b852843c2beac9194b03542c6d7c3d7fdde7130a9b5466c2942bfed425d709f2",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "cioran-reflechir-transforme-la-sensation",
+      "code": "C06",
+      "author": "Cioran",
+      "locator": "« Visages de la décadence »",
+      "source_location": "PDF fourni, page numérique 101",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au livre fourni ; seuls espaces normalisés. Passage et contexte relus. Contrôle visuel du PDF rendu.",
+      "quote_sha256": "bdc9191674603120bc99c54a3c6d126336bd246f4514b7fc94170e2f27df6fe8",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "cioran-le-doute-et-la-vie-commune",
+      "code": "C07",
+      "author": "Cioran",
+      "locator": "« Le sceptique et le barbare »",
+      "source_location": "EPUB fourni, Cioran-La chute dans le temps_split_003.htm",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au livre fourni ; seuls espaces normalisés. Passage et contexte relus. Comparaison au HTML en préservant les espaces autour des italiques.",
+      "quote_sha256": "6700beb738d5d75a4b3d80224fdbbfbee50e31232f8bc1ad47375c20e220f345",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "cioran-convertir-et-contraindre",
+      "code": "C08",
+      "author": "Cioran",
+      "locator": "« Portrait du civilisé »",
+      "source_location": "EPUB fourni, Cioran-La chute dans le temps_split_002.htm",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au livre fourni ; seuls espaces normalisés. Passage et contexte relus. Comparaison au HTML en préservant les espaces autour des italiques.",
+      "quote_sha256": "0bec3e92349a57b6747a592c3d2eafb98beefc5a4359e9ffb989127c2370f62d",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "cioran-l-assurance-et-le-besoin-d-eloge",
+      "code": "C09",
+      "author": "Cioran",
+      "locator": "« Désir et horreur de la gloire »",
+      "source_location": "EPUB fourni, Cioran-La chute dans le temps_split_005.htm",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au livre fourni ; seuls espaces normalisés. Passage et contexte relus. Comparaison au HTML en préservant les espaces autour des italiques.",
+      "quote_sha256": "f2a71cacc386bfe9e41275b20b5af6c563151a8967ac880e14dce6c3b7fc9b38",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "cioran-le-corps-revele-par-l-epreuve",
+      "code": "C10",
+      "author": "Cioran",
+      "locator": "« Sur la maladie »",
+      "source_location": "EPUB fourni, Cioran-La chute dans le temps_split_006.htm",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au livre fourni ; seuls espaces normalisés. Passage et contexte relus. Comparaison au HTML en préservant les espaces autour des italiques.",
+      "quote_sha256": "d8b4119c54a2fb996b583c2e00b3ae52943d3e3888bb0b05bb8b3a1a435e2983",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "cioran-la-creation-et-la-clairvoyance",
+      "code": "C11",
+      "author": "Cioran",
+      "locator": "« Les dangers de la sagesse »",
+      "source_location": "EPUB fourni, Cioran-La chute dans le temps_split_008.htm",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au livre fourni ; seuls espaces normalisés. Passage et contexte relus. Comparaison au HTML en préservant les espaces autour des italiques.",
+      "quote_sha256": "20ace277ebbbc7700d21abc6f1a026c34a189ecf8e7182f729f4a9f35203e829",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "cioran-l-avenir-deja-passe",
+      "code": "C12",
+      "author": "Cioran",
+      "locator": "« Tomber du temps »",
+      "source_location": "EPUB fourni, Cioran-La chute dans le temps_split_009.htm",
+      "quotation_verified": true,
+      "verification": "Comparaison mot pour mot au livre fourni ; seuls espaces normalisés. Passage et contexte relus. Comparaison au HTML en préservant les espaces autour des italiques.",
+      "quote_sha256": "77e5e9008778fa2e4ceef36f6bdd435fa48cf041240ce613e98858693a8c0258",
+      "translator_status": "original-french"
     }
   ],
-  "spinoza_edition_note": "La page de titre (part0002.xhtml) attribue édition et traduction à Maxime Rovere, © Flammarion 2021, ISBN numérique 9782080205179. Les noms figurant dans le nom du fichier téléversé ne servent pas à attribuer la traduction."
+  "spinoza_edition_note": "La page de titre (part0002.xhtml) attribue édition et traduction à Maxime Rovere, © Flammarion 2021, ISBN numérique 9782080205179. Les noms figurant dans le nom du fichier téléversé ne servent pas à attribuer la traduction.",
+  "cioran_edition_note": "Textes originaux français. Les années 1949 et 1964 sont celles de première publication, signalées comme telles ; aucun numéro de page d’édition imprimée n’est déduit des pages numériques. La pagination PDF reste interne, les rubriques identifient les citations publiques. Les balises italiques ne créent aucun espace dans les mots ou devant la ponctuation."
 }
