@@ -153,5 +153,7 @@ Prises (9 octobre 2026) :
 
 - **Banque de citations** (16 octobre 2026) : le propriétaire demande le remplacement des quinze anciennes fiches par les 45 citations courtes des trois recueils fournis et approuvées dans la conversation. Présentation : citation et référence, puis Dissertation (trois sujets réels au maximum, fonctions précises, raccord A20 quand examiné) et Commentaire (paragraphe court, fonction de chaque phrase). Cette demande autorise l’intégration des courts extraits de cette sélection ; elle n’autorise pas la reproduction des ouvrages ni de longues sections de traductions.
 
+- **Spinoza** (16 octobre 2026) : le propriétaire demande de poursuivre la banque selon le même principe avec l’*Éthique* fournie ; courts extraits vérifiés dans la traduction de Maxime Rovere (Flammarion, 2021), sujets réels et commentaires originaux.
+
 En attente :
 - Identité de l’éditeur (mentions légales, CGV, confidentialité) et moyen de paiement, avant toute vente ; pages légales à faire relire par un juriste.

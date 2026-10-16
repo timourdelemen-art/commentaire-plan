@@ -1,6 +1,6 @@
 {
   "status": "citations-courtes-et-commentaires",
-  "owner_decision": "16 octobre 2026 : remplacer les anciennes fiches par la sélection de citations fournie et approuvée, en deux parties dissertation et commentaire.",
+  "owner_decision": "16 octobre 2026 : remplacer les anciennes fiches par la sélection de citations fournie et approuvée, en deux parties dissertation et commentaire. Le même jour : poursuivre selon le même principe avec l’Éthique fournie.",
   "source_files": [
     {
       "author": "Platon",
@@ -13,6 +13,10 @@
     {
       "author": "Nietzsche",
       "sha256": "952d2db67f5bffd472803534bed9f2e3192df4b960304ab41da71e126eccb7dc"
+    },
+    {
+      "author": "Spinoza",
+      "sha256": "03604f92fdc8d0ead989e4eac70219dcc0d66cca9addad7405729d81d89bf87c"
     }
   ],
   "subject_source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf",
@@ -511,6 +515,172 @@
       "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
       "quote_sha256": "f01f0b94d6e2bba70d8721791d72b9fb743983da8b9fad0fc8337b350013ff72",
       "translator_status": "identified"
+    },
+    {
+      "id": "spinoza-liberte-et-necessite",
+      "code": "S01",
+      "author": "Spinoza",
+      "locator": "I, définition 7",
+      "source_location": "EPUB fourni, OEBPS/part0012.xhtml",
+      "quotation_verified": true,
+      "verification": "Citation retrouvée mot pour mot dans le XHTML fourni ; balises et seuls appels de notes retirés, espaces normalisés. Proposition, démonstration et contexte relus.",
+      "quote_sha256": "9fa7154828c20318b529d8145f99c29ed1a53acc9b4b9f40cd32709688187986",
+      "translator_status": "identified"
+    },
+    {
+      "id": "spinoza-connaitre-par-les-causes",
+      "code": "S02",
+      "author": "Spinoza",
+      "locator": "I, axiome 4",
+      "source_location": "EPUB fourni, OEBPS/part0014.xhtml",
+      "quotation_verified": true,
+      "verification": "Citation retrouvée mot pour mot dans le XHTML fourni ; balises et seuls appels de notes retirés, espaces normalisés. Proposition, démonstration et contexte relus.",
+      "quote_sha256": "b0669841499ea9a8585104ed850f45c0b25bc2fecc74945860619041fca68e2c",
+      "translator_status": "identified"
+    },
+    {
+      "id": "spinoza-l-erreur-comme-connaissance-partielle",
+      "code": "S03",
+      "author": "Spinoza",
+      "locator": "II, proposition 35",
+      "source_location": "EPUB fourni, OEBPS/part0149.xhtml",
+      "quotation_verified": true,
+      "verification": "Citation retrouvée mot pour mot dans le XHTML fourni ; balises et seuls appels de notes retirés, espaces normalisés. Proposition, démonstration et contexte relus.",
+      "quote_sha256": "0ad7f3cb8c402e797208e68a461b2210371576913e38894d6cd2fcd670209aa4",
+      "translator_status": "identified"
+    },
+    {
+      "id": "spinoza-se-connaitre-par-le-corps",
+      "code": "S04",
+      "author": "Spinoza",
+      "locator": "II, proposition 23",
+      "source_location": "EPUB fourni, OEBPS/part0135.xhtml",
+      "quotation_verified": true,
+      "verification": "Citation retrouvée mot pour mot dans le XHTML fourni ; balises et seuls appels de notes retirés, espaces normalisés. Proposition, démonstration et contexte relus.",
+      "quote_sha256": "1aa95a72a2a407c62ca3712d53662a9669670f34d4c29a98c1ebb8c614529dd4",
+      "translator_status": "identified"
+    },
+    {
+      "id": "spinoza-perseverer-dans-son-etre",
+      "code": "S05",
+      "author": "Spinoza",
+      "locator": "III, proposition 6",
+      "source_location": "EPUB fourni, OEBPS/part0191.xhtml",
+      "quotation_verified": true,
+      "verification": "Citation retrouvée mot pour mot dans le XHTML fourni ; balises et seuls appels de notes retirés, espaces normalisés. Proposition, démonstration et contexte relus.",
+      "quote_sha256": "f4e69014cae04c98add6a13ca703af94332bf3bbb183f4d869fec55dc81e446a",
+      "translator_status": "identified"
+    },
+    {
+      "id": "spinoza-le-desir-et-le-jugement-de-valeur",
+      "code": "S06",
+      "author": "Spinoza",
+      "locator": "III, proposition 9, scolie",
+      "source_location": "EPUB fourni, OEBPS/part0197.xhtml",
+      "quotation_verified": true,
+      "verification": "Citation retrouvée mot pour mot dans le XHTML fourni ; balises et seuls appels de notes retirés, espaces normalisés. Proposition, démonstration et contexte relus.",
+      "quote_sha256": "db6da1350f64f6a6b4012390bfd6339f3486905020cb0fd6f5c1e0075bed4ee7",
+      "translator_status": "identified"
+    },
+    {
+      "id": "spinoza-la-joie-et-la-puissance-d-agir",
+      "code": "S07",
+      "author": "Spinoza",
+      "locator": "IV, proposition 41",
+      "source_location": "EPUB fourni, OEBPS/part0378.xhtml",
+      "quotation_verified": true,
+      "verification": "Citation retrouvée mot pour mot dans le XHTML fourni ; balises et seuls appels de notes retirés, espaces normalisés. Proposition, démonstration et contexte relus.",
+      "quote_sha256": "e348c4dab4b2a8272bcfce3c8616181a2d403646c39da364ff9db098d44c2c0f",
+      "translator_status": "identified"
+    },
+    {
+      "id": "spinoza-transformer-les-affects",
+      "code": "S08",
+      "author": "Spinoza",
+      "locator": "IV, proposition 7",
+      "source_location": "EPUB fourni, OEBPS/part0324.xhtml",
+      "quotation_verified": true,
+      "verification": "Citation retrouvée mot pour mot dans le XHTML fourni ; balises et seuls appels de notes retirés, espaces normalisés. Proposition, démonstration et contexte relus.",
+      "quote_sha256": "cf92ebc3228cb658a963531df31dbcbdc3e72a930b0b64d06fdf54d4b562f7a4",
+      "translator_status": "identified"
+    },
+    {
+      "id": "spinoza-un-bien-qui-se-partage",
+      "code": "S09",
+      "author": "Spinoza",
+      "locator": "IV, proposition 36",
+      "source_location": "EPUB fourni, OEBPS/part0370.xhtml",
+      "quotation_verified": true,
+      "verification": "Citation retrouvée mot pour mot dans le XHTML fourni ; balises et seuls appels de notes retirés, espaces normalisés. Proposition, démonstration et contexte relus.",
+      "quote_sha256": "26f8370c8b854331cc24527e29b18ea731b30ecb572391b19c4541bf68c09686",
+      "translator_status": "identified"
+    },
+    {
+      "id": "spinoza-agir-par-raison-ou-par-peur",
+      "code": "S10",
+      "author": "Spinoza",
+      "locator": "IV, proposition 63",
+      "source_location": "EPUB fourni, OEBPS/part0416.xhtml",
+      "quotation_verified": true,
+      "verification": "Citation retrouvée mot pour mot dans le XHTML fourni ; balises et seuls appels de notes retirés, espaces normalisés. Proposition, démonstration et contexte relus.",
+      "quote_sha256": "80af9b0c263c67689b4e763a05566debe80465c73b986c3c351f7ade3d780acd",
+      "translator_status": "identified"
+    },
+    {
+      "id": "spinoza-une-sagesse-de-la-vie",
+      "code": "S11",
+      "author": "Spinoza",
+      "locator": "IV, proposition 67",
+      "source_location": "EPUB fourni, OEBPS/part0423.xhtml",
+      "quotation_verified": true,
+      "verification": "Citation retrouvée mot pour mot dans le XHTML fourni ; balises et seuls appels de notes retirés, espaces normalisés. Proposition, démonstration et contexte relus.",
+      "quote_sha256": "04237236c86b5882c3a48620a34062b23b9b6b9e801c115d5ddb6ddc93827236",
+      "translator_status": "identified"
+    },
+    {
+      "id": "spinoza-la-liberte-dans-la-cite",
+      "code": "S12",
+      "author": "Spinoza",
+      "locator": "IV, proposition 73",
+      "source_location": "EPUB fourni, OEBPS/part0435.xhtml",
+      "quotation_verified": true,
+      "verification": "Citation retrouvée mot pour mot dans le XHTML fourni ; balises et seuls appels de notes retirés, espaces normalisés. Proposition, démonstration et contexte relus.",
+      "quote_sha256": "27b8c532464ddc5c3c62b8a438695b1a935e93737a299bf5a6136b1b60b14635",
+      "translator_status": "identified"
+    },
+    {
+      "id": "spinoza-comprendre-une-passion",
+      "code": "S13",
+      "author": "Spinoza",
+      "locator": "V, proposition 3",
+      "source_location": "EPUB fourni, OEBPS/part0462.xhtml",
+      "quotation_verified": true,
+      "verification": "Citation retrouvée mot pour mot dans le XHTML fourni ; balises et seuls appels de notes retirés, espaces normalisés. Proposition, démonstration et contexte relus.",
+      "quote_sha256": "589362d7d29a7c35bca1a4e9e6dd53ca1d33e12195262aa68c6f405828eab34b",
+      "translator_status": "identified"
+    },
+    {
+      "id": "spinoza-comprendre-la-necessite",
+      "code": "S14",
+      "author": "Spinoza",
+      "locator": "V, proposition 6",
+      "source_location": "EPUB fourni, OEBPS/part0468.xhtml",
+      "quotation_verified": true,
+      "verification": "Citation retrouvée mot pour mot dans le XHTML fourni ; balises et seuls appels de notes retirés, espaces normalisés. Proposition, démonstration et contexte relus.",
+      "quote_sha256": "77d17bf0de18d1f4cb9e0d2533c97840cdac0f746d3a541a6d52cb036fb541a8",
+      "translator_status": "identified"
+    },
+    {
+      "id": "spinoza-l-ordre-des-idees-et-des-choses",
+      "code": "S15",
+      "author": "Spinoza",
+      "locator": "II, proposition 7",
+      "source_location": "EPUB fourni, OEBPS/part0098.xhtml",
+      "quotation_verified": true,
+      "verification": "Citation retrouvée mot pour mot dans le XHTML fourni ; balises et seuls appels de notes retirés, espaces normalisés. Proposition, démonstration et contexte relus.",
+      "quote_sha256": "d64e0810172f97a9554754e7658ada8b7066a62a2d21e91e8dc298a87569919e",
+      "translator_status": "identified"
     }
-  ]
+  ],
+  "spinoza_edition_note": "La page de titre (part0002.xhtml) attribue édition et traduction à Maxime Rovere, © Flammarion 2021, ISBN numérique 9782080205179. Les noms figurant dans le nom du fichier téléversé ne servent pas à attribuer la traduction."
 }

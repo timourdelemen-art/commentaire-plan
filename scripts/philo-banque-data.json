@@ -2722,6 +2722,905 @@
           "a20Status": "Une insertion possible dans ce raisonnement ; la citation ne figure pas déjà dans la copie."
         }
       ]
+    },
+    {
+      "id": "spinoza-liberte-et-necessite",
+      "code": "S01",
+      "author": "Spinoza",
+      "title": "Liberté et nécessité",
+      "work": "Éthique",
+      "locator": "I, définition 7",
+      "quote": "On dit qu’est libre une chose qui existe par la seule nécessité de sa nature et qui n’est déterminée à agir que par elle seule ; mais on appelle nécessaire ou plutôt contrainte celle qui est déterminée par autre chose à exister et à accomplir ses opérations selon une raison précise et déterminée.",
+      "notions": [
+        "liberte",
+        "raison"
+      ],
+      "edition": "Éthique, édition de Maxime Rovere",
+      "publisher": "Flammarion",
+      "editionYear": "2021",
+      "translator": "Maxime Rovere",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Être libre exige-t-il d’échapper à toute nécessité ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Spinoza définit la liberté par une action qui découle de la nature propre de ce qui agit."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La nécessité désigne ce qui suit d’une nature, tandis que la contrainte désigne ici une détermination par autre chose."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une action peut donc être nécessaire sans être imposée du dehors, ce que réalise absolument Dieu seul dans ce système."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Pour l’homme, comprendre les raisons de sa conduite permet de concevoir une autonomie plus grande que la simple obéissance à une impulsion."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La liberté humaine se pense ainsi comme un degré d’activité à conquérir, sans faire de l’homme une cause absolument indépendante."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Être libre, est-ce ne se soumettre à rien ?",
+          "function": "Redéfinir la liberté",
+          "reason": "Distinguer l’absence de toute détermination de la capacité à agir selon des raisons comprises.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=38",
+          "sourceLabel": "Recueil académique · p. 38"
+        },
+        {
+          "subject": "Faut-il être raisonnable pour être libre ?",
+          "function": "Fonder une autonomie active",
+          "reason": "Comprendre ce qui nous détermine peut accroître notre activité, sans supprimer notre dépendance envers la nature.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=41",
+          "sourceLabel": "Recueil académique · p. 41"
+        }
+      ]
+    },
+    {
+      "id": "spinoza-connaitre-par-les-causes",
+      "code": "S02",
+      "author": "Spinoza",
+      "title": "Connaître par les causes",
+      "work": "Éthique",
+      "locator": "I, axiome 4",
+      "quote": "La connaissance de l’effet dépend de la connaissance de la cause et l’enveloppe.",
+      "notions": [
+        "science",
+        "raison"
+      ],
+      "edition": "Éthique, édition de Maxime Rovere",
+      "publisher": "Flammarion",
+      "editionYear": "2021",
+      "translator": "Maxime Rovere",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Constater qu’un événement se produit suffit-il à le connaître ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Spinoza lie la connaissance de l’effet à celle de ce qui le produit."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La cause désigne ce dont l’effet suit, et non un événement qui le précède simplement dans le temps."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Comprendre pourquoi une chose existe demande de saisir la relation qui rend compte de sa production."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Observer la dilatation d’un métal ne l’explique pas encore si l’on ignore le rôle de son échauffement."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Cet axiome donne ainsi à la connaissance une exigence explicative qui dépasse le seul relevé des faits."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Connaître est-ce nécessairement expliquer ?",
+          "function": "Défendre une connaissance explicative",
+          "reason": "Connaître un effet exige ici de comprendre sa production, au-delà de sa seule description.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=49",
+          "sourceLabel": "Recueil académique · p. 49"
+        },
+        {
+          "subject": "Prévoir, est-ce expliquer ?",
+          "function": "Distinguer prévision et causalité",
+          "reason": "Une régularité peut permettre une prévision sans donner encore la connaissance de la cause.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=65",
+          "sourceLabel": "Recueil académique · p. 65"
+        }
+      ]
+    },
+    {
+      "id": "spinoza-l-erreur-comme-connaissance-partielle",
+      "code": "S03",
+      "author": "Spinoza",
+      "title": "L’erreur comme connaissance partielle",
+      "work": "Éthique",
+      "locator": "II, proposition 35",
+      "quote": "La fausseté consiste en une privation de connaissance qu’enveloppent les idées inadéquates, autrement dit mutilées et confuses.",
+      "notions": [
+        "verite",
+        "conscience"
+      ],
+      "edition": "Éthique, édition de Maxime Rovere",
+      "publisher": "Flammarion",
+      "editionYear": "2021",
+      "translator": "Maxime Rovere",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une idée fausse est-elle dépourvue de tout rapport au réel ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Spinoza situe la fausseté dans ce qui manque à une idée pour être adéquate."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Une idée inadéquate donne une connaissance partielle dont nous ne saisissons pas suffisamment les causes et les relations."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Elle peut donc exprimer une affection réelle tout en nous trompant lorsque nous la prenons pour une connaissance complète de son objet."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Le Soleil paraît proche même à celui qui connaît sa distance, mais celui-ci ne confond plus cette apparence avec une mesure."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Corriger l’erreur consiste alors à compléter et à situer nos représentations, sans exiger la disparition de toutes les apparences."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’ignorance est-elle la seule cause de nos erreurs ?",
+          "function": "Préciser le manque qui fait erreur",
+          "reason": "L’erreur ne se réduit pas à ne rien savoir : elle implique une représentation partielle dont la limite nous échappe.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=71",
+          "sourceLabel": "Recueil académique · p. 71"
+        },
+        {
+          "subject": "Dissiper une illusion, est-ce seulement corriger une erreur ?",
+          "function": "Distinguer apparence et jugement",
+          "reason": "La connaissance peut corriger le jugement alors que l’apparence sensible persiste.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=71",
+          "sourceLabel": "Recueil académique · p. 71"
+        }
+      ]
+    },
+    {
+      "id": "spinoza-se-connaitre-par-le-corps",
+      "code": "S04",
+      "author": "Spinoza",
+      "title": "Se connaître par le corps",
+      "work": "Éthique",
+      "locator": "II, proposition 23",
+      "quote": "L’esprit ne se connaît pas lui-même, sinon en tant qu’il perçoit les idées des affections du corps.",
+      "notions": [
+        "conscience",
+        "nature"
+      ],
+      "edition": "Éthique, édition de Maxime Rovere",
+      "publisher": "Flammarion",
+      "editionYear": "2021",
+      "translator": "Maxime Rovere",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La connaissance de soi vient-elle d’un regard intérieur indépendant du corps ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Spinoza affirme que l’esprit se connaît à travers les idées des modifications corporelles."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Une affection est ici une modification du corps, dont l’esprit forme une idée et peut percevoir cette idée."
+        },
+        {
+          "function": "La raison",
+          "sentence": "L’esprit étant l’idée du corps, sa connaissance de lui-même passe par les manières dont ce corps est affecté."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Éprouver puis reconnaître sa peur engage ainsi la perception de changements corporels, et pas seulement un jugement abstrait sur soi."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La conscience de soi se construit donc dans une expérience incarnée, sans garantir une connaissance complète de ses causes."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Être conscient, est-ce savoir ?",
+          "function": "Limiter la transparence à soi",
+          "reason": "Percevoir ce que l’on éprouve donne une conscience de soi, sans suffire à en connaître adéquatement les causes.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=18",
+          "sourceLabel": "Recueil académique · p. 18"
+        },
+        {
+          "subject": "Peut-on penser sans sentir ?",
+          "function": "Montrer le rôle du corps",
+          "reason": "La connaissance de soi passe ici par les idées des affections corporelles plutôt que par un esprit isolé.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=18",
+          "sourceLabel": "Recueil académique · p. 18"
+        }
+      ]
+    },
+    {
+      "id": "spinoza-perseverer-dans-son-etre",
+      "code": "S05",
+      "author": "Spinoza",
+      "title": "Persévérer dans son être",
+      "work": "Éthique",
+      "locator": "III, proposition 6",
+      "quote": "Abstraction faite du reste, chaque chose s’efforce de persévérer dans son être.",
+      "notions": [
+        "nature",
+        "liberte"
+      ],
+      "edition": "Éthique, édition de Maxime Rovere",
+      "publisher": "Flammarion",
+      "editionYear": "2021",
+      "translator": "Maxime Rovere",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Le désir humain s’explique-t-il seulement par ce qui nous manque ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Spinoza inscrit l’effort humain dans une tendance de chaque chose à persévérer dans son être."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Cet effort, appelé conatus, désigne une puissance effective d’exister et d’agir, sans supposer un projet conscient chez toute chose."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Considérée en elle-même, une chose affirme sa nature, tandis que sa destruction vient de causes qui lui sont contraires."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un organisme qui répare une blessure manifeste une activité de conservation sans devoir se représenter une fin."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Le désir peut ainsi être compris à partir d’une puissance positive, sans nier les obstacles extérieurs qui la limitent."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Ne désirons-nous que ce qui nous manque ?",
+          "function": "Contester une définition par le manque",
+          "reason": "L’effort de vivre et d’agir exprime une puissance présente, même lorsqu’il rencontre une privation.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=90",
+          "sourceLabel": "Recueil académique · p. 90"
+        },
+        {
+          "subject": "Le désir est-il un obstacle à la liberté ?",
+          "function": "Écarter la suppression de tout désir",
+          "reason": "Si le désir exprime notre effort d’exister, la liberté doit transformer sa conduite plutôt que supprimer cet effort.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=43",
+          "sourceLabel": "Recueil académique · p. 43"
+        }
+      ]
+    },
+    {
+      "id": "spinoza-le-desir-et-le-jugement-de-valeur",
+      "code": "S06",
+      "author": "Spinoza",
+      "title": "Le désir et le jugement de valeur",
+      "work": "Éthique",
+      "locator": "III, proposition 9, scolie",
+      "quote": "Au contraire, si nous jugeons qu’une chose est bonne, c’est parce que nous faisons effort vers elle, que nous la voulons, que nous y aspirons, que nous la désirons.",
+      "notions": [
+        "raison",
+        "devoir"
+      ],
+      "edition": "Éthique, édition de Maxime Rovere",
+      "publisher": "Flammarion",
+      "editionYear": "2021",
+      "translator": "Maxime Rovere",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Jugeons-nous une chose bonne avant de la désirer ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Spinoza renverse cet ordre en faisant du désir le principe de notre jugement de valeur."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Le bon désigne ici ce que notre effort nous porte à rechercher, plutôt qu’une qualité reconnue indépendamment de toute aspiration."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Nos évaluations expriment ainsi une manière d’être affectés et de poursuivre ce qui nous paraît favorable."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un aliment paraît précieux à celui qui a faim alors qu’il laisse indifférent celui qui est rassasié."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Ce renversement invite à examiner nos désirs, sans conclure que tous les objets désirés sont réellement utiles ou également bons."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Ne désirons-nous que les choses que nous estimons bonnes ?",
+          "function": "Renverser le rapport entre désir et valeur",
+          "reason": "Examiner si notre jugement motive le désir ou exprime déjà une aspiration.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=92",
+          "sourceLabel": "Recueil académique · p. 92"
+        },
+        {
+          "subject": "Le désir est-il aveugle ?",
+          "function": "Interroger l’indépendance de nos jugements",
+          "reason": "Un jugement apparemment réfléchi peut traduire un désir dont nous ne connaissons pas les causes.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=90",
+          "sourceLabel": "Recueil académique · p. 90"
+        }
+      ]
+    },
+    {
+      "id": "spinoza-la-joie-et-la-puissance-d-agir",
+      "code": "S07",
+      "author": "Spinoza",
+      "title": "La joie et la puissance d’agir",
+      "work": "Éthique",
+      "locator": "IV, proposition 41",
+      "quote": "La joie, directement, n’est pas mauvaise, mais bonne ; la tristesse, au contraire, est directement mauvaise.",
+      "notions": [
+        "bonheur",
+        "devoir"
+      ],
+      "edition": "Éthique, édition de Maxime Rovere",
+      "publisher": "Flammarion",
+      "editionYear": "2021",
+      "translator": "Maxime Rovere",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La joie a-t-elle seulement une valeur agréable et subjective ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Spinoza la dit directement bonne et attribue à la tristesse la valeur contraire."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La joie est un passage à une puissance d’agir plus grande, tandis que la tristesse marque une diminution de cette puissance."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Leur valeur directe dépend de cette variation de nos capacités, et pas simplement d’une préférence pour des sensations plaisantes."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "La joie de comprendre une difficulté peut rendre possible un travail qui paraissait jusque-là hors de portée."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Cette valeur directe ne rend pourtant pas toute joie bonne dans toutes ses conséquences, car certaines satisfactions partielles peuvent être excessives."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Faut-il chercher le bonheur à tout prix ?",
+          "function": "Distinguer joie et satisfaction immédiate",
+          "reason": "Le gain de puissance permet d’évaluer une joie, puis d’examiner ses effets au-delà de son agrément.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=13",
+          "sourceLabel": "Recueil académique · p. 13"
+        },
+        {
+          "subject": "Obéir à la raison suffit-il à rendre heureux ?",
+          "function": "Relier raison et vie affective",
+          "reason": "La raison peut soutenir une joie active : vivre raisonnablement ne signifie pas vivre sans affects.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=14",
+          "sourceLabel": "Recueil académique · p. 14"
+        }
+      ]
+    },
+    {
+      "id": "spinoza-transformer-les-affects",
+      "code": "S08",
+      "author": "Spinoza",
+      "title": "Transformer les affects",
+      "work": "Éthique",
+      "locator": "IV, proposition 7",
+      "quote": "Un affect ne peut être ni contrarié, ni supprimé, sinon par un affect contraire et plus fort que l’affect à contrarier.",
+      "notions": [
+        "liberte",
+        "raison"
+      ],
+      "edition": "Éthique, édition de Maxime Rovere",
+      "publisher": "Flammarion",
+      "editionYear": "2021",
+      "translator": "Maxime Rovere",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une simple décision suffit-elle à vaincre une passion ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Spinoza affirme qu’un affect ne cède que devant un affect contraire dont la force le dépasse."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Un affect est une modification qui augmente ou diminue notre puissance d’agir, accompagnée de son idée."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une consigne abstraite ne change donc pas une passion tant qu’elle ne prend pas elle-même une force dans notre vie affective."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Le plaisir effectif d’un travail partagé peut ainsi contrarier une envie de renoncer plus efficacement qu’un ordre sans prise sur nous."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La maîtrise de soi exige alors une transformation des affects, où la raison agit par des désirs et des joies qu’elle fait naître."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Faut-il combattre les passions pour être libre ?",
+          "function": "Préciser les moyens de la libération",
+          "reason": "On ne combat pas une passion depuis une volonté sans affects : il faut construire une force contraire.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=45",
+          "sourceLabel": "Recueil académique · p. 45"
+        },
+        {
+          "subject": "N’y a-t-il que des passions déraisonnables ?",
+          "function": "Distinguer affect et passion",
+          "reason": "La raison produit aussi des affects actifs, capables de transformer ceux que nous subissons.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=52",
+          "sourceLabel": "Recueil académique · p. 52"
+        }
+      ]
+    },
+    {
+      "id": "spinoza-un-bien-qui-se-partage",
+      "code": "S09",
+      "author": "Spinoza",
+      "title": "Un bien qui se partage",
+      "work": "Éthique",
+      "locator": "IV, proposition 36",
+      "quote": "Le bien suprême de ceux qui poursuivent la vertu est commun à tous, et tout le monde peut s’en réjouir à égalité.",
+      "notions": [
+        "bonheur",
+        "raison"
+      ],
+      "edition": "Éthique, édition de Maxime Rovere",
+      "publisher": "Flammarion",
+      "editionYear": "2021",
+      "translator": "Maxime Rovere",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Le bien des autres diminue-t-il nécessairement le mien ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Spinoza affirme que le bien suprême de la vie vertueuse peut être partagé par tous."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Ce bien est la connaissance de Dieu, c’est-à-dire la compréhension de la réalité dont nous faisons partie, et la vertu est une puissance d’agir."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Comprendre ne prive personne de comprendre, contrairement à la possession exclusive d’un objet rare."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Lorsqu’un élève explique une démonstration à un camarade, le second peut la comprendre sans retirer au premier son savoir."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Un bien commun devient donc pensable au-delà de la rivalité, sans supposer que tous les biens matériels se partagent de cette manière."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Peut-on faire le bonheur d’autrui ?",
+          "function": "Dépasser la rivalité des intérêts",
+          "reason": "Partager une compréhension peut contribuer à la joie d’autrui sans en faire un état que l’on pourrait lui imposer.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=15",
+          "sourceLabel": "Recueil académique · p. 15"
+        },
+        {
+          "subject": "La raison n’a-t-elle pour fin que la connaissance du réel ?",
+          "function": "Montrer une portée éthique du connaître",
+          "reason": "La compréhension peut constituer un bien partageable et transformer nos rapports avec les autres.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=52",
+          "sourceLabel": "Recueil académique · p. 52"
+        }
+      ]
+    },
+    {
+      "id": "spinoza-agir-par-raison-ou-par-peur",
+      "code": "S10",
+      "author": "Spinoza",
+      "title": "Agir par raison ou par peur",
+      "work": "Éthique",
+      "locator": "IV, proposition 63",
+      "quote": "Qui est conduit par la crainte, et fait le bien pour éviter le mal, n’est pas conduit par la raison.",
+      "notions": [
+        "devoir",
+        "raison"
+      ],
+      "edition": "Éthique, édition de Maxime Rovere",
+      "publisher": "Flammarion",
+      "editionYear": "2021",
+      "translator": "Maxime Rovere",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une conduite conforme au bien est-elle nécessairement raisonnable ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Spinoza distingue l’action conduite par la crainte de celle qui naît de la raison."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La crainte nous fait fuir un mal incertain, tandis que la raison nous porte directement vers ce qui accroît notre puissance."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Un même comportement peut donc provenir de motifs différents, selon que nous comprenons son utilité ou redoutons une peine."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Respecter une règle par peur d’être puni diffère de la respecter parce qu’on comprend la protection qu’elle assure à chacun."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La valeur rationnelle d’une conduite demande ainsi l’examen de son principe, au-delà de sa seule conformité extérieure."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Obéir, est-ce nécessairement se soumettre ?",
+          "function": "Distinguer conformité et motif",
+          "reason": "Distinguer l’obéissance motivée par la peur de celle qui procède de la compréhension du bien poursuivi.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=39",
+          "sourceLabel": "Recueil académique · p. 39"
+        },
+        {
+          "subject": "Faut-il être raisonnable pour être libre ?",
+          "function": "Critiquer une obéissance dominée par la peur",
+          "reason": "Une conduite prudente en apparence peut rester sous la dépendance d’une passion.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=41",
+          "sourceLabel": "Recueil académique · p. 41"
+        }
+      ]
+    },
+    {
+      "id": "spinoza-une-sagesse-de-la-vie",
+      "code": "S11",
+      "author": "Spinoza",
+      "title": "Une sagesse de la vie",
+      "work": "Éthique",
+      "locator": "IV, proposition 67",
+      "quote": "L’homme libre ne pense à rien moins qu’à la mort, et sa sagesse est une méditation non de la mort, mais de la vie.",
+      "notions": [
+        "bonheur",
+        "liberte",
+        "temps"
+      ],
+      "edition": "Éthique, édition de Maxime Rovere",
+      "publisher": "Flammarion",
+      "editionYear": "2021",
+      "translator": "Maxime Rovere",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La sagesse doit-elle se construire autour de la peur de mourir ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Spinoza définit la sagesse de l’homme libre par une méditation de la vie."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’expression ne penser à rien moins qu’à la mort signifie que la mort est ce qui occupe le moins sa pensée."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Conduit par la raison, cet homme recherche directement ce qui lui permet de vivre et d’agir plutôt que de fuir seulement un mal."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Prendre soin de sa santé peut ainsi viser les activités que l’on aime accomplir au lieu de devenir une obsession de sa fin."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La lucidité sur notre condition mortelle ne disparaît pas, mais la crainte de la mort cesse de commander toute l’existence."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Pourquoi craindre la mort ?",
+          "function": "Contester le rôle directeur de la crainte",
+          "reason": "La sagesse peut reconnaître la mortalité tout en prenant pour objet principal la puissance de vivre.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=143",
+          "sourceLabel": "Recueil académique · p. 143"
+        },
+        {
+          "subject": "La mort est-elle un obstacle au bonheur ?",
+          "function": "Déplacer l’obstacle vers notre rapport à la mort",
+          "reason": "La finitude n’empêche pas toute joie, tandis que la peur peut envahir la vie présente.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=17",
+          "sourceLabel": "Recueil académique · p. 17"
+        }
+      ]
+    },
+    {
+      "id": "spinoza-la-liberte-dans-la-cite",
+      "code": "S12",
+      "author": "Spinoza",
+      "title": "La liberté dans la cité",
+      "work": "Éthique",
+      "locator": "IV, proposition 73",
+      "quote": "L’homme conduit par la raison est plus libre dans la cité où il vit par décision commune, que dans la solitude où il n’obéit qu’à lui seul.",
+      "notions": [
+        "etat",
+        "liberte"
+      ],
+      "edition": "Éthique, édition de Maxime Rovere",
+      "publisher": "Flammarion",
+      "editionYear": "2021",
+      "translator": "Maxime Rovere",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Être libre demande-t-il de vivre sans dépendre des autres ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Spinoza affirme qu’une vie réglée en commun peut rendre l’homme raisonnable plus libre que la solitude."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La cité désigne une organisation politique, et la liberté une puissance d’agir guidée par la raison plutôt qu’une absence de liens."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La coopération et des droits communs soutiennent des capacités qu’un individu isolé ne pourrait exercer aussi sûrement."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une règle commune protégeant chacun de la violence permet des activités que la seule force individuelle ne garantirait pas."
+        },
+        {
+          "function": "La portée",
+          "sentence": "L’obéissance peut donc servir la liberté, sous réserve d’examiner les institutions réelles et sans justifier toute domination politique."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La liberté exclut-elle l’obéissance ?",
+          "function": "Distinguer obéissance et servitude",
+          "reason": "Obéir à une décision commune peut protéger une puissance d’agir au lieu de l’annuler.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=38",
+          "sourceLabel": "Recueil académique · p. 38"
+        },
+        {
+          "subject": "Être seul, est-ce être libre ?",
+          "function": "Renverser l’idéal d’indépendance",
+          "reason": "La solitude supprime certains liens mais prive aussi des moyens d’agir que procure la vie commune.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=42",
+          "sourceLabel": "Recueil académique · p. 42"
+        }
+      ]
+    },
+    {
+      "id": "spinoza-comprendre-une-passion",
+      "code": "S13",
+      "author": "Spinoza",
+      "title": "Comprendre une passion",
+      "work": "Éthique",
+      "locator": "V, proposition 3",
+      "quote": "Un affect qui est une passion cesse d’être une passion, sitôt que nous en formons une idée claire et distincte.",
+      "notions": [
+        "conscience",
+        "liberte",
+        "raison"
+      ],
+      "edition": "Éthique, édition de Maxime Rovere",
+      "publisher": "Flammarion",
+      "editionYear": "2021",
+      "translator": "Maxime Rovere",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Comprendre ce que nous éprouvons peut-il modifier ce que nous subissons ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Spinoza soutient qu’une connaissance claire de l’affect lui retire son caractère passif."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La passion est un affect dont nous ne sommes qu’une cause partielle, et son idée demeure confuse."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Former une idée adéquate transforme notre rapport à cet affect en y introduisant une activité de compréhension."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Identifier précisément les mécanismes de sa colère peut permettre d’agir sur la situation au lieu d’en accuser aveuglément une personne."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La compréhension devient ainsi un moyen de libération, sans promettre que nommer une émotion suffise à la connaître ni que toute émotion disparaisse."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Faut-il combattre les passions pour être libre ?",
+          "function": "Remplacer la répression par la compréhension",
+          "reason": "La passion peut être transformée par une activité de connaissance plutôt que combattue comme une force étrangère.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=45",
+          "sourceLabel": "Recueil académique · p. 45"
+        },
+        {
+          "subject": "Est-ce l’ignorance de ce que nous sommes qui fait la force de nos passions ?",
+          "function": "Établir un lien entre confusion et passivité",
+          "reason": "Comprendre l’affect change la manière dont nous en sommes affectés, au-delà d’une simple prise de conscience.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=131",
+          "sourceLabel": "Recueil académique · p. 131"
+        }
+      ]
+    },
+    {
+      "id": "spinoza-comprendre-la-necessite",
+      "code": "S14",
+      "author": "Spinoza",
+      "title": "Comprendre la nécessité",
+      "work": "Éthique",
+      "locator": "V, proposition 6",
+      "quote": "En tant que l’esprit comprend toutes choses comme nécessaires, il a par là une plus grande puissance sur les affects, autrement dit, il pâtit moins d’eux.",
+      "notions": [
+        "liberte",
+        "raison",
+        "bonheur"
+      ],
+      "edition": "Éthique, édition de Maxime Rovere",
+      "publisher": "Flammarion",
+      "editionYear": "2021",
+      "translator": "Maxime Rovere",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Comprendre la nécessité nous condamne-t-il à subir davantage ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Spinoza affirme au contraire que cette compréhension augmente notre puissance sur les affects."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La nécessité désigne l’enchaînement des causes qui produit les choses, tandis que pâtir signifie dépendre de causes que nous ne maîtrisons pas."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Comprendre cet enchaînement réduit les représentations confuses qui nourrissent certains regrets, certaines colères et certaines attentes impossibles."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Comprendre qu’une perte ne pouvait être évitée peut atténuer le regret qui la redouble, sans effacer immédiatement la tristesse."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La connaissance peut donc transformer notre manière de vivre ce qui arrive, sans nous donner le pouvoir de tout empêcher."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Les connaissances nous aident-elles à vivre ?",
+          "function": "Montrer un effet pratique de la compréhension",
+          "reason": "Connaître les causes peut transformer notre rapport à une épreuve, même lorsque l’événement lui-même échappe à notre pouvoir.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=15",
+          "sourceLabel": "Recueil académique · p. 15"
+        },
+        {
+          "subject": "Obéir à la raison suffit-il à rendre heureux ?",
+          "function": "Établir un progrès sans garantir une invulnérabilité",
+          "reason": "Comprendre diminue certaines dépendances affectives, mais ne supprime pas notre exposition aux causes extérieures.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=14",
+          "sourceLabel": "Recueil académique · p. 14"
+        },
+        {
+          "subject": "Faut-il être inconscient pour être heureux ?",
+          "function": "III.2 : faire du savoir une ressource contre la peur",
+          "reason": "Prolonger l’examen de la crainte par la compréhension des causes : elle peut diminuer certains regrets, sans faire disparaître toute douleur.",
+          "source": "https://www.education.gouv.fr/sites/default/files/document/baccalaureat-general-2026-philosophie-517430.pdf#page=2",
+          "sourceLabel": "Bac 2026 · Asie",
+          "a20": "philosophie-bac-2026-faut-il-etre-inconscient-pour-etre-heureux.html",
+          "a20Step": "III.2",
+          "a20Status": "Insertion proposée après lecture de la copie ; citation absente du modèle."
+        }
+      ]
+    },
+    {
+      "id": "spinoza-l-ordre-des-idees-et-des-choses",
+      "code": "S15",
+      "author": "Spinoza",
+      "title": "L’ordre des idées et des choses",
+      "work": "Éthique",
+      "locator": "II, proposition 7",
+      "quote": "L’ordre et enchaînement des idées est le même que l’ordre et enchaînement des choses.",
+      "notions": [
+        "nature",
+        "raison",
+        "science"
+      ],
+      "edition": "Éthique, édition de Maxime Rovere",
+      "publisher": "Flammarion",
+      "editionYear": "2021",
+      "translator": "Maxime Rovere",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La pensée et les choses appartiennent-elles à deux mondes sans rapport ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Spinoza affirme que leurs enchaînements expriment un même ordre."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Les idées sont des modes de la pensée, tandis que les choses se comprennent sous les attributs dont elles relèvent."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une même réalité s’exprime selon ces attributs sans qu’il faille supposer une action de la pensée sur l’étendue ou de l’étendue sur la pensée."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un événement corporel et son idée se comprennent ainsi comme deux expressions d’une même réalité, et non comme deux événements qui se commanderaient du dehors."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Cette thèse fonde l’intelligibilité du réel, sans prétendre que toutes nos représentations particulières en donnent une connaissance adéquate."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La raison suffit-elle à connaître le réel ?",
+          "function": "Fonder la possibilité d’une connaissance rationnelle",
+          "reason": "Le réel présente un ordre intelligible, mais il reste à établir que nos idées particulières le saisissent adéquatement.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=52",
+          "sourceLabel": "Recueil académique · p. 52"
+        },
+        {
+          "subject": "L’activité de l’esprit s’explique-t-elle par des causes matérielles ?",
+          "function": "Distinguer unité et réduction",
+          "reason": "Le même ordre s’exprime sous la pensée et l’étendue sans faire d’un événement matériel la cause d’une idée.",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=99",
+          "sourceLabel": "Recueil académique · p. 99"
+        }
+      ]
     }
   ]
 }
