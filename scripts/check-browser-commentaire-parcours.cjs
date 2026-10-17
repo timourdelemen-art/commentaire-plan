@@ -4,6 +4,12 @@ const fs=require('node:fs'),path=require('node:path'),http=require('node:http'),
 const {chromium}=require('playwright');
 async function check(root){
  root=path.resolve(root);const captures=path.join(root,'browser-audit');fs.mkdirSync(captures,{recursive:true});
+ const ctx={window:{}};vm.createContext(ctx);vm.runInContext(fs.readFileSync(path.join(root,'annales/catalogue-annales.js'),'utf8'),ctx);
+ const catalogue=ctx.window.ANNALES_CATALOGUE;
+ const sourceIds=['bac-2025-asie-general-commentaire-apollinaire-mesange','bac-2024-centre-etranger-general-commentaire-aragon-elsa-au-miroir','bac-2022-metropole-general-commentaire-sylvie-germain-jours-de-colere','bac-2022-amerique-du-nord-general-commentaire-musset-lorenzaccio','bac-2021-metropole-general-commentaire-larbaud-ancienne-gare-cahors'];
+ const subjects=Object.values(catalogue).filter(x=>x.type==='bac-commentaire');
+ assert.equal(subjects.length,13);
+ for(const subject of subjects)assert(/\.pdf$|\/download$/u.test(subject.sourceOfficielle),'Le sujet doit mener à un document précis : '+subject.auteur);
  const server=http.createServer((req,res)=>{const f=path.resolve(root,'.'+new URL(req.url,'http://local').pathname);if(!f.startsWith(root+path.sep))return res.writeHead(403).end();fs.readFile(f,(e,b)=>e?res.writeHead(404).end():res.writeHead(200,{'Content-Type':f.endsWith('.js')?'text/javascript':f.endsWith('.css')?'text/css':'text/html; charset=utf-8'}).end(b));});
  let browser;const results=[];
  try{
@@ -44,6 +50,19 @@ async function check(root){
    page.once('dialog',d=>d.accept());await h.locator('[data-exam-erase]').click();assert.equal(await h.locator('[data-exam-draft]').inputValue(),'');
    await page.selectOption('#exam-subject','montaigne');assert.equal(await m.locator('[data-exam-draft]').inputValue(),'Une autre copie, conservée séparément.');
    for(const id of ['racine','perec']){await page.selectOption('#exam-subject',id);assert(await exam(id).isVisible());assert((await exam(id).getByRole('link',{name:'Ouvrir le texte et la consigne dans le PDF officiel'}).getAttribute('href')).endsWith('.pdf'));}
+   for(const id of sourceIds){
+    await page.goto(base+id+'.html');
+    assert.equal(await page.getByRole('link',{name:'Voir le sujet officiel'}).getAttribute('href'),catalogue[id].sourceOfficielle);
+    assert((await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth))<=1,id);
+    if(id.includes('aragon')){
+     const content=await page.locator('main').innerText();assert(content.includes('2020'));assert(!content.includes('2024'));
+     assert((await page.locator('meta[name="description"]').getAttribute('content')).includes('2020'));
+     await page.locator('main h1').scrollIntoViewIfNeeded();await page.screenshot({path:path.join(captures,'commentaire-source-aragon-'+width+'.png')});
+    }
+   }
+   await page.goto(base+'annales.html');
+   const aragon=page.locator('#transformedAnnales .corpus-card').filter({hasText:'Louis Aragon'});
+   assert((await aragon.innerText()).includes('2020'));assert(!(await aragon.innerText()).includes('2024'));
    assert((await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth))<=1);assert.deepEqual(errors,[]);assert.deepEqual(posts,[]);
    results.push({width,text:true,draft:true,timer:true,reload:true,subjects:4,download:true,comparison:true,isolatedErase:true,ok:true});await context.close();
   }
