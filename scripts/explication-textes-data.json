@@ -94,7 +94,7 @@
             ],
             [
               "",
-              "Les méthodes sont d’abord présentées comme une conquête de la recherche, au moins aussi importante que ses découvertes. Une méthode est une manière réglée de chercher et de vérifier : elle rend possible la distinction entre une explication séduisante et une proposition justifiée. Elle doit elle-même être élaborée, ce qui explique que Nietzsche la compte parmi les résultats de la recherche. La supposition de sa disparition révèle sa nécessité : les vérités déjà acquises pourraient être répétées sans qu’on sache distinguer les suivantes de nouvelles superstitions. Le savoir conservé ne suffirait donc pas à entretenir la capacité de juger qui l’a produit.",
+              "Les méthodes sont d’abord présentées comme une conquête de la recherche, au moins aussi importante que ses découvertes. Une méthode est une manière réglée de chercher et de vérifier : elle rend possible la distinction entre une explication séduisante et une proposition justifiée. Elle doit elle-même être élaborée, ce qui explique que Nietzsche la compte parmi les résultats de la recherche. La supposition de sa disparition révèle sa nécessité : les vérités déjà acquises pourraient être répétées sans qu’on sache distinguer de nouvelles affirmations justifiées et de nouvelles superstitions. Le savoir conservé ne suffirait donc pas à entretenir la capacité de juger qui l’a produit.",
               "",
               [
                 [
@@ -110,7 +110,7 @@
                   "Argument · lever une opposition trompeuse"
                 ],
                 [
-                  "La supposition de sa disparition révèle sa nécessité : les vérités déjà acquises pourraient être répétées sans qu’on sache distinguer les suivantes de nouvelles superstitions.",
+                  "La supposition de sa disparition révèle sa nécessité : les vérités déjà acquises pourraient être répétées sans qu’on sache distinguer de nouvelles affirmations justifiées et de nouvelles superstitions.",
                   "Argument · expliquer l’hypothèse de la perte des méthodes"
                 ],
                 [
@@ -225,7 +225,7 @@
       "drills": [
         {
           "skill": "La fonction d’une phrase",
-          "extract": "La supposition de sa disparition révèle sa nécessité : les vérités déjà acquises pourraient être répétées sans qu’on sache distinguer les suivantes de nouvelles superstitions.",
+          "extract": "La supposition de sa disparition révèle sa nécessité : les vérités déjà acquises pourraient être répétées sans qu’on sache distinguer de nouvelles affirmations justifiées et de nouvelles superstitions.",
           "task": "Expliquez le rôle de cette phrase en deux phrases : ce qu’elle précise, puis ce qu’on perdrait en la supprimant.",
           "hint": "Comparez la perte des méthodes et la conservation des résultats dans la première phrase du texte.",
           "expected": "Elle explique comment un savoir ancien pourrait subsister alors que la capacité de vérifier de nouvelles affirmations serait perdue. Sans cette explication, on ne comprendrait pas pourquoi conserver des vérités acquises ne protège pas, à lui seul, du retour de la superstition."
@@ -1160,7 +1160,7 @@
             ],
             [
               "B2",
-              "Le premier moment explique la possibilité de l’erreur par le contraste entre l’esprit limité et l’infinité des rapports ; il précise le glissement par lequel l’homme nie ce qu’il ne voit pas. Le deuxième, introduit par « Toutefois », distingue cette possibilité et son évitement : la liberté peut soumettre le jugement à ce qui est effectivement examiné. Cette distinction justifie le blâme. Le dernier moment explique pourquoi les erreurs demeurent nombreuses : les hommes veulent décider sans peine et sans examen.",
+              "Le premier moment explique la possibilité de l’erreur par le contraste entre l’esprit limité et l’infinité des rapports ; il précise le glissement par lequel l’homme nie ce qu’il ne voit pas. Le deuxième, introduit par « Toutefois », distingue cette possibilité et son évitement : la liberté peut soumettre le jugement à ce qui est effectivement examiné. Cette distinction justifie le blâme et même la punition évoquée : pour l’auteur, on est responsable d’un jugement qu’on pouvait retenir. Le dernier moment explique pourquoi les erreurs demeurent nombreuses : les hommes veulent décider sans peine et sans examen.",
               "Les moments sont désignés par leurs rôles logiques.",
               [
                 [
@@ -1172,8 +1172,8 @@
                   "Deuxième mouvement : l’évitement par la liberté"
                 ],
                 [
-                  "Cette distinction justifie le blâme.",
-                  "La conséquence morale"
+                  "Cette distinction justifie le blâme et même la punition évoquée : pour l’auteur, on est responsable d’un jugement qu’on pouvait retenir.",
+                  "La conséquence morale · expliquer pourquoi l’auteur justifie le blâme et la punition"
                 ],
                 [
                   "Le dernier moment explique pourquoi les erreurs demeurent nombreuses : les hommes veulent décider sans peine et sans examen.",
