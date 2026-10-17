@@ -332,7 +332,7 @@
     const hasSecond=(step.choix||[]).length || (step.manual||[]).length;
     const max=step.correction?3:(hasSecond?2:1);
     const cur=state.help[step.id]||0;
-    const skipEmptyLevel=item.type==="brevet" && !hasSecond && cur===1;
+    const skipEmptyLevel=!hasSecond && cur===1;
     state.help[step.id]=Math.min(max,(structured(step)||skipEmptyLevel)&&cur===1?3:cur+1);
     save();
     renderHelp(step);
