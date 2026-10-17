@@ -38,8 +38,21 @@
     var bar=el('div','c20c-bar');
     var b=el('button','philo-print c20c-toggle',OUVRIR);
     b.type='button';b.setAttribute('aria-controls',view.id);b.setAttribute('aria-expanded','false');
-    var aide=el('p','c20c-aide','Chaque phrase, avec ce qu’elle fait dans la démonstration : ce que le texte installe, le « pourtant », la réponse de chaque partie, les réalisations, les transitions.');
+    var aide=el('p','c20c-aide','Chaque phrase est annotée selon ce qu’elle fait réellement. Une phrase peut réunir plusieurs fonctions : un appui textuel, un procédé et son effet ici.');
     bar.appendChild(b);bar.appendChild(aide);
+    var guide=el('details','c20c-guide');
+    guide.appendChild(el('summary',null,'Comprendre les fonctions'));
+    [
+      'L’introduction présente l’œuvre, puis les éléments de l’extrait qui préparent le problème. La problématique pose une question simple et précise ; le plan annonce les réponses.',
+      'La réponse dit ce que la partie démontre. La nécessité de la réponse explique pourquoi cette idée est indispensable au raisonnement. Entre les parties, une brève question porte sur ce qui reste à expliquer.',
+      'Une réalisation est ce que le texte fait pour construire la réponse, par exemple opposer deux personnages. L’appui textuel est l’élément précis qui le montre ; le procédé explique comment cet élément est construit.',
+      'L’effet ici dit précisément ce que ce choix fait voir, comprendre ou ressentir dans ce passage. Le gain interprétatif dit ce que l’analyse permet de comprendre de plus pour répondre au problème.',
+      'La réalisation n’a pas besoin d’une phrase séparée si l’analyse la rend déjà claire. Chaque partie développe autant de réalisations importantes que sa réponse l’exige ; le manuel aide à les analyser, sans épuiser les possibilités du texte.'
+    ].forEach(function(txt){guide.appendChild(el('p',null,txt));});
+    guide.appendChild(el('p',null,'La conclusion donne la réponse finale et peut en préciser la portée. L’ouverture, facultative, pose une nouvelle question littéraire à partir de ce que cette réponse laisse en suspens. Sa fonction est de prolonger le problème, pas de montrer votre culture.'));
+    var conclusion=el('a',null,'Conclure : réponse, portée et ouverture');
+    conclusion.href='commentaire-bac-conclusion.html';guide.appendChild(conclusion);
+    bar.appendChild(guide);
     var label=art.querySelector(':scope > .label');
     art.insertBefore(bar,label?label.nextSibling:art.firstChild);
     art.appendChild(view);
