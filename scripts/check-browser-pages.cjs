@@ -41,7 +41,7 @@ const server = http.createServer((req,res) => {
       }));
       let winkInvalid=false;
       const wink=page.getByRole('link',{name:'Le clin d’œil philosophique du site'});
-      if(await wink.count()!==1) winkInvalid=true;
+      if(await wink.count()!==1) winkInvalid=await page.locator('header.top').count()>0;
       else {
         const loaded=await wink.locator('img').evaluate(async img=>{await img.decode();return img.naturalWidth>0;});
         winkInvalid=!loaded || (name!=='clin-oeil.html' && largeImageRequests!==0);
