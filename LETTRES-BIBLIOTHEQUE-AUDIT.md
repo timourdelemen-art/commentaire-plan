@@ -1,43 +1,56 @@
-# Lettres : bibliothèque et exercices — 17 octobre 2026
+# Bibliothèque de lettres — format corrigé le 17 octobre 2026
 
-## Résultat et périmètre
+## Demande du propriétaire
 
-27 fiches, 9 œuvres : 18 citations sur 6 œuvres du programme 2026–2027, 9 citations sur 3 œuvres d’archives. Pour chaque fiche : phrase exacte, édition et lien, repère, contexte, réalisation expliquée, construction observable, effet argumenté, fonction dans un raisonnement, limite, exemple original en quatre fonctions. Les exemples ne sont pas des passages tirés des œuvres. Les éditions anciennes sont du domaine public ; les analyses sont originales.
+Une citation brève, son auteur, son œuvre et sa référence ; puis deux rubriques, comme dans la bibliothèque de philosophie. « Dissertation » montre des sujets d’annales précis, la fonction de la citation et le moment du raisonnement où l’employer. « Commentaire » explique littérairement la phrase : réalisation, éléments textuels, construction ou procédé, effet ici. Le propriétaire a rejeté l’empilement de fiches et le mélange de ces deux usages.
 
-La sélection actuelle ne couvre pas les 12 œuvres du programme. Chrétien, Schwarz-Bart, Graffigny dans la version augmentée prescrite, Sarraute, Ponge et Dorion ne font pas l’objet de nouvelles fiches dans ce lot. Aucun texte protégé ou traduction récente n’est reconstitué. La bibliothèque générale de littérature, réservée par la PR 132, reste intacte.
+## Résultat
 
-Six questions officielles, toutes contrôlées dans le PDF du ministère ou d’Éduscol, permettent le rattachement sur Rimbaud, Corneille, Musset, Prévost, Balzac et Rabelais. Pour Zola, La Boétie et Fontenelle, aucun sujet de dissertation générale sur ces œuvres n’a été identifié dans ce relevé : les neuf fiches correspondantes sont explicitement préparatoires, sans annale inventée ou essai technologique réétiqueté.
+27 citations sur 9 œuvres, 12 véritables sujets de dissertation et 45 emplois argumentatifs. Chaque fiche comporte une seule citation courte, puis exactement deux rubriques de contenu, dans l’ordre Dissertation / Commentaire. Les anciens fragments nominaux ont été remplacés par des propositions ou des phrases complètes ; une citation qui forme une seule phrase en plusieurs vers conserve ses retours de ligne.
 
-Deux copies originales supplémentaires : Balzac, monde exténué (Métropole 2023, 23-FRGEME1, sujet B) ; Rabelais, joie de lire (Métropole remplacement 2025, 25-FRGEME3, sujet A). Balzac : 47 phrases, 968 mots, 9 sous-parties en trois parties ; Rabelais : 34 phrases, 756 mots, 6 sous-parties en deux parties. Le texte d’introduction a six fonctions nécessaires, détaillées sur chaque page. Les développements font avancer la réponse ; ils analysent des preuves, sans plan universel à plaquer. Ces copies visent l’excellence : aucun jury ne leur a attribué de note. Le nombre minimal de phrases n’est pas prétendument démontré.
+La navigation suit la bibliothèque de philosophie : index de citations, sélection d’une fiche, un seul lecteur ouvert à la fois, fermeture et retour à l’index. Filtres par œuvre, sujet officiel, emploi, programme et recherche libre. Un filtre de sujet ne montre que les emplois correspondants dans la fiche. Le portail et les deux sources du menu (navigateur / en-tête statique) conduisent directement à la bibliothèque de citations. Les anciennes œuvres et lectures cursives restent accessibles par une entrée secondaire, distincte.
 
-Avec les modèles existants et la première partie de cette PR : 7 dissertations sur 6 œuvres (2 Rimbaud, Corneille, Musset, Prévost, Balzac, Rabelais), 5 modèles d’imagination et 5 de réflexion au brevet. Ce total n’équivaut pas à une couverture de toutes les œuvres actuelles.
+### Origine
 
-## Exercices : vérification pédagogique
+Auteur nommé, œuvre, repère dans le texte, citation exacte, contexte bref. L’édition et le lien vers la source se consultent à la demande. Les divergences des métadonnées Fontenelle et Balzac restent explicites. Le texte de Rabelais vient de l’édition Juste 1535, avec sa graphie et sa numérotation propres ; une transcription abrégée ne sert pas d’intégrale.
 
-18 gestes : 6 par parcours. Niveau 1 : choix expliqué (Solide, Défendable, À revoir) ; niveau 2 : écriture ciblée avec une aide ; niveau 3 : reprise autonome du geste complet sur un second sujet officiel. Soit 18 choix et 36 applications écrites, 54 activités de niveau au total. Le troisième niveau écrit un paragraphe, une introduction ou une conclusion selon le geste ; l’assemblage d’une copie complète fait l’objet du renvoi final aux consignes et grilles.
+### Dissertation
 
-- Imagination : extraire les contraintes, construire un changement, montrer un sentiment, choisir une image, régler le rythme, réviser. Départ et reprise : arrivée réussie (Antilles-Guyane 2025) / aliment poétique (Amérique du Nord 2026). Aucun quota de figures : observation, choix, effet précis.
-- Réflexion : introduction simple, raison, référence située, preuve expliquée, distinction, conclusion. Deux questions d’Amérique du Nord 2026 : embellir le réel / souvenirs heureux ou douloureux. Références précises : Guernica, The Kid, Les Quatre Cents Coups ; pas de réplique de film inventée. Le brevet n’imite pas l’introduction problématisée du lycée.
-- Dissertation : rapport des mots au problème, nécessité de l’introduction, progression des sous-parties, preuve littéraire, transition-question, révision de la réponse. Départ Manon 2026 / reprise Rabelais 2025. Le sujet ouvert Rabelais garde une recherche de raisons ; il n’est pas transformé en oui/non.
+Pour chaque emploi : libellé exact du sujet, citation préalable du sujet lorsqu’elle est indispensable, année, zone, code, PDF officiel ; puis moment précis dans le développement, fonction argumentative, justification, insertion rédigée à consulter, limite de validité, éventuel raccord à la copie complète avec étape nommée.
 
-Parcours effectués : choix plausibles et raisons relus, aides distinctes des propositions de réponse, critères pour relire sa production, comparaison après écriture, reprise sur une autre annale. Réponses solides réparties aux trois positions ; elles sont les plus longues dans 10 séries sur 18, égalités comprises, pas systématiquement. Les textes libres ne sont pas notés automatiquement : les retours portent sur le choix et les critères de relecture. Retour libre, navigation par niveau et par geste, recommencer sans effacer, brouillons conservés localement si le navigateur le permet. Aucun appel au Worker.
+Les six premiers sujets sont complétés par six autres : Rimbaud (écriture pour/contre, centres étrangers 2026), Corneille (suites du mensonge, Polynésie 2025), Musset (jeu de la parole et sincérité, Polynésie 2025), Prévost (seulement la passion, Métropole 2023), Balzac (élan créateur/désir destructeur, Antilles-Guyane 2025), Rabelais (rire de discernement, centres étrangers 2025). Le libellé et les citations qui le précèdent ont été contrôlés dans les PDF du ministère ou d’Éduscol.
 
-## Sources et précision éditoriale
+36 emplois servent de preuve dans l’œuvre du sujet (18 citations, deux emplois chacune). Neuf autres sont des comparaisons, explicitement supplémentaires : Zola avec le tableau social de Balzac ; La Boétie avec les formes de libération chez Rimbaud ; Fontenelle avec les rapports du plaisir et du jugement chez Rabelais. Leur fonction est expliquée et leur limite rappelle de revenir à l’œuvre du sujet. Aucune influence n’est inventée et une autre œuvre ne remplace pas une preuve dans l’œuvre étudiée.
 
-Le registre scripts/lettres-sources.json identifie œuvres, éditions, liens et sujets. scripts/lettres-verification.json garde 41 extraits de consultation, espaces et apostrophes harmonisés, pas une transcription intégrale. Contrôle littéral automatique de chaque citation et de chaque question officielle contre ces traces ; les interprétations et les contextes sont relus séparément. Les variantes des éditions ne sont pas dissimulées.
+Aucune dissertation officielle sur Zola, La Boétie ou Fontenelle n’est inventée dans ce lot. Les essais technologiques ne sont pas présentés comme des dissertations générales. Les neuf fiches auparavant simplement préparatoires ont maintenant un véritable emploi de comparaison, situé dans un sujet réel ; elles peuvent être écartées avec le filtre « Preuve dans l’œuvre du sujet ».
 
-Rabelais : édition François Juste, 1535, graphie conservée ; les numéros de chapitre diffèrent des éditions ultérieures (torchecul XII ; nouvelle éducation XXI–XXII). La transcription Clouzot 1913, abrégée et dépourvue du prologue dans la page consultée, n’est pas présentée comme l’intégrale et n’est pas la source des citations retenues.
+### Commentaire
 
-Fontenelle : page de titre M. DCCC et métadonnée Leroy 1800, malgré un fichier de fac-similé nommé 1820 ; divergence indiquée sur les fiches. Balzac : texte classé Houssiaux 1855, fichier du fac-similé étiqueté 1874 ; divergence également signalée. Musset : l’édition consultée est Clarendon Press 1884, pas Charpentier.
+Un paragraphe continu original de quatre phrases, et non un argument de dissertation réétiqueté. La fonction de chaque phrase peut être affichée ou masquée sans changer le texte : réalisation, éléments textuels, construction / procédé, effet ici. Les 108 phrases sont rédigées pour leurs passages respectifs. Les observations portent sur des mots ou des rapports identifiables ; aucun effet automatique n’est attribué à une figure.
+
+Exemple Prévost : le cœur se rendrait coupable d’accuser Manon ; ce déplacement de la faute protège l’illusion et permet au lecteur de reconnaître un refus affectif de voir. L’analyse ne se contente ni de nommer une figure ni de conclure que la phrase « fait ressentir une émotion ». Elle explique le rapport entre les mots, l’action du narrateur et la position possible du lecteur.
+
+## Sources et maintenance
+
+- Source du corpus : lettres-dissertation-data.js. Les exercices existants restent dans ce registre et leurs données ne sont pas modifiées par la refonte.
+- Génération de l’HTML : node scripts/build-lettres-library.cjs ; contrôle sans réécriture avec --check. Le HTML généré est suivi dans Git et reste lisible sans JavaScript. Aucun changement à la commande Netlify, réservée par la PR 132.
+- Registre : scripts/lettres-sources.json ; traces de vérification initiales, annales supplémentaires et citations de remplacement dans scripts/lettres-verification.json, scripts/lettres-annales-verification.json et scripts/lettres-citations-revision.json.
+- Ces traces ne sont ni une transcription intégrale des œuvres ni une validation mécanique des interprétations ; les emplois et les commentaires font l’objet d’une relecture pédagogique distincte.
 
 ## Contrôles
 
-- Build complet dans /tmp/lettres-build-1vjkdzox : réussi ; 300 pages, contrôle global 0 erreur / 21 avertissements, parcours philo OK ; SEO 0 erreur / 1 avertissement.
-- Budgets : les deux alertes de philosophie-banque.html (HTML et JavaScript) préexistaient ; pas de nouvel appel global aux données de lettres. Les pages ajoutées restent autonomes et légères.
-- scripts/check-lettres.cjs : données, nombre de fiches et de gestes, 27 citations, 6 questions officielles et citations des 2 modèles ; liens locaux et ancres ; navigateur 390/1280 : filtres par chacune des 9 œuvres, actuel/archives, recherche insensible aux accents, zéro résultat, reset ; 18 gestes × 3 niveaux, trois états de réponse, aides et comparaisons, écriture, navigation, conservation et recharge des brouillons ; annotations qui ne modifient pas la copie ; absence d’erreur JS et de débordement ; corpus et niveaux accessibles sans JavaScript.
-- scripts/check-modeles-redaction.cjs sur la version construite : les 5 modèles de la première livraison restent conformes, aux deux largeurs.
-- Les liens externes de sources sont contrôlés par consultation documentaire ; aucun test ne prétend vérifier automatiquement la validité d’une interprétation littéraire.
+Build complet dans /tmp/lettres-refonte-build-so427duz : 300 pages, contrôle global 0 erreur / 21 avertissements ; parcours philosophie OK ; SEO 0 erreur / 1 avertissement. Les deux alertes de performance de philosophie-banque.html sont préexistantes. Le nouvel HTML de bibliothèque est d’environ 154 Ko ; les données de lettres ne sont pas chargées globalement dans le navigateur.
 
-## Choix maintenus
+scripts/check-lettres.cjs contrôle les 27 citations, les 12 questions et leurs citations préalables, les 45 emplois et les 108 phrases de commentaire. Au navigateur à 390 et 1280 px : ouverture et fermeture des 27 fiches, unicité du lecteur visible, source / citation / deux rubriques, insertions rédigées, fonctions sans modification du paragraphe, tous les filtres de sujets et d’œuvres, preuve / comparaison, actuel / archives, recherche avec ou sans accents, zéro résultat, remise à zéro, lien direct par fragment, liens internes et ancres, absence de débordement et d’erreur JavaScript. Le corpus reste accessible sans JavaScript.
 
-Aucune décision de tarification, aucun blocage d’accès, aucun changement de vente. Pas de modification du Worker, du menu général ni du build réservé par un autre chantier. Les nouveaux chemins sont reliés depuis les méthodes, modèles, l’entrée dissertation et le portail Bibliothèque. Les sources HTML restent lisibles sans JavaScript ; les scripts apportent les filtres et la progression.
+Le même contrôle parcourt aussi les 18 gestes et leurs 36 zones d’écriture : choix justifiés, aides, comparaisons, niveaux libres, navigation, reprise sur une seconde annale, sauvegarde et recharge des brouillons. Les deux modèles Balzac et Rabelais restent annotables sans altération du texte. Les 18 gestes / 54 activités de niveau ne sont pas renommés en 54 rédactions complètes.
+
+## Périmètre conservé
+
+Les modèles de la première livraison, les deux dissertations supplémentaires et les exercices restent dans ce lot. Au total du site avec ce lot : sept dissertations modèles sur six œuvres, cinq imaginations et cinq réflexions au brevet. Les copies visent l’excellence ; aucun jury ne leur a attribué de note et aucun minimum universel de phrases n’est démontré.
+
+La sélection couvre six des douze œuvres actuelles et trois œuvres d’archives. Elle ne devient pas une couverture intégrale du programme. Aucun prix, paywall ou choix gratuit/payant n’est ajouté. Le Worker et les fichiers réservés des PR 132 et 147 restent inchangés.
+
+## Leçon de cette correction
+
+Un regroupement « procédé / effet » suivi d’un paragraphe à usage indifférencié ne répond pas à une demande de bibliothèque de citations. Partir de la citation et conserver deux lectures rédigées et distinctes : emploi dans un sujet réel, puis commentaire du texte lui-même. Le menu principal doit conduire à ce parcours, avec les lectures cursives clairement séparées.
