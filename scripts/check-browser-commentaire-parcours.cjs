@@ -123,7 +123,7 @@ async function check(root){
    await page.locator('.diss-sujet:visible .diss-compare').click();assert((await page.locator('.diss-sujet:visible .diss-fbm').innerText()).includes('Le problème'));
    for(const id of Object.keys(catalogue).filter(id=>catalogue[id].type==='bac-commentaire')){
     await page.goto(base+'annales/entrainement-annale.html?id='+id+'&mode=targeted&step=attente');
-    assert((await page.locator('#stepTitle').innerText()).includes('Y :'));
+    assert(/Y\s*:/u.test(await page.locator('#stepTitle').innerText()),id);
     await page.locator('#studentAnswer').fill('Une lecture justifiée du texte '+id);await page.locator('#saveNext').click();
     await page.reload();assert.equal(await page.locator('#studentAnswer').inputValue(),'Une lecture justifiée du texte '+id);
     assert((await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth))<=1,id);
