@@ -2,6 +2,8 @@
 const fs=require('node:fs'),path=require('node:path'),http=require('node:http'),assert=require('node:assert/strict');
 const {chromium}=require('playwright');const {displayQuote,quoteNote}=require('../philosophie-banque.js');const root=path.resolve(process.argv[2]||'.');
 const data=JSON.parse(fs.readFileSync(path.join(__dirname,'philo-banque-data.json'),'utf8'));
+// The site build adds French non-breaking spaces in the static catalogue.
+const typography=s=>s.replace(/\s+/g,' ').replace(/ ?([;:?!])/g,'$1').replace(/« /g,'«').replace(/ »/g,'»');
 const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript','.css':'text/css','.svg':'image/svg+xml','.json':'application/json','.png':'image/png','.jpg':'image/jpeg','.woff2':'font/woff2'};
 const server=http.createServer((req,res)=>{const p=decodeURIComponent(new URL(req.url,'http://localhost').pathname),f=path.resolve(root,'.'+(p==='/'?'/index.html':p));if(!f.startsWith(root+path.sep)){res.writeHead(403).end();return;}fs.readFile(f,(err,b)=>{if(err){res.writeHead(404).end('Not found');return;}res.writeHead(200,{'Content-Type':mime[path.extname(f)]||'application/octet-stream'});res.end(b);});});
 (async()=>{
@@ -65,7 +67,7 @@ const server=http.createServer((req,res)=>{const p=decodeURIComponent(new URL(re
   assert.deepEqual(errors,[]);
   if(process.env.PHILO_SCREENSHOT_DIR){fs.mkdirSync(process.env.PHILO_SCREENSHOT_DIR,{recursive:true});await page.goto(base+'philosophie-banque.html?fiche=baudelaire-nature-et-signes');await page.locator('.bank-edition summary').click();await page.locator('#bank-reader').scrollIntoViewIfNeeded();await page.screenshot({path:path.join(process.env.PHILO_SCREENSHOT_DIR,'bank-'+width+'.png')});}
   await context.close();
-  const nojs=await browser.newContext({javaScriptEnabled:false,viewport:{width,height:900}}),p=await nojs.newPage();await p.goto(base+'philosophie-banque.html');assert.equal(await p.locator('.bank-static details').count(),246);for(const e of data.entries){assert.equal(await p.locator('#citation-'+e.id+' blockquote strong').textContent(),'« '+displayQuote(e)+' »');if(quoteNote(e))assert((await p.locator('#citation-'+e.id).textContent()).includes(quoteNote(e)));}await p.locator('.bank-static details').first().locator('summary').click();assert(await p.locator('.bank-static blockquote').first().isVisible());assert(await p.locator('#bank-controls').isHidden());await nojs.close();
+  const nojs=await browser.newContext({javaScriptEnabled:false,viewport:{width,height:900}}),p=await nojs.newPage();await p.goto(base+'philosophie-banque.html');assert.equal(await p.locator('.bank-static details').count(),246);for(const e of data.entries){assert.equal(typography(await p.locator('#citation-'+e.id+' blockquote strong').textContent()),typography('« '+displayQuote(e)+' »'));if(quoteNote(e))assert((await p.locator('#citation-'+e.id).textContent()).includes(quoteNote(e)));}await p.locator('.bank-static details').first().locator('summary').click();assert(await p.locator('.bank-static blockquote').first().isVisible());assert(await p.locator('#bank-controls').isHidden());await nojs.close();
   console.log('OK',width,'— 246 fiches, 2 lectures, filtres, annotations, A20, anciens liens, rechargement, sans JavaScript.');
  }}finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;}).finally(()=>server.close());

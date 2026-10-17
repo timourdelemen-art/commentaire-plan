@@ -37,6 +37,6 @@ Le générateur statique, les aperçus et le lecteur interactif utilisent les m�
 - Génération, fraîcheur des sorties, cohérence des empreintes, test métier, syntaxe et `git diff --check` : réussis.
 - Build complet dans une copie jetable : réussi ; contrôles globaux, parcours et SEO sans nouvelle erreur.
 - La limite de poids de la banque reste dépassée (environ 586 Kio HTML et 604 Kio de JS local chargé selon le contrôle). Cette correction éditoriale ne réalise pas la refonte du chargement à la demande et ne modifie aucun seuil pour masquer la limite.
-- Navigateur : validation à effectuer par les workflows de PR, Chromium étant absent de l’environnement local. Les captures des deux largeurs sont archivées par le workflow de la banque.
+- Navigateur : validation par les workflows de PR, Chromium étant absent de l’environnement local. Les captures des deux largeurs sont archivées par le workflow de la banque.
 
 La vérification pédagogique porte sur l’argument effectivement rédigé, la distinction des concepts et le raccord au libellé précis du sujet. Aucun exercice nouveau n’est ajouté.
