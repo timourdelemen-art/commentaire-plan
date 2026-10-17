@@ -78,9 +78,9 @@
     });
     box.querySelector('[data-annotations]').addEventListener('click', function () {
       var hidden = this.getAttribute('aria-pressed') === 'true';
-      box.querySelectorAll('.ecrire-copy').forEach(function (copy) { copy.classList.toggle('sans-annotations', hidden); });
+      box.querySelectorAll('.ecrire-copy').forEach(function (copy) { copy.classList.toggle('sans-annotations', hidden); copy.classList.toggle('c20-plain', hidden); });
       this.setAttribute('aria-pressed', String(!hidden));
-      this.textContent = hidden ? 'Afficher les annotations' : 'Masquer les annotations';
+      this.textContent = hidden ? 'Afficher les fonctions' : 'Masquer les fonctions';
     });
     showLevel(1); showStep(0);
   });

@@ -31,3 +31,12 @@
 .ecrire a,.ecrire p,.ecrire li,.ecrire h2,.ecrire h3,.ecrire h4{overflow-wrap:anywhere}
 @media(max-width:700px){.ecrire .ecrire-row,.ecrire .ecrire-bank{grid-template-columns:minmax(0,1fr)}.ecrire .ecrire-row{gap:.5rem}.ecrire .ecrire-annotation{margin-bottom:.8rem}.ecrire th,.ecrire td{padding:.5rem;font-size:.9rem}}
 @media print{.ecrire button,.ecrire nav,.ecrire textarea,.ecrire-storage{display:none!important}.ecrire .ecrire-row{break-inside:avoid}}
+
+/* === Fonctions de chaque phrase et ateliers des annales === */
+.ecrire .ecrire-copy .c20-t{font-size:18px;overflow-wrap:anywhere}
+.ecrire .ecrire-copy .c20-f{overflow-wrap:anywhere}
+.ecrire .ecrire-copy.c20-plain .c20-h{display:none}
+.ecrire .ecrire-copy.c20-plain .c20-block{line-height:1.75}
+.ecrire .ecrire-drill{padding:1rem 0;border-top:1px dotted var(--rule)}
+.ecrire .ecrire-drill blockquote{margin:1rem 0;padding:.7rem 1rem;border-left:3px solid var(--red);font-size:1rem}
+@media(max-width:700px){.ecrire .ecrire-copy .c20-s{grid-template-columns:minmax(0,1fr)}}
