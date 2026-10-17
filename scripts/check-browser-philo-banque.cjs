@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const fs=require('node:fs'),path=require('node:path'),http=require('node:http'),assert=require('node:assert/strict');
-const {chromium}=require('playwright');const root=path.resolve(process.argv[2]||'.');
+const {chromium}=require('playwright');const {displayQuote,quoteNote}=require('../philosophie-banque.js');const root=path.resolve(process.argv[2]||'.');
 const data=JSON.parse(fs.readFileSync(path.join(__dirname,'philo-banque-data.json'),'utf8'));
 const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript','.css':'text/css','.svg':'image/svg+xml','.json':'application/json','.png':'image/png','.jpg':'image/jpeg','.woff2':'font/woff2'};
 const server=http.createServer((req,res)=>{const p=decodeURIComponent(new URL(req.url,'http://localhost').pathname),f=path.resolve(root,'.'+(p==='/'?'/index.html':p));if(!f.startsWith(root+path.sep)){res.writeHead(403).end();return;}fs.readFile(f,(err,b)=>{if(err){res.writeHead(404).end('Not found');return;}res.writeHead(200,{'Content-Type':mime[path.extname(f)]||'application/octet-stream'});res.end(b);});});
@@ -38,8 +38,10 @@ const server=http.createServer((req,res)=>{const p=decodeURIComponent(new URL(re
   for(const e of data.entries){
    await page.locator('[data-open="'+e.id+'"]').dispatchEvent('click');
    if(e.author==='Cioran'){assert((await page.locator('#bank-reference').textContent()).includes('Écrivain et penseur'));await page.locator('.bank-edition summary').click();assert((await page.locator('.bank-edition').innerText()).includes('Texte original français'));assert(!(await page.locator('.bank-edition').innerText()).includes('à préciser'));}
-   assert.equal(await page.locator('.bank-quote strong').textContent(),'« '+e.quote+' »');
+   assert.equal(await page.locator('.bank-quote strong').textContent(),'« '+displayQuote(e)+' »');
+   assert.equal(await page.locator('.bank-card').filter({has:page.locator('[data-open="'+e.id+'"]')}).locator('.bank-preview').textContent(),'« '+displayQuote(e)+' »');
    assert.equal(await page.locator('.bank-use').count(),e.uses.length);
+   if(quoteNote(e)){await page.locator('.bank-edition summary').click();assert((await page.locator('.bank-edition').innerText()).includes(quoteNote(e)));}
    assert.deepEqual(await page.locator('.bank-sentence-text').allTextContents(),e.commentary.map(c=>c.sentence));
    const before=await page.locator('.bank-sentence-text').allTextContents();await page.locator('#toggle-functions').dispatchEvent('click');
    assert.deepEqual(await page.locator('.bank-sentence-text').allTextContents(),before);await page.locator('#toggle-functions').dispatchEvent('click');
@@ -61,9 +63,9 @@ const server=http.createServer((req,res)=>{const p=decodeURIComponent(new URL(re
   await page.goto(base+'philosophie-banque.html?fiche=platon-caverne');assert((await page.locator('#bank-message').textContent()).includes('retirée'));assert(await page.locator('#bank-reader').isHidden());
   await page.goto(base+'philosophie-banque.html?query=%3Cimg%20src%3Dx%20onerror%3Dalert(1)%3E');assert.equal(await page.locator('#bank-results img').count(),0);
   assert.deepEqual(errors,[]);
-  if(process.env.PHILO_SCREENSHOT_DIR){fs.mkdirSync(process.env.PHILO_SCREENSHOT_DIR,{recursive:true});await page.goto(base+'philosophie-banque.html?fiche='+data.entries.find(e=>e.code===(width===390?'RC13':'RR09')).id);await page.screenshot({path:path.join(process.env.PHILO_SCREENSHOT_DIR,'bank-'+width+'.png'),fullPage:true});}
+  if(process.env.PHILO_SCREENSHOT_DIR){fs.mkdirSync(process.env.PHILO_SCREENSHOT_DIR,{recursive:true});await page.goto(base+'philosophie-banque.html?fiche=baudelaire-nature-et-signes');await page.locator('.bank-edition summary').click();await page.locator('#bank-reader').scrollIntoViewIfNeeded();await page.screenshot({path:path.join(process.env.PHILO_SCREENSHOT_DIR,'bank-'+width+'.png')});}
   await context.close();
-  const nojs=await browser.newContext({javaScriptEnabled:false,viewport:{width,height:900}}),p=await nojs.newPage();await p.goto(base+'philosophie-banque.html');assert.equal(await p.locator('.bank-static details').count(),246);await p.locator('.bank-static details').first().locator('summary').click();assert(await p.locator('.bank-static blockquote').first().isVisible());assert(await p.locator('#bank-controls').isHidden());await nojs.close();
+  const nojs=await browser.newContext({javaScriptEnabled:false,viewport:{width,height:900}}),p=await nojs.newPage();await p.goto(base+'philosophie-banque.html');assert.equal(await p.locator('.bank-static details').count(),246);for(const e of data.entries){assert.equal(await p.locator('#citation-'+e.id+' blockquote strong').textContent(),'« '+displayQuote(e)+' »');if(quoteNote(e))assert((await p.locator('#citation-'+e.id).textContent()).includes(quoteNote(e)));}await p.locator('.bank-static details').first().locator('summary').click();assert(await p.locator('.bank-static blockquote').first().isVisible());assert(await p.locator('#bank-controls').isHidden());await nojs.close();
   console.log('OK',width,'— 246 fiches, 2 lectures, filtres, annotations, A20, anciens liens, rechargement, sans JavaScript.');
  }}finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;}).finally(()=>server.close());

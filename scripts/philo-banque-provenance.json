@@ -215,10 +215,10 @@
       "code": "P11",
       "author": "Platon",
       "locator": "275d",
-      "source_location": "EPUB fourni, OEBPS/p34chap1.html",
+      "source_location": "EPUB fourni, OEBPS/p34chap1.html, Phèdre 275d, interrogation des discours écrits",
       "quotation_verified": true,
-      "verification": "Comparaison au texte extrait du livre fourni ; espaces et renvois de notes normalisés.",
-      "quote_sha256": "e5119b0f52b70ce5ba21e2b9920588215622f3ebac9d1e3d082e88dd9f5e8dac",
+      "verification": "17 octobre 2026 : remplacement après relecture du passage dans l’EPUB fourni ; extrait retrouvé mot pour mot, espaces normalisés, contexte précédent et suivant contrôlé.",
+      "quote_sha256": "88b497f4ee44c653ebb220d0d9ae9bbb7123b189e06c7016f33920179caafceb",
       "translator_status": "not-attributed"
     },
     {
@@ -2227,10 +2227,10 @@
       "code": "F03",
       "author": "Freud",
       "locator": "Les limites du modèle (1925)",
-      "source_location": "EPUB fourni, OPS/chap3.xhtml, paragraphe 10",
+      "source_location": "EPUB fourni, OPS/chap3.xhtml, paragraphe commençant par « Nous ne devons pas nous laisser perturber » ; limite de la reproduction intérieure",
       "quotation_verified": true,
-      "verification": "Comparaison mot pour mot au volume fourni ; espaces normalisés et seuls appels de notes retirés ; phrase et contexte relus.",
-      "quote_sha256": "bf7c722f0a778a4f725911208e8057eb7180313013502cbc1fdb81e5f30a79b8",
+      "verification": "17 octobre 2026 : remplacement après relecture du passage dans l’EPUB fourni ; extrait retrouvé mot pour mot, espaces normalisés, contexte précédent et suivant contrôlé.",
+      "quote_sha256": "defe0312fcba96a42c6fea4efa8c8de67b8aa0937c46961036188eb4f9351ae1",
       "translator_status": "identified"
     },
     {
