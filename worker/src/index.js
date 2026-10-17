@@ -1,3 +1,4 @@
+import { analyzeFailure } from './analyze-failure.js';
 import { generatePhilosophicalDissertation } from './philo-dissertation-route.js';
 import { THIRD_PART_REVIEW, RESIDUAL_REVIEW, CONCLUSION_REVIEW } from './philo-resolution-policy.js';
 const ALLOWED_ORIGINS = new Set([
@@ -181,7 +182,7 @@ function extractOutputText(data) {
 const PHILO_KIND = /^philo-[a-z-]{2,30}$/;
 
 const PHILO_CRITERIA = {
-  "philo-reponse": "Trois temps attendus : une première réponse au sujet en une phrase qui reprend ses mots, au choix de l'élève : oui, non (éventuellement nuancé par les petits mots du sujet, par exemple « pas toujours »), ou une phrase qui montre que la question est mal posée ; les trois formes sont justes, rien de plus n'est demandé, ne pas exiger de justification ; le petit mot du sujet qui change la question (peut-on, faut-il, suffit-il, sans…) et ce qu'il change (par exemple : « peut-on » demande-t-il si c'est possible ou si c'est permis ?) ; puis la phrase « Au premier abord, on répondrait…, mais… » qui montre que la première réponse ne suffit plus. Vérifier surtout que la lecture des mots fait vaciller la première réponse ; c'est le but de l'exercice.",
+  "philo-reponse": "Évaluer seulement les tâches et les formulations demandées par la consigne visible et son critère local. Pour la première réponse : accepter oui, non éventuellement nuancé par les petits mots du sujet, ou une remise en question argumentée de la question ; ne pas imposer une réponse affirmative. Examiner ensuite uniquement les étapes effectivement demandées (exemple, petit mot, phrase à compléter). Ne jamais exiger la formule « Au premier abord…, mais… » si elle ne figure pas dans la consigne. Une réponse juste dans ses propres mots est recevable ; ne pas inventer de manque.",
   "philo-consequence": "L'élève donne deux choses que la notion principale demande à la fois, dans son sens courant, sans définition d'auteur, et dit pourquoi elles se gênent. Vérifier qu'il y a bien deux exigences, et une tension réelle entre elles, pas deux synonymes.",
   "philo-cout": "L'élève pousse chaque réponse (oui / non) jusqu'au bout et dit ce que chacune perd. Les DEUX réponses doivent perdre quelque chose d'important, et la perte doit venir de la réponse elle-même poussée jusqu'au bout, pas d'une objection extérieure. Si une seule réponse perd quelque chose, c'est le manque principal.",
   "philo-problematique": "Appliquer le test du gant, et ne signaler que le premier point qui échoue : 1. aucun doigt ne manque (chaque mot important du sujet travaille dans la question) ; 2. aucun doigt en trop (pas de NOTION ajoutée que le sujet ne contient pas, comme l'État ou le bonheur dans un sujet qui n'en parle pas ; remplacer une notion du sujet par l'un de ses cas particuliers — la promesse au lieu de l'engagement — rétrécit le sujet : défaut léger, diagnostic partiel ; un mot qui radicalise une réponse (« tout engagement ») ou une image placée à côté du terme général ne sont pas des défauts) ; 3. les deux réponses restent ouvertes (chacune perd quelque chose ; pas de question rhétorique du type « comment pourrait-on… si… » ou « … puisque… ») ; 4. on reconnaît le sujet sans qu'il soit recopié ; 5. d'une traite : une seule question, une trentaine de mots au plus, pas une cascade de questions ; 6. elle donne le plan : on y lit la première réponse et ce qu'elle perd (partie I), la réponse contraire et ce qu'elle perd (partie II) ; elle ne doit PAS annoncer ni contenir la solution de la troisième partie. Si les six points passent, le diagnostic est « acquis » : ne fabrique pas de manque. Une problématique qui oppose deux définitions ou deux thèmes plaqués n'est pas un problème.",
@@ -666,14 +667,17 @@ Réponds UNIQUEMENT par un objet JSON valide, sans markdown, avec exactement :
         body: JSON.stringify(payload)
       });
     } catch {
-      return json({ ok: false, error: "Le moteur IA ne répond pas." }, 502, origin);
+      return json({ ok: false, code: "ai_connection", error: "Le service de correction ne répond pas. Réessayez dans quelques instants." }, 502, origin);
     }
 
     if (!apiResponse.ok) {
-      return json({ ok: false, error: "Le moteur IA a refusé la requête." }, 502, origin);
+      const failure = await analyzeFailure(apiResponse);
+      return json({ ok: false, ...failure }, 502, origin);
     }
 
-    const data = await apiResponse.json();
+    let data;
+    try { data = await apiResponse.json(); }
+    catch { return json({ ok: false, code: "ai_invalid_response", error: "La correction reçue est illisible. Réessayez : votre réponse est conservée." }, 502, origin); }
     const raw = extractOutputText(data);
 
     let parsed = null;
@@ -689,12 +693,10 @@ Réponds UNIQUEMENT par un objet JSON valide, sans markdown, avec exactement :
       }, 422, origin);
     }
 
-    const feedback = validateFeedback(parsed) || (spec.philo ? {
-      diagnostic: "à reprendre",
-      point_acquis: "Aucun acquis ne peut être confirmé automatiquement sur cette réponse.",
-      manque_principal: PHILO_FALLBACK[1],
-      question_suivante: PHILO_FALLBACK[2]
-    } : safeFallback(spec.kind));
+    const feedback = validateFeedback(parsed);
+    if (!feedback) {
+      return json({ ok: false, code: "ai_invalid_response", error: "La correction reçue est incomplète. Réessayez : votre réponse est conservée." }, 502, origin);
+    }
 
     return json({
       ok: true,
