@@ -1,54 +1,18 @@
-# Théorie du commentaire littéraire — référentiel canonique du site
+# Commentaire littéraire - référence du 17 octobre 2026
 
-## Principe directeur
+Le commentaire montre ce que l’écriture fait de ce qu’elle met en scène.
 
-Le commentaire littéraire ne consiste pas à accumuler des procédés. Il reconstruit ce que le texte fait d’un donné et montre comment l’écriture produit une transformation interprétable.
+X désigne la configuration précise du passage, forme et voix comprises lorsqu’elles sont structurantes. Y désigne une réalisation littéraire : une compréhension, une relation ou une expérience construite par cette écriture. Comment demande d’en expliquer les opérations attestées.
 
-Schéma de fond :
+Le renversement, l’attente contrariée et le changement chronologique ne sont pas obligatoires. Une permanence, un approfondissement, une intensification, une contradiction maintenue ou une expérience sensible peuvent organiser le passage. Ni X ni Y ne désignent mécaniquement début et fin.
 
-**DONNÉ → LOGIQUE / ATTENTE → TRANSFORMATION → PROBLÉMATIQUE → RÉPONSES NÉCESSAIRES → RÉALISATIONS → ÉLÉMENTS TEXTUELS → PROCÉDÉS UTILES → EFFETS**
+Côté élève : « Que présente le texte ? Qu’en fait comprendre ou éprouver son écriture ? Comment y parvient-elle ? » Vérifier Y avec des éléments précis avant de poser une question. Les lettres restent des repères de brouillon.
 
-Ce schéma est un outil de construction du raisonnement, jamais une grille à plaquer mécaniquement sur tous les textes.
+Contrôles : ancrage dans le passage, gain interprétatif, couverture du texte et de ses résistances, singularité de la forme, effet local démontré. Aucune assimilation d’un nom de procédé à une interprétation.
 
-## 1. Entrer dans le texte
+Le dynamisme est dans le raisonnement du commentaire, pas obligatoirement dans l’action représentée. X / comment / Y ne forment pas un plan en trois parties. Chaque partie établit un aspect de la lecture ; chaque sous-partie prouve une avancée distincte. Les transitions relient les acquis à ce qui reste à expliquer.
 
-Deux questions simples :
-1. **Qu’est-ce que le texte met en place ?**
-2. **Qu’est-ce que cela nous fait attendre ?**
-
-Le donné n’est ni un résumé du début, ni une liste d’informations, ni un inventaire de procédés. Il constitue la configuration que le texte prend en charge.
-
-Les attentes servent à rendre visible l’écart produit par le texte. Elles ne deviennent pas nécessairement une partie du commentaire.
-
-## 2. Identifier la transformation
-
-Question centrale :
-
-**Qu’est-ce que le texte fait de ce donné ?**
-
-La transformation peut porter sur une situation, une valeur, une relation, une identité, une perception, un rapport de pouvoir, une forme ou une manière de comprendre le monde.
-
-Elle n’est pas nécessairement chronologique.
-
-Formule élève (décision du 10 octobre 2026), la seule employée sur les pages élèves :
-
-**On pouvait attendre X. Pourtant, le texte produit Y. Comment comprendre que… ?**
-
-« Transformation », « donné » et « attente » restent des termes de ce document ; sur une page élève, on dit « ce que le texte installe », « on pouvait attendre », « pourtant ». Le pourtant n'exige pas un renversement spectaculaire : il peut signaler une complication, une intensification ou une résistance. S'il ne fonctionne pas, l'élève n'a pas encore trouvé ce qui pose problème ; il ne doit pas en fabriquer un.
-
-La problématique naît de cet écart réel.
-
-## 3. La problématique
-
-La problématique n’est pas une question ajoutée artificiellement.
-
-Elle formule la difficulté interprétative créée par la transformation.
-
-La problématique est une question simple, précise et efficace qui saisit l’unité du texte. La complexité de l’analyse préparatoire ne doit pas alourdir sa formulation. Elle conserve le problème singulier et ne fournit pas sa réponse.
-
-Formes simples : « Comment [l'auteur] fait-il de X Y ? », « Comment comprendre que… ? ». On évite « Comment le texte transforme-t-il… ? » sur les pages élèves.
-
-La formulation exacte varie avec le texte.
+L’audit des 61 sujets est conservé hors du dépôt et n’est pas publié. Cette version remplace les prescriptions antérieures d’attente obligatoire.
 
 ## 4. Une grande partie = une réponse nécessaire
 
@@ -189,7 +153,7 @@ Le protocole est un instrument de raisonnement, non un substitut au texte.
 Les cinq questions ne sont pas un formulaire.
 Les typologies ne sont pas des listes à remplir.
 Le nombre de parties n’est pas une norme intangible.
-La transformation n’est pas forcément chronologique.
+Un changement n’est pas obligatoire ; la réalisation ne se confond pas avec un état final.
 Un cas nouveau doit être compris dans sa singularité avant d’être rapporté au modèle.
 
 
@@ -201,8 +165,7 @@ Les annotations décrivent la fonction réelle de la phrase rédigée. Elles res
 
 - Présentation de l’œuvre : les références et le contexte utiles.
 - Présentation de l’extrait : une ou deux phrases choisissent les éléments précis qui préparent le problème. Une même phrase peut présenter l’œuvre et l’extrait.
-- Ce qu’on pouvait attendre : une attente fondée sur le texte, sa forme et ses conventions, jamais fabriquée pour obtenir une opposition.
-- Ce que le texte produit : le résultat singulier qui appelle une explication.
+- Ce que l’écriture fait apparaître : la réalisation Y qui appelle l’analyse de ses moyens. Une même phrase peut préparer X et Y sans dédoubler artificiellement l’introduction.
 - Problématique : une question simple et efficace.
 - Annonce des réponses : la progression du raisonnement.
 

@@ -3,9 +3,10 @@
 const fs=require('node:fs'),path=require('node:path'),http=require('node:http'),assert=require('node:assert/strict'),vm=require('node:vm');
 const {chromium}=require('playwright');
 async function check(root){
- root=path.resolve(root);const captures=path.join(root,'browser-audit');fs.mkdirSync(captures,{recursive:true});
+ root=path.resolve(root);require('node:child_process').execFileSync(process.execPath,[path.join(__dirname,'check-commentaire-xy.js'),root],{stdio:'inherit'});const captures=path.join(root,'browser-audit');fs.mkdirSync(captures,{recursive:true});
  const ctx={window:{}};vm.createContext(ctx);vm.runInContext(fs.readFileSync(path.join(root,'annales/catalogue-annales.js'),'utf8'),ctx);
  const catalogue=ctx.window.ANNALES_CATALOGUE;
+ const chainCtx={window:{}};vm.runInNewContext(fs.readFileSync(path.join(root,'commentaire-chaine-data.js'),'utf8'),chainCtx);const textes=chainCtx.window.COMMENTAIRE_CHAINE.textes;
  const sourceIds=['bac-2025-asie-general-commentaire-apollinaire-mesange','bac-2024-centre-etranger-general-commentaire-aragon-elsa-au-miroir','bac-2022-metropole-general-commentaire-sylvie-germain-jours-de-colere','bac-2022-amerique-du-nord-general-commentaire-musset-lorenzaccio','bac-2021-metropole-general-commentaire-larbaud-ancienne-gare-cahors'];
  const subjects=Object.values(catalogue).filter(x=>x.type==='bac-commentaire');
  assert.equal(subjects.length,13);
@@ -70,6 +71,70 @@ async function check(root){
    const cardText=await aragon.innerText();
    assert(cardText.includes('2020'),cardText);assert(!cardText.includes('2024'));
    assert((await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth))<=1);assert.deepEqual(errors,[]);assert.deepEqual(posts,[]);
+   // Nouvelle méthode : l’élève accomplit X, Y puis l’analyse, aux trois niveaux.
+   for(const texte of textes){
+    for(const niveau of [1,2]){
+     await page.goto(base+'commentaire-pas-a-pas.html?texte='+texte.id+'&niveau='+niveau);
+     for(const [index,etape] of texte.etapes.entries()){
+      const solide=etape.o.findIndex(o=>o[1]==='ok');
+      if(niveau===2&&etape.w2){
+       if(etape.k==='lecture'){
+        await page.locator('.comm-compare').click();assert((await page.locator('#comm-app .chaine-fb').innerText()).includes('Écrivez d’abord'));
+       }
+       await page.locator('#comm-w').fill(etape.o[solide][0]);await page.locator('.comm-compare').click();
+       assert((await page.locator('#comm-app .chaine-fb').innerText()).includes('Une réponse possible'));
+       await page.locator('.comm-yes').click();
+      }else{
+       if(etape.k==='lecture'&&niveau===1){
+        await page.locator('.chaine-opt[data-k="'+etape.o.findIndex(o=>o[1]==='no')+'"]').click();assert((await page.locator('#comm-app .chaine-fb').innerText()).includes('À revoir'));
+       }
+       await page.locator('.chaine-opt[data-k="'+solide+'"]').click();await page.locator('.comm-next').click();
+      }
+     }
+     assert((await page.locator('#comm-app').innerText()).includes('Votre plan est construit.'));
+     assert((await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth))<=1);
+    }
+    await page.goto(base+'commentaire-pas-a-pas.html?texte='+texte.id+'&niveau=3');
+    await page.locator('#n3-configuration').fill('Une configuration précise pour '+texte.id);
+    await page.locator('#n3-lecture').fill('Une lecture appuyée sur les mots pour '+texte.id);
+    await page.locator('#n3-pb').fill('Comment ce passage construit-il cette lecture ?');
+    await page.reload();assert.equal(await page.locator('#n3-configuration').inputValue(),'Une configuration précise pour '+texte.id);
+    await page.locator('.comm-reveal').click();assert(await page.locator('.cc-modele').first().isVisible());
+    assert(!(await page.locator('.cc-form').innerText()).includes('On pouvait attendre'));
+    await page.locator('.comm-clear').click();assert.equal(await page.locator('#n3-lecture').inputValue(),'');
+   }
+   for(const name of ['commentaire-bac-methode.html','commentaire-bac-problematique.html','commentaire-bac-introduction.html','bac-dissertation-methode.html','brevet-comprehension.html']){
+    await page.goto(base+name);assert((await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth))<=1,name);
+    if(name==='commentaire-bac-problematique.html'){
+     await page.locator('main h1').scrollIntoViewIfNeeded();await page.screenshot({path:path.join(captures,'methode-xy-'+width+'.png')});
+     await page.locator('#prob-qcm [data-st="def"]').click();assert((await page.locator('#prob-fb').innerText()).includes('Défendable'));
+     await page.locator('#prob-qcm [data-st="ok"]').click();assert((await page.locator('#prob-fb').innerText()).includes('Solide'));
+    }
+   }
+   await page.goto(base+'bac-dissertation.html');
+   for(let i=0;i<10;i++){
+    await page.locator('.chaine-sujets button[data-subj="'+i+'"]').click();
+    const article=page.locator('.diss-sujet[data-subj="'+i+'"]');
+    await article.locator('.diss-step').nth(0).locator('[data-v="ok"]').click();await article.locator('.diss-step').nth(0).getByRole('button',{name:'Continuer'}).click();
+    await article.locator('.diss-step').nth(1).locator('[data-v="ok"]').click();await article.locator('.diss-step').nth(1).getByRole('button',{name:'Continuer'}).click();assert(await article.locator('.diss-fin').isVisible());
+   }
+   await page.locator('.chaine-tabs [data-level="2"]').click();
+   await page.locator('.diss-sujet:visible .diss-area').fill('Le sujet demande une lecture précise, que plusieurs passages de cette œuvre permettent de discuter. Quelle est sa portée ?');
+   await page.locator('.diss-sujet:visible .diss-compare').click();assert((await page.locator('.diss-sujet:visible .diss-fbm').innerText()).includes('Le problème'));
+   for(const id of Object.keys(catalogue).filter(id=>catalogue[id].type==='bac-commentaire')){
+    await page.goto(base+'annales/entrainement-annale.html?id='+id+'&mode=targeted&step=attente');
+    await page.locator('.annale-workspace').scrollIntoViewIfNeeded();
+    await page.locator('#stepTitle').scrollIntoViewIfNeeded();
+    await page.waitForFunction(()=>document.getElementById('stepTitle')?.textContent?.length>0,{},{timeout:5000}).catch(()=>{});
+    assert(/Y\s*:/u.test(await page.locator('#stepTitle').innerText()),JSON.stringify({id,title:await page.locator('#stepTitle').innerText(),errors,body:(await page.locator('body').innerText()).slice(-2500)}));
+    await page.locator('#studentAnswer').fill('Une lecture justifiée du texte '+id);await page.locator('#saveNext').click();
+    await page.reload();assert.equal(await page.locator('#studentAnswer').inputValue(),'Une lecture justifiée du texte '+id);
+    await page.locator('#helpButton').click();await page.locator('#helpButton').click();
+    assert(!(await page.locator('#manualHelp').innerText()).includes('Quel procédé peut servir ici'));
+    assert((await page.locator('#manualHelp').innerText()).includes('CORRECTION EXPLIQUÉE'));
+    assert((await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth))<=1,id);
+   }
+   assert.deepEqual(errors,[]);assert.deepEqual(posts,[]);
    results.push({width,text:true,draft:true,timer:true,reload:true,subjects:4,download:true,comparison:true,isolatedErase:true,ok:true});await context.close();
   }
   const nojs=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:900}}),p=await nojs.newPage();await p.goto(base+'bac-mode-examen.html');assert.equal(await p.locator('[data-exam-id]:visible').count(),4);assert.equal(await p.locator('[data-exam-id="hialmar"] .vers').count(),36);await nojs.close();

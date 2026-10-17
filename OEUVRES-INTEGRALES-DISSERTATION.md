@@ -277,7 +277,7 @@ Chaque candidat est décrit sans encore être retenu :
 ### Étape 3 — comparer les candidats
 Chaque passage est évalué qualitativement selon :
 1. netteté du mouvement ;
-2. qualité du X → pourtant → Y ;
+2. qualité du X / Y / comment ;
 3. richesse interprétative sans sophistication artificielle ;
 4. accessibilité pour un élève de Première ;
 5. longueur compatible EAF ;
@@ -315,8 +315,8 @@ Elle doit également éviter de donner une vision partielle ou monotone de l'œu
 ### A. Avant l'analyse
 - Comprendre la situation minimale.
 - Qu'est-ce que le passage met en place ?
-- Qu'est-ce qu'on pouvait attendre ?
-- Qu'est-ce que le passage produit pourtant ?
+- Qu’est-ce que l’écriture en fait comprendre ou éprouver ?
+- Quels éléments précis soutiennent cette lecture ?
 
 ### B. Problématique
 Format privilégié : trois problématiques dont une seule conserve exactement la tension du passage.

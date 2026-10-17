@@ -2,9 +2,9 @@
 
 ## Décisions du 10 octobre 2026 (priment sur la suite de ce document)
 
-- **Problématiser le sujet** : « On pourrait penser X (ce que le sujet suggère). Pourtant, l'œuvre montre Y. Comment comprendre que… ? ». Forme développée puis condensée en une seule question (voir `AGENTS.md` § 7).
+- **Problématiser le sujet** : Analyser les mots du sujet, examiner plusieurs passages de l’œuvre, puis préciser la question à résoudre. Aucun schéma X/Y, contre-exemple ou connecteur n’est obligatoire.
 - **Plan sur mesure** : aucun plan type, aucun rôle fixe des extraits. Le plan naît de la problématique ; chaque partie répond à la question laissée par la précédente ; les extraits sont choisis ensuite. Le sujet commande.
-- **Formes des vrais sujets** (2023-2026, voie générale) : un mot qui restreint (« ne… que », « seulement », « toujours ») ; une lecture proposée (« Peut-on lire X comme… ») ; un mot qui qualifie (« sérieusement ») ; une citation (« éclaire-t-elle votre lecture ? »). Chaque forme indique où chercher le pourtant.
+- **Formes des vrais sujets** (2023-2026, voie générale) : un mot qui restreint (« ne… que », « seulement », « toujours ») ; une lecture proposée (« Peut-on lire X comme… ») ; un mot qui qualifie (« sérieusement ») ; une citation (« éclaire-t-elle votre lecture ? »). Chaque forme indique quelle nuance de la question examiner dans l’œuvre.
 - **Transitions** : question directe ouverte, reprise par la partie suivante ; jamais « … suffit-il ? ».
 
 ## Précisions du propriétaire — 17 octobre 2026

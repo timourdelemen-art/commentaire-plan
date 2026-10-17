@@ -184,7 +184,7 @@ Critères :
 - parole comme action ;
 - scènes autonomes ;
 - conflits lisibles ;
-- très bons X → pourtant → Y ;
+- très bons X / Y / comment ;
 - lien naturel avec double énonciation, aparté, ironie, rythme du dialogue.
 
 ## Poésie

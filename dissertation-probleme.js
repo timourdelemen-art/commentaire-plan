@@ -1,7 +1,7 @@
 /* Dissertation de français : « Trouver le problème du sujet » (bac-dissertation.html).
    Le contenu (vrais sujets, propositions, modèles) est dans la page ; ce script ne fait que
    mélanger les propositions, donner les retours Solide / Défendable / À revoir et naviguer.
-   Niveau 1 : au clic (le pourtant, puis la question unique). Niveau 2 : l’élève écrit, puis compare. */
+   Niveau 1 : au clic (la difficulté à examiner, puis la question). Niveau 2 : l’élève écrit, puis compare. */
 (()=>{
 const root=document.getElementById('diss-probleme');
 if(!root) return;
@@ -71,7 +71,7 @@ sujets.forEach(art=>{
   const cmp=art.querySelector('.diss-compare');
   if(cmp) cmp.addEventListener('click',()=>{
     const ta=art.querySelector('.diss-area'), fbm=art.querySelector('.diss-fbm');
-    if(ta.value.trim().length<20){ fbm.className='chaine-fb diss-fbm show no'; fbm.textContent='Écrivez d’abord votre problème en trois phrases et votre question : on compare après.'; ta.focus(); return; }
+    if(ta.value.trim().length<20){ fbm.className='chaine-fb diss-fbm show no'; fbm.textContent='Expliquez d’abord la difficulté du sujet et proposez votre question : on compare après.'; ta.focus(); return; }
     fbm.className='chaine-fb diss-fbm show def';
     fbm.innerHTML='';
     fbm.appendChild(art.querySelector('template.diss-modele').content.cloneNode(true));
