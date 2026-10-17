@@ -48,8 +48,8 @@ function runRuntime(html, storage, fail=false) {
 }
 
 bank.validate();
-assert.equal(bank.data.subjects.length,3);
-assert.equal(bank.data.subjects.reduce((n,s)=>n+s.models.length,0),4);
+assert.equal(bank.data.subjects.length,8);
+assert.equal(bank.data.subjects.reduce((n,s)=>n+s.models.length,0),9);
 const tmp=fs.mkdtempSync(path.join(os.tmpdir(),'explication-test-'));
 try {
   bank.build(tmp);
@@ -63,8 +63,11 @@ try {
     assert.equal(ids.length,new Set(ids).size);
     assert.equal((html.match(/<h1\b/g)||[]).length,1);
     assert.equal((html.match(/<textarea\b/g)||[]).length,(html.match(/data-feedback="off"/g)||[]).length,'Aucune validation générale de lecture');
-    const text=[...html.matchAll(/<p data-model-text>(.*?)<\/p>/gs)].map(m=>decode(m[1]));
-    assert.deepEqual(text,s.models.flatMap(m=>m.paragraphs.map(p=>p[1])),'Modèle continu intact');
+    const text=[...html.matchAll(/<span class="c20-t" data-model-text>(.*?)<\/span>/gs)].map(m=>decode(m[1]));
+    assert.deepEqual(text,s.models.flatMap(m=>m.paragraphs.flatMap(p=>p[3].map(x=>x[0]))),'Chaque phrase du modèle reste intacte');
+    assert.equal(text.length,(html.match(/class="c20-f"/g)||[]).length,'Une fonction par phrase');
+    for(const m of s.models) assert.equal(m.paragraphs.map(p=>p[1]).join(' '),m.paragraphs.flatMap(p=>p[3].map(x=>x[0])).join(' '));
+    assert.equal((html.match(/class="ecrire-drill"/g)||[]).length,2);
     const lengths=s.choices.map(c=>c[0].split(/\s+/).length),solid=s.choices.findIndex(c=>c[1]==='Solide');
     if(lengths[solid]>Math.max(...lengths.filter((_,i)=>i!==solid)))longest++;
     if(s.track==='technologique'){
@@ -88,10 +91,10 @@ try {
     b.querySelector('[data-erase]').click();assert.equal(runRuntime(html,storage)[0].querySelector('[data-draft]').value,'');
     assert.match(runRuntime(html,new Map(),true)[0].querySelector('[data-save-status]').textContent,/indisponible/);
   }
-  assert(longest<3,'La thèse solide ne doit pas être toujours la plus longue');
+  assert(longest<bank.data.subjects.length,'La thèse solide ne doit pas être toujours la plus longue');
   const gen=fs.readFileSync(path.join(root,'scripts/build-philo-annales.js'),'utf8');
   assert(gen.includes("require('./build-explication-textes').build(ROOT)"));
   assert(gen.includes("'philo-texte-copie',20"),'La chaîne doit conduire à une rédaction entière');
   assert(!gen.includes("step('5 · DANS UNE DISSERTATION'"));
-  console.log(`Explication : 4 modèles intacts, 15 tâches et 8 réponses technologiques ; navigation et stockage simulés ; solide seule plus longue ${longest}/3. Navigateur non testé.`);
+  console.log(`Explication : 9 modèles intacts, 40 tâches et 16 ateliers ; une fonction par phrase ; navigation et stockage simulés ; solide seule plus longue ${longest}/8. Rendu navigateur vérifié séparément.`);
 }finally{fs.rmSync(tmp,{recursive:true,force:true});}
