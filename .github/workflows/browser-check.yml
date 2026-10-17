@@ -42,6 +42,7 @@ jobs:
           node scripts/check-browser-hlp.cjs "$BUILD_DIR"
           node scripts/check-browser-integration.cjs "$BUILD_DIR"
           node scripts/check-browser-philo-banque.cjs "$BUILD_DIR"
+          PHILO_SCREENSHOT_DIR="$BUILD_DIR/browser-audit" node scripts/check-browser-explication.cjs "$BUILD_DIR"
       - name: Archiver le contrôle visuel
         if: always()
         uses: actions/upload-artifact@v4
