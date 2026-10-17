@@ -75,7 +75,7 @@
     supportTitle.textContent=item.auteur+", "+item.oeuvre;
     supportText.classList.remove("texte-examen");
     supportText.innerHTML="<p class='texte-absent'>Le texte est dans le sujet officiel, avec ses numéros de ligne. Ouvrez-le et gardez-le à côté de cet exercice : chaque étape vous demandera d’y revenir.</p><p><a class='btn red small' href='"+item.sourceOfficielle+"' target='_blank' rel='noopener'>Ouvrir le sujet officiel ↗</a></p>";
-    supportSource.textContent=item.texteDomainePublic?"Ce texte sera bientôt affiché ici.":"Ce texte est encore protégé par le droit d’auteur : il n’est pas reproduit sur le site.";
+    supportSource.textContent=item.texteDomainePublic?"Le PDF officiel donne le texte exact et ses numéros de ligne.":"Ce texte est encore protégé par le droit d’auteur : il n’est pas reproduit sur le site.";
     if(textToggle){ textToggle.hidden=false; textToggle.textContent="Le texte ↗"; textToggle.addEventListener("click",()=>window.open(item.sourceOfficielle,"_blank","noopener")); }
   }
   els.guided.href=item.parcours||"../annales.html";

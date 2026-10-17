@@ -87,5 +87,6 @@ const server = http.createServer((req,res) => {
   await nojs.close();
   await browser.close();
   await require('./check-browser-commentaires.cjs')(root);
+  await require('./check-browser-commentaire-parcours.cjs')(root);
   if(failures)process.exitCode=1;
 })().catch(e=>{console.error(e);process.exitCode=1;}).finally(()=>server.close());
