@@ -61,7 +61,8 @@
         "J’explique les concepts et les raisons, avec des appuis exacts.",
         "Je rends compte de toutes les étapes, y compris la dernière phrase.",
         "Je conserve les conditions et les nuances de la thèse.",
-        "Je distingue hypothèse, conviction et preuve."
+        "Je distingue hypothèse, conviction et preuve.",
+        "Je distingue ce que le texte affirme, ce que j’en déduis et les exemples ou hypothèses que je propose pour l’éclairer."
       ],
       "models": [
         {
@@ -93,7 +94,7 @@
             ],
             [
               "",
-              "Les méthodes sont d’abord présentées comme une conquête de la recherche, au moins aussi importante que ses découvertes. Une méthode est une manière réglée de chercher et de vérifier : elle rend possible la distinction entre une explication séduisante et une proposition justifiée. Elle doit elle-même être élaborée, ce qui explique que Nietzsche la compte parmi les résultats de la recherche. La supposition de sa disparition révèle sa nécessité : les vérités déjà acquises pourraient être répétées sans qu’on sache distinguer les suivantes de nouvelles superstitions. Le savoir conservé ne suffirait donc pas à entretenir la capacité de juger qui l’a produit.",
+              "Les méthodes sont d’abord présentées comme une conquête de la recherche, au moins aussi importante que ses découvertes. Une méthode est une manière réglée de chercher et de vérifier : elle rend possible la distinction entre une explication séduisante et une proposition justifiée. Elle doit elle-même être élaborée, ce qui explique que Nietzsche la compte parmi les résultats de la recherche. La supposition de sa disparition révèle sa nécessité : les vérités déjà acquises pourraient être répétées sans qu’on sache distinguer de nouvelles affirmations justifiées et de nouvelles superstitions. Le savoir conservé ne suffirait donc pas à entretenir la capacité de juger qui l’a produit.",
               "",
               [
                 [
@@ -109,7 +110,7 @@
                   "Argument · lever une opposition trompeuse"
                 ],
                 [
-                  "La supposition de sa disparition révèle sa nécessité : les vérités déjà acquises pourraient être répétées sans qu’on sache distinguer les suivantes de nouvelles superstitions.",
+                  "La supposition de sa disparition révèle sa nécessité : les vérités déjà acquises pourraient être répétées sans qu’on sache distinguer de nouvelles affirmations justifiées et de nouvelles superstitions.",
                   "Argument · expliquer l’hypothèse de la perte des méthodes"
                 ],
                 [
@@ -147,7 +148,7 @@
             ],
             [
               "",
-              "À l’inverse, les personnes visées prennent la découverte d’une hypothèse pour l’achèvement de l’explication. Une idée qui pourrait expliquer devient à leurs yeux une raison suffisante de croire. L’enthousiasme se change alors en fanatisme : l’attachement personnel dispense de soumettre l’opinion à une épreuve. Plus la conviction engage celui qui la défend, plus sa remise en cause risque d’être ressentie comme une attaque contre lui. L’assurance subjective augmente ainsi sans augmentation correspondante des preuves.",
+              "À l’inverse, les personnes visées prennent la découverte d’une hypothèse pour l’achèvement de l’explication. Une idée qui pourrait expliquer devient à leurs yeux une raison suffisante de croire. L’enthousiasme se change alors en fanatisme : l’attachement personnel dispense de soumettre l’opinion à une épreuve. Prendre une hypothèse « à cœur comme une conviction », c’est engager son attachement personnel là où il faudrait encore examiner une explication possible. L’assurance subjective augmente ainsi sans augmentation correspondante des preuves.",
               "",
               [
                 [
@@ -163,8 +164,8 @@
                   "Analyse · le rôle de la passion"
                 ],
                 [
-                  "Plus la conviction engage celui qui la défend, plus sa remise en cause risque d’être ressentie comme une attaque contre lui.",
-                  "Implication · pourquoi l’adhésion peut empêcher l’examen"
+                  "Prendre une hypothèse « à cœur comme une conviction », c’est engager son attachement personnel là où il faudrait encore examiner une explication possible.",
+                  "Appui textuel · expliquer comment l’attachement remplace la mise à l’épreuve"
                 ],
                 [
                   "L’assurance subjective augmente ainsi sans augmentation correspondante des preuves.",
@@ -224,10 +225,10 @@
       "drills": [
         {
           "skill": "La fonction d’une phrase",
-          "extract": "La supposition de sa disparition révèle sa nécessité : les vérités déjà acquises pourraient être répétées sans qu’on sache distinguer les suivantes de nouvelles superstitions.",
+          "extract": "La supposition de sa disparition révèle sa nécessité : les vérités déjà acquises pourraient être répétées sans qu’on sache distinguer de nouvelles affirmations justifiées et de nouvelles superstitions.",
           "task": "Expliquez le rôle de cette phrase en deux phrases : ce qu’elle précise, puis ce qu’on perdrait en la supprimant.",
-          "hint": "Relisez la phrase précédente dans le modèle. Cherchez une raison, une distinction ou une nuance ajoutée.",
-          "expected": "Elle explique comment un savoir ancien pourrait subsister alors que la capacité de vérifier de nouvelles affirmations serait perdue. Sans elle, cette difficulté ou cette nuance resterait inexpliquée."
+          "hint": "Comparez la perte des méthodes et la conservation des résultats dans la première phrase du texte.",
+          "expected": "Elle explique comment un savoir ancien pourrait subsister alors que la capacité de vérifier de nouvelles affirmations serait perdue. Sans cette explication, on ne comprendrait pas pourquoi conserver des vérités acquises ne protège pas, à lui seul, du retour de la superstition."
         },
         {
           "skill": "Réécrire avec précision",
@@ -297,7 +298,8 @@
         "J’explique les concepts et les raisons, avec des appuis exacts.",
         "Je rends compte de toutes les étapes, y compris la dernière phrase.",
         "Je conserve les conditions et les nuances de la thèse.",
-        "Je distingue origine affective et preuve de fausseté."
+        "Je distingue origine affective et preuve de fausseté.",
+        "Je distingue ce que le texte affirme, ce que j’en déduis et les exemples ou hypothèses que je propose pour l’éclairer."
       ],
       "models": [
         {
@@ -346,7 +348,7 @@
                 ],
                 [
                   "Une idée désirée n’est pourtant pas fausse du seul fait qu’on la désire : cette origine explique l’adhésion sans suffire, à elle seule, à démontrer la fausseté de son objet.",
-                  "Examen · distinguer genèse d’une croyance et vérité"
+                  "Examen de portée · distinguer notre précaution logique et la généalogie exposée par Freud"
                 ],
                 [
                   "La critique porte ici sur le fondement de la conviction : sa force affective ne constitue pas une preuve.",
@@ -466,8 +468,8 @@
           "skill": "La fonction d’une phrase",
           "extract": "Une idée désirée n’est pourtant pas fausse du seul fait qu’on la désire : cette origine explique l’adhésion sans suffire, à elle seule, à démontrer la fausseté de son objet.",
           "task": "Expliquez le rôle de cette phrase en deux phrases : ce qu’elle précise, puis ce qu’on perdrait en la supprimant.",
-          "hint": "Relisez la phrase précédente dans le modèle. Cherchez une raison, une distinction ou une nuance ajoutée.",
-          "expected": "Elle examine la portée de l’argument : expliquer une croyance par un désir ne suffit pas à prouver qu’elle est fausse. Sans elle, cette difficulté ou cette nuance resterait inexpliquée."
+          "hint": "Distinguez la question de l’origine d’une adhésion et celle de la vérité de son objet.",
+          "expected": "Elle examine la portée de l’argument : expliquer une croyance par un désir ne suffit pas à prouver qu’elle est fausse. Sans cette distinction, on transformerait abusivement l’explication d’une croyance par le désir en réfutation de ce qu’elle affirme."
         },
         {
           "skill": "Réécrire avec précision",
@@ -535,7 +537,8 @@
         "Je reconstruis le problème et la thèse sous leurs conditions exactes.",
         "Je rends compte de tout le mouvement, y compris la conséquence finale.",
         "J’explique les concepts, les formulations et les raisons au lieu de paraphraser.",
-        "Mes exemples ou remarques éclairent l’argument du texte."
+        "Mes exemples ou remarques éclairent l’argument du texte.",
+        "Je distingue ce que le texte affirme, ce que j’en déduis et les exemples ou hypothèses que je propose pour l’éclairer."
       ],
       "models": [
         {
@@ -594,7 +597,7 @@
             ],
             [
               "",
-              "Cette absorption suffit à affaiblir les droits sans qu’un oppresseur ait d’abord à les confisquer. Les citoyens les abandonnent en renonçant aux pratiques qui leur donnent une portée effective. Choisir des représentants, soutenir l’autorité et délibérer en commun leur apparaissent comme du temps détourné du travail. Le coût privé de la participation est immédiatement visible ; le bénéfice commun qu’elle entretient devient imperceptible. Les expressions dépréciatives sur les occupations politiques exposent ce jugement des citoyens, sans exprimer celui de Tocqueville. Leur prétendu sérieux justifie ainsi une négligence dont ils ne mesurent pas la gravité.",
+              "Cette absorption suffit à affaiblir les droits sans qu’un oppresseur ait d’abord à les confisquer. Les citoyens les abandonnent en renonçant aux pratiques qui leur donnent une portée effective. Choisir des représentants, soutenir l’autorité et délibérer en commun leur apparaissent comme du temps détourné du travail. Le coût privé de la participation est immédiatement visible ; le bénéfice commun qu’elle entretient devient imperceptible. Les expressions « travaux inutiles » et « jeux d’oisifs » exposent ce jugement des citoyens, sans exprimer celui de Tocqueville. Leur prétendu sérieux justifie ainsi une négligence dont ils ne mesurent pas la gravité.",
               "",
               [
                 [
@@ -614,8 +617,8 @@
                   "Argument · reconstruire leur calcul"
                 ],
                 [
-                  "Les expressions dépréciatives sur les occupations politiques exposent ce jugement des citoyens, sans exprimer celui de Tocqueville.",
-                  "Attribution · distinguer les voix du passage"
+                  "Les expressions « travaux inutiles » et « jeux d’oisifs » exposent ce jugement des citoyens, sans exprimer celui de Tocqueville.",
+                  "Attribution · identifier le point de vue que l’auteur va rectifier"
                 ],
                 [
                   "Leur prétendu sérieux justifie ainsi une négligence dont ils ne mesurent pas la gravité.",
@@ -699,10 +702,10 @@
       "drills": [
         {
           "skill": "La fonction d’une phrase",
-          "extract": "Les expressions dépréciatives sur les occupations politiques exposent ce jugement des citoyens, sans exprimer celui de Tocqueville.",
+          "extract": "Les expressions « travaux inutiles » et « jeux d’oisifs » exposent ce jugement des citoyens, sans exprimer celui de Tocqueville.",
           "task": "Expliquez le rôle de cette phrase en deux phrases : ce qu’elle précise, puis ce qu’on perdrait en la supprimant.",
-          "hint": "Relisez la phrase précédente dans le modèle. Cherchez une raison, une distinction ou une nuance ajoutée.",
-          "expected": "Elle empêche d’attribuer à Tocqueville les jugements des citoyens dont il critique le retrait. Sans elle, cette difficulté ou cette nuance resterait inexpliquée."
+          "hint": "Relisez les expressions dépréciatives, puis la rectification de l’intérêt qui les suit.",
+          "expected": "Elle empêche d’attribuer à Tocqueville les jugements des citoyens dont il critique le retrait. Sans cette attribution, on risquerait de faire dire à Tocqueville que les devoirs politiques sont inutiles, alors qu’il critique précisément ce jugement."
         },
         {
           "skill": "Réécrire avec précision",
@@ -762,15 +765,16 @@
         ],
         [
           "Expliquez la dernière remarque sur les meilleurs travailleurs en trois phrases.",
-          "La lassitude serait-elle seulement un signe de paresse ?",
-          "La lassitude peut atteindre ceux dont l’énergie ou l’exigence sont fortes. Elle ne prouve donc pas une faiblesse morale. Une grande exigence d’accomplissement peut rendre la répétition plus douloureuse."
+          "La lassitude serait-elle seulement un signe de paresse ? Distinguez le constat de l’auteur et votre hypothèse pour l’éclairer.",
+          "La lassitude peut atteindre même ceux que Weil appelle les meilleurs : elle ne se réduit donc pas à la paresse. Une forte exigence d’accomplissement pourrait rendre la répétition plus douloureuse. C’est une interprétation possible du paradoxe ; l’extrait n’en donne pas explicitement la raison."
         ]
       ],
       "criteria": [
         "Je précise le champ de la thèse : travail des mains et d’exécution.",
         "J’explique besoin, bien, effort et désir dans leurs relations.",
         "Je reconstruis le mouvement jusqu’à la remarque sur les meilleurs travailleurs.",
-        "Je distingue équité sociale et structure répétitive sans nier les injustices."
+        "Je distingue équité sociale et structure répétitive sans nier les injustices.",
+        "Je distingue ce que le texte affirme, ce que j’en déduis et les exemples ou hypothèses que je propose pour l’éclairer."
       ],
       "models": [
         {
@@ -852,7 +856,7 @@
             ],
             [
               "",
-              "Le mouvement du désir rend alors ce recommencement problématique. Weil pose que le désir est la source d’énergie de l’effort humain. Elle le définit comme une orientation vers ce qu’on ne possède pas encore, donc comme une distance à parcourir. L’affirmation selon laquelle on ne désire pas ce qu’on a reçoit son sens de cette définition du désir comme mouvement. Or l’énergie orientée vers un autre état est employée à retrouver le même. La dépense ne devient pas inexistante ou inutile ; elle apparaît privée de l’avancée qui pouvait la soutenir intérieurement.",
+              "Le mouvement du désir rend alors ce recommencement problématique. Weil pose que le désir est la source d’énergie de l’effort humain. Elle le définit comme une orientation vers ce qu’on ne possède pas encore, donc comme une distance à parcourir. Dans ce raisonnement, on ne peut désirer ce qu’on a puisque le désir est défini comme un mouvement vers un point où l’on n’est pas. Or l’énergie orientée vers un autre état est employée à retrouver le même. La dépense ne devient pas inexistante ou inutile ; elle apparaît privée de l’avancée qui pouvait la soutenir intérieurement.",
               "",
               [
                 [
@@ -868,8 +872,8 @@
                   "Concept · expliquer le désir dans le passage"
                 ],
                 [
-                  "L’affirmation selon laquelle on ne désire pas ce qu’on a reçoit son sens de cette définition du désir comme mouvement.",
-                  "Interprétation · justifier une proposition difficile"
+                  "Dans ce raisonnement, on ne peut désirer ce qu’on a puisque le désir est défini comme un mouvement vers un point où l’on n’est pas.",
+                  "Justification · reconstruire le lien entre la définition du désir et la négation"
                 ],
                 [
                   "Or l’énergie orientée vers un autre état est employée à retrouver le même.",
@@ -906,7 +910,7 @@
             ],
             [
               "",
-              "La lassitude finale devient ainsi un effet compréhensible de cette structure. Les conditions inhumaines l’aggravent, mais leur disparition ne suffirait pas à supprimer le besoin de donner un élan à l’effort répété. La remarque sur les meilleurs travailleurs écarte l’idée d’une faiblesse réservée aux moins courageux. On peut comprendre qu’une forte exigence d’accomplissement rende particulièrement douloureuse l’impression de ne pas avancer. La portée de l’argument dépend toutefois de la conception du désir : trouver un élan dans le maintien d’un bien modifierait le conflit décrit.",
+              "La lassitude finale devient ainsi un effet compréhensible de cette structure. Les conditions inhumaines l’aggravent, mais leur disparition ne suffirait pas à supprimer le besoin de donner un élan à l’effort répété. La remarque sur les meilleurs travailleurs écarte l’idée d’une faiblesse réservée aux moins courageux. Une interprétation possible est qu’une forte exigence d’accomplissement rende cette répétition plus douloureuse ; l’extrait ne précise pas davantage qui sont ces « meilleurs ». La portée de l’argument dépend toutefois de la conception du désir : trouver un élan dans le maintien d’un bien modifierait le conflit décrit.",
               "",
               [
                 [
@@ -922,8 +926,8 @@
                   "Détail final · expliquer le paradoxe"
                 ],
                 [
-                  "On peut comprendre qu’une forte exigence d’accomplissement rende particulièrement douloureuse l’impression de ne pas avancer.",
-                  "Interprétation · proposer une raison sans l’attribuer comme citation"
+                  "Une interprétation possible est qu’une forte exigence d’accomplissement rende cette répétition plus douloureuse ; l’extrait ne précise pas davantage qui sont ces « meilleurs ».",
+                  "Hypothèse d’explication · éclairer le paradoxe final sans attribuer une raison explicite à Weil"
                 ],
                 [
                   "La portée de l’argument dépend toutefois de la conception du désir : trouver un élan dans le maintien d’un bien modifierait le conflit décrit.",
@@ -955,8 +959,8 @@
           "skill": "La fonction d’une phrase",
           "extract": "Ce retour ne signifie pas qu’aucun objet n’est produit ; il décrit ce que l’effort apporte durablement à l’existence du travailleur.",
           "task": "Expliquez le rôle de cette phrase en deux phrases : ce qu’elle précise, puis ce qu’on perdrait en la supprimant.",
-          "hint": "Relisez la phrase précédente dans le modèle. Cherchez une raison, une distinction ou une nuance ajoutée.",
-          "expected": "Elle distingue le résultat matériel du travail et ce que l’effort apporte durablement à l’existence du travailleur. Sans elle, cette difficulté ou cette nuance resterait inexpliquée."
+          "hint": "Comparez la production d’un objet et la nécessité, pour le travailleur, de gagner encore sa vie.",
+          "expected": "Elle distingue le résultat matériel du travail et ce que l’effort apporte durablement à l’existence du travailleur. Sans cette distinction, le retour au point de départ pourrait être pris à tort pour une absence de production matérielle."
         },
         {
           "skill": "Réécrire avec précision",
@@ -1058,7 +1062,8 @@
         "Je distingue possibilité de l’erreur, erreur effective et ignorance.",
         "J’explique l’infinité des rapports, le jugement et l’usage de la liberté.",
         "Je rends compte de la responsabilité et de la précipitation finale.",
-        "Si je choisis l’option 1, je réponds à toutes les questions dans l’ordre ; j’indique mon option."
+        "Si je choisis l’option 1, je réponds à toutes les questions dans l’ordre ; j’indique mon option.",
+        "Je distingue ce que le texte affirme, ce que j’en déduis et les exemples ou hypothèses que je propose pour l’éclairer."
       ],
       "models": [
         {
@@ -1155,7 +1160,7 @@
             ],
             [
               "B2",
-              "Le premier moment explique la possibilité de l’erreur par le contraste entre l’esprit limité et l’infinité des rapports ; il précise le glissement par lequel l’homme nie ce qu’il ne voit pas. Le deuxième, introduit par « Toutefois », distingue cette possibilité et son évitement : la liberté peut soumettre le jugement à ce qui est effectivement examiné. Cette distinction justifie le blâme. Le dernier moment explique pourquoi les erreurs demeurent nombreuses : les hommes veulent décider sans peine et sans examen.",
+              "Le premier moment explique la possibilité de l’erreur par le contraste entre l’esprit limité et l’infinité des rapports ; il précise le glissement par lequel l’homme nie ce qu’il ne voit pas. Le deuxième, introduit par « Toutefois », distingue cette possibilité et son évitement : la liberté peut soumettre le jugement à ce qui est effectivement examiné. Cette distinction justifie le blâme et même la punition évoquée : pour l’auteur, on est responsable d’un jugement qu’on pouvait retenir. Le dernier moment explique pourquoi les erreurs demeurent nombreuses : les hommes veulent décider sans peine et sans examen.",
               "Les moments sont désignés par leurs rôles logiques.",
               [
                 [
@@ -1167,8 +1172,8 @@
                   "Deuxième mouvement : l’évitement par la liberté"
                 ],
                 [
-                  "Cette distinction justifie le blâme.",
-                  "La conséquence morale"
+                  "Cette distinction justifie le blâme et même la punition évoquée : pour l’auteur, on est responsable d’un jugement qu’on pouvait retenir.",
+                  "La conséquence morale · expliquer pourquoi l’auteur justifie le blâme et la punition"
                 ],
                 [
                   "Le dernier moment explique pourquoi les erreurs demeurent nombreuses : les hommes veulent décider sans peine et sans examen.",
@@ -1307,12 +1312,12 @@
             ],
             [
               "",
-              "L’opposition suivante prévient donc une conclusion fataliste. Un esprit limité ne serait pas condamné à l’erreur si la liberté réglait toujours ses affirmations sur ce qui a été examiné. Cette règle demande de ne pas affirmer plus qu’on ne sait, plutôt que de tout connaître. Lorsque l’examen demeure incomplet, on peut limiter sa conclusion ou suspendre son jugement. L’ignorance reconnue ne devient ainsi pas une certitude fausse. Malebranche suppose ici que le sujet peut retenir son assentiment ; cette possibilité donne sa force à son argument sur la responsabilité.",
+              "Le « Toutefois » prévient donc une conclusion fataliste : être exposé à l’erreur ne signifie pas être contraint de la commettre. Un esprit limité ne serait pas condamné à l’erreur si la liberté réglait toujours ses affirmations sur ce qui a été examiné. Cette règle demande de ne pas affirmer plus qu’on ne sait, plutôt que de tout connaître. Lorsque l’examen demeure incomplet, on peut limiter sa conclusion ou suspendre son jugement. L’ignorance reconnue ne devient ainsi pas une certitude fausse. Malebranche suppose ici que le sujet peut retenir son assentiment ; cette possibilité donne sa force à son argument sur la responsabilité.",
               "",
               [
                 [
-                  "L’opposition suivante prévient donc une conclusion fataliste.",
-                  "Transition · le rôle de l’articulation"
+                  "Le « Toutefois » prévient donc une conclusion fataliste : être exposé à l’erreur ne signifie pas être contraint de la commettre.",
+                  "Articulation · expliquer comment l’objection sépare possibilité et nécessité de l’erreur"
                 ],
                 [
                   "Un esprit limité ne serait pas condamné à l’erreur si la liberté réglait toujours ses affirmations sur ce qui a été examiné.",
@@ -1416,10 +1421,10 @@
       "drills": [
         {
           "skill": "La fonction d’une phrase",
-          "extract": "L’opposition suivante prévient donc une conclusion fataliste.",
+          "extract": "Le « Toutefois » prévient donc une conclusion fataliste : être exposé à l’erreur ne signifie pas être contraint de la commettre.",
           "task": "Expliquez le rôle de cette phrase en deux phrases : ce qu’elle précise, puis ce qu’on perdrait en la supprimant.",
-          "hint": "Relisez la phrase précédente dans le modèle. Cherchez une raison, une distinction ou une nuance ajoutée.",
-          "expected": "Elle explique pourquoi l’articulation marque une objection à la conclusion fataliste que l’on pourrait tirer du début. Sans elle, cette difficulté ou cette nuance resterait inexpliquée."
+          "hint": "Relisez le début puis le « Toutefois » : une possibilité naturelle impose-t-elle un jugement faux ?",
+          "expected": "Elle explique pourquoi l’articulation marque une objection à la conclusion fataliste que l’on pourrait tirer du début. Sans ce lien, le passage de la faiblesse naturelle au blâme semblerait contradictoire : la liberté de retenir son jugement serait laissée dans l’ombre."
         },
         {
           "skill": "Réécrire avec précision",
@@ -1489,7 +1494,8 @@
         "J’explique les concepts et les raisons, avec des appuis exacts.",
         "Je rends compte de toutes les étapes, y compris la dernière phrase.",
         "Je conserve les conditions et les nuances de la thèse.",
-        "Je distingue égalité des droits et valeur effective des libertés."
+        "Je distingue égalité des droits et valeur effective des libertés.",
+        "Je distingue ce que le texte affirme, ce que j’en déduis et les exemples ou hypothèses que je propose pour l’éclairer."
       ],
       "models": [
         {
@@ -1521,7 +1527,7 @@
             ],
             [
               "",
-              "La participation suppose d’abord que chacun puisse accéder à l’information politique. Mais être informé ne signifie pas seulement recevoir des nouvelles : le citoyen doit pouvoir apprécier les effets des projets sur son existence. Il doit aussi les examiner selon sa conception du bien commun, qui ne se réduit pas à son avantage privé. Enfin, pouvoir proposer des solutions lui permet de contribuer à définir les choix, au lieu de seulement choisir entre des programmes déjà imposés. Ces trois capacités dessinent une participation active, dont le droit de vote ne constitue pas à lui seul toute la réalité.",
+              "La participation suppose d’abord que chacun puisse accéder à l’information politique. Mais être informé ne signifie pas seulement recevoir des nouvelles : le citoyen doit pouvoir apprécier les effets des projets sur son existence. Il doit aussi les examiner selon sa conception du bien commun, qui ne se réduit pas à son avantage privé. Enfin, pouvoir proposer des solutions lui permet de contribuer à définir les choix, au lieu de seulement choisir entre des programmes déjà imposés. S’informer, juger les effets personnels, apprécier le bien public et proposer des solutions dessinent une participation active, que le seul droit de vote n’épuise pas.",
               "",
               [
                 [
@@ -1541,8 +1547,8 @@
                   "Analyse · le rôle de l’initiative citoyenne"
                 ],
                 [
-                  "Ces trois capacités dessinent une participation active, dont le droit de vote ne constitue pas à lui seul toute la réalité.",
-                  "Résultat · dégager l’unité des premières exigences"
+                  "S’informer, juger les effets personnels, apprécier le bien public et proposer des solutions dessinent une participation active, que le seul droit de vote n’épuise pas.",
+                  "Synthèse · réunir les exigences initiales sans confondre intérêt personnel et bien public"
                 ]
               ]
             ],
@@ -1575,12 +1581,12 @@
             ],
             [
               "",
-              "Le mot qui introduit la justification suivante relie ce contrôle du débat à la fabrication des lois. Les citoyens les mieux dotés peuvent faire prévaloir leurs problèmes et leurs solutions dans les décisions collectives. Le texte décrit un risque qui se développe avec le temps, plutôt qu’une domination instantanée et nécessaire. Il précise aussi que les plus favorisés ne s’accordent pas sur tout : leur convergence porte notamment sur la défense de leurs privilèges. Des intérêts particuliers peuvent ainsi orienter des règles qui s’imposeront à tous et consolider les avantages dont cette influence provient. L’égalité juridique des citoyens risque alors de couvrir une dépendance politique effective.",
+              "Le « Car » explique pourquoi le contrôle du débat diminue la valeur des libertés : il permet de peser davantage sur la fabrication des lois. Les citoyens les mieux dotés peuvent faire prévaloir leurs problèmes et leurs solutions dans les décisions collectives. Le texte décrit un risque qui se développe avec le temps, plutôt qu’une domination instantanée et nécessaire. Il précise aussi que les plus favorisés ne s’accordent pas sur tout : leur convergence porte notamment sur la défense de leurs privilèges. Des intérêts particuliers peuvent ainsi orienter des règles qui s’imposeront à tous et consolider les avantages dont cette influence provient. L’égalité juridique des citoyens risque alors de couvrir une dépendance politique effective.",
               "",
               [
                 [
-                  "Le mot qui introduit la justification suivante relie ce contrôle du débat à la fabrication des lois.",
-                  "Deuxième mouvement · identifier la fonction de la justification"
+                  "Le « Car » explique pourquoi le contrôle du débat diminue la valeur des libertés : il permet de peser davantage sur la fabrication des lois.",
+                  "Justification · relier l’inégalité d’influence au diagnostic précédent"
                 ],
                 [
                   "Les citoyens les mieux dotés peuvent faire prévaloir leurs problèmes et leurs solutions dans les décisions collectives.",
@@ -1658,8 +1664,8 @@
           "skill": "La fonction d’une phrase",
           "extract": "Le texte décrit un risque qui se développe avec le temps, plutôt qu’une domination instantanée et nécessaire.",
           "task": "Expliquez le rôle de cette phrase en deux phrases : ce qu’elle précise, puis ce qu’on perdrait en la supprimant.",
-          "hint": "Relisez la phrase précédente dans le modèle. Cherchez une raison, une distinction ou une nuance ajoutée.",
-          "expected": "Elle conserve la modalité du texte : il s’agit d’un risque progressif, pas d’un effet immédiat et inévitable. Sans elle, cette difficulté ou cette nuance resterait inexpliquée."
+          "hint": "Repérez les indications de temps et le verbe qui exprime le risque de prépondérance.",
+          "expected": "Elle conserve la modalité du texte : il s’agit d’un risque progressif, pas d’un effet immédiat et inévitable. Sans cette précision, on attribuerait au texte une prise de contrôle totale et immédiate, au lieu du risque de domination qui se forme progressivement."
         },
         {
           "skill": "Réécrire avec précision",
@@ -1729,7 +1735,8 @@
         "J’explique les concepts et les raisons, avec des appuis exacts.",
         "Je rends compte de toutes les étapes, y compris la dernière phrase.",
         "Je conserve les conditions et les nuances de la thèse.",
-        "Je conserve les nuances qui laissent possible une résistance."
+        "Je conserve les nuances qui laissent possible une résistance.",
+        "Je distingue ce que le texte affirme, ce que j’en déduis et les exemples ou hypothèses que je propose pour l’éclairer."
       ],
       "models": [
         {
@@ -1784,7 +1791,7 @@
             ],
             [
               "",
-              "L’absence de chaînes ne signifie donc pas que le travail soit librement voulu. Puisque la violence physique ne commande pas chaque geste, l’ouvrier doit trouver en lui-même les motifs de son obéissance. La remarque sur les fouets souligne la difficulté de cette transformation intérieure : une violence visible imposerait directement ce que le système obtient en mobilisant les désirs et les craintes. Or les conditions décrites ne laissent agir que la peur de la sanction, l’avidité du gain et, plus partiellement, la compétition de vitesse. Le goût du travail bien fait ou la compréhension d’une œuvre commune ne peuvent alors soutenir durablement l’effort. Ces mobiles doivent devenir obsédants, car leur présence continuelle compense la faiblesse du sens que le travail offre par lui-même.",
+              "L’absence de chaînes ne signifie donc pas que le travail soit librement voulu. Puisque la violence physique ne commande pas chaque geste, l’ouvrier doit trouver en lui-même les motifs de son obéissance. Des fouets rendraient « peut-être » la soumission plus facile : sous une menace physique immédiate, le travailleur n’aurait pas à entretenir aussi continuellement les mobiles intérieurs de son obéissance. Or les conditions décrites ne laissent agir que la peur de la sanction, l’avidité du gain et, plus partiellement, la compétition de vitesse. Le goût du travail bien fait ou la compréhension d’une œuvre commune ne peuvent alors soutenir durablement l’effort. Ces mobiles doivent devenir obsédants, car leur présence continuelle compense la faiblesse du sens que le travail offre par lui-même.",
               "",
               [
                 [
@@ -1796,8 +1803,8 @@
                   "Argument · pourquoi des mobiles intérieurs sont nécessaires"
                 ],
                 [
-                  "La remarque sur les fouets souligne la difficulté de cette transformation intérieure : une violence visible imposerait directement ce que le système obtient en mobilisant les désirs et les craintes.",
-                  "Difficulté · expliquer la comparaison sans approuver la violence"
+                  "Des fouets rendraient « peut-être » la soumission plus facile : sous une menace physique immédiate, le travailleur n’aurait pas à entretenir aussi continuellement les mobiles intérieurs de son obéissance.",
+                  "Comparaison hypothétique · expliquer le paradoxe des fouets sans effacer la réserve ni approuver la violence"
                 ],
                 [
                   "Or les conditions décrites ne laissent agir que la peur de la sanction, l’avidité du gain et, plus partiellement, la compétition de vitesse.",
@@ -1842,7 +1849,7 @@
             ],
             [
               "",
-              "Le retrait intérieur atteint ensuite la relation aux autres ouvriers. Partager une peine ne suffit pas à produire la solidarité quand chacun doit réduire sa sensibilité pour l’endurer. La comparaison avec la pesanteur exprime la puissance du mécanisme ; sa qualification laisse néanmoins subsister une possibilité de résistance. Les comportements reproduisent alors la brutalité de l’organisation, qui devient sensible dans les gestes et les paroles des compagnons. Chacun subit ainsi une dureté que ceux qui la subissent peuvent à leur tour lui faire éprouver.",
+              "Le retrait intérieur atteint ensuite la relation aux autres ouvriers. Partager une peine ne suffit pas à produire la solidarité quand chacun doit réduire sa sensibilité pour l’endurer. La comparaison avec la pesanteur exprime la puissance du mécanisme ; « presque irrésistible » laisse néanmoins subsister une possibilité de résistance. Les comportements reproduisent alors la brutalité de l’organisation, qui devient sensible dans les gestes et les paroles des compagnons. Chacun subit ainsi une dureté que ceux qui la subissent peuvent à leur tour lui faire éprouver.",
               "",
               [
                 [
@@ -1854,8 +1861,8 @@
                   "Argument · expliquer l’indifférence malgré la proximité"
                 ],
                 [
-                  "La comparaison avec la pesanteur exprime la puissance du mécanisme ; sa qualification laisse néanmoins subsister une possibilité de résistance.",
-                  "Modalité · éviter d’en faire un déterminisme absolu"
+                  "La comparaison avec la pesanteur exprime la puissance du mécanisme ; « presque irrésistible » laisse néanmoins subsister une possibilité de résistance.",
+                  "Appui textuel · distinguer une contrainte extrême et une impossibilité absolue"
                 ],
                 [
                   "Les comportements reproduisent alors la brutalité de l’organisation, qui devient sensible dans les gestes et les paroles des compagnons.",
@@ -1905,8 +1912,8 @@
           "skill": "La fonction d’une phrase",
           "extract": "Il n’y a pas contradiction : quelques préoccupations répétitives peuvent envahir une conscience dont les autres possibilités se ferment.",
           "task": "Expliquez le rôle de cette phrase en deux phrases : ce qu’elle précise, puis ce qu’on perdrait en la supprimant.",
-          "hint": "Relisez la phrase précédente dans le modèle. Cherchez une raison, une distinction ou une nuance ajoutée.",
-          "expected": "Elle résout une contradiction apparente : l’esprit peut être envahi par une obsession tout en perdant sa capacité de réflexion. Sans elle, cette difficulté ou cette nuance resterait inexpliquée."
+          "hint": "Distinguez être absorbé par une préoccupation et pouvoir réfléchir librement à son expérience.",
+          "expected": "Elle résout une contradiction apparente : l’esprit peut être envahi par une obsession tout en perdant sa capacité de réflexion. Sans cette distinction, l’occupation de l’âme et l’extinction de la conscience paraîtraient incompatibles, au lieu de constituer deux effets liés de l’obsession."
         },
         {
           "skill": "Réécrire avec précision",
@@ -1976,7 +1983,8 @@
         "J’explique les concepts et les raisons, avec des appuis exacts.",
         "Je rends compte de toutes les étapes, y compris la dernière phrase.",
         "Je conserve les conditions et les nuances de la thèse.",
-        "J’explique la spécialisation partielle et la restriction finale."
+        "J’explique la spécialisation partielle et la restriction finale.",
+        "Je distingue ce que le texte affirme, ce que j’en déduis et les exemples ou hypothèses que je propose pour l’éclairer."
       ],
       "models": [
         {
@@ -2097,15 +2105,15 @@
             ],
             [
               "",
-              "La dernière phrase rassemble ces deux dimensions dans les relations concrètes et virtuelles de chaque élément. Les premières correspondent à ce qu’il est et à ce qu’il a déjà fait ; les secondes aux rapports nouveaux que ses propriétés permettent d’envisager. Un élément rend donc certaines transformations possibles, à l’intérieur d’une famille d’usages que ses caractéristiques limitent. L’invention du bricoleur consiste à reconnaître et à combiner ces possibilités, plutôt qu’à créer sans contraintes.",
+              "La dernière phrase rassemble ces deux dimensions : chaque élément est un « opérateur », c’est-à-dire un moyen d’effectuer certaines transformations. Les relations concrètes correspondent à ce qu’il est et à ce qu’il a déjà fait ; les relations virtuelles aux rapports nouveaux que ses propriétés permettent d’envisager. Un élément rend donc certaines transformations possibles, à l’intérieur d’une famille d’usages que ses caractéristiques limitent. L’invention du bricoleur consiste à reconnaître et à combiner ces possibilités, plutôt qu’à créer sans contraintes.",
               "",
               [
                 [
-                  "La dernière phrase rassemble ces deux dimensions dans les relations concrètes et virtuelles de chaque élément.",
-                  "Dernière étape · identifier la synthèse finale"
+                  "La dernière phrase rassemble ces deux dimensions : chaque élément est un « opérateur », c’est-à-dire un moyen d’effectuer certaines transformations.",
+                  "Concept · expliquer le mot opérateur à partir des usages possibles de l’élément"
                 ],
                 [
-                  "Les premières correspondent à ce qu’il est et à ce qu’il a déjà fait ; les secondes aux rapports nouveaux que ses propriétés permettent d’envisager.",
+                  "Les relations concrètes correspondent à ce qu’il est et à ce qu’il a déjà fait ; les relations virtuelles aux rapports nouveaux que ses propriétés permettent d’envisager.",
                   "Concepts · articuler l’existant et le possible"
                 ],
                 [
@@ -2141,8 +2149,8 @@
           "skill": "La fonction d’une phrase",
           "extract": "Cette limite vaut pour le stock disponible à un moment donné : le texte précise ensuite qu’il peut être enrichi.",
           "task": "Expliquez le rôle de cette phrase en deux phrases : ce qu’elle précise, puis ce qu’on perdrait en la supprimant.",
-          "hint": "Relisez la phrase précédente dans le modèle. Cherchez une raison, une distinction ou une nuance ajoutée.",
-          "expected": "Elle résout l’apparente contradiction entre la clôture de l’ensemble disponible et son enrichissement au fil du temps. Sans elle, cette difficulté ou cette nuance resterait inexpliquée."
+          "hint": "Rapprochez la clôture du stock et les occasions de l’enrichir : parlent-elles du même moment ?",
+          "expected": "Elle résout l’apparente contradiction entre la clôture de l’ensemble disponible et son enrichissement au fil du temps. Sans cette précision temporelle, la clôture du stock semblerait interdire son enrichissement et rendrait incohérentes deux affirmations de l’auteur."
         },
         {
           "skill": "Réécrire avec précision",
