@@ -129,6 +129,9 @@ async function check(root){
     assert(/Y\s*:/u.test(await page.locator('#stepTitle').innerText()),JSON.stringify({id,title:await page.locator('#stepTitle').innerText(),errors,body:(await page.locator('body').innerText()).slice(-2500)}));
     await page.locator('#studentAnswer').fill('Une lecture justifiée du texte '+id);await page.locator('#saveNext').click();
     await page.reload();assert.equal(await page.locator('#studentAnswer').inputValue(),'Une lecture justifiée du texte '+id);
+    await page.locator('#helpButton').click();await page.locator('#helpButton').click();
+    assert(!(await page.locator('#manualHelp').innerText()).includes('Quel procédé peut servir ici'));
+    assert((await page.locator('#manualHelp').innerText()).includes('CORRECTION EXPLIQUÉE'));
     assert((await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth))<=1,id);
    }
    assert.deepEqual(errors,[]);assert.deepEqual(posts,[]);

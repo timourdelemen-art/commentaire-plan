@@ -210,7 +210,8 @@
     const guidedChoices=(step.choix||[]);
     const isStructured=structured(step);
     /* Brevet : pas de liste de procédés au hasard quand la question n’en demande pas. */
-    const procedureOptions=(item.type==="brevet" && !(step.manual||[]).length)?[]:procedureChoices(step);
+    const isReadingStep=item.type==="bac-commentaire" && ["donne","attente","transformation","problematique"].includes(step.id);
+    const procedureOptions=(isReadingStep || (item.type==="brevet" && !(step.manual||[]).length))?[]:procedureChoices(step);
     const hasSecond=guidedChoices.length || procedureOptions.length;
     const showSecond=(isStructured?level>=1:level>=2) && hasSecond;
     const showCorrection=level>=3 && step.correction;
