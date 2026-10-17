@@ -17,7 +17,7 @@ const KEY='commentaire-chaine-fait';            // identifiants « texte-niveau 
 const SEEN_KEY='commentaire-chaine-tentatives'; // nombre de passages par « niveau:texte »
 const MASTERED_KEY='commentaire-chaine-solides';
 const DEF_KEY='commentaire-chaine-defendables';
-const N3_KEY='commentaire-chaine-n3';
+const N3_KEY='commentaire-chaine-n3-xy'; // Les brouillons précédents restent conservés sous leur ancienne clé.
 const getJSON=(k,d)=>{try{const v=JSON.parse(localStorage.getItem(k)||'null');return v==null?d:v}catch(e){return d}};
 const setJSON=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}};
 const arr=k=>{const a=getJSON(k,[]);return Array.isArray(a)?a:[]};
@@ -30,7 +30,7 @@ const LABEL={ok:'Solide',def:'Défendable',no:'À revoir'};
 const ROM={I:'I',II:'II',III:'III'};
 const GROUP={lire:'Lire le texte',pb:'La problématique',I:'Réponse I',T1:'Transition I → II',II:'Réponse II',T2:'Transition II → III',III:'Réponse III',C:'Conclusion'};
 const JAUGE={lire:'Lire',pb:'Pb',I:'I',T1:'?',II:'II',T2:'?',III:'III',C:'Fin'};
-const PLACE={installe:'Ce que le texte installe',attendre:'On pouvait attendre',pourtant:'Pourtant',pb:'La problématique',reponse:'La réponse',transition:'La question',conclusion:'Réponse et question ouverte'};
+const PLACE={installe:'X : ce que le texte présente',lecture:'Y : ce que l’écriture en fait',pb:'La problématique',reponse:'La réponse',transition:'La question',conclusion:'Réponse et question ouverte'};
 
 /* Numérote les réalisations à l’intérieur de chaque partie. */
 TX.forEach(t=>{const n={};t.etapes.forEach(e=>{if(e.k==='real'){n[e.p]=(n[e.p]||0)+1;e.n=n[e.p];}});});
@@ -43,18 +43,17 @@ function question(t,e,write){
   const part=ROM[e.p];
   if(write){
     return ({
-      pourtant:'À vous : complétez « Pourtant, le texte… » en une phrase.',
-      pb:'À vous : dites le problème en une seule question, sans perdre ce qu’on pouvait attendre ni ce que le texte produit.',
+      lecture:'À vous : dites en une phrase ce que l’écriture fait comprendre ou éprouver de ce qu’elle présente.',
+      pb:'À vous : dites le problème en une seule question, sans perdre ce que le texte présente ni ce que son écriture en fait.',
       transition:`À vous : écrivez la question qui montre ce que la réponse ${prevPart(e.p)} n’explique pas encore. Une question ouverte : on ne doit pas pouvoir y répondre par oui ou par non.`,
       real:`À vous : choisissez une réalisation de la partie ${part}. Citez les mots exacts du texte, nommez le procédé s’il aide, dites l’effet ici et ce qu’il prouve. Une ou deux phrases.`,
       conclusion:'À vous : répondez à la problématique en une phrase, puis dites en une question ce qui reste ouvert.'
     })[e.k];
   }
   return ({
-    installe:'Que met en place le passage ? Choisissez la phrase la plus juste.',
-    attendre:'À partir de là, qu’est-ce qu’on pouvait attendre ?',
-    pourtant:'Pourtant, que produit le texte à la place ?',
-    pb:'Dites le problème en une seule question, sans perdre ce qu’on pouvait attendre ni ce que le texte produit. Quelle question le fait ?',
+    installe:'X : que présente le passage ? Choisissez la phrase la plus juste.',
+    lecture:'Y : que fait comprendre ou éprouver l’écriture de ce passage ?',
+    pb:'Dites le problème en une seule question, sans perdre ce que le texte présente ni ce que son écriture en fait. Quelle question le fait ?',
     reponse:e.p==='I'?'Quelle réponse la partie I donne-t-elle à la problématique ?':`Quelle réponse la partie ${part} donne-t-elle à la question de la transition ?`,
     real:`Réalisation ${e.n} de la partie ${part} : quelle analyse prouve la réponse ?`,
     transition:`Entre la partie ${prevPart(e.p)} et la partie ${nextPart(e.p)} : quelle question montre ce que la réponse ${prevPart(e.p)} n’explique pas encore ?`,
@@ -64,7 +63,7 @@ function question(t,e,write){
 /* Les mots de la méthode, expliqués à leur première apparition dans le parcours. */
 function definition(t,e,i){
   const first=k=>t.etapes.findIndex(x=>x.k===k)===i;
-  if(e.k==='pb') return 'La phrase « On pouvait attendre… Pourtant… » dit le problème en long ; la problématique le dit en une seule question.';
+  if(e.k==='pb') return 'X désigne ce que le texte présente ; Y, ce que son écriture en fait comprendre. La problématique demande comment le texte construit cette lecture.';
   if(e.k==='reponse'&&first('reponse')) return 'Une grande partie s’appelle une réponse : elle répond à la problématique, en une phrase.';
   if(e.k==='real'&&first('real')) return 'Une réalisation, c’est ce que le texte fait, prouvé par ses mots : la citation, le procédé s’il aide, l’effet ici, et ce que cela prouve.';
   if(e.k==='transition'&&first('transition')) return 'Entre deux parties, on écrit une question : elle montre ce que la partie précédente n’a pas expliqué. C’est la transition-question ; la partie suivante y répond en reprenant son mot clé.';
@@ -72,15 +71,15 @@ function definition(t,e,i){
   return '';
 }
 const HINT={
-  pourtant:'Relisez la fin du texte : qu’est-ce qui n’arrive pas comme on pouvait le prévoir ?',
-  pb:'Gardez un mot de ce qu’on pouvait attendre et un mot de ce que le texte produit. Forme possible : « Comment [l’auteur] fait-il de … … ? »',
+  lecture:'Relisez tout le passage. Quel rapport, quelle valeur ou quelle expérience les mots rendent-ils sensibles ?',
+  pb:'Reliez ce que le texte présente à ce que son écriture en fait. Demandez comment cette lecture se construit dans le passage.',
   transition:'Partez de ce que la réponse précédente laisse sans explication. Commencez par « Comment », « Pourquoi » ou « Qu’est-ce qui ».',
   real:'Partez de ce que le texte fait, pas d’une figure de style. Cherchez ensuite les mots qui le montrent.',
   conclusion:'La réponse reprend la problématique. La question part de ce que votre dernière partie ne règle pas.'
 };
 const CHECK={
-  pourtant:['Votre phrase dit ce que le texte produit, pas seulement un fait du texte.','Elle s’oppose vraiment à ce qu’on pouvait attendre.'],
-  pb:['On reconnaît le texte dans votre question.','On y retrouve ce qu’on pouvait attendre et ce que le texte produit.','Elle ne donne pas déjà la réponse.'],
+  lecture:['Votre phrase dit ce que l’écriture fait comprendre, sans se limiter au résumé.','Deux éléments du passage peuvent soutenir cette lecture.'],
+  pb:['On reconnaît le texte dans votre question.','On y retrouve ce que le texte présente et ce que son écriture en fait.','Elle ne donne pas déjà la réponse.'],
   transition:['C’est une question ouverte : on ne peut pas y répondre par oui ou par non.','Elle part de ce que la réponse précédente n’explique pas.','La réponse suivante peut reprendre son mot clé.'],
   real:['Les mots cités sont exactement ceux du texte.','L’effet est dit pour ce passage, pas en général.','On voit ce que cela prouve pour la réponse.'],
   conclusion:['Votre première phrase répond à la problématique.','Votre question naît du texte, pas d’une idée générale.']
@@ -145,7 +144,7 @@ function carte(){
   const ids=p=>t.etapes.map((e,i)=>e.p===p?i:-1).filter(i=>i>=0);
   const bloc=(p,cls)=>{const l=ids(p);if(!l.length) return '';
     if(/^T/.test(p)) return `<div class="cc-trans${got[l[0]]?'':' vide'}${step===l[0]?' now':''}"><em>Transition-question</em>${got[l[0]]?T(got[l[0]]):'Une question, entre les deux parties.'}</div>`;
-    if(p==='pb') return `<div class="cc-pbm${got[l[0]]?'':' vide'}${step===l[0]?' now':''}"><em>Problématique</em>${got[l[0]]?T(got[l[0]]):'Elle naîtra du « pourtant ».'}</div>`;
+    if(p==='pb') return `<div class="cc-pbm${got[l[0]]?'':' vide'}${step===l[0]?' now':''}"><em>Problématique</em>${got[l[0]]?T(got[l[0]]):'Elle demandera comment l’écriture construit votre lecture.'}</div>`;
     return `<div class="cc-bloc ${cls||''}"><strong>${typo(GROUP[p])}</strong>${l.map(cell).join('')}</div>`;};
   return `<details class="cc-carte"${wide()||step>=n?' open':''}><summary>Votre commentaire se construit <span>${nb} sur ${n}</span></summary>
   ${['lire','pb','I','T1','II','T2','III','C'].map(p=>bloc(p)).join('')}</details>`;
@@ -156,9 +155,8 @@ function context(t,e){
   const line=(a,b)=>b?`<span class="cc-ctx">${a?`<em>${typo(a)}</em> `:''}${T(b)}</span>`:'';
   switch(e.k){
     case 'installe': return '';
-    case 'attendre': return line('Le texte installe :',g('installe'));
-    case 'pourtant': return line('',g('attendre'));
-    case 'pb': return line('',g('attendre'))+line('',g('pourtant'));
+    case 'lecture': return line('X :',g('installe'));
+    case 'pb': return line('X :',g('installe'))+line('Y :',g('lecture'));
     case 'reponse': if(e.p==='I') return line('Problématique :',g('pb')); {const i=t.etapes.findIndex(x=>x.p===(e.p==='II'?'T1':'T2'));return line('Transition :',got[i]);}
     case 'real': return line('Réponse '+ROM[e.p]+' :',partRep(e.p));
     case 'transition': return line('Réponse '+prevPart(e.p)+' :',partRep(prevPart(e.p)));
@@ -203,11 +201,11 @@ function endView(){
   const verdict=hadNo?'<b class="cc-a-revoir">Texte à reprendre.</b> Une réponse était « À revoir » : recommencez-le, ou essayez un autre texte.':(hadDef?'<b class="cc-valide">✓ Texte réussi.</b> Réponses solides ou défendables : repassez-le pour viser « Solide » partout.':'<b class="cc-valide">✓ Texte réussi.</b> Toutes vos réponses étaient solides.');
   const pastilles=[0,1,2].map(i=>`<i class="${i<mastered.length?'on':''}"></i>`).join('');
   const bilan=level===1?`<div class="cc-bilan"><p>${verdict}</p><p class="cc-score"><span class="cc-pastilles" aria-hidden="true">${pastilles}</span><strong>${Math.min(mastered.length,TX.length)} texte${mastered.length>1?'s':''} réussi${mastered.length>1?'s':''} sur 3 conseillés</strong>${defs.length?` <span>(dont ${defs.length} avec une réponse défendable)</span>`:''}</p><p class="micro">${ready?'Trois textes différents réussis : passez au niveau 2, où vous écrirez vous-même certaines réponses.':'Pour consolider le geste, changez de texte : c’est en le refaisant ailleurs qu’on le possède. Le niveau 2 reste ouvert à tout moment.'}</p></div>`
-   :`<div class="cc-bilan"><p><strong>Ce que vous gagnez :</strong> vous avez écrit vous-même le « pourtant », la problématique, une transition-question, une réalisation et la conclusion, puis vous les avez comparés à des réponses possibles. Refaites-le sur un autre texte, puis essayez le plan entier, seul.</p></div>`;
+   :`<div class="cc-bilan"><p><strong>Ce que vous gagnez :</strong> vous avez écrit vous-même votre lecture Y, la problématique, une transition-question, une réalisation et la conclusion, puis vous les avez comparés à des réponses possibles. Refaites-le sur un autre texte, puis essayez le plan entier, seul.</p></div>`;
   const primaire=level===1&&!ready;
   return `<div class="chaine-fin cc-fin"><div class="kicker">VOTRE PROBLÉMATIQUE</div><h2>Votre plan est construit.</h2>
   <p class="chaine-pb">${T(got[pbi]||'')}</p>
-  <p class="micro">De la lecture au « pourtant », puis la question, les réponses, les transitions et la conclusion : tout le plan est dans la carte${wide()?', à droite':', plus bas'}.</p>
+  <p class="micro">De X à Y, puis la question, les réponses, les transitions et la conclusion : tout le plan est dans la carte${wide()?', à droite':', plus bas'}.</p>
   ${bilan}
   <div class="chaine-nav">
    <button type="button" class="btn ${primaire?'red ':''}small comm-nextsubj">${level===1&&!ready?'Consolider sur un autre texte →':'Essayer un autre texte →'}</button>
@@ -227,8 +225,8 @@ function fields(t){
   const sans='Le plan modèle s’arrête à deux parties : ce texte n’en appelle pas une troisième.';
   const three=t.parties===3;
   return [
-   {id:'attendre',lab:'On pouvait attendre…',ph:'On pouvait attendre…',m:ok('attendre'),r:2},
-   {id:'pourtant',lab:'Pourtant, le texte…',ph:'Pourtant, le texte…',m:ok('pourtant'),r:2},
+   {id:'configuration',lab:'X : ce que le texte présente',ph:'Décrivez la scène, le portrait ou la pensée en une phrase.',m:ok('installe'),r:2},
+   {id:'lecture',lab:'Y : ce que l’écriture en fait',ph:'Dites ce qu’elle fait comprendre ou éprouver.',m:ok('lecture'),r:2},
    {id:'pb',lab:'Problématique : une seule question',ph:'Comment… ?',m:ok('pb'),r:2,k:'pb'},
    {id:'r1',lab:'Réponse I',ph:'La réponse de la partie I, en une phrase.',m:rep('I'),r:2,g:'I'},
    {id:'re1',lab:'Deux réalisations de la partie I',ph:'Pour chacune : les mots cités, le procédé s’il aide, l’effet ici.',m:reals('I'),r:4,g:'I',k:'real'},
@@ -245,7 +243,7 @@ function level3(){
   const t=tx(), F=fields(t), all=getJSON(N3_KEY,{}), d=(all&&all[t.id])||{};
   const form=F.map(f=>`<div class="cc-f ${f.cls||''}${f.opt?' cc-f-opt':''}"><label for="n3-${f.id}">${typo(f.lab)}</label><textarea id="n3-${f.id}" data-f="${f.id}" rows="${f.r}" placeholder="${esc(typo(f.ph))}" data-feedback="off">${esc(d[f.id]||'')}</textarea>${compared?`<div class="cc-modele"><em>Plan modèle</em>${esc(typo(f.m)).replace(/\n/g,'<br>')}</div>${f.k&&d[f.id]?warn(f.k==='real'?'real':f.k,d[f.id]).map(x=>`<p class="cc-warn">${T(x)}</p>`).join(''):''}`:''}</div>`).join('');
   return `<div class="chaine-step cc-step cc-n3"><h2>Le plan entier, sans propositions.</h2>
-  <p>Faites seul tout le chemin, du « pourtant » à la conclusion. Écrivez court : une phrase par case. Ensuite seulement, comparez avec le plan modèle. Votre brouillon reste dans ce navigateur.</p>
+  <p>Faites seul tout le chemin, de votre lecture du texte à la conclusion. Écrivez court : une phrase par case. Ensuite seulement, comparez avec le plan modèle. Votre brouillon reste dans ce navigateur.</p>
   <details class="cc-texte"${wide()?' open':''}><summary>Le texte · ${T(t.ref)}</summary><div class="texte-examen">${t.html}</div><p class="micro">${T(t.source)}</p></details>
   <div class="cc-form">${form}</div>
   <div class="chaine-nav">${compared?`<button type="button" class="btn small comm-hide">Masquer le plan modèle</button>`:`<button type="button" class="btn red small comm-reveal">Comparer avec le plan modèle</button>`}<button type="button" class="home-text-link comm-clear">Effacer mon brouillon</button><button type="button" class="home-text-link comm-prevlevel">← Niveau précédent</button></div>

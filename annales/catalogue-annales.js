@@ -19,85 +19,34 @@ window.ANNALES_CATALOGUE = {
         "id": "donne",
         "kind": "lecture",
         "aiMode": "none",
-        "titre": "1. Ce que le texte met en place",
+        "titre": "1. X : ce que le texte présente",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases : que se passe-t-il au début du texte ? Restez au plus près des mots du passage.",
-        "aide": "Commencez par ce qui est effectivement présent : champ de bataille, survivant, morts, paroles du personnage. Ne donnez pas encore le sens global du poème.",
-        "choix": [
-          [
-            "Un guerrier vainqueur célèbre son triomphe sur le champ de bataille.",
-            "no",
-            "Relisez : Hialmar est blessé à mort, entouré de morts. Rien n’indique une victoire."
-          ],
-          [
-            "Un guerrier blessé à mort reste seul parmi ses compagnons tués.",
-            "ok",
-            "C’est ce que le texte met en place : une défaite physique, et la mort qui vient."
-          ],
-          [
-            "Un guerrier mourant pense à la femme qu’il aime, loin du combat.",
-            "def",
-            "C’est vrai plus loin dans le poème, mais ce n’est pas ce que le texte installe d’abord : la défaite."
-          ]
-        ],
-        "correction": "Le texte met en place une défaite physique : Hialmar est grièvement blessé, entouré de guerriers morts, et sa propre mort est imminente."
+        "consigne": "En une phrase, décrivez ce que présente le passage : scène, portrait, pensée ou perception. Précisez qui parle si cela compte.",
+        "aide": "Distinguez ce qui est écrit de ce que vous imaginez. Appuyez-vous sur deux détails du passage.",
+        "correction": "Un guerrier agonisant prend la parole au milieu des morts."
       },
       {
         "id": "attente",
         "kind": "lecture",
         "aiMode": "none",
-        "titre": "2. Ce qu’on pouvait attendre",
+        "titre": "2. Y : ce que son écriture en fait",
         "temps": 300,
         "access": "free",
-        "consigne": "En une phrase, complétez : « On pouvait attendre… ».\nÀ partir de ce que le texte installe, quelle suite paraissait normale ?",
-        "aide": "À partir d’un guerrier mortellement blessé après une défaite, quelle évolution paraîtrait la plus attendue ? Une phrase suffit.",
-        "choix": [
-          [
-            "Une agonie douloureuse, subie dans l’impuissance face à la mort.",
-            "ok",
-            "C’est l’attente la plus simple : un corps vaincu laisse attendre une mort subie."
-          ],
-          [
-            "Une victoire éclatante qui renverse le cours de la bataille.",
-            "no",
-            "Un guerrier blessé à mort ne peut plus gagner la bataille : ce n’est pas ce qu’on attend."
-          ],
-          [
-            "Une plainte où le guerrier maudit les dieux qui l’abandonnent.",
-            "def",
-            "Possible, mais vous ajoutez une révolte que rien n’annonce : l’attente la plus simple est l’agonie subie."
-          ]
-        ],
-        "correction": "À partir de cette situation, on attendrait naturellement une agonie subie : le corps est vaincu et tout semble annoncer l’impuissance devant la mort."
+        "consigne": "En une phrase, dites ce que l’écriture fait comprendre ou éprouver de ce qu’elle présente. Ne racontez pas seulement le passage.",
+        "aide": "Cherchez une valeur, une relation ou une expérience rendue sensible. Elle peut se maintenir ou se préciser sans renversement.",
+        "correction": "Sa parole donne à la mort une grandeur héroïque et amoureuse, sans abolir la défaite du corps."
       },
       {
         "id": "transformation",
         "kind": "lecture",
         "aiMode": "none",
-        "titre": "3. Pourtant",
+        "titre": "3. Vérifier avec deux indices",
         "temps": 360,
         "access": "free",
-        "consigne": "En une ou deux phrases, complétez : « Pourtant, le texte produit… ». Dites ce que le texte fait à la place de ce qu’on attendait.\nExemple sur un autre texte : « On pouvait attendre une scène de deuil. Pourtant, le poème en fait une fête. »\nLe pourtant n’a pas besoin d’être spectaculaire : une complication, une intensification ou une résistance suffisent. S’il ne vient pas, relisez le texte : n’inventez pas de problème.",
-        "aide": "Comparez ce qu’on pouvait attendre à ce que Hialmar fait et dit jusqu’au dernier vers. Complétez « Pourtant, le texte produit… » sans encore construire le plan.",
-        "choix": [
-          [
-            "La défaite subie devient, par la parole, une victoire héroïque.",
-            "ok",
-            "Le poème garde la défaite du corps, mais en change le sens : Hialmar reprend la maîtrise en parlant."
-          ],
-          [
-            "Le poème décrit avec précision les blessures du guerrier.",
-            "no",
-            "C’est ce que le texte montre, pas ce qu’il en fait : il n’y a pas encore de pourtant."
-          ],
-          [
-            "Le guerrier oublie sa mort en pensant à celle qu’il aime.",
-            "def",
-            "Il pense bien à la fille d’Ylmer, mais il n’oublie pas sa mort : il la commande. C’est là qu’est le pourtant."
-          ]
-        ],
-        "correction": "On pouvait attendre une agonie subie. Pourtant, le poème ne supprime pas la défaite du corps : il en change le sens. Hialmar reprend la maîtrise par la parole et fait de sa mort une victoire héroïque."
+        "consigne": "Relevez deux éléments précis du passage. Pour chacun, expliquez en une phrase comment il soutient votre lecture Y.",
+        "aide": "Comparez les ordres adressés au corbeau et les images de la réunion avec les dieux.",
+        "correction": "Les impératifs adressés au corbeau laissent au mourant le pouvoir de commander. L’évocation d’une réunion avec les dieux donne à la mort une grandeur qui dépasse la destruction du corps. Vérifiez et citez les mots exacts dans le passage."
       },
       {
         "id": "problematique",
@@ -106,26 +55,9 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Dites le problème en une seule question, sans perdre X (ce qu’on pouvait attendre) ni Y (ce que le texte produit pourtant).\nForme possible : « Comment [l’auteur] fait-il de X Y ? » ou « Comment comprendre que… ? »\nTest : relisez votre question. Y retrouvez-vous X et Y ?",
-        "aide": "Gardez ensemble l’agonie réellement subie et ce que la parole de Hialmar en fait progressivement.",
-        "choix": [
-          [
-            "Comment le poème décrit-il un champ de bataille après le combat ?",
-            "no",
-            "Une question de description : on n’y retrouve ni l’agonie subie ni ce que le poème en fait."
-          ],
-          [
-            "Comment le poème fait-il d’une agonie subie une victoire héroïque ?",
-            "ok",
-            "On y retrouve X, l’agonie subie, et Y, la victoire héroïque ; et elle ne donne pas la réponse."
-          ],
-          [
-            "Comment Hialmar exprime-t-il son amour pour la fille d’Ylmer ?",
-            "def",
-            "Le message d’amour compte, mais la question perd X, l’agonie subie : elle est trop étroite."
-          ]
-        ],
-        "correction": "Le problème : « On pouvait attendre une agonie subie. Pourtant, par la parole, Hialmar fait de sa mort une victoire. » Problématique, en une seule question : « Comment Leconte de Lisle fait-il de l’agonie d’un guerrier vaincu une victoire héroïque ? » On y retrouve X, l’agonie, et Y, la victoire."
+        "consigne": "Posez en une phrase la question que votre commentaire expliquera. Reliez ce que le texte présente (X) à ce que son écriture en fait (Y). Vous pouvez commencer par « Comment… ? ».",
+        "aide": "Vérifiez que la question porte sur ce passage précis et permet d’analyser son écriture. Elle n’énumère pas les procédés.",
+        "correction": "Une question possible : Comment la parole d’un mourant donne-t-elle une grandeur héroïque et amoureuse à sa mort ?"
       },
       {
         "id": "plan",
@@ -226,7 +158,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "free",
-        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qu’on pouvait attendre, puis ce que le texte produit pourtant.\nPosez la problématique : le même problème, en une seule question.\nAnnoncez les parties.",
+        "consigne": "Rédigez une introduction brève : présentez le texte ; indiquez ce qu’il fait apparaître ; posez votre problématique ; annoncez les réponses du plan. Chaque phrase doit avoir une fonction.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -262,7 +194,8 @@ window.ANNALES_CATALOGUE = {
     ],
     "texteDomainePublic": true,
     "supportSource": "Leconte de Lisle, Poèmes barbares, « Le Cœur de Hialmar », 1862. Texte reproduit d’après le sujet officiel du bac 2026, Amérique du Nord (26-FRGEAN1).",
-    "supportText": "<p class='vers'>Une nuit claire, un vent glacé. La neige est rouge.</p><p class='vers'>Mille braves sont là qui dorment sans tombeaux,</p><p class='vers'>L’épée au poing, les yeux hagards. Pas un ne bouge.</p><p class='vers'>Au-dessus tourne et crie un vol de noirs corbeaux.</p><p class='vers'><span class='line-no'>5</span>La lune froide verse au loin sa pâle flamme.</p><p class='vers'>Hialmar se soulève entre les morts sanglants,</p><p class='vers'>Appuyé des deux mains au tronçon de sa lame.</p><p class='vers'>La pourpre du combat ruisselle de ses flancs.</p><p class='vers'>— Holà ! Quelqu’un a-t-il encore un peu d’haleine,</p><p class='vers'><span class='line-no'>10</span>Parmi tant de joyeux et robustes garçons</p><p class='vers'>Qui, ce matin, riaient et chantaient à voix pleine</p><p class='vers'>Comme des merles dans l’épaisseur des buissons ?</p><p class='vers'>Tous sont muets. Mon casque est rompu, mon armure</p><p class='vers'>Est trouée, et la hache a fait sauter ses clous.</p><p class='vers'><span class='line-no'>15</span>Mes yeux saignent. J’entends un immense murmure</p><p class='vers'>Pareil aux hurlements de la mer ou des loups.</p><p class='vers'>Viens par ici, Corbeau, mon brave mangeur d’hommes !</p><p class='vers'>Ouvre-moi la poitrine avec ton bec de fer.</p><p class='vers'>Tu nous retrouveras demain tels que nous sommes ;</p><p class='vers'><span class='line-no'>20</span>Porte mon cœur tout chaud à la fille d’Ylmer<sup>1</sup>.</p><p class='vers'>Dans Upsal<sup>2</sup>, où les Jarls<sup>3</sup> boivent la bonne bière,</p><p class='vers'>Et chantent, en heurtant les cruches d’or, en chœur,</p><p class='vers'>À tire d’aile vole, ô rôdeur de bruyère !</p><p class='vers'>Cherche ma fiancée et porte-lui mon cœur.</p><p class='vers'><span class='line-no'>25</span>Au sommet de la tour que hantent les corneilles</p><p class='vers'>Tu la verras debout, blanche, aux longs cheveux noirs ;</p><p class='vers'>Deux anneaux d’argent fin lui pendent aux oreilles,</p><p class='vers'>Et ses yeux sont plus clairs que l’astre des beaux soirs.</p><p class='vers'>Va, sombre messager, dis-lui bien que je l’aime,</p><p class='vers'><span class='line-no'>30</span>Et que voici mon cœur. Elle reconnaîtra</p><p class='vers'>Qu’il est rouge et solide et non tremblant et blême ;</p><p class='vers'>Et la fille d’Ylmer, Corbeau, te sourira !</p><p class='vers'>Moi, je meurs. Mon esprit coule par vingt blessures.</p><p class='vers'>J’ai fait mon temps. Buvez, ô loups, mon sang vermeil.</p><p class='vers'><span class='line-no'>35</span>Jeune, brave, riant, libre et sans flétrissures,</p><p class='vers'>Je vais m’asseoir parmi les Dieux, dans le soleil !</p><p class='micro'><sup>1</sup> Hialmar, Ylmer : guerriers de la mythologie nordique (scandinave).<br><sup>2</sup> Upsal : ville de Scandinavie.<br><sup>3</sup> Jarls : chef de clan et de guerre dans l’ancienne Scandinavie.</p>"
+    "supportText": "<p class='vers'>Une nuit claire, un vent glacé. La neige est rouge.</p><p class='vers'>Mille braves sont là qui dorment sans tombeaux,</p><p class='vers'>L’épée au poing, les yeux hagards. Pas un ne bouge.</p><p class='vers'>Au-dessus tourne et crie un vol de noirs corbeaux.</p><p class='vers'><span class='line-no'>5</span>La lune froide verse au loin sa pâle flamme.</p><p class='vers'>Hialmar se soulève entre les morts sanglants,</p><p class='vers'>Appuyé des deux mains au tronçon de sa lame.</p><p class='vers'>La pourpre du combat ruisselle de ses flancs.</p><p class='vers'>— Holà ! Quelqu’un a-t-il encore un peu d’haleine,</p><p class='vers'><span class='line-no'>10</span>Parmi tant de joyeux et robustes garçons</p><p class='vers'>Qui, ce matin, riaient et chantaient à voix pleine</p><p class='vers'>Comme des merles dans l’épaisseur des buissons ?</p><p class='vers'>Tous sont muets. Mon casque est rompu, mon armure</p><p class='vers'>Est trouée, et la hache a fait sauter ses clous.</p><p class='vers'><span class='line-no'>15</span>Mes yeux saignent. J’entends un immense murmure</p><p class='vers'>Pareil aux hurlements de la mer ou des loups.</p><p class='vers'>Viens par ici, Corbeau, mon brave mangeur d’hommes !</p><p class='vers'>Ouvre-moi la poitrine avec ton bec de fer.</p><p class='vers'>Tu nous retrouveras demain tels que nous sommes ;</p><p class='vers'><span class='line-no'>20</span>Porte mon cœur tout chaud à la fille d’Ylmer<sup>1</sup>.</p><p class='vers'>Dans Upsal<sup>2</sup>, où les Jarls<sup>3</sup> boivent la bonne bière,</p><p class='vers'>Et chantent, en heurtant les cruches d’or, en chœur,</p><p class='vers'>À tire d’aile vole, ô rôdeur de bruyère !</p><p class='vers'>Cherche ma fiancée et porte-lui mon cœur.</p><p class='vers'><span class='line-no'>25</span>Au sommet de la tour que hantent les corneilles</p><p class='vers'>Tu la verras debout, blanche, aux longs cheveux noirs ;</p><p class='vers'>Deux anneaux d’argent fin lui pendent aux oreilles,</p><p class='vers'>Et ses yeux sont plus clairs que l’astre des beaux soirs.</p><p class='vers'>Va, sombre messager, dis-lui bien que je l’aime,</p><p class='vers'><span class='line-no'>30</span>Et que voici mon cœur. Elle reconnaîtra</p><p class='vers'>Qu’il est rouge et solide et non tremblant et blême ;</p><p class='vers'>Et la fille d’Ylmer, Corbeau, te sourira !</p><p class='vers'>Moi, je meurs. Mon esprit coule par vingt blessures.</p><p class='vers'>J’ai fait mon temps. Buvez, ô loups, mon sang vermeil.</p><p class='vers'><span class='line-no'>35</span>Jeune, brave, riant, libre et sans flétrissures,</p><p class='vers'>Je vais m’asseoir parmi les Dieux, dans le soleil !</p><p class='micro'><sup>1</sup> Hialmar, Ylmer : guerriers de la mythologie nordique (scandinave).<br><sup>2</sup> Upsal : ville de Scandinavie.<br><sup>3</sup> Jarls : chef de clan et de guerre dans l’ancienne Scandinavie.</p>",
+    "methodeVersion": "xy-2026-10"
   },
   "bac-2026-amerique-du-nord-general-commentaire-nicolas-bouvier-usage-du-monde": {
     "examen": "Bac",
@@ -284,31 +217,34 @@ window.ANNALES_CATALOGUE = {
         "id": "donne",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "1. Ce que le texte met en place",
+        "titre": "1. X : ce que le texte présente",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases : que se passe-t-il au début du texte ? Restez au plus près des mots du passage.",
-        "aide": "Partez du déplacement concret annoncé par le sujet : deux jeunes voyageurs quittent la Serbie pour gagner la Macédoine. Relevez ce que le passage donne à percevoir avant d’interpréter."
+        "consigne": "En une phrase, décrivez ce que présente le passage : scène, portrait, pensée ou perception. Précisez qui parle si cela compte.",
+        "aide": "Distinguez ce qui est écrit de ce que vous imaginez. Appuyez-vous sur deux détails du passage.",
+        "correction": "Deux voyageurs racontent un déplacement lent et peu fortuné."
       },
       {
         "id": "attente",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "2. Ce qu’on pouvait attendre",
+        "titre": "2. Y : ce que son écriture en fait",
         "temps": 300,
         "access": "free",
-        "consigne": "En une phrase, complétez : « On pouvait attendre… ».\nÀ partir de ce que le texte installe, quelle suite paraissait normale ?",
-        "aide": "Un récit de voyage pourrait se limiter au trajet, aux lieux et aux étapes. Demandez-vous ce que ce cadre fait d’abord attendre."
+        "consigne": "En une phrase, dites ce que l’écriture fait comprendre ou éprouver de ce qu’elle présente. Ne racontez pas seulement le passage.",
+        "aide": "Cherchez une valeur, une relation ou une expérience rendue sensible. Elle peut se maintenir ou se préciser sans renversement.",
+        "correction": "Le voyage devient une disponibilité aux sensations et au monde, qui engage le corps et la pensée."
       },
       {
         "id": "transformation",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "3. Pourtant",
+        "titre": "3. Vérifier avec deux indices",
         "temps": 360,
         "access": "free",
-        "consigne": "En une ou deux phrases, complétez : « Pourtant, le texte produit… ». Dites ce que le texte fait à la place de ce qu’on attendait.\nExemple sur un autre texte : « On pouvait attendre une scène de deuil. Pourtant, le poème en fait une fête. »\nLe pourtant n’a pas besoin d’être spectaculaire : une complication, une intensification ou une résistance suffisent. S’il ne vient pas, relisez le texte : n’inventez pas de problème.",
-        "aide": "Observez ce que l’écriture fait de l’expérience du déplacement : ne résumez pas le voyage, formulez ce que le regard ou la perception deviennent dans le passage."
+        "consigne": "Relevez deux éléments précis du passage. Pour chacun, expliquez en une phrase comment il soutient votre lecture Y.",
+        "aide": "Reliez les sensations concrètes aux réflexions sur ce que la route apporte aux voyageurs.",
+        "correction": "Les sensations concrètes inscrivent la découverte dans le corps du voyageur. La réflexion sur ce que la route apporte donne à ces sensations la valeur d’une disponibilité au monde. Vérifiez et citez les mots exacts dans le passage."
       },
       {
         "id": "problematique",
@@ -317,8 +253,9 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Dites le problème en une seule question, sans perdre X (ce qu’on pouvait attendre) ni Y (ce que le texte produit pourtant).\nForme possible : « Comment [l’auteur] fait-il de X Y ? » ou « Comment comprendre que… ? »\nTest : relisez votre question. Y retrouvez-vous X et Y ?",
-        "aide": "Votre question doit garder ensemble l’expérience concrète du voyage et le déplacement que l’écriture fait subir au regard."
+        "consigne": "Posez en une phrase la question que votre commentaire expliquera. Reliez ce que le texte présente (X) à ce que son écriture en fait (Y). Vous pouvez commencer par « Comment… ? ».",
+        "aide": "Vérifiez que la question porte sur ce passage précis et permet d’analyser son écriture. Elle n’énumère pas les procédés.",
+        "correction": "Une question possible : Comment le récit du voyage donne-t-il corps à une disponibilité au monde ?"
       },
       {
         "id": "plan",
@@ -384,7 +321,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qu’on pouvait attendre, puis ce que le texte produit pourtant.\nPosez la problématique : le même problème, en une seule question.\nAnnoncez les parties.",
+        "consigne": "Rédigez une introduction brève : présentez le texte ; indiquez ce qu’il fait apparaître ; posez votre problématique ; annoncez les réponses du plan. Chaque phrase doit avoir une fonction.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -418,7 +355,8 @@ window.ANNALES_CATALOGUE = {
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
     ],
-    "texteDomainePublic": false
+    "texteDomainePublic": false,
+    "methodeVersion": "xy-2026-10"
   },
   "bac-2025-metropole-general-commentaire-barbey-ensorcelee": {
     "examen": "Bac",
@@ -440,31 +378,34 @@ window.ANNALES_CATALOGUE = {
         "id": "donne",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "1. Ce que le texte met en place",
+        "titre": "1. X : ce que le texte présente",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases : que se passe-t-il au début du texte ? Restez au plus près des mots du passage.",
-        "aide": "Décrivez d’abord ce que le passage met en place : un paysage désertique, son étendue, son isolement et la manière dont le narrateur en parle. Pas encore d’interprétation fantastique."
+        "consigne": "En une phrase, décrivez ce que présente le passage : scène, portrait, pensée ou perception. Précisez qui parle si cela compte.",
+        "aide": "Distinguez ce qui est écrit de ce que vous imaginez. Appuyez-vous sur deux détails du passage.",
+        "correction": "Le narrateur décrit la lande normande de Lessay."
       },
       {
         "id": "attente",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "2. Ce qu’on pouvait attendre",
+        "titre": "2. Y : ce que son écriture en fait",
         "temps": 300,
         "access": "free",
-        "consigne": "En une phrase, complétez : « On pouvait attendre… ».\nÀ partir de ce que le texte installe, quelle suite paraissait normale ?",
-        "aide": "Une description précise d’un lieu réel pourrait rester géographique ou réaliste. Formulez cette attente simplement."
+        "consigne": "En une phrase, dites ce que l’écriture fait comprendre ou éprouver de ce qu’elle présente. Ne racontez pas seulement le passage.",
+        "aide": "Cherchez une valeur, une relation ou une expérience rendue sensible. Elle peut se maintenir ou se préciser sans renversement.",
+        "correction": "La description fait du lieu réel un espace livré aux peurs, aux rumeurs et à l’imagination."
       },
       {
         "id": "transformation",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "3. Pourtant",
+        "titre": "3. Vérifier avec deux indices",
         "temps": 360,
         "access": "free",
-        "consigne": "En une ou deux phrases, complétez : « Pourtant, le texte produit… ». Dites ce que le texte fait à la place de ce qu’on attendait.\nExemple sur un autre texte : « On pouvait attendre une scène de deuil. Pourtant, le poème en fait une fête. »\nLe pourtant n’a pas besoin d’être spectaculaire : une complication, une intensification ou une résistance suffisent. S’il ne vient pas, relisez le texte : n’inventez pas de problème.",
-        "aide": "Suivez ce qui arrive à cette lande au fil du passage : comment la description cesse-t-elle d’être seulement géographique ?"
+        "consigne": "Relevez deux éléments précis du passage. Pour chacun, expliquez en une phrase comment il soutient votre lecture Y.",
+        "aide": "Observez les liens entre les caractéristiques du paysage, les bruits rapportés et les croyances.",
+        "correction": "Les indications sur la lande donnent au lieu une consistance géographique. Les rumeurs et les croyances rapportées l’ouvrent à une perception inquiétante, sans prouver une apparition surnaturelle. Vérifiez et citez les mots exacts dans le passage."
       },
       {
         "id": "problematique",
@@ -473,8 +414,9 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Dites le problème en une seule question, sans perdre X (ce qu’on pouvait attendre) ni Y (ce que le texte produit pourtant).\nForme possible : « Comment [l’auteur] fait-il de X Y ? » ou « Comment comprendre que… ? »\nTest : relisez votre question. Y retrouvez-vous X et Y ?",
-        "aide": "Gardez ensemble le paysage réel de Lessay et la manière dont le texte modifie progressivement sa perception."
+        "consigne": "Posez en une phrase la question que votre commentaire expliquera. Reliez ce que le texte présente (X) à ce que son écriture en fait (Y). Vous pouvez commencer par « Comment… ? ».",
+        "aide": "Vérifiez que la question porte sur ce passage précis et permet d’analyser son écriture. Elle n’énumère pas les procédés.",
+        "correction": "Une question possible : Comment la description de la lande fait-elle place à une perception inquiétante et légendaire ?"
       },
       {
         "id": "plan",
@@ -540,7 +482,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qu’on pouvait attendre, puis ce que le texte produit pourtant.\nPosez la problématique : le même problème, en une seule question.\nAnnoncez les parties.",
+        "consigne": "Rédigez une introduction brève : présentez le texte ; indiquez ce qu’il fait apparaître ; posez votre problématique ; annoncez les réponses du plan. Chaque phrase doit avoir une fonction.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -574,7 +516,8 @@ window.ANNALES_CATALOGUE = {
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
     ],
-    "texteDomainePublic": true
+    "texteDomainePublic": true,
+    "methodeVersion": "xy-2026-10"
   },
   "bac-2025-amerique-du-nord-general-commentaire-montaigne-essais": {
     "examen": "Bac",
@@ -596,31 +539,34 @@ window.ANNALES_CATALOGUE = {
         "id": "donne",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "1. Ce que le texte met en place",
+        "titre": "1. X : ce que le texte présente",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases : que se passe-t-il au début du texte ? Restez au plus près des mots du passage.",
-        "aide": "Identifiez l’objet de réflexion et la mauvaise habitude de jugement que Montaigne prend en charge. Ce que le texte installe peut ici être une manière commune de juger, pas une situation narrative."
+        "consigne": "En une phrase, décrivez ce que présente le passage : scène, portrait, pensée ou perception. Précisez qui parle si cela compte.",
+        "aide": "Distinguez ce qui est écrit de ce que vous imaginez. Appuyez-vous sur deux détails du passage.",
+        "correction": "Montaigne examine les différences de rang et les jugements portés sur les hommes."
       },
       {
         "id": "attente",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "2. Ce qu’on pouvait attendre",
+        "titre": "2. Y : ce que son écriture en fait",
         "temps": 300,
         "access": "free",
-        "consigne": "En une phrase, complétez : « On pouvait attendre… ».\nÀ partir de ce que le texte installe, quelle suite paraissait normale ?",
-        "aide": "À partir des hiérarchies et signes sociaux évoqués, quel type de jugement ordinaire pourrait-on attendre ?"
+        "consigne": "En une phrase, dites ce que l’écriture fait comprendre ou éprouver de ce qu’elle présente. Ne racontez pas seulement le passage.",
+        "aide": "Cherchez une valeur, une relation ou une expérience rendue sensible. Elle peut se maintenir ou se préciser sans renversement.",
+        "correction": "Son raisonnement distingue les signes extérieurs du rang de la valeur propre de la personne."
       },
       {
         "id": "transformation",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "3. Pourtant",
+        "titre": "3. Vérifier avec deux indices",
         "temps": 360,
         "access": "free",
-        "consigne": "En une ou deux phrases, complétez : « Pourtant, le texte produit… ». Dites ce que le texte fait à la place de ce qu’on attendait.\nExemple sur un autre texte : « On pouvait attendre une scène de deuil. Pourtant, le poème en fait une fête. »\nLe pourtant n’a pas besoin d’être spectaculaire : une complication, une intensification ou une résistance suffisent. S’il ne vient pas, relisez le texte : n’inventez pas de problème.",
-        "aide": "Demandez-vous vers quel autre critère Montaigne déplace l’évaluation des hommes. Formulez le déplacement sans encore faire le plan."
+        "consigne": "Relevez deux éléments précis du passage. Pour chacun, expliquez en une phrase comment il soutient votre lecture Y.",
+        "aide": "Cherchez comment les comparaisons permettent de contester notre manière de juger.",
+        "correction": "Les comparaisons exposent la différence entre ce qui entoure un être et ce qui fait sa valeur. Les adresses et les questions invitent à appliquer cette distinction à nos jugements sur les hommes. Vérifiez et citez les mots exacts dans le passage."
       },
       {
         "id": "problematique",
@@ -629,8 +575,9 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Dites le problème en une seule question, sans perdre X (ce qu’on pouvait attendre) ni Y (ce que le texte produit pourtant).\nForme possible : « Comment [l’auteur] fait-il de X Y ? » ou « Comment comprendre que… ? »\nTest : relisez votre question. Y retrouvez-vous X et Y ?",
-        "aide": "Votre question doit garder ensemble la manière habituelle de juger et le déplacement critique opéré par Montaigne."
+        "consigne": "Posez en une phrase la question que votre commentaire expliquera. Reliez ce que le texte présente (X) à ce que son écriture en fait (Y). Vous pouvez commencer par « Comment… ? ».",
+        "aide": "Vérifiez que la question porte sur ce passage précis et permet d’analyser son écriture. Elle n’énumère pas les procédés.",
+        "correction": "Une question possible : Comment Montaigne conduit-il à distinguer le rang social de la valeur de l’homme ?"
       },
       {
         "id": "plan",
@@ -696,7 +643,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qu’on pouvait attendre, puis ce que le texte produit pourtant.\nPosez la problématique : le même problème, en une seule question.\nAnnoncez les parties.",
+        "consigne": "Rédigez une introduction brève : présentez le texte ; indiquez ce qu’il fait apparaître ; posez votre problématique ; annoncez les réponses du plan. Chaque phrase doit avoir une fonction.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -730,7 +677,8 @@ window.ANNALES_CATALOGUE = {
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
     ],
-    "texteDomainePublic": false
+    "texteDomainePublic": false,
+    "methodeVersion": "xy-2026-10"
   },
   "bac-2025-asie-general-commentaire-apollinaire-mesange": {
     "examen": "Bac",
@@ -752,31 +700,34 @@ window.ANNALES_CATALOGUE = {
         "id": "donne",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "1. Ce que le texte met en place",
+        "titre": "1. X : ce que le texte présente",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases : que se passe-t-il au début du texte ? Restez au plus près des mots du passage.",
-        "aide": "Repérez ce que le poème met simultanément en présence : la relation amoureuse, l’éloignement et le contexte de guerre. N’interprétez pas encore leur articulation."
+        "consigne": "En une phrase, décrivez ce que présente le passage : scène, portrait, pensée ou perception. Précisez qui parle si cela compte.",
+        "aide": "Distinguez ce qui est écrit de ce que vous imaginez. Appuyez-vous sur deux détails du passage.",
+        "correction": "Un poème adressé à Lou associe l’univers militaire à une présence amoureuse."
       },
       {
         "id": "attente",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "2. Ce qu’on pouvait attendre",
+        "titre": "2. Y : ce que son écriture en fait",
         "temps": 300,
         "access": "free",
-        "consigne": "En une phrase, complétez : « On pouvait attendre… ».\nÀ partir de ce que le texte installe, quelle suite paraissait normale ?",
-        "aide": "Le vocabulaire de la guerre et celui de l’amour pourraient rester opposés. Formulez ce que cette coexistence fait d’abord attendre."
+        "consigne": "En une phrase, dites ce que l’écriture fait comprendre ou éprouver de ce qu’elle présente. Ne racontez pas seulement le passage.",
+        "aide": "Cherchez une valeur, une relation ou une expérience rendue sensible. Elle peut se maintenir ou se préciser sans renversement.",
+        "correction": "Les images font participer l’expérience guerrière à l’expression de l’amour et de l’absence."
       },
       {
         "id": "transformation",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "3. Pourtant",
+        "titre": "3. Vérifier avec deux indices",
         "temps": 360,
         "access": "free",
-        "consigne": "En une ou deux phrases, complétez : « Pourtant, le texte produit… ». Dites ce que le texte fait à la place de ce qu’on attendait.\nExemple sur un autre texte : « On pouvait attendre une scène de deuil. Pourtant, le poème en fait une fête. »\nLe pourtant n’a pas besoin d’être spectaculaire : une complication, une intensification ou une résistance suffisent. S’il ne vient pas, relisez le texte : n’inventez pas de problème.",
-        "aide": "Observez comment le poème fait circuler les images d’un univers à l’autre. Que devient le langage de la guerre lorsqu’il entre dans le poème amoureux ?"
+        "consigne": "Relevez deux éléments précis du passage. Pour chacun, expliquez en une phrase comment il soutient votre lecture Y.",
+        "aide": "Suivez les images qui circulent entre le cœur, le monde militaire et l’oiseau.",
+        "correction": "Les rapprochements entre le battement du cœur et l’univers militaire font entrer la guerre dans l’expression amoureuse. La figure de l’oiseau donne une présence imagée à l’aimée absente. Vérifiez et citez les mots exacts dans le passage."
       },
       {
         "id": "problematique",
@@ -785,8 +736,9 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Dites le problème en une seule question, sans perdre X (ce qu’on pouvait attendre) ni Y (ce que le texte produit pourtant).\nForme possible : « Comment [l’auteur] fait-il de X Y ? » ou « Comment comprendre que… ? »\nTest : relisez votre question. Y retrouvez-vous X et Y ?",
-        "aide": "Gardez ensemble l’expérience guerrière et l’adresse amoureuse, sans réduire le texte à un simple contraste."
+        "consigne": "Posez en une phrase la question que votre commentaire expliquera. Reliez ce que le texte présente (X) à ce que son écriture en fait (Y). Vous pouvez commencer par « Comment… ? ».",
+        "aide": "Vérifiez que la question porte sur ce passage précis et permet d’analyser son écriture. Elle n’énumère pas les procédés.",
+        "correction": "Une question possible : Comment le poème associe-t-il les images de la guerre à la présence de l’aimée ?"
       },
       {
         "id": "plan",
@@ -852,7 +804,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qu’on pouvait attendre, puis ce que le texte produit pourtant.\nPosez la problématique : le même problème, en une seule question.\nAnnoncez les parties.",
+        "consigne": "Rédigez une introduction brève : présentez le texte ; indiquez ce qu’il fait apparaître ; posez votre problématique ; annoncez les réponses du plan. Chaque phrase doit avoir une fonction.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -886,7 +838,8 @@ window.ANNALES_CATALOGUE = {
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
     ],
-    "texteDomainePublic": true
+    "texteDomainePublic": true,
+    "methodeVersion": "xy-2026-10"
   },
   "bac-2024-metropole-general-commentaire-claire-de-duras-edouard": {
     "examen": "Bac",
@@ -908,31 +861,34 @@ window.ANNALES_CATALOGUE = {
         "id": "donne",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "1. Ce que le texte met en place",
+        "titre": "1. X : ce que le texte présente",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases : que se passe-t-il au début du texte ? Restez au plus près des mots du passage.",
-        "aide": "Observez ce que le passage met en place : scène du soir, présence de la femme aimée, perception d’Édouard et obstacle social déjà connu par le lecteur."
+        "consigne": "En une phrase, décrivez ce que présente le passage : scène, portrait, pensée ou perception. Précisez qui parle si cela compte.",
+        "aide": "Distinguez ce qui est écrit de ce que vous imaginez. Appuyez-vous sur deux détails du passage.",
+        "correction": "Deux personnages amoureux partagent un moment dans un paysage harmonieux."
       },
       {
         "id": "attente",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "2. Ce qu’on pouvait attendre",
+        "titre": "2. Y : ce que son écriture en fait",
         "temps": 300,
         "access": "free",
-        "consigne": "En une phrase, complétez : « On pouvait attendre… ».\nÀ partir de ce que le texte installe, quelle suite paraissait normale ?",
-        "aide": "L’harmonie du paysage et la proximité des deux personnages pourraient faire attendre un rapprochement ou un aveu heureux."
+        "consigne": "En une phrase, dites ce que l’écriture fait comprendre ou éprouver de ce qu’elle présente. Ne racontez pas seulement le passage.",
+        "aide": "Cherchez une valeur, une relation ou une expérience rendue sensible. Elle peut se maintenir ou se préciser sans renversement.",
+        "correction": "La proximité des êtres rend sensible la douleur d’une union interdite par leur condition sociale."
       },
       {
         "id": "transformation",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "3. Pourtant",
+        "titre": "3. Vérifier avec deux indices",
         "temps": 360,
         "access": "free",
-        "consigne": "En une ou deux phrases, complétez : « Pourtant, le texte produit… ». Dites ce que le texte fait à la place de ce qu’on attendait.\nExemple sur un autre texte : « On pouvait attendre une scène de deuil. Pourtant, le poème en fait une fête. »\nLe pourtant n’a pas besoin d’être spectaculaire : une complication, une intensification ou une résistance suffisent. S’il ne vient pas, relisez le texte : n’inventez pas de problème.",
-        "aide": "Suivez le basculement du passage : que devient cette harmonie lorsque l’obstacle social revient dans la conscience d’Édouard ?"
+        "consigne": "Relevez deux éléments précis du passage. Pour chacun, expliquez en une phrase comment il soutient votre lecture Y.",
+        "aide": "Reliez le paysage aux gestes et aux signes de souffrance, sans inventer d’union accomplie.",
+        "correction": "L’harmonie du paysage et la proximité des corps rendent sensible l’accord amoureux. Les larmes et les signes de souffrance maintiennent dans cet accord l’obstacle qui interdit l’union. Vérifiez et citez les mots exacts dans le passage."
       },
       {
         "id": "problematique",
@@ -941,8 +897,9 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Dites le problème en une seule question, sans perdre X (ce qu’on pouvait attendre) ni Y (ce que le texte produit pourtant).\nForme possible : « Comment [l’auteur] fait-il de X Y ? » ou « Comment comprendre que… ? »\nTest : relisez votre question. Y retrouvez-vous X et Y ?",
-        "aide": "Gardez ensemble la proximité amoureuse et l’impossibilité sociale qui la contrarie."
+        "consigne": "Posez en une phrase la question que votre commentaire expliquera. Reliez ce que le texte présente (X) à ce que son écriture en fait (Y). Vous pouvez commencer par « Comment… ? ».",
+        "aide": "Vérifiez que la question porte sur ce passage précis et permet d’analyser son écriture. Elle n’énumère pas les procédés.",
+        "correction": "Une question possible : Comment le récit rend-il sensible un amour partagé que l’ordre social empêche d’accomplir ?"
       },
       {
         "id": "plan",
@@ -1008,7 +965,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qu’on pouvait attendre, puis ce que le texte produit pourtant.\nPosez la problématique : le même problème, en une seule question.\nAnnoncez les parties.",
+        "consigne": "Rédigez une introduction brève : présentez le texte ; indiquez ce qu’il fait apparaître ; posez votre problématique ; annoncez les réponses du plan. Chaque phrase doit avoir une fonction.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -1042,7 +999,8 @@ window.ANNALES_CATALOGUE = {
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
     ],
-    "texteDomainePublic": true
+    "texteDomainePublic": true,
+    "methodeVersion": "xy-2026-10"
   },
   "bac-2024-centre-etranger-general-commentaire-aragon-elsa-au-miroir": {
     "examen": "Bac",
@@ -1064,31 +1022,34 @@ window.ANNALES_CATALOGUE = {
         "id": "donne",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "1. Ce que le texte met en place",
+        "titre": "1. X : ce que le texte présente",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases : que se passe-t-il au début du texte ? Restez au plus près des mots du passage.",
-        "aide": "Commencez par la scène concrète : Elsa assise au miroir, le geste répété de se peigner, le regard du poète et la présence de la guerre dans le poème."
+        "consigne": "En une phrase, décrivez ce que présente le passage : scène, portrait, pensée ou perception. Précisez qui parle si cela compte.",
+        "aide": "Distinguez ce qui est écrit de ce que vous imaginez. Appuyez-vous sur deux détails du passage.",
+        "correction": "Le poème reprend la scène d’Elsa qui se peigne devant son miroir."
       },
       {
         "id": "attente",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "2. Ce qu’on pouvait attendre",
+        "titre": "2. Y : ce que son écriture en fait",
         "temps": 300,
         "access": "free",
-        "consigne": "En une phrase, complétez : « On pouvait attendre… ».\nÀ partir de ce que le texte installe, quelle suite paraissait normale ?",
-        "aide": "Une scène de femme au miroir pourrait rester un portrait intime ou amoureux. Formulez cette attente sans anticiper l’interprétation."
+        "consigne": "En une phrase, dites ce que l’écriture fait comprendre ou éprouver de ce qu’elle présente. Ne racontez pas seulement le passage.",
+        "aide": "Cherchez une valeur, une relation ou une expérience rendue sensible. Elle peut se maintenir ou se préciser sans renversement.",
+        "correction": "L’intimité du geste accueille la mémoire et la violence de la guerre."
       },
       {
         "id": "transformation",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "3. Pourtant",
+        "titre": "3. Vérifier avec deux indices",
         "temps": 360,
         "access": "free",
-        "consigne": "En une ou deux phrases, complétez : « Pourtant, le texte produit… ». Dites ce que le texte fait à la place de ce qu’on attendait.\nExemple sur un autre texte : « On pouvait attendre une scène de deuil. Pourtant, le poème en fait une fête. »\nLe pourtant n’a pas besoin d’être spectaculaire : une complication, une intensification ou une résistance suffisent. S’il ne vient pas, relisez le texte : n’inventez pas de problème.",
-        "aide": "Observez ce que deviennent progressivement le miroir, les cheveux et le geste de se peigner. À quoi la scène intime donne-t-elle accès ?"
+        "consigne": "Relevez deux éléments précis du passage. Pour chacun, expliquez en une phrase comment il soutient votre lecture Y.",
+        "aide": "Observez les reprises et les relations entre les cheveux, le miroir et les images de guerre.",
+        "correction": "Le retour du geste de se peigner donne une continuité à la scène intime. Les images qui associent les cheveux et le miroir au temps de guerre font entrer l’histoire collective dans cette intimité. Vérifiez et citez les mots exacts dans le passage."
       },
       {
         "id": "problematique",
@@ -1097,8 +1058,9 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Dites le problème en une seule question, sans perdre X (ce qu’on pouvait attendre) ni Y (ce que le texte produit pourtant).\nForme possible : « Comment [l’auteur] fait-il de X Y ? » ou « Comment comprendre que… ? »\nTest : relisez votre question. Y retrouvez-vous X et Y ?",
-        "aide": "Votre question doit garder ensemble l’intimité de la scène et l’élargissement historique ou mémoriel produit par le poème."
+        "consigne": "Posez en une phrase la question que votre commentaire expliquera. Reliez ce que le texte présente (X) à ce que son écriture en fait (Y). Vous pouvez commencer par « Comment… ? ».",
+        "aide": "Vérifiez que la question porte sur ce passage précis et permet d’analyser son écriture. Elle n’énumère pas les procédés.",
+        "correction": "Une question possible : Comment le poème inscrit-il la guerre dans la scène intime d’Elsa au miroir ?"
       },
       {
         "id": "plan",
@@ -1164,7 +1126,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qu’on pouvait attendre, puis ce que le texte produit pourtant.\nPosez la problématique : le même problème, en une seule question.\nAnnoncez les parties.",
+        "consigne": "Rédigez une introduction brève : présentez le texte ; indiquez ce qu’il fait apparaître ; posez votre problématique ; annoncez les réponses du plan. Chaque phrase doit avoir une fonction.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -1198,7 +1160,8 @@ window.ANNALES_CATALOGUE = {
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
     ],
-    "texteDomainePublic": false
+    "texteDomainePublic": false,
+    "methodeVersion": "xy-2026-10"
   },
   "bac-2023-metropole-general-commentaire-diderot-salon-1767": {
     "examen": "Bac",
@@ -1220,31 +1183,34 @@ window.ANNALES_CATALOGUE = {
         "id": "donne",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "1. Ce que le texte met en place",
+        "titre": "1. X : ce que le texte présente",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases : que se passe-t-il au début du texte ? Restez au plus près des mots du passage.",
-        "aide": "Le texte part de la contemplation de ruines peintes. Relevez ce que ces ruines donnent à voir et les premières idées qu’elles font naître chez Diderot."
+        "consigne": "En une phrase, décrivez ce que présente le passage : scène, portrait, pensée ou perception. Précisez qui parle si cela compte.",
+        "aide": "Distinguez ce qui est écrit de ce que vous imaginez. Appuyez-vous sur deux détails du passage.",
+        "correction": "Un critique contemple un tableau de ruines."
       },
       {
         "id": "attente",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "2. Ce qu’on pouvait attendre",
+        "titre": "2. Y : ce que son écriture en fait",
         "temps": 300,
         "access": "free",
-        "consigne": "En une phrase, complétez : « On pouvait attendre… ».\nÀ partir de ce que le texte installe, quelle suite paraissait normale ?",
-        "aide": "Un Salon pourrait d’abord faire attendre une description ou un jugement sur une œuvre d’art. Formulez cette attente."
+        "consigne": "En une phrase, dites ce que l’écriture fait comprendre ou éprouver de ce qu’elle présente. Ne racontez pas seulement le passage.",
+        "aide": "Cherchez une valeur, une relation ou une expérience rendue sensible. Elle peut se maintenir ou se préciser sans renversement.",
+        "correction": "L’évocation picturale devient une expérience personnelle du temps, de la mort et de la solitude."
       },
       {
         "id": "transformation",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "3. Pourtant",
+        "titre": "3. Vérifier avec deux indices",
         "temps": 360,
         "access": "free",
-        "consigne": "En une ou deux phrases, complétez : « Pourtant, le texte produit… ». Dites ce que le texte fait à la place de ce qu’on attendait.\nExemple sur un autre texte : « On pouvait attendre une scène de deuil. Pourtant, le poème en fait une fête. »\nLe pourtant n’a pas besoin d’être spectaculaire : une complication, une intensification ou une résistance suffisent. S’il ne vient pas, relisez le texte : n’inventez pas de problème.",
-        "aide": "Observez jusqu’où la contemplation entraîne Diderot : que devient le commentaire d’art lorsqu’il réfléchit au temps, à sa propre mort puis à la solitude ?"
+        "consigne": "Relevez deux éléments précis du passage. Pour chacun, expliquez en une phrase comment il soutient votre lecture Y.",
+        "aide": "Suivez les changements d’énonciation et la place que le locuteur s’imagine dans le paysage.",
+        "correction": "Le recours à la première personne engage le critique dans sa méditation sur le temps et la mort. La place qu’il s’imagine parmi les ruines fait ensuite du paysage un espace personnel de solitude. Vérifiez et citez les mots exacts dans le passage."
       },
       {
         "id": "problematique",
@@ -1253,8 +1219,9 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Dites le problème en une seule question, sans perdre X (ce qu’on pouvait attendre) ni Y (ce que le texte produit pourtant).\nForme possible : « Comment [l’auteur] fait-il de X Y ? » ou « Comment comprendre que… ? »\nTest : relisez votre question. Y retrouvez-vous X et Y ?",
-        "aide": "Gardez ensemble le point de départ esthétique et la méditation personnelle et philosophique qu’il fait naître."
+        "consigne": "Posez en une phrase la question que votre commentaire expliquera. Reliez ce que le texte présente (X) à ce que son écriture en fait (Y). Vous pouvez commencer par « Comment… ? ».",
+        "aide": "Vérifiez que la question porte sur ce passage précis et permet d’analyser son écriture. Elle n’énumère pas les procédés.",
+        "correction": "Une question possible : Comment la contemplation des ruines fait-elle naître une méditation personnelle et une expérience de la solitude ?"
       },
       {
         "id": "plan",
@@ -1320,7 +1287,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qu’on pouvait attendre, puis ce que le texte produit pourtant.\nPosez la problématique : le même problème, en une seule question.\nAnnoncez les parties.",
+        "consigne": "Rédigez une introduction brève : présentez le texte ; indiquez ce qu’il fait apparaître ; posez votre problématique ; annoncez les réponses du plan. Chaque phrase doit avoir une fonction.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -1354,7 +1321,8 @@ window.ANNALES_CATALOGUE = {
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
     ],
-    "texteDomainePublic": true
+    "texteDomainePublic": true,
+    "methodeVersion": "xy-2026-10"
   },
   "bac-2023-amerique-du-nord-general-commentaire-racine-berenice": {
     "examen": "Bac",
@@ -1376,31 +1344,34 @@ window.ANNALES_CATALOGUE = {
         "id": "donne",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "1. Ce que le texte met en place",
+        "titre": "1. X : ce que le texte présente",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases : que se passe-t-il au début du texte ? Restez au plus près des mots du passage.",
-        "aide": "Mettez en place le conflit sans le résoudre : deux amants se retrouvent, leur amour demeure, mais la fonction impériale de Titus impose la séparation."
+        "consigne": "En une phrase, décrivez ce que présente le passage : scène, portrait, pensée ou perception. Précisez qui parle si cela compte.",
+        "aide": "Distinguez ce qui est écrit de ce que vous imaginez. Appuyez-vous sur deux détails du passage.",
+        "correction": "Titus et Bérénice s’aiment et débattent d’une séparation imposée."
       },
       {
         "id": "attente",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "2. Ce qu’on pouvait attendre",
+        "titre": "2. Y : ce que son écriture en fait",
         "temps": 300,
         "access": "free",
-        "consigne": "En une phrase, complétez : « On pouvait attendre… ».\nÀ partir de ce que le texte installe, quelle suite paraissait normale ?",
-        "aide": "Une rencontre entre deux amants qui s’aiment pourrait faire attendre l’union, la persuasion ou la réconciliation."
+        "consigne": "En une phrase, dites ce que l’écriture fait comprendre ou éprouver de ce qu’elle présente. Ne racontez pas seulement le passage.",
+        "aide": "Cherchez une valeur, une relation ou une expérience rendue sensible. Elle peut se maintenir ou se préciser sans renversement.",
+        "correction": "Leur échange rend plus douloureuse l’incompatibilité entre l’amour partagé et l’exigence politique."
       },
       {
         "id": "transformation",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "3. Pourtant",
+        "titre": "3. Vérifier avec deux indices",
         "temps": 360,
         "access": "free",
-        "consigne": "En une ou deux phrases, complétez : « Pourtant, le texte produit… ». Dites ce que le texte fait à la place de ce qu’on attendait.\nExemple sur un autre texte : « On pouvait attendre une scène de deuil. Pourtant, le poème en fait une fête. »\nLe pourtant n’a pas besoin d’être spectaculaire : une complication, une intensification ou une résistance suffisent. S’il ne vient pas, relisez le texte : n’inventez pas de problème.",
-        "aide": "Observez ce que leur échange fait de cet amour : l’aveu et les larmes suppriment-ils l’obstacle, ou rendent-ils autrement sensible la séparation ?"
+        "consigne": "Relevez deux éléments précis du passage. Pour chacun, expliquez en une phrase comment il soutient votre lecture Y.",
+        "aide": "Confrontez les paroles d’amour aux arguments de la séparation : quel conflit reste ouvert ?",
+        "correction": "La réaffirmation de l’amour empêche d’expliquer la séparation par une disparition du sentiment. Les raisons politiques opposées aux supplications maintiennent une incompatibilité que le dialogue ne résout pas. Vérifiez et citez les mots exacts dans le passage."
       },
       {
         "id": "problematique",
@@ -1409,8 +1380,9 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Dites le problème en une seule question, sans perdre X (ce qu’on pouvait attendre) ni Y (ce que le texte produit pourtant).\nForme possible : « Comment [l’auteur] fait-il de X Y ? » ou « Comment comprendre que… ? »\nTest : relisez votre question. Y retrouvez-vous X et Y ?",
-        "aide": "Gardez ensemble la force de l’amour partagé et l’exigence de séparation qui structure la scène."
+        "consigne": "Posez en une phrase la question que votre commentaire expliquera. Reliez ce que le texte présente (X) à ce que son écriture en fait (Y). Vous pouvez commencer par « Comment… ? ».",
+        "aide": "Vérifiez que la question porte sur ce passage précis et permet d’analyser son écriture. Elle n’énumère pas les procédés.",
+        "correction": "Une question possible : Comment le dialogue rend-il tragique une séparation que l’amour partagé ne peut empêcher ?"
       },
       {
         "id": "plan",
@@ -1476,7 +1448,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qu’on pouvait attendre, puis ce que le texte produit pourtant.\nPosez la problématique : le même problème, en une seule question.\nAnnoncez les parties.",
+        "consigne": "Rédigez une introduction brève : présentez le texte ; indiquez ce qu’il fait apparaître ; posez votre problématique ; annoncez les réponses du plan. Chaque phrase doit avoir une fonction.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -1510,7 +1482,8 @@ window.ANNALES_CATALOGUE = {
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
     ],
-    "texteDomainePublic": true
+    "texteDomainePublic": true,
+    "methodeVersion": "xy-2026-10"
   },
   "bac-2022-metropole-general-commentaire-sylvie-germain-jours-de-colere": {
     "examen": "Bac",
@@ -1532,31 +1505,34 @@ window.ANNALES_CATALOGUE = {
         "id": "donne",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "1. Ce que le texte met en place",
+        "titre": "1. X : ce que le texte présente",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases : que se passe-t-il au début du texte ? Restez au plus près des mots du passage.",
-        "aide": "Décrivez le portrait collectif tel qu’il est construit : neuf frères, leurs corps, leurs comportements et leur rapport au monde qui les entoure."
+        "consigne": "En une phrase, décrivez ce que présente le passage : scène, portrait, pensée ou perception. Précisez qui parle si cela compte.",
+        "aide": "Distinguez ce qui est écrit de ce que vous imaginez. Appuyez-vous sur deux détails du passage.",
+        "correction": "La prose brosse le portrait collectif de neuf frères liés aux forêts où ils ont grandi."
       },
       {
         "id": "attente",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "2. Ce qu’on pouvait attendre",
+        "titre": "2. Y : ce que son écriture en fait",
         "temps": 300,
         "access": "free",
-        "consigne": "En une phrase, complétez : « On pouvait attendre… ».\nÀ partir de ce que le texte installe, quelle suite paraissait normale ?",
-        "aide": "Un portrait de personnages humains pourrait individualiser chacun d’eux et les inscrire dans une psychologie réaliste."
+        "consigne": "En une phrase, dites ce que l’écriture fait comprendre ou éprouver de ce qu’elle présente. Ne racontez pas seulement le passage.",
+        "aide": "Cherchez une valeur, une relation ou une expérience rendue sensible. Elle peut se maintenir ou se préciser sans renversement.",
+        "correction": "Leur identité commune prend la puissance et les rythmes de la forêt, sans effacer leur pauvreté."
       },
       {
         "id": "transformation",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "3. Pourtant",
+        "titre": "3. Vérifier avec deux indices",
         "temps": 360,
         "access": "free",
-        "consigne": "En une ou deux phrases, complétez : « Pourtant, le texte produit… ». Dites ce que le texte fait à la place de ce qu’on attendait.\nExemple sur un autre texte : « On pouvait attendre une scène de deuil. Pourtant, le poème en fait une fête. »\nLe pourtant n’a pas besoin d’être spectaculaire : une complication, une intensification ou une résistance suffisent. S’il ne vient pas, relisez le texte : n’inventez pas de problème.",
-        "aide": "Observez au contraire les rapprochements avec l’animal, la matière ou la nature, puis demandez-vous ce que ces rapprochements laissent malgré tout apparaître d’humain."
+        "consigne": "Relevez deux éléments précis du passage. Pour chacun, expliquez en une phrase comment il soutient votre lecture Y.",
+        "aide": "Reliez les reprises du chant, les rapprochements entre hommes et arbres et le rappel final de la maison pauvre.",
+        "correction": "Les reprises du chant et les rapprochements entre hommes et arbres donnent au groupe un rythme et une identité communs. Le rappel final de la maison trop pauvre réinscrit cette puissance dans un dénuement familial. Vérifiez et citez les mots exacts dans le passage."
       },
       {
         "id": "problematique",
@@ -1565,8 +1541,9 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Dites le problème en une seule question, sans perdre X (ce qu’on pouvait attendre) ni Y (ce que le texte produit pourtant).\nForme possible : « Comment [l’auteur] fait-il de X Y ? » ou « Comment comprendre que… ? »\nTest : relisez votre question. Y retrouvez-vous X et Y ?",
-        "aide": "Votre question doit garder ensemble ce que l’écriture fait des frères (l’animal, la matière, la nature) et ce qu’elle laisse pourtant voir de leur humanité."
+        "consigne": "Posez en une phrase la question que votre commentaire expliquera. Reliez ce que le texte présente (X) à ce que son écriture en fait (Y). Vous pouvez commencer par « Comment… ? ».",
+        "aide": "Vérifiez que la question porte sur ce passage précis et permet d’analyser son écriture. Elle n’énumère pas les procédés.",
+        "correction": "Une question possible : Comment la prose fait-elle des neuf frères les voix d’une même forêt tout en rappelant leur dénuement ?"
       },
       {
         "id": "plan",
@@ -1632,7 +1609,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qu’on pouvait attendre, puis ce que le texte produit pourtant.\nPosez la problématique : le même problème, en une seule question.\nAnnoncez les parties.",
+        "consigne": "Rédigez une introduction brève : présentez le texte ; indiquez ce qu’il fait apparaître ; posez votre problématique ; annoncez les réponses du plan. Chaque phrase doit avoir une fonction.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -1666,7 +1643,8 @@ window.ANNALES_CATALOGUE = {
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
     ],
-    "texteDomainePublic": false
+    "texteDomainePublic": false,
+    "methodeVersion": "xy-2026-10"
   },
   "bac-2022-amerique-du-nord-general-commentaire-musset-lorenzaccio": {
     "examen": "Bac",
@@ -1688,31 +1666,34 @@ window.ANNALES_CATALOGUE = {
         "id": "donne",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "1. Ce que le texte met en place",
+        "titre": "1. X : ce que le texte présente",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases : que se passe-t-il au début du texte ? Restez au plus près des mots du passage.",
-        "aide": "Mettez en place le dialogue : Philippe appelle à l’action et demande que « l’homme sorte de l’histrion » ; Lorenzo doit alors parler du rôle qu’il joue et de ce qu’il est devenu."
+        "consigne": "En une phrase, décrivez ce que présente le passage : scène, portrait, pensée ou perception. Précisez qui parle si cela compte.",
+        "aide": "Distinguez ce qui est écrit de ce que vous imaginez. Appuyez-vous sur deux détails du passage.",
+        "correction": "Lorenzo explique à Philippe le rôle qu’il a adopté auprès du duc."
       },
       {
         "id": "attente",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "2. Ce qu’on pouvait attendre",
+        "titre": "2. Y : ce que son écriture en fait",
         "temps": 300,
         "access": "free",
-        "consigne": "En une phrase, complétez : « On pouvait attendre… ».\nÀ partir de ce que le texte installe, quelle suite paraissait normale ?",
-        "aide": "On pourrait attendre que le dévoilement fasse simplement réapparaître un Lorenzo vertueux derrière son masque."
+        "consigne": "En une phrase, dites ce que l’écriture fait comprendre ou éprouver de ce qu’elle présente. Ne racontez pas seulement le passage.",
+        "aide": "Cherchez une valeur, une relation ou une expérience rendue sensible. Elle peut se maintenir ou se préciser sans renversement.",
+        "correction": "Sa parole interroge ce que ce rôle a fait de lui et la possibilité de retrouver son identité."
       },
       {
         "id": "transformation",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "3. Pourtant",
+        "titre": "3. Vérifier avec deux indices",
         "temps": 360,
         "access": "free",
-        "consigne": "En une ou deux phrases, complétez : « Pourtant, le texte produit… ». Dites ce que le texte fait à la place de ce qu’on attendait.\nExemple sur un autre texte : « On pouvait attendre une scène de deuil. Pourtant, le poème en fait une fête. »\nLe pourtant n’a pas besoin d’être spectaculaire : une complication, une intensification ou une résistance suffisent. S’il ne vient pas, relisez le texte : n’inventez pas de problème.",
-        "aide": "Suivez sa parole : le masque peut-il être retiré sans conséquence, ou le rôle joué a-t-il transformé celui qui le portait ?"
+        "consigne": "Relevez deux éléments précis du passage. Pour chacun, expliquez en une phrase comment il soutient votre lecture Y.",
+        "aide": "Comparez ses images du rôle joué à ce qu’il dit désormais de lui-même.",
+        "correction": "Les images du rôle adopté distinguent d’abord l’apparence de l’identité. Les paroles où Lorenzo explique ce qu’il est devenu mettent ensuite cette distinction à l’épreuve : le rôle n’est pas sans effet sur celui qui le joue. Vérifiez et citez les mots exacts dans le passage."
       },
       {
         "id": "problematique",
@@ -1721,8 +1702,9 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Dites le problème en une seule question, sans perdre X (ce qu’on pouvait attendre) ni Y (ce que le texte produit pourtant).\nForme possible : « Comment [l’auteur] fait-il de X Y ? » ou « Comment comprendre que… ? »\nTest : relisez votre question. Y retrouvez-vous X et Y ?",
-        "aide": "Gardez ensemble le masque volontairement adopté et la vérité intérieure que le dialogue fait apparaître."
+        "consigne": "Posez en une phrase la question que votre commentaire expliquera. Reliez ce que le texte présente (X) à ce que son écriture en fait (Y). Vous pouvez commencer par « Comment… ? ».",
+        "aide": "Vérifiez que la question porte sur ce passage précis et permet d’analyser son écriture. Elle n’énumère pas les procédés.",
+        "correction": "Une question possible : Comment l’aveu de Lorenzo met-il en question la séparation entre son rôle et son identité ?"
       },
       {
         "id": "plan",
@@ -1788,7 +1770,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qu’on pouvait attendre, puis ce que le texte produit pourtant.\nPosez la problématique : le même problème, en une seule question.\nAnnoncez les parties.",
+        "consigne": "Rédigez une introduction brève : présentez le texte ; indiquez ce qu’il fait apparaître ; posez votre problématique ; annoncez les réponses du plan. Chaque phrase doit avoir une fonction.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -1822,7 +1804,8 @@ window.ANNALES_CATALOGUE = {
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
     ],
-    "texteDomainePublic": true
+    "texteDomainePublic": true,
+    "methodeVersion": "xy-2026-10"
   },
   "bac-2021-metropole-general-commentaire-perec-les-choses": {
     "examen": "Bac",
@@ -1844,31 +1827,34 @@ window.ANNALES_CATALOGUE = {
         "id": "donne",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "1. Ce que le texte met en place",
+        "titre": "1. X : ce que le texte présente",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases : que se passe-t-il au début du texte ? Restez au plus près des mots du passage.",
-        "aide": "Décrivez ce que le texte met matériellement en place : l’appartement, les objets, les possibilités d’aménagement et la situation du jeune couple."
+        "consigne": "En une phrase, décrivez ce que présente le passage : scène, portrait, pensée ou perception. Précisez qui parle si cela compte.",
+        "aide": "Distinguez ce qui est écrit de ce que vous imaginez. Appuyez-vous sur deux détails du passage.",
+        "correction": "La description envisage les aménagements possibles de l’appartement de Sylvie et Jérôme."
       },
       {
         "id": "attente",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "2. Ce qu’on pouvait attendre",
+        "titre": "2. Y : ce que son écriture en fait",
         "temps": 300,
         "access": "free",
-        "consigne": "En une phrase, complétez : « On pouvait attendre… ».\nÀ partir de ce que le texte installe, quelle suite paraissait normale ?",
-        "aide": "Une description d’un logement exigu pourrait rester réaliste et pratique, centrée sur ce qui est effectivement là."
+        "consigne": "En une phrase, dites ce que l’écriture fait comprendre ou éprouver de ce qu’elle présente. Ne racontez pas seulement le passage.",
+        "aide": "Cherchez une valeur, une relation ou une expérience rendue sensible. Elle peut se maintenir ou se préciser sans renversement.",
+        "correction": "Le désir d’un logement idéal éclaire une incapacité à accomplir les améliorations les plus simples."
       },
       {
         "id": "transformation",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "3. Pourtant",
+        "titre": "3. Vérifier avec deux indices",
         "temps": 360,
         "access": "free",
-        "consigne": "En une ou deux phrases, complétez : « Pourtant, le texte produit… ». Dites ce que le texte fait à la place de ce qu’on attendait.\nExemple sur un autre texte : « On pouvait attendre une scène de deuil. Pourtant, le poème en fait une fête. »\nLe pourtant n’a pas besoin d’être spectaculaire : une complication, une intensification ou une résistance suffisent. S’il ne vient pas, relisez le texte : n’inventez pas de problème.",
-        "aide": "Observez la place des formes hypothétiques et du désir : comment la description de l’espace réel ouvre-t-elle vers un autre espace possible ou rêvé ?"
+        "consigne": "Relevez deux éléments précis du passage. Pour chacun, expliquez en une phrase comment il soutient votre lecture Y.",
+        "aide": "Comparez les formes du possible aux négligences concrètes et au bilan final.",
+        "correction": "Les formes hypothétiques et l’inventaire des aménagements rendent sensible la richesse des possibles. Les réparations laissées en attente et le bilan sur leurs désirs montrent pourquoi cette richesse ne devient pas action. Vérifiez et citez les mots exacts dans le passage."
       },
       {
         "id": "problematique",
@@ -1877,8 +1863,9 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Dites le problème en une seule question, sans perdre X (ce qu’on pouvait attendre) ni Y (ce que le texte produit pourtant).\nForme possible : « Comment [l’auteur] fait-il de X Y ? » ou « Comment comprendre que… ? »\nTest : relisez votre question. Y retrouvez-vous X et Y ?",
-        "aide": "Gardez ensemble la matérialité du logement et la projection du désir qui travaille sa description."
+        "consigne": "Posez en une phrase la question que votre commentaire expliquera. Reliez ce que le texte présente (X) à ce que son écriture en fait (Y). Vous pouvez commencer par « Comment… ? ».",
+        "aide": "Vérifiez que la question porte sur ce passage précis et permet d’analyser son écriture. Elle n’énumère pas les procédés.",
+        "correction": "Une question possible : Comment la description du logement révèle-t-elle un désir qui empêche d’agir ?"
       },
       {
         "id": "plan",
@@ -1944,7 +1931,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qu’on pouvait attendre, puis ce que le texte produit pourtant.\nPosez la problématique : le même problème, en une seule question.\nAnnoncez les parties.",
+        "consigne": "Rédigez une introduction brève : présentez le texte ; indiquez ce qu’il fait apparaître ; posez votre problématique ; annoncez les réponses du plan. Chaque phrase doit avoir une fonction.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -1978,7 +1965,8 @@ window.ANNALES_CATALOGUE = {
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
     ],
-    "texteDomainePublic": false
+    "texteDomainePublic": false,
+    "methodeVersion": "xy-2026-10"
   },
   "bac-2021-metropole-general-commentaire-larbaud-ancienne-gare-cahors": {
     "examen": "Bac",
@@ -2000,31 +1988,34 @@ window.ANNALES_CATALOGUE = {
         "id": "donne",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "1. Ce que le texte met en place",
+        "titre": "1. X : ce que le texte présente",
         "temps": 300,
         "access": "free",
-        "consigne": "En une ou deux phrases : que se passe-t-il au début du texte ? Restez au plus près des mots du passage.",
-        "aide": "Commencez par le lieu concret : une ancienne gare, ses traces matérielles, son abandon et le regard porté sur elle. Ne la transformez pas encore en symbole."
+        "consigne": "En une phrase, décrivez ce que présente le passage : scène, portrait, pensée ou perception. Précisez qui parle si cela compte.",
+        "aide": "Distinguez ce qui est écrit de ce que vous imaginez. Appuyez-vous sur deux détails du passage.",
+        "correction": "Une voix poétique s’adresse à une gare qui n’accueille plus les trains."
       },
       {
         "id": "attente",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "2. Ce qu’on pouvait attendre",
+        "titre": "2. Y : ce que son écriture en fait",
         "temps": 300,
         "access": "free",
-        "consigne": "En une phrase, complétez : « On pouvait attendre… ».\nÀ partir de ce que le texte installe, quelle suite paraissait normale ?",
-        "aide": "Une gare désaffectée pourrait n’être qu’un lieu prosaïque, vide ou dégradé."
+        "consigne": "En une phrase, dites ce que l’écriture fait comprendre ou éprouver de ce qu’elle présente. Ne racontez pas seulement le passage.",
+        "aide": "Cherchez une valeur, une relation ou une expérience rendue sensible. Elle peut se maintenir ou se préciser sans renversement.",
+        "correction": "L’adresse donne une présence sensible au lieu retiré, entre souvenirs de voyage et paix des saisons."
       },
       {
         "id": "transformation",
         "kind": "lecture",
         "aiMode": "optional",
-        "titre": "3. Pourtant",
+        "titre": "3. Vérifier avec deux indices",
         "temps": 360,
         "access": "free",
-        "consigne": "En une ou deux phrases, complétez : « Pourtant, le texte produit… ». Dites ce que le texte fait à la place de ce qu’on attendait.\nExemple sur un autre texte : « On pouvait attendre une scène de deuil. Pourtant, le poème en fait une fête. »\nLe pourtant n’a pas besoin d’être spectaculaire : une complication, une intensification ou une résistance suffisent. S’il ne vient pas, relisez le texte : n’inventez pas de problème.",
-        "aide": "Observez ce que le poème ajoute au lieu matériel : quelles présences, quelles valeurs ou quelle mémoire l’écriture lui rend-elle ?"
+        "consigne": "Relevez deux éléments précis du passage. Pour chacun, expliquez en une phrase comment il soutient votre lecture Y.",
+        "aide": "Reliez les personnifications aux souvenirs des trains, au vent et à la paix finale.",
+        "correction": "L’adresse et les personnifications donnent à la gare une présence de voyageuse retirée. Le vent, les saisons et la paix finale peuplent son immobilité d’une vie sensible qui ne se réduit pas à la dégradation. Vérifiez et citez les mots exacts dans le passage."
       },
       {
         "id": "problematique",
@@ -2033,8 +2024,9 @@ window.ANNALES_CATALOGUE = {
         "titre": "4. La problématique",
         "temps": 420,
         "access": "free",
-        "consigne": "Dites le problème en une seule question, sans perdre X (ce qu’on pouvait attendre) ni Y (ce que le texte produit pourtant).\nForme possible : « Comment [l’auteur] fait-il de X Y ? » ou « Comment comprendre que… ? »\nTest : relisez votre question. Y retrouvez-vous X et Y ?",
-        "aide": "Gardez ensemble la banalité ou l’abandon du lieu et la valeur nouvelle que le regard poétique lui confère."
+        "consigne": "Posez en une phrase la question que votre commentaire expliquera. Reliez ce que le texte présente (X) à ce que son écriture en fait (Y). Vous pouvez commencer par « Comment… ? ».",
+        "aide": "Vérifiez que la question porte sur ce passage précis et permet d’analyser son écriture. Elle n’énumère pas les procédés.",
+        "correction": "Une question possible : Comment l’adresse à une gare retirée des voyages donne-t-elle une valeur poétique à son immobilité ?"
       },
       {
         "id": "plan",
@@ -2100,7 +2092,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "10. Rédiger l’introduction",
         "temps": 600,
         "access": "premium",
-        "consigne": "Rédigez l’introduction en cinq ou six phrases.\nPrésentez le passage.\nDites ce qu’on pouvait attendre, puis ce que le texte produit pourtant.\nPosez la problématique : le même problème, en une seule question.\nAnnoncez les parties.",
+        "consigne": "Rédigez une introduction brève : présentez le texte ; indiquez ce qu’il fait apparaître ; posez votre problématique ; annoncez les réponses du plan. Chaque phrase doit avoir une fonction.",
         "aide": "Pas d’amorce générale obligatoire. La problématique doit être exactement celle que vous avez construite."
       },
       {
@@ -2134,7 +2126,8 @@ window.ANNALES_CATALOGUE = {
         "aide": "Ne faites pas le résumé mécanique des parties."
       }
     ],
-    "texteDomainePublic": false
+    "texteDomainePublic": false,
+    "methodeVersion": "xy-2026-10"
   },
   "brevet-2026-general-zola-cage-betes-feroces": {
     "examen": "Brevet",
@@ -2200,8 +2193,8 @@ window.ANNALES_CATALOGUE = {
         "access": "premium",
         "points": 3,
         "consigne": "Pourquoi le Lion parle-t-il de « la cage des hommes » ?",
-        "aide": "Utilisez l’outil : « Je m’attendais à ce que la cage soit… Pourtant, le Lion parle de “la cage des hommes”. Pourquoi ? » D’habitude, qui est enfermé et qui regarde ? Dans ce texte, qui veut regarder qui ?",
-        "correction": "Je m’attendais à ce que la cage soit celle des animaux, au Jardin des Plantes. Pourtant, le Lion appelle la ville « la cage des hommes ». Pourquoi ? Parce que le texte inverse le point de vue : pour le Lion, les hommes vivent enfermés dans Paris comme les bêtes dans le zoo. Il veut donc faire comme les visiteurs et « aller les regarder dans la leur ». Ce sont maintenant les hommes qu’on observe comme des bêtes curieuses."
+        "aide": "Relevez les mots précis qui éclairent la question. Expliquez ce qu’ils font comprendre. D’habitude, qui est enfermé et qui regarde ? Dans ce texte, qui veut regarder qui ?",
+        "correction": "Le Lion appelle la ville « la cage des hommes ». Le texte inverse le point de vue : pour lui, les hommes vivent enfermés dans Paris comme les animaux dans le zoo. Les mots « aller les regarder dans la leur » font des hommes les êtres observés."
       },
       {
         "id": "q3b",
@@ -2242,7 +2235,7 @@ window.ANNALES_CATALOGUE = {
         "access": "premium",
         "points": 6,
         "consigne": "Quel est l’intérêt pour l’auteur d’adopter le point de vue des animaux ? Développez deux arguments avec des exemples précis.",
-        "aide": "Utilisez l’outil : « Je m’attendais à ce qu’un récit sur des animaux parle surtout des animaux. Pourtant, à travers leurs yeux, on regarde… Pourquoi ? » Cherchez deux intérêts différents : ce que ce regard montre des hommes, et l’effet qu’il produit sur le lecteur. Appuyez chacun sur une citation.",
+        "aide": "Relevez les mots précis qui éclairent la question. Expliquez ce qu’ils font comprendre. Cherchez deux intérêts différents : ce que ce regard montre des hommes, et l’effet qu’il produit sur le lecteur. Appuyez chacun sur une citation.",
         "correction": "Premier intérêt : faire voir les hommes autrement. Le texte inverse les rôles : les animaux sont calmes et polis (« les politesses d’usage », « en braves gens »), alors que les hommes semblent violents : la Hyène croit qu’« ils s’égorgent pour sûr dans leur cage ». Vue de l’extérieur, la ville ressemble à une cage pleine de fureur : l’auteur critique ainsi la vie des hommes. Deuxième intérêt : faire sourire le lecteur, puis le viser. Le Lion se moque des visiteurs qui viennent « comme des imbéciles » et veut aller voir les hommes parce que « cela nous fera rire ». Mais le narrateur parle « de nos sanglots et de nos rires » : le lecteur fait partie de ces hommes que l’on regarde. On rit, puis on comprend que la moquerie nous concerne."
       },
       {
@@ -2429,7 +2422,7 @@ window.ANNALES_CATALOGUE = {
         "access": "premium",
         "points": 6,
         "consigne": "Comment expliquez-vous les « terribles maux de ventre » du narrateur ? Donnez deux éléments de réponse.",
-        "aide": "Utilisez l’outil : « Je m’attendais à ce que des images vues à la télévision… Pourtant, le narrateur a de “terribles maux de ventre”. Pourquoi ? » Cherchez deux causes différentes : l’une dans ce qu’il voit, l’autre dans ce qui se passe, ou ne se passe pas, autour de lui pendant le dîner."
+        "aide": "Relevez les mots précis qui éclairent la question. Expliquez ce qu’ils font comprendre. Cherchez deux causes différentes : l’une dans ce qu’il voit, l’autre dans ce qui se passe, ou ne se passe pas, autour de lui pendant le dîner."
       },
       {
         "id": "q6",
@@ -2737,7 +2730,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 5,
         "consigne": "Où se passe la scène ? Comment expliquez-vous la présence d’une rivière dans ce lieu ? Justifiez par le texte.",
-        "aide": "Utilisez l’outil : « Dans ce lieu, je m’attendais à trouver… Pourtant, le texte parle d’une rivière. Pourquoi ? » Cherchez qui fait apparaître cette rivière, et comment."
+        "aide": "Relevez les mots précis qui éclairent la question. Expliquez ce qu’ils font comprendre. Cherchez qui fait apparaître cette rivière, et comment."
       },
       {
         "id": "q3",
@@ -2988,7 +2981,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 2,
         "consigne": "Quel est le retournement de situation raconté aux vers 30 à 34 ?",
-        "aide": "Utilisez l’outil : « Après le combat, je m’attendais à ce que… Pourtant, aux vers 30 à 34, … Pourquoi est-ce surprenant ? » Demandez-vous qui triomphait juste avant, et ce qui lui arrive ensuite."
+        "aide": "Relevez les mots précis qui éclairent la question. Expliquez ce qu’ils font comprendre. Demandez-vous qui triomphait juste avant, et ce qui lui arrive ensuite."
       },
       {
         "id": "q5",
@@ -3394,7 +3387,7 @@ window.ANNALES_CATALOGUE = {
         "access": "premium",
         "points": 4,
         "consigne": "Pourquoi peut-on dire qu’ils sont transformés par la baignade ? Deux éléments justifiés sont attendus.",
-        "aide": "Utilisez l’outil : « Je m’attendais à voir ces enfants comme… Pourtant, dans la mer, le texte les montre… Pourquoi ? » Comparez ce que le texte dit d’eux d’habitude et pendant la baignade."
+        "aide": "Relevez les mots précis qui éclairent la question. Expliquez ce qu’ils font comprendre. Comparez ce que le texte dit d’eux d’habitude et pendant la baignade."
       },
       {
         "id": "q6",
@@ -3457,7 +3450,7 @@ window.ANNALES_CATALOGUE = {
         "access": "free",
         "points": 4,
         "consigne": "Où se déroule la scène ? Qui est Léopold ? Pourquoi la situation présentée peut-elle surprendre ? Justifiez votre réponse.",
-        "aide": "Utilisez l’outil : « Dans ce lieu, je m’attendais à… Pourtant, le texte montre… Pourquoi ? » Donnez le lieu, dites qui est Léopold, puis expliquez ce qui surprend."
+        "aide": "Relevez les mots précis qui éclairent la question. Expliquez ce qu’ils font comprendre. Donnez le lieu, dites qui est Léopold, puis expliquez ce qui surprend."
       },
       {
         "id": "q2",

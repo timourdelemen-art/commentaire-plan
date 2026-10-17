@@ -27,7 +27,7 @@
     return;
   }
 
-  const storageKey="annale-training:"+id;
+  const storageKey="annale-training:"+id+(item.methodeVersion ? ":"+item.methodeVersion : "");
   const state=JSON.parse(localStorage.getItem(storageKey)||'{"step":0,"answers":{},"feedbacks":{},"totalElapsed":0,"stepElapsed":0,"mode":"guided","help":{},"suspensions":{}}');
   state.answers=state.answers||{};
   state.feedbacks=state.feedbacks||{};
@@ -176,7 +176,7 @@
   const correctionLabel=step=>isBrevetOpen(step)?"Voir une réponse possible":"Voir la correction expliquée";
   const BREVET_BOUSSOLE={
     "brevet-comprehension":["La question et le texte.","Vous répondez en une phrase, avec les mots de la question, puis vous citez le passage qui le prouve.","Une réponse courte et prouvée."],
-    "brevet-interpretation":["Un passage qui surprend, un retournement ou un point de vue.","Vous complétez : « Je m’attendais à… Pourtant, le texte… Pourquoi ? », puis vous citez le texte.","Une interprétation appuyée sur des mots précis."],
+    "brevet-interpretation":["Un passage qui surprend, un retournement ou un point de vue.","Vous relevez les mots qui éclairent la question, puis expliquez ce qu’ils permettent de comprendre.","Une interprétation appuyée sur des mots précis."],
     "brevet-analyse":["Un passage précis du texte.","Vous relevez un élément, vous nommez le procédé, puis vous dites ce qu’il fait sentir ici.","Une analyse : élément, procédé, effet."],
     "brevet-image":["L’image du sujet officiel et le texte.","Vous décrivez ce que vous voyez, puis vous le reliez à une citation du texte.","Une comparaison précise entre l’image et le texte."],
     "brevet-grammaire":["Un mot ou un groupe de mots.","Vous faites une manipulation : supprimer, déplacer, remplacer par un pronom.","Une réponse grammaticale prouvée par le test."],
@@ -197,8 +197,7 @@
       box.setAttribute("aria-label","Boussole de la question");
       els.instruction.insertAdjacentElement("afterend",box);
     }
-    const usesPourtant=/Je m’attendais|je m’attendais|Il croyait/.test(step.aide||"");
-    const b=BREVET_BOUSSOLE[usesPourtant?"brevet-interpretation":step.kind];
+    const b=BREVET_BOUSSOLE[step.kind];
     box.hidden=!b;
     if(b) box.innerHTML="<p><b>D’où vous partez</b>"+b[0]+"</p><p><b>Ce que vous faites</b>"+b[1]+"</p><p><b>Ce que vous obtenez</b>"+b[2]+"</p>";
   }
@@ -395,7 +394,7 @@
       core.push(
         "Une grande partie est une RÉPONSE nécessaire à la problématique, jamais un thème.",
         "Le mot « établissement » est interdit pour désigner une partie : employer RÉPONSE.",
-        "La NÉCESSITÉ DE LA RÉPONSE explique pourquoi cette réponse est indispensable pour comprendre le « pourtant » du texte (ce qu’on pouvait attendre, ce que le texte produit) et répondre à la problématique.",
+        "X désigne ce que le texte présente ; Y, ce que son écriture en fait comprendre ou éprouver. La NÉCESSITÉ DE LA RÉPONSE explique ce qu’une partie apporte à cette lecture. Ne jamais exiger une attente contrariée, un changement final ou le mot pourtant. Évaluer les indices précis, leur analyse et le gain de compréhension.",
         "Une TRANSITION est une question ouverte et directe, placée entre deux parties, qui fait apparaître ce qu’il reste encore à expliquer ; jamais « … suffit-il ? » ni une question fermée ; la partie suivante reprend son mot clé.",
         "RÉALISATION = ce que le texte fait ; ÉLÉMENT TEXTUEL = ce qui le montre ; PROCÉDÉ = comment l’élément est construit ; EFFET = ce que cela change ici.",
         "Pour un procédé, ne jamais valider le seul nom : exiger l’élément précis et l’effet contextualisé.",
