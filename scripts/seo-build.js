@@ -216,7 +216,7 @@ function navigationActive(href, base){
 const portals=navigation.map(([href,label,sub,items])=>portal(file,href,label,sub,items,navigationActive(href,base))).join('');
   return `<header class="top" data-seo-static-nav="1">
   <div class="wrap mast mast-v3">
-    <div class="brand-signature"><a class="brand brand-v2" href="/">COMMENTAIRE<br>PLAN</a><a class="site-wink" href="/clin-oeil.html" aria-label="Le clin d’œil philosophique du site" title="Une pause métaphysique"><img src="/assets/clin-oeil-heidegger-120.webp" width="42" height="53" alt="" decoding="async"></a></div>
+    <div class="brand-signature"><a class="brand brand-v2" href="/">COMMENTAIRE<br>PLAN</a><a class="site-wink no-prefetch" href="/clin-oeil.html" aria-label="Le clin d’œil philosophique du site" title="Une pause métaphysique"><img src="/assets/clin-oeil-heidegger-120.webp" width="42" height="53" alt="" decoding="async"></a></div>
     <nav class="nav-portals" aria-label="Navigation principale">${portals}</nav>
     <button class="mobile-nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav">Menu</button>
   </div>
@@ -243,7 +243,7 @@ function crumbSpec(r, title){
   if(r==='index.html') return [];
   const b=path.basename(r);
   const c=[{name:'Accueil',href:'/'}];
-  const SERVICE=/^(offre|apropos|merci|contact|plan-du-site|mentions-legales|cgv|confidentialite|annales|entrainement-annale|eleves|ia-laboratoire)\.html$/;
+  const SERVICE=/^(offre|apropos|merci|contact|plan-du-site|mentions-legales|cgv|confidentialite|annales|entrainement-annale|eleves|ia-laboratoire|clin-oeil)\.html$/;
   if(SERVICE.test(b)) { /* pages de service : pas de rubrique */ }
   else if(/^methode-/.test(b)) { if(b!=='methode-cours.html') c.push({name:'Cours de méthode',href:'/methode-cours.html'}); }
   else if(/^brevet|anthologie-brevet/.test(b)) c.push({name:'Brevet',href:'/brevet.html'});
