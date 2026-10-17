@@ -57,6 +57,14 @@ async function check(root){
         assert.deepEqual(errors,[]);
         if(name==='bac-commentaire-baudelaire-joujou-du-pauvre.html'){
           await art.locator('.c20c-bar').scrollIntoViewIfNeeded();await page.screenshot({path:path.join(captures,`commentaire-fonctions-${width}.png`)});
+          await art.locator('.c20c-guide summary').click();
+          await art.getByRole('link',{name:'Conclure : réponse, portée et ouverture'}).click();
+          assert(page.url().endsWith('/commentaire-bac-conclusion.html'));
+          assert.equal(await page.locator('main dl dt').count(),3);
+          assert((await page.locator('main').innerText()).includes('l’ouverture n’est pas un attendu'));
+          assert(await page.getByRole('link',{name:'FAQ des EAF 2025 de l’académie d’Aix-Marseille, page 7'}).isVisible());
+          assert((await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth))<=1);
+          await page.locator('main h1').scrollIntoViewIfNeeded();await page.screenshot({path:path.join(captures,`commentaire-conclusion-${width}.png`)});
         }
         report.push({page:name,width,phrases:expected.length,ok:true});await page.close();
       }

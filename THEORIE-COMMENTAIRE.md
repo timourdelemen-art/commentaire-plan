@@ -157,7 +157,11 @@ La conclusion synthétise les effets et répond à la problématique.
 
 Elle ne résume pas mécaniquement les parties.
 
-Si le texte laisse apparaître un reste au-delà de la problématique, celui-ci peut être formulé sobrement.
+Distinguer la réponse finale (ce qui est démontré), la portée de la lecture (ce que cette réponse permet de comprendre) et l’ouverture (le prolongement vers un rapprochement ou une question nouvelle). Une dernière phrase qui dégage la portée n’est pas automatiquement une ouverture.
+
+L’ouverture peut rapprocher une autre œuvre, un autre art ou une question littéraire, à condition d’expliciter le lien précis avec la démonstration. Elle n’est pas obligatoire : la FAQ EAF 2025 de l’académie d’Aix-Marseille, p. 7, indique qu’elle n’est pas un attendu et qu’un rapprochement pertinent peut être valorisé. Source : https://www.pedagogie.ac-aix-marseille.fr/upload/docs/application/pdf/2025-04/faq_eaf_eleves_ecrit_et_oral_2025.pdf
+
+Les annotations identifient les fonctions réellement présentes. Ne pas rebaptiser une portée « ouverture » pour remplir un schéma ; ne pas ajouter systématiquement une référence extérieure. Bilan et réponse peuvent se combiner, leur ordre n’est pas fixé mécaniquement.
 
 ## 10. Règles pour l’IA
 
