@@ -123,7 +123,8 @@ async function check(root){
    await page.locator('.diss-sujet:visible .diss-compare').click();assert((await page.locator('.diss-sujet:visible .diss-fbm').innerText()).includes('Le problème'));
    for(const id of Object.keys(catalogue).filter(id=>catalogue[id].type==='bac-commentaire')){
     await page.goto(base+'annales/entrainement-annale.html?id='+id+'&mode=targeted&step=attente');
-    assert(/Y\s*:/u.test(await page.locator('#stepTitle').innerText()),id);
+    await page.waitForFunction(()=>document.getElementById('stepTitle')?.textContent?.length>0,{},{timeout:5000}).catch(()=>{});
+    assert(/Y\s*:/u.test(await page.locator('#stepTitle').innerText()),JSON.stringify({id,title:await page.locator('#stepTitle').innerText(),errors,body:(await page.locator('body').innerText()).slice(-2500)}));
     await page.locator('#studentAnswer').fill('Une lecture justifiée du texte '+id);await page.locator('#saveNext').click();
     await page.reload();assert.equal(await page.locator('#studentAnswer').inputValue(),'Une lecture justifiée du texte '+id);
     assert((await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth))<=1,id);
