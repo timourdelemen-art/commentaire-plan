@@ -40,3 +40,23 @@
 .ecrire .ecrire-drill{padding:1rem 0;border-top:1px dotted var(--rule)}
 .ecrire .ecrire-drill blockquote{margin:1rem 0;padding:.7rem 1rem;border-left:3px solid var(--red);font-size:1rem}
 @media(max-width:700px){.ecrire .ecrire-copy .c20-s{grid-template-columns:minmax(0,1fr)}}
+
+/* === Méthode d’explication : étapes lisibles et rédaction guidée === */
+.ecrire .ecrire-method{max-width:78ch}
+.ecrire .ecrire-method p,.ecrire .ecrire-method li{line-height:1.75}
+.ecrire .ecrire-method-lead{font-size:1.08rem;margin-bottom:1.8rem}
+.ecrire .ecrire-method h3{font-size:1.2rem;margin:2rem 0 .9rem}
+.ecrire .ecrire-method h4{font-size:1.06rem;line-height:1.5;margin:0 0 .55rem}
+.ecrire .ecrire-method-steps{padding-left:1.7rem;margin:1rem 0 2rem}
+.ecrire .ecrire-method-steps>li{padding:.4rem 0 1.2rem .5rem;margin:0 0 1rem;border-bottom:1px solid var(--rule,#cbd6d1)}
+.ecrire .ecrire-method-steps>li::marker{font-weight:700;color:var(--red,#21624d)}
+.ecrire .ecrire-method-steps p{margin:.45rem 0;max-width:68ch}
+.ecrire .ecrire-method-writing{padding:0 0 1rem}
+.ecrire .ecrire-method-writing h4{margin:1.4rem 0 .4rem}
+.ecrire .ecrire-method-writing p{margin:.4rem 0 1rem}
+.ecrire .ecrire-method-reminders{border-left:3px solid #21624d;background:#f1f6f2;padding:1.1rem 1.3rem;margin:1rem 0}
+.ecrire .ecrire-method-reminders h3{margin:0 0 1rem}
+.ecrire .ecrire-method-reminders ul,.ecrire .ecrire-method-checks{padding-left:1.2rem}
+.ecrire .ecrire-method-reminders li,.ecrire .ecrire-method-checks li{margin:.7rem 0}
+.ecrire .ecrire-method-example{margin:1rem 0;padding:.2rem 1.2rem;border-left:3px solid var(--red,#21624d)}
+@media(max-width:700px){.ecrire .ecrire-method-steps{padding-left:1.4rem}.ecrire .ecrire-method-steps>li{padding-left:.25rem}.ecrire .ecrire-method-reminders{padding:1rem}.ecrire .ecrire-method h3{margin-top:1.6rem}}
