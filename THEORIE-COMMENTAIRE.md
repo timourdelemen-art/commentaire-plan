@@ -6,7 +6,7 @@ Le commentaire littéraire ne consiste pas à accumuler des procédés. Il recon
 
 Schéma de fond :
 
-**DONNÉ → LOGIQUE / ATTENTE → TRANSFORMATION → PROBLÉMATIQUE → SOLUTIONS NÉCESSAIRES → RÉALISATIONS → ÉLÉMENTS TEXTUELS → PROCÉDÉS UTILES → EFFETS**
+**DONNÉ → LOGIQUE / ATTENTE → TRANSFORMATION → PROBLÉMATIQUE → RÉPONSES NÉCESSAIRES → RÉALISATIONS → ÉLÉMENTS TEXTUELS → PROCÉDÉS UTILES → EFFETS**
 
 Ce schéma est un outil de construction du raisonnement, jamais une grille à plaquer mécaniquement sur tous les textes.
 
@@ -44,15 +44,15 @@ La problématique n’est pas une question ajoutée artificiellement.
 
 Elle formule la difficulté interprétative créée par la transformation.
 
-Le « On pouvait attendre X. Pourtant, Y. » est la forme développée ; la problématique en est la forme condensée : une seule question, la plus courte qui garde X et Y. Test : on doit retrouver X et Y dans la question, et elle ne contient pas la réponse.
+La problématique est une question simple, précise et efficace qui saisit l’unité du texte. La complexité de l’analyse préparatoire ne doit pas alourdir sa formulation. Elle conserve le problème singulier et ne fournit pas sa réponse.
 
 Formes simples : « Comment [l'auteur] fait-il de X Y ? », « Comment comprendre que… ? ». On évite « Comment le texte transforme-t-il… ? » sur les pages élèves.
 
 La formulation exacte varie avec le texte.
 
-## 4. Une grande partie = une solution nécessaire
+## 4. Une grande partie = une réponse nécessaire
 
-Le site emploie le mot **RÉPONSE** pour l’élève (décision du 10 octobre 2026 ; « solution » n'est plus employé), comme en dissertation et en philosophie.
+Le site emploie le mot **RÉPONSE**, comme en dissertation et en philosophie. « Établissement » ne sert plus à annoter les copies.
 
 Une grande partie n’est jamais, par principe :
 - un thème ;
@@ -64,18 +64,18 @@ Elle apporte une réponse nécessaire à la problématique.
 
 Pour construire une partie, distinguer trois niveaux :
 
-### SOLUTION
+### RÉPONSE
 Ce que la partie affirme.
 
-### NÉCESSITÉ DE LA SOLUTION
-Pourquoi cette solution est indispensable pour comprendre la transformation et répondre à la problématique.
+### NÉCESSITÉ DE LA RÉPONSE
+Pourquoi cette réponse est indispensable pour comprendre la transformation et répondre à la problématique.
 
 Cette nécessité appartient à la construction interne de la partie et du plan.
 
 Elle n’est **pas** la transition.
 
 ### RÉALISATIONS
-Ce que le texte fait pour construire cette solution.
+Ce que le texte fait pour construire cette réponse.
 
 Les réalisations deviennent les sous-parties analytiques.
 
@@ -96,35 +96,35 @@ Le procédé n’est jamais recherché pour lui-même.
 
 Dans l’interface élève, la transition est volontairement simplifiée.
 
-Elle ne répète ni la solution précédente, ni la nécessité interne de la solution suivante.
+Elle ne répète ni la réponse précédente, ni la nécessité interne de la réponse suivante.
 
 Elle demande :
 
-**Qu’est-ce que la solution précédente ne suffit pas encore à expliquer ?**
+**Qu’est-ce que la réponse précédente ne suffit pas encore à expliquer ?**
 
-Schéma visible :
+Préparation interne :
 
 **ACQUIS → MANQUE RESTANT → QUESTION**
 
-Dans le travail préparatoire, la transition peut être réduite à cette seule question.
+Dans la copie, la transition est une brève question ouverte sur le manque restant, sans bilan préalable obligatoire. La partie suivante donne sa réponse ; la nécessité de cette réponse doit être fondée dans le raisonnement, et non confondue avec la question.
 
 La réponse suivante devient ensuite pertinente parce qu’elle répond à ce manque, mais sa **nécessité propre** reste une opération distincte de construction du plan.
 
 ### Distinction capitale
 
 - **Problématique** : difficulté globale du commentaire.
-- **Nécessité de la solution** : pourquoi cette partie est indispensable dans le raisonnement.
+- **Nécessité de la réponse** : pourquoi cette partie est indispensable dans le raisonnement.
 - **Transition** : difficulté locale qui subsiste après la partie précédente.
 
 ## 7. Construire le plan
 
-Le plan organise des solutions successives à la problématique.
+Le plan organise des réponses successives à la problématique.
 
 Deux ou trois parties sont possibles selon le texte.
 
 Pour chaque partie :
 
-**SOLUTION → NÉCESSITÉ DE LA SOLUTION → RÉALISATIONS**
+**RÉPONSE → NÉCESSITÉ DE LA RÉPONSE → RÉALISATIONS**
 
 Puis, entre les parties :
 
@@ -147,7 +147,7 @@ en analyse continue.
 
 Une partie transforme :
 
-**SOLUTION → NÉCESSITÉ → RÉALISATIONS**
+**RÉPONSE → NÉCESSITÉ → RÉALISATIONS**
 
 en argumentation interprétative fluide.
 
@@ -163,7 +163,7 @@ Si le texte laisse apparaître un reste au-delà de la problématique, celui-ci 
 
 L’IA doit :
 - évaluer uniquement le geste demandé ;
-- ne jamais confondre solution, nécessité et transition ;
+- ne jamais confondre réponse, nécessité et transition ;
 - ne jamais employer « établissement » pour nommer une grande partie dans l’interface élève ;
 - traiter une transition comme une question sur ce qui reste à expliquer ;
 - distinguer réalisation, élément textuel, procédé et effet ;
@@ -181,3 +181,41 @@ Les typologies ne sont pas des listes à remplir.
 Le nombre de parties n’est pas une norme intangible.
 La transformation n’est pas forcément chronologique.
 Un cas nouveau doit être compris dans sa singularité avant d’être rapporté au modèle.
+
+
+## 12. Annotations phrase par phrase — décisions du 17 octobre 2026
+
+Les annotations décrivent la fonction réelle de la phrase rédigée. Elles restent brèves et peuvent associer plusieurs fonctions. Elles ne servent jamais à inventer une nécessité, un procédé ou une preuve absents de la copie.
+
+### Introduction
+
+- Présentation de l’œuvre : les références et le contexte utiles.
+- Présentation de l’extrait : une ou deux phrases choisissent les éléments précis qui préparent le problème. Une même phrase peut présenter l’œuvre et l’extrait.
+- Ce qu’on pouvait attendre : une attente fondée sur le texte, sa forme et ses conventions, jamais fabriquée pour obtenir une opposition.
+- Ce que le texte produit : le résultat singulier qui appelle une explication.
+- Problématique : une question simple et efficace.
+- Annonce des réponses : la progression du raisonnement.
+
+X prend en charge les déterminations structurantes : situation, relations, mais aussi forme, genre, voix ou composition lorsqu’ils organisent la lecture. La lecture préparatoire examine tout le texte ; la formule courte ne doit pas énumérer tous ses détails. Chaque fait important doit trouver une place dans la lecture retenue, sans contradiction passée sous silence.
+
+« Pourtant » est une articulation logique, pas une étape intermédiaire obligatoire. Dans *L’Orage*, il peut simplement signaler que le texte déjoue l’attente : le mauvais temps devient désiré. Dans *Le Joujou du pauvre*, le détour par le jouet du pauvre précise le mouvement qui conduit au rire partagé et à l’égalité malgré la grille. Ne pas créer une proposition intermédiaire artificielle entre X et Y.
+
+L’aphorisme de Cioran constitue un cas particulier : le rapprochement entre la brièveté de la formule et sa puissance, d’une part, la petitesse du spermatozoïde et l’ampleur de ses conséquences, d’autre part, prépare le problème. Ne pas imposer cette entrée par la forme à tous les textes.
+
+### Développement
+
+**Réponse à la problématique → nécessité de la réponse → réalisations analysées.**
+
+Une réalisation dit ce que le texte accomplit pour construire la réponse. L’effet ici explique précisément ce qu’un choix d’écriture fait voir, comprendre ou ressentir dans ce passage. Le gain interprétatif est ce que l’analyse permet de comprendre de plus pour répondre à la problématique. Ces niveaux se distinguent logiquement, sans exiger des phrases séparées.
+
+Quand nommer séparément la réalisation répéterait l’effet, le trio **élément textuel → procédé → effet ici** suffit, à condition que la réalisation reste intelligible. La nommer explicitement si elle oriente l’analyse, rassemble des preuves ou apporte une précision nécessaire.
+
+Le nombre et la taille des sous-parties dépendent des réalisations importantes nécessaires à la preuve, sans quota fixe. Plusieurs procédés peuvent construire une même réalisation. La copie la plus courte et la plus efficace conserve chaque réalisation décisive et élimine les répétitions.
+
+Le manuel des procédés est une première grille de recherche, ouverte. Compléter la recherche selon le texte, notamment en poésie : mètre, rimes, organisation strophique, coupes, reprises, rapports entre syntaxe et vers. Aucun procédé n’a un effet automatique. Un effet transférable tel quel à n’importe quel passage n’est pas assez précis.
+
+### Contrôle de rédaction
+
+La transition est une question brève entre les parties ; la nécessité est le fondement de la réponse dans le corps du raisonnement. La progression doit se sentir dans les relations entre propositions et dans la syntaxe. Ne pas multiplier les connecteurs ni les phrases de méthode pour rendre la structure visible.
+
+Après annotation, comparer le texte des copies à la version de départ : pas de changement involontaire, pas de découpage d’une citation en fausses phrases, pas de preuve ajoutée par le seul libellé de fonction.
