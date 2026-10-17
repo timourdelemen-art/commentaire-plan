@@ -37,8 +37,13 @@ PHILO_STEPS.forEach(([file,label],k)=>{
  if(!strip.includes('data-step="'+n+'"')) failures.push(file+': bande du parcours absente ou mauvais numéro (attendu '+n+')');
  if(!new RegExp('href="'+file.replace(/\./g,'\\.')+'" data-n="'+n+'" aria-current="step"').test(strip)) failures.push(file+': étape courante non marquée');
  if(!html.includes('Étape '+n+' sur 5 : '+label)) failures.push(file+': navigation précédent/suivant absente');
- for(const [name,src] of [['site-nav.js',nav],['seo-build.js',seo]]) if(!JSON.parse(src.match(/const navigation=(\[.*?\]);\nfunction navigationActive/s)[1]).find(p=>p[0]==='philosophie.html')[3].some(p=>p[0]===file&&p[1]===n+' · '+label)) failures.push(name+': libellé du menu différent pour l’étape '+n+' (« '+n+' · '+label+' » attendu)');
+ if(!read('philosophie.html').includes('href="'+file+'"')) failures.push('philosophie.html : étape inaccessible '+file);
 });
+for(const [name,src] of [['site-nav.js',nav],['seo-build.js',seo]]){
+ const menu=JSON.parse(src.match(/const navigation=(\[.*?\]);\nfunction navigationActive/s)[1]).find(p=>p[0]==='philosophie.html')[3];
+ if(JSON.stringify(menu.map(p=>p.slice(0,2)))!==JSON.stringify([['philosophie.html#dissertation','Dissertation'],['philosophie-explication.html','Explication de texte']])) failures.push(name+': deux entrées attendues, dissertation et explication');
+}
+if(!read('philosophie.html').includes('href="philosophie-notions.html"')) failures.push('Les notions doivent rester accessibles');
 PHILO_RESOURCES.forEach(file=>{const html=read(file);if(/<nav class="parcours-strip"[^>]*data-step=/.test(html)) failures.push(file+': une ressource ne doit pas porter de numéro d’étape');});
 // Vocabulaire réservé aux documents internes (AGENTS.md § 2) : jamais sur une page élève de philosophie.
 for(const f of fs.readdirSync(root).filter(f=>/^philosophie.*\.html$/.test(f))){

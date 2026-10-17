@@ -86,6 +86,7 @@ const server = http.createServer((req,res) => {
   if(!staticPage.url().endsWith('/clin-oeil.html')){failures++;console.error('Le clin d’œil sans JavaScript ne fonctionne pas');}
   await nojs.close();
   await browser.close();
+  await require('./check-browser-typographie.cjs')(root);
   await require('./check-browser-commentaires.cjs')(root);
   await require('./check-browser-commentaire-parcours.cjs')(root);
   if(failures)process.exitCode=1;

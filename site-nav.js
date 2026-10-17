@@ -67,34 +67,14 @@ document.addEventListener('DOMContentLoaded',()=> {
     "dissertation · explication",
     [
       [
-        "philosophie-probleme-pas-a-pas.html",
-        "1 · Trouver le problème",
-        "Commencer par un vrai sujet"
-      ],
-      [
-        "philosophie-plan-pas-a-pas.html",
-        "2 · Construire le plan",
-        "Faire progresser les réponses"
-      ],
-      [
-        "philosophie-dissertation-entrainement.html",
-        "3 · Rédiger",
-        "Arguments, transitions et conclusion"
-      ],
-      [
-        "philosophie-laboratoire.html",
-        "4 · Reprendre une difficulté",
-        "Choisir un atelier ciblé"
-      ],
-      [
-        "philosophie-annales.html",
-        "5 · Traiter un sujet du bac",
-        "Dissertations et explications de texte"
+        "philosophie.html#dissertation",
+        "Dissertation",
+        "Trouver le problème, construire le plan et rédiger"
       ],
       [
         "philosophie-explication.html",
-        "Expliquer un texte",
-        "Du passage à l’explication rédigée"
+        "Explication de texte",
+        "Lire le passage, l’expliquer et rédiger"
       ]
     ]
   ],
@@ -213,7 +193,7 @@ const portals=navigation.map(([href,label,sub,items])=>portal(href,label,sub,ite
   </div>
   <nav id="mobile-nav" class="mobile-nav wrap" aria-label="Navigation mobile" hidden>
     <a href="bac.html"><strong>Bac français</strong><span>Commentaire · dissertation · oral</span></a>
-    <a href="philosophie.html"><strong>Philosophie</strong><span>Méthode · exercices · annales</span></a>
+    <a href="philosophie.html"><strong>Philosophie</strong><span>Dissertation · explication de texte</span></a>
     <a href="hlp.html"><strong>HLP</strong><span>Première · Terminale · annales</span></a>
     <a href="brevet.html"><strong>Brevet</strong><span>Compréhension · langue · rédaction</span></a>
     <a href="bibliotheque.html"><strong>Bibliothèque</strong><span>Littérature · philosophie</span></a>
