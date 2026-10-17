@@ -15,7 +15,7 @@
     "philo-problematique":"Test du gant, signale seulement le premier point qui échoue : chaque mot important du sujet travaille ; aucune NOTION ajoutée que le sujet ne contient pas (l’État ou le bonheur dans un sujet qui n’en parle pas) : défaut, diagnostic à reprendre ; remplacer une notion du sujet par l’un de ses cas particuliers (la promesse au lieu de l’engagement) rétrécit le sujet : défaut léger, diagnostic partiel, inviter à revenir au terme général ; un mot qui radicalise une réponse (« tout engagement ») ou une image concrète placée à côté du terme général ne sont PAS des défauts ; les deux réponses restent ouvertes et chacune perd quelque chose (pas de question rhétorique « comment pourrait-on… puisque… ») ; on reconnaît le sujet sans recopie ; une seule question, une trentaine de mots ; on y lit la partie I et la partie II, sans la solution de la III. Si tous les points passent, diagnostic acquis, manque principal « Rien d’essentiel ne manque. » : ne fabrique jamais de défaut.",
     "philo-cout":"Les deux réponses doivent perdre quelque chose, et la perte doit venir de la réponse poussée jusqu’au bout, pas d’une objection extérieure.",
     "philo-consequence":"Deux choses que la notion demande dans son sens courant, sans définition d’auteur, et pourquoi elles se gênent.",
-    "philo-reponse":"Trois temps attendus : une première réponse au sujet en une phrase qui reprend ses mots, au choix de l’élève : oui, non (éventuellement nuancé par les petits mots du sujet, par exemple « pas toujours »), ou une phrase qui montre que la question est mal posée ; les trois formes sont justes, rien de plus n’est demandé, ne pas exiger de justification ; le petit mot du sujet qui change la question (peut-on, faut-il, suffit-il, sans…) et ce qu’il change ; puis la phrase « Au premier abord, on répondrait…, mais… » qui montre que la première réponse ne suffit plus. Vérifier surtout que les mots du sujet font vaciller la première réponse.",
+  "philo-reponse": "Évaluer seulement les tâches et les formulations demandées par la consigne visible et son critère local. Pour la première réponse : accepter oui, non éventuellement nuancé par les petits mots du sujet, ou une remise en question argumentée de la question ; ne pas imposer une réponse affirmative. Examiner ensuite uniquement les étapes effectivement demandées (exemple, petit mot, phrase à compléter). Ne jamais exiger la formule « Au premier abord…, mais… » si elle ne figure pas dans la consigne. Une réponse juste dans ses propres mots est recevable ; ne pas inventer de manque.",
     "philo-transition":"Une transition est une question ouverte, placée entre deux parties : elle part de la limite de la réponse précédente (retournement, présupposé dévoilé, prix, glissement de sens ; pour passer à la III, ce que les deux réponses supposaient ensemble) et demande ce que cette réponse n’a pas su préserver. Une ou deux phrases, sans « nous avons vu » ni « voyons maintenant ». La question ne contient pas sa réponse : pas de « … suffit-il ? ». Une affirmation qui donne déjà la partie suivante n’est pas une transition.",
     "philo-plan":"I défend une réponse et finit sur sa limite, née de l’idée poussée jusqu’au bout ; II part de cette limite ; III ne choisit pas un camp ni ne coupe la poire en deux : une opération (renverser le rapport ; changer de niveau : deux plans, difficulté déplacée, limite du savoir ; réunir ce qu’on avait séparé : processus, concept transformé, tension maintenue) qui garde les acquis de I et II.",
     "philo-troisieme":"Troisième partie : III.1 les acquis de I et II et leur difficulté commune ; III.2 une opération précise (renverser le rapport, changer de niveau, réunir ce qu’on avait séparé), avec la raison qui la rend efficace ici ; III.3 la réponse, ce qu’elle conserve, ce qu’elle transforme et son reste. Vérifier que les deux premières réponses n’ont pas été artificiellement rendues absurdes. Une étiquette, une analogie ou une formule élégante n’est pas une preuve. Lorsque la consigne demande de comparer des pistes, examiner pour chacune ce qu’elle préserve, son coût, son présupposé et la difficulté qu’elle laisse ; justifier la préférence à partir du même problème, sans classement universel ni score. Plusieurs pistes ou leur combinaison peuvent être défendables. Une responsabilité ne prouve pas une maîtrise ni la bonté d’un acte ; une distinction de niveaux doit expliquer leur rapport. Signaler le premier manque réel, sans exiger une comparaison supplémentaire si l’exercice demande seulement une sous-partie. Ne pas attribuer une note à partir du respect d’une structure.",
@@ -120,7 +120,11 @@
           feedback.classList.add("show");
           return;
         }
-        if(!response.ok||!data.ok)throw new Error(data.error||"Retour indisponible.");
+        if(!response.ok||!data.ok){
+          const failure=new Error(data.error||"Retour indisponible.");
+          failure.publicMessage=data.code||data.setup||response.status===429 ? data.error : "";
+          throw failure;
+        }
         const f=data.feedback||{};
         feedback.innerHTML=
           "<strong>"+(f.diagnostic==="acquis"?"Réponse solide":f.diagnostic==="partiel"?"Réponse à préciser":"Réponse à reprendre")+"</strong>"+
@@ -131,7 +135,7 @@
         previousAnswer=answer;
       }catch(e){
         const hasDet=!!((area.closest(".exercise,article,section")||document).querySelector("details"));
-        feedback.innerHTML="<strong>Retour automatique indisponible pour l’instant</strong><p>Votre réponse est conservée. "+(hasDet?"Comparez-la avec les pistes ci-dessous, puis réessayez plus tard.":"Réessayez dans quelques minutes.")+"</p>";
+        feedback.innerHTML="<strong>Retour automatique indisponible pour l’instant</strong><p>"+(e.publicMessage?esc(e.publicMessage)+" ":"La connexion au service a échoué. ")+"Votre réponse est conservée. "+(hasDet?"Comparez-la avec les pistes ci-dessous, puis réessayez plus tard.":"Réessayez dans quelques minutes.")+"</p>";
         feedback.classList.add("show");
         const box=area.closest(".exercise,article,section");
         const det=box&&box.querySelector("details");
