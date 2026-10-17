@@ -2696,3 +2696,54 @@ div.qcm-options>p{border:0!important;background:none!important;box-shadow:none!i
   .dissertation-five>article+article{border-left:0}
   .dissertation-five h3{min-height:0}
 }
+
+/* === Audit typographie et respiration des pages — octobre 2026 === */
+/* Titres : laisser respirer les accents et les lignes, sans changer les polices. */
+.pagehead{gap:clamp(24px,4.4vw,60px);padding-block:clamp(36px,4.4vw,60px)}
+.pagehead h1{line-height:1.08;letter-spacing:-.035em;overflow-wrap:break-word}
+:is(.method-grid,.exercise-intro,.journey-block,.section-intro,.teacher-sequence) h2{line-height:1.18}
+:is(.module-card,.corpus-card,.stage-card,.hlp-card,.procedure-mode-grid) h3{line-height:1.25}
+/* Une mesure de lecture régulière pour les explications, pas pour les vers. */
+.prose,.seo-body>p{max-width:70ch}
+.prose p{line-height:1.65}
+.seo-body>h2:not(:first-child){margin-top:40px;margin-bottom:18px;line-height:1.18}
+.seo-body>h3{font-size:26px;line-height:1.25;margin:30px 0 14px}
+.seo-body>ul,.seo-body>ol{max-width:70ch;font-size:18px;line-height:1.65;padding-left:1.4em}
+.seo-body>ul>li+li,.seo-body>ol>li+li{margin-top:10px}
+:is(.module-card,.corpus-card,.stage-card,.workbench,.exercise)>p{font-size:17px;line-height:1.6;max-width:70ch}
+:is(.module-card,.corpus-card,.stage-card) h3{font-size:24px;margin:10px 0 14px}
+/* Les colonnes doivent pouvoir rétrécir, même avec un titre long. */
+.grid-2,.corpus-index{grid-template-columns:repeat(2,minmax(0,1fr))}
+.grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+:is(.grid-2,.grid-3,.method-grid,.exercise-intro,.corpus-index)>*{min-width:0}
+:is(.module-card,.corpus-card,.stage-card){overflow-wrap:break-word}
+/* Les boutons et les aides ne doivent pas comprimer une phrase sur une ligne. */
+main .btn{max-width:100%;white-space:normal;text-align:left;line-height:1.4}
+main :is(.actions,.funnel-actions,.atelier-nav,.chaine-nav){flex-wrap:wrap;row-gap:12px}
+.correction summary{line-height:1.6}
+.c20-f{min-width:0;line-height:1.55;overflow-wrap:break-word}
+.boussole{grid-template-columns:repeat(3,minmax(0,1fr))}
+.boussole p{min-width:0;line-height:1.55}
+/* Les renvois restent lisibles, sans devenir aussi imposants que le texte. */
+:is(.literary-text .source,.literary-text .notes,.micro){line-height:1.6}
+@media(max-width:800px){.grid-2,.grid-3,.corpus-index{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:700px){
+  .pagehead h1{font-size:clamp(36px,9.4vw,46px);letter-spacing:-.025em}
+  .pagehead .lede{line-height:1.55}
+  .boussole{grid-template-columns:minmax(0,1fr)}
+  .workbench{padding:22px 16px}
+  .model-commentary{padding:28px 18px}
+  .c20-f{font-size:13px;letter-spacing:.02em;line-height:1.55}
+  main .btn{min-width:0}
+  .seo-body>h2{font-size:32px}
+  .seo-body>h3{font-size:24px}
+}
+
+/* Deux entrées principales en philosophie, ressources complémentaires en dessous. */
+.philo-choices{margin:24px 0 0}
+.philo-choices h3{font-size:30px;font-weight:400;line-height:1.2;margin:0}
+.philo-choices p{font-size:18px;line-height:1.6;margin:0}
+.philo-choices span{color:var(--red);text-decoration:underline;text-underline-offset:4px}
+.philo-resources ul{font-size:18px;line-height:1.65;padding-left:1.4em}
+.philo-resources li+li{margin-top:10px}
+#dissertation{scroll-margin-top:24px}
