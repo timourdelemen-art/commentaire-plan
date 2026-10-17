@@ -157,11 +157,17 @@ La conclusion synthétise les effets et répond à la problématique.
 
 Elle ne résume pas mécaniquement les parties.
 
-Distinguer la réponse finale (ce qui est démontré), la portée de la lecture (ce que cette réponse permet de comprendre) et l’ouverture (le prolongement vers un rapprochement ou une question nouvelle). Une dernière phrase qui dégage la portée n’est pas automatiquement une ouverture.
+Distinguer la réponse finale (ce qui est démontré), la portée de la lecture (ce que cette réponse permet de comprendre) et l’ouverture. Une dernière phrase qui dégage la portée n’est pas automatiquement une ouverture.
 
-L’ouverture peut rapprocher une autre œuvre, un autre art ou une question littéraire, à condition d’expliciter le lien précis avec la démonstration. Elle n’est pas obligatoire : la FAQ EAF 2025 de l’académie d’Aix-Marseille, p. 7, indique qu’elle n’est pas un attendu et qu’un rapprochement pertinent peut être valorisé. Source : https://www.pedagogie.ac-aix-marseille.fr/upload/docs/application/pdf/2025-04/faq_eaf_eleves_ecrit_et_oral_2025.pdf
+Décision du propriétaire du 17 octobre 2026 : l’ouverture, si elle existe, a pour fonction une **reproblématisation littéraire**. La dernière réponse laisse un reste déterminé ; la conclusion fait de ce reste une nouvelle question littéraire. L’ouverture ne sert pas à montrer la culture de l’élève. Une autre œuvre n’intervient que si elle contribue précisément à cette nouvelle question, jamais comme référence décorative.
 
-Les annotations identifient les fonctions réellement présentes. Ne pas rebaptiser une portée « ouverture » pour remplir un schéma ; ne pas ajouter systématiquement une référence extérieure. Bilan et réponse peuvent se combiner, leur ordre n’est pas fixé mécaniquement.
+Schéma interne : **réponse finale → reste de cette réponse → nouvelle question littéraire**. Langage élève : « Quelle question votre réponse laisse-t-elle ouverte ? »
+
+Exemple, *Le Joujou du pauvre* : le rire rend visible l’égalité, mais la grille reste fermée à la fin du poème. Une ouverture possible demande : « Que peut la fraternité d’un rire lorsque le poème s’achève sans ouvrir la grille ? » Elle interroge la force et la limite de cette fraternité dans la clôture littéraire de la scène.
+
+L’ouverture est facultative : la FAQ EAF 2025 de l’académie d’Aix-Marseille, p. 7, indique qu’elle n’est pas un attendu. Cette précision institutionnelle ne définit pas sa fonction dans notre méthode. Source : https://www.pedagogie.ac-aix-marseille.fr/upload/docs/application/pdf/2025-04/faq_eaf_eleves_ecrit_et_oral_2025.pdf
+
+Les annotations identifient les fonctions réellement présentes. Ne pas rebaptiser une portée « ouverture » pour remplir un schéma. Bilan et réponse peuvent se combiner, leur ordre n’est pas fixé mécaniquement.
 
 ## 10. Règles pour l’IA
 

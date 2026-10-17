@@ -49,7 +49,7 @@
       'L’effet ici dit précisément ce que ce choix fait voir, comprendre ou ressentir dans ce passage. Le gain interprétatif dit ce que l’analyse permet de comprendre de plus pour répondre au problème.',
       'La réalisation n’a pas besoin d’une phrase séparée si l’analyse la rend déjà claire. Chaque partie développe autant de réalisations importantes que sa réponse l’exige ; le manuel aide à les analyser, sans épuiser les possibilités du texte.'
     ].forEach(function(txt){guide.appendChild(el('p',null,txt));});
-    guide.appendChild(el('p',null,'La conclusion donne la réponse finale et peut en préciser la portée. Une ouverture prolonge cette lecture par un lien précis vers une autre œuvre ou une autre question ; elle est facultative.'));
+    guide.appendChild(el('p',null,'La conclusion donne la réponse finale et peut en préciser la portée. L’ouverture, facultative, pose une nouvelle question littéraire à partir de ce que cette réponse laisse en suspens. Sa fonction est de prolonger le problème, pas de montrer votre culture.'));
     var conclusion=el('a',null,'Conclure : réponse, portée et ouverture');
     conclusion.href='commentaire-bac-conclusion.html';guide.appendChild(conclusion);
     bar.appendChild(guide);
