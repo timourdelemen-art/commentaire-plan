@@ -27,6 +27,8 @@ jobs:
           npm install --no-save playwright@1.56.1
           npx playwright install --with-deps chromium
       - name: Construire et parcourir la banque
+        env:
+          PHILO_SCREENSHOT_DIR: ${{ runner.temp }}/banque-captures
         run: |
           B=$(mktemp -d)
           git ls-files -co --exclude-standard | tar -cf - -T - | tar -xf - -C "$B"
@@ -34,3 +36,11 @@ jobs:
           eval "$(sed -n 's/^ *command = "\(.*\)"/\1/p' netlify.toml)"
           cd "$GITHUB_WORKSPACE"
           node scripts/check-browser-philo-banque.cjs "$B"
+      - name: Archiver les captures de la banque
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: banque-captures
+          path: ${{ runner.temp }}/banque-captures
+          if-no-files-found: warn
+          retention-days: 14
