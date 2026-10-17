@@ -48,6 +48,8 @@ async function check(root){
       assert.deepEqual(await page.locator('.portal-wrap.open .portal-dropdown [role="menuitem"] strong').allTextContents(),['Dissertation','Explication de texte']);
       await page.keyboard.press('Escape');
      }
+     // Les QCM mélangent leurs choix au chargement : comparer la source du contenu, identique dans les deux rendus.
+     versions[mode].text=(await response.text()).match(/<main\b[\s\S]*?<\/main>/i)?.[0];
      assert.deepEqual(errors,[],name+' '+width+' '+mode);
      if(capturePages.has(name)&&width!==768){
       await page.locator('main').evaluate(e=>e.scrollIntoView({block:'start'}));
