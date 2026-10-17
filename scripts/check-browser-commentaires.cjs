@@ -38,7 +38,7 @@ async function check(root){
         assert(await reference.getByRole('link',{name:'Lire le texte de référence',exact:true}).isVisible());
         assert((await reference.getByRole('link',{name:'Lire le texte de référence',exact:true}).getAttribute('href')).startsWith('https://'));
         if(name==='bac-commentaire-baudelaire-joujou-du-pauvre.html'){
-          await ending.scrollIntoViewIfNeeded();await page.screenshot({path:path.join(captures,`commentaire-ouverture-${width}.png`)});
+          await art.locator('.c20-s').last().scrollIntoViewIfNeeded();await page.screenshot({path:path.join(captures,`commentaire-ouverture-${width}.png`)});
         }
         await reference.locator('summary').click();
         assert(!functions.some(f=>/établissement|reprise du mot clé|l’acquis/i.test(f)));
