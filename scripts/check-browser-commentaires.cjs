@@ -35,11 +35,14 @@ async function check(root){
         assert.equal(await reference.count(),1);
         assert(!(await reference.locator('p').first().isVisible()),'La source reste repliée au départ');
         await reference.locator('summary').click();
+        assert(!(await reference.getAttribute('class')).split(/\s+/u).includes('correction'),'Une source ne doit pas être verrouillée comme un corrigé');
         assert(await reference.getByRole('link',{name:'Lire le texte de référence',exact:true}).isVisible());
         assert((await reference.getByRole('link',{name:'Lire le texte de référence',exact:true}).getAttribute('href')).startsWith('https://'));
         if(name==='bac-commentaire-baudelaire-joujou-du-pauvre.html'){
           await art.locator('.c20-s').last().scrollIntoViewIfNeeded();await page.screenshot({path:path.join(captures,`commentaire-ouverture-${width}.png`)});
         }
+        assert(await reference.evaluate(e=>e.open),'La source reste ouverte après consultation');
+        assert.equal(await page.locator('.correction-lock-note').count(),0,'La source n’exige aucune tentative préalable');
         await reference.locator('summary').click();
         assert(!functions.some(f=>/établissement|reprise du mot clé|l’acquis/i.test(f)));
         const toggle=art.locator('.c20c-toggle');await toggle.focus();await page.keyboard.press('Enter');
