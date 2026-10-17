@@ -23,7 +23,7 @@ const server = http.createServer((req,res) => {
   const browser=await chromium.launch({headless:true});
   let failures=0;
   const captures=path.join(root,'browser-audit');fs.mkdirSync(captures,{recursive:true});
-  for(const width of [390,1280]){
+  for(const width of [320,390,1051,1280]){
     const context=await browser.newContext({viewport:{width,height:850}});
     for(const name of pages){
       const page=await context.newPage();
@@ -43,8 +43,21 @@ const server = http.createServer((req,res) => {
       const wink=page.getByRole('link',{name:'Le clin d’œil philosophique du site'});
       if(await wink.count()!==1) winkInvalid=await page.locator('header.top').count()>0;
       else {
+        const brand=page.locator('header.top .brand');
+        const brandText=(await brand.innerText()).replace(/\s+/g,' ').trim();
+        const mast=await page.locator('header.top .mast').evaluate(el=>{
+          const brand=el.querySelector('.brand-signature').getBoundingClientRect();
+          const nav=el.querySelector('.nav-portals');
+          const menu=el.querySelector('.mobile-nav-toggle');
+          const target=getComputedStyle(nav).display==='none'?menu:nav;
+          return {right:brand.right,next:target.getBoundingClientRect().left};
+        });
+        winkInvalid=brandText!=='LA PHRASE JUSTE'||mast.right>mast.next;
+        if(name==='index.html'){
+          winkInvalid=winkInvalid||(await page.locator('.home-site-tagline').innerText())!=='Lire, penser, écrire — du brevet au bac.';
+        }else if(await page.locator('.home-site-tagline').count())winkInvalid=true;
         const loaded=await wink.locator('img').evaluate(async img=>{await img.decode();return img.naturalWidth>0;});
-        winkInvalid=!loaded || (name!=='clin-oeil.html' && largeImageRequests!==0);
+        winkInvalid=winkInvalid||!loaded || (name!=='clin-oeil.html' && largeImageRequests!==0);
         if(name==='index.html'){
           await page.screenshot({path:path.join(captures,`icone-accueil-${width}.png`)});
           await wink.focus();await page.keyboard.press('Enter');await page.waitForURL('**/clin-oeil.html');

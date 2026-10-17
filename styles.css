@@ -2674,3 +2674,8 @@ div.qcm-options>p{border:0!important;background:none!important;box-shadow:none!i
 .wink-page .wink-back{display:inline-block;border-bottom:1px solid var(--red);padding-bottom:5px;font-size:18px}
 @media(max-width:760px){.brand-signature{gap:9px}.site-wink img{width:35px;height:44px}.wink-page{padding-top:24px}}
 @media(prefers-reduced-motion:reduce){.site-wink{transition:none}.site-wink:hover{transform:none}}
+
+/* === La Phrase juste : nom court dans l’en-tête, signature sur l’accueil === */
+.home-site-name{font:700 25px/1.2 Georgia,'Times New Roman',serif;letter-spacing:-.5px;margin:0 0 8px;color:var(--red)}
+.home-site-tagline{font:17px/1.5 Georgia,'Times New Roman',serif;margin:0 0 24px;max-width:36ch;color:var(--muted)}
+@media(max-width:760px){.home-site-name{font-size:22px}.home-site-tagline{font-size:16px;margin-bottom:20px}}

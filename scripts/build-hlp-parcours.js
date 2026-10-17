@@ -11,7 +11,8 @@ const labels = {
 };
 const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const file = s => `hlp-parcours-${s.id}.html`;
-const words = r => r.model.reduce((n, p) => n + p[0].trim().split(/\s+/u).length, 0);
+const paragraphText = p => p.sentences.map(s => s.text).join(' ');
+const words = r => r.model.reduce((n, p) => n + paragraphText(p).trim().split(/\s+/u).length, 0);
 
 function validate() {
   const ids = new Set();
@@ -27,7 +28,14 @@ function validate() {
       if (!labels[r.kind] || !r.question.endsWith('?') || r.stages.length !== 5 || r.model.length < 4) throw Error(`Réponse incomplète : ${s.id}/${r.id}`);
       if (r.choices.length !== 3 || !r.choices.some(c => c[1] === 'Solide')) throw Error(`Choix : ${s.id}/${r.id}`);
       for (const c of r.choices) if (!['Solide','Défendable','À revoir'].includes(c[1]) || !c[2]) throw Error('Retour de choix incomplet');
-      for (const p of r.model) if (p.length !== 2 || !p.every(Boolean)) throw Error('Annotation incomplète');
+      for (const p of r.model) {
+        if (!Array.isArray(p.sentences) || !p.sentences.length) throw Error('Paragraphe sans phrases');
+        for (const sentence of p.sentences) {
+          if (typeof sentence.text !== 'string' || !sentence.text.trim() || typeof sentence.function !== 'string' || !sentence.function.trim()) throw Error(`Phrase sans texte ou fonction : ${s.id}/${r.id}`);
+          if (/[.!?] »?\s+[A-ZÉÈÀÂÊÎÔÙÛŒÇ]/u.test(sentence.text)) throw Error(`Plusieurs phrases sous une fonction : ${s.id}/${r.id}`);
+          if (/^[»”]/u.test(sentence.text)) throw Error('Guillemet détaché de sa citation');
+        }
+      }
     }
   }
 }
@@ -41,6 +49,11 @@ function shell(name, title, description, body) {
 
 function area(id, label, rows = 5, exam = false) {
   return `<label class="ecrire-label" for="${id}">${esc(label)}</label><textarea id="${id}" rows="${rows}" data-draft="${id}" data-feedback="off"${exam ? ' data-sans-dictee="true"' : ''}></textarea>`;
+}
+
+function model(r) {
+  let number = 0;
+  return r.model.map(p => `<p class="ecrire-paragraph" data-model-paragraph>${p.sentences.map(sentence => `<span class="ecrire-row"><span data-model-text>${esc(sentence.text)}</span><span class="ecrire-annotation"><b>Phrase ${++number} · </b>${esc(sentence.function)}</span></span>`).join(' ')}</p>`).join('\n');
 }
 
 function response(s, r) {
@@ -62,10 +75,11 @@ ${['Au clic','J’écris un peu','J’écris tout'].map((x,i) => `<button type="
 <section data-panel="3" hidden><h3>Rédigez votre réponse complète.</h3><p class="ecrire-question">${esc(r.question)}</p><p>Gardez le texte officiel ouvert. Rédigez sans propositions ni étapes guidées. La longueur dépend de ce que votre réponse doit établir.</p>
 ${area(`${id}-copie`, 'Votre réponse complète', 18, true)}<p><button type="button" class="btn" data-compare>Comparer après rédaction ↓</button></p></section>
 <div class="ecrire-actions"><button type="button" data-previous-level>← Niveau précédent</button><button type="button" data-next-level>Niveau suivant →</button><button type="button" data-restart>Revenir au début</button><button type="button" data-erase>Effacer ces brouillons</button></div>
-<details class="ecrire-model" data-model><summary>Modèle A20 annoté : ${words(r)} mots pour cette réponse</summary>
-<p class="micro">${s.level==='premiere'?'Modèle d’excellence pour l’entraînement en première.':'Cette réponse vise 10/10 ; les deux réponses ensemble visent 20/20.'} Rédaction originale du site, non copie d’élève notée par un jury. ${words(r)} mots hors annotations : aucune longueur officielle n’est prescrite.</p>
-<button type="button" data-annotations aria-pressed="true">Masquer les annotations</button><div class="ecrire-copy">${r.model.map(([text,note])=>`<div class="ecrire-row"><p data-model-text>${esc(text)}</p><aside class="ecrire-annotation">${esc(note)}</aside></div>`).join('')}</div>
-<h3>Relisez votre réponse avec trois critères.</h3><ul>${r.criteria.map(x=>`<li>${esc(x)}</li>`).join('')}</ul><p>Choisissez une phrase de votre réponse qui satisfait un critère. Réécrivez ensuite un passage qui manque de précision. Aucune note n’est calculée automatiquement.</p>
+<details class="ecrire-model" data-model><summary>Réponse modèle, phrase par phrase : ${words(r)} mots</summary>
+<p class="micro">Une réponse construite pour cet entraînement, rédigée par le site. Elle n’a pas été notée par un jury. ${words(r)} mots hors annotations : aucune longueur officielle n’est prescrite.</p>
+<p class="micro">Chaque annotation explique ce que la phrase apporte à cette réponse. Les fonctions et leur ordre dépendent du sujet ; elles ne sont pas un plan obligatoire.</p>
+<button type="button" data-annotations aria-pressed="true">Masquer les annotations</button><div class="ecrire-copy">${model(r)}</div>
+<h3>Relisez votre réponse avec trois critères.</h3><ul>${r.criteria.map(x=>`<li>${esc(x)}</li>`).join('')}</ul><p>Choisissez une phrase de votre réponse qui satisfait un critère. Dites en une phrase ce qu’elle apporte. Réécrivez ensuite un passage qui manque de précision. Aucune note n’est calculée automatiquement.</p>
 ${area(`${id}-reprise`, 'Votre passage réécrit', 5)}<p class="micro">${interp?'Le modèle propose une lecture justifiée ; une autre lecture peut être excellente si elle répond à la question et respecte le texte.':'L’ordre des paragraphes appartient à cette réponse ; il ne constitue pas un plan à recopier sur tous les sujets.'}</p></details></section>`;
 }
 
@@ -94,14 +108,14 @@ function hub() {
 <tr><td>Réflexion / essai philosophique</td><td>Vous élaborez une réponse personnelle justifiée.</td><td>Vous précisez les mots, construisez des raisons et examinez leur portée.</td></tr></tbody></table></div>
 <p>Dans l’interprétation, la question détermine ce qui mérite d’être étudié : choisissez des appuis précis et expliquez-les. Dans l’essai, partez de la question et du texte ; faites progresser votre réponse avec des raisons et des exemples analysés. Les connaissances des deux disciplines peuvent servir.</p><p>Choisissez l’ordre qui permet à votre pensée d’avancer. Deux, trois ou davantage d’étapes peuvent convenir : aucun nombre de parties n’est imposé. Terminez par une réponse justifiée. Le « je » est possible si vous argumentez ; l’ouverture finale reste un choix.</p></section>
 <section class="offer-band"><h2>Première et terminale : situer l’entraînement.</h2><p>En première, les élèves scolarisés sont évalués en contrôle continu. Les sujets zéro de 2019 sont des supports historiques d’entraînement. Pour les candidats relevant de l’évaluation ponctuelle, le texte officiel prévoit deux heures, une interprétation et une question de réflexion, chacune sur 10.</p><p>En terminale, l’épreuve dure quatre heures : une interprétation et un essai de disciplines différentes, d’ampleur comparable, sur deux copies distinctes. Chaque réponse est sur 10 ; leur somme est sur 20. Pour la session 2027, l’ensemble du programme de terminale est évaluable.</p><p class="micro">La banque ci-dessous compte deux sujets de première et quatre de terminale. Elle ne couvre pas encore toutes les entrées du programme. Pour varier les supports : <a href="hlp-annales.html">banque d’annales HLP →</a>.</p></section>
-<section class="offer-band"><h2>Des modèles A20 courts et annotés.</h2><p>Les modèles cherchent la réponse la plus courte qui conserve une lecture exacte, des raisons développées et une expression claire. La longueur affichée mesure le texte, pas sa valeur. « A20 » désigne l’objectif des deux réponses ensemble : 10 + 10. Les textes sont des modèles originaux du site, pas des copies d’élèves auxquelles un jury aurait attribué 20.</p><p>Après rédaction, comparez les gestes accomplis, puis réécrivez un passage. Les annotations se masquent pour retrouver le même texte continu. Aucune note automatique ni minimum de mots ne remplace ce travail.</p></section>
+<section class="offer-band"><h2>Des réponses modèles annotées phrase par phrase.</h2><p>Les modèles cherchent une réponse concise, avec une lecture exacte, des raisons développées et une expression claire. Chaque phrase est accompagnée de sa fonction : ce qu’elle apporte à la réponse, par exemple expliquer une image ou préciser une objection. La longueur affichée mesure le texte, pas sa valeur. Ces textes originaux du site n’ont pas été notés par un jury.</p><p>Les fonctions suivent le travail propre à chaque sujet. Vous pouvez défendre une autre lecture ou construire un autre ordre, à condition de les justifier. Un modèle aide à comprendre des choix d’écriture ; il ne fixe pas un nombre de phrases ni de parties.</p><p>Après rédaction, comparez les gestes accomplis, puis réécrivez un passage. Les annotations se masquent pour retrouver le même texte continu. Aucune note automatique ni minimum de mots ne remplace ce travail.</p></section>
 <section id="banque"><h2>Six sujets, douze réponses annotées.</h2><div class="ecrire-bank">${cards}</div></section>
 <section class="offer-band" id="sources"><h2>Les références de la méthode.</h2><ul>
 <li><a href="https://www.education.gouv.fr/bo/2026/Hebdo4/MENE2622659N">Définition de l’épreuve HLP à compter de 2027 — BO du 17 septembre 2026</a>.</li>
 <li><a href="https://www.education.gouv.fr/bo/21/Hebdo31/MENE2121284N.htm">Évaluation ponctuelle de première — BO du 26 août 2021</a>.</li>
 <li><a href="https://eduscol.education.gouv.fr/5805/programmes-et-ressources-en-humanites-litterature-et-philosophie-voie-g">Éduscol : programmes, attendus et questions d’évaluation</a>.</li>
 <li><a href="https://site.ac-martinique.fr/lettres/wp-content/uploads/sites/16/2023/03/HLP-Entente-Nationale-Lettres-Philosophie-2023.pdf">Inspection générale : cadrage national de correction HLP, 2023</a>.</li>
-<li><a href="https://pedagogie.ac-rennes.fr/sites/pedagogie.ac-rennes.fr/IMG/pdf/compagnonnage_lettres-philosophie_en_specialite_hlp_janvier_24.pdf">Inspection lettres-philosophie de Rennes : compagnonnage HLP, 2024</a>.</li></ul><p class="micro">Cadre vérifié le 11 octobre 2026. Les étapes du site sont une proposition pédagogique ; elles ne constituent pas un barème officiel.</p></section>`);
+<li><a href="https://pedagogie.ac-rennes.fr/sites/pedagogie.ac-rennes.fr/IMG/pdf/compagnonnage_lettres-philosophie_en_specialite_hlp_janvier_24.pdf">Inspection lettres-philosophie de Rennes : compagnonnage HLP, 2024</a>.</li></ul><p class="micro">Cadre et modèles relus le 17 octobre 2026. Les étapes du site sont une proposition pédagogique ; elles ne constituent pas un barème officiel.</p></section>`);
 }
 
 function build(root = path.resolve(__dirname, '..')) {
@@ -110,5 +124,5 @@ function build(root = path.resolve(__dirname, '..')) {
   for (const s of data.subjects) fs.writeFileSync(path.join(root, file(s)), page(s));
   console.log(`HLP écriture : ${data.subjects.length} sujets, ${data.subjects.length*2} modèles annotés.`);
 }
-module.exports = { build, validate, page, hub, response, words, file, labels, data };
+module.exports = { build, validate, page, hub, response, model, paragraphText, words, file, labels, data };
 if (require.main === module) build();
