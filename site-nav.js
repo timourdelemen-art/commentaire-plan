@@ -205,7 +205,7 @@ const portals=navigation.map(([href,label,sub,items])=>portal(href,label,sub,ite
 
   if(!header.innerHTML.trim()) header.innerHTML=`
   <div class="wrap mast mast-v3">
-    <a class="brand brand-v2" href="index.html">COMMENTAIRE<br>PLAN</a>
+    <div class="brand-signature"><a class="brand brand-v2" href="index.html">COMMENTAIRE<br>PLAN</a><a class="site-wink" href="/clin-oeil.html" aria-label="Le clin d’œil philosophique du site" title="Une pause métaphysique"><img src="/assets/clin-oeil-heidegger-120.webp" width="42" height="53" alt="" decoding="async"></a></div>
     <nav class="nav-portals" aria-label="Navigation principale">
       ${portals}
     </nav>
