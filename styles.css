@@ -2747,3 +2747,7 @@ main :is(.actions,.funnel-actions,.atelier-nav,.chaine-nav){flex-wrap:wrap;row-g
 .philo-resources ul{font-size:18px;line-height:1.65;padding-left:1.4em}
 .philo-resources li+li{margin-top:10px}
 #dissertation{scroll-margin-top:24px}
+/* Les quatre gestes du manuel occupent toute la ligne, sans cinquième colonne vide. */
+@media(min-width:901px){
+  .procedure-principle:has(>div:nth-child(4):last-child){grid-template-columns:repeat(4,minmax(0,1fr))}
+}

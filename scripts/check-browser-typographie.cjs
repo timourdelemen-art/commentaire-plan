@@ -3,7 +3,7 @@
 const fs=require('node:fs'),path=require('node:path'),http=require('node:http'),assert=require('node:assert/strict');
 const {chromium}=require('playwright');
 const marker='/* === Audit typographie et respiration des pages';
-const candidates=['index.html','bac.html','bac-commentaire.html','bac-dissertation.html','bac-dissertation-methode.html','bac-dissertation-sujets.html','bac-dissertation-copie-20-balzac.html','bac-dissertation-copie-20-le-menteur.html','bac-dissertation-copie-20-manon-lescaut.html','commentaire-bac-methode.html','commentaire-bac-problematique.html','commentaire-bac-introduction.html','bac-commentaire-baudelaire-joujou-du-pauvre.html','bac-mode-examen.html','commentaire-pas-a-pas.html','manuel-procedes.html','laboratoire-effet-ici.html','philosophie.html','philosophie-probleme-pas-a-pas.html','philosophie-plan-pas-a-pas.html','philosophie-banque.html','philosophie-exemples.html','philosophie-explication.html','bibliotheque.html','bibliotheque-litterature.html','annales.html','brevet.html','brevet-comprehension.html','brevet-imagination-copies-20.html','brevet-reflexion-copies-20.html','brevet-redaction.html','hlp.html','hlp-annales.html','hlp-ecrire.html','enseignants.html','contact.html'];
+const candidates=['index.html','bac.html','bac-commentaire.html','bac-dissertation.html','bac-dissertation-methode.html','bac-dissertation-sujets.html','bac-dissertation-copie-20-balzac.html','bac-dissertation-copie-20-le-menteur.html','bac-dissertation-copie-20-manon-lescaut.html','commentaire-bac-methode.html','commentaire-bac-problematique.html','commentaire-bac-introduction.html','bac-commentaire-baudelaire-joujou-du-pauvre.html','bac-mode-examen.html','commentaire-pas-a-pas.html','manuel-procedes.html','bac-commentaire-procedes.html','laboratoire-effet-ici.html','philosophie.html','philosophie-probleme-pas-a-pas.html','philosophie-plan-pas-a-pas.html','philosophie-banque.html','philosophie-exemples.html','philosophie-explication.html','bibliotheque.html','bibliotheque-litterature.html','annales.html','brevet.html','brevet-comprehension.html','brevet-imagination-copies-20.html','brevet-reflexion-copies-20.html','brevet-redaction.html','hlp.html','hlp-annales.html','hlp-ecrire.html','enseignants.html','contact.html'];
 const capturePages=new Set(['index.html','bac-dissertation-methode.html','bac-commentaire-baudelaire-joujou-du-pauvre.html','philosophie.html','bibliotheque-litterature.html','brevet-redaction.html','hlp-annales.html','manuel-procedes.html']);
 const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript','.css':'text/css','.svg':'image/svg+xml','.png':'image/png','.webp':'image/webp'};
 async function check(root){
@@ -42,6 +42,10 @@ async function check(root){
       assert(await page.locator('#dissertation').isVisible());
       assert.equal(await page.locator('main [data-parcours]').count(),5);
       assert.equal(await page.locator('.philo-resources a[href="philosophie-notions.html"]').count(),1);
+     }
+     if(mode==='apres'&&['manuel-procedes.html','bac-commentaire-procedes.html'].includes(name)&&width===1280){
+      const grid=page.locator('.procedure-principle');await grid.scrollIntoViewIfNeeded();
+      const filled=await grid.evaluate(e=>Math.abs(e.lastElementChild.getBoundingClientRect().right-e.getBoundingClientRect().right)<2);assert(filled,'Les quatre gestes doivent remplir la grille');
      }
      if(mode==='apres'&&name==='index.html'&&width===1280){
       const portal=page.locator('.portal[href="/philosophie.html"]');await portal.focus();await portal.press('ArrowDown');
