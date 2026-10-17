@@ -40,7 +40,7 @@ const server = http.createServer((req,res) => {
         invalidLinks:[...document.querySelectorAll('a[href]')].filter(a=>['null','undefined','#'].includes(a.getAttribute('href'))).length
       }));
       let winkInvalid=false;
-      const wink=page.getByRole('link',{name:'Le clin d’œil philosophique du site'});
+      const wink=page.getByRole('link',{name:'Was heißt Denken ?'});
       if(await wink.count()!==1) winkInvalid=await page.locator('header.top').count()>0;
       else {
         const brand=page.locator('header.top .brand');
@@ -62,6 +62,7 @@ const server = http.createServer((req,res) => {
           await page.screenshot({path:path.join(captures,`icone-accueil-${width}.png`)});
           await wink.focus();await page.keyboard.press('Enter');await page.waitForURL('**/clin-oeil.html');
           winkInvalid=winkInvalid||!await page.locator('main img').evaluate(async img=>{await img.decode();return img.naturalWidth===1117;});
+          winkInvalid=winkInvalid||(await page.locator('main h1').innerText())!=='Was heißt Denken ?'||(await page.locator('main figcaption,main .kicker,main .lede').count())!==0;
           await page.screenshot({path:path.join(captures,`icone-clin-oeil-${width}.png`)});
           await page.locator('.wink-back').click();await page.waitForURL('**/index.html');
         }
@@ -82,8 +83,8 @@ const server = http.createServer((req,res) => {
   }
   const nojs=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:850}});
   const staticPage=await nojs.newPage();await staticPage.goto(base+'index.html');
-  await staticPage.getByRole('link',{name:'Le clin d’œil philosophique du site'}).click();
-  if(!staticPage.url().endsWith('/clin-oeil.html')){failures++;console.error('Le clin d’œil sans JavaScript ne fonctionne pas');}
+  await staticPage.getByRole('link',{name:'Was heißt Denken ?'}).click();
+  if(!staticPage.url().endsWith('/clin-oeil.html')){failures++;console.error('Le lien vers Was heißt Denken ? sans JavaScript ne fonctionne pas');}
   await nojs.close();
   await browser.close();
   await require('./check-browser-typographie.cjs')(root);
