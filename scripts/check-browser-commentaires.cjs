@@ -29,6 +29,18 @@ async function check(root){
         assert.deepEqual((await art.locator('.c20-t').allTextContents()).map(normalize),expected,'Même texte dans la vue annotée');
         assert.deepEqual((await art.locator('.c20-f').allTextContents()).map(normalize),functions.map(normalize),'Chaque phrase a sa fonction');
         assert.equal(await art.locator('.c20-f:visible').count(),expected.length);
+        const ending=art.locator(':scope > p[data-h="CONCLUSION"]');
+        assert.equal(await ending.locator('[data-f^="Ouverture :"]').count(),2);
+        const reference=page.locator('#source-ouverture');
+        assert.equal(await reference.count(),1);
+        assert(!(await reference.locator('p').first().isVisible()),'La source reste repliée au départ');
+        await reference.locator('summary').click();
+        assert(await reference.getByRole('link',{name:'Lire le texte de référence',exact:true}).isVisible());
+        assert((await reference.getByRole('link',{name:'Lire le texte de référence',exact:true}).getAttribute('href')).startsWith('https://'));
+        if(name==='bac-commentaire-baudelaire-joujou-du-pauvre.html'){
+          await ending.scrollIntoViewIfNeeded();await page.screenshot({path:path.join(captures,`commentaire-ouverture-${width}.png`)});
+        }
+        await reference.locator('summary').click();
         assert(!functions.some(f=>/établissement|reprise du mot clé|l’acquis/i.test(f)));
         const toggle=art.locator('.c20c-toggle');await toggle.focus();await page.keyboard.press('Enter');
         assert.equal(await toggle.getAttribute('aria-expanded'),'false');
@@ -75,7 +87,7 @@ async function check(root){
     assert(await page.locator('article[data-c20] > p').first().isVisible(),'La copie reste lisible sans JavaScript');
     await context.close();
     fs.writeFileSync(path.join(captures,'commentaires-fonctions-report.json'),JSON.stringify(report,null,2));
-    console.log('Commentaires : 10 copies, 384 fonctions, lecture continue, repérage et manuel à 390/1280 px : OK.');
+    console.log(`Commentaires : ${pages.length} copies, ${report.filter(r=>r.width===390).reduce((n,r)=>n+r.phrases,0)} fonctions, ouvertures sourcées, lecture continue, repérage et manuel à 390/1280 px : OK.`);
   } finally {if(browser)await browser.close();await new Promise(r=>server.close(r));}
 }
 module.exports=check;

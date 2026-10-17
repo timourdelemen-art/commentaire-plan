@@ -229,3 +229,90 @@ Le manuel des procédés est une première grille de recherche, ouverte. Complé
 La transition est une question brève entre les parties ; la nécessité est le fondement de la réponse dans le corps du raisonnement. La progression doit se sentir dans les relations entre propositions et dans la syntaxe. Ne pas multiplier les connecteurs ni les phrases de méthode pour rendre la structure visible.
 
 Après annotation, comparer le texte des copies à la version de départ : pas de changement involontaire, pas de découpage d’une citation en fausses phrases, pas de preuve ajoutée par le seul libellé de fonction.
+
+
+## 13. Ouvertures documentées — 17 octobre 2026
+
+Les dix copies proposent désormais une ouverture en deux phrases, chacune annotée : question issue du reste, puis reprise de cette question dans un autre texte. Ces exemples ne rendent pas l’ouverture obligatoire. Les notes de source restent hors du corps de la copie. Les rapprochements sont des propositions de lecture, sans affirmation d’influence historique. Aucun nouveau passage d’auteur n’est cité entre guillemets.
+
+### bac-commentaire-baudelaire-joujou-du-pauvre.html
+
+Que peut devenir cette fraternité au-delà du rire partagé ? Dans Les Pauvres Gens, Hugo lui donne la forme d’un accueil : un couple pauvre recueille deux orphelins malgré sa propre misère.
+
+Le rire révèle une égalité sans supprimer la séparation sociale. Le rapprochement interroge le passage de la fraternité éprouvée à une solidarité qui engage la vie quotidienne ; il ne suppose pas que les deux poèmes représentent les mêmes rapports sociaux.
+
+Source : Victor Hugo, La Légende des siècles, « Les Pauvres Gens », dernière section, édition Hetzel, 1859, p. 183–200. https://fr.wikisource.org/wiki/La_L%C3%A9gende_des_si%C3%A8cles/Les_Pauvres_gens
+
+### bac-commentaire-cioran-spermatozoide.html
+
+Si donner la vie est une violence, que doit-on à ceux qui nous l’imposent ? Dans Un parricide, Maupassant confie cette question à un fils abandonné, qui accuse ses parents au moment de répondre de leur meurtre.
+
+L’aphorisme fait de la naissance une agression : la question porte alors sur la dette filiale. Dans la nouvelle, cette accusation appartient au personnage et naît d’un abandon particulier ; elle ne vaut pas comme déclaration de Maupassant sur toute naissance.
+
+Source : Guy de Maupassant, Contes du jour et de la nuit, « Un parricide », plaidoyer de Georges Louis, édition Marpon et Flammarion, 1885, p. 231–245. https://fr.wikisource.org/wiki/Contes_du_jour_et_de_la_nuit_(%C3%A9d._Flammarion,_1885)/Un_parricide
+
+### bac-commentaire-leconte-de-lisle-hialmar.html
+
+La grandeur devant la mort a-t-elle besoin de se proclamer ? Dans La Mort du loup, Vigny la fait reconnaître dans le silence de l’animal.
+
+Hialmar affirme sa victoire morale dans une dernière parole. Le silence du loup fait envisager une autre expression de la grandeur devant la mort ; c’est le narrateur de Vigny qui formule la leçon de ce silence.
+
+Source : Alfred de Vigny, « La Mort du loup », troisième mouvement, Revue des Deux Mondes, 1843, p. 497–500. https://fr.wikisource.org/wiki/Po%C3%A8mes_philosophiques/La_Mort_du_loup
+
+### bac-commentaire-hugo-branche-rude.html
+
+Que peut encore l’amour lorsque la saison heureuse s’achève ? Dans Chant d’automne, Baudelaire lui demande une douceur passagère devant la mort.
+
+La renaissance amoureuse reçoit chez Hugo la certitude du retour du printemps. Le cycle des saisons laisse pourtant revenir l’hiver : la seconde partie du poème de Baudelaire envisage un amour qui adoucit cette fin sans l’abolir.
+
+Source : Charles Baudelaire, Les Fleurs du mal, « Chant d’automne », II, édition Poulet-Malassis et de Broise, 1861, p. 129–130. https://fr.wikisource.org/wiki/Les_Fleurs_du_mal_(1861)/Chant_d%E2%80%99automne
+
+### commentaire-bac-corneille-don-diegue.html
+
+Que coûte au fils l’honneur que le père lui transmet ? Les stances de Rodrigue font de ce devoir reçu un déchirement entre l’amour et la vengeance.
+
+La transmission de la vengeance laisse ouverte la question de son coût pour le fils. Le prolongement conduit à un autre passage de la même pièce : l’acte I, scène 6, après l’ordre donné à Rodrigue.
+
+Source : Pierre Corneille, Le Cid, acte I, scène 6, stances de Rodrigue, édition Marty-Laveaux, 1862. https://fr.wikisource.org/wiki/Le_Cid/%C3%89dition_Marty-Laveaux/Acte_I
+
+### bac-commentaire-gautier-morte-amoureuse.html
+
+L’amour peut-il délivrer le monstre de sa condition ? Dans La Belle et la Bête, l’engagement amoureux permet la levée de l’enchantement.
+
+La tendresse de Clarimonde ne supprime pas son besoin de sang. Le conte de Leprince de Beaumont imagine une délivrance de la forme monstrueuse ; la Bête est déjà bonne avant sa transformation, et les deux personnages ne présentent pas le même danger.
+
+Source : Jeanne-Marie Leprince de Beaumont, La Belle et la Bête, dénouement, texte intégral proposé par l’Université de Lorraine. https://leprincedebeaumont.univ-lorraine.fr/fr/apprendre-avec-lpb/conte-la-belle-et-la-bete.html
+
+### bac-commentaire-musset-porte-ouverte-fermee.html
+
+Que devient le jeu amoureux lorsqu’un tiers en paie le prix ? Dans On ne badine pas avec l’amour, la mort de Rosette rend ses effets irréparables.
+
+Le dénouement comique permet aux deux personnages de poursuivre leur jeu. L’autre pièce de Musset en interroge les conséquences pour une personne tenue à l’écart de leur échange : la mort de Rosette ferme toute possibilité de reprise.
+
+Source : Alfred de Musset, On ne badine pas avec l’amour, acte III, scène 8, édition Clarendon Press, 1884. https://fr.wikisource.org/wiki/On_ne_badine_pas_avec_l%E2%80%99amour_(1884)/Acte_III
+
+### bac-commentaire-rousseau-voyager-a-pied.html
+
+Le bonheur exige-t-il toujours l’effort qui lui donne sa saveur ? Dans la cinquième des Rêveries du promeneur solitaire, le bercement d’une barque suffit à Rousseau pour goûter le sentiment d’exister.
+
+La copie montre comment l’effort donne leur prix aux plaisirs du voyage. La cinquième Promenade envisage un bonheur sans but à atteindre : le mouvement doux demeure, mais il n’exige plus l’activité du marcheur. Il ne s’agit donc pas d’un bonheur dans l’immobilité.
+
+Source : Jean-Jacques Rousseau, Les Rêveries du promeneur solitaire, cinquième Promenade, passages de la barque et du sentiment de l’existence, Collection complète des œuvres, tome 10, 1782, p. 434–447. https://fr.wikisource.org/wiki/Les_R%C3%AAveries_du_promeneur_solitaire/Cinqui%C3%A8me_Promenade
+
+### commentaire-bac-la-fontaine-animaux-malades.html
+
+Comment soustraire un innocent à une justice qui protège les puissants ? Dans Les Misérables, Jean Valjean sauve Champmathieu en renonçant à la position qui le protège lui-même.
+
+La fable dévoile un jugement déterminé par le rang. Le roman fait intervenir un homme prêt à perdre sa protection sociale pour sauver un innocent ; l’erreur judiciaire qui menace Champmathieu se distingue de la condamnation intéressée de l’Âne.
+
+Source : Victor Hugo, Les Misérables, première partie, livre VII, chapitre XI, « Champmathieu de plus en plus étonné », édition de l’Imprimerie nationale et d’Ollendorff, 1908, p. 282–286. https://fr.wikisource.org/wiki/Les_Mis%C3%A9rables_(1908)/Tome_1/Livre_7/11
+
+### bac-commentaire-desbordes-valmore-ville.html
+
+Que demanderait la victime si le poète lui cédait la parole ? Dans L’Enfant, Hugo réserve le dernier mot au survivant, dont la demande d’armes déjoue l’offre de consolation.
+
+La copie montre la force d’un témoignage qui accuse et fait éprouver la souffrance. Le rapprochement interroge ce que la victime demanderait elle-même : chez Hugo, la réponse de l’enfant dépasse la consolation que lui propose la voix poétique.
+
+Source : Victor Hugo, Les Orientales, « L’Enfant », dernière strophe, édition Ollendorff, 1912, p. 688–689. https://fr.wikisource.org/wiki/Les_Orientales/L%E2%80%99Enfant
+
+Pour Desbordes-Valmore, distinguer la fin de l’extrait du bac et la fin du poème complet : le rossignol et le bombardement appartiennent à la suite, hors extrait. Source : https://fr.wikisource.org/wiki/Pauvres_fleurs/%C3%80_Monsieur_A.-L.
