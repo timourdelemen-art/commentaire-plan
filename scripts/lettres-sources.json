@@ -1,0 +1,445 @@
+{
+  "consultation": "2026-10-17",
+  "works": {
+    "rimbaud": [
+      "Rimbaud",
+      "Cahier de Douai",
+      "actuel",
+      "Poésies complètes, Vanier, 1895",
+      "https://fr.wikisource.org/wiki/Poésies_(Rimbaud)/éd._Vanier,_1895",
+      "bac-dissertation-copie-20-cahier-de-douai.html"
+    ],
+    "corneille": [
+      "Corneille",
+      "Le Menteur",
+      "actuel",
+      "Œuvres, Marty-Laveaux, Hachette, 1862",
+      "https://fr.wikisource.org/wiki/Le_Menteur_(Corneille,_Marty-Laveaux,_1862)",
+      "bac-dissertation-copie-20-le-menteur.html"
+    ],
+    "musset": [
+      "Musset",
+      "On ne badine pas avec l’amour",
+      "actuel",
+      "Clarendon Press, 1884",
+      "https://fr.wikisource.org/wiki/On_ne_badine_pas_avec_l’amour/Texte_entier",
+      "bac-dissertation-copie-20-on-ne-badine-pas-avec-l-amour.html"
+    ],
+    "zola": [
+      "Zola",
+      "Pot-Bouille",
+      "actuel",
+      "Charpentier, 1883",
+      "https://fr.wikisource.org/wiki/Pot-Bouille/Texte_entier",
+      ""
+    ],
+    "laboetie": [
+      "La Boétie",
+      "Discours de la servitude volontaire",
+      "actuel",
+      "Texte établi par Paul Bonnefon, Bossard, 1922",
+      "https://fr.wikisource.org/wiki/Discours_de_la_servitude_volontaire/Édition_1922/Texte_entier",
+      ""
+    ],
+    "fontenelle": [
+      "Fontenelle",
+      "Entretiens sur la pluralité des mondes",
+      "actuel",
+      "Leroy, 1800 (date de la page de titre ; fichier du fac-similé nommé 1820)",
+      "https://fr.wikisource.org/wiki/Entretiens_sur_la_pluralité_des_mondes/Texte_entier",
+      ""
+    ],
+    "prevost": [
+      "Prévost",
+      "Manon Lescaut",
+      "archive",
+      "Charpentier, 1846",
+      "https://fr.wikisource.org/wiki/Manon_Lescaut/Texte_entier",
+      "bac-dissertation-copie-20-manon-lescaut.html"
+    ],
+    "balzac": [
+      "Balzac",
+      "La Peau de chagrin",
+      "archive",
+      "Œuvres complètes, Houssiaux, texte classé 1855 ; fac-similé étiqueté 1874",
+      "https://fr.wikisource.org/wiki/La_Peau_de_chagrin/1855",
+      "bac-dissertation-copie-20-balzac.html"
+    ],
+    "rabelais": [
+      "Rabelais",
+      "Gargantua",
+      "archive",
+      "François Juste, 1535 ; graphie conservée",
+      "https://fr.wikisource.org/wiki/Gargantua/Édition_Juste,_1535",
+      "bac-dissertation-copie-20-rabelais.html"
+    ]
+  },
+  "subjects": {
+    "rimbaud": [
+      "Dans le Cahier de Douai, est-ce seulement par la révolte que Rimbaud s’émancipe ?",
+      "https://www.education.gouv.fr/sites/default/files/document/baccalaureat-general-2026-francais-epreuve-anticipee-517283.pdf",
+      "26-FRGEME1 · Métropole 2026 · sujet A"
+    ],
+    "corneille": [
+      "Selon vous, dans la comédie Le Menteur, l’art du mensonge est-il toujours maîtrisé ?",
+      "https://www.education.gouv.fr/sites/default/files/2025-06/baccalaur-at-g-n-ral-2025-fran-ais---preuve-anticip-e-440676.pdf",
+      "25-FRGEME1 · Métropole 2025 · sujet A"
+    ],
+    "musset": [
+      "Les personnages s’affrontent-ils sérieusement dans On ne badine pas avec l’amour ?",
+      "https://www.education.gouv.fr/sites/default/files/2025-06/baccalaur-at-g-n-ral-2025-fran-ais---preuve-anticip-e-440676.pdf",
+      "25-FRGEME1 · Métropole 2025 · sujet B"
+    ],
+    "prevost": [
+      "Le plaisir du lecteur de Manon Lescaut consiste-t-il à partager l’aveuglement des personnages ?",
+      "https://www.education.gouv.fr/sites/default/files/document/baccalaureat-general-2026-francais-epreuve-anticipee-516893.pdf",
+      "26FRGEAN1 · Amérique du Nord 2026 · dissertation 1"
+    ],
+    "balzac": [
+      "Peut-on lire La Peau de chagrin comme le tableau d’un monde exténué ?",
+      "https://eduscol.education.fr/document/55707/download",
+      "23-FRGEME1 · Métropole 2023 · sujet B · page agrandie 4/5"
+    ],
+    "rabelais": [
+      "Selon vous, à quoi tient la joie de lire Gargantua ?",
+      "https://eduscol.education.gouv.fr/sites/default/files/document/25-frgeme3v1pdf-120435.pdf",
+      "25-FRGEME3 · Métropole remplacement 2025 · sujet A · p. 3"
+    ]
+  },
+  "quotes": [
+    {
+      "id": "rimbaud-1",
+      "author": "Arthur Rimbaud",
+      "work": "Cahier de Douai",
+      "quote": "Je m’en allais, les poings dans mes poches crevées",
+      "source": "https://fr.wikisource.org/wiki/Poésies_(Rimbaud)/éd._Vanier,_1895/Ma_Bohême",
+      "locator": "« Ma Bohême », v. 1"
+    },
+    {
+      "id": "rimbaud-2",
+      "author": "Arthur Rimbaud",
+      "work": "Cahier de Douai",
+      "quote": "Comme des lyres, je tirais les élastiques De mes souliers blessés, un pied près de mon cœur !",
+      "source": "https://fr.wikisource.org/wiki/Poésies_(Rimbaud)/éd._Vanier,_1895/Ma_Bohême",
+      "locator": "« Ma Bohême », v. 13–14"
+    },
+    {
+      "id": "rimbaud-3",
+      "author": "Arthur Rimbaud",
+      "work": "Cahier de Douai",
+      "quote": "Je ne parlerai pas, je ne penserai rien",
+      "source": "https://fr.wikisource.org/wiki/Poésies_(Rimbaud)/éd._Vanier,_1895/Sensation",
+      "locator": "« Sensation », v. 5"
+    },
+    {
+      "id": "corneille-1",
+      "author": "Pierre Corneille",
+      "work": "Le Menteur",
+      "quote": "Il faut bonne mémoire après qu’on a menti.",
+      "source": "https://fr.wikisource.org/wiki/Le_Menteur_(Corneille,_Marty-Laveaux,_1862)/Acte_IV",
+      "locator": "IV, 5, v. 1260"
+    },
+    {
+      "id": "corneille-2",
+      "author": "Pierre Corneille",
+      "work": "Le Menteur",
+      "quote": "L’esprit a secouru le défaut de mémoire.",
+      "source": "https://fr.wikisource.org/wiki/Le_Menteur_(Corneille,_Marty-Laveaux,_1862)/Acte_IV",
+      "locator": "IV, 5, v. 1261"
+    },
+    {
+      "id": "corneille-3",
+      "author": "Pierre Corneille",
+      "work": "Le Menteur",
+      "quote": "Par un si rare exemple apprenez à mentir.",
+      "source": "https://fr.wikisource.org/wiki/Le_Menteur_(Corneille,_Marty-Laveaux,_1862)/Acte_V",
+      "locator": "V, dernière scène, dernier vers"
+    },
+    {
+      "id": "musset-1",
+      "author": "Alfred de Musset",
+      "work": "On ne badine pas avec l’amour",
+      "quote": "C’est moi qui ai vécu, et non pas un être factice créé par mon orgueil et mon ennui.",
+      "source": "https://fr.wikisource.org/wiki/On_ne_badine_pas_avec_l’amour/Texte_entier",
+      "locator": "II, 5"
+    },
+    {
+      "id": "musset-2",
+      "author": "Alfred de Musset",
+      "work": "On ne badine pas avec l’amour",
+      "quote": "Insensés que nous sommes !",
+      "source": "https://fr.wikisource.org/wiki/On_ne_badine_pas_avec_l’amour/Texte_entier",
+      "locator": "III, 8"
+    },
+    {
+      "id": "musset-3",
+      "author": "Alfred de Musset",
+      "work": "On ne badine pas avec l’amour",
+      "quote": "Elle est morte.",
+      "source": "https://fr.wikisource.org/wiki/On_ne_badine_pas_avec_l’amour/Texte_entier",
+      "locator": "III, 8, dernière réplique"
+    },
+    {
+      "id": "zola-1",
+      "author": "Émile Zola",
+      "work": "Pot-Bouille",
+      "quote": "Vous comprenez, ces maisons-là, c’est bâti pour faire de l’effet…",
+      "source": "https://fr.wikisource.org/wiki/Pot-Bouille/Texte_entier",
+      "locator": "I, visite de l’appartement"
+    },
+    {
+      "id": "zola-2",
+      "author": "Émile Zola",
+      "work": "Pot-Bouille",
+      "quote": "C’était comme la déverse d’un égout : toute la domesticité de la maison était là, à se satisfaire.",
+      "source": "https://fr.wikisource.org/wiki/Pot-Bouille/Texte_entier",
+      "locator": "I, cour des cuisines"
+    },
+    {
+      "id": "zola-3",
+      "author": "Émile Zola",
+      "work": "Pot-Bouille",
+      "quote": "Un homme comme il faut ne s’explique pas dans une cuisine.",
+      "source": "https://fr.wikisource.org/wiki/Pot-Bouille/Texte_entier",
+      "locator": "XII, dispute de Berthe et Auguste"
+    },
+    {
+      "id": "laboetie-1",
+      "author": "Étienne de La Boétie",
+      "work": "Discours de la servitude volontaire",
+      "quote": "Soyez résolus de ne servir plus, et vous voilà libres.",
+      "source": "https://fr.wikisource.org/wiki/Discours_de_la_servitude_volontaire/Édition_1922/Texte_entier",
+      "locator": "Discours, appel au refus de soutenir le tyran"
+    },
+    {
+      "id": "laboetie-2",
+      "author": "Étienne de La Boétie",
+      "work": "Discours de la servitude volontaire",
+      "quote": "Comment a-t-il aucun pouvoir sur vous, que par vous ?",
+      "source": "https://fr.wikisource.org/wiki/Discours_de_la_servitude_volontaire/Édition_1922/Texte_entier",
+      "locator": "Discours, série des questions adressées aux peuples"
+    },
+    {
+      "id": "laboetie-3",
+      "author": "Étienne de La Boétie",
+      "work": "Discours de la servitude volontaire",
+      "quote": "La nature de l’homme est bien d’être franc et de le vouloir être, mais aussi sa nature est telle que naturellement il tient le pli que la nourriture lui donne.",
+      "source": "https://fr.wikisource.org/wiki/Discours_de_la_servitude_volontaire/Édition_1922/Texte_entier",
+      "locator": "Discours, développement sur la nature et l’éducation"
+    },
+    {
+      "id": "fontenelle-1",
+      "author": "Bernard Le Bouyer de Fontenelle",
+      "work": "Entretiens sur la pluralité des mondes",
+      "quote": "on veut savoir plus qu’on ne voit, c’est là la difficulté.",
+      "source": "https://fr.wikisource.org/wiki/Entretiens_sur_la_pluralité_des_mondes/Texte_entier",
+      "locator": "Premier soir"
+    },
+    {
+      "id": "fontenelle-2",
+      "author": "Bernard Le Bouyer de Fontenelle",
+      "work": "Entretiens sur la pluralité des mondes",
+      "quote": "Sur cela je me figure toujours que la nature est un grand spectacle qui ressemble à celui de l’opéra.",
+      "source": "https://fr.wikisource.org/wiki/Entretiens_sur_la_pluralité_des_mondes/Texte_entier",
+      "locator": "Premier soir"
+    },
+    {
+      "id": "fontenelle-3",
+      "author": "Bernard Le Bouyer de Fontenelle",
+      "work": "Entretiens sur la pluralité des mondes",
+      "quote": "Et moi, répliqua-t-elle, je l’en estime beaucoup plus, depuis que je sais qu’il ressemble à une montre.",
+      "source": "https://fr.wikisource.org/wiki/Entretiens_sur_la_pluralité_des_mondes/Texte_entier",
+      "locator": "Premier soir, réponse de la marquise"
+    },
+    {
+      "id": "prevost-1",
+      "author": "Abbé Prévost",
+      "work": "Manon Lescaut",
+      "quote": "Accuser Manon, c’est de quoi mon cœur n’osait se rendre coupable.",
+      "source": "https://fr.wikisource.org/wiki/Manon_Lescaut/Texte_entier",
+      "locator": "Première partie, soupçons après l’enlèvement"
+    },
+    {
+      "id": "prevost-2",
+      "author": "Abbé Prévost",
+      "work": "Manon Lescaut",
+      "quote": "Je n’ai pas dessein de vous tuer : si vous voulez vivre, ouvrez-moi la porte, et je suis le meilleur de vos amis.",
+      "source": "https://fr.wikisource.org/wiki/Manon_Lescaut/Texte_entier",
+      "locator": "Première partie, évasion de Saint-Lazare"
+    },
+    {
+      "id": "prevost-3",
+      "author": "Abbé Prévost",
+      "work": "Manon Lescaut",
+      "quote": "je suis sûr qu’en me condamnant, vous ne pourrez pas vous empêcher de me plaindre !",
+      "source": "https://fr.wikisource.org/wiki/Manon_Lescaut/Texte_entier",
+      "locator": "Première partie, début de la confidence"
+    },
+    {
+      "id": "balzac-1",
+      "author": "Honoré de Balzac",
+      "work": "La Peau de chagrin",
+      "quote": "Vouloir nous brûle et Pouvoir nous détruit ; mais SAVOIR laisse notre faible organisation dans un perpétuel état de calme.",
+      "source": "https://fr.wikisource.org/wiki/La_Peau_de_chagrin/1855/Chapitre_1",
+      "locator": "Le Talisman, discours de l’antiquaire"
+    },
+    {
+      "id": "balzac-2",
+      "author": "Honoré de Balzac",
+      "work": "La Peau de chagrin",
+      "quote": "Je veux être aimé de Pauline",
+      "source": "https://fr.wikisource.org/wiki/La_Peau_de_chagrin/1855/Chapitre_3",
+      "locator": "L’Agonie, après les retrouvailles au théâtre"
+    },
+    {
+      "id": "balzac-3",
+      "author": "Honoré de Balzac",
+      "work": "La Peau de chagrin",
+      "quote": "Celui-ci apprêtait une destruction en riant, le nôtre riait au milieu des ruines.",
+      "source": "https://fr.wikisource.org/wiki/La_Peau_de_chagrin/1855/Chapitre_1",
+      "locator": "Le Talisman, comparaison des deux siècles au banquet"
+    },
+    {
+      "id": "rabelais-1",
+      "author": "François Rabelais",
+      "work": "Gargantua",
+      "quote": "Mieulx est de ris que de larmes escrire, Pour ce que rire est le propre de l’homme.",
+      "source": "https://fr.wikisource.org/wiki/Gargantua/Édition_Juste,_1535",
+      "locator": "« Aux lecteurs », deux derniers vers"
+    },
+    {
+      "id": "rabelais-2",
+      "author": "François Rabelais",
+      "work": "Gargantua",
+      "quote": "Iay (respondit Gargantua) par longue & curieuse experience inventé un moyen de me torcher le cul, le plus royal, le plus seigneurial, le plus excellent, le plus expedient, que iamais feut veu.",
+      "source": "https://fr.wikisource.org/wiki/Gargantua/Édition_Juste,_1535",
+      "locator": "Invention du torchecul, chapitre XII de cette édition"
+    },
+    {
+      "id": "rabelais-3",
+      "author": "François Rabelais",
+      "work": "Gargantua",
+      "quote": "Puis pour curieuse leczon, & meditation frequente rompre l’os, & sugcer la substantificque mouelle.",
+      "source": "https://fr.wikisource.org/wiki/Gargantua/Édition_Juste,_1535",
+      "locator": "Prologue, comparaison du chien et de l’os"
+    }
+  ],
+  "models": [
+    {
+      "file": "bac-dissertation-copie-20-balzac.html",
+      "quotes": [
+        "le nôtre riait au milieu des ruines",
+        "je veux vivre avec excès",
+        "Vouloir nous brûle et Pouvoir nous détruit",
+        "Il y a toute une vie dans une heure d’amour.",
+        "du feu dans le feu !"
+      ]
+    },
+    {
+      "file": "bac-dissertation-copie-20-rabelais.html",
+      "quotes": [
+        "longue & curieuse experience",
+        "Pour ce que rire est le propre de l’homme.",
+        "sugcer la substantificque mouelle"
+      ]
+    }
+  ],
+  "annales": {
+    "rimbaud-1": {
+      "id": "rimbaud-1",
+      "work": "rimbaud",
+      "question": "Dans le Cahier de Douai, est-ce seulement par la révolte que Rimbaud s’émancipe ?",
+      "source": "https://www.education.gouv.fr/sites/default/files/document/baccalaureat-general-2026-francais-epreuve-anticipee-517283.pdf",
+      "label": "26-FRGEME1 · Métropole 2026 · sujet A",
+      "setup": ""
+    },
+    "corneille-1": {
+      "id": "corneille-1",
+      "work": "corneille",
+      "question": "Selon vous, dans la comédie Le Menteur, l’art du mensonge est-il toujours maîtrisé ?",
+      "source": "https://www.education.gouv.fr/sites/default/files/2025-06/baccalaur-at-g-n-ral-2025-fran-ais---preuve-anticip-e-440676.pdf",
+      "label": "25-FRGEME1 · Métropole 2025 · sujet A",
+      "setup": ""
+    },
+    "musset-1": {
+      "id": "musset-1",
+      "work": "musset",
+      "question": "Les personnages s’affrontent-ils sérieusement dans On ne badine pas avec l’amour ?",
+      "source": "https://www.education.gouv.fr/sites/default/files/2025-06/baccalaur-at-g-n-ral-2025-fran-ais---preuve-anticip-e-440676.pdf",
+      "label": "25-FRGEME1 · Métropole 2025 · sujet B",
+      "setup": ""
+    },
+    "prevost-1": {
+      "id": "prevost-1",
+      "work": "prevost",
+      "question": "Le plaisir du lecteur de Manon Lescaut consiste-t-il à partager l’aveuglement des personnages ?",
+      "source": "https://www.education.gouv.fr/sites/default/files/document/baccalaureat-general-2026-francais-epreuve-anticipee-516893.pdf",
+      "label": "26FRGEAN1 · Amérique du Nord 2026 · dissertation 1",
+      "setup": "Après la première trahison de Manon, le père de Des Grieux demande à son fils : « Comment pouvez-vous vous aveugler à ce point ? »."
+    },
+    "balzac-1": {
+      "id": "balzac-1",
+      "work": "balzac",
+      "question": "Peut-on lire La Peau de chagrin comme le tableau d’un monde exténué ?",
+      "source": "https://eduscol.education.fr/document/55707/download",
+      "label": "23-FRGEME1 · Métropole 2023 · sujet B · page agrandie 4/5",
+      "setup": ""
+    },
+    "rabelais-1": {
+      "id": "rabelais-1",
+      "work": "rabelais",
+      "question": "Selon vous, à quoi tient la joie de lire Gargantua ?",
+      "source": "https://eduscol.education.gouv.fr/sites/default/files/document/25-frgeme3v1pdf-120435.pdf",
+      "label": "25-FRGEME3 · Métropole remplacement 2025 · sujet A · p. 3",
+      "setup": ""
+    },
+    "rimbaud-2": {
+      "id": "rimbaud-2",
+      "work": "rimbaud",
+      "question": "Selon un critique, la poésie de Rimbaud n’est « pas seulement écriture pour, mais écriture contre ». Dans quelle mesure ce propos vous semble-t-il définir la démarche poétique du Cahier de Douai ?",
+      "source": "https://www.education.gouv.fr/sites/default/files/document/baccalaur-at-g-n-ral-2026-fran-ais---preuve-anticip-e-517082.pdf",
+      "label": "2026 · Centres étrangers, groupe 1 · 26-FRGEG11 · sujet A · p. 3",
+      "setup": ""
+    },
+    "corneille-2": {
+      "id": "corneille-2",
+      "work": "corneille",
+      "question": "En quoi cette citation éclaire-t-elle le rôle du mensonge dans la comédie de Corneille ?",
+      "source": "https://eduscol.education.gouv.fr/sites/default/files/document/25-frgepo1v1pdf-112935.pdf",
+      "label": "2025 · Polynésie · 25-FRGEPO1 · sujet A · p. 3",
+      "setup": "Un critique écrit à propos du Menteur : « Si la comédie entretient des relations privilégiées avec le mensonge, c’est qu’il est rare qu’un mensonge reste sans suites »."
+    },
+    "musset-2": {
+      "id": "musset-2",
+      "work": "musset",
+      "question": "Dans quelle mesure le jeu de la parole nuit-il à l’expression sincère des sentiments dans On ne badine pas avec l’amour ?",
+      "source": "https://eduscol.education.gouv.fr/sites/default/files/document/25-frgepo1v1pdf-112935.pdf",
+      "label": "2025 · Polynésie · 25-FRGEPO1 · sujet B · p. 3",
+      "setup": ""
+    },
+    "prevost-2": {
+      "id": "prevost-2",
+      "work": "prevost",
+      "question": "Le plaisir de lire Manon Lescaut ne tient-il qu’au récit d’une passion amoureuse ?",
+      "source": "https://eduscol.education.fr/document/55707/download",
+      "label": "2023 · Métropole · 23-FRGEME1 · sujet A · page agrandie 4/5",
+      "setup": ""
+    },
+    "balzac-2": {
+      "id": "balzac-2",
+      "work": "balzac",
+      "question": "Élan créateur, désir destructeur : quelle source d’énergie vous semble principalement à l’œuvre dans La Peau de chagrin ?",
+      "source": "https://eduscol.education.fr/document/70364/download",
+      "label": "2025 · Antilles-Guyane · 25-FRGEAG1 · sujet B · page agrandie 6/7",
+      "setup": ""
+    },
+    "rabelais-2": {
+      "id": "rabelais-2",
+      "work": "rabelais",
+      "question": "Dans quelle mesure cette analyse éclaire-t-elle votre lecture de l’œuvre ?",
+      "source": "https://eduscol.education.gouv.fr/sites/default/files/document/25-frgeg11-a16pdf-124958.pdf",
+      "label": "2025 · Centres étrangers, groupe 1 · 25-FRGEG11 · sujet A · page agrandie 4/5",
+      "setup": "Une critique affirme que Rabelais, tout en ne cessant de divertir le lecteur dans son roman Gargantua, met en place un « rire de discernement », c’est-à-dire qui nous ouvre les yeux."
+    }
+  }
+}

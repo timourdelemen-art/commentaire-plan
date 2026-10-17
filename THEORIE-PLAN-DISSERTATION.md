@@ -7,6 +7,15 @@
 - **Formes des vrais sujets** (2023-2026, voie générale) : un mot qui restreint (« ne… que », « seulement », « toujours ») ; une lecture proposée (« Peut-on lire X comme… ») ; un mot qui qualifie (« sérieusement ») ; une citation (« éclaire-t-elle votre lecture ? »). Chaque forme indique où chercher le pourtant.
 - **Transitions** : question directe ouverte, reprise par la partie suivante ; jamais « … suffit-il ? ».
 
+## Précisions du propriétaire — 17 octobre 2026
+
+- La progression vaut aussi entre les sous-parties : chaque argument modifie ou précise la réponse et prépare le suivant. Pas de rôle philosophique fixe imposé ; approfondissement, distinction, conséquence, mise à l’épreuve sont possibles.
+- À l’intérieur : avancée précise → passage situé → élément ou citation authentique → analyse de l’écriture → portée pour le sujet. La preuve construit l’argument ; elle ne le décore pas.
+- L’introduction rend visible le passage des termes du sujet à une difficulté attestée dans l’œuvre, puis à une question fidèle à son opérateur et à un plan. Une annotation précise pourquoi chaque phrase doit être gardée.
+- Œuvre intégrale accessible et identifiée, citations retrouvées mot pour mot, scènes situées et lecture du contexte. Un extrait de vérification n’autorise pas à prétendre avoir effectué une lecture exhaustive.
+- Sujet de dissertation réel, libellé contrôlé dans la partie « Dissertation » du PDF officiel ; zone, session, code et page conservés.
+- Sobriété et brièveté : supprimer les phrases sans fonction ; ne pas supprimer une preuve, une analyse ou un attendu pour atteindre un quota. Compter les mots et les unités annotées.
+
 ## Principe directeur
 
 Une dissertation ne juxtapose pas des thèmes. Elle résout progressivement une difficulté construite à partir du sujet et de l'œuvre.

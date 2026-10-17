@@ -165,9 +165,9 @@ function staticHeader(file){
     "littérature · philosophie",
     [
       [
-        "bibliotheque-litterature.html",
-        "Littérature",
-        "Œuvres, extraits et parcours de lecture"
+        "bibliotheque-dissertation.html",
+        "Lettres",
+        "Citations : dissertation et commentaire"
       ],
       [
         "philosophie-banque.html",
