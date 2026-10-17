@@ -17,10 +17,12 @@
 .ecrire summary{cursor:pointer;font-weight:600;line-height:1.5}
 .ecrire .ecrire-model{border-top:1px solid #cbd6d1;padding-top:1.4rem}
 .ecrire .ecrire-row{display:grid;grid-template-columns:minmax(0,2.6fr) minmax(0,1fr);gap:1.5rem;align-items:start;margin:1rem 0}
-.ecrire .ecrire-row p{margin:0;line-height:1.8}
+.ecrire .ecrire-paragraph{margin:1.8rem 0}
+.ecrire [data-model-text]{line-height:1.8}
 .ecrire .ecrire-annotation{font-size:.85rem;line-height:1.6;border-left:3px solid #b8cfc3;padding-left:.8rem;color:#506354}
 .ecrire .sans-annotations .ecrire-annotation{display:none}
-.ecrire .sans-annotations .ecrire-row{display:block;max-width:75ch}
+.ecrire .sans-annotations .ecrire-row{display:inline;margin:0}
+.ecrire .sans-annotations .ecrire-paragraph{max-width:75ch;margin:1.1rem 0;line-height:1.8}
 .ecrire .ecrire-note{border-left:3px solid #21624d;padding:.7rem 1rem;background:#f1f6f2}
 .ecrire .ecrire-bank{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
 .ecrire .ecrire-card{padding:1.3rem;border:1px solid #cbd6d1;border-radius:10px}

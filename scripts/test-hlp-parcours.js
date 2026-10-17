@@ -63,12 +63,15 @@ try {
     assert.equal(ids.length,new Set(ids).size,'Identifiants uniques');
     assert.equal((html.match(/<h1\b/g)||[]).length,1);
     assert.equal((html.match(/<textarea\b/g)||[]).length,(html.match(/data-feedback="off"/g)||[]).length,'Aucune correction générale sur les réponses HLP');
-    const text=[...html.matchAll(/<p data-model-text>(.*?)<\/p>/gs)].map(m=>decode(m[1]));
-    assert.deepEqual(text,s.responses.flatMap(r=>r.model.map(p=>p[0])),'Les annotations ne réécrivent pas le modèle');
+    const text=[...html.matchAll(/<span data-model-text>(.*?)<\/span>/gs)].map(m=>decode(m[1]));
+    assert.deepEqual(text,s.responses.flatMap(r=>r.model.flatMap(p=>p.sentences.map(s=>s.text))),'Les annotations ne réécrivent pas le modèle');
+    const paragraphs=[...html.matchAll(/<p class="ecrire-paragraph" data-model-paragraph>(.*?)<\/p>/gs)].map(m=>[...m[1].matchAll(/<span data-model-text>(.*?)<\/span>/gs)].map(x=>decode(x[1])).join(' '));
+    assert.deepEqual(paragraphs,s.responses.flatMap(r=>r.model.map(bank.paragraphText)),'Masquer les fonctions restitue les paragraphes, citations et ponctuation');
+    assert.equal((html.match(/class="ecrire-annotation"/g)||[]).length,text.length,'Chaque phrase a sa propre fonction');
     for(const r of s.responses) {
       assert(html.includes(escQuestion(r.question)),'Question officielle affichée');
-      const lengths=r.choices.map(c=>c[0].split(/\s+/).length), solid=r.choices.findIndex(c=>c[1]==='Solide');
-      if(lengths[solid]>Math.max(...lengths.filter((_,i)=>i!==solid)))longest++;
+      const lengths=r.choices.map(c=>c[0].split(/\s+/).length), solids=r.choices.map((c,i)=>c[1]==='Solide'?i:-1).filter(i=>i>=0);
+      if(solids.some(solid=>lengths[solid]>Math.max(...lengths.filter((_,i)=>i!==solid))))longest++;
       count++;
     }
     const storage=new Map(), b=runRuntime(html,storage)[0];
@@ -86,6 +89,10 @@ try {
     const ann=b.querySelector('[data-annotations]');ann.click();assert(b.querySelectorAll('.ecrire-copy').every(c=>c.classes.has('sans-annotations')));ann.click();assert(!b.querySelector('.ecrire-copy').classes.has('sans-annotations'));
     const unavailable=runRuntime(html,new Map(),true);assert.match(unavailable[0].querySelector('[data-save-status]').textContent,/indisponible/);
   }
+  const firstSentence=bank.data.subjects[0].responses[0].model[0].sentences[0];
+  const savedFunction=firstSentence.function;
+  try { firstSentence.function='';assert.throws(()=>bank.validate(),/fonction/,'Une fonction manquante bloque le build'); }
+  finally { firstSentence.function=savedFunction; }
   assert(longest<count/2,'La proposition solide ne doit pas être habituellement la plus longue');
   const gen=fs.readFileSync(path.join(root,'scripts/build-hlp.js'),'utf8');
   assert(!gen.includes('Puis écrivez les trois parties'));
