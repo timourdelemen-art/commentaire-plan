@@ -19,13 +19,13 @@ async function check(root){
   for(const width of [390,768,1280]){
    const context=await browser.newContext({viewport:{width,height:900},reducedMotion:'reduce'});
    for(const name of pages){
-    const versions={};
+    console.log('TYPO',width,name);const versions={};
     for(const mode of ['avant','apres']){
      const page=await context.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));
      if(mode==='avant')await page.route('**/styles.css',route=>route.fulfill({status:200,contentType:'text/css',body:baseline}));
      const response=await page.goto('http://127.0.0.1:'+server.address().port+'/'+name,{waitUntil:'load'});assert(response.ok(),name);const sourceMain=(await response.text()).match(/<main\b[\s\S]*?<\/main>/i)?.[0];assert(sourceMain,name+' : contenu principal absent');
      // Activer les blocs différés avant de mesurer leur contenu.
-     const regions=page.locator('main>section');
+     const regions=page.locator('main>section:visible');
      for(let i=0;i<Math.min(await regions.count(),8);i++)await regions.nth(i).scrollIntoViewIfNeeded();
      versions[mode]=await page.evaluate(()=>{
       const visible=e=>{const s=getComputedStyle(e),r=e.getBoundingClientRect();return s.display!=='none'&&s.visibility!=='hidden'&&r.width>0&&r.height>0&&!e.closest('[hidden],details:not([open]) :not(summary)');};
@@ -54,7 +54,7 @@ async function check(root){
      if(capturePages.has(name)&&width!==768){
       await page.locator('main').evaluate(e=>e.scrollIntoView({block:'start'}));
       await page.screenshot({path:path.join(out,'typo-'+mode+'-'+name+'-'+width+'.png')});
-      const interior=page.locator('.seo-body,.workbench,.hlp-grid,.model-commentary,.procedure-library,.method-section').first();
+      const interior=page.locator(':is(.seo-body,.workbench,.hlp-grid,.model-commentary,.procedure-library,.method-section):visible').first();
       if(await interior.count()){await interior.scrollIntoViewIfNeeded();await page.screenshot({path:path.join(out,'typo-interieur-'+mode+'-'+name+'-'+width+'.png')});}
      }
      await page.close();
