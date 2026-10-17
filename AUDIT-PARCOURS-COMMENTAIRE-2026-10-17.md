@@ -41,7 +41,7 @@ Sans JavaScript, les quatre sujets et leurs liens restent accessibles, ainsi que
 
 ## Autres points repérés
 
-Le catalogue comprend treize annales de commentaire. Seul Hialmar possède actuellement un `supportText` intégré ; les autres passent par un document externe. Huit entrées pointaient vers l’index général d’Éduscol plutôt que vers le fichier précis. Trois accès sont maintenant corrigés : Bouvier 2026, Barbey d’Aurevilly 2025 et Diderot 2023. Le sujet de Bouvier a aussi été attribué au bon centre : centres étrangers du groupe 1, code 26-FRGEG11, au lieu de l’Amérique du Nord. Son ancienne URL reste inchangée pour préserver les liens existants. Cinq fichiers restent à authentifier : Apollinaire 2025, Aragon 2024, Sylvie Germain 2022, Musset 2022 et Larbaud 2021. Ce défaut ne touche pas les quatre sujets retenus pour le mode examen. Un PDF n’est pas reconstitué ni deviné à partir du nom de l’auteur.
+Le catalogue comprend treize annales de commentaire. Seul Hialmar possède actuellement un `supportText` intégré ; les autres passent par un document externe. Huit entrées pointaient vers l’index général d’Éduscol plutôt que vers le fichier précis. Trois accès sont maintenant corrigés : Bouvier 2026, Barbey d’Aurevilly 2025 et Diderot 2023. Le sujet de Bouvier a aussi été attribué au bon centre : centres étrangers du groupe 1, code 26-FRGEG11, au lieu de l’Amérique du Nord. Son ancienne URL reste inchangée pour préserver les liens existants. Les cinq autres accès ont été vérifiés puis corrigés dans la suite de cet audit (voir ci-dessous). Les treize références de commentaire mènent désormais directement à un document identifié. Le document d’Aragon est rattaché à la session 2020 inscrite sur le PDF, et non à une session 2024 non authentifiée. Un PDF n’est pas reconstitué ni deviné à partir du nom de l’auteur.
 
 L’audit d’organisation ne vaut pas validation de chaque réponse des questionnaires existants ni lecture philologique nouvelle de toutes les copies. Leurs contenus restent disponibles. Les corrections pédagogiques de cette branche portent sur les tâches annoncées, les chemins proposés et les contradictions de méthode relevées ci-dessus.
 
@@ -61,3 +61,18 @@ Sources des trois accès corrigés :
 - Bouvier : https://www.education.gouv.fr/sites/default/files/document/baccalaur-at-g-n-ral-2026-fran-ais---preuve-anticip-e-517082.pdf (26-FRGEG11, sujet lié sous « Centres étrangers du groupe 1 » sur la page ministérielle des examens 2026).
 - Barbey : https://www.education.gouv.fr/sites/default/files/2025-06/baccalaur-at-g-n-ral-2025-fran-ais---preuve-anticip-e-440676.pdf
 - Diderot : https://eduscol.education.fr/document/55707/download (23-FRGEME1, Salon de 1767).
+
+
+## Suite du 17 octobre : les cinq derniers accès
+
+Les PDF ont été ouverts et vérifiés par leur code, leur session et le texte proposé. Aucune reproduction nouvelle de texte protégé.
+
+| Texte | Code | Document de référence |
+| --- | --- | --- |
+| apollinaire-mesange | 25FRGEJA1 | https://eduscol.education.gouv.fr/sites/default/files/document/25-frgeja1v1pdf-113082.pdf |
+| aragon-elsa-au-miroir | 20FRGEMLR1 | https://lettres-pedagogie.web.ac-grenoble.fr/sites/default/files/Media/document/eaf_sept_20_serie_genrale.pdf |
+| sylvie-germain-jours-de-colere | 22-FRGEME2 | https://eduscol.education.gouv.fr/sites/default/files/document/22-frgeme2pdf-96429.pdf |
+| musset-lorenzaccio | 22-FRGEAN1 | https://eduscol.education.gouv.fr/sites/default/files/document/22-frgean1pdf-96864.pdf |
+| larbaud-ancienne-gare-cahors | 21-FRGEME1BIS | https://eduscol.education.gouv.fr/sites/default/files/document/21-frgeme1bispdf-93930.pdf |
+
+Pour Aragon, le PDF académique indique explicitement « SESSION 2020 » et 20FRGEMLR1. Sa première page porte la date du 17 juin 2020, tandis que le fichier est archivé sous un nom évoquant septembre : aucune date de passation effective ni session de remplacement n’est déduite de ce nom de fichier. La page et le catalogue parlent seulement de document officiel archivé, session 2020. L’ancienne URL et l’identifiant contenant 2024 sont conservés afin de préserver les liens et les brouillons existants ; les titres, métadonnées et indications visibles sont corrigés.
