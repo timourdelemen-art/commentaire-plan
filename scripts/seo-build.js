@@ -196,7 +196,7 @@ function navigationActive(href, base){
 const portals=navigation.map(([href,label,sub,items])=>portal(file,href,label,sub,items,navigationActive(href,base))).join('');
   return `<header class="top" data-seo-static-nav="1">
   <div class="wrap mast mast-v3">
-    <div class="brand-signature"><a class="brand brand-v2" href="/">LA PHRASE<br>JUSTE</a><a class="site-wink no-prefetch" href="/clin-oeil.html" aria-label="Le clin d’œil philosophique du site" title="Une pause métaphysique"><img src="/assets/clin-oeil-heidegger-120.webp" width="42" height="53" alt="" decoding="async"></a></div>
+    <div class="brand-signature"><a class="brand brand-v2" href="/">LA PHRASE<br>JUSTE</a><a class="site-wink no-prefetch" href="/clin-oeil.html" aria-label="Was heißt Denken ?" title="Was heißt Denken ?"><img src="/assets/clin-oeil-heidegger-120.webp" width="42" height="53" alt="" decoding="async"></a></div>
     <nav class="nav-portals" aria-label="Navigation principale">${portals}</nav>
     <button class="mobile-nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav">Menu</button>
   </div>
