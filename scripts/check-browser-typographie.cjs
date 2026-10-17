@@ -23,7 +23,7 @@ async function check(root){
     for(const mode of ['avant','apres']){
      const page=await context.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));
      if(mode==='avant')await page.route('**/styles.css',route=>route.fulfill({status:200,contentType:'text/css',body:baseline}));
-     const response=await page.goto('http://127.0.0.1:'+server.address().port+'/'+name,{waitUntil:'load'});assert(response.ok(),name);
+     const response=await page.goto('http://127.0.0.1:'+server.address().port+'/'+name,{waitUntil:'load'});assert(response.ok(),name);const sourceMain=(await response.text()).match(/<main\b[\s\S]*?<\/main>/i)?.[0];assert(sourceMain,name+' : contenu principal absent');
      // Activer les blocs différés avant de mesurer leur contenu.
      const regions=page.locator('main>section');
      for(let i=0;i<Math.min(await regions.count(),8);i++)await regions.nth(i).scrollIntoViewIfNeeded();
@@ -49,7 +49,7 @@ async function check(root){
       await page.keyboard.press('Escape');
      }
      // Les QCM mélangent leurs choix au chargement : comparer la source du contenu, identique dans les deux rendus.
-     versions[mode].text=(await response.text()).match(/<main\b[\s\S]*?<\/main>/i)?.[0];
+     versions[mode].text=sourceMain;
      assert.deepEqual(errors,[],name+' '+width+' '+mode);
      if(capturePages.has(name)&&width!==768){
       await page.locator('main').evaluate(e=>e.scrollIntoView({block:'start'}));
