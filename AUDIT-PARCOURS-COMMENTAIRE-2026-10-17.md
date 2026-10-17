@@ -41,7 +41,7 @@ Sans JavaScript, les quatre sujets et leurs liens restent accessibles, ainsi que
 
 ## Autres points repérés
 
-Le catalogue comprend treize annales de commentaire. Seul Hialmar possède actuellement un `supportText` intégré ; les autres passent par un document externe. Sept entrées pointent encore vers l’index général d’Éduscol plutôt que vers le fichier précis. Ce défaut ne touche pas les quatre sujets retenus pour le mode examen. Il reste à authentifier les sept fichiers avant de remplacer ces liens ; un PDF n’est pas reconstitué ni deviné à partir du nom de l’auteur.
+Le catalogue comprend treize annales de commentaire. Seul Hialmar possède actuellement un `supportText` intégré ; les autres passent par un document externe. Huit entrées pointaient vers l’index général d’Éduscol plutôt que vers le fichier précis. Trois accès sont maintenant corrigés : Bouvier 2026, Barbey d’Aurevilly 2025 et Diderot 2023. Le sujet de Bouvier a aussi été attribué au bon centre : centres étrangers du groupe 1, code 26-FRGEG11, au lieu de l’Amérique du Nord. Son ancienne URL reste inchangée pour préserver les liens existants. Cinq fichiers restent à authentifier : Apollinaire 2025, Aragon 2024, Sylvie Germain 2022, Musset 2022 et Larbaud 2021. Ce défaut ne touche pas les quatre sujets retenus pour le mode examen. Un PDF n’est pas reconstitué ni deviné à partir du nom de l’auteur.
 
 L’audit d’organisation ne vaut pas validation de chaque réponse des questionnaires existants ni lecture philologique nouvelle de toutes les copies. Leurs contenus restent disponibles. Les corrections pédagogiques de cette branche portent sur les tâches annoncées, les chemins proposés et les contradictions de méthode relevées ci-dessus.
 
@@ -55,3 +55,9 @@ L’audit d’organisation ne vaut pas validation de chaque réponse des questio
 ## Vérifications techniques
 
 Le contrôle `scripts/check-browser-commentaire-parcours.cjs` est appelé par le contrôle navigateur existant. À 390 et 1280 px : liens de l’accueil, dix modèles, sélection des quatre sujets, texte de Hialmar, rédaction, chronomètre, reprise, téléchargement, comparaison après rédaction, effacement isolé, absence d’envoi au correcteur et absence de débordement. Une lecture sans JavaScript et un stockage indisponible sont également contrôlés. Les résultats et captures sont archivés par GitHub Actions.
+
+Sources des trois accès corrigés :
+
+- Bouvier : https://www.education.gouv.fr/sites/default/files/document/baccalaur-at-g-n-ral-2026-fran-ais---preuve-anticip-e-517082.pdf (26-FRGEG11, sujet lié sous « Centres étrangers du groupe 1 » sur la page ministérielle des examens 2026).
+- Barbey : https://www.education.gouv.fr/sites/default/files/2025-06/baccalaur-at-g-n-ral-2025-fran-ais---preuve-anticip-e-440676.pdf
+- Diderot : https://eduscol.education.fr/document/55707/download (23-FRGEME1, Salon de 1767).
