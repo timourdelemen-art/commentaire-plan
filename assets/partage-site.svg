@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#f6f1e8"/>
+<g fill="#11100e" font-family="Georgia, DejaVu Serif, serif">
+<text x="80" y="96" font-size="40" font-weight="700">LA PHRASE</text><text x="80" y="140" font-size="40" font-weight="700">JUSTE</text>
+<path d="M80 200H1120" stroke="#11100e" stroke-width="2"/>
+<text x="80" y="306" font-size="66" font-weight="700">La copie la plus courte</text>
+<text x="80" y="388" font-size="66" font-weight="700">qui mérite <tspan fill="#9f2529">20.</tspan></text>
+<text x="80" y="560" font-family="DejaVu Sans, sans-serif" font-size="20" letter-spacing="2" fill="#615b54">FRANÇAIS · PHILOSOPHIE · HLP · BREVET</text>
+</g><circle cx="1097" cy="550" r="23" fill="#9f2529"/>
+</svg>
