@@ -27,7 +27,7 @@ async function check(root){
         const expected=(await source.allTextContents()).map(normalize),functions=await source.evaluateAll(xs=>xs.map(x=>x.getAttribute('data-f')));
         assert(expected.length>0);
         assert.deepEqual((await art.locator('.c20-t').allTextContents()).map(normalize),expected,'Même texte dans la vue annotée');
-        assert.deepEqual(await art.locator('.c20-f').allTextContents(),functions,'Chaque phrase a sa fonction');
+        assert.deepEqual((await art.locator('.c20-f').allTextContents()).map(normalize),functions.map(normalize),'Chaque phrase a sa fonction');
         assert.equal(await art.locator('.c20-f:visible').count(),expected.length);
         assert(!functions.some(f=>/établissement|reprise du mot clé|l’acquis/i.test(f)));
         const toggle=art.locator('.c20c-toggle');await toggle.focus();await page.keyboard.press('Enter');
@@ -56,7 +56,7 @@ async function check(root){
         assert((await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth))<=1,'Débordement horizontal');
         assert.deepEqual(errors,[]);
         if(name==='bac-commentaire-baudelaire-joujou-du-pauvre.html'){
-          await art.scrollIntoViewIfNeeded();await page.screenshot({path:path.join(captures,`commentaire-fonctions-${width}.png`)});
+          await art.locator('.c20c-bar').scrollIntoViewIfNeeded();await page.screenshot({path:path.join(captures,`commentaire-fonctions-${width}.png`)});
         }
         report.push({page:name,width,phrases:expected.length,ok:true});await page.close();
       }
