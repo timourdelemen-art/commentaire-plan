@@ -48,3 +48,6 @@ Audit théorique et deux cas de reconnaissance effectués ; **audit exhaustif, r
 2. Vérifier indépendamment les textes originaux des 8 sujets historiques, puis les 5 pages plus récentes, avant toute correction conceptuelle ; conserver les citations exactes.
 3. Faire tester l'exercice à clic sur téléphone et ordinateur, avec navigation clavier, puis ajuster le retour si l'élève confond coût et reste.
 4. Traiter spécialement la dissertation sur l'engagement : le reste actuel de la banque et celui de la page vitrine ne sont pas identiques ; vérifier si le dernier met réellement à l'épreuve la résolution choisie.
+
+## Correction ciblée réalisée
+La page vitrine `philosophie-copie-20-s-engager-liberte.html` est modifiée : le reste final porte désormais sur le conflit entre fidélité légitime et transformation de soi. Le paradoxe d'Antigone reste exploité dans le retour à la scène, mais n'est plus présenté comme le coût résiduel de la processualisation. La copie de la banque (`scripts/copies20-data.json`) exprimait déjà cette difficulté ; elle n'a pas été modifiée.
