@@ -51,14 +51,14 @@
       "conclusionQuestion": "Lorsque l’État détruit les voies par lesquelles on pouvait le corriger, comment lui résister sans abandonner l’exigence d’une justice commune ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 834
+        "words": 798
       },
       "review": {
         "author": "ChatGPT",
         "status": "propose",
         "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "b7e992841c71d6a534ebf908cb84bd406b923b0b8d6c26de7e2790cd156c751c"
+      "copySha256": "b35077504b89f97047d71d87f7f970f696cabb97130ad21d91ee80c8bf4e9ee8"
     },
     "2026-ag-humanite-religion": {
       "subject": "Peut-on concevoir une humanité sans religion ?",
@@ -109,14 +109,14 @@
       "conclusionQuestion": "Comment maintenir des convictions communes assez fortes pour nous unir, sans les rendre sacrées au point d’interdire leur examen ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 872
+        "words": 831
       },
       "review": {
         "author": "ChatGPT",
         "status": "propose",
         "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "f66334a5aa5ab64857c2a169206385182f65faddc2846ebc63c7a997070e8780"
+      "copySha256": "99a629e6b215f1ada2e05ffa180480fc2f08e1cd505204eac907dc4ab2c4427e"
     },
     "2026-an-artiste-sait": {
       "subject": "L’artiste sait-il ce qu’il fait ?",
@@ -167,14 +167,14 @@
       "conclusionQuestion": "Jusqu’où le savoir de l’artiste peut-il porter sur son œuvre, si celle-ci continue de prendre sens dans des regards qu’il ne dirige pas ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 710
+        "words": 669
       },
       "review": {
         "author": "ChatGPT",
         "status": "propose",
         "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "4fa38f6635fc9f5ffbcd37dec1ef78ecb44613790b922c099f26c08c2e4a0023"
+      "copySha256": "7ab474782afcd24d55ee67f4bb424a7ec544d8ee84360c393658d19a002e4854"
     },
     "2026-an-science-utile": {
       "subject": "La science doit-elle être utile ?",
@@ -225,14 +225,14 @@
       "conclusionQuestion": "Comment contrôler les moyens et les risques d’une recherche sans exiger d’elle la prévision des découvertes qui justifient sa liberté ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 822
+        "words": 780
       },
       "review": {
         "author": "ChatGPT",
         "status": "propose",
         "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "404bc3749b86ecc8d5cfa13408bb93925be7b573bb105168968579ecdae7be92"
+      "copySha256": "8e6f9762a303b78599f71d1ea1e5b1a6336a78b5806b6244e40c3801e1f3a469"
     },
     "2026-asie-inconscient-bonheur": {
       "subject": "Faut-il être inconscient pour être heureux ?",
@@ -341,14 +341,14 @@
       "conclusionQuestion": "Comment une pensée nouvelle peut-elle devenir partageable lorsque les mots par lesquels elle cherche à se dire ne sont pas encore compris ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 787
+        "words": 756
       },
       "review": {
         "author": "ChatGPT",
         "status": "propose",
         "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "e66f371e19f8ef8a74031319897ff1cdd1d7ff1e3aea87333dd203fe13bc0848"
+      "copySha256": "187878712d90a57e45a42ad5bb4acc0b15a68237f6ded444ba8279c283ee8513"
     },
     "2026-g1-bien-agir": {
       "subject": "Peut-on être certain d’avoir bien agi ?",
@@ -515,14 +515,14 @@
       "conclusionQuestion": "Que doit changer celui dont le bonheur dépend d’une injustice, pour que son souci d’autrui ne demeure pas une simple bonne conscience ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 791
+        "words": 760
       },
       "review": {
         "author": "ChatGPT",
         "status": "propose",
         "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "b7d1d0ddd16c1ca79c501767ccbefc0134eb9b2cb176abb7f0ff2a23d9966579"
+      "copySha256": "a830213773fe1d2146d6aac6eabe4316866cdb6608f11db5dc05e1956db3ddbc"
     },
     "2026-me-paroles": {
       "subject": "Avons-nous la maîtrise de nos paroles ?",
@@ -631,14 +631,14 @@
       "conclusionQuestion": "Comment attribuer une responsabilité juste lorsque la connaissance de ce qui a déterminé l’acte demeure incomplète ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 851
+        "words": 815
       },
       "review": {
         "author": "ChatGPT",
         "status": "propose",
         "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "156ca74dae5a4796fbf0a04a8db3e9e4b91d986543bfc9706bdb5a556a6b7d43"
+      "copySha256": "323aac81691e156cd636191eafa77e811ee4d94fc5e9a84679353627d434ff51"
     },
     "notion-liberte": {
       "subject": "S’engager, est-ce renoncer à sa liberté ?",
@@ -689,14 +689,14 @@
       "conclusionQuestion": "Quand la fidélité exige de renoncer à ce que l’on est devenu, comment juger si elle accomplit encore la liberté ou la sacrifie ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 789
+        "words": 737
       },
       "review": {
         "author": "ChatGPT",
         "status": "propose",
         "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "cda4c411972a9b153931237a1e4ff11e0581f774f4fccc607ed40eee12714792"
+      "copySha256": "c7069b824062376d966ed901394b33df7855182bac620fcae07292cdae500f64"
     },
     "notion-raison": {
       "subject": "Suffit-il d’avoir raison pour convaincre ?",
@@ -747,14 +747,14 @@
       "conclusionQuestion": "Que peut encore faire la raison devant un refus de l’examiner, sans transformer la recherche de conviction en contrainte ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 813
+        "words": 775
       },
       "review": {
         "author": "ChatGPT",
         "status": "propose",
         "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "2e77fb6cb8d07f0d3a08a5560a309f1c5b5d4172c422b2ad6af85f95a9db11b1"
+      "copySha256": "657b645bf590a943bd330b9ce8ff9afa11bad39899005c30e9ba452213aa3974"
     },
     "notion-technique": {
       "subject": "Ce qui est techniquement possible est-il toujours souhaitable ?",
@@ -805,14 +805,14 @@
       "conclusionQuestion": "Comment décider d’un possible technique lorsque ses risques sont incertains et que l’attente elle-même peut priver les hommes d’un bien ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 885
+        "words": 837
       },
       "review": {
         "author": "ChatGPT",
         "status": "propose",
         "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "af56b9298f3b59ba0ab5967582bf51f9e7aca5a093bc683ad8394d1ccff29652"
+      "copySha256": "7148282b74a9a870bfe0c7e114c1de6d6013c129416bc334c530636cf37d19dd"
     },
     "notion-temps": {
       "subject": "Le temps est-il nécessairement destructeur ?",
@@ -921,14 +921,14 @@
       "conclusionQuestion": "Comment partager les tâches nécessaires qui restent pénibles, sans réserver à certains le travail formateur et à d’autres sa seule contrainte ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 838
+        "words": 798
       },
       "review": {
         "author": "ChatGPT",
         "status": "propose",
         "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "6bd123a846c4a58314e598fb8288076b630e28909e237d94e3c7e9f35c88041d"
+      "copySha256": "cedd588449310067300931b74bef7a82f199b3cddbe5f5bf1d8c603f7110d0b1"
     },
     "notion-verite": {
       "subject": "Toute vérité est-elle bonne à dire ?",
