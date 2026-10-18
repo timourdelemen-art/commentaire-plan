@@ -1288,83 +1288,83 @@
         {
           "name": "duplication ontologique",
           "application": "Distinguer le plan où « Reconnaître ce qui échappe au choix conscient » et celui où « Préserver une responsabilité proportionnée aux capacités » s'appliquent, puis établir leur unité.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Sépare désir inconscient, acte imputable et réparation due.",
+          "cost": "La séparation demande des critères d'attribution effectifs.",
+          "rest": "Comment juger sans connaître exactement les motifs ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "abolition partielle/totale",
           "application": "Abandonner ou limiter l'exigence « Reconnaître ce qui échappe au choix conscient » pour préserver « Préserver une responsabilité proportionnée aux capacités » : vérifier si le sujet survit à ce sacrifice.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Supprime la responsabilité faute de transparence.",
+          "cost": "Protège contre la culpabilisation arbitraire mais ignore les victimes.",
+          "rest": "Qui répare les dommages causés ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "processualisation",
           "application": "Faire de « Reconnaître ce qui échappe au choix conscient » et « Préserver une responsabilité proportionnée aux capacités » deux moments d'un processus dont il faut expliquer le mécanisme.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "La connaissance de soi accroît progressivement la responsabilité.",
+          "cost": "Ne suffit pas à décider des actes passés.",
+          "rest": "Quel degré de lucidité était possible au moment de l'acte ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "inversion d’indexation",
           "application": "Soutenir que « Préserver une responsabilité proportionnée aux capacités » est la condition de possibilité de « Reconnaître ce qui échappe au choix conscient », et non seulement son effet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "L'inconscient rend nécessaire une responsabilité moins présomptueuse.",
+          "cost": "La prudence ne fournit pas une norme d'imputation.",
+          "rest": "Qui doit répondre de l'acte ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "métamorphose",
           "application": "Redéfinir la notion centrale de « L’idée d’inconscient remet-elle en cause la responsabilité ? » pour conserver les deux exigences sans les juxtaposer.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Transforme la faute totale en responsabilité proportionnée aux capacités.",
+          "cost": "Il faut établir ces capacités sans transparence complète.",
+          "rest": "Comment mesurer la part de choix réelle ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "déplacement",
           "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Déplace l'imputation vers les conditions sociales.",
+          "cost": "Peut dissoudre toute responsabilité personnelle.",
+          "rest": "Qui doit répondre aux personnes lésées ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "suspension épistémique",
           "application": "Limiter la prétention à savoir si « Reconnaître ce qui échappe au choix conscient » et « Préserver une responsabilité proportionnée aux capacités » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Suspend tout jugement tant que les motifs restent opaques.",
+          "cost": "Rend impossible la réparation et l'action judiciaire.",
+          "rest": "Peut-on attendre une connaissance exhaustive ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "consentement",
           "application": "Assumer que « Reconnaître ce qui échappe au choix conscient » et « Préserver une responsabilité proportionnée aux capacités » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Assume qu'une responsabilité demeure sous incertitude.",
+          "cost": "N'établit pas son degré ni ses critères.",
+          "rest": "Quelle responsabilité est juste malgré l'opacité ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         }
       ],
       "evaluation": {
-        "fidelity": "non certifiée indépendamment",
-        "operation": "à tester",
-        "cost": "à comparer",
-        "rest": "à mettre à l’épreuve",
-        "best": "indéterminée",
-        "rewrite": "aucune avant décision motivée"
+        "fidelity": "Les deux exigences sont reconnues dans le dossier.",
+        "operation": "Huit familles confrontées avec leurs limites propres.",
+        "cost": "Chaque famille possède un coût argumenté.",
+        "rest": "Chaque famille possède une objection résiduelle propre.",
+        "best": "Solution actuelle plausible, non démontrée absolument supérieure à toute combinaison.",
+        "rewrite": "Aucune réécriture décidée sans audit de la copie et des références."
       }
     },
     "notion-liberte": {
@@ -1536,83 +1536,83 @@
         {
           "name": "duplication ontologique",
           "application": "Distinguer le plan où « Préserver la force des raisons valides » et celui où « Rendre ces raisons accessibles à un esprit situé » s'appliquent, puis établir leur unité.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Sépare validité logique et reconnaissance effective des raisons.",
+          "cost": "Ne suffit pas à expliquer comment l'autre les comprend.",
+          "rest": "Quelles conditions rendent une preuve accessible ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "abolition partielle/totale",
           "application": "Abandonner ou limiter l'exigence « Préserver la force des raisons valides » pour préserver « Rendre ces raisons accessibles à un esprit situé » : vérifier si le sujet survit à ce sacrifice.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Abandonne le souci de convaincre et ne garde que la vérité.",
+          "cost": "Sacrifie la dimension intersubjective du problème.",
+          "rest": "Pourquoi argumenter auprès d'autrui ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "processualisation",
           "application": "Faire de « Préserver la force des raisons valides » et « Rendre ces raisons accessibles à un esprit situé » deux moments d'un processus dont il faut expliquer le mécanisme.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Fait de l'examen partagé un apprentissage.",
+          "cost": "L'interlocuteur peut refuser tout dialogue.",
+          "rest": "Que faire devant un refus de vérifier ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "inversion d’indexation",
           "application": "Soutenir que « Rendre ces raisons accessibles à un esprit situé » est la condition de possibilité de « Préserver la force des raisons valides », et non seulement son effet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Le refus d'autrui oblige à mieux expliciter les preuves.",
+          "cost": "Ne garantit pas que les raisons soient acceptées.",
+          "rest": "Comment convaincre sans contraindre ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "métamorphose",
           "application": "Redéfinir la notion centrale de « Suffit-il d’avoir raison pour convaincre ? » pour conserver les deux exigences sans les juxtaposer.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Transforme convaincre en faire examiner librement.",
+          "cost": "Risque de redéfinir le succès sans produire d'adhésion.",
+          "rest": "Peut-on dire convaincu celui qui reste en désaccord ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "déplacement",
           "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Déplace la question vers l'efficacité persuasive.",
+          "cost": "Sacrifie la validité des raisons.",
+          "rest": "Une persuasion fausse vaut-elle conviction rationnelle ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "suspension épistémique",
           "application": "Limiter la prétention à savoir si « Préserver la force des raisons valides » et « Rendre ces raisons accessibles à un esprit situé » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Suspend l'effort de convaincre en cas de résistance.",
+          "cost": "Confond refus actuel et impossibilité de comprendre.",
+          "rest": "Quand cesser de discuter ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "consentement",
           "application": "Assumer que « Préserver la force des raisons valides » et « Rendre ces raisons accessibles à un esprit situé » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Accepte que la raison ne garantisse aucune adhésion.",
+          "cost": "N'explique pas les moyens légitimes de convaincre.",
+          "rest": "Pourquoi exposer ses preuves ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         }
       ],
       "evaluation": {
-        "fidelity": "non certifiée indépendamment",
-        "operation": "à tester",
-        "cost": "à comparer",
-        "rest": "à mettre à l’épreuve",
-        "best": "indéterminée",
-        "rewrite": "aucune avant décision motivée"
+        "fidelity": "Les deux exigences sont reconnues dans le dossier.",
+        "operation": "Huit familles confrontées avec leurs limites propres.",
+        "cost": "Chaque famille possède un coût argumenté.",
+        "rest": "Chaque famille possède une objection résiduelle propre.",
+        "best": "Solution actuelle plausible, non démontrée absolument supérieure à toute combinaison.",
+        "rewrite": "Aucune réécriture décidée sans audit de la copie et des références."
       }
     },
     "notion-technique": {
@@ -1660,83 +1660,83 @@
         {
           "name": "duplication ontologique",
           "application": "Distinguer le plan où « Préserver les biens rendus possibles par la technique » et celui où « Ne pas autoriser tout moyen et tout risque au nom du pouvoir » s'appliquent, puis établir leur unité.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Distingue possibilité technique et valeur morale des fins.",
+          "cost": "Une fin digne peut justifier abusivement des moyens.",
+          "rest": "Quels risques et atteintes sont acceptables ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "abolition partielle/totale",
           "application": "Abandonner ou limiter l'exigence « Préserver les biens rendus possibles par la technique » pour préserver « Ne pas autoriser tout moyen et tout risque au nom du pouvoir » : vérifier si le sujet survit à ce sacrifice.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Interdit toute technique dont les risques ne sont pas nuls.",
+          "cost": "Supprime aussi les bénéfices nécessaires.",
+          "rest": "Comment agir si l'inaction comporte des risques ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "processualisation",
           "application": "Faire de « Préserver les biens rendus possibles par la technique » et « Ne pas autoriser tout moyen et tout risque au nom du pouvoir » deux moments d'un processus dont il faut expliquer le mécanisme.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Évalue les effets puis corrige les usages.",
+          "cost": "Les dommages irréversibles ne sont pas réparables.",
+          "rest": "Quand interdire avant l'expérience ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "inversion d’indexation",
           "application": "Soutenir que « Ne pas autoriser tout moyen et tout risque au nom du pouvoir » est la condition de possibilité de « Préserver les biens rendus possibles par la technique », et non seulement son effet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "La puissance technique rend nécessaire un devoir de prudence.",
+          "cost": "Ne définit pas les seuils de risque admissibles.",
+          "rest": "Qui supporte le risque et qui décide ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "métamorphose",
           "application": "Redéfinir la notion centrale de « Ce qui est techniquement possible est-il toujours souhaitable ? » pour conserver les deux exigences sans les juxtaposer.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Transforme puissance en responsabilité des fins et moyens.",
+          "cost": "Il faut décider malgré des conséquences inconnues.",
+          "rest": "Comment agir sans garantie de sécurité ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "déplacement",
           "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Déplace la décision vers la majorité politique.",
+          "cost": "Une majorité peut imposer des risques injustes.",
+          "rest": "Quels droits limitent la décision collective ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "suspension épistémique",
           "application": "Limiter la prétention à savoir si « Préserver les biens rendus possibles par la technique » et « Ne pas autoriser tout moyen et tout risque au nom du pouvoir » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Suspend toute innovation incertaine.",
+          "cost": "L'inaction peut elle-même priver de soins et de biens.",
+          "rest": "Quelle incertitude justifie une interdiction ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "consentement",
           "application": "Assumer que « Préserver les biens rendus possibles par la technique » et « Ne pas autoriser tout moyen et tout risque au nom du pouvoir » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Accepte un risque résiduel en le justifiant publiquement.",
+          "cost": "Le consentement public ne rend pas tout risque légitime.",
+          "rest": "Peut-on exposer les absents ou les générations futures ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         }
       ],
       "evaluation": {
-        "fidelity": "non certifiée indépendamment",
-        "operation": "à tester",
-        "cost": "à comparer",
-        "rest": "à mettre à l’épreuve",
-        "best": "indéterminée",
-        "rewrite": "aucune avant décision motivée"
+        "fidelity": "Les deux exigences sont reconnues dans le dossier.",
+        "operation": "Huit familles confrontées avec leurs limites propres.",
+        "cost": "Chaque famille possède un coût argumenté.",
+        "rest": "Chaque famille possède une objection résiduelle propre.",
+        "best": "Solution actuelle plausible, non démontrée absolument supérieure à toute combinaison.",
+        "rewrite": "Aucune réécriture décidée sans audit de la copie et des références."
       }
     },
     "notion-temps": {
@@ -1784,83 +1784,83 @@
         {
           "name": "duplication ontologique",
           "application": "Distinguer le plan où « Reconnaître les pertes réelles » et celui où « Reconnaître la formation et la nouveauté dans la durée » s'appliquent, puis établir leur unité.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Distingue destruction de la chose et transformation de ses effets.",
+          "cost": "Peut minimiser la perte irréversible.",
+          "rest": "Une création compense-t-elle une disparition ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "abolition partielle/totale",
           "application": "Abandonner ou limiter l'exigence « Reconnaître les pertes réelles » pour préserver « Reconnaître la formation et la nouveauté dans la durée » : vérifier si le sujet survit à ce sacrifice.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Nie la réalité de la perte au nom du progrès.",
+          "cost": "Efface l'expérience du deuil.",
+          "rest": "Que devient la singularité perdue ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "processualisation",
           "application": "Faire de « Reconnaître les pertes réelles » et « Reconnaître la formation et la nouveauté dans la durée » deux moments d'un processus dont il faut expliquer le mécanisme.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Articule perte et acquisition dans le devenir.",
+          "cost": "Ne garantit pas qu'une perte soit féconde.",
+          "rest": "Un temps sans création reste-t-il destructeur ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "inversion d’indexation",
           "application": "Soutenir que « Reconnaître la formation et la nouveauté dans la durée » est la condition de possibilité de « Reconnaître les pertes réelles », et non seulement son effet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "La perte ouvre parfois des possibilités nouvelles.",
+          "cost": "Peut justifier rétrospectivement des destructions.",
+          "rest": "Toute perte est-elle une condition nécessaire du nouveau ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "métamorphose",
           "application": "Redéfinir la notion centrale de « Le temps est-il nécessairement destructeur ? » pour conserver les deux exigences sans les juxtaposer.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Transforme l'idée de destruction en possibilité de création.",
+          "cost": "Risque de confondre succession et compensation.",
+          "rest": "Qui juge qu'un gain vaut une perte ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "déplacement",
           "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Déplace la question vers la mémoire du passé.",
+          "cost": "La mémoire ne restitue pas ce qui a disparu.",
+          "rest": "Se souvenir empêche-t-il la destruction ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "suspension épistémique",
           "application": "Limiter la prétention à savoir si « Reconnaître les pertes réelles » et « Reconnaître la formation et la nouveauté dans la durée » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Suspend tout jugement global sur la valeur du temps.",
+          "cost": "Ne répond pas à la modalité « nécessairement ».",
+          "rest": "Peut-on montrer au moins un changement non destructeur ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "consentement",
           "application": "Assumer que « Reconnaître les pertes réelles » et « Reconnaître la formation et la nouveauté dans la durée » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Reconnaît que perte et création peuvent coexister.",
+          "cost": "L'acceptation ne précise pas leur rapport.",
+          "rest": "Comment vivre une perte sans la justifier ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         }
       ],
       "evaluation": {
-        "fidelity": "non certifiée indépendamment",
-        "operation": "à tester",
-        "cost": "à comparer",
-        "rest": "à mettre à l’épreuve",
-        "best": "indéterminée",
-        "rewrite": "aucune avant décision motivée"
+        "fidelity": "Les deux exigences sont reconnues dans le dossier.",
+        "operation": "Huit familles confrontées avec leurs limites propres.",
+        "cost": "Chaque famille possède un coût argumenté.",
+        "rest": "Chaque famille possède une objection résiduelle propre.",
+        "best": "Solution actuelle plausible, non démontrée absolument supérieure à toute combinaison.",
+        "rewrite": "Aucune réécriture décidée sans audit de la copie et des références."
       }
     },
     "notion-travail": {
@@ -1908,83 +1908,83 @@
         {
           "name": "duplication ontologique",
           "application": "Distinguer le plan où « Reconnaître la formation par l’activité » et celui où « Reconnaître la contrainte et l’aliénation du travail réel » s'appliquent, puis établir leur unité.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Distingue travail formateur et organisation aliénante.",
+          "cost": "La distinction peut rester descriptive sans critère de transformation.",
+          "rest": "Qui décide si une tâche développe l'autonomie ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "abolition partielle/totale",
           "application": "Abandonner ou limiter l'exigence « Reconnaître la formation par l’activité » pour préserver « Reconnaître la contrainte et l’aliénation du travail réel » : vérifier si le sujet survit à ce sacrifice.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Supprime toute valeur humanisante du travail.",
+          "cost": "Ignore les capacités réellement acquises par l'activité.",
+          "rest": "Pourquoi apprendre un métier ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "processualisation",
           "application": "Faire de « Reconnaître la formation par l’activité » et « Reconnaître la contrainte et l’aliénation du travail réel » deux moments d'un processus dont il faut expliquer le mécanisme.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Transforme l'activité en apprentissage et participation au jugement.",
+          "cost": "Certaines tâches demeurent pénibles et répétitives.",
+          "rest": "Comment répartir les tâches irréductiblement contraignantes ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "inversion d’indexation",
           "application": "Soutenir que « Reconnaître la contrainte et l’aliénation du travail réel » est la condition de possibilité de « Reconnaître la formation par l’activité », et non seulement son effet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "La contrainte de l'effort peut former la capacité d'agir.",
+          "cost": "Risque de légitimer des contraintes dégradantes.",
+          "rest": "Quel effort forme et quel effort détruit ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "métamorphose",
           "application": "Redéfinir la notion centrale de « Le travail nous rend-il plus humain ? » pour conserver les deux exigences sans les juxtaposer.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Transforme exécution subie en activité reconnue et autonome.",
+          "cost": "Dépend de conditions sociales parfois absentes.",
+          "rest": "Comment garantir ces conditions à tous ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "déplacement",
           "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Déplace l'humanité vers le loisir créateur.",
+          "cost": "Abandonne la possibilité de former des capacités au travail.",
+          "rest": "Le travail n'est-il jamais émancipateur ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "suspension épistémique",
           "application": "Limiter la prétention à savoir si « Reconnaître la formation par l’activité » et « Reconnaître la contrainte et l’aliénation du travail réel » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Suspend le jugement faute de connaître chaque emploi.",
+          "cost": "Ne fournit aucun critère général de formation.",
+          "rest": "Comment évaluer l'organisation du travail ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "consentement",
           "application": "Assumer que « Reconnaître la formation par l’activité » et « Reconnaître la contrainte et l’aliénation du travail réel » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Accepte la tension entre nécessité et accomplissement.",
+          "cost": "N'indique pas comment réduire l'aliénation.",
+          "rest": "Quelle organisation rend la contrainte supportable ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         }
       ],
       "evaluation": {
-        "fidelity": "non certifiée indépendamment",
-        "operation": "à tester",
-        "cost": "à comparer",
-        "rest": "à mettre à l’épreuve",
-        "best": "indéterminée",
-        "rewrite": "aucune avant décision motivée"
+        "fidelity": "Les deux exigences sont reconnues dans le dossier.",
+        "operation": "Huit familles confrontées avec leurs limites propres.",
+        "cost": "Chaque famille possède un coût argumenté.",
+        "rest": "Chaque famille possède une objection résiduelle propre.",
+        "best": "Solution actuelle plausible, non démontrée absolument supérieure à toute combinaison.",
+        "rewrite": "Aucune réécriture décidée sans audit de la copie et des références."
       }
     },
     "notion-verite": {
@@ -2156,83 +2156,83 @@
         {
           "name": "duplication ontologique",
           "application": "Distinguer le plan où « Préserver la validité des raisons » et celui où « Expliquer leur reconnaissance sans manipulation » s'appliquent, puis établir leur unité.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Distingue validité et force persuasive.",
+          "cost": "Ne suffit pas à expliquer le passage de l'une à l'autre.",
+          "rest": "Comment rendre une preuve intelligible ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "abolition partielle/totale",
           "application": "Abandonner ou limiter l'exigence « Préserver la validité des raisons » pour préserver « Expliquer leur reconnaissance sans manipulation » : vérifier si le sujet survit à ce sacrifice.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Renonce à convaincre pour préserver la pure vérité.",
+          "cost": "Abandonne l'enjeu de la réception.",
+          "rest": "Pourquoi exposer une preuve ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "processualisation",
           "application": "Faire de « Préserver la validité des raisons » et « Expliquer leur reconnaissance sans manipulation » deux moments d'un processus dont il faut expliquer le mécanisme.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Reconstruit les raisons avec l'interlocuteur.",
+          "cost": "L'interlocuteur peut refuser l'examen.",
+          "rest": "Peut-on contraindre quelqu'un à vérifier ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "inversion d’indexation",
           "application": "Soutenir que « Expliquer leur reconnaissance sans manipulation » est la condition de possibilité de « Préserver la validité des raisons », et non seulement son effet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Le refus d'adhérer invite à expliciter davantage.",
+          "cost": "N'exclut pas les résistances non rationnelles.",
+          "rest": "Que faire si aucune raison n'est entendue ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "métamorphose",
           "application": "Redéfinir la notion centrale de « La vérité est-elle toujours convaincante ? » pour conserver les deux exigences sans les juxtaposer.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Transforme la persuasion en compréhension des preuves.",
+          "cost": "Ne garantit pas l'adhésion même éclairée.",
+          "rest": "Une vérité comprise peut-elle être refusée ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "déplacement",
           "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Déplace l'efficacité vers les affects.",
+          "cost": "Peut obtenir l'adhésion à une fausseté.",
+          "rest": "Convaincre suffit-il à avoir raison ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "suspension épistémique",
           "application": "Limiter la prétention à savoir si « Préserver la validité des raisons » et « Expliquer leur reconnaissance sans manipulation » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Suspend l'effort devant toute résistance.",
+          "cost": "Confond difficulté et impossibilité de persuasion.",
+          "rest": "Quand faut-il renoncer au dialogue ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "consentement",
           "application": "Assumer que « Préserver la validité des raisons » et « Expliquer leur reconnaissance sans manipulation » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Admet que la vérité ne force pas l'adhésion.",
+          "cost": "N'explique pas les moyens de la rendre accessible.",
+          "rest": "Pourquoi argumenter malgré tout ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         }
       ],
       "evaluation": {
-        "fidelity": "non certifiée indépendamment",
-        "operation": "à tester",
-        "cost": "à comparer",
-        "rest": "à mettre à l’épreuve",
-        "best": "indéterminée",
-        "rewrite": "aucune avant décision motivée"
+        "fidelity": "Les deux exigences sont reconnues dans le dossier.",
+        "operation": "Huit familles confrontées avec leurs limites propres.",
+        "cost": "Chaque famille possède un coût argumenté.",
+        "rest": "Chaque famille possède une objection résiduelle propre.",
+        "best": "Solution actuelle plausible, non démontrée absolument supérieure à toute combinaison.",
+        "rewrite": "Aucune réécriture décidée sans audit de la copie et des références."
       }
     },
     "2025-me-avenir-technique": {
@@ -2280,83 +2280,83 @@
         {
           "name": "duplication ontologique",
           "application": "Distinguer le plan où « Reconnaître les conditions et dépendances techniques » et celui où « Préserver une décision collective sur les fins » s'appliquent, puis établir leur unité.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Distingue les moyens techniques et la décision des fins.",
+          "cost": "Les moyens transforment aussi les fins et les besoins.",
+          "rest": "Comment garder la maîtrise de ce qui nous transforme ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "abolition partielle/totale",
           "application": "Abandonner ou limiter l'exigence « Reconnaître les conditions et dépendances techniques » pour préserver « Préserver une décision collective sur les fins » : vérifier si le sujet survit à ce sacrifice.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Supprime les techniques pour retrouver une autonomie pure.",
+          "cost": "Ignore les dépendances déjà constitutives de la vie humaine.",
+          "rest": "Quel avenir reste possible sans technique ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "processualisation",
           "application": "Faire de « Reconnaître les conditions et dépendances techniques » et « Préserver une décision collective sur les fins » deux moments d'un processus dont il faut expliquer le mécanisme.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Organise des choix collectifs révisables.",
+          "cost": "Certaines conséquences sont irréversibles.",
+          "rest": "Quand la révision arrive-t-elle trop tard ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "inversion d’indexation",
           "application": "Soutenir que « Préserver une décision collective sur les fins » est la condition de possibilité de « Reconnaître les conditions et dépendances techniques », et non seulement son effet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Nos fins produisent des outils qui modifient en retour nos fins.",
+          "cost": "L'interdépendance ne donne pas de critère de décision.",
+          "rest": "Qui doit décider des transformations acceptables ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "métamorphose",
           "application": "Redéfinir la notion centrale de « Notre avenir dépend-il de la technique ? » pour conserver les deux exigences sans les juxtaposer.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Transforme la maîtrise en gouvernement des interdépendances.",
+          "cost": "La gouvernance peut ignorer les personnes absentes.",
+          "rest": "Comment représenter les générations futures ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "déplacement",
           "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Déplace le pouvoir vers les seules institutions politiques.",
+          "cost": "Les institutions dépendent elles-mêmes des techniques.",
+          "rest": "Qui maîtrise les moyens de décision ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "suspension épistémique",
           "application": "Limiter la prétention à savoir si « Reconnaître les conditions et dépendances techniques » et « Préserver une décision collective sur les fins » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Suspend tout choix devant l'incertitude.",
+          "cost": "L'inaction laisse agir des systèmes techniques existants.",
+          "rest": "Peut-on ne pas décider ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "consentement",
           "application": "Assumer que « Reconnaître les conditions et dépendances techniques » et « Préserver une décision collective sur les fins » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Accepte les irréversibilités du développement technique.",
+          "cost": "Risque de légitimer toute innovation comme destin.",
+          "rest": "Quelles irréversibilités faut-il refuser ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         }
       ],
       "evaluation": {
-        "fidelity": "non certifiée indépendamment",
-        "operation": "à tester",
-        "cost": "à comparer",
-        "rest": "à mettre à l’épreuve",
-        "best": "indéterminée",
-        "rewrite": "aucune avant décision motivée"
+        "fidelity": "Les deux exigences sont reconnues dans le dossier.",
+        "operation": "Huit familles confrontées avec leurs limites propres.",
+        "cost": "Chaque famille possède un coût argumenté.",
+        "rest": "Chaque famille possède une objection résiduelle propre.",
+        "best": "Solution actuelle plausible, non démontrée absolument supérieure à toute combinaison.",
+        "rewrite": "Aucune réécriture décidée sans audit de la copie et des références."
       }
     },
     "2025-me-besoin-art": {
@@ -2404,91 +2404,91 @@
         {
           "name": "duplication ontologique",
           "application": "Distinguer le plan où « Reconnaître la liberté des goûts » et celui où « Reconnaître les besoins de perception, expression et partage » s'appliquent, puis établir leur unité.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Distingue besoin de formes expressives et préférence pour une œuvre.",
+          "cost": "Il faut expliquer ce qui distingue l'art des autres expressions.",
+          "rest": "La conversation ne satisfait-elle pas ce besoin ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "abolition partielle/totale",
           "application": "Abandonner ou limiter l'exigence « Reconnaître la liberté des goûts » pour préserver « Reconnaître les besoins de perception, expression et partage » : vérifier si le sujet survit à ce sacrifice.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Nie tout besoin d'art parce que la survie n'en dépend pas.",
+          "cost": "Réduit le besoin humain à la nécessité biologique.",
+          "rest": "Pourquoi les sociétés créent-elles des œuvres ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "processualisation",
           "application": "Faire de « Reconnaître la liberté des goûts » et « Reconnaître les besoins de perception, expression et partage » deux moments d'un processus dont il faut expliquer le mécanisme.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Fait naître de nouveaux besoins par la pratique artistique.",
+          "cost": "Ne prouve pas que ce besoin soit universel.",
+          "rest": "Peut-on vivre sans cette pratique ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "inversion d’indexation",
           "application": "Soutenir que « Reconnaître les besoins de perception, expression et partage » est la condition de possibilité de « Reconnaître la liberté des goûts », et non seulement son effet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Le besoin de donner forme à l'expérience rend l'art possible.",
+          "cost": "Risque de confondre art et expression ordinaire.",
+          "rest": "Qu'apporte la forme artistique de spécifique ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "métamorphose",
           "application": "Redéfinir la notion centrale de « Avons-nous besoin d’art ? » pour conserver les deux exigences sans les juxtaposer.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Transforme besoin de consommation en puissance de création.",
+          "cost": "Peut exclure l'expérience de ceux qui ne créent pas.",
+          "rest": "Regarder une œuvre suffit-il à répondre au besoin ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "déplacement",
           "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Déplace la fonction de l'art vers le jeu et le langage.",
+          "cost": "Risque de supprimer ce qui fait la spécificité artistique.",
+          "rest": "Pourquoi nommer art une pratique distincte ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "suspension épistémique",
           "application": "Limiter la prétention à savoir si « Reconnaître la liberté des goûts » et « Reconnaître les besoins de perception, expression et partage » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Suspend le jugement sur un besoin universel.",
+          "cost": "Le sujet demande si un besoin peut être établi, non une statistique.",
+          "rest": "Quel besoin humain l'art peut-il satisfaire ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         },
         {
           "name": "consentement",
           "application": "Assumer que « Reconnaître la liberté des goûts » et « Reconnaître les besoins de perception, expression et partage » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Assume que l'art peut être nécessaire sans forme imposée.",
+          "cost": "N'établit pas à lui seul le caractère nécessaire.",
+          "rest": "Qu'est-ce qui manque réellement sans art ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, classement non définitivement démontré"
         }
       ],
       "evaluation": {
-        "fidelity": "non certifiée indépendamment",
-        "operation": "à tester",
-        "cost": "à comparer",
-        "rest": "à mettre à l’épreuve",
-        "best": "indéterminée",
-        "rewrite": "aucune avant décision motivée"
+        "fidelity": "Les deux exigences sont reconnues dans le dossier.",
+        "operation": "Huit familles confrontées avec leurs limites propres.",
+        "cost": "Chaque famille possède un coût argumenté.",
+        "rest": "Chaque famille possède une objection résiduelle propre.",
+        "best": "Solution actuelle plausible, non démontrée absolument supérieure à toute combinaison.",
+        "rewrite": "Aucune réécriture décidée sans audit de la copie et des références."
       }
     }
   },
   "progress": {
     "familiesAppliedToAll": 20,
     "applications": 160,
-    "fullyEvaluated": 12,
-    "remainingToEvaluate": 8,
-    "note": "Douze dossiers ont une première confrontation argumentée des huit familles ; huit restent à approfondir. Les verdicts ne prouvent pas l'optimalité."
+    "fullyEvaluated": 20,
+    "remainingToEvaluate": 0,
+    "note": "Les 160 applications possèdent un premier jugement de gain/coût/reste. L'audit comparatif final, la validation des citations, le classement de combinaisons et les réécritures ne sont PAS terminés."
   }
 }
