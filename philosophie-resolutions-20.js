@@ -2,7 +2,7 @@
 (()=>{
  const root=document.getElementById('resolutions-20-app'),data=window.PHILO_RESOLUTION_CASES;
  if(!root||!data)return;
- let idx=0,stage=0,chosen=null,checked=false;
+ let idx=0,stage=0,chosen=null;
  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const steps=[
   ['Comprendre la première partie','Repérez la réponse qui paraît d’abord juste et ce qu’elle ne suffit pas à expliquer.'],
@@ -16,14 +16,14 @@
    '<p class="micro">Étape '+(stage+1)+' sur 4</p><h3>'+esc(step[0])+'</h3><p>'+esc(step[1])+'</p>'+
    '<p><strong>Le problème :</strong> '+esc(d.requirements[0])+' ; mais aussi '+esc(d.requirements[1])+'.</p>'+
    '<div id="res20-work"></div><p id="res20-actions"><button type="button" id="res20-back"'+(stage===0?' disabled':'')+'>← Étape précédente</button> <button type="button" id="res20-next"'+(stage===3?' disabled':'')+'>Étape suivante →</button></p>';
-  root.querySelector('#res20-sujet').addEventListener('change',e=>{idx=Number(e.target.value);stage=0;chosen=null;checked=false;render()});
-  root.querySelector('#res20-back').addEventListener('click',()=>{stage--;chosen=null;checked=false;render()});
-  root.querySelector('#res20-next').addEventListener('click',()=>{stage++;chosen=null;checked=false;render()});
+  root.querySelector('#res20-sujet').addEventListener('change',e=>{idx=Number(e.target.value);stage=0;chosen=null;render()});
+  root.querySelector('#res20-back').addEventListener('click',()=>{stage--;chosen=null;render()});
+  root.querySelector('#res20-next').addEventListener('click',()=>{stage++;chosen=null;render()});
   const w=root.querySelector('#res20-work');
   if(stage===0||stage===1){const part=stage===0?d.first:d.second;w.innerHTML='<p><strong>La réponse :</strong> '+esc(part.idea)+'</p><p><strong>Sa limite :</strong> '+esc(part.limit)+'</p><label for="res20-reason">En une phrase, pourquoi faut-il poursuivre ?</label><textarea id="res20-reason" rows="3"></textarea><details><summary>Comparer avec le corrigé</summary><p>La limite ne détruit pas tout ce que la partie établit : elle oblige à chercher une réponse qui préserve aussi '+esc(stage===0?d.requirements[1]:d.requirements[0])+'.</p></details>';return}
   if(stage===2){
    w.innerHTML='<p><strong>Que doit sauver la suite ?</strong> '+esc(d.requirements[0])+' et '+esc(d.requirements[1])+'.</p><div class="chaine-opts">'+d.solutions.map((s,i)=>'<button type="button" class="chaine-opt" data-solution="'+i+'" aria-pressed="'+(chosen===i)+'">'+esc(s.short)+'</button>').join('')+'</div><div id="res20-feedback" aria-live="polite"></div>';
-   w.querySelectorAll('[data-solution]').forEach(b=>b.addEventListener('click',()=>{chosen=Number(b.dataset.solution);checked=false;render();feedback()}));
+   w.querySelectorAll('[data-solution]').forEach(b=>b.addEventListener('click',()=>{chosen=Number(b.dataset.solution);render()}));
    if(chosen!==null)feedback();
    return;
   }
