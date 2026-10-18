@@ -35,3 +35,16 @@ Trois solutions de qualité comparable ; l'élève choisit d'abord **ce que chaq
 
 ## État
 Audit théorique et deux cas de reconnaissance effectués ; **audit exhaustif, réécriture du corpus, tests navigateur et déploiement non réalisés**. Ne pas déclarer toutes les copies validées.
+
+## Contrôle étendu effectué le 18 octobre
+- `scripts/copies20-data.json` : 20 copies, toutes avec cinq sections, 22 à 33 phrases.
+- `scripts/copies20-resolutions.json` : 20 dossiers, trois propositions par sujet (60 candidates) ; les deux exigences sont listées comme préservées par la solution retenue dans les 20 cas ; les 20 restes et leurs 20 questions sont repris dans le texte des copies. **Ces concordances sont des contrôles formels, pas une validation philosophique indépendante.**
+- `data/philosophie-audit-reste.json` : tableau traçable des 20 comparaisons, avec statut provisoire.
+- `scripts/explication-textes-data.json` : huit sujets historiques et neuf modèles (Malebranche en comporte deux). `data/philosophie-audit-explications-concepts.json` : notions et risques conceptuels par sujet, non relecture mot à mot des annales.
+- L'exercice existant `philosophie-troisieme-resolutions.js` a été enrichi d'un clic pour identifier l'objection propre à une solution parmi les trois coûts. Aucune nouvelle page n'est créée.
+
+## Propositions éditoriales prioritaires
+1. Confronter les 20 choix à deux alternatives vraiment développées et documenter les éventuels ex aequo ; les trois pistes existantes sont parfois très inégalement fortes.
+2. Vérifier indépendamment les textes originaux des 8 sujets historiques, puis les 5 pages plus récentes, avant toute correction conceptuelle ; conserver les citations exactes.
+3. Faire tester l'exercice à clic sur téléphone et ordinateur, avec navigation clavier, puis ajuster le retour si l'élève confond coût et reste.
+4. Traiter spécialement la dissertation sur l'engagement : le reste actuel de la banque et celui de la page vitrine ne sont pas identiques ; vérifier si le dernier met réellement à l'épreuve la résolution choisie.
