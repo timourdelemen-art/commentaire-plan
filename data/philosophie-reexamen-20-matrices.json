@@ -419,84 +419,84 @@
       "eightFamilies": [
         {
           "name": "duplication ontologique",
-          "application": "Distinguer le plan où « Préserver les découvertes dont l’usage est imprévisible » et celui où « Justifier les moyens et les risques de la recherche » s'appliquent, puis établir leur unité.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "application": "La recherche explore des questions imprévisibles, tandis que ses moyens restent soumis à des normes publiques.",
+          "gain": "Sépare liberté des objets d’enquête et responsabilité des pratiques.",
+          "cost": "La distinction est poreuse : les méthodes de recherche orientent déjà les questions possibles.",
+          "rest": "Qui juge les risques d’un protocole sans décider à l’avance quelles découvertes valent la peine ?",
+          "verdict": "admissible",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
         },
         {
           "name": "abolition partielle/totale",
-          "application": "Abandonner ou limiter l'exigence « Préserver les découvertes dont l’usage est imprévisible » pour préserver « Justifier les moyens et les risques de la recherche » : vérifier si le sujet survit à ce sacrifice.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "application": "Supprimer l’exigence d’utilité, même indirecte, au nom d’une science autonome.",
+          "gain": "Protège les découvertes sans application immédiate.",
+          "cost": "Écarte la justification des ressources et des risques imposés à autrui.",
+          "rest": "Une recherche dangereuse est-elle excusée par la seule liberté de chercher ?",
+          "verdict": "insuffisante seule",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
         },
         {
           "name": "processualisation",
-          "application": "Faire de « Préserver les découvertes dont l’usage est imprévisible » et « Justifier les moyens et les risques de la recherche » deux moments d'un processus dont il faut expliquer le mécanisme.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "application": "Instituer des contrôles révisables à mesure que les recherches produisent de nouvelles connaissances.",
+          "gain": "Relie apprentissage, liberté et vigilance.",
+          "cost": "Le contrôle peut intervenir trop tard devant un dommage irréversible.",
+          "rest": "Quelles limites faut-il fixer avant de connaître les conséquences ?",
+          "verdict": "admissible sous condition",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
         },
         {
           "name": "inversion d’indexation",
-          "application": "Soutenir que « Justifier les moyens et les risques de la recherche » est la condition de possibilité de « Préserver les découvertes dont l’usage est imprévisible », et non seulement son effet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "application": "La liberté de recherche rend possible une utilité future, plutôt que l’utilité immédiate ne justifie seule la recherche.",
+          "gain": "Explique pourquoi l’absence de résultat prévu peut être féconde.",
+          "cost": "N’établit pas de règle pour autoriser des risques présents.",
+          "rest": "Comment justifier une recherche risquée sans bénéfice prévisible ?",
+          "verdict": "insuffisante seule",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
         },
         {
           "name": "métamorphose",
-          "application": "Redéfinir la notion centrale de « La science doit-elle être utile ? » pour conserver les deux exigences sans les juxtaposer.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "application": "Transformer l’exigence d’utilité en exigence de responsabilité des moyens et des risques.",
+          "gain": "Sauve l’autonomie de la question scientifique et la justification publique des pratiques.",
+          "cost": "La responsabilité n’offre pas de mesure certaine des risques inconnus.",
+          "rest": "Qui peut accepter un risque que personne ne sait encore évaluer ?",
+          "verdict": "admissible",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
         },
         {
           "name": "déplacement",
-          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "application": "Déplacer la question de l’utilité vers la légitimité du financement et de la gouvernance de la recherche.",
+          "gain": "Rend visibles les obligations collectives.",
+          "cost": "Peut réduire la question philosophique de l’utilité à un arbitrage institutionnel.",
+          "rest": "Une recherche privée serait-elle dispensée de responsabilité ?",
+          "verdict": "admissible sous condition",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
         },
         {
           "name": "suspension épistémique",
-          "application": "Limiter la prétention à savoir si « Préserver les découvertes dont l’usage est imprévisible » et « Justifier les moyens et les risques de la recherche » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "application": "Suspendre tout jugement sur l’utilité future des découvertes.",
+          "gain": "Évite les prédictions sans fondement.",
+          "cost": "Ne décide rien des moyens présents et de leurs risques.",
+          "rest": "Comment autoriser un protocole quand son bénéfice reste inconnu ?",
+          "verdict": "insuffisante seule",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
         },
         {
           "name": "consentement",
-          "application": "Assumer que « Préserver les découvertes dont l’usage est imprévisible » et « Justifier les moyens et les risques de la recherche » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "application": "Reconnaître une tension irréductible entre liberté de découvrir et devoir de répondre des conséquences.",
+          "gain": "Évite une réconciliation artificielle.",
+          "cost": "N'indique pas quels risques peuvent être acceptés.",
+          "rest": "À partir de quel danger la liberté de recherche doit-elle céder ?",
+          "verdict": "admissible sous condition",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
         }
       ],
       "evaluation": {
-        "fidelity": "non certifiée indépendamment",
-        "operation": "à tester",
-        "cost": "à comparer",
-        "rest": "à mettre à l’épreuve",
-        "best": "indéterminée",
-        "rewrite": "aucune avant décision motivée"
+        "fidelity": "La solution actuelle préserve les deux exigences explicites.",
+        "operation": "La distinction des exigences est pertinente, mais les opérations concurrentes ont été testées.",
+        "cost": "Le coût propre de la résolution retenue est identifié dans la confrontation.",
+        "rest": "Le reste vise la condition d'application et ne nie pas automatiquement la réponse.",
+        "best": "Solution actuelle provisoirement préférée, mais sans preuve de dominance sur toute combinaison.",
+        "rewrite": "Pas de remplacement décidé ; renforcer la justification des critères si nécessaire."
       }
     },
     "2026-asie-inconscient-bonheur": {
@@ -791,84 +791,84 @@
       "eightFamilies": [
         {
           "name": "duplication ontologique",
-          "application": "Distinguer le plan où « Examiner motifs et effets pour juger moralement » et celui où « Permettre un jugement et une action malgré l’incertitude » s'appliquent, puis établir leur unité.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "application": "Distinguer certitude d’avoir agi raisonnablement et certitude d’avoir produit le bien.",
+          "gain": "Conserve l’examen des raisons et l’incertitude des effets.",
+          "cost": "Peut changer le sens de « bien agir » au lieu de répondre au sujet.",
+          "rest": "Une bonne intention suffit-elle si le tort causé était évitable ?",
+          "verdict": "admissible sous condition",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
         },
         {
           "name": "abolition partielle/totale",
-          "application": "Abandonner ou limiter l'exigence « Examiner motifs et effets pour juger moralement » pour préserver « Permettre un jugement et une action malgré l’incertitude » : vérifier si le sujet survit à ce sacrifice.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "application": "Abandonner toute prétention à la certitude morale.",
+          "gain": "Évite l’illusion d’infaillibilité.",
+          "cost": "Risque de rendre indifférents choix responsable et arbitraire.",
+          "rest": "Pourquoi examiner les conséquences si rien ne peut être jugé ?",
+          "verdict": "insuffisante seule",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
         },
         {
           "name": "processualisation",
-          "application": "Faire de « Examiner motifs et effets pour juger moralement » et « Permettre un jugement et une action malgré l’incertitude » deux moments d'un processus dont il faut expliquer le mécanisme.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "application": "Faire du jugement moral une enquête révisable avant et après l’action.",
+          "gain": "Unit décision prudente et apprentissage des effets.",
+          "cost": "La révision postérieure ne peut effacer un dommage.",
+          "rest": "Peut-on dire qu’un acte était bon si son effet réel fut mauvais ?",
+          "verdict": "admissible",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
         },
         {
           "name": "inversion d’indexation",
-          "application": "Soutenir que « Permettre un jugement et une action malgré l’incertitude » est la condition de possibilité de « Examiner motifs et effets pour juger moralement », et non seulement son effet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "application": "La reconnaissance de notre faillibilité rend nécessaire une prudence active.",
+          "gain": "Transforme l’incertitude en raison de délibérer.",
+          "cost": "La prudence ne garantit ni l’issue ni la certitude demandée.",
+          "rest": "Quand faut-il agir sans attendre davantage de preuves ?",
+          "verdict": "admissible sous condition",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
         },
         {
           "name": "métamorphose",
-          "application": "Redéfinir la notion centrale de « Peut-on être certain d’avoir bien agi ? » pour conserver les deux exigences sans les juxtaposer.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "application": "Transformer la certitude absolue en justification responsable et révisable.",
+          "gain": "Maintient l’exigence de rendre raison d’un choix.",
+          "cost": "La transformation peut éluder la question littérale de la certitude.",
+          "rest": "La justification rétrospective prouve-t-elle qu’on a bien agi ?",
+          "verdict": "admissible sous condition",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
         },
         {
           "name": "déplacement",
-          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "application": "Déplacer le jugement de la qualité de l’acte vers la responsabilité de l’agent.",
+          "gain": "Permet de répondre des conséquences même imprévues.",
+          "cost": "Une responsabilité assumée ne garantit pas un acte juste.",
+          "rest": "Un acte fautif devient-il bon parce qu’on en assume les effets ?",
+          "verdict": "insuffisante seule",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
         },
         {
           "name": "suspension épistémique",
-          "application": "Limiter la prétention à savoir si « Examiner motifs et effets pour juger moralement » et « Permettre un jugement et une action malgré l’incertitude » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "application": "Suspendre tout verdict sur un acte tant que ses conséquences ne sont pas toutes connues.",
+          "gain": "Évite un jugement prématuré.",
+          "cost": "La connaissance exhaustive est impossible et l’action ne peut attendre.",
+          "rest": "Quand la décision devient-elle justifiable malgré l’incertitude ?",
+          "verdict": "insuffisante seule",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
         },
         {
           "name": "consentement",
-          "application": "Assumer que « Examiner motifs et effets pour juger moralement » et « Permettre un jugement et une action malgré l’incertitude » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "application": "Accepter l’absence de certitude tout en agissant selon les meilleures raisons disponibles.",
+          "gain": "Préserve l’action et l’humilité.",
+          "cost": "L’acceptation ne fournit pas seule de critères pour distinguer choix prudent et arbitraire.",
+          "rest": "Quelles raisons suffisent pour rendre une action justifiée ?",
+          "verdict": "admissible sous condition",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
         }
       ],
       "evaluation": {
-        "fidelity": "non certifiée indépendamment",
-        "operation": "à tester",
-        "cost": "à comparer",
-        "rest": "à mettre à l’épreuve",
-        "best": "indéterminée",
-        "rewrite": "aucune avant décision motivée"
+        "fidelity": "La solution actuelle préserve les deux exigences explicites.",
+        "operation": "La distinction des exigences est pertinente, mais les opérations concurrentes ont été testées.",
+        "cost": "Le coût propre de la résolution retenue est identifié dans la confrontation.",
+        "rest": "Le reste vise la condition d'application et ne nie pas automatiquement la réponse.",
+        "best": "Solution actuelle provisoirement préférée, mais sans preuve de dominance sur toute combinaison.",
+        "rewrite": "Pas de remplacement décidé ; renforcer la justification des critères si nécessaire."
       }
     },
     "2026-g1-nature-besoin": {
@@ -2031,84 +2031,84 @@
       "eightFamilies": [
         {
           "name": "duplication ontologique",
-          "application": "Distinguer le plan où « Respecter l’exactitude et le jugement d’autrui » et celui où « Respecter les droits et les effets de la divulgation » s'appliquent, puis établir leur unité.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "application": "Distinguer vérité d’une proposition, devoir de ne pas mentir et devoir de révéler.",
+          "gain": "Préserve l’exactitude et les droits des personnes concernées.",
+          "cost": "Il faut justifier les cas où le silence devient complicité.",
+          "rest": "Quand le secret protège-t-il une injustice plutôt qu’une personne ?",
+          "verdict": "admissible",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
         },
         {
           "name": "abolition partielle/totale",
-          "application": "Abandonner ou limiter l'exigence « Respecter l’exactitude et le jugement d’autrui » pour préserver « Respecter les droits et les effets de la divulgation » : vérifier si le sujet survit à ce sacrifice.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "application": "Abolir toute obligation de révéler une vérité au nom du droit au secret.",
+          "gain": "Protège la confidentialité.",
+          "cost": "Peut sacrifier le devoir d’alerter face à un danger.",
+          "rest": "Peut-on garder un secret qui expose autrui à un tort grave ?",
+          "verdict": "insuffisante seule",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
         },
         {
           "name": "processualisation",
-          "application": "Faire de « Respecter l’exactitude et le jugement d’autrui » et « Respecter les droits et les effets de la divulgation » deux moments d'un processus dont il faut expliquer le mécanisme.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "application": "Organiser une divulgation graduée selon la gravité et l’urgence du tort.",
+          "gain": "Articule vérité et protection dans le temps.",
+          "cost": "Le délai peut rendre la protection impossible.",
+          "rest": "À quel moment attendre devient-il une faute ?",
+          "verdict": "admissible sous condition",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
         },
         {
           "name": "inversion d’indexation",
-          "application": "Soutenir que « Respecter les droits et les effets de la divulgation » est la condition de possibilité de « Respecter l’exactitude et le jugement d’autrui », et non seulement son effet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "application": "Le respect d’autrui, qui semble interdire une révélation blessante, peut exiger de l’informer pour qu’il décide.",
+          "gain": "Relie autonomie et information véridique.",
+          "cost": "N’établit pas que toute information concerne légitimement celui qui la reçoit.",
+          "rest": "Quel intérêt à savoir donne un droit à la révélation ?",
+          "verdict": "admissible sous condition",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
         },
         {
           "name": "métamorphose",
-          "application": "Redéfinir la notion centrale de « Toute vérité est-elle bonne à dire ? » pour conserver les deux exigences sans les juxtaposer.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "application": "Transformer le devoir de tout dire en obligation de véracité et de discernement.",
+          "gain": "Préserve la vérité sans imposer la divulgation universelle.",
+          "cost": "Le discernement exige un critère de priorité entre confidentialité et protection.",
+          "rest": "Quand rompre une confiance légitime pour protéger une personne ?",
+          "verdict": "admissible",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
         },
         {
           "name": "déplacement",
-          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "application": "Déplacer la difficulté vers la manière de communiquer une vérité.",
+          "gain": "Explique le rôle du tact.",
+          "cost": "Le tact ne rend pas légitime une divulgation injuste.",
+          "rest": "Comment choisir ce qui doit être dit avant de choisir comment le dire ?",
+          "verdict": "insuffisante seule",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
         },
         {
           "name": "suspension épistémique",
-          "application": "Limiter la prétention à savoir si « Respecter l’exactitude et le jugement d’autrui » et « Respecter les droits et les effets de la divulgation » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "application": "Suspendre la révélation tant que les effets ne sont pas connus.",
+          "gain": "Évite des dommages irréversibles.",
+          "cost": "L’inaction peut laisser se produire le danger connu.",
+          "rest": "Quand le silence devient-il plus dommageable que la parole ?",
+          "verdict": "insuffisante seule",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
         },
         {
           "name": "consentement",
-          "application": "Assumer que « Respecter l’exactitude et le jugement d’autrui » et « Respecter les droits et les effets de la divulgation » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "application": "Accepter que dire une vérité nécessaire puisse blesser.",
+          "gain": "Reconnaît les conflits tragiques.",
+          "cost": "N’explique pas quelles vérités sont nécessaires.",
+          "rest": "Qui peut décider qu’une douleur est moralement justifiée ?",
+          "verdict": "admissible sous condition",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
         }
       ],
       "evaluation": {
-        "fidelity": "non certifiée indépendamment",
-        "operation": "à tester",
-        "cost": "à comparer",
-        "rest": "à mettre à l’épreuve",
-        "best": "indéterminée",
-        "rewrite": "aucune avant décision motivée"
+        "fidelity": "La solution actuelle préserve les deux exigences explicites.",
+        "operation": "La distinction des exigences est pertinente, mais les opérations concurrentes ont été testées.",
+        "cost": "Le coût propre de la résolution retenue est identifié dans la confrontation.",
+        "rest": "Le reste vise la condition d'application et ne nie pas automatiquement la réponse.",
+        "best": "Solution actuelle provisoirement préférée, mais sans preuve de dominance sur toute combinaison.",
+        "rewrite": "Pas de remplacement décidé ; renforcer la justification des critères si nécessaire."
       }
     },
     "2025-me-verite": {
@@ -2487,8 +2487,8 @@
   "progress": {
     "familiesAppliedToAll": 20,
     "applications": 160,
-    "fullyEvaluated": 1,
-    "remainingToEvaluate": 19,
-    "note": "Les 152 applications nouvelles sont des tests initiaux, non des solutions validées. Elles doivent être particularisées, justifiées, et confrontées à leur coût et leur reste."
+    "fullyEvaluated": 4,
+    "remainingToEvaluate": 16,
+    "note": "Quatre dossiers (engagement, science utile, bien agir, vérité bonne à dire) comportent une comparaison argumentée des huit familles ; seize autres sont encore des hypothèses non évaluées."
   }
 }
