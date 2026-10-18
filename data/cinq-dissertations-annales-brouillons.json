@@ -1,0 +1,642 @@
+{
+  "version": 1,
+  "meta": {
+    "2024-an-rien-dure": {
+      "subject": "Comment être heureux, si rien ne dure ?",
+      "session": "2024 Amérique du Nord",
+      "source": "https://www.education.gouv.fr/sites/default/files/document/Baccalaur%C3%A9at%20g%C3%A9n%C3%A9ral%202024%20-%20Philosophie%20-%20Am%C3%A9rique%20du%20Nord-401733.pdf",
+      "status": "premier jet à auditer",
+      "citations": "aucune citation directe non vérifiée",
+      "functions": "une annotation par phrase"
+    },
+    "2024-an-parler-sans-savoir": {
+      "subject": "Peut-on parler sans savoir ?",
+      "session": "2024 Amérique du Nord",
+      "source": "https://www.education.gouv.fr/sites/default/files/document/Baccalaur%C3%A9at%20g%C3%A9n%C3%A9ral%202024%20-%20Philosophie%20-%20Am%C3%A9rique%20du%20Nord-401733.pdf",
+      "status": "premier jet à auditer",
+      "citations": "aucune citation directe non vérifiée",
+      "functions": "une annotation par phrase"
+    },
+    "2025-g1-douter-raison": {
+      "subject": "Peut-on douter des pouvoirs de la raison ?",
+      "session": "2025 bac général",
+      "source": "https://www.education.gouv.fr/sites/default/files/2025-06/baccalaur-at-g-n-ral-2025-philosophie--440727.pdf",
+      "status": "premier jet à auditer",
+      "citations": "aucune citation directe non vérifiée",
+      "functions": "une annotation par phrase"
+    },
+    "2025-g1-art-voir": {
+      "subject": "L’art peut-il nous apprendre à voir le monde autrement ?",
+      "session": "2025 bac général",
+      "source": "https://www.education.gouv.fr/sites/default/files/2025-06/baccalaur-at-g-n-ral-2025-philosophie--440727.pdf",
+      "status": "premier jet à auditer",
+      "citations": "aucune citation directe non vérifiée",
+      "functions": "une annotation par phrase"
+    },
+    "2023-me-paix-justice": {
+      "subject": "Vouloir la paix, est-ce vouloir la justice ?",
+      "session": "2023 Métropole · général",
+      "source": "https://www.cours-thales.fr/wp-content/uploads/2023/08/sujet_philo_2023_CoursThales.pdf",
+      "status": "premier jet à auditer",
+      "citations": "aucune citation directe non vérifiée",
+      "functions": "une annotation par phrase"
+    }
+  },
+  "copies": {
+    "2024-an-rien-dure": [
+      [
+        "INTRODUCTION",
+        [
+          [
+            "Un enfant construit un château de sable que la marée effacera, mais la joie de construire n’en est pas moins réelle.",
+            "Scène qui contient la difficulté"
+          ],
+          [
+            "Cette joie passagère suffit-elle à faire une vie heureuse ?",
+            "Interpréter la scène"
+          ],
+          [
+            "Le bonheur suppose une satisfaction que nous puissions reconnaître dans notre existence, tandis que tout ce à quoi nous tenons change.",
+            "Préciser les notions"
+          ],
+          [
+            "Si la durée est indispensable, rien ne nous satisfait ; si seul l’instant compte, qu’est-ce qui distingue bonheur et plaisir fugitif ?",
+            "Formuler le problème"
+          ],
+          [
+            "Il faut éprouver le besoin de stabilité, la valeur de l’instant et la possibilité d’une continuité changeante.",
+            "Annoncer le mouvement"
+          ]
+        ]
+      ],
+      [
+        "I. INSTALLER LA PREMIÈRE RÉPONSE",
+        [
+          [
+            "Le bonheur paraît exiger la stabilité, sans laquelle la crainte de perdre trouble toute joie.",
+            "I.1 Installer"
+          ],
+          [
+            "Celui qui surveille constamment la fin d’une amitié ne jouit plus de sa présence.",
+            "I.1 Éprouver par un exemple"
+          ],
+          [
+            "Épicure recherche une tranquillité durable plutôt qu’une excitation toujours à renouveler.",
+            "I.2 Renforcer"
+          ],
+          [
+            "Mais attendre une sécurité absolue condamne le bonheur humain à l’impossibilité.",
+            "I.3 Faire apparaître la limite"
+          ],
+          [
+            "Si une joie ne doit pas durer toujours, qu’est-ce qui lui donne pourtant une place dans une vie ?",
+            "Transition I → II : question nécessaire, sans répéter la limite"
+          ]
+        ]
+      ],
+      [
+        "II. ÉPROUVER LA RÉPONSE CONTRAIRE",
+        [
+          [
+            "Une joie peut être pleine sans promettre de se répéter.",
+            "II.1 Répondre précisément à la transition"
+          ],
+          [
+            "Une rencontre vaut par ce qui s’y accomplit, non par son éternité.",
+            "II.2 Justifier"
+          ],
+          [
+            "La conscience de sa fin peut même nous rendre plus attentifs à elle.",
+            "II.2 Approfondir"
+          ],
+          [
+            "Pourtant, une succession de plaisirs sans mémoire ne compose pas une vie que nous puissions approuver.",
+            "II.3 Faire apparaître la limite"
+          ],
+          [
+            "Comment des joies passagères peuvent-elles former une existence plutôt qu’une simple succession ?",
+            "Transition II → III : question qui exige une nouvelle résolution"
+          ]
+        ]
+      ],
+      [
+        "III. RÉSOUDRE SANS EFFACER",
+        [
+          [
+            "La continuité d’une vie ne suppose pas que ses circonstances demeurent identiques.",
+            "III.1 Reprendre les deux acquis et répondre à la transition"
+          ],
+          [
+            "Une vie peut garder son orientation à travers des activités et des liens qui se transforment.",
+            "III.2 Opération résolutoire"
+          ],
+          [
+            "Une amitié change sans nécessairement perdre la confiance qui la constitue.",
+            "III.2 Mettre l’opération à l’épreuve"
+          ],
+          [
+            "Le bonheur peut ainsi résider dans une fidélité vivante plutôt que dans l’immobilité des choses.",
+            "III.3 Stabiliser la réponse"
+          ],
+          [
+            "Reste que certaines pertes détruisent les liens mêmes qui donnaient à la vie sa continuité.",
+            "III.3 Identifier le reste"
+          ]
+        ]
+      ],
+      [
+        "CONCLUSION",
+        [
+          [
+            "Rien ne dure à l’identique, mais le bonheur peut accompagner une continuité qui se transforme.",
+            "Réponse au sujet"
+          ],
+          [
+            "La joie du château de sable n’exigeait pas son éternité.",
+            "Retour à la scène"
+          ],
+          [
+            "Quand une perte brise cette continuité, comment retrouver un sens sans nier ce qui a disparu ?",
+            "Question née du reste"
+          ]
+        ]
+      ]
+    ],
+    "2024-an-parler-sans-savoir": [
+      [
+        "INTRODUCTION",
+        [
+          [
+            "Un témoin décrit un accident, puis reconnaît qu’il en ignore la cause.",
+            "Scène qui contient la difficulté"
+          ],
+          [
+            "Son aveu d’ignorance rend son témoignage plus précis, au lieu de le réduire au silence.",
+            "Interpréter la scène"
+          ],
+          [
+            "Parler consiste à s’adresser à autrui ; savoir exige des raisons qui établissent ce que l’on affirme.",
+            "Préciser les notions"
+          ],
+          [
+            "Si parler sans savoir revient à tromper, comment poser des questions et apprendre sans parler d’abord ?",
+            "Formuler le problème"
+          ],
+          [
+            "Nous chercherons comment l’exigence de preuve et la liberté de chercher peuvent s’accorder.",
+            "Annoncer le mouvement"
+          ]
+        ]
+      ],
+      [
+        "I. INSTALLER LA PREMIÈRE RÉPONSE",
+        [
+          [
+            "Affirmer quelque chose invite autrui à le croire : la parole engage notre responsabilité.",
+            "I.1 Installer"
+          ],
+          [
+            "Une rumeur répétée sans preuve peut détruire une réputation.",
+            "I.1 Éprouver par un exemple"
+          ],
+          [
+            "Socrate demande de rendre raison des opinions au lieu de les présenter comme des connaissances.",
+            "I.2 Renforcer"
+          ],
+          [
+            "Mais exiger de savoir avant toute parole rendrait impossibles les questions et les hypothèses.",
+            "I.3 Faire apparaître la limite"
+          ],
+          [
+            "Quelle parole permet de chercher sans feindre de savoir ?",
+            "Transition I → II : question nécessaire, sans répéter la limite"
+          ]
+        ]
+      ],
+      [
+        "II. ÉPROUVER LA RÉPONSE CONTRAIRE",
+        [
+          [
+            "Interroger, c’est reconnaître ce qu’on ignore et demander qu’on l’examine.",
+            "II.1 Répondre précisément à la transition"
+          ],
+          [
+            "Une hypothèse partagée permet d’examiner une possibilité sans la tenir pour établie.",
+            "II.2 Justifier"
+          ],
+          [
+            "Le dialogue corrige ainsi des idées que personne ne possédait entièrement au départ.",
+            "II.2 Approfondir"
+          ],
+          [
+            "Mais une accusation déguisée en question peut blesser autant qu’une affirmation.",
+            "II.3 Faire apparaître la limite"
+          ],
+          [
+            "Comment garder la liberté de chercher sans dispenser la parole de répondre de ses effets ?",
+            "Transition II → III : question qui exige une nouvelle résolution"
+          ]
+        ]
+      ],
+      [
+        "III. RÉSOUDRE SANS EFFACER",
+        [
+          [
+            "La liberté de chercher exige aussi une parole qui indique exactement ce qu’elle sait.",
+            "III.1 Reprendre les deux acquis et répondre à la transition"
+          ],
+          [
+            "La parole responsable distingue le constat, l’hypothèse et l’ignorance : son assurance doit suivre ses preuves.",
+            "III.2 Opération résolutoire"
+          ],
+          [
+            "Le témoin peut rapporter ce qu’il a vu sans prétendre connaître la cause.",
+            "III.2 Mettre l’opération à l’épreuve"
+          ],
+          [
+            "On peut donc parler sans savoir à condition de rendre explicites les limites de ce que l’on dit.",
+            "III.3 Stabiliser la réponse"
+          ],
+          [
+            "Reste qu’une hypothèse prudente peut être reçue comme une accusation certaine.",
+            "III.3 Identifier le reste"
+          ]
+        ]
+      ],
+      [
+        "CONCLUSION",
+        [
+          [
+            "On peut parler sans savoir, mais non faire passer son ignorance pour une connaissance.",
+            "Réponse au sujet"
+          ],
+          [
+            "Le bon témoin distingue observation et interprétation.",
+            "Retour à la scène"
+          ],
+          [
+            "Quand une parole prudente est mal comprise, jusqu’où répondons-nous de ses effets ?",
+            "Question née du reste"
+          ]
+        ]
+      ]
+    ],
+    "2025-g1-douter-raison": [
+      [
+        "INTRODUCTION",
+        [
+          [
+            "Un calcul semble garantir la solidité d’un pont, mais une hypothèse fausse peut ruiner sa conclusion.",
+            "Scène qui contient la difficulté"
+          ],
+          [
+            "La raison capable de démontrer est aussi capable de découvrir son erreur.",
+            "Interpréter la scène"
+          ],
+          [
+            "Douter de ses pouvoirs peut signifier les nier ou examiner jusqu’où ils portent.",
+            "Préciser les notions"
+          ],
+          [
+            "Comment critiquer la raison sans employer précisément la raison que l’on met en doute ?",
+            "Formuler le problème"
+          ],
+          [
+            "Nous examinerons sa force, ses limites et le sens d’une critique rationnelle.",
+            "Annoncer le mouvement"
+          ]
+        ]
+      ],
+      [
+        "I. INSTALLER LA PREMIÈRE RÉPONSE",
+        [
+          [
+            "La raison distingue une démonstration d’une simple impression.",
+            "I.1 Installer"
+          ],
+          [
+            "Une preuve géométrique vaut par ses raisons, non par l’autorité de son auteur.",
+            "I.1 Éprouver par un exemple"
+          ],
+          [
+            "Descartes fait de l’examen méthodique un moyen de refuser les opinions mal fondées.",
+            "I.2 Renforcer"
+          ],
+          [
+            "Mais un raisonnement valide peut partir de prémisses fausses.",
+            "I.3 Faire apparaître la limite"
+          ],
+          [
+            "Qu’est-ce qui permet de vérifier les principes dont dépend une démonstration ?",
+            "Transition I → II : question nécessaire, sans répéter la limite"
+          ]
+        ]
+      ],
+      [
+        "II. ÉPROUVER LA RÉPONSE CONTRAIRE",
+        [
+          [
+            "Une démonstration doit aussi répondre de ses prémisses et de son domaine d’application.",
+            "II.1 Répondre précisément à la transition"
+          ],
+          [
+            "Kant limite la connaissance aux objets dont nous pouvons faire l’expérience.",
+            "II.2 Justifier"
+          ],
+          [
+            "La raison se trompe lorsqu’elle prétend connaître ce qui échappe à ces conditions.",
+            "II.2 Approfondir"
+          ],
+          [
+            "Mais suspecter tout raisonnement ruinerait aussi les arguments par lesquels on établit ses limites.",
+            "II.3 Faire apparaître la limite"
+          ],
+          [
+            "Quel contrôle de la raison reste possible sans supposer qu’elle est infaillible ?",
+            "Transition II → III : question qui exige une nouvelle résolution"
+          ]
+        ]
+      ],
+      [
+        "III. RÉSOUDRE SANS EFFACER",
+        [
+          [
+            "La raison peut examiner ses propres procédures sans se prétendre infaillible.",
+            "III.1 Reprendre les deux acquis et répondre à la transition"
+          ],
+          [
+            "La raison exerce son pouvoir lorsqu’elle vérifie ses prémisses et délimite la portée de ses conclusions.",
+            "III.2 Opération résolutoire"
+          ],
+          [
+            "Corriger le calcul du pont ne rend pas le calcul inutile : cela exige des hypothèses explicites.",
+            "III.2 Mettre l’opération à l’épreuve"
+          ],
+          [
+            "Nous pouvons donc douter des prétentions excessives de la raison sans récuser toute rationalité.",
+            "III.3 Stabiliser la réponse"
+          ],
+          [
+            "Reste à justifier les critères mêmes qui permettent à la raison de se contrôler.",
+            "III.3 Identifier le reste"
+          ]
+        ]
+      ],
+      [
+        "CONCLUSION",
+        [
+          [
+            "Le doute est légitime quand il mesure les pouvoirs de la raison ; leur négation totale le rendrait injustifiable.",
+            "Réponse au sujet"
+          ],
+          [
+            "La sécurité du pont exige une vérification des hypothèses plutôt qu’une confiance aveugle.",
+            "Retour à la scène"
+          ],
+          [
+            "Comment la raison peut-elle établir la valeur de ses propres critères sans cercle ?",
+            "Question née du reste"
+          ]
+        ]
+      ]
+    ],
+    "2025-g1-art-voir": [
+      [
+        "INTRODUCTION",
+        [
+          [
+            "Une peinture d’une rue familière fait remarquer à un passant une lumière qu’il négligeait.",
+            "Scène qui contient la difficulté"
+          ],
+          [
+            "L’œuvre n’a pas changé la rue, mais elle a changé son regard.",
+            "Interpréter la scène"
+          ],
+          [
+            "Apprendre suppose une capacité nouvelle ; voir autrement n’est pas nécessairement recevoir une information.",
+            "Préciser les notions"
+          ],
+          [
+            "Si l’art invente librement des formes, comment pourrait-il nous apprendre quelque chose du monde ?",
+            "Formuler le problème"
+          ],
+          [
+            "Il faut examiner ce qu’il révèle, les risques de l’invention et l’éducation du regard.",
+            "Annoncer le mouvement"
+          ]
+        ]
+      ],
+      [
+        "I. INSTALLER LA PREMIÈRE RÉPONSE",
+        [
+          [
+            "Nos habitudes pratiques laissent inaperçus des aspects du réel.",
+            "I.1 Installer"
+          ],
+          [
+            "Une peinture isole un reflet ou un geste que nous n’aurions pas remarqué.",
+            "I.1 Éprouver par un exemple"
+          ],
+          [
+            "Bergson souligne que l’art peut nous détourner de la perception ordonnée à l’utilité.",
+            "I.2 Renforcer"
+          ],
+          [
+            "Mais l’artiste transforme aussi les choses et peut représenter ce qui n’existe pas.",
+            "I.3 Faire apparaître la limite"
+          ],
+          [
+            "Comment distinguer une révélation du réel d’une déformation inventée ?",
+            "Transition I → II : question nécessaire, sans répéter la limite"
+          ]
+        ]
+      ],
+      [
+        "II. ÉPROUVER LA RÉPONSE CONTRAIRE",
+        [
+          [
+            "Une œuvre inventée ne constitue pas une preuve de ce qu’elle représente.",
+            "II.1 Répondre précisément à la transition"
+          ],
+          [
+            "Une caricature exagère des traits pour exprimer un jugement.",
+            "II.2 Justifier"
+          ],
+          [
+            "Confondre cette invention avec un constat ferait perdre la distinction entre expression et connaissance.",
+            "II.2 Approfondir"
+          ],
+          [
+            "Pourtant, apprendre à discerner des nuances n’exige pas de recevoir une proposition démontrée.",
+            "II.3 Faire apparaître la limite"
+          ],
+          [
+            "Si l’œuvre ne prouve rien, quelle capacité peut-elle néanmoins former ?",
+            "Transition II → III : question qui exige une nouvelle résolution"
+          ]
+        ]
+      ],
+      [
+        "III. RÉSOUDRE SANS EFFACER",
+        [
+          [
+            "L’œuvre peut exercer notre attention sans fournir une vérité à réciter.",
+            "III.1 Reprendre les deux acquis et répondre à la transition"
+          ],
+          [
+            "L’art peut former une capacité de percevoir, non imposer une description définitive des objets.",
+            "III.2 Opération résolutoire"
+          ],
+          [
+            "Après une peinture, le passant peut remarquer des variations de lumière que l’œuvre ne reproduisait pas exactement.",
+            "III.2 Mettre l’opération à l’épreuve"
+          ],
+          [
+            "Son enseignement tient alors à l’exercice du regard, non à l’autorité d’une image.",
+            "III.3 Stabiliser la réponse"
+          ],
+          [
+            "Reste que toutes les œuvres ne transforment pas notre perception, et qu’un regard nouveau peut aussi être trompeur.",
+            "III.3 Identifier le reste"
+          ]
+        ]
+      ],
+      [
+        "CONCLUSION",
+        [
+          [
+            "L’art peut nous apprendre à voir autrement en exerçant notre attention sans devenir une science des objets.",
+            "Réponse au sujet"
+          ],
+          [
+            "La rue n’avait pas changé : le passant avait appris à mieux regarder.",
+            "Retour à la scène"
+          ],
+          [
+            "Comment distinguer un regard enrichi d’une déformation séduisante ?",
+            "Question née du reste"
+          ]
+        ]
+      ]
+    ],
+    "2023-me-paix-justice": [
+      [
+        "INTRODUCTION",
+        [
+          [
+            "Deux voisins cessent de se disputer lorsque l’un renonce à réclamer ce qui lui appartient.",
+            "Scène qui contient la difficulté"
+          ],
+          [
+            "Le calme est revenu, mais le tort n’a pas disparu.",
+            "Interpréter la scène"
+          ],
+          [
+            "La paix désigne l’absence de conflit ouvert ; la justice exige que chacun soit traité selon ses droits.",
+            "Préciser les notions"
+          ],
+          [
+            "Si la paix exige parfois de renoncer à réclamer justice, peut-elle pourtant durer lorsque l’injustice demeure ?",
+            "Formuler le problème"
+          ],
+          [
+            "Nous examinerons l’ordre pacifié, le conflit juste et les conditions d’une paix qui ne dissimule pas le tort.",
+            "Annoncer le mouvement"
+          ]
+        ]
+      ],
+      [
+        "I. INSTALLER LA PREMIÈRE RÉPONSE",
+        [
+          [
+            "La justice semble réclamer la paix : sans règle commune, les droits dépendent de la force.",
+            "I.1 Installer"
+          ],
+          [
+            "Une procédure impartiale évite que chacun se fasse justice lui-même.",
+            "I.1 Éprouver par un exemple"
+          ],
+          [
+            "Hobbes montre pourquoi sortir de la guerre de tous contre tous exige une autorité commune.",
+            "I.2 Renforcer"
+          ],
+          [
+            "Mais une autorité peut imposer le silence aux victimes et appeler cela la paix.",
+            "I.3 Faire apparaître la limite"
+          ],
+          [
+            "Quand l’ordre protège une injustice, que vaut le conflit qui le conteste ?",
+            "Transition I → II : question nécessaire, sans répéter la limite"
+          ]
+        ]
+      ],
+      [
+        "II. ÉPROUVER LA RÉPONSE CONTRAIRE",
+        [
+          [
+            "Contester un ordre injuste peut être nécessaire même si la paix apparente en est troublée.",
+            "II.1 Répondre précisément à la transition"
+          ],
+          [
+            "Une protestation contre la ségrégation trouble l’ordre sans être injuste.",
+            "II.2 Justifier"
+          ],
+          [
+            "Le conflit peut donc révéler une injustice que le silence protégeait.",
+            "II.2 Approfondir"
+          ],
+          [
+            "Mais si toute partie prétend défendre le juste par la force, la violence risque de détruire les droits qu’elle invoque.",
+            "II.3 Faire apparaître la limite"
+          ],
+          [
+            "Quelle forme de contestation peut défendre les droits sans détruire les conditions de leur protection ?",
+            "Transition II → III : question qui exige une nouvelle résolution"
+          ]
+        ]
+      ],
+      [
+        "III. RÉSOUDRE SANS EFFACER",
+        [
+          [
+            "Une paix juste doit rendre la contestation possible sans livrer les droits à la violence.",
+            "III.1 Reprendre les deux acquis et répondre à la transition"
+          ],
+          [
+            "Une paix juste doit ménager des voies publiques où les torts puissent être dénoncés et corrigés.",
+            "III.2 Opération résolutoire"
+          ],
+          [
+            "Une médiation équitable ne demande pas à la victime d’oublier son droit, mais oblige chacun à répondre de ses actes.",
+            "III.2 Mettre l’opération à l’épreuve"
+          ],
+          [
+            "Vouloir la paix devient alors vouloir des institutions capables de traiter les conflits sans supprimer les revendications légitimes.",
+            "III.3 Stabiliser la réponse"
+          ],
+          [
+            "Reste le cas où les institutions refusent tout recours à ceux qu’elles oppriment.",
+            "III.3 Identifier le reste"
+          ]
+        ]
+      ],
+      [
+        "CONCLUSION",
+        [
+          [
+            "Vouloir une paix digne de ce nom, c’est vouloir une justice capable de régler les conflits sans les nier.",
+            "Réponse au sujet"
+          ],
+          [
+            "Le silence des voisins ne suffisait pas tant que le droit de l’un restait méconnu.",
+            "Retour à la scène"
+          ],
+          [
+            "Quand toute voie de recours est fermée, à quelles conditions la résistance préserve-t-elle la paix qu’elle trouble ?",
+            "Question née du reste"
+          ]
+        ]
+      ]
+    ]
+  }
+}
