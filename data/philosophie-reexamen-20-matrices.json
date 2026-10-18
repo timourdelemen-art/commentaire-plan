@@ -125,6 +125,14 @@
         "rest": "Le reste de chaque opération est formulé comme objection propre.",
         "best": "La solution actuelle reste plausible ; classement final non démontré.",
         "rewrite": "Aucune modification de la copie sans arbitrage comparatif final."
+      },
+      "secondPass": {
+        "candidateCombination": "duplication ontologique + métamorphose",
+        "preliminaryStrength": "forte",
+        "decisiveTest": "Le contrôle du pouvoir doit être indépendant et opérant, non une simple possibilité légale.",
+        "nextComparison": "Comparer avec une processualisation qui traite la réforme bloquée.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
       }
     },
     "2026-ag-humanite-religion": {
@@ -249,6 +257,14 @@
         "rest": "Le reste de chaque opération est formulé comme objection propre.",
         "best": "La solution actuelle reste plausible ; classement final non démontré.",
         "rewrite": "Aucune modification de la copie sans arbitrage comparatif final."
+      },
+      "secondPass": {
+        "candidateCombination": "duplication ontologique + déplacement",
+        "preliminaryStrength": "forte",
+        "decisiveTest": "Le passage des fonctions religieuses aux institutions séculières ne garantit pas l'adhésion commune.",
+        "nextComparison": "Tester une processualisation historique sans confondre possibilité et prédiction.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
       }
     },
     "2026-an-artiste-sait": {
@@ -373,6 +389,14 @@
         "rest": "Le reste de chaque opération est formulé comme objection propre.",
         "best": "La solution actuelle reste plausible ; classement final non démontré.",
         "rewrite": "Aucune modification de la copie sans arbitrage comparatif final."
+      },
+      "secondPass": {
+        "candidateCombination": "processualisation + métamorphose",
+        "preliminaryStrength": "forte",
+        "decisiveTest": "Le jugement créateur doit être distingué de la simple rationalisation après coup.",
+        "nextComparison": "Comparer un modèle de savoir-faire explicite et un discernement tacite.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
       }
     },
     "2026-an-science-utile": {
@@ -497,6 +521,14 @@
         "rest": "Le reste vise la condition d'application et ne nie pas automatiquement la réponse.",
         "best": "Solution actuelle provisoirement préférée, mais sans preuve de dominance sur toute combinaison.",
         "rewrite": "Pas de remplacement décidé ; renforcer la justification des critères si nécessaire."
+      },
+      "secondPass": {
+        "candidateCombination": "duplication ontologique + métamorphose",
+        "preliminaryStrength": "forte",
+        "decisiveTest": "La responsabilité pendant la recherche ne peut présupposer la prévisibilité des risques.",
+        "nextComparison": "Mettre en concurrence une gouvernance évolutive et des interdits de moyens.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
       }
     },
     "2026-asie-inconscient-bonheur": {
@@ -621,6 +653,14 @@
         "rest": "Le reste de chaque opération est formulé comme objection propre.",
         "best": "La solution actuelle reste plausible ; classement final non démontré.",
         "rewrite": "Aucune modification de la copie sans arbitrage comparatif final."
+      },
+      "secondPass": {
+        "candidateCombination": "duplication ontologique + métamorphose",
+        "preliminaryStrength": "à préciser",
+        "decisiveTest": "La lucidité peut réduire une crainte imaginaire sans garantir le bonheur devant un mal réel.",
+        "nextComparison": "Distinguer la question de la nécessité de l'inconscience de celle de la suffisance de la lucidité.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
       }
     },
     "2026-asie-langage": {
@@ -745,6 +785,14 @@
         "rest": "Le reste de chaque opération est formulé comme objection propre.",
         "best": "La solution actuelle reste plausible ; classement final non démontré.",
         "rewrite": "Aucune modification de la copie sans arbitrage comparatif final."
+      },
+      "secondPass": {
+        "candidateCombination": "processualisation + inversion d’indexation",
+        "preliminaryStrength": "forte",
+        "decisiveTest": "L'innovation linguistique requiert une réception collective qui échappe à l'individu.",
+        "nextComparison": "Comparer la liberté individuelle d'inventer et la capacité collective de faire reconnaître.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
       }
     },
     "2026-g1-bien-agir": {
@@ -869,6 +917,14 @@
         "rest": "Le reste vise la condition d'application et ne nie pas automatiquement la réponse.",
         "best": "Solution actuelle provisoirement préférée, mais sans preuve de dominance sur toute combinaison.",
         "rewrite": "Pas de remplacement décidé ; renforcer la justification des critères si nécessaire."
+      },
+      "secondPass": {
+        "candidateCombination": "suspension épistémique + métamorphose",
+        "preliminaryStrength": "à préciser",
+        "decisiveTest": "La substitution de la justification à la certitude ne doit pas masquer une réponse négative à la question littérale.",
+        "nextComparison": "Distinguer certitude de l'acte au moment d'agir et évaluation rétrospective.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
       }
     },
     "2026-g1-nature-besoin": {
@@ -993,6 +1049,14 @@
         "rest": "Le reste de chaque opération est formulé comme objection propre.",
         "best": "La solution actuelle reste plausible ; classement final non démontré.",
         "rewrite": "Aucune modification de la copie sans arbitrage comparatif final."
+      },
+      "secondPass": {
+        "candidateCombination": "duplication ontologique + métamorphose",
+        "preliminaryStrength": "forte",
+        "decisiveTest": "L'autonomie des milieux n'est pas un critère suffisant pour arbitrer les conflits entre vivants.",
+        "nextComparison": "Confronter autonomie, réparation des dommages et non-intervention.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
       }
     },
     "2026-me-bonheur-autres": {
@@ -1117,6 +1181,14 @@
         "rest": "Le reste de chaque opération est formulé comme objection propre.",
         "best": "La solution actuelle reste plausible ; classement final non démontré.",
         "rewrite": "Aucune modification de la copie sans arbitrage comparatif final."
+      },
+      "secondPass": {
+        "candidateCombination": "duplication ontologique + processualisation",
+        "preliminaryStrength": "à préciser",
+        "decisiveTest": "La compassion n'efface pas la possibilité d'un bonheur matériellement fondé sur l'injustice.",
+        "nextComparison": "Faire intervenir la distinction entre malheur d'autrui et profit tiré de ce malheur.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
       }
     },
     "2026-me-paroles": {
@@ -1241,6 +1313,14 @@
         "rest": "Le reste de chaque opération est formulé comme objection propre.",
         "best": "La solution actuelle reste plausible ; classement final non démontré.",
         "rewrite": "Aucune modification de la copie sans arbitrage comparatif final."
+      },
+      "secondPass": {
+        "candidateCombination": "duplication ontologique + processualisation",
+        "preliminaryStrength": "forte",
+        "decisiveTest": "La possibilité de corriger ne répare pas nécessairement un effet irréversible.",
+        "nextComparison": "Comparer responsabilité préventive et correction dialogique.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
       }
     },
     "notion-inconscient": {
@@ -1365,6 +1445,14 @@
         "rest": "Chaque famille possède une objection résiduelle propre.",
         "best": "Solution actuelle plausible, non démontrée absolument supérieure à toute combinaison.",
         "rewrite": "Aucune réécriture décidée sans audit de la copie et des références."
+      },
+      "secondPass": {
+        "candidateCombination": "duplication ontologique + métamorphose",
+        "preliminaryStrength": "forte",
+        "decisiveTest": "L'opacité des causes exige des critères d'imputation distincts de la simple conscience de soi.",
+        "nextComparison": "Comparer imputabilité, réparation et devoir de connaissance de soi.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
       }
     },
     "notion-liberte": {
@@ -1489,6 +1577,14 @@
         "rest": "Le conflit entre changement profond de soi et obligation encore légitime atteint la portée de la réponse sans l'annuler.",
         "best": "La solution actuelle est provisoirement préférée à la duplication et à l'inversion seules ; la comparaison avec une métamorphose articulée reste ouverte.",
         "rewrite": "Conserver provisoirement la III ; préciser le critère de rupture plutôt que substituer une matrice non démontrée."
+      },
+      "secondPass": {
+        "candidateCombination": "processualisation + métamorphose",
+        "preliminaryStrength": "forte",
+        "decisiveTest": "La fidélité renouvelée ne doit pas effacer l'obligation due à autrui.",
+        "nextComparison": "Confronter une autonomie diachronique à une fidélité toujours révocable.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
       }
     },
     "notion-raison": {
@@ -1613,6 +1709,14 @@
         "rest": "Chaque famille possède une objection résiduelle propre.",
         "best": "Solution actuelle plausible, non démontrée absolument supérieure à toute combinaison.",
         "rewrite": "Aucune réécriture décidée sans audit de la copie et des références."
+      },
+      "secondPass": {
+        "candidateCombination": "duplication ontologique + processualisation",
+        "preliminaryStrength": "forte",
+        "decisiveTest": "La preuve accessible ne garantit pas l'adhésion ; convaincre ne doit pas être redéfini comme exposer.",
+        "nextComparison": "Comparer compréhension, assentiment et persuasion.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
       }
     },
     "notion-technique": {
@@ -1737,6 +1841,14 @@
         "rest": "Chaque famille possède une objection résiduelle propre.",
         "best": "Solution actuelle plausible, non démontrée absolument supérieure à toute combinaison.",
         "rewrite": "Aucune réécriture décidée sans audit de la copie et des références."
+      },
+      "secondPass": {
+        "candidateCombination": "métamorphose + inversion d’indexation",
+        "preliminaryStrength": "forte",
+        "decisiveTest": "Le jugement sur les risques ne peut exiger une sécurité absolue.",
+        "nextComparison": "Comparer responsabilité des moyens, précaution et bénéfice de l'inaction.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
       }
     },
     "notion-temps": {
@@ -1861,6 +1973,14 @@
         "rest": "Chaque famille possède une objection résiduelle propre.",
         "best": "Solution actuelle plausible, non démontrée absolument supérieure à toute combinaison.",
         "rewrite": "Aucune réécriture décidée sans audit de la copie et des références."
+      },
+      "secondPass": {
+        "candidateCombination": "processualisation + duplication ontologique",
+        "preliminaryStrength": "à préciser",
+        "decisiveTest": "Le temps n'est pas destructeur dans tous ses effets, mais la nouveauté ne compense pas une perte singulière.",
+        "nextComparison": "Ne pas confondre possibilité de création et nécessité de toute destruction.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
       }
     },
     "notion-travail": {
@@ -1985,6 +2105,14 @@
         "rest": "Chaque famille possède une objection résiduelle propre.",
         "best": "Solution actuelle plausible, non démontrée absolument supérieure à toute combinaison.",
         "rewrite": "Aucune réécriture décidée sans audit de la copie et des références."
+      },
+      "secondPass": {
+        "candidateCombination": "métamorphose + processualisation",
+        "preliminaryStrength": "forte",
+        "decisiveTest": "Une organisation formatrice n'élimine pas toutes les tâches pénibles.",
+        "nextComparison": "Comparer formation des capacités, reconnaissance et répartition des contraintes.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
       }
     },
     "notion-verite": {
@@ -2109,6 +2237,14 @@
         "rest": "Le reste vise la condition d'application et ne nie pas automatiquement la réponse.",
         "best": "Solution actuelle provisoirement préférée, mais sans preuve de dominance sur toute combinaison.",
         "rewrite": "Pas de remplacement décidé ; renforcer la justification des critères si nécessaire."
+      },
+      "secondPass": {
+        "candidateCombination": "duplication ontologique + métamorphose",
+        "preliminaryStrength": "forte",
+        "decisiveTest": "La véracité ne suffit pas à trancher entre confidentialité et devoir d'alerte.",
+        "nextComparison": "Comparer silence, mensonge et révélation proportionnée.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
       }
     },
     "2025-me-verite": {
@@ -2233,6 +2369,14 @@
         "rest": "Chaque famille possède une objection résiduelle propre.",
         "best": "Solution actuelle plausible, non démontrée absolument supérieure à toute combinaison.",
         "rewrite": "Aucune réécriture décidée sans audit de la copie et des références."
+      },
+      "secondPass": {
+        "candidateCombination": "duplication ontologique + processualisation",
+        "preliminaryStrength": "forte",
+        "decisiveTest": "Une vérité comprise peut encore être refusée ; le sens de convaincre doit rester strict.",
+        "nextComparison": "Comparer preuve, compréhension et adhésion.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
       }
     },
     "2025-me-avenir-technique": {
@@ -2357,6 +2501,14 @@
         "rest": "Chaque famille possède une objection résiduelle propre.",
         "best": "Solution actuelle plausible, non démontrée absolument supérieure à toute combinaison.",
         "rewrite": "Aucune réécriture décidée sans audit de la copie et des références."
+      },
+      "secondPass": {
+        "candidateCombination": "inversion d’indexation + processualisation",
+        "preliminaryStrength": "forte",
+        "decisiveTest": "La révision démocratique ne répare pas toutes les dépendances irréversibles.",
+        "nextComparison": "Comparer contrôle ex ante et adaptation ex post.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
       }
     },
     "2025-me-besoin-art": {
@@ -2481,14 +2633,23 @@
         "rest": "Chaque famille possède une objection résiduelle propre.",
         "best": "Solution actuelle plausible, non démontrée absolument supérieure à toute combinaison.",
         "rewrite": "Aucune réécriture décidée sans audit de la copie et des références."
+      },
+      "secondPass": {
+        "candidateCombination": "duplication ontologique + métamorphose",
+        "preliminaryStrength": "à préciser",
+        "decisiveTest": "Définir le besoin comme capacité d'expression ne suffit pas à établir la spécificité de l'art.",
+        "nextComparison": "Comparer la forme artistique aux pratiques non artistiques qui satisfont des besoins voisins.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
       }
     }
   },
   "progress": {
     "familiesAppliedToAll": 20,
     "applications": 160,
-    "fullyEvaluated": 20,
-    "remainingToEvaluate": 0,
-    "note": "Les 160 applications possèdent un premier jugement de gain/coût/reste. L'audit comparatif final, la validation des citations, le classement de combinaisons et les réécritures ne sont PAS terminés."
+    "firstPassEvaluated": 20,
+    "secondPassDiagnostic": 20,
+    "finalSelections": 0,
+    "notes": "Second passage de diagnostic des combinaisons et points de réfutation. Il ne démontre pas la meilleure résolution. Les copies et exercices n'ont pas été réécrits."
   }
 }
