@@ -41,6 +41,7 @@ function model(s,m) {
   let previousSection='';
   return `<article><h3>${esc(m.title)}</h3>${technological?`<p class="ecrire-declaration">Option n° ${esc(m.option)}</p>`:''}
 <p class="micro">${words(m)} mots · ${sentences(m)} phrases, chacune avec sa fonction${technological?' · hors indication de l’option':''}. Modèle original du site visant l’excellence ; la note dépend de l’évaluation globale de la copie.</p>
+${!technological?'<p class="ecrire-note"><strong>Comment lire ce corrigé :</strong> les titres en couleur vous aident à comprendre les étapes du raisonnement. Ne les recopiez pas dans votre copie : ils servent uniquement à vous repérer. Les phrases du devoir sont à gauche ; leur fonction est indiquée à droite.</p>':''}
 <div class="ecrire-copy c20">${m.paragraphs.map(([label,text,note,phrases],i)=>{const section=(m.paragraphSections||[])[i]|| (label?`${label} · ${s.officialQuestions.find(q=>q[0]===label)?.[1]||''}`:(i===0?'Introduction':i===m.paragraphs.length-1?'Conclusion':''));const heading=section&&section!==previousSection?`<h4 class="c20-h c20-section-heading">${esc(section)}</h4>`:'';if(section)previousSection=section;return `<div class="c20-block">${heading}${phrases.map(([sentence,role])=>`<p class="c20-s"><span class="c20-t" data-model-text>${esc(sentence)}</span><span class="c20-f">${esc(role)}</span></p>`).join('')}</div>`}).join('')}</div></article>`;
 }
 function page(s) {
