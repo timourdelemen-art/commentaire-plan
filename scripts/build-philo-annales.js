@@ -111,9 +111,6 @@ const listHtml=`<!--annales-2026:start-->
 <h3 class="annales-group">Dissertations</h3>
 <div class="annales-static-links">
 ${all.filter(o=>o.x.type==='dissertation').map(card).join('\n')}
-</div>
-<h3 class="annales-group">Autres dissertations corrigées</h3>
-<div class="annales-static-links">
 <a href="philosophie-dissertation-2024-an-rien-dure.html"><strong>Comment être heureux, si rien ne dure ?</strong><span>Dissertation annotée · lire le sujet →</span></a>
 <a href="philosophie-dissertation-2024-an-parler-sans-savoir.html"><strong>Peut-on parler sans savoir ?</strong><span>Dissertation annotée · lire le sujet →</span></a>
 <a href="philosophie-dissertation-2025-g1-douter-raison.html"><strong>Peut-on douter des pouvoirs de la raison ?</strong><span>Dissertation annotée · lire le sujet →</span></a>
