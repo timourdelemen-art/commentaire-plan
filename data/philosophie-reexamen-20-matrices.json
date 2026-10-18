@@ -1059,52 +1059,84 @@
       "eightFamilies": [
         {
           "name": "duplication ontologique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Distinguer liberté de décider et liberté de répondre durablement de ses actes : les deux peuvent coexister sur des plans différents.",
+          "gain": "Préserve choix et obligation en distinguant leurs objets.",
+          "cost": "Il faut démontrer que les deux libertés appartiennent à un même sujet plutôt que de juxtaposer des définitions.",
+          "rest": "Lorsqu’une promesse ancienne contredit un choix présent, quel plan doit prévaloir ?",
+          "verdict": "admissible",
+          "review": "analyse comparative initiale, non preuve d'optimalité absolue"
         },
         {
           "name": "abolition partielle/totale",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Supprimer la prétention qu’une promesse oblige après tout changement de volonté, ou abolir l’engagement au profit de la seule spontanéité.",
+          "gain": "Rend immédiatement possible la révision des décisions.",
+          "cost": "Détruit ou affaiblit l’obligation envers celui qui s’est fié à la parole donnée.",
+          "rest": "Pourquoi autrui devrait-il faire confiance à une promesse toujours révocable ?",
+          "verdict": "écartée comme résolution complète",
+          "review": "analyse comparative initiale, non preuve d'optimalité absolue"
         },
         {
           "name": "processualisation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Comprendre la promesse comme une fidélité qui se maintient par des actes réfléchis et peut se réviser pour des raisons justifiables.",
+          "gain": "Articule décision initiale, durée et liberté présente.",
+          "cost": "La réappropriation ne suffit pas à établir ce qui est dû à autrui : il faut une norme de justification.",
+          "rest": "Quand la personne change mais que l’obligation demeure légitime, jusqu’où doit aller la fidélité ?",
+          "verdict": "admissible",
+          "review": "analyse comparative initiale, non preuve d'optimalité absolue"
         },
         {
           "name": "inversion d’indexation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "La promesse ne limiterait pas une liberté déjà constituée : elle serait une condition de la capacité à se gouverner dans le temps.",
+          "gain": "Explique que certaines contraintes librement assumées augmentent l’autonomie.",
+          "cost": "Risque de valoriser toute constance sans distinguer engagement juste et servitude.",
+          "rest": "Une fidélité à une cause injuste accroît-elle encore la liberté ?",
+          "verdict": "admissible sous condition",
+          "review": "analyse comparative initiale, non preuve d'optimalité absolue"
         },
         {
           "name": "métamorphose",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Transformer la liberté de pure disponibilité en pouvoir d’assumer des obligations, sans supprimer la possibilité de les juger.",
+          "gain": "Redéfinit la liberté pour y inclure la responsabilité.",
+          "cost": "La redéfinition risque de rendre la liberté indiscernable de la vertu de fidélité.",
+          "rest": "Une rupture justifiée reste-t-elle libre si la fidélité définit la liberté ?",
+          "verdict": "admissible sous condition",
+          "review": "analyse comparative initiale, non preuve d'optimalité absolue"
         },
         {
           "name": "déplacement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Déplacer la difficulté de la liberté individuelle vers le droit d’autrui à compter sur la promesse.",
+          "gain": "Rend visible une dimension relationnelle négligée.",
+          "cost": "Ne résout pas à lui seul le conflit entre ce droit et la liberté présente du promettant.",
+          "rest": "Qui arbitre entre les deux exigences lorsque les raisons de rompre sont fortes ?",
+          "verdict": "insuffisante seule",
+          "review": "analyse comparative initiale, non preuve d'optimalité absolue"
         },
         {
           "name": "suspension épistémique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Soutenir qu’aucune règle générale ne permet de savoir d’avance si un engagement sera libérateur ou aliénant.",
+          "gain": "Respecte la singularité des circonstances.",
+          "cost": "Évite la décision normative demandée par le sujet et risque de remplacer une réponse par l’incertitude.",
+          "rest": "Quels critères permettent malgré tout de juger un engagement concret ?",
+          "verdict": "insuffisante seule",
+          "review": "analyse comparative initiale, non preuve d'optimalité absolue"
         },
         {
           "name": "consentement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Admettre qu’une promesse libre crée une tension irréductible entre le passé qui oblige et le présent qui peut juger.",
+          "gain": "Ne gomme ni l’obligation ni la possibilité de rupture.",
+          "cost": "Si l’on se contente d’accepter la tension, on n’explique pas comment décider.",
+          "rest": "À quelles conditions la fidélité ou la rupture est-elle justifiable ?",
+          "verdict": "admissible sous condition",
+          "review": "analyse comparative initiale, non preuve d'optimalité absolue"
         }
       ],
       "evaluation": {
-        "fidelity": "non certifiée indépendamment",
-        "operation": "à tester",
-        "cost": "à comparer",
-        "rest": "à mettre à l’épreuve",
-        "best": "indéterminée",
-        "rewrite": "aucune avant décision motivée"
+        "fidelity": "La solution retenue conserve explicitement les deux exigences.",
+        "operation": "Processualisation corrigée par une justification relationnelle de l'obligation ; métamorphose partielle possible.",
+        "cost": "L'obligation envers autrui exige une norme de révision qui ne se réduit pas au consentement présent.",
+        "rest": "Le conflit entre changement profond de soi et obligation encore légitime atteint la portée de la réponse sans l'annuler.",
+        "best": "La solution actuelle est provisoirement préférée à la duplication et à l'inversion seules ; la comparaison avec une métamorphose articulée reste ouverte.",
+        "rewrite": "Conserver provisoirement la III ; préciser le critère de rupture plutôt que substituer une matrice non démontrée."
       }
     },
     "notion-raison": {
@@ -1843,5 +1875,10 @@
         "rewrite": "aucune avant décision motivée"
       }
     }
+  },
+  "progress": {
+    "fullyApplied": 1,
+    "total": 20,
+    "note": "Une analyse détaillée ne vaut pas audit achevé des dix-neuf autres sujets."
   }
 }
