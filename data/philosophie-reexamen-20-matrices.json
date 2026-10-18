@@ -48,83 +48,83 @@
         {
           "name": "duplication ontologique",
           "application": "Distinguer le plan où « Garantir des droits par une force commune » et celui où « Permettre la critique de cette force » s'appliquent, puis établir leur unité.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Sépare garantie institutionnelle et jugement critique sans abandonner l'un ni l'autre.",
+          "cost": "Il faut montrer que les institutions de contrôle ne sont pas elles-mêmes capturées.",
+          "rest": "Que faire si tous les organes de contrôle dépendent du pouvoir ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "abolition partielle/totale",
           "application": "Abandonner ou limiter l'exigence « Garantir des droits par une force commune » pour préserver « Permettre la critique de cette force » : vérifier si le sujet survit à ce sacrifice.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Sauve l'indépendance du jugement citoyen.",
+          "cost": "Sans force commune, les droits peuvent rester sans effet.",
+          "rest": "Qui protège concrètement les victimes ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "processualisation",
           "application": "Faire de « Garantir des droits par une force commune » et « Permettre la critique de cette force » deux moments d'un processus dont il faut expliquer le mécanisme.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Fait de la contestation un moteur de correction des lois.",
+          "cost": "La réforme peut être bloquée ou intervenir trop tard.",
+          "rest": "Comment agir quand la contestation légale est interdite ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "inversion d’indexation",
           "application": "Soutenir que « Permettre la critique de cette force » est la condition de possibilité de « Garantir des droits par une force commune », et non seulement son effet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Montre que la critique rend la force publique plus légitime.",
+          "cost": "La légitimité ne produit pas d'elle-même une capacité d'exécution.",
+          "rest": "Une critique sans force peut-elle protéger ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "métamorphose",
           "application": "Redéfinir la notion centrale de « Revient-il principalement à l’État de lutter contre l’injustice ? » pour conserver les deux exigences sans les juxtaposer.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Redéfinit la puissance étatique comme force responsable devant les citoyens.",
+          "cost": "Le contrôle doit être indépendant et effectif, non seulement proclamé.",
+          "rest": "Comment empêcher le pouvoir de neutraliser ses contrôleurs ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "déplacement",
           "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Rend visible la pluralité des juges et des voies de recours.",
+          "cost": "Risque de reporter le problème sur des institutions également injustes.",
+          "rest": "Qui contrôle les contrôleurs ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "suspension épistémique",
           "application": "Limiter la prétention à savoir si « Garantir des droits par une force commune » et « Permettre la critique de cette force » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Évite de sanctifier l'État ou la foule.",
+          "cost": "Suspend le jugement là où des injustices exigent une réponse.",
+          "rest": "Qui agit lorsqu'il faut protéger immédiatement ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "consentement",
           "application": "Assumer que « Garantir des droits par une force commune » et « Permettre la critique de cette force » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Reconnaît qu'aucune autorité n'échappe définitivement à la critique.",
+          "cost": "Sans procédures, le conflit peut devenir impuissant.",
+          "rest": "Comment maintenir la contestation sans dissoudre l'ordre commun ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         }
       ],
       "evaluation": {
-        "fidelity": "non certifiée indépendamment",
-        "operation": "à tester",
-        "cost": "à comparer",
-        "rest": "à mettre à l’épreuve",
-        "best": "indéterminée",
-        "rewrite": "aucune avant décision motivée"
+        "fidelity": "Les deux exigences sont explicitées ; conservation par la solution actuelle à vérifier au-delà de sa déclaration.",
+        "operation": "Huit opérations confrontées, avec plusieurs concurrentes sérieuses.",
+        "cost": "Le coût de chaque opération est explicité.",
+        "rest": "Le reste de chaque opération est formulé comme objection propre.",
+        "best": "La solution actuelle reste plausible ; classement final non démontré.",
+        "rewrite": "Aucune modification de la copie sans arbitrage comparatif final."
       }
     },
     "2026-ag-humanite-religion": {
@@ -172,83 +172,83 @@
         {
           "name": "duplication ontologique",
           "application": "Distinguer le plan où « Assurer des liens et des fins communes » et celui où « Conserver l’examen libre des croyances » s'appliquent, puis établir leur unité.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Distingue les fonctions sociales de la religion et sa forme sacrée.",
+          "cost": "La séparation doit expliquer comment naît un lien assez fort sans sacré.",
+          "rest": "Pourquoi ces valeurs communes obligent-elles ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "abolition partielle/totale",
           "application": "Abandonner ou limiter l'exigence « Assurer des liens et des fins communes » pour préserver « Conserver l’examen libre des croyances » : vérifier si le sujet survit à ce sacrifice.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Libère les consciences d'une obligation religieuse.",
+          "cost": "Risque de détruire les rites et liens qu'il fallait conserver.",
+          "rest": "Qu'est-ce qui rassemble durablement les individus ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "processualisation",
           "application": "Faire de « Assurer des liens et des fins communes » et « Conserver l’examen libre des croyances » deux moments d'un processus dont il faut expliquer le mécanisme.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Explique comment des institutions séculières peuvent reprendre des fonctions de solidarité.",
+          "cost": "L'histoire ne garantit pas que la transformation réussisse partout.",
+          "rest": "Une solidarité civile peut-elle résister aux crises ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "inversion d’indexation",
           "application": "Soutenir que « Conserver l’examen libre des croyances » est la condition de possibilité de « Assurer des liens et des fins communes », et non seulement son effet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Fait de la liberté de conscience une condition du pluralisme.",
+          "cost": "Ne garantit pas une adhésion à des fins communes.",
+          "rest": "Qu'est-ce qui fonde l'obligation mutuelle ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "métamorphose",
           "application": "Redéfinir la notion centrale de « Peut-on concevoir une humanité sans religion ? » pour conserver les deux exigences sans les juxtaposer.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Transforme la communauté religieuse en communauté civique.",
+          "cost": "Risque de renommer religion tout idéal collectif.",
+          "rest": "Le civique devient-il une religion sans le dire ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "déplacement",
           "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Conserve des principes communs sans révélation.",
+          "cost": "Le droit seul peut manquer d'épaisseur affective.",
+          "rest": "Comment faire vivre une solidarité au-delà des règles ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "suspension épistémique",
           "application": "Limiter la prétention à savoir si « Assurer des liens et des fins communes » et « Conserver l’examen libre des croyances » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Évite de prédire l'avenir de toutes les sociétés.",
+          "cost": "Le sujet demande une possibilité pensable, pas une prophétie.",
+          "rest": "Peut-on concevoir une communauté cohérente sans religion ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "consentement",
           "application": "Assumer que « Assurer des liens et des fins communes » et « Conserver l’examen libre des croyances » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Reconnaît le besoin de liens et le droit à la critique.",
+          "cost": "La tension acceptée ne construit aucune institution commune.",
+          "rest": "Comment empêcher les convictions de devenir dogmes ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         }
       ],
       "evaluation": {
-        "fidelity": "non certifiée indépendamment",
-        "operation": "à tester",
-        "cost": "à comparer",
-        "rest": "à mettre à l’épreuve",
-        "best": "indéterminée",
-        "rewrite": "aucune avant décision motivée"
+        "fidelity": "Les deux exigences sont explicitées ; conservation par la solution actuelle à vérifier au-delà de sa déclaration.",
+        "operation": "Huit opérations confrontées, avec plusieurs concurrentes sérieuses.",
+        "cost": "Le coût de chaque opération est explicité.",
+        "rest": "Le reste de chaque opération est formulé comme objection propre.",
+        "best": "La solution actuelle reste plausible ; classement final non démontré.",
+        "rewrite": "Aucune modification de la copie sans arbitrage comparatif final."
       }
     },
     "2026-an-artiste-sait": {
@@ -296,83 +296,83 @@
         {
           "name": "duplication ontologique",
           "application": "Distinguer le plan où « Reconnaître le savoir et les choix de l’artiste » et celui où « Préserver l’invention imprévisible » s'appliquent, puis établir leur unité.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Distingue savoir-faire et prévision de la signification finale.",
+          "cost": "Peut juxtaposer deux savoirs sans expliquer leur articulation.",
+          "rest": "Comment le geste répond-il à l'inattendu ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "abolition partielle/totale",
           "application": "Abandonner ou limiter l'exigence « Reconnaître le savoir et les choix de l’artiste » pour préserver « Préserver l’invention imprévisible » : vérifier si le sujet survit à ce sacrifice.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Reconnaît la part imprévue de l'œuvre.",
+          "cost": "Efface la compétence et le jugement de l'artiste.",
+          "rest": "Pourquoi parler encore d'un travail maîtrisé ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "processualisation",
           "application": "Faire de « Reconnaître le savoir et les choix de l’artiste » et « Préserver l’invention imprévisible » deux moments d'un processus dont il faut expliquer le mécanisme.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Fait émerger le savoir dans les corrections successives de l'œuvre.",
+          "cost": "Il faut expliquer les critères du jugement en cours de création.",
+          "rest": "Comment savoir qu'une découverte sert l'œuvre ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "inversion d’indexation",
           "application": "Soutenir que « Préserver l’invention imprévisible » est la condition de possibilité de « Reconnaître le savoir et les choix de l’artiste », et non seulement son effet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "L'inattendu peut accroître la capacité de choisir.",
+          "cost": "N'explique pas pourquoi l'artiste sait ce qu'il fait initialement.",
+          "rest": "Toute surprise est-elle féconde ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "métamorphose",
           "application": "Redéfinir la notion centrale de « L’artiste sait-il ce qu’il fait ? » pour conserver les deux exigences sans les juxtaposer.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Transforme le savoir de plan préalable en discernement pratique.",
+          "cost": "Le discernement peut rester tacite et difficile à vérifier.",
+          "rest": "Comment distinguer un jugement artistique d'un goût arbitraire ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "déplacement",
           "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Rappelle que le sens de l'œuvre dépend aussi de sa réception.",
+          "cost": "Déplace la question du savoir de l'artiste vers celui du public.",
+          "rest": "L'artiste ne sait-il rien de ce qu'il produit ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "suspension épistémique",
           "application": "Limiter la prétention à savoir si « Reconnaître le savoir et les choix de l’artiste » et « Préserver l’invention imprévisible » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Reconnaît l'imprévisibilité des interprétations futures.",
+          "cost": "Ne rend pas compte du savoir effectif dans le travail.",
+          "rest": "Que sait l'artiste au moment de créer ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "consentement",
           "application": "Assumer que « Reconnaître le savoir et les choix de l’artiste » et « Préserver l’invention imprévisible » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Maintient la tension entre maîtrise et surprise.",
+          "cost": "N'indique pas comment cette tension devient une pratique intelligible.",
+          "rest": "Qu'est-ce qui oriente la création ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         }
       ],
       "evaluation": {
-        "fidelity": "non certifiée indépendamment",
-        "operation": "à tester",
-        "cost": "à comparer",
-        "rest": "à mettre à l’épreuve",
-        "best": "indéterminée",
-        "rewrite": "aucune avant décision motivée"
+        "fidelity": "Les deux exigences sont explicitées ; conservation par la solution actuelle à vérifier au-delà de sa déclaration.",
+        "operation": "Huit opérations confrontées, avec plusieurs concurrentes sérieuses.",
+        "cost": "Le coût de chaque opération est explicité.",
+        "rest": "Le reste de chaque opération est formulé comme objection propre.",
+        "best": "La solution actuelle reste plausible ; classement final non démontré.",
+        "rewrite": "Aucune modification de la copie sans arbitrage comparatif final."
       }
     },
     "2026-an-science-utile": {
@@ -544,83 +544,83 @@
         {
           "name": "duplication ontologique",
           "application": "Distinguer le plan où « Préserver une paix possible » et celui où « Pouvoir reconnaître et affronter les dangers » s'appliquent, puis établir leur unité.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Distingue ignorance et capacité de ne pas s'obséder.",
+          "cost": "La lucidité ne suffit pas toujours à apaiser une douleur réelle.",
+          "rest": "Peut-on être lucide et malheureux malgré soi ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "abolition partielle/totale",
           "application": "Abandonner ou limiter l'exigence « Préserver une paix possible » pour préserver « Pouvoir reconnaître et affronter les dangers » : vérifier si le sujet survit à ce sacrifice.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Supprime les connaissances douloureuses.",
+          "cost": "Sacrifie la capacité d'affronter les dangers.",
+          "rest": "Une paix fondée sur l'erreur est-elle durable ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "processualisation",
           "application": "Faire de « Préserver une paix possible » et « Pouvoir reconnaître et affronter les dangers » deux moments d'un processus dont il faut expliquer le mécanisme.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Transforme la peur par l'enquête et l'action.",
+          "cost": "Certains maux sont irréversibles ou incontrôlables.",
+          "rest": "Que faire lorsque comprendre ne permet pas d'agir ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "inversion d’indexation",
           "application": "Soutenir que « Pouvoir reconnaître et affronter les dangers » est la condition de possibilité de « Préserver une paix possible », et non seulement son effet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "La connaissance d'un danger permet de le réduire.",
+          "cost": "L'inversion ne vaut pas pour les pertes irréparables.",
+          "rest": "Pourquoi la lucidité ne protège-t-elle pas de tout malheur ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "métamorphose",
           "application": "Redéfinir la notion centrale de « Faut-il être inconscient pour être heureux ? » pour conserver les deux exigences sans les juxtaposer.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Redéfinit le bonheur comme paix lucide plutôt qu'insouciance.",
+          "cost": "Peut exclure de la notion de bonheur des joies réellement insouciantes.",
+          "rest": "Faut-il toujours être lucide pour être heureux ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "déplacement",
           "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Introduit la relation et l'aide comme source de bonheur.",
+          "cost": "Ne résout pas la difficulté entre conscience et douleur personnelle.",
+          "rest": "La solidarité console-t-elle de toute souffrance ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "suspension épistémique",
           "application": "Limiter la prétention à savoir si « Préserver une paix possible » et « Pouvoir reconnaître et affronter les dangers » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Évite d'affirmer que la conscience garantit le bonheur.",
+          "cost": "Ne tranche pas la nécessité de l'inconscience.",
+          "rest": "Quel rapport demeure entre lucidité et bonheur ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "consentement",
           "application": "Assumer que « Préserver une paix possible » et « Pouvoir reconnaître et affronter les dangers » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Accepte qu'une vie heureuse comporte des douleurs.",
+          "cost": "Risque de définir le bonheur de manière trop accommodante.",
+          "rest": "Quelle souffrance rend la joie impossible ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         }
       ],
       "evaluation": {
-        "fidelity": "non certifiée indépendamment",
-        "operation": "à tester",
-        "cost": "à comparer",
-        "rest": "à mettre à l’épreuve",
-        "best": "indéterminée",
-        "rewrite": "aucune avant décision motivée"
+        "fidelity": "Les deux exigences sont explicitées ; conservation par la solution actuelle à vérifier au-delà de sa déclaration.",
+        "operation": "Huit opérations confrontées, avec plusieurs concurrentes sérieuses.",
+        "cost": "Le coût de chaque opération est explicité.",
+        "rest": "Le reste de chaque opération est formulé comme objection propre.",
+        "best": "La solution actuelle reste plausible ; classement final non démontré.",
+        "rewrite": "Aucune modification de la copie sans arbitrage comparatif final."
       }
     },
     "2026-asie-langage": {
@@ -668,83 +668,83 @@
         {
           "name": "duplication ontologique",
           "application": "Distinguer le plan où « Reconnaître une langue héritée et commune » et celui où « Expliquer la critique et l’invention dans cette langue » s'appliquent, puis établir leur unité.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Distingue langue héritée et capacité d'en transformer les usages.",
+          "cost": "La transformation dépend de conventions déjà partagées.",
+          "rest": "Comment communiquer une expérience sans mots reconnus ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "abolition partielle/totale",
           "application": "Abandonner ou limiter l'exigence « Reconnaître une langue héritée et commune » pour préserver « Expliquer la critique et l’invention dans cette langue » : vérifier si le sujet survit à ce sacrifice.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Supprime les catégories linguistiques contraignantes.",
+          "cost": "Détruit le support commun de l'expression.",
+          "rest": "Comment parler sans signes communs ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "processualisation",
           "application": "Faire de « Reconnaître une langue héritée et commune » et « Expliquer la critique et l’invention dans cette langue » deux moments d'un processus dont il faut expliquer le mécanisme.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Explique la liberté par la critique et l'invention au sein de la langue.",
+          "cost": "Le changement peut être lent ou inaccessible à certains locuteurs.",
+          "rest": "Qui peut faire accepter des mots nouveaux ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "inversion d’indexation",
           "application": "Soutenir que « Expliquer la critique et l’invention dans cette langue » est la condition de possibilité de « Reconnaître une langue héritée et commune », et non seulement son effet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Les contraintes communes rendent possible leur contestation publique.",
+          "cost": "N'explique pas toutes les inégalités d'accès à la parole.",
+          "rest": "Tout locuteur peut-il modifier sa langue ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "métamorphose",
           "application": "Redéfinir la notion centrale de « Sommes-nous prisonniers du langage ? » pour conserver les deux exigences sans les juxtaposer.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Transforme le langage de cadre reçu en instrument d'invention.",
+          "cost": "Peut sous-estimer la résistance des habitudes.",
+          "rest": "Une invention incomprise libère-t-elle ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "déplacement",
           "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Fait place aux gestes et à l'expérience non verbale.",
+          "cost": "Ne répond pas à l'emprise des mots sur la pensée articulée.",
+          "rest": "Peut-on critiquer un discours sans discours ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "suspension épistémique",
           "application": "Limiter la prétention à savoir si « Reconnaître une langue héritée et commune » et « Expliquer la critique et l’invention dans cette langue » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Refuse de conclure sur une pensée absolument hors langage.",
+          "cost": "L'ignorance de cette possibilité ne répond pas à l'emprisonnement vécu.",
+          "rest": "Comment se libérer d'une catégorie reçue ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "consentement",
           "application": "Assumer que « Reconnaître une langue héritée et commune » et « Expliquer la critique et l’invention dans cette langue » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Reconnaît que toute formulation ouvre et ferme des possibles.",
+          "cost": "Sans pratique de transformation, la tension demeure statique.",
+          "rest": "Comment agir sur cette limite ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         }
       ],
       "evaluation": {
-        "fidelity": "non certifiée indépendamment",
-        "operation": "à tester",
-        "cost": "à comparer",
-        "rest": "à mettre à l’épreuve",
-        "best": "indéterminée",
-        "rewrite": "aucune avant décision motivée"
+        "fidelity": "Les deux exigences sont explicitées ; conservation par la solution actuelle à vérifier au-delà de sa déclaration.",
+        "operation": "Huit opérations confrontées, avec plusieurs concurrentes sérieuses.",
+        "cost": "Le coût de chaque opération est explicité.",
+        "rest": "Le reste de chaque opération est formulé comme objection propre.",
+        "best": "La solution actuelle reste plausible ; classement final non démontré.",
+        "rewrite": "Aucune modification de la copie sans arbitrage comparatif final."
       }
     },
     "2026-g1-bien-agir": {
@@ -916,83 +916,83 @@
         {
           "name": "duplication ontologique",
           "application": "Distinguer le plan où « Préserver les capacités propres des êtres naturels » et celui où « Assumer les dommages dont notre action est responsable » s'appliquent, puis établir leur unité.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Distingue nature globale et écosystèmes dépendants de réparations humaines.",
+          "cost": "La distinction exige de définir le bien propre des milieux.",
+          "rest": "Quelle autonomie protéger lorsque les espèces sont en conflit ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "abolition partielle/totale",
           "application": "Abandonner ou limiter l'exigence « Préserver les capacités propres des êtres naturels » pour préserver « Assumer les dommages dont notre action est responsable » : vérifier si le sujet survit à ce sacrifice.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Écarte tout besoin attribué à la nature.",
+          "cost": "Risque de nier des dépendances créées par nos dommages.",
+          "rest": "Pourquoi réparer un milieu détruit par l'homme ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "processualisation",
           "application": "Faire de « Préserver les capacités propres des êtres naturels » et « Assumer les dommages dont notre action est responsable » deux moments d'un processus dont il faut expliquer le mécanisme.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Conçoit la restauration comme retour progressif d'une autonomie écologique.",
+          "cost": "L'intervention peut fabriquer un nouvel équilibre artificiel.",
+          "rest": "Quand faut-il cesser d'intervenir ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "inversion d’indexation",
           "application": "Soutenir que « Assumer les dommages dont notre action est responsable » est la condition de possibilité de « Préserver les capacités propres des êtres naturels », et non seulement son effet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Notre responsabilité naît des dépendances que nous avons causées.",
+          "cost": "Ne donne pas de critère entre intérêts naturels divergents.",
+          "rest": "Quelle espèce privilégier ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "métamorphose",
           "application": "Redéfinir la notion centrale de « La nature a-t-elle besoin de nous ? » pour conserver les deux exigences sans les juxtaposer.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Transforme protéger en rendre possible une autonomie.",
+          "cost": "L'autonomie des processus naturels peut contredire la protection d'individus.",
+          "rest": "Que doit-on laisser disparaître ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "déplacement",
           "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Recentre la question sur les besoins humains.",
+          "cost": "Réduit la valeur du vivant à son utilité pour nous.",
+          "rest": "Pourquoi préserver ce qui ne nous sert pas ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "suspension épistémique",
           "application": "Limiter la prétention à savoir si « Préserver les capacités propres des êtres naturels » et « Assumer les dommages dont notre action est responsable » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Évite de projeter une volonté humaine sur la nature.",
+          "cost": "Ne dispense pas de décider face à des dommages connus.",
+          "rest": "Sur quelle base intervenir ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "consentement",
           "application": "Assumer que « Préserver les capacités propres des êtres naturels » et « Assumer les dommages dont notre action est responsable » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Reconnaît que protéger peut exiger de limiter notre action.",
+          "cost": "L'acceptation ne tranche pas les conflits de conservation.",
+          "rest": "Quelle nature voulons-nous protéger ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         }
       ],
       "evaluation": {
-        "fidelity": "non certifiée indépendamment",
-        "operation": "à tester",
-        "cost": "à comparer",
-        "rest": "à mettre à l’épreuve",
-        "best": "indéterminée",
-        "rewrite": "aucune avant décision motivée"
+        "fidelity": "Les deux exigences sont explicitées ; conservation par la solution actuelle à vérifier au-delà de sa déclaration.",
+        "operation": "Huit opérations confrontées, avec plusieurs concurrentes sérieuses.",
+        "cost": "Le coût de chaque opération est explicité.",
+        "rest": "Le reste de chaque opération est formulé comme objection propre.",
+        "best": "La solution actuelle reste plausible ; classement final non démontré.",
+        "rewrite": "Aucune modification de la copie sans arbitrage comparatif final."
       }
     },
     "2026-me-bonheur-autres": {
@@ -1040,83 +1040,83 @@
         {
           "name": "duplication ontologique",
           "application": "Distinguer le plan où « Préserver la possibilité d’une vie heureuse » et celui où « Reconnaître le malheur d’autrui et nos obligations » s'appliquent, puis établir leur unité.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Distingue ressentir de la compassion et souffrir identiquement.",
+          "cost": "N'exclut pas que la joie repose sur une exploitation réelle.",
+          "rest": "Peut-on être heureux grâce au malheur d'autrui ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "abolition partielle/totale",
           "application": "Abandonner ou limiter l'exigence « Préserver la possibilité d’une vie heureuse » pour préserver « Reconnaître le malheur d’autrui et nos obligations » : vérifier si le sujet survit à ce sacrifice.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Interdit toute joie tant qu'un autre souffre.",
+          "cost": "Rend le bonheur pratiquement impossible.",
+          "rest": "L'obligation morale exige-t-elle de souffrir autant ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "processualisation",
           "application": "Faire de « Préserver la possibilité d’une vie heureuse » et « Reconnaître le malheur d’autrui et nos obligations » deux moments d'un processus dont il faut expliquer le mécanisme.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Fait de la joie une ressource pour l'aide et la réparation.",
+          "cost": "Une aide sincère ne compense pas nécessairement un privilège injuste.",
+          "rest": "Quand la solidarité exige-t-elle un sacrifice ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "inversion d’indexation",
           "application": "Soutenir que « Reconnaître le malheur d’autrui et nos obligations » est la condition de possibilité de « Préserver la possibilité d’une vie heureuse », et non seulement son effet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Le souci d'autrui peut rendre le bonheur moins fermé.",
+          "cost": "Ne garantit pas que le bonheur soit moralement justifié.",
+          "rest": "Une joie compatissante peut-elle demeurer injuste ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "métamorphose",
           "application": "Redéfinir la notion centrale de « Peut-on être heureux quand les autres ne le sont pas ? » pour conserver les deux exigences sans les juxtaposer.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Transforme le bonheur isolé en joie solidaire.",
+          "cost": "Risque de refuser toute valeur à une joie solitaire.",
+          "rest": "Toute joie doit-elle se traduire en action ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "déplacement",
           "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Déplace le bonheur vers une justice collective future.",
+          "cost": "Sacrifie la possibilité d'un bonheur présent.",
+          "rest": "Faut-il attendre une société juste pour être heureux ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "suspension épistémique",
           "application": "Limiter la prétention à savoir si « Préserver la possibilité d’une vie heureuse » et « Reconnaître le malheur d’autrui et nos obligations » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Suspend le bonheur tant que le malheur d'autrui est connu.",
+          "cost": "Ne permet plus de répondre à la possibilité posée.",
+          "rest": "Qui peut jamais être heureux ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "consentement",
           "application": "Assumer que « Préserver la possibilité d’une vie heureuse » et « Reconnaître le malheur d’autrui et nos obligations » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Assume une joie consciente de la souffrance d'autrui.",
+          "cost": "Ne distingue pas compassion et complicité.",
+          "rest": "Quand le bonheur devient-il indécent ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         }
       ],
       "evaluation": {
-        "fidelity": "non certifiée indépendamment",
-        "operation": "à tester",
-        "cost": "à comparer",
-        "rest": "à mettre à l’épreuve",
-        "best": "indéterminée",
-        "rewrite": "aucune avant décision motivée"
+        "fidelity": "Les deux exigences sont explicitées ; conservation par la solution actuelle à vérifier au-delà de sa déclaration.",
+        "operation": "Huit opérations confrontées, avec plusieurs concurrentes sérieuses.",
+        "cost": "Le coût de chaque opération est explicité.",
+        "rest": "Le reste de chaque opération est formulé comme objection propre.",
+        "best": "La solution actuelle reste plausible ; classement final non démontré.",
+        "rewrite": "Aucune modification de la copie sans arbitrage comparatif final."
       }
     },
     "2026-me-paroles": {
@@ -1164,83 +1164,83 @@
         {
           "name": "duplication ontologique",
           "application": "Distinguer le plan où « Reconnaître notre pouvoir de formulation » et celui où « Ne pas nier les interprétations et effets qui nous échappent » s'appliquent, puis établir leur unité.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Distingue maîtrise de l'énoncé et maîtrise de la réception.",
+          "cost": "Risque de réduire la maîtrise à une simple intention.",
+          "rest": "Que faire si la parole blesse malgré sa correction ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "abolition partielle/totale",
           "application": "Abandonner ou limiter l'exigence « Reconnaître notre pouvoir de formulation » pour préserver « Ne pas nier les interprétations et effets qui nous échappent » : vérifier si le sujet survit à ce sacrifice.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Renonce à maîtriser les effets de la parole.",
+          "cost": "Peut excuser une formulation négligente.",
+          "rest": "Pourquoi répondre de ses mots ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "processualisation",
           "application": "Faire de « Reconnaître notre pouvoir de formulation » et « Ne pas nier les interprétations et effets qui nous échappent » deux moments d'un processus dont il faut expliquer le mécanisme.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Fait de la clarification un processus de reprises successives.",
+          "cost": "La rectification peut arriver après un dommage irréversible.",
+          "rest": "Que réparer lorsque les mots ont déjà agi ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "inversion d’indexation",
           "application": "Soutenir que « Ne pas nier les interprétations et effets qui nous échappent » est la condition de possibilité de « Reconnaître notre pouvoir de formulation », et non seulement son effet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "L'absence de maîtrise totale oblige à mieux écouter.",
+          "cost": "N'assure pas que l'interlocuteur accepte la correction.",
+          "rest": "La responsabilité suffit-elle à maîtriser ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "métamorphose",
           "application": "Redéfinir la notion centrale de « Avons-nous la maîtrise de nos paroles ? » pour conserver les deux exigences sans les juxtaposer.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Transforme maîtrise totale en responsabilité de clarification.",
+          "cost": "Peut changer le sens de maîtrise au lieu de l'expliquer.",
+          "rest": "Peut-on appeler maîtrise un pouvoir toujours partiel ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "déplacement",
           "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Déplace la maîtrise vers les règles communes de langue.",
+          "cost": "Les conventions n'empêchent pas les interprétations divergentes.",
+          "rest": "Qui fixe le sens d'un énoncé singulier ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "suspension épistémique",
           "application": "Limiter la prétention à savoir si « Reconnaître notre pouvoir de formulation » et « Ne pas nier les interprétations et effets qui nous échappent » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Suspend toute prétention à prévoir la réception.",
+          "cost": "Ne justifie pas de renoncer au soin de formuler.",
+          "rest": "Pourquoi parler avec prudence ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         },
         {
           "name": "consentement",
           "application": "Assumer que « Reconnaître notre pouvoir de formulation » et « Ne pas nier les interprétations et effets qui nous échappent » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
-          "status": "hypothèse initiale à spécifier",
-          "gain": null,
-          "cost": null,
-          "rest": null,
-          "verdict": "non évalué"
+          "gain": "Accepte le risque irréductible de toute parole.",
+          "cost": "N'indique pas comment réduire les malentendus évitables.",
+          "rest": "Quelle responsabilité demeure ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
         }
       ],
       "evaluation": {
-        "fidelity": "non certifiée indépendamment",
-        "operation": "à tester",
-        "cost": "à comparer",
-        "rest": "à mettre à l’épreuve",
-        "best": "indéterminée",
-        "rewrite": "aucune avant décision motivée"
+        "fidelity": "Les deux exigences sont explicitées ; conservation par la solution actuelle à vérifier au-delà de sa déclaration.",
+        "operation": "Huit opérations confrontées, avec plusieurs concurrentes sérieuses.",
+        "cost": "Le coût de chaque opération est explicité.",
+        "rest": "Le reste de chaque opération est formulé comme objection propre.",
+        "best": "La solution actuelle reste plausible ; classement final non démontré.",
+        "rewrite": "Aucune modification de la copie sans arbitrage comparatif final."
       }
     },
     "notion-inconscient": {
@@ -2487,8 +2487,8 @@
   "progress": {
     "familiesAppliedToAll": 20,
     "applications": 160,
-    "fullyEvaluated": 4,
-    "remainingToEvaluate": 16,
-    "note": "Quatre dossiers (engagement, science utile, bien agir, vérité bonne à dire) comportent une comparaison argumentée des huit familles ; seize autres sont encore des hypothèses non évaluées."
+    "fullyEvaluated": 12,
+    "remainingToEvaluate": 8,
+    "note": "Douze dossiers ont une première confrontation argumentée des huit familles ; huit restent à approfondir. Les verdicts ne prouvent pas l'optimalité."
   }
 }
