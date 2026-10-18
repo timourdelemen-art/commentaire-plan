@@ -38,11 +38,10 @@ function area(id, label, rows=5, exam=false) {
 }
 function model(s,m) {
   const technological=s.track==='technologique';
-  const movements=m.superstructure||[...new Set((m.paragraphMovements||[]).filter(x=>x&&x!=='Introduction'&&x!=='Conclusion'))];
+  let previousSection='';
   return `<article><h3>${esc(m.title)}</h3>${technological?`<p class="ecrire-declaration">Option n° ${esc(m.option)}</p>`:''}
 <p class="micro">${words(m)} mots · ${sentences(m)} phrases, chacune avec sa fonction${technological?' · hors indication de l’option':''}. Modèle original du site visant l’excellence ; la note dépend de l’évaluation globale de la copie.</p>
-${movements.length?`<div class="sequence-spec"><p><strong>Superstructure du raisonnement</strong></p><ol>${movements.map(x=>`<li>${esc(x)}</li>`).join('')}</ol></div>`:''}
-<div class="ecrire-copy c20">${m.paragraphs.map(([label,text,note,phrases],i)=>{const movement=(m.paragraphMovements||[])[i];return `<div class="c20-block">${label?`<h4>${esc(label)} · ${esc(s.officialQuestions.find(q=>q[0]===label)[1])}</h4>`:(i===0||i===m.paragraphs.length-1)?`<h4 class="c20-h">${i===0?'Introduction':'Conclusion'}</h4>`:''}${phrases.map(([sentence,role])=>`<p class="c20-s"><span class="c20-t" data-model-text>${esc(sentence)}</span><span class="c20-f">${movement&&movement!=='Introduction'&&movement!=='Conclusion'?`<strong>${esc(movement)}.</strong> `:''}${esc(role)}</span></p>`).join('')}</div>`}).join('')}</div></article>`;
+<div class="ecrire-copy c20">${m.paragraphs.map(([label,text,note,phrases],i)=>{const section=(m.paragraphSections||[])[i]|| (label?`${label} · ${s.officialQuestions.find(q=>q[0]===label)?.[1]||''}`:(i===0?'Introduction':i===m.paragraphs.length-1?'Conclusion':''));const heading=section&&section!==previousSection?`<h4 class="c20-h c20-section-heading">${esc(section)}</h4>`:'';if(section)previousSection=section;return `<div class="c20-block">${heading}${phrases.map(([sentence,role])=>`<p class="c20-s"><span class="c20-t" data-model-text>${esc(sentence)}</span><span class="c20-f">${esc(role)}</span></p>`).join('')}</div>`}).join('')}</div></article>`;
 }
 function page(s) {
   const index=data.subjects.indexOf(s), next=data.subjects[(index+1)%data.subjects.length], id=s.id;
