@@ -1,4 +1,4 @@
-/* Parcours guidé : données issues des vingt dossiers de dissertations. */
+/* Exercices guidés : phrases du plan issues des vingt copies sources. */
 window.PHILO_RESOLUTION_CASES={
   "version": 1,
   "note": "Les trois pistes sont des pistes de travail, non les trois meilleures matrices certifiées.",
@@ -11,12 +11,12 @@ window.PHILO_RESOLUTION_CASES={
         "Permettre la critique de cette force"
       ],
       "first": {
-        "idea": "Il revient principalement à l’État de lutter contre l’injustice, car lui seul en a la force.",
-        "limit": "L’État qui rend seul la justice possible en devient le seul juge : quand la ségrégation fut loi en Alabama, qui restait-il, au-dessus de lui, pour juger cette loi ?"
+        "idea": "Une injustice n’est vaincue que si la même loi s’impose à tous, et seul l’État dispose d’une force capable de l’imposer.",
+        "limit": "Une force qui a le dernier mot sur le juste peut faire de l’injustice une loi, comme l’ont fait les lois de ségrégation de l’Alabama."
       },
       "second": {
-        "idea": "Les citoyens peuvent contester les lois : la lutte contre l’injustice commence parfois par ceux que l’État n’écoute pas.",
-        "limit": "La force publique peut protéger une loi injuste ; une conscience sincère peut défendre une exigence injuste. Comment donner force au droit sans soustraire cette force à la critique ?"
+        "idea": "La justice ne se réduit pas à la loi : on peut dire qu’une loi est injuste, et c’est même ainsi que les lois progressent.",
+        "limit": "Sans la force et l’impartialité de la loi, la justice devient inégale, et dégénère parfois en vengeance."
       },
       "solutions": [
         {
@@ -60,12 +60,12 @@ window.PHILO_RESOLUTION_CASES={
         "Conserver l’examen libre des croyances"
       ],
       "first": {
-        "idea": "On peut concevoir une humanité sans religion, car la raison peut suffire.",
-        "limit": "La raison gagne contre l’illusion et perd ce que l’illusion donnait, un sens devant la mort, un lien entre les hommes : d’où venait donc ce lien ?"
+        "idea": "Le savoir sur le monde ne doit rien à la religion : il repose sur des preuves que chacun peut vérifier ; la morale elle-même peut se fonder sur des raisons que chacun peut examiner.",
+        "limit": "La raison explique la croyance sans remplacer ce qu’elle offrait : un lien entre les hommes, un sens devant la mort."
       },
       "second": {
-        "idea": "Ce lien n’est pas un ornement de la croyance : relier les hommes, c’est ce que fait la religion, et c’est par là qu’elle appartient à l’humanité.",
-        "limit": "Celui qui renonçait au dieu croyait perdre le lien ; celui qui gardait le lien croyait devoir garder le dieu : tous deux confondaient la religion avec ce qu’elle assurait. De quoi l’humanité ne peut-elle donc se passer ?"
+        "idea": "Une humanité n’est pas seulement une somme d’individus raisonnables : il lui faut ce qui les relie et leur donne des fins communes.",
+        "limit": "Une religion peut unir ses fidèles sans unir tous les hommes ; son pouvoir de rassemblement ne garantit donc pas une communauté universelle."
       },
       "solutions": [
         {
@@ -109,12 +109,12 @@ window.PHILO_RESOLUTION_CASES={
         "Préserver l’invention imprévisible"
       ],
       "first": {
-        "idea": "L’artiste sait ce qu’il fait, car l’art est, à sa racine, un métier.",
-        "limit": "Un métier qui saurait tout d’avance ne produirait que ce qu’il savait déjà : si la maîtrise achevée ne fabrique que des objets, où commence l’œuvre ?"
+        "idea": "Tout art suppose un savoir appris : le peintre connaît ses couleurs, le musicien l’harmonie, l’écrivain sa langue.",
+        "limit": "Or ce qui fait une œuvre, c’est justement qu’elle ne se réduit à aucune règle connue."
       },
       "second": {
-        "idea": "Une œuvre commence là où l’artiste cesse de tout savoir : ce qu’il fait le dépasse.",
-        "limit": "Savoir tout d’avance ou ne rien savoir du tout : les deux réponses plaçaient le savoir de l’artiste avant le travail, où il ne pouvait être que complet ou nul. Quand ce savoir naît-il donc ?"
+        "idea": "Une œuvre doit être nouvelle : on ne peut pas en donner la recette, sinon n’importe qui la referait.",
+        "limit": "Si l’on transforme ce dépassement en ignorance totale, on ne comprend plus les corrections par lesquelles il devient l’auteur de son œuvre."
       },
       "solutions": [
         {
@@ -158,12 +158,12 @@ window.PHILO_RESOLUTION_CASES={
         "Justifier les moyens et les risques de la recherche"
       ],
       "first": {
-        "idea": "La science doit être utile, car c’est elle qui donne à l’homme le pouvoir de maîtriser la nature.",
-        "limit": "Exiger de la science qu’elle serve, c’est la priver de ce qui servira : aucun calcul d’utilité n’aurait commandé la relativité, qui ne cherchait que le vrai. Par quoi la science vaut-elle donc d’abord ?"
+        "idea": "On finance et on enseigne les sciences parce qu’elles servent : c’est sur ce qu’elles permettent qu’on les juge.",
+        "limit": "Or bien des découvertes décisives semblaient d’abord inutiles : exiger l’utilité, c’est se priver de ce qui sera un jour le plus utile."
       },
       "second": {
-        "idea": "Ne chercher que le vrai n’est pas une faiblesse de la science : c’est d’abord par la vérité qu’elle vaut, et son utilité ne vient qu’après.",
-        "limit": "Une application prédéfinie peut étouffer la découverte ; une indépendance sans contrôle peut couvrir des pratiques dangereuses. Sur quoi la recherche doit-elle rendre des comptes pour rester libre ?"
+        "idea": "Ce que la science cherche, c’est savoir comment sont les choses ; une science qui choisit ses vérités selon leur rendement cesse d’être une science.",
+        "limit": "Une science qui se dit pure oublie que ses vérités deviennent aussitôt des pouvoirs, et que d’autres s’en servent."
       },
       "solutions": [
         {
@@ -207,12 +207,12 @@ window.PHILO_RESOLUTION_CASES={
         "Pouvoir reconnaître et affronter les dangers"
       ],
       "first": {
-        "idea": "Il semble qu’il faille être inconscient pour être heureux, car l’insouciance protège le repos.",
-        "limit": "Que vaut cette paix si elle nous prive des moyens de préserver ce qui nous rend heureux ?"
+        "idea": "Savoir la maladie, la mort, l’injustice, c’est s’exposer à l’inquiétude ; ne pas les savoir, c’est en être épargné.",
+        "limit": "L’ignorance protège parfois le repos immédiat en fragilisant les conditions qui le rendent possible."
       },
       "second": {
-        "idea": "Préserver ce bonheur exige de connaître certaines de ses conditions et de ses menaces.",
-        "limit": "L’ignorance expose au danger, la connaissance peut entretenir la peur : quel usage du savoir pourrait contribuer à la paix ?"
+        "idea": "Reconnaître une maladie ou une injustice peut permettre d’agir au lieu de subir : la conscience ne vaut pas seulement par ce qu’elle trouble.",
+        "limit": "Une lucidité réduite à l’inventaire des menaces ne laisse plus de place au repos."
       },
       "solutions": [
         {
@@ -256,12 +256,12 @@ window.PHILO_RESOLUTION_CASES={
         "Expliquer la critique et l’invention dans cette langue"
       ],
       "first": {
-        "idea": "Nous sommes prisonniers du langage, car nous pensons dans une langue reçue.",
-        "limit": "Pour savoir que les mots cachent les choses, Bergson a dû apercevoir ce qu’ils cachaient : d’où vient ce regard que la prison n’enferme pas ?"
+        "idea": "Nous n’avons pas choisi notre langue, et c’est pourtant elle qui découpe le monde pour nous, avant même que nous le regardions.",
+        "limit": "Qui peut voir les limites de sa langue n’y est pas entièrement enfermé."
       },
       "second": {
-        "idea": "Ce regard, c’est le nôtre chaque fois que nous parlons : loin d’être enfermés dans le langage, nous le travaillons.",
-        "limit": "Une limite dont on ne sort jamais et qu’on déplace sans cesse n’a plus rien d’un mur : comment nommer ce qui borne la pensée en la portant ?"
+        "idea": "Nous inventons des mots, nous sentons ce que la langue ne dit pas encore, nous traduisons d’une langue à l’autre : nous ne la subissons pas, nous la déplaçons.",
+        "limit": "Hegel, dans l’Encyclopédie, juge que l’ineffable n’est qu’une pensée encore obscure : hors des mots, la pensée ne gagne pas en liberté, elle perd en clarté."
       },
       "solutions": [
         {
@@ -305,12 +305,12 @@ window.PHILO_RESOLUTION_CASES={
         "Permettre un jugement et une action malgré l’incertitude"
       ],
       "first": {
-        "idea": "On peut être certain d’avoir bien agi, car on connaît son intention.",
-        "limit": "La bonne volonté ne rassure que celui qui se croit transparent à lui-même : qui possède ce savoir de soi que la certitude d’avoir bien agi supposait ?"
+        "idea": "Les effets de mes actes ne dépendent pas entièrement de moi ; mon intention, si.",
+        "limit": "Une bonne conscience peut ainsi rester aveugle à la fois aux effets de ses actes et à ses propres motifs."
       },
       "second": {
-        "idea": "Il manque deux fois, ce savoir : nos motifs nous restent obscurs, les effets de nos actes nous échappent, et nul n’est certain d’avoir bien agi.",
-        "limit": "Comment justifier une décision morale si l’on ne peut en connaître avec certitude tous les motifs et tous les effets ?"
+        "idea": "Bien agir, c’est aussi faire du bien dans le monde : une action qui blesse ne devient pas bonne parce qu’on la voulait bonne.",
+        "limit": "Le doute devient paralysant seulement si l’on exige une certitude absolue avant toute décision."
       },
       "solutions": [
         {
@@ -354,12 +354,12 @@ window.PHILO_RESOLUTION_CASES={
         "Assumer les dommages dont notre action est responsable"
       ],
       "first": {
-        "idea": "La nature n’a pas besoin de nous, car elle se fait toute seule.",
-        "limit": "La nature qui se passe de nous est une puissance ; celle que nous admirons est un ordre, qui n’est ordre que pour nous, et que nous savons défaire : que nous impose ce pouvoir de la défaire ?"
+        "idea": "La nature existait avant l’homme et lui survivra : les plantes poussent et les astres tournent sans nous.",
+        "limit": "La persistance de processus naturels ne garantit donc pas la conservation des espèces et des milieux que notre action peut détruire."
       },
       "second": {
-        "idea": "Savoir la défaire nous oblige : nous avons rendu la nature fragile, et elle a désormais besoin de nous.",
-        "limit": "Comment nos soins pourraient-ils permettre à un milieu de retrouver une autonomie, au lieu de l’en rendre toujours plus dépendant ?"
+        "idea": "Notre action peut menacer des espèces et des équilibres : certains milieux ne retrouveront pas leur autonomie si nous maintenons les causes de leur destruction.",
+        "limit": "Une nature entièrement gérée par nous ne serait plus la nature, mais un jardin, notre ouvrage."
       },
       "solutions": [
         {
@@ -403,12 +403,12 @@ window.PHILO_RESOLUTION_CASES={
         "Reconnaître le malheur d’autrui et nos obligations"
       ],
       "first": {
-        "idea": "On peut être heureux quand les autres ne le sont pas, car le bonheur dépend de nous.",
-        "limit": "Le retrait peut protéger la paix, comme le jardin du vieux Turc de Candide ; que devient cette paix lorsqu’elle nous dispense de regarder la souffrance voisine ?"
+        "idea": "Le bonheur est un état intérieur : on peut être serein dans un monde troublé.",
+        "limit": "Ce n’est pas la sérénité seule qu’il faut critiquer, mais son usage comme excuse pour ne plus regarder ni agir."
       },
       "second": {
-        "idea": "Aucun jardin n’est assez clos pour que la souffrance des autres n’y parvienne : leur malheur nous atteint, et notre bonheur ne peut rester entier.",
-        "limit": "Défendu ou sacrifié, ce bonheur restait un avoir, que le malheur des autres menace : quel bonheur pourrait résister au malheur des autres ?"
+        "idea": "Le bonheur humain n’est pas celui d’un être isolé : nous vivons avec les autres, et leur sort fait partie du nôtre.",
+        "limit": "Ma tristesse n’aide personne : elle ajoute seulement un malheur au monde."
       },
       "solutions": [
         {
@@ -452,12 +452,12 @@ window.PHILO_RESOLUTION_CASES={
         "Ne pas nier les interprétations et effets qui nous échappent"
       ],
       "first": {
-        "idea": "Nous maîtrisons nos paroles, car parler est un acte volontaire.",
-        "limit": "Choisir les mots ne fixe ni toute la pensée qu’ils font naître ni leur compréhension par autrui : d’où vient cet écart entre l’intention et le sens ?"
+        "idea": "Nous choisissons nos mots, nous pouvons nous taire, nous adaptons ce que nous disons à celui qui nous écoute.",
+        "limit": "Souvent, nous découvrons ce que nous pensons en le disant."
       },
       "second": {
-        "idea": "Ce surplus ne nous appartient pas : nos paroles disent plus, et autre chose, que ce que nous voulions, et elles nous échappent.",
-        "limit": "Le sens n’est pas fixé par notre seule intention, mais il ne nous est pas totalement étranger : quel pouvoir pouvons-nous exercer dans cet écart ?"
+        "idea": "C’est que la langue n’est pas à nous : ses mots ont un sens commun qui dépasse notre intention.",
+        "limit": "Une promesse ne vaudrait plus rien, et personne ne répondrait plus de ce qu’il dit."
       },
       "solutions": [
         {
@@ -501,12 +501,12 @@ window.PHILO_RESOLUTION_CASES={
         "Préserver une responsabilité proportionnée aux capacités"
       ],
       "first": {
-        "idea": "L’idée d’inconscient semble ruiner la responsabilité, car je ne suis pas l’auteur de ce que j’ignore.",
-        "limit": "Si des motifs nous échappent sans que toute capacité d’agir disparaisse, quelle part de nos actes pouvons-nous encore reconnaître comme nôtre ?"
+        "idea": "Être responsable, c’est pouvoir répondre de ses actes parce qu’on les a voulus.",
+        "limit": "Il faut encore distinguer ce que l’agent ne pouvait pas comprendre de ce qu’il aurait pu examiner ou empêcher."
       },
       "second": {
-        "idea": "Il reste quelqu’un pour répondre : l’inconscient, c’est encore moi, et je ne cesse pas d’en être responsable.",
-        "limit": "Excuse totale ou culpabilité sans fin : les deux réponses tenaient la responsabilité pour un état donné d’un coup, qu’on possède tout entier ou pas du tout. Comment devient-on responsable, si on ne l’est pas d’emblée ?"
+        "idea": "L’inconscient n’est pas un corps étranger : il désire, cache, déguise, comme quelqu’un, et je ne peux pas m’en décharger comme d’un autre.",
+        "limit": "Œdipe se punit d’un crime qu’il ignorait : une responsabilité sans bornes tourne à la culpabilité sans fin."
       },
       "solutions": [
         {
@@ -550,12 +550,12 @@ window.PHILO_RESOLUTION_CASES={
         "Conserver la capacité de juger et de faire autrement"
       ],
       "first": {
-        "idea": "S’engager, c’est renoncer à une part de sa liberté.",
-        "limit": "Dom Juan garde tous ses possibles, et c’est sa défaite : libre de tout quitter, il ne lui reste qu’à recommencer, toujours le même désir, sans jamais rien choisir. Que serait une liberté qui choisit ?"
+        "idea": "Être libre, c’est pouvoir faire autrement ; or celui qui promet s’interdit précisément de changer d’avis.",
+        "limit": "Une liberté qui ne passe jamais dans un choix n’est qu’une possibilité vide."
       },
       "second": {
-        "idea": "Choisir, c’est justement s’engager : loin de la perdre, l’engagement exerce la liberté.",
-        "limit": "Chaîne pour Dom Juan, forme souveraine pour Nietzsche, l’engagement était chaque fois pensé comme un acte accompli une fois pour toutes, qui livre le présent au passé : comment un engagement pourrait-il ne pas l’y livrer ?"
+        "idea": "Une liberté digne de ce nom ne doit pas seulement pouvoir : elle doit passer dans des actes, et tout acte choisit une possibilité contre d’autres.",
+        "limit": "Tenir alors sa parole, ce serait obéir à celui que j’étais."
       },
       "solutions": [
         {
@@ -599,12 +599,12 @@ window.PHILO_RESOLUTION_CASES={
         "Rendre ces raisons accessibles à un esprit situé"
       ],
       "first": {
-        "idea": "Avoir raison semble suffire, car une raison vaut pour tous.",
-        "limit": "Une démonstration ne s’impose qu’à des esprits qui ne seraient que raison ; or les onze jurés, pressés, prévenus, fatigués, n’étaient pas de purs esprits : comment convaincre, faute de purs esprits ?"
+        "idea": "La vérité ne dépend pas de celui qui la dit : il suffit qu’elle soit montrée pour être reconnue.",
+        "limit": "Or les onze jurés n’étaient ni sots ni menteurs : pressés, prévenus, fatigués, ils n’entendaient pas les raisons de douter qu’on leur présentait."
       },
       "second": {
-        "idea": "Faute de purs esprits, avoir raison ne suffit plus : il faut encore gagner l’esprit de l’autre.",
-        "limit": "On cherchait ce que la vérité doit faire pour entrer dans l’esprit de l’autre : que peut faire, de son côté, cet esprit pour la trouver lui-même ?"
+        "idea": "Pour convaincre, il faut être entendu, et un homme n’est pas une pure intelligence : il a des intérêts, des préjugés, des passions.",
+        "limit": "Le démagogue sait plaire mieux que personne, et il peut avoir tort : convaincre se confond alors avec manipuler."
       },
       "solutions": [
         {
@@ -648,12 +648,12 @@ window.PHILO_RESOLUTION_CASES={
         "Ne pas autoriser tout moyen et tout risque au nom du pouvoir"
       ],
       "first": {
-        "idea": "Ce qui est possible semble souhaitable, car la technique étend notre pouvoir.",
-        "limit": "La technique tient ses promesses, et c’est là le danger : un possible réalisé ne se défait plus, et la bombe nous lie aussi sûrement que le vaccin nous soulage. Que faire de ce qui nous lie à jamais ?"
+        "idea": "L’homme, mal armé par la nature, ne survit qu’en la transformant.",
+        "limit": "Plus nous pouvons, plus nous dépendons de ce que nous avons fait : la maîtrise se retourne en dépendance."
       },
       "second": {
-        "idea": "Ce qui lie à jamais mérite qu’on hésite : tout possible n’est pas souhaitable, et il faut savoir renoncer.",
-        "limit": "L’enthousiasme qui veut tout réaliser et la peur qui veut tout retenir se règlent l’un et l’autre sur la puissance : qui demandera ce qu’elle doit servir ?"
+        "idea": "Être maître, ce n’est pas seulement pouvoir faire, c’est aussi pouvoir ne pas faire : une puissance qui ne sait pas s’arrêter n’est plus maîtrisée.",
+        "limit": "Il faut donc évaluer aussi le risque de ne pas agir, au lieu de traiter toute incertitude comme une interdiction."
       },
       "solutions": [
         {
@@ -697,12 +697,12 @@ window.PHILO_RESOLUTION_CASES={
         "Reconnaître la formation et la nouveauté dans la durée"
       ],
       "first": {
-        "idea": "Le temps est destructeur : tout ce qui est né passe.",
-        "limit": "Le temps ne peut défaire que ce qu’il a d’abord fait : la plainte de Ronsard sur la rose fanée suppose une éclosion qu’elle oublie. De qui cette éclosion est-elle l’œuvre ?"
+        "idea": "Le temps ne revient jamais en arrière : ce qu’il emporte ne nous est pas rendu.",
+        "limit": "Le temps qui fane la rose est aussi celui qui l’a fait fleurir."
       },
       "second": {
-        "idea": "Cette éclosion est aussi son œuvre : le temps crée, il fait advenir les choses avant de les défaire.",
-        "limit": "Si ce qui naît finira aussi par disparaître, faut-il pour autant réduire toute transformation à une destruction ?"
+        "idea": "Pour être juste envers le temps, il faut tenir compte de tout ce qu’il produit : la croissance, l’apprentissage, la guérison, l’œuvre qui mûrit.",
+        "limit": "La création n’abolit pas la destruction : reste à savoir si ce qu’elle fait naître perd toute valeur parce qu’il pourra disparaître."
       },
       "solutions": [
         {
@@ -746,12 +746,12 @@ window.PHILO_RESOLUTION_CASES={
         "Reconnaître la contrainte et l’aliénation du travail réel"
       ],
       "first": {
-        "idea": "Le travail rend plus humain : en transformant la nature, l’homme se transforme.",
-        "limit": "Le travail que décrit Hegel donne forme ; celui de Charlot reçoit la sienne de la chaîne : que vaut l’éloge du travail devant celui qui use ?"
+        "idea": "L’animal trouve dans la nature ce dont il a besoin ; l’homme doit le produire, et pour cela apprendre, prévoir, inventer.",
+        "limit": "Un travail qui ne demande plus ni intelligence ni initiative ne forme plus personne."
       },
       "second": {
-        "idea": "C’est cette usure qu’il faut regarder en face : imposé par le besoin, le travail devient une peine et peut déshumaniser.",
-        "limit": "L’éloge comme le réquisitoire prêtaient au travail une nature ; or l’aliénation ne se mesure qu’à un travail où l’homme se reconnaîtrait : de quoi dépend donc qu’un travail forme ou déforme ?"
+        "idea": "Pour juger le travail, il faut regarder le travail réel, celui que la plupart des hommes font pour vivre, et non le travail idéal de l’artisan.",
+        "limit": "Condamner le travail en lui-même, ce serait oublier que Marx ne dénonce l’aliénation qu’au nom d’un travail où l’homme pourrait se reconnaître."
       },
       "solutions": [
         {
@@ -795,12 +795,12 @@ window.PHILO_RESOLUTION_CASES={
         "Respecter les droits et les effets de la divulgation"
       ],
       "first": {
-        "idea": "Toute vérité semble bonne à dire, car la vérité vaut par elle-même.",
-        "limit": "Kant interdit de mentir, Alceste se croit tenu de tout dire : la véracité est devenue franchise. Que vaut une vérité lancée sans égard, qui n’atteint plus celui à qui elle s’adresse ?"
+        "idea": "Dire vrai, c’est respecter à la fois ce qui est et celui à qui l’on parle : on le traite en être capable de juger.",
+        "limit": "Ne pas mentir n’oblige pas à tout dire : une vérité lancée au mauvais moment peut blesser, humilier ou désespérer sans éclairer personne."
       },
       "second": {
-        "idea": "Une vérité qui n’atteint personne a manqué son but : toute vérité n’est pas bonne à dire sans égard pour celui qui l’entend.",
-        "limit": "Ne pas tout révéler peut protéger ou tromper : à quelles conditions la décision de dire ou de taire respecte-t-elle autrui ?"
+        "idea": "Dire une vérité est un acte adressé à quelqu’un : sa valeur ne dépend pas seulement de l’exactitude de l’énoncé, mais des droits et des besoins de ceux qu’il concerne.",
+        "limit": "Ménager l’autre jusqu’à lui cacher ce qui le concerne, c’est cesser de le respecter."
       },
       "solutions": [
         {
@@ -845,11 +845,11 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "first": {
         "idea": "Une vérité est convaincante lorsqu’on peut montrer pourquoi il faut l’admettre. Une démonstration ne demande pas de croire son auteur : elle présente des relations que chacun peut vérifier.",
-        "limit": "Comment une preuve peut-elle perdre son pouvoir de convaincre sans perdre pour autant sa validité ?"
+        "limit": "La vérité offre ainsi une exigence commune : on ne peut réfuter une preuve en disant simplement qu’elle déplaît. Mais une raison vérifiable n’est pas encore une raison effectivement comprise."
       },
       "second": {
         "idea": "Une conviction reçue, un intérêt menacé ou une difficulté de compréhension peut empêcher d’examiner une vérité. Le prisonnier revenu de la caverne ne parle pas depuis l’expérience de ceux qu’il veut éclairer.",
-        "limit": "Comment rendre une vérité recevable sans remplacer ses raisons par les moyens de gagner l’adhésion ?"
+        "limit": "Mais si convaincre consiste uniquement à satisfaire ces dispositions, on peut obtenir l’accord sans dire vrai. Une flatterie peut être accueillie mieux qu’une preuve ; l’accueil ne suffit donc pas à mesurer la vérité."
       },
       "solutions": [
         {
@@ -894,11 +894,11 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "first": {
         "idea": "Notre avenir dépend des moyens dont nous disposons : sans certaines techniques, des projets resteraient de simples souhaits. L’agriculture, les transports et la médecine changent les conditions de la vie collective.",
-        "limit": "Qui choisit ce que les capacités techniques doivent servir, si elles ne fournissent pas elles-mêmes leurs fins ?"
+        "limit": "Mais une capacité ne fixe pas son usage. Un même savoir peut soigner ou détruire ; des moyens puissants ne suffisent pas à rendre le monde qu’ils produisent souhaitable."
       },
       "second": {
         "idea": "L’avenir dépend aussi de décisions politiques et morales : développer une technique, la financer, la partager ou la limiter sont des choix, non de simples effets du savoir-faire.",
-        "limit": "Comment orienter des techniques qui modifient déjà les conditions dans lesquelles nous les choisissons ?"
+        "limit": "Mais les choix ne se font pas devant un ensemble de moyens neutres. Une infrastructure durable crée des usages, des coûts de remplacement et des dépendances qui pèsent sur les décisions suivantes."
       },
       "solutions": [
         {
@@ -943,11 +943,11 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "first": {
         "idea": "On peut vivre sans posséder des œuvres ni fréquenter des musées. En situation de pénurie, la nourriture, les soins et l’abri semblent devoir passer avant l’art.",
-        "limit": "Que perdrait une vie qui disposerait de tout pour subsister, mais d’aucun moyen de donner forme et partage à son expérience ?"
+        "limit": "Mais ce qui n’est pas nécessaire à la survie peut l’être à une vie humaine : amitié, expression et compréhension ne se mesurent pas seulement à ce qu’elles empêchent de mourir."
       },
       "second": {
         "idea": "Une œuvre peut rendre perceptible ce que l’usage ordinaire des mots ou des choses laissait inaperçu. Nous n’y cherchons pas seulement un plaisir, mais une manière d’éprouver et de comprendre.",
-        "limit": "Comment reconnaître le besoin auquel l’art répond sans en faire une obligation de goût ou une quantité d’œuvres à consommer ?"
+        "limit": "Mais de ce pouvoir ne découle pas que toute personne ait besoin de telle œuvre, ni que l’art réalise toujours ce pouvoir. Une consommation imposée peut devenir prestige ou conformisme au lieu d’ouvrir l’expérience."
       },
       "solutions": [
         {
