@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "scope": "huit sujets dans le jeu de données historique ; les pages Mill, Aristote, Bergson, Pascal et Platon demandent une vérification distincte",
+  "status": "pré-audit conceptuel, non certification de fidélité",
+  "subjects": [
+    {
+      "id": "nietzsche-2026-metropole",
+      "author": "Nietzsche",
+      "concepts": [
+        "Connaissance scientifique",
+        "méthode scientifique",
+        "hypothèse",
+        "conviction",
+        "preuve"
+      ],
+      "positiveOrCaution": "La copie distingue hypothèse et conviction et limite la portée politique de la science.",
+      "verification": "Vérifier la fidélité des citations et la valeur exacte de l'expression « esprit scientifique ».",
+      "models": 1
+    },
+    {
+      "id": "freud-2026-amerique-du-nord",
+      "author": "Freud",
+      "concepts": [
+        "Illusion",
+        "erreur",
+        "croyance",
+        "vérité",
+        "désir"
+      ],
+      "positiveOrCaution": "Éviter d'assimiler l'origine désirante d'une croyance à sa fausseté.",
+      "verification": "Comparer les termes employés dans l'explication au passage de L'Avenir d'une illusion.",
+      "models": 1
+    },
+    {
+      "id": "tocqueville-2026-asie",
+      "author": "Tocqueville",
+      "concepts": [
+        "Individualisme",
+        "égoïsme",
+        "droits politiques",
+        "liberté"
+      ],
+      "positiveOrCaution": "Distinguer priorité donnée au bien-être et disparition effective de la liberté.",
+      "verification": "Contrôler les modalités et la chaîne causale du passage.",
+      "models": 1
+    },
+    {
+      "id": "weil-2026-centres-etrangers",
+      "author": "Simone Weil",
+      "concepts": [
+        "Nécessité",
+        "désir",
+        "travail",
+        "lassitude"
+      ],
+      "positiveOrCaution": "Ne pas confondre répétition nécessaire et simple fatigue physique.",
+      "verification": "Confronter les images et leurs fonctions au texte.",
+      "models": 1
+    },
+    {
+      "id": "malebranche-2026-antilles-guyane",
+      "author": "Malebranche",
+      "concepts": [
+        "Limitation de l'esprit",
+        "liberté",
+        "jugement",
+        "erreur"
+      ],
+      "positiveOrCaution": "Ne pas transformer la responsabilité de juger en obligation de tout connaître.",
+      "verification": "Respecter la différence entre réponse aux questions et commentaire libre.",
+      "models": 2
+    },
+    {
+      "id": "rawls-2025-metropole",
+      "author": "Rawls",
+      "concepts": [
+        "Liberté formelle",
+        "valeur équitable des libertés politiques",
+        "ressources"
+      ],
+      "positiveOrCaution": "Distinguer droits égaux et capacité effective de les exercer.",
+      "verification": "Vérifier que les compensations proposées sont celles du texte.",
+      "models": 1
+    },
+    {
+      "id": "weil-2024-metropole",
+      "author": "Simone Weil",
+      "concepts": [
+        "Attention",
+        "pensée",
+        "peine",
+        "solidarité"
+      ],
+      "positiveOrCaution": "Ne pas confondre activité mentale imposée et pensée autonome.",
+      "verification": "Relire les images et la plainte finale.",
+      "models": 1
+    },
+    {
+      "id": "levi-strauss-2023-metropole",
+      "author": "Lévi-Strauss",
+      "concepts": [
+        "Bricolage",
+        "stock",
+        "projet",
+        "polyvalence"
+      ],
+      "positiveOrCaution": "Ne pas réduire le bricolage à l'improvisation sans structure.",
+      "verification": "Vérifier le rapport entre histoire du stock et projet présent.",
+      "models": 1
+    }
+  ]
+}
