@@ -54,6 +54,21 @@ III.3 Une attribution partielle de capacités intellectuelles peut être justifi
 
 Ne pas transformer une conversation fictive en événement historique. Une ouverture contemporaine doit être précisément documentée et faire apparaître à la fois l'efficacité des opérations et la question de leur signification pour le système. Le §360 des *Recherches philosophiques* peut accomplir une transformation conceptuelle en III.1, mais sa formulation allemande et son contexte doivent être revérifiés dans l'édition avant citation. Pas de citation de Canguilhem, Jonas, Searle ou Brandom sans confrontation au texte original.
 
+
+## Objection psychanalytique vérifiée — Wilfred R. Bion
+
+**Texte source :** W. R. Bion, « The Psycho-Analytic Study of Thinking », *International Journal of Psycho-Analysis*, vol. 43, 1962, p. 306–310, section « A Theory of Thinking », § vi. Texte également repris sous le titre « A Theory of Thinking » dans *Second Thoughts* (1967), p. 178–186. Édition anglaise consultable : https://www.ccc.ox.ac.uk/sites/default/files/2022-01/Bion-W.-1967.-Second-Thoughts.-London-Heinemann-Medical-Books.-pp.-178-186-Chapter-2-Theory-of-Thinking..pdf
+
+**Citation originale courte, vérifiée :** “A capacity for tolerating frustration thus enables the psyche to develop thought”.
+
+**Traduction de travail par nos soins (et non traduction éditoriale publiée) :** « La capacité de tolérer la frustration permet ainsi à la psyché de développer la pensée. »
+
+**Fonction précise en II.2 :** objection génétique à l'identification de la pensée à l'exécution d'opérations. Pour Bion, la capacité de penser se développe face à une expérience de manque qui doit être supportée et transformée ; l'absence du sein attendu chez le nourrisson en fournit le modèle. Ce n'est pas une preuve que toute pensée doit être biologique : l'argument expose le coût d'une définition purement opératoire.
+
+**Épreuve critique en II.3 :** distinguer (1) les conditions de formation de la pensée humaine, (2) ce qui constitue la pensée et (3) les supports capables de la réaliser. Une explication psychanalytique de (1) n'entraîne pas sans argument l'impossibilité de (3) dans un système artificiel.
+
+**Effet sur la troisième partie :** la métamorphose du concept de pensée en autonomie normative doit désormais rendre compte de la signification propre des raisons pour un sujet, et pas seulement de la production correcte de justifications. Le reste devient la possibilité de reconnaître une telle normativité sans projeter l'expérience affective humaine sur une machine.
+
 ## Vérifications avant mise en ligne
 
 1. Réécrire la dissertation intégrale et attribuer une fonction argumentative exacte à chaque phrase.
