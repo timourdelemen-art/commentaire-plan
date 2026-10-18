@@ -22,7 +22,7 @@
   const w=root.querySelector('#res20-work');
   if(stage===0||stage===1){const part=stage===0?d.first:d.second;w.innerHTML='<p><strong>La réponse :</strong> '+esc(part.idea)+'</p><p><strong>Sa limite :</strong> '+esc(part.limit)+'</p><label for="res20-reason">En une phrase, pourquoi faut-il poursuivre ?</label><textarea id="res20-reason" rows="3"></textarea><details><summary>Comparer avec le corrigé</summary><p>La limite ne détruit pas tout ce que la partie établit : elle oblige à chercher une réponse qui préserve aussi '+esc(stage===0?d.requirements[1]:d.requirements[0])+'.</p></details>';return}
   if(stage===2){
-   w.innerHTML='<p><strong>Que doit sauver la suite ?</strong> '+esc(d.requirements[0])+' et '+esc(d.requirements[1])+'.</p><div class="chaine-opts">'+d.solutions.map((s,i)=>'<button type="button" class="chaine-opt" data-solution="'+i+'" aria-pressed="'+(chosen===i)+'">'+esc(s.title)+'</button>').join('')+'</div><div id="res20-feedback" aria-live="polite"></div>';
+   w.innerHTML='<p><strong>Que doit sauver la suite ?</strong> '+esc(d.requirements[0])+' et '+esc(d.requirements[1])+'.</p><div class="chaine-opts">'+d.solutions.map((s,i)=>'<button type="button" class="chaine-opt" data-solution="'+i+'" aria-pressed="'+(chosen===i)+'">'+esc(s.short)+'</button>').join('')+'</div><div id="res20-feedback" aria-live="polite"></div>';
    w.querySelectorAll('[data-solution]').forEach(b=>b.addEventListener('click',()=>{chosen=Number(b.dataset.solution);checked=false;render();feedback()}));
    if(chosen!==null)feedback();
    return;
@@ -31,7 +31,7 @@
  }
  function feedback(){
   const d=data.cases[idx],s=d.solutions[chosen],f=root.querySelector('#res20-feedback');if(!f)return;
-  f.innerHTML='<p><strong>Ce que cette réponse préserve :</strong> '+esc(s.keeps.join(' ; '))+'.</p><p><strong>Son prix :</strong> '+esc(s.cost)+'</p><p><strong>Ce qui reste difficile :</strong> '+esc(s.remaining)+'</p><label for="res20-why">Pourquoi garderiez-vous cette solution ? Une phrase.</label><textarea id="res20-why" rows="3"></textarea><button type="button" id="res20-compare">Comparer après mon essai</button><div id="res20-model" aria-live="polite"></div>';
+  f.innerHTML='<p><strong>La proposition développée :</strong> '+esc(s.title)+'</p><p><strong>Ce que cette réponse préserve :</strong> '+esc(s.keeps.join(' ; '))+'.</p><p><strong>Son prix :</strong> '+esc(s.cost)+'</p><p><strong>Ce qui reste difficile :</strong> '+esc(s.remaining)+'</p><label for="res20-why">Pourquoi garderiez-vous cette solution ? Une phrase.</label><textarea id="res20-why" rows="3"></textarea><button type="button" id="res20-compare">Comparer après mon essai</button><div id="res20-model" aria-live="polite"></div>';
   f.querySelector('#res20-compare').addEventListener('click',()=>{
    const value=f.querySelector('#res20-why').value.trim(),target=f.querySelector('#res20-model');
    if(value.length<12){target.textContent='Écrivez d’abord une justification en une phrase.';return}
