@@ -112,6 +112,15 @@ const listHtml=`<!--annales-2026:start-->
 <div class="annales-static-links">
 ${all.filter(o=>o.x.type==='dissertation').map(card).join('\n')}
 </div>
+<h3 class="annales-group">Autres dissertations corrigées</h3>
+<div class="annales-static-links">
+<a href="philosophie-dissertation-2024-an-rien-dure.html"><strong>Comment être heureux, si rien ne dure ?</strong><span>Dissertation annotée · lire le sujet →</span></a>
+<a href="philosophie-dissertation-2024-an-parler-sans-savoir.html"><strong>Peut-on parler sans savoir ?</strong><span>Dissertation annotée · lire le sujet →</span></a>
+<a href="philosophie-dissertation-2025-g1-douter-raison.html"><strong>Peut-on douter des pouvoirs de la raison ?</strong><span>Dissertation annotée · lire le sujet →</span></a>
+<a href="philosophie-dissertation-2025-g1-art-voir.html"><strong>L’art peut-il nous apprendre à voir le monde autrement ?</strong><span>Dissertation annotée · lire le sujet →</span></a>
+<a href="philosophie-dissertation-2023-me-paix-justice.html"><strong>Vouloir la paix, est-ce vouloir la justice ?</strong><span>Dissertation annotée · lire le sujet →</span></a>
+<a href="philosophie-dissertation-machine-peut-elle-penser.html"><strong>Une machine peut-elle penser ?</strong><span>Dissertation annotée · lire le sujet →</span></a>
+</div>
 <h3 class="annales-group">Explications de texte</h3>
 <p><a href="philosophie-explication.html">De la lecture à la copie entière : trois niveaux et modèles annotés →</a></p>
 <div class="annales-static-links">
