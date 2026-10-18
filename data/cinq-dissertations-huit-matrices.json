@@ -1,0 +1,351 @@
+{
+  "version": 1,
+  "method": "Tests théoriques des huit familles, sans prétendre à un classement définitif",
+  "cases": {
+    "2024-an-rien-dure": {
+      "subject": "Comment être heureux, si rien ne dure ?",
+      "matrices": [
+        {
+          "family": "Duplication des plans",
+          "proposal": "Distinguer joie d’un moment et bonheur d’une vie",
+          "cost": "Laisse leur articulation incertaine",
+          "rest": "Quel lien fait une vie heureuse ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Abolition partielle ou totale",
+          "proposal": "Renoncer à la durée et ne garder que le plaisir",
+          "cost": "Perd l’unité du bonheur",
+          "rest": "Une somme de plaisirs fait-elle une vie ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Processualisation",
+          "proposal": "Faire de la continuité une transformation de liens et de capacités",
+          "cost": "La perte peut rompre toute continuité",
+          "rest": "Comment traverser une perte irréparable ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Inversion d’indexation",
+          "proposal": "La fragilité rend possible une attention plus intense",
+          "cost": "Ne produit pas nécessairement une vie heureuse",
+          "rest": "Une intensité suffit-elle à durer ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Métamorphose",
+          "proposal": "Transformer la stabilité en fidélité vivante",
+          "cost": "La fidélité peut survivre sans joie",
+          "rest": "Qu’est-ce qui distingue fidélité et résignation ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Déplacement",
+          "proposal": "Déplacer le bonheur vers la mémoire",
+          "cost": "Le souvenir ne restitue pas la présence",
+          "rest": "Le bonheur peut-il n’être que rétrospectif ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Suspension épistémique",
+          "proposal": "Suspendre la prétention à une définition universelle du bonheur",
+          "cost": "N’explique pas le rapport entre durée et joie",
+          "rest": "Quelles conditions minimales subsistent ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Consentement à la tension",
+          "proposal": "Accepter une joie traversée par la perte",
+          "cost": "N’indique pas comment durer",
+          "rest": "Toute souffrance est-elle compatible avec le bonheur ?",
+          "verdict": "à départager par confrontation argumentée"
+        }
+      ],
+      "currentIII": [
+        "La stabilité exigée en I et la présence défendue en II ne s’excluent que si durer signifie rester identique.",
+        "Une vie peut garder son orientation à travers des activités et des liens qui se transforment.",
+        "Une amitié change sans nécessairement perdre la confiance qui la constitue.",
+        "Le bonheur peut ainsi résider dans une fidélité vivante plutôt que dans l’immobilité des choses.",
+        "Reste que certaines pertes détruisent les liens mêmes qui donnaient à la vie sa continuité."
+      ],
+      "status": "première confrontation, non validée"
+    },
+    "2024-an-parler-sans-savoir": {
+      "subject": "Peut-on parler sans savoir ?",
+      "matrices": [
+        {
+          "family": "Duplication des plans",
+          "proposal": "Distinguer question, hypothèse et assertion",
+          "cost": "Les frontières pragmatiques peuvent être floues",
+          "rest": "Quand une question insinue-t-elle une accusation ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Abolition partielle ou totale",
+          "proposal": "Interdire toute parole non prouvée",
+          "cost": "Rend impossible l’enquête",
+          "rest": "Comment apprendre sans interroger ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Processualisation",
+          "proposal": "Faire de la parole un dialogue correctif",
+          "cost": "La correction peut venir trop tard",
+          "rest": "Qui répare une parole déjà dommageable ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Inversion d’indexation",
+          "proposal": "L’ignorance reconnue rend possible la recherche commune",
+          "cost": "Ne garantit pas la sincérité du locuteur",
+          "rest": "Comment distinguer question et manipulation ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Métamorphose",
+          "proposal": "Transformer la parole en engagement proportionné aux preuves",
+          "cost": "Les auditeurs peuvent attribuer trop de certitude",
+          "rest": "Quelle responsabilité pour la réception ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Déplacement",
+          "proposal": "Déplacer la responsabilité vers le seul auditeur",
+          "cost": "Excuse les insinuations calculées",
+          "rest": "Qui répond des effets prévisibles ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Suspension épistémique",
+          "proposal": "Suspendre tout jugement sans preuve",
+          "cost": "Confond prudence et silence",
+          "rest": "Peut-on parler pour chercher ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Consentement à la tension",
+          "proposal": "Assumer le risque de malentendu",
+          "cost": "Ne justifie pas la négligence",
+          "rest": "Quels malentendus étaient évitables ?",
+          "verdict": "à départager par confrontation argumentée"
+        }
+      ],
+      "currentIII": [
+        "Il faut préserver l’exigence de justification et la possibilité de chercher ensemble.",
+        "La parole responsable distingue le constat, l’hypothèse et l’ignorance : son assurance doit suivre ses preuves.",
+        "Le témoin peut rapporter ce qu’il a vu sans prétendre connaître la cause.",
+        "On peut donc parler sans savoir à condition de rendre explicites les limites de ce que l’on dit.",
+        "Reste qu’une hypothèse prudente peut être reçue comme une accusation certaine."
+      ],
+      "status": "première confrontation, non validée"
+    },
+    "2025-g1-douter-raison": {
+      "subject": "Peut-on douter des pouvoirs de la raison ?",
+      "matrices": [
+        {
+          "family": "Duplication des plans",
+          "proposal": "Distinguer pouvoir de démontrer et validité des prémisses",
+          "cost": "Ne garantit pas les prémisses",
+          "rest": "Comment les justifier ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Abolition partielle ou totale",
+          "proposal": "Abolir toute confiance dans la raison",
+          "cost": "Détruit l’outil du doute",
+          "rest": "Comment soutenir le scepticisme ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Processualisation",
+          "proposal": "Faire du contrôle une révision continue",
+          "cost": "La révision suppose des normes",
+          "rest": "Qui contrôle ces normes ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Inversion d’indexation",
+          "proposal": "La possibilité d’erreur fonde la nécessité de la critique",
+          "cost": "Ne prouve pas la validité de la critique",
+          "rest": "Quels critères sont fiables ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Métamorphose",
+          "proposal": "Transformer le pouvoir de la raison en autocritique",
+          "cost": "Risque de circularité des critères",
+          "rest": "La raison peut-elle s’évaluer elle-même ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Déplacement",
+          "proposal": "Déplacer la garantie vers l’expérience seule",
+          "cost": "L’expérience exige interprétation",
+          "rest": "Comment justifier l’induction ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Suspension épistémique",
+          "proposal": "Suspendre tout jugement sur les pouvoirs rationnels",
+          "cost": "Se contredit en argumentant cette suspension",
+          "rest": "Quel statut pour l’argument sceptique ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Consentement à la tension",
+          "proposal": "Assumer la faillibilité sans renoncer à la preuve",
+          "cost": "Ne définit pas la méthode de contrôle",
+          "rest": "Comment distinguer erreur et preuve ?",
+          "verdict": "à départager par confrontation argumentée"
+        }
+      ],
+      "currentIII": [
+        "Il faut conserver la force de la preuve et la possibilité d’en critiquer les conditions.",
+        "La raison exerce son pouvoir lorsqu’elle vérifie ses prémisses et délimite la portée de ses conclusions.",
+        "Corriger le calcul du pont ne rend pas le calcul inutile : cela exige des hypothèses explicites.",
+        "Nous pouvons donc douter des prétentions excessives de la raison sans récuser toute rationalité.",
+        "Reste à justifier les critères mêmes qui permettent à la raison de se contrôler."
+      ],
+      "status": "première confrontation, non validée"
+    },
+    "2025-g1-art-voir": {
+      "subject": "L’art peut-il nous apprendre à voir le monde autrement ?",
+      "matrices": [
+        {
+          "family": "Duplication des plans",
+          "proposal": "Distinguer connaissance de faits et formation du regard",
+          "cost": "Une capacité perceptive peut être illusoire",
+          "rest": "Comment vérifier l’enrichissement ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Abolition partielle ou totale",
+          "proposal": "Abolir toute fonction cognitive de l’art",
+          "cost": "Ignore les transformations réelles de l’attention",
+          "rest": "Pourquoi voit-on différemment après l’œuvre ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Processualisation",
+          "proposal": "Former progressivement une attention par les œuvres",
+          "cost": "La répétition ne garantit pas la justesse",
+          "rest": "Comment distinguer apprentissage et conditionnement ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Inversion d’indexation",
+          "proposal": "L’invention de formes rend perceptible ce que l’habitude cachait",
+          "cost": "Ne prouve pas que l’objet est ainsi",
+          "rest": "Qu’est-ce qui est appris ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Métamorphose",
+          "proposal": "Transformer apprendre en exercer une capacité perceptive",
+          "cost": "Risque de confondre nouveauté et vérité",
+          "rest": "Quel critère d’un regard meilleur ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Déplacement",
+          "proposal": "Déplacer l’apprentissage vers le discours critique sur l’art",
+          "cost": "L’œuvre elle-même devient secondaire",
+          "rest": "Pourquoi l’art plutôt que l’analyse ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Suspension épistémique",
+          "proposal": "Suspendre toute prétention de l’art à instruire",
+          "cost": "Ignore la perception modifiée",
+          "rest": "Comment expliquer l’effet durable ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Consentement à la tension",
+          "proposal": "Accepter une pluralité de regards irréductibles",
+          "cost": "Ne distingue pas enrichissement et erreur",
+          "rest": "Toute vision vaut-elle ?",
+          "verdict": "à départager par confrontation argumentée"
+        }
+      ],
+      "currentIII": [
+        "Il faut préserver l’invention de l’artiste et la transformation réelle de notre attention.",
+        "L’art peut former une capacité de percevoir, non imposer une description définitive des objets.",
+        "Après une peinture, le passant peut remarquer des variations de lumière que l’œuvre ne reproduisait pas exactement.",
+        "Son enseignement tient alors à l’exercice du regard, non à l’autorité d’une image.",
+        "Reste que toutes les œuvres ne transforment pas notre perception, et qu’un regard nouveau peut aussi être trompeur."
+      ],
+      "status": "première confrontation, non validée"
+    },
+    "2023-me-paix-justice": {
+      "subject": "Vouloir la paix, est-ce vouloir la justice ?",
+      "matrices": [
+        {
+          "family": "Duplication des plans",
+          "proposal": "Distinguer paix apparente et paix fondée sur des droits",
+          "cost": "Il faut garantir des recours réels",
+          "rest": "Qui protège lorsque les institutions refusent ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Abolition partielle ou totale",
+          "proposal": "Abolir la paix au profit du combat pour la justice",
+          "cost": "Peut détruire les droits à défendre",
+          "rest": "Quand arrêter la violence ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Processualisation",
+          "proposal": "Organiser contestation, réparation et pacification",
+          "cost": "La procédure peut être capturée",
+          "rest": "Que faire sans voie de recours ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Inversion d’indexation",
+          "proposal": "La justice rend la paix durable possible",
+          "cost": "La justice ne supprime pas tout conflit",
+          "rest": "Toute contestation menace-t-elle la paix ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Métamorphose",
+          "proposal": "Transformer la paix de silence imposé en coexistence juste",
+          "cost": "Dépend d’institutions équitables",
+          "rest": "Qui garantit leur équité ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Déplacement",
+          "proposal": "Déplacer le problème vers l’arbitrage d’un tiers",
+          "cost": "Le tiers peut être injuste",
+          "rest": "Qui contrôle l’arbitre ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Suspension épistémique",
+          "proposal": "Suspendre le jugement sur une paix juste",
+          "cost": "Ne protège pas les victimes",
+          "rest": "Qui intervient contre le tort ?",
+          "verdict": "à départager par confrontation argumentée"
+        },
+        {
+          "family": "Consentement à la tension",
+          "proposal": "Accepter un conflit permanent sous règles communes",
+          "cost": "Peut normaliser des injustices durables",
+          "rest": "Quand la contestation doit-elle rompre les règles ?",
+          "verdict": "à départager par confrontation argumentée"
+        }
+      ],
+      "currentIII": [
+        "La paix sans justice étouffe la contestation ; la justice sans règle commune risque de prolonger la guerre.",
+        "Une paix juste doit ménager des voies publiques où les torts puissent être dénoncés et corrigés.",
+        "Une médiation équitable ne demande pas à la victime d’oublier son droit, mais oblige chacun à répondre de ses actes.",
+        "Vouloir la paix devient alors vouloir des institutions capables de traiter les conflits sans supprimer les revendications légitimes.",
+        "Reste le cas où les institutions refusent tout recours à ceux qu’elles oppriment."
+      ],
+      "status": "première confrontation, non validée"
+    }
+  }
+}
