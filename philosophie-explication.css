@@ -60,3 +60,8 @@
 .ecrire .ecrire-method-reminders li,.ecrire .ecrire-method-checks li{margin:.7rem 0}
 .ecrire .ecrire-method-example{margin:1rem 0;padding:.2rem 1.2rem;border-left:3px solid var(--red,#21624d)}
 @media(max-width:700px){.ecrire .ecrire-method-steps{padding-left:1.4rem}.ecrire .ecrire-method-steps>li{padding-left:.25rem}.ecrire .ecrire-method-reminders{padding:1rem}.ecrire .ecrire-method h3{margin-top:1.6rem}}
+
+/* Titres de structure du modèle : visibles à l'écran, absents du texte copiable. */
+.ecrire .ecrire-copy .c20-section-heading{color:var(--red,#21624d);font-size:1rem;font-weight:750;letter-spacing:.035em;text-transform:uppercase;border-bottom:2px solid var(--red,#21624d);padding:.55rem 0;margin:1.7rem 0 .8rem;line-height:1.35}
+.ecrire .ecrire-copy .c20-section-heading:first-child{margin-top:.2rem}
+@media(max-width:700px){.ecrire .ecrire-copy .c20-section-heading{font-size:.92rem;margin-top:1.3rem}}
