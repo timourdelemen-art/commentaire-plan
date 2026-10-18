@@ -1,4 +1,4 @@
-/* Exercices guidés : phrases du plan issues des vingt copies sources. */
+/* Données pédagogiques : les pistes ne sont pas un classement final des huit familles. */
 window.PHILO_RESOLUTION_CASES={
   "version": 1,
   "note": "Les trois pistes sont des pistes de travail, non les trois meilleures matrices certifiées.",
@@ -27,7 +27,9 @@ window.PHILO_RESOLUTION_CASES={
             "Permettre la critique de cette force"
           ],
           "cost": "Reste le cas où le pouvoir ferme les voies de contestation : les garanties qui rendent ce partage juste ne peuvent plus être présupposées.",
-          "remaining": "Lorsque l’État détruit les voies par lesquelles on pouvait le corriger, comment lui résister sans abandonner l’exigence d’une justice commune ?"
+          "remaining": "Lorsque l’État détruit les voies par lesquelles on pouvait le corriger, comment lui résister sans abandonner l’exigence d’une justice commune ?",
+          "short": "duplication ontologique + métamorphose",
+          "level": "défendable"
         },
         {
           "id": "alternative-a",
@@ -36,7 +38,9 @@ window.PHILO_RESOLUTION_CASES={
             "Explique le rôle causal des citoyens"
           ],
           "cost": "Ne dit pas qui garantit durablement les droits après la mobilisation",
-          "remaining": "Ne dit pas qui garantit durablement les droits après la mobilisation"
+          "remaining": "Ne dit pas qui garantit durablement les droits après la mobilisation",
+          "short": "la mobilisation rend la justice publique possible",
+          "level": "à examiner"
         },
         {
           "id": "alternative-b",
@@ -45,7 +49,9 @@ window.PHILO_RESOLUTION_CASES={
             "Relie la critique à un changement institutionnel"
           ],
           "cost": "Une succession ne garantit pas les voies de contrôle pendant l’application",
-          "remaining": "Une succession ne garantit pas les voies de contrôle pendant l’application"
+          "remaining": "Une succession ne garantit pas les voies de contrôle pendant l’application",
+          "short": "contestation, réforme, application",
+          "level": "à examiner"
         }
       ],
       "preferred": "retenue",
@@ -76,7 +82,9 @@ window.PHILO_RESOLUTION_CASES={
             "Conserver l’examen libre des croyances"
           ],
           "cost": "Reste que des principes discutables peuvent être sacralisés : un lien initialement ouvert à la critique peut devenir un dogme qui interdit de le contester.",
-          "remaining": "Comment maintenir des convictions communes assez fortes pour nous unir, sans les rendre sacrées au point d’interdire leur examen ?"
+          "remaining": "Comment maintenir des convictions communes assez fortes pour nous unir, sans les rendre sacrées au point d’interdire leur examen ?",
+          "short": "duplication ontologique + déplacement",
+          "level": "défendable"
         },
         {
           "id": "alternative-a",
@@ -85,7 +93,9 @@ window.PHILO_RESOLUTION_CASES={
             "Maintient une forme collective et des convictions discutées"
           ],
           "cost": "Risque de renommer religion toute conviction commune, sans établir la nécessité du sacré",
-          "remaining": "Risque de renommer religion toute conviction commune, sans établir la nécessité du sacré"
+          "remaining": "Risque de renommer religion toute conviction commune, sans établir la nécessité du sacré",
+          "short": "une religion rationnelle commune",
+          "level": "à examiner"
         },
         {
           "id": "alternative-b",
@@ -94,7 +104,9 @@ window.PHILO_RESOLUTION_CASES={
             "Évite une prédiction historique injustifiée"
           ],
           "cost": "Le sujet demande une possibilité concevable, pas une prévision ; on peut examiner une cohérence",
-          "remaining": "Le sujet demande une possibilité concevable, pas une prévision ; on peut examiner une cohérence"
+          "remaining": "Le sujet demande une possibilité concevable, pas une prévision ; on peut examiner une cohérence",
+          "short": "on ignore ce qu’une humanité entière pourrait devenir",
+          "level": "à examiner"
         }
       ],
       "preferred": "retenue",
@@ -125,7 +137,9 @@ window.PHILO_RESOLUTION_CASES={
             "Préserver l’invention imprévisible"
           ],
           "cost": "Reste que l’œuvre peut recevoir des significations que même ce jugement exercé pendant la création n’avait pas envisagées.",
-          "remaining": "Jusqu’où le savoir de l’artiste peut-il porter sur son œuvre, si celle-ci continue de prendre sens dans des regards qu’il ne dirige pas ?"
+          "remaining": "Jusqu’où le savoir de l’artiste peut-il porter sur son œuvre, si celle-ci continue de prendre sens dans des regards qu’il ne dirige pas ?",
+          "short": "processualisation + métamorphose",
+          "level": "défendable"
         },
         {
           "id": "alternative-a",
@@ -134,7 +148,9 @@ window.PHILO_RESOLUTION_CASES={
             "Sauve la maîtrise partielle sans exiger un savoir total"
           ],
           "cost": "Éclaire deux objets du savoir, mais explique moins directement comment l’invention devient un choix",
-          "remaining": "Éclaire deux objets du savoir, mais explique moins directement comment l’invention devient un choix"
+          "remaining": "Éclaire deux objets du savoir, mais explique moins directement comment l’invention devient un choix",
+          "short": "Distinguer savoir technique et sens de l’œuvre",
+          "level": "à examiner"
         },
         {
           "id": "alternative-b",
@@ -143,7 +159,9 @@ window.PHILO_RESOLUTION_CASES={
             "Prend au sérieux ce qui n’est pas prévisible"
           ],
           "cost": "Sans mécanisme de reconnaissance, l’auteur risque de redevenir un simple lieu de passage",
-          "remaining": "Sans mécanisme de reconnaissance, l’auteur risque de redevenir un simple lieu de passage"
+          "remaining": "Sans mécanisme de reconnaissance, l’auteur risque de redevenir un simple lieu de passage",
+          "short": "l’artiste est traversé par une création qui le dépasse",
+          "level": "à examiner"
         }
       ],
       "preferred": "retenue",
@@ -174,7 +192,9 @@ window.PHILO_RESOLUTION_CASES={
             "Justifier les moyens et les risques de la recherche"
           ],
           "cost": "Reste la difficulté de juger publiquement une recherche dont ni les bénéfices ni certains risques ne sont encore connus.",
-          "remaining": "Comment contrôler les moyens et les risques d’une recherche sans exiger d’elle la prévision des découvertes qui justifient sa liberté ?"
+          "remaining": "Comment contrôler les moyens et les risques d’une recherche sans exiger d’elle la prévision des découvertes qui justifient sa liberté ?",
+          "short": "duplication ontologique + métamorphose",
+          "level": "défendable"
         },
         {
           "id": "alternative-a",
@@ -183,7 +203,9 @@ window.PHILO_RESOLUTION_CASES={
             "Protège les questions scientifiques contre l’utilité immédiate"
           ],
           "cost": "Reporte la responsabilité après des décisions et interventions déjà lourdes de conséquences",
-          "remaining": "Reporte la responsabilité après des décisions et interventions déjà lourdes de conséquences"
+          "remaining": "Reporte la responsabilité après des décisions et interventions déjà lourdes de conséquences",
+          "short": "Distinguer recherche puis applications",
+          "level": "à examiner"
         },
         {
           "id": "alternative-b",
@@ -192,7 +214,9 @@ window.PHILO_RESOLUTION_CASES={
             "Reconnaît les retours des usages sur la recherche"
           ],
           "cost": "L’alternance ne fournit pas à elle seule de critère pour juger les pratiques pendant la recherche",
-          "remaining": "L’alternance ne fournit pas à elle seule de critère pour juger les pratiques pendant la recherche"
+          "remaining": "L’alternance ne fournit pas à elle seule de critère pour juger les pratiques pendant la recherche",
+          "short": "alterner recherche fondamentale et application",
+          "level": "à examiner"
         }
       ],
       "preferred": "retenue",
@@ -223,7 +247,9 @@ window.PHILO_RESOLUTION_CASES={
             "Pouvoir reconnaître et affronter les dangers"
           ],
           "cost": "Reste la souffrance liée à un mal réel, notamment la perte d’un proche : réfuter une peur imaginaire ne supprime pas cette douleur.",
-          "remaining": "Lorsque la souffrance vient d’une perte réelle que comprendre ne supprime pas, comment la lucidité peut-elle encore contribuer au bonheur ?"
+          "remaining": "Lorsque la souffrance vient d’une perte réelle que comprendre ne supprime pas, comment la lucidité peut-elle encore contribuer au bonheur ?",
+          "short": "duplication ontologique + métamorphose",
+          "level": "défendable"
         },
         {
           "id": "alternative-a",
@@ -232,7 +258,9 @@ window.PHILO_RESOLUTION_CASES={
             "Oriente l’action et les jugements vers une maîtrise possible"
           ],
           "cost": "Les dommages réels ne deviennent pas indifférents par le seul fait de ne pas dépendre de nous",
-          "remaining": "Les dommages réels ne deviennent pas indifférents par le seul fait de ne pas dépendre de nous"
+          "remaining": "Les dommages réels ne deviennent pas indifférents par le seul fait de ne pas dépendre de nous",
+          "short": "Distinguer ce qui dépend de nous de ce qui n’en dépend pas",
+          "level": "à examiner"
         },
         {
           "id": "alternative-b",
@@ -241,7 +269,9 @@ window.PHILO_RESOLUTION_CASES={
             "Ne promet pas une sagesse qui supprimerait toute douleur"
           ],
           "cost": "Établit une valeur de la lucidité sans encore expliquer son pouvoir d’apaisement",
-          "remaining": "Établit une valeur de la lucidité sans encore expliquer son pouvoir d’apaisement"
+          "remaining": "Établit une valeur de la lucidité sans encore expliquer son pouvoir d’apaisement",
+          "short": "Consentir à l’inquiétude comme dimension d’une vie lucide",
+          "level": "à examiner"
         }
       ],
       "preferred": "retenue",
@@ -272,7 +302,9 @@ window.PHILO_RESOLUTION_CASES={
             "Expliquer la critique et l’invention dans cette langue"
           ],
           "cost": "Reste que cette transformation dépend de ressources partagées : une expérience peut demeurer difficile à communiquer tant que d’autres ne reconnaissent pas les mots proposés.",
-          "remaining": "Comment une pensée nouvelle peut-elle devenir partageable lorsque les mots par lesquels elle cherche à se dire ne sont pas encore compris ?"
+          "remaining": "Comment une pensée nouvelle peut-elle devenir partageable lorsque les mots par lesquels elle cherche à se dire ne sont pas encore compris ?",
+          "short": "processualisation + inversion d’indexation",
+          "level": "défendable"
         },
         {
           "id": "alternative-a",
@@ -281,7 +313,9 @@ window.PHILO_RESOLUTION_CASES={
             "Explique les innovations expressives"
           ],
           "cost": "La pensée individuelle ne crée pas seule les ressources communes dont elle part",
-          "remaining": "La pensée individuelle ne crée pas seule les ressources communes dont elle part"
+          "remaining": "La pensée individuelle ne crée pas seule les ressources communes dont elle part",
+          "short": "la pensée crée la langue dont elle dépend",
+          "level": "à examiner"
         },
         {
           "id": "alternative-b",
@@ -290,7 +324,9 @@ window.PHILO_RESOLUTION_CASES={
             "Explique l’évolution de ses limites"
           ],
           "cost": "Un simple changement historique ne distingue pas enrichissement et appauvrissement imposé",
-          "remaining": "Un simple changement historique ne distingue pas enrichissement et appauvrissement imposé"
+          "remaining": "Un simple changement historique ne distingue pas enrichissement et appauvrissement imposé",
+          "short": "transformer progressivement la langue",
+          "level": "à examiner"
         }
       ],
       "preferred": "retenue",
@@ -321,7 +357,9 @@ window.PHILO_RESOLUTION_CASES={
             "Permettre un jugement et une action malgré l’incertitude"
           ],
           "cost": "Reste qu’un effet imprévisible peut conduire à réviser l’appréciation d’un choix pourtant raisonnable au moment d’agir.",
-          "remaining": "Comment juger un acte raisonnablement décidé lorsque ses conséquences imprévisibles en révèlent ensuite le mal ?"
+          "remaining": "Comment juger un acte raisonnablement décidé lorsque ses conséquences imprévisibles en révèlent ensuite le mal ?",
+          "short": "suspension épistémique + métamorphose",
+          "level": "défendable"
         },
         {
           "id": "alternative-a",
@@ -330,7 +368,9 @@ window.PHILO_RESOLUTION_CASES={
             "Conserve l’exigence de répondre de l’acte"
           ],
           "cost": "Répondre de l’acte ne démontre pas sa bonté : risque de substitution du sujet",
-          "remaining": "Répondre de l’acte ne démontre pas sa bonté : risque de substitution du sujet"
+          "remaining": "Répondre de l’acte ne démontre pas sa bonté : risque de substitution du sujet",
+          "short": "Métamorphoser la certitude en engagement responsable",
+          "level": "à examiner"
         },
         {
           "id": "alternative-b",
@@ -339,7 +379,9 @@ window.PHILO_RESOLUTION_CASES={
             "Évite une fausse infaillibilité"
           ],
           "cost": "L’action malgré le doute n’explique pas la différence entre un choix justifié et un choix arbitraire",
-          "remaining": "L’action malgré le doute n’explique pas la différence entre un choix justifié et un choix arbitraire"
+          "remaining": "L’action malgré le doute n’explique pas la différence entre un choix justifié et un choix arbitraire",
+          "short": "Consentir au doute et agir sans assurance",
+          "level": "à examiner"
         }
       ],
       "preferred": "retenue",
@@ -370,7 +412,9 @@ window.PHILO_RESOLUTION_CASES={
             "Assumer les dommages dont notre action est responsable"
           ],
           "cost": "Reste que choisir le milieu à restaurer suppose un jugement humain : quelle autonomie préserver quand plusieurs formes de vie entrent en conflit ?",
-          "remaining": "Comment choisir ce qu’il faut restaurer sans faire de nos préférences la seule mesure d’une nature que nous voulons autonome ?"
+          "remaining": "Comment choisir ce qu’il faut restaurer sans faire de nos préférences la seule mesure d’une nature que nous voulons autonome ?",
+          "short": "duplication ontologique + métamorphose",
+          "level": "défendable"
         },
         {
           "id": "alternative-a",
@@ -379,7 +423,9 @@ window.PHILO_RESOLUTION_CASES={
             "Évite la fiction d’une nature globalement dépendante de l’homme"
           ],
           "cost": "Notre besoin ne supprime pas celui d’un milieu abîmé envers certains soins",
-          "remaining": "Notre besoin ne supprime pas celui d’un milieu abîmé envers certains soins"
+          "remaining": "Notre besoin ne supprime pas celui d’un milieu abîmé envers certains soins",
+          "short": "seuls les hommes ont besoin de la nature",
+          "level": "à examiner"
         },
         {
           "id": "alternative-b",
@@ -388,7 +434,9 @@ window.PHILO_RESOLUTION_CASES={
             "Rend intelligible une intervention en vue de l’autonomie"
           ],
           "cost": "La frontière entre intervention temporaire et entretien durable ne vaut pas pour tous les milieux",
-          "remaining": "La frontière entre intervention temporaire et entretien durable ne vaut pas pour tous les milieux"
+          "remaining": "La frontière entre intervention temporaire et entretien durable ne vaut pas pour tous les milieux",
+          "short": "réparer puis se retirer",
+          "level": "à examiner"
         }
       ],
       "preferred": "retenue",
@@ -419,7 +467,9 @@ window.PHILO_RESOLUTION_CASES={
             "Reconnaître le malheur d’autrui et nos obligations"
           ],
           "cost": "Reste le cas où mon bonheur repose matériellement sur une injustice subie par d’autres : leur porter de l’attention ne suffit plus.",
-          "remaining": "Que doit changer celui dont le bonheur dépend d’une injustice, pour que son souci d’autrui ne demeure pas une simple bonne conscience ?"
+          "remaining": "Que doit changer celui dont le bonheur dépend d’une injustice, pour que son souci d’autrui ne demeure pas une simple bonne conscience ?",
+          "short": "duplication ontologique + processualisation",
+          "level": "défendable"
         },
         {
           "id": "alternative-a",
@@ -428,7 +478,9 @@ window.PHILO_RESOLUTION_CASES={
             "Évite de faire dépendre chaque joie de toute souffrance du monde"
           ],
           "cost": "La distance seule ne justifie pas l’indifférence ni la participation à une injustice",
-          "remaining": "La distance seule ne justifie pas l’indifférence ni la participation à une injustice"
+          "remaining": "La distance seule ne justifie pas l’indifférence ni la participation à une injustice",
+          "short": "Distinguer proches et lointains",
+          "level": "à examiner"
         },
         {
           "id": "alternative-b",
@@ -437,7 +489,9 @@ window.PHILO_RESOLUTION_CASES={
             "Rend le bonheur relationnel plutôt que fermé"
           ],
           "cost": "La joie partagée peut ne pas atteindre les victimes dont elle dépend matériellement",
-          "remaining": "La joie partagée peut ne pas atteindre les victimes dont elle dépend matériellement"
+          "remaining": "La joie partagée peut ne pas atteindre les victimes dont elle dépend matériellement",
+          "short": "Métamorphoser le bonheur en joie partagée",
+          "level": "à examiner"
         }
       ],
       "preferred": "retenue",
@@ -468,7 +522,9 @@ window.PHILO_RESOLUTION_CASES={
             "Ne pas nier les interprétations et effets qui nous échappent"
           ],
           "cost": "Reste qu’une parole peut produire un effet irréversible avant que sa rectification soit entendue.",
-          "remaining": "Comment répondre d’une parole dont on peut corriger le sens, mais dont on ne peut plus réparer tous les effets ?"
+          "remaining": "Comment répondre d’une parole dont on peut corriger le sens, mais dont on ne peut plus réparer tous les effets ?",
+          "short": "duplication ontologique + processualisation",
+          "level": "défendable"
         },
         {
           "id": "alternative-a",
@@ -477,7 +533,9 @@ window.PHILO_RESOLUTION_CASES={
             "Explique la responsabilité attachée aux mots"
           ],
           "cost": "Réduit trop vite toute parole à la promesse et remplace la maîtrise par l’engagement",
-          "remaining": "Réduit trop vite toute parole à la promesse et remplace la maîtrise par l’engagement"
+          "remaining": "Réduit trop vite toute parole à la promesse et remplace la maîtrise par l’engagement",
+          "short": "la parole nous engage plutôt que nous la maîtrisons",
+          "level": "à examiner"
         },
         {
           "id": "alternative-b",
@@ -486,7 +544,9 @@ window.PHILO_RESOLUTION_CASES={
             "Évite le fantasme d’un sens totalement contrôlé"
           ],
           "cost": "Sans reprise ni rectification, on ne décrit plus ce qui reste effectivement maîtrisable",
-          "remaining": "Sans reprise ni rectification, on ne décrit plus ce qui reste effectivement maîtrisable"
+          "remaining": "Sans reprise ni rectification, on ne décrit plus ce qui reste effectivement maîtrisable",
+          "short": "Consentir à l’équivocité de toute parole",
+          "level": "à examiner"
         }
       ],
       "preferred": "retenue",
@@ -517,7 +577,9 @@ window.PHILO_RESOLUTION_CASES={
             "Préserver une responsabilité proportionnée aux capacités"
           ],
           "cost": "Reste qu’on ne peut jamais établir exactement toute la part consciente et inconsciente d’un acte : il faut pourtant décider ce qui peut être imputé à son auteur.",
-          "remaining": "Comment attribuer une responsabilité juste lorsque la connaissance de ce qui a déterminé l’acte demeure incomplète ?"
+          "remaining": "Comment attribuer une responsabilité juste lorsque la connaissance de ce qui a déterminé l’acte demeure incomplète ?",
+          "short": "duplication ontologique + métamorphose",
+          "level": "défendable"
         },
         {
           "id": "alternative-a",
@@ -526,7 +588,9 @@ window.PHILO_RESOLUTION_CASES={
             "Fait de la responsabilité une tâche plutôt qu’un état total"
           ],
           "cost": "Ne suffit pas à juger les actes passés ni à distinguer imputation et réparation",
-          "remaining": "Ne suffit pas à juger les actes passés ni à distinguer imputation et réparation"
+          "remaining": "Ne suffit pas à juger les actes passés ni à distinguer imputation et réparation",
+          "short": "devenir responsable en se connaissant",
+          "level": "à examiner"
         },
         {
           "id": "alternative-b",
@@ -535,7 +599,9 @@ window.PHILO_RESOLUTION_CASES={
             "Évite une culpabilité fondée sur la transparence supposée"
           ],
           "cost": "La décision de responsabilité ne peut toujours attendre une connaissance exhaustive",
-          "remaining": "La décision de responsabilité ne peut toujours attendre une connaissance exhaustive"
+          "remaining": "La décision de responsabilité ne peut toujours attendre une connaissance exhaustive",
+          "short": "les motifs inconscients empêchent toute attribution certaine",
+          "level": "à examiner"
         }
       ],
       "preferred": "retenue",
@@ -566,7 +632,9 @@ window.PHILO_RESOLUTION_CASES={
             "Conserver la capacité de juger et de faire autrement"
           ],
           "cost": "Reste le conflit entre une obligation encore légitime et une transformation profonde de celui qui l’a contractée : aucune règle simple ne fixe le prix acceptable de la fidélité.",
-          "remaining": "Quand la fidélité exige de renoncer à ce que l’on est devenu, comment juger si elle accomplit encore la liberté ou la sacrifie ?"
+          "remaining": "Quand la fidélité exige de renoncer à ce que l’on est devenu, comment juger si elle accomplit encore la liberté ou la sacrifie ?",
+          "short": "processualisation + métamorphose",
+          "level": "défendable"
         },
         {
           "id": "alternative-a",
@@ -575,7 +643,9 @@ window.PHILO_RESOLUTION_CASES={
             "Montre que tenir peut rester un acte présent"
           ],
           "cost": "Si la promesse ne vaut qu’à chaque nouveau consentement, l’obligation envers autrui disparaît",
-          "remaining": "Si la promesse ne vaut qu’à chaque nouveau consentement, l’obligation envers autrui disparaît"
+          "remaining": "Si la promesse ne vaut qu’à chaque nouveau consentement, l’obligation envers autrui disparaît",
+          "short": "renouveler librement la promesse chaque jour",
+          "level": "à examiner"
         },
         {
           "id": "alternative-b",
@@ -584,7 +654,9 @@ window.PHILO_RESOLUTION_CASES={
             "Explique qu’un lien puisse libérer de l’humeur"
           ],
           "cost": "Une fidélité devenue injuste peut alors paraître libre par sa seule constance",
-          "remaining": "Une fidélité devenue injuste peut alors paraître libre par sa seule constance"
+          "remaining": "Une fidélité devenue injuste peut alors paraître libre par sa seule constance",
+          "short": "la promesse construit la liberté durable",
+          "level": "à examiner"
         }
       ],
       "preferred": "retenue",
@@ -615,7 +687,9 @@ window.PHILO_RESOLUTION_CASES={
             "Rendre ces raisons accessibles à un esprit situé"
           ],
           "cost": "Reste le refus d’examiner : aucune présentation honnête ne garantit que l’autre accepte de mettre sa conviction à l’épreuve.",
-          "remaining": "Que peut encore faire la raison devant un refus de l’examiner, sans transformer la recherche de conviction en contrainte ?"
+          "remaining": "Que peut encore faire la raison devant un refus de l’examiner, sans transformer la recherche de conviction en contrainte ?",
+          "short": "duplication ontologique + processualisation",
+          "level": "défendable"
         },
         {
           "id": "alternative-a",
@@ -624,7 +698,9 @@ window.PHILO_RESOLUTION_CASES={
             "Protège la vérité contre la seule séduction"
           ],
           "cost": "Risque de classer les moyens sans expliquer comment rendre une preuve effectivement examinable",
-          "remaining": "Risque de classer les moyens sans expliquer comment rendre une preuve effectivement examinable"
+          "remaining": "Risque de classer les moyens sans expliquer comment rendre une preuve effectivement examinable",
+          "short": "Distinguer conviction rationnelle et persuasion affective",
+          "level": "à examiner"
         },
         {
           "id": "alternative-b",
@@ -633,7 +709,9 @@ window.PHILO_RESOLUTION_CASES={
             "Reconnaît l’apprentissage et la maturation"
           ],
           "cost": "La durée ne fournit pas à elle seule le mécanisme qui distingue réflexion et répétition persuasive",
-          "remaining": "La durée ne fournit pas à elle seule le mécanisme qui distingue réflexion et répétition persuasive"
+          "remaining": "La durée ne fournit pas à elle seule le mécanisme qui distingue réflexion et répétition persuasive",
+          "short": "laisser la vérité convaincre avec le temps",
+          "level": "à examiner"
         }
       ],
       "preferred": "retenue",
@@ -664,7 +742,9 @@ window.PHILO_RESOLUTION_CASES={
             "Ne pas autoriser tout moyen et tout risque au nom du pouvoir"
           ],
           "cost": "Reste que des conséquences décisives peuvent être inconnues : le jugement doit parfois décider sans pouvoir établir complètement la sécurité d’un projet.",
-          "remaining": "Comment décider d’un possible technique lorsque ses risques sont incertains et que l’attente elle-même peut priver les hommes d’un bien ?"
+          "remaining": "Comment décider d’un possible technique lorsque ses risques sont incertains et que l’attente elle-même peut priver les hommes d’un bien ?",
+          "short": "métamorphose + inversion d’indexation",
+          "level": "défendable"
         },
         {
           "id": "alternative-a",
@@ -673,7 +753,9 @@ window.PHILO_RESOLUTION_CASES={
             "Évite de faire du pouvoir son propre critère"
           ],
           "cost": "Une fin digne ou majoritaire peut couvrir un moyen injuste et des risques imposés aux absents",
-          "remaining": "Une fin digne ou majoritaire peut couvrir un moyen injuste et des risques imposés aux absents"
+          "remaining": "Une fin digne ou majoritaire peut couvrir un moyen injuste et des risques imposés aux absents",
+          "short": "Distinguer possible et fins collectivement choisies",
+          "level": "à examiner"
         },
         {
           "id": "alternative-b",
@@ -682,7 +764,9 @@ window.PHILO_RESOLUTION_CASES={
             "Préserve apprentissage et innovation"
           ],
           "cost": "La correction peut devenir impossible après un dommage irréversible",
-          "remaining": "La correction peut devenir impossible après un dommage irréversible"
+          "remaining": "La correction peut devenir impossible après un dommage irréversible",
+          "short": "expérimenter puis corriger",
+          "level": "à examiner"
         }
       ],
       "preferred": "retenue",
@@ -713,7 +797,9 @@ window.PHILO_RESOLUTION_CASES={
             "Reconnaître la formation et la nouveauté dans la durée"
           ],
           "cost": "Reste qu’une transformation féconde ne compense pas nécessairement la perte singulière dont elle procède : une œuvre ne rend pas une personne morte.",
-          "remaining": "À quelles conditions ce que le temps permet de créer peut-il donner sens à une perte, sans prétendre la réparer ni la justifier ?"
+          "remaining": "À quelles conditions ce que le temps permet de créer peut-il donner sens à une perte, sans prétendre la réparer ni la justifier ?",
+          "short": "processualisation + duplication ontologique",
+          "level": "défendable"
         },
         {
           "id": "alternative-a",
@@ -722,7 +808,9 @@ window.PHILO_RESOLUTION_CASES={
             "Sauve l’irrévocabilité d’un événement passé"
           ],
           "cost": "Le fait de ne plus pouvoir ne pas avoir été ne conserve pas l’être détruit",
-          "remaining": "Le fait de ne plus pouvoir ne pas avoir été ne conserve pas l’être détruit"
+          "remaining": "Le fait de ne plus pouvoir ne pas avoir été ne conserve pas l’être détruit",
+          "short": "Distinguer ce qui existe de ce qui a existé",
+          "level": "à examiner"
         },
         {
           "id": "alternative-b",
@@ -731,7 +819,9 @@ window.PHILO_RESOLUTION_CASES={
             "Relie disparition et nouveauté dans certains processus"
           ],
           "cost": "Universalise trop vite ce lien et transforme les pertes singulières en sacrifices justifiés",
-          "remaining": "Universalise trop vite ce lien et transforme les pertes singulières en sacrifices justifiés"
+          "remaining": "Universalise trop vite ce lien et transforme les pertes singulières en sacrifices justifiés",
+          "short": "la destruction est condition de création",
+          "level": "à examiner"
         }
       ],
       "preferred": "retenue",
@@ -762,7 +852,9 @@ window.PHILO_RESOLUTION_CASES={
             "Reconnaître la contrainte et l’aliénation du travail réel"
           ],
           "cost": "Reste qu’une société a besoin de tâches pénibles dont l’organisation peut réduire, mais pas toujours supprimer, la répétition et la fatigue.",
-          "remaining": "Comment partager les tâches nécessaires qui restent pénibles, sans réserver à certains le travail formateur et à d’autres sa seule contrainte ?"
+          "remaining": "Comment partager les tâches nécessaires qui restent pénibles, sans réserver à certains le travail formateur et à d’autres sa seule contrainte ?",
+          "short": "métamorphose + processualisation",
+          "level": "défendable"
         },
         {
           "id": "alternative-a",
@@ -771,7 +863,9 @@ window.PHILO_RESOLUTION_CASES={
             "Préserve création et initiative"
           ],
           "cost": "Risque de sauver seulement un travail idéal en excluant les tâches nécessaires contraintes",
-          "remaining": "Risque de sauver seulement un travail idéal en excluant les tâches nécessaires contraintes"
+          "remaining": "Risque de sauver seulement un travail idéal en excluant les tâches nécessaires contraintes",
+          "short": "Métamorphoser le travail en activité libre",
+          "level": "à examiner"
         },
         {
           "id": "alternative-b",
@@ -780,7 +874,9 @@ window.PHILO_RESOLUTION_CASES={
             "Explique certains apprentissages dans la contrainte"
           ],
           "cost": "Risque de rendre toute souffrance formatrice sans épreuve de ses effets réels",
-          "remaining": "Risque de rendre toute souffrance formatrice sans épreuve de ses effets réels"
+          "remaining": "Risque de rendre toute souffrance formatrice sans épreuve de ses effets réels",
+          "short": "traverser l’aliénation pour se former",
+          "level": "à examiner"
         }
       ],
       "preferred": "retenue",
@@ -811,7 +907,9 @@ window.PHILO_RESOLUTION_CASES={
             "Respecter les droits et les effets de la divulgation"
           ],
           "cost": "Reste le conflit entre un secret légitime et une information nécessaire à la protection d’autrui : les deux exigences peuvent demeurer sérieuses.",
-          "remaining": "Quand protéger quelqu’un exige de rompre une confiance légitime, comment justifier ce que l’on révèle sans abolir le devoir de discrétion ?"
+          "remaining": "Quand protéger quelqu’un exige de rompre une confiance légitime, comment justifier ce que l’on révèle sans abolir le devoir de discrétion ?",
+          "short": "duplication ontologique + métamorphose",
+          "level": "défendable"
         },
         {
           "id": "alternative-a",
@@ -820,7 +918,9 @@ window.PHILO_RESOLUTION_CASES={
             "Explique le rôle du tact sans renoncer à l’honnêteté"
           ],
           "cost": "Le tact ne rend pas légitime une divulgation injuste et ne supprime pas tous ses dommages",
-          "remaining": "Le tact ne rend pas légitime une divulgation injuste et ne supprime pas tous ses dommages"
+          "remaining": "Le tact ne rend pas légitime une divulgation injuste et ne supprime pas tous ses dommages",
+          "short": "seule la manière de dire importe",
+          "level": "à examiner"
         },
         {
           "id": "alternative-b",
@@ -829,7 +929,9 @@ window.PHILO_RESOLUTION_CASES={
             "Reconnaît que certaines informations doivent être données malgré leur douleur"
           ],
           "cost": "Ne distingue pas les douleurs nécessaires de celles qu’une divulgation injustifiée impose",
-          "remaining": "Ne distingue pas les douleurs nécessaires de celles qu’une divulgation injustifiée impose"
+          "remaining": "Ne distingue pas les douleurs nécessaires de celles qu’une divulgation injustifiée impose",
+          "short": "la vérité blesse parfois nécessairement",
+          "level": "à examiner"
         }
       ],
       "preferred": "retenue",
@@ -860,7 +962,9 @@ window.PHILO_RESOLUTION_CASES={
             "Expliquer leur reconnaissance sans manipulation"
           ],
           "cost": "Reste que l’interlocuteur peut refuser toute vérification : rendre la preuve accessible ne garantit pas qu’il acceptera de l’examiner.",
-          "remaining": "Lorsque toute vérification est refusée, comment défendre la vérité sans confondre la conviction rationnelle avec une adhésion imposée ?"
+          "remaining": "Lorsque toute vérification est refusée, comment défendre la vérité sans confondre la conviction rationnelle avec une adhésion imposée ?",
+          "short": "duplication ontologique + processualisation",
+          "level": "défendable"
         },
         {
           "id": "alternative-0",
@@ -869,7 +973,9 @@ window.PHILO_RESOLUTION_CASES={
             "Protège la validité contre l’adhésion"
           ],
           "cost": "Sépare les plans sans expliquer comment la preuve devient accessible",
-          "remaining": "Sépare les plans sans expliquer comment la preuve devient accessible"
+          "remaining": "Sépare les plans sans expliquer comment la preuve devient accessible",
+          "short": "Distinguer vérité et persuasion",
+          "level": "à examiner"
         },
         {
           "id": "alternative-1",
@@ -878,7 +984,9 @@ window.PHILO_RESOLUTION_CASES={
             "Reconnaît le temps nécessaire à l’apprentissage"
           ],
           "cost": "La répétition d’un énoncé faux peut aussi produire l’adhésion",
-          "remaining": "La répétition d’un énoncé faux peut aussi produire l’adhésion"
+          "remaining": "La répétition d’un énoncé faux peut aussi produire l’adhésion",
+          "short": "l’habitude finit par rendre le vrai convaincant",
+          "level": "à examiner"
         }
       ],
       "preferred": "retenue",
@@ -909,7 +1017,9 @@ window.PHILO_RESOLUTION_CASES={
             "Préserver une décision collective sur les fins"
           ],
           "cost": "Reste que certains choix deviennent irréversibles ou que leurs conséquences ne sont découvertes qu’après leur adoption : la possibilité de révision ne peut pas toujours être garantie.",
-          "remaining": "Comment décider ensemble lorsque les moyens qui promettent un avenir meilleur risquent de supprimer la possibilité de le choisir autrement ?"
+          "remaining": "Comment décider ensemble lorsque les moyens qui promettent un avenir meilleur risquent de supprimer la possibilité de le choisir autrement ?",
+          "short": "inversion d’indexation + processualisation",
+          "level": "défendable"
         },
         {
           "id": "alternative-0",
@@ -918,7 +1028,9 @@ window.PHILO_RESOLUTION_CASES={
             "Reconnaît la place du jugement"
           ],
           "cost": "Présuppose des moyens neutres et des fins indépendantes de leur transformation",
-          "remaining": "Présuppose des moyens neutres et des fins indépendantes de leur transformation"
+          "remaining": "Présuppose des moyens neutres et des fins indépendantes de leur transformation",
+          "short": "Distinguer moyens techniques et fins politiques",
+          "level": "à examiner"
         },
         {
           "id": "alternative-1",
@@ -927,7 +1039,9 @@ window.PHILO_RESOLUTION_CASES={
             "Préserve un examen des applications"
           ],
           "cost": "Certaines dépendances sont déjà irréversibles quand cet examen commence",
-          "remaining": "Certaines dépendances sont déjà irréversibles quand cet examen commence"
+          "remaining": "Certaines dépendances sont déjà irréversibles quand cet examen commence",
+          "short": "choisir les usages après les inventions",
+          "level": "à examiner"
         }
       ],
       "preferred": "retenue",
@@ -958,7 +1072,9 @@ window.PHILO_RESOLUTION_CASES={
             "Reconnaître les besoins de perception, expression et partage"
           ],
           "cost": "Reste que le récit, le jeu ou la conversation peuvent aussi exprimer et partager une expérience : il faut encore préciser ce que l’art apporte que ces autres pratiques ne réalisent pas toujours.",
-          "remaining": "Qu’apporte une forme artistique à l’expression d’une expérience, que le récit ordinaire et la conversation ne peuvent pas toujours lui donner ?"
+          "remaining": "Qu’apporte une forme artistique à l’expression d’une expérience, que le récit ordinaire et la conversation ne peuvent pas toujours lui donner ?",
+          "short": "duplication ontologique + métamorphose",
+          "level": "défendable"
         },
         {
           "id": "alternative-0",
@@ -967,7 +1083,9 @@ window.PHILO_RESOLUTION_CASES={
             "Élargit la vie humaine au-delà de la survie"
           ],
           "cost": "Ne démontre pas pourquoi un besoin spirituel exigerait précisément une réponse artistique",
-          "remaining": "Ne démontre pas pourquoi un besoin spirituel exigerait précisément une réponse artistique"
+          "remaining": "Ne démontre pas pourquoi un besoin spirituel exigerait précisément une réponse artistique",
+          "short": "Distinguer besoin biologique et besoin spirituel",
+          "level": "à examiner"
         },
         {
           "id": "alternative-1",
@@ -976,7 +1094,9 @@ window.PHILO_RESOLUTION_CASES={
             "Rend le besoin largement accessible"
           ],
           "cost": "Sauve la nécessité en supprimant la distinction entre art et expression ordinaire",
-          "remaining": "Sauve la nécessité en supprimant la distinction entre art et expression ordinaire"
+          "remaining": "Sauve la nécessité en supprimant la distinction entre art et expression ordinaire",
+          "short": "Métamorphoser l’art en toute activité expressive",
+          "level": "à examiner"
         }
       ],
       "preferred": "retenue",
