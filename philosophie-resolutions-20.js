@@ -27,7 +27,7 @@
    if(chosen!==null)feedback();
    return;
   }
-  w.innerHTML='<p><strong>La difficulté de la solution retenue :</strong> '+esc(d.solutions.find(s=>s.id===d.preferred)?.cost||'')+'</p><label for="res20-conclusion">Transformez cette difficulté en question, en une phrase.</label><textarea id="res20-conclusion" rows="3"></textarea><details><summary>Comparer après votre essai</summary><p>'+esc(d.conclusion)+'</p></details>';
+  w.innerHTML='<p><strong>La difficulté de la solution retenue :</strong> '+esc(d.solutions.find(s=>s.id===d.preferred)?.remaining||'')+'</p><label for="res20-conclusion">Transformez cette difficulté en question, en une phrase.</label><textarea id="res20-conclusion" rows="3"></textarea><details><summary>Comparer après votre essai</summary><p>'+esc(d.conclusion)+'</p></details>';
  }
  function feedback(){
   const d=data.cases[idx],s=d.solutions[chosen],f=root.querySelector('#res20-feedback');if(!f)return;
