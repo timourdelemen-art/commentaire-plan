@@ -1,0 +1,178 @@
+{
+  "status": "copie de travail — non publiée et non certifiée",
+  "subject": "Une machine peut-elle penser ?",
+  "sourceScene": "Garry Kasparov contre IBM Deep Blue, 1997 — vérifier source historique et précision des termes avant mise en ligne",
+  "sourceBion": "W. R. Bion, A Theory of Thinking, Second Thoughts, 1967, p. 178-186; traduction personnelle",
+  "sections": [
+    [
+      "INTRODUCTION",
+      [
+        [
+          "En 1997, le champion du monde Garry Kasparov perd un match d'échecs contre Deep Blue, l'ordinateur d'IBM.",
+          "Scène historique précisément située"
+        ],
+        [
+          "La machine trouve des coups que le joueur doit comprendre pour leur répondre : elle semble ainsi accomplir une activité que nous appelons penser.",
+          "Première exigence issue de la scène"
+        ],
+        [
+          "Mais Kasparov joue pour gagner et peut s'interroger sur sa défaite, tandis que les coups calculés par Deep Blue ne prouvent pas que la victoire signifie quelque chose pour la machine.",
+          "Seconde exigence issue de la scène"
+        ],
+        [
+          "Si l'on reconnaît la pensée aux opérations rationnelles, il paraît arbitraire de l'interdire aux machines ; si l'on exige une compréhension vécue, il paraît arbitraire de réserver à notre vie biologique toute pensée possible.",
+          "Mise en relation des deux difficultés"
+        ],
+        [
+          "La scène conduit ainsi à distinguer une performance intellectuelle, la compréhension qu'on lui attribue et le rapport au monde qui pourrait lui donner sens.",
+          "Généralisation problématisante"
+        ],
+        [
+          "Une machine peut-elle véritablement penser par les opérations qu'elle accomplit, ou penser exige-t-il un rapport propre au monde que ces opérations ne suffisent pas à établir ?",
+          "Problématique"
+        ],
+        [
+          "Il faut d'abord mesurer la portée des performances rationnelles, puis examiner ce qu'elles ne prouvent pas, avant de rechercher si la pensée exige une vie ou une autre forme d'engagement dans le monde.",
+          "Annonce dynamique"
+        ]
+      ]
+    ],
+    [
+      "I. DES OPÉRATIONS RATIONNELLES QUI SEMBLENT MANIFESTER LA PENSÉE",
+      [
+        [
+          "Nous reconnaissons souvent la pensée d'autrui à sa capacité d'inférer, de prévoir et de corriger une erreur.",
+          "I.1 Installer : critère public"
+        ],
+        [
+          "Un adversaire d'échecs qui anticipe une combinaison nous paraît réfléchir parce que ses décisions répondent aux exigences de la position.",
+          "I.1 Exemple analysé"
+        ],
+        [
+          "Une machine qui accomplit des opérations comparables ne peut donc être exclue du penser par son seul matériau.",
+          "I.2 Renforcer : critique de l'exclusion de principe"
+        ],
+        [
+          "Turing, en 1950, propose d'examiner la question de l'intelligence des machines à travers une épreuve de conversation, plutôt que de présupposer une définition indiscutable de la pensée.",
+          "I.2 Référence et déplacement méthodologique"
+        ],
+        [
+          "Ce déplacement nous oblige à prendre au sérieux les manifestations publiques de l'intelligence.",
+          "I.2 Conséquence"
+        ],
+        [
+          "Pourtant, un résultat correct ne prouve pas à lui seul que le système comprenne pourquoi il est correct.",
+          "I.3 Objection interne"
+        ],
+        [
+          "Nous risquons de confondre les critères par lesquels nous repérons une pensée avec les conditions qui la constituent.",
+          "I.3 Limite"
+        ],
+        [
+          "Qu'est-ce qui fait d'une réussite une compréhension ?",
+          "Transition · question autonome vers II"
+        ]
+      ]
+    ],
+    [
+      "II. LA PENSÉE SEMBLE IMPLIQUER UNE EXPÉRIENCE QUI LUI DONNE SENS",
+      [
+        [
+          "Comprendre une réponse paraît exiger davantage que l'application de règles produisant la bonne suite de signes.",
+          "II.1 Réponse à la transition"
+        ],
+        [
+          "L'expérience de la chambre chinoise de Searle conteste précisément que la manipulation correcte de symboles suffise à leur compréhension.",
+          "II.1 Objection philosophique"
+        ],
+        [
+          "Mais cette expérience ne démontre pas à elle seule qu'aucune organisation artificielle ne puisse comprendre.",
+          "II.1 Limite de l'objection"
+        ],
+        [
+          "Wilfred Bion, dans « A Theory of Thinking », fait naître le développement de la pensée de la capacité psychique à supporter une frustration.",
+          "II.2 Nouvelle hypothèse"
+        ],
+        [
+          "Il écrit : « A capacity for tolerating frustration thus enables the psyche to develop thought » ; je traduis : « La capacité de tolérer la frustration permet ainsi à la psyché de développer la pensée. »",
+          "II.2 Citation authentifiée : argument génétique"
+        ],
+        [
+          "Penser apparaît alors comme une transformation d'une expérience de manque, non comme une simple suite de performances correctes.",
+          "II.2 Portée de l'argument"
+        ],
+        [
+          "Cependant, montrer comment la pensée humaine se développe ne prouve pas que toute pensée possible doive avoir la même origine affective ou biologique.",
+          "II.3 Limite interne : distinguer genèse et nécessité"
+        ],
+        [
+          "Une théorie de la vie psychique humaine ne saurait devenir sans justification une interdiction universelle de la pensée artificielle.",
+          "II.3 Résultat dialectique"
+        ],
+        [
+          "La vie est-elle une condition de la pensée ou son premier modèle ?",
+          "Transition · question autonome vers III"
+        ]
+      ]
+    ],
+    [
+      "III. RECHERCHER CE QUI CONSTITUE UNE PENSÉE SANS EN PRÉJUGER LE SUPPORT",
+      [
+        [
+          "La première réponse avait raison de considérer les capacités rationnelles ; la seconde rappelait que leur correction ne suffit pas à établir une compréhension.",
+          "III.1 Reprise des acquis"
+        ],
+        [
+          "Leur opposition reposait sur une confusion possible entre ce qui manifeste une pensée, ce qui la constitue et la manière dont elle apparaît chez l'être humain.",
+          "III.1 Diagnostic du présupposé"
+        ],
+        [
+          "Au §360 des Recherches philosophiques, Wittgenstein interroge le statut de l'affirmation qu'une machine ne pourrait pas penser : il nous invite à examiner le sens de cette attribution.",
+          "III.1 Référence : clarification du concept"
+        ],
+        [
+          "Une voie consiste alors à examiner si un système ne se borne pas à produire des raisons, mais peut les utiliser, les rectifier et les relier à des engagements stables dans ses interactions avec un monde.",
+          "III.2 Métamorphose du critère"
+        ],
+        [
+          "La correction d'une erreur doit ici manifester davantage qu'un changement de sortie : elle doit s'inscrire dans une activité où les raisons ont une portée qui dépasse une tâche isolée.",
+          "III.2 Exigence de justification"
+        ],
+        [
+          "Cette exigence ne doit pas être confondue avec une preuve de conscience ni avec la possession d'intérêts comparables aux nôtres.",
+          "III.2 Délimitation et coût"
+        ],
+        [
+          "Une telle conception conserve les performances sans oublier la question de la signification, mais elle risque de redéfinir la pensée à partir des seuls critères que nous savons tester.",
+          "III.3 Objection la plus forte"
+        ],
+        [
+          "Nous pouvons donc admettre la possibilité d'une pensée artificielle sans conclure que les systèmes actuels remplissent toutes ses conditions.",
+          "III.3 Réponse stabilisée"
+        ],
+        [
+          "Reste à savoir comment établir qu'une activité possède un sens propre pour un système, plutôt que pour les humains qui le construisent et l'évaluent.",
+          "III.3 Reste véritable"
+        ]
+      ]
+    ],
+    [
+      "CONCLUSION",
+      [
+        [
+          "Une machine peut en principe penser si les conditions constitutives de la pensée ne sont pas exclusivement biologiques ; ses performances ne suffisent cependant pas à établir qu'elle les remplit.",
+          "Réponse délimitée au sujet"
+        ],
+        [
+          "L'étude de la vie psychique par Bion oblige à préserver le rôle de l'expérience et du manque, tandis que la clarification conceptuelle empêche d'en faire arbitrairement la seule genèse possible.",
+          "Bilan des exigences conservées"
+        ],
+        [
+          "Comment reconnaître un rapport propre au monde qui ne prendrait pas la forme de notre vie ?",
+          "Question née exactement du reste"
+        ]
+      ]
+    ]
+  ],
+  "comparison": "Voir PHILOSOPHIE-MACHINE-DOUBLE-APORIE-RESOLUTION-2026.md"
+}
