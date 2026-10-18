@@ -290,7 +290,7 @@
         "status": "propose",
         "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "40bdd61ee3090295714b92f4f76ab01d1f7fa782f00e2048a70335e2f26a714e"
+      "copySha256": "8aff8b2b7152c12230017d48f7a43acae0179f22170be95faf21aaf0232f2c86"
     },
     "2026-asie-langage": {
       "subject": "Sommes-nous prisonniers du langage ?",
@@ -406,7 +406,7 @@
         "status": "propose",
         "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "96be7b534188f3a246edf07254c0d1b93a06f9b8f7e632072d704f8ec5c8d105"
+      "copySha256": "d214b06b150442ea4507c0bdddc3d49c6572259a60520e866502d23a5236b2b1"
     },
     "2026-g1-nature-besoin": {
       "subject": "La nature a-t-elle besoin de nous ?",
@@ -464,7 +464,7 @@
         "status": "propose",
         "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "1d601cc56d4b7b8ff3e1ed22597c64ec0481144c1da99cfb62234d84b06c4d40"
+      "copySha256": "aae7704b903900dce40154a96d063b466d35b7c1db85fdcd4cac2b4d5621b73e"
     },
     "2026-me-bonheur-autres": {
       "subject": "Peut-on être heureux quand les autres ne le sont pas ?",
@@ -580,7 +580,7 @@
         "status": "propose",
         "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "b07da545402a7186def174765d718a7bf5196bf9f423fe0d5cb774375c4505d4"
+      "copySha256": "ec1e205fee3408fea4ef605c317907d2a20035bb201c602ec8e982b75278e54c"
     },
     "notion-inconscient": {
       "subject": "L’idée d’inconscient remet-elle en cause la responsabilité ?",
@@ -870,7 +870,7 @@
         "status": "propose",
         "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "e1b3fff6c404ec80731b54aa50e6d9b18272f84a91eb3b191603aadd3cf38875"
+      "copySha256": "3df942e2c9a383bde28d1c193df295d5f2155b0ade4d152246bab951bade4b18"
     },
     "notion-travail": {
       "subject": "Le travail nous rend-il plus humain ?",
@@ -986,7 +986,7 @@
         "status": "propose",
         "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "dfa1a9b06fee3007aaef5beb60c1f27ec2361893f699b79d5f77df91a3df0c45"
+      "copySha256": "14250b4e290c7da705f1ce598ffd31a9ef8f133f48982e845291aed03dc40c8f"
     },
     "2025-me-verite": {
       "subject": "La vérité est-elle toujours convaincante ?",
@@ -1051,7 +1051,7 @@
         "title": "La vérité est-elle toujours convaincante ?",
         "sourceDocument": "Document officiel de la session 2025, libellé contrôlé page 2 ; index ministériel lié dans la page."
       },
-      "copySha256": "909b7626e046a335f829b17d3c5ff37770ca72c38f8da2c429d65c82eae8a2ec"
+      "copySha256": "b03b379e99b9ae43131f1bb9c58f900904f4ed4f3f45fefc767220e48a1e7031"
     },
     "2025-me-avenir-technique": {
       "subject": "Notre avenir dépend-il de la technique ?",
@@ -1116,7 +1116,7 @@
         "title": "Notre avenir dépend-il de la technique ?",
         "sourceDocument": "Document officiel de la session 2025, libellé contrôlé page 2 ; index ministériel lié dans la page."
       },
-      "copySha256": "dd7af172c1b063c2e490dad708d93bf30d343434f0f82a6ae07b8472c6599a41"
+      "copySha256": "d9bb0357a93b1410f9e9c2ed1223310942fcf5a68f12dd0bab5d5db11d1dd148"
     },
     "2025-me-besoin-art": {
       "subject": "Avons-nous besoin d’art ?",
@@ -1181,7 +1181,7 @@
         "title": "Avons-nous besoin d’art ?",
         "sourceDocument": "Document officiel de la session 2025, libellé contrôlé page 2 ; index ministériel lié dans la page."
       },
-      "copySha256": "cf70b3219069ec26ed143b90ee5735e91d56d8a18daa4f8cd6411c37d04e290c"
+      "copySha256": "f3f5da97db6a6454dca1613987f8696bb9387664e96a8513bb2c11b6f6e330d6"
     }
   }
 }
