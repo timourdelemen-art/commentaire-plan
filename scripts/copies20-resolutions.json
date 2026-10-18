@@ -11,7 +11,7 @@
       "scene": {
         "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
         "analysis": "L’État a été l’auteur de l’injustice et l’instrument de sa fin ; mais il n’a corrigé ses lois que parce que des citoyens les avaient refusées.",
-        "review": "Examen individuel à confirmer par le propriétaire avant fusion ; aucune scène déclarée homologuée automatiquement."
+        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
       },
       "candidates": [
         {
@@ -51,14 +51,14 @@
       "conclusionQuestion": "Lorsque l’État détruit les voies par lesquelles on pouvait le corriger, comment lui résister sans abandonner l’exigence d’une justice commune ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 798
+        "words": 823
       },
       "review": {
         "author": "ChatGPT",
         "status": "propose",
         "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "b35077504b89f97047d71d87f7f970f696cabb97130ad21d91ee80c8bf4e9ee8"
+      "copySha256": "72504767f550726030e98fb0bb8bb7c1fec1e1882df00ac207c3f758fb0d787e"
     },
     "2026-ag-humanite-religion": {
       "subject": "Peut-on concevoir une humanité sans religion ?",
@@ -69,7 +69,7 @@
       "scene": {
         "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
         "analysis": "À peine a-t-on chassé la religion qu’on en invente une autre, comme si un peuple ne pouvait se passer d’un culte commun.",
-        "review": "Examen individuel à confirmer par le propriétaire avant fusion ; aucune scène déclarée homologuée automatiquement."
+        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
       },
       "candidates": [
         {
@@ -109,14 +109,14 @@
       "conclusionQuestion": "Comment maintenir des convictions communes assez fortes pour nous unir, sans les rendre sacrées au point d’interdire leur examen ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 831
+        "words": 878
       },
       "review": {
         "author": "ChatGPT",
         "status": "propose",
         "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "99a629e6b215f1ada2e05ffa180480fc2f08e1cd505204eac907dc4ab2c4427e"
+      "copySha256": "b55fe71f6706428954f89073373ae0cd83c94f16fb83ac603cde45a2deb3d321"
     },
     "2026-an-artiste-sait": {
       "subject": "L’artiste sait-il ce qu’il fait ?",
@@ -127,7 +127,7 @@
       "scene": {
         "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
         "analysis": "Quand il le montre enfin, Porbus et le jeune Poussin ne voient qu’un amas confus de couleurs, d’où sort seulement, dans un coin, un pied d’une perfection vivante, alors que Frenhofer croyait avoir peint le tableau le plus parfait du monde.",
-        "review": "Examen individuel à confirmer par le propriétaire avant fusion ; aucune scène déclarée homologuée automatiquement."
+        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
       },
       "candidates": [
         {
@@ -167,14 +167,14 @@
       "conclusionQuestion": "Jusqu’où le savoir de l’artiste peut-il porter sur son œuvre, si celle-ci continue de prendre sens dans des regards qu’il ne dirige pas ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 669
+        "words": 694
       },
       "review": {
         "author": "ChatGPT",
         "status": "propose",
         "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "7ab474782afcd24d55ee67f4bb424a7ec544d8ee84360c393658d19a002e4854"
+      "copySha256": "af57f85150a4f8c179752ca9093ebd9c0eae21a2a8c8a2f548f7e05647fd8a33"
     },
     "2026-an-science-utile": {
       "subject": "La science doit-elle être utile ?",
@@ -185,7 +185,7 @@
       "scene": {
         "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
         "analysis": "Un siècle plus tard, chaque GPS doit corriger l’heure de ses satellites selon ses équations, faute de quoi il se tromperait de plusieurs kilomètres par jour.",
-        "review": "Examen individuel à confirmer par le propriétaire avant fusion ; aucune scène déclarée homologuée automatiquement."
+        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
       },
       "candidates": [
         {
@@ -225,14 +225,14 @@
       "conclusionQuestion": "Comment contrôler les moyens et les risques d’une recherche sans exiger d’elle la prévision des découvertes qui justifient sa liberté ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 780
+        "words": 804
       },
       "review": {
         "author": "ChatGPT",
         "status": "propose",
         "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "8e6f9762a303b78599f71d1ea1e5b1a6336a78b5806b6244e40c3801e1f3a469"
+      "copySha256": "ed3006e027725ee51533883920ed054859868d7a2eb2f05b737869303a14d4f9"
     },
     "2026-asie-inconscient-bonheur": {
       "subject": "Faut-il être inconscient pour être heureux ?",
@@ -243,7 +243,7 @@
       "scene": {
         "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
         "analysis": "Savourant un steak dont il sait qu’il n’existe pas, il conclut que l’ignorance fait le bonheur ; on le méprise, on le comprend aussi.",
-        "review": "Examen individuel à confirmer par le propriétaire avant fusion ; aucune scène déclarée homologuée automatiquement."
+        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
       },
       "candidates": [
         {
@@ -283,14 +283,14 @@
       "conclusionQuestion": "Lorsque la souffrance vient d’une perte réelle que comprendre ne supprime pas, comment la lucidité peut-elle encore contribuer au bonheur ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 708
+        "words": 730
       },
       "review": {
         "author": "ChatGPT",
         "status": "propose",
         "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "8aff8b2b7152c12230017d48f7a43acae0179f22170be95faf21aaf0232f2c86"
+      "copySha256": "7387aee8f4ff4307e8c01494d7467b452a8e603943d435a7c2236c73c28353af"
     },
     "2026-asie-langage": {
       "subject": "Sommes-nous prisonniers du langage ?",
@@ -301,7 +301,7 @@
       "scene": {
         "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
         "analysis": "Le but est clair : quand il n’y aura plus de mots pour la révolte, on ne pourra même plus la penser ; mais le roman lui-même invente des mots pour rendre pensable ce danger : la langue peut-elle aussi servir à critiquer ce qui enferme ?",
-        "review": "Examen individuel à confirmer par le propriétaire avant fusion ; aucune scène déclarée homologuée automatiquement."
+        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
       },
       "candidates": [
         {
@@ -341,14 +341,14 @@
       "conclusionQuestion": "Comment une pensée nouvelle peut-elle devenir partageable lorsque les mots par lesquels elle cherche à se dire ne sont pas encore compris ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 756
+        "words": 776
       },
       "review": {
         "author": "ChatGPT",
         "status": "propose",
         "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "187878712d90a57e45a42ad5bb4acc0b15a68237f6ded444ba8279c283ee8513"
+      "copySha256": "e4949dcdff05c71506f9f1f7bec49fbded39b320ce39d5738527f58e259d0c41"
     },
     "2026-g1-bien-agir": {
       "subject": "Peut-on être certain d’avoir bien agi ?",
@@ -359,7 +359,7 @@
       "scene": {
         "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
         "analysis": "Le film de Clint Eastwood, Sully, montre ce qui suit : l’enquête, les simulations qui laissent penser qu’il aurait peut-être pu regagner un aéroport, et le pilote qui, seul la nuit, se demande s’il a bien fait.",
-        "review": "Examen individuel à confirmer par le propriétaire avant fusion ; aucune scène déclarée homologuée automatiquement."
+        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
       },
       "candidates": [
         {
@@ -399,14 +399,14 @@
       "conclusionQuestion": "Comment juger un acte raisonnablement décidé lorsque ses conséquences imprévisibles en révèlent ensuite le mal ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 787
+        "words": 804
       },
       "review": {
         "author": "ChatGPT",
         "status": "propose",
         "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "d214b06b150442ea4507c0bdddc3d49c6572259a60520e866502d23a5236b2b1"
+      "copySha256": "a8c7cb4bc51a36da54864caf11aa235335bd8811afdaddd7dc599a46630907ed"
     },
     "2026-g1-nature-besoin": {
       "subject": "La nature a-t-elle besoin de nous ?",
@@ -417,7 +417,7 @@
       "scene": {
         "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
         "analysis": "Là où l’homme s’est retiré, la nature n’a pas attendu qu’on la sauve ; pourtant nous parlons de « sauver la planète », comme si elle dépendait de nous.",
-        "review": "Examen individuel à confirmer par le propriétaire avant fusion ; aucune scène déclarée homologuée automatiquement."
+        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
       },
       "candidates": [
         {
@@ -457,14 +457,14 @@
       "conclusionQuestion": "Comment choisir ce qu’il faut restaurer sans faire de nos préférences la seule mesure d’une nature que nous voulons autonome ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 767
+        "words": 785
       },
       "review": {
         "author": "ChatGPT",
         "status": "propose",
         "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "aae7704b903900dce40154a96d063b466d35b7c1db85fdcd4cac2b4d5621b73e"
+      "copySha256": "45c69104616b72de6c766fd7b89b555dc6570ac5377bd6df2b2fe8eb073a97e0"
     },
     "2026-me-bonheur-autres": {
       "subject": "Peut-on être heureux quand les autres ne le sont pas ?",
@@ -475,7 +475,7 @@
       "scene": {
         "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
         "analysis": "Leur modèle est un vieux Turc qui ne sait rien des vizirs qu’on vient d’étrangler dans la capitale, et ne s’occupe que de son jardin.",
-        "review": "Examen individuel à confirmer par le propriétaire avant fusion ; aucune scène déclarée homologuée automatiquement."
+        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
       },
       "candidates": [
         {
@@ -515,14 +515,14 @@
       "conclusionQuestion": "Que doit changer celui dont le bonheur dépend d’une injustice, pour que son souci d’autrui ne demeure pas une simple bonne conscience ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 760
+        "words": 789
       },
       "review": {
         "author": "ChatGPT",
         "status": "propose",
         "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "a830213773fe1d2146d6aac6eabe4316866cdb6608f11db5dc05e1956db3ddbc"
+      "copySha256": "1cf42c16ef97730421968b2ea5523f52e1e4ca73450c61388987da27f532e28e"
     },
     "2026-me-paroles": {
       "subject": "Avons-nous la maîtrise de nos paroles ?",
@@ -533,7 +533,7 @@
       "scene": {
         "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
         "analysis": "Elle parle de « ce fils de l’Amazone » ; Œnone s’écrie : « Hippolyte ! », et Phèdre répond : « C’est toi qui l’as nommé. »",
-        "review": "Examen individuel à confirmer par le propriétaire avant fusion ; aucune scène déclarée homologuée automatiquement."
+        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
       },
       "candidates": [
         {
@@ -573,14 +573,14 @@
       "conclusionQuestion": "Comment répondre d’une parole dont on peut corriger le sens, mais dont on ne peut plus réparer tous les effets ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 724
+        "words": 748
       },
       "review": {
         "author": "ChatGPT",
         "status": "propose",
         "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "ec1e205fee3408fea4ef605c317907d2a20035bb201c602ec8e982b75278e54c"
+      "copySha256": "f1103183a9ca4c0411a1df73a2877b3db65716e6a68902c5d7514260ff822f80"
     },
     "notion-inconscient": {
       "subject": "L’idée d’inconscient remet-elle en cause la responsabilité ?",
@@ -591,7 +591,7 @@
       "scene": {
         "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
         "analysis": "Quand la vérité éclate, il se crève les yeux et réclame l’exil : les conséquences lui appartiennent, mais a-t-il voulu les crimes dont il découvre être l’auteur ?",
-        "review": "Examen individuel à confirmer par le propriétaire avant fusion ; aucune scène déclarée homologuée automatiquement."
+        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
       },
       "candidates": [
         {
@@ -631,14 +631,14 @@
       "conclusionQuestion": "Comment attribuer une responsabilité juste lorsque la connaissance de ce qui a déterminé l’acte demeure incomplète ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 815
+        "words": 842
       },
       "review": {
         "author": "ChatGPT",
         "status": "propose",
         "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "323aac81691e156cd636191eafa77e811ee4d94fc5e9a84679353627d434ff51"
+      "copySha256": "dbec27641823c1077875f8d03ad34511ef23ce8e75612b349c2e5aeec4e384e0"
     },
     "notion-liberte": {
       "subject": "S’engager, est-ce renoncer à sa liberté ?",
@@ -649,7 +649,7 @@
       "scene": {
         "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
         "analysis": "Antigone refuse cet édit par fidélité à son frère : tous deux sont engagés, mais leur fidélité leur laisse-t-elle encore le pouvoir de juger ce qu’elle exige ?",
-        "review": "Examen individuel à confirmer par le propriétaire avant fusion ; aucune scène déclarée homologuée automatiquement."
+        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
       },
       "candidates": [
         {
@@ -689,14 +689,14 @@
       "conclusionQuestion": "Quand la fidélité exige de renoncer à ce que l’on est devenu, comment juger si elle accomplit encore la liberté ou la sacrifie ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 737
+        "words": 765
       },
       "review": {
         "author": "ChatGPT",
         "status": "propose",
         "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "c7069b824062376d966ed901394b33df7855182bac620fcae07292cdae500f64"
+      "copySha256": "b9f8881c909e09d4c7aba4177b342c6ad05c29828df0b63c43d4c1142a16e796"
     },
     "notion-raison": {
       "subject": "Suffit-il d’avoir raison pour convaincre ?",
@@ -707,7 +707,7 @@
       "scene": {
         "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
         "analysis": "Un seul vote non, non qu’il le croie innocent, mais pour qu’on en discute ; au terme d’une longue délibération, il les aura tous ramenés à son avis, un par un.",
-        "review": "Examen individuel à confirmer par le propriétaire avant fusion ; aucune scène déclarée homologuée automatiquement."
+        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
       },
       "candidates": [
         {
@@ -747,14 +747,14 @@
       "conclusionQuestion": "Que peut encore faire la raison devant un refus de l’examiner, sans transformer la recherche de conviction en contrainte ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 775
+        "words": 810
       },
       "review": {
         "author": "ChatGPT",
         "status": "propose",
         "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "657b645bf590a943bd330b9ce8ff9afa11bad39899005c30e9ba452213aa3974"
+      "copySha256": "363bb26a56d0b5ab525e81720f53922f78d485a02c047a5e1bd3bdd4b57f6370"
     },
     "notion-technique": {
       "subject": "Ce qui est techniquement possible est-il toujours souhaitable ?",
@@ -765,7 +765,7 @@
       "scene": {
         "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
         "analysis": "Plus tard, il promet à la créature de lui fabriquer une compagne, puis la détruit avant de l’achever, de peur d’engendrer une race de monstres ; la créature se venge sur ceux qu’il aime.",
-        "review": "Examen individuel à confirmer par le propriétaire avant fusion ; aucune scène déclarée homologuée automatiquement."
+        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
       },
       "candidates": [
         {
@@ -805,14 +805,14 @@
       "conclusionQuestion": "Comment décider d’un possible technique lorsque ses risques sont incertains et que l’attente elle-même peut priver les hommes d’un bien ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 837
+        "words": 858
       },
       "review": {
         "author": "ChatGPT",
         "status": "propose",
         "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "7148282b74a9a870bfe0c7e114c1de6d6013c129416bc334c530636cf37d19dd"
+      "copySha256": "aa05036fb84035ee0434a94e47a0411d3dd5dea7b300f016a7746323729cda31"
     },
     "notion-temps": {
       "subject": "Le temps est-il nécessairement destructeur ?",
@@ -823,7 +823,7 @@
       "scene": {
         "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
         "analysis": "Ces déguisements sont l’œuvre du temps ; pourtant, quelques instants plus tôt, des souvenirs soudain ressurgis lui ont révélé l’œuvre qu’il lui reste à écrire, le livre qui sauvera ce temps perdu.",
-        "review": "Examen individuel à confirmer par le propriétaire avant fusion ; aucune scène déclarée homologuée automatiquement."
+        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
       },
       "candidates": [
         {
@@ -863,14 +863,14 @@
       "conclusionQuestion": "À quelles conditions ce que le temps permet de créer peut-il donner sens à une perte, sans prétendre la réparer ni la justifier ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 812
+        "words": 839
       },
       "review": {
         "author": "ChatGPT",
         "status": "propose",
         "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "3df942e2c9a383bde28d1c193df295d5f2155b0ade4d152246bab951bade4b18"
+      "copySha256": "271868be984806557d238bd350590c3dc2af9e43392d1eaf0620d1ccfc62edda"
     },
     "notion-travail": {
       "subject": "Le travail nous rend-il plus humain ?",
@@ -881,7 +881,7 @@
       "scene": {
         "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
         "analysis": "Et pourtant, le même Charlot passe le film à chercher du travail, car sans lui il n’a ni toit ni place parmi les autres.",
-        "review": "Examen individuel à confirmer par le propriétaire avant fusion ; aucune scène déclarée homologuée automatiquement."
+        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
       },
       "candidates": [
         {
@@ -921,14 +921,14 @@
       "conclusionQuestion": "Comment partager les tâches nécessaires qui restent pénibles, sans réserver à certains le travail formateur et à d’autres sa seule contrainte ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 798
+        "words": 820
       },
       "review": {
         "author": "ChatGPT",
         "status": "propose",
         "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "cedd588449310067300931b74bef7a82f199b3cddbe5f5bf1d8c603f7110d0b1"
+      "copySha256": "cdb655ca83adaf881d6ced8dfde8c6ab5f9089811b09dee5ea8b81df004dd921"
     },
     "notion-verite": {
       "subject": "Toute vérité est-elle bonne à dire ?",
@@ -939,7 +939,7 @@
       "scene": {
         "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
         "analysis": "Il a raison, car le sonnet est médiocre ; mais il se fait un ennemi, et la scène tourne à l’affaire d’honneur.",
-        "review": "Examen individuel à confirmer par le propriétaire avant fusion ; aucune scène déclarée homologuée automatiquement."
+        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
       },
       "candidates": [
         {
@@ -979,14 +979,14 @@
       "conclusionQuestion": "Quand protéger quelqu’un exige de rompre une confiance légitime, comment justifier ce que l’on révèle sans abolir le devoir de discrétion ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 827
+        "words": 861
       },
       "review": {
         "author": "ChatGPT",
         "status": "propose",
         "independentReview": "À effectuer par Claude ; la traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "14250b4e290c7da705f1ce598ffd31a9ef8f133f48982e845291aed03dc40c8f"
+      "copySha256": "b3bb4b833426a08aeba9bf95703e77543f133a24c51a85a8a19cf78dabe98198"
     },
     "2025-me-verite": {
       "subject": "La vérité est-elle toujours convaincante ?",
@@ -997,7 +997,7 @@
       "scene": {
         "source": "Référence de l’œuvre indiquée dans la copie ; récit paraphrasé sans citation.",
         "analysis": "Il sait quelque chose que les autres ignorent ; pourtant ce savoir ne leur apparaît pas comme une raison de le croire. La vérité peut éclairer celui qui la découvre sans s’imposer à ceux auxquels il la dit.",
-        "review": "Examen individuel à confirmer par le propriétaire avant fusion."
+        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
       },
       "candidates": [
         {
@@ -1037,7 +1037,7 @@
       "conclusionQuestion": "Lorsque toute vérification est refusée, comment défendre la vérité sans confondre la conviction rationnelle avec une adhésion imposée ?",
       "economy": {
         "principle": "Préserver raisons, objection et réponse avant de supprimer une phrase.",
-        "words": 603
+        "words": 625
       },
       "review": {
         "author": "ChatGPT",
@@ -1051,7 +1051,7 @@
         "title": "La vérité est-elle toujours convaincante ?",
         "sourceDocument": "Document officiel de la session 2025, libellé contrôlé page 2 ; index ministériel lié dans la page."
       },
-      "copySha256": "b03b379e99b9ae43131f1bb9c58f900904f4ed4f3f45fefc767220e48a1e7031"
+      "copySha256": "60eebfe122de08c4caeba948a5afef551eff8f62c5cf72e3718f874579e30ba4"
     },
     "2025-me-avenir-technique": {
       "subject": "Notre avenir dépend-il de la technique ?",
@@ -1062,7 +1062,7 @@
       "scene": {
         "source": "Référence de l’œuvre indiquée dans la copie ; récit paraphrasé sans citation.",
         "analysis": "Les moyens de survivre ne donnent donc pas à eux seuls les moyens de vivre ensemble. Pourtant la justice ne nourrit ni n’abrite ceux auxquels manquent les techniques.",
-        "review": "Examen individuel à confirmer par le propriétaire avant fusion."
+        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
       },
       "candidates": [
         {
@@ -1102,7 +1102,7 @@
       "conclusionQuestion": "Comment décider ensemble lorsque les moyens qui promettent un avenir meilleur risquent de supprimer la possibilité de le choisir autrement ?",
       "economy": {
         "principle": "Préserver raisons, objection et réponse avant de supprimer une phrase.",
-        "words": 613
+        "words": 636
       },
       "review": {
         "author": "ChatGPT",
@@ -1116,7 +1116,7 @@
         "title": "Notre avenir dépend-il de la technique ?",
         "sourceDocument": "Document officiel de la session 2025, libellé contrôlé page 2 ; index ministériel lié dans la page."
       },
-      "copySha256": "d9bb0357a93b1410f9e9c2ed1223310942fcf5a68f12dd0bab5d5db11d1dd148"
+      "copySha256": "203ad0f97889dd0f2110f03ee7bd67d8a8f52e3cf680b156ade6e1cddced595d"
     },
     "2025-me-besoin-art": {
       "subject": "Avons-nous besoin d’art ?",
@@ -1127,7 +1127,7 @@
       "scene": {
         "source": "Référence de l’œuvre indiquée dans la copie ; récit paraphrasé sans citation.",
         "analysis": "Le chant n’est ni un repas ni un abri. Pourtant il touche une expérience que l’accueil matériel n’avait pas fait reconnaître : vivre parmi les autres demande-t-il aussi de pouvoir leur faire entendre ce que l’on a vécu ?",
-        "review": "Examen individuel à confirmer par le propriétaire avant fusion."
+        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
       },
       "candidates": [
         {
@@ -1167,7 +1167,7 @@
       "conclusionQuestion": "Qu’apporte une forme artistique à l’expression d’une expérience, que le récit ordinaire et la conversation ne peuvent pas toujours lui donner ?",
       "economy": {
         "principle": "Préserver raisons, objection et réponse avant de supprimer une phrase.",
-        "words": 652
+        "words": 675
       },
       "review": {
         "author": "ChatGPT",
@@ -1181,7 +1181,7 @@
         "title": "Avons-nous besoin d’art ?",
         "sourceDocument": "Document officiel de la session 2025, libellé contrôlé page 2 ; index ministériel lié dans la page."
       },
-      "copySha256": "f3f5da97db6a6454dca1613987f8696bb9387664e96a8513bb2c11b6f6e330d6"
+      "copySha256": "4be2ec4daf0da1c9daf4843e9270ff2d5e4f857e22403a95c9cd526e7982883f"
     }
   }
 }
