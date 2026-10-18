@@ -661,6 +661,14 @@
         "nextComparison": "Distinguer la question de la nécessité de l'inconscience de celle de la suffisance de la lucidité.",
         "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
         "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
+      },
+      "targetedReview": {
+        "issue": "La troisième partie montre que la lucidité peut soulager, non qu'elle suffise à rendre heureux.",
+        "fix": "Conserver la réponse négative à la nécessité : une joie lucide est possible, sans faire de la conscience une garantie du bonheur.",
+        "cost": "Il faut établir un cas où le bonheur ne dépend pas de l'ignorance, sans nier les souffrances irréductibles.",
+        "rest": "Même sans illusion, certaines douleurs peuvent empêcher le bonheur ; la possibilité ne vaut pas garantie.",
+        "rewrite": "Retoucher la formulation conclusive si elle suggère que la lucidité rend heureux.",
+        "status": "proposition éditoriale, non appliquée à la copie"
       }
     },
     "2026-asie-langage": {
@@ -925,6 +933,14 @@
         "nextComparison": "Distinguer certitude de l'acte au moment d'agir et évaluation rétrospective.",
         "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
         "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
+      },
+      "targetedReview": {
+        "issue": "La justification d'un acte ne constitue pas une certitude qu'il est bon.",
+        "fix": "Répondre explicitement : la certitude infaillible est généralement inaccessible ; on peut toutefois juger raisonnablement l'acte.",
+        "cost": "Renoncer à la certitude absolue sans abaisser l'exigence d'examen moral.",
+        "rest": "L'évaluation après coup peut changer avec les conséquences, sans rendre irrationnelle toute décision antérieure.",
+        "rewrite": "Vérifier que l'introduction et la conclusion ne confondent jamais certitude et justification.",
+        "status": "proposition éditoriale, non appliquée à la copie"
       }
     },
     "2026-g1-nature-besoin": {
@@ -1189,6 +1205,14 @@
         "nextComparison": "Faire intervenir la distinction entre malheur d'autrui et profit tiré de ce malheur.",
         "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
         "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
+      },
+      "targetedReview": {
+        "issue": "La compassion permet une joie non indifférente, mais elle ne justifie pas une joie tirée d'une injustice.",
+        "fix": "Distinguer le bonheur malgré le malheur d'autrui et le bonheur obtenu grâce à ce malheur.",
+        "cost": "La possibilité d'être heureux demeure conditionnelle à la relation réelle entre notre bonheur et le tort subi.",
+        "rest": "Quand le bien-être dépend d'une exploitation, l'attention morale ne suffit pas : quelle transformation matérielle est due ?",
+        "rewrite": "Renforcer la distinction en III et faire du cas de complicité une limite précise.",
+        "status": "proposition éditoriale, non appliquée à la copie"
       }
     },
     "2026-me-paroles": {
@@ -1981,6 +2005,14 @@
         "nextComparison": "Ne pas confondre possibilité de création et nécessité de toute destruction.",
         "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
         "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
+      },
+      "targetedReview": {
+        "issue": "Montrer des acquisitions ne signifie pas que les pertes sont compensées.",
+        "fix": "Répondre à « nécessairement » par un contre-exemple conceptuel : un devenir peut produire une capacité sans détruire un bien équivalent.",
+        "cost": "Ne pas universaliser le progrès à partir de quelques transformations fécondes.",
+        "rest": "Une création peut coexister avec une perte irréparable sans en constituer la justification.",
+        "rewrite": "Clarifier que la thèse porte sur la non-nécessité, non sur la bonté globale du temps.",
+        "status": "proposition éditoriale, non appliquée à la copie"
       }
     },
     "notion-travail": {
@@ -2641,6 +2673,14 @@
         "nextComparison": "Comparer la forme artistique aux pratiques non artistiques qui satisfont des besoins voisins.",
         "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
         "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
+      },
+      "targetedReview": {
+        "issue": "Le besoin d'expression peut être satisfait hors de l'art : il faut établir une spécificité.",
+        "fix": "Distinguer le besoin de formes sensibles partageables du besoin de telle œuvre ou pratique ; préciser ce que l'élaboration artistique rend possible.",
+        "cost": "La notion d'art ne doit pas être étendue à toute activité expressive.",
+        "rest": "Les jeux, récits ou conversations satisfont aussi des besoins voisins : qu'ajoute une forme reconnue comme artistique ?",
+        "rewrite": "Tester si la III justifie suffisamment la spécificité de l'art, sinon la préciser.",
+        "status": "proposition éditoriale, non appliquée à la copie"
       }
     }
   },
@@ -2650,6 +2690,7 @@
     "firstPassEvaluated": 20,
     "secondPassDiagnostic": 20,
     "finalSelections": 0,
-    "notes": "Second passage de diagnostic des combinaisons et points de réfutation. Il ne démontre pas la meilleure résolution. Les copies et exercices n'ont pas été réécrits."
+    "notes": "Second passage de diagnostic des combinaisons et points de réfutation. Il ne démontre pas la meilleure résolution. Les copies et exercices n'ont pas été réécrits.",
+    "targetedReviews": 5
   }
 }
