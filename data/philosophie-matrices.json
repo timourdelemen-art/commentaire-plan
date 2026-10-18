@@ -1,30 +1,99 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "source": "Analyse croisée sujets de dissertation philosophie + dictionnaire paradoxal",
   "matrices": [
     {
       "id": "condition-cachee",
       "titre": "La condition cachée",
       "structure": "Ce qui semble limiter une réalité peut être ce qui la rend possible.",
-      "auteurs": ["Rousseau", "Kant", "Spinoza", "Hegel"]
+      "auteurs": [
+        "Rousseau",
+        "Kant",
+        "Spinoza",
+        "Hegel"
+      ]
     },
     {
       "id": "definition-renversee",
       "titre": "La définition spontanée renversée",
       "structure": "Ce qu'une notion semble être immédiatement doit être redéfini par une analyse plus profonde.",
-      "auteurs": ["Platon", "Descartes", "Nietzsche"]
+      "auteurs": [
+        "Platon",
+        "Descartes",
+        "Nietzsche"
+      ]
     },
     {
       "id": "valeur-limite",
       "titre": "La valeur qui rencontre sa limite interne",
       "structure": "Une valeur considérée comme absolue peut entrer en contradiction avec ses propres conditions.",
-      "auteurs": ["Pascal", "Nietzsche", "Platon"]
+      "auteurs": [
+        "Pascal",
+        "Nietzsche",
+        "Platon"
+      ]
     },
     {
       "id": "desir",
       "titre": "Le désir : manque ou puissance",
       "structure": "Le désir peut être compris comme privation ou comme force productive.",
-      "auteurs": ["Platon", "Epicure", "Spinoza"]
+      "auteurs": [
+        "Platon",
+        "Epicure",
+        "Spinoza"
+      ]
     }
-  ]
+  ],
+  "source_detail": "Dulau, Morano, Steffens (dir.), Dictionnaire paradoxal de la philosophie, Cerf 2022, préface à la seconde édition, PDF p. 34–39. Huit familles dont abolition à deux sous-types.",
+  "resolutions": [
+    {
+      "id": "duplication",
+      "titre": "Duplication ontologique",
+      "operation": "Distinguer des plans de réalité",
+      "reste": "Coût : postuler un dédoublement et expliquer leur rapport"
+    },
+    {
+      "id": "abolition",
+      "titre": "Abolition partielle ou totale",
+      "operation": "Supprimer une détermination ou le concept",
+      "reste": "Coût : perte de ce qu'il fallait expliquer"
+    },
+    {
+      "id": "processus",
+      "titre": "Processualisation",
+      "operation": "Articuler les contraires dans un devenir",
+      "reste": "Coût : fournir le moteur et préserver l'unité"
+    },
+    {
+      "id": "inversion",
+      "titre": "Inversion d'indexation",
+      "operation": "Inverser condition et conditionné",
+      "reste": "Coût : expliquer l'écart à l'intuition"
+    },
+    {
+      "id": "metamorphose",
+      "titre": "Métamorphose",
+      "operation": "Transformer la chose en conservant son identité",
+      "reste": "Coût : établir la règle et ce qui demeure"
+    },
+    {
+      "id": "deplacement",
+      "titre": "Déplacement",
+      "operation": "Faire porter la contradiction par une autre notion",
+      "reste": "Coût : risque de simple report"
+    },
+    {
+      "id": "suspension",
+      "titre": "Suspension épistémique",
+      "operation": "Déterminer la limite légitime du savoir",
+      "reste": "Coût : expliquer comment la limite est connaissable"
+    },
+    {
+      "id": "consentement",
+      "titre": "Consentement à la contradiction",
+      "operation": "Reconnaître une tension irréductible",
+      "reste": "Coût : établir pourquoi ce maintien est une réponse"
+    }
+  ],
+  "regle_selection": "Comparer préservation des deux exigences, coût conceptuel, mécanisme effectif et force de l'objection résiduelle ; égalité possible, aucun score de vérité."
 }
