@@ -50,4 +50,4 @@ Audit théorique et deux cas de reconnaissance effectués ; **audit exhaustif, r
 4. Traiter spécialement la dissertation sur l'engagement : le reste actuel de la banque et celui de la page vitrine ne sont pas identiques ; vérifier si le dernier met réellement à l'épreuve la résolution choisie.
 
 ## Correction ciblée réalisée
-La page vitrine `philosophie-copie-20-s-engager-liberte.html` est modifiée : le reste final porte désormais sur le conflit entre fidélité légitime et transformation de soi. Le paradoxe d'Antigone reste exploité dans le retour à la scène, mais n'est plus présenté comme le coût résiduel de la processualisation. La copie de la banque (`scripts/copies20-data.json`) exprimait déjà cette difficulté ; elle n'a pas été modifiée.
+La copie source `scripts/copies20-data.json` porte déjà le reste sur le conflit entre fidélité légitime et transformation de soi ; la page vitrine versionnée était ancienne. Ne pas modifier ce HTML généré : `scripts/philo-copie20.js` le reconstruit au build. Une vérification du build reste nécessaire.
