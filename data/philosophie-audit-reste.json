@@ -1,0 +1,796 @@
+{
+  "version": 1,
+  "date": "2026-10-18",
+  "basis": "scripts/copies20-resolutions.json",
+  "method": "Audit structurel exhaustif ; ne pas confondre avec jugement philosophique indépendant.",
+  "count": 20,
+  "criteria": [
+    "préservation des exigences",
+    "mécanisme résolutoire",
+    "coût conceptuel",
+    "objection résiduelle",
+    "question de conclusion"
+  ],
+  "cases": {
+    "2026-ag-etat-injustice": {
+      "subject": "Revient-il principalement à l’État de lutter contre l’injustice ?",
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "La priorité de l’État concerne la garantie commune des droits, non un monopole du jugement moral. Les citoyens, les associations et les institutions de contrôle doivent pouvoir contester son action.",
+          "preserves": [
+            "Garantir des droits par une force commune",
+            "Permettre la critique de cette force"
+          ],
+          "cost": "Reste le cas où le pouvoir ferme les voies de contestation : les garanties qui rendent ce partage juste ne peuvent plus être présupposées.",
+          "remainingProblem": "Lorsque l’État détruit les voies par lesquelles on pouvait le corriger, comment lui résister sans abandonner l’exigence d’une justice commune ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Inverser : la mobilisation rend la justice publique possible",
+          "preserves": [
+            "Explique le rôle causal des citoyens"
+          ],
+          "cost": "Ne dit pas qui garantit durablement les droits après la mobilisation",
+          "remainingProblem": "Ne dit pas qui garantit durablement les droits après la mobilisation"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Processualiser : contestation, réforme, application",
+          "preserves": [
+            "Relie la critique à un changement institutionnel"
+          ],
+          "cost": "Une succession ne garantit pas les voies de contrôle pendant l’application",
+          "remainingProblem": "Une succession ne garantit pas les voies de contrôle pendant l’application"
+        }
+      ],
+      "chosen": "retenue",
+      "allRequirementsRecorded": true,
+      "residual": "Reste le cas où le pouvoir ferme les voies de contestation : les garanties qui rendent ce partage juste ne peuvent plus être présupposées.",
+      "conclusionQuestion": "Lorsque l’État détruit les voies par lesquelles on pouvait le corriger, comment lui résister sans abandonner l’exigence d’une justice commune ?",
+      "verdict": "choix provisoire argumenté ; comparaison indépendante non achevée",
+      "reviewFlag": null
+    },
+    "2026-ag-humanite-religion": {
+      "subject": "Peut-on concevoir une humanité sans religion ?",
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "Le fait que la religion ait assuré ces fonctions ne prouve pas qu’elle seule puisse les assurer. Une communauté peut reconnaître des droits et organiser une solidarité sans partager une révélation, un culte ou une autorité sacrée.",
+          "preserves": [
+            "Assurer des liens et des fins communes",
+            "Conserver l’examen libre des croyances"
+          ],
+          "cost": "Reste que des principes discutables peuvent être sacralisés : un lien initialement ouvert à la critique peut devenir un dogme qui interdit de le contester.",
+          "remainingProblem": "Comment maintenir des convictions communes assez fortes pour nous unir, sans les rendre sacrées au point d’interdire leur examen ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Métamorphoser : une religion rationnelle commune",
+          "preserves": [
+            "Maintient une forme collective et des convictions discutées"
+          ],
+          "cost": "Risque de renommer religion toute conviction commune, sans établir la nécessité du sacré",
+          "remainingProblem": "Risque de renommer religion toute conviction commune, sans établir la nécessité du sacré"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Suspendre : on ignore ce qu’une humanité entière pourrait devenir",
+          "preserves": [
+            "Évite une prédiction historique injustifiée"
+          ],
+          "cost": "Le sujet demande une possibilité concevable, pas une prévision ; on peut examiner une cohérence",
+          "remainingProblem": "Le sujet demande une possibilité concevable, pas une prévision ; on peut examiner une cohérence"
+        }
+      ],
+      "chosen": "retenue",
+      "allRequirementsRecorded": true,
+      "residual": "Reste que des principes discutables peuvent être sacralisés : un lien initialement ouvert à la critique peut devenir un dogme qui interdit de le contester.",
+      "conclusionQuestion": "Comment maintenir des convictions communes assez fortes pour nous unir, sans les rendre sacrées au point d’interdire leur examen ?",
+      "verdict": "choix provisoire argumenté ; comparaison indépendante non achevée",
+      "reviewFlag": null
+    },
+    "2026-an-artiste-sait": {
+      "subject": "L’artiste sait-il ce qu’il fait ?",
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "Une possibilité imprévue n’est pas un hasard simplement subi si l’artiste la reconnaît, la juge et la retravaille. Son savoir porte aussi sur cette capacité de faire évoluer son projet.",
+          "preserves": [
+            "Reconnaître le savoir et les choix de l’artiste",
+            "Préserver l’invention imprévisible"
+          ],
+          "cost": "Reste que l’œuvre peut recevoir des significations que même ce jugement exercé pendant la création n’avait pas envisagées.",
+          "remainingProblem": "Jusqu’où le savoir de l’artiste peut-il porter sur son œuvre, si celle-ci continue de prendre sens dans des regards qu’il ne dirige pas ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Distinguer savoir technique et sens de l’œuvre",
+          "preserves": [
+            "Sauve la maîtrise partielle sans exiger un savoir total"
+          ],
+          "cost": "Éclaire deux objets du savoir, mais explique moins directement comment l’invention devient un choix",
+          "remainingProblem": "Éclaire deux objets du savoir, mais explique moins directement comment l’invention devient un choix"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Consentir : l’artiste est traversé par une création qui le dépasse",
+          "preserves": [
+            "Prend au sérieux ce qui n’est pas prévisible"
+          ],
+          "cost": "Sans mécanisme de reconnaissance, l’auteur risque de redevenir un simple lieu de passage",
+          "remainingProblem": "Sans mécanisme de reconnaissance, l’auteur risque de redevenir un simple lieu de passage"
+        }
+      ],
+      "chosen": "retenue",
+      "allRequirementsRecorded": true,
+      "residual": "Reste que l’œuvre peut recevoir des significations que même ce jugement exercé pendant la création n’avait pas envisagées.",
+      "conclusionQuestion": "Jusqu’où le savoir de l’artiste peut-il porter sur son œuvre, si celle-ci continue de prendre sens dans des regards qu’il ne dirige pas ?",
+      "verdict": "choix provisoire argumenté ; comparaison indépendante non achevée",
+      "reviewFlag": null
+    },
+    "2026-an-science-utile": {
+      "subject": "La science doit-elle être utile ?",
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "Ne pas imposer une application connue d’avance n’interdit pas d’examiner un protocole, ses dangers ou l’emploi des ressources. La liberté de chercher concerne la question scientifique ; elle n’exempte pas les pratiques de recherche de toute responsabilité.",
+          "preserves": [
+            "Préserver les découvertes dont l’usage est imprévisible",
+            "Justifier les moyens et les risques de la recherche"
+          ],
+          "cost": "Reste la difficulté de juger publiquement une recherche dont ni les bénéfices ni certains risques ne sont encore connus.",
+          "remainingProblem": "Comment contrôler les moyens et les risques d’une recherche sans exiger d’elle la prévision des découvertes qui justifient sa liberté ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Distinguer recherche puis applications",
+          "preserves": [
+            "Protège les questions scientifiques contre l’utilité immédiate"
+          ],
+          "cost": "Reporte la responsabilité après des décisions et interventions déjà lourdes de conséquences",
+          "remainingProblem": "Reporte la responsabilité après des décisions et interventions déjà lourdes de conséquences"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Processualiser : alterner recherche fondamentale et application",
+          "preserves": [
+            "Reconnaît les retours des usages sur la recherche"
+          ],
+          "cost": "L’alternance ne fournit pas à elle seule de critère pour juger les pratiques pendant la recherche",
+          "remainingProblem": "L’alternance ne fournit pas à elle seule de critère pour juger les pratiques pendant la recherche"
+        }
+      ],
+      "chosen": "retenue",
+      "allRequirementsRecorded": true,
+      "residual": "Reste la difficulté de juger publiquement une recherche dont ni les bénéfices ni certains risques ne sont encore connus.",
+      "conclusionQuestion": "Comment contrôler les moyens et les risques d’une recherche sans exiger d’elle la prévision des découvertes qui justifient sa liberté ?",
+      "verdict": "choix provisoire argumenté ; comparaison indépendante non achevée",
+      "reviewFlag": null
+    },
+    "2026-asie-inconscient-bonheur": {
+      "subject": "Faut-il être inconscient pour être heureux ?",
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "La lucidité ne consiste pas seulement à accumuler les menaces : elle peut distinguer un danger réel d’une représentation qui nous tourmente inutilement. Connaître peut alors diminuer la crainte plutôt que l’accroître.",
+          "preserves": [
+            "Préserver une paix possible",
+            "Pouvoir reconnaître et affronter les dangers"
+          ],
+          "cost": "Reste la souffrance liée à un mal réel, notamment la perte d’un proche : réfuter une peur imaginaire ne supprime pas cette douleur.",
+          "remainingProblem": "Lorsque la souffrance vient d’une perte réelle que comprendre ne supprime pas, comment la lucidité peut-elle encore contribuer au bonheur ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Distinguer ce qui dépend de nous de ce qui n’en dépend pas",
+          "preserves": [
+            "Oriente l’action et les jugements vers une maîtrise possible"
+          ],
+          "cost": "Les dommages réels ne deviennent pas indifférents par le seul fait de ne pas dépendre de nous",
+          "remainingProblem": "Les dommages réels ne deviennent pas indifférents par le seul fait de ne pas dépendre de nous"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Consentir à l’inquiétude comme dimension d’une vie lucide",
+          "preserves": [
+            "Ne promet pas une sagesse qui supprimerait toute douleur"
+          ],
+          "cost": "Établit une valeur de la lucidité sans encore expliquer son pouvoir d’apaisement",
+          "remainingProblem": "Établit une valeur de la lucidité sans encore expliquer son pouvoir d’apaisement"
+        }
+      ],
+      "chosen": "retenue",
+      "allRequirementsRecorded": true,
+      "residual": "Reste la souffrance liée à un mal réel, notamment la perte d’un proche : réfuter une peur imaginaire ne supprime pas cette douleur.",
+      "conclusionQuestion": "Lorsque la souffrance vient d’une perte réelle que comprendre ne supprime pas, comment la lucidité peut-elle encore contribuer au bonheur ?",
+      "verdict": "choix provisoire argumenté ; comparaison indépendante non achevée",
+      "reviewFlag": null
+    },
+    "2026-asie-langage": {
+      "subject": "Sommes-nous prisonniers du langage ?",
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "Nous pouvons contester une expression avec d’autres expressions, expliquer un mot inconnu ou comparer des traductions. La critique n’exige donc pas de sortir de tout langage : elle travaille ses ressources contre ses habitudes.",
+          "preserves": [
+            "Reconnaître une langue héritée et commune",
+            "Expliquer la critique et l’invention dans cette langue"
+          ],
+          "cost": "Reste que cette transformation dépend de ressources partagées : une expérience peut demeurer difficile à communiquer tant que d’autres ne reconnaissent pas les mots proposés.",
+          "remainingProblem": "Comment une pensée nouvelle peut-elle devenir partageable lorsque les mots par lesquels elle cherche à se dire ne sont pas encore compris ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Inverser : la pensée crée la langue dont elle dépend",
+          "preserves": [
+            "Explique les innovations expressives"
+          ],
+          "cost": "La pensée individuelle ne crée pas seule les ressources communes dont elle part",
+          "remainingProblem": "La pensée individuelle ne crée pas seule les ressources communes dont elle part"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Processualiser : transformer progressivement la langue",
+          "preserves": [
+            "Explique l’évolution de ses limites"
+          ],
+          "cost": "Un simple changement historique ne distingue pas enrichissement et appauvrissement imposé",
+          "remainingProblem": "Un simple changement historique ne distingue pas enrichissement et appauvrissement imposé"
+        }
+      ],
+      "chosen": "retenue",
+      "allRequirementsRecorded": true,
+      "residual": "Reste que cette transformation dépend de ressources partagées : une expérience peut demeurer difficile à communiquer tant que d’autres ne reconnaissent pas les mots proposés.",
+      "conclusionQuestion": "Comment une pensée nouvelle peut-elle devenir partageable lorsque les mots par lesquels elle cherche à se dire ne sont pas encore compris ?",
+      "verdict": "choix provisoire argumenté ; comparaison indépendante non achevée",
+      "reviewFlag": null
+    },
+    "2026-g1-bien-agir": {
+      "subject": "Peut-on être certain d’avoir bien agi ?",
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "La certitude absolue d’avoir bien agi demeure hors de portée ; un jugement justifié reste pourtant possible. Il compare les raisons accessibles, les risques prévisibles et les autres décisions possibles, puis accepte d’être révisé.",
+          "preserves": [
+            "Examiner motifs et effets pour juger moralement",
+            "Permettre un jugement et une action malgré l’incertitude"
+          ],
+          "cost": "Reste qu’un effet imprévisible peut conduire à réviser l’appréciation d’un choix pourtant raisonnable au moment d’agir.",
+          "remainingProblem": "Comment juger un acte raisonnablement décidé lorsque ses conséquences imprévisibles en révèlent ensuite le mal ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Métamorphoser la certitude en engagement responsable",
+          "preserves": [
+            "Conserve l’exigence de répondre de l’acte"
+          ],
+          "cost": "Répondre de l’acte ne démontre pas sa bonté : risque de substitution du sujet",
+          "remainingProblem": "Répondre de l’acte ne démontre pas sa bonté : risque de substitution du sujet"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Consentir au doute et agir sans assurance",
+          "preserves": [
+            "Évite une fausse infaillibilité"
+          ],
+          "cost": "L’action malgré le doute n’explique pas la différence entre un choix justifié et un choix arbitraire",
+          "remainingProblem": "L’action malgré le doute n’explique pas la différence entre un choix justifié et un choix arbitraire"
+        }
+      ],
+      "chosen": "retenue",
+      "allRequirementsRecorded": true,
+      "residual": "Reste qu’un effet imprévisible peut conduire à réviser l’appréciation d’un choix pourtant raisonnable au moment d’agir.",
+      "conclusionQuestion": "Comment juger un acte raisonnablement décidé lorsque ses conséquences imprévisibles en révèlent ensuite le mal ?",
+      "verdict": "choix provisoire argumenté ; comparaison indépendante non achevée",
+      "reviewFlag": null
+    },
+    "2026-g1-nature-besoin": {
+      "subject": "La nature a-t-elle besoin de nous ?",
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "La nature comme ensemble des processus ne dépend pas de notre présence ; des espèces et des équilibres déterminés peuvent dépendre de nos choix. Notre propre dépendance envers eux donne une raison de les protéger sans prétendre gouverner chaque processus.",
+          "preserves": [
+            "Préserver les capacités propres des êtres naturels",
+            "Assumer les dommages dont notre action est responsable"
+          ],
+          "cost": "Reste que choisir le milieu à restaurer suppose un jugement humain : quelle autonomie préserver quand plusieurs formes de vie entrent en conflit ?",
+          "remainingProblem": "Comment choisir ce qu’il faut restaurer sans faire de nos préférences la seule mesure d’une nature que nous voulons autonome ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Inverser : seuls les hommes ont besoin de la nature",
+          "preserves": [
+            "Évite la fiction d’une nature globalement dépendante de l’homme"
+          ],
+          "cost": "Notre besoin ne supprime pas celui d’un milieu abîmé envers certains soins",
+          "remainingProblem": "Notre besoin ne supprime pas celui d’un milieu abîmé envers certains soins"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Processualiser : réparer puis se retirer",
+          "preserves": [
+            "Rend intelligible une intervention en vue de l’autonomie"
+          ],
+          "cost": "La frontière entre intervention temporaire et entretien durable ne vaut pas pour tous les milieux",
+          "remainingProblem": "La frontière entre intervention temporaire et entretien durable ne vaut pas pour tous les milieux"
+        }
+      ],
+      "chosen": "retenue",
+      "allRequirementsRecorded": true,
+      "residual": "Reste que choisir le milieu à restaurer suppose un jugement humain : quelle autonomie préserver quand plusieurs formes de vie entrent en conflit ?",
+      "conclusionQuestion": "Comment choisir ce qu’il faut restaurer sans faire de nos préférences la seule mesure d’une nature que nous voulons autonome ?",
+      "verdict": "choix provisoire argumenté ; comparaison indépendante non achevée",
+      "reviewFlag": null
+    },
+    "2026-me-bonheur-autres": {
+      "subject": "Peut-on être heureux quand les autres ne le sont pas ?",
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "La compassion n’oblige pas à reproduire en soi toute la souffrance dont on prend connaissance. Un bonheur peut inclure de l’inquiétude et se prolonger en aide ; la joie ne démontre alors ni l’ignorance ni l’approbation du malheur.",
+          "preserves": [
+            "Préserver la possibilité d’une vie heureuse",
+            "Reconnaître le malheur d’autrui et nos obligations"
+          ],
+          "cost": "Reste le cas où mon bonheur repose matériellement sur une injustice subie par d’autres : leur porter de l’attention ne suffit plus.",
+          "remainingProblem": "Que doit changer celui dont le bonheur dépend d’une injustice, pour que son souci d’autrui ne demeure pas une simple bonne conscience ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Distinguer proches et lointains",
+          "preserves": [
+            "Évite de faire dépendre chaque joie de toute souffrance du monde"
+          ],
+          "cost": "La distance seule ne justifie pas l’indifférence ni la participation à une injustice",
+          "remainingProblem": "La distance seule ne justifie pas l’indifférence ni la participation à une injustice"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Métamorphoser le bonheur en joie partagée",
+          "preserves": [
+            "Rend le bonheur relationnel plutôt que fermé"
+          ],
+          "cost": "La joie partagée peut ne pas atteindre les victimes dont elle dépend matériellement",
+          "remainingProblem": "La joie partagée peut ne pas atteindre les victimes dont elle dépend matériellement"
+        }
+      ],
+      "chosen": "retenue",
+      "allRequirementsRecorded": true,
+      "residual": "Reste le cas où mon bonheur repose matériellement sur une injustice subie par d’autres : leur porter de l’attention ne suffit plus.",
+      "conclusionQuestion": "Que doit changer celui dont le bonheur dépend d’une injustice, pour que son souci d’autrui ne demeure pas une simple bonne conscience ?",
+      "verdict": "choix provisoire argumenté ; comparaison indépendante non achevée",
+      "reviewFlag": null
+    },
+    "2026-me-paroles": {
+      "subject": "Avons-nous la maîtrise de nos paroles ?",
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "Nous pouvons choisir des mots, vérifier ce que l’autre a compris et rectifier un malentendu ; nous ne pouvons pas décider à sa place de toute interprétation. La maîtrise est donc un travail de formulation et de reprise, plutôt qu’une propriété acquise avant de parler.",
+          "preserves": [
+            "Reconnaître notre pouvoir de formulation",
+            "Ne pas nier les interprétations et effets qui nous échappent"
+          ],
+          "cost": "Reste qu’une parole peut produire un effet irréversible avant que sa rectification soit entendue.",
+          "remainingProblem": "Comment répondre d’une parole dont on peut corriger le sens, mais dont on ne peut plus réparer tous les effets ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Inverser : la parole nous engage plutôt que nous la maîtrisons",
+          "preserves": [
+            "Explique la responsabilité attachée aux mots"
+          ],
+          "cost": "Réduit trop vite toute parole à la promesse et remplace la maîtrise par l’engagement",
+          "remainingProblem": "Réduit trop vite toute parole à la promesse et remplace la maîtrise par l’engagement"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Consentir à l’équivocité de toute parole",
+          "preserves": [
+            "Évite le fantasme d’un sens totalement contrôlé"
+          ],
+          "cost": "Sans reprise ni rectification, on ne décrit plus ce qui reste effectivement maîtrisable",
+          "remainingProblem": "Sans reprise ni rectification, on ne décrit plus ce qui reste effectivement maîtrisable"
+        }
+      ],
+      "chosen": "retenue",
+      "allRequirementsRecorded": true,
+      "residual": "Reste qu’une parole peut produire un effet irréversible avant que sa rectification soit entendue.",
+      "conclusionQuestion": "Comment répondre d’une parole dont on peut corriger le sens, mais dont on ne peut plus réparer tous les effets ?",
+      "verdict": "choix provisoire argumenté ; comparaison indépendante non achevée",
+      "reviewFlag": null
+    },
+    "notion-inconscient": {
+      "subject": "L’idée d’inconscient remet-elle en cause la responsabilité ?",
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "Un désir ignoré, un acte accompli et une conséquence à réparer n’engagent pas la même responsabilité. L’inconscient invite à examiner la capacité réelle de comprendre et de choisir ; la responsabilité se construit aussi lorsque nous apprenons à reconnaître ce qui nous détermine.",
+          "preserves": [
+            "Reconnaître ce qui échappe au choix conscient",
+            "Préserver une responsabilité proportionnée aux capacités"
+          ],
+          "cost": "Reste qu’on ne peut jamais établir exactement toute la part consciente et inconsciente d’un acte : il faut pourtant décider ce qui peut être imputé à son auteur.",
+          "remainingProblem": "Comment attribuer une responsabilité juste lorsque la connaissance de ce qui a déterminé l’acte demeure incomplète ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Processualiser : devenir responsable en se connaissant",
+          "preserves": [
+            "Fait de la responsabilité une tâche plutôt qu’un état total"
+          ],
+          "cost": "Ne suffit pas à juger les actes passés ni à distinguer imputation et réparation",
+          "remainingProblem": "Ne suffit pas à juger les actes passés ni à distinguer imputation et réparation"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Suspendre : les motifs inconscients empêchent toute attribution certaine",
+          "preserves": [
+            "Évite une culpabilité fondée sur la transparence supposée"
+          ],
+          "cost": "La décision de responsabilité ne peut toujours attendre une connaissance exhaustive",
+          "remainingProblem": "La décision de responsabilité ne peut toujours attendre une connaissance exhaustive"
+        }
+      ],
+      "chosen": "retenue",
+      "allRequirementsRecorded": true,
+      "residual": "Reste qu’on ne peut jamais établir exactement toute la part consciente et inconsciente d’un acte : il faut pourtant décider ce qui peut être imputé à son auteur.",
+      "conclusionQuestion": "Comment attribuer une responsabilité juste lorsque la connaissance de ce qui a déterminé l’acte demeure incomplète ?",
+      "verdict": "choix provisoire argumenté ; comparaison indépendante non achevée",
+      "reviewFlag": null
+    },
+    "notion-liberte": {
+      "subject": "S’engager, est-ce renoncer à sa liberté ?",
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "Une promesse donne à autrui une raison de compter sur nous : elle oblige au-delà de notre préférence présente. La reprendre librement consiste à reconnaître cette raison, non à décider chaque matin qu’elle ne vaut que si elle nous plaît encore.",
+          "preserves": [
+            "Donner durée et force à la promesse",
+            "Conserver la capacité de juger et de faire autrement"
+          ],
+          "cost": "Reste le conflit entre une obligation encore légitime et une transformation profonde de celui qui l’a contractée : aucune règle simple ne fixe le prix acceptable de la fidélité.",
+          "remainingProblem": "Quand la fidélité exige de renoncer à ce que l’on est devenu, comment juger si elle accomplit encore la liberté ou la sacrifie ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Processualiser : renouveler librement la promesse chaque jour",
+          "preserves": [
+            "Montre que tenir peut rester un acte présent"
+          ],
+          "cost": "Si la promesse ne vaut qu’à chaque nouveau consentement, l’obligation envers autrui disparaît",
+          "remainingProblem": "Si la promesse ne vaut qu’à chaque nouveau consentement, l’obligation envers autrui disparaît"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Inverser : la promesse construit la liberté durable",
+          "preserves": [
+            "Explique qu’un lien puisse libérer de l’humeur"
+          ],
+          "cost": "Une fidélité devenue injuste peut alors paraître libre par sa seule constance",
+          "remainingProblem": "Une fidélité devenue injuste peut alors paraître libre par sa seule constance"
+        }
+      ],
+      "chosen": "retenue",
+      "allRequirementsRecorded": true,
+      "residual": "Reste le conflit entre une obligation encore légitime et une transformation profonde de celui qui l’a contractée : aucune règle simple ne fixe le prix acceptable de la fidélité.",
+      "conclusionQuestion": "Quand la fidélité exige de renoncer à ce que l’on est devenu, comment juger si elle accomplit encore la liberté ou la sacrifie ?",
+      "verdict": "choix provisoire argumenté ; comparaison indépendante non achevée",
+      "reviewFlag": "Comparer le coût d'une fidélité renouvelée avec l'obligation envers autrui et la possibilité d'un changement moral profond."
+    },
+    "notion-raison": {
+      "subject": "Suffit-il d’avoir raison pour convaincre ?",
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "Avoir raison désigne la validité d’un jugement ; convaincre exige que l’autre puisse en examiner les raisons. Clarifier un terme, reprendre une objection ou proposer une vérification peut favoriser cette reconnaissance sans remplacer la preuve par la séduction.",
+          "preserves": [
+            "Préserver la force des raisons valides",
+            "Rendre ces raisons accessibles à un esprit situé"
+          ],
+          "cost": "Reste le refus d’examiner : aucune présentation honnête ne garantit que l’autre accepte de mettre sa conviction à l’épreuve.",
+          "remainingProblem": "Que peut encore faire la raison devant un refus de l’examiner, sans transformer la recherche de conviction en contrainte ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Distinguer conviction rationnelle et persuasion affective",
+          "preserves": [
+            "Protège la vérité contre la seule séduction"
+          ],
+          "cost": "Risque de classer les moyens sans expliquer comment rendre une preuve effectivement examinable",
+          "remainingProblem": "Risque de classer les moyens sans expliquer comment rendre une preuve effectivement examinable"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Processualiser : laisser la vérité convaincre avec le temps",
+          "preserves": [
+            "Reconnaît l’apprentissage et la maturation"
+          ],
+          "cost": "La durée ne fournit pas à elle seule le mécanisme qui distingue réflexion et répétition persuasive",
+          "remainingProblem": "La durée ne fournit pas à elle seule le mécanisme qui distingue réflexion et répétition persuasive"
+        }
+      ],
+      "chosen": "retenue",
+      "allRequirementsRecorded": true,
+      "residual": "Reste le refus d’examiner : aucune présentation honnête ne garantit que l’autre accepte de mettre sa conviction à l’épreuve.",
+      "conclusionQuestion": "Que peut encore faire la raison devant un refus de l’examiner, sans transformer la recherche de conviction en contrainte ?",
+      "verdict": "choix provisoire argumenté ; comparaison indépendante non achevée",
+      "reviewFlag": null
+    },
+    "notion-technique": {
+      "subject": "Ce qui est techniquement possible est-il toujours souhaitable ?",
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "Le souhaitable exige de justifier la fin, les moyens et les effets prévisibles. Une fin digne ne rend pas tous ses moyens acceptables : soigner ne suffit pas à autoriser une expérience imposée à ceux qui en subiront les risques.",
+          "preserves": [
+            "Préserver les biens rendus possibles par la technique",
+            "Ne pas autoriser tout moyen et tout risque au nom du pouvoir"
+          ],
+          "cost": "Reste que des conséquences décisives peuvent être inconnues : le jugement doit parfois décider sans pouvoir établir complètement la sécurité d’un projet.",
+          "remainingProblem": "Comment décider d’un possible technique lorsque ses risques sont incertains et que l’attente elle-même peut priver les hommes d’un bien ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Distinguer possible et fins collectivement choisies",
+          "preserves": [
+            "Évite de faire du pouvoir son propre critère"
+          ],
+          "cost": "Une fin digne ou majoritaire peut couvrir un moyen injuste et des risques imposés aux absents",
+          "remainingProblem": "Une fin digne ou majoritaire peut couvrir un moyen injuste et des risques imposés aux absents"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Processualiser : expérimenter puis corriger",
+          "preserves": [
+            "Préserve apprentissage et innovation"
+          ],
+          "cost": "La correction peut devenir impossible après un dommage irréversible",
+          "remainingProblem": "La correction peut devenir impossible après un dommage irréversible"
+        }
+      ],
+      "chosen": "retenue",
+      "allRequirementsRecorded": true,
+      "residual": "Reste que des conséquences décisives peuvent être inconnues : le jugement doit parfois décider sans pouvoir établir complètement la sécurité d’un projet.",
+      "conclusionQuestion": "Comment décider d’un possible technique lorsque ses risques sont incertains et que l’attente elle-même peut priver les hommes d’un bien ?",
+      "verdict": "choix provisoire argumenté ; comparaison indépendante non achevée",
+      "reviewFlag": null
+    },
+    "notion-temps": {
+      "subject": "Le temps est-il nécessairement destructeur ?",
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "Le temps permet des transformations où ce qui disparaît laisse des capacités ou des effets : l’apprentissage remplace une ignorance, une œuvre reprend une expérience. Ces gains ne rendent pas la chose perdue, mais empêchent d’assimiler tout passage à une pure ruine.",
+          "preserves": [
+            "Reconnaître les pertes réelles",
+            "Reconnaître la formation et la nouveauté dans la durée"
+          ],
+          "cost": "Reste qu’une transformation féconde ne compense pas nécessairement la perte singulière dont elle procède : une œuvre ne rend pas une personne morte.",
+          "remainingProblem": "À quelles conditions ce que le temps permet de créer peut-il donner sens à une perte, sans prétendre la réparer ni la justifier ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Distinguer ce qui existe de ce qui a existé",
+          "preserves": [
+            "Sauve l’irrévocabilité d’un événement passé"
+          ],
+          "cost": "Le fait de ne plus pouvoir ne pas avoir été ne conserve pas l’être détruit",
+          "remainingProblem": "Le fait de ne plus pouvoir ne pas avoir été ne conserve pas l’être détruit"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Inverser : la destruction est condition de création",
+          "preserves": [
+            "Relie disparition et nouveauté dans certains processus"
+          ],
+          "cost": "Universalise trop vite ce lien et transforme les pertes singulières en sacrifices justifiés",
+          "remainingProblem": "Universalise trop vite ce lien et transforme les pertes singulières en sacrifices justifiés"
+        }
+      ],
+      "chosen": "retenue",
+      "allRequirementsRecorded": true,
+      "residual": "Reste qu’une transformation féconde ne compense pas nécessairement la perte singulière dont elle procède : une œuvre ne rend pas une personne morte.",
+      "conclusionQuestion": "À quelles conditions ce que le temps permet de créer peut-il donner sens à une perte, sans prétendre la réparer ni la justifier ?",
+      "verdict": "choix provisoire argumenté ; comparaison indépendante non achevée",
+      "reviewFlag": null
+    },
+    "notion-travail": {
+      "subject": "Le travail nous rend-il plus humain ?",
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "Un travail forme lorsque l’agent peut comprendre un but, développer une capacité et participer au jugement sur ce qu’il fait. Sa reconnaissance sociale importe aussi : une compétence niée peut servir autrui sans donner au travailleur une place autonome.",
+          "preserves": [
+            "Reconnaître la formation par l’activité",
+            "Reconnaître la contrainte et l’aliénation du travail réel"
+          ],
+          "cost": "Reste qu’une société a besoin de tâches pénibles dont l’organisation peut réduire, mais pas toujours supprimer, la répétition et la fatigue.",
+          "remainingProblem": "Comment partager les tâches nécessaires qui restent pénibles, sans réserver à certains le travail formateur et à d’autres sa seule contrainte ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Métamorphoser le travail en activité libre",
+          "preserves": [
+            "Préserve création et initiative"
+          ],
+          "cost": "Risque de sauver seulement un travail idéal en excluant les tâches nécessaires contraintes",
+          "remainingProblem": "Risque de sauver seulement un travail idéal en excluant les tâches nécessaires contraintes"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Processualiser : traverser l’aliénation pour se former",
+          "preserves": [
+            "Explique certains apprentissages dans la contrainte"
+          ],
+          "cost": "Risque de rendre toute souffrance formatrice sans épreuve de ses effets réels",
+          "remainingProblem": "Risque de rendre toute souffrance formatrice sans épreuve de ses effets réels"
+        }
+      ],
+      "chosen": "retenue",
+      "allRequirementsRecorded": true,
+      "residual": "Reste qu’une société a besoin de tâches pénibles dont l’organisation peut réduire, mais pas toujours supprimer, la répétition et la fatigue.",
+      "conclusionQuestion": "Comment partager les tâches nécessaires qui restent pénibles, sans réserver à certains le travail formateur et à d’autres sa seule contrainte ?",
+      "verdict": "choix provisoire argumenté ; comparaison indépendante non achevée",
+      "reviewFlag": null
+    },
+    "notion-verite": {
+      "subject": "Toute vérité est-elle bonne à dire ?",
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "Une vérité est vraie indépendamment de l’opportunité de la dire. La véracité interdit de présenter sciemment le faux comme vrai ; elle ne suffit pas à établir un devoir de révéler un secret ou une information qui concerne un tiers.",
+          "preserves": [
+            "Respecter l’exactitude et le jugement d’autrui",
+            "Respecter les droits et les effets de la divulgation"
+          ],
+          "cost": "Reste le conflit entre un secret légitime et une information nécessaire à la protection d’autrui : les deux exigences peuvent demeurer sérieuses.",
+          "remainingProblem": "Quand protéger quelqu’un exige de rompre une confiance légitime, comment justifier ce que l’on révèle sans abolir le devoir de discrétion ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Déplacer : seule la manière de dire importe",
+          "preserves": [
+            "Explique le rôle du tact sans renoncer à l’honnêteté"
+          ],
+          "cost": "Le tact ne rend pas légitime une divulgation injuste et ne supprime pas tous ses dommages",
+          "remainingProblem": "Le tact ne rend pas légitime une divulgation injuste et ne supprime pas tous ses dommages"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Consentir : la vérité blesse parfois nécessairement",
+          "preserves": [
+            "Reconnaît que certaines informations doivent être données malgré leur douleur"
+          ],
+          "cost": "Ne distingue pas les douleurs nécessaires de celles qu’une divulgation injustifiée impose",
+          "remainingProblem": "Ne distingue pas les douleurs nécessaires de celles qu’une divulgation injustifiée impose"
+        }
+      ],
+      "chosen": "retenue",
+      "allRequirementsRecorded": true,
+      "residual": "Reste le conflit entre un secret légitime et une information nécessaire à la protection d’autrui : les deux exigences peuvent demeurer sérieuses.",
+      "conclusionQuestion": "Quand protéger quelqu’un exige de rompre une confiance légitime, comment justifier ce que l’on révèle sans abolir le devoir de discrétion ?",
+      "verdict": "choix provisoire argumenté ; comparaison indépendante non achevée",
+      "reviewFlag": null
+    },
+    "2025-me-verite": {
+      "subject": "La vérité est-elle toujours convaincante ?",
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "Distinguer validité et réception ne les sépare pas définitivement : expliquer les termes, reconstruire un raisonnement et répondre aux objections peut permettre à l’autre de reconnaître lui-même ce qui justifie l’affirmation.",
+          "preserves": [
+            "Préserver la validité des raisons",
+            "Expliquer leur reconnaissance sans manipulation"
+          ],
+          "cost": "Reste que l’interlocuteur peut refuser toute vérification : rendre la preuve accessible ne garantit pas qu’il acceptera de l’examiner.",
+          "remainingProblem": "Lorsque toute vérification est refusée, comment défendre la vérité sans confondre la conviction rationnelle avec une adhésion imposée ?"
+        },
+        {
+          "id": "alternative-0",
+          "proposal": "Distinguer vérité et persuasion",
+          "preserves": [
+            "Protège la validité contre l’adhésion"
+          ],
+          "cost": "Sépare les plans sans expliquer comment la preuve devient accessible",
+          "remainingProblem": "Sépare les plans sans expliquer comment la preuve devient accessible"
+        },
+        {
+          "id": "alternative-1",
+          "proposal": "Processualiser : l’habitude finit par rendre le vrai convaincant",
+          "preserves": [
+            "Reconnaît le temps nécessaire à l’apprentissage"
+          ],
+          "cost": "La répétition d’un énoncé faux peut aussi produire l’adhésion",
+          "remainingProblem": "La répétition d’un énoncé faux peut aussi produire l’adhésion"
+        }
+      ],
+      "chosen": "retenue",
+      "allRequirementsRecorded": true,
+      "residual": "Reste que l’interlocuteur peut refuser toute vérification : rendre la preuve accessible ne garantit pas qu’il acceptera de l’examiner.",
+      "conclusionQuestion": "Lorsque toute vérification est refusée, comment défendre la vérité sans confondre la conviction rationnelle avec une adhésion imposée ?",
+      "verdict": "choix provisoire argumenté ; comparaison indépendante non achevée",
+      "reviewFlag": null
+    },
+    "2025-me-avenir-technique": {
+      "subject": "Notre avenir dépend-il de la technique ?",
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "Le rapport va dans les deux sens : nos fins orientent les techniques, mais celles-ci transforment nos fins et nos possibilités. Choisir l’avenir exige donc de juger aussi la manière dont les moyens nous rendent dépendants.",
+          "preserves": [
+            "Reconnaître les conditions et dépendances techniques",
+            "Préserver une décision collective sur les fins"
+          ],
+          "cost": "Reste que certains choix deviennent irréversibles ou que leurs conséquences ne sont découvertes qu’après leur adoption : la possibilité de révision ne peut pas toujours être garantie.",
+          "remainingProblem": "Comment décider ensemble lorsque les moyens qui promettent un avenir meilleur risquent de supprimer la possibilité de le choisir autrement ?"
+        },
+        {
+          "id": "alternative-0",
+          "proposal": "Distinguer moyens techniques et fins politiques",
+          "preserves": [
+            "Reconnaît la place du jugement"
+          ],
+          "cost": "Présuppose des moyens neutres et des fins indépendantes de leur transformation",
+          "remainingProblem": "Présuppose des moyens neutres et des fins indépendantes de leur transformation"
+        },
+        {
+          "id": "alternative-1",
+          "proposal": "Processualiser : choisir les usages après les inventions",
+          "preserves": [
+            "Préserve un examen des applications"
+          ],
+          "cost": "Certaines dépendances sont déjà irréversibles quand cet examen commence",
+          "remainingProblem": "Certaines dépendances sont déjà irréversibles quand cet examen commence"
+        }
+      ],
+      "chosen": "retenue",
+      "allRequirementsRecorded": true,
+      "residual": "Reste que certains choix deviennent irréversibles ou que leurs conséquences ne sont découvertes qu’après leur adoption : la possibilité de révision ne peut pas toujours être garantie.",
+      "conclusionQuestion": "Comment décider ensemble lorsque les moyens qui promettent un avenir meilleur risquent de supprimer la possibilité de le choisir autrement ?",
+      "verdict": "choix provisoire argumenté ; comparaison indépendante non achevée",
+      "reviewFlag": null
+    },
+    "2025-me-besoin-art": {
+      "subject": "Avons-nous besoin d’art ?",
+      "candidates": [
+        {
+          "id": "retenue",
+          "proposal": "Le besoin peut porter sur une possibilité : créer, écouter, regarder et partager des formes, plutôt que posséder une œuvre déterminée. L’art y répond diversement, par des pratiques ordinaires comme par des œuvres élaborées.",
+          "preserves": [
+            "Reconnaître la liberté des goûts",
+            "Reconnaître les besoins de perception, expression et partage"
+          ],
+          "cost": "Reste que le récit, le jeu ou la conversation peuvent aussi exprimer et partager une expérience : il faut encore préciser ce que l’art apporte que ces autres pratiques ne réalisent pas toujours.",
+          "remainingProblem": "Qu’apporte une forme artistique à l’expression d’une expérience, que le récit ordinaire et la conversation ne peuvent pas toujours lui donner ?"
+        },
+        {
+          "id": "alternative-0",
+          "proposal": "Distinguer besoin biologique et besoin spirituel",
+          "preserves": [
+            "Élargit la vie humaine au-delà de la survie"
+          ],
+          "cost": "Ne démontre pas pourquoi un besoin spirituel exigerait précisément une réponse artistique",
+          "remainingProblem": "Ne démontre pas pourquoi un besoin spirituel exigerait précisément une réponse artistique"
+        },
+        {
+          "id": "alternative-1",
+          "proposal": "Métamorphoser l’art en toute activité expressive",
+          "preserves": [
+            "Rend le besoin largement accessible"
+          ],
+          "cost": "Sauve la nécessité en supprimant la distinction entre art et expression ordinaire",
+          "remainingProblem": "Sauve la nécessité en supprimant la distinction entre art et expression ordinaire"
+        }
+      ],
+      "chosen": "retenue",
+      "allRequirementsRecorded": true,
+      "residual": "Reste que le récit, le jeu ou la conversation peuvent aussi exprimer et partager une expérience : il faut encore préciser ce que l’art apporte que ces autres pratiques ne réalisent pas toujours.",
+      "conclusionQuestion": "Qu’apporte une forme artistique à l’expression d’une expérience, que le récit ordinaire et la conversation ne peuvent pas toujours lui donner ?",
+      "verdict": "choix provisoire argumenté ; comparaison indépendante non achevée",
+      "reviewFlag": null
+    }
+  }
+}

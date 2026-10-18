@@ -31,9 +31,15 @@ function feedback(){
  const d=cases[index],p=d.pistes[chosen],f=root.querySelector('#resolutions-retour');
  f.className='chaine-fb show def';
  f.innerHTML='<p><strong>Ce que cette piste sauve :</strong> '+esc(p.gain)+'</p><p><strong>Son coût :</strong> '+esc(p.cout)+'</p><p><strong>À discuter :</strong> '+esc(p.analyse)+'</p>'+
- '<p><strong>Votre tâche :</strong> avant de regarder le modèle, expliquez pourquoi vous conserveriez cette piste ou lui préféreriez une autre. Puis écrivez la question qui subsiste.</p>'+
+ '<p><strong>Exercice à clic : quel reste met vraiment cette solution à l’épreuve ?</strong> Choisissez une objection, puis comparez.</p>'+ '<div class="chaine-opts" role="group" aria-label="Choisir le reste propre à la résolution">'+d.pistes.map((q,k)=>'<button type="button" class="chaine-opt" data-reste="'+k+'" aria-pressed="false">'+esc(q.cout)+'</button>').join('')+'</div><p id="resolutions-reste-retour" aria-live="polite"></p>'+ '<p><strong>Votre tâche :</strong> expliquez pourquoi vous conserveriez cette piste ou lui préféreriez une autre, puis transformez son reste en question.</p>'+
  '<label for="resolutions-note"><strong>Votre justification et votre reste</strong></label><textarea id="resolutions-note" rows="4"></textarea>'+
  '<p><button type="button" class="btn red small" id="resolutions-model">Comparer après mon essai</button></p><div id="resolutions-model-output" aria-live="polite"></div>';
+ f.querySelectorAll('[data-reste]').forEach(b=>b.addEventListener('click',()=>{
+  const k=Number(b.dataset.reste);
+  f.querySelectorAll('[data-reste]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));
+  const out=f.querySelector('#resolutions-reste-retour');
+  out.textContent=k===chosen?'Solide : cette objection porte précisément sur la solution choisie. Demandez-vous maintenant si elle la détruit ou en limite seulement la portée.':'À revoir : cette objection vise une autre solution. Identifiez ce que votre choix ne parvient pas à garantir.';
+ }));
  f.querySelector('#resolutions-model').addEventListener('click',()=>{
  const t=f.querySelector('#resolutions-note').value.trim(),o=f.querySelector('#resolutions-model-output');
  if(t.length<15){o.textContent='Écrivez d’abord une justification et un reste précis (au moins quelques mots).';return;}
