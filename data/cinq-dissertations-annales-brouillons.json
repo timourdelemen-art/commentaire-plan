@@ -5,7 +5,7 @@
       "subject": "Comment être heureux, si rien ne dure ?",
       "session": "2024 Amérique du Nord",
       "source": "https://www.education.gouv.fr/sites/default/files/document/Baccalaur%C3%A9at%20g%C3%A9n%C3%A9ral%202024%20-%20Philosophie%20-%20Am%C3%A9rique%20du%20Nord-401733.pdf",
-      "status": "premier jet à auditer",
+      "status": "introduction révisée ; développement à relire avant publication",
       "citations": "aucune citation directe non vérifiée",
       "functions": "une annotation par phrase"
     },
@@ -13,7 +13,7 @@
       "subject": "Peut-on parler sans savoir ?",
       "session": "2024 Amérique du Nord",
       "source": "https://www.education.gouv.fr/sites/default/files/document/Baccalaur%C3%A9at%20g%C3%A9n%C3%A9ral%202024%20-%20Philosophie%20-%20Am%C3%A9rique%20du%20Nord-401733.pdf",
-      "status": "premier jet à auditer",
+      "status": "introduction révisée ; développement à relire avant publication",
       "citations": "aucune citation directe non vérifiée",
       "functions": "une annotation par phrase"
     },
@@ -21,7 +21,7 @@
       "subject": "Peut-on douter des pouvoirs de la raison ?",
       "session": "2025 bac général",
       "source": "https://www.education.gouv.fr/sites/default/files/2025-06/baccalaur-at-g-n-ral-2025-philosophie--440727.pdf",
-      "status": "premier jet à auditer",
+      "status": "introduction révisée ; développement à relire avant publication",
       "citations": "aucune citation directe non vérifiée",
       "functions": "une annotation par phrase"
     },
@@ -29,7 +29,7 @@
       "subject": "L’art peut-il nous apprendre à voir le monde autrement ?",
       "session": "2025 bac général",
       "source": "https://www.education.gouv.fr/sites/default/files/2025-06/baccalaur-at-g-n-ral-2025-philosophie--440727.pdf",
-      "status": "premier jet à auditer",
+      "status": "introduction révisée ; développement à relire avant publication",
       "citations": "aucune citation directe non vérifiée",
       "functions": "une annotation par phrase"
     },
@@ -37,7 +37,7 @@
       "subject": "Vouloir la paix, est-ce vouloir la justice ?",
       "session": "2023 Métropole · général",
       "source": "https://www.cours-thales.fr/wp-content/uploads/2023/08/sujet_philo_2023_CoursThales.pdf",
-      "status": "premier jet à auditer",
+      "status": "introduction révisée ; développement à relire avant publication",
       "citations": "aucune citation directe non vérifiée",
       "functions": "une annotation par phrase"
     }
@@ -48,24 +48,32 @@
         "INTRODUCTION",
         [
           [
-            "Un enfant construit un château de sable que la marée effacera, mais la joie de construire n’en est pas moins réelle.",
-            "Scène qui contient la difficulté"
+            "Dans Du côté de chez Swann, de Marcel Proust, le goût d’une madeleine trempée dans le thé fait soudain revenir au narrateur tout un monde d’enfance qu’il croyait perdu.",
+            "Scène littéraire : Proust, Du côté de chez Swann, « Combray »"
           ],
           [
-            "Cette joie passagère suffit-elle à faire une vie heureuse ?",
-            "Interpréter la scène"
+            "La sensation ne dure qu’un instant ; pourtant elle restitue une joie que les années n’avaient pas effacée.",
+            "Première exigence née de la scène : accueillir la joie passagère"
           ],
           [
-            "Le bonheur suppose une satisfaction que nous puissions reconnaître dans notre existence, tandis que tout ce à quoi nous tenons change.",
-            "Préciser les notions"
+            "Mais si cette joie n’existe qu’au moment où elle surgit, comment pourrait-elle donner à une existence le bonheur durable auquel nous aspirons ?",
+            "Seconde exigence et difficulté interne : reconnaître une continuité"
           ],
           [
-            "Si la durée est indispensable, rien ne nous satisfait ; si seul l’instant compte, qu’est-ce qui distingue bonheur et plaisir fugitif ?",
-            "Formuler le problème"
+            "Être heureux ne signifie pas seulement éprouver du plaisir ; « si rien ne dure » met à l’épreuve la possibilité de reconnaître une vie comme heureuse malgré la disparition de ses moments.",
+            "Précision des termes rendue nécessaire par la scène"
           ],
           [
-            "Il faut éprouver le besoin de stabilité, la valeur de l’instant et la possibilité d’une continuité changeante.",
-            "Annoncer le mouvement"
+            "Exiger que le bonheur demeure intact condamne toute joie au provisoire ; se contenter de l’instant risque de confondre bonheur et plaisir fugitif.",
+            "Double aporie : coût de chaque réponse"
+          ],
+          [
+            "Comment une vie changeante peut-elle être heureuse sans exiger que ses joies restent présentes ni se réduire à leur succession ?",
+            "Problématique issue des deux pertes"
+          ],
+          [
+            "Il faudra éprouver le besoin de stabilité, puis ce que l’instant peut réellement offrir, avant de chercher quelle continuité peut se construire dans le changement.",
+            "Annonce du mouvement sans livrer la solution"
           ]
         ]
       ],
@@ -167,24 +175,32 @@
         "INTRODUCTION",
         [
           [
-            "Un témoin décrit un accident, puis reconnaît qu’il en ignore la cause.",
-            "Scène qui contient la difficulté"
+            "Dans l’Apologie de Socrate, de Platon (21b–23b), Socrate interroge des hommes réputés savants : ils parlent avec assurance, mais ne savent pas rendre raison de ce qu’ils prétendent connaître.",
+            "Scène philosophique et historique rapportée : Platon, Apologie, 21b–23b"
           ],
           [
-            "Son aveu d’ignorance rend son témoignage plus précis, au lieu de le réduire au silence.",
-            "Interpréter la scène"
+            "Socrate, lui, reconnaît ce qu’il ignore ; cet aveu ne le fait pas taire, il l’engage au contraire à questionner les autres.",
+            "Première exigence : parler pour chercher ce qu’on ne sait pas"
           ],
           [
-            "Parler consiste à s’adresser à autrui ; savoir exige des raisons qui établissent ce que l’on affirme.",
-            "Préciser les notions"
+            "Pourtant, si chacun pouvait affirmer sans savoir, la parole perdrait la confiance qui permet d’apprendre les uns des autres.",
+            "Seconde exigence : répondre de ce qu’on affirme"
           ],
           [
-            "Si parler sans savoir revient à tromper, comment poser des questions et apprendre sans parler d’abord ?",
-            "Formuler le problème"
+            "Parler peut consister à affirmer, demander ou examiner ; savoir suppose davantage qu’une conviction : des raisons qu’on puisse soutenir.",
+            "Distinction des termes exigée par le cas"
           ],
           [
-            "Nous chercherons comment l’exigence de preuve et la liberté de chercher peuvent s’accorder.",
-            "Annoncer le mouvement"
+            "Exiger le savoir avant toute parole rendrait l’enquête impossible ; autoriser toute affirmation sans preuve livrerait la discussion à l’opinion.",
+            "Double aporie : ce que chaque position sacrifie"
+          ],
+          [
+            "À quelles conditions peut-on parler de ce qu’on ignore sans faire passer son ignorance pour un savoir ?",
+            "Problématique née de la scène"
+          ],
+          [
+            "Il faudra établir pourquoi la parole engage notre responsabilité, puis pourquoi elle précède parfois le savoir, pour comprendre la place du questionnement.",
+            "Annonce du mouvement"
           ]
         ]
       ],
@@ -286,24 +302,32 @@
         "INTRODUCTION",
         [
           [
-            "Un calcul semble garantir la solidité d’un pont, mais une hypothèse fausse peut ruiner sa conclusion.",
-            "Scène qui contient la difficulté"
+            "Dans son enquête sur la catastrophe de la navette Challenger en 1986, le physicien Richard Feynman plonge un joint d’étanchéité dans de l’eau glacée : l’expérience rend visible un risque que des raisonnements administratifs avaient minimisé.",
+            "Scène scientifique et historique : enquête Challenger, démonstration de Feynman, 1986"
           ],
           [
-            "La raison capable de démontrer est aussi capable de découvrir son erreur.",
-            "Interpréter la scène"
+            "Un calcul peut sembler concluant et manquer pourtant une condition décisive ; il faut donc examiner les prémisses autant que la déduction.",
+            "Première exigence : soumettre les raisonnements à l’épreuve"
           ],
           [
-            "Douter de ses pouvoirs peut signifier les nier ou examiner jusqu’où ils portent.",
-            "Préciser les notions"
+            "Mais c’est encore par des raisons, des mesures et une expérience intelligible que Feynman met en doute les assurances officielles.",
+            "Seconde exigence : la critique dépend des pouvoirs qu’elle questionne"
           ],
           [
-            "Comment critiquer la raison sans employer précisément la raison que l’on met en doute ?",
-            "Formuler le problème"
+            "Douter des pouvoirs de la raison peut signifier en contester la portée, non renoncer à raisonner ; la raison ne se réduit pas au calcul.",
+            "Distinction conceptuelle rendue nécessaire"
           ],
           [
-            "Nous examinerons sa force, ses limites et le sens d’une critique rationnelle.",
-            "Annoncer le mouvement"
+            "Lui accorder une autorité sans examen expose à l’erreur ; la déclarer impuissante retire aussi les moyens de reconnaître cette erreur.",
+            "Double aporie : deux coûts"
+          ],
+          [
+            "Comment la raison peut-elle juger ses propres limites sans se déclarer toute-puissante ni se disqualifier elle-même ?",
+            "Problématique construite"
+          ],
+          [
+            "Il faudra mesurer la force des démonstrations, les conditions de leurs erreurs, puis la portée d’une critique rationnelle.",
+            "Annonce du mouvement"
           ]
         ]
       ],
@@ -405,24 +429,32 @@
         "INTRODUCTION",
         [
           [
-            "Une peinture d’une rue familière fait remarquer à un passant une lumière qu’il négligeait.",
-            "Scène qui contient la difficulté"
+            "Entre 1892 et 1894, Claude Monet peint à plusieurs reprises la façade de la cathédrale de Rouen : le même édifice semble changer avec la lumière et l’heure.",
+            "Scène picturale référencée : Monet, série des Cathédrales de Rouen, 1892–1894"
           ],
           [
-            "L’œuvre n’a pas changé la rue, mais elle a changé son regard.",
-            "Interpréter la scène"
+            "La pierre n’a pas changé aussi vite que les tableaux ; l’œuvre attire le regard vers des variations qu’une perception habituelle néglige.",
+            "Première exigence : apprendre à percevoir ce qui était déjà là"
           ],
           [
-            "Apprendre suppose une capacité nouvelle ; voir autrement n’est pas nécessairement recevoir une information.",
-            "Préciser les notions"
+            "Mais ces couleurs sont aussi le résultat des choix du peintre : regarder ses tableaux, est-ce mieux voir le monde ou adopter sa manière singulière de le transformer ?",
+            "Seconde exigence : ne pas confondre invention et connaissance"
           ],
           [
-            "Si l’art invente librement des formes, comment pourrait-il nous apprendre quelque chose du monde ?",
-            "Formuler le problème"
+            "Apprendre à voir autrement n’est pas recevoir une information supplémentaire ; l’art peut former l’attention tout en interprétant ce qu’il montre.",
+            "Précision des termes issue des tableaux"
           ],
           [
-            "Il faut examiner ce qu’il révèle, les risques de l’invention et l’éducation du regard.",
-            "Annoncer le mouvement"
+            "S’il ne fait que reproduire le réel, l’art paraît superflu ; s’il le réinvente librement, comment son regard pourrait-il encore nous instruire ?",
+            "Double aporie"
+          ],
+          [
+            "Comment une œuvre peut-elle éduquer notre regard sur le monde précisément en ne se bornant pas à le copier ?",
+            "Problématique issue de la tension"
+          ],
+          [
+            "Il faudra examiner ce que l’œuvre rend perceptible, le risque de déformation et les conditions d’un regard enrichi.",
+            "Annonce du mouvement"
           ]
         ]
       ],
@@ -524,24 +556,32 @@
         "INTRODUCTION",
         [
           [
-            "Deux voisins cessent de se disputer lorsque l’un renonce à réclamer ce qui lui appartient.",
-            "Scène qui contient la difficulté"
+            "Dans Antigone de Sophocle, Créon interdit d’ensevelir Polynice au nom de l’ordre de la cité après la guerre ; Antigone brave l’interdit pour accomplir le devoir qu’elle estime dû à son frère.",
+            "Scène théâtrale référencée : Sophocle, Antigone, conflit autour de la sépulture"
           ],
           [
-            "Le calme est revenu, mais le tort n’a pas disparu.",
-            "Interpréter la scène"
+            "Créon veut empêcher le retour du désordre ; mais sa paix exige de laisser un mort sans les honneurs funèbres.",
+            "Première exigence et son coût : maintenir l’ordre commun"
           ],
           [
-            "La paix désigne l’absence de conflit ouvert ; la justice exige que chacun soit traité selon ses droits.",
-            "Préciser les notions"
+            "Antigone défend une justice qui ne cède pas devant le décret ; mais sa désobéissance ouvre un conflit que le pouvoir entend précisément refermer.",
+            "Seconde exigence et son coût : refuser l’injustice"
           ],
           [
-            "Si la paix exige parfois de renoncer à réclamer justice, peut-elle pourtant durer lorsque l’injustice demeure ?",
-            "Formuler le problème"
+            "La paix n’est pas seulement le silence des armes, et la justice n’est pas seulement l’application des lois : la scène oblige à distinguer ordre établi et droit légitime.",
+            "Analyse des termes commandée par la scène"
           ],
           [
-            "Nous examinerons l’ordre pacifié, le conflit juste et les conditions d’une paix qui ne dissimule pas le tort.",
-            "Annoncer le mouvement"
+            "Vouloir la paix au prix de l’injustice peut consacrer l’oppression ; vouloir faire justice sans souci de la paix peut prolonger indéfiniment l’affrontement.",
+            "Double aporie"
+          ],
+          [
+            "Comment vouloir une paix juste sans faire de la justice le prétexte d’un conflit sans fin ?",
+            "Problématique née des deux exigences"
+          ],
+          [
+            "Il faudra examiner la nécessité de l’ordre, puis celle de la contestation, avant de chercher les conditions d’une paix qui ne dissimule pas le tort.",
+            "Annonce du mouvement"
           ]
         ]
       ],
