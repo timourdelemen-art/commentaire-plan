@@ -38,7 +38,7 @@ function feedback(){
   const k=Number(b.dataset.reste);
   f.querySelectorAll('[data-reste]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));
   const out=f.querySelector('#resolutions-reste-retour');
-  out.textContent=k===chosen?'Oui : cette objection porte précisément sur la solution choisie. Demandez-vous maintenant si elle la détruit ou en limite seulement la portée.':'Cette objection vise une autre solution. Identifiez le mécanisme propre à votre choix et ce qu’il ne parvient pas à garantir.';
+  out.textContent=k===chosen?'Solide : cette objection porte précisément sur la solution choisie. Demandez-vous maintenant si elle la détruit ou en limite seulement la portée.':'À revoir : cette objection vise une autre solution. Identifiez ce que votre choix ne parvient pas à garantir.';
  }));
  f.querySelector('#resolutions-model').addEventListener('click',()=>{
  const t=f.querySelector('#resolutions-note').value.trim(),o=f.querySelector('#resolutions-model-output');
