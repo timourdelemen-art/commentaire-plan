@@ -1,0 +1,2696 @@
+{
+  "version": "2.0-provisoire",
+  "scope": "20 copies, comparaison initiale des 60 candidates existantes ; ne constitue pas un test philosophique achevé des huit matrices",
+  "method": "Le coût est le prix de l’opération, le reste la difficulté subsistant après son application. La sélection exige fidélité au problème, mécanisme justifié, coût proportionné, reste non destructeur.",
+  "cases": {
+    "2026-ag-etat-injustice": {
+      "subject": "Revient-il principalement à l’État de lutter contre l’injustice ?",
+      "requirements": [
+        "Garantir des droits par une force commune",
+        "Permettre la critique de cette force"
+      ],
+      "thirdPart": "Il faut une puissance capable de faire respecter les droits, sans que cette puissance décide seule de ce qui est juste. La priorité de l’État concerne la garantie commune des droits, non un monopole du jugement moral. Les citoyens, les associations et les institutions de contrôle doivent pouvoir contester son action. Tocqueville, dans De la démocratie en Amérique, montre que le retrait des citoyens laisse le pouvoir sans surveillance. Leur vigilance agit lorsqu’elle peut enquêter, s’organiser et obtenir une révision des décisions ; une opinion sans prise sur les institutions ne suffit pas. Il revient principalement à l’État de garantir la lutte contre l’injustice, mais cette responsabilité exige des contre-pouvoirs : les citoyens ne veillent pas seulement, ils participent à sa correction. Reste le cas où le pouvoir ferme les voies de contestation : les garanties qui rendent ce partage juste ne peuvent plus être présupposées.",
+      "existingCandidates": [
+        {
+          "id": "retenue",
+          "proposal": "La priorité de l’État concerne la garantie commune des droits, non un monopole du jugement moral. Les citoyens, les associations et les institutions de contrôle doivent pouvoir contester son action.",
+          "conserves": [
+            "Garantir des droits par une force commune",
+            "Permettre la critique de cette force"
+          ],
+          "cost": "Reste le cas où le pouvoir ferme les voies de contestation : les garanties qui rendent ce partage juste ne peuvent plus être présupposées.",
+          "remainingProblem": "Lorsque l’État détruit les voies par lesquelles on pouvait le corriger, comment lui résister sans abandonner l’exigence d’une justice commune ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Inverser : la mobilisation rend la justice publique possible",
+          "conserves": [
+            "Explique le rôle causal des citoyens"
+          ],
+          "cost": "Ne dit pas qui garantit durablement les droits après la mobilisation",
+          "remainingProblem": "Ne dit pas qui garantit durablement les droits après la mobilisation"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Processualiser : contestation, réforme, application",
+          "conserves": [
+            "Relie la critique à un changement institutionnel"
+          ],
+          "cost": "Une succession ne garantit pas les voies de contrôle pendant l’application",
+          "remainingProblem": "Une succession ne garantit pas les voies de contrôle pendant l’application"
+        }
+      ],
+      "selected": "retenue",
+      "existingComparison": "Le partage contrôlable conserve force et critique simultanément ; il coûte moins qu’une réduction de toute justice à la mobilisation ou à une succession sans contre-pouvoirs.",
+      "existingResidual": "Reste le cas où le pouvoir ferme les voies de contestation : les garanties qui rendent ce partage juste ne peuvent plus être présupposées.",
+      "existingConclusionQuestion": "Lorsque l’État détruit les voies par lesquelles on pouvait le corriger, comment lui résister sans abandonner l’exigence d’une justice commune ?",
+      "eightFamilies": [
+        {
+          "name": "duplication ontologique",
+          "application": "Distinguer le plan où « Garantir des droits par une force commune » et celui où « Permettre la critique de cette force » s'appliquent, puis établir leur unité.",
+          "gain": "Sépare garantie institutionnelle et jugement critique sans abandonner l'un ni l'autre.",
+          "cost": "Il faut montrer que les institutions de contrôle ne sont pas elles-mêmes capturées.",
+          "rest": "Que faire si tous les organes de contrôle dépendent du pouvoir ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "abolition partielle/totale",
+          "application": "Abandonner ou limiter l'exigence « Garantir des droits par une force commune » pour préserver « Permettre la critique de cette force » : vérifier si le sujet survit à ce sacrifice.",
+          "gain": "Sauve l'indépendance du jugement citoyen.",
+          "cost": "Sans force commune, les droits peuvent rester sans effet.",
+          "rest": "Qui protège concrètement les victimes ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "processualisation",
+          "application": "Faire de « Garantir des droits par une force commune » et « Permettre la critique de cette force » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "gain": "Fait de la contestation un moteur de correction des lois.",
+          "cost": "La réforme peut être bloquée ou intervenir trop tard.",
+          "rest": "Comment agir quand la contestation légale est interdite ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "inversion d’indexation",
+          "application": "Soutenir que « Permettre la critique de cette force » est la condition de possibilité de « Garantir des droits par une force commune », et non seulement son effet.",
+          "gain": "Montre que la critique rend la force publique plus légitime.",
+          "cost": "La légitimité ne produit pas d'elle-même une capacité d'exécution.",
+          "rest": "Une critique sans force peut-elle protéger ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "métamorphose",
+          "application": "Redéfinir la notion centrale de « Revient-il principalement à l’État de lutter contre l’injustice ? » pour conserver les deux exigences sans les juxtaposer.",
+          "gain": "Redéfinit la puissance étatique comme force responsable devant les citoyens.",
+          "cost": "Le contrôle doit être indépendant et effectif, non seulement proclamé.",
+          "rest": "Comment empêcher le pouvoir de neutraliser ses contrôleurs ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "déplacement",
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "gain": "Rend visible la pluralité des juges et des voies de recours.",
+          "cost": "Risque de reporter le problème sur des institutions également injustes.",
+          "rest": "Qui contrôle les contrôleurs ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "suspension épistémique",
+          "application": "Limiter la prétention à savoir si « Garantir des droits par une force commune » et « Permettre la critique de cette force » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "gain": "Évite de sanctifier l'État ou la foule.",
+          "cost": "Suspend le jugement là où des injustices exigent une réponse.",
+          "rest": "Qui agit lorsqu'il faut protéger immédiatement ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "consentement",
+          "application": "Assumer que « Garantir des droits par une force commune » et « Permettre la critique de cette force » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "gain": "Reconnaît qu'aucune autorité n'échappe définitivement à la critique.",
+          "cost": "Sans procédures, le conflit peut devenir impuissant.",
+          "rest": "Comment maintenir la contestation sans dissoudre l'ordre commun ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        }
+      ],
+      "evaluation": {
+        "fidelity": "Les deux exigences sont explicitées ; conservation par la solution actuelle à vérifier au-delà de sa déclaration.",
+        "operation": "Huit opérations confrontées, avec plusieurs concurrentes sérieuses.",
+        "cost": "Le coût de chaque opération est explicité.",
+        "rest": "Le reste de chaque opération est formulé comme objection propre.",
+        "best": "La solution actuelle reste plausible ; classement final non démontré.",
+        "rewrite": "Aucune modification de la copie sans arbitrage comparatif final."
+      },
+      "secondPass": {
+        "candidateCombination": "duplication ontologique + métamorphose",
+        "preliminaryStrength": "forte",
+        "decisiveTest": "Le contrôle du pouvoir doit être indépendant et opérant, non une simple possibilité légale.",
+        "nextComparison": "Comparer avec une processualisation qui traite la réforme bloquée.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
+      }
+    },
+    "2026-ag-humanite-religion": {
+      "subject": "Peut-on concevoir une humanité sans religion ?",
+      "requirements": [
+        "Assurer des liens et des fins communes",
+        "Conserver l’examen libre des croyances"
+      ],
+      "thirdPart": "Il faut préserver des liens et des fins communes sans imposer une croyance que chacun n’aurait plus le droit d’examiner. Le fait que la religion ait assuré ces fonctions ne prouve pas qu’elle seule puisse les assurer. Une communauté peut reconnaître des droits et organiser une solidarité sans partager une révélation, un culte ou une autorité sacrée. Durkheim explique la dimension collective de la religion ; il ne démontre pas par là que toute vie collective serait religieuse. La dignité de la personne, que Kant rapporte à son autonomie, offre par exemple une raison de respecter autrui qui ne dépend pas de son appartenance religieuse. Une humanité sans religion est donc concevable : elle doit construire des institutions et des pratiques communes, mais leur caractère partagé ne suffit pas à en faire une religion. Reste que des principes discutables peuvent être sacralisés : un lien initialement ouvert à la critique peut devenir un dogme qui interdit de le contester.",
+      "existingCandidates": [
+        {
+          "id": "retenue",
+          "proposal": "Le fait que la religion ait assuré ces fonctions ne prouve pas qu’elle seule puisse les assurer. Une communauté peut reconnaître des droits et organiser une solidarité sans partager une révélation, un culte ou une autorité sacrée.",
+          "conserves": [
+            "Assurer des liens et des fins communes",
+            "Conserver l’examen libre des croyances"
+          ],
+          "cost": "Reste que des principes discutables peuvent être sacralisés : un lien initialement ouvert à la critique peut devenir un dogme qui interdit de le contester.",
+          "remainingProblem": "Comment maintenir des convictions communes assez fortes pour nous unir, sans les rendre sacrées au point d’interdire leur examen ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Métamorphoser : une religion rationnelle commune",
+          "conserves": [
+            "Maintient une forme collective et des convictions discutées"
+          ],
+          "cost": "Risque de renommer religion toute conviction commune, sans établir la nécessité du sacré",
+          "remainingProblem": "Risque de renommer religion toute conviction commune, sans établir la nécessité du sacré"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Suspendre : on ignore ce qu’une humanité entière pourrait devenir",
+          "conserves": [
+            "Évite une prédiction historique injustifiée"
+          ],
+          "cost": "Le sujet demande une possibilité concevable, pas une prévision ; on peut examiner une cohérence",
+          "remainingProblem": "Le sujet demande une possibilité concevable, pas une prévision ; on peut examiner une cohérence"
+        }
+      ],
+      "selected": "retenue",
+      "existingComparison": "La distinction fonction/forme montre une possibilité sans nier le besoin de lien ni rebaptiser toute morale religion ; son risque de sacralisation est explicitement conservé.",
+      "existingResidual": "Reste que des principes discutables peuvent être sacralisés : un lien initialement ouvert à la critique peut devenir un dogme qui interdit de le contester.",
+      "existingConclusionQuestion": "Comment maintenir des convictions communes assez fortes pour nous unir, sans les rendre sacrées au point d’interdire leur examen ?",
+      "eightFamilies": [
+        {
+          "name": "duplication ontologique",
+          "application": "Distinguer le plan où « Assurer des liens et des fins communes » et celui où « Conserver l’examen libre des croyances » s'appliquent, puis établir leur unité.",
+          "gain": "Distingue les fonctions sociales de la religion et sa forme sacrée.",
+          "cost": "La séparation doit expliquer comment naît un lien assez fort sans sacré.",
+          "rest": "Pourquoi ces valeurs communes obligent-elles ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "abolition partielle/totale",
+          "application": "Abandonner ou limiter l'exigence « Assurer des liens et des fins communes » pour préserver « Conserver l’examen libre des croyances » : vérifier si le sujet survit à ce sacrifice.",
+          "gain": "Libère les consciences d'une obligation religieuse.",
+          "cost": "Risque de détruire les rites et liens qu'il fallait conserver.",
+          "rest": "Qu'est-ce qui rassemble durablement les individus ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "processualisation",
+          "application": "Faire de « Assurer des liens et des fins communes » et « Conserver l’examen libre des croyances » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "gain": "Explique comment des institutions séculières peuvent reprendre des fonctions de solidarité.",
+          "cost": "L'histoire ne garantit pas que la transformation réussisse partout.",
+          "rest": "Une solidarité civile peut-elle résister aux crises ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "inversion d’indexation",
+          "application": "Soutenir que « Conserver l’examen libre des croyances » est la condition de possibilité de « Assurer des liens et des fins communes », et non seulement son effet.",
+          "gain": "Fait de la liberté de conscience une condition du pluralisme.",
+          "cost": "Ne garantit pas une adhésion à des fins communes.",
+          "rest": "Qu'est-ce qui fonde l'obligation mutuelle ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "métamorphose",
+          "application": "Redéfinir la notion centrale de « Peut-on concevoir une humanité sans religion ? » pour conserver les deux exigences sans les juxtaposer.",
+          "gain": "Transforme la communauté religieuse en communauté civique.",
+          "cost": "Risque de renommer religion tout idéal collectif.",
+          "rest": "Le civique devient-il une religion sans le dire ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "déplacement",
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "gain": "Conserve des principes communs sans révélation.",
+          "cost": "Le droit seul peut manquer d'épaisseur affective.",
+          "rest": "Comment faire vivre une solidarité au-delà des règles ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "suspension épistémique",
+          "application": "Limiter la prétention à savoir si « Assurer des liens et des fins communes » et « Conserver l’examen libre des croyances » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "gain": "Évite de prédire l'avenir de toutes les sociétés.",
+          "cost": "Le sujet demande une possibilité pensable, pas une prophétie.",
+          "rest": "Peut-on concevoir une communauté cohérente sans religion ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "consentement",
+          "application": "Assumer que « Assurer des liens et des fins communes » et « Conserver l’examen libre des croyances » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "gain": "Reconnaît le besoin de liens et le droit à la critique.",
+          "cost": "La tension acceptée ne construit aucune institution commune.",
+          "rest": "Comment empêcher les convictions de devenir dogmes ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        }
+      ],
+      "evaluation": {
+        "fidelity": "Les deux exigences sont explicitées ; conservation par la solution actuelle à vérifier au-delà de sa déclaration.",
+        "operation": "Huit opérations confrontées, avec plusieurs concurrentes sérieuses.",
+        "cost": "Le coût de chaque opération est explicité.",
+        "rest": "Le reste de chaque opération est formulé comme objection propre.",
+        "best": "La solution actuelle reste plausible ; classement final non démontré.",
+        "rewrite": "Aucune modification de la copie sans arbitrage comparatif final."
+      },
+      "secondPass": {
+        "candidateCombination": "duplication ontologique + déplacement",
+        "preliminaryStrength": "forte",
+        "decisiveTest": "Le passage des fonctions religieuses aux institutions séculières ne garantit pas l'adhésion commune.",
+        "nextComparison": "Tester une processualisation historique sans confondre possibilité et prédiction.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
+      }
+    },
+    "2026-an-artiste-sait": {
+      "subject": "L’artiste sait-il ce qu’il fait ?",
+      "requirements": [
+        "Reconnaître le savoir et les choix de l’artiste",
+        "Préserver l’invention imprévisible"
+      ],
+      "thirdPart": "Il faut garder la maîtrise du geste sans exiger une connaissance préalable de tout ce que l’œuvre deviendra. Une possibilité imprévue n’est pas un hasard simplement subi si l’artiste la reconnaît, la juge et la retravaille. Son savoir porte aussi sur cette capacité de faire évoluer son projet. Alain, dans le Système des beaux-arts, distingue le projet de l’artisan de l’idée qui vient à l’artiste pendant l’exécution. L’artiste n’invente pas sans métier : le métier lui permet d’essayer, de comparer et de retenir ce qu’il n’avait pas entièrement prévu. L’artiste sait donc ce qu’il fait à mesure qu’il le fait, sans posséder tout le sens de ce qu’il produit. Il en est l’auteur par les choix qu’il assume dans cette découverte. Reste que l’œuvre peut recevoir des significations que même ce jugement exercé pendant la création n’avait pas envisagées.",
+      "existingCandidates": [
+        {
+          "id": "retenue",
+          "proposal": "Une possibilité imprévue n’est pas un hasard simplement subi si l’artiste la reconnaît, la juge et la retravaille. Son savoir porte aussi sur cette capacité de faire évoluer son projet.",
+          "conserves": [
+            "Reconnaître le savoir et les choix de l’artiste",
+            "Préserver l’invention imprévisible"
+          ],
+          "cost": "Reste que l’œuvre peut recevoir des significations que même ce jugement exercé pendant la création n’avait pas envisagées.",
+          "remainingProblem": "Jusqu’où le savoir de l’artiste peut-il porter sur son œuvre, si celle-ci continue de prendre sens dans des regards qu’il ne dirige pas ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Distinguer savoir technique et sens de l’œuvre",
+          "conserves": [
+            "Sauve la maîtrise partielle sans exiger un savoir total"
+          ],
+          "cost": "Éclaire deux objets du savoir, mais explique moins directement comment l’invention devient un choix",
+          "remainingProblem": "Éclaire deux objets du savoir, mais explique moins directement comment l’invention devient un choix"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Consentir : l’artiste est traversé par une création qui le dépasse",
+          "conserves": [
+            "Prend au sérieux ce qui n’est pas prévisible"
+          ],
+          "cost": "Sans mécanisme de reconnaissance, l’auteur risque de redevenir un simple lieu de passage",
+          "remainingProblem": "Sans mécanisme de reconnaissance, l’auteur risque de redevenir un simple lieu de passage"
+        }
+      ],
+      "selected": "retenue",
+      "existingComparison": "Le processus de reconnaissance et de correction explique le lien entre métier et invention ; la distinction des savoirs le complète, mais ne le remplace pas.",
+      "existingResidual": "Reste que l’œuvre peut recevoir des significations que même ce jugement exercé pendant la création n’avait pas envisagées.",
+      "existingConclusionQuestion": "Jusqu’où le savoir de l’artiste peut-il porter sur son œuvre, si celle-ci continue de prendre sens dans des regards qu’il ne dirige pas ?",
+      "eightFamilies": [
+        {
+          "name": "duplication ontologique",
+          "application": "Distinguer le plan où « Reconnaître le savoir et les choix de l’artiste » et celui où « Préserver l’invention imprévisible » s'appliquent, puis établir leur unité.",
+          "gain": "Distingue savoir-faire et prévision de la signification finale.",
+          "cost": "Peut juxtaposer deux savoirs sans expliquer leur articulation.",
+          "rest": "Comment le geste répond-il à l'inattendu ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "abolition partielle/totale",
+          "application": "Abandonner ou limiter l'exigence « Reconnaître le savoir et les choix de l’artiste » pour préserver « Préserver l’invention imprévisible » : vérifier si le sujet survit à ce sacrifice.",
+          "gain": "Reconnaît la part imprévue de l'œuvre.",
+          "cost": "Efface la compétence et le jugement de l'artiste.",
+          "rest": "Pourquoi parler encore d'un travail maîtrisé ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "processualisation",
+          "application": "Faire de « Reconnaître le savoir et les choix de l’artiste » et « Préserver l’invention imprévisible » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "gain": "Fait émerger le savoir dans les corrections successives de l'œuvre.",
+          "cost": "Il faut expliquer les critères du jugement en cours de création.",
+          "rest": "Comment savoir qu'une découverte sert l'œuvre ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "inversion d’indexation",
+          "application": "Soutenir que « Préserver l’invention imprévisible » est la condition de possibilité de « Reconnaître le savoir et les choix de l’artiste », et non seulement son effet.",
+          "gain": "L'inattendu peut accroître la capacité de choisir.",
+          "cost": "N'explique pas pourquoi l'artiste sait ce qu'il fait initialement.",
+          "rest": "Toute surprise est-elle féconde ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "métamorphose",
+          "application": "Redéfinir la notion centrale de « L’artiste sait-il ce qu’il fait ? » pour conserver les deux exigences sans les juxtaposer.",
+          "gain": "Transforme le savoir de plan préalable en discernement pratique.",
+          "cost": "Le discernement peut rester tacite et difficile à vérifier.",
+          "rest": "Comment distinguer un jugement artistique d'un goût arbitraire ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "déplacement",
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "gain": "Rappelle que le sens de l'œuvre dépend aussi de sa réception.",
+          "cost": "Déplace la question du savoir de l'artiste vers celui du public.",
+          "rest": "L'artiste ne sait-il rien de ce qu'il produit ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "suspension épistémique",
+          "application": "Limiter la prétention à savoir si « Reconnaître le savoir et les choix de l’artiste » et « Préserver l’invention imprévisible » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "gain": "Reconnaît l'imprévisibilité des interprétations futures.",
+          "cost": "Ne rend pas compte du savoir effectif dans le travail.",
+          "rest": "Que sait l'artiste au moment de créer ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "consentement",
+          "application": "Assumer que « Reconnaître le savoir et les choix de l’artiste » et « Préserver l’invention imprévisible » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "gain": "Maintient la tension entre maîtrise et surprise.",
+          "cost": "N'indique pas comment cette tension devient une pratique intelligible.",
+          "rest": "Qu'est-ce qui oriente la création ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        }
+      ],
+      "evaluation": {
+        "fidelity": "Les deux exigences sont explicitées ; conservation par la solution actuelle à vérifier au-delà de sa déclaration.",
+        "operation": "Huit opérations confrontées, avec plusieurs concurrentes sérieuses.",
+        "cost": "Le coût de chaque opération est explicité.",
+        "rest": "Le reste de chaque opération est formulé comme objection propre.",
+        "best": "La solution actuelle reste plausible ; classement final non démontré.",
+        "rewrite": "Aucune modification de la copie sans arbitrage comparatif final."
+      },
+      "secondPass": {
+        "candidateCombination": "processualisation + métamorphose",
+        "preliminaryStrength": "forte",
+        "decisiveTest": "Le jugement créateur doit être distingué de la simple rationalisation après coup.",
+        "nextComparison": "Comparer un modèle de savoir-faire explicite et un discernement tacite.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
+      }
+    },
+    "2026-an-science-utile": {
+      "subject": "La science doit-elle être utile ?",
+      "requirements": [
+        "Préserver les découvertes dont l’usage est imprévisible",
+        "Justifier les moyens et les risques de la recherche"
+      ],
+      "thirdPart": "Il faut laisser place aux découvertes imprévisibles, tout en justifiant les moyens et les risques de la recherche. Ne pas imposer une application connue d’avance n’interdit pas d’examiner un protocole, ses dangers ou l’emploi des ressources. La liberté de chercher concerne la question scientifique ; elle n’exempte pas les pratiques de recherche de toute responsabilité. Une recherche fondamentale peut être financée pour développer des connaissances sans promettre un produit immédiat. Elle doit néanmoins expliquer ce qu’elle cherche et accepter un examen de ses moyens : l’incertitude du résultat justifie la patience, non un blanc-seing. La science n’a donc pas à être utile immédiatement pour être légitime ; elle doit rendre compte de ses moyens, de ses risques et des usages prévisibles, dès la recherche. Reste la difficulté de juger publiquement une recherche dont ni les bénéfices ni certains risques ne sont encore connus.",
+      "existingCandidates": [
+        {
+          "id": "retenue",
+          "proposal": "Ne pas imposer une application connue d’avance n’interdit pas d’examiner un protocole, ses dangers ou l’emploi des ressources. La liberté de chercher concerne la question scientifique ; elle n’exempte pas les pratiques de recherche de toute responsabilité.",
+          "conserves": [
+            "Préserver les découvertes dont l’usage est imprévisible",
+            "Justifier les moyens et les risques de la recherche"
+          ],
+          "cost": "Reste la difficulté de juger publiquement une recherche dont ni les bénéfices ni certains risques ne sont encore connus.",
+          "remainingProblem": "Comment contrôler les moyens et les risques d’une recherche sans exiger d’elle la prévision des découvertes qui justifient sa liberté ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Distinguer recherche puis applications",
+          "conserves": [
+            "Protège les questions scientifiques contre l’utilité immédiate"
+          ],
+          "cost": "Reporte la responsabilité après des décisions et interventions déjà lourdes de conséquences",
+          "remainingProblem": "Reporte la responsabilité après des décisions et interventions déjà lourdes de conséquences"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Processualiser : alterner recherche fondamentale et application",
+          "conserves": [
+            "Reconnaît les retours des usages sur la recherche"
+          ],
+          "cost": "L’alternance ne fournit pas à elle seule de critère pour juger les pratiques pendant la recherche",
+          "remainingProblem": "L’alternance ne fournit pas à elle seule de critère pour juger les pratiques pendant la recherche"
+        }
+      ],
+      "selected": "retenue",
+      "existingComparison": "La responsabilité sur les pratiques dès la recherche évite le report fautif sans prescrire les résultats ; elle préserve mieux les deux acquis que le simple partage chronologique.",
+      "existingResidual": "Reste la difficulté de juger publiquement une recherche dont ni les bénéfices ni certains risques ne sont encore connus.",
+      "existingConclusionQuestion": "Comment contrôler les moyens et les risques d’une recherche sans exiger d’elle la prévision des découvertes qui justifient sa liberté ?",
+      "eightFamilies": [
+        {
+          "name": "duplication ontologique",
+          "application": "La recherche explore des questions imprévisibles, tandis que ses moyens restent soumis à des normes publiques.",
+          "gain": "Sépare liberté des objets d’enquête et responsabilité des pratiques.",
+          "cost": "La distinction est poreuse : les méthodes de recherche orientent déjà les questions possibles.",
+          "rest": "Qui juge les risques d’un protocole sans décider à l’avance quelles découvertes valent la peine ?",
+          "verdict": "admissible",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
+        },
+        {
+          "name": "abolition partielle/totale",
+          "application": "Supprimer l’exigence d’utilité, même indirecte, au nom d’une science autonome.",
+          "gain": "Protège les découvertes sans application immédiate.",
+          "cost": "Écarte la justification des ressources et des risques imposés à autrui.",
+          "rest": "Une recherche dangereuse est-elle excusée par la seule liberté de chercher ?",
+          "verdict": "insuffisante seule",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
+        },
+        {
+          "name": "processualisation",
+          "application": "Instituer des contrôles révisables à mesure que les recherches produisent de nouvelles connaissances.",
+          "gain": "Relie apprentissage, liberté et vigilance.",
+          "cost": "Le contrôle peut intervenir trop tard devant un dommage irréversible.",
+          "rest": "Quelles limites faut-il fixer avant de connaître les conséquences ?",
+          "verdict": "admissible sous condition",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
+        },
+        {
+          "name": "inversion d’indexation",
+          "application": "La liberté de recherche rend possible une utilité future, plutôt que l’utilité immédiate ne justifie seule la recherche.",
+          "gain": "Explique pourquoi l’absence de résultat prévu peut être féconde.",
+          "cost": "N’établit pas de règle pour autoriser des risques présents.",
+          "rest": "Comment justifier une recherche risquée sans bénéfice prévisible ?",
+          "verdict": "insuffisante seule",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
+        },
+        {
+          "name": "métamorphose",
+          "application": "Transformer l’exigence d’utilité en exigence de responsabilité des moyens et des risques.",
+          "gain": "Sauve l’autonomie de la question scientifique et la justification publique des pratiques.",
+          "cost": "La responsabilité n’offre pas de mesure certaine des risques inconnus.",
+          "rest": "Qui peut accepter un risque que personne ne sait encore évaluer ?",
+          "verdict": "admissible",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
+        },
+        {
+          "name": "déplacement",
+          "application": "Déplacer la question de l’utilité vers la légitimité du financement et de la gouvernance de la recherche.",
+          "gain": "Rend visibles les obligations collectives.",
+          "cost": "Peut réduire la question philosophique de l’utilité à un arbitrage institutionnel.",
+          "rest": "Une recherche privée serait-elle dispensée de responsabilité ?",
+          "verdict": "admissible sous condition",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
+        },
+        {
+          "name": "suspension épistémique",
+          "application": "Suspendre tout jugement sur l’utilité future des découvertes.",
+          "gain": "Évite les prédictions sans fondement.",
+          "cost": "Ne décide rien des moyens présents et de leurs risques.",
+          "rest": "Comment autoriser un protocole quand son bénéfice reste inconnu ?",
+          "verdict": "insuffisante seule",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
+        },
+        {
+          "name": "consentement",
+          "application": "Reconnaître une tension irréductible entre liberté de découvrir et devoir de répondre des conséquences.",
+          "gain": "Évite une réconciliation artificielle.",
+          "cost": "N'indique pas quels risques peuvent être acceptés.",
+          "rest": "À partir de quel danger la liberté de recherche doit-elle céder ?",
+          "verdict": "admissible sous condition",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
+        }
+      ],
+      "evaluation": {
+        "fidelity": "La solution actuelle préserve les deux exigences explicites.",
+        "operation": "La distinction des exigences est pertinente, mais les opérations concurrentes ont été testées.",
+        "cost": "Le coût propre de la résolution retenue est identifié dans la confrontation.",
+        "rest": "Le reste vise la condition d'application et ne nie pas automatiquement la réponse.",
+        "best": "Solution actuelle provisoirement préférée, mais sans preuve de dominance sur toute combinaison.",
+        "rewrite": "Pas de remplacement décidé ; renforcer la justification des critères si nécessaire."
+      },
+      "secondPass": {
+        "candidateCombination": "duplication ontologique + métamorphose",
+        "preliminaryStrength": "forte",
+        "decisiveTest": "La responsabilité pendant la recherche ne peut présupposer la prévisibilité des risques.",
+        "nextComparison": "Mettre en concurrence une gouvernance évolutive et des interdits de moyens.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
+      }
+    },
+    "2026-asie-inconscient-bonheur": {
+      "subject": "Faut-il être inconscient pour être heureux ?",
+      "requirements": [
+        "Préserver une paix possible",
+        "Pouvoir reconnaître et affronter les dangers"
+      ],
+      "thirdPart": "Il faut préserver la paix que cherche l’insouciance, sans rendre notre vie dépendante d’une ignorance entretenue. La lucidité ne consiste pas seulement à accumuler les menaces : elle peut distinguer un danger réel d’une représentation qui nous tourmente inutilement. Connaître peut alors diminuer la crainte plutôt que l’accroître. Épicure, dans la Lettre à Ménécée, argumente que la mort n’est pas une expérience dont nous souffrirons : nous ne serons plus là pour la vivre. Que l’argument convainque ou non, il montre une démarche qui cherche l’apaisement par l’examen de la peur, non par l’oubli. Il ne faut donc pas être inconscient pour être heureux : une compréhension mieux réglée peut rendre le bonheur plus lucide et moins fragile. Cela ne signifie pas que tout savoir apaise. Reste la souffrance liée à un mal réel, notamment la perte d’un proche : réfuter une peur imaginaire ne supprime pas cette douleur.",
+      "existingCandidates": [
+        {
+          "id": "retenue",
+          "proposal": "La lucidité ne consiste pas seulement à accumuler les menaces : elle peut distinguer un danger réel d’une représentation qui nous tourmente inutilement. Connaître peut alors diminuer la crainte plutôt que l’accroître.",
+          "conserves": [
+            "Préserver une paix possible",
+            "Pouvoir reconnaître et affronter les dangers"
+          ],
+          "cost": "Reste la souffrance liée à un mal réel, notamment la perte d’un proche : réfuter une peur imaginaire ne supprime pas cette douleur.",
+          "remainingProblem": "Lorsque la souffrance vient d’une perte réelle que comprendre ne supprime pas, comment la lucidité peut-elle encore contribuer au bonheur ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Distinguer ce qui dépend de nous de ce qui n’en dépend pas",
+          "conserves": [
+            "Oriente l’action et les jugements vers une maîtrise possible"
+          ],
+          "cost": "Les dommages réels ne deviennent pas indifférents par le seul fait de ne pas dépendre de nous",
+          "remainingProblem": "Les dommages réels ne deviennent pas indifférents par le seul fait de ne pas dépendre de nous"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Consentir à l’inquiétude comme dimension d’une vie lucide",
+          "conserves": [
+            "Ne promet pas une sagesse qui supprimerait toute douleur"
+          ],
+          "cost": "Établit une valeur de la lucidité sans encore expliquer son pouvoir d’apaisement",
+          "remainingProblem": "Établit une valeur de la lucidité sans encore expliquer son pouvoir d’apaisement"
+        }
+      ],
+      "selected": "retenue",
+      "existingComparison": "L’examen des représentations donne un mécanisme local d’apaisement, sans confondre absence de contrôle et absence de douleur ; le consentement reste utile devant la perte réelle.",
+      "existingResidual": "Reste la souffrance liée à un mal réel, notamment la perte d’un proche : réfuter une peur imaginaire ne supprime pas cette douleur.",
+      "existingConclusionQuestion": "Lorsque la souffrance vient d’une perte réelle que comprendre ne supprime pas, comment la lucidité peut-elle encore contribuer au bonheur ?",
+      "eightFamilies": [
+        {
+          "name": "duplication ontologique",
+          "application": "Distinguer le plan où « Préserver une paix possible » et celui où « Pouvoir reconnaître et affronter les dangers » s'appliquent, puis établir leur unité.",
+          "gain": "Distingue ignorance et capacité de ne pas s'obséder.",
+          "cost": "La lucidité ne suffit pas toujours à apaiser une douleur réelle.",
+          "rest": "Peut-on être lucide et malheureux malgré soi ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "abolition partielle/totale",
+          "application": "Abandonner ou limiter l'exigence « Préserver une paix possible » pour préserver « Pouvoir reconnaître et affronter les dangers » : vérifier si le sujet survit à ce sacrifice.",
+          "gain": "Supprime les connaissances douloureuses.",
+          "cost": "Sacrifie la capacité d'affronter les dangers.",
+          "rest": "Une paix fondée sur l'erreur est-elle durable ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "processualisation",
+          "application": "Faire de « Préserver une paix possible » et « Pouvoir reconnaître et affronter les dangers » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "gain": "Transforme la peur par l'enquête et l'action.",
+          "cost": "Certains maux sont irréversibles ou incontrôlables.",
+          "rest": "Que faire lorsque comprendre ne permet pas d'agir ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "inversion d’indexation",
+          "application": "Soutenir que « Pouvoir reconnaître et affronter les dangers » est la condition de possibilité de « Préserver une paix possible », et non seulement son effet.",
+          "gain": "La connaissance d'un danger permet de le réduire.",
+          "cost": "L'inversion ne vaut pas pour les pertes irréparables.",
+          "rest": "Pourquoi la lucidité ne protège-t-elle pas de tout malheur ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "métamorphose",
+          "application": "Redéfinir la notion centrale de « Faut-il être inconscient pour être heureux ? » pour conserver les deux exigences sans les juxtaposer.",
+          "gain": "Redéfinit le bonheur comme paix lucide plutôt qu'insouciance.",
+          "cost": "Peut exclure de la notion de bonheur des joies réellement insouciantes.",
+          "rest": "Faut-il toujours être lucide pour être heureux ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "déplacement",
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "gain": "Introduit la relation et l'aide comme source de bonheur.",
+          "cost": "Ne résout pas la difficulté entre conscience et douleur personnelle.",
+          "rest": "La solidarité console-t-elle de toute souffrance ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "suspension épistémique",
+          "application": "Limiter la prétention à savoir si « Préserver une paix possible » et « Pouvoir reconnaître et affronter les dangers » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "gain": "Évite d'affirmer que la conscience garantit le bonheur.",
+          "cost": "Ne tranche pas la nécessité de l'inconscience.",
+          "rest": "Quel rapport demeure entre lucidité et bonheur ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "consentement",
+          "application": "Assumer que « Préserver une paix possible » et « Pouvoir reconnaître et affronter les dangers » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "gain": "Accepte qu'une vie heureuse comporte des douleurs.",
+          "cost": "Risque de définir le bonheur de manière trop accommodante.",
+          "rest": "Quelle souffrance rend la joie impossible ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        }
+      ],
+      "evaluation": {
+        "fidelity": "Les deux exigences sont explicitées ; conservation par la solution actuelle à vérifier au-delà de sa déclaration.",
+        "operation": "Huit opérations confrontées, avec plusieurs concurrentes sérieuses.",
+        "cost": "Le coût de chaque opération est explicité.",
+        "rest": "Le reste de chaque opération est formulé comme objection propre.",
+        "best": "La solution actuelle reste plausible ; classement final non démontré.",
+        "rewrite": "Aucune modification de la copie sans arbitrage comparatif final."
+      },
+      "secondPass": {
+        "candidateCombination": "duplication ontologique + métamorphose",
+        "preliminaryStrength": "à préciser",
+        "decisiveTest": "La lucidité peut réduire une crainte imaginaire sans garantir le bonheur devant un mal réel.",
+        "nextComparison": "Distinguer la question de la nécessité de l'inconscience de celle de la suffisance de la lucidité.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
+      },
+      "targetedReview": {
+        "issue": "La troisième partie montre que la lucidité peut soulager, non qu'elle suffise à rendre heureux.",
+        "fix": "Conserver la réponse négative à la nécessité : une joie lucide est possible, sans faire de la conscience une garantie du bonheur.",
+        "cost": "Il faut établir un cas où le bonheur ne dépend pas de l'ignorance, sans nier les souffrances irréductibles.",
+        "rest": "Même sans illusion, certaines douleurs peuvent empêcher le bonheur ; la possibilité ne vaut pas garantie.",
+        "rewrite": "Retoucher la formulation conclusive si elle suggère que la lucidité rend heureux.",
+        "status": "proposition éditoriale, non appliquée à la copie"
+      }
+    },
+    "2026-asie-langage": {
+      "subject": "Sommes-nous prisonniers du langage ?",
+      "requirements": [
+        "Reconnaître une langue héritée et commune",
+        "Expliquer la critique et l’invention dans cette langue"
+      ],
+      "thirdPart": "Il faut reconnaître que nous recevons une langue sans conclure que toutes les pensées qu’elle permet sont déjà fixées. Nous pouvons contester une expression avec d’autres expressions, expliquer un mot inconnu ou comparer des traductions. La critique n’exige donc pas de sortir de tout langage : elle travaille ses ressources contre ses habitudes. La métaphore relie autrement des mots connus ; une définition précise ce que l’usage confondait. Ces transformations montrent concrètement pourquoi l’héritage linguistique peut porter une invention plutôt que la fermer. Le langage est ainsi un milieu de la pensée, dont certaines limites peuvent être déplacées. Dépendre de ses ressources n’équivaut pas à subir une prison immuable. Reste que cette transformation dépend de ressources partagées : une expérience peut demeurer difficile à communiquer tant que d’autres ne reconnaissent pas les mots proposés.",
+      "existingCandidates": [
+        {
+          "id": "retenue",
+          "proposal": "Nous pouvons contester une expression avec d’autres expressions, expliquer un mot inconnu ou comparer des traductions. La critique n’exige donc pas de sortir de tout langage : elle travaille ses ressources contre ses habitudes.",
+          "conserves": [
+            "Reconnaître une langue héritée et commune",
+            "Expliquer la critique et l’invention dans cette langue"
+          ],
+          "cost": "Reste que cette transformation dépend de ressources partagées : une expérience peut demeurer difficile à communiquer tant que d’autres ne reconnaissent pas les mots proposés.",
+          "remainingProblem": "Comment une pensée nouvelle peut-elle devenir partageable lorsque les mots par lesquels elle cherche à se dire ne sont pas encore compris ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Inverser : la pensée crée la langue dont elle dépend",
+          "conserves": [
+            "Explique les innovations expressives"
+          ],
+          "cost": "La pensée individuelle ne crée pas seule les ressources communes dont elle part",
+          "remainingProblem": "La pensée individuelle ne crée pas seule les ressources communes dont elle part"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Processualiser : transformer progressivement la langue",
+          "conserves": [
+            "Explique l’évolution de ses limites"
+          ],
+          "cost": "Un simple changement historique ne distingue pas enrichissement et appauvrissement imposé",
+          "remainingProblem": "Un simple changement historique ne distingue pas enrichissement et appauvrissement imposé"
+        }
+      ],
+      "selected": "retenue",
+      "existingComparison": "La transformation de l’image est démontrée par définition, comparaison et métaphore ; elle s’adjoint un processus de reprise plutôt qu’une analogie suffisante par elle-même.",
+      "existingResidual": "Reste que cette transformation dépend de ressources partagées : une expérience peut demeurer difficile à communiquer tant que d’autres ne reconnaissent pas les mots proposés.",
+      "existingConclusionQuestion": "Comment une pensée nouvelle peut-elle devenir partageable lorsque les mots par lesquels elle cherche à se dire ne sont pas encore compris ?",
+      "eightFamilies": [
+        {
+          "name": "duplication ontologique",
+          "application": "Distinguer le plan où « Reconnaître une langue héritée et commune » et celui où « Expliquer la critique et l’invention dans cette langue » s'appliquent, puis établir leur unité.",
+          "gain": "Distingue langue héritée et capacité d'en transformer les usages.",
+          "cost": "La transformation dépend de conventions déjà partagées.",
+          "rest": "Comment communiquer une expérience sans mots reconnus ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "abolition partielle/totale",
+          "application": "Abandonner ou limiter l'exigence « Reconnaître une langue héritée et commune » pour préserver « Expliquer la critique et l’invention dans cette langue » : vérifier si le sujet survit à ce sacrifice.",
+          "gain": "Supprime les catégories linguistiques contraignantes.",
+          "cost": "Détruit le support commun de l'expression.",
+          "rest": "Comment parler sans signes communs ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "processualisation",
+          "application": "Faire de « Reconnaître une langue héritée et commune » et « Expliquer la critique et l’invention dans cette langue » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "gain": "Explique la liberté par la critique et l'invention au sein de la langue.",
+          "cost": "Le changement peut être lent ou inaccessible à certains locuteurs.",
+          "rest": "Qui peut faire accepter des mots nouveaux ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "inversion d’indexation",
+          "application": "Soutenir que « Expliquer la critique et l’invention dans cette langue » est la condition de possibilité de « Reconnaître une langue héritée et commune », et non seulement son effet.",
+          "gain": "Les contraintes communes rendent possible leur contestation publique.",
+          "cost": "N'explique pas toutes les inégalités d'accès à la parole.",
+          "rest": "Tout locuteur peut-il modifier sa langue ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "métamorphose",
+          "application": "Redéfinir la notion centrale de « Sommes-nous prisonniers du langage ? » pour conserver les deux exigences sans les juxtaposer.",
+          "gain": "Transforme le langage de cadre reçu en instrument d'invention.",
+          "cost": "Peut sous-estimer la résistance des habitudes.",
+          "rest": "Une invention incomprise libère-t-elle ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "déplacement",
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "gain": "Fait place aux gestes et à l'expérience non verbale.",
+          "cost": "Ne répond pas à l'emprise des mots sur la pensée articulée.",
+          "rest": "Peut-on critiquer un discours sans discours ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "suspension épistémique",
+          "application": "Limiter la prétention à savoir si « Reconnaître une langue héritée et commune » et « Expliquer la critique et l’invention dans cette langue » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "gain": "Refuse de conclure sur une pensée absolument hors langage.",
+          "cost": "L'ignorance de cette possibilité ne répond pas à l'emprisonnement vécu.",
+          "rest": "Comment se libérer d'une catégorie reçue ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "consentement",
+          "application": "Assumer que « Reconnaître une langue héritée et commune » et « Expliquer la critique et l’invention dans cette langue » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "gain": "Reconnaît que toute formulation ouvre et ferme des possibles.",
+          "cost": "Sans pratique de transformation, la tension demeure statique.",
+          "rest": "Comment agir sur cette limite ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        }
+      ],
+      "evaluation": {
+        "fidelity": "Les deux exigences sont explicitées ; conservation par la solution actuelle à vérifier au-delà de sa déclaration.",
+        "operation": "Huit opérations confrontées, avec plusieurs concurrentes sérieuses.",
+        "cost": "Le coût de chaque opération est explicité.",
+        "rest": "Le reste de chaque opération est formulé comme objection propre.",
+        "best": "La solution actuelle reste plausible ; classement final non démontré.",
+        "rewrite": "Aucune modification de la copie sans arbitrage comparatif final."
+      },
+      "secondPass": {
+        "candidateCombination": "processualisation + inversion d’indexation",
+        "preliminaryStrength": "forte",
+        "decisiveTest": "L'innovation linguistique requiert une réception collective qui échappe à l'individu.",
+        "nextComparison": "Comparer la liberté individuelle d'inventer et la capacité collective de faire reconnaître.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
+      }
+    },
+    "2026-g1-bien-agir": {
+      "subject": "Peut-on être certain d’avoir bien agi ?",
+      "requirements": [
+        "Examiner motifs et effets pour juger moralement",
+        "Permettre un jugement et une action malgré l’incertitude"
+      ],
+      "thirdPart": "Il faut examiner intentions et conséquences, sans exiger pour agir un savoir complet de tous les motifs et de tous les effets. La certitude absolue d’avoir bien agi demeure hors de portée ; un jugement justifié reste pourtant possible. Il compare les raisons accessibles, les risques prévisibles et les autres décisions possibles, puis accepte d’être révisé. Weber, dans Le Savant et le Politique, demande à l’agent de prendre en compte les conséquences prévisibles de ses choix. Cette exigence donne un travail précis au jugement : prévoir ce qu’on peut, sans prétendre connaître tout l’avenir. On peut donc avoir des raisons solides de juger qu’on a bien agi, sans convertir cette assurance en certitude infaillible. Accepter d’en répondre rend ce jugement contrôlable ; cela ne prouve pas à soi seul la bonté de l’acte. Reste qu’un effet imprévisible peut conduire à réviser l’appréciation d’un choix pourtant raisonnable au moment d’agir.",
+      "existingCandidates": [
+        {
+          "id": "retenue",
+          "proposal": "La certitude absolue d’avoir bien agi demeure hors de portée ; un jugement justifié reste pourtant possible. Il compare les raisons accessibles, les risques prévisibles et les autres décisions possibles, puis accepte d’être révisé.",
+          "conserves": [
+            "Examiner motifs et effets pour juger moralement",
+            "Permettre un jugement et une action malgré l’incertitude"
+          ],
+          "cost": "Reste qu’un effet imprévisible peut conduire à réviser l’appréciation d’un choix pourtant raisonnable au moment d’agir.",
+          "remainingProblem": "Comment juger un acte raisonnablement décidé lorsque ses conséquences imprévisibles en révèlent ensuite le mal ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Métamorphoser la certitude en engagement responsable",
+          "conserves": [
+            "Conserve l’exigence de répondre de l’acte"
+          ],
+          "cost": "Répondre de l’acte ne démontre pas sa bonté : risque de substitution du sujet",
+          "remainingProblem": "Répondre de l’acte ne démontre pas sa bonté : risque de substitution du sujet"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Consentir au doute et agir sans assurance",
+          "conserves": [
+            "Évite une fausse infaillibilité"
+          ],
+          "cost": "L’action malgré le doute n’explique pas la différence entre un choix justifié et un choix arbitraire",
+          "remainingProblem": "L’action malgré le doute n’explique pas la différence entre un choix justifié et un choix arbitraire"
+        }
+      ],
+      "selected": "retenue",
+      "existingComparison": "La distinction certitude absolue/jugement justifié répond explicitement au sujet et fournit des critères de comparaison ; la responsabilité y sert de contrôle, non de preuve.",
+      "existingResidual": "Reste qu’un effet imprévisible peut conduire à réviser l’appréciation d’un choix pourtant raisonnable au moment d’agir.",
+      "existingConclusionQuestion": "Comment juger un acte raisonnablement décidé lorsque ses conséquences imprévisibles en révèlent ensuite le mal ?",
+      "eightFamilies": [
+        {
+          "name": "duplication ontologique",
+          "application": "Distinguer certitude d’avoir agi raisonnablement et certitude d’avoir produit le bien.",
+          "gain": "Conserve l’examen des raisons et l’incertitude des effets.",
+          "cost": "Peut changer le sens de « bien agir » au lieu de répondre au sujet.",
+          "rest": "Une bonne intention suffit-elle si le tort causé était évitable ?",
+          "verdict": "admissible sous condition",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
+        },
+        {
+          "name": "abolition partielle/totale",
+          "application": "Abandonner toute prétention à la certitude morale.",
+          "gain": "Évite l’illusion d’infaillibilité.",
+          "cost": "Risque de rendre indifférents choix responsable et arbitraire.",
+          "rest": "Pourquoi examiner les conséquences si rien ne peut être jugé ?",
+          "verdict": "insuffisante seule",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
+        },
+        {
+          "name": "processualisation",
+          "application": "Faire du jugement moral une enquête révisable avant et après l’action.",
+          "gain": "Unit décision prudente et apprentissage des effets.",
+          "cost": "La révision postérieure ne peut effacer un dommage.",
+          "rest": "Peut-on dire qu’un acte était bon si son effet réel fut mauvais ?",
+          "verdict": "admissible",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
+        },
+        {
+          "name": "inversion d’indexation",
+          "application": "La reconnaissance de notre faillibilité rend nécessaire une prudence active.",
+          "gain": "Transforme l’incertitude en raison de délibérer.",
+          "cost": "La prudence ne garantit ni l’issue ni la certitude demandée.",
+          "rest": "Quand faut-il agir sans attendre davantage de preuves ?",
+          "verdict": "admissible sous condition",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
+        },
+        {
+          "name": "métamorphose",
+          "application": "Transformer la certitude absolue en justification responsable et révisable.",
+          "gain": "Maintient l’exigence de rendre raison d’un choix.",
+          "cost": "La transformation peut éluder la question littérale de la certitude.",
+          "rest": "La justification rétrospective prouve-t-elle qu’on a bien agi ?",
+          "verdict": "admissible sous condition",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
+        },
+        {
+          "name": "déplacement",
+          "application": "Déplacer le jugement de la qualité de l’acte vers la responsabilité de l’agent.",
+          "gain": "Permet de répondre des conséquences même imprévues.",
+          "cost": "Une responsabilité assumée ne garantit pas un acte juste.",
+          "rest": "Un acte fautif devient-il bon parce qu’on en assume les effets ?",
+          "verdict": "insuffisante seule",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
+        },
+        {
+          "name": "suspension épistémique",
+          "application": "Suspendre tout verdict sur un acte tant que ses conséquences ne sont pas toutes connues.",
+          "gain": "Évite un jugement prématuré.",
+          "cost": "La connaissance exhaustive est impossible et l’action ne peut attendre.",
+          "rest": "Quand la décision devient-elle justifiable malgré l’incertitude ?",
+          "verdict": "insuffisante seule",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
+        },
+        {
+          "name": "consentement",
+          "application": "Accepter l’absence de certitude tout en agissant selon les meilleures raisons disponibles.",
+          "gain": "Préserve l’action et l’humilité.",
+          "cost": "L’acceptation ne fournit pas seule de critères pour distinguer choix prudent et arbitraire.",
+          "rest": "Quelles raisons suffisent pour rendre une action justifiée ?",
+          "verdict": "admissible sous condition",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
+        }
+      ],
+      "evaluation": {
+        "fidelity": "La solution actuelle préserve les deux exigences explicites.",
+        "operation": "La distinction des exigences est pertinente, mais les opérations concurrentes ont été testées.",
+        "cost": "Le coût propre de la résolution retenue est identifié dans la confrontation.",
+        "rest": "Le reste vise la condition d'application et ne nie pas automatiquement la réponse.",
+        "best": "Solution actuelle provisoirement préférée, mais sans preuve de dominance sur toute combinaison.",
+        "rewrite": "Pas de remplacement décidé ; renforcer la justification des critères si nécessaire."
+      },
+      "secondPass": {
+        "candidateCombination": "suspension épistémique + métamorphose",
+        "preliminaryStrength": "à préciser",
+        "decisiveTest": "La substitution de la justification à la certitude ne doit pas masquer une réponse négative à la question littérale.",
+        "nextComparison": "Distinguer certitude de l'acte au moment d'agir et évaluation rétrospective.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
+      },
+      "targetedReview": {
+        "issue": "La justification d'un acte ne constitue pas une certitude qu'il est bon.",
+        "fix": "Répondre explicitement : la certitude infaillible est généralement inaccessible ; on peut toutefois juger raisonnablement l'acte.",
+        "cost": "Renoncer à la certitude absolue sans abaisser l'exigence d'examen moral.",
+        "rest": "L'évaluation après coup peut changer avec les conséquences, sans rendre irrationnelle toute décision antérieure.",
+        "rewrite": "Vérifier que l'introduction et la conclusion ne confondent jamais certitude et justification.",
+        "status": "proposition éditoriale, non appliquée à la copie"
+      }
+    },
+    "2026-g1-nature-besoin": {
+      "subject": "La nature a-t-elle besoin de nous ?",
+      "requirements": [
+        "Préserver les capacités propres des êtres naturels",
+        "Assumer les dommages dont notre action est responsable"
+      ],
+      "thirdPart": "Il faut garder la capacité des êtres naturels à se développer sans nous, tout en reconnaissant les dommages qui rendent certains milieux dépendants de nos interventions. La nature comme ensemble des processus ne dépend pas de notre présence ; des espèces et des équilibres déterminés peuvent dépendre de nos choix. Notre propre dépendance envers eux donne une raison de les protéger sans prétendre gouverner chaque processus. Aristote distingue le mouvement propre du vivant de la fabrication. Restaurer un milieu peut précisément viser à rendre à ses êtres la possibilité de se développer : intervenir pour retirer un obstacle ne revient pas à fabriquer tous leurs mouvements. La nature n’a donc pas besoin de nous en un sens unique : certains milieux abîmés ont besoin de soins, dont la fin doit être leur autonomie plutôt que leur remplacement par notre ouvrage. Reste que choisir le milieu à restaurer suppose un jugement humain : quelle autonomie préserver quand plusieurs formes de vie entrent en conflit ?",
+      "existingCandidates": [
+        {
+          "id": "retenue",
+          "proposal": "La nature comme ensemble des processus ne dépend pas de notre présence ; des espèces et des équilibres déterminés peuvent dépendre de nos choix. Notre propre dépendance envers eux donne une raison de les protéger sans prétendre gouverner chaque processus.",
+          "conserves": [
+            "Préserver les capacités propres des êtres naturels",
+            "Assumer les dommages dont notre action est responsable"
+          ],
+          "cost": "Reste que choisir le milieu à restaurer suppose un jugement humain : quelle autonomie préserver quand plusieurs formes de vie entrent en conflit ?",
+          "remainingProblem": "Comment choisir ce qu’il faut restaurer sans faire de nos préférences la seule mesure d’une nature que nous voulons autonome ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Inverser : seuls les hommes ont besoin de la nature",
+          "conserves": [
+            "Évite la fiction d’une nature globalement dépendante de l’homme"
+          ],
+          "cost": "Notre besoin ne supprime pas celui d’un milieu abîmé envers certains soins",
+          "remainingProblem": "Notre besoin ne supprime pas celui d’un milieu abîmé envers certains soins"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Processualiser : réparer puis se retirer",
+          "conserves": [
+            "Rend intelligible une intervention en vue de l’autonomie"
+          ],
+          "cost": "La frontière entre intervention temporaire et entretien durable ne vaut pas pour tous les milieux",
+          "remainingProblem": "La frontière entre intervention temporaire et entretien durable ne vaut pas pour tous les milieux"
+        }
+      ],
+      "selected": "retenue",
+      "existingComparison": "La distinction entre processus naturels et milieux déterminés rend l’inversion non exclusive ; elle accueille réparation et autonomie sans nier les besoins locaux.",
+      "existingResidual": "Reste que choisir le milieu à restaurer suppose un jugement humain : quelle autonomie préserver quand plusieurs formes de vie entrent en conflit ?",
+      "existingConclusionQuestion": "Comment choisir ce qu’il faut restaurer sans faire de nos préférences la seule mesure d’une nature que nous voulons autonome ?",
+      "eightFamilies": [
+        {
+          "name": "duplication ontologique",
+          "application": "Distinguer le plan où « Préserver les capacités propres des êtres naturels » et celui où « Assumer les dommages dont notre action est responsable » s'appliquent, puis établir leur unité.",
+          "gain": "Distingue nature globale et écosystèmes dépendants de réparations humaines.",
+          "cost": "La distinction exige de définir le bien propre des milieux.",
+          "rest": "Quelle autonomie protéger lorsque les espèces sont en conflit ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "abolition partielle/totale",
+          "application": "Abandonner ou limiter l'exigence « Préserver les capacités propres des êtres naturels » pour préserver « Assumer les dommages dont notre action est responsable » : vérifier si le sujet survit à ce sacrifice.",
+          "gain": "Écarte tout besoin attribué à la nature.",
+          "cost": "Risque de nier des dépendances créées par nos dommages.",
+          "rest": "Pourquoi réparer un milieu détruit par l'homme ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "processualisation",
+          "application": "Faire de « Préserver les capacités propres des êtres naturels » et « Assumer les dommages dont notre action est responsable » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "gain": "Conçoit la restauration comme retour progressif d'une autonomie écologique.",
+          "cost": "L'intervention peut fabriquer un nouvel équilibre artificiel.",
+          "rest": "Quand faut-il cesser d'intervenir ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "inversion d’indexation",
+          "application": "Soutenir que « Assumer les dommages dont notre action est responsable » est la condition de possibilité de « Préserver les capacités propres des êtres naturels », et non seulement son effet.",
+          "gain": "Notre responsabilité naît des dépendances que nous avons causées.",
+          "cost": "Ne donne pas de critère entre intérêts naturels divergents.",
+          "rest": "Quelle espèce privilégier ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "métamorphose",
+          "application": "Redéfinir la notion centrale de « La nature a-t-elle besoin de nous ? » pour conserver les deux exigences sans les juxtaposer.",
+          "gain": "Transforme protéger en rendre possible une autonomie.",
+          "cost": "L'autonomie des processus naturels peut contredire la protection d'individus.",
+          "rest": "Que doit-on laisser disparaître ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "déplacement",
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "gain": "Recentre la question sur les besoins humains.",
+          "cost": "Réduit la valeur du vivant à son utilité pour nous.",
+          "rest": "Pourquoi préserver ce qui ne nous sert pas ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "suspension épistémique",
+          "application": "Limiter la prétention à savoir si « Préserver les capacités propres des êtres naturels » et « Assumer les dommages dont notre action est responsable » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "gain": "Évite de projeter une volonté humaine sur la nature.",
+          "cost": "Ne dispense pas de décider face à des dommages connus.",
+          "rest": "Sur quelle base intervenir ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "consentement",
+          "application": "Assumer que « Préserver les capacités propres des êtres naturels » et « Assumer les dommages dont notre action est responsable » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "gain": "Reconnaît que protéger peut exiger de limiter notre action.",
+          "cost": "L'acceptation ne tranche pas les conflits de conservation.",
+          "rest": "Quelle nature voulons-nous protéger ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        }
+      ],
+      "evaluation": {
+        "fidelity": "Les deux exigences sont explicitées ; conservation par la solution actuelle à vérifier au-delà de sa déclaration.",
+        "operation": "Huit opérations confrontées, avec plusieurs concurrentes sérieuses.",
+        "cost": "Le coût de chaque opération est explicité.",
+        "rest": "Le reste de chaque opération est formulé comme objection propre.",
+        "best": "La solution actuelle reste plausible ; classement final non démontré.",
+        "rewrite": "Aucune modification de la copie sans arbitrage comparatif final."
+      },
+      "secondPass": {
+        "candidateCombination": "duplication ontologique + métamorphose",
+        "preliminaryStrength": "forte",
+        "decisiveTest": "L'autonomie des milieux n'est pas un critère suffisant pour arbitrer les conflits entre vivants.",
+        "nextComparison": "Confronter autonomie, réparation des dommages et non-intervention.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
+      }
+    },
+    "2026-me-bonheur-autres": {
+      "subject": "Peut-on être heureux quand les autres ne le sont pas ?",
+      "requirements": [
+        "Préserver la possibilité d’une vie heureuse",
+        "Reconnaître le malheur d’autrui et nos obligations"
+      ],
+      "thirdPart": "Il faut garder une possibilité de joie sans nier le malheur d’autrui, ni exiger que toute souffrance du monde soit supprimée pour vivre heureux. La compassion n’oblige pas à reproduire en soi toute la souffrance dont on prend connaissance. Un bonheur peut inclure de l’inquiétude et se prolonger en aide ; la joie ne démontre alors ni l’ignorance ni l’approbation du malheur. Aristote, dans l’Éthique à Nicomaque, fait de l’amitié un bien de la vie heureuse : le bonheur ne se réduit pas à un refuge intérieur. Une activité partagée peut donner de la joie tout en prenant au sérieux une difficulté commune. On peut ainsi être heureux lorsque d’autres ne le sont pas, si ce bonheur reste compatible avec l’attention et l’action pour eux. Il ne faut pas confondre cette possibilité avec le droit de profiter de leur souffrance. Reste le cas où mon bonheur repose matériellement sur une injustice subie par d’autres : leur porter de l’attention ne suffit plus.",
+      "existingCandidates": [
+        {
+          "id": "retenue",
+          "proposal": "La compassion n’oblige pas à reproduire en soi toute la souffrance dont on prend connaissance. Un bonheur peut inclure de l’inquiétude et se prolonger en aide ; la joie ne démontre alors ni l’ignorance ni l’approbation du malheur.",
+          "conserves": [
+            "Préserver la possibilité d’une vie heureuse",
+            "Reconnaître le malheur d’autrui et nos obligations"
+          ],
+          "cost": "Reste le cas où mon bonheur repose matériellement sur une injustice subie par d’autres : leur porter de l’attention ne suffit plus.",
+          "remainingProblem": "Que doit changer celui dont le bonheur dépend d’une injustice, pour que son souci d’autrui ne demeure pas une simple bonne conscience ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Distinguer proches et lointains",
+          "conserves": [
+            "Évite de faire dépendre chaque joie de toute souffrance du monde"
+          ],
+          "cost": "La distance seule ne justifie pas l’indifférence ni la participation à une injustice",
+          "remainingProblem": "La distance seule ne justifie pas l’indifférence ni la participation à une injustice"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Métamorphoser le bonheur en joie partagée",
+          "conserves": [
+            "Rend le bonheur relationnel plutôt que fermé"
+          ],
+          "cost": "La joie partagée peut ne pas atteindre les victimes dont elle dépend matériellement",
+          "remainingProblem": "La joie partagée peut ne pas atteindre les victimes dont elle dépend matériellement"
+        }
+      ],
+      "selected": "retenue",
+      "existingComparison": "La compatibilité de joie, attention et action préserve une possibilité sans déclarer tout bonheur innocent ; la dépendance envers l’injustice devient l’épreuve résiduelle.",
+      "existingResidual": "Reste le cas où mon bonheur repose matériellement sur une injustice subie par d’autres : leur porter de l’attention ne suffit plus.",
+      "existingConclusionQuestion": "Que doit changer celui dont le bonheur dépend d’une injustice, pour que son souci d’autrui ne demeure pas une simple bonne conscience ?",
+      "eightFamilies": [
+        {
+          "name": "duplication ontologique",
+          "application": "Distinguer le plan où « Préserver la possibilité d’une vie heureuse » et celui où « Reconnaître le malheur d’autrui et nos obligations » s'appliquent, puis établir leur unité.",
+          "gain": "Distingue ressentir de la compassion et souffrir identiquement.",
+          "cost": "N'exclut pas que la joie repose sur une exploitation réelle.",
+          "rest": "Peut-on être heureux grâce au malheur d'autrui ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "abolition partielle/totale",
+          "application": "Abandonner ou limiter l'exigence « Préserver la possibilité d’une vie heureuse » pour préserver « Reconnaître le malheur d’autrui et nos obligations » : vérifier si le sujet survit à ce sacrifice.",
+          "gain": "Interdit toute joie tant qu'un autre souffre.",
+          "cost": "Rend le bonheur pratiquement impossible.",
+          "rest": "L'obligation morale exige-t-elle de souffrir autant ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "processualisation",
+          "application": "Faire de « Préserver la possibilité d’une vie heureuse » et « Reconnaître le malheur d’autrui et nos obligations » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "gain": "Fait de la joie une ressource pour l'aide et la réparation.",
+          "cost": "Une aide sincère ne compense pas nécessairement un privilège injuste.",
+          "rest": "Quand la solidarité exige-t-elle un sacrifice ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "inversion d’indexation",
+          "application": "Soutenir que « Reconnaître le malheur d’autrui et nos obligations » est la condition de possibilité de « Préserver la possibilité d’une vie heureuse », et non seulement son effet.",
+          "gain": "Le souci d'autrui peut rendre le bonheur moins fermé.",
+          "cost": "Ne garantit pas que le bonheur soit moralement justifié.",
+          "rest": "Une joie compatissante peut-elle demeurer injuste ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "métamorphose",
+          "application": "Redéfinir la notion centrale de « Peut-on être heureux quand les autres ne le sont pas ? » pour conserver les deux exigences sans les juxtaposer.",
+          "gain": "Transforme le bonheur isolé en joie solidaire.",
+          "cost": "Risque de refuser toute valeur à une joie solitaire.",
+          "rest": "Toute joie doit-elle se traduire en action ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "déplacement",
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "gain": "Déplace le bonheur vers une justice collective future.",
+          "cost": "Sacrifie la possibilité d'un bonheur présent.",
+          "rest": "Faut-il attendre une société juste pour être heureux ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "suspension épistémique",
+          "application": "Limiter la prétention à savoir si « Préserver la possibilité d’une vie heureuse » et « Reconnaître le malheur d’autrui et nos obligations » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "gain": "Suspend le bonheur tant que le malheur d'autrui est connu.",
+          "cost": "Ne permet plus de répondre à la possibilité posée.",
+          "rest": "Qui peut jamais être heureux ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "consentement",
+          "application": "Assumer que « Préserver la possibilité d’une vie heureuse » et « Reconnaître le malheur d’autrui et nos obligations » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "gain": "Assume une joie consciente de la souffrance d'autrui.",
+          "cost": "Ne distingue pas compassion et complicité.",
+          "rest": "Quand le bonheur devient-il indécent ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        }
+      ],
+      "evaluation": {
+        "fidelity": "Les deux exigences sont explicitées ; conservation par la solution actuelle à vérifier au-delà de sa déclaration.",
+        "operation": "Huit opérations confrontées, avec plusieurs concurrentes sérieuses.",
+        "cost": "Le coût de chaque opération est explicité.",
+        "rest": "Le reste de chaque opération est formulé comme objection propre.",
+        "best": "La solution actuelle reste plausible ; classement final non démontré.",
+        "rewrite": "Aucune modification de la copie sans arbitrage comparatif final."
+      },
+      "secondPass": {
+        "candidateCombination": "duplication ontologique + processualisation",
+        "preliminaryStrength": "à préciser",
+        "decisiveTest": "La compassion n'efface pas la possibilité d'un bonheur matériellement fondé sur l'injustice.",
+        "nextComparison": "Faire intervenir la distinction entre malheur d'autrui et profit tiré de ce malheur.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
+      },
+      "targetedReview": {
+        "issue": "La compassion permet une joie non indifférente, mais elle ne justifie pas une joie tirée d'une injustice.",
+        "fix": "Distinguer le bonheur malgré le malheur d'autrui et le bonheur obtenu grâce à ce malheur.",
+        "cost": "La possibilité d'être heureux demeure conditionnelle à la relation réelle entre notre bonheur et le tort subi.",
+        "rest": "Quand le bien-être dépend d'une exploitation, l'attention morale ne suffit pas : quelle transformation matérielle est due ?",
+        "rewrite": "Renforcer la distinction en III et faire du cas de complicité une limite précise.",
+        "status": "proposition éditoriale, non appliquée à la copie"
+      }
+    },
+    "2026-me-paroles": {
+      "subject": "Avons-nous la maîtrise de nos paroles ?",
+      "requirements": [
+        "Reconnaître notre pouvoir de formulation",
+        "Ne pas nier les interprétations et effets qui nous échappent"
+      ],
+      "thirdPart": "Il faut reconnaître un pouvoir sur nos paroles sans nous attribuer la maîtrise totale de leur sens et de leur réception. Nous pouvons choisir des mots, vérifier ce que l’autre a compris et rectifier un malentendu ; nous ne pouvons pas décider à sa place de toute interprétation. La maîtrise est donc un travail de formulation et de reprise, plutôt qu’une propriété acquise avant de parler. Une promesse en donne un cas : son auteur ne contrôle pas toutes les attentes qu’elle suscite, mais il peut préciser ce qu’il promet et répondre des termes qu’il a choisis. Cela vaut aussi pour un récit ou une explication : reprendre sa parole peut réduire un écart sans l’abolir. Nous avons une maîtrise partielle de nos paroles, à exercer dans l’échange. En répondre ne remplace pas ce pouvoir ; cela oblige à le mettre en œuvre et à reconnaître ses limites. Reste qu’une parole peut produire un effet irréversible avant que sa rectification soit entendue.",
+      "existingCandidates": [
+        {
+          "id": "retenue",
+          "proposal": "Nous pouvons choisir des mots, vérifier ce que l’autre a compris et rectifier un malentendu ; nous ne pouvons pas décider à sa place de toute interprétation. La maîtrise est donc un travail de formulation et de reprise, plutôt qu’une propriété acquise avant de parler.",
+          "conserves": [
+            "Reconnaître notre pouvoir de formulation",
+            "Ne pas nier les interprétations et effets qui nous échappent"
+          ],
+          "cost": "Reste qu’une parole peut produire un effet irréversible avant que sa rectification soit entendue.",
+          "remainingProblem": "Comment répondre d’une parole dont on peut corriger le sens, mais dont on ne peut plus réparer tous les effets ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Inverser : la parole nous engage plutôt que nous la maîtrisons",
+          "conserves": [
+            "Explique la responsabilité attachée aux mots"
+          ],
+          "cost": "Réduit trop vite toute parole à la promesse et remplace la maîtrise par l’engagement",
+          "remainingProblem": "Réduit trop vite toute parole à la promesse et remplace la maîtrise par l’engagement"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Consentir à l’équivocité de toute parole",
+          "conserves": [
+            "Évite le fantasme d’un sens totalement contrôlé"
+          ],
+          "cost": "Sans reprise ni rectification, on ne décrit plus ce qui reste effectivement maîtrisable",
+          "remainingProblem": "Sans reprise ni rectification, on ne décrit plus ce qui reste effectivement maîtrisable"
+        }
+      ],
+      "selected": "retenue",
+      "existingComparison": "La maîtrise partielle et exercée dans l’échange s’applique aux promesses comme aux explications ; elle répond au pouvoir effectif sans promettre le contrôle des effets.",
+      "existingResidual": "Reste qu’une parole peut produire un effet irréversible avant que sa rectification soit entendue.",
+      "existingConclusionQuestion": "Comment répondre d’une parole dont on peut corriger le sens, mais dont on ne peut plus réparer tous les effets ?",
+      "eightFamilies": [
+        {
+          "name": "duplication ontologique",
+          "application": "Distinguer le plan où « Reconnaître notre pouvoir de formulation » et celui où « Ne pas nier les interprétations et effets qui nous échappent » s'appliquent, puis établir leur unité.",
+          "gain": "Distingue maîtrise de l'énoncé et maîtrise de la réception.",
+          "cost": "Risque de réduire la maîtrise à une simple intention.",
+          "rest": "Que faire si la parole blesse malgré sa correction ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "abolition partielle/totale",
+          "application": "Abandonner ou limiter l'exigence « Reconnaître notre pouvoir de formulation » pour préserver « Ne pas nier les interprétations et effets qui nous échappent » : vérifier si le sujet survit à ce sacrifice.",
+          "gain": "Renonce à maîtriser les effets de la parole.",
+          "cost": "Peut excuser une formulation négligente.",
+          "rest": "Pourquoi répondre de ses mots ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "processualisation",
+          "application": "Faire de « Reconnaître notre pouvoir de formulation » et « Ne pas nier les interprétations et effets qui nous échappent » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "gain": "Fait de la clarification un processus de reprises successives.",
+          "cost": "La rectification peut arriver après un dommage irréversible.",
+          "rest": "Que réparer lorsque les mots ont déjà agi ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "inversion d’indexation",
+          "application": "Soutenir que « Ne pas nier les interprétations et effets qui nous échappent » est la condition de possibilité de « Reconnaître notre pouvoir de formulation », et non seulement son effet.",
+          "gain": "L'absence de maîtrise totale oblige à mieux écouter.",
+          "cost": "N'assure pas que l'interlocuteur accepte la correction.",
+          "rest": "La responsabilité suffit-elle à maîtriser ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "métamorphose",
+          "application": "Redéfinir la notion centrale de « Avons-nous la maîtrise de nos paroles ? » pour conserver les deux exigences sans les juxtaposer.",
+          "gain": "Transforme maîtrise totale en responsabilité de clarification.",
+          "cost": "Peut changer le sens de maîtrise au lieu de l'expliquer.",
+          "rest": "Peut-on appeler maîtrise un pouvoir toujours partiel ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "déplacement",
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "gain": "Déplace la maîtrise vers les règles communes de langue.",
+          "cost": "Les conventions n'empêchent pas les interprétations divergentes.",
+          "rest": "Qui fixe le sens d'un énoncé singulier ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "suspension épistémique",
+          "application": "Limiter la prétention à savoir si « Reconnaître notre pouvoir de formulation » et « Ne pas nier les interprétations et effets qui nous échappent » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "gain": "Suspend toute prétention à prévoir la réception.",
+          "cost": "Ne justifie pas de renoncer au soin de formuler.",
+          "rest": "Pourquoi parler avec prudence ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        },
+        {
+          "name": "consentement",
+          "application": "Assumer que « Reconnaître notre pouvoir de formulation » et « Ne pas nier les interprétations et effets qui nous échappent » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "gain": "Accepte le risque irréductible de toute parole.",
+          "cost": "N'indique pas comment réduire les malentendus évitables.",
+          "rest": "Quelle responsabilité demeure ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, sans preuve de dominance sur toutes les combinaisons"
+        }
+      ],
+      "evaluation": {
+        "fidelity": "Les deux exigences sont explicitées ; conservation par la solution actuelle à vérifier au-delà de sa déclaration.",
+        "operation": "Huit opérations confrontées, avec plusieurs concurrentes sérieuses.",
+        "cost": "Le coût de chaque opération est explicité.",
+        "rest": "Le reste de chaque opération est formulé comme objection propre.",
+        "best": "La solution actuelle reste plausible ; classement final non démontré.",
+        "rewrite": "Aucune modification de la copie sans arbitrage comparatif final."
+      },
+      "secondPass": {
+        "candidateCombination": "duplication ontologique + processualisation",
+        "preliminaryStrength": "forte",
+        "decisiveTest": "La possibilité de corriger ne répare pas nécessairement un effet irréversible.",
+        "nextComparison": "Comparer responsabilité préventive et correction dialogique.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
+      }
+    },
+    "notion-inconscient": {
+      "subject": "L’idée d’inconscient remet-elle en cause la responsabilité ?",
+      "requirements": [
+        "Reconnaître ce qui échappe au choix conscient",
+        "Préserver une responsabilité proportionnée aux capacités"
+      ],
+      "thirdPart": "Il faut tenir compte de ce qui échappe à la volonté sans traiter toute ignorance comme une excuse, ni tout désir inconnu comme une faute. Un désir ignoré, un acte accompli et une conséquence à réparer n’engagent pas la même responsabilité. L’inconscient invite à examiner la capacité réelle de comprendre et de choisir ; la responsabilité se construit aussi lorsque nous apprenons à reconnaître ce qui nous détermine. La cure freudienne vise une transformation du rapport du sujet à ses désirs. Elle ne fait pas de la connaissance une maîtrise totale, mais ouvre une possibilité de travail là où l’agent ne voyait qu’un fait subi. L’idée d’inconscient remet donc en cause une responsabilité fondée sur la transparence parfaite de soi ; elle ne supprime pas toute capacité de répondre de ses actes et de leurs conséquences. Reste qu’on ne peut jamais établir exactement toute la part consciente et inconsciente d’un acte : il faut pourtant décider ce qui peut être imputé à son auteur.",
+      "existingCandidates": [
+        {
+          "id": "retenue",
+          "proposal": "Un désir ignoré, un acte accompli et une conséquence à réparer n’engagent pas la même responsabilité. L’inconscient invite à examiner la capacité réelle de comprendre et de choisir ; la responsabilité se construit aussi lorsque nous apprenons à reconnaître ce qui nous détermine.",
+          "conserves": [
+            "Reconnaître ce qui échappe au choix conscient",
+            "Préserver une responsabilité proportionnée aux capacités"
+          ],
+          "cost": "Reste qu’on ne peut jamais établir exactement toute la part consciente et inconsciente d’un acte : il faut pourtant décider ce qui peut être imputé à son auteur.",
+          "remainingProblem": "Comment attribuer une responsabilité juste lorsque la connaissance de ce qui a déterminé l’acte demeure incomplète ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Processualiser : devenir responsable en se connaissant",
+          "conserves": [
+            "Fait de la responsabilité une tâche plutôt qu’un état total"
+          ],
+          "cost": "Ne suffit pas à juger les actes passés ni à distinguer imputation et réparation",
+          "remainingProblem": "Ne suffit pas à juger les actes passés ni à distinguer imputation et réparation"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Suspendre : les motifs inconscients empêchent toute attribution certaine",
+          "conserves": [
+            "Évite une culpabilité fondée sur la transparence supposée"
+          ],
+          "cost": "La décision de responsabilité ne peut toujours attendre une connaissance exhaustive",
+          "remainingProblem": "La décision de responsabilité ne peut toujours attendre une connaissance exhaustive"
+        }
+      ],
+      "selected": "retenue",
+      "existingComparison": "La distinction désir/acte/réparation complète le processus de connaissance ; elle évite aussi bien l’excuse totale que la faute imputée à chaque désir.",
+      "existingResidual": "Reste qu’on ne peut jamais établir exactement toute la part consciente et inconsciente d’un acte : il faut pourtant décider ce qui peut être imputé à son auteur.",
+      "existingConclusionQuestion": "Comment attribuer une responsabilité juste lorsque la connaissance de ce qui a déterminé l’acte demeure incomplète ?",
+      "eightFamilies": [
+        {
+          "name": "duplication ontologique",
+          "application": "Distinguer le plan où « Reconnaître ce qui échappe au choix conscient » et celui où « Préserver une responsabilité proportionnée aux capacités » s'appliquent, puis établir leur unité.",
+          "gain": "Sépare désir inconscient, acte imputable et réparation due.",
+          "cost": "La séparation demande des critères d'attribution effectifs.",
+          "rest": "Comment juger sans connaître exactement les motifs ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "abolition partielle/totale",
+          "application": "Abandonner ou limiter l'exigence « Reconnaître ce qui échappe au choix conscient » pour préserver « Préserver une responsabilité proportionnée aux capacités » : vérifier si le sujet survit à ce sacrifice.",
+          "gain": "Supprime la responsabilité faute de transparence.",
+          "cost": "Protège contre la culpabilisation arbitraire mais ignore les victimes.",
+          "rest": "Qui répare les dommages causés ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "processualisation",
+          "application": "Faire de « Reconnaître ce qui échappe au choix conscient » et « Préserver une responsabilité proportionnée aux capacités » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "gain": "La connaissance de soi accroît progressivement la responsabilité.",
+          "cost": "Ne suffit pas à décider des actes passés.",
+          "rest": "Quel degré de lucidité était possible au moment de l'acte ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "inversion d’indexation",
+          "application": "Soutenir que « Préserver une responsabilité proportionnée aux capacités » est la condition de possibilité de « Reconnaître ce qui échappe au choix conscient », et non seulement son effet.",
+          "gain": "L'inconscient rend nécessaire une responsabilité moins présomptueuse.",
+          "cost": "La prudence ne fournit pas une norme d'imputation.",
+          "rest": "Qui doit répondre de l'acte ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "métamorphose",
+          "application": "Redéfinir la notion centrale de « L’idée d’inconscient remet-elle en cause la responsabilité ? » pour conserver les deux exigences sans les juxtaposer.",
+          "gain": "Transforme la faute totale en responsabilité proportionnée aux capacités.",
+          "cost": "Il faut établir ces capacités sans transparence complète.",
+          "rest": "Comment mesurer la part de choix réelle ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "déplacement",
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "gain": "Déplace l'imputation vers les conditions sociales.",
+          "cost": "Peut dissoudre toute responsabilité personnelle.",
+          "rest": "Qui doit répondre aux personnes lésées ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "suspension épistémique",
+          "application": "Limiter la prétention à savoir si « Reconnaître ce qui échappe au choix conscient » et « Préserver une responsabilité proportionnée aux capacités » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "gain": "Suspend tout jugement tant que les motifs restent opaques.",
+          "cost": "Rend impossible la réparation et l'action judiciaire.",
+          "rest": "Peut-on attendre une connaissance exhaustive ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "consentement",
+          "application": "Assumer que « Reconnaître ce qui échappe au choix conscient » et « Préserver une responsabilité proportionnée aux capacités » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "gain": "Assume qu'une responsabilité demeure sous incertitude.",
+          "cost": "N'établit pas son degré ni ses critères.",
+          "rest": "Quelle responsabilité est juste malgré l'opacité ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        }
+      ],
+      "evaluation": {
+        "fidelity": "Les deux exigences sont reconnues dans le dossier.",
+        "operation": "Huit familles confrontées avec leurs limites propres.",
+        "cost": "Chaque famille possède un coût argumenté.",
+        "rest": "Chaque famille possède une objection résiduelle propre.",
+        "best": "Solution actuelle plausible, non démontrée absolument supérieure à toute combinaison.",
+        "rewrite": "Aucune réécriture décidée sans audit de la copie et des références."
+      },
+      "secondPass": {
+        "candidateCombination": "duplication ontologique + métamorphose",
+        "preliminaryStrength": "forte",
+        "decisiveTest": "L'opacité des causes exige des critères d'imputation distincts de la simple conscience de soi.",
+        "nextComparison": "Comparer imputabilité, réparation et devoir de connaissance de soi.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
+      }
+    },
+    "notion-liberte": {
+      "subject": "S’engager, est-ce renoncer à sa liberté ?",
+      "requirements": [
+        "Donner durée et force à la promesse",
+        "Conserver la capacité de juger et de faire autrement"
+      ],
+      "thirdPart": "Il faut garder la durée d’une promesse et la capacité de juger ce à quoi elle nous lie, sans rendre sa force dépendante de chaque humeur. Une promesse donne à autrui une raison de compter sur nous : elle oblige au-delà de notre préférence présente. La reprendre librement consiste à reconnaître cette raison, non à décider chaque matin qu’elle ne vaut que si elle nous plaît encore. Nietzsche, dans la Généalogie de la morale, rapporte la promesse à une volonté capable de durer. Cette constance n’interdit pas le jugement : si la cause devient injuste, rompre peut être nécessaire, mais demande des raisons et l’examen des torts causés à ceux qui comptaient sur nous. S’engager restreint donc certains possibles, sans supprimer nécessairement la liberté : celle-ci peut prendre la forme d’une fidélité raisonnée, capable aussi de justifier une rupture. Reste le conflit entre une obligation encore légitime et une transformation profonde de celui qui l’a contractée : aucune règle simple ne fixe le prix acceptable de la fidélité.",
+      "existingCandidates": [
+        {
+          "id": "retenue",
+          "proposal": "Une promesse donne à autrui une raison de compter sur nous : elle oblige au-delà de notre préférence présente. La reprendre librement consiste à reconnaître cette raison, non à décider chaque matin qu’elle ne vaut que si elle nous plaît encore.",
+          "conserves": [
+            "Donner durée et force à la promesse",
+            "Conserver la capacité de juger et de faire autrement"
+          ],
+          "cost": "Reste le conflit entre une obligation encore légitime et une transformation profonde de celui qui l’a contractée : aucune règle simple ne fixe le prix acceptable de la fidélité.",
+          "remainingProblem": "Quand la fidélité exige de renoncer à ce que l’on est devenu, comment juger si elle accomplit encore la liberté ou la sacrifie ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Processualiser : renouveler librement la promesse chaque jour",
+          "conserves": [
+            "Montre que tenir peut rester un acte présent"
+          ],
+          "cost": "Si la promesse ne vaut qu’à chaque nouveau consentement, l’obligation envers autrui disparaît",
+          "remainingProblem": "Si la promesse ne vaut qu’à chaque nouveau consentement, l’obligation envers autrui disparaît"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Inverser : la promesse construit la liberté durable",
+          "conserves": [
+            "Explique qu’un lien puisse libérer de l’humeur"
+          ],
+          "cost": "Une fidélité devenue injuste peut alors paraître libre par sa seule constance",
+          "remainingProblem": "Une fidélité devenue injuste peut alors paraître libre par sa seule constance"
+        }
+      ],
+      "selected": "retenue",
+      "existingComparison": "La fidélité raisonnée conserve une obligation qui dépasse l’humeur tout en donnant des critères de rupture ; elle complète le processus par la raison due à autrui.",
+      "existingResidual": "Reste le conflit entre une obligation encore légitime et une transformation profonde de celui qui l’a contractée : aucune règle simple ne fixe le prix acceptable de la fidélité.",
+      "existingConclusionQuestion": "Quand la fidélité exige de renoncer à ce que l’on est devenu, comment juger si elle accomplit encore la liberté ou la sacrifie ?",
+      "eightFamilies": [
+        {
+          "name": "duplication ontologique",
+          "application": "Distinguer liberté de décider et liberté de répondre durablement de ses actes : les deux peuvent coexister sur des plans différents.",
+          "gain": "Préserve choix et obligation en distinguant leurs objets.",
+          "cost": "Il faut démontrer que les deux libertés appartiennent à un même sujet plutôt que de juxtaposer des définitions.",
+          "rest": "Lorsqu’une promesse ancienne contredit un choix présent, quel plan doit prévaloir ?",
+          "verdict": "admissible",
+          "review": "analyse comparative initiale, non preuve d'optimalité absolue"
+        },
+        {
+          "name": "abolition partielle/totale",
+          "application": "Supprimer la prétention qu’une promesse oblige après tout changement de volonté, ou abolir l’engagement au profit de la seule spontanéité.",
+          "gain": "Rend immédiatement possible la révision des décisions.",
+          "cost": "Détruit ou affaiblit l’obligation envers celui qui s’est fié à la parole donnée.",
+          "rest": "Pourquoi autrui devrait-il faire confiance à une promesse toujours révocable ?",
+          "verdict": "écartée comme résolution complète",
+          "review": "analyse comparative initiale, non preuve d'optimalité absolue"
+        },
+        {
+          "name": "processualisation",
+          "application": "Comprendre la promesse comme une fidélité qui se maintient par des actes réfléchis et peut se réviser pour des raisons justifiables.",
+          "gain": "Articule décision initiale, durée et liberté présente.",
+          "cost": "La réappropriation ne suffit pas à établir ce qui est dû à autrui : il faut une norme de justification.",
+          "rest": "Quand la personne change mais que l’obligation demeure légitime, jusqu’où doit aller la fidélité ?",
+          "verdict": "admissible",
+          "review": "analyse comparative initiale, non preuve d'optimalité absolue"
+        },
+        {
+          "name": "inversion d’indexation",
+          "application": "La promesse ne limiterait pas une liberté déjà constituée : elle serait une condition de la capacité à se gouverner dans le temps.",
+          "gain": "Explique que certaines contraintes librement assumées augmentent l’autonomie.",
+          "cost": "Risque de valoriser toute constance sans distinguer engagement juste et servitude.",
+          "rest": "Une fidélité à une cause injuste accroît-elle encore la liberté ?",
+          "verdict": "admissible sous condition",
+          "review": "analyse comparative initiale, non preuve d'optimalité absolue"
+        },
+        {
+          "name": "métamorphose",
+          "application": "Transformer la liberté de pure disponibilité en pouvoir d’assumer des obligations, sans supprimer la possibilité de les juger.",
+          "gain": "Redéfinit la liberté pour y inclure la responsabilité.",
+          "cost": "La redéfinition risque de rendre la liberté indiscernable de la vertu de fidélité.",
+          "rest": "Une rupture justifiée reste-t-elle libre si la fidélité définit la liberté ?",
+          "verdict": "admissible sous condition",
+          "review": "analyse comparative initiale, non preuve d'optimalité absolue"
+        },
+        {
+          "name": "déplacement",
+          "application": "Déplacer la difficulté de la liberté individuelle vers le droit d’autrui à compter sur la promesse.",
+          "gain": "Rend visible une dimension relationnelle négligée.",
+          "cost": "Ne résout pas à lui seul le conflit entre ce droit et la liberté présente du promettant.",
+          "rest": "Qui arbitre entre les deux exigences lorsque les raisons de rompre sont fortes ?",
+          "verdict": "insuffisante seule",
+          "review": "analyse comparative initiale, non preuve d'optimalité absolue"
+        },
+        {
+          "name": "suspension épistémique",
+          "application": "Soutenir qu’aucune règle générale ne permet de savoir d’avance si un engagement sera libérateur ou aliénant.",
+          "gain": "Respecte la singularité des circonstances.",
+          "cost": "Évite la décision normative demandée par le sujet et risque de remplacer une réponse par l’incertitude.",
+          "rest": "Quels critères permettent malgré tout de juger un engagement concret ?",
+          "verdict": "insuffisante seule",
+          "review": "analyse comparative initiale, non preuve d'optimalité absolue"
+        },
+        {
+          "name": "consentement",
+          "application": "Admettre qu’une promesse libre crée une tension irréductible entre le passé qui oblige et le présent qui peut juger.",
+          "gain": "Ne gomme ni l’obligation ni la possibilité de rupture.",
+          "cost": "Si l’on se contente d’accepter la tension, on n’explique pas comment décider.",
+          "rest": "À quelles conditions la fidélité ou la rupture est-elle justifiable ?",
+          "verdict": "admissible sous condition",
+          "review": "analyse comparative initiale, non preuve d'optimalité absolue"
+        }
+      ],
+      "evaluation": {
+        "fidelity": "La solution retenue conserve explicitement les deux exigences.",
+        "operation": "Processualisation corrigée par une justification relationnelle de l'obligation ; métamorphose partielle possible.",
+        "cost": "L'obligation envers autrui exige une norme de révision qui ne se réduit pas au consentement présent.",
+        "rest": "Le conflit entre changement profond de soi et obligation encore légitime atteint la portée de la réponse sans l'annuler.",
+        "best": "La solution actuelle est provisoirement préférée à la duplication et à l'inversion seules ; la comparaison avec une métamorphose articulée reste ouverte.",
+        "rewrite": "Conserver provisoirement la III ; préciser le critère de rupture plutôt que substituer une matrice non démontrée."
+      },
+      "secondPass": {
+        "candidateCombination": "processualisation + métamorphose",
+        "preliminaryStrength": "forte",
+        "decisiveTest": "La fidélité renouvelée ne doit pas effacer l'obligation due à autrui.",
+        "nextComparison": "Confronter une autonomie diachronique à une fidélité toujours révocable.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
+      }
+    },
+    "notion-raison": {
+      "subject": "Suffit-il d’avoir raison pour convaincre ?",
+      "requirements": [
+        "Préserver la force des raisons valides",
+        "Rendre ces raisons accessibles à un esprit situé"
+      ],
+      "thirdPart": "Il faut que les raisons décident, tout en reconnaissant les conditions humaines de leur compréhension. Avoir raison désigne la validité d’un jugement ; convaincre exige que l’autre puisse en examiner les raisons. Clarifier un terme, reprendre une objection ou proposer une vérification peut favoriser cette reconnaissance sans remplacer la preuve par la séduction. Dans Douze hommes en colère, le juré n° 8 fait vérifier les éléments sur lesquels reposait la certitude des autres. Son attention sert l’examen des preuves ; elle n’est pas une preuve supplémentaire de l’innocence. Avoir raison ne suffit donc pas toujours à convaincre : encore faut-il rendre les raisons examinables. Le dialogue est un moyen de le faire, mais une démonstration écrite peut aussi y parvenir. Reste le refus d’examiner : aucune présentation honnête ne garantit que l’autre accepte de mettre sa conviction à l’épreuve.",
+      "existingCandidates": [
+        {
+          "id": "retenue",
+          "proposal": "Avoir raison désigne la validité d’un jugement ; convaincre exige que l’autre puisse en examiner les raisons. Clarifier un terme, reprendre une objection ou proposer une vérification peut favoriser cette reconnaissance sans remplacer la preuve par la séduction.",
+          "conserves": [
+            "Préserver la force des raisons valides",
+            "Rendre ces raisons accessibles à un esprit situé"
+          ],
+          "cost": "Reste le refus d’examiner : aucune présentation honnête ne garantit que l’autre accepte de mettre sa conviction à l’épreuve.",
+          "remainingProblem": "Que peut encore faire la raison devant un refus de l’examiner, sans transformer la recherche de conviction en contrainte ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Distinguer conviction rationnelle et persuasion affective",
+          "conserves": [
+            "Protège la vérité contre la seule séduction"
+          ],
+          "cost": "Risque de classer les moyens sans expliquer comment rendre une preuve effectivement examinable",
+          "remainingProblem": "Risque de classer les moyens sans expliquer comment rendre une preuve effectivement examinable"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Processualiser : laisser la vérité convaincre avec le temps",
+          "conserves": [
+            "Reconnaît l’apprentissage et la maturation"
+          ],
+          "cost": "La durée ne fournit pas à elle seule le mécanisme qui distingue réflexion et répétition persuasive",
+          "remainingProblem": "La durée ne fournit pas à elle seule le mécanisme qui distingue réflexion et répétition persuasive"
+        }
+      ],
+      "selected": "retenue",
+      "existingComparison": "L’appropriation par vérification explique le passage de validité à adhésion sans dévaluer la preuve ; elle vaut pour le dialogue comme pour une démonstration écrite.",
+      "existingResidual": "Reste le refus d’examiner : aucune présentation honnête ne garantit que l’autre accepte de mettre sa conviction à l’épreuve.",
+      "existingConclusionQuestion": "Que peut encore faire la raison devant un refus de l’examiner, sans transformer la recherche de conviction en contrainte ?",
+      "eightFamilies": [
+        {
+          "name": "duplication ontologique",
+          "application": "Distinguer le plan où « Préserver la force des raisons valides » et celui où « Rendre ces raisons accessibles à un esprit situé » s'appliquent, puis établir leur unité.",
+          "gain": "Sépare validité logique et reconnaissance effective des raisons.",
+          "cost": "Ne suffit pas à expliquer comment l'autre les comprend.",
+          "rest": "Quelles conditions rendent une preuve accessible ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "abolition partielle/totale",
+          "application": "Abandonner ou limiter l'exigence « Préserver la force des raisons valides » pour préserver « Rendre ces raisons accessibles à un esprit situé » : vérifier si le sujet survit à ce sacrifice.",
+          "gain": "Abandonne le souci de convaincre et ne garde que la vérité.",
+          "cost": "Sacrifie la dimension intersubjective du problème.",
+          "rest": "Pourquoi argumenter auprès d'autrui ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "processualisation",
+          "application": "Faire de « Préserver la force des raisons valides » et « Rendre ces raisons accessibles à un esprit situé » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "gain": "Fait de l'examen partagé un apprentissage.",
+          "cost": "L'interlocuteur peut refuser tout dialogue.",
+          "rest": "Que faire devant un refus de vérifier ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "inversion d’indexation",
+          "application": "Soutenir que « Rendre ces raisons accessibles à un esprit situé » est la condition de possibilité de « Préserver la force des raisons valides », et non seulement son effet.",
+          "gain": "Le refus d'autrui oblige à mieux expliciter les preuves.",
+          "cost": "Ne garantit pas que les raisons soient acceptées.",
+          "rest": "Comment convaincre sans contraindre ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "métamorphose",
+          "application": "Redéfinir la notion centrale de « Suffit-il d’avoir raison pour convaincre ? » pour conserver les deux exigences sans les juxtaposer.",
+          "gain": "Transforme convaincre en faire examiner librement.",
+          "cost": "Risque de redéfinir le succès sans produire d'adhésion.",
+          "rest": "Peut-on dire convaincu celui qui reste en désaccord ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "déplacement",
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "gain": "Déplace la question vers l'efficacité persuasive.",
+          "cost": "Sacrifie la validité des raisons.",
+          "rest": "Une persuasion fausse vaut-elle conviction rationnelle ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "suspension épistémique",
+          "application": "Limiter la prétention à savoir si « Préserver la force des raisons valides » et « Rendre ces raisons accessibles à un esprit situé » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "gain": "Suspend l'effort de convaincre en cas de résistance.",
+          "cost": "Confond refus actuel et impossibilité de comprendre.",
+          "rest": "Quand cesser de discuter ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "consentement",
+          "application": "Assumer que « Préserver la force des raisons valides » et « Rendre ces raisons accessibles à un esprit situé » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "gain": "Accepte que la raison ne garantisse aucune adhésion.",
+          "cost": "N'explique pas les moyens légitimes de convaincre.",
+          "rest": "Pourquoi exposer ses preuves ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        }
+      ],
+      "evaluation": {
+        "fidelity": "Les deux exigences sont reconnues dans le dossier.",
+        "operation": "Huit familles confrontées avec leurs limites propres.",
+        "cost": "Chaque famille possède un coût argumenté.",
+        "rest": "Chaque famille possède une objection résiduelle propre.",
+        "best": "Solution actuelle plausible, non démontrée absolument supérieure à toute combinaison.",
+        "rewrite": "Aucune réécriture décidée sans audit de la copie et des références."
+      },
+      "secondPass": {
+        "candidateCombination": "duplication ontologique + processualisation",
+        "preliminaryStrength": "forte",
+        "decisiveTest": "La preuve accessible ne garantit pas l'adhésion ; convaincre ne doit pas être redéfini comme exposer.",
+        "nextComparison": "Comparer compréhension, assentiment et persuasion.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
+      }
+    },
+    "notion-technique": {
+      "subject": "Ce qui est techniquement possible est-il toujours souhaitable ?",
+      "requirements": [
+        "Préserver les biens rendus possibles par la technique",
+        "Ne pas autoriser tout moyen et tout risque au nom du pouvoir"
+      ],
+      "thirdPart": "Il faut conserver les possibilités de progrès sans tenir leur faisabilité pour une raison suffisante de les réaliser. Le souhaitable exige de justifier la fin, les moyens et les effets prévisibles. Une fin digne ne rend pas tous ses moyens acceptables : soigner ne suffit pas à autoriser une expérience imposée à ceux qui en subiront les risques. Jonas, dans Le Principe responsabilité, attire l’attention sur les menaces irréversibles pour les générations futures. Une délibération doit donc examiner ceux que la technique affecte, y compris ceux qui ne peuvent pas participer ; le seul accord des décideurs ne garantit pas la justice de leur choix. Ce qui est possible n’est souhaitable que si ses fins et ses moyens peuvent être justifiés, et si ses risques restent compatibles avec le respect des personnes et de leurs conditions de vie. Reste que des conséquences décisives peuvent être inconnues : le jugement doit parfois décider sans pouvoir établir complètement la sécurité d’un projet.",
+      "existingCandidates": [
+        {
+          "id": "retenue",
+          "proposal": "Le souhaitable exige de justifier la fin, les moyens et les effets prévisibles. Une fin digne ne rend pas tous ses moyens acceptables : soigner ne suffit pas à autoriser une expérience imposée à ceux qui en subiront les risques.",
+          "conserves": [
+            "Préserver les biens rendus possibles par la technique",
+            "Ne pas autoriser tout moyen et tout risque au nom du pouvoir"
+          ],
+          "cost": "Reste que des conséquences décisives peuvent être inconnues : le jugement doit parfois décider sans pouvoir établir complètement la sécurité d’un projet.",
+          "remainingProblem": "Comment décider d’un possible technique lorsque ses risques sont incertains et que l’attente elle-même peut priver les hommes d’un bien ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Distinguer possible et fins collectivement choisies",
+          "conserves": [
+            "Évite de faire du pouvoir son propre critère"
+          ],
+          "cost": "Une fin digne ou majoritaire peut couvrir un moyen injuste et des risques imposés aux absents",
+          "remainingProblem": "Une fin digne ou majoritaire peut couvrir un moyen injuste et des risques imposés aux absents"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Processualiser : expérimenter puis corriger",
+          "conserves": [
+            "Préserve apprentissage et innovation"
+          ],
+          "cost": "La correction peut devenir impossible après un dommage irréversible",
+          "remainingProblem": "La correction peut devenir impossible après un dommage irréversible"
+        }
+      ],
+      "selected": "retenue",
+      "existingComparison": "L’examen conjoint fins/moyens/risques inclut les personnes absentes du choix ; il conserve l’innovation sans assimiler accord public et justification morale.",
+      "existingResidual": "Reste que des conséquences décisives peuvent être inconnues : le jugement doit parfois décider sans pouvoir établir complètement la sécurité d’un projet.",
+      "existingConclusionQuestion": "Comment décider d’un possible technique lorsque ses risques sont incertains et que l’attente elle-même peut priver les hommes d’un bien ?",
+      "eightFamilies": [
+        {
+          "name": "duplication ontologique",
+          "application": "Distinguer le plan où « Préserver les biens rendus possibles par la technique » et celui où « Ne pas autoriser tout moyen et tout risque au nom du pouvoir » s'appliquent, puis établir leur unité.",
+          "gain": "Distingue possibilité technique et valeur morale des fins.",
+          "cost": "Une fin digne peut justifier abusivement des moyens.",
+          "rest": "Quels risques et atteintes sont acceptables ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "abolition partielle/totale",
+          "application": "Abandonner ou limiter l'exigence « Préserver les biens rendus possibles par la technique » pour préserver « Ne pas autoriser tout moyen et tout risque au nom du pouvoir » : vérifier si le sujet survit à ce sacrifice.",
+          "gain": "Interdit toute technique dont les risques ne sont pas nuls.",
+          "cost": "Supprime aussi les bénéfices nécessaires.",
+          "rest": "Comment agir si l'inaction comporte des risques ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "processualisation",
+          "application": "Faire de « Préserver les biens rendus possibles par la technique » et « Ne pas autoriser tout moyen et tout risque au nom du pouvoir » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "gain": "Évalue les effets puis corrige les usages.",
+          "cost": "Les dommages irréversibles ne sont pas réparables.",
+          "rest": "Quand interdire avant l'expérience ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "inversion d’indexation",
+          "application": "Soutenir que « Ne pas autoriser tout moyen et tout risque au nom du pouvoir » est la condition de possibilité de « Préserver les biens rendus possibles par la technique », et non seulement son effet.",
+          "gain": "La puissance technique rend nécessaire un devoir de prudence.",
+          "cost": "Ne définit pas les seuils de risque admissibles.",
+          "rest": "Qui supporte le risque et qui décide ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "métamorphose",
+          "application": "Redéfinir la notion centrale de « Ce qui est techniquement possible est-il toujours souhaitable ? » pour conserver les deux exigences sans les juxtaposer.",
+          "gain": "Transforme puissance en responsabilité des fins et moyens.",
+          "cost": "Il faut décider malgré des conséquences inconnues.",
+          "rest": "Comment agir sans garantie de sécurité ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "déplacement",
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "gain": "Déplace la décision vers la majorité politique.",
+          "cost": "Une majorité peut imposer des risques injustes.",
+          "rest": "Quels droits limitent la décision collective ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "suspension épistémique",
+          "application": "Limiter la prétention à savoir si « Préserver les biens rendus possibles par la technique » et « Ne pas autoriser tout moyen et tout risque au nom du pouvoir » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "gain": "Suspend toute innovation incertaine.",
+          "cost": "L'inaction peut elle-même priver de soins et de biens.",
+          "rest": "Quelle incertitude justifie une interdiction ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "consentement",
+          "application": "Assumer que « Préserver les biens rendus possibles par la technique » et « Ne pas autoriser tout moyen et tout risque au nom du pouvoir » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "gain": "Accepte un risque résiduel en le justifiant publiquement.",
+          "cost": "Le consentement public ne rend pas tout risque légitime.",
+          "rest": "Peut-on exposer les absents ou les générations futures ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        }
+      ],
+      "evaluation": {
+        "fidelity": "Les deux exigences sont reconnues dans le dossier.",
+        "operation": "Huit familles confrontées avec leurs limites propres.",
+        "cost": "Chaque famille possède un coût argumenté.",
+        "rest": "Chaque famille possède une objection résiduelle propre.",
+        "best": "Solution actuelle plausible, non démontrée absolument supérieure à toute combinaison.",
+        "rewrite": "Aucune réécriture décidée sans audit de la copie et des références."
+      },
+      "secondPass": {
+        "candidateCombination": "métamorphose + inversion d’indexation",
+        "preliminaryStrength": "forte",
+        "decisiveTest": "Le jugement sur les risques ne peut exiger une sécurité absolue.",
+        "nextComparison": "Comparer responsabilité des moyens, précaution et bénéfice de l'inaction.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
+      }
+    },
+    "notion-temps": {
+      "subject": "Le temps est-il nécessairement destructeur ?",
+      "requirements": [
+        "Reconnaître les pertes réelles",
+        "Reconnaître la formation et la nouveauté dans la durée"
+      ],
+      "thirdPart": "Il faut reconnaître la perte sans réduire tout changement à une destruction : devenir suppose aussi des acquisitions. Le temps permet des transformations où ce qui disparaît laisse des capacités ou des effets : l’apprentissage remplace une ignorance, une œuvre reprend une expérience. Ces gains ne rendent pas la chose perdue, mais empêchent d’assimiler tout passage à une pure ruine. Bergson, dans L’Évolution créatrice, pense la durée comme production de nouveauté. Proust donne une épreuve de cette idée : le vieillissement n’est pas réparé par le livre, mais l’expérience traversée devient matière d’une œuvre qui n’existait pas auparavant. Le temps n’est donc pas nécessairement destructeur dans tous ses effets : il rend possibles la perte et la formation. Dire qu’un événement ne peut plus ne pas avoir eu lieu n’équivaut pas à sauver ce qu’il a détruit. Reste qu’une transformation féconde ne compense pas nécessairement la perte singulière dont elle procède : une œuvre ne rend pas une personne morte.",
+      "existingCandidates": [
+        {
+          "id": "retenue",
+          "proposal": "Le temps permet des transformations où ce qui disparaît laisse des capacités ou des effets : l’apprentissage remplace une ignorance, une œuvre reprend une expérience. Ces gains ne rendent pas la chose perdue, mais empêchent d’assimiler tout passage à une pure ruine.",
+          "conserves": [
+            "Reconnaître les pertes réelles",
+            "Reconnaître la formation et la nouveauté dans la durée"
+          ],
+          "cost": "Reste qu’une transformation féconde ne compense pas nécessairement la perte singulière dont elle procède : une œuvre ne rend pas une personne morte.",
+          "remainingProblem": "À quelles conditions ce que le temps permet de créer peut-il donner sens à une perte, sans prétendre la réparer ni la justifier ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Distinguer ce qui existe de ce qui a existé",
+          "conserves": [
+            "Sauve l’irrévocabilité d’un événement passé"
+          ],
+          "cost": "Le fait de ne plus pouvoir ne pas avoir été ne conserve pas l’être détruit",
+          "remainingProblem": "Le fait de ne plus pouvoir ne pas avoir été ne conserve pas l’être détruit"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Inverser : la destruction est condition de création",
+          "conserves": [
+            "Relie disparition et nouveauté dans certains processus"
+          ],
+          "cost": "Universalise trop vite ce lien et transforme les pertes singulières en sacrifices justifiés",
+          "remainingProblem": "Universalise trop vite ce lien et transforme les pertes singulières en sacrifices justifiés"
+        }
+      ],
+      "selected": "retenue",
+      "existingComparison": "La distinction disparition/transformation rend compte des gains sans confondre mémoire et restitution, ni proclamer toute perte nécessaire au progrès.",
+      "existingResidual": "Reste qu’une transformation féconde ne compense pas nécessairement la perte singulière dont elle procède : une œuvre ne rend pas une personne morte.",
+      "existingConclusionQuestion": "À quelles conditions ce que le temps permet de créer peut-il donner sens à une perte, sans prétendre la réparer ni la justifier ?",
+      "eightFamilies": [
+        {
+          "name": "duplication ontologique",
+          "application": "Distinguer le plan où « Reconnaître les pertes réelles » et celui où « Reconnaître la formation et la nouveauté dans la durée » s'appliquent, puis établir leur unité.",
+          "gain": "Distingue destruction de la chose et transformation de ses effets.",
+          "cost": "Peut minimiser la perte irréversible.",
+          "rest": "Une création compense-t-elle une disparition ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "abolition partielle/totale",
+          "application": "Abandonner ou limiter l'exigence « Reconnaître les pertes réelles » pour préserver « Reconnaître la formation et la nouveauté dans la durée » : vérifier si le sujet survit à ce sacrifice.",
+          "gain": "Nie la réalité de la perte au nom du progrès.",
+          "cost": "Efface l'expérience du deuil.",
+          "rest": "Que devient la singularité perdue ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "processualisation",
+          "application": "Faire de « Reconnaître les pertes réelles » et « Reconnaître la formation et la nouveauté dans la durée » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "gain": "Articule perte et acquisition dans le devenir.",
+          "cost": "Ne garantit pas qu'une perte soit féconde.",
+          "rest": "Un temps sans création reste-t-il destructeur ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "inversion d’indexation",
+          "application": "Soutenir que « Reconnaître la formation et la nouveauté dans la durée » est la condition de possibilité de « Reconnaître les pertes réelles », et non seulement son effet.",
+          "gain": "La perte ouvre parfois des possibilités nouvelles.",
+          "cost": "Peut justifier rétrospectivement des destructions.",
+          "rest": "Toute perte est-elle une condition nécessaire du nouveau ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "métamorphose",
+          "application": "Redéfinir la notion centrale de « Le temps est-il nécessairement destructeur ? » pour conserver les deux exigences sans les juxtaposer.",
+          "gain": "Transforme l'idée de destruction en possibilité de création.",
+          "cost": "Risque de confondre succession et compensation.",
+          "rest": "Qui juge qu'un gain vaut une perte ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "déplacement",
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "gain": "Déplace la question vers la mémoire du passé.",
+          "cost": "La mémoire ne restitue pas ce qui a disparu.",
+          "rest": "Se souvenir empêche-t-il la destruction ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "suspension épistémique",
+          "application": "Limiter la prétention à savoir si « Reconnaître les pertes réelles » et « Reconnaître la formation et la nouveauté dans la durée » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "gain": "Suspend tout jugement global sur la valeur du temps.",
+          "cost": "Ne répond pas à la modalité « nécessairement ».",
+          "rest": "Peut-on montrer au moins un changement non destructeur ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "consentement",
+          "application": "Assumer que « Reconnaître les pertes réelles » et « Reconnaître la formation et la nouveauté dans la durée » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "gain": "Reconnaît que perte et création peuvent coexister.",
+          "cost": "L'acceptation ne précise pas leur rapport.",
+          "rest": "Comment vivre une perte sans la justifier ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        }
+      ],
+      "evaluation": {
+        "fidelity": "Les deux exigences sont reconnues dans le dossier.",
+        "operation": "Huit familles confrontées avec leurs limites propres.",
+        "cost": "Chaque famille possède un coût argumenté.",
+        "rest": "Chaque famille possède une objection résiduelle propre.",
+        "best": "Solution actuelle plausible, non démontrée absolument supérieure à toute combinaison.",
+        "rewrite": "Aucune réécriture décidée sans audit de la copie et des références."
+      },
+      "secondPass": {
+        "candidateCombination": "processualisation + duplication ontologique",
+        "preliminaryStrength": "à préciser",
+        "decisiveTest": "Le temps n'est pas destructeur dans tous ses effets, mais la nouveauté ne compense pas une perte singulière.",
+        "nextComparison": "Ne pas confondre possibilité de création et nécessité de toute destruction.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
+      },
+      "targetedReview": {
+        "issue": "Montrer des acquisitions ne signifie pas que les pertes sont compensées.",
+        "fix": "Répondre à « nécessairement » par un contre-exemple conceptuel : un devenir peut produire une capacité sans détruire un bien équivalent.",
+        "cost": "Ne pas universaliser le progrès à partir de quelques transformations fécondes.",
+        "rest": "Une création peut coexister avec une perte irréparable sans en constituer la justification.",
+        "rewrite": "Clarifier que la thèse porte sur la non-nécessité, non sur la bonté globale du temps.",
+        "status": "proposition éditoriale, non appliquée à la copie"
+      }
+    },
+    "notion-travail": {
+      "subject": "Le travail nous rend-il plus humain ?",
+      "requirements": [
+        "Reconnaître la formation par l’activité",
+        "Reconnaître la contrainte et l’aliénation du travail réel"
+      ],
+      "thirdPart": "Il faut conserver la puissance formatrice du travail sans attribuer cette puissance à toute tâche, quelle que soit son organisation. Un travail forme lorsque l’agent peut comprendre un but, développer une capacité et participer au jugement sur ce qu’il fait. Sa reconnaissance sociale importe aussi : une compétence niée peut servir autrui sans donner au travailleur une place autonome. Simone Weil, dans La Condition ouvrière, décrit l’obéissance à une cadence et à des ordres dont le sens échappe à l’ouvrier. Cette expérience donne des critères pour juger l’organisation du travail, au lieu d’accuser ou de louer l’activité en bloc. Le travail peut nous rendre plus humains si ses conditions permettent l’apprentissage, le jugement et la coopération ; il n’humanise pas automatiquement parce qu’il transforme la matière. Reste qu’une société a besoin de tâches pénibles dont l’organisation peut réduire, mais pas toujours supprimer, la répétition et la fatigue.",
+      "existingCandidates": [
+        {
+          "id": "retenue",
+          "proposal": "Un travail forme lorsque l’agent peut comprendre un but, développer une capacité et participer au jugement sur ce qu’il fait. Sa reconnaissance sociale importe aussi : une compétence niée peut servir autrui sans donner au travailleur une place autonome.",
+          "conserves": [
+            "Reconnaître la formation par l’activité",
+            "Reconnaître la contrainte et l’aliénation du travail réel"
+          ],
+          "cost": "Reste qu’une société a besoin de tâches pénibles dont l’organisation peut réduire, mais pas toujours supprimer, la répétition et la fatigue.",
+          "remainingProblem": "Comment partager les tâches nécessaires qui restent pénibles, sans réserver à certains le travail formateur et à d’autres sa seule contrainte ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Métamorphoser le travail en activité libre",
+          "conserves": [
+            "Préserve création et initiative"
+          ],
+          "cost": "Risque de sauver seulement un travail idéal en excluant les tâches nécessaires contraintes",
+          "remainingProblem": "Risque de sauver seulement un travail idéal en excluant les tâches nécessaires contraintes"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Processualiser : traverser l’aliénation pour se former",
+          "conserves": [
+            "Explique certains apprentissages dans la contrainte"
+          ],
+          "cost": "Risque de rendre toute souffrance formatrice sans épreuve de ses effets réels",
+          "remainingProblem": "Risque de rendre toute souffrance formatrice sans épreuve de ses effets réels"
+        }
+      ],
+      "selected": "retenue",
+      "existingComparison": "Les critères de compréhension, jugement et coopération permettent d’évaluer l’organisation réelle ; ils n’effacent pas les tâches qui demeurent pénibles.",
+      "existingResidual": "Reste qu’une société a besoin de tâches pénibles dont l’organisation peut réduire, mais pas toujours supprimer, la répétition et la fatigue.",
+      "existingConclusionQuestion": "Comment partager les tâches nécessaires qui restent pénibles, sans réserver à certains le travail formateur et à d’autres sa seule contrainte ?",
+      "eightFamilies": [
+        {
+          "name": "duplication ontologique",
+          "application": "Distinguer le plan où « Reconnaître la formation par l’activité » et celui où « Reconnaître la contrainte et l’aliénation du travail réel » s'appliquent, puis établir leur unité.",
+          "gain": "Distingue travail formateur et organisation aliénante.",
+          "cost": "La distinction peut rester descriptive sans critère de transformation.",
+          "rest": "Qui décide si une tâche développe l'autonomie ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "abolition partielle/totale",
+          "application": "Abandonner ou limiter l'exigence « Reconnaître la formation par l’activité » pour préserver « Reconnaître la contrainte et l’aliénation du travail réel » : vérifier si le sujet survit à ce sacrifice.",
+          "gain": "Supprime toute valeur humanisante du travail.",
+          "cost": "Ignore les capacités réellement acquises par l'activité.",
+          "rest": "Pourquoi apprendre un métier ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "processualisation",
+          "application": "Faire de « Reconnaître la formation par l’activité » et « Reconnaître la contrainte et l’aliénation du travail réel » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "gain": "Transforme l'activité en apprentissage et participation au jugement.",
+          "cost": "Certaines tâches demeurent pénibles et répétitives.",
+          "rest": "Comment répartir les tâches irréductiblement contraignantes ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "inversion d’indexation",
+          "application": "Soutenir que « Reconnaître la contrainte et l’aliénation du travail réel » est la condition de possibilité de « Reconnaître la formation par l’activité », et non seulement son effet.",
+          "gain": "La contrainte de l'effort peut former la capacité d'agir.",
+          "cost": "Risque de légitimer des contraintes dégradantes.",
+          "rest": "Quel effort forme et quel effort détruit ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "métamorphose",
+          "application": "Redéfinir la notion centrale de « Le travail nous rend-il plus humain ? » pour conserver les deux exigences sans les juxtaposer.",
+          "gain": "Transforme exécution subie en activité reconnue et autonome.",
+          "cost": "Dépend de conditions sociales parfois absentes.",
+          "rest": "Comment garantir ces conditions à tous ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "déplacement",
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "gain": "Déplace l'humanité vers le loisir créateur.",
+          "cost": "Abandonne la possibilité de former des capacités au travail.",
+          "rest": "Le travail n'est-il jamais émancipateur ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "suspension épistémique",
+          "application": "Limiter la prétention à savoir si « Reconnaître la formation par l’activité » et « Reconnaître la contrainte et l’aliénation du travail réel » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "gain": "Suspend le jugement faute de connaître chaque emploi.",
+          "cost": "Ne fournit aucun critère général de formation.",
+          "rest": "Comment évaluer l'organisation du travail ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "consentement",
+          "application": "Assumer que « Reconnaître la formation par l’activité » et « Reconnaître la contrainte et l’aliénation du travail réel » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "gain": "Accepte la tension entre nécessité et accomplissement.",
+          "cost": "N'indique pas comment réduire l'aliénation.",
+          "rest": "Quelle organisation rend la contrainte supportable ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        }
+      ],
+      "evaluation": {
+        "fidelity": "Les deux exigences sont reconnues dans le dossier.",
+        "operation": "Huit familles confrontées avec leurs limites propres.",
+        "cost": "Chaque famille possède un coût argumenté.",
+        "rest": "Chaque famille possède une objection résiduelle propre.",
+        "best": "Solution actuelle plausible, non démontrée absolument supérieure à toute combinaison.",
+        "rewrite": "Aucune réécriture décidée sans audit de la copie et des références."
+      },
+      "secondPass": {
+        "candidateCombination": "métamorphose + processualisation",
+        "preliminaryStrength": "forte",
+        "decisiveTest": "Une organisation formatrice n'élimine pas toutes les tâches pénibles.",
+        "nextComparison": "Comparer formation des capacités, reconnaissance et répartition des contraintes.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
+      }
+    },
+    "notion-verite": {
+      "subject": "Toute vérité est-elle bonne à dire ?",
+      "requirements": [
+        "Respecter l’exactitude et le jugement d’autrui",
+        "Respecter les droits et les effets de la divulgation"
+      ],
+      "thirdPart": "Il faut respecter la capacité d’autrui à juger sans considérer que toute information doit être communiquée à toute personne. Une vérité est vraie indépendamment de l’opportunité de la dire. La véracité interdit de présenter sciemment le faux comme vrai ; elle ne suffit pas à établir un devoir de révéler un secret ou une information qui concerne un tiers. Le débat entre Kant et Constant porte sur le mensonge et sur le droit à la vérité. Il oblige à justifier le destinataire, le but et les conséquences de la parole. Le tact importe lorsqu’il faut informer ; il ne rend pas légitime une divulgation qui viole la confiance ou expose autrui sans raison. Toutes les vérités ne sont donc pas bonnes à dire : la décision doit tenir compte des droits de ceux qu’elle concerne. Garder le silence n’est pas toujours tromper, mais le silence qui entretient délibérément une erreur demande lui aussi justification. Reste le conflit entre un secret légitime et une information nécessaire à la protection d’autrui : les deux exigences peuvent demeurer sérieuses.",
+      "existingCandidates": [
+        {
+          "id": "retenue",
+          "proposal": "Une vérité est vraie indépendamment de l’opportunité de la dire. La véracité interdit de présenter sciemment le faux comme vrai ; elle ne suffit pas à établir un devoir de révéler un secret ou une information qui concerne un tiers.",
+          "conserves": [
+            "Respecter l’exactitude et le jugement d’autrui",
+            "Respecter les droits et les effets de la divulgation"
+          ],
+          "cost": "Reste le conflit entre un secret légitime et une information nécessaire à la protection d’autrui : les deux exigences peuvent demeurer sérieuses.",
+          "remainingProblem": "Quand protéger quelqu’un exige de rompre une confiance légitime, comment justifier ce que l’on révèle sans abolir le devoir de discrétion ?"
+        },
+        {
+          "id": "alternative-a",
+          "proposal": "Déplacer : seule la manière de dire importe",
+          "conserves": [
+            "Explique le rôle du tact sans renoncer à l’honnêteté"
+          ],
+          "cost": "Le tact ne rend pas légitime une divulgation injuste et ne supprime pas tous ses dommages",
+          "remainingProblem": "Le tact ne rend pas légitime une divulgation injuste et ne supprime pas tous ses dommages"
+        },
+        {
+          "id": "alternative-b",
+          "proposal": "Consentir : la vérité blesse parfois nécessairement",
+          "conserves": [
+            "Reconnaît que certaines informations doivent être données malgré leur douleur"
+          ],
+          "cost": "Ne distingue pas les douleurs nécessaires de celles qu’une divulgation injustifiée impose",
+          "remainingProblem": "Ne distingue pas les douleurs nécessaires de celles qu’une divulgation injustifiée impose"
+        }
+      ],
+      "selected": "retenue",
+      "existingComparison": "La distinction vérité/véracité/divulgation traite aussi bien le silence que la manière de dire ; elle évite de résoudre le sujet par le seul tact.",
+      "existingResidual": "Reste le conflit entre un secret légitime et une information nécessaire à la protection d’autrui : les deux exigences peuvent demeurer sérieuses.",
+      "existingConclusionQuestion": "Quand protéger quelqu’un exige de rompre une confiance légitime, comment justifier ce que l’on révèle sans abolir le devoir de discrétion ?",
+      "eightFamilies": [
+        {
+          "name": "duplication ontologique",
+          "application": "Distinguer vérité d’une proposition, devoir de ne pas mentir et devoir de révéler.",
+          "gain": "Préserve l’exactitude et les droits des personnes concernées.",
+          "cost": "Il faut justifier les cas où le silence devient complicité.",
+          "rest": "Quand le secret protège-t-il une injustice plutôt qu’une personne ?",
+          "verdict": "admissible",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
+        },
+        {
+          "name": "abolition partielle/totale",
+          "application": "Abolir toute obligation de révéler une vérité au nom du droit au secret.",
+          "gain": "Protège la confidentialité.",
+          "cost": "Peut sacrifier le devoir d’alerter face à un danger.",
+          "rest": "Peut-on garder un secret qui expose autrui à un tort grave ?",
+          "verdict": "insuffisante seule",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
+        },
+        {
+          "name": "processualisation",
+          "application": "Organiser une divulgation graduée selon la gravité et l’urgence du tort.",
+          "gain": "Articule vérité et protection dans le temps.",
+          "cost": "Le délai peut rendre la protection impossible.",
+          "rest": "À quel moment attendre devient-il une faute ?",
+          "verdict": "admissible sous condition",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
+        },
+        {
+          "name": "inversion d’indexation",
+          "application": "Le respect d’autrui, qui semble interdire une révélation blessante, peut exiger de l’informer pour qu’il décide.",
+          "gain": "Relie autonomie et information véridique.",
+          "cost": "N’établit pas que toute information concerne légitimement celui qui la reçoit.",
+          "rest": "Quel intérêt à savoir donne un droit à la révélation ?",
+          "verdict": "admissible sous condition",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
+        },
+        {
+          "name": "métamorphose",
+          "application": "Transformer le devoir de tout dire en obligation de véracité et de discernement.",
+          "gain": "Préserve la vérité sans imposer la divulgation universelle.",
+          "cost": "Le discernement exige un critère de priorité entre confidentialité et protection.",
+          "rest": "Quand rompre une confiance légitime pour protéger une personne ?",
+          "verdict": "admissible",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
+        },
+        {
+          "name": "déplacement",
+          "application": "Déplacer la difficulté vers la manière de communiquer une vérité.",
+          "gain": "Explique le rôle du tact.",
+          "cost": "Le tact ne rend pas légitime une divulgation injuste.",
+          "rest": "Comment choisir ce qui doit être dit avant de choisir comment le dire ?",
+          "verdict": "insuffisante seule",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
+        },
+        {
+          "name": "suspension épistémique",
+          "application": "Suspendre la révélation tant que les effets ne sont pas connus.",
+          "gain": "Évite des dommages irréversibles.",
+          "cost": "L’inaction peut laisser se produire le danger connu.",
+          "rest": "Quand le silence devient-il plus dommageable que la parole ?",
+          "verdict": "insuffisante seule",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
+        },
+        {
+          "name": "consentement",
+          "application": "Accepter que dire une vérité nécessaire puisse blesser.",
+          "gain": "Reconnaît les conflits tragiques.",
+          "cost": "N’explique pas quelles vérités sont nécessaires.",
+          "rest": "Qui peut décider qu’une douleur est moralement justifiée ?",
+          "verdict": "admissible sous condition",
+          "review": "analyse comparative argumentée ; reste à confronter aux autres matrices combinées"
+        }
+      ],
+      "evaluation": {
+        "fidelity": "La solution actuelle préserve les deux exigences explicites.",
+        "operation": "La distinction des exigences est pertinente, mais les opérations concurrentes ont été testées.",
+        "cost": "Le coût propre de la résolution retenue est identifié dans la confrontation.",
+        "rest": "Le reste vise la condition d'application et ne nie pas automatiquement la réponse.",
+        "best": "Solution actuelle provisoirement préférée, mais sans preuve de dominance sur toute combinaison.",
+        "rewrite": "Pas de remplacement décidé ; renforcer la justification des critères si nécessaire."
+      },
+      "secondPass": {
+        "candidateCombination": "duplication ontologique + métamorphose",
+        "preliminaryStrength": "forte",
+        "decisiveTest": "La véracité ne suffit pas à trancher entre confidentialité et devoir d'alerte.",
+        "nextComparison": "Comparer silence, mensonge et révélation proportionnée.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
+      }
+    },
+    "2025-me-verite": {
+      "subject": "La vérité est-elle toujours convaincante ?",
+      "requirements": [
+        "Préserver la validité des raisons",
+        "Expliquer leur reconnaissance sans manipulation"
+      ],
+      "thirdPart": "Il faut conserver la valeur des preuves et reconnaître que leur appropriation n’est pas automatique. Distinguer validité et réception ne les sépare pas définitivement : expliquer les termes, reconstruire un raisonnement et répondre aux objections peut permettre à l’autre de reconnaître lui-même ce qui justifie l’affirmation. Cette démarche diffère de la séduction : l’interlocuteur doit pouvoir vérifier la raison proposée et la refuser si elle est défaillante. L’explication adapte l’accès à la preuve, non la vérité aux préférences du destinataire. La vérité n’est donc pas toujours convaincante en fait ; elle peut avoir une force rationnelle que le travail d’explication rend accessible. Une adhésion obtenue sans examen ne démontre pas qu’elle est vraie. Reste que l’interlocuteur peut refuser toute vérification : rendre la preuve accessible ne garantit pas qu’il acceptera de l’examiner.",
+      "existingCandidates": [
+        {
+          "id": "retenue",
+          "proposal": "Distinguer validité et réception ne les sépare pas définitivement : expliquer les termes, reconstruire un raisonnement et répondre aux objections peut permettre à l’autre de reconnaître lui-même ce qui justifie l’affirmation.",
+          "conserves": [
+            "Préserver la validité des raisons",
+            "Expliquer leur reconnaissance sans manipulation"
+          ],
+          "cost": "Reste que l’interlocuteur peut refuser toute vérification : rendre la preuve accessible ne garantit pas qu’il acceptera de l’examiner.",
+          "remainingProblem": "Lorsque toute vérification est refusée, comment défendre la vérité sans confondre la conviction rationnelle avec une adhésion imposée ?"
+        },
+        {
+          "id": "alternative-0",
+          "proposal": "Distinguer vérité et persuasion",
+          "conserves": [
+            "Protège la validité contre l’adhésion"
+          ],
+          "cost": "Sépare les plans sans expliquer comment la preuve devient accessible",
+          "remainingProblem": "Sépare les plans sans expliquer comment la preuve devient accessible"
+        },
+        {
+          "id": "alternative-1",
+          "proposal": "Processualiser : l’habitude finit par rendre le vrai convaincant",
+          "conserves": [
+            "Reconnaît le temps nécessaire à l’apprentissage"
+          ],
+          "cost": "La répétition d’un énoncé faux peut aussi produire l’adhésion",
+          "remainingProblem": "La répétition d’un énoncé faux peut aussi produire l’adhésion"
+        }
+      ],
+      "selected": "retenue",
+      "existingComparison": "L’appropriation par examen relie les plans au lieu de les juxtaposer, et distingue apprentissage et répétition persuasive.",
+      "existingResidual": "Reste que l’interlocuteur peut refuser toute vérification : rendre la preuve accessible ne garantit pas qu’il acceptera de l’examiner.",
+      "existingConclusionQuestion": "Lorsque toute vérification est refusée, comment défendre la vérité sans confondre la conviction rationnelle avec une adhésion imposée ?",
+      "eightFamilies": [
+        {
+          "name": "duplication ontologique",
+          "application": "Distinguer le plan où « Préserver la validité des raisons » et celui où « Expliquer leur reconnaissance sans manipulation » s'appliquent, puis établir leur unité.",
+          "gain": "Distingue validité et force persuasive.",
+          "cost": "Ne suffit pas à expliquer le passage de l'une à l'autre.",
+          "rest": "Comment rendre une preuve intelligible ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "abolition partielle/totale",
+          "application": "Abandonner ou limiter l'exigence « Préserver la validité des raisons » pour préserver « Expliquer leur reconnaissance sans manipulation » : vérifier si le sujet survit à ce sacrifice.",
+          "gain": "Renonce à convaincre pour préserver la pure vérité.",
+          "cost": "Abandonne l'enjeu de la réception.",
+          "rest": "Pourquoi exposer une preuve ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "processualisation",
+          "application": "Faire de « Préserver la validité des raisons » et « Expliquer leur reconnaissance sans manipulation » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "gain": "Reconstruit les raisons avec l'interlocuteur.",
+          "cost": "L'interlocuteur peut refuser l'examen.",
+          "rest": "Peut-on contraindre quelqu'un à vérifier ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "inversion d’indexation",
+          "application": "Soutenir que « Expliquer leur reconnaissance sans manipulation » est la condition de possibilité de « Préserver la validité des raisons », et non seulement son effet.",
+          "gain": "Le refus d'adhérer invite à expliciter davantage.",
+          "cost": "N'exclut pas les résistances non rationnelles.",
+          "rest": "Que faire si aucune raison n'est entendue ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "métamorphose",
+          "application": "Redéfinir la notion centrale de « La vérité est-elle toujours convaincante ? » pour conserver les deux exigences sans les juxtaposer.",
+          "gain": "Transforme la persuasion en compréhension des preuves.",
+          "cost": "Ne garantit pas l'adhésion même éclairée.",
+          "rest": "Une vérité comprise peut-elle être refusée ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "déplacement",
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "gain": "Déplace l'efficacité vers les affects.",
+          "cost": "Peut obtenir l'adhésion à une fausseté.",
+          "rest": "Convaincre suffit-il à avoir raison ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "suspension épistémique",
+          "application": "Limiter la prétention à savoir si « Préserver la validité des raisons » et « Expliquer leur reconnaissance sans manipulation » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "gain": "Suspend l'effort devant toute résistance.",
+          "cost": "Confond difficulté et impossibilité de persuasion.",
+          "rest": "Quand faut-il renoncer au dialogue ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "consentement",
+          "application": "Assumer que « Préserver la validité des raisons » et « Expliquer leur reconnaissance sans manipulation » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "gain": "Admet que la vérité ne force pas l'adhésion.",
+          "cost": "N'explique pas les moyens de la rendre accessible.",
+          "rest": "Pourquoi argumenter malgré tout ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        }
+      ],
+      "evaluation": {
+        "fidelity": "Les deux exigences sont reconnues dans le dossier.",
+        "operation": "Huit familles confrontées avec leurs limites propres.",
+        "cost": "Chaque famille possède un coût argumenté.",
+        "rest": "Chaque famille possède une objection résiduelle propre.",
+        "best": "Solution actuelle plausible, non démontrée absolument supérieure à toute combinaison.",
+        "rewrite": "Aucune réécriture décidée sans audit de la copie et des références."
+      },
+      "secondPass": {
+        "candidateCombination": "duplication ontologique + processualisation",
+        "preliminaryStrength": "forte",
+        "decisiveTest": "Une vérité comprise peut encore être refusée ; le sens de convaincre doit rester strict.",
+        "nextComparison": "Comparer preuve, compréhension et adhésion.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
+      }
+    },
+    "2025-me-avenir-technique": {
+      "subject": "Notre avenir dépend-il de la technique ?",
+      "requirements": [
+        "Reconnaître les conditions et dépendances techniques",
+        "Préserver une décision collective sur les fins"
+      ],
+      "thirdPart": "Il faut garder le pouvoir que donnent les techniques sans attribuer à nos intentions une maîtrise intacte de tous leurs effets. Le rapport va dans les deux sens : nos fins orientent les techniques, mais celles-ci transforment nos fins et nos possibilités. Choisir l’avenir exige donc de juger aussi la manière dont les moyens nous rendent dépendants. Jonas, dans Le Principe responsabilité, demande de prendre au sérieux les effets durables de notre puissance. Il faut examiner les risques, les usages et les possibilités de correction avant de traiter une innovation comme un destin auquel il faudrait seulement s’adapter. Notre avenir dépend de la technique comme d’une condition qui nous transforme, non comme d’une cause qui déciderait seule. Nous pouvons orienter ce rapport en débattant des fins et en conservant des moyens de révision. Reste que certains choix deviennent irréversibles ou que leurs conséquences ne sont découvertes qu’après leur adoption : la possibilité de révision ne peut pas toujours être garantie.",
+      "existingCandidates": [
+        {
+          "id": "retenue",
+          "proposal": "Le rapport va dans les deux sens : nos fins orientent les techniques, mais celles-ci transforment nos fins et nos possibilités. Choisir l’avenir exige donc de juger aussi la manière dont les moyens nous rendent dépendants.",
+          "conserves": [
+            "Reconnaître les conditions et dépendances techniques",
+            "Préserver une décision collective sur les fins"
+          ],
+          "cost": "Reste que certains choix deviennent irréversibles ou que leurs conséquences ne sont découvertes qu’après leur adoption : la possibilité de révision ne peut pas toujours être garantie.",
+          "remainingProblem": "Comment décider ensemble lorsque les moyens qui promettent un avenir meilleur risquent de supprimer la possibilité de le choisir autrement ?"
+        },
+        {
+          "id": "alternative-0",
+          "proposal": "Distinguer moyens techniques et fins politiques",
+          "conserves": [
+            "Reconnaît la place du jugement"
+          ],
+          "cost": "Présuppose des moyens neutres et des fins indépendantes de leur transformation",
+          "remainingProblem": "Présuppose des moyens neutres et des fins indépendantes de leur transformation"
+        },
+        {
+          "id": "alternative-1",
+          "proposal": "Processualiser : choisir les usages après les inventions",
+          "conserves": [
+            "Préserve un examen des applications"
+          ],
+          "cost": "Certaines dépendances sont déjà irréversibles quand cet examen commence",
+          "remainingProblem": "Certaines dépendances sont déjà irréversibles quand cet examen commence"
+        }
+      ],
+      "selected": "retenue",
+      "existingComparison": "Le rapport réciproque permet de juger aussi la production des moyens ; il ne reporte pas tout choix après leur adoption.",
+      "existingResidual": "Reste que certains choix deviennent irréversibles ou que leurs conséquences ne sont découvertes qu’après leur adoption : la possibilité de révision ne peut pas toujours être garantie.",
+      "existingConclusionQuestion": "Comment décider ensemble lorsque les moyens qui promettent un avenir meilleur risquent de supprimer la possibilité de le choisir autrement ?",
+      "eightFamilies": [
+        {
+          "name": "duplication ontologique",
+          "application": "Distinguer le plan où « Reconnaître les conditions et dépendances techniques » et celui où « Préserver une décision collective sur les fins » s'appliquent, puis établir leur unité.",
+          "gain": "Distingue les moyens techniques et la décision des fins.",
+          "cost": "Les moyens transforment aussi les fins et les besoins.",
+          "rest": "Comment garder la maîtrise de ce qui nous transforme ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "abolition partielle/totale",
+          "application": "Abandonner ou limiter l'exigence « Reconnaître les conditions et dépendances techniques » pour préserver « Préserver une décision collective sur les fins » : vérifier si le sujet survit à ce sacrifice.",
+          "gain": "Supprime les techniques pour retrouver une autonomie pure.",
+          "cost": "Ignore les dépendances déjà constitutives de la vie humaine.",
+          "rest": "Quel avenir reste possible sans technique ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "processualisation",
+          "application": "Faire de « Reconnaître les conditions et dépendances techniques » et « Préserver une décision collective sur les fins » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "gain": "Organise des choix collectifs révisables.",
+          "cost": "Certaines conséquences sont irréversibles.",
+          "rest": "Quand la révision arrive-t-elle trop tard ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "inversion d’indexation",
+          "application": "Soutenir que « Préserver une décision collective sur les fins » est la condition de possibilité de « Reconnaître les conditions et dépendances techniques », et non seulement son effet.",
+          "gain": "Nos fins produisent des outils qui modifient en retour nos fins.",
+          "cost": "L'interdépendance ne donne pas de critère de décision.",
+          "rest": "Qui doit décider des transformations acceptables ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "métamorphose",
+          "application": "Redéfinir la notion centrale de « Notre avenir dépend-il de la technique ? » pour conserver les deux exigences sans les juxtaposer.",
+          "gain": "Transforme la maîtrise en gouvernement des interdépendances.",
+          "cost": "La gouvernance peut ignorer les personnes absentes.",
+          "rest": "Comment représenter les générations futures ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "déplacement",
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "gain": "Déplace le pouvoir vers les seules institutions politiques.",
+          "cost": "Les institutions dépendent elles-mêmes des techniques.",
+          "rest": "Qui maîtrise les moyens de décision ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "suspension épistémique",
+          "application": "Limiter la prétention à savoir si « Reconnaître les conditions et dépendances techniques » et « Préserver une décision collective sur les fins » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "gain": "Suspend tout choix devant l'incertitude.",
+          "cost": "L'inaction laisse agir des systèmes techniques existants.",
+          "rest": "Peut-on ne pas décider ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "consentement",
+          "application": "Assumer que « Reconnaître les conditions et dépendances techniques » et « Préserver une décision collective sur les fins » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "gain": "Accepte les irréversibilités du développement technique.",
+          "cost": "Risque de légitimer toute innovation comme destin.",
+          "rest": "Quelles irréversibilités faut-il refuser ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        }
+      ],
+      "evaluation": {
+        "fidelity": "Les deux exigences sont reconnues dans le dossier.",
+        "operation": "Huit familles confrontées avec leurs limites propres.",
+        "cost": "Chaque famille possède un coût argumenté.",
+        "rest": "Chaque famille possède une objection résiduelle propre.",
+        "best": "Solution actuelle plausible, non démontrée absolument supérieure à toute combinaison.",
+        "rewrite": "Aucune réécriture décidée sans audit de la copie et des références."
+      },
+      "secondPass": {
+        "candidateCombination": "inversion d’indexation + processualisation",
+        "preliminaryStrength": "forte",
+        "decisiveTest": "La révision démocratique ne répare pas toutes les dépendances irréversibles.",
+        "nextComparison": "Comparer contrôle ex ante et adaptation ex post.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
+      }
+    },
+    "2025-me-besoin-art": {
+      "subject": "Avons-nous besoin d’art ?",
+      "requirements": [
+        "Reconnaître la liberté des goûts",
+        "Reconnaître les besoins de perception, expression et partage"
+      ],
+      "thirdPart": "Il faut conserver la liberté du goût et le pouvoir de donner forme à l’expérience, sans réduire les besoins humains à la survie. Le besoin peut porter sur une possibilité : créer, écouter, regarder et partager des formes, plutôt que posséder une œuvre déterminée. L’art y répond diversement, par des pratiques ordinaires comme par des œuvres élaborées. Démodocos donne à Ulysse une forme publique de son histoire ; cette reconnaissance ne suppose pas que tout auditeur éprouve le même sentiment. La communauté du chant accueille justement des expériences différentes. Nous pouvons donc avoir besoin d’art comme d’une possibilité de perception, d’expression et de partage ; ce besoin ne fonde ni un goût obligatoire ni la nécessité de toute production appelée artistique. Reste que le récit, le jeu ou la conversation peuvent aussi exprimer et partager une expérience : il faut encore préciser ce que l’art apporte que ces autres pratiques ne réalisent pas toujours.",
+      "existingCandidates": [
+        {
+          "id": "retenue",
+          "proposal": "Le besoin peut porter sur une possibilité : créer, écouter, regarder et partager des formes, plutôt que posséder une œuvre déterminée. L’art y répond diversement, par des pratiques ordinaires comme par des œuvres élaborées.",
+          "conserves": [
+            "Reconnaître la liberté des goûts",
+            "Reconnaître les besoins de perception, expression et partage"
+          ],
+          "cost": "Reste que le récit, le jeu ou la conversation peuvent aussi exprimer et partager une expérience : il faut encore préciser ce que l’art apporte que ces autres pratiques ne réalisent pas toujours.",
+          "remainingProblem": "Qu’apporte une forme artistique à l’expression d’une expérience, que le récit ordinaire et la conversation ne peuvent pas toujours lui donner ?"
+        },
+        {
+          "id": "alternative-0",
+          "proposal": "Distinguer besoin biologique et besoin spirituel",
+          "conserves": [
+            "Élargit la vie humaine au-delà de la survie"
+          ],
+          "cost": "Ne démontre pas pourquoi un besoin spirituel exigerait précisément une réponse artistique",
+          "remainingProblem": "Ne démontre pas pourquoi un besoin spirituel exigerait précisément une réponse artistique"
+        },
+        {
+          "id": "alternative-1",
+          "proposal": "Métamorphoser l’art en toute activité expressive",
+          "conserves": [
+            "Rend le besoin largement accessible"
+          ],
+          "cost": "Sauve la nécessité en supprimant la distinction entre art et expression ordinaire",
+          "remainingProblem": "Sauve la nécessité en supprimant la distinction entre art et expression ordinaire"
+        }
+      ],
+      "selected": "retenue",
+      "existingComparison": "Le besoin d’une possibilité maintient liberté et fonction sans rendre toute œuvre indispensable ; la frontière avec les autres pratiques reste assumée plutôt que supprimée.",
+      "existingResidual": "Reste que le récit, le jeu ou la conversation peuvent aussi exprimer et partager une expérience : il faut encore préciser ce que l’art apporte que ces autres pratiques ne réalisent pas toujours.",
+      "existingConclusionQuestion": "Qu’apporte une forme artistique à l’expression d’une expérience, que le récit ordinaire et la conversation ne peuvent pas toujours lui donner ?",
+      "eightFamilies": [
+        {
+          "name": "duplication ontologique",
+          "application": "Distinguer le plan où « Reconnaître la liberté des goûts » et celui où « Reconnaître les besoins de perception, expression et partage » s'appliquent, puis établir leur unité.",
+          "gain": "Distingue besoin de formes expressives et préférence pour une œuvre.",
+          "cost": "Il faut expliquer ce qui distingue l'art des autres expressions.",
+          "rest": "La conversation ne satisfait-elle pas ce besoin ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "abolition partielle/totale",
+          "application": "Abandonner ou limiter l'exigence « Reconnaître la liberté des goûts » pour préserver « Reconnaître les besoins de perception, expression et partage » : vérifier si le sujet survit à ce sacrifice.",
+          "gain": "Nie tout besoin d'art parce que la survie n'en dépend pas.",
+          "cost": "Réduit le besoin humain à la nécessité biologique.",
+          "rest": "Pourquoi les sociétés créent-elles des œuvres ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "processualisation",
+          "application": "Faire de « Reconnaître la liberté des goûts » et « Reconnaître les besoins de perception, expression et partage » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "gain": "Fait naître de nouveaux besoins par la pratique artistique.",
+          "cost": "Ne prouve pas que ce besoin soit universel.",
+          "rest": "Peut-on vivre sans cette pratique ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "inversion d’indexation",
+          "application": "Soutenir que « Reconnaître les besoins de perception, expression et partage » est la condition de possibilité de « Reconnaître la liberté des goûts », et non seulement son effet.",
+          "gain": "Le besoin de donner forme à l'expérience rend l'art possible.",
+          "cost": "Risque de confondre art et expression ordinaire.",
+          "rest": "Qu'apporte la forme artistique de spécifique ?",
+          "verdict": "forte sous condition",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "métamorphose",
+          "application": "Redéfinir la notion centrale de « Avons-nous besoin d’art ? » pour conserver les deux exigences sans les juxtaposer.",
+          "gain": "Transforme besoin de consommation en puissance de création.",
+          "cost": "Peut exclure l'expérience de ceux qui ne créent pas.",
+          "rest": "Regarder une œuvre suffit-il à répondre au besoin ?",
+          "verdict": "forte",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "déplacement",
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "gain": "Déplace la fonction de l'art vers le jeu et le langage.",
+          "cost": "Risque de supprimer ce qui fait la spécificité artistique.",
+          "rest": "Pourquoi nommer art une pratique distincte ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "suspension épistémique",
+          "application": "Limiter la prétention à savoir si « Reconnaître la liberté des goûts » et « Reconnaître les besoins de perception, expression et partage » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "gain": "Suspend le jugement sur un besoin universel.",
+          "cost": "Le sujet demande si un besoin peut être établi, non une statistique.",
+          "rest": "Quel besoin humain l'art peut-il satisfaire ?",
+          "verdict": "insuffisante",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        },
+        {
+          "name": "consentement",
+          "application": "Assumer que « Reconnaître la liberté des goûts » et « Reconnaître les besoins de perception, expression et partage » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "gain": "Assume que l'art peut être nécessaire sans forme imposée.",
+          "cost": "N'établit pas à lui seul le caractère nécessaire.",
+          "rest": "Qu'est-ce qui manque réellement sans art ?",
+          "verdict": "partielle",
+          "review": "premier examen argumenté, classement non définitivement démontré"
+        }
+      ],
+      "evaluation": {
+        "fidelity": "Les deux exigences sont reconnues dans le dossier.",
+        "operation": "Huit familles confrontées avec leurs limites propres.",
+        "cost": "Chaque famille possède un coût argumenté.",
+        "rest": "Chaque famille possède une objection résiduelle propre.",
+        "best": "Solution actuelle plausible, non démontrée absolument supérieure à toute combinaison.",
+        "rewrite": "Aucune réécriture décidée sans audit de la copie et des références."
+      },
+      "secondPass": {
+        "candidateCombination": "duplication ontologique + métamorphose",
+        "preliminaryStrength": "à préciser",
+        "decisiveTest": "Définir le besoin comme capacité d'expression ne suffit pas à établir la spécificité de l'art.",
+        "nextComparison": "Comparer la forme artistique aux pratiques non artistiques qui satisfont des besoins voisins.",
+        "decision": "pas de changement avant confrontation de deux concurrentes aussi développées",
+        "evidence": "lecture croisée de la III actuelle, de ses deux exigences et des huit hypothèses du dossier"
+      },
+      "targetedReview": {
+        "issue": "Le besoin d'expression peut être satisfait hors de l'art : il faut établir une spécificité.",
+        "fix": "Distinguer le besoin de formes sensibles partageables du besoin de telle œuvre ou pratique ; préciser ce que l'élaboration artistique rend possible.",
+        "cost": "La notion d'art ne doit pas être étendue à toute activité expressive.",
+        "rest": "Les jeux, récits ou conversations satisfont aussi des besoins voisins : qu'ajoute une forme reconnue comme artistique ?",
+        "rewrite": "Tester si la III justifie suffisamment la spécificité de l'art, sinon la préciser.",
+        "status": "proposition éditoriale, non appliquée à la copie"
+      }
+    }
+  },
+  "progress": {
+    "familiesAppliedToAll": 20,
+    "applications": 160,
+    "firstPassEvaluated": 20,
+    "secondPassDiagnostic": 20,
+    "finalSelections": 0,
+    "notes": "Second passage de diagnostic des combinaisons et points de réfutation. Il ne démontre pas la meilleure résolution. Les copies et exercices n'ont pas été réécrits.",
+    "targetedReviews": 5
+  }
+}
