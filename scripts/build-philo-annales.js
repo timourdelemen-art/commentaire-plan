@@ -47,10 +47,29 @@ ${PRINT}</article></section>\n`;
   `<section class="offer-band"><div class="kicker">AVANT DE RÉDIGER</div><h2>Le test du gant.</h2><div class="sequence-spec"><p><strong>Aucun doigt ne manque :</strong> chaque mot du sujet travaille-t-il dans ma problématique ?</p><p><strong>Aucun doigt en trop :</strong> ai-je évité d’ajouter une notion que le sujet ne contient pas ?</p><p><strong>Les deux réponses restent ouvertes :</strong> chacune perd-elle quelque chose (pas de « comment pourrait-on… si… ») ?</p><p><strong>On reconnaît le sujet :</strong> le retrouve-t-on sans qu’il soit recopié ?</p><p><strong>D’une traite :</strong> une seule question, une trentaine de mots au plus ?</p><p><strong>Elle donne le plan :</strong> I défend une réponse, II part de ce qu’elle perd, III cherche une réponse qui perde moins ?</p></div><p class="micro"><strong>Sans IA :</strong> les questions, le corrigé et ce test suffisent. <strong>Avec IA :</strong> « Vérifier ma réponse » donne un retour sur votre travail ; il ne produit jamais le plan à votre place.</p></section>\n`;
 }
 
+function renderModel(x){
+  if(!x.modele||!x.modele.length)return '';
+  const sections={
+    '2026-me-nietzsche':['Introduction','Partie 1','Partie 1','Partie 2','Partie 2','Partie 3','Conclusion'],
+    '2026-an-freud':['Introduction','Partie 1','Partie 1','Partie 2','Partie 2','Partie 3','Conclusion'],
+    '2026-g1-weil':['Introduction','Partie 1','Partie 1','Partie 2','Partie 2','Partie 3','Conclusion'],
+    '2026-ag-murdoch':['Introduction','Partie 1','Partie 1','Partie 2','Partie 3','Partie 3','Conclusion'],
+    '2026-asie-tocqueville':['Introduction','Partie 1','Partie 1','Partie 2','Partie 2','Partie 3','Conclusion']
+  };
+  const titles=sections[x.id]||['Introduction',...x.modele.slice(1,-1).map((_,i)=>'Partie '+Math.min(3,Math.floor(i*3/Math.max(1,x.modele.length-2))+1)),'Conclusion'];
+  let previous='';
+  const rows=x.modele.map(([sentence,fn],i)=>{
+    const title=titles[i]||'Partie';
+    const heading=title!==previous?'<h4 class="c20-h c20-section-heading">'+esc(title)+'</h4>':'';
+    previous=title;
+    return heading+'<p class="c20-s"><span class="c20-t" data-model-text>'+esc(sentence)+'</span><span class="c20-f">'+esc(fn)+'</span></p>';
+  }).join('');
+  return '<details class="correction"><summary>Copie rédigée et fonctions des phrases</summary><p class="micro">Les titres en couleur vous aident à comprendre les étapes du raisonnement. Ne les recopiez pas dans votre copie : ils servent uniquement à vous repérer. Les phrases de la copie sont à gauche ; leur fonction est indiquée à droite.</p><div class="ecrire-copy c20">'+rows+'</div></details>';
+}
 function texte(set,x){
   const modelIds={'2026-an-freud':'freud-2026-amerique-du-nord','2026-me-nietzsche':'nietzsche-2026-metropole','2026-g1-weil':'weil-2026-centres-etrangers','2026-asie-tocqueville':'tocqueville-2026-asie'};
   const modelHref=modelIds[x.id]?`philosophie-explication-${modelIds[x.id]}.html#modele`:'philosophie-explication.html';
-  const corr=`<section class="exercise-wrap" id="corrige"><article class="exercise"><div class="kicker">APRÈS VOTRE EXPLICATION</div><h2>Un corrigé possible.</h2><details class="correction"><summary>Comparer avec votre travail</summary>${p('Le problème',x.probleme)}${p('La thèse',x.these)}${(x.moments||[]).length?'<p><strong>Les moments du texte :</strong></p><ol>'+x.moments.map(m=>'<li>'+esc(m)+'</li>').join('')+'</ol>':''}${(x.modele||[]).length?'<details class="correction"><summary>Lire le corrigé phrase par phrase : fonction et lien logique</summary><p class="micro">La superstructure indique les grandes opérations du raisonnement ; chaque phrase est rattachée à un mouvement et annotée selon sa fonction. Les formulations sont une reconstruction pédagogique à vérifier dans le texte officiel.</p><p><strong>Superstructure du raisonnement</strong></p><ol class="sequence-spec">'+[...new Set(x.modele.map(([s,f,m])=>m))].map(m=>'<li>'+esc(m)+'</li>').join('')+'</ol><p><strong>Analyse phrase par phrase</strong></p><ol class="sequence-spec">'+x.modele.map(([s,f,m])=>'<li><p>'+esc(s)+'</p><p class="micro"><strong>Mouvement :</strong> '+esc(m)+'</p><p class="micro"><strong>Fonction :</strong> '+esc(f)+'</p></li>').join('')+'</ol></details>':''}${p('Ce que fait le texte',x.operation)}<p class="micro">Ce corrigé résume le texte avec nos mots : relisez toujours le texte lui-même dans le sujet officiel.</p></details><details><summary>Après l’explication : réemploi facultatif en dissertation</summary>${p('Un usage possible',x.reemploi)}</details>
+  const corr=`<section class="exercise-wrap" id="corrige"><article class="exercise"><div class="kicker">APRÈS VOTRE EXPLICATION</div><h2>Un corrigé possible.</h2><details class="correction"><summary>Comparer avec votre travail</summary>${p('Le problème',x.probleme)}${p('La thèse',x.these)}${(x.moments||[]).length?'<p><strong>Les moments du texte :</strong></p><ol>'+x.moments.map(m=>'<li>'+esc(m)+'</li>').join('')+'</ol>':''}${renderModel(x)}${p('Ce que fait le texte',x.operation)}<p class="micro">Ce corrigé résume le texte avec nos mots : relisez toujours le texte lui-même dans le sujet officiel.</p></details><details><summary>Après l’explication : réemploi facultatif en dissertation</summary>${p('Un usage possible',x.reemploi)}</details>
 ${PRINT}</article></section>\n`;
   return step('1 · LE PROBLÈME','À quelle difficulté le texte répond-il ?','<ol class="consigne-simple"><li>Écrivez la question que l’auteur se pose. Une phrase.</li><li>Écrivez pourquoi elle n’a pas de réponse évidente. Une phrase.</li></ol>','philo-texte-probleme',4)+
   step('2 · LA THÈSE','Quelle réponse l’auteur défend-il ?','<p>Écrivez en une phrase la réponse que l’auteur défend, sans résumer tout le passage.</p>','philo-texte-these',3)+
