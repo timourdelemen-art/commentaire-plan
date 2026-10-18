@@ -5,7 +5,7 @@
       "subject": "Comment être heureux, si rien ne dure ?",
       "session": "2024 Amérique du Nord",
       "source": "https://www.education.gouv.fr/sites/default/files/document/Baccalaur%C3%A9at%20g%C3%A9n%C3%A9ral%202024%20-%20Philosophie%20-%20Am%C3%A9rique%20du%20Nord-401733.pdf",
-      "status": "introduction révisée ; développement à relire avant publication",
+      "status": "conclusion harmonisée ; comparaison des huit familles à confirmer avant publication",
       "citations": "aucune citation directe non vérifiée",
       "functions": "une annotation par phrase"
     },
@@ -13,7 +13,7 @@
       "subject": "Peut-on parler sans savoir ?",
       "session": "2024 Amérique du Nord",
       "source": "https://www.education.gouv.fr/sites/default/files/document/Baccalaur%C3%A9at%20g%C3%A9n%C3%A9ral%202024%20-%20Philosophie%20-%20Am%C3%A9rique%20du%20Nord-401733.pdf",
-      "status": "introduction révisée ; développement à relire avant publication",
+      "status": "conclusion harmonisée ; comparaison des huit familles à confirmer avant publication",
       "citations": "aucune citation directe non vérifiée",
       "functions": "une annotation par phrase"
     },
@@ -21,7 +21,7 @@
       "subject": "Peut-on douter des pouvoirs de la raison ?",
       "session": "2025 bac général",
       "source": "https://www.education.gouv.fr/sites/default/files/2025-06/baccalaur-at-g-n-ral-2025-philosophie--440727.pdf",
-      "status": "introduction révisée ; développement à relire avant publication",
+      "status": "conclusion harmonisée ; comparaison des huit familles à confirmer avant publication",
       "citations": "aucune citation directe non vérifiée",
       "functions": "une annotation par phrase"
     },
@@ -29,7 +29,7 @@
       "subject": "L’art peut-il nous apprendre à voir le monde autrement ?",
       "session": "2025 bac général",
       "source": "https://www.education.gouv.fr/sites/default/files/2025-06/baccalaur-at-g-n-ral-2025-philosophie--440727.pdf",
-      "status": "introduction révisée ; développement à relire avant publication",
+      "status": "conclusion harmonisée ; comparaison des huit familles à confirmer avant publication",
       "citations": "aucune citation directe non vérifiée",
       "functions": "une annotation par phrase"
     },
@@ -37,7 +37,7 @@
       "subject": "Vouloir la paix, est-ce vouloir la justice ?",
       "session": "2023 Métropole · général",
       "source": "https://www.cours-thales.fr/wp-content/uploads/2023/08/sujet_philo_2023_CoursThales.pdf",
-      "status": "introduction révisée ; développement à relire avant publication",
+      "status": "conclusion harmonisée ; comparaison des huit familles à confirmer avant publication",
       "citations": "aucune citation directe non vérifiée",
       "functions": "une annotation par phrase"
     }
@@ -164,8 +164,8 @@
             "Réponse au sujet"
           ],
           [
-            "La joie du château de sable n’exigeait pas son éternité.",
-            "Retour à la scène"
+            "La madeleine de Proust fait revenir un bonheur d’enfance sans abolir le temps écoulé : la joie peut renaître sans que les choses demeurent identiques.",
+            "Retour à la scène initiale : vérifier la réponse acquise"
           ],
           [
             "Quand une perte brise cette continuité, comment retrouver un sens sans nier ce qui a disparu ?",
@@ -295,8 +295,8 @@
             "Réponse au sujet"
           ],
           [
-            "Le bon témoin distingue observation et interprétation.",
-            "Retour à la scène"
+            "Socrate, dans l’Apologie, ne prétend pas savoir ce qu’il ignore : il parle pour examiner ce que ses interlocuteurs affirment connaître.",
+            "Retour à la scène initiale : vérifier la réponse acquise"
           ],
           [
             "Quand une parole prudente est mal comprise, jusqu’où répondons-nous de ses effets ?",
@@ -426,8 +426,8 @@
             "Réponse au sujet"
           ],
           [
-            "La sécurité du pont exige une vérification des hypothèses plutôt qu’une confiance aveugle.",
-            "Retour à la scène"
+            "La démonstration de Feynman sur les joints de Challenger ne condamne pas la raison : elle rend nécessaire le contrôle de ses hypothèses.",
+            "Retour à la scène initiale : vérifier la réponse acquise"
           ],
           [
             "Comment la raison peut-elle établir la valeur de ses propres critères sans cercle ?",
@@ -557,8 +557,8 @@
             "Réponse au sujet"
           ],
           [
-            "La rue n’avait pas changé : le passant avait appris à mieux regarder.",
-            "Retour à la scène"
+            "La série des Cathédrales de Rouen de Monet invite à voir les variations de lumière sans prétendre remplacer l’édifice par sa représentation.",
+            "Retour à la scène initiale : vérifier la réponse acquise"
           ],
           [
             "Comment distinguer un regard enrichi d’une déformation séduisante ?",
@@ -688,8 +688,8 @@
             "Réponse au sujet"
           ],
           [
-            "Le silence des voisins ne suffisait pas tant que le droit de l’un restait méconnu.",
-            "Retour à la scène"
+            "Dans Antigone, le silence imposé par Créon ne suffit pas à rendre la cité juste tant que la sépulture de Polynice demeure interdite.",
+            "Retour à la scène initiale : vérifier la réponse acquise"
           ],
           [
             "Quand toute voie de recours est fermée, à quelles conditions la résistance préserve-t-elle la paix qu’elle trouble ?",
