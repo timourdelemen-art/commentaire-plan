@@ -157,6 +157,8 @@ Prises (9 octobre 2026) :
 
 - **Cioran** (16 octobre 2026) : le propriétaire demande d’intégrer une sélection rigoureuse de courtes phrases des deux livres fournis, *Précis de décomposition* et *La Chute dans le temps*, dans la bibliothèque philosophique. Le présenter comme écrivain et penseur, expliquer les paradoxes et leur portée sans fabriquer de système ni fixer un quota de citations. Même format Dissertation / Commentaire.
 
+- **Bibliothèque de philosophie fermée temporairement** (18 octobre 2026) : pendant la vérification des droits des citations tirées de traductions récentes, `philosophie-banque.html` et `philosophie-banque-data.js` sont retirés du site publié par `scripts/clean-publish.js` ; leurs adresses mènent à `bibliotheque-philosophie-pause.html` (302) ; rien n’est supprimé du dépôt. Interrupteur : `scripts/acces-reserve.json`. Ne pas rouvrir sans décision du propriétaire.
+
 En attente :
 - Identité de l’éditeur (mentions légales, CGV, confidentialité) et moyen de paiement, avant toute vente ; pages légales à faire relire par un juriste.
 
