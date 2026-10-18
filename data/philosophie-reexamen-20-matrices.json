@@ -47,43 +47,75 @@
       "eightFamilies": [
         {
           "name": "duplication ontologique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Distinguer le plan où « Garantir des droits par une force commune » et celui où « Permettre la critique de cette force » s'appliquent, puis établir leur unité.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "abolition partielle/totale",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Abandonner ou limiter l'exigence « Garantir des droits par une force commune » pour préserver « Permettre la critique de cette force » : vérifier si le sujet survit à ce sacrifice.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "processualisation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Faire de « Garantir des droits par une force commune » et « Permettre la critique de cette force » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "inversion d’indexation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Soutenir que « Permettre la critique de cette force » est la condition de possibilité de « Garantir des droits par une force commune », et non seulement son effet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "métamorphose",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Redéfinir la notion centrale de « Revient-il principalement à l’État de lutter contre l’injustice ? » pour conserver les deux exigences sans les juxtaposer.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "déplacement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "suspension épistémique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Limiter la prétention à savoir si « Garantir des droits par une force commune » et « Permettre la critique de cette force » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "consentement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Assumer que « Garantir des droits par une force commune » et « Permettre la critique de cette force » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         }
       ],
       "evaluation": {
@@ -139,43 +171,75 @@
       "eightFamilies": [
         {
           "name": "duplication ontologique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Distinguer le plan où « Assurer des liens et des fins communes » et celui où « Conserver l’examen libre des croyances » s'appliquent, puis établir leur unité.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "abolition partielle/totale",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Abandonner ou limiter l'exigence « Assurer des liens et des fins communes » pour préserver « Conserver l’examen libre des croyances » : vérifier si le sujet survit à ce sacrifice.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "processualisation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Faire de « Assurer des liens et des fins communes » et « Conserver l’examen libre des croyances » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "inversion d’indexation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Soutenir que « Conserver l’examen libre des croyances » est la condition de possibilité de « Assurer des liens et des fins communes », et non seulement son effet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "métamorphose",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Redéfinir la notion centrale de « Peut-on concevoir une humanité sans religion ? » pour conserver les deux exigences sans les juxtaposer.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "déplacement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "suspension épistémique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Limiter la prétention à savoir si « Assurer des liens et des fins communes » et « Conserver l’examen libre des croyances » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "consentement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Assumer que « Assurer des liens et des fins communes » et « Conserver l’examen libre des croyances » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         }
       ],
       "evaluation": {
@@ -231,43 +295,75 @@
       "eightFamilies": [
         {
           "name": "duplication ontologique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Distinguer le plan où « Reconnaître le savoir et les choix de l’artiste » et celui où « Préserver l’invention imprévisible » s'appliquent, puis établir leur unité.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "abolition partielle/totale",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Abandonner ou limiter l'exigence « Reconnaître le savoir et les choix de l’artiste » pour préserver « Préserver l’invention imprévisible » : vérifier si le sujet survit à ce sacrifice.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "processualisation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Faire de « Reconnaître le savoir et les choix de l’artiste » et « Préserver l’invention imprévisible » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "inversion d’indexation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Soutenir que « Préserver l’invention imprévisible » est la condition de possibilité de « Reconnaître le savoir et les choix de l’artiste », et non seulement son effet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "métamorphose",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Redéfinir la notion centrale de « L’artiste sait-il ce qu’il fait ? » pour conserver les deux exigences sans les juxtaposer.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "déplacement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "suspension épistémique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Limiter la prétention à savoir si « Reconnaître le savoir et les choix de l’artiste » et « Préserver l’invention imprévisible » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "consentement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Assumer que « Reconnaître le savoir et les choix de l’artiste » et « Préserver l’invention imprévisible » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         }
       ],
       "evaluation": {
@@ -323,43 +419,75 @@
       "eightFamilies": [
         {
           "name": "duplication ontologique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Distinguer le plan où « Préserver les découvertes dont l’usage est imprévisible » et celui où « Justifier les moyens et les risques de la recherche » s'appliquent, puis établir leur unité.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "abolition partielle/totale",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Abandonner ou limiter l'exigence « Préserver les découvertes dont l’usage est imprévisible » pour préserver « Justifier les moyens et les risques de la recherche » : vérifier si le sujet survit à ce sacrifice.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "processualisation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Faire de « Préserver les découvertes dont l’usage est imprévisible » et « Justifier les moyens et les risques de la recherche » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "inversion d’indexation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Soutenir que « Justifier les moyens et les risques de la recherche » est la condition de possibilité de « Préserver les découvertes dont l’usage est imprévisible », et non seulement son effet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "métamorphose",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Redéfinir la notion centrale de « La science doit-elle être utile ? » pour conserver les deux exigences sans les juxtaposer.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "déplacement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "suspension épistémique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Limiter la prétention à savoir si « Préserver les découvertes dont l’usage est imprévisible » et « Justifier les moyens et les risques de la recherche » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "consentement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Assumer que « Préserver les découvertes dont l’usage est imprévisible » et « Justifier les moyens et les risques de la recherche » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         }
       ],
       "evaluation": {
@@ -415,43 +543,75 @@
       "eightFamilies": [
         {
           "name": "duplication ontologique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Distinguer le plan où « Préserver une paix possible » et celui où « Pouvoir reconnaître et affronter les dangers » s'appliquent, puis établir leur unité.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "abolition partielle/totale",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Abandonner ou limiter l'exigence « Préserver une paix possible » pour préserver « Pouvoir reconnaître et affronter les dangers » : vérifier si le sujet survit à ce sacrifice.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "processualisation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Faire de « Préserver une paix possible » et « Pouvoir reconnaître et affronter les dangers » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "inversion d’indexation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Soutenir que « Pouvoir reconnaître et affronter les dangers » est la condition de possibilité de « Préserver une paix possible », et non seulement son effet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "métamorphose",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Redéfinir la notion centrale de « Faut-il être inconscient pour être heureux ? » pour conserver les deux exigences sans les juxtaposer.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "déplacement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "suspension épistémique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Limiter la prétention à savoir si « Préserver une paix possible » et « Pouvoir reconnaître et affronter les dangers » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "consentement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Assumer que « Préserver une paix possible » et « Pouvoir reconnaître et affronter les dangers » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         }
       ],
       "evaluation": {
@@ -507,43 +667,75 @@
       "eightFamilies": [
         {
           "name": "duplication ontologique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Distinguer le plan où « Reconnaître une langue héritée et commune » et celui où « Expliquer la critique et l’invention dans cette langue » s'appliquent, puis établir leur unité.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "abolition partielle/totale",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Abandonner ou limiter l'exigence « Reconnaître une langue héritée et commune » pour préserver « Expliquer la critique et l’invention dans cette langue » : vérifier si le sujet survit à ce sacrifice.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "processualisation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Faire de « Reconnaître une langue héritée et commune » et « Expliquer la critique et l’invention dans cette langue » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "inversion d’indexation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Soutenir que « Expliquer la critique et l’invention dans cette langue » est la condition de possibilité de « Reconnaître une langue héritée et commune », et non seulement son effet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "métamorphose",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Redéfinir la notion centrale de « Sommes-nous prisonniers du langage ? » pour conserver les deux exigences sans les juxtaposer.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "déplacement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "suspension épistémique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Limiter la prétention à savoir si « Reconnaître une langue héritée et commune » et « Expliquer la critique et l’invention dans cette langue » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "consentement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Assumer que « Reconnaître une langue héritée et commune » et « Expliquer la critique et l’invention dans cette langue » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         }
       ],
       "evaluation": {
@@ -599,43 +791,75 @@
       "eightFamilies": [
         {
           "name": "duplication ontologique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Distinguer le plan où « Examiner motifs et effets pour juger moralement » et celui où « Permettre un jugement et une action malgré l’incertitude » s'appliquent, puis établir leur unité.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "abolition partielle/totale",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Abandonner ou limiter l'exigence « Examiner motifs et effets pour juger moralement » pour préserver « Permettre un jugement et une action malgré l’incertitude » : vérifier si le sujet survit à ce sacrifice.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "processualisation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Faire de « Examiner motifs et effets pour juger moralement » et « Permettre un jugement et une action malgré l’incertitude » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "inversion d’indexation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Soutenir que « Permettre un jugement et une action malgré l’incertitude » est la condition de possibilité de « Examiner motifs et effets pour juger moralement », et non seulement son effet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "métamorphose",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Redéfinir la notion centrale de « Peut-on être certain d’avoir bien agi ? » pour conserver les deux exigences sans les juxtaposer.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "déplacement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "suspension épistémique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Limiter la prétention à savoir si « Examiner motifs et effets pour juger moralement » et « Permettre un jugement et une action malgré l’incertitude » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "consentement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Assumer que « Examiner motifs et effets pour juger moralement » et « Permettre un jugement et une action malgré l’incertitude » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         }
       ],
       "evaluation": {
@@ -691,43 +915,75 @@
       "eightFamilies": [
         {
           "name": "duplication ontologique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Distinguer le plan où « Préserver les capacités propres des êtres naturels » et celui où « Assumer les dommages dont notre action est responsable » s'appliquent, puis établir leur unité.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "abolition partielle/totale",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Abandonner ou limiter l'exigence « Préserver les capacités propres des êtres naturels » pour préserver « Assumer les dommages dont notre action est responsable » : vérifier si le sujet survit à ce sacrifice.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "processualisation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Faire de « Préserver les capacités propres des êtres naturels » et « Assumer les dommages dont notre action est responsable » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "inversion d’indexation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Soutenir que « Assumer les dommages dont notre action est responsable » est la condition de possibilité de « Préserver les capacités propres des êtres naturels », et non seulement son effet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "métamorphose",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Redéfinir la notion centrale de « La nature a-t-elle besoin de nous ? » pour conserver les deux exigences sans les juxtaposer.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "déplacement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "suspension épistémique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Limiter la prétention à savoir si « Préserver les capacités propres des êtres naturels » et « Assumer les dommages dont notre action est responsable » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "consentement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Assumer que « Préserver les capacités propres des êtres naturels » et « Assumer les dommages dont notre action est responsable » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         }
       ],
       "evaluation": {
@@ -783,43 +1039,75 @@
       "eightFamilies": [
         {
           "name": "duplication ontologique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Distinguer le plan où « Préserver la possibilité d’une vie heureuse » et celui où « Reconnaître le malheur d’autrui et nos obligations » s'appliquent, puis établir leur unité.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "abolition partielle/totale",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Abandonner ou limiter l'exigence « Préserver la possibilité d’une vie heureuse » pour préserver « Reconnaître le malheur d’autrui et nos obligations » : vérifier si le sujet survit à ce sacrifice.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "processualisation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Faire de « Préserver la possibilité d’une vie heureuse » et « Reconnaître le malheur d’autrui et nos obligations » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "inversion d’indexation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Soutenir que « Reconnaître le malheur d’autrui et nos obligations » est la condition de possibilité de « Préserver la possibilité d’une vie heureuse », et non seulement son effet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "métamorphose",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Redéfinir la notion centrale de « Peut-on être heureux quand les autres ne le sont pas ? » pour conserver les deux exigences sans les juxtaposer.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "déplacement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "suspension épistémique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Limiter la prétention à savoir si « Préserver la possibilité d’une vie heureuse » et « Reconnaître le malheur d’autrui et nos obligations » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "consentement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Assumer que « Préserver la possibilité d’une vie heureuse » et « Reconnaître le malheur d’autrui et nos obligations » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         }
       ],
       "evaluation": {
@@ -875,43 +1163,75 @@
       "eightFamilies": [
         {
           "name": "duplication ontologique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Distinguer le plan où « Reconnaître notre pouvoir de formulation » et celui où « Ne pas nier les interprétations et effets qui nous échappent » s'appliquent, puis établir leur unité.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "abolition partielle/totale",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Abandonner ou limiter l'exigence « Reconnaître notre pouvoir de formulation » pour préserver « Ne pas nier les interprétations et effets qui nous échappent » : vérifier si le sujet survit à ce sacrifice.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "processualisation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Faire de « Reconnaître notre pouvoir de formulation » et « Ne pas nier les interprétations et effets qui nous échappent » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "inversion d’indexation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Soutenir que « Ne pas nier les interprétations et effets qui nous échappent » est la condition de possibilité de « Reconnaître notre pouvoir de formulation », et non seulement son effet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "métamorphose",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Redéfinir la notion centrale de « Avons-nous la maîtrise de nos paroles ? » pour conserver les deux exigences sans les juxtaposer.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "déplacement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "suspension épistémique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Limiter la prétention à savoir si « Reconnaître notre pouvoir de formulation » et « Ne pas nier les interprétations et effets qui nous échappent » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "consentement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Assumer que « Reconnaître notre pouvoir de formulation » et « Ne pas nier les interprétations et effets qui nous échappent » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         }
       ],
       "evaluation": {
@@ -967,43 +1287,75 @@
       "eightFamilies": [
         {
           "name": "duplication ontologique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Distinguer le plan où « Reconnaître ce qui échappe au choix conscient » et celui où « Préserver une responsabilité proportionnée aux capacités » s'appliquent, puis établir leur unité.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "abolition partielle/totale",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Abandonner ou limiter l'exigence « Reconnaître ce qui échappe au choix conscient » pour préserver « Préserver une responsabilité proportionnée aux capacités » : vérifier si le sujet survit à ce sacrifice.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "processualisation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Faire de « Reconnaître ce qui échappe au choix conscient » et « Préserver une responsabilité proportionnée aux capacités » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "inversion d’indexation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Soutenir que « Préserver une responsabilité proportionnée aux capacités » est la condition de possibilité de « Reconnaître ce qui échappe au choix conscient », et non seulement son effet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "métamorphose",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Redéfinir la notion centrale de « L’idée d’inconscient remet-elle en cause la responsabilité ? » pour conserver les deux exigences sans les juxtaposer.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "déplacement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "suspension épistémique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Limiter la prétention à savoir si « Reconnaître ce qui échappe au choix conscient » et « Préserver une responsabilité proportionnée aux capacités » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "consentement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Assumer que « Reconnaître ce qui échappe au choix conscient » et « Préserver une responsabilité proportionnée aux capacités » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         }
       ],
       "evaluation": {
@@ -1183,43 +1535,75 @@
       "eightFamilies": [
         {
           "name": "duplication ontologique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Distinguer le plan où « Préserver la force des raisons valides » et celui où « Rendre ces raisons accessibles à un esprit situé » s'appliquent, puis établir leur unité.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "abolition partielle/totale",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Abandonner ou limiter l'exigence « Préserver la force des raisons valides » pour préserver « Rendre ces raisons accessibles à un esprit situé » : vérifier si le sujet survit à ce sacrifice.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "processualisation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Faire de « Préserver la force des raisons valides » et « Rendre ces raisons accessibles à un esprit situé » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "inversion d’indexation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Soutenir que « Rendre ces raisons accessibles à un esprit situé » est la condition de possibilité de « Préserver la force des raisons valides », et non seulement son effet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "métamorphose",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Redéfinir la notion centrale de « Suffit-il d’avoir raison pour convaincre ? » pour conserver les deux exigences sans les juxtaposer.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "déplacement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "suspension épistémique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Limiter la prétention à savoir si « Préserver la force des raisons valides » et « Rendre ces raisons accessibles à un esprit situé » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "consentement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Assumer que « Préserver la force des raisons valides » et « Rendre ces raisons accessibles à un esprit situé » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         }
       ],
       "evaluation": {
@@ -1275,43 +1659,75 @@
       "eightFamilies": [
         {
           "name": "duplication ontologique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Distinguer le plan où « Préserver les biens rendus possibles par la technique » et celui où « Ne pas autoriser tout moyen et tout risque au nom du pouvoir » s'appliquent, puis établir leur unité.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "abolition partielle/totale",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Abandonner ou limiter l'exigence « Préserver les biens rendus possibles par la technique » pour préserver « Ne pas autoriser tout moyen et tout risque au nom du pouvoir » : vérifier si le sujet survit à ce sacrifice.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "processualisation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Faire de « Préserver les biens rendus possibles par la technique » et « Ne pas autoriser tout moyen et tout risque au nom du pouvoir » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "inversion d’indexation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Soutenir que « Ne pas autoriser tout moyen et tout risque au nom du pouvoir » est la condition de possibilité de « Préserver les biens rendus possibles par la technique », et non seulement son effet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "métamorphose",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Redéfinir la notion centrale de « Ce qui est techniquement possible est-il toujours souhaitable ? » pour conserver les deux exigences sans les juxtaposer.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "déplacement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "suspension épistémique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Limiter la prétention à savoir si « Préserver les biens rendus possibles par la technique » et « Ne pas autoriser tout moyen et tout risque au nom du pouvoir » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "consentement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Assumer que « Préserver les biens rendus possibles par la technique » et « Ne pas autoriser tout moyen et tout risque au nom du pouvoir » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         }
       ],
       "evaluation": {
@@ -1367,43 +1783,75 @@
       "eightFamilies": [
         {
           "name": "duplication ontologique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Distinguer le plan où « Reconnaître les pertes réelles » et celui où « Reconnaître la formation et la nouveauté dans la durée » s'appliquent, puis établir leur unité.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "abolition partielle/totale",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Abandonner ou limiter l'exigence « Reconnaître les pertes réelles » pour préserver « Reconnaître la formation et la nouveauté dans la durée » : vérifier si le sujet survit à ce sacrifice.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "processualisation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Faire de « Reconnaître les pertes réelles » et « Reconnaître la formation et la nouveauté dans la durée » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "inversion d’indexation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Soutenir que « Reconnaître la formation et la nouveauté dans la durée » est la condition de possibilité de « Reconnaître les pertes réelles », et non seulement son effet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "métamorphose",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Redéfinir la notion centrale de « Le temps est-il nécessairement destructeur ? » pour conserver les deux exigences sans les juxtaposer.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "déplacement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "suspension épistémique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Limiter la prétention à savoir si « Reconnaître les pertes réelles » et « Reconnaître la formation et la nouveauté dans la durée » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "consentement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Assumer que « Reconnaître les pertes réelles » et « Reconnaître la formation et la nouveauté dans la durée » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         }
       ],
       "evaluation": {
@@ -1459,43 +1907,75 @@
       "eightFamilies": [
         {
           "name": "duplication ontologique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Distinguer le plan où « Reconnaître la formation par l’activité » et celui où « Reconnaître la contrainte et l’aliénation du travail réel » s'appliquent, puis établir leur unité.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "abolition partielle/totale",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Abandonner ou limiter l'exigence « Reconnaître la formation par l’activité » pour préserver « Reconnaître la contrainte et l’aliénation du travail réel » : vérifier si le sujet survit à ce sacrifice.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "processualisation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Faire de « Reconnaître la formation par l’activité » et « Reconnaître la contrainte et l’aliénation du travail réel » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "inversion d’indexation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Soutenir que « Reconnaître la contrainte et l’aliénation du travail réel » est la condition de possibilité de « Reconnaître la formation par l’activité », et non seulement son effet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "métamorphose",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Redéfinir la notion centrale de « Le travail nous rend-il plus humain ? » pour conserver les deux exigences sans les juxtaposer.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "déplacement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "suspension épistémique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Limiter la prétention à savoir si « Reconnaître la formation par l’activité » et « Reconnaître la contrainte et l’aliénation du travail réel » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "consentement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Assumer que « Reconnaître la formation par l’activité » et « Reconnaître la contrainte et l’aliénation du travail réel » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         }
       ],
       "evaluation": {
@@ -1551,43 +2031,75 @@
       "eightFamilies": [
         {
           "name": "duplication ontologique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Distinguer le plan où « Respecter l’exactitude et le jugement d’autrui » et celui où « Respecter les droits et les effets de la divulgation » s'appliquent, puis établir leur unité.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "abolition partielle/totale",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Abandonner ou limiter l'exigence « Respecter l’exactitude et le jugement d’autrui » pour préserver « Respecter les droits et les effets de la divulgation » : vérifier si le sujet survit à ce sacrifice.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "processualisation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Faire de « Respecter l’exactitude et le jugement d’autrui » et « Respecter les droits et les effets de la divulgation » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "inversion d’indexation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Soutenir que « Respecter les droits et les effets de la divulgation » est la condition de possibilité de « Respecter l’exactitude et le jugement d’autrui », et non seulement son effet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "métamorphose",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Redéfinir la notion centrale de « Toute vérité est-elle bonne à dire ? » pour conserver les deux exigences sans les juxtaposer.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "déplacement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "suspension épistémique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Limiter la prétention à savoir si « Respecter l’exactitude et le jugement d’autrui » et « Respecter les droits et les effets de la divulgation » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "consentement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Assumer que « Respecter l’exactitude et le jugement d’autrui » et « Respecter les droits et les effets de la divulgation » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         }
       ],
       "evaluation": {
@@ -1643,43 +2155,75 @@
       "eightFamilies": [
         {
           "name": "duplication ontologique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Distinguer le plan où « Préserver la validité des raisons » et celui où « Expliquer leur reconnaissance sans manipulation » s'appliquent, puis établir leur unité.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "abolition partielle/totale",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Abandonner ou limiter l'exigence « Préserver la validité des raisons » pour préserver « Expliquer leur reconnaissance sans manipulation » : vérifier si le sujet survit à ce sacrifice.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "processualisation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Faire de « Préserver la validité des raisons » et « Expliquer leur reconnaissance sans manipulation » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "inversion d’indexation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Soutenir que « Expliquer leur reconnaissance sans manipulation » est la condition de possibilité de « Préserver la validité des raisons », et non seulement son effet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "métamorphose",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Redéfinir la notion centrale de « La vérité est-elle toujours convaincante ? » pour conserver les deux exigences sans les juxtaposer.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "déplacement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "suspension épistémique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Limiter la prétention à savoir si « Préserver la validité des raisons » et « Expliquer leur reconnaissance sans manipulation » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "consentement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Assumer que « Préserver la validité des raisons » et « Expliquer leur reconnaissance sans manipulation » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         }
       ],
       "evaluation": {
@@ -1735,43 +2279,75 @@
       "eightFamilies": [
         {
           "name": "duplication ontologique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Distinguer le plan où « Reconnaître les conditions et dépendances techniques » et celui où « Préserver une décision collective sur les fins » s'appliquent, puis établir leur unité.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "abolition partielle/totale",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Abandonner ou limiter l'exigence « Reconnaître les conditions et dépendances techniques » pour préserver « Préserver une décision collective sur les fins » : vérifier si le sujet survit à ce sacrifice.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "processualisation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Faire de « Reconnaître les conditions et dépendances techniques » et « Préserver une décision collective sur les fins » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "inversion d’indexation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Soutenir que « Préserver une décision collective sur les fins » est la condition de possibilité de « Reconnaître les conditions et dépendances techniques », et non seulement son effet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "métamorphose",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Redéfinir la notion centrale de « Notre avenir dépend-il de la technique ? » pour conserver les deux exigences sans les juxtaposer.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "déplacement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "suspension épistémique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Limiter la prétention à savoir si « Reconnaître les conditions et dépendances techniques » et « Préserver une décision collective sur les fins » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "consentement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Assumer que « Reconnaître les conditions et dépendances techniques » et « Préserver une décision collective sur les fins » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         }
       ],
       "evaluation": {
@@ -1827,43 +2403,75 @@
       "eightFamilies": [
         {
           "name": "duplication ontologique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Distinguer le plan où « Reconnaître la liberté des goûts » et celui où « Reconnaître les besoins de perception, expression et partage » s'appliquent, puis établir leur unité.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "abolition partielle/totale",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Abandonner ou limiter l'exigence « Reconnaître la liberté des goûts » pour préserver « Reconnaître les besoins de perception, expression et partage » : vérifier si le sujet survit à ce sacrifice.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "processualisation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Faire de « Reconnaître la liberté des goûts » et « Reconnaître les besoins de perception, expression et partage » deux moments d'un processus dont il faut expliquer le mécanisme.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "inversion d’indexation",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Soutenir que « Reconnaître les besoins de perception, expression et partage » est la condition de possibilité de « Reconnaître la liberté des goûts », et non seulement son effet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "métamorphose",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Redéfinir la notion centrale de « Avons-nous besoin d’art ? » pour conserver les deux exigences sans les juxtaposer.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "déplacement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Déplacer la difficulté vers les conditions institutionnelles, pratiques ou relationnelles qui rendent compatibles les deux exigences.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "suspension épistémique",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Limiter la prétention à savoir si « Reconnaître la liberté des goûts » et « Reconnaître les besoins de perception, expression et partage » sont compatibles ; tester si cette suspension répond vraiment au sujet.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         },
         {
           "name": "consentement",
-          "status": "à examiner individuellement",
-          "reason": null
+          "application": "Assumer que « Reconnaître la liberté des goûts » et « Reconnaître les besoins de perception, expression et partage » restent en tension, sans prétendre les réconcilier ; établir ce que cette reconnaissance apporte.",
+          "status": "hypothèse initiale à spécifier",
+          "gain": null,
+          "cost": null,
+          "rest": null,
+          "verdict": "non évalué"
         }
       ],
       "evaluation": {
@@ -1877,8 +2485,10 @@
     }
   },
   "progress": {
-    "fullyApplied": 1,
-    "total": 20,
-    "note": "Une analyse détaillée ne vaut pas audit achevé des dix-neuf autres sujets."
+    "familiesAppliedToAll": 20,
+    "applications": 160,
+    "fullyEvaluated": 1,
+    "remainingToEvaluate": 19,
+    "note": "Les 152 applications nouvelles sont des tests initiaux, non des solutions validées. Elles doivent être particularisées, justifiées, et confrontées à leur coût et leur reste."
   }
 }
