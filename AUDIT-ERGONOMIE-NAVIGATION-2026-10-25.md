@@ -178,3 +178,14 @@ Dans `annales-index.js`, le bloc de recherche `#annalesControls` / `#transformed
 
 ### Décision de déploiement
 Ne pas fusionner ni publier maintenant : l'exécution du build, l'inventaire et les tests de parcours restent incomplets. Le déploiement n'est pas requis pour poursuivre l'audit statique ; il pourrait être utile ultérieurement d'ouvrir un aperçu de branche pour les tests visuels, sans toucher à la production.
+
+## Contrôle de robustesse du catalogue
+
+Le script `annales-index.js` vérifie désormais explicitement la présence de `#annalesControls` avant de créer et déplacer les filtres. Ce garde-fou évite une erreur JavaScript si le module est réutilisé sur une page ne possédant pas les contrôles attendus.
+
+### Travaux restant avant une fusion
+- Exécuter `scripts/audit-exercise-progression.cjs` et inspecter les résultats par exercice.
+- Vérifier le rendu des annales et la cohérence des filtres « Tout », « Bac », « Brevet », « Gratuit », « Accès complet ».
+- Tester l'absence de régression des menus statiques après `scripts/seo-build.js`.
+- Valider l'affichage mobile et les parcours clic → écrit → retour effectif.
+- Préparer un aperçu de branche pour les contrôles visuels, sans publication en production.
