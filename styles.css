@@ -2753,3 +2753,17 @@ main :is(.actions,.funnel-actions,.atelier-nav,.chaine-nav){flex-wrap:wrap;row-g
 @media(min-width:901px){
   .procedure-principle:has(>div:nth-child(4):last-child){grid-template-columns:repeat(4,minmax(0,1fr))}
 }
+
+/* Copies à 20 : deux modes de lecture communs à tout le site (copie-modes.js) */
+.cm-bar{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 20px}
+.cm-mode{font:inherit;font-size:15px;background:transparent;color:inherit;border:1px solid var(--ink,#1c1a17);padding:9px 14px;cursor:pointer;border-radius:2px}
+.cm-mode[aria-pressed="true"]{background:var(--red,#8e3028);border-color:var(--red,#8e3028);color:#fff}
+.cm-mode:focus-visible{outline:3px solid var(--red,#8e3028);outline-offset:3px}
+.cm-plain{max-width:860px;font-size:19px;line-height:1.65}
+.cm-plain p{text-align:justify;-webkit-hyphens:auto;hyphens:auto;text-indent:1.5em;margin:0 0 .85em}
+.cm-plain p.cm-part{margin-top:1.7em}
+.cm-detail .c20-t,.cm-detail .mr-text,.cm-commentaire > p:not(.label){text-align:justify;-webkit-hyphens:auto;hyphens:auto}
+.cm-commentaire > p:not(.label):not(.c20c-aide){text-indent:1.5em}
+.cm-old{display:none!important}
+@media(max-width:700px){.cm-plain{font-size:18px}.cm-mode{flex:1 1 100%;text-align:left}}
+@media print{.cm-bar{display:none!important}}

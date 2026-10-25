@@ -312,3 +312,10 @@ const portals=navigation.map(([href,label,sub,items])=>portal(href,label,sub,ite
     document.body.appendChild(feedbackScript);
   }
 });
+
+/* Copies à 20 : deux modes de lecture, les mêmes sur tout le site (même sans en-tête). */
+document.addEventListener('DOMContentLoaded',()=>{
+  if(document.querySelector('.c20-s, .mr-phrase, article.model-commentary')){
+    const modes=document.createElement('script'); modes.src='/copie-modes.js'; document.body.appendChild(modes);
+  }
+});
