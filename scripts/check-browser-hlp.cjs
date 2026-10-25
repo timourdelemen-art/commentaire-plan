@@ -26,20 +26,22 @@ const server=http.createServer((req,res)=>{
      await box.locator('[data-level="3"]').click();await box.locator('[data-compare]').click();
      const sentences=response.model.flatMap(p=>p.sentences);
      assert.equal(await model.locator('[data-model-text]').count(),sentences.length);
-     assert.equal(await model.locator('.ecrire-annotation:visible').count(),sentences.length);
-     assert.deepEqual(await model.locator('[data-model-text]').allTextContents(),sentences.map(s=>s.text));
-     const before=await model.locator('[data-model-text]').allTextContents();
-     const toggle=model.locator('[data-annotations]');await toggle.focus();await page.keyboard.press('Enter');
-     assert.equal(await toggle.getAttribute('aria-pressed'),'false');
+     // Deux modes communs (copie-modes.js) : la copie entière par défaut, puis la fonction de chaque phrase.
+     const entiere=model.locator('.cm-mode[data-mode="e"]'),toggle=model.locator('.cm-mode[data-mode="f"]');await toggle.waitFor();
+     assert.equal(await entiere.getAttribute('aria-pressed'),'true');
      assert.equal(await model.locator('.ecrire-annotation:visible').count(),0);
-     const plain=(await model.locator('[data-model-paragraph]').allInnerTexts()).map(normalize);
-     assert.deepEqual(plain,response.model.map(p=>normalize(p.sentences.map(s=>s.text).join(' '))),'Même texte et mêmes paragraphes en lecture continue');
-     assert.equal(await model.locator('.ecrire-row').first().evaluate(e=>getComputedStyle(e).display),'inline');
-     await toggle.click();assert.deepEqual(await model.locator('[data-model-text]').allTextContents(),before);
+     const plain=(await model.locator('.cm-plain p').allInnerTexts()).map(normalize);
+     assert.deepEqual(plain,response.model.map(p=>normalize(p.sentences.map(s=>s.text).join(' '))),'Même texte et mêmes paragraphes dans la copie entière');
+     assert.equal(await model.locator('.cm-plain p').first().evaluate(e=>getComputedStyle(e).textAlign),'justify');
+     await toggle.focus();await page.keyboard.press('Enter');
+     assert.equal(await toggle.getAttribute('aria-pressed'),'true');
+     assert.equal(await model.locator('.ecrire-annotation:visible').count(),sentences.length);
+     const before=await model.locator('[data-model-text]').allTextContents();
+     assert.deepEqual(before,sentences.map(s=>s.text));
      assert((await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth))<=1,'Débordement horizontal');
      if(i===0&&subject.id==='premiere-moliere'){
       await model.scrollIntoViewIfNeeded();await page.screenshot({path:path.join(capture,`hlp-phrases-${width}.png`)});
-      await toggle.click();await page.screenshot({path:path.join(capture,`hlp-continu-${width}.png`)});await toggle.click();
+      await entiere.click();await page.screenshot({path:path.join(capture,`hlp-continu-${width}.png`)});await toggle.click();
      }
     }
     assert.deepEqual(errors,[]);report.push({subject:subject.id,width,ok:true});await page.close();
