@@ -63,7 +63,7 @@ niveau1: [
   "sujet": "Faut-il être inconscient pour être heureux ?",
   "notion": "Le bonheur",
   "v": 3,
-  "pb": "Faut-il ignorer les menaces pour être heureux, au risque de ne pouvoir s’en protéger, ou les connaître, au risque de ne plus trouver de repos ?",
+  "pb": "Faut-il être inconscient pour être heureux, si l’insouciance livre le bonheur aux dangers qu’elle ignore, et si la lucidité ne voit les menaces qu’en perdant le repos ?",
   "annale": "faut-il-etre-inconscient-pour-etre-heureux",
   "etapes": [
     {
@@ -116,7 +116,7 @@ niveau1: [
       "q": "Où cette réponse cède-t-elle, si on la pousse jusqu’au bout ?",
       "o": [
         [
-          "Mais ignorer une menace ne la supprime pas : l’insouciant peut perdre un bonheur qu’il aurait pu protéger en sachant le danger.",
+          "Mais ignorer une menace ne la supprime pas : qui ne la voit pas ne peut s’en garder.",
           "ok",
           "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
         ],
@@ -204,7 +204,7 @@ niveau1: [
       "q": "Où cette deuxième réponse cède-t-elle à son tour ?",
       "o": [
         [
-          "Mais savoir tous les dangers n’offre pas toujours le pouvoir de les éviter ; l’attention peut alors se transformer en inquiétude continuelle.",
+          "Mais si connaître un danger, c’est s’en inquiéter, plus la lucidité voit loin, plus elle trouve de quoi craindre.",
           "ok",
           "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
         ],
@@ -338,7 +338,7 @@ niveau1: [
   "sujet": "Peut-on être certain d’avoir bien agi ?",
   "notion": "Le devoir",
   "v": 3,
-  "pb": "La certitude d’avoir bien fait repose-t-elle sur l’intention, au risque d’une bonne conscience aveugle aux effets, ou sur les effets, au risque de livrer la valeur de nos actes au hasard ?",
+  "pb": "Peut-on tirer la certitude d’avoir bien agi de son intention, aveugle aux effets de l’acte, ou de ses effets, qui livrent sa valeur au hasard ?",
   "annale": "peut-on-etre-certain-d-avoir-bien-agi",
   "etapes": [
     {
@@ -479,7 +479,7 @@ niveau1: [
       "q": "Où cette deuxième réponse cède-t-elle à son tour ?",
       "o": [
         [
-          "Mais l’incertitude ne rend pas tous les jugements équivalents : on peut comparer les raisons disponibles, même sans assurance complète.",
+          "Mais si seuls les effets décident, la valeur d’un acte dépend de ce qui arrive après lui : la même décision serait mauvaise si un coup de vent avait fait échouer l’amerrissage.",
           "ok",
           "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
         ],
@@ -613,7 +613,7 @@ niveau1: [
   "sujet": "La science doit-elle être utile ?",
   "notion": "La science",
   "v": 3,
-  "pb": "La science vaut-elle par le pouvoir qu’elle donne, au risque de ne plus chercher que des vérités utiles, ou par la seule vérité, au risque d’oublier qu’elle ne connaît qu’en agissant ?",
+  "pb": "La science doit-elle être utile, si l’utilité la détourne des vérités sans usage, et si ses vérités deviennent malgré elle des pouvoirs ?",
   "annale": "la-science-doit-elle-etre-utile",
   "etapes": [
     {
@@ -754,7 +754,7 @@ niveau1: [
       "q": "Où cette deuxième réponse cède-t-elle à son tour ?",
       "o": [
         [
-          "Mais la recherche mobilise des moyens et comporte parfois des interventions sur le monde avant même de produire une application.",
+          "Mais la science ne connaît la nature qu’en agissant sur elle : l’expérience est déjà une intervention, avant toute application.",
           "ok",
           "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
         ],
@@ -888,7 +888,7 @@ niveau1: [
   "sujet": "L’artiste sait-il ce qu’il fait ?",
   "notion": "L’art",
   "v": 3,
-  "pb": "L’artiste maîtrise-t-il son œuvre comme un savoir-faire, au risque de ne plus rien inventer, ou l’invente-t-il à l’aveugle, au risque de n’en être plus l’auteur ?",
+  "pb": "L’artiste maîtrise-t-il son œuvre comme un savoir-faire, qui ne laisse plus rien à inventer, ou l’invente-t-il à l’aveugle, sans plus en être l’auteur ?",
   "annale": "l-artiste-sait-il-ce-qu-il-fait",
   "etapes": [
     {
@@ -1029,7 +1029,7 @@ niveau1: [
       "q": "Où cette deuxième réponse cède-t-elle à son tour ?",
       "o": [
         [
-          "Mais l’absence de recette ne signifie pas l’absence de choix : il faut expliquer comment l’artiste reconnaît et retient ce qu’il n’avait pas prévu.",
+          "Mais si le génie ne sait pas comment il produit, il ne choisit plus : l’œuvre passe par lui sans venir de lui.",
           "ok",
           "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
         ],
@@ -1163,7 +1163,7 @@ niveau1: [
   "sujet": "Avons-nous la maîtrise de nos paroles ?",
   "notion": "Le langage",
   "v": 3,
-  "pb": "Choisir nos mots nous donne-t-il la maîtrise de nos paroles, si leur sens dépend aussi d’autrui ; et si ce sens nous échappe, de quoi pouvons-nous encore répondre ?",
+  "pb": "Maîtriser ses paroles, est-ce ne plus dire que ce qu’on pensait déjà, et ne pas les maîtriser, est-ce cesser de pouvoir en répondre ?",
   "annale": "avons-nous-la-maitrise-de-nos-paroles",
   "etapes": [
     {
@@ -1216,7 +1216,7 @@ niveau1: [
       "q": "Où cette réponse cède-t-elle, si on la pousse jusqu’au bout ?",
       "o": [
         [
-          "Mais préparer une parole ne garantit pas qu’elle soit comprise comme prévu : parler nous fait aussi préciser une pensée encore incertaine.",
+          "Mais une parole dont tout le sens serait fixé d’avance ne ferait que réciter une pensée déjà faite.",
           "ok",
           "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
         ],
@@ -1438,7 +1438,7 @@ niveau1: [
   "sujet": "Peut-on concevoir une humanité sans religion ?",
   "notion": "La religion",
   "v": 3,
-  "pb": "Une humanité qui ne croirait que ce qu’elle peut prouver garderait-elle de quoi relier les hommes, et une humanité unie par la croyance resterait-elle faite d’hommes qui jugent par eux-mêmes ?",
+  "pb": "Une humanité qui ne croit que ce qu’elle prouve peut-elle encore relier les hommes, et une humanité unie par la foi peut-elle rester faite d’hommes qui jugent par eux-mêmes ?",
   "annale": "peut-on-concevoir-une-humanite-sans-religion",
   "etapes": [
     {
@@ -1579,7 +1579,7 @@ niveau1: [
       "q": "Où cette deuxième réponse cède-t-elle à son tour ?",
       "o": [
         [
-          "Mais une communauté qui rend ses croyances incontestables risque de sacrifier le jugement personnel à son unité.",
+          "Mais un lien qui tient à une croyance commune exige qu’on ne la mette pas en doute : l’unité se paie du jugement personnel.",
           "ok",
           "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
         ],
@@ -1713,7 +1713,7 @@ niveau1: [
   "sujet": "La nature a-t-elle besoin de nous ?",
   "notion": "La nature",
   "v": 3,
-  "pb": "Une nature confiée à nos soins serait-elle encore ce qui se fait sans nous, et une nature qui se passe de nous reste-t-elle un ordre, s’il n’est ordre pour personne ?",
+  "pb": "La nature se fait-elle sans nous, ce qui l’abandonne à nos destructions, ou dépend-elle de nos soins, ce qui en fait notre ouvrage ?",
   "annale": "la-nature-a-t-elle-besoin-de-nous",
   "etapes": [
     {
@@ -1854,7 +1854,7 @@ niveau1: [
       "q": "Où cette deuxième réponse cède-t-elle à son tour ?",
       "o": [
         [
-          "Mais protéger ne peut signifier fixer d’avance chaque évolution : une gestion totale supprimerait l’autonomie que l’on voulait conserver.",
+          "Mais une protection qui dirige un milieu remplace ses processus par nos décisions : plus elle s’étend, plus elle supprime l’autonomie qu’elle voulait sauver.",
           "ok",
           "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
         ],
@@ -1988,7 +1988,7 @@ niveau1: [
   "sujet": "Peut-on être heureux quand les autres ne le sont pas ?",
   "notion": "Le bonheur",
   "v": 3,
-  "pb": "Un bonheur fermé au malheur des autres est-il encore un bonheur humain, et un bonheur qui l’accueille peut-il jamais exister, tant qu’il y a des malheureux ?",
+  "pb": "Peut-on être heureux en fermant son bonheur au malheur des autres, qui cesse alors d’être humain, ou en l’y ouvrant, ce qui le rend impossible tant qu’il y a des malheureux ?",
   "annale": "peut-on-etre-heureux-quand-les-autres-ne-le-sont-pas",
   "etapes": [
     {
@@ -2041,7 +2041,7 @@ niveau1: [
       "q": "Où cette réponse cède-t-elle, si on la pousse jusqu’au bout ?",
       "o": [
         [
-          "Mais cette indépendance peut devenir une indifférence si elle sert à écarter toute obligation envers autrui.",
+          "Mais si le malheur des autres ne dépend pas de moi, il ne doit plus me toucher : la sérénité qui suffit au bonheur exige de s’en détourner.",
           "ok",
           "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
         ],
@@ -2263,7 +2263,7 @@ niveau1: [
   "sujet": "Revient-il principalement à l’État de lutter contre l’injustice ?",
   "notion": "L’État",
   "v": 3,
-  "pb": "Confier d’abord à l’État la lutte contre l’injustice, est-ce donner à sa force le dernier mot sur le juste, et la confier d’abord à d’autres, est-ce priver la justice de force ?",
+  "pb": "Confier d’abord à l’État la lutte contre l’injustice, est-ce soustraire ses lois à tout jugement, et la confier d’abord aux citoyens, est-ce priver la justice de force commune ?",
   "annale": "revient-il-principalement-a-l-etat-de-lutter-contre-l-injustice",
   "etapes": [
     {
@@ -2404,7 +2404,7 @@ niveau1: [
       "q": "Où cette deuxième réponse cède-t-elle à son tour ?",
       "o": [
         [
-          "Mais une contestation ne devient pas juste par sa seule sincérité : des consciences opposées peuvent revendiquer des droits incompatibles.",
+          "Mais, même sincères, des consciences opposées revendiquent des droits incompatibles : si leur jugement l’emporte sur la loi, celle-ci n’oblige plus que ceux qui l’approuvent.",
           "ok",
           "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
         ],
