@@ -169,3 +169,12 @@ Une tentative de clonage du dépôt depuis l'environnement d'exécution a échou
 
 ### Reprise des vérifications
 Sur une copie du dépôt accessible : `node scripts/audit-exercise-progression.cjs > audit-exercices.json`, puis revue manuelle des résultats et tests Playwright. Ne pas assimiler la présence d'un bouton à une réponse cliquable pédagogique ni la présence d'un champ de texte à un retour IA.
+
+## Placement du catalogue interactif des annales
+
+Dans `annales-index.js`, le bloc de recherche `#annalesControls` / `#transformedAnnales` est déplacé dynamiquement avant l'index statique des sujets de français. Le module n'est pas dupliqué. L'objectif est de rendre la sélection auteur/œuvre visible avant les archives longues.
+
+**Attention :** la nouvelle section est créée par JavaScript. En l'absence de JavaScript, l'index statique reste présent et les ressources ne sont pas supprimées. Il faut encore tester la position des ancres, le style `guided-section`, les comportements des filtres et les lecteurs d'écran.
+
+### Décision de déploiement
+Ne pas fusionner ni publier maintenant : l'exécution du build, l'inventaire et les tests de parcours restent incomplets. Le déploiement n'est pas requis pour poursuivre l'audit statique ; il pourrait être utile ultérieurement d'ouvrir un aperçu de branche pour les tests visuels, sans toucher à la production.
