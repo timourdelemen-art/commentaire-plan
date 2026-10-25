@@ -36,3 +36,17 @@ Le document `AUDIT-PARCOURS-COMMENTAIRE-2026-10-17.md` décrit les quatre portes
 - Chaque destination de sous-menu atteint la fonction annoncée.
 - Navigation clavier et mobile testées, résultats documentés.
 - Toute modification est soumise en branche séparée avant fusion.
+
+## Complément d'investigation : générateur SEO et tests existants
+
+Le fichier `scripts/seo-build.js` possède déjà une fonction `staticHeader(file)` avec les six rubriques et leurs sous-menus, alignés sur la définition observée dans `site-nav.js`. Il produit des en-têtes statiques, utiles même lorsque JavaScript est désactivé. Les anciennes variantes observées dans certains HTML peuvent donc être des **artefacts non régénérés**, et non la preuve d'une architecture volontairement concurrente. Il faut vérifier si la commande de build est exécutée avant le déploiement, et comparer les fichiers générés après build. **Ne pas remplacer les en-têtes statiques par un rendu JavaScript uniquement.**
+
+Le script `scripts/check-browser-integration.cjs` utilise Playwright et vérifie déjà, notamment, six portails bureau, six liens mobile, l'absence de troncature des intitulés et le fonctionnement clavier (flèche bas, Échap). Il faut prolonger cette couverture au lieu de recréer un dispositif parallèle.
+
+### Correctif minimal recommandé, à valider après exécution des tests
+1. Ajouter un test de parité entre les destinations et libellés du menu produit par `seo-build.js` et le menu défini par `site-nav.js`.
+2. Exécuter la génération SEO et vérifier que les anciens intitulés BAC/PHILO disparaissent des HTML produits.
+3. Tester les parcours complets des quatre entrées Commentaire, les deux entrées Philosophie et la navigation mobile.
+4. Examiner si un sous-menu mobile repliable réduit les clics, sans compromettre la simplicité actuelle.
+
+**Niveau de preuve :** constat statique sur le code source ; les tests navigateur et le pipeline de déploiement ne sont pas encore exécutés. Aucune panne de navigation en production n'est affirmée.
