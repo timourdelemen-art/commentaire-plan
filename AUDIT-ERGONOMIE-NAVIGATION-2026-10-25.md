@@ -146,3 +146,9 @@ Les raccourcis emploient la classe CSS existante `annales-jump` ; aucune nouvell
 **Limites connues :** les filtres ne couvrent que le catalogue interactif et non la liste statique des fiches de commentaire ni les annales externes ; les catégories « exercices » et « corrigé vérifié » ne sont pas encore indexées. Aucun test navigateur ni build complet n'a été exécuté. Il reste à vérifier les CSS des contrôles et l'accessibilité mobile. Les données des œuvres ne doivent pas être confondues avec les titres de sujets de dissertation.
 
 **Suite nécessaire :** inventaire exhaustif des pages, classification des exercices, contrôles IA et intégration d'un sélecteur commun sans doublonner les données.
+
+## Correction de cohérence des filtres
+
+Le sélecteur auteur/œuvre de `annales-index.js` utilise désormais la classe `filters` déjà employée par le site. Les champs possèdent des libellés accessibles. Lors du choix « Brevet », les filtres propres aux auteurs et œuvres de français sont masqués et leurs valeurs réinitialisées.
+
+**Point de vigilance restant :** les filtres « Gratuit » et « Accès complet » s'appliquent encore à toutes les épreuves ; il faut préciser dans l'interface la portée des filtres combinés, vérifier les résultats par catégorie et éviter d'afficher une sélection de français comme filtre universel. Tests navigateur non exécutés.
