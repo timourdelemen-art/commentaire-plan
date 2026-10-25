@@ -47,7 +47,7 @@
     ].map(([k,l])=>"<button class='filter"+(k==="all"?" active":"")+"' data-f='"+k+"'>"+l+"</button>").join("");
     controls.querySelectorAll("button").forEach(b=>b.onclick=()=>{
       controls.querySelectorAll("button").forEach(x=>x.classList.remove("active"));
-      b.classList.add("active"); filter=b.dataset.f; render();
+      b.classList.add("active"); filter=b.dataset.f; if(filter==="brevet"){author="all";work="all";authorSelect.value="all";updateWorks();} render();
     });
   }
   function render(){
