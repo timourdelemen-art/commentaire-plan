@@ -67,7 +67,7 @@ const source=normalize(JSON.parse(fs.readFileSync(path.join(__dirname,'manon-cit
     }
     assert.deepEqual(errors,[]);fs.mkdirSync(path.join(root,'browser-audit'),{recursive:true});
     await page.locator('h1').scrollIntoViewIfNeeded();await page.screenshot({path:path.join(root,'browser-audit',name.replace('.html',`-${width}.png`))});
-    if(name.includes('manon')){await page.locator('.mr-toggle').click();await page.locator('.mr-texte').scrollIntoViewIfNeeded();await page.screenshot({path:path.join(root,'browser-audit',`manon-fonctions-${width}.png`)});}
+    if(name.includes('manon')){await page.locator('.cm-mode[data-mode="f"]').first().click();await page.locator('.mr-texte').scrollIntoViewIfNeeded();await page.screenshot({path:path.join(root,'browser-audit',`manon-fonctions-${width}.png`)});}
     await page.close();
    }
    await context.close();
