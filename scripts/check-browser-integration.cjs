@@ -94,7 +94,7 @@ async function journeys(page,name,width){
   await box.locator('[data-compare]').click();assert.equal(await box.locator('[data-model]').getAttribute('open'),'');
   // Deux modes communs (copie-modes.js) : la copie entière, puis la fonction de chaque phrase, pour chaque modèle.
   await box.locator('[data-model] .cm-bar').first().waitFor();assert.equal(await box.locator('[data-model] .cm-plain:visible').count(),await box.locator('.ecrire-copy').count());
-  for(const m of await box.locator('[data-model] .cm-mode[data-mode="f"]').all())await m.click();assert(await box.locator('[data-model] .c20-f').first().isVisible());
+  for(const m of await box.locator('[data-model] .cm-mode[data-mode="f"]').all())await m.click();assert(await box.locator('[data-model] .c20-f, [data-model] .ecrire-annotation').first().isVisible());
   for(const m of await box.locator('[data-model] .cm-mode[data-mode="e"]').all())await m.click();
   await box.locator('[data-restart]').click();assert.equal(await first.inputValue(),draft,'Recommencer ne doit pas effacer');
  }

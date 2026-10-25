@@ -49,6 +49,14 @@
         newPart:i>0&&(/^(Transition|Conclusion)/i.test(st)||/^(I|II|III)\.1\b/.test(st)||/^Transition/i.test(pv)||!/^(I|II|III)\.\d/.test(st))};
     });
   }
+  /* Modèles des parcours (HLP, brevet) : .ecrire-copy > .ecrire-paragraph > [data-model-text]. */
+  function parasEcrire(root){
+    if(!root.querySelector('.ecrire-paragraph'))return [{s:[].slice.call(root.querySelectorAll('[data-model-text]')).map(function(t){return t.innerHTML.trim();}),newPart:false}];
+    return [].slice.call(root.querySelectorAll('.ecrire-paragraph')).map(function(p,i){
+      return {s:[].slice.call(p.querySelectorAll('[data-model-text]')).map(function(t){return t.innerHTML.trim();}),newPart:false};
+    }).filter(function(p){return p.s.length;});
+  }
+
   function plainView(paras){
     var d=document.createElement('div');d.className='cm-plain';d.lang='fr';
     paras.forEach(function(p,i){
@@ -73,18 +81,19 @@
   function hideOldToggles(ids){
     [].slice.call(document.querySelectorAll('.dc20-toggle,.c20-toggle,.mr-toggle,.c20c-toggle,[data-annotations]')).forEach(function(t){
       var c=t.getAttribute('aria-controls');
-      if(!c||ids.indexOf(c)>-1){t.hidden=true;t.classList.add('cm-old');}
+      var ok=c?ids.indexOf(c)>-1:!!((t.closest('[data-model], details, section')||t.parentElement).querySelector('[data-cm]'));
+      if(ok){t.hidden=true;t.classList.add('cm-old');}
     });
   }
 
   function setup(root,kind){
     if(root.dataset.cm)return null;
-    var sentences=root.querySelectorAll(kind==='mr'?'.mr-phrase':'.c20-s');
-    if(sentences.length<MIN)return null;
+    var sentences=root.querySelectorAll(kind==='mr'?'.mr-phrase':kind==='ecrire'?'[data-model-text]':'.c20-s');
+    if(sentences.length<(kind==='ecrire'?1:MIN))return null;
     if(root.closest('.home-proof-gap,.c20-locked,[data-cm="off"]'))return null;
     root.dataset.cm='1';
     if(!root.id)root.id='cm-copie-'+(n++);
-    var paras=kind==='mr'?parasMr(root):parasC20(root);
+    var paras=kind==='mr'?parasMr(root):kind==='ecrire'?parasEcrire(root):parasC20(root);
     var plain=plainView(paras);plain.id=root.id+'-entiere';
     root.parentNode.insertBefore(plain,root);
     var b=bar(root.id);
@@ -92,6 +101,7 @@
     function mode(f){
       plain.hidden=f;root.hidden=!f;
       if(kind==='c20'){root.classList.remove('c20-plain');}
+      if(kind==='ecrire'){root.classList.remove('sans-annotations');}
       if(kind==='mr'){root.classList.toggle('mr-annotated',f);[].slice.call(root.querySelectorAll('.mr-note')).forEach(function(x){x.hidden=!f;});}
       root.classList.add('cm-detail');
       [].slice.call(b.children).forEach(function(x){x.setAttribute('aria-pressed',String((x.dataset.mode==='f')===f));});
@@ -122,6 +132,7 @@
   function init(){
     var ids=[];
     [].slice.call(document.querySelectorAll('.mr-texte')).forEach(function(r){var id=setup(r,'mr');if(id)ids.push(id);});
+    [].slice.call(document.querySelectorAll('.ecrire-copy:not(.c20)')).forEach(function(r){var id=setup(r,'ecrire');if(id)ids.push(id);});
     var roots=[].slice.call(document.querySelectorAll('.c20')).filter(function(r){return !r.closest('.model-commentary')&&!r.parentElement.closest('.c20');});
     /* copies sans conteneur .c20 : les sections du corrigé intégral et leurs transitions */
     var flat=document.getElementById('corrige-integral'),wrap=flat&&flat.closest('section');
