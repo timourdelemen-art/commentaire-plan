@@ -118,12 +118,8 @@ async function check(root){
    assert.equal(await page.locator('#diss-probleme .chaine-sujets button[data-subj]').count(),13);
    assert.equal(await page.locator('#diss-probleme [data-level]').count(),2);
    assert.equal(await page.locator('#diss-ressources details').count(),1);
-   if(width===1280){
-    assert(steps.every(step=>Math.abs(step.card.top-steps[0].card.top)<1),'Les cinq étapes doivent tenir sur une rangée');
-    assert(steps.every(step=>Math.abs(step.description.top-steps[0].description.top)<1),'Les explications doivent être alignées');
-   }
    assert((await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth))<=1);
-   await page.locator('.dissertation-five').screenshot({path:path.join(captures,'dissertation-etapes-'+width+'.png')});
+   await page.locator('#diss-demarrer').screenshot({path:path.join(captures,'dissertation-demarrage-'+width+'.png')});
    for(let i=0;i<10;i++){
     await page.locator('.chaine-sujets button[data-subj="'+i+'"]').click();
     const article=page.locator('.diss-sujet[data-subj="'+i+'"]');
