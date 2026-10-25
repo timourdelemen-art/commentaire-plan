@@ -92,7 +92,10 @@ async function journeys(page,name,width){
   for(let j=0;j<await partial.count();j++){await assert.doesNotReject(()=>partial.nth(j).waitFor({state:'visible'}));await partial.nth(j).locator('textarea').first().fill('Une justification précise, avec un appui du texte.');if(j+1<await partial.count())await box.locator('[data-next-step]').click();}
   await box.locator('[data-level="3"]').click();await box.locator('[data-panel="3"] textarea').first().fill('Ma rédaction complète, après les étapes préparatoires.');
   await box.locator('[data-compare]').click();assert.equal(await box.locator('[data-model]').getAttribute('open'),'');
-  await box.locator('[data-annotations]').click();assert.equal(await box.locator('.ecrire-copy.sans-annotations').count(),await box.locator('.ecrire-copy').count());await box.locator('[data-annotations]').click();
+  // Deux modes communs (copie-modes.js) : la copie entière, puis la fonction de chaque phrase, pour chaque modèle.
+  await box.locator('[data-model] .cm-bar').first().waitFor();assert.equal(await box.locator('[data-model] .cm-plain:visible').count(),await box.locator('.ecrire-copy').count());
+  for(const m of await box.locator('[data-model] .cm-mode[data-mode="f"]').all())await m.click();assert(await box.locator('[data-model] .c20-f, [data-model] .ecrire-annotation').first().isVisible());
+  for(const m of await box.locator('[data-model] .cm-mode[data-mode="e"]').all())await m.click();
   await box.locator('[data-restart]').click();assert.equal(await first.inputValue(),draft,'Recommencer ne doit pas effacer');
  }
  if(await boxes.count()){
@@ -106,7 +109,7 @@ async function journeys(page,name,width){
  if(name==='philosophie-troisieme-resolutions.html'){
   await page.locator('[data-piste]').first().click();await page.fill('#resolutions-note','La piste préserve les deux exigences, mais garde une difficulté précise.');await page.locator('#resolutions-model').click();assert((await page.locator('#resolutions-model-output').innerText()).includes('Une préférence'));await page.locator('#resolutions-change').click();await page.locator('[data-piste="2"]').click();await page.fill('#resolutions-conclusion','Une réponse, sa difficulté restante, et une nouvelle question.');
  }
- if(name.startsWith('philosophie-copie-20-')){const b=page.locator('.c20-toggle');if(await b.count()){await b.click();assert.equal(await b.innerText(),'Afficher les fonctions');await b.click();}}
+ if(name.startsWith('philosophie-copie-20-')){const b=page.locator('.cm-mode[data-mode="f"]');if(await b.count()){await b.first().click();assert.equal(await b.first().getAttribute('aria-pressed'),'true');assert(await page.locator('.c20-f').first().isVisible());await page.locator('.cm-mode[data-mode="e"]').first().click();}}
 }
 (async()=>{
  await new Promise(r=>server.listen(0,'127.0.0.1',r));const base='http://127.0.0.1:'+server.address().port+'/';const browser=await chromium.launch({headless:true});fs.mkdirSync(path.join(root,'browser-audit'),{recursive:true});

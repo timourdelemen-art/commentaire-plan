@@ -35,13 +35,18 @@ const server=http.createServer((req,res)=>{const p=decodeURIComponent(new URL(re
    await page.locator('[data-compare]').click();assert(await page.locator('[data-model]').evaluate(e=>e.open));
    const before=await page.locator('[data-model-text]').allTextContents();
    assert.equal(before.length,s.models.reduce((n,m)=>n+m.paragraphs.reduce((n,p)=>n+p[3].length,0),0));
-   assert.equal(await page.locator('.c20-f').count(),before.length);assert(await page.locator('.c20-f').first().isVisible());
-   assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),s.id+' débordement avec fonctions');
-   await page.locator('[data-annotations]').click();assert(!(await page.locator('.c20-f').first().isVisible()));
-   assert.deepEqual(await page.locator('[data-model-text]').allTextContents(),before);
-   assert.equal(await page.locator('.c20-s').first().evaluate(e=>getComputedStyle(e).display),'inline');
+   // Deux modes communs au site (copie-modes.js) : la copie entière par défaut, puis la fonction de chaque phrase.
+   assert.equal(await page.locator('.c20-f').count(),before.length);
+   await page.locator('[data-model] .cm-bar').first().waitFor();
+   assert(!(await page.locator('[data-model] .c20-f').first().isVisible()));
+   const entiere=(await page.locator('[data-model] .cm-plain p').allTextContents()).join(' ').replace(/\s+/g,' ').trim();
+   assert.equal(entiere,before.join(' ').replace(/\s+/g,' ').trim(),'La copie entière reprend exactement les phrases');
+   assert.equal(await page.locator('[data-model] .cm-plain p').first().evaluate(e=>getComputedStyle(e).textAlign),'justify');
    assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),s.id+' débordement sans fonctions');
-   await page.locator('[data-annotations]').click();assert(await page.locator('.c20-f').first().isVisible());
+   for(const b of await page.locator('[data-model] .cm-mode[data-mode="f"]').all())await b.click();
+   assert(await page.locator('[data-model] .c20-f').first().isVisible());
+   assert.deepEqual(await page.locator('[data-model-text]').allTextContents(),before);
+   assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),s.id+' débordement avec fonctions');
    // Tous les liens locaux du module résolvent une vraie page ou une ancre existante.
    const links=await page.locator('main a[href]').evaluateAll(as=>as.map(a=>a.getAttribute('href')));
    for(const href of links.filter(h=>!/^https?:/.test(h))){const u=new URL(href,base);assert((await page.request.get(u.href)).ok(),href);}

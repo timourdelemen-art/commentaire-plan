@@ -45,11 +45,14 @@ async function check(root){
         assert.equal(await page.locator('.correction-lock-note').count(),0,'La source n’exige aucune tentative préalable');
         await reference.locator('summary').click();
         assert(!functions.some(f=>/établissement|reprise du mot clé|l’acquis/i.test(f)));
-        const toggle=art.locator('.c20c-toggle');await toggle.focus();await page.keyboard.press('Enter');
-        assert.equal(await toggle.getAttribute('aria-expanded'),'false');
+        // Deux modes communs au site (copie-modes.js) : la copie entière, puis la fonction de chaque phrase.
+        const toggle=art.locator('.cm-mode[data-mode="f"]'),entiere=art.locator('.cm-mode[data-mode="e"]');await toggle.waitFor();
+        // L’ancre #phrase-par-phrase ouvre directement la vue annotée : on revient d’abord à la copie entière.
+        await entiere.click();assert.equal(await entiere.getAttribute('aria-pressed'),'true');
         assert.equal(await art.locator('.c20-f:visible').count(),0);
         assert(await art.locator(':scope > p').first().isVisible());
-        await toggle.click();assert.equal(await art.locator('.c20-f:visible').count(),expected.length);
+        await toggle.focus();await page.keyboard.press('Enter');
+        assert.equal(await toggle.getAttribute('aria-pressed'),'true');assert.equal(await art.locator('.c20-f:visible').count(),expected.length);
         await art.locator('.c20c-guide summary').click();assert(await art.locator('.c20c-guide p').first().isVisible());
         assert((await art.locator('.c20c-guide').innerText()).includes('L’effet ici'));
         await art.locator('.c20c-guide summary').click();
