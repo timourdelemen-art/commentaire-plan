@@ -51,14 +51,14 @@
       "conclusionQuestion": "Lorsque l’État détruit les voies par lesquelles on pouvait le corriger, comment lui résister sans abandonner l’exigence d’une justice commune ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 817
+        "words": 843
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "59f2780160793f072fd74b997fa108954cc088b51d8575579ed44d7c0d8f3c7d",
+      "copySha256": "e4b367283dd3a689e02755d1a5b4674913401e263e8b4546eb36f99b5ed4dfdd",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -123,14 +123,14 @@
       "conclusionQuestion": "Des convictions assez fortes pour unir les hommes peuvent-elles rester ouvertes à l’examen qui les a fondées ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 843
+        "words": 856
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "1b167199962f1b42c5b8e1142067856c9d27e56ef15329d7a4f10352e9ed4f11",
+      "copySha256": "2c4cc3f67eb62c019c2af231b9d4d74227883f8ddbee593697379750b7c41a5b",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -154,7 +154,7 @@
       ],
       "scene": {
         "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
-        "analysis": "Quand il le montre enfin, Porbus et le jeune Poussin ne voient qu’un amas confus de couleurs, d’où sort seulement, dans un coin, un pied d’une perfection vivante, alors que Frenhofer croyait avoir peint le tableau le plus parfait du monde.",
+        "analysis": "Le métier le plus sûr de son temps ne lui a pas donné l’œuvre, et ce qu’il a peint lui échappe au point qu’il ne le voit plus : savait-il ce qu’il faisait ?",
         "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
       },
       "candidates": [
@@ -195,14 +195,14 @@
       "conclusionQuestion": "Jusqu’où le savoir de l’artiste peut-il porter sur son œuvre, si celle-ci continue de prendre sens dans des regards qu’il ne dirige pas ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 687
+        "words": 725
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "b46c72d63571e12b859a9b87a0f8b1717e16e2acdd71da281773298911dbf3be",
+      "copySha256": "df76681b9745d1bc3c799e5223e46bc63dbb5b9c40b038d6c4773ffa8c93089f",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -226,13 +226,13 @@
       ],
       "scene": {
         "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
-        "analysis": "Un siècle plus tard, chaque GPS doit corriger l’heure de ses satellites selon ses équations, faute de quoi il se tromperait de plusieurs kilomètres par jour.",
+        "analysis": "Nul n’aurait pu commander cette découverte pour son usage ; mais, une fois trouvée, elle oblige le savant à répondre de ce qu’elle rend possible.",
         "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
       },
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "On peut ainsi laisser une recherche choisir ce qu’elle cherche, et examiner pourtant ses protocoles, ses dangers et ses moyens.",
+          "proposal": "On peut ainsi laisser une recherche choisir ce qu’elle cherche, et examiner pourtant ses protocoles, ses dangers et ses moyens. En 1974, des biologistes suspendent eux-mêmes certaines expériences sur l’ADN recombinant ; à Asilomar, en 1975, ils fixent les précautions qui permettent de les reprendre : la question reste libre, la pratique répond de ses dangers.",
           "preserves": [
             "Connaître le vrai pour lui-même, y compris sans usage prévisible",
             "Répondre de ce que ses vérités permettent de faire"
@@ -267,14 +267,14 @@
       "conclusionQuestion": "Qui a qualité pour juger une recherche que seuls ses pairs comprennent, au nom de tous ceux qu’elle engage ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 792
+        "words": 837
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "010776c24d860d2e6c9fbfdf2c8def7242eb00a93ccc78a5541e611427b3e262",
+      "copySha256": "faf7100e0a2efddc1e5ee7ecc74b9e76729503cd7965f1b80eb02ceb65ed673e",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -339,14 +339,14 @@
       "conclusionQuestion": "Lorsque la souffrance vient d’une perte réelle que comprendre ne supprime pas, comment la lucidité peut-elle encore contribuer au bonheur ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 678
+        "words": 710
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "e96a67e570086cbc465e501b07fa9253656f64ab4fff82780526a59e77d5cab9",
+      "copySha256": "af44284863573e67e4539cc213f23a85ac77d63b0a0db925835b536badcfab3f",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -411,14 +411,14 @@
       "conclusionQuestion": "Une pensée nouvelle peut-elle devenir commune avant que les mots qui la disent soient compris ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 707
+        "words": 718
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "72bd25f4d52687ef70b9dc1043c4f8dea6cb49e4fbbdd06d4bcdd8f3782ab3b8",
+      "copySha256": "71f445e89a919f3302340b59aa9a96b1b3e96e5e274d0ce4361c7be45ff643c2",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -483,14 +483,14 @@
       "conclusionQuestion": "Doit-on répondre d’un mal que nos meilleures raisons ne permettaient pas de prévoir ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 760
+        "words": 769
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "065d0f2661ef503eaba1d6a55a0a4e55282574e84e3f18c38f53dc4c725135b8",
+      "copySha256": "d269adb613561b8f0723fa6d50a0489d54ddaa4c0b73085d9172f8d770572333",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -555,14 +555,14 @@
       "conclusionQuestion": "Au nom de quoi choisir le milieu à restaurer, si ce ne doit pas être au nom de nos seules préférences ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 744
+        "words": 746
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "00ec0d04c29b454c25f6cdd2500c814a594dd8e15d66c2cae2b3d800ade6f75f",
+      "copySha256": "f085d0f399bb221e9fe947e3f9acf74c7c3b4cc10e0b79779a5a5dc947f523c3",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -627,14 +627,14 @@
       "conclusionQuestion": "Que doit changer celui dont le bonheur dépend d’une injustice, pour que son souci d’autrui ne demeure pas une simple bonne conscience ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 714
+        "words": 719
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "fd6eacc17bb68f73ebeef5e1fb23b0f7036f57c954f967225ff8936c42e5842b",
+      "copySha256": "2ad64a2330d628edd85dd3e6afa9697e97db422fbeed83577d6421b499719a16",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -699,14 +699,14 @@
       "conclusionQuestion": "Comment répondre d’une parole dont on peut corriger le sens, mais dont on ne peut plus réparer tous les effets ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 649
+        "words": 655
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "970dd1c3536a614eaaa64f3a83b0b2d81f741c5d16229fbb16f479746eaa38ec",
+      "copySha256": "c5489c79ce9b9517a47b09e65016749babc702df4e6e45aa1ee6f83f00ecbe37",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -771,14 +771,14 @@
       "conclusionQuestion": "Comment attribuer une responsabilité juste lorsque la connaissance de ce qui a déterminé l’acte demeure incomplète ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 754
+        "words": 761
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "e40baef07daa6810c0b80ea0d6d7a349629bca1f1c9eeae02f947ab68e8bdebe",
+      "copySha256": "2410e9f63c574d79fcf6308669b9089499558b78df3809c902d05a1da5873f4f",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -843,14 +843,14 @@
       "conclusionQuestion": "Quand la fidélité exige de renoncer à ce que l’on est devenu, comment juger si elle accomplit encore la liberté ou la sacrifie ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 722
+        "words": 732
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "3415d1c95716cb0361fa075dcf9a1508eb1e29729d80e10c5fea51e16eb86bc2",
+      "copySha256": "5e0904087439762d81c7bd976f682e7856aba7664cb67c0a954ecadf050a2dc6",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -1059,14 +1059,14 @@
       "conclusionQuestion": "À quelles conditions ce que le temps permet de créer peut-il donner sens à une perte, sans prétendre la réparer ni la justifier ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 773
+        "words": 768
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "5e2ff58816e6e66dc782639b3175d3b888b6650c1c9d6cc32c798850916441b2",
+      "copySha256": "775d53f9f023db8090c464968c3262c3043ea861503144de4f1a70d27b92b916",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -1203,14 +1203,14 @@
       "conclusionQuestion": "Quand protéger quelqu’un exige de rompre une confiance légitime, comment justifier ce que l’on révèle sans abolir le devoir de discrétion ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 735
+        "words": 739
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "fe8eb6798ce9fb7270c71e8ca7af0d25f21553038431aec647b117de3b4c662f",
+      "copySha256": "b81a3b286def5854cc9b02dfb1c5388290d56f50e4f9b78fca58b93d380d0832",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -1275,7 +1275,7 @@
       "conclusionQuestion": "Lorsque toute vérification est refusée, comment défendre la vérité sans confondre la conviction rationnelle avec une adhésion imposée ?",
       "economy": {
         "principle": "Préserver raisons, objection et réponse avant de supprimer une phrase.",
-        "words": 622
+        "words": 625
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
@@ -1289,7 +1289,7 @@
         "title": "La vérité est-elle toujours convaincante ?",
         "sourceDocument": "Document officiel de la session 2025, libellé contrôlé page 2 ; index ministériel lié dans la page."
       },
-      "copySha256": "76559493fa4a1f82f96832c0e598705d883eb397d63bf2480686ba0653d7ce92",
+      "copySha256": "9594594076a4032bc7ea4421aeea6745bb6fe0e966de248ded7719df3b3bd6da",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -1433,7 +1433,7 @@
       "conclusionQuestion": "Qu’apporte une forme artistique à l’expression d’une expérience, que le récit ordinaire et la conversation ne peuvent pas toujours lui donner ?",
       "economy": {
         "principle": "Préserver raisons, objection et réponse avant de supprimer une phrase.",
-        "words": 580
+        "words": 586
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
@@ -1447,7 +1447,7 @@
         "title": "Avons-nous besoin d’art ?",
         "sourceDocument": "Document officiel de la session 2025, libellé contrôlé page 2 ; index ministériel lié dans la page."
       },
-      "copySha256": "c25a9323d3033c8c3a4f03dc5469ddce0b54e496da16fb9e43f410590076f34f",
+      "copySha256": "26422d750085e36fa4a40a3e3f13034035da87e71e8cc87b9609f082459b54f1",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [

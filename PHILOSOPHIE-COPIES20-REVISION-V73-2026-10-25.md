@@ -351,3 +351,23 @@ Sur l’ensemble : 15562 → 15629 mots.
 **Contrôle des redites par script** (suites de cinq mots identiques dans une même copie) : il ne reste que des reprises voulues (mot clé de la transition repris en tête de partie, mots des pertes repris dans la problématique, citation de la scène reprise en conclusion).
 
 **Longueur finale.** Les vingt copies sont plus courtes que les originales : 15 562 → 14 499 mots (−6,8 %), 725 mots en moyenne, de 580 à 843.
+
+## Cinquième passe : exemples, auteurs, exercices
+
+**Exemples (S. Merle, *La méthode de l’exemple*, Ellipses, 2025).** Règles retenues : l’exemple éprouve une idée, il ne la prouve pas ; il est classique, général et varié ; il suit l’ordre idée → exemple → conséquence ; l’exemple d’introduction porte déjà la tension ; un exemple repris change de point de vue. Changements :
+- *Science* : la scène (relativité devenue GPS) montrait une utilité imprévue, donc donnait raison au « non ». Elle devient Einstein en 1905, puis la lettre à Roosevelt de 1939 : la même découverte, faite sans visée d’usage, oblige le savant à répondre de ce qu’elle rend possible. La scène porte ainsi les deux exigences, et la conclusion y revient. Exemple d’Asilomar (1974-1975) en III.2 : la question reste libre, la pratique répond de ses dangers.
+- *Artiste* : la phrase de scène (Frenhofer) dit désormais le problème sans le résoudre.
+- *Religion* : I.1 remplace une statistique par Bayle (*Pensées diverses sur la comète*, 1682), qui établit que l’idée d’une société d’athées n’a rien de contradictoire.
+- *Langage* : exemple vague (« des mots absents ») remplacé par les deux bleus du russe, *goluboï* et *siniï*.
+- *Inconscient et bonheur* : II.2 s’appuie sur Aristote (une hirondelle ne fait pas le printemps, *Éthique à Nicomaque*, I, 1098a), qui fonde la durée du bonheur, donc le besoin de lucidité.
+- *État* : III.2 réfute l’objection du « jugement privé » par Rawls (*Théorie de la justice*, § 55) ; Rosa Parks devient l’exemple de cette définition.
+- À surveiller : *Sully* (2009) et *Matrix* (1999) restent récents au regard de la règle de classicisme ; conservés parce qu’ils portent la tension de leur sujet.
+
+**Auteurs (V7.3, 8.1, 8.3, 8.4).** Chaque référence a été relue face à l’opération qu’elle accomplit (fonder, pousser, limiter, objecter, transformer) ; aucune n’est décorative. Ajouts : Hobbes (I.2), Thoreau (II.2), Rawls (III.2) pour l’État ; Bayle et Kant (Fondements, II) pour la religion ; Kant (CFJ, § 46) et Alain (*Système des beaux-arts*, I, 7) pour l’artiste ; Descartes (*Discours*, VI) et Nietzsche (*Humain, trop humain*, § 635) pour la science ; Aristote et Épicure (*Lettre à Ménécée*, 124-125) pour le bonheur. Références précisées partout ailleurs (livre, partie, chapitre ou paragraphe).
+
+**Citations.** Seules restent entre guillemets les phrases vérifiées mot à mot dans une édition numérique : Descartes (« une pratique », « nous rendre comme maîtres et possesseurs de la nature »), Alain (« l’idée lui vient à mesure qu’il fait », « spectateur aussi de son œuvre en train de naître »), Molière (*Dom Juan*, I, 2, FreDraCor), Ronsard (« Mignonne », « marâtre Nature »). Les autres auteurs sont paraphrasés sans guillemets.
+
+**Exercices.**
+- *Trouver le problème* : plus aucun « risque » ; les problématiques et justifications parlent de pertes. QCM rééquilibrés : la bonne réponse était la plus longue dans 59 étapes sur 59, elle l’est dans 15 (distracteurs allongés par une erreur plausible, justifications inchangées ou ajustées).
+- *Plan pas à pas* : les dix sujets adossés aux copies sont régénérés depuis les copies révisées (bonnes réponses, transitions, troisième partie, question finale). Les justifications internes affichées aux élèves (« Cette proposition reprend l’argument de la copie révisée… », 98 occurrences, et « Une piste à examiner : … », 9) sont remplacées par une explication du geste propre à chaque étape. Les propositions concurrentes de la troisième partie sont réécrites en phrases, avec ce qu’elles laissent. La bonne réponse est la plus longue dans 34 étapes sur 129 (88 auparavant) ; ce sont surtout les références (I.2, II.2), où la longueur tient à l’œuvre citée.
+- *Plan pas à pas*, affichage : les sujets en version 3 montraient « undefined » au lieu des repères (I.1, I.2…) et perdaient les transitions et la conclusion dans le plan construit ; corrigé (`philosophie-plan.js`).

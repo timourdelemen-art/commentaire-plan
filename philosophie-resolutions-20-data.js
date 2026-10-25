@@ -189,7 +189,7 @@ window.PHILO_RESOLUTION_CASES={
       "solutions": [
         {
           "id": "retenue",
-          "title": "On peut ainsi laisser une recherche choisir ce qu’elle cherche, et examiner pourtant ses protocoles, ses dangers et ses moyens.",
+          "title": "On peut ainsi laisser une recherche choisir ce qu’elle cherche, et examiner pourtant ses protocoles, ses dangers et ses moyens. En 1974, des biologistes suspendent eux-mêmes certaines expériences sur l’ADN recombinant ; à Asilomar, en 1975, ils fixent les précautions qui permettent de les reprendre : la question reste libre, la pratique répond de ses dangers.",
           "keeps": [
             "Connaître le vrai pour lui-même, y compris sans usage prévisible",
             "Répondre de ce que ses vérités permettent de faire"
@@ -296,7 +296,7 @@ window.PHILO_RESOLUTION_CASES={
       },
       "second": {
         "idea": "Nous inventons des mots, nous sentons ce que la langue ne dit pas encore, nous traduisons d’une langue à l’autre : nous ne la subissons pas, nous la déplaçons.",
-        "limit": "Hegel, dans l’Encyclopédie, juge que l’ineffable n’est qu’une pensée encore obscure : hors des mots, la pensée ne gagne pas en liberté, elle perd en clarté."
+        "limit": "Hegel, dans l’Encyclopédie (§ 462), juge que l’ineffable n’est qu’une pensée encore obscure : hors des mots, la pensée ne gagne pas en liberté, elle perd en clarté."
       },
       "solutions": [
         {
