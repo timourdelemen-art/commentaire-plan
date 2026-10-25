@@ -13,7 +13,8 @@
   const extra=document.createElement("div");
   extra.className="annales-discovery filters";
   extra.innerHTML='<label>Auteur <select id="annales-author"><option value="all">Tous les auteurs</option>'+authorOptions+'</select></label> <label>Œuvre <select id="annales-work"><option value="all">Toutes les œuvres</option></select></label> <button type="button" id="annales-reset">Effacer les filtres</button> <p id="annales-count" role="status" aria-live="polite"></p>';
-  controls?.insertAdjacentElement("afterend",extra);
+  if(!controls)return;
+  controls.insertAdjacentElement("afterend",extra);
   // L'accès aux filtres n'exige pas de parcourir les archives par année.
   // Déplacer le bloc interactif existant, sans le dupliquer.
   const frenchSection=document.getElementById("bac");
