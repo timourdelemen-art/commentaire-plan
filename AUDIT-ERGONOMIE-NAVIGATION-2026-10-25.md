@@ -117,3 +117,24 @@ Unité d'audit : **l'exercice effectif**, pas seulement la page d'accueil. Chaqu
 - Soumettre les modifications dans cette branche avant toute fusion en production.
 
 **Statut : audit transversal engagé, conformité globale non démontrée.**
+
+## Changements d'interface effectués sur la branche
+
+- `bac-dissertation.html` : accès directs vers sujets par œuvre, exercice, méthode et copie annotée.
+- `philosophie.html` : accès directs vers dissertation, explication, exercices et annales.
+- `philosophie-explication.html` : accès directs vers textes, méthode et sources.
+- `brevet-redaction.html` : accès directs vers imagination, réflexion, sujets et outils.
+- `annales.html` : accès directs vers index des sujets de français, entraînements, dissertations par œuvre et mode examen.
+
+Les raccourcis emploient la classe CSS existante `annales-jump` ; aucune nouvelle charte graphique ni nouvelle offre commerciale n'est introduite.
+
+**Attention :** sur `annales.html`, « Choisir un auteur ou une œuvre » renvoie pour le moment à l'index statique, qui n'est pas encore filtrable. L'intitulé décrit une liste à parcourir, pas un sélecteur déjà fonctionnel. Le filtre auteur/œuvre reste à développer. L'ancre `#annalesControls` pointe sur les filtres existants en bas de page.
+
+### Contrôles requis avant fusion
+1. Lancer `node scripts/seo-build.js` et vérifier qu'il conserve les raccourcis et synchronise les menus.
+2. Lancer les tests Playwright du dépôt, puis contrôler chaque nouvelle ancre.
+3. Tester les raccourcis sur petit écran et au clavier.
+4. Mesurer les chemins « arrivée → choix → premier exercice », sans surcharge de l'écran initial.
+5. Ne pas annoncer de correction IA lorsque le mécanisme est absent.
+
+**Aucune preuve de réussite de ces tests n'est encore enregistrée.**
