@@ -36,7 +36,7 @@ jobs:
           git ls-files -co --exclude-standard | tar -cf - -T - | tar -xf - -C "$B"
           cd "$B"
           eval "$(sed -n 's/^ *command = "\(.*\)"/\1/p' netlify.toml)"
-      - name: Contrôler les pages à 390 et 1280 pixels
+      - name: Contrôler les pages à 390, 768 et 1280 pixels
         run: |
           node scripts/check-browser-pages.cjs "$BUILD_DIR"
           node scripts/check-browser-hlp.cjs "$BUILD_DIR"

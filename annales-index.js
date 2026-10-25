@@ -25,7 +25,7 @@
     discovery.className="guided-section";
     discovery.id="annales-recherche";
     discovery.setAttribute("aria-label","Trouver un entraînement dans les annales");
-    discovery.innerHTML='<h3>Trouver un entraînement par auteur ou par œuvre</h3><p>Choisissez un sujet puis ouvrez les exercices disponibles. Les sujets officiels restent accessibles ci-dessous.</p>';
+    discovery.innerHTML='<h3 id="annales-discovery-title">Trouver un entraînement de français</h3><p>Choisissez un auteur ou une œuvre, puis ouvrez les exercices disponibles. Les archives officielles restent accessibles ci-dessous.</p>';
     frenchSection.insertBefore(discovery,staticIndex);
     discovery.append(controls,extra,host);
     // Les liens historiques vers les filtres continuent de viser leur identifiant déplacé.
@@ -69,6 +69,8 @@
     });
   }
   function render(){
+    const heading=document.getElementById("annales-discovery-title");
+    if(heading)heading.textContent=filter==="brevet"?"Entraînements du brevet":filter==="all"?"Tous les entraînements disponibles":filter==="free"?"Entraînements gratuits":filter==="premium"?"Entraînements en accès complet":"Trouver un entraînement de français";
     const list=items.filter(x=>(filter==="all"||(filter==="bac"&&x.examen==="Bac")||(filter==="brevet"&&x.examen==="Brevet")||x.access===filter)&&((filter==="brevet"||filter==="all")||((author==="all"||x.auteur===author)&&(work==="all"||x.oeuvre===work))));
     extra.querySelector("#annales-count").textContent=list.length+" sujet"+(list.length>1?"s":"")+" disponible"+(list.length>1?"s":"");
     if(!list.length){host.innerHTML='<p role="status">Aucun sujet pour ces critères. Essayez un autre auteur ou effacez les filtres.</p>';return;}
