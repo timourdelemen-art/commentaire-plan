@@ -138,3 +138,11 @@ Les raccourcis emploient la classe CSS existante `annales-jump` ; aucune nouvell
 5. Ne pas annoncer de correction IA lorsque le mécanisme est absent.
 
 **Aucune preuve de réussite de ces tests n'est encore enregistrée.**
+
+## Implémentation initiale du filtre auteur / œuvre
+
+`annales-index.js` a été modifié dans cette branche pour ajouter des listes auteur et œuvre issues du catalogue `ANNALES_CATALOGUE`, une remise à zéro, un compteur de résultats et un état vide. Le catalogue s'ouvre par défaut sur Bac, avec tous les auteurs et toutes les œuvres. Le changement vers Brevet réinitialise les filtres de français.
+
+**Limites connues :** les filtres ne couvrent que le catalogue interactif et non la liste statique des fiches de commentaire ni les annales externes ; les catégories « exercices » et « corrigé vérifié » ne sont pas encore indexées. Aucun test navigateur ni build complet n'a été exécuté. Il reste à vérifier les CSS des contrôles et l'accessibilité mobile. Les données des œuvres ne doivent pas être confondues avec les titres de sujets de dissertation.
+
+**Suite nécessaire :** inventaire exhaustif des pages, classification des exercices, contrôles IA et intégration d'un sélecteur commun sans doublonner les données.
