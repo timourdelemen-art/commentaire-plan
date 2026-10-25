@@ -47,11 +47,11 @@
     ].map(([k,l])=>"<button class='filter"+(k==="bac"?" active":"")+"' data-f='"+k+"'>"+l+"</button>").join("");
     controls.querySelectorAll("button").forEach(b=>b.onclick=()=>{
       controls.querySelectorAll("button").forEach(x=>x.classList.remove("active"));
-      b.classList.add("active"); filter=b.dataset.f; if(filter==="brevet"){author="all";work="all";authorSelect.value="all";updateWorks();} render();
+      b.classList.add("active"); filter=b.dataset.f; if(filter==="brevet"){author="all";work="all";authorSelect.value="all";updateWorks();} extra.querySelectorAll("label").forEach(el=>el.hidden=filter==="brevet"); render();
     });
   }
   function render(){
-    const list=items.filter(x=>(filter==="all"||(filter==="bac"&&x.examen==="Bac")||(filter==="brevet"&&x.examen==="Brevet")||x.access===filter)&&(author==="all"||x.auteur===author)&&(work==="all"||x.oeuvre===work));
+    const list=items.filter(x=>(filter==="all"||(filter==="bac"&&x.examen==="Bac")||(filter==="brevet"&&x.examen==="Brevet")||x.access===filter)&&((filter==="brevet")||((author==="all"||x.auteur===author)&&(work==="all"||x.oeuvre===work))));
     extra.querySelector("#annales-count").textContent=list.length+" sujet"+(list.length>1?"s":"")+" disponible"+(list.length>1?"s":"");
     if(!list.length){host.innerHTML='<p role="status">Aucun sujet pour ces critères. Essayez un autre auteur ou effacez les filtres.</p>';return;}
     host.innerHTML=list.map(x=>`<article class="annale corpus-card">
