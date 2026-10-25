@@ -89,3 +89,31 @@ La navigation par auteur/œuvre est absente du filtre interactif alors que les d
 - Aucun changement de la navigation principale.
 
 **Statut : proposition argumentée, pas encore de modification fonctionnelle.**
+
+## Nouveau chantier transversal — progression pédagogique obligatoire à auditer
+
+Demande : vérifier sur **tous les devoirs** du brevet, du français et de philosophie la progression **niveau 1 : réponses cliquables avec justification → niveau 2 : rédaction dans des champs et retour adapté, éventuellement IA**. Ne pas présumer que tout champ écrit possède une correction IA effective. Le niveau cliquable doit toujours être proposé avant la rédaction autonome, tout en permettant un accès direct au niveau avancé pour les utilisateurs expérimentés.
+
+### Premiers constats vérifiés sur le code
+- `commentaire-pas-a-pas.html` annonce déjà trois niveaux, du choix cliquable au plan autonome. Son interface est rendue par JavaScript ; le HTML seul ne suffit pas à certifier la progression réelle.
+- `bac-dissertation.html` contient des boutons `data-level="1"` et `data-level="2"` dans un exercice, correspondant à « Au clic » puis « J'écris ».
+- `philosophie-dissertation-entrainement.html` présente des exercices écrits et un sommaire par geste, mais aucune balise `data-level` repérée dans son HTML. Il faut examiner les scripts avant de conclure qu'aucune phase cliquable n'existe.
+- `brevet-redaction.html` est une porte d'entrée vers imagination et réflexion ; l'absence de boutons de choix dans cette page ne prouve rien sur ses sous-parcours.
+
+### Règle de conception
+Unité d'audit : **l'exercice effectif**, pas seulement la page d'accueil. Chaque exercice doit documenter :
+1. Un choix cliquable portant sur la même compétence que l'étape rédigée.
+2. Une justification pédagogique de la réponse, et non un simple verdict vrai/faux.
+3. Une transition explicite « Maintenant, écrivez vous-même ».
+4. Un champ de rédaction et un retour réellement implémenté ; indiquer honnêtement « correction modèle », « retour automatisé » ou « retour IA ».
+5. La conservation des réponses lorsque le mécanisme existe ; aucune promesse de sauvegarde fictive.
+
+### Plan de déploiement sans changement esthétique
+- Inventorier toutes les pages d'exercice et leurs scripts ; établir une matrice Brevet / Français / Philosophie.
+- Identifier les exercices déjà conformes, partiellement conformes et dépourvus de niveau 1.
+- Généraliser les mécanismes existants plutôt que remplacer les exercices.
+- Préserver la charte CSS, les intitulés scolaires et les accès rapides.
+- Tester la progression de bout en bout, y compris les cas de retour IA indisponible.
+- Soumettre les modifications dans cette branche avant toute fusion en production.
+
+**Statut : audit transversal engagé, conformité globale non démontrée.**
