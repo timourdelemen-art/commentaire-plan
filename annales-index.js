@@ -27,6 +27,7 @@
     discovery.innerHTML='<h3>Trouver un entraînement par auteur ou par œuvre</h3><p>Choisissez un sujet puis ouvrez les exercices disponibles. Les sujets officiels restent accessibles ci-dessous.</p>';
     frenchSection.insertBefore(discovery,staticIndex);
     discovery.append(controls,extra,host);
+    // Les liens historiques vers les filtres continuent de viser leur identifiant déplacé.
     if(!guided.querySelector(".filters, .corpus-index"))guided.remove();
   }
   extra.querySelectorAll("select").forEach(el=>el.setAttribute("aria-label",el.id==="annales-author"?"Filtrer par auteur":"Filtrer par œuvre"));
