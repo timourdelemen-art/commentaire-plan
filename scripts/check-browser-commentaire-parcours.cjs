@@ -112,18 +112,12 @@ async function check(root){
     }
    }
    await page.goto(base+'bac-dissertation.html');
-   await page.locator('.dissertation-five').scrollIntoViewIfNeeded();
-   const steps=await page.locator('.dissertation-five>article').evaluateAll(cards=>cards.map(card=>{
-    const rect=el=>{const r=el.getBoundingClientRect();return {left:r.left,right:r.right,top:r.top,bottom:r.bottom};};
-    return {card:rect(card),title:rect(card.querySelector('h3')),description:rect(card.querySelector('p')),overflow:card.scrollWidth-card.clientWidth};
-   }));
-   assert.equal(steps.length,5);
-   for(const step of steps){
-    assert(step.overflow<=1,'Une étape déborde horizontalement');
-    assert(step.title.bottom+10<=step.description.top,'Le titre et son explication se recouvrent');
-    assert(step.description.left>=step.card.left+15&&step.description.right<=step.card.right-15,'Marges insuffisantes autour des explications');
-    assert(step.description.bottom<=step.card.bottom-20,'Explication en dehors de son bloc');
-   }
+   // L'ancienne grille descriptive a été remplacée par une entrée active.
+   // Contrôler le parcours réellement présenté plutôt que l'élément supprimé.
+   assert.equal(await page.locator('#diss-demarrer').count(),1);
+   assert.equal(await page.locator('#diss-probleme .chaine-sujets button[data-subj]').count(),13);
+   assert.equal(await page.locator('#diss-probleme [data-level]').count(),2);
+   assert.equal(await page.locator('#diss-ressources details').count(),1);
    if(width===1280){
     assert(steps.every(step=>Math.abs(step.card.top-steps[0].card.top)<1),'Les cinq étapes doivent tenir sur une rangée');
     assert(steps.every(step=>Math.abs(step.description.top-steps[0].description.top)<1),'Les explications doivent être alignées');
