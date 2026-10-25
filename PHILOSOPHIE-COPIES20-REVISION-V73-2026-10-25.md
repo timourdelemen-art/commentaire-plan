@@ -43,7 +43,69 @@ Chaque copie garde sa scène, son plan, ses références, sa troisième partie r
 - **QCM du plan pas à pas** : dans 17 étapes « limite » sur 19, la bonne réponse était déjà la plus longue avant cette révision ; c’est inchangé (règle du § 2 d’AGENTS.md à reprendre dans une PR dédiée).
 - **Second audit** : la V7.3 interdit à l’opérateur de se déclarer validé. Chaque copie porte le statut « état de travail ». À auditer en priorité : la seconde branche de *Avons-nous besoin d’art ?* (forme « condition renversée », P5) et la T2 de *Ce qui est techniquement possible…* (présupposé « juger la puissance en bloc »).
 
-## Détail par copie
+
+## Seconde passe (même jour) : rendre l’ensemble cohérent
+
+La première passe avait laissé un décalage : la transition II → III nommait désormais ce que les deux réponses supposaient, mais la troisième partie ne le transformait pas encore. La seconde passe applique ce que la première avait laissé de côté.
+
+1. **Cumul et meilleur cas écrits** (3.4.9, 3.4.7), pour chaque copie, dans le registre (`protocol.cumul`, `protocol.meilleurCas`) : on montre pourquoi le simple partage « l’une ici, l’autre là » échoue tant que l’évidence commune n’est pas transformée. Aucune aporie n’est tombée au test ; elles sont recopiées ci-dessous.
+2. **III.1 transforme ce que la transition a nommé** (mini-protocole D7). Chaque III.1 répond directement à la question de la transition, en reprenant son mot clé, et dit ce qui change ; elle ne se contente plus de « garder les deux acquis ». Fonction en marge : « ce que les deux réponses supposaient, transformé ».
+3. **L’objection décisive est réfutée en III.2** (D8) quand elle manquait : Rosa Parks (État), Durkheim (religion), Alain (artiste), le contrôle des moyens (science), la métaphore (langage), Weber (bien agir).
+4. **La conclusion nomme le gain** (C2) : les vingt réponses au sujet disent maintenant, dans les termes du sujet, ce qui a changé (« l’utilité n’est plus sa fin, mais sa responsabilité »). Quatre retours à la scène sont réécrits parce que le développement en change la lecture (Rosa Parks, Frenhofer, Cypher, Phèdre) ; les autres sont gardés.
+5. **Fondations corrigées.** *La science* : le passage du fait (« on finance les sciences parce qu’elles servent ») au droit est remplacé par une prémisse normative (« une activité qui engage les moyens de tous doit pouvoir répondre de ce qu’elle apporte à tous »). *L’artiste* : l’étymologie de *ars* ne fondait rien ; I.2 établit que l’auteur doit pouvoir répondre de son œuvre, ce qui pose comme évidence le savoir préalable.
+6. **Deux propositions retenues changent de phrase** dans le registre (État : la contestation qui en appelle à la règle commune ; art : l’accès ouvert sans objets prescrits), la précédente étant passée en III.1.
+
+**Copie nue et copie annotée** (mini-protocole, livrables A et B) : elles existent déjà sur le site, puisque chaque copie s’affiche avec ses fonctions en marge et que le bouton « Masquer les fonctions » donne la copie nue.
+
+**Scènes** (9.1) : aucune n’est contraire au plan. Deux restent à surveiller comme partiellement illustratives : Frenhofer montre surtout l’échec du savoir préalable, et la relativité d’Einstein surtout la perte de la première réponse.
+
+### Longueurs finales (copie d’origine → après les deux passes)
+- 2026-ag-etat-injustice : 823 → 835 mots
+- 2026-ag-humanite-religion : 878 → 860 mots
+- 2026-an-artiste-sait : 694 → 715 mots
+- 2026-an-science-utile : 804 → 833 mots
+- 2026-asie-inconscient-bonheur : 730 → 716 mots
+- 2026-asie-langage : 776 → 772 mots
+- 2026-g1-bien-agir : 804 → 814 mots
+- 2026-g1-nature-besoin : 785 → 773 mots
+- 2026-me-bonheur-autres : 789 → 782 mots
+- 2026-me-paroles : 748 → 761 mots
+- notion-inconscient : 842 → 837 mots
+- notion-liberte : 765 → 749 mots
+- notion-raison : 810 → 808 mots
+- notion-technique : 858 → 849 mots
+- notion-temps : 839 → 845 mots
+- notion-travail : 820 → 816 mots
+- notion-verite : 861 → 834 mots
+- 2025-me-verite : 625 → 670 mots
+- 2025-me-avenir-technique : 636 → 669 mots
+- 2025-me-besoin-art : 675 → 691 mots
+
+Sur l’ensemble : 15562 → 15629 mots.
+
+### Cumul et meilleur cas, copie par copie
+- **2026-ag-etat-injustice** — cumul : « L’État garantit, les citoyens contestent » : sous le présupposé, contester, c’est décider du juste à la place de la loi ; si ce jugement l’emporte, la loi n’oblige plus que ceux qui l’approuvent (branche 2), s’il ne l’emporte pas, l’État garde le dernier mot (branche 1). Le cumul n’est possible qu’après la transformation : la contestation qui en appelle à la règle commune. Meilleur cas : Dans un État aux lois justes, l’obéissance fait le juste par la chance des lois, sans que personne puisse les juger ; entre citoyens sincères, le désaccord de bonne foi subsiste. Les deux pertes survivent.
+- **2026-ag-humanite-religion** — cumul : « La raison pour le savoir, la religion pour le lien » : sous le présupposé, le lien exige une croyance qu’on n’examine pas, alors que la raison examine tout ; les deux domaines portent sur le même objet, les croyances qui unissent. Le cumul est exclu. Meilleur cas : Une humanité de croyants tolérants reste unie par ce qu’elle ne met pas en doute ; une humanité d’esprits rationnels de bonne foi n’a toujours pas, sous le présupposé, de quoi les relier.
+- **2026-an-artiste-sait** — cumul : « Le métier pour l’exécution, le génie pour l’invention » : sous le présupposé, l’artiste ne sait que ce qu’il sait d’avance ; il est donc l’auteur de ce qui n’est pas nouveau, et le nouveau reste sans auteur. Le cumul reconduit aux deux branches. Meilleur cas : Le plus grand métier ne contient pas l’œuvre nouvelle (Frenhofer) ; le génie le plus sûr ne sait pas dire comment il produit (Kant). Les deux pertes survivent.
+- **2026-an-science-utile** — cumul : « Recherche fondamentale libre, recherche appliquée utile » : sous le présupposé, tracer la frontière exige de juger chaque recherche par son utilité prévisible, ce que la première réponse refuse ; et la part libre ne répond toujours pas des pouvoirs qu’elle donne. Le cumul est exclu. Meilleur cas : Une société qui financerait sans calcul laisserait encore la recherche sans répondre de ses expériences ; une recherche commandée par des besoins bien choisis perdrait encore les vérités sans usage connu.
+- **2026-asie-inconscient-bonheur** — cumul : « Ignorer ce qu’on ne peut changer, connaître ce qu’on peut prévenir » : pour trier les menaces, il faut les connaître toutes ; sous le présupposé, c’est déjà les craindre. Le cumul suppose le savoir qu’il voulait éviter. Meilleur cas : Un insouciant que rien ne frappe n’est heureux que par chance ; un lucide qui peut agir sur tout reste, sous le présupposé, inquiet de ce qu’il voit.
+- **2026-asie-langage** — cumul : « Prisonniers de la langue reçue, libres dans son usage » : sous le présupposé, une liberté qui s’exerce encore dans la langue n’est pas une liberté, et savoir la langue une prison exige toujours un dehors. Le cumul reconduit aux deux branches. Meilleur cas : Le meilleur écrivain parle encore avec des mots reçus ; la meilleure pensée ne gagne rien à se passer de mots (Hegel). Les deux pertes survivent.
+- **2026-g1-bien-agir** — cumul : « L’intention juge l’agent, les effets jugent l’acte » : sous le présupposé, être certain d’avoir bien agi exige les deux savoirs complets ; or ces deux verdicts partiels peuvent se contredire, et aucun ne donne la certitude demandée. Le cumul est exclu. Meilleur cas : Le plus sincère ignore encore ses vrais motifs (Kant) ; la décision la mieux pesée dépend encore d’effets qui arrivent après elle (le coup de vent). Les deux pertes survivent.
+- **2026-g1-nature-besoin** — cumul : « Laisser faire les grands processus, protéger les espèces menacées » : sous le présupposé, protéger, c’est diriger ; les milieux protégés deviennent des jardins, et l’on juxtapose friche et jardin sans sauver nulle part un milieu qui se fasse sans nous. Le cumul est exclu. Meilleur cas : Une nature laissée à elle-même reste livrée aux causes de destruction que nous maintenons ; la protection la plus savante reste, sous le présupposé, une direction.
+- **2026-me-bonheur-autres** — cumul : « Serein pour soi, compatissant pour les autres » : sous le présupposé, compatir, c’est souffrir ; chaque moment de compassion détruit la sérénité, et la sérénité exige de ne plus être touché. Le cumul reconduit aux deux branches. Meilleur cas : Le sage le plus maître de ses jugements doit encore se détourner pour rester serein ; l’homme le plus sensible ne sera heureux qu’à la fin de tout malheur, qui ne vient jamais.
+- **2026-me-paroles** — cumul : « Maîtriser les mots, laisser le sens aux autres » : sous le présupposé, maîtriser, c’est fixer le sens d’avance ; si le sens échappe, on ne répond plus que de mots, non de ce qu’ils disent. Le cumul reconduit à la seconde branche. Meilleur cas : L’orateur le plus préparé découvre encore sa pensée en parlant (Merleau-Ponty) ; l’auditeur le plus bienveillant comprend encore autrement. Les deux pertes survivent.
+- **notion-inconscient** — cumul : « Excuser ce qui vient de l’inconscient, imputer ce qui vient de la conscience » : la frontière exige de savoir ce qui était conscient, ce que l’idée d’inconscient rend impossible à établir de l’intérieur ; elle se trace avec ce que l’une des réponses refuse. Le cumul est exclu. Meilleur cas : Le plus lucide ignore encore une part de ses motifs ; le plus honnête qui répond de tout se condamne encore pour ce qu’il n’a pas voulu (Œdipe).
+- **notion-liberte** — cumul : « S’engager pour un temps, ou sur les petites choses » : sous le présupposé, un engagement révocable n’engage pas (il perd la durée), et un engagement irrévocable soumet le jugement présent. Le cumul reconduit aux deux branches. Meilleur cas : Le plus libre qui ne se lie jamais reste dans le possible vide (Dom Juan) ; le plus fidèle reste lié quand la cause devient injuste.
+- **notion-raison** — cumul : « Prouver aux esprits disposés, persuader les autres » : sous le présupposé, la persuasion produit l’adhésion sans les raisons ; ceux qu’elle gagne ne sont pas convaincus. Le cumul reconduit à la seconde branche. Meilleur cas : Devant des jurés de bonne foi, la preuve exacte n’est pas encore entendue ; l’orateur le plus honnête qui plaît gagne encore sans faire juger.
+- **notion-technique** — cumul : « Réaliser les possibles bienfaisants, refuser les dangereux » : sous le présupposé, on trie des possibles ; or un même possible est l’un et l’autre (la même physique fait la centrale et la bombe). Le tri est impossible à ce niveau. Meilleur cas : La puissance la mieux intentionnée nous rend encore dépendants de ce qu’elle réalise ; la prudence la plus éclairée prive encore de remèdes si elle refuse en bloc.
+- **notion-temps** — cumul : « Le temps crée, puis détruit » : sous le présupposé, toute création finit dans le néant ; l’alternance reconduit au oui, le temps est destructeur en dernier ressort. Le cumul est exclu. Meilleur cas : La vie la plus féconde finit ; la rose la plus belle a fallu éclore. Les deux constats survivent.
+- **notion-travail** — cumul : « Le travail forme l’artisan, il aliène l’ouvrier » : sous le présupposé, l’effet appartient au travail comme tel ; un partage par sortes de travail ne s’explique pas (le menuisier et Charlot font tous deux un travail manuel). Le partage n’est intelligible qu’après la transformation : rapporter l’effet à l’organisation. Meilleur cas : Le travail le plus libre reste une peine sous la contrainte du besoin ; le travail le plus contraint apprend encore quelque chose (Hegel). Les deux pertes survivent.
+- **notion-verite** — cumul : « Dire les vérités utiles, taire les blessantes » : sous le présupposé, taire, c’est manquer au devoir de vérité, et trier, c’est décider à la place de l’autre (seconde branche). Le cumul est exclu. Meilleur cas : La franchise la plus sincère blesse encore sans éclairer (Alceste) ; le tact le plus bienveillant décide encore pour l’autre (Philinte).
+- **2025-me-verite** — cumul : « La preuve pour les esprits ouverts, l’art de plaire pour les autres » : sous le présupposé, ce que l’art de plaire obtient n’est pas une reconnaissance de la preuve. Le cumul reconduit à la seconde branche. Meilleur cas : Le prisonnier revenu, qui dit vrai, n’est pas cru ; l’interlocuteur le mieux disposé peut être gagné par une flatterie.
+- **2025-me-avenir-technique** — cumul : « La technique fournit les moyens, la politique choisit les fins » : c’est la réponse de la partie II ; sous le présupposé de moyens neutres, elle échoue, car les infrastructures pèsent déjà sur les choix suivants (II.3). Meilleur cas : La délibération la plus démocratique choisit encore parmi ce que les moyens existants rendent pensable ; la technique la plus puissante ne fixe encore aucun usage.
+- **2025-me-besoin-art** — cumul : « L’art nécessaire pour certains, superflu pour d’autres » : sous le présupposé, un besoin porte sur un objet déterminé, le même pour tous ; un besoin qui ne vaut que pour certains n’en est pas un. Le cumul est exclu. Meilleur cas : Une vie sans art ne meurt pas, et l’on ne voit pas ce qui lui manque ; le service public le mieux pensé, s’il fournit l’art comme un bien nécessaire, prescrit encore des œuvres.
+
+## Détail par copie (première passe)
 ### Revient-il principalement à l’État de lutter contre l’injustice ?  `2026-ag-etat-injustice`
 
 - **Longueur** : 31 → 31 phrases ; 823 → 821 mots.

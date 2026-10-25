@@ -16,7 +16,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "La priorité de l’État concerne la garantie commune des droits, non un monopole du jugement moral. Les citoyens, les associations et les institutions de contrôle doivent pouvoir contester son action.",
+          "proposal": "La contestation juste se reconnaît donc à sa forme : publique, elle en appelle à la règle commune devant tous et demande une révision, non une exception pour soi.",
           "preserves": [
             "Une force commune qui impose le même droit à tous",
             "Un jugement capable de dire qu’une loi est injuste"
@@ -51,14 +51,14 @@
       "conclusionQuestion": "Lorsque l’État détruit les voies par lesquelles on pouvait le corriger, comment lui résister sans abandonner l’exigence d’une justice commune ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 821
+        "words": 835
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "06cecbde838815118c240e1fa186a439518a835c0531e2b8218c1693cc277196",
+      "copySha256": "6c304dd53c58cbabf5c309f1c1ad5130f582bbc2cdd91f9cc28e99008be8526a",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -69,7 +69,9 @@
         "forme": "réciprocité",
         "problematique": "P2",
         "branchesIntroduction": "B1",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire"
+        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
+        "cumul": "« L’État garantit, les citoyens contestent » : sous le présupposé, contester, c’est décider du juste à la place de la loi ; si ce jugement l’emporte, la loi n’oblige plus que ceux qui l’approuvent (branche 2), s’il ne l’emporte pas, l’État garde le dernier mot (branche 1). Le cumul n’est possible qu’après la transformation : la contestation qui en appelle à la règle commune.",
+        "meilleurCas": "Dans un État aux lois justes, l’obéissance fait le juste par la chance des lois, sans que personne puisse les juger ; entre citoyens sincères, le désaccord de bonne foi subsiste. Les deux pertes survivent."
       }
     },
     "2026-ag-humanite-religion": {
@@ -121,14 +123,14 @@
       "conclusionQuestion": "Comment maintenir des convictions communes assez fortes pour nous unir, sans les rendre sacrées au point d’interdire leur examen ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 840
+        "words": 860
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "e39d5e1d8ed5d074be03af372d67114dda2869821828f1f8dc34d6ea86a567df",
+      "copySha256": "fa6034d4762a42f8530b28283d5c5126370b303879890f0ba7f433d711174e8d",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -139,7 +141,9 @@
         "forme": "réciprocité",
         "problematique": "P2 (double question coordonnée, modalité « pouvoir » conservée)",
         "branchesIntroduction": "B1",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire"
+        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
+        "cumul": "« La raison pour le savoir, la religion pour le lien » : sous le présupposé, le lien exige une croyance qu’on n’examine pas, alors que la raison examine tout ; les deux domaines portent sur le même objet, les croyances qui unissent. Le cumul est exclu.",
+        "meilleurCas": "Une humanité de croyants tolérants reste unie par ce qu’elle ne met pas en doute ; une humanité d’esprits rationnels de bonne foi n’a toujours pas, sous le présupposé, de quoi les relier."
       }
     },
     "2026-an-artiste-sait": {
@@ -191,14 +195,14 @@
       "conclusionQuestion": "Jusqu’où le savoir de l’artiste peut-il porter sur son œuvre, si celle-ci continue de prendre sens dans des regards qu’il ne dirige pas ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 704
+        "words": 715
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "e614f2174fcdd52904b91441d69eca3bb24d32f61c0a961e6e4d15d9db6353ef",
+      "copySha256": "efd7ebb0662792817bb9a45904244f1386a8df538c0b756f62f651e49fa55221",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -209,7 +213,9 @@
         "forme": "réciprocité",
         "problematique": "P1",
         "branchesIntroduction": "B1",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire"
+        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
+        "cumul": "« Le métier pour l’exécution, le génie pour l’invention » : sous le présupposé, l’artiste ne sait que ce qu’il sait d’avance ; il est donc l’auteur de ce qui n’est pas nouveau, et le nouveau reste sans auteur. Le cumul reconduit aux deux branches.",
+        "meilleurCas": "Le plus grand métier ne contient pas l’œuvre nouvelle (Frenhofer) ; le génie le plus sûr ne sait pas dire comment il produit (Kant). Les deux pertes survivent."
       }
     },
     "2026-an-science-utile": {
@@ -261,14 +267,14 @@
       "conclusionQuestion": "Comment contrôler les moyens et les risques d’une recherche sans exiger d’elle la prévision des découvertes qui justifient sa liberté ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 815
+        "words": 833
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "22a49459ad2eb24007006d5c58dd6f004fef6e4f434188f6d82196c099befe02",
+      "copySha256": "7981866587eb50a021b71476417049b7449c82fdfbccdf5026f4b4675518c6a7",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -279,7 +285,9 @@
         "forme": "réciprocité",
         "problematique": "P3 (exemple du catalogue)",
         "branchesIntroduction": "B1",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire"
+        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
+        "cumul": "« Recherche fondamentale libre, recherche appliquée utile » : sous le présupposé, tracer la frontière exige de juger chaque recherche par son utilité prévisible, ce que la première réponse refuse ; et la part libre ne répond toujours pas des pouvoirs qu’elle donne. Le cumul est exclu.",
+        "meilleurCas": "Une société qui financerait sans calcul laisserait encore la recherche sans répondre de ses expériences ; une recherche commandée par des besoins bien choisis perdrait encore les vérités sans usage connu."
       }
     },
     "2026-asie-inconscient-bonheur": {
@@ -331,14 +339,14 @@
       "conclusionQuestion": "Lorsque la souffrance vient d’une perte réelle que comprendre ne supprime pas, comment la lucidité peut-elle encore contribuer au bonheur ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 704
+        "words": 716
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "14f3ced8fdae88c9ca572150f07f0067da815e409c2aec08d96b4146e98086ba",
+      "copySha256": "a545191073fe2f71584e10c3e23cfcd88ef5a23c02e8c003d0bab0f77dbee521",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -349,7 +357,9 @@
         "forme": "réciprocité",
         "problematique": "P3",
         "branchesIntroduction": "B2",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire"
+        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
+        "cumul": "« Ignorer ce qu’on ne peut changer, connaître ce qu’on peut prévenir » : pour trier les menaces, il faut les connaître toutes ; sous le présupposé, c’est déjà les craindre. Le cumul suppose le savoir qu’il voulait éviter.",
+        "meilleurCas": "Un insouciant que rien ne frappe n’est heureux que par chance ; un lucide qui peut agir sur tout reste, sous le présupposé, inquiet de ce qu’il voit."
       }
     },
     "2026-asie-langage": {
@@ -401,14 +411,14 @@
       "conclusionQuestion": "Comment une pensée nouvelle peut-elle devenir partageable lorsque les mots par lesquels elle cherche à se dire ne sont pas encore compris ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 757
+        "words": 772
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "ffc4f0b1cfdbc4c9b681c7966031c32bc30320668bc699b3711d608a87386129",
+      "copySha256": "ff14017e555da8a7f31c6bae450a22ae7eeefb86b38c147f9725397f58bce7b7",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -419,7 +429,9 @@
         "forme": "réciprocité",
         "problematique": "P2",
         "branchesIntroduction": "B2",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire"
+        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
+        "cumul": "« Prisonniers de la langue reçue, libres dans son usage » : sous le présupposé, une liberté qui s’exerce encore dans la langue n’est pas une liberté, et savoir la langue une prison exige toujours un dehors. Le cumul reconduit aux deux branches.",
+        "meilleurCas": "Le meilleur écrivain parle encore avec des mots reçus ; la meilleure pensée ne gagne rien à se passer de mots (Hegel). Les deux pertes survivent."
       }
     },
     "2026-g1-bien-agir": {
@@ -471,14 +483,14 @@
       "conclusionQuestion": "Comment juger un acte raisonnablement décidé lorsque ses conséquences imprévisibles en révèlent ensuite le mal ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 798
+        "words": 814
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "505c7a55c469a7c947126be9a5c120b5cbdf8a3b39990289362382116c34030e",
+      "copySha256": "a8893aa778ea4189b654835f83c640bcfe2af28306b8152fae128fec6358f838",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -489,7 +501,9 @@
         "forme": "réciprocité",
         "problematique": "P1",
         "branchesIntroduction": "B1",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire"
+        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
+        "cumul": "« L’intention juge l’agent, les effets jugent l’acte » : sous le présupposé, être certain d’avoir bien agi exige les deux savoirs complets ; or ces deux verdicts partiels peuvent se contredire, et aucun ne donne la certitude demandée. Le cumul est exclu.",
+        "meilleurCas": "Le plus sincère ignore encore ses vrais motifs (Kant) ; la décision la mieux pesée dépend encore d’effets qui arrivent après elle (le coup de vent). Les deux pertes survivent."
       }
     },
     "2026-g1-nature-besoin": {
@@ -541,14 +555,14 @@
       "conclusionQuestion": "Comment choisir ce qu’il faut restaurer sans faire de nos préférences la seule mesure d’une nature que nous voulons autonome ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 765
+        "words": 773
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "2631fffba405c124aaae70a411a3ceef79133c08deaf5662221238d6c032a2e8",
+      "copySha256": "f033c53c272507bf17312e7f2252a64f678131c1f2976776e9b9021e714fac10",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -559,7 +573,9 @@
         "forme": "réciprocité",
         "problematique": "P1",
         "branchesIntroduction": "B1",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire"
+        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
+        "cumul": "« Laisser faire les grands processus, protéger les espèces menacées » : sous le présupposé, protéger, c’est diriger ; les milieux protégés deviennent des jardins, et l’on juxtapose friche et jardin sans sauver nulle part un milieu qui se fasse sans nous. Le cumul est exclu.",
+        "meilleurCas": "Une nature laissée à elle-même reste livrée aux causes de destruction que nous maintenons ; la protection la plus savante reste, sous le présupposé, une direction."
       }
     },
     "2026-me-bonheur-autres": {
@@ -611,14 +627,14 @@
       "conclusionQuestion": "Que doit changer celui dont le bonheur dépend d’une injustice, pour que son souci d’autrui ne demeure pas une simple bonne conscience ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 774
+        "words": 782
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "a35afe425ccb980404d31f91b34f4e0cae929d3cd5a2dd7cda477e74ffa1d17b",
+      "copySha256": "1feb37e39c27084894d4f2bfc287ae3a1ee30415730b111e476d312b88065482",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -629,7 +645,9 @@
         "forme": "réciprocité",
         "problematique": "P1",
         "branchesIntroduction": "B4",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire"
+        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
+        "cumul": "« Serein pour soi, compatissant pour les autres » : sous le présupposé, compatir, c’est souffrir ; chaque moment de compassion détruit la sérénité, et la sérénité exige de ne plus être touché. Le cumul reconduit aux deux branches.",
+        "meilleurCas": "Le sage le plus maître de ses jugements doit encore se détourner pour rester serein ; l’homme le plus sensible ne sera heureux qu’à la fin de tout malheur, qui ne vient jamais."
       }
     },
     "2026-me-paroles": {
@@ -681,14 +699,14 @@
       "conclusionQuestion": "Comment répondre d’une parole dont on peut corriger le sens, mais dont on ne peut plus réparer tous les effets ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 744
+        "words": 761
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "6900bb3482402da93967fcbbd25c3dd60e2bc1da671496d264f63236cdf1bfe7",
+      "copySha256": "e195761b98a0a0a03381f88918777e4a7edf076b3f693a5839fae68c30d9f293",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -699,7 +717,9 @@
         "forme": "réciprocité",
         "problematique": "P2 (exemple du catalogue)",
         "branchesIntroduction": "B3 (exemple du catalogue)",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire"
+        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
+        "cumul": "« Maîtriser les mots, laisser le sens aux autres » : sous le présupposé, maîtriser, c’est fixer le sens d’avance ; si le sens échappe, on ne répond plus que de mots, non de ce qu’ils disent. Le cumul reconduit à la seconde branche.",
+        "meilleurCas": "L’orateur le plus préparé découvre encore sa pensée en parlant (Merleau-Ponty) ; l’auditeur le plus bienveillant comprend encore autrement. Les deux pertes survivent."
       }
     },
     "notion-inconscient": {
@@ -751,14 +771,14 @@
       "conclusionQuestion": "Comment attribuer une responsabilité juste lorsque la connaissance de ce qui a déterminé l’acte demeure incomplète ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 838
+        "words": 837
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "246ea227597d5a9870a6ba6ad42487ed1301ad6f6af37a807cd6bd72e1eaeb7d",
+      "copySha256": "97c3980bade9220c0e16164e23ce8ffe78035d9a6d1c60ee855c650dc43dc0ea",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -769,7 +789,9 @@
         "forme": "réciprocité",
         "problematique": "P1",
         "branchesIntroduction": "B1",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire"
+        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
+        "cumul": "« Excuser ce qui vient de l’inconscient, imputer ce qui vient de la conscience » : la frontière exige de savoir ce qui était conscient, ce que l’idée d’inconscient rend impossible à établir de l’intérieur ; elle se trace avec ce que l’une des réponses refuse. Le cumul est exclu.",
+        "meilleurCas": "Le plus lucide ignore encore une part de ses motifs ; le plus honnête qui répond de tout se condamne encore pour ce qu’il n’a pas voulu (Œdipe)."
       }
     },
     "notion-liberte": {
@@ -821,14 +843,14 @@
       "conclusionQuestion": "Quand la fidélité exige de renoncer à ce que l’on est devenu, comment juger si elle accomplit encore la liberté ou la sacrifie ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 745
+        "words": 749
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "1ce9a01f21efba65de4df84f02817b98d5d64ddc448cdfdbfd019b812cab7fe2",
+      "copySha256": "2f4bbca00a29424d1d81fe03a280115202e635d872c567372acca2b0064725bb",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -839,7 +861,9 @@
         "forme": "réciprocité",
         "problematique": "P2",
         "branchesIntroduction": "B1",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire"
+        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
+        "cumul": "« S’engager pour un temps, ou sur les petites choses » : sous le présupposé, un engagement révocable n’engage pas (il perd la durée), et un engagement irrévocable soumet le jugement présent. Le cumul reconduit aux deux branches.",
+        "meilleurCas": "Le plus libre qui ne se lie jamais reste dans le possible vide (Dom Juan) ; le plus fidèle reste lié quand la cause devient injuste."
       }
     },
     "notion-raison": {
@@ -891,14 +915,14 @@
       "conclusionQuestion": "Que peut encore faire la raison devant un refus de l’examiner, sans transformer la recherche de conviction en contrainte ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 807
+        "words": 808
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "6f0929981164a7a2378300fd5f083df4b2d1cafd6ec3059d6a8bb38329ed4efc",
+      "copySha256": "6e07c99affc982d90abeada3bfab4dde807ecc2a7c0d7ff3e5bfb94349084258",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -909,7 +933,9 @@
         "forme": "réciprocité",
         "problematique": "P3",
         "branchesIntroduction": "B2",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire"
+        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
+        "cumul": "« Prouver aux esprits disposés, persuader les autres » : sous le présupposé, la persuasion produit l’adhésion sans les raisons ; ceux qu’elle gagne ne sont pas convaincus. Le cumul reconduit à la seconde branche.",
+        "meilleurCas": "Devant des jurés de bonne foi, la preuve exacte n’est pas encore entendue ; l’orateur le plus honnête qui plaît gagne encore sans faire juger."
       }
     },
     "notion-technique": {
@@ -961,14 +987,14 @@
       "conclusionQuestion": "Comment décider d’un possible technique lorsque ses risques sont incertains et que l’attente elle-même peut priver les hommes d’un bien ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 832
+        "words": 849
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "8208291f8b7dbb155922c4a0cf4dcb0fa02d9b546136eed07c6bb1c580218713",
+      "copySha256": "614c20114544fd310cd528dac49601a29a550382f1942bffd5f3dfc9c1ed06fa",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -979,7 +1005,9 @@
         "forme": "réciprocité",
         "problematique": "P3",
         "branchesIntroduction": "B2",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire"
+        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
+        "cumul": "« Réaliser les possibles bienfaisants, refuser les dangereux » : sous le présupposé, on trie des possibles ; or un même possible est l’un et l’autre (la même physique fait la centrale et la bombe). Le tri est impossible à ce niveau.",
+        "meilleurCas": "La puissance la mieux intentionnée nous rend encore dépendants de ce qu’elle réalise ; la prudence la plus éclairée prive encore de remèdes si elle refuse en bloc."
       }
     },
     "notion-temps": {
@@ -1031,14 +1059,14 @@
       "conclusionQuestion": "À quelles conditions ce que le temps permet de créer peut-il donner sens à une perte, sans prétendre la réparer ni la justifier ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 835
+        "words": 845
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "c3abbfe9621cde0ebbfc67faa81762090007ea470b184161039c135a6ccb83a1",
+      "copySha256": "bdfff7399d5c625157b93e2e859ddb3b4475e5f13e0a92684a233477b23657bd",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -1049,7 +1077,9 @@
         "forme": "réciprocité",
         "problematique": "hors catalogue justifiée : alternative croisée à « alors que » (chaque branche nomme ce qu’exige l’autre)",
         "branchesIntroduction": "B2",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire"
+        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
+        "cumul": "« Le temps crée, puis détruit » : sous le présupposé, toute création finit dans le néant ; l’alternance reconduit au oui, le temps est destructeur en dernier ressort. Le cumul est exclu.",
+        "meilleurCas": "La vie la plus féconde finit ; la rose la plus belle a fallu éclore. Les deux constats survivent."
       }
     },
     "notion-travail": {
@@ -1101,14 +1131,14 @@
       "conclusionQuestion": "Comment partager les tâches nécessaires qui restent pénibles, sans réserver à certains le travail formateur et à d’autres sa seule contrainte ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 817
+        "words": 816
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "9eea07a9ef6fc6c87b498d1a060ec745aff29a33cd8aab1da56c50780f92494d",
+      "copySha256": "f4ac4749e90279a5946873f65ce239614ff8a04c06c1485b320353ee74938eb0",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -1119,7 +1149,9 @@
         "forme": "réciprocité",
         "problematique": "P1",
         "branchesIntroduction": "B2",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire"
+        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
+        "cumul": "« Le travail forme l’artisan, il aliène l’ouvrier » : sous le présupposé, l’effet appartient au travail comme tel ; un partage par sortes de travail ne s’explique pas (le menuisier et Charlot font tous deux un travail manuel). Le partage n’est intelligible qu’après la transformation : rapporter l’effet à l’organisation.",
+        "meilleurCas": "Le travail le plus libre reste une peine sous la contrainte du besoin ; le travail le plus contraint apprend encore quelque chose (Hegel). Les deux pertes survivent."
       }
     },
     "notion-verite": {
@@ -1171,14 +1203,14 @@
       "conclusionQuestion": "Quand protéger quelqu’un exige de rompre une confiance légitime, comment justifier ce que l’on révèle sans abolir le devoir de discrétion ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 820
+        "words": 834
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "20a7c81bd4c55e1f5d30dc9e154728bf351ef9efc54fda3075d465234c63daa4",
+      "copySha256": "4d0ba6575e8c0175b1bbdc986684acaac90a71e4f03e437c7243e512a9a6153c",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -1189,7 +1221,9 @@
         "forme": "réciprocité",
         "problematique": "P2",
         "branchesIntroduction": "B4",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire"
+        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
+        "cumul": "« Dire les vérités utiles, taire les blessantes » : sous le présupposé, taire, c’est manquer au devoir de vérité, et trier, c’est décider à la place de l’autre (seconde branche). Le cumul est exclu.",
+        "meilleurCas": "La franchise la plus sincère blesse encore sans éclairer (Alceste) ; le tact le plus bienveillant décide encore pour l’autre (Philinte)."
       }
     },
     "2025-me-verite": {
@@ -1241,7 +1275,7 @@
       "conclusionQuestion": "Lorsque toute vérification est refusée, comment défendre la vérité sans confondre la conviction rationnelle avec une adhésion imposée ?",
       "economy": {
         "principle": "Préserver raisons, objection et réponse avant de supprimer une phrase.",
-        "words": 657
+        "words": 670
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
@@ -1255,7 +1289,7 @@
         "title": "La vérité est-elle toujours convaincante ?",
         "sourceDocument": "Document officiel de la session 2025, libellé contrôlé page 2 ; index ministériel lié dans la page."
       },
-      "copySha256": "5edc4b40e443cb04c65159fcde36c64bc3acc87aafb366c820ce79a45065bd08",
+      "copySha256": "101ab7abbb9cf66f7fc748b71c4b4a95a278a11ba6b1d29af71bf31592e791e2",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -1266,7 +1300,9 @@
         "forme": "réciprocité",
         "problematique": "P1",
         "branchesIntroduction": "B2",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire"
+        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
+        "cumul": "« La preuve pour les esprits ouverts, l’art de plaire pour les autres » : sous le présupposé, ce que l’art de plaire obtient n’est pas une reconnaissance de la preuve. Le cumul reconduit à la seconde branche.",
+        "meilleurCas": "Le prisonnier revenu, qui dit vrai, n’est pas cru ; l’interlocuteur le mieux disposé peut être gagné par une flatterie."
       }
     },
     "2025-me-avenir-technique": {
@@ -1318,7 +1354,7 @@
       "conclusionQuestion": "Comment décider ensemble lorsque les moyens qui promettent un avenir meilleur risquent de supprimer la possibilité de le choisir autrement ?",
       "economy": {
         "principle": "Préserver raisons, objection et réponse avant de supprimer une phrase.",
-        "words": 668
+        "words": 669
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
@@ -1332,7 +1368,7 @@
         "title": "Notre avenir dépend-il de la technique ?",
         "sourceDocument": "Document officiel de la session 2025, libellé contrôlé page 2 ; index ministériel lié dans la page."
       },
-      "copySha256": "46c1d8fde48331289a0e0b0890d47c05214c2992cd4ed61289a4b0d032bea36d",
+      "copySha256": "f33830a61156e1f3248d38ca83c039db9f4da70ab86996ef0e0848527dfdc446",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -1343,7 +1379,9 @@
         "forme": "réciprocité",
         "problematique": "P1",
         "branchesIntroduction": "B3",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire"
+        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
+        "cumul": "« La technique fournit les moyens, la politique choisit les fins » : c’est la réponse de la partie II ; sous le présupposé de moyens neutres, elle échoue, car les infrastructures pèsent déjà sur les choix suivants (II.3).",
+        "meilleurCas": "La délibération la plus démocratique choisit encore parmi ce que les moyens existants rendent pensable ; la technique la plus puissante ne fixe encore aucun usage."
       }
     },
     "2025-me-besoin-art": {
@@ -1360,7 +1398,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Le besoin peut porter sur une possibilité : créer, écouter, regarder et partager des formes, plutôt que posséder une œuvre déterminée. L’art y répond diversement, par des pratiques ordinaires comme par des œuvres élaborées.",
+          "proposal": "Il s’ensuit que l’art répond à ce besoin par des voies diverses, pratiques ordinaires comme œuvres élaborées, et qu’il faut en ouvrir l’accès sans en prescrire les objets.",
           "preserves": [
             "Répondre à un manque réel",
             "Rester l’affaire d’un goût libre"
@@ -1395,7 +1433,7 @@
       "conclusionQuestion": "Qu’apporte une forme artistique à l’expression d’une expérience, que le récit ordinaire et la conversation ne peuvent pas toujours lui donner ?",
       "economy": {
         "principle": "Préserver raisons, objection et réponse avant de supprimer une phrase.",
-        "words": 690
+        "words": 691
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
@@ -1409,7 +1447,7 @@
         "title": "Avons-nous besoin d’art ?",
         "sourceDocument": "Document officiel de la session 2025, libellé contrôlé page 2 ; index ministériel lié dans la page."
       },
-      "copySha256": "5324d973487a94c9fbbff56ac6fa1afc1cd9ce8bbab4897a78e868d452a6c4e6",
+      "copySha256": "be2897c2d637647b46ab99f94db6729ca8eb66fa102720587cdec9f2ea0bbac9",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -1420,7 +1458,9 @@
         "forme": "condition renversée (faire de l’art un besoin compromet sa liberté)",
         "problematique": "P5",
         "branchesIntroduction": "B3",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire"
+        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
+        "cumul": "« L’art nécessaire pour certains, superflu pour d’autres » : sous le présupposé, un besoin porte sur un objet déterminé, le même pour tous ; un besoin qui ne vaut que pour certains n’en est pas un. Le cumul est exclu.",
+        "meilleurCas": "Une vie sans art ne meurt pas, et l’on ne voit pas ce qui lui manque ; le service public le mieux pensé, s’il fournit l’art comme un bien nécessaire, prescrit encore des œuvres."
       }
     }
   }
