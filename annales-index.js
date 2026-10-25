@@ -11,9 +11,10 @@
   const authors=[...new Set(bacItems.map(x=>x.auteur).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"fr"));
   const authorOptions=authors.map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join("");
   const extra=document.createElement("div");
-  extra.className="annales-discovery";
+  extra.className="annales-discovery filters";
   extra.innerHTML='<label>Auteur <select id="annales-author"><option value="all">Tous les auteurs</option>'+authorOptions+'</select></label> <label>Œuvre <select id="annales-work"><option value="all">Toutes les œuvres</option></select></label> <button type="button" id="annales-reset">Effacer les filtres</button> <p id="annales-count" role="status" aria-live="polite"></p>';
   controls?.insertAdjacentElement("afterend",extra);
+  extra.querySelectorAll("select").forEach(el=>el.setAttribute("aria-label",el.id==="annales-author"?"Filtrer par auteur":"Filtrer par œuvre"));
   const authorSelect=extra.querySelector("#annales-author");
   const workSelect=extra.querySelector("#annales-work");
   function updateWorks(){
