@@ -3,10 +3,77 @@
 const fs=require('node:fs'),path=require('node:path'),http=require('node:http'),assert=require('node:assert/strict');
 const {chromium}=require('playwright');
 const root=path.resolve(process.argv[2]||'.');
-const pages=[...new Set(['index.html','bibliotheque.html','bibliotheque-litterature.html','annales.html','philosophie.html','philosophie-banque.html','philosophie-explication.html','philosophie-exemples.html','philosophie-troisieme-resolutions.html','hlp.html','hlp-premiere.html','hlp-terminale.html','hlp-ecrire.html','brevet.html','brevet-lecture-parcours.html',...fs.readdirSync(root).filter(n=>/^(hlp-parcours-.*|philosophie-explication-.+|philosophie-copie-20-.+|philosophie-notion-.+|philosophie-bac-2026-.+)\.html$/.test(n))])];
+const pages=[...new Set(['index.html','bac-dissertation.html','brevet-redaction.html','bibliotheque.html','bibliotheque-litterature.html','annales.html','philosophie.html','philosophie-banque.html','philosophie-explication.html','philosophie-exemples.html','philosophie-troisieme-resolutions.html','hlp.html','hlp-premiere.html','hlp-terminale.html','hlp-ecrire.html','brevet.html','brevet-lecture-parcours.html',...fs.readdirSync(root).filter(n=>/^(hlp-parcours-.*|philosophie-explication-.+|philosophie-copie-20-.+|philosophie-notion-.+|philosophie-bac-2026-.+)\.html$/.test(n))])];
 const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript','.css':'text/css','.svg':'image/svg+xml','.json':'application/json','.png':'image/png','.jpg':'image/jpeg','.woff2':'font/woff2'};
 const server=http.createServer((req,res)=>{const file=path.resolve(root,'.'+new URL(req.url,'http://localhost').pathname);if(!file.startsWith(root+path.sep))return res.writeHead(403).end();fs.readFile(file,(e,b)=>{if(e)return res.writeHead(404).end();res.writeHead(200,{'Content-Type':mime[path.extname(file)]||'application/octet-stream'}).end(b);});});
 const results=[];
+async function checkNavigation(page,name){
+ const navs=page.locator('main nav.annales-jump');
+ assert((await navs.count())<=1,'Barres d’accès rapide dupliquées : '+name);
+ const links=page.locator('main nav.annales-jump a[href]');
+ for(const link of await links.all()){
+  const href=await link.getAttribute('href');
+  if(!href||href.startsWith('http'))continue;
+  const url=new URL(href,page.url());
+  const current=new URL(page.url());
+  if(url.pathname===current.pathname&&url.hash){
+   const id=decodeURIComponent(url.hash.slice(1));
+   assert(await page.locator('[id]').evaluateAll((els,target)=>els.some(el=>el.id===target),id),'Ancre introuvable : '+name+' '+href);
+  }
+ }
+ if(name==='bac-commentaire.html'){
+  assert.equal(await page.locator('.commentaire-choices').first().locator(':scope > a').count(),4,'Les quatre parcours de commentaire doivent être conservés');
+}
+if(name==='annales.html'){
+  const discovery=page.locator('#annales-recherche');
+  assert.equal(await discovery.count(),1,'Recherche des annales absente ou dupliquée');
+  assert(await page.locator('#annales-author option').count()>1,'Auteurs absents');
+  const authors=await page.locator('#annales-author option').evaluateAll(es=>es.slice(1).map(e=>e.value));
+  await page.selectOption('#annales-author',authors[0]);
+  const count=await page.locator('#transformedAnnales .corpus-card').count();
+  assert(count>0,'Aucun sujet après filtre auteur');
+  await page.locator('#annales-reset').click();
+  assert.equal(await page.locator('#annales-author').inputValue(),'all','Réinitialisation auteur');
+  await page.locator('#annalesControls [data-f="brevet"]').click();
+  assert(await page.locator('#annales-author').evaluate(el=>el.closest('label').hidden),'Filtre auteur visible pour brevet');
+  await page.locator('#annalesControls [data-f="bac"]').click();
+  assert(!(await page.locator('#annales-author').evaluate(el=>el.closest('label').hidden)),'Filtre auteur masqué pour bac');
+}
+if(name==='brevet-redaction.html'||name==='philosophie-explication.html'){
+  const links=page.locator('main nav.annales-jump a[href]');
+  assert(await links.count()>=3,'Raccourcis de page manquants');
+}
+if(name==='bac-dissertation.html'){
+  assert.equal(await page.locator('main nav.annales-jump').count(),1,'Navigation de dissertation dupliquée');
+  assert(await page.locator('#diss-demarrer a[href="#diss-probleme"]').count()===1,'Lien de démarrage absent');
+  assert.equal(await page.locator('#diss-probleme [data-level]').count(),2,'Les niveaux au clic et écrit doivent exister');
+  assert.equal(await page.locator('#diss-probleme .chaine-sujets button[data-subj]').count(),13,'Les treize sujets de dissertation doivent être conservés');
+  assert(await page.locator('#diss-ressources a[href*="copie-20"]').count()>=8,'Les copies modèles doivent rester accessibles');
+  assert(await page.locator('script[src="dissertation-probleme.js"]').count()===1,'Moteur des exercices absent');
+  const resources=page.locator('#diss-ressources details');
+  assert.equal(await resources.count(),1,'Modèles facultatifs absents');
+  assert(!(await resources.evaluate(el=>el.open)),'Modèles ouverts par défaut');
+  await resources.locator('summary').click();
+  assert(await resources.evaluate(el=>el.open),'Modèles impossibles à ouvrir');
+}
+if(name==='philosophie.html'){
+  assert.equal(await page.locator('.sequence-spec [data-parcours] .parcours-check').count(),0,'Anciennes cases de suivi');
+  const sections=page.locator('#comprendre details');
+  assert.equal(await sections.count(),2,'Les deux sections facultatives doivent être présentes');
+  for(const section of await sections.all()){
+   assert(!(await section.evaluate(el=>el.open)),'Section théorique ouverte par défaut');
+   await section.locator('summary').click();
+   assert(await section.evaluate(el=>el.open),'Section théorique non ouvrable');
+   await section.locator('summary').click();
+  }
+  for(const href of ['philosophie-probleme-pas-a-pas.html','philosophie-problematisation.html','philosophie-dissertation-entrainement.html','philosophie-dissertation.html']){
+   const link=page.locator('.sequence-spec a[href="'+href+'"]');
+   assert(await link.count()>0,'Lien de cours ou exercice absent : '+href);
+   await link.first().scrollIntoViewIfNeeded();
+   assert(await link.first().isVisible(),'Lien non visible : '+href);
+  }
+ }
+}
 async function journeys(page,name,width){
  if(name==='index.html'){
   if(width===390){await page.locator('.mobile-nav-toggle').click();assert.equal(await page.locator('#mobile-nav a').count(),6);await page.locator('#mobile-nav a[href="/bibliotheque.html"]').click();assert.match(page.url(),/bibliotheque/);await page.goBack();}
@@ -43,12 +110,12 @@ async function journeys(page,name,width){
 }
 (async()=>{
  await new Promise(r=>server.listen(0,'127.0.0.1',r));const base='http://127.0.0.1:'+server.address().port+'/';const browser=await chromium.launch({headless:true});fs.mkdirSync(path.join(root,'browser-audit'),{recursive:true});
- for(const width of [390,1280]){
+ for(const width of [390,768,1280]){
   const context=await browser.newContext({viewport:{width,height:900}});
   for(const name of pages){
    const page=await context.newPage(),errors=[];page.setDefaultTimeout(5000);page.on('pageerror',e=>errors.push(e.message));
    try{
-    const response=await page.goto(base+name,{waitUntil:'load'});assert(response.ok());await journeys(page,name,width);
+    const response=await page.goto(base+name,{waitUntil:'load'});assert(response.ok());await journeys(page,name,width);await checkNavigation(page,name);
     const overflow=await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth);assert(overflow<=12,`Débordement ${overflow}px`);assert.equal(errors.length,0,errors.join('; '));
     if(['index.html','bibliotheque.html','bibliotheque-litterature.html','philosophie-banque.html'].includes(name))await page.screenshot({path:path.join(root,'browser-audit',`${name}-${width}.png`),fullPage:true});
     results.push({name,width,ok:true});console.log('OK',width,name);

@@ -1,0 +1,27 @@
+name: Conservation des devoirs et corrigés
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+jobs:
+  preservation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Contrôler les ressources historiques
+        run: |
+          node scripts/check-content-preservation.cjs 353d348656c3e0d8e2e359a6842eee5fe0a1e9b7 > preservation-report.json
+          node -e "const r=require('./preservation-report.json'); console.log('Pages comparées:',r.pagesComparees,'Alertes:',r.alertes)"
+      - name: Publier le rapport même en cas d'échec
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: preservation-report
+          path: preservation-report.json
+          if-no-files-found: warn

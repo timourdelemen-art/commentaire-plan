@@ -19,15 +19,9 @@ if(here&&next){
   btn.addEventListener('click',()=>toggle(here));
   next.insertBefore(btn,next.querySelector('h2').nextSibling);
 }
-/* Cases sur la page d'accueil de la philosophie */
-const items=[...document.querySelectorAll('[data-parcours]')];
-items.forEach(p=>{
-  const n=Number(p.dataset.parcours);
-  const l=document.createElement('label');l.className='parcours-check';
-  l.innerHTML='<input type="checkbox"> étape parcourue';
-  l.querySelector('input').addEventListener('change',()=>toggle(n));
-  p.appendChild(l);
-});
+/* L'accueil ne demande plus de cocher manuellement une étape.
+   Le suivi déclaratif demeure sur les pages d'exercice où un bouton dédié existe. */
+const items=[];
 const status=document.getElementById('parcours-status');
 
 function paint(){
