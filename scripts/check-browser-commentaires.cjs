@@ -47,7 +47,8 @@ async function check(root){
         assert(!functions.some(f=>/établissement|reprise du mot clé|l’acquis/i.test(f)));
         // Deux modes communs au site (copie-modes.js) : la copie entière, puis la fonction de chaque phrase.
         const toggle=art.locator('.cm-mode[data-mode="f"]'),entiere=art.locator('.cm-mode[data-mode="e"]');await toggle.waitFor();
-        assert.equal(await entiere.getAttribute('aria-pressed'),'true');
+        // L’ancre #phrase-par-phrase ouvre directement la vue annotée : on revient d’abord à la copie entière.
+        await entiere.click();assert.equal(await entiere.getAttribute('aria-pressed'),'true');
         assert.equal(await art.locator('.c20-f:visible').count(),0);
         assert(await art.locator(':scope > p').first().isVisible());
         await toggle.focus();await page.keyboard.press('Enter');
