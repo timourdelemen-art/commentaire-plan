@@ -5,7 +5,7 @@
   const esc=s=>String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[m]));
   const items=Object.entries(cat).map(([id,x])=>({id,...x})).sort((a,b)=>b.annee-a.annee||a.examen.localeCompare(b.examen,"fr"));
   const controls=document.getElementById("annalesControls");
-  let filter="all";
+  let filter="bac";
   let author="all", work="all";
   const bacItems=items.filter(x=>x.examen==="Bac");
   const authors=[...new Set(bacItems.map(x=>x.auteur).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"fr"));
@@ -25,8 +25,8 @@
   authorSelect.addEventListener("change",()=>{author=authorSelect.value;work="all";updateWorks();render();});
   workSelect.addEventListener("change",()=>{work=workSelect.value;render();});
   extra.querySelector("#annales-reset").addEventListener("click",()=>{
-    author="all";work="all";filter="all";authorSelect.value="all";updateWorks();
-    controls?.querySelectorAll("button").forEach(b=>b.classList.toggle("active",b.dataset.f==="all"));
+    author="all";work="all";filter="bac";authorSelect.value="all";updateWorks();
+    controls?.querySelectorAll("button").forEach(b=>b.classList.toggle("active",b.dataset.f==="bac"));
     render();
   });
   updateWorks();
@@ -44,7 +44,7 @@
       ["brevet","Brevet ("+counts.brevet+")"],
       ["free","Gratuit ("+counts.free+")"],
       ["premium","Accès complet ("+counts.premium+")"]
-    ].map(([k,l])=>"<button class='filter"+(k==="all"?" active":"")+"' data-f='"+k+"'>"+l+"</button>").join("");
+    ].map(([k,l])=>"<button class='filter"+(k==="bac"?" active":"")+"' data-f='"+k+"'>"+l+"</button>").join("");
     controls.querySelectorAll("button").forEach(b=>b.onclick=()=>{
       controls.querySelectorAll("button").forEach(x=>x.classList.remove("active"));
       b.classList.add("active"); filter=b.dataset.f; if(filter==="brevet"){author="all";work="all";authorSelect.value="all";updateWorks();} render();
