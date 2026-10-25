@@ -14,6 +14,21 @@
   extra.className="annales-discovery filters";
   extra.innerHTML='<label>Auteur <select id="annales-author"><option value="all">Tous les auteurs</option>'+authorOptions+'</select></label> <label>Œuvre <select id="annales-work"><option value="all">Toutes les œuvres</option></select></label> <button type="button" id="annales-reset">Effacer les filtres</button> <p id="annales-count" role="status" aria-live="polite"></p>';
   controls?.insertAdjacentElement("afterend",extra);
+  // L'accès aux filtres n'exige pas de parcourir les archives par année.
+  // Déplacer le bloc interactif existant, sans le dupliquer.
+  const frenchSection=document.getElementById("bac");
+  const staticIndex=frenchSection?.querySelector(".annales-static-index");
+  const guided=host.closest(".guided-section");
+  if(frenchSection&&guided&&staticIndex){
+    const discovery=document.createElement("section");
+    discovery.className="guided-section";
+    discovery.id="annales-recherche";
+    discovery.setAttribute("aria-label","Trouver un entraînement dans les annales");
+    discovery.innerHTML='<h3>Trouver un entraînement par auteur ou par œuvre</h3><p>Choisissez un sujet puis ouvrez les exercices disponibles. Les sujets officiels restent accessibles ci-dessous.</p>';
+    frenchSection.insertBefore(discovery,staticIndex);
+    discovery.append(controls,extra,host);
+    if(!guided.querySelector(".filters, .corpus-index"))guided.remove();
+  }
   extra.querySelectorAll("select").forEach(el=>el.setAttribute("aria-label",el.id==="annales-author"?"Filtrer par auteur":"Filtrer par œuvre"));
   const authorSelect=extra.querySelector("#annales-author");
   const workSelect=extra.querySelector("#annales-work");
