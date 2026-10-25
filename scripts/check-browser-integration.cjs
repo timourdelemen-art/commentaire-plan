@@ -7,6 +7,38 @@ const pages=[...new Set(['index.html','bibliotheque.html','bibliotheque-litterat
 const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript','.css':'text/css','.svg':'image/svg+xml','.json':'application/json','.png':'image/png','.jpg':'image/jpeg','.woff2':'font/woff2'};
 const server=http.createServer((req,res)=>{const file=path.resolve(root,'.'+new URL(req.url,'http://localhost').pathname);if(!file.startsWith(root+path.sep))return res.writeHead(403).end();fs.readFile(file,(e,b)=>{if(e)return res.writeHead(404).end();res.writeHead(200,{'Content-Type':mime[path.extname(file)]||'application/octet-stream'}).end(b);});});
 const results=[];
+async function checkNavigation(page,name){
+ const navs=page.locator('main nav.annales-jump');
+ assert((await navs.count())<=1,'Barres d’accès rapide dupliquées : '+name);
+ const links=page.locator('main nav.annales-jump a[href]');
+ for(const link of await links.all()){
+  const href=await link.getAttribute('href');
+  if(!href||href.startsWith('http'))continue;
+  const url=new URL(href,page.url());
+  const current=new URL(page.url());
+  if(url.pathname===current.pathname&&url.hash){
+   const id=decodeURIComponent(url.hash.slice(1));
+   assert(await page.locator('[id]').evaluateAll((els,target)=>els.some(el=>el.id===target),id),'Ancre introuvable : '+name+' '+href);
+  }
+ }
+ if(name==='philosophie.html'){
+  assert.equal(await page.locator('.sequence-spec [data-parcours] .parcours-check').count(),0,'Anciennes cases de suivi');
+  const sections=page.locator('#comprendre details');
+  assert.equal(await sections.count(),2,'Les deux sections facultatives doivent être présentes');
+  for(const section of await sections.all()){
+   assert(!(await section.evaluate(el=>el.open)),'Section théorique ouverte par défaut');
+   await section.locator('summary').click();
+   assert(await section.evaluate(el=>el.open),'Section théorique non ouvrable');
+   await section.locator('summary').click();
+  }
+  for(const href of ['philosophie-probleme-pas-a-pas.html','philosophie-problematisation.html','philosophie-dissertation-entrainement.html','philosophie-dissertation.html']){
+   const link=page.locator('.sequence-spec a[href="'+href+'"]');
+   assert(await link.count()>0,'Lien de cours ou exercice absent : '+href);
+   await link.first().scrollIntoViewIfNeeded();
+   assert(await link.first().isVisible(),'Lien non visible : '+href);
+  }
+ }
+}
 async function journeys(page,name,width){
  if(name==='index.html'){
   if(width===390){await page.locator('.mobile-nav-toggle').click();assert.equal(await page.locator('#mobile-nav a').count(),6);await page.locator('#mobile-nav a[href="/bibliotheque.html"]').click();assert.match(page.url(),/bibliotheque/);await page.goBack();}
@@ -48,7 +80,7 @@ async function journeys(page,name,width){
   for(const name of pages){
    const page=await context.newPage(),errors=[];page.setDefaultTimeout(5000);page.on('pageerror',e=>errors.push(e.message));
    try{
-    const response=await page.goto(base+name,{waitUntil:'load'});assert(response.ok());await journeys(page,name,width);
+    const response=await page.goto(base+name,{waitUntil:'load'});assert(response.ok());await journeys(page,name,width);await checkNavigation(page,name);
     const overflow=await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth);assert(overflow<=12,`Débordement ${overflow}px`);assert.equal(errors.length,0,errors.join('; '));
     if(['index.html','bibliotheque.html','bibliotheque-litterature.html','philosophie-banque.html'].includes(name))await page.screenshot({path:path.join(root,'browser-audit',`${name}-${width}.png`),fullPage:true});
     results.push({name,width,ok:true});console.log('OK',width,name);
