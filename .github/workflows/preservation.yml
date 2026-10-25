@@ -15,7 +15,9 @@ jobs:
         with:
           node-version: '22'
       - name: Contrôler les ressources historiques
-        run: node scripts/check-content-preservation.cjs 353d348656c3e0d8e2e359a6842eee5fe0a1e9b7 > preservation-report.json
+        run: |
+          node scripts/check-content-preservation.cjs 353d348656c3e0d8e2e359a6842eee5fe0a1e9b7 > preservation-report.json
+          node -e "const r=require('./preservation-report.json'); console.log('Pages comparées:',r.pagesComparees,'Alertes:',r.alertes)"
       - name: Publier le rapport même en cas d'échec
         if: always()
         uses: actions/upload-artifact@v4
