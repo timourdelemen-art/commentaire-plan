@@ -80,3 +80,18 @@ La présence d'un test dans le dépôt ne prouve pas sa réussite. Tout échec d
 Dans `scripts/check-browser-integration.cjs`, assertions de conservation des 13 sujets interactifs de `bac-dissertation.html`, de l'accès aux copies modèles, du script d'exercice et des quatre parcours de `bac-commentaire.html`.
 
 **Attention :** ces assertions ne couvrent pas encore l'inventaire intégral de toutes les ressources du site. Elles constituent un premier filet de sécurité ; le recensement exhaustif reste nécessaire.
+
+## Vérification rétrospective des corrigés et exercices — outil ajouté
+
+Script : `scripts/check-content-preservation.cjs`.
+
+Exécution sur une copie complète du dépôt :
+```bash
+node scripts/check-content-preservation.cjs 353d348656c3e0d8e2e359a6842eee5fe0a1e9b7
+```
+
+Le script compare les pages HTML des familles pédagogiques à l'état de référence antérieur au chantier. Il signale les pages manquantes, les liens de ressources et scripts disparus, ainsi que la baisse des compteurs de champs de rédaction et de choix. Il ne modifie aucun fichier et échoue avec un code non nul en présence d'alertes.
+
+**Limites** : les changements légitimes de navigation peuvent produire des alertes ; les exercices générés dynamiquement ou alimentés par des catalogues JS doivent être vérifiés séparément. Il ne faut jamais interpréter une absence d'alerte comme une preuve exhaustive de conservation. Une vérification de l'accessibilité réelle des corrigés, de leur contenu et de leur niveau pédagogique reste nécessaire.
+
+**Règle de reprise** : corriger d'abord toute disparition avérée, puis poursuivre l'amélioration des exercices et corrigés existants sans les remplacer ni les supprimer.
