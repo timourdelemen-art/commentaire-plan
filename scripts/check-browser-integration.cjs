@@ -21,7 +21,10 @@ async function checkNavigation(page,name){
    assert(await page.locator('[id]').evaluateAll((els,target)=>els.some(el=>el.id===target),id),'Ancre introuvable : '+name+' '+href);
   }
  }
- if(name==='annales.html'){
+ if(name==='bac-commentaire.html'){
+  assert.equal(await page.locator('.commentaire-choices').first().locator(':scope > a').count(),4,'Les quatre parcours de commentaire doivent être conservés');
+}
+if(name==='annales.html'){
   const discovery=page.locator('#annales-recherche');
   assert.equal(await discovery.count(),1,'Recherche des annales absente ou dupliquée');
   assert(await page.locator('#annales-author option').count()>1,'Auteurs absents');
@@ -44,6 +47,9 @@ if(name==='bac-dissertation.html'){
   assert.equal(await page.locator('main nav.annales-jump').count(),1,'Navigation de dissertation dupliquée');
   assert(await page.locator('#diss-demarrer a[href="#diss-probleme"]').count()===1,'Lien de démarrage absent');
   assert.equal(await page.locator('#diss-probleme [data-level]').count(),2,'Les niveaux au clic et écrit doivent exister');
+  assert.equal(await page.locator('#diss-probleme [data-subj]').count(),13,'Les treize sujets de dissertation doivent être conservés');
+  assert(await page.locator('#diss-ressources a[href*="copie-20"]').count()>=8,'Les copies modèles doivent rester accessibles');
+  assert(await page.locator('script[src="dissertation-probleme.js"]').count()===1,'Moteur des exercices absent');
   const resources=page.locator('#diss-ressources details');
   assert.equal(await resources.count(),1,'Modèles facultatifs absents');
   assert(!(await resources.evaluate(el=>el.open)),'Modèles ouverts par défaut');
