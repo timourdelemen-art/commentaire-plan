@@ -27,7 +27,8 @@ if(!training.includes('href="philosophie-troisieme-resolutions.html"')) failures
 const nav=read('site-nav.js');
 if(!nav.includes("'philosophie-troisieme-resolutions.html'")) failures.push('gamme III absente de la navigation JS');
 const progress=read('philosophie-parcours.js');
-if(!progress.includes('étape parcourue')) failures.push('suivi de progression ambigu');
+if(/<input[^>]*type=["']checkbox["'][^>]*>/i.test(read('philosophie.html'))) failures.push('case de progression manuelle encore présente sur l’accueil');
+if(!progress.includes('parcours-done')) failures.push('suivi de progression sur les pages d’exercice absent');
 // Parcours en cinq gestes : mêmes pages, même ordre, mêmes libellés partout.
 const {PHILO_STEPS,PHILO_RESOURCES}=require('./philo-paths.js');
 const seo=read('scripts/seo-build.js');
