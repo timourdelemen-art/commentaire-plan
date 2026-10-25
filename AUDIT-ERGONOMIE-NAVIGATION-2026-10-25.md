@@ -152,3 +152,11 @@ Les raccourcis emploient la classe CSS existante `annales-jump` ; aucune nouvell
 Le sélecteur auteur/œuvre de `annales-index.js` utilise désormais la classe `filters` déjà employée par le site. Les champs possèdent des libellés accessibles. Lors du choix « Brevet », les filtres propres aux auteurs et œuvres de français sont masqués et leurs valeurs réinitialisées.
 
 **Point de vigilance restant :** les filtres « Gratuit » et « Accès complet » s'appliquent encore à toutes les épreuves ; il faut préciser dans l'interface la portée des filtres combinés, vérifier les résultats par catégorie et éviter d'afficher une sélection de français comme filtre universel. Tests navigateur non exécutés.
+
+## Outillage ajouté : inventaire automatique des exercices
+
+Nouveau script `scripts/audit-exercise-progression.cjs`, non destructif. Exécution prévue à la racine : `node scripts/audit-exercise-progression.cjs > audit-exercices.json`. Il examine les fichiers HTML de premier niveau dont le nom correspond aux familles bac, commentaire, philosophie, brevet et dissertation-philosophie. Il signale les indices d'interface cliquable, de rédaction, les annonces de retour IA et les scripts liés, puis produit un JSON pour revue humaine.
+
+**Limites importantes :** détection statique par motifs ; les applications rendues dynamiquement, sous-pages en dossiers, comportements IA et équivalence didactique entre clic et écriture ne peuvent pas être certifiés ainsi. Un bouton de navigation peut créer un faux positif. Les cas signalés doivent être vérifiés par inspection des scripts et tests de parcours. Le script n'a pas encore été exécuté sur un clone local.
+
+Correction complémentaire dans `annales-index.js` : le choix « Tout » réinitialise les filtres propres au français afin de ne pas exclure les sujets d'autres examens.
