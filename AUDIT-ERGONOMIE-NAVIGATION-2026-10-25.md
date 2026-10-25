@@ -160,3 +160,12 @@ Nouveau script `scripts/audit-exercise-progression.cjs`, non destructif. Exécut
 **Limites importantes :** détection statique par motifs ; les applications rendues dynamiquement, sous-pages en dossiers, comportements IA et équivalence didactique entre clic et écriture ne peuvent pas être certifiés ainsi. Un bouton de navigation peut créer un faux positif. Les cas signalés doivent être vérifiés par inspection des scripts et tests de parcours. Le script n'a pas encore été exécuté sur un clone local.
 
 Correction complémentaire dans `annales-index.js` : le choix « Tout » réinitialise les filtres propres au français afin de ne pas exclure les sujets d'autres examens.
+
+## Extension de l'inventaire et blocage d'exécution
+
+Le script `scripts/audit-exercise-progression.cjs` parcourt maintenant récursivement les HTML et inclut HLP ainsi que les fichiers d'entraînement aux annales. Il exclut les répertoires `.git`, `node_modules` et `.netlify`.
+
+Une tentative de clonage du dépôt depuis l'environnement d'exécution a échoué à cause de la résolution réseau de `github.com`. Le script n'a donc pas encore été exécuté contre l'ensemble du dépôt et aucun nombre d'exercices conformes ne peut être annoncé.
+
+### Reprise des vérifications
+Sur une copie du dépôt accessible : `node scripts/audit-exercise-progression.cjs > audit-exercices.json`, puis revue manuelle des résultats et tests Playwright. Ne pas assimiler la présence d'un bouton à une réponse cliquable pédagogique ni la présence d'un champ de texte à un retour IA.
