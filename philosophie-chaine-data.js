@@ -102,7 +102,7 @@ niveau1: [
    ['Les effets de ses actes.','no','Il ne regarde que cela : c’est ce que le non garde.'],
    ['Sa liberté.','no','Le sujet ne parle pas de liberté.']]},
   {b:'pb',p:'pb',q:'Quelle question met ces deux pertes face à face ?',o:[
-   ['La certitude d’avoir bien fait repose-t-elle sur l’intention, au risque d’une bonne conscience aveugle aux effets, ou sur les effets, au risque de livrer la valeur de nos actes au hasard ?','ok','Oui : les deux appuis sont là, chacun avec son risque.'],
+   ['Peut-on tirer la certitude d’avoir bien agi de son intention, aveugle aux effets de l’acte, ou de ses effets, qui livrent sa valeur au hasard ?','ok','Oui : les deux appuis sont là, chacun avec ce qu’il perd.'],
    ['Peut-on être certain d’avoir bien agi, ou ne le peut-on pas ?','no','C’est le sujet redit deux fois : aucune perte n’apparaît.'],
    ['Comment être certain d’avoir bien agi, puisque les effets nous échappent ?','no','La question a déjà répondu : elle suppose qu’on ne peut pas.']]}
  ]},
@@ -136,7 +136,7 @@ niveau1: [
    ['La vérité.','no','Elle la garde : c’est la force du non.'],
    ['Sa beauté.','no','Le sujet ne parle pas de beauté.']]},
   {b:'pb',p:'pb',q:'Quelle question met ces deux pertes face à face ?',o:[
-   ['La science vaut-elle par le pouvoir qu’elle donne, au risque de ne plus chercher que des vérités utiles, ou par la seule vérité, au risque d’oublier qu’elle ne connaît qu’en agissant ?','ok','Oui : chaque réponse est là, avec ce qu’elle risque.'],
+   ['La science doit-elle être utile, si l’utilité la détourne des vérités sans usage, et si ses vérités deviennent malgré elle des pouvoirs ?','ok','Oui : chaque réponse est là, avec ce qu’elle perd.'],
    ['Comment la science pourrait-elle chercher le vrai si elle doit être utile ?','no','La question a déjà répondu : elle oppose d’avance le vrai et l’utile.'],
    ['La science est-elle bonne ou mauvaise pour l’homme ?','no','Une question trop large, qui irait à n’importe quel sujet sur la science.']]}
  ]},
@@ -170,7 +170,7 @@ niveau1: [
    ['L’inspiration.','no','Il la garde : c’est la force du non.'],
    ['Son public.','no','Le sujet ne parle pas du public.']]},
   {b:'pb',p:'pb',q:'Quelle question met ces deux pertes face à face ?',o:[
-   ['L’artiste maîtrise-t-il son œuvre comme un savoir-faire, au risque de n’inventer plus rien, ou l’invente-t-il à l’aveugle, au risque de n’en être plus l’auteur ?','ok','Oui : le métier et l’invention, chacun avec son risque.'],
+   ['L’artiste maîtrise-t-il son œuvre comme un savoir-faire, qui ne laisse plus rien à inventer, ou l’invente-t-il à l’aveugle, sans plus en être l’auteur ?','ok','Oui : le métier et l’invention, chacun avec ce qu’il perd.'],
    ['L’artiste sait-il ou ne sait-il pas ce qu’il fait ?','no','C’est le sujet redit : aucune perte n’apparaît.'],
    ['Comment l’artiste pourrait-il savoir ce qu’il fait, puisque l’inspiration le dépasse ?','no','La question a déjà répondu : elle suppose qu’il ne le sait pas.']]}
  ]}

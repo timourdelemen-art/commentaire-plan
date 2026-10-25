@@ -589,7 +589,7 @@ niveau1: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Comment juger un acte raisonnablement décidé lorsque ses conséquences imprévisibles en révèlent ensuite le mal ?",
+          "Doit-on répondre d’un mal que nos meilleures raisons ne permettaient pas de prévoir ?",
           "ok",
           "La question reprend exactement la difficulté laissée par la réponse de III.3."
         ],
@@ -864,7 +864,7 @@ niveau1: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Comment contrôler les moyens et les risques d’une recherche sans exiger d’elle la prévision des découvertes qui justifient sa liberté ?",
+          "Qui peut juger les moyens d’une recherche dont ni les bénéfices ni les risques ne sont encore connus ?",
           "ok",
           "La question reprend exactement la difficulté laissée par la réponse de III.3."
         ],
@@ -1689,7 +1689,7 @@ niveau1: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Comment maintenir des convictions communes assez fortes pour nous unir, sans les rendre sacrées au point d’interdire leur examen ?",
+          "Des convictions assez fortes pour unir les hommes peuvent-elles rester ouvertes à l’examen qui les a fondées ?",
           "ok",
           "La question reprend exactement la difficulté laissée par la réponse de III.3."
         ],
@@ -1964,7 +1964,7 @@ niveau1: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Comment choisir ce qu’il faut restaurer sans faire de nos préférences la seule mesure d’une nature que nous voulons autonome ?",
+          "Au nom de quoi choisir le milieu à restaurer, si ce ne doit pas être au nom de nos seules préférences ?",
           "ok",
           "La question reprend exactement la difficulté laissée par la réponse de III.3."
         ],
@@ -2746,7 +2746,7 @@ niveau2: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Comment une pensée nouvelle peut-elle devenir partageable lorsque les mots par lesquels elle cherche à se dire ne sont pas encore compris ?",
+          "Une pensée nouvelle peut-elle devenir commune avant que les mots qui la disent soient compris ?",
           "ok",
           "La question reprend exactement la difficulté laissée par la réponse de III.3."
         ],

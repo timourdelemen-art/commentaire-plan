@@ -324,3 +324,18 @@ Sur l’ensemble : 15562 → 15629 mots.
 - **Transition II → III** — avant : « Comment reconnaître ce besoin sans imposer à tous les mêmes œuvres et les mêmes goûts ? »  
   après : « Avoir besoin d’art, est-ce avoir besoin de certaines œuvres ? »
 
+
+## Troisième passe : reste, fonctions en marge, exercices
+
+**Reste et question finale.** Les vingt restes ont été relus face à la nouvelle troisième partie : chacun naît de la transformation retenue et ne la réfute pas (V7.3, 5.7 ; mini-protocole C4). Un seul était en décalage de vocabulaire (État : « ce partage ») ; il est repris. Six questions finales sur vingt changent de forme pour rompre la série « Comment… sans… ? » (13 sur 20 auparavant, 7 désormais) : religion, science, langage, bien agir, nature, technique.
+
+**Fonctions en marge.** Toutes les phrases réécrites ont été relues avec leur fonction. Fonctions nouvelles : « Ce que la notion demande : deux exigences », « une seule question, deux pertes », « Transition · … ce que les deux réponses supposaient ensemble », « III.1 Revenir au problème : ce que les deux réponses supposaient, transformé », « III.2 L’objection la plus forte, et sa réponse », « La réponse au sujet, et ce qui a changé », « Le retour à la scène : ce que le raisonnement y fait voir ». Corrigées parce qu’elles ne décrivaient plus la phrase : artiste I.2, science I.1, paroles I.3, État III.2, art III.2, et sept étiquettes de conclusion.
+
+**Exercices alignés sur les copies.**
+- Plan pas à pas (`philosophie-plan-data.js`) : les bonnes réponses qui reprennent la copie (limites, problématiques, question finale) sont alignées.
+- Trouver le problème (`philosophie-chaine-data.js`) : les trois problématiques tirées de ces copies (science, artiste, bien agir) sont remplacées, et la justification dit « ce qu’elle perd » au lieu de « ce qu’elle risque ».
+- La troisième partie, en quatre étapes (`philosophie-resolutions-20-data.js`) : exigences, réponses et limites des parties I et II, solution retenue, prix, reste et question finale alignés ; l’étape 3 affiche désormais la question de la transition II → III, à laquelle la troisième partie doit répondre ; l’étiquette du bouton de la solution retenue (« duplication ontologique + métamorphose », vocabulaire interne interdit sur les pages élèves, qui trahissait en outre la bonne réponse) est remplacée par une formule simple.
+- Choisir la troisième partie (`philosophie-resolution-exercices-data*.js`) : exigences, proposition retenue, prix, reste et question alignés.
+- Corrigés des annales et des notions : régénérés.
+
+**Restent hors de cette PR.** Le reste de l’exercice « Trouver le problème », construit sur d’autres sujets, enseigne encore « deux risques » ; dans les QCM, la bonne réponse reste souvent la plus longue (défaut antérieur) ; les audits internes datés (`data/philosophie-reexamen-20-matrices.json`, `data/philosophie-audit-reste.json`) décrivent l’état du 18 octobre et ne sont pas réécrits.

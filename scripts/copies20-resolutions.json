@@ -21,7 +21,7 @@
             "Une force commune qui impose le même droit à tous",
             "Un jugement capable de dire qu’une loi est injuste"
           ],
-          "cost": "Reste le cas où le pouvoir ferme les voies de contestation : les garanties qui rendent ce partage juste ne peuvent plus être présupposées.",
+          "cost": "Reste le cas où le pouvoir ferme les voies de contestation : les garanties dont dépend cette répartition des rôles ne peuvent plus être présupposées.",
           "remainingProblem": "Lorsque l’État détruit les voies par lesquelles on pouvait le corriger, comment lui résister sans abandonner l’exigence d’une justice commune ?"
         },
         {
@@ -47,18 +47,18 @@
       "comparison": "Le partage contrôlable conserve force et critique simultanément ; il coûte moins qu’une réduction de toute justice à la mobilisation ou à une succession sans contre-pouvoirs.",
       "strongestObjection": "Les citoyens peuvent défendre eux aussi une injustice.",
       "responseToObjection": "Le contrôle doit pluraliser les voix et les voies de recours, et non sanctifier l’opinion majoritaire.",
-      "residual": "Reste le cas où le pouvoir ferme les voies de contestation : les garanties qui rendent ce partage juste ne peuvent plus être présupposées.",
+      "residual": "Reste le cas où le pouvoir ferme les voies de contestation : les garanties dont dépend cette répartition des rôles ne peuvent plus être présupposées.",
       "conclusionQuestion": "Lorsque l’État détruit les voies par lesquelles on pouvait le corriger, comment lui résister sans abandonner l’exigence d’une justice commune ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 835
+        "words": 836
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "6c304dd53c58cbabf5c309f1c1ad5130f582bbc2cdd91f9cc28e99008be8526a",
+      "copySha256": "810f63b19cd023980946a24529b8bf5cc4a29cfb3cead4e54c98b972977ffcb7",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -94,7 +94,7 @@
             "Rester faite d’hommes qui jugent par eux-mêmes"
           ],
           "cost": "Reste que des principes discutables peuvent être sacralisés : un lien initialement ouvert à la critique peut devenir un dogme qui interdit de le contester.",
-          "remainingProblem": "Comment maintenir des convictions communes assez fortes pour nous unir, sans les rendre sacrées au point d’interdire leur examen ?"
+          "remainingProblem": "Des convictions assez fortes pour unir les hommes peuvent-elles rester ouvertes à l’examen qui les a fondées ?"
         },
         {
           "id": "alternative-a",
@@ -120,17 +120,17 @@
       "strongestObjection": "Les principes laïques peuvent devenir aussi dogmatiques qu’un culte.",
       "responseToObjection": "La différence porte sur la possibilité de critique, non sur une immunité de la laïcité à tout dogmatisme.",
       "residual": "Reste que des principes discutables peuvent être sacralisés : un lien initialement ouvert à la critique peut devenir un dogme qui interdit de le contester.",
-      "conclusionQuestion": "Comment maintenir des convictions communes assez fortes pour nous unir, sans les rendre sacrées au point d’interdire leur examen ?",
+      "conclusionQuestion": "Des convictions assez fortes pour unir les hommes peuvent-elles rester ouvertes à l’examen qui les a fondées ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 860
+        "words": 858
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "fa6034d4762a42f8530b28283d5c5126370b303879890f0ba7f433d711174e8d",
+      "copySha256": "e1d498f3bab91d80fc8293486c3a06bd48baa058078af5823338c163c6c606a1",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -202,7 +202,7 @@
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "efd7ebb0662792817bb9a45904244f1386a8df538c0b756f62f651e49fa55221",
+      "copySha256": "ecafe7170872c52cd7ad6468e7b555a34d7f3b2cb3b58b72ccbb479175d3600a",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -238,7 +238,7 @@
             "Répondre de ce que ses vérités permettent de faire"
           ],
           "cost": "Reste la difficulté de juger publiquement une recherche dont ni les bénéfices ni certains risques ne sont encore connus.",
-          "remainingProblem": "Comment contrôler les moyens et les risques d’une recherche sans exiger d’elle la prévision des découvertes qui justifient sa liberté ?"
+          "remainingProblem": "Qui peut juger les moyens d’une recherche dont ni les bénéfices ni les risques ne sont encore connus ?"
         },
         {
           "id": "alternative-a",
@@ -264,17 +264,17 @@
       "strongestObjection": "Le contrôle public peut censurer les questions dont il ne comprend pas l’intérêt.",
       "responseToObjection": "Distinguer justification des moyens et promesse de rendement protège l’inconnu ; la légitimité du contrôle demeure le reste à discuter.",
       "residual": "Reste la difficulté de juger publiquement une recherche dont ni les bénéfices ni certains risques ne sont encore connus.",
-      "conclusionQuestion": "Comment contrôler les moyens et les risques d’une recherche sans exiger d’elle la prévision des découvertes qui justifient sa liberté ?",
+      "conclusionQuestion": "Qui peut juger les moyens d’une recherche dont ni les bénéfices ni les risques ne sont encore connus ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 833
+        "words": 831
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "7981866587eb50a021b71476417049b7449c82fdfbccdf5026f4b4675518c6a7",
+      "copySha256": "feb6cfd00d0d57482651a69bd595dff8b821a434bce336e1388d02f92f5c969d",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -346,7 +346,7 @@
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "a545191073fe2f71584e10c3e23cfcd88ef5a23c02e8c003d0bab0f77dbee521",
+      "copySha256": "4bd7088ac06b5c8f9eac9b3446f057a3b189086d1459c310d3e3e59dff68ff62",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -382,7 +382,7 @@
             "Laisser juger ce qu’il fait penser"
           ],
           "cost": "Reste que cette transformation dépend de ressources partagées : une expérience peut demeurer difficile à communiquer tant que d’autres ne reconnaissent pas les mots proposés.",
-          "remainingProblem": "Comment une pensée nouvelle peut-elle devenir partageable lorsque les mots par lesquels elle cherche à se dire ne sont pas encore compris ?"
+          "remainingProblem": "Une pensée nouvelle peut-elle devenir commune avant que les mots qui la disent soient compris ?"
         },
         {
           "id": "alternative-a",
@@ -408,17 +408,17 @@
       "strongestObjection": "Un régime peut supprimer les moyens de critique.",
       "responseToObjection": "La copie n’affirme pas une liberté garantie : elle distingue la possibilité de travailler la langue de sa suppression institutionnelle.",
       "residual": "Reste que cette transformation dépend de ressources partagées : une expérience peut demeurer difficile à communiquer tant que d’autres ne reconnaissent pas les mots proposés.",
-      "conclusionQuestion": "Comment une pensée nouvelle peut-elle devenir partageable lorsque les mots par lesquels elle cherche à se dire ne sont pas encore compris ?",
+      "conclusionQuestion": "Une pensée nouvelle peut-elle devenir commune avant que les mots qui la disent soient compris ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 772
+        "words": 765
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "ff14017e555da8a7f31c6bae450a22ae7eeefb86b38c147f9725397f58bce7b7",
+      "copySha256": "0083c75a634563ce88ecf1c4cb6e01bd6d82c0b8f3a132ffbffe92ab2a36caa0",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -454,7 +454,7 @@
             "Faire effectivement du bien"
           ],
           "cost": "Reste qu’un effet imprévisible peut conduire à réviser l’appréciation d’un choix pourtant raisonnable au moment d’agir.",
-          "remainingProblem": "Comment juger un acte raisonnablement décidé lorsque ses conséquences imprévisibles en révèlent ensuite le mal ?"
+          "remainingProblem": "Doit-on répondre d’un mal que nos meilleures raisons ne permettaient pas de prévoir ?"
         },
         {
           "id": "alternative-a",
@@ -480,17 +480,17 @@
       "strongestObjection": "Une décision justifiée peut avoir des conséquences mauvaises.",
       "responseToObjection": "Le jugement reste révisable ; distinguer raisons disponibles et effets ultérieurs est précisément l’objet de la question finale.",
       "residual": "Reste qu’un effet imprévisible peut conduire à réviser l’appréciation d’un choix pourtant raisonnable au moment d’agir.",
-      "conclusionQuestion": "Comment juger un acte raisonnablement décidé lorsque ses conséquences imprévisibles en révèlent ensuite le mal ?",
+      "conclusionQuestion": "Doit-on répondre d’un mal que nos meilleures raisons ne permettaient pas de prévoir ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 814
+        "words": 812
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "a8893aa778ea4189b654835f83c640bcfe2af28306b8152fae128fec6358f838",
+      "copySha256": "24edce0a7ea95276693060b046a27a9d1359ce24cae6562d66b2282873df94f7",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -526,7 +526,7 @@
             "Conserver les milieux et les espèces qui la composent"
           ],
           "cost": "Reste que choisir le milieu à restaurer suppose un jugement humain : quelle autonomie préserver quand plusieurs formes de vie entrent en conflit ?",
-          "remainingProblem": "Comment choisir ce qu’il faut restaurer sans faire de nos préférences la seule mesure d’une nature que nous voulons autonome ?"
+          "remainingProblem": "Au nom de quoi choisir le milieu à restaurer, si ce ne doit pas être au nom de nos seules préférences ?"
         },
         {
           "id": "alternative-a",
@@ -552,17 +552,17 @@
       "strongestObjection": "Restaurer implique de choisir humainement un état du milieu.",
       "responseToObjection": "Ce choix ne devient pas neutre : il constitue le coût explicite et le point de départ de la conclusion.",
       "residual": "Reste que choisir le milieu à restaurer suppose un jugement humain : quelle autonomie préserver quand plusieurs formes de vie entrent en conflit ?",
-      "conclusionQuestion": "Comment choisir ce qu’il faut restaurer sans faire de nos préférences la seule mesure d’une nature que nous voulons autonome ?",
+      "conclusionQuestion": "Au nom de quoi choisir le milieu à restaurer, si ce ne doit pas être au nom de nos seules préférences ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 773
+        "words": 774
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "f033c53c272507bf17312e7f2252a64f678131c1f2976776e9b9021e714fac10",
+      "copySha256": "b8ae4fbc84fe9f208251dd7d7b1a84634a2926bd7e418c09df77913a20b01cfd",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -706,7 +706,7 @@
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "e195761b98a0a0a03381f88918777e4a7edf076b3f693a5839fae68c30d9f293",
+      "copySha256": "a3f09884a02195cc894f53f21bae53acab75bd46905bfbc98a6d0463e0c0a352",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -922,7 +922,7 @@
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "6e07c99affc982d90abeada3bfab4dde807ecc2a7c0d7ff3e5bfb94349084258",
+      "copySha256": "30d3b6a8ed7ad0bd7776a09ceec3529208a6123afc5905c35f4b0c7d69222961",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -958,7 +958,7 @@
             "Que ce pouvoir reste le nôtre : pouvoir ne pas l’exercer"
           ],
           "cost": "Reste que des conséquences décisives peuvent être inconnues : le jugement doit parfois décider sans pouvoir établir complètement la sécurité d’un projet.",
-          "remainingProblem": "Comment décider d’un possible technique lorsque ses risques sont incertains et que l’attente elle-même peut priver les hommes d’un bien ?"
+          "remainingProblem": "Faut-il agir quand les risques d’un possible technique restent incertains et que l’attente elle-même peut priver les hommes d’un bien ?"
         },
         {
           "id": "alternative-a",
@@ -984,7 +984,7 @@
       "strongestObjection": "Refuser dans l’incertitude peut priver d’un remède.",
       "responseToObjection": "Le risque de ne pas agir entre dans la comparaison ; son arbitrage avec le risque de réalisation est le reste.",
       "residual": "Reste que des conséquences décisives peuvent être inconnues : le jugement doit parfois décider sans pouvoir établir complètement la sécurité d’un projet.",
-      "conclusionQuestion": "Comment décider d’un possible technique lorsque ses risques sont incertains et que l’attente elle-même peut priver les hommes d’un bien ?",
+      "conclusionQuestion": "Faut-il agir quand les risques d’un possible technique restent incertains et que l’attente elle-même peut priver les hommes d’un bien ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
         "words": 849
@@ -994,7 +994,7 @@
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "614c20114544fd310cd528dac49601a29a550382f1942bffd5f3dfc9c1ed06fa",
+      "copySha256": "863f2ae2e1f08c81a7b6b4700a0320fd85c8e02524d0f801ae83f0719a87c996",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -1138,7 +1138,7 @@
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "f4ac4749e90279a5946873f65ce239614ff8a04c06c1485b320353ee74938eb0",
+      "copySha256": "5bee5533dce90b9b013a95eb21d51dd547d8fab6dc344906c6a19a2bd2f21263",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -1447,7 +1447,7 @@
         "title": "Avons-nous besoin d’art ?",
         "sourceDocument": "Document officiel de la session 2025, libellé contrôlé page 2 ; index ministériel lié dans la page."
       },
-      "copySha256": "be2897c2d637647b46ab99f94db6729ca8eb66fa102720587cdec9f2ea0bbac9",
+      "copySha256": "fa045f2d770b1aa7b2c80bae49f14afa8f8b1b6dbbec3e672a29a9f9939e182d",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
