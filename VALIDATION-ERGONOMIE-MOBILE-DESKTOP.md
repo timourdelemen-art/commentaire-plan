@@ -64,3 +64,19 @@ Périmètre contrôlé par comparaison GitHub avec le commit initial `353d348656
 - **SEO / Netlify** : reconstruire puis contrôler les redirections et la publication.
 
 La présence d'un test dans le dépôt ne prouve pas sa réussite. Tout échec doit être diagnostiqué et corrigé avant de déclarer le périmètre validé.
+
+## Règle impérative de conservation des contenus
+
+**Aucun devoir, sujet, exercice, corrigé, copie annotée, référence, aide, niveau ou fonctionnalité IA existante ne peut être supprimé au nom de la simplification ergonomique.** Les interventions autorisées consistent à réordonner, regrouper, rendre repliable, filtrer ou relier des contenus, tout en garantissant leur accessibilité.
+
+### Avant toute réorganisation
+1. Inventorier les URL, les titres, les identifiants d'exercices, les étapes et les liens vers les copies.
+2. Comparer les nombres et les identifiants avant/après.
+3. Vérifier qu'une ressource masquée dans un accordéon reste accessible au clavier, au toucher et sans lien cassé.
+4. Tester la sauvegarde, le passage des niveaux cliquables aux niveaux écrits et les retours réels.
+5. En cas de disparition ou de régression, bloquer la publication et restaurer l'accès.
+
+### Contrôles déjà ajoutés
+Dans `scripts/check-browser-integration.cjs`, assertions de conservation des 13 sujets interactifs de `bac-dissertation.html`, de l'accès aux copies modèles, du script d'exercice et des quatre parcours de `bac-commentaire.html`.
+
+**Attention :** ces assertions ne couvrent pas encore l'inventaire intégral de toutes les ressources du site. Elles constituent un premier filet de sécurité ; le recensement exhaustif reste nécessaire.
