@@ -3,10 +3,18 @@
 // réponse modèle avec un véritable retour IA.
 const fs=require('node:fs'),path=require('node:path');
 const root=path.resolve(__dirname,'..');
-const files=fs.readdirSync(root).filter(x=>x.endsWith('.html')&&/^(bac-|commentaire-|philosophie-|brevet-|dissertation-philosophie)/.test(x));
+function walk(dir){
+  return fs.readdirSync(dir,{withFileTypes:true}).flatMap(ent=>{
+    if(['.git','node_modules','.netlify'].includes(ent.name))return [];
+    const full=path.join(dir,ent.name);
+    if(ent.isDirectory())return walk(full);
+    return ent.isFile()&&ent.name.endsWith('.html')?[full]:[];
+  });
+}
+const files=walk(root).filter(x=>/^(bac-|commentaire-|philosophie-|brevet-|dissertation-philosophie|hlp-|entrainement-annale)/.test(path.basename(x)));
 const rows=[];
 for(const file of files){
-  const html=fs.readFileSync(path.join(root,file),'utf8');
+  const html=fs.readFileSync(file,'utf8');
   const main=(html.match(/<main\b[^>]*>([\s\S]*?)<\/main>/i)||[])[1]||'';
   if(!main)continue;
   const title=(main.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i)||[])[1]?.replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim()||file;
@@ -15,7 +23,7 @@ for(const file of files){
   const aiClaim=/\b(?:retour (?:personnalisé|de l.IA)|correction par l.IA|analyse par l.IA)\b/i.test(main);
   const scripts=[...html.matchAll(/<script[^>]+src=["']([^"']+)/g)].map(m=>m[1]);
   if(!click&&!write&&!aiClaim)continue;
-  rows.push({file,title,clickableUi:click,writtenUi:write,aiClaim,scriptReferences:scripts,
+  rows.push({file:path.relative(root,file).split(path.sep).join('/'),title,clickableUi:click,writtenUi:write,aiClaim,scriptReferences:scripts,
     needsReview:(!click||!write||aiClaim)});
 }
 const summary={pagesExamined:files.length,exerciseCandidates:rows.length,
