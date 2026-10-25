@@ -35,6 +35,26 @@ for(const file of files){
   if(lost.length)findings.push({file,type:'REFERENCES_DISPARUES_A_VERIFIER',element:key,valeurs:lost});
  }
 }
+// Vérifier aussi les exercices conservés dans le catalogue JavaScript.
+const vm=require('node:vm');
+const catalogPath='annales/catalogue-annales.js';
+function catalogIds(source){
+ const context={window:{}};vm.runInNewContext(source,context,{timeout:3000});
+ return context.window.ANNALES_CATALOGUE||{};
+}
+if(fs.existsSync(path.join(root,catalogPath))){
+ try{
+  const old=catalogIds(readOld(catalogPath));
+  const now=catalogIds(fs.readFileSync(path.join(root,catalogPath),'utf8'));
+  for(const [id,exercise] of Object.entries(old)){
+   if(!now[id]){findings.push({file:catalogPath,type:'EXERCICE_CATALOGUE_ABSENT',id});continue;}
+   const before=(exercise.etapes||[]).map(x=>x.id);
+   const after=new Set((now[id].etapes||[]).map(x=>x.id));
+   const missing=before.filter(id=>!after.has(id));
+   if(missing.length)findings.push({file:catalogPath,type:'ETAPES_DISPARUES',id,etapes:missing});
+  }
+ }catch(e){findings.push({file:catalogPath,type:'CATALOGUE_NON_VERIFIABLE',message:e.message});}
+}
 const result={reference:base,pagesComparees:files.filter(relevant).length,alertes:findings.length,findings};
 console.log(JSON.stringify(result,null,2));
 if(findings.length)process.exitCode=1;
