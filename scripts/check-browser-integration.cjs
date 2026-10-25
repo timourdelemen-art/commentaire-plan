@@ -3,7 +3,7 @@
 const fs=require('node:fs'),path=require('node:path'),http=require('node:http'),assert=require('node:assert/strict');
 const {chromium}=require('playwright');
 const root=path.resolve(process.argv[2]||'.');
-const pages=[...new Set(['index.html','bibliotheque.html','bibliotheque-litterature.html','annales.html','philosophie.html','philosophie-banque.html','philosophie-explication.html','philosophie-exemples.html','philosophie-troisieme-resolutions.html','hlp.html','hlp-premiere.html','hlp-terminale.html','hlp-ecrire.html','brevet.html','brevet-lecture-parcours.html',...fs.readdirSync(root).filter(n=>/^(hlp-parcours-.*|philosophie-explication-.+|philosophie-copie-20-.+|philosophie-notion-.+|philosophie-bac-2026-.+)\.html$/.test(n))])];
+const pages=[...new Set(['index.html','bac-dissertation.html','bibliotheque.html','bibliotheque-litterature.html','annales.html','philosophie.html','philosophie-banque.html','philosophie-explication.html','philosophie-exemples.html','philosophie-troisieme-resolutions.html','hlp.html','hlp-premiere.html','hlp-terminale.html','hlp-ecrire.html','brevet.html','brevet-lecture-parcours.html',...fs.readdirSync(root).filter(n=>/^(hlp-parcours-.*|philosophie-explication-.+|philosophie-copie-20-.+|philosophie-notion-.+|philosophie-bac-2026-.+)\.html$/.test(n))])];
 const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript','.css':'text/css','.svg':'image/svg+xml','.json':'application/json','.png':'image/png','.jpg':'image/jpeg','.woff2':'font/woff2'};
 const server=http.createServer((req,res)=>{const file=path.resolve(root,'.'+new URL(req.url,'http://localhost').pathname);if(!file.startsWith(root+path.sep))return res.writeHead(403).end();fs.readFile(file,(e,b)=>{if(e)return res.writeHead(404).end();res.writeHead(200,{'Content-Type':mime[path.extname(file)]||'application/octet-stream'}).end(b);});});
 const results=[];
@@ -21,7 +21,17 @@ async function checkNavigation(page,name){
    assert(await page.locator('[id]').evaluateAll((els,target)=>els.some(el=>el.id===target),id),'Ancre introuvable : '+name+' '+href);
   }
  }
- if(name==='philosophie.html'){
+ if(name==='bac-dissertation.html'){
+  assert.equal(await page.locator('main nav.annales-jump').count(),1,'Navigation de dissertation dupliquée');
+  assert(await page.locator('#diss-demarrer a[href="#diss-probleme"]').count()===1,'Lien de démarrage absent');
+  assert.equal(await page.locator('#diss-probleme [data-level]').count(),2,'Les niveaux au clic et écrit doivent exister');
+  const resources=page.locator('#diss-ressources details');
+  assert.equal(await resources.count(),1,'Modèles facultatifs absents');
+  assert(!(await resources.evaluate(el=>el.open)),'Modèles ouverts par défaut');
+  await resources.locator('summary').click();
+  assert(await resources.evaluate(el=>el.open),'Modèles impossibles à ouvrir');
+}
+if(name==='philosophie.html'){
   assert.equal(await page.locator('.sequence-spec [data-parcours] .parcours-check').count(),0,'Anciennes cases de suivi');
   const sections=page.locator('#comprendre details');
   assert.equal(await sections.count(),2,'Les deux sections facultatives doivent être présentes');
@@ -75,7 +85,7 @@ async function journeys(page,name,width){
 }
 (async()=>{
  await new Promise(r=>server.listen(0,'127.0.0.1',r));const base='http://127.0.0.1:'+server.address().port+'/';const browser=await chromium.launch({headless:true});fs.mkdirSync(path.join(root,'browser-audit'),{recursive:true});
- for(const width of [390,1280]){
+ for(const width of [390,768,1280]){
   const context=await browser.newContext({viewport:{width,height:900}});
   for(const name of pages){
    const page=await context.newPage(),errors=[];page.setDefaultTimeout(5000);page.on('pageerror',e=>errors.push(e.message));
