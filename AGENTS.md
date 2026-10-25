@@ -133,6 +133,8 @@ Format : date · ce qui s’est passé · la règle qui en découle. Proposez un
 - 2026-10-10 · Les questions condensées publiées l’après-midi commençaient par « Comment… » sur des sujets oui/non, alors que le test du gant l’interdit déjà ; le test sur 50 sujets l’a montré. · Une condensation garde l’opérateur et les petits mots du sujet ; « sans » ne relie que deux exigences de la notion, jamais un danger.
 - 2026-10-25 · Le plan pas à pas des dix sujets adossés aux copies à 20 affichait aux élèves une justification interne (« Cette proposition reprend l’argument de la copie révisée… ») et, pour la version 3 des données, des repères « undefined ». · Après toute révision de copie, régénérer depuis la copie les exercices qui en dépendent, puis parcourir l’exercice en entier dans le navigateur, panneau « Votre plan se construit » compris.
 
+- 2026-10-25 · Des copies littéraires à 20 n’avaient que deux sous-parties par partie, complétées par une phrase isolée « ce que la partie n’explique pas encore », et Dorion n’offrait pas la fonction des phrases sur toutes les copies. · Contrôler chaque copie dans le mode « copie entière » : treize paragraphes, dont trois par partie et deux transitions ; une limite se rédige à la fin d’une vraie sous-partie, jamais en paragraphe d’une phrase.
+
 ## 7. Décisions du propriétaire
 
 Prises (9 octobre 2026) :
@@ -162,3 +164,6 @@ En attente :
 - Identité de l’éditeur (mentions légales, CGV, confidentialité) et moyen de paiement, avant toute vente ; pages légales à faire relire par un juriste.
 
 - **Commentaire, X / Y** (17 octobre 2026) : la décision ci-dessus remplace les anciennes obligations « On pouvait attendre… Pourtant… » dans les méthodes, exercices et retours. Le document d’audit reste interne. Un « pourtant » de citation ou de raisonnement réel reste possible.
+
+- **Affichage des copies à 20 et corrigés** (25 octobre 2026) : partout sur le site, deux modes seulement, avec la même commande (« La copie entière » / « La fonction de chaque phrase ») fournie par `copie-modes.js`, chargé par `site-nav.js`. La copie entière est affichée par défaut : texte justifié, alinéa en tête de chaque paragraphe, sans titres ni annotations. Le mode détaillé garde le texte justifié et met la fonction de chaque phrase en regard. Ne pas créer de nouveau bouton propre à une page : le script lit la copie déjà présente (`.c20` et ses `.c20-block`, `.mr-texte`, `article.model-commentary`, corrigé intégral `#corrige-integral`).
+- **Structure d’une dissertation à 20** (25 octobre 2026) : introduction en un paragraphe ; trois parties de trois sous-parties, chaque sous-partie formant un paragraphe ; deux transitions, chacune en un paragraphe ; conclusion en un paragraphe, soit treize paragraphes. Brièveté et excellence : une sous-partie tient en trois ou quatre phrases (argument, passage qui prouve, analyse du procédé et de sa portée).

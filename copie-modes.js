@@ -71,7 +71,7 @@
   }
 
   function hideOldToggles(ids){
-    [].slice.call(document.querySelectorAll('.dc20-toggle,.c20-toggle,.mr-toggle,.c20c-toggle')).forEach(function(t){
+    [].slice.call(document.querySelectorAll('.dc20-toggle,.c20-toggle,.mr-toggle,.c20c-toggle,[data-annotations]')).forEach(function(t){
       var c=t.getAttribute('aria-controls');
       if(!c||ids.indexOf(c)>-1){t.hidden=true;t.classList.add('cm-old');}
     });

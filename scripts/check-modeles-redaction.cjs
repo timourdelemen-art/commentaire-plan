@@ -29,10 +29,16 @@ const source=normalize(JSON.parse(fs.readFileSync(path.join(__dirname,'manon-cit
      assert.equal(await article.locator('.mr-note strong').count(),expected.length);
      for(const f of await article.locator('.mr-note strong').allTextContents())assert(f.trim().length>10);
      assert.equal(await article.locator('h1,h2,h3,h4').count(),0,'Aucun titre dans la copie');
-     const toggle=page.locator(`[aria-controls="${id}"]`);await toggle.focus();await page.keyboard.press('Enter');
+     // Deux modes communs au site (copie-modes.js) : la copie entière par défaut, puis la fonction de chaque phrase.
+     const entiere=page.locator(`#${id}-entiere`);await entiere.waitFor();
+     assert.equal(await entiere.locator('p').count(),await article.locator('.mr-paragraphe').count(),'Un paragraphe par étape dans la copie entière');
+     assert.equal(await entiere.locator('p').first().evaluate(p=>getComputedStyle(p).textAlign),'justify');
+     assert.equal(normalize((await entiere.textContent())),normalize(expected.join(' ')),'La copie entière reprend exactement les phrases');
+     const toggle=page.locator(`.cm-mode[data-mode="f"][aria-controls="${id}"]`),back=page.locator(`.cm-mode[data-mode="e"][aria-controls="${id}"]`);
+     await toggle.focus();await page.keyboard.press('Enter');
      assert.equal(await toggle.getAttribute('aria-pressed'),'true');assert.equal(await article.locator('.mr-note:visible').count(),expected.length);
      assert.deepEqual((await article.locator('.mr-text').allTextContents()).map(normalize),expected,'Le texte reste strictement identique dans les deux vues');
-     await toggle.click();assert.equal(await article.locator('.mr-note:visible').count(),0);
+     await back.click();assert.equal(await article.locator('.mr-note:visible').count(),0);assert(await entiere.isVisible());
      if(name.includes('manon')){
       assert.deepEqual(await article.locator('[data-step]').evaluateAll(xs=>xs.map(x=>x.dataset.step)),['I.1','I.2','I.3','II.1','II.2','II.3','III.1','III.2','III.3']);
       for(const p of await article.locator('[data-stage^="Transition"]').allTextContents())assert(normalize(p).includes('?'),'Transitions sous forme de questions');
