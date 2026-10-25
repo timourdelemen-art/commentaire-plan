@@ -133,7 +133,7 @@ window.PHILO_RESOLUTION_CASES={
       "solutions": [
         {
           "id": "retenue",
-          "title": "Une possibilité imprévue n’est pas un hasard simplement subi si l’artiste la reconnaît, la juge et la retravaille. Son savoir porte aussi sur cette capacité de faire évoluer son projet.",
+          "title": "Une possibilité imprévue n’est pas un hasard subi si l’artiste la reconnaît, la juge et la retravaille.",
           "keeps": [
             "Être l’auteur de son œuvre",
             "Faire une œuvre nouvelle, qu’aucune recette ne contient"
@@ -189,13 +189,13 @@ window.PHILO_RESOLUTION_CASES={
       "solutions": [
         {
           "id": "retenue",
-          "title": "Ne pas imposer une application connue d’avance n’interdit pas d’examiner un protocole, ses dangers ou l’emploi des ressources. La liberté de chercher concerne la question scientifique ; elle n’exempte pas les pratiques de recherche de toute responsabilité.",
+          "title": "On peut ainsi laisser une recherche choisir ce qu’elle cherche, et examiner pourtant ses protocoles, ses dangers et ses moyens.",
           "keeps": [
             "Connaître le vrai pour lui-même, y compris sans usage prévisible",
             "Répondre de ce que ses vérités permettent de faire"
           ],
           "cost": "Reste la difficulté de juger publiquement une recherche dont ni les bénéfices ni certains risques ne sont encore connus.",
-          "remaining": "Qui peut juger les moyens d’une recherche dont ni les bénéfices ni les risques ne sont encore connus ?",
+          "remaining": "Qui a qualité pour juger une recherche que seuls ses pairs comprennent, au nom de tous ceux qu’elle engage ?",
           "short": "chercher librement, répondre de ses pratiques",
           "level": "défendable"
         },
@@ -224,7 +224,7 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "La responsabilité sur les pratiques dès la recherche évite le report fautif sans prescrire les résultats ; elle préserve mieux les deux acquis que le simple partage chronologique.",
-      "conclusion": "Qui peut juger les moyens d’une recherche dont ni les bénéfices ni les risques ne sont encore connus ?",
+      "conclusion": "Qui a qualité pour juger une recherche que seuls ses pairs comprennent, au nom de tous ceux qu’elle engage ?",
       "transition": "Mais l’utilité doit-elle être la fin qui choisit les questions, pour que la science ait à répondre de ses pouvoirs ?"
     },
     {
@@ -245,7 +245,7 @@ window.PHILO_RESOLUTION_CASES={
       "solutions": [
         {
           "id": "retenue",
-          "title": "La lucidité ne consiste pas seulement à accumuler les menaces : elle peut distinguer un danger réel d’une représentation qui nous tourmente inutilement. Connaître peut alors diminuer la crainte plutôt que l’accroître.",
+          "title": "La lucidité distingue alors un danger réel d’une représentation qui nous tourmente : connaître peut diminuer la crainte au lieu de l’accroître.",
           "keeps": [
             "Laisser en repos",
             "Durer face aux dangers réels"
@@ -301,7 +301,7 @@ window.PHILO_RESOLUTION_CASES={
       "solutions": [
         {
           "id": "retenue",
-          "title": "Nous pouvons contester une expression avec d’autres expressions, expliquer un mot inconnu ou comparer des traductions. La critique n’exige donc pas de sortir de tout langage : elle travaille ses ressources contre ses habitudes.",
+          "title": "Nous contestons une expression avec d’autres, comparons des traductions, définissons ce que l’usage confondait : la critique travaille les ressources du langage contre ses habitudes.",
           "keeps": [
             "Donner de quoi penser",
             "Laisser juger ce qu’il fait penser"
@@ -357,7 +357,7 @@ window.PHILO_RESOLUTION_CASES={
       "solutions": [
         {
           "id": "retenue",
-          "title": "La certitude absolue d’avoir bien agi demeure hors de portée ; un jugement justifié reste pourtant possible. Il compare les raisons accessibles, les risques prévisibles et les autres décisions possibles, puis accepte d’être révisé.",
+          "title": "Elle compare les raisons accessibles, les risques prévisibles et les autres décisions possibles : on peut être sûr de l’avoir fait, sans l’être de l’issue.",
           "keeps": [
             "Procéder d’une intention droite",
             "Faire effectivement du bien"
@@ -413,7 +413,7 @@ window.PHILO_RESOLUTION_CASES={
       "solutions": [
         {
           "id": "retenue",
-          "title": "La nature comme ensemble des processus ne dépend pas de notre présence ; des espèces et des équilibres déterminés peuvent dépendre de nos choix. Notre propre dépendance envers eux donne une raison de les protéger sans prétendre gouverner chaque processus.",
+          "title": "La nature comme ensemble de processus ne dépend pas de nous ; des milieux déterminés, que nous avons fragilisés, dépendent de nos choix : c’est à eux que le soin est dû.",
           "keeps": [
             "Se faire sans nous",
             "Conserver les milieux et les espèces qui la composent"
@@ -469,7 +469,7 @@ window.PHILO_RESOLUTION_CASES={
       "solutions": [
         {
           "id": "retenue",
-          "title": "La compassion n’oblige pas à reproduire en soi toute la souffrance dont on prend connaissance. Un bonheur peut inclure de l’inquiétude et se prolonger en aide ; la joie ne démontre alors ni l’ignorance ni l’approbation du malheur.",
+          "title": "Un bonheur peut alors inclure l’inquiétude et se prolonger en aide : la joie ne prouve ni l’ignorance ni l’approbation du malheur.",
           "keeps": [
             "Dépendre de nous",
             "Rester le bonheur d’un homme parmi les hommes"
@@ -525,7 +525,7 @@ window.PHILO_RESOLUTION_CASES={
       "solutions": [
         {
           "id": "retenue",
-          "title": "Nous pouvons choisir des mots, vérifier ce que l’autre a compris et rectifier un malentendu ; nous ne pouvons pas décider à sa place de toute interprétation. La maîtrise est donc un travail de formulation et de reprise, plutôt qu’une propriété acquise avant de parler.",
+          "title": "Nous pouvons vérifier ce que l’autre a compris et rectifier un malentendu, sans décider à sa place de toute interprétation.",
           "keeps": [
             "Nous engager : répondre de ce que nous disons",
             "Dire plus que ce que nous avions prévu"
@@ -581,7 +581,7 @@ window.PHILO_RESOLUTION_CASES={
       "solutions": [
         {
           "id": "retenue",
-          "title": "Un désir ignoré, un acte accompli et une conséquence à réparer n’engagent pas la même responsabilité. L’inconscient invite à examiner la capacité réelle de comprendre et de choisir ; la responsabilité se construit aussi lorsque nous apprenons à reconnaître ce qui nous détermine.",
+          "title": "Un désir ignoré, un acte accompli et une conséquence à réparer n’engagent donc pas la même responsabilité : on ne répond pas d’un désir comme d’un acte.",
           "keeps": [
             "N’imputer que ce que nous avons voulu",
             "Faire répondre de ce qui vient de nous"
@@ -637,7 +637,7 @@ window.PHILO_RESOLUTION_CASES={
       "solutions": [
         {
           "id": "retenue",
-          "title": "Une promesse donne à autrui une raison de compter sur nous : elle oblige au-delà de notre préférence présente. La reprendre librement consiste à reconnaître cette raison, non à décider chaque matin qu’elle ne vaut que si elle nous plaît encore.",
+          "title": "Une promesse donne à autrui une raison de compter sur nous ; la reprendre, c’est reconnaître cette raison, non décider chaque matin si elle nous plaît encore.",
           "keeps": [
             "Pouvoir choisir autrement",
             "Passer dans des actes qui durent"
@@ -693,7 +693,7 @@ window.PHILO_RESOLUTION_CASES={
       "solutions": [
         {
           "id": "retenue",
-          "title": "Avoir raison désigne la validité d’un jugement ; convaincre exige que l’autre puisse en examiner les raisons. Clarifier un terme, reprendre une objection ou proposer une vérification peut favoriser cette reconnaissance sans remplacer la preuve par la séduction.",
+          "title": "Clarifier un terme, reprendre une objection, proposer une vérification : ces gestes agissent sur l’accès aux raisons, non sur leur valeur, et ne remplacent pas la preuve par la séduction.",
           "keeps": [
             "Être produite par des raisons",
             "Être l’adhésion propre de l’autre"
@@ -749,7 +749,7 @@ window.PHILO_RESOLUTION_CASES={
       "solutions": [
         {
           "id": "retenue",
-          "title": "Le souhaitable exige de justifier la fin, les moyens et les effets prévisibles. Une fin digne ne rend pas tous ses moyens acceptables : soigner ne suffit pas à autoriser une expérience imposée à ceux qui en subiront les risques.",
+          "title": "Une fin digne ne rend pas tous ses moyens acceptables : soigner n’autorise pas une expérience imposée à ceux qui en subiront les risques.",
           "keeps": [
             "Accroître notre pouvoir",
             "Que ce pouvoir reste le nôtre : pouvoir ne pas l’exercer"
@@ -805,7 +805,7 @@ window.PHILO_RESOLUTION_CASES={
       "solutions": [
         {
           "id": "retenue",
-          "title": "Le temps permet des transformations où ce qui disparaît laisse des capacités ou des effets : l’apprentissage remplace une ignorance, une œuvre reprend une expérience. Ces gains ne rendent pas la chose perdue, mais empêchent d’assimiler tout passage à une pure ruine.",
+          "title": "L’apprentissage remplace une ignorance, une œuvre reprend une expérience : ces gains ne rendent pas ce qui est perdu, mais interdisent de tenir tout passage pour une pure ruine.",
           "keeps": [
             "Faire passer toute chose",
             "Être la durée où les choses se font"
@@ -861,7 +861,7 @@ window.PHILO_RESOLUTION_CASES={
       "solutions": [
         {
           "id": "retenue",
-          "title": "Un travail forme lorsque l’agent peut comprendre un but, développer une capacité et participer au jugement sur ce qu’il fait. Sa reconnaissance sociale importe aussi : une compétence niée peut servir autrui sans donner au travailleur une place autonome.",
+          "title": "Un travail forme lorsque l’agent peut comprendre un but, développer une capacité et participer au jugement sur ce qu’il fait.",
           "keeps": [
             "Former celui qui l’accomplit",
             "Le laisser maître de ce qu’il fait"
@@ -908,7 +908,7 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "first": {
         "idea": "Dire vrai, c’est respecter à la fois ce qui est et celui à qui l’on parle : on le traite en être capable de juger.",
-        "limit": "Une vérité dite sans égard pour celui qui l’entend cesse de l’éclairer : Oronte n’apprend rien, il se vexe."
+        "limit": "Elle cesse alors d’éclairer : Oronte n’apprend rien, il se vexe."
       },
       "second": {
         "idea": "Dire une vérité est un acte adressé à quelqu’un : sa valeur ne dépend pas seulement de l’exactitude de l’énoncé, mais des droits et des besoins de ceux qu’il concerne.",
@@ -917,7 +917,7 @@ window.PHILO_RESOLUTION_CASES={
       "solutions": [
         {
           "id": "retenue",
-          "title": "Une vérité est vraie indépendamment de l’opportunité de la dire. La véracité interdit de présenter sciemment le faux comme vrai ; elle ne suffit pas à établir un devoir de révéler un secret ou une information qui concerne un tiers.",
+          "title": "Le secret médical, la confidence d’un ami, la vie privée d’un tiers sont ainsi des vérités que l’on peut taire sans mentir.",
           "keeps": [
             "Ne pas tromper",
             "Éclairer celui à qui l’on parle"
@@ -964,7 +964,7 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "first": {
         "idea": "Une vérité est convaincante lorsqu’on peut montrer pourquoi il faut l’admettre. Une démonstration ne demande pas de croire son auteur : elle présente des relations que chacun peut vérifier.",
-        "limit": "Mais si la preuve suffit, qui ne la reconnaît pas ne peut être que déraisonnable : on cesse de lui parler en esprit capable de juger."
+        "limit": "si la preuve suffit, qui ne la reconnaît pas ne peut être que déraisonnable : on cesse de lui parler en esprit capable de juger."
       },
       "second": {
         "idea": "Une conviction reçue, un intérêt menacé ou une difficulté de compréhension peut empêcher d’examiner une vérité. Le prisonnier revenu de la caverne ne parle pas depuis l’expérience de ceux qu’il veut éclairer.",
@@ -973,7 +973,7 @@ window.PHILO_RESOLUTION_CASES={
       "solutions": [
         {
           "id": "retenue",
-          "title": "Distinguer validité et réception ne les sépare pas définitivement : expliquer les termes, reconstruire un raisonnement et répondre aux objections peut permettre à l’autre de reconnaître lui-même ce qui justifie l’affirmation.",
+          "title": "Expliquer les termes, reconstruire un raisonnement, répondre aux objections : c’est permettre à l’autre de reconnaître lui-même ce qui justifie l’affirmation.",
           "keeps": [
             "S’imposer par ses raisons",
             "Être reconnue par d’autres esprits"
@@ -1029,7 +1029,7 @@ window.PHILO_RESOLUTION_CASES={
       "solutions": [
         {
           "id": "retenue",
-          "title": "Le rapport va dans les deux sens : nos fins orientent les techniques, mais celles-ci transforment nos fins et nos possibilités. Choisir l’avenir exige donc de juger aussi la manière dont les moyens nous rendent dépendants.",
+          "title": "Choisir l’avenir exige donc de juger aussi les moyens, et les dépendances qu’ils créent, au moment où on les adopte.",
           "keeps": [
             "Être rendu possible par des moyens",
             "Rester le nôtre : choisi"

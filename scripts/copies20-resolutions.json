@@ -51,14 +51,14 @@
       "conclusionQuestion": "Lorsque l’État détruit les voies par lesquelles on pouvait le corriger, comment lui résister sans abandonner l’exigence d’une justice commune ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 836
+        "words": 817
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "810f63b19cd023980946a24529b8bf5cc4a29cfb3cead4e54c98b972977ffcb7",
+      "copySha256": "59f2780160793f072fd74b997fa108954cc088b51d8575579ed44d7c0d8f3c7d",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -123,14 +123,14 @@
       "conclusionQuestion": "Des convictions assez fortes pour unir les hommes peuvent-elles rester ouvertes à l’examen qui les a fondées ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 858
+        "words": 843
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "e1d498f3bab91d80fc8293486c3a06bd48baa058078af5823338c163c6c606a1",
+      "copySha256": "1b167199962f1b42c5b8e1142067856c9d27e56ef15329d7a4f10352e9ed4f11",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -160,7 +160,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Une possibilité imprévue n’est pas un hasard simplement subi si l’artiste la reconnaît, la juge et la retravaille. Son savoir porte aussi sur cette capacité de faire évoluer son projet.",
+          "proposal": "Une possibilité imprévue n’est pas un hasard subi si l’artiste la reconnaît, la juge et la retravaille.",
           "preserves": [
             "Être l’auteur de son œuvre",
             "Faire une œuvre nouvelle, qu’aucune recette ne contient"
@@ -195,14 +195,14 @@
       "conclusionQuestion": "Jusqu’où le savoir de l’artiste peut-il porter sur son œuvre, si celle-ci continue de prendre sens dans des regards qu’il ne dirige pas ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 715
+        "words": 687
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "ecafe7170872c52cd7ad6468e7b555a34d7f3b2cb3b58b72ccbb479175d3600a",
+      "copySha256": "b46c72d63571e12b859a9b87a0f8b1717e16e2acdd71da281773298911dbf3be",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -232,13 +232,13 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Ne pas imposer une application connue d’avance n’interdit pas d’examiner un protocole, ses dangers ou l’emploi des ressources. La liberté de chercher concerne la question scientifique ; elle n’exempte pas les pratiques de recherche de toute responsabilité.",
+          "proposal": "On peut ainsi laisser une recherche choisir ce qu’elle cherche, et examiner pourtant ses protocoles, ses dangers et ses moyens.",
           "preserves": [
             "Connaître le vrai pour lui-même, y compris sans usage prévisible",
             "Répondre de ce que ses vérités permettent de faire"
           ],
           "cost": "Reste la difficulté de juger publiquement une recherche dont ni les bénéfices ni certains risques ne sont encore connus.",
-          "remainingProblem": "Qui peut juger les moyens d’une recherche dont ni les bénéfices ni les risques ne sont encore connus ?"
+          "remainingProblem": "Qui a qualité pour juger une recherche que seuls ses pairs comprennent, au nom de tous ceux qu’elle engage ?"
         },
         {
           "id": "alternative-a",
@@ -264,17 +264,17 @@
       "strongestObjection": "Le contrôle public peut censurer les questions dont il ne comprend pas l’intérêt.",
       "responseToObjection": "Distinguer justification des moyens et promesse de rendement protège l’inconnu ; la légitimité du contrôle demeure le reste à discuter.",
       "residual": "Reste la difficulté de juger publiquement une recherche dont ni les bénéfices ni certains risques ne sont encore connus.",
-      "conclusionQuestion": "Qui peut juger les moyens d’une recherche dont ni les bénéfices ni les risques ne sont encore connus ?",
+      "conclusionQuestion": "Qui a qualité pour juger une recherche que seuls ses pairs comprennent, au nom de tous ceux qu’elle engage ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 831
+        "words": 792
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "feb6cfd00d0d57482651a69bd595dff8b821a434bce336e1388d02f92f5c969d",
+      "copySha256": "010776c24d860d2e6c9fbfdf2c8def7242eb00a93ccc78a5541e611427b3e262",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -304,7 +304,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "La lucidité ne consiste pas seulement à accumuler les menaces : elle peut distinguer un danger réel d’une représentation qui nous tourmente inutilement. Connaître peut alors diminuer la crainte plutôt que l’accroître.",
+          "proposal": "La lucidité distingue alors un danger réel d’une représentation qui nous tourmente : connaître peut diminuer la crainte au lieu de l’accroître.",
           "preserves": [
             "Laisser en repos",
             "Durer face aux dangers réels"
@@ -339,14 +339,14 @@
       "conclusionQuestion": "Lorsque la souffrance vient d’une perte réelle que comprendre ne supprime pas, comment la lucidité peut-elle encore contribuer au bonheur ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 716
+        "words": 678
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "4bd7088ac06b5c8f9eac9b3446f057a3b189086d1459c310d3e3e59dff68ff62",
+      "copySha256": "e96a67e570086cbc465e501b07fa9253656f64ab4fff82780526a59e77d5cab9",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -376,7 +376,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Nous pouvons contester une expression avec d’autres expressions, expliquer un mot inconnu ou comparer des traductions. La critique n’exige donc pas de sortir de tout langage : elle travaille ses ressources contre ses habitudes.",
+          "proposal": "Nous contestons une expression avec d’autres, comparons des traductions, définissons ce que l’usage confondait : la critique travaille les ressources du langage contre ses habitudes.",
           "preserves": [
             "Donner de quoi penser",
             "Laisser juger ce qu’il fait penser"
@@ -411,14 +411,14 @@
       "conclusionQuestion": "Une pensée nouvelle peut-elle devenir commune avant que les mots qui la disent soient compris ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 765
+        "words": 707
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "0083c75a634563ce88ecf1c4cb6e01bd6d82c0b8f3a132ffbffe92ab2a36caa0",
+      "copySha256": "72bd25f4d52687ef70b9dc1043c4f8dea6cb49e4fbbdd06d4bcdd8f3782ab3b8",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -448,7 +448,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "La certitude absolue d’avoir bien agi demeure hors de portée ; un jugement justifié reste pourtant possible. Il compare les raisons accessibles, les risques prévisibles et les autres décisions possibles, puis accepte d’être révisé.",
+          "proposal": "Elle compare les raisons accessibles, les risques prévisibles et les autres décisions possibles : on peut être sûr de l’avoir fait, sans l’être de l’issue.",
           "preserves": [
             "Procéder d’une intention droite",
             "Faire effectivement du bien"
@@ -483,14 +483,14 @@
       "conclusionQuestion": "Doit-on répondre d’un mal que nos meilleures raisons ne permettaient pas de prévoir ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 812
+        "words": 760
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "24edce0a7ea95276693060b046a27a9d1359ce24cae6562d66b2282873df94f7",
+      "copySha256": "065d0f2661ef503eaba1d6a55a0a4e55282574e84e3f18c38f53dc4c725135b8",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -520,7 +520,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "La nature comme ensemble des processus ne dépend pas de notre présence ; des espèces et des équilibres déterminés peuvent dépendre de nos choix. Notre propre dépendance envers eux donne une raison de les protéger sans prétendre gouverner chaque processus.",
+          "proposal": "La nature comme ensemble de processus ne dépend pas de nous ; des milieux déterminés, que nous avons fragilisés, dépendent de nos choix : c’est à eux que le soin est dû.",
           "preserves": [
             "Se faire sans nous",
             "Conserver les milieux et les espèces qui la composent"
@@ -555,14 +555,14 @@
       "conclusionQuestion": "Au nom de quoi choisir le milieu à restaurer, si ce ne doit pas être au nom de nos seules préférences ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 774
+        "words": 744
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "b8ae4fbc84fe9f208251dd7d7b1a84634a2926bd7e418c09df77913a20b01cfd",
+      "copySha256": "00ec0d04c29b454c25f6cdd2500c814a594dd8e15d66c2cae2b3d800ade6f75f",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -592,7 +592,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "La compassion n’oblige pas à reproduire en soi toute la souffrance dont on prend connaissance. Un bonheur peut inclure de l’inquiétude et se prolonger en aide ; la joie ne démontre alors ni l’ignorance ni l’approbation du malheur.",
+          "proposal": "Un bonheur peut alors inclure l’inquiétude et se prolonger en aide : la joie ne prouve ni l’ignorance ni l’approbation du malheur.",
           "preserves": [
             "Dépendre de nous",
             "Rester le bonheur d’un homme parmi les hommes"
@@ -627,14 +627,14 @@
       "conclusionQuestion": "Que doit changer celui dont le bonheur dépend d’une injustice, pour que son souci d’autrui ne demeure pas une simple bonne conscience ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 782
+        "words": 714
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "1feb37e39c27084894d4f2bfc287ae3a1ee30415730b111e476d312b88065482",
+      "copySha256": "fd6eacc17bb68f73ebeef5e1fb23b0f7036f57c954f967225ff8936c42e5842b",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -664,7 +664,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Nous pouvons choisir des mots, vérifier ce que l’autre a compris et rectifier un malentendu ; nous ne pouvons pas décider à sa place de toute interprétation. La maîtrise est donc un travail de formulation et de reprise, plutôt qu’une propriété acquise avant de parler.",
+          "proposal": "Nous pouvons vérifier ce que l’autre a compris et rectifier un malentendu, sans décider à sa place de toute interprétation.",
           "preserves": [
             "Nous engager : répondre de ce que nous disons",
             "Dire plus que ce que nous avions prévu"
@@ -699,14 +699,14 @@
       "conclusionQuestion": "Comment répondre d’une parole dont on peut corriger le sens, mais dont on ne peut plus réparer tous les effets ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 761
+        "words": 649
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "a3f09884a02195cc894f53f21bae53acab75bd46905bfbc98a6d0463e0c0a352",
+      "copySha256": "970dd1c3536a614eaaa64f3a83b0b2d81f741c5d16229fbb16f479746eaa38ec",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -736,7 +736,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Un désir ignoré, un acte accompli et une conséquence à réparer n’engagent pas la même responsabilité. L’inconscient invite à examiner la capacité réelle de comprendre et de choisir ; la responsabilité se construit aussi lorsque nous apprenons à reconnaître ce qui nous détermine.",
+          "proposal": "Un désir ignoré, un acte accompli et une conséquence à réparer n’engagent donc pas la même responsabilité : on ne répond pas d’un désir comme d’un acte.",
           "preserves": [
             "N’imputer que ce que nous avons voulu",
             "Faire répondre de ce qui vient de nous"
@@ -771,14 +771,14 @@
       "conclusionQuestion": "Comment attribuer une responsabilité juste lorsque la connaissance de ce qui a déterminé l’acte demeure incomplète ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 837
+        "words": 754
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "97c3980bade9220c0e16164e23ce8ffe78035d9a6d1c60ee855c650dc43dc0ea",
+      "copySha256": "e40baef07daa6810c0b80ea0d6d7a349629bca1f1c9eeae02f947ab68e8bdebe",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -808,7 +808,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Une promesse donne à autrui une raison de compter sur nous : elle oblige au-delà de notre préférence présente. La reprendre librement consiste à reconnaître cette raison, non à décider chaque matin qu’elle ne vaut que si elle nous plaît encore.",
+          "proposal": "Une promesse donne à autrui une raison de compter sur nous ; la reprendre, c’est reconnaître cette raison, non décider chaque matin si elle nous plaît encore.",
           "preserves": [
             "Pouvoir choisir autrement",
             "Passer dans des actes qui durent"
@@ -843,14 +843,14 @@
       "conclusionQuestion": "Quand la fidélité exige de renoncer à ce que l’on est devenu, comment juger si elle accomplit encore la liberté ou la sacrifie ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 749
+        "words": 722
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "2f4bbca00a29424d1d81fe03a280115202e635d872c567372acca2b0064725bb",
+      "copySha256": "3415d1c95716cb0361fa075dcf9a1508eb1e29729d80e10c5fea51e16eb86bc2",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -880,7 +880,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Avoir raison désigne la validité d’un jugement ; convaincre exige que l’autre puisse en examiner les raisons. Clarifier un terme, reprendre une objection ou proposer une vérification peut favoriser cette reconnaissance sans remplacer la preuve par la séduction.",
+          "proposal": "Clarifier un terme, reprendre une objection, proposer une vérification : ces gestes agissent sur l’accès aux raisons, non sur leur valeur, et ne remplacent pas la preuve par la séduction.",
           "preserves": [
             "Être produite par des raisons",
             "Être l’adhésion propre de l’autre"
@@ -915,14 +915,14 @@
       "conclusionQuestion": "Que peut encore faire la raison devant un refus de l’examiner, sans transformer la recherche de conviction en contrainte ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 808
+        "words": 781
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "30d3b6a8ed7ad0bd7776a09ceec3529208a6123afc5905c35f4b0c7d69222961",
+      "copySha256": "dd6275f5b6fc9f07ea232188d89fae9ccf6be2aabe7c96bd1d3644faea4e6348",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -952,7 +952,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Le souhaitable exige de justifier la fin, les moyens et les effets prévisibles. Une fin digne ne rend pas tous ses moyens acceptables : soigner ne suffit pas à autoriser une expérience imposée à ceux qui en subiront les risques.",
+          "proposal": "Une fin digne ne rend pas tous ses moyens acceptables : soigner n’autorise pas une expérience imposée à ceux qui en subiront les risques.",
           "preserves": [
             "Accroître notre pouvoir",
             "Que ce pouvoir reste le nôtre : pouvoir ne pas l’exercer"
@@ -987,14 +987,14 @@
       "conclusionQuestion": "Faut-il agir quand les risques d’un possible technique restent incertains et que l’attente elle-même peut priver les hommes d’un bien ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 849
+        "words": 775
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "863f2ae2e1f08c81a7b6b4700a0320fd85c8e02524d0f801ae83f0719a87c996",
+      "copySha256": "3c13c3dc2f416cd1a59c111c38abf96b50577fdb6b1d7dbaaf92f94c6e2a3c32",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -1024,7 +1024,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Le temps permet des transformations où ce qui disparaît laisse des capacités ou des effets : l’apprentissage remplace une ignorance, une œuvre reprend une expérience. Ces gains ne rendent pas la chose perdue, mais empêchent d’assimiler tout passage à une pure ruine.",
+          "proposal": "L’apprentissage remplace une ignorance, une œuvre reprend une expérience : ces gains ne rendent pas ce qui est perdu, mais interdisent de tenir tout passage pour une pure ruine.",
           "preserves": [
             "Faire passer toute chose",
             "Être la durée où les choses se font"
@@ -1059,14 +1059,14 @@
       "conclusionQuestion": "À quelles conditions ce que le temps permet de créer peut-il donner sens à une perte, sans prétendre la réparer ni la justifier ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 845
+        "words": 773
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "bdfff7399d5c625157b93e2e859ddb3b4475e5f13e0a92684a233477b23657bd",
+      "copySha256": "5e2ff58816e6e66dc782639b3175d3b888b6650c1c9d6cc32c798850916441b2",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -1096,7 +1096,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Un travail forme lorsque l’agent peut comprendre un but, développer une capacité et participer au jugement sur ce qu’il fait. Sa reconnaissance sociale importe aussi : une compétence niée peut servir autrui sans donner au travailleur une place autonome.",
+          "proposal": "Un travail forme lorsque l’agent peut comprendre un but, développer une capacité et participer au jugement sur ce qu’il fait.",
           "preserves": [
             "Former celui qui l’accomplit",
             "Le laisser maître de ce qu’il fait"
@@ -1131,14 +1131,14 @@
       "conclusionQuestion": "Comment partager les tâches nécessaires qui restent pénibles, sans réserver à certains le travail formateur et à d’autres sa seule contrainte ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 816
+        "words": 777
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "5bee5533dce90b9b013a95eb21d51dd547d8fab6dc344906c6a19a2bd2f21263",
+      "copySha256": "bcd6d177a31674814d3f114b5bb0c589236b2c70eef8dc0d935acd33d9f04e4c",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -1168,7 +1168,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Une vérité est vraie indépendamment de l’opportunité de la dire. La véracité interdit de présenter sciemment le faux comme vrai ; elle ne suffit pas à établir un devoir de révéler un secret ou une information qui concerne un tiers.",
+          "proposal": "Le secret médical, la confidence d’un ami, la vie privée d’un tiers sont ainsi des vérités que l’on peut taire sans mentir.",
           "preserves": [
             "Ne pas tromper",
             "Éclairer celui à qui l’on parle"
@@ -1203,14 +1203,14 @@
       "conclusionQuestion": "Quand protéger quelqu’un exige de rompre une confiance légitime, comment justifier ce que l’on révèle sans abolir le devoir de discrétion ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 834
+        "words": 735
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
       },
-      "copySha256": "4d0ba6575e8c0175b1bbdc986684acaac90a71e4f03e437c7243e512a9a6153c",
+      "copySha256": "fe8eb6798ce9fb7270c71e8ca7af0d25f21553038431aec647b117de3b4c662f",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -1240,7 +1240,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Distinguer validité et réception ne les sépare pas définitivement : expliquer les termes, reconstruire un raisonnement et répondre aux objections peut permettre à l’autre de reconnaître lui-même ce qui justifie l’affirmation.",
+          "proposal": "Expliquer les termes, reconstruire un raisonnement, répondre aux objections : c’est permettre à l’autre de reconnaître lui-même ce qui justifie l’affirmation.",
           "preserves": [
             "S’imposer par ses raisons",
             "Être reconnue par d’autres esprits"
@@ -1275,7 +1275,7 @@
       "conclusionQuestion": "Lorsque toute vérification est refusée, comment défendre la vérité sans confondre la conviction rationnelle avec une adhésion imposée ?",
       "economy": {
         "principle": "Préserver raisons, objection et réponse avant de supprimer une phrase.",
-        "words": 670
+        "words": 622
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
@@ -1289,7 +1289,7 @@
         "title": "La vérité est-elle toujours convaincante ?",
         "sourceDocument": "Document officiel de la session 2025, libellé contrôlé page 2 ; index ministériel lié dans la page."
       },
-      "copySha256": "101ab7abbb9cf66f7fc748b71c4b4a95a278a11ba6b1d29af71bf31592e791e2",
+      "copySha256": "76559493fa4a1f82f96832c0e598705d883eb397d63bf2480686ba0653d7ce92",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -1319,7 +1319,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Le rapport va dans les deux sens : nos fins orientent les techniques, mais celles-ci transforment nos fins et nos possibilités. Choisir l’avenir exige donc de juger aussi la manière dont les moyens nous rendent dépendants.",
+          "proposal": "Choisir l’avenir exige donc de juger aussi les moyens, et les dépendances qu’ils créent, au moment où on les adopte.",
           "preserves": [
             "Être rendu possible par des moyens",
             "Rester le nôtre : choisi"
@@ -1354,7 +1354,7 @@
       "conclusionQuestion": "Comment décider ensemble lorsque les moyens qui promettent un avenir meilleur risquent de supprimer la possibilité de le choisir autrement ?",
       "economy": {
         "principle": "Préserver raisons, objection et réponse avant de supprimer une phrase.",
-        "words": 669
+        "words": 589
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
@@ -1368,7 +1368,7 @@
         "title": "Notre avenir dépend-il de la technique ?",
         "sourceDocument": "Document officiel de la session 2025, libellé contrôlé page 2 ; index ministériel lié dans la page."
       },
-      "copySha256": "f33830a61156e1f3248d38ca83c039db9f4da70ab86996ef0e0848527dfdc446",
+      "copySha256": "0fb17682c042bf1191b82141d1ef88e21a1235ea0483554beadae16521ec6cb5",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -1433,7 +1433,7 @@
       "conclusionQuestion": "Qu’apporte une forme artistique à l’expression d’une expérience, que le récit ordinaire et la conversation ne peuvent pas toujours lui donner ?",
       "economy": {
         "principle": "Préserver raisons, objection et réponse avant de supprimer une phrase.",
-        "words": 691
+        "words": 580
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
@@ -1447,7 +1447,7 @@
         "title": "Avons-nous besoin d’art ?",
         "sourceDocument": "Document officiel de la session 2025, libellé contrôlé page 2 ; index ministériel lié dans la page."
       },
-      "copySha256": "fa045f2d770b1aa7b2c80bae49f14afa8f8b1b6dbbec3e672a29a9f9939e182d",
+      "copySha256": "c25a9323d3033c8c3a4f03dc5469ddce0b54e496da16fb9e43f410590076f34f",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [

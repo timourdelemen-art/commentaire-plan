@@ -732,7 +732,7 @@ niveau1: [
       "q": "Quel développement montre que cette exigence est nécessaire ?",
       "o": [
         [
-          "Nietzsche, dans Humain, trop humain, montre que les méthodes de la science importent au moins autant que ses résultats : c’est sur elles que repose l’esprit scientifique, cette méfiance envers les explications hâtives.",
+          "Nietzsche, dans Humain, trop humain, montre que les méthodes de la science importent au moins autant que ses résultats : c’est en elles que tient l’esprit scientifique, qui ne croit que ce qui est prouvé.",
           "ok",
           "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
         ],
@@ -864,7 +864,7 @@ niveau1: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Qui peut juger les moyens d’une recherche dont ni les bénéfices ni les risques ne sont encore connus ?",
+          "Qui a qualité pour juger une recherche que seuls ses pairs comprennent, au nom de tous ceux qu’elle engage ?",
           "ok",
           "La question reprend exactement la difficulté laissée par la réponse de III.3."
         ],

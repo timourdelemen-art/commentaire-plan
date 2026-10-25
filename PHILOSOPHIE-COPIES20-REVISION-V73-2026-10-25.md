@@ -339,3 +339,15 @@ Sur l’ensemble : 15562 → 15629 mots.
 - Corrigés des annales et des notions : régénérés.
 
 **Restent hors de cette PR.** Le reste de l’exercice « Trouver le problème », construit sur d’autres sujets, enseigne encore « deux risques » ; dans les QCM, la bonne réponse reste souvent la plus longue (défaut antérieur) ; les audits internes datés (`data/philosophie-reexamen-20-matrices.json`, `data/philosophie-audit-reste.json`) décrivent l’état du 18 octobre et ne sont pas réécrits.
+
+## Quatrième passe : compression, double audit, recorrection
+
+**Premier audit (relecture d’auteur, porte 10.1).** Constats : la troisième partie redisait trois fois la même idée (III.1, III.3, conclusion) dans une quinzaine de copies ; une contradiction (*Bien agir* : « un jugement justifié reste possible » après « une certitude est possible ») ; une fondation faible (science, II.2) ; une perte dite au mode du possible (État, introduction) ; des introductions surchargées de questions (avenir, art, science) ou d’une phrase sans fonction (*Bien agir*, le film) ; quatre annonces qui laissaient deviner la III.
+
+**Corrections.** Une seule formulation par idée : III.1 transforme, III.2 en tire la conséquence et réfute l’objection, III.3 apporte un acquis propre (« le bon soin se mesure à son retrait possible », « la physique qui fait la centrale fait aussi la bombe », « garder des moyens de révision devient la première fin »), la conclusion répond et nomme le gain. Phrases sans fonction supprimées dans sept introductions. Annonces reformulées.
+
+**Second audit.** Constats : deux pronoms ambigus (« Elle distingue alors… » renvoyait à la crainte ; « Il est l’auteur… »), un « Non : » qui répondait à une question ouverte (*Bien agir*), trois doublons restants (science, vérité, paroles), une référence décorative (Mill, qui fondait la valeur d’une vie et non la durée du bonheur : retirée, la sous-partie s’appuie sur son argument propre), une question finale qui recopiait le reste (science : remplacée par « Qui a qualité pour juger une recherche que seuls ses pairs comprennent, au nom de tous ceux qu’elle engage ? »).
+
+**Contrôle des redites par script** (suites de cinq mots identiques dans une même copie) : il ne reste que des reprises voulues (mot clé de la transition repris en tête de partie, mots des pertes repris dans la problématique, citation de la scène reprise en conclusion).
+
+**Longueur finale.** Les vingt copies sont plus courtes que les originales : 15 562 → 14 499 mots (−6,8 %), 725 mots en moyenne, de 580 à 843.
