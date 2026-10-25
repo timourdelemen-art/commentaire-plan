@@ -23,8 +23,8 @@ const PLACE={reponse:'La réponse',exemple:'L’exemple',limite:'La limite',tran
 const PLACE2={'I:installer':'I.1 Installer','I:renforcer':'I.2 Renforcer','I:limite':'I.3 La limite','T1:transition':'Transition I → II','II:exigence':'II.1 La nouvelle exigence','II:position':'II.2 La nouvelle réponse','II:limite':'II.3 Sa limite','T2:transition':'Transition II → III','III:probleme':'III.1 Revenir au problème','III:operation':'III.2 L’opération','III:stabiliser':'III.3 Stabiliser la réponse','C:question':'La question finale'};
 const GROUPS2=[['I','Partie I'],['T1','Transition'],['II','Partie II'],['T2','Transition'],['III','Partie III'],['C','Conclusion']];
 const GROUPS1=[['I','Partie I'],['II','Partie II'],['III','Partie III et conclusion']];
-const lab=(s,e)=>s.v===2?(PLACE2[e.p+':'+e.k]||PLACE[e.k]):PLACE[e.k];
-const groupsOf=s=>s.v===2?GROUPS2:GROUPS1;
+const lab=(s,e)=>s.v>=2?(PLACE2[e.p+':'+e.k]||PLACE[e.k]):PLACE[e.k];
+const groupsOf=s=>s.v>=2?GROUPS2:GROUPS1;
 const groupName=(s,p)=>(groupsOf(s).find(g=>g[0]===p)||[p,'Partie '+p])[1];
 let open=false;
 const wide=()=>window.matchMedia&&window.matchMedia('(min-width: 1000px)').matches;

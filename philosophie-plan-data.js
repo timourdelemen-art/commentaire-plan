@@ -6,7 +6,7 @@ window.PHILO_PLAN = {
 niveau1: [
 {
  id:'justice-lois', sujet:'Pour être juste, suffit-il d’obéir aux lois ?', notion:'La justice', v:2,
- pb:'Être juste, est-ce respecter la loi commune, au risque d’obéir à des lois injustes, ou juger les lois, au risque de ruiner la règle commune ?',
+ pb:'Suffit-il d’obéir aux lois pour être juste, si l’obéissance interdit de juger une loi injuste, et si juger les lois ne laisse plus de règle commune ?',
  etapes:[
  {p:'I',k:'installer',q:'Quelle première réponse installer en partie I, avec sa raison ?',o:[
   ['Obéir aux lois suffit : la loi, la même pour tous, empêche chacun de décider seul du juste.','ok','Une réponse au sujet, avec sa raison : c’est un vrai point de départ.'],
@@ -63,7 +63,7 @@ niveau1: [
   "sujet": "Faut-il être inconscient pour être heureux ?",
   "notion": "Le bonheur",
   "v": 3,
-  "pb": "Faut-il ignorer les menaces pour être heureux, au risque de ne pouvoir s’en protéger, ou les connaître, au risque de ne plus trouver de repos ?",
+  "pb": "Faut-il être inconscient pour être heureux, si l’insouciance livre le bonheur aux dangers qu’elle ignore, et si la lucidité ne voit les menaces qu’en perdant le repos ?",
   "annale": "faut-il-etre-inconscient-pour-etre-heureux",
   "etapes": [
     {
@@ -74,7 +74,7 @@ niveau1: [
         [
           "Il semble qu’il faille être inconscient pour être heureux, car l’insouciance protège le repos.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Une réponse au sujet, avec sa raison : c’est un vrai point de départ."
         ],
         [
           "Les gens simples semblent souvent plus heureux que les savants, et moins inquiets.",
@@ -94,9 +94,9 @@ niveau1: [
       "q": "Qu’est-ce qui rend cette réponse la plus forte possible ?",
       "o": [
         [
-          "Pascal, dans les Pensées, montre que les adultes font de même : ne pouvant guérir la mort et la misère, les hommes ont choisi de n’y point penser pour se rendre heureux, et se divertissent pour ne pas penser à leur condition.",
+          "Pascal, dans les Pensées (liasse « Divertissement »), montre que les adultes font de même : ne pouvant guérir la mort et la misère, les hommes ont choisi de n’y point penser pour se rendre heureux, et se divertissent pour ne pas penser à leur condition.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La référence ne décore pas : elle donne à la réponse sa forme la plus forte, en disant pourquoi elle vaut."
         ],
         [
           "Un enfant joue sans connaître tous les dangers du monde qui l’entoure, et il est heureux.",
@@ -116,9 +116,9 @@ niveau1: [
       "q": "Où cette réponse cède-t-elle, si on la pousse jusqu’au bout ?",
       "o": [
         [
-          "Mais ignorer une menace ne la supprime pas : l’insouciant peut perdre un bonheur qu’il aurait pu protéger en sachant le danger.",
+          "Mais ignorer une menace ne la supprime pas : qui ne la voit pas ne peut s’en garder.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La limite vient de la réponse elle-même, poussée jusqu’au bout : c’est elle qui obligera à changer de réponse."
         ],
         [
           "Ignorer certains dangers peut mettre la santé de chacun, et même celle des autres, en grand danger.",
@@ -138,9 +138,9 @@ niveau1: [
       "q": "Quelle question, née de cette limite, fait passer à la partie II ?",
       "o": [
         [
-          "Que vaut cette paix si elle nous prive des moyens de préserver ce qui nous rend heureux ?",
+          "Quel danger l’ignorance nous empêche-t-elle de prévenir ?",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Une question brève, née de cette limite : elle fait passer à la partie II sans la donner d’avance."
         ],
         [
           "Mais si un bonheur qu’on ignore n’est plus un bonheur, il faut se savoir heureux pour l’être vraiment.",
@@ -160,19 +160,19 @@ niveau1: [
       "q": "Comment la partie II répond-elle d’abord à cette question ?",
       "o": [
         [
-          "Reconnaître une maladie ou une injustice peut permettre d’agir au lieu de subir : la conscience ne vaut pas seulement par ce qu’elle trouble.",
+          "Connaître certaines menaces permet de préserver ce qui nous rend heureux.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Elle répond à la question de transition : la partie II part de ce que la partie I perdait."
         ],
         [
-          "Il vaut moins qu’un autre, mais c’est toujours mieux que d’être malheureux en sachant pourquoi.",
+          "Aucun qui compte vraiment : les dangers que l’on ignore finissent presque toujours par s’éloigner d’eux-mêmes, sans qu’on ait rien à faire.",
           "def",
-          "Elle répond, mais garde l’ignorance comme un moindre mal : la partie II ne naît pas encore."
+          "Elle répond, mais garde l’ignorance comme remède : la partie II ne naît pas encore."
         ],
         [
-          "Il faut tout savoir et tout comprendre pour être vraiment heureux.",
+          "Tous : il faut tout savoir et tout comprendre pour être vraiment heureux.",
           "no",
-          "Excessif : la partie II dit qu’il faut se savoir heureux, pas tout savoir."
+          "Excessif : la partie II dit qu’il faut voir certaines menaces, pas tout savoir."
         ]
       ]
     },
@@ -182,9 +182,9 @@ niveau1: [
       "q": "Quel développement montre que cette exigence est nécessaire ?",
       "o": [
         [
-          "Mill, dans L’Utilitarisme, distingue la valeur des plaisirs de leur seule quantité : une vie d’exercice des facultés humaines ne s’évalue pas uniquement à son degré de satisfaction.",
+          "Aristote le rappelle : une hirondelle ne fait pas le printemps, et le bonheur est celui d’une vie entière, non d’un jour (Éthique à Nicomaque, I, 1098a). Un bonheur qui doit durer a donc besoin de voir ce qui le menace : la lucidité n’est pas l’ennemie du bonheur, mais la condition de sa durée.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La référence porte la nouvelle réponse : elle montre pourquoi l’exigence de la partie II est nécessaire."
         ],
         [
           "Il faut être conscient pour être heureux : se savoir heureux fait partie du bonheur.",
@@ -204,12 +204,12 @@ niveau1: [
       "q": "Où cette deuxième réponse cède-t-elle à son tour ?",
       "o": [
         [
-          "Mais savoir tous les dangers n’offre pas toujours le pouvoir de les éviter ; l’attention peut alors se transformer en inquiétude continuelle.",
+          "Mais si connaître un danger, c’est s’en inquiéter, plus la lucidité voit loin, plus elle trouve de quoi craindre.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La limite vient encore de l’intérieur : la seconde réponse perd à son tour ce que la première gardait."
         ],
         [
-          "Les gens lucides paraissent souvent inquiets ou mélancoliques, comme s’ils portaient tout le poids du monde.",
+          "Les gens lucides paraissent souvent inquiets ou mélancoliques, comme s’ils portaient sur leurs épaules tout le poids du monde et de ses menaces.",
           "def",
           "Constat juste, mais dites pourquoi : c’est la lucidité elle-même qui voit les menaces."
         ],
@@ -226,9 +226,9 @@ niveau1: [
       "q": "Quelle question montre ce que les deux réponses supposaient ensemble ?",
       "o": [
         [
-          "L’ignorance expose au danger, la connaissance peut entretenir la peur : quel usage du savoir pourrait contribuer à la paix ?",
+          "Mais connaître un mal, est-ce nécessairement le craindre ?",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La question fait voir ce que les deux réponses supposaient ensemble : c’est ce point que la partie III transformera."
         ],
         [
           "Si l’ignorance aveugle et que la lucidité inquiète, faut-il finalement être conscient ou inconscient ?",
@@ -245,15 +245,15 @@ niveau1: [
     {
       "p": "III",
       "k": "probleme",
-      "q": "Revenir au problème : qu’est-ce que chacune des deux réponses avait compris ?",
+      "q": "Revenir au problème : que supposaient ensemble les deux réponses, et comment le transformer ?",
       "o": [
         [
-          "Garder la paix recherchée sans entretenir l’ignorance des dangers.",
+          "Connaître un mal, c’est aussi mesurer ce qu’il est ; or la crainte vit surtout de ce qu’on ne mesure pas.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Elle ne choisit pas un camp : elle transforme ce que les deux réponses tenaient pour acquis."
         ],
         [
-          "Chacune avait raison à moitié : la partie I sur le plaisir, la partie II sur la connaissance du monde.",
+          "Chacune avait raison à moitié : la partie I sur le plaisir que donne l’insouciance, la partie II sur la connaissance du monde qui nous entoure.",
           "def",
           "Proche, mais le plaisir et la connaissance déplacent le sujet : le repos et la lucidité."
         ],
@@ -270,14 +270,14 @@ niveau1: [
       "q": "Quelle opération permet de tenir les deux ensemble : renverser le rapport, changer de niveau, ou réunir ce qu’on avait séparé ? Plusieurs peuvent tenir : regardez ce que chacune laisse.",
       "o": [
         [
-          "Comprendre peut défaire une crainte trompeuse, plutôt qu’ajouter des menaces à celles que nous connaissons.",
+          "La lucidité distingue alors un danger réel d’une représentation qui nous tourmente : connaître peut diminuer la crainte au lieu de l’accroître.",
           "ok",
-          "Ce choix conserve les deux exigences. Sa justification et les limites des autres propositions doivent être comparées ; le nom de l’opération ne suffit pas."
+          "Elle garde l’acquis de la partie I et celui de la partie II, et dit concrètement comment les tenir ensemble."
         ],
         [
-          "Distinguer ce qui dépend de nous de ce qui n’en dépend pas",
+          "On peut distinguer ce qui dépend de nous de ce qui n’en dépend pas, et cesser de s’inquiéter de tout ce qui échappe, de toute façon, à notre pouvoir.",
           "def",
-          "Une piste à examiner : Les dommages réels ne deviennent pas indifférents par le seul fait de ne pas dépendre de nous"
+          "Défendable, mais incomplet : un dommage réel ne devient pas indifférent parce qu’il ne dépend pas de nous."
         ],
         [
           "Il faut être un peu conscient et un peu inconscient, selon les moments et les circonstances de la vie.",
@@ -292,14 +292,14 @@ niveau1: [
       "q": "Que peut-on désormais affirmer, et que cette réponse ne règle-t-elle pas encore ?",
       "o": [
         [
-          "La lucidité peut apaiser. Elle ne supprime pourtant pas la souffrance d’une perte réelle.",
+          "Le bonheur lucide n’est donc pas un repos acheté par l’oubli, mais une paix conquise sur la crainte, qui garde sa vigilance. Reste la souffrance liée à un mal réel, notamment la perte d’un proche : réfuter une peur imaginaire ne supprime pas cette douleur.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La réponse est nette, et son reste est dit : c’est lui que la conclusion reprendra."
         ],
         [
-          "Il ne faut donc pas être inconscient pour être heureux : une compréhension mieux réglée peut rendre le bonheur plus lucide et moins fragile. Cela ne signifie pas que tout savoir apaise. La difficulté est donc entièrement réglée.",
+          "Le bonheur lucide n’est donc pas un repos acheté par l’oubli, mais une paix conquise sur la crainte, qui garde sa vigilance. Ainsi compris, il ne laisse plus aucune souffrance hors de sa portée : toute peine, une fois examinée, se dissipe comme une crainte imaginaire.",
           "def",
-          "La réponse oublie sa propre limite : Reste la souffrance liée à un mal réel, notamment la perte d’un proche : réfuter une peur imaginaire ne supprime pas cette douleur."
+          "La réponse se croit complète : réfuter une peur imaginaire ne supprime pas la douleur d’un mal réel, comme la perte d’un proche."
         ],
         [
           "Le bonheur demande parfois d’ignorer et parfois de savoir, selon les cas.",
@@ -316,10 +316,10 @@ niveau1: [
         [
           "Lorsque la souffrance vient d’une perte réelle que comprendre ne supprime pas, comment la lucidité peut-elle encore contribuer au bonheur ?",
           "ok",
-          "La question reprend exactement la difficulté laissée par la réponse de III.3."
+          "C’est le reste de la réponse, devenu question : le même problème, posé plus loin."
         ],
         [
-          "Le bonheur existe-t-il vraiment, ou n’est-il au fond qu’un rêve que les hommes poursuivent sans jamais l’atteindre ?",
+          "Le bonheur existe-t-il vraiment, ou n’est-il au fond qu’un rêve que les hommes poursuivent toute leur vie sans jamais parvenir à l’atteindre ?",
           "def",
           "Une vraie question, mais trop large : elle ne part pas du reste de la réponse."
         ],
@@ -338,7 +338,7 @@ niveau1: [
   "sujet": "Peut-on être certain d’avoir bien agi ?",
   "notion": "Le devoir",
   "v": 3,
-  "pb": "La certitude d’avoir bien fait repose-t-elle sur l’intention, au risque d’une bonne conscience aveugle aux effets, ou sur les effets, au risque de livrer la valeur de nos actes au hasard ?",
+  "pb": "Peut-on tirer la certitude d’avoir bien agi de son intention, aveugle aux effets de l’acte, ou de ses effets, qui livrent sa valeur au hasard ?",
   "annale": "peut-on-etre-certain-d-avoir-bien-agi",
   "etapes": [
     {
@@ -349,7 +349,7 @@ niveau1: [
         [
           "On peut être certain d’avoir bien agi, car on connaît son intention.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Une réponse au sujet, avec sa raison : c’est un vrai point de départ."
         ],
         [
           "On le sait quand les autres nous remercient ou nous félicitent de ce qu’on a fait.",
@@ -369,9 +369,9 @@ niveau1: [
       "q": "Qu’est-ce qui rend cette réponse la plus forte possible ?",
       "o": [
         [
-          "Kant, dans les Fondements de la métaphysique des mœurs, affirme qu’une bonne volonté est bonne par elle-même, même si elle échoue.",
+          "Kant, dans la première section des Fondements de la métaphysique des mœurs, affirme qu’une bonne volonté est bonne par elle-même, même si elle échoue.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La référence ne décore pas : elle donne à la réponse sa forme la plus forte, en disant pourquoi elle vaut."
         ],
         [
           "Je prête de l’argent à un ami en difficulté, il est content de l’avoir reçu, et je sais que j’ai bien fait.",
@@ -393,10 +393,10 @@ niveau1: [
         [
           "Mais si tout repose sur l’intention, il faut encore être sûr de la connaître, et rien ne garantit que mes vraies raisons soient celles que je crois.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La limite vient de la réponse elle-même, poussée jusqu’au bout : c’est elle qui obligera à changer de réponse."
         ],
         [
-          "Les intentions sont difficiles à prouver devant un tribunal, qui juge sur des faits et des témoignages.",
+          "Les intentions sont difficiles à prouver devant un tribunal, qui juge sur des faits, des témoignages et des preuves, et non sur ce que chacun dit avoir voulu.",
           "def",
           "Vrai, mais objection extérieure : la question est ce que je sais de moi, pas ce qu’un juge peut prouver."
         ],
@@ -413,9 +413,9 @@ niveau1: [
       "q": "Quelle question, née de cette limite, fait passer à la partie II ?",
       "o": [
         [
-          "La bonne volonté ne rassure que celui qui se croit transparent à lui-même : qui possède ce savoir de soi que la certitude d’avoir bien agi supposait ?",
+          "Que devient le jugement moral lorsque nos motifs et les effets de nos actes nous échappent ?",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Une question brève, née de cette limite : elle fait passer à la partie II sans la donner d’avance."
         ],
         [
           "Mais si je peux me tromper sur mes propres motifs, la certitude ne peut plus reposer sur l’intention seule.",
@@ -435,17 +435,17 @@ niveau1: [
       "q": "Comment la partie II répond-elle d’abord à cette question ?",
       "o": [
         [
-          "Bien agir, c’est aussi faire du bien dans le monde : une action qui blesse ne devient pas bonne parce qu’on la voulait bonne.",
+          "Il devient incertain : ce qui fait la valeur d’un acte, ses vrais motifs et ses effets, ne nous est pas transparent.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Elle répond à la question de transition : la partie II part de ce que la partie I perdait."
         ],
         [
-          "Les autres, qui voient nos actes de l’extérieur et peuvent parfois les juger mieux que nous-mêmes.",
+          "Il passe aux autres, qui voient nos actes de l’extérieur et peuvent parfois les juger bien mieux que nous ne le faisons nous-mêmes.",
           "def",
           "Une piste, mais elle déplace la certitude vers autrui sans montrer ce qui nous échappe."
         ],
         [
-          "Celui qui a de bonnes intentions, puisqu’il sait ce qu’il a voulu faire.",
+          "Il reste sûr : il suffit de savoir ce qu’on a voulu faire.",
           "no",
           "C’est revenir à la partie I au lieu d’en sortir."
         ]
@@ -457,9 +457,9 @@ niveau1: [
       "q": "Quel développement montre que cette exigence est nécessaire ?",
       "o": [
         [
-          "Kant lui-même reconnaît qu’on ne peut jamais savoir avec certitude si l’on a agi par devoir plutôt que par intérêt caché, et La Rochefoucauld, dans ses Maximes, montre l’amour-propre déguisé sous les vertus.",
+          "Kant lui-même reconnaît, dans la deuxième section des Fondements, qu’on ne peut jamais savoir avec certitude si l’on a agi par devoir plutôt que par intérêt caché, et La Rochefoucauld, dans ses Maximes, montre l’amour-propre déguisé sous les vertus.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La référence porte la nouvelle réponse : elle montre pourquoi l’exigence de la partie II est nécessaire."
         ],
         [
           "On ne peut pas en être certain : les effets de nos actes et nos vrais motifs nous échappent.",
@@ -479,12 +479,12 @@ niveau1: [
       "q": "Où cette deuxième réponse cède-t-elle à son tour ?",
       "o": [
         [
-          "Mais l’incertitude ne rend pas tous les jugements équivalents : on peut comparer les raisons disponibles, même sans assurance complète.",
+          "Mais si seuls les effets décident, la valeur d’un acte dépend de ce qui arrive après lui : la même décision serait mauvaise si un coup de vent avait fait échouer l’amerrissage.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La limite vient encore de l’intérieur : la seconde réponse perd à son tour ce que la première gardait."
         ],
         [
-          "Les effets d’une action ne sont parfois connus que bien plus tard, des années après qu’on a agi.",
+          "Les effets d’une action ne sont parfois connus que bien plus tard, des années après qu’on a agi, quand plus personne ne se souvient de ce qu’on avait voulu ni pourquoi on l’avait décidé.",
           "def",
           "Vrai, mais cela renforce la partie II au lieu d’en montrer la limite."
         ],
@@ -501,12 +501,12 @@ niveau1: [
       "q": "Quelle question montre ce que les deux réponses supposaient ensemble ?",
       "o": [
         [
-          "Comment justifier une décision morale si l’on ne peut en connaître avec certitude tous les motifs et tous les effets ?",
+          "Mais la certitude d’avoir bien agi doit-elle être celle d’un savoir complet sur l’acte, ses motifs et ses suites ?",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La question fait voir ce que les deux réponses supposaient ensemble : c’est ce point que la partie III transformera."
         ],
         [
-          "Si l’intention ne suffit pas et que le doute paralyse, peut-on finalement être certain d’avoir bien agi ?",
+          "Si l’intention ne suffit pas et que le doute paralyse, peut-on finalement être certain d’avoir bien agi, oui ou non ?",
           "def",
           "Elle repose la même alternative, et sa réponse tient en un mot : la partie III ne pourrait que choisir un camp."
         ],
@@ -520,15 +520,15 @@ niveau1: [
     {
       "p": "III",
       "k": "probleme",
-      "q": "Revenir au problème : qu’est-ce que chacune des deux réponses avait compris ?",
+      "q": "Revenir au problème : que supposaient ensemble les deux réponses, et comment le transformer ?",
       "o": [
         [
-          "Examiner intentions et effets sans exiger leur connaissance complète.",
+          "La certitude qui convient à l’action n’est pas celle d’un savoir complet : elle porte sur les raisons du choix, que l’on peut examiner au moment d’agir.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Elle ne choisit pas un camp : elle transforme ce que les deux réponses tenaient pour acquis."
         ],
         [
-          "Chacune avait raison à moitié : la partie I sur la morale, la partie II sur la psychologie.",
+          "Chacune avait raison à moitié : la partie I sur la morale de l’intention, la partie II sur la psychologie de celui qui prétend se juger lui-même sans se tromper.",
           "def",
           "Proche, mais ces deux domaines déplacent le sujet : l’assurance d’agir et la lucidité sur soi."
         ],
@@ -545,14 +545,14 @@ niveau1: [
       "q": "Quelle opération permet de tenir les deux ensemble : renverser le rapport, changer de niveau, ou réunir ce qu’on avait séparé ? Plusieurs peuvent tenir : regardez ce que chacune laisse.",
       "o": [
         [
-          "Distinguer certitude absolue et jugement justifié : comparer les raisons accessibles et accepter une révision.",
+          "Elle compare les raisons accessibles, les risques prévisibles et les autres décisions possibles : on peut être sûr de l’avoir fait, sans l’être de l’issue.",
           "ok",
-          "Ce choix conserve les deux exigences. Sa justification et les limites des autres propositions doivent être comparées ; le nom de l’opération ne suffit pas."
+          "Elle garde l’acquis de la partie I et celui de la partie II, et dit concrètement comment les tenir ensemble."
         ],
         [
-          "Métamorphoser la certitude en engagement responsable",
+          "On peut changer la certitude en engagement : celui qui répond de son acte devant les autres n’a pas besoin d’être sûr qu’il était bon pour l’assumer tout entier.",
           "def",
-          "Une piste à examiner : Répondre de l’acte ne démontre pas sa bonté : risque de substitution du sujet"
+          "Défendable, mais elle change de sujet : répondre d’un acte ne démontre pas qu’on a bien agi."
         ],
         [
           "Il faut attendre de connaître tous les effets d’une action avant de juger si elle était bonne.",
@@ -567,14 +567,14 @@ niveau1: [
       "q": "Que peut-on désormais affirmer, et que cette réponse ne règle-t-elle pas encore ?",
       "o": [
         [
-          "Un jugement moral peut être justifié sans être infaillible. Un effet imprévisible peut le remettre en cause.",
+          "Cette certitude ne garantit pas que l’acte fut bon, mais qu’il fut bien décidé, et c’est de cela qu’un agent peut répondre. Reste qu’un effet imprévisible peut conduire à réviser l’appréciation d’un choix pourtant raisonnable au moment d’agir.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La réponse est nette, et son reste est dit : c’est lui que la conclusion reprendra."
         ],
         [
-          "On peut donc avoir des raisons solides de juger qu’on a bien agi, sans convertir cette assurance en certitude infaillible. Accepter d’en répondre rend ce jugement contrôlable ; cela ne prouve pas à soi seul la bonté de l’acte. La difficulté est donc entièrement réglée.",
+          "Cette certitude ne garantit pas que l’acte fut bon, mais qu’il fut bien décidé, et c’est de cela qu’un agent peut répondre. Un choix bien décidé ne peut donc plus être révisé, quoi qu’il arrive ensuite : ses effets imprévus ne regardent plus celui qui a agi.",
           "def",
-          "La réponse oublie sa propre limite : Reste qu’un effet imprévisible peut conduire à réviser l’appréciation d’un choix pourtant raisonnable au moment d’agir."
+          "La réponse se croit complète : un effet imprévisible peut encore conduire à réviser l’appréciation d’un choix pourtant raisonnable."
         ],
         [
           "On est parfois sûr d’avoir bien agi, et parfois non, selon les situations.",
@@ -589,12 +589,12 @@ niveau1: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Comment juger un acte raisonnablement décidé lorsque ses conséquences imprévisibles en révèlent ensuite le mal ?",
+          "Doit-on répondre d’un mal que nos meilleures raisons ne permettaient pas de prévoir ?",
           "ok",
-          "La question reprend exactement la difficulté laissée par la réponse de III.3."
+          "C’est le reste de la réponse, devenu question : le même problème, posé plus loin."
         ],
         [
-          "Faut-il toujours agir, même quand on n’est sûr de rien de ce qui va arriver ?",
+          "Faut-il toujours agir, même quand on n’est sûr de rien de ce qui va arriver, ni de ce qu’on veut vraiment ?",
           "def",
           "Une vraie question, mais qui revient à la partie II : partez du reste de la réponse."
         ],
@@ -613,7 +613,7 @@ niveau1: [
   "sujet": "La science doit-elle être utile ?",
   "notion": "La science",
   "v": 3,
-  "pb": "La science vaut-elle par le pouvoir qu’elle donne, au risque de ne plus chercher que des vérités utiles, ou par la seule vérité, au risque d’oublier qu’elle ne connaît qu’en agissant ?",
+  "pb": "La science doit-elle être utile, si l’utilité la détourne des vérités sans usage, et si ses vérités deviennent malgré elle des pouvoirs ?",
   "annale": "la-science-doit-elle-etre-utile",
   "etapes": [
     {
@@ -624,7 +624,7 @@ niveau1: [
         [
           "La science doit être utile, car c’est elle qui donne à l’homme le pouvoir de maîtriser la nature.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Une réponse au sujet, avec sa raison : c’est un vrai point de départ."
         ],
         [
           "La science coûte très cher à la société, qui la finance : elle doit donc lui rapporter quelque chose.",
@@ -644,9 +644,9 @@ niveau1: [
       "q": "Qu’est-ce qui rend cette réponse la plus forte possible ?",
       "o": [
         [
-          "Descartes l’annonçait dans le Discours de la méthode : une philosophie « pratique » doit nous rendre « comme maîtres et possesseurs de la nature ».",
+          "Descartes l’annonçait dans la sixième partie du Discours de la méthode : à la philosophie spéculative, il veut substituer « une pratique » qui puisse « nous rendre comme maîtres et possesseurs de la nature ».",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La référence ne décore pas : elle donne à la réponse sa forme la plus forte, en disant pourquoi elle vaut."
         ],
         [
           "Les vaccins ont sauvé des millions de vies au cours du siècle dernier, et en sauvent encore chaque année.",
@@ -668,10 +668,10 @@ niveau1: [
         [
           "Mais si la science doit être utile, c’est l’utilité qui choisit ses questions, et les recherches qui ne promettent rien sont abandonnées.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La limite vient de la réponse elle-même, poussée jusqu’au bout : c’est elle qui obligera à changer de réponse."
         ],
         [
-          "Certaines inventions scientifiques sont dangereuses pour l’humanité, comme la bombe atomique.",
+          "Certaines inventions scientifiques sont dangereuses pour l’humanité, comme la bombe atomique, dont la puissance pourrait détruire des villes entières.",
           "def",
           "Une piste pour plus tard, mais ce n’est pas la limite de cette réponse-ci."
         ],
@@ -688,9 +688,9 @@ niveau1: [
       "q": "Quelle question, née de cette limite, fait passer à la partie II ?",
       "o": [
         [
-          "Exiger de la science qu’elle serve, c’est la priver de ce qui servira : aucun calcul d’utilité n’aurait commandé la relativité, qui ne cherchait que le vrai. Par quoi la science vaut-elle donc d’abord ?",
+          "Par quoi la science vaut-elle lorsque son utilité reste imprévisible ?",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Une question brève, née de cette limite : elle fait passer à la partie II sans la donner d’avance."
         ],
         [
           "Exiger de la science qu’elle serve, c’est la priver de ce qui servira : aucun calcul n’aurait commandé la relativité.",
@@ -712,7 +712,7 @@ niveau1: [
         [
           "Ce que la science cherche, c’est savoir comment sont les choses ; une science qui choisit ses vérités selon leur rendement cesse d’être une science.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Elle répond à la question de transition : la partie II part de ce que la partie I perdait."
         ],
         [
           "Par le prestige qu’elle donne aux pays qui la financent et la font briller.",
@@ -732,9 +732,9 @@ niveau1: [
       "q": "Quel développement montre que cette exigence est nécessaire ?",
       "o": [
         [
-          "Nietzsche, dans Humain, trop humain, montre que les méthodes de la science importent au moins autant que ses résultats : c’est sur elles que repose l’esprit scientifique, cette méfiance envers les explications hâtives.",
+          "Nietzsche, dans Humain, trop humain (§ 635), montre que les méthodes de la science importent au moins autant que ses résultats : c’est en elles que tient l’esprit scientifique, qui ne croit que ce qui est prouvé.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La référence porte la nouvelle réponse : elle montre pourquoi l’exigence de la partie II est nécessaire."
         ],
         [
           "La science vaut d’abord par la vérité qu’elle cherche : son utilité ne vient qu’ensuite.",
@@ -754,12 +754,12 @@ niveau1: [
       "q": "Où cette deuxième réponse cède-t-elle à son tour ?",
       "o": [
         [
-          "Mais la recherche mobilise des moyens et comporte parfois des interventions sur le monde avant même de produire une application.",
+          "Mais la science ne connaît la nature qu’en agissant sur elle : l’expérience est déjà une intervention, avant toute application.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La limite vient encore de l’intérieur : la seconde réponse perd à son tour ce que la première gardait."
         ],
         [
-          "Les chercheurs ont besoin de beaucoup d’argent pour travailler et pour équiper leurs laboratoires.",
+          "Les chercheurs ont besoin de beaucoup d’argent pour travailler, pour équiper leurs laboratoires et pour payer ceux qui les aident dans leurs expériences.",
           "def",
           "Vrai, mais extérieur : la limite doit venir de la recherche elle-même."
         ],
@@ -776,12 +776,12 @@ niveau1: [
       "q": "Quelle question montre ce que les deux réponses supposaient ensemble ?",
       "o": [
         [
-          "Une application prédéfinie peut étouffer la découverte ; une indépendance sans contrôle peut couvrir des pratiques dangereuses. Sur quoi la recherche doit-elle rendre des comptes pour rester libre ?",
+          "Mais l’utilité doit-elle être la fin qui choisit les questions, pour que la science ait à répondre de ses pouvoirs ?",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La question fait voir ce que les deux réponses supposaient ensemble : c’est ce point que la partie III transformera."
         ],
         [
-          "Si l’utilité la trahit et que la vérité pure l’aveugle, la science doit-elle finalement être utile ou non ?",
+          "Si l’utilité la trahit et que la vérité pure l’aveugle, faut-il finalement exiger de la science qu’elle soit utile, ou non ?",
           "def",
           "Elle repose la même alternative, et sa réponse tient en un mot : la partie III ne pourrait que choisir un camp."
         ],
@@ -795,15 +795,15 @@ niveau1: [
     {
       "p": "III",
       "k": "probleme",
-      "q": "Revenir au problème : qu’est-ce que chacune des deux réponses avait compris ?",
+      "q": "Revenir au problème : que supposaient ensemble les deux réponses, et comment le transformer ?",
       "o": [
         [
-          "Garder la liberté de découvrir et justifier les moyens employés.",
+          "L’utilité peut changer de place : sans choisir les questions, elle pèse sur les pratiques, dont la science doit répondre comme de tout pouvoir.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Elle ne choisit pas un camp : elle transforme ce que les deux réponses tenaient pour acquis."
         ],
         [
-          "Chacune avait raison à moitié : la partie I sur l’économie du savoir, la partie II sur la culture générale.",
+          "Chacune avait raison à moitié : la partie I sur l’économie du savoir et ses profits, la partie II sur la culture générale et le goût de connaître.",
           "def",
           "Proche, mais l’économie et la culture déplacent le sujet : la puissance et la liberté de chercher."
         ],
@@ -820,14 +820,14 @@ niveau1: [
       "q": "Quelle opération permet de tenir les deux ensemble : renverser le rapport, changer de niveau, ou réunir ce qu’on avait séparé ? Plusieurs peuvent tenir : regardez ce que chacune laisse.",
       "o": [
         [
-          "Distinguer la liberté des questions et la responsabilité des pratiques : contrôler les risques dès la recherche.",
+          "On peut ainsi laisser une recherche choisir ce qu’elle cherche, et examiner pourtant ses protocoles, ses dangers et ses moyens.",
           "ok",
-          "Ce choix conserve les deux exigences. Sa justification et les limites des autres propositions doivent être comparées ; le nom de l’opération ne suffit pas."
+          "Elle garde l’acquis de la partie I et celui de la partie II, et dit concrètement comment les tenir ensemble."
         ],
         [
-          "Distinguer recherche puis applications",
+          "On peut séparer la recherche de ses applications : laisser les savants chercher librement, puis juger seulement l’usage qu’on fera de leurs découvertes.",
           "def",
-          "Une piste à examiner : Reporte la responsabilité après des décisions et interventions déjà lourdes de conséquences"
+          "Défendable, mais tardif : la responsabilité n’arrive qu’après des expériences déjà lourdes de conséquences."
         ],
         [
           "Il faut une science à moitié utile et à moitié libre, selon les domaines de recherche.",
@@ -842,14 +842,14 @@ niveau1: [
       "q": "Que peut-on désormais affirmer, et que cette réponse ne règle-t-elle pas encore ?",
       "o": [
         [
-          "L’application immédiate n’est pas exigible. Reste à contrôler une recherche dont les bénéfices et certains risques sont inconnus.",
+          "La science n’a donc pas à servir pour être légitime, mais à répondre de ce qu’elle fait. Reste la difficulté de juger publiquement une recherche dont ni les bénéfices ni certains risques ne sont encore connus.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La réponse est nette, et son reste est dit : c’est lui que la conclusion reprendra."
         ],
         [
-          "La science n’a donc pas à être utile immédiatement pour être légitime ; elle doit rendre compte de ses moyens, de ses risques et des usages prévisibles, dès la recherche. La difficulté est donc entièrement réglée.",
+          "La science n’a donc pas à servir pour être légitime, mais à répondre de ce qu’elle fait. Comme les savants peuvent juger eux-mêmes leurs pratiques, il n’y a plus rien à décider en dehors de leurs laboratoires.",
           "def",
-          "La réponse oublie sa propre limite : Reste la difficulté de juger publiquement une recherche dont ni les bénéfices ni certains risques ne sont encore connus."
+          "La réponse se croit complète : il reste à juger publiquement une recherche dont ni les bénéfices ni certains risques ne sont encore connus."
         ],
         [
           "La science doit être parfois utile et parfois libre, selon les cas.",
@@ -864,12 +864,12 @@ niveau1: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Comment contrôler les moyens et les risques d’une recherche sans exiger d’elle la prévision des découvertes qui justifient sa liberté ?",
+          "Qui a qualité pour juger une recherche que seuls ses pairs comprennent, au nom de tous ceux qu’elle engage ?",
           "ok",
-          "La question reprend exactement la difficulté laissée par la réponse de III.3."
+          "C’est le reste de la réponse, devenu question : le même problème, posé plus loin."
         ],
         [
-          "La science fera-t-elle un jour le bonheur de l’humanité, ou son malheur ?",
+          "La science fera-t-elle un jour le bonheur de l’humanité, ou bien sera-t-elle la cause de son malheur et de sa ruine ?",
           "def",
           "Une vraie question, mais qui ne part pas du reste de la réponse."
         ],
@@ -888,7 +888,7 @@ niveau1: [
   "sujet": "L’artiste sait-il ce qu’il fait ?",
   "notion": "L’art",
   "v": 3,
-  "pb": "L’artiste maîtrise-t-il son œuvre comme un savoir-faire, au risque de ne plus rien inventer, ou l’invente-t-il à l’aveugle, au risque de n’en être plus l’auteur ?",
+  "pb": "L’artiste maîtrise-t-il son œuvre comme un savoir-faire, qui ne laisse plus rien à inventer, ou l’invente-t-il à l’aveugle, sans plus en être l’auteur ?",
   "annale": "l-artiste-sait-il-ce-qu-il-fait",
   "etapes": [
     {
@@ -899,7 +899,7 @@ niveau1: [
         [
           "L’artiste sait ce qu’il fait, car l’art est, à sa racine, un métier.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Une réponse au sujet, avec sa raison : c’est un vrai point de départ."
         ],
         [
           "Beaucoup d’artistes font de longues études dans des écoles d’art avant de créer.",
@@ -921,7 +921,7 @@ niveau1: [
         [
           "Le latin ars, d’où vient notre mot « art », traduisait la technè grecque : un savoir-faire qui connaît ses règles et sait ce qu’il produit.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La référence ne décore pas : elle donne à la réponse sa forme la plus forte, en disant pourquoi elle vaut."
         ],
         [
           "Les esquisses et les brouillons d’un artiste montrent un travail réfléchi, repris, corrigé.",
@@ -943,10 +943,10 @@ niveau1: [
         [
           "Mais si tout était su d’avance, l’œuvre serait une fabrication, comme un objet produit selon un plan.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La limite vient de la réponse elle-même, poussée jusqu’au bout : c’est elle qui obligera à changer de réponse."
         ],
         [
-          "Certains artistes ratent des œuvres qu’ils avaient pourtant longuement préparées et mûries.",
+          "Certains artistes ratent des œuvres qu’ils avaient pourtant longuement préparées, mûries et dessinées dans leurs moindres détails.",
           "def",
           "Une piste, mais rater n’est pas encore ne pas savoir."
         ],
@@ -963,9 +963,9 @@ niveau1: [
       "q": "Quelle question, née de cette limite, fait passer à la partie II ?",
       "o": [
         [
-          "Un métier qui saurait tout d’avance ne produirait que ce qu’il savait déjà : si la maîtrise achevée ne fabrique que des objets, où commence l’œuvre ?",
+          "Où commence l’invention si le savoir-faire ne suffit pas à créer ?",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Une question brève, née de cette limite : elle fait passer à la partie II sans la donner d’avance."
         ],
         [
           "Un métier qui saurait tout d’avance ne produirait que ce qu’il sait : l’œuvre doit donc dépasser ce savoir.",
@@ -987,10 +987,10 @@ niveau1: [
         [
           "Une œuvre doit être nouvelle : on ne peut pas en donner la recette, sinon n’importe qui la referait.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Elle répond à la question de transition : la partie II part de ce que la partie I perdait."
         ],
         [
-          "Là où l’inspiration vient, comme le croyaient les Grecs qui invoquaient les muses.",
+          "Là où l’inspiration vient, comme le croyaient les Grecs, qui invoquaient les muses avant de chanter ou d’écrire.",
           "def",
           "Une image à expliquer : dites ce qu’elle signifie pour le savoir de l’artiste."
         ],
@@ -1007,9 +1007,9 @@ niveau1: [
       "q": "Quel développement montre que cette exigence est nécessaire ?",
       "o": [
         [
-          "Kant, dans la Critique de la faculté de juger, définit le génie comme le talent qui donne à l’art sa règle sans pouvoir l’expliquer : l’artiste ne sait pas dire comment il a produit son œuvre.",
+          "Kant, dans la Critique de la faculté de juger (§ 46), définit le génie comme le talent qui donne à l’art sa règle sans pouvoir l’expliquer : l’artiste ne sait pas dire comment il a produit son œuvre.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La référence porte la nouvelle réponse : elle montre pourquoi l’exigence de la partie II est nécessaire."
         ],
         [
           "L’artiste ne sait pas tout ce qu’il fait : l’œuvre le dépasse toujours, et c’est même ce qui fait sa valeur.",
@@ -1029,12 +1029,12 @@ niveau1: [
       "q": "Où cette deuxième réponse cède-t-elle à son tour ?",
       "o": [
         [
-          "Mais l’absence de recette ne signifie pas l’absence de choix : il faut expliquer comment l’artiste reconnaît et retient ce qu’il n’avait pas prévu.",
+          "Mais si le génie ne sait pas comment il produit, il ne choisit plus : l’œuvre passe par lui sans venir de lui.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La limite vient encore de l’intérieur : la seconde réponse perd à son tour ce que la première gardait."
         ],
         [
-          "Le public ne comprend pas toujours les œuvres qu’il regarde, même les plus célèbres.",
+          "Le public ne comprend pas toujours les œuvres qu’il regarde, même les plus célèbres, ni ce que l’artiste a voulu y mettre.",
           "def",
           "Vous passez au public : la limite doit concerner l’artiste."
         ],
@@ -1051,9 +1051,9 @@ niveau1: [
       "q": "Quelle question montre ce que les deux réponses supposaient ensemble ?",
       "o": [
         [
-          "Savoir tout d’avance ou ne rien savoir du tout : les deux réponses plaçaient le savoir de l’artiste avant le travail, où il ne pouvait être que complet ou nul. Quand ce savoir naît-il donc ?",
+          "Mais savoir ce qu’on fait, est-ce nécessairement le savoir avant de le faire ?",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La question fait voir ce que les deux réponses supposaient ensemble : c’est ce point que la partie III transformera."
         ],
         [
           "Si le métier tue l’invention et que l’invention perd l’auteur, l’artiste sait-il ou non ce qu’il fait ?",
@@ -1070,12 +1070,12 @@ niveau1: [
     {
       "p": "III",
       "k": "probleme",
-      "q": "Revenir au problème : qu’est-ce que chacune des deux réponses avait compris ?",
+      "q": "Revenir au problème : que supposaient ensemble les deux réponses, et comment le transformer ?",
       "o": [
         [
-          "Garder la maîtrise du geste sans prévoir toute l’œuvre.",
+          "Savoir ce qu’on fait peut aussi vouloir dire le reconnaître pendant qu’on le fait.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Elle ne choisit pas un camp : elle transforme ce que les deux réponses tenaient pour acquis."
         ],
         [
           "Chacune avait raison à moitié : la partie I sur la technique, la partie II sur l’émotion que ressent l’artiste.",
@@ -1095,14 +1095,14 @@ niveau1: [
       "q": "Quelle opération permet de tenir les deux ensemble : renverser le rapport, changer de niveau, ou réunir ce qu’on avait séparé ? Plusieurs peuvent tenir : regardez ce que chacune laisse.",
       "o": [
         [
-          "Le savoir de l’artiste évolue avec son travail : il juge et retravaille ce qu’il découvre.",
+          "Une possibilité imprévue n’est pas un hasard subi si l’artiste la reconnaît, la juge et la retravaille.",
           "ok",
-          "Ce choix conserve les deux exigences. Sa justification et les limites des autres propositions doivent être comparées ; le nom de l’opération ne suffit pas."
+          "Elle garde l’acquis de la partie I et celui de la partie II, et dit concrètement comment les tenir ensemble."
         ],
         [
-          "Distinguer savoir technique et sens de l’œuvre",
+          "On peut distinguer le savoir technique de l’artiste et le sens de son œuvre : il sait ce qu’il fait, non ce que cela veut dire.",
           "def",
-          "Une piste à examiner : Éclaire deux objets du savoir, mais explique moins directement comment l’invention devient un choix"
+          "Défendable, mais elle sépare deux savoirs sans montrer comment l’invention devient un choix de l’artiste."
         ],
         [
           "L’artiste sait à moitié ce qu’il fait, et l’autre moitié lui échappe toujours un peu.",
@@ -1117,14 +1117,14 @@ niveau1: [
       "q": "Que peut-on désormais affirmer, et que cette réponse ne règle-t-elle pas encore ?",
       "o": [
         [
-          "L’artiste sait à mesure qu’il fait. Le sens que d’autres donnent à l’œuvre peut encore lui échapper.",
+          "L’artiste est ainsi l’auteur de l’œuvre par les choix qu’il assume dans cette découverte, sans en posséder tout le sens. Reste que l’œuvre peut recevoir des significations que même ce jugement exercé pendant la création n’avait pas envisagées.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La réponse est nette, et son reste est dit : c’est lui que la conclusion reprendra."
         ],
         [
-          "L’artiste sait donc ce qu’il fait à mesure qu’il le fait, sans posséder tout le sens de ce qu’il produit. Il en est l’auteur par les choix qu’il assume dans cette découverte. La difficulté est donc entièrement réglée.",
+          "L’artiste est ainsi l’auteur de l’œuvre par les choix qu’il assume dans cette découverte, sans en posséder tout le sens. Puisqu’il a tout jugé en peignant, aucun regard venu après lui ne pourra trouver dans l’œuvre ce qu’il n’y a pas mis.",
           "def",
-          "La réponse oublie sa propre limite : Reste que l’œuvre peut recevoir des significations que même ce jugement exercé pendant la création n’avait pas envisagées."
+          "La réponse se croit complète : l’œuvre peut recevoir des significations que l’artiste, même attentif pendant la création, n’avait pas envisagées."
         ],
         [
           "L’artiste sait parfois ce qu’il fait, et parfois non, selon les œuvres.",
@@ -1141,10 +1141,10 @@ niveau1: [
         [
           "Jusqu’où le savoir de l’artiste peut-il porter sur son œuvre, si celle-ci continue de prendre sens dans des regards qu’il ne dirige pas ?",
           "ok",
-          "La question reprend exactement la difficulté laissée par la réponse de III.3."
+          "C’est le reste de la réponse, devenu question : le même problème, posé plus loin."
         ],
         [
-          "L’art est-il vraiment utile à la société, ou n’est-il qu’un luxe pour quelques-uns ?",
+          "L’art est-il vraiment utile à la société, ou n’est-il qu’un luxe réservé à quelques-uns, qui ont le temps et l’argent nécessaires pour en profiter ?",
           "def",
           "Une autre question : partez du reste de la réponse."
         ],
@@ -1163,7 +1163,7 @@ niveau1: [
   "sujet": "Avons-nous la maîtrise de nos paroles ?",
   "notion": "Le langage",
   "v": 3,
-  "pb": "Choisir nos mots nous donne-t-il la maîtrise de nos paroles, si leur sens dépend aussi d’autrui ; et si ce sens nous échappe, de quoi pouvons-nous encore répondre ?",
+  "pb": "Maîtriser ses paroles, est-ce ne plus dire que ce qu’on pensait déjà, et ne pas les maîtriser, est-ce cesser de pouvoir en répondre ?",
   "annale": "avons-nous-la-maitrise-de-nos-paroles",
   "etapes": [
     {
@@ -1174,7 +1174,7 @@ niveau1: [
         [
           "Nous maîtrisons nos paroles, car parler est un acte volontaire.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Une réponse au sujet, avec sa raison : c’est un vrai point de départ."
         ],
         [
           "Nous pouvons toujours nous taire, et le silence prouve bien que nous décidons de parler ou non.",
@@ -1196,7 +1196,7 @@ niveau1: [
         [
           "Si nous ne maîtrisions pas nos paroles, aucune d’elles ne nous engagerait : la responsabilité suppose la maîtrise.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La référence ne décore pas : elle donne à la réponse sa forme la plus forte, en disant pourquoi elle vaut."
         ],
         [
           "Un bon orateur prépare son discours avec soin et sait exactement ce qu’il va dire devant son public.",
@@ -1216,12 +1216,12 @@ niveau1: [
       "q": "Où cette réponse cède-t-elle, si on la pousse jusqu’au bout ?",
       "o": [
         [
-          "Mais préparer une parole ne garantit pas qu’elle soit comprise comme prévu : parler nous fait aussi préciser une pensée encore incertaine.",
+          "Mais une parole dont tout le sens serait fixé d’avance ne ferait que réciter une pensée déjà faite.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La limite vient de la réponse elle-même, poussée jusqu’au bout : c’est elle qui obligera à changer de réponse."
         ],
         [
-          "Il arrive que l’émotion nous fasse dire des choses que nous regrettons ensuite, une fois calmés.",
+          "Il arrive que l’émotion nous fasse dire des choses que nous regrettons ensuite, une fois calmés et revenus à nous.",
           "def",
           "Vrai, mais l’émotion est une cause extérieure : la limite doit venir de la maîtrise elle-même."
         ],
@@ -1238,9 +1238,9 @@ niveau1: [
       "q": "Quelle question, née de cette limite, fait passer à la partie II ?",
       "o": [
         [
-          "Choisir les mots ne fixe ni toute la pensée qu’ils font naître ni leur compréhension par autrui : d’où vient cet écart entre l’intention et le sens ?",
+          "Pourquoi le sens d’une parole échappe-t-il à la seule intention de celui qui parle ?",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Une question brève, née de cette limite : elle fait passer à la partie II sans la donner d’avance."
         ],
         [
           "Une parole entièrement prévue récite : nos paroles disent donc toujours plus que ce que nous voulions dire.",
@@ -1262,15 +1262,15 @@ niveau1: [
         [
           "C’est que la langue n’est pas à nous : ses mots ont un sens commun qui dépasse notre intention.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Elle répond à la question de transition : la partie II part de ce que la partie I perdait."
         ],
         [
-          "De l’inspiration du moment, qui vient on ne sait d’où et nous surprend nous-mêmes quand nous parlons.",
+          "Parce que l’inspiration du moment, qui vient on ne sait d’où, nous surprend nous-mêmes quand nous parlons.",
           "def",
           "Une image, mais elle n’explique rien : dites ce qui, dans la parole elle-même, nous dépasse."
         ],
         [
-          "De notre volonté, qui choisit chaque mot avec soin.",
+          "Il ne lui échappe pas : notre volonté choisit chaque mot avec soin.",
           "no",
           "C’est revenir à la partie I au lieu d’en sortir."
         ]
@@ -1284,7 +1284,7 @@ niveau1: [
         [
           "Le lapsus, le malentendu, le mot blessant prononcé sans le vouloir montrent que nos paroles nous échappent.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La référence porte la nouvelle réponse : elle montre pourquoi l’exigence de la partie II est nécessaire."
         ],
         [
           "Nos paroles disent plus, et autre chose, que ce que nous voulions : elles nous échappent, voilà tout.",
@@ -1306,10 +1306,10 @@ niveau1: [
         [
           "Mais si nos paroles nous échappent tout à fait, chacun pourra toujours dire : « Ce n’est pas ce que je voulais dire. »",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La limite vient encore de l’intérieur : la seconde réponse perd à son tour ce que la première gardait."
         ],
         [
-          "Il est parfois utile de ne pas maîtriser ses paroles, pour être plus sincère avec les autres.",
+          "Il est parfois utile de ne pas maîtriser ses paroles, pour être plus sincère avec les autres et leur dire enfin ce qu’on pense.",
           "def",
           "Une piste intéressante, mais elle renforce la partie II au lieu d’en montrer la limite."
         ],
@@ -1326,9 +1326,9 @@ niveau1: [
       "q": "Quelle question montre ce que les deux réponses supposaient ensemble ?",
       "o": [
         [
-          "Le sens n’est pas fixé par notre seule intention, mais il ne nous est pas totalement étranger : quel pouvoir pouvons-nous exercer dans cet écart ?",
+          "Mais maîtriser une parole, est-ce en fixer le sens avant de la dire ?",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La question fait voir ce que les deux réponses supposaient ensemble : c’est ce point que la partie III transformera."
         ],
         [
           "Si la maîtrise récite et que l’absence de maîtrise déresponsabilise, maîtrisons-nous nos paroles ou non ?",
@@ -1345,15 +1345,15 @@ niveau1: [
     {
       "p": "III",
       "k": "probleme",
-      "q": "Revenir au problème : qu’est-ce que chacune des deux réponses avait compris ?",
+      "q": "Revenir au problème : que supposaient ensemble les deux réponses, et comment le transformer ?",
       "o": [
         [
-          "Garder notre pouvoir de parler sans maîtriser toute réception.",
+          "La maîtrise d’une parole ne se joue pas tout entière avant qu’elle soit dite : elle s’exerce aussi en la reprenant devant celui qui l’a entendue.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Elle ne choisit pas un camp : elle transforme ce que les deux réponses tenaient pour acquis."
         ],
         [
-          "Chacune avait raison à moitié : la partie I sur la politesse, la partie II sur la psychologie de chacun.",
+          "Chacune avait raison à moitié : la partie I sur la politesse et les bonnes manières, la partie II sur la psychologie et l’histoire propres à chacun de nous.",
           "def",
           "Proche, mais la politesse et la psychologie déplacent le sujet : l’engagement et le sens."
         ],
@@ -1370,14 +1370,14 @@ niveau1: [
       "q": "Quelle opération permet de tenir les deux ensemble : renverser le rapport, changer de niveau, ou réunir ce qu’on avait séparé ? Plusieurs peuvent tenir : regardez ce que chacune laisse.",
       "o": [
         [
-          "Distinguer le contrôle de ce qu’on dit et l’interprétation d’autrui ; préciser et corriger peut réduire les malentendus.",
+          "Nous pouvons vérifier ce que l’autre a compris et rectifier un malentendu, sans décider à sa place de toute interprétation.",
           "ok",
-          "Ce choix conserve les deux exigences. Sa justification et les limites des autres propositions doivent être comparées ; le nom de l’opération ne suffit pas."
+          "Elle garde l’acquis de la partie I et celui de la partie II, et dit concrètement comment les tenir ensemble."
         ],
         [
-          "Inverser : la parole nous engage plutôt que nous la maîtrisons",
+          "On peut renverser le rapport : la parole nous engage plutôt que nous ne la maîtrisons, comme une promesse qu’on doit tenir.",
           "def",
-          "Une piste à examiner : Réduit trop vite toute parole à la promesse et remplace la maîtrise par l’engagement"
+          "Défendable, mais elle réduit toute parole à la promesse et remplace la maîtrise par l’engagement."
         ],
         [
           "Il faut parler avec prudence, ni trop vite ni trop lentement.",
@@ -1392,14 +1392,14 @@ niveau1: [
       "q": "Que peut-on désormais affirmer, et que cette réponse ne règle-t-elle pas encore ?",
       "o": [
         [
-          "La maîtrise est partielle. Une parole interprétée autrement peut produire des effets que sa correction ne défait pas.",
+          "Répondre de ses paroles, c’est donc exercer cette maîtrise, non la supposer acquise. Reste qu’une parole peut produire un effet irréversible avant que sa rectification soit entendue.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La réponse est nette, et son reste est dit : c’est lui que la conclusion reprendra."
         ],
         [
-          "Nous avons une maîtrise partielle de nos paroles, à exercer dans l’échange. En répondre ne remplace pas ce pouvoir ; cela oblige à le mettre en œuvre et à reconnaître ses limites. La difficulté est donc entièrement réglée.",
+          "Répondre de ses paroles, c’est donc exercer cette maîtrise, non la supposer acquise. Comme on peut toujours rectifier, aucune parole ne peut plus nuire durablement à celui qui l’entend.",
           "def",
-          "La réponse oublie sa propre limite : Reste qu’une parole peut produire un effet irréversible avant que sa rectification soit entendue."
+          "La réponse se croit complète : une parole peut produire un effet irréversible avant que sa rectification soit entendue."
         ],
         [
           "Nous maîtrisons parfois nos paroles, et parfois non.",
@@ -1416,10 +1416,10 @@ niveau1: [
         [
           "Comment répondre d’une parole dont on peut corriger le sens, mais dont on ne peut plus réparer tous les effets ?",
           "ok",
-          "La question reprend exactement la difficulté laissée par la réponse de III.3."
+          "C’est le reste de la réponse, devenu question : le même problème, posé plus loin."
         ],
         [
-          "Faut-il parler moins pour mieux maîtriser ce que l’on dit, et se taire plus souvent ?",
+          "Faut-il parler moins pour mieux maîtriser ce que l’on dit, et se taire plus souvent, même quand on aurait quelque chose à dire ?",
           "def",
           "Une question liée, mais qui ne part pas du reste de la réponse."
         ],
@@ -1438,7 +1438,7 @@ niveau1: [
   "sujet": "Peut-on concevoir une humanité sans religion ?",
   "notion": "La religion",
   "v": 3,
-  "pb": "Une humanité qui ne croirait que ce qu’elle peut prouver garderait-elle de quoi relier les hommes, et une humanité unie par la croyance resterait-elle faite d’hommes qui jugent par eux-mêmes ?",
+  "pb": "Une humanité qui ne croit que ce qu’elle prouve peut-elle encore relier les hommes, et une humanité unie par la foi peut-elle rester faite d’hommes qui jugent par eux-mêmes ?",
   "annale": "peut-on-concevoir-une-humanite-sans-religion",
   "etapes": [
     {
@@ -1449,7 +1449,7 @@ niveau1: [
         [
           "On peut concevoir une humanité sans religion, car la raison peut suffire.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Une réponse au sujet, avec sa raison : c’est un vrai point de départ."
         ],
         [
           "Beaucoup de gens, aujourd’hui, vivent très bien sans aucune religion, dans de nombreux pays du monde.",
@@ -1471,7 +1471,7 @@ niveau1: [
         [
           "Freud, dans L’Avenir d’une illusion, explique les idées religieuses par la détresse de l’enfance et le besoin d’un père protecteur : ce sont des illusions, nées du désir.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La référence ne décore pas : elle donne à la réponse sa forme la plus forte, en disant pourquoi elle vaut."
         ],
         [
           "Les sciences expliquent aujourd’hui des phénomènes que l’on attribuait autrefois aux dieux, comme la foudre.",
@@ -1493,10 +1493,10 @@ niveau1: [
         [
           "Mais si la religion répond à une détresse qui dure toute la vie, s’en passer suppose de trouver ailleurs ce qu’elle donnait.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La limite vient de la réponse elle-même, poussée jusqu’au bout : c’est elle qui obligera à changer de réponse."
         ],
         [
-          "Certains croyants refuseront toujours d’abandonner leur religion, quoi qu’on leur démontre et quoi qu’on leur explique.",
+          "Certains croyants refuseront toujours d’abandonner leur religion, quoi qu’on leur démontre, quoi qu’on leur explique et quoi qu’on leur oppose.",
           "def",
           "Vrai, mais c’est un constat sur les croyants : la limite doit venir de la raison elle-même."
         ],
@@ -1513,9 +1513,9 @@ niveau1: [
       "q": "Quelle question, née de cette limite, fait passer à la partie II ?",
       "o": [
         [
-          "La raison gagne contre l’illusion et perd ce que l’illusion donnait, un sens devant la mort, un lien entre les hommes : d’où venait donc ce lien ?",
+          "Que devient le lien humain si la croyance qui le portait disparaît ?",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Une question brève, née de cette limite : elle fait passer à la partie II sans la donner d’avance."
         ],
         [
           "La raison gagne contre l’illusion, mais perd ce que l’illusion donnait : il faut donc garder la religion.",
@@ -1537,15 +1537,15 @@ niveau1: [
         [
           "Une humanité n’est pas seulement une somme d’individus raisonnables : il lui faut ce qui les relie et leur donne des fins communes.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Elle répond à la question de transition : la partie II part de ce que la partie I perdait."
         ],
         [
-          "De la famille et des amis, qui suffisent largement à relier les hommes entre eux, sans aucune religion ni aucun culte.",
+          "Il se maintient sans peine : la famille et les amis suffisent largement à relier les hommes entre eux, sans aucune religion ni aucun culte.",
           "def",
           "Une réponse, mais trop étroite : la question porte sur ce qui relie toute une communauté."
         ],
         [
-          "De la raison, qui relie tous les hommes par des vérités communes.",
+          "Rien ne change : la raison relie tous les hommes par des vérités communes.",
           "no",
           "C’est revenir à la partie I au lieu d’en sortir."
         ]
@@ -1559,7 +1559,7 @@ niveau1: [
         [
           "Durkheim, dans Les Formes élémentaires de la vie religieuse, montre que la religion est, en son fond, une affaire sociale : en célébrant le sacré, une communauté se célèbre et se resserre elle-même.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La référence porte la nouvelle réponse : elle montre pourquoi l’exigence de la partie II est nécessaire."
         ],
         [
           "La religion relie les hommes et leur donne des fins communes, ce que la raison seule ne fait pas.",
@@ -1579,12 +1579,12 @@ niveau1: [
       "q": "Où cette deuxième réponse cède-t-elle à son tour ?",
       "o": [
         [
-          "Mais une communauté qui rend ses croyances incontestables risque de sacrifier le jugement personnel à son unité.",
+          "Mais un lien qui tient à une croyance commune exige qu’on ne la mette pas en doute : l’unité se paie du jugement personnel.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La limite vient encore de l’intérieur : la seconde réponse perd à son tour ce que la première gardait."
         ],
         [
-          "Les pratiques religieuses reculent dans beaucoup de pays occidentaux depuis un siècle.",
+          "Les pratiques religieuses reculent dans beaucoup de pays occidentaux depuis plus d’un siècle, et les églises s’y vident peu à peu.",
           "def",
           "Un constat, mais extérieur : la limite doit venir du lien religieux lui-même."
         ],
@@ -1601,9 +1601,9 @@ niveau1: [
       "q": "Quelle question montre ce que les deux réponses supposaient ensemble ?",
       "o": [
         [
-          "Celui qui renonçait au dieu croyait perdre le lien ; celui qui gardait le lien croyait devoir garder le dieu : tous deux confondaient la religion avec ce qu’elle assurait. De quoi l’humanité ne peut-elle donc se passer ?",
+          "Mais un lien commun doit-il être une croyance soustraite à l’examen ?",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La question fait voir ce que les deux réponses supposaient ensemble : c’est ce point que la partie III transformera."
         ],
         [
           "Si la raison laisse un vide et que la religion divise, l’humanité peut-elle finalement se passer de toute religion ?",
@@ -1620,15 +1620,15 @@ niveau1: [
     {
       "p": "III",
       "k": "probleme",
-      "q": "Revenir au problème : qu’est-ce que chacune des deux réponses avait compris ?",
+      "q": "Revenir au problème : que supposaient ensemble les deux réponses, et comment le transformer ?",
       "o": [
         [
-          "Garder l’autonomie humaine sans nier les fonctions des religions.",
+          "Un lien n’a besoin d’être soustrait à l’examen que s’il repose sur une croyance ; des hommes peuvent aussi se relier par ce qu’ils examinent ensemble.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Elle ne choisit pas un camp : elle transforme ce que les deux réponses tenaient pour acquis."
         ],
         [
-          "Chacune avait raison à moitié : la partie I sur la science, la partie II sur la tradition, les rites et les fêtes.",
+          "Chacune avait raison à moitié : la partie I sur la science et ses preuves, la partie II sur la tradition, les rites et les fêtes qu’on partage en famille.",
           "def",
           "Proche, mais la science et la tradition déplacent le sujet : le jugement libre et le lien."
         ],
@@ -1645,14 +1645,14 @@ niveau1: [
       "q": "Quelle opération permet de tenir les deux ensemble : renverser le rapport, changer de niveau, ou réunir ce qu’on avait séparé ? Plusieurs peuvent tenir : regardez ce que chacune laisse.",
       "o": [
         [
-          "Distinguer les fonctions de lien et de sens de leurs formes religieuses : d’autres institutions peuvent les assumer.",
+          "Le fait que la religion ait assuré ces fonctions ne prouve pas qu’elle seule puisse les assurer. Une communauté peut reconnaître des droits et organiser une solidarité sans partager une révélation, un culte ou une autorité sacrée.",
           "ok",
-          "Ce choix conserve les deux exigences. Sa justification et les limites des autres propositions doivent être comparées ; le nom de l’opération ne suffit pas."
+          "Elle garde l’acquis de la partie I et celui de la partie II, et dit concrètement comment les tenir ensemble."
         ],
         [
-          "Métamorphoser : une religion rationnelle commune",
+          "On peut changer la religion plutôt que la quitter : une religion de la raison, sans révélation ni miracles, garderait ses rites et ses fêtes communes, mais n’exigerait plus de croire que ce que chacun peut comprendre par lui-même.",
           "def",
-          "Une piste à examiner : Risque de renommer religion toute conviction commune, sans établir la nécessité du sacré"
+          "Défendable, mais elle renomme religion toute conviction commune, sans montrer qu’il faille encore du sacré."
         ],
         [
           "Il faut une religion modérée, qui ne demande pas trop de croire.",
@@ -1667,14 +1667,14 @@ niveau1: [
       "q": "Que peut-on désormais affirmer, et que cette réponse ne règle-t-elle pas encore ?",
       "o": [
         [
-          "Une humanité sans religion est concevable. Reste à savoir si ses formes communes recréent une autorité soustraite à la critique.",
+          "Une humanité sans religion est donc concevable, pourvu que ses institutions communes restent examinables. Reste que des principes discutables peuvent être sacralisés : un lien initialement ouvert à la critique peut devenir un dogme qui interdit de le contester.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La réponse est nette, et son reste est dit : c’est lui que la conclusion reprendra."
         ],
         [
-          "Une humanité sans religion est donc concevable : elle doit construire des institutions et des pratiques communes, mais leur caractère partagé ne suffit pas à en faire une religion. La difficulté est donc entièrement réglée.",
+          "Une humanité sans religion est donc concevable, pourvu que ses institutions communes restent examinables. Et comme des principes examinés en commun ne peuvent plus devenir des dogmes, ce lien restera ouvert à la critique aussi longtemps qu’il durera entre les hommes.",
           "def",
-          "La réponse oublie sa propre limite : Reste que des principes discutables peuvent être sacralisés : un lien initialement ouvert à la critique peut devenir un dogme qui interdit de le contester."
+          "La réponse se croit complète : des principes d’abord discutés peuvent être sacralisés, au point d’interdire qu’on les conteste."
         ],
         [
           "On peut se passer de religion dans certains pays, et pas dans d’autres.",
@@ -1689,12 +1689,12 @@ niveau1: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Comment maintenir des convictions communes assez fortes pour nous unir, sans les rendre sacrées au point d’interdire leur examen ?",
+          "Des convictions assez fortes pour unir les hommes peuvent-elles rester ouvertes à l’examen qui les a fondées ?",
           "ok",
-          "La question reprend exactement la difficulté laissée par la réponse de III.3."
+          "C’est le reste de la réponse, devenu question : le même problème, posé plus loin."
         ],
         [
-          "Les religions finiront-elles un jour par disparaître de la surface de la Terre ?",
+          "Les religions finiront-elles un jour par disparaître de la surface de la Terre, ou renaîtront-elles toujours sous d’autres formes ?",
           "def",
           "Une question liée, mais qui ne part pas du reste de la réponse."
         ],
@@ -1713,7 +1713,7 @@ niveau1: [
   "sujet": "La nature a-t-elle besoin de nous ?",
   "notion": "La nature",
   "v": 3,
-  "pb": "Une nature confiée à nos soins serait-elle encore ce qui se fait sans nous, et une nature qui se passe de nous reste-t-elle un ordre, s’il n’est ordre pour personne ?",
+  "pb": "La nature se fait-elle sans nous, ce qui l’abandonne à nos destructions, ou dépend-elle de nos soins, ce qui en fait notre ouvrage ?",
   "annale": "la-nature-a-t-elle-besoin-de-nous",
   "etapes": [
     {
@@ -1724,7 +1724,7 @@ niveau1: [
         [
           "La nature n’a pas besoin de nous, car elle se fait toute seule.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Une réponse au sujet, avec sa raison : c’est un vrai point de départ."
         ],
         [
           "La nature est bien plus grande et plus puissante que nous, comme le montrent les tempêtes et les séismes.",
@@ -1744,9 +1744,9 @@ niveau1: [
       "q": "Qu’est-ce qui rend cette réponse la plus forte possible ?",
       "o": [
         [
-          "Aristote, dans la Physique, définit la nature comme ce qui a en soi le principe de son mouvement, à la différence des objets fabriqués, qui le reçoivent de l’artisan.",
+          "Aristote, dans la Physique (II, 1), définit la nature comme ce qui a en soi le principe de son mouvement, à la différence des objets fabriqués, qui le reçoivent de l’artisan.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La référence ne décore pas : elle donne à la réponse sa forme la plus forte, en disant pourquoi elle vaut."
         ],
         [
           "Les forêts autour de Tchernobyl ont repoussé sans aucun jardinier, dès que l’homme s’est retiré de la zone interdite.",
@@ -1768,10 +1768,10 @@ niveau1: [
         [
           "Mais une nature qui n’a besoin de personne survit aussi à nos destructions, et ce qui subsisterait après elles ne serait plus la nature que nous admirons.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La limite vient de la réponse elle-même, poussée jusqu’au bout : c’est elle qui obligera à changer de réponse."
         ],
         [
-          "La nature n’est pas toujours bonne pour l’homme : elle provoque aussi des catastrophes meurtrières, des famines, des épidémies.",
+          "La nature n’est pas toujours bonne pour l’homme : elle provoque aussi des catastrophes meurtrières, des famines, des épidémies qui ravagent des pays entiers.",
           "def",
           "Vrai, mais cela ne touche pas la question du besoin : la limite doit venir de la réponse elle-même."
         ],
@@ -1788,9 +1788,9 @@ niveau1: [
       "q": "Quelle question, née de cette limite, fait passer à la partie II ?",
       "o": [
         [
-          "La nature qui se passe de nous est une puissance ; celle que nous admirons est un ordre, qui n’est ordre que pour nous, et que nous savons défaire : que nous impose ce pouvoir de la défaire ?",
+          "Pourquoi la puissance de détruire ferait-elle naître un devoir de protéger ?",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Une question brève, née de cette limite : elle fait passer à la partie II sans la donner d’avance."
         ],
         [
           "La nature qui se passe de nous est une puissance, mais nous savons défaire son ordre : elle a donc besoin de nous.",
@@ -1810,17 +1810,17 @@ niveau1: [
       "q": "Comment la partie II répond-elle d’abord à cette question ?",
       "o": [
         [
-          "Notre action peut menacer des espèces et des équilibres : certains milieux ne retrouveront pas leur autonomie si nous maintenons les causes de leur destruction.",
+          "Notre capacité de détruire des milieux fait naître une responsabilité envers ce qui dépend désormais de nous.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Elle répond à la question de transition : la partie II part de ce que la partie I perdait."
         ],
         [
-          "Il nous donne le droit d’en faire ce que nous voulons, puisque nous en sommes devenus les maîtres.",
+          "Elle ne fait naître aucun devoir, mais un droit : puisque nous en sommes devenus les maîtres, nous pouvons en faire ce que nous voulons.",
           "def",
           "Une réponse, mais elle tire du pouvoir un droit au lieu d’un devoir : la partie II ne naît pas encore."
         ],
         [
-          "Rien du tout : la nature s’en remettra, comme toujours.",
+          "Elle n’en fait naître aucun : la nature s’en remettra, comme toujours.",
           "no",
           "C’est revenir à la partie I au lieu d’en sortir."
         ]
@@ -1834,7 +1834,7 @@ niveau1: [
         [
           "Descartes voulait nous rendre « comme maîtres et possesseurs de la nature » ; Hans Jonas, dans Le Principe responsabilité, en tire la conséquence : ce pouvoir nous rend responsables de ce qui ne peut plus se protéger seul.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La référence porte la nouvelle réponse : elle montre pourquoi l’exigence de la partie II est nécessaire."
         ],
         [
           "Nous avons rendu la nature fragile par notre puissance, et elle a désormais besoin de nous pour se maintenir en vie.",
@@ -1854,12 +1854,12 @@ niveau1: [
       "q": "Où cette deuxième réponse cède-t-elle à son tour ?",
       "o": [
         [
-          "Mais protéger ne peut signifier fixer d’avance chaque évolution : une gestion totale supprimerait l’autonomie que l’on voulait conserver.",
+          "Mais une protection qui dirige un milieu remplace ses processus par nos décisions : plus elle s’étend, plus elle supprime l’autonomie qu’elle voulait sauver.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La limite vient encore de l’intérieur : la seconde réponse perd à son tour ce que la première gardait."
         ],
         [
-          "Protéger la nature coûte très cher, et les pays n’ont pas tous les moyens de le faire correctement, surtout les plus pauvres.",
+          "Protéger la nature coûte très cher, et les pays n’ont pas tous les moyens de le faire correctement, surtout les plus pauvres, qui ont d’autres urgences à régler.",
           "def",
           "Vrai, mais extérieur : la limite doit venir de l’idée de protection elle-même."
         ],
@@ -1876,9 +1876,9 @@ niveau1: [
       "q": "Quelle question montre ce que les deux réponses supposaient ensemble ?",
       "o": [
         [
-          "Comment nos soins pourraient-ils permettre à un milieu de retrouver une autonomie, au lieu de l’en rendre toujours plus dépendant ?",
+          "Mais prendre soin de la nature, est-ce la diriger ?",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La question fait voir ce que les deux réponses supposaient ensemble : c’est ce point que la partie III transformera."
         ],
         [
           "Si elle se passe de nous et qu’elle devient pourtant fragile, la nature a-t-elle besoin de nous ou non ?",
@@ -1895,15 +1895,15 @@ niveau1: [
     {
       "p": "III",
       "k": "probleme",
-      "q": "Revenir au problème : qu’est-ce que chacune des deux réponses avait compris ?",
+      "q": "Revenir au problème : que supposaient ensemble les deux réponses, et comment le transformer ?",
       "o": [
         [
-          "Garder l’autonomie des processus et soigner les milieux abîmés.",
+          "Prendre soin d’un être n’est pas forcément le diriger : on peut lui rendre les conditions de son propre mouvement.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Elle ne choisit pas un camp : elle transforme ce que les deux réponses tenaient pour acquis."
         ],
         [
-          "Chacune avait raison à moitié : la partie I sur la biologie, la partie II sur la politique et l’écologie.",
+          "Chacune avait raison à moitié : la partie I sur la biologie des espèces, la partie II sur la politique et l’écologie.",
           "def",
           "Proche, mais ces domaines déplacent le sujet : l’autonomie de la nature et notre responsabilité."
         ],
@@ -1920,14 +1920,14 @@ niveau1: [
       "q": "Quelle opération permet de tenir les deux ensemble : renverser le rapport, changer de niveau, ou réunir ce qu’on avait séparé ? Plusieurs peuvent tenir : regardez ce que chacune laisse.",
       "o": [
         [
-          "Distinguer l’ensemble des processus naturels et les milieux particuliers ; protéger ceux-ci pour qu’ils retrouvent leur autonomie.",
+          "La nature comme ensemble de processus ne dépend pas de nous ; des milieux déterminés, que nous avons fragilisés, dépendent de nos choix : c’est à eux que le soin est dû.",
           "ok",
-          "Ce choix conserve les deux exigences. Sa justification et les limites des autres propositions doivent être comparées ; le nom de l’opération ne suffit pas."
+          "Elle garde l’acquis de la partie I et celui de la partie II, et dit concrètement comment les tenir ensemble."
         ],
         [
-          "Inverser : seuls les hommes ont besoin de la nature",
+          "On peut renverser le rapport : ce n’est pas la nature qui a besoin de nous, ce sont seulement les hommes qui ont besoin d’elle pour vivre, respirer et se nourrir chaque jour.",
           "def",
-          "Une piste à examiner : Notre besoin ne supprime pas celui d’un milieu abîmé envers certains soins"
+          "Défendable, mais notre besoin de la nature ne supprime pas celui d’un milieu abîmé envers certains soins."
         ],
         [
           "Il faut protéger les espèces les plus belles, et laisser faire le reste.",
@@ -1942,14 +1942,14 @@ niveau1: [
       "q": "Que peut-on désormais affirmer, et que cette réponse ne règle-t-elle pas encore ?",
       "o": [
         [
-          "Certains milieux ont besoin de soins. Reste à choisir lesquels restaurer quand plusieurs formes de vie entrent en conflit.",
+          "Le bon soin se mesure donc à son retrait possible : il vise un milieu qui puisse de nouveau se passer de nous. Reste que choisir le milieu à restaurer suppose un jugement humain : quelle autonomie préserver quand plusieurs formes de vie entrent en conflit ?",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La réponse est nette, et son reste est dit : c’est lui que la conclusion reprendra."
         ],
         [
-          "La nature n’a donc pas besoin de nous en un sens unique : certains milieux abîmés ont besoin de soins, dont la fin doit être leur autonomie plutôt que leur remplacement par notre ouvrage. La difficulté est donc entièrement réglée.",
+          "Le bon soin se mesure donc à son retrait possible : il vise un milieu qui puisse de nouveau se passer de nous. Il suffit alors de laisser faire la nature, qui choisira elle-même, mieux que nous, quelles formes de vie méritent d’être sauvées et restaurées.",
           "def",
-          "La réponse oublie sa propre limite : Reste que choisir le milieu à restaurer suppose un jugement humain : quelle autonomie préserver quand plusieurs formes de vie entrent en conflit ?"
+          "La réponse se croit complète : choisir le milieu à restaurer suppose encore un jugement humain, quand plusieurs formes de vie entrent en conflit."
         ],
         [
           "La nature a parfois besoin de nous, et parfois non.",
@@ -1964,12 +1964,12 @@ niveau1: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Comment choisir ce qu’il faut restaurer sans faire de nos préférences la seule mesure d’une nature que nous voulons autonome ?",
+          "Au nom de quoi choisir le milieu à restaurer, si ce ne doit pas être au nom de nos seules préférences ?",
           "ok",
-          "La question reprend exactement la difficulté laissée par la réponse de III.3."
+          "C’est le reste de la réponse, devenu question : le même problème, posé plus loin."
         ],
         [
-          "L’homme fait-il lui-même partie de la nature, ou s’en est-il définitivement séparé ?",
+          "L’homme fait-il lui-même partie de la nature, ou s’en est-il définitivement séparé par sa technique ?",
           "def",
           "Une vraie question, mais qui ne part pas du reste de la réponse."
         ],
@@ -1988,7 +1988,7 @@ niveau1: [
   "sujet": "Peut-on être heureux quand les autres ne le sont pas ?",
   "notion": "Le bonheur",
   "v": 3,
-  "pb": "Un bonheur fermé au malheur des autres est-il encore un bonheur humain, et un bonheur qui l’accueille peut-il jamais exister, tant qu’il y a des malheureux ?",
+  "pb": "Peut-on être heureux en fermant son bonheur au malheur des autres, qui cesse alors d’être humain, ou en l’y ouvrant, ce qui le rend impossible tant qu’il y a des malheureux ?",
   "annale": "peut-on-etre-heureux-quand-les-autres-ne-le-sont-pas",
   "etapes": [
     {
@@ -1999,7 +1999,7 @@ niveau1: [
         [
           "On peut être heureux quand les autres ne le sont pas, car le bonheur dépend de nous.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Une réponse au sujet, avec sa raison : c’est un vrai point de départ."
         ],
         [
           "On peut être heureux quand les autres ne le sont pas, car on ne connaît jamais tout le malheur qu’il y a dans le monde.",
@@ -2019,9 +2019,9 @@ niveau1: [
       "q": "Qu’est-ce qui rend cette réponse la plus forte possible ?",
       "o": [
         [
-          "Épictète, dans le Manuel, distingue ce qui dépend de nous, nos jugements et nos désirs, de ce qui n’en dépend pas.",
+          "Épictète, au début du Manuel, distingue ce qui dépend de nous, nos jugements et nos désirs, de ce qui n’en dépend pas.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La référence ne décore pas : elle donne à la réponse sa forme la plus forte, en disant pourquoi elle vaut."
         ],
         [
           "Certaines personnes restent sereines dans des situations très difficiles, même pendant une guerre ou une longue maladie.",
@@ -2041,12 +2041,12 @@ niveau1: [
       "q": "Où cette réponse cède-t-elle, si on la pousse jusqu’au bout ?",
       "o": [
         [
-          "Mais cette indépendance peut devenir une indifférence si elle sert à écarter toute obligation envers autrui.",
+          "Mais si le malheur des autres ne dépend pas de moi, il ne doit plus me toucher : la sérénité qui suffit au bonheur exige de s’en détourner.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La limite vient de la réponse elle-même, poussée jusqu’au bout : c’est elle qui obligera à changer de réponse."
         ],
         [
-          "Il est difficile d’être heureux quand on regarde les informations tous les soirs à la télévision ou sur son téléphone.",
+          "Il est difficile d’être heureux quand on regarde les informations tous les soirs à la télévision ou sur son téléphone, pleines de guerres et de misères.",
           "def",
           "Un constat juste, mais dites pourquoi : c’est le bonheur intérieur lui-même qui exige de détourner les yeux."
         ],
@@ -2063,9 +2063,9 @@ niveau1: [
       "q": "Quelle question, née de cette limite, fait passer à la partie II ?",
       "o": [
         [
-          "Le retrait peut protéger la paix, comme le jardin du vieux Turc de Candide ; que devient cette paix lorsqu’elle nous dispense de regarder la souffrance voisine ?",
+          "Une paix indifférente au malheur d’autrui peut-elle être heureuse ?",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Une question brève, née de cette limite : elle fait passer à la partie II sans la donner d’avance."
         ],
         [
           "Ce bonheur ne dure qu’en détournant les yeux : il faut donc s’ouvrir au malheur des autres.",
@@ -2087,15 +2087,15 @@ niveau1: [
         [
           "Le bonheur humain n’est pas celui d’un être isolé : nous vivons avec les autres, et leur sort fait partie du nôtre.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Elle répond à la question de transition : la partie II part de ce que la partie I perdait."
         ],
         [
-          "Il disparaît pour un moment, puis revient quand on a oublié ce qu’on a vu.",
+          "Oui, pour un temps : elle disparaît quand on voit souffrir, puis revient dès qu’on a oublié ce qu’on a vu et entendu.",
           "def",
           "Une réponse, mais elle garde l’oubli comme remède : la partie II ne naît pas encore."
         ],
         [
-          "Il continue tranquillement, puisque le malheur des autres ne dépend pas de nous.",
+          "Oui, tout à fait : le malheur des autres ne dépend pas de nous.",
           "no",
           "C’est revenir à la partie I au lieu d’en sortir."
         ]
@@ -2109,7 +2109,7 @@ niveau1: [
         [
           "Rousseau, dans le Discours sur l’origine de l’inégalité, voit dans la pitié un sentiment naturel qui nous fait souffrir de voir souffrir.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La référence porte la nouvelle réponse : elle montre pourquoi l’exigence de la partie II est nécessaire."
         ],
         [
           "Le malheur des autres nous touche, et notre bonheur ne peut pas rester entier.",
@@ -2131,10 +2131,10 @@ niveau1: [
         [
           "Mais si le malheur d’autrui suffit à empêcher mon bonheur, personne ne sera jamais heureux, puisqu’il y a toujours des malheureux.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La limite vient encore de l’intérieur : la seconde réponse perd à son tour ce que la première gardait."
         ],
         [
-          "Il est épuisant de penser sans cesse au malheur des autres, et cela finit par rendre malade.",
+          "Il est épuisant de penser sans cesse au malheur des autres, et cela finit par rendre malade celui qui ne pense plus à rien d’autre.",
           "def",
           "Vrai, mais c’est un effet pratique : la limite doit venir de la réponse elle-même."
         ],
@@ -2151,9 +2151,9 @@ niveau1: [
       "q": "Quelle question montre ce que les deux réponses supposaient ensemble ?",
       "o": [
         [
-          "Défendu ou sacrifié, ce bonheur restait un avoir, que le malheur des autres menace : quel bonheur pourrait résister au malheur des autres ?",
+          "Mais être touché par le malheur d’autrui, est-ce le reproduire en soi ?",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La question fait voir ce que les deux réponses supposaient ensemble : c’est ce point que la partie III transformera."
         ],
         [
           "Si l’indifférence nous ferme et que la pitié nous accable, peut-on finalement être heureux ou non ?",
@@ -2170,15 +2170,15 @@ niveau1: [
     {
       "p": "III",
       "k": "probleme",
-      "q": "Revenir au problème : qu’est-ce que chacune des deux réponses avait compris ?",
+      "q": "Revenir au problème : que supposaient ensemble les deux réponses, et comment le transformer ?",
       "o": [
         [
-          "Garder une possibilité de joie et le souci d’autrui.",
+          "Être touché par le malheur d’autrui, c’est d’abord le reconnaître et y répondre, non le subir à son tour.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Elle ne choisit pas un camp : elle transforme ce que les deux réponses tenaient pour acquis."
         ],
         [
-          "Chacune avait raison à moitié : la partie I sur la sagesse antique, la partie II sur la morale moderne.",
+          "Chacune avait raison à moitié : la partie I sur la sagesse antique, la partie II sur la morale chrétienne et moderne.",
           "def",
           "Proche, mais l’histoire des idées déplace le sujet : l’intériorité du bonheur et le lien aux autres."
         ],
@@ -2195,14 +2195,14 @@ niveau1: [
       "q": "Quelle opération permet de tenir les deux ensemble : renverser le rapport, changer de niveau, ou réunir ce qu’on avait séparé ? Plusieurs peuvent tenir : regardez ce que chacune laisse.",
       "o": [
         [
-          "La compassion n’exige pas de reproduire toute souffrance : la joie peut demeurer attentive et se prolonger en aide.",
+          "Un bonheur peut alors inclure l’inquiétude et se prolonger en aide : la joie ne prouve ni l’ignorance ni l’approbation du malheur.",
           "ok",
-          "Ce choix conserve les deux exigences. Sa justification et les limites des autres propositions doivent être comparées ; le nom de l’opération ne suffit pas."
+          "Elle garde l’acquis de la partie I et celui de la partie II, et dit concrètement comment les tenir ensemble."
         ],
         [
-          "Distinguer proches et lointains",
+          "On peut distinguer les proches et les lointains : le malheur de ceux que j’aime me touche, celui des inconnus ne m’oblige à rien du tout.",
           "def",
-          "Une piste à examiner : La distance seule ne justifie pas l’indifférence ni la participation à une injustice"
+          "Défendable, mais la distance seule ne justifie ni l’indifférence ni la participation à une injustice."
         ],
         [
           "Il faut être heureux, mais un peu moins quand les autres souffrent.",
@@ -2217,14 +2217,14 @@ niveau1: [
       "q": "Que peut-on désormais affirmer, et que cette réponse ne règle-t-elle pas encore ?",
       "o": [
         [
-          "Un bonheur attentif est possible. Reste le cas où il dépend matériellement d’une injustice que l’attention ne corrige pas.",
+          "Ce bonheur n’est donc ni clos ni impossible ; il ne donne pas pour autant le droit de profiter de la souffrance d’autrui. Reste le cas où mon bonheur repose matériellement sur une injustice subie par d’autres : leur porter de l’attention ne suffit plus.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La réponse est nette, et son reste est dit : c’est lui que la conclusion reprendra."
         ],
         [
-          "On peut ainsi être heureux lorsque d’autres ne le sont pas, si ce bonheur reste compatible avec l’attention et l’action pour eux. Il ne faut pas confondre cette possibilité avec le droit de profiter de leur souffrance. La difficulté est donc entièrement réglée.",
+          "Ce bonheur n’est donc ni clos ni impossible ; il ne donne pas pour autant le droit de profiter de la souffrance d’autrui. Il suffit alors de penser aux malheureux et de les plaindre sincèrement pour être heureux en toute justice et en paix.",
           "def",
-          "La réponse oublie sa propre limite : Reste le cas où mon bonheur repose matériellement sur une injustice subie par d’autres : leur porter de l’attention ne suffit plus."
+          "La réponse se croit complète : si mon bonheur repose matériellement sur une injustice subie par d’autres, leur porter de l’attention ne suffit plus."
         ],
         [
           "On peut être heureux quand les autres ne le sont pas, selon les cas.",
@@ -2241,10 +2241,10 @@ niveau1: [
         [
           "Que doit changer celui dont le bonheur dépend d’une injustice, pour que son souci d’autrui ne demeure pas une simple bonne conscience ?",
           "ok",
-          "La question reprend exactement la difficulté laissée par la réponse de III.3."
+          "C’est le reste de la réponse, devenu question : le même problème, posé plus loin."
         ],
         [
-          "Faut-il aider les autres pour être heureux soi-même, ou bien les aider pour eux, sans rien attendre en retour de leur part ?",
+          "Faut-il aider les autres pour être heureux soi-même, ou bien les aider pour eux seuls, sans rien attendre en retour, pas même de la gratitude ?",
           "def",
           "Une vraie question, mais qui ne part pas du reste de la réponse."
         ],
@@ -2263,7 +2263,7 @@ niveau1: [
   "sujet": "Revient-il principalement à l’État de lutter contre l’injustice ?",
   "notion": "L’État",
   "v": 3,
-  "pb": "Confier d’abord à l’État la lutte contre l’injustice, est-ce donner à sa force le dernier mot sur le juste, et la confier d’abord à d’autres, est-ce priver la justice de force ?",
+  "pb": "Confier d’abord à l’État la lutte contre l’injustice, est-ce soustraire ses lois à tout jugement, et la confier d’abord aux citoyens, est-ce priver la justice de force commune ?",
   "annale": "revient-il-principalement-a-l-etat-de-lutter-contre-l-injustice",
   "etapes": [
     {
@@ -2274,10 +2274,10 @@ niveau1: [
         [
           "Il revient principalement à l’État de lutter contre l’injustice, car lui seul en a la force.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Une réponse au sujet, avec sa raison : c’est un vrai point de départ."
         ],
         [
-          "C’est l’État qui fait les lois, donc c’est à lui de les faire appliquer.",
+          "C’est l’État qui fait les lois, donc c’est à lui de les faire appliquer et de punir ceux qui ne les respectent pas.",
           "def",
           "Une raison, mais circulaire : dites pourquoi lutter contre l’injustice exige l’État."
         ],
@@ -2294,9 +2294,9 @@ niveau1: [
       "q": "Qu’est-ce qui rend cette réponse la plus forte possible ?",
       "o": [
         [
-          "Hobbes, dans le Léviathan, va plus loin : sans un pouvoir commun, il n’y a ni loi ni justice, seulement la guerre de chacun contre chacun.",
+          "Hobbes, dans le Léviathan (chap. XIII), va plus loin : sans un pouvoir commun, il n’y a ni loi ni justice, seulement la guerre de chacun contre chacun.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La référence ne décore pas : elle donne à la réponse sa forme la plus forte, en disant pourquoi elle vaut."
         ],
         [
           "L’État punit les crimes, protège les plus faibles, corrige les inégalités par l’impôt et par les aides sociales.",
@@ -2318,10 +2318,10 @@ niveau1: [
         [
           "Mais si l’État rend seul la justice possible, il en devient aussi le principal juge, et personne ne peut plus le juger quand ses propres lois sont injustes.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La limite vient de la réponse elle-même, poussée jusqu’au bout : c’est elle qui obligera à changer de réponse."
         ],
         [
-          "L’État coûte cher, et ses administrations sont souvent lentes et compliquées pour les citoyens.",
+          "L’État coûte cher, et ses administrations sont souvent lentes et compliquées pour les citoyens, qui attendent parfois des années une simple réponse à leurs demandes.",
           "def",
           "Vrai, mais extérieur : la limite doit venir de la force de l’État elle-même."
         ],
@@ -2338,9 +2338,9 @@ niveau1: [
       "q": "Quelle question, née de cette limite, fait passer à la partie II ?",
       "o": [
         [
-          "L’État qui rend seul la justice possible en devient le seul juge : quand la ségrégation fut loi en Alabama, qui restait-il, au-dessus de lui, pour juger cette loi ?",
+          "Qui peut juger une loi lorsque l’État lui-même la rend injuste ?",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Une question brève, née de cette limite : elle fait passer à la partie II sans la donner d’avance."
         ],
         [
           "Quand la ségrégation fut loi en Alabama, ce sont les citoyens qui ont dû juger cette loi injuste, à la place de l’État.",
@@ -2362,7 +2362,7 @@ niveau1: [
         [
           "La justice ne se réduit pas à la loi : on peut dire qu’une loi est injuste, et c’est même ainsi que les lois progressent.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Elle répond à la question de transition : la partie II part de ce que la partie I perdait."
         ],
         [
           "Les juges, qui sont indépendants et peuvent condamner l’État lui-même quand il viole ses propres lois ou ses engagements.",
@@ -2382,9 +2382,9 @@ niveau1: [
       "q": "Quel développement montre que cette exigence est nécessaire ?",
       "o": [
         [
-          "Antigone enterre son frère malgré l’interdit de Créon ; Thoreau refuse de payer l’impôt à un gouvernement qui soutient l’esclavage : tous deux opposent à la loi un jugement sur la loi.",
+          "Antigone enterre son frère malgré l’interdit de Créon ; Thoreau, dans La Désobéissance civile (1849), refuse de payer l’impôt à un gouvernement qui soutient l’esclavage : tous deux opposent à la loi un jugement sur la loi.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La référence porte la nouvelle réponse : elle montre pourquoi l’exigence de la partie II est nécessaire."
         ],
         [
           "La lutte contre l’injustice revient d’abord aux citoyens, car eux seuls peuvent juger les lois.",
@@ -2404,12 +2404,12 @@ niveau1: [
       "q": "Où cette deuxième réponse cède-t-elle à son tour ?",
       "o": [
         [
-          "Mais une contestation ne devient pas juste par sa seule sincérité : des consciences opposées peuvent revendiquer des droits incompatibles.",
+          "Mais, même sincères, des consciences opposées revendiquent des droits incompatibles : si leur jugement l’emporte sur la loi, celle-ci n’oblige plus que ceux qui l’approuvent.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La limite vient encore de l’intérieur : la seconde réponse perd à son tour ce que la première gardait."
         ],
         [
-          "Les citoyens n’ont pas toujours le temps de s’engager, entre leur travail et leur famille.",
+          "Les citoyens n’ont pas toujours le temps de s’engager, entre leur travail et leur famille, et laissent souvent à d’autres le soin de protester à leur place contre l’injustice.",
           "def",
           "Vrai, mais extérieur : la limite doit venir du jugement des citoyens lui-même."
         ],
@@ -2426,9 +2426,9 @@ niveau1: [
       "q": "Quelle question montre ce que les deux réponses supposaient ensemble ?",
       "o": [
         [
-          "La force publique peut protéger une loi injuste ; une conscience sincère peut défendre une exigence injuste. Comment donner force au droit sans soustraire cette force à la critique ?",
+          "Mais la force qui garantit les droits et le jugement qui les réclame se disputent-ils vraiment la même tâche ?",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La question fait voir ce que les deux réponses supposaient ensemble : c’est ce point que la partie III transformera."
         ],
         [
           "Si l’État peut être injuste et que les citoyens se vengent, faut-il finalement confier toute la lutte à l’État seul ?",
@@ -2445,15 +2445,15 @@ niveau1: [
     {
       "p": "III",
       "k": "probleme",
-      "q": "Revenir au problème : qu’est-ce que chacune des deux réponses avait compris ?",
+      "q": "Revenir au problème : que supposaient ensemble les deux réponses, et comment le transformer ?",
       "o": [
         [
-          "Garder la force commune et la possibilité de la critiquer.",
+          "La force et le jugement ne se disputent la même tâche que si l’on confond garantir les droits et décider seul du juste : l’État garantit, le jugement des citoyens ne s’impose pas à sa place, il l’oblige à se réexaminer.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Elle ne choisit pas un camp : elle transforme ce que les deux réponses tenaient pour acquis."
         ],
         [
-          "Chacune avait raison à moitié : la partie I sur l’ordre public, la partie II sur la liberté de chacun de protester.",
+          "Chacune avait raison à moitié : la partie I sur l’ordre public que la police et les tribunaux maintiennent, la partie II sur la liberté de chacun de protester, de manifester et de faire grève quand il le juge bon.",
           "def",
           "Proche, mais l’ordre et la liberté déplacent le sujet : la force et le jugement."
         ],
@@ -2470,14 +2470,14 @@ niveau1: [
       "q": "Quelle opération permet de tenir les deux ensemble : renverser le rapport, changer de niveau, ou réunir ce qu’on avait séparé ? Plusieurs peuvent tenir : regardez ce que chacune laisse.",
       "o": [
         [
-          "Distinguer la garantie publique des droits et le jugement de leur justice : la force doit rester contestable.",
+          "La contestation juste se reconnaît donc à sa forme : publique, elle en appelle à la règle commune devant tous et demande une révision, non une exception pour soi.",
           "ok",
-          "Ce choix conserve les deux exigences. Sa justification et les limites des autres propositions doivent être comparées ; le nom de l’opération ne suffit pas."
+          "Elle garde l’acquis de la partie I et celui de la partie II, et dit concrètement comment les tenir ensemble."
         ],
         [
-          "Inverser : la mobilisation rend la justice publique possible",
+          "On peut renverser le rapport : c’est la mobilisation des citoyens qui rend possible une justice publique, et l’État ne fait ensuite qu’enregistrer leurs victoires.",
           "def",
-          "Une piste à examiner : Ne dit pas qui garantit durablement les droits après la mobilisation"
+          "Défendable, mais elle ne dit pas qui garantit durablement les droits une fois la mobilisation passée."
         ],
         [
           "Il faut un État ni trop fort ni trop faible.",
@@ -2492,14 +2492,14 @@ niveau1: [
       "q": "Que peut-on désormais affirmer, et que cette réponse ne règle-t-elle pas encore ?",
       "o": [
         [
-          "L’État garantit les droits sous contrôle. Reste le cas où il détruit les voies qui permettent de le corriger.",
+          "La force publique tient donc sa justice de ce qu’elle reste exposée à la contestation : l’État qui la reçoit se corrige sans cesser de garantir. Reste le cas où le pouvoir ferme les voies de contestation : les garanties dont dépend cette répartition des rôles ne peuvent plus être présupposées.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La réponse est nette, et son reste est dit : c’est lui que la conclusion reprendra."
         ],
         [
-          "Il revient principalement à l’État de garantir la lutte contre l’injustice, mais cette responsabilité exige des contre-pouvoirs : les citoyens ne veillent pas seulement, ils participent à sa correction. La difficulté est donc entièrement réglée.",
+          "La force publique tient donc sa justice de ce qu’elle reste exposée à la contestation : l’État qui la reçoit se corrige sans cesser de garantir. Aucun pouvoir ne pourra donc plus fermer ces voies, puisque les citoyens veillent.",
           "def",
-          "La réponse oublie sa propre limite : Reste le cas où le pouvoir ferme les voies de contestation : les garanties qui rendent ce partage juste ne peuvent plus être présupposées."
+          "La réponse se croit complète : il reste le cas où le pouvoir ferme les voies de contestation, et où cette répartition des rôles ne peut plus être présupposée."
         ],
         [
           "C’est parfois à l’État de lutter, et parfois aux citoyens.",
@@ -2516,10 +2516,10 @@ niveau1: [
         [
           "Lorsque l’État détruit les voies par lesquelles on pouvait le corriger, comment lui résister sans abandonner l’exigence d’une justice commune ?",
           "ok",
-          "La question reprend exactement la difficulté laissée par la réponse de III.3."
+          "C’est le reste de la réponse, devenu question : le même problème, posé plus loin."
         ],
         [
-          "Une société parfaitement juste est-elle possible, ou n’est-elle qu’un rêve ?",
+          "Une société parfaitement juste est-elle possible, ou n’est-elle qu’un rêve que les hommes poursuivent depuis toujours sans jamais vraiment l’approcher ?",
           "def",
           "Une vraie question, mais qui ne part pas du reste de la réponse."
         ],
@@ -2551,7 +2551,7 @@ niveau2: [
         [
           "Nous sommes prisonniers du langage, car nous pensons dans une langue reçue.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Une réponse au sujet, avec sa raison : c’est un vrai point de départ."
         ],
         [
           "Il existe des mots qu’on ne peut pas traduire d’une langue à l’autre, même avec beaucoup d’effort et de patience.",
@@ -2571,9 +2571,9 @@ niveau2: [
       "q": "Qu’est-ce qui rend cette réponse la plus forte possible ?",
       "o": [
         [
-          "Bergson, dans Le Rire, va plus loin : les mots ne notent des choses que ce qu’elles ont de commun et d’utile, et nous cachent ce qu’elles ont de singulier.",
+          "Bergson, dans Le Rire (chap. III), va plus loin : les mots ne notent des choses que ce qu’elles ont de commun et d’utile, et nous cachent ce qu’elles ont de singulier.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La référence ne décore pas : elle donne à la réponse sa forme la plus forte, en disant pourquoi elle vaut."
         ],
         [
           "Un enfant apprend sa langue maternelle sans jamais l’avoir choisie, et il ne pourra jamais tout à fait en changer.",
@@ -2592,14 +2592,14 @@ niveau2: [
       "k": "limite",
       "w": 1,
       "q": "À vous : écrivez la limite de cette réponse, poussée jusqu’au bout. Une phrase.",
-      "m": "Mais si nous pouvons dire que nous sommes enfermés, c’est que nous voyons les limites du langage : nous ne sommes donc pas entièrement prisonniers."
+      "m": "Mais pour dire que les mots nous cachent les choses, il faut avoir aperçu, au moins un peu, ce qu’ils cachent."
     },
     {
       "p": "T1",
       "k": "transition",
       "w": 1,
       "q": "À vous : écrivez la transition, en une question ouverte née de cette limite. Une ou deux phrases.",
-      "m": "Pour savoir que les mots cachent les choses, il faut avoir aperçu ce qu’ils cachent : d’où vient ce regard que la prison n’enferme pas ?"
+      "m": "Comment apercevoir les limites des mots sans pouvoir les dépasser ?"
     },
     {
       "p": "II",
@@ -2609,15 +2609,15 @@ niveau2: [
         [
           "Nous inventons des mots, nous sentons ce que la langue ne dit pas encore, nous traduisons d’une langue à l’autre : nous ne la subissons pas, nous la déplaçons.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Elle répond à la question de transition : la partie II part de ce que la partie I perdait."
         ],
         [
-          "De la traduction, qui nous permet de passer d’une langue à une autre et de les comparer.",
+          "Par la traduction, qui nous permet de passer d’une langue à une autre, de les comparer et de voir ce que chacune laisse dans l’ombre et que l’autre éclaire.",
           "def",
           "Un bon indice, mais partiel : dites ce qu’il montre de notre rapport à toute langue."
         ],
         [
-          "D’une pensée pure, qui n’aurait besoin d’aucun mot pour penser.",
+          "Par une pensée pure, qui n’aurait besoin d’aucun mot pour penser.",
           "no",
           "C’est justement ce que la partie II devra exclure : ce sera sa limite."
         ]
@@ -2631,7 +2631,7 @@ niveau2: [
         [
           "La poésie et la philosophie forcent la langue : elles créent des sens nouveaux avec des mots anciens, comme la métaphore, qui fait dire à un mot ce qu’aucun dictionnaire ne lui donnait.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La référence porte la nouvelle réponse : elle montre pourquoi l’exigence de la partie II est nécessaire."
         ],
         [
           "Nous ne sommes pas prisonniers du langage : nous le travaillons, nous l’agrandissons.",
@@ -2653,7 +2653,7 @@ niveau2: [
         [
           "Mais cette liberté s’exerce toujours avec des mots : pour agrandir la langue, il faut encore parler.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La limite vient encore de l’intérieur : la seconde réponse perd à son tour ce que la première gardait."
         ],
         [
           "Les grands poètes sont rares dans une génération, et la plupart d’entre nous parlent comme tout le monde.",
@@ -2673,9 +2673,9 @@ niveau2: [
       "q": "Quelle question montre ce que les deux réponses supposaient ensemble ?",
       "o": [
         [
-          "Une limite dont on ne sort jamais et qu’on déplace sans cesse n’a plus rien d’un mur : comment nommer ce qui borne la pensée en la portant ?",
+          "Mais être libre à l’égard du langage, est-ce se tenir hors de lui ?",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La question fait voir ce que les deux réponses supposaient ensemble : c’est ce point que la partie III transformera."
         ],
         [
           "Si la prison n’en est pas une et que la liberté reste dans les mots, sommes-nous prisonniers ou non ?",
@@ -2692,15 +2692,15 @@ niveau2: [
     {
       "p": "III",
       "k": "probleme",
-      "q": "Revenir au problème : qu’est-ce que chacune des deux réponses avait compris ?",
+      "q": "Revenir au problème : que supposaient ensemble les deux réponses, et comment le transformer ?",
       "o": [
         [
-          "Garder les ressources d’une langue sans figer toute pensée.",
+          "On peut être libre à l’égard d’un milieu sans en sortir, si l’on peut le transformer de l’intérieur.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "Elle ne choisit pas un camp : elle transforme ce que les deux réponses tenaient pour acquis."
         ],
         [
-          "Chacune avait raison à moitié : la partie I sur la grammaire, la partie II sur la littérature.",
+          "Chacune avait raison à moitié : la partie I sur la grammaire et ses règles, la partie II sur la littérature.",
           "def",
           "Proche, mais la grammaire et la littérature déplacent le sujet : la pensée et ses mots."
         ],
@@ -2716,7 +2716,7 @@ niveau2: [
       "k": "operation",
       "w": 1,
       "q": "À vous : écrivez l’opération de la troisième partie (renverser le rapport, changer de niveau, ou réunir ce qu’on avait séparé), qui garde quelque chose de I et de II. Deux phrases.",
-      "m": "Nous pouvons contester une expression avec d’autres expressions, expliquer un mot inconnu ou comparer des traductions. La critique n’exige donc pas de sortir de tout langage : elle travaille ses ressources contre ses habitudes. Reste que cette transformation dépend de ressources partagées : une expérience peut demeurer difficile à communiquer tant que d’autres ne reconnaissent pas les mots proposés."
+      "m": "Nous contestons une expression avec d’autres, comparons des traductions, définissons ce que l’usage confondait : la critique travaille les ressources du langage contre ses habitudes. Le langage est ainsi un milieu de la pensée, non sa prison : ses limites se déplacent à mesure qu’on parle."
     },
     {
       "p": "III",
@@ -2724,14 +2724,14 @@ niveau2: [
       "q": "Que peut-on désormais affirmer, et que cette réponse ne règle-t-elle pas encore ?",
       "o": [
         [
-          "Le langage permet de déplacer des limites. Une pensée reste difficile à partager si ses mots ne sont pas reconnus.",
+          "Le langage est ainsi un milieu de la pensée, non sa prison : ses limites se déplacent à mesure qu’on parle. Reste que cette transformation dépend de ressources partagées : une expérience peut demeurer difficile à communiquer tant que d’autres ne reconnaissent pas les mots proposés.",
           "ok",
-          "Cette proposition reprend l’argument de la copie révisée ; vérifiez le lien avec la question précédente et sa limite."
+          "La réponse est nette, et son reste est dit : c’est lui que la conclusion reprendra."
         ],
         [
-          "Le langage est ainsi un milieu de la pensée, dont certaines limites peuvent être déplacées. Dépendre de ses ressources n’équivaut pas à subir une prison immuable. La difficulté est donc entièrement réglée.",
+          "Le langage est ainsi un milieu de la pensée, non sa prison : ses limites se déplacent à mesure qu’on parle. Chacun peut donc dire désormais tout ce qu’il éprouve, et les autres le comprendront aussitôt.",
           "def",
-          "La réponse oublie sa propre limite : Reste que cette transformation dépend de ressources partagées : une expérience peut demeurer difficile à communiquer tant que d’autres ne reconnaissent pas les mots proposés."
+          "La réponse se croit complète : une expérience reste difficile à communiquer tant que d’autres ne reconnaissent pas les mots proposés."
         ],
         [
           "Nous sommes parfois prisonniers du langage, et parfois libres, selon les cas.",
@@ -2746,12 +2746,12 @@ niveau2: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Comment une pensée nouvelle peut-elle devenir partageable lorsque les mots par lesquels elle cherche à se dire ne sont pas encore compris ?",
+          "Une pensée nouvelle peut-elle devenir commune avant que les mots qui la disent soient compris ?",
           "ok",
-          "La question reprend exactement la difficulté laissée par la réponse de III.3."
+          "C’est le reste de la réponse, devenu question : le même problème, posé plus loin."
         ],
         [
-          "Faut-il apprendre plusieurs langues étrangères pour mieux penser ?",
+          "Faut-il apprendre plusieurs langues étrangères pour mieux penser, et mieux voir les limites de la sienne ?",
           "def",
           "Une question liée, mais qui ne part pas du reste de la réponse."
         ],

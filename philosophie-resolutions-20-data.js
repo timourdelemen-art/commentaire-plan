@@ -7,8 +7,8 @@ window.PHILO_RESOLUTION_CASES={
       "id": "2026-ag-etat-injustice",
       "subject": "Revient-il principalement à l’État de lutter contre l’injustice ?",
       "requirements": [
-        "Garantir des droits par une force commune",
-        "Permettre la critique de cette force"
+        "Une force commune qui impose le même droit à tous",
+        "Un jugement capable de dire qu’une loi est injuste"
       ],
       "first": {
         "idea": "Une injustice n’est vaincue que si la même loi s’impose à tous, et seul l’État dispose d’une force capable de l’imposer.",
@@ -16,19 +16,19 @@ window.PHILO_RESOLUTION_CASES={
       },
       "second": {
         "idea": "La justice ne se réduit pas à la loi : on peut dire qu’une loi est injuste, et c’est même ainsi que les lois progressent.",
-        "limit": "Sans la force et l’impartialité de la loi, la justice devient inégale, et dégénère parfois en vengeance."
+        "limit": "Une justice sans force commune cesse d’être la même pour tous, et dégénère parfois en vengeance."
       },
       "solutions": [
         {
           "id": "retenue",
-          "title": "La priorité de l’État concerne la garantie commune des droits, non un monopole du jugement moral. Les citoyens, les associations et les institutions de contrôle doivent pouvoir contester son action.",
+          "title": "La contestation juste se reconnaît donc à sa forme : publique, elle en appelle à la règle commune devant tous et demande une révision, non une exception pour soi.",
           "keeps": [
-            "Garantir des droits par une force commune",
-            "Permettre la critique de cette force"
+            "Une force commune qui impose le même droit à tous",
+            "Un jugement capable de dire qu’une loi est injuste"
           ],
-          "cost": "Reste le cas où le pouvoir ferme les voies de contestation : les garanties qui rendent ce partage juste ne peuvent plus être présupposées.",
+          "cost": "Reste le cas où le pouvoir ferme les voies de contestation : les garanties dont dépend cette répartition des rôles ne peuvent plus être présupposées.",
           "remaining": "Lorsque l’État détruit les voies par lesquelles on pouvait le corriger, comment lui résister sans abandonner l’exigence d’une justice commune ?",
-          "short": "duplication ontologique + métamorphose",
+          "short": "l’État garantit, la contestation en appelle à la loi commune",
           "level": "défendable"
         },
         {
@@ -56,34 +56,35 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "Le partage contrôlable conserve force et critique simultanément ; il coûte moins qu’une réduction de toute justice à la mobilisation ou à une succession sans contre-pouvoirs.",
-      "conclusion": "Lorsque l’État détruit les voies par lesquelles on pouvait le corriger, comment lui résister sans abandonner l’exigence d’une justice commune ?"
+      "conclusion": "Lorsque l’État détruit les voies par lesquelles on pouvait le corriger, comment lui résister sans abandonner l’exigence d’une justice commune ?",
+      "transition": "Mais la force qui garantit les droits et le jugement qui les réclame se disputent-ils vraiment la même tâche ?"
     },
     {
       "id": "2026-ag-humanite-religion",
       "subject": "Peut-on concevoir une humanité sans religion ?",
       "requirements": [
-        "Assurer des liens et des fins communes",
-        "Conserver l’examen libre des croyances"
+        "Relier tous les hommes par des fins communes",
+        "Rester faite d’hommes qui jugent par eux-mêmes"
       ],
       "first": {
         "idea": "Le savoir sur le monde ne doit rien à la religion : il repose sur des preuves que chacun peut vérifier ; la morale elle-même peut se fonder sur des raisons que chacun peut examiner.",
-        "limit": "La raison explique la croyance sans remplacer ce qu’elle offrait : un lien entre les hommes, un sens devant la mort."
+        "limit": "Or la raison, qui explique la croyance, ne la remplace pas : une humanité qui ne croit que ce qu’elle prouve perd ce qui reliait les hommes."
       },
       "second": {
         "idea": "Une humanité n’est pas seulement une somme d’individus raisonnables : il lui faut ce qui les relie et leur donne des fins communes.",
-        "limit": "Une religion peut unir ses fidèles sans unir tous les hommes ; son pouvoir de rassemblement ne garantit donc pas une communauté universelle."
+        "limit": "Une humanité unie par la foi cesse d’être faite d’hommes qui jugent par eux-mêmes, et n’unit d’ailleurs que ceux qui croient."
       },
       "solutions": [
         {
           "id": "retenue",
           "title": "Le fait que la religion ait assuré ces fonctions ne prouve pas qu’elle seule puisse les assurer. Une communauté peut reconnaître des droits et organiser une solidarité sans partager une révélation, un culte ou une autorité sacrée.",
           "keeps": [
-            "Assurer des liens et des fins communes",
-            "Conserver l’examen libre des croyances"
+            "Relier tous les hommes par des fins communes",
+            "Rester faite d’hommes qui jugent par eux-mêmes"
           ],
           "cost": "Reste que des principes discutables peuvent être sacralisés : un lien initialement ouvert à la critique peut devenir un dogme qui interdit de le contester.",
-          "remaining": "Comment maintenir des convictions communes assez fortes pour nous unir, sans les rendre sacrées au point d’interdire leur examen ?",
-          "short": "duplication ontologique + déplacement",
+          "remaining": "Des convictions assez fortes pour unir les hommes peuvent-elles rester ouvertes à l’examen qui les a fondées ?",
+          "short": "un lien fondé sur ce qu’on examine ensemble",
           "level": "défendable"
         },
         {
@@ -111,14 +112,15 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "La distinction fonction/forme montre une possibilité sans nier le besoin de lien ni rebaptiser toute morale religion ; son risque de sacralisation est explicitement conservé.",
-      "conclusion": "Comment maintenir des convictions communes assez fortes pour nous unir, sans les rendre sacrées au point d’interdire leur examen ?"
+      "conclusion": "Des convictions assez fortes pour unir les hommes peuvent-elles rester ouvertes à l’examen qui les a fondées ?",
+      "transition": "Mais un lien commun doit-il être une croyance soustraite à l’examen ?"
     },
     {
       "id": "2026-an-artiste-sait",
       "subject": "L’artiste sait-il ce qu’il fait ?",
       "requirements": [
-        "Reconnaître le savoir et les choix de l’artiste",
-        "Préserver l’invention imprévisible"
+        "Être l’auteur de son œuvre",
+        "Faire une œuvre nouvelle, qu’aucune recette ne contient"
       ],
       "first": {
         "idea": "Tout art suppose un savoir appris : le peintre connaît ses couleurs, le musicien l’harmonie, l’écrivain sa langue.",
@@ -126,19 +128,19 @@ window.PHILO_RESOLUTION_CASES={
       },
       "second": {
         "idea": "Une œuvre doit être nouvelle : on ne peut pas en donner la recette, sinon n’importe qui la referait.",
-        "limit": "Si l’on transforme ce dépassement en ignorance totale, on ne comprend plus les corrections par lesquelles il devient l’auteur de son œuvre."
+        "limit": "Un artiste qui ignore ce qu’il fait cesse d’être l’auteur de son œuvre : on ne comprend plus les corrections par lesquelles il la reprend."
       },
       "solutions": [
         {
           "id": "retenue",
-          "title": "Une possibilité imprévue n’est pas un hasard simplement subi si l’artiste la reconnaît, la juge et la retravaille. Son savoir porte aussi sur cette capacité de faire évoluer son projet.",
+          "title": "Une possibilité imprévue n’est pas un hasard subi si l’artiste la reconnaît, la juge et la retravaille.",
           "keeps": [
-            "Reconnaître le savoir et les choix de l’artiste",
-            "Préserver l’invention imprévisible"
+            "Être l’auteur de son œuvre",
+            "Faire une œuvre nouvelle, qu’aucune recette ne contient"
           ],
           "cost": "Reste que l’œuvre peut recevoir des significations que même ce jugement exercé pendant la création n’avait pas envisagées.",
           "remaining": "Jusqu’où le savoir de l’artiste peut-il porter sur son œuvre, si celle-ci continue de prendre sens dans des regards qu’il ne dirige pas ?",
-          "short": "processualisation + métamorphose",
+          "short": "un savoir qui naît pendant le travail",
           "level": "défendable"
         },
         {
@@ -166,34 +168,35 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "Le processus de reconnaissance et de correction explique le lien entre métier et invention ; la distinction des savoirs le complète, mais ne le remplace pas.",
-      "conclusion": "Jusqu’où le savoir de l’artiste peut-il porter sur son œuvre, si celle-ci continue de prendre sens dans des regards qu’il ne dirige pas ?"
+      "conclusion": "Jusqu’où le savoir de l’artiste peut-il porter sur son œuvre, si celle-ci continue de prendre sens dans des regards qu’il ne dirige pas ?",
+      "transition": "Mais savoir ce qu’on fait, est-ce nécessairement le savoir avant de le faire ?"
     },
     {
       "id": "2026-an-science-utile",
       "subject": "La science doit-elle être utile ?",
       "requirements": [
-        "Préserver les découvertes dont l’usage est imprévisible",
-        "Justifier les moyens et les risques de la recherche"
+        "Connaître le vrai pour lui-même, y compris sans usage prévisible",
+        "Répondre de ce que ses vérités permettent de faire"
       ],
       "first": {
-        "idea": "On finance et on enseigne les sciences parce qu’elles servent : c’est sur ce qu’elles permettent qu’on les juge.",
-        "limit": "Or bien des découvertes décisives semblaient d’abord inutiles : exiger l’utilité, c’est se priver de ce qui sera un jour le plus utile."
+        "idea": "Une activité qui engage les moyens de tous doit pouvoir répondre de ce qu’elle apporte à tous : c’est à ce titre qu’on demande à la science d’être utile.",
+        "limit": "Or une utilité ne se prévoit qu’à partir de ce qu’on sait déjà : une recherche qu’elle commande perd les vérités sans usage connu, d’où sont pourtant venues les découvertes décisives."
       },
       "second": {
         "idea": "Ce que la science cherche, c’est savoir comment sont les choses ; une science qui choisit ses vérités selon leur rendement cesse d’être une science.",
-        "limit": "Une science qui se dit pure oublie que ses vérités deviennent aussitôt des pouvoirs, et que d’autres s’en servent."
+        "limit": "Une science qui ne se doit qu’au vrai cesse de répondre des pouvoirs que ses vérités donnent, et dont d’autres se servent."
       },
       "solutions": [
         {
           "id": "retenue",
-          "title": "Ne pas imposer une application connue d’avance n’interdit pas d’examiner un protocole, ses dangers ou l’emploi des ressources. La liberté de chercher concerne la question scientifique ; elle n’exempte pas les pratiques de recherche de toute responsabilité.",
+          "title": "On peut ainsi laisser une recherche choisir ce qu’elle cherche, et examiner pourtant ses protocoles, ses dangers et ses moyens. En 1974, des biologistes suspendent eux-mêmes certaines expériences sur l’ADN recombinant ; à Asilomar, en 1975, ils fixent les précautions qui permettent de les reprendre : la question reste libre, la pratique répond de ses dangers.",
           "keeps": [
-            "Préserver les découvertes dont l’usage est imprévisible",
-            "Justifier les moyens et les risques de la recherche"
+            "Connaître le vrai pour lui-même, y compris sans usage prévisible",
+            "Répondre de ce que ses vérités permettent de faire"
           ],
           "cost": "Reste la difficulté de juger publiquement une recherche dont ni les bénéfices ni certains risques ne sont encore connus.",
-          "remaining": "Comment contrôler les moyens et les risques d’une recherche sans exiger d’elle la prévision des découvertes qui justifient sa liberté ?",
-          "short": "duplication ontologique + métamorphose",
+          "remaining": "Qui a qualité pour juger une recherche que seuls ses pairs comprennent, au nom de tous ceux qu’elle engage ?",
+          "short": "chercher librement, répondre de ses pratiques",
           "level": "défendable"
         },
         {
@@ -221,34 +224,35 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "La responsabilité sur les pratiques dès la recherche évite le report fautif sans prescrire les résultats ; elle préserve mieux les deux acquis que le simple partage chronologique.",
-      "conclusion": "Comment contrôler les moyens et les risques d’une recherche sans exiger d’elle la prévision des découvertes qui justifient sa liberté ?"
+      "conclusion": "Qui a qualité pour juger une recherche que seuls ses pairs comprennent, au nom de tous ceux qu’elle engage ?",
+      "transition": "Mais l’utilité doit-elle être la fin qui choisit les questions, pour que la science ait à répondre de ses pouvoirs ?"
     },
     {
       "id": "2026-asie-inconscient-bonheur",
       "subject": "Faut-il être inconscient pour être heureux ?",
       "requirements": [
-        "Préserver une paix possible",
-        "Pouvoir reconnaître et affronter les dangers"
+        "Laisser en repos",
+        "Durer face aux dangers réels"
       ],
       "first": {
         "idea": "Savoir la maladie, la mort, l’injustice, c’est s’exposer à l’inquiétude ; ne pas les savoir, c’est en être épargné.",
-        "limit": "L’ignorance protège parfois le repos immédiat en fragilisant les conditions qui le rendent possible."
+        "limit": "Un bonheur qui repose sur l’ignorance ne dure que par chance : il perd ce qui le protégeait."
       },
       "second": {
         "idea": "Reconnaître une maladie ou une injustice peut permettre d’agir au lieu de subir : la conscience ne vaut pas seulement par ce qu’elle trouble.",
-        "limit": "Une lucidité réduite à l’inventaire des menaces ne laisse plus de place au repos."
+        "limit": "Une lucidité qui veille sur toutes les menaces perd le repos qu’elle voulait protéger."
       },
       "solutions": [
         {
           "id": "retenue",
-          "title": "La lucidité ne consiste pas seulement à accumuler les menaces : elle peut distinguer un danger réel d’une représentation qui nous tourmente inutilement. Connaître peut alors diminuer la crainte plutôt que l’accroître.",
+          "title": "La lucidité distingue alors un danger réel d’une représentation qui nous tourmente : connaître peut diminuer la crainte au lieu de l’accroître.",
           "keeps": [
-            "Préserver une paix possible",
-            "Pouvoir reconnaître et affronter les dangers"
+            "Laisser en repos",
+            "Durer face aux dangers réels"
           ],
           "cost": "Reste la souffrance liée à un mal réel, notamment la perte d’un proche : réfuter une peur imaginaire ne supprime pas cette douleur.",
           "remaining": "Lorsque la souffrance vient d’une perte réelle que comprendre ne supprime pas, comment la lucidité peut-elle encore contribuer au bonheur ?",
-          "short": "duplication ontologique + métamorphose",
+          "short": "connaître ses craintes pour les mesurer",
           "level": "défendable"
         },
         {
@@ -276,14 +280,15 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "L’examen des représentations donne un mécanisme local d’apaisement, sans confondre absence de contrôle et absence de douleur ; le consentement reste utile devant la perte réelle.",
-      "conclusion": "Lorsque la souffrance vient d’une perte réelle que comprendre ne supprime pas, comment la lucidité peut-elle encore contribuer au bonheur ?"
+      "conclusion": "Lorsque la souffrance vient d’une perte réelle que comprendre ne supprime pas, comment la lucidité peut-elle encore contribuer au bonheur ?",
+      "transition": "Mais connaître un mal, est-ce nécessairement le craindre ?"
     },
     {
       "id": "2026-asie-langage",
       "subject": "Sommes-nous prisonniers du langage ?",
       "requirements": [
-        "Reconnaître une langue héritée et commune",
-        "Expliquer la critique et l’invention dans cette langue"
+        "Donner de quoi penser",
+        "Laisser juger ce qu’il fait penser"
       ],
       "first": {
         "idea": "Nous n’avons pas choisi notre langue, et c’est pourtant elle qui découpe le monde pour nous, avant même que nous le regardions.",
@@ -291,19 +296,19 @@ window.PHILO_RESOLUTION_CASES={
       },
       "second": {
         "idea": "Nous inventons des mots, nous sentons ce que la langue ne dit pas encore, nous traduisons d’une langue à l’autre : nous ne la subissons pas, nous la déplaçons.",
-        "limit": "Hegel, dans l’Encyclopédie, juge que l’ineffable n’est qu’une pensée encore obscure : hors des mots, la pensée ne gagne pas en liberté, elle perd en clarté."
+        "limit": "Hegel, dans l’Encyclopédie (§ 462), juge que l’ineffable n’est qu’une pensée encore obscure : hors des mots, la pensée ne gagne pas en liberté, elle perd en clarté."
       },
       "solutions": [
         {
           "id": "retenue",
-          "title": "Nous pouvons contester une expression avec d’autres expressions, expliquer un mot inconnu ou comparer des traductions. La critique n’exige donc pas de sortir de tout langage : elle travaille ses ressources contre ses habitudes.",
+          "title": "Nous contestons une expression avec d’autres, comparons des traductions, définissons ce que l’usage confondait : la critique travaille les ressources du langage contre ses habitudes.",
           "keeps": [
-            "Reconnaître une langue héritée et commune",
-            "Expliquer la critique et l’invention dans cette langue"
+            "Donner de quoi penser",
+            "Laisser juger ce qu’il fait penser"
           ],
           "cost": "Reste que cette transformation dépend de ressources partagées : une expérience peut demeurer difficile à communiquer tant que d’autres ne reconnaissent pas les mots proposés.",
-          "remaining": "Comment une pensée nouvelle peut-elle devenir partageable lorsque les mots par lesquels elle cherche à se dire ne sont pas encore compris ?",
-          "short": "processualisation + inversion d’indexation",
+          "remaining": "Une pensée nouvelle peut-elle devenir commune avant que les mots qui la disent soient compris ?",
+          "short": "transformer la langue de l’intérieur",
           "level": "défendable"
         },
         {
@@ -331,14 +336,15 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "La transformation de l’image est démontrée par définition, comparaison et métaphore ; elle s’adjoint un processus de reprise plutôt qu’une analogie suffisante par elle-même.",
-      "conclusion": "Comment une pensée nouvelle peut-elle devenir partageable lorsque les mots par lesquels elle cherche à se dire ne sont pas encore compris ?"
+      "conclusion": "Une pensée nouvelle peut-elle devenir commune avant que les mots qui la disent soient compris ?",
+      "transition": "Mais être libre à l’égard du langage, est-ce se tenir hors de lui ?"
     },
     {
       "id": "2026-g1-bien-agir",
       "subject": "Peut-on être certain d’avoir bien agi ?",
       "requirements": [
-        "Examiner motifs et effets pour juger moralement",
-        "Permettre un jugement et une action malgré l’incertitude"
+        "Procéder d’une intention droite",
+        "Faire effectivement du bien"
       ],
       "first": {
         "idea": "Les effets de mes actes ne dépendent pas entièrement de moi ; mon intention, si.",
@@ -346,19 +352,19 @@ window.PHILO_RESOLUTION_CASES={
       },
       "second": {
         "idea": "Bien agir, c’est aussi faire du bien dans le monde : une action qui blesse ne devient pas bonne parce qu’on la voulait bonne.",
-        "limit": "Le doute devient paralysant seulement si l’on exige une certitude absolue avant toute décision."
+        "limit": "Une morale des seuls effets livre nos actes au hasard, et ne juge plus celui qui a voulu."
       },
       "solutions": [
         {
           "id": "retenue",
-          "title": "La certitude absolue d’avoir bien agi demeure hors de portée ; un jugement justifié reste pourtant possible. Il compare les raisons accessibles, les risques prévisibles et les autres décisions possibles, puis accepte d’être révisé.",
+          "title": "Elle compare les raisons accessibles, les risques prévisibles et les autres décisions possibles : on peut être sûr de l’avoir fait, sans l’être de l’issue.",
           "keeps": [
-            "Examiner motifs et effets pour juger moralement",
-            "Permettre un jugement et une action malgré l’incertitude"
+            "Procéder d’une intention droite",
+            "Faire effectivement du bien"
           ],
           "cost": "Reste qu’un effet imprévisible peut conduire à réviser l’appréciation d’un choix pourtant raisonnable au moment d’agir.",
-          "remaining": "Comment juger un acte raisonnablement décidé lorsque ses conséquences imprévisibles en révèlent ensuite le mal ?",
-          "short": "suspension épistémique + métamorphose",
+          "remaining": "Doit-on répondre d’un mal que nos meilleures raisons ne permettaient pas de prévoir ?",
+          "short": "être certain de ses raisons, non de tous les effets",
           "level": "défendable"
         },
         {
@@ -386,14 +392,15 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "La distinction certitude absolue/jugement justifié répond explicitement au sujet et fournit des critères de comparaison ; la responsabilité y sert de contrôle, non de preuve.",
-      "conclusion": "Comment juger un acte raisonnablement décidé lorsque ses conséquences imprévisibles en révèlent ensuite le mal ?"
+      "conclusion": "Doit-on répondre d’un mal que nos meilleures raisons ne permettaient pas de prévoir ?",
+      "transition": "Mais la certitude d’avoir bien agi doit-elle être celle d’un savoir complet sur l’acte, ses motifs et ses suites ?"
     },
     {
       "id": "2026-g1-nature-besoin",
       "subject": "La nature a-t-elle besoin de nous ?",
       "requirements": [
-        "Préserver les capacités propres des êtres naturels",
-        "Assumer les dommages dont notre action est responsable"
+        "Se faire sans nous",
+        "Conserver les milieux et les espèces qui la composent"
       ],
       "first": {
         "idea": "La nature existait avant l’homme et lui survivra : les plantes poussent et les astres tournent sans nous.",
@@ -406,14 +413,14 @@ window.PHILO_RESOLUTION_CASES={
       "solutions": [
         {
           "id": "retenue",
-          "title": "La nature comme ensemble des processus ne dépend pas de notre présence ; des espèces et des équilibres déterminés peuvent dépendre de nos choix. Notre propre dépendance envers eux donne une raison de les protéger sans prétendre gouverner chaque processus.",
+          "title": "La nature comme ensemble de processus ne dépend pas de nous ; des milieux déterminés, que nous avons fragilisés, dépendent de nos choix : c’est à eux que le soin est dû.",
           "keeps": [
-            "Préserver les capacités propres des êtres naturels",
-            "Assumer les dommages dont notre action est responsable"
+            "Se faire sans nous",
+            "Conserver les milieux et les espèces qui la composent"
           ],
           "cost": "Reste que choisir le milieu à restaurer suppose un jugement humain : quelle autonomie préserver quand plusieurs formes de vie entrent en conflit ?",
-          "remaining": "Comment choisir ce qu’il faut restaurer sans faire de nos préférences la seule mesure d’une nature que nous voulons autonome ?",
-          "short": "duplication ontologique + métamorphose",
+          "remaining": "Au nom de quoi choisir le milieu à restaurer, si ce ne doit pas être au nom de nos seules préférences ?",
+          "short": "soigner pour rendre aux milieux leur autonomie",
           "level": "défendable"
         },
         {
@@ -441,18 +448,19 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "La distinction entre processus naturels et milieux déterminés rend l’inversion non exclusive ; elle accueille réparation et autonomie sans nier les besoins locaux.",
-      "conclusion": "Comment choisir ce qu’il faut restaurer sans faire de nos préférences la seule mesure d’une nature que nous voulons autonome ?"
+      "conclusion": "Au nom de quoi choisir le milieu à restaurer, si ce ne doit pas être au nom de nos seules préférences ?",
+      "transition": "Mais prendre soin de la nature, est-ce la diriger ?"
     },
     {
       "id": "2026-me-bonheur-autres",
       "subject": "Peut-on être heureux quand les autres ne le sont pas ?",
       "requirements": [
-        "Préserver la possibilité d’une vie heureuse",
-        "Reconnaître le malheur d’autrui et nos obligations"
+        "Dépendre de nous",
+        "Rester le bonheur d’un homme parmi les hommes"
       ],
       "first": {
         "idea": "Le bonheur est un état intérieur : on peut être serein dans un monde troublé.",
-        "limit": "Ce n’est pas la sérénité seule qu’il faut critiquer, mais son usage comme excuse pour ne plus regarder ni agir."
+        "limit": "Un bonheur qui ne dépend que de soi cesse d’être celui d’un homme parmi les hommes."
       },
       "second": {
         "idea": "Le bonheur humain n’est pas celui d’un être isolé : nous vivons avec les autres, et leur sort fait partie du nôtre.",
@@ -461,14 +469,14 @@ window.PHILO_RESOLUTION_CASES={
       "solutions": [
         {
           "id": "retenue",
-          "title": "La compassion n’oblige pas à reproduire en soi toute la souffrance dont on prend connaissance. Un bonheur peut inclure de l’inquiétude et se prolonger en aide ; la joie ne démontre alors ni l’ignorance ni l’approbation du malheur.",
+          "title": "Un bonheur peut alors inclure l’inquiétude et se prolonger en aide : la joie ne prouve ni l’ignorance ni l’approbation du malheur.",
           "keeps": [
-            "Préserver la possibilité d’une vie heureuse",
-            "Reconnaître le malheur d’autrui et nos obligations"
+            "Dépendre de nous",
+            "Rester le bonheur d’un homme parmi les hommes"
           ],
           "cost": "Reste le cas où mon bonheur repose matériellement sur une injustice subie par d’autres : leur porter de l’attention ne suffit plus.",
           "remaining": "Que doit changer celui dont le bonheur dépend d’une injustice, pour que son souci d’autrui ne demeure pas une simple bonne conscience ?",
-          "short": "duplication ontologique + processualisation",
+          "short": "être touché sans reproduire la souffrance",
           "level": "défendable"
         },
         {
@@ -496,18 +504,19 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "La compatibilité de joie, attention et action préserve une possibilité sans déclarer tout bonheur innocent ; la dépendance envers l’injustice devient l’épreuve résiduelle.",
-      "conclusion": "Que doit changer celui dont le bonheur dépend d’une injustice, pour que son souci d’autrui ne demeure pas une simple bonne conscience ?"
+      "conclusion": "Que doit changer celui dont le bonheur dépend d’une injustice, pour que son souci d’autrui ne demeure pas une simple bonne conscience ?",
+      "transition": "Mais être touché par le malheur d’autrui, est-ce le reproduire en soi ?"
     },
     {
       "id": "2026-me-paroles",
       "subject": "Avons-nous la maîtrise de nos paroles ?",
       "requirements": [
-        "Reconnaître notre pouvoir de formulation",
-        "Ne pas nier les interprétations et effets qui nous échappent"
+        "Nous engager : répondre de ce que nous disons",
+        "Dire plus que ce que nous avions prévu"
       ],
       "first": {
         "idea": "Nous choisissons nos mots, nous pouvons nous taire, nous adaptons ce que nous disons à celui qui nous écoute.",
-        "limit": "Souvent, nous découvrons ce que nous pensons en le disant."
+        "limit": "Or nous découvrons souvent ce que nous pensons en le disant : une parole entièrement maîtrisée cesserait de penser."
       },
       "second": {
         "idea": "C’est que la langue n’est pas à nous : ses mots ont un sens commun qui dépasse notre intention.",
@@ -516,14 +525,14 @@ window.PHILO_RESOLUTION_CASES={
       "solutions": [
         {
           "id": "retenue",
-          "title": "Nous pouvons choisir des mots, vérifier ce que l’autre a compris et rectifier un malentendu ; nous ne pouvons pas décider à sa place de toute interprétation. La maîtrise est donc un travail de formulation et de reprise, plutôt qu’une propriété acquise avant de parler.",
+          "title": "Nous pouvons vérifier ce que l’autre a compris et rectifier un malentendu, sans décider à sa place de toute interprétation.",
           "keeps": [
-            "Reconnaître notre pouvoir de formulation",
-            "Ne pas nier les interprétations et effets qui nous échappent"
+            "Nous engager : répondre de ce que nous disons",
+            "Dire plus que ce que nous avions prévu"
           ],
           "cost": "Reste qu’une parole peut produire un effet irréversible avant que sa rectification soit entendue.",
           "remaining": "Comment répondre d’une parole dont on peut corriger le sens, mais dont on ne peut plus réparer tous les effets ?",
-          "short": "duplication ontologique + processualisation",
+          "short": "maîtriser sa parole en la reprenant",
           "level": "défendable"
         },
         {
@@ -551,18 +560,19 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "La maîtrise partielle et exercée dans l’échange s’applique aux promesses comme aux explications ; elle répond au pouvoir effectif sans promettre le contrôle des effets.",
-      "conclusion": "Comment répondre d’une parole dont on peut corriger le sens, mais dont on ne peut plus réparer tous les effets ?"
+      "conclusion": "Comment répondre d’une parole dont on peut corriger le sens, mais dont on ne peut plus réparer tous les effets ?",
+      "transition": "Mais maîtriser une parole, est-ce en fixer le sens avant de la dire ?"
     },
     {
       "id": "notion-inconscient",
       "subject": "L’idée d’inconscient remet-elle en cause la responsabilité ?",
       "requirements": [
-        "Reconnaître ce qui échappe au choix conscient",
-        "Préserver une responsabilité proportionnée aux capacités"
+        "N’imputer que ce que nous avons voulu",
+        "Faire répondre de ce qui vient de nous"
       ],
       "first": {
         "idea": "Être responsable, c’est pouvoir répondre de ses actes parce qu’on les a voulus.",
-        "limit": "Il faut encore distinguer ce que l’agent ne pouvait pas comprendre de ce qu’il aurait pu examiner ou empêcher."
+        "limit": "L’excuse devient universelle : personne ne répond plus de ce qui vient pourtant de lui."
       },
       "second": {
         "idea": "L’inconscient n’est pas un corps étranger : il désire, cache, déguise, comme quelqu’un, et je ne peux pas m’en décharger comme d’un autre.",
@@ -571,14 +581,14 @@ window.PHILO_RESOLUTION_CASES={
       "solutions": [
         {
           "id": "retenue",
-          "title": "Un désir ignoré, un acte accompli et une conséquence à réparer n’engagent pas la même responsabilité. L’inconscient invite à examiner la capacité réelle de comprendre et de choisir ; la responsabilité se construit aussi lorsque nous apprenons à reconnaître ce qui nous détermine.",
+          "title": "Un désir ignoré, un acte accompli et une conséquence à réparer n’engagent donc pas la même responsabilité : on ne répond pas d’un désir comme d’un acte.",
           "keeps": [
-            "Reconnaître ce qui échappe au choix conscient",
-            "Préserver une responsabilité proportionnée aux capacités"
+            "N’imputer que ce que nous avons voulu",
+            "Faire répondre de ce qui vient de nous"
           ],
           "cost": "Reste qu’on ne peut jamais établir exactement toute la part consciente et inconsciente d’un acte : il faut pourtant décider ce qui peut être imputé à son auteur.",
           "remaining": "Comment attribuer une responsabilité juste lorsque la connaissance de ce qui a déterminé l’acte demeure incomplète ?",
-          "short": "duplication ontologique + métamorphose",
+          "short": "se reconnaître l’auteur et réparer",
           "level": "défendable"
         },
         {
@@ -606,14 +616,15 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "La distinction désir/acte/réparation complète le processus de connaissance ; elle évite aussi bien l’excuse totale que la faute imputée à chaque désir.",
-      "conclusion": "Comment attribuer une responsabilité juste lorsque la connaissance de ce qui a déterminé l’acte demeure incomplète ?"
+      "conclusion": "Comment attribuer une responsabilité juste lorsque la connaissance de ce qui a déterminé l’acte demeure incomplète ?",
+      "transition": "Mais répondre d’un acte, est-ce en avoir été l’auteur transparent ?"
     },
     {
       "id": "notion-liberte",
       "subject": "S’engager, est-ce renoncer à sa liberté ?",
       "requirements": [
-        "Donner durée et force à la promesse",
-        "Conserver la capacité de juger et de faire autrement"
+        "Pouvoir choisir autrement",
+        "Passer dans des actes qui durent"
       ],
       "first": {
         "idea": "Être libre, c’est pouvoir faire autrement ; or celui qui promet s’interdit précisément de changer d’avis.",
@@ -626,14 +637,14 @@ window.PHILO_RESOLUTION_CASES={
       "solutions": [
         {
           "id": "retenue",
-          "title": "Une promesse donne à autrui une raison de compter sur nous : elle oblige au-delà de notre préférence présente. La reprendre librement consiste à reconnaître cette raison, non à décider chaque matin qu’elle ne vaut que si elle nous plaît encore.",
+          "title": "Une promesse donne à autrui une raison de compter sur nous ; la reprendre, c’est reconnaître cette raison, non décider chaque matin si elle nous plaît encore.",
           "keeps": [
-            "Donner durée et force à la promesse",
-            "Conserver la capacité de juger et de faire autrement"
+            "Pouvoir choisir autrement",
+            "Passer dans des actes qui durent"
           ],
           "cost": "Reste le conflit entre une obligation encore légitime et une transformation profonde de celui qui l’a contractée : aucune règle simple ne fixe le prix acceptable de la fidélité.",
           "remaining": "Quand la fidélité exige de renoncer à ce que l’on est devenu, comment juger si elle accomplit encore la liberté ou la sacrifie ?",
-          "short": "processualisation + métamorphose",
+          "short": "tenir un engagement en le reprenant",
           "level": "défendable"
         },
         {
@@ -661,14 +672,15 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "La fidélité raisonnée conserve une obligation qui dépasse l’humeur tout en donnant des critères de rupture ; elle complète le processus par la raison due à autrui.",
-      "conclusion": "Quand la fidélité exige de renoncer à ce que l’on est devenu, comment juger si elle accomplit encore la liberté ou la sacrifie ?"
+      "conclusion": "Quand la fidélité exige de renoncer à ce que l’on est devenu, comment juger si elle accomplit encore la liberté ou la sacrifie ?",
+      "transition": "S’engager, est-ce donc se lier une fois pour toutes ?"
     },
     {
       "id": "notion-raison",
       "subject": "Suffit-il d’avoir raison pour convaincre ?",
       "requirements": [
-        "Préserver la force des raisons valides",
-        "Rendre ces raisons accessibles à un esprit situé"
+        "Être produite par des raisons",
+        "Être l’adhésion propre de l’autre"
       ],
       "first": {
         "idea": "La vérité ne dépend pas de celui qui la dit : il suffit qu’elle soit montrée pour être reconnue.",
@@ -681,14 +693,14 @@ window.PHILO_RESOLUTION_CASES={
       "solutions": [
         {
           "id": "retenue",
-          "title": "Avoir raison désigne la validité d’un jugement ; convaincre exige que l’autre puisse en examiner les raisons. Clarifier un terme, reprendre une objection ou proposer une vérification peut favoriser cette reconnaissance sans remplacer la preuve par la séduction.",
+          "title": "Clarifier un terme, reprendre une objection, proposer une vérification : ces gestes agissent sur l’accès aux raisons, non sur leur valeur, et ne remplacent pas la preuve par la séduction.",
           "keeps": [
-            "Préserver la force des raisons valides",
-            "Rendre ces raisons accessibles à un esprit situé"
+            "Être produite par des raisons",
+            "Être l’adhésion propre de l’autre"
           ],
           "cost": "Reste le refus d’examiner : aucune présentation honnête ne garantit que l’autre accepte de mettre sa conviction à l’épreuve.",
           "remaining": "Que peut encore faire la raison devant un refus de l’examiner, sans transformer la recherche de conviction en contrainte ?",
-          "short": "duplication ontologique + processualisation",
+          "short": "rendre les raisons examinables par l’autre",
           "level": "défendable"
         },
         {
@@ -716,14 +728,15 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "L’appropriation par vérification explique le passage de validité à adhésion sans dévaluer la preuve ; elle vaut pour le dialogue comme pour une démonstration écrite.",
-      "conclusion": "Que peut encore faire la raison devant un refus de l’examiner, sans transformer la recherche de conviction en contrainte ?"
+      "conclusion": "Que peut encore faire la raison devant un refus de l’examiner, sans transformer la recherche de conviction en contrainte ?",
+      "transition": "Mais gagner l’esprit de l’autre, est-ce agir sur lui, au lieu de le laisser juger ?"
     },
     {
       "id": "notion-technique",
       "subject": "Ce qui est techniquement possible est-il toujours souhaitable ?",
       "requirements": [
-        "Préserver les biens rendus possibles par la technique",
-        "Ne pas autoriser tout moyen et tout risque au nom du pouvoir"
+        "Accroître notre pouvoir",
+        "Que ce pouvoir reste le nôtre : pouvoir ne pas l’exercer"
       ],
       "first": {
         "idea": "L’homme, mal armé par la nature, ne survit qu’en la transformant.",
@@ -731,19 +744,19 @@ window.PHILO_RESOLUTION_CASES={
       },
       "second": {
         "idea": "Être maître, ce n’est pas seulement pouvoir faire, c’est aussi pouvoir ne pas faire : une puissance qui ne sait pas s’arrêter n’est plus maîtrisée.",
-        "limit": "Il faut donc évaluer aussi le risque de ne pas agir, au lieu de traiter toute incertitude comme une interdiction."
+        "limit": "Une prudence qui juge la puissance en bloc perd ce qu’elle voulait sauver : le soulagement des hommes."
       },
       "solutions": [
         {
           "id": "retenue",
-          "title": "Le souhaitable exige de justifier la fin, les moyens et les effets prévisibles. Une fin digne ne rend pas tous ses moyens acceptables : soigner ne suffit pas à autoriser une expérience imposée à ceux qui en subiront les risques.",
+          "title": "Une fin digne ne rend pas tous ses moyens acceptables : soigner n’autorise pas une expérience imposée à ceux qui en subiront les risques.",
           "keeps": [
-            "Préserver les biens rendus possibles par la technique",
-            "Ne pas autoriser tout moyen et tout risque au nom du pouvoir"
+            "Accroître notre pouvoir",
+            "Que ce pouvoir reste le nôtre : pouvoir ne pas l’exercer"
           ],
           "cost": "Reste que des conséquences décisives peuvent être inconnues : le jugement doit parfois décider sans pouvoir établir complètement la sécurité d’un projet.",
-          "remaining": "Comment décider d’un possible technique lorsque ses risques sont incertains et que l’attente elle-même peut priver les hommes d’un bien ?",
-          "short": "métamorphose + inversion d’indexation",
+          "remaining": "Faut-il agir quand les risques d’un possible technique restent incertains et que l’attente elle-même peut priver les hommes d’un bien ?",
+          "short": "juger un usage, non une puissance",
           "level": "défendable"
         },
         {
@@ -771,14 +784,15 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "L’examen conjoint fins/moyens/risques inclut les personnes absentes du choix ; il conserve l’innovation sans assimiler accord public et justification morale.",
-      "conclusion": "Comment décider d’un possible technique lorsque ses risques sont incertains et que l’attente elle-même peut priver les hommes d’un bien ?"
+      "conclusion": "Faut-il agir quand les risques d’un possible technique restent incertains et que l’attente elle-même peut priver les hommes d’un bien ?",
+      "transition": "Est-ce bien le possible lui-même, comme puissance, qu’il faut juger ?"
     },
     {
       "id": "notion-temps",
       "subject": "Le temps est-il nécessairement destructeur ?",
       "requirements": [
-        "Reconnaître les pertes réelles",
-        "Reconnaître la formation et la nouveauté dans la durée"
+        "Faire passer toute chose",
+        "Être la durée où les choses se font"
       ],
       "first": {
         "idea": "Le temps ne revient jamais en arrière : ce qu’il emporte ne nous est pas rendu.",
@@ -786,19 +800,19 @@ window.PHILO_RESOLUTION_CASES={
       },
       "second": {
         "idea": "Pour être juste envers le temps, il faut tenir compte de tout ce qu’il produit : la croissance, l’apprentissage, la guérison, l’œuvre qui mûrit.",
-        "limit": "La création n’abolit pas la destruction : reste à savoir si ce qu’elle fait naître perd toute valeur parce qu’il pourra disparaître."
+        "limit": "Le temps qui crée défait encore ce qu’il crée : dire qu’il fait advenir ne supprime pas la perte, cela la reporte."
       },
       "solutions": [
         {
           "id": "retenue",
-          "title": "Le temps permet des transformations où ce qui disparaît laisse des capacités ou des effets : l’apprentissage remplace une ignorance, une œuvre reprend une expérience. Ces gains ne rendent pas la chose perdue, mais empêchent d’assimiler tout passage à une pure ruine.",
+          "title": "L’apprentissage remplace une ignorance, une œuvre reprend une expérience : ces gains ne rendent pas ce qui est perdu, mais interdisent de tenir tout passage pour une pure ruine.",
           "keeps": [
-            "Reconnaître les pertes réelles",
-            "Reconnaître la formation et la nouveauté dans la durée"
+            "Faire passer toute chose",
+            "Être la durée où les choses se font"
           ],
           "cost": "Reste qu’une transformation féconde ne compense pas nécessairement la perte singulière dont elle procède : une œuvre ne rend pas une personne morte.",
           "remaining": "À quelles conditions ce que le temps permet de créer peut-il donner sens à une perte, sans prétendre la réparer ni la justifier ?",
-          "short": "processualisation + duplication ontologique",
+          "short": "ce qui passe n’est pas anéanti",
           "level": "défendable"
         },
         {
@@ -826,14 +840,15 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "La distinction disparition/transformation rend compte des gains sans confondre mémoire et restitution, ni proclamer toute perte nécessaire au progrès.",
-      "conclusion": "À quelles conditions ce que le temps permet de créer peut-il donner sens à une perte, sans prétendre la réparer ni la justifier ?"
+      "conclusion": "À quelles conditions ce que le temps permet de créer peut-il donner sens à une perte, sans prétendre la réparer ni la justifier ?",
+      "transition": "Ce que le temps fait passer est-il pour autant anéanti ?"
     },
     {
       "id": "notion-travail",
       "subject": "Le travail nous rend-il plus humain ?",
       "requirements": [
-        "Reconnaître la formation par l’activité",
-        "Reconnaître la contrainte et l’aliénation du travail réel"
+        "Former celui qui l’accomplit",
+        "Le laisser maître de ce qu’il fait"
       ],
       "first": {
         "idea": "L’animal trouve dans la nature ce dont il a besoin ; l’homme doit le produire, et pour cela apprendre, prévoir, inventer.",
@@ -846,14 +861,14 @@ window.PHILO_RESOLUTION_CASES={
       "solutions": [
         {
           "id": "retenue",
-          "title": "Un travail forme lorsque l’agent peut comprendre un but, développer une capacité et participer au jugement sur ce qu’il fait. Sa reconnaissance sociale importe aussi : une compétence niée peut servir autrui sans donner au travailleur une place autonome.",
+          "title": "Un travail forme lorsque l’agent peut comprendre un but, développer une capacité et participer au jugement sur ce qu’il fait.",
           "keeps": [
-            "Reconnaître la formation par l’activité",
-            "Reconnaître la contrainte et l’aliénation du travail réel"
+            "Former celui qui l’accomplit",
+            "Le laisser maître de ce qu’il fait"
           ],
           "cost": "Reste qu’une société a besoin de tâches pénibles dont l’organisation peut réduire, mais pas toujours supprimer, la répétition et la fatigue.",
           "remaining": "Comment partager les tâches nécessaires qui restent pénibles, sans réserver à certains le travail formateur et à d’autres sa seule contrainte ?",
-          "short": "métamorphose + processualisation",
+          "short": "juger l’organisation du travail",
           "level": "défendable"
         },
         {
@@ -881,18 +896,19 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "Les critères de compréhension, jugement et coopération permettent d’évaluer l’organisation réelle ; ils n’effacent pas les tâches qui demeurent pénibles.",
-      "conclusion": "Comment partager les tâches nécessaires qui restent pénibles, sans réserver à certains le travail formateur et à d’autres sa seule contrainte ?"
+      "conclusion": "Comment partager les tâches nécessaires qui restent pénibles, sans réserver à certains le travail formateur et à d’autres sa seule contrainte ?",
+      "transition": "Ce que le travail fait de l’homme tient-il au travail lui-même ?"
     },
     {
       "id": "notion-verite",
       "subject": "Toute vérité est-elle bonne à dire ?",
       "requirements": [
-        "Respecter l’exactitude et le jugement d’autrui",
-        "Respecter les droits et les effets de la divulgation"
+        "Ne pas tromper",
+        "Éclairer celui à qui l’on parle"
       ],
       "first": {
         "idea": "Dire vrai, c’est respecter à la fois ce qui est et celui à qui l’on parle : on le traite en être capable de juger.",
-        "limit": "Ne pas mentir n’oblige pas à tout dire : une vérité lancée au mauvais moment peut blesser, humilier ou désespérer sans éclairer personne."
+        "limit": "Elle cesse alors d’éclairer : Oronte n’apprend rien, il se vexe."
       },
       "second": {
         "idea": "Dire une vérité est un acte adressé à quelqu’un : sa valeur ne dépend pas seulement de l’exactitude de l’énoncé, mais des droits et des besoins de ceux qu’il concerne.",
@@ -901,14 +917,14 @@ window.PHILO_RESOLUTION_CASES={
       "solutions": [
         {
           "id": "retenue",
-          "title": "Une vérité est vraie indépendamment de l’opportunité de la dire. La véracité interdit de présenter sciemment le faux comme vrai ; elle ne suffit pas à établir un devoir de révéler un secret ou une information qui concerne un tiers.",
+          "title": "Le secret médical, la confidence d’un ami, la vie privée d’un tiers sont ainsi des vérités que l’on peut taire sans mentir.",
           "keeps": [
-            "Respecter l’exactitude et le jugement d’autrui",
-            "Respecter les droits et les effets de la divulgation"
+            "Ne pas tromper",
+            "Éclairer celui à qui l’on parle"
           ],
           "cost": "Reste le conflit entre un secret légitime et une information nécessaire à la protection d’autrui : les deux exigences peuvent demeurer sérieuses.",
           "remaining": "Quand protéger quelqu’un exige de rompre une confiance légitime, comment justifier ce que l’on révèle sans abolir le devoir de discrétion ?",
-          "short": "duplication ontologique + métamorphose",
+          "short": "ne jamais tromper, révéler ce qui est dû",
           "level": "défendable"
         },
         {
@@ -936,18 +952,19 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "La distinction vérité/véracité/divulgation traite aussi bien le silence que la manière de dire ; elle évite de résoudre le sujet par le seul tact.",
-      "conclusion": "Quand protéger quelqu’un exige de rompre une confiance légitime, comment justifier ce que l’on révèle sans abolir le devoir de discrétion ?"
+      "conclusion": "Quand protéger quelqu’un exige de rompre une confiance légitime, comment justifier ce que l’on révèle sans abolir le devoir de discrétion ?",
+      "transition": "Le devoir de vérité oblige-t-il pourtant à divulguer tout ce que l’on sait ?"
     },
     {
       "id": "2025-me-verite",
       "subject": "La vérité est-elle toujours convaincante ?",
       "requirements": [
-        "Préserver la validité des raisons",
-        "Expliquer leur reconnaissance sans manipulation"
+        "S’imposer par ses raisons",
+        "Être reconnue par d’autres esprits"
       ],
       "first": {
         "idea": "Une vérité est convaincante lorsqu’on peut montrer pourquoi il faut l’admettre. Une démonstration ne demande pas de croire son auteur : elle présente des relations que chacun peut vérifier.",
-        "limit": "La vérité offre ainsi une exigence commune : on ne peut réfuter une preuve en disant simplement qu’elle déplaît. Mais une raison vérifiable n’est pas encore une raison effectivement comprise."
+        "limit": "si la preuve suffit, qui ne la reconnaît pas ne peut être que déraisonnable : on cesse de lui parler en esprit capable de juger."
       },
       "second": {
         "idea": "Une conviction reçue, un intérêt menacé ou une difficulté de compréhension peut empêcher d’examiner une vérité. Le prisonnier revenu de la caverne ne parle pas depuis l’expérience de ceux qu’il veut éclairer.",
@@ -956,14 +973,14 @@ window.PHILO_RESOLUTION_CASES={
       "solutions": [
         {
           "id": "retenue",
-          "title": "Distinguer validité et réception ne les sépare pas définitivement : expliquer les termes, reconstruire un raisonnement et répondre aux objections peut permettre à l’autre de reconnaître lui-même ce qui justifie l’affirmation.",
+          "title": "Expliquer les termes, reconstruire un raisonnement, répondre aux objections : c’est permettre à l’autre de reconnaître lui-même ce qui justifie l’affirmation.",
           "keeps": [
-            "Préserver la validité des raisons",
-            "Expliquer leur reconnaissance sans manipulation"
+            "S’imposer par ses raisons",
+            "Être reconnue par d’autres esprits"
           ],
           "cost": "Reste que l’interlocuteur peut refuser toute vérification : rendre la preuve accessible ne garantit pas qu’il acceptera de l’examiner.",
           "remaining": "Lorsque toute vérification est refusée, comment défendre la vérité sans confondre la conviction rationnelle avec une adhésion imposée ?",
-          "short": "duplication ontologique + processualisation",
+          "short": "faire examiner la preuve par l’autre",
           "level": "défendable"
         },
         {
@@ -991,14 +1008,15 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "L’appropriation par examen relie les plans au lieu de les juxtaposer, et distingue apprentissage et répétition persuasive.",
-      "conclusion": "Lorsque toute vérification est refusée, comment défendre la vérité sans confondre la conviction rationnelle avec une adhésion imposée ?"
+      "conclusion": "Lorsque toute vérification est refusée, comment défendre la vérité sans confondre la conviction rationnelle avec une adhésion imposée ?",
+      "transition": "La force d’une vérité et son accueil se jouent-ils vraiment l’un sans l’autre ?"
     },
     {
       "id": "2025-me-avenir-technique",
       "subject": "Notre avenir dépend-il de la technique ?",
       "requirements": [
-        "Reconnaître les conditions et dépendances techniques",
-        "Préserver une décision collective sur les fins"
+        "Être rendu possible par des moyens",
+        "Rester le nôtre : choisi"
       ],
       "first": {
         "idea": "Notre avenir dépend des moyens dont nous disposons : sans certaines techniques, des projets resteraient de simples souhaits. L’agriculture, les transports et la médecine changent les conditions de la vie collective.",
@@ -1011,14 +1029,14 @@ window.PHILO_RESOLUTION_CASES={
       "solutions": [
         {
           "id": "retenue",
-          "title": "Le rapport va dans les deux sens : nos fins orientent les techniques, mais celles-ci transforment nos fins et nos possibilités. Choisir l’avenir exige donc de juger aussi la manière dont les moyens nous rendent dépendants.",
+          "title": "Choisir l’avenir exige donc de juger aussi les moyens, et les dépendances qu’ils créent, au moment où on les adopte.",
           "keeps": [
-            "Reconnaître les conditions et dépendances techniques",
-            "Préserver une décision collective sur les fins"
+            "Être rendu possible par des moyens",
+            "Rester le nôtre : choisi"
           ],
           "cost": "Reste que certains choix deviennent irréversibles ou que leurs conséquences ne sont découvertes qu’après leur adoption : la possibilité de révision ne peut pas toujours être garantie.",
           "remaining": "Comment décider ensemble lorsque les moyens qui promettent un avenir meilleur risquent de supprimer la possibilité de le choisir autrement ?",
-          "short": "inversion d’indexation + processualisation",
+          "short": "choisir ses fins en jugeant ses moyens",
           "level": "défendable"
         },
         {
@@ -1046,14 +1064,15 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "Le rapport réciproque permet de juger aussi la production des moyens ; il ne reporte pas tout choix après leur adoption.",
-      "conclusion": "Comment décider ensemble lorsque les moyens qui promettent un avenir meilleur risquent de supprimer la possibilité de le choisir autrement ?"
+      "conclusion": "Comment décider ensemble lorsque les moyens qui promettent un avenir meilleur risquent de supprimer la possibilité de le choisir autrement ?",
+      "transition": "La technique n’est-elle qu’un ensemble de moyens, que nos fins viendraient diriger après coup ?"
     },
     {
       "id": "2025-me-besoin-art",
       "subject": "Avons-nous besoin d’art ?",
       "requirements": [
-        "Reconnaître la liberté des goûts",
-        "Reconnaître les besoins de perception, expression et partage"
+        "Répondre à un manque réel",
+        "Rester l’affaire d’un goût libre"
       ],
       "first": {
         "idea": "On peut vivre sans posséder des œuvres ni fréquenter des musées. En situation de pénurie, la nourriture, les soins et l’abri semblent devoir passer avant l’art.",
@@ -1061,19 +1080,19 @@ window.PHILO_RESOLUTION_CASES={
       },
       "second": {
         "idea": "Une œuvre peut rendre perceptible ce que l’usage ordinaire des mots ou des choses laissait inaperçu. Nous n’y cherchons pas seulement un plaisir, mais une manière d’éprouver et de comprendre.",
-        "limit": "Mais de ce pouvoir ne découle pas que toute personne ait besoin de telle œuvre, ni que l’art réalise toujours ce pouvoir. Une consommation imposée peut devenir prestige ou conformisme au lieu d’ouvrir l’expérience."
+        "limit": "Mais si nous avons besoin de l’art comme d’un bien nécessaire, il faut le procurer à tous comme on procure des soins : on prescrit alors des œuvres, et le goût cesse d’être libre."
       },
       "solutions": [
         {
           "id": "retenue",
-          "title": "Le besoin peut porter sur une possibilité : créer, écouter, regarder et partager des formes, plutôt que posséder une œuvre déterminée. L’art y répond diversement, par des pratiques ordinaires comme par des œuvres élaborées.",
+          "title": "Il s’ensuit que l’art répond à ce besoin par des voies diverses, pratiques ordinaires comme œuvres élaborées, et qu’il faut en ouvrir l’accès sans en prescrire les objets.",
           "keeps": [
-            "Reconnaître la liberté des goûts",
-            "Reconnaître les besoins de perception, expression et partage"
+            "Répondre à un manque réel",
+            "Rester l’affaire d’un goût libre"
           ],
           "cost": "Reste que le récit, le jeu ou la conversation peuvent aussi exprimer et partager une expérience : il faut encore préciser ce que l’art apporte que ces autres pratiques ne réalisent pas toujours.",
           "remaining": "Qu’apporte une forme artistique à l’expression d’une expérience, que le récit ordinaire et la conversation ne peuvent pas toujours lui donner ?",
-          "short": "duplication ontologique + métamorphose",
+          "short": "avoir besoin d’une possibilité, non d’une œuvre",
           "level": "défendable"
         },
         {
@@ -1101,7 +1120,8 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "Le besoin d’une possibilité maintient liberté et fonction sans rendre toute œuvre indispensable ; la frontière avec les autres pratiques reste assumée plutôt que supprimée.",
-      "conclusion": "Qu’apporte une forme artistique à l’expression d’une expérience, que le récit ordinaire et la conversation ne peuvent pas toujours lui donner ?"
+      "conclusion": "Qu’apporte une forme artistique à l’expression d’une expérience, que le récit ordinaire et la conversation ne peuvent pas toujours lui donner ?",
+      "transition": "Avoir besoin d’art, est-ce avoir besoin de certaines œuvres ?"
     }
   ]
 };

@@ -131,6 +131,7 @@ Format : date · ce qui s’est passé · la règle qui en découle. Proposez un
 - 2026-10-10 · Les vers d’un même poème varient selon les éditions (manuscrit, Vanier 1895). · Ne citer que les vers identiques dans deux sources, et le dire sur la page.
 - 2026-10-10 · Après balisage d’un texte modèle (fonctions, couleurs), le texte pouvait dériver. · Vérifier par script que le texte, balises retirées, reste identique à l’original.
 - 2026-10-10 · Les questions condensées publiées l’après-midi commençaient par « Comment… » sur des sujets oui/non, alors que le test du gant l’interdit déjà ; le test sur 50 sujets l’a montré. · Une condensation garde l’opérateur et les petits mots du sujet ; « sans » ne relie que deux exigences de la notion, jamais un danger.
+- 2026-10-25 · Le plan pas à pas des dix sujets adossés aux copies à 20 affichait aux élèves une justification interne (« Cette proposition reprend l’argument de la copie révisée… ») et, pour la version 3 des données, des repères « undefined ». · Après toute révision de copie, régénérer depuis la copie les exercices qui en dépendent, puis parcourir l’exercice en entier dans le navigateur, panneau « Votre plan se construit » compris.
 
 ## 7. Décisions du propriétaire
 
