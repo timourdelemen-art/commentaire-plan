@@ -50,3 +50,13 @@ Le script `scripts/check-browser-integration.cjs` utilise Playwright et vérifie
 4. Examiner si un sous-menu mobile repliable réduit les clics, sans compromettre la simplicité actuelle.
 
 **Niveau de preuve :** constat statique sur le code source ; les tests navigateur et le pipeline de déploiement ne sont pas encore exécutés. Aucune panne de navigation en production n'est affirmée.
+
+## Vérification du mécanisme de régénération (25 octobre)
+
+La lecture de la boucle principale de `scripts/seo-build.js` confirme que le build **remplace** les en-têtes déjà marqués `data-seo-static-nav` par `staticHeader(file)`. Les pages `bac-commentaire.html` et `philosophie.html` observées avec des menus anciens portent ce marqueur : leur divergence devrait donc disparaître lors d'une régénération SEO correctement exécutée. Ce constat est plus précis que l'hypothèse initiale de deux architectures concurrentes permanentes.
+
+**Risque réel à investiguer :** fichiers HTML générés non synchronisés avec le script source, ou étape de build absente du déploiement. La boucle remplace aussi certains anciens en-têtes par motif et met à jour les fils d'Ariane ; une correction manuelle page par page serait fragile.
+
+**Test d'acceptation proposé :** après `node scripts/seo-build.js`, vérifier sur `bac-commentaire.html` et `philosophie.html` que les six libellés sont FRANÇAIS, PHILOSOPHIE, HLP, BREVET, BIBLIOTHÈQUE, ANNALES et que les sous-entrées correspondent à `site-nav.js`. Puis relancer le build et vérifier son idempotence (aucune différence supplémentaire). Tester également la présence du menu sans JavaScript.
+
+Ce test n'a pas encore été exécuté sur une copie locale du dépôt ; résultat attendu, non résultat observé.
