@@ -38,3 +38,29 @@ Une modification de navigation doit être justifiée par écrit et vérifiée en
 - **Effet attendu** : accès direct aux sujets sans supprimer les archives officielles.
 
 **Ce document décrit des justifications et des tests à effectuer ; il ne constitue pas une preuve de réussite des tests.**
+
+## Audit rétrospectif obligatoire — totalité des modifications de cette conversation
+
+Périmètre contrôlé par comparaison GitHub avec le commit initial `353d348656c3e0d8e2e359a6842eee5fe0a1e9b7`. Douze fichiers ont changé (dont documentation et tests) :
+`annales-index.js`, `annales.html`, `bac-dissertation.html`, `brevet-redaction.html`, `philosophie-explication.html`, `philosophie-parcours.js`, `philosophie.html`, `scripts/audit-exercise-progression.cjs`, `scripts/check-browser-commentaire-parcours.cjs`, `scripts/check-browser-integration.cjs`, `AUDIT-ERGONOMIE-NAVIGATION-2026-10-25.md`, et ce protocole.
+
+### Matrice rétrospective (statut : validation finale non acquise)
+| Zone | Modification | Justification à confirmer | Contrôle indispensable |
+|---|---|---|---|
+| Annales | filtres auteur/œuvre, compteur, placement anticipé | réduire le défilement et trouver un sujet | filtres combinés, index statique, mobile, lien vers exercice |
+| Français dissertation | entrée par exercice et ressources repliées | distinguer pratique et théorie | niveaux 1/2, conservation de tous les modèles, responsive |
+| Philosophie accueil | raccourcis, ateliers, théorie facultative | éliminer la confusion des parcours | pas de doublon, détails accessibles, cours/exercice cliquables |
+| Philosophie suivi | suppression des cases manuelles en accueil | ne pas confondre passage et maîtrise | aucun résidu ni erreur JS, progression sauvegardée sur autres pages |
+| Philosophie explication | raccourcis vers textes, méthode et sources | accès immédiat aux fonctions | ancres existantes, navigation clavier et tactile |
+| Brevet rédaction | raccourcis imagination, réflexion, sujets et modèles | atteindre l'activité voulue | destinations et ergonomie mobile |
+| Tests et audit | contrôle des parcours, inventaire pédagogique | prévenir les régressions | exécution sur le build réel, zéro erreur non expliquée |
+
+### Tests complémentaires à programmer
+- **Parcours réel** : depuis chaque page d'entrée jusqu'à un exercice actif et un champ de réponse, en 390, 768 et 1280 px.
+- **Touch** : vérifier que liens et boutons ne se chevauchent pas et restent utilisables sans survol.
+- **Contenu** : ne pas confondre titre de section et bouton ; ne pas présenter un résumé de cours comme un exercice.
+- **IA** : contrôle du comportement réel et de l'indisponibilité, sans appel facturé dans les tests de navigation.
+- **Comparaison avant/après** : captures et vérification des contenus/URLs préservés.
+- **SEO / Netlify** : reconstruire puis contrôler les redirections et la publication.
+
+La présence d'un test dans le dépôt ne prouve pas sa réussite. Tout échec doit être diagnostiqué et corrigé avant de déclarer le périmètre validé.
