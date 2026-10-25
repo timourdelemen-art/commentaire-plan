@@ -33,7 +33,7 @@ const source=normalize(JSON.parse(fs.readFileSync(path.join(__dirname,'manon-cit
      const entiere=page.locator(`#${id}-entiere`);await entiere.waitFor();
      assert.equal(await entiere.locator('p').count(),await article.locator('.mr-paragraphe').count(),'Un paragraphe par étape dans la copie entière');
      assert.equal(await entiere.locator('p').first().evaluate(p=>getComputedStyle(p).textAlign),'justify');
-     assert.equal(normalize((await entiere.textContent())),normalize(expected.join(' ')),'La copie entière reprend exactement les phrases');
+     assert.equal(normalize((await entiere.locator('p').allTextContents()).join(' ')),normalize(expected.join(' ')),'La copie entière reprend exactement les phrases');
      const toggle=page.locator(`.cm-mode[data-mode="f"][aria-controls="${id}"]`),back=page.locator(`.cm-mode[data-mode="e"][aria-controls="${id}"]`);
      await toggle.focus();await page.keyboard.press('Enter');
      assert.equal(await toggle.getAttribute('aria-pressed'),'true');assert.equal(await article.locator('.mr-note:visible').count(),expected.length);

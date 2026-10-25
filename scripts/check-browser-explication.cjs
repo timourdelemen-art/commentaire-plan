@@ -39,7 +39,7 @@ const server=http.createServer((req,res)=>{const p=decodeURIComponent(new URL(re
    assert.equal(await page.locator('.c20-f').count(),before.length);
    await page.locator('[data-model] .cm-bar').first().waitFor();
    assert(!(await page.locator('[data-model] .c20-f').first().isVisible()));
-   const entiere=(await page.locator('[data-model] .cm-plain').allTextContents()).join(' ').replace(/\s+/g,' ').trim();
+   const entiere=(await page.locator('[data-model] .cm-plain p').allTextContents()).join(' ').replace(/\s+/g,' ').trim();
    assert.equal(entiere,before.join(' ').replace(/\s+/g,' ').trim(),'La copie entière reprend exactement les phrases');
    assert.equal(await page.locator('[data-model] .cm-plain p').first().evaluate(e=>getComputedStyle(e).textAlign),'justify');
    assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),s.id+' débordement sans fonctions');
