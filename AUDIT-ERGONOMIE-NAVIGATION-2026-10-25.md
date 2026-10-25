@@ -60,3 +60,32 @@ La lecture de la boucle principale de `scripts/seo-build.js` confirme que le bui
 **Test d'acceptation proposé :** après `node scripts/seo-build.js`, vérifier sur `bac-commentaire.html` et `philosophie.html` que les six libellés sont FRANÇAIS, PHILOSOPHIE, HLP, BREVET, BIBLIOTHÈQUE, ANNALES et que les sous-entrées correspondent à `site-nav.js`. Puis relancer le build et vérifier son idempotence (aucune différence supplémentaire). Tester également la présence du menu sans JavaScript.
 
 Ce test n'a pas encore été exécuté sur une copie locale du dépôt ; résultat attendu, non résultat observé.
+
+## Audit ciblé — annales de français, sélection « Tous », type « Tous »
+
+Sources examinées : `annales.html`, `annales-index.js`, `annales/catalogue-annales.js`.
+
+### Ce qui existe
+- La page possède un sommaire `annales-jump` vers Bac français, Philosophie, HLP, Brevet.
+- Un index HTML statique liste déjà des sujets de commentaire avec auteur, œuvre, année et lieu, mais sans filtre.
+- Plus bas, `#annalesControls` et `#transformedAnnales` affichent un catalogue interactif. `annales-index.js` filtre actuellement par Tout / Bac / Brevet / Gratuit / Accès complet.
+- Le catalogue fournit `examen`, `type`, `annee`, `zone`, `serie`, `epreuve`, `access`, `auteur`, `oeuvre`, `parcours`, `etapes`, `sourceOfficielle` selon les fiches.
+
+### Diagnostic
+La navigation par auteur/œuvre est absente du filtre interactif alors que les données nécessaires sont présentes. Les ressources sont réparties entre index statique et liste interactive plus basse : risque de confusion entre sujet officiel, fiche et entraînement. Le paramétrage demandé « Français / Tous / Tous » devrait présenter tous les sujets français indexés, sans supposer que chaque sujet possède un corrigé complet.
+
+### Proposition soumise à validation
+1. Placer en tête de la section Bac français un module compact « Trouver un sujet » avec filtres **Épreuve**, **Auteur**, **Œuvre**, **Année**, **Ressource disponible** (tous, exercices, corrigé vérifié). Les listes d'auteurs et d'œuvres sont générées depuis les données, pas saisies à la main.
+2. En sélection « Tous », afficher tous les sujets français du périmètre indexé ; afficher un compteur de résultats et un message explicite si aucun résultat.
+3. Sur chaque carte : année, auteur, œuvre, nature de l'épreuve et actions distinctes « Sujet officiel », « S'entraîner », « Lire le corrigé » **uniquement si réellement disponible**.
+4. Préserver un index HTML accessible sans JavaScript, les URL historiques et les liens vers les sources ministérielles. Ne pas masquer les autres disciplines.
+5. Auditer la correspondance entre l'index statique et `ANNALES_CATALOGUE` avant d'unifier les résultats : les deux collections ne sont pas automatiquement équivalentes.
+
+### Tests à ajouter
+- Français + auteur Tous + type Tous : aucun résultat du corpus français n'est perdu.
+- Auteur spécifique : résultats exacts ; changement d'auteur remet à jour les œuvres possibles.
+- Les badges « Corrigé » et « Exercices » ne sont visibles que si une ressource effective est liée.
+- Clavier, mobile, sans JavaScript, liens officiels, recherche vide et absence de doublons.
+- Aucun changement de la navigation principale.
+
+**Statut : proposition argumentée, pas encore de modification fonctionnelle.**
