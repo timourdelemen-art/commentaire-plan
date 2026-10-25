@@ -12,7 +12,7 @@ const server=http.createServer((req,res)=>{const p=decodeURIComponent(new URL(re
  try{for(const width of [390,1280]){
   const context=await browser.newContext({viewport:{width,height:900},reducedMotion:'reduce'}),page=await context.newPage(),errors=[];
   page.on('pageerror',e=>errors.push(e.message));
-  await page.goto(base+'philosophie-explication.html');assert.equal(await page.locator('.ecrire-card').count(),8);await page.locator('#banque').scrollIntoViewIfNeeded();
+  await page.goto(base+'philosophie-explication.html');assert.equal(await page.locator('.ecrire-card').count(),data.subjects.length+2); // 8 sujets guidés + 2 annales complémentaires (Pascal, Platon)await page.locator('#banque').scrollIntoViewIfNeeded();
   assert((await page.locator('main').textContent()).replace(/\s+/g,' ').includes('56 exercices'));
   assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
   for(const s of data.subjects){
