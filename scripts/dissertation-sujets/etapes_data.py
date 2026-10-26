@@ -381,7 +381,7 @@ E["spectaculaire"] = dict(
        ("I. Les personnages / II. Le langage / III. La mise en scène","thematique"),
        ("I. Le début de la dispute / II. La visite des voisins / III. Les dernières répliques","ordre")],
  analyse=[("H. 2 raconte que son ami l’a pris dans sa main, puis l’a laissé tomber.","paraphrase"),
-          ("On relève une métaphore, avec trois verbes d’action qui se suivent dans la réplique.","etiquette"),
+          ("On relève une métaphore, avec une suite de verbes d’action dans la même réplique.","etiquette"),
           ("La métaphore rend la scène vivante et frappe le spectateur.","general")],
 )
 E["theatrale"] = dict(
