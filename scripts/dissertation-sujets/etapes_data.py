@@ -1,4 +1,4 @@
-# Propositions au clic des pages de sujet (Ponge, Dorion).
+# Propositions au clic des pages de sujet (Ponge, Dorion, Sarraute).
 # La bonne réponse vient de la copie à 20 ; les autres sont écrites ici, chacune avec son type
 # (le type donne l'explication affichée à l'élève, voir gen.py).
 # p1 : ce que l'œuvre montre aussi · p2 : la question · plan · analyse (du passage « preuve » de la copie)
@@ -353,3 +353,90 @@ LONG = {
    dialectique="I. La forêt est bien le lieu de l’intimité / II. Elle ne l’est pas, elle enferme / III. Elle est intime en partie seulement",
    general="La métaphore de la cage crée une image forte et sombre de la solitude, qui contraste avec la douceur des autres vers du recueil."),
 }
+
+# ── Sarraute, Pour un oui ou pour un non ──
+_P = "<em>Pour un oui ou pour un non</em>"
+E["jeu"] = dict(
+ p1=[("Les deux amis se répondent coup pour coup et retournent l’un contre l’autre les mêmes images.","redit"),
+     ("La pièce parle d’amitié, de jalousie et de réussite sociale entre deux hommes.","theme"),
+     ("Les deux amis respectent une règle stricte : aucun n’accuse l’autre ni ne lui coupe la parole.","faux")],
+ p2=[(f"Le dialogue est-il, dans {_P}, un jeu dans lequel tous les coups sont permis ?","reprise"),
+     (f"Quels coups les deux amis se portent-ils dans {_P}, et par quelles imitations, quels pièges et quels arbitres chacun cherche-t-il à l’emporter ?","partielle"),
+     ("Comment Sarraute concilie-t-elle le jeu des répliques et la gravité de la dispute ?","resout")],
+ plan=[("I. Oui, le dialogue est un jeu / II. Non, c’est une vraie dispute / III. C’est un peu des deux","dialectique"),
+       ("I. L’amitié / II. La jalousie / III. Le langage","thematique"),
+       ("I. L’aveu du grief / II. L’arrivée des voisins / III. Le dénouement","ordre")],
+ analyse=[("H. 1 répond à H. 2 que c’est lui, cette fois, qui a tendu un piège à son ami.","paraphrase"),
+          ("On relève ici une métaphore filée, celle du piège à souris, reprise d’une réplique à l’autre.","etiquette"),
+          ("La métaphore du piège donne à la dispute une image concrète et frappante.","general")],
+)
+E["spectaculaire"] = dict(
+ p1=[("H. 2 fait venir des voisins pour juger la dispute, et parle de piège et de procès.","redit"),
+     ("La pièce montre une dispute entre deux amis de longue date.","theme"),
+     ("La dispute finit en cris et en coups, et les voisins doivent séparer les deux amis.","faux")],
+ p2=[(f"La dispute est-elle spectaculaire dans {_P} ?","reprise"),
+     (f"Comment la dispute se donne-t-elle en spectacle dans {_P} ?","partielle"),
+     ("Comment Sarraute réussit-elle à rendre spectaculaire une dispute sans action ?","resout")],
+ plan=[("I. Oui, la dispute est spectaculaire / II. Non, elle ne l’est pas / III. Elle l’est en partie","dialectique"),
+       ("I. Les personnages / II. Le langage / III. La mise en scène","thematique"),
+       ("I. Le début de la dispute / II. La visite des voisins / III. Les dernières répliques","ordre")],
+ analyse=[("H. 2 raconte que son ami l’a pris dans sa main, puis l’a laissé tomber.","paraphrase"),
+          ("On relève une métaphore, avec une suite de verbes d’action dans la même réplique.","etiquette"),
+          ("La métaphore rend la scène vivante et frappe le spectateur.","general")],
+)
+E["theatrale"] = dict(
+ p1=[("Les personnages ne cessent de poser, de citer des vers et de se chercher un public.","redit"),
+     ("La pièce oppose deux amis aux manières de vivre différentes.","theme"),
+     ("La pièce est un long monologue de H. 2, presque sans échange de répliques.","faux")],
+ p2=[(f"La dispute de {_P} est-elle profondément théâtrale ?","reprise"),
+     (f"Quels rôles les personnages jouent-ils dans {_P}, quand ils posent, citent des vers et font entrer des voisins pour les juger ?","partielle"),
+     ("Comment Sarraute concilie-t-elle les rôles joués et la sincérité de la blessure ?","resout")],
+ plan=[("I. Oui, la dispute est théâtrale / II. Non, elle est sincère / III. Elle est un peu des deux","dialectique"),
+       ("I. Les répliques / II. Les didascalies / III. Les personnages","thematique"),
+       ("I. La question de H. 1 / II. La scène des voisins / III. Le dénouement","ordre")],
+ analyse=[("H. 2 se souvient de son ami assis dans un fauteuil, son fils entre les genoux.","paraphrase"),
+          ("On relève une description précise, avec un vocabulaire du corps et de la famille.","etiquette"),
+          ("La description rend la scène très visuelle et précise.","general")],
+)
+E["non-dits"] = dict(
+ p1=[("H. 2 ne reproche pas des mots à son ami, mais un ton, un suspens, un accent.","redit"),
+     ("La pièce parle de l’amitié et de ce qui l’use avec le temps.","theme"),
+     ("Les deux amis se réconcilient dès que le malentendu est expliqué.","faux")],
+ p2=[(f"Les non-dits sont-ils, dans {_P}, la source des malentendus ?","reprise"),
+     (f"Quels sous-entendus fragilisent l’amitié dans {_P} ?","partielle"),
+     (f"Comment, dans {_P}, la parole finit-elle par réparer l’amitié que les non-dits et les sous-entendus avaient peu à peu minée ?","resout")],
+ plan=[("I. Oui, les non-dits minent l’amitié / II. Non, ce sont les mots dits / III. Ce sont les deux","dialectique"),
+       ("I. Le silence / II. Le ton / III. L’amitié","thematique"),
+       ("I. Le grief de H. 2 / II. La visite des voisins / III. Les derniers mots","ordre")],
+ analyse=[("H. 2 dit à son ami qu’il a enfin compris ce qui n’allait pas entre eux.","paraphrase"),
+          ("On relève deux phrases courtes, la seconde introduite par le présentatif « voilà ».","etiquette"),
+          ("Les phrases courtes rendent la réplique vive et marquent l’émotion de H. 2.","general")],
+)
+OK.update({
+ "jeu": ("Mais ces coups blessent pour de bon, et les deux amis n’ont pas le droit de quitter la partie.",
+   "I. Le dialogue est une partie sans merci / II. Mais ses coups engagent toute une vie / III. Leur arme est la manière de dire",
+   "H. 1 reprend l’image du piège contre celui qui l’avait lancée : chacun prend l’arme de l’adversaire."),
+ "spectaculaire": ("Presque rien n’arrive sur scène : deux hommes parlent, et tout naît d’une intonation.",
+   "I. La dispute cherche des spectateurs / II. Mais sa violence ne se voit pas / III. C’est la voix qui en fait un spectacle",
+   "La métaphore fait d’un compliment un geste de géant : la parole crée une violence que la scène ne montre pas."),
+ "theatrale": ("Ces rôles couvrent une blessure réelle, née d’un mot dit sur un certain ton.",
+   "I. La dispute a la forme du théâtre / II. Les personnages s’y jouent la comédie / III. La blessure naît de la voix",
+   "Le mot « image » fait du bonheur de H. 1 un tableau offert au regard : H. 2 l’accuse de poser."),
+ "non-dits": ("La pièce fait dire ces non-dits, et leur aveu ne répare rien entre les deux amis.",
+   "I. Un sous-entendu défait l’amitié / II. Dit, il révèle un vrai désaccord / III. L’entre-deux des mots unit aussi",
+   "Le verbe « toucher » dit que le coup a porté : le sous-entendu avait été bien compris."),
+})
+LONG.update({
+ "jeu": dict(theme="La pièce parle d’amitié, de jalousie, de réussite sociale et de poésie, à travers deux hommes qui se connaissent depuis toujours.",
+   dialectique="I. Oui, le dialogue est un jeu où les amis s’imitent / II. Non, c’est une dispute sérieuse / III. C’est à la fois un jeu et une dispute",
+   general="La métaphore filée du piège à souris rend la dispute concrète et frappante, et montre l’agressivité qui règne entre les deux amis."),
+ "spectaculaire": dict(theme="La pièce montre une longue dispute entre deux amis de toujours, qui se reprochent leur réussite, leurs goûts et leur manière de vivre.",
+   dialectique="I. Oui, la dispute est spectaculaire, avec ses témoins / II. Non, il ne s’y passe presque rien / III. Elle est spectaculaire en partie seulement",
+   general="La métaphore rend le récit de H. 2 vivant et violent, ce qui frappe fortement le spectateur et montre sa colère contre son ami."),
+ "theatrale": dict(theme="La pièce oppose deux amis aux manières de vivre très différentes, l’un tourné vers la réussite, l’autre vers la contemplation.",
+   dialectique="I. Oui, la dispute est théâtrale par ses répliques / II. Non, elle est sincère et réelle / III. Elle est à la fois jouée et sincère",
+   general="La description, précise et très visuelle, montre que H. 2 garde un souvenir vif de cette scène et de la famille de son ami."),
+ "non-dits": dict(theme="La pièce parle de l’amitié, de ce qui l’use avec le temps, et des petites rancunes qui s’accumulent entre deux hommes.",
+   dialectique="I. Oui, les non-dits minent la relation des deux amis / II. Non, ce sont les mots dits qui la minent / III. Ce sont un peu les deux",
+   general="Les deux phrases courtes rendent la réplique vive et marquent l’émotion de H. 2, qui semble soulagé d’avoir enfin été compris."),
+})
