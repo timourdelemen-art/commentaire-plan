@@ -92,7 +92,7 @@ ESSAI = {
  'choices': [
   ['Toute éducation donne des moyens de liberté, mais seule celle qui forme le jugement émancipe.', 'Solide',
    'Vous gardez le mot « toute » et vous distinguez donner des moyens et rendre autonome.'],
-  ['Oui, puisque apprendre libère toujours de l’ignorance.', 'Défendable',
+  ['Oui, puisque apprendre libère toujours de l’ignorance, et qu’un esprit qui sait davantage dépend moins des autres.', 'Défendable',
    'C’est vrai en un sens ; mais une éducation peut aussi apprendre à obéir. Le mot « toute » demande de l’examiner.'],
   ['Non, puisque toute éducation impose des règles à l’enfant.', 'À revoir',
    'Une contrainte n’empêche pas d’émanciper : apprendre à lire contraint, et libère. Le critère est ailleurs.'],

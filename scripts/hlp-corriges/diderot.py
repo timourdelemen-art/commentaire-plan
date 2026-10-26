@@ -95,7 +95,7 @@ ESSAI = {
  'choices': [
   ['Ils peuvent se passer de l’émotion de l’artiste au moment de faire, non de la sensibilité qu’ils travaillent et adressent.', 'Solide',
    'Vous distinguez la sensibilité de l’artiste et celle du public, et vous gardez « se passer de ».'],
-  ['Non, car un artiste doit ressentir ce qu’il écrit pour être sincère.', 'Défendable',
+  ['Non, car un artiste doit ressentir lui-même tout ce qu’il écrit ou peint pour être sincère et toucher son public.', 'Défendable',
    'Une œuvre peut émouvoir sans que l’artiste s’abandonne à l’émotion en la faisant ; la sincérité n’est pas le seul critère.'],
   ['Oui, puisque l’art est d’abord une technique qui s’apprend, comme le montre le grand comédien que décrit Bordeu.', 'À revoir',
    'La technique produit un effet sur quelqu’un : vous oubliez la sensibilité du lecteur ou du spectateur.'],

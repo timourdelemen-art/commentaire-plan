@@ -48,7 +48,7 @@ function runRuntime(html, storage, fail=false) {
 }
 
 bank.validate();
-assert.equal(bank.data.subjects.length,6);
+assert.equal(bank.data.subjects.length,8);
 assert.equal(bank.data.subjects.filter(s=>s.level==='premiere').length,2);
 const tmp=fs.mkdtempSync(path.join(os.tmpdir(),'hlp-test-'));
 try {
@@ -97,6 +97,6 @@ try {
   const gen=fs.readFileSync(path.join(root,'scripts/build-hlp.js'),'utf8');
   assert(!gen.includes('Puis écrivez les trois parties'));
   assert(gen.includes("require('./build-hlp-parcours').build(ROOT)"));
-  console.log(`HLP : 12 modèles intacts, 60 tâches, navigation et brouillons simulés ; solide seule plus longue ${longest}/${count}. Navigateur non testé.`);
+  console.log(`HLP : ${bank.data.subjects.length*2} modèles intacts, ${bank.data.subjects.length*10} tâches, navigation et brouillons simulés ; solide seule plus longue ${longest}/${count}. Navigateur non testé.`);
 } finally { fs.rmSync(tmp,{recursive:true,force:true}); }
 function escQuestion(s){return s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}

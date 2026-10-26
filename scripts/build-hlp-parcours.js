@@ -19,7 +19,7 @@ function validate() {
   for (const s of data.subjects) {
     if (ids.has(s.id) || !/^(premiere|terminale)-[a-z]+$/.test(s.id)) throw Error(`Identifiant HLP : ${s.id}`);
     ids.add(s.id);
-    if (!/^https:\/\/(?:www\.)?(?:education\.gouv\.fr|eduscol\.education\.(?:fr|gouv\.fr))\//.test(s.source)) throw Error(`Source : ${s.id}`);
+    if (!/^https:\/\/(?:www\.)?(?:education\.gouv\.fr|eduscol\.education\.(?:fr|gouv\.fr))\//.test(s.source) && !/^annales\/hlp\/[\w-]+\.pdf$/.test(s.source)) throw Error(`Source : ${s.id}`);
     if (s.responses.length !== 2) throw Error(`Deux réponses attendues : ${s.id}`);
     const kinds = s.responses.map(r => r.kind);
     if (!kinds[0].startsWith('interp') || kinds[0].slice(-1) === kinds[1].slice(-1)) throw Error(`Orientations : ${s.id}`);

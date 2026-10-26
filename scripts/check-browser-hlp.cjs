@@ -60,6 +60,6 @@ const server=http.createServer((req,res)=>{
   await page.goto(`http://127.0.0.1:${server.address().port}/hlp-parcours-premiere-moliere.html`);
   await page.locator('[data-model] summary').first().click();assert(await page.locator('.ecrire-annotation').first().isVisible());await context.close();
   fs.writeFileSync(path.join(capture,'hlp-phrases-report.json'),JSON.stringify(report,null,2));
-  console.log('HLP : 12 modèles à 390 et 1280 px, fonctions, clavier, paragraphes continus, annales et lecture sans JavaScript : OK.');
+  console.log('HLP : '+data.subjects.length*2+' modèles à 390 et 1280 px, fonctions, clavier, paragraphes continus, annales et lecture sans JavaScript : OK.');
  } finally { await browser.close(); }
 })().catch(e=>{console.error(e);process.exitCode=1;}).finally(()=>server.close());
