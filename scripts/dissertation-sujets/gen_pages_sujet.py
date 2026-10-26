@@ -13,6 +13,9 @@ OEUVRES = {
  'dorion': dict(file='dorion_copies.py', titre='<em>Mes forêts</em>', court='Mes forêts', auteur='Hélène Dorion',
    parcours='« la poésie, la nature, l’intime »', ancre='dorion',
    note='Chaque citation a été relue mot pour mot dans l’édition Bruno Doucey de <em>Mes forêts</em> (2021). La barre oblique sépare les vers ; les poèmes sont désignés par leur titre, ou par leurs premiers mots quand ils n’en ont pas.'),
+ 'douai': dict(file='douai_copies.py', racine='/', titre='<em>Cahier de Douai</em>', court='Cahier de Douai', auteur='Arthur Rimbaud',
+   parcours='« émancipations créatrices »', ancre='rimbaud',
+   note='Les vers cités ont été vérifiés mot pour mot sur deux éditions en ligne. Quand la ponctuation d’un vers varie d’une édition à l’autre, vérifiez dans la vôtre.'),
  'sarraute': dict(file='sarraute/copies.py', var='COPIES', prefixe='pour-un-oui-ou-pour-un-non-', racine='/', titre='<em>Pour un oui ou pour un non</em>', court='Pour un oui ou pour un non', auteur='Nathalie Sarraute',
    parcours='« théâtre et dispute »', ancre='sarraute',
    note='Chaque réplique citée a été relue mot pour mot dans l’édition Gallimard du <em>Théâtre</em> de Nathalie Sarraute. La pièce n’a ni actes ni scènes : les passages sont situés par leur moment dans le dialogue. Les personnages s’y nomment H. 1, H. 2, H. 3 et F.'),
@@ -63,7 +66,7 @@ def info(k, c):
     trans = [b[0][0] for h, b in B if len(b) == 1 and b[0][1].startswith('Transition')]
     mq = re.search(r'«(.*)»', c['preuve'][0]); q = norm(mq.group(1) if mq else c['preuve'][0]); an = passage = None
     for i, (t, l) in enumerate(rows):
-        if l == 'Le passage qui prouve' and q in norm(t):
+        if l.startswith('Le') and 'qui prouve' in l and q in norm(t):
             passage = t; an = rows[i + 1][0]; break
     assert an and len(reps) == 3 and len(trans) == 2 and len(B) == 13, k
     return dict(c=c, intro=intro, rows=rows, reps=reps, trans=trans, passage=passage, an=an)
