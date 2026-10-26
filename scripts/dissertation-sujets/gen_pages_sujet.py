@@ -14,7 +14,7 @@ OEUVRES = {
    parcours='« la poésie, la nature, l’intime »', ancre='dorion',
    note='Chaque citation a été relue mot pour mot dans l’édition Bruno Doucey de <em>Mes forêts</em> (2021). La barre oblique sépare les vers ; les poèmes sont désignés par leur titre, ou par leurs premiers mots quand ils n’en ont pas.'),
  'douai': dict(file='douai_copies.py', racine='/', titre='<em>Cahier de Douai</em>', court='Cahier de Douai', auteur='Arthur Rimbaud',
-   parcours='« émancipations créatrices »', ancre='rimbaud',
+   parcours='« émancipations créatrices »', ancre='',
    note='Les vers cités ont été vérifiés mot pour mot sur deux éditions en ligne. Quand la ponctuation d’un vers varie d’une édition à l’autre, vérifiez dans la vôtre.'),
  'sarraute': dict(file='sarraute/copies.py', var='COPIES', prefixe='pour-un-oui-ou-pour-un-non-', racine='/', titre='<em>Pour un oui ou pour un non</em>', court='Pour un oui ou pour un non', auteur='Nathalie Sarraute',
    parcours='« théâtre et dispute »', ancre='sarraute',
@@ -89,7 +89,8 @@ def page(k, I, O, other, Ib):
     rows = I['rows']; ns = len(rows); nw = sum(len(plain(t).split()) for t, l in rows)
     P = I['intro'][4][0]
     autre = (f'<div class="etape-autre"><p><b>Un autre sujet sur {O["titre"]}</b> · {cb["session"].split(",")[0]}</p>'
-             f'<p class="sujet-libelle" style="font-size:19px;margin:8px 0 0">{cb["sujet"]}</p></div>')
+             f'<p class="sujet-libelle" style="font-size:19px;margin:8px 0 0">{cb["sujet"]}</p>'
+             f'<p class="micro"><a href="{O.get("racine", "")}bac-dissertation-copie-20-{O.get("prefixe", "")}{other}.html">La page de ce sujet →</a></p></div>')
     def comment(n): return f'<details class="etape-comment"><summary>Comment faire ?</summary><p>{COMMENT[n]}</p><p><a href="bac-dissertation-methode.html">La méthode complète →</a></p></details>'
     def ecrit(inner): return (f'<div class="etape-ecrit"><div class="etape-niveau">J’écris, sur un autre sujet</div>'
                               f'<p>Refaites seul la même opération sur un sujet que vous n’avez pas encore vu. Le corrigé vient de sa copie à 20.</p>{autre}{inner}</div>')
@@ -164,7 +165,7 @@ def page(k, I, O, other, Ib):
 <div class="grid-3">
 {why}
 </div>
-<p><a class="official-link" href="{O.get("racine", "")}bac-dissertation-sujets.html#{O['ancre']}">Tous les vrais sujets sur {O['titre']} →</a><br><a class="official-link" href="{O.get("racine", "")}bac-dissertation.html#diss-probleme">Trouver le problème sur de vrais sujets, au clic →</a><br><a class="official-link" href="{O.get("racine", "")}bac-dissertation-methode.html">La méthode complète de la dissertation →</a></p></section>
+<p><a class="official-link" href="{O.get("racine", "")}bac-dissertation-sujets.html{'#' + O['ancre'] if O['ancre'] else ''}">Tous les vrais sujets sur {O['titre']} →</a><br><a class="official-link" href="{O.get("racine", "")}bac-dissertation.html#diss-probleme">Trouver le problème sur de vrais sujets, au clic →</a><br><a class="official-link" href="{O.get("racine", "")}bac-dissertation-methode.html">La méthode complète de la dissertation →</a></p></section>
 </div>
 
 </main><script src="onglets.js"></script><script src="etapes.js"></script><script src="modeles-redaction.js"></script><script src="site-nav.js"></script></body></html>

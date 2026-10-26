@@ -1,4 +1,4 @@
-# Propositions au clic des pages de sujet (Ponge, Dorion, Sarraute).
+# Propositions au clic des pages de sujet (Ponge, Dorion, Sarraute, Rimbaud).
 # La bonne réponse vient de la copie à 20 ; les autres sont écrites ici, chacune avec son type
 # (le type donne l'explication affichée à l'élève, voir gen.py).
 # p1 : ce que l'œuvre montre aussi · p2 : la question · plan · analyse (du passage « preuve » de la copie)
@@ -439,4 +439,51 @@ LONG.update({
  "non-dits": dict(theme="La pièce parle de l’amitié, de ce qui l’use avec le temps, et des petites rancunes qui s’accumulent entre deux hommes.",
    dialectique="I. Oui, les non-dits minent la relation des deux amis / II. Non, ce sont les mots dits qui la minent / III. Ce sont un peu les deux",
    general="Les deux phrases courtes rendent la réplique vive et marquent l’émotion de H. 2, qui semble soulagé d’avoir enfin été compris."),
+})
+
+# ── Rimbaud, Cahier de Douai ── (affirmations vérifiées sur le texte du recueil)
+_D = "le <em>Cahier de Douai</em>"
+E["cahier-de-douai"] = dict(
+ p1=[("Le recueil se moque de Dieu, de l’Empereur et des bourgeois qui écoutent la musique militaire.","redit"),
+     ("Le recueil parle de la nature, de la guerre et de l’amour adolescent.","theme"),
+     ("Rimbaud y respecte la poésie noble et n’y parle jamais d’objets ordinaires.","faux")],
+ p2=[(f"Est-ce seulement par la révolte que Rimbaud s’émancipe dans {_D} ?","reprise"),
+     (f"Contre quels maîtres Rimbaud se révolte-t-il dans {_D}, et par quelles moqueries les rend-il ridicules ?","partielle"),
+     ("Comment Rimbaud parvient-il à concilier la révolte et le plaisir de la fugue ?","resout")],
+ plan=[("I. Oui, Rimbaud se révolte / II. Non, il fugue / III. Il fait un peu des deux","dialectique"),
+       ("I. La guerre / II. La nature / III. L’amour","thematique"),
+       ("I. Les premiers poèmes / II. Les poèmes du milieu / III. Les derniers sonnets","ordre")],
+ analyse=[("Le poète dort dehors, sous les étoiles, pendant sa fugue.","paraphrase"),
+          ("On relève une métaphore et un nom de constellation, la Grande-Ourse, avec une majuscule.","etiquette"),
+          ("La métaphore crée une image poétique de la nuit et des étoiles.","general")],
+)
+E["cahier-de-douai-ecrire-contre"] = dict(
+ p1=[("Rimbaud attaque Dieu dans « Le Mal » et dénonce la guerre dans « Le Dormeur du val ».","redit"),
+     ("Le recueil parle de la jeunesse, de la guerre et de la nature.","theme"),
+     ("Le recueil ne contient aucun poème heureux : tous dénoncent quelque chose.","faux")],
+ p2=[(f"La poésie de Rimbaud est-elle, dans {_D}, pas seulement écriture pour, mais écriture contre ?","reprise"),
+     (f"Contre quoi Rimbaud écrit-il dans {_D} ?","partielle"),
+     (f"Comment Rimbaud réussit-il à concilier, dans {_D}, l’écriture qui célèbre et l’écriture qui attaque ce qu’elle refuse ?","resout")],
+ plan=[("I. Rimbaud écrit contre / II. Rimbaud écrit pour / III. Il écrit pour et contre","dialectique"),
+       ("I. La religion / II. La guerre / III. La jeunesse","thematique"),
+       ("I. « Roman » / II. « Le Dormeur du val » / III. « Ma Bohème »","ordre")],
+ analyse=[("Le poète dit qu’à dix-sept ans, on n’est pas encore quelqu’un de sérieux.","paraphrase"),
+          ("On relève une phrase négative et le pronom indéfini « on », dans un alexandrin.","etiquette"),
+          ("La négation montre que le poète refuse quelque chose.","general")],
+)
+OK.update({
+ "cahier-de-douai": ("Le poète se libère aussi sans attaquer personne : il fugue, marche, mange, et il en est heureux.",
+   "I. La révolte ridiculise les maîtres / II. La fugue libère sans combattre / III. Le poème unit les deux libertés",
+   "La métaphore fait du ciel une auberge : le fugueur ne manque de rien, le monde entier l’héberge."),
+ "cahier-de-douai-ecrire-contre": ("Le recueil célèbre aussi, dans des poèmes heureux comme « Sensation » ou « Roman ».",
+   "I. Le recueil écrit contre / II. Mais célébrer, c’est encore refuser / III. Écrire contre la poésie apprise crée du neuf",
+   "La négation célèbre la jeunesse en lui retirant le sérieux : elle se définit par ce qu’elle refuse."),
+})
+LONG.update({
+ "cahier-de-douai": dict(theme="Le recueil parle de la nature, de la guerre, de l’amour adolescent et des promenades à pied dans la campagne, l’été.",
+   dialectique="I. Oui, Rimbaud s’émancipe par la révolte contre Dieu / II. Non, il s’émancipe par la fugue / III. Il fait un peu des deux",
+   general="La métaphore crée une belle image poétique de la nuit et des étoiles, qui montre que le poète aime la nature et le voyage."),
+ "cahier-de-douai-ecrire-contre": dict(theme="Le recueil parle de la jeunesse, de la guerre et de la nature, avec des poèmes sur la bohème, les promenades et les premiers amours.",
+   dialectique="I. Rimbaud écrit contre Dieu et la guerre / II. Rimbaud écrit pour la nature et la jeunesse / III. Il écrit à la fois pour et contre",
+   general="La négation montre que le poète refuse quelque chose, et le pronom « on » donne au vers la valeur d’une vérité générale sur la jeunesse."),
 })
