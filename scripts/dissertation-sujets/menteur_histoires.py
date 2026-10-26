@@ -15,7 +15,7 @@ COPIE = dict(
  blocks=[
  ['Introduction', [
   (f'« Quoi ? Des contes en l’air et sur l’heure inventés ? » : à la fin du {M}, Géronte appelle ainsi les mensonges de son fils, au moment même où ces « contes » viennent de l’humilier.', 'Accroche : un vers de l’œuvre qui contient déjà le problème'),
-  ('« Raconter des histoires », c’est faire des récits, mais aussi dire des choses fausses sans gravité ; le sujet demande si mentir n’est « seulement » que cela.', 'Les mots du sujet, et le petit mot « seulement »'),
+  ('Le sujet demande si mentir, c’est « seulement raconter des histoires » : c’est-à-dire faire des récits, mais aussi dire des choses fausses sans gravité, et rien de plus.', 'Les mots du sujet, et le petit mot « seulement »'),
   ('On pourrait penser que oui : Dorante ment en conteur, pour le plaisir d’inventer, et son valet le compare à un auteur de romans.', 'On pourrait penser : ce que le sujet suggère (X)'),
   ('Pourtant, l’œuvre montre que ces histoires agissent : elles rendent un ami jaloux jusqu’au duel, défont un mariage et ridiculisent un père.', 'Pourtant : ce que l’œuvre montre (Y)'),
   (f'Dans {M}, que devient le plaisir de raconter des histoires quand ces histoires agissent sur ceux qui les écoutent ?', 'La problématique, en une question : elle garde les enjeux du sujet'),
@@ -64,7 +64,7 @@ COPIE = dict(
  ]],
  ['Troisième partie', [
   ('Elle les fait admirer parce qu’elle-même raconte des histoires.', 'La reprise du mot clé'),
-  ('Mentir n’est pas seulement raconter, mais raconter est l’art même de la comédie : la pièce reprend à son compte le pouvoir du conteur.', 'Réponse III : la réponse à la problématique'),
+  ('Mentir n’est pas seulement raconter, mais raconter est l’art même de cette comédie d’intrigue : la pièce reprend à son compte le pouvoir du conteur.', 'Réponse III : la réponse à la problématique'),
   ('Le récit inventé devient un morceau de théâtre.', A),
   ('Pour son père, Dorante joue toute une nuit d’aventures, pistolet, épée rompue et barricade : « Bancs, tables, coffres, lits, et jusqu’aux escabelles ».', P),
   ('L’énumération précipite l’action comme un coup de théâtre : Dorante ne ment plus en phrases, il donne une comédie entière à un père devenu son public.', C),
@@ -75,14 +75,14 @@ COPIE = dict(
   ('Ces qualités sont celles de l’acteur sur scène : savoir sa réplique, improviser, ne jamais se troubler ; mentir et jouer demandent le même sang-froid.', C),
  ]],
  [None, [
-  ('Le dernier mot donne raison au conteur.', A),
-  ('Cliton conclut, seul : « Comme en sa propre fourbe un menteur s’embarrasse ! / Peu sauraient comme lui s’en tirer avec grâce. »', P),
-  ('Le mot « grâce » déplace le jugement : la pièce reconnaît l’embarras que créent les contes, mais elle admire la manière d’en sortir, comme on admire un auteur.', C),
+  ('Le spectateur, lui, entend les contes autrement que les personnages.', A),
+  ('Pendant le récit de la fête sur l’eau, que la première partie lisait comme un plaisir de conteur, Cliton glisse à son maître : « J’enrage de me taire et d’entendre mentir ! »', P),
+  ('Cette réplique crée une double lecture : Alcippe reçoit un fait, le public goûte un conte dont il connaît le secret ; la comédie partage le mensonge avec la salle au lieu de l’y exercer.', C),
  ]],
  ['Conclusion', [
   (f'Mentir, dans {M}, n’est donc pas seulement raconter des histoires.', 'Conclusion : la réponse'),
   ('Dorante ment d’abord en conteur ; ses histoires agissent ensuite sur ceux qui les croient, jusqu’à ridiculiser son père ; et la comédie fait de ce pouvoir du récit son propre spectacle.', 'Ce que le raisonnement a établi'),
-  ('Le parcours « mensonge et comédie » le fait voir : le menteur et le dramaturge partagent le même pouvoir, celui de faire croire.', 'Le lien avec le parcours'),
+  ('Géronte parlait de « contes en l’air » : aucun n’y reste, chacun retombe sur quelqu’un, et c’est ainsi que, selon le parcours, mensonge et comédie se confondent.', 'Le retour à l’accroche et le lien avec le parcours'),
   ('Reste une question : le spectateur, qui sait que tout est inventé, est-il le seul que ces histoires ne trompent pas ?', 'La question qui reste ouverte'),
  ]],
  ],
