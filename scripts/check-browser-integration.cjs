@@ -101,11 +101,11 @@ async function journeys(page,name,width){
   await box.locator('[data-model] .cm-bar').first().waitFor();assert.equal(await box.locator('[data-model] .cm-plain:visible').count(),await box.locator('.ecrire-copy').count());
   for(const m of await box.locator('[data-model] .cm-mode[data-mode="f"]').all())await m.click();assert(await box.locator('[data-model] .c20-f, [data-model] .ecrire-annotation').first().isVisible());
   for(const m of await box.locator('[data-model] .cm-mode[data-mode="e"]').all())await m.click();
-  await box.locator('[data-restart]').click();assert.equal(await first.inputValue(),draft,'Recommencer ne doit pas effacer');
+  if(await box.locator('#onglet-entrainement').count())await box.locator('#onglet-entrainement').click();await box.locator('[data-restart]').click();assert.equal(await first.inputValue(),draft,'Recommencer ne doit pas effacer');
  }
  if(await boxes.count()){
   const saved=await boxes.first().locator('[data-panel="1"] [data-draft]').first().inputValue();await page.reload();assert.equal(await page.locator('.ecrire [data-parcours]').first().locator('[data-panel="1"] [data-draft]').first().inputValue(),saved);
-  const box=page.locator('.ecrire [data-parcours]').first();page.once('dialog',d=>d.accept());await box.locator('[data-erase]').click();assert.equal(await box.locator('[data-draft]').first().inputValue(),'');
+  const box=page.locator('.ecrire [data-parcours]').first();if(await box.locator('#onglet-entrainement').count())await box.locator('#onglet-entrainement').click();page.once('dialog',d=>d.accept());await box.locator('[data-erase]').click();assert.equal(await box.locator('[data-draft]').first().inputValue(),'');
  }
  if(name==='philosophie-exemples.html'){
   const subject=await page.locator('#ex-sujet option').evaluateAll(es=>es.find(e=>e.textContent.includes('convaincre')).value);await page.selectOption('#ex-sujet',subject);
