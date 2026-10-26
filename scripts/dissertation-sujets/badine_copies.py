@@ -69,7 +69,7 @@ PAROLE = dict(
   ('Le proverbe dramatique donne au spectateur ce que les répliques cachent : le monologue, l’aparté et la didascalie font entendre, dans le jeu, l’aveu qu’il dissimule.', 'Réponse III : la réponse à la problématique'),
   ('Le monologue livre la contradiction que le dialogue masque.', A),
   ('Seul, Perdican commence : « Je voudrais bien savoir si je suis amoureux », puis affirme « je l’aime, cela est sûr », avant de conclure « il est clair que je ne l’aime pas ».', P),
-  ('Les deux certitudes contraires, dites à personne, font entendre au spectateur la sincérité que Perdican refuse à Camille : le théâtre surprend l’aveu avant le personnage.', C),
+  ('L’antithèse des deux certitudes, dites à personne, fait entendre au spectateur la sincérité que Perdican refuse à Camille : le théâtre surprend l’aveu avant le personnage.', C),
  ]],
  [None, [
   ('L’aparté fait du spectateur le seul témoin de la vérité.', A),

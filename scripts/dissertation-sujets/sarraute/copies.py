@@ -34,7 +34,7 @@ COPIES["jeu"] = dict(
  (None,[
   ('La partie se donne même des arbitres.','Argument'),
   ('H. 2 fait entrer des voisins, « de ceux qu’on choisit pour les jurys », pour leur exposer « un différend ».','Le passage qui prouve'),
-  ('Faire juger la dispute par des témoins, c’est la traiter comme un match qu’on peut gagner.','Ce que la citation montre'),
+  ('La périphrase « de ceux qu’on choisit pour les jurys » fait des voisins un tribunal : la dispute devient un match qu’on peut gagner devant arbitres.','Ce que la citation montre'),
   ('Or ces coups ne restent pas des coups de jeu : à la Barre des Écrins, une remarque sur les « jolies cartes postales » a suffi, et H. 2 l’avoue : « J’ai eu envie de te tuer. »','Ce que la partie n’explique pas encore'),
  ]),
  (None,[("Si un mot peut donner envie de tuer, qu’est-ce qui se joue vraiment dans ce jeu ?","Transition : la question ouverte")]),

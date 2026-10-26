@@ -13,7 +13,7 @@ PLAISIRS = dict(
  preuve=('« Le principal théâtre de mes exploits devait être l’hôtel de Transylvanie »', 1),
  why=[('Un vrai problème', 'Le sujet suggère que le roman séduit par ses plaisirs défendus (X) ; ses pages les plus fortes racontent pourtant leur prix (Y). La problématique garde les deux.'),
       ('Un plan sur mesure', '« Tout » commande le plan : les plaisirs qui séduisent, le prix qui les suit, puis la voix qui revit et juge à la fois.'),
-      ('Des preuves analysées', 'Le souper de joie, les « exploits » du tricheur, la fidélité « du cœur », la prolepse de Passy, l’irréel du passé, la fosse, l’adresse à l’auditeur, la malédiction de Tiberge relue.')],
+      ('Des preuves analysées', 'Le souper de joie, les « exploits » du tricheur, la fidélité « du cœur », l’annonce de Passy, l’irréel du passé, la fosse, l’adresse à l’auditeur, la malédiction de Tiberge relue.')],
  blocks=[
  ['Introduction', [
   (f'« Puissent vos criminels plaisirs s’évanouir comme une ombre ! » : dans {M}, c’est Tiberge, l’ami vertueux de Des Grieux, qui nomme ainsi la vie que le roman raconte, au moment où il renonce à le sauver.', 'Accroche : une réplique qui contient déjà le problème'),
@@ -48,7 +48,7 @@ PLAISIRS = dict(
   ('L’intérêt tient aussi, et peut-être surtout, à la chute que ces plaisirs préparent.', 'Réponse II'),
   ('Chaque bonheur annonce sa catastrophe.', A),
   ('Au cœur de la vie heureuse de Chaillot, Des Grieux prévient qu’un malheur se préparait, « si funeste qu’il m’a réduit à l’état où vous m’avez vu à Passy ».', P),
-  ('La prolepse fait surgir le présent misérable du narrateur au milieu de la joie : le lecteur goûte le plaisir en sachant déjà ce qu’il coûtera.', C),
+  ('L’annonce de ce qui suivra fait surgir le présent misérable du narrateur au milieu de la joie : le lecteur goûte le plaisir en sachant déjà ce qu’il coûtera.', C),
  ]],
  [None, [
   ('La passion se raconte comme une perte.', A),
@@ -58,7 +58,7 @@ PLAISIRS = dict(
  [None, [
   ('La dernière scène ne garde rien des plaisirs.', A),
   ('Après avoir déposé Manon dans la fosse qu’il a creusée, Des Grieux raconte : « Je m’assis encore près d’elle ; je la considérai longtemps ; je ne pouvais me résoudre à fermer sa fosse. »', P),
-  ('Les trois propositions juxtaposées ralentissent le récit jusqu’à l’immobilité : le roman s’achève sur une douleur que rien ne distrait.', C),
+  ('Les points-virgules juxtaposent trois propositions et ralentissent le récit jusqu’à l’immobilité : le roman s’achève sur une douleur que rien ne distrait.', C),
   ('Mais c’est la même voix qui racontait les soupers et qui raconte la fosse.', 'Ce que la partie n’explique pas encore'),
  ]],
  [None, [
@@ -74,7 +74,7 @@ PLAISIRS = dict(
  [None, [
   ('Il raconte pour un auditeur qu’il veut convaincre.', A),
   ('Il prévient l’homme de qualité qui l’écoute : « vous aurez peine à croire mon récit fidèle ».', P),
-  ('L’adresse fait du récit un plaidoyer : chaque plaisir est raconté devant un juge, et le lecteur prend sa place.', C),
+  ('L’adresse directe à l’auditeur, au « vous », fait du récit un plaidoyer : chaque plaisir est raconté devant un juge, et le lecteur prend sa place.', C),
  ]],
  [None, [
   ('L’expression du sujet se relit alors autrement.', A),

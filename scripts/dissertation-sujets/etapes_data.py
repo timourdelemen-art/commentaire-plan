@@ -43,8 +43,8 @@ E["ponge-observateur"] = dict(
        ("I. La nature observée / II. La guerre absente / III. L’écriture du carnet","thematique"),
        ("I. Les premiers textes / II. Le Carnet du bois de pins / III. La Mounine","ordre")],
  analyse=[("Ponge dit qu’il ne veut pas raconter ni décrire, mais conquérir le bois de pins.","paraphrase"),
-          ("La phrase contient une énumération de trois noms et une opposition introduite par « mais ».","etiquette"),
-          ("L’énumération puis l’opposition donnent toute leur force au dernier mot, « conquête ».","general")],
+          ("La phrase contient une accumulation de trois noms et une opposition introduite par « mais ».","etiquette"),
+          ("L’accumulation puis l’opposition donnent toute leur force au dernier mot, « conquête ».","general")],
 )
 E["ponge-texte-lui-meme"] = dict(
  p1=[("Le recueil commente ses brouillons, ses variantes et le nombre de ses pages.","redit"),
@@ -253,7 +253,7 @@ OK = {
    "L’infinitif fait de la phrase une loi : ce que Ponge redoute, c’est justement la vision commune."),
  "ponge-observateur": ("Ce carnet tenu en 1940 écarte presque toute la guerre, et cherche les mots plus qu’il ne regarde.",
    "I. Le livre a la forme d’un carnet / II. Mais l’observateur veut conquérir / III. Le carnet rend le monde aux hommes",
-   "L’énumération écarte trois façons d’observer et finit sur une image militaire : l’observateur conquiert."),
+   "L’accumulation écarte trois façons d’observer et finit sur une image militaire : l’observateur conquiert."),
  "ponge-texte-lui-meme": ("Chaque texte porte le nom d’une chose, la guêpe, l’œillet, le mimosa, et ne cesse d’y revenir.",
    "I. Le texte parle de lui-même / II. Mais l’objet commande ce commentaire / III. Parler de soi devient une méthode",
    "Le jeu sur les syllabes dit aussi la plante qui se contracte : parler des mots, c’est connaître la fleur."),
@@ -309,7 +309,7 @@ LONG = {
    general="L’infinitif donne à la phrase la force d’une règle que l’écrivain se fixe à lui-même, ce qui la rend solennelle et très frappante."),
  "ponge-observateur": dict(theme="Le recueil décrit des insectes, des fleurs, des arbres et des paysages de Provence, avec beaucoup de précision et de détails.",
    dialectique="I. Le livre est bien le carnet d’un observateur attentif / II. Il ne l’est pas, c’est une œuvre poétique / III. Il est un peu les deux",
-   general="L’énumération puis l’opposition donnent toute leur force au dernier mot, « conquête », qui frappe le lecteur par sa violence inattendue."),
+   general="L’accumulation puis l’opposition donnent toute leur force au dernier mot, « conquête », qui frappe le lecteur par sa violence inattendue."),
  "ponge-texte-lui-meme": dict(theme="Ponge emploie beaucoup de jeux de mots et consulte souvent le dictionnaire, dont il recopie les définitions dans ses textes.",
    dialectique="I. Le texte parle surtout de lui-même et de ses brouillons / II. Il parle surtout des choses / III. Il parle à la fois de lui et des choses",
    general="Le jeu sur les syllabes amuse le lecteur et montre l’attention que Ponge porte aux mots, à leurs sons et à leurs ressemblances cachées."),
@@ -521,7 +521,7 @@ E["le-menteur-histoires"] = dict(
 OK.update({
  "le-menteur": ("Ses mensonges le dépassent : il se trompe de nom, s’embrouille, et n’épouse pas celle qu’il courtisait.",
    "I. Dorante maîtrise ses récits / II. Mais leurs suites lui échappent / III. La comédie reprend la maîtrise perdue",
-   "Même exacte, la parole de Dorante ne vaut plus rien : le mensonge a usé jusqu’à sa vérité."),
+   "La rime « dit » / « crédit » lie la perte de confiance à la parole : même exacte, elle ne vaut plus rien."),
  "le-menteur-histoires": ("Ces histoires agissent : elles rendent un ami jaloux jusqu’au duel et ridiculisent un père.",
    "I. Dorante ment en conteur / II. Mais ses contes agissent comme des actes / III. La comédie fait de ce pouvoir son spectacle",
    "Le jaloux ne vérifie plus rien : le conte de Dorante est devenu pour lui un fait, et le mène au duel."),

@@ -30,7 +30,7 @@ COPIE = dict(
  [None, [
   ('Il ment aussi sans rien chercher d’autre que ce plaisir.', A),
   ('Il explique à Cliton qu’il aime braver les « conteurs de nouvelles » : il sert à chacun « un conte imaginaire, / Qui l’étonne lui-même, et le force à se taire ».', P),
-  ('Le mensonge devient une joute de récits : Dorante ne gagne rien, sinon d’avoir la meilleure histoire.', C),
+  ('Les verbes « étonne » et « force à se taire » font du mensonge une joute de récits : Dorante ne gagne rien, sinon d’avoir la meilleure histoire.', C),
  ]],
  [None, [
   ('Son valet lui-même le reçoit comme un auteur.', A),
@@ -46,12 +46,12 @@ COPIE = dict(
   ('Mentir, c’est alors agir : chaque histoire déplace les autres personnages, au point d’engager leur vie et leur honneur.', 'Réponse II'),
   ('Une histoire suffit à déclencher une querelle.', A),
   ('Quand Philiste doute du récit, Alcippe tranche : « Le lieu s’accorde, et l’heure ; et le reste n’est rien. »', P),
-  ('Pour le jaloux, le conte est devenu un fait : il provoque Dorante en duel, et seule l’arrivée de Philiste sépare les deux amis.', C),
+  ('La négation « le reste n’est rien » balaie le doute : pour le jaloux, le conte est devenu un fait, qui le mène jusqu’au duel.', C),
  ]],
  [None, [
   ('Une histoire change aussi la décision d’un père.', A),
   ('Pour échapper au mariage que Géronte a conclu avec Clarice, Dorante avoue un mariage inventé : « Je suis donc marié, puisqu’il faut que j’achève. »', P),
-  ('Le vers ne raconte pas, il agit : ému, Géronte pardonne, puis annonce : « Je vais me dégager du père de Clarice. »', C),
+  ('Le présent et le connecteur « donc » donnent à l’aveu inventé la force d’un fait accompli : ému, Géronte pardonne, puis annonce : « Je vais me dégager du père de Clarice. »', C),
  ]],
  [None, [
   ('Le conte finit par blesser celui qui l’a cru.', A),
@@ -67,17 +67,17 @@ COPIE = dict(
   ('Mentir n’est pas seulement raconter, mais raconter est l’art même de cette comédie d’intrigue : la pièce reprend à son compte le pouvoir du conteur.', 'Réponse III : la réponse à la problématique'),
   ('Le récit inventé devient un morceau de théâtre.', A),
   ('Pour son père, Dorante joue toute une nuit d’aventures, pistolet, épée rompue et barricade : « Bancs, tables, coffres, lits, et jusqu’aux escabelles ».', P),
-  ('L’énumération précipite l’action comme un coup de théâtre : Dorante ne ment plus en phrases, il donne une comédie entière à un père devenu son public.', C),
+  ('L’accumulation précipite l’action comme un coup de théâtre : Dorante ne ment plus en phrases, il donne une comédie entière à un père devenu son public.', C),
  ]],
  [None, [
   ('Le menteur décrit lui-même son art comme celui d’un comédien.', A),
   ('Il le dit à Cliton : « Il y faut promptitude, esprit, mémoire, soins, / Ne se brouiller jamais, et rougir encore moins. »', P),
-  ('Ces qualités sont celles de l’acteur sur scène : savoir sa réplique, improviser, ne jamais se troubler ; mentir et jouer demandent le même sang-froid.', C),
+  ('L’accumulation des qualités requises dessine un acteur sur scène : savoir sa réplique, improviser, ne jamais se troubler ; mentir et jouer demandent le même sang-froid.', C),
  ]],
  [None, [
   ('Le spectateur, lui, entend les contes autrement que les personnages.', A),
   ('Pendant le récit de la fête sur l’eau, que la première partie lisait comme un plaisir de conteur, Cliton glisse à son maître : « J’enrage de me taire et d’entendre mentir ! »', P),
-  ('Cette réplique crée une double lecture : Alcippe reçoit un fait, le public goûte un conte dont il connaît le secret ; la comédie partage le mensonge avec la salle au lieu de l’y exercer.', C),
+  ('La double énonciation crée une double lecture : Alcippe reçoit un fait, le public goûte un conte dont il connaît le secret ; la comédie partage le mensonge avec la salle au lieu de l’y exercer.', C),
  ]],
  ['Conclusion', [
   (f'Mentir, dans {M}, n’est donc pas seulement raconter des histoires.', 'Conclusion : la réponse'),

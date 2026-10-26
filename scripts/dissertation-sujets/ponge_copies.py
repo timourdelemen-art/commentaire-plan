@@ -33,12 +33,12 @@ C["ponge"] = dict(
   ("Ponge travaille d’abord en mécanicien : il a ses outils, ses pièces et ses montages.","Réponse I : la part de vérité du sujet"),
   ("Ses outils sont nombreux.","Argument"),
   ("Dans la préface de « L’Œillet », il énumère ce à quoi l’on peut faire appel : « Au dictionnaire, à l’encyclopédie, à l’imagination, au rêve, au télescope », et jusqu’« au calembour, à la rime ».","Le passage qui prouve"),
-  ("L’énumération met sur le même plan instruments de science et jeux de langue : tout ce qui sert est bon, comme dans une boîte à outils.","Ce que le passage montre"),
+  ("L’accumulation met sur le même plan instruments de science et jeux de langue : tout ce qui sert est bon, comme dans une boîte à outils.","Ce que le passage montre"),
  ]),
  (None,[
   ("Chaque mot est ensuite vérifié, comme une pièce qu’on essaie.","Argument"),
   ("Dans « Le Mimosa », Ponge recopie le Littré, retient que « mimeux » « se dit des plantes qui, lorsqu’on les touche, se contractent », puis note : « Floribond : ce mot ne figure pas au Littré. Il figurera donc dans les éditions futures. »","Le passage qui prouve"),
-  ("Le dictionnaire sert de banc d’essai : quand la pièce existe, Ponge la contrôle ; quand elle manque, il la fabrique, avec l’assurance tranquille d’un artisan.","Ce que le passage montre"),
+  ("Le futur « Il figurera » change un manque du dictionnaire en promesse : quand la pièce existe, Ponge la contrôle ; quand elle manque, il la fabrique, avec l’assurance tranquille d’un artisan.","Ce que le passage montre"),
  ]),
  (None,[
   ("Le poème peut même se monter en série.","Argument"),
@@ -206,7 +206,7 @@ C["ponge-observateur"] = dict(
   ("Il laisse de côté une grande part du monde qui l’entoure, parce qu’il ne veut pas observer, mais conquérir.","Réponse II"),
   ("L’Histoire est volontairement laissée hors du carnet.","Argument"),
   ("Dans l’appendice du Carnet, il énumère ce qu’il aurait à écrire « si j’étais un simple écrivain » : l’exode, les gens, « mes réflexions sur la situation politique de la France et du monde » ; puis il revient « d’instinct » au « bois de pins ».","Le passage qui prouve"),
-  ("L’énumération de ce qu’il n’écrira pas fait sentir, par contraste, la place de la guerre ; mais le choix final dit que le sujet essentiel est ailleurs.","Ce que le passage montre"),
+  ("L’accumulation de ce qu’il n’écrira pas fait sentir, par contraste, la place de la guerre ; mais le choix final dit que le sujet essentiel est ailleurs.","Ce que le passage montre"),
  ]),
  (None,[
   ("Ce que Ponge cherche n’est pas une description.","Argument"),
@@ -433,7 +433,7 @@ C["ponge-lecteur"] = dict(
  (None,[
   ("Le livre est même pensé pour le plaisir de lire.","Argument"),
   ("En 1940, Ponge se fixe un titre possible : « « Ce que j’aurais envie de lire » : tel pourrait être le titre, telle la définition de ce que j’écrirai ».","Le passage qui prouve"),
-  ("Le poète se met à la place du lecteur : son projet part du désir de celui qui ouvrira le livre.","Ce que le passage montre"),
+  ("Le conditionnel « j’aurais envie » met le poète à la place du lecteur : son projet part du désir de celui qui ouvrira le livre.","Ce que le passage montre"),
  ]),
  (None,[("Mais où ce guide mène-t-il, s’il cherche encore son chemin ?","Transition : la question ouverte")]),
  ("Deuxième partie",[
@@ -450,7 +450,7 @@ C["ponge-lecteur"] = dict(
  (None,[
   ("La récompense n’arrive pas toujours.","Argument"),
   ("« La Mounine » se clôt sur un poème promis par le titre, « mais que passion trop vive, infirmité, scrupules nous n’avons pu encore nous offrir ».","Le passage qui prouve"),
-  ("L’énumération des empêchements et l’adverbe « encore » laissent le lecteur au bord du bosquet : le guide n’a pas tenu sa promesse.","Ce que le passage montre"),
+  ("L’accumulation des empêchements et l’adverbe « encore » laissent le lecteur au bord du bosquet : le guide n’a pas tenu sa promesse.","Ce que le passage montre"),
  ]),
  (None,[("Si la récompense se dérobe, vers quoi le lecteur est-il vraiment conduit ?","Transition : la question ouverte")]),
  ("Troisième partie",[
@@ -528,7 +528,7 @@ C["ponge-ecriture-travail"] = dict(
  (None,[
   ("Le travail apprend d’ailleurs quelque chose sur le monde.","Argument"),
   ("Au terme des « quinze pages », Ponge retient une seule découverte : « du soleil à travers le bois de pins il ne reste que de la pénombre des rubans obliques, tendus et des mouches sans sommeil ».","Le passage qui prouve"),
-  ("Le bilan du travail est une vérité sur la lumière : l’écriture s’est regardée, mais pour voir enfin le bois.","Ce que le passage montre"),
+  ("Les adjectifs « obliques, tendus » et l’image des « mouches sans sommeil » condensent quinze pages en une vision : l’écriture s’est regardée, mais pour voir enfin le bois.","Ce que le passage montre"),
  ]),
  (None,[("Si ce regard sur soi sert la chose, pourquoi Ponge en fait-il le texte même de son livre ?","Transition : la question ouverte")]),
  ("Troisième partie",[

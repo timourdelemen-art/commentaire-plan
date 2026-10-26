@@ -41,7 +41,8 @@ C = {'cahier-de-douai': {'titre': '«\u202fEst-ce seulement par la révolte que 
                                  [('Le pouvoir politique subit le même sort.', 'Argument'),
                                   ('Dans «\u202fRages de Césars\u202f», l’Empereur s’était promis\u202f: «\u202fJe vais souffler la Liberté / Bien délicatement, ainsi qu’une bougie\u202f!\u202f»',
                                    'Le poème qui prouve'),
-                                  ('Le poème lui rend la parole pour montrer qu’elle a échoué\u202f: la Liberté qu’il voulait éteindre est celle que le poète prend en se moquant de lui.',
+                                  ('Le discours direct rend la parole à l’Empereur pour montrer qu’elle a échoué, et la comparaison « ainsi qu’une bougie » rapetisse la Liberté qu’il voulait '
+                                   'éteindre : c’est elle que le poète prend en se moquant de lui.',
                                    'Ce que la citation montre')]],
                                 [None,
                                  [('La révolte vise aussi l’ordre bourgeois de Charleville.', 'Argument'),
@@ -71,7 +72,8 @@ C = {'cahier-de-douai': {'titre': '«\u202fEst-ce seulement par la révolte que 
                                   ('«\u202fDepuis huit jours, j’avais déchiré mes bottines / Aux cailloux des chemins\u202f»\u202f: le passé raconte une fugue accomplie, puis, à l’auberge, «\u202f'
                                    'j’allongeai les jambes\u202f», et «\u202fce fut adorable\u202f».',
                                    'Le poème qui prouve'),
-                                  ('Les bottines déchirées sont le prix de la liberté, et ce prix achète un plaisir simple, des tartines, du jambon, une chope\u202f: s’émanciper, ici, c’est jouir.',
+                                  ('Le passage du plus-que-parfait « j’avais déchiré » au passé simple « ce fut adorable » fait des bottines déchirées le prix d’un plaisir simple, tartines, jambon, '
+                                   'chope : s’émanciper, ici, c’est jouir.',
                                    'Ce que la citation montre')]],
                                 [None,
                                  [('La fugue fait même du ciel une maison.', 'Argument'),
@@ -195,8 +197,8 @@ C = {'cahier-de-douai': {'titre': '«\u202fEst-ce seulement par la révolte que 
                                               [None,
                                                [('Le même renversement invente une beauté plus heureuse.', 'Argument'),
                                                 ('Dans « Ma Bohème », le poète tire, « Comme des lyres », « les élastiques / De mes souliers blessés ».', 'Le poème qui prouve'),
-                                                ('La lyre, emblème de la poésie noble, devient un élastique de soulier : écrire contre la poésie apprise, c’est inventer une musique du marcheur, '
-                                                 'joyeuse et neuve.',
+                                                ('La comparaison « Comme des lyres » fait de l’emblème de la poésie noble un élastique de soulier : écrire contre la poésie apprise, c’est inventer '
+                                                 'une musique du marcheur, joyeuse et neuve.',
                                                  'Ce que la citation montre')]],
                                               ['Conclusion',
                                                [('Le propos du critique définit donc bien la démarche du <em>Cahier de Douai</em>, à condition de ne pas séparer le « pour » et le « contre ».',
