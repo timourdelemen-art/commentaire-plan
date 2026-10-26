@@ -12,6 +12,7 @@ def check(mod):
     texte = n(' '.join(x['t'] for x in T[S['annale']]['items']))
     texte = re.sub(r'(?<=\w)\d', '', texte)  # appels de note
     texte += ' ' + n(M.INTERPRETATION['question'] + ' ' + M.ESSAI['question'])
+    texte += ' ' + n(' '.join(getattr(M, 'TITRES', [])))  # titres d’œuvres citées, vérifiés
     ok = True; mots = []
     for R in (M.INTERPRETATION, M.ESSAI):
         w = 0
