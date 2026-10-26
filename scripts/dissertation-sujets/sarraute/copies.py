@@ -375,3 +375,18 @@ COPIES["agressivite"] = dict(
   ("Reste une question : le spectateur, qui saisit ce que les jurés ne voient pas, n’est-il pas tenté à son tour de prendre parti ?","La question qui reste ouverte"),
  ]),
  ])
+
+# Pour les pages à onglets (gen_pages_sujet.py) : les mots du sujet expliqués, et le passage
+# dont l’analyse sert à l’étape « La preuve » (premiers mots, cherchés dans la copie).
+_ETAPES = {
+ "jeu": (("« un jeu dans lequel tous les coups sont permis »", "Une partie entre joueurs, où aucune règle ne retient les attaques : le dialogue serait un affrontement sans limite, où chacun cherche à l’emporter."),
+         ("« Cette fois-ci, celui qui a placé le petit bout de lard, c’est toi. »", 1)),
+ "spectaculaire": (("« spectaculaire »", "Est spectaculaire ce qui se donne à voir et frappe le regard par ses éclats : des cris, des gestes, des coups de théâtre."),
+         ("« soulevé par la peau du cou »", 1)),
+ "theatrale": (("« profondément théâtrale »", "« Théâtrale » désigne ce qui appartient au théâtre, mais aussi ce qui est joué, comme une pose ; « profondément » demande si la dispute l’est jusque dans ce qui la fait naître."),
+         ("« l’image de la paternité comblée »", 2)),
+ "non-dits": (("« ce qui se tisse entre les mots »", "Ce qui n’est pas dit mais passe quand même : un ton, un silence, un sous-entendu, que chacun perçoit sans pouvoir le citer."),
+         ("« Tu l’as touché. Voilà le point. »", 2)),
+}
+for _k, (_mot, _preuve) in _ETAPES.items():
+    COPIES[_k].update(mot=_mot, preuve=_preuve)

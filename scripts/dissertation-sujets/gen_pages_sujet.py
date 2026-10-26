@@ -13,6 +13,9 @@ OEUVRES = {
  'dorion': dict(file='dorion_copies.py', titre='<em>Mes forêts</em>', court='Mes forêts', auteur='Hélène Dorion',
    parcours='« la poésie, la nature, l’intime »', ancre='dorion',
    note='Chaque citation a été relue mot pour mot dans l’édition Bruno Doucey de <em>Mes forêts</em> (2021). La barre oblique sépare les vers ; les poèmes sont désignés par leur titre, ou par leurs premiers mots quand ils n’en ont pas.'),
+ 'sarraute': dict(file='sarraute/copies.py', var='COPIES', prefixe='pour-un-oui-ou-pour-un-non-', racine='/', titre='<em>Pour un oui ou pour un non</em>', court='Pour un oui ou pour un non', auteur='Nathalie Sarraute',
+   parcours='« théâtre et dispute »', ancre='sarraute',
+   note='Chaque réplique citée a été relue mot pour mot dans l’édition Gallimard du <em>Théâtre</em> de Nathalie Sarraute. La pièce n’a ni actes ni scènes : les passages sont situés par leur moment dans le dialogue. Les personnages s’y nomment H. 1, H. 2, H. 3 et F.'),
 }
 WHY = {
  'p1': {'ok': 'Cette remarque s’appuie sur l’œuvre et résiste à la lecture du sujet : c’est d’elle que naît le problème.',
@@ -56,7 +59,7 @@ def norm(s):
 
 def info(k, c):
     B = c['blocks']; intro = B[0][1]; rows = [(t, l) for h, b in B for t, l in b]
-    reps = [b[0][0] for h, b in B if h in ('Première partie', 'Deuxième partie', 'Troisième partie')]
+    reps = [next(t for t, l in b if l.startswith('Réponse')) for h, b in B if h in ('Première partie', 'Deuxième partie', 'Troisième partie')]
     trans = [b[0][0] for h, b in B if len(b) == 1 and b[0][1].startswith('Transition')]
     mq = re.search(r'«(.*)»', c['preuve'][0]); q = norm(mq.group(1) if mq else c['preuve'][0]); an = passage = None
     for i, (t, l) in enumerate(rows):
@@ -124,7 +127,7 @@ def page(k, I, O, other, Ib):
     pdf = (f'<a class="official-link" href="{c["pdf"]}" rel="noopener">Le sujet officiel (PDF) →</a>' if c['pdf']
            else '<span class="micro">Libellé vérifié sur deux copies du sujet officiel.</span>')
     why = ''.join(f'<div><strong>{a}</strong><p>{b}</p></div>' for a, b in c['why'])
-    slug = f'bac-dissertation-copie-20-{k}.html'
+    slug = f'bac-dissertation-copie-20-{O.get("prefixe", "")}{k}.html'
     title = f"Dissertation sur {O['court']} ({O['auteur']}) : {plain(c['titre'])} — sujet, exercices, copie à 20"
     desc = f"Un vrai sujet du bac de français, quatre étapes d’entraînement au clic puis à l’écrit, et une copie à 20 : {esc(c['sujet'])}"
     return slug, ns, nw, f'''<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -158,15 +161,15 @@ def page(k, I, O, other, Ib):
 <div class="grid-3">
 {why}
 </div>
-<p><a class="official-link" href="bac-dissertation-sujets.html#{O['ancre']}">Tous les vrais sujets sur {O['titre']} →</a><br><a class="official-link" href="bac-dissertation.html#diss-probleme">Trouver le problème sur de vrais sujets, au clic →</a><br><a class="official-link" href="bac-dissertation-methode.html">La méthode complète de la dissertation →</a></p></section>
+<p><a class="official-link" href="{O.get("racine", "")}bac-dissertation-sujets.html#{O['ancre']}">Tous les vrais sujets sur {O['titre']} →</a><br><a class="official-link" href="{O.get("racine", "")}bac-dissertation.html#diss-probleme">Trouver le problème sur de vrais sujets, au clic →</a><br><a class="official-link" href="{O.get("racine", "")}bac-dissertation-methode.html">La méthode complète de la dissertation →</a></p></section>
 </div>
 
 </main><script src="onglets.js"></script><script src="etapes.js"></script><script src="modeles-redaction.js"></script><script src="site-nav.js"></script></body></html>
 '''
 
 for oe, O in OEUVRES.items():
-    C = load(O['file'])
-    keys = list(C)
+    C = load(O['file'], O.get('var', 'C'))
+    keys = [k for k in C if not C[k].get('hold')]
     I = {k: info(k, C[k]) for k in keys}
     for n, k in enumerate(keys):
         other = keys[(n + 1) % len(keys)]
