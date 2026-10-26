@@ -51,7 +51,7 @@ const html=`<!doctype html><html lang="fr"><head>
 <h1>Qu’est-ce qui<br>vous bloque ?</h1>
 <p class="lede">Chaque exercice dit d’où vous partez, ce que vous allez faire, et ce que vous aurez à la fin. Dix à vingt minutes, avec un corrigé.</p>
 ${nav}
-</div><aside class="side-note"><p><strong>Vous ne savez pas ce qui vous bloque ?</strong><br>Cinq questions, cinq minutes : <a href="philosophie-diagnostic.html">faire le diagnostic →</a></p><p><strong>Vous débutez ?</strong><br>Suivez plutôt <a href="philosophie.html#parcours">le parcours en cinq étapes →</a></p></aside></section>
+</div><aside class="side-note"><p><strong>Vous ne savez pas ce qui vous bloque ?</strong><br>Cinq questions, cinq minutes : <a href="philosophie-diagnostic.html">faire le diagnostic →</a></p><p><strong>Vous débutez ?</strong><br>Suivez plutôt <a href="philosophie-dissertation-parcours.html#parcours">le parcours en cinq étapes →</a></p></aside></section>
 
 ${sections}
 
@@ -74,19 +74,19 @@ for(const [page,n] of Object.entries(stepOf)){
   const f=path.join(ROOT,page); let s=fs.readFileSync(f,'utf8');
   s=s.replace(/<nav class="parcours-strip"[\s\S]*?<\/nav><!--\/parcours-strip-->\n?/,'');
   s=s.replace(/<nav class="parcours-navigation"[\s\S]*?<\/nav>(<!--\/parcours-navigation-->)?\n?/g,'');
-  const strip=`<nav class="parcours-strip"${n?` data-step="${n}"`:''} aria-label="Le parcours en cinq étapes"><a class="parcours-home" href="philosophie.html#parcours">Le parcours</a>${STEPS.map(([h,l],k)=>`<a href="${h}" data-n="${k+1}"${k+1===n?' aria-current="step"':''}><b>${k+1}</b><span>${l}</span></a>`).join('')}</nav><!--/parcours-strip-->\n`;
+  const strip=`<nav class="parcours-strip"${n?` data-step="${n}"`:''} aria-label="Le parcours en cinq étapes"><a class="parcours-home" href="philosophie-dissertation-parcours.html#parcours">Le parcours</a>${STEPS.map(([h,l],k)=>`<a href="${h}" data-n="${k+1}"${k+1===n?' aria-current="step"':''}><b>${k+1}</b><span>${l}</span></a>`).join('')}</nav><!--/parcours-strip-->\n`;
   const head=s.match(/<section class="pagehead[^"]*">/); if(!head) throw new Error('pagehead introuvable : '+page);
   const i=head.index;
   s=s.slice(0,i)+strip+s.slice(i);
   if(n && STEPS[n-1][0]===page){
     const prev=STEPS[n-2], next=STEPS[n];
-    const nav=`<nav class="parcours-navigation" aria-label="Se déplacer entre les étapes du parcours" style="${NAVSTYLE}"><a href="philosophie.html#parcours">Les cinq étapes</a>${prev?`<a href="${prev[0]}">← Étape ${n-1} : ${prev[1]}</a>`:''}<strong aria-current="step">Étape ${n} sur 5 : ${STEPS[n-1][1]}</strong>${next?`<a href="${next[0]}">Étape ${n+1} : ${next[1]} →</a>`:''}</nav><!--/parcours-navigation-->\n`;
+    const nav=`<nav class="parcours-navigation" aria-label="Se déplacer entre les étapes du parcours" style="${NAVSTYLE}"><a href="philosophie-dissertation-parcours.html#parcours">Les cinq étapes</a>${prev?`<a href="${prev[0]}">← Étape ${n-1} : ${prev[1]}</a>`:''}<strong aria-current="step">Étape ${n} sur 5 : ${STEPS[n-1][1]}</strong>${next?`<a href="${next[0]}">Étape ${n+1} : ${next[1]} →</a>`:''}</nav><!--/parcours-navigation-->\n`;
     const h=s.indexOf('</section>',s.search(/<section class="pagehead[^"]*">/))+'</section>'.length;
     s=s.slice(0,h)+'\n'+nav+s.slice(h);
   }
   if(!s.includes(SCRIPT)) s=s.replace('</main>','</main>'+SCRIPT);
   fs.writeFileSync(f,s);
 }
-{ const f=path.join(ROOT,'philosophie.html'); let s=fs.readFileSync(f,'utf8'); if(!s.includes(SCRIPT)){s=s.replace('</main>','</main>'+SCRIPT);fs.writeFileSync(f,s);} }
+{ const f=path.join(ROOT,'philosophie-dissertation-parcours.html'); let s=fs.readFileSync(f,'utf8'); if(!s.includes(SCRIPT)){s=s.replace('</main>','</main>'+SCRIPT);fs.writeFileSync(f,s);} }
 
 console.log(`Boussoles : ${injected} exercices ; page « Je bloque sur… » : ${GROUPS.length} difficultés.`);

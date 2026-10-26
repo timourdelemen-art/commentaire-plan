@@ -79,7 +79,7 @@ function staticHeader(file){
     "dissertation · explication",
     [
       [
-        "philosophie.html#dissertation",
+        "philosophie-dissertation-parcours.html",
         "Dissertation",
         "Trouver le problème, construire le plan et rédiger"
       ],

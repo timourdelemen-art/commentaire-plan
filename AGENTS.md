@@ -136,6 +136,7 @@ Format : date · ce qui s’est passé · la règle qui en découle. Proposez un
 - 2026-10-25 · Des copies littéraires à 20 n’avaient que deux sous-parties par partie, complétées par une phrase isolée « ce que la partie n’explique pas encore », et Dorion n’offrait pas la fonction des phrases sur toutes les copies. · Contrôler chaque copie dans le mode « copie entière » : treize paragraphes, dont trois par partie et deux transitions ; une limite se rédige à la fin d’une vraie sous-partie, jamais en paragraphe d’une phrase.
 - 2026-10-26 · La banque `philosophie-explication.html`, complétée à la main, perdait trois annales au déploiement, qui la régénère. · Une page produite par un générateur appelé dans `netlify.toml` se corrige dans ce générateur, jamais dans le HTML.
 - 2026-10-26 · Un script ponctuel a écrit une liste Python (`['<section…']`) dans trois pages du brevet, visible des élèves pendant des semaines · Après tout script qui écrit du HTML, relire le rendu de chaque page touchée (texte visible), pas seulement le code.
+- 2026-10-26 · Dans le menu Philosophie, « Dissertation » ouvrait l’accueil (avec le choix des deux épreuves), « Explication » sa propre page · Chaque entrée d’un menu ouvre la page de cette entrée, jamais un accueil qui repropose le choix ; les entrées sœurs d’un même menu mènent à des pages de même nature.
 
 ## 7. Décisions du propriétaire
 

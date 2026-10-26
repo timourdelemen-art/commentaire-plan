@@ -6,7 +6,7 @@ const path=require('node:path');
 const root=path.resolve(__dirname,'..');
 const failures=[];
 const read=p=>fs.readFileSync(path.join(root,p),'utf8').replace(/[\u00a0\u202f]/g,' ');
-const pages=['philosophie.html','philosophie-dissertation-entrainement.html','philosophie-troisieme-resolutions.html'];
+const pages=['philosophie.html','philosophie-dissertation-parcours.html','philosophie-dissertation-entrainement.html','philosophie-troisieme-resolutions.html'];
 for(const p of pages){
  const html=read(p);
  if(!/<header\b[^>]*data-seo-static-nav="1"/.test(html)) failures.push(p+': menu statique absent');
@@ -27,7 +27,7 @@ if(!training.includes('href="philosophie-troisieme-resolutions.html"')) failures
 const nav=read('site-nav.js');
 if(!nav.includes("'philosophie-troisieme-resolutions.html'")) failures.push('gamme III absente de la navigation JS');
 const progress=read('philosophie-parcours.js');
-if(/<input[^>]*type=["']checkbox["'][^>]*>/i.test(read('philosophie.html'))) failures.push('case de progression manuelle encore présente sur l’accueil');
+if(/<input[^>]*type=["']checkbox["'][^>]*>/i.test(read('philosophie-dissertation-parcours.html'))) failures.push('case de progression manuelle encore présente sur l’accueil');
 if(!progress.includes('parcours-done')) failures.push('suivi de progression sur les pages d’exercice absent');
 // Parcours en cinq gestes : mêmes pages, même ordre, mêmes libellés partout.
 const {PHILO_STEPS,PHILO_RESOURCES}=require('./philo-paths.js');
@@ -38,13 +38,15 @@ PHILO_STEPS.forEach(([file,label],k)=>{
  if(!strip.includes('data-step="'+n+'"')) failures.push(file+': bande du parcours absente ou mauvais numéro (attendu '+n+')');
  if(!new RegExp('href="'+file.replace(/\./g,'\\.')+'" data-n="'+n+'" aria-current="step"').test(strip)) failures.push(file+': étape courante non marquée');
  if(!html.includes('Étape '+n+' sur 5 : '+label)) failures.push(file+': navigation précédent/suivant absente');
- if(!read('philosophie.html').includes('href="'+file+'"')) failures.push('philosophie.html : étape inaccessible '+file);
+ if(!read('philosophie-dissertation-parcours.html').includes('href="'+file+'"')) failures.push('philosophie-dissertation-parcours.html : étape inaccessible '+file);
 });
 for(const [name,src] of [['site-nav.js',nav],['seo-build.js',seo]]){
  const menu=JSON.parse(src.match(/const navigation=(\[.*?\]);\nfunction navigationActive/s)[1]).find(p=>p[0]==='philosophie.html')[3];
- if(JSON.stringify(menu.map(p=>p.slice(0,2)))!==JSON.stringify([['philosophie.html#dissertation','Dissertation'],['philosophie-explication.html','Explication de texte']])) failures.push(name+': deux entrées attendues, dissertation et explication');
+ if(JSON.stringify(menu.map(p=>p.slice(0,2)))!==JSON.stringify([['philosophie-dissertation-parcours.html','Dissertation'],['philosophie-explication.html','Explication de texte']])) failures.push(name+': deux entrées attendues, dissertation et explication');
 }
 if(!read('philosophie.html').includes('href="philosophie-notions.html"')) failures.push('Les notions doivent rester accessibles');
+// L’accueil propose les deux épreuves ; chaque entrée du menu ouvre la page de son épreuve.
+for(const href of ['philosophie-dissertation-parcours.html','philosophie-explication.html']){ if(!read('philosophie.html').includes('<a href="'+href+'"><h3>')) failures.push('philosophie.html : porte absente vers '+href); }
 PHILO_RESOURCES.forEach(file=>{const html=read(file);if(/<nav class="parcours-strip"[^>]*data-step=/.test(html)) failures.push(file+': une ressource ne doit pas porter de numéro d’étape');});
 // Vocabulaire réservé aux documents internes (AGENTS.md § 2) : jamais sur une page élève de philosophie.
 for(const f of fs.readdirSync(root).filter(f=>/^philosophie.*\.html$/.test(f))){
