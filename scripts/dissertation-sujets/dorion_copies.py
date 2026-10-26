@@ -18,7 +18,7 @@ C["dorion"] = dict(
  mot=("« quelque chose à dire de l’humain »", "L’arbre parlerait de nous : de nos épreuves, de notre fragilité. Le verbe « marche vers » dit aussi que le poète va à sa rencontre."),
  preuve=("« il n’est rien d’autre que lui-même »", 1),
  why=[("Un vrai problème","L’arbre parle bien de l’humain ; mais Dorion le respecte aussi comme un être qui n’est que lui-même, et qui souffre de nous."),
-      ("Un plan sur mesure","L’arbre miroir de nos vies, puis l’arbre autre que nous, enfin le poème qui, en l’écoutant, fait de lui la mémoire de l’humanité."),
+      ("Un plan sur mesure","L’arbre miroir de nos vies, puis l’arbre autre que nous, enfin le poème qui, en lui passant la parole, fait de lui la mémoire de l’humanité."),
       ("Des preuves analysées","La chute « comme on tombe / parfois dans sa propre vie », le gémissement qui secoue nos solitudes, la « maigre cicatrice », « Avant l’horizon », l’arbre qui « nous dit » le temps.")],
  blocks=[
  ("Introduction",[
@@ -27,7 +27,7 @@ C["dorion"] = dict(
   ("On pourrait penser que la phrase éclaire tout le recueil : les arbres y portent nos blessures, nos souvenirs et nos questions.",INTRO[2]),
   ("Pourtant, Dorion écrit aussi de l’arbre qu’« il n’est rien d’autre que lui-même », et ses forêts abritent d’autres vies que la nôtre.",INTRO[3]),
   ("Dans "+E+", comment l’arbre peut-il dire quelque chose de l’humain sans cesser d’être lui-même ?",INTRO[4]),
-  ("L’arbre de Dorion parle bien de nos vies ; mais il reste un être autre, blessé par nous, et c’est en l’écoutant comme tel que le poème fait de lui la mémoire de l’humanité.",INTRO[5]),
+  ("L’arbre de Dorion parle bien de nos vies ; mais il reste un être autre, blessé par nous, et c’est en lui passant la parole que le poème fait de lui la mémoire de l’humanité.",INTRO[5]),
  ]),
  ("Première partie",[("L’arbre parle d’abord de l’humain comme un miroir de nos vies.","Réponse I : la part de vérité de la citation")]+
   sp("Sa chute ressemble à nos chutes.","Dans « L’arbre », une pluie de tiges « tombe comme on tombe / parfois dans sa propre vie ».","La comparaison glisse de l’arbre à l’existence humaine : le verbe « tomber » passe du bois à la personne sans changer de sens.")),
@@ -38,14 +38,14 @@ C["dorion"] = dict(
   sp("Dorion le regarde pour lui-même.","Dans « Je m’incline souvent », elle s’arrête devant « la maigre cicatrice de l’écorce » et affirme : « il n’est rien d’autre que lui-même ».","La restriction « rien d’autre que » refuse toute projection : l’arbre a sa propre souffrance, et la poète s’incline devant elle sans se l’approprier.")),
  (None, sp("La forêt abrite d’autres vies que la nôtre.","Un poème final de section énumère : « elles sont coyote ours noir orignal / sittelle geai bleu mésange ».","L’énumération sans virgules fait défiler les bêtes des forêts du Québec : la forêt est un monde peuplé, non un décor pour nos états d’âme.")),
  (None, sp("Cet autre souffre de nous.","Dans « L’onde du chaos », « les oiseaux demandent refuge / à la terre ravagée ».","Le participe « ravagée » désigne une destruction humaine : l’arbre dit l’humain, mais comme une victime parle de son agresseur.")),
- (None,[("Si l’arbre est un autre qui souffre de nous, comment la poète peut-elle entendre ce qu’il a à dire ?",T)]),
- ("Troisième partie",[("En l’écoutant, le poème fait de l’arbre la mémoire de l’humanité : marcher vers lui, c’est apprendre notre histoire.","Réponse III : la réponse à la problématique")]+
+ (None,[("Si l’arbre est un autre qui souffre de nous, comment le poème peut-il dire ce qu’il a à dire ?",T)]),
+ ("Troisième partie",[("Il le dit par sa forme même : en se faisant écoute, puis en passant la parole à l’arbre, le poème fait de lui la mémoire de l’humanité.","Réponse III : la réponse à la problématique")]+
   sp("Le poème est d’abord écoute.","Dans « Je m’incline souvent », la poète s’incline « encore / pour écouter son voyage immobile ».","L’oxymore « voyage immobile » dit ce qu’entend celle qui se tait : la longue histoire d’un être qui ne bouge pas.")),
  (None, sp("Les arbres gardent l’histoire humaine.","« Avant l’horizon » commence ainsi : « La terre a commencé à recueillir nos histoires / dans les arbres et sous la couche d’humus ».","Le verbe « recueillir » fait de l’arbre une archive : ce qu’il a à dire de l’humain, c’est notre passé déposé en lui.")),
  (None, sp("La parole de l’arbre devient enfin celle du poème.","« le temps jamais ne s’arrête / nous dit l’arbre / nous dit la forêt / et sur la branche du présent / un poème murmure ».","La reprise de « nous dit » donne la parole à l’arbre, puis la passe au poème posé sur sa branche : l’arbre parle, et le poème transmet.")),
  ("Conclusion",[
   ("La citation éclaire donc "+E+", à condition de ne pas faire de l’arbre un simple miroir : il a quelque chose à dire de l’humain parce qu’il en est distinct.","Conclusion : la réponse"),
-  ("L’arbre parle de nous comme un miroir ; il le fait mieux encore parce qu’il est autre que nous ; et le poème, en l’écoutant, en fait la mémoire de notre humanité.","Ce que le raisonnement a établi"),
+  ("L’arbre parle de nous comme un miroir ; il le fait mieux encore parce qu’il est autre que nous ; et le poème, en lui passant la parole, en fait la mémoire de notre humanité.","Ce que le raisonnement a établi"),
   ("Marcher vers l’arbre, chez Dorion, c’est s’incliner devant un autre vivant, et y entendre, par le poème, l’histoire de notre humanité.","Le lien avec le parcours"),
   ("Reste une question : un poème qui écoute l’arbre peut-il lui rendre la parole sans la lui prendre ?","La question qui reste ouverte"),
  ]),
@@ -228,7 +228,7 @@ C["dorion-metaphore-interiorite"] = dict(
  mot=("« qu’une métaphore de l’intériorité »", "Une métaphore désigne une chose par une autre ; si la nature n’était qu’une métaphore, elle ne servirait qu’à figurer la vie intérieure de la poète, sans exister pour elle-même."),
  preuve=("« la forêt défriche / en moi tant d’années »", 3),
  why=[("Un vrai problème","La nature figure bien la vie intérieure ; mais elle existe aussi pour elle-même, réelle, peuplée et menacée."),
-      ("Un plan sur mesure","La forêt intérieure, puis la forêt réelle, enfin un échange où la nature transforme l’intériorité au lieu de la représenter."),
+      ("Un plan sur mesure","La forêt intérieure, puis la forêt réelle, enfin une écriture qui renverse la métaphore : la nature transforme l’intériorité au lieu de la représenter."),
       ("Des preuves analysées","La clairière « au-dedans de soi », « ce peu d’écorce qu’est ma vie », les bêtes nommées, la terre ravagée, la pluie qui n’est plus « à l’intérieur ».")],
  blocks=[
  ("Introduction",[
@@ -237,7 +237,7 @@ C["dorion-metaphore-interiorite"] = dict(
   ("On pourrait penser que oui : les forêts de Dorion portent ses souvenirs, ses peurs, ses espoirs.",INTRO[2]),
   ("Pourtant, ses forêts sont aussi peuplées d’ours et de mésanges, frappées par les tempêtes et menacées par les hommes.",INTRO[3]),
   ("Dans "+E+", comment la nature peut-elle à la fois figurer l’intériorité et rester une réalité ?",INTRO[4]),
-  ("La nature est bien une image de la vie intérieure ; mais elle existe pour elle-même, et c’est par un échange réel que la forêt transforme l’intériorité au lieu de seulement la représenter.",INTRO[5]),
+  ("La nature est bien une image de la vie intérieure ; mais elle existe pour elle-même, et c’est en renversant ses propres métaphores que le poème fait de la forêt une force qui transforme l’intériorité.",INTRO[5]),
  ]),
  ("Première partie",[("La nature est d’abord, chez Dorion, une image de la vie intérieure.","Réponse I : la part de vérité du sujet")]+
   sp("Le paysage se transporte au-dedans.","Dans « Les feuilles », « les forêts creusent / parfois une clairière / au-dedans de soi ».","La métaphore de la clairière intérieure dit un apaisement : un espace de lumière s’ouvre dans l’esprit.")),
@@ -248,14 +248,14 @@ C["dorion-metaphore-interiorite"] = dict(
   sp("Elle est peuplée de bêtes réelles.","« elles sont coyote ours noir orignal / sittelle geai bleu mésange ».","L’énumération de noms précis, sans adjectif ni comparaison, fait exister la faune des forêts québécoises : ici, aucune métaphore.")),
  (None, sp("Elle a sa propre vie.","Dorion écrit de l’arbre : « il n’est rien d’autre que lui-même / avec la longue respiration des saisons ».","La restriction « rien d’autre que » interdit d’en faire le symbole de quoi que ce soit : l’arbre respire à son rythme, non au nôtre.")),
  (None, sp("Elle est réellement menacée.","« les oiseaux demandent refuge / à la terre ravagée ».","Le participe « ravagée » désigne une destruction concrète : la nature n’est pas un état d’âme, c’est un monde qu’on abîme.")),
- (None,[("Si la nature existe pour elle-même, quel lien entretient-elle avec la vie intérieure ?",T)]),
- ("Troisième partie",[("Un lien d’échange réel : la nature n’illustre pas l’intériorité, elle la transforme.","Réponse III : la réponse à la problématique")]+
+ (None,[("Si la nature existe pour elle-même, comment le poème peut-il dire son lien avec la vie intérieure ?",T)]),
+ ("Troisième partie",[("Il le dit en renversant la métaphore : la forêt devient le sujet des verbes, et l’écriture fait d’elle une force qui transforme l’intériorité au lieu de l’illustrer.","Réponse III : la réponse à la problématique")]+
   sp("La forêt agit sur la poète.","Dans « Les brèches », « la forêt défriche / en moi tant d’années ».","Le verbe « défriche » fait de la forêt le sujet de l’action : ce n’est plus l’esprit qui se sert de la nature, c’est la nature qui travaille en lui.")),
  (None, sp("L’intériorité s’ouvre au dehors.","« quand j’ai ouvert les yeux / ce n’était plus à l’intérieur / de moi que la pluie s’immisçait ».","La négation renverse la métaphore : la pluie cesse d’être intérieure pour redevenir réelle, et la poète s’ouvre au monde.")),
  (None, sp("L’accord des deux devient une demeure.","« mes forêts sont des rivages / accordés à mes pas la demeure / où respire ma vie ».","Le participe « accordés » dit une harmonie entre deux réalités distinctes : la forêt n’est pas l’image de la vie intérieure, elle est le lieu où elle « respire ».")),
  ("Conclusion",[
   ("Dans "+E+", la nature n’est donc pas qu’une métaphore de l’intériorité : elle la figure, mais elle existe hors d’elle, et elle la transforme.","Conclusion : la réponse"),
-  ("La nature figure l’intériorité ; elle existe pourtant hors d’elle ; et l’échange entre les deux la transforme.","Ce que le raisonnement a établi"),
+  ("La nature figure l’intériorité ; elle existe pourtant hors d’elle ; et le poème, en renversant la métaphore, fait d’elle ce qui transforme l’intériorité.","Ce que le raisonnement a établi"),
   ("La forêt de Dorion est à la fois dedans et dehors : un monde réel qui, à force d’être écouté, finit par défricher la vie de celle qui l’écoute.","Le lien avec le parcours"),
   ("Reste une question : une forêt qui transforme celle qui l’écoute peut-elle encore être dite « mienne » ?","La question qui reste ouverte"),
  ]),
@@ -312,7 +312,7 @@ C["dorion-promenades"] = dict(
  mot=("« qu’un voyage à l’intérieur de soi »", "Un voyage intérieur est une méditation sur soi ; « ne… que » demande si les promenades ne servent qu’à cela, au lieu de faire découvrir le monde."),
  preuve=("« j’écoute le monde qui bruit / à travers les arbres seuls »", 2),
  why=[("Un vrai problème","Les promenades mènent bien à soi ; mais elles ouvrent aussi sur le monde, ses êtres et son histoire."),
-      ("Un plan sur mesure","La marche vers soi, puis la marche vers le monde, enfin une promenade où « prendre le large » et revenir à soi ne font qu’un."),
+      ("Un plan sur mesure","La marche vers soi, puis la marche vers le monde, enfin les images du large et du passage, qui font de ce détour le chemin vers soi."),
       ("Des preuves analysées","« la descente / vers soi », « Je marche entre mes ombres », « vastes alliés », « le monde qui bruit », « des rivages / accordés à mes pas », « un long passage ».")],
  blocks=[
  ("Introduction",[
@@ -321,7 +321,7 @@ C["dorion-promenades"] = dict(
   ("On pourrait penser que oui : la poète marche avec ses ombres, ses souvenirs et ses questions, et la forêt la ramène à elle-même.",INTRO[2]),
   ("Pourtant, « prendre le large » veut d’abord dire partir au loin, et ses promenades la conduisent vers des arbres, des bêtes, et le bruit du monde.",INTRO[3]),
   ("Dans "+E+", comment une promenade peut-elle à la fois mener au loin et reconduire vers soi ?",INTRO[4]),
-  ("Les promenades de Dorion sont bien un voyage intérieur ; mais elles ouvrent sur le monde, et c’est en le traversant qu’elles reconduisent à soi.",INTRO[5]),
+  ("Les promenades de Dorion sont bien un voyage intérieur ; mais elles ouvrent sur le monde, et ce sont les images du poème, celles du large et du passage, qui font de ce détour le chemin vers soi.",INTRO[5]),
  ]),
  ("Première partie",[("Les promenades sont d’abord un voyage vers soi.","Réponse I : la part de vérité du sujet")]+
   sp("Marcher, c’est descendre en soi.","Au début de « L’onde du chaos », le jour finit « quand s’amorce la descente / vers soi ».","Le mot « descente », placé en fin de vers, fait du crépuscule un mouvement intérieur : la promenade devient introspection.")),
@@ -332,14 +332,14 @@ C["dorion-promenades"] = dict(
   sp("Elle s’arrête devant d’autres vivants.","« je me suis assise / au milieu de ces vastes alliés / sans voix ».","Le verbe « assise » interrompt la marche : la promenade devient rencontre, et les arbres sont des « alliés », non des reflets.")),
  (None, sp("Elle écoute les arbres pour eux-mêmes.","« j’écoute le monde qui bruit / à travers les arbres seuls / comme des êtres occupés / à devenir leur forme singulière ».","La comparaison avec des « êtres » qui deviennent « leur forme singulière » tourne l’attention vers le dehors : chaque arbre a sa propre aventure.")),
  (None, sp("Le monde moderne la rattrape.","Dans « C’est le bruit du monde », la promenade croise « sirènes klaxons alarmes du siècle ».","L’énumération des bruits urbains fait entrer le siècle dans la forêt : marcher, c’est aussi entendre le monde tel qu’il va.")),
- (None,[("Si la promenade ouvre sur le monde, pourquoi la poète dit-elle qu’elle prend le large « vers moi-même » ?",T)]),
- ("Troisième partie",[("Parce que c’est en traversant le monde qu’on revient à soi : chez Dorion, prendre le large et se retrouver ne font qu’un.","Réponse III : la réponse à la problématique")]+
+ (None,[("Si la promenade ouvre sur le monde, pourquoi le poème dit-il qu’elle mène, au large, « vers moi-même » ?",T)]),
+ ("Troisième partie",[("Parce que ses images en font un départ : la langue de la mer et du passage fait de la marche vers soi un large à rejoindre, et de la promenade d’une seule un chemin partagé.","Réponse III : la réponse à la problématique")]+
   sp("Le « soi » est un horizon lointain.","Les derniers vers disent « prendre le large / vers moi-même ».","L’expression maritime, appliquée à soi, est paradoxale : le moi n’est pas un refuge proche, c’est un large qu’on ne rejoint qu’en partant.")),
  (None, sp("La forêt et la marche s’accordent.","« mes forêts sont des rivages / accordés à mes pas ».","La métaphore du rivage place la promenade à la frontière de la terre et de la mer, du connu et du large : la forêt n’enferme pas, elle borde un départ.")),
  (None, sp("La promenade est enfin un passage partagé.","Le dernier poème affirme : « mes forêts sont un long passage / pour nos mots d’exil et de survie ».","Le possessif « nos » élargit le chemin à tous : la promenade d’une seule devient le passage de ceux qui cherchent leurs mots.")),
  ("Conclusion",[
   ("Les promenades de Dorion ne sont donc pas qu’un voyage intérieur : elles traversent le monde, et c’est ce détour qui reconduit à soi.","Conclusion : la réponse"),
-  ("Les promenades sont un voyage vers soi ; elles ouvrent pourtant au monde ; et c’est ce détour par le monde qui reconduit à soi.","Ce que le raisonnement a établi"),
+  ("Les promenades sont un voyage vers soi ; elles ouvrent pourtant au monde ; et les images du large et du passage font de ce détour le chemin vers soi.","Ce que le raisonnement a établi"),
   ("Prendre le large « vers moi-même », c’est accepter que le chemin vers soi passe par les arbres, les bêtes et le bruit du siècle.","Le lien avec le parcours"),
   ("Reste une question : un recueil qui mène vers soi par le monde fait-il faire au lecteur le même chemin ?","La question qui reste ouverte"),
  ]),
@@ -354,7 +354,7 @@ C["dorion-intimite"] = dict(
  mot=("« la demeure / où respire ma vie »", "Une demeure est un lieu où l’on habite et où l’on se sent chez soi ; « où respire ma vie » en fait le lieu le plus intime, celui où l’on vit librement."),
  preuve=("« mes forêts sont des cages de solitude »", 2),
  why=[("Un vrai problème","Les forêts sont bien le lieu de l’intimité ; mais elles enferment aussi, et le monde y entre de toutes parts."),
-      ("Un plan sur mesure","La demeure intime, puis la forêt qui enferme et que le monde envahit, enfin le rivage : une intimité ouverte, au bord du monde."),
+      ("Un plan sur mesure","La demeure intime, puis la forêt qui enferme et que le monde envahit, enfin les images du poème, qui font de la forêt un rivage ouvert."),
       ("Des preuves analysées","« greniers peuplés de fantômes », « mes espoirs debout », « cages de solitude », « maisons sans famille », les écrans, « nos mots d’exil et de survie ».")],
  blocks=[
  ("Introduction",[
@@ -363,7 +363,7 @@ C["dorion-intimite"] = dict(
   ("On pourrait penser que cette définition correspond au recueil, où la forêt accueille les souvenirs, les espoirs et les pas de la poète.",INTRO[2]),
   ("Pourtant, les forêts y sont aussi des « cages de solitude » et des « maisons sans famille », et le monde y fait irruption avec ses écrans et ses ravages.",INTRO[3]),
   ("Dans "+E+", que devient l’intimité, dans une demeure qui enferme et que le monde envahit ?",INTRO[4]),
-  ("Les forêts sont bien le lieu de l’intimité ; mais cette demeure peut enfermer et n’est jamais close, et c’est comme un rivage, au bord du monde, que la forêt abrite une intimité ouverte.",INTRO[5]),
+  ("Les forêts sont bien le lieu de l’intimité ; mais cette demeure peut enfermer, et ce sont les images du poème qui en font un rivage ouvert.",INTRO[5]),
  ]),
  ("Première partie",[("Les forêts sont d’abord le lieu de l’intimité.","Réponse I : la part de vérité du sujet")]+
   sp("Elles gardent la mémoire.","Le poème d’ouverture les décrit comme « des greniers peuplés de fantômes ».","La métaphore du grenier, pièce secrète d’une maison, fait de la forêt le lieu où l’on garde ce qu’on a vécu.")),
@@ -374,14 +374,14 @@ C["dorion-intimite"] = dict(
   sp("La forêt peut être une prison.","Le dernier poème affirme : « mes forêts sont des cages de solitude ».","La métaphore de la cage renverse celle de la demeure : l’intimité devient enfermement.")),
  (None, sp("Elle peut être vide.","« elles sont des maisons sans famille / des corps sans amour ».","La reprise de « sans » creuse la demeure : l’intime n’est plus le lieu des proches, mais celui de leur absence.")),
  (None, sp("Le monde l’envahit.","« Il fait rage virale / sur nos écrans / qui jamais ne dorment ».","La personnification des écrans qui « jamais ne dorment » dit une intrusion permanente : aucun lieu intime n’échappe au bruit du monde.")),
- (None,[("Si la forêt n’est ni toujours protectrice ni jamais close, quelle intimité peut-elle encore abriter ?",T)]),
- ("Troisième partie",[("Une intimité ouverte : la forêt est un rivage, au bord du monde, où l’on habite sans s’enfermer.","Réponse III : la réponse à la problématique")]+
+ (None,[("Si la forêt n’est ni toujours protectrice ni jamais close, comment le poème peut-il encore en faire une demeure ?",T)]),
+ ("Troisième partie",[("Il en fait une demeure ouverte par ses images mêmes : l’ordre des métaphores et le passage de « mes » à « nos » font de la forêt un rivage, où l’on habite sans s’enfermer.","Réponse III : la réponse à la problématique")]+
   sp("Le rivage n’est pas une maison close.","La citation commence par « mes forêts sont des rivages » avant de dire « la demeure ».","L’ordre des métaphores compte : avant d’être une demeure, la forêt est un bord, ouvert sur le large ; l’intimité y respire parce qu’elle n’est pas fermée.")),
  (None, sp("Habiter, c’est s’accorder.","Les rivages sont « accordés à mes pas ».","Le participe « accordés » dit un ajustement entre la marche et le lieu : l’intimité naît d’une harmonie avec le monde, non d’un retrait.")),
  (None, sp("L’intime devient un lieu partagé.","Le dernier poème fait des forêts « un long passage / pour nos mots d’exil et de survie / un peu de pluie sur la blessure ».","Le passage du « mes » au « nos » élargit la demeure : l’intimité de la poète accueille les mots de tous ceux qui ont perdu leur lieu.")),
  ("Conclusion",[
   ("La définition des forêts comme lieu de l’intimité correspond donc au recueil, à condition d’entendre l’intimité comme un rivage : un lieu à soi, ouvert sur le monde.","Conclusion : la réponse"),
-  ("Les forêts sont le lieu de l’intimité ; cette demeure peut pourtant enfermer, et le monde y entre ; et l’intimité devient un rivage ouvert.","Ce que le raisonnement a établi"),
+  ("Les forêts sont le lieu de l’intimité ; cette demeure peut pourtant enfermer, et le monde y entre ; et les images du poème font de l’intimité un rivage ouvert.","Ce que le raisonnement a établi"),
   ("Dans "+E+", on n’habite vraiment chez soi qu’en restant au bord du large.","Le lien avec le parcours"),
   ("Reste une question : une intimité ouverte au monde peut-elle encore se dire avec un possessif, « mes forêts » ?","La question qui reste ouverte"),
  ]),

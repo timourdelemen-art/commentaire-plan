@@ -174,8 +174,8 @@ C["ponge-observateur"] = dict(
  mot=("« seulement le carnet d’un observateur »", "Un carnet note au jour le jour ; un observateur regarde sans intervenir. « Seulement » demande si le livre ne fait rien d’autre que noter ce qui l’entoure."),
  preuve=("« Ce n’est pas de la relation, du récit, de la description, mais de la conquête. »", 1),
  why=[("Un vrai problème","Le livre a bien la forme d’un carnet daté ; mais Ponge y écarte presque tout le monde qui l’entoure, en pleine guerre, pour mener une conquête de la langue."),
-      ("Un plan sur mesure","Le carnet d’observation, puis un observateur qui conquiert plus qu’il ne regarde, enfin un carnet qui devient une œuvre tournée vers les hommes."),
-      ("Des preuves analysées","Les dates du Carnet, l’autobus de « La Mounine », l’aveu de 1940, la « conquête », les variantes en vers, le « but poétique et politique ».")],
+      ("Un plan sur mesure","Le carnet d’observation, puis un observateur qui conquiert plus qu’il ne regarde, enfin une forme de carnet qui devient l’œuvre elle-même."),
+      ("Des preuves analysées","Les dates du Carnet, l’autobus de « La Mounine », l’aveu de 1940, la « conquête », les variantes en vers, le savant qui raconte « ses expériences », le « tapis » relu.")],
  blocks=[
  ("Introduction",[
   ("« 7 août 1940 », « 9 août 1940 — Le soir » : dans « Le Carnet du bois de pins », chaque note porte sa date, comme dans le cahier d’un naturaliste.",INTRO[0]),
@@ -183,7 +183,7 @@ C["ponge-observateur"] = dict(
   ("On pourrait penser que oui : Ponge date ses textes, regarde une guêpe, un oiseau, un bois, un ciel, et consigne ce qu’il voit.",INTRO[2]),
   ("Pourtant, ce carnet tenu pendant la guerre laisse de côté presque tout ce qui entoure son auteur, et il s’occupe moins de voir que de trouver les mots.",INTRO[3]),
   ("Que devient le carnet d’observation, quand l’observateur se détourne du monde qui l’entoure pour conquérir l’expression d’un bois de pins ?",INTRO[4]),
-  ("Le livre est bien un carnet d’observation ; mais son auteur conquiert plus qu’il n’observe, et ce carnet devient une œuvre qui rend aux hommes le monde qu’elle semblait fuir.",INTRO[5]),
+  ("Le livre est bien un carnet d’observation ; mais son auteur conquiert plus qu’il n’observe, et c’est la forme même du carnet, publiée avec ses essais, qui devient l’œuvre.",INTRO[5]),
  ]),
  ("Première partie",[
   ("Le livre a d’abord la forme d’un carnet d’observation.","Réponse I : la part de vérité du sujet"),
@@ -218,27 +218,27 @@ C["ponge-observateur"] = dict(
   ("Le Carnet aligne des dizaines de variantes en vers, où reviennent les « épingles à cheveux odoriférantes » et « Vénus sortant de la baignoire ».","Le passage qui prouve"),
   ("La répétition presque obsessionnelle des mêmes vers montre que le combat se livre avec les mots : le carnet de l’observateur devient un cahier d’essais.","Ce que le passage montre"),
  ]),
- (None,[("Si l’observateur se détourne du monde pour conquérir une phrase, que gagne le monde à ce carnet ?","Transition : la question ouverte")]),
+ (None,[("Si l’observateur se détourne du monde pour conquérir une phrase, que devient alors la forme du carnet ?","Transition : la question ouverte")]),
  ("Troisième partie",[
-  ("Le carnet devient une œuvre qui rend le monde aux hommes : observer les choses, c’est préparer une autre manière d’y vivre.","Réponse III : la réponse à la problématique"),
-  ("Le choix du bois de pins n’est pas une fuite.","Argument"),
-  ("Dans le même appendice, Ponge comprend comment se rejoignent en lui « le poétique et le politique » et définit son but : un monde où les hommes et les choses « connaîtront des rapports harmonieux ».","Le passage qui prouve"),
-  ("Le futur « connaîtront » fait du carnet un projet : la chose bien dite prépare un monde réconcilié, et l’observation devient un engagement.","Ce que le passage montre"),
+  ("Cette forme devient l’œuvre elle-même : publié avec ses dates, ses essais et ses commentaires, le carnet change l’observation en une expérience d’écriture que le lecteur refait avec Ponge.","Réponse III : la réponse à la problématique"),
+  ("Ponge justifie lui-même cette forme.","Argument"),
+  ("Dans l’appendice du Carnet, il compare son livre au compte rendu d’un chercheur : il est « très légitime au savant de décrire sa découverte par le menu, de raconter ses expériences ».","Le passage qui prouve"),
+  ("La comparaison change le statut des brouillons : publiés, ils deviennent le récit d’une expérience, et la forme du carnet devient le sens même du livre.","Ce que le passage montre")
  ]),
  (None,[
-  ("L’humain revient d’ailleurs au cœur du paysage.","Argument"),
-  ("Dans « La Mounine », l’émotion naît quand les statues apparaissent, « l’élément humain introduit par les statues me semblant d’un caractère déchirant ».","Le passage qui prouve"),
-  ("L’adjectif « déchirant » change l’observation en émotion partagée : ce qui bouleverse l’observateur, c’est la trace des hommes sous un ciel écrasant.","Ce que le passage montre"),
+  ("Le texte garde ses essais dans l’ordre où ils sont venus.","Argument"),
+  ("Le Carnet fait se succéder, sous le même titre « Variante », des versions qui reprennent et déplacent les mêmes vers.","Le passage qui prouve"),
+  ("Le retour du même titre fait voir la phrase en train de se chercher : le lecteur observe moins le bois que le travail qui le rend visible.","Ce que le passage montre")
  ]),
  (None,[
-  ("Le carnet est enfin publié pour être lu.","Argument"),
-  ("Le même texte justifie l’édition des brouillons : le savant peut « décrire sa découverte par le menu, raconter ses expériences ».","Le passage qui prouve"),
-  ("Le carnet change de destinataire : ce que l’observateur notait pour lui devient une expérience offerte au lecteur, qui apprend à voir avec lui.","Ce que le passage montre"),
+  ("Dès lors, la première note se relit autrement.","Argument"),
+  ("« Il règne un tapis partout », lu d’abord comme une note prise sur le motif, était déjà une image.","Le passage qui prouve"),
+  ("La métaphore du « tapis » change le sol du bois en intérieur habité : dès la première ligne, le carnet de l’observateur était l’atelier d’un écrivain.","Ce que le passage montre")
  ]),
  ("Conclusion",[
   (E+" n’est donc pas seulement le carnet d’un observateur : c’est le carnet d’une conquête, menée dans la langue, au nom du monde qu’elle semblait laisser de côté.","Conclusion : la réponse"),
-  ("Le livre a la forme d’un carnet d’observation ; mais l’observateur s’y détourne du monde pour conquérir une expression ; et c’est cette conquête, publiée avec ses essais, qui rend le monde aux hommes.","Ce que le raisonnement a établi"),
-  ("En 1940, regarder un bois de pins plutôt que la guerre n’était pas se taire sur le monde, mais chercher les mots d’un monde plus habitable.","Le lien avec le parcours"),
+  ("Le livre a la forme d’un carnet d’observation ; l’observateur s’y détourne du monde pour conquérir une expression ; et le carnet, publié avec ses essais, fait de cette conquête une expérience partagée.","Ce que le raisonnement a établi"),
+  ("Le parcours « dans l’atelier du poète » prend ici un sens littéral : le carnet est l’atelier, et Ponge en ouvre la porte au lecteur.","Le lien avec le parcours"),
   ("Reste une question : un carnet écrit loin de la guerre peut-il, par sa seule écriture, répondre à son époque ?","La question qui reste ouverte"),
  ]),
  ])
@@ -563,9 +563,9 @@ C["ponge-donner-a-voir"] = dict(
  pdf="",
  mot=("« ne cherche à donner à voir que son travail d’écriture »", "« Donner à voir », c’est rendre visible ; « ne… que » restreint ce qu’on voit au seul travail d’écriture, comme si les choses passaient au second plan."),
  preuve=("la guêpe qui « semble vivre dans un état de crise continue qui la rend dangereuse »", 1),
- why=[("Un vrai problème","Ponge montre bien son travail ; mais il donne aussi à voir des choses et une manière de vivre parmi elles."),
-      ("Un plan sur mesure","Le travail rendu visible, puis les choses rendues visibles, enfin un regard sur le monde offert au lecteur."),
-      ("Des preuves analysées","L’essoufflement des « Notes prises pour un oiseau », la guêpe en « crise continue », le ciel « blâmé » de Provence, les aéroplanes, la « rédemption des choses ».")],
+ why=[("Un vrai problème","Ponge montre bien son travail ; mais ce travail donne aussi à voir les choses, et c’est la langue, exposée avec ses essais, qui les rend visibles."),
+      ("Un plan sur mesure","Le travail rendu visible, puis les choses rendues visibles, enfin les mots et les variantes qui apprennent au lecteur à voir."),
+      ("Des preuves analysées","L’essoufflement des « Notes prises pour un oiseau », la guêpe en « crise continue », le ciel « blâmé » de Provence, les voyelles du mot « oiseau », les variantes du « Mimosa ».")],
  blocks=[
  ("Introduction",[
   ("« Je croyais pouvoir écrire mille pages sur n’importe quel objet, et voici qu’à moins de cinq je suis essoufflé » : dans « Notes prises pour un oiseau », Ponge montre son travail au moment où il cale.",INTRO[0]),
@@ -573,7 +573,7 @@ C["ponge-donner-a-voir"] = dict(
   ("On pourrait penser que oui : "+E+" expose des brouillons, des variantes et des commentaires sur la manière d’écrire.",INTRO[2]),
   ("Pourtant, le lecteur referme le livre avec des images très précises dans les yeux : une guêpe sur une prune, un bois de pins, un ciel de Provence.",INTRO[3]),
   ("Que donne vraiment à voir une œuvre qui montre son travail d’écriture ?",INTRO[4]),
-  ("Ponge donne bien à voir son travail ; mais ce travail fait voir les choses, et, à travers elles, une manière d’habiter le monde.",INTRO[5]),
+  ("Ponge donne bien à voir son travail ; mais ce travail fait voir les choses, et c’est la langue même, exposée avec ses essais, qui les rend visibles.",INTRO[5]),
  ]),
  ("Première partie",[
   ("Ponge donne d’abord à voir son travail d’écriture.","Réponse I : la part de vérité du sujet"),
@@ -608,26 +608,26 @@ C["ponge-donner-a-voir"] = dict(
   ("Dans « La Mounine », le ciel limpide apparaît « tout mélangé d’ombre. Comme blâmé... Ciel blâmé ».","Le passage qui prouve"),
   ("La reprise de « blâmé », que Ponge rapproche ensuite de « blême », fait voir une couleur que personne ne nomme : un bleu chargé de nuit.","Ce que le passage montre"),
  ]),
- (None,[("Si le travail donne à voir les choses, à qui et pour quoi les donne-t-il à voir ?","Transition : la question ouverte")]),
+ (None,[("Si le travail fait voir les choses, comment l’écriture y parvient-elle, quand elle ne cache rien de ses essais ?","Transition : la question ouverte")]),
  ("Troisième partie",[
-  ("Aux hommes, pour qu’ils habitent autrement le monde : Ponge donne à voir une manière de vivre parmi les choses.","Réponse III : la réponse à la problématique"),
-  ("Voir mieux, c’est agir mieux.","Argument"),
-  ("« Notes prises pour un oiseau » s’achève sur un vœu : Ponge s’est appliqué à l’oiseau « pour que nous fabriquions des aéroplanes perfectionnés, que nous ayons une meilleure prise sur le monde ».","Le passage qui prouve"),
-  ("Le pronom « nous » élargit le travail à toute l’humanité : ce que Ponge donne à voir sert à vivre.","Ce que le passage montre"),
+  ("Elle y parvient en faisant voir les mots eux-mêmes : le livre montre la langue devenir la chose, et apprend au lecteur à voir par elle.","Réponse III : la réponse à la problématique"),
+  ("Le nom de la chose devient une image de la chose.","Argument"),
+  ("Dans « Notes prises pour un oiseau », un poème fait parler l’oiseau : « Mon nom unit les voyelles françaises / À commencer par celle en forme d’œuf ».","Le passage qui prouve"),
+  ("Le mot « oiseau » contient en effet les cinq voyelles, et le O dessine l’œuf : avant toute description, la langue donne déjà à voir l’oiseau.","Ce que le passage montre")
  ]),
  (None,[
-  ("Les choses entrent ainsi dans le monde humain.","Argument"),
-  ("Dans l’appendice du Carnet, Ponge souhaite « La naissance au monde humain des choses les plus simples, leur prise de possession par l’esprit de l’homme ».","Le passage qui prouve"),
-  ("La métaphore de la « naissance » donne au travail d’écriture une portée presque morale : nommer, c’est faire exister pour les hommes.","Ce que le passage montre"),
+  ("Le livre garde les essais qui font apparaître la chose.","Argument"),
+  ("« Le Mimosa » publie même une version « (variantes incorporées) », où les mêmes vers reviennent, déplacés et retouchés.","Le passage qui prouve"),
+  ("Ce sous-titre fait de la variante une partie du poème : le lecteur voit le mimosa se former d’une version à l’autre, comme un objet sous des éclairages successifs.","Ce que le passage montre")
  ]),
  (None,[
-  ("Le bois de pins lui-même attendait d’être vu.","Argument"),
-  ("Ponge l’interpelle : « Bois de pins, sortez de la mort, de la non-remarque, de la non-conscience ! »","Le passage qui prouve"),
-  ("L’apostrophe et les néologismes en « non- » montrent ce que l’écriture combat : l’invisibilité des choses ordinaires.","Ce que le passage montre"),
+  ("Voir la chose et voir le travail deviennent un même geste.","Argument"),
+  ("Le ciel « blâmé » de « La Mounine », relu ainsi, ne montre pas seulement une couleur : Ponge y ajoute entre parenthèses « (voir aussi blême) ».","Le passage qui prouve"),
+  ("Cette parenthèse garde ensemble deux mots voisins : le lecteur voit la couleur naître de leur hésitation, et le travail d’écriture devient la manière même de faire voir.","Ce que le passage montre")
  ]),
  ("Conclusion",[
   ("Ponge ne cherche donc pas seulement à donner à voir son travail : il le montre pour faire voir les choses, et pour changer notre regard sur elles.","Conclusion : la réponse"),
-  ("Ponge donne à voir son travail ; ce travail fait voir les choses ; et il les donne aux hommes pour changer leur regard.","Ce que le raisonnement a établi"),
+  ("Ponge donne à voir son travail ; ce travail fait voir les choses ; et l’écriture, en montrant ses mots et ses variantes, apprend au lecteur à voir par la langue.","Ce que le raisonnement a établi"),
   ("L’atelier ouvert de "+E+" est une fenêtre : on y voit l’écrivain travailler, et, à travers lui, la guêpe, l’oiseau et le ciel.","Le lien avec le parcours"),
   ("Reste une question : une œuvre qui ouvre son atelier fait-elle de son lecteur un apprenti ?","La question qui reste ouverte"),
  ]),
