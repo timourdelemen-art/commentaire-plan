@@ -4,6 +4,17 @@ const fs = require('fs');
 const path = require('path');
 const data = require('./hlp-parcours-data.json');
 const DOMAIN = 'https://commentaire-plan.com';
+const {TEXTES, texteHtml} = require('./hlp-texte-html.js');
+global.window = global.window || {};
+require(path.join(__dirname, '..', 'hlp-annales-data.js'));
+/* Le texte du sujet, quand il est relevé dans hlp-textes.json : même code d’examen et même auteur (un PDF peut porter deux sujets). */
+function texteDuSujet(s) {
+  if (s.level !== 'terminale') return '';
+  const nom = s.author.split(' ').pop();
+  const a = window.HLP_ANNALES.find(x => x.code === s.code && x.a.includes(nom));
+  if (!a || !TEXTES[a.id]) return '';
+  return `<section class="offer-band" id="texte"><div class="kicker">LE TEXTE</div>${texteHtml(a.id)}</section>\n`;
+}
 const labels = {
   interpL: 'Interprétation littéraire', interpP: 'Interprétation philosophique',
   reflexionL: 'Question de réflexion littéraire', reflexionP: 'Question de réflexion philosophique',
@@ -93,7 +104,7 @@ function page(s) {
 <div class="boussole"><p><b>D’où vous partez</b>Le texte et les questions du sujet officiel.</p><p><b>Ce que vous faites</b>Vous choisissez, justifiez, écrivez avec des aides, puis rédigez sans aide.</p><p><b>Ce que vous obtenez</b>Deux réponses personnelles, à comparer à des modèles annotés.</p></div></div>
 <aside class="side-note"><p><b>${esc(s.work)}</b><br>${esc(s.code)}</p><p><a href="${esc(s.source)}">Lire le sujet et le texte officiel (PDF) ↗</a></p><p>${esc(s.pages)}</p><p>${esc(s.entry)}</p><p><a href="hlp-ecrire.html">Méthodes et banque HLP →</a></p></aside></section>
 ${s.level==='premiere'?'<p class="ecrire-note">Ce sujet zéro historique sert à l’entraînement. Pour les élèves scolarisés, HLP en première relève du contrôle continu ; l’évaluation ponctuelle de certains candidats dure deux heures et comporte une interprétation et une question de réflexion.</p>':'<p class="ecrire-note">À l’épreuve de terminale : quatre heures, deux réponses d’ampleur comparable sur deux copies distinctes, chacune notée sur 10. Ici, vous pouvez travailler une seule réponse ou les deux.</p>'}
-${s.responses.map(r=>response(s,r)).join('\n')}<section class="offer-band"><h2>Reprendre sur un autre texte.</h2><p><a href="${file(next)}">Sujet suivant : ${esc(next.author)} (${next.level==='premiere'?'première':'terminale'}) →</a> · <a href="hlp-ecrire.html#banque">Choisir un autre sujet →</a> · <a href="hlp-annales.html">Toutes les annales HLP →</a></p><p class="micro">Sur un sujet nouveau, essayez d’abord le niveau 3. Ouvrez ensuite les aides dont vous avez besoin : avoir parcouru les étapes ne prouve pas encore l’autonomie.</p><p class="micro">Tous les sujets traités : ${data.subjects.filter(o=>o!==s).map(o=>`<a href="${file(o)}">${esc(o.author)}</a>`).join(' · ')}.</p></section>`);
+${texteDuSujet(s)}${s.responses.map(r=>response(s,r)).join('\n')}<section class="offer-band"><h2>Reprendre sur un autre texte.</h2><p><a href="${file(next)}">Sujet suivant : ${esc(next.author)} (${next.level==='premiere'?'première':'terminale'}) →</a> · <a href="hlp-ecrire.html#banque">Choisir un autre sujet →</a> · <a href="hlp-annales.html">Toutes les annales HLP →</a></p><p class="micro">Sur un sujet nouveau, essayez d’abord le niveau 3. Ouvrez ensuite les aides dont vous avez besoin : avoir parcouru les étapes ne prouve pas encore l’autonomie.</p><p class="micro">Tous les sujets traités : ${data.subjects.filter(o=>o!==s).map(o=>`<a href="${file(o)}">${esc(o.author)}</a>`).join(' · ')}.</p></section>`);
 }
 
 function hub() {

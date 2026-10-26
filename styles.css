@@ -2190,7 +2190,8 @@ div.qcm-options>p{border:0!important;background:none!important;box-shadow:none!i
 .texte-dialog .texte-examen{border:0;margin:8px 0}
 @media(max-width:760px){.texte-examen{font-size:17px;padding-left:2.6em}.texte-examen .line-no{left:-2.5em}}
 #stepInstruction{white-space:pre-line}
-@media(max-width:760px){.texte-examen p{text-align:left;hyphens:manual}}
+/* Les textes étudiés : prose justifiée, alinéa en tête de paragraphe, aussi sur téléphone. Les vers et les répliques gardent leur disposition. */
+.literary-text:not(.hialmar-poeme)>p:not(.c20-chapeau):not(.source):not(.notes):not(.big-aphorism):not(:has(br)){text-align:justify;text-indent:1.5em;hyphens:auto;-webkit-hyphens:auto}
 
 /* === Annales philo : niveaux et brouillon === */
 .chaine-tabs a{display:grid;gap:2px;padding:12px 10px;border-right:1px solid var(--rule);text-decoration:none;color:inherit}
