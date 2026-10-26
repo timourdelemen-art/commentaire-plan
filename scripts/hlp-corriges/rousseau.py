@@ -7,8 +7,8 @@ SUJET = {
  'code': '22-HLPJ2ME1', 'annale': '2022-me-j2-s1', 'entry': 'Les métamorphoses du moi',
  'pages': 'Le sujet 1 du PDF officiel.',
 }
-# Citations extérieures vérifiées : Proust (Le Temps retrouvé), Flaubert (Madame Bovary, I, 6).
-TITRES = ['Le Temps retrouvé', 'Madame Bovary', 'le propre lecteur de soi-même', 'qu’à cause de ses tempêtes']
+# Citations extérieures vérifiées : Proust (Le Temps retrouvé), Flaubert (Madame Bovary, I, 5).
+TITRES = ['Le Temps retrouvé', 'Madame Bovary', 'le propre lecteur de soi-même', 'qui lui avaient paru si beaux dans les livres']
 
 INTERPRETATION = {
  'id': 'interpretation', 'kind': 'interpP',
@@ -64,21 +64,21 @@ INTERPRETATION = {
     'Deuxième moment : citer la réponse et sa construction.'),
    ('Redevenir soi, c’est rentrer dans ses limites naturelles, comme le dessin qui naît des « lignes qui le terminent » : le moi se connaît en se séparant « de tout ce qui n’est pas lui ».',
     'Expliquer l’analogie du dessin et l’opération de séparation.'),
-   ('Cette connaissance du « moi humain » mène à la sagesse, entendue ici comme un accord avec ce que l’on est, non comme une somme de savoirs.',
-    'Définir les deux concepts : le moi et la sagesse.'),
-   ('D’où le conseil : « Recueillez-vous, cherchez la solitude », par lequel « on découvre bientôt » les autres secrets.',
+   ('Celui qui sait le mieux « en quoi consiste le moi humain » « est le plus près de la sagesse » : la connaissance de soi est un degré vers elle, non une somme de savoirs.',
+    'Expliquer le rapport entre moi et sagesse, et le degré qu’il indique.'),
+   ('D’où le conseil : « Recueillez-vous, cherchez la solitude », car « par celui-là seul on découvre bientôt les vôtres », c’est-à-dire ses propres secrets.',
     'Préciser le moyen et l’optimisme du texte.')],
   [('Où est donc la difficulté ?', 'Transition : la question de la mesure.'),
-   ('Cet art « n’est pas si difficile qu’on pourrait croire, ou du moins la difficulté n’est pas où on la croit » : elle « dépend plus de la volonté que des lumières ».',
+   ('Cet art « n’est pas si difficile qu’on pourrait croire, ou du moins la difficulté n’est pas où on la croit » : il « dépend plus de la volonté que des lumières ».',
     'Troisième moment : déplacer la difficulté, avec le texte.'),
-   ('Le miroir « est devant nous », mais il faut « jeter les yeux », puis les « fixer », et pour cela « écarter les objets qui nous en détournent » : la difficulté est de persévérer.',
+   ('Le miroir « est devant nous », mais il faut « jeter les yeux », puis les « fixer », et pour cela « écarter les objets qui nous en détournent » : on peut comprendre que la difficulté est de persévérer.',
     'Expliquer l’image du miroir sans la durcir.'),
    ('Elle vient aussi d’un faux savoir, car « l’orgueil sous son nom » nous écarte de nous ; il faut « rentrer en soi pour apprendre à philosopher », non l’inverse.',
     'Montrer qu’un savoir mal compris éloigne de soi.'),
    ('Le verbe « commençons », répété, dit enfin un début, non un état atteint.', 'Dégager la limite : un commencement.')],
   [('Nous pouvons donc redevenir nous-mêmes dans la mesure où notre volonté se détourne de l’opinion et nous rassemble dans les bornes de notre nature, ce qui est moins difficile qu’on ne le croit.',
     'Répondre : le degré et la condition.'),
-   ('Mais ce retour est un commencement, qui demande de fixer sans cesse le regard que l’opinion détourne.',
+   ('Mais ce retour est un commencement, qui demande de garder fixé sur soi le regard que l’opinion détourne.',
     'Dire la portée de la thèse, tirée du texte.')],
  ]
 }
@@ -133,17 +133,17 @@ ESSAI = {
    ('La connaissance est alors « meilleure » au sens exact : le lecteur discerne en lui ce qu’il n’aurait pas vu sans le livre.',
     'Revenir au mot du sujet.')],
   [('Mais le livre ne peut-il pas aussi égarer ?', 'Transition : l’objection la plus forte.'),
-   ('Dans Madame Bovary, les romans lus au couvent apprennent à Emma à attendre de la vie la passion des héroïnes : elle n’aime la mer « qu’à cause de ses tempêtes ».',
+   ('Dans Madame Bovary, Emma, à peine mariée, cherche ce que l’on entend dans la vie par les mots de félicité, de passion et d’ivresse, « qui lui avaient paru si beaux dans les livres ».',
     'Deuxième moment : une œuvre qui montre la lecture qui égare, avec une phrase citée.'),
-   ('La tournure restrictive dit tout : Emma ne voit des choses que ce que les livres lui ont appris à y chercher, et son mariage avec Charles lui paraît alors une déception.',
-    'Analyser la construction de la phrase et ce qu’elle prouve.'),
+   ('Le plus-que-parfait place les livres avant la vie : Emma mesure son mariage à des mots lus, et ne trouve dans son existence que l’absence de ce qu’ils promettaient.',
+    'Analyser le temps verbal et ce qu’il prouve.'),
    ('Elle aussi se mire dans ses lectures, mais elle n’en revient jamais : c’est la toile de Rousseau, une existence placée dans des images venues d’ailleurs.',
     'Relier l’objection au texte, en écho.'),
    ('Je reconnais donc que lire peut faire se méconnaître.', 'Reconnaître la part de vrai de l’objection.')],
   [('Qu’est-ce qui sépare alors la lecture qui éclaire de celle qui égare ?', 'Transition : la question du critère.'),
-   ('Ce n’est pas le livre, ni le fait de s’y reconnaître, mais le retour du lecteur : Emma se perd dans le personnage, le lecteur de Proust revient à lui.',
+   ('Ce n’est pas le livre, ni le fait de s’y reconnaître, mais le retour du lecteur : Emma se perd dans ses modèles, le lecteur tel que Proust le décrit revient à lui.',
     'Troisième moment : déplacer le critère vers le lecteur.'),
-   ('Le même roman peut d’ailleurs produire les deux effets : Madame Bovary aide le lecteur à reconnaître en lui les rêves qui ont perdu Emma.',
+   ('Le même roman peut d’ailleurs produire les deux effets : en montrant l’écart entre les mots lus et la vie, Madame Bovary permet au lecteur de reconnaître en lui ce même écart.',
     'Montrer que le critère tient au lecteur, non au livre.'),
    ('Lire n’est utile à la connaissance de soi que si la lecture s’achève hors du livre, dans le recueillement que demande Rousseau : le livre peut le préparer, non le remplacer.',
     'Établir la condition, avec le texte en écho.')],

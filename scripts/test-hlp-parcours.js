@@ -48,7 +48,7 @@ function runRuntime(html, storage, fail=false) {
 }
 
 bank.validate();
-assert.equal(bank.data.subjects.length,8);
+assert.equal(bank.data.subjects.length,12);
 assert.equal(bank.data.subjects.filter(s=>s.level==='premiere').length,2);
 const tmp=fs.mkdtempSync(path.join(os.tmpdir(),'hlp-test-'));
 try {

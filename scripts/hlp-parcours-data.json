@@ -2861,6 +2861,1282 @@
           ]
         }
       ]
+    },
+    {
+      "id": "terminale-heredia",
+      "level": "terminale",
+      "author": "Heredia",
+      "work": "Les Trophées, « La Sieste » (1893)",
+      "session": "Bac 2026 · Asie · jour 2",
+      "code": "26-HLPJ2JA1",
+      "source": "https://www.education.gouv.fr/sites/default/files/document/baccalaureat-general-2026-humanites-litterature-et-philosophie-jour-2-517451.pdf",
+      "pages": "Texte et questions dans le PDF officiel.",
+      "entry": "Les expressions de la sensibilité",
+      "responses": [
+        {
+          "id": "interpretation",
+          "kind": "interpL",
+          "question": "« La Sieste » : comment ce poème saisit-il la richesse de l’instant ?",
+          "choices": [
+            [
+              "Il fait d’un midi immobile un monde de sensations, puis le tisse en filet où le poète prend ses rêves.",
+              "Solide",
+              "Vous répondez à « comment » par le travail du poème : sensations, mouvement, métaphore du tissage, chute."
+            ],
+            [
+              "Il décrit avec précision un sous-bois en plein été, ses couleurs, ses insectes, sa lumière et sa chaleur écrasante.",
+              "Défendable",
+              "C’est ce que le poème présente ; il faut dire comment l’écriture en fait un instant riche, et le saisit."
+            ],
+            [
+              "Il montre que le poète s’ennuie pendant la sieste et cherche à s’en évader par le rêve.",
+              "À revoir",
+              "Rien ne parle d’ennui : le poème célèbre au contraire la plénitude du moment."
+            ]
+          ],
+          "stages": [
+            [
+              "Relevez en deux phrases ce qui, dans le premier quatrain, dit l’immobilité, et ce qui la remplit.",
+              "Regardez le premier mot et le verbe « dort ».",
+              "La négation « Pas un seul bruit » et « Tout dort » posent le silence ; les couleurs et le « velours » des mousses le remplissent de sensations."
+            ],
+            [
+              "Expliquez en deux phrases l’effet de la majuscule de « Midi » et du verbe « rôde ».",
+              "Une heure devient un personnage.",
+              "Midi est personnifié : l’heure la plus immobile devient une présence qui se déplace, et l’instant s’anime."
+            ],
+            [
+              "Relevez en une phrase les mots qui font de la lumière un tissu.",
+              "Cherchez dans les tercets et au vers 7.",
+              "« réseau », « gaze de feu », « trament », « fil », « mailles », « filet » : une métaphore filée du tissage."
+            ],
+            [
+              "Analysez en trois phrases le dernier tercet : qui agit, et que prend-il ?",
+              "Lisez « Alors » et le dernier vers.",
+              "Le poète sort de l’immobilité : ses doigts « saisissent chaque fil » ; mais ce qu’il prend, ce sont « mes rêves » : l’instant devient rêve et poème."
+            ],
+            [
+              "Dites en deux phrases ce qui rend cette prise fragile.",
+              "Relisez « tremblants » et « subtil ».",
+              "Les doigts tremblent, le filet est subtil : saisir l’instant reste un geste précaire, qui ne tient que par la forme du sonnet."
+            ]
+          ],
+          "criteria": [
+            "Je réponds à « comment » par des faits d’écriture, pas par une paraphrase.",
+            "Je travaille la forme du sonnet : vers, rimes, tercets, chute.",
+            "Je dis ce que le poème « saisit » exactement : l’instant devenu rêve."
+          ],
+          "model": [
+            {
+              "sentences": [
+                {
+                  "text": "Dans « La Sieste », sonnet régulier en alexandrins des Trophées (1893), Heredia peint un sous-bois écrasé de soleil à midi, que le poète contemple, les cils mi-clos.",
+                  "function": "Situer : l’œuvre, la forme, la situation."
+                },
+                {
+                  "text": "Le verbe « saisit » de la question, que le poème reprend lui-même (« saisissent »), dit à la fois percevoir avec intensité et retenir.",
+                  "function": "Préciser le mot décisif, en le reliant au texte."
+                },
+                {
+                  "text": "Le poème fait d’un moment immobile un monde de sensations, puis le change en un tissu de lumière où le poète prend ses rêves.",
+                  "function": "Donner la lecture défendue."
+                },
+                {
+                  "text": "Il remplit d’abord le silence, puis anime l’immobilité en tissant la lumière, enfin capture l’instant dans la chute.",
+                  "function": "Annoncer les trois étapes."
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "Le poème s’ouvre sur une négation : « Pas un seul bruit d’insecte ou d’abeille en maraude ».",
+                  "function": "Situer et citer l’ouverture."
+                },
+                {
+                  "text": "Le silence est défini par ce qui manque, et « Tout dort sous les grands bois accablés de soleil » étend l’immobilité à tout, sous une chaleur qui pèse, que la rime « soleil » et « sommeil » fait sonner.",
+                  "function": "Preuve : la négation, la totalisation et la rime."
+                },
+                {
+                  "text": "Ce silence laisse place aux autres sens : l’enjambement « un jour pareil / Au velours sombre et doux » fait glisser la lumière vers le toucher, « émeraude » ajoute la couleur, et le « parfum des sèves » viendra au vers 11.",
+                  "function": "Preuve : l’enjambement et l’alliance des sens."
+                },
+                {
+                  "text": "L’instant est riche parce que, l’ouïe se taisant, la vue, le toucher et l’odorat occupent tout.",
+                  "function": "Conclure l’étape sur la question."
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "Cette immobilité n’est pourtant qu’apparente : « Midi splendide y rôde ».",
+                  "function": "Transition : l’immobilité se met en mouvement."
+                },
+                {
+                  "text": "La majuscule et le verbe « rôde » font de l’heure un personnage qui se déplace dans le « dôme obscur » qu’il crible.",
+                  "function": "Preuve : la personnification et son effet."
+                },
+                {
+                  "text": "Dès le vers 7, ses « mille éclairs furtifs » forment « un réseau vermeil / Qui s’allonge et se croise » : la lumière se tisse dans « l’ombre chaude ».",
+                  "function": "Preuve : l’hyperbole et le début de la métaphore filée."
+                },
+                {
+                  "text": "Ces perceptions naissent de « mes cils mi-clos alanguis de sommeil » : la richesse de l’instant tient à cet état entre veille et rêve.",
+                  "function": "Preuve : la place du regard, qui explique la richesse perçue."
+                },
+                {
+                  "text": "L’inversion « Vole le frêle essaim des riches papillons » place le mouvement en tête du vers, et l’adjectif « riches » donne au poème le mot même de la question.",
+                  "function": "Preuve : l’inversion et l’écho du mot « richesse »."
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "Le premier tercet achève le tissage : la « gaze de feu que trament les rayons », métaphore d’une lumière devenue étoffe, enveloppe l’instant.",
+                  "function": "Transition vers la chute : la métaphore filée s’achève."
+                },
+                {
+                  "text": "Avec « Alors », le poète entre dans ce tissu : « mes doigts tremblants saisissent chaque fil », geste à demi rêvé par celui qui somnole.",
+                  "function": "Preuve : la volta et le verbe qui reprend la question."
+                },
+                {
+                  "text": "Le dernier vers, « Chasseur harmonieux, j’emprisonne mes rêves », révèle ce qui est pris : les papillons ivres de lumière étaient déjà les rêves, et le chasseur est « harmonieux » parce qu’il chasse par le vers.",
+                  "function": "Preuve : la chute, qui identifie papillons et rêves, et le sens de « harmonieux »."
+                },
+                {
+                  "text": "Les doigts « tremblants » et le filet « subtil » disent pourtant une prise fragile : l’instant ne se garde qu’enfermé dans la forme réglée du sonnet.",
+                  "function": "Intégrer ce qui résiste : la fragilité de la capture."
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "Le poème saisit donc la richesse de l’instant en remplissant un midi silencieux de sensations et de mouvements, puis en le changeant en un filet de lumière.",
+                  "function": "Répondre dans les mots de la question."
+                },
+                {
+                  "text": "Ce qu’il retient n’est pas le moment lui-même, mais le rêve qu’il a fait naître, que les quatorze vers gardent comme un filet garde sa prise.",
+                  "function": "Dire ce que l’écriture fait comprendre."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "essai",
+          "kind": "essaiP",
+          "question": "Est-il nécessaire de suspendre toute action pour accéder à notre sensibilité ?",
+          "choices": [
+            [
+              "Il faut suspendre l’attitude utilitaire, non toute action : certaines actions font même sentir.",
+              "Solide",
+              "Vous gardez « nécessaire » et « toute », et vous distinguez deux sortes d’action."
+            ],
+            [
+              "Oui, car on ne peut rien sentir vraiment quand on agit, comme le montre le poète endormi de Heredia.",
+              "Défendable",
+              "L’action pressée empêche souvent de sentir ; mais le poète finit par agir, et certaines actions font sentir."
+            ],
+            [
+              "Non, la sensibilité est toujours là, quoi que nous fassions.",
+              "À revoir",
+              "Avoir une sensibilité n’est pas y « accéder » : la question porte sur la conscience de ce que nous sentons."
+            ]
+          ],
+          "stages": [
+            [
+              "Définissez en deux phrases « accéder à notre sensibilité » et « suspendre toute action ».",
+              "Distinguez sentir et savoir ce que l’on sent.",
+              "Accéder à sa sensibilité, c’est percevoir ce qui nous affecte et en prendre conscience ; suspendre toute action, c’est cesser entièrement d’agir."
+            ],
+            [
+              "Expliquez en trois phrases pourquoi l’action pressée nous rend moins sensibles.",
+              "Pensez à un trajet quotidien fait sans regarder.",
+              "L’action orientée vers un but trie ce que nous percevons : nous ne retenons que ce qui sert."
+            ],
+            [
+              "Donnez en trois phrases un cas où agir fait sentir davantage.",
+              "Le corps qui marche, la main qui joue d’un instrument.",
+              "Le marcheur ou le musicien perçoivent par l’action des nuances que l’inactif ne remarque pas."
+            ],
+            [
+              "Montrez en deux phrases que l’inaction peut aussi émousser la sensibilité.",
+              "Pensez à l’ennui, à la torpeur.",
+              "Le repos prolongé peut engourdir : on ne sent plus rien à force de ne rien faire."
+            ],
+            [
+              "Écrivez en deux phrases la condition qui permet d’accéder à sa sensibilité.",
+              "Ce qu’il faut suspendre, est-ce l’action ou autre chose ?",
+              "Il faut suspendre l’attitude utilitaire, non l’action : une attention désintéressée peut accompagner le geste."
+            ]
+          ],
+          "criteria": [
+            "Je travaille « nécessaire » et « toute » action.",
+            "Chaque moment est fondé par une raison et montré par un exemple.",
+            "Je traite une objection réelle et je réponds nettement."
+          ],
+          "model": [
+            {
+              "sentences": [
+                {
+                  "text": "Dans « La Sieste », le poète accède à une profusion de sensations au moment où il cesse d’agir, mais le poème s’achève sur un geste : ses doigts « saisissent chaque fil ».",
+                  "function": "Partir du texte : il pose la question et la complique."
+                },
+                {
+                  "text": "Accéder à notre sensibilité, c’est percevoir ce qui nous affecte et en prendre conscience ; suspendre toute action, ce serait cesser entièrement d’agir.",
+                  "function": "Définir les mots du sujet."
+                },
+                {
+                  "text": "La sensibilité semble demander le repos, puisqu’elle consiste à recevoir ; mais le repos suffit-il, et l’action l’empêche-t-elle toujours ?",
+                  "function": "Poser la question qui garde la tension."
+                },
+                {
+                  "text": "Je soutiendrai que ce qu’il faut suspendre n’est pas l’action, mais l’attitude utilitaire qui ne voit dans les choses que des moyens : je le montrerai par ce que l’action intéressée masque, puis par l’objection de la réceptivité, enfin par ce qu’il faut vraiment suspendre.",
+                  "function": "Prendre position et annoncer le chemin."
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "L’action orientée vers un but nous rend d’abord moins sensibles.",
+                  "function": "Premier moment : la thèse."
+                },
+                {
+                  "text": "Celui qui agit pour obtenir quelque chose trie ce qu’il perçoit : il retient ce qui sert son but et laisse le reste dans l’ombre.",
+                  "function": "Fonder la thèse par une raison."
+                },
+                {
+                  "text": "C’est ce que soutient Bergson dans le chapitre III du Rire : notre perception, réglée sur les besoins de l’action, ne retient des choses que leur utilité, et l’artiste est celui chez qui ce lien se relâche.",
+                  "function": "Appuyer la raison sur un auteur, ouvrage nommé."
+                },
+                {
+                  "text": "Sur le trajet que je fais chaque matin en retard, je ne vois plus les façades ni les visages que je découvrirais en flânant : mon but les efface.",
+                  "function": "Montrer la thèse par un exemple."
+                },
+                {
+                  "text": "Une pause est donc souvent la condition pour sentir ce que la hâte recouvre, comme la sieste du poème.",
+                  "function": "Conclure le moment."
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "Faut-il en conclure que toute action, même désintéressée, nous ferme à ce que nous sentons ?",
+                  "function": "Transition : vers l’objection."
+                },
+                {
+                  "text": "On peut le soutenir : la sensibilité est réceptivité, et toute action, parce qu’elle oriente le regard, sélectionne ce qu’elle reçoit.",
+                  "function": "Deuxième moment : l’objection la plus forte, fondée."
+                },
+                {
+                  "text": "Mais accéder à sa sensibilité, c’est remarquer ce qui nous affecte, ce qui suppose une attention ; or une réceptivité sans aucune orientation ne serait plus attention, comme le montre l’ennui, où le repos complet émousse au lieu d’éveiller.",
+                  "function": "Répondre : l’inaction pure n’ouvre pas la sensibilité."
+                },
+                {
+                  "text": "Et certaines activités orientent sans utiliser : en marchant, je sens la pente et le froid que je ne sentirais pas immobile ; en dessinant un paysage, je suis obligé de le regarder.",
+                  "function": "Montrer, par des cas équitables, des actions qui ouvrent la sensibilité."
+                },
+                {
+                  "text": "Je ne crois donc pas que l’inaction soit nécessaire : ce n’est pas l’action qui ferme la sensibilité, mais l’intérêt.",
+                  "function": "Trancher, à la première personne, sans faute de logique."
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "Que faut-il alors suspendre ?",
+                  "function": "Transition : la question qui conduit à la réponse."
+                },
+                {
+                  "text": "Il faut suspendre l’attitude qui ne voit dans les choses que des moyens, et cette suspension peut accompagner un geste.",
+                  "function": "Troisième moment : déplacer ce qui doit être suspendu."
+                },
+                {
+                  "text": "Le dessinateur agit, mais son geste sert à voir, non à obtenir : il est actif et pourtant plus sensible qu’un passant pressé.",
+                  "function": "Montrer que l’attention désintéressée peut être active."
+                },
+                {
+                  "text": "Même le poète de Heredia, qui se dit « Chasseur », ne prend pas pour utiliser : il « emprisonne » des rêves, c’est-à-dire ce que l’instant lui a fait éprouver, changé par la rêverie.",
+                  "function": "Revenir au texte comme écho, en tenant compte de sa nuance."
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "Il n’est donc pas nécessaire de suspendre toute action pour accéder à notre sensibilité : il faut suspendre l’attitude utilitaire, qui peut cesser au milieu même de l’action.",
+                  "function": "Répondre avec les mots du sujet, sans déplacer la thèse."
+                },
+                {
+                  "text": "Accéder à ce que nous sentons demande moins le repos qu’une attention qui ne cherche rien à obtenir.",
+                  "function": "Dire ce que le raisonnement a établi."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "terminale-weil",
+      "level": "terminale",
+      "author": "Simone Weil",
+      "work": "L’Iliade ou le poème de la force (1941)",
+      "session": "Bac 2021 · Centres étrangers, groupe 1 · jour 1, sujet 2",
+      "code": "21-HLPJ1G11",
+      "source": "annales/hlp/2021-g1-j1-s2.pdf",
+      "pages": "Le sujet 2 du PDF officiel.",
+      "entry": "Histoire et violence",
+      "responses": [
+        {
+          "id": "interpretation",
+          "kind": "interpP",
+          "question": "D’après ce texte, pourquoi la violence de la guerre nous déshumanise-t-elle ?",
+          "choices": [
+            [
+              "Parce qu’en faisant de la mort le seul avenir, elle détruit la pensée qui se projette, juge et cherche une issue.",
+              "Solide",
+              "Vous rattachez la déshumanisation à ce que le texte dit perdre : l’avenir, le but, la capacité de penser une fin."
+            ],
+            [
+              "Parce qu’elle oblige les soldats à tuer, ce qui est contraire à la morale de tous les hommes.",
+              "Défendable",
+              "Le texte ne parle pas de la morale du meurtre ; il montre ce que la menace de la mort fait à la pensée de celui qui combat."
+            ],
+            [
+              "Parce que les soldats deviennent peu à peu cruels, finissent par aimer la guerre et oublient la pitié pour leurs ennemis.",
+              "À revoir",
+              "Le texte dit le contraire : l’âme « crie vers la délivrance » ; l’« ivresse de la force » est une fuite, non un goût."
+            ]
+          ],
+          "stages": [
+            [
+              "Expliquez en deux phrases pourquoi Simone Weil dit qu’avoir la mort pour avenir est « contre nature ».",
+              "Que fait d’habitude la pensée avec le lendemain ?",
+              "La pensée humaine se projette vers l’avenir ; si cet avenir est la mort, elle ne peut plus passer d’un jour à l’autre sans la rencontrer."
+            ],
+            [
+              "Montrez en deux phrases ce que la guerre efface, d’après le texte.",
+              "Cherchez les verbes « efface » et « mutile ».",
+              "Elle efface « toute idée de but », jusqu’à « la pensée même de mettre fin à la guerre » ; l’âme « se mutile de toute aspiration »."
+            ],
+            [
+              "Expliquez en trois phrases pourquoi ces malheurs durent « par leur propre poids ».",
+              "Ce qu’ils détruisent est ce qui permettrait d’en sortir.",
+              "La guerre ôte la capacité de « combiner » une issue : le malheur se prolonge parce qu’il détruit les moyens d’y mettre fin."
+            ],
+            [
+              "Dites en deux phrases ce qui, dans le texte, reste humain malgré tout.",
+              "Lisez la phrase qui commence par « Néanmoins ».",
+              "L’âme « crie vers la délivrance » : le désir de sortir demeure, mais il ne peut prendre que la forme de la destruction."
+            ],
+            [
+              "Écrivez en deux phrases la réponse à « pourquoi », avec les mots du texte.",
+              "Rassemblez avenir, but, issue.",
+              "La violence de la guerre déshumanise parce qu’elle retourne la pensée contre elle-même : l’homme cesse de se projeter, de vouloir une fin et de chercher une issue."
+            ]
+          ],
+          "criteria": [
+            "Je définis « déshumanise » au sens du texte : ce que la guerre fait perdre à la pensée.",
+            "Je reconstruis l’argument (cause, conséquences, cercle), sans résumer.",
+            "Je tiens compte de ce qui résiste : le cri vers la délivrance."
+          ],
+          "model": [
+            {
+              "sentences": [
+                {
+                  "text": "Dans L’Iliade ou le poème de la force (1941), Simone Weil décrit ce que la guerre fait à l’âme de ceux qui la vivent.",
+                  "function": "Situer : l’œuvre et le thème."
+                },
+                {
+                  "text": "La question demande pourquoi sa violence « nous déshumanise », c’est-à-dire nous fait perdre ce qui fait de nous des hommes.",
+                  "function": "Préciser le mot décisif de la question."
+                },
+                {
+                  "text": "Pour Simone Weil, la guerre déshumanise parce qu’en donnant la mort pour seul avenir, elle détruit la pensée qui se projette, vise un but et cherche une issue.",
+                  "function": "Énoncer la thèse du texte rapportée à la question."
+                },
+                {
+                  "text": "L’argument part de cette situation « contre nature », en tire une violence que l’âme se fait à elle-même, puis montre pourquoi la délivrance ne lui apparaît plus que sous la forme de la destruction.",
+                  "function": "Annoncer les moments de l’argument."
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "Le texte pose d’abord une thèse : « Que des hommes aient pour avenir la mort, cela est contre nature ».",
+                  "function": "Citer la thèse initiale."
+                },
+                {
+                  "text": "Il suppose ainsi que l’humain se définit par le temps : penser, c’est passer d’un jour au lendemain, et l’âme vit d’« aspiration », c’est-à-dire d’élan vers ce qui n’est pas encore.",
+                  "function": "Dégager ce que le texte suppose de l’humain, et définir « aspiration »."
+                },
+                {
+                  "text": "Or la guerre rend « sensible la possibilité de mort qu’enferme chaque minute » : la pensée ne peut plus aller vers le lendemain « sans traverser l’image de la mort ».",
+                  "function": "Expliquer le mécanisme : chaque projet passe par la mort."
+                },
+                {
+                  "text": "Cette tension, que l’esprit ne peut « souffrir » que « peu de temps », devient quotidienne : « les jours ajoutés aux jours font des années ».",
+                  "function": "Montrer que l’exceptionnel devient durable."
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "La conséquence est une violence que l’âme se fait à elle-même.",
+                  "function": "Deuxième moment : la mutilation."
+                },
+                {
+                  "text": "« Chaque matin l’âme se mutile de toute aspiration » : le verbe pronominal montre que la violence n’est plus seulement subie, elle est retournée contre soi.",
+                  "function": "Expliquer la forme pronominale et ce qu’elle établit."
+                },
+                {
+                  "text": "La guerre efface ainsi « toute idée de but », et jusqu’à « la pensée même de mettre fin à la guerre » : la situation est « inconcevable tant qu’on n’y est pas », et sa fin l’est « quand on y est ».",
+                  "function": "Dégager la perte du but et sa raison."
+                },
+                {
+                  "text": "Les bras doivent tenir les armes « en présence d’un ennemi armé », tandis que l’esprit, qui « devrait combiner pour trouver une issue », en a perdu « toute capacité ».",
+                  "function": "Montrer la contrainte de la situation et la paralysie de la raison."
+                },
+                {
+                  "text": "D’où un cercle, valable « qu’il s’agisse de servitude ou de guerre » : ces malheurs « durent parce qu’ils ôtent les ressources nécessaires pour en sortir », et semblent « du dehors faciles à porter ».",
+                  "function": "Reconstruire le cercle et sa portée générale."
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "Quelque chose d’humain résiste pourtant : « l’âme soumise à la guerre crie vers la délivrance ».",
+                  "function": "Troisième moment : intégrer ce qui résiste à la thèse."
+                },
+                {
+                  "text": "Mais elle ne se la représente que sous une forme « tragique, extrême », celle de la destruction, car une fin « modérée, raisonnable » laisserait voir un malheur insoutenable « même comme souvenir ».",
+                  "function": "Expliquer pourquoi la délivrance ne peut se penser que comme destruction."
+                },
+                {
+                  "text": "C’est pourquoi « on ne croit pas » que la terreur et les « compagnons détruits » puissent cesser de « mordre l’âme » sans que « l’ivresse de la force » vienne « les noyer ».",
+                  "function": "Dégager le dernier degré : la force, ici la violence armée qui domine, recherchée comme oubli, telle que l’âme se la représente."
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "La violence de la guerre nous déshumanise donc parce qu’elle fait de la mort notre seul avenir : elle détruit la pensée qui se projette, le désir d’un but et la raison qui chercherait une issue.",
+                  "function": "Répondre dans les mots de la question."
+                },
+                {
+                  "text": "Même le désir d’en sortir, dernier reste d’humanité, ne parvient plus à se représenter qu’à travers la force.",
+                  "function": "Dire la portée de la thèse, tirée du texte."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "essai",
+          "kind": "essaiL",
+          "question": "Que peut dire la littérature confrontée à une violence sans issue ?",
+          "choices": [
+            [
+              "Elle ne peut pas offrir d’issue, mais elle peut dire la violence sans mentir et faire voir l’humain qu’elle détruit.",
+              "Solide",
+              "Vous répondez à « que peut dire » en distinguant ce que la littérature ne peut pas faire et ce qu’elle peut."
+            ],
+            [
+              "Elle peut témoigner avec exactitude de ce qui s’est passé, pour que l’on n’oublie pas et que personne ne puisse le nier.",
+              "Défendable",
+              "Le témoignage est un premier pouvoir ; mais la question demande aussi ce que la forme littéraire ajoute au récit des faits."
+            ],
+            [
+              "Rien, car la violence extrême est indicible et les mots la trahissent toujours, quelle que soit l’œuvre.",
+              "À revoir",
+              "C’est une objection à examiner, non une réponse : des œuvres précises la mettent en défaut."
+            ]
+          ],
+          "stages": [
+            [
+              "Expliquez en deux phrases ce qu’est une « violence sans issue », à partir du texte de Simone Weil.",
+              "Pourquoi, selon elle, la guerre ne peut-elle finir ?",
+              "C’est une violence qui détruit les moyens d’en sortir : elle se prolonge par son propre poids."
+            ],
+            [
+              "Dites en deux phrases pourquoi la question se pose pour la littérature.",
+              "Le texte parle d’un malheur insoutenable « même comme souvenir ».",
+              "Si le malheur ne peut être soutenu même dans le souvenir, on peut douter que des mots puissent le dire."
+            ],
+            [
+              "Analysez en quatre phrases une œuvre qui témoigne d’une violence extrême.",
+              "Situer, citer ou décrire précisément, analyser, conclure.",
+              "Par exemple Si c’est un homme : la sobriété du récit de Primo Levi fait voir le camp sans pathos."
+            ],
+            [
+              "Examinez en trois phrases l’objection : la littérature embellit la violence.",
+              "Une belle forme peut rendre la violence supportable, ou même séduisante.",
+              "Le risque existe ; il faut dire à quelle condition la forme ne trahit pas ce qu’elle montre."
+            ],
+            [
+              "Écrivez une conclusion de deux phrases qui répond à « que peut dire ».",
+              "Répondez par ce que la littérature peut, et par ce qu’elle ne peut pas.",
+              "Elle ne donne pas d’issue ; elle dit la violence et garde visible l’humain qu’elle détruit."
+            ]
+          ],
+          "criteria": [
+            "Je pars du texte, puis des œuvres précises prennent le relais.",
+            "Chaque œuvre est analysée dans sa forme : un épisode, un procédé.",
+            "Je traite l’objection de l’indicible et je réponds à « que peut dire »."
+          ],
+          "model": [
+            {
+              "sentences": [
+                {
+                  "text": "Simone Weil décrit un malheur si violent qu’il ne peut être soutenu « même comme souvenir », et elle le fait pourtant en lisant un poème, l’Iliade.",
+                  "function": "Partir du texte : il fait naître la question et en indique déjà une piste."
+                },
+                {
+                  "text": "Une violence sans issue est une violence qui détruit les moyens d’en sortir ; la question demande ce que la littérature peut en dire, non si elle peut la faire cesser.",
+                  "function": "Définir les mots du sujet."
+                },
+                {
+                  "text": "Si cette violence échappe même au souvenir, comment des mots pourraient-ils la dire sans la trahir ?",
+                  "function": "Poser la question qui garde la tension."
+                },
+                {
+                  "text": "Je soutiendrai que la littérature ne peut pas mettre fin à cette violence, mais qu’elle peut la dire sans mentir et, en elle, rendre un instant à l’homme sa pensée : par le témoignage, puis à l’épreuve de l’indicible, enfin par la mémoire des œuvres.",
+                  "function": "Prendre position et annoncer le chemin."
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "La littérature peut d’abord témoigner, et Simone Weil elle-même place la servitude à côté de la guerre.",
+                  "function": "Premier moment : le témoignage, relié au texte."
+                },
+                {
+                  "text": "Dans Si c’est un homme, Primo Levi, chimiste de formation, décrit Auschwitz comme on consigne une expérience : les règles absurdes, la faim, les sélections, dans des phrases sobres.",
+                  "function": "Preuve : une œuvre précise et son trait d’écriture."
+                },
+                {
+                  "text": "Cette sobriété ne cherche pas à émouvoir : elle laisse les faits accuser eux-mêmes, et rend la violence intelligible sans la rendre supportable.",
+                  "function": "Analyser l’effet de cette sobriété."
+                },
+                {
+                  "text": "Dire, ici, c’est empêcher l’oubli et la négation.",
+                  "function": "Conclure le moment."
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "Mais les mots ne trahissent-ils pas ce qu’ils prétendent dire ?",
+                  "function": "Transition : l’objection la plus forte."
+                },
+                {
+                  "text": "On peut objecter que la violence extrême est indicible, et qu’une belle forme risque de communiquer au lecteur l’« ivresse de la force » que Simone Weil décrit chez les combattants.",
+                  "function": "Deuxième moment : formuler l’objection."
+                },
+                {
+                  "text": "Le risque est réel : le récit qui exalte la bataille transforme la violence en épopée héroïque.",
+                  "function": "Reconnaître ce que l’objection a de vrai."
+                },
+                {
+                  "text": "Mais l’Iliade montre qu’un poème peut refuser cette ivresse : au dernier chant, Priam vient demander à Achille le corps d’Hector, et les deux ennemis pleurent ensemble.",
+                  "function": "Répondre par un épisode précis qui refuse l’exaltation."
+                },
+                {
+                  "text": "Le poème donne aux deux camps la même pitié ; je crois donc que la forme ne trahit pas la violence quand elle refuse d’en faire une gloire.",
+                  "function": "Trancher, à la première personne."
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "Que peut dire alors la littérature, au cœur même de la violence ?",
+                  "function": "Transition : la question de ce que l’œuvre rend."
+                },
+                {
+                  "text": "Dans le chapitre « Le chant d’Ulysse », Primo Levi tente de réciter Dante à un camarade, pendant une corvée de soupe, et retrouve le vers « fatti non foste a viver come bruti ».",
+                  "function": "Troisième moment : un chapitre précis et un vers cité."
+                },
+                {
+                  "text": "Le récit le montre cherchant ses vers, en oubliant certains, s’acharnant à les retrouver : ce vers, qui dit que les hommes ne sont pas faits pour vivre comme des bêtes, contredit le camp au moment même où le camp veut les y réduire.",
+                  "function": "Analyser ce que le vers fait voir, ici."
+                },
+                {
+                  "text": "La littérature n’ouvre pas une issue réelle, mais elle rend, l’espace d’un instant, la pensée que la violence avait détruite.",
+                  "function": "Nuancer la thèse : un instant de pensée, non une issue."
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "Confrontée à une violence sans issue, la littérature ne peut donc pas y mettre fin ; elle peut la dire sans mentir et rendre, un instant, sa pensée à l’homme.",
+                  "function": "Répondre avec les mots du sujet."
+                },
+                {
+                  "text": "Là où la force détruit l’aspiration, l’œuvre la fait renaître, au moins le temps d’une lecture ou d’une récitation.",
+                  "function": "Dire ce que le raisonnement a fait comprendre de la littérature."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "terminale-barbusse",
+      "level": "terminale",
+      "author": "Barbusse",
+      "work": "Le Feu (1916)",
+      "session": "Bac 2023 · Amérique du Nord · jour 2",
+      "code": "23-HLPJ2AN1",
+      "source": "annales/hlp/2023-an-j2.pdf",
+      "pages": "Texte et questions dans le PDF officiel.",
+      "entry": "Histoire et violence",
+      "responses": [
+        {
+          "id": "interpretation",
+          "kind": "interpL",
+          "question": "Quelle vision paradoxale de la guerre se dégage de cet extrait ?",
+          "choices": [
+            [
+              "La guerre y paraît belle comme une fête au moment où elle tue, vue par des hommes qu’elle écrase.",
+              "Solide",
+              "Vous nommez les deux termes du paradoxe, la beauté et la mort, et le regard qui les unit."
+            ],
+            [
+              "Les soldats semblent heureux alors qu’ils sont en danger et épuisés par une longue marche de nuit.",
+              "Défendable",
+              "Ils admirent, mais le texte ne dit pas qu’ils sont heureux ; le paradoxe tient surtout à la beauté de ce qui tue."
+            ],
+            [
+              "La guerre est horrible, et l’auteur la dénonce par des descriptions violentes.",
+              "À revoir",
+              "L’extrait ne décrit aucune violence directe : ce qui frappe, c’est la beauté du bombardement."
+            ]
+          ],
+          "stages": [
+            [
+              "Relevez en deux phrases ce qui, au début, montre la souffrance de la troupe.",
+              "Regardez les adverbes et les sons.",
+              "« très lentement, très pesamment », les « geignements » et la sueur malgré le froid disent l’épuisement."
+            ],
+            [
+              "Relevez en une phrase les images qui font du ciel un spectacle.",
+              "Cherchez les mots de la fête et du merveilleux.",
+              "« étoile », « airs de fée », « arbres de lumière », « mirage de féerie », « feu d’artifice », « décor d’opéra »."
+            ],
+            [
+              "Expliquez en deux phrases l’effet de la phrase « C’est un obus ! ».",
+              "Elle suit « un éclair, une détonation » : une autre lumière que la fusée.",
+              "Après la fusée qui éclaire, la phrase brève nomme sans image l’arme qui tue ; les images féeriques reviennent pourtant aussitôt."
+            ],
+            [
+              "Analysez en deux phrases « grand décor d’opéra féerique et sinistre devant lequel rampe, grouille et clapote notre troupe basse ».",
+              "Comparez les deux adjectifs, puis les trois verbes.",
+              "Les adjectifs unissent beauté et menace ; les trois verbes font de la troupe une masse animale au pied du décor."
+            ],
+            [
+              "Dites en deux phrases ce que montre la phrase « Ceux d’entre nous qui… ne voient rien et ne disent rien ».",
+              "Tous les soldats regardent-ils ?",
+              "Le spectacle n’est que pour ceux qui ont la force de lever les yeux : les autres, écrasés par le fardeau, ne voient rien."
+            ]
+          ],
+          "criteria": [
+            "Je nomme les deux termes du paradoxe et je les montre dans les mots du texte.",
+            "Chaque étape analyse un fait d’écriture : image, rythme, phrase brève, paroles rapportées.",
+            "Je tiens compte de ce qui résiste : ceux qui ne voient rien."
+          ],
+          "model": [
+            {
+              "sentences": [
+                {
+                  "text": "Dans Le Feu (1916), roman nourri de son expérience du front, Barbusse raconte au présent, avec le « nous » des soldats, une marche de nuit « vers les lieux vagues où nous allons », pendant un bombardement.",
+                  "function": "Situer : l’œuvre, la voix, la situation."
+                },
+                {
+                  "text": "La question invite à chercher ce que le texte rapproche contre toute attente : ici, la beauté et la mort.",
+                  "function": "Préciser le mot décisif de la question : « paradoxale »."
+                },
+                {
+                  "text": "L’extrait fait voir le bombardement comme une fête de lumière, admirée par des hommes que la guerre écrase, et que le narrateur sait pourtant illusoire.",
+                  "function": "Donner la lecture défendue."
+                },
+                {
+                  "text": "La misère de la troupe le prépare, le spectacle du ciel l’impose, et le regard des soldats l’achève.",
+                  "function": "Annoncer les trois étapes."
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "Le texte s’ouvre sur la souffrance la plus concrète : on avance « très lentement, très pesamment ».",
+                  "function": "Situer et citer l’ouverture."
+                },
+                {
+                  "text": "La répétition de « très » alourdit la phrase comme la marche, et les « sourdes malédictions que l’effort étrangle dans les gorges » font entendre une douleur à peine dite.",
+                  "function": "Preuve : le rythme et les sons de la souffrance."
+                },
+                {
+                  "text": "La précision des distances, « cent mètres », « deux cents mètres », et la sueur malgré la « bise aigre » mesurent l’épuisement.",
+                  "function": "Preuve : le relevé précis qui donne à voir l’effort."
+                },
+                {
+                  "text": "La guerre est d’abord un écrasement des corps, au ras du sol.",
+                  "function": "Conclure l’étape."
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "Le regard se lève alors vers le ciel, où la guerre devient spectacle.",
+                  "function": "Transition : du sol au ciel."
+                },
+                {
+                  "text": "La fusée qui éclaire la nuit devient une fleur et une fée : elle « s’épanouit » et « descend gracieusement, avec des airs de fée ».",
+                  "function": "Preuve : la métaphore et le rythme apaisé."
+                },
+                {
+                  "text": "Puis vient une autre lumière, « un éclair, une détonation », et la phrase brève « C’est un obus ! » nomme la menace sans image.",
+                  "function": "Preuve : la rupture de construction, qui fait entendre l’arme."
+                },
+                {
+                  "text": "Les images reviennent pourtant, plus riches encore : des « arbres de lumière violacée », une « forêt subite de panaches phosphorescents », un « mirage de féerie bleu et blanc ».",
+                  "function": "Preuve : la métaphore filée du merveilleux, qui revient malgré le danger."
+                },
+                {
+                  "text": "Or « L’obus est tombé sur le sommet, dans nos lignes » : ce ciel féerique est celui qui frappe leurs propres camarades.",
+                  "function": "Intégrer le paradoxe le plus fort : la beauté du feu qui tue les siens."
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "Ce paradoxe tient enfin au regard de ceux qui marchent.",
+                  "function": "Transition : du spectacle aux spectateurs."
+                },
+                {
+                  "text": "« Complétant l’illusion de grand décor d’opéra féerique et sinistre », le narrateur unit beauté et mort dans deux adjectifs, mais nomme aussi le spectacle une « illusion ».",
+                  "function": "Preuve : l’alliance des adjectifs et le commentaire du narrateur."
+                },
+                {
+                  "text": "Le rythme ternaire « rampe, grouille et clapote » réduit la « troupe basse » à une masse animale au pied de ce décor.",
+                  "function": "Preuve : le rythme ternaire et les verbes animaux."
+                },
+                {
+                  "text": "Les paroles rapportées, « C’est comme si tu vois un feu d’artifice », gardent la langue fautive des soldats, et leur « confus accent d’admiration populaire » s’impose malgré eux : « On ne peut s’empêcher ».",
+                  "function": "Preuve : le discours direct et ce qu’il dit d’une admiration involontaire."
+                },
+                {
+                  "text": "Ce spectacle n’est d’ailleurs pas pour tous : ceux qui portent les fardeaux « ne voient rien et ne disent rien ».",
+                  "function": "Intégrer ce qui résiste : ceux que la guerre empêche même de regarder."
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "L’extrait dégage donc une vision paradoxale de la guerre : belle comme une fête au moment où elle frappe, elle est admirée par des hommes qu’elle réduit à ramper.",
+                  "function": "Répondre dans les mots de la question."
+                },
+                {
+                  "text": "En nommant cette beauté « illusion » et « mirage », le narrateur fait sentir qu’elle est un leurre : la guerre transforme la mort en spectacle.",
+                  "function": "Dire ce que l’écriture fait comprendre."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "essai",
+          "kind": "essaiP",
+          "question": "Peut-on donner une description objective de la guerre ?",
+          "choices": [
+            [
+              "Pas d’un point de vue de nulle part ; mais en confrontant les points de vue, et en avouant le sien.",
+              "Solide",
+              "Vous distinguez deux sens de l’objectivité et vous répondez à « peut-on »."
+            ],
+            [
+              "Oui, si l’on s’en tient aux faits : dates, lieux, nombre de morts.",
+              "Défendable",
+              "Ces faits sont objectifs, mais ils ne décrivent pas toute la guerre, telle qu’elle est vécue."
+            ],
+            [
+              "Non, car chaque témoin ment pour se donner le beau rôle, et aucun récit de soldat ne mérite qu’on le croie.",
+              "À revoir",
+              "Un point de vue partiel n’est pas un mensonge : il faut distinguer partialité et fausseté."
+            ]
+          ],
+          "stages": [
+            [
+              "Définissez en deux phrases une « description objective ».",
+              "Ce qui ne dépend pas de celui qui décrit, et que d’autres peuvent vérifier.",
+              "Une description objective dit ce qui est, indépendamment des sentiments et de la place de celui qui décrit, et peut être vérifiée par d’autres."
+            ],
+            [
+              "Dites en deux phrases pourquoi le texte de Barbusse pose la question.",
+              "Comment les soldats voient-ils le bombardement ?",
+              "Le témoin voit un « feu d’artifice » là où tombent des obus, et certains ne voient rien : le témoignage semble partiel."
+            ],
+            [
+              "Montrez en trois phrases qu’une part de la guerre peut être décrite objectivement.",
+              "Pensez au travail de l’historien.",
+              "Les dates, les mouvements, les pertes peuvent être établis en croisant les sources."
+            ],
+            [
+              "Expliquez en trois phrases ce qui échappe à cette description.",
+              "Un chiffre dit-il la peur, la boue, l’attente ?",
+              "L’expérience vécue échappe au chiffre, et chaque combattant ne voit qu’une partie de la bataille."
+            ],
+            [
+              "Écrivez en deux phrases la condition d’une description objective de la guerre.",
+              "L’objectivité est-elle l’absence de point de vue ?",
+              "Elle naît de la confrontation des points de vue et de l’aveu du sien, non d’un regard sans place."
+            ]
+          ],
+          "criteria": [
+            "Je définis « objective » et je distingue deux sens de l’objectivité.",
+            "Chaque moment est fondé par une raison et montré par un exemple précis.",
+            "Je traite l’objection de la subjectivité du témoin et je réponds à « peut-on »."
+          ],
+          "model": [
+            {
+              "sentences": [
+                {
+                  "text": "Les soldats de Barbusse comparent le bombardement à un « feu d’artifice », et ceux qui portent les fardeaux « ne voient rien » : le témoin le plus proche ne voit qu’une partie, et à travers son émotion.",
+                  "function": "Partir du texte : il fait naître la question."
+                },
+                {
+                  "text": "Une description objective dirait ce qui est, indépendamment de la place et des sentiments de celui qui décrit, et pourrait être vérifiée par d’autres.",
+                  "function": "Définir les mots du sujet."
+                },
+                {
+                  "text": "Or nul ne voit la guerre en entier : peut-on la décrire telle qu’elle est, quand chacun ne la vit que d’un point ?",
+                  "function": "Poser la question qui garde la tension."
+                },
+                {
+                  "text": "Je soutiendrai qu’on ne peut pas la décrire d’un point de vue de nulle part, mais qu’on peut approcher une description objective en confrontant les points de vue : par les faits, puis par ce qui leur échappe, enfin par ce qu’il faut entendre par objectivité.",
+                  "function": "Prendre position et annoncer le chemin."
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "Une part de la guerre peut d’abord être décrite objectivement.",
+                  "function": "Premier moment : la thèse."
+                },
+                {
+                  "text": "Les dates, les lieux, les mouvements des armées et le nombre des morts ne dépendent pas de l’émotion de celui qui les rapporte, et peuvent être établis en croisant archives, ordres et témoignages.",
+                  "function": "Fonder la thèse : ce qui est vérifiable, et comment."
+                },
+                {
+                  "text": "Cette méthode a pourtant ses limites : il faut choisir les sources, les chiffres restent contestés, et tout récit ordonne ce qu’il raconte.",
+                  "function": "Mettre la méthode elle-même à l’épreuve."
+                },
+                {
+                  "text": "L’objectivité n’est donc pas donnée : elle se construit, et reste révisable.",
+                  "function": "Conclure le moment."
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "Mais ces faits décrivent-ils la guerre telle qu’on la vit ?",
+                  "function": "Transition : la limite du premier moment."
+                },
+                {
+                  "text": "Un chiffre ne dit ni la peur, ni la boue, ni l’attente, qui font pourtant la réalité de la guerre pour ceux qui la font.",
+                  "function": "Deuxième moment : ce qui échappe aux faits mesurables."
+                },
+                {
+                  "text": "Et le témoin ne voit qu’une partie : dans La Chartreuse de Parme, Fabrice erre à Waterloo sans comprendre qu’il assiste à une grande bataille.",
+                  "function": "Montrer, par un épisode précis, la partialité du témoin."
+                },
+                {
+                  "text": "On objectera que toute description de la guerre est donc subjective, et que le roman même de Barbusse a été contesté : en 1929, dans Témoins, Jean Norton Cru, ancien combattant, en a sévèrement jugé la fiabilité.",
+                  "function": "Formuler l’objection la plus forte, avec un cas réel."
+                },
+                {
+                  "text": "Je réponds que cette critique prouve l’inverse de ce qu’elle semble prouver : sa méthode consistait justement à confronter les témoignages, et c’est ainsi qu’on corrige un récit, donc qu’on approche l’objectivité.",
+                  "function": "Répondre à l’objection."
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "Que faut-il alors appeler une description objective de la guerre ?",
+                  "function": "Transition : la question qui conduit à redéfinir."
+                },
+                {
+                  "text": "Ce n’est pas un regard sans place, qui n’existe pas, mais la confrontation de regards situés, dont chacun dit d’où il voit.",
+                  "function": "Troisième moment : redéfinir l’objectivité."
+                },
+                {
+                  "text": "Cette confrontation peut même établir objectivement ce qui est vécu : que des hommes épuisés admirent le feu qui les menace devient un fait quand plusieurs témoins le rapportent.",
+                  "function": "Distinguer : une description objective peut porter sur une expérience subjective."
+                },
+                {
+                  "text": "Le roman de Barbusse, dont le narrateur partage l’admiration des soldats tout en la nommant « illusion », est ainsi une pièce de ce dossier, non sa vérité entière.",
+                  "function": "Revenir au texte comme écho."
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "On ne peut donc pas décrire la guerre d’un point de vue de nulle part ; on peut seulement approcher une description objective, en confrontant les points de vue et en avouant le sien.",
+                  "function": "Répondre avec les mots du sujet, sans durcir la thèse."
+                },
+                {
+                  "text": "L’objectivité de la guerre ne se trouve dans aucun récit isolé : elle se construit entre eux.",
+                  "function": "Dire ce que le raisonnement a établi."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "terminale-rousseau",
+      "level": "terminale",
+      "author": "Rousseau",
+      "work": "Lettres morales, VI (1758)",
+      "session": "Bac 2022 · Métropole · jour 2, sujet 1",
+      "code": "22-HLPJ2ME1",
+      "source": "annales/hlp/2022-me-j2-s1.pdf",
+      "pages": "Le sujet 1 du PDF officiel.",
+      "entry": "Les métamorphoses du moi",
+      "responses": [
+        {
+          "id": "interpretation",
+          "kind": "interpP",
+          "question": "Dans quelle mesure pouvons-nous redevenir nous-mêmes ?",
+          "choices": [
+            [
+              "Nous le pouvons par la volonté, en nous détournant de l’opinion ; mais c’est un commencement toujours à reprendre.",
+              "Solide",
+              "Vous répondez par une condition (la volonté, le recueillement) et par une limite (« commençons »)."
+            ],
+            [
+              "Nous le pouvons en étudiant la philosophie, qui apprend à se connaître soi-même et à rentrer en soi.",
+              "À revoir",
+              "Le texte dit l’inverse : l’orgueil, « sous son nom », nous écarte de nous ; il faut rentrer en soi pour philosopher."
+            ],
+            [
+              "Nous le pouvons en cherchant la solitude, loin des autres et du bruit du monde, comme Rousseau le conseille à son amie.",
+              "Défendable",
+              "La solitude est un moyen ; il faut dire ce qu’elle rend possible, la séparation d’avec l’opinion, et ce qui la limite."
+            ]
+          ],
+          "stages": [
+            [
+              "Expliquez en deux phrases pourquoi, selon Rousseau, nous ne sommes plus nous-mêmes.",
+              "Lisez la comparaison avec l’insecte et sa toile.",
+              "Occupés de l’opinion, nous étendons notre existence hors de nous, comme l’insecte dans sa toile, et ne réservons presque rien à notre propre cœur."
+            ],
+            [
+              "Expliquez en deux phrases l’image du dessin.",
+              "« le premier trait d’un dessin se forme des lignes qui le terminent ».",
+              "Comme un dessin naît de son contour, le moi se connaît en se séparant de ce qui n’est pas lui."
+            ],
+            [
+              "Dites en deux phrases de quoi dépend, selon le texte, ce retour à soi.",
+              "« il dépend plus de la volonté que des lumières ».",
+              "Il dépend de la volonté plus que du savoir : il faut détourner les yeux de ce qui nous distrait."
+            ],
+            [
+              "Relevez en une phrase ce qui limite ce retour à soi.",
+              "Relisez ce que fait l’insecte quand on déchire sa toile, et le verbe « commençons ».",
+              "L’homme vain refait sa toile « à l’instant », et « commençons » dit un début : il faut persévérer à fixer le regard sur soi."
+            ],
+            [
+              "Écrivez en deux phrases la réponse à « dans quelle mesure ».",
+              "Une condition, puis une limite.",
+              "Nous le pouvons dans la mesure où la volonté se détourne de l’opinion ; mais c’est un commencement à reprendre sans cesse."
+            ]
+          ],
+          "criteria": [
+            "Je réponds par un degré et une condition, comme le demande « dans quelle mesure ».",
+            "J’explique « redevenir » : une perte, puis un retour dans les bornes de la nature.",
+            "Je reconstruis l’argument et ses images, sans ajouter d’autre auteur."
+          ],
+          "model": [
+            {
+              "sentences": [
+                {
+                  "text": "Dans la sixième des Lettres morales (1758), Rousseau explique à une amie comment se connaître soi-même.",
+                  "function": "Situer : l’œuvre et le thème."
+                },
+                {
+                  "text": "Le verbe « redevenir » suppose que nous avons été nous-mêmes et que nous avons cessé de l’être ; « Dans quelle mesure » demande à quelle condition, et jusqu’où, ce retour est possible.",
+                  "function": "Préciser les mots décisifs de la question."
+                },
+                {
+                  "text": "Pour Rousseau, nous le pouvons, et plus aisément qu’on ne croit, parce que ce retour dépend de la volonté plus que du savoir ; mais il n’est qu’un commencement.",
+                  "function": "Énoncer la thèse du texte rapportée à la question."
+                },
+                {
+                  "text": "Le texte montre d’abord ce qui nous a fait nous perdre, puis comment nous rassembler, enfin où se trouve la vraie difficulté.",
+                  "function": "Annoncer les moments de l’argument."
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "Nous ne sommes plus nous-mêmes parce que nous vivons dans l’opinion.",
+                  "function": "Premier moment : la cause de la perte."
+                },
+                {
+                  "text": "Chacun, « sans cesse occupé de l’opinion publique », étend « pour ainsi dire son existence tout autour de lui sans en réserver presque rien dans son propre cœur ».",
+                  "function": "Citer la thèse et expliquer « étendre son existence »."
+                },
+                {
+                  "text": "L’image de l’insecte le précise : il « paraît sensible » par sa seule toile, comme l’homme par sa « vanité », cette « toile d’araignée qu’il tend sur tout ce qui l’environne ».",
+                  "function": "Expliquer l’image : une sensibilité placée hors de soi."
+                },
+                {
+                  "text": "Cette dépendance est épuisante : l’insecte s’épuise à refaire sa toile « à l’instant » plutôt que de rester sans elle.",
+                  "function": "Dégager le prix de cette dépendance."
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "Comment alors redevenir nous ?",
+                  "function": "Transition : la question du remède."
+                },
+                {
+                  "text": "Le texte répond : « redevenir nous », « nous concentrer en nous », « circonscrire notre âme des mêmes bornes que la nature a données à notre être ».",
+                  "function": "Deuxième moment : citer la réponse et sa construction."
+                },
+                {
+                  "text": "Redevenir soi, c’est rentrer dans ses limites naturelles, comme le dessin qui naît des « lignes qui le terminent » : le moi se connaît en se séparant « de tout ce qui n’est pas lui ».",
+                  "function": "Expliquer l’analogie du dessin et l’opération de séparation."
+                },
+                {
+                  "text": "Celui qui sait le mieux « en quoi consiste le moi humain » « est le plus près de la sagesse » : la connaissance de soi est un degré vers elle, non une somme de savoirs.",
+                  "function": "Expliquer le rapport entre moi et sagesse, et le degré qu’il indique."
+                },
+                {
+                  "text": "D’où le conseil : « Recueillez-vous, cherchez la solitude », car « par celui-là seul on découvre bientôt les vôtres », c’est-à-dire ses propres secrets.",
+                  "function": "Préciser le moyen et l’optimisme du texte."
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "Où est donc la difficulté ?",
+                  "function": "Transition : la question de la mesure."
+                },
+                {
+                  "text": "Cet art « n’est pas si difficile qu’on pourrait croire, ou du moins la difficulté n’est pas où on la croit » : il « dépend plus de la volonté que des lumières ».",
+                  "function": "Troisième moment : déplacer la difficulté, avec le texte."
+                },
+                {
+                  "text": "Le miroir « est devant nous », mais il faut « jeter les yeux », puis les « fixer », et pour cela « écarter les objets qui nous en détournent » : on peut comprendre que la difficulté est de persévérer.",
+                  "function": "Expliquer l’image du miroir sans la durcir."
+                },
+                {
+                  "text": "Elle vient aussi d’un faux savoir, car « l’orgueil sous son nom » nous écarte de nous ; il faut « rentrer en soi pour apprendre à philosopher », non l’inverse.",
+                  "function": "Montrer qu’un savoir mal compris éloigne de soi."
+                },
+                {
+                  "text": "Le verbe « commençons », répété, dit enfin un début, non un état atteint.",
+                  "function": "Dégager la limite : un commencement."
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "Nous pouvons donc redevenir nous-mêmes dans la mesure où notre volonté se détourne de l’opinion et nous rassemble dans les bornes de notre nature, ce qui est moins difficile qu’on ne le croit.",
+                  "function": "Répondre : le degré et la condition."
+                },
+                {
+                  "text": "Mais ce retour est un commencement, qui demande de garder fixé sur soi le regard que l’opinion détourne.",
+                  "function": "Dire la portée de la thèse, tirée du texte."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "essai",
+          "kind": "essaiL",
+          "question": "Lire permet-il d’accéder à une meilleure connaissance de soi ?",
+          "choices": [
+            [
+              "Oui, si le lecteur revient du livre à lui-même ; non, s’il se perd dans le personnage.",
+              "Solide",
+              "Vous répondez avec une condition, et vous tenez compte du risque que la lecture éloigne de soi."
+            ],
+            [
+              "Oui, car en lisant, on se reconnaît dans les personnages et l’on découvre ainsi des sentiments qu’on ignorait en soi.",
+              "Défendable",
+              "Se reconnaître est un premier pas ; mais on peut aussi se confondre avec un personnage et se méconnaître."
+            ],
+            [
+              "Non, puisque lire, c’est penser avec les idées d’un autre que soi, comme le montre Rousseau.",
+              "À revoir",
+              "Rousseau ne parle pas de la lecture ; et penser avec un autre peut aussi aider à penser par soi-même."
+            ]
+          ],
+          "stages": [
+            [
+              "Dites en deux phrases pourquoi le texte de Rousseau pose la question de la lecture.",
+              "Il faut « écarter les objets qui nous en détournent ».",
+              "Si se connaître demande de se détourner des autres, un livre, qui est la voix d’un autre, pourrait nous éloigner de nous."
+            ],
+            [
+              "Analysez en quatre phrases une œuvre qui fait de la lecture un miroir.",
+              "Proust, dans Le Temps retrouvé, compare le livre à un instrument d’optique.",
+              "Le livre permet au lecteur de discerner en lui ce qu’il n’aurait peut-être pas vu sans lui."
+            ],
+            [
+              "Analysez en quatre phrases une œuvre où la lecture fait se méconnaître.",
+              "Emma Bovary et les romans lus au couvent.",
+              "Emma attend de la vie ce que lui ont promis ses lectures : elle se voit en héroïne et ne se connaît pas."
+            ],
+            [
+              "Expliquez en trois phrases ce qui distingue ces deux lectures.",
+              "Que fait le lecteur après avoir lu ?",
+              "L’une revient au lecteur et l’aide à se voir ; l’autre l’enferme dans le personnage."
+            ],
+            [
+              "Écrivez une conclusion de deux phrases qui répond avec les mots du sujet.",
+              "Une réponse, puis une condition.",
+              "Lire permet de mieux se connaître quand le livre sert de miroir et que l’on revient à soi."
+            ]
+          ],
+          "criteria": [
+            "Je pars du texte, puis des œuvres précises prennent le relais.",
+            "Je traite l’objection : la lecture peut faire se méconnaître.",
+            "Ma réponse garde « meilleure connaissance de soi » et pose une condition."
+          ],
+          "model": [
+            {
+              "sentences": [
+                {
+                  "text": "Rousseau demande d’« écarter les objets qui nous en détournent » pour rentrer en soi, et se méfie d’une philosophie qui nous éloigne de nous.",
+                  "function": "Partir du texte : il fait naître la question."
+                },
+                {
+                  "text": "Lire, c’est entrer dans la pensée d’un autre ; mieux se connaître, c’est voir plus clairement et plus justement ce que l’on est qu’on ne le voyait sans lire.",
+                  "function": "Définir les mots du sujet, « meilleure » compris."
+                },
+                {
+                  "text": "Comment la voix d’un autre pourrait-elle nous rendre plus clairs à nous-mêmes, si se connaître demande de se détourner des autres ?",
+                  "function": "Poser la question qui garde la tension."
+                },
+                {
+                  "text": "Je soutiendrai que lire aide à mieux se connaître quand le lecteur revient du livre à lui-même : je le montrerai par la lecture qui révèle, puis par celle qui égare, enfin par ce qui les distingue.",
+                  "function": "Prendre position et annoncer le chemin."
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "La lecture peut d’abord révéler le lecteur à lui-même.",
+                  "function": "Premier moment : la thèse."
+                },
+                {
+                  "text": "Dans Le Temps retrouvé, Proust compare le livre à un instrument d’optique offert au lecteur, et fait de chaque lecteur « le propre lecteur de soi-même ».",
+                  "function": "Preuve : une œuvre précise, son image et une citation brève."
+                },
+                {
+                  "text": "L’image est juste : on ne lit pas pour regarder la lentille, mais pour voir à travers elle, et parfois en soi.",
+                  "function": "Analyser l’image et ce qu’elle prouve."
+                },
+                {
+                  "text": "La connaissance est alors « meilleure » au sens exact : le lecteur discerne en lui ce qu’il n’aurait pas vu sans le livre.",
+                  "function": "Revenir au mot du sujet."
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "Mais le livre ne peut-il pas aussi égarer ?",
+                  "function": "Transition : l’objection la plus forte."
+                },
+                {
+                  "text": "Dans Madame Bovary, Emma, à peine mariée, cherche ce que l’on entend dans la vie par les mots de félicité, de passion et d’ivresse, « qui lui avaient paru si beaux dans les livres ».",
+                  "function": "Deuxième moment : une œuvre qui montre la lecture qui égare, avec une phrase citée."
+                },
+                {
+                  "text": "Le plus-que-parfait place les livres avant la vie : Emma mesure son mariage à des mots lus, et ne trouve dans son existence que l’absence de ce qu’ils promettaient.",
+                  "function": "Analyser le temps verbal et ce qu’il prouve."
+                },
+                {
+                  "text": "Elle aussi se mire dans ses lectures, mais elle n’en revient jamais : c’est la toile de Rousseau, une existence placée dans des images venues d’ailleurs.",
+                  "function": "Relier l’objection au texte, en écho."
+                },
+                {
+                  "text": "Je reconnais donc que lire peut faire se méconnaître.",
+                  "function": "Reconnaître la part de vrai de l’objection."
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "Qu’est-ce qui sépare alors la lecture qui éclaire de celle qui égare ?",
+                  "function": "Transition : la question du critère."
+                },
+                {
+                  "text": "Ce n’est pas le livre, ni le fait de s’y reconnaître, mais le retour du lecteur : Emma se perd dans ses modèles, le lecteur tel que Proust le décrit revient à lui.",
+                  "function": "Troisième moment : déplacer le critère vers le lecteur."
+                },
+                {
+                  "text": "Le même roman peut d’ailleurs produire les deux effets : en montrant l’écart entre les mots lus et la vie, Madame Bovary permet au lecteur de reconnaître en lui ce même écart.",
+                  "function": "Montrer que le critère tient au lecteur, non au livre."
+                },
+                {
+                  "text": "Lire n’est utile à la connaissance de soi que si la lecture s’achève hors du livre, dans le recueillement que demande Rousseau : le livre peut le préparer, non le remplacer.",
+                  "function": "Établir la condition, avec le texte en écho."
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "Lire permet donc d’accéder à une meilleure connaissance de soi, à condition que le lecteur revienne du livre à lui-même.",
+                  "function": "Répondre avec les mots du sujet."
+                },
+                {
+                  "text": "La lecture ne fait pas à notre place le travail de se connaître ; elle nous donne de quoi le faire.",
+                  "function": "Dire ce que le raisonnement a fait comprendre de la lecture."
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
