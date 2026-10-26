@@ -1,4 +1,4 @@
-# Propositions au clic des pages de sujet (Ponge, Dorion, Sarraute, Rimbaud).
+# Propositions au clic des pages de sujet (Ponge, Dorion, Sarraute, Rimbaud, Corneille).
 # La bonne réponse vient de la copie à 20 ; les autres sont écrites ici, chacune avec son type
 # (le type donne l'explication affichée à l'élève, voir gen.py).
 # p1 : ce que l'œuvre montre aussi · p2 : la question · plan · analyse (du passage « preuve » de la copie)
@@ -486,4 +486,51 @@ LONG.update({
  "cahier-de-douai-ecrire-contre": dict(theme="Le recueil parle de la jeunesse, de la guerre et de la nature, avec des poèmes sur la bohème, les promenades et les premiers amours.",
    dialectique="I. Rimbaud écrit contre Dieu et la guerre / II. Rimbaud écrit pour la nature et la jeunesse / III. Il écrit à la fois pour et contre",
    general="La négation montre que le poète refuse quelque chose, et le pronom « on » donne au vers la valeur d’une vérité générale sur la jeunesse."),
+})
+
+# ── Corneille, Le Menteur ── (affirmations vérifiées sur le texte de la pièce)
+_M = "<em>Le Menteur</em>"
+E["le-menteur"] = dict(
+ p1=[("Dorante invente sur-le-champ une guerre, une fête sur l’eau et un mariage, et ses auditeurs le croient.","redit"),
+     ("La pièce parle d’amour, de mariage et de rivalité entre jeunes gens de Paris.","theme"),
+     ("Dorante ne ment qu’une seule fois, et il avoue aussitôt la vérité à son père.","faux")],
+ p2=[(f"L’art du mensonge est-il toujours maîtrisé dans {_M} ?","reprise"),
+     (f"Comment Dorante maîtrise-t-il l’art du mensonge dans {_M}, de la fête sur l’eau au mariage inventé de Poitiers ?","partielle"),
+     ("Comment Corneille concilie-t-il la maîtrise du menteur et l’échec de ses mensonges ?","resout")],
+ plan=[("I. Oui, le mensonge est maîtrisé / II. Non, il ne l’est pas / III. Il l’est en partie","dialectique"),
+       ("I. Le mensonge / II. L’amour / III. Le père","thematique"),
+       ("I. L’acte I / II. Les actes II et III / III. Les actes IV et V","ordre")],
+ analyse=[("Cliton ne croit pas Dorante, même quand celui-ci assure dire la vérité.","paraphrase"),
+          ("On relève une maxime, dite par le valet, au présent de vérité générale.","etiquette"),
+          ("La maxime de Cliton montre qu’il ne fait plus confiance à son maître.","general")],
+)
+E["le-menteur-histoires"] = dict(
+ p1=[("Dorante raconte une fête sur l’eau très détaillée, et Cliton admire ses talents de romancier.","redit"),
+     ("La pièce parle de la jeunesse, de l’amour et de la vie parisienne.","theme"),
+     ("Personne ne croit jamais Dorante : ses histoires n’ont aucun effet sur les autres.","faux")],
+ p2=[(f"Dans {_M}, mentir, est-ce seulement raconter des histoires ?","reprise"),
+     (f"Quelles histoires Dorante raconte-t-il dans {_M} ?","partielle"),
+     (f"Comment Corneille réussit-il à concilier, dans {_M}, le plaisir de raconter et le mal que font les histoires inventées ?","resout")],
+ plan=[("I. Oui, mentir, c’est raconter / II. Non, c’est tromper / III. C’est un peu les deux","dialectique"),
+       ("I. Le mensonge / II. L’amour / III. L’honneur","thematique"),
+       ("I. La fête sur l’eau / II. Le mariage de Poitiers / III. Le duel inventé","ordre")],
+ analyse=[("Alcippe répond à Philiste que le lieu et l’heure correspondent, et que le reste compte peu.","paraphrase"),
+          ("On relève un alexandrin coupé en trois, qui se termine par une négation.","etiquette"),
+          ("La réplique montre qu’Alcippe est très jaloux.","general")],
+)
+OK.update({
+ "le-menteur": ("Ses mensonges le dépassent : il se trompe de nom, s’embrouille, et n’épouse pas celle qu’il courtisait.",
+   "I. Dorante maîtrise ses récits / II. Mais leurs suites lui échappent / III. La comédie reprend la maîtrise perdue",
+   "Même exacte, la parole de Dorante ne vaut plus rien : le mensonge a usé jusqu’à sa vérité."),
+ "le-menteur-histoires": ("Ces histoires agissent : elles rendent un ami jaloux jusqu’au duel et ridiculisent un père.",
+   "I. Dorante ment en conteur / II. Mais ses contes agissent comme des actes / III. La comédie fait de ce pouvoir son spectacle",
+   "Le jaloux ne vérifie plus rien : le conte de Dorante est devenu pour lui un fait, et le mène au duel."),
+})
+LONG.update({
+ "le-menteur": dict(theme="La pièce parle d’amour, de mariages arrangés par les pères et de rivalité entre jeunes gens, des Tuileries aux rues de Paris.",
+   dialectique="I. Oui, Dorante maîtrise l’art du mensonge / II. Non, ses mensonges échouent / III. Il le maîtrise en partie seulement",
+   general="La maxime de Cliton montre qu’il ne fait plus du tout confiance à son maître, ce qui rend la scène comique pour le spectateur."),
+ "le-menteur-histoires": dict(theme="La pièce parle de la jeunesse, de l’amour, des promenades et des fêtes de la vie parisienne, des Tuileries aux bords de l’eau.",
+   dialectique="I. Oui, mentir, c’est raconter des histoires / II. Non, c’est tromper les autres / III. C’est à la fois raconter et tromper",
+   general="La réplique d’Alcippe montre qu’il est très jaloux et qu’il croit tout ce qu’on lui raconte sur la femme qu’il aime."),
 })
