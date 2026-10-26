@@ -106,9 +106,9 @@ document.addEventListener('DOMContentLoaded',()=> {
     "lecture · langue · rédaction",
     [
       [
-        "brevet-lecture-parcours.html",
-        "Comprendre un texte",
-        "Justifier et interpréter"
+        "brevet-comprehension.html",
+        "Compréhension",
+        "Répondre, citer, expliquer"
       ],
       [
         "brevet-grammaire.html",
@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded',()=> {
     "sujets officiels",
     [
       [
-        "annales.html#bac",
+        "annales-bac.html",
         "Bac de français",
         "Sujets et corrigés par session"
       ],
@@ -165,7 +165,7 @@ document.addEventListener('DOMContentLoaded',()=> {
         "Interprétation et essai"
       ],
       [
-        "annales.html#brevet",
+        "brevet.html#brevet-sujets",
         "Brevet",
         "Sujets officiels de français"
       ]

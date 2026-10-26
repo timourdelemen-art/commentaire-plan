@@ -116,7 +116,7 @@ def transforme(name, P):
     for sec in secs[1:]:
         by.setdefault(cls(sec).split()[0], []).append(sec)
     methode = ''.join(sec for k in P['methode'] for sec in by.pop(k))
-    exos = by.pop('exercise-wrap'); bank = by.pop('brevet-bank-section')
+    exos = by.pop('exercise-wrap'); bank = ''.join(by.pop('brevet-bank-section'))
     assert not by, by
     etapes = []
     for n, (ident, titre, questions, consigne) in enumerate(P['etapes']):

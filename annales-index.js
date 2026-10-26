@@ -3,7 +3,10 @@
   const host=document.getElementById("transformedAnnales");
   if(!host)return;
   const esc=s=>String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[m]));
-  const items=Object.entries(cat).map(([id,x])=>({id,...x})).sort((a,b)=>b.annee-a.annee||a.examen.localeCompare(b.examen,"fr"));
+  const all=Object.entries(cat).map(([id,x])=>({id,...x})).sort((a,b)=>b.annee-a.annee||a.examen.localeCompare(b.examen,"fr"));
+  /* Une page propre à un examen (data-examen="Bac") ne montre que ses sujets, sans filtre d’examen. */
+  const only=host.dataset.examen||"";
+  const items=only?all.filter(x=>x.examen===only):all;
   const controls=document.getElementById("annalesControls");
   let filter="bac";
   let author="all", work="all";
@@ -55,7 +58,8 @@
     free:items.filter(x=>x.access==="free").length,
     premium:items.filter(x=>x.access==="premium").length
   };
-  if(controls){
+  if(controls&&only){controls.hidden=true;}
+  else if(controls){
     controls.innerHTML=[
       ["all","Tout ("+counts.all+")"],
       ["bac","Bac ("+counts.bac+")"],

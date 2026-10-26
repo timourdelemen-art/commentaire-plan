@@ -118,9 +118,9 @@ function staticHeader(file){
     "lecture · langue · rédaction",
     [
       [
-        "brevet-lecture-parcours.html",
-        "Comprendre un texte",
-        "Justifier et interpréter"
+        "brevet-comprehension.html",
+        "Compréhension",
+        "Répondre, citer, expliquer"
       ],
       [
         "brevet-grammaire.html",
@@ -162,7 +162,7 @@ function staticHeader(file){
     "sujets officiels",
     [
       [
-        "annales.html#bac",
+        "annales-bac.html",
         "Bac de français",
         "Sujets et corrigés par session"
       ],
@@ -177,7 +177,7 @@ function staticHeader(file){
         "Interprétation et essai"
       ],
       [
-        "annales.html#brevet",
+        "brevet.html#brevet-sujets",
         "Brevet",
         "Sujets officiels de français"
       ]
