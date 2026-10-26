@@ -13,12 +13,12 @@ COPIES["jeu"] = dict(
       ("Des preuves analysées","L’imitation du « biiien », le piège retourné, la Barre des Écrins, le casier judiciaire, la fin en deux mots : un procédé précis par preuve.")],
  blocks=[
  ("Introduction",[
-  ("Dans "+E+", H. 2 rejoue la phrase de son ami et précise qu’« il y avait entre « C’est bien » et « ça » un intervalle plus grand » : la dispute commence par une imitation.","Accroche : une réplique qui contient déjà le problème"),
-  ("Le critique voit dans le dialogue « un jeu dans lequel tous les coups sont permis » : une partie entre joueurs, où aucune règle ne retient les attaques.","Les mots de la citation"),
+  ("Dans "+E+", H. 2 rejoue la phrase de son ami : « il y avait entre « C’est bien » et « ça » un intervalle plus grand » ; la dispute commence par une imitation.","Accroche : une réplique qui contient déjà le problème"),
+  ("Le critique voit dans le dialogue « un jeu dans lequel tous les coups sont permis » : une partie sans règle.","Les mots de la citation"),
   ("La pièce semble lui donner raison : les deux amis s’imitent, se tendent des pièges et prennent même des voisins pour arbitres.","Ce que la citation éclaire"),
-  ("Mais ces coups font mal pour de bon, et la partie a une règle que personne n’ose enfreindre : on n’a pas le droit de rompre.","Ce que l’œuvre montre aussi"),
-  ("Que devient, dans "+E+", un jeu où tous les coups sont permis, si ses coups blessent vraiment et si les joueurs n’ont pas le droit de quitter la partie ?","La problématique, en une question"),
-  ("Le dialogue est bien un jeu sans merci ; mais ce jeu engage la vie des deux amis, et c’est le théâtre de Sarraute qui en fait voir l’arme : la manière de dire.","L’annonce : le chemin, en une phrase"),
+  ("Mais ces coups font mal pour de bon, et la partie a une règle : on n’a pas le droit de rompre.","Ce que l’œuvre montre aussi"),
+  ("Que devient, dans "+E+", un jeu où tous les coups sont permis, quand ses coups blessent et qu’on ne peut la quitter ?","La problématique, en une question"),
+  ("Le dialogue est bien un jeu sans merci ; mais ce jeu engage la vie des deux amis, et le théâtre de Sarraute en fait voir l’arme : la manière de dire.","L’annonce : le chemin, en une phrase"),
  ]),
  ("Première partie",[
   ("Le dialogue est d’abord une partie où chacun rend coup pour coup.","Réponse I : la part de vérité de la citation"),
@@ -34,7 +34,7 @@ COPIES["jeu"] = dict(
  (None,[
   ('La partie se donne même des arbitres.','Argument'),
   ('H. 2 fait entrer des voisins, « de ceux qu’on choisit pour les jurys », pour leur exposer « un différend ».','Le passage qui prouve'),
-  ('Faire juger la dispute par des témoins, c’est la traiter comme un match qu’on peut gagner.','Ce que la citation montre'),
+  ('La périphrase « de ceux qu’on choisit pour les jurys » fait des voisins un tribunal : la dispute devient un match qu’on peut gagner devant arbitres.','Ce que la citation montre'),
   ('Or ces coups ne restent pas des coups de jeu : à la Barre des Écrins, une remarque sur les « jolies cartes postales » a suffi, et H. 2 l’avoue : « J’ai eu envie de te tuer. »','Ce que la partie n’explique pas encore'),
  ]),
  (None,[("Si un mot peut donner envie de tuer, qu’est-ce qui se joue vraiment dans ce jeu ?","Transition : la question ouverte")]),
@@ -168,7 +168,7 @@ COPIES["theatrale"] = dict(
   ("« Sort et revient avec un couple. » : dans "+E+", cette didascalie montre H. 2 faisant entrer des voisins pour juger « un différend », comme un metteur en scène installe son public.","Accroche : une didascalie qui contient déjà le problème"),
   ("« Théâtrale » désigne ce qui appartient au théâtre, mais aussi ce qui est joué ; « profondément » demande si la dispute l’est jusque dans ce qui la fait naître.","Les mots du sujet, et le mot « profondément »"),
   ("On pourrait penser qu’elle l’est de part en part : elle avance par répliques et retournements, et ses personnages ne cessent de jouer des rôles.","On pourrait penser : ce que le sujet suggère"),
-  ("Pourtant, ces rôles couvrent une blessure réelle, née d’un mot dit sur un certain ton, qu’aucune pose ne suffit à expliquer.","Pourtant : ce que l’œuvre montre"),
+  ("Pourtant, ces rôles couvrent une blessure réelle, née d’un mot dit sur un certain ton.","Pourtant : ce que l’œuvre montre"),
   ("Dans "+E+", une dispute où chacun joue un rôle n’est-elle théâtrale qu’en surface, ou jusque dans la blessure qui la fait naître ?","La problématique, en une question"),
   ("La dispute a toutes les formes du théâtre ; ses personnages s’y donnent la comédie ; mais c’est dans la voix, matière même du théâtre, que naît la blessure.","L’annonce : le chemin, en une phrase"),
  ]),
@@ -375,3 +375,18 @@ COPIES["agressivite"] = dict(
   ("Reste une question : le spectateur, qui saisit ce que les jurés ne voient pas, n’est-il pas tenté à son tour de prendre parti ?","La question qui reste ouverte"),
  ]),
  ])
+
+# Pour les pages à onglets (gen_pages_sujet.py) : les mots du sujet expliqués, et le passage
+# dont l’analyse sert à l’étape « La preuve » (premiers mots, cherchés dans la copie).
+_ETAPES = {
+ "jeu": (("« un jeu dans lequel tous les coups sont permis »", "Une partie entre joueurs, où aucune règle ne retient les attaques : le dialogue serait un affrontement sans limite, où chacun cherche à l’emporter."),
+         ("« Cette fois-ci, celui qui a placé le petit bout de lard, c’est toi. »", 1)),
+ "spectaculaire": (("« spectaculaire »", "Est spectaculaire ce qui se donne à voir et frappe le regard par ses éclats : des cris, des gestes, des coups de théâtre."),
+         ("« soulevé par la peau du cou »", 1)),
+ "theatrale": (("« profondément théâtrale »", "« Théâtrale » désigne ce qui appartient au théâtre, mais aussi ce qui est joué, comme une pose ; « profondément » demande si la dispute l’est jusque dans ce qui la fait naître."),
+         ("« l’image de la paternité comblée »", 2)),
+ "non-dits": (("« ce qui se tisse entre les mots »", "Ce qui n’est pas dit mais passe quand même : un ton, un silence, un sous-entendu, que chacun perçoit sans pouvoir le citer."),
+         ("« Tu l’as touché. Voilà le point. »", 2)),
+}
+for _k, (_mot, _preuve) in _ETAPES.items():
+    COPIES[_k].update(mot=_mot, preuve=_preuve)

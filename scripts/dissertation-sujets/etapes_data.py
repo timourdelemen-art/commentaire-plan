@@ -1,4 +1,4 @@
-# Propositions au clic des pages de sujet (Ponge, Dorion).
+# Propositions au clic des pages de sujet (Ponge, Dorion, Sarraute, Rimbaud, Corneille, Musset, Prévost).
 # La bonne réponse vient de la copie à 20 ; les autres sont écrites ici, chacune avec son type
 # (le type donne l'explication affichée à l'élève, voir gen.py).
 # p1 : ce que l'œuvre montre aussi · p2 : la question · plan · analyse (du passage « preuve » de la copie)
@@ -43,8 +43,8 @@ E["ponge-observateur"] = dict(
        ("I. La nature observée / II. La guerre absente / III. L’écriture du carnet","thematique"),
        ("I. Les premiers textes / II. Le Carnet du bois de pins / III. La Mounine","ordre")],
  analyse=[("Ponge dit qu’il ne veut pas raconter ni décrire, mais conquérir le bois de pins.","paraphrase"),
-          ("La phrase contient une énumération de trois noms et une opposition introduite par « mais ».","etiquette"),
-          ("L’énumération puis l’opposition donnent toute leur force au dernier mot, « conquête ».","general")],
+          ("La phrase contient une accumulation de trois noms et une opposition introduite par « mais ».","etiquette"),
+          ("L’accumulation puis l’opposition donnent toute leur force au dernier mot, « conquête ».","general")],
 )
 E["ponge-texte-lui-meme"] = dict(
  p1=[("Le recueil commente ses brouillons, ses variantes et le nombre de ses pages.","redit"),
@@ -253,7 +253,7 @@ OK = {
    "L’infinitif fait de la phrase une loi : ce que Ponge redoute, c’est justement la vision commune."),
  "ponge-observateur": ("Ce carnet tenu en 1940 écarte presque toute la guerre, et cherche les mots plus qu’il ne regarde.",
    "I. Le livre a la forme d’un carnet / II. Mais l’observateur veut conquérir / III. Le carnet rend le monde aux hommes",
-   "L’énumération écarte trois façons d’observer et finit sur une image militaire : l’observateur conquiert."),
+   "L’accumulation écarte trois façons d’observer et finit sur une image militaire : l’observateur conquiert."),
  "ponge-texte-lui-meme": ("Chaque texte porte le nom d’une chose, la guêpe, l’œillet, le mimosa, et ne cesse d’y revenir.",
    "I. Le texte parle de lui-même / II. Mais l’objet commande ce commentaire / III. Parler de soi devient une méthode",
    "Le jeu sur les syllabes dit aussi la plante qui se contracte : parler des mots, c’est connaître la fleur."),
@@ -309,7 +309,7 @@ LONG = {
    general="L’infinitif donne à la phrase la force d’une règle que l’écrivain se fixe à lui-même, ce qui la rend solennelle et très frappante."),
  "ponge-observateur": dict(theme="Le recueil décrit des insectes, des fleurs, des arbres et des paysages de Provence, avec beaucoup de précision et de détails.",
    dialectique="I. Le livre est bien le carnet d’un observateur attentif / II. Il ne l’est pas, c’est une œuvre poétique / III. Il est un peu les deux",
-   general="L’énumération puis l’opposition donnent toute leur force au dernier mot, « conquête », qui frappe le lecteur par sa violence inattendue."),
+   general="L’accumulation puis l’opposition donnent toute leur force au dernier mot, « conquête », qui frappe le lecteur par sa violence inattendue."),
  "ponge-texte-lui-meme": dict(theme="Ponge emploie beaucoup de jeux de mots et consulte souvent le dictionnaire, dont il recopie les définitions dans ses textes.",
    dialectique="I. Le texte parle surtout de lui-même et de ses brouillons / II. Il parle surtout des choses / III. Il parle à la fois de lui et des choses",
    general="Le jeu sur les syllabes amuse le lecteur et montre l’attention que Ponge porte aux mots, à leurs sons et à leurs ressemblances cachées."),
@@ -353,3 +353,254 @@ LONG = {
    dialectique="I. La forêt est bien le lieu de l’intimité / II. Elle ne l’est pas, elle enferme / III. Elle est intime en partie seulement",
    general="La métaphore de la cage crée une image forte et sombre de la solitude, qui contraste avec la douceur des autres vers du recueil."),
 }
+
+# ── Sarraute, Pour un oui ou pour un non ──
+_P = "<em>Pour un oui ou pour un non</em>"
+E["jeu"] = dict(
+ p1=[("Les deux amis se répondent coup pour coup et retournent l’un contre l’autre les mêmes images.","redit"),
+     ("La pièce parle d’amitié, de jalousie et de réussite sociale entre deux hommes.","theme"),
+     ("Les deux amis respectent une règle stricte : aucun n’accuse l’autre ni ne lui coupe la parole.","faux")],
+ p2=[(f"Le dialogue est-il, dans {_P}, un jeu dans lequel tous les coups sont permis ?","reprise"),
+     (f"Quels coups les deux amis se portent-ils dans {_P}, et par quelles imitations, quels pièges et quels arbitres chacun cherche-t-il à l’emporter ?","partielle"),
+     ("Comment Sarraute concilie-t-elle le jeu des répliques et la gravité de la dispute ?","resout")],
+ plan=[("I. Oui, le dialogue est un jeu / II. Non, c’est une vraie dispute / III. C’est un peu des deux","dialectique"),
+       ("I. L’amitié / II. La jalousie / III. Le langage","thematique"),
+       ("I. L’aveu du grief / II. L’arrivée des voisins / III. Le dénouement","ordre")],
+ analyse=[("H. 1 répond à H. 2 que c’est lui, cette fois, qui a tendu un piège à son ami.","paraphrase"),
+          ("On relève ici une métaphore filée, celle du piège à souris, reprise d’une réplique à l’autre.","etiquette"),
+          ("La métaphore du piège donne à la dispute une image concrète et frappante.","general")],
+)
+E["spectaculaire"] = dict(
+ p1=[("H. 2 fait venir des voisins pour juger la dispute, et parle de piège et de procès.","redit"),
+     ("La pièce montre une dispute entre deux amis de longue date.","theme"),
+     ("La dispute finit en cris et en coups, et les voisins doivent séparer les deux amis.","faux")],
+ p2=[(f"La dispute est-elle spectaculaire dans {_P} ?","reprise"),
+     (f"Comment la dispute se donne-t-elle en spectacle dans {_P} ?","partielle"),
+     ("Comment Sarraute réussit-elle à rendre spectaculaire une dispute sans action ?","resout")],
+ plan=[("I. Oui, la dispute est spectaculaire / II. Non, elle ne l’est pas / III. Elle l’est en partie","dialectique"),
+       ("I. Les personnages / II. Le langage / III. La mise en scène","thematique"),
+       ("I. Le début de la dispute / II. La visite des voisins / III. Les dernières répliques","ordre")],
+ analyse=[("H. 2 raconte que son ami l’a pris dans sa main, puis l’a laissé tomber.","paraphrase"),
+          ("On relève une métaphore, avec une suite de verbes d’action dans la même réplique.","etiquette"),
+          ("La métaphore rend la scène vivante et frappe le spectateur.","general")],
+)
+E["theatrale"] = dict(
+ p1=[("Les personnages ne cessent de poser, de citer des vers et de se chercher un public.","redit"),
+     ("La pièce oppose deux amis aux manières de vivre différentes.","theme"),
+     ("La pièce est un long monologue de H. 2, presque sans échange de répliques.","faux")],
+ p2=[(f"La dispute de {_P} est-elle profondément théâtrale ?","reprise"),
+     (f"Quels rôles les personnages jouent-ils dans {_P}, quand ils posent, citent des vers et font entrer des voisins pour les juger ?","partielle"),
+     ("Comment Sarraute concilie-t-elle les rôles joués et la sincérité de la blessure ?","resout")],
+ plan=[("I. Oui, la dispute est théâtrale / II. Non, elle est sincère / III. Elle est un peu des deux","dialectique"),
+       ("I. Les répliques / II. Les didascalies / III. Les personnages","thematique"),
+       ("I. La question de H. 1 / II. La scène des voisins / III. Le dénouement","ordre")],
+ analyse=[("H. 2 se souvient de son ami assis dans un fauteuil, son fils entre les genoux.","paraphrase"),
+          ("On relève une description précise, avec un vocabulaire du corps et de la famille.","etiquette"),
+          ("La description rend la scène très visuelle et précise.","general")],
+)
+E["non-dits"] = dict(
+ p1=[("H. 2 ne reproche pas des mots à son ami, mais un ton, un suspens, un accent.","redit"),
+     ("La pièce parle de l’amitié et de ce qui l’use avec le temps.","theme"),
+     ("Les deux amis se réconcilient dès que le malentendu est expliqué.","faux")],
+ p2=[(f"Les non-dits sont-ils, dans {_P}, la source des malentendus ?","reprise"),
+     (f"Quels sous-entendus fragilisent l’amitié dans {_P} ?","partielle"),
+     (f"Comment, dans {_P}, la parole finit-elle par réparer l’amitié que les non-dits et les sous-entendus avaient peu à peu minée ?","resout")],
+ plan=[("I. Oui, les non-dits minent l’amitié / II. Non, ce sont les mots dits / III. Ce sont les deux","dialectique"),
+       ("I. Le silence / II. Le ton / III. L’amitié","thematique"),
+       ("I. Le grief de H. 2 / II. La visite des voisins / III. Les derniers mots","ordre")],
+ analyse=[("H. 2 dit à son ami qu’il a enfin compris ce qui n’allait pas entre eux.","paraphrase"),
+          ("On relève deux phrases courtes, la seconde introduite par le présentatif « voilà ».","etiquette"),
+          ("Les phrases courtes rendent la réplique vive et marquent l’émotion de H. 2.","general")],
+)
+OK.update({
+ "jeu": ("Mais ces coups blessent pour de bon, et les deux amis n’ont pas le droit de quitter la partie.",
+   "I. Le dialogue est une partie sans merci / II. Mais ses coups engagent toute une vie / III. Leur arme est la manière de dire",
+   "H. 1 reprend l’image du piège contre celui qui l’avait lancée : chacun prend l’arme de l’adversaire."),
+ "spectaculaire": ("Presque rien n’arrive sur scène : deux hommes parlent, et tout naît d’une intonation.",
+   "I. La dispute cherche des spectateurs / II. Mais sa violence ne se voit pas / III. C’est la voix qui en fait un spectacle",
+   "La métaphore fait d’un compliment un geste de géant : la parole crée une violence que la scène ne montre pas."),
+ "theatrale": ("Ces rôles couvrent une blessure réelle, née d’un mot dit sur un certain ton.",
+   "I. La dispute a la forme du théâtre / II. Les personnages s’y jouent la comédie / III. La blessure naît de la voix",
+   "Le mot « image » fait du bonheur de H. 1 un tableau offert au regard : H. 2 l’accuse de poser."),
+ "non-dits": ("La pièce fait dire ces non-dits, et leur aveu ne répare rien entre les deux amis.",
+   "I. Un sous-entendu défait l’amitié / II. Dit, il révèle un vrai désaccord / III. L’entre-deux des mots unit aussi",
+   "Le verbe « toucher » dit que le coup a porté : le sous-entendu avait été bien compris."),
+})
+LONG.update({
+ "jeu": dict(theme="La pièce parle d’amitié, de jalousie, de réussite sociale et de poésie, à travers deux hommes qui se connaissent depuis toujours.",
+   dialectique="I. Oui, le dialogue est un jeu où les amis s’imitent / II. Non, c’est une dispute sérieuse / III. C’est à la fois un jeu et une dispute",
+   general="La métaphore filée du piège à souris rend la dispute concrète et frappante, et montre l’agressivité qui règne entre les deux amis."),
+ "spectaculaire": dict(theme="La pièce montre une longue dispute entre deux amis de toujours, qui se reprochent leur réussite, leurs goûts et leur manière de vivre.",
+   dialectique="I. Oui, la dispute est spectaculaire, avec ses témoins / II. Non, il ne s’y passe presque rien / III. Elle est spectaculaire en partie seulement",
+   general="La métaphore rend le récit de H. 2 vivant et violent, ce qui frappe fortement le spectateur et montre sa colère contre son ami."),
+ "theatrale": dict(theme="La pièce oppose deux amis aux manières de vivre très différentes, l’un tourné vers la réussite, l’autre vers la contemplation.",
+   dialectique="I. Oui, la dispute est théâtrale par ses répliques / II. Non, elle est sincère et réelle / III. Elle est à la fois jouée et sincère",
+   general="La description, précise et très visuelle, montre que H. 2 garde un souvenir vif de cette scène et de la famille de son ami."),
+ "non-dits": dict(theme="La pièce parle de l’amitié, de ce qui l’use avec le temps, et des petites rancunes qui s’accumulent entre deux hommes.",
+   dialectique="I. Oui, les non-dits minent la relation des deux amis / II. Non, ce sont les mots dits qui la minent / III. Ce sont un peu les deux",
+   general="Les deux phrases courtes rendent la réplique vive et marquent l’émotion de H. 2, qui semble soulagé d’avoir enfin été compris."),
+})
+
+# ── Rimbaud, Cahier de Douai ── (affirmations vérifiées sur le texte du recueil)
+_D = "le <em>Cahier de Douai</em>"
+E["cahier-de-douai"] = dict(
+ p1=[("Le recueil se moque de Dieu, de l’Empereur et des bourgeois qui écoutent la musique militaire.","redit"),
+     ("Le recueil parle de la nature, de la guerre et de l’amour adolescent.","theme"),
+     ("Rimbaud y respecte la poésie noble et n’y parle jamais d’objets ordinaires.","faux")],
+ p2=[(f"Est-ce seulement par la révolte que Rimbaud s’émancipe dans {_D} ?","reprise"),
+     (f"Contre quels maîtres Rimbaud se révolte-t-il dans {_D}, et par quelles moqueries les rend-il ridicules ?","partielle"),
+     ("Comment Rimbaud parvient-il à concilier la révolte et le plaisir de la fugue ?","resout")],
+ plan=[("I. Oui, Rimbaud se révolte / II. Non, il fugue / III. Il fait un peu des deux","dialectique"),
+       ("I. La guerre / II. La nature / III. L’amour","thematique"),
+       ("I. Les premiers poèmes / II. Les poèmes du milieu / III. Les derniers sonnets","ordre")],
+ analyse=[("Le poète dort dehors, sous les étoiles, pendant sa fugue.","paraphrase"),
+          ("On relève une métaphore et un nom de constellation, la Grande-Ourse, avec une majuscule.","etiquette"),
+          ("La métaphore crée une image poétique de la nuit et des étoiles.","general")],
+)
+E["cahier-de-douai-ecrire-contre"] = dict(
+ p1=[("Rimbaud attaque Dieu dans « Le Mal » et dénonce la guerre dans « Le Dormeur du val ».","redit"),
+     ("Le recueil parle de la jeunesse, de la guerre et de la nature.","theme"),
+     ("Le recueil ne contient aucun poème heureux : tous dénoncent quelque chose.","faux")],
+ p2=[(f"La poésie de Rimbaud est-elle, dans {_D}, pas seulement écriture pour, mais écriture contre ?","reprise"),
+     (f"Contre quoi Rimbaud écrit-il dans {_D} ?","partielle"),
+     (f"Comment Rimbaud réussit-il à concilier, dans {_D}, l’écriture qui célèbre et l’écriture qui attaque ce qu’elle refuse ?","resout")],
+ plan=[("I. Rimbaud écrit contre / II. Rimbaud écrit pour / III. Il écrit pour et contre","dialectique"),
+       ("I. La religion / II. La guerre / III. La jeunesse","thematique"),
+       ("I. « Roman » / II. « Le Dormeur du val » / III. « Ma Bohème »","ordre")],
+ analyse=[("Le poète dit qu’à dix-sept ans, on n’est pas encore quelqu’un de sérieux.","paraphrase"),
+          ("On relève une phrase négative et le pronom indéfini « on », dans un alexandrin.","etiquette"),
+          ("La négation montre que le poète refuse quelque chose.","general")],
+)
+OK.update({
+ "cahier-de-douai": ("Le poète se libère aussi sans attaquer personne : il fugue, marche, mange, et il en est heureux.",
+   "I. La révolte ridiculise les maîtres / II. La fugue libère sans combattre / III. Le poème unit les deux libertés",
+   "La métaphore fait du ciel une auberge : le fugueur ne manque de rien, le monde entier l’héberge."),
+ "cahier-de-douai-ecrire-contre": ("Le recueil célèbre aussi, dans des poèmes heureux comme « Sensation » ou « Roman ».",
+   "I. Le recueil écrit contre / II. Mais célébrer, c’est encore refuser / III. Écrire contre la poésie apprise crée du neuf",
+   "La négation célèbre la jeunesse en lui retirant le sérieux : elle se définit par ce qu’elle refuse."),
+})
+LONG.update({
+ "cahier-de-douai": dict(theme="Le recueil parle de la nature, de la guerre, de l’amour adolescent et des promenades à pied dans la campagne, l’été.",
+   dialectique="I. Oui, Rimbaud s’émancipe par la révolte contre Dieu / II. Non, il s’émancipe par la fugue / III. Il fait un peu des deux",
+   general="La métaphore crée une belle image poétique de la nuit et des étoiles, qui montre que le poète aime la nature et le voyage."),
+ "cahier-de-douai-ecrire-contre": dict(theme="Le recueil parle de la jeunesse, de la guerre et de la nature, avec des poèmes sur la bohème, les promenades et les premiers amours.",
+   dialectique="I. Rimbaud écrit contre Dieu et la guerre / II. Rimbaud écrit pour la nature et la jeunesse / III. Il écrit à la fois pour et contre",
+   general="La négation montre que le poète refuse quelque chose, et le pronom « on » donne au vers la valeur d’une vérité générale sur la jeunesse."),
+})
+
+# ── Corneille, Le Menteur ── (affirmations vérifiées sur le texte de la pièce)
+_M = "<em>Le Menteur</em>"
+E["le-menteur"] = dict(
+ p1=[("Dorante invente sur-le-champ une guerre, une fête sur l’eau et un mariage, et ses auditeurs le croient.","redit"),
+     ("La pièce parle d’amour, de mariage et de rivalité entre jeunes gens de Paris.","theme"),
+     ("Dorante ne ment qu’une seule fois, et il avoue aussitôt la vérité à son père.","faux")],
+ p2=[(f"L’art du mensonge est-il toujours maîtrisé dans {_M} ?","reprise"),
+     (f"Comment Dorante maîtrise-t-il l’art du mensonge dans {_M}, de la fête sur l’eau au mariage inventé de Poitiers ?","partielle"),
+     ("Comment Corneille concilie-t-il la maîtrise du menteur et l’échec de ses mensonges ?","resout")],
+ plan=[("I. Oui, le mensonge est maîtrisé / II. Non, il ne l’est pas / III. Il l’est en partie","dialectique"),
+       ("I. Le mensonge / II. L’amour / III. Le père","thematique"),
+       ("I. L’acte I / II. Les actes II et III / III. Les actes IV et V","ordre")],
+ analyse=[("Cliton ne croit pas Dorante, même quand celui-ci assure dire la vérité.","paraphrase"),
+          ("On relève une maxime, dite par le valet, au présent de vérité générale.","etiquette"),
+          ("La maxime de Cliton montre qu’il ne fait plus confiance à son maître.","general")],
+)
+E["le-menteur-histoires"] = dict(
+ p1=[("Dorante raconte une fête sur l’eau très détaillée, et Cliton admire ses talents de romancier.","redit"),
+     ("La pièce parle de la jeunesse, de l’amour et de la vie parisienne.","theme"),
+     ("Personne ne croit jamais Dorante : ses histoires n’ont aucun effet sur les autres.","faux")],
+ p2=[(f"Dans {_M}, mentir, est-ce seulement raconter des histoires ?","reprise"),
+     (f"Quelles histoires Dorante raconte-t-il dans {_M} ?","partielle"),
+     (f"Comment Corneille réussit-il à concilier, dans {_M}, le plaisir de raconter et le mal que font les histoires inventées ?","resout")],
+ plan=[("I. Oui, mentir, c’est raconter / II. Non, c’est tromper / III. C’est un peu les deux","dialectique"),
+       ("I. Le mensonge / II. L’amour / III. L’honneur","thematique"),
+       ("I. La fête sur l’eau / II. Le mariage de Poitiers / III. Le duel inventé","ordre")],
+ analyse=[("Alcippe répond à Philiste que le lieu et l’heure correspondent, et que le reste compte peu.","paraphrase"),
+          ("On relève un alexandrin coupé en trois, qui se termine par une négation.","etiquette"),
+          ("La réplique montre qu’Alcippe est très jaloux.","general")],
+)
+OK.update({
+ "le-menteur": ("Ses mensonges le dépassent : il se trompe de nom, s’embrouille, et n’épouse pas celle qu’il courtisait.",
+   "I. Dorante maîtrise ses récits / II. Mais leurs suites lui échappent / III. La comédie reprend la maîtrise perdue",
+   "La rime « dit » / « crédit » lie la perte de confiance à la parole : même exacte, elle ne vaut plus rien."),
+ "le-menteur-histoires": ("Ces histoires agissent : elles rendent un ami jaloux jusqu’au duel et ridiculisent un père.",
+   "I. Dorante ment en conteur / II. Mais ses contes agissent comme des actes / III. La comédie fait de ce pouvoir son spectacle",
+   "Le jaloux ne vérifie plus rien : le conte de Dorante est devenu pour lui un fait, et le mène au duel."),
+})
+LONG.update({
+ "le-menteur": dict(theme="La pièce parle d’amour, de mariages arrangés par les pères et de rivalité entre jeunes gens, des Tuileries aux rues de Paris.",
+   dialectique="I. Oui, Dorante maîtrise l’art du mensonge / II. Non, ses mensonges échouent / III. Il le maîtrise en partie seulement",
+   general="La maxime de Cliton montre qu’il ne fait plus du tout confiance à son maître, ce qui rend la scène comique pour le spectateur."),
+ "le-menteur-histoires": dict(theme="La pièce parle de la jeunesse, de l’amour, des promenades et des fêtes de la vie parisienne, des Tuileries aux bords de l’eau.",
+   dialectique="I. Oui, mentir, c’est raconter des histoires / II. Non, c’est tromper les autres / III. C’est à la fois raconter et tromper",
+   general="La réplique d’Alcippe montre qu’il est très jaloux et qu’il croit tout ce qu’on lui raconte sur la femme qu’il aime."),
+})
+
+# ── Musset, On ne badine pas avec l’amour ── (affirmations vérifiées sur le texte de la pièce)
+_B = "<em>On ne badine pas avec l’amour</em>"
+E["on-ne-badine-pas-avec-l-amour"] = dict(
+ p1=[("Camille et Perdican se lancent des défis, et Blazius et Bridaine se querellent pour rire.","redit"),
+     ("La pièce parle d’amour, d’orgueil et d’éducation.","theme"),
+     ("Camille et Perdican se marient à la fin, comme le Baron l’avait prévu.","faux")],
+ p2=[(f"Les personnages s’affrontent-ils sérieusement dans {_B} ?","reprise"),
+     (f"Comment Camille et Perdican s’affrontent-ils par orgueil dans {_B}, entre défis, ruses et rendez-vous à la fontaine ?","partielle"),
+     ("Comment Musset concilie-t-il le jeu de l’affrontement et la gravité de la fin ?","resout")],
+ plan=[("I. Non, ils jouent / II. Oui, ils sont sérieux / III. Ils sont un peu des deux","dialectique"),
+       ("I. L’amour / II. L’orgueil / III. La religion","thematique"),
+       ("I. L’acte I / II. L’acte II / III. L’acte III","ordre")],
+ analyse=[("Perdican demande à Camille si elle récite une prière ou si elle veut qu’il en récite une.","paraphrase"),
+          ("On relève une question alternative, construite avec « ou », et deux mots du vocabulaire religieux.","etiquette"),
+          ("La question montre que Perdican s’agace des questions de Camille.","general")],
+)
+E["on-ne-badine-pas-avec-l-amour-parole"] = dict(
+ p1=[("Camille répond par des maximes, et Perdican fait des déclarations pour être entendu d’une autre.","redit"),
+     ("La pièce parle de l’amour, de la jeunesse et du couvent.","theme"),
+     ("Les personnages disent toujours franchement ce qu’ils ressentent, sans jamais jouer.","faux")],
+ p2=[(f"Le jeu de la parole nuit-il à l’expression sincère des sentiments dans {_B} ?","reprise"),
+     (f"Comment Camille et Perdican jouent-ils avec les mots dans {_B} ?","partielle"),
+     (f"Comment Musset parvient-il à concilier, dans {_B}, le jeu brillant des répliques et la sincérité des sentiments ?","resout")],
+ plan=[("I. Oui, le jeu nuit à la sincérité / II. Non, il ne lui nuit pas / III. Il lui nuit en partie","dialectique"),
+       ("I. Les maximes / II. Les mensonges / III. Les aveux","thematique"),
+       ("I. Les retrouvailles / II. La scène de la fontaine / III. L’oratoire","ordre")],
+ analyse=[("Camille reconnaît que ses idées viennent peut-être de ce qu’on lui a appris.","paraphrase"),
+          ("On relève une métaphore animale et deux propositions reliées par « et ».","etiquette"),
+          ("La métaphore du perroquet est amusante et montre que Camille est lucide.","general")],
+)
+OK.update({
+ "on-ne-badine-pas-avec-l-amour": ("La pièce s’achève sur la mort de Rosette : le jeu a fait une victime réelle.",
+   "I. Ils s’affrontent d’abord comme on joue / II. Mais le jeu prend Rosette pour pion / III. L’affrontement cachait un amour avoué trop tard",
+   "Les verbes de récitation dénoncent des paroles apprises : la scène devient une joute où chacun veut le dernier mot."),
+ "on-ne-badine-pas-avec-l-amour-parole": ("C’est au cœur même de leurs joutes que jaillissent les paroles les plus sincères.",
+   "I. Le jeu retient l’aveu / II. Mais la sincérité éclate au cœur de la joute / III. La forme du proverbe fait entendre l’aveu caché",
+   "L’image du perroquet fait de sa parole une récitation : Camille répète des leçons au lieu de dire ce qu’elle éprouve."),
+})
+LONG.update({
+ "on-ne-badine-pas-avec-l-amour": dict(theme="La pièce parle d’amour, d’orgueil et d’éducation, entre le couvent de Camille, les études de Perdican et le château du Baron.",
+   dialectique="I. Non, les personnages s’affrontent par jeu / II. Oui, ils s’affrontent sérieusement / III. Ils sont à la fois joueurs et sérieux",
+   general="La question de Perdican montre qu’il s’agace des questions de Camille, ce qui rend la scène vivante et un peu comique pour le spectateur."),
+ "on-ne-badine-pas-avec-l-amour-parole": dict(theme="La pièce parle de l’amour, de la jeunesse et du couvent, à travers deux cousins qui se retrouvent après dix ans de séparation.",
+   dialectique="I. Oui, le jeu de la parole nuit à la sincérité / II. Non, les personnages restent sincères / III. Le jeu nuit en partie seulement",
+   general="La métaphore du perroquet est amusante et frappante, et elle montre que Camille est lucide sur elle-même, malgré son orgueil."),
+})
+
+# ── Prévost, Manon Lescaut ── (affirmations vérifiées sur le texte du roman)
+_ML = "<em>Manon Lescaut</em>"
+E["manon-lescaut-plaisirs"] = dict(
+ p1=[("Des Grieux triche au jeu, soupe joyeusement à Chaillot et suit Manon dans toutes ses ruses.","redit"),
+     ("Le roman parle d’amour, d’argent et de liberté.","theme"),
+     ("Des Grieux raconte ses plaisirs sans jamais les regretter ni les juger.","faux")],
+ p2=[(f"Tout l’intérêt de {_ML} tient-il au récit des « criminels plaisirs » de Des Grieux et de Manon ?","reprise"),
+     (f"Quels plaisirs Des Grieux et Manon s’accordent-ils dans {_ML} ?","partielle"),
+     (f"Comment Prévost réussit-il à concilier, dans {_ML}, le charme des plaisirs défendus et la leçon morale de leur châtiment ?","resout")],
+ plan=[("I. Oui, l’intérêt tient aux plaisirs / II. Non, il tient à la morale / III. Il tient un peu aux deux","dialectique"),
+       ("I. L’amour / II. L’argent / III. La religion","thematique"),
+       ("I. Amiens et Paris / II. Saint-Lazare et l’Hôpital / III. L’Amérique","ordre")],
+ analyse=[("Des Grieux explique qu’il va tricher surtout à l’hôtel de Transylvanie.","paraphrase"),
+          ("On relève une métaphore théâtrale et le verbe « devoir » à l’imparfait.","etiquette"),
+          ("La phrase montre que Des Grieux est fier de tricher.","general")],
+)
+OK["manon-lescaut-plaisirs"] = ("Ses pages les plus fortes racontent le prix de ces plaisirs : la prison, la déportation, la mort de Manon.",
+   "I. Les plaisirs défendus séduisent / II. Mais le roman en raconte le prix / III. La voix qui revit et juge fait l’intérêt",
+   "Le vocabulaire héroïque des « exploits » change la fraude en épopée : la faute devient une conquête.")
+LONG["manon-lescaut-plaisirs"] = dict(theme="Le roman parle d’amour, d’argent et de liberté, entre Paris, la province et l’Amérique, au début du XVIIIe siècle.",
+   dialectique="I. Oui, l’intérêt tient aux plaisirs du couple / II. Non, il tient à la leçon morale / III. Il tient à la fois aux plaisirs et à la morale",
+   general="La phrase montre que Des Grieux est fier de tricher au jeu, ce qui le rend moins sympathique au lecteur et annonce ses malheurs.")
