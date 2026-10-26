@@ -1,4 +1,4 @@
-# Propositions au clic des pages de sujet (Ponge, Dorion, Sarraute, Rimbaud, Corneille).
+# Propositions au clic des pages de sujet (Ponge, Dorion, Sarraute, Rimbaud, Corneille, Musset).
 # La bonne réponse vient de la copie à 20 ; les autres sont écrites ici, chacune avec son type
 # (le type donne l'explication affichée à l'élève, voir gen.py).
 # p1 : ce que l'œuvre montre aussi · p2 : la question · plan · analyse (du passage « preuve » de la copie)
@@ -533,4 +533,51 @@ LONG.update({
  "le-menteur-histoires": dict(theme="La pièce parle de la jeunesse, de l’amour, des promenades et des fêtes de la vie parisienne, des Tuileries aux bords de l’eau.",
    dialectique="I. Oui, mentir, c’est raconter des histoires / II. Non, c’est tromper les autres / III. C’est à la fois raconter et tromper",
    general="La réplique d’Alcippe montre qu’il est très jaloux et qu’il croit tout ce qu’on lui raconte sur la femme qu’il aime."),
+})
+
+# ── Musset, On ne badine pas avec l’amour ── (affirmations vérifiées sur le texte de la pièce)
+_B = "<em>On ne badine pas avec l’amour</em>"
+E["on-ne-badine-pas-avec-l-amour"] = dict(
+ p1=[("Camille et Perdican se lancent des défis, et Blazius et Bridaine se querellent pour rire.","redit"),
+     ("La pièce parle d’amour, d’orgueil et d’éducation.","theme"),
+     ("Camille et Perdican se marient à la fin, comme le Baron l’avait prévu.","faux")],
+ p2=[(f"Les personnages s’affrontent-ils sérieusement dans {_B} ?","reprise"),
+     (f"Comment Camille et Perdican s’affrontent-ils par orgueil dans {_B}, entre défis, ruses et rendez-vous à la fontaine ?","partielle"),
+     ("Comment Musset concilie-t-il le jeu de l’affrontement et la gravité de la fin ?","resout")],
+ plan=[("I. Non, ils jouent / II. Oui, ils sont sérieux / III. Ils sont un peu des deux","dialectique"),
+       ("I. L’amour / II. L’orgueil / III. La religion","thematique"),
+       ("I. L’acte I / II. L’acte II / III. L’acte III","ordre")],
+ analyse=[("Perdican demande à Camille si elle récite une prière ou si elle veut qu’il en récite une.","paraphrase"),
+          ("On relève une question alternative, construite avec « ou », et deux mots du vocabulaire religieux.","etiquette"),
+          ("La question montre que Perdican s’agace des questions de Camille.","general")],
+)
+E["on-ne-badine-pas-avec-l-amour-parole"] = dict(
+ p1=[("Camille répond par des maximes, et Perdican fait des déclarations pour être entendu d’une autre.","redit"),
+     ("La pièce parle de l’amour, de la jeunesse et du couvent.","theme"),
+     ("Les personnages disent toujours franchement ce qu’ils ressentent, sans jamais jouer.","faux")],
+ p2=[(f"Le jeu de la parole nuit-il à l’expression sincère des sentiments dans {_B} ?","reprise"),
+     (f"Comment Camille et Perdican jouent-ils avec les mots dans {_B} ?","partielle"),
+     (f"Comment Musset parvient-il à concilier, dans {_B}, le jeu brillant des répliques et la sincérité des sentiments ?","resout")],
+ plan=[("I. Oui, le jeu nuit à la sincérité / II. Non, il ne lui nuit pas / III. Il lui nuit en partie","dialectique"),
+       ("I. Les maximes / II. Les mensonges / III. Les aveux","thematique"),
+       ("I. Les retrouvailles / II. La scène de la fontaine / III. L’oratoire","ordre")],
+ analyse=[("Camille reconnaît que ses idées viennent peut-être de ce qu’on lui a appris.","paraphrase"),
+          ("On relève une métaphore animale et deux propositions reliées par « et ».","etiquette"),
+          ("La métaphore du perroquet est amusante et montre que Camille est lucide.","general")],
+)
+OK.update({
+ "on-ne-badine-pas-avec-l-amour": ("La pièce s’achève sur la mort de Rosette : le jeu a fait une victime réelle.",
+   "I. Ils s’affrontent d’abord comme on joue / II. Mais le jeu prend Rosette pour pion / III. L’affrontement cachait un amour avoué trop tard",
+   "Les verbes de récitation dénoncent des paroles apprises : la scène devient une joute où chacun veut le dernier mot."),
+ "on-ne-badine-pas-avec-l-amour-parole": ("C’est au cœur même de leurs joutes que jaillissent les paroles les plus sincères.",
+   "I. Le jeu retient l’aveu / II. Mais la sincérité éclate au cœur de la joute / III. La forme du proverbe fait entendre l’aveu caché",
+   "L’image du perroquet fait de sa parole une récitation : Camille répète des leçons au lieu de dire ce qu’elle éprouve."),
+})
+LONG.update({
+ "on-ne-badine-pas-avec-l-amour": dict(theme="La pièce parle d’amour, d’orgueil et d’éducation, entre le couvent de Camille, les études de Perdican et le château du Baron.",
+   dialectique="I. Non, les personnages s’affrontent par jeu / II. Oui, ils s’affrontent sérieusement / III. Ils sont à la fois joueurs et sérieux",
+   general="La question de Perdican montre qu’il s’agace des questions de Camille, ce qui rend la scène vivante et un peu comique pour le spectateur."),
+ "on-ne-badine-pas-avec-l-amour-parole": dict(theme="La pièce parle de l’amour, de la jeunesse et du couvent, à travers deux cousins qui se retrouvent après dix ans de séparation.",
+   dialectique="I. Oui, le jeu de la parole nuit à la sincérité / II. Non, les personnages restent sincères / III. Le jeu nuit en partie seulement",
+   general="La métaphore du perroquet est amusante et frappante, et elle montre que Camille est lucide sur elle-même, malgré son orgueil."),
 })
