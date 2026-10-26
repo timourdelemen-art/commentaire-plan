@@ -509,7 +509,7 @@
     if(els.manual)els.manual.hidden=true;
     els.count.textContent="PARCOURS TERMINÉ · "+fmt(state.totalElapsed);
     els.summaryContent.innerHTML=item.etapes.map(s=>"<article class='summary-step'><h3>"+s.titre+"</h3><p>"+(state.answers[s.id]||"—")+"</p></article>").join("");
-    els.restart.href=item.type==="bac-commentaire"?"../bac-mode-examen.html":"../annales.html#brevet";
+    els.restart.href=item.type==="bac-commentaire"?"../bac-mode-examen.html":"../brevet.html#brevet-sujets";
   }
 
   renderTargetedPicker();

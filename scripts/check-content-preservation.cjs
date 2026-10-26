@@ -22,6 +22,16 @@ const signature=s=>({
  links:getLinks(s).filter(h=>relevant(h)&&!h.startsWith('http'))
 });
 const findings=[];
+/* Contenus déplacés volontairement : un lien remplacé par sa nouvelle adresse, ou une section partie sur une autre page,
+   ne compte pas comme une perte. Chaque entrée renvoie à la PR qui a fait le déplacement. */
+const MOVED_LINKS={ // ancienne adresse → nouvelle (menu Annales, 26 octobre 2026)
+ 'annales.html#bac':'annales-bac.html','/annales.html#bac':'/annales-bac.html',
+ 'annales.html#annales-bac-fiches':'annales-bac.html#annales-bac-fiches','annales.html#annales-recherche':'annales-bac.html#annales-recherche',
+ 'annales.html#brevet':'brevet.html#brevet-sujets','/annales.html#brevet':'/brevet.html#brevet-sujets',
+ 'annales.html::#hlp':'hlp-annales.html','annales.html::#brevet':'brevet.html#brevet-sujets' // ancres internes devenues des portes
+};
+const MOVED_PAGES={'annales.html':['annales-bac.html','brevet.html']}; // sections reprises par ces pages
+const signatureOf=f=>fs.existsSync(path.join(root,f))?signature(fs.readFileSync(path.join(root,f),'utf8')):{scripts:[],links:[]};
 for(const file of files){
  if(!relevant(file))continue;
  const dest=path.join(root,file);
@@ -31,7 +41,8 @@ for(const file of files){
   if(after[key]<before[key])findings.push({file,type:'COMPTEUR_EN_BAISSE',element:key,avant:before[key],apres:after[key]});
  }
  for(const key of ['scripts','links']){
-  const lost=[...new Set(before[key])].filter(x=>!after[key].includes(x));
+  const elsewhere=(MOVED_PAGES[file]||[]).flatMap(f=>signatureOf(f)[key]);
+  const lost=[...new Set(before[key])].filter(x=>!after[key].includes(x)&&!((m=>m&&after[key].includes(m))(MOVED_LINKS[file+'::'+x]||MOVED_LINKS[x]))&&!elsewhere.includes(x));
   if(lost.length)findings.push({file,type:'REFERENCES_DISPARUES_A_VERIFIER',element:key,valeurs:lost});
  }
 }

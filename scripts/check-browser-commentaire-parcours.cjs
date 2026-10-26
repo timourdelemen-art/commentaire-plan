@@ -61,7 +61,7 @@ async function check(root){
      await page.locator('main h1').scrollIntoViewIfNeeded();await page.screenshot({path:path.join(captures,'commentaire-source-aragon-'+width+'.png')});
     }
    }
-   await page.goto(base+'annales.html');
+   await page.goto(base+'annales-bac.html');
    const aragon=page.locator('#transformedAnnales .corpus-card').filter({hasText:'Louis Aragon'});
    // La section utilise content-visibility : la faire entrer dans le viewport avant sa carte.
    await page.locator('#annales-recherche').scrollIntoViewIfNeeded();

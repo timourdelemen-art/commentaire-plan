@@ -3,7 +3,7 @@
 const fs=require('node:fs'),path=require('node:path'),http=require('node:http'),assert=require('node:assert/strict');
 const {chromium}=require('playwright');
 const root=path.resolve(process.argv[2]||'.');
-const pages=[...new Set(['index.html','bac-dissertation.html','brevet-redaction.html','bibliotheque.html','bibliotheque-litterature.html','annales.html','philosophie.html','philosophie-banque.html','philosophie-explication.html','philosophie-exemples.html','philosophie-troisieme-resolutions.html','hlp.html','hlp-premiere.html','hlp-terminale.html','hlp-ecrire.html','brevet.html','brevet-lecture-parcours.html',...fs.readdirSync(root).filter(n=>/^(hlp-parcours-.*|philosophie-explication-.+|philosophie-copie-20-.+|philosophie-notion-.+|philosophie-bac-2026-.+)\.html$/.test(n))])];
+const pages=[...new Set(['index.html','bac-dissertation.html','brevet-redaction.html','bibliotheque.html','bibliotheque-litterature.html','annales.html','annales-bac.html','philosophie.html','philosophie-banque.html','philosophie-explication.html','philosophie-exemples.html','philosophie-troisieme-resolutions.html','hlp.html','hlp-premiere.html','hlp-terminale.html','hlp-ecrire.html','brevet.html','brevet-lecture-parcours.html',...fs.readdirSync(root).filter(n=>/^(hlp-parcours-.*|philosophie-explication-.+|philosophie-copie-20-.+|philosophie-notion-.+|philosophie-bac-2026-.+)\.html$/.test(n))])];
 const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript','.css':'text/css','.svg':'image/svg+xml','.json':'application/json','.png':'image/png','.jpg':'image/jpeg','.woff2':'font/woff2'};
 const server=http.createServer((req,res)=>{const file=path.resolve(root,'.'+new URL(req.url,'http://localhost').pathname);if(!file.startsWith(root+path.sep))return res.writeHead(403).end();fs.readFile(file,(e,b)=>{if(e)return res.writeHead(404).end();res.writeHead(200,{'Content-Type':mime[path.extname(file)]||'application/octet-stream'}).end(b);});});
 const results=[];
@@ -25,6 +25,9 @@ async function checkNavigation(page,name){
   assert.equal(await page.locator('.commentaire-choices').first().locator(':scope > a').count(),4,'Les quatre parcours de commentaire doivent être conservés');
 }
 if(name==='annales.html'){
+  assert.equal(await page.locator('main .library-doors > a').count(),4,'Les quatre banques d’annales doivent être proposées');
+}
+if(name==='annales-bac.html'){
   const discovery=page.locator('#annales-recherche');
   assert.equal(await discovery.count(),1,'Recherche des annales absente ou dupliquée');
   assert(await page.locator('#annales-author option').count()>1,'Auteurs absents');
@@ -34,10 +37,8 @@ if(name==='annales.html'){
   assert(count>0,'Aucun sujet après filtre auteur');
   await page.locator('#annales-reset').click();
   assert.equal(await page.locator('#annales-author').inputValue(),'all','Réinitialisation auteur');
-  await page.locator('#annalesControls [data-f="brevet"]').click();
-  assert(await page.locator('#annales-author').evaluate(el=>el.closest('label').hidden),'Filtre auteur visible pour brevet');
-  await page.locator('#annalesControls [data-f="bac"]').click();
-  assert(!(await page.locator('#annales-author').evaluate(el=>el.closest('label').hidden)),'Filtre auteur masqué pour bac');
+  assert(!(await page.locator('#annales-author').evaluate(el=>el.closest('label').hidden)),'Filtre auteur masqué');
+  assert.equal(await page.locator('#transformedAnnales .corpus-card').filter({hasText:'Brevet'}).count(),0,'Des sujets du brevet sur la page du bac');
 }
 if(name==='brevet-redaction.html'||name==='philosophie-explication.html'){
   const links=page.locator('main nav.annales-jump a[href]');
