@@ -21,12 +21,13 @@ E["bac-commentaire-hugo-branche-rude"] = dict(
 )
 OK["bac-commentaire-hugo-branche-rude"] = (
  "X : une branche noire sous la pluie, qui va refleurir. Y : l’analogie fait de cette renaissance une déclaration d’amour.",
- "I. La nature fait jaillir la vie du bois le plus dur / II. Cette branche est le portrait du poète que l’amour fait revivre / III. La renaissance devient une loi du monde",
+ "I. La vie jaillit du bois le plus dur / II. La branche est le portrait du poète que l’amour ranime / III. Cette renaissance devient une loi",
  "Le connecteur « Mais » et le futur « tu vas voir » annoncent un retournement que l’hiver ne laissait pas prévoir.")
 LONG["bac-commentaire-hugo-branche-rude"] = dict(
  paraphrase="X : une branche noire sous la pluie, en plein hiver. Y : au printemps, une feuille tendre finit par percer le bois noir et dur.",
  description="Comment Hugo décrit-il une branche d’arbre noire et nue, battue par la pluie, au cœur de l’hiver ?",
  lineaire="I. Les vers 1 à 6 : la branche en hiver / II. Les vers 7 à 12 : l’âme du poète / III. Les vers 13 à 18 : la loi du monde",
+ procedes="I. Les images de la branche et de l’hiver / II. Les questions adressées à la bien-aimée / III. L’anaphore de « C’est que » dans les derniers vers",
  theme="X : la nature et ses saisons. Y : le poème parle de l’amour, du temps qui passe et du retour du printemps après l’hiver.",
  thematique="I. La nature en hiver et au printemps / II. L’amour du poète pour la jeune femme / III. La poésie et l’écriture des vers",
  general="Le futur rend le passage plus vivant et plus dynamique, et il montre que le poète garde l’espoir malgré la tristesse de l’hiver.")
@@ -48,11 +49,12 @@ E["bac-commentaire-leconte-de-lisle-hialmar"] = dict(
 )
 OK["bac-commentaire-leconte-de-lisle-hialmar"] = (
  "X : un guerrier agonise parmi les morts et prend la parole. Y : ses paroles font de sa mort une grandeur héroïque et amoureuse.",
- "I. Le poème montre toute la réalité de la défaite / II. Par la parole, Hialmar reprend la maîtrise de ce qu’il subit / III. La mort change de sens et devient glorieuse",
+ "I. La défaite du corps est entière / II. Par la parole, Hialmar reprend la maîtrise / III. Sa mort devient glorieuse",
  "Les impératifs lui font ordonner lui-même ce qu’il devrait subir : le mourant reprend la maîtrise de sa mort.")
 LONG["bac-commentaire-leconte-de-lisle-hialmar"] = dict(
  description="Comment Leconte de Lisle décrit-il un champ de bataille glacé, couvert de morts, où un guerrier agonise ?",
  lineaire="I. Les morts sur le champ de bataille / II. Hialmar appelle le corbeau / III. Hialmar envoie son cœur à la fille d’Ylmer",
+ procedes="I. Les couleurs du champ de bataille / II. Les impératifs adressés aux animaux / III. Les apostrophes au corbeau et aux loups",
  theme="X : la guerre et ses massacres. Y : le poème parle de la mort, du courage des guerriers et de l’amour qu’ils laissent derrière eux.",
  thematique="I. La guerre et le champ de bataille / II. La mort du guerrier blessé / III. L’amour pour la fille d’Ylmer",
  general="Les impératifs rendent la scène très violente et frappante, et ils montrent la souffrance terrible du guerrier blessé.")
