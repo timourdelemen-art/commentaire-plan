@@ -12,7 +12,8 @@ const server=http.createServer((req,res)=>{const p=decodeURIComponent(new URL(re
  try{for(const width of [390,1280]){
   const context=await browser.newContext({viewport:{width,height:900},reducedMotion:'reduce'}),page=await context.newPage(),errors=[];
   page.on('pageerror',e=>errors.push(e.message));
-  await page.goto(base+'philosophie-explication.html');assert.equal(await page.locator('.ecrire-card').count(),data.subjects.length+2); // 8 sujets guidés + 2 annales complémentaires (Pascal, Platon)await page.locator('#banque').scrollIntoViewIfNeeded();
+  await page.goto(base+'philosophie-explication.html');assert.equal(await page.locator('.ecrire-card').count(),data.subjects.length+5); // 8 sujets guidés + 5 pages écrites à la main (Pascal, Platon, Mill, Aristote, Bergson)
+ await page.locator('#banque').scrollIntoViewIfNeeded();
   assert((await page.locator('main').textContent()).replace(/\s+/g,' ').includes('56 exercices'));
   assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
   for(const s of data.subjects){
@@ -50,7 +51,7 @@ const server=http.createServer((req,res)=>{const p=decodeURIComponent(new URL(re
    // Tous les liens locaux du module résolvent une vraie page ou une ancre existante.
    const links=await page.locator('main a[href]').evaluateAll(as=>as.map(a=>a.getAttribute('href')));
    for(const href of links.filter(h=>!/^https?:/.test(h))){const u=new URL(href,base);assert((await page.request.get(u.href)).ok(),href);}
-   await page.reload();await page.locator('[data-level="3"]').click();assert.equal(await page.locator('[data-panel="3"] textarea').inputValue(),'Ma copie entière.');
+   await page.reload();await page.locator('#onglet-entrainement').click();await page.locator('[data-level="3"]').click();assert.equal(await page.locator('[data-panel="3"] textarea').inputValue(),'Ma copie entière.');
    assert.equal(await page.locator('.ecrire-drill textarea').first().inputValue(),'Ma reprise personnelle.');
    await page.locator('[data-restart]').click();assert(await page.locator('[data-panel="1"]').isVisible());
    assert.equal(await page.locator('.ecrire-drill textarea').first().inputValue(),'Ma reprise personnelle.');
@@ -60,7 +61,7 @@ const server=http.createServer((req,res)=>{const p=decodeURIComponent(new URL(re
   // Refus du stockage : les exercices demeurent utilisables et le message est explicite.
   const blocked=await context.newPage();await blocked.addInitScript(()=>{Object.defineProperty(window,'localStorage',{get(){throw Error('Refus');}});});
   await blocked.goto(base+file(data.subjects[0]));assert.match(await blocked.locator('[data-save-status]').innerText(),/indisponible/);await blocked.locator('[data-level="3"]').click();assert(await blocked.locator('[data-panel="3"] textarea').isVisible());
-  await page.goto(base+file(data.subjects[0]));await page.locator('[data-model] > summary').click();
+  await page.goto(base+file(data.subjects[0]));await page.locator('#onglet-corrige-onglet').click();await page.locator('[data-model] > summary').click();
   await page.locator('[data-model]').scrollIntoViewIfNeeded();
   if(process.env.PHILO_SCREENSHOT_DIR){fs.mkdirSync(process.env.PHILO_SCREENSHOT_DIR,{recursive:true});await page.screenshot({path:path.join(process.env.PHILO_SCREENSHOT_DIR,`explication-${width}.png`)});}
   console.log(`${width}px : huit textes, neuf modèles, niveaux, choix, aides, ateliers, fonctions, copie continue, liens et brouillons vérifiés.`);
