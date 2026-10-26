@@ -156,5 +156,6 @@ def transforme(name, P):
     print(name, ':', n_et, 'étape(s)')
 
 
-for name, P in PAGES.items():
-    transforme(name, P)
+if __name__ == '__main__':
+    for name, P in PAGES.items():
+        transforme(name, P)
