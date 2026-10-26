@@ -73,6 +73,9 @@
     box.querySelector('[data-compare]').addEventListener('click', function () {
       var model = box.querySelector('[data-model]');
       model.open = true;
+      /* Le corrigé est dans son onglet : on l’ouvre d’abord. */
+      var tab = document.getElementById && document.getElementById('onglet-corrige-onglet');
+      if (tab) tab.click();
       model.scrollIntoView({ behavior: 'smooth', block: 'start' });
       model.querySelector('summary').focus();
     });
