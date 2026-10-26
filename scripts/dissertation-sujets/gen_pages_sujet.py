@@ -13,6 +13,18 @@ OEUVRES = {
  'dorion': dict(file='dorion_copies.py', titre='<em>Mes forêts</em>', court='Mes forêts', auteur='Hélène Dorion',
    parcours='« la poésie, la nature, l’intime »', ancre='dorion',
    note='Chaque citation a été relue mot pour mot dans l’édition Bruno Doucey de <em>Mes forêts</em> (2021). La barre oblique sépare les vers ; les poèmes sont désignés par leur titre, ou par leurs premiers mots quand ils n’en ont pas.'),
+ 'douai': dict(file='douai_copies.py', racine='/', titre='<em>Cahier de Douai</em>', court='Cahier de Douai', auteur='Arthur Rimbaud',
+   parcours='« émancipations créatrices »', ancre='',
+   note='Les vers cités ont été vérifiés mot pour mot sur deux éditions en ligne. Quand la ponctuation d’un vers varie d’une édition à l’autre, vérifiez dans la vôtre.'),
+ 'menteur': dict(file='menteur_copies.py', racine='/', titre='<em>Le Menteur</em>', court='Le Menteur', auteur='Pierre Corneille',
+   parcours='« mensonge et comédie »', ancre='',
+   note='Chaque vers cité a été retrouvé mot pour mot dans une édition en ligne (Théâtre classique, orthographe modernisée). La ponctuation et les majuscules peuvent varier d’une édition à l’autre : vérifiez dans la vôtre.'),
+ 'badine': dict(file='badine_copies.py', racine='/', titre='<em>On ne badine pas avec l’amour</em>', court='On ne badine pas avec l’amour', auteur='Alfred de Musset',
+   parcours='« les jeux du cœur et de la parole »', ancre='',
+   note='Chaque réplique citée a été retrouvée mot pour mot dans l’édition Arvensa des <em>Œuvres complètes</em> de Musset (2019). La ponctuation peut varier d’une édition à l’autre : vérifiez dans la vôtre.'),
+ 'manon': dict(file='manon_copies.py', racine='/', titre='<em>Manon Lescaut</em>', court='Manon Lescaut', auteur='l’abbé Prévost',
+   parcours='« personnages en marge, plaisirs du romanesque »', ancre='prevost',
+   note='Chaque citation a été retrouvée mot pour mot dans l’édition BnF-Partenariats (2014) de l’<em>Histoire du chevalier Des Grieux et de Manon Lescaut</em>. La ponctuation peut varier d’une édition à l’autre : vérifiez dans la vôtre.'),
  'sarraute': dict(file='sarraute/copies.py', var='COPIES', prefixe='pour-un-oui-ou-pour-un-non-', racine='/', titre='<em>Pour un oui ou pour un non</em>', court='Pour un oui ou pour un non', auteur='Nathalie Sarraute',
    parcours='« théâtre et dispute »', ancre='sarraute',
    note='Chaque réplique citée a été relue mot pour mot dans l’édition Gallimard du <em>Théâtre</em> de Nathalie Sarraute. La pièce n’a ni actes ni scènes : les passages sont situés par leur moment dans le dialogue. Les personnages s’y nomment H. 1, H. 2, H. 3 et F.'),
@@ -63,7 +75,7 @@ def info(k, c):
     trans = [b[0][0] for h, b in B if len(b) == 1 and b[0][1].startswith('Transition')]
     mq = re.search(r'«(.*)»', c['preuve'][0]); q = norm(mq.group(1) if mq else c['preuve'][0]); an = passage = None
     for i, (t, l) in enumerate(rows):
-        if l == 'Le passage qui prouve' and q in norm(t):
+        if l.startswith('Le') and 'qui prouve' in l and q in norm(t):
             passage = t; an = rows[i + 1][0]; break
     assert an and len(reps) == 3 and len(trans) == 2 and len(B) == 13, k
     return dict(c=c, intro=intro, rows=rows, reps=reps, trans=trans, passage=passage, an=an)
@@ -86,7 +98,8 @@ def page(k, I, O, other, Ib):
     rows = I['rows']; ns = len(rows); nw = sum(len(plain(t).split()) for t, l in rows)
     P = I['intro'][4][0]
     autre = (f'<div class="etape-autre"><p><b>Un autre sujet sur {O["titre"]}</b> · {cb["session"].split(",")[0]}</p>'
-             f'<p class="sujet-libelle" style="font-size:19px;margin:8px 0 0">{cb["sujet"]}</p></div>')
+             f'<p class="sujet-libelle" style="font-size:19px;margin:8px 0 0">{cb["sujet"]}</p>'
+             f'<p class="micro"><a href="{O.get("racine", "")}bac-dissertation-copie-20-{O.get("prefixe", "")}{other}.html">La page de ce sujet →</a></p></div>')
     def comment(n): return f'<details class="etape-comment"><summary>Comment faire ?</summary><p>{COMMENT[n]}</p><p><a href="bac-dissertation-methode.html">La méthode complète →</a></p></details>'
     def ecrit(inner): return (f'<div class="etape-ecrit"><div class="etape-niveau">J’écris, sur un autre sujet</div>'
                               f'<p>Refaites seul la même opération sur un sujet que vous n’avez pas encore vu. Le corrigé vient de sa copie à 20.</p>{autre}{inner}</div>')
@@ -161,7 +174,7 @@ def page(k, I, O, other, Ib):
 <div class="grid-3">
 {why}
 </div>
-<p><a class="official-link" href="{O.get("racine", "")}bac-dissertation-sujets.html#{O['ancre']}">Tous les vrais sujets sur {O['titre']} →</a><br><a class="official-link" href="{O.get("racine", "")}bac-dissertation.html#diss-probleme">Trouver le problème sur de vrais sujets, au clic →</a><br><a class="official-link" href="{O.get("racine", "")}bac-dissertation-methode.html">La méthode complète de la dissertation →</a></p></section>
+<p><a class="official-link" href="{O.get("racine", "")}bac-dissertation-sujets.html{'#' + O['ancre'] if O['ancre'] else ''}">Tous les vrais sujets sur {O['titre']} →</a><br><a class="official-link" href="{O.get("racine", "")}bac-dissertation.html#diss-probleme">Trouver le problème sur de vrais sujets, au clic →</a><br><a class="official-link" href="{O.get("racine", "")}bac-dissertation-methode.html">La méthode complète de la dissertation →</a></p></section>
 </div>
 
 </main><script src="onglets.js"></script><script src="etapes.js"></script><script src="modeles-redaction.js"></script><script src="site-nav.js"></script></body></html>
@@ -173,6 +186,7 @@ for oe, O in OEUVRES.items():
     I = {k: info(k, C[k]) for k in keys}
     for n, k in enumerate(keys):
         other = keys[(n + 1) % len(keys)]
+        if C[k].get('page_existante'): continue  # page annotée conservée : elle sert seulement d’autre sujet
         slug, ns, nw, h = page(k, I[k], O, other, I[other])
         open(f'{R}/{slug}', 'w', encoding='utf8').write(h)
         print(slug, ns, nw, '→ autre sujet :', other)
