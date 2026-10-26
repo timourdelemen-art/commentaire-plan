@@ -6,6 +6,7 @@ Ces scripts produisent les pages `bac-dissertation-copie-20-ponge*.html`, `-dori
 - `etapes_data.py` : propositions au clic des quatre étapes (`E`, `OK`, `LONG`).
 - `gen_pages_sujet.py` : génère les pages à onglets. Usage : `python3 scripts/dissertation-sujets/gen_pages_sujet.py .`
 - `verify2.py`, `sarraute/verify.py` : vérifient les citations mot pour mot. Ils lisent le texte intégral des œuvres (`ponge_clean.txt`, `dorion_clean.txt`, `play.txt`), qui n’est pas versé au dépôt : auteurs protégés.
+- `manon_copies.py` : la copie Prévost « criminels plaisirs » (protocole) et, extraite, la copie annotée existante, qui garde sa propre page (`page_existante`) et sert d’autre sujet pour l’écrit.
 - `badine_copies.py` : les deux copies de Badine (l’ancienne, extraite de sa page ; la nouvelle, sur le sujet 2025 Polynésie, écrite avec le protocole).
 - `menteur_copies.py`, `menteur_histoires.py` : les deux copies du Menteur (l’ancienne, extraite de sa page ; la nouvelle, sur le sujet 2025 Asie).
 - `douai_copies.py` : les deux copies du Cahier de Douai, extraites le 26 octobre 2026 des anciennes pages statiques.

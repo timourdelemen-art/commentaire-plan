@@ -1,4 +1,4 @@
-# Propositions au clic des pages de sujet (Ponge, Dorion, Sarraute, Rimbaud, Corneille, Musset).
+# Propositions au clic des pages de sujet (Ponge, Dorion, Sarraute, Rimbaud, Corneille, Musset, Prévost).
 # La bonne réponse vient de la copie à 20 ; les autres sont écrites ici, chacune avec son type
 # (le type donne l'explication affichée à l'élève, voir gen.py).
 # p1 : ce que l'œuvre montre aussi · p2 : la question · plan · analyse (du passage « preuve » de la copie)
@@ -581,3 +581,26 @@ LONG.update({
    dialectique="I. Oui, le jeu de la parole nuit à la sincérité / II. Non, les personnages restent sincères / III. Le jeu nuit en partie seulement",
    general="La métaphore du perroquet est amusante et frappante, et elle montre que Camille est lucide sur elle-même, malgré son orgueil."),
 })
+
+# ── Prévost, Manon Lescaut ── (affirmations vérifiées sur le texte du roman)
+_ML = "<em>Manon Lescaut</em>"
+E["manon-lescaut-plaisirs"] = dict(
+ p1=[("Des Grieux triche au jeu, soupe joyeusement à Chaillot et suit Manon dans toutes ses ruses.","redit"),
+     ("Le roman parle d’amour, d’argent et de liberté.","theme"),
+     ("Des Grieux raconte ses plaisirs sans jamais les regretter ni les juger.","faux")],
+ p2=[(f"Tout l’intérêt de {_ML} tient-il au récit des « criminels plaisirs » de Des Grieux et de Manon ?","reprise"),
+     (f"Quels plaisirs Des Grieux et Manon s’accordent-ils dans {_ML} ?","partielle"),
+     (f"Comment Prévost réussit-il à concilier, dans {_ML}, le charme des plaisirs défendus et la leçon morale de leur châtiment ?","resout")],
+ plan=[("I. Oui, l’intérêt tient aux plaisirs / II. Non, il tient à la morale / III. Il tient un peu aux deux","dialectique"),
+       ("I. L’amour / II. L’argent / III. La religion","thematique"),
+       ("I. Amiens et Paris / II. Saint-Lazare et l’Hôpital / III. L’Amérique","ordre")],
+ analyse=[("Des Grieux explique qu’il va tricher surtout à l’hôtel de Transylvanie.","paraphrase"),
+          ("On relève une métaphore théâtrale et le verbe « devoir » à l’imparfait.","etiquette"),
+          ("La phrase montre que Des Grieux est fier de tricher.","general")],
+)
+OK["manon-lescaut-plaisirs"] = ("Ses pages les plus fortes racontent le prix de ces plaisirs : la prison, la déportation, la mort de Manon.",
+   "I. Les plaisirs défendus séduisent / II. Mais le roman en raconte le prix / III. La voix qui revit et juge fait l’intérêt",
+   "Le vocabulaire héroïque des « exploits » change la fraude en épopée : la faute devient une conquête.")
+LONG["manon-lescaut-plaisirs"] = dict(theme="Le roman parle d’amour, d’argent et de liberté, entre Paris, la province et l’Amérique, au début du XVIIIe siècle.",
+   dialectique="I. Oui, l’intérêt tient aux plaisirs du couple / II. Non, il tient à la leçon morale / III. Il tient à la fois aux plaisirs et à la morale",
+   general="La phrase montre que Des Grieux est fier de tricher au jeu, ce qui le rend moins sympathique au lecteur et annonce ses malheurs.")

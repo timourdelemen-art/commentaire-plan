@@ -22,6 +22,9 @@ OEUVRES = {
  'badine': dict(file='badine_copies.py', racine='/', titre='<em>On ne badine pas avec l’amour</em>', court='On ne badine pas avec l’amour', auteur='Alfred de Musset',
    parcours='« les jeux du cœur et de la parole »', ancre='',
    note='Chaque réplique citée a été retrouvée mot pour mot dans l’édition Arvensa des <em>Œuvres complètes</em> de Musset (2019). La ponctuation peut varier d’une édition à l’autre : vérifiez dans la vôtre.'),
+ 'manon': dict(file='manon_copies.py', racine='/', titre='<em>Manon Lescaut</em>', court='Manon Lescaut', auteur='l’abbé Prévost',
+   parcours='« personnages en marge, plaisirs du romanesque »', ancre='prevost',
+   note='Chaque citation a été retrouvée mot pour mot dans l’édition BnF-Partenariats (2014) de l’<em>Histoire du chevalier Des Grieux et de Manon Lescaut</em>. La ponctuation peut varier d’une édition à l’autre : vérifiez dans la vôtre.'),
  'sarraute': dict(file='sarraute/copies.py', var='COPIES', prefixe='pour-un-oui-ou-pour-un-non-', racine='/', titre='<em>Pour un oui ou pour un non</em>', court='Pour un oui ou pour un non', auteur='Nathalie Sarraute',
    parcours='« théâtre et dispute »', ancre='sarraute',
    note='Chaque réplique citée a été relue mot pour mot dans l’édition Gallimard du <em>Théâtre</em> de Nathalie Sarraute. La pièce n’a ni actes ni scènes : les passages sont situés par leur moment dans le dialogue. Les personnages s’y nomment H. 1, H. 2, H. 3 et F.'),
@@ -183,6 +186,7 @@ for oe, O in OEUVRES.items():
     I = {k: info(k, C[k]) for k in keys}
     for n, k in enumerate(keys):
         other = keys[(n + 1) % len(keys)]
+        if C[k].get('page_existante'): continue  # page annotée conservée : elle sert seulement d’autre sujet
         slug, ns, nw, h = page(k, I[k], O, other, I[other])
         open(f'{R}/{slug}', 'w', encoding='utf8').write(h)
         print(slug, ns, nw, '→ autre sujet :', other)
