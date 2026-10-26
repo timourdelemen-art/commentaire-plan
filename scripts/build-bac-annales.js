@@ -30,7 +30,9 @@ for(const [id,e] of Object.entries(CAT)){
   const num=x=>e.etapes.indexOf(x)+1;
   const libresHtml=libres.map(x=>`<li class="sujet-etape"><h3><span>${num(x)}</span> ${titre(x.titre)}</h3><p>${para(x.consigne)}</p>${x.aide?`<details><summary>Une aide si vous bloquez</summary><p>${para(x.aide)}</p></details>`:''}<a class="sujet-etape-lien" href="${lien(x.id)}">Faire cette étape →</a></li>`).join('');
   const suiteHtml=suite.length?`<div class="sujet-suite"><p><strong>La suite du parcours sur ce texte :</strong> ${suite.map(x=>`${num(x)}. ${titre(x.titre)}`).join(' · ')}.</p><a class="btn" href="annales/entrainement-annale.html?id=${id}">Faire le parcours guidé →</a></div>`:'';
-  const bloc=`${START}<section class="sujet-etapes" id="etapes"><div class="kicker">CE SUJET, ÉTAPE PAR ÉTAPE</div><h2>${esc(e.auteur)}, ${esc(e.oeuvre)} : par où commencer.</h2><p>Essayez chaque étape sur votre brouillon avant d’ouvrir l’aide.</p><ol class="sujet-etapes-liste">${libresHtml}</ol>${suiteHtml}</section>${END}\n`;
+  // Le texte, quand il est du domaine public et relevé dans le sujet officiel (catalogue : supportText).
+  const texte=e.supportText?`<section class="sujet-texte offer-band" id="texte"><div class="kicker">LE TEXTE</div><div class="texte-examen">${e.supportText}</div><p class="micro">${esc(e.supportSource||'')}</p></section>`:'';
+  const bloc=`${START}${texte}<section class="sujet-etapes" id="etapes"><div class="kicker">CE SUJET, ÉTAPE PAR ÉTAPE</div><h2>${esc(e.auteur)}, ${esc(e.oeuvre)} : par où commencer.</h2><p>Essayez chaque étape sur votre brouillon avant d’ouvrir l’aide.</p><ol class="sujet-etapes-liste">${libresHtml}</ol>${suiteHtml}</section>${END}\n`;
   const ancre='<section class="annale-seo-method">';
   if(!s.includes(ancre)){manquants.push(id+' (ancre absente)');continue;}
   s=s.replace(ancre,bloc+ancre);
