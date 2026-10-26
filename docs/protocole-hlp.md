@@ -1,6 +1,6 @@
 # Protocole HLP (terminale) — corrigés brefs, au niveau de l’excellence
 
-Document interne, non publié (`clean-publish.js` retire les `.md`). Version 1, 26 octobre 2026. À relire après l’audit des deux premiers corrigés (Voltaire, Diderot).
+Document interne, non publié (`clean-publish.js` retire les `.md`). Version 2, 26 octobre 2026, révisée après l’audit indépendant des deux premiers corrigés (Voltaire, Diderot) : règles R1 à R9 (§ 1 bis).
 
 ## 0. Ce que demande l’épreuve (sources officielles)
 
@@ -17,12 +17,26 @@ Document interne, non publié (`clean-publish.js` retire les `.md`). Version 1, 
 ## 1. Règles communes
 
 - **Deux réponses autonomes.** Chacune situe le texte pour son correcteur ; l’essai ne renvoie jamais à l’interprétation (« comme on l’a vu »). Elles ne se répètent pas : l’interprétation explique le texte, l’essai pense la question qu’il soulève.
-- **Ampleur comparable** : 400 à 450 mots chacune dans un modèle (choix du site pour la brièveté ; une copie réelle de deux heures est souvent plus longue). Introduction : 50 à 70 mots ; conclusion : 40 à 60 mots.
+- **Ampleur comparable** : 450 à 550 mots chacune dans un modèle, écart inférieur à 15 % (choix du site : environ la moitié d’une dissertation à 20, assez pour intégrer ce qui résiste à la lecture ; une copie réelle de deux heures est souvent plus longue). Introduction : 50 à 90 mots ; conclusion : 40 à 70 mots.
 - **Une fonction par phrase**, affichée à côté d’elle ; une phrase sans fonction est supprimée.
 - **Citations du texte du sujet** : brèves, exactes (contrôle par script sur `scripts/hlp-textes.json`), intégrées à la syntaxe, toujours analysées. **Aucune citation d’une autre œuvre de mémoire** : une œuvre extérieure est décrite précisément (titre, auteur, épisode, détail) ; une citation n’est gardée que vérifiée mot pour mot dans une édition.
 - **Langue** : sobre, exacte, sans jargon ; aucun mot réservé aux documents internes (AGENTS.md § 2).
 - **Test de permutation** (protocole de dissertation littéraire) : si deux étapes ou deux moments peuvent s’échanger sans changer le raisonnement, c’est une liste ; reprendre.
 - **Transition** : une phrase, une question ouverte née de ce qui vient d’être établi (comment, pourquoi, que devient…) ; interdits : « … suffit-il ? », « Nous verrons maintenant… ». L’étape suivante reprend son mot clé.
+
+
+## 1 bis. Règles issues de l’audit (V2)
+
+- **R1. Citer juste.** Pour chaque citation, relire la phrase entière : qui parle, y a-t-il une hypothèse (« si »), quelle est la suite. Ne jamais couper une énumération ou une phrase là où elle cesse d’arranger ; ne jamais faire dire à une citation ce qu’on attend d’elle.
+- **R2. Ce qui résiste.** Avant de rédiger, relever trois éléments du texte qui gênent la lecture défendue, et en intégrer au moins un. Pour « Dans quelle mesure… ? », chercher d’abord la condition dans la lettre du texte (si, pour, à moins que…).
+- **R3. Les voix.** Distinguer ce que le personnage valorise et ce que l’interprète en déduit (« pour Bordeu… ; mais l’image peut se lire… »). Ne pas prêter à un personnage des raisons que le texte ne donne pas.
+- **R4. Les verbes du texte.** Garder les verbes du texte (dominer, affaiblir) ; ne jamais leur substituer un verbe plus fort (abolir, ne plus sentir).
+- **R5. Les définitions tenues.** Après chaque étape ou moment, vérifier que le mot clé garde le sens posé dans l’introduction.
+- **R6. L’objection traitée.** Chaque essai consacre un moment à l’objection la plus forte (un cas réel) et y répond ; la conclusion répond, elle ne reporte pas la difficulté dans une question.
+- **R7. La première personne prend position.** Dans l’essai, « je » tranche au moins une fois hors de l’annonce (« je soutiens », « je ne crois pas que… car… »).
+- **R8. Une référence, une analyse exacte.** Toute œuvre citée est accompagnée d’un détail précis (un vers vérifié, un procédé), et le procédé prouve exactement ce qu’on affirme (l’impersonnalité de Flaubert ne prouve pas son absence d’émotion).
+- **R9. L’essai ne recommente pas.** Le texte du sujet sert de point de départ, d’objection ou d’écho, jamais de preuve centrale analysée de nouveau.
+- **R10. Varier les tics.** Pas une question rhétorique en tête de chaque étape ni la même annonce dans chaque copie : la transition-question n’apparaît que là où elle fait avancer.
 
 ## 2. Les quatre fiches
 
@@ -77,7 +91,8 @@ Pour chaque réponse : trois propositions au clic (Solide, Défendable, À revoi
 ## 5. Contrôles avant publication
 
 1. Citations du texte : retrouvées mot pour mot (script).
-2. Longueurs : 400 à 450 mots par réponse ; écart entre les deux réponses inférieur à 15 %.
+2. Longueurs : 450 à 550 mots par réponse ; écart entre les deux réponses inférieur à 15 %.
+2 bis. Règles R1 à R10 vérifiées une à une.
 3. Introduction et conclusion : chaque phrase porte une fonction de la fiche.
 4. Test de permutation des étapes ou moments.
 5. Fiche de la discipline respectée ; couplage vérifié.

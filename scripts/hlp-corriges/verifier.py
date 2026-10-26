@@ -9,7 +9,7 @@ def n(s):
     return re.sub(r'\s+', ' ', s)
 def check(mod):
     M = importlib.import_module(mod); S = M.SUJET
-    texte = n(' '.join(x['t'] for x in T[S['annale']]['items']))
+    texte = n(' '.join(x['t'] for x in T[S['annale']]['items']) + ' ' + ' '.join(x[1] for x in T[S['annale']]['notes']))
     texte = re.sub(r'(?<=\w)\d', '', texte)  # appels de note
     texte += ' ' + n(M.INTERPRETATION['question'] + ' ' + M.ESSAI['question'])
     texte += ' ' + n(' '.join(getattr(M, 'TITRES', [])))  # titres d’œuvres citées, vérifiés
