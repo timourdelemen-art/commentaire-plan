@@ -98,12 +98,105 @@ CORRIGES = {
    bareme='1 point par forme modifiée ; -0,5 point par erreur de copie.',
    accepte='« leurs queues » (chaque lion a sa queue). « fatigue » et « abat » restent au singulier : leur sujet est « fureur ».'),
  },
+ 'brevet-2023-metropole-general-george-sand-histoire-de-ma-vie': {
+  'q1': dict(
+   correction='« Nous » désigne les trois enfants qui jouent ensemble : la narratrice, enfant, et ses compagnons de jeu, Hippolyte et Ursule, que le texte nomme plus loin (l. 4 et l. 15).',
+   bareme='0,5 point pour « les enfants qui jouent » ; 1,5 point pour les trois enfants nommés.',
+   hors_texte=('la petite fille qui raconte',),
+   accepte='La narratrice peut être désignée par une périphrase (« la petite fille qui raconte »), à condition de dire qu’il s’agit d’enfants.'),
+  'q2': dict(
+   correction='La scène se passe à l’intérieur, dans une chambre : la rivière fait des détours « dans cette grande chambre » (l. 3). '
+              'Cette rivière n’est pas réelle : elle « était dessinée sur le carreau avec de la craie » (l. 2), c’est-à-dire sur le carrelage. '
+              'Ce sont les enfants qui la font exister par leur jeu : « Il s’agissait de passer la rivière » (l. 1-2) ; ils font semblant de s’y noyer et de la traverser.',
+   bareme='1 point pour le lieu (sans citation exigée) ; 2 points pour la craie (1 point pour l’explication, 1 point pour la citation) ; 2 points pour la rivière imaginaire, inventée par le jeu (1 point pour l’explication, 1 point pour la citation).',
+   accepte='Toute autre citation qui montre que la rivière est dessinée ou jouée, par exemple « il nageait à sec sur le carreau » (l. 6).'),
+  'q3': dict(
+   correction='Premier élément : la narratrice voit un paysage qui n’existe pas. Elle perdait « la notion de la réalité » et croyait voir « les arbres, les eaux, les rochers » (l. 11). '
+              'Deuxième élément : elle ressent des sensations réelles : « le froid du carreau me fit l’effet de l’eau véritable » (l. 28) ; le carrelage devient de l’eau froide. '
+              'Troisième élément : les enfants agissent comme si le voyage était vrai. La narratrice refuse de « mouiller nos souliers » (l. 26-27), car « nous avons encore bien du chemin à faire » (l. 27).',
+   bareme='2 points par élément : 1 point pour l’élément, 1 point pour la citation qui le justifie.',
+   accepte='La peur des « écrevisses » (l. 25) ; l’herbe « fine » et le sable « doux » (l. 15-16) ; Hippolyte qui verse « le pot à l’eau » pour imiter « un torrent et une cascade » (l. 30-31). '
+           'Une réponse qui montre que l’illusion grandit au fil du texte est valorisée.'),
+  'q4a': dict(
+   correction='Le jeu des enfants est comparé à une pièce de théâtre. Le champ lexical du théâtre le prouve : « drame » et « fiction scénique » (l. 7-8), « mimodrames » (l. 18), « personnages » (l. 20), « dialogues » et « acteurs » (l. 21), « représentation » et « dénouement » (l. 38), « la toile tomba » (l. 39).',
+   bareme='1 point pour le théâtre ; 2 points pour quatre mots au moins du champ lexical.',
+   accepte='« rôle » (l. 6), « jouer une scène » (l. 18-19).'),
+  'q4b': dict(
+   correction='Premier moment : le décor est installé, la rivière « dessinée sur le carreau avec de la craie » (l. 2). '
+              'Deuxième moment : chacun joue un rôle et parle comme un personnage ; les enfants se vouvoient, car « Ils ne croiraient pas jouer une scène s’ils se tutoyaient » (l. 18-19). '
+              'Troisième moment : la mère arrive et met fin au jeu ; c’est le « dénouement » (l. 38), et « la toile tomba » (l. 39), comme le rideau à la fin d’une pièce.',
+   bareme='1 point par moment.',
+   accepte='L’idée d’Hippolyte, qui verse l’eau « Pour ajouter à l’illusion » (l. 29) ; la mère, qui devient le public de la scène (« Elle nous regarda », l. 32).'),
+  'q5': dict(
+   correction='Première réflexion : l’imagination des enfants est très puissante. La narratrice adulte s’exclame : « Dans quel vaste espace les enfants croient agir, quand ils vont ainsi de la table au lit » (l. 13-14) ; une simple chambre devient pour eux un pays entier. '
+              'Deuxième réflexion : les enfants sont de vrais créateurs. Ils ont « des dialogues très vrais » que « des acteurs de profession seraient bien embarrassés d’improviser » (l. 21-22) : la narratrice les admire.',
+   bareme='Pour chaque réflexion : 1,5 point pour l’idée, 1 point pour la justification par un passage précis.',
+   accepte='La tendresse ou la nostalgie de l’adulte qui se souvient ; l’opposition entre le monde des enfants et celui des adultes, qui brise l’illusion (la mère « se fâcha tout de bon », l. 34).'),
+  'q6': dict(
+   correction='Premier argument : la photographie montre, comme le texte, un jeu dessiné à la craie. On y voit des flots tracés sur le sol, avec un bateau ; dans le texte, la rivière « était dessinée sur le carreau avec de la craie » (l. 2). Dans les deux cas, un simple dessin suffit à créer un paysage d’eau. '
+              'Deuxième argument : les enfants de la photographie jouent ensemble un voyage et portent des costumes de marins, comme les enfants du texte, qui jouent des « personnages » (l. 20) et se préparent à la traversée : il fallait « relever un peu nos jupes et […] ôter nos chaussures » (l. 24-25). Le jeu devient une aventure.',
+   bareme='4 points par argument : 2 points pour l’argument fondé sur l’observation de la photographie, 2 points pour la citation du texte qui lui correspond.',
+   accepte='La joie des enfants, que l’on voit sur la photographie et que le texte fait entendre : « Nos rires et nos cris » (l. 31-32).'),
+  'q7a': dict(bareme='0,5 point par fonction. La précision « de lieu » n’est pas exigée.'),
+  'q7b': dict(bareme='1 point par manipulation.'),
+  'q8a': dict(bareme='0,5 point pour la proposition, 0,5 point pour le subordonnant.'),
+  'q8b': dict(bareme='1 point. La précision « de condition » n’est pas exigée.'),
+  'q9a': dict(bareme='0,5 point par élément.'),
+  'q9b': dict(bareme='1 point pour le sens construit (défaire un nœud), 0,5 point pour le sens dans le texte (la fin de la pièce).'),
+  'q10': dict(bareme='1 point par forme correctement modifiée : Ils, s’étaient, noyés, les, ils, tombaient, ils, faisaient, ils, nageaient. Le groupe « le rôle du maladroit ou de l’homme ivre » ne change pas.'),
+ },
 }
 
 
 # Textes du domaine public relevés dans les sujets officiels (ils s’affichent dans l’onglet « Le sujet »).
 # Vers : une ligne par vers ; ^n marque un appel de note.
 TEXTES = {
+ 'brevet-2023-metropole-general-george-sand-histoire-de-ma-vie': dict(
+  source='George Sand [pseudonyme d’Aurore Dupin], <em>Histoire de ma vie</em>, 2<sup>e</sup> partie, chapitre 15, 1855. Texte, lignes et notes d’après le sujet officiel du DNB 2023, série générale (Métropole).',
+  lignes=True,
+  texte="""Nous avions trouvé un jeu qui passionnait nos imaginations. Il s’agissait de passer
+la rivière. La rivière était dessinée sur le carreau^1 avec de la craie et faisait mille détours
+dans cette grande chambre. En de certains endroits elle était fort profonde, il fallait
+trouver l’endroit guéable^2 et ne pas se tromper. Hippolyte s’était déjà noyé plusieurs
+fois, nous l’aidions à se retirer des grands trous où il tombait toujours, car il faisait le
+rôle du maladroit ou de l’homme ivre, et il nageait à sec sur le carreau en se débattant
+et en se lamentant. Pour les enfants ces jeux-là sont tout un drame, toute une fiction
+scénique, parfois tout un roman, tout un poème, tout un voyage, qu’ils miment et rêvent
+durant des heures entières, et dont l’illusion les gagne et les saisit véritablement. Pour
+mon compte, il ne me fallait pas cinq minutes pour m’y plonger de si bonne foi, que je
+perdais la notion de la réalité, et je croyais voir les arbres, les eaux, les rochers, une
+vaste campagne, et le ciel tantôt clair, tantôt chargé de nuages qui allaient crever et
+augmenter le danger de passer la rivière. Dans quel vaste espace les enfants croient
+agir, quand ils vont ainsi de la table au lit et de la cheminée à la porte !
+
+Nous arrivâmes, Ursule et moi, au bord de notre rivière, dans un endroit où l’herbe
+était fine et le sable doux. Elle le tâta d’abord, et puis elle m’appela en me disant :
+« Vous pouvez vous y risquer, vous n’en aurez guère plus haut que les genoux. » Les
+enfants s’appellent vous dans ces sortes de mimodrames^3. Ils ne croiraient pas jouer
+une scène s’ils se tutoyaient comme à l’ordinaire. Ils représentent toujours certains
+personnages qui expriment des caractères, et ils suivent très bien la première donnée.
+Ils ont même des dialogues très vrais et que des acteurs de profession seraient bien
+embarrassés d’improviser sur la scène avec tant d’à-propos et de fécondité^4.
+
+Sur l’invitation d’Ursule, je lui observai que^5, puisque l’eau était basse, nous
+pouvions bien passer sans nous mouiller ; il ne s’agissait que de relever un peu nos
+jupes et d’ôter nos chaussures. « Mais, dit-elle, si nous rencontrons des écrevisses,
+elles nous mangeront les pieds. — C’est égal, lui dis-je ; il ne faut pas mouiller nos
+souliers, nous devons les ménager^6, car nous avons encore bien du chemin à faire. »
+À peine fus-je déchaussée, que le froid du carreau me fit l’effet de l’eau véritable, et
+nous voilà, Ursule et moi, pataugeant dans le ruisseau. Pour ajouter à l’illusion
+générale, Hippolyte imagina de prendre le pot à l’eau et de le verser par terre, imitant
+ainsi un torrent et une cascade. Cela nous sembla délirant d’invention. Nos rires et nos
+cris attirèrent enfin l’attention de ma mère. Elle nous regarda, et nous vit tous les trois,
+pieds et jambes nus, barbotant dans un cloaque^7, car le carreau avait déteint, et notre
+fleuve était fort peu limpide. Alors elle se fâcha tout de bon, surtout contre moi, qui
+étais déjà enrhumée ; elle me prit par le bras, m’appliqua une correction manuelle
+assez accentuée, et, m’ayant rechaussée elle-même, en me grondant beaucoup, elle
+chassa Hippolyte dans sa chambre, et nous mit en pénitence^8, Ursule et moi, chacune
+dans un coin. Tel fut le dénouement imprévu et dramatique de notre représentation, et
+la toile tomba sur des larmes et des cris véritables.""",
+  notes=['sur le carreau : sur le carrelage.', 'guéable : que l’on peut traverser sans perdre pied.', 'mimodrame : pièce de théâtre sans paroles.', 'fécondité : inventivité, créativité.',
+         'je lui observai que : je lui fis remarquer que.', 'nous devons les ménager : nous devons en prendre soin.', 'un cloaque : un égout.', 'elle nous mit en pénitence : elle nous punit.']),
  'brevet-2022-metropole-general-la-fontaine-lion-moucheron': dict(
   source='Jean de La Fontaine, « Le Lion et le Moucheron », <em>Fables</em>, livre II, fable 9, 1668. Texte et notes d’après le sujet officiel du DNB 2022, série générale.',
   vers=True,

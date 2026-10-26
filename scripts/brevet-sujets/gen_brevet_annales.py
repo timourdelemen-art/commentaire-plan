@@ -13,6 +13,18 @@ sp = importlib.util.spec_from_file_location('c', os.path.join(HERE, 'corriges_an
 PARTIE = {'brevet-comprehension': 'Compréhension', 'brevet-interpretation': 'Interprétation', 'brevet-analyse': 'Analyse', 'brevet-image': 'Texte et image',
           'brevet-grammaire': 'Grammaire', 'brevet-lexique': 'Lexique', 'brevet-reecriture': 'Réécriture'}
 
+def lignes(texte, sup):
+    """Prose relevée ligne à ligne dans le sujet officiel : une ligne vide sépare les paragraphes ;
+    le numéro du sujet s’affiche en marge toutes les cinq lignes."""
+    n, out = 0, []
+    for para in texte.split('\n\n'):
+        parts = []
+        for ligne in para.split('\n'):
+            n += 1
+            parts.append((f'<span class="line-no" aria-hidden="true">{n}</span>' if n % 5 == 0 else '') + sup(ligne))
+        out.append('<p>' + ' '.join(parts) + '</p>')
+    return ''.join(out)
+
 def page(k, e):
     fix = C.CORRIGES.get(k, {})
     qs = []
@@ -28,10 +40,10 @@ def page(k, e):
     if T:  # texte relevé dans le sujet officiel (corriges_annales.py)
         sup = lambda v: re.sub(r'\^(\d+)', r'<sup>\1</sup>', v)
         rows = ''.join(f'<p class="vers">' + (f'<span class="line-no" aria-hidden="true">{i + 1}</span>' if (i + 1) % 5 == 0 else '') + sup(v) + '</p>'
-                       for i, v in enumerate(T['texte'].split('\n'))) if T.get('vers') else ''.join(f'<p>{sup(p)}</p>' for p in T['texte'].split('\n'))
+                       for i, v in enumerate(T['texte'].split('\n'))) if T.get('vers') else (lignes(T['texte'], sup) if T.get('lignes') else ''.join(f'<p>{sup(p)}</p>' for p in T['texte'].split('\n')))
         notes = '<br>'.join(f'<sup>{i + 1}</sup> {n}' for i, n in enumerate(T.get('notes', [])))
         texte = f'<div class="kicker">LE TEXTE</div><div class="texte-examen">{rows}</div><p class="micro">{T["source"]}</p>' + (f'<p class="micro">{notes}</p>' if notes else '')
-        brut = re.sub(r'\^\d+', '', T['texte'])
+        brut = re.sub(r'\^\d+', '', T['texte']).replace('\n\n', '\n')
     elif e.get('supportText'):
         texte = f'<div class="kicker">LE TEXTE</div><div class="texte-examen">{e["supportText"]}</div><p class="micro">{esc(e.get("supportSource", ""))}</p>'
         brut = re.sub(r'<p class=.micro.>.*$', '', e['supportText'], flags=re.S)
