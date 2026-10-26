@@ -14,6 +14,36 @@ const DOMAIN='https://commentaire-plan.com';
 global.window={};
 require(path.join(ROOT,'hlp-annales-data.js'));
 const ENTREES=window.HLP_ENTREES;
+/* Textes du domaine public relevés dans les PDF officiels (scripts/hlp-textes.json). */
+const TEXTES=require('./hlp-textes.json');
+function texteHtml(id){
+  const T=TEXTES[id]; if(!T) return '';
+  const labels=T.notes.map(n=>n[0]).filter(Boolean), done=new Set();
+  const sup=t=>{
+    let h=esc(t);
+    if(/\(\d\)/.test(h)&&!labels.length) return h.replace(/ \((\d)\)/g,'<sup>($1)</sup>');
+    for(const lab of labels){
+      if(done.has(lab)) continue;
+      const L=lab.replace('*','\\*');
+      const m=new RegExp('(?<=[^\\s\\d(])'+L+'(?![\\dA-Za-zÀ-ÿ])|\\s?\\('+L+'\\)| '+L+'(?=[\\s.,;:])').exec(h);
+      if(!m) continue;
+      h=h.slice(0,m.index)+'<sup>'+lab+'</sup>'+h.slice(m.index+m[0].length); done.add(lab);
+    }
+    return h;
+  };
+  const rows=T.items.map(x=>{
+    if(x.k==='chap') return '<p class="didascalie">'+sup(x.t)+'</p>';
+    if(x.k==='title') return '<p class="vers"><strong>'+esc(x.t)+'</strong></p>';
+    if(x.k==='sp'){ const m=x.t.match(/^([^,]+)(,.*)?$/); return '<p class="vers locuteur">'+esc(m[1])+(m[2]?'<em>'+esc(m[2])+'</em>':'')+'</p>'; }
+    if(x.k==='did') return '<p class="didascalie">'+sup(x.t)+'</p>';
+    if(x.k==='date') return '<p class="vers" style="text-align:right">'+esc(x.t)+'</p>';
+    if(x.k==='v') return '<p class="vers"'+(x.stanza?' style="margin-top:.9em"':'')+'>'+(x.n?'<span class="line-no" aria-hidden="true">'+x.n+'</span>':'')+(x.cont?'<span style="display:inline-block;width:6em"></span>':'')+sup(x.t)+'</p>';
+    return '<p>'+sup(x.t)+'</p>';
+  }).join('\n');
+  const notes=T.notes.length?'<p class="micro">'+T.notes.map(n=>(n[0]?'<sup>'+esc(n[0])+'</sup> ':'')+esc(n[1])).join('<br>')+'</p>':'';
+  return '<div class="texte-examen">\n'+rows+'\n</div>\n<p class="micro">'+esc(T.src)+'</p>'+notes;
+}
+const PARCOURS=require('./hlp-parcours-data.json').subjects.filter(q=>q.level==='terminale');
 const DATA=window.HLP_ANNALES.slice().sort((a,b)=>b.y-a.y||order(a)-order(b)||a.c.localeCompare(b.c,'fr')||a.j-b.j||(a.n||0)-(b.n||0));
 function order(x){return {normale:0,libres:1,remplacement:2,zero:3}[x.s]??0;}
 
@@ -145,6 +175,7 @@ function page(x){
     step(6,'Éprouver et préciser votre idée','Présentez un cas ou une raison qui rend votre réponse moins évidente. Deux phrases.<br>Précisez ce que vous maintenez ou modifiez. Une phrase.','hlp-essai-difficulte',['Le cas ou la raison concerne exactement la question.','La précision découle de cet examen, sans opposition automatique.'],5),
     step(7,'Ordonner votre réflexion','Écrivez la réponse que vous voulez soutenir. Une phrase.<br>Rangez les étapes nécessaires pour la justifier, une phrase chacune, sans nombre imposé.<br>Expliquez en une phrase pourquoi cet ordre fait avancer la réflexion.','hlp-essai-plan',CHECK[eKind],6)
   ].join('');
+  const traite=PARCOURS.find(q=>q.code===x.code);
   const noteHtml=x.note?'<p class="hlp-note">'+esc(x.note)+'</p>':'';
   const bankNote=x.bank?'<p class="micro">Libellés relevés dans la banque de sujets indexée de l’académie de Lille : le PDF isolé de ce sujet n’est pas en ligne.</p>':'';
   return `<!doctype html><html lang="fr"><head>
@@ -168,19 +199,23 @@ ${e?'<p><strong>Entrée du programme :</strong> '+esc(e.label)+' <span class="mi
 <p>${p.href?`<a class="official-link" href="${esc(p.href)}" rel="noopener">${esc(p.label)} ↗</a>`:`<span class="micro">${esc(p.label)}</span>`}<br><span class="micro">Source : ${esc(p.src)}</span></p>
 ${noteHtml}${bankNote}</aside></section>
 
-<section class="offer-band"><div class="kicker">LES DEUX QUESTIONS</div><h2>Ce que le sujet demande.</h2>
+<div class="onglets" data-onglets data-defaut="entrainement">
+<div class="onglets-barre" role="tablist" aria-label="Ce sujet"><button role="tab" aria-controls="sujet"><b>Le sujet</b><small>${TEXTES[x.id]?'Le texte, les deux questions':'Les deux questions'}</small></button><button role="tab" aria-controls="entrainement"><b>S’entraîner</b><small>Sept étapes</small></button>${traite?'<button role="tab" aria-controls="corrige-onglet"><b>Le sujet traité</b><small>Deux réponses modèles</small></button>':''}</div>
+<section class="onglet offer-band" id="sujet">${TEXTES[x.id]?'<div class="kicker">LE TEXTE</div>'+texteHtml(x.id)+'<div class="kicker" style="margin-top:34px">LES DEUX QUESTIONS</div>':'<div class="kicker">LES DEUX QUESTIONS</div>'}<h2>Ce que le sujet demande.</h2>
 <div class="grid-2 hlp-questions">
 <div><span class="hlp-filter-label">Première partie · ${interpLabel(x)} · 10 points</span><p class="hlp-q">${esc(x.iq)}</p></div>
 <div><span class="hlp-filter-label">Deuxième partie · ${essaiLabel(x)} · 10 points</span><p class="hlp-q">${esc(x.eq)}</p></div>
 </div>
-<p class="micro">${p.href?"Lisez d’abord le texte dans le PDF du sujet. Les questions sont reproduites telles qu’elles figurent sur le sujet.":"Le PDF officiel de ce sujet reste à retrouver. Les questions sont indiquées pour référence ; vérifiez le texte avant de commencer l’exercice."}</p>
+<p class="micro">${TEXTES[x.id]?"Texte et questions reproduits d’après le sujet officiel (PDF ci-contre).":p.href?"Lisez d’abord le texte dans le PDF du sujet. Les questions sont reproduites telles qu’elles figurent sur le sujet.":"Le PDF officiel de ce sujet reste à retrouver. Les questions sont indiquées pour référence ; vérifiez le texte avant de commencer l’exercice."}</p>
 </section>
 
-<section class="exercise-wrap hlp-training" data-hlp-id="${x.id}"><div class="exercise-intro"><div><div class="kicker">S’ENTRAÎNER</div><h2>Sept étapes, de la question au plan.</h2></div>
-<p>Écrivez avant d’ouvrir la grille : elle ne s’ouvre qu’après une tentative. Vos réponses restent sur cet appareil. En 20 minutes, faites les étapes 1, 4 et 5 ; en une heure, toutes ; en quatre heures, rédigez ensuite le devoir complet sans aide. Comparez vos réponses aux grilles HLP ; aucune note automatique n’est donnée.</p></div>
+<section class="onglet exercise-wrap hlp-training" id="entrainement" data-hlp-id="${x.id}"><div class="exercise-intro"><div><div class="kicker">S’ENTRAÎNER</div><h2>Sept étapes, de la question au plan.</h2></div>
+<p>Une étape à la fois : écrivez, comparez avec la grille, passez à la suivante. Vos réponses restent sur cet appareil. En vingt minutes, faites les étapes 1, 4 et 5 ; en une heure, toutes ; en quatre heures, rédigez ensuite les deux réponses sans aide, d’ampleur comparable.</p></div>
 ${steps}
 <p><button type="button" class="btn small hlp-clear">Effacer mes réponses</button></p>
 </section>
+${traite?`<section class="onglet offer-band" id="corrige-onglet"><div class="kicker">LE SUJET TRAITÉ</div><h2>Deux réponses modèles, phrase par phrase.</h2><p>Ce sujet est traité en entier : pour chaque question, une piste à choisir, cinq gestes de préparation, puis une réponse modèle dont chaque phrase est expliquée. Faites d’abord l’entraînement.</p><p><a class="btn red" href="hlp-parcours-${traite.id}.html">Ouvrir le sujet traité →</a></p></section>`:''}
+</div>
 
 <section class="offer-band"><div class="kicker">MÊME ENTRÉE DU PROGRAMME</div><h2>Sujets proches pour réviser.</h2>
 <div class="seo-links">${related(x)}</div>
