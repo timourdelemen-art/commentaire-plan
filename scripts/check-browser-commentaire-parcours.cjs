@@ -120,6 +120,7 @@ async function check(root){
    assert.equal(await page.locator('#diss-ressources details').count(),1);
    assert((await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth))<=1);
    await page.locator('#diss-demarrer').screenshot({path:path.join(captures,'dissertation-demarrage-'+width+'.png')});
+   await page.getByRole('tab',{name:/Travailler une difficulté/}).click();
    for(let i=0;i<10;i++){
     await page.locator('.chaine-sujets button[data-subj="'+i+'"]').click();
     const article=page.locator('.diss-sujet[data-subj="'+i+'"]');

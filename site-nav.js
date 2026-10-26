@@ -315,6 +315,9 @@ const portals=navigation.map(([href,label,sub,items])=>portal(href,label,sub,ite
 
 /* Copies à 20 : deux modes de lecture, les mêmes sur tout le site (même sans en-tête). */
 document.addEventListener('DOMContentLoaded',()=>{
+  if(document.querySelector('[data-onglets]')){
+    const tabs=document.createElement('script'); tabs.src='/onglets.js'; document.body.appendChild(tabs);
+  }
   if(document.querySelector('.c20-s, .mr-phrase, .ecrire-copy, article.model-commentary')){
     const modes=document.createElement('script'); modes.src='/copie-modes.js'; document.body.appendChild(modes);
   }

@@ -2767,3 +2767,58 @@ main :is(.actions,.funnel-actions,.atelier-nav,.chaine-nav){flex-wrap:wrap;row-g
 .cm-old{display:none!important}
 @media(max-width:700px){.cm-plain{font-size:18px}.cm-mode{flex:1 1 100%;text-align:left}}
 @media print{.cm-bar{display:none!important}}
+
+/* Onglets intérieurs (onglets.js), dans le style du menu principal */
+.onglets-barre{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr);border:1px solid var(--rule);background:var(--paper,#f4efe6);margin:8px 0 28px;position:sticky;top:0;z-index:5}
+.onglets-barre [role="tab"]{font:inherit;background:transparent;border:0;border-right:1px solid var(--rule);color:var(--ink,#1c1a17);padding:16px 18px;text-align:left;cursor:pointer;display:flex;flex-direction:column;gap:5px;min-height:64px}
+.onglets-barre [role="tab"]:last-child{border-right:0}
+.onglets-barre [role="tab"] b{font-size:19px;font-weight:400;line-height:1.1}
+.onglets-barre [role="tab"] small{font:11px 'American Typewriter','Courier New',monospace;letter-spacing:.6px;text-transform:uppercase;color:var(--muted)}
+.onglets-barre [role="tab"]:hover,.onglets-barre [role="tab"][aria-selected="true"]{background:#eee4d3}
+.onglets-barre [role="tab"][aria-selected="true"] b{color:var(--red)}
+.onglets-barre [role="tab"]:focus-visible{outline:3px solid var(--red,#8e3028);outline-offset:-3px}
+.onglets:not(.onglets-actifs) .onglets-barre{display:none}
+.onglet:focus{outline:none}
+@media(max-width:700px){.onglets-barre [role="tab"]{padding:12px 10px;min-height:56px}.onglets-barre [role="tab"] b{font-size:16px}.onglets-barre [role="tab"] small{display:none}}
+
+/* Pages de sujet : étapes d’entraînement (etapes.js) */
+.etapes-nav{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px;padding:0;list-style:none}
+.etapes-nav button{font:inherit;font-size:15px;background:transparent;border:1px solid #9b9488;padding:8px 12px;cursor:pointer;text-align:left;color:var(--ink)}
+.etapes-nav button.on{border-color:var(--ink);background:#eee4d3}
+.etapes-nav button:focus-visible{outline:3px solid var(--red);outline-offset:2px}
+.etape{border-top:1px solid var(--rule);padding-top:18px}
+.etape-niveau{font:12px 'American Typewriter','Courier New',monospace;letter-spacing:1.6px;text-transform:uppercase;color:var(--red);margin:22px 0 8px}
+.etape-q{margin:0 0 22px}
+.etape-passage{font-size:19px;line-height:1.5;border-left:3px solid var(--red);padding:6px 0 6px 16px;margin:6px 0 16px}
+.etape-autre{background:#eee4d3;padding:14px 16px;margin:8px 0 14px}
+.etape-autre p{margin:0}
+.etape-ecrit textarea{width:100%;box-sizing:border-box;padding:12px;font:inherit;line-height:1.55;min-height:150px}
+.etape-comment{margin:4px 0 14px}
+.etape-comment summary{cursor:pointer;font-weight:600}
+.etape-direct{font:inherit;font-size:15px;background:transparent;border:0;border-bottom:1px solid currentColor;padding:0;color:var(--muted);cursor:pointer;margin:0 0 12px}
+.etape-fin{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 0}
+.sujet-libelle{font-size:24px;line-height:1.4;text-align:justify;-webkit-hyphens:auto;hyphens:auto;margin:6px 0 16px}
+@media(max-width:700px){.sujet-libelle{font-size:20px}.etape-passage{font-size:17px}}
+.etape-sujet{margin:0 0 6px;font-size:18px;line-height:1.45;text-align:justify;hyphens:auto}
+.etape-sujet b{font:700 12px 'American Typewriter','Courier New',monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--red);margin-right:6px}
+.oeuvres-choix{display:grid;gap:10px;margin:22px 0}
+.oeuvre-choix{border:1px solid var(--rule);background:#fffdf8}
+.oeuvre-choix summary{cursor:pointer;padding:16px 18px;font-size:20px;list-style-position:inside}
+.oeuvre-choix summary small{font:12px 'American Typewriter','Courier New',monospace;letter-spacing:.08em;color:var(--muted);margin-left:8px}
+.oeuvre-choix ul{list-style:none;margin:0;padding:0 18px 4px}
+.oeuvre-choix li{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:6px 14px;padding:12px 0;border-top:1px solid #d8cfc0;font-size:18px}
+.oeuvre-choix li a{border-bottom:1px solid var(--red)}
+.oeuvre-choix>p{padding:0 18px 12px;margin:0}
+.badge,.badge-ok{text-transform:none;font:12px 'American Typewriter','Courier New',monospace;letter-spacing:.06em;padding:3px 8px;border:1px solid #9b9488;white-space:nowrap}
+.badge-ok{background:#e6ecdf;border-color:#596d49}
+.difficultes{list-style:none;margin:18px 0 44px;padding:0;border-top:1px solid var(--rule)}
+.difficultes li{display:grid;grid-template-columns:1fr auto;gap:10px 24px;align-items:center;padding:16px 0;border-bottom:1px solid var(--rule)}
+.difficultes b{font-size:21px;font-weight:400}
+.difficultes p{margin:4px 0 0;font-size:16px;line-height:1.4;color:var(--muted)}
+.difficulte-liens{display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:flex-end}
+.difficulte-liens a:not(.btn){color:var(--red);border-bottom:1px solid var(--red);font-size:17px}
+.difficulte-liens .btn.small{margin-top:0;min-width:0}
+@media(max-width:700px){.difficultes li{grid-template-columns:1fr}.difficulte-liens{justify-content:flex-start}}
+.sujet-acces{display:flex;gap:8px;flex-wrap:wrap}
+.oeuvre-choix li a.badge,.oeuvre-choix li a.badge-ok{border-bottom:1px solid #9b9488}
+.oeuvre-choix li a.badge-ok{border-color:#596d49}

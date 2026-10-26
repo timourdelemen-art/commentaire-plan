@@ -44,12 +44,17 @@ if(name==='brevet-redaction.html'||name==='philosophie-explication.html'){
   assert(await links.count()>=3,'Raccourcis de page manquants');
 }
 if(name==='bac-dissertation.html'){
-  assert.equal(await page.locator('main nav.annales-jump').count(),1,'Navigation de dissertation dupliquée');
+  assert.equal(await page.locator('main .onglets-barre [role=tab]').count(),3,'Les trois onglets de la dissertation doivent exister');
+  assert(await page.locator('#diss-demarrer').isVisible(),'Le choix du sujet doit être ouvert par défaut');
+  assert(await page.locator('#diss-demarrer .oeuvre-choix a[href*="copie-20"]').count()>=25,'Chaque sujet avec copie doit être proposé');
+  await page.locator('#diss-demarrer a[href="#diss-probleme"]').click();
+  assert(await page.locator('#diss-probleme').isVisible(),'Le lien interne doit ouvrir l’onglet de l’exercice');
   assert(await page.locator('#diss-demarrer a[href="#diss-probleme"]').count()===1,'Lien de démarrage absent');
   assert.equal(await page.locator('#diss-probleme [data-level]').count(),2,'Les niveaux au clic et écrit doivent exister');
   assert.equal(await page.locator('#diss-probleme .chaine-sujets button[data-subj]').count(),13,'Les treize sujets de dissertation doivent être conservés');
   assert(await page.locator('#diss-ressources a[href*="copie-20"]').count()>=8,'Les copies modèles doivent rester accessibles');
   assert(await page.locator('script[src="dissertation-probleme.js"]').count()===1,'Moteur des exercices absent');
+  await page.getByRole('tab',{name:/Cours et méthodes/}).click();
   const resources=page.locator('#diss-ressources details');
   assert.equal(await resources.count(),1,'Modèles facultatifs absents');
   assert(!(await resources.evaluate(el=>el.open)),'Modèles ouverts par défaut');
