@@ -134,6 +134,7 @@ Format : date · ce qui s’est passé · la règle qui en découle. Proposez un
 - 2026-10-25 · Le plan pas à pas des dix sujets adossés aux copies à 20 affichait aux élèves une justification interne (« Cette proposition reprend l’argument de la copie révisée… ») et, pour la version 3 des données, des repères « undefined ». · Après toute révision de copie, régénérer depuis la copie les exercices qui en dépendent, puis parcourir l’exercice en entier dans le navigateur, panneau « Votre plan se construit » compris.
 
 - 2026-10-25 · Des copies littéraires à 20 n’avaient que deux sous-parties par partie, complétées par une phrase isolée « ce que la partie n’explique pas encore », et Dorion n’offrait pas la fonction des phrases sur toutes les copies. · Contrôler chaque copie dans le mode « copie entière » : treize paragraphes, dont trois par partie et deux transitions ; une limite se rédige à la fin d’une vraie sous-partie, jamais en paragraphe d’une phrase.
+- 2026-10-26 · La banque `philosophie-explication.html`, complétée à la main, perdait trois annales au déploiement, qui la régénère. · Une page produite par un générateur appelé dans `netlify.toml` se corrige dans ce générateur, jamais dans le HTML.
 
 ## 7. Décisions du propriétaire
 
