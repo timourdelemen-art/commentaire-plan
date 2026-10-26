@@ -3,7 +3,7 @@
 const fs=require('node:fs'),path=require('node:path'),http=require('node:http'),assert=require('node:assert/strict');
 const {chromium}=require('playwright');
 const root=path.resolve(process.argv[2]||'.');
-const pages=[...new Set(['index.html','bac-dissertation.html','brevet-redaction.html','bibliotheque.html','bibliotheque-litterature.html','annales.html','philosophie.html','philosophie-banque.html','philosophie-explication.html','philosophie-exemples.html','philosophie-troisieme-resolutions.html','hlp.html','hlp-premiere.html','hlp-terminale.html','hlp-ecrire.html','brevet.html','brevet-lecture-parcours.html',...fs.readdirSync(root).filter(n=>/^(hlp-parcours-.*|philosophie-explication-.+|philosophie-copie-20-.+|philosophie-notion-.+|philosophie-bac-2026-.+)\.html$/.test(n))])];
+const pages=[...new Set(['index.html','bac-dissertation.html','brevet-redaction.html','bibliotheque.html','bibliotheque-litterature.html','annales.html','philosophie.html','philosophie-dissertation-parcours.html','philosophie-banque.html','philosophie-explication.html','philosophie-exemples.html','philosophie-troisieme-resolutions.html','hlp.html','hlp-premiere.html','hlp-terminale.html','hlp-ecrire.html','brevet.html','brevet-lecture-parcours.html',...fs.readdirSync(root).filter(n=>/^(hlp-parcours-.*|philosophie-explication-.+|philosophie-copie-20-.+|philosophie-notion-.+|philosophie-bac-2026-.+)\.html$/.test(n))])];
 const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript','.css':'text/css','.svg':'image/svg+xml','.json':'application/json','.png':'image/png','.jpg':'image/jpeg','.woff2':'font/woff2'};
 const server=http.createServer((req,res)=>{const file=path.resolve(root,'.'+new URL(req.url,'http://localhost').pathname);if(!file.startsWith(root+path.sep))return res.writeHead(403).end();fs.readFile(file,(e,b)=>{if(e)return res.writeHead(404).end();res.writeHead(200,{'Content-Type':mime[path.extname(file)]||'application/octet-stream'}).end(b);});});
 const results=[];
@@ -61,7 +61,7 @@ if(name==='bac-dissertation.html'){
   await resources.locator('summary').click();
   assert(await resources.evaluate(el=>el.open),'Modèles impossibles à ouvrir');
 }
-if(name==='philosophie.html'){
+if(name==='philosophie-dissertation-parcours.html'){
   assert.equal(await page.locator('.sequence-spec [data-parcours] .parcours-check').count(),0,'Anciennes cases de suivi');
   const sections=page.locator('#comprendre details');
   assert.equal(await sections.count(),2,'Les deux sections facultatives doivent être présentes');

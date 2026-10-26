@@ -38,10 +38,10 @@ async function check(root){
      if(mode==='apres'&&name==='philosophie.html'){
       const cards=page.locator('.philo-choices>a');assert.equal(await cards.count(),2);
       assert.deepEqual(await cards.locator('h3').allTextContents(),['Dissertation','Explication de texte']);
-      await cards.first().click();assert(page.url().endsWith('#dissertation'));
+      assert.equal(await page.locator('.philo-resources a[href="philosophie-notions.html"]').count(),1);
+      await cards.first().click();await page.waitForURL('**/philosophie-dissertation-parcours.html');
       assert(await page.locator('#dissertation').isVisible());
       assert.equal(await page.locator('main [data-parcours]').count(),5);
-      assert.equal(await page.locator('.philo-resources a[href="philosophie-notions.html"]').count(),1);
      }
      if(mode==='apres'&&['manuel-procedes.html','bac-commentaire-procedes.html'].includes(name)&&width===1280){
       const grid=page.locator('.procedure-principle');await grid.scrollIntoViewIfNeeded();
