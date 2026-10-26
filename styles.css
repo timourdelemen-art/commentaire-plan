@@ -2180,6 +2180,7 @@ div.qcm-options>p{border:0!important;background:none!important;box-shadow:none!i
 .texte-examen sup{font-size:.7em}
 .texte-examen .vers{text-indent:0;text-align:left;margin:0}
 .texte-examen .didascalie{font-style:italic;text-indent:0}
+.texte-examen .locuteur{margin-top:.8em;text-align:center;letter-spacing:.06em}
 .texte-examen + .micro{max-width:68ch}
 .texte-absent{font-size:18px;line-height:1.5;max-width:60ch}
 .texte-flottant{position:fixed;right:16px;bottom:16px;z-index:50;background:#181715;color:var(--paper);border:0;border-radius:999px;padding:12px 18px;font:15px Georgia,'Times New Roman',serif;box-shadow:0 4px 14px rgba(0,0,0,.25);cursor:pointer}
