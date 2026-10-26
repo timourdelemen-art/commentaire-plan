@@ -175,7 +175,7 @@ function page(x){
     step(6,'Éprouver et préciser votre idée','Présentez un cas ou une raison qui rend votre réponse moins évidente. Deux phrases.<br>Précisez ce que vous maintenez ou modifiez. Une phrase.','hlp-essai-difficulte',['Le cas ou la raison concerne exactement la question.','La précision découle de cet examen, sans opposition automatique.'],5),
     step(7,'Ordonner votre réflexion','Écrivez la réponse que vous voulez soutenir. Une phrase.<br>Rangez les étapes nécessaires pour la justifier, une phrase chacune, sans nombre imposé.<br>Expliquez en une phrase pourquoi cet ordre fait avancer la réflexion.','hlp-essai-plan',CHECK[eKind],6)
   ].join('');
-  const traite=PARCOURS.find(q=>q.code===x.code);
+  const traite=PARCOURS.find(q=>q.code===x.code&&x.a.includes(q.author.split(' ').pop())); // un PDF peut porter deux sujets
   const noteHtml=x.note?'<p class="hlp-note">'+esc(x.note)+'</p>':'';
   const bankNote=x.bank?'<p class="micro">Libellés relevés dans la banque de sujets indexée de l’académie de Lille : le PDF isolé de ce sujet n’est pas en ligne.</p>':'';
   return `<!doctype html><html lang="fr"><head>
