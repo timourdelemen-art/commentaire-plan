@@ -100,12 +100,12 @@ C["ponge-vision-commune"] = dict(
       ("Des preuves analysées","« Berges de la Loire », la guêpe « forme musicale du miel », la honte de « l’académisme », la brosserie du bois de pins, le proverbe de La Fontaine.")],
  blocks=[
  ("Introduction",[
-  ("« Peu m’importe après cela que l’on veuille nommer poème ce qui va en résulter » : dans « Berges de la Loire », Ponge laisse aux autres le soin de décider s’il écrit de la poésie.",INTRO[0]),
-  ("Dans « L’Œillet », il va plus loin : « Je ne me prétends pas poète. Je crois ma vision fort commune » ; une vision « commune » est celle de tout le monde, sans regard privilégié.",INTRO[1]),
-  ("On pourrait penser que l’affirmation décrit bien "+E+" : le recueil parle d’une guêpe, d’un mimosa, d’un bois de pins, et refuse les grands sujets du lyrisme.",INTRO[2]),
-  ("Pourtant, ces objets banals y sont vus d’une manière que personne n’aurait trouvée : une guêpe y devient une musique, un bois de pins une salle de bains.",INTRO[3]),
+  ("« Peu m’importe après cela que l’on veuille nommer poème ce qui va en résulter » : dans « Berges de la Loire », Ponge laisse aux autres le soin d’en décider.",INTRO[0]),
+  ("Dans « L’Œillet », il va plus loin : « Je ne me prétends pas poète. Je crois ma vision fort commune » ; une vision « commune » est celle de tout le monde.",INTRO[1]),
+  ("On pourrait penser que l’affirmation dit vrai : le recueil parle d’une guêpe, d’un mimosa, d’un bois de pins, loin des grands sujets du lyrisme.",INTRO[2]),
+  ("Pourtant, ces objets banals y sont vus comme personne ne les avait vus : une guêpe y devient une musique, un bois de pins une salle de bains.",INTRO[3]),
   ("Dans "+E+", comment une vision qui se dit « fort commune » peut-elle produire des textes si singuliers ?",INTRO[4]),
-  ("Ponge refuse bien la posture du poète ; mais sa vision n’a rien de commun, et c’est en cherchant ce qui pourrait devenir commun qu’il redéfinit la poésie.",INTRO[5]),
+  ("Ponge refuse bien la posture du poète ; mais sa vision n’a rien de commun, et c’est en voulant la rendre commune qu’il redéfinit la poésie.",INTRO[5]),
  ]),
  ("Première partie",[
   ("Ponge refuse d’abord le rôle du poète inspiré.","Réponse I : la part de vérité du sujet"),
@@ -236,7 +236,7 @@ C["ponge-observateur"] = dict(
   ("La métaphore du « tapis » change le sol du bois en intérieur habité : dès la première ligne, le carnet de l’observateur était l’atelier d’un écrivain.","Ce que le passage montre")
  ]),
  ("Conclusion",[
-  (E+" n’est donc pas seulement le carnet d’un observateur : c’est le carnet d’une conquête, menée dans la langue, au nom du monde qu’elle semblait laisser de côté.","Conclusion : la réponse"),
+  (E+" n’est donc pas seulement le carnet d’un observateur : c’est le carnet d’une conquête, menée dans la langue, au nom du monde qu’elle semblait quitter.","Conclusion : la réponse"),
   ("Le livre a la forme d’un carnet d’observation ; l’observateur s’y détourne du monde pour conquérir une expression ; et le carnet, publié avec ses essais, fait de cette conquête une expérience partagée.","Ce que le raisonnement a établi"),
   ("Le parcours « dans l’atelier du poète » prend ici un sens littéral : le carnet est l’atelier, et Ponge en ouvre la porte au lecteur.","Le lien avec le parcours"),
   ("Reste une question : un carnet écrit loin de la guerre peut-il, par sa seule écriture, répondre à son époque ?","La question qui reste ouverte"),
@@ -470,9 +470,9 @@ C["ponge-lecteur"] = dict(
   ("Le futur ouvre le livre sur ses successeurs : le guide lâche la main pour que d’autres continuent le chemin.","Ce que le passage montre"),
  ]),
  ("Conclusion",[
-  ("L’image éclaire donc le projet du recueil, à condition de la prendre au sérieux jusqu’au bout : Ponge tient la main du lecteur, mais pour l’emmener dans sa recherche, non pour le déposer devant un bouquet.","Conclusion : la réponse"),
-  ("Ponge veut guider son lecteur ; mais le guide se perd et la récompense se dérobe ; et c’est le chemin lui-même, publié avec ses détours, qui devient le don fait au lecteur.","Ce que le raisonnement a établi"),
-  ("Le bosquet de mimosas « entre deux infinis d’azur » reste un horizon : ce que le lecteur gagne en chemin, c’est une autre manière de regarder les choses.","Le lien avec le parcours"),
+  ("L’image éclaire donc le projet du recueil, à condition de la prendre au sérieux : Ponge tient la main du lecteur pour l’emmener dans sa recherche, non pour le déposer devant un bouquet.","Conclusion : la réponse"),
+  ("Ponge veut guider son lecteur ; mais le guide se perd et la récompense se dérobe ; et c’est le chemin, publié avec ses détours, qui devient le don fait au lecteur.","Ce que le raisonnement a établi"),
+  ("Le bosquet de mimosas « entre deux infinis d’azur » reste un horizon : le lecteur gagne en chemin une autre manière de regarder les choses.","Le lien avec le parcours"),
   ("Reste une question : un lecteur qu’on emmène dans une recherche inachevée en devient-il un peu l’auteur ?","La question qui reste ouverte"),
  ]),
  ])

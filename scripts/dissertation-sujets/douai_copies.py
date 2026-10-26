@@ -13,14 +13,13 @@ C = {'cahier-de-douai': {'titre': '«\u202fEst-ce seulement par la révolte que 
                              ('Des preuves analysées',
                               'Cinq poèmes, des vers exacts, et pour chacun ce qu’il prouve. «\u202fLe Mal\u202f» sert deux fois\u202f: relu dans la troisième partie, il montre autre chose.')],
                      'blocks': [['Introduction',
-                                 [('«\u202fJe m’en allais, les poings dans mes poches crevées\u202f»\u202f: au début de «\u202fMa Bohème\u202f», les poings, geste de la révolte, sont enfoncés dans '
-                                   'des poches trouées, et le poète, au lieu de frapper, s’en va.',
+                                 [('«\u202fJe m’en allais, les poings dans mes poches crevées\u202f»\u202f: au début de «\u202fMa Bohème\u202f», les poings de la révolte restent dans des poches '
+                                   'trouées, et le poète, au lieu de frapper, s’en va.',
                                    'Accroche\u202f: un vers de l’œuvre qui contient déjà le problème'),
                                   ('Le sujet demande si, dans le <em>Cahier de Douai</em>, Rimbaud s’émancipe «\u202fseulement\u202f» par la révolte\u202f: s’émanciper, c’est sortir d’une '
                                    'tutelle\u202f; se révolter, c’est s’en libérer en la combattant.',
                                    'Les mots du sujet, et le petit mot «\u202fseulement\u202f»'),
-                                  ('On pourrait penser que oui\u202f: le recueil raille les bourgeois de Charleville, un Dieu qui ne s’éveille que pour l’aumône des mères en deuil, un Empereur qui '
-                                   'croyait éteindre la Liberté.',
+                                  ('On pourrait penser que oui\u202f: le recueil raille les bourgeois, un Dieu qui ne s’éveille que pour l’aumône, un Empereur qui croyait éteindre la Liberté.',
                                    'On pourrait penser\u202f: ce que le sujet suggère (X)'),
                                   ('Pourtant, l’œuvre montre aussi un poète qui se libère sans attaquer personne\u202f: il fugue, marche, mange, rêve, et il en est heureux.',
                                    'Pourtant\u202f: ce que l’œuvre montre (Y)'),
