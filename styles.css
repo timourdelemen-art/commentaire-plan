@@ -2819,3 +2819,6 @@ main :is(.actions,.funnel-actions,.atelier-nav,.chaine-nav){flex-wrap:wrap;row-g
 .difficulte-liens a:not(.btn){color:var(--red);border-bottom:1px solid var(--red);font-size:17px}
 .difficulte-liens .btn.small{margin-top:0;min-width:0}
 @media(max-width:700px){.difficultes li{grid-template-columns:1fr}.difficulte-liens{justify-content:flex-start}}
+.sujet-acces{display:flex;gap:8px;flex-wrap:wrap}
+.oeuvre-choix li a.badge,.oeuvre-choix li a.badge-ok{border-bottom:1px solid #9b9488}
+.oeuvre-choix li a.badge-ok{border-color:#596d49}
