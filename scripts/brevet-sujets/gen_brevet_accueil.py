@@ -13,10 +13,13 @@ ARCHIVES = open(os.path.join(HERE, 'archives-dnb.html'), encoding='utf8').read()
 
 annales = sorted(((k, e) for k, e in CAT.items() if e.get('examen') == 'Brevet'), key=lambda x: -x[1]['annee'])
 def li_annale(k, e):
-    lien = f'annales/entrainement-annale.html?id={k}'
+    # la page d’annale à onglets quand ses corrigés sont complets, sinon l’entraînement guidé
+    lien = f'{k}.html' if os.path.exists(os.path.join(R, f'{k}.html')) else f'annales/entrainement-annale.html?id={k}'
+    page = lien.endswith('.html')
     return (f'<li><a href="{lien}">{e["annee"]} · {esc(e["auteur"])}, <em>{esc(e["oeuvre"])}</em></a>'
-            f'<span class="sujet-acces"><a class="badge-ok" href="{lien}">S’entraîner</a>'
-            f'<a class="badge" href="{esc(e["sourceOfficielle"])}" target="_blank" rel="noopener">Le sujet officiel ↗</a></span></li>')
+            f'<span class="sujet-acces"><a class="badge-ok" href="{lien}{"#entrainement" if page else ""}">S’entraîner</a>'
+            + (f'<a class="badge" href="{lien}#corrige">Le corrigé</a><a class="badge" href="annales/entrainement-annale.html?id={k}">Avec retours</a>' if page else '')
+            + f'<a class="badge" href="{esc(e["sourceOfficielle"])}" target="_blank" rel="noopener">Le sujet officiel ↗</a></span></li>')
 
 def court(s):
     t = re.sub(r'<[^>]+>', ' ', s['consigne']).replace('&nbsp;', ' ')

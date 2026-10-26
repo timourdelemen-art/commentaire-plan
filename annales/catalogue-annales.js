@@ -2133,7 +2133,7 @@ window.ANNALES_CATALOGUE = {
     "examen": "Brevet",
     "type": "brevet",
     "annee": 2026,
-    "zone": "Sujet fourni / série générale",
+    "zone": "Centres étrangers (groupe 1)",
     "serie": "Générale",
     "epreuve": "Compréhension · grammaire · réécriture",
     "access": "free",
