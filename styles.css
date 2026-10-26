@@ -2811,3 +2811,11 @@ main :is(.actions,.funnel-actions,.atelier-nav,.chaine-nav){flex-wrap:wrap;row-g
 .oeuvre-choix>p{padding:0 18px 12px;margin:0}
 .badge,.badge-ok{text-transform:none;font:12px 'American Typewriter','Courier New',monospace;letter-spacing:.06em;padding:3px 8px;border:1px solid #9b9488;white-space:nowrap}
 .badge-ok{background:#e6ecdf;border-color:#596d49}
+.difficultes{list-style:none;margin:18px 0 44px;padding:0;border-top:1px solid var(--rule)}
+.difficultes li{display:grid;grid-template-columns:1fr auto;gap:10px 24px;align-items:center;padding:16px 0;border-bottom:1px solid var(--rule)}
+.difficultes b{font-size:21px;font-weight:400}
+.difficultes p{margin:4px 0 0;font-size:16px;line-height:1.4;color:var(--muted)}
+.difficulte-liens{display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:flex-end}
+.difficulte-liens a:not(.btn){color:var(--red);border-bottom:1px solid var(--red);font-size:17px}
+.difficulte-liens .btn.small{margin-top:0;min-width:0}
+@media(max-width:700px){.difficultes li{grid-template-columns:1fr}.difficulte-liens{justify-content:flex-start}}

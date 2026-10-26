@@ -54,7 +54,11 @@
     [].slice.call(root.querySelectorAll('.etape-suivante')).forEach(function(b){
       b.addEventListener('click',function(){var i=etapes.indexOf(b.closest('.etape'));show(Math.min(i+1,etapes.length-1),true);});
     });
-    show(0,false);
+    function fromHash(){var h=decodeURIComponent(location.hash.slice(1)),el=h&&document.getElementById(h);if(!el)return -1;var e=el.closest('.etape');return e?etapes.indexOf(e):-1;}
+    var j=fromHash();show(j>=0?j:0,false);
+    var top=root.closest('.onglet')||root;
+    if(j>0)setTimeout(function(){top.scrollIntoView({block:'start'});},0);
+    window.addEventListener('hashchange',function(){var k=fromHash();if(k>=0){show(k,false);top.scrollIntoView({block:'start'});}});
   }
   function init(){[].slice.call(document.querySelectorAll('[data-etapes]')).forEach(setup);}
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
