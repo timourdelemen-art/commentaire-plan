@@ -30,7 +30,7 @@ C = {"le-menteur": {'titre': '« L’art du mensonge est-il toujours maîtrisé 
               ('Le chiffre précis et le verbe « ajuster » font du mensonge un spectacle réglé : le détail rend vrai ce qui n’a pas eu lieu.', 'Ce que la citation montre')]],
             [None,
              [('Il maîtrise aussi l’improvisation.', 'Argument'),
-              ('Quand son père, Géronte, veut le marier à Clarice, Dorante invente sur-le-champ un mariage secret à Poitiers, puis il se félicite de « l’utile secret que mentir à propos ».',
+              ('Quand son père, Géronte, veut le marier à Clarice, Dorante invente sur-le-champ un mariage secret à Poitiers, puis il s’en félicite : « L’utile secret que mentir à propos ! »',
                'Le passage qui prouve'),
               ('« À propos » dit l’art du moment : le mensonge n’est pas seulement inventé, il est placé, et Dorante savoure sa propre adresse.', 'Ce que la citation montre')]],
             [None,
@@ -53,7 +53,7 @@ C = {"le-menteur": {'titre': '« L’art du mensonge est-il toujours maîtrisé 
                'Ce que la citation montre')]],
             [None,
              [('Le menteur perd même la maîtrise de sa parole vraie.', 'Argument : un pas de plus'),
-              ('Quand Dorante proteste « Je disais vérité », Cliton répond que, « quand un menteur la dit », la vérité « perd son crédit ».', 'Le passage qui prouve'),
+              ('Quand Dorante proteste « Je disais vérité », Cliton lui répond : « Quand un menteur la dit, / En passant par sa bouche elle perd son crédit. »', 'Le passage qui prouve'),
               ('Le mensonge a usé la parole elle-même : même exacte, elle ne vaut plus rien dans sa bouche.', 'Ce que la citation montre')]],
             [None,
              [('Le mensonge lui fait même perdre son rang aux yeux de son père.', 'Argument'),
@@ -65,8 +65,8 @@ C = {"le-menteur": {'titre': '« L’art du mensonge est-il toujours maîtrisé 
              [('Elle finit en comédie parce que la pièce reprend la maîtrise que le menteur a perdue.', 'La reprise du mot clé'),
               ('L’art du mensonge passe alors du personnage à la comédie : l’erreur devient le dénouement.', 'Réponse III : la réponse à la problématique'),
               ('Le dernier acte retourne l’erreur du premier.', 'Argument'),
-              ('Découvrant que celle qu’il courtisait s’appelle Clarice, Dorante déclare aimer Lucrèce, son père demande pour lui la main de la jeune fille, et il présente ce revirement comme s’il '
-               'avait tout conduit.',
+              ('Découvrant que celle qu’il courtisait s’appelle Clarice, Dorante assure à Lucrèce : « Vous seule êtes l’objet dont mon cœur est charmé », tandis que son père demande pour lui la main '
+               'de la jeune fille.',
                'Le passage qui prouve'),
               ('Le nom qu’il avait mal attribué devient vrai, puisque c’est Lucrèce qu’il épousera ; son dernier mensonge consiste à faire passer un hasard pour un choix.',
                'Ce que le passage montre')]],
