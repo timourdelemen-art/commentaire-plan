@@ -1,6 +1,6 @@
 # Protocole HLP (terminale) — corrigés brefs, au niveau de l’excellence
 
-Document interne, non publié (`clean-publish.js` retire les `.md`). Version 2, 26 octobre 2026, révisée après l’audit indépendant des deux premiers corrigés (Voltaire, Diderot) : règles R1 à R9 (§ 1 bis).
+Document interne, non publié (`clean-publish.js` retire les `.md`). Version 2, 26 octobre 2026, révisée après deux audits indépendants des deux premiers corrigés (Voltaire, Diderot) : règles R1 à R11 (§ 1 bis).
 
 ## 0. Ce que demande l’épreuve (sources officielles)
 
@@ -36,6 +36,7 @@ Document interne, non publié (`clean-publish.js` retire les `.md`). Version 2, 
 - **R7. La première personne prend position.** Dans l’essai, « je » tranche au moins une fois hors de l’annonce (« je soutiens », « je ne crois pas que… car… »).
 - **R8. Une référence, une analyse exacte.** Toute œuvre citée est accompagnée d’un détail précis (un vers vérifié, un procédé), et le procédé prouve exactement ce qu’on affirme (l’impersonnalité de Flaubert ne prouve pas son absence d’émotion).
 - **R9. L’essai ne recommente pas.** Le texte du sujet sert de point de départ, d’objection ou d’écho, jamais de preuve centrale analysée de nouveau.
+- **R11. Mots-outils et provenance.** Vérifier la valeur des mots-outils cités ou commentés (mais, et, si : concession, addition, hypothèse) et la provenance de chaque citation (texte, chapeau ou note du sujet) ; une note du sujet se cite comme telle.
 - **R10. Varier les tics.** Pas une question rhétorique en tête de chaque étape ni la même annonce dans chaque copie : la transition-question n’apparaît que là où elle fait avancer.
 
 ## 2. Les quatre fiches
@@ -92,7 +93,7 @@ Pour chaque réponse : trois propositions au clic (Solide, Défendable, À revoi
 
 1. Citations du texte : retrouvées mot pour mot (script).
 2. Longueurs : 450 à 550 mots par réponse ; écart entre les deux réponses inférieur à 15 %.
-2 bis. Règles R1 à R10 vérifiées une à une.
+2 bis. Règles R1 à R11 vérifiées une à une.
 3. Introduction et conclusion : chaque phrase porte une fonction de la fiche.
 4. Test de permutation des étapes ou moments.
 5. Fiche de la discipline respectée ; couplage vérifié.
