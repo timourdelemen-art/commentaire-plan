@@ -21,7 +21,7 @@ def check(mod):
                 w += len(t.split())
                 if re.search(r'[.!?] »?\s+[A-ZÉÈÀÂÊÎÔÙÛŒÇ]', t): print('PLUSIEURS PHRASES', t); ok = False
                 for c in re.findall(r'«\s*(.*?)\s*»', t):
-                    parts = [x.strip() for x in re.split(r'\[[^\]]*\]', n(c)) if x.strip()]
+                    parts = [x.strip() for x in re.split(r'\[[^\]]*\]| / ', n(c)) if x.strip()]
                     if not all(x in texte for x in parts): print('CITATION ABSENTE :', c); ok = False
         sol = [c for c in R['choices'] if c[1] == 'Solide'][0]
         longest = max(len(c[0]) for c in R['choices'])
