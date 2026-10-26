@@ -83,10 +83,9 @@ ${next(4)}</article></section>`;
 ${next(5)}</article></section>`;
   const s6=`<section class="exercise-wrap atelier-step" data-step="6" id="corrige"><article class="exercise">${stepHead(6,'Une dissertation complète, du brouillon à la conclusion.')}
 ${corr}
-<p class="atelier-done">Atelier terminé. Pour aller plus loin, les cinq sujets ci-dessous attendent votre problématique.</p></article></section>`;
-  return essentiel+`
-<section class="offer-band atelier-intro" id="atelier"><div class="kicker">L’ATELIER</div><h2>Six exercices, un à la fois.</h2><p>De la problématique à la dissertation complète. Chaque exercice se corrige avant de passer au suivant. Comptez environ une heure, en une ou plusieurs fois. <strong>Le premier est juste en dessous.</strong> <button type="button" class="atelier-all philo-print">Afficher tout l’atelier</button></p></section>
-`+s1+s2+s3+s4+s5+s6;
+<p class="atelier-done">Atelier terminé. Pour aller plus loin, <a href="#sujets">cinq vrais sujets</a> attendent votre problématique.</p></article></section>`;
+  return {essentiel, atelier:`<section class="offer-band atelier-intro" id="atelier"><div class="kicker">L’ATELIER</div><h2>Six exercices, un à la fois.</h2><p>De la problématique à la dissertation complète. Chaque exercice se corrige avant de passer au suivant. Comptez environ une heure, en une ou plusieurs fois. <strong>Le premier est juste en dessous.</strong> <button type="button" class="atelier-all philo-print">Afficher tout l’atelier</button></p></section>
+`+s1+s2+s3+s4+s5+s6};
 }
 
 function notionPage(n,i){
@@ -118,22 +117,30 @@ ${corrigeBlocks(n.corrige)}
 <li>Même question pour la réponse contraire.</li>
 <li>Écrivez dans le cadre une seule question qui met face à face ces deux pertes, sans trancher : c’est votre problématique.</li>
 </ol></div>`;
-  const sujetsSection=`<section class="exercise-wrap" id="sujets"><div class="exercise-intro"><div><div class="kicker">CINQ VRAIS SUJETS DU BAC</div><h2>S’entraîner à trouver le problème.</h2></div><p>Tous ces sujets ont été donnés au baccalauréat. ${n.corrige.annale?'Plus bas, un sujet de 2026 est traité en entier.':'Le premier est traité en entier plus bas.'}</p></div>
+  const sujetsSection=`<section class="onglet exercise-wrap" id="sujets"><div class="exercise-intro"><div><div class="kicker">CINQ VRAIS SUJETS DU BAC</div><h2>S’entraîner à trouver le problème.</h2></div><p>Tous ces sujets ont été donnés au baccalauréat. ${n.corrige.annale?'Plus bas, un sujet de 2026 est traité en entier.':'Le premier est traité en entier plus bas.'}</p></div>
 ${consigne}
 ${sujets}
 </section>`;
   const jump=`<nav class="sujet-jump" aria-label="Les sujets de cette page"><p><strong>Votre sujet est ici ?</strong></p><ul>${n.sujets.map((s,k)=>`<li><a href="#sujet-${k+1}">${esc(s[0])}</a></li>`).join('')}</ul></nav>`;
-  return head(title,desc,file(n))+`
-<section class="pagehead"><div><div class="kicker">PHILOSOPHIE · LES 17 NOTIONS</div>
-<h1>${esc(n.nom)}.</h1>
-<p class="lede">${n.atelier?'L’essentiel en cinq minutes, un atelier en six exercices de la problématique à la dissertation complète, puis cinq vrais sujets du bac pour s’entraîner.':'Ce que la notion demande, les repères du programme qui l’éclairent, cinq vrais sujets du bac pour s’entraîner, et un sujet traité en entier.'}</p>
-${jump}
-</div><aside class="side-note page-boussole"><p><b>D’où vous partez</b>Vous avez un sujet ou un devoir sur ${esc(lower(n))}.</p><p><b>Ce que vous faites ici</b>${n.atelier?'Comprendre ce que la notion demande, faire l’atelier, puis chercher seul le problème de cinq vrais sujets du bac.':'Comprendre ce que la notion demande, chercher seul le problème de cinq vrais sujets du bac, puis lire un sujet traité en entier.'}</p><p><b>Où vous allez ensuite</b>Un sujet complet, en conditions réelles : <a href="philosophie-annales.html">les sujets 2026 corrigés →</a></p><p class="micro">Vous débutez en philosophie ? <a href="philosophie.html#parcours">Le parcours en cinq étapes</a>. <a href="philosophie-notions.html">← Les 17 notions</a></p></aside></section>
-
-${n.atelier?atelierHtml(n,corr)+`
+  const tab=(id,b,sm)=>`<button role="tab" aria-controls="${id}"><b>${b}</b><small>${sm}</small></button>`;
+  const barre=t=>`<div class="onglets-barre" role="tablist" aria-label="Cette notion">${t.join('')}</div>`;
+  let corps;
+  if(n.atelier){
+    const A=atelierHtml(n,corr);
+    corps=`<div class="onglets" data-onglets data-defaut="entrainement">
+${barre([tab('comprendre','Comprendre','L’essentiel'),tab('entrainement','L’atelier','Six exercices'),tab('sujets','S’entraîner','Cinq vrais sujets')])}
+<div class="onglet" id="comprendre">
+${A.essentiel}</div>
+<div class="onglet" id="entrainement">
+${A.atelier}${n.corrige.annale?'':C20.teaser('notion-'+n.slug)}</div>
 ${sujetsSection}
-
-`:`<section class="offer-band"><div class="kicker">CE QUE LA NOTION DEMANDE</div><h2>Deux exigences qui se gênent.</h2>
+</div>
+`;
+  }else{
+    corps=`<div class="onglets" data-onglets data-defaut="sujets">
+${barre([tab('comprendre','Comprendre','La notion, les repères'),tab('sujets','S’entraîner','Cinq vrais sujets'),tab('corrige','Le corrigé','Un sujet traité')])}
+<div class="onglet" id="comprendre">
+<section class="offer-band"><div class="kicker">CE QUE LA NOTION DEMANDE</div><h2>Deux exigences qui se gênent.</h2>
 <div class="grid-3">
 <div><strong>Elle demande…</strong><p>${esc(n.d1)}.</p></div>
 <div><strong>…et aussi</strong><p>${esc(n.d2)}.</p></div>
@@ -146,15 +153,24 @@ ${sujetsSection}
 <div class="sequence-spec">${n.reperes.map(r=>`<p><strong>${esc(r[0])}.</strong> ${esc(r[1])}</p>`).join('')}</div>
 <p class="micro">Le programme de Terminale donne une liste de « repères », des distinctions à savoir employer. Ils servent souvent à construire la troisième partie.</p>
 </section>
-
+</div>
 ${sujetsSection}
-
-<section class="exercise-wrap" id="corrige"><article class="exercise"><div class="kicker">UN SUJET TRAITÉ EN ENTIER</div><h2>Une dissertation, du brouillon à la conclusion.</h2>
+<section class="onglet exercise-wrap" id="corrige"><article class="exercise"><div class="kicker">UN SUJET TRAITÉ EN ENTIER</div><h2>Une dissertation, du brouillon à la conclusion.</h2>
 ${corr}
-</article></section>
+</article>
+${n.corrige.annale?'':C20.teaser('notion-'+n.slug)}</section>
+</div>
+`;
+  }
+  return head(title,desc,file(n))+`
+<section class="pagehead"><div><div class="kicker">PHILOSOPHIE · LES 17 NOTIONS</div>
+<h1>${esc(n.nom)}.</h1>
+<p class="lede">${n.atelier?'L’essentiel en cinq minutes, un atelier en six exercices de la problématique à la dissertation complète, puis cinq vrais sujets du bac pour s’entraîner.':'Ce que la notion demande, les repères du programme qui l’éclairent, cinq vrais sujets du bac pour s’entraîner, et un sujet traité en entier.'}</p>
+${jump}
+</div><aside class="side-note page-boussole"><p><b>D’où vous partez</b>Vous avez un sujet ou un devoir sur ${esc(lower(n))}.</p><p><b>Ce que vous faites ici</b>${n.atelier?'Comprendre ce que la notion demande, faire l’atelier, puis chercher seul le problème de cinq vrais sujets du bac.':'Comprendre ce que la notion demande, chercher seul le problème de cinq vrais sujets du bac, puis lire un sujet traité en entier.'}</p><p><b>Où vous allez ensuite</b>Un sujet complet, en conditions réelles : <a href="philosophie-annales.html">les sujets 2026 corrigés →</a></p><p class="micro">Vous débutez en philosophie ? <a href="philosophie.html#parcours">Le parcours en cinq étapes</a>. <a href="philosophie-notions.html">← Les 17 notions</a></p></aside></section>
 
-`}
-${n.corrige.annale?'':C20.teaser('notion-'+n.slug)}<section class="offer-band"><div class="kicker">ET ENSUITE ?</div><h2>Continuer le travail.</h2>
+${corps}
+<section class="offer-band"><div class="kicker">ET ENSUITE ?</div><h2>Continuer le travail.</h2>
 <div class="seo-links">
 <a href="philosophie-dissertation.html"><strong>Construire la dissertation</strong><span>Introduction, trois parties, transitions, conclusion →</span></a>
 <a href="philosophie-dissertation-entrainement.html"><strong>S’entraîner geste par geste</strong><span>Des exercices courts, chacun corrigé →</span></a>
