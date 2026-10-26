@@ -83,14 +83,15 @@ def etapes(k, titre_autre, A):
                               f'<p>Refaites seul la même opération sur un texte que vous n’avez pas encore travaillé. Le corrigé vient de sa copie à 20.</p>{autre_box}{inner}</div>')
     direct = '<button type="button" class="etape-direct" hidden>Je sais déjà faire : passer à l’écrit →</button>'
     suiv = lambda t: f'<div class="etape-fin"><button type="button" class="btn red small etape-suivante">{t}</button></div>'
-    a1, a2 = A[0], (A[1] if len(A) > 1 else None)
+    pick = lambda *mots: next((x for x in A if any(m in x['kicker'] for m in mots)), None)
+    a1 = pick('PROBL', 'ENTRER'); a2 = pick('PLAN') or pick('ENTRER')
     e1 = (f'<section class="etape" id="etape-probleme"><h3>Étape 1 · Le problème</h3>{comment(1)}<div class="etape-niveau">Je choisis, sur ce texte</div>{direct}'
           + q(1, 2, 'X et Y', 'Que présente le texte (X), et que fait comprendre son écriture (Y) ?', xy, 'xy')
           + q(2, 2, 'une seule question', 'Quelle problématique garde X et Y, sans donner la réponse ?', pb, 'pb')
-          + ecrit(f'<div class="exercise">{questions_de(a1["html"])}</div>' + zone('Le problème', 'Écrivez X, puis Y, puis la problématique en une seule question.', 'problematique', corrige_de(a1['html']), 'X : …\nY : …\nProblématique : Comment… ?'))
+          + ecrit((f'<div class="exercise">{questions_de(a1["html"])}</div>' if a1 else '') + zone('Le problème', 'Écrivez X, puis Y, puis la problématique en une seule question.', 'problematique', corrige_de(a1['html']) if a1 else f'<p>{D.OK[autre][0]}</p><p><strong>{PROB[autre]}</strong></p>', 'X : …\nY : …\nProblématique : Comment… ?'))
           + suiv('Étape 2 · Le plan →') + '</section>')
-    plan_ecrit = (f'<div class="exercise">{questions_de(a2["html"])}</div>' + zone('Le plan', 'Donnez la réponse de chaque partie en une phrase, et les transitions en questions.', 'plan', corrige_de(a2['html']), 'I. …\nTransition : … ?\nII. …')) if a2 else \
-                 zone('Le plan', 'Donnez la réponse de chaque partie en une phrase, et les transitions en questions.', 'plan', '', 'I. …\nTransition : … ?\nII. …')
+    plan_ecrit = (('' if a2 is a1 else f'<div class="exercise">{questions_de(a2["html"])}</div>') + zone('Le plan', 'Donnez la réponse de chaque partie en une phrase, et les transitions en questions.', 'plan', corrige_de(a2['html']), 'I. …\nTransition : … ?\nII. …')) if a2 else \
+                 zone('Le plan', 'Donnez la réponse de chaque partie en une phrase, et les transitions en questions.', 'plan', f'<p>{D.OK[autre][1]}</p>', 'I. …\nTransition : … ?\nII. …')
     e2 = (f'<section class="etape" id="etape-plan"><h3>Étape 2 · Le plan</h3>{comment(2)}<div class="etape-niveau">Je choisis, sur ce texte</div>{direct}'
           + q(1, 1, 'le plan', f'La problématique est : « {plain(PROB[k])} » Quel plan y répond ?', pl, 'plan')
           + ecrit(plan_ecrit) + suiv('Étape 3 · L’analyse →') + '</section>')
