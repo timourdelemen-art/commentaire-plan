@@ -40,9 +40,14 @@ if(name==='annales-bac.html'){
   assert(!(await page.locator('#annales-author').evaluate(el=>el.closest('label').hidden)),'Filtre auteur masqué');
   assert.equal(await page.locator('#transformedAnnales .corpus-card').filter({hasText:'Brevet'}).count(),0,'Des sujets du brevet sur la page du bac');
 }
-if(name==='brevet-redaction.html'||name==='philosophie-explication.html'){
+if(name==='brevet-redaction.html'){
   const links=page.locator('main nav.annales-jump a[href]');
   assert(await links.count()>=3,'Raccourcis de page manquants');
+}
+if(name==='philosophie-explication.html'){
+  const links=page.locator('main nav.annales-jump a[href]');
+  assert.deepEqual(await links.evaluateAll(as=>as.map(a=>a.getAttribute('href'))),['#banque','#methode'],'Deux accès distincts : exercices et méthode');
+  assert.equal(await page.locator('main .pagehead aside a[href^="#"]').count(),0,'Navigation répétée dans l’en-tête');
 }
 if(name==='bac-dissertation.html'){
   assert.equal(await page.locator('main .onglets-barre [role=tab]').count(),3,'Les trois onglets de la dissertation doivent exister');
