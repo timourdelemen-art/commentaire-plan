@@ -18,6 +18,7 @@ const server = http.createServer((req,res) => {
   });
 });
 (async()=>{
+  require('node:child_process').execFileSync(process.execPath,[path.join(__dirname,'check-browser-oral.cjs'),root],{stdio:'inherit'});
   await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
   const base='http://127.0.0.1:'+server.address().port+'/';
   const browser=await chromium.launch({headless:true});

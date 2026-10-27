@@ -1,0 +1,14 @@
+/* Trois moments de l’oral, un support puis une prise de parole. */
+.oral-parcours .pagehead{grid-template-columns:minmax(0,1fr) minmax(15rem,.55fr);margin-bottom:1rem}
+.oral-parcours .pagehead h1{font-size:clamp(2rem,4vw,3.3rem)}
+.oral-parcours .pagehead .lede{font-size:1.1rem}
+.oral-step-links{display:flex;gap:.75rem;flex-wrap:wrap;margin:1rem 0 2rem}.oral-step-links a{padding:.7rem 1rem;border:1px solid #bfb4a7;border-radius:6px}
+.oral-parcours .oral-source h2,.oral-parcours .oral-prep h2,.oral-parcours .oral-simulation>h2{font-size:1.7rem}
+.oral-source-choice{display:block;margin:1rem 0;font-weight:700}.oral-source-choice select{display:block;font:inherit;width:100%;padding:.75rem;margin:.5rem 0}
+.oral-parcours details{border:1px solid #c9bfb0;padding:.85rem 1rem;border-radius:8px;margin:1rem 0}.oral-parcours summary{cursor:pointer;font-weight:700}
+.oral-parcours .oral-source-card.text{display:block}.oral-parcours .oral-source-card.text textarea{width:100%;box-sizing:border-box;min-height:12rem}
+.oral-parcours .oral-import .oral-source-grid{grid-template-columns:1fr 1fr}
+.oral-selected-text{font-size:1.05rem;line-height:1.7;padding:1rem 1.2rem;border-left:2px solid #b3a79a}.oral-selected-text p{margin:.75rem 0;text-align:justify;hyphens:auto}
+.oral-service-status{padding:.75rem;border-left:3px solid #9b4c43;line-height:1.5}
+.oral-parcours [hidden]{display:none!important}
+@media(max-width:700px){.oral-parcours .pagehead{display:block}.oral-parcours .pagehead .side-note{font-size:.9rem;margin-top:1rem}.oral-parcours .oral-import .oral-source-grid{grid-template-columns:1fr}.oral-selected-text{padding:.75rem}.oral-parcours .oral-source-meta{grid-template-columns:1fr}}

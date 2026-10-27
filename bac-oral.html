@@ -1,7 +1,7 @@
 <!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Oral du bac de français : explication linéaire et entretien</title><meta name="description" content="Simulation de l’oral du bac de français : 30 minutes de préparation, 12 minutes d’exposé, 8 minutes d’entretien avec relances adaptées à vos réponses."><link rel="stylesheet" href="styles.css"><link rel="canonical" href="https://commentaire-plan.com/bac-oral.html">
 <script type="speculationrules" data-seo-speculation="1">{"prefetch":[{"where":{"and":[{"href_matches":"/*"},{"not":{"selector_matches":"[download],.no-prefetch"}}]},"eagerness":"moderate"}]}</script>
 <script type="application/ld+json" data-seo-breadcrumbs="1">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://commentaire-plan.com/"},{"@type":"ListItem","position":2,"name":"Bac français","item":"https://commentaire-plan.com/bac.html"},{"@type":"ListItem","position":3,"name":"Oral"}]}</script>
-</head><body>
+<link rel="stylesheet" href="oral-parcours.css"></head><body>
 <header class="top" data-seo-static-nav="1">
   <div class="wrap mast mast-v3">
     <a class="brand brand-v2" href="/">COMMENTAIRE<br>PLAN</a>
@@ -77,36 +77,32 @@
     <a href="/enseignants.html"><strong>Enseignants</strong><span>Ressources et séquences</span></a>
   </nav>
 </header>
-<main class="wrap">
+<main class="wrap oral-parcours">
 <nav class="seo-breadcrumbs wrap" aria-label="Fil d’Ariane"><a href="/">Accueil</a><span aria-hidden="true">›</span><a href="/bac.html">Bac français</a><span aria-hidden="true">›</span><span aria-current="page">Oral</span></nav>
-<section class="pagehead"><div><div class="kicker">BAC · ORAL</div><h1>Une simulation qui respecte<br>le vrai déroulement.</h1><p class="lede">L’examinateur écrit la consigne au début, puis vous laisse parler sans vous interrompre. Il reprend la parole uniquement pour ouvrir l’entretien, puis ses questions s’appuient sur ce que vous venez réellement de dire.</p></div><aside class="side-note"><p><strong>Épreuve :</strong> 30 min de préparation · 20 min de passage.</p><p><strong>Partie 1 :</strong> exposé continu · 12 min · /12.</p><p><strong>Partie 2 :</strong> œuvre choisie et entretien · 8 min · /8.</p></aside></section>
+<section class="pagehead"><div><div class="kicker">BAC · ORAL</div><h1>Votre texte.<br>Votre prise de parole.</h1><p class="lede">Choisissez un texte, préparez-le, puis lancez le micro. Votre exposé reste continu ; les relances viennent pendant l’entretien.</p></div><aside class="side-note"><p><strong>Épreuve :</strong> 30 min de préparation · 20 min de passage.</p><p><strong>Partie 1 :</strong> exposé continu · 12 min · /12.</p><p><strong>Partie 2 :</strong> œuvre choisie et entretien · 8 min · /8.</p></aside></section>
 
-<section class="oral-source" id="oral-source">
+<nav class="oral-step-links" aria-label="Étapes de la simulation"><a href="#oral-source">1 · Le texte</a><a href="#oral-preparation">2 · La préparation</a><a href="#oral-simulation">3 · Le passage</a></nav><section class="oral-source" id="oral-source">
   <div class="kicker">AVANT LA PRÉPARATION · FICHE D’INTERROGATION</div>
-  <h2>Le texte, le passage et la question de grammaire.</h2>
-  <p>Comme à l’épreuve, ces éléments sont fixés avant les 30 minutes de préparation. Le simulateur ne les modifie plus ensuite.</p>
-  <div class="oral-source-grid">
-    <label class="oral-source-card"><strong>Photo ou image</strong><span>JPEG, PNG, HEIC selon le navigateur.</span><input id="oral-image-file" type="file" accept="image/*"></label>
-    <label class="oral-source-card"><strong>PDF</strong><span>Votre extrait ou votre descriptif de cours.</span><input id="oral-pdf-file" type="file" accept="application/pdf"></label>
-    <label class="oral-source-card text"><strong>Copier-coller le texte</strong><textarea id="oral-source-text" data-feedback="off" rows="8" placeholder="Collez ici l’extrait étudié en classe…"></textarea></label>
-  </div>
-  <div class="oral-source-meta">
+  <h2>1 · Choisissez votre texte.</h2><label class="oral-source-choice" for="oral-sample">Un extrait du site, ou votre texte de classe<select id="oral-sample"><option value="">Mon texte de classe</option><option value="pot-bouille">Zola · la cour des cuisines</option><option value="lancelot">Chrétien de Troyes · la charrette</option></select></label>
+  <p>Choisissez le passage et sa question de grammaire avant de lancer les 30 minutes de préparation. En classe, utilisez les éléments donnés par votre professeur.</p>
+  <label class="oral-source-card text"><strong>Copier-coller le texte</strong><textarea id="oral-source-text" data-feedback="off" rows="8" placeholder="Collez ici l’extrait étudié en classe…"></textarea></label><details class="oral-import"><summary>Utiliser une photo ou un PDF</summary><div class="oral-source-grid"><label class="oral-source-card"><strong>Photo ou image</strong><span>JPEG, PNG, HEIC selon le navigateur.</span><input id="oral-image-file" type="file" accept="image/*"></label><label class="oral-source-card"><strong>Copier depuis un PDF</strong><span>Ouvrir le document pour en copier le passage.</span><input id="oral-pdf-file" type="file" accept="application/pdf"></label></div></details>
+  <details class="oral-identite"><summary>Auteur, œuvre et repères du passage</summary><div class="oral-source-meta">
     <label>Auteur<input id="oral-author" type="text" placeholder="Ex. Émile Zola"></label>
     <label>Œuvre / parcours<input id="oral-text-work" type="text" placeholder="Ex. Pot-Bouille"></label>
     <label>Passage / lignes<input id="oral-lines" type="text" placeholder="Ex. lignes 12 à 31"></label>
-  </div>
+  </div></details>
   <label class="field-label oral-grammar-field">Question de grammaire<input id="oral-grammar-question" type="text" placeholder="La question donnée avec le texte avant la préparation"></label>
   <div id="oral-source-status" class="micro">Aucun extrait chargé pour l’instant.</div>
 </section>
 
-<section class="oral-prep">
+<section class="oral-prep" id="oral-preparation">
   <div class="kicker">PRÉPARATION · 30 MINUTES</div>
-  <h2>Préparez l’ensemble de la première partie.</h2>
+  <h2>2 · Préparez votre exposé.</h2>
   <p>Vous préparez la situation du texte, la lecture, l’explication linéaire et votre réponse à la question de grammaire. Le simulateur ne vous aide pas pendant ce temps.</p>
   <div class="timer-box" data-seconds="1800"><strong class="timer-display">30:00</strong><button class="timer-start">Démarrer</button><button class="timer-reset">Réinitialiser</button></div>
 </section>
 
-<section class="oral-simulation" id="oral-simulation">
+<section class="oral-simulation" id="oral-simulation"><h2>3 · Prenez la parole.</h2><p>Le micro démarre à votre demande. Le chronomètre de la partie démarre dès le début de l’écoute.</p><p id="oral-service-status" class="oral-service-status" role="status" hidden></p>
   <div class="oral-phase-heading"><span>PARTIE 1</span><div><h2>Exposé sur le texte · 12 minutes</h2><p>Une seule prise de parole. Aucune relance de l’examinateur pendant cette partie.</p></div></div>
 
   <div class="examiner-card">
@@ -120,11 +116,11 @@
       <div class="timer-box compact" data-seconds="720"><strong class="timer-display">12:00</strong><button class="timer-start">Démarrer</button><button class="timer-reset">Réinitialiser</button></div>
     </div>
     <div class="speech-controls">
-      <button class="record-btn speech-btn" id="oral-part1-mic" type="button">Commencer à parler</button>
+      <button class="record-btn speech-btn" id="oral-part1-mic" type="button">Commencer mon exposé</button>
       <span class="record-status" id="oral-part1-status">Micro arrêté.</span>
     </div>
     <label class="speech-transcript-label">Transcription de votre prestation
-      <textarea id="oral-part1-transcript" data-feedback="off" rows="14" placeholder="La transcription apparaît ici si la dictée vocale est disponible. Vous pouvez aussi écrire ou corriger manuellement."></textarea>
+      <textarea id="oral-part1-transcript" data-feedback="off" rows="8" placeholder="La transcription apparaît ici si la dictée vocale est disponible. Vous pouvez aussi écrire ou corriger manuellement."></textarea>
     </label>
     <p class="micro">La transcription sert au bilan pédagogique. La qualité de la voix, de la respiration et de l’expressivité ne peut pas être déduite fidèlement du texte transcrit.</p>
     <button class="btn red" id="oral-part1-done" type="button">J’ai terminé la première partie →</button>
@@ -144,11 +140,11 @@
     <div class="oral-live-card" id="oral-interview-first">
       <strong>Votre présentation de l’œuvre</strong>
       <div class="speech-controls">
-        <button class="record-btn speech-btn" id="oral-interview-mic" type="button">Commencer à parler</button>
+        <button class="record-btn speech-btn" id="oral-interview-mic" type="button">Présenter mon œuvre</button>
         <span class="record-status" id="oral-interview-status">Micro arrêté.</span>
       </div>
       <label class="speech-transcript-label">Transcription
-        <textarea id="oral-interview-transcript" data-feedback="off" rows="10" placeholder="Présentez l’œuvre et les raisons de votre choix. Aucun questionnaire ne vous interrompt."></textarea>
+        <textarea id="oral-interview-transcript" data-feedback="off" rows="6" placeholder="Présentez l’œuvre et les raisons de votre choix. Aucun questionnaire ne vous interrompt."></textarea>
       </label>
       <button class="btn red" id="oral-interview-first-done" type="button">J’ai terminé ma présentation →</button>
     </div>
@@ -175,7 +171,7 @@
 
 <section id="oral-final-bilan" class="offer-band oral-final-bilan" hidden>
   <div class="kicker">BILAN PÉDAGOGIQUE</div>
-  <h2>Deux bilans, parce que ce sont deux exercices différents.</h2>
+  <h2>Reprenez votre prestation.</h2>
   <div class="oral-bilan-grid">
     <article><span>PARTIE 1</span><h3>Texte : lecture, explication, grammaire</h3><div id="oral-bilan-part1" class="oral-bilan-content">Analyse en cours…</div></article>
     <article><span>PARTIE 2</span><h3>Présentation de l’œuvre et entretien</h3><div id="oral-bilan-interview" class="oral-bilan-content">Analyse en cours…</div></article>
@@ -183,5 +179,5 @@
   <button class="btn" id="oral-restart" type="button">Recommencer une simulation</button>
 </section>
 
-</main><script src="exam-tools.js"></script><script src="site-nav.js"></script><footer class="site-footer" data-seo-static-footer="1"><div class="wrap"><a href="/plan-du-site.html">Plan du site</a><a href="/apropos.html">La démarche</a><a href="/offre.html">L’offre</a><a href="/contact.html">Contact</a><a href="/mentions-legales.html">Mentions légales</a><a href="/confidentialite.html">Confidentialité</a><a href="/cgv.html">CGV</a></div></footer>
+</main><script src="exam-tools.js"></script><script src="oral-parcours.js"></script><script src="site-nav.js"></script><footer class="site-footer" data-seo-static-footer="1"><div class="wrap"><a href="/plan-du-site.html">Plan du site</a><a href="/apropos.html">La démarche</a><a href="/offre.html">L’offre</a><a href="/contact.html">Contact</a><a href="/mentions-legales.html">Mentions légales</a><a href="/confidentialite.html">Confidentialité</a><a href="/cgv.html">CGV</a></div></footer>
 </body></html>

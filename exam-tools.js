@@ -51,19 +51,19 @@ document.addEventListener('DOMContentLoaded',()=>{
   const oralLines=document.getElementById('oral-lines');
   if(oralText&&oralStatus){
     const key='oral-source-draft-v1';
-    const restore=()=>{try{return JSON.parse(localStorage.getItem(key)||'{}')}catch{return {}}};
+    const restore=()=>{try{return JSON.parse(localStorage.getItem(key)||'{}')||{}}catch{return {}}};
     const saved=restore();
     oralText.value=saved.text||'';
     if(oralAuthor)oralAuthor.value=saved.author||'';
     if(oralTextWork)oralTextWork.value=saved.work||'';
     if(oralLines)oralLines.value=saved.lines||'';
     const persist=()=>{
-      localStorage.setItem(key,JSON.stringify({
+      try{localStorage.setItem(key,JSON.stringify({
         text:oralText.value,
         author:oralAuthor?.value||'',
         work:oralTextWork?.value||'',
         lines:oralLines?.value||''
-      }));
+      }));}catch{}
       const hasText=oralText.value.trim().length>0;
       if(hasText) oralStatus.textContent='Texte copié-collé prêt. Il reste dans ce navigateur.';
     };
@@ -185,9 +185,14 @@ document.addEventListener('DOMContentLoaded',()=>{
     const grammarQuestion=document.getElementById("oral-grammar-question");
     let part1Feedback=null;
     let interviewFeedback=null;
-    let dialogueTurns=[];
+    let dialogueSaved={};try{dialogueSaved=JSON.parse(localStorage.getItem('oral-dialogue-v1')||'{}')||{};}catch{}
+    let dialogueTurns=Array.isArray(dialogueSaved.turns)?dialogueSaved.turns:[];
+    const storeDialogue=()=>{try{localStorage.setItem('oral-dialogue-v1',JSON.stringify({turns:dialogueTurns,interview:!oralInterviewPhase.hidden,dialogue:!oralDialogue.hidden,messages:[...oralMessages.querySelectorAll('.oral-dialogue-message')].map(p=>({role:p.classList.contains('student')?'student':'examiner',text:p.querySelector('p').textContent}))}));}catch{}};
 
-    const lockUntil=()=>Number(localStorage.getItem(lockKey)||0);
+    const serviceNote=()=>{const box=document.getElementById('oral-service-status');if(box){box.hidden=false;box.textContent='Le retour personnalisé est indisponible. Vous pouvez poursuivre avec des relances d’entraînement et reprendre votre transcription avec les pistes de relecture finales.';}};
+    const reprisePart1='<p>Relisez votre transcription : avez-vous situé le passage, suivi ses mouvements, analysé des mots précis et répondu à la question de grammaire ?</p><p>La transcription ne permet pas de juger la qualité de votre voix ou de votre lecture.</p>';
+    const repriseInterview='<p>Votre choix de l’œuvre est-il expliqué par un passage précis ? Vos réponses aux relances développent-elles une idée ou la nuancent-elles ?</p><p>Choisissez un seul point à améliorer pour votre prochaine simulation.</p>';
+    const lockUntil=()=>{try{return Number(localStorage.getItem(lockKey)||0);}catch{return 0;}};
     const suspendOral=()=>{
       const host=document.getElementById("oral-simulation");
       if(host && !document.getElementById("oral-lock-message")){
@@ -199,10 +204,11 @@ document.addEventListener('DOMContentLoaded',()=>{
       }
     };
 
-    if(lockUntil()) localStorage.removeItem(lockKey);
+    if(lockUntil()){try{localStorage.removeItem(lockKey);}catch{}}
 
     const analyze=async(answer,instruction,quote="",previousAnswer="")=>{
       const res=await fetch(ORAL_ENDPOINT,{
+        signal:typeof AbortSignal.timeout==='function'?AbortSignal.timeout(15000):undefined,
         method:"POST",
         headers:{"Content-Type":"application/json"},
         body:JSON.stringify({
@@ -227,36 +233,35 @@ document.addEventListener('DOMContentLoaded',()=>{
       return data.feedback||{};
     };
 
+    let speech=null;
+    const stopSpeech=()=>{if(!speech)return Promise.resolve();const current=speech;return new Promise(resolve=>{current.stopped=resolve;try{current.rec.stop();}catch{resolve();}setTimeout(resolve,1500);});};
+    const speechError=code=>({
+      "not-allowed":"L’accès au microphone est refusé. Autorisez-le dans les réglages de votre navigateur, puis réessayez.",
+      "service-not-allowed":"Le service vocal du navigateur est indisponible. Vous pouvez saisir ou coller votre transcription.",
+      "audio-capture":"Aucun microphone utilisable. Vérifiez le micro choisi dans votre navigateur.",
+      "network":"Le service vocal du navigateur ne répond pas. Votre texte reste disponible ; vous pouvez réessayer.",
+      "no-speech":"Aucune parole entendue. Vous pouvez réessayer."
+    }[code]||"La transcription s’est interrompue. Votre texte est conservé ; vous pouvez réessayer.");
     const attachSpeech=(buttonId,statusId,area)=>{
-      const btn=document.getElementById(buttonId), status=document.getElementById(statusId);
+      const btn=document.getElementById(buttonId),status=document.getElementById(statusId);
       if(!btn||!status||!area)return;
-      const Recognition=window.SpeechRecognition||window.webkitSpeechRecognition;
-      if(!Recognition){
-        status.textContent="Dictée vocale non disponible dans ce navigateur. Vous pouvez saisir la transcription manuellement.";
-        return;
-      }
-      let rec=null,active=false,base="";
-      btn.addEventListener("click",()=>{
-        if(active&&rec){rec.stop();return;}
-        rec=new Recognition();
-        rec.lang="fr-FR";
-        rec.continuous=true;
-        rec.interimResults=true;
-        base=area.value.trim();
-        rec.onstart=()=>{active=true;btn.textContent="Arrêter";status.textContent="Écoute en cours…";};
-        rec.onend=()=>{active=false;btn.textContent=buttonId==="oral-answer-mic"?"Répondre à l’oral":"Commencer à parler";status.textContent="Micro arrêté.";};
-        rec.onerror=()=>{status.textContent="La dictée vocale n’a pas pu continuer.";};
-        rec.onresult=e=>{
-          let finalText="",interim="";
-          for(let i=e.resultIndex;i<e.results.length;i++){
-            const t=e.results[i][0]?.transcript||"";
-            if(e.results[i].isFinal)finalText+=t+" "; else interim+=t;
-          }
-          if(finalText) base=(base+" "+finalText).trim();
-          area.value=(base+" "+interim).trim();
-          area.dispatchEvent(new Event("input",{bubbles:true}));
-        };
-        rec.start();
+      const Recognition=window.SpeechRecognition||window.webkitSpeechRecognition,idle=btn.textContent;
+      status.setAttribute('role','status');btn.setAttribute('aria-describedby',statusId);btn.setAttribute('aria-pressed','false');
+      if(!Recognition){btn.disabled=true;status.textContent="La transcription vocale est indisponible dans ce navigateur. Vous pouvez saisir votre transcription.";return;}
+      const reset=session=>{btn.textContent=idle;btn.setAttribute('aria-pressed','false');if(speech===session)speech=null;};
+      btn.addEventListener('click',()=>{
+        if(speech?.btn===btn){stopSpeech();return;}
+        if(speech){const previous=speech;speech=null;previous.reset();try{previous.rec.abort();}catch{}}
+        const session={btn,rec:null,base:area.value.trim(),error:false,reset:null};
+        session.reset=()=>reset(session);speech=session;
+        try{
+          const rec=new Recognition();session.rec=rec;rec.lang='fr-FR';rec.continuous=true;rec.interimResults=true;
+          rec.onstart=()=>{if(speech!==session)return;btn.textContent='Arrêter le micro';btn.setAttribute('aria-pressed','true');status.textContent='Écoute en cours…';const timer=document.querySelector('[data-seconds="'+(buttonId==='oral-part1-mic'?'720':'480')+'"] .timer-start');if(timer&&!/Pause|Terminé/.test(timer.textContent))timer.click();};
+          rec.onresult=e=>{if(speech!==session)return;const pieces=[];for(let i=0;i<e.results.length;i++)pieces.push(e.results[i][0]?.transcript||'');area.value=[session.base,pieces.join(' ').trim()].filter(Boolean).join(' ');area.dispatchEvent(new Event('input',{bubbles:true}));};
+          rec.onerror=e=>{if(speech!==session)return;session.error=true;status.textContent=speechError(e.error);reset(session);};
+          rec.onend=()=>{if(speech===session){reset(session);if(!session.error)status.textContent='Micro arrêté. Votre transcription peut être relue et corrigée.';}session.stopped?.();};
+          status.textContent='Ouverture du microphone…';rec.start();
+        }catch{reset(session);status.textContent='Le microphone n’a pas pu démarrer. Vous pouvez réessayer ou saisir votre transcription.';}
       });
     };
 
@@ -270,12 +275,19 @@ document.addEventListener('DOMContentLoaded',()=>{
       div.className="oral-dialogue-message "+role;
       div.innerHTML="<strong>"+(role==="examiner"?"Examinateur":"Élève")+"</strong><p></p>";
       div.querySelector("p").textContent=text;
-      oralMessages.appendChild(div);
+      oralMessages.appendChild(div);queueMicrotask(storeDialogue);
     };
+    for(const m of Array.isArray(dialogueSaved.messages)?dialogueSaved.messages:[])addMessage(m.role==='student'?'student':'examiner',String(m.text||''));
+    if(dialogueSaved.interview)oralInterviewPhase.hidden=false;
+    if(dialogueSaved.dialogue)oralDialogue.hidden=false;
 
     oralPart1Done.addEventListener("click",async()=>{
+      await stopSpeech();
       const answer=(part1Area?.value||"").trim();
       if(answer.length<30){alert("La première partie doit contenir une prestation réelle avant de passer à l’entretien.");return;}
+      const clock=document.querySelector('[data-seconds="720"] .timer-start');if(clock?.textContent==='Pause')clock.click();
+      oralInterviewPhase.hidden=false;storeDialogue();
+      oralInterviewPhase.scrollIntoView({behavior:"smooth",block:"start"});
       oralPart1Done.disabled=true;
       try{
         part1Feedback=await analyze(
@@ -284,13 +296,12 @@ document.addEventListener('DOMContentLoaded',()=>{
           (document.getElementById("oral-source-text")?.value||"")+" Question de grammaire : "+(grammarQuestion?.value||"")
         );
         if(part1Feedback?.blocked)return;
-        oralInterviewPhase.hidden=false;
-        oralInterviewPhase.scrollIntoView({behavior:"smooth",block:"start"});
-      }catch(e){alert(e.message||"Analyse indisponible.");}
-      finally{if(!part1Feedback?.blocked)oralPart1Done.disabled=false;}
+      }catch(e){serviceNote();}
+      finally{oralPart1Done.disabled=false;}
     });
 
     oralInterviewFirstDone?.addEventListener("click",async()=>{
+      await stopSpeech();
       const answer=(interviewArea?.value||"").trim();
       if(answer.length<20){alert("Présentez d’abord réellement l’œuvre et les raisons de votre choix.");return;}
       oralInterviewFirstDone.disabled=true;
@@ -305,11 +316,16 @@ document.addEventListener('DOMContentLoaded',()=>{
         dialogueTurns=[answer];
         addMessage("examiner",interviewFeedback.question_suivante||"Pouvez-vous préciser ce qui, dans cette œuvre, a le plus changé votre manière de la lire ?");
         oralDialogue.scrollIntoView({behavior:"smooth",block:"start"});
-      }catch(e){alert(e.message||"Relance indisponible.");}
-      finally{if(!interviewFeedback?.blocked)oralInterviewFirstDone.disabled=false;}
+      }catch(e){
+        serviceNote();oralDialogue.hidden=false;dialogueTurns=[answer];
+        addMessage("examiner","Relance d’entraînement : quel passage précis de l’œuvre éclaire le mieux ce que vous venez d’expliquer ?");
+        oralDialogue.scrollIntoView({behavior:"smooth",block:"start"});
+      }
+      finally{oralInterviewFirstDone.disabled=false;}
     });
 
     oralAnswerDone?.addEventListener("click",async()=>{
+      await stopSpeech();
       const answer=(answerArea?.value||"").trim();
       if(answer.length<8){alert("Répondez à la question avant de poursuivre.");return;}
       oralAnswerDone.disabled=true;
@@ -324,12 +340,17 @@ document.addEventListener('DOMContentLoaded',()=>{
         addMessage("student",answer);
         addMessage("examiner",f.question_suivante||"Pouvez-vous développer ce point à partir d’un passage précis de l’œuvre ?");
         dialogueTurns.push(answer);
-        answerArea.value="";
-      }catch(e){alert(e.message||"Relance indisponible.");}
-      finally{if(lockUntil()<=Date.now())oralAnswerDone.disabled=false;}
+        answerArea.value="";answerArea.dispatchEvent(new Event("input",{bubbles:true}));
+      }catch(e){
+        serviceNote();addMessage("student",answer);dialogueTurns.push(answer);
+        addMessage("examiner","Relance d’entraînement : comment ce passage permet-il de préciser ou de nuancer votre réponse ?");
+        answerArea.value="";answerArea.dispatchEvent(new Event("input",{bubbles:true}));
+      }
+      finally{oralAnswerDone.disabled=false;}
     });
 
     oralInterviewFinish?.addEventListener("click",async()=>{
+      await stopSpeech();const clock=document.querySelector('[data-seconds="480"] .timer-start');if(clock?.textContent==='Pause')clock.click();
       const interviewText=[interviewArea?.value||"",...dialogueTurns.slice(1)].filter(Boolean).join(" ");
       oralInterviewFinish.disabled=true;
       try{
@@ -341,17 +362,23 @@ document.addEventListener('DOMContentLoaded',()=>{
         if(finalInterview?.blocked)return;
         const p1=document.getElementById("oral-bilan-part1");
         const p2=document.getElementById("oral-bilan-interview");
-        const renderFeedback=f=>"<p><b>Point acquis :</b> "+(f?.point_acquis||"—")+"</p><p><b>Priorité :</b> "+(f?.manque_principal||"—")+"</p><p><b>Pour la reprise :</b> "+(f?.question_suivante||"—")+"</p>";
-        if(p1)p1.innerHTML=renderFeedback(part1Feedback);
+        const safe=t=>String(t||'—').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+        const renderFeedback=f=>"<p><b>Point acquis :</b> "+safe(f?.point_acquis)+"</p><p><b>Priorité :</b> "+safe(f?.manque_principal)+"</p><p><b>Pour la reprise :</b> "+safe(f?.question_suivante)+"</p>";
+        if(p1)p1.innerHTML=part1Feedback&&!part1Feedback.blocked?renderFeedback(part1Feedback):reprisePart1;
         if(p2)p2.innerHTML=renderFeedback(finalInterview);
         oralFinalBilan.hidden=false;
         oralFinalBilan.scrollIntoView({behavior:"smooth",block:"start"});
-      }catch(e){alert(e.message||"Bilan indisponible.");}
-      finally{if(lockUntil()<=Date.now())oralInterviewFinish.disabled=false;}
+      }catch(e){
+        serviceNote();
+        document.getElementById("oral-bilan-part1").innerHTML=reprisePart1;
+        document.getElementById("oral-bilan-interview").innerHTML=repriseInterview;
+        oralFinalBilan.hidden=false;oralFinalBilan.scrollIntoView({behavior:"smooth",block:"start"});
+      }
+      finally{oralInterviewFinish.disabled=false;}
     });
 
     oralRestart?.addEventListener("click",()=>{
-      localStorage.removeItem("oral-source-draft-v1");
+      stopSpeech();try{localStorage.removeItem("oral-source-draft-v1");}catch{}
       location.reload();
     });
   }
