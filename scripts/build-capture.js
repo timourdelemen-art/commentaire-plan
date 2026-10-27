@@ -19,7 +19,7 @@ const block=(file,kick,h2,para=PARA)=>`${START}<section class="offer-band captur
 <p class="hidden-field"><label>Ne pas remplir <input name="bot-field"></label></p>
 <label>Vous êtes <select name="profil" required><option value="">Choisir</option><option>Élève</option><option>Parent</option><option>Enseignant</option><option>Autre</option></select></label>
 <label>Adresse e-mail<input type="email" name="email" required autocomplete="email" placeholder="vous@exemple.fr"></label>
-<label class="lead-consent"><input type="checkbox" name="consentement" required> J’accepte de recevoir, au plus une fois par mois, les nouveautés de La Phrase juste.</label>
+<label class="lead-consent"><input type="checkbox" name="consentement" required> J’accepte de recevoir, au plus une fois par mois, les nouveautés du site « Du brevet au bac ».</label>
 <button class="btn red" type="submit">Être prévenu →</button>
 <p class="micro">Désinscription sur simple demande. Aucune revente d’adresse. <a href="confidentialite.html">Confidentialité</a>. Pendant le lancement, tout le site est ouvert : <a href="offre.html">voir l’offre</a>.</p>
 </form></section>${END}\n`;

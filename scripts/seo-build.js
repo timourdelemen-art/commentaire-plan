@@ -196,7 +196,7 @@ function navigationActive(href, base){
 const portals=navigation.map(([href,label,sub,items])=>portal(file,href,label,sub,items,navigationActive(href,base))).join('');
   return `<header class="top" data-seo-static-nav="1">
   <div class="wrap mast mast-v3">
-    <div class="brand-signature"><a class="brand brand-v2" href="/">LA PHRASE<br>JUSTE</a><a class="site-wink no-prefetch" href="/clin-oeil.html" aria-label="Was heißt Denken ?" title="Was heißt Denken ?"><img src="/assets/clin-oeil-heidegger-120.webp" width="42" height="53" alt="" decoding="async"></a></div>
+    <div class="brand-signature"><a class="brand brand-v2" href="/">DU BREVET<br>AU BAC</a><a class="site-wink no-prefetch" href="/clin-oeil.html" aria-label="Was heißt Denken ?" title="Was heißt Denken ?"><img src="/assets/clin-oeil-heidegger-120.webp" width="42" height="53" alt="" decoding="async"></a></div>
     <nav class="nav-portals" aria-label="Navigation principale">${portals}</nav>
     <button class="mobile-nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav">Menu</button>
   </div>
@@ -305,12 +305,14 @@ for(const file of pages){
     const self = r==='index.html' ? DOMAIN+'/' : DOMAIN+'/'+r;
     html=html.replace(/<\/head>/i,'<link rel="canonical" href="'+self+'">\n</head>');
   }
-  /* Image de partage (réseaux, messageries) : une seule image pour tout le site. */
-  if(!noindex(html) && !/property=["']og:image["']/.test(html)){
-    html=html.replace(/<\/head>/i,'<meta property="og:image" content="'+DOMAIN+'/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Commentaire Plan : la copie la plus courte qui mérite 20."><meta name="twitter:card" content="summary_large_image">\n</head>');
+  /* Image de partage : actualiser aussi les pages qui avaient l'ancienne carte. */
+  if(!noindex(html)){
+    html=html.replace(/<meta\b(?=[^>]*\b(?:property=["']og:image(?::width|:height|:alt)?["']|name=["']twitter:card["']))[^>]*>\s*/gi,'');
+    html=html.replace(/<\/head>/i,'<meta property="og:image" content="'+DOMAIN+'/og-du-brevet-au-bac.png"><meta property="og:image:width" content="1731"><meta property="og:image:height" content="909"><meta property="og:image:alt" content="Du brevet au bac : de vraies annales, une progression guidée, l’excellence pour objectif."><meta name="twitter:card" content="summary_large_image">\n</head>');
   }
   // Le nom de marque reste cohérent dans les sorties de tous les générateurs.
-  html=html.replace(/Commentaire Plan|COMMENTAIRE PLAN/g,'La Phrase juste');
+  html=html.replace(/de (?:Commentaire Plan|La Phrase juste)/g,'du site « Du brevet au bac »');
+  html=html.replace(/Commentaire Plan|COMMENTAIRE PLAN|La Phrase juste/g,'Du brevet au bac');
   html=injectBreadcrumbs(html,r);
   if(!/type=["']speculationrules["']/.test(html)){
     const speculation='<script type="speculationrules" data-seo-speculation="1">{"prefetch":[{"where":{"and":[{"href_matches":"/*"},{"not":{"selector_matches":"[download],.no-prefetch"}}]},"eagerness":"moderate"}]}<\/script>';

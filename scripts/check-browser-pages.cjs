@@ -53,7 +53,7 @@ const server = http.createServer((req,res) => {
           const target=getComputedStyle(nav).display==='none'?menu:nav;
           return {right:brand.right,next:target.getBoundingClientRect().left};
         });
-        winkInvalid=brandText!=='LA PHRASE JUSTE'||mast.right>mast.next;
+        winkInvalid=brandText!=='DU BREVET AU BAC'||mast.right>mast.next;
         if(name==='index.html'){
           winkInvalid=winkInvalid||(await page.locator('main>p').count())!==1||(await page.locator('main form,main select,main textarea').count())!==0;
         }else if(await page.locator('.home-site-tagline').count())winkInvalid=true;
