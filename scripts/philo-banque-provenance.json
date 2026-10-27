@@ -1,6 +1,6 @@
 {
   "status": "citations-courtes-et-commentaires",
-  "owner_decision": "16 octobre 2026 : remplacer les anciennes fiches par la sélection de citations fournie et approuvée, en deux parties dissertation et commentaire. Le même jour : poursuivre selon le même principe avec l’Éthique fournie. Le même jour : intégrer Cioran, écrivain et penseur, à partir des deux ouvrages fournis, après sélection rigoureuse sans quota. Le même jour : développer les usages de « L’Arbre de vie » et de la relecture de la Genèse. Le même jour : poursuivre avec les deux Critiques de Kant fournies, en choisissant des phrases autonomes et des emplois précis sur deux ou trois sujets du bac. Le même jour : intégrer une sélection philosophique de Baudelaire et Racine à partir des deux volumes fournis, avec un ou deux vers conservés exactement, sujets du bac attestés et situation dramatique très brève ; comparer Baudelaire à des éditions consultables en ligne. Le même jour : poursuivre avec Corneille en privilégiant ensemble portée philosophique et beauté ; auditer les 33 choix de Baudelaire et Racine et remplacer les plus faibles. Le même jour : lire intégralement les trois volumes fournis de Bachelard et Freud, sélectionner leurs meilleurs courts extraits pour les dissertations du bac, puis poursuivre le modèle existant. Le même jour : poursuivre la sélection rigoureuse et le modèle existant avec les deux ouvrages de Simondon fournis ; courts extraits authentiques, sujets du bac attestés et commentaires originaux. Le même jour : compléter sans doublons à partir des annales d’explication de texte du bac, avec des phrases autonomes, des usages précis et le même modèle de fiche. Le 16 octobre 2026 : intégrer une sélection philosophique et esthétique des Fables de La Fontaine fournies, en recherchant les pépites dans les récits aussi bien que dans les morales ; terminer La Fontaine avant Rousseau. Le 16 octobre 2026 : poursuivre après les Fables avec Les Rêveries du promeneur solitaire et le tome I des Confessions fournis ; sélection rigoureuse de courtes citations, sujets réels et même modèle de fiche.",
+  "owner_decision": "16 octobre 2026 : remplacer les anciennes fiches par la sélection de citations fournie et approuvée, en deux parties dissertation et commentaire. Le même jour : poursuivre selon le même principe avec l’Éthique fournie. Le même jour : intégrer Cioran, écrivain et penseur, à partir des deux ouvrages fournis, après sélection rigoureuse sans quota. Le même jour : développer les usages de « L’Arbre de vie » et de la relecture de la Genèse. Le même jour : poursuivre avec les deux Critiques de Kant fournies, en choisissant des phrases autonomes et des emplois précis sur deux ou trois sujets du bac. Le même jour : intégrer une sélection philosophique de Baudelaire et Racine à partir des deux volumes fournis, avec un ou deux vers conservés exactement, sujets du bac attestés et situation dramatique très brève ; comparer Baudelaire à des éditions consultables en ligne. Le même jour : poursuivre avec Corneille en privilégiant ensemble portée philosophique et beauté ; auditer les 33 choix de Baudelaire et Racine et remplacer les plus faibles. Le même jour : lire intégralement les trois volumes fournis de Bachelard et Freud, sélectionner leurs meilleurs courts extraits pour les dissertations du bac, puis poursuivre le modèle existant. Le même jour : poursuivre la sélection rigoureuse et le modèle existant avec les deux ouvrages de Simondon fournis ; courts extraits authentiques, sujets du bac attestés et commentaires originaux. Le même jour : compléter sans doublons à partir des annales d’explication de texte du bac, avec des phrases autonomes, des usages précis et le même modèle de fiche. Le 16 octobre 2026 : intégrer une sélection philosophique et esthétique des Fables de La Fontaine fournies, en recherchant les pépites dans les récits aussi bien que dans les morales ; terminer La Fontaine avant Rousseau. Le 16 octobre 2026 : poursuivre après les Fables avec Les Rêveries du promeneur solitaire et le tome I des Confessions fournis ; sélection rigoureuse de courtes citations, sujets réels et même modèle de fiche. Le 27 octobre 2026 : choisir quelques citations particulièrement drôles des Cahiers fournis, en conservant exactement le format des fiches existantes ; choix permis entre philosophie et littérature.",
   "source_files": [
     {
       "author": "Platon",
@@ -96,6 +96,12 @@
     {
       "work": "Rousseau · Les Confessions, tome I, présentation Michel Launay, Garnier-Flammarion, ©1968",
       "sha256": "763b5b0428e98366e1f3b76b4888ebb8382b484a318c3287ad01d1fc25a76bd6"
+    },
+    {
+      "author": "Cioran",
+      "work": "Cahiers 1957–1972",
+      "edition": "Gallimard, EPUB 2013",
+      "sha256": "494d206a7f7848040eea094aa1065b8b1181c218631dd7390c1b3c2b4be50ba9"
     }
   ],
   "subject_source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf",
@@ -2970,6 +2976,50 @@
       "quote_sha256": "8e96c3ce9a4fca08c4ea99d00054f2d1997cfffb1cb9318d606b21f724e57931",
       "translator_status": "Texte original français",
       "verification": "Passage contrôlé sur l’image de la page du volume fourni ; texte principal des dix promenades et des six livres du tome I lu ; découpage, graphies, contexte et comparaison externe documentés dans ROUSSEAU-SELECTION.md."
+    },
+    {
+      "id": "cioran-cahiers-rhume-savant",
+      "code": "C19",
+      "author": "Cioran",
+      "locator": "Cahier de 1959, note « Enrhumé six mois par an ! »",
+      "source_location": "EPUB fourni, Ops/007.html, élément p/h numéro 218 (index 0, blancs compris)",
+      "quotation_verified": true,
+      "verification": "Relecture mot pour mot dans l’EPUB fourni et des notes voisines. Aucun mot ni signe changé ; seuls les blancs, dont les espaces insécables, sont normalisés. Note de Cioran, distincte de l’avant-propos et des notes éditoriales. Pas de page imprimée inventée.",
+      "quote_sha256": "366ebf6eca8d8e5df5758eb99bd8b60324cd465cc7fee0dafe603c5a9b12fb65",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "cioran-cahiers-vertu-paresse",
+      "code": "C20",
+      "author": "Cioran",
+      "locator": "Cahier de 1960, note « Tout ce que j’ai de bon… »",
+      "source_location": "EPUB fourni, Ops/008.html, élément p/h numéro 135 (index 0, blancs compris)",
+      "quotation_verified": true,
+      "verification": "Relecture mot pour mot dans l’EPUB fourni et des notes voisines. Aucun mot ni signe changé ; seuls les blancs, dont les espaces insécables, sont normalisés. Note de Cioran, distincte de l’avant-propos et des notes éditoriales. Pas de page imprimée inventée.",
+      "quote_sha256": "e2a619148b9c1eedd63eff8ebe46910f852605bccc9b5954f4958fb22eb7e805",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "cioran-cahiers-providence-diners",
+      "code": "C21",
+      "author": "Cioran",
+      "locator": "Cahier de 1962, note « L’ennui aux dîners… »",
+      "source_location": "EPUB fourni, Ops/010.html, élément p/h numéro 574 (index 0, blancs compris)",
+      "quotation_verified": true,
+      "verification": "Relecture mot pour mot dans l’EPUB fourni et des notes voisines. Aucun mot ni signe changé ; seuls les blancs, dont les espaces insécables, sont normalisés. Note de Cioran, distincte de l’avant-propos et des notes éditoriales. Pas de page imprimée inventée.",
+      "quote_sha256": "1b275ac7d15a942350fb6437c4d2c6e0a5c6f4425cefd1dff2736c92f3590d71",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "cioran-cahiers-inspiration-rendez-vous",
+      "code": "C22",
+      "author": "Cioran",
+      "locator": "Cahier de 1963, note « J’ai remarqué que l’« inspiration »… »",
+      "source_location": "EPUB fourni, Ops/011.html, élément p/h numéro 696 (index 0, blancs compris)",
+      "quotation_verified": true,
+      "verification": "Relecture mot pour mot dans l’EPUB fourni et des notes voisines. Aucun mot ni signe changé ; seuls les blancs, dont les espaces insécables, sont normalisés. Note de Cioran, distincte de l’avant-propos et des notes éditoriales. Pas de page imprimée inventée.",
+      "quote_sha256": "dec604a4740b2521f208a76603ea3d90c6b06564294978836a26f015f28cc001",
+      "translator_status": "original-french"
     }
   ],
   "spinoza_edition_note": "La page de titre (part0002.xhtml) attribue édition et traduction à Maxime Rovere, © Flammarion 2021, ISBN numérique 9782080205179. Les noms figurant dans le nom du fichier téléversé ne servent pas à attribuer la traduction.",

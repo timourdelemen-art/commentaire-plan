@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-10-17",
+  "updated": "2026-10-27",
   "legacyIds": {
     "platon-persuasion": "platon-convaincre-sans-faire-connaitre",
     "platon-recherche": "platon-apprendre-et-se-ressouvenir",
@@ -15169,6 +15169,226 @@
           "reason": "Une analyse peut être juste alors que l’intervention échoue ; sa vérité et les moyens de la mettre en œuvre doivent donc être évalués séparément.",
           "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=104",
           "sourceLabel": "Recueil académique · p. 104"
+        }
+      ]
+    },
+    {
+      "id": "cioran-cahiers-rhume-savant",
+      "code": "C19",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "Le rhume et la Sorbonne",
+      "work": "Cahiers 1957–1972",
+      "locator": "Cahier de 1959, note « Enrhumé six mois par an ! »",
+      "quote": "Enrhumé six mois par an ! Je devrais écrire un livre au titre sorbonnard : Phénoménologie de l’enchifrènement.",
+      "notions": [
+        "langage",
+        "verite"
+      ],
+      "edition": "Cahiers 1957–1972, édition numérique",
+      "publisher": "Gallimard",
+      "editionYear": "2013",
+      "originalLanguage": "français",
+      "translator": null,
+      "editionNote": "Les dates des notes se distinguent de celle de cette édition numérique, sans pagination fixe.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Un vocabulaire savant garantit-il une pensée plus précise ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran imagine d’élever un banal rhume au rang d’un imposant sujet universitaire."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La phénoménologie désigne une tradition philosophique ; l’enchifrènement est un encombrement nasal qui altère la voix."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Le contraste entre la plainte familière et le titre solennel rend comique la disproportion entre une expérience et sa présentation."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un titre de thèse impressionnant peut annoncer une description banale, sans expliquer davantage le phénomène."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Cette parodie ne condamne pas toute technicité : elle invite à demander ce que les mots savants permettent réellement de comprendre."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Le langage peut-il être un obstacle à la recherche de la vérité ?",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=35",
+          "sourceLabel": "Recueil académique · p. 35",
+          "function": "Distinguer précision et prestige du vocabulaire",
+          "reason": "Le titre imaginaire fait sentir qu’un nom savant peut impressionner sans rien expliquer ; il ne prouve pas que tout terme technique soit inutile."
+        }
+      ]
+    },
+    {
+      "id": "cioran-cahiers-vertu-paresse",
+      "code": "C20",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "La vertu par paresse",
+      "work": "Cahiers 1957–1972",
+      "locator": "Cahier de 1960, note « Tout ce que j’ai de bon… »",
+      "quote": "Tout ce que j’ai de bon vient de ma paresse ; sans elle, qui m’aurait empêché de mettre en application mes mauvais desseins ? Elle m’a heureusement contenu dans les limites de la « vertu ».",
+      "notions": [
+        "devoir",
+        "liberte"
+      ],
+      "edition": "Cahiers 1957–1972, édition numérique",
+      "publisher": "Gallimard",
+      "editionYear": "2013",
+      "originalLanguage": "français",
+      "translator": null,
+      "editionNote": "Les dates des notes se distinguent de celle de cette édition numérique, sans pagination fixe.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Ne pas commettre le mal suffit-il à être vertueux ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran attribue plaisamment ce qu’il a de bon à la paresse qui l’aurait empêché de réaliser ses mauvais desseins."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La vertu désigne normalement une disposition à bien agir ; l’inaction ne garantit ni une bonne intention ni un choix moral."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La question sur les mauvais desseins révèle une retenue subie plutôt qu’un effort pour devenir meilleur."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Quelqu’un peut ne pas nuire faute d’énergie, tout en conservant le projet de nuire."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Les guillemets autour de vertu signalent l’écart entre une conduite extérieurement inoffensive et sa valeur morale ; l’ironie atteint aussi celui qui parle."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Est-ce l’intention qui fait la valeur morale de nos actes ?",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=115",
+          "sourceLabel": "Recueil académique · p. 115",
+          "function": "Distinguer l’innocuité d’une conduite et sa valeur morale",
+          "reason": "L’aveu ironique sépare des conséquences inoffensives d’intentions mauvaises : être empêché d’agir ne suffit pas à avoir voulu le bien."
+        }
+      ]
+    },
+    {
+      "id": "cioran-cahiers-providence-diners",
+      "code": "C21",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "La Providence à table",
+      "work": "Cahiers 1957–1972",
+      "locator": "Cahier de 1962, note « L’ennui aux dîners… »",
+      "quote": "L’ennui aux dîners est un argument contre la Providence.",
+      "notions": [
+        "religion",
+        "raison"
+      ],
+      "edition": "Cahiers 1957–1972, édition numérique",
+      "publisher": "Gallimard",
+      "editionYear": "2013",
+      "originalLanguage": "français",
+      "translator": null,
+      "editionNote": "Les dates des notes se distinguent de celle de cette édition numérique, sans pagination fixe.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une expérience déplaisante permet-elle de contester la bonté de l’ordre du monde ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran présente l’ennui d’un dîner comme un argument contre la Providence."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La Providence désigne ici un gouvernement divin du monde orienté vers le bien, et non la seule existence de Dieu."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Le rapprochement d’une gêne mondaine et d’une question théologique produit une disproportion comique."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une conversation qui n’en finit pas fait alors figure de défaut dans l’ordre de l’univers."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La boutade raille autant les dîners que l’attente d’un monde agréable ; elle ne constitue pas une réfutation de l’existence de Dieu."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Est-il déraisonnable de croire en Dieu ?",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=50",
+          "sourceLabel": "Recueil académique · p. 50",
+          "function": "Examiner ce qu’une objection permet réellement de conclure",
+          "reason": "L’ennui peut faire sourire aux dépens d’une Providence supposée bienveillante, mais il ne suffit pas à démontrer que toute croyance en Dieu est irrationnelle."
+        }
+      ]
+    },
+    {
+      "id": "cioran-cahiers-inspiration-rendez-vous",
+      "code": "C22",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "Le génie au mauvais moment",
+      "work": "Cahiers 1957–1972",
+      "locator": "Cahier de 1963, note « J’ai remarqué que l’« inspiration »… »",
+      "quote": "J’ai remarqué que l’« inspiration » ne me vient que lorsque je dois aller à un rendez-vous… J’y vais toujours avec le sentiment de manquer une occasion d’avoir du génie.",
+      "notions": [
+        "art",
+        "conscience"
+      ],
+      "edition": "Cahiers 1957–1972, édition numérique",
+      "publisher": "Gallimard",
+      "editionYear": "2013",
+      "originalLanguage": "français",
+      "translator": null,
+      "editionNote": "Les dates des notes se distinguent de celle de cette édition numérique, sans pagination fixe.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "L’inspiration est-elle toujours une force créatrice, ou peut-elle servir d’excuse ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran remarque que son inspiration surgit précisément quand un rendez-vous va l’empêcher de travailler."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’inspiration désigne un élan créateur ; le génie évoqué n’est ici qu’une possibilité regrettée, sans œuvre pour l’attester."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Les guillemets autour d’inspiration et la répétition des occasions manquées mettent à distance l’image flatteuse de l’artiste contrarié."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Se croire sur le point de créer au moment de sortir permet de préserver son talent supposé sans le confronter à une réalisation."
+        },
+        {
+          "function": "La portée",
+          "sentence": "L’autodérision vise cette échappatoire possible ; elle n’établit pas que toute inspiration soit illusoire."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Faut-il recourir à la notion d’inspiration pour rendre compte de la production artistique ?",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6",
+          "function": "Mettre à l’épreuve le récit de l’inspiration",
+          "reason": "L’anecdote invite à distinguer le sentiment d’une puissance créatrice et la production effective d’une œuvre ; elle ne remplace pas l’analyse du travail artistique."
         }
       ]
     }
