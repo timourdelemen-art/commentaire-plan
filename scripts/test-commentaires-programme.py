@@ -3,7 +3,7 @@
 import unittest,json,re,html
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent.parent
-DATA=json.loads((ROOT/'scripts/commentaires-programme-data.json').read_text())
+DATA=json.loads((ROOT/'scripts/commentaires-programme-data.json').read_text())+json.loads((ROOT/'scripts/commentaires-annales-data.json').read_text())
 class CommentairesProgramme(unittest.TestCase):
  def test_citations_exactes_dans_le_support(self):
   for w in DATA:
@@ -32,5 +32,9 @@ class CommentairesProgramme(unittest.TestCase):
   for w in DATA:
    s=(ROOT/w['file']).read_text();self.assertIn(w['support'],s)
    self.assertIn('data-ecrit-label="À vous d’écrire →"',s);self.assertIn('data-programme-draft',s)
-   self.assertIn('source',s.lower());self.assertIn('NON OFFICIEL',(ROOT/w['dissertation']['file']).read_text())
+   self.assertIn('source',s.lower())
+   if w.get('dissertation'):self.assertIn('NON OFFICIEL',(ROOT/w['dissertation']['file']).read_text())
+   else:
+    self.assertIn('Le sujet officiel',s);self.assertNotIn('ŒUVRE AU PROGRAMME',s)
+    self.assertNotIn('session 2028',s);self.assertNotIn('Passer à la dissertation sur cette œuvre',s)
 if __name__=='__main__':unittest.main()

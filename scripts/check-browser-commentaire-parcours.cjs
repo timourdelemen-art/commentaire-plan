@@ -18,7 +18,7 @@ async function check(root){
   for(const width of [390,1280]){
    const context=await browser.newContext({viewport:{width,height:900},reducedMotion:'reduce',acceptDownloads:true});const page=await context.newPage(),errors=[],posts=[];
    page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(r.method()==='POST')posts.push(r.url());});
-   await page.goto(base+'bac-commentaire.html');assert.equal(await page.locator('main [role=tab]').count(),2);assert.equal(await page.locator('#comm-textes .commentaire-texte').count(),12);
+   await page.goto(base+'bac-commentaire.html');assert.equal(await page.locator('main [role=tab]').count(),2);assert.equal(await page.locator('#comm-textes .commentaire-texte').count(),14);
    for(const a of await page.locator('main a[href]').all()){
     const href=await a.getAttribute('href');if(href.startsWith('http'))continue;
     const u=new URL(href,base+'bac-commentaire.html');const file=u.pathname==='/'?'index.html':u.pathname.slice(1);

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /* L’élève choisit, écrit, compare, reprend ; le modèle conserve les mêmes phrases. */
 const fs=require('node:fs'),path=require('node:path'),http=require('node:http'),assert=require('node:assert/strict');
-const {chromium}=require('playwright');const data=require('./commentaires-programme-data.json');
+const {chromium}=require('playwright');const data=[...require('./commentaires-programme-data.json'),...require('./commentaires-annales-data.json')];
 const root=path.resolve(process.argv[2]||'.');
 const server=http.createServer((req,res)=>{const f=path.resolve(root,'.'+new URL(req.url,'http://localhost').pathname);if(!f.startsWith(root+path.sep))return res.writeHead(403).end();fs.readFile(f,(e,b)=>{if(e)return res.writeHead(404).end();res.setHeader('Content-Type',f.endsWith('.css')?'text/css':f.endsWith('.js')?'application/javascript':'text/html; charset=utf-8');res.end(b);});});
 (async()=>{
@@ -35,11 +35,11 @@ const server=http.createServer((req,res)=>{const f=path.resolve(root,'.'+new URL
     await page.locator('#copie .cm-mode[data-mode="f"]').click();assert.equal(await page.locator('#copie .c20-f:visible').count(),w.copy.reduce((n,p)=>n+p.sentences.length,0));
     await page.locator('#copie .cm-mode[data-mode="e"]').click();assert.equal(await page.locator('#copie .cm-plain>p:visible').count(),13);
     await page.screenshot({path:path.join(captures,w.id+'-modele-'+width+'.png')});
-    await page.goto(base+w.dissertation.file+'#entrainement');assert.match(await page.locator('#sujet blockquote').innerText(),/^« .+ »$/s);assert.equal(await page.locator('#sujet h2').count(),0);const fields=page.locator('textarea');assert.equal(await fields.count(),3);
+    if(w.dissertation){await page.goto(base+w.dissertation.file+'#entrainement');assert.match(await page.locator('#sujet blockquote').innerText(),/^« .+ »$/s);assert.equal(await page.locator('#sujet h2').count(),0);const fields=page.locator('textarea');assert.equal(await fields.count(),3);
     for(let i=0;i<3;i++){await fields.nth(i).fill('Une lecture à vérifier dans les scènes de l’œuvre.');await page.locator('[data-after-writing] summary').nth(i).click();assert.equal(await page.locator('[data-after-writing]').nth(i).getAttribute('open'),'');}
-    assert((await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth))<=1);
+    assert((await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth))<=1);}
    }
-   assert.deepEqual(errors,[]);assert.deepEqual(posts,[]);console.log('Commentaires des deux œuvres '+width+' px : 6 QCM, écriture, reprise, copie entière/phrases et 6 tâches de dissertation : OK.');await context.close();
+   assert.deepEqual(errors,[]);assert.deepEqual(posts,[]);console.log('Commentaires du programme et des annales '+width+' px : 12 QCM, écriture, reprise, copie entière/phrases et 6 tâches de dissertation : OK.');await context.close();
   }
  }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;}).finally(()=>server.close());
