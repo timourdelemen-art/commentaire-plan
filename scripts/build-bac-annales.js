@@ -24,7 +24,7 @@ for(const [id,e] of Object.entries(CAT)){
   if(!fs.existsSync(file)){manquants.push(id);continue;}
   let s=fs.readFileSync(file,'utf8');
   s=s.replace(new RegExp(START+'[\\s\\S]*?'+END+'\\n?'),'');
-  const lien=step=>`annales/entrainement-annale.html?id=${id}&amp;mode=targeted&amp;step=${encodeURIComponent(step)}`;
+  const lien=step=>`annales/entrainement-annale.html?id=${id}&amp;mode=targeted&amp;step=${encodeURIComponent(step)}#annaleQuestion`;
   const libres=e.etapes.filter(x=>x.access!=='premium');
   const suite=e.etapes.filter(x=>x.access==='premium');
   const num=x=>e.etapes.indexOf(x)+1;
@@ -39,6 +39,7 @@ for(const [id,e] of Object.entries(CAT)){
   fs.writeFileSync(file,s);n++;
 }
 console.log(`Étapes du sujet écrites dans ${n} pages d’annales du bac.`);
+require('./bac-annales-index.js')(ROOT,CAT);
 if(manquants.length){console.error('Pages non traitées : '+manquants.join(', '));process.exit(1);}
 
 // Mode examen : le texte et les sources viennent du même catalogue que l’annale.

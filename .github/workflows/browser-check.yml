@@ -46,6 +46,7 @@ jobs:
           node scripts/check-browser-consignes.cjs "$BUILD_DIR"
           node scripts/check-browser-brevet-redaction.cjs "$BUILD_DIR"
           node scripts/check-browser-brevet-exercices.cjs "$BUILD_DIR"
+          node scripts/check-browser-annales-direct.cjs "$BUILD_DIR"
           node scripts/check-browser-philo-banque.cjs "$BUILD_DIR"
           PHILO_SCREENSHOT_DIR="$BUILD_DIR/browser-audit" node scripts/check-browser-explication.cjs "$BUILD_DIR"
       - name: Archiver le contrôle visuel

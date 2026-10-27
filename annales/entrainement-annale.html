@@ -9,7 +9,7 @@
 <link rel="canonical" href="https://commentaire-plan.com/annales/entrainement-annale.html">
 <script type="speculationrules" data-seo-speculation="1">{"prefetch":[{"where":{"and":[{"href_matches":"/*"},{"not":{"selector_matches":"[download],.no-prefetch"}}]},"eagerness":"moderate"}]}</script>
 <script type="application/ld+json" data-seo-breadcrumbs="1">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://commentaire-plan.com/"},{"@type":"ListItem","position":2,"name":"Chargement…"}]}</script>
-<link rel="stylesheet" href="../brevet-exercices.css"></head>
+<link rel="stylesheet" href="../brevet-exercices.css"><link rel="stylesheet" href="../annales-parcours.css"></head>
 <body>
 <header class="top" data-seo-static-nav="1">
   <div class="wrap mast mast-v3">
@@ -137,9 +137,9 @@
 
 <section class="annale-workspace">
   <div class="annale-progress type" id="stepCount"></div>
-  <article class="annale-step-card">
+  <article class="annale-step-card" id="annaleQuestion">
     <div class="kicker" id="stepLabel"></div>
-    <h2 id="stepTitle"></h2>
+    <h2 id="stepTitle" tabindex="-1"></h2>
     <p class="instruction" id="stepInstruction"></p>
     <p class="micro annale-hint" id="stepHint" hidden></p>
     <textarea id="studentAnswer" rows="10" placeholder="Votre réponse…" aria-labelledby="stepInstruction"></textarea>

@@ -18,7 +18,7 @@ const getLinks=s=>[
  // Un onglet reste un accès à une section, même quand il remplace un lien du bandeau.
  ...[...s.matchAll(/<button\b[^>]*\brole=["']tab["'][^>]*>/gi)].map(m=>m[0].match(/\baria-controls=["']([^"']+)["']/)?.[1]).filter(Boolean).map(id=>'#'+id)
 ];
-const relevant=p=>/(?:copie-20|corrig|modele|modèle|annale|exercice|entrainement|entraînement|dissertation|commentaire|explication|brevet|hlp)/i.test(p);
+const relevant=p=>/(?:^#bac$|copie-20|corrig|modele|modèle|annale|exercice|entrainement|entraînement|dissertation|commentaire|explication|brevet|hlp)/i.test(p);
 const signature=s=>({
  textareas:(s.match(/<textarea\b/gi)||[]).length,
  choiceButtons:(s.match(/data-choice\b|data-subj\b|data-level\b/gi)||[]).length,
@@ -54,7 +54,7 @@ for(const file of files){
  }
  for(const key of ['scripts','links']){
   const elsewhere=(MOVED_PAGES[file]||[]).flatMap(f=>signatureOf(f)[key]);
-  const lost=[...new Set(before[key])].filter(x=>!after[key].includes(x)&&!((m=>m&&after[key].includes(m))(MOVED_LINKS[file+'::'+x]||MOVED_LINKS[x]))&&!elsewhere.includes(x));
+  const lost=[...new Set(before[key])].filter(x=>!after[key].includes(x)&&!((m=>m&&after[key].includes(m))(MOVED_LINKS[file+'::'+x]||MOVED_LINKS[x]))&&!elsewhere.includes(x)&&!elsewhere.includes(MOVED_LINKS[file+'::'+x]||MOVED_LINKS[x]));
   if(lost.length)findings.push({file,type:'REFERENCES_DISPARUES_A_VERIFIER',element:key,valeurs:lost});
  }
 }
