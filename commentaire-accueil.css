@@ -1,0 +1,13 @@
+/* Une liste de textes ; la méthode et les raccourcis sont secondaires. */
+.commentaire-entree .pagehead{display:block;margin-bottom:1rem}
+.commentaire-entree .pagehead h1{font-size:clamp(2rem,4vw,3.4rem)}
+.commentaire-textes{list-style:none;padding:0;display:grid;gap:.75rem;margin:1rem 0 2rem}
+.commentaire-texte{border:1px solid #c9bfb0;border-radius:10px;padding:1rem 1.2rem;display:flex;gap:1rem;align-items:center;justify-content:space-between}
+.commentaire-texte h3{font-size:1.15rem;margin:0}.commentaire-texte p{margin:.35rem 0 0}
+.commentaire-texte-actions{display:flex;align-items:center;gap:1rem;flex-shrink:0}
+.commentaire-entree details{border:1px solid #c9bfb0;border-radius:10px;padding:1rem;margin:1rem 0}
+.commentaire-entree summary{cursor:pointer;font-weight:700}
+.commentaire-entree .onglets-barre{margin-bottom:1.5rem}
+@media(max-width:720px){.commentaire-texte{display:block}.commentaire-texte-actions{margin-top:1rem;flex-wrap:wrap}}
+
+.commentaire-texte-actions a{min-height:44px;display:inline-flex;align-items:center}
