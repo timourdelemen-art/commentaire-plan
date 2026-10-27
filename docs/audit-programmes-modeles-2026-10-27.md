@@ -148,6 +148,13 @@ reproduits comme des mesures de la version actuelle. La brièveté est un choix
 
 ### P1 — une copie à reprendre avant de la présenter comme modèle achevé
 
+**Reprise du 27 octobre :** le développement et les annotations sur les formes de
+résolution ont été remplacés par des arguments qui répondent au sujet. Le passage
+distingue désormais l'hypothèse, la preuve, l'apprentissage et la compréhension,
+sans exposer aux élèves la typologie interne. L'introduction et les références
+n'ont pas été remplacées. La réserve ci-dessous décrit l'état trouvé lors de
+l'audit, et non le texte après cette reprise.
+
 `philosophie-dissertation-machine-peut-elle-penser.html` contient dans son texte
 destiné à l’élève une évaluation des « huit formes de résolution », puis des
 développements sur la « duplication », la « processualisation » et l’« inversion
@@ -265,6 +272,9 @@ de suivre les appuis de ces analyses.
    que la sobriété de Primo Levi « ne cherche pas à émouvoir ». Une écriture sobre
    peut émouvoir et avoir une visée émotionnelle. Décrire le choix de retenue et
    ses effets évite d’en déduire trop vite l’intention de l’auteur.
+   **Repris le 27 octobre :** le modèle décrit maintenant la force accusatrice des
+   faits et l'émotion que la retenue peut produire ; il ne prétend plus connaître
+   une intention de ne pas émouvoir.
 4. **Garder distincts modèles et consignes.** Les fiches internes parlent de
    « dissertation plus brève et plus libre ». La sortie élève doit insister sur
    la réponse argumentée et sa liberté, pas sur la reproduction d’une dissertation
