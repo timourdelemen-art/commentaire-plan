@@ -1,0 +1,2125 @@
+{
+  "audit": "Explications philosophiques existantes — protocole du 25 octobre 2026",
+  "date": "2026-10-27",
+  "auditeur": "Agent indépendant /root/audit_explications_protocole ; aucune rédaction des modèles, aucun changement du dépôt",
+  "depot": "/workspace/commentaire-plan",
+  "commit_audite": "0ec0e3b39f26d5265f330c91d8b9aa01517770a6",
+  "commit_de_travail_au_controle": "27ae3b6fab151ef899f201bc114a1e06295a16f8",
+  "comparaison_reference_publique": "/workspace/francais-2026-10-27/audit-explications-comparaison-main-public.json",
+  "protocole": {
+    "path": "/workspace/francais-2026-10-27/protocole-commentaire-philosophique.txt",
+    "sha256": "744d7b5293dc870b520b3326d5bc9efae329270999036b1a452f985497f800fd",
+    "lu_integralement": true,
+    "statut": "Version expérimentale 0.1 ; appliquée sur demande explicite du propriétaire à chaque explication"
+  },
+  "comptage": {
+    "population": "14 modèles de 13 sujets : 12 modèles de voie générale, 2 options du même sujet technologique",
+    "extraction": "Données : paragraphes[1], vérifiés égaux à la concaténation des phrases[3][0]. Pages manuelles : seuls spans c20-t / data-model-text ; annotations et interfaces exclues.",
+    "mots_lexicaux": "Unités séparées par espaces contenant au moins une lettre ou un chiffre ; apostrophes et traits d’union internes conservés. Même résultat que la regex Unicode enregistrée dans l’extraction.",
+    "compteur_site_espaces": "Toutes les unités séparées par espaces, y compris ponctuation isolée ; comparable au compteur du générateur, mais ne désigne pas uniquement des mots.",
+    "total_mots_lexicaux": 6219,
+    "total_compteur_site_espaces": 6398,
+    "total_phrases_annotees": 347,
+    "aucun_minimum_de_mots": true
+  },
+  "limites": {
+    "source_exacte": "Non disponible pour les 13 sujets. Les six pages philosophie-bac-2026-texte-* présentent des résumés du site et des liens officiels, aucune transcription originale indépendante. La page Murdoch ne correspond pas à l’un des 13 modèles et n’a pas été ajoutée à la population.",
+    "corpus_git": "origin/corpus contient quatre listes de sujets de dissertation, pas les extraits. Consultation Git en lecture seule, aucun changement de branche.",
+    "reseau": "La configuration observée est restricted/enforced et ne permet pas les domaines officiels. Aucun essai de contournement ni requête réseau effectuée par cet auditeur. Le refus antérieur et l’absence de PDF ont été signalés par l’opérateur.",
+    "norme": "Conformité structurelle aux régimes général/technologique appréciée à partir de l’annexe 3 du protocole et des questions présentes dans le dépôt ; textes réglementaires et sujet officiel non reconsultés.",
+    "qualification": "Une erreur interne de logique ou de plan est distincte d’un contresens textuel. Aucun contresens original ni fausse citation n’est déclaré prouvé sans original.",
+    "notation": "Aucune note officielle et aucun score indicatif /36 : les critères de fidélité sont indéterminés.",
+    "reecriture_platon": "Hors périmètre : un contrôle distinct est requis après toute réparation."
+  },
+  "controles_communs": [
+    {
+      "id": "C0",
+      "priorite": "P0 documentaire",
+      "exigences": [
+        "A2",
+        "1",
+        "1.1",
+        "1.2",
+        "1.3"
+      ],
+      "constat": "Aucun extrait original intégral accessible pour confrontation dans le périmètre local inspecté. Auteur, titre et lien existent, mais édition, traduction, limites, ponctuation, citations, quantificateurs et voix ne sont pas certifiés. Un lien vers un PDF n’est pas une source effectivement consultée."
+    },
+    {
+      "id": "C1",
+      "priorite": "P0 dossier de validation",
+      "exigences": [
+        "0",
+        "2",
+        "2.1",
+        "3",
+        "3.1",
+        "3.3",
+        "4",
+        "4.1"
+      ],
+      "constat": "Prédiction initiale, lectures concurrentes testées, carte de propositions, registre complet et fiche scellée non fournis dans les pièces auditées. Des problèmes/thèses/mouvements existent dans les exercices, mais ils ne constituent pas ce dossier. On ne peut déduire de cette absence documentaire que le rédacteur n’a jamais fait ces opérations, ni fabriquer leur historique après coup."
+    },
+    {
+      "id": "C2",
+      "priorite": "P0 traçabilité de validation",
+      "exigences": [
+        "9.1",
+        "9.2",
+        "10.2"
+      ],
+      "constat": "Chaque phrase de copie reçoit une fonction (347 phrases annotées au total), mais ni identifiant stable, ni ancrage propositionnel, ni opération/preuve/lien suivant systématiques. Deux présentations sont prévues par le balisage ; ce rapport n’a pas audité le navigateur. Le dossier ne contient pas les deux versions documentées d’une rédaction avant/après compression."
+    },
+    {
+      "id": "C3",
+      "priorite": "P0 statut",
+      "exigences": [
+        "A7",
+        "4.1",
+        "10.1",
+        "10.2"
+      ],
+      "constat": "Auditeur distinct de l’opérateur pour ce rapport, mais audit rétrospectif partiel : impossible d’effectuer le premier audit sans copie rédigée, ou le second audit complet sans texte exact, fiche et registre. Aucune copie n’est homologuée comme modèle validé. Le statut retenu est état de travail ; il n’équivaut pas à un jugement négatif uniforme sur leur qualité."
+    }
+  ],
+  "sources_copie_sha256": {
+    "philosophie-explication-aristote-2025-antilles-guyane.html": "c05f531633d9862412dd49f52391d71686942bafa8cf202dc1ab483227fe714a",
+    "philosophie-explication-bergson-2023-centres-etrangers.html": "362eb7954f71f4efeb3d4d0f72393c05244e167dcf61f96d3f9c12cef3bd81e2",
+    "philosophie-explication-mill-2025-metropole-secours.html": "655140096402b759369837f197c43cd6824354e16650cc8c153ed336c47cbeec",
+    "philosophie-explication-pascal-2025-asie.html": "368fbb09d080a5e610144a405320f2630f60a8ba85b6bdaa51a97e40b2d9e45b",
+    "philosophie-explication-platon-2025-polynesie.html": "1cde9869d7f7e644fe8533449df6bfc58d82b8df21773a0035d71137e76534ed",
+    "scripts/explication-textes-data.json": "2753c1ee5e0bbc7e5e1ee95a04c788b085fe8c372642a8eb3bdd14ebb896ed55"
+  },
+  "modeles": [
+    {
+      "id": "nietzsche-2026-metropole-option-libre",
+      "sujet": "nietzsche-2026-metropole",
+      "auteur": "Nietzsche",
+      "regime": "generale",
+      "fichier_source_copie": "scripts/explication-textes-data.json",
+      "source": {
+        "url_presente": "https://www.education.gouv.fr/sites/default/files/document/baccalaureat-general-2026-philosophie-517487.pdf",
+        "texte_original_integral_accessible": false,
+        "statut": "indéterminé : lien documentaire présent, extrait original non disponible pour confrontation",
+        "controle_effectue": "Sources du dépôt, pages d’annales et référence locale origin/corpus consultées ; ni PDF philosophique local ni transcription exacte de cet extrait retrouvés. Aucun contournement réseau."
+      },
+      "mots": {
+        "lexicaux": 463,
+        "compteur_site_espaces": 476
+      },
+      "phrases_annotees": 26,
+      "paragraphes_ou_blocs": 6,
+      "priorite_pedagogique": "P2",
+      "verdict_porte_4_2": "indéterminé (preuve documentaire manquante)",
+      "verdict": "Architecture interne plutôt cohérente ; justifications et portée de certaines formulations à resserrer.",
+      "axes": {
+        "probleme": "La question S02 vise bien le paradoxe de connaissances compatibles avec la superstition. Elle appelle une raison, et ne se réduit pas au thème de la science.",
+        "these_modalite": "S03 privilégie l’apprentissage des raisons ; S05 garde « au moins », S07 le conditionnel, S23 « peut suffire ». Cette prudence est observable dans la copie, sans garantir les modalités originales.",
+        "couverture": "Les unités annoncées sont effectivement parcourues : valeur des méthodes, cas des personnes cultivées, hypothèse devenue conviction, portée politique et éducation. La couverture des propositions originales reste indéterminée.",
+        "operations_inferences": "S07 reconstruit une hypothèse de disparition des méthodes et sa conséquence ; S14-18 distinguent explication possible et conviction. En revanche, la généralisation éducative n’explicite pas complètement ses conditions.",
+        "exemples_distinctions": "L’opposition savoir/méthode et la distinction instinct acquis/apprentissage sont utiles. Aucun exemple extérieur n’est requis ici : l’hypothèse de disparition est déjà un test. Son statut dans le passage doit être confronté à la source.",
+        "transitions": "S09 et S19 relient les unités par leurs effets, plutôt que par une simple liste. S22 « C’est pourquoi » demande de préciser le passage du diagnostic à l’exigence faite à chacun.",
+        "conclusion": "S25-26 répondent et formulent un gain clair. La chaîne disparition des méthodes → adhésion hâtive → formation est seulement implicite dans cette conclusion.",
+        "fonctions_trace_source": "26 fonctions sont présentes. Les expressions entre guillemets S17 et S20 ne sont pas contrôlables mot à mot ici ; « appuyer sur la formulation » ne constitue pas une preuve de vérification.",
+        "regime": "Voie générale : explication suivie de l’ensemble visé, sans questions A/B/C. Le nombre de mouvements n’est pas en soi un défaut ; leurs frontières doivent être justifiées sur l’extrait."
+      },
+      "defauts_localises": [
+        {
+          "priorite": "P2",
+          "qualification": "sous-explication établie",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P02",
+              "phrase": "S06",
+              "citation_de_la_copie": "Une méthode règle la recherche et permet de distinguer une explication séduisante d’une proposition justifiée.",
+              "fonction_annoncee": "Expliquer ce que la méthode permet de distinguer"
+            },
+            {
+              "paragraphe": "P02",
+              "phrase": "S07",
+              "citation_de_la_copie": "La supposition de sa disparition révèle sa nécessité : les vérités déjà acquises pourraient être répétées sans qu’on sache distinguer de nouvelles affirmations justifiées et de nouvelles superstitions.",
+              "fonction_annoncee": "Reconstruire l’argument de la disparition des méthodes"
+            }
+          ],
+          "diagnostic": "La définition de méthode reste générique. Pour que le test de sa disparition démontre ce que S08 en tire, il faut préciser quelle capacité manque au simple détenteur de résultats : produire et contrôler une nouvelle affirmation. La copie le suggère mais n’explique pas le critère qui sépare les deux jugements.",
+          "exigences": [
+            "8 D2-D4",
+            "8.1"
+          ]
+        },
+        {
+          "priorite": "P2",
+          "qualification": "modalité à contrôler sur source",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P05",
+              "phrase": "S22",
+              "citation_de_la_copie": "C’est pourquoi il demande que chacun étudie au moins une science de manière approfondie.",
+              "fonction_annoncee": "Rattacher la recommandation éducative au défaut de jugement décrit"
+            },
+            {
+              "paragraphe": "P05",
+              "phrase": "S23",
+              "citation_de_la_copie": "Une seule peut suffire à faire éprouver la difficulté de justifier une affirmation, là où une accumulation superficielle de résultats l’aurait masquée.",
+              "fonction_annoncee": "Justifier l’étude approfondie d’une science plutôt que l’accumulation de résultats"
+            },
+            {
+              "paragraphe": "P05",
+              "phrase": "S24",
+              "citation_de_la_copie": "Cette expérience doit former une disposition durable à mesurer ses jugements à leurs raisons.",
+              "fonction_annoncee": "Expliquer ce que cet apprentissage peut former au-delà d’une seule science"
+            }
+          ],
+          "diagnostic": "Le devoir d’étudier au moins une science et la possibilité qu’une seule suffise ne sont pas une garantie de transfert à tous les jugements. La copie doit conserver la différence entre expérience formatrice, exigence éducative et efficacité suffisante ; la force exacte de cette conséquence n’est pas vérifiable sans le passage.",
+          "exigences": [
+            "1.1",
+            "5.1",
+            "3.3"
+          ]
+        },
+        {
+          "priorite": "P3",
+          "qualification": "densité perfectible",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P04",
+              "phrase": "S16",
+              "citation_de_la_copie": "L’enthousiasme se change alors en fanatisme : l’attachement personnel dispense de soumettre l’opinion à une épreuve.",
+              "fonction_annoncee": "Expliquer comment l’attachement passionné remplace l’examen"
+            },
+            {
+              "paragraphe": "P04",
+              "phrase": "S17",
+              "citation_de_la_copie": "Prendre une hypothèse « à cœur comme une conviction », c’est engager son attachement personnel là où il faudrait encore examiner une explication possible.",
+              "fonction_annoncee": "Appuyer cette explication sur la formulation de Nietzsche"
+            },
+            {
+              "paragraphe": "P04",
+              "phrase": "S18",
+              "citation_de_la_copie": "L’assurance subjective augmente ainsi sans augmentation correspondante des preuves.",
+              "fonction_annoncee": "Dégager l’écart entre assurance personnelle et preuves"
+            }
+          ],
+          "diagnostic": "Trois phrases voisines expliquent le même remplacement des preuves par l’attachement. Une fusion peut libérer la place nécessaire à la précision du critère de contrôle, sans allonger la copie.",
+          "exigences": [
+            "9.2"
+          ]
+        }
+      ],
+      "exigences_manquantes_ou_indeterminees": [
+        "Commun C0 : source exacte et propositions numérotées non disponibles (Porte 1).",
+        "Commun C1 : traces prospectives et dossier scellé non fournis (Portes 0, 2, 3, 4) ; historique non reconstituable à partir de la copie seule.",
+        "Commun C2 : annotation phrase par phrase présente, mais sans les six champs systématiques de 9.1.",
+        "Commun C3 : audit 10.1 seulement partiel faute de texte, fiche et registre ; validation A7/10.2 non délivrable.",
+        "1.1",
+        "3.3",
+        "5.1",
+        "8 D2-D4",
+        "8.1",
+        "9.2"
+      ],
+      "intervention_editoriale_proposee": "Conserver le problème et les distinctions ; remplacer une répétition par le critère précis de contrôle d’une hypothèse, puis vérifier la portée de l’exigence éducative sur le texte exact.",
+      "statut_livraison": "état de travail à réexaminer sur source exacte ; aucune note ni homologation A20 attribuée"
+    },
+    {
+      "id": "freud-2026-amerique-du-nord-option-libre",
+      "sujet": "freud-2026-amerique-du-nord",
+      "auteur": "Freud",
+      "regime": "generale",
+      "fichier_source_copie": "scripts/explication-textes-data.json",
+      "source": {
+        "url_presente": "https://www.education.gouv.fr/sites/default/files/document/baccalaureat-general-2026-philosophie-517046.pdf",
+        "texte_original_integral_accessible": false,
+        "statut": "indéterminé : lien documentaire présent, extrait original non disponible pour confrontation",
+        "controle_effectue": "Sources du dépôt, pages d’annales et référence locale origin/corpus consultées ; ni PDF philosophique local ni transcription exacte de cet extrait retrouvés. Aucun contournement réseau."
+      },
+      "mots": {
+        "lexicaux": 483,
+        "compteur_site_espaces": 495
+      },
+      "phrases_annotees": 28,
+      "paragraphes_ou_blocs": 6,
+      "priorite_pedagogique": "P2",
+      "verdict_porte_4_2": "indéterminé (preuve documentaire manquante)",
+      "verdict": "Explication organisée ; prudence sur illusion/erreur utile, mais causalité et statut de certaines définitions insuffisamment établis.",
+      "axes": {
+        "probleme": "S02 formule une difficulté précise : force d’adhésion sans origine empirique ou démonstrative. La question de la vérité est correctement distinguée de celle de l’origine.",
+        "these_modalite": "S03 attribue la puissance aux désirs ; S08 et S15 refusent la déduction désir → fausseté. Il faut conserver cette limite sans faire de toute la copie une discussion extérieure sur Dieu.",
+        "couverture": "Origine affective, enfance, protection adulte, promesses et explications du monde sont parcourues. On ne peut garantir que tous les souhaits et leurs articulations du passage sont couverts.",
+        "operations_inferences": "S11-14 rendent explicite une continuité enfant/adulte ; elle est une reconstruction psychologique à attribuer à Freud, non une déduction suffisante de toute croyance religieuse.",
+        "exemples_distinctions": "La distinction illusion/erreur est utile. Providence, justice et vie future reçoivent une fonction ; leur complémentarité est plus claire que le soutien « mutuel » affirmé S20.",
+        "transitions": "S10 annonce une question nouvelle, et S22 passe explicitement de consoler à expliquer. S16 est davantage une annonce de liste qu’une nécessité reconstruite.",
+        "conclusion": "S27 répond sur la puissance de la religion ; S28 dégage une différence de valeurs. La seconde phrase privilégie la prudence épistémique, tandis que la chaîne des désirs est peu reprise.",
+        "fonctions_trace_source": "28 fonctions présentes ; citations de S06 non collationnées. La définition de dogme S05 ne possède aucun ancrage explicite dans la copie.",
+        "regime": "Voie générale : cohérence de l’explication suivie ; la doctrine complète de Freud n’est pas nécessaire et ne doit pas combler l’absence d’extrait."
+      },
+      "defauts_localises": [
+        {
+          "priorite": "P2",
+          "qualification": "définition locale non établie",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P02",
+              "phrase": "S05",
+              "citation_de_la_copie": "Les idées religieuses se présentent comme des dogmes, c’est-à-dire des affirmations soustraites à la contestation.",
+              "fonction_annoncee": "Préciser le statut de certitude revendiqué par les dogmes"
+            }
+          ],
+          "diagnostic": "« Affirmations soustraites à la contestation » est une définition supplémentaire. Le mot dogme peut désigner un enseignement posé ou tenu pour assuré sans que la formule exacte « soustraites à la contestation » soit démontrée par ce passage. Fixer son sens local sur la source, plutôt que certifier la définition scolaire.",
+          "exigences": [
+            "1.3",
+            "A2",
+            "6"
+          ]
+        },
+        {
+          "priorite": "P2",
+          "qualification": "statut de l’inférence insuffisamment marqué",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P03",
+              "phrase": "S11",
+              "citation_de_la_copie": "L’enfant dépend d’un père qui peut le protéger parce qu’il l’aime ; l’amour donne ainsi à la puissance protectrice une orientation favorable.",
+              "fonction_annoncee": "Expliquer pourquoi l’amour du père compte dans sa fonction protectrice"
+            },
+            {
+              "paragraphe": "P03",
+              "phrase": "S13",
+              "citation_de_la_copie": "L’adulte retrouve donc le besoin d’être protégé, mais le père humain ne peut plus garantir cette protection.",
+              "fonction_annoncee": "Faire apparaître l’insuffisance du protecteur humain"
+            },
+            {
+              "paragraphe": "P03",
+              "phrase": "S14",
+              "citation_de_la_copie": "La figure divine prolonge cette relation en lui donnant un protecteur plus puissant.",
+              "fonction_annoncee": "Expliquer le passage à une puissance protectrice divine"
+            },
+            {
+              "paragraphe": "P03",
+              "phrase": "S15",
+              "citation_de_la_copie": "Cette continuité explique, chez Freud, la formation de la croyance ; elle n’établit pas, à elle seule, si son objet existe.",
+              "fonction_annoncee": "Distinguer l’explication psychologique et la question de l’existence de Dieu"
+            }
+          ],
+          "diagnostic": "L’amour explique l’orientation favorable de la protection, mais non à lui seul la puissance du protecteur. S13-15 passent ensuite de la vulnérabilité durable à la représentation divine : expliciter le souhait de prolonger la protection et marquer qu’il s’agit de l’explication de Freud évite de présenter cette continuité comme une déduction universelle.",
+          "exigences": [
+            "3.2",
+            "3.3",
+            "8 D4"
+          ]
+        },
+        {
+          "priorite": "P2",
+          "qualification": "relation logique imprécise",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P04",
+              "phrase": "S20",
+              "citation_de_la_copie": "Ces promesses se soutiennent mutuellement : ce que l’expérience présente refuse peut être attendu d’un ordre qui la dépasse.",
+              "fonction_annoncee": "Montrer comment les promesses se soutiennent mutuellement"
+            }
+          ],
+          "diagnostic": "La complémentarité des promesses est expliquée, mais pas leur soutien mutuel : une vie future peut rendre réalisable une justice différée, sans que chaque promesse prouve réciproquement les autres. Préciser le rapport précis ou réduire « se soutiennent mutuellement ».",
+          "exigences": [
+            "3.2",
+            "8 D4"
+          ]
+        },
+        {
+          "priorite": "P3",
+          "qualification": "répétition observable",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P02",
+              "phrase": "S08",
+              "citation_de_la_copie": "Il faut cependant distinguer cette explication de l’adhésion d’une preuve de fausseté : qu’une croyance soit désirée ne suffit pas, à soi seul, à établir qu’elle est fausse.",
+              "fonction_annoncee": "Examiner la portée de l’argument sans confondre désir et preuve de fausseté"
+            },
+            {
+              "paragraphe": "P03",
+              "phrase": "S15",
+              "citation_de_la_copie": "Cette continuité explique, chez Freud, la formation de la croyance ; elle n’établit pas, à elle seule, si son objet existe.",
+              "fonction_annoncee": "Distinguer l’explication psychologique et la question de l’existence de Dieu"
+            },
+            {
+              "paragraphe": "P05",
+              "phrase": "S25",
+              "citation_de_la_copie": "On peut alors préciser la limite logique de ces réponses : leur cohérence interne ne suffit pas à établir indépendamment la vérité de leurs principes.",
+              "fonction_annoncee": "Examiner la différence entre cohérence du système et preuve de ses principes"
+            },
+            {
+              "paragraphe": "P06",
+              "phrase": "S28",
+              "citation_de_la_copie": "Le texte invite à distinguer la valeur consolatrice d’une croyance des raisons qui pourraient en établir la vérité.",
+              "fonction_annoncee": "Dégager la distinction entre consolation et justification d’une croyance"
+            }
+          ],
+          "diagnostic": "Quatre retours sur la différence consolation/origine/vérité protègent un point important, mais occupent une place qui pourrait servir à expliquer plus précisément une promesse. Ne conserver que les distinctions nécessaires à leur endroit.",
+          "exigences": [
+            "9.2"
+          ]
+        }
+      ],
+      "exigences_manquantes_ou_indeterminees": [
+        "Commun C0 : source exacte et propositions numérotées non disponibles (Porte 1).",
+        "Commun C1 : traces prospectives et dossier scellé non fournis (Portes 0, 2, 3, 4) ; historique non reconstituable à partir de la copie seule.",
+        "Commun C2 : annotation phrase par phrase présente, mais sans les six champs systématiques de 9.1.",
+        "Commun C3 : audit 10.1 seulement partiel faute de texte, fiche et registre ; validation A7/10.2 non délivrable.",
+        "1.3",
+        "3.2",
+        "3.3",
+        "6",
+        "8 D4",
+        "9.2",
+        "A2"
+      ],
+      "intervention_editoriale_proposee": "Fixer le sens local de dogme ; attribuer explicitement la reconstruction psychologique à Freud ; remplacer le soutien mutuel indéterminé par la relation exacte entre promesse de justice et au-delà.",
+      "statut_livraison": "état de travail à réexaminer sur source exacte ; aucune note ni homologation A20 attribuée"
+    },
+    {
+      "id": "tocqueville-2026-asie-option-libre",
+      "sujet": "tocqueville-2026-asie",
+      "auteur": "Tocqueville",
+      "regime": "generale",
+      "fichier_source_copie": "scripts/explication-textes-data.json",
+      "source": {
+        "url_presente": "https://www.education.gouv.fr/sites/default/files/document/baccalaureat-general-2026-philosophie-517430.pdf",
+        "texte_original_integral_accessible": false,
+        "statut": "indéterminé : lien documentaire présent, extrait original non disponible pour confrontation",
+        "controle_effectue": "Sources du dépôt, pages d’annales et référence locale origin/corpus consultées ; ni PDF philosophique local ni transcription exacte de cet extrait retrouvés. Aucun contournement réseau."
+      },
+      "mots": {
+        "lexicaux": 493,
+        "compteur_site_espaces": 510
+      },
+      "phrases_annotees": 27,
+      "paragraphes_ou_blocs": 6,
+      "priorite_pedagogique": "P2",
+      "verdict_porte_4_2": "indéterminé (preuve documentaire manquante)",
+      "verdict": "Paradoxe de l’intérêt bien construit ; mécanisme final et condition du danger à préciser.",
+      "axes": {
+        "probleme": "S02 lie intérêt privé et conditions de prospérité : le problème est directeur et spécifique.",
+        "these_modalite": "S03 et S05 rendent le danger conditionnel à un décalage de développement. S07 exclut explicitement une loi « tout enrichissement détruit la démocratie ». La conclusion doit conserver cette finesse.",
+        "couverture": "Les quatre ensembles internes sont traités : décalage des goûts et des lumières, abandon de l’exercice, erreur sur l’intérêt, défaut de prise en charge collective. L’original n’est pas disponible pour apprécier la couverture exacte.",
+        "operations_inferences": "S13 oppose coût immédiat et bénéfice collectif ; S19 explique la dépendance des affaires privées envers la capacité politique. S22-24 décrivent la vacance sans identifier assez précisément son objet.",
+        "exemples_distinctions": "S14 attribue « travaux inutiles » et « jeux d’oisifs » aux citoyens critiqués : c’est une bonne précaution de voix. S24 évite de transformer immédiatement le vide en tyrannie.",
+        "transitions": "S10 et S21 montrent pourquoi une conduite privée a une portée publique. S16 « rectifie » annonce une opération, mais son ancrage exact demeure absent.",
+        "conclusion": "S26-27 répondent et dégagent un gain. Le raccourci « recherche exclusive » fait perdre le décalage temporel essentiel posé S05.",
+        "fonctions_trace_source": "27 fonctions présentes ; pas de correspondance proposition originale → phrase de copie. Les citations et l’image de la place vide restent non vérifiées.",
+        "regime": "Voie générale : ensemble argumenté, ni dissertation autonome ni barème par questions. L’usage éventuel de l’œuvre entière doit rester subordonné à la détermination du passage."
+      },
+      "defauts_localises": [
+        {
+          "priorite": "P2",
+          "qualification": "sous-explication établie",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P05",
+              "phrase": "S22",
+              "citation_de_la_copie": "Les citoyens absorbés par le travail refusent la charge publique, tandis que la classe qui aurait pu l’assumer grâce à ses loisirs n’existe plus.",
+              "fonction_annoncee": "Expliquer pourquoi aucun des deux groupes n’assume la charge publique"
+            },
+            {
+              "paragraphe": "P05",
+              "phrase": "S23",
+              "citation_de_la_copie": "Aucun groupe ne vient donc compenser ce retrait, qui laisse la fonction de gouvernement sans prise en charge suffisante.",
+              "fonction_annoncee": "Reconstruire la conséquence de cette absence de compensation"
+            },
+            {
+              "paragraphe": "P05",
+              "phrase": "S24",
+              "citation_de_la_copie": "La comparaison avec une place vide décrit cette défaillance ; elle n’affirme ni la disparition matérielle de tout pouvoir ni l’installation déjà accomplie d’une tyrannie.",
+              "fonction_annoncee": "Délimiter le sens du vide politique sans annoncer une tyrannie déjà installée"
+            }
+          ],
+          "diagnostic": "La « classe » n’est pas identifiée dans la copie, et « fonction de gouvernement » reste ambiguë : gouverner, participer et contrôler ne sont pas exactement le même acte. S24 écarte deux contresens sans dire assez précisément ce qui reste vide. Il faut fixer le référent et l’activité visée à partir de l’extrait.",
+          "exigences": [
+            "1.3",
+            "3.1",
+            "8 D2-D4"
+          ]
+        },
+        {
+          "priorite": "P2",
+          "qualification": "perte de condition dans la synthèse",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P02",
+              "phrase": "S05",
+              "citation_de_la_copie": "Le péril apparaît lorsque le goût des biens progresse plus vite que les lumières et les habitudes de la liberté.",
+              "fonction_annoncee": "Préciser le décalage qui rend l’enrichissement dangereux"
+            },
+            {
+              "paragraphe": "P06",
+              "phrase": "S26",
+              "citation_de_la_copie": "Tocqueville montre ainsi qu’une recherche exclusive de la fortune peut sacrifier la liberté dont elle dépend.",
+              "fonction_annoncee": "Répondre au problème de la fortune qui sacrifie sa condition politique"
+            }
+          ],
+          "diagnostic": "S05 fait du déséquilibre entre goût des biens et formation à la liberté la condition du danger ; S26 ramène le résultat à une recherche « exclusive » de la fortune. Ce n’est pas une contradiction formelle, mais la conclusion ne restitue plus la condition singulière sur laquelle la copie a insisté.",
+          "exigences": [
+            "1.1",
+            "5.1",
+            "9 C1-C3"
+          ]
+        },
+        {
+          "priorite": "P3",
+          "qualification": "ancrage insuffisant",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P04",
+              "phrase": "S18",
+              "citation_de_la_copie": "Rester maître de soi signifie ici conserver une capacité politique de participer aux décisions communes, et non seulement maîtriser ses passions.",
+              "fonction_annoncee": "Préciser le sens politique de la maîtrise de soi"
+            },
+            {
+              "paragraphe": "P05",
+              "phrase": "S24",
+              "citation_de_la_copie": "La comparaison avec une place vide décrit cette défaillance ; elle n’affirme ni la disparition matérielle de tout pouvoir ni l’installation déjà accomplie d’une tyrannie.",
+              "fonction_annoncee": "Délimiter le sens du vide politique sans annoncer une tyrannie déjà installée"
+            }
+          ],
+          "diagnostic": "Le sens politique de « maître de soi » et celui de la « place vide » sont expliqués, mais aucun extrait bref ne fixe la proposition précise interprétée. Cette absence empêche de vérifier la restriction proposée.",
+          "exigences": [
+            "8 D1",
+            "9.1"
+          ]
+        }
+      ],
+      "exigences_manquantes_ou_indeterminees": [
+        "Commun C0 : source exacte et propositions numérotées non disponibles (Porte 1).",
+        "Commun C1 : traces prospectives et dossier scellé non fournis (Portes 0, 2, 3, 4) ; historique non reconstituable à partir de la copie seule.",
+        "Commun C2 : annotation phrase par phrase présente, mais sans les six champs systématiques de 9.1.",
+        "Commun C3 : audit 10.1 seulement partiel faute de texte, fiche et registre ; validation A7/10.2 non délivrable.",
+        "1.1",
+        "1.3",
+        "3.1",
+        "5.1",
+        "8 D1",
+        "8 D2-D4",
+        "9 C1-C3",
+        "9.1"
+      ],
+      "intervention_editoriale_proposee": "Préciser la fonction publique laissée sans prise en charge, puis conserver dans la conclusion le décalage entre goût des biens et formation à la liberté. Éviter une histoire doctrinale ajoutée pour identifier la classe sans source.",
+      "statut_livraison": "état de travail à réexaminer sur source exacte ; aucune note ni homologation A20 attribuée"
+    },
+    {
+      "id": "weil-2026-centres-etrangers-option-libre",
+      "sujet": "weil-2026-centres-etrangers",
+      "auteur": "Simone Weil",
+      "regime": "generale",
+      "fichier_source_copie": "scripts/explication-textes-data.json",
+      "source": {
+        "url_presente": "https://www.education.gouv.fr/sites/default/files/document/baccalaur-at-g-n-ral-2026-philosophie-517142.pdf",
+        "texte_original_integral_accessible": false,
+        "statut": "indéterminé : lien documentaire présent, extrait original non disponible pour confrontation",
+        "controle_effectue": "Sources du dépôt, pages d’annales et référence locale origin/corpus consultées ; ni PDF philosophique local ni transcription exacte de cet extrait retrouvés. Aucun contournement réseau."
+      },
+      "mots": {
+        "lexicaux": 557,
+        "compteur_site_espaces": 572
+      },
+      "phrases_annotees": 30,
+      "paragraphes_ou_blocs": 7,
+      "priorite_pedagogique": "P2",
+      "verdict_porte_4_2": "indéterminé (preuve documentaire manquante)",
+      "verdict": "Raisonnement plus développé et plusieurs modalités bien distinguées ; problème initial et gain sur le désir à ajuster.",
+      "axes": {
+        "probleme": "S02 transforme la servitude propre au travail d’exécution en impossibilité de délivrer de « toute souffrance ». Ce domaine est plus large que celui présenté S01 et expliqué par le développement.",
+        "these_modalite": "S03 distingue justice des conditions et nécessité répétitive. S08 circonscrit l’objet au travail d’exécution ; cette précaution ne démontre pas encore chaque quantification de la thèse.",
+        "couverture": "Les unités nécessité, conservation, désir, images, lassitude et meilleurs travailleurs sont prises en charge. Le résumé d’annale ajoute les mots écœurement et dégoût, absents de la copie : il s’agit d’une différence éditoriale à vérifier sur source, pas d’une omission originale déjà certifiée.",
+        "operations_inferences": "S10-13 expliquent pourquoi conservation et production ne s’excluent pas. S15-18 reconstruisent la tension désir/retour au même, mais la définition du désir ne remplace pas l’examen du présupposé.",
+        "exemples_distinctions": "L’exemple du besoin de manger S12 teste bien la récurrence ; les deux comparaisons sont distinguées. S27 marque honnêtement comme possible une interprétation des « meilleurs », au lieu de la présenter comme une citation.",
+        "transitions": "S14 relie nécessité et désir par une difficulté précise. S24 rattache les images à l’effet intérieur ; c’est une transition explicative. S20 annonce les images sans distinguer encore leur valeur de preuve.",
+        "conclusion": "S29-30 répondent à la difficulté du travail nécessaire et récapitulent la distinction décisive. Elles sont plus précises que la question initiale sur toute souffrance.",
+        "fonctions_trace_source": "30 fonctions présentes. Les citations « meilleurs », « surtout », « et même autrement » et les images ne sont pas contrôlables à partir d’un original accessible.",
+        "regime": "Voie générale : traitement suivi de la difficulté ; ni revendication de doctrine complète ni obligation de trois sous-parties. La longueur ne lui confère aucun avantage automatique."
+      },
+      "defauts_localises": [
+        {
+          "priorite": "P2",
+          "qualification": "glissement de problème établi",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P01",
+              "phrase": "S01",
+              "citation_de_la_copie": "Dans cet extrait de La Condition ouvrière, Simone Weil examine la servitude propre au travail d’exécution.",
+              "fonction_annoncee": "Situer la servitude propre au travail d’exécution"
+            },
+            {
+              "paragraphe": "P01",
+              "phrase": "S02",
+              "citation_de_la_copie": "Pourquoi une organisation parfaitement équitable ne suffirait-elle pas à délivrer ce travail de toute souffrance ?",
+              "fonction_annoncee": "Formuler le problème d’une souffrance qui résiste à l’équité"
+            },
+            {
+              "paragraphe": "P07",
+              "phrase": "S29",
+              "citation_de_la_copie": "Weil montre donc pourquoi la justice sociale ne règle pas à elle seule la difficulté intérieure du travail nécessaire.",
+              "fonction_annoncee": "Répondre au problème de la servitude qui subsiste malgré la justice sociale"
+            }
+          ],
+          "diagnostic": "La question porte sur « toute souffrance », alors que S01 annonce une servitude déterminée et S29 répond à la difficulté intérieure de ce travail. Une organisation équitable ne supprime évidemment pas toute souffrance pour d’autres raisons : cette généralité rend le problème plus facile et moins précis que l’argument ensuite reconstruit.",
+          "exigences": [
+            "5",
+            "7 I2-I3",
+            "A3"
+          ]
+        },
+        {
+          "priorite": "P2",
+          "qualification": "présupposé à préciser",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P04",
+              "phrase": "S15",
+              "citation_de_la_copie": "Weil pose que le désir est la source d’énergie de l’effort humain.",
+              "fonction_annoncee": "Identifier la conception du désir qui soutient l’argument"
+            },
+            {
+              "paragraphe": "P04",
+              "phrase": "S16",
+              "citation_de_la_copie": "Elle le définit comme une orientation vers ce qu’on ne possède pas encore, donc comme une distance à parcourir.",
+              "fonction_annoncee": "Définir le désir par la distance à ce qu’on ne possède pas"
+            },
+            {
+              "paragraphe": "P04",
+              "phrase": "S17",
+              "citation_de_la_copie": "Dans ce raisonnement, on ne peut désirer ce qu’on a puisque le désir est défini comme un mouvement vers un point où l’on n’est pas.",
+              "fonction_annoncee": "Justifier la négation à partir de cette définition du désir"
+            }
+          ],
+          "diagnostic": "La copie présente d’abord une thèse sur l’énergie de l’effort, puis une définition du désir qui rend la négation presque analytique. Elle doit distinguer prémisse du passage et justification de cette prémisse ; définir le désir comme manque ne démontre pas à soi seul toute la psychologie de l’effort.",
+          "exigences": [
+            "3.2",
+            "3.3",
+            "8 D4"
+          ]
+        },
+        {
+          "priorite": "P3",
+          "qualification": "conjecture dispensable",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P06",
+              "phrase": "S26",
+              "citation_de_la_copie": "La remarque sur les meilleurs travailleurs écarte l’idée d’une faiblesse réservée aux moins courageux.",
+              "fonction_annoncee": "Expliquer pourquoi les meilleurs travailleurs excluent l’explication par la paresse"
+            },
+            {
+              "paragraphe": "P06",
+              "phrase": "S27",
+              "citation_de_la_copie": "Une interprétation possible est qu’une forte exigence d’accomplissement rende cette répétition plus douloureuse ; l’extrait ne précise pas davantage qui sont ces « meilleurs ».",
+              "fonction_annoncee": "Proposer une hypothèse en signalant qu’elle n’est pas donnée dans l’extrait"
+            }
+          ],
+          "diagnostic": "L’hypothèse d’une exigence d’accomplissement plus forte est signalée comme telle, ce qui est loyal. Elle n’est cependant pas requise pour le rôle logique déjà expliqué S26 : le cas des meilleurs écarte l’explication par une faiblesse réservée aux moins courageux. La supprimer est possible si elle n’a pas d’ancrage.",
+          "exigences": [
+            "A2",
+            "3.3",
+            "9.2"
+          ]
+        }
+      ],
+      "exigences_manquantes_ou_indeterminees": [
+        "Commun C0 : source exacte et propositions numérotées non disponibles (Porte 1).",
+        "Commun C1 : traces prospectives et dossier scellé non fournis (Portes 0, 2, 3, 4) ; historique non reconstituable à partir de la copie seule.",
+        "Commun C2 : annotation phrase par phrase présente, mais sans les six champs systématiques de 9.1.",
+        "Commun C3 : audit 10.1 seulement partiel faute de texte, fiche et registre ; validation A7/10.2 non délivrable.",
+        "3.2",
+        "3.3",
+        "5",
+        "7 I2-I3",
+        "8 D4",
+        "9.2",
+        "A2",
+        "A3"
+      ],
+      "intervention_editoriale_proposee": "Réduire la question au type de servitude effectivement expliqué ; distinguer la prémisse sur le désir de ses conséquences ; garder l’analyse des images et la restriction au travail d’exécution.",
+      "statut_livraison": "état de travail à réexaminer sur source exacte ; aucune note ni homologation A20 attribuée"
+    },
+    {
+      "id": "malebranche-2026-antilles-guyane-option-1",
+      "sujet": "malebranche-2026-antilles-guyane",
+      "auteur": "Malebranche",
+      "regime": "technologique",
+      "fichier_source_copie": "scripts/explication-textes-data.json",
+      "source": {
+        "url_presente": "https://www.education.gouv.fr/sites/default/files/document/baccalaureat-technologique-2026-philosophie-517532.pdf",
+        "texte_original_integral_accessible": false,
+        "statut": "indéterminé : lien documentaire présent, extrait original non disponible pour confrontation",
+        "controle_effectue": "Sources du dépôt, pages d’annales et référence locale origin/corpus consultées ; ni PDF philosophique local ni transcription exacte de cet extrait retrouvés. Aucun contournement réseau."
+      },
+      "mots": {
+        "lexicaux": 637,
+        "compteur_site_espaces": 652
+      },
+      "phrases_annotees": 32,
+      "paragraphes_ou_blocs": 8,
+      "priorite_pedagogique": "P1",
+      "verdict_porte_4_2": "indéterminé (preuve documentaire manquante)",
+      "verdict": "Les huit réponses sont présentes et ordonnées ; distinction ignorance/erreur et attribution de la modération à sécuriser.",
+      "axes": {
+        "probleme": "B1 = P04/S14-15 : le problème de responsabilité malgré la limitation naturelle est explicite. L’absence d’introduction générale avant A1 est normale pour cette option.",
+        "these_modalite": "B3 = P06/S20-22 donne la thèse. S05 distingue possibilité de l’erreur et jugement effectif ; la portée du blâme de toute erreur apparaît toutefois moins nettement que dans l’option 2.",
+        "couverture": "Ordre des paragraphes dans les données : A1, A2, A3, B1, B2, B3, C1, C2. Aucun item interne n’est omis. L’exactitude des huit questions dites officielles n’a pas été recontrôlée sur le sujet.",
+        "operations_inferences": "A1 reconstruit le glissement de non-perception à négation ; A2 propose limitation/suspension ; A3 oppose possibilité et refus d’examiner. S09 confond toutefois la précipitation injustifiée et la fausseté obtenue.",
+        "exemples_distinctions": "C1 distingue deux sens d’« erreur humaine » ; C2 teste la responsabilité par l’accusation, l’urgence et l’indice trompeur. Ces cas servent une distinction précise et sont permis dans le commentaire conditionnel de l’option 1.",
+        "transitions": "On ne doit pas exiger des transitions linéaires entre A, B et C : les questions déterminent leur ordre. À l’intérieur des réponses, les liens sont globalement explicites.",
+        "conclusion": "C2/S32 stabilise une responsabilité proportionnée aux possibilités. Une conclusion générale supplémentaire n’est pas exigée par ce régime ; il faut seulement distinguer cette réponse discutée de la thèse reconstruite en B.",
+        "fonctions_trace_source": "32 fonctions présentes ; labels A1-C2 conservés dans les données, et option déclarée par le générateur. Les en-têtes paragraphSections identiques masquent néanmoins les labels de question dans les titres de la copie générée ; l’ordre s’y infère des paragraphes.",
+        "regime": "Conformité structurelle à l’option 1 vérifiable dans les données : huit réponses dans l’ordre A/B/C, option indiquée, discussion C distincte. Conformité documentaire officielle indéterminée ; aucune transposition des exigences de l’explication libre n’est imposée."
+      },
+      "defauts_localises": [
+        {
+          "priorite": "P1",
+          "qualification": "confusion conceptuelle interne",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P02",
+              "phrase": "S09",
+              "citation_de_la_copie": "Ne pas savoir une chose n’est pas encore se tromper ; l’erreur commence lorsqu’on lui attribue sans assurance ce qu’elle n’a peut-être pas.",
+              "fonction_annoncee": "Distinguer l’ignorance reconnue et l’affirmation erronée"
+            }
+          ],
+          "diagnostic": "Attribuer sans assurance une propriété que la chose « n’a peut-être pas » n’est pas encore établir une erreur de contenu : l’affirmation pourrait être vraie par hasard. La copie doit séparer absence de justification, risque de fausseté et jugement effectivement faux ; sinon l’opposition ignorance/erreur annoncée n’est pas tenue.",
+          "exigences": [
+            "A4",
+            "1.3",
+            "3.2",
+            "8 D2-D4"
+          ]
+        },
+        {
+          "priorite": "P1",
+          "qualification": "condition pratique sous-expliquée",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P02",
+              "phrase": "S07",
+              "citation_de_la_copie": "Cela n’exige pas de devenir un esprit infini.",
+              "fonction_annoncee": "Écarter l’exigence impossible d’une connaissance infinie"
+            },
+            {
+              "paragraphe": "P02",
+              "phrase": "S08",
+              "citation_de_la_copie": "Lorsqu’un examen reste incomplet, on peut limiter son affirmation ou suspendre son jugement.",
+              "fonction_annoncee": "Préciser deux manières d’exercer la liberté de juger"
+            },
+            {
+              "paragraphe": "P06",
+              "phrase": "S22",
+              "citation_de_la_copie": "La connaissance limitée ne force pas le jugement à devenir entier : on peut reconnaître une ignorance plutôt que la convertir en certitude.",
+              "fonction_annoncee": "Justifier le lien entre connaissance limitée et jugement maîtrisé"
+            }
+          ],
+          "diagnostic": "L’examen d’un esprit fini est toujours incomplet au sens où tous les rapports ne sont pas connus. Il faut donc expliquer ce que signifie un examen suffisant pour la proposition précise, sans exiger la connaissance infinie ni conclure qu’il faut toujours suspendre. La règle praticable est annoncée en marge mais ce seuil n’est pas élucidé.",
+          "exigences": [
+            "3.3",
+            "8 D4-D5",
+            "8.1"
+          ]
+        },
+        {
+          "priorite": "P1",
+          "qualification": "voix et généralité à confronter",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P06",
+              "phrase": "S20",
+              "citation_de_la_copie": "L’idée principale est que l’erreur humaine, bien que rendue possible par la limitation de l’esprit, peut être évitée par le bon usage de la liberté.",
+              "fonction_annoncee": "Énoncer la thèse de l’erreur évitable par le bon usage de la liberté"
+            },
+            {
+              "paragraphe": "P06",
+              "phrase": "S21",
+              "citation_de_la_copie": "Malebranche attribue donc une responsabilité à celui qui dépasse ce qu’il a examiné.",
+              "fonction_annoncee": "En dégager la responsabilité de celui qui dépasse son examen"
+            },
+            {
+              "paragraphe": "P08",
+              "phrase": "S27",
+              "citation_de_la_copie": "Nous sommes responsables d’une erreur lorsque nous aurions pu prendre une précaution raisonnable, vérifier ou suspendre notre affirmation, et que nous avons préféré décider sans examen.",
+              "fonction_annoncee": "Proposer un critère pour examiner la responsabilité dans une erreur"
+            },
+            {
+              "paragraphe": "P08",
+              "phrase": "S31",
+              "citation_de_la_copie": "La thèse de Malebranche est éclairante si l’on examine ce qui dépendait effectivement du sujet ; sa formule très générale de blâme demande cette attention aux circonstances.",
+              "fonction_annoncee": "Évaluer la thèse en la rapportant aux circonstances du jugement"
+            }
+          ],
+          "diagnostic": "B présente une responsabilité de celui qui dépasse son examen ; C la conditionne aux précautions raisonnablement disponibles. L’option 2 affirme expressément que le blâme de l’auteur porte sur « toute erreur ». Il faut garder cette généralité en B si elle est attestée, puis identifier clairement la limitation circonstancielle comme la discussion de C, sans corriger silencieusement l’auteur.",
+          "exigences": [
+            "A5",
+            "1.1",
+            "1.2",
+            "5.1",
+            "6.2"
+          ]
+        },
+        {
+          "priorite": "P3",
+          "qualification": "repérage des réponses perfectible",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P04",
+              "phrase": "S14",
+              "citation_de_la_copie": "Le texte demande comment l’homme peut être responsable de ses erreurs alors que son esprit est naturellement limité.",
+              "fonction_annoncee": "Formuler le problème de la responsabilité d’un esprit limité"
+            },
+            {
+              "paragraphe": "P06",
+              "phrase": "S20",
+              "citation_de_la_copie": "L’idée principale est que l’erreur humaine, bien que rendue possible par la limitation de l’esprit, peut être évitée par le bon usage de la liberté.",
+              "fonction_annoncee": "Énoncer la thèse de l’erreur évitable par le bon usage de la liberté"
+            }
+          ],
+          "diagnostic": "Le générateur privilégie paragraphSections = « Option 1 — questions officielles » pour tous les paragraphes, donc il n’écrit plus A1/B1/B3 comme titres de chacun. La correspondance est conservée dans les données, mais la copie annotée gagne à exposer les repères de réponse si le mode du site l’autorise.",
+          "exigences": [
+            "9.1",
+            "10.2"
+          ]
+        }
+      ],
+      "exigences_manquantes_ou_indeterminees": [
+        "Commun C0 : source exacte et propositions numérotées non disponibles (Porte 1).",
+        "Commun C1 : traces prospectives et dossier scellé non fournis (Portes 0, 2, 3, 4) ; historique non reconstituable à partir de la copie seule.",
+        "Commun C2 : annotation phrase par phrase présente, mais sans les six champs systématiques de 9.1.",
+        "Commun C3 : audit 10.1 seulement partiel faute de texte, fiche et registre ; validation A7/10.2 non délivrable.",
+        "1.1",
+        "1.2",
+        "1.3",
+        "10.2",
+        "3.2",
+        "3.3",
+        "5.1",
+        "6.2",
+        "8 D2-D4",
+        "8 D4-D5",
+        "8.1",
+        "9.1",
+        "A4",
+        "A5"
+      ],
+      "intervention_editoriale_proposee": "Conserver l’ordre A1-C2. Réparer la distinction erreur/faute d’examen ; préciser la proposition sur laquelle l’assentiment porte ; conserver la généralité exacte de B avant la discussion circonstancielle de C.",
+      "statut_livraison": "état de travail à réexaminer sur source exacte ; aucune note ni homologation A20 attribuée"
+    },
+    {
+      "id": "malebranche-2026-antilles-guyane-option-2",
+      "sujet": "malebranche-2026-antilles-guyane",
+      "auteur": "Malebranche",
+      "regime": "technologique",
+      "fichier_source_copie": "scripts/explication-textes-data.json",
+      "source": {
+        "url_presente": "https://www.education.gouv.fr/sites/default/files/document/baccalaureat-technologique-2026-philosophie-517532.pdf",
+        "texte_original_integral_accessible": false,
+        "statut": "indéterminé : lien documentaire présent, extrait original non disponible pour confrontation",
+        "controle_effectue": "Sources du dépôt, pages d’annales et référence locale origin/corpus consultées ; ni PDF philosophique local ni transcription exacte de cet extrait retrouvés. Aucun contournement réseau."
+      },
+      "mots": {
+        "lexicaux": 484,
+        "compteur_site_espaces": 497
+      },
+      "phrases_annotees": 28,
+      "paragraphes_ou_blocs": 6,
+      "priorite_pedagogique": "P1",
+      "verdict_porte_4_2": "indéterminé (preuve documentaire manquante)",
+      "verdict": "Le problème et la règle de jugement sont lisibles ; objection locale laissée sans réponse puis partiellement intégrée à la conclusion.",
+      "axes": {
+        "probleme": "S02 met en tension blâme et limitation naturelle : c’est un problème précis.",
+        "these_modalite": "S03 énonce la responsabilité ; S18 conserve « toute erreur ». S28 conclut pourtant sur ce qui pouvait effectivement être examiné, formulation qui risque de rabattre la thèse sur la restriction discutée.",
+        "couverture": "Limitation, règle de jugement, blâme et préférence pour décider sans peine sont traités. Leur importance relative et leurs frontières exactes restent invérifiables sans l’extrait.",
+        "operations_inferences": "S08 explique correctement qu’absence d’aperception n’autorise pas la négation ; S15 rend visible la prémisse de liberté de suspendre. S19-20 introduisent une difficulté sans reconstruire la réponse possible du passage.",
+        "exemples_distinctions": "Les distinctions savoir/jugement et ignorance/certitude sont utiles. Les cas de témoignage trompeur et d’urgence interrogent une condition précise ; il faut distinguer agir vite et affirmer avec certitude.",
+        "transitions": "S10 explique le connecteur « Toutefois ». S16 passe au blâme par l’évitabilité, et S21 revient à la fréquence des erreurs. Le retour après objection est clair, mais laisse l’objection ouverte.",
+        "conclusion": "S27-28 réunissent reconnaissance de la limite et exercice de la liberté. La fin doit attribuer distinctement la thèse de l’auteur et la réserve du commentateur.",
+        "fonctions_trace_source": "28 fonctions présentes, avec une citation de connecteur mais sans registre textuel complet. L’annotation de S20 promet une délimitation, pas une réponse, ce que la copie accomplit effectivement.",
+        "regime": "Option 2 technologique : développement libre et option indiquée par le générateur. Pas d’obligation de répondre séparément aux huit questions, et pas d’importation d’une dissertation en trois parties."
+      },
+      "defauts_localises": [
+        {
+          "priorite": "P1",
+          "qualification": "objection non résolue avec les ressources de l’argument",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P03",
+              "phrase": "S15",
+              "citation_de_la_copie": "Malebranche suppose ici que le sujet peut retenir son assentiment ; cette possibilité donne sa force à son argument sur la responsabilité.",
+              "fonction_annoncee": "Reconstruire la condition qui fonde la responsabilité dans l’argument"
+            },
+            {
+              "paragraphe": "P04",
+              "phrase": "S19",
+              "citation_de_la_copie": "On peut toutefois éprouver cette affirmation : un témoignage trompeur ou une décision urgente laissent-ils toujours la possibilité de vérifier ou de suspendre ?",
+              "fonction_annoncee": "Proposer une objection portant sur la liberté réelle de vérifier ou de suspendre"
+            },
+            {
+              "paragraphe": "P04",
+              "phrase": "S20",
+              "citation_de_la_copie": "Ces difficultés ne réfutent pas la distinction entre savoir et jugement ; elles demandent d’établir quelle liberté pouvait réellement s’exercer.",
+              "fonction_annoncee": "Délimiter ce que l’objection remet en question et ce qu’elle laisse acquis"
+            }
+          ],
+          "diagnostic": "L’urgence peut forcer une action sans forcer à tenir une proposition pour certaine ; un témoignage trompeur peut tromper sans rendre l’assentiment irrésistible. La copie demande seulement d’« établir quelle liberté » était disponible, alors que sa propre ressource S15 est de retenir l’assentiment. Il faut répondre d’abord par cette distinction, puis conserver ce qui reste réellement contesté.",
+          "exigences": [
+            "6.2",
+            "8.4",
+            "8 D4-D5"
+          ]
+        },
+        {
+          "priorite": "P1",
+          "qualification": "mélange possible entre thèse et réserve",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P04",
+              "phrase": "S18",
+              "citation_de_la_copie": "Sa formule demeure cependant très générale, puisqu’elle attribue une responsabilité à toute erreur.",
+              "fonction_annoncee": "Conserver la généralité du blâme que l’auteur affirme"
+            },
+            {
+              "paragraphe": "P04",
+              "phrase": "S20",
+              "citation_de_la_copie": "Ces difficultés ne réfutent pas la distinction entre savoir et jugement ; elles demandent d’établir quelle liberté pouvait réellement s’exercer.",
+              "fonction_annoncee": "Délimiter ce que l’objection remet en question et ce qu’elle laisse acquis"
+            },
+            {
+              "paragraphe": "P06",
+              "phrase": "S28",
+              "citation_de_la_copie": "Il fait ainsi de la liberté de suspendre son jugement une ressource contre l’erreur ; le texte fonde la responsabilité sur ce que le sujet pouvait effectivement examiner.",
+              "fonction_annoncee": "Conclure sur la thèse et sa condition, sans ouvrir une nouvelle discussion"
+            }
+          ],
+          "diagnostic": "Le commentaire annonce une responsabilité attribuée à toute erreur, discute la liberté réelle, puis fait dire au texte que la responsabilité porte sur ce qui pouvait « effectivement » être examiné. Sans balise de voix, cette fin peut transformer la restriction du commentateur en thèse de l’auteur. La source exacte est nécessaire pour trancher la portée originale.",
+          "exigences": [
+            "A5",
+            "1.1",
+            "1.2",
+            "9 C1-C3"
+          ]
+        },
+        {
+          "priorite": "P2",
+          "qualification": "règle de jugement sous-expliquée",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P03",
+              "phrase": "S11",
+              "citation_de_la_copie": "Un esprit limité ne serait pas condamné à l’erreur si la liberté réglait toujours ses affirmations sur ce qui a été examiné.",
+              "fonction_annoncee": "Énoncer la réponse de l’auteur : la liberté peut régler le jugement"
+            },
+            {
+              "paragraphe": "P03",
+              "phrase": "S12",
+              "citation_de_la_copie": "Cette règle demande de ne pas affirmer plus qu’on ne sait, plutôt que de tout connaître.",
+              "fonction_annoncee": "Distinguer la maîtrise du jugement et l’exigence d’un savoir infini"
+            },
+            {
+              "paragraphe": "P03",
+              "phrase": "S13",
+              "citation_de_la_copie": "Lorsque l’examen demeure incomplet, on peut limiter sa conclusion ou suspendre son jugement.",
+              "fonction_annoncee": "Préciser les usages de la liberté quand l’examen reste incomplet"
+            }
+          ],
+          "diagnostic": "L’examen ne peut être complet sur une chose qui possède une infinité de rapports ; la règle doit porter sur la justification de l’affirmation précise. Les formules « ce qui a été examiné » et « examen incomplet » ne déterminent pas encore cette différence.",
+          "exigences": [
+            "1.3",
+            "3.3",
+            "8 D4"
+          ]
+        },
+        {
+          "priorite": "P3",
+          "qualification": "gain final partiellement générique",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P05",
+              "phrase": "S25",
+              "citation_de_la_copie": "Refuser la règle de la vérité ne rend pas indépendant, puisqu’on se livre alors à des jugements que l’on ne maîtrise pas.",
+              "fonction_annoncee": "Reconstruire pourquoi le refus de la règle rend dépendant de l’erreur"
+            },
+            {
+              "paragraphe": "P05",
+              "phrase": "S26",
+              "citation_de_la_copie": "La discipline de l’examen peut au contraire permettre à la liberté de s’exercer avec discernement.",
+              "fonction_annoncee": "Dégager le rôle de la discipline dans l’exercice de la liberté"
+            }
+          ],
+          "diagnostic": "Refuser la règle ne démontre pas par lui-même qu’on ne maîtrise plus ses jugements. Expliquer la différence entre liberté d’affirmer et assujettissement au faux rendrait le paradoxe plus précis, sans ajouter un développement doctrinal.",
+          "exigences": [
+            "8 D4",
+            "9.2"
+          ]
+        }
+      ],
+      "exigences_manquantes_ou_indeterminees": [
+        "Commun C0 : source exacte et propositions numérotées non disponibles (Porte 1).",
+        "Commun C1 : traces prospectives et dossier scellé non fournis (Portes 0, 2, 3, 4) ; historique non reconstituable à partir de la copie seule.",
+        "Commun C2 : annotation phrase par phrase présente, mais sans les six champs systématiques de 9.1.",
+        "Commun C3 : audit 10.1 seulement partiel faute de texte, fiche et registre ; validation A7/10.2 non délivrable.",
+        "1.1",
+        "1.2",
+        "1.3",
+        "3.3",
+        "6.2",
+        "8 D4",
+        "8 D4-D5",
+        "8.4",
+        "9 C1-C3",
+        "9.2",
+        "A5"
+      ],
+      "intervention_editoriale_proposee": "Répondre à l’objection d’urgence par la différence action/assentiment ; marquer ensuite la réserve propre du commentateur ; recoller la conclusion à la modalité exacte du passage.",
+      "statut_livraison": "état de travail à réexaminer sur source exacte ; aucune note ni homologation A20 attribuée"
+    },
+    {
+      "id": "rawls-2025-metropole-option-libre",
+      "sujet": "rawls-2025-metropole",
+      "auteur": "Rawls",
+      "regime": "generale",
+      "fichier_source_copie": "scripts/explication-textes-data.json",
+      "source": {
+        "url_presente": "https://eduscol.education.gouv.fr/sites/default/files/document/25-phgeme1v1pdf-112464.pdf",
+        "texte_original_integral_accessible": false,
+        "statut": "indéterminé : lien documentaire présent, extrait original non disponible pour confrontation",
+        "controle_effectue": "Sources du dépôt, pages d’annales et référence locale origin/corpus consultées ; ni PDF philosophique local ni transcription exacte de cet extrait retrouvés. Aucun contournement réseau."
+      },
+      "mots": {
+        "lexicaux": 532,
+        "compteur_site_espaces": 541
+      },
+      "phrases_annotees": 28,
+      "paragraphes_ou_blocs": 6,
+      "priorite_pedagogique": "P2",
+      "verdict_porte_4_2": "indéterminé (preuve documentaire manquante)",
+      "verdict": "Conditions matérielles des libertés clairement identifiées ; les institutions correctrices restent trop indéterminées.",
+      "axes": {
+        "probleme": "S02 pose un problème spécifique de valeur des droits égaux lorsque l’influence demeure inégale.",
+        "these_modalite": "S03 énonce la nécessité de mesures correctrices ; S13 distingue égalité politique et égalité de toute influence. La formule S12 « reste formelle » doit rester relative à l’efficacité d’exercice.",
+        "couverture": "Capacités civiques, contrôle du débat, formation des lois, compensations et hypothèse de propriété privée sont parcourus. Sans original, on ne peut vérifier les bénéficiaires précis du financement ni les dispositifs exacts.",
+        "operations_inferences": "S15-19 reconstruisent une boucle ressources → débat → lois → consolidation des avantages. La dernière étape comporte une prémisse à expliciter, et non une simple conséquence automatique de toute influence.",
+        "exemples_distinctions": "Autorisation de parler et possibilité d’être entendu sont utilement distinguées. Le prolongement S26 porte sur une condition pertinente, mais ne remplace pas l’explication du dispositif de financement du passage.",
+        "transitions": "S10 passe des capacités à leur inégalité ; S21 appelle les compensations à partir du mécanisme établi. Le connecteur « Car » est effectivement interprété plutôt que seulement signalé.",
+        "conclusion": "S27-28 répondent et dégagent le gain matériel des libertés. Elles ne reprennent qu’implicitement la chaîne institutionnelle qui rend les corrections nécessaires.",
+        "fonctions_trace_source": "28 fonctions présentes ; les phrases sur les financements n’ont aucun ancrage documentaire détaillé. La mention « On peut prolonger » S26 signale correctement le changement de voix.",
+        "regime": "Voie générale : explication suivie. Ne pas réclamer toute la théorie rawlsienne pour valider ce passage, ni transformer le sujet en exposé général sur les inégalités."
+      },
+      "defauts_localises": [
+        {
+          "priorite": "P2",
+          "qualification": "mécanisme correcteur sous-expliqué",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P05",
+              "phrase": "S22",
+              "citation_de_la_copie": "Une répartition étendue des richesses réduit la concentration des moyens d’action politique ; des financements publics peuvent rendre le débat accessible à davantage de participants.",
+              "fonction_annoncee": "Distinguer l’effet de la répartition des richesses et celui des financements"
+            },
+            {
+              "paragraphe": "P05",
+              "phrase": "S25",
+              "citation_de_la_copie": "La régularité du soutien public importe, car des capacités de participation doivent être entretenues et ne se créent pas par une aide isolée.",
+              "fonction_annoncee": "Justifier la régularité du soutien par l’entretien des capacités"
+            }
+          ],
+          "diagnostic": "À qui vont les financements, pour quel moyen d’action, et comment leur régularité empêche-t-elle une dépendance aux plus riches ? La copie dit seulement « rendre le débat accessible ». Le lecteur ne peut reconstituer le dispositif précis. Ce sont des questions à résoudre sur le passage, sans inventer un mécanisme.",
+          "exigences": [
+            "8 D1-D4",
+            "3.1",
+            "5.2"
+          ]
+        },
+        {
+          "priorite": "P2",
+          "qualification": "prémisse implicite à établir",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P04",
+              "phrase": "S18",
+              "citation_de_la_copie": "Il précise aussi que les plus favorisés ne s’accordent pas sur tout : leur convergence porte notamment sur la défense de leurs privilèges.",
+              "fonction_annoncee": "Préciser sur quoi les plus favorisés peuvent s’accorder"
+            },
+            {
+              "paragraphe": "P04",
+              "phrase": "S19",
+              "citation_de_la_copie": "Des intérêts particuliers peuvent ainsi orienter des règles qui s’imposeront à tous et consolider les avantages dont cette influence provient.",
+              "fonction_annoncee": "Déduire comment l’influence politique peut renforcer les avantages initiaux"
+            }
+          ],
+          "diagnostic": "Le passage de la convergence sur les privilèges à leur consolidation par les lois suppose que l’influence serve effectivement ces intérêts et se traduise dans des règles. S19 l’énonce plausiblement mais ne distingue pas encore la conséquence nécessaire d’un risque institutionnel.",
+          "exigences": [
+            "1.1",
+            "3.3",
+            "8 D4"
+          ]
+        },
+        {
+          "priorite": "P2",
+          "qualification": "distinction à préserver",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P03",
+              "phrase": "S11",
+              "citation_de_la_copie": "Quand la richesse permet de contrôler le débat, tous peuvent encore être autorisés à parler tout en disposant de possibilités très inégales d’être entendus.",
+              "fonction_annoncee": "Distinguer l’autorisation de parler et la possibilité d’être entendu"
+            },
+            {
+              "paragraphe": "P03",
+              "phrase": "S12",
+              "citation_de_la_copie": "La liberté de prendre la parole reste alors formelle si les ressources économiques déterminent quelles propositions peuvent réellement être entendues.",
+              "fonction_annoncee": "Expliciter l’effet politique de l’inégalité sans ajouter un exemple extérieur"
+            },
+            {
+              "paragraphe": "P03",
+              "phrase": "S14",
+              "citation_de_la_copie": "La valeur d’une liberté désigne ici la possibilité réelle de l’exercer utilement, et pas seulement son inscription dans la loi.",
+              "fonction_annoncee": "Définir la valeur d’une liberté par sa possibilité réelle d’exercice"
+            }
+          ],
+          "diagnostic": "« Reste formelle » peut être compris comme « ne vaut plus rien ». La copie reconnaît pourtant une autorisation subsistante et une inégalité de capacité. Préciser que c’est la valeur effective et équitable de l’exercice qui est atteinte évite de rabattre le droit sur une apparence pure.",
+          "exigences": [
+            "1.3",
+            "5.1"
+          ]
+        },
+        {
+          "priorite": "P3",
+          "qualification": "prolongement à subordonner à l’explication",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P05",
+              "phrase": "S26",
+              "citation_de_la_copie": "On peut prolonger ce raisonnement par une condition de cohérence : un financement réservé aux opinions du pouvoir contredirait l’égalité de participation recherchée.",
+              "fonction_annoncee": "Prolonger le raisonnement en examinant la répartition équitable du financement"
+            }
+          ],
+          "diagnostic": "La condition d’un financement non réservé aux opinions du pouvoir est marquée comme prolongement et porte sur une inférence pertinente. Si la place manque, la priorité revient toutefois à l’explication du financement effectivement proposé dans le texte.",
+          "exigences": [
+            "A2",
+            "6.2",
+            "9.2"
+          ]
+        }
+      ],
+      "exigences_manquantes_ou_indeterminees": [
+        "Commun C0 : source exacte et propositions numérotées non disponibles (Porte 1).",
+        "Commun C1 : traces prospectives et dossier scellé non fournis (Portes 0, 2, 3, 4) ; historique non reconstituable à partir de la copie seule.",
+        "Commun C2 : annotation phrase par phrase présente, mais sans les six champs systématiques de 9.1.",
+        "Commun C3 : audit 10.1 seulement partiel faute de texte, fiche et registre ; validation A7/10.2 non délivrable.",
+        "1.1",
+        "1.3",
+        "3.1",
+        "3.3",
+        "5.1",
+        "5.2",
+        "6.2",
+        "8 D1-D4",
+        "8 D4",
+        "9.2",
+        "A2"
+      ],
+      "intervention_editoriale_proposee": "Remplacer une généralité ou le prolongement facultatif par le mécanisme précis du financement attesté ; préserver la différence droit égal/valeur de son exercice ; ne pas inventer de compensation.",
+      "statut_livraison": "état de travail à réexaminer sur source exacte ; aucune note ni homologation A20 attribuée"
+    },
+    {
+      "id": "weil-2024-metropole-option-libre",
+      "sujet": "weil-2024-metropole",
+      "auteur": "Simone Weil",
+      "regime": "generale",
+      "fichier_source_copie": "scripts/explication-textes-data.json",
+      "source": {
+        "url_presente": "https://eduscol.education.gouv.fr/sites/default/files/document/24-phgeme1v1-0pdf-106296.pdf",
+        "texte_original_integral_accessible": false,
+        "statut": "indéterminé : lien documentaire présent, extrait original non disponible pour confrontation",
+        "controle_effectue": "Sources du dépôt, pages d’annales et référence locale origin/corpus consultées ; ni PDF philosophique local ni transcription exacte de cet extrait retrouvés. Aucun contournement réseau."
+      },
+      "mots": {
+        "lexicaux": 543,
+        "compteur_site_espaces": 556
+      },
+      "phrases_annotees": 28,
+      "paragraphes_ou_blocs": 7,
+      "priorite_pedagogique": "P2",
+      "verdict_porte_4_2": "indéterminé (preuve documentaire manquante)",
+      "verdict": "Distinctions utiles entre dépense, initiative et conscience ; analogie et plainte finale restent sous-expliquées.",
+      "axes": {
+        "probleme": "S02 demande comment l’effort peut étouffer pensée et attention. Le contraste a besoin de la distinction effort imposé/activité autonome, reconstruite dans le corps de la copie.",
+        "these_modalite": "S03 situe le mécanisme dans les mobiles obsédants. « Peut-être » S11 et « presque » S22 évitent de convertir les réserves citées en nécessité absolue ; leur exactitude originale reste à vérifier.",
+        "couverture": "Mobiles, absence de chaînes, pensée, relations et plainte sont suivis. La plainte finale n’est ni citée ni précisément ancrée, et son rôle propre reste résumé par l’horizon absent.",
+        "operations_inferences": "S07-08 séparent énergie dépensée et initiative ; S15-19 séparent occupation mentale et réflexion. S10-14 doivent mieux préciser pourquoi des mobiles intérieurs sont nécessaires et pourquoi seuls ceux-là peuvent agir.",
+        "exemples_distinctions": "Les distinctions sont nombreuses et opérantes. L’analogie avec la pesanteur reçoit seulement une fonction d’intensité, et non l’analyse du rapport qu’elle permet de comprendre.",
+        "transitions": "S15 et S20 font avancer une conséquence nouvelle ; S25 annonce le temps vécu. La fonction de la plainte est annoncée, puis reformulée au lieu d’être davantage analysée.",
+        "conclusion": "S27-28 répondent au problème en réunissant les dimensions atteintes. Le gain n’est pas une thèse vague contre le travail, mais une manière de comprendre les conduites à partir de conditions précises.",
+        "fonctions_trace_source": "28 fonctions présentes ; S25-26 répètent largement une même fonction. Les citations et la plainte ne sont pas collationnées sur l’extrait.",
+        "regime": "Voie générale : parcours explicatif cohérent. Ne pas importer les thèses d’un autre extrait de Weil pour compléter les mobiles, ni imposer un nombre fixe d’unités."
+      },
+      "defauts_localises": [
+        {
+          "priorite": "P2",
+          "qualification": "inférence sous-expliquée",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P03",
+              "phrase": "S10",
+              "citation_de_la_copie": "Puisque la violence physique ne commande pas chaque geste, l’ouvrier doit trouver en lui-même les motifs de son obéissance.",
+              "fonction_annoncee": "Justifier le recours aux mobiles quand chaque geste n’est pas physiquement imposé"
+            },
+            {
+              "paragraphe": "P03",
+              "phrase": "S12",
+              "citation_de_la_copie": "Or les conditions décrites ne laissent agir que la peur de la sanction, l’avidité du gain et, plus partiellement, la compétition de vitesse.",
+              "fonction_annoncee": "Identifier les mobiles que l’organisation laisse agir"
+            },
+            {
+              "paragraphe": "P03",
+              "phrase": "S14",
+              "citation_de_la_copie": "Ces mobiles doivent devenir obsédants, car leur présence continuelle compense la faiblesse du sens que le travail offre par lui-même.",
+              "fonction_annoncee": "Expliquer pourquoi les mobiles doivent occuper continuellement l’esprit"
+            }
+          ],
+          "diagnostic": "L’absence de contrainte physique immédiate ne suffit pas à expliquer la liste restreinte des mobiles ni leur caractère obsédant. La copie doit relier l’organisation de l’exécution, la dépendance matérielle et l’entretien volontaire de l’effort, avec les raisons effectivement présentes dans le passage.",
+          "exigences": [
+            "3.3",
+            "8 D4",
+            "8.1"
+          ]
+        },
+        {
+          "priorite": "P2",
+          "qualification": "analogie réduite à une intensité",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P05",
+              "phrase": "S22",
+              "citation_de_la_copie": "La comparaison avec la pesanteur exprime la puissance du mécanisme ; « presque irrésistible » laisse néanmoins subsister une possibilité de résistance.",
+              "fonction_annoncee": "Appuyer sur « presque » la différence entre difficulté extrême et impossibilité"
+            }
+          ],
+          "diagnostic": "« Puissance du mécanisme » dit que la comparaison est forte, pas ce qu’elle fait comprendre. Il faut identifier la propriété commune à la pesanteur et à l’entraînement décrit, puis distinguer cette analogie d’une loi physique appliquée aux conduites. La réserve « presque » est déjà bien observée.",
+          "exigences": [
+            "3.2",
+            "8.2",
+            "8 D5"
+          ]
+        },
+        {
+          "priorite": "P2",
+          "qualification": "sous-explication et répétition établies",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P06",
+              "phrase": "S25",
+              "citation_de_la_copie": "La plainte sur la longueur du temps condense finalement les effets précédents : elle exprime une journée sans horizon intérieur.",
+              "fonction_annoncee": "Transition : faire de la plainte finale le condensé de l’analyse"
+            },
+            {
+              "paragraphe": "P06",
+              "phrase": "S26",
+              "citation_de_la_copie": "Elle paraît banale à celui qui ignore cette condition, mais exprime une journée sans élan intérieur et sans horizon qui permette de la traverser.",
+              "fonction_annoncee": "Interpréter la plainte à partir du temps vécu et de l’horizon réduit"
+            }
+          ],
+          "diagnostic": "Deux phrases emploient presque le même diagnostic de journée sans horizon. Ni les mots précis de la plainte ni l’opposition entre banalité apparente et portée de l’expérience ne sont reconstruits. Une reformulation redondante peut être remplacée par l’explication précise de la plainte.",
+          "exigences": [
+            "8 D1-D4",
+            "9.2"
+          ]
+        }
+      ],
+      "exigences_manquantes_ou_indeterminees": [
+        "Commun C0 : source exacte et propositions numérotées non disponibles (Porte 1).",
+        "Commun C1 : traces prospectives et dossier scellé non fournis (Portes 0, 2, 3, 4) ; historique non reconstituable à partir de la copie seule.",
+        "Commun C2 : annotation phrase par phrase présente, mais sans les six champs systématiques de 9.1.",
+        "Commun C3 : audit 10.1 seulement partiel faute de texte, fiche et registre ; validation A7/10.2 non délivrable.",
+        "3.2",
+        "3.3",
+        "8 D1-D4",
+        "8 D4",
+        "8 D5",
+        "8.1",
+        "8.2",
+        "9.2"
+      ],
+      "intervention_editoriale_proposee": "Conserver les distinctions effort/initiative et obsession/réflexion ; remplacer la répétition finale par l’analyse des mots de la plainte, une fois la source obtenue ; préciser la relation figurée par la pesanteur.",
+      "statut_livraison": "état de travail à réexaminer sur source exacte ; aucune note ni homologation A20 attribuée"
+    },
+    {
+      "id": "levi-strauss-2023-metropole-option-libre",
+      "sujet": "levi-strauss-2023-metropole",
+      "auteur": "Lévi-Strauss",
+      "regime": "generale",
+      "fichier_source_copie": "scripts/explication-textes-data.json",
+      "source": {
+        "url_presente": "https://eduscol.education.gouv.fr/sites/default/files/document/23-phgeme1pdf-103488.pdf",
+        "texte_original_integral_accessible": false,
+        "statut": "indéterminé : lien documentaire présent, extrait original non disponible pour confrontation",
+        "controle_effectue": "Sources du dépôt, pages d’annales et référence locale origin/corpus consultées ; ni PDF philosophique local ni transcription exacte de cet extrait retrouvés. Aucun contournement réseau."
+      },
+      "mots": {
+        "lexicaux": 509,
+        "compteur_site_espaces": 524
+      },
+      "phrases_annotees": 27,
+      "paragraphes_ou_blocs": 6,
+      "priorite_pedagogique": "P2",
+      "verdict_porte_4_2": "indéterminé (preuve documentaire manquante)",
+      "verdict": "Distinction projet/stock et polyvalence bien suivie ; certains rapports restent nommés plutôt que reconstruits.",
+      "axes": {
+        "probleme": "S02 pose précisément la diversité des réalisations avec un stock limité et non réuni pour un projet unique.",
+        "these_modalite": "S03 répond par une disponibilité pour plusieurs usages sous contraintes. S06 « en principe » évite de transformer les deux rapports en description exhaustive des pratiques professionnelles.",
+        "couverture": "Rapport ingénieur/bricoleur, histoire du stock, spécialisation relative et opérateur sont traités. La couverture du passage, notamment de ses derniers termes techniques, demeure documentairement indéterminée.",
+        "operations_inferences": "S09-10 expliquent la compatibilité clôture/enrichissement ; S19-20 donnent les deux raisons de la spécialisation relative. Le mot opérateur et les relations concrètes/virtuelles restent décrits dans une langue très générale.",
+        "exemples_distinctions": "La planche réemployée sert deux distinctions réelles et n’est pas un ornement. Son statut d’exemple pédagogique du rédacteur doit être clair dans la copie nue, sans dépendre de la fonction en marge.",
+        "transitions": "S11 explique la diversité historique ; S16 passe de la diversité du stock à celle des usages. S22 « rassemble » est plus récapitulatif qu’explicatif : quel rapport exactement est transformé ?",
+        "conclusion": "S26 répond et S27 formule un gain sur l’invention sous contrainte. Le « peut devenir » conserve la prudence : il ne démontre pas que toute contrainte favorise la créativité.",
+        "fonctions_trace_source": "27 fonctions présentes ; un mot cité (« opérateur ») ne fournit pas à lui seul la trace des relations finales. Les citations et les limites de l’extrait doivent être contrôlées.",
+        "regime": "Voie générale : explication suivie ; comparaison avec l’ingénieur rattachée au passage et non exposé général sur la technique."
+      },
+      "defauts_localises": [
+        {
+          "priorite": "P2",
+          "qualification": "statut d’exemple non indiqué dans la copie nue",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P03",
+              "phrase": "S15",
+              "citation_de_la_copie": "L’exemple d’une planche conservée après un démontage le montre : elle n’a pas été acquise pour le meuble futur, mais peut entrer dans sa construction.",
+              "fonction_annoncee": "Proposer un exemple de réemploi pour éclairer cette distinction"
+            },
+            {
+              "paragraphe": "P04",
+              "phrase": "S21",
+              "citation_de_la_copie": "Une planche possède déjà une forme et une résistance exploitables ; elle peut devenir une étagère ou un renfort, mais pas remplir indifféremment toute fonction.",
+              "fonction_annoncee": "Éprouver par un exemple les possibilités et les limites d’un même objet"
+            }
+          ],
+          "diagnostic": "« L’exemple d’une planche » peut être lu comme l’exemple de l’auteur ; seule l’annotation dit « Proposer un exemple ». Faute de texte original, l’origine de cet exemple n’est pas certifiée. S’il est du rédacteur, une marque brève telle qu’« imaginons » doit suffire à l’indiquer ; ne pas attribuer de cas au passage sans vérification.",
+          "exigences": [
+            "A5",
+            "8.2",
+            "9.2"
+          ]
+        },
+        {
+          "priorite": "P2",
+          "qualification": "opération finale sous-expliquée",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P05",
+              "phrase": "S22",
+              "citation_de_la_copie": "La dernière phrase rassemble ces deux dimensions : chaque élément est un « opérateur », c’est-à-dire un moyen d’effectuer certaines transformations.",
+              "fonction_annoncee": "Expliquer le mot opérateur par les transformations que permet un élément"
+            },
+            {
+              "paragraphe": "P05",
+              "phrase": "S23",
+              "citation_de_la_copie": "Les relations concrètes correspondent à ce qu’il est et à ce qu’il a déjà fait ; les relations virtuelles aux rapports nouveaux que ses propriétés permettent d’envisager.",
+              "fonction_annoncee": "Distinguer les relations déjà concrètes et les relations encore virtuelles"
+            },
+            {
+              "paragraphe": "P05",
+              "phrase": "S24",
+              "citation_de_la_copie": "Un élément rend donc certaines transformations possibles, à l’intérieur d’une famille d’usages que ses caractéristiques limitent.",
+              "fonction_annoncee": "Préciser les limites que les propriétés imposent aux transformations"
+            }
+          ],
+          "diagnostic": "Dire opérateur = moyen d’effectuer des transformations renomme l’opération sans montrer quel rapport d’un objet à un autre devient possible. L’exemple de la planche pourrait ici servir à distinguer une relation déjà effective d’une relation possible, plutôt que laisser ces deux termes abstraits.",
+          "exigences": [
+            "1.3",
+            "8 D2-D5",
+            "8.1"
+          ]
+        },
+        {
+          "priorite": "P3",
+          "qualification": "portée d’interprétation à vérifier",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P02",
+              "phrase": "S09",
+              "citation_de_la_copie": "Cette limite vaut pour le stock disponible à un moment donné : le texte précise ensuite qu’il peut être enrichi.",
+              "fonction_annoncee": "Résoudre la difficulté en précisant à quel moment le stock est clos"
+            },
+            {
+              "paragraphe": "P02",
+              "phrase": "S10",
+              "citation_de_la_copie": "La clôture n’interdit donc pas l’histoire du stock ; elle empêche d’en disposer comme d’un équipement intégralement renouvelé à chaque projet.",
+              "fonction_annoncee": "Dégager la différence entre enrichir le stock et renouveler tout l’équipement"
+            }
+          ],
+          "diagnostic": "La clôture est rapportée à un moment du stock et à l’absence de renouvellement complet par projet. Cette interprétation est intelligible, mais le découpage temporel de S09 est une prémisse ajoutée qui doit être distinguée de la formulation exacte de l’extrait.",
+          "exigences": [
+            "3.3",
+            "3.4",
+            "8 D1"
+          ]
+        }
+      ],
+      "exigences_manquantes_ou_indeterminees": [
+        "Commun C0 : source exacte et propositions numérotées non disponibles (Porte 1).",
+        "Commun C1 : traces prospectives et dossier scellé non fournis (Portes 0, 2, 3, 4) ; historique non reconstituable à partir de la copie seule.",
+        "Commun C2 : annotation phrase par phrase présente, mais sans les six champs systématiques de 9.1.",
+        "Commun C3 : audit 10.1 seulement partiel faute de texte, fiche et registre ; validation A7/10.2 non délivrable.",
+        "1.3",
+        "3.3",
+        "3.4",
+        "8 D1",
+        "8 D2-D5",
+        "8.1",
+        "8.2",
+        "9.2",
+        "A5"
+      ],
+      "intervention_editoriale_proposee": "Clarifier le statut de l’exemple de la planche ; faire effectuer à cet exemple le passage relation actuelle/relation possible ; vérifier le sens exact de la clôture plutôt que l’étendre de mémoire.",
+      "statut_livraison": "état de travail à réexaminer sur source exacte ; aucune note ni homologation A20 attribuée"
+    },
+    {
+      "id": "platon-2025-polynesie",
+      "sujet": "platon-2025-polynesie",
+      "auteur": "platon",
+      "regime": "generale",
+      "fichier_source_copie": "philosophie-explication-platon-2025-polynesie.html",
+      "source": {
+        "url_presente": "https://eduscol.education.gouv.fr/sites/default/files/document/25-phgepo1-a16pdf-125396.pdf",
+        "texte_original_integral_accessible": false,
+        "statut": "indéterminé : lien documentaire présent, extrait original non disponible pour confrontation",
+        "controle_effectue": "Sources du dépôt, pages d’annales et référence locale origin/corpus consultées ; ni PDF philosophique local ni transcription exacte de cet extrait retrouvés. Aucun contournement réseau."
+      },
+      "mots": {
+        "lexicaux": 286,
+        "compteur_site_espaces": 293
+      },
+      "phrases_annotees": 19,
+      "paragraphes_ou_blocs": 5,
+      "priorite_pedagogique": "P1",
+      "verdict_porte_4_2": "indéterminé (preuve documentaire manquante)",
+      "verdict": "Révision interne nécessaire : ordre annoncé inexact et plusieurs opérations décisives réduites à des assertions.",
+      "axes": {
+        "probleme": "S02 pose une question spécifique sur la partialité envers soi et les critères du juste et du vrai. La difficulté est réelle à l’échelle de la copie ; son origine précise dans le passage n’est pas vérifiable.",
+        "these_modalite": "S03 regroupe aveuglement moral et intellectuel, puis ne tire qu’une préférence pour la justice. S08 « toute valeur » et S14 « tout savoir » élargissent la portée sans justification textuelle disponible.",
+        "couverture": "La copie nomme indulgence, norme impersonnelle, ignorance, compétence et honte. Nommer ces points ne suffit pas à attester leur couverture : le mécanisme initial et les conséquences intellectuelles sont peu reconstruits.",
+        "operations_inferences": "S06 présente l’aveuglement comme explication de lui-même ; S10-12 déclinent la même norme sous trois formes. S14-17 passent du croire-savoir à la faute et au remède sans assez établir les étapes.",
+        "exemples_distinctions": "La distinction aimer soi/aimer excessivement soi est posée S08 ; celle entre identité de l’agent et valeur de l’action est intelligible S10-11. Aucun exemple extérieur n’est obligatoire ; le problème est l’absence de test précis de ces distinctions.",
+        "transitions": "Défaut établi : S04 annonce indulgence → conséquences intellectuelles → remède, alors que S09-12 présentent le remède moral avant S13-15. S13 annonce une extension au savoir mais ne justifie pas sa nécessité.",
+        "conclusion": "S18-19 répondent et réunissent deux remèdes. Elles ne résument pas la chaîne des opérations ni le rôle de la honte ; « accepter l’aide » ne précise pas encore ce que demande l’action de chercher quelqu’un de meilleur.",
+        "fonctions_trace_source": "19 fonctions présentes. Des labels tels qu’« expliquer le mécanisme » S06 et « montrer la conséquence » S15 dépassent le travail réellement accompli. Aucun extrait original disponible pour vérifier « mal » ou les quantificateurs.",
+        "regime": "Voie générale : forme d’explication suivie, mais pas de validation globale d’excellence possible. L’écart n’est pas le nombre de mots ; c’est l’insuffisance de certains maillons et de leur attribution."
+      },
+      "defauts_localises": [
+        {
+          "priorite": "P1",
+          "qualification": "incohérence structurelle établie",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P01",
+              "phrase": "S04",
+              "citation_de_la_copie": "Il dénonce d’abord l’indulgence envers soi, en montre les conséquences intellectuelles, puis indique comment la combattre.",
+              "fonction_annoncee": "Annoncer la progression"
+            },
+            {
+              "paragraphe": "P03",
+              "phrase": "S10",
+              "citation_de_la_copie": "Platon demande d’aimer le juste, que l’action juste soit la nôtre ou celle d’autrui.",
+              "fonction_annoncee": "Formuler la norme impersonnelle"
+            },
+            {
+              "paragraphe": "P04",
+              "phrase": "S13",
+              "citation_de_la_copie": "Le même aveuglement se retrouve dans le savoir : nous prenons notre ignorance pour de la sagesse.",
+              "fonction_annoncee": "Transition : étendre le mécanisme au jugement intellectuel"
+            }
+          ],
+          "diagnostic": "L’annonce du mouvement ne correspond pas à l’ordre effectif de la copie : la correction morale vient avant les conséquences intellectuelles. Réparer l’annonce est possible sans connaître l’original, mais choisir l’ordre fidèle du développement exige le passage exact.",
+          "exigences": [
+            "7 I6",
+            "8.3",
+            "9 C2"
+          ]
+        },
+        {
+          "priorite": "P1",
+          "qualification": "preuve comprimée en assertion",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P02",
+              "phrase": "S06",
+              "citation_de_la_copie": "L’amour rend aveugle à l’objet aimé : lorsqu’il se porte excessivement sur soi, il empêche de juger ses propres fautes.",
+              "fonction_annoncee": "Expliquer le mécanisme de l’aveuglement"
+            },
+            {
+              "paragraphe": "P02",
+              "phrase": "S07",
+              "citation_de_la_copie": "L’intérêt personnel reçoit alors plus d’estime que le vrai, le juste et le beau.",
+              "fonction_annoncee": "Montrer le renversement des critères"
+            },
+            {
+              "paragraphe": "P02",
+              "phrase": "S08",
+              "citation_de_la_copie": "La difficulté n’est donc pas de s’aimer, mais de faire de soi la mesure de toute valeur.",
+              "fonction_annoncee": "Distinguer amour de soi et excès d’amour de soi"
+            }
+          ],
+          "diagnostic": "La cécité de l’amour est énoncée comme une loi puis appliquée à soi ; le lecteur n’apprend pas pourquoi l’identité de l’être aimé fausse l’évaluation d’un acte. La priorité de l’intérêt et la mesure de « toute valeur » sont ensuite affirmées. La fonction mécanisme ne remplace pas l’inférence manquante.",
+          "exigences": [
+            "8 D2-D4",
+            "8.1",
+            "9.2"
+          ]
+        },
+        {
+          "priorite": "P1",
+          "qualification": "modalité et inférence sous-établies",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P04",
+              "phrase": "S13",
+              "citation_de_la_copie": "Le même aveuglement se retrouve dans le savoir : nous prenons notre ignorance pour de la sagesse.",
+              "fonction_annoncee": "Transition : étendre le mécanisme au jugement intellectuel"
+            },
+            {
+              "paragraphe": "P04",
+              "phrase": "S14",
+              "citation_de_la_copie": "Parce que nous croyons tout savoir, nous refusons de laisser agir ceux qui sont plus compétents.",
+              "fonction_annoncee": "Expliquer le passage de l’illusion à l’action"
+            },
+            {
+              "paragraphe": "P04",
+              "phrase": "S15",
+              "citation_de_la_copie": "Nous commettons alors nous-mêmes les erreurs que notre prétendue supériorité nous empêchait d’éviter.",
+              "fonction_annoncee": "Montrer la conséquence pratique"
+            }
+          ],
+          "diagnostic": "Croire son ignorance sagesse ne signifie pas encore croire « tout » savoir. Refuser l’intervention de personnes compétentes demande de reconstruire le rapport entre préférence pour son jugement et refus de reconnaître une compétence supérieure. S15 parle seulement d’erreurs qu’on n’a pas évitées : elle ne montre pas comment le refus les produit.",
+          "exigences": [
+            "1.1",
+            "3.3",
+            "8 D4",
+            "9.2"
+          ]
+        },
+        {
+          "priorite": "P1",
+          "qualification": "remède et articulation sous-expliqués",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P04",
+              "phrase": "S16",
+              "citation_de_la_copie": "Platon conclut qu’il faut chercher quelqu’un de meilleur que soi, sans céder à la honte.",
+              "fonction_annoncee": "Présenter le remède à l’aveuglement"
+            },
+            {
+              "paragraphe": "P04",
+              "phrase": "S17",
+              "citation_de_la_copie": "Reconnaître sa limite devient ainsi une condition du progrès moral et intellectuel.",
+              "fonction_annoncee": "Dégager la portée de la recommandation"
+            },
+            {
+              "paragraphe": "P05",
+              "phrase": "S19",
+              "citation_de_la_copie": "Préférer la justice et accepter l’aide d’autrui permettent de corriger cette partialité.",
+              "fonction_annoncee": "Répondre au problème"
+            }
+          ],
+          "diagnostic": "Le rapport entre honte, aveu d’insuffisance et recours à quelqu’un de meilleur est annoncé, non expliqué. « Progrès moral et intellectuel » et « accepter l’aide » sont des gains proposés par la copie ; on ne peut les certifier comme la thèse ou l’issue de l’extrait sans sa fin exacte.",
+          "exigences": [
+            "A2",
+            "5.2",
+            "8 D2-D6",
+            "9 C2-C3"
+          ]
+        }
+      ],
+      "exigences_manquantes_ou_indeterminees": [
+        "Commun C0 : source exacte et propositions numérotées non disponibles (Porte 1).",
+        "Commun C1 : traces prospectives et dossier scellé non fournis (Portes 0, 2, 3, 4) ; historique non reconstituable à partir de la copie seule.",
+        "Commun C2 : annotation phrase par phrase présente, mais sans les six champs systématiques de 9.1.",
+        "Commun C3 : audit 10.1 seulement partiel faute de texte, fiche et registre ; validation A7/10.2 non délivrable.",
+        "1.1",
+        "3.3",
+        "5.2",
+        "7 I6",
+        "8 D2-D4",
+        "8 D2-D6",
+        "8 D4",
+        "8.1",
+        "8.3",
+        "9 C2",
+        "9 C2-C3",
+        "9.2",
+        "A2"
+      ],
+      "intervention_editoriale_proposee": "À source absente : corriger seulement l’annonce pour la faire correspondre à la copie existante et signaler les maillons indéterminés. À source obtenue : restituer les raisons qui relient partialité, norme impersonnelle, croire-savoir, compétence et honte. Ne pas ajouter une doctrine générale de Platon, une condamnation totale de l’amour de soi ou une thèse de progrès non attestée.",
+      "statut_livraison": "état de travail à réexaminer sur source exacte ; aucune note ni homologation A20 attribuée"
+    },
+    {
+      "id": "pascal-2025-asie",
+      "sujet": "pascal-2025-asie",
+      "auteur": "pascal",
+      "regime": "generale",
+      "fichier_source_copie": "philosophie-explication-pascal-2025-asie.html",
+      "source": {
+        "url_presente": "https://eduscol.education.gouv.fr/sites/default/files/document/25-phgeas1-a20pdf-124856.pdf",
+        "texte_original_integral_accessible": false,
+        "statut": "indéterminé : lien documentaire présent, extrait original non disponible pour confrontation",
+        "controle_effectue": "Sources du dépôt, pages d’annales et référence locale origin/corpus consultées ; ni PDF philosophique local ni transcription exacte de cet extrait retrouvés. Aucun contournement réseau."
+      },
+      "mots": {
+        "lexicaux": 282,
+        "compteur_site_espaces": 300
+      },
+      "phrases_annotees": 18,
+      "paragraphes_ou_blocs": 5,
+      "priorite_pedagogique": "P1",
+      "verdict_porte_4_2": "indéterminé (preuve documentaire manquante)",
+      "verdict": "Distinction exactitude/progrès lisible ; inférence sur la conservation et statut de l’exemple à réparer.",
+      "axes": {
+        "probleme": "S02 distingue accroissement humain et répétition animale. Il faut conserver ce problème historique et conceptuel, sans remplacer le texte par un débat contemporain d’éthologie.",
+        "these_modalite": "S03 répond par mémoire et transmission. Les modalités de progrès indéfini, de conservation et de perfection bornée sont les points sensibles ; les mots originaux ne sont pas disponibles pour en contrôler la portée.",
+        "couverture": "Opposition initiale, ruches, instruction naturelle, conservation personnelle et transmission sont abordées. La singularité des raisons de l’absence de progrès animal reste peu analysée.",
+        "operations_inferences": "S11 fait de l’absence d’étude une raison de l’impossibilité de conserver : il manque la prémisse reliant type d’acquisition et conservation. La copie ne distingue pas nettement non-accumulation historique et impossibilité de tout acquis individuel.",
+        "exemples_distinctions": "Le cas de la ruche distingue précision et progrès. Sa fonction dit « preuve par l’exemple », alors qu’un cas ne suffit pas à établir une loi sur tous les animaux. On ne peut savoir sans extrait s’il illustre ou soutient une généralisation déjà posée.",
+        "transitions": "S09 demande une raison de la stabilité ; S13 introduit la conservation humaine. Le lien stabilité → absence de mémoire ne peut pas être seulement suggéré par la succession.",
+        "conclusion": "S17-18 répondent, sans attribuer un savoir effectivement infini à un humain. Néanmoins S16 laisse « infinité » presque indéfini dans la copie nue, malgré une annotation qui promet cette distinction.",
+        "fonctions_trace_source": "18 fonctions présentes ; plusieurs citations très brèves sont non collationnées. L’annotation de S06 sur la preuve et celle de S16 sur le savoir infini demandent un contrôle fonctionnel.",
+        "regime": "Voie générale : explication suivie, sans nécessité d’ajouter une discussion scientifique autonome. La brièveté est compatible avec la qualité si la distinction acquisition/conservation/accumulation est rendue exacte."
+      },
+      "defauts_localises": [
+        {
+          "priorite": "P1",
+          "qualification": "saut d’inférence établi",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P03",
+              "phrase": "S10",
+              "citation_de_la_copie": "La nature les instruit selon les besoins, mais le savoir reçu disparaît avec l’occasion qui l’a suscité.",
+              "fonction_annoncee": "Expliquer la dépendance envers le besoin"
+            },
+            {
+              "paragraphe": "P03",
+              "phrase": "S11",
+              "citation_de_la_copie": "Parce qu’ils reçoivent ce savoir « sans étude », ils ne peuvent le conserver comme un acquis.",
+              "fonction_annoncee": "Relier absence d’apprentissage et absence de mémoire cumulative"
+            }
+          ],
+          "diagnostic": "Recevoir un savoir « sans étude » n’implique pas à lui seul l’impossibilité de le conserver comme acquis. La copie peut rapporter une affirmation du passage, mais doit alors distinguer la prémisse sur le type d’instruction de la conséquence sur sa durée et expliquer le lien que Pascal propose réellement.",
+          "exigences": [
+            "3.2",
+            "3.3",
+            "8 D4",
+            "9.2"
+          ]
+        },
+        {
+          "priorite": "P1",
+          "qualification": "statut logique de l’exemple à préciser",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P02",
+              "phrase": "S06",
+              "citation_de_la_copie": "L’exemple des ruches, identiques à travers les siècles, rend sensible la régularité de l’instinct.",
+              "fonction_annoncee": "Analyser la preuve par l’exemple"
+            },
+            {
+              "paragraphe": "P02",
+              "phrase": "S07",
+              "citation_de_la_copie": "La perfection de l’hexagone n’atteste donc pas un apprentissage cumulatif : la première réalisation vaut déjà la dernière.",
+              "fonction_annoncee": "Distinguer exactitude et progrès"
+            }
+          ],
+          "diagnostic": "La régularité des ruches peut rendre sensible la différence exactitude/progrès ; elle ne démontre pas à elle seule que toute faculté animale soit dépourvue de progrès. L’annotation « preuve par l’exemple » ne dit ni le niveau de généralité ni la limite de ce cas. Ne pas qualifier de preuve universelle ce que la source utiliserait comme illustration ou indice.",
+          "exigences": [
+            "3.2",
+            "8.2",
+            "annexe 1"
+          ]
+        },
+        {
+          "priorite": "P2",
+          "qualification": "distinction annoncée mais incomplète",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P04",
+              "phrase": "S14",
+              "citation_de_la_copie": "Sa mémoire garde l’expérience personnelle ; les livres lui rendent présente celle de ses prédécesseurs.",
+              "fonction_annoncee": "Distinguer les deux modes de conservation"
+            },
+            {
+              "paragraphe": "P04",
+              "phrase": "S15",
+              "citation_de_la_copie": "Chaque génération peut ainsi commencer avec des connaissances qu’elle n’a pas elle-même découvertes.",
+              "fonction_annoncee": "Déduire l’effet de la transmission"
+            },
+            {
+              "paragraphe": "P04",
+              "phrase": "S16",
+              "citation_de_la_copie": "La conservation rend possible l’augmentation : c’est pourquoi Pascal associe l’humanité à « l’infinité ».",
+              "fonction_annoncee": "Expliquer la conclusion sans attribuer à l’homme un savoir infini"
+            }
+          ],
+          "diagnostic": "La transmission est expliquée, mais le rapport à « l’infinité » reste une association de mots. La copie nue doit distinguer un accroissement sans borne assignée de la possession d’un savoir infini déjà achevé ; la fonction en marge ne suffit pas à accomplir cette distinction.",
+          "exigences": [
+            "1.1",
+            "1.3",
+            "5.1",
+            "9.1"
+          ]
+        }
+      ],
+      "exigences_manquantes_ou_indeterminees": [
+        "Commun C0 : source exacte et propositions numérotées non disponibles (Porte 1).",
+        "Commun C1 : traces prospectives et dossier scellé non fournis (Portes 0, 2, 3, 4) ; historique non reconstituable à partir de la copie seule.",
+        "Commun C2 : annotation phrase par phrase présente, mais sans les six champs systématiques de 9.1.",
+        "Commun C3 : audit 10.1 seulement partiel faute de texte, fiche et registre ; validation A7/10.2 non délivrable.",
+        "1.1",
+        "1.3",
+        "3.2",
+        "3.3",
+        "5.1",
+        "8 D4",
+        "8.2",
+        "9.1",
+        "9.2",
+        "annexe 1"
+      ],
+      "intervention_editoriale_proposee": "Conserver le contraste exactitude/progrès ; rétablir le lien précis entre instruction naturelle, conservation et accumulation ; nommer brièvement la différence progrès indéfini/savoir infini achevé.",
+      "statut_livraison": "état de travail à réexaminer sur source exacte ; aucune note ni homologation A20 attribuée"
+    },
+    {
+      "id": "aristote-2025-antilles-guyane",
+      "sujet": "aristote-2025-antilles-guyane",
+      "auteur": "aristote",
+      "regime": "generale",
+      "fichier_source_copie": "philosophie-explication-aristote-2025-antilles-guyane.html",
+      "source": {
+        "url_presente": "https://eduscol.education.gouv.fr/sites/default/files/document/25-phgeag1v1pdf-112467.pdf",
+        "texte_original_integral_accessible": false,
+        "statut": "indéterminé : lien documentaire présent, extrait original non disponible pour confrontation",
+        "controle_effectue": "Sources du dépôt, pages d’annales et référence locale origin/corpus consultées ; ni PDF philosophique local ni transcription exacte de cet extrait retrouvés. Aucun contournement réseau."
+      },
+      "mots": {
+        "lexicaux": 314,
+        "compteur_site_espaces": 323
+      },
+      "phrases_annotees": 19,
+      "paragraphes_ou_blocs": 5,
+      "priorite_pedagogique": "P1",
+      "verdict_porte_4_2": "indéterminé (preuve documentaire manquante)",
+      "verdict": "Voix des adversaires bien distinguées ; crédibilité et vérité sont trop facilement confondues dans le dernier mouvement.",
+      "axes": {
+        "probleme": "S02 vise une stratégie éducative spécifique : condamner le plaisir pour redresser l’inclination. Le problème n’est pas simplement « le plaisir est-il bon ? ».",
+        "these_modalite": "S03 condamne la généralisation éducative et S18 écarte une thèse de bien suprême. Cependant « fausseté manifeste » à la fin n’est pas démontrée par la seule inconséquence du contempteur.",
+        "couverture": "Importance du plaisir, voix des adversaires, stratégie de contrepoids et effet inverse sont parcourus. Le passage original n’étant pas accessible, on ne sait si d’autres propriétés ou nuances du plaisir sont omises.",
+        "operations_inferences": "S14 énonce une force persuasive des faits ; S15 explique la perte de crédit ; S16 ajoute la croyance inverse « tout plaisir ». Il faut distinguer ce mécanisme d’audience d’une réfutation logique de la condamnation.",
+        "exemples_distinctions": "S10 distingue conviction sincère et calcul pédagogique : bonne précaution de voix. S12 attribue le milieu au résultat espéré de cette stratégie, sans importer automatiquement une théorie entière du juste milieu.",
+        "transitions": "S09 relie le rôle du plaisir à sa controverse ; S13 pose la question de l’efficacité de la stratégie. Le verbe « dément » risque déjà d’effacer la différence entre contradiction pratique et fausseté.",
+        "conclusion": "S18-19 concluent sur une éducation vraie et cohérente. « La vertu exige » énonce toutefois une norme plus large que l’échec pédagogique effectivement montré par la copie.",
+        "fonctions_trace_source": "19 fonctions présentes ; la fonction de S16 annonce un renversement causal dont une étape manque. Le mot cité « juste milieu » et la formule finale sont non collationnés.",
+        "regime": "Voie générale : explication du débat local, sans dissertation morale générale requise. L’enjeu de vérité ne doit pas devenir un simple jugement sur l’hypocrisie du locuteur."
+      },
+      "defauts_localises": [
+        {
+          "priorite": "P1",
+          "qualification": "distinction logique manquante",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P04",
+              "phrase": "S13",
+              "citation_de_la_copie": "Mais une stratégie éducative peut-elle réussir si elle affirme ce que l’expérience dément ?",
+              "fonction_annoncee": "Transition-question : ouvrir la critique décisive"
+            },
+            {
+              "paragraphe": "P04",
+              "phrase": "S14",
+              "citation_de_la_copie": "Aristote rappelle que, dans les actions et les sentiments, les faits persuadent davantage que les discours.",
+              "fonction_annoncee": "Énoncer la raison de l’objection"
+            },
+            {
+              "paragraphe": "P04",
+              "phrase": "S15",
+              "citation_de_la_copie": "Lorsque le contempteur du plaisir y cède lui-même, son comportement retire tout crédit à sa condamnation.",
+              "fonction_annoncee": "Expliquer l’exemple de contradiction"
+            },
+            {
+              "paragraphe": "P05",
+              "phrase": "S18",
+              "citation_de_la_copie": "Aristote ne fait pas du plaisir le bien suprême : il refuse d’éduquer par une fausseté manifeste.",
+              "fonction_annoncee": "Répondre au problème sans extrapoler"
+            }
+          ],
+          "diagnostic": "Qu’un adversaire du plaisir y cède discrédite son discours sans démontrer que sa proposition est fausse : il peut agir contre ce qu’il croit vrai. La copie passe de « les faits persuadent » à « l’expérience dément » et « fausseté manifeste » sans distinguer vérité, crédibilité et effet pédagogique. Cette distinction est centrale à ce qu’elle prétend expliquer.",
+          "exigences": [
+            "A4",
+            "3.2",
+            "8 D4",
+            "8.4"
+          ]
+        },
+        {
+          "priorite": "P1",
+          "qualification": "inférence d’audience sous-expliquée",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P04",
+              "phrase": "S15",
+              "citation_de_la_copie": "Lorsque le contempteur du plaisir y cède lui-même, son comportement retire tout crédit à sa condamnation.",
+              "fonction_annoncee": "Expliquer l’exemple de contradiction"
+            },
+            {
+              "paragraphe": "P04",
+              "phrase": "S16",
+              "citation_de_la_copie": "Le discours excessif produit alors l’effet inverse de celui qu’il recherchait : il fait croire que tout plaisir est désirable.",
+              "fonction_annoncee": "Montrer le renversement causal"
+            }
+          ],
+          "diagnostic": "La contradiction du locuteur ne suffit pas à faire croire que tout plaisir est désirable. Il faut reconstruire comment l’auditeur généralise indûment à tous les plaisirs et perd la distinction qu’une éducation vraie devrait conserver, si telle est bien l’inférence du texte exact.",
+          "exigences": [
+            "3.1",
+            "8 D4-D5",
+            "9.2"
+          ]
+        },
+        {
+          "priorite": "P2",
+          "qualification": "gain normatif plus large que la preuve interne",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P05",
+              "phrase": "S19",
+              "citation_de_la_copie": "La vertu exige d’accorder les paroles, les conduites et la juste appréciation des plaisirs.",
+              "fonction_annoncee": "Conclure sur la cohérence morale"
+            }
+          ],
+          "diagnostic": "L’accord des paroles, des conduites et de l’appréciation des plaisirs peut être une portée raisonnable, mais la copie vient surtout de montrer l’échec d’un discours excessif. Distinguer ce résultat de la définition générale de ce que la vertu exige, ou ancrer celle-ci dans la source.",
+          "exigences": [
+            "A2",
+            "5.2",
+            "9 C3"
+          ]
+        }
+      ],
+      "exigences_manquantes_ou_indeterminees": [
+        "Commun C0 : source exacte et propositions numérotées non disponibles (Porte 1).",
+        "Commun C1 : traces prospectives et dossier scellé non fournis (Portes 0, 2, 3, 4) ; historique non reconstituable à partir de la copie seule.",
+        "Commun C2 : annotation phrase par phrase présente, mais sans les six champs systématiques de 9.1.",
+        "Commun C3 : audit 10.1 seulement partiel faute de texte, fiche et registre ; validation A7/10.2 non délivrable.",
+        "3.1",
+        "3.2",
+        "5.2",
+        "8 D4",
+        "8 D4-D5",
+        "8.4",
+        "9 C3",
+        "9.2",
+        "A2",
+        "A4"
+      ],
+      "intervention_editoriale_proposee": "Séparer vérité d’une proposition, crédit du locuteur et croyance de l’auditeur ; rendre explicite l’étape qui conduit à « tout plaisir » ; ne pas déduire la fausseté d’une condamnation du seul comportement de celui qui la professe.",
+      "statut_livraison": "état de travail à réexaminer sur source exacte ; aucune note ni homologation A20 attribuée"
+    },
+    {
+      "id": "mill-2025-metropole-secours",
+      "sujet": "mill-2025-metropole-secours",
+      "auteur": "mill",
+      "regime": "generale",
+      "fichier_source_copie": "philosophie-explication-mill-2025-metropole-secours.html",
+      "source": {
+        "url_presente": "https://eduscol.education.gouv.fr/sites/default/files/document/25-phgeme2v1pdf-112461.pdf",
+        "texte_original_integral_accessible": false,
+        "statut": "indéterminé : lien documentaire présent, extrait original non disponible pour confrontation",
+        "controle_effectue": "Sources du dépôt, pages d’annales et référence locale origin/corpus consultées ; ni PDF philosophique local ni transcription exacte de cet extrait retrouvés. Aucun contournement réseau."
+      },
+      "mots": {
+        "lexicaux": 317,
+        "compteur_site_espaces": 325
+      },
+      "phrases_annotees": 18,
+      "paragraphes_ou_blocs": 5,
+      "priorite_pedagogique": "P2",
+      "verdict_porte_4_2": "indéterminé (preuve documentaire manquante)",
+      "verdict": "Brièveté relativement maîtrisée : deux branches et réciprocité lisibles ; contrôle textuel indispensable et un maillon pédagogique à préciser.",
+      "axes": {
+        "probleme": "S02 demande pourquoi protéger une opinion même erronée ; le corps élargit bien à l’interdiction de faire taire et au tort collectif.",
+        "these_modalite": "S03 annonce les deux gains : découverte et intelligence du vrai. S14 distingue impossibilité de certifier la fausseté et S15 l’hypothèse où on pourrait la certifier. Ces modalités sont importantes et bien visibles dans la copie.",
+        "couverture": "Unanimité contre un, réciprocité, hypothèse de possession privée, bien commun et deux cas sont présents. Sans extrait, on ne peut contrôler les destinataires temporels ou les degrés de bénéfice éventuellement explicités par Mill.",
+        "operations_inferences": "Le raisonnement par cas est effectivement reconstruit ; le second cas explique moins précisément comment la confrontation transforme la compréhension. La prémisse faillibiliste S14 est rapportée comme affirmation, non démontrée.",
+        "exemples_distinctions": "L’expérience de pensée initiale ne devient pas une preuve par sondage majoritaire. La distinction opinion comme possession/bien de discussion est claire ; aucun exemple extérieur décoratif n’est nécessaire.",
+        "transitions": "S09 demande pourquoi le dommage concerne même les adversaires ; S13 rassemble les branches. La progression ne se contente pas d’aligner les thèmes.",
+        "conclusion": "S17-18 répondent et dégagent le gain commun. La chaîne des cas reste implicitement contenue dans les deux fonctions de la liberté de discussion.",
+        "fonctions_trace_source": "18 fonctions présentes. Aucun micro-extrait direct n’ancre les unités du développement ; la reconstruction des deux branches n’est donc pas vérifiable mot à mot ici.",
+        "regime": "Voie générale : organisation suivie cohérente. Ce modèle illustre pourquoi 18 phrases ne constituent pas en elles-mêmes un défaut ni une preuve d’excellence."
+      },
+      "defauts_localises": [
+        {
+          "priorite": "P2",
+          "qualification": "mécanisme pédagogique un peu elliptique",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P03",
+              "phrase": "S11",
+              "citation_de_la_copie": "Si elle est fausse, la confrontation permet néanmoins de mieux saisir la vérité que l’on défend.",
+              "fonction_annoncee": "Établir le second cas"
+            },
+            {
+              "paragraphe": "P03",
+              "phrase": "S12",
+              "citation_de_la_copie": "L’erreur n’est donc pas utile parce qu’elle serait vraie, mais parce que sa réfutation donne des raisons à une conviction qui risquerait de rester passive.",
+              "fonction_annoncee": "Expliquer la différence entre vérité et compréhension de la vérité"
+            }
+          ],
+          "diagnostic": "« Mieux saisir » et « donne des raisons » expriment le gain mais pas exactement le geste qui le produit : la contradiction oblige à expliciter et éprouver les raisons, plutôt qu’à répéter une conviction passive. Une précision locale peut suffire ; aucun développement supplémentaire de doctrine n’est requis.",
+          "exigences": [
+            "8 D4-D5",
+            "8.1"
+          ]
+        },
+        {
+          "priorite": "P2",
+          "qualification": "absence d’ancrages brefs",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P02",
+              "phrase": "S05",
+              "citation_de_la_copie": "L’hypothèse d’une humanité unanime contre un seul individu rend d’abord manifeste qu’une majorité ne fonde aucun droit de censure.",
+              "fonction_annoncee": "Expliquer la portée de l’hypothèse initiale"
+            },
+            {
+              "paragraphe": "P02",
+              "phrase": "S07",
+              "citation_de_la_copie": "Mill envisage alors l’opinion comme une simple possession privée : le dommage semblerait varier avec le nombre de personnes lésées.",
+              "fonction_annoncee": "Expliquer la concession hypothétique"
+            },
+            {
+              "paragraphe": "P04",
+              "phrase": "S14",
+              "citation_de_la_copie": "Mill ajoute qu’on ne peut jamais être certain de la fausseté de l’opinion supprimée.",
+              "fonction_annoncee": "Préciser la limite de notre jugement"
+            },
+            {
+              "paragraphe": "P04",
+              "phrase": "S16",
+              "citation_de_la_copie": "La dernière phrase ne répète donc pas la thèse : elle ferme successivement les deux justifications possibles de la censure.",
+              "fonction_annoncee": "Éclairer la fonction conclusive de la dernière phrase"
+            }
+          ],
+          "diagnostic": "Les unités sont désignées fidèlement à l’architecture interne de la copie, mais aucun extrait bref ne permet de contrôler l’hypothèse initiale, la concession privée ou la dernière phrase. Ce défaut de trace interdit de certifier l’exactitude des modalités et de la couverture.",
+          "exigences": [
+            "8 D1",
+            "9.1",
+            "1"
+          ]
+        },
+        {
+          "priorite": "P3",
+          "qualification": "prémisse à garder comme telle",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P04",
+              "phrase": "S14",
+              "citation_de_la_copie": "Mill ajoute qu’on ne peut jamais être certain de la fausseté de l’opinion supprimée.",
+              "fonction_annoncee": "Préciser la limite de notre jugement"
+            },
+            {
+              "paragraphe": "P04",
+              "phrase": "S15",
+              "citation_de_la_copie": "Et même si cette certitude était possible, la discussion resterait nécessaire pour maintenir une compréhension vivante du vrai.",
+              "fonction_annoncee": "Expliquer pourquoi le second cas subsiste"
+            }
+          ],
+          "diagnostic": "L’impossibilité de certifier une opinion fausse est une affirmation rapportée ici, pas une conséquence démontrée par l’énumération des cas. La copie garde utilement une seconde branche même dans l’hypothèse adverse ; conserver clairement cette différence suffit, sans inventer une preuve absente du passage.",
+          "exigences": [
+            "3.2",
+            "3.3"
+          ]
+        }
+      ],
+      "exigences_manquantes_ou_indeterminees": [
+        "Commun C0 : source exacte et propositions numérotées non disponibles (Porte 1).",
+        "Commun C1 : traces prospectives et dossier scellé non fournis (Portes 0, 2, 3, 4) ; historique non reconstituable à partir de la copie seule.",
+        "Commun C2 : annotation phrase par phrase présente, mais sans les six champs systématiques de 9.1.",
+        "Commun C3 : audit 10.1 seulement partiel faute de texte, fiche et registre ; validation A7/10.2 non délivrable.",
+        "1",
+        "3.2",
+        "3.3",
+        "8 D1",
+        "8 D4-D5",
+        "8.1",
+        "9.1"
+      ],
+      "intervention_editoriale_proposee": "Conserver l’économie et le raisonnement par cas ; préciser le travail intellectuel rendu nécessaire par la contradiction ; rétablir quelques ancrages exacts après obtention du sujet.",
+      "statut_livraison": "état de travail à réexaminer sur source exacte ; aucune note ni homologation A20 attribuée"
+    },
+    {
+      "id": "bergson-2023-centres-etrangers",
+      "sujet": "bergson-2023-centres-etrangers",
+      "auteur": "bergson",
+      "regime": "generale",
+      "fichier_source_copie": "philosophie-explication-bergson-2023-centres-etrangers.html",
+      "source": {
+        "url_presente": "https://eduscol.education.gouv.fr/sites/default/files/document/23-phgeg11-a24pdf-104043.pdf",
+        "texte_original_integral_accessible": false,
+        "statut": "indéterminé : lien documentaire présent, extrait original non disponible pour confrontation",
+        "controle_effectue": "Sources du dépôt, pages d’annales et référence locale origin/corpus consultées ; ni PDF philosophique local ni transcription exacte de cet extrait retrouvés. Aucun contournement réseau."
+      },
+      "mots": {
+        "lexicaux": 319,
+        "compteur_site_espaces": 334
+      },
+      "phrases_annotees": 19,
+      "paragraphes_ou_blocs": 5,
+      "priorite_pedagogique": "P1",
+      "verdict_porte_4_2": "indéterminé (preuve documentaire manquante)",
+      "verdict": "Réserves et voix bien signalées ; le critère d’imprévisibilité demande une distinction conceptuelle centrale.",
+      "axes": {
+        "probleme": "S02 pose l’opposition mécanisme/choix. Le « si » doit rester une hypothèse de départ et ne pas faire dire à Bergson qu’il admet sans réserve le déterminisme de toute réalité.",
+        "these_modalite": "S03, S08, S12 et S19 maintiennent les réserves de démonstration : résister à la prévision ne doit toutefois pas être compris comme la définition suffisante de tout événement libre.",
+        "couverture": "Mécanisme, automate, droite/gauche, prédiction et Lune fictive sont pris en charge. La réserve finale est explicitement gardée ; couverture exacte et ordre des objections impossibles à collationner.",
+        "operations_inferences": "La copie distingue perception immédiate et réfutation scientifique. Elle ne distingue pas assez la prévision impossible faute d’information d’une indétermination qui subsisterait même avec une connaissance suffisante.",
+        "exemples_distinctions": "L’horloge reçoit une propriété pertinente ; le choix est présenté comme apparence et la Lune comme fiction, non comme fait physique. Le rôle exact de « tromper » demande encore de séparer surprise du savant et initiative de l’agent.",
+        "transitions": "S09 oppose les voix ; S13 déplace vers la caractérisation. S14 réintroduit une réponse scientifique, sans préciser le statut et la portée du « toujours ».",
+        "conclusion": "S18-19 ne déclarent pas la liberté démontrée et conservent « si elle existe ». C’est une précaution importante, qui ne dispense pas de fixer le sens du critère proposé.",
+        "fonctions_trace_source": "19 fonctions présentes ; citations courtes non collationnées. La fonction S17 « définir » risque de donner à une formule plus d’extension que l’analogie n’en justifie.",
+        "regime": "Voie générale : explication d’une confrontation et d’une comparaison, sans obligation de résoudre personnellement le problème métaphysique de la liberté."
+      },
+      "defauts_localises": [
+        {
+          "priorite": "P1",
+          "qualification": "distinction centrale sous-expliquée",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P01",
+              "phrase": "S03",
+              "citation_de_la_copie": "Bergson caractérise la liberté comme ce qui résiste à la prévision scientifique, sans prétendre ici démontrer définitivement son existence.",
+              "fonction_annoncee": "Énoncer une thèse fidèle à sa réserve finale"
+            },
+            {
+              "paragraphe": "P04",
+              "phrase": "S14",
+              "citation_de_la_copie": "La science peut toujours supposer qu’une connaissance suffisante des causes permettrait de prévoir l’acte.",
+              "fonction_annoncee": "Présenter la réponse déterministe envisagée"
+            },
+            {
+              "paragraphe": "P04",
+              "phrase": "S17",
+              "citation_de_la_copie": "Ainsi, la « faculté de tromper la science » désigne la possibilité d’un acte imprévisible, non la volonté de mentir au savant.",
+              "fonction_annoncee": "Définir la formule finale"
+            }
+          ],
+          "diagnostic": "Un événement peut être imprévisible par manque d’information ou complexité sans être un acte libre. La copie caractérise la liberté par la résistance à la prévision, puis parle d’« un acte imprévisible », sans fixer la portée de cette imprévisibilité. Elle ne démontre pas explicitement la réciproque imprévisible → libre ; elle doit prévenir ce contresens et distinguer limites de la connaissance et initiative. La source devra déterminer la formulation exacte permise.",
+          "exigences": [
+            "1.3",
+            "3.2",
+            "5.1",
+            "8 D4-D5"
+          ]
+        },
+        {
+          "priorite": "P2",
+          "qualification": "portée de la fiction à préciser",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P04",
+              "phrase": "S15",
+              "citation_de_la_copie": "L’exemple de l’éclipse imagine au contraire une Lune capable de déjouer l’astronome : la plaisanterie révèle ce que la liberté changerait dans une prévision.",
+              "fonction_annoncee": "Expliquer la fonction de l’image fictive"
+            },
+            {
+              "paragraphe": "P04",
+              "phrase": "S16",
+              "citation_de_la_copie": "La comparaison ne prouve pas qu’un astre choisit ; elle isole l’idée d’une initiative qui échappe au calcul.",
+              "fonction_annoncee": "Éviter de prendre l’image pour un argument physique"
+            }
+          ],
+          "diagnostic": "La Lune qui « déjoue » un calcul ne figure pas seulement une donnée que l’astronome ignorait ; la copie lui prête une capacité d’initiative. Expliquer la différence entre calcul manqué et décision contraire à une prévision donne à la fiction son rôle exact, sans lui attribuer de preuve physique.",
+          "exigences": [
+            "8.2",
+            "3.2",
+            "8 D5"
+          ]
+        },
+        {
+          "priorite": "P2",
+          "qualification": "modalité à vérifier",
+          "gravite_annexe_1": "à surveiller ; caractère bloquant comme contresens de l’original non déterminable sans texte exact",
+          "localisations": [
+            {
+              "paragraphe": "P04",
+              "phrase": "S14",
+              "citation_de_la_copie": "La science peut toujours supposer qu’une connaissance suffisante des causes permettrait de prévoir l’acte.",
+              "fonction_annoncee": "Présenter la réponse déterministe envisagée"
+            }
+          ],
+          "diagnostic": "« Toujours supposer » est une portée très forte attribuée à la science. Sans les mots originaux et le repérage de la voix, on ne peut savoir s’il s’agit d’une objection déterministe, d’une hypothèse ou d’une affirmation de l’auteur. Réduire l’assurance documentaire et contrôler la proposition précise.",
+          "exigences": [
+            "1.1",
+            "1.2",
+            "A5"
+          ]
+        }
+      ],
+      "exigences_manquantes_ou_indeterminees": [
+        "Commun C0 : source exacte et propositions numérotées non disponibles (Porte 1).",
+        "Commun C1 : traces prospectives et dossier scellé non fournis (Portes 0, 2, 3, 4) ; historique non reconstituable à partir de la copie seule.",
+        "Commun C2 : annotation phrase par phrase présente, mais sans les six champs systématiques de 9.1.",
+        "Commun C3 : audit 10.1 seulement partiel faute de texte, fiche et registre ; validation A7/10.2 non délivrable.",
+        "1.1",
+        "1.2",
+        "1.3",
+        "3.2",
+        "5.1",
+        "8 D4-D5",
+        "8 D5",
+        "8.2",
+        "A5"
+      ],
+      "intervention_editoriale_proposee": "Conserver toutes les réserves déjà présentes ; préciser dans quel sens un acte échapperait en principe à la prévision et séparer ce sens d’une ignorance provisoire ; contrôler le statut de la réponse scientifique sur le passage exact.",
+      "statut_livraison": "état de travail à réexaminer sur source exacte ; aucune note ni homologation A20 attribuée"
+    }
+  ]
+}

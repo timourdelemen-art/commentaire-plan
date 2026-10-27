@@ -1,0 +1,233 @@
+{
+  "date": "2026-10-27",
+  "reference_copies": "0ec0e3b39f26d5265f330c91d8b9aa01517770a6",
+  "protocole_docx_sha256": "1324638863dc8a8110c11174fa407548a9b6ec353b3f07d6b4a384013e219093",
+  "statut": "Les défauts internes de copie sont audités. Aucune fidélité au texte original ni couverture intégrale encore validée.",
+  "sources": [
+    {
+      "id": "nietzsche-2026-metropole",
+      "auteur": "Nietzsche",
+      "source_officielle_indiquee": "https://www.education.gouv.fr/sites/default/files/document/baccalaureat-general-2026-philosophie-517487.pdf",
+      "source_consultee": false,
+      "fichier_source_local": null,
+      "source_sha256": null,
+      "transcription_collationnee": false,
+      "copies": [
+        {
+          "id": "nietzsche-2026-metropole-option-libre",
+          "source_copie": "scripts/explication-textes-data.json"
+        }
+      ],
+      "confrontations": [],
+      "statut": "en_attente_du_texte_exact"
+    },
+    {
+      "id": "freud-2026-amerique-du-nord",
+      "auteur": "Freud",
+      "source_officielle_indiquee": "https://www.education.gouv.fr/sites/default/files/document/baccalaureat-general-2026-philosophie-517046.pdf",
+      "source_consultee": false,
+      "fichier_source_local": null,
+      "source_sha256": null,
+      "transcription_collationnee": false,
+      "copies": [
+        {
+          "id": "freud-2026-amerique-du-nord-option-libre",
+          "source_copie": "scripts/explication-textes-data.json"
+        }
+      ],
+      "confrontations": [],
+      "statut": "en_attente_du_texte_exact"
+    },
+    {
+      "id": "tocqueville-2026-asie",
+      "auteur": "Tocqueville",
+      "source_officielle_indiquee": "https://www.education.gouv.fr/sites/default/files/document/baccalaureat-general-2026-philosophie-517430.pdf",
+      "source_consultee": false,
+      "fichier_source_local": null,
+      "source_sha256": null,
+      "transcription_collationnee": false,
+      "copies": [
+        {
+          "id": "tocqueville-2026-asie-option-libre",
+          "source_copie": "scripts/explication-textes-data.json"
+        }
+      ],
+      "confrontations": [],
+      "statut": "en_attente_du_texte_exact"
+    },
+    {
+      "id": "weil-2026-centres-etrangers",
+      "auteur": "Simone Weil",
+      "source_officielle_indiquee": "https://www.education.gouv.fr/sites/default/files/document/baccalaur-at-g-n-ral-2026-philosophie-517142.pdf",
+      "source_consultee": false,
+      "fichier_source_local": null,
+      "source_sha256": null,
+      "transcription_collationnee": false,
+      "copies": [
+        {
+          "id": "weil-2026-centres-etrangers-option-libre",
+          "source_copie": "scripts/explication-textes-data.json"
+        }
+      ],
+      "confrontations": [],
+      "statut": "en_attente_du_texte_exact"
+    },
+    {
+      "id": "malebranche-2026-antilles-guyane",
+      "auteur": "Malebranche",
+      "source_officielle_indiquee": "https://www.education.gouv.fr/sites/default/files/document/baccalaureat-technologique-2026-philosophie-517532.pdf",
+      "source_consultee": false,
+      "fichier_source_local": null,
+      "source_sha256": null,
+      "transcription_collationnee": false,
+      "copies": [
+        {
+          "id": "malebranche-2026-antilles-guyane-option-1",
+          "source_copie": "scripts/explication-textes-data.json"
+        },
+        {
+          "id": "malebranche-2026-antilles-guyane-option-2",
+          "source_copie": "scripts/explication-textes-data.json"
+        }
+      ],
+      "confrontations": [],
+      "statut": "en_attente_du_texte_exact"
+    },
+    {
+      "id": "rawls-2025-metropole",
+      "auteur": "Rawls",
+      "source_officielle_indiquee": "https://eduscol.education.gouv.fr/sites/default/files/document/25-phgeme1v1pdf-112464.pdf",
+      "source_consultee": false,
+      "fichier_source_local": null,
+      "source_sha256": null,
+      "transcription_collationnee": false,
+      "copies": [
+        {
+          "id": "rawls-2025-metropole-option-libre",
+          "source_copie": "scripts/explication-textes-data.json"
+        }
+      ],
+      "confrontations": [],
+      "statut": "en_attente_du_texte_exact"
+    },
+    {
+      "id": "weil-2024-metropole",
+      "auteur": "Simone Weil",
+      "source_officielle_indiquee": "https://eduscol.education.gouv.fr/sites/default/files/document/24-phgeme1v1-0pdf-106296.pdf",
+      "source_consultee": false,
+      "fichier_source_local": null,
+      "source_sha256": null,
+      "transcription_collationnee": false,
+      "copies": [
+        {
+          "id": "weil-2024-metropole-option-libre",
+          "source_copie": "scripts/explication-textes-data.json"
+        }
+      ],
+      "confrontations": [],
+      "statut": "en_attente_du_texte_exact"
+    },
+    {
+      "id": "levi-strauss-2023-metropole",
+      "auteur": "Lévi-Strauss",
+      "source_officielle_indiquee": "https://eduscol.education.gouv.fr/sites/default/files/document/23-phgeme1pdf-103488.pdf",
+      "source_consultee": false,
+      "fichier_source_local": null,
+      "source_sha256": null,
+      "transcription_collationnee": false,
+      "copies": [
+        {
+          "id": "levi-strauss-2023-metropole-option-libre",
+          "source_copie": "scripts/explication-textes-data.json"
+        }
+      ],
+      "confrontations": [],
+      "statut": "en_attente_du_texte_exact"
+    },
+    {
+      "id": "platon-2025-polynesie",
+      "auteur": "platon",
+      "source_officielle_indiquee": "https://eduscol.education.gouv.fr/sites/default/files/document/25-phgepo1-a16pdf-125396.pdf",
+      "source_consultee": false,
+      "fichier_source_local": null,
+      "source_sha256": null,
+      "transcription_collationnee": false,
+      "copies": [
+        {
+          "id": "platon-2025-polynesie",
+          "source_copie": "philosophie-explication-platon-2025-polynesie.html"
+        }
+      ],
+      "confrontations": [],
+      "statut": "en_attente_du_texte_exact"
+    },
+    {
+      "id": "pascal-2025-asie",
+      "auteur": "pascal",
+      "source_officielle_indiquee": "https://eduscol.education.gouv.fr/sites/default/files/document/25-phgeas1-a20pdf-124856.pdf",
+      "source_consultee": false,
+      "fichier_source_local": null,
+      "source_sha256": null,
+      "transcription_collationnee": false,
+      "copies": [
+        {
+          "id": "pascal-2025-asie",
+          "source_copie": "philosophie-explication-pascal-2025-asie.html"
+        }
+      ],
+      "confrontations": [],
+      "statut": "en_attente_du_texte_exact"
+    },
+    {
+      "id": "aristote-2025-antilles-guyane",
+      "auteur": "aristote",
+      "source_officielle_indiquee": "https://eduscol.education.gouv.fr/sites/default/files/document/25-phgeag1v1pdf-112467.pdf",
+      "source_consultee": false,
+      "fichier_source_local": null,
+      "source_sha256": null,
+      "transcription_collationnee": false,
+      "copies": [
+        {
+          "id": "aristote-2025-antilles-guyane",
+          "source_copie": "philosophie-explication-aristote-2025-antilles-guyane.html"
+        }
+      ],
+      "confrontations": [],
+      "statut": "en_attente_du_texte_exact"
+    },
+    {
+      "id": "mill-2025-metropole-secours",
+      "auteur": "mill",
+      "source_officielle_indiquee": "https://eduscol.education.gouv.fr/sites/default/files/document/25-phgeme2v1pdf-112461.pdf",
+      "source_consultee": false,
+      "fichier_source_local": null,
+      "source_sha256": null,
+      "transcription_collationnee": false,
+      "copies": [
+        {
+          "id": "mill-2025-metropole-secours",
+          "source_copie": "philosophie-explication-mill-2025-metropole-secours.html"
+        }
+      ],
+      "confrontations": [],
+      "statut": "en_attente_du_texte_exact"
+    },
+    {
+      "id": "bergson-2023-centres-etrangers",
+      "auteur": "bergson",
+      "source_officielle_indiquee": "https://eduscol.education.gouv.fr/sites/default/files/document/23-phgeg11-a24pdf-104043.pdf",
+      "source_consultee": false,
+      "fichier_source_local": null,
+      "source_sha256": null,
+      "transcription_collationnee": false,
+      "copies": [
+        {
+          "id": "bergson-2023-centres-etrangers",
+          "source_copie": "philosophie-explication-bergson-2023-centres-etrangers.html"
+        }
+      ],
+      "confrontations": [],
+      "statut": "en_attente_du_texte_exact"
+    }
+  ]
+}
