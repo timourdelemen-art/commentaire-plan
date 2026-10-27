@@ -10,7 +10,7 @@ const server=http.createServer((req,res)=>{
  if(url.pathname==='/micro-interdit')return res.writeHead(200,{'Content-Type':'text/html; charset=utf-8'}).end('<!doctype html><html lang="fr"><title>Témoin micro</title><h1>Micro interdit</h1></html>');
  const f=path.resolve(root,'.'+url.pathname);if(!f.startsWith(root+path.sep))return res.writeHead(403).end();fs.readFile(f,(e,b)=>{if(e)return res.writeHead(404).end();res.setHeader('Content-Type',f.endsWith('.css')?'text/css':f.endsWith('.js')?'application/javascript':'text/html; charset=utf-8');res.end(b);});
 });
-(async()=>{await new Promise(r=>server.listen(0,'127.0.0.1',r));const base='http://127.0.0.1:'+server.address().port+'/';const browser=await chromium.launch({args:['--use-fake-device-for-media-stream']});
+(async()=>{await new Promise(r=>server.listen(0,'127.0.0.1',r));const base='http://127.0.0.1:'+server.address().port+'/';const browser=await chromium.launch({channel:'chromium',args:['--use-fake-device-for-media-stream']});
  try{for(const width of [390,1280]){
   const ctx=await browser.newContext({viewport:{width,height:900},permissions:['microphone']}),page=await ctx.newPage();
   async function capture(){return page.evaluate(async()=>{const p=document.permissionsPolicy||document.featurePolicy;try{const stream=await navigator.mediaDevices.getUserMedia({audio:true});const track=stream.getAudioTracks()[0],live=track.readyState;stream.getTracks().forEach(t=>t.stop());return {allowed:p.allowsFeature('microphone'),live,ended:track.readyState,camera:p.allowsFeature('camera'),geo:p.allowsFeature('geolocation')};}catch(e){return {allowed:p.allowsFeature('microphone'),error:e.name};}});}
