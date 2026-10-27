@@ -9,3 +9,11 @@ Le contenu visible de l'accueil se limite désormais au menu commun, au paragrap
 Les exercices et les modèles restent dans leurs rubriques. Le petit programme propre à l'ancien accueil est retiré. Le formulaire de nouveautés est déplacé sur la page Contact, avec son consentement ; le lien depuis l'espace enseignants pointe sur ce formulaire. Aucun formulaire n'est envoyé pendant les vérifications.
 
 Le titre principal reste disponible pour les lecteurs d'écran, sans ajouter un titre visuel au paragraphe. Le menu mobile reste accessible sans JavaScript. Les contrôles de l'accueil vérifient le paragraphe unique, les six rubriques au clavier, le menu sans JavaScript et le formulaire déplacé.
+
+## Nom et présentation retenus ensuite
+
+Le propriétaire a choisi **Du brevet au bac** comme nouveau titre du site. Il a également demandé un paragraphe justifié et une formulation davantage commerciale. Le texte est désormais centré dans la page, justifié et limité au même bloc :
+
+> Préparez le brevet et le bac sur de vraies annales, avec une progression guidée jusqu’à la rédaction autonome. Des méthodes rigoureuses et des copies modèles courtes, expliquées phrase par phrase, vous donnent les moyens de viser l’excellence.
+
+Le nom est mis à jour dans les deux sources du menu, les métadonnées générées et les textes de consentement concernés. L'image d'aperçu utilisée lors du partage du lien est renouvelée sous une nouvelle adresse, avec les mêmes trois idées : vraies annales, progression guidée, excellence comme objectif. Aucun bloc visuel n'est ajouté à l'accueil.

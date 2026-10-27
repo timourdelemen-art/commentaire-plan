@@ -13,7 +13,7 @@ const server=http.createServer((req,res)=>{const f=path.resolve(root,'.'+new URL
    await page.goto(base+'bac-commentaire.html');
    for(const w of data)assert.equal(await page.locator('main a[href="'+w.file+'#entrainement"]').count(),1);
    for(const w of data){
-    await page.goto(base+w.file+'#entrainement');await page.locator('[data-etapes].etapes-actives').waitFor();
+    await page.goto(base+w.file+'#entrainement');await page.locator('[data-etapes].etapes-actives').waitFor();assert.equal((await page.locator('header.top .brand').innerText()).replace(/\s+/g,' ').trim(),'DU BREVET AU BAC');
     const support=page.locator('#entrainement .programme-reading');assert((await support.innerText()).split(/\s+/).length>=300);
     assert(await support.evaluate(e=>e.scrollHeight<=e.clientHeight+1),'Le texte doit être entièrement déplié, sans défilement interne');
     assert.equal(await page.locator('#entrainement .texte-chapeau').evaluate(e=>getComputedStyle(e).fontStyle),'italic');
