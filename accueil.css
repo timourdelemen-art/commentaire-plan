@@ -1,40 +1,8 @@
-/* Un départ, une démonstration, puis les ressources facultatives. */
-.home-2026{--home-red:#a63225;--home-ink:#24201c}
-.home-2026 [hidden]{display:none!important}
-.home-start{display:grid;grid-template-columns:1.2fr 1fr;gap:clamp(2rem,6vw,6rem);align-items:center;padding-top:3rem;padding-bottom:3rem}
-.home-promise h1{font-size:clamp(2.4rem,4.8vw,4.6rem);line-height:1.08;letter-spacing:-.035em;margin:1.2rem 0;max-width:13ch}
-.home-promise .home-site-name{font-size:.9rem;letter-spacing:.1em;text-transform:uppercase}
-.home-promise .home-site-tagline{font-size:.85rem}
-.home-intro{font-size:1.15rem;line-height:1.6;max-width:36rem}
-.home-smile{color:var(--home-red);font-size:1.05rem;font-style:italic;margin:1.25rem 0}
-.home-next{padding:clamp(1.25rem,3vw,2rem);border:1px solid #c6bbb0;border-radius:16px;background:#fffcf6;box-shadow:6px 6px 0 #e9e1d6}
-.home-next h2{font-size:1.8rem;margin:.5rem 0 1.3rem}
-.home-next label{display:block;font-weight:700;font-size:.9rem;margin:.9rem 0 .4rem}
-.home-next select{box-sizing:border-box;width:100%;font:inherit;padding:.75rem;border:1px solid #92857b;border-radius:5px;background:#fffefa;color:var(--home-ink)}
-.home-next .btn{display:block;text-align:center;padding:.9rem 1rem}
-.home-next #home-route-note{font-size:.9rem;line-height:1.5;min-height:2.8em;margin:1rem 0}
-.home-taste{display:grid;grid-template-columns:1fr 1.2fr;gap:3rem;padding-top:2rem;padding-bottom:2rem;border-top:1px solid #c6bbb0;border-bottom:1px solid #c6bbb0}
-.home-taste h2{font-size:2rem;margin:.75rem 0 1.3rem}
-.home-taste blockquote{font-size:1.35rem;line-height:1.5;margin:0;padding:0;border:0}
-.home-taste-work button{display:block;width:100%;text-align:left;padding:.9rem 1rem;margin:.65rem 0;border:1px solid #bfb5aa;border-radius:7px;background:#fffcf6;color:var(--home-ink);font:inherit;line-height:1.5;cursor:pointer}
-.home-taste-work button:hover,.home-taste-work button[aria-pressed=true]{border-color:var(--home-red);background:#f2e8de}
-.home-taste-work #home-demo-feedback{padding:.8rem;border-left:3px solid var(--home-red);font-size:.95rem;line-height:1.5}
-.home-2026 details summary{cursor:pointer;font-weight:700;padding:.7rem 0}
-.home-2026 details{margin:.75rem 0}
-.home-write label{display:block;line-height:1.5;margin:.75rem 0}
-.home-write textarea{box-sizing:border-box;width:100%;font:inherit;padding:1rem;line-height:1.5;border:1px solid #92857b;border-radius:6px}
-.home-way{padding-top:2.5rem;padding-bottom:1.5rem}
-.home-way h2{font-size:1.8rem}
-.home-way ol{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;list-style:none;padding:0}
-.home-way li{padding:1rem 0;border-top:2px solid var(--home-red)}
-.home-way b,.home-way span{display:block}.home-way b{font-size:1.2rem;margin-bottom:.5rem}.home-way span{line-height:1.5}
-.home-way>p{font-size:.9rem;max-width:64rem;line-height:1.6}
-.home-more{padding-top:0;padding-bottom:1rem}
-.home-resource-list{display:grid;grid-template-columns:1fr 1fr;gap:2rem}
-.home-2026 .home-lead{margin-top:1rem;padding-top:1.5rem;padding-bottom:1.5rem}
-.home-2026 .home-lead .section-intro{display:block}
-.home-2026 .home-lead h2{font-size:1.65rem}
-.home-2026 .home-lead .lead-form{margin-top:1rem}
-.home-teacher{padding-top:1rem;padding-bottom:2rem}.home-teacher h2{font-size:1.25rem}
-@media(max-width:760px){.home-start{grid-template-columns:1fr;gap:1.5rem;padding-top:1.5rem;padding-bottom:2rem}.home-promise h1{font-size:2.2rem;max-width:none}.home-intro{font-size:1.05rem}.home-taste{grid-template-columns:1fr;gap:1.5rem}.home-way ol{grid-template-columns:1fr;gap:.3rem}.home-resource-list{grid-template-columns:1fr;gap:.5rem}.home-next{box-shadow:4px 4px 0 #e9e1d6}}
-@media(prefers-reduced-motion:reduce){.home-2026 *{scroll-behavior:auto!important}}
+/* Accueil : les onglets et un seul paragraphe de présentation. */
+.home-page{min-height:100vh;min-height:100svh;display:flex;flex-direction:column}
+.home-page>.top,.home-page>.site-footer{flex-shrink:0}
+.home-presentation{flex:1;padding-block:clamp(3rem,12vh,8rem)}
+.home-presentation>p{max-width:54ch;margin:0;font-size:clamp(1.2rem,2.1vw,1.65rem);line-height:1.65}
+.home-accessible-title{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);clip-path:inset(50%);white-space:nowrap;border:0}
+.home-page>.site-footer{margin-top:0;padding-block:18px 24px;font-size:.8rem}
+.home-page>.site-footer .wrap{gap:8px 18px}

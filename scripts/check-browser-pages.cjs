@@ -55,7 +55,7 @@ const server = http.createServer((req,res) => {
         });
         winkInvalid=brandText!=='LA PHRASE JUSTE'||mast.right>mast.next;
         if(name==='index.html'){
-          winkInvalid=winkInvalid||(await page.locator('.home-site-tagline').innerText())!=='Lire, penser, écrire — du brevet au bac.';
+          winkInvalid=winkInvalid||(await page.locator('main>p').count())!==1||(await page.locator('main form,main select,main textarea').count())!==0;
         }else if(await page.locator('.home-site-tagline').count())winkInvalid=true;
         const loaded=await wink.locator('img').evaluate(async img=>{await img.decode();return img.naturalWidth>0;});
         winkInvalid=winkInvalid||!loaded || (name!=='clin-oeil.html' && largeImageRequests!==0);
