@@ -311,8 +311,8 @@ for(const file of pages){
     html=html.replace(/<\/head>/i,'<meta property="og:image" content="'+DOMAIN+'/og-du-brevet-au-bac.png"><meta property="og:image:width" content="1731"><meta property="og:image:height" content="909"><meta property="og:image:alt" content="Du brevet au bac : de vraies annales, une progression guidée, l’excellence pour objectif."><meta name="twitter:card" content="summary_large_image">\n</head>');
   }
   // Le nom de marque reste cohérent dans les sorties de tous les générateurs.
-  html=html.replace(/de (?:Commentaire Plan|La Phrase juste)/g,'du site « Du brevet au bac »');
-  html=html.replace(/Commentaire Plan|COMMENTAIRE PLAN|La Phrase juste/g,'Du brevet au bac');
+  html=html.replace(/de (?:Commentaire Plan|La Phrase [Jj]uste)/g,'du site « Du brevet au bac »');
+  html=html.replace(/Commentaire Plan|COMMENTAIRE PLAN|La Phrase [Jj]uste|LA PHRASE JUSTE/g,'Du brevet au bac');
   html=injectBreadcrumbs(html,r);
   if(!/type=["']speculationrules["']/.test(html)){
     const speculation='<script type="speculationrules" data-seo-speculation="1">{"prefetch":[{"where":{"and":[{"href_matches":"/*"},{"not":{"selector_matches":"[download],.no-prefetch"}}]},"eagerness":"moderate"}]}<\/script>';
