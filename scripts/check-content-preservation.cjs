@@ -14,6 +14,7 @@ const git=(...args)=>cp.execFileSync('git',args,{cwd:root,encoding:'utf8',maxBuf
 const files=git('ls-tree','-r','--name-only',base).split('\n').filter(p=>p.endsWith('.html'));
 const readOld=p=>git('show',base+':'+p);
 const getLinks=s=>[
+ ...[...s.matchAll(/<details\b[^>]*\bid=["']([^"']+)["']/gi)].map(m=>'#'+m[1]),
  ...[...s.matchAll(/<a\b[^>]*\bhref\s*=\s*["']([^"']+)["'][^>]*>/gi)].map(m=>m[1]),
  // Un onglet reste un accès à une section, même quand il remplace un lien du bandeau.
  ...[...s.matchAll(/<button\b[^>]*\brole=["']tab["'][^>]*>/gi)].map(m=>m[0].match(/\baria-controls=["']([^"']+)["']/)?.[1]).filter(Boolean).map(id=>'#'+id)

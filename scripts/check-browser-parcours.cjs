@@ -22,7 +22,8 @@ async function checkNavigation(page,name){
   }
  }
  if(name==='bac-commentaire.html'){
-  assert.equal(await page.locator('.commentaire-choices').first().locator(':scope > a').count(),4,'Les quatre parcours de commentaire doivent être conservés');
+  assert.equal(await page.locator('main [role=tab]').count(),2,'Deux accès distincts : entraînement et ressources');
+  assert.equal(await page.locator('#comm-textes .commentaire-texte-actions a[href$="#entrainement"]').count(),12,'Les douze textes doivent garder leur accès aux exercices');
 }
 if(name==='annales.html'){
   assert.equal(await page.locator('main .library-doors > a').count(),4,'Les quatre banques d’annales doivent être proposées');
