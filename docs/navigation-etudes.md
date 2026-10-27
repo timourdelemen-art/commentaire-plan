@@ -34,7 +34,7 @@ Construire dans une copie jetable selon `AGENTS.md`, puis, avec Playwright insta
 node scripts/check-browser-navigation-etudes.cjs "$BUILD_DIR"
 node scripts/check-browser-explication.cjs "$BUILD_DIR"
 node scripts/check-browser-hlp.cjs "$BUILD_DIR"
-node scripts/check-browser-integration.cjs "$BUILD_DIR"
+node scripts/check-browser-parcours.cjs "$BUILD_DIR"
 ```
 
 Le premier contrôle parcourt les entrées à 390 et 1280 pixels, combine les filtres,

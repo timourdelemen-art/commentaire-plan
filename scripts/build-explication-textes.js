@@ -3,6 +3,20 @@
 const fs = require('fs');
 const path = require('path');
 const data = require('./explication-textes-data.json');
+// Les consignes restent distinctes des modèles, réservés par la PR éditoriale nº 187.
+const consignes = require('./explication-consignes-data.json');
+for (const [id, changes] of Object.entries(consignes)) {
+  const subject = data.subjects.find(s => s.id === id);
+  if (!subject) throw Error('Consignes sans sujet : '+id);
+  for (const [index, task] of Object.entries(changes.drillTasks || {})) {
+    if (!subject.drills[index]) throw Error('Atelier absent : '+id+' '+index);
+    subject.drills[index].task = task;
+  }
+  for (const [index, task] of Object.entries(changes.stageTasks || {})) {
+    if (!subject.stages[index]) throw Error('Étape absente : '+id+' '+index);
+    subject.stages[index][0] = task;
+  }
+}
 const DOMAIN = 'https://commentaire-plan.com';
 const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const file = s => `philosophie-explication-${s.id}.html`;

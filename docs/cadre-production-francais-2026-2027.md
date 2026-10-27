@@ -42,7 +42,7 @@ comme tels aux interprétations et essais HLP.
 
 Le propriétaire autorise désormais des sujets d’entraînement sur les œuvres au
 programme qui ne disposent pas encore d’annales de dissertation. L’exception est
-consignée dans `AGENTS.md`. Chaque sujet porte la mention :
+consignée dans `decisions-pedagogiques-2026-10-27.md`. Chaque sujet porte la mention :
 
 > Sujet d’entraînement original — non officiel.
 

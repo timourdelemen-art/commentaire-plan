@@ -1,0 +1,20 @@
+/* Choix de parcours, ressources facultatives et sommaires des copies du brevet. */
+.brevet-redaction-page .pagehead{padding-bottom:12px}
+.brevet-redaction-page .etudes-card .etudes-method-link{min-height:44px;box-sizing:border-box;line-height:1.5}
+.brevet-redaction-page .etudes-card .etudes-actions a.primary{color:#fff}
+.brevet-redaction-page .etudes-card .etudes-actions{margin-top:auto}
+.brevet-redaction-page .etudes-card .etudes-meta{margin-bottom:0}
+.brevet-redaction-page .brevet-tools{padding-left:20px}
+.brevet-redaction-page .brevet-tools li{margin:12px 0}
+.brevet-redaction-page .writing-sim{margin-top:20px}
+.brevet-redaction-page .writing-top>*{min-width:0}
+.brevet-redaction-page .timer-box button{min-height:44px}
+.brevet-redaction-page .writing-meta{flex-wrap:wrap;gap:12px}
+.bc20-sommaire{margin:20px 0 28px;padding:16px 20px;border:1px solid var(--rule);scroll-margin-top:24px}
+.bc20-sommaire>summary{min-height:44px;padding:10px 0;box-sizing:border-box;cursor:pointer;font-size:1.2rem;line-height:1.5}
+.bc20-sommaire ul{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 24px;padding-left:20px}
+.bc20-sommaire li{min-width:0}
+.bc20-sommaire a{display:inline-block;padding:10px 0;min-height:44px;box-sizing:border-box;line-height:1.5;overflow-wrap:break-word;color:#8d3028}
+.bc20-sommaire :is(a,summary):focus-visible{outline:3px solid #8d3028;outline-offset:4px}
+.brevet-exam-details>summary{min-height:44px;cursor:pointer;padding:8px 0;line-height:1.5}
+@media(max-width:700px){.bc20-sommaire ul{grid-template-columns:minmax(0,1fr)}.brevet-redaction-page .writing-top{display:block}.brevet-redaction-page .timer-box{margin-top:20px}}

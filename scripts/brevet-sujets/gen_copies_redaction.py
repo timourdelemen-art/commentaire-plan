@@ -1,6 +1,6 @@
 """Ajoute les copies à 20 rédigées pour le site aux pages de copies du brevet, avec le même balisage que les trois premières,
 et les rattache à leur sujet dans sujets.json (champ « copie »). Idempotent : une copie déjà présente est remplacée.
-- copies_reflexion.py → brevet-reflexion-copies-20.html
+- copies_reflexion_base.py + copies_reflexion.py → brevet-reflexion-copies-20.html
 - copies_imagination.py → brevet-imagination-copies-20.html
 Ensuite : relancer gen_brevet_sujets.py puis gen_brevet_accueil.py. Usage : python3 -I scripts/brevet-sujets/gen_copies_redaction.py ."""
 import sys, os, re, json, importlib.util
@@ -33,10 +33,16 @@ def article(num, c, genre):
 for mod, page, genre, nom, anciennes in TYPES:
     sp = importlib.util.spec_from_file_location('c', os.path.join(HERE, mod)); C = importlib.util.module_from_spec(sp); sp.loader.exec_module(C)
     P = os.path.join(R, page); h = open(P, encoding='utf8').read()
+    modeles = C.COPIES
     n0 = len(anciennes)
-    for i, c in enumerate(C.COPIES):
+    if mod == 'copies_reflexion.py':
+        spb = importlib.util.spec_from_file_location('b', os.path.join(HERE, 'copies_reflexion_base.py'))
+        base = importlib.util.module_from_spec(spb); spb.loader.exec_module(base)
+        modeles = base.COPIES + modeles
+        n0 = 0
+    for i, c in enumerate(modeles):
         art, mots = article(n0 + i + 1, c, genre)
-        assert (300 if 'reflexion' in mod else 330) <= mots <= 550, (c['ancre'], mots)  # 30 ou 35 lignes au moins
+        assert (300 if 'reflexion' in mod else 330) <= mots <= 550, (c['ancre'], mots)  # repère interne, pas une conversion officielle en lignes
         m = re.search(rf'<article class="bc20-copy" id="{c["ancre"]}">.*?</article>', h, re.S)
         if m:
             h = h.replace(m.group(0), art)
@@ -51,6 +57,19 @@ for mod, page, genre, nom, anciennes in TYPES:
         debut = m.group(1); n = N if debut.endswith('">') else N.lower()
         return f'{debut}{n} vrais sujets du brevet, {N.lower()} copies'
     h = re.sub(r'(<p class="lede">(?:[^<]*?: )?)[A-Za-zé]+ vrais sujets du brevet, [a-zé]+ copies', lede, h)
+    liens = []
+    for ident, body in re.findall(r'<article class="bc20-copy" id="([^"]+)">(.*?)</article>', h, re.S):
+        titre = re.search(r'<h2>(.*?)</h2>', body, re.S).group(1)
+        liens.append(f'<li><a href="#{ident}">{titre}</a></li>')
+    sommaire = (f'<details class="bc20-sommaire" id="choisir-copie"><summary>Choisir parmi les {total} copies</summary>'
+                f'<nav aria-label="Choisir une copie modèle"><ul>{"".join(liens)}</ul>'
+                '<p><a href="#exercices">Passer aux exercices →</a></p></nav></details>')
+    if '<details class="bc20-sommaire"' in h:
+        h = re.sub(r'<details class="bc20-sommaire"[^>]*>.*?</details>', lambda _: sommaire, h, count=1, flags=re.S)
+    else:
+        h = re.sub(r'<nav class="offer-band bsr-sommaire"[^>]*>.*?</nav>', lambda _: sommaire, h, count=1, flags=re.S)
+    if 'href="brevet-redaction-navigation.css"' not in h:
+        h = h.replace('</head>', '<link rel="stylesheet" href="brevet-redaction-navigation.css"></head>')
     open(P, 'w', encoding='utf8').write(h)
     print(page, ':', total, 'copies')
 json.dump(S, open(SJ, 'w', encoding='utf8'), ensure_ascii=False, indent=1)

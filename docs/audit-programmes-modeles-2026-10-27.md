@@ -122,7 +122,7 @@ que la notice est un résumé. Ne pas confondre « sujet réellement proposé »
 
 La demande du propriétaire autorise des sujets d’entraînement construits sur des
 affirmations critiques vérifiées, même sans annale existante. L’exception est
-désormais écrite dans `AGENTS.md`. Le cadre de sélection et de production figure
+consignée dans `decisions-pedagogiques-2026-10-27.md`. Le cadre de sélection et de production figure
 dans `cadre-production-francais-2026-2027.md`.
 
 Le meilleur sujet n’est pas nécessairement celui du critique le plus célèbre :

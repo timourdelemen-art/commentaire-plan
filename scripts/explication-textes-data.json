@@ -231,7 +231,7 @@
         {
           "skill": "La fonction d’une phrase",
           "extract": "La supposition de sa disparition révèle sa nécessité : les vérités déjà acquises pourraient être répétées sans qu’on sache distinguer de nouvelles affirmations justifiées et de nouvelles superstitions.",
-          "task": "Expliquez en deux ou trois phrases l’apport de cette phrase et ce qu’on perdrait en la supprimant.",
+          "task": "Expliquez le rôle de cette phrase en deux phrases : ce qu’elle précise, puis ce qu’on perdrait en la supprimant.",
           "hint": "Comparez la perte des méthodes et la conservation des résultats dans la première phrase du texte.",
           "expected": "Elle explique comment un savoir ancien pourrait subsister alors que la capacité de vérifier de nouvelles affirmations serait perdue. Sans cette explication, on ne comprendrait pas pourquoi conserver des vérités acquises ne protège pas, à lui seul, du retour de la superstition."
         },
@@ -278,7 +278,7 @@
           "Pourquoi l’adhésion religieuse peut-elle être forte sans provenir d’une preuve ?"
         ],
         [
-          "En deux phrases, expliquez l’origine de l’illusion puis ce qu’on peut en conclure sur sa vérité.",
+          "Expliquez le rôle du désir dans l’illusion, puis précisez en deux phrases ce qu’on peut en conclure sur sa vérité.",
           "Distinguez l’explication de l’adhésion et la preuve qu’une croyance serait fausse.",
           "Freud rapporte la formation de l’illusion au désir. Sur le plan logique, cette origine ne suffit pas, à elle seule, à prouver la fausseté de la croyance."
         ],
@@ -481,7 +481,7 @@
         {
           "skill": "La fonction d’une phrase",
           "extract": "Il faut cependant distinguer cette explication de l’adhésion d’une preuve de fausseté : qu’une croyance soit désirée ne suffit pas, à soi seul, à établir qu’elle est fausse.",
-          "task": "Expliquez en deux ou trois phrases l’apport de cette phrase et ce qu’on perdrait en la supprimant.",
+          "task": "Expliquez le rôle de cette phrase en deux phrases : ce qu’elle précise, puis ce qu’on perdrait en la supprimant.",
           "hint": "Distinguez la question de l’origine d’une adhésion et celle de la vérité de son objet.",
           "expected": "Elle examine la portée de l’argument, après avoir expliqué le rôle du désir chez Freud. Elle signale une distinction logique proposée par la copie : expliquer l’adhésion par le désir ne prouve pas, à soi seul, la fausseté de la croyance. Sans cette précision, on risquerait de prendre une explication de l’adhésion pour une réfutation de son objet."
         },
@@ -726,7 +726,7 @@
         {
           "skill": "La fonction d’une phrase",
           "extract": "Les expressions « travaux inutiles » et « jeux d’oisifs » exposent ce jugement des citoyens, sans exprimer celui de Tocqueville.",
-          "task": "Expliquez en deux ou trois phrases l’apport de cette phrase et ce qu’on perdrait en la supprimant.",
+          "task": "Expliquez le rôle de cette phrase en deux phrases : ce qu’elle précise, puis ce qu’on perdrait en la supprimant.",
           "hint": "Relisez les expressions dépréciatives, puis la rectification de l’intérêt qui les suit.",
           "expected": "Elle empêche d’attribuer à Tocqueville les jugements des citoyens dont il critique le retrait. Sans cette attribution, on risquerait de faire dire à Tocqueville que les devoirs politiques sont inutiles, alors qu’il critique précisément ce jugement."
         },
@@ -991,7 +991,7 @@
         {
           "skill": "La fonction d’une phrase",
           "extract": "Ce retour ne signifie pas qu’aucun objet n’est produit ; il décrit ce que l’effort apporte durablement à l’existence du travailleur.",
-          "task": "Expliquez en deux ou trois phrases l’apport de cette phrase et ce qu’on perdrait en la supprimant.",
+          "task": "Expliquez le rôle de cette phrase en deux phrases : ce qu’elle précise, puis ce qu’on perdrait en la supprimant.",
           "hint": "Comparez la production d’un objet et la nécessité, pour le travailleur, de gagner encore sa vie.",
           "expected": "Elle distingue le résultat matériel du travail et ce que l’effort apporte durablement à l’existence du travailleur. Sans cette distinction, le retour au point de départ pourrait être pris à tort pour une absence de production matérielle."
         },
@@ -1474,7 +1474,7 @@
         {
           "skill": "La fonction d’une phrase",
           "extract": "Le « Toutefois » prévient donc une conclusion fataliste : être exposé à l’erreur ne signifie pas être contraint de la commettre.",
-          "task": "Expliquez en deux ou trois phrases l’apport de cette phrase et ce qu’on perdrait en la supprimant.",
+          "task": "Expliquez le rôle de cette phrase en deux phrases : ce qu’elle précise, puis ce qu’on perdrait en la supprimant.",
           "hint": "Relisez le début puis le « Toutefois » : une possibilité naturelle impose-t-elle un jugement faux ?",
           "expected": "Elle explique pourquoi l’articulation marque une objection à la conclusion fataliste que l’on pourrait tirer du début. Sans ce lien, le passage de la faiblesse naturelle au blâme semblerait contradictoire : la liberté de retenir son jugement serait laissée dans l’ombre."
         },
@@ -1737,7 +1737,7 @@
         {
           "skill": "La fonction d’une phrase",
           "extract": "Le texte décrit un risque qui se développe avec le temps, plutôt qu’une domination instantanée et nécessaire.",
-          "task": "Expliquez en deux ou trois phrases l’apport de cette phrase et ce qu’on perdrait en la supprimant.",
+          "task": "Expliquez le rôle de cette phrase en deux phrases : ce qu’elle précise, puis ce qu’on perdrait en la supprimant.",
           "hint": "Repérez les indications de temps et le verbe qui exprime le risque de prépondérance.",
           "expected": "Elle conserve la modalité du texte : il s’agit d’un risque progressif, pas d’un effet immédiat et inévitable. Sans cette précision, on attribuerait au texte une prise de contrôle totale et immédiate, au lieu du risque de domination qui se forme progressivement."
         },
@@ -2009,7 +2009,7 @@
         {
           "skill": "La fonction d’une phrase",
           "extract": "Il n’y a pas contradiction : quelques préoccupations répétitives peuvent envahir une conscience dont les autres possibilités se ferment.",
-          "task": "Expliquez en deux ou trois phrases l’apport de cette phrase et ce qu’on perdrait en la supprimant.",
+          "task": "Expliquez le rôle de cette phrase en deux phrases : ce qu’elle précise, puis ce qu’on perdrait en la supprimant.",
           "hint": "Distinguez être absorbé par une préoccupation et pouvoir réfléchir librement à son expérience.",
           "expected": "Elle résout une contradiction apparente : l’esprit peut être envahi par une obsession tout en perdant sa capacité de réflexion. Sans cette distinction, l’occupation de l’âme et l’extinction de la conscience paraîtraient incompatibles, au lieu de constituer deux effets liés de l’obsession."
         },
@@ -2268,7 +2268,7 @@
         {
           "skill": "La fonction d’une phrase",
           "extract": "Cette limite vaut pour le stock disponible à un moment donné : le texte précise ensuite qu’il peut être enrichi.",
-          "task": "Expliquez en deux ou trois phrases l’apport de cette phrase et ce qu’on perdrait en la supprimant.",
+          "task": "Expliquez le rôle de cette phrase en deux phrases : ce qu’elle précise, puis ce qu’on perdrait en la supprimant.",
           "hint": "Rapprochez la clôture du stock et les occasions de l’enrichir : parlent-elles du même moment ?",
           "expected": "Elle résout l’apparente contradiction entre la clôture de l’ensemble disponible et son enrichissement au fil du temps. Sans cette précision temporelle, la clôture du stock semblerait interdire son enrichissement et rendrait incohérentes deux affirmations de l’auteur."
         },
