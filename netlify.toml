@@ -12,7 +12,7 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
     Strict-Transport-Security = "max-age=31536000; includeSubDomains"
     X-Frame-Options = "SAMEORIGIN"
-    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+    Permissions-Policy = "camera=(), microphone=(self), geolocation=()"
 
 
 

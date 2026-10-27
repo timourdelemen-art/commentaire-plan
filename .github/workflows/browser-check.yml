@@ -3,6 +3,11 @@ on:
   pull_request:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      micro_only:
+        description: Vérifier seulement le microphone
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -39,6 +44,10 @@ jobs:
           eval "$(sed -n 's/^ *command = "\(.*\)"/\1/p' netlify.toml)"
       - name: Contrôler les pages à 390, 768 et 1280 pixels
         run: |
+          if [ "${{ inputs.micro_only }}" = "true" ]; then
+            node scripts/check-browser-micro.cjs "$BUILD_DIR"
+            exit
+          fi
           node scripts/check-browser-pages.cjs "$BUILD_DIR"
           node scripts/check-browser-hlp.cjs "$BUILD_DIR"
           node scripts/check-browser-parcours.cjs "$BUILD_DIR"
@@ -47,6 +56,7 @@ jobs:
           node scripts/check-browser-brevet-redaction.cjs "$BUILD_DIR"
           node scripts/check-browser-brevet-exercices.cjs "$BUILD_DIR"
           node scripts/check-browser-annales-direct.cjs "$BUILD_DIR"
+          node scripts/check-browser-micro.cjs "$BUILD_DIR"
           node scripts/check-browser-philo-banque.cjs "$BUILD_DIR"
           PHILO_SCREENSHOT_DIR="$BUILD_DIR/browser-audit" node scripts/check-browser-explication.cjs "$BUILD_DIR"
       - name: Archiver le contrôle visuel
