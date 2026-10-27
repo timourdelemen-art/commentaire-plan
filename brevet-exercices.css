@@ -1,0 +1,39 @@
+/* Lecture des passages et banque d'exercices du brevet. */
+.annale-step-card [hidden]{display:none!important}
+.brevet-extrait{margin:24px 0;padding:24px clamp(16px,4vw,36px);border:1px solid var(--rule);background:var(--paper,#f4efe6);max-width:900px;box-sizing:border-box}
+.brevet-extrait figcaption{font-weight:bold;margin-bottom:18px;font-size:18px}
+.brevet-extrait .texte-examen{max-width:760px;padding:8px 0 8px 28px;border:0;background:transparent}
+.brevet-extrait .texte-examen .line-no{left:-28px;width:22px}
+.brevet-extrait .texte-examen p:not(.vers) .line-no{position:static;margin-right:6px}
+.brevet-extrait .texte-examen p{font-size:19px;line-height:1.6}
+.brevet-extrait .texte-examen .vers{margin:0;padding-left:0;text-indent:0;text-align:left}
+.brevet-extrait .texte-examen .micro,.brevet-extrait>.micro{font-size:13px;line-height:1.5}
+.brevet-extrait a{display:inline-block;margin-top:12px;color:var(--red)}
+.brevet-bank-section{display:block;padding:20px 18px 50px}
+.brevet-bank-section .section-intro{display:block;padding:20px 0}
+.brevet-bank-section .section-intro h2{max-width:800px}
+.brevet-bank-section .section-intro>p{max-width:800px}
+.brevet-bank-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.brevet-bank-year{margin:18px 0;border-top:1px solid var(--rule)}
+.brevet-bank-year>summary{font-size:24px;cursor:pointer;padding:20px 0}
+.brevet-bank-year>summary small{font-size:15px;color:var(--muted);margin-left:12px}
+.brevet-bank-card{display:flex;flex-direction:column;align-items:flex-start;gap:14px;min-width:0;padding:24px;border:1px solid var(--rule);text-decoration:none;color:inherit}
+.brevet-bank-card:hover{border-color:var(--red);background:#eee4d3}
+.brevet-bank-card:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+.brevet-bank-card h3{font-size:25px;line-height:1.25;margin:0}
+.brevet-bank-meta{font-size:14px;color:var(--muted);line-height:1.5}
+.brevet-bank-tags{font-size:15px;line-height:1.5}
+.brevet-bank-card>b{margin-top:auto;color:var(--red);font-size:16px}
+.brevet-reponse-modes{display:flex;flex-wrap:wrap;gap:12px;margin:20px 0}
+.brevet-reponse-modes button{font:inherit;padding:12px 18px;border:1px solid var(--rule);background:transparent;cursor:pointer}
+.brevet-reponse-modes button[aria-pressed="true"]{background:#eee4d3;border-color:var(--red)}
+.brevet-reponse-modes button:focus-visible{outline:3px solid var(--red)}
+.brevet-choix{margin:20px 0}
+.brevet-choix .chaine-opts{display:grid;gap:12px}
+@media(max-width:700px){
+ .brevet-bank-grid{grid-template-columns:1fr}
+ .brevet-bank-section{padding:12px 4px 30px}
+ .brevet-bank-card{padding:20px}
+ .brevet-extrait{padding:18px 22px;margin:20px 0}
+ .brevet-extrait .texte-examen p{font-size:17px}
+}
