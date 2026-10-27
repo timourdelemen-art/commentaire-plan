@@ -54,7 +54,7 @@ for(const file of files){
  }
  for(const key of ['scripts','links']){
   const elsewhere=(MOVED_PAGES[file]||[]).flatMap(f=>signatureOf(f)[key]);
-  const lost=[...new Set(before[key])].filter(x=>!after[key].includes(x)&&!((m=>m&&after[key].includes(m))(MOVED_LINKS[file+'::'+x]||MOVED_LINKS[x]))&&!elsewhere.includes(x));
+  const lost=[...new Set(before[key])].filter(x=>!after[key].includes(x)&&!((m=>m&&after[key].includes(m))(MOVED_LINKS[file+'::'+x]||MOVED_LINKS[x]))&&!elsewhere.includes(x)&&!elsewhere.includes(MOVED_LINKS[file+'::'+x]||MOVED_LINKS[x]));
   if(lost.length)findings.push({file,type:'REFERENCES_DISPARUES_A_VERIFIER',element:key,valeurs:lost});
  }
 }
