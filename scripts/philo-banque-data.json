@@ -15206,7 +15206,7 @@
         },
         {
           "function": "La raison",
-          "sentence": "Le contraste entre la plainte familière et le titre solennel rend comique la disproportion entre une expérience et sa présentation."
+          "sentence": "La parodie invite à distinguer le prestige d’un titre et ce qu’il aide effectivement à comprendre."
         },
         {
           "function": "L’exemple",
@@ -15225,7 +15225,8 @@
           "function": "Distinguer précision et prestige du vocabulaire",
           "reason": "Le titre imaginaire fait sentir qu’un nom savant peut impressionner sans rien expliquer ; il ne prouve pas que tout terme technique soit inutile."
         }
-      ]
+      ],
+      "literaryUrl": "bibliotheque-dissertation.html#cioran-cahiers-rhume-savant"
     },
     {
       "id": "cioran-cahiers-vertu-paresse",
@@ -15280,7 +15281,8 @@
           "function": "Distinguer l’innocuité d’une conduite et sa valeur morale",
           "reason": "L’aveu ironique sépare des conséquences inoffensives d’intentions mauvaises : être empêché d’agir ne suffit pas à avoir voulu le bien."
         }
-      ]
+      ],
+      "literaryUrl": "bibliotheque-dissertation.html#cioran-cahiers-vertu-paresse"
     },
     {
       "id": "cioran-cahiers-providence-diners",
@@ -15316,7 +15318,7 @@
         },
         {
           "function": "La raison",
-          "sentence": "Le rapprochement d’une gêne mondaine et d’une question théologique produit une disproportion comique."
+          "sentence": "La boutade suppose plaisamment qu’un ordre bienveillant devrait nous épargner même cet ennui ; cette exigence disproportionnée empêche d’en faire une preuve."
         },
         {
           "function": "L’exemple",
@@ -15335,7 +15337,8 @@
           "function": "Examiner ce qu’une objection permet réellement de conclure",
           "reason": "L’ennui peut faire sourire aux dépens d’une Providence supposée bienveillante, mais il ne suffit pas à démontrer que toute croyance en Dieu est irrationnelle."
         }
-      ]
+      ],
+      "literaryUrl": "bibliotheque-dissertation.html#cioran-cahiers-providence-diners"
     },
     {
       "id": "cioran-cahiers-inspiration-rendez-vous",
@@ -15390,7 +15393,796 @@
           "function": "Mettre à l’épreuve le récit de l’inspiration",
           "reason": "L’anecdote invite à distinguer le sentiment d’une puissance créatrice et la production effective d’une œuvre ; elle ne remplace pas l’analyse du travail artistique."
         }
-      ]
+      ],
+      "literaryUrl": "bibliotheque-dissertation.html#cioran-cahiers-inspiration-rendez-vous"
+    },
+    {
+      "id": "cioran-cahiers-constantinople",
+      "code": "C23",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "Tomber avec son livre",
+      "work": "Cahiers 1957–1972",
+      "locator": "Cahier de 1957, note « Lu un livre… »",
+      "quote": "Lu un livre sur la chute de Constantinople. Je suis tombé avec la ville.",
+      "notions": [
+        "art",
+        "conscience"
+      ],
+      "edition": "Cahiers 1957–1972, édition numérique",
+      "publisher": "Gallimard",
+      "editionYear": "2013",
+      "originalLanguage": "français",
+      "translator": null,
+      "editionNote": "Les dates des notes se distinguent de celle de cette édition numérique, sans pagination fixe.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Peut-on être affecté par un événement auquel on n’a pas pris part ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran décrit sa lecture comme une chute vécue avec la ville dont parle le livre."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’identification consiste ici à éprouver une proximité affective avec un événement éloigné, sans l’avoir réellement vécu."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La lecture peut donner une présence sensible à ce que l’on connaît seulement par un récit."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un lecteur peut ressentir la défaite d’une ville disparue sans confondre cette émotion avec une expérience de témoin."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La formule atteste une émotion de lecture ; elle ne suffit pas à prouver une connaissance historique ni à identifier le genre du livre lu."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’art est-il une forme de connaissance ?",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6",
+          "function": "Distinguer participation affective et connaissance",
+          "reason": "La formule aide à examiner ce que fait éprouver un récit ; cette intensité n’établit pas, à elle seule, la vérité de ce qu’il raconte. La note ne donne pas le genre du livre : elle ne sert pas de preuve sur toutes les œuvres d’art."
+        }
+      ],
+      "literaryUrl": "bibliotheque-dissertation.html#cioran-cahiers-constantinople"
+    },
+    {
+      "id": "cioran-cahiers-carte-postale",
+      "code": "C24",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "La carte postale et Hegel",
+      "work": "Cahiers 1957–1972",
+      "locator": "Cahier de 1962, note « Écrire une carte postale… »",
+      "quote": "Écrire une carte postale se rapproche plus d’une activité créatrice que lire la Phénoménologie de l’esprit.",
+      "notions": [
+        "art",
+        "travail"
+      ],
+      "edition": "Cahiers 1957–1972, édition numérique",
+      "publisher": "Gallimard",
+      "editionYear": "2013",
+      "originalLanguage": "français",
+      "translator": null,
+      "editionNote": "Les dates des notes se distinguent de celle de cette édition numérique, sans pagination fixe.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Le prestige de ce que l’on lit suffit-il à rendre son activité créatrice ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran place l’écriture d’une carte postale plus près de la création que la lecture d’un grand ouvrage philosophique."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Produire une formulation est un geste différent de recevoir un texte ; une activité créatrice n’est pas encore nécessairement une œuvre d’art."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La comparaison déplace l’attention de la grandeur de l’objet culturel vers ce que le sujet fait effectivement."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Formuler une phrase de son cru peut demander davantage d’invention que parcourir passivement un texte prestigieux."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Cette provocation laisse ouverte la possibilité d’une lecture active et ne démontre pas que toute carte postale aurait une valeur artistique."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La création artistique est-elle un travail ?",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=68",
+          "sourceLabel": "Recueil académique · p. 68",
+          "function": "Examiner le geste de création plutôt que le prestige de son objet",
+          "reason": "La comparaison invite à chercher l’invention dans le travail d’une formulation. Elle ne permet ni d’assimiler toute écriture à l’art ni de réduire toute lecture à une réception passive."
+        }
+      ],
+      "literaryUrl": "bibliotheque-dissertation.html#cioran-cahiers-carte-postale"
+    },
+    {
+      "id": "cioran-cahiers-lire-concierge",
+      "code": "C25",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "Lire sans disséquer",
+      "work": "Cahiers 1957–1972",
+      "locator": "Cahier de 1967, note « J’aime lire comme lit une concierge… »",
+      "quote": "J’aime lire comme lit une concierge : m’identifier à l’auteur et au livre. Toute autre attitude me fait penser à l’espion ou au détective. Ou au dépeceur de cadavres.",
+      "notions": [
+        "art",
+        "raison"
+      ],
+      "edition": "Cahiers 1957–1972, édition numérique",
+      "publisher": "Gallimard",
+      "editionYear": "2013",
+      "originalLanguage": "français",
+      "translator": null,
+      "editionNote": "Les dates des notes se distinguent de celle de cette édition numérique, sans pagination fixe.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Comprendre une œuvre exige-t-il toujours de prendre ses distances avec elle ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran préfère l’identification à l’auteur et au livre à une lecture conduite comme une enquête."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "L’identification engage affectivement le lecteur ; l’analyse distingue des éléments et examine leurs rapports."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une lecture peut perdre ce qui fait son intérêt pour le lecteur lorsqu’elle ne traite plus le livre que comme un objet à démonter."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Repérer toutes les techniques d’un récit n’explique pas encore pourquoi son expérience nous touche."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La violence de la comparaison défend un plaisir de lire ; elle ne prouve pas qu’une analyse attentive empêcherait nécessairement ce plaisir."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’art est-il une forme de connaissance ?",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6",
+          "function": "Interroger ce qu’une analyse laisse de côté",
+          "reason": "Le refus d’une lecture réduite à l’enquête oblige à examiner la part d’expérience sensible dans la rencontre avec l’œuvre. Il ne dispense pas d’argumenter ni de vérifier une interprétation."
+        }
+      ],
+      "literaryUrl": "bibliotheque-dissertation.html#cioran-cahiers-lire-concierge"
+    },
+    {
+      "id": "cioran-cahiers-condoleances",
+      "code": "C26",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "Le génie d’une lettre ordinaire",
+      "work": "Cahiers 1957–1972",
+      "locator": "Cahier de 1969, note « Écrire une lettre de condoléances… »",
+      "quote": "Écrire une lettre de condoléances qui ne soit ni bête ni fausse, il y faut du génie.",
+      "notions": [
+        "langage",
+        "conscience"
+      ],
+      "edition": "Cahiers 1957–1972, édition numérique",
+      "publisher": "Gallimard",
+      "editionYear": "2013",
+      "originalLanguage": "français",
+      "translator": null,
+      "editionNote": "Les dates des notes se distinguent de celle de cette édition numérique, sans pagination fixe.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Un sentiment sincère garantit-il que nous trouverons les mots justes ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran présente l’écriture d’une lettre de condoléances juste comme une tâche qui demanderait du génie."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La sincérité concerne ce que l’on éprouve ; la justesse d’une parole concerne aussi sa forme, son destinataire et la situation."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Le sentiment ne fournit pas immédiatement les mots qui évitent à la fois la maladresse et la fausseté."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une formule conventionnelle peut être sincère mais impersonnelle ; une phrase originale peut manquer de délicatesse."
+        },
+        {
+          "function": "La portée",
+          "sentence": "L’exagération rend sensible une difficulté du langage sans établir que toute convention soit mensongère ou toute consolation impossible."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Le langage trahit-il la pensée ?",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=36",
+          "sourceLabel": "Recueil académique · p. 36",
+          "function": "Distinguer sincérité du sentiment et justesse de son expression",
+          "reason": "La lettre montre qu’une intention sincère ne suffit pas à trouver une forme adéquate. La difficulté ne prouve pas l’impossibilité de communiquer : elle rend nécessaire un travail d’expression."
+        }
+      ],
+      "literaryUrl": "bibliotheque-dissertation.html#cioran-cahiers-condoleances"
+    },
+    {
+      "id": "cioran-cahiers-ultimatum",
+      "code": "C27",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "La résignation en guerre",
+      "work": "Cahiers 1957–1972",
+      "locator": "Cahier de 1972, note « Toutes mes pensées… »",
+      "quote": "Toutes mes pensées sont tournées vers la résignation, et il ne se passe pas de jour que je n’envoie un ultimatum à Dieu ou à ce qui en tient lieu.",
+      "notions": [
+        "conscience",
+        "liberte"
+      ],
+      "edition": "Cahiers 1957–1972, édition numérique",
+      "publisher": "Gallimard",
+      "editionYear": "2013",
+      "originalLanguage": "français",
+      "translator": null,
+      "editionNote": "Les dates des notes se distinguent de celle de cette édition numérique, sans pagination fixe.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Nos convictions déclarées suffisent-elles à décrire nos dispositions réelles ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran oppose ses pensées de résignation à ses protestations quotidiennes contre Dieu ou ce qui en tient lieu."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Se résigner signifie accepter ce que l’on ne peut changer ; envoyer un ultimatum revient à poser une exigence sous menace de rupture."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une orientation intellectuelle peut donc coexister avec des réactions affectives qui lui résistent."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "On peut reconnaître qu’une situation échappe à sa volonté et continuer à s’indigner de ce qu’elle impose."
+        },
+        {
+          "function": "La portée",
+          "sentence": "L’aveu éclaire un désaccord avec soi-même ; il ne démontre ni une insincérité nécessaire ni l’impossibilité de toute maîtrise de soi."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Faut-il combattre les passions pour être libre ?",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=45",
+          "sourceLabel": "Recueil académique · p. 45",
+          "function": "Distinguer l’adhésion à une règle et son appropriation vécue",
+          "reason": "La résignation pensée ne suffit pas à faire disparaître la colère. Cette résistance affective doit être examinée avant de conclure qu’une décision intellectuelle nous en libère."
+        }
+      ],
+      "literaryUrl": "bibliotheque-dissertation.html#cioran-cahiers-ultimatum"
+    },
+    {
+      "id": "cioran-cahiers-style-monde",
+      "code": "C28",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "Composer avec le mot",
+      "work": "Cahiers 1957–1972",
+      "locator": "Cahier de 1961, note débutant « Le style, si je m’y suis tant… »",
+      "quote": "Le style, si je m’y suis tant intéressé, c’est que j’y ai vu un défi au néant : faute de pouvoir composer avec le monde, il a bien fallu composer avec le mot.",
+      "notions": [
+        "art",
+        "langage"
+      ],
+      "edition": "Cahiers 1957–1972, édition numérique",
+      "publisher": "Gallimard",
+      "editionYear": "2013",
+      "originalLanguage": "français",
+      "translator": null,
+      "editionNote": "La date du cahier se distingue de celle de cette édition numérique, sans pagination fixe.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Le travail du style est-il seulement une recherche de beauté ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran fait du style un « défi au néant », rendu nécessaire pour lui par l’impossibilité de s’accommoder du monde."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "« Composer avec » signifie s’accommoder ; appliqué au « mot », le verbe désigne aussi le travail de l’écriture."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Faute d’entente avec le monde, il reporte donc son effort sur le mot : donner forme à une parole oppose une création au néant."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un écrivain peut transformer une expérience d’impuissance en une phrase travaillée, sans changer la situation dont elle naît."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La note expose un recours personnel ; elle ne prouve pas que l’écriture surmonte le néant ou remplace l’action sur le monde."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Le langage n’est-il qu’un outil ?",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=35",
+          "sourceLabel": "Recueil académique · p. 35",
+          "function": "Examiner une fonction de l’écriture",
+          "reason": "Faute d’entente avec le monde, il reporte donc son effort sur le mot : donner forme à une parole oppose une création au néant. La note expose un recours personnel ; elle ne prouve pas que l’écriture surmonte le néant ou remplace l’action sur le monde."
+        }
+      ],
+      "literaryUrl": "bibliotheque-dissertation.html#cioran-cahiers-style-monde"
+    },
+    {
+      "id": "cioran-cahiers-amour-conviction",
+      "code": "C29",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "Aimer sans y croire",
+      "work": "Cahiers 1957–1972",
+      "locator": "Cahier de 1962, note débutant « Quand on ne croit plus à l’amour,… »",
+      "quote": "Quand on ne croit plus à l’amour, on peut encore aimer, comme on peut combattre sans convictions. Cependant dans l’un et l’autre cas, quelque chose s’est brisé. Un édifice dont la fêlure tient lieu de style.",
+      "notions": [
+        "conscience",
+        "liberte"
+      ],
+      "edition": "Cahiers 1957–1972, édition numérique",
+      "publisher": "Gallimard",
+      "editionYear": "2013",
+      "originalLanguage": "français",
+      "translator": null,
+      "editionNote": "La date du cahier se distingue de celle de cette édition numérique, sans pagination fixe.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Ce que nous croyons d’un sentiment suffit-il à décider de ce que nous éprouvons ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran envisage qu’on continue d’aimer ou de combattre après avoir perdu la conviction qui accompagnait ces conduites."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Une croyance affirme quelque chose ; un attachement ou un engagement vécu peut persister quand cette affirmation n’emporte plus l’adhésion."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Le « Cependant » corrige cette continuité : la conduite demeure, mais la perte de conviction en change l’expérience."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "L’image de l’édifice fêlé rend perceptible cette continuité altérée ; elle ne démontre pas une loi de tout attachement."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La formule permet de distinguer conviction et sentiment ; elle ne prouve pas que toute lucidité condamnerait l’action ou rendrait l’amour faux."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Sommes-nous conscients de ce que nous désirons ?",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=20",
+          "sourceLabel": "Recueil académique · p. 20",
+          "function": "Distinguer conscience du désir et pouvoir sur l’attachement",
+          "reason": "La note ne montre pas que nous ignorons ce que nous désirons : elle distingue savoir qu’une conviction a disparu et pouvoir cesser d’aimer. Elle permet ainsi d’éviter de confondre conscience du désir et maîtrise du sentiment."
+        }
+      ],
+      "literaryUrl": "bibliotheque-dissertation.html#cioran-cahiers-amour-conviction"
+    },
+    {
+      "id": "cioran-cahiers-pensee-fragmentaire",
+      "code": "C30",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "Le fragment et la vie",
+      "work": "Cahiers 1957–1972",
+      "locator": "Cahier de 1962, note débutant « La pensée brisée, fragmentaire a tout le… »",
+      "quote": "La pensée brisée, fragmentaire a tout le décousu de la vie ; alors que l’autre, la cohérente, ne respecte que ses propres lois et ne condescendrait jamais à refléter la vie, encore moins à pactiser avec elle.",
+      "notions": [
+        "raison",
+        "art"
+      ],
+      "edition": "Cahiers 1957–1972, édition numérique",
+      "publisher": "Gallimard",
+      "editionYear": "2013",
+      "originalLanguage": "français",
+      "translator": null,
+      "editionNote": "La date du cahier se distingue de celle de cette édition numérique, sans pagination fixe.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La cohérence d’une pensée garantit-elle sa fidélité à la vie ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran oppose le décousu d’une pensée fragmentaire, proche de la vie, à une pensée cohérente qui n’obéirait qu’à ses propres lois."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La cohérence relie les propositions sans contradiction ; le décousu désigne leur absence de liaison suivie, que Cioran rapproche des discontinuités de la vie."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une construction peut devenir autonome au point de n’obéir qu’à ses règles, tandis qu’un fragment peut laisser apparaître une tension effective."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Des notes de recherche peuvent conserver une difficulté que l’exposé achevé tendrait à lisser."
+        },
+        {
+          "function": "La portée",
+          "sentence": "L’opposition est polémique : le fragment ne dispense pas d’argumenter, et la cohérence peut aussi permettre de comprendre la vie."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’art est-il une forme de connaissance ?",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6",
+          "function": "Examiner ce qu’une forme fait connaître",
+          "reason": "Une construction peut devenir autonome au point de n’obéir qu’à ses règles, tandis qu’un fragment peut laisser apparaître une tension effective. L’opposition est polémique : le fragment ne dispense pas d’argumenter, et la cohérence peut aussi permettre de comprendre la vie."
+        }
+      ],
+      "literaryUrl": "bibliotheque-dissertation.html#cioran-cahiers-pensee-fragmentaire"
+    },
+    {
+      "id": "cioran-cahiers-oeuvre-interpretations",
+      "code": "C31",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "Une œuvre qui reste à lire",
+      "work": "Cahiers 1957–1972",
+      "locator": "Cahier de 1962, note débutant « Un livre n’est fécond et ne dure… »",
+      "quote": "Un livre n’est fécond et ne dure que s’il est susceptible de plusieurs interprétations différentes. Les œuvres qu’on peut définir sont essentiellement périssables.",
+      "notions": [
+        "art",
+        "verite"
+      ],
+      "edition": "Cahiers 1957–1972, édition numérique",
+      "publisher": "Gallimard",
+      "editionYear": "2013",
+      "originalLanguage": "français",
+      "translator": null,
+      "editionNote": "La date du cahier se distingue de celle de cette édition numérique, sans pagination fixe.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Comprendre une œuvre consiste-t-il à lui donner une définition qui clôt sa lecture ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran fait de la pluralité des interprétations une condition nécessaire de la fécondité et de la durée d’un livre."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Interpréter propose un sens à partir du texte ; définir une fois pour toutes prétend en fixer la portée."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Une définition qui prétend épuiser une œuvre arrêterait le renouvellement de sa lecture ; sa fécondité exige donc, selon Cioran, des sens qu’aucune définition n’épuise."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un même poème peut être relu pour ses enjeux politiques, sa voix et son invention formelle, à condition d’en donner les preuves."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La pluralité ne rend pas toute lecture valable : les mots, la composition et le contexte continuent de contraindre l’interprétation."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’art est-il une forme de connaissance ?",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6",
+          "function": "Distinguer ouverture du sens et arbitraire de la lecture",
+          "reason": "Une définition qui prétend épuiser une œuvre arrêterait le renouvellement de sa lecture ; sa fécondité exige donc, selon Cioran, des sens qu’aucune définition n’épuise. La pluralité ne rend pas toute lecture valable : les mots, la composition et le contexte continuent de contraindre l’interprétation."
+        }
+      ],
+      "literaryUrl": "bibliotheque-dissertation.html#cioran-cahiers-oeuvre-interpretations"
+    },
+    {
+      "id": "cioran-cahiers-vanite-capacites",
+      "code": "C32",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "La vanité qui stimule",
+      "work": "Cahiers 1957–1972",
+      "locator": "Cahier de 1966, note débutant « Le désir de paraître intelligent augmente les… »",
+      "quote": "Le désir de paraître intelligent augmente les capacités d’une intelligence. Toute vanité stimule. Ceux qui en sont dépourvus demeurent en deçà d’eux-mêmes, laissent inexploitée une partie de leurs dons.",
+      "notions": [
+        "conscience",
+        "liberte"
+      ],
+      "edition": "Cahiers 1957–1972, édition numérique",
+      "publisher": "Gallimard",
+      "editionYear": "2013",
+      "originalLanguage": "français",
+      "translator": null,
+      "editionNote": "La date du cahier se distingue de celle de cette édition numérique, sans pagination fixe.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Le désir de paraître nous éloigne-t-il nécessairement de nos capacités réelles ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran affirme que toute vanité stimule et que le désir de paraître intelligent augmente les capacités de l’intelligence."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La vanité dépend de l’image que l’on souhaite donner ; la capacité désigne ici ce que l’on parvient effectivement à faire."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Le désir de paraître mettrait ainsi les facultés en exercice ; son absence expliquerait que certains dons restent inexploités."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Vouloir soutenir une discussion peut conduire à lire, à préciser un argument et à réviser une réponse."
+        },
+        {
+          "function": "La portée",
+          "sentence": "Cette généralisation exige une discussion : le désir d’approbation peut aussi pousser à rechercher un effet plutôt qu’à exercer réellement ses facultés."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Avons-nous besoin d’autrui pour avoir conscience de nous-mêmes ?",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=19",
+          "sourceLabel": "Recueil académique · p. 19",
+          "function": "Examiner le rôle stimulant du regard d’autrui",
+          "reason": "Le regard d’autrui peut stimuler des capacités jusque-là inexploitées ; cela n’établit pas encore qu’il soit nécessaire pour les connaître. La citation aide à distinguer développement de soi et conscience de soi, avant de discuter le besoin d’autrui."
+        }
+      ],
+      "literaryUrl": "bibliotheque-dissertation.html#cioran-cahiers-vanite-capacites"
+    },
+    {
+      "id": "cioran-cahiers-critique-deux-camps",
+      "code": "C33",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "Examiner aussi les contestataires",
+      "work": "Cahiers 1957–1972",
+      "locator": "Cahier de 1968, note débutant « La vérité n’est ni dans la réaction… »",
+      "quote": "La vérité n’est ni dans la réaction ni dans la révolution. Elle réside dans la mise en question et de la société et de ceux qui l’attaquent.",
+      "notions": [
+        "etat",
+        "raison",
+        "verite"
+      ],
+      "edition": "Cahiers 1957–1972, édition numérique",
+      "publisher": "Gallimard",
+      "editionYear": "2013",
+      "originalLanguage": "français",
+      "translator": null,
+      "editionNote": "La date du cahier se distingue de celle de cette édition numérique, sans pagination fixe.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "La contestation d’un ordre garantit-elle à elle seule la liberté du jugement ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran refuse de situer d’avance la vérité dans la réaction ou dans la révolution."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "Un camp désigne une position collective ; l’examen critique porte sur ce qu’il affirme et fait, y compris lorsqu’il combat un pouvoir."
+        },
+        {
+          "function": "La raison",
+          "sentence": "On peut justifier cette vigilance ainsi : la critique de la société devient une adhésion aveugle si ses acteurs sont eux-mêmes soustraits à l’examen."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Refuser un maître ne suffit pas à justifier toutes les exigences de ceux qui promettent de le remplacer."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La formule demande une vigilance symétrique ; elle ne démontre pas que tous les camps ni tous les ordres seraient équivalents."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "La liberté exclut-elle l’obéissance ?",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=38",
+          "sourceLabel": "Recueil académique · p. 38",
+          "function": "Éprouver l’autonomie d’un jugement contestataire",
+          "reason": "On peut justifier cette vigilance ainsi : la critique de la société devient une adhésion aveugle si ses acteurs sont eux-mêmes soustraits à l’examen. La formule demande une vigilance symétrique ; elle ne démontre pas que tous les camps ni tous les ordres seraient équivalents."
+        }
+      ],
+      "literaryUrl": "bibliotheque-dissertation.html#cioran-cahiers-critique-deux-camps"
+    },
+    {
+      "id": "cioran-cahiers-doute-trompette",
+      "code": "C34",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "Le doute n’est pas une trompette",
+      "work": "Cahiers 1957–1972",
+      "locator": "Cahier de 1969, note débutant « Dès qu’on affecte un ton prophétique, il… »",
+      "quote": "Dès qu’on affecte un ton prophétique, il y a un début de rassemblement. Mais quand vous doutez, qui voulez-vous qui accoure ? Le doute n’est pas une trompette.",
+      "notions": [
+        "langage",
+        "raison",
+        "etat"
+      ],
+      "edition": "Cahiers 1957–1972, édition numérique",
+      "publisher": "Gallimard",
+      "editionYear": "2013",
+      "originalLanguage": "français",
+      "translator": null,
+      "editionNote": "La date du cahier se distingue de celle de cette édition numérique, sans pagination fixe.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "L’efficacité d’un discours mesure-t-elle la valeur de ce qu’il affirme ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran oppose la puissance de rassemblement d’un ton prophétique à la difficulté de faire accourir autour du doute."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La certitude affichée peut mobiliser ; le doute demande de suspendre ou de reprendre le jugement."
+        },
+        {
+          "function": "La raison",
+          "sentence": "On peut en tirer une distinction : faire accourir un public ne suffit pas à établir la vérité d’un discours."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Un discours très sûr de lui peut attirer davantage qu’une réponse qui expose honnêtement ses incertitudes."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La comparaison décrit une difficulté de la parole critique, sans prouver que tout doute serait inaudible ni toute assurance trompeuse."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Le langage n’est-il qu’un outil ?",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=35",
+          "sourceLabel": "Recueil académique · p. 35",
+          "function": "Distinguer force de conviction et valeur d’une affirmation",
+          "reason": "On peut en tirer une distinction : faire accourir un public ne suffit pas à établir la vérité d’un discours. La comparaison décrit une difficulté de la parole critique, sans prouver que tout doute serait inaudible ni toute assurance trompeuse."
+        }
+      ],
+      "literaryUrl": "bibliotheque-dissertation.html#cioran-cahiers-doute-trompette"
+    },
+    {
+      "id": "cioran-cahiers-temps-maladie",
+      "code": "C35",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "Le temps vu comme une maladie",
+      "work": "Cahiers 1957–1972",
+      "locator": "Cahier de 1970, note débutant « Je suis porté à voir tout phénomène… »",
+      "quote": "Je suis porté à voir tout phénomène comme l’aspect morbide d’un autre phénomène plus vaste. Ainsi le temps m’apparaît comme une maladie de l’éternité, l’Histoire comme une maladie du temps, et la vie comme une infirmité de la matière.",
+      "notions": [
+        "temps",
+        "nature",
+        "raison"
+      ],
+      "edition": "Cahiers 1957–1972, édition numérique",
+      "publisher": "Gallimard",
+      "editionYear": "2013",
+      "originalLanguage": "français",
+      "translator": null,
+      "editionNote": "La date du cahier se distingue de celle de cette édition numérique, sans pagination fixe.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une image de l’univers peut-elle faire connaître autre chose qu’une manière de l’éprouver ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran décrit le temps, l’histoire et la vie comme des altérations d’un ordre plus vaste."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La maladie sert ici d’image pour penser une dégradation ; elle ne désigne pas un diagnostic médical appliqué au temps."
+        },
+        {
+          "function": "La raison",
+          "sentence": "Ce rapprochement rassemble des expériences différentes sous une même perception de l’existence."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Le passage du temps peut être vécu comme une perte, sans que cette expérience suffise à définir physiquement le temps."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La formule révèle un point de vue et invite à l’examiner ; sa force expressive ne vaut pas démonstration scientifique."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "L’art est-il une forme de connaissance ?",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
+          "sourceLabel": "Recueil académique · p. 6",
+          "function": "Distinguer expression d’un vécu et connaissance d’un objet",
+          "reason": "Ce rapprochement rassemble des expériences différentes sous une même perception de l’existence. La formule révèle un point de vue et invite à l’examiner ; sa force expressive ne vaut pas démonstration scientifique."
+        }
+      ],
+      "literaryUrl": "bibliotheque-dissertation.html#cioran-cahiers-temps-maladie"
+    },
+    {
+      "id": "cioran-cahiers-verite-chaine",
+      "code": "C36",
+      "author": "Cioran",
+      "authorRole": "Écrivain et penseur",
+      "title": "La vérité qui devient une chaîne",
+      "work": "Cahiers 1957–1972",
+      "locator": "Cahier de 1972, note débutant « Toute vérité donne une sensation de libération… »",
+      "quote": "Toute vérité donne une sensation de libération au moment où on la découvre ; puis, elle devient une chaîne. On peut en dire autant d’un dieu ; au début, quand on s’y attache, on respire, puis, on étouffe.",
+      "notions": [
+        "verite",
+        "liberte",
+        "raison"
+      ],
+      "edition": "Cahiers 1957–1972, édition numérique",
+      "publisher": "Gallimard",
+      "editionYear": "2013",
+      "originalLanguage": "français",
+      "translator": null,
+      "editionNote": "La date du cahier se distingue de celle de cette édition numérique, sans pagination fixe.",
+      "commentary": [
+        {
+          "function": "Le problème",
+          "sentence": "Une vérité qui libère peut-elle devenir un obstacle à l’examen ?"
+        },
+        {
+          "function": "L’affirmation",
+          "sentence": "Cioran affirme que toute vérité procure d’abord une sensation de libération, puis devient une chaîne, comme le dieu auquel on s’attache."
+        },
+        {
+          "function": "Les concepts",
+          "sentence": "La vérité d’une proposition se distingue du rapport que nous entretenons avec elle et de la certitude que nous lui attachons."
+        },
+        {
+          "function": "La raison",
+          "sentence": "La comparaison avec le dieu suggère qu’une même adhésion soulage d’abord, puis devient dépendance et étouffement."
+        },
+        {
+          "function": "L’exemple",
+          "sentence": "Une explication féconde peut devenir un schéma que l’on applique à tout sans plus tenir compte des objections."
+        },
+        {
+          "function": "La portée",
+          "sentence": "La généralisation de Cioran doit être discutée : toute vérité ne devient pas nécessairement une contrainte, et une certitude peut rester révisable."
+        }
+      ],
+      "uses": [
+        {
+          "subject": "Les progrès de la connaissance nous rapprochent-ils d’une vérité définitive ?",
+          "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=72",
+          "sourceLabel": "Recueil académique · p. 72",
+          "function": "Distinguer progrès du savoir et clôture de l’examen",
+          "reason": "La comparaison avec le dieu suggère qu’une même adhésion soulage d’abord, puis devient dépendance et étouffement. La généralisation de Cioran doit être discutée : toute vérité ne devient pas nécessairement une contrainte, et une certitude peut rester révisable."
+        }
+      ],
+      "literaryUrl": "bibliotheque-dissertation.html#cioran-cahiers-verite-chaine"
     }
   ]
 }

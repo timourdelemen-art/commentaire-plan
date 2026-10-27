@@ -1,6 +1,6 @@
 {
   "status": "citations-courtes-et-commentaires",
-  "owner_decision": "16 octobre 2026 : remplacer les anciennes fiches par la sélection de citations fournie et approuvée, en deux parties dissertation et commentaire. Le même jour : poursuivre selon le même principe avec l’Éthique fournie. Le même jour : intégrer Cioran, écrivain et penseur, à partir des deux ouvrages fournis, après sélection rigoureuse sans quota. Le même jour : développer les usages de « L’Arbre de vie » et de la relecture de la Genèse. Le même jour : poursuivre avec les deux Critiques de Kant fournies, en choisissant des phrases autonomes et des emplois précis sur deux ou trois sujets du bac. Le même jour : intégrer une sélection philosophique de Baudelaire et Racine à partir des deux volumes fournis, avec un ou deux vers conservés exactement, sujets du bac attestés et situation dramatique très brève ; comparer Baudelaire à des éditions consultables en ligne. Le même jour : poursuivre avec Corneille en privilégiant ensemble portée philosophique et beauté ; auditer les 33 choix de Baudelaire et Racine et remplacer les plus faibles. Le même jour : lire intégralement les trois volumes fournis de Bachelard et Freud, sélectionner leurs meilleurs courts extraits pour les dissertations du bac, puis poursuivre le modèle existant. Le même jour : poursuivre la sélection rigoureuse et le modèle existant avec les deux ouvrages de Simondon fournis ; courts extraits authentiques, sujets du bac attestés et commentaires originaux. Le même jour : compléter sans doublons à partir des annales d’explication de texte du bac, avec des phrases autonomes, des usages précis et le même modèle de fiche. Le 16 octobre 2026 : intégrer une sélection philosophique et esthétique des Fables de La Fontaine fournies, en recherchant les pépites dans les récits aussi bien que dans les morales ; terminer La Fontaine avant Rousseau. Le 16 octobre 2026 : poursuivre après les Fables avec Les Rêveries du promeneur solitaire et le tome I des Confessions fournis ; sélection rigoureuse de courtes citations, sujets réels et même modèle de fiche. Le 27 octobre 2026 : choisir quelques citations particulièrement drôles des Cahiers fournis, en conservant exactement le format des fiches existantes ; choix permis entre philosophie et littérature.",
+  "owner_decision": "16 octobre 2026 : remplacer les anciennes fiches par la sélection de citations fournie et approuvée, en deux parties dissertation et commentaire. Le même jour : poursuivre selon le même principe avec l’Éthique fournie. Le même jour : intégrer Cioran, écrivain et penseur, à partir des deux ouvrages fournis, après sélection rigoureuse sans quota. Le même jour : développer les usages de « L’Arbre de vie » et de la relecture de la Genèse. Le même jour : poursuivre avec les deux Critiques de Kant fournies, en choisissant des phrases autonomes et des emplois précis sur deux ou trois sujets du bac. Le même jour : intégrer une sélection philosophique de Baudelaire et Racine à partir des deux volumes fournis, avec un ou deux vers conservés exactement, sujets du bac attestés et situation dramatique très brève ; comparer Baudelaire à des éditions consultables en ligne. Le même jour : poursuivre avec Corneille en privilégiant ensemble portée philosophique et beauté ; auditer les 33 choix de Baudelaire et Racine et remplacer les plus faibles. Le même jour : lire intégralement les trois volumes fournis de Bachelard et Freud, sélectionner leurs meilleurs courts extraits pour les dissertations du bac, puis poursuivre le modèle existant. Le même jour : poursuivre la sélection rigoureuse et le modèle existant avec les deux ouvrages de Simondon fournis ; courts extraits authentiques, sujets du bac attestés et commentaires originaux. Le même jour : compléter sans doublons à partir des annales d’explication de texte du bac, avec des phrases autonomes, des usages précis et le même modèle de fiche. Le 16 octobre 2026 : intégrer une sélection philosophique et esthétique des Fables de La Fontaine fournies, en recherchant les pépites dans les récits aussi bien que dans les morales ; terminer La Fontaine avant Rousseau. Le 16 octobre 2026 : poursuivre après les Fables avec Les Rêveries du promeneur solitaire et le tome I des Confessions fournis ; sélection rigoureuse de courtes citations, sujets réels et même modèle de fiche. Le 27 octobre 2026 : choisir quelques citations particulièrement drôles des Cahiers fournis, en conservant exactement le format des fiches existantes ; choix permis entre philosophie et littérature. Le 27 octobre 2026, après le bilan de la première sélection, le propriétaire demande de poursuivre : approfondir les Cahiers et proposer une lecture philosophique et une lecture littéraire distinctes des citations retenues. Le propriétaire précise de choisir aussi les phrases de fond, selon les notions du bac et les parcours de français, au même format que les autres citations.",
   "source_files": [
     {
       "author": "Platon",
@@ -3019,6 +3019,160 @@
       "quotation_verified": true,
       "verification": "Relecture mot pour mot dans l’EPUB fourni et des notes voisines. Aucun mot ni signe changé ; seuls les blancs, dont les espaces insécables, sont normalisés. Note de Cioran, distincte de l’avant-propos et des notes éditoriales. Pas de page imprimée inventée.",
       "quote_sha256": "dec604a4740b2521f208a76603ea3d90c6b06564294978836a26f015f28cc001",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "cioran-cahiers-constantinople",
+      "code": "C23",
+      "author": "Cioran",
+      "locator": "Cahier de 1957, note « Lu un livre… »",
+      "source_location": "EPUB fourni, Ops/005.html, élément p/h numéro 2 (index 0, blancs compris)",
+      "quotation_verified": true,
+      "verification": "Relecture mot pour mot dans l’EPUB fourni et des notes voisines. Aucun mot ni signe changé ; seuls les blancs sont normalisés. Note de Cioran, distincte de l’avant-propos et des notes éditoriales. Aucun numéro de page imprimée inventé.",
+      "quote_sha256": "94f2c041eecd7a449010d27b9123192ecbc208733dd86427d3d34472892a97de",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "cioran-cahiers-carte-postale",
+      "code": "C24",
+      "author": "Cioran",
+      "locator": "Cahier de 1962, note « Écrire une carte postale… »",
+      "source_location": "EPUB fourni, Ops/010.html, élément p/h numéro 867 (index 0, blancs compris)",
+      "quotation_verified": true,
+      "verification": "Relecture mot pour mot dans l’EPUB fourni et des notes voisines. Aucun mot ni signe changé ; seuls les blancs sont normalisés. Note de Cioran, distincte de l’avant-propos et des notes éditoriales. Aucun numéro de page imprimée inventé.",
+      "quote_sha256": "33201d42f37f65f42a1abfbbaa9ea48cf3f22501f89cfdbe530811af7c1e6be1",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "cioran-cahiers-lire-concierge",
+      "code": "C25",
+      "author": "Cioran",
+      "locator": "Cahier de 1967, note « J’aime lire comme lit une concierge… »",
+      "source_location": "EPUB fourni, Ops/016.html, élément p/h numéro 1482 (index 0, blancs compris)",
+      "quotation_verified": true,
+      "verification": "Relecture mot pour mot dans l’EPUB fourni et des notes voisines. Aucun mot ni signe changé ; seuls les blancs sont normalisés. Note de Cioran, distincte de l’avant-propos et des notes éditoriales. Aucun numéro de page imprimée inventé.",
+      "quote_sha256": "76360bd003009b5875672ac1afe2e0d0b001111ecae73669ec1b278fe46b6580",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "cioran-cahiers-condoleances",
+      "code": "C26",
+      "author": "Cioran",
+      "locator": "Cahier de 1969, note « Écrire une lettre de condoléances… »",
+      "source_location": "EPUB fourni, Ops/019.html, élément p/h numéro 407 (index 0, blancs compris)",
+      "quotation_verified": true,
+      "verification": "Relecture mot pour mot dans l’EPUB fourni et des notes voisines. Aucun mot ni signe changé ; seuls les blancs sont normalisés. Note de Cioran, distincte de l’avant-propos et des notes éditoriales. Aucun numéro de page imprimée inventé.",
+      "quote_sha256": "c767c69326621be160c481a5220c6865ef338c90bd06b126cc849aa3a1edb380",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "cioran-cahiers-ultimatum",
+      "code": "C27",
+      "author": "Cioran",
+      "locator": "Cahier de 1972, note « Toutes mes pensées… »",
+      "source_location": "EPUB fourni, Ops/024.html, élément p/h numéro 250 (index 0, blancs compris)",
+      "quotation_verified": true,
+      "verification": "Relecture mot pour mot dans l’EPUB fourni et des notes voisines. Aucun mot ni signe changé ; seuls les blancs sont normalisés. Note de Cioran, distincte de l’avant-propos et des notes éditoriales. Aucun numéro de page imprimée inventé.",
+      "quote_sha256": "a07d7101d5616614d8de8ef78a3eb9aa55c78a173cea96d53ad515b516f3aa70",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "cioran-cahiers-style-monde",
+      "code": "C28",
+      "author": "Cioran",
+      "locator": "Cahier de 1961, note débutant « Le style, si je m’y suis tant… »",
+      "source_location": "EPUB fourni, Ops/009.html, élément p/h numéro 89 (index 0, blancs compris)",
+      "quotation_verified": true,
+      "verification": "Texte et contexte relus dans l’EPUB fourni. Citation intégrale, mots et ponctuation inchangés ; seuls les blancs sont normalisés. Emplacement sans pagination inventée.",
+      "quote_sha256": "37fe9ee5a0c2b55c2e747e56a5ba9031ded652734ac7a5ff6ec76c18f6a17001",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "cioran-cahiers-amour-conviction",
+      "code": "C29",
+      "author": "Cioran",
+      "locator": "Cahier de 1962, note débutant « Quand on ne croit plus à l’amour,… »",
+      "source_location": "EPUB fourni, Ops/010.html, élément p/h numéro 176 (index 0, blancs compris)",
+      "quotation_verified": true,
+      "verification": "Texte et contexte relus dans l’EPUB fourni. Citation intégrale, mots et ponctuation inchangés ; seuls les blancs sont normalisés. Emplacement sans pagination inventée.",
+      "quote_sha256": "8ee13ee3cee8e9419062032dcc229f6e2e73dad2399dc242edda46cd9aae3a32",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "cioran-cahiers-pensee-fragmentaire",
+      "code": "C30",
+      "author": "Cioran",
+      "locator": "Cahier de 1962, note débutant « La pensée brisée, fragmentaire a tout le… »",
+      "source_location": "EPUB fourni, Ops/010.html, élément p/h numéro 757 (index 0, blancs compris)",
+      "quotation_verified": true,
+      "verification": "Texte et contexte relus dans l’EPUB fourni. Citation intégrale, mots et ponctuation inchangés ; seuls les blancs sont normalisés. Emplacement sans pagination inventée.",
+      "quote_sha256": "cd421cb4f8509993f6c9dd95b0d49dfe94d2d22148e4ea0add2ab587cb798b89",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "cioran-cahiers-oeuvre-interpretations",
+      "code": "C31",
+      "author": "Cioran",
+      "locator": "Cahier de 1962, note débutant « Un livre n’est fécond et ne dure… »",
+      "source_location": "EPUB fourni, Ops/010.html, élément p/h numéro 1050 (index 0, blancs compris)",
+      "quotation_verified": true,
+      "verification": "Texte et contexte relus dans l’EPUB fourni. Citation intégrale, mots et ponctuation inchangés ; seuls les blancs sont normalisés. Emplacement sans pagination inventée.",
+      "quote_sha256": "3bf3bfa7d061abb2ab5f5ffbbde9a0ed22c52ea0ef8582aa02b242799ec5f895",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "cioran-cahiers-vanite-capacites",
+      "code": "C32",
+      "author": "Cioran",
+      "locator": "Cahier de 1966, note débutant « Le désir de paraître intelligent augmente les… »",
+      "source_location": "EPUB fourni, Ops/014.html, élément p/h numéro 1425 (index 0, blancs compris)",
+      "quotation_verified": true,
+      "verification": "Texte et contexte relus dans l’EPUB fourni. Citation intégrale, mots et ponctuation inchangés ; seuls les blancs sont normalisés. Emplacement sans pagination inventée.",
+      "quote_sha256": "aa32e7fa1c7fdfc0d5fc07af799e584a41c6fa42155b4b44c82df93eaaae1ef1",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "cioran-cahiers-critique-deux-camps",
+      "code": "C33",
+      "author": "Cioran",
+      "locator": "Cahier de 1968, note débutant « La vérité n’est ni dans la réaction… »",
+      "source_location": "EPUB fourni, Ops/018.html, élément p/h numéro 259 (index 0, blancs compris)",
+      "quotation_verified": true,
+      "verification": "Texte et contexte relus dans l’EPUB fourni. Citation intégrale, mots et ponctuation inchangés ; seuls les blancs sont normalisés. Emplacement sans pagination inventée.",
+      "quote_sha256": "cf73808b8fb6cec89eab11e39c45926a7c44cc577f9e46649a33666249c8ebe5",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "cioran-cahiers-doute-trompette",
+      "code": "C34",
+      "author": "Cioran",
+      "locator": "Cahier de 1969, note débutant « Dès qu’on affecte un ton prophétique, il… »",
+      "source_location": "EPUB fourni, Ops/020.html, élément p/h numéro 467 (index 0, blancs compris)",
+      "quotation_verified": true,
+      "verification": "Texte et contexte relus dans l’EPUB fourni. Citation intégrale, mots et ponctuation inchangés ; seuls les blancs sont normalisés. Emplacement sans pagination inventée.",
+      "quote_sha256": "82e20c9da0aa6082c11fa6bbec4bc5f34b2d59bf618495868467f9a996d8d3c0",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "cioran-cahiers-temps-maladie",
+      "code": "C35",
+      "author": "Cioran",
+      "locator": "Cahier de 1970, note débutant « Je suis porté à voir tout phénomène… »",
+      "source_location": "EPUB fourni, Ops/021.html, élément p/h numéro 664 (index 0, blancs compris)",
+      "quotation_verified": true,
+      "verification": "Texte et contexte relus dans l’EPUB fourni. Citation intégrale, mots et ponctuation inchangés ; seuls les blancs sont normalisés. Emplacement sans pagination inventée.",
+      "quote_sha256": "03958f4a7900eb4254a79e8d8c9446ee46fcce8aae62348c832653bdfdbfa010",
+      "translator_status": "original-french"
+    },
+    {
+      "id": "cioran-cahiers-verite-chaine",
+      "code": "C36",
+      "author": "Cioran",
+      "locator": "Cahier de 1972, note débutant « Toute vérité donne une sensation de libération… »",
+      "source_location": "EPUB fourni, Ops/024.html, élément p/h numéro 87 (index 0, blancs compris)",
+      "quotation_verified": true,
+      "verification": "Texte et contexte relus dans l’EPUB fourni. Citation intégrale, mots et ponctuation inchangés ; seuls les blancs sont normalisés. Emplacement sans pagination inventée.",
+      "quote_sha256": "d5ddca6c5ea839074fa7342c938fc336803c16bb0456b3817a68dd371fe97bf5",
       "translator_status": "original-french"
     }
   ],
