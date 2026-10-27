@@ -1,0 +1,5 @@
+/* La présentation du passage appartient au paratexte, pas à l’extrait de l’œuvre. */
+.texte-chapeau,.c20-chapeau{font-style:italic;line-height:1.6;padding:.65rem .85rem;border-left:2px solid #b3a79a;margin:1rem 0;text-indent:0!important}
+.texte-chapeau{font-size:1rem}
+.texte-chapeau em,.c20-chapeau em{font-style:inherit}
+.programme-reading,.literary-extract{font-style:normal}
