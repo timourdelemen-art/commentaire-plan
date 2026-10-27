@@ -18,7 +18,7 @@ const getLinks=s=>[
  // Un onglet reste un accès à une section, même quand il remplace un lien du bandeau.
  ...[...s.matchAll(/<button\b[^>]*\brole=["']tab["'][^>]*>/gi)].map(m=>m[0].match(/\baria-controls=["']([^"']+)["']/)?.[1]).filter(Boolean).map(id=>'#'+id)
 ];
-const relevant=p=>/(?:copie-20|corrig|modele|modèle|annale|exercice|entrainement|entraînement|dissertation|commentaire|explication|brevet|hlp)/i.test(p);
+const relevant=p=>/(?:^#bac$|copie-20|corrig|modele|modèle|annale|exercice|entrainement|entraînement|dissertation|commentaire|explication|brevet|hlp)/i.test(p);
 const signature=s=>({
  textareas:(s.match(/<textarea\b/gi)||[]).length,
  choiceButtons:(s.match(/data-choice\b|data-subj\b|data-level\b/gi)||[]).length,

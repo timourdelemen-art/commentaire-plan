@@ -28,7 +28,10 @@
   }
 
   const storageKey="annale-training:"+id+(item.methodeVersion ? ":"+item.methodeVersion : "");
-  const state=JSON.parse(localStorage.getItem(storageKey)||'{"step":0,"answers":{},"feedbacks":{},"totalElapsed":0,"stepElapsed":0,"mode":"guided","help":{},"suspensions":{}}');
+  let restored;
+  try{restored=JSON.parse(localStorage.getItem(storageKey)||'null');}catch{}
+  const state=restored && typeof restored==='object' && !Array.isArray(restored)?restored:{};
+  state.step=Number.isInteger(state.step)&&state.step>=0?Math.min(state.step,item.etapes.length):0;
   state.answers=state.answers||{};
   state.feedbacks=state.feedbacks||{};
   state.suspensions=state.suspensions||{};
@@ -38,10 +41,10 @@
   state.help=state.help||{};
   const requestedMode=params.get("mode");
   const requestedStep=params.get("step");
-  if(requestedMode==="targeted"){
+  if(requestedMode==="targeted" || requestedMode==="guided"){
     const requestedIndex=item.etapes.findIndex(s=>s.id===requestedStep);
     if(requestedIndex>=0){
-      state.mode="targeted";
+      state.mode=requestedMode;
       state.step=requestedIndex;
       state.stepElapsed=0;
     }
@@ -82,7 +85,51 @@
   window.AccessControl?.renderBadge(els.accessStatus);
 
   const fmt=s=>String(Math.floor(s/60)).padStart(2,"0")+":"+String(s%60).padStart(2,"0");
-  const save=()=>localStorage.setItem(storageKey,JSON.stringify(state));
+  let storageAvailable=true;
+  const save=()=>{try{localStorage.setItem(storageKey,JSON.stringify(state));}catch{storageAvailable=false;}};
+  const isBac=item.type==="bac-commentaire";
+  let saveStatus, previousStep, skipStep;
+  function focusQuestion(){
+    document.getElementById('stepOptions')?.removeAttribute('open');
+    els.stepTitle.focus({preventScroll:true});
+    document.getElementById('annaleQuestion').scrollIntoView({block:'start',behavior:'instant'});
+  }
+  function syncAddress(){
+    if(!isBac||!currentStep())return;
+    const url=new URL(location.href);url.searchParams.set('mode',state.mode);url.searchParams.set('step',currentStep().id);
+    history.replaceState(null,'',url);
+  }
+  function storeAnswer(){
+    const step=currentStep();if(!step)return;
+    state.answers[step.id]=els.answer.value;save();
+    if(saveStatus)saveStatus.textContent=storageAvailable?'Brouillon conservé dans ce navigateur.':'La sauvegarde est indisponible dans ce navigateur. Copiez votre réponse pour la conserver.';
+  }
+  function goToStep(index){
+    storeAnswer();pauseTimer();state.step=index;state.stepElapsed=0;save();renderTargetedPicker();render();focusQuestion();
+  }
+  if(isBac){
+    document.getElementById('trainingApp').classList.add('annale-bac-direct');
+    els.guided.textContent='Choisir un autre texte';els.guided.href='../annales-bac.html#bac';
+    const card=document.getElementById('annaleQuestion');
+    const boussole=document.createElement('p');boussole.className='step-boussole';
+    boussole.innerHTML='<span><b>D’où vous partez :</b> le texte.</span><span><b>Ce que vous faites :</b> une étape.</span><span><b>Ce que vous obtenez :</b> une réponse justifiée.</span>';
+    els.instruction.after(boussole);
+    const layout=document.createElement('div');layout.className='annale-exercise-layout';
+    const writing=document.createElement('div');writing.className='annale-writing';
+    let node=els.hint;while(node){const next=node.nextSibling;writing.append(node);node=next;}
+    layout.append(supportBlock,writing);card.append(layout);
+    saveStatus=document.createElement('p');saveStatus.className='annale-save-status';saveStatus.setAttribute('role','status');writing.append(saveStatus);
+    const nav=document.createElement('nav');nav.className='annale-step-nav';nav.setAttribute('aria-label','Étapes de ce texte');
+    previousStep=document.createElement('button');previousStep.type='button';previousStep.textContent='← Étape précédente';
+    skipStep=document.createElement('button');skipStep.type='button';skipStep.textContent='Étape suivante →';
+    previousStep.addEventListener('click',()=>goToStep(state.step-1));skipStep.addEventListener('click',()=>goToStep(state.step+1));nav.append(previousStep,skipStep);card.insertBefore(nav,layout);
+    const options=document.createElement('details');options.className='annale-options';options.id='stepOptions';
+    const summary=document.createElement('summary');summary.textContent='Choisir une autre étape ou travailler sans aide';options.append(summary,els.trainingMode);
+    const timer=document.createElement('details');timer.className='annale-options';
+    const timerSummary=document.createElement('summary');timerSummary.textContent='Chronométrer mon travail (facultatif)';timer.append(timerSummary,document.querySelector('.timer-bar'));
+    document.querySelector('.annale-workspace').after(options,timer);
+    els.answer.addEventListener('input',storeAnswer);
+  }
   const status=()=>window.AccessControl?.getStatus?.()||{premium:false};
   const currentStep=()=>item.etapes[state.step];
   const aiModeFor=(step)=>{
@@ -294,30 +341,30 @@
     els.trainingMode.querySelectorAll("[data-mode]").forEach(btn=>btn.classList.toggle("active",btn.dataset.mode===state.mode));
     if(state.mode!=="targeted") return;
     const cards=targetedSteps();
-    els.targetedPicker.innerHTML="<div class='targeted-picker-head'><strong>Choisissez un geste.</strong><span>Chaque exercice est chronométré et peut être refait.</span></div><div class='targeted-grid'>"+
+    els.targetedPicker.innerHTML="<div class='targeted-picker-head'><strong>Choisissez une étape.</strong><span>Vous pouvez la refaire librement.</span></div><div class='targeted-grid'>"+
       cards.map(({index,step,label,description})=>"<button type='button' class='targeted-card"+(index===state.step?" active":"")+"' data-step='"+index+"'><span>"+fmt(step.temps||0)+"</span><strong>"+label+"</strong><small>"+description+"</small></button>").join("")+
       "</div>";
     els.targetedPicker.querySelectorAll("[data-step]").forEach(btn=>btn.addEventListener("click",()=>{
-      pauseTimer();
+      storeAnswer();pauseTimer();
       state.step=Number(btn.dataset.step);
       state.stepElapsed=0;
       state.help[currentStep().id]=0;
       save();
       render();
       renderTargetedPicker();
-      startTimer();
-      document.querySelector(".annale-workspace")?.scrollIntoView({behavior:"smooth",block:"start"});
+      focusQuestion();
     }));
   }
 
   if(item.type==="bac-commentaire" && els.trainingMode){
     els.trainingMode.querySelectorAll("[data-mode]").forEach(btn=>btn.addEventListener("click",()=>{
-      state.mode=btn.dataset.mode;
+      storeAnswer();state.mode=btn.dataset.mode;
       if(state.mode==="guided" && state.step>=item.etapes.length) state.step=0;
       state.stepElapsed=0;
       save();
       renderTargetedPicker();
       render();
+      if(state.mode==='guided')focusQuestion();
     }));
   }
 
@@ -354,6 +401,7 @@
   function render(){
     if(state.step>=item.etapes.length)return renderSummary();
     const step=currentStep();
+    syncAddress();
     els.summary.hidden=true;
     document.querySelector(".annale-step-card").hidden=false;
     els.answer.disabled=false; els.ai.disabled=false; els.next.disabled=false; els.helpButton.disabled=false;
@@ -379,6 +427,7 @@
     renderHelp(step);
     updateTimers();
     els.next.textContent=state.mode==="targeted"?"Enregistrer cet exercice":"Enregistrer et continuer →";
+    if(previousStep){previousStep.disabled=state.step===0;skipStep.disabled=state.step===item.etapes.length-1;saveStatus.textContent='';}
     showStepPaywall(step);
     window.BrevetChoix?.render(id, step);
   }
@@ -497,10 +546,11 @@
       save();
       pauseTimer();
       renderTargetedPicker();
-      document.getElementById("trainingMode")?.scrollIntoView({behavior:"smooth",block:"start"});
+      if(saveStatus)saveStatus.textContent=storageAvailable?'Réponse enregistrée. Vous pouvez la reprendre ou passer à une autre étape.':'Copiez votre réponse pour la conserver : la sauvegarde est indisponible.';
       return;
     }
     state.step++; state.stepElapsed=0; save(); render();
+    if(isBac && currentStep())focusQuestion();
   });
 
   function renderSummary(){
@@ -509,13 +559,12 @@
     els.summary.hidden=false;
     if(els.manual)els.manual.hidden=true;
     els.count.textContent="PARCOURS TERMINÉ · "+fmt(state.totalElapsed);
-    els.summaryContent.innerHTML=item.etapes.map(s=>"<article class='summary-step'><h3>"+s.titre+"</h3><p>"+(state.answers[s.id]||"—")+"</p></article>").join("");
+    els.summaryContent.replaceChildren();
+    item.etapes.forEach(s=>{const article=document.createElement('article'),h=document.createElement('h3'),p=document.createElement('p');article.className='summary-step';h.textContent=s.titre;p.textContent=state.answers[s.id]||'—';article.append(h,p);els.summaryContent.append(article);});
     els.restart.href=item.type==="bac-commentaire"?"../bac-mode-examen.html":"../brevet.html#brevet-sujets";
   }
 
   renderTargetedPicker();
   render();
-  if(item.type==="bac-commentaire" && requestedMode==="targeted" && requestedStep){
-    startTimer();
-  }
+  if(isBac && location.hash==='#annaleQuestion')requestAnimationFrame(focusQuestion);
 })();

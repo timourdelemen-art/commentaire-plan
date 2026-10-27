@@ -1,0 +1,35 @@
+/* Accueil et espace de travail des annales de français. */
+.annales-bac-simple .pagehead{grid-template-columns:1fr;margin-bottom:1.5rem}
+.annales-bac-simple .corpus-index{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr));gap:1rem}
+.annales-bac-simple .corpus-card{display:flex;flex-direction:column;align-items:flex-start;padding:1.2rem;gap:.5rem}
+.annales-bac-simple .corpus-card h3,.annales-bac-simple .corpus-card p{margin:0}
+.annales-bac-simple .corpus-card .btn{margin-top:auto}
+.annales-discovery{display:flex;flex-wrap:wrap;align-items:center;gap:.65rem;margin:1rem 0}
+.annales-discovery select{max-width:100%;padding:.65rem;font:inherit}
+.annales-discovery button{padding:.65rem;font:inherit;cursor:pointer}
+.annales-discovery p{flex-basis:100%;margin:.2rem 0}
+.annales-archives,.annale-options{margin:2rem 0;padding:1rem;border:1px solid var(--line,#ddd);border-radius:12px}
+.annales-archives summary,.annale-options summary{cursor:pointer;font-weight:700}
+.annale-bac-direct .pagehead{display:block;margin-bottom:1rem;padding-bottom:0}
+.annale-bac-direct .pagehead h1{font-size:clamp(1.35rem,3vw,2rem)}
+.annale-bac-direct .pagehead .boussole,.annale-bac-direct .pagehead .side-note,.annale-bac-direct #trainingContext,.annale-bac-direct #accessStatus{display:none}
+.annale-bac-direct .annale-step-card{padding:1.2rem}
+.annale-bac-direct #annaleQuestion{scroll-margin-top:95px}
+.annale-bac-direct #stepLabel{display:none}
+.annale-bac-direct .annale-exercise-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:1.5rem;align-items:start}
+.annale-bac-direct .annale-exercise-layout>*{min-width:0}
+.annale-bac-direct #supportBlock{margin:0;padding:1rem;background:var(--paper,#faf8f3)}
+.annale-bac-direct #supportTitle{font-size:1.1rem}
+.annale-bac-direct #studentAnswer{box-sizing:border-box;width:100%;min-height:15rem}
+.annale-bac-direct .annale-step-nav{display:flex;flex-wrap:wrap;gap:.75rem;align-items:center;margin:1rem 0}
+.annale-bac-direct .annale-step-nav button{padding:.65rem;font:inherit;cursor:pointer}
+.annale-bac-direct .annale-save-status{font-size:.9rem;min-height:1.4em}
+.annale-bac-direct .annale-workspace{margin-top:1rem}
+.annale-bac-direct .training-mode{margin:1rem 0}
+.annale-bac-direct .timer-bar{margin:1rem 0}
+.annale-bac-direct .step-boussole{font-size:.85rem;margin:.75rem 0 1rem;line-height:1.5}
+.annale-bac-direct .step-boussole span{display:inline-block;margin-right:1rem}
+@media(max-width:760px){.annale-bac-direct .annale-exercise-layout{grid-template-columns:1fr}.annale-bac-direct .annale-step-card{padding:1rem}.annales-discovery select{width:100%}}
+@media print{.annale-options,.annales-discovery{display:none}}
+
+.annales-bac-simple [hidden],.annale-bac-direct [hidden]{display:none!important}

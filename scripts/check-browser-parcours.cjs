@@ -37,7 +37,7 @@ if(name==='annales-bac.html'){
   assert(count>0,'Aucun sujet après filtre auteur');
   await page.locator('#annales-reset').click();
   assert.equal(await page.locator('#annales-author').inputValue(),'all','Réinitialisation auteur');
-  assert(!(await page.locator('#annales-author').evaluate(el=>el.closest('label').hidden)),'Filtre auteur masqué');
+  assert(await page.locator('#annales-author').isVisible(),'Filtre auteur masqué');
   assert.equal(await page.locator('#transformedAnnales .corpus-card').filter({hasText:'Brevet'}).count(),0,'Des sujets du brevet sur la page du bac');
 }
 if(name==='brevet-redaction.html'){
