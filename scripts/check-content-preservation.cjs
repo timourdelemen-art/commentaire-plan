@@ -13,7 +13,11 @@ if(!base||!/^[a-f0-9]{7,40}$/i.test(base)){
 const git=(...args)=>cp.execFileSync('git',args,{cwd:root,encoding:'utf8',maxBuffer:40*1024*1024});
 const files=git('ls-tree','-r','--name-only',base).split('\n').filter(p=>p.endsWith('.html'));
 const readOld=p=>git('show',base+':'+p);
-const getLinks=s=>[...s.matchAll(/<a\b[^>]*\bhref\s*=\s*["']([^"']+)["'][^>]*>/gi)].map(m=>m[1]);
+const getLinks=s=>[
+ ...[...s.matchAll(/<a\b[^>]*\bhref\s*=\s*["']([^"']+)["'][^>]*>/gi)].map(m=>m[1]),
+ // Un onglet reste un accès à une section, même quand il remplace un lien du bandeau.
+ ...[...s.matchAll(/<button\b[^>]*\brole=["']tab["'][^>]*>/gi)].map(m=>m[0].match(/\baria-controls=["']([^"']+)["']/)?.[1]).filter(Boolean).map(id=>'#'+id)
+];
 const relevant=p=>/(?:copie-20|corrig|modele|modèle|annale|exercice|entrainement|entraînement|dissertation|commentaire|explication|brevet|hlp)/i.test(p);
 const signature=s=>({
  textareas:(s.match(/<textarea\b/gi)||[]).length,
@@ -31,6 +35,14 @@ const MOVED_LINKS={ // ancienne adresse → nouvelle (menu Annales, 26 octobre 2
  'annales.html::#hlp':'hlp-annales.html','annales.html::#brevet':'brevet.html#brevet-sujets' // ancres internes devenues des portes
 };
 const MOVED_PAGES={'annales.html':['annales-bac.html','brevet.html']}; // sections reprises par ces pages
+// Déplacements explicites de la PR nº 222 : aucune ressource n'est ignorée globalement.
+Object.assign(MOVED_LINKS,require('./content-moves-2026-10-27.json'));
+for(const [source,target] of Object.entries(require('./content-moves-2026-10-27.json'))){
+ const page=source.split('::')[0],url=new URL(target.replace(/&amp;/g,'&'),'https://local.invalid/'+page);
+ const dest=path.join(root,decodeURIComponent(url.pathname));
+ if(!fs.existsSync(dest))throw Error('Destination de déplacement absente : '+target);
+ if(url.hash&&!fs.readFileSync(dest,'utf8').includes('id="'+decodeURIComponent(url.hash.slice(1))+'"'))throw Error('Ancre de déplacement absente : '+target);
+}
 const signatureOf=f=>fs.existsSync(path.join(root,f))?signature(fs.readFileSync(path.join(root,f),'utf8')):{scripts:[],links:[]};
 for(const file of files){
  if(!relevant(file))continue;
