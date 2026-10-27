@@ -5,6 +5,7 @@ Option : (texte, verdict ok|def|no, pourquoi). La réponse solide n’est pas la
 
 Z = 'Zola, « Une cage de bêtes féroces » (brevet 2026)'
 LF = 'La Fontaine, « Le Lion et le Moucheron » (brevet 2022)'
+from reecritures import LIONS_TEXTE, LIONS_REPERES
 
 PAGES = {
  'brevet-comprehension.html': dict(kind='brevet-comprehension', annale='brevet-2026-general-zola-cage-betes-feroces.html',
@@ -73,9 +74,9 @@ PAGES = {
    geste='Un verbe conjugué, une proposition. On les délimite, on les nomme, on dit comment elles sont reliées.',
    questions=[
     (f'{LF}, question 9 : « Il rugit ; on se cache » (v. 16) devient une phrase complexe avec une subordonnée.', 'Quelle transformation est juste ?', [
-     ('« Il rugit et on se cache. »', 'no', 'Les deux propositions sont coordonnées par « et » : il n’y a toujours pas de subordonnée.'),
+     ('« Il rugit, alors on se cache. »', 'def', 'Le lien de conséquence est clair, mais les deux propositions restent indépendantes : « alors » ne les subordonne pas.'),
      ('« Quand il rugit, on se cache. »', 'ok', 'Une subordonnée circonstancielle de temps, introduite par « quand », dépend de « on se cache ».'),
-     ('« Il rugit, ce qui fait qu’on se cache partout autour de lui. »', 'def', 'La phrase contient bien des subordonnées, mais elle ajoute du sens au texte : une transformation garde les mots du passage.')]),
+     ('« Quand il rugit et qu’on se cache. »', 'no', 'Les deux propositions dépendent de « quand », mais il manque une proposition principale : la phrase est incomplète.')]),
    ],
    ecrit=dict(source=Z, question='« Ils se rencontrèrent au fond d’une allée, et, après les politesses d’usage, ils se mirent à marcher de compagnie. »',
     consigne='Délimitez les propositions entre crochets, dites combien il y en a, puis comment elles sont reliées.',
@@ -84,9 +85,9 @@ PAGES = {
    geste='Un mot se découpe : préfixe, radical, suffixe. Chaque élément a un sens, qui donne la définition.',
    questions=[
     (f'{Z}, question 9 : « Les deux honnêtes animaux […] se promenèrent avec lenteur » (l. 5-6).', 'Comment est formé « lenteur » ?', [
-     ('L’adjectif « lent » et le suffixe « -eur », qui forme un nom.', 'ok', 'Le radical et le suffixe sont nommés, avec le rôle du suffixe.'),
-     ('Un préfixe « len- » et un radical « -teur ».', 'no', 'Le mot vient de « lent » : il n’y a pas de préfixe.'),
-     ('C’est un nom dérivé de « lent ».', 'def', 'Juste, mais incomplet : le suffixe n’est pas nommé.')]),
+     ('L’adjectif « lent » et le suffixe « -eur » forment un nom.', 'ok', 'La base est un adjectif ; le suffixe « -eur » permet de former le nom « lenteur ».'),
+     ('Le nom « lent » reçoit le suffixe « -eur » pour former un nom.', 'no', 'La base « lent » est ici un adjectif, pas un nom. « lenteur » est le nom obtenu.'),
+     ('Le mot « lenteur » est un nom dérivé de l’adjectif « lent ».', 'def', 'La base et le résultat sont bien reconnus ; il reste à nommer le suffixe « -eur ».')]),
    ],
    ecrit=dict(source=LF, question='Question 10 : « L’invisible ennemi » (vers 23)',
     consigne='Découpez « invisible » en éléments, nommez-les, puis donnez sa définition à partir de ces éléments.',
@@ -94,10 +95,10 @@ PAGES = {
   dict(id='etape-temps', titre='Le temps d’un verbe et sa valeur',
    geste='On nomme le temps, puis on dit à quoi il sert dans ce passage : sa valeur.',
    questions=[
-    (f'{Z}, question 8 : « Alors ils se demandèrent à quels amusements ils pourraient consacrer leur journée. » (l. 9-10)', 'Quelle est la valeur de « pourraient » ?', [
+    (f'{Z}, question 8 : « Alors ils se demandèrent à quels amusements ils pourraient consacrer leur journée. » (l. 9-10)', 'Quelle réponse explique le lien entre le conditionnel et le récit au passé ?', [
      ('Un futur dans le passé : le récit est au passé, et l’action est encore à venir.', 'ok', 'Le conditionnel exprime ici l’avenir vu depuis le passé.'),
-     ('Un conditionnel de politesse.', 'no', 'Personne n’est poli ici : les animaux se posent une question sur leur journée.'),
-     ('Une possibilité.', 'def', 'Une nuance acceptée, mais la valeur principale est le futur dans le passé.')]),
+     ('Un conditionnel de politesse.', 'no', 'Les animaux ne formulent pas une demande atténuée à un interlocuteur : ils envisagent ce qu’ils feront ensuite.'),
+     ('Une possibilité pour les animaux.', 'def', 'La possibilité est admise dans le corrigé de l’annale. Ici, on vous demande en plus de situer l’action par rapport au récit au passé.')]),
    ],
    ecrit=dict(source=LF, question='« Dans l’abord il se met au large ; / Puis prend son temps, fond sur le cou / Du Lion » (v. 12-14)',
     consigne='Donnez le temps des verbes « se met », « prend », « fond », puis leur valeur dans ce récit.',
@@ -107,20 +108,24 @@ PAGES = {
   dict(id='etape-reperer', titre='Repérer tout ce qui change',
    geste='Avant de réécrire, on entoure tous les mots qui dépendent du changement : verbes, déterminants, pronoms, adjectifs, participes.',
    questions=[
-    (f'{LF}, question 11 : remplacer « Le malheureux Lion » par « Les malheureux Lions » dans « Le malheureux Lion se déchire lui-même, / Fait résonner sa queue à l’entour de ses flancs ».', 'Quels mots changent ?', [
-     ('« se déchirent », « eux-mêmes », « Font », « leur queue », « leurs flancs ».', 'ok', 'Les verbes, le pronom renforcé et les possessifs suivent le nouveau sujet.'),
-     ('Seulement les verbes : « se déchirent » et « Font ».', 'def', 'Les verbes sont justes, mais « lui-même » et les possessifs doivent aussi passer au pluriel.'),
-     ('« Le » et « Lion » seulement : la consigne ne demande de changer que le groupe sujet du premier vers.', 'no', 'Un changement en entraîne d’autres : c’est tout l’enjeu de la réécriture.')]),
+    (f'{LF}, question 11 : dans les quatre vers 26 à 29 ci-dessous, remplacez « Le malheureux Lion » par « Les malheureux Lions ».', 'Quelle réécriture effectue tous les changements nécessaires ?', [
+     (LIONS_TEXTE, 'ok', LIONS_REPERES),
+     (LIONS_TEXTE.replace('Les fatigue, les abat : les voilà', 'Le fatigue, l’abat : le voilà'), 'def', 'Les verbes et les possessifs sont modifiés, mais les trois pronoms du dernier vers désignent encore un seul Lion : il faut « Les fatigue, les abat : les voilà ».'),
+     (LIONS_TEXTE.replace('Les fatigue, les abat', 'Les fatiguent, les abattent'), 'no', '« les » est un complément, pas le sujet de ces deux verbes. Leur sujet « leur fureur extrême » reste singulier : « fatigue » et « abat » ne prennent pas de marque du pluriel.')]),
+    (f'{LF}, question 11 : relisez les quatre vers après le passage au pluriel.', 'Quels verbes conjugués restent au singulier ?', [
+     ('« peut » (sujet « qui », reprenant « l’air »), « fatigue » et « abat » (sujet « leur fureur extrême »).', 'ok', 'Le sujet de ces verbes n’est pas « Les Lions ». L’infinitif « résonner » reste également inchangé.'),
+     ('« fatigue » et « abat » seulement, car leur sujet « leur fureur extrême » reste au singulier.', 'def', 'Cette analyse est juste pour les deux verbes, mais elle oublie « peut », dont le sujet reprend « l’air ».'),
+     ('Aucun verbe : « Les Lions » est au pluriel, donc tous les verbes de ces vers prennent une terminaison plurielle.', 'no', 'Chaque verbe s’accorde avec son propre sujet. Plusieurs verbes du passage ne dépendent pas du groupe « Les Lions ».')]),
    ],
-   ecrit=dict(source=Z, question='Question 10 : « La clameur de la ville montait, sourde et menaçante, et cette clameur, faite du bruit des voitures, […] ressemblait à des hurlements de fureur » (l. 17-19)',
+   ecrit=dict(source=Z, question='Question 10 : réécrivez le passage à lire ci-dessous, de « À ce moment » à « des râles d’agonie » (l. 16-19).',
     consigne='Réécrivez ce passage en remplaçant « la clameur » par « les clameurs » et en mettant les verbes au présent de l’indicatif.',
-    corrige='« Les clameurs de la ville montent, sourdes et menaçantes, et ces clameurs, faites du bruit des voitures, […] ressemblent à des hurlements de fureur. » Les adjectifs et le participe « faite » s’accordent avec « clameurs ».')),
+    corrige='« À ce moment, Paris, qui s’éveille, se met à rugir d’une telle force que la Hyène s’arrête court, écoutant avec inquiétude. Les clameurs de la ville montent, sourdes et menaçantes, et ces clameurs, faites du bruit des voitures, des cris de la rue, de nos sanglots et de nos rires, ressemblent à des hurlements de fureur et à des râles d’agonie. » Les verbes passent au présent ; les déterminants, les adjectifs et le participe « faites » suivent « clameurs ».')),
   dict(id='etape-pieges', titre='Les pièges : ce qui change, ce qui ne change pas',
    geste='Un participe passé ou un adjectif s’accorde avec le mot dont il dépend ; un participe présent ne s’accorde jamais.',
    questions=[
     (f'{Z} : « la Hyène s’arrêta court, écoutant avec inquiétude » (l. 16-17). Consigne : remplacer « la Hyène » par « les Hyènes ».', 'Quelle réécriture est juste ?', [
      ('« les Hyènes s’arrêtèrent court, écoutant avec inquiétude »', 'ok', 'Le verbe s’accorde ; « écoutant », participe présent, reste invariable.'),
-     ('« les Hyènes s’arrêtèrent courtes, toutes deux écoutantes avec inquiétude »', 'no', '« court » est ici un adverbe (s’arrêter net) et « écoutant » un participe présent : aucun des deux ne s’accorde.'),
+     ('« les Hyènes s’arrêtèrent courtes, écoutantes avec inquiétude »', 'no', '« court » est ici un adverbe (s’arrêter net) et « écoutant » un participe présent : aucun des deux ne s’accorde.'),
      ('« les Hyènes s’arrêta court, écoutant avec inquiétude »', 'def', 'Le participe présent est bien invariable, mais le verbe doit s’accorder : « s’arrêtèrent ».')]),
    ],
    ecrit=dict(source=Z, question='« Le bruit croissait et la Hyène avait décidément peur. » (l. 24)',

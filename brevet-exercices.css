@@ -30,6 +30,7 @@
 .brevet-reponse-modes button:focus-visible{outline:3px solid var(--red)}
 .brevet-choix{margin:20px 0}
 .brevet-choix .chaine-opts{display:grid;gap:12px}
+#etape-reperer .chaine-opt{white-space:pre-line;text-align:left}
 @media(max-width:700px){
  .brevet-bank-grid{grid-template-columns:1fr}
  .brevet-bank-section{padding:12px 4px 30px}

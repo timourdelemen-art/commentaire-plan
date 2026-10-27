@@ -23,6 +23,7 @@ jobs:
           node scripts/test-explication-textes.js
           node scripts/test-philo-scenes.js
           node scripts/test-brevet-lecture.js
+          python3 -B scripts/test-brevet-reecriture.py
           node scripts/test-philo-banque.js
           (cd scripts/exemples && python -m unittest -q test_verifier)
       - name: Installer Chromium et Playwright
@@ -44,6 +45,7 @@ jobs:
           node scripts/check-browser-navigation-etudes.cjs "$BUILD_DIR"
           node scripts/check-browser-consignes.cjs "$BUILD_DIR"
           node scripts/check-browser-brevet-redaction.cjs "$BUILD_DIR"
+          node scripts/check-browser-brevet-exercices.cjs "$BUILD_DIR"
           node scripts/check-browser-philo-banque.cjs "$BUILD_DIR"
           PHILO_SCREENSHOT_DIR="$BUILD_DIR/browser-audit" node scripts/check-browser-explication.cjs "$BUILD_DIR"
       - name: Archiver le contrôle visuel

@@ -26,8 +26,18 @@ const server=http.createServer((req,res)=>{
     for(let i=0;i<await steps.count();i++){
      await steps.nth(i).click();
      const step=page.locator('.etape:visible');
-     const reading=step.locator('.etape-q .brevet-extrait');
+     const reading=step.locator('.etape-q:visible .brevet-extrait').first();
      await reading.waitFor();assert((await reading.innerText()).length>150);
+     if(file==='brevet-reecriture.html'&&i===0){
+      const first=step.locator('.etape-q').nth(0),solid=first.locator('[data-v="ok"]');
+      assert.equal((await solid.textContent()).split('\n').length,4,'Le choix solide réécrit les quatre vers');
+      assert.match(await solid.textContent(),/Les fatigue, les abat : les voilà sur les dents/);
+      assert.equal(await solid.evaluate(e=>getComputedStyle(e).whiteSpace),'pre-line');
+      await first.locator('[data-v="def"]').click();assert.match(await first.locator('.chaine-fb').innerText(),/trois pronoms/);
+      await solid.click();await first.getByRole('button',{name:'Question suivante',exact:false}).click();
+      const second=step.locator('.etape-q').nth(1);assert(await second.isVisible());
+      await second.locator('[data-v="ok"]').click();assert.match(await second.locator('.chaine-fb').innerText(),/infinitif/);
+     }
      await step.locator('.etape-direct').click();
      const writing=step.locator('.etape-ecrit .brevet-extrait');
      await writing.waitFor();assert((await writing.innerText()).length>150);
@@ -58,7 +68,7 @@ const server=http.createServer((req,res)=>{
     for(const opt of await opts.all()){
      await opt.click();verdicts.push((await page.locator('.brevet-choix .chaine-fb').innerText()).split('.')[0]);
     }
-    assert.deepEqual(verdicts.sort(),['À revoir','Défendable','Solide'].sort());
+    assert.deepEqual(verdicts.sort(),(step==='q8b'?['À revoir','Solide','Solide']:['À revoir','Défendable','Solide']).sort(),'Ne pas déclasser la possibilité, admise dans le corrigé officiel');
     await page.getByRole('button',{name:'Je rédige',exact:true}).click();
     assert.equal(await page.locator('#studentAnswer').inputValue(),draft);
     await page.locator('#helpButton').click();await page.locator('#helpButton').click();
@@ -71,7 +81,7 @@ const server=http.createServer((req,res)=>{
    await page.goto(base+'annales/entrainement-annale.html?id=brevet-2022-metropole-general-la-fontaine-lion-moucheron&mode=targeted&step=q8a');
    await page.locator('#stepTitle').waitFor();assert.equal(await page.locator('.brevet-reponse-modes').count(),0);
    assert.deepEqual(errors,[]);assert.deepEqual(posts,[]);
-   console.log('Brevet '+width+' px : 10 étapes avec extraits, banque lisible, 4 QCM, corrections sans IA et brouillons : OK.');
+   console.log('Brevet '+width+' px : 10 étapes avec extraits, réécriture intégrale et accords, banque lisible, 4 QCM dont une question à deux lectures admises, corrections sans IA et brouillons : OK.');
    await context.close();
   }
  }finally{await browser.close();}

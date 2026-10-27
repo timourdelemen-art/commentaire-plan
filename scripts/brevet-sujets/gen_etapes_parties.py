@@ -43,6 +43,6 @@ for f, P in E.PAGES.items():
         s = s.replace('</head>', '<link rel="stylesheet" href="brevet-exercices.css"></head>')
     s = re.sub(r'(aria-controls="entrainement"><b>S’entraîner</b><small>)[^<]*(</small>)', rf'\g<1>{n} étapes\g<2>', s)
     open(p, 'w', encoding='utf8').write(s)
-    ok = sum(1 for d in P['etapes'] for q in d['questions'] for t, v, w in q[2] if v == 'ok' and len(t.split()) == max(len(x[0].split()) for x in q[2]))
+    ok = sum(1 for d in P['etapes'] for q in d['questions'] for t, v, w in q[2] if v == 'ok' and all(len(t.split()) > len(x[0].split()) for x in q[2] if x[1] != 'ok'))
     nq = sum(len(d['questions']) for d in P['etapes'])
-    print(f, n, 'étapes ; réponse solide la plus longue :', ok, 'sur', nq)
+    print(f, n, 'étapes ; réponse solide seule la plus longue :', ok, 'sur', nq)
