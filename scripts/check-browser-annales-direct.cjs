@@ -29,6 +29,13 @@ const server=http.createServer((req,res)=>{const f=path.resolve(root,'.'+new URL
    await page.getByRole('button',{name:'← Étape précédente',exact:true}).click();assert.equal(await page.locator('#studentAnswer').inputValue(),draft);
    await page.getByRole('button',{name:'Étape suivante →',exact:true}).click();
    assert((await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth))<=1);
+   for(const [author,file] of [['Claire de Duras','bac-commentaire-duras-edouard.html'],['Jean Racine','bac-commentaire-racine-berenice.html']]){
+    await page.goto(base+'annales-bac.html');await page.locator('#annales-author').selectOption(author);
+    await page.locator('#transformedAnnales .corpus-card:visible .btn').click();assert.equal(new URL(page.url()).pathname,'/'+file);
+    await page.locator('[data-etapes].etapes-actives').waitFor();assert(await page.locator('#entrainement .programme-reading').isVisible());
+    assert(await page.locator('#entrainement .programme-reading').evaluate(e=>e.scrollHeight<=e.clientHeight+1));
+    await page.locator('.etape:visible .etape-direct').click();await page.locator('.etape:visible textarea').fill('Une lecture de cette annale, appuyée sur les mots du texte.');
+   }
    await page.goto(base+'annales-bac.html#dissertations');await page.locator('#dissertations').waitFor();
    assert.equal(await page.locator('#dissertations .corpus-card').count(),6);
    const models=await page.locator('#dissertations .corpus-card .btn').evaluateAll(as=>as.map(a=>a.getAttribute('href')));
