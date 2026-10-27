@@ -33,3 +33,5 @@ La revue vérifie la hiérarchie des entrées et les défauts observables de ces
 ## Grilles officielles fournies
 
 Usage proposé au propriétaire : trois documents facultatifs sous des titres explicites, regroupés dans une ressource « Relire et améliorer son travail ». Une courte notice inviterait à choisir un critère, repérer un passage et le reprendre. Pas d'insertion systématique dans les exercices courts. Cette proposition ne vaut pas intégration de ces documents : le propriétaire a demandé de préciser l'usage avant de l'alourdir.
+
+Mise à jour : la proposition de documents facultatifs a été acceptée. Leur intégration est décrite dans `grilles-officielles-2026-10-27.md` ; les exercices courts ne reçoivent pas de nouvelle grille.
