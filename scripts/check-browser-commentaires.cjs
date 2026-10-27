@@ -24,6 +24,8 @@ async function check(root){
         const page=await context.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));
         assert((await page.goto(`http://127.0.0.1:${server.address().port}/${name}#phrase-par-phrase`)).ok());
         const art=page.locator('article[data-c20]'),source=art.locator(':scope > p [data-f]');
+        assert(!/mérite une très bonne note/i.test(await page.locator('.pagehead .lede').innerText()),'Présenter d’abord le travail de l’élève');
+        for(const ch of await page.locator('.c20-chapeau').all())assert.equal(await ch.evaluate(e=>getComputedStyle(e).fontStyle),'italic','Le chapeau doit être distinct de l’extrait');
         const expected=(await source.allTextContents()).map(normalize),functions=await source.evaluateAll(xs=>xs.map(x=>x.getAttribute('data-f')));
         assert(expected.length>0);
         assert.deepEqual((await art.locator('.c20-t').allTextContents()).map(normalize),expected,'Même texte dans la vue annotée');

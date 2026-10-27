@@ -15,6 +15,8 @@ const server=http.createServer((req,res)=>{const f=path.resolve(root,'.'+new URL
    for(const w of data){
     await page.goto(base+w.file+'#entrainement');await page.locator('[data-etapes].etapes-actives').waitFor();
     const support=page.locator('#entrainement .programme-reading');assert((await support.innerText()).split(/\s+/).length>=300);
+    assert(await support.evaluate(e=>e.scrollHeight<=e.clientHeight+1),'Le texte doit être entièrement déplié, sans défilement interne');
+    assert.equal(await page.locator('#entrainement .texte-chapeau').evaluate(e=>getComputedStyle(e).fontStyle),'italic');
     for(let i=0;i<w.exercises.length;i++){
      await page.locator('[data-etape="'+i+'"]').click();const step=page.locator('.etape:visible'),e=w.exercises[i];
      const opts=step.locator('.chaine-opt');assert.equal(await opts.count(),3);
@@ -33,7 +35,7 @@ const server=http.createServer((req,res)=>{const f=path.resolve(root,'.'+new URL
     await page.locator('#copie .cm-mode[data-mode="f"]').click();assert.equal(await page.locator('#copie .c20-f:visible').count(),w.copy.reduce((n,p)=>n+p.sentences.length,0));
     await page.locator('#copie .cm-mode[data-mode="e"]').click();assert.equal(await page.locator('#copie .cm-plain>p:visible').count(),13);
     await page.screenshot({path:path.join(captures,w.id+'-modele-'+width+'.png')});
-    await page.goto(base+w.dissertation.file+'#entrainement');const fields=page.locator('textarea');assert.equal(await fields.count(),3);
+    await page.goto(base+w.dissertation.file+'#entrainement');assert.match(await page.locator('#sujet blockquote').innerText(),/^« .+ »$/s);assert.equal(await page.locator('#sujet h2').count(),0);const fields=page.locator('textarea');assert.equal(await fields.count(),3);
     for(let i=0;i<3;i++){await fields.nth(i).fill('Une lecture à vérifier dans les scènes de l’œuvre.');await page.locator('[data-after-writing] summary').nth(i).click();assert.equal(await page.locator('[data-after-writing]').nth(i).getAttribute('open'),'');}
     assert((await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth))<=1);
    }
