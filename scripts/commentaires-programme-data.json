@@ -1,0 +1,773 @@
+[
+  {
+    "id": "pot-bouille-cour",
+    "file": "bac-commentaire-zola-pot-bouille-cour.html",
+    "author": "Émile Zola",
+    "work": "Pot-Bouille",
+    "title": "La cour des cuisines",
+    "reference": "1882 · chapitre VI",
+    "parcours": "Dévoiler les rouages de la société",
+    "source": "pot-bouille-pb01.html",
+    "sourceNote": "Extrait continu du chapitre VI, contrôlé sur l’EPUB fourni. Texte de Zola dans le domaine public.",
+    "support": "<p>Alors, à plein gosier, une volée de gros mots s’échappa de ce trou, obscur et empesté comme un puisard. Toutes, la face levée, interpellaient violemment Adèle, qui était leur souffre-douleur, la bête sale et gauche sur laquelle la maison entière tapait.</p>\n<p>— Tiens ! elle s’est lavée, ça se voit !</p>\n<p>— Tâche encore de jeter tes vidures de poisson dans la cour, que je monte te débarbouiller avec !</p>\n<p>— Eh ! va donc manger le bon Dieu, fille à curé !… Vous savez, elle en garde dans ses dents pour se nourrir toute la semaine.</p>\n<p>Ahurie, Adèle les regardait d’en haut, le corps à demi sorti de la fenêtre. Elle finit par répondre :</p>\n<p>— Laissez-moi tranquille, n’est-ce pas ? ou je vous arrose.</p>\n<p>Mais les cris et les rires redoublèrent.</p>\n<p>— T’as marié ta maîtresse, hier soir ? Hein ? c’est peut-être toi qui lui apprends à faire les hommes ?</p>\n<p>— Ah ! la sans-cœur ! elle reste dans une boîte où l’on ne mange pas ! Vrai, c’est ça qui m’exaspère contre elle !… Trop bête, envoie-les donc coucher !</p>\n<p>Des larmes étaient venues aux yeux d’Adèle.</p>\n<p>— Vous ne savez que des sottises, bégaya-t-elle. Ce n’est pas ma faute, si je ne mange pas.</p>\n<p>Et les voix grandissaient, des mots aigres commençaient à s’échanger entre Lisa et la nouvelle bonne, Françoise, qui prenait parti pour Adèle, lorsque celle-ci, oubliant les injures, cédant à l’instinct de l’esprit de corps, cria :</p>\n<p>— Méfiance ! v’là madame !</p>\n<p>Un silence de mort tomba. Toutes, brusquement, avaient replongé dans leur cuisine ; et il ne montait plus, du boyau noir de l’étroite cour, que la puanteur d’évier mal tenu, comme l’exhalaison même des ordures cachées des familles, remuées là par la rancune de la domesticité. C’était l’égout de la maison, qui en charriait les hontes, tandis que les maîtres traînaient encore leurs pantoufles, et que le grand escalier déroulait la solennité des étages, dans l’étouffement muet du calorifère.</p>\n<p>Octave se souvint de la bouffée de vacarme qu’il avait reçue au visage, chez les Campardon, le jour de son arrivée.</p>\n<p>— Elles sont bien gentilles, dit-il simplement.</p>\n<p>Et il se penchait à son tour, il regardait les murailles, comme vexé de ne pas avoir lu tout de suite au travers, derrière les faux-marbres et le carton-pâte luisant de dorure.</p>",
+    "chapeau": "Octave Mouret observe la cour intérieure où donnent les cuisines. Les domestiques s’y invectivent ; l’arrivée annoncée d’une maîtresse interrompt leurs voix.",
+    "problem": "Comment Zola fait-il de la cour des cuisines un lieu où se découvre la vérité de l’immeuble ?",
+    "copy": [
+      {
+        "heading": "INTRODUCTION",
+        "sentences": [
+          {
+            "text": "Dans Pot-Bouille, publié en 1882, Émile Zola installe Octave Mouret dans un immeuble dont les habitants affichent leur respectabilité.",
+            "function": "Présenter l’œuvre et son cadre social"
+          },
+          {
+            "text": "Au chapitre VI, la cour des cuisines fait entendre une tout autre vie : les domestiques s’y insultent avant de se taire à l’approche d’une maîtresse.",
+            "function": "Situer le passage et sa progression"
+          },
+          {
+            "text": "Le récit ne se contente pas d’opposer deux groupes sociaux ; il conduit aussi Octave à regarder autrement la maison.",
+            "function": "Dégager son enjeu de lecture"
+          },
+          {
+            "text": "Comment Zola fait-il de cette cour un lieu où se découvre la vérité de l’immeuble ?",
+            "function": "Problématique"
+          },
+          {
+            "text": "La violence des paroles, leur interruption et le regard final d’Octave rendent progressivement lisible ce que les apparences dissimulent.",
+            "function": "Annoncer les réponses dans l’ordre du texte"
+          }
+        ]
+      },
+      {
+        "heading": "I.1",
+        "sentences": [
+          {
+            "text": "La scène commence par une parole qui semble éclater hors d’un espace fermé.",
+            "function": "Réponse I : la cour libère une parole violente"
+          },
+          {
+            "text": "L’expression « à plein gosier » donne une présence physique aux voix, tandis que la « volée de gros mots » les présente comme une projection brutale.",
+            "function": "Appuis : la voix physique et la métaphore de la volée"
+          },
+          {
+            "text": "Le trou comparé à un « puisard » associe déjà le bruit à la saleté.",
+            "function": "Comparaison : relier le lieu au bruit et à la saleté"
+          },
+          {
+            "text": "Le lieu n’est donc pas un simple décor : il fait surgir une vie que l’espace respectable de la maison tient à l’écart.",
+            "function": "Effet ici : le décor révèle une vie tenue à l’écart"
+          }
+        ]
+      },
+      {
+        "heading": "I.2",
+        "sentences": [
+          {
+            "text": "Cette violence sonore se concentre sur Adèle.",
+            "function": "Centrer la violence sur sa cible"
+          },
+          {
+            "text": "Les répliques successives composent une attaque collective dont la jeune servante devient la cible.",
+            "function": "Composition : les répliques font une attaque collective"
+          },
+          {
+            "text": "Sa désignation comme « la bête sale et gauche » l’animalise et la réduit à un être offert à la brutalité des autres.",
+            "function": "Appui, animalisation et effet déshumanisant"
+          },
+          {
+            "text": "La formule « la maison entière tapait » étend cette violence à tout l’immeuble : les voix font entendre un rapport de domination.",
+            "function": "Appui et portée : étendre la domination à l’immeuble"
+          }
+        ]
+      },
+      {
+        "heading": "I.3",
+        "sentences": [
+          {
+            "text": "Le discours direct fait cependant entendre ce que cette domination coûte à celle qui la subit.",
+            "function": "Faire entendre le coût de la violence"
+          },
+          {
+            "text": "Les larmes et l’incise « bégaya-t-elle » opposent la détresse d’Adèle à l’aisance des injures ; son aveu de la faim rappelle une privation réelle derrière les plaisanteries.",
+            "function": "Appuis et contraste entre l’aisance des injures et la détresse"
+          },
+          {
+            "text": "Françoise prend pourtant son parti : les domestiques ne forment pas un bloc unanime.",
+            "function": "Nuancer : une domestique défend Adèle"
+          },
+          {
+            "text": "Zola montre ainsi un groupe traversé de rapports de force, sans idéaliser les victimes des maîtres.",
+            "function": "Gain : un groupe traversé de rapports de force"
+          }
+        ]
+      },
+      {
+        "heading": "TRANSITION I → II",
+        "sentences": [
+          {
+            "text": "Que devient cette violence lorsque l’autorité des maîtres réapparaît ?",
+            "function": "Transition I → II : interroger le retour de l’autorité"
+          }
+        ]
+      },
+      {
+        "heading": "II.1",
+        "sentences": [
+          {
+            "text": "C’est Adèle elle-même qui prévient les autres de l’arrivée d’une maîtresse.",
+            "function": "Réponse II : l’alerte vient de la victime"
+          },
+          {
+            "text": "Le personnage jusque-là isolé agit soudain au nom du groupe : la menace commune l’emporte momentanément sur les conflits internes.",
+            "function": "Contraste : la menace commune modifie son rôle"
+          },
+          {
+            "text": "Le narrateur explique ce geste par l’« esprit de corps », ce qui donne une raison sociale à ce retournement.",
+            "function": "Appui et explication du narrateur"
+          },
+          {
+            "text": "Les domestiques peuvent donc se maltraiter tout en partageant la même dépendance.",
+            "function": "Gain : rivalité et dépendance peuvent coexister"
+          }
+        ]
+      },
+      {
+        "heading": "II.2",
+        "sentences": [
+          {
+            "text": "L’avertissement produit une rupture immédiate.",
+            "function": "Repérer la rupture de la scène"
+          },
+          {
+            "text": "Le « silence de mort » remplace l’agitation, tandis que la disparition des corps aux fenêtres accompagne l’effacement des voix.",
+            "function": "Appui : le silence remplace les voix et les corps"
+          },
+          {
+            "text": "Ce contraste montre combien la liberté précédente dépendait de l’absence des maîtres : la seule annonce d’une présence impose le silence.",
+            "function": "Contraste et effet : une autorité sans intervention directe"
+          },
+          {
+            "text": "La respectabilité de la maison apparaît comme un ordre que chacun maintient en contrôlant ce qui peut se voir et s’entendre.",
+            "function": "Gain : la respectabilité se maintient par le contrôle"
+          }
+        ]
+      },
+      {
+        "heading": "II.3",
+        "sentences": [
+          {
+            "text": "Le silence permet alors à la description de prendre le relais des voix.",
+            "function": "Décrire le relais entre récit et description"
+          },
+          {
+            "text": "Avec l’« égout de la maison », qui charrie les « hontes », la métaphore filée fait des secrets familiaux une saleté que l’immeuble rejette dans la cour.",
+            "function": "Appuis, métaphore filée et effet ici"
+          },
+          {
+            "text": "La locution « tandis que » rapproche cet espace du grand escalier : la simultanéité rend sensible le contraste entre les ordures cachées et la « solennité » affichée.",
+            "function": "Construction de la phrase : simultanéité et contraste social"
+          },
+          {
+            "text": "Le roman interprète ainsi l’architecture au lieu de seulement la décrire.",
+            "function": "Gain : l’architecture devient interprétable"
+          }
+        ]
+      },
+      {
+        "heading": "TRANSITION II → III",
+        "sentences": [
+          {
+            "text": "Comment le regard d’Octave prolonge-t-il ce dévoilement au-delà de la cour ?",
+            "function": "Transition II → III : prolonger le dévoilement par le regard"
+          }
+        ]
+      },
+      {
+        "heading": "III.1",
+        "sentences": [
+          {
+            "text": "Octave relie d’abord cette expérience à un souvenir de son arrivée.",
+            "function": "Réponse III : relier la scène à un souvenir"
+          },
+          {
+            "text": "Le vacarme perçu auparavant reçoit maintenant un sens : il ne s’agit plus d’une impression passagère, mais d’un indice qu’il n’avait pas su comprendre.",
+            "function": "Effet du retour en arrière : donner sens à une perception"
+          },
+          {
+            "text": "Ce retour sur une perception antérieure donne à la scène une fonction d’apprentissage.",
+            "function": "Fonction de la scène : apprendre à lire les indices"
+          },
+          {
+            "text": "Le lecteur accompagne un personnage qui reconnaît progressivement des rapports entre des observations dispersées, plutôt qu’il ne reçoit seulement une explication générale sur la bourgeoisie.",
+            "function": "Place du lecteur dans cet apprentissage"
+          }
+        ]
+      },
+      {
+        "heading": "III.2",
+        "sentences": [
+          {
+            "text": "La remarque « Elles sont bien gentilles » introduit une distance comique après les injures.",
+            "function": "Repérer le décalage de la réplique"
+          },
+          {
+            "text": "Son éloge apparent peut se lire comme une antiphrase : Octave reconnaît la malveillance des servantes en empruntant les mots de la gentillesse.",
+            "function": "Appui, antiphrase possible et effet ici"
+          },
+          {
+            "text": "L’incise « dit-il simplement » évite un discours explicatif et laisse au lecteur le soin de mesurer l’écart.",
+            "function": "Appui : la simplicité laisse au lecteur le soin d’interpréter"
+          },
+          {
+            "text": "Ce regard reste celui d’un personnage : la scène raconte aussi son apprentissage de la maison.",
+            "function": "Préciser le statut du regard : celui d’un personnage"
+          }
+        ]
+      },
+      {
+        "heading": "III.3",
+        "sentences": [
+          {
+            "text": "Le dernier geste étend enfin l’examen à l’immeuble entier.",
+            "function": "Étendre le regard à la maison entière"
+          },
+          {
+            "text": "Octave regarde les murs comme s’il fallait apprendre à lire « au travers » : le récit rapporte son désir de comprendre ce qu’il n’a pas immédiatement perçu.",
+            "function": "Appui et interprétation de la perception d’Octave"
+          },
+          {
+            "text": "Les « faux-marbres » et le « carton-pâte » désignent des matériaux d’imitation qui rendent suspecte la splendeur du décor.",
+            "function": "Appuis matériels : l’imitation rend le décor suspect"
+          },
+          {
+            "text": "L’artifice architectural devient ainsi l’image d’une respectabilité fabriquée, que le personnage et le lecteur doivent déchiffrer.",
+            "function": "Gain : apparences sociales et artifice architectural se rejoignent"
+          }
+        ]
+      },
+      {
+        "heading": "CONCLUSION",
+        "sentences": [
+          {
+            "text": "La cour révèle donc la vérité de la maison par une progression qui va de l’écoute à l’interprétation.",
+            "function": "Réponse finale à la problématique"
+          },
+          {
+            "text": "La violence des domestiques fait entendre des rapports de domination ; leur silence montre l’ordre qui les contient ; le regard d’Octave relit ensuite les apparences.",
+            "function": "Récapituler les acquis de la progression"
+          },
+          {
+            "text": "Zola dévoile ainsi les rouages de la société en faisant travailler ensemble les voix, les lieux et les perceptions.",
+            "function": "Portée littéraire : plusieurs moyens concourent au dévoilement"
+          },
+          {
+            "text": "L’immeuble devient moins un décor à admirer qu’un ensemble de signes à déchiffrer.",
+            "function": "Formuler le gain final de la lecture"
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "id": "probleme",
+        "title": "Comprendre le passage",
+        "question": "Quelle lecture rend compte de toute la scène ?",
+        "choices": [
+          [
+            "La cour expose des brutalités que le silence et le décor de l’immeuble doivent ensuite dissimuler.",
+            "ok",
+            "Cette lecture relie les voix, leur disparition et le regard final sur les apparences de la maison."
+          ],
+          [
+            "La scène donne la parole aux servantes et raconte la querelle qui les oppose autour d’Adèle.",
+            "def",
+            "La querelle est bien présente, mais cette lecture ne dit pas encore ce que révèlent le silence et le regard d’Octave."
+          ],
+          [
+            "Les servantes font bloc pour défendre Adèle contre les maîtres et leurs accusations injustes.",
+            "no",
+            "Françoise défend Adèle, mais les autres l’humilient. La solidarité face aux maîtres n’efface pas ces rapports de force."
+          ]
+        ],
+        "write": "En une phrase, expliquez ce que le silence révèle du pouvoir des maîtres.",
+        "hint": "Comparez la liberté des voix avant l’avertissement et leur disparition après lui.",
+        "model": "Le « silence de mort » imposé par la seule annonce d’une maîtresse montre que les domestiques anticipent et subissent le contrôle des maîtres, même sans leur intervention directe.",
+        "checks": [
+          "Votre phrase explique le silence au lieu de seulement le constater.",
+          "Elle s’appuie sur un détail de la scène."
+        ]
+      },
+      {
+        "id": "plan",
+        "title": "Construire la progression",
+        "question": "Quel plan suit les mouvements du texte tout en les interprétant ?",
+        "choices": [
+          [
+            "I. Les voix exposent la violence de la maison.\nII. Leur silence révèle l’ordre qui la contient.\nIII. Le regard d’Octave déchiffre ses apparences.",
+            "ok",
+            "Les trois réponses expliquent ce que chaque mouvement apporte au dévoilement progressif de la maison."
+          ],
+          [
+            "I. Les servantes se disputent avec Adèle.\nII. Elles rentrent dans leurs cuisines.\nIII. Octave observe les murs de l’immeuble.",
+            "def",
+            "L’ordre du passage est respecté. Il reste à dire ce que ces actions font comprendre : suivre le texte convient si on l’interprète."
+          ],
+          [
+            "I. Les dialogues des domestiques.\nII. Les métaphores de la saleté.\nIII. Le vocabulaire de l’architecture.",
+            "no",
+            "Ces moyens d’écriture servent les réponses ; les séparer ne fait pas encore apparaître une progression de la lecture."
+          ]
+        ],
+        "write": "Écrivez une phrase pour chaque partie de votre plan.\nEntre les parties, écrivez une question sur ce qu’il reste à expliquer.",
+        "hint": "Reliez les voix, leur interruption et le regard final. Chaque partie apporte une réponse à la question de lecture.",
+        "model": "I. Les voix exposent la violence de la maison.\nQue devient cette violence lorsque l’autorité des maîtres réapparaît ?\nII. Leur silence révèle l’ordre qui la contient.\nComment le regard d’Octave prolonge-t-il ce dévoilement au-delà de la cour ?\nIII. Octave apprend à déchiffrer les apparences de l’immeuble.",
+        "checks": [
+          "Chaque partie interprète un mouvement du texte.",
+          "Chaque question prépare ce que la partie suivante explique."
+        ]
+      },
+      {
+        "id": "analyse",
+        "title": "Expliquer un effet précis",
+        "question": "Quelle analyse explique l’image de l’« égout de la maison » ?",
+        "choices": [
+          [
+            "La métaphore filée relie l’« égout » aux « hontes » familiales : la cour recueille ce que la respectabilité doit cacher.",
+            "ok",
+            "Les mots cités montrent le passage de la saleté matérielle aux secrets sociaux : l’image explique le rôle de la cour."
+          ],
+          [
+            "La métaphore de l’« égout » rend la cour très repoussante ; elle permet au lecteur de se représenter un décor saisissant.",
+            "def",
+            "Le dégoût est justifié par le passage, mais il reste à relier la saleté aux « hontes » des familles."
+          ],
+          [
+            "Le mot « égout » décrit une évacuation réelle : Zola indique le trajet des eaux sales dans les canalisations de l’immeuble.",
+            "no",
+            "La présence d’ordures ne suffit pas à rendre l’expression littérale : ce sont aussi des « hontes » que cet égout charrie."
+          ]
+        ],
+        "write": "En deux phrases, expliquez la réplique « Elles sont bien gentilles ». Appuyez-vous sur ce qui la précède.",
+        "hint": "Comparez l’éloge apparent avec les injures adressées à Adèle.",
+        "model": "Après les injures, l’éloge « Elles sont bien gentilles » peut se lire comme une antiphrase : les mots de la gentillesse font entendre la malveillance. Octave prend ainsi ses distances avec ce qu’il vient d’entendre ; le lecteur mesure l’écart sans qu’un long jugement lui soit imposé.",
+        "checks": [
+          "Vous confrontez la réplique à la scène.",
+          "Vous expliquez ce que ce décalage fait comprendre ici."
+        ]
+      }
+    ],
+    "dissertation": {
+      "file": "bac-dissertation-pot-bouille-accusation.html",
+      "author": "Émile Zola",
+      "quote": "l’acte d’accusation le plus violent qu’on puisse faire contre la société française",
+      "introduction": "Dans ses notes préparatoires de Pot-Bouille, Zola envisage",
+      "question": "Cette formule rend-elle compte de votre lecture de Pot-Bouille ?",
+      "reference": "Ébauche de Pot-Bouille, BnF, NAF 10321, f. 318–319, citée par Marie-Ange Voisin-Fougère, « Le sérieux et la feinte. Le bourgeois dans la littérature réaliste », Romantisme, 1995, no 87, p. 3, épigraphe et note 1. DOI : 10.3406/roman.1995.2970.",
+      "source": "https://www.persee.fr/doc/roman_0048-8593_1995_num_25_87_2970",
+      "status": "Fragment retrouvé dans la publication universitaire citée ; le manuscrit de Zola n’a pas été consulté directement. Il s’agit du projet du romancier, à confronter au roman achevé.",
+      "tasks": [
+        [
+          "Les mots du jugement",
+          "En deux phrases, expliquez « acte d’accusation » et « le plus violent » pour un roman.",
+          "Examinez le choix des scènes, les voix et les images qui exposent les comportements, sans réduire le sujet à un jugement moral sur la bourgeoisie. Le superlatif invite aussi à discuter la portée et les moyens de cette violence."
+        ],
+        [
+          "Mettre le jugement à l’épreuve",
+          "Choisissez un passage qui confirme ce jugement, puis un passage qui oblige à le préciser.",
+          "La cour des cuisines donne de la force à l’accusation par les injures, les images d’ordures et le contraste des espaces. Le retour de Berthe montre aussi le rôle d’une éducation et d’un marché matrimonial : le roman explique des mécanismes autant qu’il dénonce des conduites. Analysez les passages ; les nommer ne suffit pas."
+        ],
+        [
+          "Votre question de dissertation",
+          "En une question, formulez ce que la citation vous conduit à examiner dans l’œuvre.",
+          "Une question possible : comment la mise en accusation de la société s’articule-t-elle, dans Pot-Bouille, à l’explication de ses mécanismes ? Elle invite à étudier la construction du procès, les liens entre les groupes et la place du lecteur qui déchiffre les apparences. Ce n’est pas un plan imposé."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "lancelot-charrette",
+    "file": "bac-commentaire-lancelot-charrette.html",
+    "author": "Chrétien de Troyes",
+    "work": "Le Chevalier de la charrette",
+    "title": "Monter dans la charrette",
+    "reference": "XIIe siècle · vers 345–397, édition Jonckbloet, 1850, p. 59",
+    "parcours": "Le roman et l’invention de l’amour",
+    "source": "https://fr.wikisource.org/wiki/Page:Chr%C3%A9tien_de_Troyes_-_Le_Roman_de_la_Charette.djvu/121",
+    "sourceNote": "Traduction de travail originale du site, à partir du texte ancien de l’édition Jonckbloet (1850), p. 59, contrôlé sur le fac-similé. Les citations du commentaire renvoient à cette traduction ; ses sons et son rythme ne sont pas attribués au vers médiéval.",
+    "support": "<p>À pied, sans lance, le chevalier s’approche de la charrette. Sur les brancards, il voit un nain qui tient une longue baguette, comme un conducteur.</p><p>Le chevalier lui demande : « Nain, pour Dieu, dis-moi si tu as vu passer par ici ma dame la reine. » Le nain, perfide et de vile naissance, refuse de lui donner des nouvelles. Il lui dit plutôt : « Si tu veux monter dans la charrette que je conduis, tu pourras savoir d’ici demain ce que la reine est devenue. »</p><p>Le nain reprend aussitôt sa route ; le chevalier ne monte pas encore. Il eut tort d’en avoir honte et de ne pas y bondir sur-le-champ : il se jugera bien malheureux de ce retard.</p><p>Mais Raison, qui se sépare d’Amour, lui dit de se garder de monter. Elle le réprimande et lui enseigne à ne rien faire ni entreprendre qui lui attire honte ou reproche. Ce n’est pas dans le cœur, mais dans la bouche, que se tient Raison, qui ose lui parler ainsi. Amour, lui, est enfermé dans le cœur : il lui commande et le presse de monter vite dans la charrette.</p><p>Amour le veut, il saute : peu lui importe la honte, puisqu’Amour le commande et le veut.</p><p>Messire Gauvain arrive au galop derrière la charrette. Il s’étonne d’y trouver le chevalier assis et demande au nain : « Donne-moi des nouvelles de la reine, si tu en sais. » Le nain répond : « Si tu te hais autant que ce chevalier assis ici, monte avec lui, si cela te convient, et je vous conduirai ensemble. »</p><p>Gauvain y voit une grande folie. Il dit qu’il ne montera pas : ce serait un trop mauvais échange que de troquer un cheval contre une charrette. « Va où tu voudras, ajoute-t-il, je te suivrai là où tu iras. »</p><p>Ils reprennent alors leur route. L’un chevauche, les deux autres vont en charrette ; tous suivent le même chemin.</p>",
+    "chapeau": "La reine Guenièvre a été enlevée. Un chevalier, encore anonyme dans le récit, la recherche. La charrette est réservée aux criminels : y monter expose au déshonneur. Gauvain, chevalier d’Arthur, rejoint la scène.",
+    "problem": "Comment le récit fait-il d’un trajet en charrette l’épreuve d’une nouvelle valeur chevaleresque ?",
+    "copy": [
+      {
+        "heading": "INTRODUCTION",
+        "sentences": [
+          {
+            "text": "Dans Le Chevalier de la charrette, composé au XIIe siècle, Chrétien de Troyes raconte la quête de Guenièvre par un chevalier encore anonyme.",
+            "function": "Présenter l’œuvre et la quête"
+          },
+          {
+            "text": "L’épisode de la charrette lui impose un choix : préserver son honneur ou accepter un véhicule infamant pour obtenir des nouvelles de la reine.",
+            "function": "Situer le choix imposé par le passage"
+          },
+          {
+            "text": "Le récit rend ce choix visible par les paroles du nain, le débat entre Raison et Amour, puis le contraste avec Gauvain.",
+            "function": "Identifier les moyens qui construisent ce choix"
+          },
+          {
+            "text": "Comment fait-il d’un trajet en charrette l’épreuve d’une nouvelle valeur chevaleresque ?",
+            "function": "Problématique"
+          },
+          {
+            "text": "La rencontre devient une décision intérieure dont les conduites opposées des chevaliers font ensuite mesurer le prix.",
+            "function": "Annoncer la progression de la lecture"
+          }
+        ]
+      },
+      {
+        "heading": "I.1",
+        "sentences": [
+          {
+            "text": "Le début place le chevalier dans une situation de dépendance inhabituelle.",
+            "function": "Réponse I : une dépendance inhabituelle"
+          },
+          {
+            "text": "Il avance « À pied, sans lance » : les attributs qui pourraient manifester sa puissance lui manquent.",
+            "function": "Appui : absence des attributs de puissance"
+          },
+          {
+            "text": "Face à lui, le nain conduit le véhicule et détient les informations recherchées.",
+            "function": "Contraste : le nain détient les moyens de la quête"
+          },
+          {
+            "text": "Ce contraste prépare une inversion du pouvoir : le chevalier dépend de celui qui peut lui indiquer comment retrouver la reine.",
+            "function": "Effet ici : inverser le rapport de pouvoir"
+          }
+        ]
+      },
+      {
+        "heading": "I.2",
+        "sentences": [
+          {
+            "text": "Le dialogue donne à cette dépendance la forme d’un marché.",
+            "function": "Nommer l’organisation du dialogue"
+          },
+          {
+            "text": "Le nain ne répond pas directement : sa proposition conditionne l’information à la montée sur la charrette.",
+            "function": "Condition : faire payer l’information par le déshonneur"
+          },
+          {
+            "text": "La quête ne peut donc plus se poursuivre par la seule force ; elle oblige le chevalier à risquer sa réputation.",
+            "function": "Conséquence du marché sur la conduite de la quête"
+          },
+          {
+            "text": "La voix narrative déprécie fortement le nain, mais cette condamnation ne supprime pas le pouvoir que sa parole lui donne dans la scène.",
+            "function": "Distinguer le jugement du narrateur et le pouvoir du personnage"
+          }
+        ]
+      },
+      {
+        "heading": "I.3",
+        "sentences": [
+          {
+            "text": "L’hésitation du chevalier entraîne alors une intervention du narrateur.",
+            "function": "Repérer l’intervention du narrateur"
+          },
+          {
+            "text": "Le jugement « Il eut tort » ne condamne pas la montée ; il porte au contraire sur son retard.",
+            "function": "Appui : la faute est le retard, non la montée"
+          },
+          {
+            "text": "L’annonce d’un regret futur donne à ce bref instant des conséquences qui dépassent la scène.",
+            "function": "Anticipation : donner un poids futur à l’hésitation"
+          },
+          {
+            "text": "Préserver immédiatement son honneur peut ainsi devenir une faute dans l’ordre amoureux que le récit fait découvrir.",
+            "function": "Gain : déplacer le critère de la valeur chevaleresque"
+          }
+        ]
+      },
+      {
+        "heading": "TRANSITION I → II",
+        "sentences": [
+          {
+            "text": "Comment le texte rend-il sensible le conflit qui retient encore le chevalier ?",
+            "function": "Transition I → II : rendre visible le conflit intérieur"
+          }
+        ]
+      },
+      {
+        "heading": "II.1",
+        "sentences": [
+          {
+            "text": "Le conflit prend la forme d’un échange entre Raison et Amour.",
+            "function": "Réponse II : mettre le conflit en scène"
+          },
+          {
+            "text": "Ces notions abstraites deviennent des puissances qui parlent, enseignent, pressent et veulent : leur personnification compose une allégorie, une scène concrète qui figure le conflit intérieur.",
+            "function": "Appuis, personnification et allégorie expliquées"
+          },
+          {
+            "text": "Le lecteur entend deux exigences concurrentes plutôt qu’une décision inexpliquée.",
+            "function": "Effet ici : faire entendre des exigences concurrentes"
+          },
+          {
+            "text": "Le récit représente ainsi la vie intérieure du chevalier à partir de l’action qui lui donne son enjeu.",
+            "function": "Gain : représenter l’intériorité dans l’action"
+          }
+        ]
+      },
+      {
+        "heading": "II.2",
+        "sentences": [
+          {
+            "text": "Raison rappelle le risque de honte et de reproche.",
+            "function": "Préciser ce que défend Raison"
+          },
+          {
+            "text": "Son argument répond au déshonneur attaché à la charrette, mais le narrateur situe son discours dans la « bouche », tandis qu’Amour demeure au « cœur ».",
+            "function": "Appuis : distribuer les voix entre bouche et cœur"
+          },
+          {
+            "text": "Cette opposition donne une géographie au débat : la règle sociale peut se dire sans engager le personnage aussi intimement que son amour.",
+            "function": "Opposition et effet ici : donner une forme sensible au conflit"
+          },
+          {
+            "text": "La place d’Amour le rend donc plus proche de celui qu’il commande, sans réfuter logiquement les arguments de Raison.",
+            "function": "Nuance : la proximité d’Amour ne réfute pas logiquement Raison"
+          }
+        ]
+      },
+      {
+        "heading": "II.3",
+        "sentences": [
+          {
+            "text": "Cette autorité ne supprime pas toute contrainte : elle en institue une autre.",
+            "function": "Identifier la nouvelle contrainte"
+          },
+          {
+            "text": "Les verbes « commande » et « presse » font d’Amour une puissance qui exige une action immédiate.",
+            "function": "Appuis verbaux : faire d’Amour une autorité pressante"
+          },
+          {
+            "text": "Le chevalier choisit donc entre deux obéissances, celle de l’honneur social et celle de la fidélité amoureuse.",
+            "function": "Gain : le choix met en concurrence deux obéissances"
+          },
+          {
+            "text": "Son désir ne devient pas une liberté sans règle : il reçoit la force d’une exigence capable de gouverner les actes.",
+            "function": "Préciser la valeur de l’engagement amoureux"
+          }
+        ]
+      },
+      {
+        "heading": "TRANSITION II → III",
+        "sentences": [
+          {
+            "text": "Comment cette exigence intérieure se traduit-elle dans les conduites visibles des chevaliers ?",
+            "function": "Transition II → III : éprouver la décision dans les conduites"
+          }
+        ]
+      },
+      {
+        "heading": "III.1",
+        "sentences": [
+          {
+            "text": "La formule « Amour le veut, il saute » réunit la volonté et le geste dans une proposition brève.",
+            "function": "Réponse III et appui : réunir volonté et action"
+          },
+          {
+            "text": "Après le débat intérieur, cette succession sans détour fait sentir la fin de l’hésitation.",
+            "function": "Effet de la succession brève après le débat"
+          },
+          {
+            "text": "Le saut donne un corps à l’engagement : le chevalier accepte une honte dont la signification sociale n’a pas disparu.",
+            "function": "Interpréter le saut sans supprimer son coût social"
+          },
+          {
+            "text": "Sa valeur amoureuse se manifeste dans ce consentement coûteux, plutôt que dans une victoire qui préserverait tous les avantages de son rang.",
+            "function": "Gain : une valeur se reconnaît à ce qui est consenti"
+          }
+        ]
+      },
+      {
+        "heading": "III.2",
+        "sentences": [
+          {
+            "text": "L’arrivée de Gauvain fait mesurer cette singularité.",
+            "function": "Introduire la comparaison avec Gauvain"
+          },
+          {
+            "text": "Lui aussi cherche des renseignements sur la reine, mais il refuse d’échanger son cheval contre la charrette : le jugement de « folie » rétablit le point de vue de l’honneur ordinaire.",
+            "function": "Appui et jugement : retrouver le point de vue de l’honneur"
+          },
+          {
+            "text": "Le texte n’en fait pas simplement un lâche, puisqu’il poursuit la quête.",
+            "function": "Nuance appuyée sur la poursuite de la quête"
+          },
+          {
+            "text": "Son comportement permet plutôt de comparer deux manières de servir la reine, dont une seule exige l’acceptation de l’infamie.",
+            "function": "Gain : distinguer deux conduites plutôt qu’opposer courage et lâcheté"
+          }
+        ]
+      },
+      {
+        "heading": "III.3",
+        "sentences": [
+          {
+            "text": "La reprise du voyage réunit enfin les personnages sur le même chemin en maintenant la différence de leurs places.",
+            "function": "Relever la réunion sur le même chemin"
+          },
+          {
+            "text": "L’un reste à cheval ; l’autre demeure dans le véhicule infamant.",
+            "function": "Appuis : préserver la différence des places"
+          },
+          {
+            "text": "Cette disposition concrète rend visible la divergence des valeurs sans interrompre l’aventure commune.",
+            "function": "Effet ici : rendre visible la divergence des valeurs"
+          },
+          {
+            "text": "Le récit invente ainsi un héros qui ne se distingue pas d’abord par une meilleure monture ou une arme supérieure, mais par ce qu’il accepte de perdre pour l’amour qu’il sert.",
+            "function": "Gain : un nouveau critère pour reconnaître le héros"
+          }
+        ]
+      },
+      {
+        "heading": "CONCLUSION",
+        "sentences": [
+          {
+            "text": "Le trajet en charrette devient donc une épreuve parce que le récit articule un obstacle extérieur, un conflit intérieur et une comparaison entre conduites.",
+            "function": "Réponse finale : articuler les moyens du récit"
+          },
+          {
+            "text": "L’amour impose une fidélité dont le coût demeure lisible aux yeux de la société.",
+            "function": "Préciser le coût de la fidélité"
+          },
+          {
+            "text": "Chrétien ne se contente pas de proclamer cette valeur : il la fait éprouver par le jugement narratif, l’allégorie et l’organisation de la scène.",
+            "function": "Nommer les procédés qui font éprouver cette valeur"
+          },
+          {
+            "text": "L’invention romanesque de l’amour passe ici par une nouvelle manière de reconnaître le héros.",
+            "function": "Relier le gain de lecture au parcours de l’œuvre"
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "id": "probleme",
+        "title": "Comprendre le choix",
+        "question": "Quelle lecture explique le choix de monter dans la charrette ?",
+        "choices": [
+          [
+            "Le chevalier accepte un déshonneur public pour servir son amour, tandis que Gauvain poursuit la quête en préservant son rang.",
+            "ok",
+            "Le saut et le refus de Gauvain rendent visible le prix particulier de l’engagement amoureux."
+          ],
+          [
+            "Le chevalier cherche des nouvelles de la reine et rejoint le nain ; Gauvain les suit ensuite sur la même route.",
+            "def",
+            "Ce résumé est exact, mais il n’explique pas encore pourquoi le véhicule et l’hésitation importent."
+          ],
+          [
+            "Le chevalier reconnaît que l’honneur est inutile ; Gauvain, au contraire, renonce à retrouver la reine pour conserver son cheval.",
+            "no",
+            "La honte reste réelle et Gauvain poursuit la quête : le passage ne présente ni une disparition de l’honneur ni un abandon."
+          ]
+        ],
+        "write": "En une phrase, dites ce que défend Raison.\nEn une autre phrase, dites ce qu’exige Amour.",
+        "hint": "Pour chacune des deux voix, repérez ce qu’elle commande et ce que le chevalier risque.",
+        "model": "Raison défend l’honneur du chevalier en lui conseillant d’éviter la honte attachée à la charrette. Amour exige qu’il accepte cette honte pour poursuivre la quête de la reine.",
+        "checks": [
+          "Les deux exigences sont distinctes.",
+          "Votre réponse explique le choix concret imposé au chevalier."
+        ]
+      },
+      {
+        "id": "plan",
+        "title": "Construire la progression",
+        "question": "Quel plan interprète les trois mouvements de la scène ?",
+        "choices": [
+          [
+            "I. Le marché du nain met le chevalier en dépendance.\nII. Raison et Amour donnent une scène au conflit intérieur.\nIII. Le saut et Gauvain font mesurer le prix du choix.",
+            "ok",
+            "Les parties suivent l’action et montrent comment elle devient une épreuve de valeur."
+          ],
+          [
+            "I. Le chevalier rencontre le nain.\nII. Raison et Amour prennent la parole.\nIII. Le chevalier monte et Gauvain continue sa route.",
+            "def",
+            "Ce découpage suit correctement le texte. Pour devenir un plan de commentaire, il doit expliquer la fonction de ces moments."
+          ],
+          [
+            "I. La charrette et les chevaux.\nII. Les personnages principaux et secondaires.\nIII. Les sentiments et les valeurs chevaleresques.",
+            "no",
+            "Les éléments restent séparés : on ne voit plus comment une rencontre conduit à un conflit, puis à un choix éprouvé."
+          ]
+        ],
+        "write": "Écrivez une phrase pour chaque partie de votre plan.\nEntre les parties, écrivez une question sur ce qu’il reste à expliquer.",
+        "hint": "Partez du marché du nain, puis du débat intérieur et des décisions différentes des chevaliers.",
+        "model": "I. Le marché du nain impose au chevalier un choix coûteux.\nComment le texte rend-il sensible le conflit qui le retient encore ?\nII. Raison et Amour donnent une scène à ce conflit.\nComment cette exigence intérieure se traduit-elle dans les conduites visibles ?\nIII. Le saut et la comparaison avec Gauvain font mesurer le prix du choix.",
+        "checks": [
+          "Votre plan explique les mouvements au lieu de les résumer.",
+          "La dernière partie rend compte de la présence de Gauvain."
+        ]
+      },
+      {
+        "id": "analyse",
+        "title": "Expliquer un effet précis",
+        "question": "Que fait comprendre l’opposition entre la « bouche » et le « cœur » ?",
+        "choices": [
+          [
+            "La localisation des voix figure le conflit intérieur : Amour, situé au « cœur », engage plus intimement le chevalier que Raison dans la « bouche ».",
+            "ok",
+            "L’opposition des lieux donne une forme concrète à la concurrence des exigences et explique la force intime d’Amour."
+          ],
+          [
+            "La « bouche » et le « cœur » forment une opposition expressive ; leur contraste rend le débat entre les deux personnages plus frappant.",
+            "def",
+            "L’opposition est repérée, mais « plus frappant » ne précise ni les exigences en concurrence ni leur rapport au chevalier."
+          ],
+          [
+            "La « bouche » traduit le mensonge de Raison ; le « cœur » prouve au lecteur que tous les arguments d’Amour sont objectivement vrais.",
+            "no",
+            "Le passage donne une force intérieure à Amour ; il ne démontre ni que Raison ment ni qu’elle aurait logiquement tort."
+          ]
+        ],
+        "write": "En deux phrases, expliquez ce que le saut montre du choix du chevalier. Citez les mots utiles.",
+        "hint": "Rapprochez « Amour le veut, il saute » de l’hésitation qui précède.",
+        "model": "Dans « Amour le veut, il saute », la succession immédiate de la volonté et du geste met fin au débat intérieur. Le saut rend visible l’acceptation du déshonneur : le chevalier s’engage par un acte, sans que la honte sociale disparaisse.",
+        "checks": [
+          "Votre citation est exacte.",
+          "Vous reliez la forme de la phrase, le geste et son coût."
+        ]
+      }
+    ],
+    "dissertation": {
+      "file": "bac-dissertation-lancelot-poesie-ironie.html",
+      "author": "Mireille Demaules",
+      "quote": "L’ambiguïté de l’écriture de Chrétien réside sans nul doute dans ce mélange des tons qui allie la poésie la plus grave et la plus sublime à la distance ironique du narrateur face à son sujet.",
+      "introduction": "Dans sa préface au Chevalier de la charrette, Mireille Demaules écrit :",
+      "question": "Ce jugement éclaire-t-il votre lecture du Chevalier de la charrette ?",
+      "reference": "Mireille Demaules, préface de Chrétien de Troyes, Lancelot ou le Chevalier de la Charrette, traduction de Daniel Poirion, Gallimard, Folio classique, préface © 1996, p. 21.",
+      "source": "",
+      "status": "Citation contrôlée sur l’image de la page 21 du livre fourni. Le jugement porte sur une coexistence des tons ; il ne réduit pas le roman à une parodie de l’amour courtois.",
+      "tasks": [
+        [
+          "Les mots du jugement",
+          "En deux phrases, distinguez la grandeur de l’amour et la distance du narrateur.",
+          "Le jugement invite à reconnaître la force de l’engagement amoureux et à examiner comment le récit en montre les excès, les fragilités ou les contradictions. Il ne demande pas de prouver que le narrateur se moque de tout."
+        ],
+        [
+          "Mettre le jugement à l’épreuve",
+          "Choisissez un passage qui montre cette grandeur, puis un détail qui en complique l’image.",
+          "Le saut dans la charrette rend sensible un engagement qui accepte l’infamie. Mais le jugement sévère porté sur une si brève hésitation rend l’exigence amoureuse singulièrement absolue ; le contraste avec Gauvain laisse aussi voir une autre mesure chevaleresque. Ne transformez pas ce contraste en condamnation générale de Gauvain."
+        ],
+        [
+          "Votre question de dissertation",
+          "En une question, formulez ce que la citation vous conduit à examiner dans l’œuvre.",
+          "Une question possible : comment le récit fait-il admirer l’engagement amoureux tout en gardant une distance face à ses exigences ? Comparez des scènes et leurs moyens d’écriture : le merveilleux, l’intériorité du héros, les interventions du narrateur et les variations de ton ne jouent pas partout le même rôle."
+        ]
+      ]
+    },
+    "oldFrench": "Amors le vialt et il i saut,\nQue de la honte ne li chaut\nPuis qu’amors le comande et vialt."
+  }
+]
