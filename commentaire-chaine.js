@@ -45,8 +45,8 @@ function question(t,e,write){
     return ({
       lecture:'À vous : dites en une phrase ce que l’écriture fait comprendre ou éprouver de ce qu’elle présente.',
       pb:'À vous : dites le problème en une seule question, sans perdre ce que le texte présente ni ce que son écriture en fait.',
-      transition:`À vous : écrivez la question qui montre ce que la réponse ${prevPart(e.p)} n’explique pas encore. Une question ouverte : on ne doit pas pouvoir y répondre par oui ou par non.`,
-      real:`À vous : choisissez une réalisation de la partie ${part}. Citez les mots exacts du texte, nommez le procédé s’il aide, dites l’effet ici et ce qu’il prouve. Une ou deux phrases.`,
+      transition:`Écrivez une question ouverte sur ce que la réponse ${prevPart(e.p)} n’explique pas encore.`,
+      real:`En deux ou trois phrases, expliquez comment un choix d’écriture soutient la réponse ${part}. Citez les mots utiles.`,
       conclusion:'À vous : répondez à la problématique en une phrase, puis dites en une question ce qui reste ouvert.'
     })[e.k];
   }

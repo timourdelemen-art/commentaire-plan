@@ -15,15 +15,17 @@ EX.forEach(x=>(byPage[x[0]]=byPage[x[0]]||[]).push(x));
 let injected=0;
 for(const [page,list] of Object.entries(byPage)){
   const f=path.join(ROOT,page); let s=fs.readFileSync(f,'utf8');
+  s=s.replace(/<details class="exercice-reperes">[\s\S]*?<\/details><!--\/boussole-->\n?/g,'');
   s=s.replace(/<div class="boussole"[^>]*>[\s\S]*?<\/div><!--\/boussole-->\n?/g,'');
   for(const [,id,,title,dep,geste,res] of list){
     const open=`<section class="exercise-wrap" id="${id}">`;
     const i=s.indexOf(open); if(i<0) throw new Error(`Exercice introuvable : ${page}#${id}`);
     const a=s.indexOf('<article',i); const end=s.indexOf('</section>',i);
     if(a<0||a>end) throw new Error(`Pas d’article dans ${page}#${id}`);
-    const b=`<div class="boussole" aria-label="Avant de commencer"><p><b>D’où vous partez</b>${T(dep)}</p><p><b>Ce que vous faites</b>${T(geste)}</p><p><b>Ce que vous obtenez</b>${T(res)}</p><p class="boussole-back"><a href="${LAB}">Pas votre difficulté ? Je bloque sur… →</a></p></div><!--/boussole-->\n`;
+    const b=`<details class="exercice-reperes"><summary>Le but de cet exercice</summary><div class="boussole" aria-label="Avant de commencer"><p><b>D’où vous partez</b>${T(dep)}</p><p><b>Ce que vous faites</b>${T(geste)}</p><p><b>Ce que vous obtenez</b>${T(res)}</p><p class="boussole-back"><a href="${LAB}">Choisir une autre difficulté →</a></p></div></details><!--/boussole-->\n`;
     s=s.slice(0,a)+b+s.slice(a); injected++;
   }
+  if(!s.includes('href="consignes-exercices.css"')) s=s.replace('</head>','<link rel="stylesheet" href="consignes-exercices.css"></head>');
   fs.writeFileSync(f,s);
 }
 

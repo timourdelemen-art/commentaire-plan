@@ -38,8 +38,8 @@ COMMENT = {
 }
 IA = {
  'problematique': 'Commentaire littéraire, bac de français. Évaluer X (ce que le texte présente), Y (ce que son écriture en fait comprendre ou éprouver) et une seule question qui garde X et Y sans donner la réponse. Un seul conseil prioritaire, sans écrire à la place de l’élève. Vouvoyer.',
- 'plan': 'Commentaire littéraire, bac de français. Évaluer un plan dont chaque partie est une réponse à la problématique, reliées par des questions ouvertes. Refuser un plan linéaire, thématique ou par procédés. Un seul conseil prioritaire. Vouvoyer.',
- 'analyse': 'Commentaire littéraire, bac de français. Évaluer une phrase d’analyse : mots du texte cités, procédé nommé simplement, effet précis dans ce passage. Ne pas exiger de terme technique. Un seul conseil prioritaire. Vouvoyer.',
+ 'plan': 'Commentaire littéraire, bac de français. Évaluer un plan dont chaque partie est une réponse à la problématique, reliées par des questions ouvertes. Une organisation qui suit le mouvement du texte peut convenir si elle explique et répond ; refuser le simple découpage ou catalogue. Un seul conseil prioritaire. Vouvoyer.',
+ 'analyse': 'Commentaire littéraire, bac de français. Évaluer une ou deux phrases d’analyse : mots du texte cités, choix d’écriture nommé simplement et effet précis dans ce passage. Ne pas exiger de terme technique. Un seul conseil prioritaire. Vouvoyer.',
  'redaction': 'Commentaire littéraire, bac de français. Évaluer le commentaire entier : problématique, parties qui répondent, transitions-questions, analyses précises, conclusion. Citer deux réussites et un seul manque prioritaire. Vouvoyer.',
 }
 def plain(s): return re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', '', s))).strip()
@@ -88,16 +88,16 @@ def etapes(k, titre_autre, A):
     e1 = (f'<section class="etape" id="etape-probleme"><h3>Étape 1 · Le problème</h3>{comment(1)}<div class="etape-niveau">Je choisis, sur ce texte</div>{direct}'
           + q(1, 2, 'X et Y', 'Que présente le texte (X), et que fait comprendre son écriture (Y) ?', xy, 'xy')
           + q(2, 2, 'une seule question', 'Quelle problématique garde X et Y, sans donner la réponse ?', pb, 'pb')
-          + ecrit((f'<div class="exercise">{questions_de(a1["html"])}</div>' if a1 else '') + zone('Le problème', 'Écrivez X, puis Y, puis la problématique en une seule question.', 'problematique', corrige_de(a1['html']) if a1 else f'<p>{D.OK[autre][0]}</p><p><strong>{PROB[autre]}</strong></p>', 'X : …\nY : …\nProblématique : Comment… ?'))
+          + ecrit(zone('Le problème', 'Écrivez trois phrases : ce que le texte présente (X), ce que son écriture fait comprendre (Y), puis votre question de lecture.', 'problematique', corrige_de(a1['html']) if a1 else f'<p>{D.OK[autre][0]}</p><p><strong>{PROB[autre]}</strong></p>', 'X : …\nY : …\nMa question : … ?'))
           + suiv('Étape 2 · Le plan →') + '</section>')
-    plan_ecrit = (('' if a2 is a1 else f'<div class="exercise">{questions_de(a2["html"])}</div>') + zone('Le plan', 'Donnez la réponse de chaque partie en une phrase, et les transitions en questions.', 'plan', corrige_de(a2['html']), 'I. …\nTransition : … ?\nII. …')) if a2 else \
+    plan_ecrit = zone('Le plan', 'Écrivez une phrase par partie pour répondre à votre question, puis une question entre les parties.', 'plan', corrige_de(a2['html']), 'I. …\nTransition : … ?\nII. …') if a2 else \
                  zone('Le plan', 'Donnez la réponse de chaque partie en une phrase, et les transitions en questions.', 'plan', f'<p>{D.OK[autre][1]}</p>', 'I. …\nTransition : … ?\nII. …')
     e2 = (f'<section class="etape" id="etape-plan"><h3>Étape 2 · Le plan</h3>{comment(2)}<div class="etape-niveau">Je choisis, sur ce texte</div>{direct}'
           + q(1, 1, 'le plan', f'La problématique est : « {plain(PROB[k])} » Quel plan y répond ?', pl, 'plan')
           + ecrit(plan_ecrit) + suiv('Étape 3 · L’analyse →') + '</section>')
     e3 = (f'<section class="etape" id="etape-preuve"><h3>Étape 3 · L’analyse</h3>{comment(3)}<div class="etape-niveau">Je choisis, sur ce texte</div>{direct}'
           + q(1, 1, 'l’analyse', 'Quelle phrase analyse le mieux ce passage ?', an, 'ana', f'<p class="etape-passage">{D.PASSAGE[k]}</p>')
-          + ecrit(zone('Une analyse', f'Analysez en une phrase ce passage : les mots du texte, le procédé, son effet ici. <span class="etape-passage" style="display:block">{D.PASSAGE[autre]}</span>', 'analyse', f'<p>{D.OK[autre][2]}</p>'))
+          + ecrit(zone('Une analyse', f'En une ou deux phrases, expliquez l’effet d’un choix d’écriture dans ce passage. Citez les mots utiles. <span class="etape-passage" style="display:block">{D.PASSAGE[autre]}</span>', 'analyse', f'<p>{D.OK[autre][2]}</p>'))
           + suiv('Étape 4 · Le commentaire entier →') + '</section>')
     e4 = (f'<section class="etape" id="etape-copie"><h3>Étape 4 · Le commentaire entier</h3>{comment(4)}'
           f'<p>Rédigez maintenant le commentaire entier de ce texte. Vous pourrez ensuite le comparer au commentaire à 20.</p>'

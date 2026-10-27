@@ -2715,7 +2715,7 @@ niveau2: [
       "p": "III",
       "k": "operation",
       "w": 1,
-      "q": "À vous : écrivez l’opération de la troisième partie (renverser le rapport, changer de niveau, ou réunir ce qu’on avait séparé), qui garde quelque chose de I et de II. Deux phrases.",
+      "q": "Proposez en deux phrases une troisième réponse qui conserve ce que I et II ont établi.",
       "m": "Nous contestons une expression avec d’autres, comparons des traductions, définissons ce que l’usage confondait : la critique travaille les ressources du langage contre ses habitudes. Le langage est ainsi un milieu de la pensée, non sa prison : ses limites se déplacent à mesure qu’on parle."
     },
     {

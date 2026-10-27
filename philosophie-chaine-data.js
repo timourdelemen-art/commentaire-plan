@@ -199,7 +199,7 @@ niveau2: [
    ['Une pensée précise : sans les mots, la pensée ne prend pas forme.','ok','Oui : le non garde la liberté, mais perd la pensée qui se dit.'],
    ['La maîtrise des mots.','no','Le non la garde, au contraire.'],
    ['Les langues étrangères, qui disent autrement ce que nous disons dans la nôtre.','no','Le sujet ne parle pas des langues étrangères.']]},
-  {b:'pb',p:'pb',w:1,q:'Écrivez la question qui met ces deux pertes face à face, sur le modèle : « … suppose-t-il…, et … suppose-t-il… ? »',m:'Nous dire prisonniers du langage suppose-t-il un point de vue hors de lui, et nous en dire libres, une pensée sans mots qui ne pourrait rien penser ?'}
+  {b:'pb',p:'pb',w:1,q:'Formulez le problème en une question qui relie vos deux difficultés.',m:'Nous dire prisonniers du langage suppose-t-il un point de vue hors de lui, et nous en dire libres, une pensée sans mots qui ne pourrait rien penser ?'}
  ]}
 ],
 niveau3: [

@@ -3,6 +3,20 @@
 const fs = require('fs');
 const path = require('path');
 const data = require('./explication-textes-data.json');
+// Les consignes restent distinctes des modèles, réservés par la PR éditoriale nº 187.
+const consignes = require('./explication-consignes-data.json');
+for (const [id, changes] of Object.entries(consignes)) {
+  const subject = data.subjects.find(s => s.id === id);
+  if (!subject) throw Error('Consignes sans sujet : '+id);
+  for (const [index, task] of Object.entries(changes.drillTasks || {})) {
+    if (!subject.drills[index]) throw Error('Atelier absent : '+id+' '+index);
+    subject.drills[index].task = task;
+  }
+  for (const [index, task] of Object.entries(changes.stageTasks || {})) {
+    if (!subject.stages[index]) throw Error('Étape absente : '+id+' '+index);
+    subject.stages[index][0] = task;
+  }
+}
 const DOMAIN = 'https://commentaire-plan.com';
 const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const file = s => `philosophie-explication-${s.id}.html`;
@@ -31,7 +45,8 @@ function validate() {
 function shell(name, title, description, body) {
   return `<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)}</title>
 <meta name="description" content="${esc(description)}"><link rel="canonical" href="${DOMAIN}/${name}"><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="philosophie-explication.css">
-</head><body><header class="top"></header><main class="wrap ecrire">${body}</main><script src="philosophie-explication.js"></script><script src="site-nav.js"></script></body></html>\n`;
+${name==='philosophie-explication.html'?'<link rel="stylesheet" href="navigation-etudes.css">':''}
+</head><body><header class="top"></header><main class="wrap ecrire${name==='philosophie-explication.html'?' etudes-page':''}">${body}</main><script src="philosophie-explication.js"></script><script src="site-nav.js"></script>${name==='philosophie-explication.html'?'<script src="navigation-etudes.js"></script>':''}</body></html>\n`;
 }
 function area(id, label, rows=5, exam=false) {
   return `<label class="ecrire-label" for="${id}">${esc(label)}</label><textarea id="${id}" rows="${rows}" data-draft="${id}" data-feedback="off"${exam?' data-sans-dictee="true"':''}></textarea>`;
@@ -61,7 +76,7 @@ function page(s) {
 <div class="onglet" id="entrainement"><h2>Du texte à votre explication.</h2><nav class="ecrire-levels" aria-label="Niveaux d’écriture">${['Au clic','J’écris un peu','J’écris tout'].map((x,i)=>`<button type="button" data-level="${i+1}" aria-pressed="${i===0}"><b>Niveau ${i+1}</b><span>${x}</span></button>`).join('')}</nav>
 <p class="ecrire-storage" data-save-status role="status">Vos brouillons restent dans ce navigateur si l’enregistrement est disponible.</p>
 <section data-panel="1"><h3>Choisissez une thèse, puis justifiez votre lecture.</h3><p>Quelle formulation est la plus précise ?</p><div class="ecrire-choices">${s.choices.map(([text,status,reason],i)=>`<button type="button" data-choice="${i}" data-outcome="${esc(status)}" data-reason="${esc(reason)}" aria-pressed="false">${esc(text)}</button>`).join('')}</div><p data-choice-feedback role="status"></p>
-${area(`${id}-justification`,'Justifiez votre choix en deux phrases avec un passage précis du texte.',3)}<p><button type="button" class="btn" data-goto-level="2">Écrire sans propositions →</button></p></section>
+${area(`${id}-justification`,'Justifiez votre choix en une ou deux phrases avec un passage précis du texte.',3)}<p><button type="button" class="btn" data-goto-level="2">Écrire sans propositions →</button></p></section>
 <section data-panel="2" hidden><h3>Cinq gestes pour expliquer.</h3><nav class="ecrire-stages" aria-label="Étapes de l’explication">${s.stages.map((_,i)=>`<button type="button" data-goto-step="${i}" aria-pressed="${i===0}">${i+1}</button>`).join('')}</nav>${stages}
 <div class="ecrire-actions"><button type="button" data-previous-step>← Étape précédente</button><button type="button" data-next-step>Étape suivante →</button><button type="button" data-goto-level="3">Rédiger toute l’explication →</button></div></section>
 <section data-panel="3" hidden><h3>Rédigez votre explication complète.</h3><p>Expliquez le texte de ${esc(s.author)} dans le sujet officiel. Gardez le PDF ouvert. Rédigez sans propositions ni étapes guidées.</p>${tech?'<p>Choisissez votre option et indiquez-la au début. Pour l’option n° 1, répondez aux huit questions officielles dans l’ordre ; pour l’option n° 2, organisez votre développement.</p>':''}${area(`${id}-copie`,'Votre explication complète',20,true)}<p><button type="button" class="btn" data-compare>Comparer après rédaction ↓</button></p></section>
@@ -69,7 +84,7 @@ ${area(`${id}-justification`,'Justifiez votre choix en deux phrases avec un pass
 <section class="offer-band" id="exercices"><h2>Deux ateliers à partir de la copie.</h2><p>Un passage du modèle, puis une phrase à reprendre. Écrivez avant d’ouvrir la comparaison.</p>${drills}</section>
 </div>
 <div class="onglet" id="corrige-onglet"><details class="ecrire-model" data-model id="modele"><summary>${tech?'Deux modèles A20 : les deux options de rédaction':'Modèle A20 : explication complète, phrase par phrase'}</summary><p class="micro">« A20 » désigne un objectif d’excellence, non une note garantie. Une autre explication peut être excellente si elle rend compte précisément du texte.</p><p class="micro">Les annotations décrivent le travail de chaque phrase de la copie, pas un plan imposé. En les masquant, vous devez encore comprendre les raisons, les liens et ce que la copie propose elle-même pour examiner l’argument.</p><button type="button" data-annotations aria-pressed="true">Masquer les fonctions</button>
-${s.models.map(m=>model(s,m)).join('')}<h3>Relisez avec les critères.</h3><ul>${s.criteria.map(x=>`<li>${esc(x)}</li>`).join('')}</ul><p>Choisissez un passage de votre copie qui explique réellement une raison. Réécrivez ensuite un passage trop proche du résumé. Aucune note automatique n’est calculée.</p>${area(`${id}-reprise`,'Votre passage réécrit')}</details></div>
+${s.models.map(m=>model(s,m)).join('')}<h3>Relisez avec les critères.</h3><ul>${s.criteria.map(x=>`<li>${esc(x)}</li>`).join('')}</ul><p>Réécrivez un passage trop proche du résumé pour expliquer une raison du texte. Aucune note automatique n’est calculée.</p>${area(`${id}-reprise`,'Votre passage réécrit')}</details></div>
 </div></section>
 <section class="offer-band"><h2>Reprendre sur un autre texte.</h2><p><a href="${file(next)}">Texte suivant : ${esc(next.author)} →</a> · <a href="philosophie-explication.html#banque">Choisir un texte →</a> · <a href="philosophie-annales.html">Toutes les annales →</a></p><p class="micro">Sur un texte nouveau, essayez le niveau 3 avant de consulter les aides. Avoir parcouru les étapes ne suffit pas à établir votre autonomie.</p></section>`);
 }
@@ -78,13 +93,14 @@ function hub() {
   const totalTasks=data.subjects.reduce((n,s)=>n+s.stages.length+s.drills.length,0);
   /* Pages écrites à la main (copie annotée et exercices) : elles restent dans la banque. */
   const supplementary=[['Pascal','Préface au traité du vide','2025 · Asie','pascal-2025-asie','Copie annotée et exercices.'],['Platon','Les Lois','2025 · Polynésie','platon-2025-polynesie','Copie annotée et exercices.'],['John Stuart Mill','De la liberté','2025 · Métropole (secours)','mill-2025-metropole-secours','Corrigé bref, fonctions de chaque phrase et trois exercices.'],['Aristote','Éthique à Nicomaque','2025 · Antilles-Guyane','aristote-2025-antilles-guyane','Corrigé bref, fonctions de chaque phrase et trois exercices.'],['Henri Bergson','Conférence de Madrid sur l’âme humaine','2023 · Centres étrangers','bergson-2023-centres-etrangers','Corrigé bref, fonctions de chaque phrase et trois exercices.']];
-  const extraCards=supplementary.map(([author,work,session,id,blurb])=>'<article class="ecrire-card"><p class="kicker">BAC GÉNÉRAL · ANNALES</p><h3><a href="philosophie-explication-'+id+'.html">'+esc(author)+'</a></h3><p>'+esc(work)+'</p><p>'+esc(session)+'</p><p>'+esc(blurb)+'</p><a href="philosophie-explication-'+id+'.html">Expliquer ce texte →</a></article>').join('');
-  const cards=data.subjects.map(s=>`<article class="ecrire-card"><p class="kicker">${s.track==='generale'?'BAC GÉNÉRAL':'BAC TECHNOLOGIQUE'}</p><h3><a href="${file(s)}">${esc(s.author)}</a></h3><p>${esc(s.work)}</p><p>${esc(s.session)} · ${esc(s.code)}</p><p>${s.models.map(m=>`${words(m)} mots · ${sentences(m)} phrases`).join(' / ')}. Fonction de chaque phrase.</p><p><a href="${file(s)}#exercices">Les ateliers de précision →</a></p><a href="${file(s)}">Expliquer ce texte →</a></article>`).join('')+extraCards;
+  const extraCards=supplementary.map(([author,work,session,id,blurb])=>`<article class="ecrire-card"><p class="etudes-meta">Bac général · ${esc(session)}</p><h3>${esc(author)}</h3><p>${esc(work)}</p><p>${esc(blurb)}</p><div class="etudes-actions"><a href="philosophie-explication-${id}.html" aria-label="S’entraîner sur ce texte — ${esc(author)}">S’entraîner sur ce texte →</a><a href="philosophie-explication-${id}.html#copy" aria-label="Lire le corrigé — ${esc(author)}">Lire le corrigé</a></div></article>`).join('');
+  const cards=data.subjects.map(s=>`<article class="ecrire-card"><p class="etudes-meta">${esc(s.session)}</p><h3>${esc(s.author)}</h3><p>${esc(s.work)}</p><p>Au clic, avec des aides ou en rédaction complète. Corrigé expliqué phrase par phrase.</p><div class="etudes-actions"><a href="${file(s)}#entrainement" aria-label="S’entraîner sur ce texte — ${esc(s.author)}">S’entraîner sur ce texte →</a><a href="${file(s)}#modele" aria-label="Lire le corrigé — ${esc(s.author)}">Lire le corrigé</a></div></article>`).join('')+extraCards;
   return shell('philosophie-explication.html','Bac de philosophie : explication de texte et modèles',
     `Explication de texte du bac de philosophie : ${data.subjects.length+supplementary.length} annales 2023–2026, ${totalModels} copies courtes annotées phrase par phrase et ${totalTasks} exercices d’écriture.`,
-    `<section class="pagehead"><div><div class="kicker">BAC DE PHILOSOPHIE · GÉNÉRAL ET TECHNOLOGIQUE</div><h1>Expliquer une pensée, jusque dans ses raisons.</h1><p class="lede">Votre tâche est de rendre intelligible le problème, la thèse et le cheminement de l’extrait. Le texte détermine l’organisation de votre explication.</p><div class="boussole"><p><b>D’où vous partez</b>Un texte réellement proposé au bac.</p><p><b>Ce que vous faites</b>Vous passez d’une lecture justifiée à des paragraphes, puis à l’explication entière.</p><p><b>Ce que vous obtenez</b>Une copie précise, relue avec un modèle annoté.</p></div></div><aside class="side-note"><p><a href="#banque">Choisir un texte ↓</a></p><p><a href="#methode">Les gestes de l’explication ↓</a></p><p><a href="#sources">Références officielles ↓</a></p></aside></section>
-<nav class="annales-jump" aria-label="Accès rapide à l’explication de texte"><a href="#banque">Choisir un texte</a><a href="#methode">Comprendre la méthode</a><a href="#sources">Voir les sources officielles</a></nav>
-<section class="offer-band ecrire-method" id="methode" aria-labelledby="methode-titre">
+    `<section class="pagehead"><div><div class="kicker">BAC DE PHILOSOPHIE · GÉNÉRAL ET TECHNOLOGIQUE</div><h1>Expliquer une pensée, jusque dans ses raisons.</h1><p class="lede">Comprenez le problème que l’auteur pose, la réponse qu’il défend et les raisons qu’il avance. Entraînez-vous sur un texte du bac, puis comparez votre travail à une explication rédigée et expliquée.</p></div></section>
+<nav class="annales-jump etudes-actions" aria-label="Accès rapide à l’explication de texte"><a class="primary" href="#banque">Choisir un texte et s’entraîner</a><a href="#methode">Comprendre la méthode</a></nav>
+<section class="etudes-section" id="banque" aria-labelledby="textes-titre"><h2 id="textes-titre">Choisissez votre texte.</h2><p>${data.subjects.length+supplementary.length} textes du bac, de 2023 à 2026. Chaque texte donne accès à des exercices et à un corrigé expliqué. Vous pouvez commencer directement par l’entraînement.</p><div class="ecrire-bank">${cards}</div><p class="micro">Les huit parcours à trois niveaux regroupent ${totalTasks} exercices d’écriture : cinq gestes guidés et deux ateliers par texte. Les autres textes proposent leurs propres exercices. Les deux options technologiques ont chacune leur modèle.</p></section>
+<details class="etudes-details" id="methode"><summary>Comprendre la méthode de l’explication</summary><section class="offer-band ecrire-method" aria-labelledby="methode-titre">
 <h2 id="methode-titre">Une méthode qui suit le texte.</h2>
 <p class="ecrire-method-lead">Expliquez comment l’auteur construit sa réponse à un problème. Chaque passage doit être compris pour lui-même et relié à l’ensemble.</p>
 <h3>Lire et préparer : cinq étapes</h3>
@@ -119,13 +135,13 @@ function hub() {
 <section class="offer-band"><h2>Deux voies, des modalités distinctes.</h2><div class="ecrire-table"><table><thead><tr><th>Voie</th><th>Rédaction</th><th>Évaluation</th></tr></thead><tbody>
 <tr><td>Générale</td><td>Une explication organisée de l’ensemble de l’extrait ; développement choisi.</td><td>Note globale sur 20.</td></tr><tr><td>Technologique</td><td>Option 1 : répondre dans l’ordre aux questions A, B et C. Option 2 : développement choisi. Indiquez l’option.</td><td>Note globale sur 20 ; les questions guident, sans barème automatique par réponse.</td></tr></tbody></table></div><p>Dans les deux voies, l’épreuve dure quatre heures et vous choisissez un sujet parmi deux dissertations et une explication. Les questions de la voie technologique accompagnent le texte ; dans cette épreuve, la partie C porte officiellement le nom « Commentaire ».</p><p class="micro">Ce parcours prépare l’explication du bac de philosophie. Les <a href="hlp.html">exercices HLP</a> répondent à d’autres consignes et ont leurs propres méthodes.</p></section>
 <section class="offer-band"><h2>${totalModels} copies modèles A20, courtes et annotées phrase par phrase.</h2><p>Chaque modèle vise une explication assez développée pour rendre les raisons intelligibles, et assez courte pour éviter les répétitions. Le nombre de mots est indiqué ; aucune longueur officielle n’est prescrite. Chaque phrase a sa fonction en marge, comme dans les autres copies du site. Masquez les fonctions pour lire une copie continue, sans changer un mot.</p><p>Ces rédactions originales du site ne sont pas des copies d’élèves notées 20 par un jury. Comparez votre lecture, vos raisons et vos appuis, puis réécrivez un passage. Aucune note n’est calculée automatiquement.</p></section>
-<section id="banque"><h2>${data.subjects.length+supplementary.length} annales, de 2026 à 2023.</h2><div class="ecrire-bank">${cards}</div><p>${totalTasks} exercices d’écriture : cinq gestes guidés et deux ateliers par texte. Ajoutez les choix de thèse et la rédaction entière, sans aides. Les deux options technologiques ont chacune leur modèle.</p></section>
-<section class="offer-band" id="sources"><h2>Les références de la méthode.</h2><ul>
+</details>
+<details class="etudes-details" id="sources"><summary>Références officielles</summary><section class="offer-band"><h2>Les références de la méthode.</h2><ul>
 <li><a href="https://www.education.gouv.fr/bo/2026/Special4/MENE2622661N">Épreuve de philosophie générale à compter de 2027 — BO du 17 septembre 2026</a>.</li>
 <li><a href="https://www.education.gouv.fr/bo/2026/Hebdo4/MENE2622663N">Épreuve de philosophie technologique à compter de 2027 — BO du 17 septembre 2026</a>.</li>
 <li><a href="https://eduscol.education.gouv.fr/sites/default/files/document/ra20lyceegtterphiloexercices21307357pdf-83652.pdf">Éduscol : Les exercices en classe de philosophie, 2020, notamment page 4</a>.</li>
 <li><a href="https://eduscol.education.gouv.fr/sites/default/files/document/ra20lyceegtterphiloetudestextes1294343pdf-83649.pdf">Éduscol : L’étude des textes et des œuvres, 2020</a>.</li>
-<li><a href="https://eduscol.education.gouv.fr/sites/default/files/document/ra20lyceegtterphiloevaluations1318475pdf-83655.pdf">Éduscol : L’évaluation des travaux en classe de philosophie, 2020</a>.</li></ul><p class="micro">Sources et modèles relus le 17 octobre 2026. Les étapes sont une proposition pédagogique du site et ne constituent pas une grille chiffrée de jury.</p></section>`);
+<li><a href="https://eduscol.education.gouv.fr/sites/default/files/document/ra20lyceegtterphiloevaluations1318475pdf-83655.pdf">Éduscol : L’évaluation des travaux en classe de philosophie, 2020</a>.</li></ul><p class="micro">Sources et modèles relus le 17 octobre 2026. Les étapes sont une proposition pédagogique du site et ne constituent pas une grille chiffrée de jury.</p></section></details>`);
 }
 function build(root=path.resolve(__dirname,'..')) {
   validate();

@@ -380,6 +380,7 @@
     updateTimers();
     els.next.textContent=state.mode==="targeted"?"Enregistrer cet exercice":"Enregistrer et continuer →";
     showStepPaywall(step);
+    window.BrevetChoix?.render(id, step);
   }
 
   function protocolFor(step){

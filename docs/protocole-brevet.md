@@ -1,6 +1,6 @@
 # Protocole Brevet (français, troisième) — exercices et corrigés au niveau attendu
 
-Document interne, non publié (`clean-publish.js` retire les `.md`). Version 1, 26 octobre 2026. Il fixe ce que le site demande à un élève de troisième et la forme de chaque corrigé. Il part des textes officiels, jamais des méthodes du lycée.
+Document interne, non publié (`clean-publish.js` retire les `.md`). Version 2, 27 octobre 2026. Il fixe ce que le site demande à un élève de troisième et la forme de chaque corrigé. Il part des textes officiels, jamais des méthodes du lycée.
 
 ## 0. Sources officielles
 
@@ -84,11 +84,13 @@ Exemple de forme : « La narratrice est d’abord enthousiaste : elle s’écrie
 - **Réflexion** : comprendre le sujet et y répondre ; développer des arguments (P4 : « plusieurs arguments pertinents et nuancés ») ; mobiliser des exemples (P4 : « variés : littéraires, artistiques, ou relevant des connaissances du candidat ») ; structurer sa réflexion (paragraphes, liens logiques variés, introduction et conclusion) ; adapter le texte à la situation de communication ; orthographe, syntaxe, lexique.
 - **Imagination** : remobiliser les éléments du texte selon le sujet ; faire preuve d’imagination dans l’univers de référence ; construire des étapes qui s’enchaînent ; s’inscrire dans le genre (récit, lettre, théâtre) et alterner les types de discours (récit, description, dialogue) ; orthographe, syntaxe, lexique.
 
-**Forme attendue en réflexion** (niveau troisième) : une introduction de quelques lignes qui reprend la question ; deux ou trois paragraphes, chacun un argument et un exemple développé ; des liens logiques ; une conclusion qui répond. Un candidat qui ne défend qu’un côté n’est pas pénalisé (corrigé 2025) ; la nuance est valorisée, jamais exigée. Pas de plan dialectique imposé, pas de problématique.
+**Forme attendue en réflexion** (niveau troisième) : une introduction de quelques lignes qui reprend la question ; deux ou trois paragraphes, chacun un argument et un ou deux exemples expliqués ; des liens logiques ; une conclusion qui répond. Un seul exemple suffit s’il prouve précisément l’argument. Un second doit apporter quelque chose : un autre aspect, un autre art ou une comparaison utile. Aucun quota national d’exemples par argument n’est déduit des échelles descriptives. Un candidat qui ne défend qu’un côté n’est pas pénalisé (corrigé 2025) ; la nuance est valorisée, jamais exigée. Pas de plan dialectique imposé, pas de problématique.
+
+**Choix des modèles du site** (demande du propriétaire, 27 octobre 2026) : varier les références dans l’ensemble de la copie, sans imposer tous les arts à chaque paragraphe. Nommer l’œuvre et son auteur ou réalisateur à leur première mention ; préciser le genre quand il aide à comprendre l’exemple. Décrire le détail qui prouve l’argument, puis expliquer ce lien. On peut reprendre une œuvre pour analyser un autre aspect. Les transitions des modèles sont des questions ouvertes auxquelles le paragraphe suivant répond effectivement ; elles gardent toute l’étendue du raisonnement (ne pas annoncer seulement un roman avant de comparer un récit et un film). Cette présentation est un choix d’apprentissage du site : une autre liaison logique réussie reste recevable à l’examen. Toute scène inventée pour illustrer une idée est explicitement hypothétique, sans faux témoignage.
 
 **Forme attendue en imagination** : respecter la situation d’énonciation (qui parle, à qui), le genre (une lettre a lieu, date, formule d’appel et de politesse), l’univers et l’époque du texte (pas d’anachronisme), la personnalité des personnages ; faire avancer le récit par étapes ; mêler récit, description, dialogue, sentiments.
 
-**Copie à 20 du site** : au moins la longueur demandée (30 lignes manuscrites, soit environ 300 mots ; 35 lignes, environ 350 mots), sans dépasser de beaucoup ce qu’un élève écrit en 1 h 30 (au plus 550 mots). Chaque phrase porte sa fonction. Elle est écrite dans une langue d’élève excellent de troisième, pas de professeur.
+**Copie à 20 du site** : respecter d’abord la longueur demandée par le sujet. Les générateurs emploient un repère interne de 300 à 550 mots en réflexion, et de 330 à 550 en imagination ; il ne constitue ni une conversion officielle des lignes manuscrites en mots ni une garantie de note. Chaque phrase porte sa fonction. La copie est écrite dans une langue d’élève excellent de troisième, pas de professeur.
 
 ## 8. Exercices progressifs (forme commune au site)
 

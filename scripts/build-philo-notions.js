@@ -70,7 +70,7 @@ ${next(3)}</article></section>`;
   const t=A.transition;
   const s4=`<section class="exercise-wrap atelier-step" data-step="4"><article class="exercise">${stepHead(4,'Écrire la transition.')}
 <p class="quote">Sujet : « ${esc(t.sujet)} »</p>
-<div class="instruction"><p>${esc(t.acquis)} ${esc(t.limite)}</p><ol class="consigne-simple"><li>Écrivez une ou deux phrases qui disent pourquoi la partie I ne suffit pas, et font passer à la partie II.</li><li>Évitez « nous avons vu » et « voyons maintenant ».</li></ol><p class="micro">Deux pistes : l’idée, poussée à fond, se retourne-t-elle contre elle-même ? Ou réussit-elle, mais en coûtant trop cher ?</p></div>
+<div class="instruction"><p><strong>Acquis :</strong> ${esc(t.acquis)}</p><p><strong>Limite :</strong> ${esc(t.limite)}</p><p>À partir de cette limite, écrivez une question ouverte pour commencer la partie II.</p></div>
 <textarea rows="4" data-feedback-kind="philo-transition" data-feedback-quote="${esc(t.sujet)}" aria-label="Votre transition"></textarea>
 <details class="correction"><summary>Comparer avec une transition possible</summary><p>${esc(t.corrige)}</p><p class="micro">Le modèle du prix : la liberté de Dom Juan réussit à tout garder ouvert, et c’est ce succès qui la ruine. <a class="official-link" href="philosophie-dissertation.html#transitions">Les modèles de transition →</a></p></details>
 ${next(4)}</article></section>`;
@@ -107,16 +107,13 @@ ${corrigeBlocks(n.corrige)}
   }
   corr+=PRINT;
   const sujets=n.sujets.map((s,k)=>`<article class="exercise notion-sujet" id="sujet-${k+1}"><div class="kicker">SUJET ${k+1}</div><p class="quote">« ${esc(s[0])} »</p>
-<label class="sujet-label" for="pb-${k+1}">Votre problématique (point 4)</label>
+<label class="sujet-label" for="pb-${k+1}">Formulez le problème de ce sujet en une question.</label>
 <textarea id="pb-${k+1}" rows="4" data-feedback-kind="philo-problematique" data-feedback-quote="${esc(s[0])}" data-feedback-instruction="Sujet de dissertation : « ${esc(s[0])} ». L’élève propose sa problématique : une seule question qui fait voir ce que chaque réponse perd et laisse les deux réponses ouvertes." aria-label="Votre problématique pour ce sujet"></textarea>
 <details class="correction"><summary>Ce qui coince</summary><p>${esc(s[1])}</p></details>
 <details class="correction"><summary>Une scène pour l’introduction</summary><p>${esc(s[2])}</p><p class="micro">Une bonne scène contient déjà le problème : à vous de montrer en quoi.</p></details></article>`).join('\n');
-  const consigne=`<div class="consigne-simple"><p><strong>Pour chaque sujet, au brouillon, avant d’ouvrir les pistes :</strong></p><ol>
-<li>Répondez au sujet en une phrase qui reprend ses mots : par oui, par non, ou en montrant que la question est mal posée.</li>
-<li>Imaginez quelqu’un qui applique cette réponse jusqu’au bout, sans exception : que finit-il par perdre ?</li>
-<li>Même question pour la réponse contraire.</li>
-<li>Écrivez dans le cadre une seule question qui met face à face ces deux pertes, sans trancher : c’est votre problématique.</li>
-</ol></div>`;
+  const consigne=`<details><summary>Une aide pour chercher le problème</summary><ol class="consigne-simple">
+<li>Donnez une première réponse au sujet.</li><li>Cherchez la difficulté qu’elle rencontre, puis examinez la réponse contraire.</li><li>Votre question doit faire apparaître pourquoi aucune des deux réponses ne suffit.</li>
+</ol><p>Écrivez d’abord votre question ; les pistes sous chaque sujet permettent ensuite de la reprendre.</p></details>`;
   const sujetsSection=`<section class="onglet exercise-wrap" id="sujets"><div class="exercise-intro"><div><div class="kicker">CINQ VRAIS SUJETS DU BAC</div><h2>S’entraîner à trouver le problème.</h2></div><p>Tous ces sujets ont été donnés au baccalauréat. ${n.corrige.annale?'Plus bas, un sujet de 2026 est traité en entier.':'Le premier est traité en entier plus bas.'}</p></div>
 ${consigne}
 ${sujets}
