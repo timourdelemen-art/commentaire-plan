@@ -1,0 +1,637 @@
+{
+  "work": "cioran-cahiers",
+  "sourceSha256": "494d206a7f7848040eea094aa1065b8b1181c218631dd7390c1b3c2b4be50ba9",
+  "cards": [
+    {
+      "philoId": "cioran-cahiers-rhume-savant",
+      "context": "La note part de rhumes répétés et imagine un livre au titre universitaire. Le titre est une invention plaisante du diariste, pas un ouvrage publié.",
+      "commentary": [
+        {
+          "function": "Réalisation",
+          "sentence": "Le diariste convertit une plainte physique banale en projet d’ouvrage savant dont il fait sentir le ridicule."
+        },
+        {
+          "function": "Éléments textuels",
+          "sentence": "L’exclamation « Enrhumé six mois par an ! » précède l’expression dépréciative « titre sorbonnard » et le mot technique « Phénoménologie »."
+        },
+        {
+          "function": "Construction / procédé",
+          "sentence": "La phrase brève de la plainte laisse place à un titre solennel : le décalage de registre donne au nez bouché la dignité d’un grand objet philosophique."
+        },
+        {
+          "function": "Effet ici",
+          "sentence": "Cette disproportion fait rire d’une solennité fabriquée, mais aussi de l’écrivain qui se rêve en auteur jusque dans son rhume."
+        }
+      ],
+      "uses": [
+        {
+          "subjectId": "rabelais-2",
+          "mode": "comparaison",
+          "stage": "Après une analyse précise du comique de savoir dans Gargantua",
+          "function": "Montrer comment le rire examine un prestige",
+          "reason": "Le titre inventé par Cioran aide à distinguer une connaissance réelle et les signes verbaux qui lui donnent de l’apparence.",
+          "paragraph": "Après avoir établi dans Gargantua comment une parole savante peut devenir comique, on peut rapprocher cette mise à l’épreuve de la « Phénoménologie de l’enchifrènement » imaginée par Cioran. Le vocabulaire donne ici à un rhume une grandeur universitaire disproportionnée. La comparaison précise une opération du rire : rendre perceptible un écart entre le prestige d’une forme et ce qu’elle permet de comprendre.",
+          "limit": "Le titre de Cioran ne prouve aucune intention de Rabelais ; la fonction du rire doit d’abord être établie dans Gargantua.",
+          "model": "",
+          "modelStep": ""
+        }
+      ]
+    },
+    {
+      "philoId": "cioran-cahiers-vertu-paresse",
+      "context": "La note est suivie d’une généralisation sur les vices issus de l’activité. L’aveu se retourne contre le locuteur ; il ne décrit pas une règle de conduite à adopter.",
+      "commentary": [
+        {
+          "function": "Réalisation",
+          "sentence": "Cioran compose un éloge de soi qui retire au locuteur le mérite qu’il semblait lui attribuer."
+        },
+        {
+          "function": "Éléments textuels",
+          "sentence": "À l’ouverture louangeuse « Tout ce que j’ai de bon » s’opposent les « mauvais desseins » qu’il reconnaît en lui."
+        },
+        {
+          "function": "Construction / procédé",
+          "sentence": "La question « qui m’aurait empêché » fait d’un défaut, la paresse, la cause d’une conduite inoffensive ; les guillemets autour de « vertu » rendent ce titre d’honneur suspect."
+        },
+        {
+          "function": "Effet ici",
+          "sentence": "Le lecteur rit ainsi d’une justification qui s’accuse elle-même : la belle apparence morale se découvre privée de bonne volonté."
+        }
+      ],
+      "uses": [
+        {
+          "subjectId": "rabelais-2",
+          "mode": "comparaison",
+          "stage": "Après avoir montré comment le rire distingue apparence morale et conduite",
+          "function": "Faire du rire un examen du mérite",
+          "reason": "L’éloge paradoxal permet de comprendre comment un rire peut défaire une bonne opinion de soi, sans délivrer simplement une leçon positive.",
+          "paragraph": "La formule de Cioran selon laquelle « Tout ce que j’ai de bon vient de ma paresse » fait rire en retirant à une conduite apparemment vertueuse le mérite qu’on lui accorderait. Elle peut éclairer, par comparaison, un passage de Gargantua où le comique oblige à réexaminer un jugement établi. Le rapprochement ne vaut qu’après l’analyse de ce passage : il précise ce que peut être un rire qui fait discerner.",
+          "limit": "La note ne fait pas de la paresse un idéal de Rabelais et ne remplace pas une preuve prise dans son roman.",
+          "model": "",
+          "modelStep": ""
+        }
+      ]
+    },
+    {
+      "philoId": "cioran-cahiers-providence-diners",
+      "context": "La note voisine évoque la difficulté de passer une soirée en étant obligé d’éteindre sa verve. La boutade condense cette expérience mondaine.",
+      "commentary": [
+        {
+          "function": "Réalisation",
+          "sentence": "La phrase fait d’un ennui mondain une contestation de l’ordre divin."
+        },
+        {
+          "function": "Éléments textuels",
+          "sentence": "Le complément « aux dîners » situe une gêne ordinaire, tandis que « argument contre la Providence » lui donne une portée théologique."
+        },
+        {
+          "function": "Construction / procédé",
+          "sentence": "La formule affirmative et brève emprunte le ton d’une conclusion raisonnée ; le rapprochement de ces deux échelles produit un décalage de registre."
+        },
+        {
+          "function": "Effet ici",
+          "sentence": "Le dîner ennuyeux prend comiquement les dimensions d’un défaut de l’univers, et le convive qui en fait un tel procès se trouve lui aussi exposé au rire."
+        }
+      ],
+      "uses": [
+        {
+          "subjectId": "rabelais-1",
+          "mode": "comparaison",
+          "stage": "Après l’analyse d’un passage de Gargantua qui rapproche le quotidien et les grands discours",
+          "function": "Préciser le plaisir du changement d’échelle",
+          "reason": "Le contraste entre la petite contrariété et la grande explication donne un exemple bref du plaisir produit par une disproportion.",
+          "paragraph": "Le plaisir de lire peut tenir à la rencontre inattendue de deux échelles. Cioran transforme ainsi « L’ennui aux dîners » en objection à la Providence : une contrariété devient affaire d’ordre universel. Cette disproportion peut éclairer un effet comique déjà observé dans Gargantua, sans réduire la joie de lire le roman à la seule moquerie des discours religieux.",
+          "limit": "La boutade moderne sert à préciser un effet ; elle ne prouve ni le sens d’un épisode de Gargantua ni une identité de pensée entre les auteurs.",
+          "model": "",
+          "modelStep": ""
+        }
+      ]
+    },
+    {
+      "philoId": "cioran-cahiers-inspiration-rendez-vous",
+      "context": "Cioran rapporte un sentiment récurrent. La note ne permet pas de décider qu’une œuvre aurait réellement été produite sans le rendez-vous.",
+      "commentary": [
+        {
+          "function": "Réalisation",
+          "sentence": "Le diariste dessine le portrait flatteur d’un artiste empêché, puis le rend suspect."
+        },
+        {
+          "function": "Éléments textuels",
+          "sentence": "Les guillemets d’« inspiration » et l’adverbe « toujours » attirent l’attention sur la coïncidence trop régulière entre l’élan créateur et le rendez-vous."
+        },
+        {
+          "function": "Construction / procédé",
+          "sentence": "Les points de suspension suspendent l’observation avant la relance finale sur une « occasion d’avoir du génie », qui grandit plaisamment ce qui n’a pas eu lieu."
+        },
+        {
+          "function": "Effet ici",
+          "sentence": "L’autodérision fait entrevoir une échappatoire : le talent reste intact dans l’imagination du locuteur parce qu’aucune réalisation ne vient le mettre à l’épreuve."
+        }
+      ],
+      "uses": [
+        {
+          "subjectId": "rimbaud-1",
+          "mode": "comparaison",
+          "stage": "Après avoir établi dans un poème le travail d’invention qui accompagne l’émancipation",
+          "function": "Distinguer une posture d’artiste et une invention effectivement lisible",
+          "reason": "Le portrait ironique sert de contrepoint à l’émancipation accomplie par une écriture, sans expliquer la psychologie de Rimbaud.",
+          "paragraph": "L’émancipation poétique doit se lire dans ce que le poème fait, et pas seulement dans une posture de créateur. Cioran se moque d’une « occasion d’avoir du génie » toujours manquée : l’œuvre absente préserve le rêve du talent. Ce contrepoint aide à faire valoir, dans le Cahier de Douai, l’invention effectivement réalisée par les rythmes, les images ou les formes, une fois ces choix analysés.",
+          "limit": "La note ne permet pas d’attribuer à Rimbaud cette psychologie de l’empêchement ; elle distingue un discours sur le talent et des faits d’écriture.",
+          "model": "",
+          "modelStep": ""
+        }
+      ]
+    },
+    {
+      "philoId": "cioran-cahiers-constantinople",
+      "context": "La première note du cahier de 1957 ne nomme ni l’auteur ni le genre du livre lu. Elle rapporte son effet sur le lecteur.",
+      "commentary": [
+        {
+          "function": "Réalisation",
+          "sentence": "La note fait d’un événement raconté une défaite personnellement éprouvée."
+        },
+        {
+          "function": "Éléments textuels",
+          "sentence": "Au nom « chute » répond le verbe « tombé », tandis que le sujet passe du « livre » lu au « Je » qui en subit l’effet."
+        },
+        {
+          "function": "Construction / procédé",
+          "sentence": "Le rapprochement lexical reprend le même mouvement dans deux sens : la ville tombe historiquement, le lecteur se dit atteint avec elle."
+        },
+        {
+          "function": "Effet ici",
+          "sentence": "La chute finale « avec la ville » fait sourire par l’excès d’identification, tout en donnant une présence sensible à l’émotion de lecture."
+        }
+      ],
+      "uses": [
+        {
+          "subjectId": "prevost-1",
+          "mode": "comparaison",
+          "stage": "Après une preuve sur la façon dont le récit de Des Grieux entraîne le lecteur",
+          "function": "Distinguer l’identification affective et l’adhésion à un jugement",
+          "reason": "Éprouver une défaite racontée ne revient pas nécessairement à adopter tous les raisonnements de celui qui raconte.",
+          "paragraph": "L’intensité d’une lecture n’oblige pas à confondre émotion et aveuglement. Cioran écrit ainsi : « Je suis tombé avec la ville. » La formule permet de préciser une participation affective à un récit. Pour Manon Lescaut, il reste à montrer par les mots de Des Grieux quand le lecteur est entraîné par sa douleur et quand il conserve la possibilité de juger ses justifications.",
+          "limit": "Le genre du livre lu par Cioran n’est pas indiqué. La note ne sert ni de preuve sur le roman en général ni d’analyse de Manon Lescaut.",
+          "model": "",
+          "modelStep": ""
+        }
+      ]
+    },
+    {
+      "philoId": "cioran-cahiers-carte-postale",
+      "context": "La note suivante oppose le travail d’une phrase de son cru au fait de parcourir un texte. La comparaison est une provocation située, non un classement démontré de tous les lecteurs.",
+      "commentary": [
+        {
+          "function": "Réalisation",
+          "sentence": "La phrase déplace la dignité de la création vers un geste d’écriture ordinaire."
+        },
+        {
+          "function": "Éléments textuels",
+          "sentence": "Les deux infinitifs « Écrire » et « lire » encadrent le contraste entre une « carte postale » et la « Phénoménologie de l’esprit »."
+        },
+        {
+          "function": "Construction / procédé",
+          "sentence": "La comparaison inverse le prestige attendu des deux objets ; la formule « se rapproche plus » mesure une proximité avec la création sans identifier la carte postale à une œuvre d’art."
+        },
+        {
+          "function": "Effet ici",
+          "sentence": "Le lecteur est amené à regarder l’activité accomplie plutôt que l’objet prestigieux affiché : l’incongruité rend à une petite invention sa valeur possible."
+        }
+      ],
+      "uses": [
+        {
+          "subjectId": "rimbaud-1",
+          "mode": "comparaison",
+          "stage": "Après une analyse d’un poème qui donne une portée neuve à une matière ordinaire",
+          "function": "Mettre l’invention au premier plan",
+          "reason": "Le déplacement du prestige aide à penser une émancipation par la manière d’écrire, sans réduire cette émancipation au refus des autorités.",
+          "paragraph": "Créer n’exige pas toujours de choisir un objet culturel déjà prestigieux. En rapprochant davantage la carte postale de la création que la lecture de Hegel, Cioran invite à examiner le geste inventif. La comparaison peut préciser une analyse du Cahier de Douai où le travail poétique donne une valeur nouvelle à des objets ordinaires ; cette valeur doit être montrée dans les mots et la forme du poème.",
+          "limit": "La comparaison ne transforme pas toute carte postale en poème et ne prouve pas que Rimbaud aurait suivi une conception de Cioran.",
+          "model": "",
+          "modelStep": ""
+        }
+      ]
+    },
+    {
+      "philoId": "cioran-cahiers-lire-concierge",
+      "context": "La note précédente revendique une lecture naïve et désintéressée et plaint les critiques. La charge s’explique dans cette défense polémique du plaisir de lire.",
+      "commentary": [
+        {
+          "function": "Réalisation",
+          "sentence": "Cioran oppose une lecture qui s’identifie à une lecture qui soupçonne et démonte."
+        },
+        {
+          "function": "Éléments textuels",
+          "sentence": "Au verbe « m’identifier » répondent les figures de « l’espion » et du « détective », avant celle du « dépeceur de cadavres »."
+        },
+        {
+          "function": "Construction / procédé",
+          "sentence": "La comparaison avec une concierge écarte le prestige savant ; la dernière phrase, isolée et sans verbe, fait brusquement passer de l’enquête à la violence sur un corps."
+        },
+        {
+          "function": "Effet ici",
+          "sentence": "Le livre semble ainsi devenir un corps que l’analyse aurait mis à mort : la défense du plaisir de lire prend la forme d’une profanation comiquement excessive."
+        }
+      ],
+      "uses": [
+        {
+          "subjectId": "prevost-1",
+          "mode": "comparaison",
+          "stage": "Après l’examen des deux plaisirs possibles : entrer dans le récit et prendre du recul",
+          "function": "Problématiser le rapport entre identification et jugement",
+          "reason": "La charge de Cioran fait ressortir la valeur affective de l’identification, mais son excès ne suffit pas à condamner une lecture attentive aux justifications du narrateur.",
+          "paragraph": "Le lecteur peut hésiter entre l’adhésion au récit de Des Grieux et l’examen de ses raisons. Cioran défend l’identification au livre contre une lecture assimilée à celle d’un « détective ». Son image donne de la force au premier plaisir, mais ne supprime pas le second : on peut être touché par Manon Lescaut et interroger le récit qui produit cette émotion.",
+          "limit": "La charge contre l’analyse ne doit pas servir à éviter l’étude précise du roman ; elle ouvre une question sur les plaisirs de lecture.",
+          "model": "",
+          "modelStep": ""
+        }
+      ]
+    },
+    {
+      "philoId": "cioran-cahiers-condoleances",
+      "context": "Une note de 1962 déclare déjà la lettre de condoléances difficile même avec de la sincérité. Celle de 1969 condense ce problème dans une hyperbole.",
+      "commentary": [
+        {
+          "function": "Réalisation",
+          "sentence": "La phrase confère à une écriture sociale ordinaire la difficulté d’un accomplissement exceptionnel."
+        },
+        {
+          "function": "Éléments textuels",
+          "sentence": "La double restriction « ni bête ni fausse » resserre les exigences de la lettre, avant l’arrivée du mot « génie »."
+        },
+        {
+          "function": "Construction / procédé",
+          "sentence": "Le groupe placé en tête retarde le jugement ; la relance « il y faut » et l’hyperbole finale font basculer une tâche familière vers l’extraordinaire."
+        },
+        {
+          "function": "Effet ici",
+          "sentence": "Le lecteur sourit de cette grandeur disproportionnée tout en reconnaissant la gêne concrète des formules qui sonnent creux : le mot d’esprit rend sensible une difficulté réelle d’adresse."
+        }
+      ],
+      "uses": [
+        {
+          "subjectId": "musset-2",
+          "mode": "comparaison",
+          "stage": "Après une preuve sur les obstacles entre le sentiment et sa formulation",
+          "function": "Distinguer sentiment sincère et parole qui sonne juste",
+          "reason": "La difficulté de l’expression ne vient pas uniquement d’une intention de tromper : la situation et les conventions peuvent aussi la compliquer.",
+          "paragraph": "La sincérité ne fournit pas immédiatement les mots qui lui conviennent. La lettre de condoléances jugée par Cioran si difficile qu’« il y faut du génie » offre un contrepoint bref : le sentiment peut être réel et la formulation maladroite. Dans On ne badine pas avec l’amour, il faut donc distinguer les jeux destinés à blesser ou à se protéger des difficultés propres à l’aveu, en s’appuyant sur les répliques de la pièce.",
+          "limit": "La lettre n’est pas une scène théâtrale. La comparaison distingue deux difficultés de parole ; elle n’explique pas à elle seule les conduites de Camille ou de Perdican.",
+          "model": "",
+          "modelStep": ""
+        }
+      ]
+    },
+    {
+      "philoId": "cioran-cahiers-ultimatum",
+      "context": "La note voisine évoque des disputes imaginaires et une guerre déclarée à l’univers. La phrase condense un désaccord vécu entre résignation et colère.",
+      "commentary": [
+        {
+          "function": "Réalisation",
+          "sentence": "Le locuteur se présente comme un résigné que sa propre parole remet chaque jour en guerre."
+        },
+        {
+          "function": "Éléments textuels",
+          "sentence": "« Toutes mes pensées » tendent vers la « résignation », mais « un ultimatum à Dieu » exprime une exigence combative."
+        },
+        {
+          "function": "Construction / procédé",
+          "sentence": "La coordination rapproche sans explication ces deux orientations ; les formulations généralisantes font de leur contradiction une habitude, et le vocabulaire diplomatique change la prière en rapport de force."
+        },
+        {
+          "function": "Effet ici",
+          "sentence": "L’immensité du destinataire rend l’ultimatum dérisoire ; l’aveu amuse tout en laissant entendre une colère que la résignation pensée n’a pas apaisée."
+        }
+      ],
+      "uses": [
+        {
+          "subjectId": "musset-1",
+          "mode": "comparaison",
+          "stage": "Après avoir distingué un ton qui fait rire et les enjeux affectifs d’une confrontation",
+          "function": "Montrer que le comique n’abolit pas le sérieux d’un conflit",
+          "reason": "L’ultimatum impossible fait sourire, mais l’emportement reconnu demeure ; un effet comique ne prouve pas l’absence d’un enjeu réel.",
+          "paragraph": "Un affrontement peut faire rire sans perdre tout sérieux. L’« ultimatum à Dieu » de Cioran rend le locuteur dérisoire tout en exprimant sa colère persistante. Ce décalage peut préciser l’étude d’On ne badine pas avec l’amour : le ton et les jeux de parole ne suffisent pas à annuler les sentiments ni les conséquences des actes, qu’il faut établir dans les scènes de la pièce.",
+          "limit": "La note n’est pas une réplique de théâtre : elle aide à distinguer un effet de ton et un enjeu, sans prouver le sérieux d’une scène de Musset.",
+          "model": "",
+          "modelStep": ""
+        }
+      ]
+    },
+    {
+      "philoId": "cioran-cahiers-style-monde",
+      "context": "Cette note propose une position à examiner dans le cahier de 1961. Elle ne constitue pas un commentaire de l’œuvre française rapprochée ci-dessous.",
+      "commentary": [
+        {
+          "function": "Réalisation",
+          "sentence": "Le locuteur donne à une pratique d’écriture la portée d’une manière de tenir face au monde."
+        },
+        {
+          "function": "Éléments textuels",
+          "sentence": "Le mot « néant » élargit l’enjeu, tandis que le verbe « composer » revient auprès du « monde » puis du « mot »."
+        },
+        {
+          "function": "Construction / procédé",
+          "sentence": "La reprise du verbe change de sens et rapproche les deux noms par leur ressemblance sonore : l’accommodement impossible avec le réel se déplace vers la composition verbale."
+        },
+        {
+          "function": "Effet ici",
+          "sentence": "Le style apparaît ainsi comme une réponse située à une impuissance, et non comme un décor : l’économie de la phrase fait éprouver le déplacement qu’elle raconte."
+        }
+      ],
+      "uses": [],
+      "programmeUses": [
+        {
+          "author": "Francis Ponge",
+          "work": "La Rage de l’expression",
+          "pathway": "Dans l’atelier du poète",
+          "stage": "Après une analyse de la recherche d’expression chez Ponge",
+          "function": "Penser le style comme une activité",
+          "reason": "La formule permet de comparer deux rapports au travail des mots, sans réduire Ponge à une psychologie de Cioran.",
+          "paragraph": "Le travail du poète n’ajoute pas nécessairement une élégance à une pensée déjà achevée. Cioran rapporte le style à une difficulté de composer avec le monde. Ce rapprochement peut aider à examiner chez Ponge comment les essais, les reprises et les choix de formulation construisent une relation à l’objet ; c’est dans ces opérations précises que la comparaison doit être éprouvée.",
+          "limit": "La difficulté existentielle de Cioran ne constitue pas la cause de l’écriture de Ponge ; la comparaison porte sur une fonction possible du travail verbal."
+        }
+      ]
+    },
+    {
+      "philoId": "cioran-cahiers-amour-conviction",
+      "context": "Cette note propose une position à examiner dans le cahier de 1962. Elle ne constitue pas un commentaire de l’œuvre française rapprochée ci-dessous.",
+      "commentary": [
+        {
+          "function": "Réalisation",
+          "sentence": "La note donne une forme à la persistance d’un attachement privé de son ancienne assurance."
+        },
+        {
+          "function": "Éléments textuels",
+          "sentence": "L’amour et le combat sont rapprochés, puis le mot « Cependant » introduit une rupture que la continuité des actes ne suffit pas à effacer."
+        },
+        {
+          "function": "Construction / procédé",
+          "sentence": "La métaphore finale de l’édifice et de la fêlure rend cette rupture perceptible dans une construction qui tient encore."
+        },
+        {
+          "function": "Effet ici",
+          "sentence": "Ce qui manquait devient même un « style » : la phrase ne décrit pas seulement une perte, elle fait voir une manière singulière de continuer à vivre."
+        }
+      ],
+      "uses": [],
+      "programmeUses": [
+        {
+          "author": "Alfred de Musset",
+          "work": "On ne badine pas avec l’amour",
+          "pathway": "Les jeux du cœur et de la parole",
+          "stage": "Après une analyse du rapport entre les convictions affichées et les sentiments chez Musset",
+          "function": "Distinguer ce que l’on affirme et ce que l’on éprouve",
+          "reason": "La persistance d’un attachement après la perte de sa justification complique l’équivalence entre un discours tenu sur l’amour et le sentiment lui-même.",
+          "paragraph": "Les mots que les personnages emploient pour définir l’amour ne suffisent pas toujours à dire ce qu’ils éprouvent. Cioran envisage ainsi de continuer à aimer après avoir perdu certaines convictions. Cette distinction peut prolonger une analyse de Camille ou de Perdican, à condition de montrer dans leurs paroles et leurs actes ce qui se maintient ou change réellement.",
+          "limit": "La note ne fournit pas une vérité générale sur l’amour et n’autorise pas à négliger les différences entre les deux personnages."
+        }
+      ]
+    },
+    {
+      "philoId": "cioran-cahiers-pensee-fragmentaire",
+      "context": "Cette note propose une position à examiner dans le cahier de 1962. Elle ne constitue pas un commentaire de l’œuvre française rapprochée ci-dessous.",
+      "commentary": [
+        {
+          "function": "Réalisation",
+          "sentence": "La phrase défend sa propre forme fragmentaire en lui attribuant une fidélité à l’expérience."
+        },
+        {
+          "function": "Éléments textuels",
+          "sentence": "Les qualificatifs de la pensée brisée répondent au « décousu » de la vie, tandis que la pensée cohérente est rapportée à ses seules lois."
+        },
+        {
+          "function": "Construction / procédé",
+          "sentence": "La personnification donne à cette dernière une attitude de supériorité envers la vie, avant une relance qui aggrave le refus de contact."
+        },
+        {
+          "function": "Effet ici",
+          "sentence": "Le choix d’un fragment prend ainsi une valeur de position : l’inachèvement apparent devient la trace possible d’un rapport plus attentif à ce qui résiste."
+        }
+      ],
+      "uses": [],
+      "programmeUses": [
+        {
+          "author": "Francis Ponge",
+          "work": "La Rage de l’expression",
+          "pathway": "Dans l’atelier du poète",
+          "stage": "Après l’analyse d’un essai ou d’une reprise d’écriture dans La Rage de l’expression",
+          "function": "Examiner ce que conserve une forme ouverte",
+          "reason": "Le fragment peut donner à lire une recherche et ses résistances ; il ne vaut pas par le seul fait de rester inachevé.",
+          "paragraph": "Une forme discontinue peut rendre visibles des difficultés que l’exposition achevée tendrait à effacer. Cioran défend ainsi une pensée fragmentaire proche du décousu de la vie. La comparaison invite à examiner ce que les reprises de Ponge font apparaître de son travail sur l’objet, plutôt qu’à confondre l’atelier du poète avec un simple désordre de notes.",
+          "limit": "Cioran parle de sa conception de la pensée, pas de Ponge. Il faut établir la fonction de chaque reprise dans l’œuvre étudiée."
+        }
+      ]
+    },
+    {
+      "philoId": "cioran-cahiers-oeuvre-interpretations",
+      "context": "Cette note propose une position à examiner dans le cahier de 1962. Elle ne constitue pas un commentaire de l’œuvre française rapprochée ci-dessous.",
+      "commentary": [
+        {
+          "function": "Réalisation",
+          "sentence": "La note présente la survie d’un livre comme le pouvoir de rester ouvert à la lecture."
+        },
+        {
+          "function": "Éléments textuels",
+          "sentence": "Les termes de fécondité et de durée répondent à la qualification finale des œuvres comme « périssables »."
+        },
+        {
+          "function": "Construction / procédé",
+          "sentence": "La restriction initiale fait de la pluralité des interprétations une condition, puis la seconde phrase inverse la valeur rassurante d’une définition achevée."
+        },
+        {
+          "function": "Effet ici",
+          "sentence": "Le livre pleinement cerné semble perdre son avenir : l’aphorisme invite le lecteur à éprouver ce qu’une lecture unique laisserait encore à découvrir."
+        }
+      ],
+      "uses": [],
+      "programmeUses": [
+        {
+          "author": "Arthur Rimbaud",
+          "work": "Cahier de Douai",
+          "pathway": "Émancipations créatrices",
+          "stage": "Après plusieurs analyses montrant les dimensions d’une émancipation chez Rimbaud",
+          "function": "Garder une lecture ouverte sans renoncer aux preuves",
+          "reason": "La fécondité d’un livre peut tenir à plusieurs rapports de sens ; cela ne dispense jamais de justifier chacun d’eux.",
+          "paragraph": "Une lecture politique du Cahier de Douai peut éclairer le recueil sans en épuiser les inventions de voix, de rythme ou d’images. Cioran lie précisément la fécondité d’un livre à la pluralité de ses interprétations. Cette référence peut soutenir une ouverture raisonnée du propos, une fois les lectures concurrentes appuyées sur des poèmes précis.",
+          "limit": "La pluralité ne rend pas toutes les lectures équivalentes et ne permet pas d’inventer un sens sans appui textuel."
+        }
+      ]
+    },
+    {
+      "philoId": "cioran-cahiers-vanite-capacites",
+      "context": "Cette note propose une position à examiner dans le cahier de 1966. Elle ne constitue pas un commentaire de l’œuvre française rapprochée ci-dessous.",
+      "commentary": [
+        {
+          "function": "Réalisation",
+          "sentence": "La note retourne contre son jugement habituel un défaut moral, la vanité."
+        },
+        {
+          "function": "Éléments textuels",
+          "sentence": "Le désir de « paraître intelligent » est suivi de l’augmentation des capacités, puis la formule « Toute vanité stimule » concentre ce renversement."
+        },
+        {
+          "function": "Construction / procédé",
+          "sentence": "La généralisation brève est prolongée par le portrait de ceux qui laissent leurs dons inemployés faute de cette impulsion."
+        },
+        {
+          "function": "Effet ici",
+          "sentence": "Le lecteur doit ainsi réexaminer une opposition trop simple entre l’apparence et la valeur : le regard social peut produire une activité, autant qu’une dissimulation."
+        }
+      ],
+      "uses": [],
+      "programmeUses": [
+        {
+          "author": "Émile Zola",
+          "work": "Pot-Bouille",
+          "pathway": "Dévoiler les rouages de la société",
+          "stage": "Après une analyse d’une conduite réglée par le regard social dans Pot-Bouille",
+          "function": "Examiner un ressort de l’apparence au-delà du mensonge",
+          "reason": "Le paraître peut cacher une réalité, mais aussi pousser quelqu’un à agir : cette distinction affine l’étude d’un mécanisme social.",
+          "paragraph": "Dévoiler un rouage social ne consiste pas seulement à opposer les apparences à la vérité. La réflexion de Cioran sur une vanité qui stimule permet aussi d’interroger ce que le désir d’être considéré fait effectivement accomplir. Dans Pot-Bouille, ce rapprochement n’a de valeur qu’appuyé sur une conduite précise, ses motivations et ses résultats, et non sur un jugement global des personnages.",
+          "limit": "Cioran ne commente pas Zola. L’efficacité d’une motivation vaniteuse ne lui donne pas automatiquement une valeur morale."
+        }
+      ]
+    },
+    {
+      "philoId": "cioran-cahiers-critique-deux-camps",
+      "context": "Cette note propose une position à examiner dans le cahier de 1968. Elle ne constitue pas un commentaire de l’œuvre française rapprochée ci-dessous.",
+      "commentary": [
+        {
+          "function": "Réalisation",
+          "sentence": "La phrase retire à deux positions adverses le privilège de posséder la vérité."
+        },
+        {
+          "function": "Éléments textuels",
+          "sentence": "La double négation rapproche « réaction » et « révolution », avant la reprise de la vérité par un pronom dans la seconde phrase."
+        },
+        {
+          "function": "Construction / procédé",
+          "sentence": "Le mouvement substitue aux deux camps une activité, la « mise en question », qui s’applique à la société puis à ses opposants."
+        },
+        {
+          "function": "Effet ici",
+          "sentence": "La clausule empêche le lecteur de s’installer dans une contestation confortable : le regard critique revient sur celui qui prétendait l’exercer seul."
+        }
+      ],
+      "uses": [],
+      "programmeUses": [
+        {
+          "author": "Étienne de La Boétie",
+          "work": "Discours de la servitude volontaire",
+          "pathway": "Défendre et entretenir la liberté",
+          "stage": "Après l’analyse d’une critique de l’obéissance ou de ses relais chez La Boétie",
+          "function": "Prolonger la vigilance envers les nouvelles autorités",
+          "reason": "Se soustraire à une autorité n’assure pas que le jugement reste libre devant ceux qui la combattent.",
+          "paragraph": "La liberté doit être entretenue après le refus d’un pouvoir, autant que défendue contre lui. En exigeant l’examen de la société et de ceux qui l’attaquent, Cioran fournit un prolongement critique possible. Cette référence doit venir après l’analyse d’un mécanisme de servitude chez La Boétie et servir à préciser une exigence de vigilance, sans assimiler les contextes politiques.",
+          "limit": "La formule ne permet ni de confondre toutes les révoltes ni de prêter à La Boétie les positions politiques de Cioran."
+        }
+      ]
+    },
+    {
+      "philoId": "cioran-cahiers-doute-trompette",
+      "context": "Cette note propose une position à examiner dans le cahier de 1969. Elle ne constitue pas un commentaire de l’œuvre française rapprochée ci-dessous.",
+      "commentary": [
+        {
+          "function": "Réalisation",
+          "sentence": "La note fait entendre l’inégalité d’éclat entre l’assurance et le doute."
+        },
+        {
+          "function": "Éléments textuels",
+          "sentence": "Au rassemblement obtenu par le « ton prophétique » répond la question sur ceux qui viendraient entendre celui qui doute."
+        },
+        {
+          "function": "Construction / procédé",
+          "sentence": "La formule finale remplace l’abstraction par l’image sonore d’une « trompette », instrument d’appel et de mobilisation."
+        },
+        {
+          "function": "Effet ici",
+          "sentence": "Le doute devient frappant grâce à une image qui dit justement son manque d’éclat : l’écriture donne une force sensible à la fragilité qu’elle décrit."
+        }
+      ],
+      "uses": [],
+      "programmeUses": [
+        {
+          "author": "Fontenelle",
+          "work": "Entretiens sur la pluralité des mondes",
+          "pathway": "Le goût de la science",
+          "stage": "Après l’analyse de la manière dont Fontenelle rend une question savante accessible",
+          "function": "Distinguer plaisir de comprendre et assurance qui séduit",
+          "reason": "La parole qui attire un public ne convainc pas nécessairement par ses preuves ; le doute pose donc aussi un problème de présentation.",
+          "paragraph": "Faire goûter la science engage une manière de conduire le lecteur vers une question, pas seulement la transmission d’un résultat. La remarque de Cioran sur le faible pouvoir de rassemblement du doute permet de mesurer cet enjeu. Il faut alors montrer comment un passage des Entretiens associe agrément du dialogue et examen des explications, au lieu de déduire leur vérité de leur seul charme.",
+          "limit": "La force de persuasion ne suffit pas à juger une proposition scientifique ; Cioran n’analyse pas le dialogue de Fontenelle."
+        }
+      ]
+    },
+    {
+      "philoId": "cioran-cahiers-temps-maladie",
+      "context": "Cette note propose une position à examiner dans le cahier de 1970. Elle ne constitue pas un commentaire de l’œuvre française rapprochée ci-dessous.",
+      "commentary": [
+        {
+          "function": "Réalisation",
+          "sentence": "La note étend une sensation de dégradation jusqu’à en faire une vision de l’univers."
+        },
+        {
+          "function": "Éléments textuels",
+          "sentence": "Le vocabulaire morbide associe successivement le temps, l’Histoire et la vie à la maladie et à l’infirmité."
+        },
+        {
+          "function": "Construction / procédé",
+          "sentence": "Les rapports emboîtés conduisent chaque réalité vers un ensemble plus vaste ; la répétition de la même construction leur donne un destin commun."
+        },
+        {
+          "function": "Effet ici",
+          "sentence": "Un état intérieur prend ainsi les dimensions du monde : le lecteur éprouve la cohérence d’une vision avant d’en discuter la valeur de vérité."
+        }
+      ],
+      "uses": [],
+      "programmeUses": [
+        {
+          "author": "Hélène Dorion",
+          "work": "Mes forêts",
+          "pathway": "La poésie, la nature, l’intime",
+          "stage": "Après l’analyse d’un rapport entre expérience intime, nature et temps dans Mes forêts",
+          "function": "Distinguer une vision poétique et une thèse sur la nature",
+          "reason": "Une image peut engager tout un rapport au monde sans devenir pour autant une explication scientifique.",
+          "paragraph": "Le rapport entre l’intime et la nature se construit dans une manière de voir et d’écrire. Cioran étend ainsi une perception morbide au temps, à l’histoire et à la vie. Ce contrepoint peut aider à préciser une image de Mes forêts : il faut examiner comment le poème fait éprouver le monde, sans attribuer automatiquement à Dorion cette tonalité ni transformer ses images en diagnostics.",
+          "limit": "La vision de Cioran ne définit ni la nature en elle-même ni la tonalité de tous les poèmes de Dorion."
+        }
+      ]
+    },
+    {
+      "philoId": "cioran-cahiers-verite-chaine",
+      "context": "Cette note propose une position à examiner dans le cahier de 1972. Elle ne constitue pas un commentaire de l’œuvre française rapprochée ci-dessous.",
+      "commentary": [
+        {
+          "function": "Réalisation",
+          "sentence": "La phrase renverse une expérience de délivrance en expérience d’enfermement."
+        },
+        {
+          "function": "Éléments textuels",
+          "sentence": "La « sensation de libération » est suivie de la « chaîne », puis l’opposition se prolonge dans les images de la respiration et de l’étouffement."
+        },
+        {
+          "function": "Construction / procédé",
+          "sentence": "Les étapes temporelles font passer le lecteur de la découverte à la fixation ; la comparaison avec un dieu donne au changement de rapport une intensité sensible."
+        },
+        {
+          "function": "Effet ici",
+          "sentence": "L’idée même qui avait permis de respirer semble fermer l’espace : la forme oblige à distinguer la promesse d’une découverte de ce que l’attachement peut en faire."
+        }
+      ],
+      "uses": [],
+      "programmeUses": [
+        {
+          "author": "Fontenelle",
+          "work": "Entretiens sur la pluralité des mondes",
+          "pathway": "Le goût de la science",
+          "stage": "Après l’analyse d’un déplacement de perspective ou d’un savoir en discussion chez Fontenelle",
+          "function": "Distinguer découverte et fixation dogmatique",
+          "reason": "Une connaissance peut ouvrir l’examen ; le rapport que l’on entretient avec elle peut ensuite le refermer.",
+          "paragraph": "Le goût de la science peut se nourrir d’une découverte sans imposer que toute question soit désormais close. L’image de la vérité devenue chaîne, chez Cioran, sert à distinguer l’élan d’un savoir et sa fixation en autorité. La comparaison doit préciser un passage des Entretiens où une explication ou une perspective se trouve examinée, plutôt que transformer Fontenelle en porte-parole de Cioran.",
+          "limit": "Il ne faut pas déduire de cette image que toute vérité scientifique serait une servitude ou que toute assurance serait dogmatique."
+        }
+      ]
+    }
+  ],
+  "programmeSource": "https://www.education.gouv.fr/bo/2025/Hebdo30/MENE2518792N"
+}
