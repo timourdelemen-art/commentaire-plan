@@ -63,5 +63,5 @@ const initial=new URLSearchParams(location.search);
 for(const k of fields){const v=initial.get(k);if(v)$(k).value=v;$(k).addEventListener(k==='query'?'input':'change',render);}
 $('bank-reset').onclick=()=>{for(const k of fields)$(k).value='';$('bank-message').textContent='';render();};
 $('bank-close').onclick=()=>{selected='';$('bank-reader').hidden=true;syncURL();$('find-title').setAttribute('tabindex','-1');$('find-title').focus();};
-$('bank-controls').hidden=false;document.documentElement.classList.add('bank-ready');render();if(initial.get('fiche'))open(initial.get('fiche'),false);
+$('bank-controls').hidden=false;document.documentElement.classList.add('bank-ready');render();if(initial.get('fiche'))open(initial.get('fiche'));
 })(typeof window==='undefined'?globalThis:window);

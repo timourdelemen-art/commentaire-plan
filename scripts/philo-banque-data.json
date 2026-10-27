@@ -15206,7 +15206,7 @@
         },
         {
           "function": "La raison",
-          "sentence": "Le contraste entre la plainte familière et le titre solennel rend comique la disproportion entre une expérience et sa présentation."
+          "sentence": "La parodie invite à distinguer le prestige d’un titre et ce qu’il aide effectivement à comprendre."
         },
         {
           "function": "L’exemple",
@@ -15318,7 +15318,7 @@
         },
         {
           "function": "La raison",
-          "sentence": "Le rapprochement d’une gêne mondaine et d’une question théologique produit une disproportion comique."
+          "sentence": "La boutade suppose plaisamment qu’un ordre bienveillant devrait nous épargner même cet ennui ; cette exigence disproportionnée empêche d’en faire une preuve."
         },
         {
           "function": "L’exemple",
@@ -15490,7 +15490,7 @@
         },
         {
           "function": "L’exemple",
-          "sentence": "Rédiger une phrase personnelle peut solliciter une invention absente d’une lecture qui se contente de suivre une autorité."
+          "sentence": "Formuler une phrase de son cru peut demander davantage d’invention que parcourir passivement un texte prestigieux."
         },
         {
           "function": "La portée",
@@ -15598,7 +15598,7 @@
         },
         {
           "function": "La raison",
-          "sentence": "Le sentiment ne fournit pas immédiatement les mots qui évitent à la fois la banalité et la fausseté."
+          "sentence": "Le sentiment ne fournit pas immédiatement les mots qui évitent à la fois la maladresse et la fausseté."
         },
         {
           "function": "L’exemple",
@@ -15698,27 +15698,27 @@
       "commentary": [
         {
           "function": "Le problème",
-          "sentence": "Le langage sert-il seulement à transmettre une pensée déjà formée ?"
+          "sentence": "Le travail du style est-il seulement une recherche de beauté ?"
         },
         {
           "function": "L’affirmation",
-          "sentence": "Cioran présente le travail du style comme une réponse à une difficulté de vivre dans le monde."
+          "sentence": "Cioran fait du style un « défi au néant », rendu nécessaire pour lui par l’impossibilité de s’accommoder du monde."
         },
         {
           "function": "Les concepts",
-          "sentence": "Composer avec le monde signifie ici s’accommoder de lui ; composer avec le mot désigne aussi une activité de formulation."
+          "sentence": "« Composer avec » signifie s’accommoder ; appliqué au « mot », le verbe désigne aussi le travail de l’écriture."
         },
         {
           "function": "La raison",
-          "sentence": "Le langage peut donner une forme à une expérience qui résiste, sans supprimer matériellement ce qui nous atteint."
+          "sentence": "Faute d’entente avec le monde, il reporte donc son effort sur le mot : donner forme à une parole oppose une création au néant."
         },
         {
           "function": "L’exemple",
-          "sentence": "Écrire un malheur peut permettre de l’examiner et de le partager sans le faire disparaître."
+          "sentence": "Un écrivain peut transformer une expérience d’impuissance en une phrase travaillée, sans changer la situation dont elle naît."
         },
         {
           "function": "La portée",
-          "sentence": "Cette expérience du style éclaire un pouvoir de l’écriture ; elle ne démontre ni son efficacité pour tous ni son indépendance à l’égard du réel."
+          "sentence": "La note expose un recours personnel ; elle ne prouve pas que l’écriture surmonte le néant ou remplace l’action sur le monde."
         }
       ],
       "uses": [
@@ -15727,7 +15727,7 @@
           "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=35",
           "sourceLabel": "Recueil académique · p. 35",
           "function": "Examiner une fonction de l’écriture",
-          "reason": "Le langage peut donner une forme à une expérience qui résiste, sans supprimer matériellement ce qui nous atteint. Cette expérience du style éclaire un pouvoir de l’écriture ; elle ne démontre ni son efficacité pour tous ni son indépendance à l’égard du réel."
+          "reason": "Faute d’entente avec le monde, il reporte donc son effort sur le mot : donner forme à une parole oppose une création au néant. La note expose un recours personnel ; elle ne prouve pas que l’écriture surmonte le néant ou remplace l’action sur le monde."
         }
       ],
       "literaryUrl": "bibliotheque-dissertation.html#cioran-cahiers-style-monde"
@@ -15766,11 +15766,11 @@
         },
         {
           "function": "La raison",
-          "sentence": "Le changement du jugement ne transforme donc pas nécessairement d’un seul coup nos dispositions affectives."
+          "sentence": "Le « Cependant » corrige cette continuité : la conduite demeure, mais la perte de conviction en change l’expérience."
         },
         {
           "function": "L’exemple",
-          "sentence": "On peut ne plus croire à l’avenir d’un amour et demeurer attaché à une personne."
+          "sentence": "L’image de l’édifice fêlé rend perceptible cette continuité altérée ; elle ne démontre pas une loi de tout attachement."
         },
         {
           "function": "La portée",
@@ -15783,7 +15783,7 @@
           "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=20",
           "sourceLabel": "Recueil académique · p. 20",
           "function": "Distinguer conscience du désir et pouvoir sur l’attachement",
-          "reason": "Le changement du jugement ne transforme donc pas nécessairement d’un seul coup nos dispositions affectives. La formule permet de distinguer conviction et sentiment ; elle ne prouve pas que toute lucidité condamnerait l’action ou rendrait l’amour faux."
+          "reason": "La note ne montre pas que nous ignorons ce que nous désirons : elle distingue savoir qu’une conviction a disparu et pouvoir cesser d’aimer. Elle permet ainsi d’éviter de confondre conscience du désir et maîtrise du sentiment."
         }
       ],
       "literaryUrl": "bibliotheque-dissertation.html#cioran-cahiers-amour-conviction"
@@ -15810,15 +15810,15 @@
       "commentary": [
         {
           "function": "Le problème",
-          "sentence": "Une pensée doit-elle être entièrement continue pour rendre compte de l’expérience ?"
+          "sentence": "La cohérence d’une pensée garantit-elle sa fidélité à la vie ?"
         },
         {
           "function": "L’affirmation",
-          "sentence": "Cioran prête à la pensée fragmentaire une proximité avec les discontinuités de la vie."
+          "sentence": "Cioran oppose le décousu d’une pensée fragmentaire, proche de la vie, à une pensée cohérente qui n’obéirait qu’à ses propres lois."
         },
         {
           "function": "Les concepts",
-          "sentence": "La cohérence organise des rapports entre les propositions ; la continuité d’une exposition ne garantit pas à elle seule sa fidélité à ce qu’elle examine."
+          "sentence": "La cohérence relie les propositions sans contradiction ; le décousu désigne leur absence de liaison suivie, que Cioran rapproche des discontinuités de la vie."
         },
         {
           "function": "La raison",
@@ -15870,7 +15870,7 @@
         },
         {
           "function": "L’affirmation",
-          "sentence": "Cioran relie la fécondité et la durée d’un livre à la diversité de ses interprétations."
+          "sentence": "Cioran fait de la pluralité des interprétations une condition nécessaire de la fécondité et de la durée d’un livre."
         },
         {
           "function": "Les concepts",
@@ -15878,7 +15878,7 @@
         },
         {
           "function": "La raison",
-          "sentence": "Une œuvre peut continuer à faire penser lorsque de nouvelles lectures éclairent des rapports que la première n’avait pas épuisés."
+          "sentence": "Une définition qui prétend épuiser une œuvre arrêterait le renouvellement de sa lecture ; sa fécondité exige donc, selon Cioran, des sens qu’aucune définition n’épuise."
         },
         {
           "function": "L’exemple",
@@ -15895,7 +15895,7 @@
           "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=6",
           "sourceLabel": "Recueil académique · p. 6",
           "function": "Distinguer ouverture du sens et arbitraire de la lecture",
-          "reason": "Une œuvre peut continuer à faire penser lorsque de nouvelles lectures éclairent des rapports que la première n’avait pas épuisés. La pluralité ne rend pas toute lecture valable : les mots, la composition et le contexte continuent de contraindre l’interprétation."
+          "reason": "Une définition qui prétend épuiser une œuvre arrêterait le renouvellement de sa lecture ; sa fécondité exige donc, selon Cioran, des sens qu’aucune définition n’épuise. La pluralité ne rend pas toute lecture valable : les mots, la composition et le contexte continuent de contraindre l’interprétation."
         }
       ],
       "literaryUrl": "bibliotheque-dissertation.html#cioran-cahiers-oeuvre-interpretations"
@@ -15926,7 +15926,7 @@
         },
         {
           "function": "L’affirmation",
-          "sentence": "Cioran affirme que vouloir paraître intelligent peut stimuler l’intelligence."
+          "sentence": "Cioran affirme que toute vanité stimule et que le désir de paraître intelligent augmente les capacités de l’intelligence."
         },
         {
           "function": "Les concepts",
@@ -15934,7 +15934,7 @@
         },
         {
           "function": "La raison",
-          "sentence": "Une motivation attachée au regard d’autrui peut donc pousser à exercer des facultés qui resteraient autrement inemployées."
+          "sentence": "Le désir de paraître mettrait ainsi les facultés en exercice ; son absence expliquerait que certains dons restent inexploités."
         },
         {
           "function": "L’exemple",
@@ -15942,7 +15942,7 @@
         },
         {
           "function": "La portée",
-          "sentence": "Cette possibilité ne justifie ni toute vanité ni tout désir d’approbation : la recherche de l’effet peut aussi remplacer le travail réel."
+          "sentence": "Cette généralisation exige une discussion : le désir d’approbation peut aussi pousser à rechercher un effet plutôt qu’à exercer réellement ses facultés."
         }
       ],
       "uses": [
@@ -15951,7 +15951,7 @@
           "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=19",
           "sourceLabel": "Recueil académique · p. 19",
           "function": "Examiner le rôle stimulant du regard d’autrui",
-          "reason": "Une motivation attachée au regard d’autrui peut donc pousser à exercer des facultés qui resteraient autrement inemployées. Cette possibilité ne justifie ni toute vanité ni tout désir d’approbation : la recherche de l’effet peut aussi remplacer le travail réel."
+          "reason": "Le regard d’autrui peut stimuler des capacités jusque-là inexploitées ; cela n’établit pas encore qu’il soit nécessaire pour les connaître. La citation aide à distinguer développement de soi et conscience de soi, avant de discuter le besoin d’autrui."
         }
       ],
       "literaryUrl": "bibliotheque-dissertation.html#cioran-cahiers-vanite-capacites"
@@ -15991,7 +15991,7 @@
         },
         {
           "function": "La raison",
-          "sentence": "La critique de la société peut se retourner en nouvelle adhésion aveugle si ses acteurs deviennent eux-mêmes soustraits à l’examen."
+          "sentence": "On peut justifier cette vigilance ainsi : la critique de la société devient une adhésion aveugle si ses acteurs sont eux-mêmes soustraits à l’examen."
         },
         {
           "function": "L’exemple",
@@ -16008,7 +16008,7 @@
           "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=38",
           "sourceLabel": "Recueil académique · p. 38",
           "function": "Éprouver l’autonomie d’un jugement contestataire",
-          "reason": "La critique de la société peut se retourner en nouvelle adhésion aveugle si ses acteurs deviennent eux-mêmes soustraits à l’examen. La formule demande une vigilance symétrique ; elle ne démontre pas que tous les camps ni tous les ordres seraient équivalents."
+          "reason": "On peut justifier cette vigilance ainsi : la critique de la société devient une adhésion aveugle si ses acteurs sont eux-mêmes soustraits à l’examen. La formule demande une vigilance symétrique ; elle ne démontre pas que tous les camps ni tous les ordres seraient équivalents."
         }
       ],
       "literaryUrl": "bibliotheque-dissertation.html#cioran-cahiers-critique-deux-camps"
@@ -16048,7 +16048,7 @@
         },
         {
           "function": "La raison",
-          "sentence": "Une affirmation peut donc convaincre par son assurance sans que cette force publique établisse sa vérité."
+          "sentence": "On peut en tirer une distinction : faire accourir un public ne suffit pas à établir la vérité d’un discours."
         },
         {
           "function": "L’exemple",
@@ -16065,7 +16065,7 @@
           "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=35",
           "sourceLabel": "Recueil académique · p. 35",
           "function": "Distinguer force de conviction et valeur d’une affirmation",
-          "reason": "Une affirmation peut donc convaincre par son assurance sans que cette force publique établisse sa vérité. La comparaison décrit une difficulté de la parole critique, sans prouver que tout doute serait inaudible ni toute assurance trompeuse."
+          "reason": "On peut en tirer une distinction : faire accourir un public ne suffit pas à établir la vérité d’un discours. La comparaison décrit une difficulté de la parole critique, sans prouver que tout doute serait inaudible ni toute assurance trompeuse."
         }
       ],
       "literaryUrl": "bibliotheque-dissertation.html#cioran-cahiers-doute-trompette"
@@ -16154,7 +16154,7 @@
         },
         {
           "function": "L’affirmation",
-          "sentence": "Cioran oppose la libération ressentie lors d’une découverte à l’attachement qui la transforme ensuite en chaîne."
+          "sentence": "Cioran affirme que toute vérité procure d’abord une sensation de libération, puis devient une chaîne, comme le dieu auquel on s’attache."
         },
         {
           "function": "Les concepts",
@@ -16162,7 +16162,7 @@
         },
         {
           "function": "La raison",
-          "sentence": "Un résultat peut ouvrir la recherche, puis la fermer si l’on traite comme intangible tout ce que l’on croit en tirer."
+          "sentence": "La comparaison avec le dieu suggère qu’une même adhésion soulage d’abord, puis devient dépendance et étouffement."
         },
         {
           "function": "L’exemple",
@@ -16179,7 +16179,7 @@
           "source": "https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/Sujets-Bac-Philo_Dissertations_1996-2025.pdf#page=72",
           "sourceLabel": "Recueil académique · p. 72",
           "function": "Distinguer progrès du savoir et clôture de l’examen",
-          "reason": "Un résultat peut ouvrir la recherche, puis la fermer si l’on traite comme intangible tout ce que l’on croit en tirer. La généralisation de Cioran doit être discutée : toute vérité ne devient pas nécessairement une contrainte, et une certitude peut rester révisable."
+          "reason": "La comparaison avec le dieu suggère qu’une même adhésion soulage d’abord, puis devient dépendance et étouffement. La généralisation de Cioran doit être discutée : toute vérité ne devient pas nécessairement une contrainte, et une certitude peut rester révisable."
         }
       ],
       "literaryUrl": "bibliotheque-dissertation.html#cioran-cahiers-verite-chaine"
