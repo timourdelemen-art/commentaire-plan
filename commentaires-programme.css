@@ -1,0 +1,22 @@
+/* Les mêmes textes accompagnent le travail et le modèle. */
+.programme-commentaire .pagehead{grid-template-columns:1fr;margin-bottom:1rem}
+.programme-work-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:1.5rem;align-items:start}
+.programme-work-grid>*{min-width:0}
+.programme-work-grid>aside{position:sticky;top:95px}
+.programme-source{padding:1rem;border:1px solid var(--line,#ddd);border-radius:12px}
+.programme-source h3{margin-top:0}
+.programme-reading{font-size:1.05rem;line-height:1.7}
+.programme-work-grid .programme-reading{max-height:48vh;overflow:auto;padding-right:.75rem;overscroll-behavior:contain}
+.programme-work-grid .programme-source>.micro,.programme-work-grid .programme-source>p:not(.micro){font-size:.85rem}
+.programme-writing label{display:block;margin:1rem 0 .5rem;line-height:1.6}
+.programme-commentaire textarea{box-sizing:border-box;width:100%;padding:1rem;font:inherit;line-height:1.6}
+.programme-commentaire details{margin:1rem 0;padding:.75rem;border:1px solid var(--line,#ddd);border-radius:8px}
+.programme-commentaire summary{cursor:pointer;font-weight:700}
+.programme-commentaire .chaine-opt{white-space:pre-line;text-align:left}
+.programme-commentaire [hidden]{display:none!important}
+.programme-commentaire .etape-fin{display:flex;gap:.7rem;flex-wrap:wrap}
+.programme-commentaire [data-recommencer]{padding:.65rem;cursor:pointer;font:inherit}
+.programme-status{min-height:1.4em}
+.programme-commentaire .c20-f{font-size:.85rem}
+@media(max-width:800px){.programme-work-grid{grid-template-columns:1fr}.programme-work-grid>aside{position:static}.programme-work-grid .programme-reading{max-height:14rem}.programme-commentaire .boussole{font-size:.9rem}.programme-work-grid .programme-source>p{margin:.5rem 0}}
+@media print{.programme-work-grid .programme-reading{max-height:none;overflow:visible}.programme-work-grid{display:block}.programme-work-grid>aside{position:static}}

@@ -23,7 +23,7 @@
           fb.appendChild(document.createTextNode(b.dataset.why||''));
           if(v==='no'){fb.appendChild(document.createTextNode(' Essayez une autre proposition.'));return;}
           if(v==='def')fb.appendChild(document.createTextNode(' Vous pouvez continuer, ou chercher une proposition plus précise.'));
-          var last=i===qs.length-1,next=btn('btn red small',last?'À vous d’écrire, sur un autre sujet →':'Question suivante →');
+          var last=i===qs.length-1,next=btn('btn red small',last?(et.closest('[data-etapes]').dataset.ecritLabel||'À vous d’écrire, sur un autre sujet →'):'Question suivante →');
           next.addEventListener('click',function(){
             if(last){ecrit.hidden=false;ecrit.scrollIntoView({behavior:'smooth',block:'start'});var ta=ecrit.querySelector('textarea');if(ta)ta.focus({preventScroll:true});}
             else{qs[i+1].hidden=false;qs[i+1].scrollIntoView({behavior:'smooth',block:'start'});}
