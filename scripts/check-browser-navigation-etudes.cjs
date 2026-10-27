@@ -74,6 +74,9 @@ const server=http.createServer((req,res)=>{
    for(const niveau of ['premiere','terminale']){
     await page.goto(base+'hlp.html');
     await page.locator('main a[href="hlp-ecrire.html?niveau='+niveau+'&exercice=interpretation#banque"]').click();
+    // Le formulaire reste masqué pendant son initialisation. Un clic peut rendre
+    // la main avant le chargement du script : inputValue() ne réessaie pas.
+    await page.getByLabel('Votre exercice',{exact:true}).waitFor({state:'visible'});
     assert.equal(await page.getByLabel('Votre classe',{exact:true}).inputValue(),niveau);
     assert.equal(await page.getByLabel('Votre exercice',{exact:true}).inputValue(),'interpretation');
     assert.equal(await page.locator('[data-card]:visible').count(),niveau==='premiere'?2:10);
@@ -87,7 +90,14 @@ const server=http.createServer((req,res)=>{
     assert.match(await page.locator('#interpretation [data-choice-feedback]').innerText(),/Solide|Défendable|À revoir/);
     await page.goto(base+'hlp-'+niveau+'.html');
     const task=page.locator('#entrainements a[href*="exercice=reflexion"]');
+    // Reproduire une arrivée lente : le contrôle doit attendre l'interface prête,
+    // tout en exigeant toujours la bonne classe et le bon exercice.
+    if(width===1280&&niveau==='premiere')await page.route('**/navigation-etudes.js',async route=>{
+     await new Promise(resolve=>setTimeout(resolve,500));await route.continue();
+    },{times:1});
     await task.click();
+    await page.getByLabel('Votre exercice',{exact:true}).waitFor({state:'visible'});
+    assert.equal(await page.getByLabel('Votre classe',{exact:true}).inputValue(),niveau);
     assert.equal(await page.getByLabel('Votre exercice',{exact:true}).inputValue(),'reflexion');
     await page.locator('[data-card]:visible [data-exercice]:visible').first().click();
     const hash=new URL(page.url()).hash;
