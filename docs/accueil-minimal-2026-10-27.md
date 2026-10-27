@@ -17,3 +17,7 @@ Le propriétaire a choisi **Du brevet au bac** comme nouveau titre du site. Il a
 > Préparez le brevet et le bac sur de vraies annales, avec une progression guidée jusqu’à la rédaction autonome. Des méthodes rigoureuses et des copies modèles courtes, expliquées phrase par phrase, vous donnent les moyens de viser l’excellence.
 
 Le nom est mis à jour dans les deux sources du menu, les métadonnées générées et les textes de consentement concernés. L'image d'aperçu utilisée lors du partage du lien est renouvelée sous une nouvelle adresse, avec les mêmes trois idées : vraies annales, progression guidée, excellence comme objectif. Aucun bloc visuel n'est ajouté à l'accueil.
+
+Le propriétaire demande ensuite de garder les mots entiers dans ce court paragraphe,
+notamment « guidée ». La césure automatique est désactivée pour ce seul texte,
+qui reste justifié. Le propriétaire accepte de conserver le pied de page actuel.
