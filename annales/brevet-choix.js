@@ -10,17 +10,17 @@
     ],
     q7b: [
       ['Suppression : « Un Lion et une Hyène du Jardin des Plantes réussirent à ouvrir la porte de leur cage, fermée avec négligence. » Déplacement : « Un Lion et une Hyène du Jardin des Plantes réussirent, un matin, à ouvrir la porte de leur cage, fermée avec négligence. »', 'ok', 'Les deux manipulations sont effectuées. La phrase reste grammaticale : le groupe est supprimable et déplaçable.'],
-      ['Suppression : « Un Lion et une Hyène du Jardin des Plantes réussirent à ouvrir la porte de leur cage, fermée avec négligence. » On pourrait aussi déplacer le groupe au sein de la phrase, mais sans le réécrire ici.', 'def', 'La suppression est effectuée, mais la deuxième manipulation est seulement annoncée : il faut écrire la phrase obtenue.'],
+      ['Suppression : « Un Lion et une Hyène du Jardin des Plantes réussirent à ouvrir la porte de leur cage, fermée avec négligence. » Déplacement : « Un matin, un Lion et une Hyène du Jardin des Plantes réussirent à ouvrir la porte de leur cage, fermée avec négligence. »', 'def', 'La suppression est juste, mais la deuxième phrase garde « Un matin » à sa place initiale : aucun déplacement n’y est effectué.'],
       ['Remplacement par « il » : « Il, un Lion et une Hyène du Jardin des Plantes réussirent à ouvrir la porte de leur cage, fermée avec négligence. » Cela prouve que « un matin » est le sujet du verbe « réussirent ».', 'no', 'Le remplacement ne donne pas une phrase grammaticale et ne prouve pas la fonction. Essayez de supprimer ou de déplacer « un matin ».'],
     ],
     q8a: [
       ['Le conditionnel présent.', 'ok', '« pourraient » associe le radical du futur « pourr- » et la terminaison « -aient » du conditionnel présent.'],
-      ['Le conditionnel, sans préciser le temps.', 'def', 'Vous reconnaissez la forme, mais le nom complet du temps est « conditionnel présent ».'],
+      ['Une forme du conditionnel.', 'def', 'Vous reconnaissez la forme, mais le nom complet du temps est « conditionnel présent ».'],
       ['L’imparfait de l’indicatif.', 'no', 'L’imparfait du verbe « pouvoir » serait « pouvaient ». Ici, le radical « pourr- » signale le conditionnel.'],
     ],
     q8b: [
       ['Un futur dans le passé : leur journée est encore à venir.', 'ok', 'Au moment où ils se posent la question : « À quels amusements pourrons-nous consacrer notre journée ? » Le récit au passé transforme ce futur en conditionnel.'],
-      ['Une possibilité : ils ne savent pas encore quoi faire.', 'def', 'Cette nuance peut se défendre. Pour préciser la valeur dans le récit, expliquez que l’action est à venir par rapport à « se demandèrent ».'],
+      ['Une possibilité : ils ne savent pas encore quoi faire.', 'ok', 'La possibilité ou l’éventualité est également admise dans le corrigé de cette annale. Elle peut se combiner avec le futur dans le passé : leur journée est encore à venir.'],
       ['Une formule de politesse pour demander une autorisation.', 'no', 'Ils ne demandent pas la permission à quelqu’un : ils s’interrogent sur leur journée à venir.'],
     ],
   };
@@ -46,7 +46,7 @@
       panel.className = 'brevet-choix';
       panel.hidden = true;
       const prompt = document.createElement('p');
-      prompt.textContent = 'Choisissez une réponse. Chaque proposition est expliquée ; vous pourrez ensuite rédiger avec vos mots.';
+      prompt.textContent = step.id === 'q8b' ? 'Choisissez une réponse. Deux lectures sont admises ici ; chaque proposition est expliquée.' : 'Choisissez une réponse. Chaque proposition est expliquée ; vous pourrez ensuite rédiger avec vos mots.';
       const opts = document.createElement('div');
       opts.className = 'chaine-opts';
       const feedback = document.createElement('div');

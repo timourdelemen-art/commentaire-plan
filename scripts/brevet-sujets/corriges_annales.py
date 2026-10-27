@@ -4,6 +4,8 @@ Le total de chaque question est celui du sujet officiel ; sa répartition est pr
 Ils remplacent, question par question, la correction du catalogue (annales/catalogue-annales.js).
 Lignes : celles du sujet officiel ; une fourchette (l. 8-9) quand la citation chevauche deux lignes ou que la ligne exacte n’a pu être vérifiée."""
 
+from reecritures import LIONS_HTML
+
 CORRIGES = {
  'brevet-2026-general-zola-cage-betes-feroces': {
   'q1': dict(
@@ -94,7 +96,7 @@ CORRIGES = {
    accepte='Toute observation précise de l’illustration, si elle est reliée à un vers.'),
   'q7b': dict(correction='Cherchez sur l’illustration l’élément qui annonce le danger final : la fable se termine par « L’embuscade d’une araignée » (v. 33). Dites où il se trouve sur l’image et pourquoi il prépare la fin.',
    bareme='1 point pour l’élément repéré, 1 point pour le lien avec la fin de la fable.'),
-  'q11': dict(correction='« <b>Les</b> malheureux <b>Lions</b> se <b>déchirent eux-mêmes</b>, / <b>Font</b> résonner <b>leur</b> queue à l’entour de <b>leurs</b> flancs, / <b>Battent</b> l’air […] ; et <b>leur</b> fureur extrême / <b>Les</b> fatigue, <b>les</b> abat »',
+  'q11': dict(correction=LIONS_HTML,
    bareme='1 point par forme modifiée ; -0,5 point par erreur de copie.',
    accepte='« leurs queues » (chaque lion a sa queue). « fatigue » et « abat » restent au singulier : leur sujet est « fureur ».'),
  },

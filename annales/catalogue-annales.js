@@ -3115,7 +3115,7 @@ window.ANNALES_CATALOGUE = {
         "points": 10,
         "consigne": "Réécrivez le passage en remplaçant « Le malheureux Lion » par « Les malheureux Lions ».",
         "aide": "Modifiez les pronoms, verbes, déterminants possessifs et accords.",
-        "correction": "« Les malheureux Lions se déchirent eux-mêmes, font résonner leur queue à l’entour de leurs flancs, battent l’air […] ; et leur fureur extrême les fatigue, les abat. »"
+        "correction": "« Les malheureux Lions se déchirent eux-mêmes, / Font résonner leur queue à l’entour de leurs flancs, / Battent l’air, qui n’en peut mais ; et leur fureur extrême / Les fatigue, les abat : les voilà sur les dents. »"
       }
     ],
     "texteDomainePublic": true

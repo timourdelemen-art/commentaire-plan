@@ -6,6 +6,7 @@ Usage : python3 -I scripts/brevet-sujets/gen_brevet_annales.py ."""
 import sys, os, re, json, html, subprocess, importlib.util
 R = sys.argv[1]
 HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, HERE)
 esc = lambda s: html.escape(str(s), quote=True)
 CAT = json.loads(subprocess.run(['node', '-e', "global.window={};require(process.argv[1]);process.stdout.write(JSON.stringify(window.ANNALES_CATALOGUE))",
                                  os.path.join(R, 'annales/catalogue-annales.js')], capture_output=True, text=True, check=True).stdout)

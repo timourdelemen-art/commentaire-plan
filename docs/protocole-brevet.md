@@ -95,6 +95,7 @@ Exemple de forme : « La narratrice est d’abord enthousiaste : elle s’écrie
 ## 8. Exercices progressifs (forme commune au site)
 
 1. **Au clic, sur ce sujet** : trois propositions de réponse (Solide, Défendable, À revoir), chacune expliquée. La proposition solide n’est pas la plus longue dans plus de la moitié des cas.
+   Les trois états ne constituent pas un quota d’une proposition de chaque type : si le corrigé admet deux lectures, deux propositions peuvent être solides. Un distracteur ne doit pas rendre fausse une réponse admise dans l’annale. Comparer les longueurs sans pénaliser les égalités.
 2. **À l’écrit, sur une autre question du même type** (autre annale) : l’élève rédige, puis compare avec le corrigé de cette question.
 3. **Le sujet entier**, puis le corrigé complet.
 
