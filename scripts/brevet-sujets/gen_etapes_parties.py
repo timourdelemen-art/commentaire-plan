@@ -21,7 +21,7 @@ def etape(n, total, d, kind, annale, passages):
           'Dites ce qui est réussi, puis le seul manque prioritaire (idée, citation avec sa ligne, explication ; ou test, nom exact, accord). N’écrivez pas la réponse à la place de l’élève. Vouvoyez-le.')
     ecrit = (f'<div class="etape-ecrit"><div class="etape-niveau">J’écris, sur une autre question</div><p>{esc(d["geste"])}</p>'
              f'<div class="exercise"><p class="quote">{esc(w["source"])} — {esc(w["question"])}</p>{extrait(passages[1], CAT)}<p class="instruction"><strong>Consigne :</strong> {esc(w["consigne"])}</p>'
-             f'<textarea class="exam-writing-area" rows="5" placeholder="Votre réponse…" data-feedback-kind="{kind}" data-feedback-instruction="{esc(ia)}"></textarea>'
+             f'<textarea class="exam-writing-area" rows="5" aria-label="{esc(w["consigne"])}" placeholder="Votre réponse…" data-feedback-kind="{kind}" data-feedback-instruction="{esc(ia)}"></textarea>'
              f'<details class="correction"><summary>Comparer avec le corrigé</summary><p>{esc(w["corrige"])}</p></details></div></div>')
     fin = (f'<div class="etape-fin"><button type="button" class="btn red small etape-suivante">Étape {n + 2} →</button></div>' if n + 1 < total else
            f'<div class="etape-fin"><a class="btn red small" href="{annale}#entrainement">Un sujet entier, question par question →</a> <a class="btn small" href="#annales">Les questions des annales →</a></div>')

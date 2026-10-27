@@ -75,7 +75,7 @@ function stepView(){
   const enonce = e.b==='oui'?typo(s.oui):e.b==='non'?typo(s.non):    `Le oui perd : <strong>${T(got[2]||'')}</strong><br>Le non perd : <strong>${T(got[5]||'')}</strong>`;
   let body;
   if(e.w){
-    body=`<label class="chaine-q" for="chaine-w">${T(e.q)}</label><textarea id="chaine-w" rows="3"></textarea>
+    body=`<label class="chaine-q" for="chaine-w">${T(e.q)}</label><textarea id="chaine-w" rows="3" data-feedback="off"></textarea>
     <p><button type="button" class="btn red small chaine-compare">Comparer avec une réponse possible</button></p><div class="chaine-fb" aria-live="polite"></div>`;
   } else {
     body=`<p class="chaine-q">${T(e.q)}</p><div class="chaine-opts">${shuffle(e.o.map((o,k)=>k)).map(k=>`<button type="button" class="chaine-opt" data-k="${k}">${T(e.o[k][0])}</button>`).join('')}</div><div class="chaine-fb" aria-live="polite"></div>`;
@@ -159,7 +159,7 @@ function bind(){
     const e=subj().etapes[step], ta=root.querySelector('#chaine-w'), v=ta.value.trim();
     if(v.length<5){ fb.className='chaine-fb show no'; fb.innerHTML='Écrivez d’abord votre phrase : on compare après.'; return; }
     fb.className='chaine-fb show def';
-    fb.innerHTML=`<strong>Une réponse possible :</strong> ${T(e.m)}<br><span class="micro">Votre phrase dit-elle la même chose, avec vos mots ?</span>
+    fb.innerHTML=`<strong>Une réponse possible :</strong> ${T(e.m)}<br><span class="micro">Votre phrase répond-elle à la question avec une raison précise ? D’autres réponses justifiées sont possibles.</span>
     <div class="chaine-nav"><button type="button" class="btn red small chaine-yes">Oui, je continue →</button><button type="button" class="home-text-link chaine-retry">Je reprends ma phrase</button></div>`;
     fb.querySelector('.chaine-yes').onclick=()=>{got[step]=v;step++;render();};
     fb.querySelector('.chaine-retry').onclick=()=>{fb.className='chaine-fb';fb.innerHTML='';ta.focus();};

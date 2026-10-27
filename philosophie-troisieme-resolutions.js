@@ -31,8 +31,8 @@ function feedback(){
  const d=cases[index],p=d.pistes[chosen],f=root.querySelector('#resolutions-retour');
  f.className='chaine-fb show def';
  f.innerHTML='<p><strong>Ce que cette piste sauve :</strong> '+esc(p.gain)+'</p><p><strong>Son coût :</strong> '+esc(p.cout)+'</p><p><strong>À discuter :</strong> '+esc(p.analyse)+'</p>'+
- '<p><strong>Exercice à clic : quel reste met vraiment cette solution à l’épreuve ?</strong> Choisissez une objection, puis comparez.</p>'+ '<div class="chaine-opts" role="group" aria-label="Choisir le reste propre à la résolution">'+d.pistes.map((q,k)=>'<button type="button" class="chaine-opt" data-reste="'+k+'" aria-pressed="false">'+esc(q.cout)+'</button>').join('')+'</div><p id="resolutions-reste-retour" aria-live="polite"></p>'+ '<p><strong>Votre tâche :</strong> expliquez pourquoi vous conserveriez cette piste ou lui préféreriez une autre, puis transformez son reste en question.</p>'+
- '<label for="resolutions-note"><strong>Votre justification et votre reste</strong></label><textarea id="resolutions-note" rows="4"></textarea>'+
+ '<p><strong>Exercice à clic : quel reste met vraiment cette solution à l’épreuve ?</strong> Choisissez une objection, puis comparez.</p>'+ '<div class="chaine-opts" role="group" aria-label="Choisir la difficulté propre à cette piste">'+d.pistes.map((q,k)=>'<button type="button" class="chaine-opt" data-reste="'+k+'" aria-pressed="false">'+esc(q.cout)+'</button>').join('')+'</div><p id="resolutions-reste-retour" aria-live="polite"></p>'+ '<p><strong>Votre tâche :</strong> justifiez votre préférence en deux phrases, puis formulez la difficulté restante en une question.</p>'+
+ '<label for="resolutions-note"><strong>Votre justification et votre reste</strong></label><textarea id="resolutions-note" rows="4" data-feedback="off"></textarea>'+
  '<p><button type="button" class="btn red small" id="resolutions-model">Comparer après mon essai</button></p><div id="resolutions-model-output" aria-live="polite"></div>';
  f.querySelectorAll('[data-reste]').forEach(b=>b.addEventListener('click',()=>{
   const k=Number(b.dataset.reste);

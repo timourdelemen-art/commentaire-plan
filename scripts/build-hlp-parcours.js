@@ -3,6 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 const data = require('./hlp-parcours-data.json');
+const repartir = require('./repartir-choix');
 const DOMAIN = 'https://commentaire-plan.com';
 const {TEXTES, texteHtml} = require('./hlp-texte-html.js');
 global.window = global.window || {};
@@ -79,8 +80,8 @@ ${area(`${id}-etape-${i}`, 'Votre réponse', 5)}<details><summary>Une aide</summ
 ${['Au clic','J’écris un peu','J’écris tout'].map((x,i) => `<button type="button" data-level="${i+1}" aria-pressed="${i===0}"><b>Niveau ${i+1}</b><span>${x}</span></button>`).join('')}</nav>
 <p class="ecrire-storage" data-save-status role="status">Vos brouillons restent dans ce navigateur si l’enregistrement est disponible.</p>
 <section data-panel="1"><h3>Choisissez une piste, puis justifiez-la.</h3><p>Quelle piste répond le plus précisément à la question ? Lisez d’abord le texte officiel.</p>
-<div class="ecrire-choices">${r.choices.map(([text,status,reason],i)=>`<button type="button" data-choice="${i}" data-outcome="${esc(status)}" data-reason="${esc(reason)}" aria-pressed="false">${esc(text)}</button>`).join('')}</div>
-<p data-choice-feedback role="status"></p>${area(`${id}-justification`, 'Justifiez votre choix en une ou deux phrases, avec un appui précis.', 3)}
+<div class="ecrire-choices">${repartir(r.choices,data.subjects.indexOf(s)*2+s.responses.indexOf(r)).map(({choice:[text,status,reason],index:i})=>`<button type="button" data-choice="${i}" data-outcome="${esc(status)}" data-reason="${esc(reason)}" aria-pressed="false">${esc(text)}</button>`).join('')}</div>
+<p data-choice-feedback role="status"></p>${area(`${id}-justification`, interp ? 'Justifiez votre choix en une ou deux phrases avec un passage précis du texte.' : 'Justifiez votre choix en une ou deux phrases avec une raison ou un exemple précis.', 3)}
 <p><button type="button" class="btn" data-goto-level="2">Écrire sans propositions →</button></p></section>
 <section data-panel="2" hidden><h3>Cinq gestes pour préparer votre réponse.</h3><nav class="ecrire-stages" aria-label="Étapes de rédaction">${r.stages.map((_,i)=>`<button type="button" data-goto-step="${i}" aria-pressed="${i===0}">${i+1}</button>`).join('')}</nav>${stages}
 <div class="ecrire-actions"><button type="button" data-previous-step>← Étape précédente</button><button type="button" data-next-step>Étape suivante →</button><button type="button" data-goto-level="3">Rédiger toute la réponse →</button></div></section>
@@ -91,7 +92,7 @@ ${area(`${id}-copie`, 'Votre réponse complète', 18, true)}<p><button type="but
 <p class="micro">Une réponse construite pour cet entraînement, rédigée par le site. Elle n’a pas été notée par un jury. ${words(r)} mots hors annotations : aucune longueur officielle n’est prescrite.</p>
 <p class="micro">Chaque annotation explique ce que la phrase apporte à cette réponse. Les fonctions et leur ordre dépendent du sujet ; elles ne sont pas un plan obligatoire.</p>
 <button type="button" data-annotations aria-pressed="true">Masquer les annotations</button><div class="ecrire-copy">${model(r)}</div>
-<h3>Relisez votre réponse avec trois critères.</h3><ul>${r.criteria.map(x=>`<li>${esc(x)}</li>`).join('')}</ul><p>Choisissez une phrase de votre réponse qui satisfait un critère. Dites en une phrase ce qu’elle apporte. Réécrivez ensuite un passage qui manque de précision. Aucune note n’est calculée automatiquement.</p>
+<h3>Relisez votre réponse avec trois critères.</h3><ul>${r.criteria.map(x=>`<li>${esc(x)}</li>`).join('')}</ul><p>Réécrivez un passage de votre réponse pour mieux satisfaire l’un de ces critères. Aucune note n’est calculée automatiquement.</p>
 ${area(`${id}-reprise`, 'Votre passage réécrit', 5)}<p class="micro">${interp?'Le modèle propose une lecture justifiée ; une autre lecture peut être excellente si elle répond à la question et respecte le texte.':'L’ordre des paragraphes appartient à cette réponse ; il ne constitue pas un plan à recopier sur tous les sujets.'}</p></details></section>`;
 }
 

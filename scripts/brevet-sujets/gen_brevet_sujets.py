@@ -75,8 +75,8 @@ def page(s, instr):
     qs = D.QI if imag else D.QR
     methode = ('brevet-imagination.html', 'Faites le contrat du sujet : qui parle, à qui, à quel temps ; ce que la consigne oblige à faire ; ce qui reste libre. Puis choisissez trois moments, le dernier préparé par les premiers.') if imag else \
               ('brevet-reflexion.html', 'Dites ce que demande la question, avec ses mots importants. Donnez une réponse nette, avec sa limite. Chaque paragraphe : un argument, un exemple précis, ce qu’il prouve.')
-    consigne_ecrit = ('Écrivez le contrat de ce sujet : qui parle, à qui, à quel temps ; ce que la consigne oblige à faire ; le déroulement en trois moments.' if imag else
-                      'Écrivez ce que demande la question, votre réponse en une phrase, puis un paragraphe : un argument, un exemple précis, ce qu’il prouve.')
+    consigne_ecrit = ('<ol class="consigne-simple"><li>Indiquez qui raconte, à qui et à quel temps. Une ligne.</li><li>Notez les contraintes à respecter. Une ligne.</li><li>Proposez trois étapes très brèves pour votre texte.</li></ol>' if imag else
+                      '<ol class="consigne-simple"><li>Reformulez la question en une phrase.</li><li>Donnez votre réponse en une phrase.</li><li>Développez un argument en trois à cinq phrases, avec un exemple expliqué.</li></ol>')
     ia_prep = (f'Brevet, préparation d’un {TYPE[o["type"]]} (DNB {oa}, {oc}) : {plain(o["consigne"])} '
                + ('L’élève écrit le contrat du sujet : qui parle, à qui, à quel temps ; ce que la consigne oblige à faire ; le déroulement en trois moments. Vérifiez que chaque point respecte la consigne. '
                   if o['type'] == 'imagination' else
@@ -91,7 +91,7 @@ def page(s, instr):
           f'<p>Refaites seul la même préparation sur un sujet que vous n’avez pas encore vu.</p>'
           f'<div class="etape-autre"><p><b>Un autre {TYPE[o["type"]]}</b> · brevet {oa}, {oc}</p><blockquote class="bsr-consigne">{o["consigne"]}</blockquote>'
           f'<p class="micro"><a href="{fichier(o)}">La page de ce sujet →</a></p></div>'
-          f'<div class="exercise"><p class="instruction"><strong>La préparation.</strong> {consigne_ecrit}</p>'
+          f'<div class="exercise"><div class="instruction"><strong>La préparation.</strong> {consigne_ecrit}</div>'
           f'<textarea rows="7" aria-label="La préparation" data-feedback-kind="brevet-redaction" data-feedback-instruction="{attr(ia_prep)}" placeholder="Écrivez ici."></textarea>'
           f'<details class="etape-comment"><summary>Comparer avec le corrigé, après votre essai</summary>{corrige(o)}</details></div></div>'
           '<div class="etape-fin"><button type="button" class="btn red small etape-suivante">Étape 2 · Rédiger →</button></div></section>')

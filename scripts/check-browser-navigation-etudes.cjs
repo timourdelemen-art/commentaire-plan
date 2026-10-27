@@ -52,7 +52,7 @@ const server=http.createServer((req,res)=>{
    await page.locator('[data-level="2"]').click();await page.locator('[data-step="0"] textarea').fill('Ma lecture personnelle du texte.');
 
    await page.goto(base+'philosophie-dissertation-parcours.html');
-   assert.deepEqual(await page.locator('main nav.annales-jump a').allTextContents(),['Apprendre pas à pas','Travailler une difficulté','Choisir un sujet corrigé']);
+   assert.deepEqual(await page.locator('main nav.annales-jump a').allTextContents(),['Commencer pas à pas','Choisir un sujet corrigé']);
    await page.getByRole('link',{name:'Choisir un sujet corrigé',exact:true}).click();
    assert.equal(await page.locator('[data-card]').count(),26);
    assert(!/Copies supplémentaires|Dissertation extraordinaire|· Notions/.test(await page.locator('main').innerText()));

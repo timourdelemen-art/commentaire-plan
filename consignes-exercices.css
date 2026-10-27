@@ -1,0 +1,14 @@
+/* Repères facultatifs des exercices : garder la tâche immédiatement visible. */
+.exercice-reperes { margin-block: .6rem; }
+.exercice-reperes > summary {
+  cursor: pointer;
+  min-height: 2.75rem;
+  padding: .6rem;
+  box-sizing: border-box;
+  font-weight: 600;
+}
+.exercice-reperes > summary:focus-visible {
+  outline: 3px solid var(--red, #9d2929);
+  outline-offset: 3px;
+}
+.exercice-reperes .boussole { margin-top: .4rem; }

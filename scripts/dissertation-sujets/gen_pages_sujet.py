@@ -50,18 +50,18 @@ WHY = {
 V = {'ok': 'ok', 'redit': 'no', 'theme': 'def', 'faux': 'no', 'reprise': 'def', 'partielle': 'def', 'resout': 'no',
      'dialectique': 'def', 'thematique': 'no', 'ordre': 'no', 'general': 'def', 'paraphrase': 'no', 'etiquette': 'no'}
 COMMENT = {
- 1: 'Lisez ce que le sujet affirme, et le petit mot qui l’oriente (« seulement », « ne… que », une citation). Cherchez dans l’œuvre ce qui résiste à cette lecture. Dites le problème en une seule question, qui garde les deux côtés.',
- 2: 'La première partie donne au sujet sa part de vérité. La deuxième part de ce que la première n’explique pas. La troisième répond à la question, souvent par la forme même de l’œuvre. Chaque transition est une question.',
+ 1: 'Précisez les mots du sujet. Examinez des passages qui éclairent la lecture proposée et ce qu’il faut y préciser. Votre question doit faire apparaître une difficulté littéraire réelle, sans opposition fabriquée.',
+ 2: 'Chaque partie apporte une réponse au problème. La suivante approfondit ce qui reste à expliquer. Deux ou trois parties peuvent convenir ; la copie proposée ici en développe trois. Analysez l’écriture dès qu’elle sert la démonstration.',
  3: 'Un passage précis ; ce que fait le texte, nommé simplement ; son effet ici ; puis ce que cela apporte à la partie. Une phrase d’analyse par preuve suffit.',
- 4: 'Une introduction ; trois parties de trois paragraphes ; deux transitions ; une conclusion. Brève et complète : chaque phrase a un rôle.',
+ 4: 'Le modèle développe une introduction, trois parties de trois paragraphes, deux transitions et une conclusion. Adaptez votre organisation au sujet : chaque partie doit faire avancer la réponse.',
 }
 IA = {
  'mots': 'Dissertation sur œuvre, bac de français. Évaluer si l’élève explique précisément le sens des mots du sujet cités dans la consigne et ce qu’ils supposent. Un seul conseil prioritaire, sans écrire à sa place. Vouvoyer.',
- 'pb': 'Dissertation sur œuvre, bac de français. Évaluer : ce que le sujet suggère, ce que l’œuvre montre aussi (avec un élément précis de l’œuvre), puis une seule question qui garde les deux côtés sans donner la réponse. Un seul manque prioritaire, sans écrire à la place de l’élève. Vouvoyer.',
- 'plan': 'Dissertation sur œuvre, bac de français. Évaluer un plan en trois réponses : I donne au sujet sa part de vérité, II naît de ce que I n’explique pas, III répond à la question sans couper la poire en deux. Refuser un plan thématique ou « oui / non / les deux ». Un seul conseil prioritaire. Vouvoyer.',
- 'trans': 'Dissertation sur œuvre, bac de français. Évaluer deux transitions : chacune est une question née de la limite de la partie précédente, à laquelle la partie suivante répond. Un seul conseil prioritaire. Vouvoyer.',
- 'ana': 'Dissertation sur œuvre, bac de français. Évaluer une phrase d’analyse : procédé nommé simplement, effet ici précis, portée pour le sujet. Ne pas exiger de terme technique. Un seul conseil prioritaire. Vouvoyer.',
- 'copie': 'Dissertation sur œuvre, bac de français. Évaluer la copie entière : problème, plan dynamique en trois parties, transitions-questions, preuves analysées, conclusion qui répond. Citer deux réussites et un seul manque prioritaire. Vouvoyer.',
+ 'pb': 'Dissertation sur œuvre, bac de français. Deux phrases expliquent la lecture proposée par le sujet et ce que des passages précis invitent à y préciser ; une question formule la difficulté littéraire. Ne pas exiger de pourtant, de contre-exemple ou de formule fixe. Un seul manque prioritaire, sans écrire à la place de l’élève. Vouvoyer.',
+ 'plan': 'Dissertation sur œuvre, bac de français. Évaluer deux ou trois réponses qui font progresser la démonstration selon le sujet. Chaque partie répond au problème et prépare la suivante. Aucun rôle fixe ni connecteur imposé ; distinguer un raisonnement d’une liste de thèmes. Un seul conseil prioritaire. Vouvoyer.',
+ 'trans': 'Dissertation sur œuvre, bac de français. Évaluer une transition entre deux parties, ou deux entre trois parties : chacune est une question née de ce que la partie précédente laisse à expliquer, à laquelle la suivante répond. Un seul conseil prioritaire. Vouvoyer.',
+ 'ana': 'Dissertation sur œuvre, bac de français. Évaluer une ou deux phrases d’analyse : choix d’écriture nommé simplement, effet précis et portée pour le sujet. Ne pas exiger de terme technique. Un seul conseil prioritaire. Vouvoyer.',
+ 'copie': 'Dissertation sur œuvre, bac de français. Évaluer la copie entière : problème littéraire, plan progressif adapté au sujet, transitions, preuves analysées, conclusion qui répond. Citer deux réussites et un seul manque prioritaire. Vouvoyer.',
 }
 def plain(s): return re.sub(r'<[^>]+>', '', s)
 def esc(s): return html.escape(plain(s), quote=True)
@@ -113,22 +113,22 @@ def page(k, I, O, other, Ib):
     e1 = (f'<section class="etape" id="etape-probleme"><h3>Étape 1 · Le problème</h3>{comment(1)}<div class="etape-niveau">Je choisis, sur ce sujet</div>{direct}'
           + q(1, 2, 'ce que l’œuvre montre aussi', f'Le sujet suggère ceci : « {plain(X).replace("On pourrait penser ", "on pourrait penser ")} » Quelle remarque sur l’œuvre fait apparaître la difficulté ?', p1, 'p1')
           + q(2, 2, 'une seule question', 'Quelle question garde tout le problème, sans donner la réponse ?', p2, 'p2')
-          + ecrit(zone(1, 'Les mots du sujet', f'Que veut dire précisément {cb["mot"][0]} ?', cb['sujet'], 'mots', f'<p>{cb["mot"][1]}</p>')
-                  + zone(2, 'Le problème', 'Écrivez « On pourrait penser que… », puis « Pourtant, l’œuvre montre… », puis une seule question.', cb['sujet'], 'pb',
+          + ecrit(zone(1, 'Les mots du sujet', f'Expliquez en une ou deux phrases le sens de {cb["mot"][0]} dans ce sujet.', cb['sujet'], 'mots', f'<p>{cb["mot"][1]}</p>')
+                  + zone(2, 'Le problème', 'En deux phrases, expliquez la lecture proposée et ce que l’œuvre invite à préciser. Formulez ensuite votre question.', cb['sujet'], 'pb',
                          f'<p>{Ib["intro"][2][0]} {Ib["intro"][3][0]}</p><p><strong>{Ib["intro"][4][0]}</strong></p>',
-                         'On pourrait penser que… Pourtant, l’œuvre montre… Question : …'))
+                         'Le sujet propose… Un passage de l’œuvre permet de préciser… Ma question : …'))
           + suiv('Étape 2 · Le plan →') + '</section>')
     e2 = (f'<section class="etape" id="etape-plan"><h3>Étape 2 · Le plan</h3>{comment(2)}<div class="etape-niveau">Je choisis, sur ce sujet</div>{direct}'
           + q(1, 1, 'le plan', f'La question est : « {plain(P)} » Quel plan y répond ?', pl, 'plan')
-          + ecrit(zone(3, 'Le plan', 'Donnez la réponse de chaque partie en une phrase.', cb['sujet'], 'plan',
+          + ecrit(zone(3, 'Le plan', 'Proposez deux ou trois parties, une phrase par réponse.', cb['sujet'], 'plan',
                        '<p>' + '<br>'.join(f'<strong>{n}.</strong> {r}' for n, r in zip(['I', 'II', 'III'], Ib['reps'])) + '</p>',
-                       'I. D’abord, … (ce que le sujet a de vrai)\nII. Mais … (ce que I n’explique pas)\nIII. Alors … (la réponse à la question)')
-                  + zone(4, 'Les transitions', 'Écrivez les deux transitions, chacune en une question.', cb['sujet'], 'trans',
+                       'I. …\nII. …\nIII. … (si nécessaire)')
+                  + zone(4, 'Les transitions', 'Entre vos parties, écrivez une question qui prépare la réponse suivante.', cb['sujet'], 'trans',
                          f'<p><strong>I → II.</strong> {Ib["trans"][0]}<br><strong>II → III.</strong> {Ib["trans"][1]}</p>'))
           + suiv('Étape 3 · La preuve →') + '</section>')
     e3 = (f'<section class="etape" id="etape-preuve"><h3>Étape 3 · La preuve</h3>{comment(3)}<div class="etape-niveau">Je choisis, sur ce sujet</div>{direct}'
           + q(1, 1, 'l’analyse', 'Quelle phrase analyse le mieux ce passage, pour la dissertation ?', an, 'ana', f'<p class="etape-passage">{I["passage"]}</p>')
-          + ecrit(zone(5, 'Une preuve analysée', f'Analysez en une phrase ce passage : <span class="etape-passage" style="display:block">{Ib["passage"]}</span>', cb['sujet'], 'ana', f'<p>{Ib["an"]}</p>'))
+          + ecrit(zone(5, 'Une preuve analysée', f'En une ou deux phrases, expliquez comment l’écriture de ce passage éclaire le sujet. <span class="etape-passage" style="display:block">{Ib["passage"]}</span>', cb['sujet'], 'ana', f'<p>{Ib["an"]}</p>'))
           + suiv('Étape 4 · La copie entière →') + '</section>')
     e4 = (f'<section class="etape" id="etape-copie"><h3>Étape 4 · La copie entière</h3>{comment(4)}'
           f'<p>Rédigez maintenant la dissertation entière sur le sujet de cette page. Vous pourrez ensuite la comparer à la copie à 20.</p>'
