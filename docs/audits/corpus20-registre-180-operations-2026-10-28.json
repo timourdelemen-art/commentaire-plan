@@ -1,0 +1,2732 @@
+{
+  "meta": {
+    "date": "2026-10-28",
+    "corpus": 20,
+    "sous_parties": 180,
+    "emplacements_avec_philosophe_nomme": 54,
+    "emplacements_avec_guillemets": 21,
+    "notice": "Un guillemet peut marquer un titre, une expression ou une citation littéraire : ce compte n'est pas celui de citations philosophiques authentiques. Une mention d'auteur n'est pas une preuve. Les seuls passages notés « source documentée » se trouvent dans le dossier particulier sur la science et requièrent encore l'audit indépendant. Les données source_text_current sont les textes rédigés du dépôt, pas des propositions de correction.",
+    "ordre": "Sujet exact -> test du gant -> deux apories -> fondation des six étapes I/II -> matrice choisie/comparée -> trois opérations déduites III -> citations authentifiées avec inférence de l'élève."
+  },
+  "sujets": {
+    "2026-ag-etat-injustice": {
+      "parties": {
+        "I.1": {
+          "source_text_current": "Une injustice n’est vaincue que si la même loi s’impose à tous, et seul l’État dispose d’une force capable de l’imposer. Il punit les crimes, protège les plus faibles, corrige les inégalités par l’impôt et les aides : aucun particulier ne le peut pour tous.",
+          "labels_current": [
+            "I.1 Installer : la raison",
+            "I.1 Installer : l’exemple, analysé"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.2": {
+          "source_text_current": "Hobbes, dans le Léviathan (chap. XIII), va plus loin : sans un pouvoir commun, il n’y a ni loi ni justice, seulement la guerre de chacun contre chacun. L’État n’est donc pas un acteur parmi d’autres : il est ce qui rend la justice possible.",
+          "labels_current": [
+            "I.2 Renforcer : la référence qui pousse l’idée",
+            "I.2 Renforcer : ce que la référence établit"
+          ],
+          "philosophes_mentions": [
+            "Hobbes"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.3": {
+          "source_text_current": "Mais si l’État rend seul la justice possible, il en devient aussi le principal juge, et personne ne peut plus le juger quand ses propres lois sont injustes. Une force qui a le dernier mot sur le juste peut faire de l’injustice une loi, comme l’ont fait les lois de ségrégation de l’Alabama.",
+          "labels_current": [
+            "I.3 La limite : l’idée poussée jusqu’au bout",
+            "I.3 La limite, formulée"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.1": {
+          "source_text_current": "La justice ne se réduit pas à la loi : on peut dire qu’une loi est injuste, et c’est même ainsi que les lois progressent.",
+          "labels_current": [
+            "II.1 La nouvelle exigence, née de la limite de I"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.2": {
+          "source_text_current": "Antigone enterre son frère malgré l’interdit de Créon ; Thoreau, dans La Désobéissance civile (1849), refuse de payer l’impôt à un gouvernement qui soutient l’esclavage : tous deux opposent à la loi un jugement sur la loi. Aujourd’hui, l’opinion, la presse, les associations dénoncent les injustices que l’État commet ou laisse faire, et le contraignent parfois à changer ses lois.",
+          "labels_current": [
+            "II.2 La nouvelle réponse, avec la référence qui la porte",
+            "II.2 L’exemple, analysé"
+          ],
+          "philosophes_mentions": [
+            "Thoreau"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.3": {
+          "source_text_current": "Mais, même sincères, des consciences opposées revendiquent des droits incompatibles : si leur jugement l’emporte sur la loi, celle-ci n’oblige plus que ceux qui l’approuvent. Une justice sans force commune cesse d’être la même pour tous, et dégénère parfois en vengeance.",
+          "labels_current": [
+            "II.3 La nouvelle limite : l’idée poussée jusqu’au bout",
+            "II.3 La limite, formulée"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.1": {
+          "source_text_current": "La force et le jugement ne se disputent la même tâche que si l’on confond garantir les droits et décider seul du juste : l’État garantit, le jugement des citoyens ne s’impose pas à sa place, il l’oblige à se réexaminer.",
+          "labels_current": [
+            "III.1 Revenir au problème : ce que les deux réponses supposaient, transformé"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.2": {
+          "source_text_current": "La contestation juste se reconnaît donc à sa forme : publique, elle en appelle à la règle commune devant tous et demande une révision, non une exception pour soi. On objectera qu’elle reste un jugement privé ; mais Rawls, dans Théorie de la justice (§ 55), définit la désobéissance civile comme un acte public et non violent qui en appelle au sens de la justice de la majorité : Rosa Parks ne demandait aucun privilège, seulement une loi égale pour tous.",
+          "labels_current": [
+            "III.2 L’opération : ce qui s’ensuit : la forme d’une contestation juste",
+            "III.2 L’objection la plus forte, et sa réponse"
+          ],
+          "philosophes_mentions": [
+            "Rawls"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.3": {
+          "source_text_current": "La force publique tient donc sa justice de ce qu’elle reste exposée à la contestation : l’État qui la reçoit se corrige sans cesser de garantir. Reste le cas où le pouvoir ferme les voies de contestation : les garanties dont dépend cette répartition des rôles ne peuvent plus être présupposées.",
+          "labels_current": [
+            "III.3 Stabiliser la réponse",
+            "III.3 Le reste : ce que cette réponse ne règle pas"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        }
+      }
+    },
+    "2026-ag-humanite-religion": {
+      "parties": {
+        "I.1": {
+          "source_text_current": "Le savoir sur le monde ne doit rien à la religion : il repose sur des preuves que chacun peut vérifier ; la morale elle-même peut se fonder sur des raisons que chacun peut examiner. Bayle, dans les Pensées diverses sur la comète (1682), soutenait déjà qu’une société d’athées pourrait vivre sous des lois et des mœurs honnêtes : l’idée n’a rien de contradictoire.",
+          "labels_current": [
+            "I.1 Installer : la raison",
+            "I.1 Installer : l’exemple, analysé"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.2": {
+          "source_text_current": "Freud, dans L’Avenir d’une illusion, explique les idées religieuses par la détresse de l’enfance et le besoin d’un père protecteur : ce sont des illusions, nées du désir. Une humanité devenue adulte pourrait donc s’en passer.",
+          "labels_current": [
+            "I.2 Renforcer : la référence qui pousse l’idée",
+            "I.2 Renforcer : ce que la référence établit"
+          ],
+          "philosophes_mentions": [
+            "Freud"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.3": {
+          "source_text_current": "Mais si la religion répond à une détresse qui dure toute la vie, s’en passer suppose de trouver ailleurs ce qu’elle donnait. Or la raison, qui explique la croyance, ne la remplace pas : une humanité qui ne croit que ce qu’elle prouve perd ce qui reliait les hommes.",
+          "labels_current": [
+            "I.3 La limite : l’idée poussée jusqu’au bout",
+            "I.3 La limite, formulée"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.1": {
+          "source_text_current": "Une humanité n’est pas seulement une somme d’individus raisonnables : il lui faut ce qui les relie et leur donne des fins communes.",
+          "labels_current": [
+            "II.1 La nouvelle exigence, née de la limite de I"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.2": {
+          "source_text_current": "Durkheim, dans Les Formes élémentaires de la vie religieuse, montre que la religion est, en son fond, une affaire sociale : en célébrant le sacré, une communauté se célèbre et se resserre elle-même. Les révolutionnaires de 1794 le sentaient : en instituant le culte de l’Être suprême, ils cherchaient moins un dieu qu’un lien pour le peuple.",
+          "labels_current": [
+            "II.2 La nouvelle réponse, avec la référence qui la porte",
+            "II.2 L’exemple, analysé"
+          ],
+          "philosophes_mentions": [
+            "Durkheim"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.3": {
+          "source_text_current": "Mais un lien qui tient à une croyance commune exige qu’on ne la mette pas en doute : l’unité se paie du jugement personnel. Une humanité unie par la foi cesse d’être faite d’hommes qui jugent par eux-mêmes, et n’unit d’ailleurs que ceux qui croient.",
+          "labels_current": [
+            "II.3 La nouvelle limite : l’idée poussée jusqu’au bout",
+            "II.3 La limite, formulée"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.1": {
+          "source_text_current": "Un lien n’a besoin d’être soustrait à l’examen que s’il repose sur une croyance ; des hommes peuvent aussi se relier par ce qu’ils examinent ensemble.",
+          "labels_current": [
+            "III.1 Revenir au problème : ce que les deux réponses supposaient, transformé"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.2": {
+          "source_text_current": "Le fait que la religion ait assuré ces fonctions ne prouve pas qu’elle seule puisse les assurer. Une communauté peut reconnaître des droits et organiser une solidarité sans partager une révélation, un culte ou une autorité sacrée. On objectera, avec Durkheim, que tout lien vécu en commun devient sacré ; mais Durkheim explique la dimension collective de la religion, il ne démontre pas que toute vie collective soit religieuse. La dignité de la personne, que Kant rapporte à son autonomie (Fondements de la métaphysique des mœurs, II), relie les hommes par une raison que chacun peut examiner.",
+          "labels_current": [
+            "III.2 L’opération : changer de niveau : distinguer une fonction de sa réalisation religieuse",
+            "III.2 L’objection la plus forte, et sa réponse"
+          ],
+          "philosophes_mentions": [
+            "Kant",
+            "Durkheim"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.3": {
+          "source_text_current": "Une humanité sans religion est donc concevable, pourvu que ses institutions communes restent examinables. Reste que des principes discutables peuvent être sacralisés : un lien initialement ouvert à la critique peut devenir un dogme qui interdit de le contester.",
+          "labels_current": [
+            "III.3 Stabiliser la réponse",
+            "III.3 Le reste : ce que cette réponse ne règle pas"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        }
+      }
+    },
+    "2026-an-artiste-sait": {
+      "parties": {
+        "I.1": {
+          "source_text_current": "Tout art suppose un savoir appris : le peintre connaît ses couleurs, le musicien l’harmonie, l’écrivain sa langue. Les esquisses, les brouillons, les reprises montrent un travail réfléchi, qui sait ce qu’il cherche et corrige ce qu’il juge manqué.",
+          "labels_current": [
+            "I.1 Installer : la raison",
+            "I.1 Installer : l’exemple, analysé"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.2": {
+          "source_text_current": "Le latin ars, d’où vient notre mot « art », traduisait la technè grecque : un savoir-faire qui connaît ses règles et sait ce qu’il produit. Être l’auteur d’une œuvre, c’est pouvoir répondre de ce qu’elle est : sans un savoir qui précède le geste, il n’y a que des essais.",
+          "labels_current": [
+            "I.2 Renforcer : la référence qui pousse l’idée",
+            "I.2 Renforcer : ce qui fonde la réponse"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [
+            " art "
+          ],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.3": {
+          "source_text_current": "Mais si tout était su d’avance, l’œuvre serait une fabrication, comme un objet produit selon un plan. Or ce qui fait une œuvre, c’est justement qu’elle ne se réduit à aucune règle connue.",
+          "labels_current": [
+            "I.3 La limite : l’idée poussée jusqu’au bout",
+            "I.3 La limite, formulée · le lien : « or » fait basculer"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.1": {
+          "source_text_current": "Une œuvre doit être nouvelle : on ne peut pas en donner la recette, sinon n’importe qui la referait.",
+          "labels_current": [
+            "II.1 La nouvelle exigence, née de la limite de I"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.2": {
+          "source_text_current": "Kant, dans la Critique de la faculté de juger (§ 46), définit le génie comme le talent qui donne à l’art sa règle sans pouvoir l’expliquer : l’artiste ne sait pas dire comment il a produit son œuvre. Une fois achevée, l’œuvre voit son sens s’enrichir de lectures que l’artiste n’a pas prévues.",
+          "labels_current": [
+            "II.2 La nouvelle réponse, avec la référence qui la porte",
+            "II.2 Ce que la réponse étend : le sens de l’œuvre"
+          ],
+          "philosophes_mentions": [
+            "Kant"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.3": {
+          "source_text_current": "Mais si le génie ne sait pas comment il produit, il ne choisit plus : l’œuvre passe par lui sans venir de lui. Un artiste qui ignore ce qu’il fait cesse d’être l’auteur de son œuvre : on ne comprend plus les corrections par lesquelles il la reprend.",
+          "labels_current": [
+            "II.3 La nouvelle limite : l’idée poussée jusqu’au bout",
+            "II.3 La limite, formulée"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.1": {
+          "source_text_current": "Savoir ce qu’on fait peut aussi vouloir dire le reconnaître pendant qu’on le fait.",
+          "labels_current": [
+            "III.1 Revenir au problème : ce que les deux réponses supposaient, transformé"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.2": {
+          "source_text_current": "Une possibilité imprévue n’est pas un hasard subi si l’artiste la reconnaît, la juge et la retravaille. Alain l’observe chez le peintre : « l’idée lui vient à mesure qu’il fait », et il est « spectateur aussi de son œuvre en train de naître » (Système des beaux-arts, I, 7). On objectera qu’un savoir venu après le geste n’est qu’un constat ; mais ce spectateur est aussi celui qui reprend le pinceau.",
+          "labels_current": [
+            "III.2 L’opération : réunir ce qu’on avait séparé : suivre un processus de création",
+            "III.2 L’objection la plus forte, et sa réponse"
+          ],
+          "philosophes_mentions": [
+            "Alain"
+          ],
+          "segments_entre_guillemets": [
+            " l’idée lui vient à mesure qu’il fait ",
+            " spectateur aussi de son œuvre en train de naître "
+          ],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.3": {
+          "source_text_current": "L’artiste est ainsi l’auteur de l’œuvre par les choix qu’il assume dans cette découverte, sans en posséder tout le sens. Reste que l’œuvre peut recevoir des significations que même ce jugement exercé pendant la création n’avait pas envisagées.",
+          "labels_current": [
+            "III.3 Stabiliser la réponse",
+            "III.3 Le reste : ce que cette réponse ne règle pas"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        }
+      }
+    },
+    "2026-an-science-utile": {
+      "parties": {
+        "I.1": {
+          "source_text_current": "La science doit-elle se rendre utile ? Une première réponse consiste à reconnaître que les savoirs augmentent la puissance des hommes et peuvent, à ce titre, répondre à leurs besoins. Bacon assigne aux sciences une fin : « La fin véritable et légitime des sciences consiste uniquement à doter la vie humaine de nouvelles inventions et de nouvelles richesses » (Novum Organum, I, § 81). Le passage du fait à la fin est décisif : ce n’est pas parce que la science a parfois des applications qu’elle doit servir, mais parce qu’on peut lui assigner le progrès de la vie humaine comme raison de la poursuivre.",
+          "labels_current": [
+            "I.1 Établir : poser la destination humaine de la recherche",
+            "I.1 Établir : Bacon transforme les applications en fin légitime du savoir",
+            "I.1 Établir : tirer la conséquence de la finalité baconienne, sans lui prêter une obligation de rendement immédiat"
+          ],
+          "philosophes_mentions": [
+            "Bacon"
+          ],
+          "segments_entre_guillemets": [
+            " La fin véritable et légitime des sciences consiste uniquement à doter la vie humaine de nouvelles inventions et de nouvelles richesses "
+          ],
+          "statut_verification_citations": "source_documentee_dans_audit_particulier_validation_independante_requise",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.2": {
+          "source_text_current": "Une fin souhaitable n’est pourtant pas encore un devoir. Descartes, dans la sixième partie du Discours de la méthode, invoque « la loi qui nous oblige à procurer autant qu’il est en nous le bien général de tous les hommes ». Il estime dès lors ne pas pouvoir garder ses découvertes pour lui : partager un savoir capable d’aider les hommes n’est plus une préférence personnelle, mais l’accomplissement d’une obligation envers eux. Cependant, procurer le bien commun autant qu’il est en nous n’est pas promettre que chaque découverte aura un usage déterminé. La prémisse morale oblige à chercher utilement pour les hommes ; elle ne rend pas l’avenir prévisible.",
+          "labels_current": [
+            "I.2 Fonder : Descartes fournit la prémisse morale qui manquait à Bacon",
+            "I.2 Fonder : déduire le devoir de communiquer et de développer les connaissances",
+            "I.2 Fonder : mesurer exactement la portée de la déduction"
+          ],
+          "philosophes_mentions": [
+            "Descartes"
+          ],
+          "segments_entre_guillemets": [
+            " la loi qui nous oblige à procurer autant qu’il est en nous le bien général de tous les hommes "
+          ],
+          "statut_verification_citations": "source_documentee_dans_audit_particulier_validation_independante_requise",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.3": {
+          "source_text_current": "La difficulté apparaît lorsqu’on fait de l’usage attendu la condition de toute recherche : ce qui n’a pas d’application connue ne mérite alors pas d’être entrepris. Bachelard écrit de l’opinion : « En désignant les objets par leur utilité, elle s’interdit de les connaître » (La Formation de l’esprit scientifique, chap. I). En décidant d’avance qu’un objet n’intéresse que par son usage, on cesse de demander ce qu’il est. Si le besoin devient le juge de toute recherche, les vérités sans usage prévisible sont écartées avant même d’être cherchées.",
+          "labels_current": [
+            "I.3 Éprouver : isoler le présupposé fort, non l’attribuer à tout défenseur du oui",
+            "I.3 Éprouver : Bachelard opère le renversement du besoin en obstacle à la connaissance",
+            "I.3 Éprouver : déduire une perte interne et en circonscrire la nécessité"
+          ],
+          "philosophes_mentions": [
+            "Bachelard"
+          ],
+          "segments_entre_guillemets": [
+            " En désignant les objets par leur utilité, elle s’interdit de les connaître "
+          ],
+          "statut_verification_citations": "source_documentee_dans_audit_particulier_validation_independante_requise",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.1": {
+          "source_text_current": "Une connaissance peut valoir sans servir immédiatement : la raison d’en établir la vérité ne se confond pas avec l’avantage qu’on en tirera. Aristote accorde un rang particulier à « la science qu’on étudie pour elle-même et dans le seul but de savoir » (Métaphysique, I, 2, traduction de Victor Cousin). Chercher à comprendre les causes n’est plus fabriquer un moyen : la connaissance porte en elle-même une fin que l’absence d’application ne saurait annuler.",
+          "labels_current": [
+            "II.1 Établir : distinguer la valeur de connaître de l’avantage de posséder le résultat",
+            "II.1 Établir : Aristote rend pensable une fin intérieure au savoir",
+            "II.1 Établir : tirer l’argument sans confondre deux conceptions historiques de la science"
+          ],
+          "philosophes_mentions": [
+            "Aristote"
+          ],
+          "segments_entre_guillemets": [
+            " la science qu’on étudie pour elle-même et dans le seul but de savoir "
+          ],
+          "statut_verification_citations": "source_documentee_dans_audit_particulier_validation_independante_requise",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.2": {
+          "source_text_current": "Mais que signifie réellement chercher le vrai pour lui-même ? Il faut examiner non le prestige des découvertes, mais ce par quoi on peut les tenir pour établies. Nietzsche soutient que « les méthodes scientifiques sont une conquête de la recherche pour le moins aussi considérable que n’importe quel autre résultat » (Humain, trop humain, § 635). On peut utiliser un résultat sans savoir l’éprouver ; la discipline de preuve, au contraire, permet de rectifier nos croyances. Voilà pourquoi une découverte ne devient ni vraie parce qu’elle sert, ni fausse parce qu’elle ne sert encore à rien.",
+          "labels_current": [
+            "II.2 Fonder : passer de la fin du savoir à son exigence de méthode",
+            "II.2 Fonder : Nietzsche distingue le résultat de la méthode qui le rend contrôlable",
+            "II.2 Fonder : établir l’autonomie de la norme épistémique"
+          ],
+          "philosophes_mentions": [
+            "Nietzsche"
+          ],
+          "segments_entre_guillemets": [
+            " les méthodes scientifiques sont une conquête de la recherche pour le moins aussi considérable que n’importe quel autre résultat "
+          ],
+          "statut_verification_citations": "source_documentee_dans_audit_particulier_validation_independante_requise",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.3": {
+          "source_text_current": "L’exactitude de la méthode ne tranche toutefois pas la légitimité des actes qu’elle exige : on peut obtenir un résultat vrai en exposant autrui à un dommage injustifiable. L’impératif de Kant exige de considérer l’humanité « toujours en même temps comme une fin, et jamais simplement comme un moyen » (Fondements de la métaphysique des mœurs, II). Une expérience peut confirmer une hypothèse tout en traitant une personne comme un simple instrument. Elle serait alors scientifiquement probante sans être moralement admissible : une preuve ne justifie pas tous les moyens de l’obtenir.",
+          "labels_current": [
+            "II.3 Éprouver : montrer une insuffisance propre à la justification par la vérité",
+            "II.3 Éprouver : faire intervenir la norme morale irréductible au succès de l’expérience",
+            "II.3 Éprouver : déduire précisément la limite morale de la suffisance du vrai"
+          ],
+          "philosophes_mentions": [
+            "Kant"
+          ],
+          "segments_entre_guillemets": [
+            " toujours en même temps comme une fin, et jamais simplement comme un moyen "
+          ],
+          "statut_verification_citations": "source_documentee_dans_audit_particulier_validation_independante_requise",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.1": {
+          "source_text_current": "Opposer la recherche de vérités sans usage prévisible à une science qui agit pour les hommes suppose que connaître et agir soient deux activités simplement successives. C’est pourtant faux, au moins dans les sciences expérimentales. Bachelard observe que « les instruments ne sont que des théories matérialisées » (Le Nouvel Esprit scientifique, Introduction). Une théorie guide la fabrication d’un dispositif, et le dispositif rend observable ce qu’on ne percevrait pas sans lui. Ainsi, l’action technique n’est pas seulement l’application ultérieure d’une découverte : elle peut être une condition de son établissement. Il devient donc insuffisant de ne juger la science qu’à ses résultats, utiles ou vrais.",
+          "labels_current": [
+            "III.1 Déplacer le présupposé : contester la séparation entre connaître et intervenir",
+            "III.1 Opération de Bachelard : établir que les instruments incarnent des choix théoriques",
+            "III.1 Preuve : la connaissance expérimentale implique déjà des actions à évaluer"
+          ],
+          "philosophes_mentions": [
+            "Bachelard"
+          ],
+          "segments_entre_guillemets": [
+            " les instruments ne sont que des théories matérialisées "
+          ],
+          "statut_verification_citations": "source_documentee_dans_audit_particulier_validation_independante_requise",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.2": {
+          "source_text_current": "Puisque chercher peut déjà consister à intervenir, la question de ce que la science doit aux hommes se pose dès les moyens qu’elle emploie, et non seulement lorsque ses résultats trouvent un usage. Claude Bernard fixe à l’expérimentation sur l’homme une limite indépendante de son intérêt scientifique : « celles qui ne peuvent que nuire sont défendues » (Introduction à l’étude de la médecine expérimentale, II, chap. II). Une expérience pourrait accroître le savoir et promettre un bien à beaucoup sans être, pour autant, permise à l’égard de celui qui en subirait le dommage. Le bénéfice espéré ne légitime pas n’importe quel moyen : l’exigence envers les hommes porte donc sur la manière même de chercher. En 1974, les inquiétudes liées à certaines expériences sur l’ADN recombinant conduisent ainsi des chercheurs à recommander un moratoire ; à Asilomar, en 1975, ils discutent des précautions permettant d’en poursuivre une partie. On peut exiger une justification des pratiques avant de connaître l’utilité de toutes leurs découvertes.",
+          "labels_current": [
+            "III.2 Déduire le lieu de l'obligation à partir de III.1",
+            "III.2 Opération de Bernard : soumettre une action savante à un principe moral non réductible au succès",
+            "III.2 Preuve : le devoir moral contrôle les moyens sans prédéterminer la vérité",
+            "III.2 Cas probant : évaluer des pratiques sous l'incertitude des résultats"
+          ],
+          "philosophes_mentions": [
+            "Claude Bernard"
+          ],
+          "segments_entre_guillemets": [
+            " celles qui ne peuvent que nuire sont défendues "
+          ],
+          "statut_verification_citations": "source_documentee_dans_audit_particulier_validation_independante_requise",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.3": {
+          "source_text_current": "Cependant, une pratique techniquement maîtrisée et jugée acceptable par ses seuls auteurs n’est pas encore une pratique dont les effets ont été jugés du point de vue de ceux qu’ils concernent. Le passage du laboratoire au monde commun demande une nouvelle opération. Dewey écrit : « The man who wears the shoe knows best that it pinches and where it pinches » (The Public and Its Problems, chap. VI). Celui qui porte la chaussure éprouve où elle blesse ; le spécialiste sait mieux comment la modifier. De même, le chercheur peut expliquer comment un dispositif fonctionne et quels risques il connaît ; ceux qui en subissent les effets doivent pouvoir dire quelles atteintes importent, quels bénéfices sont recherchés et quels choix sont acceptables. Il faut articuler ces deux savoirs, non substituer l’opinion à la démonstration ni l’expertise au jugement public. La science a donc une obligation d’utilité à l’échelle de son activité humaine et collective : rendre ses pratiques et les usages qu’elle rend possibles discutables et justifiables au regard du bien commun. Elle n’a pas, pour cela, à garantir l’application de chaque vérité avant de la découvrir. Reste à établir quelles institutions permettent réellement ce jugement lorsque la compétence technique est inégalement partagée et les conséquences incertaines.",
+          "labels_current": [
+            "III.3 Nécessité : établir pourquoi la responsabilité des savants ne suffit pas à décider pour tous",
+            "III.3 Opération de Dewey : distinguer expérience des conséquences et compétence technique",
+            "III.3 Démonstration : articuler expertise scientifique et jugement des personnes concernées",
+            "III.3 Nouvel acquis : définir le devoir d'utilité comme responsabilité collective, sans rendement obligatoire de chaque résultat",
+            "III.3 Le reste : conditions institutionnelles effectives"
+          ],
+          "philosophes_mentions": [
+            "Dewey"
+          ],
+          "segments_entre_guillemets": [
+            " The man who wears the shoe knows best that it pinches and where it pinches "
+          ],
+          "statut_verification_citations": "source_documentee_dans_audit_particulier_validation_independante_requise",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        }
+      }
+    },
+    "2026-asie-inconscient-bonheur": {
+      "parties": {
+        "I.1": {
+          "source_text_current": "Savoir la maladie, la mort, l’injustice, c’est s’exposer à l’inquiétude ; ne pas les savoir, c’est en être épargné. Les enfants semblent heureux précisément parce qu’ils ne savent pas tout ce qui les menace : leur joie tient à ce qu’ils ignorent.",
+          "labels_current": [
+            "I.1 Installer : la raison",
+            "I.1 Installer : l’exemple, analysé"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.2": {
+          "source_text_current": "Pascal, dans les Pensées (liasse « Divertissement »), montre que les adultes font de même : ne pouvant guérir la mort et la misère, les hommes ont choisi de n’y point penser pour se rendre heureux, et se divertissent pour ne pas penser à leur condition. L’insouciance n’est donc pas un simple privilège de l’enfance : c’est une manière d’être heureux que les hommes se fabriquent.",
+          "labels_current": [
+            "I.2 Renforcer : la référence qui pousse l’idée",
+            "I.2 Renforcer : ce que la référence établit"
+          ],
+          "philosophes_mentions": [
+            "Pascal"
+          ],
+          "segments_entre_guillemets": [
+            " Divertissement "
+          ],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.3": {
+          "source_text_current": "Mais ignorer une menace ne la supprime pas : qui ne la voit pas ne peut s’en garder. Un bonheur qui repose sur l’ignorance ne dure que par chance : il perd ce qui le protégeait.",
+          "labels_current": [
+            "I.3 La limite : l’idée poussée jusqu’au bout",
+            "I.3 La limite, formulée"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.1": {
+          "source_text_current": "Connaître certaines menaces permet de préserver ce qui nous rend heureux. Reconnaître une maladie ou une injustice peut permettre d’agir au lieu de subir : la conscience ne vaut pas seulement par ce qu’elle trouble.",
+          "labels_current": [
+            "II.1 Répondre à la transition et installer la nouvelle exigence",
+            "II.1 La nouvelle exigence, née de la limite de I"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.2": {
+          "source_text_current": "Aristote le rappelle : une hirondelle ne fait pas le printemps, et le bonheur est celui d’une vie entière, non d’un jour (Éthique à Nicomaque, I, 1098a). Un bonheur qui doit durer a donc besoin de voir ce qui le menace : la lucidité n’est pas l’ennemie du bonheur, mais la condition de sa durée.",
+          "labels_current": [
+            "II.2 La nouvelle réponse, avec la référence qui la porte"
+          ],
+          "philosophes_mentions": [
+            "Aristote"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.3": {
+          "source_text_current": "Mais si connaître un danger, c’est s’en inquiéter, plus la lucidité voit loin, plus elle trouve de quoi craindre. Une lucidité qui veille sur toutes les menaces perd le repos qu’elle voulait protéger.",
+          "labels_current": [
+            "II.3 La nouvelle limite : l’idée poussée jusqu’au bout",
+            "II.3 La limite, formulée"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.1": {
+          "source_text_current": "Connaître un mal, c’est aussi mesurer ce qu’il est ; or la crainte vit surtout de ce qu’on ne mesure pas.",
+          "labels_current": [
+            "III.1 Revenir au problème : ce que les deux réponses supposaient, transformé"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.2": {
+          "source_text_current": "La lucidité distingue alors un danger réel d’une représentation qui nous tourmente : connaître peut diminuer la crainte au lieu de l’accroître. Épicure, dans la Lettre à Ménécée (124-125), argumente que la mort n’est pas une expérience dont nous souffrirons : nous ne serons plus là pour la vivre. Que l’argument convainque ou non, il montre une démarche qui cherche l’apaisement par l’examen de la peur, non par l’oubli.",
+          "labels_current": [
+            "III.2 L’opération : renverser le rapport : faire du savoir une ressource contre la peur",
+            "III.2 La raison ou l’exemple qui met l’opération à l’épreuve"
+          ],
+          "philosophes_mentions": [
+            "Épicure"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.3": {
+          "source_text_current": "Le bonheur lucide n’est donc pas un repos acheté par l’oubli, mais une paix conquise sur la crainte, qui garde sa vigilance. Reste la souffrance liée à un mal réel, notamment la perte d’un proche : réfuter une peur imaginaire ne supprime pas cette douleur.",
+          "labels_current": [
+            "III.3 Stabiliser la réponse",
+            "III.3 Le reste : ce que cette réponse ne règle pas"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        }
+      }
+    },
+    "2026-asie-langage": {
+      "parties": {
+        "I.1": {
+          "source_text_current": "Nous n’avons pas choisi notre langue, et c’est pourtant elle qui découpe le monde pour nous, avant même que nous le regardions. Le russe nomme deux bleus, goluboï et siniï, là où le français n’en nomme qu’un : ses distinctions orientent l’attention, sans rendre impossible une explication ou une traduction.",
+          "labels_current": [
+            "I.1 Installer : la raison",
+            "I.1 Installer : l’exemple, analysé"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.2": {
+          "source_text_current": "Bergson, dans Le Rire (chap. III), va plus loin : les mots ne notent des choses que ce qu’elles ont de commun et d’utile, et nous cachent ce qu’elles ont de singulier. Nous ne voyons donc pas les choses elles-mêmes, mais les étiquettes que la langue a posées sur elles.",
+          "labels_current": [
+            "I.2 Renforcer : la référence qui pousse l’idée",
+            "I.2 Renforcer : ce que la référence établit"
+          ],
+          "philosophes_mentions": [
+            "Bergson"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.3": {
+          "source_text_current": "Mais pour dire que les mots nous cachent les choses, il faut avoir aperçu, au moins un peu, ce qu’ils cachent. Qui peut voir les limites de sa langue n’y est pas entièrement enfermé.",
+          "labels_current": [
+            "I.3 La limite : l’idée poussée jusqu’au bout · le lien : « mais » ouvre la limite",
+            "I.3 La limite, formulée"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.1": {
+          "source_text_current": "Nous inventons des mots, nous sentons ce que la langue ne dit pas encore, nous traduisons d’une langue à l’autre : nous ne la subissons pas, nous la déplaçons.",
+          "labels_current": [
+            "II.1 La nouvelle exigence, née de la limite de I"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.2": {
+          "source_text_current": "La poésie et la philosophie forcent la langue : elles créent des sens nouveaux avec des mots anciens, comme la métaphore, qui fait dire à un mot ce qu’aucun dictionnaire ne lui donnait. Un prisonnier ne pourrait pas agrandir sa cellule ; celui qui écrit, lui, agrandit la langue dont il hérite.",
+          "labels_current": [
+            "II.2 La nouvelle réponse, avec les pratiques qui la portent",
+            "II.2 Ce que la réponse établit"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.3": {
+          "source_text_current": "Mais cette liberté s’exerce toujours avec des mots : pour agrandir la langue, il faut encore parler. Hegel, dans l’Encyclopédie (§ 462), juge que l’ineffable n’est qu’une pensée encore obscure : hors des mots, la pensée ne gagne pas en liberté, elle perd en clarté.",
+          "labels_current": [
+            "II.3 La nouvelle limite : l’idée poussée jusqu’au bout",
+            "II.3 La limite, formulée avec la référence"
+          ],
+          "philosophes_mentions": [
+            "Hegel"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.1": {
+          "source_text_current": "On peut être libre à l’égard d’un milieu sans en sortir, si l’on peut le transformer de l’intérieur.",
+          "labels_current": [
+            "III.1 Revenir au problème : ce que les deux réponses supposaient, transformé"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.2": {
+          "source_text_current": "Nous contestons une expression avec d’autres, comparons des traductions, définissons ce que l’usage confondait : la critique travaille les ressources du langage contre ses habitudes. On objectera que ces gestes restent pris dans la langue ; mais une prison est ce que le prisonnier ne peut changer, et une langue change par ceux qui la parlent.",
+          "labels_current": [
+            "III.2 L’opération : réunir ce qu’on avait séparé : transformer l’image de la prison",
+            "III.2 L’objection la plus forte, et sa réponse"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.3": {
+          "source_text_current": "Le langage est ainsi un milieu de la pensée, non sa prison : ses limites se déplacent à mesure qu’on parle. Reste que cette transformation dépend de ressources partagées : une expérience peut demeurer difficile à communiquer tant que d’autres ne reconnaissent pas les mots proposés.",
+          "labels_current": [
+            "III.3 Stabiliser la réponse",
+            "III.3 Le reste : ce que cette réponse ne règle pas"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        }
+      }
+    },
+    "2026-g1-bien-agir": {
+      "parties": {
+        "I.1": {
+          "source_text_current": "Les effets de mes actes ne dépendent pas entièrement de moi ; mon intention, si. Celui qui a voulu aider, réparer, dire vrai sait ce qu’il a voulu, même si son geste a échoué : sur ce point, il n’attend pas le verdict des faits.",
+          "labels_current": [
+            "I.1 Installer : la raison",
+            "I.1 Installer : l’exemple, analysé"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.2": {
+          "source_text_current": "Kant, dans la première section des Fondements de la métaphysique des mœurs, affirme qu’une bonne volonté est bonne par elle-même, même si elle échoue. Sa valeur ne dépend pas de ses résultats : la certitude d’avoir bien agi tiendrait donc tout entière dans l’intention.",
+          "labels_current": [
+            "I.2 Renforcer : la référence qui pousse l’idée",
+            "I.2 Renforcer : ce que la référence établit"
+          ],
+          "philosophes_mentions": [
+            "Kant"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.3": {
+          "source_text_current": "Mais si tout repose sur l’intention, il faut encore être sûr de la connaître, et rien ne garantit que mes vraies raisons soient celles que je crois. Une bonne conscience peut ainsi rester aveugle à la fois aux effets de ses actes et à ses propres motifs.",
+          "labels_current": [
+            "I.3 La limite : l’idée poussée jusqu’au bout",
+            "I.3 La limite, formulée"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.1": {
+          "source_text_current": "Il devient incertain : ce qui fait la valeur d’un acte, ses vrais motifs et ses effets, ne nous est pas transparent. Bien agir, c’est aussi faire du bien dans le monde : une action qui blesse ne devient pas bonne parce qu’on la voulait bonne.",
+          "labels_current": [
+            "II.1 Répondre à la transition et installer la nouvelle exigence",
+            "II.1 La nouvelle exigence, née de la limite de I"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.2": {
+          "source_text_current": "Kant lui-même reconnaît, dans la deuxième section des Fondements, qu’on ne peut jamais savoir avec certitude si l’on a agi par devoir plutôt que par intérêt caché, et La Rochefoucauld, dans ses Maximes, montre l’amour-propre déguisé sous les vertus. Quant aux effets, ils vont bien au-delà de ce que nous voyons : des mois après, les simulations de l’enquête mettent en doute, au moins un temps, une décision que Sully a prise en quelques secondes.",
+          "labels_current": [
+            "II.2 La nouvelle réponse, avec la référence qui la porte",
+            "II.2 L’exemple, analysé"
+          ],
+          "philosophes_mentions": [
+            "Kant"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.3": {
+          "source_text_current": "Mais si seuls les effets décident, la valeur d’un acte dépend de ce qui arrive après lui : la même décision serait mauvaise si un coup de vent avait fait échouer l’amerrissage. Une morale des seuls effets livre nos actes au hasard, et ne juge plus celui qui a voulu.",
+          "labels_current": [
+            "II.3 La nouvelle limite : l’idée poussée jusqu’au bout",
+            "II.3 La limite, formulée"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.1": {
+          "source_text_current": "La certitude qui convient à l’action n’est pas celle d’un savoir complet : elle porte sur les raisons du choix, que l’on peut examiner au moment d’agir.",
+          "labels_current": [
+            "III.1 Revenir au problème : ce que les deux réponses supposaient, transformé"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.2": {
+          "source_text_current": "Elle compare les raisons accessibles, les risques prévisibles et les autres décisions possibles : on peut être sûr de l’avoir fait, sans l’être de l’issue. Weber, dans Le Savant et le Politique, demande à l’agent de prendre en compte les conséquences prévisibles de ses choix. On objectera que des raisons peuvent couvrir l’amour-propre ; mais des raisons exposées se contrôlent, ce que des motifs cachés ne permettent pas.",
+          "labels_current": [
+            "III.2 L’opération : changer de niveau : distinguer certitude absolue et jugement justifié",
+            "III.2 L’objection la plus forte, et sa réponse"
+          ],
+          "philosophes_mentions": [
+            "Weber"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.3": {
+          "source_text_current": "Cette certitude ne garantit pas que l’acte fut bon, mais qu’il fut bien décidé, et c’est de cela qu’un agent peut répondre. Reste qu’un effet imprévisible peut conduire à réviser l’appréciation d’un choix pourtant raisonnable au moment d’agir.",
+          "labels_current": [
+            "III.3 Stabiliser la réponse",
+            "III.3 Le reste : ce que cette réponse ne règle pas"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        }
+      }
+    },
+    "2026-g1-nature-besoin": {
+      "parties": {
+        "I.1": {
+          "source_text_current": "La nature existait avant l’homme et lui survivra : les plantes poussent et les astres tournent sans nous. Les forêts de Pripiat n’ont eu besoin d’aucun jardinier : il a suffi que l’homme se retire pour que la vie reprenne.",
+          "labels_current": [
+            "I.1 Installer : la raison",
+            "I.1 Installer : l’exemple, analysé"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.2": {
+          "source_text_current": "Aristote, dans la Physique (II, 1), définit la nature comme ce qui a en soi le principe de son mouvement, à la différence des objets fabriqués, qui le reçoivent de l’artisan. Avoir besoin de nous, pour la nature, serait donc cesser d’être nature.",
+          "labels_current": [
+            "I.2 Renforcer : la référence qui pousse l’idée",
+            "I.2 Renforcer : ce que la référence établit"
+          ],
+          "philosophes_mentions": [
+            "Aristote"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.3": {
+          "source_text_current": "Mais une nature qui n’a besoin de personne survit aussi à nos destructions, et ce qui subsisterait après elles ne serait plus la nature que nous admirons. La persistance de processus naturels ne garantit donc pas la conservation des espèces et des milieux que notre action peut détruire.",
+          "labels_current": [
+            "I.3 La limite : l’idée poussée jusqu’au bout",
+            "I.3 La limite, formulée · le lien : « or » fait basculer"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.1": {
+          "source_text_current": "Notre capacité de détruire des milieux fait naître une responsabilité envers ce qui dépend désormais de nous. Notre action peut menacer des espèces et des équilibres : certains milieux ne retrouveront pas leur autonomie si nous maintenons les causes de leur destruction.",
+          "labels_current": [
+            "II.1 Répondre à la transition et installer la nouvelle exigence",
+            "II.1 La nouvelle exigence, née de la limite de I"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.2": {
+          "source_text_current": "Descartes voulait nous rendre « comme maîtres et possesseurs de la nature » ; Hans Jonas, dans Le Principe responsabilité, en tire la conséquence : ce pouvoir nous rend responsables de ce qui ne peut plus se protéger seul. Une espèce menacée ne survit plus que si l’on protège son milieu : son avenir dépend désormais de nos décisions.",
+          "labels_current": [
+            "II.2 La nouvelle réponse, avec la référence qui la porte",
+            "II.2 L’exemple, analysé"
+          ],
+          "philosophes_mentions": [
+            "Descartes",
+            "Jonas"
+          ],
+          "segments_entre_guillemets": [
+            " comme maîtres et possesseurs de la nature "
+          ],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.3": {
+          "source_text_current": "Mais une protection qui dirige un milieu remplace ses processus par nos décisions : plus elle s’étend, plus elle supprime l’autonomie qu’elle voulait sauver. Une nature entièrement gérée par nous ne serait plus la nature, mais un jardin, notre ouvrage.",
+          "labels_current": [
+            "II.3 La nouvelle limite : l’idée poussée jusqu’au bout",
+            "II.3 La limite, formulée"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.1": {
+          "source_text_current": "Prendre soin d’un être n’est pas forcément le diriger : on peut lui rendre les conditions de son propre mouvement.",
+          "labels_current": [
+            "III.1 Revenir au problème : ce que les deux réponses supposaient, transformé"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.2": {
+          "source_text_current": "La nature comme ensemble de processus ne dépend pas de nous ; des milieux déterminés, que nous avons fragilisés, dépendent de nos choix : c’est à eux que le soin est dû. On objectera que tout soin fabrique ; mais, si l’on suit la distinction d’Aristote entre mouvement propre et fabrication, retirer un obstacle n’est pas produire les mouvements du vivant.",
+          "labels_current": [
+            "III.2 L’opération : renverser le rapport et distinguer nature et milieux vivants",
+            "III.2 L’objection la plus forte, et sa réponse"
+          ],
+          "philosophes_mentions": [
+            "Aristote"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.3": {
+          "source_text_current": "Le bon soin se mesure donc à son retrait possible : il vise un milieu qui puisse de nouveau se passer de nous. Reste que choisir le milieu à restaurer suppose un jugement humain : quelle autonomie préserver quand plusieurs formes de vie entrent en conflit ?",
+          "labels_current": [
+            "III.3 Stabiliser la réponse",
+            "III.3 Le reste : ce que cette réponse ne règle pas"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        }
+      }
+    },
+    "2026-me-bonheur-autres": {
+      "parties": {
+        "I.1": {
+          "source_text_current": "Le bonheur est un état intérieur : on peut être serein dans un monde troublé.",
+          "labels_current": [
+            "I.1 Installer : la raison"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.2": {
+          "source_text_current": "Épictète, au début du Manuel, distingue ce qui dépend de nous, nos jugements et nos désirs, de ce qui n’en dépend pas. Le malheur des autres n’en dépend pas : en faire dépendre mon bonheur serait me condamner au trouble, et me rendre malheureux ne soulage personne.",
+          "labels_current": [
+            "I.2 Renforcer : la référence qui pousse l’idée",
+            "I.2 Renforcer : ce que la référence établit"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.3": {
+          "source_text_current": "Mais si le malheur des autres ne dépend pas de moi, il ne doit plus me toucher : la sérénité qui suffit au bonheur exige de s’en détourner. Un bonheur qui ne dépend que de soi cesse d’être celui d’un homme parmi les hommes.",
+          "labels_current": [
+            "I.3 La limite : l’idée poussée jusqu’au bout",
+            "I.3 La limite, formulée"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.1": {
+          "source_text_current": "Le bonheur humain n’est pas celui d’un être isolé : nous vivons avec les autres, et leur sort fait partie du nôtre.",
+          "labels_current": [
+            "II.1 La nouvelle exigence, née de la limite de I"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.2": {
+          "source_text_current": "Rousseau, dans le Discours sur l’origine de l’inégalité, voit dans la pitié un sentiment naturel qui nous fait souffrir de voir souffrir. Un bonheur insensible serait donc une mutilation de ce qui fait de nous des hommes.",
+          "labels_current": [
+            "II.2 La nouvelle réponse, avec la référence qui la porte",
+            "II.2 Ce que la référence établit"
+          ],
+          "philosophes_mentions": [
+            "Rousseau"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.3": {
+          "source_text_current": "Mais si le malheur d’autrui suffit à empêcher mon bonheur, personne ne sera jamais heureux, puisqu’il y a toujours des malheureux. Ma tristesse n’aide personne : elle ajoute seulement un malheur au monde.",
+          "labels_current": [
+            "II.3 La nouvelle limite : l’idée poussée jusqu’au bout",
+            "II.3 La limite, formulée"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.1": {
+          "source_text_current": "Être touché par le malheur d’autrui, c’est d’abord le reconnaître et y répondre, non le subir à son tour.",
+          "labels_current": [
+            "III.1 Revenir au problème : ce que les deux réponses supposaient, transformé"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.2": {
+          "source_text_current": "Un bonheur peut alors inclure l’inquiétude et se prolonger en aide : la joie ne prouve ni l’ignorance ni l’approbation du malheur. Aristote, dans l’Éthique à Nicomaque (livres VIII et IX), fait de l’amitié un bien de la vie heureuse : une joie partagée peut prendre au sérieux une peine commune.",
+          "labels_current": [
+            "III.2 L’opération : réunir ce qu’on avait séparé : distinguer bonheur et indifférence",
+            "III.2 La raison ou l’exemple qui met l’opération à l’épreuve"
+          ],
+          "philosophes_mentions": [
+            "Aristote"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.3": {
+          "source_text_current": "Ce bonheur n’est donc ni clos ni impossible ; il ne donne pas pour autant le droit de profiter de la souffrance d’autrui. Reste le cas où mon bonheur repose matériellement sur une injustice subie par d’autres : leur porter de l’attention ne suffit plus.",
+          "labels_current": [
+            "III.3 Stabiliser la réponse",
+            "III.3 Le reste : ce que cette réponse ne règle pas"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        }
+      }
+    },
+    "2026-me-paroles": {
+      "parties": {
+        "I.1": {
+          "source_text_current": "Nous choisissons nos mots, nous pouvons nous taire, nous adaptons ce que nous disons à celui qui nous écoute. Une promesse, une insulte, un témoignage nous engagent : on nous tient pour responsables de ce que nous disons.",
+          "labels_current": [
+            "I.1 Installer : la raison",
+            "I.1 Installer : l’exemple, analysé"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.2": {
+          "source_text_current": "Si nous ne maîtrisions pas nos paroles, aucune d’elles ne nous engagerait : la responsabilité suppose la maîtrise.",
+          "labels_current": [
+            "I.2 Renforcer : ce que la responsabilité prouve"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.3": {
+          "source_text_current": "Mais une parole dont tout le sens serait fixé d’avance ne ferait que réciter une pensée déjà faite. Merleau-Ponty le montre dans la Phénoménologie de la perception (première partie, chap. VI) : la parole ne traduit pas une pensée déjà faite, elle l’accomplit. Or nous découvrons souvent ce que nous pensons en le disant : une parole entièrement maîtrisée cesserait de penser.",
+          "labels_current": [
+            "I.3 La limite : l’idée poussée jusqu’au bout",
+            "I.3 La référence qui fonde la limite",
+            "I.3 La limite, formulée · le lien : « or » fait basculer"
+          ],
+          "philosophes_mentions": [
+            "Merleau-Ponty"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.1": {
+          "source_text_current": "C’est que la langue n’est pas à nous : ses mots ont un sens commun qui dépasse notre intention. Bergson, dans Le Rire (chap. III), remarque que les mots ne retiennent des choses que ce qu’elles ont de commun : ce que nous voulions dire de singulier, ils le rendent général.",
+          "labels_current": [
+            "II.1 La nouvelle exigence, née de la limite de I",
+            "II.1 La référence qui porte l’exigence"
+          ],
+          "philosophes_mentions": [
+            "Bergson"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.2": {
+          "source_text_current": "Le lapsus, le malentendu, le mot blessant prononcé sans le vouloir montrent que nos paroles nous échappent. Une fois dites, elles sont interprétées par d’autres, qui en font ce qu’ils veulent.",
+          "labels_current": [
+            "II.2 La nouvelle réponse, par l’exemple analysé",
+            "II.2 L’exemple prolongé : la parole livrée aux autres"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.3": {
+          "source_text_current": "Mais si nos paroles nous échappent tout à fait, chacun pourra toujours dire : « Ce n’est pas ce que je voulais dire. » Une promesse ne vaudrait plus rien, et personne ne répondrait plus de ce qu’il dit.",
+          "labels_current": [
+            "II.3 La nouvelle limite : l’idée poussée jusqu’au bout",
+            "II.3 La limite, formulée"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [
+            " Ce n’est pas ce que je voulais dire. "
+          ],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.1": {
+          "source_text_current": "La maîtrise d’une parole ne se joue pas tout entière avant qu’elle soit dite : elle s’exerce aussi en la reprenant devant celui qui l’a entendue.",
+          "labels_current": [
+            "III.1 Revenir au problème : ce que les deux réponses supposaient, transformé"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.2": {
+          "source_text_current": "Nous pouvons vérifier ce que l’autre a compris et rectifier un malentendu, sans décider à sa place de toute interprétation. Une promesse en donne un cas : son auteur ne contrôle pas toutes les attentes qu’elle suscite, mais il peut préciser ce qu’il promet et répondre des termes qu’il a choisis.",
+          "labels_current": [
+            "III.2 L’opération : changer de niveau : distinguer conduite de la parole et contrôle de ses effets",
+            "III.2 La raison ou l’exemple qui met l’opération à l’épreuve"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.3": {
+          "source_text_current": "Répondre de ses paroles, c’est donc exercer cette maîtrise, non la supposer acquise. Reste qu’une parole peut produire un effet irréversible avant que sa rectification soit entendue.",
+          "labels_current": [
+            "III.3 Stabiliser la réponse",
+            "III.3 Le reste : ce que cette réponse ne règle pas"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        }
+      }
+    },
+    "notion-inconscient": {
+      "parties": {
+        "I.1": {
+          "source_text_current": "Être responsable, c’est pouvoir répondre de ses actes parce qu’on les a voulus. On n’accuse pas un somnambule, et le droit lui-même reconnaît que celui dont le discernement était aboli au moment des faits n’est pas pénalement responsable : là où manque la conscience, il manque un auteur.",
+          "labels_current": [
+            "I.1 Installer : la raison",
+            "I.1 Installer : l’exemple, analysé"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.2": {
+          "source_text_current": "Freud, dans « Une difficulté de la psychanalyse » (1917), présente l’inconscient comme une blessure infligée à l’orgueil humain : le moi n’est pas maître dans sa propre maison. Si nos oublis, nos lapsus et certains de nos gestes sont commandés par des désirs refoulés, l’auteur conscient de nos actes n’est plus qu’une façade.",
+          "labels_current": [
+            "I.2 Renforcer : la référence qui pousse l’idée",
+            "I.2 Renforcer : ce que la référence établit"
+          ],
+          "philosophes_mentions": [
+            "Freud"
+          ],
+          "segments_entre_guillemets": [
+            " Une difficulté de la psychanalyse "
+          ],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.3": {
+          "source_text_current": "Mais si je ne réponds que de ce que je sais vouloir, il suffit d’ignorer ses motifs pour être innocent : chacun peut alors invoquer l’inconscient. L’excuse devient universelle : personne ne répond plus de ce qui vient pourtant de lui.",
+          "labels_current": [
+            "I.3 La limite : l’idée poussée jusqu’au bout",
+            "I.3 La limite, formulée"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.1": {
+          "source_text_current": "L’inconscient n’est pas un corps étranger : il désire, cache, déguise, comme quelqu’un, et je ne peux pas m’en décharger comme d’un autre.",
+          "labels_current": [
+            "II.1 La nouvelle exigence, née de la limite de I"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.2": {
+          "source_text_current": "Sartre, dans L’Être et le Néant (première partie, chap. II), refuse précisément l’excuse : pour refouler un désir, il faut savoir ce qu’on refoule, si bien que ce qu’on attribue à l’inconscient relève souvent de la mauvaise foi, ce mensonge à soi par lequel je me cache ce que, d’une certaine manière, je sais. Je suis donc responsable de ce que je fais de mes désirs, même obscurs.",
+          "labels_current": [
+            "II.2 La nouvelle réponse, avec la référence qui la porte",
+            "II.2 Ce que la référence établit"
+          ],
+          "philosophes_mentions": [
+            "Sartre"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.3": {
+          "source_text_current": "Mais si je dois répondre de tout ce qui se passe en moi, je réponds aussi de ce que je n’ai ni choisi ni connu. Œdipe se punit d’un crime qu’il ignorait : une responsabilité sans bornes tourne à la culpabilité sans fin.",
+          "labels_current": [
+            "II.3 La nouvelle limite : l’idée poussée jusqu’au bout",
+            "II.3 La limite, formulée"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.1": {
+          "source_text_current": "Répondre d’un acte ne suppose pas d’en avoir été l’auteur transparent : c’est aussi s’en reconnaître l’auteur après coup et en réparer les suites.",
+          "labels_current": [
+            "III.1 Revenir au problème : ce que les deux réponses supposaient, transformé"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.2": {
+          "source_text_current": "Un désir ignoré, un acte accompli et une conséquence à réparer n’engagent donc pas la même responsabilité : on ne répond pas d’un désir comme d’un acte. La cure freudienne vise une transformation du rapport du sujet à ses désirs. Elle ne fait pas de la connaissance une maîtrise totale, mais ouvre une possibilité de travail là où l’agent ne voyait qu’un fait subi.",
+          "labels_current": [
+            "III.2 L’opération : changer de niveau et suivre un processus de connaissance de soi",
+            "III.2 La raison ou l’exemple qui met l’opération à l’épreuve"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.3": {
+          "source_text_current": "La responsabilité devient ainsi une tâche plutôt qu’un état : elle grandit à mesure que l’on reconnaît ce qui nous détermine. Reste qu’on ne peut jamais établir exactement toute la part consciente et inconsciente d’un acte : il faut pourtant décider ce qui peut être imputé à son auteur.",
+          "labels_current": [
+            "III.3 Stabiliser la réponse",
+            "III.3 Le reste : ce que cette réponse ne règle pas"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        }
+      }
+    },
+    "notion-liberte": {
+      "parties": {
+        "I.1": {
+          "source_text_current": "Être libre, c’est pouvoir faire autrement ; or celui qui promet s’interdit précisément de changer d’avis. Le contrat, le mariage, le serment lient un moi futur que je ne connais pas encore : je décide aujourd’hui pour celui que je serai.",
+          "labels_current": [
+            "I.1 Installer : la raison",
+            "I.1 Installer : l’exemple, analysé"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.2": {
+          "source_text_current": "Plus l’engagement dure, plus cette dépossession grandit : le Dom Juan de Molière le sait, qui refuse de se lier, jugeant que « la constance n’est bonne que pour des ridicules » (I, 2). Il ne se trompe pas sur le prix : chaque promesse ferme des possibles.",
+          "labels_current": [
+            "I.2 Renforcer : la référence qui pousse l’idée",
+            "I.2 Renforcer : ce que la référence établit"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [
+            " la constance n’est bonne que pour des ridicules "
+          ],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.3": {
+          "source_text_current": "Mais à force de tout garder ouvert, Dom Juan ne construit rien et répète sans fin le même désir. Une liberté qui ne passe jamais dans un choix n’est qu’une possibilité vide.",
+          "labels_current": [
+            "I.3 La limite : l’idée poussée jusqu’au bout",
+            "I.3 La limite, formulée"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.1": {
+          "source_text_current": "Une liberté digne de ce nom ne doit pas seulement pouvoir : elle doit passer dans des actes, et tout acte choisit une possibilité contre d’autres.",
+          "labels_current": [
+            "II.1 La nouvelle exigence, née de la limite de I"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.2": {
+          "source_text_current": "S’engager, c’est donner à sa liberté une forme qui dure : Nietzsche, dans la Généalogie de la morale (II, 2), voit dans l’homme capable de promettre une volonté souveraine, qui ne dépend plus de l’humeur du moment. Celui qui tient sa parole malgré la fatigue ou la tentation montre qu’il n’est pas le jouet de ses désirs.",
+          "labels_current": [
+            "II.2 La nouvelle réponse, avec la référence qui la porte",
+            "II.2 L’exemple, analysé"
+          ],
+          "philosophes_mentions": [
+            "Nietzsche"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.3": {
+          "source_text_current": "Mais si l’engagement me lie vraiment, il me lie encore quand je change, quand la cause servie devient injuste, quand l’amour s’éteint. Tenir alors sa parole, ce serait obéir à celui que j’étais.",
+          "labels_current": [
+            "II.3 La nouvelle limite : l’idée poussée jusqu’au bout",
+            "II.3 La limite, formulée"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.1": {
+          "source_text_current": "Un engagement ne se prend pas une fois pour toutes : il se tient, c’est-à-dire qu’il se reprend, sans dépendre pour autant de chaque humeur.",
+          "labels_current": [
+            "III.1 Revenir au problème : ce que les deux réponses supposaient, transformé"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.2": {
+          "source_text_current": "Une promesse donne à autrui une raison de compter sur nous ; la reprendre, c’est reconnaître cette raison, non décider chaque matin si elle nous plaît encore. On objectera qu’un engagement qu’on reprend n’engage plus ; mais la volonté qui dure, que Nietzsche voit dans la promesse, n’interdit pas de juger : rompre pour une cause devenue injuste peut être juste, si l’on en répond devant ceux qui comptaient sur nous.",
+          "labels_current": [
+            "III.2 L’opération : réunir ce qu’on avait séparé : articuler durée et reprise du choix",
+            "III.2 L’objection la plus forte, et sa réponse"
+          ],
+          "philosophes_mentions": [
+            "Nietzsche"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.3": {
+          "source_text_current": "La liberté prend alors la forme d’une fidélité raisonnée, capable de tenir comme de rompre. Reste le conflit entre une obligation encore légitime et une transformation profonde de celui qui l’a contractée : aucune règle simple ne fixe le prix acceptable de la fidélité.",
+          "labels_current": [
+            "III.3 Stabiliser la réponse",
+            "III.3 Le reste : ce que cette réponse ne règle pas"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        }
+      }
+    },
+    "notion-raison": {
+      "parties": {
+        "I.1": {
+          "source_text_current": "La vérité ne dépend pas de celui qui la dit : il suffit qu’elle soit montrée pour être reconnue. Une démonstration mathématique convainc quiconque la suit, quels que soient son humeur, son rang ou le talent de celui qui la présente.",
+          "labels_current": [
+            "I.1 Installer : la raison",
+            "I.1 Installer : l’exemple, analysé"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.2": {
+          "source_text_current": "Descartes, au début du Discours de la méthode, affirme que « le bon sens est la chose du monde la mieux partagée » : la puissance de bien juger est naturellement égale en tous. Si la raison est commune, il suffit de conduire les raisons avec ordre pour que chacun reconnaisse le vrai.",
+          "labels_current": [
+            "I.2 Renforcer : la référence qui pousse l’idée",
+            "I.2 Renforcer : ce que la référence établit"
+          ],
+          "philosophes_mentions": [
+            "Descartes"
+          ],
+          "segments_entre_guillemets": [
+            " le bon sens est la chose du monde la mieux partagée "
+          ],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.3": {
+          "source_text_current": "Mais si la raison est égale en tous, celui qui résiste à une vérité bien montrée ne peut être qu’un sot ou un menteur, à moins que quelque chose en lui, qui n’est pas la raison, ne l’empêche d’entendre. Or les onze jurés n’étaient ni sots ni menteurs : pressés, prévenus, fatigués, ils n’entendaient pas les raisons de douter qu’on leur présentait.",
+          "labels_current": [
+            "I.3 La limite : l’idée poussée jusqu’au bout",
+            "I.3 La limite, formulée · le lien : « or » fait basculer"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.1": {
+          "source_text_current": "Pour convaincre, il faut être entendu, et un homme n’est pas une pure intelligence : il a des intérêts, des préjugés, des passions.",
+          "labels_current": [
+            "II.1 La nouvelle exigence, née de la limite de I"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.2": {
+          "source_text_current": "Pascal, dans De l’art de persuader, remarque que l’art de persuader consiste autant à agréer qu’à convaincre, tant les hommes se gouvernent plus par caprice que par raison. Il faut donc avoir égard à la personne, connaître son esprit et son cœur, pour que la vérité y trouve une entrée.",
+          "labels_current": [
+            "II.2 La nouvelle réponse, avec la référence qui la porte",
+            "II.2 Ce que la référence établit"
+          ],
+          "philosophes_mentions": [
+            "Pascal"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.3": {
+          "source_text_current": "Mais si la vérité doit plaire pour être reçue, c’est l’art de plaire qui décide, et non plus la vérité. Le démagogue sait plaire mieux que personne, et il peut avoir tort : convaincre se confond alors avec manipuler.",
+          "labels_current": [
+            "II.3 La nouvelle limite : l’idée poussée jusqu’au bout",
+            "II.3 La limite, formulée"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.1": {
+          "source_text_current": "Convaincre n’est pas produire un effet en l’autre, c’est lui donner de quoi accomplir lui-même l’examen.",
+          "labels_current": [
+            "III.1 Revenir au problème : ce que les deux réponses supposaient, transformé"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.2": {
+          "source_text_current": "Clarifier un terme, reprendre une objection, proposer une vérification : ces gestes agissent sur l’accès aux raisons, non sur leur valeur, et ne remplacent pas la preuve par la séduction. Dans Douze hommes en colère, le juré n° 8 fait vérifier les éléments sur lesquels reposait la certitude des autres. Son attention sert l’examen des preuves ; elle n’est pas une preuve supplémentaire de l’innocence.",
+          "labels_current": [
+            "III.2 L’opération : réunir ce qu’on avait séparé : articuler validité et appropriation",
+            "III.2 La raison ou l’exemple qui met l’opération à l’épreuve"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.3": {
+          "source_text_current": "Le dialogue n’en est qu’un moyen : une démonstration écrite rend aussi ses raisons examinables, pourvu qu’elle les expose au lieu de les imposer. Reste le refus d’examiner : aucune présentation honnête ne garantit que l’autre accepte de mettre sa conviction à l’épreuve.",
+          "labels_current": [
+            "III.3 Stabiliser la réponse",
+            "III.3 Le reste : ce que cette réponse ne règle pas"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        }
+      }
+    },
+    "notion-technique": {
+      "parties": {
+        "I.1": {
+          "source_text_current": "L’homme, mal armé par la nature, ne survit qu’en la transformant. Le vaccin, l’anesthésie, l’électricité ont d’abord été des soulagements : chaque possibilité nouvelle a retiré aux hommes une part de leur peine.",
+          "labels_current": [
+            "I.1 Installer : la raison",
+            "I.1 Installer : l’exemple, analysé"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.2": {
+          "source_text_current": "Descartes, dans la sixième partie du Discours de la méthode, espère que les sciences nous rendront « comme maîtres et possesseurs de la nature », pour jouir sans peine des fruits de la terre et surtout pour conserver la santé. Refuser un possible, c’est donc risquer de priver les hommes d’un remède.",
+          "labels_current": [
+            "I.2 Renforcer : la référence qui pousse l’idée",
+            "I.2 Renforcer : ce que la référence établit"
+          ],
+          "philosophes_mentions": [
+            "Descartes"
+          ],
+          "segments_entre_guillemets": [
+            " comme maîtres et possesseurs de la nature "
+          ],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.3": {
+          "source_text_current": "Mais si tout possible appelle sa réalisation, la bombe atomique devait être construite comme le vaccin ; or une possibilité réalisée ne se défait plus, et nous devons vivre avec elle. Plus nous pouvons, plus nous dépendons de ce que nous avons fait : la maîtrise se retourne en dépendance.",
+          "labels_current": [
+            "I.3 La limite : l’idée poussée jusqu’au bout",
+            "I.3 La limite, formulée"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.1": {
+          "source_text_current": "Être maître, ce n’est pas seulement pouvoir faire, c’est aussi pouvoir ne pas faire : une puissance qui ne sait pas s’arrêter n’est plus maîtrisée.",
+          "labels_current": [
+            "II.1 La nouvelle exigence, née de la limite de I"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.2": {
+          "source_text_current": "Hans Jonas, dans Le Principe responsabilité, propose une « heuristique de la peur » : quand une technique peut menacer l’existence future de l’humanité, la prophétie de malheur doit l’emporter sur la prophétie de bonheur. Certains possibles doivent donc être refusés, parce que l’erreur, à cette échelle, ne laisserait personne pour la réparer.",
+          "labels_current": [
+            "II.2 La nouvelle réponse, avec la référence qui la porte",
+            "II.2 Ce que la référence établit"
+          ],
+          "philosophes_mentions": [
+            "Jonas"
+          ],
+          "segments_entre_guillemets": [
+            " heuristique de la peur "
+          ],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.3": {
+          "source_text_current": "Mais si la crainte du pire décide, elle vaut contre tout possible nouveau, car aucun n’est sans risque : le refus prive alors les hommes des remèdes qu’il aurait apportés. Une prudence qui juge la puissance en bloc perd ce qu’elle voulait sauver : le soulagement des hommes.",
+          "labels_current": [
+            "II.3 La nouvelle limite : l’idée poussée jusqu’au bout",
+            "II.3 La limite, formulée"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.1": {
+          "source_text_current": "Ce qu’on juge souhaitable n’est pas une puissance, mais un usage déterminé de cette puissance, avec sa fin, ses moyens et ses effets.",
+          "labels_current": [
+            "III.1 Revenir au problème : ce que les deux réponses supposaient, transformé"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.2": {
+          "source_text_current": "Une fin digne ne rend pas tous ses moyens acceptables : soigner n’autorise pas une expérience imposée à ceux qui en subiront les risques. Jonas rappelle aussi que nos usages engagent des générations qui ne peuvent pas délibérer : l’accord des décideurs ne suffit pas à rendre un usage juste.",
+          "labels_current": [
+            "III.2 L’opération : changer de niveau : distinguer capacité technique et justification de l’action",
+            "III.2 La raison ou l’exemple qui met l’opération à l’épreuve"
+          ],
+          "philosophes_mentions": [
+            "Jonas"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.3": {
+          "source_text_current": "Le même possible peut ainsi être souhaitable dans un usage et non dans un autre : la physique qui fait la centrale fait aussi la bombe. Reste que des conséquences décisives peuvent être inconnues : le jugement doit parfois décider sans pouvoir établir complètement la sécurité d’un projet.",
+          "labels_current": [
+            "III.3 Stabiliser la réponse",
+            "III.3 Le reste : ce que cette réponse ne règle pas"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        }
+      }
+    },
+    "notion-temps": {
+      "parties": {
+        "I.1": {
+          "source_text_current": "Le temps ne revient jamais en arrière : ce qu’il emporte ne nous est pas rendu. Les corps vieillissent, les monuments s’effritent, les souvenirs s’effacent : l’usure n’épargne ni la chair, ni la pierre, ni l’esprit.",
+          "labels_current": [
+            "I.1 Installer : la raison",
+            "I.1 Installer : l’exemple, analysé"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.2": {
+          "source_text_current": "Ronsard, invitant sa « Mignonne » à voir la rose éclose le matin et déjà défaite le soir, accuse une « marâtre Nature » qui ne laisse pas durer une telle fleur (Odes, I, 17). La destruction n’est donc pas un accident qui frapperait certaines choses : elle est la loi de tout ce qui dure, puisque le présent ne cesse de passer.",
+          "labels_current": [
+            "I.2 Renforcer : la référence qui pousse l’idée",
+            "I.2 Renforcer : ce que la référence établit"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [
+            " Mignonne ",
+            " marâtre Nature "
+          ],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.3": {
+          "source_text_current": "Mais si le temps ne faisait que détruire, rien ne naîtrait jamais : la rose de Ronsard a d’abord dû éclore, et il lui a fallu du temps pour cela. Le temps qui fane la rose est aussi celui qui l’a fait fleurir.",
+          "labels_current": [
+            "I.3 La limite : l’idée poussée jusqu’au bout · le lien : « mais » ouvre la limite",
+            "I.3 La limite, formulée"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.1": {
+          "source_text_current": "Le temps fait aussi advenir des êtres et des formes qu’il pourra ensuite défaire. Pour être juste envers le temps, il faut tenir compte de tout ce qu’il produit : la croissance, l’apprentissage, la guérison, l’œuvre qui mûrit.",
+          "labels_current": [
+            "II.1 Répondre à la transition et installer la nouvelle exigence",
+            "II.1 La nouvelle exigence, née de la limite de I"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.2": {
+          "source_text_current": "Dans L’Évolution créatrice (chap. I), Bergson évoque le sucre qui se dissout dans l’eau : calculer le processus n’abolit pas l’attente que nous vivons. Il distingue le temps mathématique, qui représente les étapes du processus, de la durée vécue, qui coïncide avec notre impatience. Cette durée ne remplace pas simplement un instant par un autre : selon Bergson, le passé se conserve dans notre état présent et le transforme, de sorte qu’un état de conscience ne se répète jamais à l’identique.",
+          "labels_current": [
+            "II.2 Partir d’une expérience précise pour interroger le temps",
+            "II.2 Distinguer le temps représenté de la durée vécue",
+            "II.2 Relier conservation du passé et transformation du présent"
+          ],
+          "philosophes_mentions": [
+            "Bergson"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.3": {
+          "source_text_current": "Mais si la durée est création continue, chaque nouveauté chasse la précédente : la maturité conduit à la vieillesse, et l’œuvre achevée commence déjà à vieillir. Le temps qui crée défait encore ce qu’il crée : dire qu’il fait advenir ne supprime pas la perte, cela la reporte.",
+          "labels_current": [
+            "II.3 La nouvelle limite : l’idée poussée jusqu’au bout",
+            "II.3 La limite, formulée"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.1": {
+          "source_text_current": "Ce qui passe cesse d’être présent, non d’avoir été, et ce qui a été peut encore agir.",
+          "labels_current": [
+            "III.1 Revenir au problème : ce que les deux réponses supposaient, transformé"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.2": {
+          "source_text_current": "L’apprentissage remplace une ignorance, une œuvre reprend une expérience : ces gains ne rendent pas ce qui est perdu, mais interdisent de tenir tout passage pour une pure ruine. Proust en donne l’épreuve : le livre ne répare pas le vieillissement, mais il fait de l’expérience traversée la matière d’une œuvre qui n’existait pas.",
+          "labels_current": [
+            "III.2 L’opération : changer de niveau : distinguer disparition et transformation",
+            "III.2 La raison ou l’exemple qui met l’opération à l’épreuve"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.3": {
+          "source_text_current": "Qu’un événement ait eu lieu ne garantit pas qu’il en reste une trace : le passé devient une ressource lorsqu’une mémoire, un savoir-faire ou une œuvre le reprend et le transmet. Reste qu’une transformation féconde ne compense pas nécessairement la perte singulière dont elle procède : une œuvre ne rend pas une personne morte.",
+          "labels_current": [
+            "III.3 Stabiliser la réponse : préciser les conditions d’une reprise du passé",
+            "III.3 Le reste : ce que cette réponse ne règle pas"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        }
+      }
+    },
+    "notion-travail": {
+      "parties": {
+        "I.1": {
+          "source_text_current": "L’animal trouve dans la nature ce dont il a besoin ; l’homme doit le produire, et pour cela apprendre, prévoir, inventer. Le menuisier qui façonne le bois forme aussi sa main et son jugement.",
+          "labels_current": [
+            "I.1 Installer : la raison",
+            "I.1 Installer : l’exemple, analysé"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.2": {
+          "source_text_current": "Hegel, dans la Phénoménologie de l’esprit, montre que l’esclave, en travaillant pour le maître, transforme la chose et se forme lui-même : le travail est un désir réfréné, qui apprend à différer et à donner forme. Le maître, qui ne fait que jouir, ne se forme pas ; l’esclave, par son travail, prend conscience de lui-même.",
+          "labels_current": [
+            "I.2 Renforcer : la référence qui pousse l’idée",
+            "I.2 Renforcer : ce que la référence établit"
+          ],
+          "philosophes_mentions": [
+            "Hegel"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.3": {
+          "source_text_current": "Mais si le travail forme parce que le travailleur donne forme à la chose, il cesse de former quand la forme lui est imposée : le Charlot des Temps modernes ne façonne rien, il répète un geste que la chaîne lui dicte. Un travail qui ne demande plus ni intelligence ni initiative ne forme plus personne.",
+          "labels_current": [
+            "I.3 La limite : l’idée poussée jusqu’au bout",
+            "I.3 La limite, formulée"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.1": {
+          "source_text_current": "Pour juger le travail, il faut regarder le travail réel, celui que la plupart des hommes font pour vivre, et non le travail idéal de l’artisan.",
+          "labels_current": [
+            "II.1 La nouvelle exigence, née de la limite de I"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.2": {
+          "source_text_current": "Marx, dans les Manuscrits de 1844, décrit le travail aliéné : l’ouvrier ne se sent lui-même qu’en dehors du travail, et dans le travail il se sent hors de soi. Le travail n’est plus alors la satisfaction d’un besoin, mais seulement un moyen de satisfaire des besoins en dehors du travail : aussi le fuit-on comme la peste dès que la contrainte cesse, et l’homme ne se sent plus libre que dans ses fonctions animales, manger, boire, procréer.",
+          "labels_current": [
+            "II.2 La nouvelle réponse, avec la référence qui la porte",
+            "II.2 Ce que la référence établit"
+          ],
+          "philosophes_mentions": [
+            "Marx"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.3": {
+          "source_text_current": "Mais dire qu’un travail aliène, c’est le mesurer à ce qu’il pourrait être : s’il peut déshumaniser, c’est qu’il pourrait humaniser. Condamner le travail en lui-même, ce serait oublier que Marx ne dénonce l’aliénation qu’au nom d’un travail où l’homme pourrait se reconnaître.",
+          "labels_current": [
+            "II.3 La nouvelle limite : l’idée poussée jusqu’au bout · le lien : les deux-points prouvent",
+            "II.3 La limite, formulée"
+          ],
+          "philosophes_mentions": [
+            "Marx"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.1": {
+          "source_text_current": "Ce que le travail fait de l’homme tient moins à la tâche qu’à la manière dont elle est organisée.",
+          "labels_current": [
+            "III.1 Revenir au problème : ce que les deux réponses supposaient, transformé"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.2": {
+          "source_text_current": "Un travail forme lorsque l’agent peut comprendre un but, développer une capacité et participer au jugement sur ce qu’il fait. Simone Weil, dans La Condition ouvrière, décrit l’obéissance à une cadence et à des ordres dont le sens échappe à l’ouvrier : ce n’est pas le travail qui l’abîme, mais cette organisation.",
+          "labels_current": [
+            "III.2 L’opération : changer de niveau : rapporter les effets du travail à son organisation",
+            "III.2 La raison ou l’exemple qui met l’opération à l’épreuve"
+          ],
+          "philosophes_mentions": [
+            "Simone Weil"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.3": {
+          "source_text_current": "Le même geste peut ainsi former ou user, selon qu’il est compris ou seulement commandé. Reste qu’une société a besoin de tâches pénibles dont l’organisation peut réduire, mais pas toujours supprimer, la répétition et la fatigue.",
+          "labels_current": [
+            "III.3 Stabiliser la réponse",
+            "III.3 Le reste : ce que cette réponse ne règle pas"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        }
+      }
+    },
+    "notion-verite": {
+      "parties": {
+        "I.1": {
+          "source_text_current": "Dire vrai, c’est respecter à la fois ce qui est et celui à qui l’on parle : on le traite en être capable de juger. La flatterie de Philinte, au contraire, laisse Oronte dans son erreur.",
+          "labels_current": [
+            "I.1 Installer : la raison",
+            "I.1 Installer : l’exemple, analysé"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.2": {
+          "source_text_current": "Kant, dans D’un prétendu droit de mentir par humanité, soutient que la véracité est un devoir absolu : même à un assassin qui me demande où se cache mon ami, je n’ai pas le droit de mentir. Le mensonge ruine en effet la confiance sur laquelle repose toute parole entre les hommes.",
+          "labels_current": [
+            "I.2 Renforcer : la référence qui pousse l’idée",
+            "I.2 Renforcer : ce que la référence établit"
+          ],
+          "philosophes_mentions": [
+            "Kant"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.3": {
+          "source_text_current": "Mais si la vérité vaut par elle-même, indépendamment de celui qui l’entend, on finit par la jeter sans égard, comme Alceste. Elle cesse alors d’éclairer : Oronte n’apprend rien, il se vexe.",
+          "labels_current": [
+            "I.3 La limite : l’idée poussée jusqu’au bout",
+            "I.3 La limite, formulée"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.1": {
+          "source_text_current": "Non : une vérité se juge aussi à ce qu’elle fait à celui qui l’entend. Dire une vérité est un acte adressé à quelqu’un : sa valeur ne dépend pas seulement de l’exactitude de l’énoncé, mais des droits et des besoins de ceux qu’il concerne.",
+          "labels_current": [
+            "II.1 Répondre à la transition et installer la nouvelle exigence",
+            "II.1 La nouvelle exigence, née de la limite de I"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.2": {
+          "source_text_current": "C’est à Benjamin Constant que Kant répondait : pour Constant (Des réactions politiques, 1797), dire la vérité n’est un devoir qu’envers ceux qui ont droit à la vérité. Le médecin qui annonce une maladie grave ne dit pas tout d’un coup : il choisit le moment, les mots, l’ordre, et ce tact n’est pas un mensonge.",
+          "labels_current": [
+            "II.2 La nouvelle réponse, avec la référence qui la porte",
+            "II.2 L’exemple, analysé"
+          ],
+          "philosophes_mentions": [
+            "Kant",
+            "Benjamin Constant"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.3": {
+          "source_text_current": "Mais celui qui retient une vérité « pour le bien » de l’autre décide à sa place de ce qu’il peut entendre, et c’est souvent son propre confort qu’il protège. Ménager l’autre jusqu’à lui cacher ce qui le concerne, c’est cesser de le respecter.",
+          "labels_current": [
+            "II.3 La nouvelle limite : l’idée poussée jusqu’au bout",
+            "II.3 La limite, formulée"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [
+            " pour le bien "
+          ],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.1": {
+          "source_text_current": "Le devoir de vérité interdit de tromper qui que ce soit ; il n’oblige à révéler une vérité qu’à ceux qui ont besoin ou droit de la savoir.",
+          "labels_current": [
+            "III.1 Revenir au problème : ce que les deux réponses supposaient, transformé"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.2": {
+          "source_text_current": "Le secret médical, la confidence d’un ami, la vie privée d’un tiers sont ainsi des vérités que l’on peut taire sans mentir. Un silence peut pourtant tromper lorsqu’il entretient volontairement une erreur : distinguer le silence du mensonge ne dispense donc pas d’examiner ce que l’on fait croire.",
+          "labels_current": [
+            "III.2 L’opération : ce qui s’ensuit : des vérités qu’on peut taire sans mentir",
+            "III.2 Mettre la distinction à l’épreuve : un silence peut tromper"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.3": {
+          "source_text_current": "Le silence n’est donc pas toujours une tromperie ; mais celui qui entretient délibérément une erreur en devient une. Reste le conflit entre un secret légitime et une information nécessaire à la protection d’autrui : les deux exigences peuvent demeurer sérieuses.",
+          "labels_current": [
+            "III.3 Stabiliser la réponse",
+            "III.3 Le reste : ce que cette réponse ne règle pas"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        }
+      }
+    },
+    "2025-me-verite": {
+      "parties": {
+        "I.1": {
+          "source_text_current": "Une vérité est convaincante lorsqu’on peut montrer pourquoi il faut l’admettre. Une démonstration ne demande pas de croire son auteur : elle présente des relations que chacun peut vérifier.",
+          "labels_current": [
+            "I.1 Installer"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.2": {
+          "source_text_current": "Descartes cherche, dans la deuxième partie du Discours de la méthode, un ordre des raisons qui permette de conduire le jugement. Ce qui convainc doit pouvoir être repris par un autre esprit, plutôt que dépendre de l’autorité de celui qui parle.",
+          "labels_current": [
+            "I.2 Renforcer"
+          ],
+          "philosophes_mentions": [
+            "Descartes"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.3": {
+          "source_text_current": "La vérité offre ainsi une exigence commune : on ne réfute pas une preuve en disant qu’elle déplaît. Mais si la preuve suffit, qui ne la reconnaît pas ne peut être que déraisonnable : on cesse de lui parler en esprit capable de juger.",
+          "labels_current": [
+            "I.3 La limite"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.1": {
+          "source_text_current": "Les intérêts, les convictions et les difficultés de compréhension peuvent empêcher l’examen d’une preuve.",
+          "labels_current": [
+            "II.1 Répondre à la transition et installer la nouvelle exigence"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.2": {
+          "source_text_current": "Pascal, dans De l’art de persuader, distingue la force des raisons des dispositions de celui auquel on s’adresse. Présenter le vrai suppose une attention à ce qu’il connaît, croit et accepte de mettre à l’épreuve.",
+          "labels_current": [
+            "II.2 La nouvelle réponse"
+          ],
+          "philosophes_mentions": [
+            "Pascal"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.3": {
+          "source_text_current": "Mais si convaincre consiste uniquement à satisfaire ces dispositions, on peut obtenir l’accord sans dire vrai. Une flatterie peut être accueillie mieux qu’une preuve ; l’accueil ne suffit donc pas à mesurer la vérité.",
+          "labels_current": [
+            "II.3 Sa limite"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.1": {
+          "source_text_current": "Une preuve n’agit sur un esprit qu’à travers l’examen qu’il en fait.",
+          "labels_current": [
+            "III.1 Revenir au problème : ce que les deux réponses supposaient, transformé"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.2": {
+          "source_text_current": "Expliquer les termes, reconstruire un raisonnement, répondre aux objections : c’est permettre à l’autre de reconnaître lui-même ce qui justifie l’affirmation. Cette démarche diffère de la séduction : l’interlocuteur doit pouvoir vérifier la raison proposée et la refuser si elle est défaillante. L’explication adapte l’accès à la preuve, non la vérité aux préférences du destinataire.",
+          "labels_current": [
+            "III.2 L’opération : réunir validité et appropriation",
+            "III.2 Mettre l’opération à l’épreuve"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.3": {
+          "source_text_current": "Une adhésion obtenue sans examen ne prouve rien ; un refus opposé à une preuve examinée en dit plus sur celui qui refuse que sur la preuve. Reste que l’interlocuteur peut refuser toute vérification : rendre la preuve accessible ne garantit pas qu’il acceptera de l’examiner.",
+          "labels_current": [
+            "III.3 Stabiliser la réponse",
+            "III.3 Le reste"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        }
+      }
+    },
+    "2025-me-avenir-technique": {
+      "parties": {
+        "I.1": {
+          "source_text_current": "Notre avenir dépend des moyens dont nous disposons : sans certaines techniques, des projets resteraient de simples souhaits. L’agriculture, les transports et la médecine changent les conditions de la vie collective.",
+          "labels_current": [
+            "I.1 Installer"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.2": {
+          "source_text_current": "Descartes, dans le Discours de la méthode, associe la connaissance de la nature à une puissance d’action, notamment pour préserver la santé. Une possibilité technique transforme ce que nous pouvons attendre de l’avenir.",
+          "labels_current": [
+            "I.2 Renforcer"
+          ],
+          "philosophes_mentions": [
+            "Descartes"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.3": {
+          "source_text_current": "Mais une capacité ne fixe pas son usage. Un même savoir peut soigner ou détruire ; des moyens puissants ne suffisent pas à rendre le monde qu’ils produisent souhaitable.",
+          "labels_current": [
+            "I.3 La limite"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.1": {
+          "source_text_current": "Les décisions politiques et morales orientent les fins que nos techniques doivent servir.",
+          "labels_current": [
+            "II.1 Répondre à la transition et installer la nouvelle exigence"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.2": {
+          "source_text_current": "Le Protagoras distingue les arts nécessaires à la survie des dispositions nécessaires à la cité. Cette distinction montre pourquoi la puissance doit être orientée par une réflexion sur la manière de vivre ensemble.",
+          "labels_current": [
+            "II.2 La nouvelle réponse"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.3": {
+          "source_text_current": "Mais les choix ne se font pas devant un ensemble de moyens neutres. Une infrastructure durable crée des usages, des coûts de remplacement et des dépendances qui pèsent sur les décisions suivantes.",
+          "labels_current": [
+            "II.3 Sa limite"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.1": {
+          "source_text_current": "Les moyens techniques ne sont pas neutres, et nos fins ne viennent pas après eux.",
+          "labels_current": [
+            "III.1 Revenir au problème : ce que les deux réponses supposaient, transformé"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.2": {
+          "source_text_current": "Choisir l’avenir exige donc de juger aussi les moyens, et les dépendances qu’ils créent, au moment où on les adopte. On objectera qu’une innovation s’impose comme un destin ; mais Jonas, dans Le Principe responsabilité, demande qu’on en pèse d’avance les effets durables et qu’on garde des moyens de la corriger.",
+          "labels_current": [
+            "III.2 L’opération : renverser un rapport à sens unique",
+            "III.2 L’objection la plus forte, et sa réponse"
+          ],
+          "philosophes_mentions": [
+            "Jonas"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.3": {
+          "source_text_current": "Garder des moyens de révision devient ainsi la première fin à laquelle soumettre nos techniques. Reste que certains choix deviennent irréversibles ou que leurs conséquences ne sont découvertes qu’après leur adoption : la possibilité de révision ne peut pas toujours être garantie.",
+          "labels_current": [
+            "III.3 Stabiliser la réponse",
+            "III.3 Le reste"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        }
+      }
+    },
+    "2025-me-besoin-art": {
+      "parties": {
+        "I.1": {
+          "source_text_current": "On peut vivre sans posséder des œuvres ni fréquenter des musées. En situation de pénurie, la nourriture, les soins et l’abri semblent devoir passer avant l’art.",
+          "labels_current": [
+            "I.1 Installer"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.2": {
+          "source_text_current": "Une œuvre ne vaut pas parce qu’elle satisfait une fonction identique pour tous. Kant, dans la Critique de la faculté de juger (§ 2 à 5), distingue le jugement de goût de l’appréciation de l’utilité : l’art ne se justifie pas comme un outil nécessaire à une tâche.",
+          "labels_current": [
+            "I.2 Renforcer"
+          ],
+          "philosophes_mentions": [
+            "Kant"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "I.3": {
+          "source_text_current": "Mais ce qui n’est pas nécessaire à la survie peut l’être à une vie humaine : amitié, expression et compréhension ne se mesurent pas seulement à ce qu’elles empêchent de mourir.",
+          "labels_current": [
+            "I.3 La limite"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.1": {
+          "source_text_current": "L’art peut rendre sensible et partageable ce que nos usages ordinaires laissent inaperçu.",
+          "labels_current": [
+            "II.1 Répondre à la transition et installer la nouvelle exigence"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.2": {
+          "source_text_current": "Bergson, dans Le Rire (chap. III), rapporte l’art à une perception moins soumise aux besoins pratiques. Un tableau, un récit ou une musique peut déplacer nos habitudes d’attention et nous faire reconnaître une expérience que nous ne savions pas exprimer.",
+          "labels_current": [
+            "II.2 La nouvelle réponse"
+          ],
+          "philosophes_mentions": [
+            "Bergson"
+          ],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "II.3": {
+          "source_text_current": "Mais si nous avons besoin de l’art comme d’un bien nécessaire, il faut le procurer à tous comme on procure des soins : on prescrit alors des œuvres, et le goût cesse d’être libre.",
+          "labels_current": [
+            "II.3 Sa limite"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.1": {
+          "source_text_current": "Avoir besoin d’art, ce n’est pas avoir besoin de telle œuvre, mais de la possibilité de donner forme à ce que l’on vit et de le partager.",
+          "labels_current": [
+            "III.1 Revenir au problème : ce que les deux réponses supposaient, transformé"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.2": {
+          "source_text_current": "Il s’ensuit que l’art répond à ce besoin par des voies diverses, pratiques ordinaires comme œuvres élaborées, et qu’il faut en ouvrir l’accès sans en prescrire les objets. Démodocos donne à Ulysse une forme publique de son histoire, sans que chaque auditeur éprouve ce qu’il éprouve : le chant rassemble des expériences différentes.",
+          "labels_current": [
+            "III.2 L’opération : ce qui s’ensuit pour l’accès à l’art",
+            "III.2 Mettre la distinction à l’épreuve"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        },
+        "III.3": {
+          "source_text_current": "Ce besoin ne fonde donc ni un goût obligatoire ni la nécessité de toute production dite artistique. Reste que le récit, le jeu ou la conversation peuvent aussi exprimer et partager une expérience : il faut encore préciser ce que l’art apporte que ces autres pratiques ne réalisent pas toujours.",
+          "labels_current": [
+            "III.3 Stabiliser la réponse",
+            "III.3 Le reste"
+          ],
+          "philosophes_mentions": [],
+          "segments_entre_guillemets": [],
+          "statut_verification_citations": "non_verifie",
+          "operation_propre_pensee_reference": "a_evaluer",
+          "inference_eleve": "a_evaluer",
+          "preuve_suffisante": "a_evaluer",
+          "limite_interne_ou_transformation": "a_evaluer"
+        }
+      }
+    }
+  }
+}
