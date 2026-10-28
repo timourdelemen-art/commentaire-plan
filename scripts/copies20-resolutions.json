@@ -51,14 +51,14 @@
       "conclusionQuestion": "Lorsque l’État détruit les voies par lesquelles on pouvait le corriger, comment lui résister sans abandonner l’exigence d’une justice commune ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 709
+        "words": 737
       },
       "review": {
         "author": "Première refonte 28 octobre 2026",
         "status": "propose",
-        "independentReview": "Non audité indépendamment. Les références sont des paraphrases attribuées, non des citations littérales contrôlées. Problème aporétique toujours soumis au test de conjonction. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées."
+        "independentReview": "Non audité indépendamment. Les références sont des paraphrases attribuées, non des citations littérales contrôlées. Problème aporétique toujours soumis au test de conjonction. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées. I.3 renforcée par la citation exacte de Pascal (Pensées, Brunschvicg 298), vérifiée sur Wikisource : https://fr.wikisource.org/wiki/Pens%C3%A9es_%28Pascal%2C_%C3%A9d._Brunschvicg%29/Pens%C3%A9es/Section_V ."
       },
-      "copySha256": "bcae3743acab9b52317b4c5b6fc4d7b1c2ff9950fa4fccf286bba764950305cc",
+      "copySha256": "7b9fbe99cae22ca4d93407d30e56a1898975aafac9009915601c1f0a16520044",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
