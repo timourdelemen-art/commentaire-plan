@@ -102,7 +102,7 @@ niveau1: [
    ['Les effets de ses actes, puisqu’il ne sait plus ce que ses actes produisent.','no','Il ne regarde que cela : c’est ce que le non garde.'],
    ['Sa liberté.','no','Le sujet ne parle pas de liberté.']]},
   {b:'pb',p:'pb',q:'Quelle question met ces deux pertes face à face ?',o:[
-   ['Peut-on tirer la certitude d’avoir bien agi de son intention, aveugle aux effets de l’acte, ou de ses effets, qui livrent sa valeur au hasard ?','ok','Oui : les deux appuis sont là, chacun avec ce qu’il perd.'],
+   ['Peut-on être certain d’avoir bien agi, lorsque les raisons de notre choix peuvent être justifiées mais que nous ne connaissons pas toutes ses conséquences ?','ok','Oui : les deux appuis sont là, chacun avec ce qu’il perd.'],
    ['Peut-on être certain d’avoir bien agi, ou ne le peut-on pas ?','no','C’est le sujet redit deux fois : aucune perte n’apparaît.'],
    ['Comment pourrait-on jamais être certain d’avoir bien agi, puisque les effets de nos actes nous échappent et vont bien au-delà de ce que nous voyons ?','no','La question a déjà répondu : elle suppose qu’on ne peut pas.']]}
  ]},
@@ -170,7 +170,7 @@ niveau1: [
    ['L’inspiration.','no','Il la garde : c’est la force du non.'],
    ['Son public.','no','Le sujet ne parle pas du public.']]},
   {b:'pb',p:'pb',q:'Quelle question met ces deux pertes face à face ?',o:[
-   ['L’artiste maîtrise-t-il son œuvre comme un savoir-faire, qui ne laisse plus rien à inventer, ou l’invente-t-il à l’aveugle, sans plus en être l’auteur ?','ok','Oui : le métier et l’invention, chacun avec ce qu’il perd.'],
+   ['L’artiste sait-il ce qu’il fait, si son savoir-faire rend l’œuvre possible mais qu’aucune règle ne détermine entièrement l’invention ?','ok','Oui : le métier et l’invention, chacun avec ce qu’il perd.'],
    ['L’artiste sait-il ou ne sait-il pas ce qu’il fait ?','no','C’est le sujet redit : aucune perte n’apparaît.'],
    ['Comment l’artiste pourrait-il savoir ce qu’il fait, puisque l’inspiration le dépasse et que l’œuvre lui vient d’un lieu qu’il ne connaît pas lui-même ?','no','La question a déjà répondu : elle suppose qu’il ne le sait pas.']]}
  ]}
@@ -199,7 +199,7 @@ niveau2: [
    ['Une pensée précise : sans les mots, la pensée ne prend pas forme.','ok','Oui : le non garde la liberté, mais perd la pensée qui se dit.'],
    ['La maîtrise des mots.','no','Le non la garde, au contraire.'],
    ['Les langues étrangères, qui disent autrement ce que nous disons dans la nôtre.','no','Le sujet ne parle pas des langues étrangères.']]},
-  {b:'pb',p:'pb',w:1,q:'Formulez le problème en une question qui relie vos deux difficultés.',m:'Nous dire prisonniers du langage suppose-t-il un point de vue hors de lui, et nous en dire libres, une pensée sans mots qui ne pourrait rien penser ?'}
+  {b:'pb',p:'pb',w:1,q:'Formulez le problème en une question qui relie vos deux difficultés.',m:'Sommes-nous prisonniers du langage, lorsque les mots fixent des habitudes de pensée mais permettent aussi de les défaire et de les transformer ?'}
  ]}
 ],
 niveau3: [
