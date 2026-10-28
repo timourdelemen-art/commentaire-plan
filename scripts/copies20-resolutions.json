@@ -232,13 +232,13 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "En 1974, des chercheurs demandent la suspension de certaines expériences sur l’ADN recombinant ; la conférence d’Asilomar, en 1975, propose de reprendre une partie des travaux sous des précautions adaptées aux risques.",
+          "proposal": "Claude Bernard distingue les expériences sur l’être humain selon leur portée : « celles qui ne peuvent que nuire sont défendues, celles qui sont innocentes sont permises » (Introduction à l’étude de la médecine expérimentale, II, chap. II).",
           "preserves": [
             "Connaître le vrai pour lui-même, y compris sans usage prévisible",
             "Répondre de ce que ses vérités permettent de faire"
           ],
-          "cost": "Reste à déterminer qui peut participer à ce jugement lorsque les connaissances nécessaires sont spécialisées et les conséquences partagées.",
-          "remainingProblem": "Qui peut légitimement décider des risques acceptables quand la connaissance est réservée aux spécialistes, mais que les conséquences concernent tous les citoyens ?"
+          "cost": "Reste à savoir comment donner prise à ce jugement public lorsque les connaissances nécessaires demeurent hautement spécialisées.",
+          "remainingProblem": "Comment rendre le jugement public effectif lorsque seuls les spécialistes peuvent évaluer certains risques, mais que tous peuvent en subir les conséquences ?"
         },
         {
           "id": "alternative-a",
@@ -260,21 +260,21 @@
         }
       ],
       "selected": "retenue",
-      "comparison": "La distinction des jugements de vérité et de légitimité permet d'évaluer des actes sous incertitude sans faire du rendement prévisible le critère des découvertes. Elle surpasse le report de toute responsabilité après les applications, mais ne démontre pas à elle seule la nécessité d'une double aporie.",
-      "strongestObjection": "Une réponse affirmative peut dès le départ faire de l'utilité un horizon lointain sans exclure la recherche fondamentale : l'échec d'un critère de rendement anticipé ne réfute pas tout oui.",
-      "responseToObjection": "Objection recevable : le plan ne doit pas présenter sa branche I comme la conséquence nécessaire de toute réponse affirmative. La troisième partie propose une distinction utile, mais le verrou aporétique 3.4.9 reste à établir.",
-      "residual": "Reste à déterminer qui peut participer à ce jugement lorsque les connaissances nécessaires sont spécialisées et les conséquences partagées.",
-      "conclusionQuestion": "Qui peut légitimement décider des risques acceptables quand la connaissance est réservée aux spécialistes, mais que les conséquences concernent tous les citoyens ?",
+      "comparison": "La matrice opère successivement : distinction kantienne des questions théorique et pratique (III.1), limitation éthique des actes d'expérimentation chez Claude Bernard (III.2), participation des personnes concernées et expertise chez Dewey (III.3). Elle ne démontre pas encore le verrou aporétique 3.4.9.",
+      "strongestObjection": "Les neuf références rendent les opérations plus rigoureuses, mais Bacon, Descartes et Aristote ne prouvent pas que les réponses affirmatives et négatives fortes s'excluent ; un devoir social de contribution peut coexister avec la liberté de recherche.",
+      "responseToObjection": "L'objection demeure bloquante. La refonte renforce la matière philosophique sans prétendre valider l'architecture aporétique ; le statut reste proposé.",
+      "residual": "Reste à savoir comment donner prise à ce jugement public lorsque les connaissances nécessaires demeurent hautement spécialisées.",
+      "conclusionQuestion": "Comment rendre le jugement public effectif lorsque seuls les spécialistes peuvent évaluer certains risques, mais que tous peuvent en subir les conséquences ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 945
+        "words": 1375
       },
       "review": {
-        "author": "ChatGPT, refonte argumentaire du 28 octobre 2026",
+        "author": "ChatGPT, reprise textuelle à neuf opérations philosophiques, 28 octobre 2026",
         "status": "propose",
-        "independentReview": "Non auditée de manière indépendante. Objection bloquante 3.4.9 recensée : cumul du oui d'utilité large et du non au rendement prévisible. Ne pas certifier la copie comme un modèle V7.3 avant reconstruction de l'aporie."
+        "independentReview": "Citations vérifiées dans les sources signalées au dossier d'audit ; transfert des concepts explicité, pas d'attribution abusive. Audit externe du verrou V7.3 3.4.9, vérification bibliographique et tests du build restant à effectuer."
       },
-      "copySha256": "015e3ff0fce1c7dbbf928bcc73bc5ea3b7a18808a99b4d6e22eed1e9df0a858f",
+      "copySha256": "67789e2a4d4f46ae9da95b5cea7bfa5612e07e3662406499e4462be4422359f8",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
