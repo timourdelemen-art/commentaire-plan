@@ -5,12 +5,20 @@
     var level = 1, step = 0;
     var status = box.querySelector('[data-save-status]');
     var areas = Array.from(box.querySelectorAll('[data-draft]'));
+    var justification = box.querySelector('[data-justification]');
+    var justificationSave = box.querySelector('[data-justification-save]');
+    function showJustificationSave(ok) {
+      if (!justification || !justificationSave) return;
+      var message = !ok ? 'Enregistrement indisponible : gardez une copie de votre justification.' : justification.value.trim() ? 'Justification enregistrée automatiquement sur cet appareil.' : 'Votre justification s’enregistre automatiquement sur cet appareil.';
+      if (justificationSave.textContent !== message) justificationSave.textContent = message;
+    }
     var steps = Array.from(box.querySelectorAll('[data-step]'));
     var prefix = 'philo-explication:v1:' + box.dataset.parcours + ':';
     var storageAvailable = true;
     function saveStatus(ok) {
       storageAvailable = ok;
-      status.textContent = ok ? 'Brouillons enregistrés sur cet appareil. Ils ne sont pas envoyés à un correcteur.' : 'Enregistrement indisponible : gardez une copie de votre texte avant de quitter la page.';
+      var message = ok ? 'Brouillons enregistrés sur cet appareil. Ils ne sont pas envoyés à un correcteur.' : 'Enregistrement indisponible : gardez une copie de votre texte avant de quitter la page.';
+      if (status.textContent !== message) status.textContent = message;
     }
     try {
       localStorage.setItem(prefix + 'test', '1');
@@ -18,10 +26,11 @@
       areas.forEach(function (a) { a.value = localStorage.getItem(prefix + a.dataset.draft) || ''; });
       saveStatus(true);
     } catch (_) { saveStatus(false); }
+    showJustificationSave(storageAvailable);
     areas.forEach(function (a) {
       a.addEventListener('input', function () {
-        try { localStorage.setItem(prefix + a.dataset.draft, a.value); saveStatus(true); }
-        catch (_) { saveStatus(false); }
+        try { localStorage.setItem(prefix + a.dataset.draft, a.value); saveStatus(true); if (a === justification) showJustificationSave(true); }
+        catch (_) { saveStatus(false); if (a === justification) showJustificationSave(false); }
       });
     });
     function showLevel(n) {
@@ -69,6 +78,7 @@
         catch (_) { ok = false; }
       });
       saveStatus(ok);
+      showJustificationSave(ok);
     });
     box.querySelector('[data-compare]').addEventListener('click', function () {
       var model = box.querySelector('[data-model]');

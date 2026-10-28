@@ -21,6 +21,14 @@ const server=http.createServer((req,res)=>{const p=decodeURIComponent(new URL(re
    assert.equal(await page.locator('h1').count(),1);
    assert.equal(await page.locator('.ecrire-drill').count(),2);
    for(const b of await page.locator('[data-choice]').all()){await b.click();assert.match(await page.locator('[data-choice-feedback]').innerText(),/Solide|Défendable|À revoir/);}
+   const justification=page.locator('[data-justification]'),comparison=page.locator('[data-justification-comparison]');
+   const answer='Je justifie mon choix avec une raison précise du passage.';
+   await justification.fill(answer);assert.match(await page.locator('[data-justification-save]').innerText(),/enregistrée automatiquement/);
+   assert.equal(await comparison.count(),1);assert(!(await comparison.evaluate(e=>e.open)));
+   await comparison.locator('summary').click();assert(await comparison.evaluate(e=>e.open));
+   assert((await comparison.innerText()).includes('Une justification possible'));assert.equal(await justification.inputValue(),answer,'Comparer ne remplace pas la réponse de l’élève');
+   await page.reload();assert.equal(await justification.inputValue(),answer,'La justification est conservée après rechargement');
+   assert.match(await page.locator('[data-justification-save]').innerText(),/enregistrée automatiquement/);
    await page.locator('[data-level="2"]').click();
    for(let i=0;i<5;i++){
     await page.locator(`[data-goto-step="${i}"]`).click();
@@ -60,12 +68,14 @@ const server=http.createServer((req,res)=>{const p=decodeURIComponent(new URL(re
   assert.deepEqual(errors,[],width+' erreurs JavaScript');
   // Refus du stockage : les exercices demeurent utilisables et le message est explicite.
   const blocked=await context.newPage();await blocked.addInitScript(()=>{Object.defineProperty(window,'localStorage',{get(){throw Error('Refus');}});});
-  await blocked.goto(base+file(data.subjects[0]));assert.match(await blocked.locator('[data-save-status]').innerText(),/indisponible/);await blocked.locator('[data-level="3"]').click();assert(await blocked.locator('[data-panel="3"] textarea').isVisible());
+  await blocked.goto(base+file(data.subjects[0]));assert.match(await blocked.locator('[data-save-status]').innerText(),/indisponible/);assert.match(await blocked.locator('[data-justification-save]').innerText(),/indisponible/);await blocked.locator('[data-justification]').fill('Ma réponse reste utilisable sans stockage.');await blocked.locator('[data-justification-comparison] summary').click();assert(await blocked.locator('[data-justification-comparison]').evaluate(e=>e.open));assert.match(await blocked.locator('[data-justification-save]').innerText(),/indisponible/);await blocked.locator('[data-level="3"]').click();assert(await blocked.locator('[data-panel="3"] textarea').isVisible());
   await page.goto(base+file(data.subjects[0]));await page.locator('#onglet-corrige-onglet').click();await page.locator('[data-model] > summary').click();
   await page.locator('[data-model]').scrollIntoViewIfNeeded();
   if(process.env.PHILO_SCREENSHOT_DIR){fs.mkdirSync(process.env.PHILO_SCREENSHOT_DIR,{recursive:true});await page.screenshot({path:path.join(process.env.PHILO_SCREENSHOT_DIR,`explication-${width}.png`)});}
   console.log(`${width}px : huit textes, neuf modèles, niveaux, choix, aides, ateliers, fonctions, copie continue, liens et brouillons vérifiés.`);
   await context.close();
+  const nojs=await browser.newContext({javaScriptEnabled:false,viewport:{width,height:900}}),native=await nojs.newPage();
+  await native.goto(base+file(data.subjects[0]));await native.locator('[data-justification-comparison] summary').click();assert(await native.locator('[data-justification-comparison]').evaluate(e=>e.open));assert.equal(await native.locator('[data-justification-save]').textContent(),'');await nojs.close();
  }
  }finally{await browser.close();server.close();}
 })().catch(e=>{console.error(e);server.close();process.exitCode=1;});
