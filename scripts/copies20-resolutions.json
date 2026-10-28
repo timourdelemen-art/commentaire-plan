@@ -226,19 +226,19 @@
       ],
       "scene": {
         "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
-        "analysis": "Nul n’aurait pu commander cette découverte pour son usage ; mais, une fois trouvée, elle oblige le savant à répondre de ce qu’elle rend possible.",
-        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
+        "analysis": "La valeur d’une découverte ne se réduit donc pas à l’application qui l’attend ; mais la science ne peut ignorer les actes et les pouvoirs qu’elle rend possibles.",
+        "review": "Référence Einstein à vérifier séparément dans une source primaire : ne pas en déduire directement la bombe de l'équivalence masse-énergie."
       },
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "On peut ainsi laisser une recherche choisir ce qu’elle cherche, et examiner pourtant ses protocoles, ses dangers et ses moyens. En 1974, des biologistes suspendent eux-mêmes certaines expériences sur l’ADN recombinant ; à Asilomar, en 1975, ils fixent les précautions qui permettent de les reprendre : la question reste libre, la pratique répond de ses dangers.",
+          "proposal": "En 1974, des chercheurs demandent la suspension de certaines expériences sur l’ADN recombinant ; la conférence d’Asilomar, en 1975, propose de reprendre une partie des travaux sous des précautions adaptées aux risques.",
           "preserves": [
             "Connaître le vrai pour lui-même, y compris sans usage prévisible",
             "Répondre de ce que ses vérités permettent de faire"
           ],
-          "cost": "Reste la difficulté de juger publiquement une recherche dont ni les bénéfices ni certains risques ne sont encore connus.",
-          "remainingProblem": "Qui a qualité pour juger une recherche que seuls ses pairs comprennent, au nom de tous ceux qu’elle engage ?"
+          "cost": "Reste à déterminer qui peut participer à ce jugement lorsque les connaissances nécessaires sont spécialisées et les conséquences partagées.",
+          "remainingProblem": "Qui peut légitimement décider des risques acceptables quand la connaissance est réservée aux spécialistes, mais que les conséquences concernent tous les citoyens ?"
         },
         {
           "id": "alternative-a",
@@ -260,34 +260,34 @@
         }
       ],
       "selected": "retenue",
-      "comparison": "La responsabilité sur les pratiques dès la recherche évite le report fautif sans prescrire les résultats ; elle préserve mieux les deux acquis que le simple partage chronologique.",
-      "strongestObjection": "Le contrôle public peut censurer les questions dont il ne comprend pas l’intérêt.",
-      "responseToObjection": "Distinguer justification des moyens et promesse de rendement protège l’inconnu ; la légitimité du contrôle demeure le reste à discuter.",
-      "residual": "Reste la difficulté de juger publiquement une recherche dont ni les bénéfices ni certains risques ne sont encore connus.",
-      "conclusionQuestion": "Qui a qualité pour juger une recherche que seuls ses pairs comprennent, au nom de tous ceux qu’elle engage ?",
+      "comparison": "La distinction des jugements de vérité et de légitimité permet d'évaluer des actes sous incertitude sans faire du rendement prévisible le critère des découvertes. Elle surpasse le report de toute responsabilité après les applications, mais ne démontre pas à elle seule la nécessité d'une double aporie.",
+      "strongestObjection": "Une réponse affirmative peut dès le départ faire de l'utilité un horizon lointain sans exclure la recherche fondamentale : l'échec d'un critère de rendement anticipé ne réfute pas tout oui.",
+      "responseToObjection": "Objection recevable : le plan ne doit pas présenter sa branche I comme la conséquence nécessaire de toute réponse affirmative. La troisième partie propose une distinction utile, mais le verrou aporétique 3.4.9 reste à établir.",
+      "residual": "Reste à déterminer qui peut participer à ce jugement lorsque les connaissances nécessaires sont spécialisées et les conséquences partagées.",
+      "conclusionQuestion": "Qui peut légitimement décider des risques acceptables quand la connaissance est réservée aux spécialistes, mais que les conséquences concernent tous les citoyens ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 837
+        "words": 945
       },
       "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
+        "author": "ChatGPT, refonte argumentaire du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
+        "independentReview": "Non auditée de manière indépendante. Objection bloquante 3.4.9 recensée : cumul du oui d'utilité large et du non au rendement prévisible. Ne pas certifier la copie comme un modèle V7.3 avant reconstruction de l'aporie."
       },
-      "copySha256": "faf7100e0a2efddc1e5ee7ecc74b9e76729503cd7965f1b80eb02ceb65ed673e",
+      "copySha256": "015e3ff0fce1c7dbbf928bcc73bc5ea3b7a18808a99b4d6e22eed1e9df0a858f",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
           "Connaître le vrai pour lui-même, y compris sans usage prévisible",
           "Répondre de ce que ses vérités permettent de faire"
         ],
-        "presupposeCommun": "L’utilité et la vérité se disputeraient une même place : celle de la fin qui choisit les questions de la recherche.",
+        "presupposeCommun": "Hypothèse à éprouver : l'obligation d'utilité exigerait un bénéfice prévisible pour autoriser chaque recherche. Cette hypothèse ne découle pas de toute réponse affirmative.",
         "forme": "réciprocité",
-        "problematique": "P3 (exemple du catalogue)",
+        "problematique": "Question fidèle à l'opérateur normatif ; aporie non validée tant que le cumul des deux réponses reste disponible",
         "branchesIntroduction": "B1",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
-        "cumul": "« Recherche fondamentale libre, recherche appliquée utile » : sous le présupposé, tracer la frontière exige de juger chaque recherche par son utilité prévisible, ce que la première réponse refuse ; et la part libre ne répond toujours pas des pouvoirs qu’elle donne. Le cumul est exclu.",
-        "meilleurCas": "Une société qui financerait sans calcul laisserait encore la recherche sans répondre de ses expériences ; une recherche commandée par des besoins bien choisis perdrait encore les vérités sans usage connu."
+        "statut": "Proposition de refonte à auditer : la fidélité au sujet et les opérations sont renforcées ; la stricte unité aporétique V7.3 n'est pas validée (3.4.9).",
+        "cumul": "Test 3.4.9 non réussi : un défenseur de l'utilité peut reconnaître la recherche fondamentale et un défenseur de la vérité peut reconnaître des obligations éthiques. Leur cumul est concevable sans la transformation posée par le plan. Ne pas prétendre qu'une double aporie est démontrée.",
+        "meilleurCas": "Même la recherche exemplaire ignore certains usages futurs ; même la méthode scientifique exemplaire ne décide pas à elle seule du consentement et des risques. Cela établit une différence de normes, non automatiquement leur incompatibilité."
       }
     },
     "2026-asie-inconscient-bonheur": {
