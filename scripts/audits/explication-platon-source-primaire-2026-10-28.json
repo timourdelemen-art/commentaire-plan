@@ -1,0 +1,342 @@
+{
+  "id": "platon-2025-polynesie",
+  "source": {
+    "nature": "PDF officiel fourni par le propriétaire, extrait et pages2–3 inspectés",
+    "url": "https://eduscol.education.gouv.fr/sites/default/files/document/25-phgepo1-a16pdf-125396.pdf",
+    "sha256_pdf": "ffc0e2b86e6bcf93f8c182cd3b21cc839ba8827de7c52efc605c78cec51cd255",
+    "extrait_normalise_sha256": "5cd59b45eccb424bb3220df421808980113607769acdbf2905231975b9c0c0f3",
+    "code": "25-PHGEPO1",
+    "limites": "7phrases S1–S7, identifiants éditoriaux ; traduction et édition non indiquées ; IVe siècle est une datation."
+  },
+  "ancienne_copie": "scripts/archives/explications-philosophiques-2026-10-27.json#platon-2025-polynesie",
+  "nombre_phrases": 30,
+  "registre": [
+    {
+      "id": "C01",
+      "texte": "Dans cet extrait des Lois, Platon examine l’indulgence envers soi et les erreurs qu’elle fait commettre.",
+      "fonction": "Présenter l’objet précis",
+      "ancrage": "S1–S2",
+      "operation": "Identifier le rapport entre indulgence et faute",
+      "justification": "S1 nomme l’indulgence ; S2 l’attribue aux fautes.",
+      "lien_suivant": "C02",
+      "statut_operateur": "proposée ; interprétation locale justifiée par le passage, pas preuve doctrinale extérieure"
+    },
+    {
+      "id": "C02",
+      "texte": "Nous tenons volontiers cet attachement pour naturel : pourquoi faudrait-il combattre ce qui paraît appartenir à notre nature ?",
+      "fonction": "Faire apparaître la difficulté de la justification par le naturel",
+      "ancrage": "S1",
+      "operation": "Mettre en tension normalité et justification",
+      "justification": "S1 rapporte la justification par naturel et ordre des choses, que S2 récuse.",
+      "lien_suivant": "C03",
+      "statut_operateur": "proposée ; interprétation locale justifiée par le passage, pas preuve doctrinale extérieure"
+    },
+    {
+      "id": "C03",
+      "texte": "Platon soutient que chacune de nos fautes a pour cause un excès d’amour de soi : en nous préférant au vrai, nous faussons aussi bien notre jugement sur les actions que l’évaluation de notre savoir.",
+      "fonction": "Énoncer la thèse et son mécanisme, sans atténuer sa généralité",
+      "ancrage": "S2–S6",
+      "operation": "Reconstruire la thèse causale et ses deux applications",
+      "justification": "S2 généralise la cause ; S3 et S5–S6 décrivent deux domaines de jugement.",
+      "lien_suivant": "C04",
+      "statut_operateur": "proposée ; interprétation locale justifiée par le passage, pas preuve doctrinale extérieure"
+    },
+    {
+      "id": "C04",
+      "texte": "L’enjeu est de pouvoir reconnaître ce qui vaut, même lorsque cette reconnaissance contrarie l’estime que nous avons de nous-mêmes.",
+      "fonction": "Dégager l’enjeu commun aux deux domaines",
+      "ancrage": "S3–S7",
+      "operation": "Dégager le critère d’évaluation commun",
+      "justification": "S3 oppose intérêt et vrai ; S4 fait estimer l’action d’autrui ; S7 demande de rechercher meilleur.",
+      "lien_suivant": "C05",
+      "statut_operateur": "proposée ; interprétation locale justifiée par le passage, pas preuve doctrinale extérieure"
+    },
+    {
+      "id": "C05",
+      "texte": "Le texte explique d’abord l’aveuglement, lui oppose le juste comme critère, étend le diagnostic à la prétention de savoir, puis prescrit de rechercher quelqu’un de meilleur que soi.",
+      "fonction": "Annoncer les quatre mouvements effectifs",
+      "ancrage": "S1–S7",
+      "operation": "Reconstruire les frontières argumentatives",
+      "justification": "Les frontières suivent S1–S3 / S4 / S5–S6 / S7.",
+      "lien_suivant": "C06",
+      "statut_operateur": "proposée ; interprétation locale justifiée par le passage, pas preuve doctrinale extérieure"
+    },
+    {
+      "id": "C06",
+      "texte": "Le mal est dit « implanté » dans l’âme de la plupart des hommes : Platon vise une disposition enracinée et largement partagée, non une faute exceptionnelle.",
+      "fonction": "Préciser l’extension et le caractère du mal",
+      "ancrage": "S1",
+      "operation": "Délimiter la portée du diagnostic",
+      "justification": "S1 : implanté et la plupart précisent l’enracinement et l’extension.",
+      "lien_suivant": "C07",
+      "statut_operateur": "proposée ; interprétation locale justifiée par le passage, pas preuve doctrinale extérieure"
+    },
+    {
+      "id": "C07",
+      "texte": "Cette indulgence se protège elle-même de la correction : personne ne cherche à lui échapper, puisqu’on la présente comme naturelle et conforme à l’ordre des choses.",
+      "fonction": "Reconstruire le rôle de l’excuse rapportée",
+      "ancrage": "S1",
+      "operation": "Inférer la protection du défaut par sa normalisation",
+      "justification": "S1 joint personne ne prend les moyens et le discours qui normalise l’indulgence : inférence contextuelle.",
+      "lien_suivant": "C08",
+      "statut_operateur": "proposée ; interprétation locale justifiée par le passage, pas preuve doctrinale extérieure"
+    },
+    {
+      "id": "C08",
+      "texte": "Le « Oui, mais » refuse cette justification : qu’une disposition soit ordinaire ne prouve pas qu’elle soit bonne ni qu’il faille la conserver.",
+      "fonction": "Distinguer le constat du naturel de sa justification",
+      "ancrage": "S1–S2",
+      "operation": "Distinguer constat naturel et norme",
+      "justification": "S2 Oui, mais oppose la faute à la normalité alléguée en S1 : la normalité ne suffit pas à justifier.",
+      "lien_suivant": "C09",
+      "statut_operateur": "proposée ; interprétation locale justifiée par le passage, pas preuve doctrinale extérieure"
+    },
+    {
+      "id": "C09",
+      "texte": "Ce mal est donc dit « plus grave que tous les autres » en raison de sa portée : Platon attribue « chacune de nos fautes », « en toute occasion », à cet excès, sans en faire leur cause unique.",
+      "fonction": "Conserver les quantificateurs et la limite de l’attribution causale",
+      "ancrage": "S1–S2",
+      "operation": "Relier gravité et généralité sans exclusivité",
+      "justification": "S1 plus grave ; S2 chacune/en toute occasion ; aucune exclusivité causale ajoutée.",
+      "lien_suivant": "C10",
+      "statut_operateur": "proposée ; interprétation locale justifiée par le passage, pas preuve doctrinale extérieure"
+    },
+    {
+      "id": "C10",
+      "texte": "Le premier « Car » donne la raison : celui qui aime est aveugle à l’égard de l’objet aimé ; appliqué à soi, cet attachement empêche de s’évaluer impartialement.",
+      "fonction": "Expliquer l’application à soi de la prémisse sur l’amour",
+      "ancrage": "S3",
+      "operation": "Appliquer la prémisse générale au cas de soi",
+      "justification": "S3 donne une maxime sur celui qui aime puis applique l’aveuglement à l’évaluation intéressée.",
+      "lien_suivant": "C11",
+      "statut_operateur": "proposée ; interprétation locale justifiée par le passage, pas preuve doctrinale extérieure"
+    },
+    {
+      "id": "C11",
+      "texte": "Cet aveuglement n’est pas une absence de jugement : l’homme juge, mais il place son intérêt au-dessus du vrai, de sorte qu’il approuve ce qui le favorise plutôt que ce qui le mérite.",
+      "fonction": "Reconstituer la substitution de critère",
+      "ancrage": "S3",
+      "operation": "Analyser la substitution du critère de jugement",
+      "justification": "S3 ne supprime pas le jugement : il le dit erroné et explique la priorité accordée à l’intérêt.",
+      "lien_suivant": "C12",
+      "statut_operateur": "proposée ; interprétation locale justifiée par le passage, pas preuve doctrinale extérieure"
+    },
+    {
+      "id": "C12",
+      "texte": "Le juste, le bon et le beau deviennent ainsi les objets d’une appréciation intéressée : la préférence pour soi fausse ce que l’on estime devoir approuver.",
+      "fonction": "Expliquer les domaines atteints sans les réduire à l’utilité",
+      "ancrage": "S3",
+      "operation": "Distinguer objets évalués et critère d’évaluation",
+      "justification": "S3 nomme juste, bon et beau comme objets du jugement ; vrai est le critère sacrifié.",
+      "lien_suivant": "C13",
+      "statut_operateur": "proposée ; interprétation locale justifiée par le passage, pas preuve doctrinale extérieure"
+    },
+    {
+      "id": "C13",
+      "texte": "Ce mécanisme explique pourquoi l’indulgence peut engendrer des fautes ; sa présence dans chacune d’elles reste la thèse générale que Platon soutient ici.",
+      "fonction": "Distinguer le mécanisme expliqué de la généralité affirmée",
+      "ancrage": "S2–S3",
+      "operation": "Distinguer mécanisme expliqué et généralité soutenue",
+      "justification": "S2 affirme la généralité ; S3 explique le mécanisme sans examiner une liste exhaustive de cas.",
+      "lien_suivant": "C14",
+      "statut_operateur": "proposée ; interprétation locale justifiée par le passage, pas preuve doctrinale extérieure"
+    },
+    {
+      "id": "C14",
+      "texte": "Un jugement ainsi faussé exige un autre critère : Platon oppose à la préférence pour soi l’obligation de chérir le juste.",
+      "fonction": "Rendre nécessaire la prescription morale",
+      "ancrage": "S3–S4",
+      "operation": "Déduire le besoin d’un autre critère",
+      "justification": "S4 prescrit le juste en réponse à la préférence intéressée de S3.",
+      "lien_suivant": "C15",
+      "statut_operateur": "proposée ; interprétation locale justifiée par le passage, pas preuve doctrinale extérieure"
+    },
+    {
+      "id": "C15",
+      "texte": "Être un « grand homme » ne consiste donc pas ici à s’attribuer une valeur supérieure, mais à reconnaître celle de l’action juste.",
+      "fonction": "Élucider la grandeur par le critère donné dans le passage",
+      "ancrage": "S4",
+      "operation": "Définir la grandeur par la norme locale",
+      "justification": "S4 définit localement la grandeur par ce que l’on doit chérir.",
+      "lien_suivant": "C16",
+      "statut_operateur": "proposée ; interprétation locale justifiée par le passage, pas preuve doctrinale extérieure"
+    },
+    {
+      "id": "C16",
+      "texte": "La précision « que l’action juste soit la sienne ou plutôt celle d’autrui » soumet les deux personnes à la même exigence : l’identité de l’auteur ne décide pas de la valeur de l’acte.",
+      "fonction": "Reconstruire l’indépendance du critère à l’égard de la personne",
+      "ancrage": "S4",
+      "operation": "Dissocier valeur de l’acte et identité de l’auteur",
+      "justification": "S4 cite les deux auteurs possibles de l’action juste sans modifier son critère.",
+      "lien_suivant": "C17",
+      "statut_operateur": "proposée ; interprétation locale justifiée par le passage, pas preuve doctrinale extérieure"
+    },
+    {
+      "id": "C17",
+      "texte": "Refuser à autrui l’estime qu’on s’accorderait pour une action également juste révélerait précisément la partialité dénoncée.",
+      "fonction": "Mettre le critère à l’épreuve d’une comparaison explicative",
+      "ancrage": "S3–S4",
+      "operation": "Appliquer le critère à un cas symétrique",
+      "justification": "Comparaison explicative construite par l’opérateur à partir du même critère, pas exemple attribué à Platon.",
+      "lien_suivant": "C18",
+      "statut_operateur": "proposée ; interprétation locale justifiée par le passage, pas preuve doctrinale extérieure"
+    },
+    {
+      "id": "C18",
+      "texte": "Il ne s’agit donc pas de préférer systématiquement autrui à soi : ma propre action mérite aussi d’être aimée lorsqu’elle est juste, mais parce qu’elle est juste, non parce qu’elle est mienne.",
+      "fonction": "Prévenir le contresens d’une préférence inverse pour toute action d’autrui",
+      "ancrage": "S4",
+      "operation": "Réfuter la préférence automatique pour autrui",
+      "justification": "S4 dit aussi la sienne : sa valeur n’est pas niée ; elle dépend du juste.",
+      "lien_suivant": "C19",
+      "statut_operateur": "proposée ; interprétation locale justifiée par le passage, pas preuve doctrinale extérieure"
+    },
+    {
+      "id": "C19",
+      "texte": "Avec « cette même erreur », Platon passe au savoir sans changer d’explication : la préférence pour soi conduit aussi à prendre son ignorance pour de la sagesse.",
+      "fonction": "Établir l’unité de l’extension intellectuelle",
+      "ancrage": "S5",
+      "operation": "Étendre le mécanisme moral à la présomption de savoir",
+      "justification": "S5 dit cette même erreur et prend l’ignorance pour la sagesse.",
+      "lien_suivant": "C20",
+      "statut_operateur": "proposée ; interprétation locale justifiée par le passage, pas preuve doctrinale extérieure"
+    },
+    {
+      "id": "C20",
+      "texte": "L’opposition entre ne savoir « pour ainsi dire rien » et estimer « tout savoir » mesure l’écart entre nos capacités et l’opinion avantageuse que nous en avons.",
+      "fonction": "Expliquer le contraste en conservant la restriction",
+      "ancrage": "S6",
+      "operation": "Mesurer l’écart entre capacité et estimation",
+      "justification": "S6 restreint par pour ainsi dire et oppose savoir effectif et estimation totale.",
+      "lien_suivant": "C21",
+      "statut_operateur": "proposée ; interprétation locale justifiée par le passage, pas preuve doctrinale extérieure"
+    },
+    {
+      "id": "C21",
+      "texte": "L’ignorance n’est donc pas seule en cause : reconnue comme telle, elle permettrait de chercher une aide, tandis que la certitude de savoir rend cette aide apparemment inutile.",
+      "fonction": "Distinguer le manque de savoir de la présomption qui empêche sa correction",
+      "ancrage": "S5–S6",
+      "operation": "Distinguer ignorance et méconnaissance de son ignorance",
+      "justification": "S6 donne l’ignorance, la présomption et le refus : distinction reconstruite à partir du remède de S7.",
+      "lien_suivant": "C22",
+      "statut_operateur": "proposée ; interprétation locale justifiée par le passage, pas preuve doctrinale extérieure"
+    },
+    {
+      "id": "C22",
+      "texte": "Nous refusons alors de laisser faire aux autres ce que nous ne savons pas faire et nous l’entreprenons nous-mêmes : la fausse évaluation de soi commande une mauvaise répartition de l’action.",
+      "fonction": "Reconstruire le passage du jugement à la conduite",
+      "ancrage": "S6",
+      "operation": "Déduire la conduite de la fausse estimation",
+      "justification": "S6 joint explicitement refus de laisser faire autrui et entreprise en propre du non-maîtrisé.",
+      "lien_suivant": "C23",
+      "statut_operateur": "proposée ; interprétation locale justifiée par le passage, pas preuve doctrinale extérieure"
+    },
+    {
+      "id": "C23",
+      "texte": "Le « forcément » porte sur cet enchaînement : Platon présente l’erreur pratique comme la conséquence du défaut de savoir joint au refus de recourir à autrui, non comme une fatalité à laquelle tout ignorant serait condamné.",
+      "fonction": "Préciser le mécanisme et la portée de la nécessité avancée par l’auteur",
+      "ancrage": "S6–S7",
+      "operation": "Délimiter la nécessité conditionnelle invoquée",
+      "justification": "S6 parce que / forcément ; S7 propose un remède : l’auteur avance une conséquence conditionnelle, pas une fatalité pour tout ignorant.",
+      "lien_suivant": "C24",
+      "statut_operateur": "proposée ; interprétation locale justifiée par le passage, pas preuve doctrinale extérieure"
+    },
+    {
+      "id": "C24",
+      "texte": "Le « Aussi » tire la conséquence du diagnostic : pour éviter ces fautes, il faut agir sur la préférence qui fausse le jugement, et non seulement acquérir davantage de connaissances.",
+      "fonction": "Déduire la nécessité du remède à partir de la cause",
+      "ancrage": "S2–S7",
+      "operation": "Déduire le remède du diagnostic causal",
+      "justification": "S7 Aussi et fuir l’amour excessif répondent à la cause générale S2 et à la présomption S6.",
+      "lien_suivant": "C25",
+      "statut_operateur": "proposée ; interprétation locale justifiée par le passage, pas preuve doctrinale extérieure"
+    },
+    {
+      "id": "C25",
+      "texte": "C’est l’excès d’amour de soi qu’il faut fuir : le remède n’ordonne donc pas de se haïr.",
+      "fonction": "Distinguer la correction de l’excès de la haine de soi",
+      "ancrage": "S7",
+      "operation": "Délimiter la prescription visant l’excès",
+      "justification": "S7 cible l’excès, aucune prescription de haine de soi.",
+      "lien_suivant": "C26",
+      "statut_operateur": "proposée ; interprétation locale justifiée par le passage, pas preuve doctrinale extérieure"
+    },
+    {
+      "id": "C26",
+      "texte": "Rechercher toujours quelqu’un de « meilleur » inverse le refus précédent : il faut reconnaître une supériorité qui permette de sortir de sa propre insuffisance, plutôt que réserver d’avance tout mérite à soi.",
+      "fonction": "Montrer comment la prescription répond au refus de laisser faire",
+      "ancrage": "S4–S7",
+      "operation": "Inverser le refus de recourir à autrui",
+      "justification": "S7 rechercher toujours quelqu’un de meilleur répond au refus de laisser faire de S6.",
+      "lien_suivant": "C27",
+      "statut_operateur": "proposée ; interprétation locale justifiée par le passage, pas preuve doctrinale extérieure"
+    },
+    {
+      "id": "C27",
+      "texte": "N’importe quel autre ne devient pas meilleur du seul fait qu’il est autre : la recommandation suppose de reconnaître un mérite réel, comme la justice d’une action ne dépendait pas de son auteur.",
+      "fonction": "Distinguer la recherche d’une supériorité du conformisme envers autrui",
+      "ancrage": "S4–S7",
+      "operation": "Distinguer altérité et supériorité pertinente",
+      "justification": "S7 exige meilleur, pas simplement autre ; S4 fournit le critère de mérite indépendant de la personne.",
+      "lien_suivant": "C28",
+      "statut_operateur": "proposée ; interprétation locale justifiée par le passage, pas preuve doctrinale extérieure"
+    },
+    {
+      "id": "C28",
+      "texte": "Enfin, la honte ne doit pas servir d’abri : éviter l’aveu de son infériorité pour préserver son image reconduirait l’indulgence que le remède doit combattre.",
+      "fonction": "Expliquer le rôle local de la honte dans le maintien du défaut",
+      "ancrage": "S1–S7",
+      "operation": "Reconstruire le rôle protecteur de la honte",
+      "justification": "S7 refuse de s’abriter derrière la honte ; S1 explique la protection de soi par l’indulgence : inférence locale.",
+      "lien_suivant": "C29",
+      "statut_operateur": "proposée ; interprétation locale justifiée par le passage, pas preuve doctrinale extérieure"
+    },
+    {
+      "id": "C29",
+      "texte": "L’amour de soi devient donc un principe d’erreur lorsqu’il fait de notre intérêt le critère du mérite et de notre propre jugement la mesure du savoir.",
+      "fonction": "Répondre au problème par le mécanisme commun",
+      "ancrage": "S1–S6",
+      "operation": "Réunir les deux domaines par le critère commun",
+      "justification": "S3–S6 présentent la substitution intéressée du critère dans l’action et le savoir.",
+      "lien_suivant": "C30",
+      "statut_operateur": "proposée ; interprétation locale justifiée par le passage, pas preuve doctrinale extérieure"
+    },
+    {
+      "id": "C30",
+      "texte": "Platon lui oppose deux gestes solidaires : estimer le juste indépendamment de celui qui agit et reconnaître quelqu’un de meilleur sans se servir de la honte pour s’y refuser, afin que la préférence pour soi ne ferme plus la possibilité de se corriger.",
+      "fonction": "Réunir les prescriptions et leur gain philosophique",
+      "ancrage": "S4–S7",
+      "operation": "Articuler les prescriptions contre le même mécanisme",
+      "justification": "S4 et S7 forment deux réponses au même mécanisme ; la honte n’est pas supprimée mais interdite comme abri.",
+      "lien_suivant": "Fin : réponse au problème",
+      "statut_operateur": "proposée ; interprétation locale justifiée par le passage, pas preuve doctrinale extérieure"
+    }
+  ],
+  "concordance": [
+    {
+      "ancien": "Introduction, progression annoncée : intellectuel puis remède",
+      "diagnostic": "La norme du juste précédait déjà le diagnostic intellectuel dans le passage, mais l’annonce ne le disait pas.",
+      "nouveau": "C05 et quatre mouvements attestés."
+    },
+    {
+      "ancien": "Indulgence et aveuglement résumés en4phrases",
+      "diagnostic": "Excuse du naturel, gravité, quantificateurs et mécanisme du critère insuffisamment expliqués.",
+      "nouveau": "C06–C13."
+    },
+    {
+      "ancien": "Norme impersonnelle en3assertions",
+      "diagnostic": "Grandeur et identité de l’auteur à expliciter, sans préférer tout autre à soi.",
+      "nouveau": "C14–C18."
+    },
+    {
+      "ancien": "Illusion du savoir puis conseils en5phrases",
+      "diagnostic": "Séparer ignorance/présomption/refus et conserver la portée de forcément, toujours et honte.",
+      "nouveau": "C19–C28."
+    },
+    {
+      "ancien": "Conclusion en2phrases",
+      "diagnostic": "Mécanisme du critère et articulation des deux prescriptions à reconstruire.",
+      "nouveau": "C29–C30."
+    }
+  ]
+}

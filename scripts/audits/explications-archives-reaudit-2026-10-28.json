@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-28",
+  "objet": "Audit indépendant de trois supports archivés puis réaudit des corrections effectivement appliquées",
+  "auditeur": "/root/audit_explications_protocole ; aucun sous-agent supplémentaire, aucune modification des fichiers du dépôt",
+  "versions": {
+    "checkout_initial": "/workspace/commentaire-plan",
+    "commit_initial": "dffee360e3fbc822480a6797da476fffc2c564c5",
+    "worktree_corrige": "/workspace/explications-audit-documente",
+    "commit_de_base_worktree": "f4844dc20288a439b446ab8964a2795d3ba6a822",
+    "branche": "chatgpt/explications-protocole-conformite",
+    "empreintes_version_corrigee": {
+      "scripts/explication-textes-data.json": "0793817215fb486da117d5024b31c99ef71bc042a043460e32ef82d60e335513",
+      "philosophie-explication-levi-strauss-2023-metropole.html": "96b581bd0a25574831f3a2c3c0800cd9d435f0291fe69052584219c2933b0caf",
+      "philosophie-explication-bergson-2023-centres-etrangers.html": "773bde8b8abd9683e762bbe603023e457688d941e13dd3211b578e549a7e647c",
+      "philosophie-explication-weil-2024-metropole.html": "8b67dacf5788089c0f283ee02a679372fa1d150d1931968cc912f21f161d5a31"
+    }
+  },
+  "verdict_final": {
+    "trois_copies": "Recevables après corrections quant au sens et aux maillons essentiels sur ces trois transcriptions archivées.",
+    "cinq_reprises": "Cinq ensembles de corrections effectivement retrouvés et réaudités ; les ajustements supplémentaires demandés sur Bergson et Lévi-Strauss sont présents.",
+    "cinq_exercices": "Cinq évolutions cohérentes avec l’archive et les modèles ; les réponses attendues conservent quatre, deux et quatre phrases.",
+    "blocage_semantique_restant": false,
+    "collation_officielle": "Non effectuée : aucune attestation de ponctuation ou de numérotation officielle, aucun rapprochement Platon 2007/2025 certifié.",
+    "publication": "État de travail relu pour le dossier ; publication suspendue sur décision explicite du propriétaire avant son examen des corrections ; priorité à l’amélioration de toutes les explications philosophiques, bibliothèque ensuite. Aucun accord de publication n’est délivré.",
+    "derniere_reparation_lexicale": "Le pluriel opérateurs est désormais repris exactement ; l’observation antérieure de nombre est traitée.",
+    "suite": "Bibliothèque différée jusqu’à la révision des 14 explications philosophiques."
+  },
+  "format": "Synthèse du réaudit ; les citations et preuves localisées sont conservées dans le rapport Markdown.",
+  "modeles": [
+    {
+      "id": "levi-strauss-2023-metropole",
+      "verdict": "Recevable quant au sens, au mouvement et aux maillons essentiels par comparaison avec la transcription pédagogique archivée ; corrections appliquées réauditées.",
+      "correspondance_source": {
+        "Année": "2023",
+        "Série": "GÉN.",
+        "Lieu": "MÉTROPOLE",
+        "Session": "NORMALE"
+      }
+    },
+    {
+      "id": "bergson-2023-centres-etrangers",
+      "verdict": "Recevable quant au sens, au mouvement et aux maillons essentiels par comparaison avec la transcription pédagogique archivée ; corrections appliquées réauditées.",
+      "correspondance_source": {
+        "Année": "2023",
+        "Série": "GÉN.",
+        "Lieu": "CENTRES ÉTRANGERS GROUPE 1",
+        "Session": "NORMALE"
+      }
+    },
+    {
+      "id": "weil-2024-metropole",
+      "verdict": "Recevable quant au sens, au mouvement et aux maillons essentiels par comparaison avec la transcription pédagogique archivée ; corrections appliquées réauditées.",
+      "correspondance_source": {
+        "Année": "2024",
+        "Série": "GÉN.",
+        "Lieu": "MÉTROPOLE, LA RÉUNION, MAYOTTE",
+        "Session": "NORMALE"
+      }
+    }
+  ],
+  "limites": [
+    "Comparaison à la transcription pédagogique archivée ; PDF officiel non collationné.",
+    "Aucune identité entre Platon2007 et Platon2025 attestée."
+  ]
+}
