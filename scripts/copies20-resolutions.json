@@ -232,13 +232,13 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Claude Bernard distingue les expériences sur l’être humain selon leur portée : « celles qui ne peuvent que nuire sont défendues, celles qui sont innocentes sont permises » (Introduction à l’étude de la médecine expérimentale, II, chap. II).",
+          "proposal": "Claude Bernard fixe à l’expérimentation sur l’homme une limite indépendante de son intérêt scientifique : « celles qui ne peuvent que nuire sont défendues » (Introduction à l’étude de la médecine expérimentale, II, chap. II).",
           "preserves": [
             "Connaître le vrai pour lui-même, y compris sans usage prévisible",
             "Répondre de ce que ses vérités permettent de faire"
           ],
-          "cost": "Reste à savoir comment donner prise à ce jugement public lorsque les connaissances nécessaires demeurent hautement spécialisées.",
-          "remainingProblem": "Comment rendre le jugement public effectif lorsque seuls les spécialistes peuvent évaluer certains risques, mais que tous peuvent en subir les conséquences ?"
+          "cost": "Reste à établir quelles institutions permettent réellement ce jugement lorsque la compétence technique est inégalement partagée et les conséquences incertaines.",
+          "remainingProblem": "Comment instituer un jugement commun sur les risques d’une recherche lorsque la connaissance demeure spécialisée et que ses conséquences restent incertaines ?"
         },
         {
           "id": "alternative-a",
@@ -260,21 +260,21 @@
         }
       ],
       "selected": "retenue",
-      "comparison": "La matrice opère successivement : distinction kantienne des questions théorique et pratique (III.1), limitation éthique des actes d'expérimentation chez Claude Bernard (III.2), participation des personnes concernées et expertise chez Dewey (III.3). Elle ne démontre pas encore le verrou aporétique 3.4.9.",
-      "strongestObjection": "Les neuf références rendent les opérations plus rigoureuses, mais Bacon, Descartes et Aristote ne prouvent pas que les réponses affirmatives et négatives fortes s'excluent ; un devoir social de contribution peut coexister avec la liberté de recherche.",
-      "responseToObjection": "L'objection demeure bloquante. La refonte renforce la matière philosophique sans prétendre valider l'architecture aporétique ; le statut reste proposé.",
-      "residual": "Reste à savoir comment donner prise à ce jugement public lorsque les connaissances nécessaires demeurent hautement spécialisées.",
-      "conclusionQuestion": "Comment rendre le jugement public effectif lorsque seuls les spécialistes peuvent évaluer certains risques, mais que tous peuvent en subir les conséquences ?",
+      "comparison": "Par comparaison, la simple séparation entre science pure et applications attribue arbitrairement des tâches à deux domaines ; la processualisation exigerait un mécanisme de passage nécessaire de la connaissance à l'usage qu'on ne peut prouver. Le déplacement retenu à titre provisoire prend pour point d'appui la phénoménotechnique de Bachelard : connaître expérimentalement suppose déjà agir (III.1), la justification des actes est autre que celle du vrai (Bernard, III.2), et ce jugement doit articuler les savoirs des experts et des personnes affectées (Dewey, III.3). Il ne résout cependant pas la défaillance du test de conjonction 3.4.9.",
+      "strongestObjection": "La science, au sens du sujet, dépasse les sciences expérimentales : l'analyse bachelardienne ne s'étend pas aux mathématiques sans démonstration supplémentaire. Et une responsabilité morale des pratiques, même publique, n'est pas synonyme d'utilité garantie. Ces limites commandent une réponse à l'échelle de l'activité humaine de recherche, pas un abandon de l'opérateur doit-elle.",
+      "responseToObjection": "L'inférence III.1 est explicitement circonscrite à la recherche expérimentale, comme cas décisif contre une opposition universelle entre savoir et action. III.2 fixe une norme des moyens et III.3 une obligation collective orientée vers le bien commun, sans prétendre montrer une impossibilité aporétique des deux réponses initiales. Le verrou 3.4.9 reste ouvert.",
+      "residual": "Reste à établir quelles institutions permettent réellement ce jugement lorsque la compétence technique est inégalement partagée et les conséquences incertaines.",
+      "conclusionQuestion": "Comment instituer un jugement commun sur les risques d’une recherche lorsque la connaissance demeure spécialisée et que ses conséquences restent incertaines ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 1342
+        "words": 1427
       },
       "review": {
-        "author": "ChatGPT, reprise textuelle à neuf opérations philosophiques, 28 octobre 2026",
+        "author": "ChatGPT, étude croisée V7.3 et Dictionnaire paradoxal, 28 octobre 2026",
         "status": "propose",
-        "independentReview": "Citations et leur domaine documentés dans le dossier d'audit, mais les réserves sont conservées dans le travail préparatoire et n'ont pas à être mécaniquement exposées dans chaque paragraphe. Audit indépendant de l'aporie 3.4.9 et build non effectués."
+        "independentReview": "III a trois opérations inférentielles distinctes et citations en textes sources vérifiées : Bachelard/Le Nouvel Esprit scientifique ; Bernard/Introduction à l'étude de la médecine expérimentale ; Dewey/The Public and Its Problems. L'applicabilité du déplacement au sujet exact et l'aporie 3.4.9 demeurent non validées. Tests de build et audit indépendant non réalisés."
       },
-      "copySha256": "3ed60a59974fbd62c13f8ba242f2b90472c7d5bf4fa3812f9cab14f18b7b8be0",
+      "copySha256": "7afce601280e87abc630e610e6d77bbb0e2e757a9fd57eeec66bce1de8273d7f",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -285,7 +285,7 @@
         "forme": "réciprocité",
         "problematique": "Question fidèle à l'opérateur normatif ; aporie non validée tant que le cumul des deux réponses reste disponible",
         "branchesIntroduction": "B1",
-        "statut": "Proposition de refonte à auditer : la fidélité au sujet et les opérations sont renforcées ; la stricte unité aporétique V7.3 n'est pas validée (3.4.9).",
+        "statut": "Refonte de III selon la matrice candidate du déplacement de l'exigence, avec appui sur l'article « Expérimentation » du Dictionnaire ; verdict V7.3 bloqué par le test 3.4.9 et la non-démonstration d'une aporie nécessaire.",
         "cumul": "Test 3.4.9 non réussi : un défenseur de l'utilité peut reconnaître la recherche fondamentale et un défenseur de la vérité peut reconnaître des obligations éthiques. Leur cumul est concevable sans la transformation posée par le plan. Ne pas prétendre qu'une double aporie est démontrée.",
         "meilleurCas": "Même la recherche exemplaire ignore certains usages futurs ; même la méthode scientifique exemplaire ne décide pas à elle seule du consentement et des risques. Cela établit une différence de normes, non automatiquement leur incompatibilité."
       }
