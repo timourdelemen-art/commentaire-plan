@@ -51,3 +51,45 @@ Sujet : « La science doit-elle être utile ? ». L’opérateur « doit-elle »
 - Vérifier la cohérence du questionnaire « chaîne », du « plan pas à pas », du corrigé détaillé et de la « copie à 20 » après génération.
 
 Un contrôle de traçabilité des fichiers source ne remplace pas la validation philosophique exigée par la V7.3.
+
+
+## Révision du 28 octobre : la citation comme opérateur, non comme décoration
+
+**Décision éditoriale.** Les neuf sous-parties reçoivent chacune une pensée qui accomplit l'opération. Un auteur ne sert jamais à baptiser une idée déjà écrite : sa proposition fournit une prémisse, une distinction, un test de suffisance ou une norme permettant d'en tirer une conséquence. Le geste de l'élève est rendu visible *après* la référence, pas supprimé par elle.
+
+| Sous-partie | Texte mobilisé | Ce que l'auteur permet de faire | Vigilance |
+| --- | --- | --- | --- |
+| I.1 | Bacon, *Novum Organum*, I, §81 | Passer du simple fait des applications à la fin humaine donnée à la science | Une fin n'est pas encore un devoir |
+| I.2 | Descartes, *Discours*, VI | Déduire l'obligation de contribuer du devoir de procurer le bien général | Contribution n'équivaut pas à rendement de chaque projet |
+| I.3 | Bachelard, *Formation*, I | Démasquer le besoin qui prétend commander la connaissance | Il vise l'opinion, pas toutes les recherches utiles |
+| II.1 | Aristote, *Métaphysique*, I, 2 | Concevoir le savoir comme fin intérieure | Conception aristotélicienne de la philosophie, non identique à la science moderne |
+| II.2 | Nietzsche, *Humain, trop humain*, §635 | Distinguer la valeur des méthodes et celle des résultats | La méthode ne vaut pas approbation morale des actes |
+| II.3 | Kant, *Fondements*, II | Opposer au résultat vrai la norme morale de la personne-fin | Application philosophique au laboratoire, non citation sur le laboratoire |
+| III.1 | Kant, *Critique de la raison pure*, Canon, II | Séparer questions théorique et pratique ; l'utilité est distinguée par notre argument | La troisième question ajoutée n'est pas attribuée à Kant |
+| III.2 | Claude Bernard, *Introduction à l'étude de la médecine expérimentale*, II, chap. II | Juger les actes d'expérimentation indépendamment du résultat espéré | Passage historique sur l'humain ; limites éthiques et risques incertains laissés explicites |
+| III.3 | Dewey, *The Public and Its Problems*, VI | Distinguer compétence technique et expérience de ceux qui subissent les conséquences | Citation maintenue en anglais original, explication française sans fausse traduction citée |
+
+### Registre de vérification des neuf citations
+
+1. **Bacon** — citation française publiée : « La fin véritable et légitime des sciences consiste uniquement à doter la vie humaine de nouvelles inventions et de nouvelles richesses » ; référence latine contrôlée, *Novum Organum*, I, §81 : `Meta autem scientiarum vera et legitima non alia est quam ut dotetur vita humana novis inventis et copiis.` Original latin : https://books.google.to/books?id=1g8AAAAAYAAJ ; témoin français : https://philosophie.cegeptr.qc.ca/2020/12/400e-du-novum-organum-de-francis-bacon/ . **Statut : traduction française attestée par une source secondaire, traducteur non identifié ; confrontation au latin effectuée.** Une édition française nommée demeure souhaitable avant certification définitive.
+2. **Descartes** — segment cité vérifié mot pour mot dans la sixième partie, graphie modernisée non nécessaire pour ce segment : https://fr.wikisource.org/wiki/Discours_de_la_m%C3%A9thode_%28%C3%A9d._Cousin%29/Sixi%C3%A8me_partie .
+3. **Bachelard** — phrase exacte vérifiée dans l'extrait du chap. I, *Les Classiques des sciences sociales*, qui reproduit le texte Vrin ; elle porte sur l'opinion : https://classiques.uqam.ca/collection_methodologie/bachelard_gaston/obstacles_epistemologiques/obstacles_epist_texte.html/1000 .
+4. **Aristote** — segment français relevé mot pour mot chez Victor Cousin (1838), *Métaphysique*, I, 2 : https://fr.wikisource.org/wiki/M%C3%A9taphysique_-_Livre_I_%28Cousin%29 . Toujours nommer le traducteur.
+5. **Nietzsche** — texte français du §635 : https://fr.wikisource.org/wiki/Humain%2C_trop_humain/IX ; citation exacte et abrégée sans réécriture.
+6. **Kant, *Fondements*** — impératif de l'humanité-fin, texte de la traduction de Victor Delbos : https://fr.wikisource.org/wiki/Page%3AKant_-_Fondements_de_la_m%C3%A9taphysique_des_m%C5%93urs_%28trad._Delbos%29%2C_1990.djvu/158 .
+7. **Kant, *Critique de la raison pure*** — deux interrogations citées mot pour mot, traduction de Jules Barni : https://fr.wikisource.org/wiki/Critique_de_la_raison_pure_%28trad._Barni%29/M%C3%A9thodologie_transcendantale/Chapitre_2 .
+8. **Claude Bernard** — passage original vérifié dans *Introduction à l'étude de la médecine expérimentale*, II, chap. II, « De l'expérimentation sur les êtres vivants » : https://www.gutenberg.org/cache/epub/16234/pg16234.html .
+9. **Dewey** — citation originale anglaise vérifiée dans *The Public and Its Problems*, chap. VI, p. 207 dans l'édition numérisée ; la phrase française qui suit est une explication de l'analogie, **pas** une traduction présentée entre guillemets : https://www.gutenberg.org/cache/epub/71000/pg71000-images.html .
+
+### Contrôle de puissance de la matrice de III
+
+- **III.1 : différencier** les normes théorique, pratique et instrumentale à partir de Kant ; gain : ne plus décider de l'action avec une preuve, ni décider du vrai avec une préférence.
+- **III.2 : transférer** l'obligation du rendement anticipé au jugement des actes chez Bernard ; gain : les expériences sont justifiables indépendamment de la promesse de découvertes.
+- **III.3 : instituer** une discussion entre experts et personnes concernées à partir de Dewey ; gain supplémentaire : la responsabilité n'est plus uniquement l'autocontrôle des savants. Les décisions doivent pouvoir être expliquées et révisées.
+- **Reste** : conditions réelles d'un jugement compétent et légitime. Ces trois gestes ne sont pas substituables : III.2 présuppose la séparation de III.1, et III.3 reprend une insuffisance institutionnelle de III.2.
+
+### Limites toujours bloquantes
+
+La densification des citations résout le risque de perte de *matière philosophique*, non celui d'une aporie fabriquée. La V7.3 (§3.4.9) exige toujours la démonstration d'une incompatibilité des branches sous le présupposé partagé. Un oui exigeant le bien commun peut respecter l'autonomie du vrai ; ce cumul reste possible. Ne pas traiter cette mise en texte comme certification ni la publier comme copie notée automatiquement « 20 ».
+
+La copie annotée comporte désormais environ **1 375 mots**, contre 945 dans la proposition précédente : l'expansion vient de prémisses, de distinctions et de preuves, non de commentaires biographiques. Une nouvelle passe de condensation stylistique sera pertinente une fois l'architecture validée.
