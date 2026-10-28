@@ -93,3 +93,11 @@ Un contrôle de traçabilité des fichiers source ne remplace pas la validation 
 La densification des citations résout le risque de perte de *matière philosophique*, non celui d'une aporie fabriquée. La V7.3 (§3.4.9) exige toujours la démonstration d'une incompatibilité des branches sous le présupposé partagé. Un oui exigeant le bien commun peut respecter l'autonomie du vrai ; ce cumul reste possible. Ne pas traiter cette mise en texte comme certification ni la publier comme copie notée automatiquement « 20 ».
 
 La copie annotée comporte désormais environ **1 375 mots**, contre 945 dans la proposition précédente : l'expansion vient de prémisses, de distinctions et de preuves, non de commentaires biographiques. Une nouvelle passe de condensation stylistique sera pertinente une fois l'architecture validée.
+
+## Précision éditoriale : une réserve vérifiée n'est pas une réserve rédigée
+
+La traçabilité interne note, pour chaque citation, ce que le philosophe établit, l'inférence utilisable et sa portée. Cette triple vérification **n'est pas un plan obligatoire pour chaque sous-partie**. Dans la copie donnée à lire, on fait normalement apparaître la thèse que le philosophe permet de construire et l'inférence propre à l'élève. Une restriction n'est écrite que si elle empêche un contresens réel, conditionne le passage à la suite, ou fournit l'objection qui fait progresser le plan.
+
+Révision de cinq passages de la copie (I.3, II.1, II.3, III.1, III.2) : suppression des commentaires réflexes du type « le philosophe ne parle pas ici de... » et remplacement par une véritable conséquence raisonnée. Les restrictions de validité demeurent traçables dans ce dossier, non répétées mécaniquement sur la page élève.
+
+La formule de contrôle au brouillon est donc : **pensée du philosophe → opération de l'élève → acquis démontré** ; et, seulement si nécessaire au raisonnement, **objection ou limite**. Il ne s'agit pas d'ajouter une citation à chaque étape pour respecter un quota, mais d'introduire une référence lorsque celle-ci accomplit effectivement l'opération.
