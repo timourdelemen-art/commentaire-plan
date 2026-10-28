@@ -136,7 +136,7 @@ niveau1: [
    ['La vérité.','no','Elle la garde : c’est la force du non.'],
    ['Sa beauté, celle des théories élégantes que l’on admire sans chercher à s’en servir.','no','Le sujet ne parle pas de beauté.']]},
   {b:'pb',p:'pb',q:'Quelle question met ces deux pertes face à face ?',o:[
-   ['La science doit-elle être utile, si l’utilité la détourne des vérités sans usage, et si ses vérités deviennent malgré elle des pouvoirs ?','ok','Oui : chaque réponse est là, avec ce qu’elle perd.'],
+   ['La science doit-elle être utile, si elle ne peut promettre les applications de vérités encore inconnues, mais ne peut non plus se dispenser de répondre de ses pratiques et de leurs conséquences ?','ok','Oui : chaque réponse est là, avec ce qu’elle perd.'],
    ['Comment la science pourrait-elle encore chercher le vrai pour lui-même, si on lui demande d’abord d’être utile et de servir à quelque chose ?','no','La question a déjà répondu : elle oppose d’avance le vrai et l’utile.'],
    ['La science est-elle bonne ou mauvaise pour l’homme ?','no','Une question trop large, qui irait à n’importe quel sujet sur la science.']]}
  ]},
