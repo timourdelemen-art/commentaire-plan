@@ -613,7 +613,7 @@ niveau1: [
   "sujet": "La science doit-elle être utile ?",
   "notion": "La science",
   "v": 3,
-  "pb": "La science doit-elle être utile, si l’utilité la détourne des vérités sans usage, et si ses vérités deviennent malgré elle des pouvoirs ?",
+  "pb": "La science doit-elle être utile, si elle ne peut promettre les applications de vérités encore inconnues, mais ne peut non plus se dispenser de répondre de ses pratiques et de leurs conséquences ?",
   "annale": "la-science-doit-elle-etre-utile",
   "etapes": [
     {
