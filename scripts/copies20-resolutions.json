@@ -525,7 +525,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "La nature comme ensemble de processus ne dépend pas de nous ; des milieux déterminés, que nous avons fragilisés, dépendent de nos choix : c’est à eux que le soin est dû.",
+          "proposal": "Une restauration peut retirer une cause de dégradation sans fabriquer chaque vivant. La distinction aristotélicienne entre croissance naturelle et production technique éclaire cette différence.",
           "preserves": [
             "Se faire sans nous",
             "Conserver les milieux et les espèces qui la composent"
@@ -553,21 +553,21 @@
         }
       ],
       "selected": "retenue",
-      "comparison": "La distinction entre processus naturels et milieux déterminés rend l’inversion non exclusive ; elle accueille réparation et autonomie sans nier les besoins locaux.",
-      "strongestObjection": "Restaurer implique de choisir humainement un état du milieu.",
-      "responseToObjection": "Ce choix ne devient pas neutre : il constitue le coût explicite et le point de départ de la conclusion.",
+      "comparison": "Matrice candidate inversion limitée de la dépendance : du besoin supposé de la nature vers une obligation humaine d'entretien des conditions vitales. La refonte des neuf opérations n'est pas encore une validation de la double aporie, ni des citations.",
+      "strongestObjection": "L'une des branches ou leur cumul peut être possible avant III : vérifier la racine, le meilleur cas et le présupposé commun.",
+      "responseToObjection": "Non démontré : sans inférences vérifiées, ne pas certifier V7.3.",
       "residual": "Reste que choisir le milieu à restaurer suppose un jugement humain : quelle autonomie préserver quand plusieurs formes de vie entrent en conflit ?",
       "conclusionQuestion": "Au nom de quoi choisir le milieu à restaurer, si ce ne doit pas être au nom de nos seules préférences ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 746
+        "words": 653
       },
       "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
+        "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
+        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens."
       },
-      "copySha256": "f085d0f399bb221e9fe947e3f9acf74c7c3b4cc10e0b79779a5a5dc947f523c3",
+      "copySha256": "72f38ffe0d18e41dff458bfb9d8104698cd753ff1a51750ddc2b6bff1077735c",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -578,9 +578,10 @@
         "forme": "réciprocité",
         "problematique": "P1",
         "branchesIntroduction": "B1",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
+        "statut": "proposée / non validée",
         "cumul": "« Laisser faire les grands processus, protéger les espèces menacées » : sous le présupposé, protéger, c’est diriger ; les milieux protégés deviennent des jardins, et l’on juxtapose friche et jardin sans sauver nulle part un milieu qui se fasse sans nous. Le cumul est exclu.",
-        "meilleurCas": "Une nature laissée à elle-même reste livrée aux causes de destruction que nous maintenons ; la protection la plus savante reste, sous le présupposé, une direction."
+        "meilleurCas": "Une nature laissée à elle-même reste livrée aux causes de destruction que nous maintenons ; la protection la plus savante reste, sous le présupposé, une direction.",
+        "matriceCandidate": "inversion limitée de la dépendance : du besoin supposé de la nature vers une obligation humaine d'entretien des conditions vitales"
       }
     },
     "2026-me-bonheur-autres": {
@@ -597,7 +598,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Un bonheur peut alors inclure l’inquiétude et se prolonger en aide : la joie ne prouve ni l’ignorance ni l’approbation du malheur.",
+          "proposal": "À partir de Spinoza, la sollicitude devient une puissance d’agir : écouter, soutenir et secourir ne réclame pas de se rendre malheureux à la place d’autrui.",
           "preserves": [
             "Dépendre de nous",
             "Rester le bonheur d’un homme parmi les hommes"
@@ -625,21 +626,21 @@
         }
       ],
       "selected": "retenue",
-      "comparison": "La compatibilité de joie, attention et action préserve une possibilité sans déclarer tout bonheur innocent ; la dépendance envers l’injustice devient l’épreuve résiduelle.",
-      "strongestObjection": "Une personne profite d’une exploitation tout en aidant quelques victimes.",
-      "responseToObjection": "La sollicitude ne suffit pas : la copie exige d’examiner et de transformer les conditions du bonheur.",
+      "comparison": "Matrice candidate métamorphose du bonheur comme joie active et solidaire ; cas résistant de l'injustice qui finance ma joie. La refonte des neuf opérations n'est pas encore une validation de la double aporie, ni des citations.",
+      "strongestObjection": "L'une des branches ou leur cumul peut être possible avant III : vérifier la racine, le meilleur cas et le présupposé commun.",
+      "responseToObjection": "Non démontré : sans inférences vérifiées, ne pas certifier V7.3.",
       "residual": "Reste le cas où mon bonheur repose matériellement sur une injustice subie par d’autres : leur porter de l’attention ne suffit plus.",
       "conclusionQuestion": "Que doit changer celui dont le bonheur dépend d’une injustice, pour que son souci d’autrui ne demeure pas une simple bonne conscience ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 719
+        "words": 643
       },
       "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
+        "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
+        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens."
       },
-      "copySha256": "2ad64a2330d628edd85dd3e6afa9697e97db422fbeed83577d6421b499719a16",
+      "copySha256": "c5563dc049d043ae95defa7dc9faecefef1863df9a6fe6549b99b090158ba052",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -650,9 +651,10 @@
         "forme": "réciprocité",
         "problematique": "P1",
         "branchesIntroduction": "B4",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
+        "statut": "proposée / non validée",
         "cumul": "« Serein pour soi, compatissant pour les autres » : sous le présupposé, compatir, c’est souffrir ; chaque moment de compassion détruit la sérénité, et la sérénité exige de ne plus être touché. Le cumul reconduit aux deux branches.",
-        "meilleurCas": "Le sage le plus maître de ses jugements doit encore se détourner pour rester serein ; l’homme le plus sensible ne sera heureux qu’à la fin de tout malheur, qui ne vient jamais."
+        "meilleurCas": "Le sage le plus maître de ses jugements doit encore se détourner pour rester serein ; l’homme le plus sensible ne sera heureux qu’à la fin de tout malheur, qui ne vient jamais.",
+        "matriceCandidate": "métamorphose du bonheur comme joie active et solidaire ; cas résistant de l'injustice qui finance ma joie"
       }
     },
     "2026-me-paroles": {
@@ -669,7 +671,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Nous pouvons vérifier ce que l’autre a compris et rectifier un malentendu, sans décider à sa place de toute interprétation.",
+          "proposal": "La pensée de Merleau-Ponty rend compte des précisions qui naissent au cours d’un dialogue : rectifier, reformuler et expliquer prolongent la responsabilité de celui qui parle.",
           "preserves": [
             "Nous engager : répondre de ce que nous disons",
             "Dire plus que ce que nous avions prévu"
@@ -697,21 +699,21 @@
         }
       ],
       "selected": "retenue",
-      "comparison": "La maîtrise partielle et exercée dans l’échange s’applique aux promesses comme aux explications ; elle répond au pouvoir effectif sans promettre le contrôle des effets.",
-      "strongestObjection": "La correction arrive après une blessure irréparable.",
-      "responseToObjection": "Précisément : pouvoir rectifier le sens ne garantit pas pouvoir effacer ses effets ; ce coût fonde la conclusion.",
+      "comparison": "Matrice candidate processualisation de la maîtrise par reprise dialogique et distinction acte/effet. La refonte des neuf opérations n'est pas encore une validation de la double aporie, ni des citations.",
+      "strongestObjection": "L'une des branches ou leur cumul peut être possible avant III : vérifier la racine, le meilleur cas et le présupposé commun.",
+      "responseToObjection": "Non démontré : sans inférences vérifiées, ne pas certifier V7.3.",
       "residual": "Reste qu’une parole peut produire un effet irréversible avant que sa rectification soit entendue.",
       "conclusionQuestion": "Comment répondre d’une parole dont on peut corriger le sens, mais dont on ne peut plus réparer tous les effets ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 655
+        "words": 589
       },
       "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
+        "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
+        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens."
       },
-      "copySha256": "c5489c79ce9b9517a47b09e65016749babc702df4e6e45aa1ee6f83f00ecbe37",
+      "copySha256": "0c79ca2443d814a59f00061f590709ae4f4af5e48493c3856805c3c366101ed1",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -722,9 +724,10 @@
         "forme": "réciprocité",
         "problematique": "P2 (exemple du catalogue)",
         "branchesIntroduction": "B3 (exemple du catalogue)",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
+        "statut": "proposée / non validée",
         "cumul": "« Maîtriser les mots, laisser le sens aux autres » : sous le présupposé, maîtriser, c’est fixer le sens d’avance ; si le sens échappe, on ne répond plus que de mots, non de ce qu’ils disent. Le cumul reconduit à la seconde branche.",
-        "meilleurCas": "L’orateur le plus préparé découvre encore sa pensée en parlant (Merleau-Ponty) ; l’auditeur le plus bienveillant comprend encore autrement. Les deux pertes survivent."
+        "meilleurCas": "L’orateur le plus préparé découvre encore sa pensée en parlant (Merleau-Ponty) ; l’auditeur le plus bienveillant comprend encore autrement. Les deux pertes survivent.",
+        "matriceCandidate": "processualisation de la maîtrise par reprise dialogique et distinction acte/effet"
       }
     },
     "notion-inconscient": {
@@ -741,7 +744,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Un désir ignoré, un acte accompli et une conséquence à réparer n’engagent donc pas la même responsabilité : on ne répond pas d’un désir comme d’un acte.",
+          "proposal": "Ricœur, dans De l’interprétation, pense le sujet comme capable de reprendre son rapport à des significations qu’il ne s’était pas d’abord données. Se comprendre transforme certaines possibilités d’agir.",
           "preserves": [
             "N’imputer que ce que nous avons voulu",
             "Faire répondre de ce qui vient de nous"
@@ -769,21 +772,21 @@
         }
       ],
       "selected": "retenue",
-      "comparison": "La distinction désir/acte/réparation complète le processus de connaissance ; elle évite aussi bien l’excuse totale que la faute imputée à chaque désir.",
-      "strongestObjection": "Nous ne savons pas exactement quelle part de choix demeurait.",
-      "responseToObjection": "La copie ne calcule pas cette part : elle en fait la difficulté persistante de toute attribution juste.",
+      "comparison": "Matrice candidate processualisation de la responsabilité par reconnaissance et interprétation, sans réduction de l'inconscient à une faute. La refonte des neuf opérations n'est pas encore une validation de la double aporie, ni des citations.",
+      "strongestObjection": "L'une des branches ou leur cumul peut être possible avant III : vérifier la racine, le meilleur cas et le présupposé commun.",
+      "responseToObjection": "Non démontré : sans inférences vérifiées, ne pas certifier V7.3.",
       "residual": "Reste qu’on ne peut jamais établir exactement toute la part consciente et inconsciente d’un acte : il faut pourtant décider ce qui peut être imputé à son auteur.",
       "conclusionQuestion": "Comment attribuer une responsabilité juste lorsque la connaissance de ce qui a déterminé l’acte demeure incomplète ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 761
+        "words": 608
       },
       "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
+        "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
+        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens."
       },
-      "copySha256": "2410e9f63c574d79fcf6308669b9089499558b78df3809c902d05a1da5873f4f",
+      "copySha256": "83d934f68b6a43d5775725cf1590dfe01f3ac13f08ce8ce561712ec917003b58",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -794,9 +797,10 @@
         "forme": "réciprocité",
         "problematique": "P1",
         "branchesIntroduction": "B1",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
+        "statut": "proposée / non validée",
         "cumul": "« Excuser ce qui vient de l’inconscient, imputer ce qui vient de la conscience » : la frontière exige de savoir ce qui était conscient, ce que l’idée d’inconscient rend impossible à établir de l’intérieur ; elle se trace avec ce que l’une des réponses refuse. Le cumul est exclu.",
-        "meilleurCas": "Le plus lucide ignore encore une part de ses motifs ; le plus honnête qui répond de tout se condamne encore pour ce qu’il n’a pas voulu (Œdipe)."
+        "meilleurCas": "Le plus lucide ignore encore une part de ses motifs ; le plus honnête qui répond de tout se condamne encore pour ce qu’il n’a pas voulu (Œdipe).",
+        "matriceCandidate": "processualisation de la responsabilité par reconnaissance et interprétation, sans réduction de l'inconscient à une faute"
       }
     },
     "notion-liberte": {
@@ -813,7 +817,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Une promesse donne à autrui une raison de compter sur nous ; la reprendre, c’est reconnaître cette raison, non décider chaque matin si elle nous plaît encore.",
+          "proposal": "Arendt permet de démontrer la fonction sociale de l’engagement : ma promesse donne à autrui des raisons d’agir, et non seulement une limite à mes envies.",
           "preserves": [
             "Pouvoir choisir autrement",
             "Passer dans des actes qui durent"
@@ -841,21 +845,21 @@
         }
       ],
       "selected": "retenue",
-      "comparison": "La fidélité raisonnée conserve une obligation qui dépasse l’humeur tout en donnant des critères de rupture ; elle complète le processus par la raison due à autrui.",
-      "strongestObjection": "Une promesse légitime devient insupportable à celui qui a changé.",
-      "responseToObjection": "Le changement ne suffit pas automatiquement à annuler l’obligation ; son prix doit être jugé et demeure explicitement ouvert.",
+      "comparison": "Matrice candidate inversion du rapport engagement/liberté et processualisation de la fidélité responsable. La refonte des neuf opérations n'est pas encore une validation de la double aporie, ni des citations.",
+      "strongestObjection": "L'une des branches ou leur cumul peut être possible avant III : vérifier la racine, le meilleur cas et le présupposé commun.",
+      "responseToObjection": "Non démontré : sans inférences vérifiées, ne pas certifier V7.3.",
       "residual": "Reste le conflit entre une obligation encore légitime et une transformation profonde de celui qui l’a contractée : aucune règle simple ne fixe le prix acceptable de la fidélité.",
       "conclusionQuestion": "Quand la fidélité exige de renoncer à ce que l’on est devenu, comment juger si elle accomplit encore la liberté ou la sacrifie ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 732
+        "words": 643
       },
       "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
+        "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
+        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens."
       },
-      "copySha256": "5e0904087439762d81c7bd976f682e7856aba7664cb67c0a954ecadf050a2dc6",
+      "copySha256": "89d4fc9e289a699f4ca3f830731913e2bfe1790cb01682c2ee816dcb60519bf0",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -866,9 +870,10 @@
         "forme": "réciprocité",
         "problematique": "P2",
         "branchesIntroduction": "B1",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
+        "statut": "proposée / non validée",
         "cumul": "« S’engager pour un temps, ou sur les petites choses » : sous le présupposé, un engagement révocable n’engage pas (il perd la durée), et un engagement irrévocable soumet le jugement présent. Le cumul reconduit aux deux branches.",
-        "meilleurCas": "Le plus libre qui ne se lie jamais reste dans le possible vide (Dom Juan) ; le plus fidèle reste lié quand la cause devient injuste."
+        "meilleurCas": "Le plus libre qui ne se lie jamais reste dans le possible vide (Dom Juan) ; le plus fidèle reste lié quand la cause devient injuste.",
+        "matriceCandidate": "inversion du rapport engagement/liberté et processualisation de la fidélité responsable"
       }
     },
     "notion-raison": {
@@ -885,7 +890,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Clarifier un terme, reprendre une objection, proposer une vérification : ces gestes agissent sur l’accès aux raisons, non sur leur valeur, et ne remplacent pas la preuve par la séduction.",
+          "proposal": "Chez Socrate, l’examen dialogique oblige chacun à reconstruire les prémisses qu’il accepte et à éprouver celles qu’il conteste. Expliquer n’est pas manipuler l’accord, mais rendre la preuve examinable.",
           "preserves": [
             "Être produite par des raisons",
             "Être l’adhésion propre de l’autre"
@@ -913,21 +918,21 @@
         }
       ],
       "selected": "retenue",
-      "comparison": "L’appropriation par vérification explique le passage de validité à adhésion sans dévaluer la preuve ; elle vaut pour le dialogue comme pour une démonstration écrite.",
-      "strongestObjection": "Un interlocuteur refuse tout examen.",
-      "responseToObjection": "Une présentation rationnelle ne garantit pas son accueil : la copie garde ce refus comme limite, sans autoriser la contrainte.",
+      "comparison": "Matrice candidate déplacement de la preuve offerte vers l'examen partagé, sans réduire la vérité à l'adhésion. La refonte des neuf opérations n'est pas encore une validation de la double aporie, ni des citations.",
+      "strongestObjection": "L'une des branches ou leur cumul peut être possible avant III : vérifier la racine, le meilleur cas et le présupposé commun.",
+      "responseToObjection": "Non démontré : sans inférences vérifiées, ne pas certifier V7.3.",
       "residual": "Reste le refus d’examiner : aucune présentation honnête ne garantit que l’autre accepte de mettre sa conviction à l’épreuve.",
       "conclusionQuestion": "Que peut encore faire la raison devant un refus de l’examiner, sans transformer la recherche de conviction en contrainte ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 781
+        "words": 637
       },
       "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
+        "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
+        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens."
       },
-      "copySha256": "dd6275f5b6fc9f07ea232188d89fae9ccf6be2aabe7c96bd1d3644faea4e6348",
+      "copySha256": "66f5d8399a9f210ef2ce692179b840ffc17e6fbc43afd34e56d24314eeeb4725",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -938,9 +943,10 @@
         "forme": "réciprocité",
         "problematique": "P3",
         "branchesIntroduction": "B2",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
+        "statut": "proposée / non validée",
         "cumul": "« Prouver aux esprits disposés, persuader les autres » : sous le présupposé, la persuasion produit l’adhésion sans les raisons ; ceux qu’elle gagne ne sont pas convaincus. Le cumul reconduit à la seconde branche.",
-        "meilleurCas": "Devant des jurés de bonne foi, la preuve exacte n’est pas encore entendue ; l’orateur le plus honnête qui plaît gagne encore sans faire juger."
+        "meilleurCas": "Devant des jurés de bonne foi, la preuve exacte n’est pas encore entendue ; l’orateur le plus honnête qui plaît gagne encore sans faire juger.",
+        "matriceCandidate": "déplacement de la preuve offerte vers l'examen partagé, sans réduire la vérité à l'adhésion"
       }
     },
     "notion-technique": {
@@ -957,7 +963,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Une fin digne ne rend pas tous ses moyens acceptables : soigner n’autorise pas une expérience imposée à ceux qui en subiront les risques.",
+          "proposal": "Kant permet de vérifier que la dignité des personnes n’est pas négociable contre un simple gain technique : certains moyens restent interdits, même au service d’une fin utile.",
           "preserves": [
             "Accroître notre pouvoir",
             "Que ce pouvoir reste le nôtre : pouvoir ne pas l’exercer"
@@ -985,21 +991,21 @@
         }
       ],
       "selected": "retenue",
-      "comparison": "L’examen conjoint fins/moyens/risques inclut les personnes absentes du choix ; il conserve l’innovation sans assimiler accord public et justification morale.",
-      "strongestObjection": "Refuser dans l’incertitude peut priver d’un remède.",
-      "responseToObjection": "Le risque de ne pas agir entre dans la comparaison ; son arbitrage avec le risque de réalisation est le reste.",
+      "comparison": "Matrice candidate déplacement du possible vers l'usage déterminé et extension temporelle de la responsabilité. La refonte des neuf opérations n'est pas encore une validation de la double aporie, ni des citations.",
+      "strongestObjection": "L'une des branches ou leur cumul peut être possible avant III : vérifier la racine, le meilleur cas et le présupposé commun.",
+      "responseToObjection": "Non démontré : sans inférences vérifiées, ne pas certifier V7.3.",
       "residual": "Reste que des conséquences décisives peuvent être inconnues : le jugement doit parfois décider sans pouvoir établir complètement la sécurité d’un projet.",
       "conclusionQuestion": "Faut-il agir quand les risques d’un possible technique restent incertains et que l’attente elle-même peut priver les hommes d’un bien ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 775
+        "words": 654
       },
       "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
+        "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
+        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens."
       },
-      "copySha256": "3c13c3dc2f416cd1a59c111c38abf96b50577fdb6b1d7dbaaf92f94c6e2a3c32",
+      "copySha256": "8628013a4154bdf9053df2889c09c1ff005922e3183aba82cc2c65362c341bbb",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -1010,9 +1016,10 @@
         "forme": "réciprocité",
         "problematique": "P3",
         "branchesIntroduction": "B2",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
+        "statut": "proposée / non validée",
         "cumul": "« Réaliser les possibles bienfaisants, refuser les dangereux » : sous le présupposé, on trie des possibles ; or un même possible est l’un et l’autre (la même physique fait la centrale et la bombe). Le tri est impossible à ce niveau.",
-        "meilleurCas": "La puissance la mieux intentionnée nous rend encore dépendants de ce qu’elle réalise ; la prudence la plus éclairée prive encore de remèdes si elle refuse en bloc."
+        "meilleurCas": "La puissance la mieux intentionnée nous rend encore dépendants de ce qu’elle réalise ; la prudence la plus éclairée prive encore de remèdes si elle refuse en bloc.",
+        "matriceCandidate": "déplacement du possible vers l'usage déterminé et extension temporelle de la responsabilité"
       }
     },
     "notion-temps": {
