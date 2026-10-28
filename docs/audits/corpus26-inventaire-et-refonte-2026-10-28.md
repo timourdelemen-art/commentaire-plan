@@ -1,3 +1,5 @@
+**MISE À JOUR DU 28 OCTOBRE : document d'inventaire conservé comme historique. Les 26 copies ont désormais toutes reçu une réécriture textuelle sur la branche, y compris les 19 notées ici comme non réécrites. Consulter le bilan à jour `docs/audits/corpus26-bilan-apres-refonte-2026-10-28.md`. Les apories et les citations ne sont pas encore validées indépendamment.**
+
 # Corpus de 26 dissertations — inventaire vérifié et chantier V7.3
 
 **28 octobre 2026 — branche de travail, non publiée.** Ce rapport corrige le faux total de 20 devoirs. La page `philosophie-dissertations.html` comporte **26 cartes** : **20 copies du fichier `scripts/copies20-data.json`**, **5 dissertations autonomes des sessions 2023–2025**, et **1 dissertation autonome sur la pensée des machines**. Le total est celui des **corrigés distincts**, non des pages, variantes, fiches de notions ou exercices qui les reprennent.
