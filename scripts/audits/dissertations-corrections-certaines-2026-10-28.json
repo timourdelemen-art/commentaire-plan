@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-28",
+  "nature": "Corrections localisées ; problématiques et plans non validés, reconstruction encore en cours.",
+  "base": "213f15369f01d47a004884cc37c9ee332b914f29",
+  "source": {
+    "titre": "Henri Bergson, Creative Evolution",
+    "traduction": "Arthur Mitchell, traduction autorisée, Henry Holt and Company, New York,1911",
+    "statut": "Texte de Bergson accessible en traduction ; transcription Gutenberg26163 sur miroir GITenberg. Collation de l’original français et de l’imprimé non effectuée.",
+    "sha256": "992a51d1f5e3dd4a7324a454e6313664d2fdca388ce8a7168df7d0e294e07d37",
+    "git_origin": "https://github.com/GITenberg/Creative-Evolution_26163.git",
+    "git_commit": "5a06bd1b6238e38835687d862137364a92e6b675",
+    "lignes_lues": [
+      [
+        1,
+        70
+      ],
+      [
+        465,
+        560
+      ],
+      [
+        636,
+        706
+      ]
+    ],
+    "aucune_citation_francaise_authentifiee": true
+  },
+  "modifications": [
+    {
+      "id": "notion-verite",
+      "avant": [
+        "On objectera, avec Kant, que taire est déjà tromper ; mais Kant interdit le mensonge, non le silence, et Constant rapporte le devoir de dire à ceux qui ont droit à la vérité.",
+        "III.2 L’objection la plus forte, et sa réponse"
+      ],
+      "apres": [
+        [
+          "Un silence peut pourtant tromper lorsqu’il entretient volontairement une erreur : distinguer le silence du mensonge ne dispense donc pas d’examiner ce que l’on fait croire.",
+          "III.2 Mettre la distinction à l’épreuve : un silence peut tromper"
+        ]
+      ]
+    },
+    {
+      "id": "notion-temps",
+      "avant": [
+        "Bergson, dans L’Évolution créatrice (chap. I), en donne l’exemple le plus simple : pour se préparer un verre d’eau sucrée, il faut attendre que le sucre fonde, et rien ne peut abréger cette attente.",
+        "II.2 La nouvelle réponse, avec la référence qui la porte"
+      ],
+      "apres": [
+        [
+          "Dans L’Évolution créatrice (chap. I), Bergson évoque le sucre qui se dissout dans l’eau : calculer le processus n’abolit pas l’attente que nous vivons.",
+          "II.2 Partir d’une expérience précise pour interroger le temps"
+        ]
+      ]
+    },
+    {
+      "id": "notion-temps",
+      "avant": [
+        "Cette attente n’est pas un vide qu’on pourrait abréger : le temps n’est pas un simple cadre, il fait partie de ce qui se fait, et la durée est invention, création continue de nouveauté.",
+        "II.2 L’exemple, analysé"
+      ],
+      "apres": [
+        [
+          "Il distingue le temps mathématique, qui représente les étapes du processus, de la durée vécue, qui coïncide avec notre impatience.",
+          "II.2 Distinguer le temps représenté de la durée vécue"
+        ],
+        [
+          "Cette durée ne remplace pas simplement un instant par un autre : selon Bergson, le passé se conserve dans notre état présent et le transforme, de sorte qu’un état de conscience ne se répète jamais à l’identique.",
+          "II.2 Relier conservation du passé et transformation du présent"
+        ]
+      ]
+    },
+    {
+      "id": "notion-temps",
+      "avant": [
+        "Que ce qui a été ne puisse plus ne pas avoir été ne sauve pas ce qui est détruit ; mais cela fait du passé une ressource, et non un néant.",
+        "III.3 Stabiliser la réponse"
+      ],
+      "apres": [
+        [
+          "Qu’un événement ait eu lieu ne garantit pas qu’il en reste une trace : le passé devient une ressource lorsqu’une mémoire, un savoir-faire ou une œuvre le reprend et le transmet.",
+          "III.3 Stabiliser la réponse : préciser les conditions d’une reprise du passé"
+        ]
+      ]
+    }
+  ],
+  "verdict_independant": "Les quatre corrections sont recevables à leur portée locale. Elles ne valident ni problématiques, ni branches, ni plans, ni conclusions générales des deux dissertations.",
+  "limites": "Les défauts d’architecture déjà relevés sur vérité et temps restent hors du verdict local. En particulier, ces corrections ne rendent pas nécessaire la brutalité du vrai et ne réparent pas à elles seules nécessairement destructeur/ne fait que détruire.",
+  "controles": [
+    "A20 : vingt copies cohérentes et rendues",
+    "Build global :382pages, zéro erreur,22avertissements",
+    "Navigateurs390/1280 : deux modes,texte identique,13paragraphes et fonctions présentes,aucune erreurJavaScript ni débordement"
+  ]
+}
