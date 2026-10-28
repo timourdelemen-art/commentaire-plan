@@ -1,3 +1,5 @@
+**ÉTAT HISTORIQUE (premier audit avant la refonte des 19 copies). Les problématiques et les opérations reproduites ici ont depuis été réécrites dans les sources. Pour le nouvel état, consulter `docs/audits/corpus26-bilan-apres-refonte-2026-10-28.md`. Les diagnostics de défauts restent des objections de travail, non un audit de validation.**
+
 # Audit intégral préalable — problématiques, opérations et matrices (20 dissertations)
 
 **Date : 28 octobre 2026 · Statut : audit critique, non certification des copies, révision sur branche non publiée.**
