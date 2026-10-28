@@ -619,12 +619,12 @@ niveau1: [
     {
       "p": "I",
       "k": "installer",
-      "q": "Quelle première réponse installer en partie I, avec sa raison ?",
+      "q": "Quel philosophe permet d’établir la destination humaine des sciences ?",
       "o": [
         [
-          "La science peut contribuer au bien commun : la connaissance lui donne des moyens d’aider les hommes.",
+          "Bacon, dans le Novum Organum (I, § 81), assigne à la science la fin d’enrichir la vie humaine de nouvelles découvertes.",
           "ok",
-          "Une réponse normative : elle donne une raison de servir, sans promettre le rendement de chaque découverte."
+          "L’opération établit une fin humaine de la science ; elle ne prouve pas encore, à elle seule, une obligation morale."
         ],
         [
           "La science coûte très cher à la société, qui la finance : elle doit donc lui rapporter quelque chose.",
@@ -641,12 +641,12 @@ niveau1: [
     {
       "p": "I",
       "k": "renforcer",
-      "q": "Quelle opération philosophique fonde cette obligation plutôt que de citer une invention utile ?",
+      "q": "Quelle pensée transforme cette fin en véritable devoir ?",
       "o": [
         [
-          "Descartes, dans le Discours de la méthode (VI), relie la diffusion des savoirs au devoir de procurer le bien commun.",
+          "Descartes, dans le Discours de la méthode (VI), invoque le devoir de procurer « le bien général de tous les hommes ».",
           "ok",
-          "La référence fournit une prémisse morale : c’est le devoir envers autrui, non la seule puissance technique, qui justifie l’exigence."
+          "Descartes ajoute la prémisse normative qui transforme une fin souhaitable en obligation de contribuer et de communiquer."
         ],
         [
           "Les vaccins ont sauvé des millions de vies au cours du siècle dernier, et en sauvent encore chaque année.",
@@ -663,12 +663,12 @@ niveau1: [
     {
       "p": "I",
       "k": "limite",
-      "q": "Que devient cette obligation si elle sert de critère de sélection avant chaque découverte ?",
+      "q": "Quel obstacle Bachelard fait-il apparaître quand l’utilité commande d’avance ce qu’il faut connaître ?",
       "o": [
         [
-          "Exiger de prouver l’utilité de chaque projet avant de chercher écarte les questions dont l’usage est encore inconnu.",
+          "Bachelard note que l’opinion, en désignant les objets par leur utilité, s’interdit de les connaître.",
           "ok",
-          "Cette limite ne vaut que pour la lecture forte du oui : l’utilité prévisible comme condition d’autorisation."
+          "Il vise la confusion entre besoin et connaissance ; on ne peut l’étendre à toute recherche utile sans argument."
         ],
         [
           "Certaines inventions scientifiques sont dangereuses pour l’humanité, comme la bombe atomique, dont la puissance pourrait détruire des villes entières.",
@@ -707,12 +707,12 @@ niveau1: [
     {
       "p": "II",
       "k": "exigence",
-      "q": "Comment la partie II répond-elle d’abord à cette question ?",
+      "q": "Avec Aristote, comment répondre à la question ouverte par la première partie ?",
       "o": [
         [
-          "La vérité se prouve par une méthode et des raisons, non par le bénéfice que sa découverte rapportera.",
+          "Aristote distingue le savoir recherché pour lui-même de celui qu’on poursuit en vue de ses résultats.",
           "ok",
-          "Elle répond à la question de transition : la partie II part de ce que la partie I perdait."
+          "L’opération est de reconnaître une valeur intrinsèque au savoir ; Aristote traite ici de la philosophie."
         ],
         [
           "Par le prestige qu’elle donne aux pays qui la financent et la font briller.",
@@ -729,12 +729,12 @@ niveau1: [
     {
       "p": "II",
       "k": "position",
-      "q": "Quel développement montre que cette exigence est nécessaire ?",
+      "q": "Comment Nietzsche rend-il cette réponse plus forte que l’affirmation « la science cherche le vrai » ?",
       "o": [
         [
-          "Nietzsche, dans Humain, trop humain (§ 635), distingue la valeur des méthodes scientifiques de celle de leurs résultats.",
+          "Nietzsche, dans Humain, trop humain (§ 635), donne aux méthodes scientifiques une valeur comparable à celle de leurs résultats.",
           "ok",
-          "La référence dégage un critère propre à la science : la méthode doit pouvoir être examinée indépendamment de son usage."
+          "La méthode est une conquête distincte du produit : elle permet de contrôler et de rectifier la croyance."
         ],
         [
           "La science vaut d’abord par la vérité qu’elle cherche : son utilité ne vient qu’ensuite.",
@@ -751,12 +751,12 @@ niveau1: [
     {
       "p": "II",
       "k": "limite",
-      "q": "Où cette deuxième réponse cède-t-elle à son tour ?",
+      "q": "Quelle norme philosophique révèle l’insuffisance d’une justification par la seule méthode ?",
       "o": [
         [
-          "Une méthode qui établit le vrai ne suffit pas à décider si l’expérience est moralement admissible.",
+          "La règle kantienne de ne jamais traiter autrui seulement comme un moyen interdit de justifier une expérience par sa seule efficacité.",
           "ok",
-          "C’est une insuffisance du critère épistémique, non la preuve que tout savant indifférent à l’utilité serait irresponsable."
+          "L’opération introduit un critère moral qui ne se déduit pas d’une preuve, sans imputer à Kant un propos sur les laboratoires."
         ],
         [
           "Les chercheurs ont besoin de beaucoup d’argent pour travailler, pour équiper leurs laboratoires et pour payer ceux qui les aident dans leurs expériences.",
@@ -795,12 +795,12 @@ niveau1: [
     {
       "p": "III",
       "k": "probleme",
-      "q": "Revenir au problème : que supposaient ensemble les deux réponses, et comment le transformer ?",
+      "q": "Quelle distinction de Kant permet de transformer le présupposé commun ?",
       "o": [
         [
-          "Distinguer trois questions : une hypothèse est-elle vraie, son résultat utile, sa pratique légitime ?",
+          "Distinguer avec Kant « Que puis-je savoir ? » et « Que dois-je faire ? », puis examiner séparément l’utilité.",
           "ok",
-          "Cette distinction ne confond pas la vérité d’une proposition et la légitimité des actes qui la produisent."
+          "La distinction entre justification théorique et pratique transforme le problème ; l’utilité est une troisième question introduite ici."
         ],
         [
           "Chacune avait raison à moitié : la partie I sur l’économie du savoir et ses profits, la partie II sur la culture générale et le goût de connaître.",
@@ -817,12 +817,12 @@ niveau1: [
     {
       "p": "III",
       "k": "operation",
-      "q": "Quelle opération permet de tenir les deux ensemble : renverser le rapport, changer de niveau, ou réunir ce qu’on avait séparé ? Plusieurs peuvent tenir : regardez ce que chacune laisse.",
+      "q": "Quelle opération de Claude Bernard permet de limiter les pratiques sans imposer un rendement aux résultats ?",
       "o": [
         [
-          "Évaluer les risques et les précautions d’une expérience sans exiger d’en prévoir toutes les applications.",
+          "Claude Bernard subordonne l’expérimentation humaine à ce qu’elle fait subir au patient, indépendamment de l’intérêt scientifique.",
           "ok",
-          "Une opération précise : porter le contrôle sur des actes possibles, non sur un rendement inconnu."
+          "Le principe porte sur les moyens et les risques, non sur le rendement d’une découverte ; son domaine d’origine doit rester nommé."
         ],
         [
           "On peut séparer la recherche de ses applications : laisser les savants chercher librement, puis juger seulement l’usage qu’on fera de leurs découvertes.",
@@ -839,12 +839,12 @@ niveau1: [
     {
       "p": "III",
       "k": "stabiliser",
-      "q": "Quelle règle supplémentaire déduire pour décider sous incertitude, et quel reste demeure ?",
+      "q": "Que permet de déduire Dewey que ne disaient pas encore III.1 et III.2 ?",
       "o": [
         [
-          "Expliciter les risques, proportionner les précautions, réviser les décisions ; reste la question de qui peut en juger.",
+          "Avec Dewey, confronter l’expertise de ceux qui savent aux besoins de ceux qui subissent les conséquences ; rendre la décision explicite et révisable.",
           "ok",
-          "III.3 déduit un critère nouveau de décision, puis reconnaît une difficulté de compétence publique."
+          "La troisième opération ne résume pas la solution : elle déduit une compétence publique associée à l’expertise."
         ],
         [
           "La science répond de ce qu’elle fait, et tout est résolu dès que les savants jugent eux-mêmes leurs risques.",
@@ -864,9 +864,9 @@ niveau1: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Qui peut légitimement décider des risques acceptables quand la connaissance est réservée aux spécialistes, mais que les conséquences concernent tous les citoyens ?",
+          "Comment rendre le jugement public effectif lorsque seuls les spécialistes peuvent évaluer certains risques, mais que tous peuvent en subir les conséquences ?",
           "ok",
-          "Le reste porte sur la légitimité du jugement public, non sur l’utilité immédiate de la science."
+          "La difficulté restante porte sur la décision légitime entre expertise et public concerné."
         ],
         [
           "La science fera-t-elle un jour le bonheur de l’humanité, ou bien sera-t-elle la cause de son malheur et de sa ruine ?",
