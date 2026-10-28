@@ -16,7 +16,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "La contestation juste se reconnaît donc à sa forme : publique, elle en appelle à la règle commune devant tous et demande une révision, non une exception pour soi.",
+          "proposal": "Chez Rawls, la contestation publique soumet la décision de l’État à des raisons dont tous peuvent discuter. Elle ne supprime pas sa fonction principale de garantie : elle exige que cette fonction demeure fidèle à sa justification.",
           "preserves": [
             "Une force commune qui impose le même droit à tous",
             "Un jugement capable de dire qu’une loi est injuste"
@@ -51,14 +51,14 @@
       "conclusionQuestion": "Lorsque l’État détruit les voies par lesquelles on pouvait le corriger, comment lui résister sans abandonner l’exigence d’une justice commune ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 843
+        "words": 724
       },
       "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
+        "author": "Première refonte 28 octobre 2026",
         "status": "propose",
-        "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
+        "independentReview": "Non audité indépendamment. Les références sont des paraphrases attribuées, non des citations littérales contrôlées. Problème aporétique toujours soumis au test de conjonction."
       },
-      "copySha256": "e4b367283dd3a689e02755d1a5b4674913401e263e8b4546eb36f99b5ed4dfdd",
+      "copySha256": "e038b7a6b3cd0f186a84796e79cd50a2e800e34fa265209483853186ff1b8e86",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
