@@ -206,3 +206,7 @@
 6. **Tests techniques** : faire tourner les scripts Node et le build Netlify en environnement isolé ; les fichiers sources ont été synchronisés mais la compilation réelle du site n'a pas été exécutée ici.
 
 **Conclusion d'audit** : améliorations éditoriales substantielles sur toutes les vingt-six copies, mais validation philosophique complète encore en attente. La pull request demeure volontairement en brouillon.
+
+## Addendum de vérification après le premier comptage
+
+Après le tableau quantitatif ci-dessus, I.3 du sujet « Revient-il principalement à l’État de lutter contre l’injustice ? » a été renforcée par une citation littérale authentifiée de Pascal, *Pensées* (éd. Brunschvicg, fragment 298), suivie de l'inférence portant sur la différence entre force publique et justice. Source : https://fr.wikisource.org/wiki/Pens%C3%A9es_%28Pascal%2C_%C3%A9d._Brunschvicg%29/Pens%C3%A9es/Section_V . Le comptage de guillemets ci-dessus est donc antérieur à cette modification ; il est porté de **10 à 11 positions**. La validation indépendante demeure nécessaire.
