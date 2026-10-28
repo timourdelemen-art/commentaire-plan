@@ -622,9 +622,9 @@ niveau1: [
       "q": "Quelle première réponse installer en partie I, avec sa raison ?",
       "o": [
         [
-          "La science doit être utile, car c’est elle qui donne à l’homme le pouvoir de maîtriser la nature.",
+          "La science peut contribuer au bien commun : la connaissance lui donne des moyens d’aider les hommes.",
           "ok",
-          "Une réponse au sujet, avec sa raison : c’est un vrai point de départ."
+          "Une réponse normative : elle donne une raison de servir, sans promettre le rendement de chaque découverte."
         ],
         [
           "La science coûte très cher à la société, qui la finance : elle doit donc lui rapporter quelque chose.",
@@ -641,12 +641,12 @@ niveau1: [
     {
       "p": "I",
       "k": "renforcer",
-      "q": "Qu’est-ce qui rend cette réponse la plus forte possible ?",
+      "q": "Quelle opération philosophique fonde cette obligation plutôt que de citer une invention utile ?",
       "o": [
         [
-          "Descartes l’annonçait dans la sixième partie du Discours de la méthode : à la philosophie spéculative, il veut substituer « une pratique » qui puisse « nous rendre comme maîtres et possesseurs de la nature ».",
+          "Descartes, dans le Discours de la méthode (VI), relie la diffusion des savoirs au devoir de procurer le bien commun.",
           "ok",
-          "La référence ne décore pas : elle donne à la réponse sa forme la plus forte, en disant pourquoi elle vaut."
+          "La référence fournit une prémisse morale : c’est le devoir envers autrui, non la seule puissance technique, qui justifie l’exigence."
         ],
         [
           "Les vaccins ont sauvé des millions de vies au cours du siècle dernier, et en sauvent encore chaque année.",
@@ -663,12 +663,12 @@ niveau1: [
     {
       "p": "I",
       "k": "limite",
-      "q": "Où cette réponse cède-t-elle, si on la pousse jusqu’au bout ?",
+      "q": "Que devient cette obligation si elle sert de critère de sélection avant chaque découverte ?",
       "o": [
         [
-          "Mais si la science doit être utile, c’est l’utilité qui choisit ses questions, et les recherches qui ne promettent rien sont abandonnées.",
+          "Exiger de prouver l’utilité de chaque projet avant de chercher écarte les questions dont l’usage est encore inconnu.",
           "ok",
-          "La limite vient de la réponse elle-même, poussée jusqu’au bout : c’est elle qui obligera à changer de réponse."
+          "Cette limite ne vaut que pour la lecture forte du oui : l’utilité prévisible comme condition d’autorisation."
         ],
         [
           "Certaines inventions scientifiques sont dangereuses pour l’humanité, comme la bombe atomique, dont la puissance pourrait détruire des villes entières.",
@@ -688,7 +688,7 @@ niveau1: [
       "q": "Quelle question, née de cette limite, fait passer à la partie II ?",
       "o": [
         [
-          "Par quoi la science vaut-elle lorsque son utilité reste imprévisible ?",
+          "Comment juger une recherche dont on ne peut encore prévoir les applications ?",
           "ok",
           "Une question brève, née de cette limite : elle fait passer à la partie II sans la donner d’avance."
         ],
@@ -710,7 +710,7 @@ niveau1: [
       "q": "Comment la partie II répond-elle d’abord à cette question ?",
       "o": [
         [
-          "Ce que la science cherche, c’est savoir comment sont les choses ; une science qui choisit ses vérités selon leur rendement cesse d’être une science.",
+          "La vérité se prouve par une méthode et des raisons, non par le bénéfice que sa découverte rapportera.",
           "ok",
           "Elle répond à la question de transition : la partie II part de ce que la partie I perdait."
         ],
@@ -732,9 +732,9 @@ niveau1: [
       "q": "Quel développement montre que cette exigence est nécessaire ?",
       "o": [
         [
-          "Nietzsche, dans Humain, trop humain (§ 635), montre que les méthodes de la science importent au moins autant que ses résultats : c’est en elles que tient l’esprit scientifique, qui ne croit que ce qui est prouvé.",
+          "Nietzsche, dans Humain, trop humain (§ 635), distingue la valeur des méthodes scientifiques de celle de leurs résultats.",
           "ok",
-          "La référence porte la nouvelle réponse : elle montre pourquoi l’exigence de la partie II est nécessaire."
+          "La référence dégage un critère propre à la science : la méthode doit pouvoir être examinée indépendamment de son usage."
         ],
         [
           "La science vaut d’abord par la vérité qu’elle cherche : son utilité ne vient qu’ensuite.",
@@ -754,9 +754,9 @@ niveau1: [
       "q": "Où cette deuxième réponse cède-t-elle à son tour ?",
       "o": [
         [
-          "Mais la science ne connaît la nature qu’en agissant sur elle : l’expérience est déjà une intervention, avant toute application.",
+          "Une méthode qui établit le vrai ne suffit pas à décider si l’expérience est moralement admissible.",
           "ok",
-          "La limite vient encore de l’intérieur : la seconde réponse perd à son tour ce que la première gardait."
+          "C’est une insuffisance du critère épistémique, non la preuve que tout savant indifférent à l’utilité serait irresponsable."
         ],
         [
           "Les chercheurs ont besoin de beaucoup d’argent pour travailler, pour équiper leurs laboratoires et pour payer ceux qui les aident dans leurs expériences.",
@@ -776,9 +776,9 @@ niveau1: [
       "q": "Quelle question montre ce que les deux réponses supposaient ensemble ?",
       "o": [
         [
-          "Mais l’utilité doit-elle être la fin qui choisit les questions, pour que la science ait à répondre de ses pouvoirs ?",
+          "Comment préserver à la fois le critère du vrai et le devoir de justifier les actes de recherche ?",
           "ok",
-          "La question fait voir ce que les deux réponses supposaient ensemble : c’est ce point que la partie III transformera."
+          "La question demande une distinction des critères, non une opposition fabriquée entre liberté et utilité."
         ],
         [
           "Si l’utilité la trahit et que la vérité pure l’aveugle, faut-il finalement exiger de la science qu’elle soit utile, ou non ?",
@@ -798,9 +798,9 @@ niveau1: [
       "q": "Revenir au problème : que supposaient ensemble les deux réponses, et comment le transformer ?",
       "o": [
         [
-          "L’utilité peut changer de place : sans choisir les questions, elle pèse sur les pratiques, dont la science doit répondre comme de tout pouvoir.",
+          "Distinguer trois questions : une hypothèse est-elle vraie, son résultat utile, sa pratique légitime ?",
           "ok",
-          "Elle ne choisit pas un camp : elle transforme ce que les deux réponses tenaient pour acquis."
+          "Cette distinction ne confond pas la vérité d’une proposition et la légitimité des actes qui la produisent."
         ],
         [
           "Chacune avait raison à moitié : la partie I sur l’économie du savoir et ses profits, la partie II sur la culture générale et le goût de connaître.",
@@ -820,9 +820,9 @@ niveau1: [
       "q": "Quelle opération permet de tenir les deux ensemble : renverser le rapport, changer de niveau, ou réunir ce qu’on avait séparé ? Plusieurs peuvent tenir : regardez ce que chacune laisse.",
       "o": [
         [
-          "On peut ainsi laisser une recherche choisir ce qu’elle cherche, et examiner pourtant ses protocoles, ses dangers et ses moyens.",
+          "Évaluer les risques et les précautions d’une expérience sans exiger d’en prévoir toutes les applications.",
           "ok",
-          "Elle garde l’acquis de la partie I et celui de la partie II, et dit concrètement comment les tenir ensemble."
+          "Une opération précise : porter le contrôle sur des actes possibles, non sur un rendement inconnu."
         ],
         [
           "On peut séparer la recherche de ses applications : laisser les savants chercher librement, puis juger seulement l’usage qu’on fera de leurs découvertes.",
@@ -839,17 +839,17 @@ niveau1: [
     {
       "p": "III",
       "k": "stabiliser",
-      "q": "Que peut-on désormais affirmer, et que cette réponse ne règle-t-elle pas encore ?",
+      "q": "Quelle règle supplémentaire déduire pour décider sous incertitude, et quel reste demeure ?",
       "o": [
         [
-          "La science n’a donc pas à servir pour être légitime, mais à répondre de ce qu’elle fait. Reste la difficulté de juger publiquement une recherche dont ni les bénéfices ni certains risques ne sont encore connus.",
+          "Expliciter les risques, proportionner les précautions, réviser les décisions ; reste la question de qui peut en juger.",
           "ok",
-          "La réponse est nette, et son reste est dit : c’est lui que la conclusion reprendra."
+          "III.3 déduit un critère nouveau de décision, puis reconnaît une difficulté de compétence publique."
         ],
         [
-          "La science n’a donc pas à servir pour être légitime, mais à répondre de ce qu’elle fait. Comme les savants peuvent juger eux-mêmes leurs pratiques, il n’y a plus rien à décider en dehors de leurs laboratoires.",
+          "La science répond de ce qu’elle fait, et tout est résolu dès que les savants jugent eux-mêmes leurs risques.",
           "def",
-          "La réponse se croit complète : il reste à juger publiquement une recherche dont ni les bénéfices ni certains risques ne sont encore connus."
+          "La seule autorégulation ne suffit pas à établir qui doit décider des risques imposés à autrui."
         ],
         [
           "La science doit être parfois utile et parfois libre, selon les cas.",
@@ -864,9 +864,9 @@ niveau1: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Qui a qualité pour juger une recherche que seuls ses pairs comprennent, au nom de tous ceux qu’elle engage ?",
+          "Qui peut légitimement décider des risques acceptables quand la connaissance est réservée aux spécialistes, mais que les conséquences concernent tous les citoyens ?",
           "ok",
-          "C’est le reste de la réponse, devenu question : le même problème, posé plus loin."
+          "Le reste porte sur la légitimité du jugement public, non sur l’utilité immédiate de la science."
         ],
         [
           "La science fera-t-elle un jour le bonheur de l’humanité, ou bien sera-t-elle la cause de son malheur et de sa ruine ?",
