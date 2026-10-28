@@ -79,8 +79,8 @@
   }
 
   function hideOldToggles(ids){
-    [].slice.call(document.querySelectorAll('.dc20-toggle,.c20-toggle,.mr-toggle,.c20c-toggle,[data-annotations]')).forEach(function(t){
-      var c=t.getAttribute('aria-controls');
+    [].slice.call(document.querySelectorAll('.dc20-toggle,.c20-toggle,.mr-toggle,.c20c-toggle,[data-annotations],#toggle-annotations')).forEach(function(t){
+      var c=t.getAttribute('aria-controls')||(t.id==='toggle-annotations'?'copy':null);
       var ok=c?ids.indexOf(c)>-1:!!((t.closest('[data-model], details, section')||t.parentElement).querySelector('[data-cm]'));
       if(ok){t.hidden=true;t.classList.add('cm-old');}
     });

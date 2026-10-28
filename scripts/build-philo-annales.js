@@ -6,6 +6,8 @@ const fs=require('fs');
 const path=require('path');
 const {annaleFile}=require('./philo-paths');
 const C20=require('./philo-copie20');
+const EXPLICATIONS=require('./build-explication-textes');
+const EXPLICATION_IDS={'2026-an-freud':'freud-2026-amerique-du-nord','2026-me-nietzsche':'nietzsche-2026-metropole','2026-g1-weil':'weil-2026-centres-etrangers','2026-asie-tocqueville':'tocqueville-2026-asie'};
 const ROOT=path.resolve(__dirname,'..');
 const DOMAIN='https://commentaire-plan.com';
 global.window={};
@@ -49,26 +51,14 @@ ${PRINT}</article></section>\n`;
 }
 
 function renderModel(x){
+  const shared=EXPLICATIONS.data.subjects.find(s=>s.id===EXPLICATION_IDS[x.id]);
+  if(shared)return '<details class="correction"><summary>Lire l’explication rédigée et ses fonctions</summary>'+EXPLICATIONS.model(shared,shared.models[0])+'</details>';
   if(!x.modele||!x.modele.length)return '';
-  const sections={
-    '2026-me-nietzsche':['Introduction','Partie 1','Partie 1','Partie 2','Partie 2','Partie 3','Conclusion'],
-    '2026-an-freud':['Introduction','Partie 1','Partie 1','Partie 2','Partie 2','Partie 3','Conclusion'],
-    '2026-g1-weil':['Introduction','Partie 1','Partie 1','Partie 2','Partie 2','Partie 3','Conclusion'],
-    '2026-ag-murdoch':['Introduction','Partie 1','Partie 1','Partie 2','Partie 3','Partie 3','Conclusion'],
-    '2026-asie-tocqueville':['Introduction','Partie 1','Partie 1','Partie 2','Partie 2','Partie 3','Conclusion']
-  };
-  const titles=sections[x.id]||['Introduction',...x.modele.slice(1,-1).map((_,i)=>'Partie '+Math.min(3,Math.floor(i*3/Math.max(1,x.modele.length-2))+1)),'Conclusion'];
-  let previous='';
-  const rows=x.modele.map(([sentence,fn],i)=>{
-    const title=titles[i]||'Partie';
-    const heading=title!==previous?'<h4 class="c20-h c20-section-heading">'+esc(title)+'</h4>':'';
-    previous=title;
-    return heading+'<p class="c20-s"><span class="c20-t" data-model-text>'+esc(sentence)+'</span><span class="c20-f">'+esc(fn)+'</span></p>';
-  }).join('');
-  return '<details class="correction"><summary>Copie rédigée et fonctions des phrases</summary><p class="micro">Les titres en couleur vous aident à comprendre les étapes du raisonnement. Ne les recopiez pas dans votre copie : ils servent uniquement à vous repérer. Les phrases de la copie sont à gauche ; leur fonction est indiquée à droite.</p><div class="ecrire-copy c20">'+rows+'</div></details>';
+  const rows=x.modele.map(([sentence,fn])=>'<li><p>'+esc(sentence)+'</p><p class="micro"><strong>Fonction.</strong> '+esc(fn)+'</p></li>').join('');
+  return '<details class="correction"><summary>Premiers repères pour construire l’explication</summary><ol class="philo-reading-notes" data-reading-notes="'+esc(x.id)+'">'+rows+'</ol></details>';
 }
 function texte(set,x){
-  const modelIds={'2026-an-freud':'freud-2026-amerique-du-nord','2026-me-nietzsche':'nietzsche-2026-metropole','2026-g1-weil':'weil-2026-centres-etrangers','2026-asie-tocqueville':'tocqueville-2026-asie'};
+  const modelIds=EXPLICATION_IDS;
   const modelHref=modelIds[x.id]?`philosophie-explication-${modelIds[x.id]}.html#modele`:'philosophie-explication.html';
   const corr=`<section class="exercise-wrap" id="corrige"><article class="exercise"><div class="kicker">APRÈS VOTRE EXPLICATION</div><h2>Un corrigé possible.</h2><details class="correction"><summary>Comparer avec votre travail</summary>${p('Le problème',x.probleme)}${p('La thèse',x.these)}${(x.moments||[]).length?'<p><strong>Les moments du texte :</strong></p><ol>'+x.moments.map(m=>'<li>'+esc(m)+'</li>').join('')+'</ol>':''}${renderModel(x)}${p('Ce que fait le texte',x.operation)}<p class="micro">Ce corrigé résume le texte avec nos mots : relisez toujours le texte lui-même dans le sujet officiel.</p></details><details><summary>Après l’explication : réemploi facultatif en dissertation</summary>${p('Un usage possible',x.reemploi)}</details>
 ${PRINT}</article></section>\n`;
@@ -76,7 +66,7 @@ ${PRINT}</article></section>\n`;
   step('2 · LA THÈSE','Quelle réponse l’auteur défend-il ?','<p>Écrivez en une phrase la réponse que l’auteur défend, sans résumer tout le passage.</p>','philo-texte-these',3)+
   step('3 · LES MOMENTS','Comment le texte avance-t-il ?','<p>Découpez le texte selon les étapes de son raisonnement. Pour chacune, écrivez une phrase : ce que l’auteur fait là (il affirme, explique, donne un exemple, répond à une objection, conclut). Le nombre dépend de ce texte.</p>','philo-texte-moments',6)+
   step('4 · EXPLIQUER UNE RAISON','Pourquoi l’auteur soutient-il cette idée ?','<ol class="consigne-simple"><li>Choisissez une phrase importante du texte et recopiez-la.</li><li>Précisez le sens d’un mot décisif, puis expliquez la raison que cette phrase donne.</li><li>Reliez-la au mouvement du texte. Rédigez six à dix phrases pour l’ensemble.</li></ol>','philo-texte-argument',8)+
-  step('5 · L’EXPLICATION ENTIÈRE','Rédigez votre explication complète.','<p>Reprenez votre brouillon et gardez le texte officiel ouvert. Expliquez son problème, sa thèse et ses raisons dans leur mouvement. Choisissez l’organisation qui rend cet extrait intelligible. Terminez par ce qu’il établit et par sa portée.</p><p class="micro">Pour comparer une copie entièrement rédigée : <a href="'+modelHref+'">une copie courte, phrase par phrase →</a>. Aucune note automatique n’est calculée ici.</p>','philo-texte-copie',20)+
+  step('5 · L’EXPLICATION ENTIÈRE','Rédigez votre explication complète.','<p>Reprenez votre brouillon et gardez le texte officiel ouvert. Expliquez son problème, sa thèse et ses raisons dans leur mouvement. Choisissez l’organisation qui rend cet extrait intelligible. Terminez par ce qu’il établit et par sa portée.</p>'+(modelIds[x.id]?'<p class="micro">Pour comparer une copie entièrement rédigée : <a href="'+modelHref+'">une copie courte, phrase par phrase →</a>. Aucune note automatique n’est calculée ici.</p>':'<p class="micro">Dans l’onglet « Le corrigé », les premiers repères vous aident à reprendre votre rédaction. Vérifiez les mots, les raisons et la place de chaque idée dans le texte.</p>'),'philo-texte-copie',20)+
   `<section class="offer-band"><div class="kicker">APRÈS RÉDACTION</div><h2>Quatre vérifications.</h2><div class="sequence-spec"><p>Mon problème explique-t-il pourquoi le texte doit argumenter ?</p><p>Ma thèse dit-elle ce que l’auteur établit précisément ?</p><p>Mon explication rend-elle compte des moments et de leurs rôles ?</p><p>Chaque passage important est-il expliqué par ses mots, ses raisons et sa place dans le texte ?</p></div></section>\n`;
   return {train, corr};
 }

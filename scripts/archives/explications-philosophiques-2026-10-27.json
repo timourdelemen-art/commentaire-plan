@@ -1,0 +1,1817 @@
+{
+  "referenceCommit": "0ec0e3b39f26d5265f330c91d8b9aa01517770a6",
+  "models": [
+    {
+      "id": "nietzsche-2026-metropole-option-1",
+      "author": "Nietzsche",
+      "source": "https://www.education.gouv.fr/sites/default/files/document/baccalaureat-general-2026-philosophie-517487.pdf",
+      "kind": "generated",
+      "wordCount": 476,
+      "textSha256": "d255d8888b6405e1bd96569d648027eae467f9b98fc49705b9acd4c3cfe588d1",
+      "original": {
+        "option": "libre",
+        "title": "Explication rédigée · objectif 20/20",
+        "paragraphs": [
+          [
+            "",
+            "Dans cet extrait d’Humain, trop humain, Nietzsche distingue la possession de connaissances scientifiques et la formation de l’esprit scientifique. Comment le savoir pourrait-il laisser subsister la superstition chez celui qui le possède ? C’est que la science instruit véritablement lorsqu’on apprend à examiner ses raisons, au lieu d’en retenir seulement les résultats. Nietzsche établit la valeur des méthodes, décrit l’enthousiasme sans contrôle qui les ignore, puis en déduit une exigence d’éducation.",
+            "",
+            [
+              [
+                "Dans cet extrait d’Humain, trop humain, Nietzsche distingue la possession de connaissances scientifiques et la formation de l’esprit scientifique.",
+                "Situer la distinction entre savoir scientifique et formation de l’esprit"
+              ],
+              [
+                "Comment le savoir pourrait-il laisser subsister la superstition chez celui qui le possède ?",
+                "Formuler le problème du savoir qui laisse subsister la superstition"
+              ],
+              [
+                "C’est que la science instruit véritablement lorsqu’on apprend à examiner ses raisons, au lieu d’en retenir seulement les résultats.",
+                "Énoncer la thèse : apprendre à examiner les raisons du savoir"
+              ],
+              [
+                "Nietzsche établit la valeur des méthodes, décrit l’enthousiasme sans contrôle qui les ignore, puis en déduit une exigence d’éducation.",
+                "Annoncer le chemin des méthodes à l’éducation"
+              ]
+            ]
+          ],
+          [
+            "",
+            "Les méthodes sont d’abord présentées comme une conquête de la recherche, au moins aussi importante que ses découvertes. Une méthode règle la recherche et permet de distinguer une explication séduisante d’une proposition justifiée. La supposition de sa disparition révèle sa nécessité : les vérités déjà acquises pourraient être répétées sans qu’on sache distinguer de nouvelles affirmations justifiées et de nouvelles superstitions. Le savoir conservé ne suffirait donc pas à entretenir la capacité de juger qui l’a produit.",
+            "",
+            [
+              [
+                "Les méthodes sont d’abord présentées comme une conquête de la recherche, au moins aussi importante que ses découvertes.",
+                "Présenter la valeur des méthodes que l’auteur va justifier"
+              ],
+              [
+                "Une méthode règle la recherche et permet de distinguer une explication séduisante d’une proposition justifiée.",
+                "Expliquer ce que la méthode permet de distinguer"
+              ],
+              [
+                "La supposition de sa disparition révèle sa nécessité : les vérités déjà acquises pourraient être répétées sans qu’on sache distinguer de nouvelles affirmations justifiées et de nouvelles superstitions.",
+                "Reconstruire l’argument de la disparition des méthodes"
+              ],
+              [
+                "Le savoir conservé ne suffirait donc pas à entretenir la capacité de juger qui l’a produit.",
+                "Dégager la différence entre transmettre un savoir et former le jugement"
+              ]
+            ]
+          ],
+          [
+            "",
+            "La valeur des méthodes se mesure aussi à l’habitude de jugement qu’elles forment : c’est pourquoi leur absence se révèle chez des personnes pourtant cultivées. Leurs connaissances sont réelles ; c’est leur manière de proposer des hypothèses qui révèle leur défaut de formation. Le savant a acquis, par un exercice prolongé, une vigilance devenue spontanée envers les débordements de sa propre pensée. Ce qui ressemble à un instinct résulte donc ici d’un apprentissage : l’habitude permet de résister immédiatement à une conclusion précipitée. Cette vigilance ne supprime pas l’invention d’hypothèses, dont la science a besoin ; elle empêche de les tenir aussitôt pour établies.",
+            "",
+            [
+              [
+                "La valeur des méthodes se mesure aussi à l’habitude de jugement qu’elles forment : c’est pourquoi leur absence se révèle chez des personnes pourtant cultivées.",
+                "Transition : passer de la valeur des méthodes à ce qu’elles changent dans la formation du jugement"
+              ],
+              [
+                "Leurs connaissances sont réelles ; c’est leur manière de proposer des hypothèses qui révèle leur défaut de formation.",
+                "Distinguer possession de connaissances et formation du jugement"
+              ],
+              [
+                "Le savant a acquis, par un exercice prolongé, une vigilance devenue spontanée envers les débordements de sa propre pensée.",
+                "Expliquer par l’exercice la vigilance du savant"
+              ],
+              [
+                "Ce qui ressemble à un instinct résulte donc ici d’un apprentissage : l’habitude permet de résister immédiatement à une conclusion précipitée.",
+                "Résoudre l’apparente opposition entre instinct et apprentissage"
+              ],
+              [
+                "Cette vigilance ne supprime pas l’invention d’hypothèses, dont la science a besoin ; elle empêche de les tenir aussitôt pour établies.",
+                "Préciser que la vigilance contrôle les hypothèses sans interdire d’en inventer"
+              ]
+            ]
+          ],
+          [
+            "",
+            "À l’inverse, les personnes visées prennent la découverte d’une hypothèse pour l’achèvement de l’explication. Une idée qui pourrait expliquer devient à leurs yeux une raison suffisante de croire. L’enthousiasme se change alors en fanatisme : l’attachement personnel dispense de soumettre l’opinion à une épreuve. Prendre une hypothèse « à cœur comme une conviction », c’est engager son attachement personnel là où il faudrait encore examiner une explication possible. L’assurance subjective augmente ainsi sans augmentation correspondante des preuves.",
+            "",
+            [
+              [
+                "À l’inverse, les personnes visées prennent la découverte d’une hypothèse pour l’achèvement de l’explication.",
+                "Identifier la confusion entre hypothèse et explication établie"
+              ],
+              [
+                "Une idée qui pourrait expliquer devient à leurs yeux une raison suffisante de croire.",
+                "Décrire le passage injustifié du possible au certain"
+              ],
+              [
+                "L’enthousiasme se change alors en fanatisme : l’attachement personnel dispense de soumettre l’opinion à une épreuve.",
+                "Expliquer comment l’attachement passionné remplace l’examen"
+              ],
+              [
+                "Prendre une hypothèse « à cœur comme une conviction », c’est engager son attachement personnel là où il faudrait encore examiner une explication possible.",
+                "Appuyer cette explication sur la formulation de Nietzsche"
+              ],
+              [
+                "L’assurance subjective augmente ainsi sans augmentation correspondante des preuves.",
+                "Dégager l’écart entre assurance personnelle et preuves"
+              ]
+            ]
+          ],
+          [
+            "",
+            "Cette confusion entre hypothèse et conviction devient plus grave encore lorsqu’elle s’étend à la vie politique. Nietzsche annonce « les plus fâcheuses conséquences », notamment en politique : une conviction mal examinée peut alors orienter les décisions communes. Nietzsche ne démontre pas ici que la science déciderait à elle seule du juste ; il réclame la prudence qui manque aux opinions passionnées. C’est pourquoi il demande que chacun étudie au moins une science de manière approfondie. Une seule peut suffire à faire éprouver la difficulté de justifier une affirmation, là où une accumulation superficielle de résultats l’aurait masquée. Cette expérience doit former une disposition durable à mesurer ses jugements à leurs raisons.",
+            "",
+            [
+              [
+                "Cette confusion entre hypothèse et conviction devient plus grave encore lorsqu’elle s’étend à la vie politique.",
+                "Transition : montrer pourquoi le défaut intellectuel a une portée collective"
+              ],
+              [
+                "Nietzsche annonce « les plus fâcheuses conséquences », notamment en politique : une conviction mal examinée peut alors orienter les décisions communes.",
+                "Citer la conséquence nommée par Nietzsche et expliciter son enjeu politique"
+              ],
+              [
+                "Nietzsche ne démontre pas ici que la science déciderait à elle seule du juste ; il réclame la prudence qui manque aux opinions passionnées.",
+                "Délimiter la conséquence politique sans attribuer à la science toutes les réponses"
+              ],
+              [
+                "C’est pourquoi il demande que chacun étudie au moins une science de manière approfondie.",
+                "Rattacher la recommandation éducative au défaut de jugement décrit"
+              ],
+              [
+                "Une seule peut suffire à faire éprouver la difficulté de justifier une affirmation, là où une accumulation superficielle de résultats l’aurait masquée.",
+                "Justifier l’étude approfondie d’une science plutôt que l’accumulation de résultats"
+              ],
+              [
+                "Cette expérience doit former une disposition durable à mesurer ses jugements à leurs raisons.",
+                "Expliquer ce que cet apprentissage peut former au-delà d’une seule science"
+              ]
+            ]
+          ],
+          [
+            "",
+            "Le passage établit ainsi que la transmission des vérités ne garantit pas celle de l’esprit scientifique. L’enjeu de l’éducation scientifique est de former une prudence active, capable d’inventer des explications tout en exigeant leur justification.",
+            "",
+            [
+              [
+                "Le passage établit ainsi que la transmission des vérités ne garantit pas celle de l’esprit scientifique.",
+                "Répondre au problème en distinguant vérités transmises et esprit scientifique"
+              ],
+              [
+                "L’enjeu de l’éducation scientifique est de former une prudence active, capable d’inventer des explications tout en exigeant leur justification.",
+                "Préciser l’apport : unir invention et exigence de justification"
+              ]
+            ]
+          ]
+        ],
+        "paragraphSections": [
+          "Introduction",
+          "Partie 1",
+          "Partie 2",
+          "Partie 2",
+          "Partie 3",
+          "Conclusion"
+        ]
+      }
+    },
+    {
+      "id": "freud-2026-amerique-du-nord-option-1",
+      "author": "Freud",
+      "source": "https://www.education.gouv.fr/sites/default/files/document/baccalaureat-general-2026-philosophie-517046.pdf",
+      "kind": "generated",
+      "wordCount": 495,
+      "textSha256": "b292f0c1075b9fca012274a66082030645f9ae1d5f377b7978678fd0130d532b",
+      "original": {
+        "option": "libre",
+        "title": "Explication rédigée · objectif 20/20",
+        "paragraphs": [
+          [
+            "",
+            "Dans cet extrait de L’Avenir d’une illusion, Freud interroge l’origine et la force des croyances religieuses. Pourquoi ces croyances emportent-elles l’adhésion si elles ne proviennent ni de l’expérience ni d’une démonstration ? Freud explique leur puissance par les désirs auxquels elles donnent satisfaction. Il en énonce l’origine affective, la rapporte au besoin infantile de protection, puis précise les attentes que le système religieux satisfait.",
+            "",
+            [
+              [
+                "Dans cet extrait de L’Avenir d’une illusion, Freud interroge l’origine et la force des croyances religieuses.",
+                "Situer l’étude de l’origine et de la force des croyances religieuses"
+              ],
+              [
+                "Pourquoi ces croyances emportent-elles l’adhésion si elles ne proviennent ni de l’expérience ni d’une démonstration ?",
+                "Formuler le problème de l’adhésion sans preuve"
+              ],
+              [
+                "Freud explique leur puissance par les désirs auxquels elles donnent satisfaction.",
+                "Énoncer l’explication de cette force par le désir"
+              ],
+              [
+                "Il en énonce l’origine affective, la rapporte au besoin infantile de protection, puis précise les attentes que le système religieux satisfait.",
+                "Annoncer le passage de l’origine affective aux attentes satisfaites"
+              ]
+            ]
+          ],
+          [
+            "",
+            "Les idées religieuses se présentent comme des dogmes, c’est-à-dire des affirmations soustraites à la contestation. Freud précise qu’elles ne sont ni « le résidu de l’expérience » ni « le résultat final de la réflexion ». Il les qualifie d’illusions parce que le désir intervient de manière déterminante dans leur formation. Il faut cependant distinguer cette explication de l’adhésion d’une preuve de fausseté : qu’une croyance soit désirée ne suffit pas, à soi seul, à établir qu’elle est fausse. La critique porte ici sur le fondement de la conviction : sa force affective ne constitue pas une preuve.",
+            "",
+            [
+              [
+                "Les idées religieuses se présentent comme des dogmes, c’est-à-dire des affirmations soustraites à la contestation.",
+                "Préciser le statut de certitude revendiqué par les dogmes"
+              ],
+              [
+                "Freud précise qu’elles ne sont ni « le résidu de l’expérience » ni « le résultat final de la réflexion ».",
+                "Appuyer la distinction sur les mots exacts du texte"
+              ],
+              [
+                "Il les qualifie d’illusions parce que le désir intervient de manière déterminante dans leur formation.",
+                "Expliquer le sens de l’illusion par le rôle du désir"
+              ],
+              [
+                "Il faut cependant distinguer cette explication de l’adhésion d’une preuve de fausseté : qu’une croyance soit désirée ne suffit pas, à soi seul, à établir qu’elle est fausse.",
+                "Examiner la portée de l’argument sans confondre désir et preuve de fausseté"
+              ],
+              [
+                "La critique porte ici sur le fondement de la conviction : sa force affective ne constitue pas une preuve.",
+                "Revenir à la différence entre force affective et justification"
+              ]
+            ]
+          ],
+          [
+            "",
+            "Pour comprendre pourquoi ces croyances résistent à l’examen, Freud remonte du dogme au besoin de protection. L’enfant dépend d’un père qui peut le protéger parce qu’il l’aime ; l’amour donne ainsi à la puissance protectrice une orientation favorable. Or grandir ne fait pas disparaître la vulnérabilité devant la maladie, la mort ou les dangers naturels. L’adulte retrouve donc le besoin d’être protégé, mais le père humain ne peut plus garantir cette protection. La figure divine prolonge cette relation en lui donnant un protecteur plus puissant. Cette continuité explique, chez Freud, la formation de la croyance ; elle n’établit pas, à elle seule, si son objet existe.",
+            "",
+            [
+              [
+                "Pour comprendre pourquoi ces croyances résistent à l’examen, Freud remonte du dogme au besoin de protection.",
+                "Transition : passer du statut de la croyance à son origine affective"
+              ],
+              [
+                "L’enfant dépend d’un père qui peut le protéger parce qu’il l’aime ; l’amour donne ainsi à la puissance protectrice une orientation favorable.",
+                "Expliquer pourquoi l’amour du père compte dans sa fonction protectrice"
+              ],
+              [
+                "Or grandir ne fait pas disparaître la vulnérabilité devant la maladie, la mort ou les dangers naturels.",
+                "Justifier la persistance du besoin de protection à l’âge adulte"
+              ],
+              [
+                "L’adulte retrouve donc le besoin d’être protégé, mais le père humain ne peut plus garantir cette protection.",
+                "Faire apparaître l’insuffisance du protecteur humain"
+              ],
+              [
+                "La figure divine prolonge cette relation en lui donnant un protecteur plus puissant.",
+                "Expliquer le passage à une puissance protectrice divine"
+              ],
+              [
+                "Cette continuité explique, chez Freud, la formation de la croyance ; elle n’établit pas, à elle seule, si son objet existe.",
+                "Distinguer l’explication psychologique et la question de l’existence de Dieu"
+              ]
+            ]
+          ],
+          [
+            "",
+            "Cette protection se déploie ensuite en plusieurs promesses distinctes. La Providence présente les événements comme soumis à une bienveillance, ce qui apaise la peur d’être livré à des forces indifférentes. L’ordre moral de l’univers promet une justice que les sociétés humaines ne réalisent pas toujours. La vie future offre enfin le temps et le lieu où ces attentes pourront être satisfaites malgré les limites de l’existence terrestre. Ces promesses se soutiennent mutuellement : ce que l’expérience présente refuse peut être attendu d’un ordre qui la dépasse. Leur puissance vient donc aussi de leur capacité à maintenir l’espérance face aux démentis de la vie.",
+            "",
+            [
+              [
+                "Cette protection se déploie ensuite en plusieurs promesses distinctes.",
+                "Annoncer les attentes que la protection religieuse réunit"
+              ],
+              [
+                "La Providence présente les événements comme soumis à une bienveillance, ce qui apaise la peur d’être livré à des forces indifférentes.",
+                "Expliquer comment la Providence répond à la peur des dangers"
+              ],
+              [
+                "L’ordre moral de l’univers promet une justice que les sociétés humaines ne réalisent pas toujours.",
+                "Expliquer comment l’ordre moral répond à l’injustice vécue"
+              ],
+              [
+                "La vie future offre enfin le temps et le lieu où ces attentes pourront être satisfaites malgré les limites de l’existence terrestre.",
+                "Expliquer pourquoi la vie future rend possible la satisfaction différée"
+              ],
+              [
+                "Ces promesses se soutiennent mutuellement : ce que l’expérience présente refuse peut être attendu d’un ordre qui la dépasse.",
+                "Montrer comment les promesses se soutiennent mutuellement"
+              ],
+              [
+                "Leur puissance vient donc aussi de leur capacité à maintenir l’espérance face aux démentis de la vie.",
+                "Déduire une raison de la persistance de l’espérance"
+              ]
+            ]
+          ],
+          [
+            "",
+            "Les croyances ne consolent pas seulement : elles proposent aussi une explication du monde. La religion répond également aux questions sur l’origine du monde et sur le rapport du corps à l’esprit. Mais ces réponses sont élaborées à partir des principes déjà admis par le système religieux. On peut alors préciser la limite logique de ces réponses : leur cohérence interne ne suffit pas à établir indépendamment la vérité de leurs principes. La satisfaction du besoin de comprendre rejoint ainsi celle du besoin d’être protégé.",
+            "",
+            [
+              [
+                "Les croyances ne consolent pas seulement : elles proposent aussi une explication du monde.",
+                "Transition : passer de la fonction consolatrice à la fonction explicative"
+              ],
+              [
+                "La religion répond également aux questions sur l’origine du monde et sur le rapport du corps à l’esprit.",
+                "Préciser les questions auxquelles la religion répond aussi"
+              ],
+              [
+                "Mais ces réponses sont élaborées à partir des principes déjà admis par le système religieux.",
+                "Expliquer la dépendance de ces réponses envers les principes admis"
+              ],
+              [
+                "On peut alors préciser la limite logique de ces réponses : leur cohérence interne ne suffit pas à établir indépendamment la vérité de leurs principes.",
+                "Examiner la différence entre cohérence du système et preuve de ses principes"
+              ],
+              [
+                "La satisfaction du besoin de comprendre rejoint ainsi celle du besoin d’être protégé.",
+                "Relier le besoin de comprendre au besoin de protection"
+              ]
+            ]
+          ],
+          [
+            "",
+            "Freud rend donc intelligible la puissance de la religion en la rapportant à la vulnérabilité humaine et aux désirs qu’elle suscite. Le texte invite à distinguer la valeur consolatrice d’une croyance des raisons qui pourraient en établir la vérité.",
+            "",
+            [
+              [
+                "Freud rend donc intelligible la puissance de la religion en la rapportant à la vulnérabilité humaine et aux désirs qu’elle suscite.",
+                "Répondre au problème par le lien entre vulnérabilité et désir"
+              ],
+              [
+                "Le texte invite à distinguer la valeur consolatrice d’une croyance des raisons qui pourraient en établir la vérité.",
+                "Dégager la distinction entre consolation et justification d’une croyance"
+              ]
+            ]
+          ]
+        ],
+        "paragraphSections": [
+          "Introduction",
+          "Partie 1",
+          "Partie 2",
+          "Partie 2",
+          "Partie 3",
+          "Conclusion"
+        ]
+      }
+    },
+    {
+      "id": "tocqueville-2026-asie-option-1",
+      "author": "Tocqueville",
+      "source": "https://www.education.gouv.fr/sites/default/files/document/baccalaureat-general-2026-philosophie-517430.pdf",
+      "kind": "generated",
+      "wordCount": 510,
+      "textSha256": "47eb913eeca9efb844ac41a75d5b822514b9d6e2ccd17583b1c4b1b32196fee0",
+      "original": {
+        "option": "libre",
+        "title": "Explication rédigée · objectif 20/20",
+        "paragraphs": [
+          [
+            "",
+            "Dans cet extrait de De la démocratie en Amérique, Tocqueville examine un danger intérieur à la démocratie : le retrait des citoyens de la vie publique. Comment la recherche de leur intérêt peut-elle les conduire à compromettre les conditions de leur prospérité ? L’auteur montre qu’un désir de richesse insuffisamment éclairé fait négliger la liberté qui permet de rester maître de ses affaires. Le texte décrit ce déséquilibre, explique l’abandon volontaire des droits, puis en dégage l’erreur et la conséquence collective.",
+            "",
+            [
+              [
+                "Dans cet extrait de De la démocratie en Amérique, Tocqueville examine un danger intérieur à la démocratie : le retrait des citoyens de la vie publique.",
+                "Situer le danger démocratique du retrait des citoyens"
+              ],
+              [
+                "Comment la recherche de leur intérêt peut-elle les conduire à compromettre les conditions de leur prospérité ?",
+                "Formuler le problème d’un intérêt qui compromet ses propres conditions"
+              ],
+              [
+                "L’auteur montre qu’un désir de richesse insuffisamment éclairé fait négliger la liberté qui permet de rester maître de ses affaires.",
+                "Énoncer la thèse en conservant la condition du danger"
+              ],
+              [
+                "Le texte décrit ce déséquilibre, explique l’abandon volontaire des droits, puis en dégage l’erreur et la conséquence collective.",
+                "Annoncer la conduite décrite, son erreur et sa conséquence collective"
+              ]
+            ]
+          ],
+          [
+            "",
+            "Le péril apparaît lorsque le goût des biens progresse plus vite que les lumières et les habitudes de la liberté. Les lumières désignent une compréhension de la liberté ; les habitudes, une pratique durable qui l’entretient. Tocqueville n’affirme donc pas que l’enrichissement détruit nécessairement la démocratie : c’est le décalage entre ces développements qui menace son équilibre. L’attrait des gains absorbe alors l’attention et masque la dépendance des réussites privées envers la prospérité commune. Tocqueville nomme le lien que les citoyens ne voient plus : la fortune particulière de chacun dépend de la « prospérité de tous ».",
+            "",
+            [
+              [
+                "Le péril apparaît lorsque le goût des biens progresse plus vite que les lumières et les habitudes de la liberté.",
+                "Préciser le décalage qui rend l’enrichissement dangereux"
+              ],
+              [
+                "Les lumières désignent une compréhension de la liberté ; les habitudes, une pratique durable qui l’entretient.",
+                "Distinguer la compréhension et la pratique de la liberté"
+              ],
+              [
+                "Tocqueville n’affirme donc pas que l’enrichissement détruit nécessairement la démocratie : c’est le décalage entre ces développements qui menace son équilibre.",
+                "Écarter l’idée que tout enrichissement détruirait la démocratie"
+              ],
+              [
+                "L’attrait des gains absorbe alors l’attention et masque la dépendance des réussites privées envers la prospérité commune.",
+                "Expliquer comment l’attrait des gains masque leur dépendance au bien commun"
+              ],
+              [
+                "Tocqueville nomme le lien que les citoyens ne voient plus : la fortune particulière de chacun dépend de la « prospérité de tous ».",
+                "Citer le lien précis établi par Tocqueville plutôt que d’ajouter un exemple extérieur"
+              ]
+            ]
+          ],
+          [
+            "",
+            "Cette priorité accordée aux biens ne reste pas un choix privé : elle conduit les citoyens à délaisser les droits qui protègent leur liberté. Les citoyens les abandonnent en renonçant aux pratiques qui leur donnent une portée effective. Choisir des représentants, soutenir l’autorité et délibérer en commun leur apparaissent comme du temps détourné du travail. Le coût privé de la participation est immédiatement visible ; le bénéfice commun qu’elle entretient devient imperceptible. Les expressions « travaux inutiles » et « jeux d’oisifs » exposent ce jugement des citoyens, sans exprimer celui de Tocqueville. Leur prétendu sérieux justifie ainsi une négligence dont ils ne mesurent pas la gravité.",
+            "",
+            [
+              [
+                "Cette priorité accordée aux biens ne reste pas un choix privé : elle conduit les citoyens à délaisser les droits qui protègent leur liberté.",
+                "Transition : montrer comment une préférence privée affaiblit les droits politiques"
+              ],
+              [
+                "Les citoyens les abandonnent en renonçant aux pratiques qui leur donnent une portée effective.",
+                "Distinguer la possession des droits et leur exercice"
+              ],
+              [
+                "Choisir des représentants, soutenir l’autorité et délibérer en commun leur apparaissent comme du temps détourné du travail.",
+                "Restituer le jugement des citoyens sur la participation politique"
+              ],
+              [
+                "Le coût privé de la participation est immédiatement visible ; le bénéfice commun qu’elle entretient devient imperceptible.",
+                "Reconstruire le calcul qui masque le bénéfice commun"
+              ],
+              [
+                "Les expressions « travaux inutiles » et « jeux d’oisifs » exposent ce jugement des citoyens, sans exprimer celui de Tocqueville.",
+                "Attribuer les expressions citées aux citoyens que Tocqueville critique"
+              ],
+              [
+                "Leur prétendu sérieux justifie ainsi une négligence dont ils ne mesurent pas la gravité.",
+                "Expliquer comment leur prétendu sérieux justifie leur négligence"
+              ]
+            ]
+          ],
+          [
+            "",
+            "L’auteur rectifie alors leur conception de l’intérêt. L’erreur ne consiste pas à chercher son avantage, mais à le limiter aux profits privés immédiats. Rester maître de soi signifie ici conserver une capacité politique de participer aux décisions communes, et non seulement maîtriser ses passions. Cette autonomie protège aussi la conduite des affaires privées : sans elle, les citoyens dépendent de décisions qu’ils ne prennent plus soin d’orienter. La participation n’est donc pas une distraction extérieure à leur intérêt ; elle en préserve une condition essentielle.",
+            "",
+            [
+              [
+                "L’auteur rectifie alors leur conception de l’intérêt.",
+                "Identifier la rectification de l’intérêt proposée par l’auteur"
+              ],
+              [
+                "L’erreur ne consiste pas à chercher son avantage, mais à le limiter aux profits privés immédiats.",
+                "Distinguer recherche d’un avantage et calcul limité au profit immédiat"
+              ],
+              [
+                "Rester maître de soi signifie ici conserver une capacité politique de participer aux décisions communes, et non seulement maîtriser ses passions.",
+                "Préciser le sens politique de la maîtrise de soi"
+              ],
+              [
+                "Cette autonomie protège aussi la conduite des affaires privées : sans elle, les citoyens dépendent de décisions qu’ils ne prennent plus soin d’orienter.",
+                "Justifier la dépendance des affaires privées envers l’autonomie politique"
+              ],
+              [
+                "La participation n’est donc pas une distraction extérieure à leur intérêt ; elle en préserve une condition essentielle.",
+                "Dégager le rôle de la participation dans la préservation de l’intérêt"
+              ]
+            ]
+          ],
+          [
+            "",
+            "L’erreur individuelle prend enfin une portée collective : si chacun se retire, personne ne veille au maintien de la liberté commune. Les citoyens absorbés par le travail refusent la charge publique, tandis que la classe qui aurait pu l’assumer grâce à ses loisirs n’existe plus. Aucun groupe ne vient donc compenser ce retrait, qui laisse la fonction de gouvernement sans prise en charge suffisante. La comparaison avec une place vide décrit cette défaillance ; elle n’affirme ni la disparition matérielle de tout pouvoir ni l’installation déjà accomplie d’une tyrannie. Le danger réside dans une liberté que chacun suppose disponible alors que personne ne l’entretient collectivement.",
+            "",
+            [
+              [
+                "L’erreur individuelle prend enfin une portée collective : si chacun se retire, personne ne veille au maintien de la liberté commune.",
+                "Transition : passer de la méprise individuelle à sa conséquence collective"
+              ],
+              [
+                "Les citoyens absorbés par le travail refusent la charge publique, tandis que la classe qui aurait pu l’assumer grâce à ses loisirs n’existe plus.",
+                "Expliquer pourquoi aucun des deux groupes n’assume la charge publique"
+              ],
+              [
+                "Aucun groupe ne vient donc compenser ce retrait, qui laisse la fonction de gouvernement sans prise en charge suffisante.",
+                "Reconstruire la conséquence de cette absence de compensation"
+              ],
+              [
+                "La comparaison avec une place vide décrit cette défaillance ; elle n’affirme ni la disparition matérielle de tout pouvoir ni l’installation déjà accomplie d’une tyrannie.",
+                "Délimiter le sens du vide politique sans annoncer une tyrannie déjà installée"
+              ],
+              [
+                "Le danger réside dans une liberté que chacun suppose disponible alors que personne ne l’entretient collectivement.",
+                "Relier le défaut d’entretien collectif au danger pour la liberté"
+              ]
+            ]
+          ],
+          [
+            "",
+            "Tocqueville montre ainsi qu’une recherche exclusive de la fortune peut sacrifier la liberté dont elle dépend. L’intérêt bien compris exige de reconnaître les conditions communes de l’autonomie individuelle et de contribuer à leur maintien.",
+            "",
+            [
+              [
+                "Tocqueville montre ainsi qu’une recherche exclusive de la fortune peut sacrifier la liberté dont elle dépend.",
+                "Répondre au problème de la fortune qui sacrifie sa condition politique"
+              ],
+              [
+                "L’intérêt bien compris exige de reconnaître les conditions communes de l’autonomie individuelle et de contribuer à leur maintien.",
+                "Dégager l’exigence de contribuer aux conditions communes de l’autonomie"
+              ]
+            ]
+          ]
+        ],
+        "paragraphSections": [
+          "Introduction",
+          "Partie 1",
+          "Partie 2",
+          "Partie 2",
+          "Partie 3",
+          "Conclusion"
+        ]
+      }
+    },
+    {
+      "id": "weil-2026-centres-etrangers-option-1",
+      "author": "Simone Weil",
+      "source": "https://www.education.gouv.fr/sites/default/files/document/baccalaur-at-g-n-ral-2026-philosophie-517142.pdf",
+      "kind": "generated",
+      "wordCount": 572,
+      "textSha256": "5b610b258a9aff532e50cbf86b542c7eba8bdc3fe316634b61a8b653960e1d12",
+      "original": {
+        "option": "libre",
+        "title": "Explication rédigée · objectif 20/20",
+        "paragraphs": [
+          [
+            "",
+            "Dans cet extrait de La Condition ouvrière, Simone Weil examine la servitude propre au travail d’exécution. Pourquoi une organisation parfaitement équitable ne suffirait-elle pas à délivrer ce travail de toute souffrance ? Weil soutient que le travail d’exécution garde une servitude même dans une société équitable : l’effort nécessaire à la conservation de la vie contrarie le désir d’avancer qui lui donne son énergie. Elle caractérise la nécessité du travail, lui oppose le mouvement du désir, puis en tire une explication de la lassitude.",
+            "",
+            [
+              [
+                "Dans cet extrait de La Condition ouvrière, Simone Weil examine la servitude propre au travail d’exécution.",
+                "Situer la servitude propre au travail d’exécution"
+              ],
+              [
+                "Pourquoi une organisation parfaitement équitable ne suffirait-elle pas à délivrer ce travail de toute souffrance ?",
+                "Formuler le problème d’une souffrance qui résiste à l’équité"
+              ],
+              [
+                "Weil soutient que le travail d’exécution garde une servitude même dans une société équitable : l’effort nécessaire à la conservation de la vie contrarie le désir d’avancer qui lui donne son énergie.",
+                "Énoncer la thèse et la raison qui relie nécessité, désir et servitude"
+              ],
+              [
+                "Elle caractérise la nécessité du travail, lui oppose le mouvement du désir, puis en tire une explication de la lassitude.",
+                "Annoncer le chemin de la nécessité du travail à la lassitude"
+              ]
+            ]
+          ],
+          [
+            "",
+            "L’équité sociale pourrait supprimer des injustices sans supprimer la contrainte de travailler pour vivre. Cette contrainte est dite irréductible parce qu’elle tient au besoin renouvelé, au-delà des rapports inégaux entre les personnes. L’hypothèse d’une équité parfaite isole donc une difficulté que l’amélioration sociale, aussi nécessaire soit-elle, ne résout pas à elle seule. Le passage ne prétend pas démontrer que toute forme de travail exclut l’accomplissement ; son objet est le travail manuel et, plus généralement, d’exécution.",
+            "",
+            [
+              [
+                "L’équité sociale pourrait supprimer des injustices sans supprimer la contrainte de travailler pour vivre.",
+                "Distinguer l’injustice sociale et la nécessité de travailler pour vivre"
+              ],
+              [
+                "Cette contrainte est dite irréductible parce qu’elle tient au besoin renouvelé, au-delà des rapports inégaux entre les personnes.",
+                "Expliquer pourquoi le renouvellement du besoin rend cette nécessité irréductible"
+              ],
+              [
+                "L’hypothèse d’une équité parfaite isole donc une difficulté que l’amélioration sociale, aussi nécessaire soit-elle, ne résout pas à elle seule.",
+                "Montrer comment l’hypothèse d’équité isole la difficulté"
+              ],
+              [
+                "Le passage ne prétend pas démontrer que toute forme de travail exclut l’accomplissement ; son objet est le travail manuel et, plus généralement, d’exécution.",
+                "Circonscrire l’analyse au travail manuel et d’exécution"
+              ]
+            ]
+          ],
+          [
+            "",
+            "La distinction entre nécessité et finalité précise cette servitude. Travailler pour gagner sa vie possède bien un but, mais ce but répond ici à un besoin qui impose l’effort plutôt qu’à un bien qui attire librement le désir. L’effort maintient une situation qu’il faudrait sans cesse reconquérir pour ne pas la perdre. Manger aujourd’hui n’abolit pas le besoin de manger demain : l’effort évite la dégradation sans délivrer de son recommencement. Ce retour ne signifie pas qu’aucun objet n’est produit ; il décrit ce que l’effort apporte durablement à l’existence du travailleur.",
+            "",
+            [
+              [
+                "La distinction entre nécessité et finalité précise cette servitude.",
+                "Introduire la distinction qui précise la servitude"
+              ],
+              [
+                "Travailler pour gagner sa vie possède bien un but, mais ce but répond ici à un besoin qui impose l’effort plutôt qu’à un bien qui attire librement le désir.",
+                "Expliquer le sens particulier de la finalité dans ce passage"
+              ],
+              [
+                "L’effort maintient une situation qu’il faudrait sans cesse reconquérir pour ne pas la perdre.",
+                "Décrire ce que l’effort conserve au lieu de faire avancer"
+              ],
+              [
+                "Manger aujourd’hui n’abolit pas le besoin de manger demain : l’effort évite la dégradation sans délivrer de son recommencement.",
+                "Proposer un exemple du besoin qui revient malgré l’effort accompli"
+              ],
+              [
+                "Ce retour ne signifie pas qu’aucun objet n’est produit ; il décrit ce que l’effort apporte durablement à l’existence du travailleur.",
+                "Distinguer production matérielle et conservation de l’existence"
+              ]
+            ]
+          ],
+          [
+            "",
+            "Cette répétition devient problématique dès qu’on la rapporte au désir, qui tend vers un bien à atteindre plutôt qu’au simple maintien de l’existant. Weil pose que le désir est la source d’énergie de l’effort humain. Elle le définit comme une orientation vers ce qu’on ne possède pas encore, donc comme une distance à parcourir. Dans ce raisonnement, on ne peut désirer ce qu’on a puisque le désir est défini comme un mouvement vers un point où l’on n’est pas. Or l’énergie orientée vers un autre état est employée à retrouver le même. La dépense ne devient pas inexistante ou inutile ; elle apparaît privée de l’avancée qui pouvait la soutenir intérieurement.",
+            "",
+            [
+              [
+                "Cette répétition devient problématique dès qu’on la rapporte au désir, qui tend vers un bien à atteindre plutôt qu’au simple maintien de l’existant.",
+                "Transition : expliquer pourquoi la nécessité du travail entre en conflit avec le mouvement du désir"
+              ],
+              [
+                "Weil pose que le désir est la source d’énergie de l’effort humain.",
+                "Identifier la conception du désir qui soutient l’argument"
+              ],
+              [
+                "Elle le définit comme une orientation vers ce qu’on ne possède pas encore, donc comme une distance à parcourir.",
+                "Définir le désir par la distance à ce qu’on ne possède pas"
+              ],
+              [
+                "Dans ce raisonnement, on ne peut désirer ce qu’on a puisque le désir est défini comme un mouvement vers un point où l’on n’est pas.",
+                "Justifier la négation à partir de cette définition du désir"
+              ],
+              [
+                "Or l’énergie orientée vers un autre état est employée à retrouver le même.",
+                "Reconstruire l’opposition entre l’élan vers un autre état et le retour au même"
+              ],
+              [
+                "La dépense ne devient pas inexistante ou inutile ; elle apparaît privée de l’avancée qui pouvait la soutenir intérieurement.",
+                "Distinguer utilité de l’effort et élan intérieur"
+              ]
+            ]
+          ],
+          [
+            "",
+            "Les deux comparaisons donnent une forme sensible à cette contradiction. L’écureuil dépense réellement ses forces, mais son déplacement reste enfermé dans une boucle. Le condamné ajoute à cette répétition une captivité qui rejoint la servitude annoncée au début. Les images ne dispensent donc pas d’un raisonnement : elles rendent intelligible le divorce entre mouvement et délivrance.",
+            "",
+            [
+              [
+                "Les deux comparaisons donnent une forme sensible à cette contradiction.",
+                "Rattacher les comparaisons à l’opposition qui vient d’être expliquée"
+              ],
+              [
+                "L’écureuil dépense réellement ses forces, mais son déplacement reste enfermé dans une boucle.",
+                "Expliquer comment l’écureuil figure l’effort sans avancée"
+              ],
+              [
+                "Le condamné ajoute à cette répétition une captivité qui rejoint la servitude annoncée au début.",
+                "Montrer ce que l’image du condamné ajoute : la captivité"
+              ],
+              [
+                "Les images ne dispensent donc pas d’un raisonnement : elles rendent intelligible le divorce entre mouvement et délivrance.",
+                "Préciser ce que les images font comprendre de l’argument"
+              ]
+            ]
+          ],
+          [
+            "",
+            "Les comparaisons éclairent alors la lassitude : elles donnent une forme sensible à l’effort qui se dépense sans délivrer le travailleur de la nécessité. Les conditions inhumaines l’aggravent, mais leur disparition ne suffirait pas à supprimer le besoin de donner un élan à l’effort répété. La remarque sur les meilleurs travailleurs écarte l’idée d’une faiblesse réservée aux moins courageux. Une interprétation possible est qu’une forte exigence d’accomplissement rende cette répétition plus douloureuse ; l’extrait ne précise pas davantage qui sont ces « meilleurs ». La précision « surtout » dans les conditions inhumaines, « et même autrement », empêche de réduire la lassitude aux seules situations extrêmes.",
+            "",
+            [
+              [
+                "Les comparaisons éclairent alors la lassitude : elles donnent une forme sensible à l’effort qui se dépense sans délivrer le travailleur de la nécessité.",
+                "Transition : relier les images à l’effet intérieur qu’elles rendent intelligible"
+              ],
+              [
+                "Les conditions inhumaines l’aggravent, mais leur disparition ne suffirait pas à supprimer le besoin de donner un élan à l’effort répété.",
+                "Distinguer l’origine de cette difficulté et ce qui l’aggrave"
+              ],
+              [
+                "La remarque sur les meilleurs travailleurs écarte l’idée d’une faiblesse réservée aux moins courageux.",
+                "Expliquer pourquoi les meilleurs travailleurs excluent l’explication par la paresse"
+              ],
+              [
+                "Une interprétation possible est qu’une forte exigence d’accomplissement rende cette répétition plus douloureuse ; l’extrait ne précise pas davantage qui sont ces « meilleurs ».",
+                "Proposer une hypothèse en signalant qu’elle n’est pas donnée dans l’extrait"
+              ],
+              [
+                "La précision « surtout » dans les conditions inhumaines, « et même autrement », empêche de réduire la lassitude aux seules situations extrêmes.",
+                "Interpréter la nuance finale du texte sans ajouter une critique extérieure"
+              ]
+            ]
+          ],
+          [
+            "",
+            "Weil montre donc pourquoi la justice sociale ne règle pas à elle seule la difficulté intérieure du travail nécessaire. En opposant conservation de la vie et désir d’avancer, elle explique une souffrance que la seule fatigue ou le manque de volonté ne permettent pas de comprendre.",
+            "",
+            [
+              [
+                "Weil montre donc pourquoi la justice sociale ne règle pas à elle seule la difficulté intérieure du travail nécessaire.",
+                "Répondre au problème de la servitude qui subsiste malgré la justice sociale"
+              ],
+              [
+                "En opposant conservation de la vie et désir d’avancer, elle explique une souffrance que la seule fatigue ou le manque de volonté ne permettent pas de comprendre.",
+                "Rappeler la raison qui explique une lassitude irréductible au manque de volonté"
+              ]
+            ]
+          ]
+        ],
+        "paragraphSections": [
+          "Introduction",
+          "Partie 1",
+          "Partie 1",
+          "Partie 2",
+          "Partie 2",
+          "Partie 3",
+          "Conclusion"
+        ]
+      }
+    },
+    {
+      "id": "malebranche-2026-antilles-guyane-option-1",
+      "author": "Malebranche",
+      "source": "https://www.education.gouv.fr/sites/default/files/document/baccalaureat-technologique-2026-philosophie-517532.pdf",
+      "kind": "generated",
+      "wordCount": 652,
+      "textSha256": "e4dc6b79ba595238de6ab404ea9f72aba65755de8d9902424dce23e9157fa697",
+      "original": {
+        "option": "1",
+        "title": "Option n° 1 · réponses aux questions · objectif 20/20",
+        "paragraphs": [
+          [
+            "A1",
+            "L’esprit humain est limité, alors que les choses possèdent une infinité de rapports. Il ne peut donc pas tout comprendre. Cette limite le rend sujet à l’erreur lorsqu’il croit que les rapports qu’il n’aperçoit pas n’existent pas. Il confond alors une insuffisance de son examen et une propriété de la chose. La possibilité de se tromper vient de cette disproportion ; l’oubli de sa propre faiblesse favorise le passage à un jugement faux.",
+            "L’analyse distingue la limite de l’esprit et le jugement qui lui donne un effet.",
+            [
+              [
+                "L’esprit humain est limité, alors que les choses possèdent une infinité de rapports.",
+                "Énoncer la disproportion entre esprit fini et rapports infinis"
+              ],
+              [
+                "Il ne peut donc pas tout comprendre.",
+                "En déduire la limite de la connaissance humaine"
+              ],
+              [
+                "Cette limite le rend sujet à l’erreur lorsqu’il croit que les rapports qu’il n’aperçoit pas n’existent pas.",
+                "Expliquer comment une limite de connaissance devient un jugement faux"
+              ],
+              [
+                "Il confond alors une insuffisance de son examen et une propriété de la chose.",
+                "Identifier la confusion entre examen incomplet et propriété du réel"
+              ],
+              [
+                "La possibilité de se tromper vient de cette disproportion ; l’oubli de sa propre faiblesse favorise le passage à un jugement faux.",
+                "Distinguer la possibilité naturelle de l’erreur et sa réalisation"
+              ]
+            ]
+          ],
+          [
+            "A2",
+            "Toutefois, être exposé à l’erreur ne signifie pas être condamné à la commettre : la liberté permet de régler son jugement sur ce qui a été examiné. Cela n’exige pas de devenir un esprit infini. Lorsqu’un examen reste incomplet, on peut limiter son affirmation ou suspendre son jugement. Ne pas savoir une chose n’est pas encore se tromper ; l’erreur commence lorsqu’on lui attribue sans assurance ce qu’elle n’a peut-être pas.",
+            "La règle est rendue praticable sans lui retirer sa précision.",
+            [
+              [
+                "Toutefois, être exposé à l’erreur ne signifie pas être condamné à la commettre : la liberté permet de régler son jugement sur ce qui a été examiné.",
+                "Transition dans l’option rédigée : passer de la possibilité naturelle de l’erreur à sa prévention"
+              ],
+              [
+                "Cela n’exige pas de devenir un esprit infini.",
+                "Écarter l’exigence impossible d’une connaissance infinie"
+              ],
+              [
+                "Lorsqu’un examen reste incomplet, on peut limiter son affirmation ou suspendre son jugement.",
+                "Préciser deux manières d’exercer la liberté de juger"
+              ],
+              [
+                "Ne pas savoir une chose n’est pas encore se tromper ; l’erreur commence lorsqu’on lui attribue sans assurance ce qu’elle n’a peut-être pas.",
+                "Distinguer l’ignorance reconnue et l’affirmation erronée"
+              ]
+            ]
+          ],
+          [
+            "A3",
+            "Les hommes préfèrent décider sans l’effort de l’examen. Ils ont donc la possibilité de régler leur jugement, mais ne veulent pas toujours en accepter le coût. L’opposition entre se soumettre à l’erreur et à la règle de la vérité montre le paradoxe : refuser une discipline raisonnable ne rend pas plus libre, puisqu’on devient dépendant de ses affirmations précipitées. La fréquence des erreurs tient ainsi à un mauvais usage de la liberté, plutôt qu’à la seule limitation naturelle de l’intelligence.",
+            "La conduite finale est expliquée par son mécanisme et son paradoxe.",
+            [
+              [
+                "Les hommes préfèrent décider sans l’effort de l’examen.",
+                "Identifier le refus d’examiner qui explique la fréquence des erreurs"
+              ],
+              [
+                "Ils ont donc la possibilité de régler leur jugement, mais ne veulent pas toujours en accepter le coût.",
+                "Expliquer la part de volonté dans ce refus"
+              ],
+              [
+                "L’opposition entre se soumettre à l’erreur et à la règle de la vérité montre le paradoxe : refuser une discipline raisonnable ne rend pas plus libre, puisqu’on devient dépendant de ses affirmations précipitées.",
+                "Reconstruire le paradoxe des deux formes de soumission"
+              ],
+              [
+                "La fréquence des erreurs tient ainsi à un mauvais usage de la liberté, plutôt qu’à la seule limitation naturelle de l’intelligence.",
+                "Rattacher l’erreur effective à l’usage de la liberté"
+              ]
+            ]
+          ],
+          [
+            "B1",
+            "Le texte demande comment l’homme peut être responsable de ses erreurs alors que son esprit est naturellement limité. La difficulté est de ne pas traiter cette limite comme une excuse suffisante : il faut montrer ce que l’homme peut encore choisir lorsqu’il ne peut pas tout connaître.",
+            "La question rend visible la difficulté, au lieu de donner un thème.",
+            [
+              [
+                "Le texte demande comment l’homme peut être responsable de ses erreurs alors que son esprit est naturellement limité.",
+                "Formuler le problème de la responsabilité d’un esprit limité"
+              ],
+              [
+                "La difficulté est de ne pas traiter cette limite comme une excuse suffisante : il faut montrer ce que l’homme peut encore choisir lorsqu’il ne peut pas tout connaître.",
+                "Préciser pourquoi la limite naturelle ne tranche pas la question"
+              ]
+            ]
+          ],
+          [
+            "B2",
+            "Le premier moment explique la possibilité de l’erreur par le contraste entre l’esprit limité et l’infinité des rapports ; il précise le glissement par lequel l’homme nie ce qu’il ne voit pas. Le deuxième, introduit par « Toutefois », distingue cette possibilité et son évitement : la liberté peut soumettre le jugement à ce qui est effectivement examiné. Cette distinction justifie le blâme et même la punition évoquée : pour l’auteur, on est responsable d’un jugement qu’on pouvait retenir. Le dernier moment explique pourquoi les erreurs demeurent nombreuses : les hommes veulent décider sans peine et sans examen.",
+            "Les moments sont désignés par leurs rôles logiques.",
+            [
+              [
+                "Le premier moment explique la possibilité de l’erreur par le contraste entre l’esprit limité et l’infinité des rapports ; il précise le glissement par lequel l’homme nie ce qu’il ne voit pas.",
+                "Situer le premier moment et le jugement faux qu’il explique"
+              ],
+              [
+                "Le deuxième, introduit par « Toutefois », distingue cette possibilité et son évitement : la liberté peut soumettre le jugement à ce qui est effectivement examiné.",
+                "Identifier le rôle de « Toutefois » dans la possibilité d’éviter l’erreur"
+              ],
+              [
+                "Cette distinction justifie le blâme et même la punition évoquée : pour l’auteur, on est responsable d’un jugement qu’on pouvait retenir.",
+                "Rattacher le blâme et la punition à la possibilité de retenir le jugement"
+              ],
+              [
+                "Le dernier moment explique pourquoi les erreurs demeurent nombreuses : les hommes veulent décider sans peine et sans examen.",
+                "Situer la fin qui explique la préférence pour la décision sans examen"
+              ]
+            ]
+          ],
+          [
+            "B3",
+            "L’idée principale est que l’erreur humaine, bien que rendue possible par la limitation de l’esprit, peut être évitée par le bon usage de la liberté. Malebranche attribue donc une responsabilité à celui qui dépasse ce qu’il a examiné. La connaissance limitée ne force pas le jugement à devenir entier : on peut reconnaître une ignorance plutôt que la convertir en certitude.",
+            "La synthèse relie les éléments d’analyse en une thèse précise.",
+            [
+              [
+                "L’idée principale est que l’erreur humaine, bien que rendue possible par la limitation de l’esprit, peut être évitée par le bon usage de la liberté.",
+                "Énoncer la thèse de l’erreur évitable par le bon usage de la liberté"
+              ],
+              [
+                "Malebranche attribue donc une responsabilité à celui qui dépasse ce qu’il a examiné.",
+                "En dégager la responsabilité de celui qui dépasse son examen"
+              ],
+              [
+                "La connaissance limitée ne force pas le jugement à devenir entier : on peut reconnaître une ignorance plutôt que la convertir en certitude.",
+                "Justifier le lien entre connaissance limitée et jugement maîtrisé"
+              ]
+            ]
+          ],
+          [
+            "C1",
+            "L’erreur est humaine au sens où un esprit fini ne saisit pas tous les rapports des choses et peut oublier cette limite. Mais la formule devient trompeuse si elle signifie que toute erreur était inévitable et mérite automatiquement l’indulgence. Malebranche distingue une capacité naturelle à se tromper et une décision de juger qui peut être mieux réglée. Ainsi, ne pas connaître tous les faits d’une situation est une limite ; affirmer qu’on les connaît tous malgré cette ignorance est un autre acte, dont on peut demander raison.",
+            "Le commentaire examine la formule à partir de la distinction du texte.",
+            [
+              [
+                "L’erreur est humaine au sens où un esprit fini ne saisit pas tous les rapports des choses et peut oublier cette limite.",
+                "Préciser le sens recevable de l’erreur dite humaine"
+              ],
+              [
+                "Mais la formule devient trompeuse si elle signifie que toute erreur était inévitable et mérite automatiquement l’indulgence.",
+                "Écarter le sens qui transformerait toute erreur en fatalité excusable"
+              ],
+              [
+                "Malebranche distingue une capacité naturelle à se tromper et une décision de juger qui peut être mieux réglée.",
+                "Expliquer la distinction de Malebranche qui résout cette difficulté"
+              ],
+              [
+                "Ainsi, ne pas connaître tous les faits d’une situation est une limite ; affirmer qu’on les connaît tous malgré cette ignorance est un autre acte, dont on peut demander raison.",
+                "Proposer un exemple distinguant manque d’information et jugement"
+              ]
+            ]
+          ],
+          [
+            "C2",
+            "Nous sommes responsables d’une erreur lorsque nous aurions pu prendre une précaution raisonnable, vérifier ou suspendre notre affirmation, et que nous avons préféré décider sans examen. Cette responsabilité peut être plus forte lorsqu’un jugement engage autrui : accuser quelqu’un sur un récit incomplet n’est pas seulement manquer d’information, c’est donner à ce manque une portée injustifiée. Cependant, toute erreur ne présente pas les mêmes possibilités de correction. Un indice trompeur impossible à reconnaître ou une décision urgente peuvent limiter le choix réel. La thèse de Malebranche est éclairante si l’on examine ce qui dépendait effectivement du sujet ; sa formule très générale de blâme demande cette attention aux circonstances. La limitation naturelle n’abolit pas la responsabilité, mais la responsabilité doit porter sur un usage possible de la liberté, pas sur l’exigence impossible de tout savoir.",
+            "La discussion est argumentée, centrée sur la responsabilité et reliée à la thèse.",
+            [
+              [
+                "Nous sommes responsables d’une erreur lorsque nous aurions pu prendre une précaution raisonnable, vérifier ou suspendre notre affirmation, et que nous avons préféré décider sans examen.",
+                "Proposer un critère pour examiner la responsabilité dans une erreur"
+              ],
+              [
+                "Cette responsabilité peut être plus forte lorsqu’un jugement engage autrui : accuser quelqu’un sur un récit incomplet n’est pas seulement manquer d’information, c’est donner à ce manque une portée injustifiée.",
+                "Éprouver ce critère sur une accusation qui engage autrui"
+              ],
+              [
+                "Cependant, toute erreur ne présente pas les mêmes possibilités de correction.",
+                "Introduire la diversité des précautions réellement disponibles"
+              ],
+              [
+                "Un indice trompeur impossible à reconnaître ou une décision urgente peuvent limiter le choix réel.",
+                "Donner deux circonstances pour mettre cette disponibilité à l’épreuve"
+              ],
+              [
+                "La thèse de Malebranche est éclairante si l’on examine ce qui dépendait effectivement du sujet ; sa formule très générale de blâme demande cette attention aux circonstances.",
+                "Évaluer la thèse en la rapportant aux circonstances du jugement"
+              ],
+              [
+                "La limitation naturelle n’abolit pas la responsabilité, mais la responsabilité doit porter sur un usage possible de la liberté, pas sur l’exigence impossible de tout savoir.",
+                "Formuler la condition d’une responsabilité proportionnée à la liberté"
+              ]
+            ]
+          ]
+        ],
+        "paragraphSections": [
+          "Option 1 — questions officielles",
+          "Option 1 — questions officielles",
+          "Option 1 — questions officielles",
+          "Option 1 — questions officielles",
+          "Option 1 — questions officielles",
+          "Option 1 — questions officielles",
+          "Option 1 — questions officielles",
+          "Option 1 — questions officielles"
+        ]
+      }
+    },
+    {
+      "id": "malebranche-2026-antilles-guyane-option-2",
+      "author": "Malebranche",
+      "source": "https://www.education.gouv.fr/sites/default/files/document/baccalaureat-technologique-2026-philosophie-517532.pdf",
+      "kind": "generated",
+      "wordCount": 497,
+      "textSha256": "88d51750eeabe63ac12c77d47de02f9d35c742725ccc2e03e9cd7d5d18c2b4c3",
+      "original": {
+        "option": "2",
+        "title": "Option n° 2 · explication libre · objectif 20/20",
+        "paragraphs": [
+          [
+            "",
+            "Dans cet extrait de De la recherche de la vérité, Malebranche examine la responsabilité de l’homme dans l’erreur. Comment lui reprocher de se tromper si son esprit est naturellement limité ? Malebranche soutient que l’homme est responsable de ses erreurs : la limitation de son esprit ne l’oblige pas à affirmer ce qu’il n’a pas suffisamment examiné. Il explique la limitation de l’esprit, établit une règle du jugement, puis montre pourquoi les hommes préfèrent souvent la négliger.",
+            "",
+            [
+              [
+                "Dans cet extrait de De la recherche de la vérité, Malebranche examine la responsabilité de l’homme dans l’erreur.",
+                "Situer la responsabilité humaine dans l’erreur"
+              ],
+              [
+                "Comment lui reprocher de se tromper si son esprit est naturellement limité ?",
+                "Formuler le problème du blâme malgré la limitation de l’esprit"
+              ],
+              [
+                "Malebranche soutient que l’homme est responsable de ses erreurs : la limitation de son esprit ne l’oblige pas à affirmer ce qu’il n’a pas suffisamment examiné.",
+                "Énoncer la responsabilité fondée sur une erreur que la liberté permet d’éviter"
+              ],
+              [
+                "Il explique la limitation de l’esprit, établit une règle du jugement, puis montre pourquoi les hommes préfèrent souvent la négliger.",
+                "Annoncer la limitation, la règle du jugement et son refus"
+              ]
+            ]
+          ],
+          [
+            "",
+            "L’esprit humain ne peut comprendre tous les rapports que les choses entretiennent entre elles. Même un objet simple peut dépendre d’une multitude de conditions que l’examen ne saisit pas ensemble. L’erreur devient possible lorsque le sujet prend les limites de son examen pour celles du réel. Ne pas apercevoir un rapport n’autorise pourtant pas à nier son existence : il peut seulement avoir échappé à l’attention. L’oubli de sa propre faiblesse favorise cette confusion, mais la limitation ne constitue encore qu’une capacité de se tromper.",
+            "",
+            [
+              [
+                "L’esprit humain ne peut comprendre tous les rapports que les choses entretiennent entre elles.",
+                "Présenter la limitation de l’esprit qui ouvre le raisonnement"
+              ],
+              [
+                "Même un objet simple peut dépendre d’une multitude de conditions que l’examen ne saisit pas ensemble.",
+                "Rendre intelligible la multiplicité des rapports à connaître"
+              ],
+              [
+                "L’erreur devient possible lorsque le sujet prend les limites de son examen pour celles du réel.",
+                "Expliquer le passage d’un examen limité à un jugement erroné"
+              ],
+              [
+                "Ne pas apercevoir un rapport n’autorise pourtant pas à nier son existence : il peut seulement avoir échappé à l’attention.",
+                "Justifier la différence entre ne pas connaître et pouvoir nier"
+              ],
+              [
+                "L’oubli de sa propre faiblesse favorise cette confusion, mais la limitation ne constitue encore qu’une capacité de se tromper.",
+                "Distinguer la possibilité naturelle et le jugement qui la réalise"
+              ]
+            ]
+          ],
+          [
+            "",
+            "Le « Toutefois » prévient donc une conclusion fataliste : être exposé à l’erreur ne signifie pas être contraint de la commettre. Un esprit limité ne serait pas condamné à l’erreur si la liberté réglait toujours ses affirmations sur ce qui a été examiné. Cette règle demande de ne pas affirmer plus qu’on ne sait, plutôt que de tout connaître. Lorsque l’examen demeure incomplet, on peut limiter sa conclusion ou suspendre son jugement. L’ignorance reconnue ne devient ainsi pas une certitude fausse. Malebranche suppose ici que le sujet peut retenir son assentiment ; cette possibilité donne sa force à son argument sur la responsabilité.",
+            "",
+            [
+              [
+                "Le « Toutefois » prévient donc une conclusion fataliste : être exposé à l’erreur ne signifie pas être contraint de la commettre.",
+                "Expliquer le lien entre « Toutefois » et le refus d’une erreur inévitable"
+              ],
+              [
+                "Un esprit limité ne serait pas condamné à l’erreur si la liberté réglait toujours ses affirmations sur ce qui a été examiné.",
+                "Énoncer la réponse de l’auteur : la liberté peut régler le jugement"
+              ],
+              [
+                "Cette règle demande de ne pas affirmer plus qu’on ne sait, plutôt que de tout connaître.",
+                "Distinguer la maîtrise du jugement et l’exigence d’un savoir infini"
+              ],
+              [
+                "Lorsque l’examen demeure incomplet, on peut limiter sa conclusion ou suspendre son jugement.",
+                "Préciser les usages de la liberté quand l’examen reste incomplet"
+              ],
+              [
+                "L’ignorance reconnue ne devient ainsi pas une certitude fausse.",
+                "Dégager la différence entre ignorance reconnue et certitude fausse"
+              ],
+              [
+                "Malebranche suppose ici que le sujet peut retenir son assentiment ; cette possibilité donne sa force à son argument sur la responsabilité.",
+                "Reconstruire la condition qui fonde la responsabilité dans l’argument"
+              ]
+            ]
+          ],
+          [
+            "",
+            "Le blâme, et même la punition évoquée, visent alors un acte que le sujet pouvait éviter. Il serait injuste de punir l’absence d’un esprit infini ; l’auteur reproche l’affirmation qui dépasse ce qu’on a effectivement compris. Sa formule demeure cependant très générale, puisqu’elle attribue une responsabilité à toute erreur. On peut toutefois éprouver cette affirmation : un témoignage trompeur ou une décision urgente laissent-ils toujours la possibilité de vérifier ou de suspendre ? Ces difficultés ne réfutent pas la distinction entre savoir et jugement ; elles demandent d’établir quelle liberté pouvait réellement s’exercer.",
+            "",
+            [
+              [
+                "Le blâme, et même la punition évoquée, visent alors un acte que le sujet pouvait éviter.",
+                "Relier le blâme à un jugement qui pouvait être évité"
+              ],
+              [
+                "Il serait injuste de punir l’absence d’un esprit infini ; l’auteur reproche l’affirmation qui dépasse ce qu’on a effectivement compris.",
+                "Justifier pourquoi le reproche vise l’affirmation et non la limitation naturelle"
+              ],
+              [
+                "Sa formule demeure cependant très générale, puisqu’elle attribue une responsabilité à toute erreur.",
+                "Conserver la généralité du blâme que l’auteur affirme"
+              ],
+              [
+                "On peut toutefois éprouver cette affirmation : un témoignage trompeur ou une décision urgente laissent-ils toujours la possibilité de vérifier ou de suspendre ?",
+                "Proposer une objection portant sur la liberté réelle de vérifier ou de suspendre"
+              ],
+              [
+                "Ces difficultés ne réfutent pas la distinction entre savoir et jugement ; elles demandent d’établir quelle liberté pouvait réellement s’exercer.",
+                "Délimiter ce que l’objection remet en question et ce qu’elle laisse acquis"
+              ]
+            ]
+          ],
+          [
+            "",
+            "La fin du texte explique la fréquence des erreurs malgré cette possibilité d’évitement. Les hommes veulent décider sans accepter la peine de l’examen. Leur faiblesse est donc aussi morale : ils ne consentent pas toujours à l’effort que la recherche du vrai demande. Le contraste entre deux formes de soumission précise ce mauvais calcul. Refuser la règle de la vérité ne rend pas indépendant, puisqu’on se livre alors à des jugements que l’on ne maîtrise pas. La discipline de l’examen peut au contraire permettre à la liberté de s’exercer avec discernement.",
+            "",
+            [
+              [
+                "La fin du texte explique la fréquence des erreurs malgré cette possibilité d’évitement.",
+                "Revenir à l’explication des erreurs fréquentes donnée dans la fin du texte"
+              ],
+              [
+                "Les hommes veulent décider sans accepter la peine de l’examen.",
+                "Identifier la décision sans examen que l’auteur reproche"
+              ],
+              [
+                "Leur faiblesse est donc aussi morale : ils ne consentent pas toujours à l’effort que la recherche du vrai demande.",
+                "Expliquer la faiblesse morale par le refus de l’effort"
+              ],
+              [
+                "Le contraste entre deux formes de soumission précise ce mauvais calcul.",
+                "Introduire l’opposition entre les deux formes de soumission"
+              ],
+              [
+                "Refuser la règle de la vérité ne rend pas indépendant, puisqu’on se livre alors à des jugements que l’on ne maîtrise pas.",
+                "Reconstruire pourquoi le refus de la règle rend dépendant de l’erreur"
+              ],
+              [
+                "La discipline de l’examen peut au contraire permettre à la liberté de s’exercer avec discernement.",
+                "Dégager le rôle de la discipline dans l’exercice de la liberté"
+              ]
+            ]
+          ],
+          [
+            "",
+            "Malebranche soutient donc que reconnaître sa limitation devrait régler le jugement au lieu de servir d’excuse à sa précipitation. Il fait ainsi de la liberté de suspendre son jugement une ressource contre l’erreur ; le texte fonde la responsabilité sur ce que le sujet pouvait effectivement examiner.",
+            "",
+            [
+              [
+                "Malebranche soutient donc que reconnaître sa limitation devrait régler le jugement au lieu de servir d’excuse à sa précipitation.",
+                "Répondre au problème par la distinction entre limitation et précipitation"
+              ],
+              [
+                "Il fait ainsi de la liberté de suspendre son jugement une ressource contre l’erreur ; le texte fonde la responsabilité sur ce que le sujet pouvait effectivement examiner.",
+                "Conclure sur la thèse et sa condition, sans ouvrir une nouvelle discussion"
+              ]
+            ]
+          ]
+        ],
+        "paragraphSections": [
+          "Introduction",
+          "Partie 1",
+          "Partie 2",
+          "Partie 2",
+          "Partie 3",
+          "Conclusion"
+        ]
+      }
+    },
+    {
+      "id": "rawls-2025-metropole-option-1",
+      "author": "Rawls",
+      "source": "https://eduscol.education.gouv.fr/sites/default/files/document/25-phgeme1v1pdf-112464.pdf",
+      "kind": "generated",
+      "wordCount": 541,
+      "textSha256": "45762a8d98a40cec7e178a568d1233ea77b35d8edd85b4aac251f5a941c0813d",
+      "original": {
+        "option": "libre",
+        "title": "Explication rédigée · objectif 20/20",
+        "paragraphs": [
+          [
+            "",
+            "Dans cet extrait de Théorie de la justice, Rawls examine les conditions d’une participation politique réellement égale. Que valent des libertés identiques si les moyens de peser sur les décisions restent profondément inégaux ? Il soutient que des mesures correctrices sont nécessaires pour empêcher la richesse de confisquer le débat public. Le texte précise les capacités requises du citoyen, explique leur affaiblissement par les inégalités, puis présente des moyens de les préserver.",
+            "",
+            [
+              [
+                "Dans cet extrait de Théorie de la justice, Rawls examine les conditions d’une participation politique réellement égale.",
+                "Situer la question de la participation politique réellement égale"
+              ],
+              [
+                "Que valent des libertés identiques si les moyens de peser sur les décisions restent profondément inégaux ?",
+                "Formuler le problème de droits égaux aux moyens inégaux"
+              ],
+              [
+                "Il soutient que des mesures correctrices sont nécessaires pour empêcher la richesse de confisquer le débat public.",
+                "Énoncer la nécessité de corriger l’emprise politique de la richesse"
+              ],
+              [
+                "Le texte précise les capacités requises du citoyen, explique leur affaiblissement par les inégalités, puis présente des moyens de les préserver.",
+                "Annoncer les capacités requises, leur menace et leurs moyens de protection"
+              ]
+            ]
+          ],
+          [
+            "",
+            "La participation suppose d’abord que chacun puisse accéder à l’information politique. Mais être informé ne signifie pas seulement recevoir des nouvelles : le citoyen doit pouvoir apprécier les effets des projets sur son existence. Il doit aussi les examiner selon sa conception du bien commun, qui ne se réduit pas à son avantage privé. Enfin, pouvoir proposer des solutions lui permet de contribuer à définir les choix, au lieu de seulement choisir entre des programmes déjà imposés. S’informer, juger les effets personnels, apprécier le bien public et proposer des solutions dessinent une participation active, que le seul droit de vote n’épuise pas.",
+            "",
+            [
+              [
+                "La participation suppose d’abord que chacun puisse accéder à l’information politique.",
+                "Identifier l’information comme condition de participation"
+              ],
+              [
+                "Mais être informé ne signifie pas seulement recevoir des nouvelles : le citoyen doit pouvoir apprécier les effets des projets sur son existence.",
+                "Expliquer ce que juger les effets des projets ajoute à l’information"
+              ],
+              [
+                "Il doit aussi les examiner selon sa conception du bien commun, qui ne se réduit pas à son avantage privé.",
+                "Distinguer l’appréciation du bien public et celle de l’avantage privé"
+              ],
+              [
+                "Enfin, pouvoir proposer des solutions lui permet de contribuer à définir les choix, au lieu de seulement choisir entre des programmes déjà imposés.",
+                "Expliquer comment proposer permet de contribuer à la définition des choix"
+              ],
+              [
+                "S’informer, juger les effets personnels, apprécier le bien public et proposer des solutions dessinent une participation active, que le seul droit de vote n’épuise pas.",
+                "Réunir les capacités qui dépassent le seul exercice du vote"
+              ]
+            ]
+          ],
+          [
+            "",
+            "Or des droits officiellement égaux peuvent perdre leur valeur réelle lorsque les ressources permettent à certains de dominer le débat. Quand la richesse permet de contrôler le débat, tous peuvent encore être autorisés à parler tout en disposant de possibilités très inégales d’être entendus. La liberté de prendre la parole reste alors formelle si les ressources économiques déterminent quelles propositions peuvent réellement être entendues. Le problème n’est donc pas toute différence d’influence : c’est l’avantage politique que des ressources privées permettent d’imposer durablement. La valeur d’une liberté désigne ici la possibilité réelle de l’exercer utilement, et pas seulement son inscription dans la loi.",
+            "",
+            [
+              [
+                "Or des droits officiellement égaux peuvent perdre leur valeur réelle lorsque les ressources permettent à certains de dominer le débat.",
+                "Transition : passer des capacités de participation au mécanisme qui les rend inégales"
+              ],
+              [
+                "Quand la richesse permet de contrôler le débat, tous peuvent encore être autorisés à parler tout en disposant de possibilités très inégales d’être entendus.",
+                "Distinguer l’autorisation de parler et la possibilité d’être entendu"
+              ],
+              [
+                "La liberté de prendre la parole reste alors formelle si les ressources économiques déterminent quelles propositions peuvent réellement être entendues.",
+                "Expliciter l’effet politique de l’inégalité sans ajouter un exemple extérieur"
+              ],
+              [
+                "Le problème n’est donc pas toute différence d’influence : c’est l’avantage politique que des ressources privées permettent d’imposer durablement.",
+                "Circonscrire l’inégalité d’influence que le passage critique"
+              ],
+              [
+                "La valeur d’une liberté désigne ici la possibilité réelle de l’exercer utilement, et pas seulement son inscription dans la loi.",
+                "Définir la valeur d’une liberté par sa possibilité réelle d’exercice"
+              ]
+            ]
+          ],
+          [
+            "",
+            "Le « Car » explique pourquoi le contrôle du débat diminue la valeur des libertés : il permet de peser davantage sur la fabrication des lois. Les citoyens les mieux dotés peuvent faire prévaloir leurs problèmes et leurs solutions dans les décisions collectives. Le texte décrit un risque qui se développe avec le temps, plutôt qu’une domination instantanée et nécessaire. Il précise aussi que les plus favorisés ne s’accordent pas sur tout : leur convergence porte notamment sur la défense de leurs privilèges. Des intérêts particuliers peuvent ainsi orienter des règles qui s’imposeront à tous et consolider les avantages dont cette influence provient. L’égalité juridique des citoyens risque alors de couvrir une dépendance politique effective.",
+            "",
+            [
+              [
+                "Le « Car » explique pourquoi le contrôle du débat diminue la valeur des libertés : il permet de peser davantage sur la fabrication des lois.",
+                "Expliquer comment le « Car » justifie le diagnostic précédent"
+              ],
+              [
+                "Les citoyens les mieux dotés peuvent faire prévaloir leurs problèmes et leurs solutions dans les décisions collectives.",
+                "Reconstruire le passage de l’influence dans le débat à l’influence sur la loi"
+              ],
+              [
+                "Le texte décrit un risque qui se développe avec le temps, plutôt qu’une domination instantanée et nécessaire.",
+                "Conserver le caractère progressif du risque décrit"
+              ],
+              [
+                "Il précise aussi que les plus favorisés ne s’accordent pas sur tout : leur convergence porte notamment sur la défense de leurs privilèges.",
+                "Préciser sur quoi les plus favorisés peuvent s’accorder"
+              ],
+              [
+                "Des intérêts particuliers peuvent ainsi orienter des règles qui s’imposeront à tous et consolider les avantages dont cette influence provient.",
+                "Déduire comment l’influence politique peut renforcer les avantages initiaux"
+              ],
+              [
+                "L’égalité juridique des citoyens risque alors de couvrir une dépendance politique effective.",
+                "Relier ce mécanisme au problème de l’égalité juridique"
+              ]
+            ]
+          ],
+          [
+            "",
+            "Pour interrompre ce mécanisme, Rawls examine les compensations qui peuvent rendre la participation politique réellement accessible. Une répartition étendue des richesses réduit la concentration des moyens d’action politique ; des financements publics peuvent rendre le débat accessible à davantage de participants. Rawls raisonne ici dans l’hypothèse d’une société qui admet la propriété privée des moyens de production. Il ne déduit donc pas la suppression de toute propriété privée de l’exigence d’égalité politique. La régularité du soutien public importe, car des capacités de participation doivent être entretenues et ne se créent pas par une aide isolée. On peut prolonger ce raisonnement par une condition de cohérence : un financement réservé aux opinions du pouvoir contredirait l’égalité de participation recherchée.",
+            "",
+            [
+              [
+                "Pour interrompre ce mécanisme, Rawls examine les compensations qui peuvent rendre la participation politique réellement accessible.",
+                "Transition : passer du diagnostic des inégalités aux moyens d’y remédier"
+              ],
+              [
+                "Une répartition étendue des richesses réduit la concentration des moyens d’action politique ; des financements publics peuvent rendre le débat accessible à davantage de participants.",
+                "Distinguer l’effet de la répartition des richesses et celui des financements"
+              ],
+              [
+                "Rawls raisonne ici dans l’hypothèse d’une société qui admet la propriété privée des moyens de production.",
+                "Préciser l’hypothèse de propriété privée dans laquelle Rawls raisonne"
+              ],
+              [
+                "Il ne déduit donc pas la suppression de toute propriété privée de l’exigence d’égalité politique.",
+                "Écarter une suppression de la propriété que l’extrait ne déduit pas"
+              ],
+              [
+                "La régularité du soutien public importe, car des capacités de participation doivent être entretenues et ne se créent pas par une aide isolée.",
+                "Justifier la régularité du soutien par l’entretien des capacités"
+              ],
+              [
+                "On peut prolonger ce raisonnement par une condition de cohérence : un financement réservé aux opinions du pouvoir contredirait l’égalité de participation recherchée.",
+                "Prolonger le raisonnement en examinant la répartition équitable du financement"
+              ]
+            ]
+          ],
+          [
+            "",
+            "Rawls montre ainsi que protéger les libertés politiques exige d’agir sur leurs conditions matérielles d’exercice. L’égalité démocratique prend son sens lorsque chacun peut contribuer au débat dont dépend la loi commune.",
+            "",
+            [
+              [
+                "Rawls montre ainsi que protéger les libertés politiques exige d’agir sur leurs conditions matérielles d’exercice.",
+                "Répondre au problème par les conditions matérielles des libertés"
+              ],
+              [
+                "L’égalité démocratique prend son sens lorsque chacun peut contribuer au débat dont dépend la loi commune.",
+                "Dégager l’apport d’une égalité permettant de contribuer à la loi commune"
+              ]
+            ]
+          ]
+        ],
+        "superstructure": [
+          "I. Les conditions d’une participation politique réelle",
+          "II. Les inégalités économiques déforment la liberté politique",
+          "III. Corriger les inégalités pour préserver la participation"
+        ],
+        "paragraphMovements": [
+          "Introduction",
+          "I. Les conditions d’une participation politique réelle",
+          "II. Les inégalités économiques déforment la liberté politique",
+          "II. Les inégalités économiques déforment la liberté politique",
+          "III. Corriger les inégalités pour préserver la participation",
+          "Conclusion"
+        ],
+        "paragraphSections": [
+          "Introduction",
+          "Partie 1",
+          "Partie 2",
+          "Partie 2",
+          "Partie 3",
+          "Conclusion"
+        ]
+      }
+    },
+    {
+      "id": "weil-2024-metropole-option-1",
+      "author": "Simone Weil",
+      "source": "https://eduscol.education.gouv.fr/sites/default/files/document/24-phgeme1v1-0pdf-106296.pdf",
+      "kind": "generated",
+      "wordCount": 556,
+      "textSha256": "978f40b495cd5665e94ece2f0e46a94fb3109477b01ebf172259b4543ac8f9ab",
+      "original": {
+        "option": "libre",
+        "title": "Explication rédigée · objectif 20/20",
+        "paragraphs": [
+          [
+            "",
+            "Dans cet extrait de La Condition ouvrière, Simone Weil examine ce que l’organisation de l’usine fait à la vie intérieure du travailleur. Comment une activité exigeant son effort peut-elle aller jusqu’à étouffer sa pensée et son attention aux autres ? Weil montre que la contrainte industrielle s’exerce à travers des mobiles obsédants qui rétrécissent la conscience. Elle explique cette mobilisation, en suit les effets sur la pensée et les rapports humains, puis en révèle l’expression dans la plainte finale.",
+            "",
+            [
+              [
+                "Dans cet extrait de La Condition ouvrière, Simone Weil examine ce que l’organisation de l’usine fait à la vie intérieure du travailleur.",
+                "Situer les effets de l’organisation industrielle sur la vie intérieure"
+              ],
+              [
+                "Comment une activité exigeant son effort peut-elle aller jusqu’à étouffer sa pensée et son attention aux autres ?",
+                "Formuler le problème d’un effort qui étouffe pensée et attention"
+              ],
+              [
+                "Weil montre que la contrainte industrielle s’exerce à travers des mobiles obsédants qui rétrécissent la conscience.",
+                "Énoncer le mécanisme des mobiles obsédants qui rétrécissent la conscience"
+              ],
+              [
+                "Elle explique cette mobilisation, en suit les effets sur la pensée et les rapports humains, puis en révèle l’expression dans la plainte finale.",
+                "Annoncer les effets sur l’action, la pensée, les autres et le temps vécu"
+              ]
+            ]
+          ],
+          [
+            "",
+            "L’analyse part d’un principe : agir demande une énergie fournie par un mobile, c’est-à-dire une raison qui pousse à agir. Weil attribue aussi à ce mobile une valeur morale : il engage la qualité de l’action, et pas seulement son efficacité. Ce principe rend intelligible la situation paradoxale de l’usine, où une dépense intense d’énergie accompagne l’effacement de l’initiative personnelle. Le corps doit agir, mais le travailleur doit se plier à une organisation qu’il ne conduit pas.",
+            "",
+            [
+              [
+                "L’analyse part d’un principe : agir demande une énergie fournie par un mobile, c’est-à-dire une raison qui pousse à agir.",
+                "Expliquer le principe du mobile qui fournit l’énergie d’agir"
+              ],
+              [
+                "Weil attribue aussi à ce mobile une valeur morale : il engage la qualité de l’action, et pas seulement son efficacité.",
+                "Distinguer l’efficacité du mobile et sa valeur morale"
+              ],
+              [
+                "Ce principe rend intelligible la situation paradoxale de l’usine, où une dépense intense d’énergie accompagne l’effacement de l’initiative personnelle.",
+                "Appliquer le principe au paradoxe d’une passivité épuisante"
+              ],
+              [
+                "Le corps doit agir, mais le travailleur doit se plier à une organisation qu’il ne conduit pas.",
+                "Résoudre le paradoxe en distinguant dépense corporelle et maîtrise de l’action"
+              ]
+            ]
+          ],
+          [
+            "",
+            "L’absence de chaînes ne signifie donc pas que le travail soit librement voulu. Puisque la violence physique ne commande pas chaque geste, l’ouvrier doit trouver en lui-même les motifs de son obéissance. Des fouets rendraient « peut-être » la soumission plus facile : sous une menace physique immédiate, le travailleur n’aurait pas à entretenir aussi continuellement les mobiles intérieurs de son obéissance. Or les conditions décrites ne laissent agir que la peur de la sanction, l’avidité du gain et, plus partiellement, la compétition de vitesse. Le goût du travail bien fait ou la compréhension d’une œuvre commune ne peuvent alors soutenir durablement l’effort. Ces mobiles doivent devenir obsédants, car leur présence continuelle compense la faiblesse du sens que le travail offre par lui-même.",
+            "",
+            [
+              [
+                "L’absence de chaînes ne signifie donc pas que le travail soit librement voulu.",
+                "Passer de l’absence de chaînes à la contrainte intérieure"
+              ],
+              [
+                "Puisque la violence physique ne commande pas chaque geste, l’ouvrier doit trouver en lui-même les motifs de son obéissance.",
+                "Justifier le recours aux mobiles quand chaque geste n’est pas physiquement imposé"
+              ],
+              [
+                "Des fouets rendraient « peut-être » la soumission plus facile : sous une menace physique immédiate, le travailleur n’aurait pas à entretenir aussi continuellement les mobiles intérieurs de son obéissance.",
+                "Expliquer l’hypothèse des fouets en conservant la réserve de l’auteur"
+              ],
+              [
+                "Or les conditions décrites ne laissent agir que la peur de la sanction, l’avidité du gain et, plus partiellement, la compétition de vitesse.",
+                "Identifier les mobiles que l’organisation laisse agir"
+              ],
+              [
+                "Le goût du travail bien fait ou la compréhension d’une œuvre commune ne peuvent alors soutenir durablement l’effort.",
+                "Déduire quels autres mobiles l’organisation empêche de soutenir l’effort"
+              ],
+              [
+                "Ces mobiles doivent devenir obsédants, car leur présence continuelle compense la faiblesse du sens que le travail offre par lui-même.",
+                "Expliquer pourquoi les mobiles doivent occuper continuellement l’esprit"
+              ]
+            ]
+          ],
+          [
+            "",
+            "Cette mobilisation constante de l’esprit ne signifie pourtant pas que la pensée reste libre : les mêmes motifs peuvent l’occuper et rétrécir son attention. Il n’y a pas contradiction : quelques préoccupations répétitives peuvent envahir une conscience dont les autres possibilités se ferment. Pour supporter la souffrance, l’attention se resserre sur l’instant à traverser, au lieu d’embrasser une durée et un avenir. La conscience ne disparaît pas entièrement, puisque le travail exige encore certaines perceptions et certains gestes ajustés. Elle se maintient au niveau requis pour exécuter, tandis que la réflexion susceptible de donner sens à l’expérience s’affaiblit.",
+            "",
+            [
+              [
+                "Cette mobilisation constante de l’esprit ne signifie pourtant pas que la pensée reste libre : les mêmes motifs peuvent l’occuper et rétrécir son attention.",
+                "Transition : distinguer l’occupation mentale de la pensée autonome"
+              ],
+              [
+                "Il n’y a pas contradiction : quelques préoccupations répétitives peuvent envahir une conscience dont les autres possibilités se ferment.",
+                "Résoudre l’opposition en distinguant obsession et réflexion"
+              ],
+              [
+                "Pour supporter la souffrance, l’attention se resserre sur l’instant à traverser, au lieu d’embrasser une durée et un avenir.",
+                "Expliquer comment la souffrance resserre l’attention sur l’instant"
+              ],
+              [
+                "La conscience ne disparaît pas entièrement, puisque le travail exige encore certaines perceptions et certains gestes ajustés.",
+                "Préserver la conscience minimale exigée par le travail"
+              ],
+              [
+                "Elle se maintient au niveau requis pour exécuter, tandis que la réflexion susceptible de donner sens à l’expérience s’affaiblit.",
+                "Préciser ce qui subsiste et ce qui s’éteint dans la conscience"
+              ]
+            ]
+          ],
+          [
+            "",
+            "Ce rétrécissement intérieur atteint aussi les rapports humains : supporter la peine peut réduire l’attention portée aux autres. Partager une peine ne suffit pas à produire la solidarité quand chacun doit réduire sa sensibilité pour l’endurer. La comparaison avec la pesanteur exprime la puissance du mécanisme ; « presque irrésistible » laisse néanmoins subsister une possibilité de résistance. Les comportements reproduisent alors la brutalité de l’organisation, qui devient sensible dans les gestes et les paroles des compagnons. Chacun subit ainsi une dureté que ceux qui la subissent peuvent à leur tour lui faire éprouver.",
+            "",
+            [
+              [
+                "Ce rétrécissement intérieur atteint aussi les rapports humains : supporter la peine peut réduire l’attention portée aux autres.",
+                "Transition : montrer comment la contrainte intérieure affecte la solidarité"
+              ],
+              [
+                "Partager une peine ne suffit pas à produire la solidarité quand chacun doit réduire sa sensibilité pour l’endurer.",
+                "Expliquer pourquoi la peine commune ne suffit pas à produire la solidarité"
+              ],
+              [
+                "La comparaison avec la pesanteur exprime la puissance du mécanisme ; « presque irrésistible » laisse néanmoins subsister une possibilité de résistance.",
+                "Appuyer sur « presque » la différence entre difficulté extrême et impossibilité"
+              ],
+              [
+                "Les comportements reproduisent alors la brutalité de l’organisation, qui devient sensible dans les gestes et les paroles des compagnons.",
+                "Expliquer comment l’organisation se reproduit dans les relations"
+              ],
+              [
+                "Chacun subit ainsi une dureté que ceux qui la subissent peuvent à leur tour lui faire éprouver.",
+                "Préciser la propagation de la dureté entre ceux qui la subissent"
+              ]
+            ]
+          ],
+          [
+            "",
+            "La plainte sur la longueur du temps condense finalement les effets précédents : elle exprime une journée sans horizon intérieur. Elle paraît banale à celui qui ignore cette condition, mais exprime une journée sans élan intérieur et sans horizon qui permette de la traverser.",
+            "",
+            [
+              [
+                "La plainte sur la longueur du temps condense finalement les effets précédents : elle exprime une journée sans horizon intérieur.",
+                "Transition : faire de la plainte finale le condensé de l’analyse"
+              ],
+              [
+                "Elle paraît banale à celui qui ignore cette condition, mais exprime une journée sans élan intérieur et sans horizon qui permette de la traverser.",
+                "Interpréter la plainte à partir du temps vécu et de l’horizon réduit"
+              ]
+            ]
+          ],
+          [
+            "",
+            "Weil rend donc visible une servitude qui atteint les mobiles, la conscience et les relations, au-delà de la seule fatigue physique. Comprendre cette expérience demande de rapporter les conduites des ouvriers aux conditions qui façonnent leur attention et leur capacité d’agir.",
+            "",
+            [
+              [
+                "Weil rend donc visible une servitude qui atteint les mobiles, la conscience et les relations, au-delà de la seule fatigue physique.",
+                "Répondre au problème en réunissant mobiles, conscience et relations"
+              ],
+              [
+                "Comprendre cette expérience demande de rapporter les conduites des ouvriers aux conditions qui façonnent leur attention et leur capacité d’agir.",
+                "Dégager la nécessité de comprendre les conduites à partir de leurs conditions"
+              ]
+            ]
+          ]
+        ],
+        "superstructure": [
+          "I. Les mobiles imposés gouvernent l’effort ouvrier",
+          "II. La contrainte rétrécit la pensée et les relations",
+          "III. La plainte finale condense cette expérience"
+        ],
+        "paragraphMovements": [
+          "Introduction",
+          "I. Les mobiles imposés gouvernent l’effort ouvrier",
+          "I. Les mobiles imposés gouvernent l’effort ouvrier",
+          "II. La contrainte rétrécit la pensée et les relations",
+          "II. La contrainte rétrécit la pensée et les relations",
+          "III. La plainte finale condense cette expérience",
+          "Conclusion"
+        ],
+        "paragraphSections": [
+          "Introduction",
+          "Partie 1",
+          "Partie 1",
+          "Partie 2",
+          "Partie 2",
+          "Partie 3",
+          "Conclusion"
+        ]
+      }
+    },
+    {
+      "id": "levi-strauss-2023-metropole-option-1",
+      "author": "Lévi-Strauss",
+      "source": "https://eduscol.education.gouv.fr/sites/default/files/document/23-phgeme1pdf-103488.pdf",
+      "kind": "generated",
+      "wordCount": 524,
+      "textSha256": "3c7a660303dd12c73658b470d7ab1788e41259c3e24a62852d9e7c93be61db5b",
+      "original": {
+        "option": "libre",
+        "title": "Explication rédigée · objectif 20/20",
+        "paragraphs": [
+          [
+            "",
+            "Dans cet extrait de La Pensée sauvage, Lévi-Strauss caractérise le bricolage par le rapport entre un projet et les moyens disponibles. Comment un ensemble limité d’objets, réunis sans projet déterminé, permet-il pourtant des réalisations variées ? Leur disponibilité pour plusieurs usages, dans les limites de leurs propriétés, rend cette diversité possible. Le texte distingue le bricoleur de l’ingénieur, explique la constitution de son stock, puis analyse la polyvalence relative de ses éléments.",
+            "",
+            [
+              [
+                "Dans cet extrait de La Pensée sauvage, Lévi-Strauss caractérise le bricolage par le rapport entre un projet et les moyens disponibles.",
+                "Situer le rapport du bricolage aux moyens disponibles"
+              ],
+              [
+                "Comment un ensemble limité d’objets, réunis sans projet déterminé, permet-il pourtant des réalisations variées ?",
+                "Formuler le problème de réalisations diverses avec un stock limité"
+              ],
+              [
+                "Leur disponibilité pour plusieurs usages, dans les limites de leurs propriétés, rend cette diversité possible.",
+                "Énoncer le rôle de la polyvalence limitée des objets"
+              ],
+              [
+                "Le texte distingue le bricoleur de l’ingénieur, explique la constitution de son stock, puis analyse la polyvalence relative de ses éléments.",
+                "Annoncer la distinction initiale, l’histoire du stock et ses usages possibles"
+              ]
+            ]
+          ],
+          [
+            "",
+            "Le bricoleur peut accomplir des tâches diverses, mais il n’obtient pas pour chacune un équipement conçu spécialement. Chez l’ingénieur, le projet commande en principe la recherche et la fabrication des moyens adaptés ; le bricoleur doit composer avec ceux qu’il possède. La différence porte donc sur l’organisation de l’activité, sans autoriser à opposer un homme intelligent à un homme qui agirait au hasard. Dire que son univers instrumental est clos signifie que son travail commence à partir d’un ensemble déterminé de ressources. Cette limite vaut pour le stock disponible à un moment donné : le texte précise ensuite qu’il peut être enrichi. La clôture n’interdit donc pas l’histoire du stock ; elle empêche d’en disposer comme d’un équipement intégralement renouvelé à chaque projet.",
+            "",
+            [
+              [
+                "Le bricoleur peut accomplir des tâches diverses, mais il n’obtient pas pour chacune un équipement conçu spécialement.",
+                "Présenter la diversité des tâches malgré l’absence d’équipement spécifique"
+              ],
+              [
+                "Chez l’ingénieur, le projet commande en principe la recherche et la fabrication des moyens adaptés ; le bricoleur doit composer avec ceux qu’il possède.",
+                "Distinguer les deux rapports entre projet et moyens"
+              ],
+              [
+                "La différence porte donc sur l’organisation de l’activité, sans autoriser à opposer un homme intelligent à un homme qui agirait au hasard.",
+                "Écarter une hiérarchie d’intelligence que l’extrait n’établit pas"
+              ],
+              [
+                "Dire que son univers instrumental est clos signifie que son travail commence à partir d’un ensemble déterminé de ressources.",
+                "Définir la clôture de l’ensemble instrumental"
+              ],
+              [
+                "Cette limite vaut pour le stock disponible à un moment donné : le texte précise ensuite qu’il peut être enrichi.",
+                "Résoudre la difficulté en précisant à quel moment le stock est clos"
+              ],
+              [
+                "La clôture n’interdit donc pas l’histoire du stock ; elle empêche d’en disposer comme d’un équipement intégralement renouvelé à chaque projet.",
+                "Dégager la différence entre enrichir le stock et renouveler tout l’équipement"
+              ]
+            ]
+          ],
+          [
+            "",
+            "Cette limitation n’empêche pas la diversité, car le stock s’est constitué au fil d’occasions qui n’obéissaient pas à un projet unique. Les occasions, les restes d’anciens ouvrages et les matériaux récupérés réunissent des éléments qu’aucun objectif unique n’avait sélectionnés ensemble. Leur réunion est contingente : elle aurait pu être différente si d’autres occasions s’étaient présentées. Mais une origine contingente n’exclut pas un usage réfléchi : le bricoleur doit découvrir les rapports qui rendent les objets utilisables ensemble. L’exemple d’une planche conservée après un démontage le montre : elle n’a pas été acquise pour le meuble futur, mais peut entrer dans sa construction.",
+            "",
+            [
+              [
+                "Cette limitation n’empêche pas la diversité, car le stock s’est constitué au fil d’occasions qui n’obéissaient pas à un projet unique.",
+                "Transition : expliquer comment un ensemble limité peut néanmoins réunir des objets variés"
+              ],
+              [
+                "Les occasions, les restes d’anciens ouvrages et les matériaux récupérés réunissent des éléments qu’aucun objectif unique n’avait sélectionnés ensemble.",
+                "Expliquer pourquoi aucun projet unique n’a réuni ces éléments"
+              ],
+              [
+                "Leur réunion est contingente : elle aurait pu être différente si d’autres occasions s’étaient présentées.",
+                "Définir la contingence dans l’histoire de cette collecte"
+              ],
+              [
+                "Mais une origine contingente n’exclut pas un usage réfléchi : le bricoleur doit découvrir les rapports qui rendent les objets utilisables ensemble.",
+                "Distinguer hasard de la collecte et réflexion dans l’emploi"
+              ],
+              [
+                "L’exemple d’une planche conservée après un démontage le montre : elle n’a pas été acquise pour le meuble futur, mais peut entrer dans sa construction.",
+                "Proposer un exemple de réemploi pour éclairer cette distinction"
+              ]
+            ]
+          ],
+          [
+            "",
+            "La diversité du stock s’explique par cette histoire ; reste à comprendre comment chaque objet peut servir plusieurs projets sans convenir à tout. Conserver un objet parce qu’il pourrait servir revient à anticiper des usages encore indéterminés. Cette indétermination n’est pourtant pas totale : les éléments ont déjà des propriétés qui orientent ce qu’on peut en faire. Ils sont assez spécialisés pour éviter de tout produire à partir de matières brutes et de maîtriser tous les métiers. Mais ils le sont assez peu pour rester disponibles à plusieurs emplois. Une planche possède déjà une forme et une résistance exploitables ; elle peut devenir une étagère ou un renfort, mais pas remplir indifféremment toute fonction.",
+            "",
+            [
+              [
+                "La diversité du stock s’explique par cette histoire ; reste à comprendre comment chaque objet peut servir plusieurs projets sans convenir à tout.",
+                "Transition : passer de l’origine du stock à la polyvalence limitée de ses éléments"
+              ],
+              [
+                "Conserver un objet parce qu’il pourrait servir revient à anticiper des usages encore indéterminés.",
+                "Expliquer la règle de conservation sans usage encore fixé"
+              ],
+              [
+                "Cette indétermination n’est pourtant pas totale : les éléments ont déjà des propriétés qui orientent ce qu’on peut en faire.",
+                "Introduire la limite de cette indétermination"
+              ],
+              [
+                "Ils sont assez spécialisés pour éviter de tout produire à partir de matières brutes et de maîtriser tous les métiers.",
+                "Expliquer ce que la spécialisation des éléments épargne au bricoleur"
+              ],
+              [
+                "Mais ils le sont assez peu pour rester disponibles à plusieurs emplois.",
+                "Montrer pourquoi cette spécialisation doit rester partielle"
+              ],
+              [
+                "Une planche possède déjà une forme et une résistance exploitables ; elle peut devenir une étagère ou un renfort, mais pas remplir indifféremment toute fonction.",
+                "Éprouver par un exemple les possibilités et les limites d’un même objet"
+              ]
+            ]
+          ],
+          [
+            "",
+            "La dernière phrase rassemble ces deux dimensions : chaque élément est un « opérateur », c’est-à-dire un moyen d’effectuer certaines transformations. Les relations concrètes correspondent à ce qu’il est et à ce qu’il a déjà fait ; les relations virtuelles aux rapports nouveaux que ses propriétés permettent d’envisager. Un élément rend donc certaines transformations possibles, à l’intérieur d’une famille d’usages que ses caractéristiques limitent. L’invention du bricoleur consiste à reconnaître et à combiner ces possibilités, plutôt qu’à créer sans contraintes.",
+            "",
+            [
+              [
+                "La dernière phrase rassemble ces deux dimensions : chaque élément est un « opérateur », c’est-à-dire un moyen d’effectuer certaines transformations.",
+                "Expliquer le mot opérateur par les transformations que permet un élément"
+              ],
+              [
+                "Les relations concrètes correspondent à ce qu’il est et à ce qu’il a déjà fait ; les relations virtuelles aux rapports nouveaux que ses propriétés permettent d’envisager.",
+                "Distinguer les relations déjà concrètes et les relations encore virtuelles"
+              ],
+              [
+                "Un élément rend donc certaines transformations possibles, à l’intérieur d’une famille d’usages que ses caractéristiques limitent.",
+                "Préciser les limites que les propriétés imposent aux transformations"
+              ],
+              [
+                "L’invention du bricoleur consiste à reconnaître et à combiner ces possibilités, plutôt qu’à créer sans contraintes.",
+                "Dégager la forme d’invention que ces limites rendent possible"
+              ]
+            ]
+          ],
+          [
+            "",
+            "Lévi-Strauss explique ainsi comment la limitation des moyens reste compatible avec la diversité des réalisations. Le bricolage révèle une intelligence des usages possibles : une contrainte matérielle peut devenir la condition d’une invention.",
+            "",
+            [
+              [
+                "Lévi-Strauss explique ainsi comment la limitation des moyens reste compatible avec la diversité des réalisations.",
+                "Répondre au problème de la diversité rendue possible par des moyens limités"
+              ],
+              [
+                "Le bricolage révèle une intelligence des usages possibles : une contrainte matérielle peut devenir la condition d’une invention.",
+                "Dégager l’apport d’une intelligence des usages sous contrainte"
+              ]
+            ]
+          ]
+        ],
+        "superstructure": [
+          "I. Le bricoleur compose avec des moyens limités",
+          "II. Le stock se constitue au fil des occasions",
+          "III. Les propriétés des objets limitent et ouvrent leurs usages"
+        ],
+        "paragraphMovements": [
+          "Introduction",
+          "I. Le bricoleur compose avec des moyens limités",
+          "II. Le stock se constitue au fil des occasions",
+          "III. Les propriétés des objets limitent et ouvrent leurs usages",
+          "III. Les propriétés des objets limitent et ouvrent leurs usages",
+          "Conclusion"
+        ],
+        "paragraphSections": [
+          "Introduction",
+          "Partie 1",
+          "Partie 2",
+          "Partie 3",
+          "Partie 3",
+          "Conclusion"
+        ]
+      }
+    },
+    {
+      "id": "platon-2025-polynesie",
+      "kind": "manual",
+      "path": "philosophie-explication-platon-2025-polynesie.html",
+      "wordCount": 293,
+      "sentenceCount": 19,
+      "textSha256": "07e797d96ca445f956e4d3e1d6781509ca7dd318a381dab9441f357a4a1d4277",
+      "originalHTML": "<!doctype html><html lang=\"fr\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Platon — explication de texte | Bac philosophie</title><link rel=\"stylesheet\" href=\"styles.css\"><link rel=\"stylesheet\" href=\"philosophie-explication.css\"></head><body><header class=\"top\"></header><main class=\"wrap ecrire\"><nav><a href=\"philosophie-explication.html\">← Banque d'explications</a></nav><h1>Platon — Les Lois</h1><p>Bac général 2025 · Polynésie</p><p><a href=\"https://eduscol.education.gouv.fr/sites/default/files/document/25-phgepo1-a16pdf-125396.pdf\" target=\"_blank\" rel=\"noopener\">Lire le texte officiel (PDF) ↗</a></p><p class=\"ecrire-note\">Les titres en couleur servent à comprendre les étapes du raisonnement : ne les recopiez pas dans votre copie. Les phrases du devoir sont à gauche et leur fonction à droite.</p><button id=\"toggle-annotations\" type=\"button\" aria-pressed=\"true\">Masquer les fonctions</button><article class=\"ecrire-copy c20\" id=\"copy\"><p class=\"micro\">19 phrases annotées · modèle de travail visant l'excellence.</p><section class=\"c20-block\"><h2 class=\"c20-h c20-section-heading\">Introduction</h2><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Dans cet extrait des Lois, Platon examine le danger moral d’un amour excessif de soi.</span><span class=\"c20-f\">Présenter le thème</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Pourquoi cette affection, tenue pour naturelle, peut-elle fausser nos jugements sur le juste et le vrai ?</span><span class=\"c20-f\">Formuler la difficulté</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Platon soutient qu’elle nous rend aveugles à nos fautes et à notre ignorance ; il faut donc préférer la justice à son intérêt.</span><span class=\"c20-f\">Énoncer la thèse</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Il dénonce d’abord l’indulgence envers soi, en montre les conséquences intellectuelles, puis indique comment la combattre.</span><span class=\"c20-f\">Annoncer la progression</span></p></section><section class=\"c20-block\"><h2 class=\"c20-h c20-section-heading\">Partie 1</h2><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Platon commence par appeler « mal » une indulgence que l’on présente pourtant comme naturelle.</span><span class=\"c20-f\">Mettre au jour le paradoxe initial</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>L’amour rend aveugle à l’objet aimé : lorsqu’il se porte excessivement sur soi, il empêche de juger ses propres fautes.</span><span class=\"c20-f\">Expliquer le mécanisme de l’aveuglement</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>L’intérêt personnel reçoit alors plus d’estime que le vrai, le juste et le beau.</span><span class=\"c20-f\">Montrer le renversement des critères</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>La difficulté n’est donc pas de s’aimer, mais de faire de soi la mesure de toute valeur.</span><span class=\"c20-f\">Distinguer amour de soi et excès d’amour de soi</span></p></section><section class=\"c20-block\"><h2 class=\"c20-h c20-section-heading\">Partie 2</h2><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Comment corriger un jugement qui prend spontanément son intérêt pour la justice ?</span><span class=\"c20-f\">Transition-question : rendre nécessaire le changement de critère</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Platon demande d’aimer le juste, que l’action juste soit la nôtre ou celle d’autrui.</span><span class=\"c20-f\">Formuler la norme impersonnelle</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>La valeur de l’action doit ainsi être indépendante de l’identité de son auteur.</span><span class=\"c20-f\">Déduire la conséquence</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>L’exigence de justice oblige donc à reconnaître le mérite d’autrui contre notre préférence pour nous-mêmes.</span><span class=\"c20-f\">Expliquer la portée morale</span></p></section><section class=\"c20-block\"><h2 class=\"c20-h c20-section-heading\">Partie 3</h2><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Le même aveuglement se retrouve dans le savoir : nous prenons notre ignorance pour de la sagesse.</span><span class=\"c20-f\">Transition : étendre le mécanisme au jugement intellectuel</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Parce que nous croyons tout savoir, nous refusons de laisser agir ceux qui sont plus compétents.</span><span class=\"c20-f\">Expliquer le passage de l’illusion à l’action</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Nous commettons alors nous-mêmes les erreurs que notre prétendue supériorité nous empêchait d’éviter.</span><span class=\"c20-f\">Montrer la conséquence pratique</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Platon conclut qu’il faut chercher quelqu’un de meilleur que soi, sans céder à la honte.</span><span class=\"c20-f\">Présenter le remède à l’aveuglement</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Reconnaître sa limite devient ainsi une condition du progrès moral et intellectuel.</span><span class=\"c20-f\">Dégager la portée de la recommandation</span></p></section><section class=\"c20-block\"><h2 class=\"c20-h c20-section-heading\">Conclusion</h2><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Platon montre que l’amour excessif de soi fausse aussi bien le jugement moral que la connaissance.</span><span class=\"c20-f\">Réunir les deux conséquences</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Préférer la justice et accepter l’aide d’autrui permettent de corriger cette partialité.</span><span class=\"c20-f\">Répondre au problème</span></p></section></article><section><h2>Exercices</h2><details><summary>1. Formuler le problème</summary><p>Formulez le problème du texte en une question.</p><textarea rows=\"4\" aria-label=\"Réponse au premier exercice\"></textarea></details><details><summary>2. Reconstruire les mouvements</summary><p>Dans l’extrait officiel, repérez les étapes du raisonnement. Pour chacune, expliquez son rôle en une phrase.</p><textarea rows=\"5\" aria-label=\"Réponse au deuxième exercice\"></textarea></details><details><summary>3. Expliquer une articulation</summary><p>Choisissez une phrase qui fait transition et expliquez son rôle en deux phrases.</p><textarea rows=\"4\" aria-label=\"Réponse au troisième exercice\"></textarea></details></section></main><script src=\"site-nav.js\"></script><script>document.getElementById('toggle-annotations').addEventListener('click',function(){const e=document.getElementById('copy');const hidden=e.classList.toggle('c20-plain');this.setAttribute('aria-pressed',String(!hidden));this.textContent=hidden?'Afficher les fonctions':'Masquer les fonctions';});</script></body></html>",
+      "sentences": [
+        "Dans cet extrait des Lois, Platon examine le danger moral d’un amour excessif de soi.",
+        "Pourquoi cette affection, tenue pour naturelle, peut-elle fausser nos jugements sur le juste et le vrai ?",
+        "Platon soutient qu’elle nous rend aveugles à nos fautes et à notre ignorance ; il faut donc préférer la justice à son intérêt.",
+        "Il dénonce d’abord l’indulgence envers soi, en montre les conséquences intellectuelles, puis indique comment la combattre.",
+        "Platon commence par appeler « mal » une indulgence que l’on présente pourtant comme naturelle.",
+        "L’amour rend aveugle à l’objet aimé : lorsqu’il se porte excessivement sur soi, il empêche de juger ses propres fautes.",
+        "L’intérêt personnel reçoit alors plus d’estime que le vrai, le juste et le beau.",
+        "La difficulté n’est donc pas de s’aimer, mais de faire de soi la mesure de toute valeur.",
+        "Comment corriger un jugement qui prend spontanément son intérêt pour la justice ?",
+        "Platon demande d’aimer le juste, que l’action juste soit la nôtre ou celle d’autrui.",
+        "La valeur de l’action doit ainsi être indépendante de l’identité de son auteur.",
+        "L’exigence de justice oblige donc à reconnaître le mérite d’autrui contre notre préférence pour nous-mêmes.",
+        "Le même aveuglement se retrouve dans le savoir : nous prenons notre ignorance pour de la sagesse.",
+        "Parce que nous croyons tout savoir, nous refusons de laisser agir ceux qui sont plus compétents.",
+        "Nous commettons alors nous-mêmes les erreurs que notre prétendue supériorité nous empêchait d’éviter.",
+        "Platon conclut qu’il faut chercher quelqu’un de meilleur que soi, sans céder à la honte.",
+        "Reconnaître sa limite devient ainsi une condition du progrès moral et intellectuel.",
+        "Platon montre que l’amour excessif de soi fausse aussi bien le jugement moral que la connaissance.",
+        "Préférer la justice et accepter l’aide d’autrui permettent de corriger cette partialité."
+      ]
+    },
+    {
+      "id": "pascal-2025-asie",
+      "kind": "manual",
+      "path": "philosophie-explication-pascal-2025-asie.html",
+      "wordCount": 300,
+      "sentenceCount": 18,
+      "textSha256": "eb5e4c84b3d32f4e9dc12c1f4d57458ce1a03d980f4c862bd093f1995c7688cc",
+      "originalHTML": "<!doctype html><html lang=\"fr\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Pascal — explication de texte | Bac philosophie</title><link rel=\"stylesheet\" href=\"styles.css\"><link rel=\"stylesheet\" href=\"philosophie-explication.css\"></head><body><header class=\"top\"></header><main class=\"wrap ecrire\"><nav><a href=\"philosophie-explication.html\">← Banque d'explications</a></nav><h1>Pascal — Préface au traité du vide</h1><p>Bac général 2025 · Asie</p><p><a href=\"https://eduscol.education.gouv.fr/sites/default/files/document/25-phgeas1-a20pdf-124856.pdf\" target=\"_blank\" rel=\"noopener\">Lire le texte officiel (PDF) ↗</a></p><p class=\"ecrire-note\">Les titres en couleur servent à comprendre les étapes du raisonnement : ne les recopiez pas dans votre copie. Les phrases du devoir sont à gauche et leur fonction à droite.</p><button id=\"toggle-annotations\" type=\"button\" aria-pressed=\"true\">Masquer les fonctions</button><article class=\"ecrire-copy c20\" id=\"copy\"><p class=\"micro\">18 phrases annotées · modèle de travail visant l'excellence.</p><section class=\"c20-block\"><h2 class=\"c20-h c20-section-heading\">Introduction</h2><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Pascal distingue ici le raisonnement humain de l’instinct animal par leur capacité respective de progrès.</span><span class=\"c20-f\">Situer la thèse</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Pourquoi l’homme peut-il accroître ses connaissances, alors que les animaux semblent reproduire indéfiniment les mêmes œuvres ?</span><span class=\"c20-f\">Formuler le problème</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>L’auteur explique cette différence par la mémoire et la transmission des acquis, qui permettent à la raison de poursuivre son travail.</span><span class=\"c20-f\">Énoncer la réponse</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Il oppose d’abord les deux facultés, explique la stabilité de l’instinct, puis établit la possibilité du progrès humain.</span><span class=\"c20-f\">Annoncer le parcours</span></p></section><section class=\"c20-block\"><h2 class=\"c20-h c20-section-heading\">Partie 1</h2><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Pascal commence par refuser qu’on mette la raison et l’instinct « en parallèle » : leurs effets n’ont pas la même histoire.</span><span class=\"c20-f\">Expliquer la portée de la distinction</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>L’exemple des ruches, identiques à travers les siècles, rend sensible la régularité de l’instinct.</span><span class=\"c20-f\">Analyser la preuve par l’exemple</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>La perfection de l’hexagone n’atteste donc pas un apprentissage cumulatif : la première réalisation vaut déjà la dernière.</span><span class=\"c20-f\">Distinguer exactitude et progrès</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>La raison se caractérise au contraire par des effets qui « augmentent sans cesse ».</span><span class=\"c20-f\">Opposer la progression humaine à la stabilité animale</span></p></section><section class=\"c20-block\"><h2 class=\"c20-h c20-section-heading\">Partie 2</h2><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Pourquoi une production aussi exacte ne permet-elle pas aux animaux d’apprendre davantage ?</span><span class=\"c20-f\">Transition-question : chercher la cause de cette stabilité</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>La nature les instruit selon les besoins, mais le savoir reçu disparaît avec l’occasion qui l’a suscité.</span><span class=\"c20-f\">Expliquer la dépendance envers le besoin</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Parce qu’ils reçoivent ce savoir « sans étude », ils ne peuvent le conserver comme un acquis.</span><span class=\"c20-f\">Relier absence d’apprentissage et absence de mémoire cumulative</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>La nature maintient ainsi les animaux dans une « perfection bornée » : elle les protège du déclin sans les conduire au dépassement.</span><span class=\"c20-f\">Expliquer la double limite de l’instinct</span></p></section><section class=\"c20-block\"><h2 class=\"c20-h c20-section-heading\">Partie 3</h2><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>L’homme se distingue alors par une capacité de conserver ce qu’il apprend et de dépasser son premier état d’ignorance.</span><span class=\"c20-f\">Transition : introduire la condition du progrès</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Sa mémoire garde l’expérience personnelle ; les livres lui rendent présente celle de ses prédécesseurs.</span><span class=\"c20-f\">Distinguer les deux modes de conservation</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Chaque génération peut ainsi commencer avec des connaissances qu’elle n’a pas elle-même découvertes.</span><span class=\"c20-f\">Déduire l’effet de la transmission</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>La conservation rend possible l’augmentation : c’est pourquoi Pascal associe l’humanité à « l’infinité ».</span><span class=\"c20-f\">Expliquer la conclusion sans attribuer à l’homme un savoir infini</span></p></section><section class=\"c20-block\"><h2 class=\"c20-h c20-section-heading\">Conclusion</h2><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Pascal ne dévalorise pas la précision de l’instinct ; il montre qu’elle n’est pas le progrès.</span><span class=\"c20-f\">Préciser la distinction finale</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>La raison humaine progresse parce qu’elle peut transmettre et enrichir ses acquis.</span><span class=\"c20-f\">Répondre au problème</span></p></section></article><section><h2>Exercices</h2><details><summary>1. Formuler le problème</summary><p>Formulez le problème du texte en une question.</p><textarea rows=\"4\" aria-label=\"Réponse au premier exercice\"></textarea></details><details><summary>2. Reconstruire les mouvements</summary><p>Dans l’extrait officiel, repérez les étapes du raisonnement. Pour chacune, expliquez son rôle en une phrase.</p><textarea rows=\"5\" aria-label=\"Réponse au deuxième exercice\"></textarea></details><details><summary>3. Expliquer une articulation</summary><p>Choisissez une phrase qui fait transition et expliquez son rôle en deux phrases.</p><textarea rows=\"4\" aria-label=\"Réponse au troisième exercice\"></textarea></details></section></main><script src=\"site-nav.js\"></script><script>document.getElementById('toggle-annotations').addEventListener('click',function(){const e=document.getElementById('copy');const hidden=e.classList.toggle('c20-plain');this.setAttribute('aria-pressed',String(!hidden));this.textContent=hidden?'Afficher les fonctions':'Masquer les fonctions';});</script></body></html>",
+      "sentences": [
+        "Pascal distingue ici le raisonnement humain de l’instinct animal par leur capacité respective de progrès.",
+        "Pourquoi l’homme peut-il accroître ses connaissances, alors que les animaux semblent reproduire indéfiniment les mêmes œuvres ?",
+        "L’auteur explique cette différence par la mémoire et la transmission des acquis, qui permettent à la raison de poursuivre son travail.",
+        "Il oppose d’abord les deux facultés, explique la stabilité de l’instinct, puis établit la possibilité du progrès humain.",
+        "Pascal commence par refuser qu’on mette la raison et l’instinct « en parallèle » : leurs effets n’ont pas la même histoire.",
+        "L’exemple des ruches, identiques à travers les siècles, rend sensible la régularité de l’instinct.",
+        "La perfection de l’hexagone n’atteste donc pas un apprentissage cumulatif : la première réalisation vaut déjà la dernière.",
+        "La raison se caractérise au contraire par des effets qui « augmentent sans cesse ».",
+        "Pourquoi une production aussi exacte ne permet-elle pas aux animaux d’apprendre davantage ?",
+        "La nature les instruit selon les besoins, mais le savoir reçu disparaît avec l’occasion qui l’a suscité.",
+        "Parce qu’ils reçoivent ce savoir « sans étude », ils ne peuvent le conserver comme un acquis.",
+        "La nature maintient ainsi les animaux dans une « perfection bornée » : elle les protège du déclin sans les conduire au dépassement.",
+        "L’homme se distingue alors par une capacité de conserver ce qu’il apprend et de dépasser son premier état d’ignorance.",
+        "Sa mémoire garde l’expérience personnelle ; les livres lui rendent présente celle de ses prédécesseurs.",
+        "Chaque génération peut ainsi commencer avec des connaissances qu’elle n’a pas elle-même découvertes.",
+        "La conservation rend possible l’augmentation : c’est pourquoi Pascal associe l’humanité à « l’infinité ».",
+        "Pascal ne dévalorise pas la précision de l’instinct ; il montre qu’elle n’est pas le progrès.",
+        "La raison humaine progresse parce qu’elle peut transmettre et enrichir ses acquis."
+      ]
+    },
+    {
+      "id": "aristote-2025-antilles-guyane",
+      "kind": "manual",
+      "path": "philosophie-explication-aristote-2025-antilles-guyane.html",
+      "wordCount": 323,
+      "sentenceCount": 19,
+      "textSha256": "f1c330ae247b2e8aabbaf21c629ec36bbe56841bc262117dfcd5e133817b635b",
+      "originalHTML": "<!doctype html><html lang=\"fr\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Explication de texte : Aristote — Éthique à Nicomaque | Bac philosophie</title><meta name=\"description\" content=\"Explication philosophique annotée, plan dynamique et exercices — Aristote.\"><link rel=\"stylesheet\" href=\"styles.css\"><link rel=\"stylesheet\" href=\"philosophie-explication.css\"></head><body><header class=\"top\"></header><main class=\"wrap ecrire\"><nav><a href=\"philosophie-explication.html\">← Banque d'explications</a></nav><h1>Aristote — Éthique à Nicomaque</h1><p>Antilles-Guyane, 2025 · Explication de texte du baccalauréat général</p><p><a href=\"https://eduscol.education.gouv.fr/sites/default/files/document/25-phgeag1v1pdf-112467.pdf\" target=\"_blank\" rel=\"noopener\">Lire le sujet officiel (PDF) ↗</a></p><p class=\"ecrire-note\"><strong>Comment lire ce corrigé :</strong> Les titres en couleur vous aident à comprendre les étapes du raisonnement. Ne les recopiez pas dans votre copie. Les phrases du devoir sont à gauche ; leur fonction est indiquée à droite.</p><p><button type=\"button\" id=\"toggle-annotations\" aria-pressed=\"true\">Masquer les fonctions</button></p><article class=\"ecrire-copy c20\" id=\"copy\"><p class=\"micro\">19 phrases annotées · modèle de travail visant l'excellence, sans garantie de note.</p><section class=\"c20-block\"><h2 class=\"c20-h c20-section-heading\">Introduction</h2><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Dans cet extrait de l’Éthique à Nicomaque, Aristote examine le rôle du plaisir dans la formation du caractère.</span><span class=\"c20-f\">Présenter le sujet</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Faut-il détourner les hommes du plaisir pour les rendre vertueux, alors que leurs actions sont constamment guidées par lui ?</span><span class=\"c20-f\">Construire le problème</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Aristote soutient qu’une condamnation générale du plaisir est trompeuse et peut discréditer la vérité morale.</span><span class=\"c20-f\">Énoncer la thèse</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Il montre d’abord l’importance du plaisir, présente une stratégie éducative de rejet, puis en dénonce le danger.</span><span class=\"c20-f\">Annoncer la progression</span></p></section><section class=\"c20-block\"><h2 class=\"c20-h c20-section-heading\">Partie 1</h2><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Le plaisir et la peine touchent à la nature humaine : ils orientent ce que nous choisissons et évitons.</span><span class=\"c20-f\">Expliquer le point de départ anthropologique</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>C’est pourquoi l’éducation agit sur eux plutôt que de prétendre les supprimer.</span><span class=\"c20-f\">Déduire l’enjeu pédagogique</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>La vertu demande de se plaire à ce qui le mérite et de détester ce qui doit être refusé.</span><span class=\"c20-f\">Préciser la norme morale</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>La question n’est donc pas de rechercher tout plaisir, mais de former la justesse des plaisirs.</span><span class=\"c20-f\">Distinguer plaisir et bon usage du plaisir</span></p></section><section class=\"c20-block\"><h2 class=\"c20-h c20-section-heading\">Partie 2</h2><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Cette importance du plaisir explique que sa valeur fasse débat : certains le déclarent bon, d’autres entièrement mauvais.</span><span class=\"c20-f\">Transition : passer de son rôle à la controverse</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Parmi ses adversaires, Aristote distingue ceux qui croient réellement le plaisir mauvais de ceux qui le disent par calcul éducatif.</span><span class=\"c20-f\">Identifier la distinction argumentative</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Ces derniers espèrent redresser l’inclination excessive des hommes en les poussant vers l’extrême opposé.</span><span class=\"c20-f\">Expliquer la stratégie du contrepoids</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Le « juste milieu » est ici le résultat espéré de ce déplacement, non la preuve que toute condamnation serait vraie.</span><span class=\"c20-f\">Distinguer l’objectif pratique de la vérité du discours</span></p></section><section class=\"c20-block\"><h2 class=\"c20-h c20-section-heading\">Partie 3</h2><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Mais une stratégie éducative peut-elle réussir si elle affirme ce que l’expérience dément ?</span><span class=\"c20-f\">Transition-question : ouvrir la critique décisive</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Aristote rappelle que, dans les actions et les sentiments, les faits persuadent davantage que les discours.</span><span class=\"c20-f\">Énoncer la raison de l’objection</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Lorsque le contempteur du plaisir y cède lui-même, son comportement retire tout crédit à sa condamnation.</span><span class=\"c20-f\">Expliquer l’exemple de contradiction</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Le discours excessif produit alors l’effet inverse de celui qu’il recherchait : il fait croire que tout plaisir est désirable.</span><span class=\"c20-f\">Montrer le renversement causal</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>L’exagération ne détruit donc pas seulement sa propre crédibilité ; elle compromet la vérité qu’elle prétend défendre.</span><span class=\"c20-f\">Expliquer la formule finale</span></p></section><section class=\"c20-block\"><h2 class=\"c20-h c20-section-heading\">Conclusion</h2><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Aristote ne fait pas du plaisir le bien suprême : il refuse d’éduquer par une fausseté manifeste.</span><span class=\"c20-f\">Répondre au problème sans extrapoler</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>La vertu exige d’accorder les paroles, les conduites et la juste appréciation des plaisirs.</span><span class=\"c20-f\">Conclure sur la cohérence morale</span></p></section></article><section><h2>Trois exercices sur ce texte</h2><details class=\"ecrire-drill\"><summary>1. Retrouvez le problème</summary><p>Formulez le problème du texte en une question.</p><textarea rows=\"4\" aria-label=\"Votre réponse à l'exercice 1\"></textarea><details><summary>Indication pour vérifier</summary><p>Pourquoi condamner indistinctement le plaisir risque-t-il de nuire à l’éducation morale ?</p></details></details><details class=\"ecrire-drill\"><summary>2. Expliquez le passage</summary><p>Dans l’extrait officiel, repérez un changement dans le raisonnement. Expliquez-le en deux phrases.</p><textarea rows=\"4\" aria-label=\"Votre réponse à l'exercice 2\"></textarea><details><summary>Indication pour vérifier</summary><p>Repérez les mots qui relient deux idées successives : par exemple une opposition, une conséquence ou une précision.</p></details></details><details class=\"ecrire-drill\"><summary>3. Écrivez sans les annotations</summary><p>Choisissez une phrase de l’extrait. Expliquez-la en deux ou trois phrases : un mot important, puis la raison avancée.</p><textarea rows=\"4\" aria-label=\"Votre réponse à l'exercice 3\"></textarea><details><summary>Indication pour vérifier</summary><p>Vérifiez que chaque phrase établit un lien nécessaire avec la suivante.</p></details></details></section><p><a href=\"philosophie-explication.html\">Revenir à la banque d'explications</a></p></main><script src=\"site-nav.js\"></script><script>document.getElementById('toggle-annotations').addEventListener('click',function(){let p=document.getElementById('copy');let hidden=p.classList.toggle('c20-plain');this.setAttribute('aria-pressed',String(!hidden));this.textContent=hidden?'Afficher les fonctions':'Masquer les fonctions';});</script></body></html>",
+      "sentences": [
+        "Dans cet extrait de l’Éthique à Nicomaque, Aristote examine le rôle du plaisir dans la formation du caractère.",
+        "Faut-il détourner les hommes du plaisir pour les rendre vertueux, alors que leurs actions sont constamment guidées par lui ?",
+        "Aristote soutient qu’une condamnation générale du plaisir est trompeuse et peut discréditer la vérité morale.",
+        "Il montre d’abord l’importance du plaisir, présente une stratégie éducative de rejet, puis en dénonce le danger.",
+        "Le plaisir et la peine touchent à la nature humaine : ils orientent ce que nous choisissons et évitons.",
+        "C’est pourquoi l’éducation agit sur eux plutôt que de prétendre les supprimer.",
+        "La vertu demande de se plaire à ce qui le mérite et de détester ce qui doit être refusé.",
+        "La question n’est donc pas de rechercher tout plaisir, mais de former la justesse des plaisirs.",
+        "Cette importance du plaisir explique que sa valeur fasse débat : certains le déclarent bon, d’autres entièrement mauvais.",
+        "Parmi ses adversaires, Aristote distingue ceux qui croient réellement le plaisir mauvais de ceux qui le disent par calcul éducatif.",
+        "Ces derniers espèrent redresser l’inclination excessive des hommes en les poussant vers l’extrême opposé.",
+        "Le « juste milieu » est ici le résultat espéré de ce déplacement, non la preuve que toute condamnation serait vraie.",
+        "Mais une stratégie éducative peut-elle réussir si elle affirme ce que l’expérience dément ?",
+        "Aristote rappelle que, dans les actions et les sentiments, les faits persuadent davantage que les discours.",
+        "Lorsque le contempteur du plaisir y cède lui-même, son comportement retire tout crédit à sa condamnation.",
+        "Le discours excessif produit alors l’effet inverse de celui qu’il recherchait : il fait croire que tout plaisir est désirable.",
+        "L’exagération ne détruit donc pas seulement sa propre crédibilité ; elle compromet la vérité qu’elle prétend défendre.",
+        "Aristote ne fait pas du plaisir le bien suprême : il refuse d’éduquer par une fausseté manifeste.",
+        "La vertu exige d’accorder les paroles, les conduites et la juste appréciation des plaisirs."
+      ]
+    },
+    {
+      "id": "mill-2025-metropole-secours",
+      "kind": "manual",
+      "path": "philosophie-explication-mill-2025-metropole-secours.html",
+      "wordCount": 325,
+      "sentenceCount": 18,
+      "textSha256": "7e107ca7bccbd1a2badcf8609812f90bf43e25b6207a8d88092289df8d01fb44",
+      "originalHTML": "<!doctype html><html lang=\"fr\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Explication de texte : John Stuart Mill — De la liberté | Bac philosophie</title><meta name=\"description\" content=\"Explication philosophique annotée, plan dynamique et exercices — John Stuart Mill.\"><link rel=\"stylesheet\" href=\"styles.css\"><link rel=\"stylesheet\" href=\"philosophie-explication.css\"></head><body><header class=\"top\"></header><main class=\"wrap ecrire\"><nav><a href=\"philosophie-explication.html\">← Banque d'explications</a></nav><h1>John Stuart Mill — De la liberté</h1><p>Métropole, 2025 · Explication de texte du baccalauréat général</p><p><a href=\"https://eduscol.education.gouv.fr/sites/default/files/document/25-phgeme2v1pdf-112461.pdf\" target=\"_blank\" rel=\"noopener\">Lire le sujet officiel (PDF) ↗</a></p><p class=\"ecrire-note\"><strong>Comment lire ce corrigé :</strong> Les titres en couleur vous aident à comprendre les étapes du raisonnement. Ne les recopiez pas dans votre copie. Les phrases du devoir sont à gauche ; leur fonction est indiquée à droite.</p><p><button type=\"button\" id=\"toggle-annotations\" aria-pressed=\"true\">Masquer les fonctions</button></p><article class=\"ecrire-copy c20\" id=\"copy\"><p class=\"micro\">18 phrases annotées · modèle de travail visant l'excellence, sans garantie de note.</p><section class=\"c20-block\"><h2 class=\"c20-h c20-section-heading\">Introduction</h2><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Dans cet extrait de De la liberté, Mill défend le droit d’exprimer une opinion, même isolée.</span><span class=\"c20-f\">Présenter l’objet du passage</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Pourquoi une opinion minoritaire devrait-elle pouvoir être entendue, même lorsqu’elle est erronée ?</span><span class=\"c20-f\">Formuler la difficulté</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Mill soutient que la discussion profite à tous : elle permet de découvrir la vérité ou de mieux la comprendre.</span><span class=\"c20-f\">Énoncer la thèse</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Il récuse d’abord le droit de faire taire, en explique le tort collectif, puis distingue deux hypothèses pour établir sa conclusion.</span><span class=\"c20-f\">Annoncer le mouvement du texte</span></p></section><section class=\"c20-block\"><h2 class=\"c20-h c20-section-heading\">Partie 1</h2><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>L’hypothèse d’une humanité unanime contre un seul individu rend d’abord manifeste qu’une majorité ne fonde aucun droit de censure.</span><span class=\"c20-f\">Expliquer la portée de l’hypothèse initiale</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>La réciprocité de l’interdiction est décisive : l’individu isolé ne pourrait pas davantage faire taire tous les autres.</span><span class=\"c20-f\">Montrer que le principe vaut pour chacun</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Mill envisage alors l’opinion comme une simple possession privée : le dommage semblerait varier avec le nombre de personnes lésées.</span><span class=\"c20-f\">Expliquer la concession hypothétique</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Mais il écarte cette conception, puisque supprimer une opinion prive l’humanité d’un bien intellectuel commun.</span><span class=\"c20-f\">Montrer le renversement de la concession</span></p></section><section class=\"c20-block\"><h2 class=\"c20-h c20-section-heading\">Partie 2</h2><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Pourquoi le dommage concerne-t-il tous les hommes, y compris les adversaires de l’opinion censurée ?</span><span class=\"c20-f\">Transition-question : rendre nécessaire la justification du dommage collectif</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Si l’opinion est vraie, ses contradicteurs perdent la possibilité de remplacer leur erreur par la vérité.</span><span class=\"c20-f\">Établir le premier cas</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Si elle est fausse, la confrontation permet néanmoins de mieux saisir la vérité que l’on défend.</span><span class=\"c20-f\">Établir le second cas</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>L’erreur n’est donc pas utile parce qu’elle serait vraie, mais parce que sa réfutation donne des raisons à une conviction qui risquerait de rester passive.</span><span class=\"c20-f\">Expliquer la différence entre vérité et compréhension de la vérité</span></p></section><section class=\"c20-block\"><h2 class=\"c20-h c20-section-heading\">Partie 3</h2><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>La distinction entre les deux hypothèses commande ainsi toute la démonstration : dans les deux cas, le silence est une perte.</span><span class=\"c20-f\">Dégager la convergence logique des deux branches</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Mill ajoute qu’on ne peut jamais être certain de la fausseté de l’opinion supprimée.</span><span class=\"c20-f\">Préciser la limite de notre jugement</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Et même si cette certitude était possible, la discussion resterait nécessaire pour maintenir une compréhension vivante du vrai.</span><span class=\"c20-f\">Expliquer pourquoi le second cas subsiste</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>La dernière phrase ne répète donc pas la thèse : elle ferme successivement les deux justifications possibles de la censure.</span><span class=\"c20-f\">Éclairer la fonction conclusive de la dernière phrase</span></p></section><section class=\"c20-block\"><h2 class=\"c20-h c20-section-heading\">Conclusion</h2><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Mill établit que la liberté de discussion protège autant la recherche de la vérité que son intelligence.</span><span class=\"c20-f\">Répondre au problème</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Une opinion ne vaut pas seulement comme bien de celui qui la professe : sa confrontation avec d’autres sert à tous.</span><span class=\"c20-f\">Formuler la portée du raisonnement</span></p></section></article><section><h2>Trois exercices sur ce texte</h2><details class=\"ecrire-drill\"><summary>1. Retrouvez le problème</summary><p>Formulez le problème du texte en une question.</p><textarea rows=\"4\" aria-label=\"Votre réponse à l'exercice 1\"></textarea><details><summary>Indication pour vérifier</summary><p>Pourquoi réduire une opinion au silence lèse-t-il tous les hommes, même si cette opinion est fausse ?</p></details></details><details class=\"ecrire-drill\"><summary>2. Expliquez le passage</summary><p>Dans l’extrait officiel, repérez un changement dans le raisonnement. Expliquez-le en deux phrases.</p><textarea rows=\"4\" aria-label=\"Votre réponse à l'exercice 2\"></textarea><details><summary>Indication pour vérifier</summary><p>Repérez les mots qui relient deux idées successives : par exemple une opposition, une conséquence ou une précision.</p></details></details><details class=\"ecrire-drill\"><summary>3. Écrivez sans les annotations</summary><p>Choisissez une phrase de l’extrait. Expliquez-la en deux ou trois phrases : un mot important, puis la raison avancée.</p><textarea rows=\"4\" aria-label=\"Votre réponse à l'exercice 3\"></textarea><details><summary>Indication pour vérifier</summary><p>Vérifiez que chaque phrase établit un lien nécessaire avec la suivante.</p></details></details></section><p><a href=\"philosophie-explication.html\">Revenir à la banque d'explications</a></p></main><script src=\"site-nav.js\"></script><script>document.getElementById('toggle-annotations').addEventListener('click',function(){let p=document.getElementById('copy');let hidden=p.classList.toggle('c20-plain');this.setAttribute('aria-pressed',String(!hidden));this.textContent=hidden?'Afficher les fonctions':'Masquer les fonctions';});</script></body></html>",
+      "sentences": [
+        "Dans cet extrait de De la liberté, Mill défend le droit d’exprimer une opinion, même isolée.",
+        "Pourquoi une opinion minoritaire devrait-elle pouvoir être entendue, même lorsqu’elle est erronée ?",
+        "Mill soutient que la discussion profite à tous : elle permet de découvrir la vérité ou de mieux la comprendre.",
+        "Il récuse d’abord le droit de faire taire, en explique le tort collectif, puis distingue deux hypothèses pour établir sa conclusion.",
+        "L’hypothèse d’une humanité unanime contre un seul individu rend d’abord manifeste qu’une majorité ne fonde aucun droit de censure.",
+        "La réciprocité de l’interdiction est décisive : l’individu isolé ne pourrait pas davantage faire taire tous les autres.",
+        "Mill envisage alors l’opinion comme une simple possession privée : le dommage semblerait varier avec le nombre de personnes lésées.",
+        "Mais il écarte cette conception, puisque supprimer une opinion prive l’humanité d’un bien intellectuel commun.",
+        "Pourquoi le dommage concerne-t-il tous les hommes, y compris les adversaires de l’opinion censurée ?",
+        "Si l’opinion est vraie, ses contradicteurs perdent la possibilité de remplacer leur erreur par la vérité.",
+        "Si elle est fausse, la confrontation permet néanmoins de mieux saisir la vérité que l’on défend.",
+        "L’erreur n’est donc pas utile parce qu’elle serait vraie, mais parce que sa réfutation donne des raisons à une conviction qui risquerait de rester passive.",
+        "La distinction entre les deux hypothèses commande ainsi toute la démonstration : dans les deux cas, le silence est une perte.",
+        "Mill ajoute qu’on ne peut jamais être certain de la fausseté de l’opinion supprimée.",
+        "Et même si cette certitude était possible, la discussion resterait nécessaire pour maintenir une compréhension vivante du vrai.",
+        "La dernière phrase ne répète donc pas la thèse : elle ferme successivement les deux justifications possibles de la censure.",
+        "Mill établit que la liberté de discussion protège autant la recherche de la vérité que son intelligence.",
+        "Une opinion ne vaut pas seulement comme bien de celui qui la professe : sa confrontation avec d’autres sert à tous."
+      ]
+    },
+    {
+      "id": "bergson-2023-centres-etrangers",
+      "kind": "manual",
+      "path": "philosophie-explication-bergson-2023-centres-etrangers.html",
+      "wordCount": 334,
+      "sentenceCount": 19,
+      "textSha256": "d791f7797709ad73209914e19530d5511819da8b55efa6d1c069080ce6df1d9d",
+      "originalHTML": "<!doctype html><html lang=\"fr\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Explication de texte : Henri Bergson — Conférence de Madrid sur l’âme humaine | Bac philosophie</title><meta name=\"description\" content=\"Explication philosophique annotée, plan dynamique et exercices — Henri Bergson.\"><link rel=\"stylesheet\" href=\"styles.css\"><link rel=\"stylesheet\" href=\"philosophie-explication.css\"></head><body><header class=\"top\"></header><main class=\"wrap ecrire\"><nav><a href=\"philosophie-explication.html\">← Banque d'explications</a></nav><h1>Henri Bergson — Conférence de Madrid sur l’âme humaine</h1><p>Centres étrangers, 2023 · Explication de texte du baccalauréat général</p><p><a href=\"https://eduscol.education.gouv.fr/sites/default/files/document/23-phgeg11-a24pdf-104043.pdf\" target=\"_blank\" rel=\"noopener\">Lire le sujet officiel (PDF) ↗</a></p><p class=\"ecrire-note\"><strong>Comment lire ce corrigé :</strong> Les titres en couleur vous aident à comprendre les étapes du raisonnement. Ne les recopiez pas dans votre copie. Les phrases du devoir sont à gauche ; leur fonction est indiquée à droite.</p><p><button type=\"button\" id=\"toggle-annotations\" aria-pressed=\"true\">Masquer les fonctions</button></p><article class=\"ecrire-copy c20\" id=\"copy\"><p class=\"micro\">19 phrases annotées · modèle de travail visant l'excellence, sans garantie de note.</p><section class=\"c20-block\"><h2 class=\"c20-h c20-section-heading\">Introduction</h2><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Dans cet extrait de la Conférence de Madrid sur l’âme humaine, Bergson confronte le mécanisme scientifique à l’expérience du choix.</span><span class=\"c20-f\">Situer l’opposition</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Comment l’homme pourrait-il être libre si les lois de la matière déterminent tout ce qui arrive ?</span><span class=\"c20-f\">Formuler le problème</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Bergson caractérise la liberté comme ce qui résiste à la prévision scientifique, sans prétendre ici démontrer définitivement son existence.</span><span class=\"c20-f\">Énoncer une thèse fidèle à sa réserve finale</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Il part de la nécessité matérielle, fait entendre la protestation du sens commun, puis précise la liberté par une comparaison.</span><span class=\"c20-f\">Annoncer le mouvement</span></p></section><section class=\"c20-block\"><h2 class=\"c20-h c20-section-heading\">Partie 1</h2><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Le monde matériel est présenté comme une machine dont toutes les pièces s’ajustent : la comparaison avec l’horloge exprime l’enchaînement nécessaire des événements.</span><span class=\"c20-f\">Expliquer l’image et sa portée</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Une telle machine n’offre aucune place à une initiative qui romprait cet enchaînement.</span><span class=\"c20-f\">Déduire la conséquence du mécanisme</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Si l’on applique à l’homme cette manière de voir, il devient un mécanisme parmi les autres.</span><span class=\"c20-f\">Expliquer le transfert du modèle scientifique à l’homme</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>La conclusion paraît inévitable : « Toute liberté semble impossible ».</span><span class=\"c20-f\">Identifier la conséquence, en respectant le verbe sembler</span></p></section><section class=\"c20-block\"><h2 class=\"c20-h c20-section-heading\">Partie 2</h2><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Pourtant, le sens commun résiste à cette représentation de l’homme comme automate.</span><span class=\"c20-f\">Transition : introduire la protestation de l’expérience</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Le choix entre droite et gauche rend sensible une décision dont l’issue ne paraît pas fixée à l’avance.</span><span class=\"c20-f\">Analyser l’exemple concret</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Bergson répète l’alternative avant la décision pour faire éprouver l’ouverture apparente des possibles.</span><span class=\"c20-f\">Expliquer la fonction de la mise en scène</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Il écrit cependant « apparemment » : l’expérience immédiate du choix ne constitue pas encore une réfutation scientifique du déterminisme.</span><span class=\"c20-f\">Distinguer apparence de liberté et démonstration</span></p></section><section class=\"c20-block\"><h2 class=\"c20-h c20-section-heading\">Partie 3</h2><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Comment définir alors cette liberté sans simplement nier les succès de la prévision scientifique ?</span><span class=\"c20-f\">Transition-question : déplacer le problème vers le critère de liberté</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>La science peut toujours supposer qu’une connaissance suffisante des causes permettrait de prévoir l’acte.</span><span class=\"c20-f\">Présenter la réponse déterministe envisagée</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>L’exemple de l’éclipse imagine au contraire une Lune capable de déjouer l’astronome : la plaisanterie révèle ce que la liberté changerait dans une prévision.</span><span class=\"c20-f\">Expliquer la fonction de l’image fictive</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>La comparaison ne prouve pas qu’un astre choisit ; elle isole l’idée d’une initiative qui échappe au calcul.</span><span class=\"c20-f\">Éviter de prendre l’image pour un argument physique</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Ainsi, la « faculté de tromper la science » désigne la possibilité d’un acte imprévisible, non la volonté de mentir au savant.</span><span class=\"c20-f\">Définir la formule finale</span></p></section><section class=\"c20-block\"><h2 class=\"c20-h c20-section-heading\">Conclusion</h2><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>Bergson oppose donc la nécessité d’un mécanisme à l’initiative que semble attester le choix humain.</span><span class=\"c20-f\">Répondre au problème</span></p><p class=\"c20-s\"><span class=\"c20-t\" data-model-text>La réserve « si elle existe » laisse ouverte la preuve de cette liberté, tout en précisant ce qu’il faudrait établir pour la reconnaître.</span><span class=\"c20-f\">Conserver la limite explicite de la conclusion</span></p></section></article><section><h2>Trois exercices sur ce texte</h2><details class=\"ecrire-drill\"><summary>1. Retrouvez le problème</summary><p>Formulez le problème du texte en une question.</p><textarea rows=\"4\" aria-label=\"Votre réponse à l'exercice 1\"></textarea><details><summary>Indication pour vérifier</summary><p>Comment penser la liberté humaine si la science représente le monde comme un mécanisme entièrement prévisible ?</p></details></details><details class=\"ecrire-drill\"><summary>2. Expliquez le passage</summary><p>Dans l’extrait officiel, repérez un changement dans le raisonnement. Expliquez-le en deux phrases.</p><textarea rows=\"4\" aria-label=\"Votre réponse à l'exercice 2\"></textarea><details><summary>Indication pour vérifier</summary><p>Repérez les mots qui relient deux idées successives : par exemple une opposition, une conséquence ou une précision.</p></details></details><details class=\"ecrire-drill\"><summary>3. Écrivez sans les annotations</summary><p>Choisissez une phrase de l’extrait. Expliquez-la en deux ou trois phrases : un mot important, puis la raison avancée.</p><textarea rows=\"4\" aria-label=\"Votre réponse à l'exercice 3\"></textarea><details><summary>Indication pour vérifier</summary><p>Vérifiez que chaque phrase établit un lien nécessaire avec la suivante.</p></details></details></section><p><a href=\"philosophie-explication.html\">Revenir à la banque d'explications</a></p></main><script src=\"site-nav.js\"></script><script>document.getElementById('toggle-annotations').addEventListener('click',function(){let p=document.getElementById('copy');let hidden=p.classList.toggle('c20-plain');this.setAttribute('aria-pressed',String(!hidden));this.textContent=hidden?'Afficher les fonctions':'Masquer les fonctions';});</script></body></html>",
+      "sentences": [
+        "Dans cet extrait de la Conférence de Madrid sur l’âme humaine, Bergson confronte le mécanisme scientifique à l’expérience du choix.",
+        "Comment l’homme pourrait-il être libre si les lois de la matière déterminent tout ce qui arrive ?",
+        "Bergson caractérise la liberté comme ce qui résiste à la prévision scientifique, sans prétendre ici démontrer définitivement son existence.",
+        "Il part de la nécessité matérielle, fait entendre la protestation du sens commun, puis précise la liberté par une comparaison.",
+        "Le monde matériel est présenté comme une machine dont toutes les pièces s’ajustent : la comparaison avec l’horloge exprime l’enchaînement nécessaire des événements.",
+        "Une telle machine n’offre aucune place à une initiative qui romprait cet enchaînement.",
+        "Si l’on applique à l’homme cette manière de voir, il devient un mécanisme parmi les autres.",
+        "La conclusion paraît inévitable : « Toute liberté semble impossible ».",
+        "Pourtant, le sens commun résiste à cette représentation de l’homme comme automate.",
+        "Le choix entre droite et gauche rend sensible une décision dont l’issue ne paraît pas fixée à l’avance.",
+        "Bergson répète l’alternative avant la décision pour faire éprouver l’ouverture apparente des possibles.",
+        "Il écrit cependant « apparemment » : l’expérience immédiate du choix ne constitue pas encore une réfutation scientifique du déterminisme.",
+        "Comment définir alors cette liberté sans simplement nier les succès de la prévision scientifique ?",
+        "La science peut toujours supposer qu’une connaissance suffisante des causes permettrait de prévoir l’acte.",
+        "L’exemple de l’éclipse imagine au contraire une Lune capable de déjouer l’astronome : la plaisanterie révèle ce que la liberté changerait dans une prévision.",
+        "La comparaison ne prouve pas qu’un astre choisit ; elle isole l’idée d’une initiative qui échappe au calcul.",
+        "Ainsi, la « faculté de tromper la science » désigne la possibilité d’un acte imprévisible, non la volonté de mentir au savant.",
+        "Bergson oppose donc la nécessité d’un mécanisme à l’initiative que semble attester le choix humain.",
+        "La réserve « si elle existe » laisse ouverte la preuve de cette liberté, tout en précisant ce qu’il faudrait établir pour la reconnaître."
+      ]
+    }
+  ]
+}

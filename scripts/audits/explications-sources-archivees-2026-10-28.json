@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-28",
+  "sources": [
+    {
+      "sujet": "levi-strauss-2023-metropole",
+      "annee": "2023",
+      "serie": "GÉN.",
+      "lieu": "MÉTROPOLE",
+      "session": "NORMALE",
+      "nature": "transcription pédagogique archivée",
+      "reference": "https://github.com/eyssette/sujets-philosophie-bac/blob/573da6b92a3b4e5f2d94f4cfc99c508775abe18c/data/explications.tsv#L1209",
+      "archive_commit": "573da6b92a3b4e5f2d94f4cfc99c508775abe18c",
+      "fichier_sha256": "4caf822253c4d2b164e5c2be26e4c86430d6c9a7947c2b9c1fca23e75640e490",
+      "texte_sha256": "1116783c90e939fb51c18d7f82efb2796ed761832368d0b96d31fca599d4345f",
+      "pdf_officiel_collationne": false
+    },
+    {
+      "sujet": "bergson-2023-centres-etrangers",
+      "annee": "2023",
+      "serie": "GÉN.",
+      "lieu": "CENTRES ÉTRANGERS GROUPE 1",
+      "session": "NORMALE",
+      "nature": "transcription pédagogique archivée",
+      "reference": "https://github.com/eyssette/sujets-philosophie-bac/blob/573da6b92a3b4e5f2d94f4cfc99c508775abe18c/data/explications.tsv#L1214",
+      "archive_commit": "573da6b92a3b4e5f2d94f4cfc99c508775abe18c",
+      "fichier_sha256": "4caf822253c4d2b164e5c2be26e4c86430d6c9a7947c2b9c1fca23e75640e490",
+      "texte_sha256": "56a7bf2c7d37d9271f872e7dfd49a7754ac1eaece000978dffe1d5b4b5f80755",
+      "pdf_officiel_collationne": false
+    },
+    {
+      "sujet": "weil-2024-metropole",
+      "annee": "2024",
+      "serie": "GÉN.",
+      "lieu": "MÉTROPOLE, LA RÉUNION, MAYOTTE",
+      "session": "NORMALE",
+      "nature": "transcription pédagogique archivée",
+      "reference": "https://github.com/eyssette/sujets-philosophie-bac/blob/573da6b92a3b4e5f2d94f4cfc99c508775abe18c/data/explications.tsv#L1225",
+      "archive_commit": "573da6b92a3b4e5f2d94f4cfc99c508775abe18c",
+      "fichier_sha256": "4caf822253c4d2b164e5c2be26e4c86430d6c9a7947c2b9c1fca23e75640e490",
+      "texte_sha256": "c7c7cc80969224a9d2822a4d1e1b8fa75eaf8b3236e1f6ddfab4958875ec1358",
+      "pdf_officiel_collationne": false
+    }
+  ],
+  "limite": "Les trois transcriptions ont été lues ; les PDF primaires, leur ponctuation et leurs numéros de ligne ne sont pas certifiés. Le passage Platon2007Japon n’est pas attribué au sujet2025Polynésie."
+}

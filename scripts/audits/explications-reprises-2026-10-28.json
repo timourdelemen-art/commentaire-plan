@@ -1,0 +1,117 @@
+{
+  "copies": [
+    {
+      "sujet": "weil-2024-metropole",
+      "ancien": "Ces mobiles doivent devenir obsédants, car leur présence continuelle compense la faiblesse du sens que le travail offre par lui-même.",
+      "nouveau": "Pour que ces seuls mobiles soutiennent un effort aussi pénible, ils doivent s’imposer continuellement à la pensée : la condition de leur efficacité devient une emprise sur la vie intérieure.",
+      "fonction": "Expliquer pourquoi les mobiles doivent devenir obsédants",
+      "raison": "Reconstituer le lien entre énergie requise et intensité obsédante ; retirer la prémisse importée de faiblesse du sens.",
+      "statut": "applique_dans_branche_de_travail_en_attente_du_reaudit_final"
+    },
+    {
+      "sujet": "weil-2024-metropole",
+      "ancien": "Cette mobilisation constante de l’esprit ne signifie pourtant pas que la pensée reste libre : les mêmes motifs peuvent l’occuper et rétrécir son attention.",
+      "nouveau": "Weil décrit simultanément l’occupation de l’âme par ces mobiles et un rétrécissement de la pensée.",
+      "fonction": "Distinguer les effets simultanés sur l’âme et sur la pensée",
+      "raison": "Ne pas faire de l’obsession l’unique cause du retrait que le texte attribue à l’évitement de la souffrance.",
+      "statut": "applique_dans_branche_de_travail_en_attente_du_reaudit_final"
+    },
+    {
+      "sujet": "weil-2024-metropole",
+      "ancien": "La plainte sur la longueur du temps condense finalement les effets précédents : elle exprime une journée sans horizon intérieur. Elle paraît banale à celui qui ignore cette condition, mais exprime une journée sans élan intérieur et sans horizon qui permette de la traverser.",
+      "nouveau": "La plainte finale sur la longueur du temps exprime ainsi une durée subie : chaque instant est traversé en réduisant la conscience de ce qu’on endure. Les personnes étrangères à cette condition ne l’entendent pas et, même si elles l’entendaient, n’en comprendraient pas la portée ; la banalité des mots cache une expérience qu’elles ne partagent pas. Weil donne à cette plainte son intelligibilité en reconstituant les conditions qui l’ont produite.",
+      "fonction": "Interpréter la plainte puis distinguer réception des paroles et compréhension de l’expérience",
+      "raison": "Retirer la répétition sur l’horizon intérieur et restituer les deux obstacles explicites de la dernière phrase.",
+      "statut": "applique_dans_branche_de_travail_en_attente_du_reaudit_final"
+    },
+    {
+      "sujet": "levi-strauss-2023-metropole",
+      "ancien": "Les relations concrètes correspondent à ce qu’il est et à ce qu’il a déjà fait ; les relations virtuelles aux rapports nouveaux que ses propriétés permettent d’envisager.",
+      "nouveau": "Les relations concrètes tiennent aux rapports déjà déterminés des éléments ; les relations virtuelles sont les rapports possibles que leurs propriétés autorisent dans d’autres agencements.",
+      "fonction": "Distinguer les rapports effectifs et les possibilités de réemploi",
+      "raison": "Ne pas réduire concret au passé d’un objet ; maintenir possible sans le confondre avec imaginaire.",
+      "statut": "applique_dans_branche_de_travail_en_attente_du_reaudit_final"
+    },
+    {
+      "sujet": "bergson-2023-centres-etrangers",
+      "anciens_segments": [
+        "La science peut toujours supposer qu’une connaissance suffisante des causes permettrait de prévoir l’acte.",
+        "L’exemple de l’éclipse imagine au contraire une Lune capable de déjouer l’astronome : la plaisanterie révèle ce que la liberté changerait dans une prévision.",
+        "La comparaison ne prouve pas qu’un astre choisit ; elle isole l’idée d’une initiative qui échappe au calcul.",
+        "Ainsi, la « faculté de tromper la science » désigne la possibilité d’un acte imprévisible, non la volonté de mentir au savant."
+      ],
+      "nouveaux_segments": [
+        "En invoquant des données suffisantes, la réponse déterministe distingue l’imprévisibilité actuelle de l’impossibilité de prévoir en principe.",
+        "Ne pas savoir prévoir ne prouve pas l’absence de nécessité ; Bergson maintient néanmoins que cet acte « semble écarter absolument » le calcul et la prévision.",
+        "L’image d’une Lune capable de choisir une « farce » à l’astronome déplace alors l’obstacle : l’imprévu viendrait d’un pouvoir d’initiative prêté à l’astre.",
+        "La « faculté de tromper la science » désigne ce pouvoir supposé de déjouer le calcul ; l’analogie le représente sans établir que le choix humain le possède effectivement."
+      ],
+      "fonctions": [
+        "Présenter la réponse déterministe par la suffisance des données",
+        "Distinguer une limite du savoir de la nécessité et conserver le statut d’apparence",
+        "Expliquer le pouvoir supposé de décision dans l’image lunaire",
+        "Définir la faculté de tromper et limiter la portée de l’analogie"
+      ],
+      "raison": "Remplacer une réserve triviale sur la liberté réelle de la Lune par le problème de la valeur probante pour le choix humain ; garder le si final.",
+      "statut": "applique_dans_branche_de_travail_en_attente_du_reaudit_final"
+    },
+    {
+      "sujet": "levi-strauss-2023-metropole",
+      "ancien": "La dernière phrase rassemble ces deux dimensions : chaque élément est un « opérateur », c’est-à-dire un moyen d’effectuer certaines transformations.",
+      "nouveau": "La dernière phrase rassemble ces deux dimensions : les éléments sont des « opérateurs », c’est-à-dire des moyens d’effectuer certaines transformations.",
+      "fonction": "Expliquer le mot opérateur par les transformations que permet un élément",
+      "raison": "Conserver le pluriel exact « opérateurs » attesté dans la transcription, au lieu de citer le mot sous une forme adaptée.",
+      "statut": "etat_de_travail_local_a_examiner_avant_modification_GitHub"
+    }
+  ],
+  "exercices": [
+    {
+      "repere": "weil-2024-metropole.stages.4.hint",
+      "ancien": "Reliez l’expérience du temps aux analyses qui la précèdent.",
+      "nouveau": "Distinguez ce que vit l’ouvrier, ce que les autres entendent et ce qu’ils comprennent.",
+      "raison": "Aligner les aides et comparaisons sur la correction du modèle et le support archivé."
+    },
+    {
+      "repere": "weil-2024-metropole.stages.4.expected",
+      "ancien": "La plainte exprime une durée subie. Elle résume la réduction de l’horizon et l’épuisement intérieur. Elle paraît banale de l’extérieur. La lecture du texte permet d’en comprendre la gravité.",
+      "nouveau": "La plainte exprime une durée subie, liée aux effets décrits sur la pensée. Elle n’atteint pas les personnes étrangères à cette condition. Même entendue, elle ne leur ferait pas comprendre l’expérience ouvrière. L’analyse de Weil rend à cette formule ordinaire sa portée.",
+      "raison": "Aligner les aides et comparaisons sur la correction du modèle et le support archivé."
+    },
+    {
+      "repere": "weil-2024-metropole.drills.0.expected",
+      "ancien": "Elle résout une contradiction apparente : l’esprit peut être envahi par une obsession tout en perdant sa capacité de réflexion. Sans cette distinction, l’occupation de l’âme et l’extinction de la conscience paraîtraient incompatibles, au lieu de constituer deux effets liés de l’obsession.",
+      "nouveau": "Elle distingue l’occupation par des motifs obsédants et la capacité de réfléchir. Sans cette distinction, la coexistence d’une âme occupée et d’une conscience affaiblie paraîtrait contradictoire, alors que le texte décrit simultanément ces deux effets du travail.",
+      "raison": "Aligner les aides et comparaisons sur la correction du modèle et le support archivé."
+    },
+    {
+      "repere": "levi-strauss-2023-metropole.stages.4.hint",
+      "ancien": "Distinguez ce que l’élément est déjà et les rapports dans lesquels il pourrait entrer.",
+      "nouveau": "Distinguez les rapports déjà déterminés et les agencements encore possibles ; précisez ce qui limite ces possibilités.",
+      "raison": "Aligner les aides et comparaisons sur la correction du modèle et le support archivé."
+    },
+    {
+      "repere": "levi-strauss-2023-metropole.stages.4.expected",
+      "ancien": "L’objet possède des propriétés concrètes. Elles ouvrent des usages encore virtuels. Ces usages appartiennent à certaines familles de transformations. L’invention combine des possibilités limitées.",
+      "nouveau": "Les éléments représentent des rapports déjà déterminés et des rapports encore possibles. Leurs propriétés permettent certains agencements avec d’autres éléments. Ces possibilités restent limitées à un type d’opérations. Le bricoleur peut donc inventer plusieurs emplois, à l’intérieur de ces limites.",
+      "raison": "Aligner les aides et comparaisons sur la correction du modèle et le support archivé."
+    }
+  ],
+  "statut_general": "Révisions examinées sur les transcriptions archivées et sur leur cohérence interne ; publication demandée, sans certification des PDF primaires non consultés.",
+  "murdoch_reperes": [
+    {
+      "ancien": "Cette réserve ne réfute pas la thèse, car elle porte sur l’usage du savoir, non sur les vertus requises pour bien chercher.",
+      "nouveau": "Ces réserves invitent à examiner séparément les vertus d’une étude bien conduite, l’usage de ses résultats et le choix de ce qu’on recherche.",
+      "portee": "Cohérence interne des repères ; extrait primaire à consulter."
+    },
+    {
+      "ancien": "Réponse à la concession : expliciter pourquoi elle ne détruit pas l’argument.",
+      "nouveau": "Distinguer les questions soulevées par les réserves avant d’en mesurer la portée.",
+      "portee": "Cohérence interne des repères ; extrait primaire à consulter."
+    },
+    {
+      "ancien": "« La science doit-elle être utile ? » (bac 2026) : la science n’a pas besoin d’être utile pour être bonne ; sa pratique même forme l’attention, l’humilité et l’honnêteté.",
+      "nouveau": "« La science doit-elle être utile ? » (bac 2026) : apprendre et chercher, lorsqu’ils sont bien pratiqués, forment l’attention, l’humilité et l’honnêteté. Cet argument demande de distinguer la valeur de cette pratique, l’usage de ses résultats et la responsabilité du choix du domaine étudié.",
+      "portee": "Cohérence interne des repères ; extrait primaire à consulter."
+    }
+  ]
+}

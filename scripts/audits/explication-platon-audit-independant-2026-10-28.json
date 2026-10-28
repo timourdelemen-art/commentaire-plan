@@ -1,0 +1,884 @@
+{
+  "date": "2026-10-28",
+  "audit": "second audit indépendant Platon 2025 Polynésie ; réparations réauditées",
+  "perimetre": "Copie proposée uniquement ; aucune modification du HTML, des sources du site ou de GitHub.",
+  "source": {
+    "statut": "PDF officiel fourni par le propriétaire, lu et collationné ; le statut documentaire indéterminé antérieur est levé pour ce passage seulement.",
+    "code": "25-PHGEPO1",
+    "pages": "2–3 de la version agrandie",
+    "auteur": "Platon",
+    "oeuvre": "Les Lois",
+    "traduction_edition": "Non précisées par le PDF ; aucune attribution ajoutée.",
+    "contexte_initial": "Le Mais initial renvoie à un contexte non fourni ; aucune reconstruction.",
+    "identifiants": "S1–S7 et C01–C31 éditoriaux. C24 supprimée ; 30 phrases actuelles."
+  },
+  "verdict": {
+    "comprehension": "Recevable : aucun contresens central, maillon décisif omis, citation fausse ou doctrine importée relevé.",
+    "reparations_sens": "Six réparations ponctuelles contrôlées et recevables.",
+    "densite": "Améliorations facultatives de fusion ; pas de retour requis à une reconstruction générale.",
+    "annotation": "Fonction et source présentes dans la proposition ; registre d’audit enrichi phrase par phrase ci-dessous. Le JSON proposé ne porte pas à lui seul tous les champs séparés de 9.1.",
+    "publication": "Non examinée ni autorisée par cet audit."
+  },
+  "couverture": [
+    {
+      "source": "S1",
+      "copies": [
+        "C01",
+        "C02",
+        "C06",
+        "C07",
+        "C08",
+        "C09"
+      ],
+      "constat": "Indulgence, enracinement, fréquence, absence de correction et excuse du naturel expliqués. Le superlatif est maintenant relié à la portée causale de S2. Le Mais initial demeure sans contexte inventé."
+    },
+    {
+      "source": "S2",
+      "copies": [
+        "C03",
+        "C08",
+        "C09",
+        "C13"
+      ],
+      "constat": "Chacune et en toute occasion conservés. Absence d’exclusivité signalée sans affaiblir la causalité universelle attribuée. C13 distingue mécanisme et force générale de la thèse."
+    },
+    {
+      "source": "S3",
+      "copies": [
+        "C10",
+        "C11",
+        "C12"
+      ],
+      "constat": "Prémisse sur l’amour appliquée à soi ; substitution de l’intérêt au vrai ; juste/bon/beau maintenus. Deux phrases peuvent fusionner sans perdre la chaîne."
+    },
+    {
+      "source": "S4",
+      "copies": [
+        "C14",
+        "C15",
+        "C16",
+        "C17",
+        "C18"
+      ],
+      "constat": "Remède moral, sens local de grandeur et indépendance à l’égard de l’auteur expliqués. Le test d’une action également juste est identifié comme illustration du commentateur. Ou plutôt peut être souligné comme le cas le plus exigeant, sans en déduire une préférence générale pour autrui."
+    },
+    {
+      "source": "S5",
+      "copies": [
+        "C19"
+      ],
+      "constat": "Cette même erreur et aussi assurent la continuité ; le diagnostic n’est pas ramené à un second vice sans rapport avec la préférence."
+    },
+    {
+      "source": "S6",
+      "copies": [
+        "C20",
+        "C21",
+        "C22",
+        "C23"
+      ],
+      "constat": "Restriction pour ainsi dire, présomption de tout savoir, refus de laisser faire et reprise par soi dépliés. Forcément conserve une nécessité pratique attribuée à Platon."
+    },
+    {
+      "source": "S7",
+      "copies": [
+        "C25",
+        "C26",
+        "C27",
+        "C28",
+        "C29",
+        "C31"
+      ],
+      "constat": "Aussi, excès, recherche toujours, meilleur et honte comme abri expliqués. Le texte ne devient ni un éloge du premier venu ni une injonction à ne plus éprouver de honte."
+    }
+  ],
+  "constats_reparations_et_options": [
+    {
+      "id": "P-01",
+      "priorite": "reparation_reauditee",
+      "segments": [
+        "C31"
+      ],
+      "avant": "reconnaître sans honte quelqu’un de meilleur",
+      "probleme": "Cette formulation pouvait effacer la différence entre éprouver la honte et s’en servir pour refuser de reconnaître meilleur que soi.",
+      "preuve": "S7 : sans s’abriter en pareille occasion derrière aucun sentiment de honte.",
+      "reparation_actuelle": "reconnaître quelqu’un de meilleur sans se servir de la honte pour s’y refuser",
+      "verdict": "Résolu ; C29 et C31 concordent désormais."
+    },
+    {
+      "id": "P-02",
+      "priorite": "reparation_reauditee",
+      "segments": [
+        "C13"
+      ],
+      "avant": "thèse générale, très forte",
+      "probleme": "Très forte évaluait la thèse sans préciser une raison ; l’audit des limites risquait de remplacer le suivi de l’argument.",
+      "reparation_actuelle": "Ce mécanisme explique pourquoi l’indulgence peut engendrer des fautes ; sa présence dans chacune d’elles reste la thèse générale que Platon soutient ici.",
+      "verdict": "Recevable. La distinction mécanisme/généralité est textuelle ; elle ne lance aucun débat autonome. Phrase conservable, mais nul besoin de lui ajouter d’autres réserves."
+    },
+    {
+      "id": "P-03",
+      "priorite": "reparation_reauditee",
+      "segments": [
+        "C24_supprimee"
+      ],
+      "avant": "Il ne détaille pas chaque erreur possible : il montre pourquoi celui qui s’attribue le savoir se prive du moyen de corriger son incapacité.",
+      "probleme": "La première proposition constatait une absence sans intérêt explicatif ici ; la seconde répétait C21–C23.",
+      "reparation_actuelle": "Phrase supprimée.",
+      "verdict": "Résolu. Aucun maillon perdu entre C23 et C25."
+    },
+    {
+      "id": "P-04",
+      "priorite": "reparation_reauditee",
+      "segments": [
+        "C26"
+      ],
+      "avant": "ne suffit pas non plus à définir une doctrine de l’amour de soi modéré",
+      "probleme": "La réserve doctrinale était utile au dossier de lecture mais son développement dans la copie détournait l’attention de la prescription attestée.",
+      "reparation_actuelle": "C’est l’excès d’amour de soi qu’il faut fuir : le remède n’ordonne donc pas de se haïr.",
+      "verdict": "Résolu. Le seul contraste excès/haine de soi éclaire le mot excessif."
+    },
+    {
+      "id": "P-05",
+      "priorite": "reparation_reauditee",
+      "segments": [
+        "C09"
+      ],
+      "probleme": "La version soumise expliquait la généralité S2 sans la relier au superlatif de S1.",
+      "preuve": "S1 plus grave que tous les autres ; S2 chacune de nos fautes, en toute occasion.",
+      "reparation_actuelle": "Ce mal est donc dit « plus grave que tous les autres » en raison de sa portée : Platon attribue « chacune de nos fautes », « en toute occasion », à cet excès, sans en faire leur cause unique.",
+      "verdict": "Sens résolu. Le lien est une reconstruction contextuelle justifiée, non un connecteur causal cité de S1."
+    },
+    {
+      "id": "P-06",
+      "priorite": "reparation_reauditee",
+      "segments": [
+        "C27"
+      ],
+      "probleme": "La recherche de meilleur était formulée sans son caractère permanent.",
+      "preuve": "S7 rechercher toujours quelqu’un qui soit meilleur.",
+      "reparation_actuelle": "Rechercher toujours quelqu’un de « meilleur » inverse le refus précédent : il faut reconnaître une supériorité qui permette de sortir de sa propre insuffisance, plutôt que réserver d’avance tout mérite à soi.",
+      "verdict": "Résolu par toujours, sans phrase supplémentaire."
+    },
+    {
+      "id": "D-01",
+      "priorite": "facultatif_densite",
+      "segments": [
+        "C11",
+        "C12"
+      ],
+      "probleme": "L’appréciation intéressée est expliquée deux fois ; les objets juste/bon/beau n’apportent pas un second mécanisme.",
+      "proposition": "Cet aveuglement ne supprime pas le jugement sur le juste, le bon et le beau : il le fausse en substituant l’intérêt personnel au vrai comme critère d’estime.",
+      "limite": "Garder les trois objets du jugement et le vrai comme critère, même en fusionnant. La version actuelle reste exacte."
+    },
+    {
+      "id": "D-02",
+      "priorite": "facultatif_densite",
+      "segments": [
+        "C16",
+        "C17",
+        "C18"
+      ],
+      "probleme": "Le même critère apparaît comme principe, comparaison puis mise en garde. Le test est utile ; trois formulations ne sont pas toutes indispensables.",
+      "proposition": "Fusion possible en conservant le cas de l’action d’autrui, le cas de sa propre action et la justice comme seul critère. La précision ou plutôt peut signaler le cas qui résiste le plus à l’indulgence envers soi.",
+      "limite": "Ne pas supprimer le test pour ne garder qu’une maxime d’impartialité. Aucun nombre obligatoire de phrases."
+    },
+    {
+      "id": "D-03",
+      "priorite": "facultatif_precision_et_densite",
+      "segments": [
+        "C27",
+        "C28"
+      ],
+      "probleme": "Supériorité et mérite réel restent génériques alors que le contexte distingue jugement juste et savoir-faire ; le contraste autre/meilleur peut être exprimé en une seule progression.",
+      "proposition": "Rechercher toujours quelqu’un de « meilleur » inverse le refus de laisser faire : il faut faire place à un jugement plus juste ou à un savoir-faire supérieur au sien, plutôt que se préférer d’avance.",
+      "limite": "C’est une interprétation contextuelle de S4/S6, pas une définition exhaustive donnée par Platon. La version actuelle n’impose aucune autorité arbitraire."
+    }
+  ],
+  "citations_controlees": [
+    {
+      "copie": "C06",
+      "citation": " implanté ",
+      "retrouvee_exactement_espaces_normalises": true,
+      "phrases_source": [
+        "S1"
+      ]
+    },
+    {
+      "copie": "C08",
+      "citation": " Oui, mais ",
+      "retrouvee_exactement_espaces_normalises": true,
+      "phrases_source": [
+        "S2"
+      ]
+    },
+    {
+      "copie": "C09",
+      "citation": " plus grave que tous les autres ",
+      "retrouvee_exactement_espaces_normalises": true,
+      "phrases_source": [
+        "S1"
+      ]
+    },
+    {
+      "copie": "C09",
+      "citation": " chacune de nos fautes ",
+      "retrouvee_exactement_espaces_normalises": true,
+      "phrases_source": [
+        "S2"
+      ]
+    },
+    {
+      "copie": "C09",
+      "citation": " en toute occasion ",
+      "retrouvee_exactement_espaces_normalises": true,
+      "phrases_source": [
+        "S2"
+      ]
+    },
+    {
+      "copie": "C10",
+      "citation": " Car ",
+      "retrouvee_exactement_espaces_normalises": true,
+      "phrases_source": [
+        "S3"
+      ]
+    },
+    {
+      "copie": "C15",
+      "citation": " grand homme ",
+      "retrouvee_exactement_espaces_normalises": true,
+      "phrases_source": [
+        "S4"
+      ]
+    },
+    {
+      "copie": "C16",
+      "citation": " que l’action juste soit la sienne ou plutôt celle d’autrui ",
+      "retrouvee_exactement_espaces_normalises": true,
+      "phrases_source": [
+        "S4"
+      ]
+    },
+    {
+      "copie": "C19",
+      "citation": " cette même erreur ",
+      "retrouvee_exactement_espaces_normalises": true,
+      "phrases_source": [
+        "S5"
+      ]
+    },
+    {
+      "copie": "C20",
+      "citation": " pour ainsi dire rien ",
+      "retrouvee_exactement_espaces_normalises": true,
+      "phrases_source": [
+        "S6"
+      ]
+    },
+    {
+      "copie": "C20",
+      "citation": " tout savoir ",
+      "retrouvee_exactement_espaces_normalises": true,
+      "phrases_source": [
+        "S6"
+      ]
+    },
+    {
+      "copie": "C23",
+      "citation": " forcément ",
+      "retrouvee_exactement_espaces_normalises": true,
+      "phrases_source": [
+        "S6"
+      ]
+    },
+    {
+      "copie": "C25",
+      "citation": " Aussi ",
+      "retrouvee_exactement_espaces_normalises": true,
+      "phrases_source": [
+        "S7"
+      ]
+    },
+    {
+      "copie": "C27",
+      "citation": " meilleur ",
+      "retrouvee_exactement_espaces_normalises": true,
+      "phrases_source": [
+        "S7"
+      ]
+    }
+  ],
+  "registre_phrase_par_phrase": [
+    {
+      "id": "C01",
+      "position_copie": 1,
+      "section_index": 0,
+      "phrase_index": 0,
+      "section": "Introduction",
+      "texte": "Dans cet extrait des Lois, Platon examine l’indulgence envers soi et les erreurs qu’elle fait commettre.",
+      "fonction_operateur": "Présenter l’objet précis",
+      "ancrage_operateur": "S1–S2",
+      "operation_audit": "Délimiter l’objet",
+      "ancrage_audit": "S1",
+      "preuve_courte": "indulgence",
+      "justification": "Objet du passage, sans contexte reconstruit.",
+      "statut_inference": "direct",
+      "lien_suivant": {
+        "id": "C02",
+        "operation": "Transformer l’excuse rapportée en difficulté"
+      }
+    },
+    {
+      "id": "C02",
+      "position_copie": 2,
+      "section_index": 0,
+      "phrase_index": 1,
+      "section": "Introduction",
+      "texte": "Nous tenons volontiers cet attachement pour naturel : pourquoi faudrait-il combattre ce qui paraît appartenir à notre nature ?",
+      "fonction_operateur": "Faire apparaître la difficulté de la justification par le naturel",
+      "ancrage_operateur": "S1",
+      "operation_audit": "Transformer l’excuse rapportée en difficulté",
+      "ancrage_audit": "S1",
+      "preuve_courte": "naturelle à tout homme",
+      "justification": "Une disposition jugée naturelle paraît ne pas appeler de correction ; ce statut fait problème au regard du mal annoncé.",
+      "statut_inference": "reconstruction",
+      "lien_suivant": {
+        "id": "C03",
+        "operation": "Énoncer la thèse et ses deux applications"
+      }
+    },
+    {
+      "id": "C03",
+      "position_copie": 3,
+      "section_index": 0,
+      "phrase_index": 2,
+      "section": "Introduction",
+      "texte": "Platon soutient que chacune de nos fautes a pour cause un excès d’amour de soi : en nous préférant au vrai, nous faussons aussi bien notre jugement sur les actions que l’évaluation de notre savoir.",
+      "fonction_operateur": "Énoncer la thèse et son mécanisme, sans atténuer sa généralité",
+      "ancrage_operateur": "S2–S6",
+      "operation_audit": "Énoncer la thèse et ses deux applications",
+      "ancrage_audit": "S2–S6",
+      "preuve_courte": "chacune de nos fautes",
+      "justification": "La généralité causale est attribuée à Platon ; jugement moral et estimation du savoir correspondent aux deux développements.",
+      "statut_inference": "synthese",
+      "lien_suivant": {
+        "id": "C04",
+        "operation": "Identifier l’enjeu"
+      }
+    },
+    {
+      "id": "C04",
+      "position_copie": 4,
+      "section_index": 0,
+      "phrase_index": 3,
+      "section": "Introduction",
+      "texte": "L’enjeu est de pouvoir reconnaître ce qui vaut, même lorsque cette reconnaissance contrarie l’estime que nous avons de nous-mêmes.",
+      "fonction_operateur": "Dégager l’enjeu commun aux deux domaines",
+      "ancrage_operateur": "S3–S7",
+      "operation_audit": "Identifier l’enjeu",
+      "ancrage_audit": "S3–S7",
+      "preuve_courte": "son intérêt doit toujours mériter plus d’estime que le vrai",
+      "justification": "Reconnaître une valeur qui ne se mesure pas à l’avantage personnel.",
+      "statut_inference": "reconstruction",
+      "lien_suivant": {
+        "id": "C05",
+        "operation": "Annoncer les mouvements réels"
+      }
+    },
+    {
+      "id": "C05",
+      "position_copie": 5,
+      "section_index": 0,
+      "phrase_index": 4,
+      "section": "Introduction",
+      "texte": "Le texte explique d’abord l’aveuglement, lui oppose le juste comme critère, étend le diagnostic à la prétention de savoir, puis prescrit de rechercher quelqu’un de meilleur que soi.",
+      "fonction_operateur": "Annoncer les quatre mouvements effectifs",
+      "ancrage_operateur": "S1–S7",
+      "operation_audit": "Annoncer les mouvements réels",
+      "ancrage_audit": "S1–S7",
+      "preuve_courte": "Car / Ce n’est en effet / Or / Aussi",
+      "justification": "Respecte l’ordre du critère juste avant l’extension à l’ignorance.",
+      "statut_inference": "synthese",
+      "lien_suivant": {
+        "id": "C06",
+        "operation": "Élucider enracinement et extension"
+      }
+    },
+    {
+      "id": "C06",
+      "position_copie": 6,
+      "section_index": 1,
+      "phrase_index": 0,
+      "section": "L’indulgence naturelle mise en accusation",
+      "texte": "Le mal est dit « implanté » dans l’âme de la plupart des hommes : Platon vise une disposition enracinée et largement partagée, non une faute exceptionnelle.",
+      "fonction_operateur": "Préciser l’extension et le caractère du mal",
+      "ancrage_operateur": "S1",
+      "operation_audit": "Élucider enracinement et extension",
+      "ancrage_audit": "S1",
+      "preuve_courte": "implanté / la plupart",
+      "justification": "La disposition est répandue ; la plupart n’est pas remplacé par tous dans ce diagnostic initial.",
+      "statut_inference": "direct",
+      "lien_suivant": {
+        "id": "C07",
+        "operation": "Reconstruire la fonction protectrice de l’excuse"
+      }
+    },
+    {
+      "id": "C07",
+      "position_copie": 7,
+      "section_index": 1,
+      "phrase_index": 1,
+      "section": "L’indulgence naturelle mise en accusation",
+      "texte": "Cette indulgence se protège elle-même de la correction : personne ne cherche à lui échapper, puisqu’on la présente comme naturelle et conforme à l’ordre des choses.",
+      "fonction_operateur": "Reconstruire le rôle de l’excuse rapportée",
+      "ancrage_operateur": "S1",
+      "operation_audit": "Reconstruire la fonction protectrice de l’excuse",
+      "ancrage_audit": "S1",
+      "preuve_courte": "personne ne prend les moyens d’échapper / naturelle",
+      "justification": "Le lien causal formulé par puisque est explicatif, non cité comme un connecteur du texte.",
+      "statut_inference": "reconstruction",
+      "lien_suivant": {
+        "id": "C08",
+        "operation": "Distinguer nature et justification normative"
+      }
+    },
+    {
+      "id": "C08",
+      "position_copie": 8,
+      "section_index": 1,
+      "phrase_index": 2,
+      "section": "L’indulgence naturelle mise en accusation",
+      "texte": "Le « Oui, mais » refuse cette justification : qu’une disposition soit ordinaire ne prouve pas qu’elle soit bonne ni qu’il faille la conserver.",
+      "fonction_operateur": "Distinguer le constat du naturel de sa justification",
+      "ancrage_operateur": "S1–S2",
+      "operation_audit": "Distinguer nature et justification normative",
+      "ancrage_audit": "S1–S2",
+      "preuve_courte": "Oui, mais en réalité",
+      "justification": "La réplique retire à la naturalité sa fonction d’excuse ; elle ne nie pas expressément cette naturalité.",
+      "statut_inference": "reconstruction",
+      "lien_suivant": {
+        "id": "C09",
+        "operation": "Relier le superlatif à la généralité causale"
+      }
+    },
+    {
+      "id": "C09",
+      "position_copie": 9,
+      "section_index": 1,
+      "phrase_index": 3,
+      "section": "L’indulgence naturelle mise en accusation",
+      "texte": "Ce mal est donc dit « plus grave que tous les autres » en raison de sa portée : Platon attribue « chacune de nos fautes », « en toute occasion », à cet excès, sans en faire leur cause unique.",
+      "fonction_operateur": "Conserver les quantificateurs et la limite de l’attribution causale",
+      "ancrage_operateur": "S1–S2",
+      "operation_audit": "Relier le superlatif à la généralité causale",
+      "ancrage_audit": "S1–S2",
+      "preuve_courte": "plus grave que tous les autres / chacune / en toute occasion",
+      "justification": "La portée causale justifie contextuellement la gravité annoncée ; ni hasard ni causalité exclusive ajoutés.",
+      "statut_inference": "reconstruction",
+      "lien_suivant": {
+        "id": "C10",
+        "operation": "Appliquer à soi la prémisse générale sur l’amour"
+      }
+    },
+    {
+      "id": "C10",
+      "position_copie": 10,
+      "section_index": 1,
+      "phrase_index": 4,
+      "section": "L’indulgence naturelle mise en accusation",
+      "texte": "Le premier « Car » donne la raison : celui qui aime est aveugle à l’égard de l’objet aimé ; appliqué à soi, cet attachement empêche de s’évaluer impartialement.",
+      "fonction_operateur": "Expliquer l’application à soi de la prémisse sur l’amour",
+      "ancrage_operateur": "S3",
+      "operation_audit": "Appliquer à soi la prémisse générale sur l’amour",
+      "ancrage_audit": "S3",
+      "preuve_courte": "celui qui aime / aveuglement",
+      "justification": "L’objet aimé devient soi ; l’attachement compromet l’impartialité du jugement.",
+      "statut_inference": "reconstruction",
+      "lien_suivant": {
+        "id": "C11",
+        "operation": "Identifier le critère substitué au vrai"
+      }
+    },
+    {
+      "id": "C11",
+      "position_copie": 11,
+      "section_index": 1,
+      "phrase_index": 5,
+      "section": "L’indulgence naturelle mise en accusation",
+      "texte": "Cet aveuglement n’est pas une absence de jugement : l’homme juge, mais il place son intérêt au-dessus du vrai, de sorte qu’il approuve ce qui le favorise plutôt que ce qui le mérite.",
+      "fonction_operateur": "Reconstituer la substitution de critère",
+      "ancrage_operateur": "S3",
+      "operation_audit": "Identifier le critère substitué au vrai",
+      "ancrage_audit": "S3",
+      "preuve_courte": "son intérêt / plus d’estime que le vrai",
+      "justification": "L’aveuglement affecte un jugement qui subsiste ; l’avantage personnel en remplace le critère.",
+      "statut_inference": "reconstruction",
+      "lien_suivant": {
+        "id": "C12",
+        "operation": "Maintenir les trois objets de l’appréciation"
+      }
+    },
+    {
+      "id": "C12",
+      "position_copie": 12,
+      "section_index": 1,
+      "phrase_index": 6,
+      "section": "L’indulgence naturelle mise en accusation",
+      "texte": "Le juste, le bon et le beau deviennent ainsi les objets d’une appréciation intéressée : la préférence pour soi fausse ce que l’on estime devoir approuver.",
+      "fonction_operateur": "Expliquer les domaines atteints sans les réduire à l’utilité",
+      "ancrage_operateur": "S3",
+      "operation_audit": "Maintenir les trois objets de l’appréciation",
+      "ancrage_audit": "S3",
+      "preuve_courte": "juste, bon et beau",
+      "justification": "Vrai n’est pas substitué à bon dans l’énumération ; il est le critère sacrifié.",
+      "statut_inference": "direct",
+      "lien_suivant": {
+        "id": "C13",
+        "operation": "Distinguer intelligibilité du mécanisme et généralité soutenue"
+      }
+    },
+    {
+      "id": "C13",
+      "position_copie": 13,
+      "section_index": 1,
+      "phrase_index": 7,
+      "section": "L’indulgence naturelle mise en accusation",
+      "texte": "Ce mécanisme explique pourquoi l’indulgence peut engendrer des fautes ; sa présence dans chacune d’elles reste la thèse générale que Platon soutient ici.",
+      "fonction_operateur": "Distinguer le mécanisme expliqué de la généralité affirmée",
+      "ancrage_operateur": "S2–S3",
+      "operation_audit": "Distinguer intelligibilité du mécanisme et généralité soutenue",
+      "ancrage_audit": "S2–S3",
+      "preuve_courte": "chacune / Car",
+      "justification": "Le mécanisme rend intelligible la faute ; il n’est pas présenté par le commentaire comme une démonstration indépendante de tous les cas.",
+      "statut_inference": "discussion_locale",
+      "lien_suivant": {
+        "id": "C14",
+        "operation": "Passer du diagnostic au critère normatif"
+      }
+    },
+    {
+      "id": "C14",
+      "position_copie": 14,
+      "section_index": 2,
+      "phrase_index": 0,
+      "section": "Aimer le juste plutôt que sa propre supériorité",
+      "texte": "Un jugement ainsi faussé exige un autre critère : Platon oppose à la préférence pour soi l’obligation de chérir le juste.",
+      "fonction_operateur": "Rendre nécessaire la prescription morale",
+      "ancrage_operateur": "S3–S4",
+      "operation_audit": "Passer du diagnostic au critère normatif",
+      "ancrage_audit": "S3–S4",
+      "preuve_courte": "Ce n’est en effet / mais c’est le juste",
+      "justification": "La substitution d’intérêt exige un critère qui ne dépende pas de la préférence pour soi.",
+      "statut_inference": "reconstruction",
+      "lien_suivant": {
+        "id": "C15",
+        "operation": "Fixer localement le sens de grandeur"
+      }
+    },
+    {
+      "id": "C15",
+      "position_copie": 15,
+      "section_index": 2,
+      "phrase_index": 1,
+      "section": "Aimer le juste plutôt que sa propre supériorité",
+      "texte": "Être un « grand homme » ne consiste donc pas ici à s’attribuer une valeur supérieure, mais à reconnaître celle de l’action juste.",
+      "fonction_operateur": "Élucider la grandeur par le critère donné dans le passage",
+      "ancrage_operateur": "S4",
+      "operation_audit": "Fixer localement le sens de grandeur",
+      "ancrage_audit": "S4",
+      "preuve_courte": "si l’on veut être un grand homme",
+      "justification": "La grandeur est rapportée ici au juste, sans théorie sociale du prestige.",
+      "statut_inference": "reconstruction",
+      "lien_suivant": {
+        "id": "C16",
+        "operation": "Dissocier valeur de l’acte et identité de son auteur"
+      }
+    },
+    {
+      "id": "C16",
+      "position_copie": 16,
+      "section_index": 2,
+      "phrase_index": 2,
+      "section": "Aimer le juste plutôt que sa propre supériorité",
+      "texte": "La précision « que l’action juste soit la sienne ou plutôt celle d’autrui » soumet les deux personnes à la même exigence : l’identité de l’auteur ne décide pas de la valeur de l’acte.",
+      "fonction_operateur": "Reconstruire l’indépendance du critère à l’égard de la personne",
+      "ancrage_operateur": "S4",
+      "operation_audit": "Dissocier valeur de l’acte et identité de son auteur",
+      "ancrage_audit": "S4",
+      "preuve_courte": "que l’action juste soit la sienne ou plutôt celle d’autrui",
+      "justification": "La sienne reste comprise dans le critère ; autrui constitue le cas qui contrarie la préférence.",
+      "statut_inference": "reconstruction",
+      "lien_suivant": {
+        "id": "C17",
+        "operation": "Tester l’impartialité par une comparaison"
+      }
+    },
+    {
+      "id": "C17",
+      "position_copie": 17,
+      "section_index": 2,
+      "phrase_index": 3,
+      "section": "Aimer le juste plutôt que sa propre supériorité",
+      "texte": "Refuser à autrui l’estime qu’on s’accorderait pour une action également juste révélerait précisément la partialité dénoncée.",
+      "fonction_operateur": "Mettre le critère à l’épreuve d’une comparaison explicative",
+      "ancrage_operateur": "S3–S4",
+      "operation_audit": "Tester l’impartialité par une comparaison",
+      "ancrage_audit": "S3–S4",
+      "preuve_courte": "action juste / la sienne / celle d’autrui",
+      "justification": "L’égalité de justice rend l’identité de l’auteur non pertinente ; ce cas est une illustration du commentateur, non un exemple raconté par Platon.",
+      "statut_inference": "illustration_commentateur",
+      "lien_suivant": {
+        "id": "C18",
+        "operation": "Écarter la préférence inverse pour autrui"
+      }
+    },
+    {
+      "id": "C18",
+      "position_copie": 18,
+      "section_index": 2,
+      "phrase_index": 4,
+      "section": "Aimer le juste plutôt que sa propre supériorité",
+      "texte": "Il ne s’agit donc pas de préférer systématiquement autrui à soi : ma propre action mérite aussi d’être aimée lorsqu’elle est juste, mais parce qu’elle est juste, non parce qu’elle est mienne.",
+      "fonction_operateur": "Prévenir le contresens d’une préférence inverse pour toute action d’autrui",
+      "ancrage_operateur": "S4",
+      "operation_audit": "Écarter la préférence inverse pour autrui",
+      "ancrage_audit": "S4",
+      "preuve_courte": "que l’action juste soit la sienne",
+      "justification": "L’action propre ne perd pas sa valeur quand elle est juste ; le critère reste la justice.",
+      "statut_inference": "reconstruction",
+      "lien_suivant": {
+        "id": "C19",
+        "operation": "Étendre la même erreur au savoir"
+      }
+    },
+    {
+      "id": "C19",
+      "position_copie": 19,
+      "section_index": 3,
+      "phrase_index": 0,
+      "section": "De la présomption de savoir aux erreurs d’action",
+      "texte": "Avec « cette même erreur », Platon passe au savoir sans changer d’explication : la préférence pour soi conduit aussi à prendre son ignorance pour de la sagesse.",
+      "fonction_operateur": "Établir l’unité de l’extension intellectuelle",
+      "ancrage_operateur": "S5",
+      "operation_audit": "Étendre la même erreur au savoir",
+      "ancrage_audit": "S5",
+      "preuve_courte": "cette même erreur / aussi",
+      "justification": "Le déplacement de domaine ne change pas le principe de partialité.",
+      "statut_inference": "reconstruction",
+      "lien_suivant": {
+        "id": "C20",
+        "operation": "Opposer ignorance qualifiée et présomption totale"
+      }
+    },
+    {
+      "id": "C20",
+      "position_copie": 20,
+      "section_index": 3,
+      "phrase_index": 1,
+      "section": "De la présomption de savoir aux erreurs d’action",
+      "texte": "L’opposition entre ne savoir « pour ainsi dire rien » et estimer « tout savoir » mesure l’écart entre nos capacités et l’opinion avantageuse que nous en avons.",
+      "fonction_operateur": "Expliquer le contraste en conservant la restriction",
+      "ancrage_operateur": "S6",
+      "operation_audit": "Opposer ignorance qualifiée et présomption totale",
+      "ancrage_audit": "S6",
+      "preuve_courte": "pour ainsi dire rien / tout savoir",
+      "justification": "La qualification pour ainsi dire est conservée et ne devient pas une ignorance littéralement absolue.",
+      "statut_inference": "direct",
+      "lien_suivant": {
+        "id": "C21",
+        "operation": "Distinguer ignorance et refus de sa correction"
+      }
+    },
+    {
+      "id": "C21",
+      "position_copie": 21,
+      "section_index": 3,
+      "phrase_index": 2,
+      "section": "De la présomption de savoir aux erreurs d’action",
+      "texte": "L’ignorance n’est donc pas seule en cause : reconnue comme telle, elle permettrait de chercher une aide, tandis que la certitude de savoir rend cette aide apparemment inutile.",
+      "fonction_operateur": "Distinguer le manque de savoir de la présomption qui empêche sa correction",
+      "ancrage_operateur": "S5–S6",
+      "operation_audit": "Distinguer ignorance et refus de sa correction",
+      "ancrage_audit": "S5–S6",
+      "preuve_courte": "estimons tout savoir / ne laissons pas faire",
+      "justification": "Le conditionnel permettrait marque une reconstruction ; reconnaître un manque ouvre la recherche d’aide sans en garantir le succès.",
+      "statut_inference": "reconstruction_conditionnelle",
+      "lien_suivant": {
+        "id": "C22",
+        "operation": "Déplier le passage à l’action"
+      }
+    },
+    {
+      "id": "C22",
+      "position_copie": 22,
+      "section_index": 3,
+      "phrase_index": 3,
+      "section": "De la présomption de savoir aux erreurs d’action",
+      "texte": "Nous refusons alors de laisser faire aux autres ce que nous ne savons pas faire et nous l’entreprenons nous-mêmes : la fausse évaluation de soi commande une mauvaise répartition de l’action.",
+      "fonction_operateur": "Reconstruire le passage du jugement à la conduite",
+      "ancrage_operateur": "S6",
+      "operation_audit": "Déplier le passage à l’action",
+      "ancrage_audit": "S6",
+      "preuve_courte": "ne laissons pas faire aux autres / le faisant nous-mêmes",
+      "justification": "Présomption, refus de délégation, prise en charge par soi : la chaîne pratique est conservée.",
+      "statut_inference": "reconstruction",
+      "lien_suivant": {
+        "id": "C23",
+        "operation": "Circonscrire la nécessité affirmée"
+      }
+    },
+    {
+      "id": "C23",
+      "position_copie": 23,
+      "section_index": 3,
+      "phrase_index": 4,
+      "section": "De la présomption de savoir aux erreurs d’action",
+      "texte": "Le « forcément » porte sur cet enchaînement : Platon présente l’erreur pratique comme la conséquence du défaut de savoir joint au refus de recourir à autrui, non comme une fatalité à laquelle tout ignorant serait condamné.",
+      "fonction_operateur": "Préciser le mécanisme et la portée de la nécessité avancée par l’auteur",
+      "ancrage_operateur": "S6–S7",
+      "operation_audit": "Circonscrire la nécessité affirmée",
+      "ancrage_audit": "S6",
+      "preuve_courte": "parce que / forcément / le faisant nous-mêmes",
+      "justification": "Nécessité d’erreur pratique affirmée par Platon dans cet enchaînement, sans loi ajoutée condamnant tout ignorant indépendamment de sa conduite.",
+      "statut_inference": "reconstruction",
+      "lien_suivant": {
+        "id": "C25",
+        "operation": "Déduire le remède de la cause"
+      }
+    },
+    {
+      "id": "C25",
+      "position_copie": 24,
+      "section_index": 4,
+      "phrase_index": 0,
+      "section": "Rechercher meilleur que soi sans s’abriter derrière la honte",
+      "texte": "Le « Aussi » tire la conséquence du diagnostic : pour éviter ces fautes, il faut agir sur la préférence qui fausse le jugement, et non seulement acquérir davantage de connaissances.",
+      "fonction_operateur": "Déduire la nécessité du remède à partir de la cause",
+      "ancrage_operateur": "S2–S7",
+      "operation_audit": "Déduire le remède de la cause",
+      "ancrage_audit": "S2–S7",
+      "preuve_courte": "Aussi / fuir l’amour excessif",
+      "justification": "Si la préférence empêche la correction, l’accumulation de connaissances ne suffit pas comme remède indépendant.",
+      "statut_inference": "reconstruction",
+      "lien_suivant": {
+        "id": "C26",
+        "operation": "Distinguer correction de l’excès et haine de soi"
+      }
+    },
+    {
+      "id": "C26",
+      "position_copie": 25,
+      "section_index": 4,
+      "phrase_index": 1,
+      "section": "Rechercher meilleur que soi sans s’abriter derrière la honte",
+      "texte": "C’est l’excès d’amour de soi qu’il faut fuir : le remède n’ordonne donc pas de se haïr.",
+      "fonction_operateur": "Distinguer la correction de l’excès de la haine de soi",
+      "ancrage_operateur": "S7",
+      "operation_audit": "Distinguer correction de l’excès et haine de soi",
+      "ancrage_audit": "S7",
+      "preuve_courte": "amour excessif",
+      "justification": "Le texte prescrit de fuir l’excès ; aucune prescription de haine ni doctrine positive de l’amour modéré n’est ajoutée.",
+      "statut_inference": "reconstruction",
+      "lien_suivant": {
+        "id": "C27",
+        "operation": "Inverser le refus de laisser faire"
+      }
+    },
+    {
+      "id": "C27",
+      "position_copie": 26,
+      "section_index": 4,
+      "phrase_index": 2,
+      "section": "Rechercher meilleur que soi sans s’abriter derrière la honte",
+      "texte": "Rechercher toujours quelqu’un de « meilleur » inverse le refus précédent : il faut reconnaître une supériorité qui permette de sortir de sa propre insuffisance, plutôt que réserver d’avance tout mérite à soi.",
+      "fonction_operateur": "Montrer comment la prescription répond au refus de laisser faire",
+      "ancrage_operateur": "S4–S7",
+      "operation_audit": "Inverser le refus de laisser faire",
+      "ancrage_audit": "S4–S7",
+      "preuve_courte": "rechercher toujours / meilleur",
+      "justification": "Recherche permanente d’une supériorité pertinente pour sortir de l’insuffisance ; pas d’obéissance inconditionnelle inventée.",
+      "statut_inference": "reconstruction",
+      "lien_suivant": {
+        "id": "C28",
+        "operation": "Distinguer autrui et meilleur"
+      }
+    },
+    {
+      "id": "C28",
+      "position_copie": 27,
+      "section_index": 4,
+      "phrase_index": 3,
+      "section": "Rechercher meilleur que soi sans s’abriter derrière la honte",
+      "texte": "N’importe quel autre ne devient pas meilleur du seul fait qu’il est autre : la recommandation suppose de reconnaître un mérite réel, comme la justice d’une action ne dépendait pas de son auteur.",
+      "fonction_operateur": "Distinguer la recherche d’une supériorité du conformisme envers autrui",
+      "ancrage_operateur": "S4–S7",
+      "operation_audit": "Distinguer autrui et meilleur",
+      "ancrage_audit": "S4–S7",
+      "preuve_courte": "quelqu’un qui soit meilleur / le juste",
+      "justification": "L’altérité ne suffit pas ; le comparatif requiert un mérite réel. Le lien à S4 est interprétatif.",
+      "statut_inference": "reconstruction",
+      "lien_suivant": {
+        "id": "C29",
+        "operation": "Expliquer le rôle local de la honte"
+      }
+    },
+    {
+      "id": "C29",
+      "position_copie": 28,
+      "section_index": 4,
+      "phrase_index": 4,
+      "section": "Rechercher meilleur que soi sans s’abriter derrière la honte",
+      "texte": "Enfin, la honte ne doit pas servir d’abri : éviter l’aveu de son infériorité pour préserver son image reconduirait l’indulgence que le remède doit combattre.",
+      "fonction_operateur": "Expliquer le rôle local de la honte dans le maintien du défaut",
+      "ancrage_operateur": "S1–S7",
+      "operation_audit": "Expliquer le rôle local de la honte",
+      "ancrage_audit": "S1–S7",
+      "preuve_courte": "sans s’abriter en pareille occasion",
+      "justification": "Le souci de préserver son image sert d’excuse au refus de reconnaître meilleur que soi ; ni abolition générale de la honte ni humiliation exigée.",
+      "statut_inference": "reconstruction",
+      "lien_suivant": {
+        "id": "C30",
+        "operation": "Répondre par le mécanisme commun"
+      }
+    },
+    {
+      "id": "C30",
+      "position_copie": 29,
+      "section_index": 5,
+      "phrase_index": 0,
+      "section": "Conclusion",
+      "texte": "L’amour de soi devient donc un principe d’erreur lorsqu’il fait de notre intérêt le critère du mérite et de notre propre jugement la mesure du savoir.",
+      "fonction_operateur": "Répondre au problème par le mécanisme commun",
+      "ancrage_operateur": "S1–S6",
+      "operation_audit": "Répondre par le mécanisme commun",
+      "ancrage_audit": "S1–S6",
+      "preuve_courte": "son intérêt / estimons tout savoir",
+      "justification": "Rassemble les deux applications de la préférence ; la généralité de la thèse a déjà été attribuée en C03/C09.",
+      "statut_inference": "synthese",
+      "lien_suivant": {
+        "id": "C31",
+        "operation": "Récapituler les prescriptions et le gain"
+      }
+    },
+    {
+      "id": "C31",
+      "position_copie": 30,
+      "section_index": 5,
+      "phrase_index": 1,
+      "section": "Conclusion",
+      "texte": "Platon lui oppose deux gestes solidaires : estimer le juste indépendamment de celui qui agit et reconnaître quelqu’un de meilleur sans se servir de la honte pour s’y refuser, afin que la préférence pour soi ne ferme plus la possibilité de se corriger.",
+      "fonction_operateur": "Réunir les prescriptions et leur gain philosophique",
+      "ancrage_operateur": "S4–S7",
+      "operation_audit": "Récapituler les prescriptions et le gain",
+      "ancrage_audit": "S4–S7",
+      "preuve_courte": "le juste / meilleur / sans s’abriter",
+      "justification": "La honte n’est plus supprimée : seul son usage comme motif de refus est écarté.",
+      "statut_inference": "synthese",
+      "lien_suivant": null
+    }
+  ],
+  "proposition_sha256": "309f98d9c63980f1e349d2f0b636da25de0dcafaaca31b516c12bd8a036521ff",
+  "portee": "Audit indépendant du sens ; autorisation de publication distincte, donnée par le propriétaire dans la conversation. Pas de certification des autres textes.",
+  "concordance_identifiants": "L’auditeur garde C01–C31, C24 supprimée ; position_copie indexe les30phrases effectives. Le registre opérateur renumérote C01–C30. Le texte est identique."
+}

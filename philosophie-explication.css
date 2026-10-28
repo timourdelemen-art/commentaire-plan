@@ -65,3 +65,6 @@
 .ecrire .ecrire-copy .c20-section-heading{color:var(--red,#21624d);font-size:1rem;font-weight:750;letter-spacing:.035em;text-transform:uppercase;border-bottom:2px solid var(--red,#21624d);padding:.55rem 0;margin:1.7rem 0 .8rem;line-height:1.35}
 .ecrire .ecrire-copy .c20-section-heading:first-child{margin-top:.2rem}
 @media(max-width:700px){.ecrire .ecrire-copy .c20-section-heading{font-size:.92rem;margin-top:1.3rem}}
+
+/* Explications : garder lisible le mode de lecture sélectionné. */
+.ecrire .cm-bar button.cm-mode[aria-pressed="true"]{color:#204b36;background:#dceee4;}
