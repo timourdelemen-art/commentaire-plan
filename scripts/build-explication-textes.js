@@ -3,6 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 const data = require('./explication-textes-data.json');
+const justifications = require('./explication-justifications-data.json');
 // Les consignes restent distinctes des modèles, réservés par la PR éditoriale nº 187.
 const consignes = require('./explication-consignes-data.json');
 for (const [id, changes] of Object.entries(consignes)) {
@@ -27,6 +28,7 @@ function validate() {
   for (const s of data.subjects) {
     if (ids.has(s.id) || !/^[a-z-]+-20\d{2}-[a-z-]+$/.test(s.id) || !s.id.includes(`-${s.year}-`)) throw Error(`Identifiant : ${s.id}`);
     ids.add(s.id);
+    if(!justifications[s.id]||typeof justifications[s.id]!=='string')throw Error('Justification de comparaison absente : '+s.id);
     if (!/^https:\/\/(www\.education\.gouv\.fr|eduscol\.education\.gouv\.fr)\/sites\/default\/files\/document\//.test(s.source)) throw Error(`Source : ${s.id}`);
     if (s.stages.length !== 5 || s.choices.length !== 3 || !s.choices.some(c=>c[1]==='Solide')) throw Error(`Parcours : ${s.id}`);
     for (const c of s.choices) if (!['Solide','Défendable','À revoir'].includes(c[1]) || !c[2]) throw Error('Retour incomplet');
@@ -48,8 +50,8 @@ function shell(name, title, description, body) {
 ${name==='philosophie-explication.html'?'<link rel="stylesheet" href="navigation-etudes.css">':''}
 </head><body><header class="top"></header><main class="wrap ecrire${name==='philosophie-explication.html'?' etudes-page':''}">${body}</main><script src="philosophie-explication.js"></script><script src="site-nav.js"></script>${name==='philosophie-explication.html'?'<script src="navigation-etudes.js"></script>':''}</body></html>\n`;
 }
-function area(id, label, rows=5, exam=false) {
-  return `<label class="ecrire-label" for="${id}">${esc(label)}</label><textarea id="${id}" rows="${rows}" data-draft="${id}" data-feedback="off"${exam?' data-sans-dictee="true"':''}></textarea>`;
+function area(id, label, rows=5, exam=false, justification=false) {
+  return `<label class="ecrire-label" for="${id}">${esc(label)}</label><textarea id="${id}" rows="${rows}" data-draft="${id}" data-feedback="off"${exam?' data-sans-dictee="true"':''}${justification?' data-justification aria-describedby="'+id+'-save"':''}></textarea>`;
 }
 function model(s,m) {
   const technological=s.track==='technologique';
@@ -76,7 +78,9 @@ function page(s) {
 <div class="onglet" id="entrainement"><h2>Du texte à votre explication.</h2><nav class="ecrire-levels" aria-label="Niveaux d’écriture">${['Au clic','J’écris un peu','J’écris tout'].map((x,i)=>`<button type="button" data-level="${i+1}" aria-pressed="${i===0}"><b>Niveau ${i+1}</b><span>${x}</span></button>`).join('')}</nav>
 <p class="ecrire-storage" data-save-status role="status">Vos brouillons restent dans ce navigateur si l’enregistrement est disponible.</p>
 <section data-panel="1"><h3>Choisissez une thèse, puis justifiez votre lecture.</h3><p>Quelle formulation est la plus précise ?</p><div class="ecrire-choices">${s.choices.map(([text,status,reason],i)=>`<button type="button" data-choice="${i}" data-outcome="${esc(status)}" data-reason="${esc(reason)}" aria-pressed="false">${esc(text)}</button>`).join('')}</div><p data-choice-feedback role="status"></p>
-${area(`${id}-justification`,'Justifiez votre choix en une ou deux phrases avec un passage précis du texte.',3)}<p><button type="button" class="btn" data-goto-level="2">Écrire sans propositions →</button></p></section>
+${area(`${id}-justification`,'Justifiez votre choix en une ou deux phrases avec un passage précis du texte.',3,false,true)}
+<p class="ecrire-storage" id="${id}-justification-save" data-justification-save role="status"></p>
+<details class="ecrire-justification-comparison" data-justification-comparison><summary>Comparer ma justification</summary><p><strong>Une justification possible de la thèse la plus précise.</strong> ${esc(justifications[id])}</p><p class="micro">Vérifiez le passage utilisé et le lien avec la thèse, puis précisez votre réponse.</p></details><p><button type="button" class="btn" data-goto-level="2">Écrire sans propositions →</button></p></section>
 <section data-panel="2" hidden><h3>Cinq gestes pour expliquer.</h3><nav class="ecrire-stages" aria-label="Étapes de l’explication">${s.stages.map((_,i)=>`<button type="button" data-goto-step="${i}" aria-pressed="${i===0}">${i+1}</button>`).join('')}</nav>${stages}
 <div class="ecrire-actions"><button type="button" data-previous-step>← Étape précédente</button><button type="button" data-next-step>Étape suivante →</button><button type="button" data-goto-level="3">Rédiger toute l’explication →</button></div></section>
 <section data-panel="3" hidden><h3>Rédigez votre explication complète.</h3><p>Expliquez le texte de ${esc(s.author)} dans le sujet officiel. Gardez le PDF ouvert. Rédigez sans propositions ni étapes guidées.</p>${tech?'<p>Choisissez votre option et indiquez-la au début. Pour l’option n° 1, répondez aux huit questions officielles dans l’ordre ; pour l’option n° 2, organisez votre développement.</p>':''}${area(`${id}-copie`,'Votre explication complète',20,true)}<p><button type="button" class="btn" data-compare>Comparer après rédaction ↓</button></p></section>
