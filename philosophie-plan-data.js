@@ -63,7 +63,7 @@ niveau1: [
   "sujet": "Faut-il être inconscient pour être heureux ?",
   "notion": "Le bonheur",
   "v": 3,
-  "pb": "Faut-il être inconscient pour être heureux, si l’insouciance livre le bonheur aux dangers qu’elle ignore, et si la lucidité ne voit les menaces qu’en perdant le repos ?",
+  "pb": "Faut-il être inconscient pour être heureux, alors que l’ignorance d’un danger évite parfois la peur mais prive aussi des moyens de le prévenir ?",
   "annale": "faut-il-etre-inconscient-pour-etre-heureux",
   "etapes": [
     {
@@ -338,7 +338,7 @@ niveau1: [
   "sujet": "Peut-on être certain d’avoir bien agi ?",
   "notion": "Le devoir",
   "v": 3,
-  "pb": "Peut-on tirer la certitude d’avoir bien agi de son intention, aveugle aux effets de l’acte, ou de ses effets, qui livrent sa valeur au hasard ?",
+  "pb": "Peut-on être certain d’avoir bien agi, lorsque les raisons de notre choix peuvent être justifiées mais que nous ne connaissons pas toutes ses conséquences ?",
   "annale": "peut-on-etre-certain-d-avoir-bien-agi",
   "etapes": [
     {
@@ -888,7 +888,7 @@ niveau1: [
   "sujet": "L’artiste sait-il ce qu’il fait ?",
   "notion": "L’art",
   "v": 3,
-  "pb": "L’artiste maîtrise-t-il son œuvre comme un savoir-faire, qui ne laisse plus rien à inventer, ou l’invente-t-il à l’aveugle, sans plus en être l’auteur ?",
+  "pb": "L’artiste sait-il ce qu’il fait, si son savoir-faire rend l’œuvre possible mais qu’aucune règle ne détermine entièrement l’invention ?",
   "annale": "l-artiste-sait-il-ce-qu-il-fait",
   "etapes": [
     {
@@ -1163,7 +1163,7 @@ niveau1: [
   "sujet": "Avons-nous la maîtrise de nos paroles ?",
   "notion": "Le langage",
   "v": 3,
-  "pb": "Maîtriser ses paroles, est-ce ne plus dire que ce qu’on pensait déjà, et ne pas les maîtriser, est-ce cesser de pouvoir en répondre ?",
+  "pb": "Avons-nous la maîtrise de nos paroles, si nous pouvons choisir ce que nous disons sans fixer d’avance tout ce que l’autre entendra ou en fera ?",
   "annale": "avons-nous-la-maitrise-de-nos-paroles",
   "etapes": [
     {
@@ -1438,7 +1438,7 @@ niveau1: [
   "sujet": "Peut-on concevoir une humanité sans religion ?",
   "notion": "La religion",
   "v": 3,
-  "pb": "Une humanité qui ne croit que ce qu’elle prouve peut-elle encore relier les hommes, et une humanité unie par la foi peut-elle rester faite d’hommes qui jugent par eux-mêmes ?",
+  "pb": "Peut-on concevoir une humanité sans religion, alors que la religion a contribué à faire société sans que tout lien humain doive dépendre d’une foi ?",
   "annale": "peut-on-concevoir-une-humanite-sans-religion",
   "etapes": [
     {
@@ -1713,7 +1713,7 @@ niveau1: [
   "sujet": "La nature a-t-elle besoin de nous ?",
   "notion": "La nature",
   "v": 3,
-  "pb": "La nature se fait-elle sans nous, ce qui l’abandonne à nos destructions, ou dépend-elle de nos soins, ce qui en fait notre ouvrage ?",
+  "pb": "La nature a-t-elle besoin de nous, alors que ses processus ne nous doivent pas leur existence mais que nos actions peuvent désormais compromettre des formes déterminées de vie ?",
   "annale": "la-nature-a-t-elle-besoin-de-nous",
   "etapes": [
     {
@@ -1988,7 +1988,7 @@ niveau1: [
   "sujet": "Peut-on être heureux quand les autres ne le sont pas ?",
   "notion": "Le bonheur",
   "v": 3,
-  "pb": "Peut-on être heureux en fermant son bonheur au malheur des autres, qui cesse alors d’être humain, ou en l’y ouvrant, ce qui le rend impossible tant qu’il y a des malheureux ?",
+  "pb": "Peut-on être heureux quand les autres ne le sont pas, sans confondre la joie qui nous arrive avec l’indifférence à leur malheur ?",
   "annale": "peut-on-etre-heureux-quand-les-autres-ne-le-sont-pas",
   "etapes": [
     {
@@ -2263,7 +2263,7 @@ niveau1: [
   "sujet": "Revient-il principalement à l’État de lutter contre l’injustice ?",
   "notion": "L’État",
   "v": 3,
-  "pb": "Confier d’abord à l’État la lutte contre l’injustice, est-ce soustraire ses lois à tout jugement, et la confier d’abord aux citoyens, est-ce priver la justice de force commune ?",
+  "pb": "Revient-il principalement à l’État de lutter contre l’injustice, alors qu’il doit garantir des droits communs mais peut aussi être l’auteur d’une injustice ?",
   "annale": "revient-il-principalement-a-l-etat-de-lutter-contre-l-injustice",
   "etapes": [
     {
@@ -2540,7 +2540,7 @@ niveau2: [
   "sujet": "Sommes-nous prisonniers du langage ?",
   "notion": "Le langage",
   "v": 3,
-  "pb": "Nous dire prisonniers du langage suppose-t-il un point de vue hors de lui, et nous en dire libres, une pensée sans mots qui ne pourrait rien penser ?",
+  "pb": "Sommes-nous prisonniers du langage, lorsque les mots fixent des habitudes de pensée mais permettent aussi de les défaire et de les transformer ?",
   "annale": "sommes-nous-prisonniers-du-langage",
   "etapes": [
     {
