@@ -1036,7 +1036,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "L’apprentissage remplace une ignorance, une œuvre reprend une expérience : ces gains ne rendent pas ce qui est perdu, mais interdisent de tenir tout passage pour une pure ruine.",
+          "proposal": "Bergson permet l’opération décisive : le passé agit dans le présent, de sorte que certains effets de la durée sont des acquisitions, non des ruines.",
           "preserves": [
             "Faire passer toute chose",
             "Être la durée où les choses se font"
@@ -1064,21 +1064,21 @@
         }
       ],
       "selected": "retenue",
-      "comparison": "La distinction disparition/transformation rend compte des gains sans confondre mémoire et restitution, ni proclamer toute perte nécessaire au progrès.",
-      "strongestObjection": "Une création succède à une perte sans la compenser.",
-      "responseToObjection": "La copie distingue explicitement création et compensation ; donner sens sans justifier la perte devient sa question finale.",
+      "comparison": "Matrice candidate processualisation distinguant disparition d'état, mémoire agissante et pertes irréparables, opérateur nécessairement. La refonte des neuf opérations n'est pas encore une validation de la double aporie, ni des citations.",
+      "strongestObjection": "L'une des branches ou leur cumul peut être possible avant III : vérifier la racine, le meilleur cas et le présupposé commun.",
+      "responseToObjection": "Non démontré : sans inférences vérifiées, ne pas certifier V7.3.",
       "residual": "Reste qu’une transformation féconde ne compense pas nécessairement la perte singulière dont elle procède : une œuvre ne rend pas une personne morte.",
       "conclusionQuestion": "À quelles conditions ce que le temps permet de créer peut-il donner sens à une perte, sans prétendre la réparer ni la justifier ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 781
+        "words": 621
       },
       "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
+        "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "Relecture complète des problématiques et plans encore à faire selon la V7.3. Corrections localisées du28octobre : attribution non établie à Kant retirée ; attente/durée chez Bergson précisées sur traduction Arthur Mitchell1911 ; fait passé distingué de sa reprise. Ces corrections ne valident pas l’architecture générale."
+        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens."
       },
-      "copySha256": "8c1b734aecd741437909ac0bacbc76c7a1fcf113a6e10178fd4bb7f24fade79e",
+      "copySha256": "a3a4f82c3808c483ab0f21e11810ffb4d164376ff7235d0deaa330d30bdf4a4a",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -1089,9 +1089,10 @@
         "forme": "réciprocité",
         "problematique": "hors catalogue justifiée : alternative croisée à « alors que » (chaque branche nomme ce qu’exige l’autre)",
         "branchesIntroduction": "B2",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
+        "statut": "proposée / non validée",
         "cumul": "« Le temps crée, puis détruit » : sous le présupposé, toute création finit dans le néant ; l’alternance reconduit au oui, le temps est destructeur en dernier ressort. Le cumul est exclu.",
-        "meilleurCas": "La vie la plus féconde finit ; la rose la plus belle a fallu éclore. Les deux constats survivent."
+        "meilleurCas": "La vie la plus féconde finit ; la rose la plus belle a fallu éclore. Les deux constats survivent.",
+        "matriceCandidate": "processualisation distinguant disparition d'état, mémoire agissante et pertes irréparables, opérateur nécessairement"
       }
     },
     "notion-travail": {
@@ -1108,7 +1109,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Un travail forme lorsque l’agent peut comprendre un but, développer une capacité et participer au jugement sur ce qu’il fait.",
+          "proposal": "Simone Weil montre pourquoi la possibilité de comprendre les gestes, le rythme et leur fin change l’expérience de l’ouvrier. Le travail peut former lorsque l’agent conserve une part de jugement sur ses moyens.",
           "preserves": [
             "Former celui qui l’accomplit",
             "Le laisser maître de ce qu’il fait"
@@ -1136,21 +1137,21 @@
         }
       ],
       "selected": "retenue",
-      "comparison": "Les critères de compréhension, jugement et coopération permettent d’évaluer l’organisation réelle ; ils n’effacent pas les tâches qui demeurent pénibles.",
-      "strongestObjection": "Une tâche utile reste répétitive malgré une organisation plus juste.",
-      "responseToObjection": "Le pouvoir formateur n’est pas promis partout : la répartition des tâches nécessaires constitue le reste.",
+      "comparison": "Matrice candidate déplacement des propriétés supposées du travail vers l'organisation de l'activité et la reconnaissance de l'agent. La refonte des neuf opérations n'est pas encore une validation de la double aporie, ni des citations.",
+      "strongestObjection": "L'une des branches ou leur cumul peut être possible avant III : vérifier la racine, le meilleur cas et le présupposé commun.",
+      "responseToObjection": "Non démontré : sans inférences vérifiées, ne pas certifier V7.3.",
       "residual": "Reste qu’une société a besoin de tâches pénibles dont l’organisation peut réduire, mais pas toujours supprimer, la répétition et la fatigue.",
       "conclusionQuestion": "Comment partager les tâches nécessaires qui restent pénibles, sans réserver à certains le travail formateur et à d’autres sa seule contrainte ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 777
+        "words": 647
       },
       "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
+        "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
+        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens."
       },
-      "copySha256": "bcd6d177a31674814d3f114b5bb0c589236b2c70eef8dc0d935acd33d9f04e4c",
+      "copySha256": "fdb87954843f335eaebc059c4e4a15ea155eb37d1db97f44313f2d310b1fcbfb",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -1161,9 +1162,10 @@
         "forme": "réciprocité",
         "problematique": "P1",
         "branchesIntroduction": "B2",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
+        "statut": "proposée / non validée",
         "cumul": "« Le travail forme l’artisan, il aliène l’ouvrier » : sous le présupposé, l’effet appartient au travail comme tel ; un partage par sortes de travail ne s’explique pas (le menuisier et Charlot font tous deux un travail manuel). Le partage n’est intelligible qu’après la transformation : rapporter l’effet à l’organisation.",
-        "meilleurCas": "Le travail le plus libre reste une peine sous la contrainte du besoin ; le travail le plus contraint apprend encore quelque chose (Hegel). Les deux pertes survivent."
+        "meilleurCas": "Le travail le plus libre reste une peine sous la contrainte du besoin ; le travail le plus contraint apprend encore quelque chose (Hegel). Les deux pertes survivent.",
+        "matriceCandidate": "déplacement des propriétés supposées du travail vers l'organisation de l'activité et la reconnaissance de l'agent"
       }
     },
     "notion-verite": {
@@ -1180,7 +1182,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Le secret médical, la confidence d’un ami, la vie privée d’un tiers sont ainsi des vérités que l’on peut taire sans mentir.",
+          "proposal": "Constant permet de rapporter la communication aux droits du destinataire et des tiers : une information vraie n’est pas pour autant due à n’importe qui.",
           "preserves": [
             "Ne pas tromper",
             "Éclairer celui à qui l’on parle"
@@ -1208,21 +1210,21 @@
         }
       ],
       "selected": "retenue",
-      "comparison": "La distinction vérité/véracité/divulgation traite aussi bien le silence que la manière de dire ; elle évite de résoudre le sujet par le seul tact.",
-      "strongestObjection": "Protéger quelqu’un peut exiger de rompre un secret légitime.",
-      "responseToObjection": "Les droits entrent alors réellement en conflit ; la question finale porte sur la justification de cette rupture.",
+      "comparison": "Matrice candidate déplacement du contenu vrai vers l'acte de divulgation, en conservant la véracité. La refonte des neuf opérations n'est pas encore une validation de la double aporie, ni des citations.",
+      "strongestObjection": "L'une des branches ou leur cumul peut être possible avant III : vérifier la racine, le meilleur cas et le présupposé commun.",
+      "responseToObjection": "Non démontré : sans inférences vérifiées, ne pas certifier V7.3.",
       "residual": "Reste le conflit entre un secret légitime et une information nécessaire à la protection d’autrui : les deux exigences peuvent demeurer sérieuses.",
       "conclusionQuestion": "Quand protéger quelqu’un exige de rompre une confiance légitime, comment justifier ce que l’on révèle sans abolir le devoir de discrétion ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 732
+        "words": 654
       },
       "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
+        "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "Relecture complète des problématiques et plans encore à faire selon la V7.3. Corrections localisées du28octobre : attribution non établie à Kant retirée ; attente/durée chez Bergson précisées sur traduction Arthur Mitchell1911 ; fait passé distingué de sa reprise. Ces corrections ne valident pas l’architecture générale."
+        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens."
       },
-      "copySha256": "977c062417851d7a715eb93c5d318a560d165afd1002463ee8fdd9cedab7a39b",
+      "copySha256": "b6abfa948eae1866368a143815a6a789f5c230b177b16fca59c23e5b8c92d609",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -1233,9 +1235,10 @@
         "forme": "réciprocité",
         "problematique": "P2",
         "branchesIntroduction": "B4",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
+        "statut": "proposée / non validée",
         "cumul": "« Dire les vérités utiles, taire les blessantes » : sous le présupposé, taire, c’est manquer au devoir de vérité, et trier, c’est décider à la place de l’autre (seconde branche). Le cumul est exclu.",
-        "meilleurCas": "La franchise la plus sincère blesse encore sans éclairer (Alceste) ; le tact le plus bienveillant décide encore pour l’autre (Philinte)."
+        "meilleurCas": "La franchise la plus sincère blesse encore sans éclairer (Alceste) ; le tact le plus bienveillant décide encore pour l’autre (Philinte).",
+        "matriceCandidate": "déplacement du contenu vrai vers l'acte de divulgation, en conservant la véracité"
       }
     },
     "2025-me-verite": {
@@ -1252,7 +1255,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Expliquer les termes, reconstruire un raisonnement, répondre aux objections : c’est permettre à l’autre de reconnaître lui-même ce qui justifie l’affirmation.",
+          "proposal": "Dans les dialogues de Platon, la question et l’objection font du destinataire un participant à la recherche : convaincre rationnellement ne signifie pas seulement obtenir un effet psychologique.",
           "preserves": [
             "S’imposer par ses raisons",
             "Être reconnue par d’autres esprits"
@@ -1280,19 +1283,19 @@
         }
       ],
       "selected": "retenue",
-      "comparison": "L’appropriation par examen relie les plans au lieu de les juxtaposer, et distingue apprentissage et répétition persuasive.",
-      "strongestObjection": "Une preuve comprise peut rester refusée par intérêt.",
-      "responseToObjection": "Le refus de vérifier demeure une limite : le mécanisme n’est pas une garantie d’adhésion.",
+      "comparison": "Matrice candidate déplacement du critère de validité vers l'examen effectif et distinction du fait de convaincre. La refonte des neuf opérations n'est pas encore une validation de la double aporie, ni des citations.",
+      "strongestObjection": "L'une des branches ou leur cumul peut être possible avant III : vérifier la racine, le meilleur cas et le présupposé commun.",
+      "responseToObjection": "Non démontré : sans inférences vérifiées, ne pas certifier V7.3.",
       "residual": "Reste que l’interlocuteur peut refuser toute vérification : rendre la preuve accessible ne garantit pas qu’il acceptera de l’examiner.",
       "conclusionQuestion": "Lorsque toute vérification est refusée, comment défendre la vérité sans confondre la conviction rationnelle avec une adhésion imposée ?",
       "economy": {
         "principle": "Préserver raisons, objection et réponse avant de supprimer une phrase.",
-        "words": 625
+        "words": 586
       },
       "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
+        "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
+        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens."
       },
       "subjectVerification": {
         "code": "25-PHGEME1",
@@ -1301,7 +1304,7 @@
         "title": "La vérité est-elle toujours convaincante ?",
         "sourceDocument": "Document officiel de la session 2025, libellé contrôlé page 2 ; index ministériel lié dans la page."
       },
-      "copySha256": "9594594076a4032bc7ea4421aeea6745bb6fe0e966de248ded7719df3b3bd6da",
+      "copySha256": "7fca1940819cb6c984d37dc2c4a7a0de99d8be59549a971992f286de6e469656",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -1312,9 +1315,10 @@
         "forme": "réciprocité",
         "problematique": "P1",
         "branchesIntroduction": "B2",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
+        "statut": "proposée / non validée",
         "cumul": "« La preuve pour les esprits ouverts, l’art de plaire pour les autres » : sous le présupposé, ce que l’art de plaire obtient n’est pas une reconnaissance de la preuve. Le cumul reconduit à la seconde branche.",
-        "meilleurCas": "Le prisonnier revenu, qui dit vrai, n’est pas cru ; l’interlocuteur le mieux disposé peut être gagné par une flatterie."
+        "meilleurCas": "Le prisonnier revenu, qui dit vrai, n’est pas cru ; l’interlocuteur le mieux disposé peut être gagné par une flatterie.",
+        "matriceCandidate": "déplacement du critère de validité vers l'examen effectif et distinction du fait de convaincre"
       }
     },
     "2025-me-avenir-technique": {
@@ -1331,7 +1335,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Choisir l’avenir exige donc de juger aussi les moyens, et les dépendances qu’ils créent, au moment où on les adopte.",
+          "proposal": "Jonas, dans Le Principe responsabilité, fournit le critère temporel manquant : nos choix présents peuvent fixer des conséquences pour les générations qui ne décident pas encore.",
           "preserves": [
             "Être rendu possible par des moyens",
             "Rester le nôtre : choisi"
@@ -1359,19 +1363,19 @@
         }
       ],
       "selected": "retenue",
-      "comparison": "Le rapport réciproque permet de juger aussi la production des moyens ; il ne reporte pas tout choix après leur adoption.",
-      "strongestObjection": "Les conséquences peuvent rester imprévisibles.",
-      "responseToObjection": "Conserver des possibilités de correction réduit un coût sans le supprimer ; l’irréversibilité fonde la conclusion.",
+      "comparison": "Matrice candidate inversion du rapport moyens/fins avec rétroaction et responsabilité pour les effets durables. La refonte des neuf opérations n'est pas encore une validation de la double aporie, ni des citations.",
+      "strongestObjection": "L'une des branches ou leur cumul peut être possible avant III : vérifier la racine, le meilleur cas et le présupposé commun.",
+      "responseToObjection": "Non démontré : sans inférences vérifiées, ne pas certifier V7.3.",
       "residual": "Reste que certains choix deviennent irréversibles ou que leurs conséquences ne sont découvertes qu’après leur adoption : la possibilité de révision ne peut pas toujours être garantie.",
       "conclusionQuestion": "Comment décider ensemble lorsque les moyens qui promettent un avenir meilleur risquent de supprimer la possibilité de le choisir autrement ?",
       "economy": {
         "principle": "Préserver raisons, objection et réponse avant de supprimer une phrase.",
-        "words": 589
+        "words": 607
       },
       "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
+        "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
+        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens."
       },
       "subjectVerification": {
         "code": "25-PHGEME1",
@@ -1380,7 +1384,7 @@
         "title": "Notre avenir dépend-il de la technique ?",
         "sourceDocument": "Document officiel de la session 2025, libellé contrôlé page 2 ; index ministériel lié dans la page."
       },
-      "copySha256": "0fb17682c042bf1191b82141d1ef88e21a1235ea0483554beadae16521ec6cb5",
+      "copySha256": "e60cc19fa538f7b219106589058d534a592ccf2ba2f6550856d9032200e4277c",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -1391,9 +1395,10 @@
         "forme": "réciprocité",
         "problematique": "P1",
         "branchesIntroduction": "B3",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
+        "statut": "proposée / non validée",
         "cumul": "« La technique fournit les moyens, la politique choisit les fins » : c’est la réponse de la partie II ; sous le présupposé de moyens neutres, elle échoue, car les infrastructures pèsent déjà sur les choix suivants (II.3).",
-        "meilleurCas": "La délibération la plus démocratique choisit encore parmi ce que les moyens existants rendent pensable ; la technique la plus puissante ne fixe encore aucun usage."
+        "meilleurCas": "La délibération la plus démocratique choisit encore parmi ce que les moyens existants rendent pensable ; la technique la plus puissante ne fixe encore aucun usage.",
+        "matriceCandidate": "inversion du rapport moyens/fins avec rétroaction et responsabilité pour les effets durables"
       }
     },
     "2025-me-besoin-art": {
@@ -1410,7 +1415,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Il s’ensuit que l’art répond à ce besoin par des voies diverses, pratiques ordinaires comme œuvres élaborées, et qu’il faut en ouvrir l’accès sans en prescrire les objets.",
+          "proposal": "L’œuvre de Bergson aide à démontrer comment le détour par l’art transforme notre manière de voir, sans fournir un service identique à chacun.",
           "preserves": [
             "Répondre à un manque réel",
             "Rester l’affaire d’un goût libre"
@@ -1438,19 +1443,19 @@
         }
       ],
       "selected": "retenue",
-      "comparison": "Le besoin d’une possibilité maintient liberté et fonction sans rendre toute œuvre indispensable ; la frontière avec les autres pratiques reste assumée plutôt que supprimée.",
-      "strongestObjection": "Une conversation peut remplir la fonction de partage.",
-      "responseToObjection": "La copie n’assimile pas toute expression à l’art : sa contribution spécifique reste l’objet de la conclusion.",
+      "comparison": "Matrice candidate métamorphose du besoin d'objet déterminé en possibilité ouverte d'expérience esthétique. La refonte des neuf opérations n'est pas encore une validation de la double aporie, ni des citations.",
+      "strongestObjection": "L'une des branches ou leur cumul peut être possible avant III : vérifier la racine, le meilleur cas et le présupposé commun.",
+      "responseToObjection": "Non démontré : sans inférences vérifiées, ne pas certifier V7.3.",
       "residual": "Reste que le récit, le jeu ou la conversation peuvent aussi exprimer et partager une expérience : il faut encore préciser ce que l’art apporte que ces autres pratiques ne réalisent pas toujours.",
       "conclusionQuestion": "Qu’apporte une forme artistique à l’expression d’une expérience, que le récit ordinaire et la conversation ne peuvent pas toujours lui donner ?",
       "economy": {
         "principle": "Préserver raisons, objection et réponse avant de supprimer une phrase.",
-        "words": 586
+        "words": 543
       },
       "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
+        "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
+        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens."
       },
       "subjectVerification": {
         "code": "25-PHTEME1",
@@ -1459,7 +1464,7 @@
         "title": "Avons-nous besoin d’art ?",
         "sourceDocument": "Document officiel de la session 2025, libellé contrôlé page 2 ; index ministériel lié dans la page."
       },
-      "copySha256": "26422d750085e36fa4a40a3e3f13034035da87e71e8cc87b9609f082459b54f1",
+      "copySha256": "d385d32152a878b2fd9dfe6fdcf2cf60600fe3b7b75d398d0db34516df0ef8b1",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -1470,9 +1475,10 @@
         "forme": "condition renversée (faire de l’art un besoin compromet sa liberté)",
         "problematique": "P5",
         "branchesIntroduction": "B3",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
+        "statut": "proposée / non validée",
         "cumul": "« L’art nécessaire pour certains, superflu pour d’autres » : sous le présupposé, un besoin porte sur un objet déterminé, le même pour tous ; un besoin qui ne vaut que pour certains n’en est pas un. Le cumul est exclu.",
-        "meilleurCas": "Une vie sans art ne meurt pas, et l’on ne voit pas ce qui lui manque ; le service public le mieux pensé, s’il fournit l’art comme un bien nécessaire, prescrit encore des œuvres."
+        "meilleurCas": "Une vie sans art ne meurt pas, et l’on ne voit pas ce qui lui manque ; le service public le mieux pensé, s’il fournit l’art comme un bien nécessaire, prescrit encore des œuvres.",
+        "matriceCandidate": "métamorphose du besoin d'objet déterminé en possibilité ouverte d'expérience esthétique"
       }
     }
   }
