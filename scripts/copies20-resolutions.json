@@ -267,14 +267,14 @@
       "conclusionQuestion": "Comment rendre le jugement public effectif lorsque seuls les spécialistes peuvent évaluer certains risques, mais que tous peuvent en subir les conséquences ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 1375
+        "words": 1342
       },
       "review": {
         "author": "ChatGPT, reprise textuelle à neuf opérations philosophiques, 28 octobre 2026",
         "status": "propose",
-        "independentReview": "Citations vérifiées dans les sources signalées au dossier d'audit ; transfert des concepts explicité, pas d'attribution abusive. Audit externe du verrou V7.3 3.4.9, vérification bibliographique et tests du build restant à effectuer."
+        "independentReview": "Citations et leur domaine documentés dans le dossier d'audit, mais les réserves sont conservées dans le travail préparatoire et n'ont pas à être mécaniquement exposées dans chaque paragraphe. Audit indépendant de l'aporie 3.4.9 et build non effectués."
       },
-      "copySha256": "67789e2a4d4f46ae9da95b5cea7bfa5612e07e3662406499e4462be4422359f8",
+      "copySha256": "3ed60a59974fbd62c13f8ba242f2b90472c7d5bf4fa3812f9cab14f18b7b8be0",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
