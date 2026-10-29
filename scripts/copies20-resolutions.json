@@ -882,7 +882,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Clarifier un terme, reprendre une objection, proposer une vérification : ces gestes agissent sur l’accès aux raisons, non sur leur valeur, et ne remplacent pas la preuve par la séduction.",
+          "proposal": "Reprendre une objection, proposer une contre-épreuve et accepter de corriger son propre argument permettent à l'autre de contrôler ce qui est affirmé.",
           "preserves": [
             "Être produite par des raisons",
             "Être l’adhésion propre de l’autre"
@@ -913,31 +913,32 @@
       "comparison": "L’appropriation par vérification explique le passage de validité à adhésion sans dévaluer la preuve ; elle vaut pour le dialogue comme pour une démonstration écrite.",
       "strongestObjection": "Un interlocuteur refuse tout examen.",
       "responseToObjection": "Une présentation rationnelle ne garantit pas son accueil : la copie garde ce refus comme limite, sans autoriser la contrainte.",
-      "residual": "Reste le refus d’examiner : aucune présentation honnête ne garantit que l’autre accepte de mettre sa conviction à l’épreuve.",
-      "conclusionQuestion": "Que peut encore faire la raison devant un refus de l’examiner, sans transformer la recherche de conviction en contrainte ?",
+      "residual": "Comment maintenir la possibilité d'une délibération commune quand des interlocuteurs refusent jusqu'aux critères grâce auxquels une preuve pourrait être reconnue ?",
+      "conclusionQuestion": "Comment maintenir la possibilité d'une délibération commune quand des interlocuteurs refusent jusqu'aux critères grâce auxquels une preuve pourrait être reconnue ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 781
+        "words": 1086
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
-        "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
+        "independentReview": "Reconstruction V7.4 : suffire n'est ni être vrai ni valoir conditionnellement pour qui examine. La possession d'une vérité ne produit pas automatiquement sa présentation ou son libre examen. Double aporie stricte non démontrée. Platon et Pascal paraphrasés, citations littérales non ajoutées ; lecture indépendante encore absente."
       },
-      "copySha256": "dd6275f5b6fc9f07ea232188d89fae9ccf6be2aabe7c96bd1d3644faea4e6348",
+      "copySha256": "555571ad43b0ce59bb520988d98ad73aad25df7d2522f9cb0cb57aefc9c75b67",
       "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
+        "reference": "Plan dynamique V7.4 prioritaire",
         "racine": [
-          "Être produite par des raisons",
-          "Être l’adhésion propre de l’autre"
+          "La preuve valide fournit une raison impersonnelle de croire",
+          "L'adhésion d'un individu dépend de son accès et de son examen des raisons"
         ],
-        "presupposeCommun": "Convaincre, ce serait produire une adhésion en l’autre : par la seule force de la preuve, ou par une action sur ses passions.",
-        "forme": "réciprocité",
+        "presupposeCommun": "Confusion entre avoir raison, pouvoir rendre raison et obtenir effectivement l'assentiment.",
+        "forme": "contre-exemple à la suffisance, puis distinction valeur de preuve / transmission / examen libre",
         "problematique": "P3",
         "branchesIntroduction": "B2",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
-        "cumul": "« Prouver aux esprits disposés, persuader les autres » : sous le présupposé, la persuasion produit l’adhésion sans les raisons ; ceux qu’elle gagne ne sont pas convaincus. Le cumul reconduit à la seconde branche.",
-        "meilleurCas": "Devant des jurés de bonne foi, la preuve exacte n’est pas encore entendue ; l’orateur le plus honnête qui plaît gagne encore sans faire juger."
+        "statut": "réécriture argumentative proposée, non homologuée",
+        "cumul": "On peut avoir raison, expliquer sans tromper et rencontrer néanmoins un refus volontaire d'examen. Les avantages des deux branches sont compatibles ; ce cumul réfute que la seule possession de la vérité suffise et appelle une pratique de justification accessible.",
+        "meilleurCas": "Dans une délibération honnête, un argument vrai n'obtient l'adhésion que s'il est compris et repris, jamais par sa vérité seule, encore moins par la force.",
+        "matriceCandidate": "distinction de trois conditions de conviction et réorientation de l'action de l'orateur vers l'examen du destinataire"
       }
     },
     "notion-technique": {
