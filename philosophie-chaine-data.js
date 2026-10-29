@@ -102,7 +102,7 @@ niveau1: [
    ['Les effets de ses actes, puisqu’il ne sait plus ce que ses actes produisent.','no','Il ne regarde que cela : c’est ce que le non garde.'],
    ['Sa liberté.','no','Le sujet ne parle pas de liberté.']]},
   {b:'pb',p:'pb',q:'Quelle question met ces deux pertes face à face ?',o:[
-   ['Peut-on tirer la certitude d’avoir bien agi de son intention, aveugle aux effets de l’acte, ou de ses effets, qui livrent sa valeur au hasard ?','ok','Oui : les deux appuis sont là, chacun avec ce qu’il perd.'],
+   ['Peut-on être certain d’avoir bien agi, lorsque les raisons de notre choix peuvent être justifiées mais que nous ne connaissons pas toutes ses conséquences ?','ok','Oui : les deux appuis sont là, chacun avec ce qu’il perd.'],
    ['Peut-on être certain d’avoir bien agi, ou ne le peut-on pas ?','no','C’est le sujet redit deux fois : aucune perte n’apparaît.'],
    ['Comment pourrait-on jamais être certain d’avoir bien agi, puisque les effets de nos actes nous échappent et vont bien au-delà de ce que nous voyons ?','no','La question a déjà répondu : elle suppose qu’on ne peut pas.']]}
  ]},
@@ -112,31 +112,31 @@ niveau1: [
  non:'Non : la science <u>n’a pas à</u> être utile ; elle cherche le vrai.',
  etapes:[
   {b:'oui',p:'raison',q:'Pourquoi répondrait-on oui ?',o:[
-   ['Savoir, c’est pouvoir : la science sert à soigner, construire, nourrir.','ok','Oui : le oui juge la science à ce qu’elle permet de faire.'],
+   ['La science peut procurer le bien commun : ses savoirs lui donnent une raison de contribuer à la vie humaine.','ok','Le « doit » appelle une prémisse morale : contribuer au bien commun, non simplement produire des objets.'],
    ['La science est souvent utile.','no','Regardez le mot souligné : « doit » demande ce qu’on peut exiger d’elle, pas ce qui arrive souvent.'],
    ['Les chercheurs veulent être payés, et seuls les travaux utiles trouvent des financements.','no','Cette raison ne touche pas à ce qu’est la science.']]},
-  {b:'oui',p:'scene',q:'Imaginez une science qui ne chercherait que ce qui sert. Que finirait-elle par faire ?',o:[
-   ['Abandonner les recherches dont on ne voit pas tout de suite l’usage.','ok','Oui : bien des découvertes utiles sont venues de recherches qui ne servaient à rien.'],
+  {b:'oui',p:'scene',q:'Imaginez que les recherches soient autorisées uniquement si leur utilité est prévisible. Que perdrait-on ?',o:[
+   ['Les questions dont on ignore encore les applications pourraient être écartées.','ok','Oui, sous ce critère exigeant : on demande la preuve d’un résultat avant même de le découvrir.'],
    ['Faire des découvertes plus vite, puisque chaque recherche sait d’avance à quoi elle sert.','no','C’est la promesse du oui, pas ce qu’il perd.'],
    ['Ne plus servir à rien.','no','Au contraire, elle servirait. C’est autre chose qu’elle perd.']]},
   {b:'oui',p:'perte',q:'Qu’a-t-elle perdu en route ?',o:[
-   ['La recherche du vrai pour lui-même.','ok','Oui : le oui garde l’utilité, mais perd le désir de connaître.'],
+   ['La liberté de chercher des vérités sans application encore prévisible.','ok','Cette perte touche seulement une version forte de l’obligation d’utilité, pas toute réponse affirmative.'],
    ['Son utilité.','no','Elle la garde : c’est la force du oui.'],
    ['L’argent des États.','no','Le sujet ne parle pas de financement.']]},
   {b:'non',p:'raison',q:'Pourquoi répondrait-on non ?',o:[
    ['La science cherche à connaître le monde tel qu’il est, pas à le servir.','ok','Oui : le non juge la science à la vérité qu’elle cherche.'],
    ['La science ne doit surtout pas servir.','no','Attention : « elle n’a pas à être utile » ne veut pas dire « elle doit être inutile ». Le non dit seulement qu’on ne peut pas l’exiger.'],
    ['La science est dangereuse : ses découvertes peuvent servir à détruire autant qu’à soigner.','def','Défendable, mais c’est une autre question, celle de ses dangers. Le non le plus fort parle de ce qu’elle cherche : le vrai.']]},
-  {b:'non',p:'scene',q:'Imaginez une science qui ne chercherait que le vrai, sans se soucier des usages. Qu’oublie-t-elle d’elle-même ?',o:[
-   ['Qu’elle ne connaît la nature qu’en agissant sur elle, par l’expérience.','ok','Oui : connaître, pour la science, c’est déjà transformer.'],
+  {b:'non',p:'scene',q:'Imaginez une recherche aux méthodes impeccables, mais dont l’expérience expose autrui à un risque. Que manque-t-il ?',o:[
+   ['Une justification des risques et des moyens de l’expérience, distincte de la preuve scientifique.','ok','Une méthode juste ne dit pas à elle seule si les actes accomplis pour obtenir une preuve sont légitimes.'],
    ['Qu’elle ne trouve plus rien.','no','Rien ne le dit : une science désintéressée trouve beaucoup.'],
    ['Qu’elle est difficile à comprendre pour ceux qui ne l’ont pas étudiée longtemps.','no','Peut-être, mais ce n’est pas ce qu’elle oublie d’elle-même.']]},
   {b:'non',p:'perte',q:'Qu’a-t-elle perdu en route ?',o:[
-   ['Le lien entre connaître et agir : ses vérités sont aussi des pouvoirs.','ok','Oui : le non garde la vérité, mais oublie que la science connaît en agissant.'],
+   ['La règle qui permet de juger moralement les actes de recherche.','ok','La vérité des résultats ne décide pas de l’acceptabilité des pratiques ; le non n’interdit pas pour autant cette règle.'],
    ['La vérité.','no','Elle la garde : c’est la force du non.'],
    ['Sa beauté, celle des théories élégantes que l’on admire sans chercher à s’en servir.','no','Le sujet ne parle pas de beauté.']]},
-  {b:'pb',p:'pb',q:'Quelle question met ces deux pertes face à face ?',o:[
-   ['La science doit-elle être utile, si l’utilité la détourne des vérités sans usage, et si ses vérités deviennent malgré elle des pouvoirs ?','ok','Oui : chaque réponse est là, avec ce qu’elle perd.'],
+  {b:'pb',p:'pb',q:'Quelle question préserve la norme du vrai et l’exigence de responsabilité sans forcer les deux réponses ?',o:[
+   ['La science doit-elle être utile, si elle ne peut promettre les applications de vérités encore inconnues, mais ne peut non plus se dispenser de répondre de ses pratiques et de leurs conséquences ?','ok','La question conserve l’obligation du sujet et les deux exigences, sans affirmer qu’un « oui » raisonnable écarte toute recherche libre.'],
    ['Comment la science pourrait-elle encore chercher le vrai pour lui-même, si on lui demande d’abord d’être utile et de servir à quelque chose ?','no','La question a déjà répondu : elle oppose d’avance le vrai et l’utile.'],
    ['La science est-elle bonne ou mauvaise pour l’homme ?','no','Une question trop large, qui irait à n’importe quel sujet sur la science.']]}
  ]},
@@ -170,7 +170,7 @@ niveau1: [
    ['L’inspiration.','no','Il la garde : c’est la force du non.'],
    ['Son public.','no','Le sujet ne parle pas du public.']]},
   {b:'pb',p:'pb',q:'Quelle question met ces deux pertes face à face ?',o:[
-   ['L’artiste maîtrise-t-il son œuvre comme un savoir-faire, qui ne laisse plus rien à inventer, ou l’invente-t-il à l’aveugle, sans plus en être l’auteur ?','ok','Oui : le métier et l’invention, chacun avec ce qu’il perd.'],
+   ['L’artiste sait-il ce qu’il fait, si l’œuvre exige des décisions qu’il peut justifier, mais acquiert au cours de son élaboration une forme qu’il ne pouvait connaître d’avance ?','ok','Oui : le métier et l’invention, chacun avec ce qu’il perd.'],
    ['L’artiste sait-il ou ne sait-il pas ce qu’il fait ?','no','C’est le sujet redit : aucune perte n’apparaît.'],
    ['Comment l’artiste pourrait-il savoir ce qu’il fait, puisque l’inspiration le dépasse et que l’œuvre lui vient d’un lieu qu’il ne connaît pas lui-même ?','no','La question a déjà répondu : elle suppose qu’il ne le sait pas.']]}
  ]}
@@ -199,7 +199,7 @@ niveau2: [
    ['Une pensée précise : sans les mots, la pensée ne prend pas forme.','ok','Oui : le non garde la liberté, mais perd la pensée qui se dit.'],
    ['La maîtrise des mots.','no','Le non la garde, au contraire.'],
    ['Les langues étrangères, qui disent autrement ce que nous disons dans la nôtre.','no','Le sujet ne parle pas des langues étrangères.']]},
-  {b:'pb',p:'pb',w:1,q:'Formulez le problème en une question qui relie vos deux difficultés.',m:'Nous dire prisonniers du langage suppose-t-il un point de vue hors de lui, et nous en dire libres, une pensée sans mots qui ne pourrait rien penser ?'}
+  {b:'pb',p:'pb',w:1,q:'Formulez le problème en une question qui relie vos deux difficultés.',m:'Sommes-nous prisonniers du langage, lorsque les mots fixent des habitudes de pensée mais permettent aussi de les défaire et de les transformer ?'}
  ]}
 ],
 niveau3: [

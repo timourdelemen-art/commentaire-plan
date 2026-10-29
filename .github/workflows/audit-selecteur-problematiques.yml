@@ -1,0 +1,23 @@
+name: Audit sélecteur de problématiques (recherche)
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'worker/src/philo-engine/problematic-selector.mjs'
+      - 'worker/src/philo-engine/problematic-selector.test.mjs'
+      - '.github/workflows/audit-selecteur-problematiques.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Contrôler les garde-fous du sélecteur expérimental
+        run: node --test worker/src/philo-engine/problematic-selector.test.mjs

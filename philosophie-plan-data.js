@@ -63,7 +63,7 @@ niveau1: [
   "sujet": "Faut-il être inconscient pour être heureux ?",
   "notion": "Le bonheur",
   "v": 3,
-  "pb": "Faut-il être inconscient pour être heureux, si l’insouciance livre le bonheur aux dangers qu’elle ignore, et si la lucidité ne voit les menaces qu’en perdant le repos ?",
+  "pb": "Faut-il être inconscient pour être heureux, alors que l’ignorance d’un danger évite parfois la peur mais prive aussi des moyens de le prévenir ?",
   "annale": "faut-il-etre-inconscient-pour-etre-heureux",
   "etapes": [
     {
@@ -338,7 +338,7 @@ niveau1: [
   "sujet": "Peut-on être certain d’avoir bien agi ?",
   "notion": "Le devoir",
   "v": 3,
-  "pb": "Peut-on tirer la certitude d’avoir bien agi de son intention, aveugle aux effets de l’acte, ou de ses effets, qui livrent sa valeur au hasard ?",
+  "pb": "Peut-on être certain d’avoir bien agi, lorsque les raisons de notre choix peuvent être justifiées mais que nous ne connaissons pas toutes ses conséquences ?",
   "annale": "peut-on-etre-certain-d-avoir-bien-agi",
   "etapes": [
     {
@@ -613,18 +613,18 @@ niveau1: [
   "sujet": "La science doit-elle être utile ?",
   "notion": "La science",
   "v": 3,
-  "pb": "La science doit-elle être utile, si l’utilité la détourne des vérités sans usage, et si ses vérités deviennent malgré elle des pouvoirs ?",
+  "pb": "La science doit-elle être utile, si elle ne peut promettre les applications de vérités encore inconnues, mais ne peut non plus se dispenser de répondre de ses pratiques et de leurs conséquences ?",
   "annale": "la-science-doit-elle-etre-utile",
   "etapes": [
     {
       "p": "I",
       "k": "installer",
-      "q": "Quelle première réponse installer en partie I, avec sa raison ?",
+      "q": "Quel philosophe permet d’établir la destination humaine des sciences ?",
       "o": [
         [
-          "La science doit être utile, car c’est elle qui donne à l’homme le pouvoir de maîtriser la nature.",
+          "Bacon, dans le Novum Organum (I, § 81), assigne à la science la fin d’enrichir la vie humaine de nouvelles découvertes.",
           "ok",
-          "Une réponse au sujet, avec sa raison : c’est un vrai point de départ."
+          "L’opération établit une fin humaine de la science ; elle ne prouve pas encore, à elle seule, une obligation morale."
         ],
         [
           "La science coûte très cher à la société, qui la finance : elle doit donc lui rapporter quelque chose.",
@@ -641,12 +641,12 @@ niveau1: [
     {
       "p": "I",
       "k": "renforcer",
-      "q": "Qu’est-ce qui rend cette réponse la plus forte possible ?",
+      "q": "Quelle pensée transforme cette fin en véritable devoir ?",
       "o": [
         [
-          "Descartes l’annonçait dans la sixième partie du Discours de la méthode : à la philosophie spéculative, il veut substituer « une pratique » qui puisse « nous rendre comme maîtres et possesseurs de la nature ».",
+          "Descartes, dans le Discours de la méthode (VI), invoque le devoir de procurer « le bien général de tous les hommes ».",
           "ok",
-          "La référence ne décore pas : elle donne à la réponse sa forme la plus forte, en disant pourquoi elle vaut."
+          "Descartes ajoute la prémisse normative qui transforme une fin souhaitable en obligation de contribuer et de communiquer."
         ],
         [
           "Les vaccins ont sauvé des millions de vies au cours du siècle dernier, et en sauvent encore chaque année.",
@@ -663,12 +663,12 @@ niveau1: [
     {
       "p": "I",
       "k": "limite",
-      "q": "Où cette réponse cède-t-elle, si on la pousse jusqu’au bout ?",
+      "q": "Quel obstacle Bachelard fait-il apparaître quand l’utilité commande d’avance ce qu’il faut connaître ?",
       "o": [
         [
-          "Mais si la science doit être utile, c’est l’utilité qui choisit ses questions, et les recherches qui ne promettent rien sont abandonnées.",
+          "Bachelard note que l’opinion, en désignant les objets par leur utilité, s’interdit de les connaître.",
           "ok",
-          "La limite vient de la réponse elle-même, poussée jusqu’au bout : c’est elle qui obligera à changer de réponse."
+          "Il vise la confusion entre besoin et connaissance ; on ne peut l’étendre à toute recherche utile sans argument."
         ],
         [
           "Certaines inventions scientifiques sont dangereuses pour l’humanité, comme la bombe atomique, dont la puissance pourrait détruire des villes entières.",
@@ -688,7 +688,7 @@ niveau1: [
       "q": "Quelle question, née de cette limite, fait passer à la partie II ?",
       "o": [
         [
-          "Par quoi la science vaut-elle lorsque son utilité reste imprévisible ?",
+          "Comment juger une recherche dont on ne peut encore prévoir les applications ?",
           "ok",
           "Une question brève, née de cette limite : elle fait passer à la partie II sans la donner d’avance."
         ],
@@ -707,12 +707,12 @@ niveau1: [
     {
       "p": "II",
       "k": "exigence",
-      "q": "Comment la partie II répond-elle d’abord à cette question ?",
+      "q": "Avec Aristote, comment répondre à la question ouverte par la première partie ?",
       "o": [
         [
-          "Ce que la science cherche, c’est savoir comment sont les choses ; une science qui choisit ses vérités selon leur rendement cesse d’être une science.",
+          "Aristote distingue le savoir recherché pour lui-même de celui qu’on poursuit en vue de ses résultats.",
           "ok",
-          "Elle répond à la question de transition : la partie II part de ce que la partie I perdait."
+          "L’opération est de reconnaître une valeur intrinsèque au savoir ; Aristote traite ici de la philosophie."
         ],
         [
           "Par le prestige qu’elle donne aux pays qui la financent et la font briller.",
@@ -729,12 +729,12 @@ niveau1: [
     {
       "p": "II",
       "k": "position",
-      "q": "Quel développement montre que cette exigence est nécessaire ?",
+      "q": "Comment Nietzsche rend-il cette réponse plus forte que l’affirmation « la science cherche le vrai » ?",
       "o": [
         [
-          "Nietzsche, dans Humain, trop humain (§ 635), montre que les méthodes de la science importent au moins autant que ses résultats : c’est en elles que tient l’esprit scientifique, qui ne croit que ce qui est prouvé.",
+          "Nietzsche, dans Humain, trop humain (§ 635), donne aux méthodes scientifiques une valeur comparable à celle de leurs résultats.",
           "ok",
-          "La référence porte la nouvelle réponse : elle montre pourquoi l’exigence de la partie II est nécessaire."
+          "La méthode est une conquête distincte du produit : elle permet de contrôler et de rectifier la croyance."
         ],
         [
           "La science vaut d’abord par la vérité qu’elle cherche : son utilité ne vient qu’ensuite.",
@@ -751,12 +751,12 @@ niveau1: [
     {
       "p": "II",
       "k": "limite",
-      "q": "Où cette deuxième réponse cède-t-elle à son tour ?",
+      "q": "Quelle norme philosophique révèle l’insuffisance d’une justification par la seule méthode ?",
       "o": [
         [
-          "Mais la science ne connaît la nature qu’en agissant sur elle : l’expérience est déjà une intervention, avant toute application.",
+          "La règle kantienne de ne jamais traiter autrui seulement comme un moyen interdit de justifier une expérience par sa seule efficacité.",
           "ok",
-          "La limite vient encore de l’intérieur : la seconde réponse perd à son tour ce que la première gardait."
+          "L’opération introduit un critère moral qui ne se déduit pas d’une preuve, sans imputer à Kant un propos sur les laboratoires."
         ],
         [
           "Les chercheurs ont besoin de beaucoup d’argent pour travailler, pour équiper leurs laboratoires et pour payer ceux qui les aident dans leurs expériences.",
@@ -776,9 +776,9 @@ niveau1: [
       "q": "Quelle question montre ce que les deux réponses supposaient ensemble ?",
       "o": [
         [
-          "Mais l’utilité doit-elle être la fin qui choisit les questions, pour que la science ait à répondre de ses pouvoirs ?",
+          "Comment préserver à la fois le critère du vrai et le devoir de justifier les actes de recherche ?",
           "ok",
-          "La question fait voir ce que les deux réponses supposaient ensemble : c’est ce point que la partie III transformera."
+          "La question demande une distinction des critères, non une opposition fabriquée entre liberté et utilité."
         ],
         [
           "Si l’utilité la trahit et que la vérité pure l’aveugle, faut-il finalement exiger de la science qu’elle soit utile, ou non ?",
@@ -795,12 +795,12 @@ niveau1: [
     {
       "p": "III",
       "k": "probleme",
-      "q": "Revenir au problème : que supposaient ensemble les deux réponses, et comment le transformer ?",
+      "q": "Quelle distinction de Kant permet de transformer le présupposé commun ?",
       "o": [
         [
-          "L’utilité peut changer de place : sans choisir les questions, elle pèse sur les pratiques, dont la science doit répondre comme de tout pouvoir.",
+          "Distinguer avec Kant « Que puis-je savoir ? » et « Que dois-je faire ? », puis examiner séparément l’utilité.",
           "ok",
-          "Elle ne choisit pas un camp : elle transforme ce que les deux réponses tenaient pour acquis."
+          "La distinction entre justification théorique et pratique transforme le problème ; l’utilité est une troisième question introduite ici."
         ],
         [
           "Chacune avait raison à moitié : la partie I sur l’économie du savoir et ses profits, la partie II sur la culture générale et le goût de connaître.",
@@ -817,12 +817,12 @@ niveau1: [
     {
       "p": "III",
       "k": "operation",
-      "q": "Quelle opération permet de tenir les deux ensemble : renverser le rapport, changer de niveau, ou réunir ce qu’on avait séparé ? Plusieurs peuvent tenir : regardez ce que chacune laisse.",
+      "q": "Quelle opération de Claude Bernard permet de limiter les pratiques sans imposer un rendement aux résultats ?",
       "o": [
         [
-          "On peut ainsi laisser une recherche choisir ce qu’elle cherche, et examiner pourtant ses protocoles, ses dangers et ses moyens.",
+          "Claude Bernard subordonne l’expérimentation humaine à ce qu’elle fait subir au patient, indépendamment de l’intérêt scientifique.",
           "ok",
-          "Elle garde l’acquis de la partie I et celui de la partie II, et dit concrètement comment les tenir ensemble."
+          "Le principe porte sur les moyens et les risques, non sur le rendement d’une découverte ; son domaine d’origine doit rester nommé."
         ],
         [
           "On peut séparer la recherche de ses applications : laisser les savants chercher librement, puis juger seulement l’usage qu’on fera de leurs découvertes.",
@@ -839,17 +839,17 @@ niveau1: [
     {
       "p": "III",
       "k": "stabiliser",
-      "q": "Que peut-on désormais affirmer, et que cette réponse ne règle-t-elle pas encore ?",
+      "q": "Que permet de déduire Dewey que ne disaient pas encore III.1 et III.2 ?",
       "o": [
         [
-          "La science n’a donc pas à servir pour être légitime, mais à répondre de ce qu’elle fait. Reste la difficulté de juger publiquement une recherche dont ni les bénéfices ni certains risques ne sont encore connus.",
+          "Avec Dewey, confronter l’expertise de ceux qui savent aux besoins de ceux qui subissent les conséquences ; rendre la décision explicite et révisable.",
           "ok",
-          "La réponse est nette, et son reste est dit : c’est lui que la conclusion reprendra."
+          "La troisième opération ne résume pas la solution : elle déduit une compétence publique associée à l’expertise."
         ],
         [
-          "La science n’a donc pas à servir pour être légitime, mais à répondre de ce qu’elle fait. Comme les savants peuvent juger eux-mêmes leurs pratiques, il n’y a plus rien à décider en dehors de leurs laboratoires.",
+          "La science répond de ce qu’elle fait, et tout est résolu dès que les savants jugent eux-mêmes leurs risques.",
           "def",
-          "La réponse se croit complète : il reste à juger publiquement une recherche dont ni les bénéfices ni certains risques ne sont encore connus."
+          "La seule autorégulation ne suffit pas à établir qui doit décider des risques imposés à autrui."
         ],
         [
           "La science doit être parfois utile et parfois libre, selon les cas.",
@@ -864,9 +864,9 @@ niveau1: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Qui a qualité pour juger une recherche que seuls ses pairs comprennent, au nom de tous ceux qu’elle engage ?",
+          "Comment instituer un jugement commun sur les risques d’une recherche lorsque la connaissance demeure spécialisée et que ses conséquences restent incertaines ?",
           "ok",
-          "C’est le reste de la réponse, devenu question : le même problème, posé plus loin."
+          "La difficulté restante porte sur la décision légitime entre expertise et public concerné."
         ],
         [
           "La science fera-t-elle un jour le bonheur de l’humanité, ou bien sera-t-elle la cause de son malheur et de sa ruine ?",
@@ -888,7 +888,7 @@ niveau1: [
   "sujet": "L’artiste sait-il ce qu’il fait ?",
   "notion": "L’art",
   "v": 3,
-  "pb": "L’artiste maîtrise-t-il son œuvre comme un savoir-faire, qui ne laisse plus rien à inventer, ou l’invente-t-il à l’aveugle, sans plus en être l’auteur ?",
+  "pb": "L’artiste sait-il ce qu’il fait, si l’œuvre exige des décisions qu’il peut justifier, mais acquiert au cours de son élaboration une forme qu’il ne pouvait connaître d’avance ?",
   "annale": "l-artiste-sait-il-ce-qu-il-fait",
   "etapes": [
     {
@@ -1139,7 +1139,7 @@ niveau1: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Jusqu’où le savoir de l’artiste peut-il porter sur son œuvre, si celle-ci continue de prendre sens dans des regards qu’il ne dirige pas ?",
+          "La valeur de l’œuvre peut-elle dépendre du jugement de ses spectateurs sans se réduire à leur goût ?",
           "ok",
           "C’est le reste de la réponse, devenu question : le même problème, posé plus loin."
         ],
@@ -1163,7 +1163,7 @@ niveau1: [
   "sujet": "Avons-nous la maîtrise de nos paroles ?",
   "notion": "Le langage",
   "v": 3,
-  "pb": "Maîtriser ses paroles, est-ce ne plus dire que ce qu’on pensait déjà, et ne pas les maîtriser, est-ce cesser de pouvoir en répondre ?",
+  "pb": "Avons-nous la maîtrise de nos paroles, lorsque leur sens dépend de règles que nous partageons avec autrui, mais que nous devons néanmoins répondre de ce que nous faisons en parlant ?",
   "annale": "avons-nous-la-maitrise-de-nos-paroles",
   "etapes": [
     {
@@ -1414,7 +1414,7 @@ niveau1: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Comment répondre d’une parole dont on peut corriger le sens, mais dont on ne peut plus réparer tous les effets ?",
+          "Jusqu’où répondre d’un effet que l’on ne pouvait ni prévoir ni prévenir ?",
           "ok",
           "C’est le reste de la réponse, devenu question : le même problème, posé plus loin."
         ],
@@ -1438,7 +1438,7 @@ niveau1: [
   "sujet": "Peut-on concevoir une humanité sans religion ?",
   "notion": "La religion",
   "v": 3,
-  "pb": "Une humanité qui ne croit que ce qu’elle prouve peut-elle encore relier les hommes, et une humanité unie par la foi peut-elle rester faite d’hommes qui jugent par eux-mêmes ?",
+  "pb": "Peut-on concevoir une humanité sans religion, alors que la religion a contribué à faire société sans que tout lien humain doive dépendre d’une foi ?",
   "annale": "peut-on-concevoir-une-humanite-sans-religion",
   "etapes": [
     {
@@ -1713,7 +1713,7 @@ niveau1: [
   "sujet": "La nature a-t-elle besoin de nous ?",
   "notion": "La nature",
   "v": 3,
-  "pb": "La nature se fait-elle sans nous, ce qui l’abandonne à nos destructions, ou dépend-elle de nos soins, ce qui en fait notre ouvrage ?",
+  "pb": "La nature a-t-elle besoin de nous, alors que ses processus ne nous doivent pas leur existence mais que nos actions peuvent désormais compromettre des formes déterminées de vie ?",
   "annale": "la-nature-a-t-elle-besoin-de-nous",
   "etapes": [
     {
@@ -1988,7 +1988,7 @@ niveau1: [
   "sujet": "Peut-on être heureux quand les autres ne le sont pas ?",
   "notion": "Le bonheur",
   "v": 3,
-  "pb": "Peut-on être heureux en fermant son bonheur au malheur des autres, qui cesse alors d’être humain, ou en l’y ouvrant, ce qui le rend impossible tant qu’il y a des malheureux ?",
+  "pb": "Peut-on être heureux quand les autres ne le sont pas, sans confondre la joie qui nous arrive avec l’indifférence à leur malheur ?",
   "annale": "peut-on-etre-heureux-quand-les-autres-ne-le-sont-pas",
   "etapes": [
     {
@@ -2263,7 +2263,7 @@ niveau1: [
   "sujet": "Revient-il principalement à l’État de lutter contre l’injustice ?",
   "notion": "L’État",
   "v": 3,
-  "pb": "Confier d’abord à l’État la lutte contre l’injustice, est-ce soustraire ses lois à tout jugement, et la confier d’abord aux citoyens, est-ce priver la justice de force commune ?",
+  "pb": "Revient-il principalement à l’État de lutter contre l’injustice, alors qu’il doit garantir des droits communs mais peut aussi être l’auteur d’une injustice ?",
   "annale": "revient-il-principalement-a-l-etat-de-lutter-contre-l-injustice",
   "etapes": [
     {
@@ -2540,7 +2540,7 @@ niveau2: [
   "sujet": "Sommes-nous prisonniers du langage ?",
   "notion": "Le langage",
   "v": 3,
-  "pb": "Nous dire prisonniers du langage suppose-t-il un point de vue hors de lui, et nous en dire libres, une pensée sans mots qui ne pourrait rien penser ?",
+  "pb": "Sommes-nous prisonniers du langage, lorsque les mots fixent des habitudes de pensée mais permettent aussi de les défaire et de les transformer ?",
   "annale": "sommes-nous-prisonniers-du-langage",
   "etapes": [
     {
