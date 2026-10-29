@@ -14,6 +14,16 @@
 
 Les 20 copies JSON sont composées de **segments de rédaction annotés**, et non d’une entrée par phrase grammaticale : un segment peut contenir plusieurs phrases. Les cinq autres pages ont des groupes comparables. La présence d’une fonction pour chaque segment est contrôlée ; **l’audit exhaustif de la fonction de chaque phrase à l’intérieur de ces segments n’est pas encore réalisé**. Le générateur a été corrigé pour ne plus annoncer à tort un nombre de « phrases » fondé sur le nombre de segments. Avant validation pédagogique intégrale, contrôler aussi le rôle de chaque phrase, ses prémisses et son effet sur la suivante, sans inventer mécaniquement une fonction.
 
+## Reconstructions argumentatives du 29 octobre — distinctes de l'homologation
+
+Trois dissertations du corpus JSON ont reçu une **réécriture complète des neuf unités démonstratives**, avec fonctions explicites pour chaque phrase du développement, deux transitions, problématique fidèle au sujet, conclusion et dossier de comparaison actualisés :
+
+- `2026-asie-inconscient-bonheur` : la possibilité d'un bonheur lucide constitue un contre-exemple à la prétendue nécessité de l'inconscience ; 9 acquis et exercices du plan revus. Voir `reconstruction-inconscient-bonheur-v74-2026-10-29.md`.
+- `2026-ag-humanite-religion` : la concevabilité d'une humanité non religieuse ne dépend pas de la démonstration que toutes les fonctions sociales ont été historiquement assurées sans religion ; contre-modèle civique et questionnaire revus. Voir `reconstruction-humanite-sans-religion-v74-2026-10-29.md`.
+- `notion-temps` : correction du glissement de « nécessairement » vers « exclusivement » ; distinction perte de présence / destruction d'un être, condition temporelle / causalité ; page notion synchronisée. Voir `reconstruction-temps-necessairement-v74-2026-10-29.md`.
+
+**État véritable : 3/26 reconstructions approfondies accomplies au cours de cette passe ; 23/26 autres copies non reconstruites au même degré. Aucune certification philosophique indépendante pour les 26.** Le fait qu'un sujet soit résoluble par un contre-exemple ne justifie pas de lui fabriquer une aporie. Une copie à trois parties doit prouver la valeur de chacune des trois, non sauver un modèle scolaire par fiction.
+
 ## Limite essentielle
 
 **Aucune des 26 copies n’est homologuée en philosophie par ce contrôle.** Les deux apories propres, la liaison R, le meilleur cumul, la préférence entre au moins deux architectures, le caractère nécessaire des trois gains de III et les attributions aux œuvres restent à éprouver contradictoirement. Une question fermée peut admettre une réponse directe sans double impossibilité stricte : ne pas fabriquer artificiellement une crise. La longueur et le nombre de paragraphes ne constituent ni preuve ni note.
