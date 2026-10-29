@@ -51,16 +51,16 @@
       "conclusionQuestion": "Lorsque l’État détruit les voies par lesquelles on pouvait le corriger, comment lui résister sans abandonner l’exigence d’une justice commune ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 885
+        "words": 916
       },
       "review": {
         "author": "Contrôle documentaire primaire du 29 octobre 2026",
         "status": "propose",
-        "independentReview": "9/9 citations authentifiées dans les œuvres et éditions documentées par le registre dédié, 7 passages/œuvres originaux distincts et Rawls utilisé deux fois. La traduction anglaise vers le français reste volontairement paraphrastique, sans faux guillemets. Le choix des références et le test du gant V7.3/3.4.9 ne sont pas validés indépendamment ; compatibilité Rawls (désobéissance civile sous régime démocratique quasi juste) et Kant (refus de résistance active au souverain) à contrôler dans l'argument."
+        "independentReview": "9/9 citations authentifiées dans les œuvres et éditions documentées par le registre dédié, 7 passages/œuvres originaux distincts et Rawls utilisé deux fois. La traduction anglaise vers le français reste volontairement paraphrastique, sans faux guillemets. Le choix des références et le test du gant V7.3/3.4.9 ne sont pas validés indépendamment ; compatibilité Rawls (désobéissance civile sous régime démocratique quasi juste) et Kant (refus de résistance active au souverain) à contrôler dans l'argument. Mise à jour V8.0 : transitions revues ; audit des inférences et audit indépendant restent nécessaires."
       },
-      "copySha256": "5040704be2f219cf38c87ebfc66d277a189ae5cfd2581880385a2fa9de0f16ec",
+      "copySha256": "3e67503304463cf42824d3a873becc788b7a27d6ae908137ee96c36fcca86830",
       "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
+        "reference": "Plan dynamique V7.4 prioritaire ; protocole intégré V8.0 expérimental (transitions révisées, travail non homologué)",
         "racine": [
           "Une force commune qui impose le même droit à tous",
           "Un jugement capable de dire qu’une loi est injuste"
@@ -123,16 +123,16 @@
       "conclusionQuestion": "Des convictions assez fortes pour unir les hommes peuvent-elles rester ouvertes à l’examen qui les a fondées ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 635
+        "words": 673
       },
       "review": {
         "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées."
+        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées. Mise à jour V8.0 : transitions revues ; audit des inférences et audit indépendant restent nécessaires."
       },
-      "copySha256": "b7a9afd6d50b9865a77459e22c842b86a17a3a7398a265b655c81a09d5c6957c",
+      "copySha256": "bf887395a917bc41e8a30135c211bd6c39389d66cffaf921a3ed6fd000f14a07",
       "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
+        "reference": "Plan dynamique V7.4 prioritaire ; protocole intégré V8.0 expérimental (transitions révisées, travail non homologué)",
         "racine": [
           "Relier tous les hommes par des fins communes",
           "Rester faite d’hommes qui jugent par eux-mêmes"
@@ -196,16 +196,16 @@
       "conclusionQuestion": "La valeur de l’œuvre peut-elle dépendre du jugement de ses spectateurs sans se réduire à leur goût ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 1078
+        "words": 1100
       },
       "review": {
         "author": "Reconstruction du 29 octobre 2026",
         "status": "propose",
-        "independentReview": "La refonte comporte neuf unités développées avec plusieurs opérations par étape ; attribution de Kant §43, §46–47, Aristote VI, Alain Système des beaux-arts, Dewey L'Art comme expérience à contrôler avant citation littérale. Test de conjonction 3.4.9 non satisfait, aucun modèle validé."
+        "independentReview": "La refonte comporte neuf unités développées avec plusieurs opérations par étape ; attribution de Kant §43, §46–47, Aristote VI, Alain Système des beaux-arts, Dewey L'Art comme expérience à contrôler avant citation littérale. Test de conjonction 3.4.9 non satisfait, aucun modèle validé. Mise à jour V8.0 : transitions revues ; audit des inférences et audit indépendant restent nécessaires."
       },
-      "copySha256": "2a74d89481207a3cd3cfd7b288c4c802a825e328da6de8774e12da65f4fb8673",
+      "copySha256": "5e847226d27d9a3002b3abd7920f95a130f19a65800b10fa6d9e3787957fba89",
       "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
+        "reference": "Plan dynamique V7.4 prioritaire ; protocole intégré V8.0 expérimental (transitions révisées, travail non homologué)",
         "racine": [
           "Être l’auteur de son œuvre",
           "Faire une œuvre nouvelle, qu’aucune recette ne contient"
@@ -269,16 +269,16 @@
       "conclusionQuestion": "Comment instituer un jugement commun sur les risques d’une recherche lorsque la connaissance demeure spécialisée et que ses conséquences restent incertaines ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 1453
+        "words": 1481
       },
       "review": {
         "author": "ChatGPT, étude croisée V7.3 et Dictionnaire paradoxal, 28 octobre 2026",
         "status": "propose",
-        "independentReview": "III a trois opérations inférentielles distinctes et citations en textes sources vérifiées : Bachelard/Le Nouvel Esprit scientifique ; Bernard/Introduction à l'étude de la médecine expérimentale ; Dewey/The Public and Its Problems. L'applicabilité du déplacement au sujet exact et l'aporie 3.4.9 demeurent non validées. Tests de build et audit indépendant non réalisés."
+        "independentReview": "III a trois opérations inférentielles distinctes et citations en textes sources vérifiées : Bachelard/Le Nouvel Esprit scientifique ; Bernard/Introduction à l'étude de la médecine expérimentale ; Dewey/The Public and Its Problems. L'applicabilité du déplacement au sujet exact et l'aporie 3.4.9 demeurent non validées. Tests de build et audit indépendant non réalisés. Mise à jour V8.0 : transitions revues ; audit des inférences et audit indépendant restent nécessaires."
       },
-      "copySha256": "a47f003ac9a2d16900a689916326db55653575694ddaa258ace6d5782cc6ed05",
+      "copySha256": "8a2c9da8282de271095cd1c445e2fc84d941caee9257252037b3be6cc8994f95",
       "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
+        "reference": "Plan dynamique V7.4 prioritaire ; protocole intégré V8.0 expérimental (transitions révisées, travail non homologué)",
         "racine": [
           "Connaître le vrai pour lui-même, y compris sans usage prévisible",
           "Répondre de ce que ses vérités permettent de faire"
@@ -341,16 +341,16 @@
       "conclusionQuestion": "Lorsque la souffrance vient d’une perte réelle que comprendre ne supprime pas, comment la lucidité peut-elle encore contribuer au bonheur ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 520
+        "words": 554
       },
       "review": {
         "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées."
+        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées. Mise à jour V8.0 : transitions revues ; audit des inférences et audit indépendant restent nécessaires."
       },
-      "copySha256": "8f74876aaab623e39d75953e4e0acbe7d3b4541993b238d28a16aa462d62e8ec",
+      "copySha256": "f59919ef22d62cd134f7e0830a9c755c06f244da8131197aa80edb9446173cd1",
       "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
+        "reference": "Plan dynamique V7.4 prioritaire ; protocole intégré V8.0 expérimental (transitions révisées, travail non homologué)",
         "racine": [
           "Laisser en repos",
           "Durer face aux dangers réels"
@@ -414,16 +414,16 @@
       "conclusionQuestion": "Une pensée nouvelle peut-elle devenir commune avant que les mots qui la disent soient compris ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 532
+        "words": 556
       },
       "review": {
         "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées."
+        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées. Mise à jour V8.0 : transitions revues ; audit des inférences et audit indépendant restent nécessaires."
       },
-      "copySha256": "d38a7deb9ac1dc4634b784d50f4abef8f335c44bbff70d359ea001ab99543aa5",
+      "copySha256": "b1f5ac0d1d492480388ff5e55d65348fbeb84bd8515ad35014c9025c5678e582",
       "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
+        "reference": "Plan dynamique V7.4 prioritaire ; protocole intégré V8.0 expérimental (transitions révisées, travail non homologué)",
         "racine": [
           "Donner de quoi penser",
           "Laisser juger ce qu’il fait penser"
@@ -487,16 +487,16 @@
       "conclusionQuestion": "Doit-on répondre d’un mal que nos meilleures raisons ne permettaient pas de prévoir ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 549
+        "words": 563
       },
       "review": {
         "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées."
+        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées. Mise à jour V8.0 : transitions revues ; audit des inférences et audit indépendant restent nécessaires."
       },
-      "copySha256": "85a66fdadcd3fb7bf70a8dd1e32ee51c9e20e44bd8f1886a4ed2c10d25979ae4",
+      "copySha256": "2fb710b346fba1ebec0902b8a97caa5b40d25f50cc0542b9d94d57ff66aa685a",
       "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
+        "reference": "Plan dynamique V7.4 prioritaire ; protocole intégré V8.0 expérimental (transitions révisées, travail non homologué)",
         "racine": [
           "Procéder d’une intention droite",
           "Faire effectivement du bien"
@@ -560,16 +560,16 @@
       "conclusionQuestion": "Au nom de quoi choisir le milieu à restaurer, si ce ne doit pas être au nom de nos seules préférences ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 643
+        "words": 675
       },
       "review": {
         "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées."
+        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées. Mise à jour V8.0 : transitions revues ; audit des inférences et audit indépendant restent nécessaires."
       },
-      "copySha256": "2b934f2b753f3481e5f9340439f3a44870a26e94800df747c63acc34980c9a49",
+      "copySha256": "febc0369b4681d7d42ef0fe5e4a949bd41fac7c09175c58a58d5cf956781516c",
       "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
+        "reference": "Plan dynamique V7.4 prioritaire ; protocole intégré V8.0 expérimental (transitions révisées, travail non homologué)",
         "racine": [
           "Se faire sans nous",
           "Conserver les milieux et les espèces qui la composent"
@@ -633,16 +633,16 @@
       "conclusionQuestion": "Que doit changer celui dont le bonheur dépend d’une injustice, pour que son souci d’autrui ne demeure pas une simple bonne conscience ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 644
+        "words": 673
       },
       "review": {
         "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées."
+        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées. Mise à jour V8.0 : transitions revues ; audit des inférences et audit indépendant restent nécessaires."
       },
-      "copySha256": "41baf0dfb71522f44f8d312c03f5ebd477b0a437b3c9eaf10022bba233396a05",
+      "copySha256": "bd748dcb06ea5d30e51c7cdd978bc2eecc73c7249845f123ebe059a62497003d",
       "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
+        "reference": "Plan dynamique V7.4 prioritaire ; protocole intégré V8.0 expérimental (transitions révisées, travail non homologué)",
         "racine": [
           "Dépendre de nous",
           "Rester le bonheur d’un homme parmi les hommes"
@@ -706,16 +706,16 @@
       "conclusionQuestion": "Jusqu’où répondre d’un effet que l’on ne pouvait ni prévoir ni prévenir ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 1014
+        "words": 1033
       },
       "review": {
         "author": "Reconstruction du 29 octobre 2026 à partir du sujet",
         "status": "propose",
-        "independentReview": "Ni test du gant ni conjonction §3.4.9 certifiés, malgré les sous-parties développées. Références primaires à contrôler avant citation littérale et publication. Plusieurs gestes dans chaque unité démonstrative."
+        "independentReview": "Ni test du gant ni conjonction §3.4.9 certifiés, malgré les sous-parties développées. Références primaires à contrôler avant citation littérale et publication. Plusieurs gestes dans chaque unité démonstrative. Mise à jour V8.0 : transitions revues ; audit des inférences et audit indépendant restent nécessaires."
       },
-      "copySha256": "147375ddae63f73b60fb8558566da4374856ca9a09c2d85dd5558de1b0e1845e",
+      "copySha256": "9b2d8518b7b2d872a230dfb314dd0f30b4d7dea94a9bb1351c17ff17784a9c89",
       "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
+        "reference": "Plan dynamique V7.4 prioritaire ; protocole intégré V8.0 expérimental (transitions révisées, travail non homologué)",
         "racine": [
           "Nous engager : répondre de ce que nous disons",
           "Dire plus que ce que nous avions prévu"
@@ -779,16 +779,16 @@
       "conclusionQuestion": "Comment attribuer une responsabilité juste lorsque la connaissance de ce qui a déterminé l’acte demeure incomplète ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 595
+        "words": 619
       },
       "review": {
         "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées."
+        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées. Mise à jour V8.0 : transitions revues ; audit des inférences et audit indépendant restent nécessaires."
       },
-      "copySha256": "0da52d70f189a3f51ea6d8057050c43ff2d8dd86af9acd8a980500931e540516",
+      "copySha256": "7cff7790c774bc0a76806c5c78c700e3a5ea5d890e5d77a66c39d78656cfcb67",
       "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
+        "reference": "Plan dynamique V7.4 prioritaire ; protocole intégré V8.0 expérimental (transitions révisées, travail non homologué)",
         "racine": [
           "N’imputer que ce que nous avons voulu",
           "Faire répondre de ce qui vient de nous"
@@ -852,16 +852,16 @@
       "conclusionQuestion": "Quand la fidélité exige de renoncer à ce que l’on est devenu, comment juger si elle accomplit encore la liberté ou la sacrifie ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 631
+        "words": 657
       },
       "review": {
         "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées."
+        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées. Mise à jour V8.0 : transitions revues ; audit des inférences et audit indépendant restent nécessaires."
       },
-      "copySha256": "989d2ad04a1c4246f8a2c531456b7c1fff63c885bf1ce692922db33d1360127e",
+      "copySha256": "f6ab5e4a40c15091f694dfe56235d465335fa23dbd26f3d45352afc7b13add7c",
       "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
+        "reference": "Plan dynamique V7.4 prioritaire ; protocole intégré V8.0 expérimental (transitions révisées, travail non homologué)",
         "racine": [
           "Pouvoir choisir autrement",
           "Passer dans des actes qui durent"
@@ -925,16 +925,16 @@
       "conclusionQuestion": "Que peut encore faire la raison devant un refus de l’examiner, sans transformer la recherche de conviction en contrainte ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 625
+        "words": 644
       },
       "review": {
         "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées."
+        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées. Mise à jour V8.0 : transitions revues ; audit des inférences et audit indépendant restent nécessaires."
       },
-      "copySha256": "e9a39a373c8791f36789f2304e3d0b3711dea55b69308b5b6d19799b297e8fe9",
+      "copySha256": "d37ef58770014679a42d0596fdb43a8bead849aa4ae0f5b7e4f944504daf7eba",
       "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
+        "reference": "Plan dynamique V7.4 prioritaire ; protocole intégré V8.0 expérimental (transitions révisées, travail non homologué)",
         "racine": [
           "Être produite par des raisons",
           "Être l’adhésion propre de l’autre"
@@ -998,16 +998,16 @@
       "conclusionQuestion": "Faut-il agir quand les risques d’un possible technique restent incertains et que l’attente elle-même peut priver les hommes d’un bien ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 658
+        "words": 687
       },
       "review": {
         "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées."
+        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées. Mise à jour V8.0 : transitions revues ; audit des inférences et audit indépendant restent nécessaires."
       },
-      "copySha256": "50dfaaca44c97e482bd375e7787d27c72550b0d842de8f6b7d3b2af30fd3c337",
+      "copySha256": "498260196ab24cb87efd14004f3d1eae28c12f7407c7956c97332d2d4e1d082d",
       "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
+        "reference": "Plan dynamique V7.4 prioritaire ; protocole intégré V8.0 expérimental (transitions révisées, travail non homologué)",
         "racine": [
           "Accroître notre pouvoir",
           "Que ce pouvoir reste le nôtre : pouvoir ne pas l’exercer"
@@ -1071,16 +1071,16 @@
       "conclusionQuestion": "Une perte irréparable peut-elle recevoir un sens sans être tenue pour compensée ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 940
+        "words": 952
       },
       "review": {
         "author": "Reconstruction du 29 octobre 2026 : opérateur avant style",
         "status": "propose",
-        "independentReview": "Sources Aristote Physique, Augustin Confessions XI, Bergson Essai et Matière et mémoire citées en paraphrase sans guillemets, textes précis à vérifier. Plusieurs opérations effectives par sous-partie. Aporie non validée (cumul), audit indépendant et sources exactes restant à faire."
+        "independentReview": "Sources Aristote Physique, Augustin Confessions XI, Bergson Essai et Matière et mémoire citées en paraphrase sans guillemets, textes précis à vérifier. Plusieurs opérations effectives par sous-partie. Aporie non validée (cumul), audit indépendant et sources exactes restant à faire. Mise à jour V8.0 : transitions revues ; audit des inférences et audit indépendant restent nécessaires."
       },
-      "copySha256": "9a4ec61e71f35b0047743cda59c11d44900eeaaf22f65875a69bbcde37967c43",
+      "copySha256": "cffa4b9295d7f1d3b04fba23f3d1685c091a23424650279892a0a22f49466755",
       "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
+        "reference": "Plan dynamique V7.4 prioritaire ; protocole intégré V8.0 expérimental (transitions révisées, travail non homologué)",
         "racine": [
           "Faire passer toute chose",
           "Être la durée où les choses se font"
@@ -1144,16 +1144,16 @@
       "conclusionQuestion": "Comment partager les tâches nécessaires qui restent pénibles, sans réserver à certains le travail formateur et à d’autres sa seule contrainte ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 648
+        "words": 669
       },
       "review": {
         "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées."
+        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées. Mise à jour V8.0 : transitions revues ; audit des inférences et audit indépendant restent nécessaires."
       },
-      "copySha256": "88fab60276af55c245b82cd474bbadb004702c228f40f4a29912d0f8fe44db28",
+      "copySha256": "113f7af16397f1c1a1d3bcc355b008ebc791f819212a8c90b93fcfd7add55f4f",
       "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
+        "reference": "Plan dynamique V7.4 prioritaire ; protocole intégré V8.0 expérimental (transitions révisées, travail non homologué)",
         "racine": [
           "Former celui qui l’accomplit",
           "Le laisser maître de ce qu’il fait"
@@ -1217,16 +1217,16 @@
       "conclusionQuestion": "Quand protéger quelqu’un exige de rompre une confiance légitime, comment justifier ce que l’on révèle sans abolir le devoir de discrétion ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 656
+        "words": 676
       },
       "review": {
         "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées."
+        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées. Mise à jour V8.0 : transitions revues ; audit des inférences et audit indépendant restent nécessaires."
       },
-      "copySha256": "0e785b3f93bb72006313b8fff10d3d3e2ed8562564992e378a4ab8469b7b3e96",
+      "copySha256": "2b63f7ce5b764bac7455ee93aad8f98b5eedc86db72ab5081e9912903d264533",
       "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
+        "reference": "Plan dynamique V7.4 prioritaire ; protocole intégré V8.0 expérimental (transitions révisées, travail non homologué)",
         "racine": [
           "Ne pas tromper",
           "Éclairer celui à qui l’on parle"
@@ -1290,12 +1290,12 @@
       "conclusionQuestion": "Lorsque toute vérification est refusée, comment défendre la vérité sans confondre la conviction rationnelle avec une adhésion imposée ?",
       "economy": {
         "principle": "Préserver raisons, objection et réponse avant de supprimer une phrase.",
-        "words": 596
+        "words": 610
       },
       "review": {
         "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées."
+        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées. Mise à jour V8.0 : transitions revues ; audit des inférences et audit indépendant restent nécessaires."
       },
       "subjectVerification": {
         "code": "25-PHGEME1",
@@ -1304,9 +1304,9 @@
         "title": "La vérité est-elle toujours convaincante ?",
         "sourceDocument": "Document officiel de la session 2025, libellé contrôlé page 2 ; index ministériel lié dans la page."
       },
-      "copySha256": "69413820bfeafa14a6612f26ab537921af2313478a47814faf3aedadef2ca4be",
+      "copySha256": "b6191632f4ac6c85b80930fb86999e394e2802a3d86a404d96650ad3577cc7ce",
       "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
+        "reference": "Plan dynamique V7.4 prioritaire ; protocole intégré V8.0 expérimental (transitions révisées, travail non homologué)",
         "racine": [
           "S’imposer par ses raisons",
           "Être reconnue par d’autres esprits"
@@ -1370,12 +1370,12 @@
       "conclusionQuestion": "Comment décider ensemble lorsque les moyens qui promettent un avenir meilleur risquent de supprimer la possibilité de le choisir autrement ?",
       "economy": {
         "principle": "Préserver raisons, objection et réponse avant de supprimer une phrase.",
-        "words": 594
+        "words": 609
       },
       "review": {
         "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées."
+        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées. Mise à jour V8.0 : transitions revues ; audit des inférences et audit indépendant restent nécessaires."
       },
       "subjectVerification": {
         "code": "25-PHGEME1",
@@ -1384,9 +1384,9 @@
         "title": "Notre avenir dépend-il de la technique ?",
         "sourceDocument": "Document officiel de la session 2025, libellé contrôlé page 2 ; index ministériel lié dans la page."
       },
-      "copySha256": "70b1e02f50f07a4dc151a6bae478c30120c03126a1e009bc464d1b50dc226e23",
+      "copySha256": "0f6f2508d0ff702ae83ba6065df60126bc7629f3fc3eb3312b142ea97beb7bff",
       "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
+        "reference": "Plan dynamique V7.4 prioritaire ; protocole intégré V8.0 expérimental (transitions révisées, travail non homologué)",
         "racine": [
           "Être rendu possible par des moyens",
           "Rester le nôtre : choisi"
@@ -1450,12 +1450,12 @@
       "conclusionQuestion": "Qu’apporte une forme artistique à l’expression d’une expérience, que le récit ordinaire et la conversation ne peuvent pas toujours lui donner ?",
       "economy": {
         "principle": "Préserver raisons, objection et réponse avant de supprimer une phrase.",
-        "words": 543
+        "words": 567
       },
       "review": {
         "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées."
+        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées. Mise à jour V8.0 : transitions revues ; audit des inférences et audit indépendant restent nécessaires."
       },
       "subjectVerification": {
         "code": "25-PHTEME1",
@@ -1464,9 +1464,9 @@
         "title": "Avons-nous besoin d’art ?",
         "sourceDocument": "Document officiel de la session 2025, libellé contrôlé page 2 ; index ministériel lié dans la page."
       },
-      "copySha256": "58ab4e949cd37929cbfe9569bd3c472f568e74904d3fac3957fc2e8b46b5f4c1",
+      "copySha256": "a03316e8178ebbd3f5c1d3e7a2aa0e2ec1516e51d59373092ff6a9e02264fe4c",
       "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
+        "reference": "Plan dynamique V7.4 prioritaire ; protocole intégré V8.0 expérimental (transitions révisées, travail non homologué)",
         "racine": [
           "Répondre à un manque réel",
           "Rester l’affaire d’un goût libre"
