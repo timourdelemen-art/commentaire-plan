@@ -70,7 +70,7 @@ ${next(3)}</article></section>`;
   const t=A.transition;
   const s4=`<section class="exercise-wrap atelier-step" data-step="4"><article class="exercise">${stepHead(4,'Écrire la transition.')}
 <p class="quote">Sujet : « ${esc(t.sujet)} »</p>
-<div class="instruction"><p><strong>Acquis :</strong> ${esc(t.acquis)}</p><p><strong>Limite :</strong> ${esc(t.limite)}</p><p>À partir de cette limite, écrivez une question ouverte pour commencer la partie II.</p></div>
+<div class="instruction"><p><strong>Acquis :</strong> ${esc(t.acquis)}</p><p><strong>Limite :</strong> ${esc(t.limite)}</p><p>Écrivez d’abord ce que la partie a démontré, puis la raison pour laquelle cela ne suffit pas. Terminez par une question qui rend nécessaire l’examen de la seconde réponse.</p></div>
 <textarea rows="4" data-feedback-kind="philo-transition" data-feedback-quote="${esc(t.sujet)}" aria-label="Votre transition"></textarea>
 <details class="correction"><summary>Comparer avec une transition possible</summary><p>${esc(t.corrige)}</p><p class="micro">Le modèle du prix : la liberté de Dom Juan réussit à tout garder ouvert, et c’est ce succès qui la ruine. <a class="official-link" href="philosophie-dissertation.html#transitions">Les modèles de transition →</a></p></details>
 ${next(4)}</article></section>`;
@@ -83,6 +83,7 @@ ${next(4)}</article></section>`;
 ${next(5)}</article></section>`;
   const s6=`<section class="exercise-wrap atelier-step" data-step="6" id="corrige"><article class="exercise">${stepHead(6,'Une dissertation complète, du brouillon à la conclusion.')}
 ${corr}
+<div class="instruction"><p><strong>Après le corrigé :</strong> repérez les neuf résultats démontrés (trois dans chaque partie), vérifiez les deux transitions, puis expliquez quelle phrase apporte un résultat nouveau en III.3.</p></div>
 <p class="atelier-done">Atelier terminé. Pour aller plus loin, <a href="#sujets">cinq vrais sujets</a> attendent votre problématique.</p></article></section>`;
   return {essentiel, atelier:`<section class="offer-band atelier-intro" id="atelier"><div class="kicker">L’ATELIER</div><h2>Six exercices, un à la fois.</h2><p>De la problématique à la dissertation complète. Chaque exercice se corrige avant de passer au suivant. Comptez environ une heure, en une ou plusieurs fois. <strong>Le premier est juste en dessous.</strong> <button type="button" class="atelier-all philo-print">Afficher tout l’atelier</button></p></section>
 `+s1+s2+s3+s4+s5+s6};
@@ -101,18 +102,18 @@ function notionPage(n,i){
 <p><a class="btn red" href="${annaleFile(a)}">Travailler ce sujet et lire le corrigé →</a></p>`;
   }else{
     const s=n.sujets[0][0];
-    corr=`<p class="quote">« ${esc(s)} »</p><div class="instruction"><p>Au brouillon, d’abord :</p><ol class="consigne-simple"><li>Répondez au sujet en une phrase qui reprend ses mots.</li><li>Écrivez ce que chaque réponse perd.</li><li>Écrivez la problématique, puis le plan.</li></ol><p>Ouvrez ensuite le corrigé, partie par partie.</p></div>
+    corr=`<p class="quote">« ${esc(s)} »</p><div class="instruction"><p>Au brouillon, d’abord :</p><ol class="consigne-simple"><li>Répondez au sujet en une phrase qui reprend ses mots.</li><li>Établissez ce que chaque réponse démontre et ce qu’elle n’explique pas.</li><li>Essayez de les réunir : si le sujet n’est pas résolu, expliquez pourquoi.</li><li>Écrivez une problématique, puis trois parties de trois étapes et deux transitions.</li></ol><p>Ouvrez ensuite le corrigé, partie par partie.</p></div>
 ${corrigeBlocks(n.corrige)}
 <p class="micro">Ce n’est pas la seule réponse juste : une autre problématique est bonne si elle passe le test du gant. Les auteurs cités ne sont là que parce qu’ils font avancer l’idée ; un devoir sans eux peut être excellent.</p>`;
   }
   corr+=PRINT;
   const sujets=n.sujets.map((s,k)=>`<article class="exercise notion-sujet" id="sujet-${k+1}"><div class="kicker">SUJET ${k+1}</div><p class="quote">« ${esc(s[0])} »</p>
 <label class="sujet-label" for="pb-${k+1}">Formulez le problème de ce sujet en une question.</label>
-<textarea id="pb-${k+1}" rows="4" data-feedback-kind="philo-problematique" data-feedback-quote="${esc(s[0])}" data-feedback-instruction="Sujet de dissertation : « ${esc(s[0])} ». L’élève propose sa problématique : une seule question qui fait voir ce que chaque réponse perd et laisse les deux réponses ouvertes." aria-label="Votre problématique pour ce sujet"></textarea>
+<textarea id="pb-${k+1}" rows="4" data-feedback-kind="philo-problematique" data-feedback-quote="${esc(s[0])}" data-feedback-instruction="Sujet de dissertation : « ${esc(s[0])} ». L’élève propose sa problématique : une question fidèle au sujet et à ses petits mots, qui met en relation deux réponses solides sans fabriquer d’opposition inutile." aria-label="Votre problématique pour ce sujet"></textarea>
 <details class="correction"><summary>Ce qui coince</summary><p>${esc(s[1])}</p></details>
 <details class="correction"><summary>Une scène pour l’introduction</summary><p>${esc(s[2])}</p><p class="micro">Une bonne scène contient déjà le problème : à vous de montrer en quoi.</p></details></article>`).join('\n');
   const consigne=`<details><summary>Une aide pour chercher le problème</summary><ol class="consigne-simple">
-<li>Donnez une première réponse au sujet.</li><li>Cherchez la difficulté qu’elle rencontre, puis examinez la réponse contraire.</li><li>Votre question doit faire apparaître pourquoi aucune des deux réponses ne suffit.</li>
+<li>Donnez une première réponse au sujet.</li><li>Cherchez la difficulté qu’elle rencontre, puis examinez la réponse contraire.</li><li>Essayez de réunir les deux réponses. Si elles suffisent déjà, ne fabriquez pas une difficulté ; sinon, nommez ce qui reste à expliquer.</li>
 </ol><p>Écrivez d’abord votre question ; les pistes sous chaque sujet permettent ensuite de la reprendre.</p></details>`;
   const sujetsSection=`<section class="onglet exercise-wrap" id="sujets"><div class="exercise-intro"><div><div class="kicker">CINQ VRAIS SUJETS DU BAC</div><h2>S’entraîner à trouver le problème.</h2></div><p>Tous ces sujets ont été donnés au baccalauréat. ${n.corrige.annale?'Plus bas, un sujet de 2026 est traité en entier.':'Le premier est traité en entier plus bas.'}</p></div>
 ${consigne}
