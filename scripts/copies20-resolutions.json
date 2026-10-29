@@ -671,13 +671,13 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "La pensée de Merleau-Ponty rend compte des précisions qui naissent au cours d’un dialogue : rectifier, reformuler et expliquer prolongent la responsabilité de celui qui parle.",
+          "proposal": "Parce que les mots sont publics, celui qui parle peut aussi être interrogé et contraint de préciser ce qu’il a voulu dire. Merleau-Ponty permet de penser cette reprise comme une élaboration de la signification, et non comme le simple retour à une intention achevée. Une objection révèle parfois une ambiguïté que personne n’avait remarquée ; la reformulation la résout ou la rend plus visible. La maîtrise devient alors un travail de réponse, plutôt qu’un contrôle acquis avant l’échange.",
           "preserves": [
             "Nous engager : répondre de ce que nous disons",
             "Dire plus que ce que nous avions prévu"
           ],
-          "cost": "Reste qu’une parole peut produire un effet irréversible avant que sa rectification soit entendue.",
-          "remainingProblem": "Comment répondre d’une parole dont on peut corriger le sens, mais dont on ne peut plus réparer tous les effets ?"
+          "cost": "Jusqu’où répondre d’un effet que l’on ne pouvait ni prévoir ni prévenir ?",
+          "remainingProblem": "Jusqu’où répondre d’un effet que l’on ne pouvait ni prévoir ni prévenir ?"
         },
         {
           "id": "alternative-a",
@@ -699,21 +699,21 @@
         }
       ],
       "selected": "retenue",
-      "comparison": "Matrice candidate processualisation de la maîtrise par reprise dialogique et distinction acte/effet. La refonte des neuf opérations n'est pas encore une validation de la double aporie, ni des citations.",
-      "strongestObjection": "L'une des branches ou leur cumul peut être possible avant III : vérifier la racine, le meilleur cas et le présupposé commun.",
-      "responseToObjection": "Non démontré : sans inférences vérifiées, ne pas certifier V7.3.",
-      "residual": "Reste qu’une parole peut produire un effet irréversible avant que sa rectification soit entendue.",
-      "conclusionQuestion": "Comment répondre d’une parole dont on peut corriger le sens, mais dont on ne peut plus réparer tous les effets ?",
+      "comparison": "Matrice candidate : déplacement de la maîtrise entendue comme souveraineté sémantique vers la compétence dans des pratiques publiques, puis processualisation de la rectification dialogique. III.1 établit les usages partagés ; III.2 les reprises ; III.3 l'imputabilité pour les effets irréversibles. Le test de conjonction reste ouvert.",
+      "strongestObjection": "Une intention partiellement maîtrisée et des effets imprévisibles coexistent sans difficulté : le meilleur cas d'une parole claire, comprise et rectifiable rend la double aporie artificielle si aucune nécessité plus forte n'est démontrée.",
+      "responseToObjection": "Les neuf preuves ont été densifiées et les textes d'Austin, Merleau-Ponty, Wittgenstein utilisés comme outils, mais leur attribution est paraphrastique et l'aporie n'est pas encore validée.",
+      "residual": "Jusqu’où répondre d’un effet que l’on ne pouvait ni prévoir ni prévenir ?",
+      "conclusionQuestion": "Jusqu’où répondre d’un effet que l’on ne pouvait ni prévoir ni prévenir ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 594
+        "words": 1014
       },
       "review": {
-        "author": "Révision démonstrative du 28 octobre 2026",
+        "author": "Reconstruction du 29 octobre 2026 à partir du sujet",
         "status": "propose",
-        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées."
+        "independentReview": "Ni test du gant ni conjonction §3.4.9 certifiés, malgré les sous-parties développées. Références primaires à contrôler avant citation littérale et publication. Plusieurs gestes dans chaque unité démonstrative."
       },
-      "copySha256": "92c4d7a0848efe396fc7e4505411a07a317a25c0840bdb27c5129f43b18dd578",
+      "copySha256": "147375ddae63f73b60fb8558566da4374856ca9a09c2d85dd5558de1b0e1845e",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -724,10 +724,10 @@
         "forme": "réciprocité",
         "problematique": "P2 (exemple du catalogue)",
         "branchesIntroduction": "B3 (exemple du catalogue)",
-        "statut": "proposée / non validée",
+        "statut": "Non validée — test de conjonction",
         "cumul": "« Maîtriser les mots, laisser le sens aux autres » : sous le présupposé, maîtriser, c’est fixer le sens d’avance ; si le sens échappe, on ne répond plus que de mots, non de ce qu’ils disent. Le cumul reconduit à la seconde branche.",
         "meilleurCas": "L’orateur le plus préparé découvre encore sa pensée en parlant (Merleau-Ponty) ; l’auditeur le plus bienveillant comprend encore autrement. Les deux pertes survivent.",
-        "matriceCandidate": "processualisation de la maîtrise par reprise dialogique et distinction acte/effet"
+        "matriceCandidate": "déplacement et processualisation dialogique"
       }
     },
     "notion-inconscient": {
