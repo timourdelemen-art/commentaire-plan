@@ -963,7 +963,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Kant permet de vérifier que la dignité des personnes n’est pas négociable contre un simple gain technique : certains moyens restent interdits, même au service d’une fin utile.",
+          "proposal": "Ce résultat ne se déduit pas de la seule mesure d'efficacité : il introduit les droits et les voix affectées par l'intervention.",
           "preserves": [
             "Accroître notre pouvoir",
             "Que ce pouvoir reste le nôtre : pouvoir ne pas l’exercer"
@@ -994,32 +994,32 @@
       "comparison": "Matrice candidate déplacement du possible vers l'usage déterminé et extension temporelle de la responsabilité. La refonte des neuf opérations n'est pas encore une validation de la double aporie, ni des citations.",
       "strongestObjection": "L'une des branches ou leur cumul peut être possible avant III : vérifier la racine, le meilleur cas et le présupposé commun.",
       "responseToObjection": "Non démontré : sans inférences vérifiées, ne pas certifier V7.3.",
-      "residual": "Reste que des conséquences décisives peuvent être inconnues : le jugement doit parfois décider sans pouvoir établir complètement la sécurité d’un projet.",
-      "conclusionQuestion": "Faut-il agir quand les risques d’un possible technique restent incertains et que l’attente elle-même peut priver les hommes d’un bien ?",
+      "residual": "Qui doit pouvoir contester une décision technique lorsque ceux qui en subiront les effets les plus durables ne peuvent pas encore prendre part au débat ?",
+      "conclusionQuestion": "Qui doit pouvoir contester une décision technique lorsque ceux qui en subiront les effets les plus durables ne peuvent pas encore prendre part au débat ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 687
+        "words": 1055
       },
       "review": {
         "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées. Mise à jour V8.0 : transitions revues ; audit des inférences et audit indépendant restent nécessaires."
+        "independentReview": "Reconstruction V7.4 : un seul contre-exemple d'une technique possible mais injustifiable réfute le « toujours ». Les deux premières parties examinent le gain du possible et les risques du refus général ; III justifie selon fins, moyens et effets futurs, sans créer une fausse double aporie. Références en paraphrase, contrôle externe encore nécessaire."
       },
-      "copySha256": "498260196ab24cb87efd14004f3d1eae28c12f7407c7956c97332d2d4e1d082d",
+      "copySha256": "e6c5a6e82bf68a5dec19ce3c6427b0e9b449801d7c91245fb5bac0741fb1416e",
       "protocol": {
         "reference": "Plan dynamique V7.4 prioritaire ; protocole intégré V8.0 expérimental (transitions révisées, travail non homologué)",
         "racine": [
-          "Accroître notre pouvoir",
-          "Que ce pouvoir reste le nôtre : pouvoir ne pas l’exercer"
+          "La technique rend réalisables de véritables biens",
+          "La réussite technique ne justifie ni la fin ni les moyens ni les risques futurs"
         ],
-        "presupposeCommun": "Le souhaitable se déciderait au niveau du possible lui-même, comme puissance accordée ou refusée en bloc.",
-        "forme": "réciprocité",
+        "presupposeCommun": "Une puissance de réaliser serait elle-même une raison suffisante de désirer ; confusion faisabilité / légitimité.",
+        "forme": "contre-exemple à l'universel suivi d'un jugement normatif multi-critères",
         "problematique": "P3",
         "branchesIntroduction": "B2",
-        "statut": "proposée / non validée",
-        "cumul": "« Réaliser les possibles bienfaisants, refuser les dangereux » : sous le présupposé, on trie des possibles ; or un même possible est l’un et l’autre (la même physique fait la centrale et la bombe). Le tri est impossible à ce niveau.",
-        "meilleurCas": "La puissance la mieux intentionnée nous rend encore dépendants de ce qu’elle réalise ; la prudence la plus éclairée prive encore de remèdes si elle refuse en bloc.",
-        "matriceCandidate": "déplacement du possible vers l'usage déterminé et extension temporelle de la responsabilité"
+        "statut": "réécriture argumentative proposée, sans homologation indépendante",
+        "cumul": "Un dispositif techniquement possible peut être souhaitable dans certains usages et indéfendable dans d'autres. Ce constat suffit à réfuter la nécessité universelle ; la III propose des critères de choix, sans invoquer une contradiction conjointe.",
+        "meilleurCas": "Le même outil de localisation peut porter secours ou surveiller arbitrairement : l'évaluation dépend de la fin, du consentement, de la durée et des effets.",
+        "matriceCandidate": "déplacement du critère du possible vers l'usage et la responsabilité"
       }
     },
     "notion-temps": {
