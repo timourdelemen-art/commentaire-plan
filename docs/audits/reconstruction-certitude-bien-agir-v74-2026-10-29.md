@@ -42,3 +42,8 @@ La nouvelle III.3 distingue la certitude ainsi bornée de l'infaillibilité : un
 **Objection résiduelle exigeante :** sommes-nous jamais certains d'avoir inventorié les obligations pertinentes ? Le cas volontairement simple constitue une démonstration de possibilité seulement si les circonstances pertinentes sont effectivement déterminables. Cela reste **une proposition philosophique à éprouver, non une validation scientifique indépendante**. Une théorie qui exige la connaissance exhaustive de tous les effets pourrait rejeter l'exemple, mais elle doit justifier pourquoi ces effets sont constitutifs du bien-agir plutôt que de son succès.
 
 **Statut :** la faute explicite de substitution a été corrigée ; la question épistémologique de la suffisance des connaissances reste ouverte. Aucun protocole n'a été modifié.
+
+## Confrontation primaire complémentaire
+
+- **Kant, *Fondements*, deuxième section, Ak. IV, 407 :** texte primaire allemand vérifié à https://www.korpora.org/Kant/aa04/407.html . Kant soutient explicitement l'impossibilité de certifier par expérience que le motif d'une action conforme au devoir soit purement moral. La III doit donc distinguer sans ambiguïté *conformité juste de l'acte* et *valeur morale de la maxime* ; elle ne doit pas attribuer à Kant l'approbation d'une certitude globale sur la moralité de l'agent.
+- **Weber, *Politik als Beruf* / *Le Savant et le Politique* :** texte primaire allemand vérifié à https://projekt-gutenberg.org/authors/max-weber/books/politik-als-beruf/chapter/2/ : les conséquences prévisibles entrent dans l'éthique de responsabilité ; cette thèse ne justifie pas une certitude portant sur des conséquences inconnues.
