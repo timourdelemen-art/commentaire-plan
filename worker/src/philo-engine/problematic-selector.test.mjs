@@ -53,7 +53,8 @@ test('une matrice candidate doit expliciter ses trois acquis et son coût',()=>{
 });
 test('sélection non automatique même sur fiche complète',()=>{
   const c=exemplaire();
-  const dossier={sujet:c.sujet.libelle,candidates:[c]};
+  const concurrent=exemplaire(); concurrent.id="artiste-critere"; concurrent.relation.type="changement_de_critere";
+  const dossier={sujet:c.sujet.libelle,candidates:[c,concurrent]};
   const without=selectionnerProblematiques(dossier);
   assert.equal(without.selectionProvisoire,null);
   assert.equal(without.homologation,false);
@@ -66,6 +67,18 @@ test('aucune fiche lacunaire n'est choisie par défaut',()=>{
   const c=exemplaire();c.relation.liaisonDesObstacles="";
   const r=selectionnerProblematiques({candidates:[c],arbitrage:{id:c.id,justificationComparative:"x",objectionDecisive:"y",reponseAObjection:"z",relecteur:"A"}});
   assert.deepEqual(r.admissiblesPourExamen,[]);
+  assert.equal(r.selectionProvisoire,null);
+});
+test('plusieurs rapports ne passent que si leur articulation est démontrée',()=>{
+  const c=exemplaire();
+  c.relationsSecondaires=[{type:"retroaction",mecanisme:"Les gestes modifient les conditions du choix",apportDistinct:"La temporalité de cette modification"}];
+  assert(examinerCandidate(c).objectionsDocumentaires.some(x=>x.where==="articulationDesRapports"));
+  c.articulationDesRapports="La dépendance est la structure; la rétroaction en explicite la genèse temporelle";
+  assert.equal(examinerCandidate(c).statut,"recevable_pour_examen_contradictoire");
+});
+test('sélection comparative impossible avec une seule candidate',()=>{
+  const c=exemplaire();
+  const r=selectionnerProblematiques({candidates:[c],arbitrage:{id:c.id,justificationComparative:"une préférence",objectionDecisive:"objection",reponseAObjection:"réponse",relecteur:"Lecteur"}});
   assert.equal(r.selectionProvisoire,null);
 });
 test('répertoire ouvert de relations : le nom seul ne valide rien',()=>{
