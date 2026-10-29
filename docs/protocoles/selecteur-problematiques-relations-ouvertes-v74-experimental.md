@@ -7,7 +7,7 @@ Le **premier protocole** détermine ce qu'il faut établir pour que la dissertat
 
 Le mot *aporie* est retenu **provisoirement** : au sens opératoire, non comme contradiction logique systématique, mais comme **obstacle intrinsèque rencontré par une réponse sérieuse à la question, lorsqu'elle est conduite jusqu'au bout de ses propres raisons**. Si la difficulté n'est qu'une objection contingente ou un exemple gênant, on la note « limite », mais on **ne la certifie pas comme aporie**. Ce choix terminologique demeure soumis à l'audit des textes (Platon, Aristote, etc.).
 
-**Structure de recherche :** sujet → réponses A et B défendables → apories A* et B* → rapport(s) R(A*,B*) → plusieurs problématiques concurrentes → résolutions candidates → reformulation rétrospective contrôlée → sélection après objections.
+**Structure de recherche révisée :** sujet → réponses A et B défendables → apories A* et B* → **première esquisse R₀** → **essai anticipé de deux matrices au moins M₁/M₂** → vérification des apories et **rapport révisé R₁** → **comparaison de couples (R, M) et de formulations** → révision contradictoire jusqu'à une correspondance démontrée. Les matrices ne sont pas ajoutées après fixation du problème : elles participent à la **découverte**, jamais à la preuve automatique de sa nécessité.
 
 Les deux apories demeurent **distinctes** ; leur rapport peut être **variable, composé, réciproque ou asymétrique**. Il faut démontrer **trois choses** : l'aporie A*, l'aporie B*, et le rapport R entre elles. Deux belles limites rapprochées par « mais » ne suffisent pas.
 
@@ -40,7 +40,7 @@ Ces noms sont **des hypothèses comparatives après la lecture**, jamais des cas
 
 **Relations multiples** : possible (par exemple dépendance réciproque + rétroaction) **si** l'on montre que l'une décrit la *structure* de l'interdépendance et l'autre le *mécanisme temporel* qui la produit. Deux dénominations pour la même relation ne gagnent rien.
 
-## Sélection en sept portes — sans score numérique
+## Sélection en huit portes et essai anticipé des matrices — sans score numérique
 
 ### P0. Sujet et opérateur
 Conserver le sujet littéral ; expliciter la portée de *peut-on, faut-il, nécessairement, toujours, savoir, maîtriser, principalement*, etc. Consigner les glissements sémantiques tentants.
@@ -54,6 +54,17 @@ Pour A et B : (a) raison forte ; (b) ce qu'elle prétend légitimement résoudre
 ### P3. Plusieurs liaisons candidates
 Construire plusieurs rapports R(A*,B*), y compris un rapport composite si nécessaire. Les décrire par leurs **inférences** et non par un nom de matrice. Éprouver le meilleur cumul.
 
+### P3 bis. Essai ANTICIPÉ de matrices pour découvrir le rapport
+
+Avant de formuler une problématique définitive, comparer **au moins deux mécanismes de résolution** (y compris une opération inédite). Pour chacun :
+1. **Reprendre A* et B***, en exposant ce que le mécanisme préserverait, expliquerait, ou laisserait irrésolu.
+2. **Déduire une hypothèse de rapport R₁** : quelle relation jusque-là invisible entre les deux obstacles le mécanisme révèle-t-il ? Cette hypothèse peut être réciprocité, asymétrie, métamorphose de critère, relation singulière, ou la constatation **qu'il n'y avait pas deux apories**.
+3. **Comparer R₀ et R₁** et indiquer la prémisse nouvelle requise. Une matrice élégante peut **affaiblir** une architecture : la distinguer nettement d'une solution capable d'enrichir le sujet.
+4. **Éprouver la preuve indépendante** : peut-on défendre les deux obstacles et leur rapport **sans présupposer** la matrice choisie ? Sinon, retour au sujet, non homologation.
+5. **Comparer une matrice concurrente** et le meilleur cumul des deux réponses : qu'est-ce que la première explique que la seconde n'explique pas, ou l'une et l'autre résolvent-elles déjà la question ?
+
+**Règle de correspondance :** la problématique et la matrice se cherchent réciproquement, mais ne se justifient pas circulairement. Le choix porte sur le **couple problème–mécanisme** le plus probant, sans confondre cet essai avec la rédaction de III. Les opérations précises de III.1–III.3 seront ensuite sélectionnées par le protocole II.
+
 ### P4. Sélection comparative de problématiques
 Pour chaque liaison : produire une **question centrale intelligible**. Mesurer sa **puissance** à travers six critères qualitatifs :
 - **Fidélité** : conserve l'opérateur et les significations pertinentes du sujet ;
@@ -65,8 +76,8 @@ Pour chaque liaison : produire une **question centrale intelligible**. Mesurer s
 
 **Aucune pondération ni moyenne ne remplace un jugement argumenté.** Comparer au moins deux architectures et chercher la raison pour laquelle une architecture domine réellement l'autre. Il peut n'y avoir **aucune** candidate suffisamment démontrée : retour à P1/P2, pas d'homologation forcée.
 
-### P5. Aller-retour critique avec les matrices résolutoires
-Après P4 seulement, éprouver duplication, abolition, processualisation, inversion, métamorphose, déplacement, suspension, consentement, ou combinaison. Une résolution peut révéler que la formulation précédente manquait le rapport décisif : **revenir vers P2–P4** et consigner le changement. L'énoncé révisé doit toujours être justifiable **avant** la matrice, avec des prémisses déjà découvertes. Interdit de fabriquer rétroactivement l'aporie pour sauver une III intéressante.
+### P5. Confirmation contradictoire des couples problématique–matrice
+Après P4, **reprendre** les matrices déjà testées en P3 bis, et confronter les couples (problématique, mécanisme) aux réponses les plus fortes et à une solution concurrente plus simple. La matrice peut encore révéler que la formulation précédente manquait le rapport décisif : **revenir vers P2–P4** et consigner ce qui a changé. La problématique révisée doit être défendable **indépendamment** de la résolution. La matrice doit expliciter son mécanisme, son coût, son reste et les acquis distincts de III ; son simple nom n'est ni un argument ni un statut de validation.
 
 ### P6. Correspondance démonstrative avec le plan
 I.1–I.2 : première réponse sérieuse ; I.3 : **aporie A*** démontrée ; II.1–II.2 : seconde réponse, rendue nécessaire par le problème ; II.3 : **aporie B*** démontrée. La transition de II à III met au jour **R(A*,B*)**. III.1, III.2, III.3 : trois avancées non permutables, **déduites du mécanisme R et de la matrice effectivement justifiée**, chacune avec proposition, opération(s) et preuve. Le rapport ne doit pas être un simple titre de III.
