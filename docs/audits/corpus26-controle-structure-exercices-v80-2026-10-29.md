@@ -10,6 +10,10 @@
 - **Rédaction** : quarante transitions ont été reprises dans les vingt sources JSON pour expliciter le gain, la limite et la question nouvelle. Ces changements ne démontrent pas à eux seuls le rapport R.
 - **Vérification structurelle sur les sources lues via GitHub** : 26/26 présentes, 20/20 copies JSON de structure conforme, 6/6 HTML avec deux transitions et les neuf repères ; aucune anomalie détectée sur ces tests de structure et de présence.
 
+## Précision sur les fonctions de phrases
+
+Les 20 copies JSON sont composées de **segments de rédaction annotés**, et non d’une entrée par phrase grammaticale : un segment peut contenir plusieurs phrases. Les cinq autres pages ont des groupes comparables. La présence d’une fonction pour chaque segment est contrôlée ; **l’audit exhaustif de la fonction de chaque phrase à l’intérieur de ces segments n’est pas encore réalisé**. Le générateur a été corrigé pour ne plus annoncer à tort un nombre de « phrases » fondé sur le nombre de segments. Avant validation pédagogique intégrale, contrôler aussi le rôle de chaque phrase, ses prémisses et son effet sur la suivante, sans inventer mécaniquement une fonction.
+
 ## Limite essentielle
 
 **Aucune des 26 copies n’est homologuée en philosophie par ce contrôle.** Les deux apories propres, la liaison R, le meilleur cumul, la préférence entre au moins deux architectures, le caractère nécessaire des trois gains de III et les attributions aux œuvres restent à éprouver contradictoirement. Une question fermée peut admettre une réponse directe sans double impossibilité stricte : ne pas fabriquer artificiellement une crise. La longueur et le nombre de paragraphes ne constituent ni preuve ni note.
