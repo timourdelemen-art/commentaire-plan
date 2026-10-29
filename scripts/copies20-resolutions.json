@@ -1036,7 +1036,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "La deuxième opération précise ce que conserver veut dire. La durée de Bergson n’est pas l’immobilité d’une substance qui resterait identique en tous points ; elle est une continuité travaillée par ce qu’elle traverse. L’adulte ne demeure pas enfant, mais son enfance peut encore orienter sa manière de vivre. Il faut donc distinguer la disparition d’un état et la destruction de l’identité qui s’est formée à travers les états.",
+          "proposal": "Il faut ainsi identifier le terme de la destruction avant d'attribuer à la temporalité un pouvoir universel d'anéantissement.",
           "preserves": [
             "Faire passer toute chose",
             "Être la durée où les choses se font"
@@ -1067,32 +1067,32 @@
       "comparison": "Déplacement de l'attribution causale (le temps comme mesure des changements versus les processus de destruction), associé à la processualisation bergsonienne de la continuité. III.1 distingue condition et cause ; III.2 identité et état ; III.3 nécessité de l'irréversibilité et non-nécessité de l'anéantissement. Risque bloquant de compatibilité immédiate des branches.",
       "strongestObjection": "Un présent cesse de l'être, mais un même être peut se conserver en changeant : on dispose de cette distinction avant la troisième partie. Le test de conjonction 3.4.9 ne passe pas encore.",
       "responseToObjection": "La copie améliore la fidélité au terme « nécessairement » et les preuves des neuf sous-parties ; cela ne valide pas l'aporie. La distinction des types de changement reste à éprouver dans une architecture réellement nécessaire.",
-      "residual": "Une perte irréparable peut-elle recevoir un sens sans être tenue pour compensée ?",
-      "conclusionQuestion": "Une perte irréparable peut-elle recevoir un sens sans être tenue pour compensée ?",
+      "residual": "Comment une existence peut-elle donner sens à ses pertes irréversibles sans prétendre qu'une œuvre ou un souvenir les répare intégralement ?",
+      "conclusionQuestion": "Comment une existence peut-elle donner sens à ses pertes irréversibles sans prétendre qu'une œuvre ou un souvenir les répare intégralement ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 952
+        "words": 1043
       },
       "review": {
         "author": "Reconstruction du 29 octobre 2026 : opérateur avant style",
         "status": "propose",
-        "independentReview": "Sources Aristote Physique, Augustin Confessions XI, Bergson Essai et Matière et mémoire citées en paraphrase sans guillemets, textes précis à vérifier. Plusieurs opérations effectives par sous-partie. Aporie non validée (cumul), audit indépendant et sources exactes restant à faire. Mise à jour V8.0 : transitions revues ; audit des inférences et audit indépendant restent nécessaires."
+        "independentReview": "Réfection V7.4 : « nécessairement » conservé. Perte de la présence ≠ destruction d'un être; condition temporelle ≠ cause suffisante d'une destruction. La coexistence de pertes et de conservation est reconnue, non proclamée aporie stricte. Neuf sous-parties rédigées avec fonctions de chaque phrase, sans citation littérale nouvelle. Contrôle primaire et lecture indépendante non certifiés."
       },
-      "copySha256": "cffa4b9295d7f1d3b04fba23f3d1685c091a23424650279892a0a22f49466755",
+      "copySha256": "9494b1b59af173e630d0b2144aeb13093fbbd0630d47112a3fc134da9d5babee",
       "protocol": {
         "reference": "Plan dynamique V7.4 prioritaire ; protocole intégré V8.0 expérimental (transitions révisées, travail non homologué)",
         "racine": [
-          "Faire passer toute chose",
-          "Être la durée où les choses se font"
+          "La présence de chaque moment passe nécessairement",
+          "Des existences se conservent et se transforment au cours du temps"
         ],
-        "presupposeCommun": "Passer, ce serait être anéanti : ce que le temps fait passer ne serait plus rien.",
-        "forme": "réciprocité",
+        "presupposeCommun": "Toute perte d'état serait destruction de l'être ; toute destruction dans le temps serait causée par le temps.",
+        "forme": "dissociation causalité/condition et contrôle du quantificateur",
         "problematique": "hors catalogue justifiée : alternative croisée à « alors que » (chaque branche nomme ce qu’exige l’autre)",
         "branchesIntroduction": "B2",
-        "statut": "non validée — antériorité / conjonction 3.4.9",
-        "cumul": "« Le temps crée, puis détruit » : sous le présupposé, toute création finit dans le néant ; l’alternance reconduit au oui, le temps est destructeur en dernier ressort. Le cumul est exclu.",
-        "meilleurCas": "La vie la plus féconde finit ; la rose la plus belle a fallu éclore. Les deux constats survivent.",
-        "matriceCandidate": "déplacement de l'attribution causale + processualisation"
+        "statut": "reconstruction V7.4 proposée, audit contradictoire indépendant non accompli",
+        "cumul": "Le temps est le cadre de transformations productives et de destructions réelles : ces propositions coexistent immédiatement et ne forment pas une impossibilité conjointe. Le travail de III est de distinguer condition, causalité et critère de destruction.",
+        "meilleurCas": "Le vieillissement et le travail de mémoire d'un même être sont compatibles ; la seule présence d'effets contraires ne montre pas que le temps détruit nécessairement.",
+        "matriceCandidate": "déplacement de l'attribution causale et distinction des espèces de changement"
       }
     },
     "notion-travail": {
