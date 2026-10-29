@@ -572,99 +572,191 @@
       "INTRODUCTION",
       [
         [
-          "Dans Matrix, Cypher a découvert que le monde où il vivait n’était qu’une illusion et que le monde réel était un désert froid : il trahit alors ses compagnons pour être rebranché et tout oublier.",
-          "La scène d’ouverture"
+          "Dans Matrix, Cypher accepte de retourner à une existence illusoire, à condition d'oublier ce qu'il sait du monde réel.",
+          "Scène d’ouverture : un bonheur recherché par l’oubli"
         ],
         [
-          "Savourant un steak dont il sait qu’il n’existe pas, il conclut que l’ignorance fait le bonheur ; on le méprise, on le comprend aussi.",
-          "Ce que la scène fait voir : le problème, avant les grands mots"
+          "Il espère ainsi retrouver le plaisir sans l'inquiétude de connaître la vérité, mais son choix même suppose qu'il sait ce qu'il sacrifie.",
+          "Faire surgir le coût de la scène"
         ],
         [
-          "On attend du bonheur qu’il nous laisse en repos, mais aussi qu’il dure, c’est-à-dire qu’il tienne face aux dangers réels.",
-          "Ce que la notion demande : deux exigences"
+          "L'inconscience désigne ici l'ignorance ou le refus de considérer ce qui peut nous atteindre, non l'inconscient au sens de la psychanalyse.",
+          "Délimiter le sens du terme"
         ],
         [
-          "« Faut-il… pour » cherche une condition nécessaire, et « inconscient » veut dire ici insouciant, aveugle à ce qui menace, et non l’inconscient des psychanalystes.",
-          "Les mots du sujet"
+          "Demander s'il « faut » être inconscient, c'est demander si l'ignorance est une condition nécessaire du bonheur, et non si elle peut parfois nous soulager.",
+          "Fixer exactement l’opérateur de nécessité"
         ],
         [
-          "L’insouciance peut nous préserver de craintes inutiles, sans devenir pour cela une condition nécessaire du bonheur dans tous les cas.",
-          "La première réponse, et ce qu’elle perd"
+          "L'ignorance semble préserver la joie de l'anticipation du mal, mais elle laisse le danger agir et rend parfois incapable d'y répondre.",
+          "Construire la réponse favorable et sa limite propre"
         ],
         [
-          "La lucidité peut nous préparer aux dangers et dissiper des peurs imaginaires ; elle ne supprime ni toute souffrance ni toute incertitude.",
-          "La réponse contraire, et ce qu’elle perd"
+          "Inversement, comprendre ce qui nous menace permet de choisir et d'agir, mais une conscience réduite à surveiller les risques ruinerait le repos recherché.",
+          "Construire la réponse contraire et sa limite propre"
         ],
         [
-          "Faut-il être inconscient pour être heureux, alors que l’ignorance d’un danger évite parfois la peur mais prive aussi des moyens de le prévenir ?",
-          "La problématique : une seule question, deux pertes"
+          "Comment le bonheur pourrait-il se passer de l'inconscience, si savoir permet de prévenir le mal mais expose aussi à s'inquiéter de ce qui n'arrive pas encore ?",
+          "Problématique : rapport entre savoir et crainte, sans poser de contradiction factice"
         ],
         [
-          "Il faudra comprendre ce que protège l’insouciance, ce que coûte la lucidité, puis s’il faut vraiment choisir entre elles.",
-          "L’annonce du plan, sans dévoiler la troisième partie"
+          "Nous examinerons ce que protège l'oubli, ce que rend possible la lucidité, puis la différence entre comprendre un risque et vivre sous sa menace.",
+          "Annonce de la progression"
         ]
       ]
     ],
     [
-      "I. L’INSOUCIANCE PROTÈGE LE REPOS",
+      "I. L’IGNORANCE PEUT PROTÉGER UNE JOIE IMMÉDIATE",
       [
         [
-          "Pascal, dans les Pensées, montre que le divertissement écarte la contemplation de notre fragilité. L’insouciance peut sembler protéger la joie.",
-          "I.1 Établir : référence opératoire"
+          "Une personne qui ignore un danger ne souffre pas de l'attendre, alors qu'une personne avertie peut perdre son repos avant même que ce danger se réalise.",
+          "I.1 — Établir une différence affective par un cas contrôlé"
         ],
         [
-          "Le divertissement décrit par Pascal possède une nécessité psychologique : une conscience constamment tournée vers ses pertes possibles risque de ruiner le repos qu’elle recherche.",
-          "I.2 Fonder : référence opératoire"
+          "C'est la représentation du mal à venir, et non le mal encore absent, qui explique ici la différence entre les deux personnes.",
+          "I.1 — Isoler le mécanisme causal pertinent"
         ],
         [
-          "Mais Spinoza, dans l’Éthique (IV), rappelle notre dépendance envers les causes extérieures : ignorer une menace ne supprime pas son effet réel.",
-          "I.3 Éprouver : référence opératoire"
+          "L'ignorance possède donc un avantage réel : elle épargne certaines souffrances anticipées.",
+          "I.1 — Dégager le premier acquis sans le généraliser"
         ],
         [
-          "L’ignorance écarte parfois la crainte mais ne supprime pas le danger. Le bonheur peut-il plutôt être soutenu par la lucidité ?",
-          "Transition I→II : gain, limite interne, nécessité de II"
+          "Pascal décrit dans les Pensées le divertissement par lequel l'homme détourne son attention de sa condition et des inquiétudes qu'elle suscite.",
+          "I.2 — Mobiliser Pascal pour expliquer l’évitement"
+        ],
+        [
+          "L'occupation peut réellement empêcher la pensée de se fixer sur une menace impossible à supprimer par la seule volonté.",
+          "I.2 — Déduire la fonction affective du divertissement"
+        ],
+        [
+          "Il serait pourtant abusif de transformer cette description en preuve que Pascal recommande l'inconscience comme condition du bonheur.",
+          "I.2 — Écarter une attribution abusive"
+        ],
+        [
+          "Tout ce qui nous distrait d'une inquiétude ne nous protège pas nécessairement du mal qui l'a causée.",
+          "I.2 — Distinguer soulagement subjectif et protection réelle"
+        ],
+        [
+          "Si une personne ignore une maladie dont les premiers signes permettent un traitement, son calme momentané peut lui faire manquer une possibilité de guérison.",
+          "I.3 — Soumettre la thèse au meilleur contre-exemple"
+        ],
+        [
+          "Ce qui écarte l'angoisse retire alors une information dont dépend la possibilité de continuer à vivre et à être heureux.",
+          "I.3 — Déduire un coût interne de l’ignorance"
+        ],
+        [
+          "L'inconscience ne saurait ainsi être tenue pour une condition universellement nécessaire du bonheur : dans ce cas, elle détruit une condition de sa durée.",
+          "I.3 — Conclure sur la modalité exacte du sujet"
+        ],
+        [
+          "L'ignorance épargne parfois une inquiétude, mais elle peut aussi priver des moyens d'éviter un mal réel ; cherchons ce que la conscience apporte à la joie sans supposer qu'elle supprime tout risque.",
+          "Transition I→II : acquis, insuffisance, nouvelle exigence"
         ]
       ]
     ],
     [
-      "II. SE SAVOIR HEUREUX",
+      "II. LA LUCIDITÉ PEUT SOUTENIR LE BONHEUR SANS GARANTIR L’ABSENCE DE PEINE",
       [
         [
-          "Épicure, dans la Lettre à Ménécée, montre que la crainte de la mort confond un événement et une souffrance dont personne n’aura l’expérience.",
-          "II.1 Établir : référence opératoire"
+          "Savoir qu'un risque existe permet d'en examiner la probabilité et d'agir sur les causes que l'on peut modifier.",
+          "II.1 — Fonder positivement le rôle pratique de la connaissance"
         ],
         [
-          "Dans l’Éthique (V), Spinoza fait de la compréhension des causes une transformation de notre rapport aux affects : la lucidité peut diminuer le trouble.",
-          "II.2 Fonder : référence opératoire"
+          "Une personne qui connaît les dangers d'une route peut conduire prudemment et éprouver du plaisir au voyage ; son savoir ne la rend pas nécessairement malheureuse.",
+          "II.1 — Construire un contre-modèle à la nécessité de l’inconscience"
         ],
         [
-          "Mais Montaigne, dans les Essais, rappelle que le vivant demeure exposé à l’incertain. La lucidité conçue comme surveillance absolue reconduit l’inquiétude.",
-          "II.3 Éprouver : référence opératoire"
+          "Il suffit qu'un bonheur lucide soit possible pour réfuter l'idée qu'il faille toujours ignorer afin d'être heureux.",
+          "II.1 — Appliquer explicitement le quantificateur du sujet"
         ],
         [
-          "Un bonheur lucide constitue déjà un contre-exemple à la nécessité de l’inconscience. Reste à expliquer comment la connaissance d’un danger peut permettre d’agir sans transformer la vie en inquiétude permanente.",
-          "Transition II→III : confronter les deux limites et le meilleur cumul"
+          "Épicure, dans la Lettre à Ménécée, conteste la peur de la mort en examinant ce qu'elle signifie pour celui qui l'imagine.",
+          "II.2 — Présenter une analyse philosophique de la crainte"
+        ],
+        [
+          "Son argument ne consiste pas à rendre le mortel inconscient de sa fin, mais à distinguer une souffrance éprouvée d'une représentation qui nous tourmente inutilement.",
+          "II.2 — Dégager la distinction opératoire"
+        ],
+        [
+          "Un savoir juste peut ainsi diminuer la peur au lieu de la produire, parce qu'il corrige l'objet même de notre anticipation.",
+          "II.2 — Déduire un effet libérateur de la lucidité"
+        ],
+        [
+          "L'opposition brute entre savoir et bonheur ne résiste pas à ce cas : la manière de penser le danger importe plus que sa simple présence à l'esprit.",
+          "II.2 — Identifier le gain philosophique de II"
+        ],
+        [
+          "Mais savoir que l'avenir reste incertain ne permet pas d'en calculer toutes les conséquences, même lorsque l'on connaît déjà les dangers principaux.",
+          "II.3 — Éprouver la limite interne de la prudence"
+        ],
+        [
+          "Une conscience qui demanderait d'écarter tous les risques avant de se réjouir trouverait toujours une nouvelle éventualité à surveiller.",
+          "II.3 — Démontrer la dérive de la lucidité en vigilance illimitée"
+        ],
+        [
+          "La lucidité ne suffit donc pas si elle devient la prétention impossible de garantir à l'avance toutes les conditions du bonheur.",
+          "II.3 — Formuler l’obstacle propre à la seconde réponse"
+        ],
+        [
+          "Une personne peut être informée et sereine : la coexistence du savoir et de la joie réfute déjà la nécessité de l'inconscience, mais n'explique pas encore comment discerner ce qui mérite notre attention de ce qui nourrit seulement l'angoisse.",
+          "Transition II→III : tester le meilleur cumul et identifier un déficit précis"
         ]
       ]
     ],
     [
-      "III. LA LUCIDITÉ PEUT TRANSFORMER LA CRAINTE",
+      "III. ÊTRE HEUREUX EN CONNAISSANCE DE CAUSE N’EST PAS TOUT PRÉVOIR",
       [
         [
-          "Épicure permet de distinguer le mal réel de la représentation qui le rend effrayant : se délivrer d’une peur n’exige pas de nier son objet.",
-          "III.1 Établir : référence opératoire"
+          "Il faut d'abord distinguer le danger dont on possède des raisons précises de l'hypothèse que l'imagination multiplie sans limite.",
+          "III.1 — Première opération : qualifier l’objet de la crainte"
         ],
         [
-          "Spinoza fournit l’opération suivante : comprendre un affect change notre manière de le subir et rend possibles d’autres actions.",
-          "III.2 Fonder : référence opératoire"
+          "La peur d'une maladie signalée par des symptômes vérifiables appelle une enquête, tandis que la crainte de toutes les maladies possibles ne peut déterminer aucune conduite précise.",
+          "III.1 — Éprouver la distinction par deux situations voisines"
         ],
         [
-          "Il faut encore reconnaître que la connaissance ne supprime pas les douleurs véritables. L’inconscience n’est pas nécessaire au bonheur ; une lucidité qui ne prétend pas tout prévenir peut néanmoins le rendre plus solide.",
-          "III.3 Éprouver : référence opératoire"
+          "Épicure fournit ici une méthode : examiner ce que l'on redoute pour savoir si la représentation ajoute au réel une souffrance inutile.",
+          "III.1 — Relier la distinction à l’analyse épicurienne"
         ],
         [
-          "Reste la souffrance liée à un mal réel, notamment la perte d’un proche : réfuter une peur imaginaire ne supprime pas cette douleur.",
-          "III.3 Le reste : ce que cette réponse ne règle pas"
+          "La conscience utile au bonheur ne consiste donc ni à fermer les yeux ni à considérer chaque éventualité comme une menace actuelle.",
+          "III.1 — Établir le premier résultat nouveau"
+        ],
+        [
+          "Une fois le danger évalué, il faut distinguer ce qui dépend de notre action de ce qui demeure hors de sa portée.",
+          "III.2 — Deuxième opération : déplacer le savoir vers la décision"
+        ],
+        [
+          "Préparer une réponse à un risque modifiable relève de la prudence ; répéter sans fin une hypothèse sur laquelle aucune action n'est possible n'améliore ni la sécurité ni la joie.",
+          "III.2 — Déduire deux usages différents d’une même conscience"
+        ],
+        [
+          "Chez Spinoza, comprendre les causes des affects permet de modifier notre manière d'être affectés, mais comprendre ne signifie pas abolir notre dépendance envers les causes extérieures.",
+          "III.2 — Mobiliser une pensée sans promettre l’invulnérabilité"
+        ],
+        [
+          "Le savoir peut donc servir le bonheur lorsqu'il oriente une action possible et cesse de se prendre pour une assurance contre tout événement.",
+          "III.2 — Établir le second résultat, pratique et non seulement cognitif"
+        ],
+        [
+          "Reste qu'une personne prudente peut perdre ce qui lui est cher malgré toutes ses précautions.",
+          "III.3 — Soumettre le résultat au cas le plus résistant"
+        ],
+        [
+          "Si être heureux signifiait ne pouvoir jamais être atteint, ni l'ignorance ni la connaissance ne suffiraient : la première laisse agir le mal, la seconde ne peut l'empêcher toujours.",
+          "III.3 — Montrer l’échec du critère commun d’invulnérabilité"
+        ],
+        [
+          "Il faut alors distinguer une joie effectivement vécue de la garantie imaginaire qu'elle ne sera jamais perdue.",
+          "III.3 — Troisième opération : changer le critère temporel du bonheur"
+        ],
+        [
+          "L'inconscience n'est pas nécessaire pour accueillir une joie vulnérable ; la lucidité rend même possible de la reconnaître comme précieuse sans croire la posséder pour toujours.",
+          "III.3 — Déduire le troisième résultat et répondre à « faut-il »"
+        ],
+        [
+          "Comment soutenir durablement une vie heureuse lorsque la douleur ne vient plus d'une anticipation trompeuse, mais d'une perte effectivement subie ?",
+          "III.3 Le reste : cas non résolu par la distinction"
         ]
       ]
     ],
@@ -672,15 +764,15 @@
       "CONCLUSION",
       [
         [
-          "Il ne faut pas être inconscient pour être heureux : connaître un mal n’oblige pas à le craindre, et c’est l’examen, non l’oubli, qui rend au bonheur son repos.",
-          "La réponse au sujet, et ce qui a changé"
+          "Il ne faut pas être inconscient pour être heureux : l'ignorance soulage certaines craintes, mais peut nous livrer au danger, tandis qu'une conscience bien dirigée peut à la fois corriger les peurs et guider l'action.",
+          "Répondre clairement à la question de nécessité"
         ],
         [
-          "Cypher échange la vérité contre un steak : il cherche la paix dans l’oubli, sans s’être jamais demandé ce qu’il craignait au juste dans le monde réel.",
-          "Le retour à la scène : ce que le raisonnement y fait voir"
+          "La sérénité de Cypher repose sur l'effacement choisi d'un savoir ; elle montre la tentation de l'oubli, non la preuve que nul bonheur ne soit possible dans la vérité.",
+          "Retour critique à la scène, sans extrapolation"
         ],
         [
-          "Lorsque la souffrance vient d’une perte réelle que comprendre ne supprime pas, comment la lucidité peut-elle encore contribuer au bonheur ?",
+          "Comment soutenir durablement une vie heureuse lorsque la douleur ne vient plus d'une anticipation trompeuse, mais d'une perte effectivement subie ?",
           "Le reste devient une nouvelle question"
         ]
       ]
