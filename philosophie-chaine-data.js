@@ -170,7 +170,7 @@ niveau1: [
    ['L’inspiration.','no','Il la garde : c’est la force du non.'],
    ['Son public.','no','Le sujet ne parle pas du public.']]},
   {b:'pb',p:'pb',q:'Quelle question met ces deux pertes face à face ?',o:[
-   ['L’artiste sait-il ce qu’il fait, si son savoir-faire rend l’œuvre possible mais qu’aucune règle ne détermine entièrement l’invention ?','ok','Oui : le métier et l’invention, chacun avec ce qu’il perd.'],
+   ['L’artiste sait-il ce qu’il fait, si l’œuvre exige des décisions qu’il peut justifier, mais acquiert au cours de son élaboration une forme qu’il ne pouvait connaître d’avance ?','ok','Oui : le métier et l’invention, chacun avec ce qu’il perd.'],
    ['L’artiste sait-il ou ne sait-il pas ce qu’il fait ?','no','C’est le sujet redit : aucune perte n’apparaît.'],
    ['Comment l’artiste pourrait-il savoir ce qu’il fait, puisque l’inspiration le dépasse et que l’œuvre lui vient d’un lieu qu’il ne connaît pas lui-même ?','no','La question a déjà répondu : elle suppose qu’il ne le sait pas.']]}
  ]}
