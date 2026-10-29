@@ -88,7 +88,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Le fait que la religion ait assuré ces fonctions ne prouve pas qu’elle seule puisse les assurer. Une communauté peut reconnaître des droits et organiser une solidarité sans partager une révélation, un culte ou une autorité sacrée.",
+          "proposal": "La différence ne tient donc pas à l'absence de tout rite, mais à la possibilité pour les participants d'en discuter le sens et la légitimité.",
           "preserves": [
             "Relier tous les hommes par des fins communes",
             "Rester faite d’hommes qui jugent par eux-mêmes"
@@ -116,34 +116,35 @@
         }
       ],
       "selected": "retenue",
-      "comparison": "La distinction fonction/forme montre une possibilité sans nier le besoin de lien ni rebaptiser toute morale religion ; son risque de sacralisation est explicitement conservé.",
-      "strongestObjection": "Les principes laïques peuvent devenir aussi dogmatiques qu’un culte.",
-      "responseToObjection": "La différence porte sur la possibilité de critique, non sur une immunité de la laïcité à tout dogmatisme.",
-      "residual": "Reste que des principes discutables peuvent être sacralisés : un lien initialement ouvert à la critique peut devenir un dogme qui interdit de le contester.",
-      "conclusionQuestion": "Des convictions assez fortes pour unir les hommes peuvent-elles rester ouvertes à l’examen qui les a fondées ?",
+      "comparison": "Matrice candidate métamorphose du lien : maintenir la fonction sociale en transformant sa source, conjonction à éprouver. La refonte des neuf opérations n'est pas encore une validation de la double aporie, ni des citations.",
+      "strongestObjection": "L'une des branches ou leur cumul peut être possible avant III : vérifier la racine, le meilleur cas et le présupposé commun.",
+      "responseToObjection": "Non démontré : sans inférences vérifiées, ne pas certifier V7.3.",
+      "residual": "Comment éviter qu'une institution qui prétend unir tous les hommes n'interdise finalement de contester les valeurs qu'elle proclame communes ?",
+      "conclusionQuestion": "Comment éviter qu'une institution qui prétend unir tous les hommes n'interdise finalement de contester les valeurs qu'elle proclame communes ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 856
+        "words": 1163
       },
       "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
+        "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
+        "independentReview": "Reconstruction sous priorité V7.4 : le passage de la fonction sociale des rites à la nécessité logique du religieux est invalidé. Meilleur contre-modèle : institutions et pratiques civiques révisables. La réponse directe de possibilité est recevable ; ne pas certifier une double aporie. Références à vérifier dans leurs éditions, aucune citation littérale ajoutée."
       },
-      "copySha256": "2c4cc3f67eb62c019c2af231b9d4d74227883f8ddbee593697379750b7c41a5b",
+      "copySha256": "e9650b0816d23890f77f3f1967dfcbd78f0d190dce84f2efd116ea64b3ca36e0",
       "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
+        "reference": "Plan dynamique V7.4 prioritaire ; protocole intégré V8.0 expérimental (transitions révisées, travail non homologué)",
         "racine": [
-          "Relier tous les hommes par des fins communes",
-          "Rester faite d’hommes qui jugent par eux-mêmes"
+          "Les humains peuvent se reconnaître des obligations sans foi commune",
+          "Les pratiques collectives rendent possible une vie sociale effective"
         ],
-        "presupposeCommun": "Le lien commun ne pourrait naître que d’une croyance partagée et soustraite à l’examen.",
-        "forme": "réciprocité",
+        "presupposeCommun": "Toute pratique collective fondant un lien social serait nécessairement religieuse ; généralisation injustifiée de fonction en essence.",
+        "forme": "preuve par contre-modèle + distinction de portée, non aporie conjointe stricte",
         "problematique": "P2 (double question coordonnée, modalité « pouvoir » conservée)",
         "branchesIntroduction": "B1",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
-        "cumul": "« La raison pour le savoir, la religion pour le lien » : sous le présupposé, le lien exige une croyance qu’on n’examine pas, alors que la raison examine tout ; les deux domaines portent sur le même objet, les croyances qui unissent. Le cumul est exclu.",
-        "meilleurCas": "Une humanité de croyants tolérants reste unie par ce qu’elle ne met pas en doute ; une humanité d’esprits rationnels de bonne foi n’a toujours pas, sous le présupposé, de quoi les relier."
+        "statut": "reconstruction argumentative proposée ; pas d'homologation externe",
+        "cumul": "Une société sans adhésion au sacré, munie de règles publiques, de pratiques symboliques et d'un droit de critique, est pensable. Cette possibilité répond à l'opérateur ; la III explicite seulement les conditions du contre-modèle.",
+        "meilleurCas": "Des personnes religieuses et non religieuses coopèrent dans des institutions communes sans conférer une autorité sacrée aux normes publiques ; l'existence conceptuelle d'un tel modèle n'implique pas son actualisation historique universelle.",
+        "matriceCandidate": "dissociation de la fonction sociale et du fondement religieux, institution des médiations critiques."
       }
     },
     "2026-an-artiste-sait": {
@@ -304,7 +305,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "La lucidité distingue alors un danger réel d’une représentation qui nous tourmente : connaître peut diminuer la crainte au lieu de l’accroître.",
+          "proposal": "Le savoir peut donc servir le bonheur lorsqu'il oriente une action possible et cesse de se prendre pour une assurance contre tout événement.",
           "preserves": [
             "Laisser en repos",
             "Durer face aux dangers réels"
@@ -332,34 +333,35 @@
         }
       ],
       "selected": "retenue",
-      "comparison": "L’examen des représentations donne un mécanisme local d’apaisement, sans confondre absence de contrôle et absence de douleur ; le consentement reste utile devant la perte réelle.",
-      "strongestObjection": "La lucidité peut établir une menace réelle et irréparable.",
-      "responseToObjection": "La copie limite explicitement sa portée : le savoir peut défaire une crainte imaginaire, pas supprimer tout mal réel.",
-      "residual": "Reste la souffrance liée à un mal réel, notamment la perte d’un proche : réfuter une peur imaginaire ne supprime pas cette douleur.",
-      "conclusionQuestion": "Lorsque la souffrance vient d’une perte réelle que comprendre ne supprime pas, comment la lucidité peut-elle encore contribuer au bonheur ?",
+      "comparison": "Matrice candidate inversion du rapport connaissance/crainte et distinction de l’imaginaire du réel. La refonte des neuf opérations n'est pas encore une validation de la double aporie, ni des citations.",
+      "strongestObjection": "L'une des branches ou leur cumul peut être possible avant III : vérifier la racine, le meilleur cas et le présupposé commun.",
+      "responseToObjection": "Non démontré : sans inférences vérifiées, ne pas certifier V7.3.",
+      "residual": "Comment soutenir durablement une vie heureuse lorsque la douleur ne vient plus d'une anticipation trompeuse, mais d'une perte effectivement subie ?",
+      "conclusionQuestion": "Comment soutenir durablement une vie heureuse lorsque la douleur ne vient plus d'une anticipation trompeuse, mais d'une perte effectivement subie ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 710
+        "words": 1039
       },
       "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
+        "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
+        "independentReview": "Reconstruction V7.4. Le sujet portant sur une condition nécessaire, le meilleur cumul d'une personne lucide et heureuse réfute cette nécessité. Trois gains nouveaux proposés en III ; l'existence d'un rapport R aporétique plus fort que la réponse directe reste à démontrer. Aucune citation littérale ajoutée."
       },
-      "copySha256": "af44284863573e67e4539cc213f23a85ac77d63b0a0db925835b536badcfab3f",
+      "copySha256": "009d8e71d651c473fbeaffeea072577c67110c589deced72b7a711ed5696b30a",
       "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
+        "reference": "Plan dynamique V7.4 prioritaire ; protocole intégré V8.0 expérimental (transitions révisées, travail non homologué)",
         "racine": [
-          "Laisser en repos",
-          "Durer face aux dangers réels"
+          "L’ignorance peut éviter la souffrance anticipée mais non le danger réel",
+          "La lucidité donne une prise sur les risques mais peut dégénérer en vigilance permanente"
         ],
-        "presupposeCommun": "Connaître une menace, ce serait nécessairement la craindre.",
-        "forme": "réciprocité",
-        "problematique": "P3",
+        "presupposeCommun": "Être heureux exigerait de ne jamais rencontrer de danger ; connaître le danger signifierait nécessairement le craindre.",
+        "forme": "distinction critique et réorientation pratique ; non double impossibilité",
+        "problematique": "Faut-il être inconscient : nécessité réfutée, difficulté résiduelle portant sur l'attention",
         "branchesIntroduction": "B2",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
-        "cumul": "« Ignorer ce qu’on ne peut changer, connaître ce qu’on peut prévenir » : pour trier les menaces, il faut les connaître toutes ; sous le présupposé, c’est déjà les craindre. Le cumul suppose le savoir qu’il voulait éviter.",
-        "meilleurCas": "Un insouciant que rien ne frappe n’est heureux que par chance ; un lucide qui peut agir sur tout reste, sous le présupposé, inquiet de ce qu’il voit."
+        "statut": "proposée / non validée",
+        "cumul": "Meilleur cumul possible : connaître les risques, prendre les précautions adaptées et rester heureux. La réunion des deux attitudes résout la nécessité demandée ; la III explore seulement ce qui distingue attention justifiée et angoisse.",
+        "meilleurCas": "La personne sereine et correctement informée constitue le contre-exemple qui interdit d'affirmer la nécessité de l'inconscience.",
+        "matriceCandidate": "Déplacement du critère : invulnérabilité imaginaire vers joie vulnérable effectivement vécue."
       }
     },
     "2026-asie-langage": {
@@ -952,7 +954,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Une fin digne ne rend pas tous ses moyens acceptables : soigner n’autorise pas une expérience imposée à ceux qui en subiront les risques.",
+          "proposal": "Ce résultat ne se déduit pas de la seule mesure d'efficacité : il introduit les droits et les voix affectées par l'intervention.",
           "preserves": [
             "Accroître notre pouvoir",
             "Que ce pouvoir reste le nôtre : pouvoir ne pas l’exercer"
@@ -980,34 +982,35 @@
         }
       ],
       "selected": "retenue",
-      "comparison": "L’examen conjoint fins/moyens/risques inclut les personnes absentes du choix ; il conserve l’innovation sans assimiler accord public et justification morale.",
-      "strongestObjection": "Refuser dans l’incertitude peut priver d’un remède.",
-      "responseToObjection": "Le risque de ne pas agir entre dans la comparaison ; son arbitrage avec le risque de réalisation est le reste.",
-      "residual": "Reste que des conséquences décisives peuvent être inconnues : le jugement doit parfois décider sans pouvoir établir complètement la sécurité d’un projet.",
-      "conclusionQuestion": "Faut-il agir quand les risques d’un possible technique restent incertains et que l’attente elle-même peut priver les hommes d’un bien ?",
+      "comparison": "Matrice candidate déplacement du possible vers l'usage déterminé et extension temporelle de la responsabilité. La refonte des neuf opérations n'est pas encore une validation de la double aporie, ni des citations.",
+      "strongestObjection": "L'une des branches ou leur cumul peut être possible avant III : vérifier la racine, le meilleur cas et le présupposé commun.",
+      "responseToObjection": "Non démontré : sans inférences vérifiées, ne pas certifier V7.3.",
+      "residual": "Qui doit pouvoir contester une décision technique lorsque ceux qui en subiront les effets les plus durables ne peuvent pas encore prendre part au débat ?",
+      "conclusionQuestion": "Qui doit pouvoir contester une décision technique lorsque ceux qui en subiront les effets les plus durables ne peuvent pas encore prendre part au débat ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 775
+        "words": 1055
       },
       "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
+        "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
+        "independentReview": "Reconstruction V7.4 : un seul contre-exemple d'une technique possible mais injustifiable réfute le « toujours ». Les deux premières parties examinent le gain du possible et les risques du refus général ; III justifie selon fins, moyens et effets futurs, sans créer une fausse double aporie. Références en paraphrase, contrôle externe encore nécessaire."
       },
-      "copySha256": "3c13c3dc2f416cd1a59c111c38abf96b50577fdb6b1d7dbaaf92f94c6e2a3c32",
+      "copySha256": "e6c5a6e82bf68a5dec19ce3c6427b0e9b449801d7c91245fb5bac0741fb1416e",
       "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
+        "reference": "Plan dynamique V7.4 prioritaire ; protocole intégré V8.0 expérimental (transitions révisées, travail non homologué)",
         "racine": [
-          "Accroître notre pouvoir",
-          "Que ce pouvoir reste le nôtre : pouvoir ne pas l’exercer"
+          "La technique rend réalisables de véritables biens",
+          "La réussite technique ne justifie ni la fin ni les moyens ni les risques futurs"
         ],
-        "presupposeCommun": "Le souhaitable se déciderait au niveau du possible lui-même, comme puissance accordée ou refusée en bloc.",
-        "forme": "réciprocité",
+        "presupposeCommun": "Une puissance de réaliser serait elle-même une raison suffisante de désirer ; confusion faisabilité / légitimité.",
+        "forme": "contre-exemple à l'universel suivi d'un jugement normatif multi-critères",
         "problematique": "P3",
         "branchesIntroduction": "B2",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
-        "cumul": "« Réaliser les possibles bienfaisants, refuser les dangereux » : sous le présupposé, on trie des possibles ; or un même possible est l’un et l’autre (la même physique fait la centrale et la bombe). Le tri est impossible à ce niveau.",
-        "meilleurCas": "La puissance la mieux intentionnée nous rend encore dépendants de ce qu’elle réalise ; la prudence la plus éclairée prive encore de remèdes si elle refuse en bloc."
+        "statut": "réécriture argumentative proposée, sans homologation indépendante",
+        "cumul": "Un dispositif techniquement possible peut être souhaitable dans certains usages et indéfendable dans d'autres. Ce constat suffit à réfuter la nécessité universelle ; la III propose des critères de choix, sans invoquer une contradiction conjointe.",
+        "meilleurCas": "Le même outil de localisation peut porter secours ou surveiller arbitrairement : l'évaluation dépend de la fin, du consentement, de la durée et des effets.",
+        "matriceCandidate": "déplacement du critère du possible vers l'usage et la responsabilité"
       }
     },
     "notion-temps": {
@@ -1024,13 +1027,13 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "L’apprentissage remplace une ignorance, une œuvre reprend une expérience : ces gains ne rendent pas ce qui est perdu, mais interdisent de tenir tout passage pour une pure ruine.",
+          "proposal": "Il faut ainsi identifier le terme de la destruction avant d'attribuer à la temporalité un pouvoir universel d'anéantissement.",
           "preserves": [
             "Faire passer toute chose",
             "Être la durée où les choses se font"
           ],
-          "cost": "Reste qu’une transformation féconde ne compense pas nécessairement la perte singulière dont elle procède : une œuvre ne rend pas une personne morte.",
-          "remainingProblem": "À quelles conditions ce que le temps permet de créer peut-il donner sens à une perte, sans prétendre la réparer ni la justifier ?"
+          "cost": "Une perte irréparable peut-elle recevoir un sens sans être tenue pour compensée ?",
+          "remainingProblem": "Une perte irréparable peut-elle recevoir un sens sans être tenue pour compensée ?"
         },
         {
           "id": "alternative-a",
@@ -1052,34 +1055,35 @@
         }
       ],
       "selected": "retenue",
-      "comparison": "La distinction disparition/transformation rend compte des gains sans confondre mémoire et restitution, ni proclamer toute perte nécessaire au progrès.",
-      "strongestObjection": "Une création succède à une perte sans la compenser.",
-      "responseToObjection": "La copie distingue explicitement création et compensation ; donner sens sans justifier la perte devient sa question finale.",
-      "residual": "Reste qu’une transformation féconde ne compense pas nécessairement la perte singulière dont elle procède : une œuvre ne rend pas une personne morte.",
-      "conclusionQuestion": "À quelles conditions ce que le temps permet de créer peut-il donner sens à une perte, sans prétendre la réparer ni la justifier ?",
+      "comparison": "Déplacement de l'attribution causale (le temps comme mesure des changements versus les processus de destruction), associé à la processualisation bergsonienne de la continuité. III.1 distingue condition et cause ; III.2 identité et état ; III.3 nécessité de l'irréversibilité et non-nécessité de l'anéantissement. Risque bloquant de compatibilité immédiate des branches.",
+      "strongestObjection": "Un présent cesse de l'être, mais un même être peut se conserver en changeant : on dispose de cette distinction avant la troisième partie. Le test de conjonction 3.4.9 ne passe pas encore.",
+      "responseToObjection": "La copie améliore la fidélité au terme « nécessairement » et les preuves des neuf sous-parties ; cela ne valide pas l'aporie. La distinction des types de changement reste à éprouver dans une architecture réellement nécessaire.",
+      "residual": "Comment une existence peut-elle donner sens à ses pertes irréversibles sans prétendre qu'une œuvre ou un souvenir les répare intégralement ?",
+      "conclusionQuestion": "Comment une existence peut-elle donner sens à ses pertes irréversibles sans prétendre qu'une œuvre ou un souvenir les répare intégralement ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 781
+        "words": 1043
       },
       "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
+        "author": "Reconstruction du 29 octobre 2026 : opérateur avant style",
         "status": "propose",
-        "independentReview": "Relecture complète des problématiques et plans encore à faire selon la V7.3. Corrections localisées du28octobre : attribution non établie à Kant retirée ; attente/durée chez Bergson précisées sur traduction Arthur Mitchell1911 ; fait passé distingué de sa reprise. Ces corrections ne valident pas l’architecture générale."
+        "independentReview": "Réfection V7.4 : « nécessairement » conservé. Perte de la présence ≠ destruction d'un être; condition temporelle ≠ cause suffisante d'une destruction. La coexistence de pertes et de conservation est reconnue, non proclamée aporie stricte. Neuf sous-parties rédigées avec fonctions de chaque phrase, sans citation littérale nouvelle. Contrôle primaire et lecture indépendante non certifiés."
       },
-      "copySha256": "8c1b734aecd741437909ac0bacbc76c7a1fcf113a6e10178fd4bb7f24fade79e",
+      "copySha256": "9494b1b59af173e630d0b2144aeb13093fbbd0630d47112a3fc134da9d5babee",
       "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
+        "reference": "Plan dynamique V7.4 prioritaire ; protocole intégré V8.0 expérimental (transitions révisées, travail non homologué)",
         "racine": [
-          "Faire passer toute chose",
-          "Être la durée où les choses se font"
+          "La présence de chaque moment passe nécessairement",
+          "Des existences se conservent et se transforment au cours du temps"
         ],
-        "presupposeCommun": "Passer, ce serait être anéanti : ce que le temps fait passer ne serait plus rien.",
-        "forme": "réciprocité",
+        "presupposeCommun": "Toute perte d'état serait destruction de l'être ; toute destruction dans le temps serait causée par le temps.",
+        "forme": "dissociation causalité/condition et contrôle du quantificateur",
         "problematique": "hors catalogue justifiée : alternative croisée à « alors que » (chaque branche nomme ce qu’exige l’autre)",
         "branchesIntroduction": "B2",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
-        "cumul": "« Le temps crée, puis détruit » : sous le présupposé, toute création finit dans le néant ; l’alternance reconduit au oui, le temps est destructeur en dernier ressort. Le cumul est exclu.",
-        "meilleurCas": "La vie la plus féconde finit ; la rose la plus belle a fallu éclore. Les deux constats survivent."
+        "statut": "reconstruction V7.4 proposée, audit contradictoire indépendant non accompli",
+        "cumul": "Le temps est le cadre de transformations productives et de destructions réelles : ces propositions coexistent immédiatement et ne forment pas une impossibilité conjointe. Le travail de III est de distinguer condition, causalité et critère de destruction.",
+        "meilleurCas": "Le vieillissement et le travail de mémoire d'un même être sont compatibles ; la seule présence d'effets contraires ne montre pas que le temps détruit nécessairement.",
+        "matriceCandidate": "déplacement de l'attribution causale et distinction des espèces de changement"
       }
     },
     "notion-travail": {
