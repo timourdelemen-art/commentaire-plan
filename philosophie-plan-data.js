@@ -138,7 +138,7 @@ niveau1: [
       "q": "Quelle question, née de cette limite, fait passer à la partie II ?",
       "o": [
         [
-          "Quel danger l’ignorance nous empêche-t-elle de prévenir ?",
+          "L’ignorance écarte parfois la crainte mais ne supprime pas le danger. Le bonheur peut-il plutôt être soutenu par la lucidité ?",
           "ok",
           "Une question brève, née de cette limite : elle fait passer à la partie II sans la donner d’avance."
         ],
@@ -226,7 +226,7 @@ niveau1: [
       "q": "Quelle question montre ce que les deux réponses supposaient ensemble ?",
       "o": [
         [
-          "Mais connaître un mal, est-ce nécessairement le craindre ?",
+          "Un bonheur lucide constitue déjà un contre-exemple à la nécessité de l’inconscience. Reste à expliquer comment la connaissance d’un danger peut permettre d’agir sans transformer la vie en inquiétude permanente.",
           "ok",
           "La question fait voir ce que les deux réponses supposaient ensemble : c’est ce point que la partie III transformera."
         ],
@@ -413,7 +413,7 @@ niveau1: [
       "q": "Quelle question, née de cette limite, fait passer à la partie II ?",
       "o": [
         [
-          "Que devient le jugement moral lorsque nos motifs et les effets de nos actes nous échappent ?",
+          "Une intention juste ne dispense pas de rechercher les conséquences prévisibles. Quels éléments échappent néanmoins à celui qui veut juger son acte ?",
           "ok",
           "Une question brève, née de cette limite : elle fait passer à la partie II sans la donner d’avance."
         ],
@@ -501,7 +501,7 @@ niveau1: [
       "q": "Quelle question montre ce que les deux réponses supposaient ensemble ?",
       "o": [
         [
-          "Mais la certitude d’avoir bien agi doit-elle être celle d’un savoir complet sur l’acte, ses motifs et ses suites ?",
+          "Ni les seuls motifs ni l’exigence de connaître toutes les conséquences ne suffisent. Dans quelles situations des raisons accessibles permettent-elles de juger avec certitude, sans réclamer l’omniscience ?",
           "ok",
           "La question fait voir ce que les deux réponses supposaient ensemble : c’est ce point que la partie III transformera."
         ],
@@ -1513,7 +1513,7 @@ niveau1: [
       "q": "Quelle question, née de cette limite, fait passer à la partie II ?",
       "o": [
         [
-          "Que devient le lien humain si la croyance qui le portait disparaît ?",
+          "Une morale sans foi peut être conçue, mais les principes ne créent pas à eux seuls des pratiques communes. Il faut examiner ce que la religion apporte historiquement à la cohésion.",
           "ok",
           "Une question brève, née de cette limite : elle fait passer à la partie II sans la donner d’avance."
         ],
@@ -1601,7 +1601,7 @@ niveau1: [
       "q": "Quelle question montre ce que les deux réponses supposaient ensemble ?",
       "o": [
         [
-          "Mais un lien commun doit-il être une croyance soustraite à l’examen ?",
+          "Une communauté sans foi commune et des rites partagés sont compatibles : aucune contradiction ne les oppose nécessairement. Quelles pratiques peuvent instituer durablement ce lien sans lui donner un fondement religieux ?",
           "ok",
           "La question fait voir ce que les deux réponses supposaient ensemble : c’est ce point que la partie III transformera."
         ],
@@ -1788,7 +1788,7 @@ niveau1: [
       "q": "Quelle question, née de cette limite, fait passer à la partie II ?",
       "o": [
         [
-          "Pourquoi la puissance de détruire ferait-elle naître un devoir de protéger ?",
+          "L’autonomie du vivant n’empêche pas certains milieux d’être dégradés par nos actes. Leur vulnérabilité suffit-elle à établir un besoin de nous ?",
           "ok",
           "Une question brève, née de cette limite : elle fait passer à la partie II sans la donner d’avance."
         ],
@@ -1876,7 +1876,7 @@ niveau1: [
       "q": "Quelle question montre ce que les deux réponses supposaient ensemble ?",
       "o": [
         [
-          "Mais prendre soin de la nature, est-ce la diriger ?",
+          "La nature comme ensemble de processus et des écosystèmes dépendant d’interventions réparatrices ne sont pas contradictoires. Quel sens précis donner alors à « besoin » et au devoir humain de protection ?",
           "ok",
           "La question fait voir ce que les deux réponses supposaient ensemble : c’est ce point que la partie III transformera."
         ],
@@ -2063,7 +2063,7 @@ niveau1: [
       "q": "Quelle question, née de cette limite, fait passer à la partie II ?",
       "o": [
         [
-          "Une paix indifférente au malheur d’autrui peut-elle être heureuse ?",
+          "Une joie personnelle est possible, mais l’indifférence au malheur d’autrui interroge ce qu’elle vaut. Pourquoi la compassion devrait-elle entrer dans l’examen du bonheur ?",
           "ok",
           "Une question brève, née de cette limite : elle fait passer à la partie II sans la donner d’avance."
         ],
@@ -2151,7 +2151,7 @@ niveau1: [
       "q": "Quelle question montre ce que les deux réponses supposaient ensemble ?",
       "o": [
         [
-          "Mais être touché par le malheur d’autrui, est-ce le reproduire en soi ?",
+          "On peut être joyeux et compatissant : cette coexistence ne constitue pas une solution nouvelle. Comment juger le bonheur qui dépend effectivement d’un tort infligé à d’autres ?",
           "ok",
           "La question fait voir ce que les deux réponses supposaient ensemble : c’est ce point que la partie III transformera."
         ],
@@ -2338,7 +2338,7 @@ niveau1: [
       "q": "Quelle question, née de cette limite, fait passer à la partie II ?",
       "o": [
         [
-          "Qui peut juger une loi lorsque l’État lui-même la rend injuste ?",
+          "L’État rend les droits opposables à tous, mais sa force ne démontre pas la justice de ses lois. Il faut donc examiner comment les citoyens peuvent contester une loi injuste.",
           "ok",
           "Une question brève, née de cette limite : elle fait passer à la partie II sans la donner d’avance."
         ],
@@ -2426,7 +2426,7 @@ niveau1: [
       "q": "Quelle question montre ce que les deux réponses supposaient ensemble ?",
       "o": [
         [
-          "Mais la force qui garantit les droits et le jugement qui les réclame se disputent-ils vraiment la même tâche ?",
+          "La force publique et la critique citoyenne peuvent coexister : leur réunion ne suffit pas à déterminer qui contrôle l’institution lorsqu’elle produit elle-même l’injustice. Comment rendre effectivement contestable la priorité de l’État ?",
           "ok",
           "La question fait voir ce que les deux réponses supposaient ensemble : c’est ce point que la partie III transformera."
         ],
@@ -2599,7 +2599,7 @@ niveau2: [
       "k": "transition",
       "w": 1,
       "q": "À vous : écrivez la transition, en une question ouverte née de cette limite. Une ou deux phrases.",
-      "m": "Comment apercevoir les limites des mots sans pouvoir les dépasser ?"
+      "m": "Le langage oriente nos pensées, mais il rend aussi possible l’examen de ses propres usages. Comment exercer cette critique sans sortir de toute langue ?"
     },
     {
       "p": "II",
@@ -2673,7 +2673,7 @@ niveau2: [
       "q": "Quelle question montre ce que les deux réponses supposaient ensemble ?",
       "o": [
         [
-          "Mais être libre à l’égard du langage, est-ce se tenir hors de lui ?",
+          "Ni l’obéissance à des règles communes ni l’invention de nouveaux usages n’abolissent l’autre. Comment leur articulation permet-elle une liberté de pensée effectivement partageable ?",
           "ok",
           "La question fait voir ce que les deux réponses supposaient ensemble : c’est ce point que la partie III transformera."
         ],
