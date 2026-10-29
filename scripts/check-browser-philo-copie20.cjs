@@ -35,12 +35,20 @@ const server = http.createServer((req,res) => {
       assert.ok(await page.getByText('EXERCICE · LA PORTÉE DE « TOUJOURS »').count()>=1,'exercice présent');
       const overflow=await page.evaluate(()=>document.documentElement.scrollWidth-window.innerWidth);
       assert.ok(overflow<=2,'pas de débordement horizontal en '+width+' px : '+overflow+' px');
-      const toggle=page.locator('button.c20-toggle').first();
-      assert.ok(await toggle.count()>0,'contrôle des fonctions');
-      await toggle.click();
-      assert.ok(await page.locator('#c20-vitrine.c20-plain').count()>0,'masquage des fonctions');
-      await toggle.click();
-      assert.equal(await page.locator('#c20-vitrine.c20-plain').count(),0,'réaffichage des fonctions');
+      // Le site propose maintenant deux modes : la copie entière et les fonctions.
+      // L'ancien bouton .c20-toggle est volontairement masqué par copie-modes.js.
+      const detail=page.locator('.cm-bar button.cm-mode[data-mode="f"][aria-controls="c20-vitrine"]');
+      const full=page.locator('.cm-bar button.cm-mode[data-mode="e"][aria-controls="c20-vitrine"]');
+      assert.equal(await detail.count(),1,'bouton visible du mode fonctions');
+      assert.equal(await full.count(),1,'bouton visible du mode copie entière');
+      assert.equal(await full.getAttribute('aria-pressed'),'true','copie entière par défaut');
+      await detail.click();
+      assert.equal(await detail.getAttribute('aria-pressed'),'true','mode fonctions activé');
+      assert.ok(await page.locator('#c20-vitrine').isVisible(),'annotations rendues visibles');
+      await full.click();
+      assert.equal(await full.getAttribute('aria-pressed'),'true','mode copie entière réactivé');
+      assert.equal(await page.locator('#c20-vitrine').isVisible(),false,'annotations masquées en mode copie entière');
+      await detail.click();
       assert.deepEqual(errors,[],'aucune erreur JavaScript');
       const screenshots=path.join(root,'browser-audit');
       fs.mkdirSync(screenshots,{recursive:true});
