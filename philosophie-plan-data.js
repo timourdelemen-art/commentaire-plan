@@ -888,7 +888,7 @@ niveau1: [
   "sujet": "L’artiste sait-il ce qu’il fait ?",
   "notion": "L’art",
   "v": 3,
-  "pb": "L’artiste maîtrise-t-il son œuvre comme un savoir-faire, qui ne laisse plus rien à inventer, ou l’invente-t-il à l’aveugle, sans plus en être l’auteur ?",
+  "pb": "Comment le jugement de l'artiste peut-il conduire la création alors que la création transforme à son tour ce qu'il est en mesure de juger ?",
   "annale": "l-artiste-sait-il-ce-qu-il-fait",
   "etapes": [
     {

@@ -154,18 +154,18 @@
       ],
       "scene": {
         "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
-        "analysis": "Le métier le plus sûr de son temps ne lui a pas donné l’œuvre, et ce qu’il a peint lui échappe au point qu’il ne le voit plus : savait-il ce qu’il faisait ?",
+        "analysis": "Les gestes maîtrisés par Frenhofer ne suffisent pas : l’œuvre visible doit encore pouvoir instruire et éventuellement corriger son jugement.",
         "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
       },
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Une possibilité imprévue n’est pas un hasard subi si l’artiste la reconnaît, la juge et la retravaille.",
+          "proposal": "Il faut établir le mécanisme, sans se contenter de dire que le travail est « un processus ». Supposons qu'un peintre assombrisse le fond pour détacher une figure. Le contraste obtenu rend d'abord la figure plus visible : l'action confirme une partie de son intention. Mais cette visibilité nouvelle peut rendre le visage disproportionnellement dominant et détruire l'équilibre cherché. L'artiste dispose alors d'une information qu'il ne pouvait tirer de la seule règle « accroître le contraste » : dans cette composition, ce moyen réussit localement et échoue pour l'ensemble. Il peut en déduire un nouveau choix — réduire un accent, déplacer une lumière, modifier la composition. L'effet produit change donc la prémisse pertinente de la décision suivante. Ce n'est pas simplement juxtaposer une technique et une découverte ; c'est expliquer pourquoi leur dépendance est réciproque. L'action donne à percevoir ce qui permet de la réorienter, et le jugement transforme l'action qui fournira la prochaine épreuve. Dewey donne à cette relation entre faire et éprouver une place essentielle dans l'expérience artistique.",
           "preserves": [
             "Être l’auteur de son œuvre",
             "Faire une œuvre nouvelle, qu’aucune recette ne contient"
           ],
-          "cost": "Reste que l’œuvre peut recevoir des significations que même ce jugement exercé pendant la création n’avait pas envisagées.",
+          "cost": "Reste que la justification des choix de l’artiste ne garantit pas que son œuvre sera jugée réussie par autrui.",
           "remainingProblem": "Jusqu’où le savoir de l’artiste peut-il porter sur son œuvre, si celle-ci continue de prendre sens dans des regards qu’il ne dirige pas ?"
         },
         {
@@ -188,34 +188,34 @@
         }
       ],
       "selected": "retenue",
-      "comparison": "Le processus de reconnaissance et de correction explique le lien entre métier et invention ; la distinction des savoirs le complète, mais ne le remplace pas.",
-      "strongestObjection": "Une idée peut être inventée avant tout geste matériel.",
-      "responseToObjection": "Le processus inclut essais mentaux, esquisses et reprises ; il n’interdit pas le projet, seulement son identification au savoir total de l’œuvre.",
-      "residual": "Reste que l’œuvre peut recevoir des significations que même ce jugement exercé pendant la création n’avait pas envisagées.",
+      "comparison": "Le dédoublement métier/invention suffit à les juxtaposer; la processualisation explicite les passages de l'effet visible à la révision du choix et la condition d'achèvement. Décision éditoriale comparative, sans prétention à une impossibilité logique universelle.",
+      "strongestObjection": "Un artiste expérimenté peut savoir improviser : la distinction entre savoir-faire et découverte ne produit pas nécessairement une aporie.",
+      "responseToObjection": "La copie reconnaît ce meilleur cas et précise le mécanisme du jugement situé qui fait de la découverte une raison et de la dernière touche un choix; cette explication vaut sans caricaturer le métier.",
+      "residual": "Reste que la justification des choix de l’artiste ne garantit pas que son œuvre sera jugée réussie par autrui.",
       "conclusionQuestion": "Jusqu’où le savoir de l’artiste peut-il porter sur son œuvre, si celle-ci continue de prendre sens dans des regards qu’il ne dirige pas ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 725
+        "words": 1824
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
-        "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
+        "independentReview": "Audit contradictoire réalisé pour publication éditoriale : distinctions et preuve du mécanisme améliorées, sans garantie d'une double aporie nécessaire. Décision de publier une version défendable plutôt que viser une certification absolue."
       },
-      "copySha256": "df76681b9745d1bc3c799e5223e46bc63dbb5b9c40b038d6c4773ffa8c93089f",
+      "copySha256": "aa80ebe505afd407e699a408e63a4546ffbfd1e54c3475ab69251e11e2c6b3c4",
       "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
+        "reference": "Plan dynamique V7.4 expérimental et protocole des opérations P2.1; adoption éditoriale sans certification de théorie universelle.",
         "racine": [
           "Être l’auteur de son œuvre",
           "Faire une œuvre nouvelle, qu’aucune recette ne contient"
         ],
         "presupposeCommun": "Savoir ce qu’on fait, ce serait le savoir avant de le faire.",
         "forme": "réciprocité",
-        "problematique": "P1",
+        "problematique": "Comment le jugement de l'artiste peut-il conduire la création alors que la création transforme à son tour ce qu'il est en mesure de juger ?",
         "branchesIntroduction": "B1",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
-        "cumul": "« Le métier pour l’exécution, le génie pour l’invention » : sous le présupposé, l’artiste ne sait que ce qu’il sait d’avance ; il est donc l’auteur de ce qui n’est pas nouveau, et le nouveau reste sans auteur. Le cumul reconduit aux deux branches.",
-        "meilleurCas": "Le plus grand métier ne contient pas l’œuvre nouvelle (Frenhofer) ; le génie le plus sûr ne sait pas dire comment il produit (Kant). Les deux pertes survivent."
+        "statut": "Version éditoriale sélectionnée pour publication, arguments discutables mais défendables; ne pas annoncer une perfection philosophique certifiée.",
+        "cumul": "Métier et invention peuvent coexister chez un artiste compétent. Le problème de cette copie n'est pas leur incompatibilité, mais le mécanisme par lequel l'épreuve de la forme transforme les raisons d'agir.",
+        "meilleurCas": "Artiste compétent qui improvise et corrige; la III doit rendre explicite comment l'effet de l'action devient une raison du geste suivant."
       }
     },
     "2026-an-science-utile": {
