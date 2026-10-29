@@ -1,4 +1,4 @@
-/* Rendu des « copies à 20 » : la copie complète, chaque phrase avec sa fonction en marge. */
+/* Rendu des copies annotées : chaque segment de rédaction avec sa fonction en marge ; un segment peut contenir plusieurs phrases. */
 const fs=require('fs');
 const path=require('path');
 const DATA=JSON.parse(fs.readFileSync(path.join(__dirname,'copies20-data.json'),'utf8'));
@@ -29,7 +29,7 @@ function section(key){
   const d=DATA[key]; if(!d) return '';
   const {n,w}=stats(d);
   return `<section class="offer-band c20-teaser" id="copie-20"><div class="kicker">LA COPIE À 20</div><h2>Le devoir le plus court qui mérite 20.</h2>
-<p>${n} phrases, environ ${Math.round(w/10)*10} mots. Chaque phrase a sa fonction dans le plan, écrite en marge ; aux charnières, le rôle du lien logique. Lisez-la d’abord avec les fonctions, pour voir la machine, puis sans, pour voir que c’est une vraie copie.</p>
+<p>${n} segments annotés, environ ${Math.round(w/10)*10} mots. Chaque segment a sa fonction dans le plan, écrite en marge ; les deux transitions sont distinguées. Lisez-la d’abord avec les fonctions, pour voir la machine, puis sans, pour voir que c’est une vraie copie.</p>
 <p><button type="button" class="philo-print c20-toggle" aria-controls="c20-${key}">Masquer les fonctions</button></p>
 <div class="c20" id="c20-${key}">${renderCopy(d,'h3')}</div>
 </section>
@@ -45,15 +45,15 @@ function vitrine(key='notion-liberte',meta=null){
   return `<!doctype html><html lang="fr"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(subject)} : copie à 20 en philosophie</title>
-<meta name="description" content="Une dissertation de philosophie qui mérite 20, la plus courte possible : « ${esc(subject)} ». Chaque phrase, sa fonction dans le plan.">
+<meta name="description" content="Une dissertation de philosophie qui mérite 20, la plus courte possible : « ${esc(subject)} ». Chaque segment argumentatif, sa fonction dans le plan.">
 <link rel="canonical" href="https://commentaire-plan.com/${filename}">
 <link rel="stylesheet" href="styles.css">
 </head><body><header class="top"></header><main class="wrap">
 <section class="pagehead"><div><div class="kicker">PHILOSOPHIE · LA COPIE À 20</div>
 <h1>« ${esc(subject)} »</h1>
 ${meta?`<p class="micro">${esc(meta.exam)} · ${esc(meta.code)} · <a class="official-link" href="${esc(meta.source)}">Annales officielles →</a></p>`:''}
-<p class="lede">Le devoir le plus court qui mérite 20 : ${n} phrases, environ ${Math.round(w/10)*10} mots. Chaque phrase a sa fonction dans le plan ; elle est écrite en marge, avec, aux charnières, le rôle du lien logique.</p>
-</div><aside class="side-note"><p><strong>Comment lire ?</strong><br>D’abord avec les fonctions, pour voir la machine. Puis sans, pour voir que c’est une vraie copie.</p><p><button type="button" class="philo-print c20-toggle" aria-controls="c20-vitrine">Masquer les fonctions</button></p></aside></section>
+<p class="lede">${n} segments annotés, environ ${Math.round(w/10)*10} mots. Chaque segment possède une fonction en marge ; les transitions explicitées relient les parties.</p>
+</div><aside class="side-note"><p><strong>Comment lire ?</strong><br>Lisez d’abord les fonctions de chaque segment pour comprendre le raisonnement, puis masquez-les pour lire la dissertation suivie.</p><p><button type="button" class="philo-print c20-toggle" aria-controls="c20-vitrine">Masquer les fonctions</button></p></aside></section>
 <section class="offer-band c20" id="c20-vitrine">${renderCopy(d,'h2')}</section>
 <section class="offer-band"><div class="kicker">POURQUOI CETTE COPIE MÉRITE 20</div><h2>Rien n’y est décoratif.</h2>
 <div class="grid-3"><div><strong>Un problème réel</strong><p>Les deux réponses perdent quelque chose, et la problématique le dit en une seule question.</p></div><div><strong>Un plan qui avance</strong><p>Chaque limite naît de l’idée poussée jusqu’au bout ; chaque transition en fait une question. Aucun « d’abord », aucun « de plus » : les liens sont dans la pensée.</p></div><div><strong>Des auteurs qui travaillent</strong><p>Les références sont choisies pour accomplir quelque chose : pousser l’idée, porter la réponse, réaliser l’opération.</p></div></div>
