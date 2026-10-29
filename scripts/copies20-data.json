@@ -1835,103 +1835,203 @@
       "INTRODUCTION",
       [
         [
-          "Dans le roman de Mary Shelley, Victor Frankenstein découvre le secret de la vie et parvient à animer un corps assemblé de morceaux de cadavres ; mais au moment où la créature ouvre les yeux, après près de deux ans d’un travail passionné, il s’enfuit, horrifié.",
-          "La scène d’ouverture"
+          "Il est techniquement possible de suivre à distance, presque en continu, les déplacements d'une personne grâce aux appareils qu'elle utilise.",
+          "Scène concrète : une capacité sans jugement de valeur"
         ],
         [
-          "Plus tard, il promet à la créature de lui fabriquer une compagne, puis la détruit avant de l’achever, de peur d’engendrer une race de monstres ; la créature se venge sur ceux qu’il aime.",
-          "La scène d’ouverture : le refus"
+          "Cette possibilité peut aider à retrouver quelqu'un en danger, mais elle peut aussi servir à surveiller une personne contre sa volonté.",
+          "Faire apparaître deux usages moralement opposés"
         ],
         [
-          "Il pouvait le faire ; aurait-il dû ? Et quand enfin il refuse, il décide encore seul, et trop tard.",
-          "Ce que la scène fait voir : le problème, avant les grands mots"
+          "L'exemple montre que la réussite technique d'une opération ne décide pas encore si elle mérite d'être accomplie.",
+          "Distinguer capacité et légitimité"
         ],
         [
-          "On attend de la technique qu’elle accroisse notre pouvoir, mais aussi que ce pouvoir reste le nôtre, c’est-à-dire que nous puissions ne pas l’exercer.",
-          "Ce que la notion demande : deux exigences"
+          "« Toujours » est une affirmation universelle : un seul cas de technique réalisable mais injustifiable suffit à réfuter la réponse affirmative.",
+          "Délimiter le quantificateur logique"
         ],
         [
-          "Est techniquement possible ce que nous savons ou saurons faire ; est souhaitable ce qui est digne d’être voulu, et non seulement désiré ; « toujours » exclut toute exception.",
-          "Les mots du sujet"
+          "Le souhaitable ne désigne pas ce qui est réalisable, mais ce qu'il existe de bonnes raisons de vouloir en tenant compte des fins, des moyens et des personnes.",
+          "Définir le prédicat normatif"
         ],
         [
-          "Un possible technique peut répondre à un besoin et rendre un bien accessible ; le seul pouvoir de l’accomplir n’en démontre pas la valeur morale.",
-          "La première réponse, et ce qu’elle perd"
+          "La puissance technique augmente souvent notre liberté et notre sécurité, mais elle peut aussi étendre le pouvoir de nuire.",
+          "Meilleur argument favorable et sa limite"
         ],
         [
-          "Refuser certains usages dangereux n’oblige pas à condamner toutes les techniques ; il faut déterminer les fins, les moyens et les conséquences de chaque projet.",
-          "La réponse contraire, et ce qu’elle perd"
+          "Il serait pourtant insuffisant d'en conclure que les innovations risquées doivent toutes être interdites, car certaines protègent des vies malgré leurs dangers.",
+          "Meilleur argument prudent et sa limite"
         ],
         [
-          "Ce qui est techniquement possible est-il toujours souhaitable, alors que la puissance d’agir ne détermine ni la valeur de ses fins ni le prix humain de ses moyens ?",
-          "La problématique : une seule question, deux pertes"
+          "Ce qui est techniquement possible est-il toujours souhaitable, si accroître notre puissance peut servir de bonnes fins mais rend aussi possibles des atteintes injustifiables ?",
+          "Formuler une question conservant « toujours »"
         ],
         [
-          "Il faudra comprendre pourquoi le possible semble appeler sa réalisation, puis pourquoi il faut savoir y renoncer, avant de chercher d’où vient le jugement qui sépare l’un de l’autre.",
-          "L’annonce du plan, sans dévoiler la troisième partie"
+          "Nous établirons les raisons de désirer la puissance technique, puis les limites d'un simple jugement de faisabilité, avant de chercher comment justifier un usage.",
+          "Annonce d’un plan non conciliateur"
         ]
       ]
     ],
     [
-      "I. LA TECHNIQUE ÉTEND NOTRE POUVOIR",
+      "I. LA PUISSANCE TECHNIQUE REND POSSIBLES DES BIENS RÉELS",
       [
         [
-          "Dans le Discours de la méthode (VI), Descartes associe les sciences à une puissance nouvelle sur la nature : les techniques peuvent alléger des souffrances et protéger la santé.",
-          "I.1 Établir : référence opératoire"
+          "La technique transforme une intention en opérations reproductibles : elle rend réalisables des effets que nos seules forces ne produiraient pas.",
+          "I.1 — Établir le sens pratique du possible technique"
         ],
         [
-          "Bacon, dans le Novum Organum, pense l’accroissement des connaissances comme une ressource de la vie humaine : pouvoir agir ouvre des possibilités réellement désirables.",
-          "I.2 Fonder : référence opératoire"
+          "Soigner une maladie, transporter une personne ou protéger une habitation contre le froid sont des fins auxquelles des dispositifs donnent une prise réelle.",
+          "I.1 — Éprouver l’utilité par plusieurs cas distincts"
         ],
         [
-          "Mais un possible n’est pas une fin par lui-même. Hans Jonas, dans Le Principe responsabilité, souligne que la puissance peut produire des effets que ses auteurs ne peuvent ensuite annuler.",
-          "I.3 Éprouver : référence opératoire"
+          "L'élargissement de nos capacités constitue donc une raison sérieuse de rechercher des possibilités nouvelles.",
+          "I.1 — Déduire le premier acquis sans universalisme abusif"
         ],
         [
-          "La capacité de réaliser un projet n’établit pas la valeur de ses fins. Quels critères peuvent justifier le refus d’un possible ?",
-          "Transition I→II : gain, limite interne, nécessité de II"
+          "Dans le Discours de la méthode, Descartes présente la recherche des connaissances utiles comme un moyen d'améliorer la condition humaine.",
+          "I.2 — Mobiliser une finalité humaine de la technique"
+        ],
+        [
+          "L'intérêt des moyens techniques se comprend alors par les besoins auxquels ils répondent, et non par le seul plaisir de démontrer notre puissance.",
+          "I.2 — Distinguer finalité et prouesse"
+        ],
+        [
+          "Il est raisonnable de vouloir une technique lorsque son fonctionnement permet de réaliser un bien qui resterait autrement inaccessible.",
+          "I.2 — Établir le meilleur argument positif"
+        ],
+        [
+          "Mais cette justification porte sur un usage déterminé et ne se transmet pas automatiquement à toute réalisation techniquement possible.",
+          "I.2 — Limiter loyalement la portée de la thèse"
+        ],
+        [
+          "Un système capable d'enregistrer tous les messages d'un individu pourrait être efficace pour le contrôler et violer néanmoins son droit à une vie privée.",
+          "I.3 — Construire un contre-exemple à « toujours »"
+        ],
+        [
+          "Son efficacité prouverait seulement qu'il accomplit le contrôle recherché, non qu'un tel contrôle soit légitime.",
+          "I.3 — Distinguer preuve technique et jugement moral"
+        ],
+        [
+          "Puisqu'une réalisation possible peut être injustifiable, il est faux que tout possible technique soit souhaitable.",
+          "I.3 — Réfuter explicitement la quantification universelle"
+        ],
+        [
+          "Il faut désormais se demander d'où viennent les raisons de désirer ou de refuser ce que nous pouvons faire.",
+          "I.3 — Exposer le problème qui demeure après la réponse directe"
+        ],
+        [
+          "La faisabilité d'une opération ne prouve pas la valeur de sa fin ; quels critères permettent alors de juger les techniques dont les bénéfices et les dommages sont tous deux possibles ?",
+          "Transition I→II : du contre-exemple à la justification"
         ]
       ]
     ],
     [
-      "II. IL FAUT SAVOIR RENONCER",
+      "II. LE SOUHAITABLE NE SE DÉDUIT NI DE LA POSSIBILITÉ NI DE LA SEULE PEUR",
       [
         [
-          "Aristote, dans l’Éthique à Nicomaque (I), distingue les activités poursuivies pour elles-mêmes des moyens ordonnés à d’autres fins : la capacité technique ne donne pas la mesure du bien.",
-          "II.1 Établir : référence opératoire"
+          "Kant exige, dans les Fondements de la métaphysique des mœurs, de considérer une personne autrement que comme un simple moyen.",
+          "II.1 — Introduire un critère moral indépendant de l’efficacité"
         ],
         [
-          "Kant, dans les Fondements de la métaphysique des mœurs, interdit de traiter une personne uniquement comme un moyen. Un projet techniquement réalisable peut donc rester inadmissible par les actes qu’il exige.",
-          "II.2 Fonder : référence opératoire"
+          "Un procédé capable d'obtenir un résultat utile en instrumentalisant une personne sans son consentement ne reçoit pas sa justification de ce résultat.",
+          "II.1 — Démontrer une limite de moyens"
         ],
         [
-          "Mais condamner toute puissance au nom de ses dangers supprimerait aussi ses secours. Jonas ne rend pas la technique mauvaise en soi : sa réflexion réclame d’examiner les conséquences propres à chaque usage.",
-          "II.3 Éprouver : référence opératoire"
+          "Le jugement du souhaitable doit donc examiner les droits de ceux sur qui une technique s'exerce, même si l'opération fonctionne parfaitement.",
+          "II.1 — Déduire une condition de légitimité"
         ],
         [
-          "Un seul cas réalisable mais injustifiable réfute déjà le mot « toujours ». Comment juger les fins, les moyens et les risques futurs sans condamner toute possibilité technique ?",
-          "Transition II→III : confronter les deux limites et le meilleur cumul"
+          "Hans Jonas insiste, dans Le Principe responsabilité, sur le fait que la puissance technique peut produire des conséquences éloignées dans le temps.",
+          "II.2 — Élargir l’analyse au temps des effets"
+        ],
+        [
+          "Une intervention peut sembler bénéfique à court terme tout en exposant des êtres futurs à des dommages difficiles à réparer.",
+          "II.2 — Construire un cas d’asymétrie temporelle"
+        ],
+        [
+          "La responsabilité ne se limite donc pas au but immédiat de l'inventeur : elle doit considérer les conséquences durables et les personnes absentes de la décision.",
+          "II.2 — Déduire un devoir envers les effets différés"
+        ],
+        [
+          "La prévision reste pourtant incertaine et ne devient jamais une connaissance exhaustive de l'avenir.",
+          "II.2 — Éviter de promettre la maîtrise totale des conséquences"
+        ],
+        [
+          "Refuser tout dispositif parce qu'il présente un risque supprimerait aussi des soins, des secours et des moyens de prévenir des dangers existants.",
+          "II.3 — Opposer le meilleur contre-exemple au refus général"
+        ],
+        [
+          "Le danger de l'inaction doit être comparé au danger de l'intervention, plutôt que tenu pour nul par définition.",
+          "II.3 — Démontrer l’insuffisance de la simple interdiction"
+        ],
+        [
+          "La réponse « non, pas toujours » est acquise, mais elle ne suffit pas à décider entre deux moyens qui comportent l'un et l'autre des coûts.",
+          "II.3 — Identifier le problème pratique résiduel"
+        ],
+        [
+          "Il faut donc passer du classement abstrait des techniques à l'examen argumenté de décisions particulières.",
+          "II.3 — Justifier la nécessité d’un troisième mouvement"
+        ],
+        [
+          "Un possible n'est pas automatiquement souhaitable, mais la peur du risque ne justifie pas non plus chaque refus ; comment comparer des options techniques sans sacrifier les droits ni ignorer les dommages de l'inaction ?",
+          "Transition II→III : définir l’arbitrage à démontrer"
         ]
       ]
     ],
     [
-      "III. JUGER LES FINS, LES MOYENS ET LES RISQUES",
+      "III. JUGER UN POSSIBLE EXIGE D’EXAMINER SA FIN, SES MOYENS ET SES EFFETS",
       [
         [
-          "Le jugement doit se déplacer du possible abstrait vers la configuration de son usage : une même capacité sert des fins distinctes. Aristote distingue la fin visée des moyens choisis.",
-          "III.1 Établir : référence opératoire"
+          "Il faut d'abord préciser la fin poursuivie au lieu de désirer une prouesse pour elle-même.",
+          "III.1 — Première opération : rendre les fins évaluables"
         ],
         [
-          "Kant permet de vérifier que la dignité des personnes n’est pas négociable contre un simple gain technique : certains moyens restent interdits, même au service d’une fin utile.",
-          "III.2 Fonder : référence opératoire"
+          "Le même dispositif de localisation peut être proposé à une personne qui appelle les secours ou imposé pour contrôler ses déplacements.",
+          "III.1 — Montrer que des usages opposés partagent une capacité"
         ],
         [
-          "Jonas ajoute la temporalité des effets : un usage peut être injustifiable lorsqu’il compromet les conditions de la vie future. Tout possible n’est pas souhaitable ; juger exige de préciser fin, moyens et risques différés.",
-          "III.3 Éprouver : référence opératoire"
+          "La valeur d'une possibilité dépend ainsi des besoins effectivement servis et de la liberté des personnes concernées.",
+          "III.1 — Déduire un critère de finalité"
         ],
         [
-          "Reste que des conséquences décisives peuvent être inconnues : le jugement doit parfois décider sans pouvoir établir complètement la sécurité d’un projet.",
-          "III.3 Le reste : ce que cette réponse ne règle pas"
+          "Aucun progrès de performance ne suffit à décider à notre place de la fin qui vaut d'être poursuivie.",
+          "III.1 — Établir l’irréductibilité du choix éthique"
+        ],
+        [
+          "Il faut ensuite examiner si les moyens employés respectent les personnes plutôt que de les réduire à des ressources disponibles.",
+          "III.2 — Deuxième opération : contrôler la légitimité des moyens"
+        ],
+        [
+          "L'information et le consentement ne transforment pas tout usage en bien, mais leur absence peut suffire à rendre injustifiable une pratique intrusive.",
+          "III.2 — Distinguer condition nécessaire et garantie suffisante"
+        ],
+        [
+          "Le contrôle public et la possibilité de contester une décision permettent de ne pas confier la définition du souhaitable aux seuls détenteurs de la technique.",
+          "III.2 — Déduire l’exigence de responsabilité partageable"
+        ],
+        [
+          "Ce résultat ne se déduit pas de la seule mesure d'efficacité : il introduit les droits et les voix affectées par l'intervention.",
+          "III.2 — Établir le gain normatif propre de III.2"
+        ],
+        [
+          "Enfin, il faut comparer les conséquences plausibles d'une intervention avec celles de son absence, y compris lorsqu'elles sont différées.",
+          "III.3 — Troisième opération : jugement comparatif sous incertitude"
+        ],
+        [
+          "Un risque grave, irréversible et imposé à d'autres ne se traite pas comme un inconvénient léger que chacun choisit de courir.",
+          "III.3 — Différencier les dommages selon leur gravité et leur réversibilité"
+        ],
+        [
+          "La responsabilité consiste alors à réviser les usages lorsque de nouvelles conséquences apparaissent, sans supposer qu'une décision initiale puisse tout prévoir.",
+          "III.3 — Déduire la dimension temporelle du jugement"
+        ],
+        [
+          "Tout ce qui est techniquement possible n'est donc pas souhaitable, et un possible devient défendable seulement à travers des raisons explicites concernant ses fins, ses moyens et ses effets.",
+          "III.3 — Fournir la réponse complète au sujet"
+        ],
+        [
+          "Qui doit pouvoir contester une décision technique lorsque ceux qui en subiront les effets les plus durables ne peuvent pas encore prendre part au débat ?",
+          "III.3 Le reste : représentation des générations futures"
         ]
       ]
     ],
@@ -1939,16 +2039,16 @@
       "CONCLUSION",
       [
         [
-          "Ce qui est techniquement possible n’est pas toujours souhaitable, parce que le souhaitable ne se dit pas d’un possible, mais d’un usage, jugé par sa fin, ses moyens et ceux qui en subiront les effets.",
-          "La réponse au sujet, et ce qui a changé"
+          "Le possible technique exprime une puissance d'agir et non une valeur : il n'est pas toujours souhaitable, comme le montre la possibilité même d'une surveillance injuste.",
+          "Réponse définitive à l’affirmation universelle"
         ],
         [
-          "Frankenstein peut créer et pourtant abandonner ce qu’il crée : son pouvoir ne lui fournit ni une fin juste ni la manière de répondre de sa créature.",
-          "Le retour à la scène : ce que le raisonnement éclaire"
+          "La localisation peut secourir ou contrôler ; seule l'évaluation des fins, des moyens et des conséquences permet de distinguer ce qui mérite d'être fait.",
+          "Retour à la scène devenue éclairante"
         ],
         [
-          "Faut-il agir quand les risques d’un possible technique restent incertains et que l’attente elle-même peut priver les hommes d’un bien ?",
-          "Le reste devient une nouvelle question"
+          "Qui doit pouvoir contester une décision technique lorsque ceux qui en subiront les effets les plus durables ne peuvent pas encore prendre part au débat ?",
+          "Question née du reste"
         ]
       ]
     ]
