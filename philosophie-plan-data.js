@@ -523,9 +523,9 @@ niveau1: [
       "q": "Revenir au problème : que supposaient ensemble les deux réponses, et comment le transformer ?",
       "o": [
         [
-          "Une certitude portant sur une règle respectée n'est pas une connaissance complète des motifs et des effets.",
+          "Il faut distinguer la justice d'un acte, la pureté des mobiles qui l'ont inspiré et son succès ; ces trois propriétés ne se déduisent pas l'une de l'autre.",
           "ok",
-          "On distingue les objets du jugement moral au lieu de confondre certitude partielle et omniscience."
+          "Le sujet concerne la valeur de l'acte, non l'auto-satisfaction morale ni la seule efficacité des résultats."
         ],
         [
           "Chacune avait raison à moitié : la partie I sur la morale de l’intention, la partie II sur la psychologie de celui qui prétend se juger lui-même sans se tromper.",
@@ -545,9 +545,9 @@ niveau1: [
       "q": "Quelle opération permet de tenir les deux ensemble : renverser le rapport, changer de niveau, ou réunir ce qu’on avait séparé ? Plusieurs peuvent tenir : regardez ce que chacune laisse.",
       "o": [
         [
-          "Définir l’obligation, examiner les risques accessibles, puis réviser le jugement si des faits nouveaux l’exigent.",
+          "Déterminer l'obligation et les droits concernés, examiner les moyens employés, puis attribuer à l'agent les seules conséquences dont il pouvait répondre.",
           "ok",
-          "Trois opérations distinctes et nécessaires à un jugement moral sérieux."
+          "On établit la justice d'un acte déterminé en vérifiant ses circonstances pertinentes, et pas seulement la qualité psychologique de la décision."
         ],
         [
           "On peut changer la certitude en engagement : celui qui répond de son acte devant les autres n’a pas besoin d’être sûr qu’il était bon pour l’assumer tout entier.",
@@ -567,9 +567,9 @@ niveau1: [
       "q": "Que peut-on désormais affirmer, et que cette réponse ne règle-t-elle pas encore ?",
       "o": [
         [
-          "Nous pouvons établir le respect d’une obligation précise, sans prétendre connaître toutes les suites de l’acte ; certains conflits de devoirs demeurent.",
+          "Une restitution peut être reconnue juste lorsque le droit du propriétaire, les risques connus et les éventuels droits des tiers ont été examinés ; cette certitude n'autorise pas à juger toute une vie.",
           "ok",
-          "Le résultat est limité sans être vide, et le reste concerne les conflits entre responsabilités."
+          "La conclusion positive porte sur la rectitude réelle d'un acte ; le reste concerne les situations de devoirs impossibles à satisfaire simultanément."
         ],
         [
           "Une fois notre décision bien réfléchie, nous sommes définitivement certains de sa bonté, quels que soient les faits nouveaux.",
@@ -589,7 +589,7 @@ niveau1: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Que devient le jugement moral lorsqu'un agent pouvait prévoir un danger mais que tous les moyens de l'éviter comportaient eux-mêmes des dommages certains ?",
+          "Comment juger le bien-agir lorsque deux obligations sont également fondées, mais que les circonstances empêchent de les respecter ensemble ?",
           "ok",
           "C’est le reste de la réponse, devenu question : le même problème, posé plus loin."
         ],
