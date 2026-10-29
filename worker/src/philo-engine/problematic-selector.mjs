@@ -18,6 +18,30 @@ const list = value => Array.isArray(value) && value.length > 0;
 const issue = (where, problem) => ({ where, problem });
 const check = (problems, path, value, message) => { if (!present(value)) problems.push(issue(path, message)); };
 
+/**
+ * L'essai comparatif de matrices est HEURISTIQUE : M peut révéler un autre
+ * rapport entre A* et B*, voire la fausseté d'une aporie, jamais certifier
+ * rétroactivement des prémisses.
+ */
+export function examinerBoucleMatrices(exploration) {
+  const problems = [];
+  if (!exploration) return {statut:"non_documentee",objectionsDocumentaires:[]};
+  check(problems,"explorationMatrices.rapportInitial",exploration.rapportInitial,"Reconstituer le rapport avant consultation des matrices.");
+  const essais=exploration.essais;
+  if (!Array.isArray(essais)||essais.length<2) {
+    problems.push(issue("explorationMatrices.essais","Comparer au moins deux hypothèses réellement distinctes, dont une pouvant être écartée."));
+  } else {
+    essais.forEach((e,i)=>{
+      for (const f of ["matrice","hypotheseDeMecanisme","ceQueDevientA","ceQueDevientB","relationRevelee","objectionForte","coutEtReste","verdictArgumente"])
+        check(problems,`explorationMatrices.essais[${i}].${f}`,e?.[f],"La matrice ne saurait être une simple étiquette ou une solution présumée.");
+    });
+  }
+  for(const f of ["rapportApresEssais","changementJustifie","preuveIndependanteDeLaSolution","meilleurCumulReexamine","possibiliteDeRejet"])
+    check(problems,`explorationMatrices.${f}`,exploration?.[f],"Établir le bénéfice heuristique et son contrôle contradictoire.");
+  return {statut:problems.length?"reconstruction_incomplete":"exploration_documentee_non_validee",
+    objectionsDocumentaires:problems,homologation:false};
+}
+
 /** Vérifie la complétude des JUSTIFICATIONS, non la vérité de leur contenu. */
 export function examinerCandidate(candidate) {
   const problems = [];
@@ -67,6 +91,9 @@ export function examinerCandidate(candidate) {
       check(problems,`relationsSecondaires[${i}].apportDistinct`,sr?.apportDistinct,"Ce rapport doit ajouter quelque chose au rapport principal.");
     });
     if (secondary.length) check(problems,"articulationDesRapports",candidate?.articulationDesRapports,"Prouver comment les rapports différents se combinent, sans juxtaposition.");
+  }
+  if (candidate?.explorationMatrices) {
+    problems.push(...examinerBoucleMatrices(candidate.explorationMatrices).objectionsDocumentaires);
   }
   const formulations = candidate?.formulations;
   if (!list(formulations)) problems.push(issue("formulations", "Comparer plusieurs formulations de la problématique."));
