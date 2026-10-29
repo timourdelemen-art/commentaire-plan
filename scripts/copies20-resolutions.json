@@ -88,7 +88,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "La pensée kantienne de l’autonomie permet de comprendre que discuter publiquement une norme peut manifester un lien plutôt que le détruire : la communauté n’exige pas l’uniformité des convictions.",
+          "proposal": "La différence ne tient donc pas à l'absence de tout rite, mais à la possibilité pour les participants d'en discuter le sens et la légitimité.",
           "preserves": [
             "Relier tous les hommes par des fins communes",
             "Rester faite d’hommes qui jugent par eux-mêmes"
@@ -119,32 +119,32 @@
       "comparison": "Matrice candidate métamorphose du lien : maintenir la fonction sociale en transformant sa source, conjonction à éprouver. La refonte des neuf opérations n'est pas encore une validation de la double aporie, ni des citations.",
       "strongestObjection": "L'une des branches ou leur cumul peut être possible avant III : vérifier la racine, le meilleur cas et le présupposé commun.",
       "responseToObjection": "Non démontré : sans inférences vérifiées, ne pas certifier V7.3.",
-      "residual": "Reste que des principes discutables peuvent être sacralisés : un lien initialement ouvert à la critique peut devenir un dogme qui interdit de le contester.",
-      "conclusionQuestion": "Des convictions assez fortes pour unir les hommes peuvent-elles rester ouvertes à l’examen qui les a fondées ?",
+      "residual": "Comment éviter qu'une institution qui prétend unir tous les hommes n'interdise finalement de contester les valeurs qu'elle proclame communes ?",
+      "conclusionQuestion": "Comment éviter qu'une institution qui prétend unir tous les hommes n'interdise finalement de contester les valeurs qu'elle proclame communes ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 673
+        "words": 1163
       },
       "review": {
         "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées. Mise à jour V8.0 : transitions revues ; audit des inférences et audit indépendant restent nécessaires."
+        "independentReview": "Reconstruction sous priorité V7.4 : le passage de la fonction sociale des rites à la nécessité logique du religieux est invalidé. Meilleur contre-modèle : institutions et pratiques civiques révisables. La réponse directe de possibilité est recevable ; ne pas certifier une double aporie. Références à vérifier dans leurs éditions, aucune citation littérale ajoutée."
       },
-      "copySha256": "bf887395a917bc41e8a30135c211bd6c39389d66cffaf921a3ed6fd000f14a07",
+      "copySha256": "e9650b0816d23890f77f3f1967dfcbd78f0d190dce84f2efd116ea64b3ca36e0",
       "protocol": {
         "reference": "Plan dynamique V7.4 prioritaire ; protocole intégré V8.0 expérimental (transitions révisées, travail non homologué)",
         "racine": [
-          "Relier tous les hommes par des fins communes",
-          "Rester faite d’hommes qui jugent par eux-mêmes"
+          "Les humains peuvent se reconnaître des obligations sans foi commune",
+          "Les pratiques collectives rendent possible une vie sociale effective"
         ],
-        "presupposeCommun": "Le lien commun ne pourrait naître que d’une croyance partagée et soustraite à l’examen.",
-        "forme": "réciprocité",
+        "presupposeCommun": "Toute pratique collective fondant un lien social serait nécessairement religieuse ; généralisation injustifiée de fonction en essence.",
+        "forme": "preuve par contre-modèle + distinction de portée, non aporie conjointe stricte",
         "problematique": "P2 (double question coordonnée, modalité « pouvoir » conservée)",
         "branchesIntroduction": "B1",
-        "statut": "proposée / non validée",
-        "cumul": "« La raison pour le savoir, la religion pour le lien » : sous le présupposé, le lien exige une croyance qu’on n’examine pas, alors que la raison examine tout ; les deux domaines portent sur le même objet, les croyances qui unissent. Le cumul est exclu.",
-        "meilleurCas": "Une humanité de croyants tolérants reste unie par ce qu’elle ne met pas en doute ; une humanité d’esprits rationnels de bonne foi n’a toujours pas, sous le présupposé, de quoi les relier.",
-        "matriceCandidate": "métamorphose du lien : maintenir la fonction sociale en transformant sa source, conjonction à éprouver"
+        "statut": "reconstruction argumentative proposée ; pas d'homologation externe",
+        "cumul": "Une société sans adhésion au sacré, munie de règles publiques, de pratiques symboliques et d'un droit de critique, est pensable. Cette possibilité répond à l'opérateur ; la III explicite seulement les conditions du contre-modèle.",
+        "meilleurCas": "Des personnes religieuses et non religieuses coopèrent dans des institutions communes sans conférer une autorité sacrée aux normes publiques ; l'existence conceptuelle d'un tel modèle n'implique pas son actualisation historique universelle.",
+        "matriceCandidate": "dissociation de la fonction sociale et du fondement religieux, institution des médiations critiques."
       }
     },
     "2026-an-artiste-sait": {
