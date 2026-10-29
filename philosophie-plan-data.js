@@ -864,7 +864,7 @@ niveau1: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Comment rendre le jugement public effectif lorsque seuls les spécialistes peuvent évaluer certains risques, mais que tous peuvent en subir les conséquences ?",
+          "Comment instituer un jugement commun sur les risques d’une recherche lorsque la connaissance demeure spécialisée et que ses conséquences restent incertaines ?",
           "ok",
           "La difficulté restante porte sur la décision légitime entre expertise et public concerné."
         ],
@@ -1139,7 +1139,7 @@ niveau1: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Jusqu’où le savoir de l’artiste peut-il porter sur son œuvre, si celle-ci continue de prendre sens dans des regards qu’il ne dirige pas ?",
+          "La valeur de l’œuvre peut-elle dépendre du jugement de ses spectateurs sans se réduire à leur goût ?",
           "ok",
           "C’est le reste de la réponse, devenu question : le même problème, posé plus loin."
         ],
@@ -1414,7 +1414,7 @@ niveau1: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Comment répondre d’une parole dont on peut corriger le sens, mais dont on ne peut plus réparer tous les effets ?",
+          "Jusqu’où répondre d’un effet que l’on ne pouvait ni prévoir ni prévenir ?",
           "ok",
           "C’est le reste de la réponse, devenu question : le même problème, posé plus loin."
         ],
