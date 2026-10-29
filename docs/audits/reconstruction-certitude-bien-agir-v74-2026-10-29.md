@@ -28,3 +28,17 @@
 - US Airways 1549, rapport d'accident officiel NTSB : https://www.ntsb.gov/investigations/pages/DCA09MA026.aspx
 
 **Décision scientifique :** rédaction et exercices substantiellement corrigés mais **encore insuffisamment certifiés** pour être présentés sans réserve comme exemplaire de certitude morale. Ne pas confondre l'absence de contradiction formelle et l'établissement du prédicat « bien agi ».
+
+## Révision de la réponse à l'objection centrale (29 octobre, deuxième passe)
+
+La première reconstruction confondait encore **bien décider** et **avoir bien agi** : des raisons suffisantes pour décider ne prouvent pas à elles seules que l'acte est juste. Cette objection est désormais intégrée dans le corps de la III et dans les douze exercices.
+
+La nouvelle III.1 distingue trois valeurs : rectitude de l'action, qualité morale du mobile et réussite de l'effet. Si l'on restitue à bon droit un bien à son propriétaire, l'espoir d'être félicité limite ce qu'on sait de la vertu du mobile, non le respect effectif du droit d'autrui. Une règle peut toutefois être supplantée par un droit plus important dans des circonstances données : elle n'est pas appliquée mécaniquement.
+
+La nouvelle III.2 tente un **cas de preuve de la rectitude** : restitution à la personne dont l'identité est vérifiée, absence de lésion d'un tiers et de danger moralement pertinent négligé. La certitude visée porte cette fois sur l'acte comme juste, et non simplement sur la décision comme prudente. Les choix futurs imprévisibles du propriétaire ne sont pas rétroactivement imputés au restituteur.
+
+La nouvelle III.3 distingue la certitude ainsi bornée de l'infaillibilité : un droit de tiers qui pouvait être connu mais n'a pas été considéré réfute l'assurance antérieure ; le simple fait qu'il soit logiquement imaginable qu'un inconnu agisse mal dans l'avenir ne suffit pas à renverser tout verdict moral.
+
+**Objection résiduelle exigeante :** sommes-nous jamais certains d'avoir inventorié les obligations pertinentes ? Le cas volontairement simple constitue une démonstration de possibilité seulement si les circonstances pertinentes sont effectivement déterminables. Cela reste **une proposition philosophique à éprouver, non une validation scientifique indépendante**. Une théorie qui exige la connaissance exhaustive de tous les effets pourrait rejeter l'exemple, mais elle doit justifier pourquoi ces effets sont constitutifs du bien-agir plutôt que de son succès.
+
+**Statut :** la faute explicite de substitution a été corrigée ; la question épistémologique de la suffisance des connaissances reste ouverte. Aucun protocole n'a été modifié.
