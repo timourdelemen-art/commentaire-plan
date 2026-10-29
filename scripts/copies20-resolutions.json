@@ -269,14 +269,14 @@
       "conclusionQuestion": "Comment instituer un jugement commun sur les risques d’une recherche lorsque la connaissance demeure spécialisée et que ses conséquences restent incertaines ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 1427
+        "words": 1453
       },
       "review": {
         "author": "ChatGPT, étude croisée V7.3 et Dictionnaire paradoxal, 28 octobre 2026",
         "status": "propose",
         "independentReview": "III a trois opérations inférentielles distinctes et citations en textes sources vérifiées : Bachelard/Le Nouvel Esprit scientifique ; Bernard/Introduction à l'étude de la médecine expérimentale ; Dewey/The Public and Its Problems. L'applicabilité du déplacement au sujet exact et l'aporie 3.4.9 demeurent non validées. Tests de build et audit indépendant non réalisés."
       },
-      "copySha256": "7afce601280e87abc630e610e6d77bbb0e2e757a9fd57eeec66bce1de8273d7f",
+      "copySha256": "a47f003ac9a2d16900a689916326db55653575694ddaa258ace6d5782cc6ed05",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
