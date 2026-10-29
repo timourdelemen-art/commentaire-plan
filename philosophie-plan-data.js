@@ -338,7 +338,7 @@ niveau1: [
   "sujet": "Peut-on être certain d’avoir bien agi ?",
   "notion": "Le devoir",
   "v": 3,
-  "pb": "Peut-on tirer la certitude d’avoir bien agi de son intention, aveugle aux effets de l’acte, ou de ses effets, qui livrent sa valeur au hasard ?",
+  "pb": "Peut-on être certain d'avoir bien agi, si nous pouvons justifier des choix précis sans connaître parfaitement nos motifs ni toutes leurs conséquences ?",
   "annale": "peut-on-etre-certain-d-avoir-bien-agi",
   "etapes": [
     {
@@ -347,14 +347,14 @@ niveau1: [
       "q": "Quelle première réponse installer en partie I, avec sa raison ?",
       "o": [
         [
-          "On peut être certain d’avoir bien agi, car on connaît son intention.",
+          "Respecter une obligation morale claire peut permettre de savoir qu’on a bien agi sous un rapport déterminé.",
           "ok",
-          "Une réponse au sujet, avec sa raison : c’est un vrai point de départ."
+          "La réponse porte sur une possibilité précise, non sur la certitude infaillible de tout ce que produit l’acte."
         ],
         [
-          "On le sait quand les autres nous remercient ou nous félicitent de ce qu’on a fait.",
+          "Dès qu'un acte réussit et plaît à ceux qui en bénéficient, son auteur peut être parfaitement certain d'avoir bien agi.",
           "def",
-          "Une piste, mais le jugement des autres ne donne pas encore une certitude à soi."
+          "Un succès ne suffit pas à justifier tous les moyens ni à établir la valeur entière d’un acte."
         ],
         [
           "On n’est jamais certain de rien en morale, et surtout pas de soi-même ni de ses propres raisons.",
@@ -369,9 +369,9 @@ niveau1: [
       "q": "Qu’est-ce qui rend cette réponse la plus forte possible ?",
       "o": [
         [
-          "Kant, dans la première section des Fondements de la métaphysique des mœurs, affirme qu’une bonne volonté est bonne par elle-même, même si elle échoue.",
+          "Pour Kant, la valeur d’une bonne volonté ne dépend pas de la réussite de son projet.",
           "ok",
-          "La référence ne décore pas : elle donne à la réponse sa forme la plus forte, en disant pourquoi elle vaut."
+          "La référence distingue la valeur de la volonté et les effets, sans faire croire que nous connaissons parfaitement tous nos motifs."
         ],
         [
           "Je prête de l’argent à un ami en difficulté, il est content de l’avoir reçu, et je sais que j’ai bien fait.",
@@ -391,9 +391,9 @@ niveau1: [
       "q": "Où cette réponse cède-t-elle, si on la pousse jusqu’au bout ?",
       "o": [
         [
-          "Mais si tout repose sur l’intention, il faut encore être sûr de la connaître, et rien ne garantit que mes vraies raisons soient celles que je crois.",
+          "Nous pouvons invoquer un bon principe sans être certains d’avoir agi pour ce principe plutôt que par vanité.",
           "ok",
-          "La limite vient de la réponse elle-même, poussée jusqu’au bout : c’est elle qui obligera à changer de réponse."
+          "La raison déclarée ne garantit pas la transparence des mobiles véritables."
         ],
         [
           "Les intentions sont difficiles à prouver devant un tribunal, qui juge sur des faits, des témoignages et des preuves, et non sur ce que chacun dit avoir voulu.",
@@ -413,9 +413,9 @@ niveau1: [
       "q": "Quelle question, née de cette limite, fait passer à la partie II ?",
       "o": [
         [
-          "Que devient le jugement moral lorsque nos motifs et les effets de nos actes nous échappent ?",
+          "Une règle juste peut justifier le choix sans rendre nos mobiles transparents ; faut-il alors attendre de ses effets la certitude qui nous manque sur nos intentions ?",
           "ok",
-          "Une question brève, née de cette limite : elle fait passer à la partie II sans la donner d’avance."
+          "La question passe des raisons de l’agent à ce que les effets peuvent apprendre sur le choix."
         ],
         [
           "Mais si je peux me tromper sur mes propres motifs, la certitude ne peut plus reposer sur l’intention seule.",
@@ -435,9 +435,9 @@ niveau1: [
       "q": "Comment la partie II répond-elle d’abord à cette question ?",
       "o": [
         [
-          "Il devient incertain : ce qui fait la valeur d’un acte, ses vrais motifs et ses effets, ne nous est pas transparent.",
+          "Bien agir demande aussi de considérer les dommages qu'une décision peut raisonnablement faire prévoir.",
           "ok",
-          "Elle répond à la question de transition : la partie II part de ce que la partie I perdait."
+          "C'est la nouvelle exigence : la bonne intention ne suffit pas à excuser une négligence évitable."
         ],
         [
           "Il passe aux autres, qui voient nos actes de l’extérieur et peuvent parfois les juger bien mieux que nous ne le faisons nous-mêmes.",
@@ -457,14 +457,14 @@ niveau1: [
       "q": "Quel développement montre que cette exigence est nécessaire ?",
       "o": [
         [
-          "Kant lui-même reconnaît, dans la deuxième section des Fondements, qu’on ne peut jamais savoir avec certitude si l’on a agi par devoir plutôt que par intérêt caché, et La Rochefoucauld, dans ses Maximes, montre l’amour-propre déguisé sous les vertus.",
+          "Weber invite à considérer les conséquences prévisibles de l’action : la fidélité à une conviction ne dispense pas de responsabilité.",
           "ok",
-          "La référence porte la nouvelle réponse : elle montre pourquoi l’exigence de la partie II est nécessaire."
+          "La prévoyance répond de ce qui pouvait être connu, non de tout événement ultérieur."
         ],
         [
-          "On ne peut pas en être certain : les effets de nos actes et nos vrais motifs nous échappent.",
+          "Si l'intention était sincère, il n'est pas nécessaire d'examiner les risques que l'on pouvait prévoir.",
           "def",
-          "C’est bien la position de la partie, mais énoncée, pas développée : montrez ce qu’elle permet de comprendre."
+          "La sincérité n'exclut pas la négligence : des effets prévisibles demandent à être examinés."
         ],
         [
           "Il est impossible de jamais bien agir, quoi qu’on fasse et quoi qu’on veuille.",
@@ -479,9 +479,9 @@ niveau1: [
       "q": "Où cette deuxième réponse cède-t-elle à son tour ?",
       "o": [
         [
-          "Mais si seuls les effets décident, la valeur d’un acte dépend de ce qui arrive après lui : la même décision serait mauvaise si un coup de vent avait fait échouer l’amerrissage.",
+          "Un événement imprévisible peut faire échouer un choix prudent : juger exclusivement par le résultat reviendrait à moraliser le hasard.",
           "ok",
-          "La limite vient encore de l’intérieur : la seconde réponse perd à son tour ce que la première gardait."
+          "Le résultat importe, mais il ne prouve pas à lui seul que la décision initiale était fautive."
         ],
         [
           "Les effets d’une action ne sont parfois connus que bien plus tard, des années après qu’on a agi, quand plus personne ne se souvient de ce qu’on avait voulu ni pourquoi on l’avait décidé.",
@@ -501,9 +501,9 @@ niveau1: [
       "q": "Quelle question montre ce que les deux réponses supposaient ensemble ?",
       "o": [
         [
-          "Mais la certitude d’avoir bien agi doit-elle être celle d’un savoir complet sur l’acte, ses motifs et ses suites ?",
+          "La conscience de l'intention peut nous tromper, et la réussite dépend parfois du hasard ; peut-on néanmoins former une certitude limitée et justifiée plutôt qu'exiger un savoir total de l'acte ?",
           "ok",
-          "La question fait voir ce que les deux réponses supposaient ensemble : c’est ce point que la partie III transformera."
+          "La transition ne décrète pas une aporie : elle demande quelle certitude reste justifiable sans connaissance totale."
         ],
         [
           "Si l’intention ne suffit pas et que le doute paralyse, peut-on finalement être certain d’avoir bien agi, oui ou non ?",
@@ -523,9 +523,9 @@ niveau1: [
       "q": "Revenir au problème : que supposaient ensemble les deux réponses, et comment le transformer ?",
       "o": [
         [
-          "La certitude qui convient à l’action n’est pas celle d’un savoir complet : elle porte sur les raisons du choix, que l’on peut examiner au moment d’agir.",
+          "Une certitude portant sur une règle respectée n'est pas une connaissance complète des motifs et des effets.",
           "ok",
-          "Elle ne choisit pas un camp : elle transforme ce que les deux réponses tenaient pour acquis."
+          "On distingue les objets du jugement moral au lieu de confondre certitude partielle et omniscience."
         ],
         [
           "Chacune avait raison à moitié : la partie I sur la morale de l’intention, la partie II sur la psychologie de celui qui prétend se juger lui-même sans se tromper.",
@@ -545,9 +545,9 @@ niveau1: [
       "q": "Quelle opération permet de tenir les deux ensemble : renverser le rapport, changer de niveau, ou réunir ce qu’on avait séparé ? Plusieurs peuvent tenir : regardez ce que chacune laisse.",
       "o": [
         [
-          "Elle compare les raisons accessibles, les risques prévisibles et les autres décisions possibles : on peut être sûr de l’avoir fait, sans l’être de l’issue.",
+          "Définir l’obligation, examiner les risques accessibles, puis réviser le jugement si des faits nouveaux l’exigent.",
           "ok",
-          "Elle garde l’acquis de la partie I et celui de la partie II, et dit concrètement comment les tenir ensemble."
+          "Trois opérations distinctes et nécessaires à un jugement moral sérieux."
         ],
         [
           "On peut changer la certitude en engagement : celui qui répond de son acte devant les autres n’a pas besoin d’être sûr qu’il était bon pour l’assumer tout entier.",
@@ -567,14 +567,14 @@ niveau1: [
       "q": "Que peut-on désormais affirmer, et que cette réponse ne règle-t-elle pas encore ?",
       "o": [
         [
-          "Cette certitude ne garantit pas que l’acte fut bon, mais qu’il fut bien décidé, et c’est de cela qu’un agent peut répondre. Reste qu’un effet imprévisible peut conduire à réviser l’appréciation d’un choix pourtant raisonnable au moment d’agir.",
+          "Nous pouvons établir le respect d’une obligation précise, sans prétendre connaître toutes les suites de l’acte ; certains conflits de devoirs demeurent.",
           "ok",
-          "La réponse est nette, et son reste est dit : c’est lui que la conclusion reprendra."
+          "Le résultat est limité sans être vide, et le reste concerne les conflits entre responsabilités."
         ],
         [
-          "Cette certitude ne garantit pas que l’acte fut bon, mais qu’il fut bien décidé, et c’est de cela qu’un agent peut répondre. Un choix bien décidé ne peut donc plus être révisé, quoi qu’il arrive ensuite : ses effets imprévus ne regardent plus celui qui a agi.",
+          "Une fois notre décision bien réfléchie, nous sommes définitivement certains de sa bonté, quels que soient les faits nouveaux.",
           "def",
-          "La réponse se croit complète : un effet imprévisible peut encore conduire à réviser l’appréciation d’un choix pourtant raisonnable."
+          "Une justification initiale peut être raisonnable et devoir être révisée à la lumière des conséquences."
         ],
         [
           "On est parfois sûr d’avoir bien agi, et parfois non, selon les situations.",
@@ -589,7 +589,7 @@ niveau1: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Doit-on répondre d’un mal que nos meilleures raisons ne permettaient pas de prévoir ?",
+          "Que devient le jugement moral lorsqu'un agent pouvait prévoir un danger mais que tous les moyens de l'éviter comportaient eux-mêmes des dommages certains ?",
           "ok",
           "C’est le reste de la réponse, devenu question : le même problème, posé plus loin."
         ],
