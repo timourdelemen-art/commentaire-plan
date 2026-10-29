@@ -58,6 +58,16 @@ export function examinerCandidate(candidate) {
     check(problems, "relation.condition", r.condition, "Identifier la condition indispensable.");
     check(problems, "relation.retournement", r.retournement, "Démontrer comment et quand la condition devient limitante.");
   }
+  const secondary = candidate?.relationsSecondaires || [];
+  if (!Array.isArray(secondary)) problems.push(issue("relationsSecondaires","Les rapports secondaires doivent former une liste."));
+  else {
+    secondary.forEach((sr,i) => {
+      if (!Object.hasOwn(RELATIONS,sr?.type)) problems.push(issue(`relationsSecondaires[${i}].type`,"Relation secondaire inconnue."));
+      check(problems,`relationsSecondaires[${i}].mecanisme`,sr?.mecanisme,"Démontrer le rapport secondaire.");
+      check(problems,`relationsSecondaires[${i}].apportDistinct`,sr?.apportDistinct,"Ce rapport doit ajouter quelque chose au rapport principal.");
+    });
+    if (secondary.length) check(problems,"articulationDesRapports",candidate?.articulationDesRapports,"Prouver comment les rapports différents se combinent, sans juxtaposition.");
+  }
   const formulations = candidate?.formulations;
   if (!list(formulations)) problems.push(issue("formulations", "Comparer plusieurs formulations de la problématique."));
   else formulations.forEach((f,i) => {
@@ -95,7 +105,7 @@ export function selectionnerProblematiques(dossier) {
   const possibles = examined.filter(x => x.statut === "recevable_pour_examen_contradictoire");
   const review = dossier?.arbitrage || {};
   const proposed = possibles.find(x => x.id === review.id);
-  const supportedArbitration = !!proposed &&
+  const supportedArbitration = examined.length >= 2 && !!proposed &&
     present(review.justificationComparative) &&
     present(review.objectionDecisive) &&
     present(review.reponseAObjection) &&
