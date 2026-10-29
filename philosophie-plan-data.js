@@ -888,7 +888,7 @@ niveau1: [
   "sujet": "L’artiste sait-il ce qu’il fait ?",
   "notion": "L’art",
   "v": 3,
-  "pb": "L’artiste sait-il ce qu’il fait, si son savoir-faire rend l’œuvre possible mais qu’aucune règle ne détermine entièrement l’invention ?",
+  "pb": "L’artiste sait-il ce qu’il fait, si l’œuvre exige des décisions qu’il peut justifier, mais acquiert au cours de son élaboration une forme qu’il ne pouvait connaître d’avance ?",
   "annale": "l-artiste-sait-il-ce-qu-il-fait",
   "etapes": [
     {
