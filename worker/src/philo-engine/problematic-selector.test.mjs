@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {examinerCandidate,selectionnerProblematiques,RELATIONS} from './problematic-selector.mjs';
+import {examinerCandidate,selectionnerProblematiques,RELATIONS,examinerBoucleMatrices} from './problematic-selector.mjs';
 
 function exemplaire(){
   return {
@@ -86,4 +86,37 @@ test('répertoire ouvert de relations : le nom seul ne valide rien',()=>{
   const c=exemplaire();c.relation.type="autre";
   c.relation.mecanisme="";
   assert.equal(examinerCandidate(c).statut,"a_reconstruire");
+});
+
+test('une matrice ne peut être utilisée comme preuve rétrospective des apories',()=>{
+  const c=exemplaire();
+  c.explorationMatrices={
+    rapportInitial:"Deux limites ont été reconnues avant la recherche de résolution.",
+    essais:[
+      {matrice:"processualisation",hypotheseDeMecanisme:"éprouver une rétroaction entre geste et jugement",ceQueDevientA:"savoir-faire soumis à l'épreuve",ceQueDevientB:"invention soumise au jugement",relationRevelee:"réciprocité temporelle",objectionForte:"la coexistence métier-invention pourrait suffire",coutEtReste:"risque d'imposer l'innovation comme essence de tout art",verdictArgumente:"hypothèse prometteuse sans certification"},
+      {matrice:"duplication",hypotheseDeMecanisme:"séparer le savoir des gestes du savoir du résultat",ceQueDevientA:"connaissance technique",ceQueDevientB:"connaissance de la forme",relationRevelee:"deux objets distincts",objectionForte:"la séparation peut suffire sans troisième partie",coutEtReste:"n'explique pas le développement",verdictArgumente:"rejet comme résolution nécessaire"}
+    ],
+    rapportApresEssais:"réciprocité dans la genèse du jugement",
+    changementJustifie:"la rétroaction explique le passage et pas la seule coexistence",
+    preuveIndependanteDeLaSolution:"à établir à partir des raisons internes des deux réponses",
+    meilleurCumulReexamine:"artiste compétent qui improvise et se corrige",
+    possibiliteDeRejet:"revenir aux deux branches si l'improvisation suffit déjà à la question"
+  };
+  assert.equal(examinerBoucleMatrices(c.explorationMatrices).statut,"exploration_documentee_non_validee");
+  assert.equal(examinerCandidate(c).statut,"recevable_pour_examen_contradictoire");
+  assert.equal(examinerBoucleMatrices(c.explorationMatrices).homologation,false);
+  c.explorationMatrices.preuveIndependanteDeLaSolution="";
+  assert.equal(examinerCandidate(c).statut,"a_reconstruire");
+  assert(examinerCandidate(c).objectionsDocumentaires.some(x=>x.where==="explorationMatrices.preuveIndependanteDeLaSolution"));
+});
+test('essayer une matrice unique ne suffit pas à l enquête comparative',()=>{
+  const e={rapportInitial:"rapport provisoire",essais:[{matrice:"processualisation"}],
+   rapportApresEssais:"rapport",changementJustifie:"raison",preuveIndependanteDeLaSolution:"preuve",
+   meilleurCumulReexamine:"meilleur cas",possibiliteDeRejet:"la solution échoue"};
+  const a=examinerBoucleMatrices(e);
+  assert(a.objectionsDocumentaires.some(x=>x.where==="explorationMatrices.essais"));
+});
+test('sans examen matriciel facultatif, ne pas invalider une candidature déjà fondée',()=>{
+  assert.equal(examinerCandidate(exemplaire()).statut,"recevable_pour_examen_contradictoire");
+  assert.equal(examinerBoucleMatrices(null).statut,"non_documentee");
 });
