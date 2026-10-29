@@ -16,13 +16,15 @@ Les 20 copies JSON sont composées de **segments de rédaction annotés**, et no
 
 ## Reconstructions argumentatives du 29 octobre — distinctes de l'homologation
 
-Trois dissertations du corpus JSON ont reçu une **réécriture complète des neuf unités démonstratives**, avec fonctions explicites pour chaque phrase du développement, deux transitions, problématique fidèle au sujet, conclusion et dossier de comparaison actualisés :
+Quatre dissertations du corpus JSON ont reçu une **réécriture complète des neuf unités démonstratives**, avec fonctions explicites pour chaque phrase du développement, deux transitions, problématique fidèle au sujet, conclusion et dossier de comparaison actualisés :
 
 - `2026-asie-inconscient-bonheur` : la possibilité d'un bonheur lucide constitue un contre-exemple à la prétendue nécessité de l'inconscience ; 9 acquis et exercices du plan revus. Voir `reconstruction-inconscient-bonheur-v74-2026-10-29.md`.
 - `2026-ag-humanite-religion` : la concevabilité d'une humanité non religieuse ne dépend pas de la démonstration que toutes les fonctions sociales ont été historiquement assurées sans religion ; contre-modèle civique et questionnaire revus. Voir `reconstruction-humanite-sans-religion-v74-2026-10-29.md`.
 - `notion-temps` : correction du glissement de « nécessairement » vers « exclusivement » ; distinction perte de présence / destruction d'un être, condition temporelle / causalité ; page notion synchronisée. Voir `reconstruction-temps-necessairement-v74-2026-10-29.md`.
 
-**État véritable : 3/26 reconstructions approfondies accomplies au cours de cette passe ; 23/26 autres copies non reconstruites au même degré. Aucune certification philosophique indépendante pour les 26.** Le fait qu'un sujet soit résoluble par un contre-exemple ne justifie pas de lui fabriquer une aporie. Une copie à trois parties doit prouver la valeur de chacune des trois, non sauver un modèle scolaire par fiction.
+- `notion-technique` : « toujours » réfuté par un contre-exemple, puis choix normatif des usages par fins, moyens et conséquences ; copie et page notion synchronisées. Voir `reconstruction-technique-toujours-v74-2026-10-29.md`.
+
+**État véritable : 4/26 reconstructions approfondies accomplies au cours de cette passe ; 22/26 autres copies non reconstruites au même degré. Aucune certification philosophique indépendante pour les 26.** Le fait qu'un sujet soit résoluble par un contre-exemple ne justifie pas de lui fabriquer une aporie. Une copie à trois parties doit prouver la valeur de chacune des trois, non sauver un modèle scolaire par fiction.
 
 ## Limite essentielle
 
