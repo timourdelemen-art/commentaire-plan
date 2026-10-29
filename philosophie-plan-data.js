@@ -1163,7 +1163,7 @@ niveau1: [
   "sujet": "Avons-nous la maîtrise de nos paroles ?",
   "notion": "Le langage",
   "v": 3,
-  "pb": "Avons-nous la maîtrise de nos paroles, si nous pouvons choisir ce que nous disons sans fixer d’avance tout ce que l’autre entendra ou en fera ?",
+  "pb": "Avons-nous la maîtrise de nos paroles, lorsque leur sens dépend de règles que nous partageons avec autrui, mais que nous devons néanmoins répondre de ce que nous faisons en parlant ?",
   "annale": "avons-nous-la-maitrise-de-nos-paroles",
   "etapes": [
     {
