@@ -59,6 +59,14 @@ ${meta?`<p class="micro">${esc(meta.exam)} · ${esc(meta.code)} · <a class="off
 <section class="offer-band"><div class="kicker">POURQUOI CETTE COPIE MÉRITE 20</div><h2>Rien n’y est décoratif.</h2>
 <div class="grid-3"><div><strong>Un problème réel</strong><p>Les deux réponses perdent quelque chose, et la problématique le dit en une seule question.</p></div><div><strong>Un plan qui avance</strong><p>Chaque limite naît de l’idée poussée jusqu’au bout ; chaque transition en fait une question. Aucun « d’abord », aucun « de plus » : les liens sont dans la pensée.</p></div><div><strong>Des auteurs qui travaillent</strong><p>Les références sont choisies pour accomplir quelque chose : pousser l’idée, porter la réponse, réaliser l’opération.</p></div></div>
 <p>Les copies à 20 : sur les pages des sujets du bac 2026 (<a class="official-link" href="philosophie-annales.html">les annales →</a>) et de chaque notion (<a class="official-link" href="philosophie-notions.html">les 17 notions →</a>).</p>
+${key==='2025-me-verite'?`<section class="offer-band"><div class="kicker">EXERCICE · LA PORTÉE DE « TOUJOURS »</div><h2>Une vérité qui ne convainc pas</h2>
+<ol>
+<li>Écrivez un exemple précis d'affirmation vraie qu'une personne refuse de reconnaître. Distinguez en deux phrases la vérité de l'affirmation et l'adhésion de cette personne.</li>
+<li>Expliquez en deux phrases pourquoi ce refus suffit à répondre au mot « toujours », sans prouver que la vérité est sans valeur.</li>
+<li>Rédigez trois phrases : comment rendre une preuve compréhensible, comment la soumettre à l'examen d'autrui, et pourquoi cette démarche ne garantit pas son accord.</li>
+</ol>
+<details><summary>Vérifier votre raisonnement</summary><p>Le refus d'un interlocuteur n'invalide pas la preuve : il réfute seulement l'affirmation qu'une vérité entraîne toujours l'adhésion. Une explication peut rendre les raisons accessibles, mais ne produit pas automatiquement leur examen.</p></details>
+</section>`:''}
 <h3>Trois nouveaux sujets, pour refaire le travail</h3><ul>${extraLinks}</ul>
 <p><a class="official-link" href="philosophie-notion-${meta?esc(meta.notion):'liberte'}.html">Travailler la notion →</a> · <a class="official-link" href="philosophie-dissertation.html#liens">L’architecture logique d’une dissertation →</a></p></section>
 </main><script src="site-nav.js"></script>
