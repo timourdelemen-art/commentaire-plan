@@ -61,9 +61,11 @@ ${meta?`<p class="micro">${esc(meta.exam)} · ${esc(meta.code)} · <a class="off
 <p>Les copies à 20 : sur les pages des sujets du bac 2026 (<a class="official-link" href="philosophie-annales.html">les annales →</a>) et de chaque notion (<a class="official-link" href="philosophie-notions.html">les 17 notions →</a>).</p>
 ${key==='2025-me-verite'?`<section class="offer-band"><div class="kicker">EXERCICE · LA PORTÉE DE « TOUJOURS »</div><h2>Une vérité qui ne convainc pas</h2>
 <ol>
-<li>Écrivez un exemple précis d'affirmation vraie qu'une personne refuse de reconnaître. Distinguez en deux phrases la vérité de l'affirmation et l'adhésion de cette personne.</li>
-<li>Expliquez en deux phrases pourquoi ce refus suffit à répondre au mot « toujours », sans prouver que la vérité est sans valeur.</li>
-<li>Rédigez trois phrases : comment rendre une preuve compréhensible, comment la soumettre à l'examen d'autrui, et pourquoi cette démarche ne garantit pas son accord.</li>
+<li>Écrivez en une phrase une affirmation vraie qu'une personne refuse de reconnaître.</li>
+<li>Expliquez en une phrase pourquoi ce refus ne rend pas l'affirmation fausse.</li>
+<li>Expliquez en une phrase pourquoi ce cas suffit à contester « toujours ».</li>
+<li>Proposez en deux phrases une manière de rendre une preuve vérifiable par autrui.</li>
+<li>Expliquez en une phrase pourquoi cette vérification ne garantit pas l'accord.</li>
 </ol>
 <details><summary>Vérifier votre raisonnement</summary><p>Le refus d'un interlocuteur n'invalide pas la preuve : il réfute seulement l'affirmation qu'une vérité entraîne toujours l'adhésion. Une explication peut rendre les raisons accessibles, mais ne produit pas automatiquement leur examen.</p></details>
 </section>`:''}
