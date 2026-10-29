@@ -1438,7 +1438,7 @@ niveau1: [
   "sujet": "Peut-on concevoir une humanité sans religion ?",
   "notion": "La religion",
   "v": 3,
-  "pb": "Peut-on concevoir une humanité sans religion, alors que la religion a contribué à faire société sans que tout lien humain doive dépendre d’une foi ?",
+  "pb": "Peut-on concevoir une humanité sans religion, si aucun lien humain ne dure sans pratiques communes, mais si ces pratiques ne sont pas nécessairement fondées sur le sacré ?",
   "annale": "peut-on-concevoir-une-humanite-sans-religion",
   "etapes": [
     {
@@ -1447,7 +1447,7 @@ niveau1: [
       "q": "Quelle première réponse installer en partie I, avec sa raison ?",
       "o": [
         [
-          "On peut concevoir une humanité sans religion, car la raison peut suffire.",
+          "On peut concevoir une humanité sans religion, puisque des obligations entre personnes ne dépendent pas nécessairement d'une foi commune.",
           "ok",
           "Une réponse au sujet, avec sa raison : c’est un vrai point de départ."
         ],
@@ -1469,9 +1469,9 @@ niveau1: [
       "q": "Qu’est-ce qui rend cette réponse la plus forte possible ?",
       "o": [
         [
-          "Freud, dans L’Avenir d’une illusion, explique les idées religieuses par la détresse de l’enfance et le besoin d’un père protecteur : ce sont des illusions, nées du désir.",
+          "Bayle envisage la possibilité d'une société d'athées moraux ; Kant fonde le respect de la personne sur une exigence rationnelle qui ne dépend pas de la confession d'autrui.",
           "ok",
-          "La référence ne décore pas : elle donne à la réponse sa forme la plus forte, en disant pourquoi elle vaut."
+          "Ces références permettent de penser une morale non confessionnelle ; elles ne prouvent pas encore que les institutions existent partout."
         ],
         [
           "Les sciences expliquent aujourd’hui des phénomènes que l’on attribuait autrefois aux dieux, comme la foudre.",
@@ -1491,9 +1491,9 @@ niveau1: [
       "q": "Où cette réponse cède-t-elle, si on la pousse jusqu’au bout ?",
       "o": [
         [
-          "Mais si la religion répond à une détresse qui dure toute la vie, s’en passer suppose de trouver ailleurs ce qu’elle donnait.",
+          "Des principes moraux ne suffisent pas, à eux seuls, à régler les conflits et à créer des habitudes communes ; il faut concevoir des institutions.",
           "ok",
-          "La limite vient de la réponse elle-même, poussée jusqu’au bout : c’est elle qui obligera à changer de réponse."
+          "Une difficulté d'application de la morale, non la preuve que l'humanité non religieuse serait contradictoire."
         ],
         [
           "Certains croyants refuseront toujours d’abandonner leur religion, quoi qu’on leur démontre, quoi qu’on leur explique et quoi qu’on leur oppose.",
@@ -1513,9 +1513,9 @@ niveau1: [
       "q": "Quelle question, née de cette limite, fait passer à la partie II ?",
       "o": [
         [
-          "Une morale sans foi peut être conçue, mais les principes ne créent pas à eux seuls des pratiques communes. Il faut examiner ce que la religion apporte historiquement à la cohésion.",
+          "La raison permet de penser des obligations sans foi commune, mais leur reconnaissance abstraite ne crée pas encore un monde partagé ; quel travail collectif les religions accomplissent-elles que cette construction doit elle aussi rendre possible ?",
           "ok",
-          "Une question brève, née de cette limite : elle fait passer à la partie II sans la donner d’avance."
+          "La transition distingue la norme morale et la vie sociale, sans attribuer d'avance aux religions une nécessité universelle."
         ],
         [
           "La raison gagne contre l’illusion, mais perd ce que l’illusion donnait : il faut donc garder la religion.",
@@ -1535,7 +1535,7 @@ niveau1: [
       "q": "Comment la partie II répond-elle d’abord à cette question ?",
       "o": [
         [
-          "Une humanité n’est pas seulement une somme d’individus raisonnables : il lui faut ce qui les relie et leur donne des fins communes.",
+          "Une humanité commune demande des pratiques collectives et une mémoire partagée, pas seulement l'accord abstrait d'individus séparés.",
           "ok",
           "Elle répond à la question de transition : la partie II part de ce que la partie I perdait."
         ],
@@ -1557,9 +1557,9 @@ niveau1: [
       "q": "Quel développement montre que cette exigence est nécessaire ?",
       "o": [
         [
-          "Durkheim, dans Les Formes élémentaires de la vie religieuse, montre que la religion est, en son fond, une affaire sociale : en célébrant le sacré, une communauté se célèbre et se resserre elle-même.",
+          "Durkheim montre comment croyances et rites relient les membres d'une communauté et donnent au sacré une force collective.",
           "ok",
-          "La référence porte la nouvelle réponse : elle montre pourquoi l’exigence de la partie II est nécessaire."
+          "Il explique la fonction collective des rites : la force sociale est démontrée, non la nécessité logique d'un fondement religieux."
         ],
         [
           "La religion relie les hommes et leur donne des fins communes, ce que la raison seule ne fait pas.",
@@ -1579,14 +1579,14 @@ niveau1: [
       "q": "Où cette deuxième réponse cède-t-elle à son tour ?",
       "o": [
         [
-          "Mais un lien qui tient à une croyance commune exige qu’on ne la mette pas en doute : l’unité se paie du jugement personnel.",
+          "Le fait qu'une religion remplisse une fonction sociale n'établit pas qu'aucune institution non religieuse ne pourrait la remplir.",
           "ok",
-          "La limite vient encore de l’intérieur : la seconde réponse perd à son tour ce que la première gardait."
+          "On refuse la généralisation illégitime de l'efficacité historique à une impossibilité logique."
         ],
         [
-          "Les pratiques religieuses reculent dans beaucoup de pays occidentaux depuis plus d’un siècle, et les églises s’y vident peu à peu.",
+          "Une religion ne peut unir une communauté qu'en interdisant toute interrogation ou interprétation de ses croyances.",
           "def",
-          "Un constat, mais extérieur : la limite doit venir du lien religieux lui-même."
+          "Une généralisation abusive : les traditions religieuses n'excluent pas toutes la critique et l'interprétation."
         ],
         [
           "Il existe de nombreuses religions différentes dans le monde.",
@@ -1601,9 +1601,9 @@ niveau1: [
       "q": "Quelle question montre ce que les deux réponses supposaient ensemble ?",
       "o": [
         [
-          "Une communauté sans foi commune et des rites partagés sont compatibles : aucune contradiction ne les oppose nécessairement. Quelles pratiques peuvent instituer durablement ce lien sans lui donner un fondement religieux ?",
+          "Les religions ont effectivement produit des liens collectifs, mais la fonction de lien ne prouve pas que le sacré soit indispensable ; comment instituer une solidarité réelle sans assimiler toutes les valeurs communes à une religion ?",
           "ok",
-          "La question fait voir ce que les deux réponses supposaient ensemble : c’est ce point que la partie III transformera."
+          "Le meilleur cumul est compatible : la question est de construire le lien, non de déclarer des réponses contradictoires."
         ],
         [
           "Si la raison laisse un vide et que la religion divise, l’humanité peut-elle finalement se passer de toute religion ?",
@@ -1623,9 +1623,9 @@ niveau1: [
       "q": "Revenir au problème : que supposaient ensemble les deux réponses, et comment le transformer ?",
       "o": [
         [
-          "Un lien n’a besoin d’être soustrait à l’examen que s’il repose sur une croyance ; des hommes peuvent aussi se relier par ce qu’ils examinent ensemble.",
+          "Il faut distinguer une communauté unie par des pratiques et la prétention selon laquelle ces pratiques devraient nécessairement relever du sacré.",
           "ok",
-          "Elle ne choisit pas un camp : elle transforme ce que les deux réponses tenaient pour acquis."
+          "La fonction de cohésion reste à instituer ; la catégorie de religion ne doit pas absorber par définition toute pratique collective."
         ],
         [
           "Chacune avait raison à moitié : la partie I sur la science et ses preuves, la partie II sur la tradition, les rites et les fêtes qu’on partage en famille.",
@@ -1645,9 +1645,9 @@ niveau1: [
       "q": "Quelle opération permet de tenir les deux ensemble : renverser le rapport, changer de niveau, ou réunir ce qu’on avait séparé ? Plusieurs peuvent tenir : regardez ce que chacune laisse.",
       "o": [
         [
-          "Le fait que la religion ait assuré ces fonctions ne prouve pas qu’elle seule puisse les assurer. Une communauté peut reconnaître des droits et organiser une solidarité sans partager une révélation, un culte ou une autorité sacrée.",
+          "Instituer des droits et des recours communs, permettre la discussion publique des règles, entretenir des symboles révisables : ce modèle rend pensable un lien non confessionnel.",
           "ok",
-          "Elle garde l’acquis de la partie I et celui de la partie II, et dit concrètement comment les tenir ensemble."
+          "Trois éléments nécessaires à un contre-modèle cohérent, sans appeler religion tout ce qui unit des personnes."
         ],
         [
           "On peut changer la religion plutôt que la quitter : une religion de la raison, sans révélation ni miracles, garderait ses rites et ses fêtes communes, mais n’exigerait plus de croire que ce que chacun peut comprendre par lui-même.",
@@ -1667,9 +1667,9 @@ niveau1: [
       "q": "Que peut-on désormais affirmer, et que cette réponse ne règle-t-elle pas encore ?",
       "o": [
         [
-          "Une humanité sans religion est donc concevable, pourvu que ses institutions communes restent examinables. Reste que des principes discutables peuvent être sacralisés : un lien initialement ouvert à la critique peut devenir un dogme qui interdit de le contester.",
+          "Une humanité sans religion est concevable, mais la possibilité logique ne prouve ni son existence universelle ni l'impossibilité d'une dérive dogmatique des institutions civiles.",
           "ok",
-          "La réponse est nette, et son reste est dit : c’est lui que la conclusion reprendra."
+          "On répond à « peut-on concevoir » sans prétendre prévoir toute l'histoire."
         ],
         [
           "Une humanité sans religion est donc concevable, pourvu que ses institutions communes restent examinables. Et comme des principes examinés en commun ne peuvent plus devenir des dogmes, ce lien restera ouvert à la critique aussi longtemps qu’il durera entre les hommes.",
@@ -1689,7 +1689,7 @@ niveau1: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Des convictions assez fortes pour unir les hommes peuvent-elles rester ouvertes à l’examen qui les a fondées ?",
+          "Comment éviter qu'une institution qui prétend unir tous les hommes n'interdise finalement de contester les valeurs qu'elle proclame communes ?",
           "ok",
           "C’est le reste de la réponse, devenu question : le même problème, posé plus loin."
         ],
