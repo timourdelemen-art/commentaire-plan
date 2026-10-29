@@ -63,7 +63,7 @@ niveau1: [
   "sujet": "Faut-il être inconscient pour être heureux ?",
   "notion": "Le bonheur",
   "v": 3,
-  "pb": "Faut-il être inconscient pour être heureux, si l’insouciance livre le bonheur aux dangers qu’elle ignore, et si la lucidité ne voit les menaces qu’en perdant le repos ?",
+  "pb": "Faut-il être inconscient pour être heureux, si savoir permet de prévenir certains dangers mais peut aussi entretenir une inquiétude devant ce qui n’arrive pas encore ?",
   "annale": "faut-il-etre-inconscient-pour-etre-heureux",
   "etapes": [
     {
@@ -94,7 +94,7 @@ niveau1: [
       "q": "Qu’est-ce qui rend cette réponse la plus forte possible ?",
       "o": [
         [
-          "Pascal, dans les Pensées (liasse « Divertissement »), montre que les adultes font de même : ne pouvant guérir la mort et la misère, les hommes ont choisi de n’y point penser pour se rendre heureux, et se divertissent pour ne pas penser à leur condition.",
+          "Pascal explique pourquoi le divertissement nous détourne de certaines inquiétudes, sans en faire une condition nécessaire du bonheur.",
           "ok",
           "La référence ne décore pas : elle donne à la réponse sa forme la plus forte, en disant pourquoi elle vaut."
         ],
@@ -138,7 +138,7 @@ niveau1: [
       "q": "Quelle question, née de cette limite, fait passer à la partie II ?",
       "o": [
         [
-          "Quel danger l’ignorance nous empêche-t-elle de prévenir ?",
+          "L'ignorance épargne parfois l'inquiétude, mais elle peut laisser agir un danger évitable ; comment la conscience pourrait-elle protéger le bonheur sans promettre l'absence de tout risque ?",
           "ok",
           "Une question brève, née de cette limite : elle fait passer à la partie II sans la donner d’avance."
         ],
@@ -182,7 +182,7 @@ niveau1: [
       "q": "Quel développement montre que cette exigence est nécessaire ?",
       "o": [
         [
-          "Aristote le rappelle : une hirondelle ne fait pas le printemps, et le bonheur est celui d’une vie entière, non d’un jour (Éthique à Nicomaque, I, 1098a). Un bonheur qui doit durer a donc besoin de voir ce qui le menace : la lucidité n’est pas l’ennemie du bonheur, mais la condition de sa durée.",
+          "Épicure montre que connaître peut dissiper une peur injustifiée, comme celle de la mort.",
           "ok",
           "La référence porte la nouvelle réponse : elle montre pourquoi l’exigence de la partie II est nécessaire."
         ],
@@ -204,7 +204,7 @@ niveau1: [
       "q": "Où cette deuxième réponse cède-t-elle à son tour ?",
       "o": [
         [
-          "Mais si connaître un danger, c’est s’en inquiéter, plus la lucidité voit loin, plus elle trouve de quoi craindre.",
+          "Une prudence qui exige de prévoir tous les dangers devient une surveillance sans fin et ruine la joie.",
           "ok",
           "La limite vient encore de l’intérieur : la seconde réponse perd à son tour ce que la première gardait."
         ],
@@ -226,7 +226,7 @@ niveau1: [
       "q": "Quelle question montre ce que les deux réponses supposaient ensemble ?",
       "o": [
         [
-          "Mais connaître un mal, est-ce nécessairement le craindre ?",
+          "Une personne informée peut demeurer heureuse : l'inconscience n'est donc pas nécessaire ; quel usage de la connaissance distingue alors la prudence de l'inquiétude sans fin ?",
           "ok",
           "La question fait voir ce que les deux réponses supposaient ensemble : c’est ce point que la partie III transformera."
         ],
@@ -248,7 +248,7 @@ niveau1: [
       "q": "Revenir au problème : que supposaient ensemble les deux réponses, et comment le transformer ?",
       "o": [
         [
-          "Connaître un mal, c’est aussi mesurer ce qu’il est ; or la crainte vit surtout de ce qu’on ne mesure pas.",
+          "Le bonheur lucide est possible : il faut distinguer une alerte fondée d’une inquiétude imaginaire.",
           "ok",
           "Elle ne choisit pas un camp : elle transforme ce que les deux réponses tenaient pour acquis."
         ],
@@ -292,7 +292,7 @@ niveau1: [
       "q": "Que peut-on désormais affirmer, et que cette réponse ne règle-t-elle pas encore ?",
       "o": [
         [
-          "Le bonheur lucide n’est donc pas un repos acheté par l’oubli, mais une paix conquise sur la crainte, qui garde sa vigilance. Reste la souffrance liée à un mal réel, notamment la perte d’un proche : réfuter une peur imaginaire ne supprime pas cette douleur.",
+          "Une joie peut être lucide et vulnérable : comprendre un risque aide parfois à agir, mais ne garantit pas contre toute perte. La souffrance née d'une perte réelle demeure à penser.",
           "ok",
           "La réponse est nette, et son reste est dit : c’est lui que la conclusion reprendra."
         ],
@@ -314,7 +314,7 @@ niveau1: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Lorsque la souffrance vient d’une perte réelle que comprendre ne supprime pas, comment la lucidité peut-elle encore contribuer au bonheur ?",
+          "Comment soutenir durablement une vie heureuse lorsque la douleur ne vient plus d'une anticipation trompeuse, mais d'une perte effectivement subie ?",
           "ok",
           "C’est le reste de la réponse, devenu question : le même problème, posé plus loin."
         ],
@@ -1438,7 +1438,7 @@ niveau1: [
   "sujet": "Peut-on concevoir une humanité sans religion ?",
   "notion": "La religion",
   "v": 3,
-  "pb": "Une humanité qui ne croit que ce qu’elle prouve peut-elle encore relier les hommes, et une humanité unie par la foi peut-elle rester faite d’hommes qui jugent par eux-mêmes ?",
+  "pb": "Peut-on concevoir une humanité sans religion, si aucun lien humain ne dure sans pratiques communes, mais si ces pratiques ne sont pas nécessairement fondées sur le sacré ?",
   "annale": "peut-on-concevoir-une-humanite-sans-religion",
   "etapes": [
     {
@@ -1447,7 +1447,7 @@ niveau1: [
       "q": "Quelle première réponse installer en partie I, avec sa raison ?",
       "o": [
         [
-          "On peut concevoir une humanité sans religion, car la raison peut suffire.",
+          "Une morale fondée sur la raison peut unir des hommes qui ne partagent aucune religion.",
           "ok",
           "Une réponse au sujet, avec sa raison : c’est un vrai point de départ."
         ],
@@ -1469,9 +1469,9 @@ niveau1: [
       "q": "Qu’est-ce qui rend cette réponse la plus forte possible ?",
       "o": [
         [
-          "Freud, dans L’Avenir d’une illusion, explique les idées religieuses par la détresse de l’enfance et le besoin d’un père protecteur : ce sont des illusions, nées du désir.",
+          "Bayle envisage une société d’athées honnêtes ; Kant fonde le respect de la personne sans exiger de foi commune.",
           "ok",
-          "La référence ne décore pas : elle donne à la réponse sa forme la plus forte, en disant pourquoi elle vaut."
+          "Ces références permettent de penser une morale non confessionnelle ; elles ne prouvent pas encore que les institutions existent partout."
         ],
         [
           "Les sciences expliquent aujourd’hui des phénomènes que l’on attribuait autrefois aux dieux, comme la foudre.",
@@ -1491,9 +1491,9 @@ niveau1: [
       "q": "Où cette réponse cède-t-elle, si on la pousse jusqu’au bout ?",
       "o": [
         [
-          "Mais si la religion répond à une détresse qui dure toute la vie, s’en passer suppose de trouver ailleurs ce qu’elle donnait.",
+          "Des principes moraux ne créent pas à eux seuls des institutions et des pratiques communes.",
           "ok",
-          "La limite vient de la réponse elle-même, poussée jusqu’au bout : c’est elle qui obligera à changer de réponse."
+          "Une difficulté d'application de la morale, non la preuve que l'humanité non religieuse serait contradictoire."
         ],
         [
           "Certains croyants refuseront toujours d’abandonner leur religion, quoi qu’on leur démontre, quoi qu’on leur explique et quoi qu’on leur oppose.",
@@ -1513,9 +1513,9 @@ niveau1: [
       "q": "Quelle question, née de cette limite, fait passer à la partie II ?",
       "o": [
         [
-          "Que devient le lien humain si la croyance qui le portait disparaît ?",
+          "La raison permet de penser des obligations sans foi commune, mais leur reconnaissance abstraite ne crée pas encore un monde partagé ; quel travail collectif les religions accomplissent-elles que cette construction doit elle aussi rendre possible ?",
           "ok",
-          "Une question brève, née de cette limite : elle fait passer à la partie II sans la donner d’avance."
+          "La transition distingue la norme morale et la vie sociale, sans attribuer d'avance aux religions une nécessité universelle."
         ],
         [
           "La raison gagne contre l’illusion, mais perd ce que l’illusion donnait : il faut donc garder la religion.",
@@ -1535,7 +1535,7 @@ niveau1: [
       "q": "Comment la partie II répond-elle d’abord à cette question ?",
       "o": [
         [
-          "Une humanité n’est pas seulement une somme d’individus raisonnables : il lui faut ce qui les relie et leur donne des fins communes.",
+          "Une humanité commune demande des pratiques collectives et une mémoire partagée, pas seulement l'accord abstrait d'individus séparés.",
           "ok",
           "Elle répond à la question de transition : la partie II part de ce que la partie I perdait."
         ],
@@ -1557,9 +1557,9 @@ niveau1: [
       "q": "Quel développement montre que cette exigence est nécessaire ?",
       "o": [
         [
-          "Durkheim, dans Les Formes élémentaires de la vie religieuse, montre que la religion est, en son fond, une affaire sociale : en célébrant le sacré, une communauté se célèbre et se resserre elle-même.",
+          "Durkheim montre que les rites réunissent les membres d’une communauté et entretiennent leurs représentations communes.",
           "ok",
-          "La référence porte la nouvelle réponse : elle montre pourquoi l’exigence de la partie II est nécessaire."
+          "Il explique la fonction collective des rites : la force sociale est démontrée, non la nécessité logique d'un fondement religieux."
         ],
         [
           "La religion relie les hommes et leur donne des fins communes, ce que la raison seule ne fait pas.",
@@ -1579,14 +1579,14 @@ niveau1: [
       "q": "Où cette deuxième réponse cède-t-elle à son tour ?",
       "o": [
         [
-          "Mais un lien qui tient à une croyance commune exige qu’on ne la mette pas en doute : l’unité se paie du jugement personnel.",
+          "Que la religion unisse une société ne prouve pas qu'elle soit l'unique manière possible de créer un lien.",
           "ok",
-          "La limite vient encore de l’intérieur : la seconde réponse perd à son tour ce que la première gardait."
+          "On refuse la généralisation illégitime de l'efficacité historique à une impossibilité logique."
         ],
         [
-          "Les pratiques religieuses reculent dans beaucoup de pays occidentaux depuis plus d’un siècle, et les églises s’y vident peu à peu.",
+          "Une religion ne peut unir une communauté qu'en interdisant toute interrogation ou interprétation de ses croyances.",
           "def",
-          "Un constat, mais extérieur : la limite doit venir du lien religieux lui-même."
+          "Une généralisation abusive : les traditions religieuses n'excluent pas toutes la critique et l'interprétation."
         ],
         [
           "Il existe de nombreuses religions différentes dans le monde.",
@@ -1601,9 +1601,9 @@ niveau1: [
       "q": "Quelle question montre ce que les deux réponses supposaient ensemble ?",
       "o": [
         [
-          "Mais un lien commun doit-il être une croyance soustraite à l’examen ?",
+          "Les religions ont effectivement produit des liens collectifs, mais la fonction de lien ne prouve pas que le sacré soit indispensable ; comment instituer une solidarité réelle sans assimiler toutes les valeurs communes à une religion ?",
           "ok",
-          "La question fait voir ce que les deux réponses supposaient ensemble : c’est ce point que la partie III transformera."
+          "Le meilleur cumul est compatible : la question est de construire le lien, non de déclarer des réponses contradictoires."
         ],
         [
           "Si la raison laisse un vide et que la religion divise, l’humanité peut-elle finalement se passer de toute religion ?",
@@ -1623,9 +1623,9 @@ niveau1: [
       "q": "Revenir au problème : que supposaient ensemble les deux réponses, et comment le transformer ?",
       "o": [
         [
-          "Un lien n’a besoin d’être soustrait à l’examen que s’il repose sur une croyance ; des hommes peuvent aussi se relier par ce qu’ils examinent ensemble.",
+          "Il faut distinguer une communauté unie par des pratiques et la prétention selon laquelle ces pratiques devraient nécessairement relever du sacré.",
           "ok",
-          "Elle ne choisit pas un camp : elle transforme ce que les deux réponses tenaient pour acquis."
+          "La fonction de cohésion reste à instituer ; la catégorie de religion ne doit pas absorber par définition toute pratique collective."
         ],
         [
           "Chacune avait raison à moitié : la partie I sur la science et ses preuves, la partie II sur la tradition, les rites et les fêtes qu’on partage en famille.",
@@ -1645,9 +1645,9 @@ niveau1: [
       "q": "Quelle opération permet de tenir les deux ensemble : renverser le rapport, changer de niveau, ou réunir ce qu’on avait séparé ? Plusieurs peuvent tenir : regardez ce que chacune laisse.",
       "o": [
         [
-          "Le fait que la religion ait assuré ces fonctions ne prouve pas qu’elle seule puisse les assurer. Une communauté peut reconnaître des droits et organiser une solidarité sans partager une révélation, un culte ou une autorité sacrée.",
+          "Instituer des droits et des recours communs, permettre la discussion publique des règles, entretenir des symboles révisables : ce modèle rend pensable un lien non confessionnel.",
           "ok",
-          "Elle garde l’acquis de la partie I et celui de la partie II, et dit concrètement comment les tenir ensemble."
+          "Trois éléments nécessaires à un contre-modèle cohérent, sans appeler religion tout ce qui unit des personnes."
         ],
         [
           "On peut changer la religion plutôt que la quitter : une religion de la raison, sans révélation ni miracles, garderait ses rites et ses fêtes communes, mais n’exigerait plus de croire que ce que chacun peut comprendre par lui-même.",
@@ -1667,9 +1667,9 @@ niveau1: [
       "q": "Que peut-on désormais affirmer, et que cette réponse ne règle-t-elle pas encore ?",
       "o": [
         [
-          "Une humanité sans religion est donc concevable, pourvu que ses institutions communes restent examinables. Reste que des principes discutables peuvent être sacralisés : un lien initialement ouvert à la critique peut devenir un dogme qui interdit de le contester.",
+          "Une humanité sans religion est concevable, mais la possibilité logique ne prouve ni son existence universelle ni l'impossibilité d'une dérive dogmatique des institutions civiles.",
           "ok",
-          "La réponse est nette, et son reste est dit : c’est lui que la conclusion reprendra."
+          "On répond à « peut-on concevoir » sans prétendre prévoir toute l'histoire."
         ],
         [
           "Une humanité sans religion est donc concevable, pourvu que ses institutions communes restent examinables. Et comme des principes examinés en commun ne peuvent plus devenir des dogmes, ce lien restera ouvert à la critique aussi longtemps qu’il durera entre les hommes.",
@@ -1689,7 +1689,7 @@ niveau1: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Des convictions assez fortes pour unir les hommes peuvent-elles rester ouvertes à l’examen qui les a fondées ?",
+          "Comment éviter qu'une institution qui prétend unir tous les hommes n'interdise finalement de contester les valeurs qu'elle proclame communes ?",
           "ok",
           "C’est le reste de la réponse, devenu question : le même problème, posé plus loin."
         ],
