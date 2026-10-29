@@ -138,7 +138,7 @@ niveau1: [
       "q": "Quelle question, née de cette limite, fait passer à la partie II ?",
       "o": [
         [
-          "L’ignorance écarte parfois la crainte mais ne supprime pas le danger. Le bonheur peut-il plutôt être soutenu par la lucidité ?",
+          "L'ignorance épargne parfois une inquiétude, mais elle peut aussi priver des moyens d'éviter un mal réel ; cherchons ce que la conscience apporte à la joie sans supposer qu'elle supprime tout risque.",
           "ok",
           "Une question brève, née de cette limite : elle fait passer à la partie II sans la donner d’avance."
         ],
@@ -182,7 +182,7 @@ niveau1: [
       "q": "Quel développement montre que cette exigence est nécessaire ?",
       "o": [
         [
-          "Aristote le rappelle : une hirondelle ne fait pas le printemps, et le bonheur est celui d’une vie entière, non d’un jour (Éthique à Nicomaque, I, 1098a). Un bonheur qui doit durer a donc besoin de voir ce qui le menace : la lucidité n’est pas l’ennemie du bonheur, mais la condition de sa durée.",
+          "Épicure examine, dans la Lettre à Ménécée, la peur de la mort et montre qu'une analyse peut corriger certaines représentations anxieuses. La lucidité peut donc soulager au lieu d'inquiéter.",
           "ok",
           "La référence porte la nouvelle réponse : elle montre pourquoi l’exigence de la partie II est nécessaire."
         ],
@@ -204,7 +204,7 @@ niveau1: [
       "q": "Où cette deuxième réponse cède-t-elle à son tour ?",
       "o": [
         [
-          "Mais si connaître un danger, c’est s’en inquiéter, plus la lucidité voit loin, plus elle trouve de quoi craindre.",
+          "Mais une prudence qui exigerait de prévoir et d'écarter tous les dangers ne laisserait plus de place à la joie, puisque l'incertitude ne disparaît jamais.",
           "ok",
           "La limite vient encore de l’intérieur : la seconde réponse perd à son tour ce que la première gardait."
         ],
@@ -226,7 +226,7 @@ niveau1: [
       "q": "Quelle question montre ce que les deux réponses supposaient ensemble ?",
       "o": [
         [
-          "Un bonheur lucide constitue déjà un contre-exemple à la nécessité de l’inconscience. Reste à expliquer comment la connaissance d’un danger peut permettre d’agir sans transformer la vie en inquiétude permanente.",
+          "Une personne peut être informée et sereine : la coexistence du savoir et de la joie réfute déjà la nécessité de l'inconscience, mais n'explique pas encore comment discerner ce qui mérite notre attention de ce qui nourrit seulement l'angoisse.",
           "ok",
           "La question fait voir ce que les deux réponses supposaient ensemble : c’est ce point que la partie III transformera."
         ],
@@ -248,7 +248,7 @@ niveau1: [
       "q": "Revenir au problème : que supposaient ensemble les deux réponses, et comment le transformer ?",
       "o": [
         [
-          "Connaître un mal, c’est aussi mesurer ce qu’il est ; or la crainte vit surtout de ce qu’on ne mesure pas.",
+          "La personne informée et heureuse est un contre-exemple suffisant à la nécessité de l'inconscience. Reste à distinguer l'attention utile à un danger et l'inquiétude sans objet précis.",
           "ok",
           "Elle ne choisit pas un camp : elle transforme ce que les deux réponses tenaient pour acquis."
         ],
@@ -292,7 +292,7 @@ niveau1: [
       "q": "Que peut-on désormais affirmer, et que cette réponse ne règle-t-elle pas encore ?",
       "o": [
         [
-          "Le bonheur lucide n’est donc pas un repos acheté par l’oubli, mais une paix conquise sur la crainte, qui garde sa vigilance. Reste la souffrance liée à un mal réel, notamment la perte d’un proche : réfuter une peur imaginaire ne supprime pas cette douleur.",
+          "Une joie peut être lucide et vulnérable : comprendre un risque aide parfois à agir, mais ne garantit pas contre toute perte. La souffrance née d'une perte réelle demeure à penser.",
           "ok",
           "La réponse est nette, et son reste est dit : c’est lui que la conclusion reprendra."
         ],
@@ -314,7 +314,7 @@ niveau1: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Lorsque la souffrance vient d’une perte réelle que comprendre ne supprime pas, comment la lucidité peut-elle encore contribuer au bonheur ?",
+          "Comment soutenir durablement une vie heureuse lorsque la douleur ne vient plus d'une anticipation trompeuse, mais d'une perte effectivement subie ?",
           "ok",
           "C’est le reste de la réponse, devenu question : le même problème, posé plus loin."
         ],
