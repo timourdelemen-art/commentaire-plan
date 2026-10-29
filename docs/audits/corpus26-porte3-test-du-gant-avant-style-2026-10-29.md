@@ -1,3 +1,5 @@
+**Note de version : les problématiques et les textes de « Le temps est-il nécessairement destructeur ? », « Avons-nous la maîtrise de nos paroles ? » et « L’artiste sait-il ce qu’il fait ? » ont été reconstruits après la première photographie de cet audit. Lire leur état à jour dans [le dossier de reconstruction du 29 octobre](corpus26-reconstruction-problematique-et-plans-2026-10-29.md). Les objections de conjonction énoncées ci-dessous restent à traiter.**
+
 # Porte 3 — test du gant avant refonte des 26 dissertations
 
 **Date : 29 octobre 2026. Audit critique de premier passage.** Il ne s'agit pas d'une certification de l'aporie. L'ordre de lecture est celui du protocole V7.3 : sujet exact et opérateur ; racine et présupposé ; prétention réelle de chaque réponse à suffire ; meilleur cas ; conjonction / antériorité (3.4.9) ; nécessité des neuf opérations ; seulement ensuite matrice de III et citations.
