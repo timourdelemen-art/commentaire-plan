@@ -306,7 +306,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Spinoza fournit l’opération suivante : comprendre un affect change notre manière de le subir et rend possibles d’autres actions.",
+          "proposal": "Le savoir peut donc servir le bonheur lorsqu'il oriente une action possible et cesse de se prendre pour une assurance contre tout événement.",
           "preserves": [
             "Laisser en repos",
             "Durer face aux dangers réels"
@@ -337,32 +337,32 @@
       "comparison": "Matrice candidate inversion du rapport connaissance/crainte et distinction de l’imaginaire du réel. La refonte des neuf opérations n'est pas encore une validation de la double aporie, ni des citations.",
       "strongestObjection": "L'une des branches ou leur cumul peut être possible avant III : vérifier la racine, le meilleur cas et le présupposé commun.",
       "responseToObjection": "Non démontré : sans inférences vérifiées, ne pas certifier V7.3.",
-      "residual": "Reste la souffrance liée à un mal réel, notamment la perte d’un proche : réfuter une peur imaginaire ne supprime pas cette douleur.",
-      "conclusionQuestion": "Lorsque la souffrance vient d’une perte réelle que comprendre ne supprime pas, comment la lucidité peut-elle encore contribuer au bonheur ?",
+      "residual": "Comment soutenir durablement une vie heureuse lorsque la douleur ne vient plus d'une anticipation trompeuse, mais d'une perte effectivement subie ?",
+      "conclusionQuestion": "Comment soutenir durablement une vie heureuse lorsque la douleur ne vient plus d'une anticipation trompeuse, mais d'une perte effectivement subie ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 554
+        "words": 1057
       },
       "review": {
         "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
-        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées. Mise à jour V8.0 : transitions revues ; audit des inférences et audit indépendant restent nécessaires."
+        "independentReview": "Reconstruction V7.4. Le sujet portant sur une condition nécessaire, le meilleur cumul d'une personne lucide et heureuse réfute cette nécessité. Trois gains nouveaux proposés en III ; l'existence d'un rapport R aporétique plus fort que la réponse directe reste à démontrer. Aucune citation littérale ajoutée."
       },
-      "copySha256": "f59919ef22d62cd134f7e0830a9c755c06f244da8131197aa80edb9446173cd1",
+      "copySha256": "03ecce8c4b5dc140a174414b21718bfa0ba368c04a12403c27d2871bdb38f4a9",
       "protocol": {
         "reference": "Plan dynamique V7.4 prioritaire ; protocole intégré V8.0 expérimental (transitions révisées, travail non homologué)",
         "racine": [
-          "Laisser en repos",
-          "Durer face aux dangers réels"
+          "L’ignorance peut éviter la souffrance anticipée mais non le danger réel",
+          "La lucidité donne une prise sur les risques mais peut dégénérer en vigilance permanente"
         ],
-        "presupposeCommun": "Connaître une menace, ce serait nécessairement la craindre.",
-        "forme": "réciprocité",
-        "problematique": "P3",
+        "presupposeCommun": "Être heureux exigerait de ne jamais rencontrer de danger ; connaître le danger signifierait nécessairement le craindre.",
+        "forme": "distinction critique et réorientation pratique ; non double impossibilité",
+        "problematique": "Faut-il être inconscient : nécessité réfutée, difficulté résiduelle portant sur l'attention",
         "branchesIntroduction": "B2",
         "statut": "proposée / non validée",
-        "cumul": "« Ignorer ce qu’on ne peut changer, connaître ce qu’on peut prévenir » : pour trier les menaces, il faut les connaître toutes ; sous le présupposé, c’est déjà les craindre. Le cumul suppose le savoir qu’il voulait éviter.",
-        "meilleurCas": "Un insouciant que rien ne frappe n’est heureux que par chance ; un lucide qui peut agir sur tout reste, sous le présupposé, inquiet de ce qu’il voit.",
-        "matriceCandidate": "inversion du rapport connaissance/crainte et distinction de l’imaginaire du réel"
+        "cumul": "Meilleur cumul possible : connaître les risques, prendre les précautions adaptées et rester heureux. La réunion des deux attitudes résout la nécessité demandée ; la III explore seulement ce qui distingue attention justifiée et angoisse.",
+        "meilleurCas": "La personne sereine et correctement informée constitue le contre-exemple qui interdit d'affirmer la nécessité de l'inconscience.",
+        "matriceCandidate": "Déplacement du critère : invulnérabilité imaginaire vers joie vulnérable effectivement vécue."
       }
     },
     "2026-asie-langage": {
