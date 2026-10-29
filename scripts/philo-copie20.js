@@ -30,7 +30,7 @@ function section(key){
   const {n,w}=stats(d);
   const pilote=key==="2026-an-artiste-sait";
   return `<section class="offer-band c20-teaser" id="copie-20"><div class="kicker">${pilote?"DISSERTATION DE RÉFÉRENCE":"LA COPIE À 20"}</div><h2>${pilote?"Une dissertation argumentée, construite pour faire progresser le problème.":"Le devoir le plus court qui mérite 20."}</h2>
-<p>${pilote?`Environ ${Math.round(w/10)*10} mots. Chaque étape indique sa fonction. Cette proposition n’est pas un modèle unique ni la promesse d’une note.`:`${n} phrases, environ ${Math.round(w/10)*10} mots. Chaque phrase a sa fonction dans le plan, écrite en marge ; aux charnières, le rôle du lien logique. Lisez-la d’abord avec les fonctions, pour voir la machine, puis sans, pour voir que c’est une vraie copie.`}</p>
+<p>${pilote?`Environ ${Math.round(w/10)*10} mots. Chaque étape indique sa fonction. Cette proposition n’est pas un modèle unique ni la promesse d’une note.`:`${n} segments annotés, environ ${Math.round(w/10)*10} mots. Chaque segment a sa fonction dans le plan, écrite en marge ; aux charnières, le rôle du lien logique. Lisez-la d’abord avec les fonctions, pour voir la machine, puis sans, pour voir que c’est une vraie copie.`}</p>
 <p><button type="button" class="philo-print c20-toggle" aria-controls="c20-${key}">Masquer les fonctions</button></p>
 <div class="c20" id="c20-${key}">${renderCopy(d,'h3')}</div>
 </section>
@@ -46,14 +46,14 @@ function vitrine(key='notion-liberte',meta=null){
   return `<!doctype html><html lang="fr"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(subject)} : copie à 20 en philosophie</title>
-<meta name="description" content="Une dissertation de philosophie qui mérite 20, la plus courte possible : « ${esc(subject)} ». Chaque phrase, sa fonction dans le plan.">
+<meta name="description" content="Une dissertation de philosophie qui mérite 20, la plus courte possible : « ${esc(subject)} ». Chaque segment annoté, sa fonction dans le plan.">
 <link rel="canonical" href="https://commentaire-plan.com/${filename}">
 <link rel="stylesheet" href="styles.css">
 </head><body><header class="top"></header><main class="wrap">
 <section class="pagehead"><div><div class="kicker">PHILOSOPHIE · LA COPIE À 20</div>
 <h1>« ${esc(subject)} »</h1>
 ${meta?`<p class="micro">${esc(meta.exam)} · ${esc(meta.code)} · <a class="official-link" href="${esc(meta.source)}">Annales officielles →</a></p>`:''}
-<p class="lede">Le devoir le plus court qui mérite 20 : ${n} phrases, environ ${Math.round(w/10)*10} mots. Chaque phrase a sa fonction dans le plan ; elle est écrite en marge, avec, aux charnières, le rôle du lien logique.</p>
+<p class="lede">Le devoir le plus court qui mérite 20 : ${n} segments annotés, environ ${Math.round(w/10)*10} mots. Chaque segment a sa fonction dans le plan ; elle est écrite en marge, avec, aux charnières, le rôle du lien logique.</p>
 </div><aside class="side-note"><p><strong>Comment lire ?</strong><br>D’abord avec les fonctions, pour voir la machine. Puis sans, pour voir que c’est une vraie copie.</p><p><button type="button" class="philo-print c20-toggle" aria-controls="c20-vitrine">Masquer les fonctions</button></p></aside></section>
 <section class="offer-band c20" id="c20-vitrine">${renderCopy(d,'h2')}</section>
 <section class="offer-band"><div class="kicker">POURQUOI CETTE COPIE MÉRITE 20</div><h2>Rien n’y est décoratif.</h2>
