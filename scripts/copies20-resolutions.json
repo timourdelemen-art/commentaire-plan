@@ -450,7 +450,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Une certitude raisonnable se fonde ainsi sur la qualité vérifiable de la justification, pas sur le sentiment flatteur d'avoir eu raison.",
+          "proposal": "Cette certitude porte bien sur la justice de l'acte accompli, et non seulement sur le fait qu'il semblait raisonnable de l'accomplir, parce que le devoir, les moyens et les circonstances moralement pertinentes ont été examinés.",
           "preserves": [
             "Procéder d’une intention droite",
             "Faire effectivement du bien"
@@ -481,32 +481,32 @@
       "comparison": "La distinction certitude absolue/jugement justifié répond explicitement au sujet et fournit des critères de comparaison ; la responsabilité y sert de contrôle, non de preuve.",
       "strongestObjection": "Une décision justifiée peut avoir des conséquences mauvaises.",
       "responseToObjection": "Le jugement reste révisable ; distinguer raisons disponibles et effets ultérieurs est précisément l’objet de la question finale.",
-      "residual": "Que devient le jugement moral lorsqu'un agent pouvait prévoir un danger mais que tous les moyens de l'éviter comportaient eux-mêmes des dommages certains ?",
-      "conclusionQuestion": "Que devient le jugement moral lorsqu'un agent pouvait prévoir un danger mais que tous les moyens de l'éviter comportaient eux-mêmes des dommages certains ?",
+      "residual": "Comment juger le bien-agir lorsque deux obligations sont également fondées, mais que les circonstances empêchent de les respecter ensemble ?",
+      "conclusionQuestion": "Comment juger le bien-agir lorsque deux obligations sont également fondées, mais que les circonstances empêchent de les respecter ensemble ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 1100
+        "words": 1204
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
-        "independentReview": "Réécriture argumentée V7.4 : opérateur contrôlé, contre-modèle testé. Absence de certification indépendante ; références en paraphrase, non en citations littérales."
+        "independentReview": "Réécriture V7.4 : l'objection sur la substitution de « bien décider » à « bien agir » est traitée par la distinction entre rectitude objective de l'acte, vertu du mobile et succès, et par le meilleur cas d'une restitution sans conflit de droits. Limite maintenue : les normes morales pertinentes doivent être effectivement établies, et une certitude globale sur tout l'acte n'est pas acquise. Références paraphrasées, contrôle indépendant absent."
       },
-      "copySha256": "b50bb89406be2fd6f6436499800ac6a5c3223305fe66bd97f914f4840d773108",
+      "copySha256": "bcf2a20d2a0b41a798180ccfae7947cacac23b751739ad8f602d73a96378ba1f",
       "protocol": {
         "reference": "Plan dynamique V7.4 prioritaire ; protocole expérimental subordonné",
         "racine": [
           "Procéder d’une intention droite",
           "Faire effectivement du bien"
         ],
-        "presupposeCommun": "Une certitude concernant une obligation précise exigerait une connaissance exhaustive des mobiles et conséquences.",
+        "presupposeCommun": "Toute certitude sur la rectitude de l'action exigerait la pureté vérifiable de tous les motifs et la maîtrise de toutes les conséquences.",
         "forme": "possibilité locale de certitude morale / refus de l'omniscience",
         "problematique": "P1",
         "branchesIntroduction": "B1",
         "statut": "réécriture de fond proposée, non homologuée",
-        "cumul": "Une règle morale justifiée et l'examen des effets prévisibles peuvent coexister sans contradiction : la question est la portée exacte du jugement porté sur l'acte.",
-        "meilleurCas": "Respecter une obligation définie peut être établi sous cet aspect sans connaître tous les effets futurs.",
-        "matriceCandidate": "restriction de la portée du jugement et révision par les conséquences"
+        "cumul": "L'examen du devoir, des moyens, des effets prévisibles et des motifs est compatible. Dans des situations simples, une action peut être justifiée comme telle même si l'agent ignore la pureté de ses mobiles et les décisions futures des tiers.",
+        "meilleurCas": "Restituer le bien identifié à son véritable propriétaire, sans léser un tiers et en ayant examiné les dangers accessibles, peut être reconnu comme un acte juste ; un choix ultérieur du propriétaire n'est pas rétroactivement imputable à l'agent.",
+        "matriceCandidate": "dissociation de l'objet du jugement (acte, mobile, succès) puis limitation de l'imputabilité temporelle"
       }
     },
     "2026-g1-nature-besoin": {
