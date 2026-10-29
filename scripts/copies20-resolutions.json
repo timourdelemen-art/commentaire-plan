@@ -1036,13 +1036,13 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Bergson permet l’opération décisive : le passé agit dans le présent, de sorte que certains effets de la durée sont des acquisitions, non des ruines.",
+          "proposal": "La deuxième opération précise ce que conserver veut dire. La durée de Bergson n’est pas l’immobilité d’une substance qui resterait identique en tous points ; elle est une continuité travaillée par ce qu’elle traverse. L’adulte ne demeure pas enfant, mais son enfance peut encore orienter sa manière de vivre. Il faut donc distinguer la disparition d’un état et la destruction de l’identité qui s’est formée à travers les états.",
           "preserves": [
             "Faire passer toute chose",
             "Être la durée où les choses se font"
           ],
-          "cost": "Reste qu’une transformation féconde ne compense pas nécessairement la perte singulière dont elle procède : une œuvre ne rend pas une personne morte.",
-          "remainingProblem": "À quelles conditions ce que le temps permet de créer peut-il donner sens à une perte, sans prétendre la réparer ni la justifier ?"
+          "cost": "Une perte irréparable peut-elle recevoir un sens sans être tenue pour compensée ?",
+          "remainingProblem": "Une perte irréparable peut-elle recevoir un sens sans être tenue pour compensée ?"
         },
         {
           "id": "alternative-a",
@@ -1064,21 +1064,21 @@
         }
       ],
       "selected": "retenue",
-      "comparison": "Matrice candidate processualisation distinguant disparition d'état, mémoire agissante et pertes irréparables, opérateur nécessairement. La refonte des neuf opérations n'est pas encore une validation de la double aporie, ni des citations.",
-      "strongestObjection": "L'une des branches ou leur cumul peut être possible avant III : vérifier la racine, le meilleur cas et le présupposé commun.",
-      "responseToObjection": "Non démontré : sans inférences vérifiées, ne pas certifier V7.3.",
-      "residual": "Reste qu’une transformation féconde ne compense pas nécessairement la perte singulière dont elle procède : une œuvre ne rend pas une personne morte.",
-      "conclusionQuestion": "À quelles conditions ce que le temps permet de créer peut-il donner sens à une perte, sans prétendre la réparer ni la justifier ?",
+      "comparison": "Déplacement de l'attribution causale (le temps comme mesure des changements versus les processus de destruction), associé à la processualisation bergsonienne de la continuité. III.1 distingue condition et cause ; III.2 identité et état ; III.3 nécessité de l'irréversibilité et non-nécessité de l'anéantissement. Risque bloquant de compatibilité immédiate des branches.",
+      "strongestObjection": "Un présent cesse de l'être, mais un même être peut se conserver en changeant : on dispose de cette distinction avant la troisième partie. Le test de conjonction 3.4.9 ne passe pas encore.",
+      "responseToObjection": "La copie améliore la fidélité au terme « nécessairement » et les preuves des neuf sous-parties ; cela ne valide pas l'aporie. La distinction des types de changement reste à éprouver dans une architecture réellement nécessaire.",
+      "residual": "Une perte irréparable peut-elle recevoir un sens sans être tenue pour compensée ?",
+      "conclusionQuestion": "Une perte irréparable peut-elle recevoir un sens sans être tenue pour compensée ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 627
+        "words": 940
       },
       "review": {
-        "author": "Révision démonstrative du 28 octobre 2026",
+        "author": "Reconstruction du 29 octobre 2026 : opérateur avant style",
         "status": "propose",
-        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées."
+        "independentReview": "Sources Aristote Physique, Augustin Confessions XI, Bergson Essai et Matière et mémoire citées en paraphrase sans guillemets, textes précis à vérifier. Plusieurs opérations effectives par sous-partie. Aporie non validée (cumul), audit indépendant et sources exactes restant à faire."
       },
-      "copySha256": "809cf78be1b85f993333d4ed9c776a653f66fd0a1ea8b33dad0c739cf2d2ca6f",
+      "copySha256": "9a4ec61e71f35b0047743cda59c11d44900eeaaf22f65875a69bbcde37967c43",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -1089,10 +1089,10 @@
         "forme": "réciprocité",
         "problematique": "hors catalogue justifiée : alternative croisée à « alors que » (chaque branche nomme ce qu’exige l’autre)",
         "branchesIntroduction": "B2",
-        "statut": "proposée / non validée",
+        "statut": "non validée — antériorité / conjonction 3.4.9",
         "cumul": "« Le temps crée, puis détruit » : sous le présupposé, toute création finit dans le néant ; l’alternance reconduit au oui, le temps est destructeur en dernier ressort. Le cumul est exclu.",
         "meilleurCas": "La vie la plus féconde finit ; la rose la plus belle a fallu éclore. Les deux constats survivent.",
-        "matriceCandidate": "processualisation distinguant disparition d'état, mémoire agissante et pertes irréparables, opérateur nécessairement"
+        "matriceCandidate": "déplacement de l'attribution causale + processualisation"
       }
     },
     "notion-travail": {
