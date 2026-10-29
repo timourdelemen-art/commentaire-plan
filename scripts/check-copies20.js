@@ -37,11 +37,11 @@ function check(copies, ledger, additional = {}) {
           if (match) seen.add(match[1]);
         }
         if (seen.size !== 3) fail(key, 'partie '+roman+' : trois sous-parties identifiables obligatoires');
-        const bridges = rows.filter(([,fn]) => /^Transition\\b/i.test(String(fn))).length;
+        const bridges = rows.filter(([,fn]) => /^Transition\b/i.test(String(fn))).length;
         if (bridges !== (index <= 2 ? 1 : 0))
           fail(key, 'partie '+roman+' : nombre de transitions incorrect');
       }
-      if ((copy[0][1].concat(copy[4][1])).some(([,fn]) => /^Transition\\b/i.test(String(fn))))
+      if ((copy[0][1].concat(copy[4][1])).some(([,fn]) => /^Transition\b/i.test(String(fn))))
         fail(key, 'transition placée dans introduction ou conclusion');
     }
 
