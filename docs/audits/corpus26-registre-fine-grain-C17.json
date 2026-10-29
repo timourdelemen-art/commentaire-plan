@@ -1,0 +1,3621 @@
+{
+  "titre": "Typologie fine des opérations repérables dans 26 dissertations",
+  "date": "2026-10-29",
+  "branche": "chatgpt/refonte-science-utile-v73-20261028",
+  "version": "C17-recherche",
+  "sources": [
+    "scripts/copies20-data.json",
+    "six fichiers philosophie-dissertation-*.html",
+    "docs/audits/corpus26-audit-operations-reellement-executees-v74-p2-2026-10-29.md",
+    "PROTOCOLE_2_OPERATIONS_COMPLET(1).docx (P2.1, 18 familles provisoires)"
+  ],
+  "note": "Les types sont des hypothèses à éprouver dans le texte et non des opérations historiques nouvelles établies; 234 unités de plan ne signifient pas 234 opérations ni 234 preuves.",
+  "typologie": [
+    {
+      "id": "D01",
+      "label": "Différenciation de fonctions",
+      "classe": "qualification",
+      "entree": "Deux fonctions ou niveaux confondus",
+      "mecanisme": "Isoler le critère discriminant et vérifier les cas de chevauchement",
+      "sortie": "Deux fonctions distinctes et leur relation",
+      "veto": "Une distinction n’établit pas une incompatibilité",
+      "familles": [
+        "F05",
+        "F12"
+      ]
+    },
+    {
+      "id": "D02",
+      "label": "Contrôle de portée, modalité ou quantification",
+      "classe": "qualification",
+      "entree": "Une conclusion avec tout, nécessairement, toujours, peut-on",
+      "mecanisme": "Reconstruire quantificateur et négation, tester des contre-modèles",
+      "sortie": "Conclusion à portée exacte",
+      "veto": "Un contre-exemple au tout ne prouve pas le jamais",
+      "familles": [
+        "F04"
+      ]
+    },
+    {
+      "id": "D03",
+      "label": "Remontée à une condition constitutive",
+      "classe": "qualification",
+      "entree": "Une pratique ou un résultat pris pour acquis",
+      "mecanisme": "Identifier ce sans quoi il ne serait pas possible et prouver le sans-quoi",
+      "sortie": "Condition nécessaire établie",
+      "veto": "Ne pas confondre condition nécessaire et cause suffisante",
+      "familles": [
+        "F03"
+      ]
+    },
+    {
+      "id": "D04",
+      "label": "Révision du critère de jugement",
+      "classe": "qualification",
+      "entree": "Un critère inadéquat appliqué mécaniquement",
+      "mecanisme": "En démontrer l’insuffisance et dériver un critère plus pertinent",
+      "sortie": "Nouveau principe de discrimination",
+      "veto": "Ne pas changer de sujet sous couvert de critère",
+      "familles": [
+        "F07"
+      ]
+    },
+    {
+      "id": "D05",
+      "label": "Qualification d’un acte de parole ou d’action",
+      "classe": "qualification",
+      "entree": "Un événement décrit sans préciser l’acte accompli",
+      "mecanisme": "Identifier intentions, conditions, portée et type d’acte",
+      "sortie": "Acte déterminé et conditions d’imputabilité",
+      "veto": "Nommer Austin ou un type d’acte ne suffit pas",
+      "familles": [
+        "F05",
+        "F15"
+      ]
+    },
+    {
+      "id": "D06",
+      "label": "Délimitation d’objet, de domaine ou de niveau",
+      "classe": "qualification",
+      "entree": "Plusieurs objets ou extensions sous le même nom",
+      "mecanisme": "Préciser le domaine de la thèse et conserver l’opérateur",
+      "sortie": "Jugement portant sur le bon objet",
+      "veto": "Ne pas répondre à une question voisine",
+      "familles": [
+        "F05",
+        "F17"
+      ]
+    },
+    {
+      "id": "D07",
+      "label": "Démontage d’une alternative exhaustive supposée",
+      "classe": "qualification",
+      "entree": "Deux possibilités présentées comme seules issues",
+      "mecanisme": "Tester la couverture et produire un cas admissible non prévu",
+      "sortie": "Alternative rectifiée",
+      "veto": "Un simple troisième mot n’est pas un contre-modèle",
+      "familles": [
+        "F02",
+        "F12"
+      ]
+    },
+    {
+      "id": "E01",
+      "label": "Réfutation par meilleur contre-modèle",
+      "classe": "épreuve",
+      "entree": "Prétention universelle ou nécessité alléguée",
+      "mecanisme": "Construire un cas satisfaisant les prémisses et pas la conclusion",
+      "sortie": "Portée excessive réfutée",
+      "veto": "Un cas possible doit être compatible avec la définition du sujet",
+      "familles": [
+        "F04",
+        "F08"
+      ]
+    },
+    {
+      "id": "E02",
+      "label": "Réduction à l’absurde d’une maximalisation",
+      "classe": "épreuve",
+      "entree": "Une position rendue universelle ou exclusive",
+      "mecanisme": "En dériver une conséquence compromettant sa propre prétention",
+      "sortie": "Maximalisation impossible sous conditions",
+      "veto": "Ne pas falsifier l’adversaire en renforçant sa prétention",
+      "familles": [
+        "F11"
+      ]
+    },
+    {
+      "id": "E03",
+      "label": "Audit du passage des prémisses à la conclusion",
+      "classe": "épreuve",
+      "entree": "Inférence dont la forme ou la portée est incertaine",
+      "mecanisme": "Séparer conséquence formelle, vérité des prémisses et conditions du savoir",
+      "sortie": "Validité ou défaut localement établi",
+      "veto": "Une preuve valide ne démontre pas seule la vérité empirique",
+      "familles": [
+        "F04",
+        "F15"
+      ]
+    },
+    {
+      "id": "E04",
+      "label": "Établissement d’une dépendance nécessaire ou suffisante",
+      "classe": "épreuve",
+      "entree": "Deux propositions liées sans type de lien clair",
+      "mecanisme": "Vérifier direction, nécessité, suffisance et conditions",
+      "sortie": "Dépendance probante exactement modalisée",
+      "veto": "Ne pas inverser une implication ni conclure à l’équivalence",
+      "familles": [
+        "F03",
+        "F14"
+      ]
+    },
+    {
+      "id": "E05",
+      "label": "Concession d’une objection et correction minimale",
+      "classe": "épreuve",
+      "entree": "Une thèse forte rencontrant une objection sérieuse",
+      "mecanisme": "Conserver ce qui résiste puis restreindre sa prétention",
+      "sortie": "Thèse réparée sans escamoter l’objection",
+      "veto": "Le renommage d’une proposition n’est pas une réparation",
+      "familles": [
+        "F13"
+      ]
+    },
+    {
+      "id": "E06",
+      "label": "Contrôle du passage descriptif à la prescription",
+      "classe": "épreuve",
+      "entree": "Conclusion normative dérivée de faits",
+      "mecanisme": "Exhiber et discuter la prémisse normative manquante",
+      "sortie": "Devoir défendable ou passage invalide",
+      "veto": "Une utilité constatée n’établit pas un devoir",
+      "familles": [
+        "F07",
+        "F15"
+      ]
+    },
+    {
+      "id": "G01",
+      "label": "Généalogie d’une croyance ou d’une représentation",
+      "classe": "explication",
+      "entree": "Évidence attribuée à la nature des choses",
+      "mecanisme": "Décrire les étapes et causes de la formation, puis séparer origine et validité",
+      "sortie": "Genèse explicative",
+      "veto": "L’origine d’une croyance ne réfute pas sa vérité",
+      "familles": [
+        "F09",
+        "F10"
+      ]
+    },
+    {
+      "id": "G02",
+      "label": "Introduction d’une médiation explicative",
+      "classe": "explication",
+      "entree": "Passage direct insuffisant de A à C",
+      "mecanisme": "Démontrer B et les relations A→B→C",
+      "sortie": "Chaîne d’explication enrichie",
+      "veto": "Ajouter un intermédiaire non prouvé n’explique rien",
+      "familles": [
+        "F16"
+      ]
+    },
+    {
+      "id": "G03",
+      "label": "Inversion du sens d’une dépendance",
+      "classe": "explication",
+      "entree": "A est dit cause ou fin de B",
+      "mecanisme": "Tester et démontrer le sens inverse en conservant les distinctions",
+      "sortie": "Ordre de fondation reconfiguré",
+      "veto": "L’opposition rhétorique ne prouve pas le renversement",
+      "familles": [
+        "F06"
+      ]
+    },
+    {
+      "id": "G04",
+      "label": "Boucle de rétroaction formative",
+      "classe": "explication",
+      "entree": "Action et résultat décrits successivement",
+      "mecanisme": "Montrer comment le résultat modifie le critère du geste suivant",
+      "sortie": "Processus de correction expliqué",
+      "veto": "La simple succession temporelle n’est pas une boucle causale",
+      "familles": [
+        "F06",
+        "F16"
+      ]
+    },
+    {
+      "id": "G05",
+      "label": "Co-constitution de deux capacités ou termes",
+      "classe": "explication",
+      "entree": "A et B paraissent seulement complémentaires",
+      "mecanisme": "Prouver A dépend de B et B dépend de A, et ce que leur addition n’explique pas",
+      "sortie": "Dépendance réciproque constituante",
+      "veto": "Ne pas confondre coexistence et nécessité des deux flèches",
+      "familles": [
+        "F12",
+        "F14"
+      ]
+    },
+    {
+      "id": "G06",
+      "label": "Genèse d’une propriété par transformation",
+      "classe": "explication",
+      "entree": "Une capacité ou valeur considérée comme fixe",
+      "mecanisme": "Dériver les moments qui font apparaître et changer la propriété",
+      "sortie": "Propriété temporellement constituée",
+      "veto": "Raconter une chronologie n’est pas démontrer une genèse",
+      "familles": [
+        "F09",
+        "F16"
+      ]
+    },
+    {
+      "id": "G07",
+      "label": "Variation contrôlée d’une hypothèse ou d’une expérience",
+      "classe": "explication",
+      "entree": "Une propriété présumée essentielle",
+      "mecanisme": "Faire varier une condition pertinente tout en tenant fixes les autres",
+      "sortie": "Critère isolé ou modalisé",
+      "veto": "La variation doit justifier sa représentativité",
+      "familles": [
+        "F08"
+      ]
+    },
+    {
+      "id": "N01",
+      "label": "Justification d’une norme ou interdiction",
+      "classe": "normativité",
+      "entree": "Acte possible ou utile mais non encore jugé",
+      "mecanisme": "Identifier la fin, le droit ou l’obligation en jeu et justifier la règle",
+      "sortie": "Devoir ou interdit fondé",
+      "veto": "Ne pas inférer l’obligation de la seule puissance",
+      "familles": [
+        "F07",
+        "F15"
+      ]
+    },
+    {
+      "id": "N02",
+      "label": "Arbitrage de critères moraux ou pratiques",
+      "classe": "normativité",
+      "entree": "Plusieurs valeurs ou fins possiblement concurrentes",
+      "mecanisme": "Hiérarchiser selon l’objet et éprouver cas conflictuels",
+      "sortie": "Décision motivée et limitée",
+      "veto": "Une liste de valeurs n’est pas un arbitrage",
+      "familles": [
+        "F07"
+      ]
+    },
+    {
+      "id": "N03",
+      "label": "Institutionnalisation d’une médiation publique",
+      "classe": "normativité",
+      "entree": "Objection ou droit individuel sans garantie commune",
+      "mecanisme": "Construire procédure, autorité, recours et correction",
+      "sortie": "Conditions publiques d’effectivité",
+      "veto": "Une proposition d’institution n’est pas encore sa preuve",
+      "familles": [
+        "F16"
+      ]
+    },
+    {
+      "id": "N04",
+      "label": "Graduation d’imputabilité et d’effets prévisibles",
+      "classe": "normativité",
+      "entree": "Acte, intention et conséquence confondus",
+      "mecanisme": "Distinguer choix, prévisibilité, réparation et degrés de responsabilité",
+      "sortie": "Jugement d’imputation proportionné",
+      "veto": "Pas de responsabilité illimitée par omniscience supposée",
+      "familles": [
+        "F10",
+        "F17"
+      ]
+    },
+    {
+      "id": "R01",
+      "label": "Épreuve réflexive d’un principe par lui-même",
+      "classe": "réflexivité",
+      "entree": "Une méthode ou règle évaluant ses propres pouvoirs",
+      "mecanisme": "Appliquer la norme à sa prétention sans présupposer la conclusion",
+      "sortie": "Critique immanente dont la portée est déterminée",
+      "veto": "L’autoréférence ne prouve pas à elle seule un cercle vicieux",
+      "familles": [
+        "F11",
+        "F15"
+      ]
+    },
+    {
+      "id": "R02",
+      "label": "Suspension épistémique délimitée",
+      "classe": "réflexivité",
+      "entree": "Données insuffisantes pour attribuer une propriété",
+      "mecanisme": "Séparer acquis, possibles et conclusions indécidables",
+      "sortie": "Jugement suspendu sur le bon objet",
+      "veto": "Ne pas transformer l’ignorance en négation",
+      "familles": [
+        "F15"
+      ]
+    },
+    {
+      "id": "R03",
+      "label": "Transposition sous contrôle d’une méthode de preuve",
+      "classe": "réflexivité",
+      "entree": "Un critère efficace dans un domaine",
+      "mecanisme": "Tester le droit de l’utiliser dans un autre domaine",
+      "sortie": "Transposition justifiée ou refusée",
+      "veto": "Analogie de surface ≠ identité de conditions",
+      "familles": [
+        "F15",
+        "F17"
+      ]
+    },
+    {
+      "id": "R04",
+      "label": "Rectification publique d’un jugement sous objection",
+      "classe": "réflexivité",
+      "entree": "Jugement exposé à une critique",
+      "mecanisme": "Intégrer objection, contre-épreuve et conditions de correction",
+      "sortie": "Jugement reformulé et révisable",
+      "veto": "Changer de vocabulaire sans test n’est pas corriger",
+      "familles": [
+        "F13",
+        "F14"
+      ]
+    },
+    {
+      "id": "R05",
+      "label": "Composition d’acquis hétérogènes",
+      "classe": "résolution",
+      "entree": "Deux conclusions étayées mais dispersées",
+      "mecanisme": "Établir une règle nouvelle qui rende chaque acquis nécessaire à la conclusion",
+      "sortie": "Conséquence nouvelle non additive",
+      "veto": "La juxtaposition de conclusions n’est pas leur composition",
+      "familles": [
+        "F14"
+      ]
+    },
+    {
+      "id": "R06",
+      "label": "Transformation globale d’un présupposé problématique",
+      "classe": "résolution",
+      "entree": "Deux obstacles liés qui demandent solution",
+      "mecanisme": "Justifier la modification du présupposé et déduire ce qui change pour chacun",
+      "sortie": "Matrice de résolution démontrée",
+      "veto": "Une III heureuse ne prouve pas rétroactivement ses apories",
+      "familles": [
+        "F18"
+      ]
+    },
+    {
+      "id": "REF",
+      "label": "Apport documentaire ou résultat sans geste isolé",
+      "classe": "documentaire",
+      "entree": "Référence ou proposition déjà donnée",
+      "mecanisme": "Identifier le rôle de la source, mais réserver la reconstruction d’une inférence",
+      "sortie": "Pas d’opération cataloguée à ce stade",
+      "veto": "Ne pas baptiser opération une autorité citée",
+      "familles": []
+    }
+  ],
+  "corpus": [
+    {
+      "source": "2026-ag-etat-injustice",
+      "partie": "I.1",
+      "type_principal": "D03",
+      "familles_p21_proposees": [
+        "F03"
+      ],
+      "ancienne_observation": "Condition d’effectivité du droit : recours au pouvoir commun",
+      "trace": "Hobbes constate : « Where there is no common Power, there is no Law » (*Leviathan*, XIII). Sans pouvoir commun, la …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas confondre condition nécessaire et cause suffisante",
+      "limite_du_devoir": "La III juxtapose au moins trois contre-pouvoirs déjà concevables ; il reste à prouver pourquoi ils sont constitutifs de la légitimité de la priorité étatique, non seulement efficaces."
+    },
+    {
+      "source": "2026-ag-etat-injustice",
+      "partie": "I.2",
+      "type_principal": "G02",
+      "familles_p21_proposees": [
+        "F16"
+      ],
+      "ancienne_observation": "Passage des engagements à leur force exécutoire",
+      "trace": "Pour Hobbes, « Covenants, without the Sword, are but Words » (*Leviathan*, XVII). Reconnaître que chacun possède de…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ajouter un intermédiaire non prouvé n’explique rien",
+      "limite_du_devoir": "La III juxtapose au moins trois contre-pouvoirs déjà concevables ; il reste à prouver pourquoi ils sont constitutifs de la légitimité de la priorité étatique, non seulement efficaces."
+    },
+    {
+      "source": "2026-ag-etat-injustice",
+      "partie": "I.3",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Dissociation force du droit / légitimité du pouvoir",
+      "trace": "Pascal établit la limite de cette priorité : « La justice sans la force est impuissante ; la force sans la justice …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "La III juxtapose au moins trois contre-pouvoirs déjà concevables ; il reste à prouver pourquoi ils sont constitutifs de la légitimité de la priorité étatique, non seulement efficaces."
+    },
+    {
+      "source": "2026-ag-etat-injustice",
+      "partie": "II.1",
+      "type_principal": "E01",
+      "familles_p21_proposees": [
+        "F04",
+        "F08"
+      ],
+      "ancienne_observation": "Contre-exemple de loi injuste contre l’obéissance",
+      "trace": "Thoreau écrit : « Law never made men a whit more just » (*Civil Disobedience*). L’obéissance à une loi ne garantit …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Un cas possible doit être compatible avec la définition du sujet",
+      "limite_du_devoir": "La III juxtapose au moins trois contre-pouvoirs déjà concevables ; il reste à prouver pourquoi ils sont constitutifs de la légitimité de la priorité étatique, non seulement efficaces."
+    },
+    {
+      "source": "2026-ag-etat-injustice",
+      "partie": "II.2",
+      "type_principal": "D05",
+      "familles_p21_proposees": [
+        "F05",
+        "F15"
+      ],
+      "ancienne_observation": "Qualification des conditions publiques d’une contestation",
+      "trace": "Rawls définit la désobéissance civile comme « a public, nonviolent, conscientious yet political act » (*A Theory of…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Nommer Austin ou un type d’acte ne suffit pas",
+      "limite_du_devoir": "La III juxtapose au moins trois contre-pouvoirs déjà concevables ; il reste à prouver pourquoi ils sont constitutifs de la légitimité de la priorité étatique, non seulement efficaces."
+    },
+    {
+      "source": "2026-ag-etat-injustice",
+      "partie": "II.3",
+      "type_principal": "E05",
+      "familles_p21_proposees": [
+        "F13"
+      ],
+      "ancienne_observation": "Limite de l’autorité de la conscience individuelle",
+      "trace": "Mais une revendication sincère ne suffit pas à instituer le droit de tous. Kant écrit : « Le pouvoir législatif ne …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Le renommage d’une proposition n’est pas une réparation",
+      "limite_du_devoir": "La III juxtapose au moins trois contre-pouvoirs déjà concevables ; il reste à prouver pourquoi ils sont constitutifs de la légitimité de la priorité étatique, non seulement efficaces."
+    },
+    {
+      "source": "2026-ag-etat-injustice",
+      "partie": "III.1",
+      "type_principal": "N03",
+      "familles_p21_proposees": [
+        "F16"
+      ],
+      "ancienne_observation": "Institution d’une limitation réciproque des pouvoirs",
+      "trace": "Montesquieu détermine le premier geste de la résolution : « il faut que, par la disposition des choses, le pouvoir …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une proposition d’institution n’est pas encore sa preuve",
+      "limite_du_devoir": "La III juxtapose au moins trois contre-pouvoirs déjà concevables ; il reste à prouver pourquoi ils sont constitutifs de la légitimité de la priorité étatique, non seulement efficaces."
+    },
+    {
+      "source": "2026-ag-etat-injustice",
+      "partie": "III.2",
+      "type_principal": "N03",
+      "familles_p21_proposees": [
+        "F16"
+      ],
+      "ancienne_observation": "Publicisation de l’objection à l’injustice",
+      "trace": "La critique doit ensuite devenir intelligible pour la communauté. Rawls précise que, par la désobéissance civile, «…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une proposition d’institution n’est pas encore sa preuve",
+      "limite_du_devoir": "La III juxtapose au moins trois contre-pouvoirs déjà concevables ; il reste à prouver pourquoi ils sont constitutifs de la légitimité de la priorité étatique, non seulement efficaces."
+    },
+    {
+      "source": "2026-ag-etat-injustice",
+      "partie": "III.3",
+      "type_principal": "G02",
+      "familles_p21_proposees": [
+        "F16"
+      ],
+      "ancienne_observation": "Condition de capacité collective de contestation",
+      "trace": "Reste à établir comment ces recours peuvent être effectivement utilisés. Tocqueville remarque : « L’association réu…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ajouter un intermédiaire non prouvé n’explique rien",
+      "limite_du_devoir": "La III juxtapose au moins trois contre-pouvoirs déjà concevables ; il reste à prouver pourquoi ils sont constitutifs de la légitimité de la priorité étatique, non seulement efficaces."
+    },
+    {
+      "source": "2026-ag-humanite-religion",
+      "partie": "I.1",
+      "type_principal": "E01",
+      "familles_p21_proposees": [
+        "F04",
+        "F08"
+      ],
+      "ancienne_observation": "Contre-modèle : société d’athées moraux concevable",
+      "trace": "Bayle, dans les Pensées diverses sur la comète, envisage une société d’athées honnêtes : la religion n’est donc pas…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Un cas possible doit être compatible avec la définition du sujet",
+      "limite_du_devoir": "La possibilité d’une humanité non religieuse est déjà soutenue par I.1; II fonde une fonction historiquement utile, non une nécessité religieuse. III risque de seulement la redire."
+    },
+    {
+      "source": "2026-ag-humanite-religion",
+      "partie": "I.2",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Dissociation dignité et affiliation confessionnelle",
+      "trace": "Kant, dans les Fondements de la métaphysique des mœurs, fonde la dignité sur la personne comme fin, sans condition …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "La possibilité d’une humanité non religieuse est déjà soutenue par I.1; II fonde une fonction historiquement utile, non une nécessité religieuse. III risque de seulement la redire."
+    },
+    {
+      "source": "2026-ag-humanite-religion",
+      "partie": "I.3",
+      "type_principal": "G02",
+      "familles_p21_proposees": [
+        "F16"
+      ],
+      "ancienne_observation": "Objection du défaut d’institutions vécues",
+      "trace": "Mais des principes abstraits ne font pas à eux seuls une communauté vécue. Durkheim, dans Les Formes élémentaires d…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ajouter un intermédiaire non prouvé n’explique rien",
+      "limite_du_devoir": "La possibilité d’une humanité non religieuse est déjà soutenue par I.1; II fonde une fonction historiquement utile, non une nécessité religieuse. III risque de seulement la redire."
+    },
+    {
+      "source": "2026-ag-humanite-religion",
+      "partie": "II.1",
+      "type_principal": "G02",
+      "familles_p21_proposees": [
+        "F16"
+      ],
+      "ancienne_observation": "Fonction sociologique de pratiques communes",
+      "trace": "Durkheim montre que les religions instituent des pratiques et des représentations communes qui rassemblent les indi…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ajouter un intermédiaire non prouvé n’explique rien",
+      "limite_du_devoir": "La possibilité d’une humanité non religieuse est déjà soutenue par I.1; II fonde une fonction historiquement utile, non une nécessité religieuse. III risque de seulement la redire."
+    },
+    {
+      "source": "2026-ag-humanite-religion",
+      "partie": "II.2",
+      "type_principal": "G01",
+      "familles_p21_proposees": [
+        "F09",
+        "F10"
+      ],
+      "ancienne_observation": "Genèse sociale de la représentation du sacré",
+      "trace": "Dans Les Formes élémentaires, Durkheim rapporte la puissance du sacré à la société qui se représente elle-même. Le …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "L’origine d’une croyance ne réfute pas sa vérité",
+      "limite_du_devoir": "La possibilité d’une humanité non religieuse est déjà soutenue par I.1; II fonde une fonction historiquement utile, non une nécessité religieuse. III risque de seulement la redire."
+    },
+    {
+      "source": "2026-ag-humanite-religion",
+      "partie": "II.3",
+      "type_principal": "E01",
+      "familles_p21_proposees": [
+        "F04",
+        "F08"
+      ],
+      "ancienne_observation": "Contre-exemple d’un usage public non confessionnel de la raison",
+      "trace": "Mais cette efficacité historique n’établit pas une nécessité logique de la religion. Kant, dans Qu’est-ce que les L…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Un cas possible doit être compatible avec la définition du sujet",
+      "limite_du_devoir": "La possibilité d’une humanité non religieuse est déjà soutenue par I.1; II fonde une fonction historiquement utile, non une nécessité religieuse. III risque de seulement la redire."
+    },
+    {
+      "source": "2026-ag-humanite-religion",
+      "partie": "III.1",
+      "type_principal": "N03",
+      "familles_p21_proposees": [
+        "F16"
+      ],
+      "ancienne_observation": "Substitution des obligations civiques au fondement religieux",
+      "trace": "Rousseau, dans Du contrat social, montre qu’une association peut produire des obligations politiques communes : lie…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une proposition d’institution n’est pas encore sa preuve",
+      "limite_du_devoir": "La possibilité d’une humanité non religieuse est déjà soutenue par I.1; II fonde une fonction historiquement utile, non une nécessité religieuse. III risque de seulement la redire."
+    },
+    {
+      "source": "2026-ag-humanite-religion",
+      "partie": "III.2",
+      "type_principal": "N03",
+      "familles_p21_proposees": [
+        "F16"
+      ],
+      "ancienne_observation": "Universalisation par autonomie et discussion",
+      "trace": "La pensée kantienne de l’autonomie permet de comprendre que discuter publiquement une norme peut manifester un lien…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une proposition d’institution n’est pas encore sa preuve",
+      "limite_du_devoir": "La possibilité d’une humanité non religieuse est déjà soutenue par I.1; II fonde une fonction historiquement utile, non une nécessité religieuse. III risque de seulement la redire."
+    },
+    {
+      "source": "2026-ag-humanite-religion",
+      "partie": "III.3",
+      "type_principal": "R05",
+      "familles_p21_proposees": [
+        "F14"
+      ],
+      "ancienne_observation": "Conservation de la fonction rituelle sans croyance obligatoire",
+      "trace": "Durkheim oblige enfin à penser la réalité des pratiques et des symboles partagés. Une humanité sans religion demeur…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "La juxtaposition de conclusions n’est pas leur composition",
+      "limite_du_devoir": "La possibilité d’une humanité non religieuse est déjà soutenue par I.1; II fonde une fonction historiquement utile, non une nécessité religieuse. III risque de seulement la redire."
+    },
+    {
+      "source": "2026-an-artiste-sait",
+      "partie": "I.1",
+      "type_principal": "D05",
+      "familles_p21_proposees": [
+        "F05",
+        "F15"
+      ],
+      "ancienne_observation": "Qualification de la production comme conduite plutôt que hasard",
+      "trace": "Un artiste ne crée pas comme une force naturelle produit un phénomène. La distinction qu’Aristote établit, dans l’É…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Nommer Austin ou un type d’acte ne suffit pas",
+      "limite_du_devoir": "La III.1 présuppose une caricature de savoir préalable; III.3 déplace peut-être le sujet vers la réception. Le mécanisme de III.2 est réel, mais peut être expliqué par l’artiste compétent dès I."
+    },
+    {
+      "source": "2026-an-artiste-sait",
+      "partie": "I.2",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Distinction projet/savoir technique et résultat intégral",
+      "trace": "Dans la Critique de la faculté de juger (§43), Kant distingue l’art de la nature par l’intervention d’une liberté q…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "La III.1 présuppose une caricature de savoir préalable; III.3 déplace peut-être le sujet vers la réception. Le mécanisme de III.2 est réel, mais peut être expliqué par l’artiste compétent dès I."
+    },
+    {
+      "source": "2026-an-artiste-sait",
+      "partie": "I.3",
+      "type_principal": "E04",
+      "familles_p21_proposees": [
+        "F03",
+        "F14"
+      ],
+      "ancienne_observation": "Argument par insuffisance de règles pour produire du singulier",
+      "trace": "C’est précisément là que la première réponse trouve sa limite. Kant, au §46 de la même Critique, refuse de réduire …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas inverser une implication ni conclure à l’équivalence",
+      "limite_du_devoir": "La III.1 présuppose une caricature de savoir préalable; III.3 déplace peut-être le sujet vers la réception. Le mécanisme de III.2 est réel, mais peut être expliqué par l’artiste compétent dès I."
+    },
+    {
+      "source": "2026-an-artiste-sait",
+      "partie": "II.1",
+      "type_principal": "G07",
+      "familles_p21_proposees": [
+        "F08"
+      ],
+      "ancienne_observation": "Variation de l’exécution et résistance de la matière",
+      "trace": "Il faut donc prendre au sérieux les surprises de l’exécution. Alain, dans le Système des beaux-arts, examine le tra…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "La variation doit justifier sa représentativité",
+      "limite_du_devoir": "La III.1 présuppose une caricature de savoir préalable; III.3 déplace peut-être le sujet vers la réception. Le mécanisme de III.2 est réel, mais peut être expliqué par l’artiste compétent dès I."
+    },
+    {
+      "source": "2026-an-artiste-sait",
+      "partie": "II.2",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Distinction invention et simple application de règles",
+      "trace": "Kant distingue encore, dans le §47 de la troisième Critique, ce que les règles enseignent et ce qu’elles n’explique…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "La III.1 présuppose une caricature de savoir préalable; III.3 déplace peut-être le sujet vers la réception. Le mécanisme de III.2 est réel, mais peut être expliqué par l’artiste compétent dès I."
+    },
+    {
+      "source": "2026-an-artiste-sait",
+      "partie": "II.3",
+      "type_principal": "D05",
+      "familles_p21_proposees": [
+        "F05",
+        "F15"
+      ],
+      "ancienne_observation": "Sélection critique d’une trouvaille contre l’accident",
+      "trace": "Une découverte inattendue ne suffit toutefois pas à constituer une œuvre. Si l’artiste n’était que le spectateur de…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Nommer Austin ou un type d’acte ne suffit pas",
+      "limite_du_devoir": "La III.1 présuppose une caricature de savoir préalable; III.3 déplace peut-être le sujet vers la réception. Le mécanisme de III.2 est réel, mais peut être expliqué par l’artiste compétent dès I."
+    },
+    {
+      "source": "2026-an-artiste-sait",
+      "partie": "III.1",
+      "type_principal": "D06",
+      "familles_p21_proposees": [
+        "F05",
+        "F17"
+      ],
+      "ancienne_observation": "Déplacement du savoir préalable au savoir acquis dans l’acte",
+      "trace": "Il faut abandonner l’idée qu’un savoir n’est réel que s’il précède intégralement l’action. Chez Alain, le geste ins…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas répondre à une question voisine",
+      "limite_du_devoir": "La III.1 présuppose une caricature de savoir préalable; III.3 déplace peut-être le sujet vers la réception. Le mécanisme de III.2 est réel, mais peut être expliqué par l’artiste compétent dès I."
+    },
+    {
+      "source": "2026-an-artiste-sait",
+      "partie": "III.2",
+      "type_principal": "G04",
+      "familles_p21_proposees": [
+        "F06",
+        "F16"
+      ],
+      "ancienne_observation": "Rétroaction produire/éprouver/rectifier",
+      "trace": "Dewey, dans L’Art comme expérience, permet de démontrer le mécanisme de cette acquisition. Faire subir une transfor…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "La simple succession temporelle n’est pas une boucle causale",
+      "limite_du_devoir": "La III.1 présuppose une caricature de savoir préalable; III.3 déplace peut-être le sujet vers la réception. Le mécanisme de III.2 est réel, mais peut être expliqué par l’artiste compétent dès I."
+    },
+    {
+      "source": "2026-an-artiste-sait",
+      "partie": "III.3",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Distinction jugement de l’auteur et valeur de l’œuvre devant autrui",
+      "trace": "Reste une troisième opération, distincte du dialogue avec la matière : apprendre à juger l’œuvre qui existe désorma…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "La III.1 présuppose une caricature de savoir préalable; III.3 déplace peut-être le sujet vers la réception. Le mécanisme de III.2 est réel, mais peut être expliqué par l’artiste compétent dès I."
+    },
+    {
+      "source": "2026-an-science-utile",
+      "partie": "I.1",
+      "type_principal": "N02",
+      "familles_p21_proposees": [
+        "F07"
+      ],
+      "ancienne_observation": "Assignation d’une fin pratique à la recherche",
+      "trace": "La science doit-elle se rendre utile ? Une première réponse consiste à reconnaître que les savoirs augmentent la pu…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une liste de valeurs n’est pas un arbitrage",
+      "limite_du_devoir": "Les étapes de III ne séparent pas trois gains sans lire les métadonnées ; la norme des moyens ne prouve pas un devoir d’utilité de chaque vérité ni de la science tout entière."
+    },
+    {
+      "source": "2026-an-science-utile",
+      "partie": "I.2",
+      "type_principal": "REF",
+      "familles_p21_proposees": [],
+      "ancienne_observation": "Appui de la fin humaine de la science sur Bacon",
+      "trace": "Bacon fixe la fin de la recherche : « ut dotetur vita humana novis inventis et copiis » (*Novum Organum*, I, § 81, …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas baptiser opération une autorité citée",
+      "limite_du_devoir": "Les étapes de III ne séparent pas trois gains sans lire les métadonnées ; la norme des moyens ne prouve pas un devoir d’utilité de chaque vérité ni de la science tout entière."
+    },
+    {
+      "source": "2026-an-science-utile",
+      "partie": "I.3",
+      "type_principal": "E06",
+      "familles_p21_proposees": [
+        "F07",
+        "F15"
+      ],
+      "ancienne_observation": "Distinction fait (applications) / obligation normative",
+      "trace": "Le passage du fait à la fin est décisif : ce n’est pas parce que la science a parfois des applications qu’elle doit…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une utilité constatée n’établit pas un devoir",
+      "limite_du_devoir": "Les étapes de III ne séparent pas trois gains sans lire les métadonnées ; la norme des moyens ne prouve pas un devoir d’utilité de chaque vérité ni de la science tout entière."
+    },
+    {
+      "source": "2026-an-science-utile",
+      "partie": "II.1",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Séparation de vérité et utilité immédiate",
+      "trace": "Une connaissance peut valoir sans servir immédiatement : la raison d’en établir la vérité ne se confond pas avec l’…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "Les étapes de III ne séparent pas trois gains sans lire les métadonnées ; la norme des moyens ne prouve pas un devoir d’utilité de chaque vérité ni de la science tout entière."
+    },
+    {
+      "source": "2026-an-science-utile",
+      "partie": "II.2",
+      "type_principal": "N02",
+      "familles_p21_proposees": [
+        "F07"
+      ],
+      "ancienne_observation": "Valeur autonome de connaître les causes",
+      "trace": "Aristote accorde un rang particulier à « la science qu’on étudie pour elle-même et dans le seul but de savoir » (Mé…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une liste de valeurs n’est pas un arbitrage",
+      "limite_du_devoir": "Les étapes de III ne séparent pas trois gains sans lire les métadonnées ; la norme des moyens ne prouve pas un devoir d’utilité de chaque vérité ni de la science tout entière."
+    },
+    {
+      "source": "2026-an-science-utile",
+      "partie": "II.3",
+      "type_principal": "D02",
+      "familles_p21_proposees": [
+        "F04"
+      ],
+      "ancienne_observation": "Conséquence : application future non garantie",
+      "trace": "Chercher à comprendre les causes n’est plus fabriquer un moyen : la connaissance porte en elle-même une fin que l’a…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Un contre-exemple au tout ne prouve pas le jamais",
+      "limite_du_devoir": "Les étapes de III ne séparent pas trois gains sans lire les métadonnées ; la norme des moyens ne prouve pas un devoir d’utilité de chaque vérité ni de la science tout entière."
+    },
+    {
+      "source": "2026-an-science-utile",
+      "partie": "III.1",
+      "type_principal": "D07",
+      "familles_p21_proposees": [
+        "F02",
+        "F12"
+      ],
+      "ancienne_observation": "Critique d’un ordre linéaire théorie puis application",
+      "trace": "Opposer la recherche de vérités sans usage prévisible à une science qui agit pour les hommes suppose que connaître …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Un simple troisième mot n’est pas un contre-modèle",
+      "limite_du_devoir": "Les étapes de III ne séparent pas trois gains sans lire les métadonnées ; la norme des moyens ne prouve pas un devoir d’utilité de chaque vérité ni de la science tout entière."
+    },
+    {
+      "source": "2026-an-science-utile",
+      "partie": "III.2",
+      "type_principal": "G02",
+      "familles_p21_proposees": [
+        "F16"
+      ],
+      "ancienne_observation": "Condition matérielle de connaissance : dispositifs théorisés",
+      "trace": "Bachelard observe que « les instruments ne sont que des théories matérialisées » (Le Nouvel Esprit scientifique, In…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ajouter un intermédiaire non prouvé n’explique rien",
+      "limite_du_devoir": "Les étapes de III ne séparent pas trois gains sans lire les métadonnées ; la norme des moyens ne prouve pas un devoir d’utilité de chaque vérité ni de la science tout entière."
+    },
+    {
+      "source": "2026-an-science-utile",
+      "partie": "III.3",
+      "type_principal": "N01",
+      "familles_p21_proposees": [
+        "F07",
+        "F15"
+      ],
+      "ancienne_observation": "Déduction de normes pour les moyens expérimentaux",
+      "trace": "Une théorie guide la fabrication d’un dispositif, et le dispositif rend observable ce qu’on ne percevrait pas sans …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas inférer l’obligation de la seule puissance",
+      "limite_du_devoir": "Les étapes de III ne séparent pas trois gains sans lire les métadonnées ; la norme des moyens ne prouve pas un devoir d’utilité de chaque vérité ni de la science tout entière."
+    },
+    {
+      "source": "2026-asie-inconscient-bonheur",
+      "partie": "I.1",
+      "type_principal": "G01",
+      "familles_p21_proposees": [
+        "F09",
+        "F10"
+      ],
+      "ancienne_observation": "Explication par diversion des peurs",
+      "trace": "Pascal, dans les Pensées, montre que le divertissement écarte la contemplation de notre fragilité. L’insouciance pe…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "L’origine d’une croyance ne réfute pas sa vérité",
+      "limite_du_devoir": "Le « faut-il » est une nécessité qu’un cas heureux et lucide pourrait déjà réfuter : III apporte une sagesse utile mais peut ne pas répondre à une double aporie."
+    },
+    {
+      "source": "2026-asie-inconscient-bonheur",
+      "partie": "I.2",
+      "type_principal": "D03",
+      "familles_p21_proposees": [
+        "F03"
+      ],
+      "ancienne_observation": "Condition psychologique du repos par l’insouciance",
+      "trace": "Le divertissement décrit par Pascal possède une nécessité psychologique : une conscience constamment tournée vers s…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas confondre condition nécessaire et cause suffisante",
+      "limite_du_devoir": "Le « faut-il » est une nécessité qu’un cas heureux et lucide pourrait déjà réfuter : III apporte une sagesse utile mais peut ne pas répondre à une double aporie."
+    },
+    {
+      "source": "2026-asie-inconscient-bonheur",
+      "partie": "I.3",
+      "type_principal": "E01",
+      "familles_p21_proposees": [
+        "F04",
+        "F08"
+      ],
+      "ancienne_observation": "Contre-exemple du danger réel non supprimé par l’ignorance",
+      "trace": "Mais Spinoza, dans l’Éthique (IV), rappelle notre dépendance envers les causes extérieures : ignorer une menace ne …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Un cas possible doit être compatible avec la définition du sujet",
+      "limite_du_devoir": "Le « faut-il » est une nécessité qu’un cas heureux et lucide pourrait déjà réfuter : III apporte une sagesse utile mais peut ne pas répondre à une double aporie."
+    },
+    {
+      "source": "2026-asie-inconscient-bonheur",
+      "partie": "II.1",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Dissolution d’une peur par analyse de son objet",
+      "trace": "Épicure, dans la Lettre à Ménécée, montre que la crainte de la mort confond un événement et une souffrance dont per…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "Le « faut-il » est une nécessité qu’un cas heureux et lucide pourrait déjà réfuter : III apporte une sagesse utile mais peut ne pas répondre à une double aporie."
+    },
+    {
+      "source": "2026-asie-inconscient-bonheur",
+      "partie": "II.2",
+      "type_principal": "G06",
+      "familles_p21_proposees": [
+        "F09",
+        "F16"
+      ],
+      "ancienne_observation": "Transformation de l’affect par connaissance causale",
+      "trace": "Dans l’Éthique (V), Spinoza fait de la compréhension des causes une transformation de notre rapport aux affects : l…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Raconter une chronologie n’est pas démontrer une genèse",
+      "limite_du_devoir": "Le « faut-il » est une nécessité qu’un cas heureux et lucide pourrait déjà réfuter : III apporte une sagesse utile mais peut ne pas répondre à une double aporie."
+    },
+    {
+      "source": "2026-asie-inconscient-bonheur",
+      "partie": "II.3",
+      "type_principal": "E05",
+      "familles_p21_proposees": [
+        "F13"
+      ],
+      "ancienne_observation": "Objection à la surveillance consciente exhaustive",
+      "trace": "Mais Montaigne, dans les Essais, rappelle que le vivant demeure exposé à l’incertain. La lucidité conçue comme surv…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Le renommage d’une proposition n’est pas une réparation",
+      "limite_du_devoir": "Le « faut-il » est une nécessité qu’un cas heureux et lucide pourrait déjà réfuter : III apporte une sagesse utile mais peut ne pas répondre à une double aporie."
+    },
+    {
+      "source": "2026-asie-inconscient-bonheur",
+      "partie": "III.1",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Distinction événement réel / peur représentée",
+      "trace": "Épicure permet de distinguer le mal réel de la représentation qui le rend effrayant : se délivrer d’une peur n’exig…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "Le « faut-il » est une nécessité qu’un cas heureux et lucide pourrait déjà réfuter : III apporte une sagesse utile mais peut ne pas répondre à une double aporie."
+    },
+    {
+      "source": "2026-asie-inconscient-bonheur",
+      "partie": "III.2",
+      "type_principal": "G06",
+      "familles_p21_proposees": [
+        "F09",
+        "F16"
+      ],
+      "ancienne_observation": "Conversion de la passion par intelligibilité",
+      "trace": "Spinoza fournit l’opération suivante : comprendre un affect change notre manière de le subir et rend possibles d’au…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Raconter une chronologie n’est pas démontrer une genèse",
+      "limite_du_devoir": "Le « faut-il » est une nécessité qu’un cas heureux et lucide pourrait déjà réfuter : III apporte une sagesse utile mais peut ne pas répondre à une double aporie."
+    },
+    {
+      "source": "2026-asie-inconscient-bonheur",
+      "partie": "III.3",
+      "type_principal": "D02",
+      "familles_p21_proposees": [
+        "F04"
+      ],
+      "ancienne_observation": "Qualification d’un bonheur lucide mais non omniscient",
+      "trace": "Il faut encore reconnaître que la connaissance ne supprime pas les douleurs véritables. L’inconscience n’est pas né…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Un contre-exemple au tout ne prouve pas le jamais",
+      "limite_du_devoir": "Le « faut-il » est une nécessité qu’un cas heureux et lucide pourrait déjà réfuter : III apporte une sagesse utile mais peut ne pas répondre à une double aporie."
+    },
+    {
+      "source": "2026-asie-langage",
+      "partie": "I.1",
+      "type_principal": "G01",
+      "familles_p21_proposees": [
+        "F09",
+        "F10"
+      ],
+      "ancienne_observation": "Diagnostic de standardisation du vécu par les mots",
+      "trace": "Bergson, dans l’Essai sur les données immédiates de la conscience, montre comment les mots simplifient les nuances …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "L’origine d’une croyance ne réfute pas sa vérité",
+      "limite_du_devoir": "Le meilleur cas d’un écrivain qui critique sa langue la contredit déjà comme prison absolue ; montrer ce qui subsiste de l’enfermement au lieu de modifier le sens du sujet."
+    },
+    {
+      "source": "2026-asie-langage",
+      "partie": "I.2",
+      "type_principal": "G01",
+      "familles_p21_proposees": [
+        "F09",
+        "F10"
+      ],
+      "ancienne_observation": "Critique de la fixation utilitaire des distinctions",
+      "trace": "Dans Le Rire, Bergson rapproche une part de notre perception des nécessités pratiques : le langage peut fixer les d…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "L’origine d’une croyance ne réfute pas sa vérité",
+      "limite_du_devoir": "Le meilleur cas d’un écrivain qui critique sa langue la contredit déjà comme prison absolue ; montrer ce qui subsiste de l’enfermement au lieu de modifier le sens du sujet."
+    },
+    {
+      "source": "2026-asie-langage",
+      "partie": "I.3",
+      "type_principal": "E01",
+      "familles_p21_proposees": [
+        "F04",
+        "F08"
+      ],
+      "ancienne_observation": "Contre-exemple de l’autocritique linguistique",
+      "trace": "Mais Wittgenstein, dans les Recherches philosophiques, examine les usages des mots pour dénouer des difficultés qu’…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Un cas possible doit être compatible avec la définition du sujet",
+      "limite_du_devoir": "Le meilleur cas d’un écrivain qui critique sa langue la contredit déjà comme prison absolue ; montrer ce qui subsiste de l’enfermement au lieu de modifier le sens du sujet."
+    },
+    {
+      "source": "2026-asie-langage",
+      "partie": "II.1",
+      "type_principal": "D07",
+      "familles_p21_proposees": [
+        "F02",
+        "F12"
+      ],
+      "ancienne_observation": "Dissociation expressivité et intériorité ineffable",
+      "trace": "Hegel, dans l’Encyclopédie (§462), conteste la prétendue profondeur d’une pensée ineffable : une idée exige de se d…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Un simple troisième mot n’est pas un contre-modèle",
+      "limite_du_devoir": "Le meilleur cas d’un écrivain qui critique sa langue la contredit déjà comme prison absolue ; montrer ce qui subsiste de l’enfermement au lieu de modifier le sens du sujet."
+    },
+    {
+      "source": "2026-asie-langage",
+      "partie": "II.2",
+      "type_principal": "R04",
+      "familles_p21_proposees": [
+        "F13",
+        "F14"
+      ],
+      "ancienne_observation": "Dissolution grammaticale d’une fausse nécessité",
+      "trace": "Wittgenstein, dans les Recherches philosophiques, montre qu’un problème peut se dissoudre lorsque l’on cesse de pre…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Changer de vocabulaire sans test n’est pas corriger",
+      "limite_du_devoir": "Le meilleur cas d’un écrivain qui critique sa langue la contredit déjà comme prison absolue ; montrer ce qui subsiste de l’enfermement au lieu de modifier le sens du sujet."
+    },
+    {
+      "source": "2026-asie-langage",
+      "partie": "II.3",
+      "type_principal": "D03",
+      "familles_p21_proposees": [
+        "F03"
+      ],
+      "ancienne_observation": "Condition publique de l’innovation sémantique",
+      "trace": "Mais une liberté purement privée d’attribuer n’importe quel sens aux signes perdrait la possibilité d’être compris.…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas confondre condition nécessaire et cause suffisante",
+      "limite_du_devoir": "Le meilleur cas d’un écrivain qui critique sa langue la contredit déjà comme prison absolue ; montrer ce qui subsiste de l’enfermement au lieu de modifier le sens du sujet."
+    },
+    {
+      "source": "2026-asie-langage",
+      "partie": "III.1",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Distinction condition de pensée / captivité linguistique",
+      "trace": "L’analyse des jeux de langage chez Wittgenstein distingue dépendance et emprisonnement : les règles qui organisent …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "Le meilleur cas d’un écrivain qui critique sa langue la contredit déjà comme prison absolue ; montrer ce qui subsiste de l’enfermement au lieu de modifier le sens du sujet."
+    },
+    {
+      "source": "2026-asie-langage",
+      "partie": "III.2",
+      "type_principal": "G06",
+      "familles_p21_proposees": [
+        "F09",
+        "F16"
+      ],
+      "ancienne_observation": "Genèse de nouveaux usages de la parole",
+      "trace": "Merleau-Ponty, dans La Prose du monde, pense une parole qui invente de nouvelles significations et ne se borne pas …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Raconter une chronologie n’est pas démontrer une genèse",
+      "limite_du_devoir": "Le meilleur cas d’un écrivain qui critique sa langue la contredit déjà comme prison absolue ; montrer ce qui subsiste de l’enfermement au lieu de modifier le sens du sujet."
+    },
+    {
+      "source": "2026-asie-langage",
+      "partie": "III.3",
+      "type_principal": "D03",
+      "familles_p21_proposees": [
+        "F03"
+      ],
+      "ancienne_observation": "Exigence d’intelligibilité publique des inventions",
+      "trace": "Le dernier acquis est public : une invention expressive libère la pensée si d’autres peuvent en examiner le sens. W…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas confondre condition nécessaire et cause suffisante",
+      "limite_du_devoir": "Le meilleur cas d’un écrivain qui critique sa langue la contredit déjà comme prison absolue ; montrer ce qui subsiste de l’enfermement au lieu de modifier le sens du sujet."
+    },
+    {
+      "source": "2026-g1-bien-agir",
+      "partie": "I.1",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Distinction vouloir bien et réussir fortuitement",
+      "trace": "Kant, dans les Fondements de la métaphysique des mœurs, distingue la valeur de la bonne volonté des résultats que l…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "Les branches contiennent de vrais tests de conditions mais la cible « peut-on » peut être satisfaite par un contre-exemple de possibilité avant III; ne pas généraliser l’incertitude."
+    },
+    {
+      "source": "2026-g1-bien-agir",
+      "partie": "I.2",
+      "type_principal": "N02",
+      "familles_p21_proposees": [
+        "F07"
+      ],
+      "ancienne_observation": "Fondation d’un critère moral indépendant du résultat",
+      "trace": "Dans la Critique de la raison pratique, Kant fonde une obligation que le sujet peut reconnaître sans prétendre poss…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une liste de valeurs n’est pas un arbitrage",
+      "limite_du_devoir": "Les branches contiennent de vrais tests de conditions mais la cible « peut-on » peut être satisfaite par un contre-exemple de possibilité avant III; ne pas généraliser l’incertitude."
+    },
+    {
+      "source": "2026-g1-bien-agir",
+      "partie": "I.3",
+      "type_principal": "E05",
+      "familles_p21_proposees": [
+        "F13"
+      ],
+      "ancienne_observation": "Objection d’ignorance imputable et défaut de délibération",
+      "trace": "Mais Aristote, dans l’Éthique à Nicomaque (III), rend certaines ignorances imputables à l’agent : la pureté de l’in…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Le renommage d’une proposition n’est pas une réparation",
+      "limite_du_devoir": "Les branches contiennent de vrais tests de conditions mais la cible « peut-on » peut être satisfaite par un contre-exemple de possibilité avant III; ne pas généraliser l’incertitude."
+    },
+    {
+      "source": "2026-g1-bien-agir",
+      "partie": "II.1",
+      "type_principal": "N04",
+      "familles_p21_proposees": [
+        "F10",
+        "F17"
+      ],
+      "ancienne_observation": "Critère des conséquences raisonnablement prévisibles",
+      "trace": "Weber, dans Le Savant et le Politique, relie la responsabilité aux conséquences prévisibles de l’action : décider a…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Pas de responsabilité illimitée par omniscience supposée",
+      "limite_du_devoir": "Les branches contiennent de vrais tests de conditions mais la cible « peut-on » peut être satisfaite par un contre-exemple de possibilité avant III; ne pas généraliser l’incertitude."
+    },
+    {
+      "source": "2026-g1-bien-agir",
+      "partie": "II.2",
+      "type_principal": "G02",
+      "familles_p21_proposees": [
+        "F16"
+      ],
+      "ancienne_observation": "Particularisation du jugement prudent",
+      "trace": "Aristote, dans l’Éthique à Nicomaque (VI), fait de la prudence un jugement sur les circonstances singulières, non l…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ajouter un intermédiaire non prouvé n’explique rien",
+      "limite_du_devoir": "Les branches contiennent de vrais tests de conditions mais la cible « peut-on » peut être satisfaite par un contre-exemple de possibilité avant III; ne pas généraliser l’incertitude."
+    },
+    {
+      "source": "2026-g1-bien-agir",
+      "partie": "II.3",
+      "type_principal": "E02",
+      "familles_p21_proposees": [
+        "F11"
+      ],
+      "ancienne_observation": "Réduction à l’absurde d’une omniscience exigée",
+      "trace": "Mais exiger la connaissance de toutes les conséquences rendrait toute action moralement indécidable. Weber ne deman…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas falsifier l’adversaire en renforçant sa prétention",
+      "limite_du_devoir": "Les branches contiennent de vrais tests de conditions mais la cible « peut-on » peut être satisfaite par un contre-exemple de possibilité avant III; ne pas généraliser l’incertitude."
+    },
+    {
+      "source": "2026-g1-bien-agir",
+      "partie": "III.1",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Distinction maxime/délibération/effets",
+      "trace": "Il faut distinguer la validité de la maxime, la qualité de la délibération et l’évaluation des suites : Kant et Ari…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "Les branches contiennent de vrais tests de conditions mais la cible « peut-on » peut être satisfaite par un contre-exemple de possibilité avant III; ne pas généraliser l’incertitude."
+    },
+    {
+      "source": "2026-g1-bien-agir",
+      "partie": "III.2",
+      "type_principal": "G04",
+      "familles_p21_proposees": [
+        "F06",
+        "F16"
+      ],
+      "ancienne_observation": "Processualisation de la réparation après l’acte",
+      "trace": "La responsabilité selon Weber fait de l’examen des effets une continuation de l’action. Réparer un dommage peut êtr…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "La simple succession temporelle n’est pas une boucle causale",
+      "limite_du_devoir": "Les branches contiennent de vrais tests de conditions mais la cible « peut-on » peut être satisfaite par un contre-exemple de possibilité avant III; ne pas généraliser l’incertitude."
+    },
+    {
+      "source": "2026-g1-bien-agir",
+      "partie": "III.3",
+      "type_principal": "D02",
+      "familles_p21_proposees": [
+        "F04"
+      ],
+      "ancienne_observation": "Modalisation d’une certitude limitée à un cas bien déterminé",
+      "trace": "On peut être certain, dans un cas moralement suffisamment déterminé, d’avoir respecté une obligation et délibéré av…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Un contre-exemple au tout ne prouve pas le jamais",
+      "limite_du_devoir": "Les branches contiennent de vrais tests de conditions mais la cible « peut-on » peut être satisfaite par un contre-exemple de possibilité avant III; ne pas généraliser l’incertitude."
+    },
+    {
+      "source": "2026-g1-nature-besoin",
+      "partie": "I.1",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Distinction principe interne naturel / œuvre artificielle",
+      "trace": "Aristote, dans la Physique (II), oppose les êtres naturels, qui portent en eux leur principe de mouvement, aux prod…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "III.3 répond que seule une partie de la nature dépend de nous ; cette distinction initiale pourrait suffire, et I.3 est une exception plutôt qu’une impossibilité de l’autonomie naturelle."
+    },
+    {
+      "source": "2026-g1-nature-besoin",
+      "partie": "I.2",
+      "type_principal": "D06",
+      "familles_p21_proposees": [
+        "F05",
+        "F17"
+      ],
+      "ancienne_observation": "Refus d’une téléologie anthropocentrique",
+      "trace": "Spinoza, dans l’Éthique (I), refuse de faire de l’homme la fin de la nature. La question d’un besoin de la nature n…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas répondre à une question voisine",
+      "limite_du_devoir": "III.3 répond que seule une partie de la nature dépend de nous ; cette distinction initiale pourrait suffire, et I.3 est une exception plutôt qu’une impossibilité de l’autonomie naturelle."
+    },
+    {
+      "source": "2026-g1-nature-besoin",
+      "partie": "I.3",
+      "type_principal": "E01",
+      "familles_p21_proposees": [
+        "F04",
+        "F08"
+      ],
+      "ancienne_observation": "Objection des milieux altérés par puissance technique",
+      "trace": "Mais l’autonomie du processus naturel n’assure pas la conservation de chacune de ses formes. Hans Jonas, dans Le Pr…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Un cas possible doit être compatible avec la définition du sujet",
+      "limite_du_devoir": "III.3 répond que seule une partie de la nature dépend de nous ; cette distinction initiale pourrait suffire, et I.3 est une exception plutôt qu’une impossibilité de l’autonomie naturelle."
+    },
+    {
+      "source": "2026-g1-nature-besoin",
+      "partie": "II.1",
+      "type_principal": "E06",
+      "familles_p21_proposees": [
+        "F07",
+        "F15"
+      ],
+      "ancienne_observation": "Dérivation d’un devoir du pouvoir de nuire",
+      "trace": "La dégradation de certains milieux peut nous rendre responsables de leurs conditions futures. Jonas déduit de la vu…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une utilité constatée n’établit pas un devoir",
+      "limite_du_devoir": "III.3 répond que seule une partie de la nature dépend de nous ; cette distinction initiale pourrait suffire, et I.3 est une exception plutôt qu’une impossibilité de l’autonomie naturelle."
+    },
+    {
+      "source": "2026-g1-nature-besoin",
+      "partie": "II.2",
+      "type_principal": "N04",
+      "familles_p21_proposees": [
+        "F10",
+        "F17"
+      ],
+      "ancienne_observation": "Extension temporelle de la responsabilité",
+      "trace": "Dans Le Principe responsabilité, Jonas étend le champ du devoir aux générations futures et à la persistance des con…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Pas de responsabilité illimitée par omniscience supposée",
+      "limite_du_devoir": "III.3 répond que seule une partie de la nature dépend de nous ; cette distinction initiale pourrait suffire, et I.3 est une exception plutôt qu’une impossibilité de l’autonomie naturelle."
+    },
+    {
+      "source": "2026-g1-nature-besoin",
+      "partie": "II.3",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Distinction réparation / pilotage total du vivant",
+      "trace": "Mais un soin conçu comme direction totale de la nature en abolirait l’autonomie. Aristote, dans la Physique, distin…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "III.3 répond que seule une partie de la nature dépend de nous ; cette distinction initiale pourrait suffire, et I.3 est une exception plutôt qu’une impossibilité de l’autonomie naturelle."
+    },
+    {
+      "source": "2026-g1-nature-besoin",
+      "partie": "III.1",
+      "type_principal": "D06",
+      "familles_p21_proposees": [
+        "F05",
+        "F17"
+      ],
+      "ancienne_observation": "Déplacement du besoin vers les conditions écologiques détruites",
+      "trace": "L’inversion demandée consiste à rapporter le besoin non à une volonté de la nature mais à des conditions de vie alt…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas répondre à une question voisine",
+      "limite_du_devoir": "III.3 répond que seule une partie de la nature dépend de nous ; cette distinction initiale pourrait suffire, et I.3 est une exception plutôt qu’une impossibilité de l’autonomie naturelle."
+    },
+    {
+      "source": "2026-g1-nature-besoin",
+      "partie": "III.2",
+      "type_principal": "G06",
+      "familles_p21_proposees": [
+        "F09",
+        "F16"
+      ],
+      "ancienne_observation": "Restitution de l’autonomie sans fabrication du vivant",
+      "trace": "Une restauration peut retirer une cause de dégradation sans fabriquer chaque vivant. La distinction aristotélicienn…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Raconter une chronologie n’est pas démontrer une genèse",
+      "limite_du_devoir": "III.3 répond que seule une partie de la nature dépend de nous ; cette distinction initiale pourrait suffire, et I.3 est une exception plutôt qu’une impossibilité de l’autonomie naturelle."
+    },
+    {
+      "source": "2026-g1-nature-besoin",
+      "partie": "III.3",
+      "type_principal": "D02",
+      "familles_p21_proposees": [
+        "F04"
+      ],
+      "ancienne_observation": "Restriction de l’extension nature totale / milieux déterminés",
+      "trace": "Il faut toutefois maintenir le sujet entier : ce sont surtout des milieux et espèces déterminés qui dépendent de no…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Un contre-exemple au tout ne prouve pas le jamais",
+      "limite_du_devoir": "III.3 répond que seule une partie de la nature dépend de nous ; cette distinction initiale pourrait suffire, et I.3 est une exception plutôt qu’une impossibilité de l’autonomie naturelle."
+    },
+    {
+      "source": "2026-me-bonheur-autres",
+      "partie": "I.1",
+      "type_principal": "D02",
+      "familles_p21_proposees": [
+        "F04"
+      ],
+      "ancienne_observation": "Critère individuel de bonheur opposé au bonheur universel",
+      "trace": "Aristote, dans l’Éthique à Nicomaque (I), décrit le bonheur comme activité d’une vie, non comme état mesuré par les…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Un contre-exemple au tout ne prouve pas le jamais",
+      "limite_du_devoir": "Les deux réponses sont compatibles chez l’agent compatissant et joyeux; III.3 introduit le problème de la complicité, qu’il faut déduire du sujet sans changer la question."
+    },
+    {
+      "source": "2026-me-bonheur-autres",
+      "partie": "I.2",
+      "type_principal": "D03",
+      "familles_p21_proposees": [
+        "F03"
+      ],
+      "ancienne_observation": "Condition relationnelle du bonheur par amitié",
+      "trace": "Dans l’Éthique à Nicomaque (VIII–IX), Aristote fait cependant de l’amitié un bien essentiel : la vie heureuse est r…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas confondre condition nécessaire et cause suffisante",
+      "limite_du_devoir": "Les deux réponses sont compatibles chez l’agent compatissant et joyeux; III.3 introduit le problème de la complicité, qu’il faut déduire du sujet sans changer la question."
+    },
+    {
+      "source": "2026-me-bonheur-autres",
+      "partie": "I.3",
+      "type_principal": "E05",
+      "familles_p21_proposees": [
+        "F13"
+      ],
+      "ancienne_observation": "Objection d’une joie fondée sur l’insensibilité volontaire",
+      "trace": "Mais une joie protégée par l’ignorance volontaire du malheur d’autrui perdrait cette dimension. Rousseau, dans le D…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Le renommage d’une proposition n’est pas une réparation",
+      "limite_du_devoir": "Les deux réponses sont compatibles chez l’agent compatissant et joyeux; III.3 introduit le problème de la complicité, qu’il faut déduire du sujet sans changer la question."
+    },
+    {
+      "source": "2026-me-bonheur-autres",
+      "partie": "II.1",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Distinction pitié et contagion de tristesse",
+      "trace": "La pitié ne signifie pas vivre exactement ce que vit celui qui souffre. Rousseau permet de distinguer l’attention à…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "Les deux réponses sont compatibles chez l’agent compatissant et joyeux; III.3 introduit le problème de la complicité, qu’il faut déduire du sujet sans changer la question."
+    },
+    {
+      "source": "2026-me-bonheur-autres",
+      "partie": "II.2",
+      "type_principal": "G06",
+      "familles_p21_proposees": [
+        "F09",
+        "F16"
+      ],
+      "ancienne_observation": "Conversion affective en sollicitude active",
+      "trace": "Spinoza, dans l’Éthique (III–IV), analyse les affects de tristesse et les formes de générosité : répondre au malheu…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Raconter une chronologie n’est pas démontrer une genèse",
+      "limite_du_devoir": "Les deux réponses sont compatibles chez l’agent compatissant et joyeux; III.3 introduit le problème de la complicité, qu’il faut déduire du sujet sans changer la question."
+    },
+    {
+      "source": "2026-me-bonheur-autres",
+      "partie": "II.3",
+      "type_principal": "E02",
+      "familles_p21_proposees": [
+        "F11"
+      ],
+      "ancienne_observation": "Critique de l’impératif de souffrir sans aider",
+      "trace": "Mais une compassion qui exigerait de supprimer sa propre joie sans soulager personne ajouterait une souffrance. Spi…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas falsifier l’adversaire en renforçant sa prétention",
+      "limite_du_devoir": "Les deux réponses sont compatibles chez l’agent compatissant et joyeux; III.3 introduit le problème de la complicité, qu’il faut déduire du sujet sans changer la question."
+    },
+    {
+      "source": "2026-me-bonheur-autres",
+      "partie": "III.1",
+      "type_principal": "R05",
+      "familles_p21_proposees": [
+        "F14"
+      ],
+      "ancienne_observation": "Articulation bonheur individuel / sociabilité",
+      "trace": "Il faut transformer l’alternative entre joie privée et douleur partagée. L’éthique aristotélicienne de l’amitié per…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "La juxtaposition de conclusions n’est pas leur composition",
+      "limite_du_devoir": "Les deux réponses sont compatibles chez l’agent compatissant et joyeux; III.3 introduit le problème de la complicité, qu’il faut déduire du sujet sans changer la question."
+    },
+    {
+      "source": "2026-me-bonheur-autres",
+      "partie": "III.2",
+      "type_principal": "G06",
+      "familles_p21_proposees": [
+        "F09",
+        "F16"
+      ],
+      "ancienne_observation": "Transformation de la tristesse en puissance d’aider",
+      "trace": "À partir de Spinoza, la sollicitude devient une puissance d’agir : écouter, soutenir et secourir ne réclame pas de …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Raconter une chronologie n’est pas démontrer une genèse",
+      "limite_du_devoir": "Les deux réponses sont compatibles chez l’agent compatissant et joyeux; III.3 introduit le problème de la complicité, qu’il faut déduire du sujet sans changer la question."
+    },
+    {
+      "source": "2026-me-bonheur-autres",
+      "partie": "III.3",
+      "type_principal": "E01",
+      "familles_p21_proposees": [
+        "F04",
+        "F08"
+      ],
+      "ancienne_observation": "Contre-modèle d’un bonheur produit par injustice",
+      "trace": "Une limite demeure : si ma joie repose matériellement sur l’injustice imposée à d’autres, la simple compassion ne l…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Un cas possible doit être compatible avec la définition du sujet",
+      "limite_du_devoir": "Les deux réponses sont compatibles chez l’agent compatissant et joyeux; III.3 introduit le problème de la complicité, qu’il faut déduire du sujet sans changer la question."
+    },
+    {
+      "source": "2026-me-paroles",
+      "partie": "I.1",
+      "type_principal": "D05",
+      "familles_p21_proposees": [
+        "F05",
+        "F15"
+      ],
+      "ancienne_observation": "Analyse de la parole comme acte intentionnel",
+      "trace": "Quand nous avertissons d’un danger ou faisons une promesse, nous ne produisons pas des sons au hasard. Aristote, da…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Nommer Austin ou un type d’acte ne suffit pas",
+      "limite_du_devoir": "Le scénario d’un avertissement compris et rectifié résout beaucoup de difficultés sans III; III.3 bascule de maîtrise à imputabilité des dommages : vérifier la continuité du concept."
+    },
+    {
+      "source": "2026-me-paroles",
+      "partie": "I.2",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Distinction mots/acte/effets",
+      "trace": "Dans Quand dire, c’est faire, Austin distingue l’énoncé prononcé et l’acte accompli en le prononçant. Promettre ne …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "Le scénario d’un avertissement compris et rectifié résout beaucoup de difficultés sans III; III.3 bascule de maîtrise à imputabilité des dommages : vérifier la continuité du concept."
+    },
+    {
+      "source": "2026-me-paroles",
+      "partie": "I.3",
+      "type_principal": "D03",
+      "familles_p21_proposees": [
+        "F03"
+      ],
+      "ancienne_observation": "Condition publique de réussite d’une promesse",
+      "trace": "Cette maîtrise rencontre pourtant une limite au cœur de son exercice. Une promesse ne vaut pas comme engagement par…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas confondre condition nécessaire et cause suffisante",
+      "limite_du_devoir": "Le scénario d’un avertissement compris et rectifié résout beaucoup de difficultés sans III; III.3 bascule de maîtrise à imputabilité des dommages : vérifier la continuité du concept."
+    },
+    {
+      "source": "2026-me-paroles",
+      "partie": "II.1",
+      "type_principal": "G01",
+      "familles_p21_proposees": [
+        "F09",
+        "F10"
+      ],
+      "ancienne_observation": "Limite de la langue commune sur l’expérience singulière",
+      "trace": "Les mots dont nous disposons existaient le plus souvent avant ce que nous voulons exprimer. Bergson, dans l’Essai s…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "L’origine d’une croyance ne réfute pas sa vérité",
+      "limite_du_devoir": "Le scénario d’un avertissement compris et rectifié résout beaucoup de difficultés sans III; III.3 bascule de maîtrise à imputabilité des dommages : vérifier la continuité du concept."
+    },
+    {
+      "source": "2026-me-paroles",
+      "partie": "II.2",
+      "type_principal": "G04",
+      "familles_p21_proposees": [
+        "F06",
+        "F16"
+      ],
+      "ancienne_observation": "Rétroaction expressivité/pensée nouvelle",
+      "trace": "Cette distance ne marque pas seulement un échec. Dans La Prose du monde, Merleau-Ponty examine une parole qui fait …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "La simple succession temporelle n’est pas une boucle causale",
+      "limite_du_devoir": "Le scénario d’un avertissement compris et rectifié résout beaucoup de difficultés sans III; III.3 bascule de maîtrise à imputabilité des dommages : vérifier la continuité du concept."
+    },
+    {
+      "source": "2026-me-paroles",
+      "partie": "II.3",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Distinction imputabilité/maîtrise des conséquences",
+      "trace": "Mais l’imprévisibilité des effets ne retire pas la responsabilité de l’acte. Avec Austin, il faut distinguer l’enga…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "Le scénario d’un avertissement compris et rectifié résout beaucoup de difficultés sans III; III.3 bascule de maîtrise à imputabilité des dommages : vérifier la continuité du concept."
+    },
+    {
+      "source": "2026-me-paroles",
+      "partie": "III.1",
+      "type_principal": "D04",
+      "familles_p21_proposees": [
+        "F07"
+      ],
+      "ancienne_observation": "Déplacement souveraineté privée → compétence réglée",
+      "trace": "La maîtrise absolue supposait que le locuteur fixe seul la signification de ses paroles. Mais parler, c’est déjà ut…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas changer de sujet sous couvert de critère",
+      "limite_du_devoir": "Le scénario d’un avertissement compris et rectifié résout beaucoup de difficultés sans III; III.3 bascule de maîtrise à imputabilité des dommages : vérifier la continuité du concept."
+    },
+    {
+      "source": "2026-me-paroles",
+      "partie": "III.2",
+      "type_principal": "G04",
+      "familles_p21_proposees": [
+        "F06",
+        "F16"
+      ],
+      "ancienne_observation": "Processus de correction dialogique du sens",
+      "trace": "Parce que les mots sont publics, celui qui parle peut aussi être interrogé et contraint de préciser ce qu’il a voul…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "La simple succession temporelle n’est pas une boucle causale",
+      "limite_du_devoir": "Le scénario d’un avertissement compris et rectifié résout beaucoup de difficultés sans III; III.3 bascule de maîtrise à imputabilité des dommages : vérifier la continuité du concept."
+    },
+    {
+      "source": "2026-me-paroles",
+      "partie": "III.3",
+      "type_principal": "N04",
+      "familles_p21_proposees": [
+        "F10",
+        "F17"
+      ],
+      "ancienne_observation": "Degré de responsabilité selon prévisibilité des effets",
+      "trace": "Une dernière responsabilité ne se laisse cependant réduire ni au respect des règles ni à la correction des formulat…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Pas de responsabilité illimitée par omniscience supposée",
+      "limite_du_devoir": "Le scénario d’un avertissement compris et rectifié résout beaucoup de difficultés sans III; III.3 bascule de maîtrise à imputabilité des dommages : vérifier la continuité du concept."
+    },
+    {
+      "source": "notion-inconscient",
+      "partie": "I.1",
+      "type_principal": "G01",
+      "familles_p21_proposees": [
+        "F09",
+        "F10"
+      ],
+      "ancienne_observation": "Explication des actes par motifs non transparents",
+      "trace": "Freud, dans l’Introduction à la psychanalyse, met en évidence des motifs qui ne se présentent pas immédiatement à l…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "L’origine d’une croyance ne réfute pas sa vérité",
+      "limite_du_devoir": "Freud et Sartre posent une controverse réelle, mais III rassemble plusieurs modalités de responsabilité sans démontrer toujours une nécessité de leur rapport."
+    },
+    {
+      "source": "notion-inconscient",
+      "partie": "I.2",
+      "type_principal": "G02",
+      "familles_p21_proposees": [
+        "F16"
+      ],
+      "ancienne_observation": "Pluralité causale des instances psychiques",
+      "trace": "Dans Le Moi et le Ça, Freud distingue les instances psychiques dont les conflits expliquent des conduites que le su…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ajouter un intermédiaire non prouvé n’explique rien",
+      "limite_du_devoir": "Freud et Sartre posent une controverse réelle, mais III rassemble plusieurs modalités de responsabilité sans démontrer toujours une nécessité de leur rapport."
+    },
+    {
+      "source": "notion-inconscient",
+      "partie": "I.3",
+      "type_principal": "E02",
+      "familles_p21_proposees": [
+        "F11"
+      ],
+      "ancienne_observation": "Objection à la dissolution de toute imputabilité",
+      "trace": "Mais faire de tout acte le produit d’un mécanisme inconscient supprimerait jusqu’à la possibilité d’en assumer les …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas falsifier l’adversaire en renforçant sa prétention",
+      "limite_du_devoir": "Freud et Sartre posent une controverse réelle, mais III rassemble plusieurs modalités de responsabilité sans démontrer toujours une nécessité de leur rapport."
+    },
+    {
+      "source": "notion-inconscient",
+      "partie": "II.1",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Dissociation responsabilité et transparence volontaire",
+      "trace": "Sartre fait de l’homme un être engagé dans ce qu’il fait, même lorsque ses justifications le masquent : répondre d’…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "Freud et Sartre posent une controverse réelle, mais III rassemble plusieurs modalités de responsabilité sans démontrer toujours une nécessité de leur rapport."
+    },
+    {
+      "source": "notion-inconscient",
+      "partie": "II.2",
+      "type_principal": "E05",
+      "familles_p21_proposees": [
+        "F13"
+      ],
+      "ancienne_observation": "Critique de l’explication psychique comme excuse",
+      "trace": "Dans L’Être et le Néant, Sartre examine la manière dont nous pouvons dissimuler à nous-mêmes un choix. Cette opérat…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Le renommage d’une proposition n’est pas une réparation",
+      "limite_du_devoir": "Freud et Sartre posent une controverse réelle, mais III rassemble plusieurs modalités de responsabilité sans démontrer toujours une nécessité de leur rapport."
+    },
+    {
+      "source": "notion-inconscient",
+      "partie": "II.3",
+      "type_principal": "E05",
+      "familles_p21_proposees": [
+        "F13"
+      ],
+      "ancienne_observation": "Objection d’absence de choix des désirs",
+      "trace": "Mais une responsabilité qui exigerait que nous ayons volontairement choisi tous nos désirs serait injustifiable. Fr…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Le renommage d’une proposition n’est pas une réparation",
+      "limite_du_devoir": "Freud et Sartre posent une controverse réelle, mais III rassemble plusieurs modalités de responsabilité sans démontrer toujours une nécessité de leur rapport."
+    },
+    {
+      "source": "notion-inconscient",
+      "partie": "III.1",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Différenciation motif/acte/réparation",
+      "trace": "La solution exige de distinguer le motif ignoré, l’acte accompli et la réparation de ses suites. La cure freudienne…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "Freud et Sartre posent une controverse réelle, mais III rassemble plusieurs modalités de responsabilité sans démontrer toujours une nécessité de leur rapport."
+    },
+    {
+      "source": "notion-inconscient",
+      "partie": "III.2",
+      "type_principal": "G06",
+      "familles_p21_proposees": [
+        "F09",
+        "F16"
+      ],
+      "ancienne_observation": "Transformation du rapport aux significations reconnues",
+      "trace": "Ricœur, dans De l’interprétation, pense le sujet comme capable de reprendre son rapport à des significations qu’il …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Raconter une chronologie n’est pas démontrer une genèse",
+      "limite_du_devoir": "Freud et Sartre posent une controverse réelle, mais III rassemble plusieurs modalités de responsabilité sans démontrer toujours une nécessité de leur rapport."
+    },
+    {
+      "source": "notion-inconscient",
+      "partie": "III.3",
+      "type_principal": "N04",
+      "familles_p21_proposees": [
+        "F10",
+        "F17"
+      ],
+      "ancienne_observation": "Graduation de l’imputabilité et temporalisation de la prise en charge",
+      "trace": "L’inconscient ne supprime donc pas toute responsabilité ; il en change les modalités et les degrés. Sartre aide à m…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Pas de responsabilité illimitée par omniscience supposée",
+      "limite_du_devoir": "Freud et Sartre posent une controverse réelle, mais III rassemble plusieurs modalités de responsabilité sans démontrer toujours une nécessité de leur rapport."
+    },
+    {
+      "source": "notion-liberte",
+      "partie": "I.1",
+      "type_principal": "D05",
+      "familles_p21_proposees": [
+        "F05",
+        "F15"
+      ],
+      "ancienne_observation": "Identification de la décision comme engagement de soi",
+      "trace": "Sartre, dans L’existentialisme est un humanisme, rappelle qu’un choix engage celui qui le fait : promettre n’est pa…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Nommer Austin ou un type d’acte ne suffit pas",
+      "limite_du_devoir": "I.1–I.2 défendent déjà l’engagement comme liberté, alors que la section prétend qu’il l’enferme ; défaut de cohérence de branche et risque de III répétitive."
+    },
+    {
+      "source": "notion-liberte",
+      "partie": "I.2",
+      "type_principal": "G06",
+      "familles_p21_proposees": [
+        "F09",
+        "F16"
+      ],
+      "ancienne_observation": "Capacité diachronique de promettre",
+      "trace": "Nietzsche, dans la Généalogie de la morale (II, 1), fait de la capacité à promettre une conquête de la volonté dans…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Raconter une chronologie n’est pas démontrer une genèse",
+      "limite_du_devoir": "I.1–I.2 défendent déjà l’engagement comme liberté, alors que la section prétend qu’il l’enferme ; défaut de cohérence de branche et risque de III répétitive."
+    },
+    {
+      "source": "notion-liberte",
+      "partie": "I.3",
+      "type_principal": "E05",
+      "familles_p21_proposees": [
+        "F13"
+      ],
+      "ancienne_observation": "Critique de la promesse absolutisée comme ordre passé",
+      "trace": "Mais si la promesse interdisait tout jugement ultérieur, le choix passé deviendrait une autorité absolue sur le suj…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Le renommage d’une proposition n’est pas une réparation",
+      "limite_du_devoir": "I.1–I.2 défendent déjà l’engagement comme liberté, alors que la section prétend qu’il l’enferme ; défaut de cohérence de branche et risque de III répétitive."
+    },
+    {
+      "source": "notion-liberte",
+      "partie": "II.1",
+      "type_principal": "E02",
+      "familles_p21_proposees": [
+        "F11"
+      ],
+      "ancienne_observation": "Limite d’une liberté sans stabilité ni décision durable",
+      "trace": "Une liberté comprise comme possibilité permanente de revenir sur chaque décision risque de ne produire aucun acte d…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas falsifier l’adversaire en renforçant sa prétention",
+      "limite_du_devoir": "I.1–I.2 défendent déjà l’engagement comme liberté, alors que la section prétend qu’il l’enferme ; défaut de cohérence de branche et risque de III répétitive."
+    },
+    {
+      "source": "notion-liberte",
+      "partie": "II.2",
+      "type_principal": "N03",
+      "familles_p21_proposees": [
+        "F16"
+      ],
+      "ancienne_observation": "Condition politique de prévisibilité par promesse",
+      "trace": "Chez Arendt, la promesse établit des îlots de prévisibilité dans les relations humaines : elle permet aux autres de…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une proposition d’institution n’est pas encore sa preuve",
+      "limite_du_devoir": "I.1–I.2 défendent déjà l’engagement comme liberté, alors que la section prétend qu’il l’enferme ; défaut de cohérence de branche et risque de III répétitive."
+    },
+    {
+      "source": "notion-liberte",
+      "partie": "II.3",
+      "type_principal": "E05",
+      "familles_p21_proposees": [
+        "F13"
+      ],
+      "ancienne_observation": "Objection de fidélité aveugle devant l’injustice",
+      "trace": "Mais une fidélité réduite à l’obstination pourrait entretenir un engagement devenu injuste. Ricœur, dans Soi-même c…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Le renommage d’une proposition n’est pas une réparation",
+      "limite_du_devoir": "I.1–I.2 défendent déjà l’engagement comme liberté, alors que la section prétend qu’il l’enferme ; défaut de cohérence de branche et risque de III répétitive."
+    },
+    {
+      "source": "notion-liberte",
+      "partie": "III.1",
+      "type_principal": "G03",
+      "familles_p21_proposees": [
+        "F06"
+      ],
+      "ancienne_observation": "Inversion renoncement → exercice de liberté",
+      "trace": "Il faut inverser la relation supposée : s’engager peut être un exercice de la liberté, pas sa négation. Nietzsche m…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "L’opposition rhétorique ne prouve pas le renversement",
+      "limite_du_devoir": "I.1–I.2 défendent déjà l’engagement comme liberté, alors que la section prétend qu’il l’enferme ; défaut de cohérence de branche et risque de III répétitive."
+    },
+    {
+      "source": "notion-liberte",
+      "partie": "III.2",
+      "type_principal": "G02",
+      "familles_p21_proposees": [
+        "F16"
+      ],
+      "ancienne_observation": "Condition sociale de confiance produite par promesse",
+      "trace": "Arendt permet de démontrer la fonction sociale de l’engagement : ma promesse donne à autrui des raisons d’agir, et …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ajouter un intermédiaire non prouvé n’explique rien",
+      "limite_du_devoir": "I.1–I.2 défendent déjà l’engagement comme liberté, alors que la section prétend qu’il l’enferme ; défaut de cohérence de branche et risque de III répétitive."
+    },
+    {
+      "source": "notion-liberte",
+      "partie": "III.3",
+      "type_principal": "N02",
+      "familles_p21_proposees": [
+        "F07"
+      ],
+      "ancienne_observation": "Nouvelle norme de justification fidélité/rupture",
+      "trace": "L’acquis final exige de pouvoir justifier la fidélité ou la rupture. Ricœur fonde la responsabilité de tenir parole…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une liste de valeurs n’est pas un arbitrage",
+      "limite_du_devoir": "I.1–I.2 défendent déjà l’engagement comme liberté, alors que la section prétend qu’il l’enferme ; défaut de cohérence de branche et risque de III répétitive."
+    },
+    {
+      "source": "notion-raison",
+      "partie": "I.1",
+      "type_principal": "D03",
+      "familles_p21_proposees": [
+        "F03"
+      ],
+      "ancienne_observation": "Condition de transmissibilité d’une preuve ordonnée",
+      "trace": "Descartes, dans le Discours de la méthode (II), montre que l’ordre des raisons distingue la démonstration de la sim…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas confondre condition nécessaire et cause suffisante",
+      "limite_du_devoir": "Un auditeur attentif peut être convaincu par une preuve correcte : pour « suffit-il » préciser si réussite universelle ou cas possible ; le troisième terme peut être déjà donné."
+    },
+    {
+      "source": "notion-raison",
+      "partie": "I.2",
+      "type_principal": "E03",
+      "familles_p21_proposees": [
+        "F04",
+        "F15"
+      ],
+      "ancienne_observation": "Contrôle rationnel des prémisses d’une évidence",
+      "trace": "Dans les Méditations métaphysiques, Descartes apprend à ne pas prendre l’évidence apparente pour un acquis sans exa…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une preuve valide ne démontre pas seule la vérité empirique",
+      "limite_du_devoir": "Un auditeur attentif peut être convaincu par une preuve correcte : pour « suffit-il » préciser si réussite universelle ou cas possible ; le troisième terme peut être déjà donné."
+    },
+    {
+      "source": "notion-raison",
+      "partie": "I.3",
+      "type_principal": "E01",
+      "familles_p21_proposees": [
+        "F04",
+        "F08"
+      ],
+      "ancienne_observation": "Contre-exemple d’une preuve valide non reçue",
+      "trace": "Mais le refus effectif d’une preuve ne réfute pas nécessairement sa validité. Platon, dans l’allégorie de la cavern…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Un cas possible doit être compatible avec la définition du sujet",
+      "limite_du_devoir": "Un auditeur attentif peut être convaincu par une preuve correcte : pour « suffit-il » préciser si réussite universelle ou cas possible ; le troisième terme peut être déjà donné."
+    },
+    {
+      "source": "notion-raison",
+      "partie": "II.1",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Distinction conviction de droit / adhésion factuelle",
+      "trace": "Pascal, dans De l’art de persuader, distingue la validité des raisons des dispositions auxquelles le discours s’adr…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "Un auditeur attentif peut être convaincu par une preuve correcte : pour « suffit-il » préciser si réussite universelle ou cas possible ; le troisième terme peut être déjà donné."
+    },
+    {
+      "source": "notion-raison",
+      "partie": "II.2",
+      "type_principal": "E01",
+      "familles_p21_proposees": [
+        "F04",
+        "F08"
+      ],
+      "ancienne_observation": "Contre-exemple de persuasion sans connaissance",
+      "trace": "Platon, dans le Gorgias, oppose la persuasion qui procure une croyance à l’enseignement qui conduit vers le savoir …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Un cas possible doit être compatible avec la définition du sujet",
+      "limite_du_devoir": "Un auditeur attentif peut être convaincu par une preuve correcte : pour « suffit-il » préciser si réussite universelle ou cas possible ; le troisième terme peut être déjà donné."
+    },
+    {
+      "source": "notion-raison",
+      "partie": "II.3",
+      "type_principal": "E05",
+      "familles_p21_proposees": [
+        "F13"
+      ],
+      "ancienne_observation": "Objection de flatterie comme fausse persuasion",
+      "trace": "Mais satisfaire seulement les attentes du destinataire fait de la persuasion une flatterie. Platon montre que l’adh…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Le renommage d’une proposition n’est pas une réparation",
+      "limite_du_devoir": "Un auditeur attentif peut être convaincu par une preuve correcte : pour « suffit-il » préciser si réussite universelle ou cas possible ; le troisième terme peut être déjà donné."
+    },
+    {
+      "source": "notion-raison",
+      "partie": "III.1",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Tripartition validité/accessibilité/assentiment",
+      "trace": "Il faut distinguer la validité d’une raison, l’accès du destinataire à cette raison et son assentiment effectif. Ce…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "Un auditeur attentif peut être convaincu par une preuve correcte : pour « suffit-il » préciser si réussite universelle ou cas possible ; le troisième terme peut être déjà donné."
+    },
+    {
+      "source": "notion-raison",
+      "partie": "III.2",
+      "type_principal": "R04",
+      "familles_p21_proposees": [
+        "F13",
+        "F14"
+      ],
+      "ancienne_observation": "Examen dialogique des prémisses acceptées",
+      "trace": "Chez Socrate, l’examen dialogique oblige chacun à reconstruire les prémisses qu’il accepte et à éprouver celles qu’…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Changer de vocabulaire sans test n’est pas corriger",
+      "limite_du_devoir": "Un auditeur attentif peut être convaincu par une preuve correcte : pour « suffit-il » préciser si réussite universelle ou cas possible ; le troisième terme peut être déjà donné."
+    },
+    {
+      "source": "notion-raison",
+      "partie": "III.3",
+      "type_principal": "N03",
+      "familles_p21_proposees": [
+        "F16"
+      ],
+      "ancienne_observation": "Critère normatif de persuasion justifiable publiquement",
+      "trace": "Habermas, dans Théorie de l’agir communicationnel, permet de penser une conviction fondée sur des raisons publiquem…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une proposition d’institution n’est pas encore sa preuve",
+      "limite_du_devoir": "Un auditeur attentif peut être convaincu par une preuve correcte : pour « suffit-il » préciser si réussite universelle ou cas possible ; le troisième terme peut être déjà donné."
+    },
+    {
+      "source": "notion-technique",
+      "partie": "I.1",
+      "type_principal": "E04",
+      "familles_p21_proposees": [
+        "F03",
+        "F14"
+      ],
+      "ancienne_observation": "Justification de bénéfices techniques pour l’existence",
+      "trace": "Dans le Discours de la méthode (VI), Descartes associe les sciences à une puissance nouvelle sur la nature : les te…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas inverser une implication ni conclure à l’équivalence",
+      "limite_du_devoir": "Le « toujours » tombe au premier cas technique nuisible; l’intéressante III est un cadre de discernement, pas la résolution démontrée de deux apories."
+    },
+    {
+      "source": "notion-technique",
+      "partie": "I.2",
+      "type_principal": "G06",
+      "familles_p21_proposees": [
+        "F09",
+        "F16"
+      ],
+      "ancienne_observation": "Extension des possibles par connaissance",
+      "trace": "Bacon, dans le Novum Organum, pense l’accroissement des connaissances comme une ressource de la vie humaine : pouvo…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Raconter une chronologie n’est pas démontrer une genèse",
+      "limite_du_devoir": "Le « toujours » tombe au premier cas technique nuisible; l’intéressante III est un cadre de discernement, pas la résolution démontrée de deux apories."
+    },
+    {
+      "source": "notion-technique",
+      "partie": "I.3",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Distinction possible technique / fin désirable",
+      "trace": "Mais un possible n’est pas une fin par lui-même. Hans Jonas, dans Le Principe responsabilité, souligne que la puiss…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "Le « toujours » tombe au premier cas technique nuisible; l’intéressante III est un cadre de discernement, pas la résolution démontrée de deux apories."
+    },
+    {
+      "source": "notion-technique",
+      "partie": "II.1",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Différence moyens/fins",
+      "trace": "Aristote, dans l’Éthique à Nicomaque (I), distingue les activités poursuivies pour elles-mêmes des moyens ordonnés …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "Le « toujours » tombe au premier cas technique nuisible; l’intéressante III est un cadre de discernement, pas la résolution démontrée de deux apories."
+    },
+    {
+      "source": "notion-technique",
+      "partie": "II.2",
+      "type_principal": "N01",
+      "familles_p21_proposees": [
+        "F07",
+        "F15"
+      ],
+      "ancienne_observation": "Interdit éthique de l’instrumentalisation",
+      "trace": "Kant, dans les Fondements de la métaphysique des mœurs, interdit de traiter une personne uniquement comme un moyen.…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas inférer l’obligation de la seule puissance",
+      "limite_du_devoir": "Le « toujours » tombe au premier cas technique nuisible; l’intéressante III est un cadre de discernement, pas la résolution démontrée de deux apories."
+    },
+    {
+      "source": "notion-technique",
+      "partie": "II.3",
+      "type_principal": "E01",
+      "familles_p21_proposees": [
+        "F04",
+        "F08"
+      ],
+      "ancienne_observation": "Contre-exemple d’une interdiction générale des techniques",
+      "trace": "Mais condamner toute puissance au nom de ses dangers supprimerait aussi ses secours. Jonas ne rend pas la technique…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Un cas possible doit être compatible avec la définition du sujet",
+      "limite_du_devoir": "Le « toujours » tombe au premier cas technique nuisible; l’intéressante III est un cadre de discernement, pas la résolution démontrée de deux apories."
+    },
+    {
+      "source": "notion-technique",
+      "partie": "III.1",
+      "type_principal": "D06",
+      "familles_p21_proposees": [
+        "F05",
+        "F17"
+      ],
+      "ancienne_observation": "Déplacement du possible abstrait vers l’usage déterminé",
+      "trace": "Le jugement doit se déplacer du possible abstrait vers la configuration de son usage : une même capacité sert des f…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas répondre à une question voisine",
+      "limite_du_devoir": "Le « toujours » tombe au premier cas technique nuisible; l’intéressante III est un cadre de discernement, pas la résolution démontrée de deux apories."
+    },
+    {
+      "source": "notion-technique",
+      "partie": "III.2",
+      "type_principal": "N01",
+      "familles_p21_proposees": [
+        "F07",
+        "F15"
+      ],
+      "ancienne_observation": "Test d’admissibilité des moyens au regard des personnes",
+      "trace": "Kant permet de vérifier que la dignité des personnes n’est pas négociable contre un simple gain technique : certain…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas inférer l’obligation de la seule puissance",
+      "limite_du_devoir": "Le « toujours » tombe au premier cas technique nuisible; l’intéressante III est un cadre de discernement, pas la résolution démontrée de deux apories."
+    },
+    {
+      "source": "notion-technique",
+      "partie": "III.3",
+      "type_principal": "N04",
+      "familles_p21_proposees": [
+        "F10",
+        "F17"
+      ],
+      "ancienne_observation": "Inclusion des risques temporels dans le jugement",
+      "trace": "Jonas ajoute la temporalité des effets : un usage peut être injustifiable lorsqu’il compromet les conditions de la …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Pas de responsabilité illimitée par omniscience supposée",
+      "limite_du_devoir": "Le « toujours » tombe au premier cas technique nuisible; l’intéressante III est un cadre de discernement, pas la résolution démontrée de deux apories."
+    },
+    {
+      "source": "notion-temps",
+      "partie": "I.1",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Distinction disparition du présent / destruction de l’être",
+      "trace": "Un présent cesse aussitôt d’être présent : Augustin, au livre XI des Confessions, remarque qu’un présent qui ne pas…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "La III.1 répète I.3 (formes de changement) ; la coexistence de perte et croissance ne répond pas directement à la nécessité d’une certaine destruction. Faux problème aporétique possible."
+    },
+    {
+      "source": "notion-temps",
+      "partie": "I.2",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Séparation passé représenté / présence passée",
+      "trace": "La perte est néanmoins réelle : l’enfance d’un homme ne peut lui être rendue comme un état actuel, même s’il en gar…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "La III.1 répète I.3 (formes de changement) ; la coexistence de perte et croissance ne répond pas directement à la nécessité d’une certaine destruction. Faux problème aporétique possible."
+    },
+    {
+      "source": "notion-temps",
+      "partie": "I.3",
+      "type_principal": "E01",
+      "familles_p21_proposees": [
+        "F04",
+        "F08"
+      ],
+      "ancienne_observation": "Contre-exemple : altération sans corruption",
+      "trace": "Mais le passage d’un état n’est pas nécessairement la destruction de son sujet. Dans la Physique, Aristote distingu…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Un cas possible doit être compatible avec la définition du sujet",
+      "limite_du_devoir": "La III.1 répète I.3 (formes de changement) ; la coexistence de perte et croissance ne répond pas directement à la nécessité d’une certaine destruction. Faux problème aporétique possible."
+    },
+    {
+      "source": "notion-temps",
+      "partie": "II.1",
+      "type_principal": "G06",
+      "familles_p21_proposees": [
+        "F09",
+        "F16"
+      ],
+      "ancienne_observation": "Construction de la durée comme continuité de transformations",
+      "trace": "Une existence ne consiste pas en instants sans relation. Bergson, dans l’Essai sur les données immédiates de la con…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Raconter une chronologie n’est pas démontrer une genèse",
+      "limite_du_devoir": "La III.1 répète I.3 (formes de changement) ; la coexistence de perte et croissance ne répond pas directement à la nécessité d’une certaine destruction. Faux problème aporétique possible."
+    },
+    {
+      "source": "notion-temps",
+      "partie": "II.2",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Persistance d’effets sans maintien de l’état",
+      "trace": "Dans Matière et mémoire, Bergson donne au passé une efficacité dans nos actions présentes. Il faut ici opérer deux …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "La III.1 répète I.3 (formes de changement) ; la coexistence de perte et croissance ne répond pas directement à la nécessité d’une certaine destruction. Faux problème aporétique possible."
+    },
+    {
+      "source": "notion-temps",
+      "partie": "II.3",
+      "type_principal": "E01",
+      "familles_p21_proposees": [
+        "F04",
+        "F08"
+      ],
+      "ancienne_observation": "Contre-exemple des pertes irréparables aux traces",
+      "trace": "Cette persistance ne ressuscite pourtant pas ce qui a disparu. Augustin peut se souvenir d’un proche sans faire ces…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Un cas possible doit être compatible avec la définition du sujet",
+      "limite_du_devoir": "La III.1 répète I.3 (formes de changement) ; la coexistence de perte et croissance ne répond pas directement à la nécessité d’une certaine destruction. Faux problème aporétique possible."
+    },
+    {
+      "source": "notion-temps",
+      "partie": "III.1",
+      "type_principal": "E03",
+      "familles_p21_proposees": [
+        "F04",
+        "F15"
+      ],
+      "ancienne_observation": "Distinction cause du changement / temps comme dimension",
+      "trace": "La destruction, la croissance et la maturation se produisent toutes dans le temps : cela ne signifie pas qu’elles s…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une preuve valide ne démontre pas seule la vérité empirique",
+      "limite_du_devoir": "La III.1 répète I.3 (formes de changement) ; la coexistence de perte et croissance ne répond pas directement à la nécessité d’une certaine destruction. Faux problème aporétique possible."
+    },
+    {
+      "source": "notion-temps",
+      "partie": "III.2",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Dissociation identité persistante / état disparu",
+      "trace": "La deuxième opération précise ce que conserver veut dire. La durée de Bergson n’est pas l’immobilité d’une substanc…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "La III.1 répète I.3 (formes de changement) ; la coexistence de perte et croissance ne répond pas directement à la nécessité d’une certaine destruction. Faux problème aporétique possible."
+    },
+    {
+      "source": "notion-temps",
+      "partie": "III.3",
+      "type_principal": "D02",
+      "familles_p21_proposees": [
+        "F04"
+      ],
+      "ancienne_observation": "Restriction du quantificateur « nécessairement » sans nier la perte",
+      "trace": "Enfin, une perte réelle ne devient pas illusoire parce qu’elle a lieu dans un devenir fécond. Ce que le temps rend …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Un contre-exemple au tout ne prouve pas le jamais",
+      "limite_du_devoir": "La III.1 répète I.3 (formes de changement) ; la coexistence de perte et croissance ne répond pas directement à la nécessité d’une certaine destruction. Faux problème aporétique possible."
+    },
+    {
+      "source": "notion-travail",
+      "partie": "I.1",
+      "type_principal": "G06",
+      "familles_p21_proposees": [
+        "F09",
+        "F16"
+      ],
+      "ancienne_observation": "Formation de capacités par médiation de l’objet",
+      "trace": "Hegel, dans la Phénoménologie de l’esprit, donne au travail la fonction de transformer durablement la chose et celu…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Raconter une chronologie n’est pas démontrer une genèse",
+      "limite_du_devoir": "Travail aliéné et travail formateur coexistent factuellement; prouver qu’ils reposent sur une possibilité commune d’activité qui se renverse dans certaines institutions."
+    },
+    {
+      "source": "notion-travail",
+      "partie": "I.2",
+      "type_principal": "G05",
+      "familles_p21_proposees": [
+        "F12",
+        "F14"
+      ],
+      "ancienne_observation": "Transformation réciproque sujet/objet travaillé",
+      "trace": "Dans la dialectique de la maîtrise et de la servitude, Hegel montre comment le serviteur acquiert une conscience de…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas confondre coexistence et nécessité des deux flèches",
+      "limite_du_devoir": "Travail aliéné et travail formateur coexistent factuellement; prouver qu’ils reposent sur une possibilité commune d’activité qui se renverse dans certaines institutions."
+    },
+    {
+      "source": "notion-travail",
+      "partie": "I.3",
+      "type_principal": "E01",
+      "familles_p21_proposees": [
+        "F04",
+        "F08"
+      ],
+      "ancienne_observation": "Condition d’autonomie pratique et contre-exemple du travail cadencé",
+      "trace": "Mais cette formation suppose une activité où le sujet puisse donner forme. Simone Weil, dans La Condition ouvrière,…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Un cas possible doit être compatible avec la définition du sujet",
+      "limite_du_devoir": "Travail aliéné et travail formateur coexistent factuellement; prouver qu’ils reposent sur une possibilité commune d’activité qui se renverse dans certaines institutions."
+    },
+    {
+      "source": "notion-travail",
+      "partie": "II.1",
+      "type_principal": "G01",
+      "familles_p21_proposees": [
+        "F09",
+        "F10"
+      ],
+      "ancienne_observation": "Aliénation de l’activité et du produit",
+      "trace": "Marx, dans les Manuscrits de 1844, examine le travail aliéné, dans lequel le travailleur devient étranger au produi…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "L’origine d’une croyance ne réfute pas sa vérité",
+      "limite_du_devoir": "Travail aliéné et travail formateur coexistent factuellement; prouver qu’ils reposent sur une possibilité commune d’activité qui se renverse dans certaines institutions."
+    },
+    {
+      "source": "notion-travail",
+      "partie": "II.2",
+      "type_principal": "G03",
+      "familles_p21_proposees": [
+        "F06"
+      ],
+      "ancienne_observation": "Inversion : ce qui exprime devient domination",
+      "trace": "Le renversement analysé par Marx s’explique lorsque le travail devient un moyen purement extérieur de subsister : c…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "L’opposition rhétorique ne prouve pas le renversement",
+      "limite_du_devoir": "Travail aliéné et travail formateur coexistent factuellement; prouver qu’ils reposent sur une possibilité commune d’activité qui se renverse dans certaines institutions."
+    },
+    {
+      "source": "notion-travail",
+      "partie": "II.3",
+      "type_principal": "E05",
+      "familles_p21_proposees": [
+        "F13"
+      ],
+      "ancienne_observation": "Réfutation d’une négation universelle du travail",
+      "trace": "Mais condamner le travail en général détruirait le principe même depuis lequel Marx critique son aliénation. Hegel …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Le renommage d’une proposition n’est pas une réparation",
+      "limite_du_devoir": "Travail aliéné et travail formateur coexistent factuellement; prouver qu’ils reposent sur une possibilité commune d’activité qui se renverse dans certaines institutions."
+    },
+    {
+      "source": "notion-travail",
+      "partie": "III.1",
+      "type_principal": "D06",
+      "familles_p21_proposees": [
+        "F05",
+        "F17"
+      ],
+      "ancienne_observation": "Déplacement essence du travail / rapports sociaux",
+      "trace": "La contradiction doit être déplacée de l’essence du travail vers les rapports dans lesquels l’activité est accompli…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas répondre à une question voisine",
+      "limite_du_devoir": "Travail aliéné et travail formateur coexistent factuellement; prouver qu’ils reposent sur une possibilité commune d’activité qui se renverse dans certaines institutions."
+    },
+    {
+      "source": "notion-travail",
+      "partie": "III.2",
+      "type_principal": "D03",
+      "familles_p21_proposees": [
+        "F03"
+      ],
+      "ancienne_observation": "Condition de connaissance des moyens et des fins",
+      "trace": "Simone Weil montre pourquoi la possibilité de comprendre les gestes, le rythme et leur fin change l’expérience de l…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas confondre condition nécessaire et cause suffisante",
+      "limite_du_devoir": "Travail aliéné et travail formateur coexistent factuellement; prouver qu’ils reposent sur une possibilité commune d’activité qui se renverse dans certaines institutions."
+    },
+    {
+      "source": "notion-travail",
+      "partie": "III.3",
+      "type_principal": "E04",
+      "familles_p21_proposees": [
+        "F03",
+        "F14"
+      ],
+      "ancienne_observation": "Déduction d’une définition conditionnelle du travail humanisant",
+      "trace": "L’acquis n’est pas que toutes les tâches soient agréables : avec Hegel et Weil, on peut déterminer des conditions d…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas inverser une implication ni conclure à l’équivalence",
+      "limite_du_devoir": "Travail aliéné et travail formateur coexistent factuellement; prouver qu’ils reposent sur une possibilité commune d’activité qui se renverse dans certaines institutions."
+    },
+    {
+      "source": "notion-verite",
+      "partie": "I.1",
+      "type_principal": "N01",
+      "familles_p21_proposees": [
+        "F07",
+        "F15"
+      ],
+      "ancienne_observation": "Critère inconditionnel de véracité",
+      "trace": "Kant, dans D’un prétendu droit de mentir par humanité, soutient l’importance inconditionnelle de la véracité : on n…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas inférer l’obligation de la seule puissance",
+      "limite_du_devoir": "I.3 introduit tôt la solution; II.2 redouble I.1 et III.1. Vérifier que la différence entre ne pas mentir et tout révéler ne répond pas immédiatement au sujet."
+    },
+    {
+      "source": "notion-verite",
+      "partie": "I.2",
+      "type_principal": "N01",
+      "familles_p21_proposees": [
+        "F07",
+        "F15"
+      ],
+      "ancienne_observation": "Conséquence éthique du mensonge comme instrumentalisation",
+      "trace": "Dans les Fondements de la métaphysique des mœurs, Kant demande de traiter la personne comme une fin : lui mentir po…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas inférer l’obligation de la seule puissance",
+      "limite_du_devoir": "I.3 introduit tôt la solution; II.2 redouble I.1 et III.1. Vérifier que la différence entre ne pas mentir et tout révéler ne répond pas immédiatement au sujet."
+    },
+    {
+      "source": "notion-verite",
+      "partie": "I.3",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Distinction sincérité / divulgation de toute information",
+      "trace": "Mais la véracité n’implique pas de publier chaque information vraie. Benjamin Constant, dans Des réactions politiqu…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "I.3 introduit tôt la solution; II.2 redouble I.1 et III.1. Vérifier que la différence entre ne pas mentir et tout révéler ne répond pas immédiatement au sujet."
+    },
+    {
+      "source": "notion-verite",
+      "partie": "II.1",
+      "type_principal": "N02",
+      "familles_p21_proposees": [
+        "F07"
+      ],
+      "ancienne_observation": "Dépendance des obligations aux droits d’autrui",
+      "trace": "Une parole véridique s’adresse toujours à quelqu’un. Chez Benjamin Constant, l’obligation de vérité doit être pensé…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une liste de valeurs n’est pas un arbitrage",
+      "limite_du_devoir": "I.3 introduit tôt la solution; II.2 redouble I.1 et III.1. Vérifier que la différence entre ne pas mentir et tout révéler ne répond pas immédiatement au sujet."
+    },
+    {
+      "source": "notion-verite",
+      "partie": "II.2",
+      "type_principal": "E05",
+      "familles_p21_proposees": [
+        "F13"
+      ],
+      "ancienne_observation": "Contre-exemple d’une justification du mensonge par bonté",
+      "trace": "Kant rappelle cependant que l’on ne peut justifier n’importe quel mensonge par la bienveillance : le souci d’autrui…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Le renommage d’une proposition n’est pas une réparation",
+      "limite_du_devoir": "I.3 introduit tôt la solution; II.2 redouble I.1 et III.1. Vérifier que la différence entre ne pas mentir et tout révéler ne répond pas immédiatement au sujet."
+    },
+    {
+      "source": "notion-verite",
+      "partie": "II.3",
+      "type_principal": "D05",
+      "familles_p21_proposees": [
+        "F05",
+        "F15"
+      ],
+      "ancienne_observation": "Analyse performative d’un silence trompeur",
+      "trace": "Mais tenir une information secrète peut encore devenir trompeur si le silence entretient volontairement une erreur …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Nommer Austin ou un type d’acte ne suffit pas",
+      "limite_du_devoir": "I.3 introduit tôt la solution; II.2 redouble I.1 et III.1. Vérifier que la différence entre ne pas mentir et tout révéler ne répond pas immédiatement au sujet."
+    },
+    {
+      "source": "notion-verite",
+      "partie": "III.1",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Tripartition vérité/véracité/divulgation",
+      "trace": "La première opération distingue la vérité d’un contenu, la véracité du locuteur et la légitimité d’une divulgation.…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "I.3 introduit tôt la solution; II.2 redouble I.1 et III.1. Vérifier que la différence entre ne pas mentir et tout révéler ne répond pas immédiatement au sujet."
+    },
+    {
+      "source": "notion-verite",
+      "partie": "III.2",
+      "type_principal": "N02",
+      "familles_p21_proposees": [
+        "F07"
+      ],
+      "ancienne_observation": "Contrôle des droits du destinataire et des tiers",
+      "trace": "Constant permet de rapporter la communication aux droits du destinataire et des tiers : une information vraie n’est…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une liste de valeurs n’est pas un arbitrage",
+      "limite_du_devoir": "I.3 introduit tôt la solution; II.2 redouble I.1 et III.1. Vérifier que la différence entre ne pas mentir et tout révéler ne répond pas immédiatement au sujet."
+    },
+    {
+      "source": "notion-verite",
+      "partie": "III.3",
+      "type_principal": "D05",
+      "familles_p21_proposees": [
+        "F05",
+        "F15"
+      ],
+      "ancienne_observation": "Variation du silence licite / omission trompeuse",
+      "trace": "Il faut enfin juger le silence par l’acte qu’il accomplit : avec Austin, taire une confidence n’équivaut pas à fabr…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Nommer Austin ou un type d’acte ne suffit pas",
+      "limite_du_devoir": "I.3 introduit tôt la solution; II.2 redouble I.1 et III.1. Vérifier que la différence entre ne pas mentir et tout révéler ne répond pas immédiatement au sujet."
+    },
+    {
+      "source": "2025-me-verite",
+      "partie": "I.1",
+      "type_principal": "D03",
+      "familles_p21_proposees": [
+        "F03"
+      ],
+      "ancienne_observation": "Condition justificative d’une vérité indépendante de croyance",
+      "trace": "Platon, dans la République (VII), montre avec l’allégorie de la caverne qu’accéder au vrai peut exiger un travail d…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas confondre condition nécessaire et cause suffisante",
+      "limite_du_devoir": "Un seul refus de preuve infirme « toujours » ; le troisième moment développe un idéal rationnel mais ne résout pas une nécessité double prouvée."
+    },
+    {
+      "source": "2025-me-verite",
+      "partie": "I.2",
+      "type_principal": "G02",
+      "familles_p21_proposees": [
+        "F16"
+      ],
+      "ancienne_observation": "Transmissibilité des raisons par ordre démonstratif",
+      "trace": "Dans le Discours de la méthode, Descartes ordonne les raisonnements pour qu’un esprit puisse en suivre chaque passa…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ajouter un intermédiaire non prouvé n’explique rien",
+      "limite_du_devoir": "Un seul refus de preuve infirme « toujours » ; le troisième moment développe un idéal rationnel mais ne résout pas une nécessité double prouvée."
+    },
+    {
+      "source": "2025-me-verite",
+      "partie": "I.3",
+      "type_principal": "E01",
+      "familles_p21_proposees": [
+        "F04",
+        "F08"
+      ],
+      "ancienne_observation": "Contre-modèle : vérité reconnue insuffisamment",
+      "trace": "Mais être valable n’est pas obtenir l’assentiment. Le prisonnier revenu dans la caverne est incompris : Platon mont…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Un cas possible doit être compatible avec la définition du sujet",
+      "limite_du_devoir": "Un seul refus de preuve infirme « toujours » ; le troisième moment développe un idéal rationnel mais ne résout pas une nécessité double prouvée."
+    },
+    {
+      "source": "2025-me-verite",
+      "partie": "II.1",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Distinction preuve valide et psychologie du récepteur",
+      "trace": "Pascal, dans De l’art de persuader, distingue la démonstration des dispositions de la personne à laquelle on s’adre…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "Un seul refus de preuve infirme « toujours » ; le troisième moment développe un idéal rationnel mais ne résout pas une nécessité double prouvée."
+    },
+    {
+      "source": "2025-me-verite",
+      "partie": "II.2",
+      "type_principal": "E01",
+      "familles_p21_proposees": [
+        "F04",
+        "F08"
+      ],
+      "ancienne_observation": "Dissociation persuasion / vérité par contre-exemple",
+      "trace": "Dans le Gorgias, Platon oppose la persuasion qui produit une croyance à l’enseignement qui apporte une connaissance…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Un cas possible doit être compatible avec la définition du sujet",
+      "limite_du_devoir": "Un seul refus de preuve infirme « toujours » ; le troisième moment développe un idéal rationnel mais ne résout pas une nécessité double prouvée."
+    },
+    {
+      "source": "2025-me-verite",
+      "partie": "II.3",
+      "type_principal": "E05",
+      "familles_p21_proposees": [
+        "F13"
+      ],
+      "ancienne_observation": "Réfutation de la flatterie comme persuasion rationnelle",
+      "trace": "Mais prendre l’adhésion pour unique critère ferait de la flatterie un meilleur argument qu’une preuve. Pascal invit…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Le renommage d’une proposition n’est pas une réparation",
+      "limite_du_devoir": "Un seul refus de preuve infirme « toujours » ; le troisième moment développe un idéal rationnel mais ne résout pas une nécessité double prouvée."
+    },
+    {
+      "source": "2025-me-verite",
+      "partie": "III.1",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Distinction force de preuve / acte d’examen",
+      "trace": "La force d’une preuve doit être distinguée de l’acte par lequel un esprit l’examine. La méthode de Descartes permet…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "Un seul refus de preuve infirme « toujours » ; le troisième moment développe un idéal rationnel mais ne résout pas une nécessité double prouvée."
+    },
+    {
+      "source": "2025-me-verite",
+      "partie": "III.2",
+      "type_principal": "R04",
+      "familles_p21_proposees": [
+        "F13",
+        "F14"
+      ],
+      "ancienne_observation": "Co-construction d’un accord par objections",
+      "trace": "Dans les dialogues de Platon, la question et l’objection font du destinataire un participant à la recherche : conva…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Changer de vocabulaire sans test n’est pas corriger",
+      "limite_du_devoir": "Un seul refus de preuve infirme « toujours » ; le troisième moment développe un idéal rationnel mais ne résout pas une nécessité double prouvée."
+    },
+    {
+      "source": "2025-me-verite",
+      "partie": "III.3",
+      "type_principal": "D02",
+      "familles_p21_proposees": [
+        "F04"
+      ],
+      "ancienne_observation": "Modalisation : reconnaissance possible, effet non garanti",
+      "trace": "L’acquis est une possibilité de reconnaissance, non une efficacité garantie : aucune preuve ne force celui qui refu…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Un contre-exemple au tout ne prouve pas le jamais",
+      "limite_du_devoir": "Un seul refus de preuve infirme « toujours » ; le troisième moment développe un idéal rationnel mais ne résout pas une nécessité double prouvée."
+    },
+    {
+      "source": "2025-me-avenir-technique",
+      "partie": "I.1",
+      "type_principal": "D03",
+      "familles_p21_proposees": [
+        "F03"
+      ],
+      "ancienne_observation": "Condition instrumentale de projets humains",
+      "trace": "Dans le Discours de la méthode (VI), Descartes rapproche connaissance de la nature et pouvoir de préserver la santé…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas confondre condition nécessaire et cause suffisante",
+      "limite_du_devoir": "Rétroaction est plausible mais le meilleur cumul (choix oriente technique, technique transforme choix) fonctionne déjà; démontrer son mécanisme institutionnel."
+    },
+    {
+      "source": "2025-me-avenir-technique",
+      "partie": "I.2",
+      "type_principal": "G06",
+      "familles_p21_proposees": [
+        "F09",
+        "F16"
+      ],
+      "ancienne_observation": "Extension technique des ressources",
+      "trace": "Bacon, dans le Novum Organum, soutient que l’extension des pouvoirs de recherche ouvre de nouvelles ressources : no…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Raconter une chronologie n’est pas démontrer une genèse",
+      "limite_du_devoir": "Rétroaction est plausible mais le meilleur cumul (choix oriente technique, technique transforme choix) fonctionne déjà; démontrer son mécanisme institutionnel."
+    },
+    {
+      "source": "2025-me-avenir-technique",
+      "partie": "I.3",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Distinction moyen / fin",
+      "trace": "Mais une capacité ne choisit pas à elle seule la fin qui l’emploie. Aristote, dans l’Éthique à Nicomaque (I), disti…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "Rétroaction est plausible mais le meilleur cumul (choix oriente technique, technique transforme choix) fonctionne déjà; démontrer son mécanisme institutionnel."
+    },
+    {
+      "source": "2025-me-avenir-technique",
+      "partie": "II.1",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Dissociation organisation politique / équipement technique",
+      "trace": "Dans le Protagoras, Platon distingue les techniques utiles à la survie des dispositions nécessaires à la vie politi…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "Rétroaction est plausible mais le meilleur cumul (choix oriente technique, technique transforme choix) fonctionne déjà; démontrer son mécanisme institutionnel."
+    },
+    {
+      "source": "2025-me-avenir-technique",
+      "partie": "II.2",
+      "type_principal": "N01",
+      "familles_p21_proposees": [
+        "F07",
+        "F15"
+      ],
+      "ancienne_observation": "Critère de dignité non instrumentale",
+      "trace": "Kant, dans les Fondements de la métaphysique des mœurs, donne à la personne une valeur qui n’est pas seulement inst…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas inférer l’obligation de la seule puissance",
+      "limite_du_devoir": "Rétroaction est plausible mais le meilleur cumul (choix oriente technique, technique transforme choix) fonctionne déjà; démontrer son mécanisme institutionnel."
+    },
+    {
+      "source": "2025-me-avenir-technique",
+      "partie": "II.3",
+      "type_principal": "G04",
+      "familles_p21_proposees": [
+        "F06",
+        "F16"
+      ],
+      "ancienne_observation": "Retour des dispositifs sur les choix",
+      "trace": "Mais les moyens une fois installés modifient les possibilités mêmes de choisir. Heidegger, dans La Question de la t…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "La simple succession temporelle n’est pas une boucle causale",
+      "limite_du_devoir": "Rétroaction est plausible mais le meilleur cumul (choix oriente technique, technique transforme choix) fonctionne déjà; démontrer son mécanisme institutionnel."
+    },
+    {
+      "source": "2025-me-avenir-technique",
+      "partie": "III.1",
+      "type_principal": "G03",
+      "familles_p21_proposees": [
+        "F06"
+      ],
+      "ancienne_observation": "Inversion conditionnalité technique → cadre des fins",
+      "trace": "Il faut inverser le rapport trop simple entre fins décidées et moyens disponibles. Heidegger oblige à penser les po…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "L’opposition rhétorique ne prouve pas le renversement",
+      "limite_du_devoir": "Rétroaction est plausible mais le meilleur cumul (choix oriente technique, technique transforme choix) fonctionne déjà; démontrer son mécanisme institutionnel."
+    },
+    {
+      "source": "2025-me-avenir-technique",
+      "partie": "III.2",
+      "type_principal": "N04",
+      "familles_p21_proposees": [
+        "F10",
+        "F17"
+      ],
+      "ancienne_observation": "Extension temporelle du dommage technique",
+      "trace": "Jonas, dans Le Principe responsabilité, fournit le critère temporel manquant : nos choix présents peuvent fixer des…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Pas de responsabilité illimitée par omniscience supposée",
+      "limite_du_devoir": "Rétroaction est plausible mais le meilleur cumul (choix oriente technique, technique transforme choix) fonctionne déjà; démontrer son mécanisme institutionnel."
+    },
+    {
+      "source": "2025-me-avenir-technique",
+      "partie": "III.3",
+      "type_principal": "N02",
+      "familles_p21_proposees": [
+        "F07"
+      ],
+      "ancienne_observation": "Règle pour préserver une capacité de choix révisable",
+      "trace": "Notre avenir dépend donc de la technique comme condition et comme puissance de transformation de nos fins, non comm…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une liste de valeurs n’est pas un arbitrage",
+      "limite_du_devoir": "Rétroaction est plausible mais le meilleur cumul (choix oriente technique, technique transforme choix) fonctionne déjà; démontrer son mécanisme institutionnel."
+    },
+    {
+      "source": "2025-me-besoin-art",
+      "partie": "I.1",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Différenciation vie/survie",
+      "trace": "Aristote, dans l’Éthique à Nicomaque (I), distingue vivre et bien vivre : un besoin humain peut excéder ce qui assu…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "I.1 suggère déjà le besoin de bien vivre; III.1 reformule I.3. Prouver que l’art est nécessaire plutôt que précieux, sans imposer un goût."
+    },
+    {
+      "source": "2025-me-besoin-art",
+      "partie": "I.2",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Dissociation appréciation esthétique / utilité pratique",
+      "trace": "Kant, dans la Critique de la faculté de juger (§§2–5), distingue le jugement de goût de l’intérêt pratique pour un …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "I.1 suggère déjà le besoin de bien vivre; III.1 reformule I.3. Prouver que l’art est nécessaire plutôt que précieux, sans imposer un goût."
+    },
+    {
+      "source": "2025-me-besoin-art",
+      "partie": "I.3",
+      "type_principal": "E01",
+      "familles_p21_proposees": [
+        "F04",
+        "F08"
+      ],
+      "ancienne_observation": "Contre-exemple de libération du regard",
+      "trace": "Mais l’absence d’utilité déterminée ne prouve pas l’inutilité de l’art pour une existence humaine. Bergson, dans Le…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Un cas possible doit être compatible avec la définition du sujet",
+      "limite_du_devoir": "I.1 suggère déjà le besoin de bien vivre; III.1 reformule I.3. Prouver que l’art est nécessaire plutôt que précieux, sans imposer un goût."
+    },
+    {
+      "source": "2025-me-besoin-art",
+      "partie": "II.1",
+      "type_principal": "D03",
+      "familles_p21_proposees": [
+        "F03"
+      ],
+      "ancienne_observation": "Condition perceptive d’une attention désautomatisée",
+      "trace": "Bergson permet de penser le besoin d’une perception moins asservie à l’action immédiate : l’œuvre rend sensible ce …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas confondre condition nécessaire et cause suffisante",
+      "limite_du_devoir": "I.1 suggère déjà le besoin de bien vivre; III.1 reformule I.3. Prouver que l’art est nécessaire plutôt que précieux, sans imposer un goût."
+    },
+    {
+      "source": "2025-me-besoin-art",
+      "partie": "II.2",
+      "type_principal": "G06",
+      "familles_p21_proposees": [
+        "F09",
+        "F16"
+      ],
+      "ancienne_observation": "Transformation esthétique de l’expérience quotidienne",
+      "trace": "Dans L’Art comme expérience, Dewey comprend l’expérience esthétique comme un accomplissement de l’expérience ordina…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Raconter une chronologie n’est pas démontrer une genèse",
+      "limite_du_devoir": "I.1 suggère déjà le besoin de bien vivre; III.1 reformule I.3. Prouver que l’art est nécessaire plutôt que précieux, sans imposer un goût."
+    },
+    {
+      "source": "2025-me-besoin-art",
+      "partie": "II.3",
+      "type_principal": "E05",
+      "familles_p21_proposees": [
+        "F13"
+      ],
+      "ancienne_observation": "Objection à la prescription de goût comme besoin universel",
+      "trace": "Mais si l’on prétendait imposer des œuvres déterminées au nom d’un besoin universel, on supprimerait la liberté du …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Le renommage d’une proposition n’est pas une réparation",
+      "limite_du_devoir": "I.1 suggère déjà le besoin de bien vivre; III.1 reformule I.3. Prouver que l’art est nécessaire plutôt que précieux, sans imposer un goût."
+    },
+    {
+      "source": "2025-me-besoin-art",
+      "partie": "III.1",
+      "type_principal": "D06",
+      "familles_p21_proposees": [
+        "F05",
+        "F17"
+      ],
+      "ancienne_observation": "Déplacement besoin d’objets → besoin de possibilités",
+      "trace": "Il faut distinguer avoir besoin d’un objet imposé et avoir besoin de possibilités de forme, de perception et d’expr…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas répondre à une question voisine",
+      "limite_du_devoir": "I.1 suggère déjà le besoin de bien vivre; III.1 reformule I.3. Prouver que l’art est nécessaire plutôt que précieux, sans imposer un goût."
+    },
+    {
+      "source": "2025-me-besoin-art",
+      "partie": "III.2",
+      "type_principal": "G06",
+      "familles_p21_proposees": [
+        "F09",
+        "F16"
+      ],
+      "ancienne_observation": "Démonstration par modification de perception",
+      "trace": "L’œuvre de Bergson aide à démontrer comment le détour par l’art transforme notre manière de voir, sans fournir un s…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Raconter une chronologie n’est pas démontrer une genèse",
+      "limite_du_devoir": "I.1 suggère déjà le besoin de bien vivre; III.1 reformule I.3. Prouver que l’art est nécessaire plutôt que précieux, sans imposer un goût."
+    },
+    {
+      "source": "2025-me-besoin-art",
+      "partie": "III.3",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Dissociation accès universel / préférence imposée",
+      "trace": "L’acquis est un besoin humain de possibilités esthétiques ouvertes et non d’une liste d’œuvres prescrites. Kant rap…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "I.1 suggère déjà le besoin de bien vivre; III.1 reformule I.3. Prouver que l’art est nécessaire plutôt que précieux, sans imposer un goût."
+    },
+    {
+      "source": "philosophie-dissertation-2023-me-paix-justice.html",
+      "partie": "I.1",
+      "type_principal": "D03",
+      "familles_p21_proposees": [
+        "F03"
+      ],
+      "ancienne_observation": "Condition de paix : sécurité par autorité publique",
+      "trace": "Vouloir la paix signifie d'abord vouloir qu'on cesse de se faire violence. Sans sécurité commune, même une revendic…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas confondre condition nécessaire et cause suffisante",
+      "limite_du_devoir": "La paix peut être juste sans qu’il y ait actuellement lutte; préciser la différence identité des volontés/compatibilité et expliquer pourquoi leur rapport demande autre chose que des institutions déjà pensables."
+    },
+    {
+      "source": "philosophie-dissertation-2023-me-paix-justice.html",
+      "partie": "I.2",
+      "type_principal": "N03",
+      "familles_p21_proposees": [
+        "F16"
+      ],
+      "ancienne_observation": "Institution de la garantie et de la confiance",
+      "trace": "Dans le Léviathan (XVII), Hobbes explique pourquoi chacun doit pouvoir compter sur une autorité commune qui garanti…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une proposition d’institution n’est pas encore sa preuve",
+      "limite_du_devoir": "La paix peut être juste sans qu’il y ait actuellement lutte; préciser la différence identité des volontés/compatibilité et expliquer pourquoi leur rapport demande autre chose que des institutions déjà pensables."
+    },
+    {
+      "source": "philosophie-dissertation-2023-me-paix-justice.html",
+      "partie": "I.3",
+      "type_principal": "E01",
+      "familles_p21_proposees": [
+        "F04",
+        "F08"
+      ],
+      "ancienne_observation": "Contre-exemple : ordre pacifié mais injuste",
+      "trace": "Mais un pouvoir qui imposerait le silence en lui donnant le nom de paix pourrait également couvrir une injustice. K…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Un cas possible doit être compatible avec la définition du sujet",
+      "limite_du_devoir": "La paix peut être juste sans qu’il y ait actuellement lutte; préciser la différence identité des volontés/compatibilité et expliquer pourquoi leur rapport demande autre chose que des institutions déjà pensables."
+    },
+    {
+      "source": "philosophie-dissertation-2023-me-paix-justice.html",
+      "partie": "II.1",
+      "type_principal": "N01",
+      "familles_p21_proposees": [
+        "F07",
+        "F15"
+      ],
+      "ancienne_observation": "Droit de contester une injustice",
+      "trace": "L'injustice peut donc rendre nécessaire une contestation qui trouble la tranquillité. Une victime qui proteste cont…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas inférer l’obligation de la seule puissance",
+      "limite_du_devoir": "La paix peut être juste sans qu’il y ait actuellement lutte; préciser la différence identité des volontés/compatibilité et expliquer pourquoi leur rapport demande autre chose que des institutions déjà pensables."
+    },
+    {
+      "source": "philosophie-dissertation-2023-me-paix-justice.html",
+      "partie": "II.2",
+      "type_principal": "D05",
+      "familles_p21_proposees": [
+        "F05",
+        "F15"
+      ],
+      "ancienne_observation": "Qualification de la désobéissance civile non violente",
+      "trace": "Rawls, dans Théorie de la justice (§55), définit la désobéissance civile comme une action publique et non violente …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Nommer Austin ou un type d’acte ne suffit pas",
+      "limite_du_devoir": "La paix peut être juste sans qu’il y ait actuellement lutte; préciser la différence identité des volontés/compatibilité et expliquer pourquoi leur rapport demande autre chose que des institutions déjà pensables."
+    },
+    {
+      "source": "philosophie-dissertation-2023-me-paix-justice.html",
+      "partie": "II.3",
+      "type_principal": "E05",
+      "familles_p21_proposees": [
+        "F13"
+      ],
+      "ancienne_observation": "Limite d’une justice imposée par violence",
+      "trace": "Mais ériger toute conviction de justice en titre suffisant à contraindre par la violence ruinerait la condition mêm…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Le renommage d’une proposition n’est pas une réparation",
+      "limite_du_devoir": "La paix peut être juste sans qu’il y ait actuellement lutte; préciser la différence identité des volontés/compatibilité et expliquer pourquoi leur rapport demande autre chose que des institutions déjà pensables."
+    },
+    {
+      "source": "philosophie-dissertation-2023-me-paix-justice.html",
+      "partie": "III.1",
+      "type_principal": "D04",
+      "familles_p21_proposees": [
+        "F07"
+      ],
+      "ancienne_observation": "Déplacement paix sans conflit → conflit publiquement arbitrable",
+      "trace": "La contradiction naît de ce qu'on demande à la paix de supprimer immédiatement tout conflit, puis à la justice de v…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas changer de sujet sous couvert de critère",
+      "limite_du_devoir": "La paix peut être juste sans qu’il y ait actuellement lutte; préciser la différence identité des volontés/compatibilité et expliquer pourquoi leur rapport demande autre chose que des institutions déjà pensables."
+    },
+    {
+      "source": "philosophie-dissertation-2023-me-paix-justice.html",
+      "partie": "III.2",
+      "type_principal": "N03",
+      "familles_p21_proposees": [
+        "F16"
+      ],
+      "ancienne_observation": "Construction d’institutions de recours effectif",
+      "trace": "Une paix durable réclame que les torts puissent être portés devant des institutions qui garantissent le droit de se…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une proposition d’institution n’est pas encore sa preuve",
+      "limite_du_devoir": "La paix peut être juste sans qu’il y ait actuellement lutte; préciser la différence identité des volontés/compatibilité et expliquer pourquoi leur rapport demande autre chose que des institutions déjà pensables."
+    },
+    {
+      "source": "philosophie-dissertation-2023-me-paix-justice.html",
+      "partie": "III.3",
+      "type_principal": "R01",
+      "familles_p21_proposees": [
+        "F11",
+        "F15"
+      ],
+      "ancienne_observation": "Épreuve de la paix juste par capacité à être contestée",
+      "trace": "Il faut enfin juger la paix à sa capacité réelle de répondre aux injustices que ses propres institutions pourraient…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "L’autoréférence ne prouve pas à elle seule un cercle vicieux",
+      "limite_du_devoir": "La paix peut être juste sans qu’il y ait actuellement lutte; préciser la différence identité des volontés/compatibilité et expliquer pourquoi leur rapport demande autre chose que des institutions déjà pensables."
+    },
+    {
+      "source": "philosophie-dissertation-2024-an-parler-sans-savoir.html",
+      "partie": "I.1",
+      "type_principal": "D05",
+      "familles_p21_proposees": [
+        "F05",
+        "F15"
+      ],
+      "ancienne_observation": "Devoir de justification propre à l’assertion",
+      "trace": "Parler peut engager autrui à croire ce que nous disons : une affirmation n'est pas un simple bruit, elle se présent…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Nommer Austin ou un type d’acte ne suffit pas",
+      "limite_du_devoir": "Une question sincère sans réponse valide d’emblée « peut-on » ; le dépassement des genres de parole produit une éthique de conversation, pas nécessairement deux apories."
+    },
+    {
+      "source": "philosophie-dissertation-2024-an-parler-sans-savoir.html",
+      "partie": "I.2",
+      "type_principal": "E03",
+      "familles_p21_proposees": [
+        "F04",
+        "F15"
+      ],
+      "ancienne_observation": "Contrôle de la croyance par ses raisons",
+      "trace": "Dans le Théétète, Platon examine l'idée que savoir exige davantage qu'avoir une croyance vraie : il faut rendre com…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une preuve valide ne démontre pas seule la vérité empirique",
+      "limite_du_devoir": "Une question sincère sans réponse valide d’emblée « peut-on » ; le dépassement des genres de parole produit une éthique de conversation, pas nécessairement deux apories."
+    },
+    {
+      "source": "philosophie-dissertation-2024-an-parler-sans-savoir.html",
+      "partie": "I.3",
+      "type_principal": "E02",
+      "familles_p21_proposees": [
+        "F11"
+      ],
+      "ancienne_observation": "Réduction à l’absurde d’un savoir préalable à toute parole",
+      "trace": "Mais faire de la possession préalable du savoir une condition de toute prise de parole abolirait l'enquête elle-mêm…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas falsifier l’adversaire en renforçant sa prétention",
+      "limite_du_devoir": "Une question sincère sans réponse valide d’emblée « peut-on » ; le dépassement des genres de parole produit une éthique de conversation, pas nécessairement deux apories."
+    },
+    {
+      "source": "philosophie-dissertation-2024-an-parler-sans-savoir.html",
+      "partie": "II.1",
+      "type_principal": "D05",
+      "familles_p21_proposees": [
+        "F05",
+        "F15"
+      ],
+      "ancienne_observation": "Distinction parler pour demander / affirmer savoir",
+      "trace": "Nous pouvons donc parler pour apprendre : demander, essayer une hypothèse, demander une preuve ne sont pas des affi…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Nommer Austin ou un type d’acte ne suffit pas",
+      "limite_du_devoir": "Une question sincère sans réponse valide d’emblée « peut-on » ; le dépassement des genres de parole produit une éthique de conversation, pas nécessairement deux apories."
+    },
+    {
+      "source": "philosophie-dissertation-2024-an-parler-sans-savoir.html",
+      "partie": "II.2",
+      "type_principal": "D05",
+      "familles_p21_proposees": [
+        "F05",
+        "F15"
+      ],
+      "ancienne_observation": "Pluralité des actes de langage",
+      "trace": "Dans les Recherches philosophiques, Wittgenstein montre que parler revient à accomplir des activités différentes se…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Nommer Austin ou un type d’acte ne suffit pas",
+      "limite_du_devoir": "Une question sincère sans réponse valide d’emblée « peut-on » ; le dépassement des genres de parole produit une éthique de conversation, pas nécessairement deux apories."
+    },
+    {
+      "source": "philosophie-dissertation-2024-an-parler-sans-savoir.html",
+      "partie": "II.3",
+      "type_principal": "E01",
+      "familles_p21_proposees": [
+        "F04",
+        "F08"
+      ],
+      "ancienne_observation": "Contre-exemple de la question accusatrice sans preuve",
+      "trace": "Cependant, la diversité des usages ne dispense pas de répondre des effets de ce que l'on fait avec des mots. Austin…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Un cas possible doit être compatible avec la définition du sujet",
+      "limite_du_devoir": "Une question sincère sans réponse valide d’emblée « peut-on » ; le dépassement des genres de parole produit une éthique de conversation, pas nécessairement deux apories."
+    },
+    {
+      "source": "philosophie-dissertation-2024-an-parler-sans-savoir.html",
+      "partie": "III.1",
+      "type_principal": "D05",
+      "familles_p21_proposees": [
+        "F05",
+        "F15"
+      ],
+      "ancienne_observation": "Qualification de l’acte selon sa prétention épistémique",
+      "trace": "Il faut cesser de juger toute parole comme si elle prétendait livrer un savoir achevé. L'analyse des actes de parol…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Nommer Austin ou un type d’acte ne suffit pas",
+      "limite_du_devoir": "Une question sincère sans réponse valide d’emblée « peut-on » ; le dépassement des genres de parole produit une éthique de conversation, pas nécessairement deux apories."
+    },
+    {
+      "source": "philosophie-dissertation-2024-an-parler-sans-savoir.html",
+      "partie": "III.2",
+      "type_principal": "D02",
+      "familles_p21_proposees": [
+        "F04"
+      ],
+      "ancienne_observation": "Gradation savoir/supposition/questionnement",
+      "trace": "Une parole responsable doit pouvoir manifester la différence entre ce que le locuteur a vérifié et ce qu'il ignore.…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Un contre-exemple au tout ne prouve pas le jamais",
+      "limite_du_devoir": "Une question sincère sans réponse valide d’emblée « peut-on » ; le dépassement des genres de parole produit une éthique de conversation, pas nécessairement deux apories."
+    },
+    {
+      "source": "philosophie-dissertation-2024-an-parler-sans-savoir.html",
+      "partie": "III.3",
+      "type_principal": "G04",
+      "familles_p21_proposees": [
+        "F06",
+        "F16"
+      ],
+      "ancienne_observation": "Rétroaction dialogique et rectification de l’équivoque",
+      "trace": "Il reste à démontrer pourquoi le locuteur ne peut se croire quitte une fois ses précautions énoncées. Wittgenstein …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "La simple succession temporelle n’est pas une boucle causale",
+      "limite_du_devoir": "Une question sincère sans réponse valide d’emblée « peut-on » ; le dépassement des genres de parole produit une éthique de conversation, pas nécessairement deux apories."
+    },
+    {
+      "source": "philosophie-dissertation-2024-an-rien-dure.html",
+      "partie": "I.1",
+      "type_principal": "D06",
+      "familles_p21_proposees": [
+        "F05",
+        "F17"
+      ],
+      "ancienne_observation": "Définir le bonheur par une unité de vie",
+      "trace": "Une vie heureuse ne se réduit pas à un instant agréable : elle doit pouvoir être reconnue comme une vie, et pas seu…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas répondre à une question voisine",
+      "limite_du_devoir": "L’exigence de stabilité ne signifie pas immobilité : le sujet pose « si rien ne dure », que les continuités qualitatives doivent pouvoir soutenir sans l’éluder."
+    },
+    {
+      "source": "philosophie-dissertation-2024-an-rien-dure.html",
+      "partie": "I.2",
+      "type_principal": "D03",
+      "familles_p21_proposees": [
+        "F03"
+      ],
+      "ancienne_observation": "Stabilité comme condition d’ataraxie",
+      "trace": "Épicure distingue dans la Lettre à Ménécée le plaisir qui apaise durablement du désir dont la satisfaction entraîne…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas confondre condition nécessaire et cause suffisante",
+      "limite_du_devoir": "L’exigence de stabilité ne signifie pas immobilité : le sujet pose « si rien ne dure », que les continuités qualitatives doivent pouvoir soutenir sans l’éluder."
+    },
+    {
+      "source": "philosophie-dissertation-2024-an-rien-dure.html",
+      "partie": "I.3",
+      "type_principal": "E02",
+      "familles_p21_proposees": [
+        "F11"
+      ],
+      "ancienne_observation": "Réduction à l’absurde d’une permanence immobile",
+      "trace": "Mais si le bonheur exigeait que rien de ce qui le soutient ne change, il deviendrait impossible pour un être vivant…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas falsifier l’adversaire en renforçant sa prétention",
+      "limite_du_devoir": "L’exigence de stabilité ne signifie pas immobilité : le sujet pose « si rien ne dure », que les continuités qualitatives doivent pouvoir soutenir sans l’éluder."
+    },
+    {
+      "source": "philosophie-dissertation-2024-an-rien-dure.html",
+      "partie": "II.1",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Distinction valeur d’un instant et durée",
+      "trace": "Il faut alors reconnaître qu'une joie puisse être véritable sans être éternelle. Le plaisir de retrouver un ami pos…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "L’exigence de stabilité ne signifie pas immobilité : le sujet pose « si rien ne dure », que les continuités qualitatives doivent pouvoir soutenir sans l’éluder."
+    },
+    {
+      "source": "philosophie-dissertation-2024-an-rien-dure.html",
+      "partie": "II.2",
+      "type_principal": "N02",
+      "familles_p21_proposees": [
+        "F07"
+      ],
+      "ancienne_observation": "Choix des plaisirs selon effets futurs",
+      "trace": "Dans la Lettre à Ménécée, Épicure recommande de choisir et de refuser les plaisirs en considérant leurs conséquence…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une liste de valeurs n’est pas un arbitrage",
+      "limite_du_devoir": "L’exigence de stabilité ne signifie pas immobilité : le sujet pose « si rien ne dure », que les continuités qualitatives doivent pouvoir soutenir sans l’éluder."
+    },
+    {
+      "source": "philosophie-dissertation-2024-an-rien-dure.html",
+      "partie": "II.3",
+      "type_principal": "E02",
+      "familles_p21_proposees": [
+        "F11"
+      ],
+      "ancienne_observation": "Critique d’une somme de plaisirs isolés",
+      "trace": "Cependant, si cette réponse suffisait en faisant de chaque instant une totalité close, elle détruirait précisément …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas falsifier l’adversaire en renforçant sa prétention",
+      "limite_du_devoir": "L’exigence de stabilité ne signifie pas immobilité : le sujet pose « si rien ne dure », que les continuités qualitatives doivent pouvoir soutenir sans l’éluder."
+    },
+    {
+      "source": "philosophie-dissertation-2024-an-rien-dure.html",
+      "partie": "III.1",
+      "type_principal": "G06",
+      "familles_p21_proposees": [
+        "F09",
+        "F16"
+      ],
+      "ancienne_observation": "Construction d’une continuité qualitative de la durée",
+      "trace": "La difficulté reposait sur une alternative trompeuse : ou bien la joie se conserverait comme un objet immobile, ou …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Raconter une chronologie n’est pas démontrer une genèse",
+      "limite_du_devoir": "L’exigence de stabilité ne signifie pas immobilité : le sujet pose « si rien ne dure », que les continuités qualitatives doivent pouvoir soutenir sans l’éluder."
+    },
+    {
+      "source": "philosophie-dissertation-2024-an-rien-dure.html",
+      "partie": "III.2",
+      "type_principal": "G06",
+      "familles_p21_proposees": [
+        "F09",
+        "F16"
+      ],
+      "ancienne_observation": "Réinterprétation du souvenir par le présent",
+      "trace": "La mémoire ne maintient pas les moments passés intacts ; elle les fait entrer dans une expérience présente qui les …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Raconter une chronologie n’est pas démontrer une genèse",
+      "limite_du_devoir": "L’exigence de stabilité ne signifie pas immobilité : le sujet pose « si rien ne dure », que les continuités qualitatives doivent pouvoir soutenir sans l’éluder."
+    },
+    {
+      "source": "philosophie-dissertation-2024-an-rien-dure.html",
+      "partie": "III.3",
+      "type_principal": "D03",
+      "familles_p21_proposees": [
+        "F03"
+      ],
+      "ancienne_observation": "Condition éthique de l’unité vécue et des actes",
+      "trace": "Une continuité vécue ne suffit pourtant pas à rendre toute vie heureuse. En liant le bonheur à l'activité, Aristote…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas confondre condition nécessaire et cause suffisante",
+      "limite_du_devoir": "L’exigence de stabilité ne signifie pas immobilité : le sujet pose « si rien ne dure », que les continuités qualitatives doivent pouvoir soutenir sans l’éluder."
+    },
+    {
+      "source": "philosophie-dissertation-2025-g1-art-voir.html",
+      "partie": "I.1",
+      "type_principal": "G01",
+      "familles_p21_proposees": [
+        "F09",
+        "F10"
+      ],
+      "ancienne_observation": "Critique de perception utilitaire par habitude",
+      "trace": "Nous ne voyons pas spontanément tout ce qui se présente à nous : notre attention sélectionne ce qui sert à nous ori…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "L’origine d’une croyance ne réfute pas sa vérité",
+      "limite_du_devoir": "La capacité de l’art à former le regard est démontrée par un cas ; II concerne la non-scientificité de l’art qui n’est pas requise par « peut-il », risque de réponse affirmative déjà acquise."
+    },
+    {
+      "source": "philosophie-dissertation-2025-g1-art-voir.html",
+      "partie": "I.2",
+      "type_principal": "G07",
+      "familles_p21_proposees": [
+        "F08"
+      ],
+      "ancienne_observation": "Variation perceptive par série de peintures",
+      "trace": "Quand Monet reprend la cathédrale de Rouen sous plusieurs lumières, ce n'est pas un bâtiment nouveau qu'il nous app…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "La variation doit justifier sa représentativité",
+      "limite_du_devoir": "La capacité de l’art à former le regard est démontrée par un cas ; II concerne la non-scientificité de l’art qui n’est pas requise par « peut-il », risque de réponse affirmative déjà acquise."
+    },
+    {
+      "source": "philosophie-dissertation-2025-g1-art-voir.html",
+      "partie": "I.3",
+      "type_principal": "E01",
+      "familles_p21_proposees": [
+        "F04",
+        "F08"
+      ],
+      "ancienne_observation": "Objection de l’imitation sensible sans preuve",
+      "trace": "Mais une image peut émouvoir précisément parce qu'elle substitue au monde les choix de celui qui l'a créée. Platon,…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Un cas possible doit être compatible avec la définition du sujet",
+      "limite_du_devoir": "La capacité de l’art à former le regard est démontrée par un cas ; II concerne la non-scientificité de l’art qui n’est pas requise par « peut-il », risque de réponse affirmative déjà acquise."
+    },
+    {
+      "source": "philosophie-dissertation-2025-g1-art-voir.html",
+      "partie": "II.1",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Distinction apparition perceptive / assertion vérifiée",
+      "trace": "Il faut alors reconnaître que l'œuvre n'est pas une démonstration : ce qu'elle fait apparaître ne se présente pas s…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "La capacité de l’art à former le regard est démontrée par un cas ; II concerne la non-scientificité de l’art qui n’est pas requise par « peut-il », risque de réponse affirmative déjà acquise."
+    },
+    {
+      "source": "philosophie-dissertation-2025-g1-art-voir.html",
+      "partie": "II.2",
+      "type_principal": "D06",
+      "familles_p21_proposees": [
+        "F05",
+        "F17"
+      ],
+      "ancienne_observation": "Dépassement du concept par idée esthétique",
+      "trace": "Kant, dans la Critique de la faculté de juger (§49), donne aux idées esthétiques une puissance de susciter davantag…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas répondre à une question voisine",
+      "limite_du_devoir": "La capacité de l’art à former le regard est démontrée par un cas ; II concerne la non-scientificité de l’art qui n’est pas requise par « peut-il », risque de réponse affirmative déjà acquise."
+    },
+    {
+      "source": "philosophie-dissertation-2025-g1-art-voir.html",
+      "partie": "II.3",
+      "type_principal": "D03",
+      "familles_p21_proposees": [
+        "F03"
+      ],
+      "ancienne_observation": "Condition d’ancrage au visible malgré invention",
+      "trace": "Toutefois, si l'art n'était qu'une liberté d'imaginer sans rapport à ce que nous percevons, il ne nous apprendrait …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas confondre condition nécessaire et cause suffisante",
+      "limite_du_devoir": "La capacité de l’art à former le regard est démontrée par un cas ; II concerne la non-scientificité de l’art qui n’est pas requise par « peut-il », risque de réponse affirmative déjà acquise."
+    },
+    {
+      "source": "philosophie-dissertation-2025-g1-art-voir.html",
+      "partie": "III.1",
+      "type_principal": "D04",
+      "familles_p21_proposees": [
+        "F07"
+      ],
+      "ancienne_observation": "Déplacement apprendre à voir → capacité de discerner",
+      "trace": "Il faut déplacer l'idée même d'un enseignement du regard : apprendre n'est pas nécessairement recevoir des informat…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas changer de sujet sous couvert de critère",
+      "limite_du_devoir": "La capacité de l’art à former le regard est démontrée par un cas ; II concerne la non-scientificité de l’art qui n’est pas requise par « peut-il », risque de réponse affirmative déjà acquise."
+    },
+    {
+      "source": "philosophie-dissertation-2025-g1-art-voir.html",
+      "partie": "III.2",
+      "type_principal": "G07",
+      "familles_p21_proposees": [
+        "F08"
+      ],
+      "ancienne_observation": "Reprise de l’expérience par le spectateur",
+      "trace": "L'œuvre propose une expérience que le spectateur doit refaire. Les Cathédrales de Monet ne nous donnent pas une règ…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "La variation doit justifier sa représentativité",
+      "limite_du_devoir": "La capacité de l’art à former le regard est démontrée par un cas ; II concerne la non-scientificité de l’art qui n’est pas requise par « peut-il », risque de réponse affirmative déjà acquise."
+    },
+    {
+      "source": "philosophie-dissertation-2025-g1-art-voir.html",
+      "partie": "III.3",
+      "type_principal": "G06",
+      "familles_p21_proposees": [
+        "F09",
+        "F16"
+      ],
+      "ancienne_observation": "Transfert du regard transformé vers la perception du monde",
+      "trace": "La transformation du regard ne réussit que si elle s'exerce au-delà de l'œuvre. Chez Bergson, le détour de la perce…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Raconter une chronologie n’est pas démontrer une genèse",
+      "limite_du_devoir": "La capacité de l’art à former le regard est démontrée par un cas ; II concerne la non-scientificité de l’art qui n’est pas requise par « peut-il », risque de réponse affirmative déjà acquise."
+    },
+    {
+      "source": "philosophie-dissertation-2025-g1-douter-raison.html",
+      "partie": "I.1",
+      "type_principal": "D01",
+      "familles_p21_proposees": [
+        "F05",
+        "F12"
+      ],
+      "ancienne_observation": "Distinction preuve/logique et préjugé",
+      "trace": "Douter des pouvoirs de la raison suppose d'abord de reconnaître un pouvoir réel : celui de distinguer une déduction…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une distinction n’établit pas une incompatibilité",
+      "limite_du_devoir": "La circularité critique peut être plus forte qu’une opposition oui/non : démontrer la non-viciosité du contrôle rationnel de la raison plutôt que la supposer."
+    },
+    {
+      "source": "philosophie-dissertation-2025-g1-douter-raison.html",
+      "partie": "I.2",
+      "type_principal": "R01",
+      "familles_p21_proposees": [
+        "F11",
+        "F15"
+      ],
+      "ancienne_observation": "Doute comme épreuve autoréférentielle minimale",
+      "trace": "Dans les Méditations métaphysiques, Descartes pousse le doute jusqu'à récuser les croyances dont la justification p…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "L’autoréférence ne prouve pas à elle seule un cercle vicieux",
+      "limite_du_devoir": "La circularité critique peut être plus forte qu’une opposition oui/non : démontrer la non-viciosité du contrôle rationnel de la raison plutôt que la supposer."
+    },
+    {
+      "source": "philosophie-dissertation-2025-g1-douter-raison.html",
+      "partie": "I.3",
+      "type_principal": "E03",
+      "familles_p21_proposees": [
+        "F04",
+        "F15"
+      ],
+      "ancienne_observation": "Limite de la déduction sans validation des prémisses",
+      "trace": "Mais la déduction la plus rigoureuse ne rend pas ses prémisses automatiquement vraies. Kant distingue dans la Criti…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une preuve valide ne démontre pas seule la vérité empirique",
+      "limite_du_devoir": "La circularité critique peut être plus forte qu’une opposition oui/non : démontrer la non-viciosité du contrôle rationnel de la raison plutôt que la supposer."
+    },
+    {
+      "source": "philosophie-dissertation-2025-g1-douter-raison.html",
+      "partie": "II.1",
+      "type_principal": "D06",
+      "familles_p21_proposees": [
+        "F05",
+        "F17"
+      ],
+      "ancienne_observation": "Qualification des conditions de validité des raisonnements",
+      "trace": "Il est donc rationnel de mettre en doute la portée de certains raisonnements. Une preuve conditionnelle établit ce …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas répondre à une question voisine",
+      "limite_du_devoir": "La circularité critique peut être plus forte qu’une opposition oui/non : démontrer la non-viciosité du contrôle rationnel de la raison plutôt que la supposer."
+    },
+    {
+      "source": "philosophie-dissertation-2025-g1-douter-raison.html",
+      "partie": "II.2",
+      "type_principal": "E03",
+      "familles_p21_proposees": [
+        "F04",
+        "F15"
+      ],
+      "ancienne_observation": "Antinomie comme excès de la raison au-delà de l’expérience",
+      "trace": "Kant, dans la Dialectique transcendantale, montre que la raison peut produire des antinomies lorsqu'elle applique s…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une preuve valide ne démontre pas seule la vérité empirique",
+      "limite_du_devoir": "La circularité critique peut être plus forte qu’une opposition oui/non : démontrer la non-viciosité du contrôle rationnel de la raison plutôt que la supposer."
+    },
+    {
+      "source": "philosophie-dissertation-2025-g1-douter-raison.html",
+      "partie": "II.3",
+      "type_principal": "R01",
+      "familles_p21_proposees": [
+        "F11",
+        "F15"
+      ],
+      "ancienne_observation": "Réduction à l’absurde d’une défiance de toute raison",
+      "trace": "Mais ériger cette critique en défiance universelle détruirait aussi les moyens de la justifier. Pascal écrit, dans …",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "L’autoréférence ne prouve pas à elle seule un cercle vicieux",
+      "limite_du_devoir": "La circularité critique peut être plus forte qu’une opposition oui/non : démontrer la non-viciosité du contrôle rationnel de la raison plutôt que la supposer."
+    },
+    {
+      "source": "philosophie-dissertation-2025-g1-douter-raison.html",
+      "partie": "III.1",
+      "type_principal": "D06",
+      "familles_p21_proposees": [
+        "F05",
+        "F17"
+      ],
+      "ancienne_observation": "Délimitation des prétentions de connaissance",
+      "trace": "Il faut distinguer une question que la raison peut légitimement traiter d'une affirmation qui excède les conditions…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas répondre à une question voisine",
+      "limite_du_devoir": "La circularité critique peut être plus forte qu’une opposition oui/non : démontrer la non-viciosité du contrôle rationnel de la raison plutôt que la supposer."
+    },
+    {
+      "source": "philosophie-dissertation-2025-g1-douter-raison.html",
+      "partie": "III.2",
+      "type_principal": "R02",
+      "familles_p21_proposees": [
+        "F15"
+      ],
+      "ancienne_observation": "Suspension d’assentiment fondée et révisable",
+      "trace": "La limitation des prétentions est elle-même un exercice positif de raison. Dans les Méditations, le doute méthodiqu…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas transformer l’ignorance en négation",
+      "limite_du_devoir": "La circularité critique peut être plus forte qu’une opposition oui/non : démontrer la non-viciosité du contrôle rationnel de la raison plutôt que la supposer."
+    },
+    {
+      "source": "philosophie-dissertation-2025-g1-douter-raison.html",
+      "partie": "III.3",
+      "type_principal": "R04",
+      "familles_p21_proposees": [
+        "F13",
+        "F14"
+      ],
+      "ancienne_observation": "Rétroaction erreur/rectification contrôlée",
+      "trace": "La critique ne devient féconde que si elle permet la reprise d'un jugement démenti par l'épreuve. Bachelard, dans L…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Changer de vocabulaire sans test n’est pas corriger",
+      "limite_du_devoir": "La circularité critique peut être plus forte qu’une opposition oui/non : démontrer la non-viciosité du contrôle rationnel de la raison plutôt que la supposer."
+    },
+    {
+      "source": "philosophie-dissertation-machine-peut-elle-penser.html",
+      "partie": "I.1",
+      "type_principal": "D04",
+      "familles_p21_proposees": [
+        "F07"
+      ],
+      "ancienne_observation": "Critère public d’inférence et correction",
+      "trace": "Nous reconnaissons souvent la pensée d'autrui à sa capacité d'inférer, de prévoir et de corriger une erreur. Un adv…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas changer de sujet sous couvert de critère",
+      "limite_du_devoir": "La troisième partie développe de nombreux paragraphes plutôt que trois unités formelles; distinguer strictement preuves de l’usage de signes, compréhension, norme et vécu. La suspension ne certifie pas l’absence de pensée."
+    },
+    {
+      "source": "philosophie-dissertation-machine-peut-elle-penser.html",
+      "partie": "I.2",
+      "type_principal": "D06",
+      "familles_p21_proposees": [
+        "F05",
+        "F17"
+      ],
+      "ancienne_observation": "Refus d’exclusion fondée sur le seul matériau ; déplacement Turing",
+      "trace": "Une machine qui accomplit des opérations comparables ne peut donc être exclue du penser par son seul matériau. Turi…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas répondre à une question voisine",
+      "limite_du_devoir": "La troisième partie développe de nombreux paragraphes plutôt que trois unités formelles; distinguer strictement preuves de l’usage de signes, compréhension, norme et vécu. La suspension ne certifie pas l’absence de pensée."
+    },
+    {
+      "source": "philosophie-dissertation-machine-peut-elle-penser.html",
+      "partie": "I.3",
+      "type_principal": "E03",
+      "familles_p21_proposees": [
+        "F04",
+        "F15"
+      ],
+      "ancienne_observation": "Limite du succès observable comme preuve de compréhension",
+      "trace": "Pourtant, un résultat correct ne prouve pas à lui seul que le système comprenne pourquoi il est correct. Nous risqu…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Une preuve valide ne démontre pas seule la vérité empirique",
+      "limite_du_devoir": "La troisième partie développe de nombreux paragraphes plutôt que trois unités formelles; distinguer strictement preuves de l’usage de signes, compréhension, norme et vécu. La suspension ne certifie pas l’absence de pensée."
+    },
+    {
+      "source": "philosophie-dissertation-machine-peut-elle-penser.html",
+      "partie": "II.1",
+      "type_principal": "D03",
+      "familles_p21_proposees": [
+        "F03"
+      ],
+      "ancienne_observation": "Condition supposée d’un rapport de sens au monde",
+      "trace": "Comprendre une réponse paraît exiger davantage que l'application de règles produisant la bonne suite de signes. L'e…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas confondre condition nécessaire et cause suffisante",
+      "limite_du_devoir": "La troisième partie développe de nombreux paragraphes plutôt que trois unités formelles; distinguer strictement preuves de l’usage de signes, compréhension, norme et vécu. La suspension ne certifie pas l’absence de pensée."
+    },
+    {
+      "source": "philosophie-dissertation-machine-peut-elle-penser.html",
+      "partie": "II.2",
+      "type_principal": "G01",
+      "familles_p21_proposees": [
+        "F09",
+        "F10"
+      ],
+      "ancienne_observation": "Expérience de Searle et genèse affective de Bion",
+      "trace": "Wilfred Bion, dans « A Theory of Thinking », fait naître le développement de la pensée de la capacité psychique à s…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "L’origine d’une croyance ne réfute pas sa vérité",
+      "limite_du_devoir": "La troisième partie développe de nombreux paragraphes plutôt que trois unités formelles; distinguer strictement preuves de l’usage de signes, compréhension, norme et vécu. La suspension ne certifie pas l’absence de pensée."
+    },
+    {
+      "source": "philosophie-dissertation-machine-peut-elle-penser.html",
+      "partie": "II.3",
+      "type_principal": "E05",
+      "familles_p21_proposees": [
+        "F13"
+      ],
+      "ancienne_observation": "Objection à la généralisation de l’origine humaine à toute pensée",
+      "trace": "Cependant, montrer comment la pensée humaine se développe ne prouve pas que toute pensée possible doive avoir la mê…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Le renommage d’une proposition n’est pas une réparation",
+      "limite_du_devoir": "La troisième partie développe de nombreux paragraphes plutôt que trois unités formelles; distinguer strictement preuves de l’usage de signes, compréhension, norme et vécu. La suspension ne certifie pas l’absence de pensée."
+    },
+    {
+      "source": "philosophie-dissertation-machine-peut-elle-penser.html",
+      "partie": "III.1",
+      "type_principal": "R02",
+      "familles_p21_proposees": [
+        "F15"
+      ],
+      "ancienne_observation": "Suspension de l’attribution d’intériorité et examen grammatical",
+      "trace": "Il faut cesser de traiter comme une seule question la performance qui manifeste une intelligence, la pensée qu'on a…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas transformer l’ignorance en négation",
+      "limite_du_devoir": "La troisième partie développe de nombreux paragraphes plutôt que trois unités formelles; distinguer strictement preuves de l’usage de signes, compréhension, norme et vécu. La suspension ne certifie pas l’absence de pensée."
+    },
+    {
+      "source": "philosophie-dissertation-machine-peut-elle-penser.html",
+      "partie": "III.2",
+      "type_principal": "D04",
+      "familles_p21_proposees": [
+        "F07"
+      ],
+      "ancienne_observation": "Construction d’un critère normatif d’espace des raisons",
+      "trace": "Suspendre son jugement sur la conscience évite de confondre une hypothèse avec une preuve, mais laisse ouverte la q…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas changer de sujet sous couvert de critère",
+      "limite_du_devoir": "La troisième partie développe de nombreux paragraphes plutôt que trois unités formelles; distinguer strictement preuves de l’usage de signes, compréhension, norme et vécu. La suspension ne certifie pas l’absence de pensée."
+    },
+    {
+      "source": "philosophie-dissertation-machine-peut-elle-penser.html",
+      "partie": "III.3",
+      "type_principal": "D03",
+      "familles_p21_proposees": [
+        "F03"
+      ],
+      "ancienne_observation": "Condition d’attribution + reste de l’expérience propre",
+      "trace": "Bion rappelle ici une difficulté que cette réponse ne doit pas effacer : chez l'humain, la pensée se développe à pa…",
+      "statut": "classification_heuristique_non_certifiee",
+      "controle_requis": "Ne pas confondre condition nécessaire et cause suffisante",
+      "limite_du_devoir": "La troisième partie développe de nombreux paragraphes plutôt que trois unités formelles; distinguer strictement preuves de l’usage de signes, compréhension, norme et vécu. La suspension ne certifie pas l’absence de pensée."
+    }
+  ],
+  "occurrences_heuristiques_par_type": {
+    "D03": 17,
+    "G02": 9,
+    "D01": 38,
+    "E01": 19,
+    "D05": 12,
+    "E05": 15,
+    "N03": 8,
+    "G01": 9,
+    "R05": 2,
+    "E04": 3,
+    "G07": 3,
+    "D06": 11,
+    "G04": 6,
+    "N02": 8,
+    "REF": 1,
+    "E06": 2,
+    "D02": 8,
+    "D07": 2,
+    "N01": 7,
+    "G06": 17,
+    "R04": 4,
+    "N04": 6,
+    "E02": 7,
+    "D04": 5,
+    "G03": 3,
+    "E03": 6,
+    "G05": 1,
+    "R01": 3,
+    "R02": 2
+  }
+}
