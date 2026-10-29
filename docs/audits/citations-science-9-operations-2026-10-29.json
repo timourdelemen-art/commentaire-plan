@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-29",
+  "scope": "9 citations pour La science doit-elle être utile ?",
+  "attestation": "fragments vérifiés sur les originaux ou traductions identifiées. La qualité aporétique est encore à auditer selon V7.3 §3.4.9",
+  "entries": [
+    {
+      "slot": "I.1",
+      "author": "Francis Bacon",
+      "work": "Novum Organum, livre I, §81, original latin",
+      "quote": "ut dotetur vita humana novis inventis et copiis",
+      "source": "https://la.wikisource.org/wiki/Novum_Organum/Liber_Primus",
+      "operation": "Déterminer une fin humaine de la recherche, sans garantir un résultat prévisible.",
+      "translation_status": "latin, paraphrase explicative française",
+      "validation": "texte exact comparé",
+      "reserve": "le fait que la citation soit authentique ne prouve pas la nécessité de la résolution"
+    },
+    {
+      "slot": "I.2",
+      "author": "René Descartes",
+      "work": "Discours de la méthode, VI, éd. Victor Cousin",
+      "quote": "la loi qui nous oblige à procurer autant qu’il est en nous le bien général de tous les hommes",
+      "source": "https://fr.wikisource.org/wiki/Discours_de_la_m%C3%A9thode_(%C3%A9d._Cousin)/Texte_entier",
+      "operation": "Passer de la destination utile à une obligation morale de communication.",
+      "translation_status": "français original",
+      "validation": "texte exact comparé",
+      "reserve": "le fait que la citation soit authentique ne prouve pas la nécessité de la résolution"
+    },
+    {
+      "slot": "I.3",
+      "author": "Gaston Bachelard",
+      "work": "La Formation de l’esprit scientifique, chap. I",
+      "quote": "En désignant les objets par leur utilité, elle s’interdit de les connaître",
+      "source": "https://www.classiques.uqam.ca/collection_methodologie/bachelard_gaston/obstacles_epistemologiques/obstacles_epist_texte.html",
+      "operation": "Éprouver l’obstacle que constitue l’utilité si elle commande a priori toute recherche.",
+      "translation_status": "français, texte reproduit",
+      "validation": "texte exact comparé",
+      "reserve": "le fait que la citation soit authentique ne prouve pas la nécessité de la résolution"
+    },
+    {
+      "slot": "II.1",
+      "author": "Aristote",
+      "work": "Métaphysique I, 2, trad. Victor Cousin, 1838",
+      "quote": "la science qu’on étudie pour elle-même et dans le seul but de savoir",
+      "source": "https://fr.wikisource.org/wiki/M%C3%A9taphysique_-_Livre_I_(Cousin)",
+      "operation": "Établir la valeur intrinsèque du savoir.",
+      "translation_status": "traduction française identifiée",
+      "validation": "texte exact comparé",
+      "reserve": "le fait que la citation soit authentique ne prouve pas la nécessité de la résolution"
+    },
+    {
+      "slot": "II.2",
+      "author": "Friedrich Nietzsche",
+      "work": "Humain, trop humain I, §635, trad. Alexandre-Marie Desrousseaux, 1906",
+      "quote": "les méthodes scientifiques sont une conquête de la recherche pour le moins aussi considérable que n’importe quel autre résultat",
+      "source": "https://fr.wikisource.org/wiki/Humain,_trop_humain/IX",
+      "operation": "Fonder l’autonomie du critère méthodologique.",
+      "translation_status": "traduction française identifiée",
+      "validation": "texte exact comparé",
+      "reserve": "le fait que la citation soit authentique ne prouve pas la nécessité de la résolution"
+    },
+    {
+      "slot": "II.3",
+      "author": "Immanuel Kant",
+      "work": "Fondements de la métaphysique des mœurs, II, trad. Victor Delbos",
+      "quote": "toujours en même temps comme une fin, et jamais simplement comme un moyen",
+      "source": "https://fr.wikisource.org/wiki/Fondements_de_la_m%C3%A9taphysique_des_m%C5%93urs_(trad._Delbos)/Deuxi%C3%A8me_section",
+      "operation": "Éprouver la suffisance morale d’une expérience démonstrative.",
+      "translation_status": "traduction française identifiée",
+      "validation": "texte exact comparé",
+      "reserve": "le fait que la citation soit authentique ne prouve pas la nécessité de la résolution"
+    },
+    {
+      "slot": "III.1",
+      "author": "Gaston Bachelard",
+      "work": "Le Nouvel Esprit scientifique, Introduction, 1934",
+      "quote": "les instruments ne sont que des théories matérialisées",
+      "source": "https://classiques.uqam.ca/classiques/bachelard_gaston/nouvel_esprit_scientifique/nouvel_esprit_scientifique_intro.html",
+      "operation": "Montrer que connaître expérimentalement suppose déjà une intervention instrumentale.",
+      "translation_status": "français original",
+      "validation": "texte exact comparé",
+      "reserve": "le fait que la citation soit authentique ne prouve pas la nécessité de la résolution"
+    },
+    {
+      "slot": "III.2",
+      "author": "Claude Bernard",
+      "work": "Introduction à l’étude de la médecine expérimentale, II, chap. II, 1865",
+      "quote": "celles qui ne peuvent que nuire sont défendues",
+      "source": "https://www.gutenberg.org/files/16234/16234-h/16234-h.htm",
+      "operation": "Juger l’acte expérimental selon la morale, non selon sa seule fécondité scientifique.",
+      "translation_status": "français original",
+      "validation": "texte exact comparé",
+      "reserve": "le fait que la citation soit authentique ne prouve pas la nécessité de la résolution"
+    },
+    {
+      "slot": "III.3",
+      "author": "John Dewey",
+      "work": "The Public and Its Problems, chap. VI, 1927, p. 207",
+      "quote": "The man who wears the shoe knows best that it pinches and where it pinches",
+      "source": "https://www.gutenberg.org/cache/epub/71000/pg71000-images.html",
+      "operation": "Faire participer le savoir vécu des personnes affectées au contrôle des décisions expertes.",
+      "translation_status": "anglais original, paraphrase explicative française",
+      "validation": "texte exact comparé",
+      "reserve": "le fait que la citation soit authentique ne prouve pas la nécessité de la résolution"
+    }
+  ]
+}
