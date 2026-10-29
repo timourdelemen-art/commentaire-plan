@@ -37,6 +37,12 @@ ${BRIDGE_CSS}
 ${TOGGLE}
 `;
 }
+const EXERCICES_PAR_COPIE={
+  'notion-liberte': 'Une promesse choisie librement réduit ensuite vos possibilités. Établissez si cette restriction constitue un renoncement ou un exercice de liberté, et indiquez le cas où la promesse pourrait devoir être revue.',
+  '2025-me-verite': 'Une démonstration exacte ne convainc pas une personne qui refuse de l’examiner. Expliquez pourquoi ce cas suffit à discuter « toujours » et quelle difficulté de communication demeure.',
+  '2025-me-avenir-technique': 'Choisissez un dispositif qui semble n’être qu’un moyen. Montrez d’abord la fin qui l’oriente, puis comment sa mise en place transforme les choix futurs.',
+  '2025-me-besoin-art': 'Distinguez le besoin d’accéder à l’art de l’obligation d’aimer une œuvre particulière. Quel argument établirait la portée humaine du premier sans imposer la seconde ?'
+};
 function vitrine(key='notion-liberte',meta=null){
   const d=DATA[key]; const {n,w}=stats(d);
   const subject=meta?meta.title:'S’engager, est-ce renoncer à sa liberté ?';
@@ -58,6 +64,12 @@ ${meta?`<p class="micro">${esc(meta.exam)} · ${esc(meta.code)} · <a class="off
 <section class="offer-band"><div class="kicker">POURQUOI CETTE COPIE MÉRITE 20</div><h2>Rien n’y est décoratif.</h2>
 <div class="grid-3"><div><strong>Un problème réel</strong><p>Les deux réponses perdent quelque chose, et la problématique le dit en une seule question.</p></div><div><strong>Un plan qui avance</strong><p>Chaque limite naît de l’idée poussée jusqu’au bout ; chaque transition en fait une question. Aucun « d’abord », aucun « de plus » : les liens sont dans la pensée.</p></div><div><strong>Des auteurs qui travaillent</strong><p>Les références sont choisies pour accomplir quelque chose : pousser l’idée, porter la réponse, réaliser l’opération.</p></div></div>
 <p>Les copies à 20 : sur les pages des sujets du bac 2026 (<a class="official-link" href="philosophie-annales.html">les annales →</a>) et de chaque notion (<a class="official-link" href="philosophie-notions.html">les 17 notions →</a>).</p>
+<section class="offer-band" aria-label="Exercice propre à la dissertation">
+<h2>À vous : éprouver le raisonnement sur ce sujet</h2>
+<p>${esc(EXERCICES_PAR_COPIE[key]||'Choisissez un cas résistant et montrez ce que la réponse proposée ne suffit pas encore à démontrer.')}</p>
+<p>Construisez trois étapes pour I, trois pour II, trois pour III et les deux transitions. Justifiez le gain propre à III.3, sans recopier la copie annotée.</p>
+<textarea rows="11" data-feedback-kind="philo-plan" data-feedback-quote="${esc(subject)}" data-feedback-instruction="Exercice sur le sujet : construire neuf acquis distincts et deux transitions, tester le meilleur cumul des réponses et justifier le nouveau résultat de III.3." aria-label="Votre plan en neuf sous-parties et deux transitions"></textarea>
+</section>
 <h3>Trois nouveaux sujets, pour refaire le travail</h3><ul>${extraLinks}</ul>
 <p><a class="official-link" href="philosophie-notion-${meta?esc(meta.notion):'liberte'}.html">Travailler la notion →</a> · <a class="official-link" href="philosophie-dissertation.html#liens">L’architecture logique d’une dissertation →</a></p></section>
 </main><script src="site-nav.js"></script>
