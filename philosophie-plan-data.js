@@ -138,7 +138,7 @@ niveau1: [
       "q": "Quelle question, née de cette limite, fait passer à la partie II ?",
       "o": [
         [
-          "L'ignorance épargne parfois une inquiétude, mais elle peut aussi priver des moyens d'éviter un mal réel ; cherchons ce que la conscience apporte à la joie sans supposer qu'elle supprime tout risque.",
+          "L'ignorance épargne parfois l'inquiétude, mais elle peut laisser agir un danger évitable ; comment la conscience pourrait-elle protéger le bonheur sans promettre l'absence de tout risque ?",
           "ok",
           "Une question brève, née de cette limite : elle fait passer à la partie II sans la donner d’avance."
         ],
@@ -226,7 +226,7 @@ niveau1: [
       "q": "Quelle question montre ce que les deux réponses supposaient ensemble ?",
       "o": [
         [
-          "Une personne peut être informée et sereine : la coexistence du savoir et de la joie réfute déjà la nécessité de l'inconscience, mais n'explique pas encore comment discerner ce qui mérite notre attention de ce qui nourrit seulement l'angoisse.",
+          "Une personne informée peut demeurer heureuse : l'inconscience n'est donc pas nécessaire ; quel usage de la connaissance distingue alors la prudence de l'inquiétude sans fin ?",
           "ok",
           "La question fait voir ce que les deux réponses supposaient ensemble : c’est ce point que la partie III transformera."
         ],
