@@ -161,13 +161,13 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Dewey, dans L’Art comme expérience, lie le faire à l’éprouver : la résistance du matériau modifie l’intention et rend nécessaires de nouveaux choix.",
+          "proposal": "Dewey, dans L’Art comme expérience, permet de démontrer le mécanisme de cette acquisition. Faire subir une transformation à la matière produit une expérience en retour : la couleur posée modifie l’équilibre du tableau ; cet équilibre commande alors un nouveau choix. Il faut distinguer, puis articuler, l’acte de produire et le fait d’éprouver ce qu’on a produit. C’est par leurs reprises successives que la conduite de l’artiste prend une unité sans être l’exécution d’un plan immuable.",
           "preserves": [
             "Être l’auteur de son œuvre",
             "Faire une œuvre nouvelle, qu’aucune recette ne contient"
           ],
-          "cost": "Reste que l’œuvre peut recevoir des significations que même ce jugement exercé pendant la création n’avait pas envisagées.",
-          "remainingProblem": "Jusqu’où le savoir de l’artiste peut-il porter sur son œuvre, si celle-ci continue de prendre sens dans des regards qu’il ne dirige pas ?"
+          "cost": "La valeur de l’œuvre peut-elle dépendre du jugement de ses spectateurs sans se réduire à leur goût ?",
+          "remainingProblem": "La valeur de l’œuvre peut-elle dépendre du jugement de ses spectateurs sans se réduire à leur goût ?"
         },
         {
           "id": "alternative-a",
@@ -189,21 +189,21 @@
         }
       ],
       "selected": "retenue",
-      "comparison": "Matrice candidate processualisation : le savoir se constitue pendant la production, non avant exclusivement. La refonte des neuf opérations n'est pas encore une validation de la double aporie, ni des citations.",
-      "strongestObjection": "L'une des branches ou leur cumul peut être possible avant III : vérifier la racine, le meilleur cas et le présupposé commun.",
-      "responseToObjection": "Non démontré : sans inférences vérifiées, ne pas certifier V7.3.",
-      "residual": "Reste que l’œuvre peut recevoir des significations que même ce jugement exercé pendant la création n’avait pas envisagées.",
-      "conclusionQuestion": "Jusqu’où le savoir de l’artiste peut-il porter sur son œuvre, si celle-ci continue de prendre sens dans des regards qu’il ne dirige pas ?",
+      "comparison": "Processualisation : I/II distinguent métier et nouveauté, III.1 transforme le savoir préalable en reconnaissance de formes ; III.2 démontre la rétroaction faire/éprouver chez Dewey ; III.3 évalue l'œuvre indépendante de la conviction de son auteur (Frenhofer). Le meilleur cas d'une création compétente et originale n'est pas exclu par une double impossibilité, test §3.4.9 toujours bloquant.",
+      "strongestObjection": "Un artiste peut parfaitement connaître ses gestes, inventer quelque chose d'inattendu et en juger la valeur : cumul des réponses vraies dès le début, sans transformation démontrée du présupposé.",
+      "responseToObjection": "Ne pas exagérer la prétention de la première réponse en connaissance exhaustive de l'œuvre achevée ; ne pas inférer de la nouveauté l'absence de toute maîtrise. La problématique reste une proposition, non une aporie démontrée.",
+      "residual": "La valeur de l’œuvre peut-elle dépendre du jugement de ses spectateurs sans se réduire à leur goût ?",
+      "conclusionQuestion": "La valeur de l’œuvre peut-elle dépendre du jugement de ses spectateurs sans se réduire à leur goût ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 593
+        "words": 1078
       },
       "review": {
-        "author": "Révision démonstrative du 28 octobre 2026",
+        "author": "Reconstruction du 29 octobre 2026",
         "status": "propose",
-        "independentReview": "Audit indépendant non fait. Références citées en paraphrase, sans guillemets littéraux ; éditions et fidélité à contrôler. Test 3.4.9 en suspens. Introduction réalignée avec l’opérateur : fausses conséquences maximalistes éliminées."
+        "independentReview": "La refonte comporte neuf unités développées avec plusieurs opérations par étape ; attribution de Kant §43, §46–47, Aristote VI, Alain Système des beaux-arts, Dewey L'Art comme expérience à contrôler avant citation littérale. Test de conjonction 3.4.9 non satisfait, aucun modèle validé."
       },
-      "copySha256": "474d856e69744e8a4003c580a913b0d05720fb02ad314a2c012b6979aaed34c0",
+      "copySha256": "2a74d89481207a3cd3cfd7b288c4c802a825e328da6de8774e12da65f4fb8673",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
         "racine": [
@@ -214,10 +214,10 @@
         "forme": "réciprocité",
         "problematique": "P1",
         "branchesIntroduction": "B1",
-        "statut": "proposée / non validée",
+        "statut": "Proposition non validée : cumul des domaines possible",
         "cumul": "« Le métier pour l’exécution, le génie pour l’invention » : sous le présupposé, l’artiste ne sait que ce qu’il sait d’avance ; il est donc l’auteur de ce qui n’est pas nouveau, et le nouveau reste sans auteur. Le cumul reconduit aux deux branches.",
         "meilleurCas": "Le plus grand métier ne contient pas l’œuvre nouvelle (Frenhofer) ; le génie le plus sûr ne sait pas dire comment il produit (Kant). Les deux pertes survivent.",
-        "matriceCandidate": "processualisation : le savoir se constitue pendant la production, non avant exclusivement"
+        "matriceCandidate": "processualisation du savoir dans la création + confrontation au jugement du spectateur"
       }
     },
     "2026-an-science-utile": {
