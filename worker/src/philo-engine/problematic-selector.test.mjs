@@ -63,7 +63,7 @@ test('sélection non automatique même sur fiche complète',()=>{
   assert.equal(selected.selectionProvisoire,c.id);
   assert.equal(selected.homologation,false);
 });
-test('aucune fiche lacunaire n'est choisie par défaut',()=>{
+test("aucune fiche lacunaire n\x27est choisie par défaut",()=>{
   const c=exemplaire();c.relation.liaisonDesObstacles="";
   const r=selectionnerProblematiques({candidates:[c],arbitrage:{id:c.id,justificationComparative:"x",objectionDecisive:"y",reponseAObjection:"z",relecteur:"A"}});
   assert.deepEqual(r.admissiblesPourExamen,[]);
