@@ -917,14 +917,14 @@
       "conclusionQuestion": "Comment maintenir la possibilité d'une délibération commune quand des interlocuteurs refusent jusqu'aux critères grâce auxquels une preuve pourrait être reconnue ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 1086
+        "words": 1089
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
         "independentReview": "Reconstruction V7.4 : suffire n'est ni être vrai ni valoir conditionnellement pour qui examine. La possession d'une vérité ne produit pas automatiquement sa présentation ou son libre examen. Double aporie stricte non démontrée. Platon et Pascal paraphrasés, citations littérales non ajoutées ; lecture indépendante encore absente."
       },
-      "copySha256": "555571ad43b0ce59bb520988d98ad73aad25df7d2522f9cb0cb57aefc9c75b67",
+      "copySha256": "0e5bbbd66158a0cc284d17e9efa80cc2b302b8391692bbdd835d16253e51e653",
       "protocol": {
         "reference": "Plan dynamique V7.4 prioritaire",
         "racine": [
