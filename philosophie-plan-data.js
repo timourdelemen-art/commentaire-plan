@@ -63,7 +63,7 @@ niveau1: [
   "sujet": "Faut-il être inconscient pour être heureux ?",
   "notion": "Le bonheur",
   "v": 3,
-  "pb": "Faut-il être inconscient pour être heureux, alors que l’ignorance d’un danger évite parfois la peur mais prive aussi des moyens de le prévenir ?",
+  "pb": "Faut-il être inconscient pour être heureux, si savoir permet de prévenir certains dangers mais peut aussi entretenir une inquiétude devant ce qui n’arrive pas encore ?",
   "annale": "faut-il-etre-inconscient-pour-etre-heureux",
   "etapes": [
     {
