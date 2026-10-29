@@ -341,14 +341,14 @@
       "conclusionQuestion": "Comment soutenir durablement une vie heureuse lorsque la douleur ne vient plus d'une anticipation trompeuse, mais d'une perte effectivement subie ?",
       "economy": {
         "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 1057
+        "words": 1056
       },
       "review": {
         "author": "Révision démonstrative du 28 octobre 2026",
         "status": "propose",
         "independentReview": "Reconstruction V7.4. Le sujet portant sur une condition nécessaire, le meilleur cumul d'une personne lucide et heureuse réfute cette nécessité. Trois gains nouveaux proposés en III ; l'existence d'un rapport R aporétique plus fort que la réponse directe reste à démontrer. Aucune citation littérale ajoutée."
       },
-      "copySha256": "03ecce8c4b5dc140a174414b21718bfa0ba368c04a12403c27d2871bdb38f4a9",
+      "copySha256": "30fa325052b1db5b25f71a8491428c76a452f04043f7b37d68b0ab72e19dbc19",
       "protocol": {
         "reference": "Plan dynamique V7.4 prioritaire ; protocole intégré V8.0 expérimental (transitions révisées, travail non homologué)",
         "racine": [
