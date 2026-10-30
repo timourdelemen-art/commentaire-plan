@@ -1234,58 +1234,69 @@
     "2025-me-verite": {
       "subject": "La vérité est-elle toujours convaincante ?",
       "requirements": [
-        "S’imposer par ses raisons",
-        "Être reconnue par d’autres esprits"
+        "La vérité possède des raisons objectives de convaincre",
+        "La conviction doit pouvoir être fondée sur des raisons accessibles et non seulement ressentie"
       ],
       "scene": {
         "source": "Référence de l’œuvre indiquée dans la copie ; récit paraphrasé sans citation.",
-        "analysis": "Il sait quelque chose que les autres ignorent ; pourtant ce savoir ne leur apparaît pas comme une raison de le croire. La vérité peut éclairer celui qui la découvre sans s’imposer à ceux auxquels il la dit.",
-        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
+        "analysis": "Dans la caverne de Platon, l'homme qui a contemplé l'extérieur ne dispose pas immédiatement de preuves recevables par les captifs ; ceux-ci jugent d'après des ombres qu'ils prennent pour toute la réalité. La scène oppose la vérité sans justification reconnue et la justification apparente d'une croyance fausse.",
+        "review": "République VII, 516e–517a : moqueries et yeux troublés confirmés dans le passage ; double homologie partiellement reconstruite, à soumettre à lecteur indépendant."
       },
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Convaincre honnêtement demande donc de travailler sur la compréhension de l'interlocuteur sans chercher à commander son assentiment.",
+          "proposal": "Ce processus ne fabrique pas la vérité, mais donne aux raisons disponibles la meilleure possibilité de se laisser instruire par elle.",
           "preserves": [
-            "S’imposer par ses raisons",
-            "Être reconnue par d’autres esprits"
+            "La vérité possède des raisons objectives de convaincre",
+            "La conviction doit pouvoir être fondée sur des raisons accessibles et non seulement ressentie",
+            "Possibilité de rectification publique des convictions"
           ],
-          "cost": "Reste que l’interlocuteur peut refuser toute vérification : rendre la preuve accessible ne garantit pas qu’il acceptera de l’examiner.",
-          "remainingProblem": "Lorsque toute vérification est refusée, comment défendre la vérité sans confondre la conviction rationnelle avec une adhésion imposée ?"
+          "cost": "Les raisons disponibles restent inégales : certaines vérités ne sont pas vérifiables, et les preuves empiriques ne sont pas infaillibles.",
+          "remainingProblem": "Lorsqu'une action ne peut attendre de preuves décisives, quelles convictions provisoires suffisent à la décider légitimement ?"
         },
         {
           "id": "alternative-0",
-          "proposal": "Distinguer vérité et persuasion",
+          "proposal": "Duplication : distinguer immédiatement vérité et persuasion puis répondre non sans expliquer la force de la preuve.",
           "preserves": [
-            "Protège la validité contre l’adhésion"
+            "Indépendance objective du vrai"
           ],
-          "cost": "Sépare les plans sans expliquer comment la preuve devient accessible",
-          "remainingProblem": "Sépare les plans sans expliquer comment la preuve devient accessible"
+          "cost": "Deux niveaux simplement disjoints, sans mécanisme expliquant la capacité de convaincre rationnellement.",
+          "remainingProblem": "Comment des preuves peuvent-elles faire reconnaître une vérité sans s'y identifier ?"
         },
         {
           "id": "alternative-1",
-          "proposal": "Processualiser : l’habitude finit par rendre le vrai convaincant",
+          "proposal": "Abolition : récuser la prétention que la vérité convainque toujours, sans reconstruire de lien entre vérité et justification.",
           "preserves": [
-            "Reconnaît le temps nécessaire à l’apprentissage"
+            "Réponse négative directe au quantificateur universel"
           ],
-          "cost": "La répétition d’un énoncé faux peut aussi produire l’adhésion",
-          "remainingProblem": "La répétition d’un énoncé faux peut aussi produire l’adhésion"
+          "cost": "N'explique pas ce qui fonde la force rationnellement convaincante de certaines vérités.",
+          "remainingProblem": "Ce qui rend légitime un assentiment demeure inexpliqué."
+        },
+        {
+          "id": "alternative-2",
+          "proposal": "Suspension épistémique : proportionner l'assentiment aux preuves accessibles, refuser la certitude sans justification et rendre les convictions révisables.",
+          "preserves": [
+            "Indépendance de la vérité à l'égard de nos preuves",
+            "Justification rationnelle selon la force des raisons disponibles"
+          ],
+          "cost": "Renoncer à prétendre qu'une proposition vraie serait toujours connaissable ou capable de contraindre rationnellement à croire.",
+          "remainingProblem": "Quand une décision est urgente, la suspension théorique de l'assentiment ne fixe pas encore une règle pratique."
         }
       ],
       "selected": "retenue",
-      "comparison": "L’appropriation par examen relie les plans au lieu de les juxtaposer, et distingue apprentissage et répétition persuasive.",
-      "strongestObjection": "Une preuve comprise peut rester refusée par intérêt.",
-      "responseToObjection": "Le refus de vérifier demeure une limite : le mécanisme n’est pas une garantie d’adhésion.",
-      "residual": "Comment entretenir publiquement l'examen des preuves lorsque certains interlocuteurs refusent jusqu'aux règles communes de vérification ?",
-      "conclusionQuestion": "Comment entretenir publiquement l'examen des preuves lorsque certains interlocuteurs refusent jusqu'aux règles communes de vérification ?",
+      "comparison": "Balayage explicite des huit matrices dans docs/audits/reconstruction-verite-convaincante-v74-2026-10-30.md ; comparaison qualitative non compensatoire entre déplacement (effectivement adopté par III, non validé), suspension épistémique (contre-candidate mieux ajustée à A* et B*, mais non testée dans un nouveau 3×3) et abolition (contre-plan simplificateur). Aucun choix définitivement homologué, car le test N de nécessité de III demeure ouvert.",
+      "strongestObjection": "La simple réponse « non, certaines vérités sont sans preuve » règle déjà l'universalité de « toujours » ; le reste de la copie risque d'ajouter une théorie étrangère au sujet.",
+      "responseToObjection": "Le verbe « convaincante » exige de distinguer l'influence psychologique de la capacité rationnelle d'une vérité à justifier l'assentiment. La nouvelle III clarifie ce lien au moyen de la vérification rectifiable ; cette justification de la nécessité de III reste proposée à audit contradictoire.",
+      "residual": "Lorsqu'une décision ne peut attendre des preuves décisives, jusqu'où peut-on raisonnablement agir sur une conviction encore incertaine ?",
+      "conclusionQuestion": "Lorsqu'une décision ne peut attendre des preuves décisives, jusqu'où peut-on raisonnablement agir sur une conviction encore incertaine ?",
       "economy": {
         "principle": "Préserver raisons, objection et réponse avant de supprimer une phrase.",
-        "words": 1017
+        "words": 1328
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
-        "independentReview": "Réécriture argumentée V7.4 : opérateur contrôlé, contre-modèle testé. Absence de certification indépendante ; références en paraphrase, non en citations littérales."
+        "independentReview": "Contre-audit interne enrichi : huit matrices balayées, déplacement actuel non homologué, suspension épistémique reconnue comme concurrente, contre-plan négatif minimal encore potentiellement suffisant. Audit externe indépendant non réalisé ; ne pas publier comme modèle."
       },
       "subjectVerification": {
         "code": "25-PHGEME1",
@@ -1294,21 +1305,22 @@
         "title": "La vérité est-elle toujours convaincante ?",
         "sourceDocument": "Document officiel de la session 2025, libellé contrôlé page 2 ; index ministériel lié dans la page."
       },
-      "copySha256": "5b28ad3a9fd329c96096b6f8f55c99513c03dc274aa342433287e079a2672c28",
+      "copySha256": "bb094937af46efd2de8e0add990a69782684ec3524f7c218a3b57ad5568103dc",
       "protocol": {
-        "reference": "Plan dynamique V7.4 prioritaire ; protocole expérimental subordonné",
+        "reference": "Protocole du plan dynamique V7.4 prioritaire (V8.0 expérimental subordonné)",
         "racine": [
-          "S’imposer par ses raisons",
-          "Être reconnue par d’autres esprits"
+          "La vérité peut fonder des raisons indépendantes de l'accord",
+          "La conviction rationnelle réclame une justification contrôlable"
         ],
-        "presupposeCommun": "Toute vérité fournirait automatiquement son propre assentiment ; la validité d'une preuve serait confondue avec son accueil effectif.",
-        "forme": "preuve de non-universalité, puis distinction validité / réception",
-        "problematique": "P1",
-        "branchesIntroduction": "B2",
-        "statut": "réécriture de fond proposée, non homologuée",
-        "cumul": "Une preuve valide et le refus de l'examiner sont compatibles ; un seul cas suffit à réfuter le « toujours ». La troisième partie explique l'appropriation sans inventer de contradiction.",
-        "meilleurCas": "Un raisonnement exact face à un lecteur qui en refuse l'examen demeure vrai sans le convaincre.",
-        "matriceCandidate": "distinction de la justification et de son appropriation libre"
+        "presupposeCommun": "La propriété d'être vrai coïnciderait avec celle de disposer d'une raison effectivement convaincante.",
+        "forme": "double non-implication : vérité sans justification accessible et justification faillible sans vérité",
+        "problematique": "Double asymétrie reliée : la preuve vise la vérité sans lui être équivalente",
+        "branchesIntroduction": "Deux obstacles explicitement formulés",
+        "statut": "rédaction reconstructive non homologuée et non publiée",
+        "cumul": "Une preuve correcte peut établir une vérité et emporter un accord éclairé. Cette coexistence est possible mais n'élimine ni les vérités sans preuve ni les raisons empiriques indéterminées ou fallibles ; pour attribuer la force de conviction à la vérité, une norme de rectification est nécessaire.",
+        "meilleurCas": "Une démonstration exacte comprise rend nécessaire l'assentiment rationnel ; un examen empirique partagé peut soutenir une croyance fausse malgré la sincérité et l'intelligence des interlocuteurs.",
+        "matriceCandidate": "Déplacement dans le texte actuel, non homologué. Suspension épistémique candidate sérieuse, avec processualisation auxiliaire. La nécessité du troisième mouvement face au contre-plan négatif simple reste non démontrée.",
+        "remainderPlacement": "conclusion-only"
       }
     },
     "2025-me-avenir-technique": {

@@ -2887,203 +2887,199 @@
       "INTRODUCTION",
       [
         [
-          "Dans l'allégorie de la caverne, au livre VII de la République, le prisonnier libéré qui retourne parmi ses compagnons est exposé à leurs moqueries.",
+          "Au livre VII de la République, Platon imagine un prisonnier qui a quitté la caverne et contemplé ce qui se trouve au-dehors.",
           "Poser la scène platonicienne"
         ],
         [
-          "Il a découvert autre chose que les ombres familières, mais le trouble de ses yeux dans l'obscurité ne donne aux autres aucune raison immédiate de le croire.",
-          "Faire apparaître l’écart entre découverte et réception"
+          "Revenu auprès des captifs, il est tourné en ridicule : ses yeux, déshabitués de l'obscurité, distinguent mal les ombres que les autres savent interpréter.",
+          "Faire surgir la dissymétrie des regards"
         ],
         [
-          "L'image distingue celui qui a vu et ceux qu'il faudrait encore conduire à voir ; elle ne prouve pas qu'une vérité soit en elle-même persuasive.",
-          "Délimiter ce qu’établit la scène"
+          "Celui qui a vu davantage ne dispose donc pas, sur-le-champ, d'une preuve intelligible pour ceux qui l'écoutent ; inversement, ceux-ci prennent leurs observations familières pour des raisons de ne pas le croire.",
+          "Rattacher la scène aux deux pertes"
         ],
         [
-          "Par vérité, entendons ici la justesse d'un jugement sur ce qui est, et par conviction l'adhésion d'un esprit qui reconnaît une affirmation.",
-          "Fixer les deux notions"
+          "La vérité d'un jugement désigne son accord avec ce qui est, indépendamment de l'opinion qu'on en a ; est convaincant ce qui donne des raisons suffisantes de l'admettre, et non ce qui produit simplement un accord.",
+          "Distinguer vérité et force rationnellement convaincante"
         ],
         [
-          "« Toujours » demande si aucune vérité ne peut manquer d'emporter l'adhésion, et non si de bonnes raisons de croire sont parfois convaincantes.",
-          "Contrôler la portée universelle de la question"
+          "Demander si la vérité est « toujours » convaincante revient à interroger une propriété universelle du vrai, et non seulement le succès variable de ceux qui le défendent.",
+          "Contrôler l'opérateur « toujours »"
         ],
         [
-          "La vérité semble pouvoir convaincre par ses preuves, mais la valeur d'une preuve ne garantit pas qu'elle soit comprise ou examinée.",
-          "Construire la thèse affirmative et sa limite"
+          "La vérité semble devoir convaincre puisqu'elle répond à ce que cherche la raison ; pourtant elle peut exister sans être démontrable.",
+          "Construire A et sa limite"
         ],
         [
-          "L'accueil dépend aussi des dispositions du destinataire ; pourtant l'adhésion obtenue par séduction ne suffit pas à établir que la vérité a convaincu.",
-          "Construire l’objection contraire sans confondre convaincre et séduire"
+          "Des preuves accessibles peuvent à leur tour fonder une conviction partagée ; pourtant leur valeur ne garantit pas à elle seule que la proposition soit vraie.",
+          "Construire B et son obstacle propre"
         ],
         [
-          "La vérité est-elle toujours convaincante, si des raisons valables peuvent demeurer méconnues et si l'adhésion ne vaut comme conviction que lorsqu'elles sont réellement examinées ?",
-          "Problématiser en conservant « toujours »"
+          "La vérité est-elle toujours convaincante, si une proposition vraie peut manquer de preuve accessible, tandis que des raisons accessibles peuvent soutenir une proposition fausse ?",
+          "Formuler la problématique sans présupposer la résolution"
         ],
         [
-          "Nous établirons la force rationnelle d'une vérité démontrée, examinerons les obstacles à sa reconnaissance, puis préciserons ce qui rend possible une conviction fondée.",
-          "Annoncer le mouvement du devoir"
+          "Nous examinerons la force de la vérité lorsqu'elle est démontrée, puis la portée et les limites des raisons qui emportent l'accord, avant de préciser à quelles conditions une conviction peut rester fidèle à la vérité.",
+          "Annoncer les mouvements"
         ]
       ]
     ],
     [
-      "I. LA VÉRITÉ POSSÈDE UNE FORCE DE JUSTIFICATION",
+      "I. UNE VÉRITÉ DÉMONTRÉE POSSÈDE UNE FORCE RATIONNELLE",
       [
         [
-          "Lorsqu'une démonstration est valide et repose sur des prémisses admises, sa conclusion n'est pas une préférence : elle s'impose à qui suit les étapes du raisonnement.",
-          "I.1 — Définir la nécessité logique de la preuve"
+          "Dire vrai, ce n'est pas seulement exprimer ce que l'on préfère croire : c'est affirmer ce qui est, que cela nous plaise ou non.",
+          "I.1 — Définir l'objectivité de la vérité"
         ],
         [
-          "Ainsi, deux élèves qui vérifient une même démonstration ne peuvent rejeter sa conclusion simplement parce qu'elle leur déplaît sans remettre en question une étape.",
-          "I.1 — Construire un cas de reconnaissance rationnelle"
+          "Si une démonstration établit une proposition à partir de prémisses admises et de règles valides, rejeter sa conclusion sans contester une étape ne serait plus juger par les raisons.",
+          "I.1 — Établir la force conditionnelle d'une preuve valide"
         ],
         [
-          "La force d'une vérité démontrée ne dépend donc pas de la réputation de celui qui la présente.",
-          "I.1 — Dégager la portée impersonnelle de la preuve"
+          "Dans cette situation, la vérité apparaît convaincante parce que le jugement peut être contrôlé par tout esprit capable d'en suivre la justification.",
+          "I.1 — Délimiter la réponse affirmative"
         ],
         [
-          "Dans le Discours de la méthode, Descartes insiste sur l'ordre dans lequel l'esprit doit conduire ses pensées pour mieux juger.",
-          "I.2 — Mobiliser une opération cartésienne"
+          "Dans le Discours de la méthode, Descartes demande de conduire les pensées avec ordre, des objets les plus simples vers les plus composés.",
+          "I.2 — Mobiliser l'ordre des raisons chez Descartes"
         ],
         [
-          "L'ordre des raisons importe, car une conclusion vraie annoncée sans ses étapes peut rester incompréhensible.",
-          "I.2 — Inférer la nécessité d’une présentation vérifiable"
+          "L'important n'est pas que le savant annonce la conclusion, mais que l'on puisse refaire les passages qui l'établissent : une preuve communique la nécessité de conclure, non le prestige de son auteur.",
+          "I.2 — Éprouver la vérification indépendamment de l'autorité"
         ],
         [
-          "Convaincre par la raison suppose alors de permettre à un autre esprit de refaire le chemin, non de lui demander confiance.",
-          "I.2 — Distinguer preuve et autorité"
+          "Ainsi, la force convaincante d'une démonstration peut être indépendante du nombre de personnes qui l'approuvent ; elle tient à ce qu'un désaccord rationnel devrait en discuter les raisons.",
+          "I.2 — Établir l'exigence impersonnelle de la preuve"
         ],
         [
-          "Cette exigence explique pourquoi la vérité demeure une norme du jugement, même lorsqu'elle suscite peu d'enthousiasme.",
-          "I.2 — Établir la force normative sans promettre d’adhésion"
+          "Ce cas donne son meilleur fondement à l'idée que la vérité peut convaincre par elle-même, dès lors qu'elle se présente sous la forme d'une preuve.",
+          "I.2 — Préserver le meilleur argument affirmative"
         ],
         [
-          "Il est pourtant possible qu'un interlocuteur n'ait pas compris la démonstration ou refuse même de la regarder.",
-          "I.3 — Opposer le cas qui menace « toujours »"
+          "Mais être vraie et être accompagnée d'une preuve accessible ne sont pas deux propriétés identiques.",
+          "I.3 — Identifier l'écart vérité / preuve"
         ],
         [
-          "Dans ce cas, la conclusion garde sa validité, mais l'adhésion attendue n'a pas lieu.",
-          "I.3 — Dissocier explicitement validité et effet psychologique"
+          "Supposons qu'un événement se soit produit dans un lieu désert, sans témoin et sans laisser de trace : une proposition qui le décrit exactement serait vraie, alors que personne ne pourrait en établir le bien-fondé.",
+          "I.3 — Construire le meilleur cas d'une vérité sans trace"
         ],
         [
-          "Une vérité ignorée, ou dont les raisons sont mal accessibles, peut donc ne convaincre personne.",
-          "I.3 — Construire un contre-exemple à l’universalité"
+          "Même l'interlocuteur le plus attentif ne peut reconnaître rationnellement ce dont aucune raison contrôlable ne lui est donnée ; cette difficulté ne dépend donc ni de sa mauvaise volonté ni de l'habileté de l'orateur.",
+          "I.3 — Écarter l'explication par la mauvaise volonté"
         ],
         [
-          "La thèse selon laquelle toute vérité convainc nécessairement confond sa valeur de justification avec son efficacité sur des consciences réelles.",
-          "I.3 — Formuler la limite interne du premier argument"
+          "Parce que la vérité ne dépend pas de notre capacité à la prouver, il peut exister des vérités dont la vérité même n'exerce aucune force convaincante accessible.",
+          "I.3 — Prouver la limite interne issue de l'objectivité du vrai"
         ],
         [
-          "La preuve ne perd pas sa valeur quand elle n'est pas reconnue ; qu'est-ce qui, dans l'examen réel d'un esprit, peut empêcher la vérité de convaincre ?",
-          "Transition I→II : poser la question née de la distinction"
+          "La vérité d'un jugement ne garantit pas l'existence de raisons permettant de la reconnaître. Peut-on alors faire reposer sa force convaincante non sur le vrai isolé, mais sur la justification que des esprits peuvent examiner ensemble ?",
+          "Transition I→II — Démontrer l'écart vrai / preuve accessible, puis appeler le critère de justification"
         ]
       ]
     ],
     [
-      "II. L'ADHÉSION DÉPEND DE CONDITIONS QUE LE VRAI NE GARANTIT PAS",
+      "II. DES RAISONS PARTAGÉES PEUVENT CONVAINCRE SANS GARANTIR LE VRAI",
       [
         [
-          "Une personne peut refuser une information exacte parce qu'elle bouleverse une conviction à laquelle elle tient ou parce que les termes employés lui sont étrangers.",
-          "II.1 — Établir les obstacles affectifs et cognitifs"
+          "Une proposition devient effectivement défendable lorsqu'on peut en présenter les raisons, confronter des témoignages ou répéter une observation.",
+          "II.1 — Installer la justification publiquement accessible"
         ],
         [
-          "Le refus d'adhérer ne suffit pas à réfuter le contenu de l'information : il peut manifester l'absence d'un examen véritable.",
-          "II.1 — Distinguer objection logique et résistance"
+          "Deux personnes qui doutent du même fait peuvent alors comparer les éléments disponibles au lieu de mesurer leur assurance respective.",
+          "II.1 — Construire le meilleur cas de partage des preuves"
         ],
         [
-          "Un seul refus persistant devant une vérité justifiée suffit cependant à réfuter l'affirmation qu'elle convainc toujours.",
-          "II.1 — Appliquer le quantificateur universel"
+          "C'est la justification contrôlable, et non la simple affirmation d'une vérité que personne ne peut voir, qui rend possible leur accord rationnel.",
+          "II.1 — Distinguer accord rationnel et assertion nue"
         ],
         [
-          "Dans De l'art de persuader, Pascal distingue l'entrée des raisons dans l'entendement des mouvements de la volonté qui orientent l'assentiment.",
-          "II.2 — Mobiliser la distinction pascalienne"
+          "Dans la Critique de la raison pure, Kant distingue la conviction fondée sur des raisons pouvant valoir pour chacun de la persuasion dont les motifs restent seulement subjectifs.",
+          "II.2 — Utiliser la distinction kantienne conviction / persuasion"
         ],
         [
-          "Une preuve peut être proposée au bon moment, dans des mots compréhensibles, et néanmoins se heurter à des dispositions qui en détournent l'attention.",
-          "II.2 — Montrer ce que la réception ajoute à la validité"
+          "Si deux interlocuteurs cherchent ce qu'un argument prouve, ils doivent pouvoir en discuter les prémisses et examiner ce qui le réfuterait, plutôt que se fier à l'autorité du plus assuré.",
+          "II.2 — Établir l'examen public des prémisses"
         ],
         [
-          "Cette description ne rend pas la vérité relative aux préférences de chacun : elle explique pourquoi des hommes ne reconnaissent pas une même justification dans les mêmes circonstances.",
-          "II.2 — Éviter la confusion entre vérité et réception"
+          "Cette exigence éclaire la différence entre convaincre et séduire : une conviction peut se communiquer par des raisons que l'autre est en mesure de juger.",
+          "II.2 — En déduire un critère de conviction non manipulatoire"
         ],
         [
-          "La communication doit donc s'occuper de l'accès aux raisons sans prendre leur valeur pour une question de popularité.",
-          "II.2 — Déduire une exigence pédagogique"
+          "Elle conserve ainsi la valeur de la vérité comme objectif, tout en prenant au sérieux les conditions réelles de notre connaissance.",
+          "II.2 — Conserver l'orientation de la justification vers la vérité"
         ],
         [
-          "Mais un discours séduisant peut obtenir l'accord d'un auditeur sans lui donner la moindre preuve.",
-          "II.3 — Éprouver le modèle purement psychologique de l’adhésion"
+          "Pourtant, des raisons sincèrement examinées et largement partagées peuvent demeurer insuffisantes pour établir que ce qu'elles soutiennent est vrai.",
+          "II.3 — Interroger la suffisance de raisons examinées"
         ],
         [
-          "Si nous appelions convaincante toute parole qui obtient un assentiment, une flatterie recevrait le même titre qu'un raisonnement valable.",
-          "II.3 — Déduire l’effacement de la différence entre vérité et manipulation"
+          "L'observation répétée de cygnes blancs ne démontre pas que tous les cygnes sont blancs : un seul cygne noir suffit à réfuter cette généralisation.",
+          "II.3 — Réfuter l'induction universelle par le cygne noir"
         ],
         [
-          "La réception n'est donc pas un critère suffisant de la vérité ni même d'une conviction rationnellement acquise.",
-          "II.3 — Établir la limite interne du second argument"
+          "Même lorsque chacun s'accorde sur les observations, leur portée doit donc être discutée : ce qui rend une affirmation raisonnable à croire ne la rend pas nécessairement vraie.",
+          "II.3 — Distinguer raisons de croire et vérité"
         ],
         [
-          "Rien ne contraint toutefois à choisir entre une preuve sans interlocuteur et une persuasion sans preuve : le problème est de relier l'accès aux raisons à leur examen libre.",
-          "II.3 — Tester la meilleure compatibilité des deux acquis"
+          "La justification ne peut donc remplacer la vérité comme critère ultime sans risquer de prendre pour vrai ce qui n'est que provisoirement bien appuyé.",
+          "II.3 — Démontrer la limite interne des raisons partageables"
         ],
         [
-          "La vérité peut rester sans effet, et une parole fausse peut obtenir l'assentiment ; comment rendre une preuve accessible sans substituer l'art de plaire à l'acte de juger ?",
-          "Transition II→III : expliquer le déficit du meilleur cumul"
+          "La vérité peut excéder toute preuve disponible, tandis qu'une justification partageable peut excéder ce qu'elle établit réellement. Les additionner ne suffit donc pas à expliquer en quel sens la vérité, plutôt que la simple assurance, a une force convaincante : quel rapport doit unir nos raisons à ce qui les rend vraies ou fausses ?",
+          "Transition II→III — Relier les deux non-implications et établir le déficit du cumul"
         ]
       ]
     ],
     [
-      "III. CONVAINCRE PAR LE VRAI SUPPOSE UN EXAMEN QUE LA VÉRITÉ NE PRODUIT PAS À ELLE SEULE",
+      "III. LA VÉRITÉ PEUT CONVAINCRE EN ORIENTANT ET EN CORRIGEANT L'EXAMEN DES RAISONS",
       [
         [
-          "Il faut d'abord distinguer la validité d'une justification et son appropriation par la personne à qui elle est adressée.",
-          "III.1 — Première opération : séparer les deux sens de la force d’une preuve"
+          "Le double écart découvert oblige à changer de critère : ni la vérité simplement affirmée ni l'accord obtenu ne permettent, à eux seuls, de reconnaître une conviction fondée.",
+          "III.1 — Changer le critère face à la double non-implication"
         ],
         [
-          "Une démonstration reste valide même si personne ne la suit, mais elle ne convainc effectivement que lorsque quelqu'un en reprend les étapes.",
-          "III.1 — Établir une condition de réception rationnelle"
+          "Le vrai doit plutôt servir de norme à nos raisons : une croyance ne mérite notre assentiment que dans la mesure où elle accepte d'être confrontée à ce qui pourrait la démentir.",
+          "III.1 — Poser la vérité comme norme de rectification"
         ],
         [
-          "L'enseignant qui fait vérifier chaque étape transmet moins une conclusion qu'un moyen de la reconnaître par soi-même.",
-          "III.1 — Éprouver la distinction par un exemple scolaire"
+          "Celui qui rencontre un cygne noir doit corriger sa généralisation, même si tous ses interlocuteurs la tenaient auparavant pour certaine.",
+          "III.1 — Éprouver la révision d'une croyance consensuelle"
         ],
         [
-          "La vérité devient ainsi une raison de croire pour l'autre sans cesser d'être indépendante de son bon vouloir.",
-          "III.1 — Dégager le premier résultat"
+          "Ainsi, la vérité n'est pas le nom de notre conviction actuelle : elle désigne ce à quoi toute conviction rationnelle doit pouvoir se mesurer et, au besoin, se soumettre.",
+          "III.1 — Dégager la distinction entre vérité et croyance actuelle"
         ],
         [
-          "Il faut ensuite distinguer l'adaptation d'une explication de la modification opportuniste de ce qu'elle affirme.",
-          "III.2 — Deuxième opération : définir une médiation légitime"
+          "Il en résulte une manière précise de convaincre : fournir des preuves dont on expose aussi les limites et rechercher honnêtement les objections qui pourraient les renverser.",
+          "III.2 — Dériver une pratique probatoire du critère"
         ],
         [
-          "Éclaircir un terme, reprendre une objection et montrer un contre-exemple peuvent rendre le raisonnement accessible sans changer ce qui le rend vrai.",
-          "III.2 — Décrire trois gestes rationnels distincts"
+          "Une mesure isolée ne devient pas plus vraie parce qu'on la répète avec assurance ; des contrôles indépendants, la comparaison avec des faits contraires et la correction d'une erreur permettent d'en éprouver la portée.",
+          "III.2 — Décrire la confrontation critique aux contre-épreuves"
         ],
         [
-          "À l'inverse, flatter une attente pour obtenir le même accord remplacerait l'épreuve des raisons par un effet recherché.",
-          "III.2 — Éprouver la frontière avec la manipulation"
+          "L'interlocuteur n'est alors ni sommé de croire ni invité à suivre une opinion séduisante : il reçoit les moyens de juger la résistance des raisons à l'examen.",
+          "III.2 — Donner à l'interlocuteur les moyens autonomes de juger"
         ],
         [
-          "Convaincre honnêtement demande donc de travailler sur la compréhension de l'interlocuteur sans chercher à commander son assentiment.",
-          "III.2 — Déduire le second résultat"
+          "Ce processus ne fabrique pas la vérité, mais donne aux raisons disponibles la meilleure possibilité de se laisser instruire par elle.",
+          "III.2 — Établir le lien effectif entre justification et vérité"
         ],
         [
-          "Enfin, la possibilité d'une vérification n'est pas la garantie que quelqu'un l'entreprendra.",
-          "III.3 — Troisième opération : distinguer possibilité et nécessité de l’adhésion"
+          "Il faut enfin régler la portée de cette conviction sur le type de justification obtenu, au lieu d'exiger partout la même certitude.",
+          "III.3 — Distinguer les niveaux de certitude"
         ],
         [
-          "Le prisonnier de Platon ne peut imposer à ses compagnons l'itinéraire intellectuel qu'il a lui-même parcouru.",
-          "III.3 — Revenir à la scène comme épreuve"
+          "Une démonstration valide rend sa conclusion nécessaire lorsque ses prémisses sont établies ; une généralisation tirée d'observations reste révisable, même lorsqu'elle résiste bien aux objections.",
+          "III.3 — Prouver les différences déduction / induction"
         ],
         [
-          "Une vérité peut donc fournir les raisons d'une conviction sans convaincre toujours : la dernière initiative appartient à l'examen effectif d'un esprit qui peut encore le refuser.",
-          "III.3 — Conclure sur « toujours » et sur la liberté du jugement"
+          "Quant à une vérité dont aucune trace ne demeure, elle ne devient pas convaincante par le seul fait d'être vraie.",
+          "III.3 — Tester le cas d'une vérité inaccessible"
         ],
         [
-          "Cette réponse respecte à la fois la valeur de la vérité et l'absence de pouvoir automatique de la preuve sur les consciences.",
-          "III.3 — Stabiliser l’acquis sans contradiction inventée"
-        ],
-        [
-          "Comment entretenir publiquement l'examen des preuves lorsque certains interlocuteurs refusent jusqu'aux règles communes de vérification ?",
-          "III.3 Le reste : limite sociale de l’examen volontaire"
+          "La vérité est donc capable de fonder des convictions rationnelles, mais elle n'est pas toujours convaincante : la force de ses raisons dépend de ce qu'on peut établir et soumettre à l'examen, sans se confondre avec l'accord effectivement obtenu.",
+          "III.3 — Répondre à l'universalité en préservant la capacité rationnelle de convaincre"
         ]
       ]
     ],
@@ -3091,16 +3087,20 @@
       "CONCLUSION",
       [
         [
-          "Non, la vérité n'est pas toujours convaincante : sa justesse peut demeurer entière sans être comprise ou acceptée, et une adhésion provoquée sans examen n'en constitue pas une reconnaissance rationnelle.",
-          "Répondre explicitement à « toujours »"
+          "Non, la vérité n'est pas toujours convaincante : une proposition peut être vraie sans être prouvable, et des éléments de preuve sérieux peuvent justifier provisoirement une croyance erronée.",
+          "Réponse nette à toujours"
         ],
         [
-          "Le retour du prisonnier dans la caverne montre pourquoi voir ne suffit pas à faire voir : l'autre doit encore pouvoir suivre et vouloir entreprendre l'examen.",
-          "Éclairer la scène initiale"
+          "Sa force propre n'est donc ni un pouvoir magique de susciter l'adhésion ni la popularité d'une opinion, mais l'exigence de soumettre nos raisons à ce qui pourrait les confirmer ou les réfuter.",
+          "Rappeler le gain de la résolution"
         ],
         [
-          "Comment entretenir publiquement l'examen des preuves lorsque certains interlocuteurs refusent jusqu'aux règles communes de vérification ?",
-          "Ouvrir sur le reste précis"
+          "Dans la caverne de Platon, le prisonnier revenu ne pourrait convaincre en répétant qu'il a vu la lumière ; il faudrait que ses compagnons puissent examiner autrement ce qu'ils prennent pour réel.",
+          "Relire la scène à la lumière de l'enquête"
+        ],
+        [
+          "Lorsqu'une décision ne peut attendre des preuves décisives, jusqu'où peut-on raisonnablement agir sur une conviction encore incertaine ?",
+          "Ouvrir un reste neuf sans le répéter dans III"
         ]
       ]
     ]
