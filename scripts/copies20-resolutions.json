@@ -1245,7 +1245,7 @@
       "candidates": [
         {
           "id": "retenue",
-          "proposal": "Expliquer les termes, reconstruire un raisonnement, répondre aux objections : c’est permettre à l’autre de reconnaître lui-même ce qui justifie l’affirmation.",
+          "proposal": "Convaincre honnêtement demande donc de travailler sur la compréhension de l'interlocuteur sans chercher à commander son assentiment.",
           "preserves": [
             "S’imposer par ses raisons",
             "Être reconnue par d’autres esprits"
@@ -1276,16 +1276,16 @@
       "comparison": "L’appropriation par examen relie les plans au lieu de les juxtaposer, et distingue apprentissage et répétition persuasive.",
       "strongestObjection": "Une preuve comprise peut rester refusée par intérêt.",
       "responseToObjection": "Le refus de vérifier demeure une limite : le mécanisme n’est pas une garantie d’adhésion.",
-      "residual": "Reste que l’interlocuteur peut refuser toute vérification : rendre la preuve accessible ne garantit pas qu’il acceptera de l’examiner.",
-      "conclusionQuestion": "Lorsque toute vérification est refusée, comment défendre la vérité sans confondre la conviction rationnelle avec une adhésion imposée ?",
+      "residual": "Comment entretenir publiquement l'examen des preuves lorsque certains interlocuteurs refusent jusqu'aux règles communes de vérification ?",
+      "conclusionQuestion": "Comment entretenir publiquement l'examen des preuves lorsque certains interlocuteurs refusent jusqu'aux règles communes de vérification ?",
       "economy": {
         "principle": "Préserver raisons, objection et réponse avant de supprimer une phrase.",
-        "words": 625
+        "words": 1017
       },
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
-        "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
+        "independentReview": "Réécriture argumentée V7.4 : opérateur contrôlé, contre-modèle testé. Absence de certification indépendante ; références en paraphrase, non en citations littérales."
       },
       "subjectVerification": {
         "code": "25-PHGEME1",
@@ -1294,20 +1294,21 @@
         "title": "La vérité est-elle toujours convaincante ?",
         "sourceDocument": "Document officiel de la session 2025, libellé contrôlé page 2 ; index ministériel lié dans la page."
       },
-      "copySha256": "9594594076a4032bc7ea4421aeea6745bb6fe0e966de248ded7719df3b3bd6da",
+      "copySha256": "5b28ad3a9fd329c96096b6f8f55c99513c03dc274aa342433287e079a2672c28",
       "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
+        "reference": "Plan dynamique V7.4 prioritaire ; protocole expérimental subordonné",
         "racine": [
           "S’imposer par ses raisons",
           "Être reconnue par d’autres esprits"
         ],
-        "presupposeCommun": "La validité d’une preuve et sa réception seraient extérieures l’une à l’autre : l’une affaire de raisons, l’autre affaire de dispositions.",
-        "forme": "réciprocité",
+        "presupposeCommun": "Toute vérité fournirait automatiquement son propre assentiment ; la validité d'une preuve serait confondue avec son accueil effectif.",
+        "forme": "preuve de non-universalité, puis distinction validité / réception",
         "problematique": "P1",
         "branchesIntroduction": "B2",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
-        "cumul": "« La preuve pour les esprits ouverts, l’art de plaire pour les autres » : sous le présupposé, ce que l’art de plaire obtient n’est pas une reconnaissance de la preuve. Le cumul reconduit à la seconde branche.",
-        "meilleurCas": "Le prisonnier revenu, qui dit vrai, n’est pas cru ; l’interlocuteur le mieux disposé peut être gagné par une flatterie."
+        "statut": "réécriture de fond proposée, non homologuée",
+        "cumul": "Une preuve valide et le refus de l'examiner sont compatibles ; un seul cas suffit à réfuter le « toujours ». La troisième partie explique l'appropriation sans inventer de contradiction.",
+        "meilleurCas": "Un raisonnement exact face à un lecteur qui en refuse l'examen demeure vrai sans le convaincre.",
+        "matriceCandidate": "distinction de la justification et de son appropriation libre"
       }
     },
     "2025-me-avenir-technique": {
