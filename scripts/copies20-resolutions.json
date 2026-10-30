@@ -1271,10 +1271,20 @@
           ],
           "cost": "N'explique pas ce qui fonde la force rationnellement convaincante de certaines vérités.",
           "remainingProblem": "Ce qui rend légitime un assentiment demeure inexpliqué."
+        },
+        {
+          "id": "alternative-2",
+          "proposal": "Suspension épistémique : proportionner l'assentiment aux preuves accessibles, refuser la certitude sans justification et rendre les convictions révisables.",
+          "preserves": [
+            "Indépendance de la vérité à l'égard de nos preuves",
+            "Justification rationnelle selon la force des raisons disponibles"
+          ],
+          "cost": "Renoncer à prétendre qu'une proposition vraie serait toujours connaissable ou capable de contraindre rationnellement à croire.",
+          "remainingProblem": "Quand une décision est urgente, la suspension théorique de l'assentiment ne fixe pas encore une règle pratique."
         }
       ],
       "selected": "retenue",
-      "comparison": "Matrice principale : DÉPLACEMENT, du caractère prétendument intrinsèquement persuasif d'une proposition à la vérité comme norme de rectification des raisons. Duplication (vérité / justification / assentiment) auxiliaire ; processualisation de la vérification auxiliaire. Comparaison avec duplication seule et abolition : elles n'expliquent pas ensemble possibilité et faillibilité d'une conviction rationnelle.",
+      "comparison": "Balayage explicite des huit matrices dans docs/audits/reconstruction-verite-convaincante-v74-2026-10-30.md ; comparaison qualitative non compensatoire entre déplacement (effectivement adopté par III, non validé), suspension épistémique (contre-candidate mieux ajustée à A* et B*, mais non testée dans un nouveau 3×3) et abolition (contre-plan simplificateur). Aucun choix définitivement homologué, car le test N de nécessité de III demeure ouvert.",
       "strongestObjection": "La simple réponse « non, certaines vérités sont sans preuve » règle déjà l'universalité de « toujours » ; le reste de la copie risque d'ajouter une théorie étrangère au sujet.",
       "responseToObjection": "Le verbe « convaincante » exige de distinguer l'influence psychologique de la capacité rationnelle d'une vérité à justifier l'assentiment. La nouvelle III clarifie ce lien au moyen de la vérification rectifiable ; cette justification de la nécessité de III reste proposée à audit contradictoire.",
       "residual": "Lorsqu'une décision ne peut attendre des preuves décisives, jusqu'où peut-on raisonnablement agir sur une conviction encore incertaine ?",
@@ -1286,7 +1296,7 @@
       "review": {
         "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
         "status": "propose",
-        "independentReview": "Reconstruction de fond V7.4 produite par l'opérateur, non auditée indépendamment. Double non-implication vérité/justification mise à l'épreuve ; III construite par déplacement puis vérification critique. Reste placé uniquement en conclusion. Objection encore ouverte : nécessité stricte de III après contre-exemple simple ; vérité réaliste sans preuve et fallibilité des généralisations sont à discuter."
+        "independentReview": "Contre-audit interne enrichi : huit matrices balayées, déplacement actuel non homologué, suspension épistémique reconnue comme concurrente, contre-plan négatif minimal encore potentiellement suffisant. Audit externe indépendant non réalisé ; ne pas publier comme modèle."
       },
       "subjectVerification": {
         "code": "25-PHGEME1",
@@ -1295,7 +1305,7 @@
         "title": "La vérité est-elle toujours convaincante ?",
         "sourceDocument": "Document officiel de la session 2025, libellé contrôlé page 2 ; index ministériel lié dans la page."
       },
-      "copySha256": "05660309e1ff6232781d926c458cb56632eb9f388d1ac7cdc4eeae407e20b768",
+      "copySha256": "bb094937af46efd2de8e0add990a69782684ec3524f7c218a3b57ad5568103dc",
       "protocol": {
         "reference": "Protocole du plan dynamique V7.4 prioritaire (V8.0 expérimental subordonné)",
         "racine": [
@@ -1309,7 +1319,7 @@
         "statut": "rédaction reconstructive non homologuée et non publiée",
         "cumul": "Une preuve correcte peut établir une vérité et emporter un accord éclairé. Cette coexistence est possible mais n'élimine ni les vérités sans preuve ni les raisons empiriques indéterminées ou fallibles ; pour attribuer la force de conviction à la vérité, une norme de rectification est nécessaire.",
         "meilleurCas": "Une démonstration exacte comprise rend nécessaire l'assentiment rationnel ; un examen empirique partagé peut soutenir une croyance fausse malgré la sincérité et l'intelligence des interlocuteurs.",
-        "matriceCandidate": "DÉPLACEMENT : de la vérité comme propriété supposée automatiquement persuasive à la vérité comme norme d'examen et de rectification. DUPLICATION auxiliaire et PROCESSUALISATION de l'enquête. Coût : pas de garantie universelle d'accès ou d'adhésion.",
+        "matriceCandidate": "Déplacement dans le texte actuel, non homologué. Suspension épistémique candidate sérieuse, avec processualisation auxiliaire. La nécessité du troisième mouvement face au contre-plan négatif simple reste non démontrée.",
         "remainderPlacement": "conclusion-only"
       }
     },
