@@ -34,7 +34,17 @@ function check(copies, ledger, additional = {}) {
     if (record.review?.status === 'relu' && (!text(record.review.reviewer) || !text(record.review.reviewedAt))) fail(key, 'relecture déclarée sans auteur ni date');
     const iii = copy.find(([h]) => h.startsWith('III.'))?.[1] || [];
     const conclusion = copy.find(([h]) => h === 'CONCLUSION')?.[1] || [];
-    if (!iii.some(([t, f]) => f.startsWith('III.3') && /reste/i.test(f) && t === record.residual)) fail(key, 'reste absent de III.3 ou désaccord avec le dossier');
+    // Nouveaux devoirs V7.4 : un reste intrinsèque ouvre la conclusion,
+    // sans devenir une pseudo-quatrième démonstration en III.3.
+    // Les devoirs antérieurs gardent temporairement leur contrat de compatibilité.
+    const remainderAtConclusionOnly = record.protocol?.remainderPlacement === 'conclusion-only';
+    if (remainderAtConclusionOnly) {
+      if (iii.some(([, f]) => /reste/i.test(f))) fail(key, 'reste parasite inséré dans la troisième partie');
+      if (record.residual !== record.conclusionQuestion) fail(key, 'reste final incohérent avec la question de conclusion');
+      if (iii.some(([t]) => t === record.residual)) fail(key, 'question finale répétée dans III.3');
+    } else if (!iii.some(([t, f]) => f.startsWith('III.3') && /reste/i.test(f) && t === record.residual)) {
+      fail(key, 'reste absent de III.3 ou désaccord avec le dossier (format historique)');
+    }
     if (!iii.some(([t]) => t === chosen?.proposal)) fail(key, 'opération retenue absente de la III');
     const last = conclusion.at(-1);
     if (!last || last[0] !== record.conclusionQuestion || !/\?$/.test(last[0])) fail(key, 'question finale absente ou désaccord avec le dossier');
