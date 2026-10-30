@@ -83,3 +83,34 @@ Les défauts majeurs détectés sur l'ancienne copie ont été traités **dans l
 **Défaut critique non clos :** le test de nécessité de la III contre le contre-plan négatif court. Autres réserves : prémisse réaliste du cas sans trace, portée de l'inférence inductive et non-répétition de III.3.
 
 **Ne pas publier comme « copie à 20 » avant l'audit indépendant requis par V7.4.** Le document sert à l'examen contradictoire de l'architecture reconstruite, sans modifier V7.4 ni V8.0.
+
+## 8. Contre-audit additionnel du choix de matrice (demande de vérification)
+
+**Question contrôlée :** le déplacement choisi dans la copie est-il la meilleure résolution selon la V7.4 ? **Verdict : non démontré.** Le dossier précédent avait comparé qualitativement déplacement, duplication et abolition, mais n'avait ni passé en revue explicitement les huit matrices ni éprouvé systématiquement la suspension épistémique, pourtant très pertinente. Aucun score numérique de « puissance » n'est défini par la V7.4 : la comparaison est **non compensatoire** et exige des preuves de R, A*, B*, du coût, du reste, des résistances et de III.1–III.3.
+
+### Balayage initial des huit matrices
+
+| Matrice | Ce qu'elle fait ici | Premier résultat |
+|---|---|---|
+| Duplication | Distingue vérité, preuves, assentiment. | Clarifie A* et B* ; ne prouve pas le mécanisme entre eux. |
+| Abolition | Abandonne le « toute vérité convainc toujours ». | Répond à « toujours », mais laisse inexplicitée la force rationnelle des vérités démontrées. |
+| Processualisation | Fait varier la conviction selon contrôle, objection et rectification. | Traite la faillibilité B* ; ne rend pas une vérité sans trace accessible (A*). |
+| Inversion | Inverserait une dépendance entre vrai et convaincre. | Aucune dépendance inverse universelle démontrable : l'assentiment ne crée pas la vérité. |
+| Métamorphose | Transformerait une conviction par le progrès de l'enquête. | Risque de renommer la processualisation sans critère nouveau du passage de croyance à savoir. |
+| Déplacement | Substitue à l'efficacité persuasive supposée le vrai comme norme de rectification des raisons. | Rend l'articulation normative intelligible ; ne résout pas l'inaccessibilité de A*. |
+| Suspension épistémique | Suspend l'assentiment si aucune raison n'est accessible et limite la certitude lorsque la justification reste faillible. | Traite distinctement A* et B* sans nier la vérité, candidat central précédemment omis. |
+| Consentement à la contradiction | Conserverait une tension prétendument contradictoire. | Inapproprié : A* et B* ne sont pas contradictoires. |
+
+### Comparaison approfondie des trois candidats principaux
+
+**Déplacement (III actuelle).** **A*** : reconnaît, sans la lever, la vérité sans preuve. **B*** : transforme la justification faillible en enquête autocorrective. **R** : propose le vrai comme norme de rectification, mais ce rapport ne découle pas nécessairement des deux non-implications. **Coût** : la question de la capacité convaincante du vrai est partiellement remplacée par une méthode d'examen. **Reste** : il faut parfois agir sans preuve. **III** : trois propositions identifiables, mais III.3 répète des distinctions déjà établies. **Verdict** : piste plausible, **non validée**.
+
+**Suspension épistémique (contre-candidate sérieuse).** **A*** : l'absence de raison accessible interdit la conviction justifiée, même si le jugement est vrai. **B*** : l'examen honnête d'indices faillibles autorise au mieux une croyance révisable, non une certitude apodictique. **R** : les deux écarts montrent que la force justifiante d'une croyance doit être proportionnée à ce qui est réellement établi, sans identifier le vrai à l'état présent de nos preuves. **Coût** : renoncer à l'exigence de certitude universelle et à l'idée qu'une vérité soit nécessairement convaincante. **Reste** : dans l'urgence pratique, suspendre le jugement ne dit pas encore comment agir. **III possible** : I. distinguer assentiment justifié et vérité ; II. proportionner l'assentiment à la preuve ; III. réviser l'assentiment quand de nouvelles contre-épreuves surviennent. **Réserve** : le premier gain risque de répéter I.3 ; le troisième de répéter II.3, et la nécessité de III reste à prouver. **Verdict** : **candidate potentiellement plus adéquate aux deux limites**, mais non homologuée.
+
+**Abolition (contre-plan simple).** **A*** : un contre-exemple à « toujours » suffit ; **B*** : la faillibilité des preuves confirme la négation d'une garantie générale, mais n'est pas requise pour répondre. **R** : aucune liaison supplémentaire nécessaire à la réponse négative. **Coût** : moins de profondeur sur la justification rationnelle ; **reste** : pourquoi les démonstrations convainquent-elles légitimement ? **III** : insuffisante pour le contrat dynamique 3×3 sans nouvelle architecture. **Verdict** : explique avec économie pourquoi la solution peut être plus simple ; son existence **bloque toute certification** d'une III artificiellement nécessaire.
+
+### Décision non compensatoire
+
+Le **déplacement** demeure la matrice **effectivement inscrite dans la dissertation**, non la « meilleure matrice calculée ». La **suspension épistémique**, associable à une processualisation des contre-épreuves, est maintenant un concurrent sérieux à tester en réarchitecturant les trois sous-parties de III. Cependant le contre-plan « non, certaines vérités sont dépourvues de preuves » demeure potentiellement suffisant. **Le défaut N (nécessité de la III après meilleur cumul) est encore bloquant**, quel que soit le nombre d'indices positifs en faveur d'une matrice.
+
+**Décision : aucune matrice homologuée ; garder la PR en brouillon, ne pas présenter la III actuelle comme définitive.** Le présent de vérité générale a été corrigé en II.3 (« L'observation répétée de cygnes blancs ne démontre pas… »).
