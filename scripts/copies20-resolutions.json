@@ -1247,9 +1247,9 @@
           "id": "retenue",
           "proposal": "Ce processus ne fabrique pas la vérité, mais donne aux raisons disponibles la meilleure possibilité de se laisser instruire par elle.",
           "preserves": [
-            "Indépendance de la vérité par rapport à l'adhésion",
-            "Contrôle intersubjectif de preuves accessibles",
-            "Possibilité de rectifier les convictions appuyées sur des raisons insuffisantes"
+            "La vérité possède des raisons objectives de convaincre",
+            "La conviction doit pouvoir être fondée sur des raisons accessibles et non seulement ressentie",
+            "Possibilité de rectification publique des convictions"
           ],
           "cost": "Les raisons disponibles restent inégales : certaines vérités ne sont pas vérifiables, et les preuves empiriques ne sont pas infaillibles.",
           "remainingProblem": "Lorsqu'une action ne peut attendre de preuves décisives, quelles convictions provisoires suffisent à la décider légitimement ?"
@@ -1309,7 +1309,8 @@
         "statut": "rédaction reconstructive non homologuée et non publiée",
         "cumul": "Une preuve correcte peut établir une vérité et emporter un accord éclairé. Cette coexistence est possible mais n'élimine ni les vérités sans preuve ni les raisons empiriques indéterminées ou fallibles ; pour attribuer la force de conviction à la vérité, une norme de rectification est nécessaire.",
         "meilleurCas": "Une démonstration exacte comprise rend nécessaire l'assentiment rationnel ; un examen empirique partagé peut soutenir une croyance fausse malgré la sincérité et l'intelligence des interlocuteurs.",
-        "matriceCandidate": "DÉPLACEMENT : de la vérité comme propriété supposée automatiquement persuasive à la vérité comme norme d'examen et de rectification. DUPLICATION auxiliaire et PROCESSUALISATION de l'enquête. Coût : pas de garantie universelle d'accès ou d'adhésion."
+        "matriceCandidate": "DÉPLACEMENT : de la vérité comme propriété supposée automatiquement persuasive à la vérité comme norme d'examen et de rectification. DUPLICATION auxiliaire et PROCESSUALISATION de l'enquête. Coût : pas de garantie universelle d'accès ou d'adhésion.",
+        "remainderPlacement": "conclusion-only"
       }
     },
     "2025-me-avenir-technique": {
