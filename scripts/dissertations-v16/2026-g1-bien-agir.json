@@ -1,0 +1,120 @@
+{
+ "id": "2026-g1-bien-agir",
+ "subject": "Peut-on être certain d’avoir bien agi ?",
+ "notion": "Le devoir ; la conscience",
+ "fiche": {
+  "operateur": "possibilité (« peut-on ») d’une certitude portant sur une action passée, jugée par l’agent ; question descriptive portant sur un jugement normatif.",
+  "sens": "certain : (1) se sentir sûr ; (2) pouvoir rendre raison de ce qu’on tient pour vrai au point d’écarter un doute sérieux — sens retenu, (1) rend le sujet trivial. bien agir : (1) agir par une volonté droite ; (2) faire ce que la situation exigeait. avoir : l’acte est passé, le jugement vient après.",
+  "substitutions_interdites": "certain ≠ infaillible ; bien agir ≠ réussir ; jugement de l’agent ≠ jugement d’autrui seul.",
+  "verrou": "Oui : établir qu’une certitude fondée est possible au moins dans certains cas. Non : établir que la structure même du jugement l’empêche toujours. Glissements interdits : du doute possible à l’impossibilité ; de certain à infaillible ; de certains actes à tous.",
+  "trois_reponses": "Spontanée : oui, je sais ce que j’ai voulu. Contraire : non, mes mobiles et les suites m’échappent. Conciliation : oui, d’une certitude pratique révisable, suffisante pour agir.",
+  "conciliation_1_8bis": "Thèse : certitude de la décision, incertitude de l’issue ; partage des objets. Cas où elle hésite : l’enquête de l’Hudson, où la décision elle-même est mise en doute par des simulations ; la conciliation doit trancher sans raison entre la certitude de l’agent et le verdict révisé.",
+  "brouillon": {
+   "a": "Oui : je sais ce que j’ai voulu, et la volonté fait la valeur d’un acte.",
+   "b": "Elle établit que je connais ma décision ; elle ne permet pas encore de savoir si cette décision est ce qui m’a fait agir, car la conscience d’une règle n’est pas la connaissance de ses mobiles.",
+   "c": "Il faut chercher hors de la conscience ce qui atteste qu’un acte était bon : l’acte lui-même, que d’autres examinent.",
+   "d": "L’examen des faits établit ce que l’acte a produit et ce qui était possible ; il mesure l’acte à ce qu’on sait après coup, non à ce que l’agent pouvait savoir.",
+   "e": "L’une juge en deçà de l’acte, l’autre au-delà ; il reste à trouver la mesure de l’acte dans la situation même de l’agent."
+  },
+  "A": "On peut être certain d’avoir bien agi, puisque la valeur de l’acte tient à la volonté qui le décide et que cette volonté est connue de l’agent.",
+  "FA": "Définition (III.3). 1. Juger moralement un acte, c’est juger la règle que l’agent s’est donnée, non son succès (E : contre-exemples du sauvetage manqué et de l’aide intéressée). 2. Cette règle est formée en délibérant par l’agent lui-même (E). 3. Ce qu’on forme en délibérant, on peut le redire et l’examiner (E). Donc la certitude porte sur un objet accessible.",
+  "XA": "Je peux savoir avec certitude ce que j’ai décidé et pour quelle raison déclarée, et que l’issue n’en fait pas la valeur.",
+  "YA": "Que cette intention consciente est bien ce qui a déterminé l’acte.",
+  "ZA": "FA procède par la conscience de la règle ; or se représenter une règle n’est pas connaître la cause qui fait agir.",
+  "type_LA": "condition non établie",
+  "LA": "La conscience de mon intention ne permet donc pas encore d’établir que cette intention est bien ce qui a déterminé mon acte.",
+  "six_LA": "Mesure : XA écrit. Filiation : la prémisse 3 (examen de ce qu’on forme) ne porte que sur le contenu de la règle, d’où la limite ; sans FA elle ne s’écrit plus. Meilleur cas : même l’acte contraire à l’intérêt peut être porté par le désir d’être admiré. Absorption : FA répondrait « j’agirais de même sans témoin » ; c’est encore un rapport de conscience. Non-lacune : FA parfaitement démontré n’atteint toujours que le contenu. Calibration : « ne permet pas encore », non « interdit ».",
+  "T1": "Nous avons établi que je connais ma décision ; mais cela ne permet pas encore de connaître ce qui m’a fait agir, parce que FA ne tient que de la conscience de la règle ; il faut donc examiner ce qui, hors de la conscience, atteste qu’un acte était bon (W). W déterminé par ZA : la condition manquante ne peut venir que d’une source non introspective.",
+  "B": "On peut être certain d’avoir bien agi par l’examen de l’acte, que d’autres peuvent constater ; B conserve XA (la décision reste l’objet jugé).",
+  "FB": "Fait et témoins (III.3). 1. Ce qui s’est passé ne dépend plus de ce que l’agent en pense (E). 2. Des faits établis et rapprochés par des tiers qui ne sont pas juges de leur propre cause échappent à l’amour-propre (E). 3. Donc l’examen public de l’acte donne une certitude que l’introspection ne donne pas. Indépendance : vaut sans la limite de A (procédure d’enquête). Principe propre : l’impartialité de l’examen.",
+  "XB": "On peut établir avec certitude ce que l’acte a produit et ce qui était possible dans la situation.",
+  "YB": "Que l’agent a bien agi dans la situation telle qu’elle lui était accessible.",
+  "ZB": "FB mesure l’acte à la situation reconstituée après coup, avec un savoir que l’agent n’avait pas.",
+  "type_LB": "distinction indispensable (situation connue après coup / situation accessible)",
+  "LB": "L’examen des faits mesure l’acte à la situation telle qu’on la connaît après coup ; il ne permet donc pas encore d’établir si l’agent a bien agi dans la situation telle qu’elle lui était accessible.",
+  "six_LB": "Mesure : XB écrit. Filiation : prémisse 2 (faits établis après coup par des tiers). Meilleur cas : même l’enquête la plus scrupuleuse sait la fin de l’histoire. Absorption : FB peut ajouter des données, non retirer ce qu’il sait. Non-lacune : oui. Calibration : « ne permet pas encore ». Geste principal différent de I.3 : cas exemplaire (les simulations), contre la condition manquante en I.3.",
+  "T2": "Bilan : XA et XB conservés. ρ : hétérogénéité de niveaux (en deçà de l’acte : la règle consciente ; au-delà : le savoir rétrospectif). Preuve : FA n’atteint pas l’acte effectif, FB ne l’atteint qu’avec un savoir étranger à l’agent ; aucun des deux n’a pour objet la situation accessible. D : établir une mesure de l’acte rapportée à ce que l’agent pouvait savoir, et vérifiable par d’autres. Cumul : juger l’intention puis le résultat juge deux objets, jamais l’acte décidé ; sur le cas témoin, il ne tranche pas la question de l’enquête (mécanisme : ne répond pas avec l’opérateur sur le cas). Classe : décision.",
+  "epreuves": "1. Contre-exemple : l’agent qui se sait sans intérêt — FA n’y gagne que la conscience d’en être sans. 2. Meilleur cas : survit (voir six exigences). 3. Cumul : échoue par mécanisme écrit. 4. Antériorité : la distinction juridique de « l’état des connaissances au moment de l’acte » existe ; elle demande un travail (reconstitution) : candidat de III, transposé.",
+  "soupcon_aporie": "aucun indice ; régime ordinaire.",
+  "chemins_echoues": "Chemin « intention / effets » avec III « bien décidé » (ancienne copie) : glisse vers une question voisine (décider ≠ agir) ; écarté.",
+  "dictionnaire": "non consulté.",
+  "phrase_mouvement": "A, parce que la valeur tient à la règle que je connais, établit que je sais ce que j’ai décidé ; mais cela ne permet pas encore de savoir ce qui m’a fait agir, parce que je n’ai que la conscience de ma règle ; il faut donc examiner l’acte du dehors. B, parce que l’examen impartial des faits, établit ce que l’acte a produit et ce qui était possible ; mais non si l’agent a bien agi dans sa situation, parce qu’il juge avec un savoir rétrospectif. Or l’un juge en deçà, l’autre au-delà de l’acte ; il reste donc une mesure de l’acte rapportée à la situation accessible.",
+  "probleme_directeur": "Peut-on être certain d’avoir bien agi, si ni la conscience ni l’examen rétrospectif ne mesurent l’acte à la situation de l’agent ?",
+  "problematique": "Si je sais ce que j’ai voulu, et si d’autres peuvent établir ce que mon acte a produit, peut-on être certain d’avoir bien agi, quand la conscience ignore ses propres mobiles et que le verdict des faits sait ce que l’agent ignorait ?",
+  "forme_problematique": "G3 (deux protases d’acquis, interrogation gardant l’opérateur). Reconstruction : on part de l’intention, on bute sur les mobiles, on passe aux faits, on bute sur le savoir rétrospectif ; la III doit trouver la mesure intermédiaire. Relecture : « peut-on être certain » conservé, aucun quantificateur ajouté.",
+  "critere": "Sur le cas témoin, une solution devra dire si Sullenberger a bien agi, conserver la connaissance de sa décision et l’établissement des faits, expliquer pourquoi la conscience et l’enquête nue s’arrêtaient, et fournir la mesure de l’acte rapportée à ce qu’il pouvait savoir.",
+  "contrainte_scene": "montrer un agent sûr de son intention, un résultat heureux, et un examen rétrospectif qui met pourtant l’acte en doute.",
+  "III": {
+   "operation": "médiateur entre niveaux (III.7 a) : la situation d’action reconstituée.",
+   "III1": "Reconstituer la situation d’action : ce que l’agent savait, pouvait savoir, le temps dont il disposait.",
+   "III2": "Cette mesure conserve la décision (XA) et les faits (XB), explique LA (la conscience n’a que la règle) et LB (l’enquête nue juge avec le savoir d’après), et se refait à plusieurs.",
+   "III3": "Oui : on peut être certain d’avoir bien agi au sens où l’acte répondait à ce que la situation accessible exigeait, jugement qui résiste à l’examen d’autrui ; vérifié sur l’Hudson. Reste : les actes sans témoin ni trace.",
+   "tests": "Cas témoin : la III tranche la question de l’enquête, ce que ni A, ni B, ni leur cumul ne faisaient. Second cas : le médecin qui a prescrit selon les données disponibles, avant qu’une étude ultérieure montre un effet nocif — la III le dit bien agi. Restitution : oui. Rechute : le reste (actes sans témoin) ne redit ni LA ni LB. Test propre : le médiateur n’est ni l’intention ni le résultat. Report : la question ne se repose pas à l’identique pour la reconstitution, qui est vérifiable. Retour : répond à la problématique. Acquis nouveau : prémisse nouvelle — un acte se juge comme réponse à une situation définie par l’information et le temps disponibles ; nécessaire (sans elle, la question de l’enquête reste indécidée)."
+  },
+  "candidats_III": [
+   {"id": "retenue", "operation": "Médiateur entre niveaux", "proposition": "Juger l’acte comme réponse à la situation reconstituée, telle qu’elle était accessible à l’agent.", "verdict": "retenue", "raison": "Conserve la décision et les faits, explique les deux arrêts, tranche le cas témoin."},
+   {"id": "ordre", "operation": "Principe d’ordre", "proposition": "En cas de conflit, l’intention l’emporte toujours sur les effets.", "verdict": "écartée", "raison": "Rechute dans la première réponse : les mobiles restent inconnus."},
+   {"id": "frontiere", "operation": "Critère de frontière", "proposition": "L’intention décide de la valeur morale, les effets de la valeur technique.", "verdict": "écartée", "raison": "Simple partage : sur l’Hudson, il ne dit pas si le pilote a bien agi."},
+   {"id": "condition", "operation": "Condition", "proposition": "La certitude n’est possible que pour des raisons exposées à autrui avant d’agir.", "verdict": "dominée", "raison": "Elle juge encore des raisons, non l’acte, et laisse l’établissement des faits sans emploi."}
+  ],
+  "generateur": "figure : les niveaux ; registre opératoire : par cas et variation ; registre de lecture : par cas ; branches B1 ; annonce N1.",
+  "scene": "Sullenberger et l’Hudson (15 janvier 2009) ; enquête du NTSB, simulations avec et sans délai de réaction de 35 secondes (rapport AAR-10/03, 2010). Verdict : homologue. Retour : la III fait de la reconstitution des trente-cinq secondes la mesure même de l’acte.",
+  "statut": {"problematique": "suffisamment justifiée", "copie": "état de travail (architecture expérimentale)"}
+ },
+ "citations": [
+  {"texte": "Je ne puis l’avoir fait — dit mon orgueil, qui reste inflexible. La mémoire — finit par céder.", "contexte": "« Je l’ai fait » dit ma mémoire.", "auteur": "Nietzsche", "oeuvre": "Par-delà bien et mal", "lieu": "§ 68", "edition": "Œuvres complètes, dir. Patrick Wotling, Flammarion, 2024", "verification": "œuvre fournie, passage retrouvé mot pour mot", "regime": "citation exacte", "fonction": "I.3 : faire voir que la conscience de soi rapporte ce que l’orgueil admet, non ce qui s’est passé ; la preuve tient sans elle (ZA)."}
+ ],
+ "copy": [
+  ["INTRODUCTION", [
+   ["Le 15 janvier 2009, privé de ses deux moteurs, l’avion du commandant Sullenberger se pose sur l’Hudson, et les cent cinquante-cinq personnes à bord survivent.", "Introduction · la scène"],
+   ["Des mois plus tard, l’enquête fait rejouer le vol au simulateur, et des pilotes qui virent aussitôt rejoignent la piste de LaGuardia.", "Introduction · la scène : ce qui met l’acte en doute"],
+   ["Le pilote savait ce qu’il voulait sauver, et tout s’est bien terminé ; pourtant, ni cette conscience ni cette issue ne répondent à la question que l’enquête lui pose.", "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"],
+   ["On attend d’une bonne action qu’elle procède d’une volonté droite, mais aussi qu’elle réponde à ce que la situation exigeait.", "Introduction · l’enjeu : les deux sens de « bien agir »"],
+   ["Être certain d’avoir bien agi, ce n’est pas seulement s’en sentir sûr : c’est pouvoir, après coup, rendre raison de ce jugement au point d’écarter tout doute sérieux.", "Introduction · les mots du sujet, sans le recopier"],
+   ["Si l’on répond oui, parce que chacun sait ce qu’il a voulu, on ne sait pas encore si ce vouloir est ce qui nous a fait agir ; si l’on répond non, parce que seuls les faits établis par d’autres tranchent, on juge l’agent avec ce qu’il ne pouvait savoir.", "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"],
+   ["Si je sais ce que j’ai voulu, et si d’autres peuvent établir ce que mon acte a produit, peut-on être certain d’avoir bien agi, quand la conscience ignore ses propres mobiles et que le verdict des faits sait ce que l’agent ignorait ?", "Introduction · la problématique : une seule question, qui garde « peut-on être certain »"],
+   ["On examinera d’abord pourquoi la conscience de son intention paraît suffire, et jusqu’où cette raison la porte ; ce qu’elle laisse en suspens obligera à examiner ce qui, hors de la conscience, atteste qu’un acte était bon ; il faudra alors établir ce que ces deux voies, ensemble, laissent encore ouvert.", "Introduction · l’annonce : le mouvement, et la tâche de la III sans sa réponse"]
+  ]],
+  ["I. CE QUE J’AI VOULU, JE LE SAIS", [
+   ["On peut être certain d’avoir bien agi, car la valeur d’un acte tient à la volonté qui le décide, et cette volonté est la mienne.", "I.1 Établir la première réponse : sa prétention exacte"],
+   ["Les effets dépendent du vent, des autres, du hasard ; la décision ne dépend que de moi, et c’est elle que je juge quand je me demande si j’ai bien agi.", "I.1 Ce qu’elle sauve : le mérite de l’agent, indépendant du hasard"],
+   ["Juger moralement un acte, en effet, c’est juger la règle que l’agent s’est donnée, non son succès : un sauvetage manqué par malchance n’est pas une faute, une aide réussie par calcul n’est pas une bonne action.", "I.2 La fonder par une définition : ce qui est jugé dans un acte"],
+   ["Or cette règle, je l’ai formée moi-même en délibérant ; je peux donc la redire, l’examiner, me demander si tout autre devrait la suivre à ma place.", "I.2 L’inférence décisive : la règle est accessible à celui qui l’a formée"],
+   ["La certitude d’avoir bien agi porterait ainsi sur un objet qui m’est entièrement accessible.", "I.2 Ce que le fondement conclut"],
+   ["Cette raison établit une chose réelle : je peux savoir avec certitude ce que j’ai décidé et pour quelle raison, et que l’issue n’en fait pas la valeur.", "I.3 L’éprouver : ce que la raison établit vraiment"],
+   ["Mais elle procède en interrogeant la conscience que j’ai de ma règle, et se représenter une règle n’est pas connaître ce qui fait agir : je peux penser au devoir pendant que le désir d’être admiré décide à sa place.", "I.3 Ce qu’elle ne permet pas encore, et pourquoi : la raison tirée du fondement lui-même"],
+   ["Nietzsche fait voir ce glissement jusque dans le souvenir : quand la mémoire dit « Je l’ai fait », il ajoute : « Je ne puis l’avoir fait — dit mon orgueil, qui reste inflexible. La mémoire — finit par céder. »", "I.3 Citation qui fait voir le mécanisme ; la preuve tient sans elle"],
+   ["La conscience de mon intention ne permet donc pas encore d’établir que cette intention est bien ce qui a déterminé mon acte.", "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"],
+   ["Je sais ce que j’ai décidé ; mais ce savoir ne dit pas ce qui m’a fait agir, parce qu’il ne tient que de la conscience que j’ai de ma règle.", "Transition · ce qui est établi, ce qui manque, et pourquoi"],
+   ["Il faut donc chercher hors de la conscience ce qui atteste qu’un acte était bon : un acte, puisqu’il change quelque chose dans le monde, ne peut-il être jugé par ce qu’il y a fait ?", "Transition · l’examen que ce manque rend nécessaire, en question"]
+  ]],
+  ["II. CE QUE L’ACTE A FAIT, D’AUTRES PEUVENT L’ÉTABLIR", [
+   ["Un acte peut être jugé par ce qu’il a fait, car bien agir, c’est aussi faire ce que la situation demandait : sauver ceux qui pouvaient l’être, réparer ce qui pouvait l’être.", "II.1 La seconde réponse : elle répond à l’examen demandé"],
+   ["Cela, d’autres que moi peuvent le constater, sans renier ma décision : ils cherchent seulement hors d’elle de quoi la vérifier.", "II.1 Ce qu’elle conserve de la première : la décision reste ce qu’on juge"],
+   ["Ce qui s’est passé ne dépend plus de ce que j’en pense : les faits peuvent être établis, rapprochés, soumis à des témoins qui n’ont pas mes raisons de me flatter.", "II.2 La fonder par les faits et les témoins : un principe propre, l’impartialité"],
+   ["C’est le travail de l’enquête après l’Hudson : enregistrements, trajectoires, temps de réaction, tout est reconstitué et comparé à ce qui était possible.", "II.2 Le matériau : l’enquête"],
+   ["Une certitude naît ainsi qui ne doit rien à l’amour-propre, puisque personne n’y est juge de sa propre cause.", "II.2 L’inférence décisive"],
+   ["Cet examen établit ce que l’acte a produit et ce qui était possible dans la situation.", "II.3 L’éprouver : ce que la seconde raison établit"],
+   ["Mais les pilotes du simulateur connaissaient d’avance la panne ; lorsqu’on leur imposa trente-cinq secondes pour comprendre ce qui arrivait, ils n’atteignirent plus la piste.", "II.3 Le cas qui éprouve le fondement : un autre geste qu’en I.3"],
+   ["L’examen des faits mesure l’acte à la situation telle qu’on la connaît après coup ; il ne permet donc pas encore d’établir si l’agent a bien agi dans la situation telle qu’elle lui était accessible.", "II.3 Ce que la seconde réponse ne permet pas encore, et pourquoi"],
+   ["Je sais ce que j’ai décidé, et d’autres peuvent établir ce que l’acte a produit ; mais l’une de ces certitudes se tient en deçà de l’acte, dans une conscience qui ignore ses mobiles, l’autre au-delà, dans un savoir que l’agent n’avait pas.", "Transition · les deux acquis, et le rapport qui les sépare"],
+   ["Les additionner, c’est juger tour à tour l’intention et le résultat, jamais l’acte tel qu’il fut décidé : que faudrait-il donc pour mesurer un acte à la situation même de celui qui l’accomplit ?", "Transition · pourquoi leur addition échoue, et ce qui reste à établir, en question"]
+  ]],
+  ["III. JUGER L’ACTE DANS SA SITUATION", [
+   ["Pour mesurer un acte à la situation de celui qui l’accomplit, il faut la reconstituer : ce que l’agent savait, ce qu’il pouvait savoir, le temps dont il disposait, les possibilités ouvertes à ce moment-là.", "III.1 L’opération que la difficulté exige : un terme qui relie l’intérieur et l’extérieur de l’acte"],
+   ["Cette reconstitution n’est ni l’intention, qui reste intérieure, ni le résultat, qui vient après : elle est la mesure commune qui permet de juger l’acte comme réponse à une situation.", "III.1 Ce terme ne répète aucune des deux réponses"],
+   ["C’est ce que fit l’enquête en rendant aux pilotes du simulateur les trente-cinq secondes de Sullenberger.", "III.1 Sur la scène"],
+   ["Cette mesure conserve ce que les deux réponses avaient établi : la décision et ses raisons, que l’agent connaît, entrent dans la reconstitution, et les faits, que l’enquête établit, en fournissent les données.", "III.2 La démontrer : ce qu’elle conserve"],
+   ["Elle explique aussi pourquoi chacune s’arrêtait : la conscience n’avait que la règle qu’elle se donne, l’enquête nue jugeait avec un savoir que l’agent n’avait pas.", "III.2 Ce qu’elle explique des deux arrêts"],
+   ["Or ce jugement, d’autres peuvent le refaire avec moi, de sorte qu’il échappe à l’orgueil qui corrige ma mémoire.", "III.2 L’inférence décisive : une certitude partageable"],
+   ["On peut donc être certain d’avoir bien agi, si l’on entend par là que l’acte répondait à ce que la situation, telle qu’elle était accessible, exigeait, et que ce jugement résiste à l’examen d’autrui.", "III.3 La réponse au sujet, avec son opérateur"],
+   ["Sur l’Hudson, la question de l’enquête est ainsi tranchée : Sullenberger a bien agi, non parce que tout s’est bien terminé, ni parce qu’il voulait le bien, mais parce que, dans les secondes dont il disposait, aucun choix plus sûr ne lui était accessible.", "III.3 La réponse vérifiée sur le cas"],
+   ["Reste que cette certitude suppose une situation que d’autres peuvent reconstituer, ce que ne permettent pas les actes sans témoin ni trace.", "III.3 Le reste : ce que cette réponse ne règle pas"]
+  ]],
+  ["CONCLUSION", [
+   ["On ne peut tirer la certitude d’avoir bien agi ni de la seule conscience de son intention, qui ignore ses mobiles, ni du seul verdict des faits, qui sait ce que l’agent ignorait ; on peut l’obtenir en mesurant l’acte à la situation telle qu’elle lui était accessible.", "Conclusion · la réponse, avec l’opérateur"],
+   ["Ce que Sullenberger ne pouvait établir seul, l’enquête le lui a rendu en reconstituant ses trente-cinq secondes.", "Conclusion · retour à la scène"],
+   ["Mais que vaut cette certitude pour les actes que personne ne peut reconstituer avec nous ?", "Conclusion · le reste en question"]
+  ]]
+ ]
+}

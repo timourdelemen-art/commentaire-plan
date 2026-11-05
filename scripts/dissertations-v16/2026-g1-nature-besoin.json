@@ -1,0 +1,118 @@
+{
+ "id": "2026-g1-nature-besoin",
+ "subject": "La nature a-t-elle besoin de nous ?",
+ "notion": "La nature",
+ "fiche": {
+  "operateur": "fait et nécessité (« a-t-elle besoin ») : sommes-nous une condition sans laquelle la nature ne peut être ou se maintenir ; question descriptive, qui touche à une question normative en arrière-plan.",
+  "sens": "nature : (1) l’ensemble de ce qui se produit de soi ; (2) les milieux et les vivants tels qu’ils existent aujourd’hui. besoin : (1) condition d’existence ; (2) condition de maintien dans un état. nous : l’humanité et son action.",
+  "substitutions_interdites": "besoin ≠ utilité pour nous ; nature ≠ paysage ; nous ≠ chaque individu.",
+  "verrou": "Oui : établir qu’une nature ne peut être ou se maintenir sans nous. Non : établir qu’elle se suffit. Glissements interdits : de certains milieux à toute la nature ; de « nous avons besoin d’elle » à « elle a besoin de nous ».",
+  "trois_reponses": "Spontanée : non, elle se fait sans nous. Contraire : oui, les milieux transformés ont besoin de nos soins. Conciliation : non en général, oui pour les milieux que nous avons modifiés.",
+  "conciliation_1_8bis": "Partage nature sauvage / nature façonnée. Elle hésite sur la prairie qui devient forêt : est-ce une perte pour la nature ou pour nous ? elle tranche sans raison.",
+  "brouillon": {
+   "a": "Non : la nature a en elle-même le principe de sa génération ; elle n’a pas besoin de nous pour exister.",
+   "b": "Cela vaut de la nature en général, non des vivants dont nous avons changé les conditions.",
+   "c": "Il faut examiner les natures déjà transformées : que deviennent-elles sans nos soins ?",
+   "d": "Elles se défont ; mais ce qui se défait est mesuré à l’état que nous préférons.",
+   "e": "L’une parle d’un besoin d’exister que la nature n’a pas, l’autre d’un besoin qui paraît le nôtre ; il reste le critère d’un besoin propre à la nature."
+  },
+  "A": "La nature n’a pas besoin de nous : elle se produit d’elle-même.",
+  "FA": "Définition (III.3). 1. Un être naturel a en lui-même le principe de sa génération, un objet fabriqué l’a dans un autre (E : définition fixée, attestée chez Aristote). 2. Ce qui a en soi ce principe n’a pas besoin d’un autre pour venir à l’être (E). Donc la nature, ensemble de tels êtres, n’a pas besoin de nous.",
+  "XA": "La nature, comme ensemble des processus qui se produisent d’eux-mêmes, n’a pas besoin de nous pour exister.",
+  "YA": "Que les vivants dont nous avons changé les conditions puissent se passer de nous.",
+  "ZA": "FA raisonne sur la nature en général et sur le principe de génération ; ce principe ne suffit plus là où ses conditions ont été changées.",
+  "type_LA": "portée insuffisante",
+  "LA": "Que la nature se produise d’elle-même ne permet donc pas encore d’établir que les vivants dont nous avons changé les conditions puissent se passer de nous.",
+  "six_LA": "Mesure : XA écrit. Filiation : prémisse 1 (le principe est interne ; ses conditions ne le sont pas). Meilleur cas : les chevaux de Przewalski ont en eux le principe de génération et ont pourtant disparu à l’état sauvage. Absorption : FA dirait « d’autres vivants les remplaceront » ; c’est vrai de la nature, non de ces vivants. Non-lacune : oui. Calibration : oui.",
+  "T1": "Nous avons établi que la nature en général se fait sans nous ; mais cela ne vaut pas des vivants dont nous avons changé les conditions, parce que leur principe de génération n’y suffit plus ; il faut donc examiner ces natures transformées (W : le niveau non atteint, III.5).",
+  "B": "Les natures que nous avons transformées ont besoin de nos soins. B conserve XA.",
+  "FB": "Genèse (III.3). 1. Bien des milieux sont nés d’une activité humaine continue (E : prairie de fauche, bocage). 2. Ce qui est né d’une activité continue ne se maintient pas quand elle cesse (E : la prairie devient friche, puis forêt). Indépendance : vaut sans LA. Principe propre : la dépendance de ce qui est coproduit.",
+  "XB": "Certaines formes de la nature dépendent de nos soins pour se maintenir.",
+  "YB": "Que ce besoin soit celui de la nature plutôt que le nôtre.",
+  "ZB": "FB mesure ce qui se défait à l’état que nous voulons conserver.",
+  "type_LB": "distinction indispensable (besoin de la nature / besoin que nous avons d’une nature)",
+  "LB": "La dépendance des milieux façonnés ne permet donc pas encore d’établir que ce besoin soit celui de la nature plutôt que le nôtre.",
+  "six_LB": "Mesure : XB écrit. Filiation : prémisse 2 (« se maintenir » se dit d’un état choisi). Meilleur cas : même la prairie la plus riche cède à une forêt où rien n’est perdu pour la nature. Absorption : FB dirait « la biodiversité de la prairie est un bien » ; c’est un critère de valeur nouveau. Non-lacune : oui. Calibration : oui. Geste : distinction requise, différent de la mesure de portée de I.3.",
+  "T2": "Bilan : XA, XB. ρ : critère manquant — FA parle d’un besoin d’exister (que la nature n’a pas), FB d’un besoin de se maintenir mesuré à nos préférences ; aucun ne fournit le critère d’un besoin qui serait celui de la nature. D : établir quel être peut avoir des besoins propres, et en quel sens il peut avoir besoin de nous. Cumul : « la nature n’a besoin de rien ; nous avons besoin de certaines natures » ne répond pas au sujet sur le cas des chevaux (mécanisme : ne répond pas avec l’opérateur sur le cas). Classe : décision.",
+  "epreuves": "1. Contre-exemple : l’espèce sauvée par l’homme ; elle confirme D. 2. Meilleur cas : survit. 3. Cumul : échec écrit. 4. Antériorité : la distinction entre ce qui a un bien propre (le vivant) et ce qui n’en a pas exige un travail : candidat de III.",
+  "soupcon_aporie": "aucun indice ; régime ordinaire.",
+  "chemins_echoues": "Chemin aporétique de l’ancienne copie (sans nous, abandonnée à nos destructions / dépendante de nos soins, notre œuvre) : exigences ajoutées ; écarté.",
+  "dictionnaire": "non consulté.",
+  "phrase_mouvement": "A, parce que la nature a en elle le principe de sa génération, établit qu’elle n’a pas besoin de nous pour exister ; mais non que les vivants dont nous avons changé les conditions puissent se passer de nous ; il faut donc examiner ces natures. B, parce que ce qui est coproduit se défait sans l’activité qui le produit, établit leur dépendance ; mais non que ce besoin soit celui de la nature. Or aucun ne donne le critère d’un besoin propre ; il reste à l’établir.",
+  "probleme_directeur": "La nature a-t-elle besoin de nous, si elle se produit sans nous mais que ce que nous avons transformé ne se maintient que par nos soins ?",
+  "problematique": "Si la nature se produit sans nous, a-t-elle besoin de nous, dès lors que ce que nous avons transformé ne se maintient plus sans nos soins, et que ces soins ne conservent peut-être que ce que nous préférons ?",
+  "forme_problematique": "G1 (acquis en protase, opérateur conservé, ce que l’acquis ne permet pas encore). Reconstruction : on part de la nature qui se fait seule, on bute sur les natures transformées, on examine nos soins, on bute sur la préférence ; la III doit trouver un besoin qui ne soit pas le nôtre. Relecture : opérateur conservé.",
+  "critere": "Sur les chevaux de Przewalski de Tchernobyl, une solution devra dire si la nature a besoin de nous, conserver que la nature se fait sans nous et que certaines formes dépendent de nos soins, expliquer les deux arrêts, et fournir le critère d’un besoin propre.",
+  "contrainte_scene": "montrer une vie qui revient sans nous et des vivants qui n’existeraient plus sans nous.",
+  "III": {
+   "operation": "critère (III.7 a, ρ : frontière) : a des besoins propres l’être pour qui se maintenir et périr font une différence.",
+   "III1": "Un être a des besoins propres quand il y a, pour lui, une différence entre se maintenir et périr : le vivant, non la nature comme ensemble.",
+   "III2": "Conserve XA (l’ensemble n’a besoin de rien) et XB (des vivants ne se maintiennent plus sans nous) ; explique LA (FA raisonnait sur un ensemble sans besoins) et LB (FB mesurait des formes, non des vivants). Un vivant dont nous sommes devenus une condition a besoin de nous comme d’une cause qui doit cesser de nuire ou réparer.",
+   "III3": "La nature n’a pas besoin de nous ; certains vivants en ont besoin, dans la mesure où nous sommes devenus une condition de leur vie ; vérifié sur les chevaux. Reste : ce que nous devons à ce qui ne vit pas.",
+   "tests": "Cas témoin : la III dit en quel sens les chevaux avaient besoin de nous, puis de notre absence. Second cas : les abeilles exposées aux pesticides, qui ont besoin que nous cessions. Restitution : oui. Rechute : le reste (le non-vivant) ne redit ni LA ni LB. Test propre : critère défini indépendamment des deux thèses. Report : la question ne se repose pas pour le vivant. Acquis nouveau : prémisse nouvelle — avoir un besoin suppose un bien propre ; nécessaire à la décision."
+  },
+  "candidats_III": [
+   {"id": "retenue", "operation": "Critère", "proposition": "Seuls les vivants ont des besoins propres ; ils ont besoin de nous dans la mesure où nous sommes devenus une condition de leur vie.", "verdict": "retenue", "raison": "Décide le cas des chevaux, conserve les deux acquis, explique les deux arrêts."},
+   {"id": "frontiere", "operation": "Partage", "proposition": "La nature sauvage n’a pas besoin de nous, la nature façonnée en a besoin.", "verdict": "écartée", "raison": "C’est la conciliation, qui ne sait à qui attribuer le besoin."},
+   {"id": "inversion", "operation": "Sens de la dépendance", "proposition": "C’est nous qui avons besoin de la nature, non l’inverse.", "verdict": "dominée", "raison": "Vrai, mais esquive le sujet."},
+   {"id": "mediateur", "operation": "Médiateur", "proposition": "L’humanité est une partie de la nature, donc ses soins sont la nature qui prend soin d’elle-même.", "verdict": "écartée", "raison": "Dissout le sujet en effaçant le « nous »."}
+  ],
+  "generateur": "figure : la frontière ; registre opératoire : par cas et variation ; registre de lecture : par cas ; branches B2 ; annonce N1.",
+  "scene": "Zone d’exclusion de Tchernobyl (depuis 1986) ; chevaux de Przewalski, éteints à l’état sauvage, sauvés en élevage et lâchés dans la zone en 1998. Verdict : homologue. Retour : les deux sens du besoin.",
+  "statut": {"problematique": "suffisamment justifiée", "copie": "état de travail (architecture expérimentale)"}
+ },
+ "citations": [
+  {"texte": "l’art est un principe de génération dans autre chose, alors que la nature est un principe de génération dans la chose même", "auteur": "Aristote", "oeuvre": "Métaphysique", "lieu": "livre Λ, 3, 1070a", "edition": "Œuvres complètes, dir. Pierre Pellegrin, Flammarion, 2014", "verification": "œuvre fournie, passage retrouvé mot pour mot", "regime": "citation exacte", "fonction": "I.2 : donner la distinction exacte qui fonde la première réponse ; l’inférence est écrite ensuite sans l’autorité de l’auteur."}
+ ],
+ "copy": [
+  ["INTRODUCTION", [
+   ["En 1986, après l’explosion de la centrale de Tchernobyl, les habitants quittent une zone de trente kilomètres autour du réacteur ; quelques décennies plus tard, loups, élans et sangliers y prospèrent.", "Introduction · la scène"],
+   ["En 1998, on y lâche une trentaine de chevaux de Przewalski, une espèce disparue à l’état sauvage et sauvée de justesse par des élevages, qui s’y multiplient depuis.", "Introduction · la scène : les chevaux"],
+   ["Là où l’homme s’est retiré, la vie revient d’elle-même ; mais ces chevaux n’existeraient plus si des hommes ne les avaient pas gardés.", "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"],
+   ["On attend de la nature qu’elle soit ce qui se fait sans nous, mais aussi que nous répondions de ce que nous lui faisons.", "Introduction · l’enjeu"],
+   ["Avoir besoin de quelqu’un, c’est ne pouvoir être ou se maintenir sans lui, et la question est de savoir si une telle dépendance peut être celle de la nature à notre égard.", "Introduction · les mots du sujet"],
+   ["Certes, la nature n’a pas besoin de nous, parce qu’elle se produit d’elle-même ; mais cela ne dit rien des vivants que nous avons déjà atteints. On répondra que ce que nous avons transformé a besoin de nos soins ; mais c’est alors l’état que nous voulons conserver qui en fixe la mesure.", "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"],
+   ["Si la nature se produit sans nous, a-t-elle besoin de nous, dès lors que ce que nous avons transformé ne se maintient plus sans nos soins, et que ces soins ne conservent peut-être que ce que nous préférons ?", "Introduction · la problématique : une seule question, qui garde « a-t-elle besoin »"],
+   ["On examinera d’abord pourquoi la nature paraît se suffire, et jusqu’où cette raison porte ; ce qu’elle laisse en suspens obligera à examiner les natures que nous avons transformées ; il faudra alors établir ce que ces deux voies, ensemble, laissent encore ouvert.", "Introduction · l’annonce"]
+  ]],
+  ["I. LA NATURE SE FAIT SANS NOUS", [
+   ["La nature n’a pas besoin de nous, car elle était là avant nous et continuera après nous : les astres, les marées, la vie elle-même ne nous ont pas attendus.", "I.1 Établir la première réponse"],
+   ["Cette réponse sauve le sens même du mot : la nature est ce qui se fait de soi, par opposition à ce que nous fabriquons.", "I.1 Ce qu’elle sauve"],
+   ["Aristote fixe cette différence : « l’art est un principe de génération dans autre chose, alors que la nature est un principe de génération dans la chose même ».", "I.2 La fonder par une définition ; citation qui en donne les termes exacts"],
+   ["Un objet fabriqué a besoin de son fabricant pour venir à l’être ; un être naturel tient de lui-même le principe de sa génération, et la nature, ensemble de tels êtres, n’a donc pas besoin d’un autre pour exister.", "I.2 L’inférence décisive"],
+   ["Ce fondement établit que la nature, comme ensemble des processus qui se produisent d’eux-mêmes, n’a pas besoin de nous pour exister.", "I.3 L’éprouver : ce qu’il établit"],
+   ["Mais il raisonne sur la nature en général ; il ne dit rien des vivants particuliers dont nous avons changé les conditions, et qui ne trouvent plus en eux-mêmes de quoi se maintenir.", "I.3 Ce qu’il ne permet pas encore, et pourquoi"],
+   ["Le principe de génération était bien dans les chevaux de Przewalski ; il ne suffisait plus depuis que la chasse et la concurrence des troupeaux leur avaient ôté leurs steppes.", "I.3 Sur la scène"],
+   ["Que la nature se produise d’elle-même ne permet donc pas encore d’établir que les vivants dont nous avons changé les conditions puissent se passer de nous.", "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"],
+   ["La nature, prise en général, se fait sans nous ; mais cela ne vaut pas encore des vivants particuliers, parce que le principe qui les fait naître ne suffit plus là où nous avons changé leurs conditions.", "Transition · ce qui est établi, ce qui manque, et pourquoi"],
+   ["Il faut donc examiner ces natures déjà transformées : que deviennent-elles sans nos soins ?", "Transition · l’examen nécessaire, en question"]
+  ]],
+  ["II. LES NATURES QUE NOUS AVONS FAÇONNÉES", [
+   ["Sans nos soins, les natures que nous avons transformées se défont, et en ce sens la nature a besoin de nous.", "II.1 La seconde réponse, qui répond à l’examen demandé"],
+   ["Elle ne nie pas que la nature se fasse d’elle-même ; elle constate que là où nous sommes intervenus, ce qui se fait de soi ne suffit plus.", "II.1 Ce qu’elle conserve"],
+   ["Bien des milieux qu’on croit naturels sont nés d’une longue collaboration : la prairie de fauche n’existe que parce qu’on la fauche, le bocage que parce qu’on entretient ses haies.", "II.2 La fonder par la genèse"],
+   ["Or ce qui est né d’une activité continue ne se maintient pas quand elle cesse : laissée à elle-même, la prairie devient friche, puis forêt, et les chevaux de Przewalski n’ont survécu que dans des élevages.", "II.2 L’inférence décisive"],
+   ["Cette raison établit que certaines formes de la nature dépendent de nos soins pour se maintenir.", "II.3 L’éprouver : ce qu’elle établit"],
+   ["Mais elle mesure ce qui se défait à l’état que nous voulons conserver : quand la prairie devient forêt, la nature ne perd rien, c’est nous qui perdons la prairie.", "II.3 Ce qu’elle ne permet pas encore, et pourquoi : à qui est le besoin ?"],
+   ["Le besoin qu’elle attribue à la nature est donc défini par une préférence, et l’on ne sait plus si c’est la nature qui a besoin de nous ou nous qui avons besoin de cette nature-là.", "II.3 L’inférence"],
+   ["La dépendance des milieux façonnés ne permet donc pas encore d’établir que ce besoin soit celui de la nature plutôt que le nôtre.", "II.3 Ce que la seconde réponse ne permet pas encore"],
+   ["La nature en général se fait sans nous, et certaines de ses formes ne se maintiennent que par nos soins ; mais le premier fondement parle d’un besoin d’exister, que la nature n’a pas, le second d’un besoin de se maintenir mesuré à nos préférences, et aucun ne dit ce que serait un besoin de la nature elle-même.", "Transition · les deux acquis et leur rapport"],
+   ["Les additionner revient à dire que la nature n’a besoin de rien et que nous avons besoin de certaines natures, ce qui laisse les chevaux hors de la réponse : y a-t-il donc, dans la nature, des êtres qui aient des besoins à eux, et qui puissent avoir besoin de nous ?", "Transition · pourquoi leur addition échoue, et ce qui reste à établir, en question"]
+  ]],
+  ["III. LES VIVANTS ONT DES BESOINS QUI SONT LES LEURS", [
+   ["Un être a des besoins à lui quand il y a, pour lui-même, une différence entre se maintenir et périr.", "III.1 L’opération que la difficulté exige : un critère du besoin propre"],
+   ["La nature comme ensemble n’en a pas, puisqu’elle se poursuit quoi qu’il arrive ; un vivant en a, puisque sa vie peut lui être ôtée.", "III.1 Le critère appliqué"],
+   ["Ce critère conserve les deux réponses : la nature, prise en général, n’a besoin de rien, et certains vivants ne se maintiennent plus sans nous.", "III.2 La démontrer : ce qu’il conserve"],
+   ["Il explique aussi leurs arrêts : le premier fondement ne disait rien des vivants particuliers parce qu’il raisonnait sur un ensemble qui n’a pas de besoins, et le second ne savait à qui attribuer le besoin parce qu’il mesurait à nos préférences des formes, comme la prairie, qui ne sont pas des vivants.", "III.2 Ce qu’il explique"],
+   ["Un vivant dont nous sommes devenus une condition d’existence a donc besoin de nous, non comme d’un jardinier qui choisit ce qu’il garde, mais comme d’une cause qui doit cesser de nuire ou réparer ce qu’elle a détruit.", "III.2 L’inférence décisive"],
+   ["La nature n’a donc pas besoin de nous, mais certains vivants en ont besoin, dans la mesure exacte où nous sommes devenus une condition de leur vie.", "III.3 La réponse au sujet, avec son opérateur"],
+   ["Les chevaux de Przewalski avaient besoin des hommes parce que des hommes avaient détruit leurs conditions de vie ; ils ont eu ensuite besoin de leur absence, et leur besoin était leur vie même, non un paysage que nous préférions.", "III.3 La réponse vérifiée sur le cas"],
+   ["Reste que ce critère ne vaut que pour ce qui vit, et ne dit rien de ce que nous devons à ce qui ne vit pas, un fleuve, un glacier, une montagne.", "III.3 Le reste : ce que cette réponse ne règle pas"]
+  ]],
+  ["CONCLUSION", [
+   ["La nature n’a pas besoin de nous ; mais les vivants dont nous avons changé les conditions ont besoin que nous réparions ou que nous nous retirions.", "Conclusion · la réponse, avec l’opérateur"],
+   ["Dans la zone de Tchernobyl, la vie revient sans nous, et les chevaux qu’on y a lâchés n’y seraient pas sans nous : il n’y a là aucune contradiction, mais deux sens du besoin.", "Conclusion · retour à la scène"],
+   ["Mais devons-nous quelque chose aussi à ce qui ne vit pas ?", "Conclusion · le reste en question"]
+  ]]
+ ]
+}

@@ -1,0 +1,119 @@
+{
+ "id": "2026-asie-langage",
+ "subject": "Sommes-nous prisonniers du langage ?",
+ "notion": "Le langage",
+ "fiche": {
+  "operateur": "essence et fait (« sommes-nous ») : notre rapport au langage est-il une captivité ; question descriptive.",
+  "sens": "prisonniers : (1) enfermés sans pouvoir sortir ni modifier l’enceinte ; (2) dépendants (trop faible : rendrait le oui trivial). langage : (1) la faculté de signifier ; (2) une langue particulière avec ses découpages — (2) au premier plan, (1) en arrière-plan. nous : les locuteurs, non un individu isolé.",
+  "substitutions_interdites": "prisonnier ≠ dépendant ; langage ≠ discours d’un pouvoir ; libre ≠ sans mots.",
+  "verrou": "Oui : établir une clôture, pas seulement une dépendance. Non : établir que la dépendance n’est pas clôture. Glissements interdits : de la condition à la clôture ; de « je ne transforme qu’avec des mots » à « je ne transforme rien ».",
+  "trois_reponses": "Spontanée : oui, nous ne pensons qu’avec des mots reçus. Contraire : non, nous transformons nos mots. Conciliation : prisonniers de la langue reçue, libres par la parole qui la travaille.",
+  "conciliation_1_8bis": "Partage langue / parole. Elle hésite sur le néologisme compris de tous : est-ce la langue qui change ou la parole qui sort d’elle ? elle doit trancher sans raison.",
+  "brouillon": {
+   "a": "Oui : nous ne pensons qu’avec des mots que nous n’avons pas choisis.",
+   "b": "Cela prouve une dépendance, non une clôture : une condition n’enferme pas.",
+   "c": "Il faut examiner ce que nous faisons des mots reçus : nous pouvons les travailler.",
+   "d": "Nous transformons la langue de l’intérieur ; mais toujours avec d’autres mots, et seulement si d’autres reprennent nos mots.",
+   "e": "Les deux supposent qu’être libre, ce serait penser hors du langage ; il reste à examiner ce présupposé."
+  },
+  "A": "Nous sommes prisonniers du langage : nous ne pensons qu’avec des mots reçus.",
+  "FA": "Condition de possibilité (III.3). 1. Penser distinctement, c’est distinguer de façon durable (E). 2. On ne fixe une distinction qu’en la fixant dans des signes (E : sans signe, ni rétention ni communication). 3. Ces signes viennent d’une langue que nous n’avons pas faite (E : fait). Donc notre pensée dépend de ressources qu’elle n’a pas produites.",
+  "XA": "Notre pensée dépend des ressources d’une langue reçue.",
+  "YA": "Que nous soyons enfermés dans ces ressources.",
+  "ZA": "FA prouve une condition ; une condition dit sans quoi l’on ne peut penser, non ce qu’on ne peut pas penser.",
+  "type_LA": "distinction indispensable (dépendre / être enfermé)",
+  "LA": "La dépendance de la pensée à l’égard des mots ne permet donc pas encore d’établir que nous soyons enfermés, parce que dépendre d’une condition n’est pas être retenu par elle.",
+  "six_LA": "Mesure : XA écrit. Filiation : la conclusion de FA est une condition nécessaire ; la clôture exigerait une prémisse de plus que FA ne contient. Meilleur cas : même la langue la plus pauvre (le novlangue) doit être pensée dans une autre. Absorption : FA dirait « la langue fixe aussi ce qu’on peut penser » ; c’est une thèse nouvelle, non démontrée. Non-lacune : oui. Calibration : oui.",
+  "T1": "Nous avons établi que nous pensons avec des mots reçus ; mais cela ne prouve pas une prison, parce qu’une condition n’est pas une clôture ; il faut donc examiner ce que nous faisons de cette condition (W : le sens que la distinction isole, III.5).",
+  "B": "Nous ne sommes pas prisonniers : nous travaillons nos mots. B conserve XA.",
+  "FB": "Imputabilité et genèse (III.3). 1. Toute langue a été faite par ceux qui la parlent (E : chaque mot fut un emploi nouveau). 2. Ce que des locuteurs ont fait, des locuteurs peuvent le refaire (E). 3. Une langue est un usage, qui se modifie en s’exerçant (E : néologismes, sens nouveaux). Indépendance : vaut sans LA. Principe propre : l’imputabilité de la langue à ses locuteurs.",
+  "XB": "Nous pouvons modifier la langue de l’intérieur.",
+  "YB": "Que nous sortions du langage.",
+  "ZB": "FB fonde ce pouvoir sur l’usage des locuteurs ; un usage est commun : on ne transforme qu’avec d’autres mots, et la transformation n’existe que reprise.",
+  "type_LB": "condition non établie (la reprise par d’autres)",
+  "LB": "Le pouvoir de transformer nos mots ne permet donc pas encore d’établir que nous sortions du langage, parce que toute transformation se fait avec lui et ne vaut que reprise par d’autres.",
+  "six_LB": "Mesure : XB écrit. Filiation : prémisse 3 (l’usage). Meilleur cas : même le poète le plus inventif écrit avec des mots. Absorption : FB dirait « on peut inventer seul » ; un mot que nul ne comprend n’est pas encore langue. Non-lacune : oui. Calibration : oui. Geste : prise au mot (l’usage), différent de I.3.",
+  "T2": "Bilan : XA, XB. ρ : présupposé commun — les deux réponses supposent qu’être libre à l’égard du langage serait pouvoir penser hors de lui (A conclut à la prison parce qu’on ne sort pas ; B montre une liberté qui ne sort pas, et bute là). Preuve : sans ce présupposé, LA ne conclurait pas à la prison, LB ne serait pas une insuffisance. D : examiner si l’absence de dehors fait de la dépendance une captivité. Cumul : « prisonniers de la langue, libres par la parole » garde le présupposé, donc les deux arrêts. Classe : décision. Soupçon d’aporie : non, le présupposé ne rend pas les deux limites impossibles.",
+  "epreuves": "1. Contre-exemple : la pensée sans mots (images, musique) ; elle ne se fixe ni ne se corrige comme un jugement : ne lève pas LA. 2. Meilleur cas : survit. 3. Cumul : échec écrit. 4. Antériorité : l’obstacle comme condition (Kant, la colombe) est une opération réelle : candidat de III, transposé.",
+  "soupcon_aporie": "aucun indice suffisant : le présupposé commun ne rend pas les limites solidaires au point qu’on ne puisse lever l’une sans l’autre ; régime ordinaire.",
+  "chemins_echoues": "Chemin aporétique de l’ancienne copie (se dire prisonnier suppose un dehors / se dire libre suppose une pensée sans mots) : forme P2 imposée sans module ; écarté.",
+  "dictionnaire": "non consulté.",
+  "phrase_mouvement": "A, parce qu’on ne fixe une pensée qu’avec des signes reçus, établit la dépendance ; mais pas la clôture, parce qu’une condition n’enferme pas ; il faut donc examiner ce que nous faisons des mots. B, parce que la langue est un usage fait par ses locuteurs, établit que nous la transformons ; mais pas que nous en sortions. Or toutes deux supposent que la liberté serait un dehors ; il reste à examiner ce présupposé.",
+  "probleme_directeur": "Sommes-nous prisonniers du langage, si nous ne pouvons ni penser sans lui ni le transformer hors de lui ?",
+  "problematique": "Sommes-nous prisonniers du langage parce que nous ne pensons qu’avec des mots reçus, alors que dépendre n’est pas être enfermé, ou libres parce que nous les transformons, alors que nous ne le faisons jamais qu’avec d’autres mots ?",
+  "forme_problematique": "G2 (deux raisons, chacune avec sa borne ; « sommes-nous » conservé). Reconstruction : on part de la dépendance, on bute sur la différence avec la clôture, on passe à la transformation, on bute sur l’absence de dehors ; la III doit dire si cette absence fait une prison. Relecture : aucune radicalisation.",
+  "critere": "Sur le projet du novlangue, une solution devra dire si nous sommes prisonniers du langage, conserver la dépendance et la transformation, expliquer pourquoi la dépendance ne prouvait pas la clôture et pourquoi la transformation ne sortait pas de la langue, et dire ce que vaut l’absence de dehors.",
+  "contrainte_scene": "montrer un projet fondé sur la dépendance de la pensée aux mots, et ce qui lui résiste.",
+  "III": {
+   "operation": "transformation d’un présupposé (III.7 a) : la liberté n’est pas un dehors, le langage est une résistance qui porte.",
+   "III1": "L’image de la prison suppose qu’une pensée sans mots serait plus libre ; elle serait sans prise.",
+   "III2": "Le langage est pour la pensée ce que l’air est à la colombe : ce qui gêne porte. Conserve XA et XB ; explique LA (dépendance de l’aile, non du prisonnier) et LB (la transformation n’avait pas à sortir).",
+   "III3": "Nous ne sommes pas prisonniers : nous dépendons d’une résistance qui porte la pensée, et nous sommes libres en la travaillant ; vérifié sur le novlangue. Reste : ce travail suppose une communauté qui accueille les mots changés.",
+   "tests": "Cas témoin : la III dit pourquoi le novlangue échouerait tant que les locuteurs travaillent la langue, ce que ni A ni B ne disaient. Second cas : la notation mathématique, qui permet de penser ce qu’on ne pensait pas sans elle. Restitution : oui. Rechute : le reste (la communauté qui accueille) ne redit pas LB : il porte sur une condition sociale que la III fait apparaître, non sur l’absence de dehors. Test propre : prémisse de transformation établie (une pensée sans signes ne se fixe pas) ; illusion expliquée (l’image du vol dans le vide). Report : non. Acquis nouveau : la distinction entre condition qui gêne et clôture ; nécessaire à la décision."
+  },
+  "candidats_III": [
+   {"id": "retenue", "operation": "Transformation du présupposé", "proposition": "Être libre à l’égard du langage n’est pas en sortir : il est la résistance qui porte la pensée, et l’on est libre en le travaillant.", "verdict": "retenue", "raison": "Conserve dépendance et transformation, explique pourquoi la prison paraissait réelle."},
+   {"id": "frontiere", "operation": "Critère de frontière", "proposition": "Prisonniers de la langue, libres par la parole.", "verdict": "écartée", "raison": "C’est le cumul : il garde le présupposé du dehors."},
+   {"id": "dependance", "operation": "Sens de la dépendance", "proposition": "La pensée crée la langue dont elle dépend.", "verdict": "écartée", "raison": "Aucun individu ne crée seul les ressources communes dont il part."},
+   {"id": "condition", "operation": "Condition", "proposition": "Nous serions prisonniers si un pouvoir fixait la langue.", "verdict": "dominée", "raison": "Vrai sous condition, mais ne décide pas notre situation ordinaire ; devient le reste."}
+  ],
+  "generateur": "figure : le présupposé ; registre opératoire : critique ; registre de lecture : démonstratif à ordre visible ; branches B1 ; annonce N1.",
+  "scene": "Orwell, 1984 (1949) : le novlangue, langue fabriquée pour rendre certaines pensées impossibles. Verdict : homologue. Retour : la III dit ce que le projet devrait supprimer pour réussir.",
+  "statut": {"problematique": "suffisamment justifiée", "copie": "état de travail (architecture expérimentale)"}
+ },
+ "citations": [
+  {"texte": "La colombe légère, quand, dans son libre vol, elle fend l’air dont elle sent la résistance, pourrait se représenter qu’elle réussirait encore bien mieux dans l’espace vide d’air.", "auteur": "Kant", "oeuvre": "Critique de la raison pure", "lieu": "Introduction, A 5 / B 8-9", "edition": "trad. Alain Renaut, GF-Flammarion", "verification": "œuvre fournie, passage retrouvé mot pour mot (repère de pagination « (B 9) » de l’édition omis)", "regime": "citation exacte, transfert justifié : Kant parle de la raison et de l’expérience ; l’opération (l’obstacle comme condition) est transposée au langage", "fonction": "III.2 : faire voir l’illusion qui fait prendre la condition pour une prison ; la prémisse (une pensée sans signes ne se fixe pas) est établie sans elle."}
+ ],
+ "copy": [
+  ["INTRODUCTION", [
+   ["Dans 1984, Orwell imagine un pouvoir qui ne se contente pas d’interdire certaines idées : il fabrique une langue, le novlangue, d’où ont disparu les mots qui les diraient.", "Introduction · la scène"],
+   ["Le philologue chargé du dictionnaire s’en réjouit : quand les mots manqueront, les crimes de pensée deviendront impossibles, faute de quoi les penser.", "Introduction · la scène : le projet"],
+   ["Le projet suppose que la pensée ne va pas plus loin que la langue ; mais celui qui le conçoit pense déjà, dans la langue ancienne, ce que la nouvelle doit rendre impensable.", "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"],
+   ["On attend du langage qu’il nous donne de quoi penser, mais aussi qu’il nous laisse juger ce qu’il nous fait penser.", "Introduction · l’enjeu"],
+   ["Être prisonnier, ce n’est pas seulement dépendre : c’est être enfermé sans pouvoir sortir, et la question est de savoir si notre dépendance à l’égard des mots est une clôture.", "Introduction · les mots du sujet"],
+   ["Si l’on répond oui, parce qu’on ne pense qu’avec des mots reçus, on prouve une dépendance, non encore une prison ; si l’on répond non, parce que nous transformons sans cesse nos mots, on montre une liberté qui ne sort jamais de la langue.", "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"],
+   ["Sommes-nous prisonniers du langage parce que nous ne pensons qu’avec des mots reçus, alors que dépendre n’est pas être enfermé, ou libres parce que nous les transformons, alors que nous ne le faisons jamais qu’avec d’autres mots ?", "Introduction · la problématique : une seule question, qui garde « sommes-nous »"],
+   ["On examinera d’abord pourquoi notre dépendance à l’égard des mots paraît faire de nous des prisonniers, et jusqu’où cette raison porte ; ce qu’elle laisse en suspens obligera à examiner ce que nous faisons des mots reçus ; il faudra alors établir ce que ces deux voies, ensemble, laissent encore ouvert.", "Introduction · l’annonce"]
+  ]],
+  ["I. NOUS PENSONS AVEC DES MOTS REÇUS", [
+   ["Nous sommes prisonniers du langage, car nous ne pensons qu’avec des mots que nous n’avons pas choisis.", "I.1 Établir la première réponse"],
+   ["Cette réponse sauve une vérité qu’on oublie : la langue maternelle découpe le monde pour nous avant que nous ayons rien décidé.", "I.1 Ce qu’elle sauve"],
+   ["Penser distinctement, c’est distinguer, et l’on ne retient une distinction qu’en la fixant dans des signes : sans mots, une pensée ne se garde ni ne se communique.", "I.2 La fonder par une condition de possibilité"],
+   ["Or ces signes nous viennent d’une langue que nous n’avons pas faite, avec ses découpages, ses oppositions et ses manques ; notre pensée dépend donc de ressources qu’elle n’a pas produites.", "I.2 L’inférence décisive"],
+   ["Ce fondement établit une dépendance réelle : notre pensée a besoin des ressources d’une langue reçue.", "I.3 L’éprouver : ce qu’il établit"],
+   ["Mais il prouve que la langue est une condition de la pensée, et une condition dit sans quoi l’on ne peut penser, non ce qu’on ne peut pas penser.", "I.3 Ce qu’il ne permet pas encore, et pourquoi"],
+   ["Le novlangue lui-même doit être pensé dans la langue qu’il veut abolir.", "I.3 Sur la scène"],
+   ["La dépendance de la pensée à l’égard des mots ne permet donc pas encore d’établir que nous soyons enfermés, parce que dépendre d’une condition n’est pas être retenu par elle.", "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"],
+   ["Nous pensons avec des mots reçus ; mais cette dépendance ne prouve pas encore une prison, parce qu’une condition n’est pas une clôture.", "Transition · ce qui est établi, ce qui manque, et pourquoi"],
+   ["Il faut donc examiner ce que nous pouvons faire de cette condition : si les mots nous sont donnés, ne pouvons-nous pas les travailler ?", "Transition · l’examen nécessaire, en question"]
+  ]],
+  ["II. NOUS TRAVAILLONS NOS MOTS", [
+   ["Nous pouvons travailler nos mots, et c’est pourquoi nous ne sommes pas prisonniers du langage : nous corrigeons une expression, inventons un mot, déplaçons un sens.", "II.1 La seconde réponse, qui répond à l’examen demandé"],
+   ["Elle ne nie pas la dépendance : elle montre ce que nous faisons de ce qui nous est donné.", "II.1 Ce qu’elle conserve"],
+   ["Toute langue a été faite par ceux qui la parlent : chaque mot fut un jour un emploi nouveau, chaque sens une invention reprise par d’autres.", "II.2 La fonder : la langue est l’œuvre de ses locuteurs"],
+   ["Ce que des locuteurs ont fait, des locuteurs peuvent le refaire ; une langue n’est pas un mur mais un usage, et un usage se modifie en s’exerçant.", "II.2 L’inférence décisive"],
+   ["Le mot « ordinateur » fut forgé en 1955 pour nommer une machine qu’aucun mot français ne nommait.", "II.2 Le cas qui l’atteste"],
+   ["Cette raison établit que nous pouvons modifier la langue de l’intérieur.", "II.3 L’éprouver : ce qu’elle établit"],
+   ["Mais elle fonde ce pouvoir sur l’usage des locuteurs, et un usage est commun : je ne transforme un mot qu’avec d’autres mots, et ma trouvaille n’existe comme langue que si d’autres la reprennent.", "II.3 Ce qu’elle ne permet pas encore, et pourquoi : l’usage pris au mot"],
+   ["Le mot inventé reste un bruit tant que personne ne le comprend.", "II.3 L’inférence"],
+   ["Le pouvoir de transformer nos mots ne permet donc pas encore d’établir que nous sortions du langage, parce que toute transformation se fait avec lui et ne vaut que reprise par d’autres.", "II.3 Ce que la seconde réponse ne permet pas encore"],
+   ["Nous pensons avec des mots reçus, et nous pouvons les transformer ; mais la première réponse conclut à la prison parce que nous ne sortons pas de la langue, la seconde conclut à la liberté sans en sortir davantage, et toutes deux supposent qu’être libre à l’égard du langage, ce serait pouvoir penser hors de lui.", "Transition · les deux acquis, et ce qu’ils supposent ensemble"],
+   ["Additionner dépendance et transformation laisse ce présupposé intact, et avec lui la question : faut-il vraiment un dehors du langage pour n’en être pas prisonnier ?", "Transition · pourquoi leur addition échoue, et ce qui reste à examiner, en question"]
+  ]],
+  ["III. UNE RÉSISTANCE QUI PORTE", [
+   ["Il ne faut pas un dehors du langage pour n’en être pas prisonnier, car l’image de la prison suppose ce qui est en question : qu’une pensée sans mots serait plus libre.", "III.1 L’opération que la difficulté exige : examiner le présupposé commun"],
+   ["Or une pensée sans mots ne serait pas libérée, elle serait sans prise : elle ne pourrait ni se fixer, ni se corriger, ni se dire.", "III.1 La prémisse qui le ruine, établie en I.2"],
+   ["Kant fait voir cette illusion sur un autre objet : « La colombe légère, quand, dans son libre vol, elle fend l’air dont elle sent la résistance, pourrait se représenter qu’elle réussirait encore bien mieux dans l’espace vide d’air. »", "III.2 Citation transposée : elle fait voir l’illusion"],
+   ["Le langage est pour la pensée cette résistance : ce qui la gêne est aussi ce qui la porte.", "III.2 L’inférence décisive"],
+   ["Ainsi s’expliquent les deux réponses : la dépendance était réelle, mais c’était celle de l’aile à l’air, non du prisonnier à ses murs ; la transformation ne sortait jamais de la langue, parce qu’elle n’avait pas à en sortir pour être libre.", "III.2 Ce qu’elle conserve et ce qu’elle explique"],
+   ["Nous ne sommes donc pas prisonniers du langage : nous en dépendons comme d’une résistance qui porte la pensée, et nous sommes libres en le travaillant, non en le quittant.", "III.3 La réponse au sujet, avec son opérateur"],
+   ["Le novlangue échouerait tant que ses locuteurs pourraient encore faire jouer un mot contre un autre ; il ne réussirait qu’en leur ôtant ce travail, non en supprimant des mots.", "III.3 La réponse vérifiée sur le cas"],
+   ["Reste qu’un tel travail suppose une communauté qui accueille les mots changés, et qu’un pouvoir peut s’employer à la défaire.", "III.3 Le reste : ce que cette réponse ne règle pas"]
+  ]],
+  ["CONCLUSION", [
+   ["Nous ne sommes pas prisonniers du langage, mais nous ne pensons qu’en lui, et notre liberté consiste à le travailler du dedans.", "Conclusion · la réponse, avec l’opérateur"],
+   ["Le philologue d’Orwell se trompait sur ce qu’il faut supprimer : ce ne sont pas les mots qui rendent la pensée libre, c’est le pouvoir de les faire jouer les uns contre les autres.", "Conclusion · retour à la scène"],
+   ["Mais que reste-t-il de cette liberté quand plus personne n’accueille les mots qu’on change ?", "Conclusion · le reste en question"]
+  ]]
+ ]
+}
