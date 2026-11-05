@@ -1,0 +1,4 @@
+{
+  "_lisez-moi": "Interrupteur des rubriques retirées temporairement du site publié. true = fermée (les fichiers restent dans le dépôt, rien n'est supprimé) ; false = rouverte. Appliqué par scripts/clean-publish.js au déploiement Netlify.",
+  "bibliotheque-philosophie": true
+}
