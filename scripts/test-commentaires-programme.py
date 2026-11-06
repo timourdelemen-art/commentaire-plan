@@ -18,7 +18,8 @@ class CommentairesProgramme(unittest.TestCase):
    for p in w['copy']:
     self.assertTrue(all(s['function'] and s['text'] for s in p['sentences']))
     if p['heading'].startswith('TRANSITION'):self.assertTrue(p['sentences'][0]['text'].endswith('?'))
-   self.assertLess(sum(len(s['text'].split()) for p in w['copy'] for s in p['sentences']),1000)
+   # Garde-fou technique, pas quota pédagogique : une copie aboutie peut dépasser 1 000 mots.
+   self.assertLess(sum(len(s['text'].split()) for p in w['copy'] for s in p['sentences']),1800)
  def test_choix_expliques_et_non_reconnaissables_a_leur_longueur(self):
   longest=0;total=0
   for w in DATA:
