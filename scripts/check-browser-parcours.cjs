@@ -23,7 +23,7 @@ async function checkNavigation(page,name){
  }
  if(name==='bac-commentaire.html'){
   assert.equal(await page.locator('main [role=tab]').count(),2,'Deux accès distincts : entraînement et ressources');
-  assert.equal(await page.locator('#comm-textes .commentaire-texte-actions a[href$="#entrainement"]').count(),16,'Les seize textes doivent garder leur accès aux exercices');
+  assert.equal(await page.locator('#comm-textes .commentaire-texte-actions a[href$="#entrainement"]').count(),22,'Les vingt-deux textes doivent garder leur accès aux exercices');
 }
 if(name==='annales.html'){
   assert.equal(await page.locator('main .library-doors > a').count(),4,'Les quatre banques d’annales doivent être proposées');
