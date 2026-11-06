@@ -85,8 +85,8 @@ const server=http.createServer((req,res)=>{
    await page.locator('#corrige .cm-bar .cm-mode').first().click();
    assert(await page.locator('#corrige .cm-plain').isVisible(),'retour à la copie intégrale');
    await page.locator('#exercice-3 textarea').fill('Que faut-il expliquer au-delà de la durée mesurée ?');
-   await page.locator('#exercice-5 details.correction summary').click();
-   assert(await page.locator('#exercice-5 details.correction').evaluate(el=>el.open),'correction librement accessible');
+   await page.locator('#exercice-5 details.exemple-libre summary').click();
+   assert(await page.locator('#exercice-5 details.exemple-libre').evaluate(el=>el.open),'exemple consultable sans tentative préalable');
    await page.getByRole('link',{name:'Lire le corrigé intégral',exact:true}).click();
    assert((new URL(page.url())).hash==='#corrige','accès direct au corrigé');
 
