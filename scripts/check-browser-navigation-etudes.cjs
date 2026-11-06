@@ -3,7 +3,7 @@
 const fs=require('node:fs'),path=require('node:path'),http=require('node:http'),assert=require('node:assert/strict');
 const {chromium}=require('playwright');
 const root=path.resolve(process.argv[2]||'.');
-const pages=['philosophie-explication.html','philosophie-dissertation-parcours.html','philosophie-dissertations.html','hlp.html','hlp-premiere.html','hlp-terminale.html','hlp-ecrire.html'];
+const pages=['philosophie-explication.html','philosophie-dissertation-parcours.html','philosophie-dissertations.html','philosophie-dissertation-mesurer-le-temps.html','hlp.html','hlp-premiere.html','hlp-terminale.html','hlp-ecrire.html'];
 const mime={'.html':'text/html; charset=utf-8','.js':'application/javascript','.css':'text/css','.svg':'image/svg+xml','.webp':'image/webp','.woff2':'font/woff2'};
 const server=http.createServer((req,res)=>{
  const f=path.resolve(root,'.'+new URL(req.url,'http://localhost').pathname);
@@ -70,6 +70,25 @@ const server=http.createServer((req,res)=>{
    await page.reload();assert.equal(await page.locator('[data-card]:visible').count(),1);
    await page.locator('[data-card]:visible').getByRole('link',{name:'Travailler ce sujet'}).click();
    assert(await page.locator('#sujet-1').isVisible());
+
+   // Annale « Mesurer le temps » : le corrigé reste accessible sans exercice préalable.
+   await page.goto(base+'philosophie-dissertation-mesurer-le-temps.html');
+   await page.locator('#corrige .cm-bar .cm-mode').first().waitFor();
+   assert.equal(await page.locator('#c20-mesurer-le-temps .c20-block').count(),13);
+   assert.equal(await page.locator('#c20-mesurer-le-temps .c20-s').count(),62);
+   assert.equal(await page.locator('#c20-mesurer-le-temps .c20-f').count(),62);
+   assert.equal(await page.locator('#entrainement article.exercise').count(),6);
+   assert(await page.locator('#corrige .cm-plain').isVisible(),'la copie entière est accessible immédiatement');
+   await page.locator('#corrige .cm-bar .cm-mode').last().click();
+   assert(await page.locator('#c20-mesurer-le-temps').isVisible(),'les fonctions sont accessibles');
+   assert(await page.locator('#c20-mesurer-le-temps .c20-f').first().isVisible(),'la fonction de chaque phrase est visible');
+   await page.locator('#corrige .cm-bar .cm-mode').first().click();
+   assert(await page.locator('#corrige .cm-plain').isVisible(),'retour à la copie intégrale');
+   await page.locator('#exercice-3 textarea').fill('Que faut-il expliquer au-delà de la durée mesurée ?');
+   await page.locator('#exercice-5 details.correction summary').click();
+   assert(await page.locator('#exercice-5 details.correction').evaluate(el=>el.open),'correction librement accessible');
+   await page.getByRole('link',{name:'Lire le corrigé intégral',exact:true}).click();
+   assert((new URL(page.url())).hash==='#corrige','accès direct au corrigé');
 
    for(const niveau of ['premiere','terminale']){
     await page.goto(base+'hlp.html');
