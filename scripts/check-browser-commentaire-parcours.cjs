@@ -18,7 +18,7 @@ async function check(root){
   for(const width of [390,1280]){
    const context=await browser.newContext({viewport:{width,height:900},reducedMotion:'reduce',acceptDownloads:true});const page=await context.newPage(),errors=[],posts=[];
    page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(r.method()==='POST')posts.push(r.url());});
-   await page.goto(base+'bac-commentaire.html');assert.equal(await page.locator('main [role=tab]').count(),2);assert.equal(await page.locator('#comm-textes .commentaire-texte').count(),16);
+   await page.goto(base+'bac-commentaire.html');assert.equal(await page.locator('main [role=tab]').count(),2);assert.equal(await page.locator('#comm-textes .commentaire-texte').count(),22);
    for(const a of await page.locator('main a[href]').all()){
     const href=await a.getAttribute('href');if(href.startsWith('http'))continue;
     const u=new URL(href,base+'bac-commentaire.html');const file=u.pathname==='/'?'index.html':u.pathname.slice(1);
@@ -28,7 +28,7 @@ async function check(root){
    await page.screenshot({path:path.join(captures,'commentaire-parcours-'+width+'.png')});
    await page.getByRole('tab',{name:'Méthode et modèles',exact:true}).click();
    await page.getByRole('link',{name:'Choisir un modèle →',exact:true}).click();
-   assert.equal(await page.locator('.commentaire-choices .module-card').count(),12);
+   assert.equal(await page.locator('.commentaire-choices .module-card').count(),18);
    await page.goto(base+'bac-mode-examen.html');
    const exam=id=>page.locator('[data-exam-id="'+id+'"]'),h=exam('hialmar'),m=exam('montaigne');
    assert(await h.isVisible());assert(!(await m.isVisible()));assert.equal(await h.locator('.vers').count(),36);
@@ -149,7 +149,7 @@ async function check(root){
   }
   const nojs=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:900}}),p=await nojs.newPage();await p.goto(base+'bac-mode-examen.html');assert.equal(await p.locator('[data-exam-id]:visible').count(),4);assert.equal(await p.locator('[data-exam-id="hialmar"] .vers').count(),36);await nojs.close();
   const denied=await browser.newContext();await denied.addInitScript(()=>{Storage.prototype.setItem=()=>{throw new Error('Storage unavailable');};});const d=await denied.newPage();await d.goto(base+'bac-mode-examen.html?sujet=inconnu');await d.locator('[data-exam-id="hialmar"] textarea').fill('Un brouillon à télécharger.');assert((await d.locator('[data-exam-id="hialmar"] [data-exam-save]').innerText()).includes('indisponible'));await denied.close();
-  fs.writeFileSync(path.join(captures,'commentaire-parcours-report.json'),JSON.stringify(results,null,2));console.log('Parcours commentaire : quatre entrées, dix modèles et mode examen à 390/1280 px : OK.');
+  fs.writeFileSync(path.join(captures,'commentaire-parcours-report.json'),JSON.stringify(results,null,2));console.log('Parcours commentaire : quatre entrées, dix-huit modèles et mode examen à 390/1280 px : OK.');
  }finally{if(browser)await browser.close();await new Promise(r=>server.close(r));}
 }
 module.exports=check;
