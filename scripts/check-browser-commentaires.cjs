@@ -32,7 +32,13 @@ async function check(root){
         assert.deepEqual((await art.locator('.c20-f').allTextContents()).map(normalize),functions.map(normalize),'Chaque phrase a sa fonction');
         assert.equal(await art.locator('.c20-f:visible').count(),expected.length);
         const ending=art.locator(':scope > p[data-h="CONCLUSION"]');
-        assert.equal(await ending.locator('[data-f^="Ouverture :"]').count(),2);
+        assert.equal(await ending.count(),1,'Conclusion présente dans chaque modèle');
+        assert((await ending.locator('[data-f]').count())>=2,'Réponse et portée doivent être rédigées');
+        // L'ouverture est facultative dans une excellente copie : ne pas l'imposer à l'élève.
+        assert((await art.locator('span[data-k="nec"]').count())>=2,'Nécessité des réponses analysée');
+        for(const kind of ['rep','nec','tr','rea','el','pro','eff']){
+          assert(await art.locator('span[data-k="'+kind+'"]').count()>0,'Repérage '+kind+' présent');
+        }
         const reference=page.locator('#source-ouverture');
         assert.equal(await reference.count(),1);
         assert(!(await reference.locator('p').first().isVisible()),'La source reste repliée au départ');
