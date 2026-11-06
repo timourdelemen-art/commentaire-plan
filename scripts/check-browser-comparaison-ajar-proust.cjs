@@ -72,7 +72,7 @@ async function check(root){
     const overflow=await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth);
     assert(overflow<=1,file+' overflow='+overflow);
     assert.deepEqual(errors,[],file+' JS');
-    await page.screenshot({path:path.join(captures,file.replace('.html','')+'-'+width+'.png'),fullPage:true});
+    await page.screenshot({path:path.join(captures,file.replace('.html','')+'-'+width+'.png'),fullPage:false});
     console.log(file+' '+width+'px : texte, écrit, 13 paragraphes, '+expectedFunctions+' fonctions, deux modes, largeur : OK');
     await page.close();
    }
