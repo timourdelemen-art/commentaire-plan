@@ -78,6 +78,8 @@ const server=http.createServer((req,res)=>{
    assert.equal(await page.locator('#c20-mesurer-le-temps .c20-s').count(),62);
    assert.equal(await page.locator('#c20-mesurer-le-temps .c20-f').count(),62);
    assert.equal(await page.locator('#entrainement article.exercise').count(),6);
+   assert.equal(await page.locator('#construction').count(),0,'la rubrique redondante est supprimée');
+   assert.equal(await page.locator('nav.mesurer-entry a').count(),2,'seules les deux entrées utiles demeurent');
    assert(await page.locator('#corrige .cm-plain').isVisible(),'la copie entière est accessible immédiatement');
    await page.locator('#corrige .cm-bar .cm-mode').last().click();
    assert(await page.locator('#c20-mesurer-le-temps').isVisible(),'les fonctions sont accessibles');
