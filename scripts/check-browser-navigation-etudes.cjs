@@ -75,8 +75,8 @@ const server=http.createServer((req,res)=>{
    await page.goto(base+'philosophie-dissertation-mesurer-le-temps.html');
    await page.locator('#corrige .cm-bar .cm-mode').first().waitFor();
    assert.equal(await page.locator('#c20-mesurer-le-temps .c20-block').count(),13);
-   assert.equal(await page.locator('#c20-mesurer-le-temps .c20-s').count(),60);
-   assert.equal(await page.locator('#c20-mesurer-le-temps .c20-f').count(),60);
+   assert.equal(await page.locator('#c20-mesurer-le-temps .c20-s').count(),62);
+   assert.equal(await page.locator('#c20-mesurer-le-temps .c20-f').count(),62);
    assert.equal(await page.locator('#entrainement article.exercise').count(),6);
    assert(await page.locator('#corrige .cm-plain').isVisible(),'la copie entière est accessible immédiatement');
    await page.locator('#corrige .cm-bar .cm-mode').last().click();
