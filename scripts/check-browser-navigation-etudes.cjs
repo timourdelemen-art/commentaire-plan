@@ -132,11 +132,11 @@ const server=http.createServer((req,res)=>{
     assert((await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth))<=1,file+' déborde à 200 %');
    }
    assert.deepEqual(errors,[]);
-   console.log(width+' px : 7 entrées, liens et ancres, Nietzsche, 26 dissertations, recherche et filtres, HLP par classe/exercice/discipline, clavier et texte à 200 % : OK.');
+   console.log(width+' px : 7 entrées, liens et ancres, Nietzsche, 27 dissertations, recherche et filtres, HLP par classe/exercice/discipline, clavier et texte à 200 % : OK.');
    await context.close();
   }
   const nojs=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:900}}),p=await nojs.newPage();
-  for(const [file,total] of [['philosophie-dissertations.html',26],['hlp-ecrire.html',12]]){
+  for(const [file,total] of [['philosophie-dissertations.html',27],['hlp-ecrire.html',12]]){
    await p.goto(base+file);assert.equal(await p.locator('[data-card]:visible').count(),total);assert(await p.locator('form').isHidden());
   }
   await p.goto(base+'philosophie-explication.html');await p.locator('#methode>summary').click();assert(await p.locator('#methode').evaluate(el=>el.open));
