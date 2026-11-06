@@ -242,6 +242,8 @@ const portals=navigation.map(([href,label,sub,items])=>portal(href,label,sub,ite
 
   // Protocole global : aucun corrigé détaillé avant une tentative réelle.
   document.querySelectorAll('details.correction').forEach(details=>{
+    // Certaines annales annoncent explicitement un corrigé librement accessible.
+    if(details.hasAttribute('data-correction-libre') || location.pathname.endsWith('/philosophie-dissertation-mesurer-le-temps.html')) return;
     const scope=details.closest('article,section,.workbench,.exercise,.qcm-full,.stage-card')||details.parentElement;
     const fields=[...(scope?.querySelectorAll('textarea,input:not([type="hidden"]),select')||[])].filter(el=>!details.contains(el));
     if(!fields.length) return;

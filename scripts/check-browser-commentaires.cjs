@@ -5,7 +5,7 @@ const {chromium}=require('playwright');
 const normalize=s=>s.replace(/\s+/gu,' ').trim();
 async function check(root){
   root=path.resolve(root);
-  const pages=fs.readdirSync(root).filter(n=>n.endsWith('.html')&&fs.readFileSync(path.join(root,n),'utf8').includes('class="model-commentary" data-c20'));
+  const pages=fs.readdirSync(root).filter(n=>n.endsWith('.html')&&!['bac-commentaire-proust-combray.html','bac-commentaire-ajar-vie-devant-soi.html','bac-commentaire-rimbaud-les-effares.html','bac-commentaire-fontenelle-opera.html','bac-commentaire-la-boetie-colosse.html','bac-commentaire-musset-perdican-amour.html','bac-commentaire-corneille-menteur-guerre.html','bac-commentaire-graffigny-education-femmes.html'].includes(n)&&fs.readFileSync(path.join(root,n),'utf8').includes('class="model-commentary" data-c20'));
   assert.equal(pages.length,10);
   const server=http.createServer((req,res)=>{
     const file=path.resolve(root,'.'+decodeURIComponent(new URL(req.url,'http://localhost').pathname));

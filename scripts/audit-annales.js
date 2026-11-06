@@ -108,7 +108,7 @@ for(const jsPath of jsWithDynamicTextareas){
 
 // Le site peut expliquer l’usage de l’IA, mais ne doit jamais la présenter comme un substitut au travail de l’élève.
 const visibleForbidden=[
-  /\b(?:IA\s+)?brid[ée]e?\b/i,
+  /\b(?:IA\s+)?bridé(?:e|s|es)?\b/i,
   /\bdébrid[ée]e?\b/i,
   /\bdiabrid[ée]e?\b/i,
   /Demander à l[’']IA/i,

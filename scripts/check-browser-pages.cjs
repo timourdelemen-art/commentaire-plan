@@ -90,6 +90,7 @@ const server = http.createServer((req,res) => {
   await browser.close();
   await require('./check-browser-typographie.cjs')(root);
   await require('./check-browser-commentaires.cjs')(root);
+  await require('./check-browser-comparaison-ajar-proust.cjs')(root);
   await require('./check-browser-commentaire-parcours.cjs')(root);
   require('node:child_process').execFileSync('python3',[path.join(__dirname,'test-commentaires-programme.py')],{stdio:'inherit'});
   require('node:child_process').execFileSync(process.execPath,[path.join(__dirname,'check-browser-commentaires-programme.cjs'),root],{stdio:'inherit'});
