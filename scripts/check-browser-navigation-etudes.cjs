@@ -3,7 +3,7 @@
 const fs=require('node:fs'),path=require('node:path'),http=require('node:http'),assert=require('node:assert/strict');
 const {chromium}=require('playwright');
 const root=path.resolve(process.argv[2]||'.');
-const pages=['philosophie-explication.html','philosophie-dissertation-parcours.html','philosophie-dissertations.html','hlp.html','hlp-premiere.html','hlp-terminale.html','hlp-ecrire.html'];
+const pages=['philosophie-explication.html','philosophie-dissertation-parcours.html','philosophie-dissertations.html','philosophie-dissertation-mesurer-le-temps.html','hlp.html','hlp-premiere.html','hlp-terminale.html','hlp-ecrire.html'];
 const mime={'.html':'text/html; charset=utf-8','.js':'application/javascript','.css':'text/css','.svg':'image/svg+xml','.webp':'image/webp','.woff2':'font/woff2'};
 const server=http.createServer((req,res)=>{
  const f=path.resolve(root,'.'+new URL(req.url,'http://localhost').pathname);
@@ -54,22 +54,41 @@ const server=http.createServer((req,res)=>{
    await page.goto(base+'philosophie-dissertation-parcours.html');
    assert.deepEqual(await page.locator('main nav.annales-jump a').allTextContents(),['Commencer pas à pas','Choisir un sujet corrigé']);
    await page.getByRole('link',{name:'Choisir un sujet corrigé',exact:true}).click();
-   assert.equal(await page.locator('[data-card]').count(),26);
+   assert.equal(await page.locator('[data-card]').count(),27);
    assert(!/Copies supplémentaires|Dissertation extraordinaire|· Notions/.test(await page.locator('main').innerText()));
    const search=page.getByRole('searchbox',{name:'Un mot du sujet'});
    await search.focus();await page.keyboard.type('VERITE');
    assert((await page.locator('[data-card]:visible').count())>0);
-   assert((await page.locator('[data-card]:visible').count())<26);
+   assert((await page.locator('[data-card]:visible').count())<27);
    await page.getByLabel('Une notion',{exact:true}).selectOption('Technique');
    assert.equal(await page.locator('[data-card]:visible').count(),0);
    assert(await page.locator('[data-empty]').isVisible());
    await page.getByRole('button',{name:'Tout afficher',exact:true}).click();
-   assert.equal(await page.locator('[data-card]:visible').count(),26);
+   assert.equal(await page.locator('[data-card]:visible').count(),27);
    await page.getByLabel('Une notion',{exact:true}).selectOption('Travail');
    assert.equal(await page.locator('[data-card]:visible').count(),1);
    await page.reload();assert.equal(await page.locator('[data-card]:visible').count(),1);
    await page.locator('[data-card]:visible').getByRole('link',{name:'Travailler ce sujet'}).click();
    assert(await page.locator('#sujet-1').isVisible());
+
+   // Annale « Mesurer le temps » : le corrigé reste accessible sans exercice préalable.
+   await page.goto(base+'philosophie-dissertation-mesurer-le-temps.html');
+   await page.locator('#corrige .cm-bar .cm-mode').first().waitFor();
+   assert.equal(await page.locator('#c20-mesurer-le-temps .c20-block').count(),13);
+   assert.equal(await page.locator('#c20-mesurer-le-temps .c20-s').count(),62);
+   assert.equal(await page.locator('#c20-mesurer-le-temps .c20-f').count(),62);
+   assert.equal(await page.locator('#entrainement article.exercise').count(),6);
+   assert(await page.locator('#corrige .cm-plain').isVisible(),'la copie entière est accessible immédiatement');
+   await page.locator('#corrige .cm-bar .cm-mode').last().click();
+   assert(await page.locator('#c20-mesurer-le-temps').isVisible(),'les fonctions sont accessibles');
+   assert(await page.locator('#c20-mesurer-le-temps .c20-f').first().isVisible(),'la fonction de chaque phrase est visible');
+   await page.locator('#corrige .cm-bar .cm-mode').first().click();
+   assert(await page.locator('#corrige .cm-plain').isVisible(),'retour à la copie intégrale');
+   await page.locator('#exercice-3 textarea').fill('Que faut-il expliquer au-delà de la durée mesurée ?');
+   await page.locator('#exercice-5 details.correction summary').click();
+   assert(await page.locator('#exercice-5 details.correction').evaluate(el=>el.open),'correction librement accessible');
+   await page.getByRole('link',{name:'Lire le corrigé intégral',exact:true}).click();
+   assert((new URL(page.url())).hash==='#corrige','accès direct au corrigé');
 
    for(const niveau of ['premiere','terminale']){
     await page.goto(base+'hlp.html');
@@ -113,11 +132,11 @@ const server=http.createServer((req,res)=>{
     assert((await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth))<=1,file+' déborde à 200 %');
    }
    assert.deepEqual(errors,[]);
-   console.log(width+' px : 7 entrées, liens et ancres, Nietzsche, 26 dissertations, recherche et filtres, HLP par classe/exercice/discipline, clavier et texte à 200 % : OK.');
+   console.log(width+' px : 7 entrées, liens et ancres, Nietzsche, 27 dissertations, recherche et filtres, HLP par classe/exercice/discipline, clavier et texte à 200 % : OK.');
    await context.close();
   }
   const nojs=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:900}}),p=await nojs.newPage();
-  for(const [file,total] of [['philosophie-dissertations.html',26],['hlp-ecrire.html',12]]){
+  for(const [file,total] of [['philosophie-dissertations.html',27],['hlp-ecrire.html',12]]){
    await p.goto(base+file);assert.equal(await p.locator('[data-card]:visible').count(),total);assert(await p.locator('form').isHidden());
   }
   await p.goto(base+'philosophie-explication.html');await p.locator('#methode>summary').click();assert(await p.locator('#methode').evaluate(el=>el.open));
