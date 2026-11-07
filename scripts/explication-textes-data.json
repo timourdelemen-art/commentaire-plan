@@ -298,14 +298,14 @@
           "Pourquoi l’adhésion religieuse peut-elle être forte sans provenir d’une preuve ?"
         ],
         [
-          "Expliquez le rôle du désir dans l’illusion, puis précisez en deux phrases ce qu’on peut en conclure sur sa vérité.",
-          "Distinguez l’explication de l’adhésion et la preuve qu’une croyance serait fausse.",
-          "Freud rapporte la formation de l’illusion au désir. Sur le plan logique, cette origine ne suffit pas, à elle seule, à prouver la fausseté de la croyance."
+          "Pourquoi le fait qu'une croyance réponde à un désir ne suffit-il pas à prouver sa fausseté ?",
+          "Distinguez la raison psychologique d'y adhérer et la preuve de ce qu'elle affirme.",
+          "Freud identifie le rôle déterminant du souhait dans la formation de l'illusion. Cette origine explique une conviction sans démontrer, par elle-même, que son objet est inexistant. La force d'un désir n'est pas une justification de la croyance."
         ],
         [
-          "Reconstruisez le passage de la détresse infantile à la protection divine en trois phrases.",
-          "Cherchez ce qui demeure et ce qui devient insuffisant quand l’enfant grandit.",
-          "La vulnérabilité persiste. Le protecteur humain ne peut garantir de répondre aux dangers adultes. Le désir se porte alors vers une puissance protectrice supérieure."
+          "Par quelles étapes Freud passe-t-il de la protection paternelle à la représentation d'un protecteur divin ?",
+          "Suivez la persistance du besoin et la perte de la garantie fournie par le père réel.",
+          "Le père protège l'enfant, mais la vulnérabilité persiste chez l'adulte. Aucun protecteur humain ne peut garantir la sécurité contre toutes les menaces. La représentation divine répond à l'attente persistante d'une protection plus puissante."
         ],
         [
           "Associez protection, justice et vie future à trois attentes distinctes, une phrase chacune.",
@@ -313,9 +313,9 @@
           "La protection apaise la peur des dangers. La justice promet une réparation refusée ici. La vie future ouvre un espace où les attentes irréalisées pourraient être satisfaites."
         ],
         [
-          "Expliquez en quatre phrases le rôle de la dernière phrase du texte.",
-          "Qu’apporte la curiosité humaine à une explication jusque-là centrée sur la consolation ?",
-          "La religion satisfait aussi le besoin de comprendre. Elle répond sur l’univers et le rapport du corps à l’esprit à partir de principes admis. La fin complète donc l’explication par la consolation. On peut en examiner la portée : la cohérence de ces réponses ne suffit pas à prouver leurs principes."
+          "Comment la prétention religieuse à expliquer le monde s'articule-t-elle au désir de protection ?",
+          "Distinguez les réponses données à des questions théoriques et leur justification indépendante.",
+          "Les croyances répondent aussi à des questions sur le monde à partir de leurs propres principes. Leur cohérence interne ne suffit pas à vérifier ces principes. Le besoin de comprendre peut ainsi rejoindre le besoin d'être rassuré sans devenir une preuve."
         ]
       ],
       "criteria": [
@@ -527,18 +527,18 @@
       ],
       "drills": [
         {
-          "skill": "La fonction d’une phrase",
-          "extract": "Il faut cependant distinguer cette explication de l’adhésion d’une preuve de fausseté : qu’une croyance soit désirée ne suffit pas, à soi seul, à établir qu’elle est fausse.",
-          "task": "Expliquez le rôle de cette phrase en deux phrases : ce qu’elle précise, puis ce qu’on perdrait en la supprimant.",
-          "hint": "Distinguez la question de l’origine d’une adhésion et celle de la vérité de son objet.",
-          "expected": "Elle examine la portée de l’argument, après avoir expliqué le rôle du désir chez Freud. Elle signale une distinction logique proposée par la copie : expliquer l’adhésion par le désir ne prouve pas, à soi seul, la fausseté de la croyance. Sans cette précision, on risquerait de prendre une explication de l’adhésion pour une réfutation de son objet."
+          "skill": "Distinguer origine d'une croyance et preuve",
+          "extract": "Ainsi l'illusion n'est pas définie par la seule fausseté de ce qu'elle affirme : elle se caractérise par la place du souhait dans la conviction.",
+          "task": "En trois phrases, expliquez le critère de l'illusion, puis dites ce que la généalogie de la croyance ne prouve pas.",
+          "hint": "Une cause de croire est-elle déjà une raison d'établir que ce qu'on croit est faux ?",
+          "expected": "Freud appelle illusion une croyance dans la formation de laquelle le souhait joue un rôle déterminant. Il explique ainsi la force de l'adhésion. Il n'en déduit pas, par ce seul mécanisme, la fausseté de l'objet cru."
         },
         {
           "skill": "Réécrire avec précision",
-          "extract": "Freud dit que la religion explique les choses, donc il prouve que Dieu n’existe pas.",
-          "task": "Corrigez cette conclusion en deux phrases.",
-          "hint": "Comparez chaque affirmation avec la thèse exacte du passage. Conservez les mots qui limitent sa portée.",
-          "expected": "Freud explique la formation et la force des croyances religieuses. Leur origine dans le désir n’est pas, à elle seule, une preuve de l’inexistence de Dieu."
+          "extract": "Freud explique la religion par le désir : il démontre donc que Dieu n'existe pas.",
+          "task": "Corrigez cette inférence en deux phrases.",
+          "hint": "Ne confondez pas explication d'une conviction et preuve portant sur son objet.",
+          "expected": "Freud explique la force des croyances religieuses par les désirs qu'elles satisfont. L'explication psychologique ne suffit pas, à elle seule, à établir que leurs objets n'existent pas."
         }
       ]
     },
@@ -575,9 +575,9 @@
           "Comment la recherche de leur intérêt peut-elle faire négliger la liberté dont cet intérêt dépend ?"
         ],
         [
-          "Formulez la thèse en une phrase, en précisant la condition du danger.",
-          "Repérez la comparaison entre deux vitesses de développement.",
-          "Lorsque le goût des biens progresse plus vite que la compréhension et la pratique de la liberté, la recherche de la fortune peut conduire les citoyens à abandonner leurs devoirs politiques."
+          "Expliquez pourquoi le goût des richesses devient dangereux seulement sous une condition précise.",
+          "Distinguez progrès des biens, lumières et pratiques de la liberté.",
+          "La recherche des biens devient dangereuse si elle progresse plus vite que la compréhension et l'exercice des droits politiques. Ce décalage masque la dépendance de la fortune privée à la prospérité commune. L'enrichissement n'est donc pas condamné en lui-même."
         ],
         [
           "Donnez aux quatre moments du texte un rôle, une phrase chacun.",
@@ -585,14 +585,14 @@
           "Le début précise les conditions du danger. Le texte décrit ensuite le retrait volontaire. L’auteur rectifie alors une conception étroite de l’intérêt. La fin dégage le vide politique collectif."
         ],
         [
-          "Expliquez en quatre phrases la différence entre arracher des droits et les laisser échapper.",
-          "Distinguez la possession des droits et les pratiques qui leur donnent effet.",
-          "Arracher des droits suppose une confiscation subie. Ici, les citoyens cessent eux-mêmes de les exercer. Leur attention est absorbée par les affaires privées. Ce retrait affaiblit la liberté sans nécessiter d’abord une oppression extérieure."
+          "Pourquoi est-il possible de perdre la puissance politique d'un droit sans que la loi l'ait supprimé ?",
+          "Distinguez disparition juridique et abandon pratique.",
+          "Un droit peut subsister sur le papier alors que les citoyens cessent de l'exercer. L'abandon des charges publiques réduit leur capacité de veiller sur les décisions communes. La perte de liberté commence ainsi dans un retrait volontaire, pas nécessairement dans l'interdiction."
         ],
         [
-          "Rédigez quatre phrases sur l’erreur des citoyens dans leur calcul de l’intérêt.",
-          "Qui juge les travaux politiques inutiles ? Quel intérêt ce jugement oublie-t-il ?",
-          "Les citoyens pensent perdre du temps en participant à la vie publique. Ils ne comptent que le coût privé immédiat. Ils oublient que leur autonomie dépend des affaires communes. Leur calcul compromet donc la condition de l’intérêt qu’il prétend servir."
+          "Reconstituez le calcul d'intérêt que Tocqueville juge erroné.",
+          "Pourquoi la participation politique est-elle une condition des affaires privées plutôt qu'une distraction ?",
+          "La participation a un coût immédiatement visible en temps et en effort. Mais elle préserve la capacité de peser sur les règles qui déterminent la vie économique. Renoncer à elle par intérêt immédiat peut donc compromettre l'intérêt futur."
         ]
       ],
       "criteria": [
@@ -800,11 +800,11 @@
       "year": 2026,
       "drills": [
         {
-          "skill": "La fonction d’une phrase",
+          "skill": "Distinguer une opinion rapportée de la thèse de l'auteur",
           "extract": "Les expressions « travaux inutiles » et « jeux d’oisifs » exposent ce jugement des citoyens, sans exprimer celui de Tocqueville.",
-          "task": "Expliquez le rôle de cette phrase en deux phrases : ce qu’elle précise, puis ce qu’on perdrait en la supprimant.",
-          "hint": "Relisez les expressions dépréciatives, puis la rectification de l’intérêt qui les suit.",
-          "expected": "Elle empêche d’attribuer à Tocqueville les jugements des citoyens dont il critique le retrait. Sans cette attribution, on risquerait de faire dire à Tocqueville que les devoirs politiques sont inutiles, alors qu’il critique précisément ce jugement."
+          "task": "Expliquez qui parle à travers ces expressions et la fonction critique de leur présence dans le passage.",
+          "hint": "L'auteur rapporte les raisons par lesquelles les citoyens se détournent de la vie publique.",
+          "expected": "Les expressions donnent voix aux citoyens absorbés par leurs affaires privées. Tocqueville les rapporte pour montrer leur méprise : ils tiennent pour inutile une activité qui protège les conditions de leur propre liberté."
         },
         {
           "skill": "Réécrire avec précision",
@@ -848,19 +848,19 @@
           "Pourquoi le travail d’exécution garderait-il une servitude même dans une société parfaitement équitable ?"
         ],
         [
-          "Expliquez nécessité et finalité dans ce passage, en deux phrases.",
-          "Ne confondez pas la finalité au sens ordinaire et le bien qui attire le désir.",
-          "La nécessité impose l’effort pour conserver les conditions de la vie. La finalité désigne ici le bien vers lequel le désir pourrait orienter cet effort."
+          "Expliquez pourquoi une équité sociale parfaite n'effacerait pas le problème que Weil étudie.",
+          "L'hypothèse retranche l'injustice pour isoler ce qui subsiste dans le renouvellement du besoin.",
+          "L'équité peut corriger des injustices entre les travailleurs. Mais l'existence exige encore de travailler pour satisfaire des besoins qui reviennent. L'hypothèse isole donc une nécessité que les seuls changements sociaux ne suppriment pas."
         ],
         [
-          "Reconstituez l’argument sur le désir et le travail en trois phrases.",
-          "Distinguez ce qui donne l’élan et ce que l’effort obtient durablement.",
-          "Le désir fournit l’énergie de l’effort en visant ce qu’on n’a pas. Le travail nécessaire ramène à une situation qu’il faut conserver. L’élan vers un autre état se trouve ainsi ramené au même."
+          "Reconstituez la difficulté entre le désir d'avancer et le travail qui conserve la vie.",
+          "Distinguez l'effort réellement dépensé et l'état qu'il permet de maintenir.",
+          "Le désir tend vers une situation que l'on n'a pas encore atteinte. Le travail nécessaire mobilise cette énergie pour conserver la possibilité de vivre, qui doit être reconquise chaque jour. La lassitude naît de ce décalage entre élan et retour au même."
         ],
         [
-          "Expliquez les deux comparaisons en trois phrases.",
-          "Cherchez ce que les deux images partagent et ce que la seconde ajoute.",
-          "L’écureuil dépense ses forces sans sortir de la boucle. Le condamné ajoute l’expérience d’une captivité. Les deux images éclairent la servitude d’un mouvement sans délivrance."
+          "Pourquoi le condamné ajoute-t-il un élément que la comparaison avec l'écureuil ne suffisait pas à montrer ?",
+          "La répétition et la captivité ne sont pas identiques.",
+          "L'écureuil figure l'effort d'un mouvement qui revient sur lui-même. Le condamné ajoute que cette répétition est imposée. Les deux images rendent intelligible la servitude du travail nécessaire sans prouver que tout travail est dépourvu de sens."
         ],
         [
           "Expliquez la dernière remarque sur les meilleurs travailleurs en trois phrases.",
@@ -1093,11 +1093,11 @@
       "year": 2026,
       "drills": [
         {
-          "skill": "La fonction d’une phrase",
-          "extract": "Ce retour ne signifie pas qu’aucun objet n’est produit ; il décrit ce que l’effort apporte durablement à l’existence du travailleur.",
-          "task": "Expliquez le rôle de cette phrase en deux phrases : ce qu’elle précise, puis ce qu’on perdrait en la supprimant.",
-          "hint": "Comparez la production d’un objet et la nécessité, pour le travailleur, de gagner encore sa vie.",
-          "expected": "Elle distingue le résultat matériel du travail et ce que l’effort apporte durablement à l’existence du travailleur. Sans cette distinction, le retour au point de départ pourrait être pris à tort pour une absence de production matérielle."
+          "skill": "La fonction d'une épreuve par hypothèse",
+          "extract": "L'hypothèse d'équité parfaite fonctionne comme une épreuve : elle retire l'injustice évitable pour vérifier ce qui subsiste dans le travail comme nécessité de l'existence.",
+          "task": "Expliquez ce que l'hypothèse retranche, ce qu'elle conserve et ce que Weil cherche à montrer.",
+          "hint": "Ce qui reste malgré la justice parfaite ne s'explique pas uniquement par l'injustice.",
+          "expected": "Weil imagine les injustices supprimées. Le travail pour satisfaire les besoins renouvelés demeure pourtant. Cette épreuve distingue la souffrance sociale évitable de la difficulté intérieure du travail nécessaire."
         },
         {
           "skill": "Réécrire avec précision",
@@ -1175,9 +1175,9 @@
           "Comment être responsable de ses erreurs si notre esprit est naturellement limité ?"
         ],
         [
-          "Reformulez la thèse et sa raison en deux phrases.",
-          "Distinguez ce qu’on ne peut pas connaître et ce qu’on peut choisir d’affirmer.",
-          "L’erreur est possible pour un esprit limité, mais la liberté permettrait de l’éviter. On peut ne pas affirmer ce qu’on n’a pas examiné."
+          "Pourquoi la liberté de juger ne demande-t-elle pas à l'esprit humain de tout savoir ?",
+          "Distinguez connaissance limitée et choix de ne pas affirmer au-delà de ce qu'on a vérifié.",
+          "L'esprit n'a pas à connaître tous les rapports pour éviter une erreur. Il peut reconnaître qu'un rapport lui échappe et retenir son assentiment. La liberté règle l'affirmation plutôt qu'elle n'étend indéfiniment les connaissances."
         ],
         [
           "Distinguez trois moments du raisonnement, une phrase chacun.",
@@ -1185,9 +1185,9 @@
           "Le début explique la possibilité de l’erreur. La liberté permet ensuite de régler le jugement, ce qui fonde la responsabilité. La fin explique les erreurs effectives par la préférence pour une décision sans effort."
         ],
         [
-          "Expliquez en quatre phrases le passage de l’absence de constat à l’affirmation d’inexistence.",
-          "Ce qui manque à mon examen manque-t-il nécessairement au réel ?",
-          "Je peux ne pas apercevoir un rapport qui existe. Le nier transforme une limite de mon examen en propriété du réel. Cette déduction n’est pas justifiée. Reconnaître mon ignorance permet de retenir le jugement."
+          "Pourquoi ne peut-on pas déduire « ce rapport n'existe pas » de « je ne l'aperçois pas » ?",
+          "Une absence d'observation ne fournit pas une preuve d'absence.",
+          "Le sujet connaît les limites de son examen, pas nécessairement toutes les propriétés de la chose. Nier un rapport qu'on n'a pas vu dépasse ce que l'observation permet de conclure. Malebranche situe l'erreur dans cet excès de jugement."
         ],
         [
           "Examinez la responsabilité d’une accusation précipitée en quatre phrases.",
@@ -1620,11 +1620,11 @@
       "year": 2026,
       "drills": [
         {
-          "skill": "La fonction d’une phrase",
+          "skill": "L'opération du connecteur Toutefois",
           "extract": "Le « Toutefois » prévient donc une conclusion fataliste : être exposé à l’erreur ne signifie pas être contraint de la commettre.",
-          "task": "Expliquez le rôle de cette phrase en deux phrases : ce qu’elle précise, puis ce qu’on perdrait en la supprimant.",
-          "hint": "Relisez le début puis le « Toutefois » : une possibilité naturelle impose-t-elle un jugement faux ?",
-          "expected": "Elle explique pourquoi l’articulation marque une objection à la conclusion fataliste que l’on pourrait tirer du début. Sans ce lien, le passage de la faiblesse naturelle au blâme semblerait contradictoire : la liberté de retenir son jugement serait laissée dans l’ombre."
+          "task": "Distinguez ce que le connecteur conserve du premier moment et ce qu'il introduit de nouveau.",
+          "hint": "La finitude rend l'erreur possible, mais la liberté peut retenir un jugement insuffisamment établi.",
+          "expected": "Le connecteur conserve l'idée d'un esprit naturellement limité. Il refuse que cette limite oblige à se tromper et introduit la liberté de suspendre l'affirmation. C'est cette liberté qui rend l'acte de juger imputable."
         },
         {
           "skill": "Réécrire avec précision",
@@ -1669,19 +1669,19 @@
           "Que valent des libertés égales quand les moyens d’influencer les décisions sont inégaux ?"
         ],
         [
-          "Distinguez être informé, juger et proposer en trois phrases.",
-          "Pour chaque verbe, demandez-vous ce qu’il ajoute au précédent.",
-          "L’information donne accès aux enjeux. Le jugement apprécie les projets. La proposition permet de contribuer à définir les choix."
+          "Distinguez les capacités nécessaires à la participation politique que Rawls énumère.",
+          "Une égalité de droit ne remplace pas la possibilité de s'informer, de juger et de proposer.",
+          "Le citoyen doit recevoir des informations, en apprécier les conséquences et examiner l'intérêt commun. Il doit pouvoir participer à la formulation des choix, non seulement voter sur des décisions déjà préparées. La participation comprend ainsi plusieurs capacités distinctes."
         ],
         [
-          "Expliquez en trois phrases comment un avantage économique peut se prolonger dans la loi.",
-          "Suivez le passage des ressources privées au débat, puis du débat aux décisions.",
-          "La richesse donne des moyens de rendre certaines idées dominantes. Elles influencent la législation. Les lois peuvent ensuite renforcer les avantages initiaux."
+          "Expliquez comment une richesse inégale peut progressivement devenir un pouvoir d'influer sur la loi.",
+          "Reconstituez la chaîne entre ressources privées, débat public, décisions et maintien de l'avantage.",
+          "La richesse permet à certains d'être davantage entendus et de peser sur les questions discutées. Les décisions peuvent alors défendre leurs privilèges. Des règles favorables renforcent les moyens dont provenait cette influence : la différence de fortune menace la valeur effective des libertés."
         ],
         [
-          "Corrigez en deux phrases : « Rawls demande que tous aient exactement la même fortune. »",
-          "Le résultat recherché porte-t-il d’abord sur les fortunes ou sur les libertés politiques ?",
-          "Le passage demande une répartition large et des compensations. Il vise la juste valeur des libertés, sans prescrire ici une égalité arithmétique des fortunes."
+          "Pourquoi Rawls envisage-t-il des compensations sans déduire du passage la suppression de toute propriété privée ?",
+          "Le texte raisonne dans l'hypothèse d'une société à propriété privée et cherche à garantir la valeur des libertés.",
+          "La répartition plus étendue des richesses réduit la concentration de l'influence privée. Le financement public aide à assurer la participation de citoyens moins riches. Ces compensations ne signifient pas que l'extrait exige d'abolir toute propriété privée."
         ],
         [
           "Rédigez une conclusion en deux phrases : résultat, puis intérêt philosophique.",
@@ -1915,11 +1915,11 @@
       ],
       "drills": [
         {
-          "skill": "La fonction d’une phrase",
-          "extract": "Le texte décrit un risque qui se développe avec le temps, plutôt qu’une domination instantanée et nécessaire.",
-          "task": "Expliquez le rôle de cette phrase en deux phrases : ce qu’elle précise, puis ce qu’on perdrait en la supprimant.",
-          "hint": "Repérez les indications de temps et le verbe qui exprime le risque de prépondérance.",
-          "expected": "Elle conserve la modalité du texte : il s’agit d’un risque progressif, pas d’un effet immédiat et inévitable. Sans cette précision, on attribuerait au texte une prise de contrôle totale et immédiate, au lieu du risque de domination qui se forme progressivement."
+          "skill": "Reconstruire une inférence causale",
+          "extract": "Le mécanisme devient cumulatif lorsque les règles issues de cet avantage contribuent à maintenir les ressources qui le rendent possible.",
+          "task": "Reconstituez en trois étapes le passage de la richesse privée à une influence politique qui renforce cette richesse.",
+          "hint": "Ressources → contrôle du débat → règles communes qui peuvent consolider l'avantage initial.",
+          "expected": "Les citoyens les plus favorisés disposent de moyens supérieurs pour influencer le débat. Cette influence peut déterminer les décisions communes. Les décisions peuvent conserver les avantages économiques qui rendaient l'influence possible."
         },
         {
           "skill": "Réécrire avec précision",
