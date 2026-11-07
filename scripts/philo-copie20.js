@@ -11,7 +11,8 @@ const esc=s=>nb(String(s==null?'':s)).replace(/&/g,'&amp;').replace(/</g,'&lt;')
 const VITRINE='philosophie-copie-20-s-engager-liberte.html';
 // Le numéro du protocole (II.1, III.3…) reste dans les données, jamais dans la page publique.
 const fnLabel=f=>String(f).replace(/^\s*(I|II|III)\.\d\s+/u,'');
-const line=(t,f)=>`<p class="c20-s"><span class="c20-t">${esc(t)}</span><span class="c20-f">${esc(fnLabel(f))}</span></p>`;
+const dynamicSub=f=>(String(f).match(/^\s*(I|II|III)\.(1|2|3)\s/u)||[]).slice(1).join('.');
+const line=(t,f)=>`<p class="c20-s"${dynamicSub(f)?` data-dynamic-sub="${dynamicSub(f)}"`:''}><span class="c20-t">${esc(t)}</span><span class="c20-f">${esc(fnLabel(f))}</span></p>`;
 const block=(h,ss,tag)=>`<div class="c20-block"><${tag} class="c20-h">${esc(h)}</${tag}>${ss.map(([t,f])=>line(t,f)).join('')}</div>`;
 // Une transition est une charnière autonome entre deux parties, jamais une phrase de la partie précédente.
 const isTransition=pair=>/^Transition\b/i.test(String(pair[1]).trim());
