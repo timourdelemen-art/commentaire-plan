@@ -48,19 +48,19 @@ function openingExercise(copy, key) {
     const pair = (copy[i+1]?.[1] || []).find(([, fn]) => fn.startsWith(P+'.2') && markers[i].test(fn));
     return {name, text:pair?.[0] || ''};
   });
-  if (discovered.some(d => !d.text)) throw new Error('Découverte non retrouvée dans la copie : ' + key);
+  if (discovered.some(d => !d.text)) throw new Error('Acquis non retrouvé dans la copie : ' + key);
   const answers = discovered.map(d => '<p><strong>'+esc(d.name)+' :</strong> '+esc(d.text)+'</p>').join('');
   return '<section class="offer-band c20-opening-work" id="decouvertes-'+esc(key)+'">'+
-    '<div class="kicker">EXERCICE · PENSER AUTREMENT</div>'+
-    '<h2>Trois possibilités que la dissertation rend accessibles</h2>'+
+    '<div class="kicker">EXERCICE · PORTÉE DU RAISONNEMENT</div>'+
+    '<h2>Ce que chaque partie permet de penser</h2>'+
     '<p>Cachez la copie, puis écrivez vos réponses avant d’ouvrir l’aide.</p>'+
     '<ol>'+
-    '<li>Après la première partie, écrivez en une phrase ce que la démonstration permet de comprendre au-delà de l’opinion de départ.</li>'+
-    '<li>Après la deuxième partie, écrivez en une phrase ce que l’autre point de vue révèle et que le premier ne montrait pas.</li>'+
-    '<li>Après la troisième partie, expliquez en une phrase ce que la nouvelle manière de poser la question permet d’établir.</li>'+
-    '<li>Reprenez les fins des parties I et II. Dites en deux phrases pourquoi chaque découverte reste limitée et ce que la transition vous oblige à examiner ensuite.</li>'+
+    '<li>Après la première partie, écrivez en une phrase ce qui devient pensable grâce au raisonnement, sans dépasser ce qu’il prouve.</li>'+
+    '<li>Après la deuxième partie, écrivez en une phrase ce que son fondement permet d’établir et que le premier n’établissait pas.</li>'+
+    '<li>Après la troisième partie, expliquez en une phrase ce que l’opération nouvelle permet précisément de penser et de justifier.</li>'+
+    '<li>Reprenez les fins des parties I et II. Énoncez ce que chaque fondement ne permet pas d’établir, puis le travail distinct qu’appelle la transition.</li>'+
     '</ol>'+
-    '<details><summary>Comparer avec les trois découvertes de la copie</summary>'+answers+
+    '<details><summary>Comparer avec les acquis des trois parties</summary>'+answers+
     '<p>Vérifiez ensuite : la difficulté finale d’une partie détermine ce que sa preuve ne démontre pas ; la transition formule le travail qui devient nécessaire.</p></details>'+
     '</section>';
 }
