@@ -88,9 +88,9 @@
       "copie": "état de travail (architecture expérimentale)"
     },
     "ouvertures_de_pensee": {
-      "I": "Le savoir apparaît ainsi comme une activité inscrite dans une communauté : la question de son utilité devient aussi celle des responsabilités qu'entraîne l'usage de ressources partagées.",
-      "II": "Une autre possibilité se fait jour : la science peut servir la société précisément parce qu'elle n'ajuste pas ses résultats aux désirs de ceux qui la financent.",
-      "III": "Nous pouvons donc distinguer le choix public des questions à explorer de la vérité des réponses obtenues : la liberté de la recherche et sa responsabilité ne portent pas nécessairement sur le même moment.",
+      "I": "La recherche utilise des moyens communs ; la société peut donc demander compte de leur emploi et des conséquences de l'activité scientifique, sans être déjà autorisée à décider de ses résultats.",
+      "II": "L'affaire Lyssenko distingue alors deux services possibles : répondre à une attente politique et établir ce qui est. Une science soumise à la première exigence peut perdre la capacité de remplir la seconde.",
+      "III": "La société peut discuter les questions, les moyens et les risques d'une recherche ; elle ne peut prescrire à l'avance la vérité de ses réponses. Cette distinction rend compatibles la responsabilité de la science et l'indépendance de ses résultats.",
       "statut": "Possibilités justifiées, avec leur portée exacte."
     }
   },
@@ -156,12 +156,8 @@
           "I.2 La fonder : une prémisse normative, la réciprocité"
         ],
         [
-          "Une recherche qui ne servirait jamais prélèverait sans rendre, ce qui est une injustice ; la communauté peut donc légitimement exiger d’elle qu’elle serve.",
-          "I.2 L’inférence décisive"
-        ],
-        [
-          "Le savoir apparaît ainsi comme une activité inscrite dans une communauté : la question de son utilité devient aussi celle des responsabilités qu'entraîne l'usage de ressources partagées.",
-          "I.2 Ce que la preuve ouvre"
+          "La recherche utilise des moyens communs ; la société peut donc demander compte de leur emploi et des conséquences de l'activité scientifique, sans être déjà autorisée à décider de ses résultats.",
+          "I.2 Déduire ce que le fondement permet d'établir"
         ],
         [
           "Ce fondement établit un droit réel : la société peut attendre de la science qu’elle serve, et c’est une raison de la soutenir.",
@@ -205,12 +201,8 @@
           "II.2 Le cas qui éprouve le principe"
         ],
         [
-          "Une science qui cherche ce qui doit servir cesse de trouver ce qui est, et par là même cesse de servir.",
-          "II.2 L’inférence décisive : la vérité, condition de l’utilité"
-        ],
-        [
-          "Une autre possibilité se fait jour : la science peut servir la société précisément parce qu'elle n'ajuste pas ses résultats aux désirs de ceux qui la financent.",
-          "II.2 La possibilité que la seconde preuve révèle"
+          "L'affaire Lyssenko distingue alors deux services possibles : répondre à une attente politique et établir ce qui est. Une science soumise à la première exigence peut perdre la capacité de remplir la seconde.",
+          "II.2 Déduire ce que le fondement permet d'établir"
         ],
         [
           "Cette raison établit que la vérité est la norme propre de la science, et même la condition de son utilité.",
@@ -254,12 +246,8 @@
           "III.2 Ce qu’il conserve et ce qu’il explique"
         ],
         [
-          "Lyssenko a corrompu la science pour avoir voulu commander la réponse ; Hardy ne pouvait prévoir l’usage de ses théorèmes parce que la réponse ne se commande pas.",
-          "III.2 Le critère sur un second cas"
-        ],
-        [
-          "Nous pouvons donc distinguer le choix public des questions à explorer de la vérité des réponses obtenues : la liberté de la recherche et sa responsabilité ne portent pas nécessairement sur le même moment.",
-          "III.2 Ce que la transformation fait comprendre"
+          "La société peut discuter les questions, les moyens et les risques d'une recherche ; elle ne peut prescrire à l'avance la vérité de ses réponses. Cette distinction rend compatibles la responsabilité de la science et l'indépendance de ses résultats.",
+          "III.2 Déduire ce que le fondement permet d'établir"
         ],
         [
           "La science doit donc être utile, en ce que ses questions et la diffusion de ses résultats peuvent être réglées par le bien de ceux qui la font vivre, mais non en ce que l’utilité dirait ce qui est vrai.",
