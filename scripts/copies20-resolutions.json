@@ -874,7 +874,7 @@
    "residual": "Reste qu’un tel examen demande du temps, et qu’il faut parfois agir avant que chacun ait pu le faire, au risque de persuader faute de pouvoir convaincre.",
    "conclusionQuestion": "Mais que faire quand l’épidémie n’attend pas que chacun ait examiné ?",
    "economy": {
-    "words": 1071,
+    "words": 945,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -882,7 +882,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "341fcf43af3f59b82d6fb10c4173ca54600d41c5115addca7085fe0b15756063",
+   "copySha256": "c703d2d9fc3049f7beef46d8b32e1405fe4b09cfd9ede5793675cd43613e16bd",
    "protocol": "V16.1-exp"
   },
   "notion-technique": {
@@ -942,7 +942,7 @@
    "residual": "Reste le cas où renoncer à un possible est lui-même irréversible, comme lorsqu’on laisse mourir ceux qu’il aurait sauvés.",
    "conclusionQuestion": "Mais que faire quand s’abstenir est, à son tour, une décision sans retour ?",
    "economy": {
-    "words": 1091,
+    "words": 952,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -950,7 +950,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "1e40fc39fc80c08d35c5eecc2fb268f53c36d39834ff492ea8bf36a55003edac",
+   "copySha256": "b2a55c3f67fc07e5672336b64367a475cdddd08a0e69db8017c13cde0c7699a9",
    "protocol": "V16.1-exp"
   },
   "notion-temps": {
@@ -1010,7 +1010,7 @@
    "residual": "Reste ce qu’aucune activité ne peut entretenir indéfiniment : le vivant lui-même, qui vieillit quoi qu’il fasse.",
    "conclusionQuestion": "Mais qu’en est-il de nous, que nulle reconstruction ne peut rendre à notre jeunesse ?",
    "economy": {
-    "words": 1032,
+    "words": 888,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -1018,7 +1018,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "69caee85d2dbdd53c9aa521faa837e7f0262496fb5305d014ab7b0afb1cc7c84",
+   "copySha256": "edc8650a645748830a7e0c9d023190318f3d1cfe1c361687134e149c66c94fbd",
    "protocol": "V16.1-exp"
   },
   "notion-travail": {
@@ -1078,7 +1078,7 @@
    "residual": "Reste à savoir ce que deviendra cette part humaine si les machines rendent inutile la plupart des travaux, comme Aristote l’imaginait déjà : « si, de même, les navettes tissaient d’elles-mêmes et les plectres jouaient tout seuls de la cithare, alors les ingénieurs n’auraient pas besoin d’exécutants ni les maîtres d’esclaves ».",
    "conclusionQuestion": "Mais où trouverons-nous cette place, si les navettes finissent par tisser d’elles-mêmes ?",
    "economy": {
-    "words": 1104,
+    "words": 962,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -1086,7 +1086,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "827d2bb6d12cb2f80b32587e4d81ad2903104d6fb6d7c3677f36e05abd1f191b",
+   "copySha256": "776738bc1943261aa899ac5f9978e2dca988510a104d4c2003b212d626b57823",
    "protocol": "V16.1-exp"
   },
   "notion-verite": {
