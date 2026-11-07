@@ -36,24 +36,24 @@
           "Comment posséder des connaissances scientifiques sans savoir examiner ses propres opinions ?"
         ],
         [
-          "Expliquez en deux phrases pourquoi une méthode est aussi une conquête.",
-          "Demandez-vous si la manière de vérifier une hypothèse est donnée avant toute recherche.",
-          "Les moyens de recherche et de vérification doivent eux-mêmes être élaborés. Ils rendent possible la production de nouveaux savoirs justifiés."
+          "Pourquoi Nietzsche suppose-t-il les résultats scientifiques conservés tandis que les méthodes disparaîtraient ?",
+          "Montrez ce qui peut encore être répété et ce qui ne pourrait plus être vérifié par soi-même.",
+          "Cette épreuve par suppression distingue la conservation des résultats de la capacité de juger les hypothèses nouvelles. Nietzsche n'écarte pas les résultats ; il les juge insuffisants pour former l'esprit scientifique."
         ],
         [
-          "Expliquez en trois phrases comment une défiance peut devenir instinctive.",
-          "Relisez le rôle de l’exercice dans la phrase concernée.",
-          "La défiance du savant résulte d’un long exercice. Cet apprentissage rend la vigilance spontanée, comme une seconde nature. Il permet de retenir une adhésion précipitée."
+          "Comment une défiance acquise par l'exercice peut-elle devenir instinctive ?",
+          "Expliquez les deux termes sans transformer une habitude en don naturel.",
+          "L'exercice répété de la méthode forme une prudence qui intervient avant l'adhésion précipitée. Le mot instinctive désigne une seconde nature acquise."
         ],
         [
-          "Corrigez en deux phrases : « Une hypothèse convaincante est déjà une vérité scientifique. »",
-          "Distinguez ce qu’une idée permet de chercher et ce qu’une preuve permet d’affirmer.",
-          "Une hypothèse propose une explication possible. Sa force de séduction ne dispense pas de la vérifier."
+          "Reconstituez le passage d'une hypothèse plausible à une conviction fanatique.",
+          "Distinguez une explication possible et une proposition vérifiée.",
+          "La première idée ressemble à une explication. Les personnes décrites la tiennent pour vraie sans épreuve. L'attachement augmente sans preuve supplémentaire."
         ],
         [
-          "Rédigez quatre phrases reliant l’exemple politique à la recommandation finale.",
-          "Quelle habitude peut se former dans une science et servir hors de cette science ?",
-          "Les certitudes sans examen peuvent orienter des décisions communes. L’étude approfondie fait éprouver le coût de la justification. Elle forme une prudence transférable. Elle ne fournit pas automatiquement les réponses politiques."
+          "Pourquoi Nietzsche recommande-t-il l'étude approfondie d'au moins une science ?",
+          "Respectez au moins une et à fond ; ne faites pas de la science un programme politique.",
+          "L'attachement précipité aux opinions peut nuire aux décisions communes. L'étude d'une science en profondeur apprend le travail de vérification et la prudence ; elle ne fournit pas automatiquement les bonnes décisions politiques."
         ]
       ],
       "criteria": [
@@ -249,18 +249,18 @@
       ],
       "drills": [
         {
-          "skill": "La fonction d’une phrase",
-          "extract": "La supposition de sa disparition révèle sa nécessité : les vérités déjà acquises pourraient être répétées sans qu’on sache distinguer de nouvelles affirmations justifiées et de nouvelles superstitions.",
-          "task": "Expliquez le rôle de cette phrase en deux phrases : ce qu’elle précise, puis ce qu’on perdrait en la supprimant.",
-          "hint": "Comparez la perte des méthodes et la conservation des résultats dans la première phrase du texte.",
-          "expected": "Elle explique comment un savoir ancien pourrait subsister alors que la capacité de vérifier de nouvelles affirmations serait perdue. Sans cette explication, on ne comprendrait pas pourquoi conserver des vérités acquises ne protège pas, à lui seul, du retour de la superstition."
+          "skill": "L'épreuve d'une hypothèse",
+          "extract": "La différence apparaît dans l'hypothèse d'une perte des méthodes alors que les résultats seraient conservés.",
+          "task": "En trois phrases, dégagez l'opération, son résultat et sa portée.",
+          "hint": "La suppression imaginaire d'une acquisition permet d'isoler son rôle.",
+          "expected": "La disparition supposée des méthodes isole leur contribution propre. Les résultats pourraient subsister sans qu'on sache vérifier les nouvelles hypothèses. Ils sont donc insuffisants pour transmettre l'esprit scientifique."
         },
         {
-          "skill": "Réécrire avec précision",
-          "extract": "Les gens qui savent beaucoup de résultats scientifiques ont donc forcément un esprit scientifique.",
-          "task": "Corrigez cette phrase en deux phrases.",
-          "hint": "Comparez chaque affirmation avec la thèse exacte du passage. Conservez les mots qui limitent sa portée.",
-          "expected": "Posséder des résultats ne suffit pas à former l’esprit scientifique. Celui-ci exige l’apprentissage des méthodes qui permettent d’examiner une affirmation."
+          "skill": "Conserver la portée de la thèse",
+          "extract": "Posséder beaucoup de résultats scientifiques assure de bien juger.",
+          "task": "Corrigez cette formulation en deux phrases à partir de la critique des gens cultivés.",
+          "hint": "La possession des résultats et la prudence devant une hypothèse ne sont pas la même acquisition.",
+          "expected": "On peut connaître beaucoup de résultats et manquer de prudence lorsqu'on propose des hypothèses. Le jugement scientifique dépend de l'exercice des méthodes."
         }
       ]
     },
@@ -1804,24 +1804,24 @@
           "Le corps dépense beaucoup d’énergie. Mais le travailleur exécute une organisation dont il ne maîtrise pas le sens ni le rythme."
         ],
         [
-          "Expliquez en trois phrases le rôle de l’absence de fouets et de chaînes.",
-          "Que faut-il mobiliser quand la contrainte physique ne commande pas chaque geste ?",
-          "Sans violence physique commandant chaque geste, il faut des motifs intérieurs pour soutenir l’exécution. Le système les réduit à la crainte, au gain et à la vitesse. L’absence de chaînes ne suffit donc pas à établir la liberté."
+          "Pourquoi Weil avance-t-elle l'hypothèse paradoxale de coups de fouet qui rendraient peut-être l'obéissance plus facile ?",
+          "Respectez peut-être et comparez contrainte extérieure et effort intérieur.",
+          "L'hypothèse n'approuve pas la violence. Elle montre que l'usine sans contrainte physique permanente exige de l'ouvrier qu'il mobilise lui-même les quelques mobiles autorisés."
         ],
         [
-          "Corrigez en deux phrases : « Une âme occupée ne peut pas avoir une conscience affaiblie. »",
-          "Distinguez une obsession et la capacité de réfléchir à son expérience.",
-          "Une préoccupation répétitive peut occuper l’esprit tout en réduisant son attention. L’obsession des motifs de travail n’est pas une pensée libre et étendue."
+          "Comment une âme occupée peut-elle avoir une conscience appauvrie ?",
+          "Distinguez attention au geste et réflexion sur sa condition.",
+          "L'ouvrier continue à percevoir et à ajuster son geste, tandis que l'attention aux autres objets et à la durée de sa vie se rétracte. La pensée est réduite et non abolie."
         ],
         [
-          "Expliquez en trois phrases pourquoi la peine commune ne produit pas forcément la solidarité.",
-          "Quel effet le repli nécessaire pour endurer peut-il avoir sur l’attention aux autres ?",
-          "Chacun réduit sa sensibilité pour supporter la souffrance. La présence des autres devient moins perceptible. Les relations reproduisent alors la brutalité de l’organisation."
+          "Pourquoi partager la peine ne suffit-il pas à créer de la solidarité ?",
+          "Recherchez l'effet de l'effort sur l'attention à autrui et conservez la nuance presque.",
+          "La peine peut absorber l'attention et rendre presque insensible aux autres. Ceux qui subissent la dureté peuvent la reproduire, sans que la résistance soit déclarée impossible."
         ],
         [
-          "Rédigez quatre phrases expliquant la plainte finale.",
-          "Distinguez ce que vit l’ouvrier, ce que les autres entendent et ce qu’ils comprennent.",
-          "La plainte exprime une durée subie, liée aux effets décrits sur la pensée. Elle n’atteint pas les personnes étrangères à cette condition. Même entendue, elle ne leur ferait pas comprendre l’expérience ouvrière. L’analyse de Weil rend à cette formule ordinaire sa portée."
+          "Expliquez les deux insuffisances de la plainte finale.",
+          "Distinguez ne pas entendre et entendre sans comprendre.",
+          "Les personnes extérieures peuvent ne pas recevoir la plainte. Même reçue, sa forme banale peut cacher la durée pénible qu'elle exprime ; l'analyse de Weil lui rend sa signification."
         ]
       ],
       "criteria": [
@@ -2043,11 +2043,11 @@
       ],
       "drills": [
         {
-          "skill": "La fonction d’une phrase",
-          "extract": "Il n’y a pas contradiction : quelques préoccupations répétitives peuvent envahir une conscience dont les autres possibilités se ferment.",
-          "task": "Expliquez le rôle de cette phrase en deux phrases : ce qu’elle précise, puis ce qu’on perdrait en la supprimant.",
-          "hint": "Distinguez être absorbé par une préoccupation et pouvoir réfléchir librement à son expérience.",
-          "expected": "Elle distingue l’occupation par des motifs obsédants et la capacité de réfléchir. Sans cette distinction, la coexistence d’une âme occupée et d’une conscience affaiblie paraîtrait contradictoire, alors que le texte décrit simultanément ces deux effets du travail."
+          "skill": "La fonction d'une distinction",
+          "extract": "La différence porte sur une attention opératoire qui subsiste et sur la réflexion permettant de comprendre librement ce que l'on fait, qui se rétracte.",
+          "task": "Dégagez la distinction qui rend compatibles l'obsession et la diminution de la pensée.",
+          "hint": "L'exécution réclame encore une attention, pas forcément une réflexion libre.",
+          "expected": "Les motifs obsessionnels peuvent occuper presque tout l'esprit, sans élargir la conscience. La perception nécessaire au geste subsiste, tandis que la capacité de réfléchir à la situation diminue."
         },
         {
           "skill": "Réécrire avec précision",
@@ -2097,19 +2097,19 @@
           "L’ingénieur recherche des moyens adaptés au projet. Le bricoleur compose le projet avec les ressources disponibles."
         ],
         [
-          "Expliquez en trois phrases comment un univers clos peut s’enrichir.",
-          "Repérez la précision temporelle donnée dans le texte.",
-          "La clôture concerne l’ensemble disponible à un moment donné. De nouvelles occasions peuvent l’enrichir. Chaque tâche ne provoque pourtant pas la fabrication d’un équipement entièrement spécifique."
+          "Comment un stock clos peut-il être enrichi ?",
+          "La limitation concerne les éléments disponibles à chaque instant.",
+          "La clôture vaut pour le projet présent ; le stock peut changer avec les occasions. Elle n'est donc pas une interdiction de tout enrichissement futur."
         ],
         [
-          "Donnez un exemple original qui explique la spécialisation partielle, en trois phrases.",
-          "Choisissez un objet ; indiquez deux emplois possibles et une limite matérielle.",
-          "Une planche peut servir d’étagère ou de renfort. Sa forme et sa résistance rendent ces usages possibles. Elle ne peut toutefois remplacer indifféremment tous les outils."
+          "Pourquoi un élément doit-il être à demi particularisé pour servir plusieurs projets ?",
+          "Comparez un matériau brut et un outil réservé à un usage unique.",
+          "Un matériau brut exigerait de fabriquer chaque moyen. Un outil complètement spécialisé n'aurait qu'un emploi. Un élément partiellement déterminé peut servir à plusieurs projets, dans les limites de ses propriétés."
         ],
         [
-          "Expliquez la dernière phrase du texte en quatre phrases.",
-          "Distinguez les rapports déjà déterminés et les agencements encore possibles ; précisez ce qui limite ces possibilités.",
-          "Les éléments représentent des rapports déjà déterminés et des rapports encore possibles. Leurs propriétés permettent certains agencements avec d’autres éléments. Ces possibilités restent limitées à un type d’opérations. Le bricoleur peut donc inventer plusieurs emplois, à l’intérieur de ces limites."
+          "Expliquez la distinction des rapports concrets et virtuels et la restriction au sein d'un type.",
+          "Ne réduisez pas les rapports concrets au passé, ni les virtuels à une infinité d'usages.",
+          "Le concret désigne des rapports déterminés et le virtuel des agencements possibles. Les propriétés des éléments bornent ces possibilités. L'invention combine ces opérateurs dans un type d'opérations."
         ]
       ],
       "criteria": [
@@ -2318,11 +2318,11 @@
       ],
       "drills": [
         {
-          "skill": "La fonction d’une phrase",
-          "extract": "Cette limite vaut pour le stock disponible à un moment donné : le texte précise ensuite qu’il peut être enrichi.",
-          "task": "Expliquez le rôle de cette phrase en deux phrases : ce qu’elle précise, puis ce qu’on perdrait en la supprimant.",
-          "hint": "Rapprochez la clôture du stock et les occasions de l’enrichir : parlent-elles du même moment ?",
-          "expected": "Elle résout l’apparente contradiction entre la clôture de l’ensemble disponible et son enrichissement au fil du temps. Sans cette précision temporelle, la clôture du stock semblerait interdire son enrichissement et rendrait incohérentes deux affirmations de l’auteur."
+          "skill": "La portée d'une restriction temporelle",
+          "extract": "Cette clôture vaut à chaque instant : elle n'interdit pas que la collection s'accroisse ou change au gré des occasions.",
+          "task": "Expliquez pourquoi clos et enrichi peuvent caractériser le même stock.",
+          "hint": "Une limite relative au présent n'est pas une interdiction de changer dans l'avenir.",
+          "expected": "Le stock est déterminé pour la tâche présente. Il peut cependant recevoir ensuite de nouveaux objets. La clôture ne porte pas sur tous les moments de son histoire."
         },
         {
           "skill": "Réécrire avec précision",
