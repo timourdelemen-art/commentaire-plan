@@ -1,7 +1,7 @@
 {
   "nietzsche-2026-metropole": {
     "drillTasks": {
-      "0": "Expliquez en deux ou trois phrases l’apport de cette phrase et ce qu’on perdrait en la supprimant."
+      "0": "En trois phrases, montrez ce que la perte supposée des méthodes permet de comprendre, ce qu'elle établit, et ce qu'elle ne permet pas d'affirmer."
     }
   },
   "freud-2026-amerique-du-nord": {
@@ -34,12 +34,12 @@
   },
   "weil-2024-metropole": {
     "drillTasks": {
-      "0": "Expliquez en deux ou trois phrases l’apport de cette phrase et ce qu’on perdrait en la supprimant."
+      "0": "Expliquez pourquoi la distinction entre attention au geste et réflexion sur sa condition est nécessaire pour comprendre la coexistence de l'obsession et de la pensée diminuée."
     }
   },
   "levi-strauss-2023-metropole": {
     "drillTasks": {
-      "0": "Expliquez en deux ou trois phrases l’apport de cette phrase et ce qu’on perdrait en la supprimant."
+      "0": "Montrez pourquoi la clôture à chaque instant est compatible avec la constitution progressive du stock, en précisant ce que la restriction temporelle permet d'établir."
     }
   }
 }
