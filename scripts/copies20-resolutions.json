@@ -1018,7 +1018,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "00000000000000000000000000000000ef38b0f3ccfa8de41e6457bf58902176",
+   "copySha256": "577614ee2668790d44fd445cb8c338fe1b48c0e0cf3f4bd20c3821e28207fb89",
    "protocol": "V16.1-exp"
   },
   "notion-travail": {
@@ -1086,7 +1086,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "00000000000000000000000000000000d9be26fb1730ecc3980665b16c3bba9d",
+   "copySha256": "7a3c8853f5257ed0e99929cddd36be2f5b360e588ceaa8c750dd23f0e49d8c29",
    "protocol": "V16.1-exp"
   },
   "notion-verite": {
@@ -1154,7 +1154,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "00000000000000000000000000000000b3ae02fd6c15134eeaf53e11fae67033",
+   "copySha256": "2eef7418ff8fec8e3d2fc7c01bc5dd252ae7ab52e55039dbe93a218e3843d39d",
    "protocol": "V16.1-exp"
   },
   "2025-me-verite": {
@@ -1229,7 +1229,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "0000000000000000000000000000000038cd608437d8dd8b5675dc634c204136",
+   "copySha256": "950ba394626c53823d6a52bc37f16ef53bc300e2b578432947ed342df37d53f9",
    "protocol": "V16.1-exp"
   },
   "2025-me-avenir-technique": {
@@ -1304,7 +1304,7 @@
     "status": "propose",
     "independentReview": "Inférences et portée de la troisième partie corrigées ; vérifications indépendantes de l'ensemble du corpus et des références encore requises."
    },
-   "copySha256": "000000000000000000000000000000001f2cd8467c19784a31be4c417e6b7f19",
+   "copySha256": "4f5539cf6603e2ed035f6f8840578815e89a58a5a620f2dbf8b258a9c585aa21",
    "protocol": "V16.1-exp"
   },
   "2025-me-besoin-art": {
@@ -1379,7 +1379,7 @@
     "status": "propose",
     "independentReview": "Inférences et portée de la troisième partie corrigées ; vérifications indépendantes de l'ensemble du corpus et des références encore requises."
    },
-   "copySha256": "000000000000000000000000000000007b822707ff75cd98f93323f3d5e2a301",
+   "copySha256": "acce0d62dda97b6bb7e2f36a5f387371d2b1c57f82b4ab80765224e230cb882c",
    "protocol": "V16.1-exp"
   }
  }
