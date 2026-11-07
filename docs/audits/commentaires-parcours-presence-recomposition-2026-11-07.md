@@ -7,8 +7,8 @@ Le site contient **20 pages de commentaires littéraires nommés** (`bac-comment
 Six commentaires — Racine, Duras, Zola, Chrétien, Rimbaud, Proust — sont **réservés dans la PR ouverte n° 256**. Éviter toute modification concurrente des fichiers de cette PR et de leurs sources JSON; prendre la révision n° 256 comme base d'un passage ultérieur.
 
 Cette campagne procède en deux niveaux :
-1. **Intervention réalisée** sur les 14 commentaires non réservés : inscription individualisée de la trajectoire du texte à la fin de l'introduction de la copie annotée, pour rendre visibles l'avant, le pendant et l'après des analyses locales.
-2. **Audit de développement à poursuivre** : vérifier la présence d'unités expressives complètes, les arrêts microscopiques et les raccords au sein des paragraphes avant de déclarer une refonte intégrale. L'ajout d'un parcours ne remplace pas une réécriture phrase par phrase.
+1. **Intervention réalisée** sur les 14 commentaires non réservés : réécriture individualisée de la phrase annonçant les mouvements dans l'introduction de la copie annotée, pour rendre visible la succession des transformations sans ajouter de répétition à l'introduction.
+2. **Audit de développement à poursuivre** : vérifier la présence d'unités expressives complètes, les arrêts microscopiques et les raccords au sein des paragraphes avant de déclarer une refonte intégrale. La réécriture de cette annonce ne remplace pas une révision phrase par phrase des développements.
 
 ## Doctrine rédactionnelle : parcours, arrêt, retour
 
