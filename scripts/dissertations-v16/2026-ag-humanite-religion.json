@@ -86,6 +86,12 @@
     "statut": {
       "problematique": "suffisamment justifiée",
       "copie": "état de travail (architecture expérimentale)"
+    },
+    "ouvertures_de_pensee": {
+      "I": "Une première possibilité s'ouvre : la vie commune peut être pensée à partir de capacités et d'obligations humaines, sans que l'adhésion à une religion figure dans sa définition.",
+      "II": "La religion ne peut alors être traitée comme une erreur arbitraire que le savoir ferait disparaître d'un coup : son histoire renvoie à des besoins et à des inquiétudes persistants.",
+      "III": "Cette distinction rend pensable une communauté qui conserve des rites ou des solidarités sans devoir reconduire les mêmes croyances : elle laisse toutefois ouverte la question de ce qui peut se transmettre sans perte.",
+      "statut": "Possibilités justifiées, avec leur portée exacte."
     }
   },
   "citations": [
@@ -139,7 +145,7 @@
       [
         [
           "On peut concevoir une humanité sans religion, car rien dans ce qui fait l’homme ne contient la croyance en des dieux.",
-          "I.1 Établir la première réponse"
+          "I.1 Ouvrir une première manière de penser"
         ],
         [
           "Cette réponse sauve ceux qui vivent sans croire : ils ne sont pas des hommes incomplets.",
@@ -152,6 +158,10 @@
         [
           "Des individus et des sociétés entières vivent d’ailleurs sans croyance religieuse ; une humanité sans religion se conçoit donc, puisque ses éléments existent déjà.",
           "I.2 L’inférence décisive"
+        ],
+        [
+          "Une première possibilité s'ouvre : la vie commune peut être pensée à partir de capacités et d'obligations humaines, sans que l'adhésion à une religion figure dans sa définition.",
+          "I.2 Ce que la preuve ouvre"
         ],
         [
           "Ce fondement établit qu’une humanité sans croyance religieuse se pense sans contradiction, et que des hommes réels vivent ainsi.",
@@ -167,11 +177,11 @@
         ],
         [
           "La définition de l’homme ne permet donc pas encore d’expliquer pourquoi la religion réapparaît dans des contextes historiques très différents, ni donc de dire si une humanité sans elle est réellement possible.",
-          "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"
+          "I.3 La portée et le manque du premier fondement"
         ],
         [
           "Une humanité sans dieux est pensable ; mais cette définition n’explique pas la permanence des cultes. D’où vient leur puissance ?",
-          "Transition · l’examen nécessaire, en question"
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
         ]
       ]
     ],
@@ -180,7 +190,7 @@
       [
         [
           "Les causes des religions sont aussi durables que l’humanité, et c’est pourquoi une humanité sans religion ne se conçoit pas comme réelle.",
-          "II.1 La seconde réponse, qui répond à l’examen demandé"
+          "II.1 Ouvrir une autre manière de penser"
         ],
         [
           "Elle ne nie pas qu’on puisse la penser sans contradiction ; elle demande ce qui la rendrait possible.",
@@ -193,6 +203,10 @@
         [
           "Or ces conditions sont permanentes, et ce qui naît de conditions permanentes tend à renaître tant qu’elles demeurent.",
           "II.2 L’inférence décisive"
+        ],
+        [
+          "La religion ne peut alors être traitée comme une erreur arbitraire que le savoir ferait disparaître d'un coup : son histoire renvoie à des besoins et à des inquiétudes persistants.",
+          "II.2 La possibilité que la seconde preuve révèle"
         ],
         [
           "Cette raison établit que, tant que demeurent la mort, l’ignorance et la crainte, la religion tend à renaître.",
@@ -208,11 +222,11 @@
         ],
         [
           "La genèse de la religion ne permet donc pas encore d’établir qu’on ne puisse concevoir une humanité sans elle, parce qu’elle explique une réponse à des besoins sans montrer qu’aucune autre ne pourrait y répondre.",
-          "II.3 Ce que la seconde réponse ne permet pas encore"
+          "II.3 La portée et le manque du second fondement"
         ],
         [
           "La religion n'est pas nécessaire à la définition de l'homme, mais ses causes se renouvellent. Peut-on remplacer ce qu'elle accomplit sans en reproduire les formes ?",
-          "Transition · pourquoi leur addition échoue, et ce qui reste à établir, en question"
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
         ]
       ]
     ],
@@ -221,7 +235,7 @@
       [
         [
           "Pour juger si une humanité sans religion est concevable, il faut distinguer les croyances et les pratiques religieuses des fonctions qu’elles peuvent remplir : donner sens à la mort, rassembler et rendre certaines choses précieuses.",
-          "III.1 L’opération que la difficulté exige : une distinction"
+          "III.1 Effectuer le déplacement nécessaire"
         ],
         [
           "Ces fonctions ne sont pas nécessairement liées à la croyance en des dieux : des funérailles civiles, des commémorations ou des engagements communs peuvent en prendre certaines en charge, sans reproduire une religion à l’identique.",
@@ -236,6 +250,10 @@
           "III.2 Ce qu’elle explique"
         ],
         [
+          "Cette distinction rend pensable une communauté qui conserve des rites ou des solidarités sans devoir reconduire les mêmes croyances : elle laisse toutefois ouverte la question de ce qui peut se transmettre sans perte.",
+          "III.2 Ce que la transformation fait comprendre"
+        ],
+        [
           "On peut donc concevoir une humanité sans religion : il faudrait qu’elle trouve d’autres façons de répondre aux besoins auxquels les religions répondent. Cela ne prouve ni qu’une telle humanité existe déjà, ni que cette substitution serait sans perte.",
           "III.3 La réponse au sujet, avec son opérateur"
         ],
@@ -245,7 +263,7 @@
         ],
         [
           "Reste à savoir ce que des pratiques civiles peuvent conserver des expériences religieuses sans les reproduire : la substitution d’une fonction ne garantit pas l’équivalence des significations.",
-          "III.3 Le reste : ce que cette réponse ne règle pas"
+          "III.3 Le reste : ce qui demande encore à être pensé"
         ]
       ]
     ],
