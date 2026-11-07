@@ -144,6 +144,10 @@
      "I.2 L'inférence : pouvoir reconnaître des conduites intelligentes"
     ],
     [
+     "L'intérêt de ce déplacement est aussi de ne pas présupposer une pensée semblable à la nôtre : si une machine apprend, répond et corrige ses erreurs, ce sont des conduites qu'il devient possible de décrire et de comparer, sans deviner leur nature intérieure.",
+     "I.2 Ce que cette méthode permet d'observer"
+    ],
+    [
      "Deep Blue réussit aux échecs, mais une seule performance spécialisée ne suffit pas à satisfaire l'épreuve plus ouverte imaginée par Turing.",
      "I.3 Éprouver le critère sans le confondre avec le cas"
     ],
@@ -177,6 +181,10 @@
      "II.2 L'inférence décisive"
     ],
     [
+     "C'est exactement la différence entre la syntaxe, qui ordonne les signes selon des règles, et leur sens, qui doit être compris. Le raisonnement est sérieux, mais son exemple suppose que la compréhension du système entier puisse être jugée à partir de celle de l'homme enfermé : cette supposition reste discutée.",
+     "II.2 La force et l'objection interne de la chambre chinoise"
+    ],
+    [
      "L'objection éclaire la limite du succès de Deep Blue : le calcul de coups ne démontre aucune compréhension vécue de la partie.",
      "II.3 Éprouver sur le même cas"
     ],
@@ -191,7 +199,7 @@
    ]
   ],
   [
-   "III. CE QUI SE CALCULE ET CE QUI SE PENSE",
+   "III. QUELLES PREUVES POUR ATTRIBUER UNE PENSÉE ?",
    [
     [
      "Il faut remplacer l'opposition entre calcul et pensée par une recherche de conditions : de quelles capacités un système doit-il disposer pour qu'on lui attribue une pensée, et à quel degré ?",
@@ -212,6 +220,10 @@
     [
      "Leur étude ne conclut pas que les systèmes examinés sont conscients, mais n'identifie pas non plus d'obstacle technique évident à des systèmes satisfaisant ces indicateurs. Des indicateurs ne constitueraient toutefois pas une preuve définitive de l'expérience vécue.",
      "III.2 Éprouver le critère et mesurer sa portée"
+    ],
+    [
+     "La troisième voie ne décide donc pas que la pensée est une propriété mystérieuse réservée à l'homme. Elle exige au contraire que la définition de penser et les preuves disponibles progressent ensemble : une capacité nouvelle appelle des critères nouveaux, sans rendre inutiles ceux qui l'ont précédée.",
+     "III.2 L'inférence décisive : critère proportionné à la capacité"
     ],
     [
      "Une machine peut donc penser au sens de conduire certains raisonnements ; pour lui attribuer compréhension et conscience, il faut des arguments supplémentaires sur son fonctionnement, non le seul constat de ses succès.",
