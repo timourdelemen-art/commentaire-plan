@@ -260,5 +260,28 @@
     ]
    ]
   ]
+ ],
+ "references": [
+  {
+   "auteur": "Alan M. Turing",
+   "titre": "Computing Machinery and Intelligence",
+   "publication": "Mind, 59(236), 1950, p. 433–460",
+   "doi": "10.1093/mind/LIX.236.433",
+   "usage": "I.2 : examiner l'imitation et les critères observables sans les assimiler à une preuve de conscience"
+  },
+  {
+   "auteur": "John R. Searle",
+   "titre": "Minds, Brains, and Programs",
+   "publication": "Behavioral and Brain Sciences, 3(3), 1980, p. 417–424",
+   "doi": "10.1017/S0140525X00005756",
+   "usage": "II.2 : contester l'équivalence entre manipulation syntaxique et compréhension"
+  },
+  {
+   "auteur": "Patrick Butlin et al.",
+   "titre": "Consciousness in Artificial Intelligence: Insights from the Science of Consciousness",
+   "publication": "arXiv:2308.08708, 2023",
+   "url": "https://arxiv.org/abs/2308.08708",
+   "usage": "III.2 : évaluer des indicateurs empiriques sans attribuer automatiquement la conscience"
+  }
  ]
 }
