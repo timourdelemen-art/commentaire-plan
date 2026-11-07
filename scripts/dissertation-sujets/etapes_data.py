@@ -604,3 +604,112 @@ OK["manon-lescaut-plaisirs"] = ("Ses pages les plus fortes racontent le prix de 
 LONG["manon-lescaut-plaisirs"] = dict(theme="Le roman parle d’amour, d’argent et de liberté, entre Paris, la province et l’Amérique, au début du XVIIIe siècle.",
    dialectique="I. Oui, l’intérêt tient aux plaisirs du couple / II. Non, il tient à la leçon morale / III. Il tient à la fois aux plaisirs et à la morale",
    general="La phrase montre que Des Grieux est fier de tricher au jeu, ce qui le rend moins sympathique au lecteur et annonce ses malheurs.")
+
+# Questions complémentaires sur l'analyse : une recherche ciblée, jamais une grille plaquée.
+PRECISION = {
+  "ponge": [
+    "Dans « Le Mimosa », Ponge remarque que « le nom du mimosa est déjà parfait ». Quelle difficulté l’adverbe « déjà » fait-il apparaître ?",
+    "« le nom du mimosa est déjà parfait »",
+    "« Déjà » signale que le nom précède l’enquête : il permet de désigner la plante, mais risque de dispenser de la regarder à neuf. Ponge doit chercher ce que ce nom familier ne donne pas encore à percevoir."
+  ],
+  "ponge-vision-commune": [
+    "Ponge cherche une vision « unanime et constante ». Pourquoi cette expression ne signifie-t-elle pas qu’il copie une vision banale ?",
+    "« unanime et constante »",
+    "Ces adjectifs désignent un accord qu’il espère rendre possible, non une perception déjà toute faite. Sa recherche commence par un regard singulier qu’il souhaite communiquer à d’autres."
+  ],
+  "ponge-observateur": [
+    "Que change le retour du titre « Variante » dans le Carnet du bois de pins ?",
+    "« Variante »",
+    "Le titre invite à comparer plusieurs tentatives pour saisir un même bois. Les retouches ne corrigent pas seulement le style : elles déplacent ce qui devient perceptible dans le paysage."
+  ],
+  "ponge-texte-lui-meme": [
+    "Ponge parle de ses propres essais comme un savant de sa recherche. Pourquoi cette comparaison ne réduit-elle pas le poème à une expérience scientifique ?",
+    "« très légitime au savant de décrire sa découverte par le menu, de raconter ses expériences »",
+    "Le modèle du savant justifie la publication des essais et des corrections. Mais le texte n’établit pas une expérience reproductible : il fait partager au lecteur une attention qui se construit par les mots."
+  ],
+  "ponge-difficile": [
+    "Pourquoi la parenthèse « Qu’il est difficile d’approcher de la caractéristique des choses ! » ne contredit-elle pas simplement l’image des « petits soleils » ?",
+    "« Chaque branche de mimosa est un perchoir à petits soleils tolérables »",
+    "L’image montre qu’une trouvaille est possible ; la parenthèse empêche d’en faire une définition définitive. La difficulté accompagne donc la découverte au lieu de l’annuler."
+  ],
+  "ponge-lecteur": [
+    "Que révèlent l’appel au lecteur et la crainte de l’ennuyer sur la position de Ponge comme guide ?",
+    "« se laisser conduire au risque de s’ennuyer par mes longs détours »",
+    "En prévenant des « longs détours », Ponge ne promet pas un itinéraire sûr. Il invite le lecteur à partager une recherche dont les tâtonnements font partie de l’expérience."
+  ],
+  "ponge-ecriture-travail": [
+    "Pourquoi les versions répétées du Carnet ne sont-elles pas de simples brouillons conservés par curiosité ?",
+    "« Variante »",
+    "Le retour de vers presque semblables fait comparer les choix d’écriture : de petites modifications peuvent transformer le regard porté sur la chose. La rectification devient une composante de l’œuvre."
+  ],
+  "ponge-donner-a-voir": [
+    "Que fait le rapprochement entre « blâmé » et « blême » dans la description du ciel de « La Mounine » ?",
+    "« (voir aussi blême) »",
+    "La parenthèse essaie une nuance voisine sans arrêter la description. Le jeu verbal ne remplace pas le ciel : il interroge la manière dont ses qualités sensibles peuvent être saisies."
+  ],
+  "dorion": [
+    "L’arbre est dit « rien d’autre que lui-même ». Pourquoi ne faut-il pas en conclure que les images du recueil cessent de parler de l’humain ?",
+    "« il n’est rien d’autre que lui-même »",
+    "La restriction rappelle que l’arbre possède une existence distincte de la nôtre. Elle limite la projection humaine sans interdire que la rencontre avec lui nous apprenne quelque chose de nous."
+  ],
+  "dorion-intimite": [
+    "Comment les expressions « nos mots d’exil » et « un peu de pluie sur la blessure » modifient-elles l’idée d’une demeure intime ?",
+    "« un long passage / pour nos mots d’exil et de survie / un peu de pluie sur la blessure »",
+    "Le possessif « nos » ouvre le lieu intime à d’autres existences ; mais « exil » et « blessure » maintiennent l’expérience de la perte. Cette demeure devient partageable sans se transformer en refuge pleinement rassurant."
+  ],
+  "dorion-histoire": [
+    "La reprise de « Avant » dans plusieurs titres suffit-elle à faire du recueil un récit de progrès ?",
+    "« Avant l’aube » ; « Avant l’horizon » ; « Avant la nuit »",
+    "« Avant » relie des commencements et des moments différents, mais ne promet aucune amélioration continue. Le recueil fait coexister création, violences et efforts fragiles de réparation."
+  ],
+  "dorion-promenades": [
+    "Pourquoi le mot « descente » ne suffit-il pas, seul, à prouver que la promenade est uniquement intérieure ?",
+    "« descente »",
+    "La place du mot peut rapprocher mouvement du paysage et expérience intime. Mais il faut le relier au chemin, au contexte du poème et à la relation au dehors : l’introspection n’efface pas le monde."
+  ],
+  "dorion-reconciliation": [
+    "Que permet de comprendre le passage de « tu écoutes » à « tu deviens », et quelle conclusion serait excessive ?",
+    "« tu écoutes le chant des racines / tu deviens la sève »",
+    "Les deux verbes font passer de l’attention à une identification imaginée avec l’arbre. Mais ce rapprochement poétique ne prouve pas que la séparation entre l’humain et la nature soit définitivement abolie."
+  ],
+  "dorion-mystere-liens": [
+    "Qu’apporte le retour de « Mes forêts sont » à la fin des sections, sans résoudre magiquement leurs ruptures ?",
+    "« Mes forêts sont »",
+    "Cette reprise relie les sections par une forme reconnaissable ; chaque retour propose pourtant une autre manière de dire les forêts. Le lien se construit dans l’écriture sans supprimer les déchirures évoquées."
+  ],
+  "dorion-chant-personnel": [
+    "Pourquoi l’ouverture du mot « famille » vers « l’humanité » ne supprime-t-elle pas le caractère intime du recueil ?",
+    "« on l’a ouvert très grand / jusqu’à l’humanité / puis on l’a refermé sur nos intimités »",
+    "Les verbes « ouvert » puis « refermé » organisent un aller-retour : l’expérience personnelle devient partageable, mais revient aux vies singulières. L’universel ne remplace pas l’intime."
+  ],
+  "dorion-relation-heureuse": [
+    "Pourquoi « nous dénouons nous réparons / ce que nous pouvons » n’annonce-t-il pas une réconciliation achevée ?",
+    "« nous dénouons nous réparons / ce que nous pouvons »",
+    "Les verbes au présent expriment une action possible, mais « ce que nous pouvons » en marque la limite. La relation heureuse dépend d’un soin modeste, non d’une guérison garantie."
+  ],
+  "dorion-metaphore-interiorite": [
+    "Que change le fait que « la forêt » soit le sujet du verbe « défriche » ?",
+    "« la forêt défriche / en moi tant d’années »",
+    "La forêt agit grammaticalement sur la vie intérieure : elle n’est plus seulement l’image choisie pour la représenter. Le poème fait du dehors une force de transformation du dedans."
+  ],
+  "jeu": [
+    "Pourquoi l’image de la « souricière », reprise par les deux personnages, est-elle plus qu’une métaphore décorative ?",
+    "« Cette fois-ci, celui qui a placé le petit bout de lard, c’est toi. »",
+    "La même image passe de l’accusation de H. 2 à la riposte de H. 1 : chacun retourne les mots de l’autre contre lui. La dispute agit comme un jeu dont les coups se répondent."
+  ],
+  "non-dits": [
+    "Après la sortie des voisins, que permet de conclure le « Long silence » sur la relation entre les deux hommes ?",
+    "« Long silence. »",
+    "Le silence suspend l’échange, mais la reprise par une accusation de piège montre qu’il n’a pas réparé leur désaccord. Le seul silence ne permet ni de conclure à une rupture ni d’affirmer une réconciliation."
+  ],
+  "theatrale": [
+    "Que révèle le mot « image » lorsque H. 2 décrit son ami en père de famille comblé ?",
+    "« l’image de la paternité comblée »",
+    "Le mot « image » transforme une scène de bonheur familial en tableau offert au regard. Mais c’est l’interprétation accusatrice de H. 2, non la preuve que H. 1 posait consciemment."
+  ],
+  "spectaculaire": [
+    "En quoi la reconstitution d’une intonation constitue-t-elle un spectacle différent d’un événement spectaculaire ordinaire ?",
+    "« C’est biiien... ça... »",
+    "Le spectateur entend une blessure que les voisins peinent à comprendre. Pourtant la répétition scénique n’est pas l’événement initial lui-même : le spectacle expose une différence de perception."
+  ]
+}
