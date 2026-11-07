@@ -228,7 +228,7 @@ C["ponge-observateur"] = dict(
  (None,[
   ("Le texte garde ses essais dans l’ordre où ils sont venus.","Argument"),
   ("Le Carnet fait se succéder, sous le même titre « Variante », des versions qui reprennent et déplacent les mêmes vers.","Le passage qui prouve"),
-  ("Le retour du même titre fait voir la phrase en train de se chercher : le lecteur observe moins le bois que le travail qui le rend visible.","Ce que le passage montre")
+  ("Le retour du titre « Variante » fait comparer deux saisies du même bois : chaque reprise déplace le regard autant que la formule. Le lecteur n’observe donc pas seulement un paysage, mais une perception qui se précise dans l’écriture.","Ce que le passage montre")
  ]),
  (None,[
   ("Dès lors, la première note se relit autrement.","Argument"),
