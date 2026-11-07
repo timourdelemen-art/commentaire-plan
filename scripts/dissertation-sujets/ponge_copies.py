@@ -33,7 +33,7 @@ C["ponge"] = dict(
   ("Ponge travaille d’abord en mécanicien : il a ses outils, ses pièces et ses montages.","Réponse I : la part de vérité du sujet"),
   ("Ses outils sont nombreux.","Argument"),
   ("Dans la préface de « L’Œillet », il énumère ce à quoi l’on peut faire appel : « Au dictionnaire, à l’encyclopédie, à l’imagination, au rêve, au télescope », et jusqu’« au calembour, à la rime ».","Le passage qui prouve"),
-  ("L’accumulation met sur le même plan instruments de science et jeux de langue : tout ce qui sert est bon, comme dans une boîte à outils.","Ce que le passage montre"),
+  ("L’accumulation réunit dictionnaire, télescope, rêve et calembour : Ponge ne sépare pas l’enquête sur la chose des ressources de la langue. Sa « boîte à outils » ne garantit pourtant aucun résultat ; chaque instrument doit encore faire ses preuves devant l’objet.","Ce que le passage montre"),
  ]),
  (None,[
   ("Chaque mot est ensuite vérifié, comme une pièce qu’on essaie.","Argument"),
@@ -121,7 +121,7 @@ C["ponge-vision-commune"] = dict(
  (None,[
   ("Il cherche enfin ce que tous pourraient reconnaître.","Argument"),
   ("Il veut dégager dans chaque chose des qualités telles que, « si elles étaient clairement et simplement exprimées, il y aurait opinion unanime et constante ».","Le passage qui prouve"),
-  ("Les adjectifs « unanime et constante » précisent le sens de « commune » : non pas banale, mais valable pour tous ; Ponge vise un accord, pas une vision personnelle.","Ce que le passage montre"),
+  ("Les adjectifs « unanime et constante » donnent à « commune » la valeur d’un accord recherché, non d’une vision déjà partagée. Ponge part d’une perception singulière et la travaille pour qu’autrui puisse à son tour l’éprouver ; l’ambition commune reste une exigence, non un acquis.","Ce que le passage montre"),
  ]),
  (None,[("Mais que voit vraiment Ponge, quand il regarde ces objets que tous connaissent ?","Transition : la question ouverte")]),
  ("Deuxième partie",[
@@ -228,7 +228,7 @@ C["ponge-observateur"] = dict(
  (None,[
   ("Le texte garde ses essais dans l’ordre où ils sont venus.","Argument"),
   ("Le Carnet fait se succéder, sous le même titre « Variante », des versions qui reprennent et déplacent les mêmes vers.","Le passage qui prouve"),
-  ("Le retour du même titre fait voir la phrase en train de se chercher : le lecteur observe moins le bois que le travail qui le rend visible.","Ce que le passage montre")
+  ("Le retour du titre « Variante » fait comparer deux saisies du même bois : chaque reprise déplace le regard autant que la formule. Le lecteur n’observe donc pas seulement un paysage, mais une perception qui se précise dans l’écriture.","Ce que le passage montre")
  ]),
  (None,[
   ("Dès lors, la première note se relit autrement.","Argument"),
@@ -301,7 +301,7 @@ C["ponge-texte-lui-meme"] = dict(
   ("Parce qu’en parlant de lui-même, le texte parle mieux du monde : chez Ponge, l’écriture de soi devient une méthode.","Réponse III : la réponse à la problématique"),
   ("Montrer son travail est la condition de la vérité.","Argument"),
   ("« La Mounine » juge « très légitime au savant de décrire sa découverte par le menu, de raconter ses expériences ».","Le passage qui prouve"),
-  ("La comparaison avec le savant change le sens de la réflexivité : le texte ne se contemple pas, il donne ses preuves, comme on publie un protocole.","Ce que le passage montre"),
+  ("La comparaison avec le savant donne une autre fonction aux retours sur l’écriture : montrer les essais permet au lecteur de suivre et de discuter une démarche. Il ne s’agit pourtant pas d’une preuve expérimentale reproductible, mais d’une expérience d’attention offerte par les mots.","Ce que le passage montre"),
  ]),
  (None,[
   ("Le mot lui-même devient une prise sur la chose.","Argument"),
@@ -345,7 +345,7 @@ C["ponge-difficile"] = dict(
   ("La difficulté est d’abord un obstacle réel.","Réponse I : la part de vérité du sujet"),
   ("Les mots déjà existants font écran.","Argument"),
   ("Dans « Le Mimosa », Ponge remarque que « le nom du mimosa est déjà parfait ».","Le passage qui prouve"),
-  ("L’adverbe « déjà » dit le paradoxe : le nom est si juste qu’il ne laisse plus rien à trouver, et l’écrivain arrive trop tard.","Ce que le passage montre"),
+  ("L’adverbe « déjà » indique que le nom précède l’enquête : la plante est nommée avant d’être étudiée. Ponge ne nie pas la justesse possible de ce nom ; il cherche ce que la désignation familière ne permet pas encore d’observer.","Ce que le passage montre"),
  ]),
  (None,[
   ("Les souvenirs brouillent aussi le regard.","Argument"),
@@ -379,12 +379,12 @@ C["ponge-difficile"] = dict(
   ("L’approche ne s’achève pas, et c’est elle qui devient l’œuvre : le livre publie le chemin plutôt que le but.","Réponse III : la réponse à la problématique"),
   ("La place de l’exclamation le montre.","Argument"),
   ("Elle surgit entre parenthèses, au milieu de la définition qui commence : « Chaque branche de mimosa est un perchoir à petits soleils tolérables ».","Le passage qui prouve"),
-  ("La parenthèse fait entendre la difficulté au cœur même de la réussite : la caractéristique s’approche à mesure qu’on avoue ne pas la tenir.","Ce que le passage montre"),
+  ("La parenthèse interrompt une image pourtant précise, celle des « petits soleils » : l’exclamation n’annule pas la trouvaille, mais refuse de la confondre avec une définition définitive. La difficulté demeure active au moment même où l’expression progresse.","Ce que le passage montre"),
  ]),
  (None,[
   ("Le livre garde toutes les étapes.","Argument"),
   ("« Le Mimosa » publie plusieurs états du même poème, présentés comme des « Variante » et des « Autre ».","Le passage qui prouve"),
-  ("La succession des versions transforme la difficulté en forme : le lecteur voit le poème s’approcher de la fleur, version après version.","Ce que le passage montre"),
+  ("La succession des versions donne une forme lisible à la recherche : chaque reprise conserve une tentative antérieure tout en déplaçant ce qu’elle permet de faire voir. L’observation ne précède donc pas simplement l’écriture ; elle se précise par ses corrections.","Ce que le passage montre"),
  ]),
  (None,[
   ("Le lecteur partage enfin le chemin.","Argument"),
@@ -445,7 +445,7 @@ C["ponge-lecteur"] = dict(
  (None,[
   ("Le chemin est long et risqué.","Argument"),
   ("Ponge supplie le lecteur « de se laisser conduire au risque de s’ennuyer par mes longs détours ».","Le passage qui prouve"),
-  ("Le verbe « supplier » et l’aveu de l’ennui renversent l’image du guide sûr de lui : celui qui conduit demande pardon d’avance.","Ce que le passage montre"),
+  ("Le verbe « supplier » et la possibilité d’ennuyer son lecteur affaiblissent l’autorité du guide : Ponge n’offre pas un trajet assuré vers une découverte, il invite à partager les détours d’une recherche dont l’issue reste incertaine.","Ce que le passage montre"),
  ]),
  (None,[
   ("La récompense n’arrive pas toujours.","Argument"),
@@ -506,7 +506,7 @@ C["ponge-ecriture-travail"] = dict(
  (None,[
   ("Les essais successifs sont conservés.","Argument"),
   ("Le même Carnet aligne des versions intitulées « Variante » et « Autre », où les mêmes vers reviennent avec de légers changements.","Le passage qui prouve"),
-  ("La reprise presque identique des vers montre l’écriture au moment où elle hésite : le brouillon devient le texte.","Ce que le passage montre"),
+  ("Les reprises presque identiques ne montrent pas seulement une hésitation : un détail déplacé modifie ce que les vers font apparaître. En conservant les essais, Ponge fait de la rectification elle-même une manière d’approcher son objet.","Ce que le passage montre"),
  ]),
  (None,[
   ("L’écriture se regarde et se juge.","Argument"),
@@ -606,7 +606,7 @@ C["ponge-donner-a-voir"] = dict(
  (None,[
   ("Le travail rend même visible ce qui échappe à la vue.","Argument"),
   ("Dans « La Mounine », le ciel limpide apparaît « tout mélangé d’ombre. Comme blâmé... Ciel blâmé ».","Le passage qui prouve"),
-  ("La reprise de « blâmé », que Ponge rapproche ensuite de « blême », fait voir une couleur que personne ne nomme : un bleu chargé de nuit.","Ce que le passage montre"),
+  ("En rapprochant « blâmé » de « blême », Ponge fait hésiter la description du ciel entre perception visuelle et jugement. La correction entre parenthèses n’est pas un jeu gratuit : elle essaie une autre nuance pour mieux approcher la lumière observée.","Ce que le passage montre"),
  ]),
  (None,[("Si le travail fait voir les choses, comment l’écriture y parvient-elle, quand elle ne cache rien de ses essais ?","Transition : la question ouverte")]),
  ("Troisième partie",[
