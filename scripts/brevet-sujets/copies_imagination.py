@@ -5,7 +5,7 @@ Blocs : (titre ou None, [(phrase, fonction)]) ; une réplique de dialogue forme 
 COPIES = [
  dict(sujet='2026-centres-etrangers-imagination', ancre='copie-zoo-2026', titre='Deux évadés au centre commercial', blocs=[
   ('L’évasion', [
-   ('Un matin de mars 2026, un soigneur distrait oublia de verrouiller l’enclos des ours, et deux pensionnaires du zoo de la ville, une vieille ourse brune et un jeune loup, se glissèrent dehors.', 'Situation de départ : comme chez Zola, deux animaux s’échappent au matin, par la négligence d’un homme'),
+   ('Un matin de mars 2026, un soigneur distrait laissa ouvertes les portes de deux enclos voisins, et deux pensionnaires du zoo de la ville, une vieille ourse brune et un jeune loup, se glissèrent dehors.', 'Situation de départ : comme chez Zola, deux animaux s’échappent au matin, par la négligence d’un homme'),
    ('Ils traversèrent le bois en reniflant l’herbe mouillée, puis, attirés par une grande lumière, poussèrent les portes vitrées d’un centre commercial qui venait d’ouvrir.', 'Le lieu qui étonne : on y entre par étapes'),
    ('Des escaliers montaient tout seuls, une musique sans musiciens tombait du plafond, et partout des hommes marchaient en regardant de petits rectangles lumineux qu’ils tenaient dans la main.', 'La description vue par les animaux : des objets ordinaires deviennent étranges')]),
   (None, [('— Regarde, souffla le loup, ils portent tous une lampe et ne regardent jamais devant eux. Ce sont des chasseurs ?', 'Le dialogue : le regard naïf, qui fait sourire et réfléchir')]),
@@ -20,7 +20,7 @@ COPIES = [
   (None, [('— Alors ce sont eux qui sont en cage, dit le loup en montrant les murs sans fenêtres, les lumières qui ne s’éteignaient jamais et les portes qui ne s’ouvraient que pour vendre.', 'Le dialogue : la « cage des hommes » de Zola, transposée en 2026')]),
   ('Le retour', [
    ('À midi, la foule devint si épaisse et si bruyante que le loup sentit son cœur battre comme pendant un orage.', 'La progression : le malaise grandit, comme la peur de la Hyène'),
-   ('Les deux évadés retrouvèrent la sortie, traversèrent le bois et se couchèrent près de leur enclos, que le soigneur n’avait même pas refermé.', 'La fin du récit : le retour volontaire'),
+   ('Les deux évadés retrouvèrent la sortie, traversèrent le bois et se couchèrent près des grilles de leurs enclos, que le soigneur n’avait même pas refermés.', 'La fin du récit : le retour volontaire'),
    ('— Rentrons, dit l’ourse ; au moins, ici, on voit le ciel.', 'La chute : un mot qui renverse le zoo et la ville')])],
   valorise=[('Remobiliser le texte', 'l’évasion au matin, la négligence d’un homme, la « cage des hommes » et la peur qui grandit viennent de Zola, transposés en 2026.'),
             ('Imagination', 'le lieu choisi, un centre commercial, permet un regard naïf qui critique notre époque.'),
