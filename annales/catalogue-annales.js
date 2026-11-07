@@ -44,7 +44,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "3. Vérifier avec deux indices",
         "temps": 360,
         "access": "free",
-        "consigne": "Relevez deux éléments précis du passage. Pour chacun, expliquez en une phrase comment il soutient votre lecture Y.",
+        "consigne": "Relevez deux moments du passage qui se répondent. Citez un vers ou une phrase entière si sa construction compte. Expliquez comment leur rapport soutient votre lecture Y.",
         "aide": "Comparez les ordres adressés au corbeau et les images de la réunion avec les dieux.",
         "correction": "Les impératifs adressés au corbeau laissent au mourant le pouvoir de commander. L’évocation d’une réunion avec les dieux donne à la mort une grandeur qui dépasse la destruction du corps. Vérifiez et citez les mots exacts dans le passage."
       },
@@ -242,7 +242,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "3. Vérifier avec deux indices",
         "temps": 360,
         "access": "free",
-        "consigne": "Relevez deux éléments précis du passage. Pour chacun, expliquez en une phrase comment il soutient votre lecture Y.",
+        "consigne": "Relevez deux moments du passage qui se répondent. Citez un vers ou une phrase entière si sa construction compte. Expliquez comment leur rapport soutient votre lecture Y.",
         "aide": "Reliez les sensations concrètes aux réflexions sur ce que la route apporte aux voyageurs.",
         "correction": "Les sensations concrètes inscrivent la découverte dans le corps du voyageur. La réflexion sur ce que la route apporte donne à ces sensations la valeur d’une disponibilité au monde. Vérifiez et citez les mots exacts dans le passage."
       },
@@ -403,7 +403,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "3. Vérifier avec deux indices",
         "temps": 360,
         "access": "free",
-        "consigne": "Relevez deux éléments précis du passage. Pour chacun, expliquez en une phrase comment il soutient votre lecture Y.",
+        "consigne": "Relevez deux moments du passage qui se répondent. Citez un vers ou une phrase entière si sa construction compte. Expliquez comment leur rapport soutient votre lecture Y.",
         "aide": "Observez les liens entre les caractéristiques du paysage, les bruits rapportés et les croyances.",
         "correction": "Les indications sur la lande donnent au lieu une consistance géographique. Les rumeurs et les croyances rapportées l’ouvrent à une perception inquiétante, sans prouver une apparition surnaturelle. Vérifiez et citez les mots exacts dans le passage."
       },
@@ -566,7 +566,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "3. Vérifier avec deux indices",
         "temps": 360,
         "access": "free",
-        "consigne": "Relevez deux éléments précis du passage. Pour chacun, expliquez en une phrase comment il soutient votre lecture Y.",
+        "consigne": "Relevez deux moments du passage qui se répondent. Citez un vers ou une phrase entière si sa construction compte. Expliquez comment leur rapport soutient votre lecture Y.",
         "aide": "Cherchez comment les comparaisons permettent de contester notre manière de juger.",
         "correction": "Les comparaisons exposent la différence entre ce qui entoure un être et ce qui fait sa valeur. Les adresses et les questions invitent à appliquer cette distinction à nos jugements sur les hommes. Vérifiez et citez les mots exacts dans le passage."
       },
@@ -727,7 +727,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "3. Vérifier avec deux indices",
         "temps": 360,
         "access": "free",
-        "consigne": "Relevez deux éléments précis du passage. Pour chacun, expliquez en une phrase comment il soutient votre lecture Y.",
+        "consigne": "Relevez deux moments du passage qui se répondent. Citez un vers ou une phrase entière si sa construction compte. Expliquez comment leur rapport soutient votre lecture Y.",
         "aide": "Suivez les images qui circulent entre le cœur, le monde militaire et l’oiseau.",
         "correction": "Les rapprochements entre le battement du cœur et l’univers militaire font entrer la guerre dans l’expression amoureuse. La figure de l’oiseau donne une présence imagée à l’aimée absente. Vérifiez et citez les mots exacts dans le passage."
       },
@@ -888,7 +888,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "3. Vérifier avec deux indices",
         "temps": 360,
         "access": "free",
-        "consigne": "Relevez deux éléments précis du passage. Pour chacun, expliquez en une phrase comment il soutient votre lecture Y.",
+        "consigne": "Relevez deux moments du passage qui se répondent. Citez un vers ou une phrase entière si sa construction compte. Expliquez comment leur rapport soutient votre lecture Y.",
         "aide": "Reliez le paysage aux gestes et aux signes de souffrance, sans inventer d’union accomplie.",
         "correction": "Le regard d’Édouard associe la femme aimée à l’harmonie du paysage. La pensée de la « barrière », puis les baisers et les larmes sur les fleurs rendent sensible une tendresse qui ne peut devenir l’union désirée. La réciprocité de tous ses sentiments n’est pas établie par le seul récit d’Édouard."
       },
@@ -1052,7 +1052,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "3. Vérifier avec deux indices",
         "temps": 360,
         "access": "free",
-        "consigne": "Relevez deux éléments précis du passage. Pour chacun, expliquez en une phrase comment il soutient votre lecture Y.",
+        "consigne": "Relevez deux moments du passage qui se répondent. Citez un vers ou une phrase entière si sa construction compte. Expliquez comment leur rapport soutient votre lecture Y.",
         "aide": "Observez les reprises et les relations entre les cheveux, le miroir et les images de guerre.",
         "correction": "Le retour du geste de se peigner donne une continuité à la scène intime. Les images qui associent les cheveux et le miroir au temps de guerre font entrer l’histoire collective dans cette intimité. Vérifiez et citez les mots exacts dans le passage."
       },
@@ -1213,7 +1213,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "3. Vérifier avec deux indices",
         "temps": 360,
         "access": "free",
-        "consigne": "Relevez deux éléments précis du passage. Pour chacun, expliquez en une phrase comment il soutient votre lecture Y.",
+        "consigne": "Relevez deux moments du passage qui se répondent. Citez un vers ou une phrase entière si sa construction compte. Expliquez comment leur rapport soutient votre lecture Y.",
         "aide": "Suivez les changements d’énonciation et la place que le locuteur s’imagine dans le paysage.",
         "correction": "Le recours à la première personne engage le critique dans sa méditation sur le temps et la mort. La place qu’il s’imagine parmi les ruines fait ensuite du paysage un espace personnel de solitude. Vérifiez et citez les mots exacts dans le passage."
       },
@@ -1374,7 +1374,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "3. Vérifier avec deux indices",
         "temps": 360,
         "access": "free",
-        "consigne": "Relevez deux éléments précis du passage. Pour chacun, expliquez en une phrase comment il soutient votre lecture Y.",
+        "consigne": "Relevez deux moments du passage qui se répondent. Citez un vers ou une phrase entière si sa construction compte. Expliquez comment leur rapport soutient votre lecture Y.",
         "aide": "Confrontez les paroles d’amour aux arguments de la séparation : quel conflit reste ouvert ?",
         "correction": "La réaffirmation de l’amour empêche d’expliquer la séparation par une disparition du sentiment. Les raisons politiques opposées aux supplications maintiennent une incompatibilité que le dialogue ne résout pas. Vérifiez et citez les mots exacts dans le passage."
       },
@@ -1538,7 +1538,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "3. Vérifier avec deux indices",
         "temps": 360,
         "access": "free",
-        "consigne": "Relevez deux éléments précis du passage. Pour chacun, expliquez en une phrase comment il soutient votre lecture Y.",
+        "consigne": "Relevez deux moments du passage qui se répondent. Citez un vers ou une phrase entière si sa construction compte. Expliquez comment leur rapport soutient votre lecture Y.",
         "aide": "Reliez les reprises du chant, les rapprochements entre hommes et arbres et le rappel final de la maison pauvre.",
         "correction": "Les reprises du chant et les rapprochements entre hommes et arbres donnent au groupe un rythme et une identité communs. Le rappel final de la maison trop pauvre réinscrit cette puissance dans un dénuement familial. Vérifiez et citez les mots exacts dans le passage."
       },
@@ -1699,7 +1699,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "3. Vérifier avec deux indices",
         "temps": 360,
         "access": "free",
-        "consigne": "Relevez deux éléments précis du passage. Pour chacun, expliquez en une phrase comment il soutient votre lecture Y.",
+        "consigne": "Relevez deux moments du passage qui se répondent. Citez un vers ou une phrase entière si sa construction compte. Expliquez comment leur rapport soutient votre lecture Y.",
         "aide": "Comparez ses images du rôle joué à ce qu’il dit désormais de lui-même.",
         "correction": "Les images du rôle adopté distinguent d’abord l’apparence de l’identité. Les paroles où Lorenzo explique ce qu’il est devenu mettent ensuite cette distinction à l’épreuve : le rôle n’est pas sans effet sur celui qui le joue. Vérifiez et citez les mots exacts dans le passage."
       },
@@ -1862,7 +1862,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "3. Vérifier avec deux indices",
         "temps": 360,
         "access": "free",
-        "consigne": "Relevez deux éléments précis du passage. Pour chacun, expliquez en une phrase comment il soutient votre lecture Y.",
+        "consigne": "Relevez deux moments du passage qui se répondent. Citez un vers ou une phrase entière si sa construction compte. Expliquez comment leur rapport soutient votre lecture Y.",
         "aide": "Comparez les formes du possible aux négligences concrètes et au bilan final.",
         "correction": "Les formes hypothétiques et l’inventaire des aménagements rendent sensible la richesse des possibles. Les réparations laissées en attente et le bilan sur leurs désirs montrent pourquoi cette richesse ne devient pas action. Vérifiez et citez les mots exacts dans le passage."
       },
@@ -2023,7 +2023,7 @@ window.ANNALES_CATALOGUE = {
         "titre": "3. Vérifier avec deux indices",
         "temps": 360,
         "access": "free",
-        "consigne": "Relevez deux éléments précis du passage. Pour chacun, expliquez en une phrase comment il soutient votre lecture Y.",
+        "consigne": "Relevez deux moments du passage qui se répondent. Citez un vers ou une phrase entière si sa construction compte. Expliquez comment leur rapport soutient votre lecture Y.",
         "aide": "Reliez les personnifications aux souvenirs des trains, au vent et à la paix finale.",
         "correction": "L’adresse et les personnifications donnent à la gare une présence de voyageuse retirée. Le vent, les saisons et la paix finale peuplent son immobilité d’une vie sensible qui ne se réduit pas à la dégradation. Vérifiez et citez les mots exacts dans le passage."
       },
