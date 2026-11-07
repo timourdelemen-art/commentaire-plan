@@ -1,4 +1,4 @@
-"""Pages de sujet (dissertation de français) : trois onglets, Le sujet · S’entraîner · La copie à 20.
+"""Pages de sujet (dissertation de français) : trois onglets, Le sujet · S’entraîner · Le modèle.
 S’entraîner : quatre étapes ; chacune au clic sur ce sujet, puis à l’écrit sur un autre sujet de la même œuvre."""
 import sys, re, html, importlib.util, unicodedata
 R = sys.argv[1]
@@ -95,7 +95,7 @@ def page(k, I, O, other, Ib):
              f'<p class="micro"><a href="{O.get("racine", "")}bac-dissertation-copie-20-{O.get("prefixe", "")}{other}.html">La page de ce sujet →</a></p></div>')
     def comment(n): return f'<details class="etape-comment"><summary>Comment faire ?</summary><p>{COMMENT[n]}</p><p><a href="bac-dissertation-methode.html">La méthode complète →</a></p></details>'
     def ecrit(inner): return (f'<div class="etape-ecrit"><div class="etape-niveau">J’écris, sur un autre sujet</div>'
-                              f'<p>Refaites seul la même opération sur un sujet que vous n’avez pas encore vu. Le corrigé vient de sa copie à 20.</p>{autre}{inner}</div>')
+                              f'<p>Refaites seul la même opération sur un sujet que vous n’avez pas encore vu. Le corrigé vient de sa modèle.</p>{autre}{inner}</div>')
     direct = '<button type="button" class="etape-direct" hidden>Je sais déjà faire : passer à l’écrit →</button>'
     suiv = lambda t: f'<div class="etape-fin"><button type="button" class="btn red small etape-suivante">{t}</button></div>'
     p1 = [(ok[0], 'ok')] + [((lg['theme'] if t == 'theme' else d), t) for d, t in e['p1']]
@@ -128,9 +128,9 @@ def page(k, I, O, other, Ib):
           + ecrit(zone(5, 'Une preuve analysée', f'Expliquez comment l’écriture de ce passage éclaire le sujet : relevez un détail précis, son effet ici et ce qu’il apporte à l’argument. Une ou plusieurs phrases, selon ce que demande le texte. <span class="etape-passage" style="display:block">{Ib["passage"]}</span>', cb['sujet'], 'ana', f'<p>{Ib["an"]}</p>'))
           + suiv('Étape 4 · La copie entière →') + '</section>')
     e4 = (f'<section class="etape" id="etape-copie"><h3>Étape 4 · La copie entière</h3>{comment(4)}'
-          f'<p>Rédigez maintenant la dissertation entière sur le sujet de cette page. Vous pourrez ensuite la comparer à la copie à 20.</p>'
+          f'<p>Rédigez maintenant la dissertation entière sur le sujet de cette page. Vous pourrez ensuite la comparer à la modèle.</p>'
           + zone(6, 'Votre dissertation', f'Sujet : {c["sujet"]}', c['sujet'], 'copie', '', 'Introduction…\n\nPremière partie…')
-          + '<div class="etape-fin"><a class="btn red small" href="#copie">Comparer avec la copie à 20 →</a></div></section>')
+          + '<div class="etape-fin"><a class="btn red small" href="#copie">Comparer avec la modèle →</a></div></section>')
     nav = ''.join(f'<button type="button" data-etape="{i}">{t}</button>' for i, t in enumerate(['1 · Le problème', '2 · Le plan', '3 · La preuve', '4 · La copie entière']))
     blocks = ''.join('<div class="c20-block">' + (f'<h3 class="c20-h">{h}</h3>' if h else '') + ''.join(
         f'<p class="c20-s"><span class="c20-t">{t}</span><span class="c20-f">{l}</span></p>' for t, l in b) + '</div>' for h, b in c['blocks'])
@@ -138,8 +138,8 @@ def page(k, I, O, other, Ib):
            else '<span class="micro">Sujet d’annales.</span>')
     why = ''.join(f'<div><strong>{a}</strong><p>{b}</p></div>' for a, b in c['why'])
     slug = f'bac-dissertation-copie-20-{O.get("prefixe", "")}{k}.html'
-    title = f"Dissertation sur {O['court']} ({O['auteur']}) : {plain(c['titre'])} — sujet, exercices, copie à 20"
-    desc = f"Un vrai sujet du bac de français, quatre étapes d’entraînement au clic puis à l’écrit, et une copie à 20 : {esc(c['sujet'])}"
+    title = f"Dissertation sur {O['court']} ({O['auteur']}) : {plain(c['titre'])} — sujet, exercices, modèle"
+    desc = f"Un vrai sujet du bac de français, quatre étapes d’entraînement au clic puis à l’écrit, et une modèle : {esc(c['sujet'])}"
     return slug, ns, nw, f'''<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(title)}</title>
 <meta name="description" content="{desc}">
@@ -147,10 +147,10 @@ def page(k, I, O, other, Ib):
 </head><body><header class="top"></header><main class="wrap dc20-page">
 
 <section class="pagehead"><div><div class="kicker">BAC · DISSERTATION · {html.escape(O['court'].upper())}</div><h1>{c['titre']}</h1>
-<p class="lede">Un vrai sujet du bac sur {O['titre']}, quatre étapes d’entraînement et sa copie à 20.</p></div></section>
+<p class="lede">Un vrai sujet du bac sur {O['titre']}, quatre étapes d’entraînement et sa modèle.</p></div></section>
 
 <div class="onglets" data-onglets data-defaut="entrainement">
-<div class="onglets-barre" role="tablist" aria-label="Ce sujet"><button role="tab" aria-controls="sujet"><b>Le sujet</b><small>Libellé officiel</small></button><button role="tab" aria-controls="entrainement"><b>S’entraîner</b><small>Quatre étapes</small></button><button role="tab" aria-controls="copie"><b>La copie à 20</b><small>{ns} phrases</small></button></div>
+<div class="onglets-barre" role="tablist" aria-label="Ce sujet"><button role="tab" aria-controls="sujet"><b>Le sujet</b><small>Libellé officiel</small></button><button role="tab" aria-controls="entrainement"><b>S’entraîner</b><small>Quatre étapes</small></button><button role="tab" aria-controls="copie"><b>Le modèle</b><small>{ns} phrases</small></button></div>
 
 <section class="onglet offer-band" id="sujet"><div class="kicker">LE SUJET</div>
 <p class="sujet-libelle">{c['sujet']}</p>
@@ -163,7 +163,7 @@ def page(k, I, O, other, Ib):
 <div data-etapes><div class="etapes-nav" role="group" aria-label="Étapes">{nav}</div>
 {e1}{e2}{e3}{e4}</div></section>
 
-<section class="onglet offer-band" id="copie"><div class="kicker">LA COPIE À 20</div><h2>{c['titre']}</h2>
+<section class="onglet offer-band" id="copie"><div class="kicker">LE MODÈLE</div><h2>{c['titre']}</h2>
 <p class="lede" style="font-size:18px">Modèle de dissertation d’environ {round(nw, -1)} mots : un parcours argumentatif et des preuves à analyser. Les modèles courts ne remplacent pas le développement approfondi attendu dans une copie intégrale de quatre heures ; aucune note de 20/20 n’est garantie.</p>
 <div class="c20 dc20" id="dc20-copie">{blocks}</div>
 <div class="kicker" style="margin-top:28px">LES FORCES DE CE MODÈLE</div>
