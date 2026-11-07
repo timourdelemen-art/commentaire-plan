@@ -13,7 +13,20 @@ const VITRINE='philosophie-copie-20-s-engager-liberte.html';
 const fnLabel=f=>String(f).replace(/^\s*(I|II|III)\.\d\s+/u,'');
 const dynamicSub=f=>(String(f).match(/^\s*(I|II|III)\.(1|2|3)\s/u)||[]).slice(1).join('.');
 const line=(t,f)=>`<p class="c20-s"${dynamicSub(f)?` data-dynamic-sub="${dynamicSub(f)}"`:''}><span class="c20-t">${esc(t)}</span><span class="c20-f">${esc(fnLabel(f))}</span></p>`;
-const block=(h,ss,tag)=>`<div class="c20-block"><${tag} class="c20-h">${esc(h)}</${tag}>${ss.map(([t,f])=>line(t,f)).join('')}</div>`;
+const FUNCTIONS={I:['Établir la première réponse','Fonder cette réponse','Éprouver son fondement'],II:['Établir la seconde réponse','Fonder cette seconde réponse','Éprouver son fondement'],III:['Introduire le travail philosophique nouveau','Démontrer ce qu’il apporte','Répondre au sujet et en mesurer la portée']};
+const block=(h,ss,tag)=>{
+  let last='';
+  const sentences=ss.map(([t,f])=>{
+    const sub=dynamicSub(f);
+    const prefix=sub&&sub.split('.')[0];
+    const n=sub&&Number(sub.split('.')[1]);
+    const header=sub!==last&&prefix&&FUNCTIONS[prefix]?
+      `<h4 class="c20-subhead" data-dynamic-function="${sub}">${esc(FUNCTIONS[prefix][n-1])}</h4>`:'';
+    if(sub)last=sub;
+    return header+line(t,f);
+  }).join('');
+  return `<div class="c20-block"><${tag} class="c20-h">${esc(h)}</${tag}>${sentences}</div>`;
+};
 // Une transition est une charnière autonome entre deux parties, jamais une phrase de la partie précédente.
 const isTransition=pair=>/^Transition\b/i.test(String(pair[1]).trim());
 const renderCopy=(d,tag)=>d.map(([heading,sentences])=>{
@@ -25,7 +38,7 @@ const renderCopy=(d,tag)=>d.map(([heading,sentences])=>{
   ).join('');
   return block(heading,body,tag)+bridge;
 }).join('');
-const BRIDGE_CSS='<style>.c20-bridge{clear:both;margin:1.6rem 0;padding:1rem 1.15rem;border-block:1px solid currentColor}.c20-bridge-label{font-size:.75rem;font-weight:700;letter-spacing:.08em;margin:0 0 .65rem}.c20-bridge .c20-s{margin-bottom:0}</style>';
+const BRIDGE_CSS='<style>.c20-subhead{margin:1.2rem 0 .4rem;font-size:.85rem;font-weight:700;letter-spacing:.02em;color:var(--muted,#666)}.c20-bridge{clear:both;margin:1.6rem 0;padding:1rem 1.15rem;border-block:1px solid currentColor}.c20-bridge-label{font-size:.75rem;font-weight:700;letter-spacing:.08em;margin:0 0 .65rem}.c20-bridge .c20-s{margin-bottom:0}</style>';
 const stats=d=>({n:d.reduce((a,[,ss])=>a+ss.length,0),w:d.reduce((a,[,ss])=>a+ss.reduce((b,[t])=>b+t.split(/\s+/).length,0),0)});
 const TOGGLE=`<script>document.querySelectorAll('.c20-toggle').forEach(function(b){b.addEventListener('click',function(){var c=document.getElementById(b.getAttribute('aria-controls'));c.classList.toggle('c20-plain');b.textContent=c.classList.contains('c20-plain')?'Afficher les fonctions':'Masquer les fonctions';});});</script>`;
 function section(key){
