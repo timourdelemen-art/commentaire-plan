@@ -1,284 +1,298 @@
 {
- "id": "notion-raison",
- "subject": "Suffit-il d’avoir raison pour convaincre ?",
- "notion": "La raison ; la vérité",
- "fiche": {
-  "operateur": "suffisance (« suffit-il ») : avoir raison est-il une condition suffisante pour convaincre ; une seule autre condition nécessaire suffit au non, à condition d’être établie.",
-  "sens": "avoir raison : (1) soutenir une proposition vraie ; (2) disposer de raisons valables — (2) retenu, (1) inclus. convaincre : (1) obtenir l’adhésion par des raisons que l’autre reconnaît ; (2) obtenir l’adhésion, par quelque moyen que ce soit (c’est persuader) — (1) retenu.",
-  "substitutions_interdites": "convaincre ≠ persuader ; avoir raison ≠ avoir le dernier mot ; suffire ≠ contribuer.",
-  "verrou": "Oui : établir que les raisons valables obtiennent par elles-mêmes l’adhésion par des raisons. Non : établir qu’une autre condition est nécessaire. Glissements interdits : de « certains ne sont pas convaincus » à « avoir raison ne sert à rien » ; de convaincre à persuader.",
-  "trois_reponses": "Spontanée : oui, la vérité finit par s’imposer. Contraire : non, il faut aussi savoir parler. Conciliation : avoir raison suffit en droit, non en fait.",
-  "conciliation_1_8bis": "Partage droit / fait. Elle hésite sur Semmelweis : ses raisons valaient en droit et en fait (la mortalité baissait), et ses collègues n’ont pas été convaincus ; à quel ordre attribuer l’échec ? elle se tait.",
-  "brouillon": {
-   "a": "Oui : convaincre, c’est obtenir l’adhésion par des raisons ; celui qui a raison possède les seules qui conviennent, valables pour tout esprit.",
-   "b": "Il possède ce qui peut convaincre, mais la validité est une propriété des raisons, non un acte de celui qui écoute : encore faut-il qu’il les examine.",
-   "c": "Il faut examiner ce qui fait qu’on écoute et qu’on adhère : l’art de parler.",
-   "d": "Il obtient l’attention et la confiance ; mais ses moyens servent aussi le faux, et ne distinguent pas convaincre de persuader.",
-   "e": "L’une a la validité sans l’adhésion, l’autre l’adhésion sans garantie qu’elle tienne aux raisons ; il reste la condition qui fait passer l’une dans l’autre."
+  "id": "notion-raison",
+  "subject": "Suffit-il d’avoir raison pour convaincre ?",
+  "notion": "La raison ; la vérité",
+  "fiche": {
+    "operateur": "suffisance (« suffit-il ») : avoir raison est-il une condition suffisante pour convaincre ; une seule autre condition nécessaire suffit au non, à condition d’être établie.",
+    "sens": "avoir raison : (1) soutenir une proposition vraie ; (2) disposer de raisons valables — (2) retenu, (1) inclus. convaincre : (1) obtenir l’adhésion par des raisons que l’autre reconnaît ; (2) obtenir l’adhésion, par quelque moyen que ce soit (c’est persuader) — (1) retenu.",
+    "substitutions_interdites": "convaincre ≠ persuader ; avoir raison ≠ avoir le dernier mot ; suffire ≠ contribuer.",
+    "verrou": "Oui : établir que les raisons valables obtiennent par elles-mêmes l’adhésion par des raisons. Non : établir qu’une autre condition est nécessaire. Glissements interdits : de « certains ne sont pas convaincus » à « avoir raison ne sert à rien » ; de convaincre à persuader.",
+    "trois_reponses": "Spontanée : oui, la vérité finit par s’imposer. Contraire : non, il faut aussi savoir parler. Conciliation : avoir raison suffit en droit, non en fait.",
+    "conciliation_1_8bis": "Partage droit / fait. Elle hésite sur Semmelweis : ses raisons valaient en droit et en fait (la mortalité baissait), et ses collègues n’ont pas été convaincus ; à quel ordre attribuer l’échec ? elle se tait.",
+    "brouillon": {
+      "a": "Oui : convaincre, c’est obtenir l’adhésion par des raisons ; celui qui a raison possède les seules qui conviennent, valables pour tout esprit.",
+      "b": "Il possède ce qui peut convaincre, mais la validité est une propriété des raisons, non un acte de celui qui écoute : encore faut-il qu’il les examine.",
+      "c": "Il faut examiner ce qui fait qu’on écoute et qu’on adhère : l’art de parler.",
+      "d": "Il obtient l’attention et la confiance ; mais ses moyens servent aussi le faux, et ne distinguent pas convaincre de persuader.",
+      "e": "L’une a la validité sans l’adhésion, l’autre l’adhésion sans garantie qu’elle tienne aux raisons ; il reste la condition qui fait passer l’une dans l’autre."
+    },
+    "A": "Il suffit d’avoir raison pour convaincre : on ne convainc que par des raisons, et celui qui a raison les possède.",
+    "FA": "Définition (III.3). 1. Convaincre, c’est obtenir l’adhésion par des raisons que l’autre reconnaît (E : définition fixée). 2. Des raisons valables le sont pour la raison de chacun (E : leur validité ne dépend pas de qui les énonce ; Kant en fait la pierre de touche de la conviction). 3. Donc celui qui a raison possède ce qui, seul, peut convaincre tout esprit.",
+    "XA": "Avoir raison donne ce qui seul peut convaincre : des raisons valables pour tout esprit.",
+    "YA": "Que l’autre les examine et y adhère effectivement.",
+    "ZA": "FA définit la conviction par la validité des raisons ; la validité est une propriété de l’argument, l’adhésion est un acte de celui qui écoute.",
+    "type_LA": "condition non établie (l’examen de l’auditeur)",
+    "LA": "La validité des raisons ne permet donc pas encore d’établir qu’elles convainquent, parce que l’adhésion est un acte de celui qui écoute, et non une propriété de l’argument.",
+    "six_LA": "Mesure : XA écrit. Filiation : prémisse 2 (la validité est indépendante de qui écoute, donc aussi de son acte). Meilleur cas : Semmelweis, chiffres à l’appui. Absorption : FA dirait « tout esprit attentif sera convaincu » ; c’est supposer l’attention. Non-lacune : oui. Calibration : oui.",
+    "T1": "Nous avons établi que celui qui a raison possède ce qui peut convaincre ; mais cela ne garantit pas l’adhésion, parce qu’elle est un acte de l’auditeur ; il faut donc examiner ce qui fait qu’on écoute et qu’on adhère (W : ce qui fournit la condition).",
+    "B": "Il ne suffit pas d’avoir raison : il faut aussi l’art de se faire écouter et de gagner la confiance. B conserve XA.",
+    "FB": "Fait et théorie de la parole (III.3). 1. On n’examine des raisons que si l’on écoute celui qui les donne (E). 2. On écoute celui à qui l’on fait confiance et qui sait parler à ce qu’on sent et à ce qu’on sait (E : l’art oratoire en a fait la théorie). 3. Donc cet art est une condition de la conviction. Indépendance : vaut sans LA. Principe propre : la confiance comme condition de l’écoute.",
+    "XB": "Pour convaincre, il faut aussi obtenir l’attention et la confiance de l’auditeur.",
+    "YB": "Que l’adhésion obtenue soit une conviction, et non une persuasion.",
+    "ZB": "FB ajoute des moyens qui agissent sur l’auditeur indépendamment de la vérité ; ces moyens servent aussi bien le faux, et ne garantissent pas que l’adhésion tienne aux raisons.",
+    "type_LB": "distinction indispensable (convaincre / persuader)",
+    "LB": "L’art de se faire écouter ne permet donc pas encore d’établir que l’adhésion obtenue soit une conviction, parce que ses moyens agissent aussi bien pour le faux que pour le vrai.",
+    "six_LB": "Mesure : XB écrit. Filiation : prémisse 2 (la confiance, non la vérité). Meilleur cas : l’orateur honnête use des mêmes moyens que le démagogue. Absorption : FB dirait « il suffit d’un orateur qui a raison » ; on revient alors à la première réponse plus un moyen qui ne garantit rien. Non-lacune : oui. Calibration : oui. Geste : argument à double tranchant, différent de I.3.",
+    "T2": "Bilan : XA, XB. ρ : hétérogénéité de niveaux (la validité des raisons / l’efficacité sur l’auditeur) ; preuve : la validité n’agit pas, l’efficacité ne garantit pas la validité. D : établir la condition par laquelle des raisons valables deviennent l’adhésion de l’autre, sans passer par des moyens étrangers à la vérité. Cumul : « avoir raison et bien parler » laisse Semmelweis sans explication : un meilleur orateur aurait obtenu l’adhésion, non nécessairement la conviction (le cumul laisse inexpliqué ce que les deux supposent : l’examen de l’autre). Classe : décision.",
+    "epreuves": "1. Contre-exemple : la démonstration mathématique, qui convainc sans art ; elle convainc celui qui la refait : confirme D. 2. Meilleur cas : survit. 3. Cumul : échec écrit. 4. Antériorité : le dialogue socratique (l’esclave du Ménon) est une opération connue ; transposée, elle répond à D par un travail : candidat de III.",
+    "soupcon_aporie": "aucun indice ; régime ordinaire.",
+    "chemins_echoues": "Chemin aporétique de l’ancienne copie (la vérité ne garantit ni sa démonstration ni son examen) : soupçon sans indice ; écarté. Chemin « droit / fait » : le cumul suffit en apparence, échoue sur Semmelweis.",
+    "dictionnaire": "non consulté.",
+    "phrase_mouvement": "A, parce qu’on ne convainc que par des raisons valables pour tous, établit que celui qui a raison possède ce qui peut convaincre ; mais non l’adhésion, qui est un acte de l’auditeur ; il faut donc examiner ce qui fait écouter. B, parce qu’on n’examine que si l’on fait confiance, établit qu’il faut l’art de se faire écouter ; mais non que l’adhésion soit une conviction. Or la validité n’agit pas, l’efficacité ne garantit pas ; il reste la condition qui les relie.",
+    "probleme_directeur": "Suffit-il d’avoir raison pour convaincre, si la validité n’agit pas sur l’auditeur et si ce qui agit sur lui ne garantit pas la vérité ?",
+    "problematique": "Si avoir raison, c’est posséder les seules raisons qui puissent convaincre, mais si l’on n’est écouté que par un art qui sert aussi le faux, suffit-il d’avoir raison pour convaincre, quand rien encore ne fait passer la valeur des raisons dans l’adhésion de l’autre ?",
+    "forme_problematique": "G3 (deux acquis en protases, « suffit-il » conservé, interrogation sur ce qui manque aux deux). Reconstruction : on part des raisons valables, on bute sur l’adhésion, on examine l’art de parler, on bute sur la persuasion ; la III doit trouver la condition. Relecture : convaincre non remplacé par persuader.",
+    "critere": "Sur Semmelweis, une solution devra dire s’il suffisait d’avoir raison, conserver que ses raisons étaient valables et qu’il fallait être écouté, expliquer pourquoi la validité n’agissait pas et pourquoi l’art de parler n’aurait pas suffi, et fournir la condition.",
+    "contrainte_scene": "montrer quelqu’un qui a raison, preuves à l’appui, et ne convainc pas.",
+    "III": {
+      "operation": "condition (III.7 a) : l’examen de l’autre, que les deux réponses supposaient sans le fournir.",
+      "III1": "La condition qui manque est que l’autre refasse lui-même le raisonnement : on ne convainc qu’un esprit qui examine, et la conviction est son acte.",
+      "III2": "Cette condition conserve XA (seules les raisons convainquent) et XB (il faut que l’autre écoute) ; explique LA (la validité supposait un examen qu’elle ne produit pas) et LB (l’art de parler peut préparer l’examen, non le remplacer). Elle se vérifie sur une démonstration refaite (Ménon).",
+      "III3": "Il ne suffit pas d’avoir raison pour convaincre : il faut encore que l’autre puisse et veuille refaire le raisonnement, ce que le dialogue et la preuve partageable rendent possible ; vérifié sur Semmelweis. Reste : l’urgence qui ne laisse pas le temps de l’examen.",
+      "tests": "Cas témoin : Semmelweis avait raison ; il n’a jamais mis ses collègues en état de refaire sa preuve, et il les insultait au lieu de les y inviter ; la III dit ce qui manquait. Second cas : Pasteur, à Pouilly-le-Fort, invitant le public à constater lui-même l’effet du vaccin. Restitution : oui. Rechute : le reste (l’urgence) ne redit ni LA ni LB. Test propre : la condition est présentée comme nécessaire, non suffisante. Report : non. Acquis nouveau : prémisse nouvelle — la conviction est l’acte d’un examen refait ; nécessaire à la décision."
+    },
+    "candidats_III": [
+      {
+        "id": "retenue",
+        "operation": "Condition",
+        "proposition": "Il faut encore que l’autre refasse lui-même le raisonnement : on ne convainc qu’un esprit qui examine.",
+        "verdict": "retenue",
+        "raison": "Conserve les deux acquis, explique l’échec de Semmelweis et celui de la rhétorique."
+      },
+      {
+        "id": "cumul",
+        "operation": "Partage",
+        "proposition": "Avoir raison et savoir parler.",
+        "verdict": "écartée",
+        "raison": "C’est le cumul : il obtient l’adhésion, non la conviction."
+      },
+      {
+        "id": "droit",
+        "operation": "Critère de frontière",
+        "proposition": "Avoir raison suffit en droit, non en fait.",
+        "verdict": "écartée",
+        "raison": "C’est la conciliation, qui ne dit pas ce qui manque en fait."
+      },
+      {
+        "id": "temps",
+        "operation": "Ordre des moments",
+        "proposition": "La vérité finit par convaincre avec le temps.",
+        "verdict": "dominée",
+        "raison": "Constat parfois vrai, sans explication de ce qui convainc."
+      }
+    ],
+    "generateur": "figure : la condition ; registre opératoire : dialectique ; registre de lecture : démonstratif à ordre visible ; branches B1 ; annonce N1.",
+    "scene": "Ignace Semmelweis, Vienne, 1847 : l’obligation de se laver les mains au chlorure de chaux fait chuter la mortalité par fièvre puerpérale ; ses collègues ne sont pas convaincus ; il publie tard (1861), invective ses contradicteurs, et meurt en 1865. Verdict : homologue. Retour : ce qui a manqué n’est ni la vérité ni l’éloquence, mais l’examen des autres.",
+    "statut": {
+      "problematique": "suffisamment justifiée",
+      "copie": "état de travail (architecture expérimentale)"
+    },
+    "ouvertures_de_pensee": {
+      "I": "Convaincre ne signifie donc pas seulement provoquer une adhésion : une raison valable prétend pouvoir être examinée par quiconque, indépendamment de la personne qui l'énonce.",
+      "II": "Une nouvelle dimension apparaît pourtant : même la meilleure raison reste sans effet sur une pensée qui ne s'arrête pas pour l'examiner ; l'écoute devient une condition de l'adhésion.",
+      "III": "Nous pouvons alors concevoir la persuasion rationnelle comme une activité partagée : l'un offre des raisons, l'autre doit pouvoir les refaire, sans que cet examen garantisse mécaniquement son accord.",
+      "statut": "Possibilités justifiées, avec leur portée exacte."
+    }
   },
-  "A": "Il suffit d’avoir raison pour convaincre : on ne convainc que par des raisons, et celui qui a raison les possède.",
-  "FA": "Définition (III.3). 1. Convaincre, c’est obtenir l’adhésion par des raisons que l’autre reconnaît (E : définition fixée). 2. Des raisons valables le sont pour la raison de chacun (E : leur validité ne dépend pas de qui les énonce ; Kant en fait la pierre de touche de la conviction). 3. Donc celui qui a raison possède ce qui, seul, peut convaincre tout esprit.",
-  "XA": "Avoir raison donne ce qui seul peut convaincre : des raisons valables pour tout esprit.",
-  "YA": "Que l’autre les examine et y adhère effectivement.",
-  "ZA": "FA définit la conviction par la validité des raisons ; la validité est une propriété de l’argument, l’adhésion est un acte de celui qui écoute.",
-  "type_LA": "condition non établie (l’examen de l’auditeur)",
-  "LA": "La validité des raisons ne permet donc pas encore d’établir qu’elles convainquent, parce que l’adhésion est un acte de celui qui écoute, et non une propriété de l’argument.",
-  "six_LA": "Mesure : XA écrit. Filiation : prémisse 2 (la validité est indépendante de qui écoute, donc aussi de son acte). Meilleur cas : Semmelweis, chiffres à l’appui. Absorption : FA dirait « tout esprit attentif sera convaincu » ; c’est supposer l’attention. Non-lacune : oui. Calibration : oui.",
-  "T1": "Nous avons établi que celui qui a raison possède ce qui peut convaincre ; mais cela ne garantit pas l’adhésion, parce qu’elle est un acte de l’auditeur ; il faut donc examiner ce qui fait qu’on écoute et qu’on adhère (W : ce qui fournit la condition).",
-  "B": "Il ne suffit pas d’avoir raison : il faut aussi l’art de se faire écouter et de gagner la confiance. B conserve XA.",
-  "FB": "Fait et théorie de la parole (III.3). 1. On n’examine des raisons que si l’on écoute celui qui les donne (E). 2. On écoute celui à qui l’on fait confiance et qui sait parler à ce qu’on sent et à ce qu’on sait (E : l’art oratoire en a fait la théorie). 3. Donc cet art est une condition de la conviction. Indépendance : vaut sans LA. Principe propre : la confiance comme condition de l’écoute.",
-  "XB": "Pour convaincre, il faut aussi obtenir l’attention et la confiance de l’auditeur.",
-  "YB": "Que l’adhésion obtenue soit une conviction, et non une persuasion.",
-  "ZB": "FB ajoute des moyens qui agissent sur l’auditeur indépendamment de la vérité ; ces moyens servent aussi bien le faux, et ne garantissent pas que l’adhésion tienne aux raisons.",
-  "type_LB": "distinction indispensable (convaincre / persuader)",
-  "LB": "L’art de se faire écouter ne permet donc pas encore d’établir que l’adhésion obtenue soit une conviction, parce que ses moyens agissent aussi bien pour le faux que pour le vrai.",
-  "six_LB": "Mesure : XB écrit. Filiation : prémisse 2 (la confiance, non la vérité). Meilleur cas : l’orateur honnête use des mêmes moyens que le démagogue. Absorption : FB dirait « il suffit d’un orateur qui a raison » ; on revient alors à la première réponse plus un moyen qui ne garantit rien. Non-lacune : oui. Calibration : oui. Geste : argument à double tranchant, différent de I.3.",
-  "T2": "Bilan : XA, XB. ρ : hétérogénéité de niveaux (la validité des raisons / l’efficacité sur l’auditeur) ; preuve : la validité n’agit pas, l’efficacité ne garantit pas la validité. D : établir la condition par laquelle des raisons valables deviennent l’adhésion de l’autre, sans passer par des moyens étrangers à la vérité. Cumul : « avoir raison et bien parler » laisse Semmelweis sans explication : un meilleur orateur aurait obtenu l’adhésion, non nécessairement la conviction (le cumul laisse inexpliqué ce que les deux supposent : l’examen de l’autre). Classe : décision.",
-  "epreuves": "1. Contre-exemple : la démonstration mathématique, qui convainc sans art ; elle convainc celui qui la refait : confirme D. 2. Meilleur cas : survit. 3. Cumul : échec écrit. 4. Antériorité : le dialogue socratique (l’esclave du Ménon) est une opération connue ; transposée, elle répond à D par un travail : candidat de III.",
-  "soupcon_aporie": "aucun indice ; régime ordinaire.",
-  "chemins_echoues": "Chemin aporétique de l’ancienne copie (la vérité ne garantit ni sa démonstration ni son examen) : soupçon sans indice ; écarté. Chemin « droit / fait » : le cumul suffit en apparence, échoue sur Semmelweis.",
-  "dictionnaire": "non consulté.",
-  "phrase_mouvement": "A, parce qu’on ne convainc que par des raisons valables pour tous, établit que celui qui a raison possède ce qui peut convaincre ; mais non l’adhésion, qui est un acte de l’auditeur ; il faut donc examiner ce qui fait écouter. B, parce qu’on n’examine que si l’on fait confiance, établit qu’il faut l’art de se faire écouter ; mais non que l’adhésion soit une conviction. Or la validité n’agit pas, l’efficacité ne garantit pas ; il reste la condition qui les relie.",
-  "probleme_directeur": "Suffit-il d’avoir raison pour convaincre, si la validité n’agit pas sur l’auditeur et si ce qui agit sur lui ne garantit pas la vérité ?",
-  "problematique": "Si avoir raison, c’est posséder les seules raisons qui puissent convaincre, mais si l’on n’est écouté que par un art qui sert aussi le faux, suffit-il d’avoir raison pour convaincre, quand rien encore ne fait passer la valeur des raisons dans l’adhésion de l’autre ?",
-  "forme_problematique": "G3 (deux acquis en protases, « suffit-il » conservé, interrogation sur ce qui manque aux deux). Reconstruction : on part des raisons valables, on bute sur l’adhésion, on examine l’art de parler, on bute sur la persuasion ; la III doit trouver la condition. Relecture : convaincre non remplacé par persuader.",
-  "critere": "Sur Semmelweis, une solution devra dire s’il suffisait d’avoir raison, conserver que ses raisons étaient valables et qu’il fallait être écouté, expliquer pourquoi la validité n’agissait pas et pourquoi l’art de parler n’aurait pas suffi, et fournir la condition.",
-  "contrainte_scene": "montrer quelqu’un qui a raison, preuves à l’appui, et ne convainc pas.",
-  "III": {
-   "operation": "condition (III.7 a) : l’examen de l’autre, que les deux réponses supposaient sans le fournir.",
-   "III1": "La condition qui manque est que l’autre refasse lui-même le raisonnement : on ne convainc qu’un esprit qui examine, et la conviction est son acte.",
-   "III2": "Cette condition conserve XA (seules les raisons convainquent) et XB (il faut que l’autre écoute) ; explique LA (la validité supposait un examen qu’elle ne produit pas) et LB (l’art de parler peut préparer l’examen, non le remplacer). Elle se vérifie sur une démonstration refaite (Ménon).",
-   "III3": "Il ne suffit pas d’avoir raison pour convaincre : il faut encore que l’autre puisse et veuille refaire le raisonnement, ce que le dialogue et la preuve partageable rendent possible ; vérifié sur Semmelweis. Reste : l’urgence qui ne laisse pas le temps de l’examen.",
-   "tests": "Cas témoin : Semmelweis avait raison ; il n’a jamais mis ses collègues en état de refaire sa preuve, et il les insultait au lieu de les y inviter ; la III dit ce qui manquait. Second cas : Pasteur, à Pouilly-le-Fort, invitant le public à constater lui-même l’effet du vaccin. Restitution : oui. Rechute : le reste (l’urgence) ne redit ni LA ni LB. Test propre : la condition est présentée comme nécessaire, non suffisante. Report : non. Acquis nouveau : prémisse nouvelle — la conviction est l’acte d’un examen refait ; nécessaire à la décision."
-  },
-  "candidats_III": [
-   {
-    "id": "retenue",
-    "operation": "Condition",
-    "proposition": "Il faut encore que l’autre refasse lui-même le raisonnement : on ne convainc qu’un esprit qui examine.",
-    "verdict": "retenue",
-    "raison": "Conserve les deux acquis, explique l’échec de Semmelweis et celui de la rhétorique."
-   },
-   {
-    "id": "cumul",
-    "operation": "Partage",
-    "proposition": "Avoir raison et savoir parler.",
-    "verdict": "écartée",
-    "raison": "C’est le cumul : il obtient l’adhésion, non la conviction."
-   },
-   {
-    "id": "droit",
-    "operation": "Critère de frontière",
-    "proposition": "Avoir raison suffit en droit, non en fait.",
-    "verdict": "écartée",
-    "raison": "C’est la conciliation, qui ne dit pas ce qui manque en fait."
-   },
-   {
-    "id": "temps",
-    "operation": "Ordre des moments",
-    "proposition": "La vérité finit par convaincre avec le temps.",
-    "verdict": "dominée",
-    "raison": "Constat parfois vrai, sans explication de ce qui convainc."
-   }
+  "citations": [
+    {
+      "texte": "la possibilité de la communiquer, et de trouver que la créance possède une validité pour la raison de chaque être humain",
+      "auteur": "Kant",
+      "oeuvre": "Critique de la raison pure",
+      "lieu": "Canon de la raison pure, A 820-821 / B 848-849",
+      "edition": "trad. Alain Renaut, GF-Flammarion",
+      "verification": "œuvre fournie, passage retrouvé mot pour mot",
+      "regime": "citation exacte",
+      "fonction": "I.2 : donner la formule exacte de ce qui distingue la conviction ; la prémisse (la validité ne dépend pas de qui parle) tient sans elle."
+    },
+    {
+      "texte": "fait croire que le juste et l’injuste sont ceci et cela, mais elle ne les fait pas connaître",
+      "auteur": "Platon",
+      "oeuvre": "Gorgias",
+      "lieu": "455a",
+      "edition": "Œuvres complètes, dir. Luc Brisson, Flammarion, 2008",
+      "verification": "œuvre fournie, passage retrouvé mot pour mot",
+      "regime": "citation exacte",
+      "fonction": "II.3 : faire voir que l’art de parler produit la croyance sans le savoir ; la limite est démontrée sans elle."
+    }
   ],
-  "generateur": "figure : la condition ; registre opératoire : dialectique ; registre de lecture : démonstratif à ordre visible ; branches B1 ; annonce N1.",
-  "scene": "Ignace Semmelweis, Vienne, 1847 : l’obligation de se laver les mains au chlorure de chaux fait chuter la mortalité par fièvre puerpérale ; ses collègues ne sont pas convaincus ; il publie tard (1861), invective ses contradicteurs, et meurt en 1865. Verdict : homologue. Retour : ce qui a manqué n’est ni la vérité ni l’éloquence, mais l’examen des autres.",
-  "statut": {
-   "problematique": "suffisamment justifiée",
-   "copie": "état de travail (architecture expérimentale)"
-  }
- },
- "citations": [
-  {
-   "texte": "la possibilité de la communiquer, et de trouver que la créance possède une validité pour la raison de chaque être humain",
-   "auteur": "Kant",
-   "oeuvre": "Critique de la raison pure",
-   "lieu": "Canon de la raison pure, A 820-821 / B 848-849",
-   "edition": "trad. Alain Renaut, GF-Flammarion",
-   "verification": "œuvre fournie, passage retrouvé mot pour mot",
-   "regime": "citation exacte",
-   "fonction": "I.2 : donner la formule exacte de ce qui distingue la conviction ; la prémisse (la validité ne dépend pas de qui parle) tient sans elle."
-  },
-  {
-   "texte": "fait croire que le juste et l’injuste sont ceci et cela, mais elle ne les fait pas connaître",
-   "auteur": "Platon",
-   "oeuvre": "Gorgias",
-   "lieu": "455a",
-   "edition": "Œuvres complètes, dir. Luc Brisson, Flammarion, 2008",
-   "verification": "œuvre fournie, passage retrouvé mot pour mot",
-   "regime": "citation exacte",
-   "fonction": "II.3 : faire voir que l’art de parler produit la croyance sans le savoir ; la limite est démontrée sans elle."
-  }
- ],
- "copy": [
-  [
-   "INTRODUCTION",
-   [
+  "copy": [
     [
-     "En 1847, à Vienne, le médecin Ignace Semmelweis impose à ses étudiants de se laver les mains avant d’examiner les accouchées : la mortalité par fièvre puerpérale s’effondre.",
-     "Introduction · la scène"
+      "INTRODUCTION",
+      [
+        [
+          "En 1847, à Vienne, le médecin Ignace Semmelweis impose à ses étudiants de se laver les mains avant d’examiner les accouchées : la mortalité par fièvre puerpérale s’effondre.",
+          "Introduction · la scène"
+        ],
+        [
+          "Il a les chiffres, il a raison, et pourtant la plupart de ses collègues refusent de le croire ; il meurt en 1865 sans les avoir convaincus.",
+          "Introduction · la scène : l’échec"
+        ],
+        [
+          "Ce n’est pas la vérité qui lui manquait ; c’est pourtant elle qui n’a pas suffi.",
+          "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"
+        ],
+        [
+          "Convaincre n’est pas persuader : c’est obtenir l’adhésion par des raisons que l’autre reconnaît, et la question est de savoir si posséder de telles raisons y suffit.",
+          "Introduction · les mots du sujet"
+        ],
+        [
+          "Des raisons valables peuvent convaincre tout esprit capable de les examiner ; encore faut-il qu’il les entende. Mais l’art de se faire écouter peut aussi servir le faux.",
+          "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"
+        ],
+        [
+          "Si avoir raison, c’est posséder les seules raisons qui puissent convaincre, mais si l’on n’est écouté que par un art qui sert aussi le faux, suffit-il d’avoir raison pour convaincre, quand rien encore ne fait passer la valeur des raisons dans l’adhésion de l’autre ?",
+          "Introduction · la problématique : une seule question, qui garde « suffit-il »"
+        ],
+        [
+          "Nous distinguerons la force des raisons, les conditions de l’écoute, puis l’examen par lequel un autre esprit peut se convaincre.",
+          "Introduction · l’annonce"
+        ]
+      ]
     ],
     [
-     "Il a les chiffres, il a raison, et pourtant la plupart de ses collègues refusent de le croire ; il meurt en 1865 sans les avoir convaincus.",
-     "Introduction · la scène : l’échec"
+      "I. LES RAISONS VALENT POUR TOUS",
+      [
+        [
+          "Il suffit d’avoir raison pour convaincre, car on ne convainc que par des raisons, et celui qui a raison possède celles qui conviennent.",
+          "I.1 Ouvrir une première manière de penser"
+        ],
+        [
+          "Cette réponse sauve ce qui distingue la conviction de la séduction : elle ne doit rien à celui qui parle.",
+          "I.1 Ce qu’elle sauve"
+        ],
+        [
+          "Une raison valable ne l’est pas pour moi seul : sa validité ne dépend ni de qui l’énonce ni de qui l’entend, et Kant fait de cette communicabilité la pierre de touche de la conviction, à savoir « la possibilité de la communiquer, et de trouver que la créance possède une validité pour la raison de chaque être humain ».",
+          "I.2 La fonder par une définition ; citation qui en donne le critère exact"
+        ],
+        [
+          "Celui qui a raison possède donc ce qui, seul, peut convaincre tout esprit.",
+          "I.2 L’inférence décisive"
+        ],
+        [
+          "Convaincre ne signifie donc pas seulement provoquer une adhésion : une raison valable prétend pouvoir être examinée par quiconque, indépendamment de la personne qui l'énonce.",
+          "I.2 Ce que la preuve ouvre"
+        ],
+        [
+          "Ce fondement établit qu’avoir raison donne ce qui seul peut convaincre : des raisons valables pour tout esprit.",
+          "I.3 L’éprouver : ce qu’il établit"
+        ],
+        [
+          "Mais il définit la conviction par la validité des raisons, et la validité est une propriété de l’argument, tandis que l’adhésion est un acte de celui qui écoute : une preuve peut être valable pour tous sans que personne ne l’examine.",
+          "I.3 Ce qu’il ne permet pas encore, et pourquoi"
+        ],
+        [
+          "Les chiffres de Semmelweis valaient pour chacun de ses collègues ; ils ne les ont pas lus.",
+          "I.3 Sur la scène"
+        ],
+        [
+          "La validité des raisons ne permet donc pas encore d’établir qu’elles convainquent, parce que l’adhésion est un acte de celui qui écoute, et non une propriété de l’argument.",
+          "I.3 La portée et le manque du premier fondement"
+        ],
+        [
+          "Avoir raison fournit des arguments, non l’adhésion de celui qui refuse d’écouter. Qu’est-ce qui peut le disposer à examiner une preuve ?",
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
+        ]
+      ]
     ],
     [
-     "Ce n’est pas la vérité qui lui manquait ; c’est pourtant elle qui n’a pas suffi.",
-     "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"
+      "II. SE FAIRE ÉCOUTER",
+      [
+        [
+          "Il faut aussi savoir parler à celui qu’on veut convaincre, car avoir raison ne suffit pas à être écouté.",
+          "II.1 Ouvrir une autre manière de penser"
+        ],
+        [
+          "Elle ne nie pas que les raisons valables soient les seules qui conviennent ; elle cherche ce qui les fait entendre.",
+          "II.1 Ce qu’elle conserve"
+        ],
+        [
+          "On n’examine des raisons que si l’on écoute celui qui les donne, et l’on écoute celui à qui l’on fait confiance et qui sait parler à ce qu’on sent autant qu’à ce qu’on sait.",
+          "II.2 La fonder : la confiance, condition de l’écoute"
+        ],
+        [
+          "Semmelweis traitait ses contradicteurs d’assassins : il rendait impossible l’écoute dont ses raisons avaient besoin, et l’art qu’il méprisait était une condition de leur succès.",
+          "II.2 L’inférence décisive, sur la scène"
+        ],
+        [
+          "Une nouvelle dimension apparaît pourtant : même la meilleure raison reste sans effet sur une pensée qui ne s'arrête pas pour l'examiner ; l'écoute devient une condition de l'adhésion.",
+          "II.2 La possibilité que la seconde preuve révèle"
+        ],
+        [
+          "Cette raison établit que, pour convaincre, il faut aussi obtenir l’attention et la confiance de l’auditeur.",
+          "II.3 L’éprouver : ce qu’elle établit"
+        ],
+        [
+          "Mais elle ajoute des moyens qui agissent sur l’auditeur indépendamment de la vérité, et ces moyens servent aussi bien le faux : Socrate le fait avouer à Gorgias, la rhétorique « fait croire que le juste et l’injuste sont ceci et cela, mais elle ne les fait pas connaître ».",
+          "II.3 Ce qu’elle ne permet pas encore, et pourquoi : un argument à double tranchant"
+        ],
+        [
+          "Un orateur plus habile que Semmelweis aurait obtenu l’adhésion de ses collègues ; il l’aurait obtenue de la même manière pour une erreur.",
+          "II.3 L’inférence"
+        ],
+        [
+          "L’art de se faire écouter ne permet donc pas encore d’établir que l’adhésion obtenue soit une conviction, parce que ses moyens agissent aussi bien pour le faux que pour le vrai.",
+          "II.3 La portée et le manque du second fondement"
+        ],
+        [
+          "La vérité d’un argument ne suffit pas à le faire entendre ; l’éloquence peut séduire sans prouver. Comment rendre une raison convaincante sans la remplacer par la persuasion ?",
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
+        ]
+      ]
     ],
     [
-     "On attend d’une conviction qu’elle repose sur de bonnes raisons, mais aussi qu’elle soit l’adhésion effective de celui qu’on veut convaincre.",
-     "Introduction · l’enjeu"
+      "III. QUE L’AUTRE REFASSE LA PREUVE",
+      [
+        [
+          "Ce qui fait passer la valeur des raisons dans l’adhésion de l’autre, c’est l’examen de l’autre : on ne convainc qu’un esprit qui refait lui-même le raisonnement.",
+          "III.1 Effectuer le déplacement nécessaire"
+        ],
+        [
+          "La conviction n’est ni produite par l’argument ni obtenue par l’orateur : elle est l’acte de celui qui examine.",
+          "III.1 Ce que la condition fait voir"
+        ],
+        [
+          "Dans le Ménon, Socrate n’enseigne rien au jeune esclave : il le fait chercher, et l’esclave reconnaît lui-même la solution, que nul discours n’aurait pu lui faire admettre aussi sûrement.",
+          "III.2 La démontrer sur un cas où elle se réalise"
+        ],
+        [
+          "Cette condition conserve les deux réponses : seules des raisons convainquent, et il faut que l’autre écoute ; elle explique aussi leurs arrêts, puisque la validité supposait un examen qu’elle ne produit pas, et que l’art de parler peut préparer cet examen, non le remplacer.",
+          "III.2 Ce qu’elle conserve et ce qu’elle explique"
+        ],
+        [
+          "Nous pouvons alors concevoir la persuasion rationnelle comme une activité partagée : l'un offre des raisons, l'autre doit pouvoir les refaire, sans que cet examen garantisse mécaniquement son accord.",
+          "III.2 Ce que la transformation fait comprendre"
+        ],
+        [
+          "Il ne suffit donc pas d’avoir raison pour convaincre : il faut encore mettre l’autre en état de refaire le raisonnement, et qu’il le veuille.",
+          "III.3 La réponse au sujet, avec son opérateur"
+        ],
+        [
+          "Semmelweis avait raison ; il n’a jamais mis ses collègues en état de refaire sa preuve, et il les insultait au lieu de les y inviter.",
+          "III.3 La réponse vérifiée sur le cas"
+        ],
+        [
+          "Reste qu’un tel examen demande du temps, et qu’il faut parfois agir avant que chacun ait pu le faire, au risque de persuader faute de pouvoir convaincre.",
+          "III.3 Le reste : ce qui demande encore à être pensé"
+        ]
+      ]
     ],
     [
-     "Convaincre n’est pas persuader : c’est obtenir l’adhésion par des raisons que l’autre reconnaît, et la question est de savoir si posséder de telles raisons y suffit.",
-     "Introduction · les mots du sujet"
-    ],
-    [
-     "Si l’on répond oui, parce que seules des raisons valables convainquent, on oublie encore que l’adhésion est un acte de celui qui écoute ; si l’on répond qu’il faut aussi l’art de se faire écouter, on recourt à des moyens qui servent aussi bien le faux.",
-     "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"
-    ],
-    [
-     "Si avoir raison, c’est posséder les seules raisons qui puissent convaincre, mais si l’on n’est écouté que par un art qui sert aussi le faux, suffit-il d’avoir raison pour convaincre, quand rien encore ne fait passer la valeur des raisons dans l’adhésion de l’autre ?",
-     "Introduction · la problématique : une seule question, qui garde « suffit-il »"
-    ],
-    [
-     "On examinera d’abord pourquoi avoir raison paraît suffire, et jusqu’où cette raison porte ; ce qu’elle laisse en suspens obligera à examiner ce qui fait qu’on écoute et qu’on adhère ; il faudra alors établir ce que ces deux voies, ensemble, laissent encore ouvert.",
-     "Introduction · l’annonce"
+      "CONCLUSION",
+      [
+        [
+          "Avoir raison ne suffit pas pour convaincre, et savoir parler ne suffit pas davantage : on convainc celui qu’on met en état de refaire lui-même le raisonnement.",
+          "Conclusion · la réponse, avec l’opérateur"
+        ],
+        [
+          "Semmelweis n’a pas manqué de vérité, ni seulement d’éloquence : il a manqué de collègues qui refassent ses calculs, et ne les y a pas aidés.",
+          "Conclusion · retour à la scène"
+        ],
+        [
+          "Mais que faire quand l’épidémie n’attend pas que chacun ait examiné ?",
+          "Conclusion · le reste en question"
+        ]
+      ]
     ]
-   ]
-  ],
-  [
-   "I. LES RAISONS VALENT POUR TOUS",
-   [
-    [
-     "Il suffit d’avoir raison pour convaincre, car on ne convainc que par des raisons, et celui qui a raison possède celles qui conviennent.",
-     "I.1 Établir la première réponse"
-    ],
-    [
-     "Cette réponse sauve ce qui distingue la conviction de la séduction : elle ne doit rien à celui qui parle.",
-     "I.1 Ce qu’elle sauve"
-    ],
-    [
-     "Une raison valable ne l’est pas pour moi seul : sa validité ne dépend ni de qui l’énonce ni de qui l’entend, et Kant fait de cette communicabilité la pierre de touche de la conviction, à savoir « la possibilité de la communiquer, et de trouver que la créance possède une validité pour la raison de chaque être humain ».",
-     "I.2 La fonder par une définition ; citation qui en donne le critère exact"
-    ],
-    [
-     "Celui qui a raison possède donc ce qui, seul, peut convaincre tout esprit.",
-     "I.2 L’inférence décisive"
-    ],
-    [
-     "Ce fondement établit qu’avoir raison donne ce qui seul peut convaincre : des raisons valables pour tout esprit.",
-     "I.3 L’éprouver : ce qu’il établit"
-    ],
-    [
-     "Mais il définit la conviction par la validité des raisons, et la validité est une propriété de l’argument, tandis que l’adhésion est un acte de celui qui écoute : une preuve peut être valable pour tous sans que personne ne l’examine.",
-     "I.3 Ce qu’il ne permet pas encore, et pourquoi"
-    ],
-    [
-     "Les chiffres de Semmelweis valaient pour chacun de ses collègues ; ils ne les ont pas lus.",
-     "I.3 Sur la scène"
-    ],
-    [
-     "La validité des raisons ne permet donc pas encore d’établir qu’elles convainquent, parce que l’adhésion est un acte de celui qui écoute, et non une propriété de l’argument.",
-     "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"
-    ],
-    [
-     "Celui qui a raison possède ce qui peut convaincre ; mais cela ne garantit pas l’adhésion, parce qu’elle est un acte de l’auditeur. Il faut donc examiner ce qui fait qu’on écoute et qu’on adhère : ne faut-il pas aussi savoir parler à celui qu’on veut convaincre ?",
-     "Transition · l’examen nécessaire, en question"
-    ]
-   ]
-  ],
-  [
-   "II. SE FAIRE ÉCOUTER",
-   [
-    [
-     "Il faut aussi savoir parler à celui qu’on veut convaincre, car avoir raison ne suffit pas à être écouté.",
-     "II.1 La seconde réponse, qui répond à l’examen demandé"
-    ],
-    [
-     "Elle ne nie pas que les raisons valables soient les seules qui conviennent ; elle cherche ce qui les fait entendre.",
-     "II.1 Ce qu’elle conserve"
-    ],
-    [
-     "On n’examine des raisons que si l’on écoute celui qui les donne, et l’on écoute celui à qui l’on fait confiance et qui sait parler à ce qu’on sent autant qu’à ce qu’on sait.",
-     "II.2 La fonder : la confiance, condition de l’écoute"
-    ],
-    [
-     "Semmelweis traitait ses contradicteurs d’assassins : il rendait impossible l’écoute dont ses raisons avaient besoin, et l’art qu’il méprisait était une condition de leur succès.",
-     "II.2 L’inférence décisive, sur la scène"
-    ],
-    [
-     "Cette raison établit que, pour convaincre, il faut aussi obtenir l’attention et la confiance de l’auditeur.",
-     "II.3 L’éprouver : ce qu’elle établit"
-    ],
-    [
-     "Mais elle ajoute des moyens qui agissent sur l’auditeur indépendamment de la vérité, et ces moyens servent aussi bien le faux : Socrate le fait avouer à Gorgias, la rhétorique « fait croire que le juste et l’injuste sont ceci et cela, mais elle ne les fait pas connaître ».",
-     "II.3 Ce qu’elle ne permet pas encore, et pourquoi : un argument à double tranchant"
-    ],
-    [
-     "Un orateur plus habile que Semmelweis aurait obtenu l’adhésion de ses collègues ; il l’aurait obtenue de la même manière pour une erreur.",
-     "II.3 L’inférence"
-    ],
-    [
-     "L’art de se faire écouter ne permet donc pas encore d’établir que l’adhésion obtenue soit une conviction, parce que ses moyens agissent aussi bien pour le faux que pour le vrai.",
-     "II.3 Ce que la seconde réponse ne permet pas encore"
-    ],
-    [
-     "Celui qui a raison possède ce qui peut convaincre, et il faut aussi être écouté ; mais la validité des raisons n’agit pas sur l’auditeur, et ce qui agit sur lui ne garantit pas la vérité. Avoir raison et bien parler, c’est additionner une preuve inerte et une efficacité aveugle : qu’est-ce qui peut donc faire passer la valeur des raisons dans l’adhésion de l’autre ?",
-     "Transition · pourquoi leur addition échoue, et ce qui reste à établir, en question"
-    ]
-   ]
-  ],
-  [
-   "III. QUE L’AUTRE REFASSE LA PREUVE",
-   [
-    [
-     "Ce qui fait passer la valeur des raisons dans l’adhésion de l’autre, c’est l’examen de l’autre : on ne convainc qu’un esprit qui refait lui-même le raisonnement.",
-     "III.1 L’opération que la difficulté exige : la condition que les deux réponses supposaient"
-    ],
-    [
-     "La conviction n’est ni produite par l’argument ni obtenue par l’orateur : elle est l’acte de celui qui examine.",
-     "III.1 Ce que la condition fait voir"
-    ],
-    [
-     "Dans le Ménon, Socrate n’enseigne rien au jeune esclave : il le fait chercher, et l’esclave reconnaît lui-même la solution, que nul discours n’aurait pu lui faire admettre aussi sûrement.",
-     "III.2 La démontrer sur un cas où elle se réalise"
-    ],
-    [
-     "Cette condition conserve les deux réponses : seules des raisons convainquent, et il faut que l’autre écoute ; elle explique aussi leurs arrêts, puisque la validité supposait un examen qu’elle ne produit pas, et que l’art de parler peut préparer cet examen, non le remplacer.",
-     "III.2 Ce qu’elle conserve et ce qu’elle explique"
-    ],
-    [
-     "Il ne suffit donc pas d’avoir raison pour convaincre : il faut encore mettre l’autre en état de refaire le raisonnement, et qu’il le veuille.",
-     "III.3 La réponse au sujet, avec son opérateur"
-    ],
-    [
-     "Semmelweis avait raison ; il n’a jamais mis ses collègues en état de refaire sa preuve, et il les insultait au lieu de les y inviter.",
-     "III.3 La réponse vérifiée sur le cas"
-    ],
-    [
-     "Reste qu’un tel examen demande du temps, et qu’il faut parfois agir avant que chacun ait pu le faire, au risque de persuader faute de pouvoir convaincre.",
-     "III.3 Le reste : ce que cette réponse ne règle pas"
-    ]
-   ]
-  ],
-  [
-   "CONCLUSION",
-   [
-    [
-     "Avoir raison ne suffit pas pour convaincre, et savoir parler ne suffit pas davantage : on convainc celui qu’on met en état de refaire lui-même le raisonnement.",
-     "Conclusion · la réponse, avec l’opérateur"
-    ],
-    [
-     "Semmelweis n’a pas manqué de vérité, ni seulement d’éloquence : il a manqué de collègues qui refassent ses calculs, et ne les y a pas aidés.",
-     "Conclusion · retour à la scène"
-    ],
-    [
-     "Mais que faire quand l’épidémie n’attend pas que chacun ait examiné ?",
-     "Conclusion · le reste en question"
-    ]
-   ]
   ]
- ]
 }

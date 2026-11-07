@@ -24,6 +24,7 @@ function page(d) {
 <p class="lede">La copie complète, phrase par phrase. Chaque phrase a sa fonction dans le plan, écrite en marge.</p>
 </div><aside class="side-note"><p><strong>Comment lire ?</strong><br>D’abord avec les fonctions, pour voir comment le devoir avance. Puis sans, pour le lire comme une copie.</p><p><button type="button" class="philo-print c20-toggle" aria-controls="c20-${d.id}">Masquer les fonctions</button></p></aside></section>
 <section class="offer-band" id="corrige"><div class="c20" id="c20-${d.id}">${C.renderCopy(d.copy, 'h2')}</div></section>
+${C.openingExercise(d.copy,d.id)}
 <section class="offer-band"><div class="kicker">POUR TRAVAILLER LE SUJET</div><h2>Avant de lire la copie, écrivez la vôtre.</h2>
 <p>Les exercices qui mènent à ce plan sont sur la page du sujet et dans la <a class="official-link" href="philosophie-dissertation.html#liens">méthode de la dissertation →</a></p></section>
 </main><script src="site-nav.js"></script>

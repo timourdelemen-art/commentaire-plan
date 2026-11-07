@@ -1,288 +1,302 @@
 {
- "id": "notion-liberte",
- "subject": "S’engager, est-ce renoncer à sa liberté ?",
- "notion": "La liberté",
- "fiche": {
-  "operateur": "identité (« est-ce ») : l’engagement est-il, par ce qu’il est, une renonciation à la liberté ; question descriptive sur une essence.",
-  "sens": "s’engager : (1) se lier pour l’avenir par une promesse ou un choix ; (2) prendre parti, se mettre en jeu — (1) retenu, (2) en est un cas. renoncer : abandonner volontairement un pouvoir. liberté : (1) pouvoir de choisir entre des possibles toujours ouverts ; (2) pouvoir d’être l’auteur de sa conduite, de se donner une règle.",
-  "substitutions_interdites": "s’engager ≠ se vendre ; renoncer ≠ limiter ; liberté ≠ caprice.",
-  "verrou": "Oui : établir que l’engagement, comme tel, ôte la liberté. Non : établir qu’il ne l’ôte pas, ou qu’il l’exerce. Glissements interdits : de « réduire ses possibles » à « renoncer à sa liberté » ; de certains engagements (servitude) à tous.",
-  "trois_reponses": "Spontanée : oui, je me lie. Contraire : non, c’est un acte libre. Conciliation : libre au moment de s’engager, non libre ensuite.",
-  "conciliation_1_8bis": "Partage des moments. Elle hésite sur Ulysse au mât : quand il supplie qu’on le délie, est-ce lui qui est libre, ou celui qui avait donné l’ordre ? elle doit trancher sans raison.",
-  "brouillon": {
-   "a": "Oui : être libre, c’est pouvoir choisir ; s’engager, c’est lier ses choix futurs.",
-   "b": "Cela prouve qu’on réduit ses possibles ; mais à cette mesure tout choix serait une renonciation, et l’engagement ne s’en distingue plus.",
-   "c": "Il faut examiner la liberté en acte : n’est-elle pas le pouvoir de se donner une règle ?",
-   "d": "L’engagement est une liberté qui se lie elle-même ; mais il lie aussi une volonté future qui ne voudra peut-être plus.",
-   "e": "Les deux s’affrontent sur le moment où l’on veut rompre ; il reste à savoir quelle volonté est alors libre."
+  "id": "notion-liberte",
+  "subject": "S’engager, est-ce renoncer à sa liberté ?",
+  "notion": "La liberté",
+  "fiche": {
+    "operateur": "identité (« est-ce ») : l’engagement est-il, par ce qu’il est, une renonciation à la liberté ; question descriptive sur une essence.",
+    "sens": "s’engager : (1) se lier pour l’avenir par une promesse ou un choix ; (2) prendre parti, se mettre en jeu — (1) retenu, (2) en est un cas. renoncer : abandonner volontairement un pouvoir. liberté : (1) pouvoir de choisir entre des possibles toujours ouverts ; (2) pouvoir d’être l’auteur de sa conduite, de se donner une règle.",
+    "substitutions_interdites": "s’engager ≠ se vendre ; renoncer ≠ limiter ; liberté ≠ caprice.",
+    "verrou": "Oui : établir que l’engagement, comme tel, ôte la liberté. Non : établir qu’il ne l’ôte pas, ou qu’il l’exerce. Glissements interdits : de « réduire ses possibles » à « renoncer à sa liberté » ; de certains engagements (servitude) à tous.",
+    "trois_reponses": "Spontanée : oui, je me lie. Contraire : non, c’est un acte libre. Conciliation : libre au moment de s’engager, non libre ensuite.",
+    "conciliation_1_8bis": "Partage des moments. Elle hésite sur Ulysse au mât : quand il supplie qu’on le délie, est-ce lui qui est libre, ou celui qui avait donné l’ordre ? elle doit trancher sans raison.",
+    "brouillon": {
+      "a": "Oui : être libre, c’est pouvoir choisir ; s’engager, c’est lier ses choix futurs.",
+      "b": "Cela prouve qu’on réduit ses possibles ; mais à cette mesure tout choix serait une renonciation, et l’engagement ne s’en distingue plus.",
+      "c": "Il faut examiner la liberté en acte : n’est-elle pas le pouvoir de se donner une règle ?",
+      "d": "L’engagement est une liberté qui se lie elle-même ; mais il lie aussi une volonté future qui ne voudra peut-être plus.",
+      "e": "Les deux s’affrontent sur le moment où l’on veut rompre ; il reste à savoir quelle volonté est alors libre."
+    },
+    "A": "S’engager, c’est renoncer à sa liberté : c’est lier d’avance ses choix futurs.",
+    "FA": "Définition (III.3). 1. Être libre, c’est pouvoir choisir entre des possibles ouverts (E : définition commune, sens 1). 2. S’engager, c’est s’interdire d’avance certains de ces possibles (E). 3. Donc l’engagement retire une part de la liberté, volontairement : c’est une renonciation.",
+    "XA": "L’engagement réduit les possibles et lie le choix futur.",
+    "YA": "Que cette réduction soit une renonciation à la liberté.",
+    "ZA": "FA mesure la liberté au nombre des possibles ouverts ; à cette mesure, tout choix, qui en ferme d’autres, serait une renonciation, et l’engagement ne s’en distingue plus.",
+    "type_LA": "distinction indispensable (réduire ses possibles / renoncer à sa liberté)",
+    "LA": "La réduction des possibles ne permet donc pas encore d’établir que s’engager soit renoncer à sa liberté, parce qu’à cette mesure tout choix en serait déjà une.",
+    "six_LA": "Mesure : XA écrit. Filiation : prémisse 1 retournée contre elle-même (rétorsion). Meilleur cas : celui qui ne s’engage jamais choisit aussi, et ferme aussi des possibles. Absorption : FA dirait « l’engagement ferme plus de possibles » ; c’est une différence de degré qui ne fait pas une renonciation. Non-lacune : oui. Calibration : oui.",
+    "T1": "Nous avons établi que s’engager réduit les possibles ; mais cela ne prouve pas une renonciation, parce qu’à cette mesure tout choix en serait une ; il faut donc examiner la liberté en acte (W : le sens que la distinction isole).",
+    "B": "S’engager, c’est exercer sa liberté : c’est se donner une règle. B conserve XA.",
+    "FB": "Définition propre (III.3), sens 2. 1. Être libre, c’est être l’auteur de sa conduite, non le jouet de ce qui arrive (E). 2. On n’est l’auteur d’une conduite que si elle suit une règle qu’on se donne, et non chaque impulsion (E). 3. S’engager, c’est se donner une règle qui tient dans le temps (E ; Nietzsche : « une véritable mémoire de la volonté »). Indépendance : vaut sans LA. Principe propre : l’autonomie.",
+    "XB": "L’engagement est un acte de liberté : une volonté qui se donne une règle.",
+    "YB": "Que la volonté future, qui ne voudra peut-être plus, reste libre en étant liée.",
+    "ZB": "FB fonde la liberté sur la règle qu’on se donne au moment de s’engager ; la force de l’engagement est de lier une volonté future qui peut avoir changé.",
+    "type_LB": "condition non établie (la continuité de la volonté)",
+    "LB": "L’autonomie de celui qui s’engage ne permet donc pas encore d’établir que reste libre celui qui, plus tard, ne veut plus ce qu’il a promis.",
+    "six_LB": "Mesure : XB écrit. Filiation : prémisse 3 (une règle qui tient dans le temps suppose une volonté qui demeure). Meilleur cas : même l’engagement le plus réfléchi peut lier un homme qui a changé. Absorption : FB dirait « il suffit de vouloir encore » ; c’est supposer la condition. Non-lacune : oui. Calibration : oui. Geste : cas exemplaire (Ulysse suppliant), différent de la rétorsion de I.3.",
+    "T2": "Bilan : XA, XB. ρ : conflit sur un cas — au moment où l’on veut rompre, A dit que la liberté est dans la volonté présente qui veut être déliée, B dans la volonté passée qui s’est liée. D : établir laquelle des deux volontés est libre, par un critère qui ne soit pas leur date. Cumul : « libre au moment de s’engager, non ensuite » échoue sur Ulysse (les deux réponses se disputent la même volonté au même moment). Classe : décision.",
+    "epreuves": "1. Contre-exemple : la servitude volontaire ; c’est un engagement qui supprime le pouvoir de juger : il confirme D. 2. Meilleur cas : survit. 3. Cumul : échec écrit. 4. Antériorité : la distinction entre changer d’avis par des raisons et être emporté par une passion est disponible ; appliquée à l’engagement, elle exige un travail : candidat de III.",
+    "soupcon_aporie": "indice (iii) relevé : la conciliation hésite là où satisfaire la volonté présente paraît ruiner la volonté passée ; mais cet indice ne tient pas au fondement lui-même : une distinction (réviser par des raisons / être capturé) lève l’hésitation sans présupposé à transformer. Soupçon non maintenu, module non ouvert, régime ordinaire.",
+    "chemins_echoues": "Chemin aporétique de l’ancienne copie (soumettre sa liberté au choix d’hier / la laisser vide) : forme P2 imposée ; le module n’établit pas l’aporie ; écarté.",
+    "dictionnaire": "non consulté.",
+    "phrase_mouvement": "A, parce que la liberté est un pouvoir de choisir, établit que l’engagement réduit les possibles ; mais non qu’il soit une renonciation, parce que tout choix en serait une ; il faut donc examiner la liberté en acte. B, parce qu’être libre c’est se donner une règle, établit que l’engagement est un acte libre ; mais non que reste libre celui qui ne veut plus. Or les deux s’affrontent au moment de rompre ; il reste à savoir quelle volonté est libre.",
+    "probleme_directeur": "S’engager est-ce renoncer à sa liberté, si l’engagement réduit les possibles mais exprime une volonté qui se donne une règle ?",
+    "problematique": "S’il est vrai que s’engager ferme des possibles, mais que c’est encore un acte libre, est-ce renoncer à sa liberté, quand vient le jour où l’on ne veut plus ce qu’on a promis ?",
+    "forme_problematique": "G1 adaptée à « est-ce » (acquis et contre-acquis en protase, interrogation sur le cas où ils se disputent la volonté). Reconstruction : on part des possibles fermés, on bute sur la différence avec tout choix, on passe à l’autonomie, on bute sur la volonté future ; la III doit dire laquelle est libre. Relecture : opérateur conservé.",
+    "critere": "Sur Ulysse au mât, une solution devra dire s’il a renoncé à sa liberté, conserver que l’engagement ferme des possibles et qu’il est un acte libre, expliquer les deux arrêts, et dire laquelle des deux volontés est libre, par un autre critère que leur date.",
+    "contrainte_scene": "montrer un engagement librement pris et une volonté ultérieure qui veut le rompre.",
+    "III": {
+      "operation": "distinction (III.7 a, ρ : conflit) : changer de volonté par des raisons, ou être emporté par ce qui capture le jugement.",
+      "III1": "Distinguer deux manières de ne plus vouloir : réviser sa règle pour des raisons qu’on peut examiner, ou être capturé par ce qui ôte le pouvoir d’examiner.",
+      "III2": "Conserve XA (des possibles sont fermés) et XB (la règle est libre) ; explique LA (FA comptait des possibles, non le pouvoir de juger) et LB (la volonté future n’est pas libre du seul fait qu’elle est présente).",
+      "III3": "S’engager n’est pas renoncer à sa liberté, si l’engagement protège le jugement contre ce qui le capturerait et laisse ouverte sa révision par des raisons ; vérifié sur Ulysse. Reste : qui juge, au moment de rompre, de la nature de ce qui parle.",
+      "tests": "Cas témoin : la supplication d’Ulysse est celle d’un homme charmé, non d’un homme qui révise ; ses compagnons ont raison de ne pas le délier ; ni A, ni B, ni le partage des moments ne le disaient. Second cas : la promesse de mariage rompue pour des raisons exposées, que la III reconnaît libre. Restitution : oui. Rechute : le reste (qui juge ?) ne redit ni LA ni LB. Test propre : la distinction vaut sur un second cas. Report : non. Acquis nouveau : prémisse nouvelle — la liberté se mesure au pouvoir de juger, non au nombre des possibles ni à la date de la volonté ; nécessaire à la décision."
+    },
+    "candidats_III": [
+      {
+        "id": "retenue",
+        "operation": "Distinction",
+        "proposition": "L’engagement est libre s’il protège le jugement contre ce qui le capturerait, et laisse ouverte sa révision par des raisons.",
+        "verdict": "retenue",
+        "raison": "Décide le cas d’Ulysse, conserve les deux acquis, explique les deux arrêts."
+      },
+      {
+        "id": "moments",
+        "operation": "Partage des moments",
+        "proposition": "Libre au moment de s’engager, non ensuite.",
+        "verdict": "écartée",
+        "raison": "C’est le cumul, qui échoue sur Ulysse."
+      },
+      {
+        "id": "fidelite",
+        "operation": "Ordre des moments",
+        "proposition": "La fidélité est un engagement repris chaque jour.",
+        "verdict": "dominée",
+        "raison": "Juste en partie, mais ne dit pas que faire le jour où l’on ne le reprend plus."
+      },
+      {
+        "id": "ordre",
+        "operation": "Principe d’ordre",
+        "proposition": "La parole donnée l’emporte toujours sur la volonté présente.",
+        "verdict": "écartée",
+        "raison": "Ferait de la servitude volontaire un engagement libre."
+      }
+    ],
+    "generateur": "figure : le conflit ; registre opératoire : par cas et variation ; registre de lecture : par cas ; branches B2 ; annonce N1.",
+    "scene": "Homère, Odyssée, chant XII : Ulysse se fait attacher au mât pour entendre les Sirènes et ordonne qu’on resserre ses liens s’il demande à être délié. Paraphrase seulement. Verdict : homologue. Retour : la supplication est celle du charme.",
+    "statut": {
+      "problematique": "suffisamment justifiée",
+      "copie": "état de travail (architecture expérimentale)"
+    },
+    "ouvertures_de_pensee": {
+      "I": "Le renoncement n'est donc pas seulement un sentiment de contrainte : l'engagement modifie réellement l'ensemble des actions que nous nous autorisons à accomplir.",
+      "II": "Mais un autre sens de la liberté apparaît : tenir une décision à travers le temps peut être une manière d'agir selon une volonté durable plutôt que de céder à chaque impulsion.",
+      "III": "La liberté ne se mesure alors ni au nombre d'options conservées ni à la fidélité aveugle à une promesse : elle engage la possibilité de maintenir ou de réviser son choix pour des raisons.",
+      "statut": "Possibilités justifiées, avec leur portée exacte."
+    }
   },
-  "A": "S’engager, c’est renoncer à sa liberté : c’est lier d’avance ses choix futurs.",
-  "FA": "Définition (III.3). 1. Être libre, c’est pouvoir choisir entre des possibles ouverts (E : définition commune, sens 1). 2. S’engager, c’est s’interdire d’avance certains de ces possibles (E). 3. Donc l’engagement retire une part de la liberté, volontairement : c’est une renonciation.",
-  "XA": "L’engagement réduit les possibles et lie le choix futur.",
-  "YA": "Que cette réduction soit une renonciation à la liberté.",
-  "ZA": "FA mesure la liberté au nombre des possibles ouverts ; à cette mesure, tout choix, qui en ferme d’autres, serait une renonciation, et l’engagement ne s’en distingue plus.",
-  "type_LA": "distinction indispensable (réduire ses possibles / renoncer à sa liberté)",
-  "LA": "La réduction des possibles ne permet donc pas encore d’établir que s’engager soit renoncer à sa liberté, parce qu’à cette mesure tout choix en serait déjà une.",
-  "six_LA": "Mesure : XA écrit. Filiation : prémisse 1 retournée contre elle-même (rétorsion). Meilleur cas : celui qui ne s’engage jamais choisit aussi, et ferme aussi des possibles. Absorption : FA dirait « l’engagement ferme plus de possibles » ; c’est une différence de degré qui ne fait pas une renonciation. Non-lacune : oui. Calibration : oui.",
-  "T1": "Nous avons établi que s’engager réduit les possibles ; mais cela ne prouve pas une renonciation, parce qu’à cette mesure tout choix en serait une ; il faut donc examiner la liberté en acte (W : le sens que la distinction isole).",
-  "B": "S’engager, c’est exercer sa liberté : c’est se donner une règle. B conserve XA.",
-  "FB": "Définition propre (III.3), sens 2. 1. Être libre, c’est être l’auteur de sa conduite, non le jouet de ce qui arrive (E). 2. On n’est l’auteur d’une conduite que si elle suit une règle qu’on se donne, et non chaque impulsion (E). 3. S’engager, c’est se donner une règle qui tient dans le temps (E ; Nietzsche : « une véritable mémoire de la volonté »). Indépendance : vaut sans LA. Principe propre : l’autonomie.",
-  "XB": "L’engagement est un acte de liberté : une volonté qui se donne une règle.",
-  "YB": "Que la volonté future, qui ne voudra peut-être plus, reste libre en étant liée.",
-  "ZB": "FB fonde la liberté sur la règle qu’on se donne au moment de s’engager ; la force de l’engagement est de lier une volonté future qui peut avoir changé.",
-  "type_LB": "condition non établie (la continuité de la volonté)",
-  "LB": "L’autonomie de celui qui s’engage ne permet donc pas encore d’établir que reste libre celui qui, plus tard, ne veut plus ce qu’il a promis.",
-  "six_LB": "Mesure : XB écrit. Filiation : prémisse 3 (une règle qui tient dans le temps suppose une volonté qui demeure). Meilleur cas : même l’engagement le plus réfléchi peut lier un homme qui a changé. Absorption : FB dirait « il suffit de vouloir encore » ; c’est supposer la condition. Non-lacune : oui. Calibration : oui. Geste : cas exemplaire (Ulysse suppliant), différent de la rétorsion de I.3.",
-  "T2": "Bilan : XA, XB. ρ : conflit sur un cas — au moment où l’on veut rompre, A dit que la liberté est dans la volonté présente qui veut être déliée, B dans la volonté passée qui s’est liée. D : établir laquelle des deux volontés est libre, par un critère qui ne soit pas leur date. Cumul : « libre au moment de s’engager, non ensuite » échoue sur Ulysse (les deux réponses se disputent la même volonté au même moment). Classe : décision.",
-  "epreuves": "1. Contre-exemple : la servitude volontaire ; c’est un engagement qui supprime le pouvoir de juger : il confirme D. 2. Meilleur cas : survit. 3. Cumul : échec écrit. 4. Antériorité : la distinction entre changer d’avis par des raisons et être emporté par une passion est disponible ; appliquée à l’engagement, elle exige un travail : candidat de III.",
-  "soupcon_aporie": "indice (iii) relevé : la conciliation hésite là où satisfaire la volonté présente paraît ruiner la volonté passée ; mais cet indice ne tient pas au fondement lui-même : une distinction (réviser par des raisons / être capturé) lève l’hésitation sans présupposé à transformer. Soupçon non maintenu, module non ouvert, régime ordinaire.",
-  "chemins_echoues": "Chemin aporétique de l’ancienne copie (soumettre sa liberté au choix d’hier / la laisser vide) : forme P2 imposée ; le module n’établit pas l’aporie ; écarté.",
-  "dictionnaire": "non consulté.",
-  "phrase_mouvement": "A, parce que la liberté est un pouvoir de choisir, établit que l’engagement réduit les possibles ; mais non qu’il soit une renonciation, parce que tout choix en serait une ; il faut donc examiner la liberté en acte. B, parce qu’être libre c’est se donner une règle, établit que l’engagement est un acte libre ; mais non que reste libre celui qui ne veut plus. Or les deux s’affrontent au moment de rompre ; il reste à savoir quelle volonté est libre.",
-  "probleme_directeur": "S’engager est-ce renoncer à sa liberté, si l’engagement réduit les possibles mais exprime une volonté qui se donne une règle ?",
-  "problematique": "S’il est vrai que s’engager ferme des possibles, mais que c’est encore un acte libre, est-ce renoncer à sa liberté, quand vient le jour où l’on ne veut plus ce qu’on a promis ?",
-  "forme_problematique": "G1 adaptée à « est-ce » (acquis et contre-acquis en protase, interrogation sur le cas où ils se disputent la volonté). Reconstruction : on part des possibles fermés, on bute sur la différence avec tout choix, on passe à l’autonomie, on bute sur la volonté future ; la III doit dire laquelle est libre. Relecture : opérateur conservé.",
-  "critere": "Sur Ulysse au mât, une solution devra dire s’il a renoncé à sa liberté, conserver que l’engagement ferme des possibles et qu’il est un acte libre, expliquer les deux arrêts, et dire laquelle des deux volontés est libre, par un autre critère que leur date.",
-  "contrainte_scene": "montrer un engagement librement pris et une volonté ultérieure qui veut le rompre.",
-  "III": {
-   "operation": "distinction (III.7 a, ρ : conflit) : changer de volonté par des raisons, ou être emporté par ce qui capture le jugement.",
-   "III1": "Distinguer deux manières de ne plus vouloir : réviser sa règle pour des raisons qu’on peut examiner, ou être capturé par ce qui ôte le pouvoir d’examiner.",
-   "III2": "Conserve XA (des possibles sont fermés) et XB (la règle est libre) ; explique LA (FA comptait des possibles, non le pouvoir de juger) et LB (la volonté future n’est pas libre du seul fait qu’elle est présente).",
-   "III3": "S’engager n’est pas renoncer à sa liberté, si l’engagement protège le jugement contre ce qui le capturerait et laisse ouverte sa révision par des raisons ; vérifié sur Ulysse. Reste : qui juge, au moment de rompre, de la nature de ce qui parle.",
-   "tests": "Cas témoin : la supplication d’Ulysse est celle d’un homme charmé, non d’un homme qui révise ; ses compagnons ont raison de ne pas le délier ; ni A, ni B, ni le partage des moments ne le disaient. Second cas : la promesse de mariage rompue pour des raisons exposées, que la III reconnaît libre. Restitution : oui. Rechute : le reste (qui juge ?) ne redit ni LA ni LB. Test propre : la distinction vaut sur un second cas. Report : non. Acquis nouveau : prémisse nouvelle — la liberté se mesure au pouvoir de juger, non au nombre des possibles ni à la date de la volonté ; nécessaire à la décision."
-  },
-  "candidats_III": [
-   {
-    "id": "retenue",
-    "operation": "Distinction",
-    "proposition": "L’engagement est libre s’il protège le jugement contre ce qui le capturerait, et laisse ouverte sa révision par des raisons.",
-    "verdict": "retenue",
-    "raison": "Décide le cas d’Ulysse, conserve les deux acquis, explique les deux arrêts."
-   },
-   {
-    "id": "moments",
-    "operation": "Partage des moments",
-    "proposition": "Libre au moment de s’engager, non ensuite.",
-    "verdict": "écartée",
-    "raison": "C’est le cumul, qui échoue sur Ulysse."
-   },
-   {
-    "id": "fidelite",
-    "operation": "Ordre des moments",
-    "proposition": "La fidélité est un engagement repris chaque jour.",
-    "verdict": "dominée",
-    "raison": "Juste en partie, mais ne dit pas que faire le jour où l’on ne le reprend plus."
-   },
-   {
-    "id": "ordre",
-    "operation": "Principe d’ordre",
-    "proposition": "La parole donnée l’emporte toujours sur la volonté présente.",
-    "verdict": "écartée",
-    "raison": "Ferait de la servitude volontaire un engagement libre."
-   }
+  "citations": [
+    {
+      "texte": "une véritable mémoire de la volonté",
+      "auteur": "Nietzsche",
+      "oeuvre": "Pour la généalogie de la morale",
+      "lieu": "deuxième traité, § 1",
+      "edition": "Œuvres complètes, dir. Patrick Wotling, Flammarion, 2024",
+      "verification": "œuvre fournie, passage retrouvé mot pour mot",
+      "regime": "citation exacte",
+      "fonction": "II.2 : nommer exactement ce que fait l’engagement (une volonté qui reconduit ce qu’elle a voulu)."
+    },
+    {
+      "texte": "volitions nouvelles et étrangères",
+      "auteur": "Nietzsche",
+      "oeuvre": "Pour la généalogie de la morale",
+      "lieu": "deuxième traité, § 1",
+      "edition": "Œuvres complètes, dir. Patrick Wotling, Flammarion, 2024",
+      "verification": "œuvre fournie, passage retrouvé mot pour mot",
+      "regime": "citation exacte",
+      "fonction": "II.3 : faire voir ce qui peut s’interposer entre la promesse et l’acte ; la limite est démontrée sans elle."
+    }
   ],
-  "generateur": "figure : le conflit ; registre opératoire : par cas et variation ; registre de lecture : par cas ; branches B2 ; annonce N1.",
-  "scene": "Homère, Odyssée, chant XII : Ulysse se fait attacher au mât pour entendre les Sirènes et ordonne qu’on resserre ses liens s’il demande à être délié. Paraphrase seulement. Verdict : homologue. Retour : la supplication est celle du charme.",
-  "statut": {
-   "problematique": "suffisamment justifiée",
-   "copie": "état de travail (architecture expérimentale)"
-  }
- },
- "citations": [
-  {
-   "texte": "une véritable mémoire de la volonté",
-   "auteur": "Nietzsche",
-   "oeuvre": "Pour la généalogie de la morale",
-   "lieu": "deuxième traité, § 1",
-   "edition": "Œuvres complètes, dir. Patrick Wotling, Flammarion, 2024",
-   "verification": "œuvre fournie, passage retrouvé mot pour mot",
-   "regime": "citation exacte",
-   "fonction": "II.2 : nommer exactement ce que fait l’engagement (une volonté qui reconduit ce qu’elle a voulu)."
-  },
-  {
-   "texte": "volitions nouvelles et étrangères",
-   "auteur": "Nietzsche",
-   "oeuvre": "Pour la généalogie de la morale",
-   "lieu": "deuxième traité, § 1",
-   "edition": "Œuvres complètes, dir. Patrick Wotling, Flammarion, 2024",
-   "verification": "œuvre fournie, passage retrouvé mot pour mot",
-   "regime": "citation exacte",
-   "fonction": "II.3 : faire voir ce qui peut s’interposer entre la promesse et l’acte ; la limite est démontrée sans elle."
-  }
- ],
- "copy": [
-  [
-   "INTRODUCTION",
-   [
+  "copy": [
     [
-     "Pour entendre le chant des Sirènes sans en périr, Ulysse se fait attacher au mât de son navire et ordonne à ses compagnons, s’il les supplie de le délier, de resserrer ses liens.",
-     "Introduction · la scène"
+      "INTRODUCTION",
+      [
+        [
+          "Pour entendre le chant des Sirènes sans en périr, Ulysse se fait attacher au mât de son navire et ordonne à ses compagnons, s’il les supplie de le délier, de resserrer ses liens.",
+          "Introduction · la scène"
+        ],
+        [
+          "Le chant s’élève, Ulysse supplie, et les rameurs, fidèles à l’ordre reçu, serrent plus fort.",
+          "Introduction · la scène : la supplication"
+        ],
+        [
+          "Ulysse a choisi ses liens ; mais au moment où il veut en sortir, il est un homme attaché.",
+          "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"
+        ],
+        [
+          "S’engager, c’est se lier pour l’avenir ; renoncer, c’est abandonner de son plein gré un pouvoir, et la question est de savoir si se lier revient à abandonner le pouvoir d’être libre.",
+          "Introduction · les mots du sujet"
+        ],
+        [
+          "L’engagement ferme des possibles ; or toute décision ferme quelque chose. S’il peut être un acte libre, cette liberté semble pourtant contredite lorsque la volonté change.",
+          "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"
+        ],
+        [
+          "S’il est vrai que s’engager ferme des possibles, mais que c’est encore un acte libre, est-ce renoncer à sa liberté, quand vient le jour où l’on ne veut plus ce qu’on a promis ?",
+          "Introduction · la problématique : une seule question, qui garde « est-ce »"
+        ],
+        [
+          "Nous examinerons ce que l’engagement ferme, la liberté qu’il peut exercer, puis ce qui distingue une révision réfléchie d’une volonté captive.",
+          "Introduction · l’annonce"
+        ]
+      ]
     ],
     [
-     "Le chant s’élève, Ulysse supplie, et les rameurs, fidèles à l’ordre reçu, serrent plus fort.",
-     "Introduction · la scène : la supplication"
+      "I. CE QUE L’ENGAGEMENT FERME",
+      [
+        [
+          "S’engager, c’est renoncer à sa liberté, car c’est s’interdire d’avance ce qu’on pourrait vouloir demain.",
+          "I.1 Ouvrir une première manière de penser"
+        ],
+        [
+          "Cette réponse sauve ce que l’on sent en signant un contrat ou en prononçant un vœu : quelque chose se ferme.",
+          "I.1 Ce qu’elle sauve"
+        ],
+        [
+          "Être libre, c’est pouvoir choisir entre des possibles ouverts ; or s’engager, c’est retirer de ces possibles tous ceux que l’engagement exclut.",
+          "I.2 La fonder par une définition"
+        ],
+        [
+          "L’engagement retire donc une part de la liberté, et il la retire volontairement : c’est la définition même d’une renonciation.",
+          "I.2 L’inférence décisive"
+        ],
+        [
+          "Le renoncement n'est donc pas seulement un sentiment de contrainte : l'engagement modifie réellement l'ensemble des actions que nous nous autorisons à accomplir.",
+          "I.2 Ce que la preuve ouvre"
+        ],
+        [
+          "Ce fondement établit que l’engagement réduit les possibles et lie le choix futur.",
+          "I.3 L’éprouver : ce qu’il établit"
+        ],
+        [
+          "Mais il mesure la liberté au nombre des possibles ouverts, et à cette mesure tout choix, qui en ferme d’autres, serait déjà une renonciation : choisir un métier, ce serait renoncer à la liberté d’exercer tous les autres.",
+          "I.3 Ce qu’il ne permet pas encore, et pourquoi : le fondement retourné contre lui-même"
+        ],
+        [
+          "Celui qui ne s’engage jamais choisit aussi, et ferme aussi des possibles ; il n’est pas plus libre pour autant.",
+          "I.3 Le cas qui le montre"
+        ],
+        [
+          "La réduction des possibles ne permet donc pas encore d’établir que s’engager soit renoncer à sa liberté, parce qu’à cette mesure tout choix en serait déjà une.",
+          "I.3 La portée et le manque du premier fondement"
+        ],
+        [
+          "S’engager ferme des possibles, mais tout choix en ferme. La liberté se mesure-t-elle à ce qu’on garde ouvert ou à la règle qu’on choisit ?",
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
+        ]
+      ]
     ],
     [
-     "Ulysse a choisi ses liens ; mais au moment où il veut en sortir, il est un homme attaché.",
-     "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"
+      "II. UNE LIBERTÉ QUI SE DONNE SA RÈGLE",
+      [
+        [
+          "Une volonté qui se donne une règle est plus libre que celle qui garde tout ouvert, et s’engager, c’est précisément se donner une règle : loin d’y renoncer, on exerce alors sa liberté.",
+          "II.1 Ouvrir une autre manière de penser"
+        ],
+        [
+          "Elle ne nie pas que l’engagement ferme des possibles ; elle montre qu’il les ferme pour faire quelque chose.",
+          "II.1 Ce qu’elle conserve"
+        ],
+        [
+          "Être libre, c’est être l’auteur de sa conduite, non le jouet de chaque désir ; et l’on n’est l’auteur d’une conduite que si elle suit une règle qu’on se donne.",
+          "II.2 La fonder : la liberté comme autonomie"
+        ],
+        [
+          "Celui qui s’engage donne à sa volonté ce que Nietzsche appelle « une véritable mémoire de la volonté » : il veut encore demain ce qu’il a voulu aujourd’hui, et c’est par là qu’il agit au lieu d’être agi.",
+          "II.2 L’inférence décisive ; citation qui nomme ce que fait l’engagement"
+        ],
+        [
+          "Mais un autre sens de la liberté apparaît : tenir une décision à travers le temps peut être une manière d'agir selon une volonté durable plutôt que de céder à chaque impulsion.",
+          "II.2 La possibilité que la seconde preuve révèle"
+        ],
+        [
+          "Cette raison établit que l’engagement est un acte de liberté : une volonté qui se donne une règle.",
+          "II.3 L’éprouver : ce qu’elle établit"
+        ],
+        [
+          "Mais elle fonde cette liberté sur la règle qu’on se donne au moment de s’engager, et la force d’un engagement est de lier une volonté future qui peut avoir changé : entre la promesse et l’acte peuvent s’interposer des « volitions nouvelles et étrangères ».",
+          "II.3 Ce qu’elle ne permet pas encore, et pourquoi"
+        ],
+        [
+          "Ulysse au mât ne veut plus ce qu’il a voulu ; ses liens sont ceux d’un homme qui avait choisi, et ils tiennent un homme qui ne choisit plus.",
+          "II.3 Le cas qui l’éprouve : un autre geste qu’en I.3"
+        ],
+        [
+          "L’autonomie de celui qui s’engage ne permet donc pas encore d’établir que reste libre celui qui, plus tard, ne veut plus ce qu’il a promis.",
+          "II.3 La portée et le manque du second fondement"
+        ],
+        [
+          "L’engagement est libre lorsqu’on le décide, mais contraint celui qui veut ensuite rompre. Quelle volonté faut-il suivre : celle qui promet ou celle qui se dédit ?",
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
+        ]
+      ]
     ],
     [
-     "On attend de la liberté qu’elle laisse toujours ouvert le pouvoir de choisir, mais aussi qu’elle fasse de nous les auteurs d’une conduite qui tienne.",
-     "Introduction · l’enjeu"
+      "III. CE QUI PARLE QUAND ON VEUT ROMPRE",
+      [
+        [
+          "Pour savoir quelle volonté est libre, il faut distinguer deux manières de ne plus vouloir ce qu’on a promis : réviser sa règle pour des raisons qu’on peut examiner, ou être emporté par ce qui ôte le pouvoir d’examiner.",
+          "III.1 Effectuer le déplacement nécessaire"
+        ],
+        [
+          "La première est encore un jugement ; la seconde est une capture.",
+          "III.1 Ce que la distinction sépare"
+        ],
+        [
+          "Ce n’est donc pas le nombre des possibles, ni la date d’une volonté, qui fait sa liberté : c’est le pouvoir de juger qu’elle conserve.",
+          "III.2 La démontrer : la prémisse nouvelle"
+        ],
+        [
+          "Cette distinction conserve les deux réponses : l’engagement ferme des possibles, et il est l’œuvre d’une volonté qui se donne une règle.",
+          "III.2 Ce qu’elle conserve"
+        ],
+        [
+          "Elle explique aussi leurs arrêts : la première réponse comptait des possibles au lieu de regarder le pouvoir de juger, et la seconde ne savait que faire de la volonté future parce qu’une volonté n’est pas libre du seul fait qu’elle est présente.",
+          "III.2 Ce qu’elle explique"
+        ],
+        [
+          "La liberté ne se mesure alors ni au nombre d'options conservées ni à la fidélité aveugle à une promesse : elle engage la possibilité de maintenir ou de réviser son choix pour des raisons.",
+          "III.2 Ce que la transformation fait comprendre"
+        ],
+        [
+          "S’engager n’est donc pas renoncer à sa liberté, si l’engagement protège le jugement contre ce qui le capturerait et laisse ouverte sa révision par des raisons ; il ne devient renonciation que lorsqu’il interdit de juger.",
+          "III.3 La réponse au sujet, avec son opérateur"
+        ],
+        [
+          "La supplication d’Ulysse est celle d’un homme charmé, non d’un homme qui a de nouvelles raisons : ses compagnons ont raison de serrer ses liens, et c’est ainsi qu’il reste libre.",
+          "III.3 La réponse vérifiée sur le cas"
+        ],
+        [
+          "Reste que, au moment où l’on veut rompre, c’est la volonté elle-même qui doit dire si elle juge ou si elle est emportée, et qu’elle peut se tromper.",
+          "III.3 Le reste : ce qui demande encore à être pensé"
+        ]
+      ]
     ],
     [
-     "S’engager, c’est se lier pour l’avenir ; renoncer, c’est abandonner de son plein gré un pouvoir, et la question est de savoir si se lier revient à abandonner le pouvoir d’être libre.",
-     "Introduction · les mots du sujet"
-    ],
-    [
-     "Certes, l’engagement ferme des possibles ; mais tout choix en ferme, et l’on ne voit pas encore en quoi celui-ci serait une renonciation. On répondra que s’engager est un acte libre ; mais il lie un homme futur qui, un jour, ne voudra peut-être plus.",
-     "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"
-    ],
-    [
-     "S’il est vrai que s’engager ferme des possibles, mais que c’est encore un acte libre, est-ce renoncer à sa liberté, quand vient le jour où l’on ne veut plus ce qu’on a promis ?",
-     "Introduction · la problématique : une seule question, qui garde « est-ce »"
-    ],
-    [
-     "On examinera d’abord pourquoi l’engagement paraît une renonciation, et jusqu’où cette raison porte ; ce qu’elle laisse en suspens obligera à examiner la liberté en acte ; il faudra alors établir ce que ces deux voies, ensemble, laissent encore ouvert.",
-     "Introduction · l’annonce"
+      "CONCLUSION",
+      [
+        [
+          "S’engager n’est pas renoncer à sa liberté, mais la garder contre ce qui pourrait l’emporter, pourvu que l’engagement laisse place aux raisons qui permettraient de le réviser.",
+          "Conclusion · la réponse, avec l’opérateur"
+        ],
+        [
+          "Attaché au mât, Ulysse est plus libre que s’il avait été délié : il entend le chant sans lui obéir.",
+          "Conclusion · retour à la scène"
+        ],
+        [
+          "Mais qui nous dira, le jour où nous voudrons rompre, si c’est la raison ou la sirène qui parle ?",
+          "Conclusion · le reste en question"
+        ]
+      ]
     ]
-   ]
-  ],
-  [
-   "I. CE QUE L’ENGAGEMENT FERME",
-   [
-    [
-     "S’engager, c’est renoncer à sa liberté, car c’est s’interdire d’avance ce qu’on pourrait vouloir demain.",
-     "I.1 Établir la première réponse"
-    ],
-    [
-     "Cette réponse sauve ce que l’on sent en signant un contrat ou en prononçant un vœu : quelque chose se ferme.",
-     "I.1 Ce qu’elle sauve"
-    ],
-    [
-     "Être libre, c’est pouvoir choisir entre des possibles ouverts ; or s’engager, c’est retirer de ces possibles tous ceux que l’engagement exclut.",
-     "I.2 La fonder par une définition"
-    ],
-    [
-     "L’engagement retire donc une part de la liberté, et il la retire volontairement : c’est la définition même d’une renonciation.",
-     "I.2 L’inférence décisive"
-    ],
-    [
-     "Ce fondement établit que l’engagement réduit les possibles et lie le choix futur.",
-     "I.3 L’éprouver : ce qu’il établit"
-    ],
-    [
-     "Mais il mesure la liberté au nombre des possibles ouverts, et à cette mesure tout choix, qui en ferme d’autres, serait déjà une renonciation : choisir un métier, ce serait renoncer à la liberté d’exercer tous les autres.",
-     "I.3 Ce qu’il ne permet pas encore, et pourquoi : le fondement retourné contre lui-même"
-    ],
-    [
-     "Celui qui ne s’engage jamais choisit aussi, et ferme aussi des possibles ; il n’est pas plus libre pour autant.",
-     "I.3 Le cas qui le montre"
-    ],
-    [
-     "La réduction des possibles ne permet donc pas encore d’établir que s’engager soit renoncer à sa liberté, parce qu’à cette mesure tout choix en serait déjà une.",
-     "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"
-    ],
-    [
-     "S’engager réduit les possibles ; mais cela ne prouve pas une renonciation, parce qu’à cette mesure tout choix en serait une. Il faut donc examiner la liberté non dans les possibles qu’elle garde, mais dans ce qu’elle fait : une volonté qui se donne une règle n’est-elle pas plus libre que celle qui garde tout ouvert ?",
-     "Transition · l’examen nécessaire, en question"
-    ]
-   ]
-  ],
-  [
-   "II. UNE LIBERTÉ QUI SE DONNE SA RÈGLE",
-   [
-    [
-     "Une volonté qui se donne une règle est plus libre que celle qui garde tout ouvert, et s’engager, c’est précisément se donner une règle : loin d’y renoncer, on exerce alors sa liberté.",
-     "II.1 La seconde réponse, qui répond à l’examen demandé"
-    ],
-    [
-     "Elle ne nie pas que l’engagement ferme des possibles ; elle montre qu’il les ferme pour faire quelque chose.",
-     "II.1 Ce qu’elle conserve"
-    ],
-    [
-     "Être libre, c’est être l’auteur de sa conduite, non le jouet de chaque désir ; et l’on n’est l’auteur d’une conduite que si elle suit une règle qu’on se donne.",
-     "II.2 La fonder : la liberté comme autonomie"
-    ],
-    [
-     "Celui qui s’engage donne à sa volonté ce que Nietzsche appelle « une véritable mémoire de la volonté » : il veut encore demain ce qu’il a voulu aujourd’hui, et c’est par là qu’il agit au lieu d’être agi.",
-     "II.2 L’inférence décisive ; citation qui nomme ce que fait l’engagement"
-    ],
-    [
-     "Cette raison établit que l’engagement est un acte de liberté : une volonté qui se donne une règle.",
-     "II.3 L’éprouver : ce qu’elle établit"
-    ],
-    [
-     "Mais elle fonde cette liberté sur la règle qu’on se donne au moment de s’engager, et la force d’un engagement est de lier une volonté future qui peut avoir changé : entre la promesse et l’acte peuvent s’interposer des « volitions nouvelles et étrangères ».",
-     "II.3 Ce qu’elle ne permet pas encore, et pourquoi"
-    ],
-    [
-     "Ulysse au mât ne veut plus ce qu’il a voulu ; ses liens sont ceux d’un homme qui avait choisi, et ils tiennent un homme qui ne choisit plus.",
-     "II.3 Le cas qui l’éprouve : un autre geste qu’en I.3"
-    ],
-    [
-     "L’autonomie de celui qui s’engage ne permet donc pas encore d’établir que reste libre celui qui, plus tard, ne veut plus ce qu’il a promis.",
-     "II.3 Ce que la seconde réponse ne permet pas encore"
-    ],
-    [
-     "L’engagement ferme des possibles, et il est un acte libre ; mais les deux réponses s’affrontent au moment où l’on veut rompre : pour l’une, la liberté est dans la volonté présente qui veut être déliée ; pour l’autre, dans la volonté passée qui s’est liée. Dire qu’Ulysse était libre en donnant l’ordre et ne l’est plus en suppliant ne tranche rien, puisque ce sont deux volontés du même homme : laquelle est donc libre, et à quoi le reconnaît-on ?",
-     "Transition · pourquoi leur partage échoue, et ce qui reste à établir, en question"
-    ]
-   ]
-  ],
-  [
-   "III. CE QUI PARLE QUAND ON VEUT ROMPRE",
-   [
-    [
-     "Pour savoir quelle volonté est libre, il faut distinguer deux manières de ne plus vouloir ce qu’on a promis : réviser sa règle pour des raisons qu’on peut examiner, ou être emporté par ce qui ôte le pouvoir d’examiner.",
-     "III.1 L’opération que la difficulté exige : une distinction"
-    ],
-    [
-     "La première est encore un jugement ; la seconde est une capture.",
-     "III.1 Ce que la distinction sépare"
-    ],
-    [
-     "Ce n’est donc pas le nombre des possibles, ni la date d’une volonté, qui fait sa liberté : c’est le pouvoir de juger qu’elle conserve.",
-     "III.2 La démontrer : la prémisse nouvelle"
-    ],
-    [
-     "Cette distinction conserve les deux réponses : l’engagement ferme des possibles, et il est l’œuvre d’une volonté qui se donne une règle.",
-     "III.2 Ce qu’elle conserve"
-    ],
-    [
-     "Elle explique aussi leurs arrêts : la première réponse comptait des possibles au lieu de regarder le pouvoir de juger, et la seconde ne savait que faire de la volonté future parce qu’une volonté n’est pas libre du seul fait qu’elle est présente.",
-     "III.2 Ce qu’elle explique"
-    ],
-    [
-     "S’engager n’est donc pas renoncer à sa liberté, si l’engagement protège le jugement contre ce qui le capturerait et laisse ouverte sa révision par des raisons ; il ne devient renonciation que lorsqu’il interdit de juger.",
-     "III.3 La réponse au sujet, avec son opérateur"
-    ],
-    [
-     "La supplication d’Ulysse est celle d’un homme charmé, non d’un homme qui a de nouvelles raisons : ses compagnons ont raison de serrer ses liens, et c’est ainsi qu’il reste libre.",
-     "III.3 La réponse vérifiée sur le cas"
-    ],
-    [
-     "Reste que, au moment où l’on veut rompre, c’est la volonté elle-même qui doit dire si elle juge ou si elle est emportée, et qu’elle peut se tromper.",
-     "III.3 Le reste : ce que cette réponse ne règle pas"
-    ]
-   ]
-  ],
-  [
-   "CONCLUSION",
-   [
-    [
-     "S’engager n’est pas renoncer à sa liberté, mais la garder contre ce qui pourrait l’emporter, pourvu que l’engagement laisse place aux raisons qui permettraient de le réviser.",
-     "Conclusion · la réponse, avec l’opérateur"
-    ],
-    [
-     "Attaché au mât, Ulysse est plus libre que s’il avait été délié : il entend le chant sans lui obéir.",
-     "Conclusion · retour à la scène"
-    ],
-    [
-     "Mais qui nous dira, le jour où nous voudrons rompre, si c’est la raison ou la sirène qui parle ?",
-     "Conclusion · le reste en question"
-    ]
-   ]
   ]
- ]
 }

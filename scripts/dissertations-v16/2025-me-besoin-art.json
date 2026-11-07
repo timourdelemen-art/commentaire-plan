@@ -1,274 +1,277 @@
 {
- "id": "2025-me-besoin-art",
- "subject": "Avons-nous besoin d’art ?",
- "notion": "L’art",
- "fiche": {
-  "operateur": "nécessité (« avons-nous besoin ») : l’art est-il une condition sans laquelle notre vie manque de quelque chose d’essentiel ; question descriptive.",
-  "sens": "besoin : (1) ce sans quoi on ne peut survivre ; (2) ce sans quoi une vie humaine est privée de quelque chose qu’aucun autre bien ne remplace. art : les œuvres et les pratiques des beaux-arts. nous : les hommes, non tel individu.",
-  "substitutions_interdites": "besoin ≠ goût ; art ≠ divertissement ; nous ≠ les amateurs d’art.",
-  "verrou": "Oui : établir que l’art répond à un besoin, et que ce besoin ne serait pas satisfait autrement. Non : établir qu’on peut vivre sans lui sans rien perdre d’irremplaçable. Glissements interdits : du besoin vital au besoin humain sans l’annoncer ; de « l’art est partout » à « l’art est nécessaire ».",
-  "trois_reponses": "Spontanée : non, ce n’est pas un besoin vital. Contraire : oui, l’homme a besoin de beauté et de sens. Conciliation : pas pour vivre, mais pour bien vivre.",
-  "conciliation_1_8bis": "Partage vivre / bien vivre. Elle hésite sur Terezín : des prisonniers privés de tout, à qui manquait le vivre lui-même, répètent le Requiem de Verdi ; leur besoin relevait-il du vivre ou du bien vivre ? elle se tait.",
-  "brouillon": {
-   "a": "Non : on survit sans art ; les arts d’agrément sont venus après ceux du nécessaire.",
-   "b": "Cela vaut du besoin vital ; mais l’art apparaît là même où le nécessaire manque, ce que cette raison ne peut expliquer.",
-   "c": "Il faut examiner à quel besoin l’art répond, s’il en existe un qui ne soit pas vital.",
-   "d": "Il répond au besoin de donner forme à ce que nous vivons ; mais d’autres activités y répondent aussi.",
-   "e": "L’une nie le besoin, l’autre l’affirme sans montrer que l’art soit irremplaçable ; il reste à dire ce que l’art seul accomplit."
+  "id": "2025-me-besoin-art",
+  "subject": "Avons-nous besoin d’art ?",
+  "notion": "L’art",
+  "fiche": {
+    "operateur": "nécessité (« avons-nous besoin ») : l’art est-il une condition sans laquelle notre vie manque de quelque chose d’essentiel ; question descriptive.",
+    "sens": "besoin : (1) ce sans quoi on ne peut survivre ; (2) ce sans quoi une vie humaine est privée de quelque chose qu’aucun autre bien ne remplace. art : les œuvres et les pratiques des beaux-arts. nous : les hommes, non tel individu.",
+    "substitutions_interdites": "besoin ≠ goût ; art ≠ divertissement ; nous ≠ les amateurs d’art.",
+    "verrou": "Oui : établir que l’art répond à un besoin, et que ce besoin ne serait pas satisfait autrement. Non : établir qu’on peut vivre sans lui sans rien perdre d’irremplaçable. Glissements interdits : du besoin vital au besoin humain sans l’annoncer ; de « l’art est partout » à « l’art est nécessaire ».",
+    "trois_reponses": "Spontanée : non, ce n’est pas un besoin vital. Contraire : oui, l’homme a besoin de beauté et de sens. Conciliation : pas pour vivre, mais pour bien vivre.",
+    "conciliation_1_8bis": "Partage vivre / bien vivre. Elle hésite sur Terezín : des prisonniers privés de tout, à qui manquait le vivre lui-même, répètent le Requiem de Verdi ; leur besoin relevait-il du vivre ou du bien vivre ? elle se tait.",
+    "brouillon": {
+      "a": "Non : on survit sans art ; les arts d’agrément sont venus après ceux du nécessaire.",
+      "b": "Cela vaut du besoin vital ; mais l’art apparaît là même où le nécessaire manque, ce que cette raison ne peut expliquer.",
+      "c": "Il faut examiner à quel besoin l’art répond, s’il en existe un qui ne soit pas vital.",
+      "d": "Il répond au besoin de donner forme à ce que nous vivons ; mais d’autres activités y répondent aussi.",
+      "e": "L’une nie le besoin, l’autre l’affirme sans montrer que l’art soit irremplaçable ; il reste à dire ce que l’art seul accomplit."
+    },
+    "A": "Nous n’avons pas besoin d’art : on peut vivre sans lui.",
+    "FA": "Genèse (III.3). 1. Un besoin est un manque dont la satisfaction conditionne la vie (E : définition, sens 1). 2. On survit sans art, et les arts d’agrément sont venus après ceux du nécessaire, là où l’on avait du loisir (E : fait historique, attesté chez Aristote, Métaphysique A, 1). Donc l’art n’est pas un besoin.",
+    "XA": "L’art n’est pas un besoin vital : on survit sans lui.",
+    "YA": "Pourquoi l’art se rencontre là même où le nécessaire n’est pas assuré.",
+    "ZA": "FA mesure le besoin à la survie ; il ne peut rendre compte d’une activité universelle qui ne sert pas à survivre.",
+    "type_LA": "insuffisance explicative",
+    "LA": "Que l’on survive sans art ne permet donc pas encore d’expliquer pourquoi des hommes s’y adonnent là même où manque le nécessaire, parce qu’on ne mesure le besoin qu’à la survie.",
+    "six_LA": "Mesure : XA écrit. Filiation : prémisse 1. Meilleur cas : les grottes ornées, peintes par des hommes qui ne mangeaient pas à leur faim. Absorption : FA dirait « c’est un luxe qu’on s’accorde » ; un luxe ne se paie pas du pain qu’on n’a pas. Non-lacune : oui. Calibration : oui.",
+    "T1": "Nous avons établi qu’on survit sans art ; mais cela n’explique pas pourquoi l’art apparaît là où manque le nécessaire, parce qu’on mesure le besoin à la survie ; il faut donc examiner à quel besoin il répond (W : la cause de l’inexpliqué).",
+    "B": "Nous avons besoin d’art : il répond au besoin de donner forme à ce que nous vivons. B conserve XA.",
+    "FB": "Fin (III.3). 1. L’homme ne se contente pas d’éprouver : il cherche à voir et à reconnaître ce qu’il éprouve (E). 2. Ce qu’on voit hors de soi, on peut le supporter et le comprendre mieux que ce qu’on subit (E). 3. L’art donne une forme visible ou audible à ce que nous éprouvons (E). Donc il répond à un besoin proprement humain. Indépendance : vaut sans LA. Principe propre : le besoin de forme.",
+    "XB": "L’art répond à un besoin proprement humain : donner forme à ce que nous éprouvons, et par là le supporter et le comprendre.",
+    "YB": "Que ce besoin réclame l’art, et non une autre forme.",
+    "ZB": "FB fonde le besoin sur une fonction, donner forme à l’expérience, que d’autres activités remplissent aussi : le récit, le rite, la philosophie.",
+    "type_LB": "portée insuffisante",
+    "LB": "Le besoin de donner forme à ce que nous vivons ne permet donc pas encore d’établir que nous ayons besoin d’art, parce que d’autres formes y répondent aussi.",
+    "six_LB": "Mesure : XB écrit. Filiation : prémisse 3 (une fonction n’est pas propre à son organe). Meilleur cas : la confidence, le journal, la prière donnent forme à la douleur. Absorption : FB dirait « tout cela est de l’art » ; c’est étendre le mot. Non-lacune : oui. Calibration : oui. Mécanisme : test de l’ajout, différent de I.3.",
+    "T2": "Bilan : XA, XB. ρ : critère manquant — FA nie le besoin en le mesurant à la survie, FB l’affirme sans montrer qu’il réclame l’art ; aucun ne dit ce que l’art seul accomplit. D : établir ce que l’art seul accomplit, de sorte que le besoin qu’il satisfait soit irremplaçable. Cumul : « pas pour vivre, mais pour bien vivre » échoue sur Terezín (le cumul ne répond pas avec l’opérateur sur le cas). Classe : décision.",
+    "epreuves": "1. Contre-exemple : des sociétés sans art distinct ; elles ont des chants, des ornements : confirme XB. 2. Meilleur cas : survit. 3. Cumul : échec écrit. 4. Antériorité : l’idée esthétique de Kant (ce qui donne à penser sans qu’aucun concept lui soit adéquat) est une opération réelle : candidat de III, transposé.",
+    "soupcon_aporie": "aucun indice ; régime ordinaire.",
+    "chemins_echoues": "Chemin aporétique de l’ancienne copie (P5 : pour vivre humainement, n’avons-nous pas besoin de l’art ? mais si nous en avons besoin, est-il encore libre ?) : condition renversée affirmée sans module ; écarté.",
+    "dictionnaire": "non consulté.",
+    "phrase_mouvement": "A, parce que le besoin conditionne la survie et qu’on survit sans art, établit que l’art n’est pas vital ; mais n’explique pas sa présence là où manque le nécessaire ; il faut donc examiner à quel besoin il répond. B, parce que l’homme cherche à voir ce qu’il éprouve, établit un besoin de forme ; mais non qu’il réclame l’art. Or aucun ne dit ce que l’art seul accomplit ; il reste à l’établir.",
+    "probleme_directeur": "Avons-nous besoin d’art, s’il ne sert pas à survivre et si d’autres formes donnent aussi forme à ce que nous vivons ?",
+    "problematique": "Si nous pouvons vivre sans œuvres d’art, mais si elles nous aident à donner forme et à partager ce que nous éprouvons, avons-nous besoin d’art, alors que d’autres pratiques remplissent aussi certaines de ces fonctions ?",
+    "forme_problematique": "G3 (acquis et contre-acquis en protases, interrogation qui garde « avons-nous besoin » et porte sur ce qui reste à établir). Reconstruction : on part de la survie, on bute sur l’art dans le dénuement, on cherche le besoin, on bute sur sa généralité ; la III doit dire ce que l’art seul fait. Relecture : besoin non radicalisé.",
+    "critere": "Distinguer besoin vital, aspiration humaine et nécessité individuelle ; expliquer la puissance de l'art sans lui attribuer un monopole non démontré.",
+    "contrainte_scene": "montrer des hommes privés du nécessaire qui se tournent vers l’art.",
+    "III": {
+      "operation": "Établir un besoin humain non vital sans prétendre que sa satisfaction soit exclusivement artistique.",
+      "III1": "Distinguer l'indispensable à la survie et les besoins durables d'expression, de sensibilité et de partage, dont l'art constitue une réponse propre mais non exclusive.",
+      "III2": "L'art produit des formes sensibles à interprétations ouvertes ; la spécificité esthétique doit être décrite sans prétendre que le récit, le rite ou le langage ne peuvent jamais produire de partage semblable.",
+      "III3": "L'art peut répondre à un besoin humain profond sans être nécessaire à chaque individu ni le seul moyen de satisfaire ce besoin ; le reste porte sur les conditions qui permettent l'accès à une expérience artistique non instrumentalisée.",
+      "tests": "Cas Terezín : un exemple de la force possible de la musique, pas une preuve de nécessité universelle ni de l'exclusivité de l'art. Tester contre des formes non artistiques de partage ; rejeter toute inférence du cas individuel à une essence humaine universelle."
+    },
+    "candidats_III": [
+      {
+        "id": "retenue",
+        "operation": "Établir un besoin humain non vital sans prétendre que sa satisfaction soit exclusivement artistique.",
+        "proposition": "Distinguer l'indispensable à la survie et les besoins durables d'expression, de sensibilité et de partage, dont l'art constitue une réponse propre mais non exclusive.",
+        "verdict": "retenue",
+        "raison": "Dit ce que l’art seul accomplit, conserve les deux acquis, décide Terezín."
+      },
+      {
+        "id": "partage",
+        "operation": "Partage",
+        "proposition": "Pas pour vivre, mais pour bien vivre.",
+        "verdict": "écartée",
+        "raison": "C’est la conciliation, qui échoue sur Terezín."
+      },
+      {
+        "id": "liberte",
+        "operation": "Condition",
+        "proposition": "Nous avons besoin d’art pour rester libres.",
+        "verdict": "dominée",
+        "raison": "Vrai de certains usages, mais ne dit pas ce que l’art seul fait."
+      },
+      {
+        "id": "divertissement",
+        "operation": "Explication",
+        "proposition": "L’art répond au besoin de se divertir.",
+        "verdict": "écartée",
+        "raison": "Explique le loisir, non le Requiem."
+      }
+    ],
+    "generateur": "figure : la frontière ; registre opératoire : critique ; registre de lecture : par cas ; branches B1 ; annonce N1.",
+    "scene": "Terezín (Theresienstadt), 1943-1944 : le chef de chœur Rafael Schächter fait répéter le Requiem de Verdi à des prisonniers, qui le chantent seize fois ; le chœur est sans cesse décimé par les déportations ; la dernière représentation, en juin 1944, est donnée devant une délégation de la Croix-Rouge que les nazis veulent tromper. Verdict : homologue. Retour : ce que le chant faisait que rien d’autre ne faisait, et ce qu’on en a fait.",
+    "statut": {
+      "problematique": "suffisamment justifiée",
+      "copie": "état de travail (architecture expérimentale)"
+    },
+    "ouvertures_de_pensee": {
+      "I": "L'art peut ainsi apparaître comme superflu sans être inutile : il échappe à la mesure des besoins qui conditionnent directement la survie.",
+      "II": "Le besoin de donner forme à ce que nous vivons fait apparaître une autre mesure de l'existence humaine : survivre ne suffit pas à décrire tout ce que nous cherchons à éprouver et à partager.",
+      "III": "Nous pouvons désormais comprendre la valeur singulière de l'art sans lui attribuer un monopole : une œuvre fait éprouver ensemble une expérience dont le sens demeure ouvert à plusieurs interprétations.",
+      "statut": "Hypothèses établies à la mesure de leurs preuves ; ne pas transformer une possibilité en certitude."
+    }
   },
-  "A": "Nous n’avons pas besoin d’art : on peut vivre sans lui.",
-  "FA": "Genèse (III.3). 1. Un besoin est un manque dont la satisfaction conditionne la vie (E : définition, sens 1). 2. On survit sans art, et les arts d’agrément sont venus après ceux du nécessaire, là où l’on avait du loisir (E : fait historique, attesté chez Aristote, Métaphysique A, 1). Donc l’art n’est pas un besoin.",
-  "XA": "L’art n’est pas un besoin vital : on survit sans lui.",
-  "YA": "Pourquoi l’art se rencontre là même où le nécessaire n’est pas assuré.",
-  "ZA": "FA mesure le besoin à la survie ; il ne peut rendre compte d’une activité universelle qui ne sert pas à survivre.",
-  "type_LA": "insuffisance explicative",
-  "LA": "Que l’on survive sans art ne permet donc pas encore d’expliquer pourquoi des hommes s’y adonnent là même où manque le nécessaire, parce qu’on ne mesure le besoin qu’à la survie.",
-  "six_LA": "Mesure : XA écrit. Filiation : prémisse 1. Meilleur cas : les grottes ornées, peintes par des hommes qui ne mangeaient pas à leur faim. Absorption : FA dirait « c’est un luxe qu’on s’accorde » ; un luxe ne se paie pas du pain qu’on n’a pas. Non-lacune : oui. Calibration : oui.",
-  "T1": "Nous avons établi qu’on survit sans art ; mais cela n’explique pas pourquoi l’art apparaît là où manque le nécessaire, parce qu’on mesure le besoin à la survie ; il faut donc examiner à quel besoin il répond (W : la cause de l’inexpliqué).",
-  "B": "Nous avons besoin d’art : il répond au besoin de donner forme à ce que nous vivons. B conserve XA.",
-  "FB": "Fin (III.3). 1. L’homme ne se contente pas d’éprouver : il cherche à voir et à reconnaître ce qu’il éprouve (E). 2. Ce qu’on voit hors de soi, on peut le supporter et le comprendre mieux que ce qu’on subit (E). 3. L’art donne une forme visible ou audible à ce que nous éprouvons (E). Donc il répond à un besoin proprement humain. Indépendance : vaut sans LA. Principe propre : le besoin de forme.",
-  "XB": "L’art répond à un besoin proprement humain : donner forme à ce que nous éprouvons, et par là le supporter et le comprendre.",
-  "YB": "Que ce besoin réclame l’art, et non une autre forme.",
-  "ZB": "FB fonde le besoin sur une fonction, donner forme à l’expérience, que d’autres activités remplissent aussi : le récit, le rite, la philosophie.",
-  "type_LB": "portée insuffisante",
-  "LB": "Le besoin de donner forme à ce que nous vivons ne permet donc pas encore d’établir que nous ayons besoin d’art, parce que d’autres formes y répondent aussi.",
-  "six_LB": "Mesure : XB écrit. Filiation : prémisse 3 (une fonction n’est pas propre à son organe). Meilleur cas : la confidence, le journal, la prière donnent forme à la douleur. Absorption : FB dirait « tout cela est de l’art » ; c’est étendre le mot. Non-lacune : oui. Calibration : oui. Mécanisme : test de l’ajout, différent de I.3.",
-  "T2": "Bilan : XA, XB. ρ : critère manquant — FA nie le besoin en le mesurant à la survie, FB l’affirme sans montrer qu’il réclame l’art ; aucun ne dit ce que l’art seul accomplit. D : établir ce que l’art seul accomplit, de sorte que le besoin qu’il satisfait soit irremplaçable. Cumul : « pas pour vivre, mais pour bien vivre » échoue sur Terezín (le cumul ne répond pas avec l’opérateur sur le cas). Classe : décision.",
-  "epreuves": "1. Contre-exemple : des sociétés sans art distinct ; elles ont des chants, des ornements : confirme XB. 2. Meilleur cas : survit. 3. Cumul : échec écrit. 4. Antériorité : l’idée esthétique de Kant (ce qui donne à penser sans qu’aucun concept lui soit adéquat) est une opération réelle : candidat de III, transposé.",
-  "soupcon_aporie": "aucun indice ; régime ordinaire.",
-  "chemins_echoues": "Chemin aporétique de l’ancienne copie (P5 : pour vivre humainement, n’avons-nous pas besoin de l’art ? mais si nous en avons besoin, est-il encore libre ?) : condition renversée affirmée sans module ; écarté.",
-  "dictionnaire": "non consulté.",
-  "phrase_mouvement": "A, parce que le besoin conditionne la survie et qu’on survit sans art, établit que l’art n’est pas vital ; mais n’explique pas sa présence là où manque le nécessaire ; il faut donc examiner à quel besoin il répond. B, parce que l’homme cherche à voir ce qu’il éprouve, établit un besoin de forme ; mais non qu’il réclame l’art. Or aucun ne dit ce que l’art seul accomplit ; il reste à l’établir.",
-  "probleme_directeur": "Avons-nous besoin d’art, s’il ne sert pas à survivre et si d’autres formes donnent aussi forme à ce que nous vivons ?",
-  "problematique": "Si l’on survit sans art, mais que des hommes privés de tout chantent encore, avons-nous besoin d’art, quand d’autres paroles donnent aussi forme à ce que nous vivons ?",
-  "forme_problematique": "G3 (acquis et contre-acquis en protases, interrogation qui garde « avons-nous besoin » et porte sur ce qui reste à établir). Reconstruction : on part de la survie, on bute sur l’art dans le dénuement, on cherche le besoin, on bute sur sa généralité ; la III doit dire ce que l’art seul fait. Relecture : besoin non radicalisé.",
-  "critere": "Sur le Requiem de Terezín, une solution devra dire si les prisonniers avaient besoin d’art, conserver que l’art n’est pas vital et qu’il répond au besoin de donner forme, expliquer les deux arrêts, et dire ce que l’art seul accomplissait.",
-  "contrainte_scene": "montrer des hommes privés du nécessaire qui se tournent vers l’art.",
-  "III": {
-   "operation": "critère (III.7 a) : l’art seul donne à une expérience une forme partageable sans en fixer le sens.",
-   "III1": "L’art seul donne à une expérience une forme qui la rend partageable sans la réduire à un concept : le récit l’explique, le rite la règle, la philosophie la pense ; l’œuvre la donne à éprouver ensemble.",
-   "III2": "Conserve XA (ce n’est pas un besoin vital) et XB (c’est un besoin de forme) ; explique LA (on mesurait le besoin à la survie, alors qu’il porte sur le partage de ce qu’on ne peut dire) et LB (les autres formes fixent un sens, l’œuvre le laisse ouvert).",
-   "III3": "Nous avons besoin d’art, non pour vivre, mais pour partager ce qu’aucun concept ne fixe ; vérifié sur Terezín. Reste : la même forme peut être détournée.",
-   "tests": "Cas témoin : à Terezín, aucun discours ne pouvait dire aux prisonniers ce que leur chant disait à leur place, et tous pouvaient le chanter ensemble ; ni A, ni B, ni le partage vivre / bien vivre ne le disaient. Second cas : le chant funèbre, qui fait partager un deuil sans l’expliquer. Restitution : oui. Rechute : le reste (le détournement) ne redit ni LA ni LB. Test propre : critère défini indépendamment des deux thèses. Report : non. Acquis nouveau : prémisse nouvelle — il existe une communication sans concept, que l’œuvre seule accomplit ; nécessaire à la décision."
-  },
-  "candidats_III": [
-   {
-    "id": "retenue",
-    "operation": "Critère",
-    "proposition": "L’art seul donne à une expérience une forme partageable sans en fixer le sens.",
-    "verdict": "retenue",
-    "raison": "Dit ce que l’art seul accomplit, conserve les deux acquis, décide Terezín."
-   },
-   {
-    "id": "partage",
-    "operation": "Partage",
-    "proposition": "Pas pour vivre, mais pour bien vivre.",
-    "verdict": "écartée",
-    "raison": "C’est la conciliation, qui échoue sur Terezín."
-   },
-   {
-    "id": "liberte",
-    "operation": "Condition",
-    "proposition": "Nous avons besoin d’art pour rester libres.",
-    "verdict": "dominée",
-    "raison": "Vrai de certains usages, mais ne dit pas ce que l’art seul fait."
-   },
-   {
-    "id": "divertissement",
-    "operation": "Explication",
-    "proposition": "L’art répond au besoin de se divertir.",
-    "verdict": "écartée",
-    "raison": "Explique le loisir, non le Requiem."
-   }
-  ],
-  "generateur": "figure : la frontière ; registre opératoire : critique ; registre de lecture : par cas ; branches B1 ; annonce N1.",
-  "scene": "Terezín (Theresienstadt), 1943-1944 : le chef de chœur Rafael Schächter fait répéter le Requiem de Verdi à des prisonniers, qui le chantent seize fois ; le chœur est sans cesse décimé par les déportations ; la dernière représentation, en juin 1944, est donnée devant une délégation de la Croix-Rouge que les nazis veulent tromper. Verdict : homologue. Retour : ce que le chant faisait que rien d’autre ne faisait, et ce qu’on en a fait.",
-  "statut": {
-   "problematique": "suffisamment justifiée",
-   "copie": "état de travail (architecture expérimentale)"
-  }
- },
- "citations": [
-  {
-   "texte": "cette représentation de l’imagination qui donne beaucoup à penser, sans que toutefois aucune pensée déterminée, c’est-à-dire aucun concept, ne puisse lui être adéquate",
-   "auteur": "Kant",
-   "oeuvre": "Critique de la faculté de juger",
-   "lieu": "§ 49",
-   "edition": "trad. Alain Renaut, GF-Flammarion",
-   "verification": "œuvre fournie, passage retrouvé mot pour mot",
-   "regime": "citation exacte, opération transposée (Kant parle de l’Idée esthétique ; la III en tire ce que l’œuvre fait partager)",
-   "fonction": "III.1 : donner la formule exacte de ce qui distingue l’œuvre ; la III établit la différence avec les autres formes sans son autorité."
-  }
- ],
- "copy": [
-  [
-   "INTRODUCTION",
-   [
+  "citations": [],
+  "copy": [
     [
-     "En 1943, dans le ghetto de Terezín, le chef de chœur Rafael Schächter fait répéter le Requiem de Verdi à des prisonniers affamés, avec une seule partition et un piano sans pieds.",
-     "Introduction · la scène"
+      "INTRODUCTION",
+      [
+        [
+          "En 1943, dans le ghetto de Terezín, le chef de chœur Rafael Schächter fait répéter le Requiem de Verdi à des prisonniers affamés, avec une seule partition et un piano sans pieds.",
+          "Introduction · la scène"
+        ],
+        [
+          "Les déportations vident le chœur à mesure qu’il se reforme, et ils le chantent pourtant seize fois.",
+          "Introduction · la scène : la persistance"
+        ],
+        [
+          "Il leur manquait le pain, la sécurité, la liberté ; ils ont trouvé encore la force de chanter.",
+          "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"
+        ],
+        [
+          "Avoir besoin d’art, ce n’est pas seulement l’aimer : c’est ne pouvoir s’en passer sans perdre quelque chose qu’aucun autre bien ne remplace.",
+          "Introduction · les mots du sujet"
+        ],
+        [
+          "On peut survivre sans art, mais l’homme cherche à donner forme à ce qu’il vit. Encore faut-il comprendre pourquoi cette forme devrait être artistique plutôt qu’une autre.",
+          "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"
+        ],
+        [
+          "Si nous pouvons vivre sans œuvres d’art, mais si elles nous aident à donner forme et à partager ce que nous éprouvons, avons-nous besoin d’art, alors que d’autres pratiques remplissent aussi certaines de ces fonctions ?",
+          "Introduction · la problématique : une seule question, qui garde « avons-nous besoin »"
+        ],
+        [
+          "Nous distinguerons les besoins de la survie, le besoin de donner forme à l’expérience, puis ce qu’une œuvre rend partageable.",
+          "Introduction · l’annonce"
+        ]
+      ]
     ],
     [
-     "Les déportations vident le chœur à mesure qu’il se reforme, et ils le chantent pourtant seize fois.",
-     "Introduction · la scène : la persistance"
+      "I. ON VIT SANS ART",
+      [
+        [
+          "Nous n’avons pas besoin d’art, car on peut vivre sans lui.",
+          "I.1 Ouvrir une première manière de penser"
+        ],
+        [
+          "Cette réponse sauve une hiérarchie que la misère rappelle : le pain avant la musique.",
+          "I.1 Ce qu’elle sauve"
+        ],
+        [
+          "Un besoin est un manque dont la satisfaction conditionne la vie : la faim, le froid, la maladie ; or on survit sans tableaux ni symphonies.",
+          "I.2 La fonder par une définition"
+        ],
+        [
+          "Les arts d’agrément sont d’ailleurs venus après ceux du nécessaire, chez les peuples qui avaient du loisir : l’art n’est donc pas un besoin, mais ce qu’on s’accorde quand les besoins sont satisfaits.",
+          "I.2 L’inférence décisive, par la genèse"
+        ],
+        [
+          "L'art peut ainsi apparaître comme superflu sans être inutile : il échappe à la mesure des besoins qui conditionnent directement la survie.",
+          "I.2 Ce que la preuve ouvre"
+        ],
+        [
+          "Ce fondement établit que l’art n’est pas un besoin vital : on survit sans lui.",
+          "I.3 L’éprouver : ce qu’il établit"
+        ],
+        [
+          "Mais il mesure le besoin à la survie, et ne peut rendre compte d’une activité qui se rencontre partout sans servir à survivre : les hommes qui peignaient les grottes ne mangeaient pas toujours à leur faim.",
+          "I.3 Ce qu’il ne permet pas encore, et pourquoi"
+        ],
+        [
+          "Les choristes de Terezín ne s’accordaient pas un luxe : ils chantaient avec l’énergie qui leur manquait pour vivre.",
+          "I.3 Sur la scène"
+        ],
+        [
+          "Que l’on survive sans art ne permet donc pas encore d’expliquer pourquoi des hommes s’y adonnent là même où manque le nécessaire, parce qu’on ne mesure le besoin qu’à la survie.",
+          "I.3 La portée et le manque du premier fondement"
+        ],
+        [
+          "L’art n’est pas indispensable à la survie, mais cela ne dit pas de quoi une vie humaine a besoin. Pourquoi donner forme à ce que nous éprouvons ?",
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
+        ]
+      ]
     ],
     [
-     "Il leur manquait le pain, la sécurité, la liberté ; ils ont trouvé encore la force de chanter.",
-     "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"
+      "II. DONNER FORME À CE QUE NOUS VIVONS",
+      [
+        [
+          "Il y a chez l’homme des besoins qui ne servent pas à survivre, et l’art répond à l’un d’eux : celui de donner forme à ce que nous éprouvons.",
+          "II.1 Ouvrir une autre manière de penser"
+        ],
+        [
+          "Elle ne nie pas qu’on survive sans art ; elle cherche ce qui manque à une vie qui survit.",
+          "II.1 Ce qu’elle conserve"
+        ],
+        [
+          "L’homme ne se contente pas d’éprouver : il cherche à voir ce qu’il éprouve, et ce qu’on voit hors de soi, on le supporte et le comprend mieux que ce qu’on subit.",
+          "II.2 La fonder par une fin propre"
+        ],
+        [
+          "Or l’art donne une forme visible ou audible à ce que nous éprouvons : la terreur et la pitié d’une tragédie, le deuil d’un requiem ; il répond donc à un besoin proprement humain.",
+          "II.2 L’inférence décisive"
+        ],
+        [
+          "Le besoin de donner forme à ce que nous vivons fait apparaître une autre mesure de l'existence humaine : survivre ne suffit pas à décrire tout ce que nous cherchons à éprouver et à partager.",
+          "II.2 La possibilité que la seconde preuve révèle"
+        ],
+        [
+          "Cette raison établit que l’art répond à un besoin proprement humain : donner forme à ce que nous éprouvons, et par là le supporter et le comprendre.",
+          "II.3 L’éprouver : ce qu’elle établit"
+        ],
+        [
+          "Mais elle fonde ce besoin sur une fonction, et cette fonction, d’autres activités la remplissent aussi : le récit, la confidence, la prière, la réflexion donnent forme à la douleur.",
+          "II.3 Ce qu’elle ne permet pas encore, et pourquoi : la portée d’une fonction"
+        ],
+        [
+          "À Terezín, on priait aussi, on écrivait des journaux, on se racontait ; pourquoi chanter Verdi ?",
+          "II.3 Sur la scène"
+        ],
+        [
+          "Le besoin de donner forme à ce que nous vivons ne permet donc pas encore d’établir que nous ayons besoin d’art, parce que d’autres formes y répondent aussi.",
+          "II.3 La portée et le manque du second fondement"
+        ],
+        [
+          "Nous pouvons vivre sans art et pourtant avoir besoin de formes pour vivre ensemble. Qu’apporte l’œuvre qu’un simple récit ou un rite ne donne pas ?",
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
+        ]
+      ]
     ],
     [
-     "On attend d’un besoin qu’il soit ce sans quoi la vie manque de quelque chose, mais l’art semble venir après tout ce qui est nécessaire.",
-     "Introduction · l’enjeu"
+      "III. CE QUE L’ŒUVRE FAIT PARTAGER",
+      [
+        [
+          "L'art n'est pas nécessaire à la survie, mais il peut répondre à un besoin humain réel : donner une forme sensible à une expérience et la rendre partageable sans en épuiser le sens.",
+          "III.1 Effectuer le déplacement nécessaire"
+        ],
+        [
+          "Kant décrit une idée esthétique comme une représentation qui donne beaucoup à penser sans qu'aucun concept déterminé puisse lui être adéquat. La richesse d'une œuvre ne se réduit donc pas à une information qu'elle transmet.",
+          "III.1 Citation qui donne la formule exacte"
+        ],
+        [
+          "Cette distinction conserve les deux vérités acquises : on peut survivre sans art, et pourtant éprouver le besoin de transformer ce que l'on vit en formes sensibles.",
+          "III.2 La démontrer : ce qu’il conserve"
+        ],
+        [
+          "Elle explique aussi leurs limites. Le critère de la seule survie méconnaît les besoins d'expression ; mais l'expression ne prouve pas que l'art soit l'unique réponse possible, puisque la parole ordinaire, les rites ou les gestes collectifs peuvent aussi relier des expériences.",
+          "III.2 Ce qu’il explique"
+        ],
+        [
+          "Nous pouvons désormais comprendre la valeur singulière de l'art sans lui attribuer un monopole : une œuvre fait éprouver ensemble une expérience dont le sens demeure ouvert à plusieurs interprétations.",
+          "III.2 Ce que la transformation fait comprendre"
+        ],
+        [
+          "Nous avons ainsi besoin d'art au sens où les œuvres répondent à une aspiration profonde, non au sens où chacun serait incapable de vivre sans elles ou où aucune autre activité ne pourrait nous aider à partager ce que nous vivons.",
+          "III.3 La réponse au sujet, avec son opérateur"
+        ],
+        [
+          "À Terezín, chanter ensemble pouvait offrir aux prisonniers un mode d'expression et de solidarité irremplaçable pour eux dans cette situation ; cette force d'une œuvre singulière ne prouve pas que toute existence humaine exige le même recours.",
+          "III.3 La réponse vérifiée sur le cas"
+        ],
+        [
+          "Reste qu'une œuvre capable de réunir peut aussi être instrumentalisée : son pouvoir de partage ne garantit ni la liberté de ceux qui l'interprètent ni la justice de son usage.",
+          "III.3 Le reste : ce qui demande encore à être pensé"
+        ]
+      ]
     ],
     [
-     "Avoir besoin d’art, ce n’est pas seulement l’aimer : c’est ne pouvoir s’en passer sans perdre quelque chose qu’aucun autre bien ne remplace.",
-     "Introduction · les mots du sujet"
-    ],
-    [
-     "Si l’on répond non, parce qu’on survit sans art, on ne comprend pas qu’il apparaisse là même où manque le nécessaire ; si l’on répond oui, parce qu’il donne forme à ce que nous vivons, on oublie que d’autres paroles le font aussi.",
-     "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"
-    ],
-    [
-     "Si l’on survit sans art, mais que des hommes privés de tout chantent encore, avons-nous besoin d’art, quand d’autres paroles donnent aussi forme à ce que nous vivons ?",
-     "Introduction · la problématique : une seule question, qui garde « avons-nous besoin »"
-    ],
-    [
-     "On examinera d’abord pourquoi l’art paraît superflu, et jusqu’où cette raison porte ; ce qu’elle laisse inexpliqué obligera à chercher à quel besoin il répond ; il faudra alors établir ce que ces deux voies, ensemble, laissent encore ouvert.",
-     "Introduction · l’annonce"
+      "CONCLUSION",
+      [
+        [
+          "Nous pouvons vivre sans art, mais non sans toute possibilité de donner forme et sens à l'expérience. Les œuvres apportent à ce besoin une réponse singulière, sans qu'on puisse en déduire qu'elles sont indispensables à chacun.",
+          "Conclusion · la réponse, avec l’opérateur"
+        ],
+        [
+          "Le chant à Terezín fait sentir la puissance d'une œuvre dans des conditions extrêmes ; il ne transforme pas cette puissance en loi universelle.",
+          "Conclusion · retour à la scène"
+        ],
+        [
+          "Comment préserver la liberté de l'expérience artistique lorsque les œuvres peuvent aussi servir la propagande ?",
+          "Conclusion · le reste en question"
+        ]
+      ]
     ]
-   ]
-  ],
-  [
-   "I. ON VIT SANS ART",
-   [
-    [
-     "Nous n’avons pas besoin d’art, car on peut vivre sans lui.",
-     "I.1 Établir la première réponse"
-    ],
-    [
-     "Cette réponse sauve une hiérarchie que la misère rappelle : le pain avant la musique.",
-     "I.1 Ce qu’elle sauve"
-    ],
-    [
-     "Un besoin est un manque dont la satisfaction conditionne la vie : la faim, le froid, la maladie ; or on survit sans tableaux ni symphonies.",
-     "I.2 La fonder par une définition"
-    ],
-    [
-     "Les arts d’agrément sont d’ailleurs venus après ceux du nécessaire, chez les peuples qui avaient du loisir : l’art n’est donc pas un besoin, mais ce qu’on s’accorde quand les besoins sont satisfaits.",
-     "I.2 L’inférence décisive, par la genèse"
-    ],
-    [
-     "Ce fondement établit que l’art n’est pas un besoin vital : on survit sans lui.",
-     "I.3 L’éprouver : ce qu’il établit"
-    ],
-    [
-     "Mais il mesure le besoin à la survie, et ne peut rendre compte d’une activité qui se rencontre partout sans servir à survivre : les hommes qui peignaient les grottes ne mangeaient pas toujours à leur faim.",
-     "I.3 Ce qu’il ne permet pas encore, et pourquoi"
-    ],
-    [
-     "Les choristes de Terezín ne s’accordaient pas un luxe : ils chantaient avec l’énergie qui leur manquait pour vivre.",
-     "I.3 Sur la scène"
-    ],
-    [
-     "Que l’on survive sans art ne permet donc pas encore d’expliquer pourquoi des hommes s’y adonnent là même où manque le nécessaire, parce qu’on ne mesure le besoin qu’à la survie.",
-     "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"
-    ],
-    [
-     "On survit sans art ; mais cela n’explique pas pourquoi l’art apparaît là où manque le nécessaire, parce qu’on ne mesure le besoin qu’à la survie. Il faut donc examiner à quel besoin l’art répond : n’y a-t-il pas, chez l’homme, des besoins qui ne servent pas à survivre ?",
-     "Transition · l’examen nécessaire, en question"
-    ]
-   ]
-  ],
-  [
-   "II. DONNER FORME À CE QUE NOUS VIVONS",
-   [
-    [
-     "Il y a chez l’homme des besoins qui ne servent pas à survivre, et l’art répond à l’un d’eux : celui de donner forme à ce que nous éprouvons.",
-     "II.1 La seconde réponse, qui répond à l’examen demandé"
-    ],
-    [
-     "Elle ne nie pas qu’on survive sans art ; elle cherche ce qui manque à une vie qui survit.",
-     "II.1 Ce qu’elle conserve"
-    ],
-    [
-     "L’homme ne se contente pas d’éprouver : il cherche à voir ce qu’il éprouve, et ce qu’on voit hors de soi, on le supporte et le comprend mieux que ce qu’on subit.",
-     "II.2 La fonder par une fin propre"
-    ],
-    [
-     "Or l’art donne une forme visible ou audible à ce que nous éprouvons : la terreur et la pitié d’une tragédie, le deuil d’un requiem ; il répond donc à un besoin proprement humain.",
-     "II.2 L’inférence décisive"
-    ],
-    [
-     "Cette raison établit que l’art répond à un besoin proprement humain : donner forme à ce que nous éprouvons, et par là le supporter et le comprendre.",
-     "II.3 L’éprouver : ce qu’elle établit"
-    ],
-    [
-     "Mais elle fonde ce besoin sur une fonction, et cette fonction, d’autres activités la remplissent aussi : le récit, la confidence, la prière, la réflexion donnent forme à la douleur.",
-     "II.3 Ce qu’elle ne permet pas encore, et pourquoi : la portée d’une fonction"
-    ],
-    [
-     "À Terezín, on priait aussi, on écrivait des journaux, on se racontait ; pourquoi chanter Verdi ?",
-     "II.3 Sur la scène"
-    ],
-    [
-     "Le besoin de donner forme à ce que nous vivons ne permet donc pas encore d’établir que nous ayons besoin d’art, parce que d’autres formes y répondent aussi.",
-     "II.3 Ce que la seconde réponse ne permet pas encore"
-    ],
-    [
-     "On survit sans art, et l’homme a besoin de donner forme à ce qu’il vit ; mais la première réponse nie le besoin en le mesurant à la survie, la seconde l’affirme sans montrer qu’il réclame l’art plutôt qu’autre chose. Distinguer le vivre et le bien vivre ne dit rien des choristes de Terezín, à qui manquait le vivre même : qu’est-ce donc que l’art seul accomplit, et qui ferait de lui un besoin ?",
-     "Transition · pourquoi leur partage échoue, et ce qui reste à établir, en question"
-    ]
-   ]
-  ],
-  [
-   "III. CE QUE L’ŒUVRE FAIT PARTAGER",
-   [
-    [
-     "L’art seul donne à une expérience une forme qui la rend partageable sans la réduire à un concept : le récit l’explique, le rite la règle, la réflexion la pense ; l’œuvre la donne à éprouver ensemble.",
-     "III.1 L’opération que la difficulté exige : un critère de ce que l’art seul accomplit"
-    ],
-    [
-     "Kant nomme ainsi ce que produit l’œuvre : « cette représentation de l’imagination qui donne beaucoup à penser, sans que toutefois aucune pensée déterminée, c’est-à-dire aucun concept, ne puisse lui être adéquate ».",
-     "III.1 Citation qui donne la formule exacte"
-    ],
-    [
-     "Ce critère conserve les deux réponses : l’art n’est pas un besoin vital, et il répond au besoin de donner forme à ce que nous vivons.",
-     "III.2 La démontrer : ce qu’il conserve"
-    ],
-    [
-     "Il explique aussi leurs arrêts : on ne voyait pas l’art dans le dénuement parce qu’on mesurait le besoin à la survie, alors qu’il porte sur le partage de ce qu’on ne peut dire ; et l’on confondait l’art avec les autres formes parce qu’on oubliait qu’elles fixent un sens, quand l’œuvre le laisse ouvert à chacun.",
-     "III.2 Ce qu’il explique"
-    ],
-    [
-     "Nous avons donc besoin d’art, non pour vivre ni pour comprendre ce que d’autres paroles comprennent aussi, mais pour partager ce qu’aucun concept ne fixe.",
-     "III.3 La réponse au sujet, avec son opérateur"
-    ],
-    [
-     "À Terezín, aucun discours ne pouvait dire aux prisonniers ce que le Requiem disait à leur place, et tous pouvaient le chanter ensemble, chacun y entendant ce qu’il vivait.",
-     "III.3 La réponse vérifiée sur le cas"
-    ],
-    [
-     "Reste que la même forme peut être détournée : la dernière représentation fut donnée devant une délégation de la Croix-Rouge que les nazis voulaient tromper.",
-     "III.3 Le reste : ce que cette réponse ne règle pas"
-    ]
-   ]
-  ],
-  [
-   "CONCLUSION",
-   [
-    [
-     "Nous avons besoin d’art, non comme de pain, mais comme de ce qui seul permet de partager ce qu’on ne peut dire.",
-     "Conclusion · la réponse, avec l’opérateur"
-    ],
-    [
-     "Les choristes de Terezín n’ont pas chanté pour survivre ; ils ont chanté pour être ensemble dans ce qui leur arrivait.",
-     "Conclusion · retour à la scène"
-    ],
-    [
-     "Mais une œuvre qui laisse son sens ouvert peut-elle se défendre contre ceux qui s’en servent pour mentir ?",
-     "Conclusion · le reste en question"
-    ]
-   ]
   ]
- ]
 }

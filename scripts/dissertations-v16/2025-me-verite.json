@@ -1,284 +1,298 @@
 {
- "id": "2025-me-verite",
- "subject": "La vérité est-elle toujours convaincante ?",
- "notion": "La vérité",
- "fiche": {
-  "operateur": "universelle (« toujours ») portant sur une propriété (« convaincante ») : le vrai a-t-il, en tout cas, de quoi convaincre ; un seul contre-exemple établi suffit au non, mais ne prouve pas que la vérité soit sans force.",
-  "sens": "convaincante : (1) qui convainc effectivement (sens trivialement réfuté : des hommes refusent des vérités) ; (2) qui possède de quoi convaincre un esprit qui l’examine — retenu. vérité : (1) proposition vraie ; (2) le vrai en tant qu’il est connu. toujours : en tout cas et à tout moment.",
-  "substitutions_interdites": "convaincante ≠ persuasive ; vérité ≠ certitude ; toujours ≠ souvent.",
-  "verrou": "Oui : établir que tout vrai a de quoi convaincre qui l’examine. Non : un vrai établi qui, examiné, n’a pas de quoi convaincre. Glissements interdits : de « pas toujours convaincante » à « jamais » ; du refus d’un homme à l’absence de force du vrai.",
-  "trois_reponses": "Spontanée : oui, le vrai s’impose. Contraire : non, on refuse des vérités et l’on croit des erreurs. Conciliation : convaincante en droit, pas toujours en fait.",
-  "conciliation_1_8bis": "Partage droit / fait. Elle hésite sur Wegener : en 1915, la dérive des continents est vraie, examinée par des savants compétents, et elle ne les convainc pas ; ce n’est pas un défaut d’examen ; elle se tait.",
-  "brouillon": {
-   "a": "Oui : qui a une idée vraie sait qu’il l’a ; la vérité se manifeste elle-même.",
-   "b": "Cela vaut pour qui possède le vrai ; non pour une vérité dont personne ne possède encore la preuve.",
-   "c": "Il faut examiner ce qui rend une vérité convaincante pour qui ne la possède pas : les preuves.",
-   "d": "Le pouvoir de convaincre appartient aux preuves ; mais alors on ne sait plus pourquoi une preuve vaut mieux qu’un sophisme efficace.",
-   "e": "L’une donne le pouvoir de convaincre à la vérité, l’autre aux preuves ; il reste le sens de leur dépendance."
+  "id": "2025-me-verite",
+  "subject": "La vérité est-elle toujours convaincante ?",
+  "notion": "La vérité",
+  "fiche": {
+    "operateur": "universelle (« toujours ») portant sur une propriété (« convaincante ») : le vrai a-t-il, en tout cas, de quoi convaincre ; un seul contre-exemple établi suffit au non, mais ne prouve pas que la vérité soit sans force.",
+    "sens": "convaincante : (1) qui convainc effectivement (sens trivialement réfuté : des hommes refusent des vérités) ; (2) qui possède de quoi convaincre un esprit qui l’examine — retenu. vérité : (1) proposition vraie ; (2) le vrai en tant qu’il est connu. toujours : en tout cas et à tout moment.",
+    "substitutions_interdites": "convaincante ≠ persuasive ; vérité ≠ certitude ; toujours ≠ souvent.",
+    "verrou": "Oui : établir que tout vrai a de quoi convaincre qui l’examine. Non : un vrai établi qui, examiné, n’a pas de quoi convaincre. Glissements interdits : de « pas toujours convaincante » à « jamais » ; du refus d’un homme à l’absence de force du vrai.",
+    "trois_reponses": "Spontanée : oui, le vrai s’impose. Contraire : non, on refuse des vérités et l’on croit des erreurs. Conciliation : convaincante en droit, pas toujours en fait.",
+    "conciliation_1_8bis": "Partage droit / fait. Elle hésite sur Wegener : en 1915, la dérive des continents est vraie, examinée par des savants compétents, et elle ne les convainc pas ; ce n’est pas un défaut d’examen ; elle se tait.",
+    "brouillon": {
+      "a": "Oui : qui a une idée vraie sait qu’il l’a ; la vérité se manifeste elle-même.",
+      "b": "Cela vaut pour qui possède le vrai ; non pour une vérité dont personne ne possède encore la preuve.",
+      "c": "Il faut examiner ce qui rend une vérité convaincante pour qui ne la possède pas : les preuves.",
+      "d": "Le pouvoir de convaincre appartient aux preuves ; mais alors on ne sait plus pourquoi une preuve vaut mieux qu’un sophisme efficace.",
+      "e": "L’une donne le pouvoir de convaincre à la vérité, l’autre aux preuves ; il reste le sens de leur dépendance."
+    },
+    "A": "La vérité est toujours convaincante : elle se manifeste elle-même à qui la possède.",
+    "FA": "Définition et condition (III.3). 1. Avoir une idée vraie, c’est comprendre la chose, et comprendre, c’est savoir qu’on comprend (E : qui peut savoir qu’il comprend sans comprendre ? attesté chez Spinoza, Éthique II, 43). 2. Donc qui a une idée vraie ne peut douter de la chose. 3. La vérité est ainsi sa propre marque.",
+    "XA": "Celui qui possède une vérité en la comprenant en est convaincu par elle seule.",
+    "YA": "Ce qu’il en est des vérités que personne ne possède encore de cette manière.",
+    "ZA": "FA fonde la conviction sur la possession de l’idée vraie ; or une proposition peut être vraie sans que personne n’en possède la preuve.",
+    "type_LA": "portée insuffisante",
+    "LA": "Que la vérité se manifeste à qui la possède ne permet donc pas encore d’établir qu’elle convainque toujours, parce qu’une proposition peut être vraie sans que personne en possède encore la preuve.",
+    "six_LA": "Mesure : XA écrit. Filiation : prémisse 1 (conviction par compréhension). Meilleur cas : la dérive des continents était vraie avant d’être comprise. Absorption : FA dirait « elle convaincra qui la comprendra » ; c’est reconnaître qu’elle ne convainc pas tant qu’elle n’est pas comprise. Non-lacune : oui. Calibration : oui.",
+    "T1": "Nous avons établi que la vérité convainc qui la possède ; mais cela ne vaut pas des vérités que personne ne possède encore, parce qu’une proposition peut être vraie sans preuve ; il faut donc examiner ce qui rend une vérité convaincante pour qui ne la possède pas (W : le domaine non atteint).",
+    "B": "La vérité n’est pas toujours convaincante : le pouvoir de convaincre appartient aux preuves, non au vrai comme tel. B conserve XA.",
+    "FB": "Fait (III.3). 1. Le vrai et le prouvé ne coïncident pas : une proposition peut être vraie sans preuve, et fausse avec de bonnes raisons (E : la dérive en 1915 ; les ponts continentaux, faux et bien argumentés). 2. Ce qui varie avec la conviction, c’est la preuve, non la vérité (E : covariation). Donc le pouvoir de convaincre appartient aux preuves. Indépendance : vaut sans LA. Principe propre : la distinction du vrai et du justifié.",
+    "XB": "Une vérité sans preuve ne convainc pas, une erreur bien argumentée convainc : le pouvoir de convaincre appartient aux preuves.",
+    "YB": "Pourquoi une preuve a une autorité qu’un argument seulement efficace n’a pas.",
+    "ZB": "FB sépare la conviction de la vérité ; or c’est en montrant le vrai qu’une preuve se distingue d’un sophisme qui réussit, de sorte que FB, ayant séparé les deux, ne peut plus rendre compte de cette différence.",
+    "type_LB": "insuffisance explicative",
+    "LB": "La force des preuves ne permet donc pas encore d’expliquer pourquoi une preuve vaut mieux qu’un argument qui réussit, parce qu’on a séparé la conviction de ce qu’une preuve fait voir : le vrai.",
+    "six_LB": "Mesure : XB écrit. Filiation : prémisse 2 (la conviction varie avec la preuve, non avec la vérité). Meilleur cas : une démonstration mathématique, qui convainc sans art. Absorption : FB dirait « une preuve est un argument qui convainc les experts » ; les experts de 1920 étaient convaincus de l’erreur. Non-lacune : oui. Calibration : oui. Geste : covariation, puis analogie poussée (preuve / sophisme), différent de I.3.",
+    "T2": "Bilan : XA, XB. ρ : dépendance non expliquée — A met le pouvoir de convaincre dans la vérité, B dans les preuves ; or la preuve ne vaut qu’en montrant le vrai, et le vrai ne convainc que par une preuve possédée ; le sens de la dépendance n’est pas établi. D : établir ce qu’est la vérité pour la conviction, si elle n’en est ni la cause immédiate ni un élément indifférent. Cumul : « convaincante en droit, pas toujours en fait » échoue sur Wegener, où le défaut n’est pas de fait (examen) mais de preuve (le cumul laisse inexpliqué ce que les deux supposent). Classe : décision et intelligibilité.",
+    "epreuves": "1. Contre-exemple : une vérité évidente (2 + 2 = 4) ; elle confirme XA. 2. Meilleur cas : survit. 3. Cumul : échec écrit. 4. Antériorité : la vérité comme norme qui corrige les convictions (idée régulatrice) est une opération connue ; transposée, elle exige un travail : candidat de III.",
+    "soupcon_aporie": "aucun indice ; régime ordinaire.",
+    "chemins_echoues": "Version V7.4 (PR non fusionnée : déplacement de critère vers la rectification publique) : conservée comme ressource, mais la III y était présentée sans épreuve du cumul écrite ; chemin repris ici par la dépendance.",
+    "dictionnaire": "non consulté.",
+    "phrase_mouvement": "A, parce que comprendre c’est savoir qu’on comprend, établit que la vérité convainc qui la possède ; mais non toujours, parce qu’une vérité peut être sans preuve ; il faut donc examiner les preuves. B, parce que le vrai et le prouvé divergent, établit que le pouvoir de convaincre est aux preuves ; mais n’explique pas pourquoi une preuve vaut mieux qu’un sophisme. Or chacune suppose l’autre ; il reste le sens de la dépendance.",
+    "probleme_directeur": "La vérité est-elle toujours convaincante, si elle ne convainc que par des preuves, et si une preuve ne vaut qu’en montrant le vrai ?",
+    "problematique": "Une vérité comprise ne laisse pas de place au doute ; certaines vérités, pourtant, n’ont longtemps convaincu personne. Peut-on dire la vérité toujours convaincante, tant qu’on ignore si c’est elle qui convainc, ou seulement la preuve qui la montre ?",
+    "forme_problematique": "G4 (acquis et contre-exemple, puis question avec « toujours » et ce qui reste inexpliqué ; la seconde phrase reprend « convaincre »). Reconstruction : on part de la vérité comprise, on bute sur les vérités sans preuve, on examine les preuves, on bute sur leur autorité ; la III doit dire le rapport. Relecture : « toujours » conservé, non radicalisé en « jamais ».",
+    "critere": "Sur la dérive des continents, une solution devra dire si la vérité était convaincante, conserver que la vérité comprise convainc et que le pouvoir de convaincre passe par les preuves, expliquer les deux arrêts, et dire ce qu’est la vérité pour la conviction.",
+    "contrainte_scene": "montrer une vérité longtemps sans force, et une erreur bien argumentée.",
+    "III": {
+      "operation": "sens de la dépendance (III.7 a) : la vérité n’est pas la cause de la conviction mais sa norme, ce qui rend toute conviction corrigible.",
+      "III1": "La vérité ne cause pas la conviction ; elle est ce par quoi une conviction peut être corrigée : la mesure à laquelle les preuves se rapportent, et qui fait d’elles des preuves.",
+      "III2": "Conserve XA (la vérité comprise ne laisse pas de doute) et XB (la conviction passe par des preuves) ; explique LA (la vérité ne convainc qu’à travers une preuve possédée) et LB (une preuve vaut mieux qu’un sophisme parce qu’elle s’expose à ce qui pourrait la corriger).",
+      "III3": "La vérité n’est pas toujours convaincante, mais elle seule rend une conviction corrigible, et c’est par là qu’elle finit par convaincre quand ses traces demeurent ; vérifié sur Wegener. Reste : les vérités dont toutes les traces ont disparu.",
+      "tests": "Cas témoin : les ponts continentaux convainquaient et ne s’exposaient à rien qui pût les ruiner ; la dérive, vraie, fut confirmée quand les stries magnétiques du fond des océans permirent de l’éprouver ; ni A, ni B, ni le partage ne le disaient. Second cas : une démonstration mathématique, qui convainc parce qu’on peut chercher en vain l’erreur. Restitution : oui. Rechute : le reste (les traces disparues) ne redit ni LA ni LB. Test propre : l’inversion explique ce que l’ordre initial n’expliquait pas (l’autorité des preuves). Report : non. Acquis nouveau : prémisse nouvelle — la vérité agit comme norme de correction, non comme cause d’adhésion ; nécessaire à la décision."
+    },
+    "candidats_III": [
+      {
+        "id": "retenue",
+        "operation": "Sens de la dépendance",
+        "proposition": "La vérité n’est pas la cause de la conviction mais sa norme : elle rend toute conviction corrigible, et c’est par là qu’elle finit par convaincre.",
+        "verdict": "retenue",
+        "raison": "Conserve les deux acquis, explique l’autorité des preuves, décide le cas de Wegener."
+      },
+      {
+        "id": "droit",
+        "operation": "Critère de frontière",
+        "proposition": "Convaincante en droit, pas toujours en fait.",
+        "verdict": "écartée",
+        "raison": "C’est la conciliation, qui échoue sur Wegener."
+      },
+      {
+        "id": "rectification",
+        "operation": "Déplacement",
+        "proposition": "La vérité est la norme de la rectification publique des raisons.",
+        "verdict": "dominée",
+        "raison": "Voisine de la retenue, mais met l’accent sur la procédure plus que sur la dépendance ; ressource de la version V7.4."
+      },
+      {
+        "id": "condition",
+        "operation": "Condition",
+        "proposition": "La vérité convainc quand l’auditeur examine.",
+        "verdict": "écartée",
+        "raison": "Wegener fut examiné par des savants compétents ; l’examen ne suffisait pas sans preuve."
+      }
+    ],
+    "generateur": "figure : la dépendance ; registre opératoire : critique ; registre de lecture : en enquête ; branches B2 ; annonce N1.",
+    "scene": "Alfred Wegener propose en 1912-1915 la dérive des continents ; la communauté géologique la rejette, lui préférant des ponts continentaux engloutis ; il meurt au Groenland en 1930 ; la tectonique des plaques s’impose dans les années 1960 grâce au paléomagnétisme des fonds océaniques. Verdict : homologue. Retour : la vérité a convaincu en rendant l’erreur corrigible.",
+    "statut": {
+      "problematique": "suffisamment justifiée",
+      "copie": "état de travail (architecture expérimentale)"
+    },
+    "ouvertures_de_pensee": {
+      "I": "Une vérité comprise n'est donc pas seulement une information reçue : elle peut transformer de l'intérieur les raisons pour lesquelles nous tenons une proposition pour vraie.",
+      "II": "Il devient toutefois possible de penser une vérité qui demeure vraie sans convaincre : l'échec de l'adhésion renseigne sur la preuve disponible, non sur la réalité de ce qui est affirmé.",
+      "III": "La vérité peut ainsi devenir le critère qui permet de corriger une conviction plutôt que la force qui la produit automatiquement : la discussion gagne une norme, sans obtenir l'accord à coup sûr.",
+      "statut": "Hypothèses établies à la mesure de leurs preuves ; ne pas transformer une possibilité en certitude."
+    }
   },
-  "A": "La vérité est toujours convaincante : elle se manifeste elle-même à qui la possède.",
-  "FA": "Définition et condition (III.3). 1. Avoir une idée vraie, c’est comprendre la chose, et comprendre, c’est savoir qu’on comprend (E : qui peut savoir qu’il comprend sans comprendre ? attesté chez Spinoza, Éthique II, 43). 2. Donc qui a une idée vraie ne peut douter de la chose. 3. La vérité est ainsi sa propre marque.",
-  "XA": "Celui qui possède une vérité en la comprenant en est convaincu par elle seule.",
-  "YA": "Ce qu’il en est des vérités que personne ne possède encore de cette manière.",
-  "ZA": "FA fonde la conviction sur la possession de l’idée vraie ; or une proposition peut être vraie sans que personne n’en possède la preuve.",
-  "type_LA": "portée insuffisante",
-  "LA": "Que la vérité se manifeste à qui la possède ne permet donc pas encore d’établir qu’elle convainque toujours, parce qu’une proposition peut être vraie sans que personne en possède encore la preuve.",
-  "six_LA": "Mesure : XA écrit. Filiation : prémisse 1 (conviction par compréhension). Meilleur cas : la dérive des continents était vraie avant d’être comprise. Absorption : FA dirait « elle convaincra qui la comprendra » ; c’est reconnaître qu’elle ne convainc pas tant qu’elle n’est pas comprise. Non-lacune : oui. Calibration : oui.",
-  "T1": "Nous avons établi que la vérité convainc qui la possède ; mais cela ne vaut pas des vérités que personne ne possède encore, parce qu’une proposition peut être vraie sans preuve ; il faut donc examiner ce qui rend une vérité convaincante pour qui ne la possède pas (W : le domaine non atteint).",
-  "B": "La vérité n’est pas toujours convaincante : le pouvoir de convaincre appartient aux preuves, non au vrai comme tel. B conserve XA.",
-  "FB": "Fait (III.3). 1. Le vrai et le prouvé ne coïncident pas : une proposition peut être vraie sans preuve, et fausse avec de bonnes raisons (E : la dérive en 1915 ; les ponts continentaux, faux et bien argumentés). 2. Ce qui varie avec la conviction, c’est la preuve, non la vérité (E : covariation). Donc le pouvoir de convaincre appartient aux preuves. Indépendance : vaut sans LA. Principe propre : la distinction du vrai et du justifié.",
-  "XB": "Une vérité sans preuve ne convainc pas, une erreur bien argumentée convainc : le pouvoir de convaincre appartient aux preuves.",
-  "YB": "Pourquoi une preuve a une autorité qu’un argument seulement efficace n’a pas.",
-  "ZB": "FB sépare la conviction de la vérité ; or c’est en montrant le vrai qu’une preuve se distingue d’un sophisme qui réussit, de sorte que FB, ayant séparé les deux, ne peut plus rendre compte de cette différence.",
-  "type_LB": "insuffisance explicative",
-  "LB": "La force des preuves ne permet donc pas encore d’expliquer pourquoi une preuve vaut mieux qu’un argument qui réussit, parce qu’on a séparé la conviction de ce qu’une preuve fait voir : le vrai.",
-  "six_LB": "Mesure : XB écrit. Filiation : prémisse 2 (la conviction varie avec la preuve, non avec la vérité). Meilleur cas : une démonstration mathématique, qui convainc sans art. Absorption : FB dirait « une preuve est un argument qui convainc les experts » ; les experts de 1920 étaient convaincus de l’erreur. Non-lacune : oui. Calibration : oui. Geste : covariation, puis analogie poussée (preuve / sophisme), différent de I.3.",
-  "T2": "Bilan : XA, XB. ρ : dépendance non expliquée — A met le pouvoir de convaincre dans la vérité, B dans les preuves ; or la preuve ne vaut qu’en montrant le vrai, et le vrai ne convainc que par une preuve possédée ; le sens de la dépendance n’est pas établi. D : établir ce qu’est la vérité pour la conviction, si elle n’en est ni la cause immédiate ni un élément indifférent. Cumul : « convaincante en droit, pas toujours en fait » échoue sur Wegener, où le défaut n’est pas de fait (examen) mais de preuve (le cumul laisse inexpliqué ce que les deux supposent). Classe : décision et intelligibilité.",
-  "epreuves": "1. Contre-exemple : une vérité évidente (2 + 2 = 4) ; elle confirme XA. 2. Meilleur cas : survit. 3. Cumul : échec écrit. 4. Antériorité : la vérité comme norme qui corrige les convictions (idée régulatrice) est une opération connue ; transposée, elle exige un travail : candidat de III.",
-  "soupcon_aporie": "aucun indice ; régime ordinaire.",
-  "chemins_echoues": "Version V7.4 (PR non fusionnée : déplacement de critère vers la rectification publique) : conservée comme ressource, mais la III y était présentée sans épreuve du cumul écrite ; chemin repris ici par la dépendance.",
-  "dictionnaire": "non consulté.",
-  "phrase_mouvement": "A, parce que comprendre c’est savoir qu’on comprend, établit que la vérité convainc qui la possède ; mais non toujours, parce qu’une vérité peut être sans preuve ; il faut donc examiner les preuves. B, parce que le vrai et le prouvé divergent, établit que le pouvoir de convaincre est aux preuves ; mais n’explique pas pourquoi une preuve vaut mieux qu’un sophisme. Or chacune suppose l’autre ; il reste le sens de la dépendance.",
-  "probleme_directeur": "La vérité est-elle toujours convaincante, si elle ne convainc que par des preuves, et si une preuve ne vaut qu’en montrant le vrai ?",
-  "problematique": "Une vérité comprise ne laisse pas de place au doute ; certaines vérités, pourtant, n’ont longtemps convaincu personne. Peut-on dire la vérité toujours convaincante, tant qu’on ignore si c’est elle qui convainc, ou seulement la preuve qui la montre ?",
-  "forme_problematique": "G4 (acquis et contre-exemple, puis question avec « toujours » et ce qui reste inexpliqué ; la seconde phrase reprend « convaincre »). Reconstruction : on part de la vérité comprise, on bute sur les vérités sans preuve, on examine les preuves, on bute sur leur autorité ; la III doit dire le rapport. Relecture : « toujours » conservé, non radicalisé en « jamais ».",
-  "critere": "Sur la dérive des continents, une solution devra dire si la vérité était convaincante, conserver que la vérité comprise convainc et que le pouvoir de convaincre passe par les preuves, expliquer les deux arrêts, et dire ce qu’est la vérité pour la conviction.",
-  "contrainte_scene": "montrer une vérité longtemps sans force, et une erreur bien argumentée.",
-  "III": {
-   "operation": "sens de la dépendance (III.7 a) : la vérité n’est pas la cause de la conviction mais sa norme, ce qui rend toute conviction corrigible.",
-   "III1": "La vérité ne cause pas la conviction ; elle est ce par quoi une conviction peut être corrigée : la mesure à laquelle les preuves se rapportent, et qui fait d’elles des preuves.",
-   "III2": "Conserve XA (la vérité comprise ne laisse pas de doute) et XB (la conviction passe par des preuves) ; explique LA (la vérité ne convainc qu’à travers une preuve possédée) et LB (une preuve vaut mieux qu’un sophisme parce qu’elle s’expose à ce qui pourrait la corriger).",
-   "III3": "La vérité n’est pas toujours convaincante, mais elle seule rend une conviction corrigible, et c’est par là qu’elle finit par convaincre quand ses traces demeurent ; vérifié sur Wegener. Reste : les vérités dont toutes les traces ont disparu.",
-   "tests": "Cas témoin : les ponts continentaux convainquaient et ne s’exposaient à rien qui pût les ruiner ; la dérive, vraie, fut confirmée quand les stries magnétiques du fond des océans permirent de l’éprouver ; ni A, ni B, ni le partage ne le disaient. Second cas : une démonstration mathématique, qui convainc parce qu’on peut chercher en vain l’erreur. Restitution : oui. Rechute : le reste (les traces disparues) ne redit ni LA ni LB. Test propre : l’inversion explique ce que l’ordre initial n’expliquait pas (l’autorité des preuves). Report : non. Acquis nouveau : prémisse nouvelle — la vérité agit comme norme de correction, non comme cause d’adhésion ; nécessaire à la décision."
-  },
-  "candidats_III": [
-   {
-    "id": "retenue",
-    "operation": "Sens de la dépendance",
-    "proposition": "La vérité n’est pas la cause de la conviction mais sa norme : elle rend toute conviction corrigible, et c’est par là qu’elle finit par convaincre.",
-    "verdict": "retenue",
-    "raison": "Conserve les deux acquis, explique l’autorité des preuves, décide le cas de Wegener."
-   },
-   {
-    "id": "droit",
-    "operation": "Critère de frontière",
-    "proposition": "Convaincante en droit, pas toujours en fait.",
-    "verdict": "écartée",
-    "raison": "C’est la conciliation, qui échoue sur Wegener."
-   },
-   {
-    "id": "rectification",
-    "operation": "Déplacement",
-    "proposition": "La vérité est la norme de la rectification publique des raisons.",
-    "verdict": "dominée",
-    "raison": "Voisine de la retenue, mais met l’accent sur la procédure plus que sur la dépendance ; ressource de la version V7.4."
-   },
-   {
-    "id": "condition",
-    "operation": "Condition",
-    "proposition": "La vérité convainc quand l’auditeur examine.",
-    "verdict": "écartée",
-    "raison": "Wegener fut examiné par des savants compétents ; l’examen ne suffisait pas sans preuve."
-   }
+  "citations": [
+    {
+      "texte": "Qui a une idée vraie, sait en même temps qu’il a une idée vraie et ne peut pas douter de la vérité de la chose.",
+      "auteur": "Spinoza",
+      "oeuvre": "Éthique",
+      "lieu": "partie II, proposition 43",
+      "edition": "trad. Maxime Rovere, Flammarion, 2021",
+      "verification": "œuvre fournie, passage retrouvé mot pour mot",
+      "regime": "citation exacte",
+      "fonction": "I.2 : donner l’énoncé exact du fondement ; la preuve (comprendre, c’est savoir qu’on comprend) est écrite à côté."
+    },
+    {
+      "texte": "la vérité est la norme d’elle-même et du faux",
+      "auteur": "Spinoza",
+      "oeuvre": "Éthique",
+      "lieu": "partie II, proposition 43, scolie",
+      "edition": "trad. Maxime Rovere, Flammarion, 2021",
+      "verification": "œuvre fournie, passage retrouvé mot pour mot",
+      "regime": "citation exacte, reprise en III dans un autre emploi, signalé",
+      "fonction": "III.1 : la formule est reprise pour dire que la vérité agit comme norme ; l’emploi diffère de Spinoza, qui l’entend de l’idée possédée, et la copie le signale."
+    }
   ],
-  "generateur": "figure : la dépendance ; registre opératoire : critique ; registre de lecture : en enquête ; branches B2 ; annonce N1.",
-  "scene": "Alfred Wegener propose en 1912-1915 la dérive des continents ; la communauté géologique la rejette, lui préférant des ponts continentaux engloutis ; il meurt au Groenland en 1930 ; la tectonique des plaques s’impose dans les années 1960 grâce au paléomagnétisme des fonds océaniques. Verdict : homologue. Retour : la vérité a convaincu en rendant l’erreur corrigible.",
-  "statut": {
-   "problematique": "suffisamment justifiée",
-   "copie": "état de travail (architecture expérimentale)"
-  }
- },
- "citations": [
-  {
-   "texte": "Qui a une idée vraie, sait en même temps qu’il a une idée vraie et ne peut pas douter de la vérité de la chose.",
-   "auteur": "Spinoza",
-   "oeuvre": "Éthique",
-   "lieu": "partie II, proposition 43",
-   "edition": "trad. Maxime Rovere, Flammarion, 2021",
-   "verification": "œuvre fournie, passage retrouvé mot pour mot",
-   "regime": "citation exacte",
-   "fonction": "I.2 : donner l’énoncé exact du fondement ; la preuve (comprendre, c’est savoir qu’on comprend) est écrite à côté."
-  },
-  {
-   "texte": "la vérité est la norme d’elle-même et du faux",
-   "auteur": "Spinoza",
-   "oeuvre": "Éthique",
-   "lieu": "partie II, proposition 43, scolie",
-   "edition": "trad. Maxime Rovere, Flammarion, 2021",
-   "verification": "œuvre fournie, passage retrouvé mot pour mot",
-   "regime": "citation exacte, reprise en III dans un autre emploi, signalé",
-   "fonction": "III.1 : la formule est reprise pour dire que la vérité agit comme norme ; l’emploi diffère de Spinoza, qui l’entend de l’idée possédée, et la copie le signale."
-  }
- ],
- "copy": [
-  [
-   "INTRODUCTION",
-   [
+  "copy": [
     [
-     "En 1915, Alfred Wegener soutient que les continents dérivent : les côtes de l’Afrique et de l’Amérique du Sud s’emboîtent, les mêmes fossiles se retrouvent de part et d’autre de l’Atlantique.",
-     "Introduction · la scène"
+      "INTRODUCTION",
+      [
+        [
+          "En 1915, Alfred Wegener soutient que les continents dérivent : les côtes de l’Afrique et de l’Amérique du Sud s’emboîtent, les mêmes fossiles se retrouvent de part et d’autre de l’Atlantique.",
+          "Introduction · la scène"
+        ],
+        [
+          "Les géologues préfèrent des ponts de terre engloutis, et Wegener meurt au Groenland en 1930 sans avoir convaincu ; il faudra attendre les années 1960 pour que la dérive s’impose.",
+          "Introduction · la scène : le refus, puis l’issue"
+        ],
+        [
+          "Wegener avait raison et en était sûr ; des savants compétents l’ont examiné, et sa vérité ne les a pas convaincus.",
+          "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"
+        ],
+        [
+          "Être convaincante, ce n’est pas convaincre tout le monde, ce que la sottise suffirait à démentir : c’est avoir de quoi convaincre un esprit qui examine, et le sujet demande si le vrai l’a toujours.",
+          "Introduction · les mots du sujet : « convaincante », « toujours »"
+        ],
+        [
+          "La vérité semble emporter l’adhésion de qui la comprend, mais elle exige des preuves que tous ne possèdent pas. Inversement, une preuve peut être contestée malgré sa rigueur.",
+          "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"
+        ],
+        [
+          "Une vérité comprise ne laisse pas de place au doute ; certaines vérités, pourtant, n’ont longtemps convaincu personne. Peut-on dire la vérité toujours convaincante, tant qu’on ignore si c’est elle qui convainc, ou seulement la preuve qui la montre ?",
+          "Introduction · la problématique : un constat, puis une seule question qui garde « toujours convaincante »"
+        ],
+        [
+          "Nous examinerons la force du vrai, la médiation des preuves, puis ce qui permet à une conviction de se corriger.",
+          "Introduction · l’annonce"
+        ]
+      ]
     ],
     [
-     "Les géologues préfèrent des ponts de terre engloutis, et Wegener meurt au Groenland en 1930 sans avoir convaincu ; il faudra attendre les années 1960 pour que la dérive s’impose.",
-     "Introduction · la scène : le refus, puis l’issue"
+      "I. LE VRAI SE MONTRE LUI-MÊME",
+      [
+        [
+          "La vérité est toujours convaincante, car elle n’a besoin de rien d’autre qu’elle-même pour se faire reconnaître.",
+          "I.1 Ouvrir une première manière de penser"
+        ],
+        [
+          "Cette réponse sauve ce qui distingue le savoir de l’opinion : celui qui sait n’attend pas l’accord des autres pour être sûr.",
+          "I.1 Ce qu’elle sauve"
+        ],
+        [
+          "Avoir une idée vraie, c’est comprendre la chose, et l’on ne peut comprendre sans savoir qu’on comprend ; Spinoza l’énonce ainsi : « Qui a une idée vraie, sait en même temps qu’il a une idée vraie et ne peut pas douter de la vérité de la chose. »",
+          "I.2 La fonder ; citation qui donne l’énoncé exact"
+        ],
+        [
+          "La vérité est donc sa propre marque : elle convainc par elle seule celui qui la possède.",
+          "I.2 L’inférence décisive"
+        ],
+        [
+          "Une vérité comprise n'est donc pas seulement une information reçue : elle peut transformer de l'intérieur les raisons pour lesquelles nous tenons une proposition pour vraie.",
+          "I.2 Ce que la preuve ouvre"
+        ],
+        [
+          "Ce fondement établit que celui qui possède une vérité en la comprenant en est convaincu par elle seule.",
+          "I.3 L’éprouver : ce qu’il établit"
+        ],
+        [
+          "Mais il fonde la conviction sur la possession de l’idée vraie, et une proposition peut être vraie sans que personne n’en possède encore la preuve.",
+          "I.3 Ce qu’il ne permet pas encore, et pourquoi"
+        ],
+        [
+          "Les continents dérivaient avant que quiconque l’ait compris, et Wegener lui-même n’avait pas de quoi expliquer ce qui les pousse.",
+          "I.3 Sur la scène"
+        ],
+        [
+          "Que la vérité se manifeste à qui la possède ne permet donc pas encore d’établir qu’elle convainque toujours, parce qu’une proposition peut être vraie sans que personne en possède encore la preuve.",
+          "I.3 La portée et le manque du premier fondement"
+        ],
+        [
+          "La vérité comprise écarte le doute ; encore faut-il pouvoir la reconnaître. Quelles preuves conduisent un esprit à y adhérer ?",
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
+        ]
+      ]
     ],
     [
-     "Wegener avait raison et en était sûr ; des savants compétents l’ont examiné, et sa vérité ne les a pas convaincus.",
-     "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"
+      "II. CE SONT LES PREUVES QUI CONVAINQUENT",
+      [
+        [
+          "C’est la preuve qui convainc, plutôt que la vérité elle-même, et c’est pourquoi la vérité n’est pas toujours convaincante.",
+          "II.1 Ouvrir une autre manière de penser"
+        ],
+        [
+          "Elle ne nie pas que la vérité comprise ôte le doute ; elle montre que, pour qui ne la comprend pas encore, tout passe par la preuve.",
+          "II.1 Ce qu’elle conserve"
+        ],
+        [
+          "Le vrai et le prouvé ne coïncident pas : la dérive était vraie et mal prouvée, les ponts engloutis étaient faux et bien argumentés.",
+          "II.2 La fonder par les faits : vrai et prouvé divergent"
+        ],
+        [
+          "Or ce qui variait avec la conviction des géologues, c’était l’état des preuves, non la vérité ; le pouvoir de convaincre appartient donc aux preuves.",
+          "II.2 L’inférence décisive, par covariation"
+        ],
+        [
+          "Il devient toutefois possible de penser une vérité qui demeure vraie sans convaincre : l'échec de l'adhésion renseigne sur la preuve disponible, non sur la réalité de ce qui est affirmé.",
+          "II.2 La possibilité que la seconde preuve révèle"
+        ],
+        [
+          "Cette raison établit qu’une vérité sans preuve ne convainc pas, et qu’une erreur bien argumentée convainc.",
+          "II.3 L’éprouver : ce qu’elle établit"
+        ],
+        [
+          "Mais elle sépare la conviction de la vérité, et c’est pourtant en montrant le vrai qu’une preuve se distingue d’un argument qui réussit : une démonstration a une autorité qu’un discours habile n’a pas, et cette différence ne vient pas de leur efficacité.",
+          "II.3 Ce qu’elle ne permet pas encore, et pourquoi"
+        ],
+        [
+          "Les ponts engloutis convainquaient aussi bien qu’une preuve ; ils n’en étaient pas une.",
+          "II.3 Sur la scène"
+        ],
+        [
+          "La force des preuves ne permet donc pas encore d’expliquer pourquoi une preuve vaut mieux qu’un argument qui réussit, parce qu’on a séparé la conviction de ce qu’une preuve fait voir : le vrai.",
+          "II.3 La portée et le manque du second fondement"
+        ],
+        [
+          "Une vérité ne convainc qu’à travers des preuves, et ces preuves peuvent être contestées. Quel rapport la vérité entretient-elle alors avec la conviction ?",
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
+        ]
+      ]
     ],
     [
-     "On attend du vrai qu’il ait par lui-même de quoi s’imposer, mais aussi qu’on puisse le distinguer de ce qui convainc sans être vrai.",
-     "Introduction · l’enjeu"
+      "III. CE QUI REND LES CONVICTIONS CORRIGIBLES",
+      [
+        [
+          "La vérité n’est pas la cause de la conviction, mais sa norme : ce à quoi les preuves se rapportent, et ce par quoi une conviction peut être corrigée.",
+          "III.1 Effectuer le déplacement nécessaire"
+        ],
+        [
+          "Spinoza écrivait que « la vérité est la norme d’elle-même et du faux », pour l’idée qu’on possède ; il faut l’entendre ici de toutes nos convictions, que le vrai juge même quand nous ne le possédons pas.",
+          "III.1 Citation reprise dans un autre emploi, signalé"
+        ],
+        [
+          "Une preuve vaut mieux qu’un argument qui réussit parce qu’elle s’expose à ce qui pourrait la ruiner, alors que l’argument habile se met à l’abri de toute épreuve.",
+          "III.2 La démontrer : ce qui fait l’autorité d’une preuve"
+        ],
+        [
+          "Ainsi s’expliquent les deux réponses : la vérité comprise ôte le doute, parce que celui qui comprend a cessé de pouvoir être corrigé sur ce point ; et la conviction passe par les preuves, parce que ce sont elles qui s’exposent au vrai.",
+          "III.2 Ce qu’elle conserve et ce qu’elle explique"
+        ],
+        [
+          "La vérité peut ainsi devenir le critère qui permet de corriger une conviction plutôt que la force qui la produit automatiquement : la discussion gagne une norme, sans obtenir l'accord à coup sûr.",
+          "III.2 Ce que la transformation fait comprendre"
+        ],
+        [
+          "La vérité n’est donc pas toujours convaincante ; mais elle seule rend une conviction corrigible, et c’est par là qu’elle finit par convaincre, quand demeurent les traces qui permettent de l’éprouver.",
+          "III.3 La réponse au sujet, avec son opérateur"
+        ],
+        [
+          "Les ponts engloutis ne s’exposaient à rien qui pût les ruiner ; la dérive s’est imposée quand les stries magnétiques du fond des océans ont permis de l’éprouver, et l’erreur des géologues a été corrigée par ce qu’elle ignorait.",
+          "III.3 La réponse vérifiée sur le cas"
+        ],
+        [
+          "Reste le cas des vérités dont toutes les traces ont disparu, et que rien ne pourra plus jamais éprouver.",
+          "III.3 Le reste : ce qui demande encore à être pensé"
+        ]
+      ]
     ],
     [
-     "Être convaincante, ce n’est pas convaincre tout le monde, ce que la sottise suffirait à démentir : c’est avoir de quoi convaincre un esprit qui examine, et le sujet demande si le vrai l’a toujours.",
-     "Introduction · les mots du sujet : « convaincante », « toujours »"
-    ],
-    [
-     "Certes, une vérité comprise ne laisse pas de place au doute, parce que comprendre, c’est savoir qu’on comprend ; mais une vérité peut être sans preuve. On répondra que seules les preuves convainquent ; mais on ne sait plus alors pourquoi une preuve vaut mieux qu’un argument qui réussit.",
-     "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"
-    ],
-    [
-     "Une vérité comprise ne laisse pas de place au doute ; certaines vérités, pourtant, n’ont longtemps convaincu personne. Peut-on dire la vérité toujours convaincante, tant qu’on ignore si c’est elle qui convainc, ou seulement la preuve qui la montre ?",
-     "Introduction · la problématique : un constat, puis une seule question qui garde « toujours convaincante »"
-    ],
-    [
-     "On examinera d’abord pourquoi la vérité paraît se suffire, et jusqu’où cette raison porte ; ce qu’elle laisse en suspens obligera à examiner les preuves ; il faudra alors établir ce que ces deux voies, ensemble, laissent encore ouvert.",
-     "Introduction · l’annonce"
+      "CONCLUSION",
+      [
+        [
+          "La vérité n’est pas toujours convaincante, car elle ne convainc qu’à travers des preuves ; mais elle n’est pas sans force, car elle est ce qui rend toute conviction corrigible.",
+          "Conclusion · la réponse, avec l’opérateur"
+        ],
+        [
+          "Wegener n’a pas convaincu de son vivant ; la vérité qu’il soutenait a fini par corriger ceux qui l’avaient refusée.",
+          "Conclusion · retour à la scène"
+        ],
+        [
+          "Mais que devient une vérité dont plus rien ne garde la trace ?",
+          "Conclusion · le reste en question"
+        ]
+      ]
     ]
-   ]
-  ],
-  [
-   "I. LE VRAI SE MONTRE LUI-MÊME",
-   [
-    [
-     "La vérité est toujours convaincante, car elle n’a besoin de rien d’autre qu’elle-même pour se faire reconnaître.",
-     "I.1 Établir la première réponse"
-    ],
-    [
-     "Cette réponse sauve ce qui distingue le savoir de l’opinion : celui qui sait n’attend pas l’accord des autres pour être sûr.",
-     "I.1 Ce qu’elle sauve"
-    ],
-    [
-     "Avoir une idée vraie, c’est comprendre la chose, et l’on ne peut comprendre sans savoir qu’on comprend ; Spinoza l’énonce ainsi : « Qui a une idée vraie, sait en même temps qu’il a une idée vraie et ne peut pas douter de la vérité de la chose. »",
-     "I.2 La fonder ; citation qui donne l’énoncé exact"
-    ],
-    [
-     "La vérité est donc sa propre marque : elle convainc par elle seule celui qui la possède.",
-     "I.2 L’inférence décisive"
-    ],
-    [
-     "Ce fondement établit que celui qui possède une vérité en la comprenant en est convaincu par elle seule.",
-     "I.3 L’éprouver : ce qu’il établit"
-    ],
-    [
-     "Mais il fonde la conviction sur la possession de l’idée vraie, et une proposition peut être vraie sans que personne n’en possède encore la preuve.",
-     "I.3 Ce qu’il ne permet pas encore, et pourquoi"
-    ],
-    [
-     "Les continents dérivaient avant que quiconque l’ait compris, et Wegener lui-même n’avait pas de quoi expliquer ce qui les pousse.",
-     "I.3 Sur la scène"
-    ],
-    [
-     "Que la vérité se manifeste à qui la possède ne permet donc pas encore d’établir qu’elle convainque toujours, parce qu’une proposition peut être vraie sans que personne en possède encore la preuve.",
-     "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"
-    ],
-    [
-     "La vérité convainc qui la possède ; mais cela ne vaut pas des vérités que personne ne possède encore, parce qu’une proposition peut être vraie sans preuve. Il faut donc examiner ce qui rend une vérité convaincante pour qui ne la possède pas : n’est-ce pas la preuve, plutôt que la vérité elle-même ?",
-     "Transition · l’examen nécessaire, en question"
-    ]
-   ]
-  ],
-  [
-   "II. CE SONT LES PREUVES QUI CONVAINQUENT",
-   [
-    [
-     "C’est la preuve qui convainc, plutôt que la vérité elle-même, et c’est pourquoi la vérité n’est pas toujours convaincante.",
-     "II.1 La seconde réponse, qui répond à l’examen demandé"
-    ],
-    [
-     "Elle ne nie pas que la vérité comprise ôte le doute ; elle montre que, pour qui ne la comprend pas encore, tout passe par la preuve.",
-     "II.1 Ce qu’elle conserve"
-    ],
-    [
-     "Le vrai et le prouvé ne coïncident pas : la dérive était vraie et mal prouvée, les ponts engloutis étaient faux et bien argumentés.",
-     "II.2 La fonder par les faits : vrai et prouvé divergent"
-    ],
-    [
-     "Or ce qui variait avec la conviction des géologues, c’était l’état des preuves, non la vérité ; le pouvoir de convaincre appartient donc aux preuves.",
-     "II.2 L’inférence décisive, par covariation"
-    ],
-    [
-     "Cette raison établit qu’une vérité sans preuve ne convainc pas, et qu’une erreur bien argumentée convainc.",
-     "II.3 L’éprouver : ce qu’elle établit"
-    ],
-    [
-     "Mais elle sépare la conviction de la vérité, et c’est pourtant en montrant le vrai qu’une preuve se distingue d’un argument qui réussit : une démonstration a une autorité qu’un discours habile n’a pas, et cette différence ne vient pas de leur efficacité.",
-     "II.3 Ce qu’elle ne permet pas encore, et pourquoi"
-    ],
-    [
-     "Les ponts engloutis convainquaient aussi bien qu’une preuve ; ils n’en étaient pas une.",
-     "II.3 Sur la scène"
-    ],
-    [
-     "La force des preuves ne permet donc pas encore d’expliquer pourquoi une preuve vaut mieux qu’un argument qui réussit, parce qu’on a séparé la conviction de ce qu’une preuve fait voir : le vrai.",
-     "II.3 Ce que la seconde réponse ne permet pas encore"
-    ],
-    [
-     "La vérité comprise ôte le doute, et la conviction passe par les preuves ; mais chacune des réponses suppose ce que l’autre affirme, puisque la vérité ne convainc qu’à travers une preuve possédée, et qu’une preuve ne vaut qu’en montrant le vrai. Dire la vérité convaincante en droit et non en fait ne dit rien de Wegener, qu’on a examiné sans être convaincu : qu’est-ce donc que la vérité pour la conviction, si elle n’en est ni la cause ni un élément indifférent ?",
-     "Transition · pourquoi leur addition échoue, et ce qui reste à établir, en question"
-    ]
-   ]
-  ],
-  [
-   "III. CE QUI REND LES CONVICTIONS CORRIGIBLES",
-   [
-    [
-     "La vérité n’est pas la cause de la conviction, mais sa norme : ce à quoi les preuves se rapportent, et ce par quoi une conviction peut être corrigée.",
-     "III.1 L’opération que la difficulté exige : établir le sens de la dépendance"
-    ],
-    [
-     "Spinoza écrivait que « la vérité est la norme d’elle-même et du faux », pour l’idée qu’on possède ; il faut l’entendre ici de toutes nos convictions, que le vrai juge même quand nous ne le possédons pas.",
-     "III.1 Citation reprise dans un autre emploi, signalé"
-    ],
-    [
-     "Une preuve vaut mieux qu’un argument qui réussit parce qu’elle s’expose à ce qui pourrait la ruiner, alors que l’argument habile se met à l’abri de toute épreuve.",
-     "III.2 La démontrer : ce qui fait l’autorité d’une preuve"
-    ],
-    [
-     "Ainsi s’expliquent les deux réponses : la vérité comprise ôte le doute, parce que celui qui comprend a cessé de pouvoir être corrigé sur ce point ; et la conviction passe par les preuves, parce que ce sont elles qui s’exposent au vrai.",
-     "III.2 Ce qu’elle conserve et ce qu’elle explique"
-    ],
-    [
-     "La vérité n’est donc pas toujours convaincante ; mais elle seule rend une conviction corrigible, et c’est par là qu’elle finit par convaincre, quand demeurent les traces qui permettent de l’éprouver.",
-     "III.3 La réponse au sujet, avec son opérateur"
-    ],
-    [
-     "Les ponts engloutis ne s’exposaient à rien qui pût les ruiner ; la dérive s’est imposée quand les stries magnétiques du fond des océans ont permis de l’éprouver, et l’erreur des géologues a été corrigée par ce qu’elle ignorait.",
-     "III.3 La réponse vérifiée sur le cas"
-    ],
-    [
-     "Reste le cas des vérités dont toutes les traces ont disparu, et que rien ne pourra plus jamais éprouver.",
-     "III.3 Le reste : ce que cette réponse ne règle pas"
-    ]
-   ]
-  ],
-  [
-   "CONCLUSION",
-   [
-    [
-     "La vérité n’est pas toujours convaincante, car elle ne convainc qu’à travers des preuves ; mais elle n’est pas sans force, car elle est ce qui rend toute conviction corrigible.",
-     "Conclusion · la réponse, avec l’opérateur"
-    ],
-    [
-     "Wegener n’a pas convaincu de son vivant ; la vérité qu’il soutenait a fini par corriger ceux qui l’avaient refusée.",
-     "Conclusion · retour à la scène"
-    ],
-    [
-     "Mais que devient une vérité dont plus rien ne garde la trace ?",
-     "Conclusion · le reste en question"
-    ]
-   ]
   ]
- ]
 }

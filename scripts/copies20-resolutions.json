@@ -58,7 +58,7 @@
    "residual": "Reste que bien des injustices ne passent par aucune loi ni par aucun acte qu’un tribunal puisse juger : le mépris, l’exclusion silencieuse, les portes qui restent fermées.",
    "conclusionQuestion": "Mais qui luttera contre les injustices qu’aucun tribunal ne peut juger ?",
    "economy": {
-    "words": 1155,
+    "words": 1080,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -66,7 +66,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "476563d2241e5d5ab8030a1a8cc6cfef20b5991e5c440e6d4f290e66b8b0ddce",
+   "copySha256": "f9399fb373c0dd3307d560a46db861e85542913f14b00c839ce19431c2eeca4c",
    "protocol": "V16.1-exp"
   },
   "2026-ag-humanite-religion": {
@@ -83,9 +83,9 @@
    "candidates": [
     {
      "id": "retenue",
-     "proposal": "On peut donc concevoir une humanité sans religion, si l’on entend par là sans croyance en des dieux ; on ne peut pas en concevoir une sans ce que la religion accomplissait, un rapport commun aux morts et à ce qui ne doit pas être profané.",
+     "proposal": "On peut donc concevoir une humanité sans religion : il faudrait qu’elle trouve d’autres façons de répondre aux besoins auxquels les religions répondent. Cela ne prouve ni qu’une telle humanité existe déjà, ni que cette substitution serait sans perte.",
      "cost": "Explique l’universalité et la possibilité ensemble ; décide le cas du mausolée.",
-     "remainingProblem": "Mais un sacré sans dieux peut-il échapper au culte de ceux qui gouvernent ?",
+     "remainingProblem": "Que perdrait une humanité qui répondrait autrement aux besoins auxquels les religions ont donné sens ?",
      "preserves": [
       "Relier tous les hommes par des fins communes",
       "Rester faite d’hommes qui jugent par eux-mêmes"
@@ -120,21 +120,21 @@
     }
    ],
    "selected": "retenue",
-   "comparison": "Retenue : Explique l’universalité et la possibilité ensemble ; décide le cas du mausolée. Écartées ou dominées : C’est la conciliation, qui ne sait où ranger un culte sans spiritualité. Prédiction sans preuve ; la science ne remplit pas la fonction des rites. Ne traite que l’ignorance, non la mort et le lien.",
+   "comparison": "Voie retenue : Distinction des institutions religieuses et des fonctions humaines qu’elles peuvent remplir ; mise à l’épreuve de la substituabilité sans présupposer une nécessité du sacré. ; justification : Conserver la possibilité conceptuelle et expliquer la persistance des pratiques religieuses sans convertir leur fréquence en nécessité ; vérifier sur les rites civils. Concurrentes : C’est la conciliation, qui ne sait où ranger un culte sans spiritualité. Prédiction sans preuve ; la science ne remplit pas la fonction des rites. Ne traite que l’ignorance, non la mort et le lien.",
    "strongestObjection": "sociétés sécularisées ; elles gardent funérailles, serments, commémorations : confirme D.",
    "responseToObjection": "survit.",
-   "residual": "Reste qu’un sacré sans dieux peut servir ceux qui gouvernent, et que rien, dans sa seule fonction, ne le protège d’un tel usage.",
-   "conclusionQuestion": "Mais un sacré sans dieux peut-il échapper au culte de ceux qui gouvernent ?",
+   "residual": "Reste à savoir ce que des pratiques civiles peuvent conserver des expériences religieuses sans les reproduire : la substitution d’une fonction ne garantit pas l’équivalence des significations.",
+   "conclusionQuestion": "Que perdrait une humanité qui répondrait autrement aux besoins auxquels les religions ont donné sens ?",
    "economy": {
-    "words": 1099,
+    "words": 1047,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
-    "author": "Protocole V16.1-exp (rédaction assistée) ; relecture à effectuer",
+    "author": "Révision philosophique contradictoire du 7 novembre 2026",
     "status": "propose",
-    "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
+    "independentReview": "Inférences et portée de la troisième partie corrigées ; vérifications indépendantes de l'ensemble du corpus et des références encore requises."
    },
-   "copySha256": "346c92addadf6c1c670a6dfa0e0848f50d16a4058cca407d757cbf335fbcc6a1",
+   "copySha256": "22bb65c130184682e7ed95d933c56b347bac3d464d24191bad2eefbd7df5eb3c",
    "protocol": "V16.1-exp"
   },
   "2026-an-artiste-sait": {
@@ -194,7 +194,7 @@
    "residual": "Reste que ce savoir porte sur l’œuvre, non sur ce qu’elle fera à ceux qui la recevront : rien ne lui annonçait qu’un concert sauvé de justesse serait écouté dans le monde entier.",
    "conclusionQuestion": "Mais l’artiste sait-il ce que son œuvre fait aux autres, quand elle leur parle comme elle ne lui a jamais parlé ?",
    "economy": {
-    "words": 1098,
+    "words": 1031,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -202,7 +202,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "e1b38f66f18e37cd173beda1fc3ba14419b27c50ac81d4572c90a2b6e461b3d2",
+   "copySha256": "c699d513a3b4d227aef9ac9b0afa859ad2ad989bd68279c222f50451250bd56c",
    "protocol": "V16.1-exp"
   },
   "2026-an-science-utile": {
@@ -262,7 +262,7 @@
    "residual": "Reste le cas où c’est la connaissance elle-même, et non sa diffusion, qui est un danger, parce que celui qui la possède peut en user seul.",
    "conclusionQuestion": "Peut-on cependant renoncer à chercher une vérité parce que la savoir est déjà un danger ?",
    "economy": {
-    "words": 1248,
+    "words": 1173,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -270,7 +270,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "e0b3957b299ca97535640c719b02579e0a2c6fb1c51ce47a286d912936fd2d0e",
+   "copySha256": "fa5179b918d357c575d80ff5a552e6913ff1b1ab2b04840bbd7029f4e29b7dab",
    "protocol": "V16.1-exp"
   },
   "2026-asie-inconscient-bonheur": {
@@ -330,7 +330,7 @@
    "residual": "Reste que cette compréhension, si elle délivre de la crainte, délivre aussi de l’espoir, puisque, selon Spinoza, « il n’y a pas d’espoir sans crainte, ni de crainte sans espoir » ; or certains bonheurs vivent d’espérer.",
    "conclusionQuestion": "Mais un bonheur sans espoir est-il encore celui que nous désirions ?",
    "economy": {
-    "words": 1251,
+    "words": 1152,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -338,7 +338,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "7fe333502ae1a96350abcab9b909f2e4a14f81e593527fa9bb14c3272cb43f6d",
+   "copySha256": "38a54ea8483523f54203bec4f69790a96c1978b33bbcff949e7962cd200a2025",
    "protocol": "V16.1-exp"
   },
   "2026-asie-langage": {
@@ -398,7 +398,7 @@
    "residual": "Reste qu’un tel travail suppose une communauté qui accueille les mots changés, et qu’un pouvoir peut s’employer à la défaire.",
    "conclusionQuestion": "Mais que reste-t-il de cette liberté quand plus personne n’accueille les mots qu’on change ?",
    "economy": {
-    "words": 1100,
+    "words": 1032,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -406,7 +406,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "1c4058f774997560ced0fa23e39817ae14970c020efcd3e28620fc418cfcdeed",
+   "copySha256": "9912d20871dd47f63a47970272c9669c85cb68b743c4bc21e4183caa386962de",
    "protocol": "V16.1-exp"
   },
   "2026-g1-bien-agir": {
@@ -423,9 +423,9 @@
    "candidates": [
     {
      "id": "retenue",
-     "proposal": "On peut donc être certain d’avoir bien agi, si l’on entend par là que l’acte répondait à ce que la situation, telle qu’elle était accessible, exigeait, et que ce jugement résiste à l’examen d’autrui.",
+     "proposal": "On peut parfois se juger avec une très grande assurance, lorsque les raisons accessibles et les principes invoqués résistent à la critique ; on ne tire pourtant pas une certitude absolue de la seule reconstitution des circonstances.",
      "cost": "Conserve la décision et les faits, explique les deux arrêts, tranche le cas témoin.",
-     "remainingProblem": "Mais que vaut cette certitude pour les actes que personne ne peut reconstituer avec nous ?",
+     "remainingProblem": "Comment tenir un jugement moral pour pleinement certain lorsque les faits accessibles et les principes selon lesquels nous jugeons peuvent encore être contestés ?",
      "preserves": [
       "Procéder d’une intention droite",
       "Faire effectivement du bien"
@@ -460,21 +460,21 @@
     }
    ],
    "selected": "retenue",
-   "comparison": "Retenue : Conserve la décision et les faits, explique les deux arrêts, tranche le cas témoin. Écartées ou dominées : Rechute dans la première réponse : les mobiles restent inconnus. Simple partage : sur l’Hudson, il ne dit pas si le pilote a bien agi. Elle juge encore des raisons, non l’acte, et laisse l’établissement des faits sans emploi.",
+   "comparison": "Voie retenue : Médiation par la situation accessible à l’agent ; distinction de la justification intersubjective et de la certitude absolue. ; justification : Construire un jugement imputable à la situation réelle sans confondre justification révisable et certitude absolue. Concurrentes : Rechute dans la première réponse : les mobiles restent inconnus. Simple partage : sur l’Hudson, il ne dit pas si le pilote a bien agi. Elle juge encore des raisons, non l’acte, et laisse l’établissement des faits sans emploi.",
    "strongestObjection": "l’agent qui se sait sans intérêt — FA n’y gagne que la conscience d’en être sans.",
    "responseToObjection": "survit (voir six exigences).",
-   "residual": "Reste que cette certitude suppose une situation que d’autres peuvent reconstituer, ce que ne permettent pas les actes sans témoin ni trace.",
-   "conclusionQuestion": "Mais que vaut cette certitude pour les actes que personne ne peut reconstituer avec nous ?",
+   "residual": "Reste à savoir ce que vaut un tel jugement quand les principes mêmes auxquels on mesure nos actes sont contestés, ou lorsque les traces de l'action manquent.",
+   "conclusionQuestion": "Comment tenir un jugement moral pour pleinement certain lorsque les faits accessibles et les principes selon lesquels nous jugeons peuvent encore être contestés ?",
    "economy": {
-    "words": 1220,
+    "words": 1184,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
-    "author": "Protocole V16.1-exp (rédaction assistée) ; relecture à effectuer",
+    "author": "Révision philosophique contradictoire du 7 novembre 2026",
     "status": "propose",
-    "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
+    "independentReview": "Inférences et portée de la troisième partie corrigées ; vérifications indépendantes de l'ensemble du corpus et des références encore requises."
    },
-   "copySha256": "f159a1ce9632ff816f39d974b9052005cae59e77db608c19cd3b7f4c7efeeba6",
+   "copySha256": "0f49dc44f710781c7b1c0435d23a7c48b8c37679a0dc790b493bca1ff1bb9633",
    "protocol": "V16.1-exp"
   },
   "2026-g1-nature-besoin": {
@@ -534,7 +534,7 @@
    "residual": "Reste que ce critère ne vaut que pour ce qui vit, et ne dit rien de ce que nous devons à ce qui ne vit pas, un fleuve, un glacier, une montagne.",
    "conclusionQuestion": "Mais devons-nous quelque chose aussi à ce qui ne vit pas ?",
    "economy": {
-    "words": 1220,
+    "words": 1130,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -542,7 +542,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "ab66575d1361b55370392fe0b777d87b021f476b9428daebb3fac21fc4c52e00",
+   "copySha256": "5a1c99391b17585794d904a53eb3f96d98b73cb961851e87dfca74f759c1355c",
    "protocol": "V16.1-exp"
   },
   "2026-me-bonheur-autres": {
@@ -602,7 +602,7 @@
    "residual": "Reste le cas où le malheur des autres excède tout ce que l’on peut, et où l’on ne sait plus ce que vaut un bonheur qui ne peut rien pour eux.",
    "conclusionQuestion": "Mais que reste-t-il au bonheur quand le malheur des autres dépasse tout ce que nous pouvons ?",
    "economy": {
-    "words": 1135,
+    "words": 1061,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -610,7 +610,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "f1a66cb2efd2b5dc2024b2ed7cd77b27b6049fdaaae0672eefc3c55a32bfc0b8",
+   "copySha256": "17975ec42e54ada9cefed7348b16a8831977568a9aa988de4cbba3fd1b421557",
    "protocol": "V16.1-exp"
   },
   "2026-me-paroles": {
@@ -670,7 +670,7 @@
    "residual": "Reste la parole qui a déjà blessé ou tué, et qu’aucune reprise ne peut défaire.",
    "conclusionQuestion": "Mais que vaut cette maîtrise quand l’aveu vient trop tard pour sauver celui que la parole a perdu ?",
    "economy": {
-    "words": 1063,
+    "words": 1010,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -678,7 +678,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "b4b213a16c5ca082c68e1475980fe599df1757d1180b5a0ab0e7b31c828aed1b",
+   "copySha256": "e8de46e1b375ddf4d6016c6ba12c85911c9b380dcc4953d56d3dd2689060ec14",
    "protocol": "V16.1-exp"
   },
   "notion-inconscient": {
@@ -738,7 +738,7 @@
    "residual": "Reste que le discernement peut être altéré sans être aboli, et que la frontière devient alors une affaire de degré.",
    "conclusionQuestion": "Mais où passe la frontière quand le discernement n’est ni entier ni perdu ?",
    "economy": {
-    "words": 1152,
+    "words": 1105,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -746,7 +746,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "9b23a3624413e0c5bfe782b3d4cd978a3eaf1f51606e84329f9bedf7aa58ac4b",
+   "copySha256": "7912608394a1d3328f6f3786c4cf30bd1d821272211bc0f36f51407af5ba7849",
    "protocol": "V16.1-exp"
   },
   "notion-liberte": {
@@ -806,7 +806,7 @@
    "residual": "Reste que, au moment où l’on veut rompre, c’est la volonté elle-même qui doit dire si elle juge ou si elle est emportée, et qu’elle peut se tromper.",
    "conclusionQuestion": "Mais qui nous dira, le jour où nous voudrons rompre, si c’est la raison ou la sirène qui parle ?",
    "economy": {
-    "words": 1098,
+    "words": 1038,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -814,7 +814,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "d58eb30b95db5240af9d452461794a2bf486678bb42c66c06a9d4ee1f34de27d",
+   "copySha256": "9850bdb92c83fd2f76d656025aee68082ca95fa77b5905f2ff0e9fbf2c698757",
    "protocol": "V16.1-exp"
   },
   "notion-raison": {
@@ -874,7 +874,7 @@
    "residual": "Reste qu’un tel examen demande du temps, et qu’il faut parfois agir avant que chacun ait pu le faire, au risque de persuader faute de pouvoir convaincre.",
    "conclusionQuestion": "Mais que faire quand l’épidémie n’attend pas que chacun ait examiné ?",
    "economy": {
-    "words": 1071,
+    "words": 1028,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -882,7 +882,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "341fcf43af3f59b82d6fb10c4173ca54600d41c5115addca7085fe0b15756063",
+   "copySha256": "b8319f9dce6dab5a9319abc186f9e6f01fe127008d7519069aa64194be61294b",
    "protocol": "V16.1-exp"
   },
   "notion-technique": {
@@ -942,7 +942,7 @@
    "residual": "Reste le cas où renoncer à un possible est lui-même irréversible, comme lorsqu’on laisse mourir ceux qu’il aurait sauvés.",
    "conclusionQuestion": "Mais que faire quand s’abstenir est, à son tour, une décision sans retour ?",
    "economy": {
-    "words": 1091,
+    "words": 1033,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -950,7 +950,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "1e40fc39fc80c08d35c5eecc2fb268f53c36d39834ff492ea8bf36a55003edac",
+   "copySha256": "8fb725cc8e6c19dca98ca26c1ea682669753284f5c2eb0bed65dc5aa55bc9381",
    "protocol": "V16.1-exp"
   },
   "notion-temps": {
@@ -1010,7 +1010,7 @@
    "residual": "Reste ce qu’aucune activité ne peut entretenir indéfiniment : le vivant lui-même, qui vieillit quoi qu’il fasse.",
    "conclusionQuestion": "Mais qu’en est-il de nous, que nulle reconstruction ne peut rendre à notre jeunesse ?",
    "economy": {
-    "words": 1032,
+    "words": 976,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -1018,7 +1018,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "69caee85d2dbdd53c9aa521faa837e7f0262496fb5305d014ab7b0afb1cc7c84",
+   "copySha256": "e6ba85115e150ae39b70fa01e7b5e03ba34cbdc904919fe92097be0a6bb0f553",
    "protocol": "V16.1-exp"
   },
   "notion-travail": {
@@ -1078,7 +1078,7 @@
    "residual": "Reste à savoir ce que deviendra cette part humaine si les machines rendent inutile la plupart des travaux, comme Aristote l’imaginait déjà : « si, de même, les navettes tissaient d’elles-mêmes et les plectres jouaient tout seuls de la cithare, alors les ingénieurs n’auraient pas besoin d’exécutants ni les maîtres d’esclaves ».",
    "conclusionQuestion": "Mais où trouverons-nous cette place, si les navettes finissent par tisser d’elles-mêmes ?",
    "economy": {
-    "words": 1104,
+    "words": 1060,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -1086,7 +1086,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "827d2bb6d12cb2f80b32587e4d81ad2903104d6fb6d7c3677f36e05abd1f191b",
+   "copySha256": "1a8da788e816a399c2a4c6bee61eb87c8ef09278536eaa0c9bc30bdbd54bf650",
    "protocol": "V16.1-exp"
   },
   "notion-verite": {
@@ -1146,7 +1146,7 @@
    "residual": "Reste le cas de ceux qui ne peuvent ni demander ni refuser, l’enfant, le malade qui n’a plus sa conscience, et pour qui d’autres doivent bien décider.",
    "conclusionQuestion": "Mais qui décidera pour celui qui ne peut plus rien demander ?",
    "economy": {
-    "words": 1053,
+    "words": 1021,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -1154,7 +1154,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "506abf6e49878a5bdd678f4f2a628a08883dff862c94142f89c03862a278be5a",
+   "copySha256": "dd687801ce15199b823d1881abb07c404ca34de1f12826fcac68e99aabd9b3a6",
    "protocol": "V16.1-exp"
   },
   "2025-me-verite": {
@@ -1221,7 +1221,7 @@
    "residual": "Reste le cas des vérités dont toutes les traces ont disparu, et que rien ne pourra plus jamais éprouver.",
    "conclusionQuestion": "Mais que devient une vérité dont plus rien ne garde la trace ?",
    "economy": {
-    "words": 1099,
+    "words": 1032,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -1229,7 +1229,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "e77469519a908e61347626b9e446949f6c4ddc663c1686e0b638622024b8a36c",
+   "copySha256": "92bfb79c6f39b1c2b0ae9fb710e60868b29e98fbdf45ca419fa930a7f51664bc",
    "protocol": "V16.1-exp"
   },
   "2025-me-avenir-technique": {
@@ -1253,9 +1253,9 @@
    "candidates": [
     {
      "id": "retenue",
-     "proposal": "Notre avenir dépend donc de la technique dans la mesure où nous laissons ses choix devenir le milieu de nos vies ; il dépend de nous tant que nous décidons avant.",
+     "proposal": "Notre avenir dépend donc des techniques parce qu'elles organisent le champ de nos choix ; il dépend aussi de nous parce que les décisions collectives peuvent, à des degrés divers, rouvrir ce champ.",
      "cost": "Explique le contraste entre l’ozone et le climat, conserve les deux acquis.",
-     "remainingProblem": "Mais comment décider à temps, quand on ne sait ce qu’est une technique qu’une fois qu’elle est partout ?",
+     "remainingProblem": "Comment décider avant qu'une technique ne devienne difficile à remplacer, lorsque ses effets futurs sont encore mal connus ?",
      "preserves": [
       "Être rendu possible par des moyens",
       "Rester le nôtre : choisi"
@@ -1290,21 +1290,21 @@
     }
    ],
    "selected": "retenue",
-   "comparison": "Retenue : Explique le contraste entre l’ozone et le climat, conserve les deux acquis. Écartées ou dominées : C’est la conciliation ; elle n’explique pas le climat. Utile, mais ne dit pas pourquoi certaines décisions échouent. Démenti par Montréal ; rechute dans une première réponse radicalisée.",
+   "comparison": "Voie retenue : Analyse des degrés de réversibilité et des dépendances d'infrastructure : articuler la décision collective et les contraintes techniques. ; justification : Conserver causalité technique et pouvoir d'agir, mesurer les degrés de réversibilité sans poser une opposition binaire moyen/milieu. Concurrentes : C’est la conciliation ; elle n’explique pas le climat. Utile, mais ne dit pas pourquoi certaines décisions échouent. Démenti par Montréal ; rechute dans une première réponse radicalisée.",
    "strongestObjection": "la renonciation au Concorde, décision qui l’emporte ; elle portait sur un moyen remplaçable : confirme D.",
    "responseToObjection": "survit.",
-   "residual": "Reste qu’on ne connaît bien une technique qu’une fois répandue, c’est-à-dire au moment où il devient difficile d’en décider.",
-   "conclusionQuestion": "Mais comment décider à temps, quand on ne sait ce qu’est une technique qu’une fois qu’elle est partout ?",
+   "residual": "Reste une difficulté : comment choisir assez tôt les techniques à développer ou à limiter quand leurs conséquences collectives sont encore incertaines ?",
+   "conclusionQuestion": "Comment décider avant qu'une technique ne devienne difficile à remplacer, lorsque ses effets futurs sont encore mal connus ?",
    "economy": {
-    "words": 1141,
+    "words": 1076,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
-    "author": "Protocole V16.1-exp (rédaction assistée) ; relecture à effectuer",
+    "author": "Révision philosophique contradictoire du 7 novembre 2026",
     "status": "propose",
-    "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
+    "independentReview": "Inférences et portée de la troisième partie corrigées ; vérifications indépendantes de l'ensemble du corpus et des références encore requises."
    },
-   "copySha256": "a7320329095472e558ed27ed2809fbb7e5a7d73e1a207faab076d3cff89a5814",
+   "copySha256": "41d04b5e766962c051885a1c38f0f837dfe7c206ab74afd367dd6ba9dfe44153",
    "protocol": "V16.1-exp"
   },
   "2025-me-besoin-art": {
@@ -1328,9 +1328,9 @@
    "candidates": [
     {
      "id": "retenue",
-     "proposal": "Nous avons donc besoin d’art, non pour vivre ni pour comprendre ce que d’autres paroles comprennent aussi, mais pour partager ce qu’aucun concept ne fixe.",
+     "proposal": "Nous avons ainsi besoin d'art au sens où les œuvres répondent à une aspiration profonde, non au sens où chacun serait incapable de vivre sans elles ou où aucune autre activité ne pourrait nous aider à partager ce que nous vivons.",
      "cost": "Dit ce que l’art seul accomplit, conserve les deux acquis, décide Terezín.",
-     "remainingProblem": "Mais une œuvre qui laisse son sens ouvert peut-elle se défendre contre ceux qui s’en servent pour mentir ?",
+     "remainingProblem": "Comment préserver la liberté de l'expérience artistique lorsque les œuvres peuvent aussi servir la propagande ?",
      "preserves": [
       "Répondre à un manque réel",
       "Rester l’affaire d’un goût libre"
@@ -1365,21 +1365,21 @@
     }
    ],
    "selected": "retenue",
-   "comparison": "Retenue : Dit ce que l’art seul accomplit, conserve les deux acquis, décide Terezín. Écartées ou dominées : C’est la conciliation, qui échoue sur Terezín. Vrai de certains usages, mais ne dit pas ce que l’art seul fait. Explique le loisir, non le Requiem.",
+   "comparison": "Voie retenue : Établir un besoin humain non vital sans prétendre que sa satisfaction soit exclusivement artistique. ; justification : Distinguer besoin vital, aspiration humaine et nécessité individuelle ; expliquer la puissance de l'art sans lui attribuer un monopole non démontré. Concurrentes : C’est la conciliation, qui échoue sur Terezín. Vrai de certains usages, mais ne dit pas ce que l’art seul fait. Explique le loisir, non le Requiem.",
    "strongestObjection": "des sociétés sans art distinct ; elles ont des chants, des ornements : confirme XB.",
    "responseToObjection": "survit.",
-   "residual": "Reste que la même forme peut être détournée : la dernière représentation fut donnée devant une délégation de la Croix-Rouge que les nazis voulaient tromper.",
-   "conclusionQuestion": "Mais une œuvre qui laisse son sens ouvert peut-elle se défendre contre ceux qui s’en servent pour mentir ?",
+   "residual": "Reste qu'une œuvre capable de réunir peut aussi être instrumentalisée : son pouvoir de partage ne garantit ni la liberté de ceux qui l'interprètent ni la justice de son usage.",
+   "conclusionQuestion": "Comment préserver la liberté de l'expérience artistique lorsque les œuvres peuvent aussi servir la propagande ?",
    "economy": {
-    "words": 1048,
+    "words": 1038,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
-    "author": "Protocole V16.1-exp (rédaction assistée) ; relecture à effectuer",
+    "author": "Révision philosophique contradictoire du 7 novembre 2026",
     "status": "propose",
-    "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
+    "independentReview": "Inférences et portée de la troisième partie corrigées ; vérifications indépendantes de l'ensemble du corpus et des références encore requises."
    },
-   "copySha256": "8df6bebe4606ee6cd28c17caf2c0f7f2113975e435a792c517e6711579fe4190",
+   "copySha256": "31d109a6b43654360857259992709cde950236b5c54c235478fb89e8f9285a87",
    "protocol": "V16.1-exp"
   }
  }
