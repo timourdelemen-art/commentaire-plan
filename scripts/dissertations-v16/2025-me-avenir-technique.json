@@ -86,6 +86,12 @@
     "statut": {
       "problematique": "suffisamment justifiée",
       "copie": "état de travail (architecture expérimentale)"
+    },
+    "ouvertures_de_pensee": {
+      "I": "Notre dépendance technique ne se réduit plus à une préférence pour des outils : elle touche les conditions matérielles sans lesquelles la plupart de nos projets ne pourraient même pas être entrepris.",
+      "II": "L'avenir cesse cependant d'apparaître comme le simple effet automatique des inventions : les institutions peuvent autoriser, interdire et réorienter leurs usages.",
+      "III": "Nous pouvons alors comprendre pourquoi décider reste possible sans être également facile partout : plus nos activités sont liées à une infrastructure, plus sa transformation exige des décisions coordonnées et durables.",
+      "statut": "Hypothèses établies à la mesure de leurs preuves ; ne pas transformer une possibilité en certitude."
     }
   },
   "citations": [
@@ -139,7 +145,7 @@
       [
         [
           "Notre avenir dépend de la technique, car nos conditions de vie en sont inséparables.",
-          "I.1 Établir la première réponse"
+          "I.1 Ouvrir une première manière de penser"
         ],
         [
           "Cette réponse sauve une évidence que les nostalgies oublient : huit milliards d’hommes ne se nourrissent, ne se soignent et ne se chauffent que par des techniques.",
@@ -152,6 +158,10 @@
         [
           "Or ces besoins ne sont plus satisfaits sans agriculture mécanisée, sans médecine, sans énergie : notre avenir dépend donc de la technique.",
           "I.2 L’inférence décisive"
+        ],
+        [
+          "Notre dépendance technique ne se réduit plus à une préférence pour des outils : elle touche les conditions matérielles sans lesquelles la plupart de nos projets ne pourraient même pas être entrepris.",
+          "I.2 Ce que la preuve ouvre"
         ],
         [
           "Ce fondement établit que les conditions matérielles de notre avenir dépendent de la technique.",
@@ -167,11 +177,11 @@
         ],
         [
           "La dépendance de nos conditions de vie à l’égard de la technique ne permet donc pas encore d’établir que notre avenir en dépende, parce qu’une même technique rend possibles des avenirs contraires.",
-          "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"
+          "I.3 La portée et le manque du premier fondement"
         ],
         [
           "Les techniques organisent nos conditions de vie, mais ne choisissent pas seules leurs usages. De quels choix humains leur développement dépend-il ?",
-          "Transition · l’examen nécessaire, en question"
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
         ]
       ]
     ],
@@ -180,7 +190,7 @@
       [
         [
           "C’est nous qui choisissons ce que nous ferons de nos techniques, et c’est donc de nos décisions que dépend notre avenir.",
-          "II.1 La seconde réponse, qui répond à l’examen demandé"
+          "II.1 Ouvrir une autre manière de penser"
         ],
         [
           "Elle ne nie pas que nos conditions de vie soient techniques ; elle montre qu’elles ne décident pas seules.",
@@ -193,6 +203,10 @@
         [
           "Le mythe que Platon fait raconter à Protagoras le disait déjà : les premiers hommes avaient reçu le feu et les arts : « Mais chaque fois qu’ils étaient rassemblés, ils se comportaient d’une manière injuste les uns envers les autres, parce qu’ils ne possédaient pas l’art politique, de sorte que, toujours, ils se dispersaient à nouveau et périssaient. »",
           "II.2 Citation qui fait voir que l’habileté technique ne décide pas du sort des hommes"
+        ],
+        [
+          "L'avenir cesse cependant d'apparaître comme le simple effet automatique des inventions : les institutions peuvent autoriser, interdire et réorienter leurs usages.",
+          "II.2 La possibilité que la seconde preuve révèle"
         ],
         [
           "Cette raison établit que nous pouvons décider de l’orientation et de l’usage des techniques.",
@@ -208,11 +222,11 @@
         ],
         [
           "Le pouvoir de décider des techniques ne permet donc pas encore d’établir que notre avenir dépende de nous, parce que nous ne décidons qu’entre des possibles que d’autres techniques ont déjà ouverts ou fermés.",
-          "II.3 Ce que la seconde réponse ne permet pas encore"
+          "II.3 La portée et le manque du second fondement"
         ],
         [
           "Nous dépendons de techniques que nous avons pourtant choisies. À partir de quand nos décisions sont-elles prises dans un milieu technique qu’elles ne peuvent plus remplacer ?",
-          "Transition · pourquoi leur partage échoue, et ce qui reste à établir, en question"
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
         ]
       ]
     ],
@@ -221,7 +235,7 @@
       [
         [
           "Notre avenir dépend à la fois des techniques déjà incorporées à nos vies et des décisions capables de les modifier. Mais cette dépendance varie : un dispositif isolé se remplace plus facilement qu'un réseau dont dépendent de nombreuses activités.",
-          "III.1 L’opération que la difficulté exige : la condition qui départage, selon le moment"
+          "III.1 Effectuer le déplacement nécessaire"
         ],
         [
           "Une infrastructure ne rend pas le choix impossible ; elle en modifie le coût, la durée et l'échelle. Changer de combustible dans une installation n'exige pas les mêmes décisions que transformer l'ensemble d'une organisation énergétique.",
@@ -236,6 +250,10 @@
           "III.2 Le critère sur un second cas"
         ],
         [
+          "Nous pouvons alors comprendre pourquoi décider reste possible sans être également facile partout : plus nos activités sont liées à une infrastructure, plus sa transformation exige des décisions coordonnées et durables.",
+          "III.2 Ce que la transformation fait comprendre"
+        ],
+        [
           "Notre avenir dépend donc des techniques parce qu'elles organisent le champ de nos choix ; il dépend aussi de nous parce que les décisions collectives peuvent, à des degrés divers, rouvrir ce champ.",
           "III.3 La réponse au sujet, avec son opérateur"
         ],
@@ -245,7 +263,7 @@
         ],
         [
           "Reste une difficulté : comment choisir assez tôt les techniques à développer ou à limiter quand leurs conséquences collectives sont encore incertaines ?",
-          "III.3 Le reste : ce que cette réponse ne règle pas"
+          "III.3 Le reste : ce qui demande encore à être pensé"
         ]
       ]
     ],
