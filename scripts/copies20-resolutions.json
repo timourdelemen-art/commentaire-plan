@@ -534,7 +534,7 @@
    "residual": "Reste que ce critère ne vaut que pour ce qui vit, et ne dit rien de ce que nous devons à ce qui ne vit pas, un fleuve, un glacier, une montagne.",
    "conclusionQuestion": "Mais devons-nous quelque chose aussi à ce qui ne vit pas ?",
    "economy": {
-    "words": 1130,
+    "words": 1022,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -542,7 +542,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "5a1c99391b17585794d904a53eb3f96d98b73cb961851e87dfca74f759c1355c",
+   "copySha256": "ba73796588e04211294677b18777703a83484f2154916049b0b4965026da0d31",
    "protocol": "V16.1-exp"
   },
   "2026-me-bonheur-autres": {
@@ -602,7 +602,7 @@
    "residual": "Reste le cas où le malheur des autres excède tout ce que l’on peut, et où l’on ne sait plus ce que vaut un bonheur qui ne peut rien pour eux.",
    "conclusionQuestion": "Mais que reste-t-il au bonheur quand le malheur des autres dépasse tout ce que nous pouvons ?",
    "economy": {
-    "words": 1061,
+    "words": 966,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -610,7 +610,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "17975ec42e54ada9cefed7348b16a8831977568a9aa988de4cbba3fd1b421557",
+   "copySha256": "82cbc5dd91c681cdb6c38027d969f0e5a483156e3dc90e5c41d6d08338dece4e",
    "protocol": "V16.1-exp"
   },
   "2026-me-paroles": {
@@ -670,7 +670,7 @@
    "residual": "Reste la parole qui a déjà blessé ou tué, et qu’aucune reprise ne peut défaire.",
    "conclusionQuestion": "Mais que vaut cette maîtrise quand l’aveu vient trop tard pour sauver celui que la parole a perdu ?",
    "economy": {
-    "words": 1010,
+    "words": 937,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -678,7 +678,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "e8de46e1b375ddf4d6016c6ba12c85911c9b380dcc4953d56d3dd2689060ec14",
+   "copySha256": "b206e011c22d9abe150076aa307b098d7e389164e46d6695108971358e9c7ad2",
    "protocol": "V16.1-exp"
   },
   "notion-inconscient": {
@@ -738,7 +738,7 @@
    "residual": "Reste que le discernement peut être altéré sans être aboli, et que la frontière devient alors une affaire de degré.",
    "conclusionQuestion": "Mais où passe la frontière quand le discernement n’est ni entier ni perdu ?",
    "economy": {
-    "words": 1105,
+    "words": 1036,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -746,7 +746,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "7912608394a1d3328f6f3786c4cf30bd1d821272211bc0f36f51407af5ba7849",
+   "copySha256": "4f50be6f90fb7621f5a9e9a1d2f876df393a63cf79820fa93b0b9a6ca7b505bf",
    "protocol": "V16.1-exp"
   },
   "notion-liberte": {
@@ -806,7 +806,7 @@
    "residual": "Reste que, au moment où l’on veut rompre, c’est la volonté elle-même qui doit dire si elle juge ou si elle est emportée, et qu’elle peut se tromper.",
    "conclusionQuestion": "Mais qui nous dira, le jour où nous voudrons rompre, si c’est la raison ou la sirène qui parle ?",
    "economy": {
-    "words": 1038,
+    "words": 934,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -814,7 +814,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "9850bdb92c83fd2f76d656025aee68082ca95fa77b5905f2ff0e9fbf2c698757",
+   "copySha256": "9faea18c6a7d60468b50fe3a639feaafc503f0c76561ae12d40419e14b1a5780",
    "protocol": "V16.1-exp"
   },
   "notion-raison": {
@@ -874,7 +874,7 @@
    "residual": "Reste qu’un tel examen demande du temps, et qu’il faut parfois agir avant que chacun ait pu le faire, au risque de persuader faute de pouvoir convaincre.",
    "conclusionQuestion": "Mais que faire quand l’épidémie n’attend pas que chacun ait examiné ?",
    "economy": {
-    "words": 1028,
+    "words": 957,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -882,7 +882,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "b8319f9dce6dab5a9319abc186f9e6f01fe127008d7519069aa64194be61294b",
+   "copySha256": "de703a11cb5f9926a0a39ffdb21fa8c0a3a597a89c61674c51019db603e271de",
    "protocol": "V16.1-exp"
   },
   "notion-technique": {
@@ -942,7 +942,7 @@
    "residual": "Reste le cas où renoncer à un possible est lui-même irréversible, comme lorsqu’on laisse mourir ceux qu’il aurait sauvés.",
    "conclusionQuestion": "Mais que faire quand s’abstenir est, à son tour, une décision sans retour ?",
    "economy": {
-    "words": 1033,
+    "words": 950,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -950,7 +950,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "8fb725cc8e6c19dca98ca26c1ea682669753284f5c2eb0bed65dc5aa55bc9381",
+   "copySha256": "c16825d391da9a87d3fa40e772009b5cdc28277e96ebf24e2b80cce7c8a1f66b",
    "protocol": "V16.1-exp"
   },
   "notion-temps": {
