@@ -86,6 +86,12 @@
     "statut": {
       "problematique": "suffisamment justifiée",
       "copie": "état de travail (architecture expérimentale)"
+    },
+    "ouvertures_de_pensee": {
+      "I": "La maîtrise de la parole cesse d'être une idée vague : nous découvrons qu'elle inclut le pouvoir de retenir, de choisir et de corriger ce que nous allons dire.",
+      "II": "Il devient pourtant possible de penser qu'une parole n'appartient jamais entièrement à son auteur : son sens se construit aussi dans l'attente et l'interprétation de celui qui l'entend.",
+      "III": "Une autre manière de comprendre la maîtrise apparaît : ne pouvant garantir tout ce qui sera entendu, le locuteur peut encore répondre de ses paroles et tenter d'en reprendre le sens.",
+      "statut": "Possibilités justifiées, avec leur portée exacte."
     }
   },
   "citations": [
@@ -139,7 +145,7 @@
       [
         [
           "Nous avons la maîtrise de nos paroles, car parler est un acte que nous pouvons retenir, différer ou reformuler.",
-          "I.1 Établir la première réponse"
+          "I.1 Ouvrir une première manière de penser"
         ],
         [
           "Cette réponse sauve ce que nous faisons chaque jour : peser un mot, en préférer un autre, nous taire à temps.",
@@ -152,6 +158,10 @@
         [
           "Phèdre elle-même le prouve : pendant toute la scène, elle tient en réserve le seul mot qui la perdrait.",
           "I.2 L’inférence vérifiée sur la scène"
+        ],
+        [
+          "La maîtrise de la parole cesse d'être une idée vague : nous découvrons qu'elle inclut le pouvoir de retenir, de choisir et de corriger ce que nous allons dire.",
+          "I.2 Ce que la preuve ouvre"
         ],
         [
           "Ce fondement établit que nous maîtrisons le choix et l’émission de nos paroles : dire ou taire, tel mot plutôt qu’un autre.",
@@ -167,11 +177,11 @@
         ],
         [
           "Le pouvoir de choisir ses mots ne permet donc pas encore d’établir que l’on maîtrise ce qu’ils disent, parce qu’il cesse au moment où la parole est entendue.",
-          "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"
+          "I.3 La portée et le manque du premier fondement"
         ],
         [
           "Nous choisissons nos mots ; leur sens dépend pourtant aussi de ceux qui les entendent. Que devient alors notre maîtrise une fois les paroles prononcées ?",
-          "Transition · l’examen nécessaire, en question"
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
         ]
       ]
     ],
@@ -180,7 +190,7 @@
       [
         [
           "Ce que dit une parole appartient aussi à ceux qui l’entendent, et en ce sens nos paroles nous échappent.",
-          "II.1 La seconde réponse, qui répond à l’examen demandé"
+          "II.1 Ouvrir une autre manière de penser"
         ],
         [
           "Elle ne nie pas que nous choisissions nos mots ; elle montre que le choix ne fixe pas le sens.",
@@ -193,6 +203,10 @@
         [
           "Le sens reçu n’est donc pas sous le contrôle de celui qui parle : Œnone comprend Phèdre mieux que Phèdre ne voulait se faire comprendre.",
           "II.2 L’inférence décisive, sur la scène"
+        ],
+        [
+          "Il devient pourtant possible de penser qu'une parole n'appartient jamais entièrement à son auteur : son sens se construit aussi dans l'attente et l'interprétation de celui qui l'entend.",
+          "II.2 La possibilité que la seconde preuve révèle"
         ],
         [
           "Cette raison établit que le sens et les effets de nos paroles ne dépendent pas de nous seuls.",
@@ -208,11 +222,11 @@
         ],
         [
           "Que le sens de nos paroles nous échappe ne permet donc pas encore d’établir que nous n’en soyons pas maîtres, parce qu’on peut répondre de ce qu’on ne contrôle pas.",
-          "II.3 Ce que la seconde réponse ne permet pas encore"
+          "II.3 La portée et le manque du second fondement"
         ],
         [
           "Nous choisissons ce que nous disons, mais non tout ce qui est compris. Comment rester responsables d’une parole dont le sens nous échappe en partie ?",
-          "Transition · pourquoi leur partage échoue, et ce qui reste à établir, en question"
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
         ]
       ]
     ],
@@ -221,7 +235,7 @@
       [
         [
           "On peut être maître d’une parole dont le sens échappe si l’on distingue deux maîtrises : contrôler une parole avant de la dire, et la reprendre après l’avoir dite, pour l’expliquer, la rectifier ou la tenir.",
-          "III.1 L’opération que la difficulté exige : une distinction"
+          "III.1 Effectuer le déplacement nécessaire"
         ],
         [
           "La première porte sur l’émission, la seconde sur ce que la parole est devenue.",
@@ -240,6 +254,10 @@
           "III.2 Ce qu’elle explique"
         ],
         [
+          "Une autre manière de comprendre la maîtrise apparaît : ne pouvant garantir tout ce qui sera entendu, le locuteur peut encore répondre de ses paroles et tenter d'en reprendre le sens.",
+          "III.2 Ce que la transformation fait comprendre"
+        ],
+        [
           "Nous n’avons donc pas la maîtrise du sens de nos paroles, mais nous avons celle d’en répondre, et c’est par là que nous en devenons les maîtres.",
           "III.3 La réponse au sujet, avec son opérateur"
         ],
@@ -249,7 +267,7 @@
         ],
         [
           "Reste la parole qui a déjà blessé ou tué, et qu’aucune reprise ne peut défaire.",
-          "III.3 Le reste : ce que cette réponse ne règle pas"
+          "III.3 Le reste : ce qui demande encore à être pensé"
         ]
       ]
     ],
