@@ -1,0 +1,263 @@
+{
+ "id": "notion-verite",
+ "subject": "Toute vérité est-elle bonne à dire ?",
+ "notion": "La vérité ; le devoir",
+ "fiche": {
+  "operateur": "universelle (« toute ») sur une valeur (« bonne à dire ») : toute vérité doit-elle, ou peut-elle légitimement, être dite ; question normative ; un contre-exemple établi suffit au non, sans conclure qu’il soit permis de mentir.",
+  "sens": "bonne à dire : (1) qu’on a raison de dire, moralement ; (2) opportune (trop faible). dire : énoncer à quelqu’un, de sa propre initiative ou à sa demande. vérité : (1) ce qui est vrai ; (2) en particulier ce qui est vrai d’une personne et de sa vie.",
+  "substitutions_interdites": "ne pas dire ≠ mentir ; bonne ≠ agréable ; toute vérité ≠ la vérité en général.",
+  "verrou": "Oui : établir que toute vérité doit être dite, ou du moins qu’on a toujours raison de la dire. Non : une vérité établie qu’on a raison de ne pas dire, sans conclure qu’on puisse mentir. Glissements interdits : de « taire » à « mentir » ; de « certaines vérités blessent » à « on peut cacher toute vérité qui blesse ».",
+  "trois_reponses": "Spontanée : non, toute vérité n’est pas bonne à dire. Contraire : oui, la vérité est due. Conciliation : il faut tout dire, mais avec ménagement.",
+  "conciliation_1_8bis": "Tout dire, avec la manière. Elle hésite sur Beauvoir au chevet de sa mère : la manière ne règle pas la question de savoir si l’on dit qu’il s’agit d’un cancer ; elle se tait.",
+  "brouillon": {
+   "a": "Oui : la parole suppose la confiance, et cacher une vérité, c’est traiter l’autre comme un être à manœuvrer.",
+   "b": "Cela établit qu’on ne doit pas mentir ; non qu’on doive dire toute vérité : se taire n’est pas tromper.",
+   "c": "Il faut examiner la décision de dire : ce que la vérité fait à celui qui l’entend.",
+   "d": "Une vérité qui blesse sans servir n’est pas bonne à dire ; mais juger par les effets, c’est décider à la place de l’autre de ce qu’il doit savoir.",
+   "e": "Les deux s’affrontent sur l’annonce d’un mal grave ; il reste à savoir à qui revient la décision."
+  },
+  "A": "Toute vérité est bonne à dire : la vérité est due à l’autre comme à un être capable de juger.",
+  "FA": "Universalisation (III.3, condition de possibilité). 1. La parole n’est possible que si l’on peut se fier à ce qui est dit (E). 2. Celui qui trompe se sert de cette confiance et traite l’autre comme un être à manœuvrer (E). 3. Donc on doit la vérité à quiconque on parle.",
+  "XA": "Mentir n’est jamais bon : la vérité est due à celui à qui l’on parle, comme à un être capable de juger.",
+  "YA": "Qu’il faille dire toute vérité, et non seulement ne pas mentir.",
+  "ZA": "FA raisonne sur ce qu’on affirme quand on parle ; sa prémisse (la confiance dans ce qui est dit) ne porte pas sur la décision de parler.",
+  "type_LA": "distinction indispensable (ne pas mentir / tout dire)",
+  "LA": "Le devoir de ne pas tromper ne permet donc pas encore d’établir que toute vérité soit bonne à dire, parce qu’il porte sur ce qu’on affirme, non sur la décision de parler.",
+  "six_LA": "Mesure : XA écrit. Filiation : prémisse 1 (confiance dans ce qui est dit). Meilleur cas : même le plus scrupuleux des hommes ne dit pas tout ce qu’il sait. Absorption : FA dirait « taire, c’est déjà tromper » ; seulement si l’autre est en droit d’attendre qu’on parle, ce qui est la question. Non-lacune : oui. Calibration : oui.",
+  "T1": "Nous avons établi qu’on ne doit pas mentir ; mais cela ne dit pas qu’il faille tout dire, parce que ce devoir porte sur ce qu’on affirme et non sur la décision de parler ; il faut donc examiner cette décision (W : le sens que la distinction isole).",
+  "B": "Toute vérité n’est pas bonne à dire : dire est un acte, qui se juge à ce qu’il fait à celui qui l’entend. B conserve XA (on ne ment pas pour autant).",
+  "FB": "Conséquence (III.3). 1. Dire une vérité à quelqu’un est un acte qui le touche (E). 2. Un acte se juge aussi à ses effets sur celui qu’il touche (E). 3. Une vérité qui blesse sans rien lui apporter est un acte nuisible. Indépendance : vaut sans LA. Principe propre : le jugement par les effets sur autrui.",
+  "XB": "Dire une vérité est un acte qu’on a raison de juger à ses effets sur celui qui l’entend.",
+  "YB": "Qui a le droit de décider ce que l’autre peut entendre.",
+  "ZB": "FB fait juger les effets par celui qui parle ; il lui donne ainsi le pouvoir de disposer de vérités que l’autre a peut-être le droit de connaître.",
+  "type_LB": "difficulté de compatibilité (avec l’acquis de I : l’autre est capable de juger)",
+  "LB": "Le jugement par les effets ne permet donc pas encore de dire qui doit décider qu’une vérité sera tue, parce qu’il en remet la décision à celui qui parle, à la place de celui qu’elle concerne.",
+  "six_LB": "Mesure : XB écrit. Filiation : prémisse 2 (c’est celui qui agit qui juge des effets). Meilleur cas : le médecin le plus bienveillant décide encore pour son malade. Absorption : FB dirait « il suffit de bien juger » ; le malade n’est pas consulté pour autant. Non-lacune : oui. Calibration : oui. Geste : cas exemplaire (le mensonge médical), différent de I.3.",
+  "T2": "Bilan : XA, XB. ρ : conflit sur un cas (l’annonce d’un mal grave : A commande de dire, B d’épargner). D : établir un principe qui décide le cas sans faire du devoir de vérité une brutalité ni de la compassion une tutelle. Cumul : « tout dire, avec ménagement » ne décide pas s’il faut dire (les deux réponses se disputent la même décision). Classe : décision.",
+  "epreuves": "1. Contre-exemple : le secret confié, qu’on a raison de taire ; il confirme le non sans régler le cas. 2. Meilleur cas : survit. 3. Cumul : échec écrit. 4. Antériorité : le droit du malade à savoir, et à ne pas savoir, est inscrit dans la loi française depuis 2002 ; il exige un principe qui le fonde : candidat de III, transposé.",
+  "soupcon_aporie": "aucun indice ; régime ordinaire.",
+  "chemins_echoues": "Chemin aporétique de l’ancienne copie (dire toute vérité, c’est cesser d’éclairer / en taire, c’est décider à sa place) : la seconde branche est reprise comme limite de II, non comme impossibilité ; écarté comme aporie.",
+  "dictionnaire": "non consulté.",
+  "phrase_mouvement": "A, parce que la parole vit de confiance, établit qu’on ne doit pas mentir ; mais non qu’il faille tout dire ; il faut donc examiner la décision de parler. B, parce que dire est un acte qui touche, établit qu’on le juge à ses effets ; mais remet la décision à celui qui parle. Or ils s’affrontent sur l’annonce d’un mal grave ; il reste le principe qui la décide.",
+  "probleme_directeur": "Toute vérité est-elle bonne à dire, si l’on ne doit pas tromper mais qu’on ne doit pas non plus blesser sans raison ?",
+  "problematique": "S’il est vrai qu’on ne doit jamais tromper celui à qui l’on parle, mais qu’une vérité peut blesser sans rien lui apporter, toute vérité est-elle bonne à dire, quand celui qui la tait décide à la place de celui qu’elle concerne ?",
+  "forme_problematique": "G3 (deux acquis en protases, « toute vérité est-elle bonne à dire » conservé, interrogation sur le cas de conflit). Reconstruction : on part du devoir de ne pas tromper, on bute sur la décision de parler, on juge par les effets, on bute sur la tutelle ; la III doit dire à qui revient la décision. Relecture : « toute » conservé.",
+  "critere": "Sur la mère de Beauvoir, une solution devra dire si cette vérité était bonne à dire, conserver qu’on ne doit pas tromper et qu’une vérité peut blesser sans servir, expliquer les deux arrêts, et dire qui décide.",
+  "contrainte_scene": "montrer une vérité grave, tue par amour, et le malaise de celles qui la taisent.",
+  "III": {
+   "operation": "principe d’ordre (III.7 a, ρ : conflit) : une vérité qui concerne la vie de quelqu’un lui appartient ; c’est à lui de décider s’il veut la savoir.",
+   "III1": "Le principe : une vérité qui concerne la vie de quelqu’un lui appartient ; on lui doit de pouvoir la savoir, et c’est à lui, non à celui qui parle, de décider s’il veut l’entendre et quand.",
+   "III2": "Conserve XA (l’autre est traité comme capable de juger) et XB (dire est un acte qui touche, d’où le choix du moment et de la manière) ; explique LA (le devoir de ne pas tromper ne disait pas qui décide de parler) et LB (le jugement par les effets donnait la décision au mauvais juge).",
+   "III3": "Toute vérité n’est pas bonne à dire, mais celle qui concerne la vie d’un autre est bonne à lui offrir, et c’est à lui de la recevoir ou non ; vérifié sur la mère de Beauvoir. Reste : ceux qui ne peuvent ni demander ni refuser.",
+   "tests": "Cas témoin : la vérité appartenait à la mère, non à ses filles ; il fallait lui offrir de savoir, non décider qu’elle ne saurait pas ; ni A, ni B, ni le ménagement ne le disaient. Second cas : la rumeur, vérité qui ne concerne pas celui à qui on la dit, et que le principe ne rend pas bonne à dire. Restitution : oui. Rechute : le reste (ceux qui ne peuvent décider) ne redit ni LA ni LB. Test propre : le principe vaut sur un second cas, il n’est pas taillé pour le cas témoin. Report : non. Acquis nouveau : prémisse nouvelle — une vérité sur une vie appartient à celui qui la vit ; nécessaire à la décision."
+  },
+  "candidats_III": [
+   {
+    "id": "retenue",
+    "operation": "Principe d’ordre",
+    "proposition": "Une vérité qui concerne la vie de quelqu’un lui appartient : c’est à lui de décider s’il veut la savoir.",
+    "verdict": "retenue",
+    "raison": "Décide le cas, conserve les deux acquis, explique les deux arrêts."
+   },
+   {
+    "id": "menagement",
+    "operation": "Partage",
+    "proposition": "Tout dire, mais avec ménagement.",
+    "verdict": "écartée",
+    "raison": "C’est la conciliation : la manière ne décide pas s’il faut dire."
+   },
+   {
+    "id": "utilite",
+    "operation": "Critère",
+    "proposition": "Une vérité est bonne à dire si elle sert à celui qui l’entend.",
+    "verdict": "dominée",
+    "raison": "Retombe sur la seconde réponse : qui juge de ce qui sert ?"
+   },
+   {
+    "id": "kant",
+    "operation": "Principe d’ordre",
+    "proposition": "Le devoir de vérité l’emporte toujours.",
+    "verdict": "écartée",
+    "raison": "Rechute dans la première réponse ; confond ne pas mentir et tout dire."
+   }
+  ],
+  "generateur": "figure : le conflit ; registre opératoire : par cas et variation ; registre de lecture : par cas ; branches B2 ; annonce N1.",
+  "scene": "Simone de Beauvoir, Une mort très douce (1964) : à l’automne 1963, sa mère est opérée d’un cancer ; ses filles et les médecins lui laissent croire à une péritonite. Paraphrase seulement. Le droit du malade à être informé, et à ne pas l’être, est inscrit dans la loi du 4 mars 2002. Verdict : homologue. Retour : à qui appartenait la vérité.",
+  "statut": {
+   "problematique": "suffisamment justifiée",
+   "copie": "état de travail (architecture expérimentale)"
+  }
+ },
+ "citations": [],
+ "copy": [
+  [
+   "INTRODUCTION",
+   [
+    [
+     "À l’automne 1963, la mère de Simone de Beauvoir est opérée d’un cancer ; ses filles et les médecins conviennent de lui laisser croire à une péritonite.",
+     "Introduction · la scène"
+    ],
+    [
+     "Dans Une mort très douce, Beauvoir raconte les semaines de ce mensonge tendre, et le malaise de celle qui le soutient au chevet de sa mère.",
+     "Introduction · la scène : le malaise"
+    ],
+    [
+     "Taire la vérité épargnait une mourante ; c’était pourtant décider pour elle de ce qu’elle saurait de sa propre mort.",
+     "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"
+    ],
+    [
+     "On attend de celui qui parle qu’il ne trompe pas, mais aussi qu’il ne blesse pas sans raison.",
+     "Introduction · l’enjeu"
+    ],
+    [
+     "Une vérité bonne à dire n’est pas seulement une vérité agréable : c’est une vérité qu’on a raison de dire, et le sujet demande si c’est le cas de toutes.",
+     "Introduction · les mots du sujet"
+    ],
+    [
+     "Certes, on ne doit pas tromper, parce que toute parole vit de confiance ; mais ne pas tromper n’est pas encore tout dire. On répondra qu’une vérité qui blesse sans servir n’est pas bonne à dire ; mais c’est alors celui qui parle qui décide de ce que l’autre peut entendre.",
+     "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"
+    ],
+    [
+     "S’il est vrai qu’on ne doit jamais tromper celui à qui l’on parle, mais qu’une vérité peut blesser sans rien lui apporter, toute vérité est-elle bonne à dire, quand celui qui la tait décide à la place de celui qu’elle concerne ?",
+     "Introduction · la problématique : une seule question, qui garde « toute vérité »"
+    ],
+    [
+     "On examinera d’abord pourquoi toute vérité paraît due, et jusqu’où cette raison porte ; ce qu’elle laisse en suspens obligera à examiner la décision de parler ; il faudra alors établir ce que ces deux voies, ensemble, laissent encore ouvert.",
+     "Introduction · l’annonce"
+    ]
+   ]
+  ],
+  [
+   "I. LA VÉRITÉ EST DUE",
+   [
+    [
+     "Toute vérité est bonne à dire, car on la doit à celui à qui l’on parle, comme à un être capable de juger.",
+     "I.1 Établir la première réponse"
+    ],
+    [
+     "Cette réponse sauve ce que le mensonge, même tendre, abîme : la confiance, et le respect qu’on doit à un adulte.",
+     "I.1 Ce qu’elle sauve"
+    ],
+    [
+     "La parole n’est possible que si l’on peut se fier à ce qui est dit ; celui qui trompe se sert de cette confiance pour conduire l’autre où il ne serait pas allé de lui-même.",
+     "I.2 La fonder : la condition de toute parole"
+    ],
+    [
+     "Tromper, c’est donc traiter l’autre en être à manœuvrer, et l’on doit la vérité à quiconque on parle.",
+     "I.2 L’inférence décisive"
+    ],
+    [
+     "Ce fondement établit que mentir n’est jamais bon : la vérité est due à celui à qui l’on parle, comme à un être capable de juger.",
+     "I.3 L’éprouver : ce qu’il établit"
+    ],
+    [
+     "Mais il raisonne sur ce qu’on affirme quand on parle, et sa prémisse ne porte pas sur la décision de parler : celui qui se tait ne se sert d’aucune confiance.",
+     "I.3 Ce qu’il ne permet pas encore, et pourquoi"
+    ],
+    [
+     "Les filles auraient pu ne rien dire du tout, sans inventer de péritonite : elles n’auraient pas trompé leur mère, et la question de savoir s’il fallait lui dire le cancer serait restée entière.",
+     "I.3 Sur la scène"
+    ],
+    [
+     "Le devoir de ne pas tromper ne permet donc pas encore d’établir que toute vérité soit bonne à dire, parce qu’il porte sur ce qu’on affirme, non sur la décision de parler.",
+     "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"
+    ],
+    [
+     "On ne doit pas tromper ; mais cela ne dit pas qu’il faille tout dire, parce que ce devoir porte sur ce qu’on affirme, non sur la décision de parler. Il faut donc examiner cette décision : que fait une vérité à celui qui l’entend ?",
+     "Transition · l’examen nécessaire, en question"
+    ]
+   ]
+  ],
+  [
+   "II. DIRE EST UN ACTE",
+   [
+    [
+     "Une vérité touche celui qui l’entend, et toute vérité n’est donc pas bonne à dire : certaines blessent sans rien apporter.",
+     "II.1 La seconde réponse, qui répond à l’examen demandé"
+    ],
+    [
+     "Elle ne permet pas de mentir ; elle demande seulement si l’on doit parler.",
+     "II.1 Ce qu’elle conserve"
+    ],
+    [
+     "Dire une vérité à quelqu’un est un acte qui le touche, et un acte se juge aussi à ce qu’il fait à celui qu’il touche.",
+     "II.2 La fonder par les effets"
+    ],
+    [
+     "Une vérité qui ne donne à celui qui l’entend que de la douleur, sans rien qu’il puisse en faire, est un acte nuisible, et l’on a raison de s’en abstenir.",
+     "II.2 L’inférence décisive"
+    ],
+    [
+     "Cette raison établit que dire une vérité est un acte qu’on a raison de juger à ses effets sur celui qui l’entend.",
+     "II.3 L’éprouver : ce qu’elle établit"
+    ],
+    [
+     "Mais elle fait juger ces effets par celui qui parle, et lui donne ainsi le pouvoir de disposer de vérités que l’autre a peut-être le droit de connaître : la bienveillance devient une tutelle.",
+     "II.3 Ce qu’elle ne permet pas encore, et pourquoi"
+    ],
+    [
+     "Pendant longtemps, les médecins ont caché leur diagnostic aux malades graves, avec l’accord des familles, en jugeant mieux qu’eux de ce qu’ils pouvaient supporter.",
+     "II.3 Le cas qui l’éprouve : un autre geste qu’en I.3"
+    ],
+    [
+     "Le jugement par les effets ne permet donc pas encore de dire qui doit décider qu’une vérité sera tue, parce qu’il en remet la décision à celui qui parle, à la place de celui qu’elle concerne.",
+     "II.3 Ce que la seconde réponse ne permet pas encore"
+    ],
+    [
+     "On ne doit pas tromper, et l’on a raison de juger une vérité à ce qu’elle fait ; mais les deux réponses s’affrontent sur le même cas, celui d’un mal grave : l’une commande de le dire, l’autre d’épargner. Dire tout, mais avec ménagement, ne décide pas s’il faut dire le cancer : à qui revient donc la décision de savoir ?",
+     "Transition · pourquoi leur addition échoue, et ce qui reste à établir, en question"
+    ]
+   ]
+  ],
+  [
+   "III. À QUI APPARTIENT UNE VÉRITÉ",
+   [
+    [
+     "La décision de savoir revient à celui dont la vérité concerne la vie : elle lui appartient, et c’est à lui, non à celui qui parle, de décider s’il veut l’entendre, et quand.",
+     "III.1 L’opération que la difficulté exige : un principe qui décide"
+    ],
+    [
+     "On lui doit de pouvoir la savoir ; on ne lui doit pas de la lui imposer.",
+     "III.1 Ce que le principe exige et ce qu’il n’exige pas"
+    ],
+    [
+     "Ce principe conserve les deux réponses : l’autre est traité comme un être capable de juger, et la parole reste un acte dont on choisit le moment et la manière.",
+     "III.2 La démontrer : ce qu’il conserve"
+    ],
+    [
+     "Il explique aussi leurs arrêts : le devoir de ne pas tromper ne disait pas qui décide de parler, et le jugement par les effets donnait cette décision au mauvais juge.",
+     "III.2 Ce qu’il explique"
+    ],
+    [
+     "Toute vérité n’est donc pas bonne à dire ; mais celle qui concerne la vie d’un autre est bonne à lui offrir, et c’est à lui de la recevoir ou non.",
+     "III.3 La réponse au sujet, avec son opérateur"
+    ],
+    [
+     "La vérité du cancer appartenait à la mère de Beauvoir, non à ses filles : il fallait lui offrir de savoir, quitte à respecter son refus, non décider qu’elle ne saurait pas.",
+     "III.3 La réponse vérifiée sur le cas"
+    ],
+    [
+     "Reste le cas de ceux qui ne peuvent ni demander ni refuser, l’enfant, le malade qui n’a plus sa conscience, et pour qui d’autres doivent bien décider.",
+     "III.3 Le reste : ce que cette réponse ne règle pas"
+    ]
+   ]
+  ],
+  [
+   "CONCLUSION",
+   [
+    [
+     "Toute vérité n’est pas bonne à dire, mais celle qui concerne la vie de quelqu’un lui appartient : on lui doit de pouvoir la savoir, et c’est à lui de décider s’il veut l’entendre.",
+     "Conclusion · la réponse, avec l’opérateur"
+    ],
+    [
+     "Le mensonge des filles Beauvoir était tendre ; il disposait pourtant de ce qui n’était pas à elles.",
+     "Conclusion · retour à la scène"
+    ],
+    [
+     "Mais qui décidera pour celui qui ne peut plus rien demander ?",
+     "Conclusion · le reste en question"
+    ]
+   ]
+  ]
+ ]
+}

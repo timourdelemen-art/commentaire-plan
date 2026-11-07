@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+const EXO=require('./dissertations-v16-exercices.json');
 /* Génère une page statique (indexable) par sujet de philosophie du bac 2026, à partir de philosophie-annales-data.js :
    philosophie-bac-2026-<sujet>.html. L’ancienne adresse philosophie-annale.html?id=… redirige vers ces pages.
    Idempotent : relancer le script réécrit les pages. */
@@ -40,10 +41,18 @@ ${C20.has&&C20.has(x.id)?'<p class="micro"><strong>2. L’introduction rédigée
 ${C20.has&&C20.has(x.id)?'<p class="micro"><strong>4. La conclusion rédigée</strong> : elle termine le devoir complet, plus bas.</p>':`<details class="correction"><summary>4. La conclusion rédigée</summary><p>${esc(x.conclusion)}</p></details>`}
 <p class="micro">Ce n’est pas la seule réponse juste : une autre problématique est bonne si elle passe le test du gant. Les auteurs cités ne sont là que parce qu’ils font avancer l’idée ; un devoir sans eux peut être excellent. L’introduction part d’une scène où le problème se voit déjà ; la conclusion y revient.</p>
 ${PRINT}</article></section>\n`;
-  const train=niveaux(x)+step('1 · LIRE LE SUJET','Votre première réponse.','<ol class="consigne-simple"><li>Répondez au sujet en une phrase qui reprend ses mots.</li><li>Expliquez en une phrase le rôle d’un petit mot du sujet.</li></ol>','philo-reponse',4,'Des mots comme « toujours », « sans » ou « seulement » changent ce qu’il faut examiner. « Suffire » signifie qu’aucune autre condition ne serait nécessaire.')+
-  step('2 · CE QUE LA NOTION DEMANDE','Deux exigences à examiner.','<ol class="consigne-simple"><li>Écrivez deux choses que l’on attend de la notion, une phrase chacune.</li><li>Décrivez en une phrase un cas où ces attentes se gênent.</li></ol>','philo-consequence',4,'Une exigence, c’est ce qu’on attend du grand mot du sujet. Par exemple, de la liberté, on attend de pouvoir suivre ses désirs, mais aussi de ne pas en être l’esclave. Cherchez ce que les mots de votre sujet demandent précisément.')+
-  step('3 · CE QUE CHAQUE RÉPONSE PERD','Examinez les deux réponses.','<p>Pour chaque réponse, expliquez en une phrase ce qu’elle préserve et la difficulté qu’elle rencontre.</p>','philo-cout',5)+
-  BROUILLON(3)+step('4 · LA PROBLÉMATIQUE','Formulez le problème.','<p>À partir des deux difficultés relevées, formulez le problème en une question.</p>','philo-problematique',4)+
+  const E=EXO[x.id];
+  const li=a=>`<ol class="consigne-simple">${a.map(t=>`<li>${esc(t)}</li>`).join('')}</ol>`;
+  const c1=E?li(E.s1):'<ol class="consigne-simple"><li>Répondez au sujet en une phrase qui reprend ses mots.</li><li>Expliquez en une phrase le rôle d’un petit mot du sujet.</li></ol>';
+  const a1=E?E.h1:'Des mots comme « toujours », « sans » ou « seulement » changent ce qu’il faut examiner. « Suffire » signifie qu’aucune autre condition ne serait nécessaire.';
+  const c2=E?li(E.s2):'<ol class="consigne-simple"><li>Écrivez deux choses que l’on attend de la notion, une phrase chacune.</li><li>Décrivez en une phrase un cas où ces attentes se gênent.</li></ol>';
+  const a2=E?E.h2:'Une exigence, c’est ce qu’on attend du grand mot du sujet. Cherchez ce que les mots de votre sujet demandent précisément.';
+  const c3=E?`<p>${esc(E.s3)}</p>`:'<p>Pour chaque réponse, expliquez en une phrase ce qu’elle préserve et la difficulté qu’elle rencontre.</p>';
+  const c4=E?`<p>${esc(E.s4)}</p>`:'<p>À partir des deux difficultés relevées, formulez le problème en une question.</p>';
+  const train=niveaux(x)+step('1 · LIRE LE SUJET','Votre première réponse.',c1,'philo-reponse',4,a1)+
+  step('2 · CE QUE LA NOTION DEMANDE','Deux exigences à examiner.',c2,'philo-consequence',4,a2)+
+  step('3 · CE QUE CHAQUE RÉPONSE PERD','Examinez les deux réponses.',c3,'philo-cout',5)+
+  BROUILLON(3)+step('4 · LA PROBLÉMATIQUE','Formulez le problème.',c4,'philo-problematique',4)+
   BROUILLON(4)+step('5 · LE PLAN','Trois réponses et deux questions de transition.','<ol class="consigne-simple"><li>Écrivez la réponse de I, de II et de III, une phrase chacune.</li><li>Entre deux parties, écrivez la question à laquelle la suivante répondra.</li></ol>','philo-plan',10);
   const gant=
   `<section class="offer-band"><div class="kicker">AVANT DE RÉDIGER</div><h2>Le test du gant.</h2><div class="sequence-spec"><p><strong>Aucun doigt ne manque :</strong> chaque mot du sujet travaille-t-il dans ma problématique ?</p><p><strong>Aucun doigt en trop :</strong> ai-je évité d’ajouter une notion que le sujet ne contient pas ?</p><p><strong>Les deux réponses restent ouvertes :</strong> chacune perd-elle quelque chose (pas de « comment pourrait-on… si… ») ?</p><p><strong>On reconnaît le sujet :</strong> le retrouve-t-on sans qu’il soit recopié ?</p><p><strong>D’une traite :</strong> une seule question, une trentaine de mots au plus ?</p><p><strong>Elle donne le plan :</strong> I défend une réponse, II part de ce qu’elle perd, III cherche une réponse qui perde moins ?</p></div><p class="micro"><strong>Sans IA :</strong> les questions, le corrigé et ce test suffisent. <strong>Avec IA :</strong> « Vérifier ma réponse » donne un retour sur votre travail ; il ne produit jamais le plan à votre place.</p></section>\n`;

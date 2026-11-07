@@ -1,0 +1,142 @@
+{
+ "2026-an-science-utile": {
+  "s1": [
+   "Répondez au sujet en une phrase : la science doit-elle servir à quelque chose ?",
+   "Expliquez en une phrase ce que le mot « utile » ajoute à la science."
+  ],
+  "h1": "« Utile » peut vouloir dire qu’on s’en sert, ou qu’elle rend un service précis. Ces deux sens ne sont pas les mêmes.",
+  "s2": [
+   "Écrivez deux choses que l’on attend de la science : qu’elle serve, et qu’elle dise ce qui est.",
+   "Décrivez en une phrase un cas où ces deux attentes se gênent."
+  ],
+  "h2": "Pensez à une découverte dont on ne sait pas encore à quoi elle servira, ou à une recherche qu’on pourrait freiner pour des raisons pratiques.",
+  "s3": "Une réponse dit oui : la société peut exiger un service de la science. Une autre dit non : la science ne doit que le vrai. Pour chacune, dites en une phrase ce qu’elle garde et ce qu’elle laisse de côté.",
+  "s4": "Formulez une seule question qui tienne ensemble deux exigences : que la science serve, et qu’elle ne soit science qu’en disant ce qui est."
+ },
+ "2026-an-artiste-sait": {
+  "s1": [
+   "Répondez au sujet en une phrase : l’artiste sait-il ce qu’il fait ?",
+   "Expliquez en une phrase le mot « fait » : ce qu’on fait, ou ce qu’on produit."
+  ],
+  "h1": "« Faire » peut désigner l’action qu’on accomplit, ou le résultat qu’elle donne.",
+  "s2": [
+   "Écrivez deux choses que l’on attend de l’artiste : qu’il connaisse son métier, et qu’il sache ce que son œuvre sera.",
+   "Décrivez en une phrase un cas où ces deux attentes se gênent."
+  ],
+  "h2": "Pensez à un artiste qui découvre, en travaillant, quelque chose qu’il n’avait pas prévu.",
+  "s3": "Une réponse dit oui : l’art est un faire réglé, dont l’artiste connaît les moyens. Une autre dit non : l’œuvre se découvre en se faisant. Pour chacune, dites ce qu’elle garde de l’artiste et ce qui lui échappe.",
+  "s4": "Formulez une seule question qui garde à la fois le métier de l’artiste et ce que son œuvre lui révèle."
+ },
+ "2026-me-paroles": {
+  "s1": [
+   "Répondez au sujet en une phrase : avons-nous la maîtrise de nos paroles ?",
+   "Expliquez en une phrase le mot « maîtrise » : pouvoir de dire, ou pouvoir sur ce que la parole produit."
+  ],
+  "h1": "Maîtriser peut signifier savoir ce qu’on dit, ou contrôler les effets de ce qu’on dit.",
+  "s2": [
+   "Écrivez deux choses que l’on attend de la parole : qu’elle soit un acte que l’on choisit, et qu’elle produise des effets dont on répond.",
+   "Décrivez en une phrase un cas où ces deux attentes se gênent."
+  ],
+  "h2": "Pensez à une parole dite qui a été comprise autrement que prévu.",
+  "s3": "Une réponse dit oui : parler est un acte volontaire. Une autre dit non : le sens et les effets de la parole ne dépendent pas de celui qui parle. Pour chacune, dites ce qu’elle garde et où elle bute.",
+  "s4": "Formulez une seule question qui tienne ensemble le choix de nos mots, le sens qu’ils prennent chez les autres et ce que nous devons à nos paroles."
+ },
+ "2026-me-bonheur-autres": {
+  "s1": [
+   "Répondez au sujet en une phrase : peut-on être heureux quand les autres ne le sont pas ?",
+   "Expliquez en une phrase qui désigne le mot « autres » : tous les hommes, ou les personnes qui nous sont liées."
+  ],
+  "h1": "Le sujet ne demande pas si l’on doit être heureux avec tous les hommes, mais avec ceux qui nous sont liés ou avec tous.",
+  "s2": [
+   "Écrivez deux choses que l’on attend du bonheur : qu’il soit à soi, et qu’il tienne aux autres.",
+   "Décrivez en une phrase un cas où ces deux attentes se gênent."
+  ],
+  "h2": "Pensez à quelqu’un qui apprend le malheur d’un proche, ou d’un inconnu, sans pouvoir rien y faire.",
+  "s3": "Une réponse dit oui : le bonheur est la satisfaction de nos inclinations. Une autre dit non : notre bonheur inclut le bien de ceux qui nous sont liés. Pour chacune, dites ce qu’elle garde et où elle bute.",
+  "s4": "Formulez une seule question qui distingue le malheur de tous les hommes et celui des personnes qui nous sont liées."
+ },
+ "2026-ag-etat-injustice": {
+  "s1": [
+   "Répondez au sujet en une phrase : revient-il principalement à l’État de lutter contre l’injustice ?",
+   "Expliquez en une phrase le sens de « principalement » : seul, ou d’abord."
+  ],
+  "h1": "« Principalement » ne dit pas « exclusivement » : il indique la part première de la tâche.",
+  "s2": [
+   "Écrivez deux choses que l’on attend de l’État : qu’il impose la même règle à tous, et qu’il permette de juger une loi injuste.",
+   "Décrivez en une phrase un cas où ces deux attentes se gênent."
+  ],
+  "h2": "Pensez à une loi qui était acceptée par tous et qui était pourtant injuste.",
+  "s3": "Une réponse dit : la lutte revient d’abord à l’État, qui seul juge en tiers avec la force de tous. Une autre dit : elle revient d’abord aux citoyens, qui peuvent juger les lois. Pour chacune, dites ce qu’elle garde et où elle bute.",
+  "s4": "Formulez une seule question qui tienne ensemble la force commune de l’État et le jugement des citoyens."
+ },
+ "2026-ag-humanite-religion": {
+  "s1": [
+   "Répondez au sujet en une phrase : peut-on concevoir une humanité sans religion ?",
+   "Expliquez en une phrase le mot « concevoir » : imaginer, ou tenir pour réel."
+  ],
+  "h1": "Concevoir peut dire imaginer une chose possible, ou la juger réelle. Le sujet demande les deux.",
+  "s2": [
+   "Écrivez deux choses que l’on attend de la religion : qu’elle réponde à la mort et à l’ignorance, et qu’elle soit autre chose qu’une croyance parmi d’autres.",
+   "Décrivez en une phrase un cas où ces deux attentes se gênent."
+  ],
+  "h2": "Pensez aux funérailles, ou à un rite collectif qui ne suppose aucun dieu.",
+  "s3": "Une réponse dit : une humanité sans religion se conçoit, car la religion n’entre pas dans ce qui fait l’homme. Une autre dit : elle ne se conçoit pas comme réelle, car la religion renaît des conditions de la vie. Pour chacune, dites ce qu’elle garde et où elle bute.",
+  "s4": "Formulez une seule question qui tienne ensemble ce qu’on peut concevoir sans dieux et ce que la mort et l’ignorance font renaître."
+ },
+ "2026-g1-bien-agir": {
+  "s1": [
+   "Répondez au sujet en une phrase : peut-on être certain d’avoir bien agi ?",
+   "Expliquez en une phrase le mot « certain » : certain pour soi, ou certain aux yeux des autres."
+  ],
+  "h1": "Être certain de soi n’est pas la même chose que de pouvoir le prouver à d’autres.",
+  "s2": [
+   "Écrivez deux choses que l’on attend d’une certitude : qu’elle s’appuie sur ce que l’on a voulu, et qu’elle puisse être établie par d’autres.",
+   "Décrivez en une phrase un cas où ces deux attentes se gênent."
+  ],
+  "h2": "Pensez à un acte dont le résultat a été tout autre que ce qu’on voulait.",
+  "s3": "Une réponse dit : je peux être certain, car la valeur de l’acte tient à la volonté, que je connais. Une autre dit : la certitude vient de l’examen de l’acte, que d’autres peuvent constater. Pour chacune, dites ce qu’elle garde et où elle bute.",
+  "s4": "Formulez une seule question qui tienne ensemble ce que je sais de ce que j’ai voulu et ce que les faits établissent de mon acte."
+ },
+ "2026-g1-nature-besoin": {
+  "s1": [
+   "Répondez au sujet en une phrase : la nature a-t-elle besoin de nous ?",
+   "Expliquez en une phrase le mot « besoin » : ce dont on ne peut se passer, ou ce dont on a l’usage."
+  ],
+  "h1": "Avoir besoin de quelqu’un n’est pas la même chose que d’en dépendre pour exister.",
+  "s2": [
+   "Écrivez deux choses que l’on attend de la nature : qu’elle se produise d’elle-même, et qu’elle se maintienne.",
+   "Décrivez en une phrase un cas où ces deux attentes se gênent."
+  ],
+  "h2": "Pensez à un jardin ou à une forêt abandonnés, puis à un champ entretenu.",
+  "s3": "Une réponse dit : la nature se produit d’elle-même, elle n’a pas besoin de nous. Une autre dit : les natures que nous avons transformées ont besoin de nos soins. Pour chacune, dites ce qu’elle garde et où elle bute.",
+  "s4": "Formulez une seule question qui tienne ensemble la nature qui se produit sans nous et ce que nous avons transformé, qui ne se maintient plus sans nos soins."
+ },
+ "2026-asie-langage": {
+  "s1": [
+   "Répondez au sujet en une phrase : sommes-nous prisonniers du langage ?",
+   "Expliquez en une phrase le mot « prisonniers » : enfermés, ou seulement dépendants."
+  ],
+  "h1": "Dépendre de quelque chose ne veut pas dire être enfermé dedans.",
+  "s2": [
+   "Écrivez deux choses que l’on attend du langage : qu’il nous donne nos pensées, et qu’il nous laisse les transformer.",
+   "Décrivez en une phrase un cas où ces deux attentes se gênent."
+  ],
+  "h2": "Pensez à un mot que vous avez appris par d’autres, puis à un mot que vous avez changé de sens.",
+  "s3": "Une réponse dit : nous ne pensons qu’avec des mots reçus, donc nous sommes prisonniers. Une autre dit : nous travaillons nos mots, donc nous ne le sommes pas. Pour chacune, dites ce qu’elle garde et où elle bute.",
+  "s4": "Formulez une seule question sur le langage qui tienne ensemble la dépendance aux mots reçus, la liberté de les transformer et ce que nous pensons avec eux."
+ },
+ "2026-asie-inconscient-bonheur": {
+  "s1": [
+   "Répondez au sujet en une phrase : faut-il être inconscient pour être heureux ?",
+   "Expliquez en une phrase le mot « faut-il » : une nécessité, ou une condition."
+  ],
+  "h1": "« Faut-il » peut poser une condition indispensable, ou une simple façon d’être heureux.",
+  "s2": [
+   "Écrivez deux choses que l’on attend du bonheur : qu’il ne soit pas gâté par la pensée du malheur, et qu’il tienne devant la vérité.",
+   "Décrivez en une phrase un cas où ces deux attentes se gênent."
+  ],
+  "h2": "Pensez à une nouvelle grave que l’on apprend et qui gâte une journée heureuse.",
+  "s3": "Une réponse dit : il faut ignorer ce qui menace pour être heureux. Une autre dit : un bonheur durable demande la conscience de ce qui le menace. Pour chacune, dites ce qu’elle garde et où elle bute.",
+  "s4": "Formulez une seule question qui tienne ensemble la pensée du malheur et la vérité qui le rend inévitable."
+ }
+}

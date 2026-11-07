@@ -314,7 +314,7 @@ niveau1: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Comment soutenir durablement une vie heureuse lorsque la douleur ne vient plus d'une anticipation trompeuse, mais d'une perte effectivement subie ?",
+          "Mais un bonheur sans espoir est-il encore celui que nous désirions ?",
           "ok",
           "C’est le reste de la réponse, devenu question : le même problème, posé plus loin."
         ],
@@ -567,7 +567,7 @@ niveau1: [
       "q": "Que peut-on désormais affirmer, et que cette réponse ne règle-t-elle pas encore ?",
       "o": [
         [
-          "Cette certitude ne garantit pas que l’acte fut bon, mais qu’il fut bien décidé, et c’est de cela qu’un agent peut répondre. Reste qu’un effet imprévisible peut conduire à réviser l’appréciation d’un choix pourtant raisonnable au moment d’agir.",
+          "Cette certitude ne garantit pas que l’acte fut bon, mais qu’il fut bien décidé, et c’est de cela qu’un agent peut répondre. Reste que cette certitude suppose une situation que d’autres peuvent reconstituer, ce que ne permettent pas les actes sans témoin ni trace.",
           "ok",
           "La réponse est nette, et son reste est dit : c’est lui que la conclusion reprendra."
         ],
@@ -589,7 +589,7 @@ niveau1: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Doit-on répondre d’un mal que nos meilleures raisons ne permettaient pas de prévoir ?",
+          "Mais que vaut cette certitude pour les actes que personne ne peut reconstituer avec nous ?",
           "ok",
           "C’est le reste de la réponse, devenu question : le même problème, posé plus loin."
         ],
@@ -842,7 +842,7 @@ niveau1: [
       "q": "Que peut-on désormais affirmer, et que cette réponse ne règle-t-elle pas encore ?",
       "o": [
         [
-          "La science n’a donc pas à servir pour être légitime, mais à répondre de ce qu’elle fait. Reste la difficulté de juger publiquement une recherche dont ni les bénéfices ni certains risques ne sont encore connus.",
+          "La science n’a donc pas à servir pour être légitime, mais à répondre de ce qu’elle fait. Reste le cas où c’est la connaissance elle-même, et non sa diffusion, qui est un danger, parce que celui qui la possède peut en user seul.",
           "ok",
           "La réponse est nette, et son reste est dit : c’est lui que la conclusion reprendra."
         ],
@@ -864,7 +864,7 @@ niveau1: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Qui a qualité pour juger une recherche que seuls ses pairs comprennent, au nom de tous ceux qu’elle engage ?",
+          "Peut-on cependant renoncer à chercher une vérité parce que la savoir est déjà un danger ?",
           "ok",
           "C’est le reste de la réponse, devenu question : le même problème, posé plus loin."
         ],
@@ -1139,7 +1139,7 @@ niveau1: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Jusqu’où le savoir de l’artiste peut-il porter sur son œuvre, si celle-ci continue de prendre sens dans des regards qu’il ne dirige pas ?",
+          "Mais l’artiste sait-il ce que son œuvre fait aux autres, quand elle leur parle comme elle ne lui a jamais parlé ?",
           "ok",
           "C’est le reste de la réponse, devenu question : le même problème, posé plus loin."
         ],
@@ -1392,7 +1392,7 @@ niveau1: [
       "q": "Que peut-on désormais affirmer, et que cette réponse ne règle-t-elle pas encore ?",
       "o": [
         [
-          "Répondre de ses paroles, c’est donc exercer cette maîtrise, non la supposer acquise. Reste qu’une parole peut produire un effet irréversible avant que sa rectification soit entendue.",
+          "Répondre de ses paroles, c’est donc exercer cette maîtrise, non la supposer acquise. Reste la parole qui a déjà blessé ou tué, et qu’aucune reprise ne peut défaire.",
           "ok",
           "La réponse est nette, et son reste est dit : c’est lui que la conclusion reprendra."
         ],
@@ -1414,7 +1414,7 @@ niveau1: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Comment répondre d’une parole dont on peut corriger le sens, mais dont on ne peut plus réparer tous les effets ?",
+          "Mais que vaut cette maîtrise quand l’aveu vient trop tard pour sauver celui que la parole a perdu ?",
           "ok",
           "C’est le reste de la réponse, devenu question : le même problème, posé plus loin."
         ],
@@ -1689,7 +1689,7 @@ niveau1: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Comment éviter qu'une institution qui prétend unir tous les hommes n'interdise finalement de contester les valeurs qu'elle proclame communes ?",
+          "Mais un sacré sans dieux peut-il échapper au culte de ceux qui gouvernent ?",
           "ok",
           "C’est le reste de la réponse, devenu question : le même problème, posé plus loin."
         ],
@@ -1942,7 +1942,7 @@ niveau1: [
       "q": "Que peut-on désormais affirmer, et que cette réponse ne règle-t-elle pas encore ?",
       "o": [
         [
-          "Le bon soin se mesure donc à son retrait possible : il vise un milieu qui puisse de nouveau se passer de nous. Reste que choisir le milieu à restaurer suppose un jugement humain : quelle autonomie préserver quand plusieurs formes de vie entrent en conflit ?",
+          "Le bon soin se mesure donc à son retrait possible : il vise un milieu qui puisse de nouveau se passer de nous. Reste que ce critère ne vaut que pour ce qui vit, et ne dit rien de ce que nous devons à ce qui ne vit pas, un fleuve, un glacier, une montagne.",
           "ok",
           "La réponse est nette, et son reste est dit : c’est lui que la conclusion reprendra."
         ],
@@ -1964,7 +1964,7 @@ niveau1: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Au nom de quoi choisir le milieu à restaurer, si ce ne doit pas être au nom de nos seules préférences ?",
+          "Mais devons-nous quelque chose aussi à ce qui ne vit pas ?",
           "ok",
           "C’est le reste de la réponse, devenu question : le même problème, posé plus loin."
         ],
@@ -2217,7 +2217,7 @@ niveau1: [
       "q": "Que peut-on désormais affirmer, et que cette réponse ne règle-t-elle pas encore ?",
       "o": [
         [
-          "Ce bonheur n’est donc ni clos ni impossible ; il ne donne pas pour autant le droit de profiter de la souffrance d’autrui. Reste le cas où mon bonheur repose matériellement sur une injustice subie par d’autres : leur porter de l’attention ne suffit plus.",
+          "Ce bonheur n’est donc ni clos ni impossible ; il ne donne pas pour autant le droit de profiter de la souffrance d’autrui. Reste le cas où le malheur des autres excède tout ce que l’on peut, et où l’on ne sait plus ce que vaut un bonheur qui ne peut rien pour eux.",
           "ok",
           "La réponse est nette, et son reste est dit : c’est lui que la conclusion reprendra."
         ],
@@ -2239,7 +2239,7 @@ niveau1: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Que doit changer celui dont le bonheur dépend d’une injustice, pour que son souci d’autrui ne demeure pas une simple bonne conscience ?",
+          "Mais que reste-t-il au bonheur quand le malheur des autres dépasse tout ce que nous pouvons ?",
           "ok",
           "C’est le reste de la réponse, devenu question : le même problème, posé plus loin."
         ],
@@ -2492,7 +2492,7 @@ niveau1: [
       "q": "Que peut-on désormais affirmer, et que cette réponse ne règle-t-elle pas encore ?",
       "o": [
         [
-          "La force publique tient donc sa justice de ce qu’elle reste exposée à la contestation : l’État qui la reçoit se corrige sans cesser de garantir. Reste le cas où le pouvoir ferme les voies de contestation : les garanties dont dépend cette répartition des rôles ne peuvent plus être présupposées.",
+          "La force publique tient donc sa justice de ce qu’elle reste exposée à la contestation : l’État qui la reçoit se corrige sans cesser de garantir. Reste que bien des injustices ne passent par aucune loi ni par aucun acte qu’un tribunal puisse juger : le mépris, l’exclusion silencieuse, les portes qui restent fermées.",
           "ok",
           "La réponse est nette, et son reste est dit : c’est lui que la conclusion reprendra."
         ],
@@ -2514,7 +2514,7 @@ niveau1: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Lorsque l’État détruit les voies par lesquelles on pouvait le corriger, comment lui résister sans abandonner l’exigence d’une justice commune ?",
+          "Mais qui luttera contre les injustices qu’aucun tribunal ne peut juger ?",
           "ok",
           "C’est le reste de la réponse, devenu question : le même problème, posé plus loin."
         ],
@@ -2724,7 +2724,7 @@ niveau2: [
       "q": "Que peut-on désormais affirmer, et que cette réponse ne règle-t-elle pas encore ?",
       "o": [
         [
-          "Le langage est ainsi un milieu de la pensée, non sa prison : ses limites se déplacent à mesure qu’on parle. Reste que cette transformation dépend de ressources partagées : une expérience peut demeurer difficile à communiquer tant que d’autres ne reconnaissent pas les mots proposés.",
+          "Le langage est ainsi un milieu de la pensée, non sa prison : ses limites se déplacent à mesure qu’on parle. Reste qu’un tel travail suppose une communauté qui accueille les mots changés, et qu’un pouvoir peut s’employer à la défaire.",
           "ok",
           "La réponse est nette, et son reste est dit : c’est lui que la conclusion reprendra."
         ],
@@ -2746,7 +2746,7 @@ niveau2: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Une pensée nouvelle peut-elle devenir commune avant que les mots qui la disent soient compris ?",
+          "Mais que reste-t-il de cette liberté quand plus personne n’accueille les mots qu’on change ?",
           "ok",
           "C’est le reste de la réponse, devenu question : le même problème, posé plus loin."
         ],
