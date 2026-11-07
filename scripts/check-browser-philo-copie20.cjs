@@ -31,7 +31,7 @@ const server = http.createServer((req,res) => {
       assert.match(await page.locator('h1').innerText(),/vérité est-elle toujours convaincante/i,'titre exact');
       assert.equal(await page.locator('.c20-block').count(),5,'introduction, trois parties, conclusion');
       assert.equal(await page.locator('.c20-bridge').count(),2,'deux transitions visibles');
-      assert.ok(await page.locator('.c20-s').count()>=40,'annotations détaillées');
+      assert.ok(await page.locator('.c20-s').count()>=36,'annotations détaillées (copie V16 : 36 segments annotés)');
       assert.ok(await page.getByText('EXERCICE · LA PORTÉE DE « TOUJOURS »').count()>=1,'exercice présent');
       const overflow=await page.evaluate(()=>document.documentElement.scrollWidth-window.innerWidth);
       assert.ok(overflow<=2,'pas de débordement horizontal en '+width+' px : '+overflow+' px');
