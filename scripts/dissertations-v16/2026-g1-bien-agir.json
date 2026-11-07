@@ -86,6 +86,12 @@
     "statut": {
       "problematique": "suffisamment justifiée",
       "copie": "état de travail (architecture expérimentale)"
+    },
+    "ouvertures_de_pensee": {
+      "I": "La valeur d'une action peut ainsi être distinguée de sa réussite : juger l'intention permet de ne pas confondre le bien avec la simple chance.",
+      "II": "L'enquête introduit une autre exigence : le jugement sur l'action peut se détacher de l'opinion intéressée de son auteur et se confronter à des éléments partageables.",
+      "III": "Il devient possible de juger une décision par les raisons accessibles dans sa situation, sans confondre l'examen collectif avec une certitude absolue ni réduire la morale au succès technique.",
+      "statut": "Possibilités justifiées, avec leur portée exacte."
     }
   },
   "citations": [
@@ -144,7 +150,7 @@
       [
         [
           "On peut être certain d’avoir bien agi, car la valeur d’un acte tient à la volonté qui le décide, et cette volonté est la mienne.",
-          "I.1 Établir la première réponse : sa prétention exacte"
+          "I.1 Ouvrir une première manière de penser"
         ],
         [
           "Les effets dépendent du vent, des autres, du hasard ; la décision ne dépend que de moi, et c’est elle que je juge quand je me demande si j’ai bien agi.",
@@ -163,6 +169,10 @@
           "I.2 Ce que le fondement conclut"
         ],
         [
+          "La valeur d'une action peut ainsi être distinguée de sa réussite : juger l'intention permet de ne pas confondre le bien avec la simple chance.",
+          "I.2 Ce que la preuve ouvre"
+        ],
+        [
           "Cette raison établit une chose réelle : je peux savoir avec certitude ce que j’ai décidé et pour quelle raison, et que l’issue n’en fait pas la valeur.",
           "I.3 L’éprouver : ce que la raison établit vraiment"
         ],
@@ -176,11 +186,11 @@
         ],
         [
           "La conscience de mon intention ne permet donc pas encore d’établir que cette intention est bien ce qui a déterminé mon acte.",
-          "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"
+          "I.3 La portée et le manque du premier fondement"
         ],
         [
           "Je connais ma décision, non toujours les mobiles qui m’ont conduit à la prendre. Que peuvent alors établir les faits de mon action ?",
-          "Transition · l’examen que ce manque rend nécessaire, en question"
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
         ]
       ]
     ],
@@ -189,7 +199,7 @@
       [
         [
           "Un acte peut être jugé par ce qu’il a fait, car bien agir, c’est aussi faire ce que la situation demandait : sauver ceux qui pouvaient l’être, réparer ce qui pouvait l’être.",
-          "II.1 La seconde réponse : elle répond à l’examen demandé"
+          "II.1 Ouvrir une autre manière de penser"
         ],
         [
           "Cela, d’autres que moi peuvent le constater, sans renier ma décision : ils cherchent seulement hors d’elle de quoi la vérifier.",
@@ -208,6 +218,10 @@
           "II.2 L’inférence décisive"
         ],
         [
+          "L'enquête introduit une autre exigence : le jugement sur l'action peut se détacher de l'opinion intéressée de son auteur et se confronter à des éléments partageables.",
+          "II.2 La possibilité que la seconde preuve révèle"
+        ],
+        [
           "Cet examen établit ce que l’acte a produit et ce qui était possible dans la situation.",
           "II.3 L’éprouver : ce que la seconde raison établit"
         ],
@@ -217,11 +231,11 @@
         ],
         [
           "L’examen des faits mesure l’acte à la situation telle qu’on la connaît après coup ; il ne permet donc pas encore d’établir si l’agent a bien agi dans la situation telle qu’elle lui était accessible.",
-          "II.3 Ce que la seconde réponse ne permet pas encore, et pourquoi"
+          "II.3 La portée et le manque du second fondement"
         ],
         [
           "L’intention se connaît de l’intérieur ; les conséquences se jugent après coup. Comment apprécier l’acte selon ce que son auteur pouvait réellement savoir ?",
-          "Transition · pourquoi leur addition échoue, et ce qui reste à établir, en question"
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
         ]
       ]
     ],
@@ -230,7 +244,7 @@
       [
         [
           "Pour juger une action sans la réduire à une intention proclamée ni à son résultat, il faut reconstituer la situation telle qu'elle se présentait à celui qui devait agir : informations disponibles, temps et alternatives possibles.",
-          "III.1 L’opération que la difficulté exige : un terme qui relie l’intérieur et l’extérieur de l’acte"
+          "III.1 Effectuer le déplacement nécessaire"
         ],
         [
           "La reconstitution n'est ni la seule conscience de l'agent ni le seul résultat constaté : elle permet d'examiner si sa décision était justifiable au regard des possibilités dont il disposait réellement.",
@@ -253,6 +267,10 @@
           "III.2 L’inférence décisive : une certitude partageable"
         ],
         [
+          "Il devient possible de juger une décision par les raisons accessibles dans sa situation, sans confondre l'examen collectif avec une certitude absolue ni réduire la morale au succès technique.",
+          "III.2 Ce que la transformation fait comprendre"
+        ],
+        [
           "On peut parfois se juger avec une très grande assurance, lorsque les raisons accessibles et les principes invoqués résistent à la critique ; on ne tire pourtant pas une certitude absolue de la seule reconstitution des circonstances.",
           "III.3 La réponse au sujet, avec son opérateur"
         ],
@@ -262,7 +280,7 @@
         ],
         [
           "Reste à savoir ce que vaut un tel jugement quand les principes mêmes auxquels on mesure nos actes sont contestés, ou lorsque les traces de l'action manquent.",
-          "III.3 Le reste : ce que cette réponse ne règle pas"
+          "III.3 Le reste : ce qui demande encore à être pensé"
         ]
       ]
     ],
