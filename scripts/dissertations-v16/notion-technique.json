@@ -88,9 +88,9 @@
       "copie": "état de travail (architecture expérimentale)"
     },
     "ouvertures_de_pensee": {
-      "I": "Le techniquement possible paraît ainsi élargir notre liberté : savoir faire n'impose pas encore de faire, et le choix semble s'enrichir de chaque moyen nouveau.",
-      "II": "Mais une possibilité cesse d'être un simple avantage si son usage détruit les conditions d'un choix futur ; la technique peut donc aussi transformer notre pouvoir de décider.",
-      "III": "Nous pouvons désormais juger un moyen d'après la liberté qu'il préserve pour ceux qui en subiront les effets : le souhaitable n'est plus confondu avec le seul faisable.",
+      "I": "Un savoir-faire n'impose pas à lui seul son emploi : posséder une nouvelle technique paraît donc accroître les moyens disponibles sans obliger à choisir l'un d'eux.",
+      "II": "Lorsqu'un usage compromet irréversiblement les possibilités d'autrui, le moyen disponible peut diminuer plutôt qu'accroître la liberté de choisir : être faisable ne suffit pas à le rendre souhaitable.",
+      "III": "La valeur d'un moyen dépend aussi de la possibilité de juger, de corriger ou d'abandonner son usage. Cette exigence protège les choix futurs sans garantir que toute décision de renoncer serait elle-même réversible.",
       "statut": "Possibilités justifiées, avec leur portée exacte."
     }
   },
@@ -156,12 +156,8 @@
           "I.2 La fonder par la fin"
         ],
         [
-          "Tout possible nouveau élargit donc ce que nous pouvons choisir sans rien nous imposer, et il est toujours bon de l’avoir.",
-          "I.2 L’inférence décisive"
-        ],
-        [
-          "Le techniquement possible paraît ainsi élargir notre liberté : savoir faire n'impose pas encore de faire, et le choix semble s'enrichir de chaque moyen nouveau.",
-          "I.2 Ce que la preuve ouvre"
+          "Un savoir-faire n'impose pas à lui seul son emploi : posséder une nouvelle technique paraît donc accroître les moyens disponibles sans obliger à choisir l'un d'eux.",
+          "I.2 Déduire ce que le fondement permet d'établir"
         ],
         [
           "Ce fondement établit que tout pouvoir technique nouveau élargit le champ de ce que nous pouvons choisir.",
@@ -201,12 +197,8 @@
           "II.2 La fonder par les conséquences ; citation qui distingue produire et juger"
         ],
         [
-          "Or certains effets ne se laissent pas défaire et engagent des hommes qui n’ont rien décidé : un possible dont l’usage ruine ainsi les biens qu’il devait servir n’est pas souhaitable.",
-          "II.2 L’inférence décisive"
-        ],
-        [
-          "Mais une possibilité cesse d'être un simple avantage si son usage détruit les conditions d'un choix futur ; la technique peut donc aussi transformer notre pouvoir de décider.",
-          "II.2 La possibilité que la seconde preuve révèle"
+          "Lorsqu'un usage compromet irréversiblement les possibilités d'autrui, le moyen disponible peut diminuer plutôt qu'accroître la liberté de choisir : être faisable ne suffit pas à le rendre souhaitable.",
+          "II.2 Déduire ce que le fondement permet d'établir"
         ],
         [
           "Cette raison établit que certains possibles ne sont pas souhaitables, parce que leurs effets irréversibles ruinent les biens qu’ils devaient servir.",
@@ -246,12 +238,8 @@
           "III.2 La démontrer : ce qu’il conserve"
         ],
         [
-          "Il explique aussi leurs arrêts : l’option cessait d’en être une quand elle ôtait à d’autres le pouvoir de choisir, et l’on n’a pas besoin de connaître les effets d’un acte pour savoir s’ils pourront être corrigés.",
-          "III.2 Ce qu’il explique"
-        ],
-        [
-          "Nous pouvons désormais juger un moyen d'après la liberté qu'il préserve pour ceux qui en subiront les effets : le souhaitable n'est plus confondu avec le seul faisable.",
-          "III.2 Ce que la transformation fait comprendre"
+          "La valeur d'un moyen dépend aussi de la possibilité de juger, de corriger ou d'abandonner son usage. Cette exigence protège les choix futurs sans garantir que toute décision de renoncer serait elle-même réversible.",
+          "III.2 Déduire ce que le fondement permet d'établir"
         ],
         [
           "Ce qui est techniquement possible n’est donc pas toujours souhaitable : l’est celui dont l’usage laisse à ceux qu’il engage le pouvoir de le juger et d’y renoncer.",
