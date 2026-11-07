@@ -88,9 +88,9 @@
       "copie": "état de travail (architecture expérimentale)"
     },
     "ouvertures_de_pensee": {
-      "I": "La valeur d'une action peut ainsi être distinguée de sa réussite : juger l'intention permet de ne pas confondre le bien avec la simple chance.",
-      "II": "L'enquête introduit une autre exigence : le jugement sur l'action peut se détacher de l'opinion intéressée de son auteur et se confronter à des éléments partageables.",
-      "III": "Il devient possible de juger une décision par les raisons accessibles dans sa situation, sans confondre l'examen collectif avec une certitude absolue ni réduire la morale au succès technique.",
+      "I": "Juger la règle que l'on s'est donnée permet de distinguer la valeur d'une intention du hasard de son résultat : cette distinction rend concevable qu'un sauvetage manqué ait été justement entrepris.",
+      "II": "Les données de l'enquête permettent de corriger la bonne conscience de l'agent par un examen partageable. Elles autorisent un jugement mieux fondé, non une certitude qui écarterait d'avance toute objection.",
+      "III": "Comparer les raisons accessibles à l'agent avec les possibilités réelles de sa situation permet de juger sa décision sans la réduire au succès. Un tel jugement reste toutefois révisable, et sa solidité ne suffit pas à le rendre absolument certain.",
       "statut": "Possibilités justifiées, avec leur portée exacte."
     }
   },
@@ -165,12 +165,8 @@
           "I.2 L’inférence décisive : la règle est accessible à celui qui l’a formée"
         ],
         [
-          "La certitude d’avoir bien agi porterait ainsi sur un objet qui m’est entièrement accessible.",
-          "I.2 Ce que le fondement conclut"
-        ],
-        [
-          "La valeur d'une action peut ainsi être distinguée de sa réussite : juger l'intention permet de ne pas confondre le bien avec la simple chance.",
-          "I.2 Ce que la preuve ouvre"
+          "Juger la règle que l'on s'est donnée permet de distinguer la valeur d'une intention du hasard de son résultat : cette distinction rend concevable qu'un sauvetage manqué ait été justement entrepris.",
+          "I.2 Déduire ce que le fondement permet d'établir"
         ],
         [
           "Cette raison établit une chose réelle : je peux savoir avec certitude ce que j’ai décidé et pour quelle raison, et que l’issue n’en fait pas la valeur.",
@@ -214,12 +210,8 @@
           "II.2 Le matériau : l’enquête"
         ],
         [
-          "Une certitude naît ainsi qui ne doit rien à l’amour-propre, puisque personne n’y est juge de sa propre cause.",
-          "II.2 L’inférence décisive"
-        ],
-        [
-          "L'enquête introduit une autre exigence : le jugement sur l'action peut se détacher de l'opinion intéressée de son auteur et se confronter à des éléments partageables.",
-          "II.2 La possibilité que la seconde preuve révèle"
+          "Les données de l'enquête permettent de corriger la bonne conscience de l'agent par un examen partageable. Elles autorisent un jugement mieux fondé, non une certitude qui écarterait d'avance toute objection.",
+          "II.2 Déduire ce que le fondement permet d'établir"
         ],
         [
           "Cet examen établit ce que l’acte a produit et ce qui était possible dans la situation.",
@@ -263,12 +255,8 @@
           "III.2 Ce qu’elle explique des deux arrêts"
         ],
         [
-          "Un jugement public et révisable peut donc être mieux fondé qu'une conviction privée. Mais être bien justifié à croire que l'on a bien agi n'est pas encore être certain de l'avoir fait : les faits et même les critères moraux demeurent discutables.",
-          "III.2 L’inférence décisive : une certitude partageable"
-        ],
-        [
-          "Il devient possible de juger une décision par les raisons accessibles dans sa situation, sans confondre l'examen collectif avec une certitude absolue ni réduire la morale au succès technique.",
-          "III.2 Ce que la transformation fait comprendre"
+          "Comparer les raisons accessibles à l'agent avec les possibilités réelles de sa situation permet de juger sa décision sans la réduire au succès. Un tel jugement reste toutefois révisable, et sa solidité ne suffit pas à le rendre absolument certain.",
+          "III.2 Déduire ce que le fondement permet d'établir"
         ],
         [
           "On peut parfois se juger avec une très grande assurance, lorsque les raisons accessibles et les principes invoqués résistent à la critique ; on ne tire pourtant pas une certitude absolue de la seule reconstitution des circonstances.",
