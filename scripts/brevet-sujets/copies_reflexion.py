@@ -162,7 +162,7 @@ COPIES = [{'sujet': '2026-asie-reflexion',
              [('Que nous apportent alors les œuvres que le voyage ne peut pas nous donner ?',
                'Ce que le paragraphe n’a pas réglé : la question')]),
             ('Troisième paragraphe',
-             [('Les œuvres nous apportent des lieux où aucun voyage ne mène.',
+             [('Là où le voyage réel s’arrête et où la représentation ne peut tout reproduire, l’imagination nous donne accès à des lieux qui n’existent même pas.',
                'Troisième argument : il reprend le mot clé de la question (« nous apportent »)'),
               ('En 1954, quinze ans avant les premiers pas de l’homme sur la Lune, Hergé y envoyait Tintin dans <em>On '
                'a marché sur la Lune</em> ; au cinéma, <em>La Communauté de l’anneau</em>, de Peter Jackson, fait '
@@ -343,7 +343,7 @@ COPIES = [{'sujet': '2026-asie-reflexion',
              [('Qu’est-ce qui peut alors retenir mon attention au-delà de la ressemblance ?',
                'La question qui prépare le paragraphe suivant')]),
             ('Troisième paragraphe',
-             [('Mon attention est retenue quand l’œuvre donne du poids aux décisions de ses jeunes personnages.',
+             [('Au-delà de la ressemblance avec ces héros et de la découverte de vies différentes, leurs décisions me passionnent parce qu’elles m’obligent à réfléchir aux miennes.',
                'L’argument du paragraphe'),
               ('Dans le premier roman de <em>Harry Potter</em>, le héros doit choisir ses amis et décide de protéger '
                'la pierre philosophale malgré le danger.',
