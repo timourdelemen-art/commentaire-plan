@@ -280,7 +280,7 @@ OK = {
    "La métaphore fait tomber les liens comme des feuilles : ce qu’il faut recueillir se défait d’abord."),
  "dorion-reconciliation": ("Le recueil dit aussi la rupture : une terre souillée, vendue, ravagée par l’indifférence.",
    "I. L’union est entrevue / II. Mais la rupture vient des hommes / III. Se réconcilier devient un travail",
-   "Le passage d’« écouter » à « devenir », sans transition, dit une union que l’écoute suffit à faire naître."),
+   "Le passage d’« écouter » à « devenir » fait imaginer une proximité extrême avec l’arbre, sans prouver une union définitive."),
  "dorion-chant-personnel": ("Le recueil fait aussi entendre « le bruit du monde », la naissance de l’univers, l’Histoire.",
    "I. C’est le chant d’une vie / II. Mais il dit le monde et l’Histoire / III. Sa forme relie l’un à l’autre",
    "Repris d’un poème à l’autre, le vers fait de l’enfance de la poète la suite de l’histoire du monde."),
@@ -423,7 +423,7 @@ OK.update({
    "I. La dispute a la forme du théâtre / II. Les personnages s’y jouent la comédie / III. La blessure naît de la voix",
    "Le mot « image » fait du bonheur de H. 1 un tableau offert au regard : H. 2 l’accuse de poser."),
  "non-dits": ("La pièce fait dire ces non-dits, et leur aveu ne répare rien entre les deux amis.",
-   "I. Un sous-entendu défait l’amitié / II. Dit, il révèle un vrai désaccord / III. L’entre-deux des mots unit aussi",
+   "I. Un sous-entendu défait l’amitié / II. Dit, il révèle un vrai désaccord / III. L’entre-deux des mots entretient aussi le lien",
    "Le verbe « toucher » dit que le coup a porté : le sous-entendu avait été bien compris."),
 })
 LONG.update({
