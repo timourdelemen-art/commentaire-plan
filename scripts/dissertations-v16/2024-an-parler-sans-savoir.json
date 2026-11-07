@@ -89,9 +89,9 @@
       "copie": "état de travail (architecture expérimentale)"
     },
     "ouvertures_de_pensee": {
-      "I": "Une parole peut ainsi précéder le savoir sans être vide : demander, supposer et chercher deviennent des actes intelligibles, précisément parce qu'ils ne se présentent pas encore comme des certitudes.",
-      "II": "Une autre possibilité apparaît : le problème n'est pas seulement de savoir ce que dit une phrase, mais ce à quoi son auteur s'engage lorsqu'il la présente comme vraie.",
-      "III": "Parler sans savoir cesse alors d'être une faute ou un droit accordé en bloc : il devient possible de distinguer la question honnête de l'affirmation trompeuse, d'après la prétention que la parole affiche.",
+      "I": "Une hypothèse peut ainsi être énoncée et comprise avant d'être vérifiée : le langage permet d'ouvrir une recherche précisément là où le savoir fait encore défaut.",
+      "II": "L'affirmation ne transmet pas seulement un contenu : elle engage celui qui parle à pouvoir donner des raisons. Sans elles, il laisse croire qu'il sait, même si le hasard lui donne raison.",
+      "III": "Questionner, supposer et affirmer n'engagent pas celui qui parle de la même façon. Il devient possible de parler sans savoir à condition de ne pas faire passer une hypothèse pour un résultat établi.",
       "statut": "Hypothèses établies à la mesure de leurs preuves ; ne pas transformer une possibilité en certitude."
     }
   },
@@ -157,12 +157,8 @@
           "I.2 La fonder par une définition du sens"
         ],
         [
-          "On peut donc dire une phrase sensée sans savoir si elle est vraie, et c’est même ainsi que commence toute recherche, par une hypothèse que l’on comprend avant de savoir si elle tient.",
-          "I.2 L’inférence décisive"
-        ],
-        [
-          "Une parole peut ainsi précéder le savoir sans être vide : demander, supposer et chercher deviennent des actes intelligibles, précisément parce qu'ils ne se présentent pas encore comme des certitudes.",
-          "I.2 Ce que la preuve ouvre"
+          "Une hypothèse peut ainsi être énoncée et comprise avant d'être vérifiée : le langage permet d'ouvrir une recherche précisément là où le savoir fait encore défaut.",
+          "I.2 Déduire ce que le fondement permet d'établir"
         ],
         [
           "Ce fondement établit qu’on peut parler de manière sensée de ce qu’on ne sait pas.",
@@ -202,12 +198,8 @@
           "II.2 La fonder : ce qu’engage une assertion"
         ],
         [
-          "Celui qui affirme sans raisons laisse donc croire qu’il sait, et il trompe, même s’il dit vrai par chance.",
-          "II.2 L’inférence décisive"
-        ],
-        [
-          "Une autre possibilité apparaît : le problème n'est pas seulement de savoir ce que dit une phrase, mais ce à quoi son auteur s'engage lorsqu'il la présente comme vraie.",
-          "II.2 La possibilité que la seconde preuve révèle"
+          "L'affirmation ne transmet pas seulement un contenu : elle engage celui qui parle à pouvoir donner des raisons. Sans elles, il laisse croire qu'il sait, même si le hasard lui donne raison.",
+          "II.2 Déduire ce que le fondement permet d'établir"
         ],
         [
           "Cette raison établit qu’on ne peut légitimement affirmer ce qu’on ne sait pas.",
@@ -247,12 +239,8 @@
           "III.2 La démontrer : ce qu’il conserve"
         ],
         [
-          "Il explique aussi leurs arrêts : le sens laissait indéterminé ce que l’on engage en parlant, et l’assertion n’est qu’un des statuts possibles de la parole ; celle qui déclare le sien ne trompe personne sur ce qu’elle sait.",
-          "III.2 Ce qu’il explique"
-        ],
-        [
-          "Parler sans savoir cesse alors d'être une faute ou un droit accordé en bloc : il devient possible de distinguer la question honnête de l'affirmation trompeuse, d'après la prétention que la parole affiche.",
-          "III.2 Ce que la transformation fait comprendre"
+          "Questionner, supposer et affirmer n'engagent pas celui qui parle de la même façon. Il devient possible de parler sans savoir à condition de ne pas faire passer une hypothèse pour un résultat établi.",
+          "III.2 Déduire ce que le fondement permet d'établir"
         ],
         [
           "On peut donc parler sans savoir, à condition que la parole dise elle-même ce qu’elle sait et ce qu’elle ignore.",
