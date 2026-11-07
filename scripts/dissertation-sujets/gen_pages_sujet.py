@@ -9,25 +9,18 @@ D = load('etapes_data.py', None)
 OEUVRES = {
  'ponge': dict(file='ponge_copies.py', titre='<em>La rage de l’expression</em>', court='La rage de l’expression', auteur='Francis Ponge',
    parcours='« dans l’atelier du poète »', ancre='ponge',
-   note='Chaque citation a été relue mot pour mot dans l’édition Gallimard de <em>La rage de l’expression</em> (1976). Les textes du recueil sont désignés par leur titre ; « Le Carnet du bois de pins » comprend son appendice (notes et lettres).'),
  'dorion': dict(file='dorion_copies.py', titre='<em>Mes forêts</em>', court='Mes forêts', auteur='Hélène Dorion',
    parcours='« la poésie, la nature, l’intime »', ancre='dorion',
-   note='Chaque citation a été relue mot pour mot dans l’édition Bruno Doucey de <em>Mes forêts</em> (2021). La barre oblique sépare les vers ; les poèmes sont désignés par leur titre, ou par leurs premiers mots quand ils n’en ont pas.'),
  'douai': dict(file='douai_copies.py', racine='/', titre='<em>Cahier de Douai</em>', court='Cahier de Douai', auteur='Arthur Rimbaud',
    parcours='« émancipations créatrices »', ancre='',
-   note='Les vers cités ont été vérifiés mot pour mot sur deux éditions en ligne. Quand la ponctuation d’un vers varie d’une édition à l’autre, vérifiez dans la vôtre.'),
  'menteur': dict(file='menteur_copies.py', racine='/', titre='<em>Le Menteur</em>', court='Le Menteur', auteur='Pierre Corneille',
    parcours='« mensonge et comédie »', ancre='',
-   note='Chaque vers cité a été retrouvé mot pour mot dans une édition en ligne (Théâtre classique, orthographe modernisée). La ponctuation et les majuscules peuvent varier d’une édition à l’autre : vérifiez dans la vôtre.'),
  'badine': dict(file='badine_copies.py', racine='/', titre='<em>On ne badine pas avec l’amour</em>', court='On ne badine pas avec l’amour', auteur='Alfred de Musset',
    parcours='« les jeux du cœur et de la parole »', ancre='',
-   note='Chaque réplique citée a été retrouvée mot pour mot dans l’édition Arvensa des <em>Œuvres complètes</em> de Musset (2019). La ponctuation peut varier d’une édition à l’autre : vérifiez dans la vôtre.'),
  'manon': dict(file='manon_copies.py', racine='/', titre='<em>Manon Lescaut</em>', court='Manon Lescaut', auteur='l’abbé Prévost',
    parcours='« personnages en marge, plaisirs du romanesque »', ancre='prevost',
-   note='Chaque citation a été retrouvée mot pour mot dans l’édition BnF-Partenariats (2014) de l’<em>Histoire du chevalier Des Grieux et de Manon Lescaut</em>. La ponctuation peut varier d’une édition à l’autre : vérifiez dans la vôtre.'),
  'sarraute': dict(file='sarraute/copies.py', var='COPIES', prefixe='pour-un-oui-ou-pour-un-non-', racine='/', titre='<em>Pour un oui ou pour un non</em>', court='Pour un oui ou pour un non', auteur='Nathalie Sarraute',
    parcours='« théâtre et dispute »', ancre='sarraute',
-   note='Chaque réplique citée a été relue mot pour mot dans l’édition Gallimard du <em>Théâtre</em> de Nathalie Sarraute. La pièce n’a ni actes ni scènes : les passages sont situés par leur moment dans le dialogue. Les personnages s’y nomment H. 1, H. 2, H. 3 et F.'),
 }
 WHY = {
  'p1': {'ok': 'Cette remarque s’appuie sur l’œuvre et résiste à la lecture du sujet : c’est d’elle que naît le problème.',
@@ -169,7 +162,6 @@ def page(k, I, O, other, Ib):
 <section class="onglet offer-band" id="copie"><div class="kicker">LA COPIE À 20</div><h2>{c['titre']}</h2>
 <p class="lede" style="font-size:18px">La copie la plus courte qui mérite 20 : {ns} phrases, environ {round(nw, -1)} mots ; une introduction, trois parties de trois paragraphes, deux transitions, une conclusion.</p>
 <div class="c20 dc20" id="dc20-copie">{blocks}</div>
-<p class="micro dc20-note">{O['note']}</p>
 <div class="kicker" style="margin-top:28px">POURQUOI CETTE COPIE MÉRITE 20</div>
 <div class="grid-3">
 {why}
