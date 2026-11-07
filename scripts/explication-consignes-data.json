@@ -1,45 +1,45 @@
 {
   "nietzsche-2026-metropole": {
     "drillTasks": {
-      "0": "Expliquez en deux ou trois phrases l’apport de cette phrase et ce qu’on perdrait en la supprimant."
+      "0": "En trois phrases, montrez ce que la perte supposée des méthodes permet de comprendre, ce qu'elle établit, et ce qu'elle ne permet pas d'affirmer."
     }
   },
   "freud-2026-amerique-du-nord": {
     "drillTasks": {
-      "0": "Expliquez en deux ou trois phrases l’apport de cette phrase et ce qu’on perdrait en la supprimant."
+      "0": "Expliquez la différence entre origine psychologique d'une croyance, force de conviction et preuve de vérité, sans conclure abusivement à la fausseté de son objet."
     },
     "stageTasks": {
-      "1": "En deux phrases, expliquez l’origine de l’illusion puis ce qu’on peut en conclure sur sa vérité."
+      "1": "Expliquez en trois phrases pourquoi le désir peut expliquer l'adhésion religieuse sans constituer une preuve de la fausseté des croyances."
     }
   },
   "tocqueville-2026-asie": {
     "drillTasks": {
-      "0": "Expliquez en deux ou trois phrases l’apport de cette phrase et ce qu’on perdrait en la supprimant."
+      "0": "Montrez qui qualifie la participation politique de « travaux inutiles » ou de « jeux d'oisifs », et pourquoi Tocqueville rapporte ce jugement."
     }
   },
   "weil-2026-centres-etrangers": {
     "drillTasks": {
-      "0": "Expliquez en deux ou trois phrases l’apport de cette phrase et ce qu’on perdrait en la supprimant."
+      "0": "Expliquez ce que l'hypothèse d'une équité sociale parfaite retranche du problème et pourquoi elle laisse subsister une nécessité du travail."
     }
   },
   "malebranche-2026-antilles-guyane": {
     "drillTasks": {
-      "0": "Expliquez en deux ou trois phrases l’apport de cette phrase et ce qu’on perdrait en la supprimant."
+      "0": "Expliquez la fonction précise de « Toutefois » : distinguer la possibilité de l'erreur de la liberté de retenir un jugement."
     }
   },
   "rawls-2025-metropole": {
     "drillTasks": {
-      "0": "Expliquez en deux ou trois phrases l’apport de cette phrase et ce qu’on perdrait en la supprimant."
+      "0": "Reconstituez la chaîne qui mène des moyens économiques privés à la sélection des enjeux politiques et à des lois qui peuvent consolider ces moyens."
     }
   },
   "weil-2024-metropole": {
     "drillTasks": {
-      "0": "Expliquez en deux ou trois phrases l’apport de cette phrase et ce qu’on perdrait en la supprimant."
+      "0": "Expliquez pourquoi la distinction entre attention au geste et réflexion sur sa condition est nécessaire pour comprendre la coexistence de l'obsession et de la pensée diminuée."
     }
   },
   "levi-strauss-2023-metropole": {
     "drillTasks": {
-      "0": "Expliquez en deux ou trois phrases l’apport de cette phrase et ce qu’on perdrait en la supprimant."
+      "0": "Montrez pourquoi la clôture à chaque instant est compatible avec la constitution progressive du stock, en précisant ce que la restriction temporelle permet d'établir."
     }
   }
 }
