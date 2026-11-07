@@ -86,6 +86,12 @@
     "statut": {
       "problematique": "suffisamment justifiée",
       "copie": "état de travail (architecture expérimentale)"
+    },
+    "ouvertures_de_pensee": {
+      "I": "La perte d'un état ne se confond donc pas avec un accident exceptionnel : elle appartient au fait même que les choses changent, ce que la durée rend manifeste.",
+      "II": "Mais le changement n'est pas seulement disparition : sans succession et sans durée, aucun apprentissage ni aucune croissance ne serait intelligible.",
+      "III": "La question peut maintenant être déplacée : au lieu d'attribuer au temps lui-même le pouvoir de détruire ou de construire, nous pouvons rechercher les processus qui se déroulent dans la durée.",
+      "statut": "Possibilités justifiées, avec leur portée exacte."
     }
   },
   "citations": [
@@ -149,7 +155,7 @@
       [
         [
           "Le temps est nécessairement destructeur, car il fait passer tout ce qui est : les poutres d’Ise, les visages, les souvenirs.",
-          "I.1 Établir la première réponse"
+          "I.1 Ouvrir une première manière de penser"
         ],
         [
           "Cette réponse sauve ce que chacun éprouve : rien de ce que nous aimons ne nous reste tel que nous l’avons aimé.",
@@ -162,6 +168,10 @@
         [
           "Or tout changement fait sortir d’un état, et un changement mesuré par le temps ne revient jamais en arrière ; tout état présent est donc nécessairement perdu.",
           "I.2 L’inférence décisive"
+        ],
+        [
+          "La perte d'un état ne se confond donc pas avec un accident exceptionnel : elle appartient au fait même que les choses changent, ce que la durée rend manifeste.",
+          "I.2 Ce que la preuve ouvre"
         ],
         [
           "Ce fondement établit que le temps fait nécessairement passer chaque état présent.",
@@ -177,11 +187,11 @@
         ],
         [
           "Le passage nécessaire de chaque état ne permet donc pas encore d’établir que le temps détruise nécessairement, parce que perdre un état n’est pas cesser d’être.",
-          "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"
+          "I.3 La portée et le manque du premier fondement"
         ],
         [
           "Le temps fait passer chaque état, mais perdre un état n’est pas nécessairement disparaître. Ne faut-il pas aussi du temps pour croître ?",
-          "Transition · l’examen nécessaire, en question"
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
         ]
       ]
     ],
@@ -190,7 +200,7 @@
       [
         [
           "Ce qui croît, apprend ou se bâtit doit au temps d’exister, et en ce sens le temps n’est pas nécessairement destructeur.",
-          "II.1 La seconde réponse, qui répond à l’examen demandé"
+          "II.1 Ouvrir une autre manière de penser"
         ],
         [
           "Elle ne nie pas que chaque état passe ; elle fait voir que ce passage est aussi celui d’une formation.",
@@ -203,6 +213,10 @@
         [
           "Le temps est donc la condition nécessaire de toute formation, et l’on ne peut dire destructeur par essence ce sans quoi rien ne se ferait.",
           "II.2 L’inférence décisive"
+        ],
+        [
+          "Mais le changement n'est pas seulement disparition : sans succession et sans durée, aucun apprentissage ni aucune croissance ne serait intelligible.",
+          "II.2 La possibilité que la seconde preuve révèle"
         ],
         [
           "Cette raison établit que le temps est la condition nécessaire de toute formation.",
@@ -218,11 +232,11 @@
         ],
         [
           "Que toute formation demande du temps ne permet donc pas encore d’établir qu’il construise, parce que ce sans quoi une chose ne se fait pas n’est pas encore ce qui la fait.",
-          "II.3 Ce que la seconde réponse ne permet pas encore"
+          "II.3 La portée et le manque du second fondement"
         ],
         [
           "Rien ne demeure identique et rien ne se forme sans durée. Mais le temps agit-il lui-même, ou confondons-nous durée et causes du changement ?",
-          "Transition · pourquoi leur addition échoue, et ce qui reste à établir, en question"
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
         ]
       ]
     ],
@@ -231,7 +245,7 @@
       [
         [
           "Ce qui détruit et ce qui construit ne sont pas le temps, qui n’est pas un agent : il est la mesure de changements dont les causes sont ailleurs.",
-          "III.1 L’opération que la difficulté exige : examiner le présupposé commun"
+          "III.1 Effectuer le déplacement nécessaire"
         ],
         [
           "Aristote, qui disait le temps plutôt responsable de corruption, corrigeait aussitôt : « le temps n’accomplit même pas cette corruption, mais il se trouve que par accident ce changement se produit dans le temps ».",
@@ -246,6 +260,10 @@
           "III.2 Ce qu’elle conserve et ce qu’elle explique"
         ],
         [
+          "La question peut maintenant être déplacée : au lieu d'attribuer au temps lui-même le pouvoir de détruire ou de construire, nous pouvons rechercher les processus qui se déroulent dans la durée.",
+          "III.2 Ce que la transformation fait comprendre"
+        ],
+        [
           "Le temps n’est donc pas nécessairement destructeur : la destruction n’est nécessaire que pour ce qu’aucune activité n’entretient.",
           "III.3 La réponse au sujet, avec son opérateur"
         ],
@@ -255,7 +273,7 @@
         ],
         [
           "Reste ce qu’aucune activité ne peut entretenir indéfiniment : le vivant lui-même, qui vieillit quoi qu’il fasse.",
-          "III.3 Le reste : ce que cette réponse ne règle pas"
+          "III.3 Le reste : ce qui demande encore à être pensé"
         ]
       ]
     ],
