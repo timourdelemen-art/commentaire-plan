@@ -88,9 +88,9 @@
       "copie": "état de travail (architecture expérimentale)"
     },
     "ouvertures_de_pensee": {
-      "I": "Convaincre ne signifie donc pas seulement provoquer une adhésion : une raison valable prétend pouvoir être examinée par quiconque, indépendamment de la personne qui l'énonce.",
-      "II": "Une nouvelle dimension apparaît pourtant : même la meilleure raison reste sans effet sur une pensée qui ne s'arrête pas pour l'examiner ; l'écoute devient une condition de l'adhésion.",
-      "III": "Nous pouvons alors concevoir la persuasion rationnelle comme une activité partagée : l'un offre des raisons, l'autre doit pouvoir les refaire, sans que cet examen garantisse mécaniquement son accord.",
+      "I": "Une raison valable doit pouvoir être examinée indépendamment de celui qui la formule : convaincre par les raisons n'est donc pas simplement obtenir l'adhésion, mais rendre possible un jugement que d'autres peuvent refaire.",
+      "II": "La réaction des interlocuteurs de Semmelweis rappelle qu'une preuve ne se fait pas examiner par sa seule validité : il faut encore que l'autre accepte de l'écouter et d'en suivre le raisonnement.",
+      "III": "Dans le dialogue, un interlocuteur ne reçoit pas seulement une conclusion : il peut refaire les raisons de l'établir. Cette participation rend l'accord rationnel possible, sans assurer qu'il se produira.",
       "statut": "Possibilités justifiées, avec leur portée exacte."
     }
   },
@@ -166,12 +166,8 @@
           "I.2 La fonder par une définition ; citation qui en donne le critère exact"
         ],
         [
-          "Celui qui a raison possède donc ce qui, seul, peut convaincre tout esprit.",
-          "I.2 L’inférence décisive"
-        ],
-        [
-          "Convaincre ne signifie donc pas seulement provoquer une adhésion : une raison valable prétend pouvoir être examinée par quiconque, indépendamment de la personne qui l'énonce.",
-          "I.2 Ce que la preuve ouvre"
+          "Une raison valable doit pouvoir être examinée indépendamment de celui qui la formule : convaincre par les raisons n'est donc pas simplement obtenir l'adhésion, mais rendre possible un jugement que d'autres peuvent refaire.",
+          "I.2 Déduire ce que le fondement permet d'établir"
         ],
         [
           "Ce fondement établit qu’avoir raison donne ce qui seul peut convaincre : des raisons valables pour tout esprit.",
@@ -211,12 +207,8 @@
           "II.2 La fonder : la confiance, condition de l’écoute"
         ],
         [
-          "Semmelweis traitait ses contradicteurs d’assassins : il rendait impossible l’écoute dont ses raisons avaient besoin, et l’art qu’il méprisait était une condition de leur succès.",
-          "II.2 L’inférence décisive, sur la scène"
-        ],
-        [
-          "Une nouvelle dimension apparaît pourtant : même la meilleure raison reste sans effet sur une pensée qui ne s'arrête pas pour l'examiner ; l'écoute devient une condition de l'adhésion.",
-          "II.2 La possibilité que la seconde preuve révèle"
+          "La réaction des interlocuteurs de Semmelweis rappelle qu'une preuve ne se fait pas examiner par sa seule validité : il faut encore que l'autre accepte de l'écouter et d'en suivre le raisonnement.",
+          "II.2 Déduire ce que le fondement permet d'établir"
         ],
         [
           "Cette raison établit que, pour convaincre, il faut aussi obtenir l’attention et la confiance de l’auditeur.",
@@ -256,12 +248,8 @@
           "III.2 La démontrer sur un cas où elle se réalise"
         ],
         [
-          "Cette condition conserve les deux réponses : seules des raisons convainquent, et il faut que l’autre écoute ; elle explique aussi leurs arrêts, puisque la validité supposait un examen qu’elle ne produit pas, et que l’art de parler peut préparer cet examen, non le remplacer.",
-          "III.2 Ce qu’elle conserve et ce qu’elle explique"
-        ],
-        [
-          "Nous pouvons alors concevoir la persuasion rationnelle comme une activité partagée : l'un offre des raisons, l'autre doit pouvoir les refaire, sans que cet examen garantisse mécaniquement son accord.",
-          "III.2 Ce que la transformation fait comprendre"
+          "Dans le dialogue, un interlocuteur ne reçoit pas seulement une conclusion : il peut refaire les raisons de l'établir. Cette participation rend l'accord rationnel possible, sans assurer qu'il se produira.",
+          "III.2 Déduire ce que le fondement permet d'établir"
         ],
         [
           "Il ne suffit donc pas d’avoir raison pour convaincre : il faut encore mettre l’autre en état de refaire le raisonnement, et qu’il le veuille.",
