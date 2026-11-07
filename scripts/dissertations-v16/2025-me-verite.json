@@ -88,9 +88,9 @@
       "copie": "état de travail (architecture expérimentale)"
     },
     "ouvertures_de_pensee": {
-      "I": "Une vérité comprise n'est donc pas seulement une information reçue : elle peut transformer de l'intérieur les raisons pour lesquelles nous tenons une proposition pour vraie.",
-      "II": "Il devient toutefois possible de penser une vérité qui demeure vraie sans convaincre : l'échec de l'adhésion renseigne sur la preuve disponible, non sur la réalité de ce qui est affirmé.",
-      "III": "La vérité peut ainsi devenir le critère qui permet de corriger une conviction plutôt que la force qui la produit automatiquement : la discussion gagne une norme, sans obtenir l'accord à coup sûr.",
+      "I": "Pour celui qui comprend une démonstration, la vérité n'est pas un assentiment arraché de l'extérieur : il tient lui-même les raisons pour lesquelles il ne peut plus douter de ce qu'il vient d'établir.",
+      "II": "Que la dérive continentale ait été vraie avant de convaincre distingue la vérité d'une proposition de la force des preuves dont on dispose à une époque donnée.",
+      "III": "La vérité n'obtient donc pas nécessairement l'accord ; elle fournit le critère auquel les preuves s'exposent et par lequel une conviction peut être corrigée.",
       "statut": "Hypothèses établies à la mesure de leurs preuves ; ne pas transformer une possibilité en certitude."
     }
   },
@@ -166,12 +166,8 @@
           "I.2 La fonder ; citation qui donne l’énoncé exact"
         ],
         [
-          "La vérité est donc sa propre marque : elle convainc par elle seule celui qui la possède.",
-          "I.2 L’inférence décisive"
-        ],
-        [
-          "Une vérité comprise n'est donc pas seulement une information reçue : elle peut transformer de l'intérieur les raisons pour lesquelles nous tenons une proposition pour vraie.",
-          "I.2 Ce que la preuve ouvre"
+          "Pour celui qui comprend une démonstration, la vérité n'est pas un assentiment arraché de l'extérieur : il tient lui-même les raisons pour lesquelles il ne peut plus douter de ce qu'il vient d'établir.",
+          "I.2 Déduire ce que le fondement permet d'établir"
         ],
         [
           "Ce fondement établit que celui qui possède une vérité en la comprenant en est convaincu par elle seule.",
@@ -211,12 +207,8 @@
           "II.2 La fonder par les faits : vrai et prouvé divergent"
         ],
         [
-          "Or ce qui variait avec la conviction des géologues, c’était l’état des preuves, non la vérité ; le pouvoir de convaincre appartient donc aux preuves.",
-          "II.2 L’inférence décisive, par covariation"
-        ],
-        [
-          "Il devient toutefois possible de penser une vérité qui demeure vraie sans convaincre : l'échec de l'adhésion renseigne sur la preuve disponible, non sur la réalité de ce qui est affirmé.",
-          "II.2 La possibilité que la seconde preuve révèle"
+          "Que la dérive continentale ait été vraie avant de convaincre distingue la vérité d'une proposition de la force des preuves dont on dispose à une époque donnée.",
+          "II.2 Déduire ce que le fondement permet d'établir"
         ],
         [
           "Cette raison établit qu’une vérité sans preuve ne convainc pas, et qu’une erreur bien argumentée convainc.",
@@ -256,12 +248,8 @@
           "III.2 La démontrer : ce qui fait l’autorité d’une preuve"
         ],
         [
-          "Ainsi s’expliquent les deux réponses : la vérité comprise ôte le doute, parce que celui qui comprend a cessé de pouvoir être corrigé sur ce point ; et la conviction passe par les preuves, parce que ce sont elles qui s’exposent au vrai.",
-          "III.2 Ce qu’elle conserve et ce qu’elle explique"
-        ],
-        [
-          "La vérité peut ainsi devenir le critère qui permet de corriger une conviction plutôt que la force qui la produit automatiquement : la discussion gagne une norme, sans obtenir l'accord à coup sûr.",
-          "III.2 Ce que la transformation fait comprendre"
+          "La vérité n'obtient donc pas nécessairement l'accord ; elle fournit le critère auquel les preuves s'exposent et par lequel une conviction peut être corrigée.",
+          "III.2 Déduire ce que le fondement permet d'établir"
         ],
         [
           "La vérité n’est donc pas toujours convaincante ; mais elle seule rend une conviction corrigible, et c’est par là qu’elle finit par convaincre, quand demeurent les traces qui permettent de l’éprouver.",
