@@ -23,33 +23,33 @@
   "YA": "Que la pensée soit une opération, indépendante de sa réalisation.",
   "ZA": "FA ne voit pas qu’une opération peut être exécutée sans être représentée.",
   "type_LA": "portée insuffisante (la performance, non la représentation)",
-  "LA": "La performance échiquéenne ne permet pas encore d’établir qu’une machine pense, parce qu’elle ne dit pas si la machine sait qu’elle juge.",
+  "LA": "La performance d'une machine établit qu'elle réussit une tâche, non qu'elle comprend ce qu'elle fait.",
   "six_LA": "Mesure : XA écrit. Filiation : prémisse 1 (la pensée comme opération). Meilleur cas : une machine qui réussit sans rien représenter ne serait pas pensante. Absurdité : aucune.",
-  "T1": "Nous avons établi qu’une machine peut réussir ce que la pensée réussit ; mais non qu’elle sache ce qu’elle fait, parce que la performance ne le dit pas. Il faut donc examiner ce que penser exige d’un sujet.",
+  "T1": "Une performance peut être intelligente sans nous apprendre comment elle est produite. Suffit-il de bien répondre pour comprendre ?",
   "B": "Non : penser suppose une représentation qui puisse être dite sienne ; une machine exécute sans se représenter. B conserve XA.",
   "FB": "Fin (III.3). 1. Penser, c’est se représenter ce qu’on fait (E : Kant, § 16). 2. Une représentation doit pouvoir être dite sienne (E : Kant, § 16). 3. Une machine exécute sans se représenter (E : description du calcul).",
   "XB": "Penser suppose qu’une représentation puisse être dite sienne.",
   "YB": "Que l’exécution d’une règle ne suffit pas à penser.",
   "ZB": "FB ne voit pas qu’on peut concevoir une conscience simulée.",
   "type_LB": "difficulté de compatibilité (avec la performance de I)",
-  "LB": "La conscience de la règle ne permet donc pas encore d’établir qu’une machine pense, parce qu’on peut concevoir une conscience simulée qui ne serait qu’un calcul de plus.",
+  "LB": "La différence entre exécuter des règles et comprendre n'établit pas qu'aucune machine ne pourrait comprendre : elle indique ce que les seules performances ne prouvent pas.",
   "six_LB": "Mesure : XB écrit. Filiation : prémisse 2 (représentation dite sienne). Meilleur cas : une conscience simulée qui ne se distingue en rien d’un calcul.",
-  "T2": "Bilan : XA, XB. ρ : dépendance non expliquée — la performance sans la conscience ne suffit pas, la conscience simulée n’est pas une conscience. D : distinguer ce qui se calcule de ce qui se pense.",
+  "T2": "La réussite n'est pas la compréhension ; le calcul formel ne suffit peut-être pas à l'expliquer. Comment déterminer ce qu'il faudrait à une machine pour penser réellement ?",
   "epreuves": "1. Contre-exemple : un calcul qui se croirait pensant sans rien représenter ; il confirme XB. 2. Meilleur cas : la distinction tient sur ce cas. 3. Cumul : un calcul pensant et conscient est une contradiction écrite. 4. Antériorité : la distinction du calcul et de la pensée est présente chez Kant, § 16.",
   "soupcon_aporie": "aucun indice ; régime ordinaire.",
   "chemins_echoues": "Chemin écarté : opposer machine et humain comme deux espèces ; trop vite, puisqu’il faudrait définir la conscience avant la machine.",
   "dictionnaire": "non consulté.",
   "phrase_mouvement": "A, parce que la pensée est une opération, établit qu’une machine peut penser ; mais non qu’elle se représente ce qu’elle fait, ce que B exige.",
   "probleme_directeur": "Une machine peut-elle penser, si penser c’est traiter des symboles, ou faut-il un sujet qui se sait penser ?",
-  "problematique": "Une machine peut-elle penser, si penser c’est traiter correctement des symboles, ou faut-il qu’il y ait un sujet qui se sait penser, ce qu’une machine ne semble pas pouvoir être ?",
+  "problematique": "Une machine peut-elle penser si ses performances semblent témoigner d'un raisonnement, alors que rien ne prouve qu'elle en comprenne le sens, et comment juger cette compréhension sans exiger d'avance une conscience humaine ?",
   "forme_problematique": "G3 (deux réponses en protases, « peut-elle » conservé, interrogation sur le cas de conflit).",
   "critere": "Sur Deep Blue, une solution devra dire si la machine pense, conserver la performance et la conscience, et expliquer ce qu’elles ont en commun.",
   "contrainte_scene": "montrer une performance qui ne suffit pas à établir la pensée.",
   "III": {
    "operation": "Enquête par critères et degrés : dissocier performance, compréhension et conscience ; vérifier les conditions sans poser d'avance l'exclusion.",
    "III1": "Distinguer la réussite observable, la compréhension et la conscience possible ; examiner pour chacune le type de preuve nécessaire.",
-   "III2": "Turing montre comment éprouver les capacités observables ; Searle montre que le calcul symbolique ne démontre pas la compréhension ; Butlin et ses collègues examinent les indicateurs tirés des théories de la conscience. Conserver les performances de la première réponse et l'exigence de compréhension de la seconde.",
-   "III3": "Une machine peut raisonner au sens opératoire ; la compréhension et la conscience exigent des indices distincts, que Deep Blue n'apporte pas. Reste le statut probant de tels indices.",
+   "III2": "Turing montre comment éprouver les capacités observables ; Searle montre que le calcul symbolique ne démontre pas la compréhension ; Butlin et ses collègues examinent les indicateurs tirés des théories de la conscience. Conserver les performances de la première réponse et l'exigence de compréhension de la seconde. La réserve de Searle ne démontre pas que la compréhension artificielle soit impossible.",
+   "III3": "Une machine peut raisonner au sens opératoire ; la compréhension et la conscience exigent des indices distincts, que Deep Blue n'apporte pas. Reste le statut probant de tels indices. La question résiduelle porte sur la preuve du vécu, non sur un simple déficit de performance.",
    "tests": "Cas : Deep Blue, réussite spécialisée qui ne répond pas aux critères plus exigeants de compréhension et conscience. Restitution : performance reconnue. Non-rechute : ne conclure ni à la conscience ni à son impossibilité d'après la seule performance. Report : un modèle de langage ou un système artificiel à architecture différente exigerait la même distinction. Limite : indicateurs scientifiques ne sont pas une preuve définitive d'une expérience vécue."
   },
   "candidats_III": [
@@ -115,7 +115,7 @@
      "Introduction · les deux réponses"
     ],
     [
-     "Une machine peut-elle penser, si penser c’est traiter correctement des symboles, ou faut-il qu’il y ait un sujet qui se sait penser, ce qu’une machine ne semble pas pouvoir être ?",
+     "Une machine peut-elle penser si ses performances semblent témoigner d'un raisonnement, alors que rien ne prouve qu'elle en comprenne le sens, et comment juger cette compréhension sans exiger d'avance une conscience humaine ?",
      "Introduction · la problématique"
     ],
     [
@@ -152,7 +152,7 @@
      "I.3 Éprouver le critère sans le confondre avec le cas"
     ],
     [
-     "Surtout, même une imitation réussie laisserait entière une question : l'aptitude à répondre comme un esprit suffit-elle à comprendre ce que l'on dit ?",
+     "La performance d'une machine établit qu'elle réussit une tâche, non qu'elle comprend ce qu'elle fait.",
      "I.3 Ce que la première réponse ne permet pas encore"
     ],
     [
@@ -189,7 +189,7 @@
      "II.3 Éprouver sur le même cas"
     ],
     [
-     "Mais Searle n'établit pas qu'aucune machine ne pourrait penser : il conteste qu'un programme formel, à lui seul, suffise à la compréhension. Il reste possible d'examiner autrement l'organisation d'un système.",
+     "La différence entre exécuter des règles et comprendre n'établit pas qu'aucune machine ne pourrait comprendre : elle indique ce que les seules performances ne prouvent pas.",
      "II.3 Ce que cette seconde réponse ne permet pas encore"
     ],
     [
