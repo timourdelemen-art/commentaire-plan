@@ -670,7 +670,7 @@
    "residual": "Reste la parole qui a déjà blessé ou tué, et qu’aucune reprise ne peut défaire.",
    "conclusionQuestion": "Mais que vaut cette maîtrise quand l’aveu vient trop tard pour sauver celui que la parole a perdu ?",
    "economy": {
-    "words": 918,
+    "words": 922,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -678,7 +678,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "9ee8623097b3cca5913798ae4cc4df0c6786b15f47860901223533037bd369b4",
+   "copySha256": "0e3d14cbab7162c8929e8fbcf2c1b2e18a4921883d1c69c0080f1434a3b6528d",
    "protocol": "V16.1-exp"
   },
   "notion-inconscient": {
@@ -1010,7 +1010,7 @@
    "residual": "Reste ce qu’aucune activité ne peut entretenir indéfiniment : le vivant lui-même, qui vieillit quoi qu’il fasse.",
    "conclusionQuestion": "Mais qu’en est-il de nous, que nulle reconstruction ne peut rendre à notre jeunesse ?",
    "economy": {
-    "words": 888,
+    "words": 895,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -1018,7 +1018,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "edc8650a645748830a7e0c9d023190318f3d1cfe1c361687134e149c66c94fbd",
+   "copySha256": "eefd3f3753737371f7843065a1f942db77872dca161ab22ddf9bce5af85be3e9",
    "protocol": "V16.1-exp"
   },
   "notion-travail": {
@@ -1078,7 +1078,7 @@
    "residual": "Reste à savoir ce que deviendra cette part humaine si les machines rendent inutile la plupart des travaux, comme Aristote l’imaginait déjà : « si, de même, les navettes tissaient d’elles-mêmes et les plectres jouaient tout seuls de la cithare, alors les ingénieurs n’auraient pas besoin d’exécutants ni les maîtres d’esclaves ».",
    "conclusionQuestion": "Mais où trouverons-nous cette place, si les navettes finissent par tisser d’elles-mêmes ?",
    "economy": {
-    "words": 962,
+    "words": 971,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -1086,7 +1086,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "776738bc1943261aa899ac5f9978e2dca988510a104d4c2003b212d626b57823",
+   "copySha256": "892d84c494c058101db1e1946ac67b0e1cef7dda1d8ee34f5d1715b3919d41d7",
    "protocol": "V16.1-exp"
   },
   "notion-verite": {
