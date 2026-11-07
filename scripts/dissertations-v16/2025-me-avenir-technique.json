@@ -88,9 +88,9 @@
       "copie": "état de travail (architecture expérimentale)"
     },
     "ouvertures_de_pensee": {
-      "I": "Notre dépendance technique ne se réduit plus à une préférence pour des outils : elle touche les conditions matérielles sans lesquelles la plupart de nos projets ne pourraient même pas être entrepris.",
-      "II": "L'avenir cesse cependant d'apparaître comme le simple effet automatique des inventions : les institutions peuvent autoriser, interdire et réorienter leurs usages.",
-      "III": "Nous pouvons alors comprendre pourquoi décider reste possible sans être également facile partout : plus nos activités sont liées à une infrastructure, plus sa transformation exige des décisions coordonnées et durables.",
+      "I": "L'agriculture mécanisée, les soins et l'énergie ne sont plus de simples accessoires choisis à volonté : ils conditionnent matériellement les possibilités à partir desquelles nous décidons de notre avenir.",
+      "II": "La possibilité de suspendre une recherche ou de limiter une technique distingue la dépendance matérielle de la soumission politique : il reste des décisions collectives sur les usages à conserver et ceux auxquels renoncer.",
+      "III": "L'exemple de l'automobile montre que l'action politique n'est pas abolie par la technique, mais devient plus coûteuse lorsque routes, urbanisme et habitudes de déplacement rendent les solutions interdépendantes.",
       "statut": "Hypothèses établies à la mesure de leurs preuves ; ne pas transformer une possibilité en certitude."
     }
   },
@@ -156,12 +156,8 @@
           "I.2 La fonder par une condition"
         ],
         [
-          "Or ces besoins ne sont plus satisfaits sans agriculture mécanisée, sans médecine, sans énergie : notre avenir dépend donc de la technique.",
-          "I.2 L’inférence décisive"
-        ],
-        [
-          "Notre dépendance technique ne se réduit plus à une préférence pour des outils : elle touche les conditions matérielles sans lesquelles la plupart de nos projets ne pourraient même pas être entrepris.",
-          "I.2 Ce que la preuve ouvre"
+          "L'agriculture mécanisée, les soins et l'énergie ne sont plus de simples accessoires choisis à volonté : ils conditionnent matériellement les possibilités à partir desquelles nous décidons de notre avenir.",
+          "I.2 Déduire ce que le fondement permet d'établir"
         ],
         [
           "Ce fondement établit que les conditions matérielles de notre avenir dépendent de la technique.",
@@ -205,8 +201,8 @@
           "II.2 Citation qui fait voir que l’habileté technique ne décide pas du sort des hommes"
         ],
         [
-          "L'avenir cesse cependant d'apparaître comme le simple effet automatique des inventions : les institutions peuvent autoriser, interdire et réorienter leurs usages.",
-          "II.2 La possibilité que la seconde preuve révèle"
+          "La possibilité de suspendre une recherche ou de limiter une technique distingue la dépendance matérielle de la soumission politique : il reste des décisions collectives sur les usages à conserver et ceux auxquels renoncer.",
+          "II.2 Déduire une conséquence précise de l'argument"
         ],
         [
           "Cette raison établit que nous pouvons décider de l’orientation et de l’usage des techniques.",
@@ -246,12 +242,8 @@
           "III.2 La démontrer : ce qu’elle conserve et ce qu’elle explique"
         ],
         [
-          "L'automobile en donne l'exemple : elle a d'abord été un moyen de transport parmi d'autres, mais les routes, l'étalement urbain et les habitudes de mobilité ont rendu coûteuse sa substitution. Cela n'empêche pas toute autre politique des transports.",
-          "III.2 Le critère sur un second cas"
-        ],
-        [
-          "Nous pouvons alors comprendre pourquoi décider reste possible sans être également facile partout : plus nos activités sont liées à une infrastructure, plus sa transformation exige des décisions coordonnées et durables.",
-          "III.2 Ce que la transformation fait comprendre"
+          "L'exemple de l'automobile montre que l'action politique n'est pas abolie par la technique, mais devient plus coûteuse lorsque routes, urbanisme et habitudes de déplacement rendent les solutions interdépendantes.",
+          "III.2 Déduire ce que le fondement permet d'établir"
         ],
         [
           "Notre avenir dépend donc des techniques parce qu'elles organisent le champ de nos choix ; il dépend aussi de nous parce que les décisions collectives peuvent, à des degrés divers, rouvrir ce champ.",
