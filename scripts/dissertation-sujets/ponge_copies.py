@@ -606,7 +606,7 @@ C["ponge-donner-a-voir"] = dict(
  (None,[
   ("Le travail rend même visible ce qui échappe à la vue.","Argument"),
   ("Dans « La Mounine », le ciel limpide apparaît « tout mélangé d’ombre. Comme blâmé... Ciel blâmé ».","Le passage qui prouve"),
-  ("La reprise de « blâmé », que Ponge rapproche ensuite de « blême », fait voir une couleur que personne ne nomme : un bleu chargé de nuit.","Ce que le passage montre"),
+  ("En rapprochant « blâmé » de « blême », Ponge fait hésiter la description du ciel entre perception visuelle et jugement. La correction entre parenthèses n’est pas un jeu gratuit : elle essaie une autre nuance pour mieux approcher la lumière observée.","Ce que le passage montre"),
  ]),
  (None,[("Si le travail fait voir les choses, comment l’écriture y parvient-elle, quand elle ne cache rien de ses essais ?","Transition : la question ouverte")]),
  ("Troisième partie",[
