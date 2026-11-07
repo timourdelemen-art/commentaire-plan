@@ -88,9 +88,9 @@
       "copie": "état de travail (architecture expérimentale)"
     },
     "ouvertures_de_pensee": {
-      "I": "Le devoir de vérité apparaît dès lors comme une condition de la confiance entre personnes : mentir ne fausse pas seulement une information, il empêche autrui de juger par lui-même.",
-      "II": "Mais dire vrai n'est pas simplement déposer un fait devant quelqu'un : c'est aussi agir sur une existence, avec des conséquences qu'il faut considérer.",
-      "III": "Une autre possibilité se dégage : respecter la capacité d'autrui à décider peut obliger à lui proposer une vérité sans lui imposer de la recevoir immédiatement ni décider secrètement à sa place.",
+      "I": "Mentir ne retire pas seulement un fait à autrui : en exploitant sa confiance, on l'empêche de juger lui-même sur ce qui le concerne. Le devoir de vérité protège ainsi sa capacité de décider.",
+      "II": "Dire vrai est aussi un acte adressé à quelqu'un : lorsque l'information ne lui offre aucune prise sur sa situation et ne fait que le blesser, sa communication demande un examen moral que sa vérité ne suffit pas à clore.",
+      "III": "Respecter la personne peut exiger de lui rendre une vérité accessible tout en lui laissant décider du moment où elle veut l'entendre. Cela interdit de faire du souci de la protéger un pouvoir de décider secrètement à sa place.",
       "statut": "Possibilités justifiées, avec leur portée exacte."
     }
   },
@@ -145,12 +145,8 @@
           "I.2 La fonder : la condition de toute parole"
         ],
         [
-          "Tromper, c’est donc traiter l’autre en être à manœuvrer, et l’on doit la vérité à quiconque on parle.",
-          "I.2 L’inférence décisive"
-        ],
-        [
-          "Le devoir de vérité apparaît dès lors comme une condition de la confiance entre personnes : mentir ne fausse pas seulement une information, il empêche autrui de juger par lui-même.",
-          "I.2 Ce que la preuve ouvre"
+          "Mentir ne retire pas seulement un fait à autrui : en exploitant sa confiance, on l'empêche de juger lui-même sur ce qui le concerne. Le devoir de vérité protège ainsi sa capacité de décider.",
+          "I.2 Déduire ce que le fondement permet d'établir"
         ],
         [
           "Ce fondement établit que mentir n’est jamais bon : la vérité est due à celui à qui l’on parle, comme à un être capable de juger.",
@@ -190,12 +186,8 @@
           "II.2 La fonder par les effets"
         ],
         [
-          "Une vérité qui ne donne à celui qui l’entend que de la douleur, sans rien qu’il puisse en faire, est un acte nuisible, et l’on a raison de s’en abstenir.",
-          "II.2 L’inférence décisive"
-        ],
-        [
-          "Mais dire vrai n'est pas simplement déposer un fait devant quelqu'un : c'est aussi agir sur une existence, avec des conséquences qu'il faut considérer.",
-          "II.2 La possibilité que la seconde preuve révèle"
+          "Dire vrai est aussi un acte adressé à quelqu'un : lorsque l'information ne lui offre aucune prise sur sa situation et ne fait que le blesser, sa communication demande un examen moral que sa vérité ne suffit pas à clore.",
+          "II.2 Déduire ce que le fondement permet d'établir"
         ],
         [
           "Cette raison établit que dire une vérité est un acte qu’on a raison de juger à ses effets sur celui qui l’entend.",
@@ -235,12 +227,8 @@
           "III.2 La démontrer : ce qu’il conserve"
         ],
         [
-          "Il explique aussi leurs arrêts : le devoir de ne pas tromper ne disait pas qui décide de parler, et le jugement par les effets donnait cette décision au mauvais juge.",
-          "III.2 Ce qu’il explique"
-        ],
-        [
-          "Une autre possibilité se dégage : respecter la capacité d'autrui à décider peut obliger à lui proposer une vérité sans lui imposer de la recevoir immédiatement ni décider secrètement à sa place.",
-          "III.2 Ce que la transformation fait comprendre"
+          "Respecter la personne peut exiger de lui rendre une vérité accessible tout en lui laissant décider du moment où elle veut l'entendre. Cela interdit de faire du souci de la protéger un pouvoir de décider secrètement à sa place.",
+          "III.2 Déduire ce que le fondement permet d'établir"
         ],
         [
           "Toute vérité n’est donc pas bonne à dire ; mais celle qui concerne la vie d’un autre est bonne à lui offrir, et c’est à lui de la recevoir ou non.",
