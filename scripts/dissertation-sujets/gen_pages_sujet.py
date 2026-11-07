@@ -45,7 +45,7 @@ V = {'ok': 'ok', 'redit': 'no', 'theme': 'def', 'faux': 'no', 'reprise': 'def', 
 COMMENT = {
  1: 'Précisez les mots du sujet. Examinez des passages qui éclairent la lecture proposée et ce qu’il faut y préciser. Votre question doit faire apparaître une difficulté littéraire réelle, sans opposition fabriquée.',
  2: 'Chaque partie apporte une réponse au problème. La suivante approfondit ce qui reste à expliquer. Deux ou trois parties peuvent convenir ; la copie proposée ici en développe trois. Analysez l’écriture dès qu’elle sert la démonstration.',
- 3: 'Un passage précis ; ce que fait le texte, nommé simplement ; son effet ici ; puis ce que cela apporte à la partie. Une phrase d’analyse par preuve suffit.',
+ 3: 'Partez des mots exacts du passage. Identifiez un choix d’écriture, son effet ici, puis ce que cet effet apporte au sujet. Une phrase peut suffire ; développez davantage si le texte le demande. Ne prêtez pas automatiquement à une figure ou à un silence une signification qu’il ne démontre pas.',
  4: 'Le modèle développe une introduction, trois parties de trois paragraphes, deux transitions et une conclusion. Adaptez votre organisation au sujet : chaque partie doit faire avancer la réponse.',
 }
 IA = {
@@ -53,7 +53,7 @@ IA = {
  'pb': 'Dissertation sur œuvre, bac de français. Deux phrases expliquent la lecture proposée par le sujet et ce que des passages précis invitent à y préciser ; une question formule la difficulté littéraire. Ne pas exiger de pourtant, de contre-exemple ou de formule fixe. Un seul manque prioritaire, sans écrire à la place de l’élève. Vouvoyer.',
  'plan': 'Dissertation sur œuvre, bac de français. Évaluer deux ou trois réponses qui font progresser la démonstration selon le sujet. Chaque partie répond au problème et prépare la suivante. Aucun rôle fixe ni connecteur imposé ; distinguer un raisonnement d’une liste de thèmes. Un seul conseil prioritaire. Vouvoyer.',
  'trans': 'Dissertation sur œuvre, bac de français. Évaluer une transition entre deux parties, ou deux entre trois parties : chacune est une question née de ce que la partie précédente laisse à expliquer, à laquelle la suivante répond. Un seul conseil prioritaire. Vouvoyer.',
- 'ana': 'Dissertation sur œuvre, bac de français. Évaluer une ou deux phrases d’analyse : choix d’écriture nommé simplement, effet précis et portée pour le sujet. Ne pas exiger de terme technique. Un seul conseil prioritaire. Vouvoyer.',
+ 'ana': 'Dissertation sur œuvre, bac de français. Évaluer une analyse littéraire : relever un choix d’écriture exact, expliquer son effet dans ce passage et sa portée pour le sujet. Ne pas fixer de nombre de phrases ; accueillir une nuance ou une limite lorsque les mots l’exigent, sans demander d’interprétation abstraite ou philosophique automatique. Ne pas exiger de terme technique. Un seul conseil prioritaire. Vouvoyer.',
  'copie': 'Dissertation sur œuvre, bac de français. Évaluer la copie entière : problème littéraire, plan progressif adapté au sujet, transitions, preuves analysées, conclusion qui répond. Citer deux réussites et un seul manque prioritaire. Vouvoyer.',
 }
 def plain(s): return re.sub(r'<[^>]+>', '', s)
@@ -119,9 +119,13 @@ def page(k, I, O, other, Ib):
                   + zone(4, 'Les transitions', 'Entre vos parties, écrivez une question qui prépare la réponse suivante.', cb['sujet'], 'trans',
                          f'<p><strong>I → II.</strong> {Ib["trans"][0]}<br><strong>II → III.</strong> {Ib["trans"][1]}</p>'))
           + suiv('Étape 3 · La preuve →') + '</section>')
+    approfondir = D.PRECISION.get(k)
+    precision = (zone(7, 'Affiner l’analyse', html.escape(approfondir[0]), approfondir[1], 'ana',
+                      '<p>' + html.escape(approfondir[2]) + '</p>') if approfondir else '')
     e3 = (f'<section class="etape" id="etape-preuve"><h3>Étape 3 · La preuve</h3>{comment(3)}<div class="etape-niveau">Je choisis, sur ce sujet</div>{direct}'
-          + q(1, 1, 'l’analyse', 'Quelle phrase analyse le mieux ce passage, pour la dissertation ?', an, 'ana', f'<p class="etape-passage">{I["passage"]}</p>')
-          + ecrit(zone(5, 'Une preuve analysée', f'En une ou deux phrases, expliquez comment l’écriture de ce passage éclaire le sujet. <span class="etape-passage" style="display:block">{Ib["passage"]}</span>', cb['sujet'], 'ana', f'<p>{Ib["an"]}</p>'))
+          + q(1, 1, 'l’analyse', 'Quelle analyse explique le plus précisément ce que fait l’écriture dans ce passage ?', an, 'ana', f'<p class="etape-passage">{I["passage"]}</p>')
+          + precision
+          + ecrit(zone(5, 'Une preuve analysée', f'Expliquez comment l’écriture de ce passage éclaire le sujet : relevez un détail précis, son effet ici et ce qu’il apporte à l’argument. Une ou plusieurs phrases, selon ce que demande le texte. <span class="etape-passage" style="display:block">{Ib["passage"]}</span>', cb['sujet'], 'ana', f'<p>{Ib["an"]}</p>'))
           + suiv('Étape 4 · La copie entière →') + '</section>')
     e4 = (f'<section class="etape" id="etape-copie"><h3>Étape 4 · La copie entière</h3>{comment(4)}'
           f'<p>Rédigez maintenant la dissertation entière sur le sujet de cette page. Vous pourrez ensuite la comparer à la copie à 20.</p>'
