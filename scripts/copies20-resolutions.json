@@ -58,7 +58,7 @@
    "residual": "Reste que bien des injustices ne passent par aucune loi ni par aucun acte qu’un tribunal puisse juger : le mépris, l’exclusion silencieuse, les portes qui restent fermées.",
    "conclusionQuestion": "Mais qui luttera contre les injustices qu’aucun tribunal ne peut juger ?",
    "economy": {
-    "words": 991,
+    "words": 1080,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -66,7 +66,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "10efdf8cf7420b6e021f2d597944d625ee8ec22463e746fefcc5fa9911dac5ad",
+   "copySha256": "f9399fb373c0dd3307d560a46db861e85542913f14b00c839ce19431c2eeca4c",
    "protocol": "V16.1-exp"
   },
   "2026-ag-humanite-religion": {
@@ -126,7 +126,7 @@
    "residual": "Reste à savoir ce que des pratiques civiles peuvent conserver des expériences religieuses sans les reproduire : la substitution d’une fonction ne garantit pas l’équivalence des significations.",
    "conclusionQuestion": "Que perdrait une humanité qui répondrait autrement aux besoins auxquels les religions ont donné sens ?",
    "economy": {
-    "words": 955,
+    "words": 1047,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -134,7 +134,7 @@
     "status": "propose",
     "independentReview": "Inférences et portée de la troisième partie corrigées ; vérifications indépendantes de l'ensemble du corpus et des références encore requises."
    },
-   "copySha256": "4ec9ff9dc4d942300542c8619fc54d89192add7ba33f137ab71e241d20e50a17",
+   "copySha256": "22bb65c130184682e7ed95d933c56b347bac3d464d24191bad2eefbd7df5eb3c",
    "protocol": "V16.1-exp"
   },
   "2026-an-artiste-sait": {
@@ -194,7 +194,7 @@
    "residual": "Reste que ce savoir porte sur l’œuvre, non sur ce qu’elle fera à ceux qui la recevront : rien ne lui annonçait qu’un concert sauvé de justesse serait écouté dans le monde entier.",
    "conclusionQuestion": "Mais l’artiste sait-il ce que son œuvre fait aux autres, quand elle leur parle comme elle ne lui a jamais parlé ?",
    "economy": {
-    "words": 940,
+    "words": 1031,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -202,7 +202,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "a05f6893bc74c96fe962a235f526eaf6f43e022687313c3e6cafd1ae29a982a3",
+   "copySha256": "c699d513a3b4d227aef9ac9b0afa859ad2ad989bd68279c222f50451250bd56c",
    "protocol": "V16.1-exp"
   },
   "2026-an-science-utile": {
@@ -262,7 +262,7 @@
    "residual": "Reste le cas où c’est la connaissance elle-même, et non sa diffusion, qui est un danger, parce que celui qui la possède peut en user seul.",
    "conclusionQuestion": "Peut-on cependant renoncer à chercher une vérité parce que la savoir est déjà un danger ?",
    "economy": {
-    "words": 1085,
+    "words": 1173,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -270,7 +270,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "16b1f47f8309e7f627a4d1d20460dd4523325aa8e7e3e7c848363b02206bc984",
+   "copySha256": "fa5179b918d357c575d80ff5a552e6913ff1b1ab2b04840bbd7029f4e29b7dab",
    "protocol": "V16.1-exp"
   },
   "2026-asie-inconscient-bonheur": {
@@ -330,7 +330,7 @@
    "residual": "Reste que cette compréhension, si elle délivre de la crainte, délivre aussi de l’espoir, puisque, selon Spinoza, « il n’y a pas d’espoir sans crainte, ni de crainte sans espoir » ; or certains bonheurs vivent d’espérer.",
    "conclusionQuestion": "Mais un bonheur sans espoir est-il encore celui que nous désirions ?",
    "economy": {
-    "words": 1066,
+    "words": 1152,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -338,7 +338,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "09c8ed999fb744a86e2672c26f3d03b46376c5962a981cb8873cf41e3d625ba0",
+   "copySha256": "38a54ea8483523f54203bec4f69790a96c1978b33bbcff949e7962cd200a2025",
    "protocol": "V16.1-exp"
   },
   "2026-asie-langage": {
@@ -398,7 +398,7 @@
    "residual": "Reste qu’un tel travail suppose une communauté qui accueille les mots changés, et qu’un pouvoir peut s’employer à la défaire.",
    "conclusionQuestion": "Mais que reste-t-il de cette liberté quand plus personne n’accueille les mots qu’on change ?",
    "economy": {
-    "words": 951,
+    "words": 1032,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -406,7 +406,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "af40087216042642b86c67758b826856de3a12495b9a5305f6cb1bbaacff2e83",
+   "copySha256": "9912d20871dd47f63a47970272c9669c85cb68b743c4bc21e4183caa386962de",
    "protocol": "V16.1-exp"
   },
   "2026-g1-bien-agir": {
@@ -466,7 +466,7 @@
    "residual": "Reste à savoir ce que vaut un tel jugement quand les principes mêmes auxquels on mesure nos actes sont contestés, ou lorsque les traces de l'action manquent.",
    "conclusionQuestion": "Comment tenir un jugement moral pour pleinement certain lorsque les faits accessibles et les principes selon lesquels nous jugeons peuvent encore être contestés ?",
    "economy": {
-    "words": 1104,
+    "words": 1184,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -474,7 +474,7 @@
     "status": "propose",
     "independentReview": "Inférences et portée de la troisième partie corrigées ; vérifications indépendantes de l'ensemble du corpus et des références encore requises."
    },
-   "copySha256": "f6ca15f637484e55bbe2de45a67ef12d468c0a64cbfc4f4c2cd1e6bac6303d18",
+   "copySha256": "0f49dc44f710781c7b1c0435d23a7c48b8c37679a0dc790b493bca1ff1bb9633",
    "protocol": "V16.1-exp"
   },
   "2026-g1-nature-besoin": {
