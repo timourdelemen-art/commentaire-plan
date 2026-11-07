@@ -87,6 +87,12 @@
     "statut": {
       "problematique": "suffisamment justifiée",
       "copie": "état de travail (architecture expérimentale)"
+    },
+    "ouvertures_de_pensee": {
+      "I": "Une voie d'enquête s'ouvre ainsi : certaines capacités attribuées à l'intelligence peuvent être étudiées sans décider d'avance que seul un être humain est capable de les exercer.",
+      "II": "Mais l'expérience de pensée de Searle rend visible une autre exigence : une réponse bien formée ne nous dit pas encore si celui qui la produit comprend ce dont il parle.",
+      "III": "Nous pouvons alors examiner des conditions distinctes de la performance, de la compréhension et de la conscience ; cette recherche n'exclut pas une pensée artificielle, mais n'en donne pas non plus la preuve à partir des seules réussites.",
+      "statut": "Possibilités justifiées, avec leur portée exacte."
     }
   },
   "citations": [],
@@ -129,7 +135,7 @@
       [
         [
           "Si penser consiste à résoudre des problèmes à l'aide de règles, une machine peut penser : Deep Blue évalue les positions et sélectionne un coup gagnant.",
-          "I.1 Établir la première réponse"
+          "I.1 Ouvrir une première manière de penser"
         ],
         [
           "La matière du dispositif semble alors secondaire ; c'est la qualité du traitement de l'information qui importe.",
@@ -148,16 +154,20 @@
           "I.2 Ce que cette méthode permet d'observer"
         ],
         [
+          "Une voie d'enquête s'ouvre ainsi : certaines capacités attribuées à l'intelligence peuvent être étudiées sans décider d'avance que seul un être humain est capable de les exercer.",
+          "I.2 Ce que la preuve ouvre"
+        ],
+        [
           "Deep Blue réussit aux échecs, mais une seule performance spécialisée ne suffit pas à satisfaire l'épreuve plus ouverte imaginée par Turing.",
           "I.3 Éprouver le critère sans le confondre avec le cas"
         ],
         [
           "La performance d'une machine établit qu'elle réussit une tâche, non qu'elle comprend ce qu'elle fait.",
-          "I.3 Ce que la première réponse ne permet pas encore"
+          "I.3 La portée et le manque du premier fondement"
         ],
         [
           "Une performance peut être intelligente sans nous apprendre comment elle est produite. Suffit-il de bien répondre pour comprendre ?",
-          "Transition · vers le fondement de la seconde réponse"
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
         ]
       ]
     ],
@@ -166,7 +176,7 @@
       [
         [
           "Une réponse réussie ne prouve pas nécessairement la compréhension : exécuter une règle et saisir ce qu'elle signifie ne sont pas une même chose.",
-          "II.1 Établir la seconde réponse"
+          "II.1 Ouvrir une autre manière de penser"
         ],
         [
           "Cette objection ne nie pas les performances ; elle interroge ce qu'elles autorisent à conclure.",
@@ -185,16 +195,20 @@
           "II.2 La force et l'objection interne de la chambre chinoise"
         ],
         [
+          "Mais l'expérience de pensée de Searle rend visible une autre exigence : une réponse bien formée ne nous dit pas encore si celui qui la produit comprend ce dont il parle.",
+          "II.2 La possibilité que la seconde preuve révèle"
+        ],
+        [
           "L'objection éclaire la limite du succès de Deep Blue : le calcul de coups ne démontre aucune compréhension vécue de la partie.",
           "II.3 Éprouver sur le même cas"
         ],
         [
           "La différence entre exécuter des règles et comprendre n'établit pas qu'aucune machine ne pourrait comprendre : elle indique ce que les seules performances ne prouvent pas.",
-          "II.3 Ce que cette seconde réponse ne permet pas encore"
+          "II.3 La portée et le manque du second fondement"
         ],
         [
           "La réussite n'est pas la compréhension ; le calcul formel ne suffit peut-être pas à l'expliquer. Comment déterminer ce qu'il faudrait à une machine pour penser réellement ?",
-          "Transition · vers l'examen des conditions"
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
         ]
       ]
     ],
@@ -203,7 +217,7 @@
       [
         [
           "Il faut remplacer l'opposition entre calcul et pensée par une recherche de conditions : de quelles capacités un système doit-il disposer pour qu'on lui attribue une pensée, et à quel degré ?",
-          "III.1 L'opération exigée : transformer le critère en enquête"
+          "III.1 Effectuer le déplacement nécessaire"
         ],
         [
           "Cela permet de distinguer la réussite à une tâche, la compréhension de ses raisons et l'éventuelle expérience consciente qui l'accompagne.",
@@ -226,6 +240,10 @@
           "III.2 L'inférence décisive : critère proportionné à la capacité"
         ],
         [
+          "Nous pouvons alors examiner des conditions distinctes de la performance, de la compréhension et de la conscience ; cette recherche n'exclut pas une pensée artificielle, mais n'en donne pas non plus la preuve à partir des seules réussites.",
+          "III.2 Ce que la transformation fait comprendre"
+        ],
+        [
           "Une machine peut accomplir des opérations de raisonnement ; une pensée artificielle plus complète n'est pas exclue par principe, mais ni la compréhension ni la conscience ne découlent de la seule performance.",
           "III.3 Répondre au sujet sans changer arbitrairement son sens"
         ],
@@ -235,7 +253,7 @@
         ],
         [
           "Reste une difficulté : des propriétés observables suffiront-elles un jour à établir qu'un système éprouve quelque chose, ou ne montreront-elles que les conditions possibles d'une telle expérience ?",
-          "III.3 Le reste : la portée de notre preuve"
+          "III.3 Le reste : ce qui demande encore à être pensé"
         ]
       ]
     ],
