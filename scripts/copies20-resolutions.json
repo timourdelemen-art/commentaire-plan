@@ -58,7 +58,7 @@
    "residual": "Reste que bien des injustices ne passent par aucune loi ni par aucun acte qu’un tribunal puisse juger : le mépris, l’exclusion silencieuse, les portes qui restent fermées.",
    "conclusionQuestion": "Mais qui luttera contre les injustices qu’aucun tribunal ne peut juger ?",
    "economy": {
-    "words": 1155,
+    "words": 991,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -66,7 +66,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "476563d2241e5d5ab8030a1a8cc6cfef20b5991e5c440e6d4f290e66b8b0ddce",
+   "copySha256": "10efdf8cf7420b6e021f2d597944d625ee8ec22463e746fefcc5fa9911dac5ad",
    "protocol": "V16.1-exp"
   },
   "2026-ag-humanite-religion": {
@@ -126,7 +126,7 @@
    "residual": "Reste qu’un sacré sans dieux peut servir ceux qui gouvernent, et que rien, dans sa seule fonction, ne le protège d’un tel usage.",
    "conclusionQuestion": "Mais un sacré sans dieux peut-il échapper au culte de ceux qui gouvernent ?",
    "economy": {
-    "words": 1099,
+    "words": 940,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -134,7 +134,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "346c92addadf6c1c670a6dfa0e0848f50d16a4058cca407d757cbf335fbcc6a1",
+   "copySha256": "3c4e0ff8c5a819cdb9e31b2943fa0ce928d8cb72286707babef07333794397c0",
    "protocol": "V16.1-exp"
   },
   "2026-an-artiste-sait": {
@@ -194,7 +194,7 @@
    "residual": "Reste que ce savoir porte sur l’œuvre, non sur ce qu’elle fera à ceux qui la recevront : rien ne lui annonçait qu’un concert sauvé de justesse serait écouté dans le monde entier.",
    "conclusionQuestion": "Mais l’artiste sait-il ce que son œuvre fait aux autres, quand elle leur parle comme elle ne lui a jamais parlé ?",
    "economy": {
-    "words": 1098,
+    "words": 940,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -202,7 +202,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "e1b38f66f18e37cd173beda1fc3ba14419b27c50ac81d4572c90a2b6e461b3d2",
+   "copySha256": "a05f6893bc74c96fe962a235f526eaf6f43e022687313c3e6cafd1ae29a982a3",
    "protocol": "V16.1-exp"
   },
   "2026-an-science-utile": {
@@ -262,7 +262,7 @@
    "residual": "Reste le cas où c’est la connaissance elle-même, et non sa diffusion, qui est un danger, parce que celui qui la possède peut en user seul.",
    "conclusionQuestion": "Peut-on cependant renoncer à chercher une vérité parce que la savoir est déjà un danger ?",
    "economy": {
-    "words": 1248,
+    "words": 1085,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -270,7 +270,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "e0b3957b299ca97535640c719b02579e0a2c6fb1c51ce47a286d912936fd2d0e",
+   "copySha256": "16b1f47f8309e7f627a4d1d20460dd4523325aa8e7e3e7c848363b02206bc984",
    "protocol": "V16.1-exp"
   },
   "2026-asie-inconscient-bonheur": {
