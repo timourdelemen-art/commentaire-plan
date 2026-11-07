@@ -602,7 +602,7 @@
    "residual": "Reste le cas où le malheur des autres excède tout ce que l’on peut, et où l’on ne sait plus ce que vaut un bonheur qui ne peut rien pour eux.",
    "conclusionQuestion": "Mais que reste-t-il au bonheur quand le malheur des autres dépasse tout ce que nous pouvons ?",
    "economy": {
-    "words": 1135,
+    "words": 969,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -610,7 +610,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "f1a66cb2efd2b5dc2024b2ed7cd77b27b6049fdaaae0672eefc3c55a32bfc0b8",
+   "copySha256": "e4ae75a733b23d083884fe9623c4cee9d597837aab4d23021c834a5020a33be4",
    "protocol": "V16.1-exp"
   },
   "2026-me-paroles": {
@@ -670,7 +670,7 @@
    "residual": "Reste la parole qui a déjà blessé ou tué, et qu’aucune reprise ne peut défaire.",
    "conclusionQuestion": "Mais que vaut cette maîtrise quand l’aveu vient trop tard pour sauver celui que la parole a perdu ?",
    "economy": {
-    "words": 1063,
+    "words": 918,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -678,7 +678,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "b4b213a16c5ca082c68e1475980fe599df1757d1180b5a0ab0e7b31c828aed1b",
+   "copySha256": "9ee8623097b3cca5913798ae4cc4df0c6786b15f47860901223533037bd369b4",
    "protocol": "V16.1-exp"
   },
   "notion-inconscient": {
@@ -738,7 +738,7 @@
    "residual": "Reste que le discernement peut être altéré sans être aboli, et que la frontière devient alors une affaire de degré.",
    "conclusionQuestion": "Mais où passe la frontière quand le discernement n’est ni entier ni perdu ?",
    "economy": {
-    "words": 1152,
+    "words": 1021,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -746,7 +746,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "9b23a3624413e0c5bfe782b3d4cd978a3eaf1f51606e84329f9bedf7aa58ac4b",
+   "copySha256": "0e32e095899122a240f1db80de4d01b4409074f8ce73474523dd19e7317b9592",
    "protocol": "V16.1-exp"
   },
   "notion-liberte": {
@@ -806,7 +806,7 @@
    "residual": "Reste que, au moment où l’on veut rompre, c’est la volonté elle-même qui doit dire si elle juge ou si elle est emportée, et qu’elle peut se tromper.",
    "conclusionQuestion": "Mais qui nous dira, le jour où nous voudrons rompre, si c’est la raison ou la sirène qui parle ?",
    "economy": {
-    "words": 1098,
+    "words": 949,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -814,7 +814,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "d58eb30b95db5240af9d452461794a2bf486678bb42c66c06a9d4ee1f34de27d",
+   "copySha256": "1785643c7f346f5a6bb13aec9f27b3935ac812c5d66e5741958104f17064620d",
    "protocol": "V16.1-exp"
   },
   "notion-raison": {
