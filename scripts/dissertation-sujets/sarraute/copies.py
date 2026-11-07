@@ -47,7 +47,7 @@ COPIES["jeu"] = dict(
  (None,[
   ("Pourtant tous les coups ne sont pas permis.","Argument"),
   ("H. 2 a voulu rompre, mais « ce n’est pas permis » : des « gens de bon sens » l’ont débouté, et un casier le désigne comme « Celui qui rompt pour un oui ou pour un non ».","Le passage qui prouve"),
-  ("L’image du tribunal transforme le jeu en procès : la société interdit le seul coup décisif, quitter la partie, et oblige les joueurs à rester face à face.","Ce que la citation montre"),
+  ("L’image du tribunal met en scène le regard des « gens de bon sens » : aux yeux des personnages, rompre pour si peu serait une faute impossible à justifier. Cette pression ressentie les empêche de sortir simplement de leur affrontement.","Ce que la citation montre"),
  ]),
  (None,[
   ('Chaque coup engage un camp.','Argument'),
@@ -123,7 +123,7 @@ COPIES["spectaculaire"] = dict(
  (None,[
   ("Le combat se livre dans les corps, sans un geste.","Argument"),
   ("H. 1 se sent pris dans « des sables mouvants où l’on s’enfonce » ; H. 2, chez son ami, éprouve « comme de la claustrophobie ».","Le passage qui prouve"),
-  ("Ces deux images opposées, l’enlisement et l’enfermement, disent une lutte que la scène ne peut pas représenter : elle n’existe que dans les mots qui la décrivent.","Ce que la citation montre"),
+  ("L’enlisement et l’enfermement figurent deux expériences de l’oppression sans qu’un décor les matérialise. Le théâtre les représente pourtant par les mots, les corps et leurs réactions : ce qu’il donne à voir naît d’abord de ce qu’il fait entendre.","Ce que la citation montre"),
  ]),
  (None,[
   ('Les moments les plus forts ne se voient pas.','Argument'),
@@ -135,7 +135,7 @@ COPIES["spectaculaire"] = dict(
   ("Il en fait un spectacle en donnant à la voix la place de l’action.","La reprise du mot clé"),
   ("Sarraute invente un spectacle de la parole : le public entend, dans une intonation, ce que les témoins de la pièce manquent.","Réponse III : la réponse à la problématique"),
   ("Tout tient dans « C’est biiien... ça... », que les deux amis répètent, imitent et corrigent, H. 1 allant jusqu’à s’excuser de ne pas l’avoir « prononcé comme il fallait ».","Le passage qui prouve"),
-  ("La double énonciation fait ici le spectacle : les voisins n’entendent qu’un compliment, le public entend le coup, parce que l’acteur le fait sonner devant lui.","Ce que la citation montre"),
+  ("La double énonciation repose sur un décalage : les voisins ne savent pas suivre le grief, tandis que le spectateur assiste à la reconstitution de l’intonation blessante. Le théâtre rend audible un désaccord sans pouvoir rejouer à l’identique l’instant où il est né.","Ce que la citation montre"),
  ]),
  (None,[
   ('Un geste minuscule devient un événement.','Argument'),
@@ -181,7 +181,7 @@ COPIES["theatrale"] = dict(
  (None,[
   ("L’action avance par coups de théâtre.","Argument"),
   ("Quand H. 1 croit tenir l’explication, « Tu étais jaloux. », H. 2 la retourne aussitôt : « Ah nous y sommes, c’est vrai. »","Le passage qui prouve"),
-  ("La reprise ironique de « nous y sommes » annule le dénouement promis : chaque découverte relance l’action au lieu de la finir.","Ce que la citation montre"),
+  ("H. 2 reprend « nous y sommes » pour jouer un instant le rôle que H. 1 lui attribue : l’aveu apparent de jalousie ne tranche pas la dispute. Cette réplique déjoue l’explication trop commode et relance l’interrogatoire.","Ce que la citation montre"),
  ]),
  (None,[
   ('Le conflit monte jusqu’au paroxysme.','Argument'),
@@ -289,12 +289,12 @@ COPIES["non-dits"] = dict(
   ("Ce qui les retient se tisse, lui aussi, entre les mots.","La reprise du mot clé"),
   ("Chez Sarraute, l’entre-deux des mots mine la relation et la maintient à la fois.","Réponse III : la réponse à la problématique"),
   ("Juste après l’avoir accusé, H. 2 pose la main sur l’épaule de son ami : « Mais je t’aime bien, tu sais... »","Le passage qui prouve"),
-  ("Les mêmes points de suspension qui blessaient portent ici la tendresse : ce qui se tisse entre les mots fait sentir aussi ce qui unit.","Ce que la citation montre"),
+  ("Le geste de la main sur l’épaule et « je t’aime bien » réintroduisent la proximité, mais les points de suspension ne garantissent aucune réconciliation : la tendresse se fait entendre au milieu d’un conflit qui demeure.","Ce que la citation montre"),
  ]),
  (None,[
   ('Les silences eux-mêmes tissent le lien.','Argument'),
   ('Aux moments où tout pourrait rompre, la didascalie ne donne que « Long silence. » ou « Un silence. »','Le passage qui prouve'),
-  ('Ces silences ne séparent pas : les deux amis restent face à face, et ce qui ne se dit pas les retient encore.','Ce que la citation montre'),
+  ('Après la sortie des voisins, le « Long silence » précède une nouvelle accusation de piège : la pause ne répare rien et suspend seulement l’échange avant sa reprise. Près du dénouement, les autres silences laissent de même la rupture en discussion.','Ce que la citation montre'),
  ]),
 (None,[
   ("La fin laisse le lien suspendu à deux mots.","Argument"),
