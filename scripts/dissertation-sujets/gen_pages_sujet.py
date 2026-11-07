@@ -131,7 +131,7 @@ def page(k, I, O, other, Ib):
     blocks = ''.join('<div class="c20-block">' + (f'<h3 class="c20-h">{h}</h3>' if h else '') + ''.join(
         f'<p class="c20-s"><span class="c20-t">{t}</span><span class="c20-f">{l}</span></p>' for t, l in b) + '</div>' for h, b in c['blocks'])
     pdf = (f'<a class="official-link" href="{c["pdf"]}" rel="noopener">Le sujet officiel (PDF) →</a>' if c['pdf']
-           else '<span class="micro">Libellé vérifié sur deux copies du sujet officiel.</span>')
+           else '<span class="micro">Sujet d’annales.</span>')
     why = ''.join(f'<div><strong>{a}</strong><p>{b}</p></div>' for a, b in c['why'])
     slug = f'bac-dissertation-copie-20-{O.get("prefixe", "")}{k}.html'
     title = f"Dissertation sur {O['court']} ({O['auteur']}) : {plain(c['titre'])} — sujet, exercices, copie à 20"
