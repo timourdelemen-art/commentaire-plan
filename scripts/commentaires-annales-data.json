@@ -42,24 +42,16 @@
         "heading": "I.1",
         "sentences": [
           {
-            "text": "Le regard d’Édouard rapproche d’abord la femme aimée et le paysage.",
-            "function": "Donner la première réponse."
+            "text": "Le regard d’Édouard installe d’abord la duchesse dans un paysage où les frontières paraissent s’adoucir : le « profil charmant » se détache sur le « ciel d’azur ».",
+            "function": "Décrire l'union perceptive progressivement construite par le regard"
           },
           {
-            "text": "Son « profil charmant » se détache sur un « ciel d’azur » : la fenêtre encadre la femme aimée, déjà proche du narrateur mais encore séparée de lui.",
-            "function": "Relier les mots, le cadrage et leur effet."
+            "text": "La phrase déroule les couleurs du soir, des « particules brillantes » à la « vapeur violette », avant de suspendre le passage du temps entre ce qui n’est « plus le jour » et ce qui n’est pas « encore l’obscurité ».",
+            "function": "Suivre le mouvement descriptif et sa durée indécise"
           },
           {
-            "text": "La précision « à deux pas derrière elle » souligne ce déséquilibre : Édouard peut contempler la duchesse, mais il ne reçoit pas son regard ; leur proximité demeure sans échange direct.",
-            "function": "Analyser l’effet du cadrage et de la position des personnages."
-          },
-          {
-            "text": "La lumière n’est « plus le jour » sans être « encore l’obscurité » ; cet entre-deux sensible prépare discrètement une relation que ni la présence ni l’éloignement ne définissent.",
-            "function": "Préciser l’effet du point de vue."
-          },
-          {
-            "text": "Les « particules brillantes qui nagent » et la « vapeur violette » prolongent cet instant suspendu : les images visuelles font du soir une durée indécise que le narrateur voudrait retenir.",
-            "function": "Relier les images de lumière et le ralentissement sensible du temps."
+            "text": "L’indication « à deux pas derrière elle » rappelle pourtant que la proximité sensible ne constitue pas un échange de regards : Édouard contemple celle qui ne se tourne pas encore vers lui.",
+            "function": "Faire réapparaître la relation humaine sous l'harmonie du paysage"
           }
         ]
       },
@@ -67,20 +59,16 @@
         "heading": "I.2",
         "sentences": [
           {
-            "text": "À la vision s’ajoute une intimité respirée.",
-            "function": "Approfondir la réponse."
+            "text": "Le paysage cesse peu à peu d’être seulement visible : la présence de Madame de Nevers semble gagner l’air que respire Édouard.",
+            "function": "Décrire le passage de la vision à une proximité respirée"
           },
           {
-            "text": "Le « souffle embaumé » du jasmin « semblait s’exhaler » de Madame de Nevers : cette impression confond le parfum de la fleur avec la présence de la femme.",
-            "function": "Analyser une impression explicitement donnée comme subjective."
+            "text": "Le « souffle embaumé » du jasmin « semblait s’exhaler » de la femme ; le verbe « semblait » maintient une hésitation entre sensation réelle et impression amoureuse.",
+            "function": "Délimiter ce que permet l'association du parfum et de la présence aimée"
           },
           {
-            "text": "Le verbe « respirais », accompagné d’« avidité », donne au désir une intensité corporelle sans qu’Édouard touche celle qu’il aime.",
-            "function": "Expliquer ce que les sensations font éprouver ici."
-          },
-          {
-            "text": "Le verbe « semblait » marque cependant la part d’illusion : Édouard attribue à la présence aimée un parfum venu du jasmin, comme si la sensation pouvait abolir les deux pas qui le séparent d’elle.",
-            "function": "Analyser la modalisation « semblait » et la subjectivité de la sensation."
+            "text": "L’« avidité » du narrateur donne à cette confusion une intensité corporelle : il accueille comme venu d’elle un parfum qui appartient aux fleurs, sans franchir les « deux pas » qui les séparent.",
+            "function": "Relier la reprise de la distance à son abolition imaginaire"
           }
         ]
       },
@@ -88,20 +76,16 @@
         "heading": "I.3",
         "sentences": [
           {
-            "text": "L’énumération rassemble enfin le lieu, le moment et le visage dans une même émotion.",
-            "function": "Montrer l’aboutissement du mouvement."
+            "text": "Les perceptions jusque-là distribuées dans le paysage se rassemblent finalement autour de l’émotion du narrateur.",
+            "function": "Suivre le passage d'une description dispersée à une conscience unifiée"
           },
           {
-            "text": "Après « La paix de ces campagnes, l’heure, le silence », le pronom « tout » réunit les perceptions dans « tout m’enivrait d’amour ».",
-            "function": "Analyser la construction de la phrase."
+            "text": "Dans l’accumulation « La paix de ces campagnes, l’heure, le silence », la phrase retarde son verbe ; le pronom « tout » recueille les éléments avant « tout m’enivrait d’amour ».",
+            "function": "Expliquer comment l'énumération construit son point d'aboutissement"
           },
           {
-            "text": "Ce « tout » rassemble les sensations dans l’esprit d’Édouard, mais n’engage encore aucune promesse de la duchesse.",
-            "function": "Dégager la limite précise de cette harmonie."
-          },
-          {
-            "text": "L’accumulation « La paix », « l’heure », « le silence » retarde le verbe « m’enivrait » ; la métaphore de l’ivresse donne à cette harmonie une intensité qui annonce aussi la perte de maîtrise.",
-            "function": "Nommer l’accumulation et la métaphore, puis préciser leur effet dans la progression."
+            "text": "Cette ivresse mesure l’emprise de la scène sur Édouard, non la certitude d’être aimé en retour ; le récit porte l’harmonie à son comble juste avant l’apparition des pensées douloureuses.",
+            "function": "Faire apparaître le seuil où l'harmonie va se renverser"
           }
         ]
       },
@@ -118,24 +102,16 @@
         "heading": "II.1",
         "sentences": [
           {
-            "text": "L’obstacle revient d’abord comme une rupture intérieure.",
-            "function": "Répondre à la transition."
+            "text": "« Mais bientôt » interrompt la longue continuité du paysage et ouvre la parole intérieure du narrateur.",
+            "function": "Nommer la rupture de rythme et de régime d'énonciation"
           },
           {
-            "text": "« Mais bientôt » interrompt l’ivresse et introduit les « réflexions douloureuses » ; le récit accueille alors directement les pensées d’Édouard.",
-            "function": "Analyser le changement de régime du récit."
+            "text": "Aux sensations liées par « tout » succèdent les « mille réflexions douloureuses » : la conscience se peuple de craintes au lieu de prolonger l’accord du soir.",
+            "function": "Mettre en relation deux accumulations de sens opposé"
           },
           {
-            "text": "L’adversatif « Mais » brise l’accord du paysage et du cœur ; l’hyperbole « mille réflexions » fait surgir une multitude de craintes là où quelques instants auparavant « tout » semblait uni.",
-            "function": "Expliquer le renversement porté par le connecteur et l’hyperbole."
-          },
-          {
-            "text": "Dans « Je l’adore » puis « séparé d’elle », la proximité du sentiment et l’impossibilité de l’union se heurtent au présent.",
-            "function": "Préciser l’effet de cette opposition."
-          },
-          {
-            "text": "L’incise « pensai-je » signale le passage à la pensée rapportée au discours direct : après une description paisible, le lecteur entre dans une conscience qui se contredit et se tourmente.",
-            "function": "Identifier le discours direct de pensée et son effet sur l’accès au personnage."
+            "text": "L’incise « pensai-je » introduit des phrases brèves où « Je l’adore » se heurte à « séparé d’elle » ; le lecteur n’observe plus seulement le paysage, il suit une pensée qui découvre sa propre impasse.",
+            "function": "Décrire comment le changement de voix transforme la scène"
           }
         ]
       },
@@ -143,20 +119,16 @@
         "heading": "II.2",
         "sentences": [
           {
-            "text": "La séparation n’est pourtant pas une distance physique.",
-            "function": "Développer la contradiction du passage."
+            "text": "La pensée d’Édouard reprend alors obstinément la proximité qui lui est offerte pour en mesurer l’insuffisance.",
+            "function": "Suivre la conversion de la présence en privation"
           },
           {
-            "text": "« Elle est là » et « près d’elle » multiplient les marques de présence, tandis que « jamais, jamais » ferme tout avenir commun.",
-            "function": "Relier les indications de lieu à la répétition temporelle."
+            "text": "« Elle est là » et « près d’elle » resserrent l’espace autour de la duchesse, tandis que « jamais, jamais » ferme l’avenir : la répétition donne à la séparation une durée sans terme.",
+            "function": "Relier rapprochement spatial et fermeture temporelle"
           },
           {
-            "text": "La métaphore de la « barrière » rend sensible une frontière sociale invisible : être auprès d’elle ne permet pas de former un couple reconnu.",
-            "function": "Nommer le procédé et sa portée dans cette scène."
-          },
-          {
-            "text": "La reprise « jamais, jamais » ferme l’avenir avec une vigueur que « Elle est là » rend particulièrement douloureuse : la répétition oppose une présence indéniable à une union tenue pour impossible.",
-            "function": "Étudier la répétition et le contraste entre présent spatial et avenir refusé."
+            "text": "La « barrière » reste invisible aux yeux des deux personnages dans ce paysage ouvert, mais elle est déjà présente dans l’impossibilité sociale que le narrateur affirme.",
+            "function": "Montrer la transformation d'un obstacle social en frontière intérieure"
           }
         ]
       },
@@ -244,28 +216,20 @@
         "heading": "III.3",
         "sentences": [
           {
-            "text": "Le jasmin du début revient lorsque les paroles deviennent impossibles : le motif qui portait le parfum du bonheur recueille désormais les larmes.",
-            "function": "Analyser la réalisation finale."
+            "text": "Le jasmin du début revient quand la parole ne suffit plus : le motif qui associait la duchesse au parfum sert désormais à recevoir les larmes du narrateur.",
+            "function": "Lire la reprise d'un motif à travers son changement de fonction"
           },
           {
-            "text": "Les fleurs, « qu’on ne distinguait plus qu’à peine », se fondent dans l’obscurité qui progresse ; leur présence devient moins un tableau offert au regard qu’un objet fragile à saisir.",
-            "function": "Relier l’assombrissement du décor à la transformation du motif du jasmin."
+            "text": "La série « je les lui donnai, je les lui repris » déroule deux gestes contraires sans explication psychologique ; les verbes font éprouver l’alternance entre offrir et retenir ce qu’il voudrait confier.",
+            "function": "Suivre le mouvement physique de l'hésitation plutôt que le résumer"
           },
           {
-            "text": "Dans « je les lui donnai, je les lui repris », les deux gestes inverses font du jasmin un lien offert puis ramené à soi.",
-            "function": "Relier les verbes et leur construction à l’effet produit."
+            "text": "Les fleurs, « qu’on ne distinguait plus qu’à peine », s’effacent avec le jour ; Édouard les couvre de « baisers » et de « larmes » au lieu d’embrasser celle qu’il aime.",
+            "function": "Relier l'obscurcissement du paysage au geste de substitution"
           },
           {
-            "text": "Le parallélisme des propositions et l’opposition entre « donnai » et « repris » condensent toute l’hésitation du personnage : offrir les fleurs, puis les retirer, remplace une déclaration qu’il n’ose faire.",
-            "function": "Nommer le parallélisme et l’antithèse verbale, puis expliquer le geste."
-          },
-          {
-            "text": "Le rapprochement final des « baisers » et des « larmes » unit tendresse et douleur dans un même geste : la fleur permet un contact détourné, sans lever la séparation.",
-            "function": "Montrer la portée précise de la fin du passage."
-          },
-          {
-            "text": "Édouard embrasse les fleurs plutôt que la femme ; la substitution rend sa passion visible sans lui donner de réponse. La beauté du tableau demeure, mais son sens s’est renversé.",
-            "function": "Préciser l’effet du déplacement des gestes affectifs vers les fleurs."
+            "text": "Le récit ne termine donc pas sur un symbole abstrait de l’amour impossible : il fait revenir un objet sensible, désormais chargé d’un désir qui n’a trouvé ni parole ni réponse.",
+            "function": "Établir la portée narrative du retour transformé du jasmin"
           }
         ]
       },
@@ -367,9 +331,9 @@
             "Donner puis reprendre les mêmes fleurs figure une proximité désirée qui ne se stabilise pas."
           ]
         ],
-        "write": "En trois phrases, analysez les fleurs à la fin du passage. Citez un détail et expliquez son effet ici.",
+        "write": "En trois phrases, expliquez comment le retour du jasmin à la fin transforme le sens qu'il avait dans la description initiale. Citez deux moments précis.",
         "hint": "Suivez les gestes, puis associez les deux mots qui terminent l’extrait.",
-        "model": "Les fleurs remplacent la réponse qu’Édouard n’ose pas donner. Dans « je les lui donnai, je les lui repris », les gestes inverses établissent puis retirent un lien entre les personnages. Les « baisers » et les « larmes » réunissent la tendresse et la souffrance, sans résoudre l’obstacle.",
+        "model": "Au début, le jasmin donne à Édouard l’impression que le parfum émane de Madame de Nevers : la fleur semble abolir la distance. À la fin, « je les lui donnai, je les lui repris » fait du jasmin l’objet d’un geste hésitant. Les « baisers » et les « larmes » qu’il reçoit rendent sensible la proximité désirée et la séparation maintenue.",
         "checks": [
           "Vous citez les mots exacts.",
           "Vous analysez leur construction.",
