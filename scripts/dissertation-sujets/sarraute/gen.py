@@ -32,7 +32,6 @@ for k,c in COPIES.items():
 <section class="offer-band" id="copie"><div class="kicker">LA COPIE</div><h2>{c['titre']}</h2>
 <p><button type="button" class="philo-print dc20-toggle" aria-controls="dc20-copie" aria-pressed="false">Voir la fonction de chaque phrase</button></p>
 <div class="c20 dc20 c20-plain" id="dc20-copie">{blocks}</div>
-<p class="micro dc20-note">Chaque réplique citée a été relue mot pour mot dans l’édition Gallimard du <em>Théâtre</em> de Nathalie Sarraute. La pièce n’a ni actes ni scènes : les passages sont situés par leur moment dans le dialogue. Les personnages s’y nomment H. 1, H. 2, H. 3 et F.</p>
 </section>
 
 <section class="offer-band"><div class="kicker">POURQUOI CETTE COPIE MÉRITE 20</div><h2>Rien n’y est décoratif.</h2>
