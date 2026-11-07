@@ -22,7 +22,7 @@ COPIES = [{'sujet': '2026-asie-reflexion',
                'personnages à persévérer.',
                'L’exemple identifié et situé'),
               ('L’obstacle devient ici une raison de continuer, parce qu’un progrès reste possible.',
-               'Ce que l’exemple permet de comprendre')
+               'Ce que l’exemple permet de comprendre'),
               ('La difficulté donne aussi du prix aux petites réussites et peut renforcer la confiance.', 'Une seconde raison distincte'),
               ('Chaque nouveau signe compris par Helen devient une victoire perceptible dans un apprentissage éprouvant.', 'Détail qui justifie cette seconde raison'),]),
             ('Transition',
@@ -36,7 +36,7 @@ COPIES = [{'sujet': '2026-asie-reflexion',
                'L’exemple identifié et situé'),
               ('Il renonce alors à devenir peintre : cette opposition n’a pas renforcé son projet, elle l’a conduit à '
                'l’abandonner.',
-               'Ce que l’exemple permet de comprendre')
+               'Ce que l’exemple permet de comprendre'),
               ('À force de recevoir des réponses décourageantes, on peut finir par croire son projet impossible.', 'Une seconde raison distincte'),
               ('Le narrateur du Petit Prince abandonne le dessin après les jugements répétés des adultes.', 'Détail qui justifie cette seconde raison'),]),
             ('Transition',
@@ -51,7 +51,7 @@ COPIES = [{'sujet': '2026-asie-reflexion',
                'L’exemple identifié et situé'),
               ('L’obstacle n’agit donc pas seul : le sens de l’action et l’aide des autres peuvent empêcher qu’il ne '
                'se transforme en découragement.',
-               'Ce que l’exemple permet de comprendre')
+               'Ce que l’exemple permet de comprendre'),
               ('Le soutien apporte également des moyens d’agir que la seule volonté ne fournit pas toujours.', 'Une seconde raison distincte'),
               ('L’appui de sa famille aide Malala à poursuivre un engagement qui l’expose à de graves dangers.', 'Détail qui justifie cette seconde raison'),]),
             ('Conclusion',
@@ -87,7 +87,7 @@ COPIES = [{'sujet': '2026-asie-reflexion',
                'L’exemple qui prouve'),
               ('Le lecteur peut alors cesser de juger un criminel abstrait pour imaginer l’angoisse d’un homme : le '
                'récit donne des raisons de contester la peine de mort.',
-               'Ce que l’exemple prouve')
+               'Ce que l’exemple prouve'),
               ('Le récit montre aussi les effets concrets d’une règle sur une personne singulière.', 'Une seconde raison distincte'),
               ('L’attente de l’exécution, racontée par le condamné lui-même, transforme une question juridique en expérience humaine.', 'Détail qui justifie cette seconde raison'),]),
             ('Transition',
@@ -102,7 +102,7 @@ COPIES = [{'sujet': '2026-asie-reflexion',
                'L’exemple identifié et situé'),
               ('Ce film de propagande montre que la force des images peut servir un régime qui persécute : une émotion '
                'artistique n’est pas, à elle seule, une leçon d’humanité.',
-               'Ce que l’exemple permet de comprendre')
+               'Ce que l’exemple permet de comprendre'),
               ('Une mise en scène impressionnante peut même cacher les intentions de ceux qui la fabriquent.', 'Une seconde raison distincte'),
               ('Les foules filmées par Riefenstahl donnent une apparence de grandeur à un pouvoir qui persécute.', 'Détail qui justifie cette seconde raison'),]),
             ('Transition',
@@ -118,7 +118,7 @@ COPIES = [{'sujet': '2026-asie-reflexion',
                'L’exemple qui prouve'),
               ('En lisant, nous sommes invités à faire ce chemin : regarder une personne au-delà de son apparence '
                'devient une question que nous pouvons aussi nous poser.',
-               'Ce que l’exemple prouve')
+               'Ce que l’exemple prouve'),
               ('L’œuvre peut enfin nous pousser à discuter nos réflexes plutôt qu’à nous croire spontanément généreux.', 'Une seconde raison distincte'),
               ('Les réactions des camarades d’August invitent le lecteur à interroger ses propres jugements.', 'Détail qui justifie cette seconde raison'),]),
             ('Conclusion',
@@ -156,7 +156,7 @@ COPIES = [{'sujet': '2026-asie-reflexion',
                'yeux des passagers.',
                'L’exemple qui prouve'),
               ('Le lecteur regarde avec eux : la description le place à la fenêtre du sous-marin.',
-               'Ce que l’exemple prouve')
+               'Ce que l’exemple prouve'),
               ('La précision des descriptions éveille également la curiosité pour des milieux que nous connaissons mal.', 'Une seconde raison distincte'),
               ('Les coraux et les algues observés depuis le Nautilus donnent envie d’en apprendre davantage sur la mer.', 'Détail qui justifie cette seconde raison'),]),
             ('Transition',
@@ -171,7 +171,7 @@ COPIES = [{'sujet': '2026-asie-reflexion',
                'L’exemple identifié et situé'),
               ('Nous voyons le point de vue construit par le peintre, sans éprouver la marche du personnage : le '
                'tableau donne un regard sur le lieu, plutôt que le lieu lui-même.',
-               'Ce que l’exemple permet de comprendre')
+               'Ce que l’exemple permet de comprendre'),
               ('Une représentation choisit toujours un angle et laisse nécessairement une partie du lieu hors de notre regard.', 'Une seconde raison distincte'),
               ('Le personnage peint par Friedrich contemple un panorama, mais le tableau ne raconte pas son trajet.', 'Détail qui justifie cette seconde raison'),]),
             ('Transition',
@@ -186,7 +186,7 @@ COPIES = [{'sujet': '2026-asie-reflexion',
                'L’exemple qui prouve'),
               ('L’imagination de l’artiste, puis celle du lecteur, construit des lieux que l’on habite le temps de '
                'l’œuvre.',
-               'Ce que l’exemple prouve')
+               'Ce que l’exemple prouve'),
               ('Ces lieux inventés nous permettent aussi d’imaginer des expériences impossibles dans notre quotidien.', 'Une seconde raison distincte'),
               ('La traversée de la Terre du Milieu donne au voyage la dimension d’une aventure hors de notre géographie.', 'Détail qui justifie cette seconde raison'),]),
             ('Conclusion',
@@ -222,7 +222,7 @@ COPIES = [{'sujet': '2026-asie-reflexion',
                'L’exemple identifié et situé'),
               ('Le lecteur découvre la persécution et les camps : effacer cette violence du témoignage trahirait ce '
                'qu’il cherche à transmettre.',
-               'Ce que l’exemple permet de comprendre')
+               'Ce que l’exemple permet de comprendre'),
               ('Le témoignage aide également à empêcher que la souffrance des victimes soit effacée par le silence.', 'Une seconde raison distincte'),
               ('Dans Maus, le souvenir du père devient une histoire que d’autres générations peuvent recevoir.', 'Détail qui justifie cette seconde raison'),]),
             ('Transition',
@@ -237,7 +237,7 @@ COPIES = [{'sujet': '2026-asie-reflexion',
                'L’exemple identifié et situé'),
               ('Le dessin animé n’empêche pas le récit d’être bouleversant ; un jeune spectateur peut avoir besoin '
                'd’explications et d’un échange pour comprendre ce qu’il voit.',
-               'Ce que l’exemple permet de comprendre')
+               'Ce que l’exemple permet de comprendre'),
               ('La réception dépend aussi de l’histoire personnelle et de la sensibilité du spectateur.', 'Une seconde raison distincte'),
               ('La solitude des enfants du film peut ainsi susciter des réactions différentes, même sans images spectaculaires.', 'Détail qui justifie cette seconde raison'),]),
             ('Transition',
@@ -252,7 +252,7 @@ COPIES = [{'sujet': '2026-asie-reflexion',
                'L’exemple qui prouve'),
               ('Le choc final ou la distance du dessin obligent le lecteur à penser la violence au lieu de seulement '
                'la subir.',
-               'Ce que l’exemple prouve')
+               'Ce que l’exemple prouve'),
               ('La forme peut enfin laisser au lecteur le travail de comprendre plutôt que lui imposer une réaction immédiate.', 'Une seconde raison distincte'),
               ('Le dernier vers de Rimbaud oblige à relire autrement tout le paysage qui précédait.', 'Détail qui justifie cette seconde raison'),]),
             ('Conclusion',
@@ -289,7 +289,7 @@ COPIES = [{'sujet': '2026-asie-reflexion',
                'revenir chaque jour à la même heure : il commencera à être heureux avant même son arrivée, rien qu’en '
                'l’attendant.',
                'L’exemple qui prouve'),
-              ('L’attente fait partie du bonheur : elle le prépare et le prolonge.', 'Ce que l’exemple prouve')
+              ('L’attente fait partie du bonheur : elle le prépare et le prolonge.', 'Ce que l’exemple prouve'),
               ('Une attente partagée permet aussi de faire une vraie place à la rencontre dans notre vie.', 'Une seconde raison distincte'),
               ('Les rendez-vous réguliers du renard transforment l’arrivée du petit prince en événement précieux.', 'Détail qui justifie cette seconde raison'),]),
             ('Transition',
@@ -302,7 +302,7 @@ COPIES = [{'sujet': '2026-asie-reflexion',
                'L’exemple identifié et situé'),
               ('Ce rapprochement rend sensible ce qu’un conseil abstrait ne suffirait pas à faire éprouver : certains '
                'moments ne se retrouvent pas.',
-               'Ce que l’exemple permet de comprendre')
+               'Ce que l’exemple permet de comprendre'),
               ('Reporter sans cesse nous empêche encore de reconnaître la valeur de ce qui ne reviendra pas.', 'Une seconde raison distincte'),
               ('Chez Ronsard, la rose fanée rend visible la disparition d’une occasion unique.', 'Détail qui justifie cette seconde raison'),]),
             ('Transition',
@@ -315,7 +315,7 @@ COPIES = [{'sujet': '2026-asie-reflexion',
                'L’exemple identifié et situé'),
               ('Ce plaisir tient à la saveur et à la mémoire qu’elle réveille : il ne dépend pas seulement de la durée '
                'de l’attente, mais de la rencontre avec ce que l’on est prêt à sentir.',
-               'Ce que l’exemple permet de comprendre')
+               'Ce que l’exemple permet de comprendre'),
               ('Le bonheur imprévu demande aussi une disponibilité que l’on ne peut pas programmer complètement.', 'Une seconde raison distincte'),
               ('Anton Ego n’attendait pas de son repas qu’il fasse revenir un souvenir d’enfance.', 'Détail qui justifie cette seconde raison'),]),
             ('Conclusion',
@@ -354,7 +354,7 @@ COPIES = [{'sujet': '2026-asie-reflexion',
                'L’exemple qui prouve'),
               ('Ses inquiétudes ressemblent aux nôtres : l’histoire de la guerre devient proche, parce qu’elle est '
                'vécue par quelqu’un de notre âge.',
-               'Ce que l’exemple prouve')
+               'Ce que l’exemple prouve'),
               ('Leur âge rend aussi leurs inquiétudes compréhensibles sans les réduire à des problèmes sans importance.', 'Une seconde raison distincte'),
               ('Anne Frank écrit ses rêves et ses conflits familiaux tandis que la guerre menace son existence.', 'Détail qui justifie cette seconde raison'),]),
             ('Transition',
@@ -370,7 +370,7 @@ COPIES = [{'sujet': '2026-asie-reflexion',
                'L’exemple identifié et situé'),
               ('Je n’ai donc pas besoin de lui ressembler pour m’intéresser à lui : le cinéma peut aussi déplacer mon '
                'regard.',
-               'Ce que l’exemple permet de comprendre')
+               'Ce que l’exemple permet de comprendre'),
               ('Une vie éloignée de la nôtre peut éveiller une curiosité que la seule ressemblance n’offrirait pas.', 'Une seconde raison distincte'),
               ('Le Paris d’Antoine Doinel fait découvrir d’autres rapports à l’école et à la famille.', 'Détail qui justifie cette seconde raison'),]),
             ('Transition',
@@ -384,7 +384,7 @@ COPIES = [{'sujet': '2026-asie-reflexion',
                'L’exemple identifié et situé'),
               ('Ces choix ne sont pas seulement des péripéties : ils mettent à l’épreuve la loyauté et le courage, ce '
                'qui donne des raisons d’admirer le héros ou de discuter sa conduite.',
-               'Ce que l’exemple permet de comprendre')
+               'Ce que l’exemple permet de comprendre'),
               ('Leurs décisions donnent enfin l’occasion de les discuter et non seulement de les admirer.', 'Une seconde raison distincte'),
               ('Le risque pris par Harry peut provoquer des questions autant que son courage suscite l’adhésion.', 'Détail qui justifie cette seconde raison'),]),
             ('Conclusion',
@@ -420,7 +420,7 @@ COPIES = [{'sujet': '2026-asie-reflexion',
                'L’exemple identifié et situé'),
               ('L’aide pouvait venir de personnes ordinaires : le courage n’est pas réservé à une profession ni à un '
                'statut.',
-               'Ce que l’exemple permet de comprendre')
+               'Ce que l’exemple permet de comprendre'),
               ('Le courage ne suppose pas non plus d’agir seul : l’entraide peut rendre possible un geste dangereux.', 'Une seconde raison distincte'),
               ('Au Chambon-sur-Lignon, la protection des personnes menacées repose aussi sur un effort collectif.', 'Détail qui justifie cette seconde raison'),]),
             ('Transition',
@@ -434,7 +434,7 @@ COPIES = [{'sujet': '2026-asie-reflexion',
                'L’exemple identifié et situé'),
               ('Sa force physique ne fait pas tout son héroïsme : il décide aussi d’agir malgré ce qu’il risque de '
                'perdre.',
-               'Ce que l’exemple permet de comprendre')
+               'Ce que l’exemple permet de comprendre'),
               ('Le danger n’est pas toujours physique : on peut aussi risquer de perdre sa place dans la société.', 'Une seconde raison distincte'),
               ('Valjean craint d’être reconnu lorsqu’il choisit de secourir Fauchelevent.', 'Détail qui justifie cette seconde raison'),]),
             ('Transition',
@@ -452,7 +452,7 @@ COPIES = [{'sujet': '2026-asie-reflexion',
                'L’exemple identifié et situé'),
               ('Défendre un camarade contre des moqueries relève aussi de ce courage ordinaire, même si toutes les '
                'situations ne demandent pas le même risque.',
-               'Ce que l’exemple permet de comprendre')
+               'Ce que l’exemple permet de comprendre'),
               ('Agir demande encore de reconnaître une injustice avant de suivre l’avis de la majorité.', 'Une seconde raison distincte'),
               ('Le juré de Lumet exige l’examen des preuves, même lorsque les autres veulent conclure rapidement.', 'Détail qui justifie cette seconde raison'),]),
             ('Conclusion',
@@ -490,7 +490,7 @@ COPIES = [{'sujet': '2026-asie-reflexion',
                'la guerre contre l’Irak, avec leurs interdits et leurs dangers.',
                'L’exemple qui prouve'),
               ('Une page d’histoire lointaine devient concrète, parce que je la vois avec les yeux d’une enfant.',
-               'Ce que l’exemple prouve')
+               'Ce que l’exemple prouve'),
               ('Ces récits révèlent également comment de grands événements transforment la vie la plus quotidienne.', 'Une seconde raison distincte'),
               ('Dans Persepolis, les interdits et la guerre entrent jusque dans l’enfance de Marjane.', 'Détail qui justifie cette seconde raison'),]),
             ('Transition',
@@ -504,7 +504,7 @@ COPIES = [{'sujet': '2026-asie-reflexion',
                'L’exemple qui prouve'),
               ('En lisant, j’imagine ce qu’il ressent : je comprends mieux ce que peut vivre un élève différent dans '
                'ma propre classe.',
-               'Ce que l’exemple prouve')
+               'Ce que l’exemple prouve'),
               ('Comprendre une autre vie peut aussi nous apprendre à nous méfier des jugements immédiats.', 'Une seconde raison distincte'),
               ('Les réactions envers August montrent ce que produit un regard qui s’arrête à l’apparence.', 'Détail qui justifie cette seconde raison'),]),
             ('Transition',
@@ -518,7 +518,7 @@ COPIES = [{'sujet': '2026-asie-reflexion',
                'L’exemple qui prouve'),
               ('Les personnages deviennent des miroirs : ils m’obligent à me poser des questions que je n’aurais pas '
                'posées seul.',
-               'Ce que l’exemple prouve')
+               'Ce que l’exemple prouve'),
               ('Se comparer aux personnages aide enfin à imaginer d’autres manières d’agir dans sa propre vie.', 'Une seconde raison distincte'),
               ('Les camarades d’August montrent qu’un comportement de groupe peut être accepté, mais aussi refusé.', 'Détail qui justifie cette seconde raison'),]),
             ('Conclusion',
