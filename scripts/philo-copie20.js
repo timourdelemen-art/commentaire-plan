@@ -9,7 +9,9 @@ require('./check-copies20').assertValid(DATA,LEDGER,ADDITIONAL);
 const nb=s=>String(s).replace(/ ([;:!?»])/g,' $1').replace(/« /g,'« ');
 const esc=s=>nb(String(s==null?'':s)).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 const VITRINE='philosophie-copie-20-s-engager-liberte.html';
-const line=(t,f)=>`<p class="c20-s"><span class="c20-t">${esc(t)}</span><span class="c20-f">${esc(f)}</span></p>`;
+// Le numéro du protocole (II.1, III.3…) reste dans les données, jamais dans la page publique.
+const fnLabel=f=>String(f).replace(/^\s*(I|II|III)\.\d\s+/u,'');
+const line=(t,f)=>`<p class="c20-s"><span class="c20-t">${esc(t)}</span><span class="c20-f">${esc(fnLabel(f))}</span></p>`;
 const block=(h,ss,tag)=>`<div class="c20-block"><${tag} class="c20-h">${esc(h)}</${tag}>${ss.map(([t,f])=>line(t,f)).join('')}</div>`;
 // Une transition est une charnière autonome entre deux parties, jamais une phrase de la partie précédente.
 const isTransition=pair=>/^Transition\b/i.test(String(pair[1]).trim());
@@ -80,4 +82,4 @@ ${TOGGLE}
 function writeAdditional(root){
   for(const [key,meta]of Object.entries(ADDITIONAL))fs.writeFileSync(path.join(root,meta.file),vitrine(key,meta));
 }
-module.exports={teaser:section,section,vitrine,writeAdditional,VITRINE,has:k=>Boolean(DATA[k])};
+module.exports={teaser:section,section,vitrine,writeAdditional,VITRINE,has:k=>Boolean(DATA[k]),renderCopy,BRIDGE_CSS,TOGGLE};

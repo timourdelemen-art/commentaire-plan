@@ -26,8 +26,8 @@ window.PHILO_RESOLUTION_CASES={
             "Une force commune qui impose le même droit à tous",
             "Un jugement capable de dire qu’une loi est injuste"
           ],
-          "cost": "Reste le cas où le pouvoir ferme les voies de contestation : les garanties dont dépend cette répartition des rôles ne peuvent plus être présupposées.",
-          "remaining": "Lorsque l’État détruit les voies par lesquelles on pouvait le corriger, comment lui résister sans abandonner l’exigence d’une justice commune ?",
+          "cost": "Reste que bien des injustices ne passent par aucune loi ni par aucun acte qu’un tribunal puisse juger : le mépris, l’exclusion silencieuse, les portes qui restent fermées.",
+          "remaining": "Mais qui luttera contre les injustices qu’aucun tribunal ne peut juger ?",
           "short": "l’État garantit, la contestation en appelle à la loi commune",
           "level": "défendable"
         },
@@ -56,7 +56,7 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "Le partage contrôlable conserve force et critique simultanément ; il coûte moins qu’une réduction de toute justice à la mobilisation ou à une succession sans contre-pouvoirs.",
-      "conclusion": "Lorsque l’État détruit les voies par lesquelles on pouvait le corriger, comment lui résister sans abandonner l’exigence d’une justice commune ?",
+      "conclusion": "Mais qui luttera contre les injustices qu’aucun tribunal ne peut juger ?",
       "transition": "Mais la force qui garantit les droits et le jugement qui les réclame se disputent-ils vraiment la même tâche ?"
     },
     {
@@ -139,7 +139,7 @@ window.PHILO_RESOLUTION_CASES={
             "Faire une œuvre nouvelle, qu’aucune recette ne contient"
           ],
           "cost": "Reste que l’œuvre peut recevoir des significations que même ce jugement exercé pendant la création n’avait pas envisagées.",
-          "remaining": "Jusqu’où le savoir de l’artiste peut-il porter sur son œuvre, si celle-ci continue de prendre sens dans des regards qu’il ne dirige pas ?",
+          "remaining": "Mais l’artiste sait-il ce que son œuvre fait aux autres, quand elle leur parle comme elle ne lui a jamais parlé ?",
           "short": "un savoir qui naît pendant le travail",
           "level": "défendable"
         },
@@ -168,7 +168,7 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "Le processus de reconnaissance et de correction explique le lien entre métier et invention ; la distinction des savoirs le complète, mais ne le remplace pas.",
-      "conclusion": "Jusqu’où le savoir de l’artiste peut-il porter sur son œuvre, si celle-ci continue de prendre sens dans des regards qu’il ne dirige pas ?",
+      "conclusion": "Mais l’artiste sait-il ce que son œuvre fait aux autres, quand elle leur parle comme elle ne lui a jamais parlé ?",
       "transition": "Mais savoir ce qu’on fait, est-ce nécessairement le savoir avant de le faire ?"
     },
     {
@@ -194,8 +194,8 @@ window.PHILO_RESOLUTION_CASES={
             "Connaître le vrai pour lui-même, y compris sans usage prévisible",
             "Répondre de ce que ses vérités permettent de faire"
           ],
-          "cost": "Reste la difficulté de juger publiquement une recherche dont ni les bénéfices ni certains risques ne sont encore connus.",
-          "remaining": "Qui a qualité pour juger une recherche que seuls ses pairs comprennent, au nom de tous ceux qu’elle engage ?",
+          "cost": "Reste le cas où c’est la connaissance elle-même, et non sa diffusion, qui est un danger, parce que celui qui la possède peut en user seul.",
+          "remaining": "Peut-on cependant renoncer à chercher une vérité parce que la savoir est déjà un danger ?",
           "short": "chercher librement, répondre de ses pratiques",
           "level": "défendable"
         },
@@ -224,7 +224,7 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "La responsabilité sur les pratiques dès la recherche évite le report fautif sans prescrire les résultats ; elle préserve mieux les deux acquis que le simple partage chronologique.",
-      "conclusion": "Qui a qualité pour juger une recherche que seuls ses pairs comprennent, au nom de tous ceux qu’elle engage ?",
+      "conclusion": "Peut-on cependant renoncer à chercher une vérité parce que la savoir est déjà un danger ?",
       "transition": "Mais l’utilité doit-elle être la fin qui choisit les questions, pour que la science ait à répondre de ses pouvoirs ?"
     },
     {
@@ -306,8 +306,8 @@ window.PHILO_RESOLUTION_CASES={
             "Donner de quoi penser",
             "Laisser juger ce qu’il fait penser"
           ],
-          "cost": "Reste que cette transformation dépend de ressources partagées : une expérience peut demeurer difficile à communiquer tant que d’autres ne reconnaissent pas les mots proposés.",
-          "remaining": "Une pensée nouvelle peut-elle devenir commune avant que les mots qui la disent soient compris ?",
+          "cost": "Reste qu’un tel travail suppose une communauté qui accueille les mots changés, et qu’un pouvoir peut s’employer à la défaire.",
+          "remaining": "Mais que reste-t-il de cette liberté quand plus personne n’accueille les mots qu’on change ?",
           "short": "transformer la langue de l’intérieur",
           "level": "défendable"
         },
@@ -336,7 +336,7 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "La transformation de l’image est démontrée par définition, comparaison et métaphore ; elle s’adjoint un processus de reprise plutôt qu’une analogie suffisante par elle-même.",
-      "conclusion": "Une pensée nouvelle peut-elle devenir commune avant que les mots qui la disent soient compris ?",
+      "conclusion": "Mais que reste-t-il de cette liberté quand plus personne n’accueille les mots qu’on change ?",
       "transition": "Mais être libre à l’égard du langage, est-ce se tenir hors de lui ?"
     },
     {
@@ -362,8 +362,8 @@ window.PHILO_RESOLUTION_CASES={
             "Procéder d’une intention droite",
             "Faire effectivement du bien"
           ],
-          "cost": "Reste qu’un effet imprévisible peut conduire à réviser l’appréciation d’un choix pourtant raisonnable au moment d’agir.",
-          "remaining": "Doit-on répondre d’un mal que nos meilleures raisons ne permettaient pas de prévoir ?",
+          "cost": "Reste que cette certitude suppose une situation que d’autres peuvent reconstituer, ce que ne permettent pas les actes sans témoin ni trace.",
+          "remaining": "Mais que vaut cette certitude pour les actes que personne ne peut reconstituer avec nous ?",
           "short": "être certain de ses raisons, non de tous les effets",
           "level": "défendable"
         },
@@ -392,7 +392,7 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "La distinction certitude absolue/jugement justifié répond explicitement au sujet et fournit des critères de comparaison ; la responsabilité y sert de contrôle, non de preuve.",
-      "conclusion": "Doit-on répondre d’un mal que nos meilleures raisons ne permettaient pas de prévoir ?",
+      "conclusion": "Mais que vaut cette certitude pour les actes que personne ne peut reconstituer avec nous ?",
       "transition": "Mais la certitude d’avoir bien agi doit-elle être celle d’un savoir complet sur l’acte, ses motifs et ses suites ?"
     },
     {
@@ -418,8 +418,8 @@ window.PHILO_RESOLUTION_CASES={
             "Se faire sans nous",
             "Conserver les milieux et les espèces qui la composent"
           ],
-          "cost": "Reste que choisir le milieu à restaurer suppose un jugement humain : quelle autonomie préserver quand plusieurs formes de vie entrent en conflit ?",
-          "remaining": "Au nom de quoi choisir le milieu à restaurer, si ce ne doit pas être au nom de nos seules préférences ?",
+          "cost": "Reste que ce critère ne vaut que pour ce qui vit, et ne dit rien de ce que nous devons à ce qui ne vit pas, un fleuve, un glacier, une montagne.",
+          "remaining": "Mais devons-nous quelque chose aussi à ce qui ne vit pas ?",
           "short": "soigner pour rendre aux milieux leur autonomie",
           "level": "défendable"
         },
@@ -448,7 +448,7 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "La distinction entre processus naturels et milieux déterminés rend l’inversion non exclusive ; elle accueille réparation et autonomie sans nier les besoins locaux.",
-      "conclusion": "Au nom de quoi choisir le milieu à restaurer, si ce ne doit pas être au nom de nos seules préférences ?",
+      "conclusion": "Mais devons-nous quelque chose aussi à ce qui ne vit pas ?",
       "transition": "Mais prendre soin de la nature, est-ce la diriger ?"
     },
     {
@@ -474,8 +474,8 @@ window.PHILO_RESOLUTION_CASES={
             "Dépendre de nous",
             "Rester le bonheur d’un homme parmi les hommes"
           ],
-          "cost": "Reste le cas où mon bonheur repose matériellement sur une injustice subie par d’autres : leur porter de l’attention ne suffit plus.",
-          "remaining": "Que doit changer celui dont le bonheur dépend d’une injustice, pour que son souci d’autrui ne demeure pas une simple bonne conscience ?",
+          "cost": "Reste le cas où le malheur des autres excède tout ce que l’on peut, et où l’on ne sait plus ce que vaut un bonheur qui ne peut rien pour eux.",
+          "remaining": "Mais que reste-t-il au bonheur quand le malheur des autres dépasse tout ce que nous pouvons ?",
           "short": "être touché sans reproduire la souffrance",
           "level": "défendable"
         },
@@ -504,7 +504,7 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "La compatibilité de joie, attention et action préserve une possibilité sans déclarer tout bonheur innocent ; la dépendance envers l’injustice devient l’épreuve résiduelle.",
-      "conclusion": "Que doit changer celui dont le bonheur dépend d’une injustice, pour que son souci d’autrui ne demeure pas une simple bonne conscience ?",
+      "conclusion": "Mais que reste-t-il au bonheur quand le malheur des autres dépasse tout ce que nous pouvons ?",
       "transition": "Mais être touché par le malheur d’autrui, est-ce le reproduire en soi ?"
     },
     {
@@ -530,8 +530,8 @@ window.PHILO_RESOLUTION_CASES={
             "Nous engager : répondre de ce que nous disons",
             "Dire plus que ce que nous avions prévu"
           ],
-          "cost": "Reste qu’une parole peut produire un effet irréversible avant que sa rectification soit entendue.",
-          "remaining": "Comment répondre d’une parole dont on peut corriger le sens, mais dont on ne peut plus réparer tous les effets ?",
+          "cost": "Reste la parole qui a déjà blessé ou tué, et qu’aucune reprise ne peut défaire.",
+          "remaining": "Mais que vaut cette maîtrise quand l’aveu vient trop tard pour sauver celui que la parole a perdu ?",
           "short": "maîtriser sa parole en la reprenant",
           "level": "défendable"
         },
@@ -560,7 +560,7 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "La maîtrise partielle et exercée dans l’échange s’applique aux promesses comme aux explications ; elle répond au pouvoir effectif sans promettre le contrôle des effets.",
-      "conclusion": "Comment répondre d’une parole dont on peut corriger le sens, mais dont on ne peut plus réparer tous les effets ?",
+      "conclusion": "Mais que vaut cette maîtrise quand l’aveu vient trop tard pour sauver celui que la parole a perdu ?",
       "transition": "Mais maîtriser une parole, est-ce en fixer le sens avant de la dire ?"
     },
     {
@@ -586,8 +586,8 @@ window.PHILO_RESOLUTION_CASES={
             "N’imputer que ce que nous avons voulu",
             "Faire répondre de ce qui vient de nous"
           ],
-          "cost": "Reste qu’on ne peut jamais établir exactement toute la part consciente et inconsciente d’un acte : il faut pourtant décider ce qui peut être imputé à son auteur.",
-          "remaining": "Comment attribuer une responsabilité juste lorsque la connaissance de ce qui a déterminé l’acte demeure incomplète ?",
+          "cost": "Reste que le discernement peut être altéré sans être aboli, et que la frontière devient alors une affaire de degré.",
+          "remaining": "Mais où passe la frontière quand le discernement n’est ni entier ni perdu ?",
           "short": "se reconnaître l’auteur et réparer",
           "level": "défendable"
         },
@@ -616,7 +616,7 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "La distinction désir/acte/réparation complète le processus de connaissance ; elle évite aussi bien l’excuse totale que la faute imputée à chaque désir.",
-      "conclusion": "Comment attribuer une responsabilité juste lorsque la connaissance de ce qui a déterminé l’acte demeure incomplète ?",
+      "conclusion": "Mais où passe la frontière quand le discernement n’est ni entier ni perdu ?",
       "transition": "Mais répondre d’un acte, est-ce en avoir été l’auteur transparent ?"
     },
     {
@@ -642,8 +642,8 @@ window.PHILO_RESOLUTION_CASES={
             "Pouvoir choisir autrement",
             "Passer dans des actes qui durent"
           ],
-          "cost": "Reste le conflit entre une obligation encore légitime et une transformation profonde de celui qui l’a contractée : aucune règle simple ne fixe le prix acceptable de la fidélité.",
-          "remaining": "Quand la fidélité exige de renoncer à ce que l’on est devenu, comment juger si elle accomplit encore la liberté ou la sacrifie ?",
+          "cost": "Reste que, au moment où l’on veut rompre, c’est la volonté elle-même qui doit dire si elle juge ou si elle est emportée, et qu’elle peut se tromper.",
+          "remaining": "Mais qui nous dira, le jour où nous voudrons rompre, si c’est la raison ou la sirène qui parle ?",
           "short": "tenir un engagement en le reprenant",
           "level": "défendable"
         },
@@ -672,7 +672,7 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "La fidélité raisonnée conserve une obligation qui dépasse l’humeur tout en donnant des critères de rupture ; elle complète le processus par la raison due à autrui.",
-      "conclusion": "Quand la fidélité exige de renoncer à ce que l’on est devenu, comment juger si elle accomplit encore la liberté ou la sacrifie ?",
+      "conclusion": "Mais qui nous dira, le jour où nous voudrons rompre, si c’est la raison ou la sirène qui parle ?",
       "transition": "S’engager, est-ce donc se lier une fois pour toutes ?"
     },
     {
@@ -866,8 +866,8 @@ window.PHILO_RESOLUTION_CASES={
             "Former celui qui l’accomplit",
             "Le laisser maître de ce qu’il fait"
           ],
-          "cost": "Reste qu’une société a besoin de tâches pénibles dont l’organisation peut réduire, mais pas toujours supprimer, la répétition et la fatigue.",
-          "remaining": "Comment partager les tâches nécessaires qui restent pénibles, sans réserver à certains le travail formateur et à d’autres sa seule contrainte ?",
+          "cost": "Reste à savoir ce que deviendra cette part humaine si les machines rendent inutile la plupart des travaux, comme Aristote l’imaginait déjà : « si, de même, les navettes tissaient d’elles-mêmes et les plectres jouaient tout seuls de la cithare, alors les ingénieurs n’auraient pas besoin d’exécutants ni les maîtres d’esclaves ».",
+          "remaining": "Mais où trouverons-nous cette place, si les navettes finissent par tisser d’elles-mêmes ?",
           "short": "juger l’organisation du travail",
           "level": "défendable"
         },
@@ -896,7 +896,7 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "Les critères de compréhension, jugement et coopération permettent d’évaluer l’organisation réelle ; ils n’effacent pas les tâches qui demeurent pénibles.",
-      "conclusion": "Comment partager les tâches nécessaires qui restent pénibles, sans réserver à certains le travail formateur et à d’autres sa seule contrainte ?",
+      "conclusion": "Mais où trouverons-nous cette place, si les navettes finissent par tisser d’elles-mêmes ?",
       "transition": "Ce que le travail fait de l’homme tient-il au travail lui-même ?"
     },
     {
@@ -922,8 +922,8 @@ window.PHILO_RESOLUTION_CASES={
             "Ne pas tromper",
             "Éclairer celui à qui l’on parle"
           ],
-          "cost": "Reste le conflit entre un secret légitime et une information nécessaire à la protection d’autrui : les deux exigences peuvent demeurer sérieuses.",
-          "remaining": "Quand protéger quelqu’un exige de rompre une confiance légitime, comment justifier ce que l’on révèle sans abolir le devoir de discrétion ?",
+          "cost": "Reste le cas de ceux qui ne peuvent ni demander ni refuser, l’enfant, le malade qui n’a plus sa conscience, et pour qui d’autres doivent bien décider.",
+          "remaining": "Mais qui décidera pour celui qui ne peut plus rien demander ?",
           "short": "ne jamais tromper, révéler ce qui est dû",
           "level": "défendable"
         },
@@ -952,7 +952,7 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "La distinction vérité/véracité/divulgation traite aussi bien le silence que la manière de dire ; elle évite de résoudre le sujet par le seul tact.",
-      "conclusion": "Quand protéger quelqu’un exige de rompre une confiance légitime, comment justifier ce que l’on révèle sans abolir le devoir de discrétion ?",
+      "conclusion": "Mais qui décidera pour celui qui ne peut plus rien demander ?",
       "transition": "Le devoir de vérité oblige-t-il pourtant à divulguer tout ce que l’on sait ?"
     },
     {
@@ -1034,8 +1034,8 @@ window.PHILO_RESOLUTION_CASES={
             "Être rendu possible par des moyens",
             "Rester le nôtre : choisi"
           ],
-          "cost": "Reste que certains choix deviennent irréversibles ou que leurs conséquences ne sont découvertes qu’après leur adoption : la possibilité de révision ne peut pas toujours être garantie.",
-          "remaining": "Comment décider ensemble lorsque les moyens qui promettent un avenir meilleur risquent de supprimer la possibilité de le choisir autrement ?",
+          "cost": "Reste qu’on ne connaît bien une technique qu’une fois répandue, c’est-à-dire au moment où il devient difficile d’en décider.",
+          "remaining": "Mais comment décider à temps, quand on ne sait ce qu’est une technique qu’une fois qu’elle est partout ?",
           "short": "choisir ses fins en jugeant ses moyens",
           "level": "défendable"
         },
@@ -1064,7 +1064,7 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "Le rapport réciproque permet de juger aussi la production des moyens ; il ne reporte pas tout choix après leur adoption.",
-      "conclusion": "Comment décider ensemble lorsque les moyens qui promettent un avenir meilleur risquent de supprimer la possibilité de le choisir autrement ?",
+      "conclusion": "Mais comment décider à temps, quand on ne sait ce qu’est une technique qu’une fois qu’elle est partout ?",
       "transition": "La technique n’est-elle qu’un ensemble de moyens, que nos fins viendraient diriger après coup ?"
     },
     {
@@ -1090,8 +1090,8 @@ window.PHILO_RESOLUTION_CASES={
             "Répondre à un manque réel",
             "Rester l’affaire d’un goût libre"
           ],
-          "cost": "Reste que le récit, le jeu ou la conversation peuvent aussi exprimer et partager une expérience : il faut encore préciser ce que l’art apporte que ces autres pratiques ne réalisent pas toujours.",
-          "remaining": "Qu’apporte une forme artistique à l’expression d’une expérience, que le récit ordinaire et la conversation ne peuvent pas toujours lui donner ?",
+          "cost": "Reste que la même forme peut être détournée : la dernière représentation fut donnée devant une délégation de la Croix-Rouge que les nazis voulaient tromper.",
+          "remaining": "Mais une œuvre qui laisse son sens ouvert peut-elle se défendre contre ceux qui s’en servent pour mentir ?",
           "short": "avoir besoin d’une possibilité, non d’une œuvre",
           "level": "défendable"
         },
@@ -1120,7 +1120,7 @@ window.PHILO_RESOLUTION_CASES={
       ],
       "preferred": "retenue",
       "reason": "Le besoin d’une possibilité maintient liberté et fonction sans rendre toute œuvre indispensable ; la frontière avec les autres pratiques reste assumée plutôt que supprimée.",
-      "conclusion": "Qu’apporte une forme artistique à l’expression d’une expérience, que le récit ordinaire et la conversation ne peuvent pas toujours lui donner ?",
+      "conclusion": "Mais une œuvre qui laisse son sens ouvert peut-elle se défendre contre ceux qui s’en servent pour mentir ?",
       "transition": "Avoir besoin d’art, est-ce avoir besoin de certaines œuvres ?"
     }
   ]

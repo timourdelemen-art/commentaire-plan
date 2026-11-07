@@ -1,1473 +1,1386 @@
 {
-  "version": 1,
-  "scope": "comparaison locale argumentée, sans note automatique",
-  "copies": {
-    "2026-ag-etat-injustice": {
-      "subject": "Revient-il principalement à l’État de lutter contre l’injustice ?",
-      "requirements": [
-        "Une force commune qui impose le même droit à tous",
-        "Un jugement capable de dire qu’une loi est injuste"
-      ],
-      "scene": {
-        "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
-        "analysis": "L’État a été l’auteur de l’injustice et l’instrument de sa fin ; mais il n’a corrigé ses lois que parce que des citoyens les avaient refusées.",
-        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
-      },
-      "candidates": [
-        {
-          "id": "retenue",
-          "proposal": "La contestation juste se reconnaît donc à sa forme : publique, elle en appelle à la règle commune devant tous et demande une révision, non une exception pour soi.",
-          "preserves": [
-            "Une force commune qui impose le même droit à tous",
-            "Un jugement capable de dire qu’une loi est injuste"
-          ],
-          "cost": "Reste le cas où le pouvoir ferme les voies de contestation : les garanties dont dépend cette répartition des rôles ne peuvent plus être présupposées.",
-          "remainingProblem": "Lorsque l’État détruit les voies par lesquelles on pouvait le corriger, comment lui résister sans abandonner l’exigence d’une justice commune ?"
-        },
-        {
-          "id": "alternative-a",
-          "proposal": "Inverser : la mobilisation rend la justice publique possible",
-          "preserves": [
-            "Explique le rôle causal des citoyens"
-          ],
-          "cost": "Ne dit pas qui garantit durablement les droits après la mobilisation",
-          "remainingProblem": "Ne dit pas qui garantit durablement les droits après la mobilisation"
-        },
-        {
-          "id": "alternative-b",
-          "proposal": "Processualiser : contestation, réforme, application",
-          "preserves": [
-            "Relie la critique à un changement institutionnel"
-          ],
-          "cost": "Une succession ne garantit pas les voies de contrôle pendant l’application",
-          "remainingProblem": "Une succession ne garantit pas les voies de contrôle pendant l’application"
-        }
-      ],
-      "selected": "retenue",
-      "comparison": "Le partage contrôlable conserve force et critique simultanément ; il coûte moins qu’une réduction de toute justice à la mobilisation ou à une succession sans contre-pouvoirs.",
-      "strongestObjection": "Les citoyens peuvent défendre eux aussi une injustice.",
-      "responseToObjection": "Le contrôle doit pluraliser les voix et les voies de recours, et non sanctifier l’opinion majoritaire.",
-      "residual": "Reste le cas où le pouvoir ferme les voies de contestation : les garanties dont dépend cette répartition des rôles ne peuvent plus être présupposées.",
-      "conclusionQuestion": "Lorsque l’État détruit les voies par lesquelles on pouvait le corriger, comment lui résister sans abandonner l’exigence d’une justice commune ?",
-      "economy": {
-        "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 843
-      },
-      "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
-        "status": "propose",
-        "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
-      },
-      "copySha256": "e4b367283dd3a689e02755d1a5b4674913401e263e8b4546eb36f99b5ed4dfdd",
-      "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
-        "racine": [
-          "Une force commune qui impose le même droit à tous",
-          "Un jugement capable de dire qu’une loi est injuste"
-        ],
-        "presupposeCommun": "Lutter contre l’injustice serait une seule tâche — décider du juste et l’imposer — qu’un seul acteur devrait porter « principalement ».",
-        "forme": "réciprocité",
-        "problematique": "P2",
-        "branchesIntroduction": "B1",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
-        "cumul": "« L’État garantit, les citoyens contestent » : sous le présupposé, contester, c’est décider du juste à la place de la loi ; si ce jugement l’emporte, la loi n’oblige plus que ceux qui l’approuvent (branche 2), s’il ne l’emporte pas, l’État garde le dernier mot (branche 1). Le cumul n’est possible qu’après la transformation : la contestation qui en appelle à la règle commune.",
-        "meilleurCas": "Dans un État aux lois justes, l’obéissance fait le juste par la chance des lois, sans que personne puisse les juger ; entre citoyens sincères, le désaccord de bonne foi subsiste. Les deux pertes survivent."
-      }
+ "version": 1,
+ "copies": {
+  "2026-ag-etat-injustice": {
+   "subject": "Revient-il principalement à l’État de lutter contre l’injustice ?",
+   "requirements": [
+    "Une force commune qui impose le même droit à tous",
+    "Un jugement capable de dire qu’une loi est injuste"
+   ],
+   "scene": {
+    "source": "Le 1er décembre 1955, à Montgomery, en Alabama, Rosa Parks refuse de céder sa place à un passager blanc, comme l’exige la loi de l’État.",
+    "analysis": "Montgomery (Alabama), 1er décembre 1955 : Rosa Parks refuse de céder sa place ; boycott des bus de 381 jours ; arrêt Browder v. Gayle (tribunal fédéral, juin 1956, confirmé par la Cour suprême en novembre 1956). Verdict : homologue. Retour : la décision fédérale est le terme qui relie.",
+    "review": "Scène reprise de la copie V16 ; vérifier les dates et les chiffres avant publication."
+   },
+   "candidates": [
+    {
+     "id": "retenue",
+     "proposal": "Il revient donc principalement à l’État de lutter contre l’injustice, à condition qu’il soit organisé pour pouvoir être jugé par lui-même, à la demande des citoyens.",
+     "cost": "Conserve la force commune et le jugement des citoyens, explique les deux arrêts, décide Montgomery.",
+     "remainingProblem": "Mais qui luttera contre les injustices qu’aucun tribunal ne peut juger ?",
+     "preserves": [
+      "Une force commune qui impose le même droit à tous",
+      "Un jugement capable de dire qu’une loi est injuste"
+     ]
     },
-    "2026-ag-humanite-religion": {
-      "subject": "Peut-on concevoir une humanité sans religion ?",
-      "requirements": [
-        "Relier tous les hommes par des fins communes",
-        "Rester faite d’hommes qui jugent par eux-mêmes"
-      ],
-      "scene": {
-        "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
-        "analysis": "À peine a-t-on chassé la religion qu’on en invente une autre, comme si un peuple ne pouvait se passer d’un culte commun.",
-        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
-      },
-      "candidates": [
-        {
-          "id": "retenue",
-          "proposal": "La différence ne tient donc pas à l'absence de tout rite, mais à la possibilité pour les participants d'en discuter le sens et la légitimité.",
-          "preserves": [
-            "Relier tous les hommes par des fins communes",
-            "Rester faite d’hommes qui jugent par eux-mêmes"
-          ],
-          "cost": "Reste que des principes discutables peuvent être sacralisés : un lien initialement ouvert à la critique peut devenir un dogme qui interdit de le contester.",
-          "remainingProblem": "Des convictions assez fortes pour unir les hommes peuvent-elles rester ouvertes à l’examen qui les a fondées ?"
-        },
-        {
-          "id": "alternative-a",
-          "proposal": "Métamorphoser : une religion rationnelle commune",
-          "preserves": [
-            "Maintient une forme collective et des convictions discutées"
-          ],
-          "cost": "Risque de renommer religion toute conviction commune, sans établir la nécessité du sacré",
-          "remainingProblem": "Risque de renommer religion toute conviction commune, sans établir la nécessité du sacré"
-        },
-        {
-          "id": "alternative-b",
-          "proposal": "Suspendre : on ignore ce qu’une humanité entière pourrait devenir",
-          "preserves": [
-            "Évite une prédiction historique injustifiée"
-          ],
-          "cost": "Le sujet demande une possibilité concevable, pas une prévision ; on peut examiner une cohérence",
-          "remainingProblem": "Le sujet demande une possibilité concevable, pas une prévision ; on peut examiner une cohérence"
-        }
-      ],
-      "selected": "retenue",
-      "comparison": "Matrice candidate métamorphose du lien : maintenir la fonction sociale en transformant sa source, conjonction à éprouver. La refonte des neuf opérations n'est pas encore une validation de la double aporie, ni des citations.",
-      "strongestObjection": "L'une des branches ou leur cumul peut être possible avant III : vérifier la racine, le meilleur cas et le présupposé commun.",
-      "responseToObjection": "Non démontré : sans inférences vérifiées, ne pas certifier V7.3.",
-      "residual": "Comment éviter qu'une institution qui prétend unir tous les hommes n'interdise finalement de contester les valeurs qu'elle proclame communes ?",
-      "conclusionQuestion": "Comment éviter qu'une institution qui prétend unir tous les hommes n'interdise finalement de contester les valeurs qu'elle proclame communes ?",
-      "economy": {
-        "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 1163
-      },
-      "review": {
-        "author": "Révision démonstrative du 28 octobre 2026",
-        "status": "propose",
-        "independentReview": "Reconstruction sous priorité V7.4 : le passage de la fonction sociale des rites à la nécessité logique du religieux est invalidé. Meilleur contre-modèle : institutions et pratiques civiques révisables. La réponse directe de possibilité est recevable ; ne pas certifier une double aporie. Références à vérifier dans leurs éditions, aucune citation littérale ajoutée."
-      },
-      "copySha256": "e9650b0816d23890f77f3f1967dfcbd78f0d190dce84f2efd116ea64b3ca36e0",
-      "protocol": {
-        "reference": "Plan dynamique V7.4 prioritaire ; protocole intégré V8.0 expérimental (transitions révisées, travail non homologué)",
-        "racine": [
-          "Les humains peuvent se reconnaître des obligations sans foi commune",
-          "Les pratiques collectives rendent possible une vie sociale effective"
-        ],
-        "presupposeCommun": "Toute pratique collective fondant un lien social serait nécessairement religieuse ; généralisation injustifiée de fonction en essence.",
-        "forme": "preuve par contre-modèle + distinction de portée, non aporie conjointe stricte",
-        "problematique": "P2 (double question coordonnée, modalité « pouvoir » conservée)",
-        "branchesIntroduction": "B1",
-        "statut": "reconstruction argumentative proposée ; pas d'homologation externe",
-        "cumul": "Une société sans adhésion au sacré, munie de règles publiques, de pratiques symboliques et d'un droit de critique, est pensable. Cette possibilité répond à l'opérateur ; la III explicite seulement les conditions du contre-modèle.",
-        "meilleurCas": "Des personnes religieuses et non religieuses coopèrent dans des institutions communes sans conférer une autorité sacrée aux normes publiques ; l'existence conceptuelle d'un tel modèle n'implique pas son actualisation historique universelle.",
-        "matriceCandidate": "dissociation de la fonction sociale et du fondement religieux, institution des médiations critiques."
-      }
+    {
+     "id": "frontiere",
+     "proposal": "À l’État les injustices privées, aux citoyens les injustices de l’État.",
+     "cost": "C’est le cumul, qui ne dit pas qui a vaincu la ségrégation.",
+     "remainingProblem": "C’est le cumul, qui ne dit pas qui a vaincu la ségrégation.",
+     "preserves": [
+      "C’est le cumul, qui ne dit pas qui a vaincu la ségrégation."
+     ]
     },
-    "2026-an-artiste-sait": {
-      "subject": "L’artiste sait-il ce qu’il fait ?",
-      "requirements": [
-        "Être l’auteur de son œuvre",
-        "Faire une œuvre nouvelle, qu’aucune recette ne contient"
-      ],
-      "scene": {
-        "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
-        "analysis": "Les gestes maîtrisés par Frenhofer ne suffisent pas : l’œuvre visible doit encore pouvoir instruire et éventuellement corriger son jugement.",
-        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
-      },
-      "candidates": [
-        {
-          "id": "retenue",
-          "proposal": "Il faut établir le mécanisme, sans se contenter de dire que le travail est « un processus ». Supposons qu'un peintre assombrisse le fond pour détacher une figure. Le contraste obtenu rend d'abord la figure plus visible : l'action confirme une partie de son intention. Mais cette visibilité nouvelle peut rendre le visage disproportionnellement dominant et détruire l'équilibre cherché. L'artiste dispose alors d'une information qu'il ne pouvait tirer de la seule règle « accroître le contraste » : dans cette composition, ce moyen réussit localement et échoue pour l'ensemble. Il peut en déduire un nouveau choix — réduire un accent, déplacer une lumière, modifier la composition. L'effet produit change donc la prémisse pertinente de la décision suivante. Ce n'est pas simplement juxtaposer une technique et une découverte ; c'est expliquer pourquoi leur dépendance est réciproque. L'action donne à percevoir ce qui permet de la réorienter, et le jugement transforme l'action qui fournira la prochaine épreuve. Dewey donne à cette relation entre faire et éprouver une place essentielle dans l'expérience artistique.",
-          "preserves": [
-            "Être l’auteur de son œuvre",
-            "Faire une œuvre nouvelle, qu’aucune recette ne contient"
-          ],
-          "cost": "Reste que la justification des choix de l’artiste ne garantit pas que son œuvre sera jugée réussie par autrui.",
-          "remainingProblem": "Jusqu’où le savoir de l’artiste peut-il porter sur son œuvre, si celle-ci continue de prendre sens dans des regards qu’il ne dirige pas ?"
-        },
-        {
-          "id": "alternative-a",
-          "proposal": "Distinguer savoir technique et sens de l’œuvre",
-          "preserves": [
-            "Sauve la maîtrise partielle sans exiger un savoir total"
-          ],
-          "cost": "Éclaire deux objets du savoir, mais explique moins directement comment l’invention devient un choix",
-          "remainingProblem": "Éclaire deux objets du savoir, mais explique moins directement comment l’invention devient un choix"
-        },
-        {
-          "id": "alternative-b",
-          "proposal": "Consentir : l’artiste est traversé par une création qui le dépasse",
-          "preserves": [
-            "Prend au sérieux ce qui n’est pas prévisible"
-          ],
-          "cost": "Sans mécanisme de reconnaissance, l’auteur risque de redevenir un simple lieu de passage",
-          "remainingProblem": "Sans mécanisme de reconnaissance, l’auteur risque de redevenir un simple lieu de passage"
-        }
-      ],
-      "selected": "retenue",
-      "comparison": "Le dédoublement métier/invention suffit à les juxtaposer; la processualisation explicite les passages de l'effet visible à la révision du choix et la condition d'achèvement. Décision éditoriale comparative, sans prétention à une impossibilité logique universelle.",
-      "strongestObjection": "Un artiste expérimenté peut savoir improviser : la distinction entre savoir-faire et découverte ne produit pas nécessairement une aporie.",
-      "responseToObjection": "La copie reconnaît ce meilleur cas et précise le mécanisme du jugement situé qui fait de la découverte une raison et de la dernière touche un choix; cette explication vaut sans caricaturer le métier.",
-      "residual": "Reste que la justification des choix de l’artiste ne garantit pas que son œuvre sera jugée réussie par autrui.",
-      "conclusionQuestion": "Jusqu’où le savoir de l’artiste peut-il porter sur son œuvre, si celle-ci continue de prendre sens dans des regards qu’il ne dirige pas ?",
-      "economy": {
-        "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 1824
-      },
-      "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
-        "status": "propose",
-        "independentReview": "Audit contradictoire réalisé pour publication éditoriale : distinctions et preuve du mécanisme améliorées, sans garantie d'une double aporie nécessaire. Décision de publier une version défendable plutôt que viser une certification absolue."
-      },
-      "copySha256": "aa80ebe505afd407e699a408e63a4546ffbfd1e54c3475ab69251e11e2c6b3c4",
-      "protocol": {
-        "reference": "Plan dynamique V7.4 expérimental et protocole des opérations P2.1; adoption éditoriale sans certification de théorie universelle.",
-        "racine": [
-          "Être l’auteur de son œuvre",
-          "Faire une œuvre nouvelle, qu’aucune recette ne contient"
-        ],
-        "presupposeCommun": "Savoir ce qu’on fait, ce serait le savoir avant de le faire.",
-        "forme": "réciprocité",
-        "problematique": "Comment le jugement de l'artiste peut-il conduire la création alors que la création transforme à son tour ce qu'il est en mesure de juger ?",
-        "branchesIntroduction": "B1",
-        "statut": "Version éditoriale sélectionnée pour publication, arguments discutables mais défendables; ne pas annoncer une perfection philosophique certifiée.",
-        "cumul": "Métier et invention peuvent coexister chez un artiste compétent. Le problème de cette copie n'est pas leur incompatibilité, mais le mécanisme par lequel l'épreuve de la forme transforme les raisons d'agir.",
-        "meilleurCas": "Artiste compétent qui improvise et corrige; la III doit rendre explicite comment l'effet de l'action devient une raison du geste suivant."
-      }
+    {
+     "id": "forme",
+     "proposal": "La contestation juste se reconnaît à sa forme publique, qui en appelle à la règle commune.",
+     "cost": "Critère utile, mais ne dit pas à qui revient principalement la lutte.",
+     "remainingProblem": "Critère utile, mais ne dit pas à qui revient principalement la lutte.",
+     "preserves": [
+      "Critère utile, mais ne dit pas à qui revient principalement la lutte."
+     ]
     },
-    "2026-an-science-utile": {
-      "subject": "La science doit-elle être utile ?",
-      "requirements": [
-        "Connaître le vrai pour lui-même, y compris sans usage prévisible",
-        "Répondre de ce que ses vérités permettent de faire"
-      ],
-      "scene": {
-        "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
-        "analysis": "Nul n’aurait pu commander cette découverte pour son usage ; mais, une fois trouvée, elle oblige le savant à répondre de ce qu’elle rend possible.",
-        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
-      },
-      "candidates": [
-        {
-          "id": "retenue",
-          "proposal": "On peut ainsi laisser une recherche choisir ce qu’elle cherche, et examiner pourtant ses protocoles, ses dangers et ses moyens. En 1974, des biologistes suspendent eux-mêmes certaines expériences sur l’ADN recombinant ; à Asilomar, en 1975, ils fixent les précautions qui permettent de les reprendre : la question reste libre, la pratique répond de ses dangers.",
-          "preserves": [
-            "Connaître le vrai pour lui-même, y compris sans usage prévisible",
-            "Répondre de ce que ses vérités permettent de faire"
-          ],
-          "cost": "Reste la difficulté de juger publiquement une recherche dont ni les bénéfices ni certains risques ne sont encore connus.",
-          "remainingProblem": "Qui a qualité pour juger une recherche que seuls ses pairs comprennent, au nom de tous ceux qu’elle engage ?"
-        },
-        {
-          "id": "alternative-a",
-          "proposal": "Distinguer recherche puis applications",
-          "preserves": [
-            "Protège les questions scientifiques contre l’utilité immédiate"
-          ],
-          "cost": "Reporte la responsabilité après des décisions et interventions déjà lourdes de conséquences",
-          "remainingProblem": "Reporte la responsabilité après des décisions et interventions déjà lourdes de conséquences"
-        },
-        {
-          "id": "alternative-b",
-          "proposal": "Processualiser : alterner recherche fondamentale et application",
-          "preserves": [
-            "Reconnaît les retours des usages sur la recherche"
-          ],
-          "cost": "L’alternance ne fournit pas à elle seule de critère pour juger les pratiques pendant la recherche",
-          "remainingProblem": "L’alternance ne fournit pas à elle seule de critère pour juger les pratiques pendant la recherche"
-        }
-      ],
-      "selected": "retenue",
-      "comparison": "La responsabilité sur les pratiques dès la recherche évite le report fautif sans prescrire les résultats ; elle préserve mieux les deux acquis que le simple partage chronologique.",
-      "strongestObjection": "Le contrôle public peut censurer les questions dont il ne comprend pas l’intérêt.",
-      "responseToObjection": "Distinguer justification des moyens et promesse de rendement protège l’inconnu ; la légitimité du contrôle demeure le reste à discuter.",
-      "residual": "Reste la difficulté de juger publiquement une recherche dont ni les bénéfices ni certains risques ne sont encore connus.",
-      "conclusionQuestion": "Qui a qualité pour juger une recherche que seuls ses pairs comprennent, au nom de tous ceux qu’elle engage ?",
-      "economy": {
-        "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 837
-      },
-      "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
-        "status": "propose",
-        "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
-      },
-      "copySha256": "faf7100e0a2efddc1e5ee7ecc74b9e76729503cd7965f1b80eb02ceb65ed673e",
-      "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
-        "racine": [
-          "Connaître le vrai pour lui-même, y compris sans usage prévisible",
-          "Répondre de ce que ses vérités permettent de faire"
-        ],
-        "presupposeCommun": "L’utilité et la vérité se disputeraient une même place : celle de la fin qui choisit les questions de la recherche.",
-        "forme": "réciprocité",
-        "problematique": "P3 (exemple du catalogue)",
-        "branchesIntroduction": "B1",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
-        "cumul": "« Recherche fondamentale libre, recherche appliquée utile » : sous le présupposé, tracer la frontière exige de juger chaque recherche par son utilité prévisible, ce que la première réponse refuse ; et la part libre ne répond toujours pas des pouvoirs qu’elle donne. Le cumul est exclu.",
-        "meilleurCas": "Une société qui financerait sans calcul laisserait encore la recherche sans répondre de ses expériences ; une recherche commandée par des besoins bien choisis perdrait encore les vérités sans usage connu."
-      }
-    },
-    "2026-asie-inconscient-bonheur": {
-      "subject": "Faut-il être inconscient pour être heureux ?",
-      "requirements": [
-        "Laisser en repos",
-        "Durer face aux dangers réels"
-      ],
-      "scene": {
-        "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
-        "analysis": "Savourant un steak dont il sait qu’il n’existe pas, il conclut que l’ignorance fait le bonheur ; on le méprise, on le comprend aussi.",
-        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
-      },
-      "candidates": [
-        {
-          "id": "retenue",
-          "proposal": "Le savoir peut donc servir le bonheur lorsqu'il oriente une action possible et cesse de se prendre pour une assurance contre tout événement.",
-          "preserves": [
-            "Laisser en repos",
-            "Durer face aux dangers réels"
-          ],
-          "cost": "Reste la souffrance liée à un mal réel, notamment la perte d’un proche : réfuter une peur imaginaire ne supprime pas cette douleur.",
-          "remainingProblem": "Lorsque la souffrance vient d’une perte réelle que comprendre ne supprime pas, comment la lucidité peut-elle encore contribuer au bonheur ?"
-        },
-        {
-          "id": "alternative-a",
-          "proposal": "Distinguer ce qui dépend de nous de ce qui n’en dépend pas",
-          "preserves": [
-            "Oriente l’action et les jugements vers une maîtrise possible"
-          ],
-          "cost": "Les dommages réels ne deviennent pas indifférents par le seul fait de ne pas dépendre de nous",
-          "remainingProblem": "Les dommages réels ne deviennent pas indifférents par le seul fait de ne pas dépendre de nous"
-        },
-        {
-          "id": "alternative-b",
-          "proposal": "Consentir à l’inquiétude comme dimension d’une vie lucide",
-          "preserves": [
-            "Ne promet pas une sagesse qui supprimerait toute douleur"
-          ],
-          "cost": "Établit une valeur de la lucidité sans encore expliquer son pouvoir d’apaisement",
-          "remainingProblem": "Établit une valeur de la lucidité sans encore expliquer son pouvoir d’apaisement"
-        }
-      ],
-      "selected": "retenue",
-      "comparison": "Matrice candidate inversion du rapport connaissance/crainte et distinction de l’imaginaire du réel. La refonte des neuf opérations n'est pas encore une validation de la double aporie, ni des citations.",
-      "strongestObjection": "L'une des branches ou leur cumul peut être possible avant III : vérifier la racine, le meilleur cas et le présupposé commun.",
-      "responseToObjection": "Non démontré : sans inférences vérifiées, ne pas certifier V7.3.",
-      "residual": "Comment soutenir durablement une vie heureuse lorsque la douleur ne vient plus d'une anticipation trompeuse, mais d'une perte effectivement subie ?",
-      "conclusionQuestion": "Comment soutenir durablement une vie heureuse lorsque la douleur ne vient plus d'une anticipation trompeuse, mais d'une perte effectivement subie ?",
-      "economy": {
-        "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 1039
-      },
-      "review": {
-        "author": "Révision démonstrative du 28 octobre 2026",
-        "status": "propose",
-        "independentReview": "Reconstruction V7.4. Le sujet portant sur une condition nécessaire, le meilleur cumul d'une personne lucide et heureuse réfute cette nécessité. Trois gains nouveaux proposés en III ; l'existence d'un rapport R aporétique plus fort que la réponse directe reste à démontrer. Aucune citation littérale ajoutée."
-      },
-      "copySha256": "009d8e71d651c473fbeaffeea072577c67110c589deced72b7a711ed5696b30a",
-      "protocol": {
-        "reference": "Plan dynamique V7.4 prioritaire ; protocole intégré V8.0 expérimental (transitions révisées, travail non homologué)",
-        "racine": [
-          "L’ignorance peut éviter la souffrance anticipée mais non le danger réel",
-          "La lucidité donne une prise sur les risques mais peut dégénérer en vigilance permanente"
-        ],
-        "presupposeCommun": "Être heureux exigerait de ne jamais rencontrer de danger ; connaître le danger signifierait nécessairement le craindre.",
-        "forme": "distinction critique et réorientation pratique ; non double impossibilité",
-        "problematique": "Faut-il être inconscient : nécessité réfutée, difficulté résiduelle portant sur l'attention",
-        "branchesIntroduction": "B2",
-        "statut": "proposée / non validée",
-        "cumul": "Meilleur cumul possible : connaître les risques, prendre les précautions adaptées et rester heureux. La réunion des deux attitudes résout la nécessité demandée ; la III explore seulement ce qui distingue attention justifiée et angoisse.",
-        "meilleurCas": "La personne sereine et correctement informée constitue le contre-exemple qui interdit d'affirmer la nécessité de l'inconscience.",
-        "matriceCandidate": "Déplacement du critère : invulnérabilité imaginaire vers joie vulnérable effectivement vécue."
-      }
-    },
-    "2026-asie-langage": {
-      "subject": "Sommes-nous prisonniers du langage ?",
-      "requirements": [
-        "Donner de quoi penser",
-        "Laisser juger ce qu’il fait penser"
-      ],
-      "scene": {
-        "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
-        "analysis": "Le but est clair : quand il n’y aura plus de mots pour la révolte, on ne pourra même plus la penser ; mais le roman lui-même invente des mots pour rendre pensable ce danger : la langue peut-elle aussi servir à critiquer ce qui enferme ?",
-        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
-      },
-      "candidates": [
-        {
-          "id": "retenue",
-          "proposal": "Nous contestons une expression avec d’autres, comparons des traductions, définissons ce que l’usage confondait : la critique travaille les ressources du langage contre ses habitudes.",
-          "preserves": [
-            "Donner de quoi penser",
-            "Laisser juger ce qu’il fait penser"
-          ],
-          "cost": "Reste que cette transformation dépend de ressources partagées : une expérience peut demeurer difficile à communiquer tant que d’autres ne reconnaissent pas les mots proposés.",
-          "remainingProblem": "Une pensée nouvelle peut-elle devenir commune avant que les mots qui la disent soient compris ?"
-        },
-        {
-          "id": "alternative-a",
-          "proposal": "Inverser : la pensée crée la langue dont elle dépend",
-          "preserves": [
-            "Explique les innovations expressives"
-          ],
-          "cost": "La pensée individuelle ne crée pas seule les ressources communes dont elle part",
-          "remainingProblem": "La pensée individuelle ne crée pas seule les ressources communes dont elle part"
-        },
-        {
-          "id": "alternative-b",
-          "proposal": "Processualiser : transformer progressivement la langue",
-          "preserves": [
-            "Explique l’évolution de ses limites"
-          ],
-          "cost": "Un simple changement historique ne distingue pas enrichissement et appauvrissement imposé",
-          "remainingProblem": "Un simple changement historique ne distingue pas enrichissement et appauvrissement imposé"
-        }
-      ],
-      "selected": "retenue",
-      "comparison": "La transformation de l’image est démontrée par définition, comparaison et métaphore ; elle s’adjoint un processus de reprise plutôt qu’une analogie suffisante par elle-même.",
-      "strongestObjection": "Un régime peut supprimer les moyens de critique.",
-      "responseToObjection": "La copie n’affirme pas une liberté garantie : elle distingue la possibilité de travailler la langue de sa suppression institutionnelle.",
-      "residual": "Reste que cette transformation dépend de ressources partagées : une expérience peut demeurer difficile à communiquer tant que d’autres ne reconnaissent pas les mots proposés.",
-      "conclusionQuestion": "Une pensée nouvelle peut-elle devenir commune avant que les mots qui la disent soient compris ?",
-      "economy": {
-        "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 718
-      },
-      "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
-        "status": "propose",
-        "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
-      },
-      "copySha256": "71f445e89a919f3302340b59aa9a96b1b3e96e5e274d0ce4361c7be45ff643c2",
-      "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
-        "racine": [
-          "Donner de quoi penser",
-          "Laisser juger ce qu’il fait penser"
-        ],
-        "presupposeCommun": "Être libre à l’égard du langage, ce serait pouvoir se tenir hors de lui.",
-        "forme": "réciprocité",
-        "problematique": "P2",
-        "branchesIntroduction": "B2",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
-        "cumul": "« Prisonniers de la langue reçue, libres dans son usage » : sous le présupposé, une liberté qui s’exerce encore dans la langue n’est pas une liberté, et savoir la langue une prison exige toujours un dehors. Le cumul reconduit aux deux branches.",
-        "meilleurCas": "Le meilleur écrivain parle encore avec des mots reçus ; la meilleure pensée ne gagne rien à se passer de mots (Hegel). Les deux pertes survivent."
-      }
-    },
-    "2026-g1-bien-agir": {
-      "subject": "Peut-on être certain d’avoir bien agi ?",
-      "requirements": [
-        "Procéder d’une intention droite",
-        "Faire effectivement du bien"
-      ],
-      "scene": {
-        "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
-        "analysis": "Le film de Clint Eastwood, Sully, montre ce qui suit : l’enquête, les simulations qui laissent penser qu’il aurait peut-être pu regagner un aéroport, et le pilote qui, seul la nuit, se demande s’il a bien fait.",
-        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
-      },
-      "candidates": [
-        {
-          "id": "retenue",
-          "proposal": "Elle compare les raisons accessibles, les risques prévisibles et les autres décisions possibles : on peut être sûr de l’avoir fait, sans l’être de l’issue.",
-          "preserves": [
-            "Procéder d’une intention droite",
-            "Faire effectivement du bien"
-          ],
-          "cost": "Reste qu’un effet imprévisible peut conduire à réviser l’appréciation d’un choix pourtant raisonnable au moment d’agir.",
-          "remainingProblem": "Doit-on répondre d’un mal que nos meilleures raisons ne permettaient pas de prévoir ?"
-        },
-        {
-          "id": "alternative-a",
-          "proposal": "Métamorphoser la certitude en engagement responsable",
-          "preserves": [
-            "Conserve l’exigence de répondre de l’acte"
-          ],
-          "cost": "Répondre de l’acte ne démontre pas sa bonté : risque de substitution du sujet",
-          "remainingProblem": "Répondre de l’acte ne démontre pas sa bonté : risque de substitution du sujet"
-        },
-        {
-          "id": "alternative-b",
-          "proposal": "Consentir au doute et agir sans assurance",
-          "preserves": [
-            "Évite une fausse infaillibilité"
-          ],
-          "cost": "L’action malgré le doute n’explique pas la différence entre un choix justifié et un choix arbitraire",
-          "remainingProblem": "L’action malgré le doute n’explique pas la différence entre un choix justifié et un choix arbitraire"
-        }
-      ],
-      "selected": "retenue",
-      "comparison": "La distinction certitude absolue/jugement justifié répond explicitement au sujet et fournit des critères de comparaison ; la responsabilité y sert de contrôle, non de preuve.",
-      "strongestObjection": "Une décision justifiée peut avoir des conséquences mauvaises.",
-      "responseToObjection": "Le jugement reste révisable ; distinguer raisons disponibles et effets ultérieurs est précisément l’objet de la question finale.",
-      "residual": "Reste qu’un effet imprévisible peut conduire à réviser l’appréciation d’un choix pourtant raisonnable au moment d’agir.",
-      "conclusionQuestion": "Doit-on répondre d’un mal que nos meilleures raisons ne permettaient pas de prévoir ?",
-      "economy": {
-        "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 769
-      },
-      "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
-        "status": "propose",
-        "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
-      },
-      "copySha256": "d269adb613561b8f0723fa6d50a0489d54ddaa4c0b73085d9172f8d770572333",
-      "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
-        "racine": [
-          "Procéder d’une intention droite",
-          "Faire effectivement du bien"
-        ],
-        "presupposeCommun": "La certitude morale devrait être un savoir complet de l’acte : transparence des motifs et connaissance de tous ses effets.",
-        "forme": "réciprocité",
-        "problematique": "P1",
-        "branchesIntroduction": "B1",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
-        "cumul": "« L’intention juge l’agent, les effets jugent l’acte » : sous le présupposé, être certain d’avoir bien agi exige les deux savoirs complets ; or ces deux verdicts partiels peuvent se contredire, et aucun ne donne la certitude demandée. Le cumul est exclu.",
-        "meilleurCas": "Le plus sincère ignore encore ses vrais motifs (Kant) ; la décision la mieux pesée dépend encore d’effets qui arrivent après elle (le coup de vent). Les deux pertes survivent."
-      }
-    },
-    "2026-g1-nature-besoin": {
-      "subject": "La nature a-t-elle besoin de nous ?",
-      "requirements": [
-        "Se faire sans nous",
-        "Conserver les milieux et les espèces qui la composent"
-      ],
-      "scene": {
-        "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
-        "analysis": "Là où l’homme s’est retiré, la nature n’a pas attendu qu’on la sauve ; pourtant nous parlons de « sauver la planète », comme si elle dépendait de nous.",
-        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
-      },
-      "candidates": [
-        {
-          "id": "retenue",
-          "proposal": "La nature comme ensemble de processus ne dépend pas de nous ; des milieux déterminés, que nous avons fragilisés, dépendent de nos choix : c’est à eux que le soin est dû.",
-          "preserves": [
-            "Se faire sans nous",
-            "Conserver les milieux et les espèces qui la composent"
-          ],
-          "cost": "Reste que choisir le milieu à restaurer suppose un jugement humain : quelle autonomie préserver quand plusieurs formes de vie entrent en conflit ?",
-          "remainingProblem": "Au nom de quoi choisir le milieu à restaurer, si ce ne doit pas être au nom de nos seules préférences ?"
-        },
-        {
-          "id": "alternative-a",
-          "proposal": "Inverser : seuls les hommes ont besoin de la nature",
-          "preserves": [
-            "Évite la fiction d’une nature globalement dépendante de l’homme"
-          ],
-          "cost": "Notre besoin ne supprime pas celui d’un milieu abîmé envers certains soins",
-          "remainingProblem": "Notre besoin ne supprime pas celui d’un milieu abîmé envers certains soins"
-        },
-        {
-          "id": "alternative-b",
-          "proposal": "Processualiser : réparer puis se retirer",
-          "preserves": [
-            "Rend intelligible une intervention en vue de l’autonomie"
-          ],
-          "cost": "La frontière entre intervention temporaire et entretien durable ne vaut pas pour tous les milieux",
-          "remainingProblem": "La frontière entre intervention temporaire et entretien durable ne vaut pas pour tous les milieux"
-        }
-      ],
-      "selected": "retenue",
-      "comparison": "La distinction entre processus naturels et milieux déterminés rend l’inversion non exclusive ; elle accueille réparation et autonomie sans nier les besoins locaux.",
-      "strongestObjection": "Restaurer implique de choisir humainement un état du milieu.",
-      "responseToObjection": "Ce choix ne devient pas neutre : il constitue le coût explicite et le point de départ de la conclusion.",
-      "residual": "Reste que choisir le milieu à restaurer suppose un jugement humain : quelle autonomie préserver quand plusieurs formes de vie entrent en conflit ?",
-      "conclusionQuestion": "Au nom de quoi choisir le milieu à restaurer, si ce ne doit pas être au nom de nos seules préférences ?",
-      "economy": {
-        "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 746
-      },
-      "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
-        "status": "propose",
-        "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
-      },
-      "copySha256": "f085d0f399bb221e9fe947e3f9acf74c7c3b4cc10e0b79779a5a5dc947f523c3",
-      "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
-        "racine": [
-          "Se faire sans nous",
-          "Conserver les milieux et les espèces qui la composent"
-        ],
-        "presupposeCommun": "Avoir besoin de nous, pour la nature, ce serait dépendre de notre direction : la soigner, ce serait la fabriquer.",
-        "forme": "réciprocité",
-        "problematique": "P1",
-        "branchesIntroduction": "B1",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
-        "cumul": "« Laisser faire les grands processus, protéger les espèces menacées » : sous le présupposé, protéger, c’est diriger ; les milieux protégés deviennent des jardins, et l’on juxtapose friche et jardin sans sauver nulle part un milieu qui se fasse sans nous. Le cumul est exclu.",
-        "meilleurCas": "Une nature laissée à elle-même reste livrée aux causes de destruction que nous maintenons ; la protection la plus savante reste, sous le présupposé, une direction."
-      }
-    },
-    "2026-me-bonheur-autres": {
-      "subject": "Peut-on être heureux quand les autres ne le sont pas ?",
-      "requirements": [
-        "Dépendre de nous",
-        "Rester le bonheur d’un homme parmi les hommes"
-      ],
-      "scene": {
-        "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
-        "analysis": "Leur modèle est un vieux Turc qui ne sait rien des vizirs qu’on vient d’étrangler dans la capitale, et ne s’occupe que de son jardin.",
-        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
-      },
-      "candidates": [
-        {
-          "id": "retenue",
-          "proposal": "Un bonheur peut alors inclure l’inquiétude et se prolonger en aide : la joie ne prouve ni l’ignorance ni l’approbation du malheur.",
-          "preserves": [
-            "Dépendre de nous",
-            "Rester le bonheur d’un homme parmi les hommes"
-          ],
-          "cost": "Reste le cas où mon bonheur repose matériellement sur une injustice subie par d’autres : leur porter de l’attention ne suffit plus.",
-          "remainingProblem": "Que doit changer celui dont le bonheur dépend d’une injustice, pour que son souci d’autrui ne demeure pas une simple bonne conscience ?"
-        },
-        {
-          "id": "alternative-a",
-          "proposal": "Distinguer proches et lointains",
-          "preserves": [
-            "Évite de faire dépendre chaque joie de toute souffrance du monde"
-          ],
-          "cost": "La distance seule ne justifie pas l’indifférence ni la participation à une injustice",
-          "remainingProblem": "La distance seule ne justifie pas l’indifférence ni la participation à une injustice"
-        },
-        {
-          "id": "alternative-b",
-          "proposal": "Métamorphoser le bonheur en joie partagée",
-          "preserves": [
-            "Rend le bonheur relationnel plutôt que fermé"
-          ],
-          "cost": "La joie partagée peut ne pas atteindre les victimes dont elle dépend matériellement",
-          "remainingProblem": "La joie partagée peut ne pas atteindre les victimes dont elle dépend matériellement"
-        }
-      ],
-      "selected": "retenue",
-      "comparison": "La compatibilité de joie, attention et action préserve une possibilité sans déclarer tout bonheur innocent ; la dépendance envers l’injustice devient l’épreuve résiduelle.",
-      "strongestObjection": "Une personne profite d’une exploitation tout en aidant quelques victimes.",
-      "responseToObjection": "La sollicitude ne suffit pas : la copie exige d’examiner et de transformer les conditions du bonheur.",
-      "residual": "Reste le cas où mon bonheur repose matériellement sur une injustice subie par d’autres : leur porter de l’attention ne suffit plus.",
-      "conclusionQuestion": "Que doit changer celui dont le bonheur dépend d’une injustice, pour que son souci d’autrui ne demeure pas une simple bonne conscience ?",
-      "economy": {
-        "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 719
-      },
-      "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
-        "status": "propose",
-        "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
-      },
-      "copySha256": "2ad64a2330d628edd85dd3e6afa9697e97db422fbeed83577d6421b499719a16",
-      "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
-        "racine": [
-          "Dépendre de nous",
-          "Rester le bonheur d’un homme parmi les hommes"
-        ],
-        "presupposeCommun": "Être touché par le malheur d’autrui, ce serait le reproduire en soi : la sensibilité ne connaîtrait que la contagion de la souffrance.",
-        "forme": "réciprocité",
-        "problematique": "P1",
-        "branchesIntroduction": "B4",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
-        "cumul": "« Serein pour soi, compatissant pour les autres » : sous le présupposé, compatir, c’est souffrir ; chaque moment de compassion détruit la sérénité, et la sérénité exige de ne plus être touché. Le cumul reconduit aux deux branches.",
-        "meilleurCas": "Le sage le plus maître de ses jugements doit encore se détourner pour rester serein ; l’homme le plus sensible ne sera heureux qu’à la fin de tout malheur, qui ne vient jamais."
-      }
-    },
-    "2026-me-paroles": {
-      "subject": "Avons-nous la maîtrise de nos paroles ?",
-      "requirements": [
-        "Nous engager : répondre de ce que nous disons",
-        "Dire plus que ce que nous avions prévu"
-      ],
-      "scene": {
-        "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
-        "analysis": "Elle parle de « ce fils de l’Amazone » ; Œnone s’écrie : « Hippolyte ! », et Phèdre répond : « C’est toi qui l’as nommé. »",
-        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
-      },
-      "candidates": [
-        {
-          "id": "retenue",
-          "proposal": "Nous pouvons vérifier ce que l’autre a compris et rectifier un malentendu, sans décider à sa place de toute interprétation.",
-          "preserves": [
-            "Nous engager : répondre de ce que nous disons",
-            "Dire plus que ce que nous avions prévu"
-          ],
-          "cost": "Reste qu’une parole peut produire un effet irréversible avant que sa rectification soit entendue.",
-          "remainingProblem": "Comment répondre d’une parole dont on peut corriger le sens, mais dont on ne peut plus réparer tous les effets ?"
-        },
-        {
-          "id": "alternative-a",
-          "proposal": "Inverser : la parole nous engage plutôt que nous la maîtrisons",
-          "preserves": [
-            "Explique la responsabilité attachée aux mots"
-          ],
-          "cost": "Réduit trop vite toute parole à la promesse et remplace la maîtrise par l’engagement",
-          "remainingProblem": "Réduit trop vite toute parole à la promesse et remplace la maîtrise par l’engagement"
-        },
-        {
-          "id": "alternative-b",
-          "proposal": "Consentir à l’équivocité de toute parole",
-          "preserves": [
-            "Évite le fantasme d’un sens totalement contrôlé"
-          ],
-          "cost": "Sans reprise ni rectification, on ne décrit plus ce qui reste effectivement maîtrisable",
-          "remainingProblem": "Sans reprise ni rectification, on ne décrit plus ce qui reste effectivement maîtrisable"
-        }
-      ],
-      "selected": "retenue",
-      "comparison": "La maîtrise partielle et exercée dans l’échange s’applique aux promesses comme aux explications ; elle répond au pouvoir effectif sans promettre le contrôle des effets.",
-      "strongestObjection": "La correction arrive après une blessure irréparable.",
-      "responseToObjection": "Précisément : pouvoir rectifier le sens ne garantit pas pouvoir effacer ses effets ; ce coût fonde la conclusion.",
-      "residual": "Reste qu’une parole peut produire un effet irréversible avant que sa rectification soit entendue.",
-      "conclusionQuestion": "Comment répondre d’une parole dont on peut corriger le sens, mais dont on ne peut plus réparer tous les effets ?",
-      "economy": {
-        "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 655
-      },
-      "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
-        "status": "propose",
-        "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
-      },
-      "copySha256": "c5489c79ce9b9517a47b09e65016749babc702df4e6e45aa1ee6f83f00ecbe37",
-      "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
-        "racine": [
-          "Nous engager : répondre de ce que nous disons",
-          "Dire plus que ce que nous avions prévu"
-        ],
-        "presupposeCommun": "Maîtriser une parole, ce serait en fixer le sens avant de la dire.",
-        "forme": "réciprocité",
-        "problematique": "P2 (exemple du catalogue)",
-        "branchesIntroduction": "B3 (exemple du catalogue)",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
-        "cumul": "« Maîtriser les mots, laisser le sens aux autres » : sous le présupposé, maîtriser, c’est fixer le sens d’avance ; si le sens échappe, on ne répond plus que de mots, non de ce qu’ils disent. Le cumul reconduit à la seconde branche.",
-        "meilleurCas": "L’orateur le plus préparé découvre encore sa pensée en parlant (Merleau-Ponty) ; l’auditeur le plus bienveillant comprend encore autrement. Les deux pertes survivent."
-      }
-    },
-    "notion-inconscient": {
-      "subject": "L’idée d’inconscient remet-elle en cause la responsabilité ?",
-      "requirements": [
-        "N’imputer que ce que nous avons voulu",
-        "Faire répondre de ce qui vient de nous"
-      ],
-      "scene": {
-        "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
-        "analysis": "Quand la vérité éclate, il se crève les yeux et réclame l’exil : les conséquences lui appartiennent, mais a-t-il voulu les crimes dont il découvre être l’auteur ?",
-        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
-      },
-      "candidates": [
-        {
-          "id": "retenue",
-          "proposal": "Un désir ignoré, un acte accompli et une conséquence à réparer n’engagent donc pas la même responsabilité : on ne répond pas d’un désir comme d’un acte.",
-          "preserves": [
-            "N’imputer que ce que nous avons voulu",
-            "Faire répondre de ce qui vient de nous"
-          ],
-          "cost": "Reste qu’on ne peut jamais établir exactement toute la part consciente et inconsciente d’un acte : il faut pourtant décider ce qui peut être imputé à son auteur.",
-          "remainingProblem": "Comment attribuer une responsabilité juste lorsque la connaissance de ce qui a déterminé l’acte demeure incomplète ?"
-        },
-        {
-          "id": "alternative-a",
-          "proposal": "Processualiser : devenir responsable en se connaissant",
-          "preserves": [
-            "Fait de la responsabilité une tâche plutôt qu’un état total"
-          ],
-          "cost": "Ne suffit pas à juger les actes passés ni à distinguer imputation et réparation",
-          "remainingProblem": "Ne suffit pas à juger les actes passés ni à distinguer imputation et réparation"
-        },
-        {
-          "id": "alternative-b",
-          "proposal": "Suspendre : les motifs inconscients empêchent toute attribution certaine",
-          "preserves": [
-            "Évite une culpabilité fondée sur la transparence supposée"
-          ],
-          "cost": "La décision de responsabilité ne peut toujours attendre une connaissance exhaustive",
-          "remainingProblem": "La décision de responsabilité ne peut toujours attendre une connaissance exhaustive"
-        }
-      ],
-      "selected": "retenue",
-      "comparison": "La distinction désir/acte/réparation complète le processus de connaissance ; elle évite aussi bien l’excuse totale que la faute imputée à chaque désir.",
-      "strongestObjection": "Nous ne savons pas exactement quelle part de choix demeurait.",
-      "responseToObjection": "La copie ne calcule pas cette part : elle en fait la difficulté persistante de toute attribution juste.",
-      "residual": "Reste qu’on ne peut jamais établir exactement toute la part consciente et inconsciente d’un acte : il faut pourtant décider ce qui peut être imputé à son auteur.",
-      "conclusionQuestion": "Comment attribuer une responsabilité juste lorsque la connaissance de ce qui a déterminé l’acte demeure incomplète ?",
-      "economy": {
-        "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 761
-      },
-      "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
-        "status": "propose",
-        "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
-      },
-      "copySha256": "2410e9f63c574d79fcf6308669b9089499558b78df3809c902d05a1da5873f4f",
-      "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
-        "racine": [
-          "N’imputer que ce que nous avons voulu",
-          "Faire répondre de ce qui vient de nous"
-        ],
-        "presupposeCommun": "Répondre d’un acte, ce serait en avoir été l’auteur transparent : la responsabilité serait tout ou rien, mesurée à la conscience du moment.",
-        "forme": "réciprocité",
-        "problematique": "P1",
-        "branchesIntroduction": "B1",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
-        "cumul": "« Excuser ce qui vient de l’inconscient, imputer ce qui vient de la conscience » : la frontière exige de savoir ce qui était conscient, ce que l’idée d’inconscient rend impossible à établir de l’intérieur ; elle se trace avec ce que l’une des réponses refuse. Le cumul est exclu.",
-        "meilleurCas": "Le plus lucide ignore encore une part de ses motifs ; le plus honnête qui répond de tout se condamne encore pour ce qu’il n’a pas voulu (Œdipe)."
-      }
-    },
-    "notion-liberte": {
-      "subject": "S’engager, est-ce renoncer à sa liberté ?",
-      "requirements": [
-        "Pouvoir choisir autrement",
-        "Passer dans des actes qui durent"
-      ],
-      "scene": {
-        "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
-        "analysis": "Antigone refuse cet édit par fidélité à son frère : tous deux sont engagés, mais leur fidélité leur laisse-t-elle encore le pouvoir de juger ce qu’elle exige ?",
-        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
-      },
-      "candidates": [
-        {
-          "id": "retenue",
-          "proposal": "Une promesse donne à autrui une raison de compter sur nous ; la reprendre, c’est reconnaître cette raison, non décider chaque matin si elle nous plaît encore.",
-          "preserves": [
-            "Pouvoir choisir autrement",
-            "Passer dans des actes qui durent"
-          ],
-          "cost": "Reste le conflit entre une obligation encore légitime et une transformation profonde de celui qui l’a contractée : aucune règle simple ne fixe le prix acceptable de la fidélité.",
-          "remainingProblem": "Quand la fidélité exige de renoncer à ce que l’on est devenu, comment juger si elle accomplit encore la liberté ou la sacrifie ?"
-        },
-        {
-          "id": "alternative-a",
-          "proposal": "Processualiser : renouveler librement la promesse chaque jour",
-          "preserves": [
-            "Montre que tenir peut rester un acte présent"
-          ],
-          "cost": "Si la promesse ne vaut qu’à chaque nouveau consentement, l’obligation envers autrui disparaît",
-          "remainingProblem": "Si la promesse ne vaut qu’à chaque nouveau consentement, l’obligation envers autrui disparaît"
-        },
-        {
-          "id": "alternative-b",
-          "proposal": "Inverser : la promesse construit la liberté durable",
-          "preserves": [
-            "Explique qu’un lien puisse libérer de l’humeur"
-          ],
-          "cost": "Une fidélité devenue injuste peut alors paraître libre par sa seule constance",
-          "remainingProblem": "Une fidélité devenue injuste peut alors paraître libre par sa seule constance"
-        }
-      ],
-      "selected": "retenue",
-      "comparison": "La fidélité raisonnée conserve une obligation qui dépasse l’humeur tout en donnant des critères de rupture ; elle complète le processus par la raison due à autrui.",
-      "strongestObjection": "Une promesse légitime devient insupportable à celui qui a changé.",
-      "responseToObjection": "Le changement ne suffit pas automatiquement à annuler l’obligation ; son prix doit être jugé et demeure explicitement ouvert.",
-      "residual": "Reste le conflit entre une obligation encore légitime et une transformation profonde de celui qui l’a contractée : aucune règle simple ne fixe le prix acceptable de la fidélité.",
-      "conclusionQuestion": "Quand la fidélité exige de renoncer à ce que l’on est devenu, comment juger si elle accomplit encore la liberté ou la sacrifie ?",
-      "economy": {
-        "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 732
-      },
-      "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
-        "status": "propose",
-        "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
-      },
-      "copySha256": "5e0904087439762d81c7bd976f682e7856aba7664cb67c0a954ecadf050a2dc6",
-      "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
-        "racine": [
-          "Pouvoir choisir autrement",
-          "Passer dans des actes qui durent"
-        ],
-        "presupposeCommun": "S’engager, ce serait se lier une fois pour toutes : la décision passée commanderait seule l’avenir.",
-        "forme": "réciprocité",
-        "problematique": "P2",
-        "branchesIntroduction": "B1",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
-        "cumul": "« S’engager pour un temps, ou sur les petites choses » : sous le présupposé, un engagement révocable n’engage pas (il perd la durée), et un engagement irrévocable soumet le jugement présent. Le cumul reconduit aux deux branches.",
-        "meilleurCas": "Le plus libre qui ne se lie jamais reste dans le possible vide (Dom Juan) ; le plus fidèle reste lié quand la cause devient injuste."
-      }
-    },
-    "notion-raison": {
-      "subject": "Suffit-il d’avoir raison pour convaincre ?",
-      "requirements": [
-        "Être produite par des raisons",
-        "Être l’adhésion propre de l’autre"
-      ],
-      "scene": {
-        "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
-        "analysis": "Un seul vote non, non qu’il le croie innocent, mais pour qu’on en discute ; au terme d’une longue délibération, il les aura tous ramenés à son avis, un par un.",
-        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
-      },
-      "candidates": [
-        {
-          "id": "retenue",
-          "proposal": "Reprendre une objection, proposer une contre-épreuve et accepter de corriger son propre argument permettent à l'autre de contrôler ce qui est affirmé.",
-          "preserves": [
-            "Être produite par des raisons",
-            "Être l’adhésion propre de l’autre"
-          ],
-          "cost": "Reste le refus d’examiner : aucune présentation honnête ne garantit que l’autre accepte de mettre sa conviction à l’épreuve.",
-          "remainingProblem": "Que peut encore faire la raison devant un refus de l’examiner, sans transformer la recherche de conviction en contrainte ?"
-        },
-        {
-          "id": "alternative-a",
-          "proposal": "Distinguer conviction rationnelle et persuasion affective",
-          "preserves": [
-            "Protège la vérité contre la seule séduction"
-          ],
-          "cost": "Risque de classer les moyens sans expliquer comment rendre une preuve effectivement examinable",
-          "remainingProblem": "Risque de classer les moyens sans expliquer comment rendre une preuve effectivement examinable"
-        },
-        {
-          "id": "alternative-b",
-          "proposal": "Processualiser : laisser la vérité convaincre avec le temps",
-          "preserves": [
-            "Reconnaît l’apprentissage et la maturation"
-          ],
-          "cost": "La durée ne fournit pas à elle seule le mécanisme qui distingue réflexion et répétition persuasive",
-          "remainingProblem": "La durée ne fournit pas à elle seule le mécanisme qui distingue réflexion et répétition persuasive"
-        }
-      ],
-      "selected": "retenue",
-      "comparison": "L’appropriation par vérification explique le passage de validité à adhésion sans dévaluer la preuve ; elle vaut pour le dialogue comme pour une démonstration écrite.",
-      "strongestObjection": "Un interlocuteur refuse tout examen.",
-      "responseToObjection": "Une présentation rationnelle ne garantit pas son accueil : la copie garde ce refus comme limite, sans autoriser la contrainte.",
-      "residual": "Comment maintenir la possibilité d'une délibération commune quand des interlocuteurs refusent jusqu'aux critères grâce auxquels une preuve pourrait être reconnue ?",
-      "conclusionQuestion": "Comment maintenir la possibilité d'une délibération commune quand des interlocuteurs refusent jusqu'aux critères grâce auxquels une preuve pourrait être reconnue ?",
-      "economy": {
-        "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 1089
-      },
-      "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
-        "status": "propose",
-        "independentReview": "Reconstruction V7.4 : suffire n'est ni être vrai ni valoir conditionnellement pour qui examine. La possession d'une vérité ne produit pas automatiquement sa présentation ou son libre examen. Double aporie stricte non démontrée. Platon et Pascal paraphrasés, citations littérales non ajoutées ; lecture indépendante encore absente."
-      },
-      "copySha256": "0e5bbbd66158a0cc284d17e9efa80cc2b302b8391692bbdd835d16253e51e653",
-      "protocol": {
-        "reference": "Plan dynamique V7.4 prioritaire",
-        "racine": [
-          "La preuve valide fournit une raison impersonnelle de croire",
-          "L'adhésion d'un individu dépend de son accès et de son examen des raisons"
-        ],
-        "presupposeCommun": "Confusion entre avoir raison, pouvoir rendre raison et obtenir effectivement l'assentiment.",
-        "forme": "contre-exemple à la suffisance, puis distinction valeur de preuve / transmission / examen libre",
-        "problematique": "P3",
-        "branchesIntroduction": "B2",
-        "statut": "réécriture argumentative proposée, non homologuée",
-        "cumul": "On peut avoir raison, expliquer sans tromper et rencontrer néanmoins un refus volontaire d'examen. Les avantages des deux branches sont compatibles ; ce cumul réfute que la seule possession de la vérité suffise et appelle une pratique de justification accessible.",
-        "meilleurCas": "Dans une délibération honnête, un argument vrai n'obtient l'adhésion que s'il est compris et repris, jamais par sa vérité seule, encore moins par la force.",
-        "matriceCandidate": "distinction de trois conditions de conviction et réorientation de l'action de l'orateur vers l'examen du destinataire"
-      }
-    },
-    "notion-technique": {
-      "subject": "Ce qui est techniquement possible est-il toujours souhaitable ?",
-      "requirements": [
-        "Accroître notre pouvoir",
-        "Que ce pouvoir reste le nôtre : pouvoir ne pas l’exercer"
-      ],
-      "scene": {
-        "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
-        "analysis": "Plus tard, il promet à la créature de lui fabriquer une compagne, puis la détruit avant de l’achever, de peur d’engendrer une race de monstres ; la créature se venge sur ceux qu’il aime.",
-        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
-      },
-      "candidates": [
-        {
-          "id": "retenue",
-          "proposal": "Ce résultat ne se déduit pas de la seule mesure d'efficacité : il introduit les droits et les voix affectées par l'intervention.",
-          "preserves": [
-            "Accroître notre pouvoir",
-            "Que ce pouvoir reste le nôtre : pouvoir ne pas l’exercer"
-          ],
-          "cost": "Reste que des conséquences décisives peuvent être inconnues : le jugement doit parfois décider sans pouvoir établir complètement la sécurité d’un projet.",
-          "remainingProblem": "Faut-il agir quand les risques d’un possible technique restent incertains et que l’attente elle-même peut priver les hommes d’un bien ?"
-        },
-        {
-          "id": "alternative-a",
-          "proposal": "Distinguer possible et fins collectivement choisies",
-          "preserves": [
-            "Évite de faire du pouvoir son propre critère"
-          ],
-          "cost": "Une fin digne ou majoritaire peut couvrir un moyen injuste et des risques imposés aux absents",
-          "remainingProblem": "Une fin digne ou majoritaire peut couvrir un moyen injuste et des risques imposés aux absents"
-        },
-        {
-          "id": "alternative-b",
-          "proposal": "Processualiser : expérimenter puis corriger",
-          "preserves": [
-            "Préserve apprentissage et innovation"
-          ],
-          "cost": "La correction peut devenir impossible après un dommage irréversible",
-          "remainingProblem": "La correction peut devenir impossible après un dommage irréversible"
-        }
-      ],
-      "selected": "retenue",
-      "comparison": "Matrice candidate déplacement du possible vers l'usage déterminé et extension temporelle de la responsabilité. La refonte des neuf opérations n'est pas encore une validation de la double aporie, ni des citations.",
-      "strongestObjection": "L'une des branches ou leur cumul peut être possible avant III : vérifier la racine, le meilleur cas et le présupposé commun.",
-      "responseToObjection": "Non démontré : sans inférences vérifiées, ne pas certifier V7.3.",
-      "residual": "Qui doit pouvoir contester une décision technique lorsque ceux qui en subiront les effets les plus durables ne peuvent pas encore prendre part au débat ?",
-      "conclusionQuestion": "Qui doit pouvoir contester une décision technique lorsque ceux qui en subiront les effets les plus durables ne peuvent pas encore prendre part au débat ?",
-      "economy": {
-        "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 1055
-      },
-      "review": {
-        "author": "Révision démonstrative du 28 octobre 2026",
-        "status": "propose",
-        "independentReview": "Reconstruction V7.4 : un seul contre-exemple d'une technique possible mais injustifiable réfute le « toujours ». Les deux premières parties examinent le gain du possible et les risques du refus général ; III justifie selon fins, moyens et effets futurs, sans créer une fausse double aporie. Références en paraphrase, contrôle externe encore nécessaire."
-      },
-      "copySha256": "e6c5a6e82bf68a5dec19ce3c6427b0e9b449801d7c91245fb5bac0741fb1416e",
-      "protocol": {
-        "reference": "Plan dynamique V7.4 prioritaire ; protocole intégré V8.0 expérimental (transitions révisées, travail non homologué)",
-        "racine": [
-          "La technique rend réalisables de véritables biens",
-          "La réussite technique ne justifie ni la fin ni les moyens ni les risques futurs"
-        ],
-        "presupposeCommun": "Une puissance de réaliser serait elle-même une raison suffisante de désirer ; confusion faisabilité / légitimité.",
-        "forme": "contre-exemple à l'universel suivi d'un jugement normatif multi-critères",
-        "problematique": "P3",
-        "branchesIntroduction": "B2",
-        "statut": "réécriture argumentative proposée, sans homologation indépendante",
-        "cumul": "Un dispositif techniquement possible peut être souhaitable dans certains usages et indéfendable dans d'autres. Ce constat suffit à réfuter la nécessité universelle ; la III propose des critères de choix, sans invoquer une contradiction conjointe.",
-        "meilleurCas": "Le même outil de localisation peut porter secours ou surveiller arbitrairement : l'évaluation dépend de la fin, du consentement, de la durée et des effets.",
-        "matriceCandidate": "déplacement du critère du possible vers l'usage et la responsabilité"
-      }
-    },
-    "notion-temps": {
-      "subject": "Le temps est-il nécessairement destructeur ?",
-      "requirements": [
-        "Faire passer toute chose",
-        "Être la durée où les choses se font"
-      ],
-      "scene": {
-        "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
-        "analysis": "Ces déguisements sont l’œuvre du temps ; pourtant, quelques instants plus tôt, des souvenirs soudain ressurgis lui ont révélé l’œuvre qu’il lui reste à écrire, le livre qui sauvera ce temps perdu.",
-        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
-      },
-      "candidates": [
-        {
-          "id": "retenue",
-          "proposal": "Il faut ainsi identifier le terme de la destruction avant d'attribuer à la temporalité un pouvoir universel d'anéantissement.",
-          "preserves": [
-            "Faire passer toute chose",
-            "Être la durée où les choses se font"
-          ],
-          "cost": "Une perte irréparable peut-elle recevoir un sens sans être tenue pour compensée ?",
-          "remainingProblem": "Une perte irréparable peut-elle recevoir un sens sans être tenue pour compensée ?"
-        },
-        {
-          "id": "alternative-a",
-          "proposal": "Distinguer ce qui existe de ce qui a existé",
-          "preserves": [
-            "Sauve l’irrévocabilité d’un événement passé"
-          ],
-          "cost": "Le fait de ne plus pouvoir ne pas avoir été ne conserve pas l’être détruit",
-          "remainingProblem": "Le fait de ne plus pouvoir ne pas avoir été ne conserve pas l’être détruit"
-        },
-        {
-          "id": "alternative-b",
-          "proposal": "Inverser : la destruction est condition de création",
-          "preserves": [
-            "Relie disparition et nouveauté dans certains processus"
-          ],
-          "cost": "Universalise trop vite ce lien et transforme les pertes singulières en sacrifices justifiés",
-          "remainingProblem": "Universalise trop vite ce lien et transforme les pertes singulières en sacrifices justifiés"
-        }
-      ],
-      "selected": "retenue",
-      "comparison": "Déplacement de l'attribution causale (le temps comme mesure des changements versus les processus de destruction), associé à la processualisation bergsonienne de la continuité. III.1 distingue condition et cause ; III.2 identité et état ; III.3 nécessité de l'irréversibilité et non-nécessité de l'anéantissement. Risque bloquant de compatibilité immédiate des branches.",
-      "strongestObjection": "Un présent cesse de l'être, mais un même être peut se conserver en changeant : on dispose de cette distinction avant la troisième partie. Le test de conjonction 3.4.9 ne passe pas encore.",
-      "responseToObjection": "La copie améliore la fidélité au terme « nécessairement » et les preuves des neuf sous-parties ; cela ne valide pas l'aporie. La distinction des types de changement reste à éprouver dans une architecture réellement nécessaire.",
-      "residual": "Comment une existence peut-elle donner sens à ses pertes irréversibles sans prétendre qu'une œuvre ou un souvenir les répare intégralement ?",
-      "conclusionQuestion": "Comment une existence peut-elle donner sens à ses pertes irréversibles sans prétendre qu'une œuvre ou un souvenir les répare intégralement ?",
-      "economy": {
-        "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 1043
-      },
-      "review": {
-        "author": "Reconstruction du 29 octobre 2026 : opérateur avant style",
-        "status": "propose",
-        "independentReview": "Réfection V7.4 : « nécessairement » conservé. Perte de la présence ≠ destruction d'un être; condition temporelle ≠ cause suffisante d'une destruction. La coexistence de pertes et de conservation est reconnue, non proclamée aporie stricte. Neuf sous-parties rédigées avec fonctions de chaque phrase, sans citation littérale nouvelle. Contrôle primaire et lecture indépendante non certifiés."
-      },
-      "copySha256": "9494b1b59af173e630d0b2144aeb13093fbbd0630d47112a3fc134da9d5babee",
-      "protocol": {
-        "reference": "Plan dynamique V7.4 prioritaire ; protocole intégré V8.0 expérimental (transitions révisées, travail non homologué)",
-        "racine": [
-          "La présence de chaque moment passe nécessairement",
-          "Des existences se conservent et se transforment au cours du temps"
-        ],
-        "presupposeCommun": "Toute perte d'état serait destruction de l'être ; toute destruction dans le temps serait causée par le temps.",
-        "forme": "dissociation causalité/condition et contrôle du quantificateur",
-        "problematique": "hors catalogue justifiée : alternative croisée à « alors que » (chaque branche nomme ce qu’exige l’autre)",
-        "branchesIntroduction": "B2",
-        "statut": "reconstruction V7.4 proposée, audit contradictoire indépendant non accompli",
-        "cumul": "Le temps est le cadre de transformations productives et de destructions réelles : ces propositions coexistent immédiatement et ne forment pas une impossibilité conjointe. Le travail de III est de distinguer condition, causalité et critère de destruction.",
-        "meilleurCas": "Le vieillissement et le travail de mémoire d'un même être sont compatibles ; la seule présence d'effets contraires ne montre pas que le temps détruit nécessairement.",
-        "matriceCandidate": "déplacement de l'attribution causale et distinction des espèces de changement"
-      }
-    },
-    "notion-travail": {
-      "subject": "Le travail nous rend-il plus humain ?",
-      "requirements": [
-        "Former celui qui l’accomplit",
-        "Le laisser maître de ce qu’il fait"
-      ],
-      "scene": {
-        "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
-        "analysis": "Et pourtant, le même Charlot passe le film à chercher du travail, car sans lui il n’a ni toit ni place parmi les autres.",
-        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
-      },
-      "candidates": [
-        {
-          "id": "retenue",
-          "proposal": "Un travail forme lorsque l’agent peut comprendre un but, développer une capacité et participer au jugement sur ce qu’il fait.",
-          "preserves": [
-            "Former celui qui l’accomplit",
-            "Le laisser maître de ce qu’il fait"
-          ],
-          "cost": "Reste qu’une société a besoin de tâches pénibles dont l’organisation peut réduire, mais pas toujours supprimer, la répétition et la fatigue.",
-          "remainingProblem": "Comment partager les tâches nécessaires qui restent pénibles, sans réserver à certains le travail formateur et à d’autres sa seule contrainte ?"
-        },
-        {
-          "id": "alternative-a",
-          "proposal": "Métamorphoser le travail en activité libre",
-          "preserves": [
-            "Préserve création et initiative"
-          ],
-          "cost": "Risque de sauver seulement un travail idéal en excluant les tâches nécessaires contraintes",
-          "remainingProblem": "Risque de sauver seulement un travail idéal en excluant les tâches nécessaires contraintes"
-        },
-        {
-          "id": "alternative-b",
-          "proposal": "Processualiser : traverser l’aliénation pour se former",
-          "preserves": [
-            "Explique certains apprentissages dans la contrainte"
-          ],
-          "cost": "Risque de rendre toute souffrance formatrice sans épreuve de ses effets réels",
-          "remainingProblem": "Risque de rendre toute souffrance formatrice sans épreuve de ses effets réels"
-        }
-      ],
-      "selected": "retenue",
-      "comparison": "Les critères de compréhension, jugement et coopération permettent d’évaluer l’organisation réelle ; ils n’effacent pas les tâches qui demeurent pénibles.",
-      "strongestObjection": "Une tâche utile reste répétitive malgré une organisation plus juste.",
-      "responseToObjection": "Le pouvoir formateur n’est pas promis partout : la répartition des tâches nécessaires constitue le reste.",
-      "residual": "Reste qu’une société a besoin de tâches pénibles dont l’organisation peut réduire, mais pas toujours supprimer, la répétition et la fatigue.",
-      "conclusionQuestion": "Comment partager les tâches nécessaires qui restent pénibles, sans réserver à certains le travail formateur et à d’autres sa seule contrainte ?",
-      "economy": {
-        "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 777
-      },
-      "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
-        "status": "propose",
-        "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
-      },
-      "copySha256": "bcd6d177a31674814d3f114b5bb0c589236b2c70eef8dc0d935acd33d9f04e4c",
-      "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
-        "racine": [
-          "Former celui qui l’accomplit",
-          "Le laisser maître de ce qu’il fait"
-        ],
-        "presupposeCommun": "Le travail aurait sur l’homme un effet qui lui appartient en tant que travail, quelle que soit son organisation.",
-        "forme": "réciprocité",
-        "problematique": "P1",
-        "branchesIntroduction": "B2",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
-        "cumul": "« Le travail forme l’artisan, il aliène l’ouvrier » : sous le présupposé, l’effet appartient au travail comme tel ; un partage par sortes de travail ne s’explique pas (le menuisier et Charlot font tous deux un travail manuel). Le partage n’est intelligible qu’après la transformation : rapporter l’effet à l’organisation.",
-        "meilleurCas": "Le travail le plus libre reste une peine sous la contrainte du besoin ; le travail le plus contraint apprend encore quelque chose (Hegel). Les deux pertes survivent."
-      }
-    },
-    "notion-verite": {
-      "subject": "Toute vérité est-elle bonne à dire ?",
-      "requirements": [
-        "Ne pas tromper",
-        "Éclairer celui à qui l’on parle"
-      ],
-      "scene": {
-        "source": "Scène et référence indiquées dans l’introduction ; banque philosophie-exemples-data.js pour les exemples déjà présents.",
-        "analysis": "Il a raison, car le sonnet est médiocre ; mais il se fait un ennemi, et la scène tourne à l’affaire d’honneur.",
-        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
-      },
-      "candidates": [
-        {
-          "id": "retenue",
-          "proposal": "Le secret médical, la confidence d’un ami, la vie privée d’un tiers sont ainsi des vérités que l’on peut taire sans mentir.",
-          "preserves": [
-            "Ne pas tromper",
-            "Éclairer celui à qui l’on parle"
-          ],
-          "cost": "Reste le conflit entre un secret légitime et une information nécessaire à la protection d’autrui : les deux exigences peuvent demeurer sérieuses.",
-          "remainingProblem": "Quand protéger quelqu’un exige de rompre une confiance légitime, comment justifier ce que l’on révèle sans abolir le devoir de discrétion ?"
-        },
-        {
-          "id": "alternative-a",
-          "proposal": "Déplacer : seule la manière de dire importe",
-          "preserves": [
-            "Explique le rôle du tact sans renoncer à l’honnêteté"
-          ],
-          "cost": "Le tact ne rend pas légitime une divulgation injuste et ne supprime pas tous ses dommages",
-          "remainingProblem": "Le tact ne rend pas légitime une divulgation injuste et ne supprime pas tous ses dommages"
-        },
-        {
-          "id": "alternative-b",
-          "proposal": "Consentir : la vérité blesse parfois nécessairement",
-          "preserves": [
-            "Reconnaît que certaines informations doivent être données malgré leur douleur"
-          ],
-          "cost": "Ne distingue pas les douleurs nécessaires de celles qu’une divulgation injustifiée impose",
-          "remainingProblem": "Ne distingue pas les douleurs nécessaires de celles qu’une divulgation injustifiée impose"
-        }
-      ],
-      "selected": "retenue",
-      "comparison": "La distinction vérité/véracité/divulgation traite aussi bien le silence que la manière de dire ; elle évite de résoudre le sujet par le seul tact.",
-      "strongestObjection": "Protéger quelqu’un peut exiger de rompre un secret légitime.",
-      "responseToObjection": "Les droits entrent alors réellement en conflit ; la question finale porte sur la justification de cette rupture.",
-      "residual": "Reste le conflit entre un secret légitime et une information nécessaire à la protection d’autrui : les deux exigences peuvent demeurer sérieuses.",
-      "conclusionQuestion": "Quand protéger quelqu’un exige de rompre une confiance légitime, comment justifier ce que l’on révèle sans abolir le devoir de discrétion ?",
-      "economy": {
-        "principle": "Réduire les répétitions, jamais une justification nécessaire ; pas de plafond de mots qui tiendrait lieu de qualité.",
-        "words": 732
-      },
-      "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
-        "status": "propose",
-        "independentReview": "Relecture complète des problématiques et plans encore à faire selon la V7.3. Corrections localisées du28octobre : attribution non établie à Kant retirée ; attente/durée chez Bergson précisées sur traduction Arthur Mitchell1911 ; fait passé distingué de sa reprise. Ces corrections ne valident pas l’architecture générale."
-      },
-      "copySha256": "977c062417851d7a715eb93c5d318a560d165afd1002463ee8fdd9cedab7a39b",
-      "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
-        "racine": [
-          "Ne pas tromper",
-          "Éclairer celui à qui l’on parle"
-        ],
-        "presupposeCommun": "Le devoir de vérité porterait sur chaque énoncé vrai : dire vrai, ce serait divulguer tout ce que l’on sait.",
-        "forme": "réciprocité",
-        "problematique": "P2",
-        "branchesIntroduction": "B4",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
-        "cumul": "« Dire les vérités utiles, taire les blessantes » : sous le présupposé, taire, c’est manquer au devoir de vérité, et trier, c’est décider à la place de l’autre (seconde branche). Le cumul est exclu.",
-        "meilleurCas": "La franchise la plus sincère blesse encore sans éclairer (Alceste) ; le tact le plus bienveillant décide encore pour l’autre (Philinte)."
-      }
-    },
-    "2025-me-verite": {
-      "subject": "La vérité est-elle toujours convaincante ?",
-      "requirements": [
-        "S’imposer par ses raisons",
-        "Être reconnue par d’autres esprits"
-      ],
-      "scene": {
-        "source": "Référence de l’œuvre indiquée dans la copie ; récit paraphrasé sans citation.",
-        "analysis": "Il sait quelque chose que les autres ignorent ; pourtant ce savoir ne leur apparaît pas comme une raison de le croire. La vérité peut éclairer celui qui la découvre sans s’imposer à ceux auxquels il la dit.",
-        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
-      },
-      "candidates": [
-        {
-          "id": "retenue",
-          "proposal": "Convaincre honnêtement demande donc de travailler sur la compréhension de l'interlocuteur sans chercher à commander son assentiment.",
-          "preserves": [
-            "S’imposer par ses raisons",
-            "Être reconnue par d’autres esprits"
-          ],
-          "cost": "Reste que l’interlocuteur peut refuser toute vérification : rendre la preuve accessible ne garantit pas qu’il acceptera de l’examiner.",
-          "remainingProblem": "Lorsque toute vérification est refusée, comment défendre la vérité sans confondre la conviction rationnelle avec une adhésion imposée ?"
-        },
-        {
-          "id": "alternative-0",
-          "proposal": "Distinguer vérité et persuasion",
-          "preserves": [
-            "Protège la validité contre l’adhésion"
-          ],
-          "cost": "Sépare les plans sans expliquer comment la preuve devient accessible",
-          "remainingProblem": "Sépare les plans sans expliquer comment la preuve devient accessible"
-        },
-        {
-          "id": "alternative-1",
-          "proposal": "Processualiser : l’habitude finit par rendre le vrai convaincant",
-          "preserves": [
-            "Reconnaît le temps nécessaire à l’apprentissage"
-          ],
-          "cost": "La répétition d’un énoncé faux peut aussi produire l’adhésion",
-          "remainingProblem": "La répétition d’un énoncé faux peut aussi produire l’adhésion"
-        }
-      ],
-      "selected": "retenue",
-      "comparison": "L’appropriation par examen relie les plans au lieu de les juxtaposer, et distingue apprentissage et répétition persuasive.",
-      "strongestObjection": "Une preuve comprise peut rester refusée par intérêt.",
-      "responseToObjection": "Le refus de vérifier demeure une limite : le mécanisme n’est pas une garantie d’adhésion.",
-      "residual": "Comment entretenir publiquement l'examen des preuves lorsque certains interlocuteurs refusent jusqu'aux règles communes de vérification ?",
-      "conclusionQuestion": "Comment entretenir publiquement l'examen des preuves lorsque certains interlocuteurs refusent jusqu'aux règles communes de vérification ?",
-      "economy": {
-        "principle": "Préserver raisons, objection et réponse avant de supprimer une phrase.",
-        "words": 1017
-      },
-      "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
-        "status": "propose",
-        "independentReview": "Réécriture argumentée V7.4 : opérateur contrôlé, contre-modèle testé. Absence de certification indépendante ; références en paraphrase, non en citations littérales."
-      },
-      "subjectVerification": {
-        "code": "25-PHGEME1",
-        "page": 2,
-        "date": "2026-10-11",
-        "title": "La vérité est-elle toujours convaincante ?",
-        "sourceDocument": "Document officiel de la session 2025, libellé contrôlé page 2 ; index ministériel lié dans la page."
-      },
-      "copySha256": "5b28ad3a9fd329c96096b6f8f55c99513c03dc274aa342433287e079a2672c28",
-      "protocol": {
-        "reference": "Plan dynamique V7.4 prioritaire ; protocole expérimental subordonné",
-        "racine": [
-          "S’imposer par ses raisons",
-          "Être reconnue par d’autres esprits"
-        ],
-        "presupposeCommun": "Toute vérité fournirait automatiquement son propre assentiment ; la validité d'une preuve serait confondue avec son accueil effectif.",
-        "forme": "preuve de non-universalité, puis distinction validité / réception",
-        "problematique": "P1",
-        "branchesIntroduction": "B2",
-        "statut": "réécriture de fond proposée, non homologuée",
-        "cumul": "Une preuve valide et le refus de l'examiner sont compatibles ; un seul cas suffit à réfuter le « toujours ». La troisième partie explique l'appropriation sans inventer de contradiction.",
-        "meilleurCas": "Un raisonnement exact face à un lecteur qui en refuse l'examen demeure vrai sans le convaincre.",
-        "matriceCandidate": "distinction de la justification et de son appropriation libre"
-      }
-    },
-    "2025-me-avenir-technique": {
-      "subject": "Notre avenir dépend-il de la technique ?",
-      "requirements": [
-        "Être rendu possible par des moyens",
-        "Rester le nôtre : choisi"
-      ],
-      "scene": {
-        "source": "Référence de l’œuvre indiquée dans la copie ; récit paraphrasé sans citation.",
-        "analysis": "Les moyens de survivre ne donnent donc pas à eux seuls les moyens de vivre ensemble. Pourtant la justice ne nourrit ni n’abrite ceux auxquels manquent les techniques.",
-        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
-      },
-      "candidates": [
-        {
-          "id": "retenue",
-          "proposal": "Choisir l’avenir exige donc de juger aussi les moyens, et les dépendances qu’ils créent, au moment où on les adopte.",
-          "preserves": [
-            "Être rendu possible par des moyens",
-            "Rester le nôtre : choisi"
-          ],
-          "cost": "Reste que certains choix deviennent irréversibles ou que leurs conséquences ne sont découvertes qu’après leur adoption : la possibilité de révision ne peut pas toujours être garantie.",
-          "remainingProblem": "Comment décider ensemble lorsque les moyens qui promettent un avenir meilleur risquent de supprimer la possibilité de le choisir autrement ?"
-        },
-        {
-          "id": "alternative-0",
-          "proposal": "Distinguer moyens techniques et fins politiques",
-          "preserves": [
-            "Reconnaît la place du jugement"
-          ],
-          "cost": "Présuppose des moyens neutres et des fins indépendantes de leur transformation",
-          "remainingProblem": "Présuppose des moyens neutres et des fins indépendantes de leur transformation"
-        },
-        {
-          "id": "alternative-1",
-          "proposal": "Processualiser : choisir les usages après les inventions",
-          "preserves": [
-            "Préserve un examen des applications"
-          ],
-          "cost": "Certaines dépendances sont déjà irréversibles quand cet examen commence",
-          "remainingProblem": "Certaines dépendances sont déjà irréversibles quand cet examen commence"
-        }
-      ],
-      "selected": "retenue",
-      "comparison": "Le rapport réciproque permet de juger aussi la production des moyens ; il ne reporte pas tout choix après leur adoption.",
-      "strongestObjection": "Les conséquences peuvent rester imprévisibles.",
-      "responseToObjection": "Conserver des possibilités de correction réduit un coût sans le supprimer ; l’irréversibilité fonde la conclusion.",
-      "residual": "Reste que certains choix deviennent irréversibles ou que leurs conséquences ne sont découvertes qu’après leur adoption : la possibilité de révision ne peut pas toujours être garantie.",
-      "conclusionQuestion": "Comment décider ensemble lorsque les moyens qui promettent un avenir meilleur risquent de supprimer la possibilité de le choisir autrement ?",
-      "economy": {
-        "principle": "Préserver raisons, objection et réponse avant de supprimer une phrase.",
-        "words": 589
-      },
-      "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
-        "status": "propose",
-        "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
-      },
-      "subjectVerification": {
-        "code": "25-PHGEME1",
-        "page": 2,
-        "date": "2026-10-11",
-        "title": "Notre avenir dépend-il de la technique ?",
-        "sourceDocument": "Document officiel de la session 2025, libellé contrôlé page 2 ; index ministériel lié dans la page."
-      },
-      "copySha256": "0fb17682c042bf1191b82141d1ef88e21a1235ea0483554beadae16521ec6cb5",
-      "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
-        "racine": [
-          "Être rendu possible par des moyens",
-          "Rester le nôtre : choisi"
-        ],
-        "presupposeCommun": "La technique ne fournirait que des moyens neutres, séparés des fins que nous choisirions d’un dehors intact.",
-        "forme": "réciprocité",
-        "problematique": "P1",
-        "branchesIntroduction": "B3",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
-        "cumul": "« La technique fournit les moyens, la politique choisit les fins » : c’est la réponse de la partie II ; sous le présupposé de moyens neutres, elle échoue, car les infrastructures pèsent déjà sur les choix suivants (II.3).",
-        "meilleurCas": "La délibération la plus démocratique choisit encore parmi ce que les moyens existants rendent pensable ; la technique la plus puissante ne fixe encore aucun usage."
-      }
-    },
-    "2025-me-besoin-art": {
-      "subject": "Avons-nous besoin d’art ?",
-      "requirements": [
-        "Répondre à un manque réel",
-        "Rester l’affaire d’un goût libre"
-      ],
-      "scene": {
-        "source": "Référence de l’œuvre indiquée dans la copie ; récit paraphrasé sans citation.",
-        "analysis": "Le chant n’est ni un repas ni un abri. Pourtant il touche une expérience que l’accueil matériel n’avait pas fait reconnaître : vivre parmi les autres demande-t-il aussi de pouvoir leur faire entendre ce que l’on a vécu ?",
-        "review": "Introduction actualisée ; examen philosophique indépendant à confirmer."
-      },
-      "candidates": [
-        {
-          "id": "retenue",
-          "proposal": "Il s’ensuit que l’art répond à ce besoin par des voies diverses, pratiques ordinaires comme œuvres élaborées, et qu’il faut en ouvrir l’accès sans en prescrire les objets.",
-          "preserves": [
-            "Répondre à un manque réel",
-            "Rester l’affaire d’un goût libre"
-          ],
-          "cost": "Reste que le récit, le jeu ou la conversation peuvent aussi exprimer et partager une expérience : il faut encore préciser ce que l’art apporte que ces autres pratiques ne réalisent pas toujours.",
-          "remainingProblem": "Qu’apporte une forme artistique à l’expression d’une expérience, que le récit ordinaire et la conversation ne peuvent pas toujours lui donner ?"
-        },
-        {
-          "id": "alternative-0",
-          "proposal": "Distinguer besoin biologique et besoin spirituel",
-          "preserves": [
-            "Élargit la vie humaine au-delà de la survie"
-          ],
-          "cost": "Ne démontre pas pourquoi un besoin spirituel exigerait précisément une réponse artistique",
-          "remainingProblem": "Ne démontre pas pourquoi un besoin spirituel exigerait précisément une réponse artistique"
-        },
-        {
-          "id": "alternative-1",
-          "proposal": "Métamorphoser l’art en toute activité expressive",
-          "preserves": [
-            "Rend le besoin largement accessible"
-          ],
-          "cost": "Sauve la nécessité en supprimant la distinction entre art et expression ordinaire",
-          "remainingProblem": "Sauve la nécessité en supprimant la distinction entre art et expression ordinaire"
-        }
-      ],
-      "selected": "retenue",
-      "comparison": "Le besoin d’une possibilité maintient liberté et fonction sans rendre toute œuvre indispensable ; la frontière avec les autres pratiques reste assumée plutôt que supprimée.",
-      "strongestObjection": "Une conversation peut remplir la fonction de partage.",
-      "responseToObjection": "La copie n’assimile pas toute expression à l’art : sa contribution spécifique reste l’objet de la conclusion.",
-      "residual": "Reste que le récit, le jeu ou la conversation peuvent aussi exprimer et partager une expérience : il faut encore préciser ce que l’art apporte que ces autres pratiques ne réalisent pas toujours.",
-      "conclusionQuestion": "Qu’apporte une forme artistique à l’expression d’une expérience, que le récit ordinaire et la conversation ne peuvent pas toujours lui donner ?",
-      "economy": {
-        "principle": "Préserver raisons, objection et réponse avant de supprimer une phrase.",
-        "words": 586
-      },
-      "review": {
-        "author": "ChatGPT (dossier initial) ; Claude (révision V7.3 du 25 octobre 2026)",
-        "status": "propose",
-        "independentReview": "À effectuer par ChatGPT : second audit selon la porte 10.2 de la V7.3 (meilleur cas, cumul, termes porteurs, transition II → III, conclusion). La traçabilité ne certifie ni la meilleure solution absolue ni une note."
-      },
-      "subjectVerification": {
-        "code": "25-PHTEME1",
-        "page": 2,
-        "date": "2026-10-11",
-        "title": "Avons-nous besoin d’art ?",
-        "sourceDocument": "Document officiel de la session 2025, libellé contrôlé page 2 ; index ministériel lié dans la page."
-      },
-      "copySha256": "26422d750085e36fa4a40a3e3f13034035da87e71e8cc87b9609f082459b54f1",
-      "protocol": {
-        "reference": "Protocole du plan dynamique V7.3 (25 octobre 2026) et Mini-protocole de transformation-calibrage 6",
-        "racine": [
-          "Répondre à un manque réel",
-          "Rester l’affaire d’un goût libre"
-        ],
-        "presupposeCommun": "Avoir besoin de quelque chose, ce serait avoir besoin d’un objet déterminé, le même pour tous.",
-        "forme": "condition renversée (faire de l’art un besoin compromet sa liberté)",
-        "problematique": "P5",
-        "branchesIntroduction": "B3",
-        "statut": "état de travail (V7.3, A12 et 10.2) : révision proposée par l’opérateur ; second audit externe à faire",
-        "cumul": "« L’art nécessaire pour certains, superflu pour d’autres » : sous le présupposé, un besoin porte sur un objet déterminé, le même pour tous ; un besoin qui ne vaut que pour certains n’en est pas un. Le cumul est exclu.",
-        "meilleurCas": "Une vie sans art ne meurt pas, et l’on ne voit pas ce qui lui manque ; le service public le mieux pensé, s’il fournit l’art comme un bien nécessaire, prescrit encore des œuvres."
-      }
+    {
+     "id": "processus",
+     "proposal": "Contestation, puis réforme, puis application.",
+     "cost": "Succession sans garantie de la correction pendant l’application.",
+     "remainingProblem": "Succession sans garantie de la correction pendant l’application.",
+     "preserves": [
+      "Succession sans garantie de la correction pendant l’application."
+     ]
     }
+   ],
+   "selected": "retenue",
+   "comparison": "Retenue : Conserve la force commune et le jugement des citoyens, explique les deux arrêts, décide Montgomery. Écartées ou dominées : C’est le cumul, qui ne dit pas qui a vaincu la ségrégation. Critère utile, mais ne dit pas à qui revient principalement la lutte. Succession sans garantie de la correction pendant l’application.",
+   "strongestObjection": "la révolution, où les citoyens imposent une règle ; ils deviennent alors un État.",
+   "responseToObjection": "survit.",
+   "residual": "Reste que bien des injustices ne passent par aucune loi ni par aucun acte qu’un tribunal puisse juger : le mépris, l’exclusion silencieuse, les portes qui restent fermées.",
+   "conclusionQuestion": "Mais qui luttera contre les injustices qu’aucun tribunal ne peut juger ?",
+   "economy": {
+    "words": 1155,
+    "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
+   },
+   "review": {
+    "author": "Protocole V16.1-exp (rédaction assistée) ; relecture à effectuer",
+    "status": "propose",
+    "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
+   },
+   "copySha256": "6a39615015fbe64f56f51dc5f68ac884ebf60ecbf48cecad8328d1ceb12d9474",
+   "protocol": "V16.1-exp"
+  },
+  "2026-ag-humanite-religion": {
+   "subject": "Peut-on concevoir une humanité sans religion ?",
+   "requirements": [
+    "Relier tous les hommes par des fins communes",
+    "Rester faite d’hommes qui jugent par eux-mêmes"
+   ],
+   "scene": {
+    "source": "En 1924, l’Union soviétique, qui combat les Églises et se veut sans dieu, fait embaumer le corps de Lénine et l’expose dans un mausolée sur la place Rouge.",
+    "analysis": "Moscou, 1924 : l’Union soviétique, officiellement athée, fait embaumer le corps de Lénine et l’expose dans un mausolée devant lequel des foules défilent pendant des décennies. Verdict : homologue. Retour : ce qui renaît est un rapport au mort, non une croyance.",
+    "review": "Scène reprise de la copie V16 ; vérifier les dates et les chiffres avant publication."
+   },
+   "candidates": [
+    {
+     "id": "retenue",
+     "proposal": "On peut donc concevoir une humanité sans religion, si l’on entend par là sans croyance en des dieux ; on ne peut pas en concevoir une sans ce que la religion accomplissait, un rapport commun aux morts et à ce qui ne doit pas être profané.",
+     "cost": "Explique l’universalité et la possibilité ensemble ; décide le cas du mausolée.",
+     "remainingProblem": "Mais un sacré sans dieux peut-il échapper au culte de ceux qui gouvernent ?",
+     "preserves": [
+      "Relier tous les hommes par des fins communes",
+      "Rester faite d’hommes qui jugent par eux-mêmes"
+     ]
+    },
+    {
+     "id": "frontiere",
+     "proposal": "Sans religion instituée, non sans spiritualité.",
+     "cost": "C’est la conciliation, qui ne sait où ranger un culte sans spiritualité.",
+     "remainingProblem": "C’est la conciliation, qui ne sait où ranger un culte sans spiritualité.",
+     "preserves": [
+      "C’est la conciliation, qui ne sait où ranger un culte sans spiritualité."
+     ]
+    },
+    {
+     "id": "processus",
+     "proposal": "L’humanité passe de la religion à la science.",
+     "cost": "Prédiction sans preuve ; la science ne remplit pas la fonction des rites.",
+     "remainingProblem": "Prédiction sans preuve ; la science ne remplit pas la fonction des rites.",
+     "preserves": [
+      "Prédiction sans preuve ; la science ne remplit pas la fonction des rites."
+     ]
+    },
+    {
+     "id": "condition",
+     "proposal": "On peut la concevoir si la connaissance des causes délivre de la crainte.",
+     "cost": "Ne traite que l’ignorance, non la mort et le lien.",
+     "remainingProblem": "Ne traite que l’ignorance, non la mort et le lien.",
+     "preserves": [
+      "Ne traite que l’ignorance, non la mort et le lien."
+     ]
+    }
+   ],
+   "selected": "retenue",
+   "comparison": "Retenue : Explique l’universalité et la possibilité ensemble ; décide le cas du mausolée. Écartées ou dominées : C’est la conciliation, qui ne sait où ranger un culte sans spiritualité. Prédiction sans preuve ; la science ne remplit pas la fonction des rites. Ne traite que l’ignorance, non la mort et le lien.",
+   "strongestObjection": "sociétés sécularisées ; elles gardent funérailles, serments, commémorations : confirme D.",
+   "responseToObjection": "survit.",
+   "residual": "Reste qu’un sacré sans dieux peut servir ceux qui gouvernent, et que rien, dans sa seule fonction, ne le protège d’un tel usage.",
+   "conclusionQuestion": "Mais un sacré sans dieux peut-il échapper au culte de ceux qui gouvernent ?",
+   "economy": {
+    "words": 1099,
+    "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
+   },
+   "review": {
+    "author": "Protocole V16.1-exp (rédaction assistée) ; relecture à effectuer",
+    "status": "propose",
+    "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
+   },
+   "copySha256": "3e96761aca1244a8a3b32df79567f8315c404044cbc01d91edc73f2a6ef369ff",
+   "protocol": "V16.1-exp"
+  },
+  "2026-an-artiste-sait": {
+   "subject": "L’artiste sait-il ce qu’il fait ?",
+   "requirements": [
+    "Être l’auteur de son œuvre",
+    "Faire une œuvre nouvelle, qu’aucune recette ne contient"
+   ],
+   "scene": {
+    "source": "Le 24 janvier 1975, à l’Opéra de Cologne, Keith Jarrett doit improviser seul sur un piano de répétition désaccordé, dont les aigus sont grêles et les basses sourdes.",
+    "analysis": "Keith Jarrett, concert de Cologne, 24 janvier 1975, sur un piano de répétition défectueux. Verdict : homologue. Retour : la III fait de chaque figure reprise ou quittée le signe du savoir qui choisit.",
+    "review": "Scène reprise de la copie V16 ; vérifier les dates et les chiffres avant publication."
+   },
+   "candidates": [
+    {
+     "id": "retenue",
+     "proposal": "L’artiste sait donc ce qu’il fait, non comme un plan qu’il exécute, mais comme une œuvre qu’il reconnaît en la faisant : il le sait pendant, non avant.",
+     "cost": "Conserve métier et invention, explique le tri sur le cas de Cologne.",
+     "remainingProblem": "Mais l’artiste sait-il ce que son œuvre fait aux autres, quand elle leur parle comme elle ne lui a jamais parlé ?",
+     "preserves": [
+      "Être l’auteur de son œuvre",
+      "Faire une œuvre nouvelle, qu’aucune recette ne contient"
+     ]
+    },
+    {
+     "id": "frontiere",
+     "proposal": "L’artiste sait ce qui relève de la technique et ignore ce qui relève de l’inspiration.",
+     "cost": "C’est le cumul : le choix d’une figure tombe des deux côtés à la fois.",
+     "remainingProblem": "C’est le cumul : le choix d’une figure tombe des deux côtés à la fois.",
+     "preserves": [
+      "C’est le cumul : le choix d’une figure tombe des deux côtés à la fois."
+     ]
+    },
+    {
+     "id": "explication",
+     "proposal": "L’inconscient de l’artiste produit à la fois la règle et l’invention.",
+     "cost": "Hypothèse de secours, ni établie ni vérifiable sur le cas.",
+     "remainingProblem": "Hypothèse de secours, ni établie ni vérifiable sur le cas.",
+     "preserves": [
+      "Hypothèse de secours, ni établie ni vérifiable sur le cas."
+     ]
+    },
+    {
+     "id": "mediateur",
+     "proposal": "L’œuvre achevée enseigne après coup à l’artiste ce qu’il a fait.",
+     "cost": "Vrai en partie, mais n’explique pas les choix pendant la production.",
+     "remainingProblem": "Vrai en partie, mais n’explique pas les choix pendant la production.",
+     "preserves": [
+      "Vrai en partie, mais n’explique pas les choix pendant la production."
+     ]
+    }
+   ],
+   "selected": "retenue",
+   "comparison": "Retenue : Conserve métier et invention, explique le tri sur le cas de Cologne. Écartées ou dominées : C’est le cumul : le choix d’une figure tombe des deux côtés à la fois. Hypothèse de secours, ni établie ni vérifiable sur le cas. Vrai en partie, mais n’explique pas les choix pendant la production.",
+   "strongestObjection": "Poe prétend avoir composé Le Corbeau comme un problème de mathématiques ; même s’il dit vrai, il ne montre pas que la réussite du poème suit de la méthode.",
+   "responseToObjection": "survit.",
+   "residual": "Reste que ce savoir porte sur l’œuvre, non sur ce qu’elle fera à ceux qui la recevront : rien ne lui annonçait qu’un concert sauvé de justesse serait écouté dans le monde entier.",
+   "conclusionQuestion": "Mais l’artiste sait-il ce que son œuvre fait aux autres, quand elle leur parle comme elle ne lui a jamais parlé ?",
+   "economy": {
+    "words": 1098,
+    "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
+   },
+   "review": {
+    "author": "Protocole V16.1-exp (rédaction assistée) ; relecture à effectuer",
+    "status": "propose",
+    "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
+   },
+   "copySha256": "9b4f46cfa653925479e490a1aede7d5359c0caab3c3f17ae91d7a00dce10f5c9",
+   "protocol": "V16.1-exp"
+  },
+  "2026-an-science-utile": {
+   "subject": "La science doit-elle être utile ?",
+   "requirements": [
+    "Connaître le vrai pour lui-même, y compris sans usage prévisible",
+    "Répondre de ce que ses vérités permettent de faire"
+   ],
+   "scene": {
+    "source": "Au début de 1939, le physicien Leo Szilard demande à Frédéric Joliot de ne pas publier ce que son équipe vient de mesurer : la fission de l’uranium libère des neutrons, ce qui rend possible une réaction en chaîne.",
+    "analysis": "Szilard demande en 1939 à Joliot de ne pas publier la multiplication des neutrons dans la fission ; l’équipe de Joliot publie (Nature, mars-avril 1939). Verdict : homologue. Retour : la III décide la demande.",
+    "review": "Scène reprise de la copie V16 ; vérifier les dates et les chiffres avant publication."
+   },
+   "candidates": [
+    {
+     "id": "retenue",
+     "proposal": "La science doit donc être utile, en ce que ses questions et la diffusion de ses résultats peuvent être réglées par le bien de ceux qui la font vivre, mais non en ce que l’utilité dirait ce qui est vrai.",
+     "cost": "Conserve le droit de la société et la norme du vrai, décide le cas de Szilard.",
+     "remainingProblem": "Peut-on cependant renoncer à chercher une vérité parce que la savoir est déjà un danger ?",
+     "preserves": [
+      "Connaître le vrai pour lui-même, y compris sans usage prévisible",
+      "Répondre de ce que ses vérités permettent de faire"
+     ]
+    },
+    {
+     "id": "ordre",
+     "proposal": "En cas de conflit, la vérité passe toujours avant l’utilité.",
+     "cost": "Rechute dans la seconde réponse : ne dit rien des usages.",
+     "remainingProblem": "Rechute dans la seconde réponse : ne dit rien des usages.",
+     "preserves": [
+      "Rechute dans la seconde réponse : ne dit rien des usages."
+     ]
+    },
+    {
+     "id": "dependance",
+     "proposal": "L’utilité dépend de la vérité, donc chercher le vrai suffit à servir.",
+     "cost": "Vrai mais déjà établi en II ; ne dit pas ce qui peut être exigé.",
+     "remainingProblem": "Vrai mais déjà établi en II ; ne dit pas ce qui peut être exigé.",
+     "preserves": [
+      "Vrai mais déjà établi en II ; ne dit pas ce qui peut être exigé."
+     ]
+    },
+    {
+     "id": "condition",
+     "proposal": "La science doit être utile si la société a pu prévoir l’usage.",
+     "cost": "Retombe sur l’imprévisibilité de la première partie.",
+     "remainingProblem": "Retombe sur l’imprévisibilité de la première partie.",
+     "preserves": [
+      "Retombe sur l’imprévisibilité de la première partie."
+     ]
+    }
+   ],
+   "selected": "retenue",
+   "comparison": "Retenue : Conserve le droit de la société et la norme du vrai, décide le cas de Szilard. Écartées ou dominées : Rechute dans la seconde réponse : ne dit rien des usages. Vrai mais déjà établi en II ; ne dit pas ce qui peut être exigé. Retombe sur l’imprévisibilité de la première partie.",
+   "strongestObjection": "la recherche commandée (vaccin) réussit — elle est commandée dans sa question, non sa réponse : cela confirme D, ne comble pas LA.",
+   "responseToObjection": "les deux limites survivent.",
+   "residual": "Reste le cas où c’est la connaissance elle-même, et non sa diffusion, qui est un danger, parce que celui qui la possède peut en user seul.",
+   "conclusionQuestion": "Peut-on cependant renoncer à chercher une vérité parce que la savoir est déjà un danger ?",
+   "economy": {
+    "words": 1248,
+    "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
+   },
+   "review": {
+    "author": "Protocole V16.1-exp (rédaction assistée) ; relecture à effectuer",
+    "status": "propose",
+    "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
+   },
+   "copySha256": "90d8523c8867988aec1b946e14c63d1e59cfa2c2c5c14b13ae6651e52ddcd5ba",
+   "protocol": "V16.1-exp"
+  },
+  "2026-asie-inconscient-bonheur": {
+   "subject": "Faut-il être inconscient pour être heureux ?",
+   "requirements": [
+    "Laisser en repos",
+    "Durer face aux dangers réels"
+   ],
+   "scene": {
+    "source": "Ivan Ilitch, le juge dont Tolstoï raconte la mort, a vécu comme il faut : une carrière aisée, un appartement bien meublé, des parties de cartes, et le soin de ne jamais penser à ce qui pourrait gâter tout cela.",
+    "analysis": "Tolstoï, La Mort d’Ivan Ilitch (1886) : une vie organisée pour ne pas penser, l’épouvante de la maladie, la peur qui le quitte à la fin. Verdict : homologue. Retour : la paix finale n’est pas un oubli.",
+    "review": "Scène reprise de la copie V16 ; vérifier les dates et les chiffres avant publication."
+   },
+   "candidates": [
+    {
+     "id": "retenue",
+     "proposal": "Il ne faut donc pas être inconscient pour être heureux : il faut que la conscience du malheur cesse d’être une attente pour devenir une compréhension, ce qui demande un travail, non un oubli.",
+     "cost": "Décide le cas du malheur présent, conserve les deux acquis, explique les deux arrêts.",
+     "remainingProblem": "Mais un bonheur sans espoir est-il encore celui que nous désirions ?",
+     "preserves": [
+      "Laisser en repos",
+      "Durer face aux dangers réels"
+     ]
+    },
+    {
+     "id": "frontiere",
+     "proposal": "Ignorer ce qu’on ne peut changer, connaître ce qu’on peut changer.",
+     "cost": "C’est le cumul, qui échoue sur le mal présent.",
+     "remainingProblem": "C’est le cumul, qui échoue sur le mal présent.",
+     "preserves": [
+      "C’est le cumul, qui échoue sur le mal présent."
+     ]
+    },
+    {
+     "id": "ordre",
+     "proposal": "Préférer toujours la vérité au contentement.",
+     "cost": "Tranche sans dire comment on peut être heureux en sachant.",
+     "remainingProblem": "Tranche sans dire comment on peut être heureux en sachant.",
+     "preserves": [
+      "Tranche sans dire comment on peut être heureux en sachant."
+     ]
+    },
+    {
+     "id": "condition",
+     "proposal": "On peut être heureux en sachant si l’on est entouré d’autres qui partagent le malheur.",
+     "cost": "Aide réelle, mais condition contingente qui n’explique pas le trouble.",
+     "remainingProblem": "Aide réelle, mais condition contingente qui n’explique pas le trouble.",
+     "preserves": [
+      "Aide réelle, mais condition contingente qui n’explique pas le trouble."
+     ]
+    }
+   ],
+   "selected": "retenue",
+   "comparison": "Retenue : Décide le cas du malheur présent, conserve les deux acquis, explique les deux arrêts. Écartées ou dominées : C’est le cumul, qui échoue sur le mal présent. Tranche sans dire comment on peut être heureux en sachant. Aide réelle, mais condition contingente qui n’explique pas le trouble.",
+   "strongestObjection": "le sage lucide ; il confirme XB sans combler LB pour nous.",
+   "responseToObjection": "survit.",
+   "residual": "Reste que cette compréhension, si elle délivre de la crainte, délivre aussi de l’espoir, puisque, selon Spinoza, « il n’y a pas d’espoir sans crainte, ni de crainte sans espoir » ; or certains bonheurs vivent d’espérer.",
+   "conclusionQuestion": "Mais un bonheur sans espoir est-il encore celui que nous désirions ?",
+   "economy": {
+    "words": 1251,
+    "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
+   },
+   "review": {
+    "author": "Protocole V16.1-exp (rédaction assistée) ; relecture à effectuer",
+    "status": "propose",
+    "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
+   },
+   "copySha256": "9639bb90fb3261dc8c2bd37b1425f4bb718ba31c4788535453e73b5ceabbb8c8",
+   "protocol": "V16.1-exp"
+  },
+  "2026-asie-langage": {
+   "subject": "Sommes-nous prisonniers du langage ?",
+   "requirements": [
+    "Donner de quoi penser",
+    "Laisser juger ce qu’il fait penser"
+   ],
+   "scene": {
+    "source": "Dans 1984, Orwell imagine un pouvoir qui ne se contente pas d’interdire certaines idées : il fabrique une langue, le novlangue, d’où ont disparu les mots qui les diraient.",
+    "analysis": "Orwell, 1984 (1949) : le novlangue, langue fabriquée pour rendre certaines pensées impossibles. Verdict : homologue. Retour : la III dit ce que le projet devrait supprimer pour réussir.",
+    "review": "Scène reprise de la copie V16 ; vérifier les dates et les chiffres avant publication."
+   },
+   "candidates": [
+    {
+     "id": "retenue",
+     "proposal": "Nous ne sommes donc pas prisonniers du langage : nous en dépendons comme d’une résistance qui porte la pensée, et nous sommes libres en le travaillant, non en le quittant.",
+     "cost": "Conserve dépendance et transformation, explique pourquoi la prison paraissait réelle.",
+     "remainingProblem": "Mais que reste-t-il de cette liberté quand plus personne n’accueille les mots qu’on change ?",
+     "preserves": [
+      "Donner de quoi penser",
+      "Laisser juger ce qu’il fait penser"
+     ]
+    },
+    {
+     "id": "frontiere",
+     "proposal": "Prisonniers de la langue, libres par la parole.",
+     "cost": "C’est le cumul : il garde le présupposé du dehors.",
+     "remainingProblem": "C’est le cumul : il garde le présupposé du dehors.",
+     "preserves": [
+      "C’est le cumul : il garde le présupposé du dehors."
+     ]
+    },
+    {
+     "id": "dependance",
+     "proposal": "La pensée crée la langue dont elle dépend.",
+     "cost": "Aucun individu ne crée seul les ressources communes dont il part.",
+     "remainingProblem": "Aucun individu ne crée seul les ressources communes dont il part.",
+     "preserves": [
+      "Aucun individu ne crée seul les ressources communes dont il part."
+     ]
+    },
+    {
+     "id": "condition",
+     "proposal": "Nous serions prisonniers si un pouvoir fixait la langue.",
+     "cost": "Vrai sous condition, mais ne décide pas notre situation ordinaire ; devient le reste.",
+     "remainingProblem": "Vrai sous condition, mais ne décide pas notre situation ordinaire ; devient le reste.",
+     "preserves": [
+      "Vrai sous condition, mais ne décide pas notre situation ordinaire ; devient le reste."
+     ]
+    }
+   ],
+   "selected": "retenue",
+   "comparison": "Retenue : Conserve dépendance et transformation, explique pourquoi la prison paraissait réelle. Écartées ou dominées : C’est le cumul : il garde le présupposé du dehors. Aucun individu ne crée seul les ressources communes dont il part. Vrai sous condition, mais ne décide pas notre situation ordinaire ; devient le reste.",
+   "strongestObjection": "la pensée sans mots (images, musique) ; elle ne se fixe ni ne se corrige comme un jugement : ne lève pas LA.",
+   "responseToObjection": "survit.",
+   "residual": "Reste qu’un tel travail suppose une communauté qui accueille les mots changés, et qu’un pouvoir peut s’employer à la défaire.",
+   "conclusionQuestion": "Mais que reste-t-il de cette liberté quand plus personne n’accueille les mots qu’on change ?",
+   "economy": {
+    "words": 1100,
+    "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
+   },
+   "review": {
+    "author": "Protocole V16.1-exp (rédaction assistée) ; relecture à effectuer",
+    "status": "propose",
+    "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
+   },
+   "copySha256": "bcd8ce927b3e27130b22a0df2337b8ced3a6accae17115fd57f85c332a1ee7c2",
+   "protocol": "V16.1-exp"
+  },
+  "2026-g1-bien-agir": {
+   "subject": "Peut-on être certain d’avoir bien agi ?",
+   "requirements": [
+    "Procéder d’une intention droite",
+    "Faire effectivement du bien"
+   ],
+   "scene": {
+    "source": "Le 15 janvier 2009, privé de ses deux moteurs, l’avion du commandant Sullenberger se pose sur l’Hudson, et les cent cinquante-cinq personnes à bord survivent.",
+    "analysis": "Sullenberger et l’Hudson (15 janvier 2009) ; enquête du NTSB, simulations avec et sans délai de réaction de 35 secondes (rapport AAR-10/03, 2010). Verdict : homologue. Retour : la III fait de la reconstitution des trente-cinq secondes la mesure même de l’acte.",
+    "review": "Scène reprise de la copie V16 ; vérifier les dates et les chiffres avant publication."
+   },
+   "candidates": [
+    {
+     "id": "retenue",
+     "proposal": "On peut donc être certain d’avoir bien agi, si l’on entend par là que l’acte répondait à ce que la situation, telle qu’elle était accessible, exigeait, et que ce jugement résiste à l’examen d’autrui.",
+     "cost": "Conserve la décision et les faits, explique les deux arrêts, tranche le cas témoin.",
+     "remainingProblem": "Mais que vaut cette certitude pour les actes que personne ne peut reconstituer avec nous ?",
+     "preserves": [
+      "Procéder d’une intention droite",
+      "Faire effectivement du bien"
+     ]
+    },
+    {
+     "id": "ordre",
+     "proposal": "En cas de conflit, l’intention l’emporte toujours sur les effets.",
+     "cost": "Rechute dans la première réponse : les mobiles restent inconnus.",
+     "remainingProblem": "Rechute dans la première réponse : les mobiles restent inconnus.",
+     "preserves": [
+      "Rechute dans la première réponse : les mobiles restent inconnus."
+     ]
+    },
+    {
+     "id": "frontiere",
+     "proposal": "L’intention décide de la valeur morale, les effets de la valeur technique.",
+     "cost": "Simple partage : sur l’Hudson, il ne dit pas si le pilote a bien agi.",
+     "remainingProblem": "Simple partage : sur l’Hudson, il ne dit pas si le pilote a bien agi.",
+     "preserves": [
+      "Simple partage : sur l’Hudson, il ne dit pas si le pilote a bien agi."
+     ]
+    },
+    {
+     "id": "condition",
+     "proposal": "La certitude n’est possible que pour des raisons exposées à autrui avant d’agir.",
+     "cost": "Elle juge encore des raisons, non l’acte, et laisse l’établissement des faits sans emploi.",
+     "remainingProblem": "Elle juge encore des raisons, non l’acte, et laisse l’établissement des faits sans emploi.",
+     "preserves": [
+      "Elle juge encore des raisons, non l’acte, et laisse l’établissement des faits sans emploi."
+     ]
+    }
+   ],
+   "selected": "retenue",
+   "comparison": "Retenue : Conserve la décision et les faits, explique les deux arrêts, tranche le cas témoin. Écartées ou dominées : Rechute dans la première réponse : les mobiles restent inconnus. Simple partage : sur l’Hudson, il ne dit pas si le pilote a bien agi. Elle juge encore des raisons, non l’acte, et laisse l’établissement des faits sans emploi.",
+   "strongestObjection": "l’agent qui se sait sans intérêt — FA n’y gagne que la conscience d’en être sans.",
+   "responseToObjection": "survit (voir six exigences).",
+   "residual": "Reste que cette certitude suppose une situation que d’autres peuvent reconstituer, ce que ne permettent pas les actes sans témoin ni trace.",
+   "conclusionQuestion": "Mais que vaut cette certitude pour les actes que personne ne peut reconstituer avec nous ?",
+   "economy": {
+    "words": 1220,
+    "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
+   },
+   "review": {
+    "author": "Protocole V16.1-exp (rédaction assistée) ; relecture à effectuer",
+    "status": "propose",
+    "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
+   },
+   "copySha256": "815ad33e770f95caabbe7f9efda726b4c230333fd593a21115d8fa01c4cabceb",
+   "protocol": "V16.1-exp"
+  },
+  "2026-g1-nature-besoin": {
+   "subject": "La nature a-t-elle besoin de nous ?",
+   "requirements": [
+    "Se faire sans nous",
+    "Conserver les milieux et les espèces qui la composent"
+   ],
+   "scene": {
+    "source": "En 1986, après l’explosion de la centrale de Tchernobyl, les habitants quittent une zone de trente kilomètres autour du réacteur ; quelques décennies plus tard, loups, élans et sangliers y prospèrent.",
+    "analysis": "Zone d’exclusion de Tchernobyl (depuis 1986) ; chevaux de Przewalski, éteints à l’état sauvage, sauvés en élevage et lâchés dans la zone en 1998. Verdict : homologue. Retour : les deux sens du besoin.",
+    "review": "Scène reprise de la copie V16 ; vérifier les dates et les chiffres avant publication."
+   },
+   "candidates": [
+    {
+     "id": "retenue",
+     "proposal": "La nature n’a donc pas besoin de nous, mais certains vivants en ont besoin, dans la mesure exacte où nous sommes devenus une condition de leur vie.",
+     "cost": "Décide le cas des chevaux, conserve les deux acquis, explique les deux arrêts.",
+     "remainingProblem": "Mais devons-nous quelque chose aussi à ce qui ne vit pas ?",
+     "preserves": [
+      "Se faire sans nous",
+      "Conserver les milieux et les espèces qui la composent"
+     ]
+    },
+    {
+     "id": "frontiere",
+     "proposal": "La nature sauvage n’a pas besoin de nous, la nature façonnée en a besoin.",
+     "cost": "C’est la conciliation, qui ne sait à qui attribuer le besoin.",
+     "remainingProblem": "C’est la conciliation, qui ne sait à qui attribuer le besoin.",
+     "preserves": [
+      "C’est la conciliation, qui ne sait à qui attribuer le besoin."
+     ]
+    },
+    {
+     "id": "inversion",
+     "proposal": "C’est nous qui avons besoin de la nature, non l’inverse.",
+     "cost": "Vrai, mais esquive le sujet.",
+     "remainingProblem": "Vrai, mais esquive le sujet.",
+     "preserves": [
+      "Vrai, mais esquive le sujet."
+     ]
+    },
+    {
+     "id": "mediateur",
+     "proposal": "L’humanité est une partie de la nature, donc ses soins sont la nature qui prend soin d’elle-même.",
+     "cost": "Dissout le sujet en effaçant le « nous ».",
+     "remainingProblem": "Dissout le sujet en effaçant le « nous ».",
+     "preserves": [
+      "Dissout le sujet en effaçant le « nous »."
+     ]
+    }
+   ],
+   "selected": "retenue",
+   "comparison": "Retenue : Décide le cas des chevaux, conserve les deux acquis, explique les deux arrêts. Écartées ou dominées : C’est la conciliation, qui ne sait à qui attribuer le besoin. Vrai, mais esquive le sujet. Dissout le sujet en effaçant le « nous ».",
+   "strongestObjection": "l’espèce sauvée par l’homme ; elle confirme D.",
+   "responseToObjection": "survit.",
+   "residual": "Reste que ce critère ne vaut que pour ce qui vit, et ne dit rien de ce que nous devons à ce qui ne vit pas, un fleuve, un glacier, une montagne.",
+   "conclusionQuestion": "Mais devons-nous quelque chose aussi à ce qui ne vit pas ?",
+   "economy": {
+    "words": 1220,
+    "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
+   },
+   "review": {
+    "author": "Protocole V16.1-exp (rédaction assistée) ; relecture à effectuer",
+    "status": "propose",
+    "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
+   },
+   "copySha256": "5028ae713663fdbbcd004267a2e1df9db95d2bf00a6f7b6f63e8e6f0e4f1e586",
+   "protocol": "V16.1-exp"
+  },
+  "2026-me-bonheur-autres": {
+   "subject": "Peut-on être heureux quand les autres ne le sont pas ?",
+   "requirements": [
+    "Dépendre de nous",
+    "Rester le bonheur d’un homme parmi les hommes"
+   ],
+   "scene": {
+    "source": "Dans La Peste de Camus, le journaliste Rambert, bloqué à Oran par l’épidémie, ne pense qu’à fuir la ville pour retrouver la femme qu’il aime.",
+    "analysis": "Camus, La Peste (1947) : Rambert, journaliste bloqué à Oran, veut fuir pour rejoindre sa femme, puis renonce à partir et rejoint les formations sanitaires ; il la retrouve à la fin de l’épidémie. Paraphrase seulement. Verdict : homologue. Retour : son bonheur n’est pas sacrifié, il cesse d’être une fuite.",
+    "review": "Scène reprise de la copie V16 ; vérifier les dates et les chiffres avant publication."
+   },
+   "candidates": [
+    {
+     "id": "retenue",
+     "proposal": "On peut donc être heureux quand les autres ne le sont pas, à condition que ce bonheur ne se paie ni d’un regard détourné ni d’un refus de faire ce qu’on peut.",
+     "cost": "Décide le cas de Rambert, conserve les deux acquis, explique les deux arrêts.",
+     "remainingProblem": "Mais que reste-t-il au bonheur quand le malheur des autres dépasse tout ce que nous pouvons ?",
+     "preserves": [
+      "Dépendre de nous",
+      "Rester le bonheur d’un homme parmi les hommes"
+     ]
+    },
+    {
+     "id": "frontiere",
+     "proposal": "Heureux malgré les lointains, non malgré les proches.",
+     "cost": "C’est le cumul, qui échoue sur Rambert.",
+     "remainingProblem": "C’est le cumul, qui échoue sur Rambert.",
+     "preserves": [
+      "C’est le cumul, qui échoue sur Rambert."
+     ]
+    },
+    {
+     "id": "ordre",
+     "proposal": "Le devoir envers les autres passe avant le bonheur.",
+     "cost": "Change de question (doit-on) et ne dit pas si l’on peut être heureux.",
+     "remainingProblem": "Change de question (doit-on) et ne dit pas si l’on peut être heureux.",
+     "preserves": [
+      "Change de question (doit-on) et ne dit pas si l’on peut être heureux."
+     ]
+    },
+    {
+     "id": "explication",
+     "proposal": "La pitié explique le trouble que cause le malheur d’autrui.",
+     "cost": "Explique le trouble, non la possibilité du bonheur.",
+     "remainingProblem": "Explique le trouble, non la possibilité du bonheur.",
+     "preserves": [
+      "Explique le trouble, non la possibilité du bonheur."
+     ]
+    }
+   ],
+   "selected": "retenue",
+   "comparison": "Retenue : Décide le cas de Rambert, conserve les deux acquis, explique les deux arrêts. Écartées ou dominées : C’est le cumul, qui échoue sur Rambert. Change de question (doit-on) et ne dit pas si l’on peut être heureux. Explique le trouble, non la possibilité du bonheur.",
+   "strongestObjection": "le saint qui est heureux au milieu des malades ; il confirme D (son bonheur passe par ce qu’il fait).",
+   "responseToObjection": "survit.",
+   "residual": "Reste le cas où le malheur des autres excède tout ce que l’on peut, et où l’on ne sait plus ce que vaut un bonheur qui ne peut rien pour eux.",
+   "conclusionQuestion": "Mais que reste-t-il au bonheur quand le malheur des autres dépasse tout ce que nous pouvons ?",
+   "economy": {
+    "words": 1135,
+    "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
+   },
+   "review": {
+    "author": "Protocole V16.1-exp (rédaction assistée) ; relecture à effectuer",
+    "status": "propose",
+    "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
+   },
+   "copySha256": "317f4d1e90cb0650249d02d109b0e85553fe83807777d9ed65ad357386d227a2",
+   "protocol": "V16.1-exp"
+  },
+  "2026-me-paroles": {
+   "subject": "Avons-nous la maîtrise de nos paroles ?",
+   "requirements": [
+    "Nous engager : répondre de ce que nous disons",
+    "Dire plus que ce que nous avions prévu"
+   ],
+   "scene": {
+    "source": "Dans la Phèdre de Racine, l’héroïne se laisse arracher son secret par sa nourrice, mais refuse jusqu’au bout de prononcer le nom de celui qu’elle aime.",
+    "analysis": "Racine, Phèdre (1677), I, 3 : Phèdre refuse de prononcer le nom d’Hippolyte ; Œnone le prononce. Puis V, 7 : elle avoue à Thésée l’innocence d’Hippolyte. Verdict : homologue. Retour : l’aveu final est la maîtrise retrouvée.",
+    "review": "Scène reprise de la copie V16 ; vérifier les dates et les chiffres avant publication."
+   },
+   "candidates": [
+    {
+     "id": "retenue",
+     "proposal": "Nous n’avons donc pas la maîtrise du sens de nos paroles, mais nous avons celle d’en répondre, et c’est par là que nous en devenons les maîtres.",
+     "cost": "Décide le cas de Phèdre, conserve les deux acquis, explique les deux arrêts.",
+     "remainingProblem": "Mais que vaut cette maîtrise quand l’aveu vient trop tard pour sauver celui que la parole a perdu ?",
+     "preserves": [
+      "Nous engager : répondre de ce que nous disons",
+      "Dire plus que ce que nous avions prévu"
+     ]
+    },
+    {
+     "id": "frontiere",
+     "proposal": "Maîtres de l’émission, non de la réception.",
+     "cost": "C’est le cumul, qui échoue sur l’aveu.",
+     "remainingProblem": "C’est le cumul, qui échoue sur l’aveu.",
+     "preserves": [
+      "C’est le cumul, qui échoue sur l’aveu."
+     ]
+    },
+    {
+     "id": "condition",
+     "proposal": "On maîtrise ses paroles quand on connaît parfaitement son auditeur.",
+     "cost": "Condition jamais remplie ; rechute dans la seconde réponse.",
+     "remainingProblem": "Condition jamais remplie ; rechute dans la seconde réponse.",
+     "preserves": [
+      "Condition jamais remplie ; rechute dans la seconde réponse."
+     ]
+    },
+    {
+     "id": "explication",
+     "proposal": "L’inconscient parle dans nos paroles, ce qui explique qu’elles nous échappent.",
+     "cost": "Explique certains lapsus, non la maîtrise ; hypothèse de secours ici.",
+     "remainingProblem": "Explique certains lapsus, non la maîtrise ; hypothèse de secours ici.",
+     "preserves": [
+      "Explique certains lapsus, non la maîtrise ; hypothèse de secours ici."
+     ]
+    }
+   ],
+   "selected": "retenue",
+   "comparison": "Retenue : Décide le cas de Phèdre, conserve les deux acquis, explique les deux arrêts. Écartées ou dominées : C’est le cumul, qui échoue sur l’aveu. Condition jamais remplie ; rechute dans la seconde réponse. Explique certains lapsus, non la maîtrise ; hypothèse de secours ici.",
+   "strongestObjection": "la formule juridique, dont le sens est fixé ; elle déplace le contrôle vers une institution.",
+   "responseToObjection": "survit.",
+   "residual": "Reste la parole qui a déjà blessé ou tué, et qu’aucune reprise ne peut défaire.",
+   "conclusionQuestion": "Mais que vaut cette maîtrise quand l’aveu vient trop tard pour sauver celui que la parole a perdu ?",
+   "economy": {
+    "words": 1063,
+    "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
+   },
+   "review": {
+    "author": "Protocole V16.1-exp (rédaction assistée) ; relecture à effectuer",
+    "status": "propose",
+    "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
+   },
+   "copySha256": "ae7597daf99b68718d71f2f2ee1333d111659d96abf7c20139bc8cadad5d5dec",
+   "protocol": "V16.1-exp"
+  },
+  "notion-inconscient": {
+   "subject": "L’idée d’inconscient remet-elle en cause la responsabilité ?",
+   "requirements": [
+    "N’imputer que ce que nous avons voulu",
+    "Faire répondre de ce qui vient de nous"
+   ],
+   "scene": {
+    "source": "Au carrefour de Phocide, Œdipe tue dans la colère un vieillard qui lui barrait la route ; il ignore que cet homme est son père.",
+    "analysis": "Sophocle, Œdipe roi (Œdipe se crève les yeux) et Œdipe à Colone (il plaide qu’il a agi sans savoir) ; lecture de Freud, qui voit dans Œdipe la figure de désirs que chacun ignore. Paraphrase seulement. Verdict : homologue. Retour : la III départage les deux Œdipe.",
+    "review": "Scène reprise de la copie V16 ; vérifier les dates et les chiffres avant publication."
+   },
+   "candidates": [
+    {
+     "id": "retenue",
+     "proposal": "L’idée d’inconscient ne remet donc pas en cause la responsabilité, mais une fausse idée de ce qu’elle exige : on est coupable de ce qu’on savait faire et qu’on pouvait ne pas faire, quels qu’en soient les motifs.",
+     "cost": "Décide le cas d’Œdipe, conserve les deux acquis, explique les deux arrêts.",
+     "remainingProblem": "Mais où passe la frontière quand le discernement n’est ni entier ni perdu ?",
+     "preserves": [
+      "N’imputer que ce que nous avons voulu",
+      "Faire répondre de ce qui vient de nous"
+     ]
+    },
+    {
+     "id": "partage",
+     "proposal": "Responsables des actes conscients, non des actes inconscients.",
+     "cost": "C’est le cumul : le même acte est conscient et inconscient sous deux rapports.",
+     "remainingProblem": "C’est le cumul : le même acte est conscient et inconscient sous deux rapports.",
+     "preserves": [
+      "C’est le cumul : le même acte est conscient et inconscient sous deux rapports."
+     ]
+    },
+    {
+     "id": "tache",
+     "proposal": "La responsabilité devient une tâche : s’approprier ce qui agissait à notre insu.",
+     "cost": "Féconde pour l’avenir, mais ne dit pas si l’on est coupable de l’acte passé.",
+     "remainingProblem": "Féconde pour l’avenir, mais ne dit pas si l’on est coupable de l’acte passé.",
+     "preserves": [
+      "Féconde pour l’avenir, mais ne dit pas si l’on est coupable de l’acte passé."
+     ]
+    },
+    {
+     "id": "excuse",
+     "proposal": "En cas de doute, l’inconscient excuse.",
+     "cost": "Rechute dans la première réponse.",
+     "remainingProblem": "Rechute dans la première réponse.",
+     "preserves": [
+      "Rechute dans la première réponse."
+     ]
+    }
+   ],
+   "selected": "retenue",
+   "comparison": "Retenue : Décide le cas d’Œdipe, conserve les deux acquis, explique les deux arrêts. Écartées ou dominées : C’est le cumul : le même acte est conscient et inconscient sous deux rapports. Féconde pour l’avenir, mais ne dit pas si l’on est coupable de l’acte passé. Rechute dans la première réponse.",
+   "strongestObjection": "le lapsus, qui n’est puni par personne ; il confirme D.",
+   "responseToObjection": "survit.",
+   "residual": "Reste que le discernement peut être altéré sans être aboli, et que la frontière devient alors une affaire de degré.",
+   "conclusionQuestion": "Mais où passe la frontière quand le discernement n’est ni entier ni perdu ?",
+   "economy": {
+    "words": 1152,
+    "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
+   },
+   "review": {
+    "author": "Protocole V16.1-exp (rédaction assistée) ; relecture à effectuer",
+    "status": "propose",
+    "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
+   },
+   "copySha256": "c74782c38da4d4eeb28465d728769039e836842022d192514293bc40029e9eba",
+   "protocol": "V16.1-exp"
+  },
+  "notion-liberte": {
+   "subject": "S’engager, est-ce renoncer à sa liberté ?",
+   "requirements": [
+    "Pouvoir choisir autrement",
+    "Passer dans des actes qui durent"
+   ],
+   "scene": {
+    "source": "Pour entendre le chant des Sirènes sans en périr, Ulysse se fait attacher au mât de son navire et ordonne à ses compagnons, s’il les supplie de le délier, de resserrer ses liens.",
+    "analysis": "Homère, Odyssée, chant XII : Ulysse se fait attacher au mât pour entendre les Sirènes et ordonne qu’on resserre ses liens s’il demande à être délié. Paraphrase seulement. Verdict : homologue. Retour : la supplication est celle du charme.",
+    "review": "Scène reprise de la copie V16 ; vérifier les dates et les chiffres avant publication."
+   },
+   "candidates": [
+    {
+     "id": "retenue",
+     "proposal": "S’engager n’est donc pas renoncer à sa liberté, si l’engagement protège le jugement contre ce qui le capturerait et laisse ouverte sa révision par des raisons ; il ne devient renonciation que lorsqu’il interdit de juger.",
+     "cost": "Décide le cas d’Ulysse, conserve les deux acquis, explique les deux arrêts.",
+     "remainingProblem": "Mais qui nous dira, le jour où nous voudrons rompre, si c’est la raison ou la sirène qui parle ?",
+     "preserves": [
+      "Pouvoir choisir autrement",
+      "Passer dans des actes qui durent"
+     ]
+    },
+    {
+     "id": "moments",
+     "proposal": "Libre au moment de s’engager, non ensuite.",
+     "cost": "C’est le cumul, qui échoue sur Ulysse.",
+     "remainingProblem": "C’est le cumul, qui échoue sur Ulysse.",
+     "preserves": [
+      "C’est le cumul, qui échoue sur Ulysse."
+     ]
+    },
+    {
+     "id": "fidelite",
+     "proposal": "La fidélité est un engagement repris chaque jour.",
+     "cost": "Juste en partie, mais ne dit pas que faire le jour où l’on ne le reprend plus.",
+     "remainingProblem": "Juste en partie, mais ne dit pas que faire le jour où l’on ne le reprend plus.",
+     "preserves": [
+      "Juste en partie, mais ne dit pas que faire le jour où l’on ne le reprend plus."
+     ]
+    },
+    {
+     "id": "ordre",
+     "proposal": "La parole donnée l’emporte toujours sur la volonté présente.",
+     "cost": "Ferait de la servitude volontaire un engagement libre.",
+     "remainingProblem": "Ferait de la servitude volontaire un engagement libre.",
+     "preserves": [
+      "Ferait de la servitude volontaire un engagement libre."
+     ]
+    }
+   ],
+   "selected": "retenue",
+   "comparison": "Retenue : Décide le cas d’Ulysse, conserve les deux acquis, explique les deux arrêts. Écartées ou dominées : C’est le cumul, qui échoue sur Ulysse. Juste en partie, mais ne dit pas que faire le jour où l’on ne le reprend plus. Ferait de la servitude volontaire un engagement libre.",
+   "strongestObjection": "la servitude volontaire ; c’est un engagement qui supprime le pouvoir de juger : il confirme D.",
+   "responseToObjection": "survit.",
+   "residual": "Reste que, au moment où l’on veut rompre, c’est la volonté elle-même qui doit dire si elle juge ou si elle est emportée, et qu’elle peut se tromper.",
+   "conclusionQuestion": "Mais qui nous dira, le jour où nous voudrons rompre, si c’est la raison ou la sirène qui parle ?",
+   "economy": {
+    "words": 1098,
+    "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
+   },
+   "review": {
+    "author": "Protocole V16.1-exp (rédaction assistée) ; relecture à effectuer",
+    "status": "propose",
+    "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
+   },
+   "copySha256": "ed0b72b667cab4816723a2c75d4e91305a0649ae9a175a7ac613e1bf3679fa8e",
+   "protocol": "V16.1-exp"
+  },
+  "notion-raison": {
+   "subject": "Suffit-il d’avoir raison pour convaincre ?",
+   "requirements": [
+    "Être produite par des raisons",
+    "Être l’adhésion propre de l’autre"
+   ],
+   "scene": {
+    "source": "En 1847, à Vienne, le médecin Ignace Semmelweis impose à ses étudiants de se laver les mains avant d’examiner les accouchées : la mortalité par fièvre puerpérale s’effondre.",
+    "analysis": "Ignace Semmelweis, Vienne, 1847 : l’obligation de se laver les mains au chlorure de chaux fait chuter la mortalité par fièvre puerpérale ; ses collègues ne sont pas convaincus ; il publie tard (1861), invective ses contradicteurs, et meurt en 1865. Verdict : homologue. Retour : ce qui a manqué n’est ni la vérité ni l’éloquence, mais l’examen des autres.",
+    "review": "Scène reprise de la copie V16 ; vérifier les dates et les chiffres avant publication."
+   },
+   "candidates": [
+    {
+     "id": "retenue",
+     "proposal": "Il ne suffit donc pas d’avoir raison pour convaincre : il faut encore mettre l’autre en état de refaire le raisonnement, et qu’il le veuille.",
+     "cost": "Conserve les deux acquis, explique l’échec de Semmelweis et celui de la rhétorique.",
+     "remainingProblem": "Mais que faire quand l’épidémie n’attend pas que chacun ait examiné ?",
+     "preserves": [
+      "Être produite par des raisons",
+      "Être l’adhésion propre de l’autre"
+     ]
+    },
+    {
+     "id": "cumul",
+     "proposal": "Avoir raison et savoir parler.",
+     "cost": "C’est le cumul : il obtient l’adhésion, non la conviction.",
+     "remainingProblem": "C’est le cumul : il obtient l’adhésion, non la conviction.",
+     "preserves": [
+      "C’est le cumul : il obtient l’adhésion, non la conviction."
+     ]
+    },
+    {
+     "id": "droit",
+     "proposal": "Avoir raison suffit en droit, non en fait.",
+     "cost": "C’est la conciliation, qui ne dit pas ce qui manque en fait.",
+     "remainingProblem": "C’est la conciliation, qui ne dit pas ce qui manque en fait.",
+     "preserves": [
+      "C’est la conciliation, qui ne dit pas ce qui manque en fait."
+     ]
+    },
+    {
+     "id": "temps",
+     "proposal": "La vérité finit par convaincre avec le temps.",
+     "cost": "Constat parfois vrai, sans explication de ce qui convainc.",
+     "remainingProblem": "Constat parfois vrai, sans explication de ce qui convainc.",
+     "preserves": [
+      "Constat parfois vrai, sans explication de ce qui convainc."
+     ]
+    }
+   ],
+   "selected": "retenue",
+   "comparison": "Retenue : Conserve les deux acquis, explique l’échec de Semmelweis et celui de la rhétorique. Écartées ou dominées : C’est le cumul : il obtient l’adhésion, non la conviction. C’est la conciliation, qui ne dit pas ce qui manque en fait. Constat parfois vrai, sans explication de ce qui convainc.",
+   "strongestObjection": "la démonstration mathématique, qui convainc sans art ; elle convainc celui qui la refait : confirme D.",
+   "responseToObjection": "survit.",
+   "residual": "Reste qu’un tel examen demande du temps, et qu’il faut parfois agir avant que chacun ait pu le faire, au risque de persuader faute de pouvoir convaincre.",
+   "conclusionQuestion": "Mais que faire quand l’épidémie n’attend pas que chacun ait examiné ?",
+   "economy": {
+    "words": 1071,
+    "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
+   },
+   "review": {
+    "author": "Protocole V16.1-exp (rédaction assistée) ; relecture à effectuer",
+    "status": "propose",
+    "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
+   },
+   "copySha256": "1fe0531cff9867c58ccd3223b5c37afca075b9af1c1266a37d8c7b8bb8aead4c",
+   "protocol": "V16.1-exp"
+  },
+  "notion-technique": {
+   "subject": "Ce qui est techniquement possible est-il toujours souhaitable ?",
+   "requirements": [
+    "Accroître notre pouvoir",
+    "Que ce pouvoir reste le nôtre : pouvoir ne pas l’exercer"
+   ],
+   "scene": {
+    "source": "En novembre 2018, le biologiste He Jiankui annonce la naissance de deux jumelles dont il a modifié le génome pour les protéger du virus du sida.",
+    "analysis": "Novembre 2018 : He Jiankui annonce la naissance de jumelles dont il a modifié le génome pour les protéger du VIH ; condamnation unanime, puis peine de prison en Chine (2019). Verdict : homologue. Retour : le jugement porte sur la transmission, non sur un effet constaté.",
+    "review": "Scène reprise de la copie V16 ; vérifier les dates et les chiffres avant publication."
+   },
+   "candidates": [
+    {
+     "id": "retenue",
+     "proposal": "Ce qui est techniquement possible n’est donc pas toujours souhaitable : l’est celui dont l’usage laisse à ceux qu’il engage le pouvoir de le juger et d’y renoncer.",
+     "cost": "Applicable avant les effets, conserve les deux acquis, décide le cas des embryons.",
+     "remainingProblem": "Mais que faire quand s’abstenir est, à son tour, une décision sans retour ?",
+     "preserves": [
+      "Accroître notre pouvoir",
+      "Que ce pouvoir reste le nôtre : pouvoir ne pas l’exercer"
+     ]
+    },
+    {
+     "id": "neutralite",
+     "proposal": "Le possible est neutre, seul l’usage est bon ou mauvais.",
+     "cost": "C’est la conciliation, qui échoue quand le possible est déjà un usage.",
+     "remainingProblem": "C’est la conciliation, qui échoue quand le possible est déjà un usage.",
+     "preserves": [
+      "C’est la conciliation, qui échoue quand le possible est déjà un usage."
+     ]
+    },
+    {
+     "id": "precaution",
+     "proposal": "Dans le doute, s’abstenir.",
+     "cost": "Interdirait aussi les techniques qui sauvent ; rechute dans la seconde réponse.",
+     "remainingProblem": "Interdirait aussi les techniques qui sauvent ; rechute dans la seconde réponse.",
+     "preserves": [
+      "Interdirait aussi les techniques qui sauvent ; rechute dans la seconde réponse."
+     ]
+    },
+    {
+     "id": "fins",
+     "proposal": "Un possible est souhaitable s’il sert une fin bonne.",
+     "cost": "La fin bonne de 2018 (protéger du VIH) ne suffisait pas ; il faut juger aussi la manière.",
+     "remainingProblem": "La fin bonne de 2018 (protéger du VIH) ne suffisait pas ; il faut juger aussi la manière.",
+     "preserves": [
+      "La fin bonne de 2018 (protéger du VIH) ne suffisait pas ; il faut juger aussi la manière."
+     ]
+    }
+   ],
+   "selected": "retenue",
+   "comparison": "Retenue : Applicable avant les effets, conserve les deux acquis, décide le cas des embryons. Écartées ou dominées : C’est la conciliation, qui échoue quand le possible est déjà un usage. Interdirait aussi les techniques qui sauvent ; rechute dans la seconde réponse. La fin bonne de 2018 (protéger du VIH) ne suffisait pas ; il faut juger aussi la manière.",
+   "strongestObjection": "le vaccin, possible souhaitable ; il confirme que le non porte sur certains possibles.",
+   "responseToObjection": "survit.",
+   "residual": "Reste le cas où renoncer à un possible est lui-même irréversible, comme lorsqu’on laisse mourir ceux qu’il aurait sauvés.",
+   "conclusionQuestion": "Mais que faire quand s’abstenir est, à son tour, une décision sans retour ?",
+   "economy": {
+    "words": 1091,
+    "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
+   },
+   "review": {
+    "author": "Protocole V16.1-exp (rédaction assistée) ; relecture à effectuer",
+    "status": "propose",
+    "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
+   },
+   "copySha256": "9b2ffb95a34c2171c243f68485bcdd4adc8c05c8e3b2495263b2280ac2a65626",
+   "protocol": "V16.1-exp"
+  },
+  "notion-temps": {
+   "subject": "Le temps est-il nécessairement destructeur ?",
+   "requirements": [
+    "Faire passer toute chose",
+    "Être la durée où les choses se font"
+   ],
+   "scene": {
+    "source": "Au Japon, le grand sanctuaire d’Ise est fait d’un bois de cyprès qui pourrit en quelques décennies.",
+    "analysis": "Sanctuaire d’Ise (Japon), reconstruit à l’identique tous les vingt ans depuis la fin du VIIe siècle (dernière reconstruction en 2013). Verdict : homologue. Retour : ce n’est pas le temps qui a détruit ni conservé, c’est la pourriture et la reconstruction.",
+    "review": "Scène reprise de la copie V16 ; vérifier les dates et les chiffres avant publication."
+   },
+   "candidates": [
+    {
+     "id": "retenue",
+     "proposal": "Le temps n’est donc pas nécessairement destructeur : la destruction n’est nécessaire que pour ce qu’aucune activité n’entretient.",
+     "cost": "Conserve les deux acquis, explique pourquoi on accusait le temps, décide le cas d’Ise.",
+     "remainingProblem": "Mais qu’en est-il de nous, que nulle reconstruction ne peut rendre à notre jeunesse ?",
+     "preserves": [
+      "Faire passer toute chose",
+      "Être la durée où les choses se font"
+     ]
+    },
+    {
+     "id": "partage",
+     "proposal": "Il détruit les unes, construit les autres.",
+     "cost": "C’est le cumul : il garde l’idée d’un temps agent.",
+     "remainingProblem": "C’est le cumul : il garde l’idée d’un temps agent.",
+     "preserves": [
+      "C’est le cumul : il garde l’idée d’un temps agent."
+     ]
+    },
+    {
+     "id": "distinctions",
+     "proposal": "Distinguer l’état, l’être et la cause.",
+     "cost": "Ressource de la version V7.4, reprise ici, mais sans dire ce qui agit.",
+     "remainingProblem": "Ressource de la version V7.4, reprise ici, mais sans dire ce qui agit.",
+     "preserves": [
+      "Ressource de la version V7.4, reprise ici, mais sans dire ce qui agit."
+     ]
+    },
+    {
+     "id": "memoire",
+     "proposal": "La mémoire sauve ce que le temps détruit.",
+     "cost": "Un cas de l’activité qui entretient ; ne vaut pas pour les choses.",
+     "remainingProblem": "Un cas de l’activité qui entretient ; ne vaut pas pour les choses.",
+     "preserves": [
+      "Un cas de l’activité qui entretient ; ne vaut pas pour les choses."
+     ]
+    }
+   ],
+   "selected": "retenue",
+   "comparison": "Retenue : Conserve les deux acquis, explique pourquoi on accusait le temps, décide le cas d’Ise. Écartées ou dominées : C’est le cumul : il garde l’idée d’un temps agent. Ressource de la version V7.4, reprise ici, mais sans dire ce qui agit. Un cas de l’activité qui entretient ; ne vaut pas pour les choses.",
+   "strongestObjection": "la pierre qui dure sans entretien ; elle s’use pourtant, plus lentement : confirme que l’usure dépend de processus.",
+   "responseToObjection": "survit.",
+   "residual": "Reste ce qu’aucune activité ne peut entretenir indéfiniment : le vivant lui-même, qui vieillit quoi qu’il fasse.",
+   "conclusionQuestion": "Mais qu’en est-il de nous, que nulle reconstruction ne peut rendre à notre jeunesse ?",
+   "economy": {
+    "words": 1032,
+    "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
+   },
+   "review": {
+    "author": "Protocole V16.1-exp (rédaction assistée) ; relecture à effectuer",
+    "status": "propose",
+    "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
+   },
+   "copySha256": "181cfc88147cb13972bef67e4b282b589e53fab970a68a44ef5bbb0aef90581e",
+   "protocol": "V16.1-exp"
+  },
+  "notion-travail": {
+   "subject": "Le travail nous rend-il plus humain ?",
+   "requirements": [
+    "Former celui qui l’accomplit",
+    "Le laisser maître de ce qu’il fait"
+   ],
+   "scene": {
+    "source": "Au début des années 1930, la filature qui faisait vivre le village de Marienthal, en Autriche, ferme ses portes, et presque tous les hommes se retrouvent sans travail.",
+    "analysis": "Marienthal (Autriche) : la fermeture de la filature en 1929-1930 laisse presque tout le village sans travail ; l’enquête de Jahoda, Lazarsfeld et Zeisel (1933) observe des hommes qui marchent plus lentement, ne portent plus de montre, empruntent moins de livres à la bibliothèque pourtant gratuite. Verdict : homologue. Retour : ce que la fermeture a ôté.",
+    "review": "Scène reprise de la copie V16 ; vérifier les dates et les chiffres avant publication."
+   },
+   "candidates": [
+    {
+     "id": "retenue",
+     "proposal": "Le travail nous rend donc plus humains dans la mesure où il joint l’exercice du jugement à une utilité reconnue par d’autres ; il ne le fait pas par lui-même, et il nous diminue quand il nous ôte l’un ou l’autre.",
+     "cost": "Explique à la fois l’asservissement et le chômage ; décide le cas de Marienthal.",
+     "remainingProblem": "Mais où trouverons-nous cette place, si les navettes finissent par tisser d’elles-mêmes ?",
+     "preserves": [
+      "Former celui qui l’accomplit",
+      "Le laisser maître de ce qu’il fait"
+     ]
+    },
+    {
+     "id": "partage",
+     "proposal": "Certains travaux humanisent, d’autres non.",
+     "cost": "C’est la conciliation, qui ne sait où ranger la filature.",
+     "remainingProblem": "C’est la conciliation, qui ne sait où ranger la filature.",
+     "preserves": [
+      "C’est la conciliation, qui ne sait où ranger la filature."
+     ]
+    },
+    {
+     "id": "loisir",
+     "proposal": "L’homme s’humanise dans le loisir, que le travail rend possible.",
+     "cost": "Marienthal montre que le loisir forcé ne humanise pas.",
+     "remainingProblem": "Marienthal montre que le loisir forcé ne humanise pas.",
+     "preserves": [
+      "Marienthal montre que le loisir forcé ne humanise pas."
+     ]
+    },
+    {
+     "id": "condition",
+     "proposal": "Le travail humanise s’il est librement choisi.",
+     "cost": "Une condition qui aide, mais n’explique pas ce que perd le chômeur.",
+     "remainingProblem": "Une condition qui aide, mais n’explique pas ce que perd le chômeur.",
+     "preserves": [
+      "Une condition qui aide, mais n’explique pas ce que perd le chômeur."
+     ]
+    }
+   ],
+   "selected": "retenue",
+   "comparison": "Retenue : Explique à la fois l’asservissement et le chômage ; décide le cas de Marienthal. Écartées ou dominées : C’est la conciliation, qui ne sait où ranger la filature. Marienthal montre que le loisir forcé ne humanise pas. Une condition qui aide, mais n’explique pas ce que perd le chômeur.",
+   "strongestObjection": "le bénévole, qui travaille sans contrainte ; il confirme D (utilité pour d’autres).",
+   "responseToObjection": "survit.",
+   "residual": "Reste à savoir ce que deviendra cette part humaine si les machines rendent inutile la plupart des travaux, comme Aristote l’imaginait déjà : « si, de même, les navettes tissaient d’elles-mêmes et les plectres jouaient tout seuls de la cithare, alors les ingénieurs n’auraient pas besoin d’exécutants ni les maîtres d’esclaves ».",
+   "conclusionQuestion": "Mais où trouverons-nous cette place, si les navettes finissent par tisser d’elles-mêmes ?",
+   "economy": {
+    "words": 1104,
+    "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
+   },
+   "review": {
+    "author": "Protocole V16.1-exp (rédaction assistée) ; relecture à effectuer",
+    "status": "propose",
+    "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
+   },
+   "copySha256": "b02b6d0be8af891938ae930803be12afac90142dd3af2bd2c6a9d3564e5470d9",
+   "protocol": "V16.1-exp"
+  },
+  "notion-verite": {
+   "subject": "Toute vérité est-elle bonne à dire ?",
+   "requirements": [
+    "Ne pas tromper",
+    "Éclairer celui à qui l’on parle"
+   ],
+   "scene": {
+    "source": "À l’automne 1963, la mère de Simone de Beauvoir est opérée d’un cancer ; ses filles et les médecins conviennent de lui laisser croire à une péritonite.",
+    "analysis": "Simone de Beauvoir, Une mort très douce (1964) : à l’automne 1963, sa mère est opérée d’un cancer ; ses filles et les médecins lui laissent croire à une péritonite. Paraphrase seulement. Le droit du malade à être informé, et à ne pas l’être, est inscrit dans la loi du 4 mars 2002. Verdict : homologue. Retour : à qui appartenait la vérité.",
+    "review": "Scène reprise de la copie V16 ; vérifier les dates et les chiffres avant publication."
+   },
+   "candidates": [
+    {
+     "id": "retenue",
+     "proposal": "Toute vérité n’est donc pas bonne à dire ; mais celle qui concerne la vie d’un autre est bonne à lui offrir, et c’est à lui de la recevoir ou non.",
+     "cost": "Décide le cas, conserve les deux acquis, explique les deux arrêts.",
+     "remainingProblem": "Mais qui décidera pour celui qui ne peut plus rien demander ?",
+     "preserves": [
+      "Ne pas tromper",
+      "Éclairer celui à qui l’on parle"
+     ]
+    },
+    {
+     "id": "menagement",
+     "proposal": "Tout dire, mais avec ménagement.",
+     "cost": "C’est la conciliation : la manière ne décide pas s’il faut dire.",
+     "remainingProblem": "C’est la conciliation : la manière ne décide pas s’il faut dire.",
+     "preserves": [
+      "C’est la conciliation : la manière ne décide pas s’il faut dire."
+     ]
+    },
+    {
+     "id": "utilite",
+     "proposal": "Une vérité est bonne à dire si elle sert à celui qui l’entend.",
+     "cost": "Retombe sur la seconde réponse : qui juge de ce qui sert ?",
+     "remainingProblem": "Retombe sur la seconde réponse : qui juge de ce qui sert ?",
+     "preserves": [
+      "Retombe sur la seconde réponse : qui juge de ce qui sert ?"
+     ]
+    },
+    {
+     "id": "kant",
+     "proposal": "Le devoir de vérité l’emporte toujours.",
+     "cost": "Rechute dans la première réponse ; confond ne pas mentir et tout dire.",
+     "remainingProblem": "Rechute dans la première réponse ; confond ne pas mentir et tout dire.",
+     "preserves": [
+      "Rechute dans la première réponse ; confond ne pas mentir et tout dire."
+     ]
+    }
+   ],
+   "selected": "retenue",
+   "comparison": "Retenue : Décide le cas, conserve les deux acquis, explique les deux arrêts. Écartées ou dominées : C’est la conciliation : la manière ne décide pas s’il faut dire. Retombe sur la seconde réponse : qui juge de ce qui sert ? Rechute dans la première réponse ; confond ne pas mentir et tout dire.",
+   "strongestObjection": "le secret confié, qu’on a raison de taire ; il confirme le non sans régler le cas.",
+   "responseToObjection": "survit.",
+   "residual": "Reste le cas de ceux qui ne peuvent ni demander ni refuser, l’enfant, le malade qui n’a plus sa conscience, et pour qui d’autres doivent bien décider.",
+   "conclusionQuestion": "Mais qui décidera pour celui qui ne peut plus rien demander ?",
+   "economy": {
+    "words": 1053,
+    "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
+   },
+   "review": {
+    "author": "Protocole V16.1-exp (rédaction assistée) ; relecture à effectuer",
+    "status": "propose",
+    "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
+   },
+   "copySha256": "b2b0161764ade763b8550de1d53187f0ab6ee1853ac15b03bbb5c28ecf81c310",
+   "protocol": "V16.1-exp"
+  },
+  "2025-me-verite": {
+   "subject": "La vérité est-elle toujours convaincante ?",
+   "subjectVerification": {
+    "code": "25-PHGEME1",
+    "page": 2,
+    "date": "2026-10-11",
+    "title": "La vérité est-elle toujours convaincante ?",
+    "sourceDocument": "Document officiel de la session 2025, libellé contrôlé page 2 ; index ministériel lié dans la page."
+   },
+   "requirements": [
+    "S’imposer par ses raisons",
+    "Être reconnue par d’autres esprits"
+   ],
+   "scene": {
+    "source": "En 1915, Alfred Wegener soutient que les continents dérivent : les côtes de l’Afrique et de l’Amérique du Sud s’emboîtent, les mêmes fossiles se retrouvent de part et d’autre de l’Atlantique.",
+    "analysis": "Alfred Wegener propose en 1912-1915 la dérive des continents ; la communauté géologique la rejette, lui préférant des ponts continentaux engloutis ; il meurt au Groenland en 1930 ; la tectonique des plaques s’impose dans les années 1960 grâce au paléomagnétisme des fonds océaniques. Verdict : homologue. Retour : la vérité a convaincu en rendant l’erreur corrigible.",
+    "review": "Scène reprise de la copie V16 ; vérifier les dates et les chiffres avant publication."
+   },
+   "candidates": [
+    {
+     "id": "retenue",
+     "proposal": "La vérité n’est donc pas toujours convaincante ; mais elle seule rend une conviction corrigible, et c’est par là qu’elle finit par convaincre, quand demeurent les traces qui permettent de l’éprouver.",
+     "cost": "Conserve les deux acquis, explique l’autorité des preuves, décide le cas de Wegener.",
+     "remainingProblem": "Mais que devient une vérité dont plus rien ne garde la trace ?",
+     "preserves": [
+      "S’imposer par ses raisons",
+      "Être reconnue par d’autres esprits"
+     ]
+    },
+    {
+     "id": "droit",
+     "proposal": "Convaincante en droit, pas toujours en fait.",
+     "cost": "C’est la conciliation, qui échoue sur Wegener.",
+     "remainingProblem": "C’est la conciliation, qui échoue sur Wegener.",
+     "preserves": [
+      "C’est la conciliation, qui échoue sur Wegener."
+     ]
+    },
+    {
+     "id": "rectification",
+     "proposal": "La vérité est la norme de la rectification publique des raisons.",
+     "cost": "Voisine de la retenue, mais met l’accent sur la procédure plus que sur la dépendance ; ressource de la version V7.4.",
+     "remainingProblem": "Voisine de la retenue, mais met l’accent sur la procédure plus que sur la dépendance ; ressource de la version V7.4.",
+     "preserves": [
+      "Voisine de la retenue, mais met l’accent sur la procédure plus que sur la dépendance ; ressource de la version V7.4."
+     ]
+    },
+    {
+     "id": "condition",
+     "proposal": "La vérité convainc quand l’auditeur examine.",
+     "cost": "Wegener fut examiné par des savants compétents ; l’examen ne suffisait pas sans preuve.",
+     "remainingProblem": "Wegener fut examiné par des savants compétents ; l’examen ne suffisait pas sans preuve.",
+     "preserves": [
+      "Wegener fut examiné par des savants compétents ; l’examen ne suffisait pas sans preuve."
+     ]
+    }
+   ],
+   "selected": "retenue",
+   "comparison": "Retenue : Conserve les deux acquis, explique l’autorité des preuves, décide le cas de Wegener. Écartées ou dominées : C’est la conciliation, qui échoue sur Wegener. Voisine de la retenue, mais met l’accent sur la procédure plus que sur la dépendance ; ressource de la version V7.4. Wegener fut examiné par des savants compétents ; l’examen ne suffisait pas sans preuve.",
+   "strongestObjection": "une vérité évidente (2 + 2 = 4) ; elle confirme XA.",
+   "responseToObjection": "survit.",
+   "residual": "Reste le cas des vérités dont toutes les traces ont disparu, et que rien ne pourra plus jamais éprouver.",
+   "conclusionQuestion": "Mais que devient une vérité dont plus rien ne garde la trace ?",
+   "economy": {
+    "words": 1099,
+    "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
+   },
+   "review": {
+    "author": "Protocole V16.1-exp (rédaction assistée) ; relecture à effectuer",
+    "status": "propose",
+    "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
+   },
+   "copySha256": "02443ea84479d0716abae0d1bb4e4a71609fad6fd2f76fc72527c3b8c42bda59",
+   "protocol": "V16.1-exp"
+  },
+  "2025-me-avenir-technique": {
+   "subject": "Notre avenir dépend-il de la technique ?",
+   "subjectVerification": {
+    "code": "25-PHGEME1",
+    "page": 2,
+    "date": "2026-10-11",
+    "title": "Notre avenir dépend-il de la technique ?",
+    "sourceDocument": "Document officiel de la session 2025, libellé contrôlé page 2 ; index ministériel lié dans la page."
+   },
+   "requirements": [
+    "Être rendu possible par des moyens",
+    "Rester le nôtre : choisi"
+   ],
+   "scene": {
+    "source": "En 1974, deux chimistes montrent que les gaz des bombes aérosols et des réfrigérateurs détruisent la couche d’ozone ; en 1987, le protocole de Montréal décide de les interdire, et la couche se reconstitue lentement.",
+    "analysis": "1974 : Molina et Rowland montrent que les CFC détruisent l’ozone ; 1985 : découverte du trou au-dessus de l’Antarctique ; 1987 : protocole de Montréal. Dans les mêmes décennies, la hausse du CO2, mesurée depuis 1958, n’est pas enrayée malgré les engagements pris depuis 1992. Verdict : homologue. Retour : le moment où la technique est devenue milieu.",
+    "review": "Scène reprise de la copie V16 ; vérifier les dates et les chiffres avant publication."
+   },
+   "candidates": [
+    {
+     "id": "retenue",
+     "proposal": "Notre avenir dépend donc de la technique dans la mesure où nous laissons ses choix devenir le milieu de nos vies ; il dépend de nous tant que nous décidons avant.",
+     "cost": "Explique le contraste entre l’ozone et le climat, conserve les deux acquis.",
+     "remainingProblem": "Mais comment décider à temps, quand on ne sait ce qu’est une technique qu’une fois qu’elle est partout ?",
+     "preserves": [
+      "Être rendu possible par des moyens",
+      "Rester le nôtre : choisi"
+     ]
+    },
+    {
+     "id": "partage",
+     "proposal": "La technique pour les moyens, nous pour les fins.",
+     "cost": "C’est la conciliation ; elle n’explique pas le climat.",
+     "remainingProblem": "C’est la conciliation ; elle n’explique pas le climat.",
+     "preserves": [
+      "C’est la conciliation ; elle n’explique pas le climat."
+     ]
+    },
+    {
+     "id": "mediateur",
+     "proposal": "Des institutions d’évaluation des techniques relient savoir technique et décision.",
+     "cost": "Utile, mais ne dit pas pourquoi certaines décisions échouent.",
+     "remainingProblem": "Utile, mais ne dit pas pourquoi certaines décisions échouent.",
+     "preserves": [
+      "Utile, mais ne dit pas pourquoi certaines décisions échouent."
+     ]
+    },
+    {
+     "id": "fatalisme",
+     "proposal": "La technique l’emporte toujours à la fin.",
+     "cost": "Démenti par Montréal ; rechute dans une première réponse radicalisée.",
+     "remainingProblem": "Démenti par Montréal ; rechute dans une première réponse radicalisée.",
+     "preserves": [
+      "Démenti par Montréal ; rechute dans une première réponse radicalisée."
+     ]
+    }
+   ],
+   "selected": "retenue",
+   "comparison": "Retenue : Explique le contraste entre l’ozone et le climat, conserve les deux acquis. Écartées ou dominées : C’est la conciliation ; elle n’explique pas le climat. Utile, mais ne dit pas pourquoi certaines décisions échouent. Démenti par Montréal ; rechute dans une première réponse radicalisée.",
+   "strongestObjection": "la renonciation au Concorde, décision qui l’emporte ; elle portait sur un moyen remplaçable : confirme D.",
+   "responseToObjection": "survit.",
+   "residual": "Reste qu’on ne connaît bien une technique qu’une fois répandue, c’est-à-dire au moment où il devient difficile d’en décider.",
+   "conclusionQuestion": "Mais comment décider à temps, quand on ne sait ce qu’est une technique qu’une fois qu’elle est partout ?",
+   "economy": {
+    "words": 1141,
+    "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
+   },
+   "review": {
+    "author": "Protocole V16.1-exp (rédaction assistée) ; relecture à effectuer",
+    "status": "propose",
+    "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
+   },
+   "copySha256": "688007a54a32deaf1785d052fa402f9c76b11b26804f4d3413b3cb32071f9ec5",
+   "protocol": "V16.1-exp"
+  },
+  "2025-me-besoin-art": {
+   "subject": "Avons-nous besoin d’art ?",
+   "subjectVerification": {
+    "code": "25-PHTEME1",
+    "page": 2,
+    "date": "2026-10-11",
+    "title": "Avons-nous besoin d’art ?",
+    "sourceDocument": "Document officiel de la session 2025, libellé contrôlé page 2 ; index ministériel lié dans la page."
+   },
+   "requirements": [
+    "Répondre à un manque réel",
+    "Rester l’affaire d’un goût libre"
+   ],
+   "scene": {
+    "source": "En 1943, dans le ghetto de Terezín, le chef de chœur Rafael Schächter fait répéter le Requiem de Verdi à des prisonniers affamés, avec une seule partition et un piano sans pieds.",
+    "analysis": "Terezín (Theresienstadt), 1943-1944 : le chef de chœur Rafael Schächter fait répéter le Requiem de Verdi à des prisonniers, qui le chantent seize fois ; le chœur est sans cesse décimé par les déportations ; la dernière représentation, en juin 1944, est donnée devant une délégation de la Croix-Rouge que les nazis veulent tromper. Verdict : homologue. Retour : ce que le chant faisait que rien d’autre ne faisait, et ce qu’on en a fait.",
+    "review": "Scène reprise de la copie V16 ; vérifier les dates et les chiffres avant publication."
+   },
+   "candidates": [
+    {
+     "id": "retenue",
+     "proposal": "Nous avons donc besoin d’art, non pour vivre ni pour comprendre ce que d’autres paroles comprennent aussi, mais pour partager ce qu’aucun concept ne fixe.",
+     "cost": "Dit ce que l’art seul accomplit, conserve les deux acquis, décide Terezín.",
+     "remainingProblem": "Mais une œuvre qui laisse son sens ouvert peut-elle se défendre contre ceux qui s’en servent pour mentir ?",
+     "preserves": [
+      "Répondre à un manque réel",
+      "Rester l’affaire d’un goût libre"
+     ]
+    },
+    {
+     "id": "partage",
+     "proposal": "Pas pour vivre, mais pour bien vivre.",
+     "cost": "C’est la conciliation, qui échoue sur Terezín.",
+     "remainingProblem": "C’est la conciliation, qui échoue sur Terezín.",
+     "preserves": [
+      "C’est la conciliation, qui échoue sur Terezín."
+     ]
+    },
+    {
+     "id": "liberte",
+     "proposal": "Nous avons besoin d’art pour rester libres.",
+     "cost": "Vrai de certains usages, mais ne dit pas ce que l’art seul fait.",
+     "remainingProblem": "Vrai de certains usages, mais ne dit pas ce que l’art seul fait.",
+     "preserves": [
+      "Vrai de certains usages, mais ne dit pas ce que l’art seul fait."
+     ]
+    },
+    {
+     "id": "divertissement",
+     "proposal": "L’art répond au besoin de se divertir.",
+     "cost": "Explique le loisir, non le Requiem.",
+     "remainingProblem": "Explique le loisir, non le Requiem.",
+     "preserves": [
+      "Explique le loisir, non le Requiem."
+     ]
+    }
+   ],
+   "selected": "retenue",
+   "comparison": "Retenue : Dit ce que l’art seul accomplit, conserve les deux acquis, décide Terezín. Écartées ou dominées : C’est la conciliation, qui échoue sur Terezín. Vrai de certains usages, mais ne dit pas ce que l’art seul fait. Explique le loisir, non le Requiem.",
+   "strongestObjection": "des sociétés sans art distinct ; elles ont des chants, des ornements : confirme XB.",
+   "responseToObjection": "survit.",
+   "residual": "Reste que la même forme peut être détournée : la dernière représentation fut donnée devant une délégation de la Croix-Rouge que les nazis voulaient tromper.",
+   "conclusionQuestion": "Mais une œuvre qui laisse son sens ouvert peut-elle se défendre contre ceux qui s’en servent pour mentir ?",
+   "economy": {
+    "words": 1048,
+    "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
+   },
+   "review": {
+    "author": "Protocole V16.1-exp (rédaction assistée) ; relecture à effectuer",
+    "status": "propose",
+    "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
+   },
+   "copySha256": "e030832fa62fb85824e252ba7e9eb3dd40e5b8ce5cb2c152ad29b5ecb8dac379",
+   "protocol": "V16.1-exp"
   }
+ }
 }
