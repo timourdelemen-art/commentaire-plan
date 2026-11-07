@@ -14,7 +14,7 @@ for k,c in COPIES.items():
     for h,b in c['blocks']:
         inner=(f'<h3 class="c20-h">{h}</h3>' if h else '')+''.join(f'<p class="c20-s"><span class="c20-t">{t}</span><span class="c20-f">{l}</span></p>' for t,l in b)
         blocks+=f'<div class="c20-block">{inner}</div>'
-    pdf=f'<br><a class="official-link" href="{c["pdf"]}" rel="noopener">Le sujet officiel (PDF) →</a>' if c['pdf'] else '<br><span class="micro">Libellé vérifié sur deux copies du sujet officiel.</span>'
+    pdf=f'<br><a class="official-link" href="{c["pdf"]}" rel="noopener">Le sujet officiel (PDF) →</a>' if c['pdf'] else '<br><span class="micro">Sujet d’annales.</span>'
     why=''.join(f'<div><strong>{a}</strong><p>{b}</p></div>' for a,b in c['why'])
     title=f"Dissertation à 20 sur Pour un oui ou pour un non de Sarraute : {plain(c['titre'])}"
     desc=f"Une dissertation qui mérite 20 sur un vrai sujet du bac de français : {html.escape(plain(c['sujet']))} La fonction de chaque phrase."
