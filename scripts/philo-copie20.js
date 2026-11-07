@@ -38,6 +38,33 @@ const renderCopy=(d,tag)=>d.map(([heading,sentences])=>{
   ).join('');
   return block(heading,body,tag)+bridge;
 }).join('');
+
+// Exercice relié à la copie : retrouver les possibilités découvertes avant de lire leur formulation.
+function openingExercise(copy, key) {
+  const names = ['Première partie', 'Deuxième partie', 'Troisième partie'];
+  const markers = [/Ce que la preuve ouvre/, /La possibilité que la seconde preuve révèle/, /Ce que la transformation fait comprendre/];
+  const discovered = names.map((name, i) => {
+    const P = ['I','II','III'][i];
+    const pair = (copy[i+1]?.[1] || []).find(([, fn]) => fn.startsWith(P+'.2') && markers[i].test(fn));
+    return {name, text:pair?.[0] || ''};
+  });
+  if (discovered.some(d => !d.text)) throw new Error('Découverte non retrouvée dans la copie : ' + key);
+  const answers = discovered.map(d => '<p><strong>'+esc(d.name)+' :</strong> '+esc(d.text)+'</p>').join('');
+  return '<section class="offer-band c20-opening-work" id="decouvertes-'+esc(key)+'">'+
+    '<div class="kicker">EXERCICE · PENSER AUTREMENT</div>'+
+    '<h2>Trois possibilités que la dissertation rend accessibles</h2>'+
+    '<p>Cachez la copie, puis écrivez vos réponses avant d’ouvrir l’aide.</p>'+
+    '<ol>'+
+    '<li>Après la première partie, écrivez en une phrase ce que la démonstration permet de comprendre au-delà de l’opinion de départ.</li>'+
+    '<li>Après la deuxième partie, écrivez en une phrase ce que l’autre point de vue révèle et que le premier ne montrait pas.</li>'+
+    '<li>Après la troisième partie, expliquez en une phrase ce que la nouvelle manière de poser la question permet d’établir.</li>'+
+    '<li>Reprenez les fins des parties I et II. Dites en deux phrases pourquoi chaque découverte reste limitée et ce que la transition vous oblige à examiner ensuite.</li>'+
+    '</ol>'+
+    '<details><summary>Comparer avec les trois découvertes de la copie</summary>'+answers+
+    '<p>Vérifiez ensuite : la difficulté finale d’une partie détermine ce que sa preuve ne démontre pas ; la transition formule le travail qui devient nécessaire.</p></details>'+
+    '</section>';
+}
+
 const BRIDGE_CSS='<style>.c20-subhead{margin:1.2rem 0 .4rem;font-size:.85rem;font-weight:700;letter-spacing:.02em;color:var(--muted,#666)}.c20-bridge{clear:both;margin:1.6rem 0;padding:1rem 1.15rem;border-block:1px solid currentColor}.c20-bridge-label{font-size:.75rem;font-weight:700;letter-spacing:.08em;margin:0 0 .65rem}.c20-bridge .c20-s{margin-bottom:0}</style>';
 const stats=d=>({n:d.reduce((a,[,ss])=>a+ss.length,0),w:d.reduce((a,[,ss])=>a+ss.reduce((b,[t])=>b+t.split(/\s+/).length,0),0)});
 const TOGGLE=`<script>document.querySelectorAll('.c20-toggle').forEach(function(b){b.addEventListener('click',function(){var c=document.getElementById(b.getAttribute('aria-controls'));c.classList.toggle('c20-plain');b.textContent=c.classList.contains('c20-plain')?'Afficher les fonctions':'Masquer les fonctions';});});</script>`;
@@ -50,6 +77,7 @@ function section(key){
 <p><button type="button" class="philo-print c20-toggle" aria-controls="c20-${key}">Masquer les fonctions</button></p>
 <div class="c20" id="c20-${key}">${renderCopy(d,'h3')}</div>
 </section>
+${openingExercise(d,key)}
 ${BRIDGE_CSS}
 ${TOGGLE}
 `;
@@ -72,6 +100,7 @@ ${meta?`<p class="micro">${esc(meta.exam)} · ${esc(meta.code)} · <a class="off
 <p class="lede">Le devoir le plus court qui mérite 20 : ${n} segments annotés, environ ${Math.round(w/10)*10} mots. Chaque segment a sa fonction dans le plan ; elle est écrite en marge, avec, aux charnières, le rôle du lien logique.</p>
 </div><aside class="side-note"><p><strong>Comment lire ?</strong><br>D’abord avec les fonctions, pour voir la machine. Puis sans, pour voir que c’est une vraie copie.</p><p><button type="button" class="philo-print c20-toggle" aria-controls="c20-vitrine">Masquer les fonctions</button></p></aside></section>
 <section class="offer-band c20" id="c20-vitrine">${renderCopy(d,'h2')}</section>
+${openingExercise(d,key)}
 <section class="offer-band"><div class="kicker">POURQUOI CETTE COPIE MÉRITE 20</div><h2>Rien n’y est décoratif.</h2>
 <div class="grid-3"><div><strong>Un problème réel</strong><p>Les deux réponses perdent quelque chose, et la problématique le dit en une seule question.</p></div><div><strong>Un plan qui avance</strong><p>Chaque limite naît de l’idée poussée jusqu’au bout ; chaque transition en fait une question. Aucun « d’abord », aucun « de plus » : les liens sont dans la pensée.</p></div><div><strong>Des auteurs qui travaillent</strong><p>Les références sont choisies pour accomplir quelque chose : pousser l’idée, porter la réponse, réaliser l’opération.</p></div></div>
 <p>Les copies à 20 : sur les pages des sujets du bac 2026 (<a class="official-link" href="philosophie-annales.html">les annales →</a>) et de chaque notion (<a class="official-link" href="philosophie-notions.html">les 17 notions →</a>).</p>
@@ -96,4 +125,4 @@ ${TOGGLE}
 function writeAdditional(root){
   for(const [key,meta]of Object.entries(ADDITIONAL))fs.writeFileSync(path.join(root,meta.file),vitrine(key,meta));
 }
-module.exports={teaser:section,section,vitrine,writeAdditional,VITRINE,has:k=>Boolean(DATA[k]),renderCopy,BRIDGE_CSS,TOGGLE};
+module.exports={teaser:section,section,vitrine,writeAdditional,VITRINE,has:k=>Boolean(DATA[k]),renderCopy,openingExercise,BRIDGE_CSS,TOGGLE};
