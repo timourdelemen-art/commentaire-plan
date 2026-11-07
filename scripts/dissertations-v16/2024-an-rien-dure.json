@@ -1,0 +1,119 @@
+{
+ "id": "2024-an-rien-dure",
+ "subject": "Comment être heureux, si rien ne dure ?",
+ "notion": "Le bonheur ; le temps",
+ "page": "philosophie-dissertation-2024-an-rien-dure.html",
+ "fiche": {
+  "operateur": "manière, sous une hypothèse (« comment… si… ») : de quelle manière le bonheur est-il possible, à supposer que rien ne dure ; l’hypothèse est acceptée, non discutée ; la question contient celle de la possibilité.",
+  "sens": "heureux : (1) satisfait dans l’instant (plaisir) ; (2) satisfait de sa vie prise comme un tout. rien ne dure : (1) tout ce que nous possédons finit ; (2) nous-mêmes changeons et finissons. comment : par quelle voie, et donc à quelle condition.",
+  "substitutions_interdites": "rien ne dure ≠ tout est vain ; heureux ≠ joyeux ; comment ≠ pourquoi.",
+  "verrou": "Il faut établir une manière d’être heureux compatible avec l’hypothèse, ou montrer qu’il n’y en a pas. Glissements interdits : affaiblir l’hypothèse (« presque rien ne dure ») ; la radicaliser (« rien n’a de valeur »).",
+  "trois_reponses": "Spontanée : en profitant de l’instant. Contraire : en s’attachant à ce qui dure le plus. Conciliation : profiter de l’instant sans s’y attacher.",
+  "conciliation_1_8bis": "Jouir sans s’attacher. Elle hésite sur le hanami : ceux qui viennent voir les cerisiers en fleurs aiment justement ces fleurs-là, et leur mélancolie est le signe qu’ils s’y attachent ; la conciliation leur demande de ne pas aimer ce qu’ils aiment ; elle doit se taire.",
+  "brouillon": {
+   "a": "En profitant de l’instant : si rien ne dure, seul le présent est à nous.",
+   "b": "On jouit d’un instant ; mais le bonheur est satisfaction d’une vie, et l’instant qu’on sait passer est déjà assombri par sa perte.",
+   "c": "Il faut chercher ce qui, dans une vie, dure le plus : nos dispositions, nos activités.",
+   "d": "Elles sont plus stables que les biens extérieurs ; mais si rien ne dure, elles non plus ne durent pas.",
+   "e": "Les deux supposent qu’être heureux, c’est posséder ; il reste à trouver un bonheur qui ne soit pas une possession."
+  },
+  "A": "On est heureux, si rien ne dure, en jouissant de l’instant présent.",
+  "FA": "Élimination (III.3). 1. Le passé n’est plus, l’avenir n’est pas encore (E). 2. Si rien ne dure, rien de ce qu’on aura ne sera gardé (E : hypothèse). 3. Seul le présent est donc à nous, et le bonheur ne peut être que la jouissance de ce qui est là.",
+  "XA": "On peut jouir de ce qui est présent sans exiger qu’il dure.",
+  "YA": "Le bonheur, qui est la satisfaction d’une vie prise comme un tout.",
+  "ZA": "FA place le bonheur dans l’instant ; un instant qu’on sait passer est déjà touché par sa perte, et une suite d’instants n’est pas une vie.",
+  "type_LA": "portée insuffisante (l’instant, non la vie)",
+  "LA": "La jouissance de l’instant ne permet donc pas encore d’établir qu’on soit heureux, parce que le bonheur est la satisfaction d’une vie et non d’un moment.",
+  "six_LA": "Mesure : XA écrit. Filiation : prémisse 3 (seul le présent). Meilleur cas : la plus belle des journées s’achève sur le regret de sa fin. Absorption : FA dirait « il suffit de multiplier les instants » ; une hirondelle ne fait pas le printemps. Non-lacune : oui. Calibration : oui.",
+  "T1": "Nous avons établi qu’on peut jouir de l’instant ; mais non qu’on soit heureux, parce que le bonheur est celui d’une vie ; il faut donc chercher ce qui, dans une vie, dure le plus (W : le niveau non atteint).",
+  "B": "On est heureux en s’attachant à ce qui dure le plus en nous : nos dispositions et nos activités. B conserve XA.",
+  "FB": "Fin (III.3). 1. Le bonheur est celui d’une vie entière (E ; Aristote : une seule hirondelle ne fait pas le printemps). 2. Ce qui, dans une vie, dépend le moins de la fortune, ce sont nos dispositions et ce que nous en faisons (E). 3. Donc un bonheur peut reposer sur ce qui dure le plus en nous. Indépendance : vaut sans LA. Principe propre : la stabilité relative des dispositions.",
+  "XB": "Un bonheur peut reposer sur ce qui dure le plus en nous, plus stable que les biens extérieurs.",
+  "YB": "Être heureux si vraiment rien ne dure, nous compris.",
+  "ZB": "FB repose sur une durée relative ; l’hypothèse du sujet n’en laisse aucune : nos dispositions aussi s’usent et finissent.",
+  "type_LB": "condition non établie (une stabilité que l’hypothèse refuse)",
+  "LB": "Ce qui dure le plus en nous ne permet donc pas encore d’établir qu’on puisse être heureux si rien ne dure, parce que l’hypothèse n’excepte rien, pas même nous.",
+  "six_LB": "Mesure : XB écrit. Filiation : prémisse 2 (moins dépendant ne veut pas dire durable). Meilleur cas : le sage aussi vieillit, et Aristote lui-même accorde qu’on ne dira pas heureux Priam accablé de malheurs. Absorption : FB dirait « cela dure assez » ; c’est affaiblir l’hypothèse. Non-lacune : oui. Calibration : oui. Mécanisme : prise au mot de l’hypothèse, différent de I.3.",
+  "T2": "Bilan : XA, XB. ρ : présupposé commun — les deux réponses supposent qu’être heureux, c’est posséder quelque chose (l’instant, une disposition), et c’est ce que l’hypothèse menace. D : établir un bonheur qui ne consiste pas à posséder ce qui pourrait durer. Cumul : « jouir sans s’attacher » garde le présupposé et échoue sur le hanami (le cumul garde le présupposé, donc les deux arrêts). Classe : décision.",
+  "epreuves": "1. Contre-exemple : celui qui est heureux de ses souvenirs ; il possède encore quelque chose : confirme le présupposé. 2. Meilleur cas : survit. 3. Cumul : échec écrit. 4. Antériorité : l’épreuve nietzschéenne de l’éternel retour (vouloir à nouveau ce qui passe) transforme le rapport au passage ; transposée, elle exige un travail : candidat de III.",
+  "soupcon_aporie": "aucun indice ; régime ordinaire.",
+  "chemins_echoues": "Chemin de l’ancienne copie (le bonheur dans l’activité, la III comme art de vivre le changement) : intuition reprise, mais sans le présupposé dégagé.",
+  "dictionnaire": "non consulté.",
+  "phrase_mouvement": "A, parce que seul le présent est à nous, établit qu’on peut jouir de l’instant ; mais non qu’on soit heureux, parce que le bonheur est celui d’une vie ; il faut donc chercher ce qui dure. B, parce que nos dispositions dépendent moins de la fortune, établit qu’un bonheur peut s’y appuyer ; mais non si rien ne dure. Or les deux supposent qu’être heureux, c’est posséder ; il reste à examiner ce présupposé.",
+  "probleme_directeur": "Comment être heureux si rien ne dure, quand ni l’instant ni ce qui dure le plus ne peuvent être gardés ?",
+  "problematique": "On peut jouir d’un instant, et s’appuyer sur ce qui dure le plus en soi ; mais rien de cela ne se garde. Comment être heureux, si rien ne dure, tant qu’on croit que le bonheur consiste à garder ce qu’on a ?",
+  "forme_problematique": "G4 (deux acquis et leur borne commune, puis « comment… si rien ne dure » conservé, avec le présupposé à examiner). Reconstruction : on part de l’instant, on bute sur la vie, on cherche ce qui dure, on bute sur l’hypothèse ; la III doit défaire le présupposé de possession. Relecture : hypothèse conservée telle quelle.",
+  "critere": "Sur le hanami, une solution devra dire comment être heureux si rien ne dure, conserver qu’on jouit de l’instant et que le bonheur est celui d’une vie, expliquer les deux arrêts, et proposer un bonheur qui ne soit pas une possession.",
+  "contrainte_scene": "montrer un bonheur lié à ce qui passe, et la mélancolie qui l’accompagne.",
+  "III": {
+   "operation": "transformation d’un présupposé (III.7 a) : le bonheur n’est pas une possession, mais une approbation de ce qui passe.",
+   "III1": "Le bonheur ne consiste pas à garder, mais à pouvoir vouloir encore ce qu’on a vécu : une vie heureuse est celle qu’on approuverait si elle devait revenir.",
+   "III2": "Conserve XA (l’instant est aimé) et XB (le bonheur est celui d’une vie) ; explique LA (l’instant était assombri parce qu’on voulait le garder) et LB (on cherchait une durée que l’hypothèse refuse, alors que l’approbation n’en demande pas).",
+   "III3": "On est heureux, si rien ne dure, en aimant ce qui passe au point de vouloir le revivre ; vérifié sur le hanami. Reste : vouloir encore une vie qui contient la perte d’un être aimé.",
+   "tests": "Cas témoin : sous les cerisiers, la mélancolie et la joie ne se contredisent plus : on ne pleure pas de ne pas garder les fleurs, on les aime telles qu’elles passent et l’on reviendra l’an prochain ; ni A, ni B, ni la conciliation ne le disaient. Second cas : une amitié de jeunesse finie, dont on est heureux d’avoir vécu chaque jour. Restitution : oui. Rechute : le reste (le deuil) ne redit ni LA ni LB. Test propre : prémisse de transformation établie (vouloir à nouveau n’exige pas de garder) ; illusion expliquée (on confondait aimer et posséder). Report : non. Acquis nouveau : prémisse nouvelle — l’approbation d’une vie ne suppose pas sa durée ; nécessaire à la décision."
+  },
+  "candidats_III": [
+   {"id": "retenue", "operation": "Transformation du présupposé", "proposition": "Le bonheur n’est pas de garder, mais de pouvoir vouloir encore ce qu’on a vécu.", "verdict": "retenue", "raison": "Conserve les deux acquis, défait ce qui les arrêtait, décide le cas du hanami."},
+   {"id": "conciliation", "operation": "Partage", "proposition": "Jouir sans s’attacher.", "verdict": "écartée", "raison": "Garde l’idée de possession, et demande de ne pas aimer ce qu’on aime."},
+   {"id": "eternel", "operation": "Déplacement", "proposition": "Chercher le bonheur dans ce qui ne passe pas (le divin, les Idées).", "verdict": "écartée", "raison": "Nie l’hypothèse du sujet au lieu de la prendre au sérieux."},
+   {"id": "activite", "operation": "Ordre des moments", "proposition": "Faire de sa vie une activité qui se renouvelle.", "verdict": "dominée", "raison": "Ressource de l’ancienne copie ; suppose encore une disposition qui dure."}
+  ],
+  "generateur": "figure : le présupposé ; registre opératoire : généalogique ; registre de lecture : progressif ; branches en G4, B2 ; annonce N1.",
+  "scene": "Le hanami : chaque printemps, au Japon, on se réunit sous les cerisiers en fleurs, dont la floraison ne dure qu’une ou deux semaines ; la tradition lie cette fête à la mélancolie des choses qui passent. Verdict : homologue. Retour : la joie de ceux qui reviendront l’an prochain.",
+  "statut": {"problematique": "suffisamment justifiée", "copie": "état de travail (architecture expérimentale)"}
+ },
+ "citations": [
+  {"texte": "une seule hirondelle ne fait pas le printemps, non plus qu’un seul beau jour", "auteur": "Aristote", "oeuvre": "Éthique à Nicomaque", "lieu": "I, 6, 1098a", "edition": "Œuvres complètes, dir. Pierre Pellegrin, Flammarion, 2014", "verification": "œuvre fournie, passage retrouvé mot pour mot", "regime": "citation exacte", "fonction": "I.3 : faire voir que le bonheur est celui d’une vie ; la limite est démontrée sans elle."},
+  {"texte": "veux-tu ceci encore une fois et encore d’innombrables fois ?", "auteur": "Nietzsche", "oeuvre": "Le Gai Savoir", "lieu": "§ 341", "edition": "Œuvres complètes, dir. Patrick Wotling, Flammarion, 2024", "verification": "œuvre fournie, passage retrouvé mot pour mot", "regime": "citation exacte, opération transposée (l’épreuve de l’éternel retour devient le critère d’une vie approuvée, sans la doctrine)", "fonction": "III.1 : donner la forme exacte de l’épreuve ; la III établit qu’elle ne suppose aucune durée."}
+ ],
+ "copy": [
+  ["INTRODUCTION", [
+   ["Chaque printemps, au Japon, des foules se rassemblent sous les cerisiers en fleurs pour le hanami : on mange, on boit, on chante sous des pétales qui tomberont dans une semaine.", "Introduction · la scène"],
+   ["La fête est joyeuse, et pourtant la tradition la lie à une mélancolie propre aux choses qui passent.", "Introduction · la scène : la mélancolie"],
+   ["Ces hommes savent jouir d’un moment qui ne durera pas ; leur joie n’est pas sans tristesse.", "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"],
+   ["On attend du bonheur qu’il soit la satisfaction d’une vie entière, et l’on suppose ici que rien, dans cette vie, ne demeure.", "Introduction · l’enjeu"],
+   ["La question ne met pas en doute que rien ne dure : elle le suppose, et demande par quelle voie un bonheur reste possible à cette condition.", "Introduction · les mots du sujet : l’hypothèse et « comment »"],
+   ["Certes, on peut jouir de l’instant, parce que seul le présent est à nous ; mais une suite d’instants n’est pas une vie heureuse. On peut aussi s’appuyer sur ce qui dure le plus en soi ; mais si rien ne dure, cela non plus ne demeure pas.", "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"],
+   ["On peut jouir d’un instant, et s’appuyer sur ce qui dure le plus en soi ; mais rien de cela ne se garde. Comment être heureux, si rien ne dure, tant qu’on croit que le bonheur consiste à garder ce qu’on a ?", "Introduction · la problématique : un constat, puis une seule question qui garde « comment… si rien ne dure »"],
+   ["On examinera d’abord pourquoi l’instant paraît la seule voie, et jusqu’où elle mène ; ce qu’elle laisse en suspens obligera à chercher ce qui, dans une vie, dure le plus ; il faudra alors établir ce que ces deux voies, ensemble, laissent encore ouvert.", "Introduction · l’annonce"]
+  ]],
+  ["I. JOUIR DE L’INSTANT", [
+   ["Si rien ne dure, on est heureux en jouissant de l’instant, car c’est la seule chose qui soit à nous.", "I.1 Établir la première réponse"],
+   ["Cette réponse sauve la sagesse des poètes qui invitent à cueillir la rose avant qu’elle se fane.", "I.1 Ce qu’elle sauve"],
+   ["Le passé n’est plus, l’avenir n’est pas encore, et si rien ne dure, rien de ce que nous aurons ne sera gardé : seul le présent nous appartient.", "I.2 La fonder par élimination"],
+   ["Le bonheur ne peut donc être que la jouissance de ce qui est là, sans rien exiger de plus que sa présence.", "I.2 L’inférence décisive"],
+   ["Ce fondement établit qu’on peut jouir de ce qui est présent sans exiger qu’il dure.", "I.3 L’éprouver : ce qu’il établit"],
+   ["Mais il place le bonheur dans l’instant, et le bonheur est la satisfaction d’une vie prise comme un tout, non d’un moment : Aristote le rappelait, « une seule hirondelle ne fait pas le printemps, non plus qu’un seul beau jour ».", "I.3 Ce qu’il ne permet pas encore, et pourquoi ; citation qui le fait voir"],
+   ["Celui qui jouit d’un instant qu’il sait passer le voit d’ailleurs déjà touché par sa perte : c’est la tristesse qui se mêle à la fête des cerisiers.", "I.3 Sur la scène"],
+   ["La jouissance de l’instant ne permet donc pas encore d’établir qu’on soit heureux, parce que le bonheur est la satisfaction d’une vie et non d’un moment.", "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"],
+   ["On peut jouir de l’instant ; mais cela ne rend pas heureux, parce que le bonheur est celui d’une vie et non d’un moment.", "Transition · ce qui est établi, ce qui manque, et pourquoi"],
+   ["Il faut donc chercher ce qui, dans une vie, dure le plus : n’y a-t-il pas en nous quelque chose de plus stable que ce que nous possédons ?", "Transition · l’examen nécessaire, en question"]
+  ]],
+  ["II. CE QUI DURE LE PLUS EN NOUS", [
+   ["Il y a en nous quelque chose de plus stable que ce que nous possédons, nos dispositions et ce que nous en faisons, et c’est sur elles qu’un bonheur peut reposer.", "II.1 La seconde réponse, qui répond à l’examen demandé"],
+   ["Elle ne nie pas qu’on jouisse de l’instant ; elle cherche ce qui fait d’une suite d’instants une vie.", "II.1 Ce qu’elle conserve"],
+   ["Les biens extérieurs dépendent de la fortune, qui les donne et les reprend ; nos dispositions, le courage, la patience, l’amitié qu’on sait entretenir, dépendent davantage de nous.", "II.2 La fonder par la fin d’une vie"],
+   ["Un bonheur qui repose sur elles est donc moins exposé à ce qui passe, et peut être celui d’une vie entière.", "II.2 L’inférence décisive"],
+   ["Cette raison établit qu’un bonheur peut reposer sur ce qui dure le plus en nous, plus stable que les biens extérieurs.", "II.3 L’éprouver : ce qu’elle établit"],
+   ["Mais elle repose sur une durée relative, et l’hypothèse du sujet n’en laisse aucune : nos dispositions aussi s’usent, la vieillesse affaiblit le courage, la maladie défait la patience.", "II.3 Ce qu’elle ne permet pas encore, et pourquoi : l’hypothèse prise au mot"],
+   ["Aristote lui-même accordait qu’on ne dira pas heureux le roi Priam, accablé de malheurs à la fin de sa vie.", "II.3 Le cas qui l’éprouve : un autre moyen qu’en I.3"],
+   ["Ce qui dure le plus en nous ne permet donc pas encore d’établir qu’on puisse être heureux si rien ne dure, parce que l’hypothèse n’excepte rien, pas même nous.", "II.3 Ce que la seconde réponse ne permet pas encore"],
+   ["On peut jouir de l’instant, et le bonheur est celui d’une vie ; mais les deux réponses supposent qu’être heureux, c’est posséder quelque chose, l’instant ou une disposition, et c’est précisément ce que l’hypothèse refuse.", "Transition · les deux acquis, et ce qu’ils supposent ensemble"],
+   ["Jouir sans s’attacher garde cette idée et demande aux amis des cerisiers de ne pas aimer ce qu’ils aiment : peut-on donc concevoir un bonheur qui ne consiste pas à garder ce qu’on a ?", "Transition · pourquoi leur addition échoue, et ce qui reste à établir, en question"]
+  ]],
+  ["III. VOULOIR ENCORE CE QUI PASSE", [
+   ["On peut concevoir un bonheur qui ne consiste pas à garder, mais à pouvoir vouloir encore ce qu’on a vécu : une vie heureuse est celle qu’on approuverait si elle devait revenir.", "III.1 L’opération que la difficulté exige : transformer le présupposé"],
+   ["Nietzsche en donne l’épreuve sous forme de question : « veux-tu ceci encore une fois et encore d’innombrables fois ? »", "III.1 Citation qui donne la forme exacte de l’épreuve"],
+   ["Or vouloir à nouveau n’exige pas de garder : on peut vouloir revivre un printemps sans prétendre le retenir.", "III.2 La démontrer : la prémisse nouvelle"],
+   ["Ainsi s’expliquent les deux réponses : l’instant était assombri parce qu’on voulait le garder, et l’on cherchait en nous une durée que l’hypothèse refuse, alors que l’approbation d’une vie n’en demande aucune.", "III.2 Ce qu’elle conserve et ce qu’elle explique"],
+   ["On est donc heureux, si rien ne dure, en aimant ce qui passe au point de vouloir le revivre, et non en tâchant de le retenir.", "III.3 La réponse au sujet, avec son opérateur"],
+   ["Sous les cerisiers, la mélancolie et la joie cessent de se contredire : on ne pleure pas de ne pas garder les fleurs, on les aime telles qu’elles passent, et l’on reviendra l’an prochain.", "III.3 La réponse vérifiée sur le cas"],
+   ["Reste qu’il est difficile de vouloir encore une vie qui contient la perte d’un être aimé.", "III.3 Le reste : ce que cette réponse ne règle pas"]
+  ]],
+  ["CONCLUSION", [
+   ["Si rien ne dure, on n’est heureux ni en s’accrochant à l’instant ni en cherchant en soi ce qui durerait, mais en aimant ce qui passe assez pour vouloir le revivre.", "Conclusion · la réponse, avec l’opérateur"],
+   ["La fête des cerisiers ne célèbre pas des fleurs qu’on garderait, mais des fleurs qu’on reviendra voir tomber.", "Conclusion · retour à la scène"],
+   ["Mais peut-on vouloir revivre aussi le jour où l’on a perdu celui qu’on aimait ?", "Conclusion · le reste en question"]
+  ]]
+ ]
+}

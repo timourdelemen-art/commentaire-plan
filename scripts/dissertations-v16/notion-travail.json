@@ -1,0 +1,117 @@
+{
+ "id": "notion-travail",
+ "subject": "Le travail nous rend-il plus humain ?",
+ "notion": "Le travail",
+ "fiche": {
+  "operateur": "effet (« nous rend-il plus ») : le travail développe-t-il ce qui fait de nous des hommes ; question descriptive, avec un comparatif (plus humain qu’on ne le serait sans lui).",
+  "sens": "travail : activité qui transforme la nature pour satisfaire des besoins, le plus souvent sous contrainte et pour d’autres. humain : (1) ce qui distingue l’homme : jugement, maîtrise de soi, projet ; (2) humain au sens moral, ouvert aux autres — (1) retenu, (2) en arrière-plan. nous : chacun de ceux qui travaillent.",
+  "substitutions_interdites": "travail ≠ emploi seulement ; plus humain ≠ plus heureux ; rendre ≠ garantir.",
+  "verrou": "Oui : établir que le travail, comme tel, développe ce qui fait l’homme. Non : établir qu’il ne le fait pas par lui-même, ou qu’il peut faire l’inverse. Glissements interdits : de « certains travaux abrutissent » à « le travail déshumanise » ; du comparatif à l’absolu.",
+  "trois_reponses": "Spontanée : oui, il forme. Contraire : non, il use et asservit. Conciliation : certains travaux humanisent, d’autres non.",
+  "conciliation_1_8bis": "Partage des bons et des mauvais travaux. Elle hésite sur Marienthal : le travail de la filature était pénible et répétitif, et sa disparition a pourtant abîmé les hommes ; était-ce un bon ou un mauvais travail ? elle ne sait.",
+  "brouillon": {
+   "a": "Oui : en transformant la matière selon un projet, l’homme se forme lui-même : il diffère son désir, acquiert un savoir-faire.",
+   "b": "Cela suppose qu’il conçoive ce qu’il fait ; quand la conception est séparée de l’exécution, ce mécanisme ne joue plus.",
+   "c": "Il faut examiner ce que devient le travail quand d’autres décident pour celui qui l’exécute.",
+   "d": "Le travail divisé et subordonné réduit l’homme à un instrument ; mais cela n’explique pas que la perte d’un tel travail abîme aussi.",
+   "e": "L’une regarde l’activité, l’autre son organisation ; il reste à expliquer ce qui humanise dans le travail, et que perdent aussi bien l’ouvrier asservi que le chômeur."
+  },
+  "A": "Le travail nous rend plus humains : en transformant la matière, l’homme se transforme.",
+  "FA": "Genèse (III.3). 1. Travailler, c’est soumettre son action à un projet et à la résistance de la matière (E : définition). 2. Soumettre son action à un projet, c’est différer son désir et régler ses mouvements par la pensée (E). 3. Ces capacités sont celles qui distinguent l’homme (E : sens 1). Donc le travail développe ce qui fait l’homme.",
+  "XA": "Le travail développe des capacités humaines : savoir-faire, maîtrise de soi, désir différé.",
+  "YA": "Que tout travail le fasse.",
+  "ZA": "FA attribue l’effet humanisant au fait de régler son action par son propre projet ; cette condition, l’unité de la conception et de l’exécution, n’est pas donnée dans le travail comme tel.",
+  "type_LA": "condition non établie",
+  "LA": "La formation de soi par le travail ne permet donc pas encore d’établir que tout travail nous rende plus humains, parce qu’elle suppose que celui qui travaille conçoive ce qu’il fait.",
+  "six_LA": "Mesure : XA écrit. Filiation : prémisse 2 (le projet est le sien). Meilleur cas : même l’artisan devenu ouvrier à la chaîne garde son habileté, mais ne l’exerce plus. Absorption : FA dirait « tout geste répété forme une habileté » ; une habileté qui n’est réglée par aucune pensée n’est pas ce que FA voulait établir. Non-lacune : oui. Calibration : oui.",
+  "T1": "Nous avons établi que le travail forme celui qui le conçoit ; mais non que tout travail le fasse, parce que cette formation suppose l’unité de la conception et de l’exécution ; il faut donc examiner le travail où d’autres décident pour celui qui exécute (W : ce qui fournit ou ôte la condition).",
+  "B": "Le travail ne nous rend pas plus humains par lui-même : divisé et subordonné, il fait de l’homme un instrument. B conserve XA.",
+  "FB": "Imputabilité (III.3). 1. Ce qui humanise dans une activité, c’est la part qui appartient à celui qui l’exerce (E : conclusion de I, reformulée). 2. Dans le travail divisé, le produit, la méthode et le rythme sont décidés par un autre (E : fait de l’organisation taylorienne). 3. Donc l’ouvrier n’y exerce plus que des mouvements : il est l’instrument d’une pensée qui n’est pas la sienne. Indépendance : prémisse 2 propre (l’organisation). Principe propre : la subordination.",
+  "XB": "Le travail divisé et subordonné peut réduire l’homme à un instrument.",
+  "YB": "Pourquoi la perte d’un tel travail abîme aussi les hommes.",
+  "ZB": "FB mesure l’humanité du travail à la maîtrise que le travailleur a sur sa tâche ; il ne voit pas ce que le travail donne encore quand cette maîtrise manque : une place parmi d’autres, par un produit dont ils ont besoin.",
+  "type_LB": "insuffisance explicative",
+  "LB": "La subordination du travail ne permet donc pas encore d’expliquer pourquoi sa perte abîme aussi les hommes, parce qu’elle ne mesure le travail qu’à la maîtrise de la tâche.",
+  "six_LB": "Mesure : XB écrit. Filiation : prémisse 1 (la part qui appartient à celui qui exerce). Meilleur cas : l’ouvrier le plus asservi est encore payé, attendu, utile. Absorption : FB dirait « sans travail, l’homme est libre de s’humaniser autrement » ; Marienthal montre l’inverse. Non-lacune : oui. Calibration : oui. Mécanisme : cas exemplaire, différent de I.3.",
+  "T2": "Bilan : XA, XB. ρ : insuffisance explicative commune — ni la formation par le projet ni l’asservissement par l’organisation n’expliquent ce que perdent à la fois l’ouvrier asservi et le chômeur. D : expliquer ce qui, dans le travail, humanise, de sorte qu’on comprenne les deux manières de le perdre. Cumul : « bons travaux, mauvais travaux » ne dit rien de Marienthal (le cumul laisse inexpliqué ce que les deux supposent). Classe : intelligibilité et décision.",
+  "epreuves": "1. Contre-exemple : le bénévole, qui travaille sans contrainte ; il confirme D (utilité pour d’autres). 2. Meilleur cas : survit. 3. Cumul : échec écrit. 4. Antériorité : la reconnaissance par l’utilité sociale est une idée disponible ; liée à l’exercice du jugement, elle exige un travail : candidat de III.",
+  "soupcon_aporie": "aucun indice ; régime ordinaire.",
+  "chemins_echoues": "Chemin aporétique de l’ancienne copie (humanise celui qui façonne la matière, ce qui ne dit rien de l’ouvrier / asservit) : branches juxtaposées ; écarté.",
+  "dictionnaire": "non consulté.",
+  "phrase_mouvement": "A, parce que soumettre son action à son projet forme l’homme, établit que le travail développe des capacités humaines ; mais non que tout travail le fasse ; il faut donc examiner le travail subordonné. B, parce que l’ouvrier n’y exerce plus que des mouvements, établit qu’il peut être réduit à un instrument ; mais n’explique pas pourquoi la perte du travail abîme. Or aucun n’explique ce que perdent l’ouvrier et le chômeur ; il reste l’explication commune.",
+  "probleme_directeur": "Le travail nous rend-il plus humains, si celui qu’on ne conçoit pas asservit, mais que le perdre abîme encore ?",
+  "problematique": "Le travail forme celui qui conçoit ce qu’il fait, et asservit celui qui n’en exécute que les mouvements ; pourtant, le perdre abîme encore. Nous rend-il plus humains, tant qu’on ignore ce qu’il donne que perdent aussi bien l’ouvrier asservi que l’homme privé d’ouvrage ?",
+  "forme_problematique": "G4 (acquis et contre-exemple, puis question qui garde « nous rend-il plus humains » et nomme ce qui reste inexpliqué ; la seconde phrase reprend « perdre »). Reconstruction : on part de la formation de soi, on bute sur le travail divisé, on examine la subordination, on bute sur le chômage ; la III doit expliquer. Relecture : comparatif conservé.",
+  "critere": "Sur Marienthal, une solution devra dire si le travail rendait les ouvriers plus humains, conserver que le travail forme et qu’il peut asservir, expliquer les deux arrêts, et dire ce que la fermeture leur a ôté.",
+  "contrainte_scene": "montrer un travail pénible et sa disparition, qui abîme.",
+  "III": {
+   "operation": "explication commune (III.7 a) : le travail humanise en nous faisant exercer notre jugement dans une œuvre dont d’autres ont besoin.",
+   "III1": "Ce qui humanise dans le travail tient à deux choses liées : y exercer son jugement, et y faire quelque chose dont d’autres ont besoin, par quoi l’on a une place parmi eux.",
+   "III2": "Cette explication conserve XA (le jugement exercé forme) et XB (le travail sans jugement asservit) ; elle explique LA (la formation de soi supposait le jugement) et LB (le chômeur perd la place parmi d’autres, que l’ouvrier asservi gardait).",
+   "III3": "Le travail nous rend plus humains dans la mesure où il joint l’exercice du jugement à une utilité reconnue par d’autres ; il ne le fait pas par lui-même ; vérifié sur Marienthal. Reste : ce que deviendra cette part humaine si les machines rendent la plupart des travaux inutiles.",
+   "tests": "Cas témoin : à Marienthal, la filature n’exerçait guère le jugement, mais donnait une place et un temps parmi d’autres ; sa fermeture ôte cette part, et les hommes se défont ; ni A, ni B, ni le partage ne l’expliquaient. Second cas : l’ouvrier qualifié qu’on consulte sur l’organisation de son atelier. Restitution : oui. Rechute : le reste (les machines) ne redit ni LA ni LB. Test propre : l’explication rend raison des deux arrêts. Report : non. Acquis nouveau : prémisse nouvelle — l’utilité pour d’autres est une composante de ce qui humanise ; nécessaire à la décision et à l’intelligibilité."
+  },
+  "candidats_III": [
+   {"id": "retenue", "operation": "Explication commune", "proposition": "Le travail humanise en joignant l’exercice du jugement à une utilité reconnue par d’autres.", "verdict": "retenue", "raison": "Explique à la fois l’asservissement et le chômage ; décide le cas de Marienthal."},
+   {"id": "partage", "operation": "Partage", "proposition": "Certains travaux humanisent, d’autres non.", "verdict": "écartée", "raison": "C’est la conciliation, qui ne sait où ranger la filature."},
+   {"id": "loisir", "operation": "Déplacement", "proposition": "L’homme s’humanise dans le loisir, que le travail rend possible.", "verdict": "écartée", "raison": "Marienthal montre que le loisir forcé ne humanise pas."},
+   {"id": "condition", "operation": "Condition", "proposition": "Le travail humanise s’il est librement choisi.", "verdict": "dominée", "raison": "Une condition qui aide, mais n’explique pas ce que perd le chômeur."}
+  ],
+  "generateur": "figure : l’explication ; registre opératoire : généalogique ; registre de lecture : par cas ; branches en G4, B2 ; annonce N2.",
+  "scene": "Marienthal (Autriche) : la fermeture de la filature en 1929-1930 laisse presque tout le village sans travail ; l’enquête de Jahoda, Lazarsfeld et Zeisel (1933) observe des hommes qui marchent plus lentement, ne portent plus de montre, empruntent moins de livres à la bibliothèque pourtant gratuite. Verdict : homologue. Retour : ce que la fermeture a ôté.",
+  "statut": {"problematique": "suffisamment justifiée", "copie": "état de travail (architecture expérimentale)"}
+ },
+ "citations": [
+  {"texte": "si, de même, les navettes tissaient d’elles-mêmes et les plectres jouaient tout seuls de la cithare, alors les ingénieurs n’auraient pas besoin d’exécutants ni les maîtres d’esclaves", "auteur": "Aristote", "oeuvre": "Politique", "lieu": "I, 4, 1253b-1254a", "edition": "Œuvres complètes, dir. Pierre Pellegrin, Flammarion, 2014", "verification": "œuvre fournie, passage retrouvé mot pour mot (repère « [1254a] » omis)", "regime": "citation exacte", "fonction": "III.3 : donner la forme exacte de l’hypothèse qui fait le reste ; aucune thèse d’Aristote sur l’esclavage n’est reprise."}
+ ],
+ "copy": [
+  ["INTRODUCTION", [
+   ["Au début des années 1930, la filature qui faisait vivre le village de Marienthal, en Autriche, ferme ses portes, et presque tous les hommes se retrouvent sans travail.", "Introduction · la scène"],
+   ["Les sociologues venus les observer constatent qu’ils marchent plus lentement, ne portent plus de montre, empruntent moins de livres à la bibliothèque, pourtant gratuite.", "Introduction · la scène : ce que la fermeture fait aux hommes"],
+   ["La filature n’avait rien d’un lieu d’épanouissement ; sa disparition a pourtant défait ceux qu’elle épuisait.", "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"],
+   ["On attend du travail qu’il nous forme, mais on sait aussi qu’il peut user et asservir ceux qui le font.", "Introduction · l’enjeu"],
+   ["Être rendu plus humain, c’est voir se développer ce qui distingue l’homme : le jugement, la maîtrise de soi, le pouvoir de régler ce qu’on fait sur ce qu’on pense.", "Introduction · les mots du sujet"],
+   ["Certes, le travail forme, parce qu’il soumet l’action à un projet ; mais il ne le fait que si l’on conçoit ce qu’on fait. On répondra qu’il asservit, parce qu’un autre décide pour celui qui exécute ; mais on ne comprend plus alors que sa perte abîme aussi.", "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"],
+   ["Le travail forme celui qui conçoit ce qu’il fait, et asservit celui qui n’en exécute que les mouvements ; pourtant, le perdre abîme encore. Nous rend-il plus humains, tant qu’on ignore ce qu’il donne que perdent aussi bien l’ouvrier asservi que l’homme privé d’ouvrage ?", "Introduction · la problématique : un constat, puis une seule question qui garde « nous rend-il plus humains »"],
+   ["Il faudra d’abord établir ce par quoi le travail forme celui qui le fait, puis ce par quoi il peut l’asservir ; ni l’un ni l’autre, on le verra, ne suffit à dire s’il nous rend plus humains, et c’est leur rapport qu’il faudra déterminer.", "Introduction · l’annonce"]
+  ]],
+  ["I. EN TRANSFORMANT LA MATIÈRE, L’HOMME SE FORME", [
+   ["Le travail nous rend plus humains, car en transformant la matière, l’homme se transforme lui-même.", "I.1 Établir la première réponse"],
+   ["Cette réponse sauve ce que tout apprenti découvre : on devient quelqu’un en apprenant à bien faire quelque chose.", "I.1 Ce qu’elle sauve"],
+   ["Travailler, c’est soumettre son action à un projet et à la résistance de la matière ; et soumettre son action à un projet, c’est différer son désir et régler ses mouvements par la pensée.", "I.2 La fonder par la genèse de ces capacités"],
+   ["Or ce sont là les capacités qui distinguent l’homme : le travail développe donc ce qui fait de nous des hommes.", "I.2 L’inférence décisive"],
+   ["Ce fondement établit que le travail développe des capacités humaines : savoir-faire, maîtrise de soi, désir différé.", "I.3 L’éprouver : ce qu’il établit"],
+   ["Mais il attribue cet effet au fait de régler son action par son propre projet, et cette condition n’est pas donnée dans le travail comme tel : quand d’autres conçoivent et que l’on exécute, la pensée qui règle les mouvements n’est plus la sienne.", "I.3 Ce qu’il ne permet pas encore, et pourquoi"],
+   ["L’ouvrier de la filature ne décidait ni de ce qu’il tissait, ni de la manière, ni du rythme.", "I.3 Sur la scène"],
+   ["La formation de soi par le travail ne permet donc pas encore d’établir que tout travail nous rende plus humains, parce qu’elle suppose que celui qui travaille conçoive ce qu’il fait.", "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"],
+   ["Le travail forme celui qui le conçoit ; mais il ne forme pas tout travailleur, parce que cette formation suppose qu’on pense ce qu’on fait.", "Transition · ce qui est établi, ce qui manque, et pourquoi"],
+   ["Il faut donc examiner le travail où d’autres décident pour celui qui l’exécute : que devient l’homme quand il ne fait plus que des mouvements ?", "Transition · l’examen nécessaire, en question"]
+  ]],
+  ["II. LE TRAVAIL QUI FAIT DE L’HOMME UN INSTRUMENT", [
+   ["Quand il ne fait plus que des mouvements, l’homme devient l’instrument d’une pensée qui n’est pas la sienne, et le travail, loin de l’humaniser, le diminue.", "II.1 La seconde réponse, qui répond à l’examen demandé"],
+   ["Elle ne nie pas que le travail puisse former ; elle montre qu’il ne le fait pas par lui-même.", "II.1 Ce qu’elle conserve"],
+   ["Ce qui humanise dans une activité, c’est la part qui appartient à celui qui l’exerce ; or, dans le travail divisé, le produit, la méthode et le rythme sont décidés par un autre.", "II.2 La fonder : un principe propre, la subordination"],
+   ["L’ouvrier n’y exerce plus que des mouvements réglés d’avance, et un homme réduit à exécuter ce qu’un autre a pensé est traité comme un outil.", "II.2 L’inférence décisive"],
+   ["Cette raison établit que le travail divisé et subordonné peut réduire l’homme à un instrument.", "II.3 L’éprouver : ce qu’elle établit"],
+   ["Mais elle mesure l’humanité du travail à la maîtrise que le travailleur a sur sa tâche, et elle ne voit pas ce que le travail donne encore quand cette maîtrise manque : on aurait dû voir les hommes de Marienthal délivrés, on les voit défaits.", "II.3 Le cas qui l’éprouve : un autre geste qu’en I.3"],
+   ["Ce que la fermeture leur a ôté n’était donc pas la maîtrise d’une tâche qu’ils n’avaient pas.", "II.3 L’inférence"],
+   ["La subordination du travail ne permet donc pas encore d’expliquer pourquoi sa perte abîme aussi les hommes, parce qu’elle ne mesure le travail qu’à la maîtrise de la tâche.", "II.3 Ce que la seconde réponse ne permet pas encore"],
+   ["Le travail forme celui qui le conçoit, et il peut asservir celui qui l’exécute ; mais ni la formation par le projet ni l’asservissement par l’organisation n’expliquent ce que perdent à la fois l’ouvrier asservi et le chômeur.", "Transition · les deux acquis, et ce qu’ils laissent inexpliqué"],
+   ["Distinguer de bons et de mauvais travaux ne dit rien de Marienthal, où un mauvais travail manque cruellement : qu’est-ce donc que le travail donne, qui humanise, et qui peut être perdu de deux manières ?", "Transition · pourquoi leur partage échoue, et ce qui reste à expliquer, en question"]
+  ]],
+  ["III. UN JUGEMENT EXERCÉ POUR D’AUTRES", [
+   ["Ce que le travail donne tient à deux choses liées : on y exerce son jugement, et l’on y fait quelque chose dont d’autres ont besoin, par quoi l’on a une place parmi eux.", "III.1 L’opération que la difficulté exige : une explication commune"],
+   ["La première fait de celui qui travaille un esprit qui règle ses mouvements ; la seconde fait de lui quelqu’un que les autres attendent.", "III.1 Ce que chacune apporte"],
+   ["Cette explication conserve les deux réponses : le jugement exercé forme, et le travail sans jugement asservit.", "III.2 La démontrer : ce qu’elle conserve"],
+   ["Elle explique aussi leurs arrêts : la formation de soi supposait le jugement, que le travail divisé ôte ; et l’asservissement ne disait pas ce que perd le chômeur, parce que l’ouvrier asservi gardait encore une place parmi d’autres.", "III.2 Ce qu’elle explique"],
+   ["Le travail nous rend donc plus humains dans la mesure où il joint l’exercice du jugement à une utilité reconnue par d’autres ; il ne le fait pas par lui-même, et il nous diminue quand il nous ôte l’un ou l’autre.", "III.3 La réponse au sujet, avec son opérateur"],
+   ["À Marienthal, la filature n’exerçait guère le jugement, mais elle donnait une place, un horaire, une attente : en fermant, elle a ôté ce qu’elle donnait encore, et les montres sont restées dans les tiroirs.", "III.3 La réponse vérifiée sur le cas"],
+   ["Reste à savoir ce que deviendra cette part humaine si les machines rendent inutile la plupart des travaux, comme Aristote l’imaginait déjà : « si, de même, les navettes tissaient d’elles-mêmes et les plectres jouaient tout seuls de la cithare, alors les ingénieurs n’auraient pas besoin d’exécutants ni les maîtres d’esclaves ».", "III.3 Le reste ; citation qui en donne l’hypothèse exacte"]
+  ]],
+  ["CONCLUSION", [
+   ["Le travail ne nous rend pas plus humains par lui-même : il le fait quand il joint l’exercice de notre jugement à une œuvre dont d’autres ont besoin, et il nous diminue quand il nous ôte l’un ou l’autre.", "Conclusion · la réponse, avec l’opérateur"],
+   ["Les hommes de Marienthal n’avaient perdu ni un métier ni une liberté : ils avaient perdu leur place parmi les autres.", "Conclusion · retour à la scène"],
+   ["Mais où trouverons-nous cette place, si les navettes finissent par tisser d’elles-mêmes ?", "Conclusion · le reste en question"]
+  ]]
+ ]
+}
