@@ -52,68 +52,231 @@
    "tests": "Cas témoin : la III décide la demande de Szilard (légitime, car elle porte sur la diffusion), ce que ni A, ni B, ni le partage ne faisaient. Second cas : Lyssenko (l’utilité commande la réponse : illégitime). Restitution : oui. Rechute : le reste ne redit ni LA ni LB. Test propre : frontière définie indépendamment des deux thèses (par la différence entre décider et constater). Report : la question ne se repose pas pour la diffusion, réglée par le bien commun. Acquis nouveau : la distinction question / réponse, prémisse qu’aucune partie n’établissait ; nécessaire à la décision."
   },
   "candidats_III": [
-   {"id": "retenue", "operation": "Critère de frontière", "proposition": "L’utilité peut régler les questions et la diffusion d’une recherche, jamais ses réponses.", "verdict": "retenue", "raison": "Conserve le droit de la société et la norme du vrai, décide le cas de Szilard."},
-   {"id": "ordre", "operation": "Principe d’ordre", "proposition": "En cas de conflit, la vérité passe toujours avant l’utilité.", "verdict": "écartée", "raison": "Rechute dans la seconde réponse : ne dit rien des usages."},
-   {"id": "dependance", "operation": "Sens de la dépendance", "proposition": "L’utilité dépend de la vérité, donc chercher le vrai suffit à servir.", "verdict": "dominée", "raison": "Vrai mais déjà établi en II ; ne dit pas ce qui peut être exigé."},
-   {"id": "condition", "operation": "Condition", "proposition": "La science doit être utile si la société a pu prévoir l’usage.", "verdict": "écartée", "raison": "Retombe sur l’imprévisibilité de la première partie."}
+   {
+    "id": "retenue",
+    "operation": "Critère de frontière",
+    "proposition": "L’utilité peut régler les questions et la diffusion d’une recherche, jamais ses réponses.",
+    "verdict": "retenue",
+    "raison": "Conserve le droit de la société et la norme du vrai, décide le cas de Szilard."
+   },
+   {
+    "id": "ordre",
+    "operation": "Principe d’ordre",
+    "proposition": "En cas de conflit, la vérité passe toujours avant l’utilité.",
+    "verdict": "écartée",
+    "raison": "Rechute dans la seconde réponse : ne dit rien des usages."
+   },
+   {
+    "id": "dependance",
+    "operation": "Sens de la dépendance",
+    "proposition": "L’utilité dépend de la vérité, donc chercher le vrai suffit à servir.",
+    "verdict": "dominée",
+    "raison": "Vrai mais déjà établi en II ; ne dit pas ce qui peut être exigé."
+   },
+   {
+    "id": "condition",
+    "operation": "Condition",
+    "proposition": "La science doit être utile si la société a pu prévoir l’usage.",
+    "verdict": "écartée",
+    "raison": "Retombe sur l’imprévisibilité de la première partie."
+   }
   ],
   "generateur": "figure : la frontière ; registre opératoire : dialectique ; registre de lecture : démonstratif à ordre visible ; branches B2 ; annonce N4.",
   "scene": "Szilard demande en 1939 à Joliot de ne pas publier la multiplication des neutrons dans la fission ; l’équipe de Joliot publie (Nature, mars-avril 1939). Verdict : homologue. Retour : la III décide la demande.",
-  "statut": {"problematique": "suffisamment justifiée", "copie": "état de travail (architecture expérimentale)"}
+  "statut": {
+   "problematique": "suffisamment justifiée",
+   "copie": "état de travail (architecture expérimentale)"
+  }
  },
  "citations": [
-  {"texte": "Tous les humains ont par nature le désir de savoir.", "auteur": "Aristote", "oeuvre": "Métaphysique", "lieu": "livre A, 1, 980a21", "edition": "Œuvres complètes, dir. Pierre Pellegrin, Flammarion, 2014", "verification": "œuvre fournie, phrase retrouvée mot pour mot", "regime": "citation exacte", "fonction": "II.2 : faire voir que savoir est une fin désirée pour elle-même ; la preuve (fonction propre) tient sans elle."}
+  {
+   "texte": "Tous les humains ont par nature le désir de savoir.",
+   "auteur": "Aristote",
+   "oeuvre": "Métaphysique",
+   "lieu": "livre A, 1, 980a21",
+   "edition": "Œuvres complètes, dir. Pierre Pellegrin, Flammarion, 2014",
+   "verification": "œuvre fournie, phrase retrouvée mot pour mot",
+   "regime": "citation exacte",
+   "fonction": "II.2 : faire voir que savoir est une fin désirée pour elle-même ; la preuve (fonction propre) tient sans elle."
+  }
  ],
  "copy": [
-  ["INTRODUCTION", [
-   ["Au début de 1939, le physicien Leo Szilard demande à Frédéric Joliot de ne pas publier ce que son équipe vient de mesurer : la fission de l’uranium libère des neutrons, ce qui rend possible une réaction en chaîne.", "Introduction · la scène"],
-   ["Joliot publie, et la découverte appartient dès lors à tous, à ceux qui chercheront une source d’énergie comme à ceux qui chercheront une arme.", "Introduction · la scène : la décision"],
-   ["Celui qui voulait retenir la découverte la jugeait par ce qu’elle permettrait ; celui qui la publia la jugeait par ce qu’elle était : exacte.", "Introduction · ce que la scène fait voir : l’exigence de servir, et ce qui lui résiste"],
-   ["On attend de la science qu’elle connaisse le vrai, mais aussi qu’elle serve ceux qui la rendent possible.", "Introduction · l’enjeu"],
-   ["La question n’est pas de savoir si la science est utile, ce que le siècle dernier a assez montré, mais si l’utilité est pour elle une obligation, une exigence qu’on aurait le droit de lui imposer.", "Introduction · les mots du sujet : « doit » et « utile »"],
-   ["Certes, on peut l’exiger, parce qu’elle vit du travail de tous ; mais on ne sait pas d’avance ce qui servira. On peut aussi répondre qu’elle ne doit que le vrai, parce que c’est ce qui la fait science ; mais elle ne sait plus rien dire alors de ce que ses vérités rendent possible.", "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"],
-   ["S’il est légitime d’attendre de la science qu’elle serve ceux qui la font vivre, et si elle n’est science qu’en disant ce qui est, doit-elle être utile, quand l’utilité lui demande de taire ce qu’elle sait ou de trouver ce qu’on espère ?", "Introduction · la problématique : une seule question, qui garde « doit-elle »"],
-   ["On établira d’abord ce qui autorise à exiger de la science qu’elle serve, puis ce qui lui donne sa norme propre ; il restera à chercher jusqu’où l’utilité peut lui être imposée, pour qu’elle serve sans perdre ni le droit de la société ni la loi du vrai.", "Introduction · l’annonce : le mouvement et la tâche de la III"]
-  ]],
-  ["I. LE SAVOIR VIT DU TRAVAIL DE TOUS", [
-   ["La science doit être utile, car elle n’est pas l’affaire d’un esprit solitaire : laboratoires, instruments, années de formation, tout cela est pris sur le travail commun.", "I.1 Établir la première réponse"],
-   ["Ce que cette réponse sauve est simple : le droit de ceux qui rendent la science possible de lui demander des comptes.", "I.1 Ce qu’elle sauve"],
-   ["Celui qui reçoit d’une communauté les moyens de son activité contracte envers elle une dette, comme tout échange en crée une.", "I.2 La fonder : une prémisse normative, la réciprocité"],
-   ["Une recherche qui ne servirait jamais prélèverait sans rendre, ce qui est une injustice ; la communauté peut donc légitimement exiger d’elle qu’elle serve.", "I.2 L’inférence décisive"],
-   ["Ce fondement établit un droit réel : la société peut attendre de la science qu’elle serve, et c’est une raison de la soutenir.", "I.3 L’éprouver : ce qu’il établit"],
-   ["Mais il juge la recherche par ce qu’elle doit rendre, et l’on n’exige un service qu’en sachant lequel : or l’utilité d’une vérité dépend de vérités qui ne sont pas encore connues.", "I.3 Ce qu’il ne permet pas encore, et pourquoi"],
-   ["Hardy se flattait en 1940 que la théorie des nombres ne servirait jamais à la guerre ; elle protège aujourd’hui les communications des armées.", "I.3 Le cas qui le montre"],
-   ["Le droit d’exiger un service ne permet donc pas encore d’établir quelle recherche servira, parce que ce qui servira dépend de ce qu’on ignore encore.", "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"],
-   ["La société peut attendre de la science qu’elle serve ; mais elle ne peut savoir d’avance ce qui servira, parce que l’utilité d’une connaissance dépend de connaissances à venir.", "Transition · ce qui est établi, ce qui manque, et pourquoi"],
-   ["Il faut donc examiner ce qui, dans la science elle-même, produit les vérités qui serviront un jour : sa valeur ne tient-elle pas d’abord à ce qu’elle cherche pour lui-même, le vrai ?", "Transition · l’examen nécessaire, en question"]
-  ]],
-  ["II. LA SCIENCE NE DOIT QUE LE VRAI", [
-   ["La valeur de la science tient d’abord au vrai qu’elle cherche pour lui-même, et c’est lui qui, par surcroît, se trouve un jour servir.", "II.1 La seconde réponse, qui répond à l’examen demandé"],
-   ["Cette réponse ne nie pas le droit de la société ; elle montre qu’il ne peut porter sur ce que la science découvre.", "II.1 Ce qu’elle conserve de la première"],
-   ["Une activité se juge à sa fonction propre, comme le médecin à la guérison et non au salaire ; celle de la science est d’établir ce qui est, quel qu’en soit l’usage, et Aristote ouvre la Métaphysique par ce constat : « Tous les humains ont par nature le désir de savoir. »", "II.2 La fonder par la fonction propre ; citation qui fait voir que savoir est une fin"],
-   ["Lorsque l’Union soviétique exigea de la biologie qu’elle promette des récoltes, Lyssenko lui fournit des théories conformes à cette attente, et les récoltes ne vinrent pas.", "II.2 Le cas qui éprouve le principe"],
-   ["Une science qui cherche ce qui doit servir cesse de trouver ce qui est, et par là même cesse de servir.", "II.2 L’inférence décisive : la vérité, condition de l’utilité"],
-   ["Cette raison établit que la vérité est la norme propre de la science, et même la condition de son utilité.", "II.3 L’éprouver : ce qu’elle établit"],
-   ["Mais une fonction propre ne règle que l’activité qu’elle définit : elle dit comment chercher, non ce qu’il faut faire de ce qu’on trouve.", "II.3 Ce qu’elle ne permet pas encore, et pourquoi : la portée du principe"],
-   ["Fidèle à cette seule norme, Joliot avait raison de publier une mesure exacte ; elle ne pouvait rien lui dire de l’usage qu’on en ferait.", "II.3 Sur la scène"],
-   ["La fidélité au vrai ne permet donc pas encore de dire ce que la science doit à ceux que ses vérités rendent puissants ou menacent.", "II.3 Ce que la seconde réponse ne permet pas encore"],
-   ["La société a le droit d’attendre de la science qu’elle serve, et la science ne sert qu’en restant fidèle au vrai ; mais l’un de ces droits porte sur ce qu’elle rend, l’autre sur ce qu’elle cherche, et aucun ne dit où commence le pouvoir de l’autre.", "Transition · les deux acquis et leur rapport"],
-   ["Les juxtaposer, c’est laisser sans réponse la demande de Szilard, qui portait sur la science même : jusqu’où l’utilité peut-elle donc être exigée de la science sans corrompre ce qui la fait science ?", "Transition · pourquoi leur addition échoue, et ce qui reste à établir, en question"]
-  ]],
-  ["III. L’UTILITÉ PEUT CHOISIR LES QUESTIONS, NON LES RÉPONSES", [
-   ["Pour savoir jusqu’où l’utilité peut être exigée, il faut distinguer dans une recherche ce qu’elle demande et ce qu’elle trouve : la question qu’on pose, les moyens qu’on y consacre, la diffusion des résultats d’un côté, la réponse obtenue de l’autre.", "III.1 L’opération que la difficulté exige : un critère"],
-   ["L’utilité peut légitimement commander les premiers, jamais la seconde : on peut choisir de chercher un vaccin plutôt qu’autre chose, non décider de ce que l’expérience montrera.", "III.1 Le critère énoncé"],
-   ["Ce critère tient à la nature des deux exigences : choisir une question, c’est décider de l’emploi d’un effort commun, ce qui relève du droit de la société ; établir une réponse, c’est se soumettre à ce qui est, ce qu’aucune volonté ne peut commander sans détruire la connaissance.", "III.2 La démontrer : pourquoi la frontière passe là"],
-   ["Il conserve ainsi ce que les deux réponses avaient établi, et explique leurs arrêts : on ne pouvait exiger d’avance un service déterminé parce qu’on faisait porter l’utilité sur des réponses encore inconnues, et la fidélité au vrai ne disait rien des usages parce qu’elle ne règle que la réponse.", "III.2 Ce qu’il conserve et ce qu’il explique"],
-   ["Lyssenko a corrompu la science pour avoir voulu commander la réponse ; Hardy ne pouvait prévoir l’usage de ses théorèmes parce que la réponse ne se commande pas.", "III.2 Le critère sur un second cas"],
-   ["La science doit donc être utile, en ce que ses questions et la diffusion de ses résultats peuvent être réglées par le bien de ceux qui la font vivre, mais non en ce que l’utilité dirait ce qui est vrai.", "III.3 La réponse au sujet, avec son opérateur"],
-   ["La demande de Szilard était ainsi légitime, car elle portait sur la diffusion d’un résultat, non sur son exactitude ; Joliot pouvait la refuser, non au nom de la vérité, que le secret laissait intacte, mais seulement en jugeant la publication plus utile à tous.", "III.3 La réponse vérifiée sur le cas"],
-   ["Reste le cas où c’est la connaissance elle-même, et non sa diffusion, qui est un danger, parce que celui qui la possède peut en user seul.", "III.3 Le reste : ce que cette réponse ne règle pas"]
-  ]],
-  ["CONCLUSION", [
-   ["La science doit être utile, mais l’utilité ne peut régler que les questions qu’elle pose et le sort de ce qu’elle trouve ; ce qu’elle trouve, seul le vrai le règle.", "Conclusion · la réponse, avec l’opérateur"],
-   ["Szilard et Joliot ne s’opposaient pas sur la vérité, que le secret aurait laissée intacte, mais sur l’usage d’un savoir que tous deux savaient exact.", "Conclusion · retour à la scène"],
-   ["Peut-on cependant renoncer à chercher une vérité parce que la savoir est déjà un danger ?", "Conclusion · le reste en question"]
-  ]]
+  [
+   "INTRODUCTION",
+   [
+    [
+     "Au début de 1939, le physicien Leo Szilard demande à Frédéric Joliot de ne pas publier ce que son équipe vient de mesurer : la fission de l’uranium libère des neutrons, ce qui rend possible une réaction en chaîne.",
+     "Introduction · la scène"
+    ],
+    [
+     "Joliot publie, et la découverte appartient dès lors à tous, à ceux qui chercheront une source d’énergie comme à ceux qui chercheront une arme.",
+     "Introduction · la scène : la décision"
+    ],
+    [
+     "Celui qui voulait retenir la découverte la jugeait par ce qu’elle permettrait ; celui qui la publia la jugeait par ce qu’elle était : exacte.",
+     "Introduction · ce que la scène fait voir : l’exigence de servir, et ce qui lui résiste"
+    ],
+    [
+     "On attend de la science qu’elle connaisse le vrai, mais aussi qu’elle serve ceux qui la rendent possible.",
+     "Introduction · l’enjeu"
+    ],
+    [
+     "La question n’est pas de savoir si la science est utile, ce que le siècle dernier a assez montré, mais si l’utilité est pour elle une obligation, une exigence qu’on aurait le droit de lui imposer.",
+     "Introduction · les mots du sujet : « doit » et « utile »"
+    ],
+    [
+     "Certes, on peut l’exiger, parce qu’elle vit du travail de tous ; mais on ne sait pas d’avance ce qui servira. On peut aussi répondre qu’elle ne doit que le vrai, parce que c’est ce qui la fait science ; mais elle ne sait plus rien dire alors de ce que ses vérités rendent possible.",
+     "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"
+    ],
+    [
+     "S’il est légitime d’attendre de la science qu’elle serve ceux qui la font vivre, et si elle n’est science qu’en disant ce qui est, doit-elle être utile, quand l’utilité lui demande de taire ce qu’elle sait ou de trouver ce qu’on espère ?",
+     "Introduction · la problématique : une seule question, qui garde « doit-elle »"
+    ],
+    [
+     "On établira d’abord ce qui autorise à exiger de la science qu’elle serve, puis ce qui lui donne sa norme propre ; il restera à chercher jusqu’où l’utilité peut lui être imposée, pour qu’elle serve sans perdre ni le droit de la société ni la loi du vrai.",
+     "Introduction · l’annonce : le mouvement et la tâche de la III"
+    ]
+   ]
+  ],
+  [
+   "I. LE SAVOIR VIT DU TRAVAIL DE TOUS",
+   [
+    [
+     "La science doit être utile, car elle n’est pas l’affaire d’un esprit solitaire : laboratoires, instruments, années de formation, tout cela est pris sur le travail commun.",
+     "I.1 Établir la première réponse"
+    ],
+    [
+     "Ce que cette réponse sauve est simple : le droit de ceux qui rendent la science possible de lui demander des comptes.",
+     "I.1 Ce qu’elle sauve"
+    ],
+    [
+     "Celui qui reçoit d’une communauté les moyens de son activité contracte envers elle une dette, comme tout échange en crée une.",
+     "I.2 La fonder : une prémisse normative, la réciprocité"
+    ],
+    [
+     "Une recherche qui ne servirait jamais prélèverait sans rendre, ce qui est une injustice ; la communauté peut donc légitimement exiger d’elle qu’elle serve.",
+     "I.2 L’inférence décisive"
+    ],
+    [
+     "Ce fondement établit un droit réel : la société peut attendre de la science qu’elle serve, et c’est une raison de la soutenir.",
+     "I.3 L’éprouver : ce qu’il établit"
+    ],
+    [
+     "Mais il juge la recherche par ce qu’elle doit rendre, et l’on n’exige un service qu’en sachant lequel : or l’utilité d’une vérité dépend de vérités qui ne sont pas encore connues.",
+     "I.3 Ce qu’il ne permet pas encore, et pourquoi"
+    ],
+    [
+     "Hardy se flattait en 1940 que la théorie des nombres ne servirait jamais à la guerre ; elle protège aujourd’hui les communications des armées.",
+     "I.3 Le cas qui le montre"
+    ],
+    [
+     "Le droit d’exiger un service ne permet donc pas encore d’établir quelle recherche servira, parce que ce qui servira dépend de ce qu’on ignore encore.",
+     "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"
+    ],
+    [
+     "La société peut attendre de la science qu’elle serve ; mais elle ne peut savoir d’avance ce qui servira, parce que l’utilité d’une connaissance dépend de connaissances à venir. Il faut donc examiner ce qui, dans la science elle-même, produit les vérités qui serviront un jour : sa valeur ne tient-elle pas d’abord à ce qu’elle cherche pour lui-même, le vrai ?",
+     "Transition · l’examen nécessaire, en question"
+    ]
+   ]
+  ],
+  [
+   "II. LA SCIENCE NE DOIT QUE LE VRAI",
+   [
+    [
+     "La valeur de la science tient d’abord au vrai qu’elle cherche pour lui-même, et c’est lui qui, par surcroît, se trouve un jour servir.",
+     "II.1 La seconde réponse, qui répond à l’examen demandé"
+    ],
+    [
+     "Cette réponse ne nie pas le droit de la société ; elle montre qu’il ne peut porter sur ce que la science découvre.",
+     "II.1 Ce qu’elle conserve de la première"
+    ],
+    [
+     "Une activité se juge à sa fonction propre, comme le médecin à la guérison et non au salaire ; celle de la science est d’établir ce qui est, quel qu’en soit l’usage, et Aristote ouvre la Métaphysique par ce constat : « Tous les humains ont par nature le désir de savoir. »",
+     "II.2 La fonder par la fonction propre ; citation qui fait voir que savoir est une fin"
+    ],
+    [
+     "Lorsque l’Union soviétique exigea de la biologie qu’elle promette des récoltes, Lyssenko lui fournit des théories conformes à cette attente, et les récoltes ne vinrent pas.",
+     "II.2 Le cas qui éprouve le principe"
+    ],
+    [
+     "Une science qui cherche ce qui doit servir cesse de trouver ce qui est, et par là même cesse de servir.",
+     "II.2 L’inférence décisive : la vérité, condition de l’utilité"
+    ],
+    [
+     "Cette raison établit que la vérité est la norme propre de la science, et même la condition de son utilité.",
+     "II.3 L’éprouver : ce qu’elle établit"
+    ],
+    [
+     "Mais une fonction propre ne règle que l’activité qu’elle définit : elle dit comment chercher, non ce qu’il faut faire de ce qu’on trouve.",
+     "II.3 Ce qu’elle ne permet pas encore, et pourquoi : la portée du principe"
+    ],
+    [
+     "Fidèle à cette seule norme, Joliot avait raison de publier une mesure exacte ; elle ne pouvait rien lui dire de l’usage qu’on en ferait.",
+     "II.3 Sur la scène"
+    ],
+    [
+     "La fidélité au vrai ne permet donc pas encore de dire ce que la science doit à ceux que ses vérités rendent puissants ou menacent.",
+     "II.3 Ce que la seconde réponse ne permet pas encore"
+    ],
+    [
+     "La société a le droit d’attendre de la science qu’elle serve, et la science ne sert qu’en restant fidèle au vrai ; mais l’un de ces droits porte sur ce qu’elle rend, l’autre sur ce qu’elle cherche, et aucun ne dit où commence le pouvoir de l’autre. Les juxtaposer, c’est laisser sans réponse la demande de Szilard, qui portait sur la science même : jusqu’où l’utilité peut-elle donc être exigée de la science sans corrompre ce qui la fait science ?",
+     "Transition · pourquoi leur addition échoue, et ce qui reste à établir, en question"
+    ]
+   ]
+  ],
+  [
+   "III. L’UTILITÉ PEUT CHOISIR LES QUESTIONS, NON LES RÉPONSES",
+   [
+    [
+     "Pour savoir jusqu’où l’utilité peut être exigée, il faut distinguer dans une recherche ce qu’elle demande et ce qu’elle trouve : la question qu’on pose, les moyens qu’on y consacre, la diffusion des résultats d’un côté, la réponse obtenue de l’autre.",
+     "III.1 L’opération que la difficulté exige : un critère"
+    ],
+    [
+     "L’utilité peut légitimement commander les premiers, jamais la seconde : on peut choisir de chercher un vaccin plutôt qu’autre chose, non décider de ce que l’expérience montrera.",
+     "III.1 Le critère énoncé"
+    ],
+    [
+     "Ce critère tient à la nature des deux exigences : choisir une question, c’est décider de l’emploi d’un effort commun, ce qui relève du droit de la société ; établir une réponse, c’est se soumettre à ce qui est, ce qu’aucune volonté ne peut commander sans détruire la connaissance.",
+     "III.2 La démontrer : pourquoi la frontière passe là"
+    ],
+    [
+     "Il conserve ainsi ce que les deux réponses avaient établi, et explique leurs arrêts : on ne pouvait exiger d’avance un service déterminé parce qu’on faisait porter l’utilité sur des réponses encore inconnues, et la fidélité au vrai ne disait rien des usages parce qu’elle ne règle que la réponse.",
+     "III.2 Ce qu’il conserve et ce qu’il explique"
+    ],
+    [
+     "Lyssenko a corrompu la science pour avoir voulu commander la réponse ; Hardy ne pouvait prévoir l’usage de ses théorèmes parce que la réponse ne se commande pas.",
+     "III.2 Le critère sur un second cas"
+    ],
+    [
+     "La science doit donc être utile, en ce que ses questions et la diffusion de ses résultats peuvent être réglées par le bien de ceux qui la font vivre, mais non en ce que l’utilité dirait ce qui est vrai.",
+     "III.3 La réponse au sujet, avec son opérateur"
+    ],
+    [
+     "La demande de Szilard était ainsi légitime, car elle portait sur la diffusion d’un résultat, non sur son exactitude ; Joliot pouvait la refuser, non au nom de la vérité, que le secret laissait intacte, mais seulement en jugeant la publication plus utile à tous.",
+     "III.3 La réponse vérifiée sur le cas"
+    ],
+    [
+     "Reste le cas où c’est la connaissance elle-même, et non sa diffusion, qui est un danger, parce que celui qui la possède peut en user seul.",
+     "III.3 Le reste : ce que cette réponse ne règle pas"
+    ]
+   ]
+  ],
+  [
+   "CONCLUSION",
+   [
+    [
+     "La science doit être utile, mais l’utilité ne peut régler que les questions qu’elle pose et le sort de ce qu’elle trouve ; ce qu’elle trouve, seul le vrai le règle.",
+     "Conclusion · la réponse, avec l’opérateur"
+    ],
+    [
+     "Szilard et Joliot ne s’opposaient pas sur la vérité, que le secret aurait laissée intacte, mais sur l’usage d’un savoir que tous deux savaient exact.",
+     "Conclusion · retour à la scène"
+    ],
+    [
+     "Peut-on cependant renoncer à chercher une vérité parce que la savoir est déjà un danger ?",
+     "Conclusion · le reste en question"
+    ]
+   ]
+  ]
  ]
 }

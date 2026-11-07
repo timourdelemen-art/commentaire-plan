@@ -53,66 +53,223 @@
    "tests": "Cas témoin : trente toiles d’une même façade ne transmettent pas une vision de la cathédrale ; elles apprennent qu’une façade change avec l’heure, et celui qui les a vues regarde n’importe quel mur à six heures puis à midi ; ni A, ni B, ni « voir comme Monet » ne le disaient. Second cas : l’élève qui dessine d’après nature et découvre qu’il ne regardait pas. Restitution : oui. Rechute : le reste (le retour de l’habitude) ne redit pas LB : il porte sur le maintien de la capacité, non sur son acquisition. Test propre : la distinction vaut sur un second cas. Report : non. Acquis nouveau : prémisse nouvelle — on peut apprendre une capacité de varier, et non seulement un contenu ; nécessaire à la décision."
   },
   "candidats_III": [
-   {"id": "retenue", "operation": "Distinction", "proposition": "L’art n’apprend pas une manière de voir, mais le pouvoir d’en changer.", "verdict": "retenue", "raison": "Décide le cas des Cathédrales, conserve les deux acquis, explique les deux arrêts."},
-   {"id": "comme", "operation": "Partage", "proposition": "Il apprend à voir comme l’artiste.", "verdict": "écartée", "raison": "C’est la conciliation ; laquelle des trente façades ?"},
-   {"id": "actif", "operation": "Condition", "proposition": "Il apprend à voir si le spectateur est actif.", "verdict": "dominée", "raison": "Vrai, mais ne dit pas ce qui est appris."},
-   {"id": "science", "operation": "Déplacement", "proposition": "C’est la science, non l’art, qui apprend à voir autrement.", "verdict": "écartée", "raison": "Change de sujet."}
+   {
+    "id": "retenue",
+    "operation": "Distinction",
+    "proposition": "L’art n’apprend pas une manière de voir, mais le pouvoir d’en changer.",
+    "verdict": "retenue",
+    "raison": "Décide le cas des Cathédrales, conserve les deux acquis, explique les deux arrêts."
+   },
+   {
+    "id": "comme",
+    "operation": "Partage",
+    "proposition": "Il apprend à voir comme l’artiste.",
+    "verdict": "écartée",
+    "raison": "C’est la conciliation ; laquelle des trente façades ?"
+   },
+   {
+    "id": "actif",
+    "operation": "Condition",
+    "proposition": "Il apprend à voir si le spectateur est actif.",
+    "verdict": "dominée",
+    "raison": "Vrai, mais ne dit pas ce qui est appris."
+   },
+   {
+    "id": "science",
+    "operation": "Déplacement",
+    "proposition": "C’est la science, non l’art, qui apprend à voir autrement.",
+    "verdict": "écartée",
+    "raison": "Change de sujet."
+   }
   ],
   "generateur": "figure : la distinction ; registre opératoire : par cas et variation ; registre de lecture : par cas ; branches B2 ; annonce N1.",
   "scene": "Monet, série des Cathédrales de Rouen (1892-1894) : une trentaine de toiles de la même façade à différentes heures ; vingt sont exposées chez Durand-Ruel en 1895. Verdict : homologue. Retour : ce que trente toiles apprennent qu’une seule n’apprendrait pas.",
-  "statut": {"problematique": "suffisamment justifiée", "copie": "état de travail (architecture expérimentale)"}
+  "statut": {
+   "problematique": "suffisamment justifiée",
+   "copie": "état de travail (architecture expérimentale)"
+  }
  },
  "citations": [
-  {"texte": "l’homme est l’être le plus enclin à imiter, et il fait ses premiers apprentissages au moyen de l’imitation", "auteur": "Aristote", "oeuvre": "Poétique", "lieu": "4, 1448b", "edition": "Œuvres complètes, dir. Pierre Pellegrin, Flammarion, 2014", "verification": "œuvre fournie, passage retrouvé mot pour mot", "regime": "citation exacte", "fonction": "II.2 : donner la prémisse exacte de l’apprentissage par imitation ; l’inférence tient sans elle."}
+  {
+   "texte": "l’homme est l’être le plus enclin à imiter, et il fait ses premiers apprentissages au moyen de l’imitation",
+   "auteur": "Aristote",
+   "oeuvre": "Poétique",
+   "lieu": "4, 1448b",
+   "edition": "Œuvres complètes, dir. Pierre Pellegrin, Flammarion, 2014",
+   "verification": "œuvre fournie, passage retrouvé mot pour mot",
+   "regime": "citation exacte",
+   "fonction": "II.2 : donner la prémisse exacte de l’apprentissage par imitation ; l’inférence tient sans elle."
+  }
  ],
  "copy": [
-  ["INTRODUCTION", [
-   ["Entre 1892 et 1894, Monet peint plus de trente fois la façade de la cathédrale de Rouen, à l’aube, à midi, au couchant, sous la brume et sous le soleil.", "Introduction · la scène"],
-   ["Devant ces toiles, les visiteurs découvrent que la pierre qu’ils croyaient grise est tour à tour rose, bleue ou dorée.", "Introduction · la scène : ce que les toiles font voir"],
-   ["Monet leur fait voir ce qu’ils ne voyaient pas ; mais il leur propose trente façons de le voir, et non une seule.", "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"],
-   ["On attend de l’art qu’il nous montre le monde comme nous ne le voyions pas, mais aussi que ce regard nouveau devienne le nôtre, hors du musée.", "Introduction · l’enjeu"],
-   ["Apprendre à voir autrement, ce n’est pas seulement être surpris une fois : c’est acquérir une capacité qu’on exerce seul, devant le monde et non devant l’œuvre.", "Introduction · les mots du sujet"],
-   ["Certes, l’œuvre fait voir ce que l’habitude cachait, parce qu’elle arrache la perception à l’usage ; mais elle le fait voir dans son cadre. On répondra que ce qu’on y voit devient une habitude nouvelle ; mais une habitude n’est qu’une autre façon de voir toujours de même.", "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"],
-   ["Si l’œuvre fait voir ce que l’habitude cachait, mais que ce qu’on en retient devient une habitude nouvelle, l’art peut-il nous apprendre à voir le monde autrement, quand on ne sait pas encore ce qu’il apprend qui ne soit pas une autre façon de voir toujours de même ?", "Introduction · la problématique : une seule question, qui garde « peut-il nous apprendre »"],
-   ["On examinera d’abord pourquoi l’œuvre paraît nous apprendre à voir, et jusqu’où cette raison porte ; ce qu’elle laisse en suspens obligera à examiner ce que devient notre regard après l’œuvre ; il faudra alors établir ce que ces deux voies, ensemble, laissent encore ouvert.", "Introduction · l’annonce"]
-  ]],
-  ["I. L’ŒUVRE FAIT VOIR CE QUE L’HABITUDE CACHAIT", [
-   ["L’art peut nous apprendre à voir le monde autrement, car l’œuvre fait voir ce que l’habitude nous cachait.", "I.1 Établir la première réponse"],
-   ["Cette réponse sauve l’expérience de tout amateur : on sort parfois d’une exposition avec l’impression d’avoir eu les yeux ouverts.", "I.1 Ce qu’elle sauve"],
-   ["Notre perception ordinaire est réglée par l’usage : nous voyons une porte à ouvrir, un mur à longer, non une lumière qui change ; or l’œuvre isole la perception de l’usage, puisqu’on n’entre pas dans la cathédrale peinte.", "I.2 La fonder par la condition de la perception ordinaire"],
-   ["Elle fait donc voir ce que l’habitude ne voyait pas : la couleur de la pierre, qu’aucun passant pressé ne remarquait.", "I.2 L’inférence décisive"],
-   ["Ce fondement établit que l’œuvre fait voir ce que l’habitude ne voyait pas.", "I.3 L’éprouver : ce qu’il établit"],
-   ["Mais il isole la perception dans le cadre de l’œuvre, et rien dans ce mécanisme n’assure que cette perception passe dans le regard que nous portons sur le monde : on peut voir la pierre rose sur la toile et la voir grise en sortant.", "I.3 Ce qu’il ne permet pas encore, et pourquoi"],
-   ["Bien des visiteurs de la galerie Durand-Ruel ont admiré les Cathédrales, puis repris la rue sans rien voir de plus.", "I.3 Sur la scène"],
-   ["Ce que l’œuvre fait voir ne permet donc pas encore d’établir qu’elle nous apprenne à voir le monde autrement, parce qu’elle le fait voir dans son cadre, et non dans notre regard sur les choses.", "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"],
-   ["L’œuvre fait voir ce que l’habitude cachait ; mais elle ne nous apprend pas pour autant à voir le monde autrement, parce qu’elle le fait voir dans son cadre.", "Transition · ce qui est établi, ce qui manque, et pourquoi"],
-   ["Il faut donc examiner ce que devient le regard du spectateur après l’œuvre : ce qu’il a vu sur la toile ne se dépose-t-il pas peu à peu dans sa manière de voir ?", "Transition · l’examen nécessaire, en question"]
-  ]],
-  ["II. LES FORMES DE L’ART DEVIENNENT NOS HABITUDES", [
-   ["Ce qu’on a vu sur la toile se dépose dans notre manière de voir, et c’est ainsi que l’art transforme durablement notre regard.", "II.1 La seconde réponse, qui répond à l’examen demandé"],
-   ["Elle ne nie pas que l’œuvre fasse voir ; elle montre comment ce qu’elle fait voir passe dans le monde.", "II.1 Ce qu’elle conserve"],
-   ["Notre perception est formée par des manières de voir que nous avons apprises, et nous apprenons d’abord en imitant : Aristote observe que « l’homme est l’être le plus enclin à imiter, et il fait ses premiers apprentissages au moyen de l’imitation ».", "II.2 La fonder par la genèse des manières de voir ; citation qui en donne la prémisse"],
-   ["Les formes que l’art nous propose deviennent ainsi nos habitudes : on a vu les brumes de Londres autrement depuis qu’on a vu Turner, et la montagne Sainte-Victoire est devenue celle de Cézanne.", "II.2 L’inférence décisive"],
-   ["Cette raison établit que l’art peut transformer durablement nos manières de voir.", "II.3 L’éprouver : ce qu’elle établit"],
-   ["Mais elle l’explique par une forme devenue habitude, et une habitude est une manière fixe de voir : l’art remplacerait une convention par une autre, au lieu de nous apprendre à voir autrement.", "II.3 Ce qu’elle ne permet pas encore, et pourquoi : l’habitude prise au mot"],
-   ["Les cartes postales de Provence peintes « à la Cézanne » ne montrent plus rien : elles répètent une manière.", "II.3 Le cas qui l’éprouve : un autre moyen qu’en I.3"],
-   ["La transformation de nos habitudes ne permet donc pas encore d’établir que l’art nous apprenne à voir autrement, parce qu’une habitude nouvelle n’est qu’une autre façon de voir toujours de la même manière.", "II.3 Ce que la seconde réponse ne permet pas encore"],
-   ["L’œuvre fait voir ce que l’habitude cachait, et l’art peut transformer nos manières de voir ; mais l’une des réponses montre sans apprendre, l’autre fait apprendre une seule manière, et aucune ne dit ce que serait apprendre à voir autrement.", "Transition · les deux acquis et leur rapport"],
-   ["Dire qu’il apprend à voir comme l’artiste ne dit rien des Cathédrales, puisque Monet en propose trente : qu’est-ce donc que l’art peut apprendre, qui ne soit ni une vision passagère ni une habitude nouvelle ?", "Transition · pourquoi leur addition échoue, et ce qui reste à établir, en question"]
-  ]],
-  ["III. APPRENDRE QUE LE REGARD PEUT CHANGER", [
-   ["Ce que l’art peut apprendre n’est pas une manière de voir, mais le pouvoir d’en changer : découvrir que notre regard est toujours une manière, qu’on peut quitter pour une autre.", "III.1 L’opération que la difficulté exige : une distinction"],
-   ["Apprendre une manière, c’est recevoir un contenu ; apprendre à changer de manière, c’est exercer une capacité.", "III.1 Ce que la distinction sépare"],
-   ["Une capacité exercée devant les œuvres peut s’exercer hors d’elles, parce qu’elle ne dépend d’aucun contenu de l’œuvre : celui qui a appris que la pierre change avec l’heure peut le voir sur n’importe quel mur.", "III.2 La démontrer : pourquoi cette capacité passe dans le monde"],
-   ["Ainsi s’expliquent les deux réponses : l’œuvre faisait voir sans apprendre tant qu’on n’en retenait qu’un contenu, et l’habitude naissait quand on prenait une œuvre pour la règle, non quand on en rencontrait plusieurs.", "III.2 Ce qu’elle conserve et ce qu’elle explique"],
-   ["L’art peut donc nous apprendre à voir le monde autrement, s’il nous apprend que notre regard est une manière parmi d’autres et nous exerce à en changer.", "III.3 La réponse au sujet, avec son opérateur"],
-   ["Trente toiles d’une même façade ne transmettent pas une vision de la cathédrale : elles apprennent qu’une façade n’a pas une seule couleur, et celui qui les a regardées voit autrement le premier mur venu, à six heures puis à midi.", "III.3 La réponse vérifiée sur le cas"],
-   ["Reste que ce regard exercé peut, à son tour, se figer, et que rien dans les œuvres ne garantit qu’il ne redevienne pas une habitude.", "III.3 Le reste : ce que cette réponse ne règle pas"]
-  ]],
-  ["CONCLUSION", [
-   ["L’art peut nous apprendre à voir le monde autrement, non en nous donnant une nouvelle manière de voir, mais en nous apprenant que nous pouvons en changer.", "Conclusion · la réponse, avec l’opérateur"],
-   ["Monet n’a pas peint la vraie couleur de la cathédrale de Rouen : il a peint qu’elle n’en avait pas une seule.", "Conclusion · retour à la scène"],
-   ["Mais qu’est-ce qui empêchera ce regard appris devant les œuvres de redevenir une habitude ?", "Conclusion · le reste en question"]
-  ]]
+  [
+   "INTRODUCTION",
+   [
+    [
+     "Entre 1892 et 1894, Monet peint plus de trente fois la façade de la cathédrale de Rouen, à l’aube, à midi, au couchant, sous la brume et sous le soleil.",
+     "Introduction · la scène"
+    ],
+    [
+     "Devant ces toiles, les visiteurs découvrent que la pierre qu’ils croyaient grise est tour à tour rose, bleue ou dorée.",
+     "Introduction · la scène : ce que les toiles font voir"
+    ],
+    [
+     "Monet leur fait voir ce qu’ils ne voyaient pas ; mais il leur propose trente façons de le voir, et non une seule.",
+     "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"
+    ],
+    [
+     "On attend de l’art qu’il nous montre le monde comme nous ne le voyions pas, mais aussi que ce regard nouveau devienne le nôtre, hors du musée.",
+     "Introduction · l’enjeu"
+    ],
+    [
+     "Apprendre à voir autrement, ce n’est pas seulement être surpris une fois : c’est acquérir une capacité qu’on exerce seul, devant le monde et non devant l’œuvre.",
+     "Introduction · les mots du sujet"
+    ],
+    [
+     "Certes, l’œuvre fait voir ce que l’habitude cachait, parce qu’elle arrache la perception à l’usage ; mais elle le fait voir dans son cadre. On répondra que ce qu’on y voit devient une habitude nouvelle ; mais une habitude n’est qu’une autre façon de voir toujours de même.",
+     "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"
+    ],
+    [
+     "Si l’œuvre fait voir ce que l’habitude cachait, mais que ce qu’on en retient devient une habitude nouvelle, l’art peut-il nous apprendre à voir le monde autrement, quand on ne sait pas encore ce qu’il apprend qui ne soit pas une autre façon de voir toujours de même ?",
+     "Introduction · la problématique : une seule question, qui garde « peut-il nous apprendre »"
+    ],
+    [
+     "On examinera d’abord pourquoi l’œuvre paraît nous apprendre à voir, et jusqu’où cette raison porte ; ce qu’elle laisse en suspens obligera à examiner ce que devient notre regard après l’œuvre ; il faudra alors établir ce que ces deux voies, ensemble, laissent encore ouvert.",
+     "Introduction · l’annonce"
+    ]
+   ]
+  ],
+  [
+   "I. L’ŒUVRE FAIT VOIR CE QUE L’HABITUDE CACHAIT",
+   [
+    [
+     "L’art peut nous apprendre à voir le monde autrement, car l’œuvre fait voir ce que l’habitude nous cachait.",
+     "I.1 Établir la première réponse"
+    ],
+    [
+     "Cette réponse sauve l’expérience de tout amateur : on sort parfois d’une exposition avec l’impression d’avoir eu les yeux ouverts.",
+     "I.1 Ce qu’elle sauve"
+    ],
+    [
+     "Notre perception ordinaire est réglée par l’usage : nous voyons une porte à ouvrir, un mur à longer, non une lumière qui change ; or l’œuvre isole la perception de l’usage, puisqu’on n’entre pas dans la cathédrale peinte.",
+     "I.2 La fonder par la condition de la perception ordinaire"
+    ],
+    [
+     "Elle fait donc voir ce que l’habitude ne voyait pas : la couleur de la pierre, qu’aucun passant pressé ne remarquait.",
+     "I.2 L’inférence décisive"
+    ],
+    [
+     "Ce fondement établit que l’œuvre fait voir ce que l’habitude ne voyait pas.",
+     "I.3 L’éprouver : ce qu’il établit"
+    ],
+    [
+     "Mais il isole la perception dans le cadre de l’œuvre, et rien dans ce mécanisme n’assure que cette perception passe dans le regard que nous portons sur le monde : on peut voir la pierre rose sur la toile et la voir grise en sortant.",
+     "I.3 Ce qu’il ne permet pas encore, et pourquoi"
+    ],
+    [
+     "Bien des visiteurs de la galerie Durand-Ruel ont admiré les Cathédrales, puis repris la rue sans rien voir de plus.",
+     "I.3 Sur la scène"
+    ],
+    [
+     "Ce que l’œuvre fait voir ne permet donc pas encore d’établir qu’elle nous apprenne à voir le monde autrement, parce qu’elle le fait voir dans son cadre, et non dans notre regard sur les choses.",
+     "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"
+    ],
+    [
+     "L’œuvre fait voir ce que l’habitude cachait ; mais elle ne nous apprend pas pour autant à voir le monde autrement, parce qu’elle le fait voir dans son cadre. Il faut donc examiner ce que devient le regard du spectateur après l’œuvre : ce qu’il a vu sur la toile ne se dépose-t-il pas peu à peu dans sa manière de voir ?",
+     "Transition · l’examen nécessaire, en question"
+    ]
+   ]
+  ],
+  [
+   "II. LES FORMES DE L’ART DEVIENNENT NOS HABITUDES",
+   [
+    [
+     "Ce qu’on a vu sur la toile se dépose dans notre manière de voir, et c’est ainsi que l’art transforme durablement notre regard.",
+     "II.1 La seconde réponse, qui répond à l’examen demandé"
+    ],
+    [
+     "Elle ne nie pas que l’œuvre fasse voir ; elle montre comment ce qu’elle fait voir passe dans le monde.",
+     "II.1 Ce qu’elle conserve"
+    ],
+    [
+     "Notre perception est formée par des manières de voir que nous avons apprises, et nous apprenons d’abord en imitant : Aristote observe que « l’homme est l’être le plus enclin à imiter, et il fait ses premiers apprentissages au moyen de l’imitation ».",
+     "II.2 La fonder par la genèse des manières de voir ; citation qui en donne la prémisse"
+    ],
+    [
+     "Les formes que l’art nous propose deviennent ainsi nos habitudes : on a vu les brumes de Londres autrement depuis qu’on a vu Turner, et la montagne Sainte-Victoire est devenue celle de Cézanne.",
+     "II.2 L’inférence décisive"
+    ],
+    [
+     "Cette raison établit que l’art peut transformer durablement nos manières de voir.",
+     "II.3 L’éprouver : ce qu’elle établit"
+    ],
+    [
+     "Mais elle l’explique par une forme devenue habitude, et une habitude est une manière fixe de voir : l’art remplacerait une convention par une autre, au lieu de nous apprendre à voir autrement.",
+     "II.3 Ce qu’elle ne permet pas encore, et pourquoi : l’habitude prise au mot"
+    ],
+    [
+     "Les cartes postales de Provence peintes « à la Cézanne » ne montrent plus rien : elles répètent une manière.",
+     "II.3 Le cas qui l’éprouve : un autre moyen qu’en I.3"
+    ],
+    [
+     "La transformation de nos habitudes ne permet donc pas encore d’établir que l’art nous apprenne à voir autrement, parce qu’une habitude nouvelle n’est qu’une autre façon de voir toujours de la même manière.",
+     "II.3 Ce que la seconde réponse ne permet pas encore"
+    ],
+    [
+     "L’œuvre fait voir ce que l’habitude cachait, et l’art peut transformer nos manières de voir ; mais l’une des réponses montre sans apprendre, l’autre fait apprendre une seule manière, et aucune ne dit ce que serait apprendre à voir autrement. Dire qu’il apprend à voir comme l’artiste ne dit rien des Cathédrales, puisque Monet en propose trente : qu’est-ce donc que l’art peut apprendre, qui ne soit ni une vision passagère ni une habitude nouvelle ?",
+     "Transition · pourquoi leur addition échoue, et ce qui reste à établir, en question"
+    ]
+   ]
+  ],
+  [
+   "III. APPRENDRE QUE LE REGARD PEUT CHANGER",
+   [
+    [
+     "Ce que l’art peut apprendre n’est pas une manière de voir, mais le pouvoir d’en changer : découvrir que notre regard est toujours une manière, qu’on peut quitter pour une autre.",
+     "III.1 L’opération que la difficulté exige : une distinction"
+    ],
+    [
+     "Apprendre une manière, c’est recevoir un contenu ; apprendre à changer de manière, c’est exercer une capacité.",
+     "III.1 Ce que la distinction sépare"
+    ],
+    [
+     "Une capacité exercée devant les œuvres peut s’exercer hors d’elles, parce qu’elle ne dépend d’aucun contenu de l’œuvre : celui qui a appris que la pierre change avec l’heure peut le voir sur n’importe quel mur.",
+     "III.2 La démontrer : pourquoi cette capacité passe dans le monde"
+    ],
+    [
+     "Ainsi s’expliquent les deux réponses : l’œuvre faisait voir sans apprendre tant qu’on n’en retenait qu’un contenu, et l’habitude naissait quand on prenait une œuvre pour la règle, non quand on en rencontrait plusieurs.",
+     "III.2 Ce qu’elle conserve et ce qu’elle explique"
+    ],
+    [
+     "L’art peut donc nous apprendre à voir le monde autrement, s’il nous apprend que notre regard est une manière parmi d’autres et nous exerce à en changer.",
+     "III.3 La réponse au sujet, avec son opérateur"
+    ],
+    [
+     "Trente toiles d’une même façade ne transmettent pas une vision de la cathédrale : elles apprennent qu’une façade n’a pas une seule couleur, et celui qui les a regardées voit autrement le premier mur venu, à six heures puis à midi.",
+     "III.3 La réponse vérifiée sur le cas"
+    ],
+    [
+     "Reste que ce regard exercé peut, à son tour, se figer, et que rien dans les œuvres ne garantit qu’il ne redevienne pas une habitude.",
+     "III.3 Le reste : ce que cette réponse ne règle pas"
+    ]
+   ]
+  ],
+  [
+   "CONCLUSION",
+   [
+    [
+     "L’art peut nous apprendre à voir le monde autrement, non en nous donnant une nouvelle manière de voir, mais en nous apprenant que nous pouvons en changer.",
+     "Conclusion · la réponse, avec l’opérateur"
+    ],
+    [
+     "Monet n’a pas peint la vraie couleur de la cathédrale de Rouen : il a peint qu’elle n’en avait pas une seule.",
+     "Conclusion · retour à la scène"
+    ],
+    [
+     "Mais qu’est-ce qui empêchera ce regard appris devant les œuvres de redevenir une habitude ?",
+     "Conclusion · le reste en question"
+    ]
+   ]
+  ]
  ]
 }

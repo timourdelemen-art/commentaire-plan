@@ -52,65 +52,216 @@
    "tests": "Cas témoin : à Montgomery, ce sont des citoyens qui saisissent la justice fédérale, et c’est elle qui déclare la loi de l’Alabama contraire à la Constitution ; la III dit à qui revenait la lutte. Second cas : le contrôle de constitutionnalité saisi par un justiciable. Restitution : oui. Rechute : le reste (injustices sans loi) ne redit ni LA ni LB. Test propre : le médiateur ne répète ni l’État législateur ni le citoyen. Report : la question ne se repose pas à l’identique pour le tribunal, qui n’est pas l’auteur de la loi. Acquis nouveau : prémisse nouvelle — un pouvoir divisé peut être tiers à l’égard de lui-même ; nécessaire à la décision."
   },
   "candidats_III": [
-   {"id": "retenue", "operation": "Médiateur", "proposition": "La lutte revient principalement à l’État, s’il est organisé pour que les citoyens puissent faire juger ses lois par une autorité qui n’en est pas l’auteur.", "verdict": "retenue", "raison": "Conserve la force commune et le jugement des citoyens, explique les deux arrêts, décide Montgomery."},
-   {"id": "frontiere", "operation": "Critère de frontière", "proposition": "À l’État les injustices privées, aux citoyens les injustices de l’État.", "verdict": "écartée", "raison": "C’est le cumul, qui ne dit pas qui a vaincu la ségrégation."},
-   {"id": "forme", "operation": "Critère", "proposition": "La contestation juste se reconnaît à sa forme publique, qui en appelle à la règle commune.", "verdict": "dominée", "raison": "Critère utile, mais ne dit pas à qui revient principalement la lutte."},
-   {"id": "processus", "operation": "Ordre des moments", "proposition": "Contestation, puis réforme, puis application.", "verdict": "écartée", "raison": "Succession sans garantie de la correction pendant l’application."}
+   {
+    "id": "retenue",
+    "operation": "Médiateur",
+    "proposition": "La lutte revient principalement à l’État, s’il est organisé pour que les citoyens puissent faire juger ses lois par une autorité qui n’en est pas l’auteur.",
+    "verdict": "retenue",
+    "raison": "Conserve la force commune et le jugement des citoyens, explique les deux arrêts, décide Montgomery."
+   },
+   {
+    "id": "frontiere",
+    "operation": "Critère de frontière",
+    "proposition": "À l’État les injustices privées, aux citoyens les injustices de l’État.",
+    "verdict": "écartée",
+    "raison": "C’est le cumul, qui ne dit pas qui a vaincu la ségrégation."
+   },
+   {
+    "id": "forme",
+    "operation": "Critère",
+    "proposition": "La contestation juste se reconnaît à sa forme publique, qui en appelle à la règle commune.",
+    "verdict": "dominée",
+    "raison": "Critère utile, mais ne dit pas à qui revient principalement la lutte."
+   },
+   {
+    "id": "processus",
+    "operation": "Ordre des moments",
+    "proposition": "Contestation, puis réforme, puis application.",
+    "verdict": "écartée",
+    "raison": "Succession sans garantie de la correction pendant l’application."
+   }
   ],
   "generateur": "figure : la dépendance ; registre opératoire : dialectique ; registre de lecture : démonstratif à ordre visible ; branches B1 ; annonce N1.",
   "scene": "Montgomery (Alabama), 1er décembre 1955 : Rosa Parks refuse de céder sa place ; boycott des bus de 381 jours ; arrêt Browder v. Gayle (tribunal fédéral, juin 1956, confirmé par la Cour suprême en novembre 1956). Verdict : homologue. Retour : la décision fédérale est le terme qui relie.",
-  "statut": {"problematique": "suffisamment justifiée", "copie": "état de travail (architecture expérimentale)"}
+  "statut": {
+   "problematique": "suffisamment justifiée",
+   "copie": "état de travail (architecture expérimentale)"
+  }
  },
  "citations": [],
  "copy": [
-  ["INTRODUCTION", [
-   ["Le 1er décembre 1955, à Montgomery, en Alabama, Rosa Parks refuse de céder sa place à un passager blanc, comme l’exige la loi de l’État.", "Introduction · la scène"],
-   ["Elle est arrêtée ; les Noirs de la ville boycottent les bus pendant plus d’un an, jusqu’à ce qu’une cour fédérale, puis la Cour suprême, déclarent la ségrégation des bus contraire à la Constitution.", "Introduction · la scène : la lutte et son issue"],
-   ["La loi injuste venait d’un État ; c’est pourtant une autre autorité publique qui l’abolit, sur la demande de citoyens qui l’avaient refusée.", "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"],
-   ["On attend de la lutte contre l’injustice qu’elle impose à tous la même règle, mais aussi qu’elle puisse atteindre les règles elles-mêmes quand elles sont injustes.", "Introduction · l’enjeu"],
-   ["La question n’est pas de savoir si l’État doit seul combattre l’injustice, mais si cette tâche lui incombe en premier lieu, plus qu’à quiconque.", "Introduction · les mots du sujet : « principalement »"],
-   ["Si l’on répond oui, parce que seul l’État juge en tiers avec la force de tous, on ne voit pas encore qui le jugera quand il est l’auteur de l’injustice ; si l’on répond que la tâche revient aux citoyens, parce qu’eux seuls peuvent juger une loi, on oublie que leur jugement n’impose rien à tous.", "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"],
-   ["Revient-il principalement à l’État de lutter contre l’injustice parce qu’il juge en tiers avec la force de tous, alors qu’il cesse d’être tiers devant ses propres lois, ou aux citoyens parce qu’ils peuvent juger ces lois, alors que leur jugement n’impose rien à tous ?", "Introduction · la problématique : une seule question, qui garde « revient-il principalement »"],
-   ["On examinera d’abord pourquoi cette tâche paraît revenir à l’État, et jusqu’où cette raison porte ; ce qu’elle laisse en suspens obligera à examiner qui peut combattre les injustices dont il est l’auteur ; il faudra alors établir ce que ces deux voies, ensemble, laissent encore ouvert.", "Introduction · l’annonce"]
-  ]],
-  ["I. UN TIERS ARMÉ DE LA FORCE DE TOUS", [
-   ["Il revient principalement à l’État de lutter contre l’injustice, car c’est à cette fin que les hommes lui remettent le pouvoir de juger et de contraindre.", "I.1 Établir la première réponse"],
-   ["Cette réponse sauve ce que la vengeance privée ne connaît pas : une justice égale pour le faible et le fort.", "I.1 Ce qu’elle sauve"],
-   ["Nul n’est bon juge en sa propre cause, puisque la partie juge selon son intérêt ; lutter contre une injustice exige donc un jugement qui ne soit pas celui d’une partie, et une force supérieure aux parties pour le faire respecter.", "I.2 La fonder : les conditions d’une lutte contre l’injustice"],
-   ["Or les particuliers et les groupes sont toujours parties ; seul l’État réunit un juge qui ne l’est pas et une force commune, et la tâche lui revient donc en premier lieu.", "I.2 L’inférence décisive, par élimination"],
-   ["Ce fondement établit qu’il revient principalement à l’État de réprimer et de réparer les torts entre particuliers, qu’il est seul à pouvoir juger en tiers et avec la force commune.", "I.3 L’éprouver : ce qu’il établit"],
-   ["Mais il fonde cette mission sur la position de tiers, et quand l’État est l’auteur d’une loi injuste, il n’est plus tiers : la règle qui le désignait comme juge se retourne alors contre lui.", "I.3 Ce qu’il ne permet pas encore, et pourquoi"],
-   ["Les juges de l’Alabama appliquaient la loi de l’Alabama.", "I.3 Sur la scène"],
-   ["La position de tiers qui fonde la mission de l’État ne permet donc pas encore d’établir qu’il lui revienne de combattre les injustices dont il est lui-même l’auteur.", "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"],
-   ["L’État doit d’abord juger les torts entre particuliers ; mais cela ne vaut pas des injustices dont il est l’auteur, parce qu’il cesse alors d’être un tiers.", "Transition · ce qui est établi, ce qui manque, et pourquoi"],
-   ["Il faut donc examiner qui peut combattre ces injustices-là : quand la loi elle-même est injuste, qui peut le reconnaître et la combattre ?", "Transition · l’examen nécessaire, en question"]
-  ]],
-  ["II. LE JUGEMENT DES CITOYENS", [
-   ["Quand la loi elle-même est injuste, ce sont les citoyens qui peuvent le reconnaître et la combattre, et la lutte leur revient alors d’abord.", "II.1 La seconde réponse, qui répond à l’examen demandé"],
-   ["Elle ne retire pas à l’État le jugement des torts privés ; elle désigne ce qu’il ne peut juger.", "II.1 Ce qu’elle conserve"],
-   ["Une loi injuste ne peut être reconnue comme telle par un jugement qui dépend d’elle ; or le jugement des citoyens ne dépend pas de la loi qu’il juge, puisqu’on peut lui obéir tout en la tenant pour injuste.", "II.2 La fonder : l’indépendance du jugement à l’égard de la loi"],
-   ["Ce qui reconnaît une injustice peut seul en commencer la correction : c’est le refus de Rosa Parks, puis le boycott, qui ont fait de la ségrégation une question.", "II.2 L’inférence décisive, sur la scène"],
-   ["Cette raison établit que les citoyens peuvent reconnaître et combattre les injustices dont l’État est l’auteur.", "II.3 L’éprouver : ce qu’elle établit"],
-   ["Mais elle fonde leur lutte sur un jugement indépendant de la loi, et un tel jugement est celui de chacun : il ne peut, par lui-même, imposer à tous une même règle, ni distinguer la contestation juste de celle qui ne l’est pas.", "II.3 Ce qu’elle ne permet pas encore, et pourquoi"],
-   ["À Montgomery même, d’autres citoyens s’organisaient pour défendre la ségrégation, et le boycott le plus juste n’abolissait pas la loi.", "II.3 Le cas qui l’éprouve : un autre geste qu’en I.3"],
-   ["Le jugement des citoyens ne permet donc pas encore d’établir qu’il leur revienne principalement de lutter contre l’injustice, parce qu’il ne peut, par lui-même, imposer à tous une même règle.", "II.3 Ce que la seconde réponse ne permet pas encore"],
-   ["L’État juge les torts avec la force de tous, et les citoyens peuvent juger ses lois ; mais l’un a la force sans être toujours tiers, les autres le jugement sans la force commune, et chacun a besoin de ce que l’autre possède.", "Transition · les deux acquis et leur rapport"],
-   ["Confier à l’État les injustices privées et aux citoyens celles de l’État ne dit pas qui a vaincu la ségrégation : qu’est-ce qui peut donc relier le jugement des citoyens à la force de l’État ?", "Transition · pourquoi leur partage échoue, et ce qui reste à établir, en question"]
-  ]],
-  ["III. UN ÉTAT QUI PEUT ÊTRE JUGÉ", [
-   ["Ce qui relie le jugement des citoyens à la force de l’État est une institution : une constitution et des tribunaux qui permettent aux citoyens de faire juger les lois par une autorité qui n’en est pas l’auteur.", "III.1 L’opération que la difficulté exige : un terme qui relie"],
-   ["Par elle, l’État se divise : une partie de lui juge ce qu’une autre a fait.", "III.1 Ce que fait ce terme"],
-   ["Ce terme conserve les deux réponses : le jugement des citoyens devient règle commune en passant par le tribunal, et la force de l’État reste ce qui impose cette règle à tous.", "III.2 La démontrer : ce qu’il conserve"],
-   ["Il explique aussi leurs arrêts : l’État ne pouvait juger ses propres lois tant qu’il était un seul juge, et les citoyens ne pouvaient rien imposer tant que leur jugement restait celui de chacun.", "III.2 Ce qu’il explique"],
-   ["Un pouvoir divisé peut être tiers à l’égard de lui-même, ce que ni l’État unique ni le citoyen seul ne pouvaient être.", "III.2 L’inférence décisive"],
-   ["Il revient donc principalement à l’État de lutter contre l’injustice, à condition qu’il soit organisé pour pouvoir être jugé par lui-même, à la demande des citoyens.", "III.3 La réponse au sujet, avec son opérateur"],
-   ["À Montgomery, ce sont des citoyens qui saisissent la justice fédérale, et c’est elle qui déclare la loi de l’Alabama contraire à la Constitution : la lutte revenait à l’État, mais à un État qui pouvait être mis en cause.", "III.3 La réponse vérifiée sur le cas"],
-   ["Reste que bien des injustices ne passent par aucune loi ni par aucun acte qu’un tribunal puisse juger : le mépris, l’exclusion silencieuse, les portes qui restent fermées.", "III.3 Le reste : ce que cette réponse ne règle pas"]
-  ]],
-  ["CONCLUSION", [
-   ["Il revient principalement à l’État de lutter contre l’injustice, non comme un juge unique et sans appel, mais comme un pouvoir assez divisé pour que les citoyens puissent lui faire juger ses propres lois.", "Conclusion · la réponse, avec l’opérateur"],
-   ["Rosa Parks a désobéi à une loi ; elle n’a pas eu à se passer de l’État pour la faire abolir.", "Conclusion · retour à la scène"],
-   ["Mais qui luttera contre les injustices qu’aucun tribunal ne peut juger ?", "Conclusion · le reste en question"]
-  ]]
+  [
+   "INTRODUCTION",
+   [
+    [
+     "Le 1er décembre 1955, à Montgomery, en Alabama, Rosa Parks refuse de céder sa place à un passager blanc, comme l’exige la loi de l’État.",
+     "Introduction · la scène"
+    ],
+    [
+     "Elle est arrêtée ; les Noirs de la ville boycottent les bus pendant plus d’un an, jusqu’à ce qu’une cour fédérale, puis la Cour suprême, déclarent la ségrégation des bus contraire à la Constitution.",
+     "Introduction · la scène : la lutte et son issue"
+    ],
+    [
+     "La loi injuste venait d’un État ; c’est pourtant une autre autorité publique qui l’abolit, sur la demande de citoyens qui l’avaient refusée.",
+     "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"
+    ],
+    [
+     "On attend de la lutte contre l’injustice qu’elle impose à tous la même règle, mais aussi qu’elle puisse atteindre les règles elles-mêmes quand elles sont injustes.",
+     "Introduction · l’enjeu"
+    ],
+    [
+     "La question n’est pas de savoir si l’État doit seul combattre l’injustice, mais si cette tâche lui incombe en premier lieu, plus qu’à quiconque.",
+     "Introduction · les mots du sujet : « principalement »"
+    ],
+    [
+     "Si l’on répond oui, parce que seul l’État juge en tiers avec la force de tous, on ne voit pas encore qui le jugera quand il est l’auteur de l’injustice ; si l’on répond que la tâche revient aux citoyens, parce qu’eux seuls peuvent juger une loi, on oublie que leur jugement n’impose rien à tous.",
+     "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"
+    ],
+    [
+     "Revient-il principalement à l’État de lutter contre l’injustice parce qu’il juge en tiers avec la force de tous, alors qu’il cesse d’être tiers devant ses propres lois, ou aux citoyens parce qu’ils peuvent juger ces lois, alors que leur jugement n’impose rien à tous ?",
+     "Introduction · la problématique : une seule question, qui garde « revient-il principalement »"
+    ],
+    [
+     "On examinera d’abord pourquoi cette tâche paraît revenir à l’État, et jusqu’où cette raison porte ; ce qu’elle laisse en suspens obligera à examiner qui peut combattre les injustices dont il est l’auteur ; il faudra alors établir ce que ces deux voies, ensemble, laissent encore ouvert.",
+     "Introduction · l’annonce"
+    ]
+   ]
+  ],
+  [
+   "I. UN TIERS ARMÉ DE LA FORCE DE TOUS",
+   [
+    [
+     "Il revient principalement à l’État de lutter contre l’injustice, car c’est à cette fin que les hommes lui remettent le pouvoir de juger et de contraindre.",
+     "I.1 Établir la première réponse"
+    ],
+    [
+     "Cette réponse sauve ce que la vengeance privée ne connaît pas : une justice égale pour le faible et le fort.",
+     "I.1 Ce qu’elle sauve"
+    ],
+    [
+     "Nul n’est bon juge en sa propre cause, puisque la partie juge selon son intérêt ; lutter contre une injustice exige donc un jugement qui ne soit pas celui d’une partie, et une force supérieure aux parties pour le faire respecter.",
+     "I.2 La fonder : les conditions d’une lutte contre l’injustice"
+    ],
+    [
+     "Or les particuliers et les groupes sont toujours parties ; seul l’État réunit un juge qui ne l’est pas et une force commune, et la tâche lui revient donc en premier lieu.",
+     "I.2 L’inférence décisive, par élimination"
+    ],
+    [
+     "Ce fondement établit qu’il revient principalement à l’État de réprimer et de réparer les torts entre particuliers, qu’il est seul à pouvoir juger en tiers et avec la force commune.",
+     "I.3 L’éprouver : ce qu’il établit"
+    ],
+    [
+     "Mais il fonde cette mission sur la position de tiers, et quand l’État est l’auteur d’une loi injuste, il n’est plus tiers : la règle qui le désignait comme juge se retourne alors contre lui.",
+     "I.3 Ce qu’il ne permet pas encore, et pourquoi"
+    ],
+    [
+     "Les juges de l’Alabama appliquaient la loi de l’Alabama.",
+     "I.3 Sur la scène"
+    ],
+    [
+     "La position de tiers qui fonde la mission de l’État ne permet donc pas encore d’établir qu’il lui revienne de combattre les injustices dont il est lui-même l’auteur.",
+     "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"
+    ],
+    [
+     "L’État doit d’abord juger les torts entre particuliers ; mais cela ne vaut pas des injustices dont il est l’auteur, parce qu’il cesse alors d’être un tiers. Il faut donc examiner qui peut combattre ces injustices-là : quand la loi elle-même est injuste, qui peut le reconnaître et la combattre ?",
+     "Transition · l’examen nécessaire, en question"
+    ]
+   ]
+  ],
+  [
+   "II. LE JUGEMENT DES CITOYENS",
+   [
+    [
+     "Quand la loi elle-même est injuste, ce sont les citoyens qui peuvent le reconnaître et la combattre, et la lutte leur revient alors d’abord.",
+     "II.1 La seconde réponse, qui répond à l’examen demandé"
+    ],
+    [
+     "Elle ne retire pas à l’État le jugement des torts privés ; elle désigne ce qu’il ne peut juger.",
+     "II.1 Ce qu’elle conserve"
+    ],
+    [
+     "Une loi injuste ne peut être reconnue comme telle par un jugement qui dépend d’elle ; or le jugement des citoyens ne dépend pas de la loi qu’il juge, puisqu’on peut lui obéir tout en la tenant pour injuste.",
+     "II.2 La fonder : l’indépendance du jugement à l’égard de la loi"
+    ],
+    [
+     "Ce qui reconnaît une injustice peut seul en commencer la correction : c’est le refus de Rosa Parks, puis le boycott, qui ont fait de la ségrégation une question.",
+     "II.2 L’inférence décisive, sur la scène"
+    ],
+    [
+     "Cette raison établit que les citoyens peuvent reconnaître et combattre les injustices dont l’État est l’auteur.",
+     "II.3 L’éprouver : ce qu’elle établit"
+    ],
+    [
+     "Mais elle fonde leur lutte sur un jugement indépendant de la loi, et un tel jugement est celui de chacun : il ne peut, par lui-même, imposer à tous une même règle, ni distinguer la contestation juste de celle qui ne l’est pas.",
+     "II.3 Ce qu’elle ne permet pas encore, et pourquoi"
+    ],
+    [
+     "À Montgomery même, d’autres citoyens s’organisaient pour défendre la ségrégation, et le boycott le plus juste n’abolissait pas la loi.",
+     "II.3 Le cas qui l’éprouve : un autre geste qu’en I.3"
+    ],
+    [
+     "Le jugement des citoyens ne permet donc pas encore d’établir qu’il leur revienne principalement de lutter contre l’injustice, parce qu’il ne peut, par lui-même, imposer à tous une même règle.",
+     "II.3 Ce que la seconde réponse ne permet pas encore"
+    ],
+    [
+     "L’État juge les torts avec la force de tous, et les citoyens peuvent juger ses lois ; mais l’un a la force sans être toujours tiers, les autres le jugement sans la force commune, et chacun a besoin de ce que l’autre possède. Confier à l’État les injustices privées et aux citoyens celles de l’État ne dit pas qui a vaincu la ségrégation : qu’est-ce qui peut donc relier le jugement des citoyens à la force de l’État ?",
+     "Transition · pourquoi leur partage échoue, et ce qui reste à établir, en question"
+    ]
+   ]
+  ],
+  [
+   "III. UN ÉTAT QUI PEUT ÊTRE JUGÉ",
+   [
+    [
+     "Ce qui relie le jugement des citoyens à la force de l’État est une institution : une constitution et des tribunaux qui permettent aux citoyens de faire juger les lois par une autorité qui n’en est pas l’auteur.",
+     "III.1 L’opération que la difficulté exige : un terme qui relie"
+    ],
+    [
+     "Par elle, l’État se divise : une partie de lui juge ce qu’une autre a fait.",
+     "III.1 Ce que fait ce terme"
+    ],
+    [
+     "Ce terme conserve les deux réponses : le jugement des citoyens devient règle commune en passant par le tribunal, et la force de l’État reste ce qui impose cette règle à tous.",
+     "III.2 La démontrer : ce qu’il conserve"
+    ],
+    [
+     "Il explique aussi leurs arrêts : l’État ne pouvait juger ses propres lois tant qu’il était un seul juge, et les citoyens ne pouvaient rien imposer tant que leur jugement restait celui de chacun.",
+     "III.2 Ce qu’il explique"
+    ],
+    [
+     "Un pouvoir divisé peut être tiers à l’égard de lui-même, ce que ni l’État unique ni le citoyen seul ne pouvaient être.",
+     "III.2 L’inférence décisive"
+    ],
+    [
+     "Il revient donc principalement à l’État de lutter contre l’injustice, à condition qu’il soit organisé pour pouvoir être jugé par lui-même, à la demande des citoyens.",
+     "III.3 La réponse au sujet, avec son opérateur"
+    ],
+    [
+     "À Montgomery, ce sont des citoyens qui saisissent la justice fédérale, et c’est elle qui déclare la loi de l’Alabama contraire à la Constitution : la lutte revenait à l’État, mais à un État qui pouvait être mis en cause.",
+     "III.3 La réponse vérifiée sur le cas"
+    ],
+    [
+     "Reste que bien des injustices ne passent par aucune loi ni par aucun acte qu’un tribunal puisse juger : le mépris, l’exclusion silencieuse, les portes qui restent fermées.",
+     "III.3 Le reste : ce que cette réponse ne règle pas"
+    ]
+   ]
+  ],
+  [
+   "CONCLUSION",
+   [
+    [
+     "Il revient principalement à l’État de lutter contre l’injustice, non comme un juge unique et sans appel, mais comme un pouvoir assez divisé pour que les citoyens puissent lui faire juger ses propres lois.",
+     "Conclusion · la réponse, avec l’opérateur"
+    ],
+    [
+     "Rosa Parks a désobéi à une loi ; elle n’a pas eu à se passer de l’État pour la faire abolir.",
+     "Conclusion · retour à la scène"
+    ],
+    [
+     "Mais qui luttera contre les injustices qu’aucun tribunal ne peut juger ?",
+     "Conclusion · le reste en question"
+    ]
+   ]
+  ]
  ]
 }

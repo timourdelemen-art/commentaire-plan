@@ -52,66 +52,223 @@
    "tests": "Cas témoin : la modification d’un génome transmissible engage des générations qui ne l’ont pas choisie et ne peuvent la défaire : la III la juge non souhaitable avant tout effet connu ; une thérapie génique sur un malade qui y consent reste souhaitable. Second cas : l’arme nucléaire, dont l’usage ôte tout pouvoir de corriger. Restitution : oui. Rechute : le reste (le refus irréversible) ne redit ni LA ni LB. Test propre : frontière définie indépendamment des deux thèses (par la corrigibilité). Report : la question ne se repose pas à l’identique, le critère étant lui-même applicable avant l’usage. Acquis nouveau : prémisse nouvelle — on peut juger la corrigibilité d’un acte sans connaître ses effets ; nécessaire à la décision."
   },
   "candidats_III": [
-   {"id": "retenue", "operation": "Critère de frontière", "proposition": "Est souhaitable le possible dont l’usage laisse à ceux qu’il engage le pouvoir de le juger et d’y renoncer.", "verdict": "retenue", "raison": "Applicable avant les effets, conserve les deux acquis, décide le cas des embryons."},
-   {"id": "neutralite", "operation": "Partage", "proposition": "Le possible est neutre, seul l’usage est bon ou mauvais.", "verdict": "écartée", "raison": "C’est la conciliation, qui échoue quand le possible est déjà un usage."},
-   {"id": "precaution", "operation": "Principe d’ordre", "proposition": "Dans le doute, s’abstenir.", "verdict": "écartée", "raison": "Interdirait aussi les techniques qui sauvent ; rechute dans la seconde réponse."},
-   {"id": "fins", "operation": "Condition", "proposition": "Un possible est souhaitable s’il sert une fin bonne.", "verdict": "dominée", "raison": "La fin bonne de 2018 (protéger du VIH) ne suffisait pas ; il faut juger aussi la manière."}
+   {
+    "id": "retenue",
+    "operation": "Critère de frontière",
+    "proposition": "Est souhaitable le possible dont l’usage laisse à ceux qu’il engage le pouvoir de le juger et d’y renoncer.",
+    "verdict": "retenue",
+    "raison": "Applicable avant les effets, conserve les deux acquis, décide le cas des embryons."
+   },
+   {
+    "id": "neutralite",
+    "operation": "Partage",
+    "proposition": "Le possible est neutre, seul l’usage est bon ou mauvais.",
+    "verdict": "écartée",
+    "raison": "C’est la conciliation, qui échoue quand le possible est déjà un usage."
+   },
+   {
+    "id": "precaution",
+    "operation": "Principe d’ordre",
+    "proposition": "Dans le doute, s’abstenir.",
+    "verdict": "écartée",
+    "raison": "Interdirait aussi les techniques qui sauvent ; rechute dans la seconde réponse."
+   },
+   {
+    "id": "fins",
+    "operation": "Condition",
+    "proposition": "Un possible est souhaitable s’il sert une fin bonne.",
+    "verdict": "dominée",
+    "raison": "La fin bonne de 2018 (protéger du VIH) ne suffisait pas ; il faut juger aussi la manière."
+   }
   ],
   "generateur": "figure : la frontière ; registre opératoire : par cas et variation ; registre de lecture : démonstratif à ordre visible ; branches B1 ; annonce N4.",
   "scene": "Novembre 2018 : He Jiankui annonce la naissance de jumelles dont il a modifié le génome pour les protéger du VIH ; condamnation unanime, puis peine de prison en Chine (2019). Verdict : homologue. Retour : le jugement porte sur la transmission, non sur un effet constaté.",
-  "statut": {"problematique": "suffisamment justifiée", "copie": "état de travail (architecture expérimentale)"}
+  "statut": {
+   "problematique": "suffisamment justifiée",
+   "copie": "état de travail (architecture expérimentale)"
+  }
  },
  "citations": [
-  {"texte": "autre est celui qui peut engendrer un art, autre celui qui peut juger quel est le lot de dommage et d’utilité pour ceux qui doivent s’en servir", "auteur": "Platon", "oeuvre": "Phèdre", "lieu": "274e", "edition": "Œuvres complètes, dir. Luc Brisson, Flammarion, 2008", "verification": "œuvre fournie, passage retrouvé mot pour mot", "regime": "citation exacte", "fonction": "II.2 : donner la distinction exacte entre produire une technique et la juger ; la prémisse (on juge un moyen par ses effets) tient sans elle."}
+  {
+   "texte": "autre est celui qui peut engendrer un art, autre celui qui peut juger quel est le lot de dommage et d’utilité pour ceux qui doivent s’en servir",
+   "auteur": "Platon",
+   "oeuvre": "Phèdre",
+   "lieu": "274e",
+   "edition": "Œuvres complètes, dir. Luc Brisson, Flammarion, 2008",
+   "verification": "œuvre fournie, passage retrouvé mot pour mot",
+   "regime": "citation exacte",
+   "fonction": "II.2 : donner la distinction exacte entre produire une technique et la juger ; la prémisse (on juge un moyen par ses effets) tient sans elle."
+  }
  ],
  "copy": [
-  ["INTRODUCTION", [
-   ["En novembre 2018, le biologiste He Jiankui annonce la naissance de deux jumelles dont il a modifié le génome pour les protéger du virus du sida.", "Introduction · la scène"],
-   ["La technique existait, la fin était bonne ; pourtant la communauté scientifique condamne l’expérience, et son auteur est emprisonné.", "Introduction · la scène : la condamnation"],
-   ["Ce qu’on pouvait faire offrait un pouvoir nouveau ; ce qui résistait n’était aucun effet constaté, puisque nul n’en connaissait encore.", "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"],
-   ["On attend de la technique qu’elle accroisse ce que nous pouvons, mais aussi que nous ayons raison de vouloir ce qu’elle nous donne.", "Introduction · l’enjeu"],
-   ["Souhaitable ne veut pas dire souhaité : c’est ce qu’on a raison de vouloir, et le sujet demande si tout ce que la technique rend possible mérite de l’être.", "Introduction · les mots du sujet"],
-   ["Si l’on répond oui, parce qu’un pouvoir de plus est un choix de plus, on suppose qu’un possible peut toujours rester une simple option ; si l’on répond non, parce que certains possibles ruinent ce qu’ils devaient servir, on ne peut le savoir qu’après coup.", "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"],
-   ["Si tout pouvoir nouveau élargit nos choix, mais que certains possibles ruinent ce qu’ils devaient servir, ce qui est techniquement possible est-il toujours souhaitable, quand il faut en juger avant d’en connaître les effets ?", "Introduction · la problématique : une seule question, qui garde « toujours souhaitable »"],
-   ["On établira d’abord ce qui rend tout possible bon à prendre, puis ce qui rend certains possibles indésirables ; il restera à chercher comment juger un possible avant d’en connaître les effets, pour ne perdre ni les choix qu’il ouvre ni les biens qu’il menace.", "Introduction · l’annonce"]
-  ]],
-  ["I. UN POUVOIR DE PLUS EST UN CHOIX DE PLUS", [
-   ["Ce qui est techniquement possible est toujours souhaitable, car chaque possible nouveau ajoute à ce que nous pouvons faire.", "I.1 Établir la première réponse"],
-   ["Cette réponse sauve ce que l’histoire des techniques a d’incontestable : on vit plus longtemps, on souffre moins, on voyage plus loin parce qu’on a pu.", "I.1 Ce qu’elle sauve"],
-   ["Un moyen sert des fins, et posséder un moyen n’oblige pas à s’en servir : celui qui sait fabriquer un poison n’est pas tenu d’empoisonner.", "I.2 La fonder par la fin"],
-   ["Tout possible nouveau élargit donc ce que nous pouvons choisir sans rien nous imposer, et il est toujours bon de l’avoir.", "I.2 L’inférence décisive"],
-   ["Ce fondement établit que tout pouvoir technique nouveau élargit le champ de ce que nous pouvons choisir.", "I.3 L’éprouver : ce qu’il établit"],
-   ["Mais il suppose qu’un possible reste une option qu’on peut laisser inemployée, et certains possibles, dès que quelques-uns peuvent en user, changent la situation de tous : quand l’adversaire a la bombe, ne pas l’avoir n’est plus un choix.", "I.3 Ce qu’il ne permet pas encore, et pourquoi"],
-   ["Une fois les génomes modifiables, chaque parent et chaque État devra décider s’il modifie ceux de ses enfants, et ne pas le faire deviendra déjà une décision.", "I.3 Sur la scène"],
-   ["L’élargissement des choix ne permet donc pas encore d’établir que tout possible soit souhaitable, parce qu’il suppose qu’un possible puisse rester une simple option.", "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"],
-   ["Un possible nouveau élargit nos choix ; mais il n’est pas pour autant toujours souhaitable, parce que certains possibles ne restent pas des options.", "Transition · ce qui est établi, ce qui manque, et pourquoi"],
-   ["Il faut donc examiner ce que font les possibles techniques une fois réalisés : leurs effets ne permettent-ils pas de distinguer ceux qu’on a raison de vouloir ?", "Transition · l’examen nécessaire, en question"]
-  ]],
-  ["II. CE QUE PRODUIT UNE TECHNIQUE", [
-   ["Les effets d’un possible permettent de distinguer ceux qu’on a raison de vouloir, et certains ne le sont pas, parce qu’ils ruinent les biens qu’ils devaient servir.", "II.1 La seconde réponse, qui répond à l’examen demandé"],
-   ["Elle ne nie pas que le possible élargisse nos choix ; elle demande ce qu’il fait de ceux qui le subissent.", "II.1 Ce qu’elle conserve"],
-   ["On juge un moyen par ses effets sur ceux qui en usent et sur ceux qui en pâtissent, et Platon fait dire au roi Thamous qu’« autre est celui qui peut engendrer un art, autre celui qui peut juger quel est le lot de dommage et d’utilité pour ceux qui doivent s’en servir ».", "II.2 La fonder par les conséquences ; citation qui distingue produire et juger"],
-   ["Or certains effets ne se laissent pas défaire et engagent des hommes qui n’ont rien décidé : un possible dont l’usage ruine ainsi les biens qu’il devait servir n’est pas souhaitable.", "II.2 L’inférence décisive"],
-   ["Cette raison établit que certains possibles ne sont pas souhaitables, parce que leurs effets irréversibles ruinent les biens qu’ils devaient servir.", "II.3 L’éprouver : ce qu’elle établit"],
-   ["Mais elle mesure la valeur d’un possible à ses effets, et ceux d’une technique nouvelle ne se connaissent qu’après qu’on l’a employée : pour savoir s’il fallait l’employer, il faudrait l’avoir déjà employée.", "II.3 Ce qu’elle ne permet pas encore, et pourquoi"],
-   ["En 2018, personne ne savait ce que deviendraient les jumelles : le jugement par les effets devait attendre des années, alors que la décision était déjà prise.", "II.3 Sur la scène"],
-   ["Le jugement par les effets ne permet donc pas encore de dire, avant de l’employer, si une technique nouvelle est souhaitable, parce que ses effets ne se connaissent qu’après.", "II.3 Ce que la seconde réponse ne permet pas encore"],
-   ["Tout possible élargit nos choix, et certains ruinent ce qu’ils devaient servir ; mais la première raison juge avant les effets sans pouvoir rien exclure, la seconde peut exclure, mais seulement trop tard.", "Transition · les deux acquis et leur rapport"],
-   ["Prendre tous les possibles et juger à l’usage, c’est, dans le cas des jumelles, avoir déjà engagé des vivants avant de juger : existe-t-il donc un critère qui permette de juger un possible avant d’en connaître les effets ?", "Transition · pourquoi leur addition échoue, et ce qui reste à établir, en question"]
-  ]],
-  ["III. CE QUI LAISSE INTACT LE POUVOIR DE JUGER", [
-   ["On peut juger un possible avant d’en connaître les effets si l’on demande, non ce qu’il produira, mais s’il laissera intact le pouvoir de le corriger.", "III.1 L’opération que la difficulté exige : un critère"],
-   ["Un possible réversible, choisi par ceux qu’il engage, peut être essayé ; un possible irréversible, imposé à d’autres qui ne peuvent ni le juger ni le défaire, ne le peut pas.", "III.1 Le critère énoncé"],
-   ["Ce critère conserve les deux réponses : il protège le bien que la première défendait, l’élargissement de nos choix, et il retient de la seconde le danger de l’irréversible.", "III.2 La démontrer : ce qu’il conserve"],
-   ["Il explique aussi leurs arrêts : l’option cessait d’en être une quand elle ôtait à d’autres le pouvoir de choisir, et l’on n’a pas besoin de connaître les effets d’un acte pour savoir s’ils pourront être corrigés.", "III.2 Ce qu’il explique"],
-   ["Ce qui est techniquement possible n’est donc pas toujours souhaitable : l’est celui dont l’usage laisse à ceux qu’il engage le pouvoir de le juger et d’y renoncer.", "III.3 La réponse au sujet, avec son opérateur"],
-   ["Une thérapie génique sur un malade qui y consent reste souhaitable ; la modification d’un génome transmissible engage des générations qui ne l’ont pas choisie et ne pourront la défaire, et c’est pourquoi elle était condamnable avant qu’aucun effet soit connu.", "III.3 La réponse vérifiée sur le cas"],
-   ["Reste le cas où renoncer à un possible est lui-même irréversible, comme lorsqu’on laisse mourir ceux qu’il aurait sauvés.", "III.3 Le reste : ce que cette réponse ne règle pas"]
-  ]],
-  ["CONCLUSION", [
-   ["Ce qui est techniquement possible n’est pas toujours souhaitable, mais on peut en juger avant l’usage : est souhaitable le possible qui laisse à ceux qu’il engage le pouvoir de le juger et d’y renoncer.", "Conclusion · la réponse, avec l’opérateur"],
-   ["Ce qu’on reprochait à He Jiankui n’était pas un effet connu : c’était d’avoir décidé pour d’autres ce qu’ils ne pourront jamais défaire.", "Conclusion · retour à la scène"],
-   ["Mais que faire quand s’abstenir est, à son tour, une décision sans retour ?", "Conclusion · le reste en question"]
-  ]]
+  [
+   "INTRODUCTION",
+   [
+    [
+     "En novembre 2018, le biologiste He Jiankui annonce la naissance de deux jumelles dont il a modifié le génome pour les protéger du virus du sida.",
+     "Introduction · la scène"
+    ],
+    [
+     "La technique existait, la fin était bonne ; pourtant la communauté scientifique condamne l’expérience, et son auteur est emprisonné.",
+     "Introduction · la scène : la condamnation"
+    ],
+    [
+     "Ce qu’on pouvait faire offrait un pouvoir nouveau ; ce qui résistait n’était aucun effet constaté, puisque nul n’en connaissait encore.",
+     "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"
+    ],
+    [
+     "On attend de la technique qu’elle accroisse ce que nous pouvons, mais aussi que nous ayons raison de vouloir ce qu’elle nous donne.",
+     "Introduction · l’enjeu"
+    ],
+    [
+     "Souhaitable ne veut pas dire souhaité : c’est ce qu’on a raison de vouloir, et le sujet demande si tout ce que la technique rend possible mérite de l’être.",
+     "Introduction · les mots du sujet"
+    ],
+    [
+     "Si l’on répond oui, parce qu’un pouvoir de plus est un choix de plus, on suppose qu’un possible peut toujours rester une simple option ; si l’on répond non, parce que certains possibles ruinent ce qu’ils devaient servir, on ne peut le savoir qu’après coup.",
+     "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"
+    ],
+    [
+     "Si tout pouvoir nouveau élargit nos choix, mais que certains possibles ruinent ce qu’ils devaient servir, ce qui est techniquement possible est-il toujours souhaitable, quand il faut en juger avant d’en connaître les effets ?",
+     "Introduction · la problématique : une seule question, qui garde « toujours souhaitable »"
+    ],
+    [
+     "On établira d’abord ce qui rend tout possible bon à prendre, puis ce qui rend certains possibles indésirables ; il restera à chercher comment juger un possible avant d’en connaître les effets, pour ne perdre ni les choix qu’il ouvre ni les biens qu’il menace.",
+     "Introduction · l’annonce"
+    ]
+   ]
+  ],
+  [
+   "I. UN POUVOIR DE PLUS EST UN CHOIX DE PLUS",
+   [
+    [
+     "Ce qui est techniquement possible est toujours souhaitable, car chaque possible nouveau ajoute à ce que nous pouvons faire.",
+     "I.1 Établir la première réponse"
+    ],
+    [
+     "Cette réponse sauve ce que l’histoire des techniques a d’incontestable : on vit plus longtemps, on souffre moins, on voyage plus loin parce qu’on a pu.",
+     "I.1 Ce qu’elle sauve"
+    ],
+    [
+     "Un moyen sert des fins, et posséder un moyen n’oblige pas à s’en servir : celui qui sait fabriquer un poison n’est pas tenu d’empoisonner.",
+     "I.2 La fonder par la fin"
+    ],
+    [
+     "Tout possible nouveau élargit donc ce que nous pouvons choisir sans rien nous imposer, et il est toujours bon de l’avoir.",
+     "I.2 L’inférence décisive"
+    ],
+    [
+     "Ce fondement établit que tout pouvoir technique nouveau élargit le champ de ce que nous pouvons choisir.",
+     "I.3 L’éprouver : ce qu’il établit"
+    ],
+    [
+     "Mais il suppose qu’un possible reste une option qu’on peut laisser inemployée, et certains possibles, dès que quelques-uns peuvent en user, changent la situation de tous : quand l’adversaire a la bombe, ne pas l’avoir n’est plus un choix.",
+     "I.3 Ce qu’il ne permet pas encore, et pourquoi"
+    ],
+    [
+     "Une fois les génomes modifiables, chaque parent et chaque État devra décider s’il modifie ceux de ses enfants, et ne pas le faire deviendra déjà une décision.",
+     "I.3 Sur la scène"
+    ],
+    [
+     "L’élargissement des choix ne permet donc pas encore d’établir que tout possible soit souhaitable, parce qu’il suppose qu’un possible puisse rester une simple option.",
+     "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"
+    ],
+    [
+     "Un possible nouveau élargit nos choix ; mais il n’est pas pour autant toujours souhaitable, parce que certains possibles ne restent pas des options. Il faut donc examiner ce que font les possibles techniques une fois réalisés : leurs effets ne permettent-ils pas de distinguer ceux qu’on a raison de vouloir ?",
+     "Transition · l’examen nécessaire, en question"
+    ]
+   ]
+  ],
+  [
+   "II. CE QUE PRODUIT UNE TECHNIQUE",
+   [
+    [
+     "Les effets d’un possible permettent de distinguer ceux qu’on a raison de vouloir, et certains ne le sont pas, parce qu’ils ruinent les biens qu’ils devaient servir.",
+     "II.1 La seconde réponse, qui répond à l’examen demandé"
+    ],
+    [
+     "Elle ne nie pas que le possible élargisse nos choix ; elle demande ce qu’il fait de ceux qui le subissent.",
+     "II.1 Ce qu’elle conserve"
+    ],
+    [
+     "On juge un moyen par ses effets sur ceux qui en usent et sur ceux qui en pâtissent, et Platon fait dire au roi Thamous qu’« autre est celui qui peut engendrer un art, autre celui qui peut juger quel est le lot de dommage et d’utilité pour ceux qui doivent s’en servir ».",
+     "II.2 La fonder par les conséquences ; citation qui distingue produire et juger"
+    ],
+    [
+     "Or certains effets ne se laissent pas défaire et engagent des hommes qui n’ont rien décidé : un possible dont l’usage ruine ainsi les biens qu’il devait servir n’est pas souhaitable.",
+     "II.2 L’inférence décisive"
+    ],
+    [
+     "Cette raison établit que certains possibles ne sont pas souhaitables, parce que leurs effets irréversibles ruinent les biens qu’ils devaient servir.",
+     "II.3 L’éprouver : ce qu’elle établit"
+    ],
+    [
+     "Mais elle mesure la valeur d’un possible à ses effets, et ceux d’une technique nouvelle ne se connaissent qu’après qu’on l’a employée : pour savoir s’il fallait l’employer, il faudrait l’avoir déjà employée.",
+     "II.3 Ce qu’elle ne permet pas encore, et pourquoi"
+    ],
+    [
+     "En 2018, personne ne savait ce que deviendraient les jumelles : le jugement par les effets devait attendre des années, alors que la décision était déjà prise.",
+     "II.3 Sur la scène"
+    ],
+    [
+     "Le jugement par les effets ne permet donc pas encore de dire, avant de l’employer, si une technique nouvelle est souhaitable, parce que ses effets ne se connaissent qu’après.",
+     "II.3 Ce que la seconde réponse ne permet pas encore"
+    ],
+    [
+     "Tout possible élargit nos choix, et certains ruinent ce qu’ils devaient servir ; mais la première raison juge avant les effets sans pouvoir rien exclure, la seconde peut exclure, mais seulement trop tard. Prendre tous les possibles et juger à l’usage, c’est, dans le cas des jumelles, avoir déjà engagé des vivants avant de juger : existe-t-il donc un critère qui permette de juger un possible avant d’en connaître les effets ?",
+     "Transition · pourquoi leur addition échoue, et ce qui reste à établir, en question"
+    ]
+   ]
+  ],
+  [
+   "III. CE QUI LAISSE INTACT LE POUVOIR DE JUGER",
+   [
+    [
+     "On peut juger un possible avant d’en connaître les effets si l’on demande, non ce qu’il produira, mais s’il laissera intact le pouvoir de le corriger.",
+     "III.1 L’opération que la difficulté exige : un critère"
+    ],
+    [
+     "Un possible réversible, choisi par ceux qu’il engage, peut être essayé ; un possible irréversible, imposé à d’autres qui ne peuvent ni le juger ni le défaire, ne le peut pas.",
+     "III.1 Le critère énoncé"
+    ],
+    [
+     "Ce critère conserve les deux réponses : il protège le bien que la première défendait, l’élargissement de nos choix, et il retient de la seconde le danger de l’irréversible.",
+     "III.2 La démontrer : ce qu’il conserve"
+    ],
+    [
+     "Il explique aussi leurs arrêts : l’option cessait d’en être une quand elle ôtait à d’autres le pouvoir de choisir, et l’on n’a pas besoin de connaître les effets d’un acte pour savoir s’ils pourront être corrigés.",
+     "III.2 Ce qu’il explique"
+    ],
+    [
+     "Ce qui est techniquement possible n’est donc pas toujours souhaitable : l’est celui dont l’usage laisse à ceux qu’il engage le pouvoir de le juger et d’y renoncer.",
+     "III.3 La réponse au sujet, avec son opérateur"
+    ],
+    [
+     "Une thérapie génique sur un malade qui y consent reste souhaitable ; la modification d’un génome transmissible engage des générations qui ne l’ont pas choisie et ne pourront la défaire, et c’est pourquoi elle était condamnable avant qu’aucun effet soit connu.",
+     "III.3 La réponse vérifiée sur le cas"
+    ],
+    [
+     "Reste le cas où renoncer à un possible est lui-même irréversible, comme lorsqu’on laisse mourir ceux qu’il aurait sauvés.",
+     "III.3 Le reste : ce que cette réponse ne règle pas"
+    ]
+   ]
+  ],
+  [
+   "CONCLUSION",
+   [
+    [
+     "Ce qui est techniquement possible n’est pas toujours souhaitable, mais on peut en juger avant l’usage : est souhaitable le possible qui laisse à ceux qu’il engage le pouvoir de le juger et d’y renoncer.",
+     "Conclusion · la réponse, avec l’opérateur"
+    ],
+    [
+     "Ce qu’on reprochait à He Jiankui n’était pas un effet connu : c’était d’avoir décidé pour d’autres ce qu’ils ne pourront jamais défaire.",
+     "Conclusion · retour à la scène"
+    ],
+    [
+     "Mais que faire quand s’abstenir est, à son tour, une décision sans retour ?",
+     "Conclusion · le reste en question"
+    ]
+   ]
+  ]
  ]
 }

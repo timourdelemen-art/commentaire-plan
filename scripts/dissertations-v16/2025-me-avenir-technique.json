@@ -52,66 +52,223 @@
    "tests": "Cas témoin : les CFC n’étaient qu’un composant remplaçable, et une décision a suffi ; les énergies fossiles sont devenues le milieu de toute activité, et les décisions déclarées n’ont pas suffi ; ni A, ni B, ni le partage moyens / fins ne l’expliquaient. Second cas : l’automobile, choisie comme moyen au début du XXe siècle, devenue la forme de nos villes. Restitution : oui. Rechute : le reste (décider à temps) ne redit ni LA ni LB. Test propre : la condition est nécessaire, non suffisante (il faut encore vouloir). Report : non. Acquis nouveau : prémisse nouvelle — la dépendance entre technique et décision change de sens avec l’incorporation de la technique ; nécessaire à la décision."
   },
   "candidats_III": [
-   {"id": "retenue", "operation": "Condition (ordre des moments)", "proposition": "Notre avenir dépend de nous tant qu’une technique reste un moyen remplaçable, d’elle quand elle est devenue le milieu de nos décisions.", "verdict": "retenue", "raison": "Explique le contraste entre l’ozone et le climat, conserve les deux acquis."},
-   {"id": "partage", "operation": "Partage", "proposition": "La technique pour les moyens, nous pour les fins.", "verdict": "écartée", "raison": "C’est la conciliation ; elle n’explique pas le climat."},
-   {"id": "mediateur", "operation": "Médiateur", "proposition": "Des institutions d’évaluation des techniques relient savoir technique et décision.", "verdict": "dominée", "raison": "Utile, mais ne dit pas pourquoi certaines décisions échouent."},
-   {"id": "fatalisme", "operation": "Principe d’ordre", "proposition": "La technique l’emporte toujours à la fin.", "verdict": "écartée", "raison": "Démenti par Montréal ; rechute dans une première réponse radicalisée."}
+   {
+    "id": "retenue",
+    "operation": "Condition (ordre des moments)",
+    "proposition": "Notre avenir dépend de nous tant qu’une technique reste un moyen remplaçable, d’elle quand elle est devenue le milieu de nos décisions.",
+    "verdict": "retenue",
+    "raison": "Explique le contraste entre l’ozone et le climat, conserve les deux acquis."
+   },
+   {
+    "id": "partage",
+    "operation": "Partage",
+    "proposition": "La technique pour les moyens, nous pour les fins.",
+    "verdict": "écartée",
+    "raison": "C’est la conciliation ; elle n’explique pas le climat."
+   },
+   {
+    "id": "mediateur",
+    "operation": "Médiateur",
+    "proposition": "Des institutions d’évaluation des techniques relient savoir technique et décision.",
+    "verdict": "dominée",
+    "raison": "Utile, mais ne dit pas pourquoi certaines décisions échouent."
+   },
+   {
+    "id": "fatalisme",
+    "operation": "Principe d’ordre",
+    "proposition": "La technique l’emporte toujours à la fin.",
+    "verdict": "écartée",
+    "raison": "Démenti par Montréal ; rechute dans une première réponse radicalisée."
+   }
   ],
   "generateur": "figure : la condition ; registre opératoire : causal ; registre de lecture : démonstration et scolies ; branches B1 ; annonce N2.",
   "scene": "1974 : Molina et Rowland montrent que les CFC détruisent l’ozone ; 1985 : découverte du trou au-dessus de l’Antarctique ; 1987 : protocole de Montréal. Dans les mêmes décennies, la hausse du CO2, mesurée depuis 1958, n’est pas enrayée malgré les engagements pris depuis 1992. Verdict : homologue. Retour : le moment où la technique est devenue milieu.",
-  "statut": {"problematique": "suffisamment justifiée", "copie": "état de travail (architecture expérimentale)"}
+  "statut": {
+   "problematique": "suffisamment justifiée",
+   "copie": "état de travail (architecture expérimentale)"
+  }
  },
  "citations": [
-  {"texte": "Mais chaque fois qu’ils étaient rassemblés, ils se comportaient d’une manière injuste les uns envers les autres, parce qu’ils ne possédaient pas l’art politique, de sorte que, toujours, ils se dispersaient à nouveau et périssaient.", "auteur": "Platon", "oeuvre": "Protagoras", "lieu": "322b", "edition": "Œuvres complètes, dir. Luc Brisson, Flammarion, 2008", "verification": "œuvre fournie, passage retrouvé mot pour mot", "regime": "citation exacte, tirée d’un mythe que Platon fait raconter à Protagoras", "fonction": "II.2 : faire voir que l’habileté technique ne décide pas du sort des hommes sans un art de décider ensemble ; la prémisse (des sociétés ont limité des techniques) est établie par des faits."}
+  {
+   "texte": "Mais chaque fois qu’ils étaient rassemblés, ils se comportaient d’une manière injuste les uns envers les autres, parce qu’ils ne possédaient pas l’art politique, de sorte que, toujours, ils se dispersaient à nouveau et périssaient.",
+   "auteur": "Platon",
+   "oeuvre": "Protagoras",
+   "lieu": "322b",
+   "edition": "Œuvres complètes, dir. Luc Brisson, Flammarion, 2008",
+   "verification": "œuvre fournie, passage retrouvé mot pour mot",
+   "regime": "citation exacte, tirée d’un mythe que Platon fait raconter à Protagoras",
+   "fonction": "II.2 : faire voir que l’habileté technique ne décide pas du sort des hommes sans un art de décider ensemble ; la prémisse (des sociétés ont limité des techniques) est établie par des faits."
+  }
  ],
  "copy": [
-  ["INTRODUCTION", [
-   ["En 1974, deux chimistes montrent que les gaz des bombes aérosols et des réfrigérateurs détruisent la couche d’ozone ; en 1987, le protocole de Montréal décide de les interdire, et la couche se reconstitue lentement.", "Introduction · la scène"],
-   ["Dans les mêmes décennies, la hausse du gaz carbonique est mesurée, annoncée, déplorée par tous les gouvernements, et elle continue.", "Introduction · la scène : le contraste"],
-   ["Une décision a suffi contre une technique ; une autre n’a pas suffi, comme si notre avenir dépendait tantôt de nous, tantôt de nos machines.", "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"],
-   ["On attend de la technique qu’elle nous donne les moyens de vivre, mais aussi que notre avenir reste ce que nous déciderons d’en faire.", "Introduction · l’enjeu"],
-   ["Dépendre de quelque chose, c’est ne pouvoir se faire sans lui, ou même être décidé par lui ; la question est de savoir laquelle de ces dépendances lie notre avenir à la technique.", "Introduction · les mots du sujet"],
-   ["Si l’on répond oui, parce que nos besoins ne sont satisfaits que par des techniques, on montre une condition, non encore ce qui décide de notre avenir ; si l’on répond qu’il dépend de nos décisions, on oublie que nous décidons parmi des possibles qu’ouvrent les techniques.", "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"],
-   ["Si nos conditions de vie dépendent de la technique, mais que nous pouvons décider de ses usages, notre avenir dépend-il de la technique, quand nos décisions ne choisissent jamais qu’entre les possibles qu’elle a déjà ouverts ?", "Introduction · la problématique : une seule question, qui garde « dépend-il »"],
-   ["Il faudra d’abord établir ce que nos conditions de vie doivent à la technique, puis ce que nos décisions peuvent sur elle ; ni l’un ni l’autre, on le verra, ne suffit à dire de quoi dépend notre avenir, et c’est leur rapport qu’il faudra déterminer.", "Introduction · l’annonce"]
-  ]],
-  ["I. NOS CONDITIONS DE VIE SONT TECHNIQUES", [
-   ["Notre avenir dépend de la technique, car nos conditions de vie en sont inséparables.", "I.1 Établir la première réponse"],
-   ["Cette réponse sauve une évidence que les nostalgies oublient : huit milliards d’hommes ne se nourrissent, ne se soignent et ne se chauffent que par des techniques.", "I.1 Ce qu’elle sauve"],
-   ["Ce sans quoi les besoins élémentaires d’une humanité ne sont pas satisfaits conditionne son avenir, puisqu’aucun avenir n’est possible pour qui ne peut vivre.", "I.2 La fonder par une condition"],
-   ["Or ces besoins ne sont plus satisfaits sans agriculture mécanisée, sans médecine, sans énergie : notre avenir dépend donc de la technique.", "I.2 L’inférence décisive"],
-   ["Ce fondement établit que les conditions matérielles de notre avenir dépendent de la technique.", "I.3 L’éprouver : ce qu’il établit"],
-   ["Mais il établit une dépendance de condition, et une condition rend possibles plusieurs avenirs sans choisir entre eux : la fission de l’atome alimente des centrales et des bombes.", "I.3 Ce qu’il ne permet pas encore, et pourquoi"],
-   ["Les gaz réfrigérants rendaient la vie plus commode ; ils ne décidaient pas qu’on les garderait.", "I.3 Sur la scène"],
-   ["La dépendance de nos conditions de vie à l’égard de la technique ne permet donc pas encore d’établir que notre avenir en dépende, parce qu’une même technique rend possibles des avenirs contraires.", "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"],
-   ["Nos conditions de vie dépendent de la technique ; mais cela ne dit pas d’où dépend la direction de notre avenir, parce qu’une technique rend possibles des avenirs contraires.", "Transition · ce qui est établi, ce qui manque, et pourquoi"],
-   ["Il faut donc examiner ce qui décide entre ces avenirs : n’est-ce pas nous, qui choisissons ce que nous ferons de nos techniques ?", "Transition · l’examen nécessaire, en question"]
-  ]],
-  ["II. NOS DÉCISIONS ORIENTENT LES TECHNIQUES", [
-   ["C’est nous qui choisissons ce que nous ferons de nos techniques, et c’est donc de nos décisions que dépend notre avenir.", "II.1 La seconde réponse, qui répond à l’examen demandé"],
-   ["Elle ne nie pas que nos conditions de vie soient techniques ; elle montre qu’elles ne décident pas seules.", "II.1 Ce qu’elle conserve"],
-   ["Des sociétés ont décidé de suspendre ou d’interdire des techniques : les biologistes réunis à Asilomar en 1975, les États signataires du protocole de Montréal en 1987 ; ce qu’on peut décider de limiter ne décide pas seul.", "II.2 La fonder par l’imputabilité des choix"],
-   ["Le mythe que Platon fait raconter à Protagoras le disait déjà : les premiers hommes avaient reçu le feu et les arts : « Mais chaque fois qu’ils étaient rassemblés, ils se comportaient d’une manière injuste les uns envers les autres, parce qu’ils ne possédaient pas l’art politique, de sorte que, toujours, ils se dispersaient à nouveau et périssaient. »", "II.2 Citation qui fait voir que l’habileté technique ne décide pas du sort des hommes"],
-   ["Cette raison établit que nous pouvons décider de l’orientation et de l’usage des techniques.", "II.3 L’éprouver : ce qu’elle établit"],
-   ["Mais elle traite la décision comme extérieure à la technique, et les possibles entre lesquels nous décidons sont eux-mêmes ouverts ou fermés par des techniques existantes : à Montréal, on a pu interdire les gaz parce que d’autres pouvaient les remplacer.", "II.3 Le cas qui l’éprouve : un autre moyen qu’en I.3"],
-   ["Contre le gaz carbonique, les décisions se répètent, et l’énergie qui le produit reste celle de presque toutes nos activités.", "II.3 Sur la scène"],
-   ["Le pouvoir de décider des techniques ne permet donc pas encore d’établir que notre avenir dépende de nous, parce que nous ne décidons qu’entre des possibles que d’autres techniques ont déjà ouverts ou fermés.", "II.3 Ce que la seconde réponse ne permet pas encore"],
-   ["Nos conditions de vie dépendent de la technique, et nous pouvons en décider ; mais la technique conditionne nos décisions autant que nos décisions l’orientent, et rien ne dit encore quand l’une l’emporte sur l’autre.", "Transition · les deux acquis et leur dépendance réciproque"],
-   ["Confier à la technique les moyens et à nous les fins n’explique pas pourquoi une même humanité a su se décider contre l’une des menaces et non contre l’autre : de quoi dépend donc que notre avenir relève de nos décisions plutôt que de nos techniques ?", "Transition · pourquoi leur partage échoue, et ce qui reste à établir, en question"]
-  ]],
-  ["III. LE MOMENT OÙ L’ON DÉCIDE", [
-   ["Notre avenir relève de nos décisions tant qu’une technique est encore un moyen parmi d’autres ; il relève d’elle quand elle est devenue le milieu de toutes nos activités.", "III.1 L’opération que la difficulté exige : la condition qui départage, selon le moment"],
-   ["Un moyen se remplace par une décision ; un milieu ne se remplace plus, parce que toute décision, pour s’exécuter, passe déjà par lui.", "III.1 La raison de cette différence"],
-   ["Cette condition conserve les deux réponses : nos conditions de vie dépendent de la technique, et nous pouvons en décider ; elle explique aussi leurs arrêts, puisque la technique ne décidait pas tant qu’elle n’était qu’un moyen, et que nos décisions dépendaient d’elle dès qu’elle était devenue un milieu.", "III.2 La démontrer : ce qu’elle conserve et ce qu’elle explique"],
-   ["L’automobile, choisie au début du siècle dernier comme un moyen de transport parmi d’autres, est devenue la forme même de nos villes, et l’on ne décide plus aujourd’hui de s’en passer comme on aurait pu décider alors de s’en priver.", "III.2 Le critère sur un second cas"],
-   ["Notre avenir dépend donc de la technique dans la mesure où nous laissons ses choix devenir le milieu de nos vies ; il dépend de nous tant que nous décidons avant.", "III.3 La réponse au sujet, avec son opérateur"],
-   ["Les gaz réfrigérants n’étaient qu’un composant remplaçable, et une décision a suffi ; le pétrole et le charbon sont devenus le milieu de presque toute activité humaine, et les décisions déclarées n’ont pas suffi.", "III.3 La réponse vérifiée sur le cas"],
-   ["Reste qu’on ne connaît bien une technique qu’une fois répandue, c’est-à-dire au moment où il devient difficile d’en décider.", "III.3 Le reste : ce que cette réponse ne règle pas"]
-  ]],
-  ["CONCLUSION", [
-   ["Notre avenir ne dépend pas de la technique comme d’une fatalité, ni de nous comme d’une volonté sans contrainte : il dépend de nous tant qu’une technique n’est qu’un moyen, et d’elle quand nous l’avons laissée devenir le milieu de nos décisions.", "Conclusion · la réponse, avec l’opérateur"],
-   ["L’ozone et le climat ne s’opposent pas comme une bonne et une mauvaise volonté, mais comme une décision prise à temps et une décision venue trop tard.", "Conclusion · retour à la scène"],
-   ["Mais comment décider à temps, quand on ne sait ce qu’est une technique qu’une fois qu’elle est partout ?", "Conclusion · le reste en question"]
-  ]]
+  [
+   "INTRODUCTION",
+   [
+    [
+     "En 1974, deux chimistes montrent que les gaz des bombes aérosols et des réfrigérateurs détruisent la couche d’ozone ; en 1987, le protocole de Montréal décide de les interdire, et la couche se reconstitue lentement.",
+     "Introduction · la scène"
+    ],
+    [
+     "Dans les mêmes décennies, la hausse du gaz carbonique est mesurée, annoncée, déplorée par tous les gouvernements, et elle continue.",
+     "Introduction · la scène : le contraste"
+    ],
+    [
+     "Une décision a suffi contre une technique ; une autre n’a pas suffi, comme si notre avenir dépendait tantôt de nous, tantôt de nos machines.",
+     "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"
+    ],
+    [
+     "On attend de la technique qu’elle nous donne les moyens de vivre, mais aussi que notre avenir reste ce que nous déciderons d’en faire.",
+     "Introduction · l’enjeu"
+    ],
+    [
+     "Dépendre de quelque chose, c’est ne pouvoir se faire sans lui, ou même être décidé par lui ; la question est de savoir laquelle de ces dépendances lie notre avenir à la technique.",
+     "Introduction · les mots du sujet"
+    ],
+    [
+     "Si l’on répond oui, parce que nos besoins ne sont satisfaits que par des techniques, on montre une condition, non encore ce qui décide de notre avenir ; si l’on répond qu’il dépend de nos décisions, on oublie que nous décidons parmi des possibles qu’ouvrent les techniques.",
+     "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"
+    ],
+    [
+     "Si nos conditions de vie dépendent de la technique, mais que nous pouvons décider de ses usages, notre avenir dépend-il de la technique, quand nos décisions ne choisissent jamais qu’entre les possibles qu’elle a déjà ouverts ?",
+     "Introduction · la problématique : une seule question, qui garde « dépend-il »"
+    ],
+    [
+     "Il faudra d’abord établir ce que nos conditions de vie doivent à la technique, puis ce que nos décisions peuvent sur elle ; ni l’un ni l’autre, on le verra, ne suffit à dire de quoi dépend notre avenir, et c’est leur rapport qu’il faudra déterminer.",
+     "Introduction · l’annonce"
+    ]
+   ]
+  ],
+  [
+   "I. NOS CONDITIONS DE VIE SONT TECHNIQUES",
+   [
+    [
+     "Notre avenir dépend de la technique, car nos conditions de vie en sont inséparables.",
+     "I.1 Établir la première réponse"
+    ],
+    [
+     "Cette réponse sauve une évidence que les nostalgies oublient : huit milliards d’hommes ne se nourrissent, ne se soignent et ne se chauffent que par des techniques.",
+     "I.1 Ce qu’elle sauve"
+    ],
+    [
+     "Ce sans quoi les besoins élémentaires d’une humanité ne sont pas satisfaits conditionne son avenir, puisqu’aucun avenir n’est possible pour qui ne peut vivre.",
+     "I.2 La fonder par une condition"
+    ],
+    [
+     "Or ces besoins ne sont plus satisfaits sans agriculture mécanisée, sans médecine, sans énergie : notre avenir dépend donc de la technique.",
+     "I.2 L’inférence décisive"
+    ],
+    [
+     "Ce fondement établit que les conditions matérielles de notre avenir dépendent de la technique.",
+     "I.3 L’éprouver : ce qu’il établit"
+    ],
+    [
+     "Mais il établit une dépendance de condition, et une condition rend possibles plusieurs avenirs sans choisir entre eux : la fission de l’atome alimente des centrales et des bombes.",
+     "I.3 Ce qu’il ne permet pas encore, et pourquoi"
+    ],
+    [
+     "Les gaz réfrigérants rendaient la vie plus commode ; ils ne décidaient pas qu’on les garderait.",
+     "I.3 Sur la scène"
+    ],
+    [
+     "La dépendance de nos conditions de vie à l’égard de la technique ne permet donc pas encore d’établir que notre avenir en dépende, parce qu’une même technique rend possibles des avenirs contraires.",
+     "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"
+    ],
+    [
+     "Nos conditions de vie dépendent de la technique ; mais cela ne dit pas d’où dépend la direction de notre avenir, parce qu’une technique rend possibles des avenirs contraires. Il faut donc examiner ce qui décide entre ces avenirs : n’est-ce pas nous, qui choisissons ce que nous ferons de nos techniques ?",
+     "Transition · l’examen nécessaire, en question"
+    ]
+   ]
+  ],
+  [
+   "II. NOS DÉCISIONS ORIENTENT LES TECHNIQUES",
+   [
+    [
+     "C’est nous qui choisissons ce que nous ferons de nos techniques, et c’est donc de nos décisions que dépend notre avenir.",
+     "II.1 La seconde réponse, qui répond à l’examen demandé"
+    ],
+    [
+     "Elle ne nie pas que nos conditions de vie soient techniques ; elle montre qu’elles ne décident pas seules.",
+     "II.1 Ce qu’elle conserve"
+    ],
+    [
+     "Des sociétés ont décidé de suspendre ou d’interdire des techniques : les biologistes réunis à Asilomar en 1975, les États signataires du protocole de Montréal en 1987 ; ce qu’on peut décider de limiter ne décide pas seul.",
+     "II.2 La fonder par l’imputabilité des choix"
+    ],
+    [
+     "Le mythe que Platon fait raconter à Protagoras le disait déjà : les premiers hommes avaient reçu le feu et les arts : « Mais chaque fois qu’ils étaient rassemblés, ils se comportaient d’une manière injuste les uns envers les autres, parce qu’ils ne possédaient pas l’art politique, de sorte que, toujours, ils se dispersaient à nouveau et périssaient. »",
+     "II.2 Citation qui fait voir que l’habileté technique ne décide pas du sort des hommes"
+    ],
+    [
+     "Cette raison établit que nous pouvons décider de l’orientation et de l’usage des techniques.",
+     "II.3 L’éprouver : ce qu’elle établit"
+    ],
+    [
+     "Mais elle traite la décision comme extérieure à la technique, et les possibles entre lesquels nous décidons sont eux-mêmes ouverts ou fermés par des techniques existantes : à Montréal, on a pu interdire les gaz parce que d’autres pouvaient les remplacer.",
+     "II.3 Le cas qui l’éprouve : un autre moyen qu’en I.3"
+    ],
+    [
+     "Contre le gaz carbonique, les décisions se répètent, et l’énergie qui le produit reste celle de presque toutes nos activités.",
+     "II.3 Sur la scène"
+    ],
+    [
+     "Le pouvoir de décider des techniques ne permet donc pas encore d’établir que notre avenir dépende de nous, parce que nous ne décidons qu’entre des possibles que d’autres techniques ont déjà ouverts ou fermés.",
+     "II.3 Ce que la seconde réponse ne permet pas encore"
+    ],
+    [
+     "Nos conditions de vie dépendent de la technique, et nous pouvons en décider ; mais la technique conditionne nos décisions autant que nos décisions l’orientent, et rien ne dit encore quand l’une l’emporte sur l’autre. Confier à la technique les moyens et à nous les fins n’explique pas pourquoi une même humanité a su se décider contre l’une des menaces et non contre l’autre : de quoi dépend donc que notre avenir relève de nos décisions plutôt que de nos techniques ?",
+     "Transition · pourquoi leur partage échoue, et ce qui reste à établir, en question"
+    ]
+   ]
+  ],
+  [
+   "III. LE MOMENT OÙ L’ON DÉCIDE",
+   [
+    [
+     "Notre avenir relève de nos décisions tant qu’une technique est encore un moyen parmi d’autres ; il relève d’elle quand elle est devenue le milieu de toutes nos activités.",
+     "III.1 L’opération que la difficulté exige : la condition qui départage, selon le moment"
+    ],
+    [
+     "Un moyen se remplace par une décision ; un milieu ne se remplace plus, parce que toute décision, pour s’exécuter, passe déjà par lui.",
+     "III.1 La raison de cette différence"
+    ],
+    [
+     "Cette condition conserve les deux réponses : nos conditions de vie dépendent de la technique, et nous pouvons en décider ; elle explique aussi leurs arrêts, puisque la technique ne décidait pas tant qu’elle n’était qu’un moyen, et que nos décisions dépendaient d’elle dès qu’elle était devenue un milieu.",
+     "III.2 La démontrer : ce qu’elle conserve et ce qu’elle explique"
+    ],
+    [
+     "L’automobile, choisie au début du siècle dernier comme un moyen de transport parmi d’autres, est devenue la forme même de nos villes, et l’on ne décide plus aujourd’hui de s’en passer comme on aurait pu décider alors de s’en priver.",
+     "III.2 Le critère sur un second cas"
+    ],
+    [
+     "Notre avenir dépend donc de la technique dans la mesure où nous laissons ses choix devenir le milieu de nos vies ; il dépend de nous tant que nous décidons avant.",
+     "III.3 La réponse au sujet, avec son opérateur"
+    ],
+    [
+     "Les gaz réfrigérants n’étaient qu’un composant remplaçable, et une décision a suffi ; le pétrole et le charbon sont devenus le milieu de presque toute activité humaine, et les décisions déclarées n’ont pas suffi.",
+     "III.3 La réponse vérifiée sur le cas"
+    ],
+    [
+     "Reste qu’on ne connaît bien une technique qu’une fois répandue, c’est-à-dire au moment où il devient difficile d’en décider.",
+     "III.3 Le reste : ce que cette réponse ne règle pas"
+    ]
+   ]
+  ],
+  [
+   "CONCLUSION",
+   [
+    [
+     "Notre avenir ne dépend pas de la technique comme d’une fatalité, ni de nous comme d’une volonté sans contrainte : il dépend de nous tant qu’une technique n’est qu’un moyen, et d’elle quand nous l’avons laissée devenir le milieu de nos décisions.",
+     "Conclusion · la réponse, avec l’opérateur"
+    ],
+    [
+     "L’ozone et le climat ne s’opposent pas comme une bonne et une mauvaise volonté, mais comme une décision prise à temps et une décision venue trop tard.",
+     "Conclusion · retour à la scène"
+    ],
+    [
+     "Mais comment décider à temps, quand on ne sait ce qu’est une technique qu’une fois qu’elle est partout ?",
+     "Conclusion · le reste en question"
+    ]
+   ]
+  ]
  ]
 }

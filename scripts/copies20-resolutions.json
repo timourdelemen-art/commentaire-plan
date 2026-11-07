@@ -66,7 +66,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "6a39615015fbe64f56f51dc5f68ac884ebf60ecbf48cecad8328d1ceb12d9474",
+   "copySha256": "476563d2241e5d5ab8030a1a8cc6cfef20b5991e5c440e6d4f290e66b8b0ddce",
    "protocol": "V16.1-exp"
   },
   "2026-ag-humanite-religion": {
@@ -134,7 +134,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "3e96761aca1244a8a3b32df79567f8315c404044cbc01d91edc73f2a6ef369ff",
+   "copySha256": "346c92addadf6c1c670a6dfa0e0848f50d16a4058cca407d757cbf335fbcc6a1",
    "protocol": "V16.1-exp"
   },
   "2026-an-artiste-sait": {
@@ -202,7 +202,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "9b4f46cfa653925479e490a1aede7d5359c0caab3c3f17ae91d7a00dce10f5c9",
+   "copySha256": "e1b38f66f18e37cd173beda1fc3ba14419b27c50ac81d4572c90a2b6e461b3d2",
    "protocol": "V16.1-exp"
   },
   "2026-an-science-utile": {
@@ -270,7 +270,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "90d8523c8867988aec1b946e14c63d1e59cfa2c2c5c14b13ae6651e52ddcd5ba",
+   "copySha256": "e0b3957b299ca97535640c719b02579e0a2c6fb1c51ce47a286d912936fd2d0e",
    "protocol": "V16.1-exp"
   },
   "2026-asie-inconscient-bonheur": {
@@ -338,7 +338,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "9639bb90fb3261dc8c2bd37b1425f4bb718ba31c4788535453e73b5ceabbb8c8",
+   "copySha256": "7fe333502ae1a96350abcab9b909f2e4a14f81e593527fa9bb14c3272cb43f6d",
    "protocol": "V16.1-exp"
   },
   "2026-asie-langage": {
@@ -406,7 +406,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "bcd8ce927b3e27130b22a0df2337b8ced3a6accae17115fd57f85c332a1ee7c2",
+   "copySha256": "1c4058f774997560ced0fa23e39817ae14970c020efcd3e28620fc418cfcdeed",
    "protocol": "V16.1-exp"
   },
   "2026-g1-bien-agir": {
@@ -474,7 +474,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "815ad33e770f95caabbe7f9efda726b4c230333fd593a21115d8fa01c4cabceb",
+   "copySha256": "f159a1ce9632ff816f39d974b9052005cae59e77db608c19cd3b7f4c7efeeba6",
    "protocol": "V16.1-exp"
   },
   "2026-g1-nature-besoin": {
@@ -542,7 +542,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "5028ae713663fdbbcd004267a2e1df9db95d2bf00a6f7b6f63e8e6f0e4f1e586",
+   "copySha256": "ab66575d1361b55370392fe0b777d87b021f476b9428daebb3fac21fc4c52e00",
    "protocol": "V16.1-exp"
   },
   "2026-me-bonheur-autres": {
@@ -610,7 +610,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "317f4d1e90cb0650249d02d109b0e85553fe83807777d9ed65ad357386d227a2",
+   "copySha256": "f1a66cb2efd2b5dc2024b2ed7cd77b27b6049fdaaae0672eefc3c55a32bfc0b8",
    "protocol": "V16.1-exp"
   },
   "2026-me-paroles": {
@@ -678,7 +678,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "ae7597daf99b68718d71f2f2ee1333d111659d96abf7c20139bc8cadad5d5dec",
+   "copySha256": "b4b213a16c5ca082c68e1475980fe599df1757d1180b5a0ab0e7b31c828aed1b",
    "protocol": "V16.1-exp"
   },
   "notion-inconscient": {
@@ -746,7 +746,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "c74782c38da4d4eeb28465d728769039e836842022d192514293bc40029e9eba",
+   "copySha256": "9b23a3624413e0c5bfe782b3d4cd978a3eaf1f51606e84329f9bedf7aa58ac4b",
    "protocol": "V16.1-exp"
   },
   "notion-liberte": {
@@ -814,7 +814,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "ed0b72b667cab4816723a2c75d4e91305a0649ae9a175a7ac613e1bf3679fa8e",
+   "copySha256": "d58eb30b95db5240af9d452461794a2bf486678bb42c66c06a9d4ee1f34de27d",
    "protocol": "V16.1-exp"
   },
   "notion-raison": {
@@ -882,7 +882,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "1fe0531cff9867c58ccd3223b5c37afca075b9af1c1266a37d8c7b8bb8aead4c",
+   "copySha256": "341fcf43af3f59b82d6fb10c4173ca54600d41c5115addca7085fe0b15756063",
    "protocol": "V16.1-exp"
   },
   "notion-technique": {
@@ -950,7 +950,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "9b2ffb95a34c2171c243f68485bcdd4adc8c05c8e3b2495263b2280ac2a65626",
+   "copySha256": "1e40fc39fc80c08d35c5eecc2fb268f53c36d39834ff492ea8bf36a55003edac",
    "protocol": "V16.1-exp"
   },
   "notion-temps": {
@@ -1018,7 +1018,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "181cfc88147cb13972bef67e4b282b589e53fab970a68a44ef5bbb0aef90581e",
+   "copySha256": "69caee85d2dbdd53c9aa521faa837e7f0262496fb5305d014ab7b0afb1cc7c84",
    "protocol": "V16.1-exp"
   },
   "notion-travail": {
@@ -1086,7 +1086,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "b02b6d0be8af891938ae930803be12afac90142dd3af2bd2c6a9d3564e5470d9",
+   "copySha256": "827d2bb6d12cb2f80b32587e4d81ad2903104d6fb6d7c3677f36e05abd1f191b",
    "protocol": "V16.1-exp"
   },
   "notion-verite": {
@@ -1154,7 +1154,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "b2b0161764ade763b8550de1d53187f0ab6ee1853ac15b03bbb5c28ecf81c310",
+   "copySha256": "506abf6e49878a5bdd678f4f2a628a08883dff862c94142f89c03862a278be5a",
    "protocol": "V16.1-exp"
   },
   "2025-me-verite": {
@@ -1229,7 +1229,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "02443ea84479d0716abae0d1bb4e4a71609fad6fd2f76fc72527c3b8c42bda59",
+   "copySha256": "e77469519a908e61347626b9e446949f6c4ddc663c1686e0b638622024b8a36c",
    "protocol": "V16.1-exp"
   },
   "2025-me-avenir-technique": {
@@ -1304,7 +1304,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "688007a54a32deaf1785d052fa402f9c76b11b26804f4d3413b3cb32071f9ec5",
+   "copySha256": "a7320329095472e558ed27ed2809fbb7e5a7d73e1a207faab076d3cff89a5814",
    "protocol": "V16.1-exp"
   },
   "2025-me-besoin-art": {
@@ -1379,7 +1379,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "e030832fa62fb85824e252ba7e9eb3dd40e5b8ce5cb2c152ad29b5ecb8dac379",
+   "copySha256": "8df6bebe4606ee6cd28c17caf2c0f7f2113975e435a792c517e6711579fe4190",
    "protocol": "V16.1-exp"
   }
  }

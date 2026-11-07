@@ -53,66 +53,223 @@
    "tests": "Cas témoin : à L’Aquila, personne ne pouvait savoir si un grand séisme viendrait ; la faute fut de rassurer comme si l’on savait qu’il ne viendrait pas ; ni A, ni B, ni le partage ne le disaient. Second cas : le médecin qui donne un pronostic en disant sa marge d’erreur. Restitution : oui. Rechute : le reste (l’auditeur) ne redit ni LA ni LB. Test propre : frontière définie indépendamment des deux thèses. Report : non. Acquis nouveau : prémisse nouvelle — toute parole a un statut, que la parole légitime déclare ; nécessaire à la décision."
   },
   "candidats_III": [
-   {"id": "retenue", "operation": "Critère de frontière", "proposition": "Une parole sans savoir est légitime si elle dit elle-même ce qu’elle sait et ce qu’elle ignore.", "verdict": "retenue", "raison": "Décide le cas de L’Aquila, conserve les deux acquis, explique les deux arrêts."},
-   {"id": "partage", "operation": "Partage", "proposition": "Parler, oui ; affirmer, non.", "verdict": "écartée", "raison": "C’est la conciliation, qui échoue quand il faut dire quelque chose."},
-   {"id": "silence", "operation": "Principe d’ordre", "proposition": "Dans le doute, se taire.", "verdict": "écartée", "raison": "Le silence des experts aurait été aussi une parole, et une faute."},
-   {"id": "competence", "operation": "Condition", "proposition": "Seul le spécialiste peut parler de ce qu’il ne sait pas encore.", "verdict": "dominée", "raison": "Les experts de L’Aquila étaient compétents ; la compétence ne suffit pas."}
+   {
+    "id": "retenue",
+    "operation": "Critère de frontière",
+    "proposition": "Une parole sans savoir est légitime si elle dit elle-même ce qu’elle sait et ce qu’elle ignore.",
+    "verdict": "retenue",
+    "raison": "Décide le cas de L’Aquila, conserve les deux acquis, explique les deux arrêts."
+   },
+   {
+    "id": "partage",
+    "operation": "Partage",
+    "proposition": "Parler, oui ; affirmer, non.",
+    "verdict": "écartée",
+    "raison": "C’est la conciliation, qui échoue quand il faut dire quelque chose."
+   },
+   {
+    "id": "silence",
+    "operation": "Principe d’ordre",
+    "proposition": "Dans le doute, se taire.",
+    "verdict": "écartée",
+    "raison": "Le silence des experts aurait été aussi une parole, et une faute."
+   },
+   {
+    "id": "competence",
+    "operation": "Condition",
+    "proposition": "Seul le spécialiste peut parler de ce qu’il ne sait pas encore.",
+    "verdict": "dominée",
+    "raison": "Les experts de L’Aquila étaient compétents ; la compétence ne suffit pas."
+   }
   ],
   "generateur": "figure : la frontière ; registre opératoire : dialectique ; registre de lecture : en enquête ; branches B1 ; annonce N1.",
   "scene": "L’Aquila (Italie), 31 mars 2009 : la commission des grands risques se réunit après des semaines de secousses ; un responsable déclare la situation favorable ; le 6 avril, un séisme tue 309 personnes ; condamnation des experts en 2012, acquittement en appel en 2014, sauf pour ce responsable. Verdict : homologue. Retour : la faute fut la parole qui cachait l’ignorance.",
-  "statut": {"problematique": "suffisamment justifiée", "copie": "état de travail (architecture expérimentale)"}
+  "statut": {
+   "problematique": "suffisamment justifiée",
+   "copie": "état de travail (architecture expérimentale)"
+  }
  },
  "citations": [
-  {"texte": "tandis que, lui, il s’imagine qu’il sait quelque chose alors qu’il ne sait rien, moi qui effectivement ne sais rien, je ne vais pas m’imaginer que je sais quelque chose", "auteur": "Platon", "oeuvre": "Apologie de Socrate", "lieu": "21d", "edition": "Œuvres complètes, dir. Luc Brisson, Flammarion, 2008", "verification": "œuvre fournie, passage retrouvé mot pour mot", "regime": "citation exacte", "fonction": "II.3 : faire voir une parole qui ne prétend pas savoir ; la limite est démontrée sans elle."}
+  {
+   "texte": "tandis que, lui, il s’imagine qu’il sait quelque chose alors qu’il ne sait rien, moi qui effectivement ne sais rien, je ne vais pas m’imaginer que je sais quelque chose",
+   "auteur": "Platon",
+   "oeuvre": "Apologie de Socrate",
+   "lieu": "21d",
+   "edition": "Œuvres complètes, dir. Luc Brisson, Flammarion, 2008",
+   "verification": "œuvre fournie, passage retrouvé mot pour mot",
+   "regime": "citation exacte",
+   "fonction": "II.3 : faire voir une parole qui ne prétend pas savoir ; la limite est démontrée sans elle."
+  }
  ],
  "copy": [
-  ["INTRODUCTION", [
-   ["En mars 2009, la ville italienne de L’Aquila tremble depuis des semaines ; la commission des grands risques se réunit, et l’un de ses responsables déclare aux habitants que la situation est favorable.", "Introduction · la scène"],
-   ["Six jours plus tard, un séisme tue trois cent neuf personnes ; les experts sont condamnés, puis acquittés en appel, sauf celui qui avait rassuré la ville.", "Introduction · la scène : la catastrophe et le jugement"],
-   ["Personne ne pouvait savoir si la terre allait trembler ; ce n’est pas d’avoir ignoré qu’on a fini par le blâmer, mais d’avoir parlé comme s’il savait.", "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"],
-   ["On attend de la parole qu’elle puisse dire ce que nous ne savons pas encore, mais aussi qu’elle ne fasse pas passer pour su ce qui ne l’est pas.", "Introduction · l’enjeu"],
-   ["Qu’on parle sans savoir, chacun le constate tous les jours ; la question est de savoir si on le peut avec sens, et si on en a le droit.", "Introduction · les mots du sujet : fait et droit"],
-   ["Si l’on répond oui, parce qu’on peut comprendre une phrase sans savoir si elle est vraie, on ne dit pas encore ce qu’on a le droit d’affirmer ; si l’on répond non, parce qu’affirmer c’est prétendre savoir, on oublie qu’une parole peut dire elle-même ce qu’elle ignore.", "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"],
-   ["Si l’on peut dire avec sens ce qu’on ne sait pas, mais qu’affirmer revient à prétendre savoir, peut-on parler sans savoir, quand il faut parler de ce qu’on ignore sans laisser croire qu’on le sait ?", "Introduction · la problématique : une seule question, qui garde « peut-on parler sans savoir »"],
-   ["On examinera d’abord pourquoi l’on peut parler de ce qu’on ne sait pas, et jusqu’où cette raison porte ; ce qu’elle laisse en suspens obligera à examiner ce qu’engage une affirmation ; il faudra alors établir ce que ces deux voies, ensemble, laissent encore ouvert.", "Introduction · l’annonce"]
-  ]],
-  ["I. LE SENS NE DEMANDE PAS LE SAVOIR", [
-   ["On peut parler sans savoir, car le sens des mots ne dépend pas de la connaissance des choses.", "I.1 Établir la première réponse"],
-   ["Cette réponse sauve presque tout ce que nous disons : nos opinions, nos hypothèses, nos questions, nos doutes.", "I.1 Ce qu’elle sauve"],
-   ["Comprendre une phrase, c’est savoir ce qui la rendrait vraie, non savoir si elle l’est : « il a plu sur Mars il y a un milliard d’années » se comprend sans que personne le sache.", "I.2 La fonder par une définition du sens"],
-   ["On peut donc dire une phrase sensée sans savoir si elle est vraie, et c’est même ainsi que commence toute recherche, par une hypothèse que l’on comprend avant de savoir si elle tient.", "I.2 L’inférence décisive"],
-   ["Ce fondement établit qu’on peut parler de manière sensée de ce qu’on ne sait pas.", "I.3 L’éprouver : ce qu’il établit"],
-   ["Mais il fonde la parole sans savoir sur l’indépendance du sens, et le sens dit ce qu’une phrase affirmerait, non ce qu’on est en droit d’affirmer : la phrase la plus claire peut être dite par celui qui n’a aucune raison de la croire.", "I.3 Ce qu’il ne permet pas encore, et pourquoi"],
-   ["« La situation est favorable » était parfaitement compréhensible ; c’était justement le danger.", "I.3 Sur la scène"],
-   ["L’indépendance du sens à l’égard du savoir ne permet donc pas encore d’établir qu’on puisse légitimement parler sans savoir, parce qu’elle dit ce qu’une phrase signifie, non ce qu’on a le droit d’affirmer.", "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"],
-   ["On peut parler avec sens de ce qu’on ne sait pas ; mais cela ne dit pas qu’on en ait le droit, parce que le sens ne dit pas ce qu’on peut affirmer.", "Transition · ce qui est établi, ce qui manque, et pourquoi"],
-   ["Il faut donc examiner l’acte d’affirmer : que prétend celui qui dit « c’est ainsi » ?", "Transition · l’examen nécessaire, en question"]
-  ]],
-  ["II. AFFIRMER, C’EST PRÉTENDRE SAVOIR", [
-   ["Celui qui dit « c’est ainsi » prétend savoir, et c’est pourquoi l’on ne peut légitimement parler sans savoir.", "II.1 La seconde réponse, qui répond à l’examen demandé"],
-   ["Elle ne nie pas qu’une parole sans savoir ait un sens ; elle demande ce qu’elle engage.", "II.1 Ce qu’elle conserve"],
-   ["Affirmer, c’est présenter une chose comme vraie devant quelqu’un, et présenter comme vrai, c’est laisser entendre qu’on a des raisons de le tenir pour tel, sans quoi l’on dirait « peut-être ».", "II.2 La fonder : ce qu’engage une assertion"],
-   ["Celui qui affirme sans raisons laisse donc croire qu’il sait, et il trompe, même s’il dit vrai par chance.", "II.2 L’inférence décisive"],
-   ["Cette raison établit qu’on ne peut légitimement affirmer ce qu’on ne sait pas.", "II.3 L’éprouver : ce qu’elle établit"],
-   ["Mais elle réduit la parole à l’assertion, et certaines paroles disent elles-mêmes ce qu’elles savent et ce qu’elles ignorent : Socrate a passé sa vie à parler, en disant de l’homme qui se croyait savant : « tandis que, lui, il s’imagine qu’il sait quelque chose alors qu’il ne sait rien, moi qui effectivement ne sais rien, je ne vais pas m’imaginer que je sais quelque chose ».", "II.3 Le cas qui l’éprouve : un autre moyen qu’en I.3"],
-   ["Une parole qui déclare son ignorance ne prétend pas savoir, et pourtant elle parle.", "II.3 L’inférence"],
-   ["L’exigence de savoir pour affirmer ne permet donc pas encore d’établir qu’on ne puisse parler sans savoir, parce qu’une parole peut dire elle-même ce qu’elle sait et ce qu’elle ignore.", "II.3 Ce que la seconde réponse ne permet pas encore"],
-   ["On peut parler avec sens de ce qu’on ne sait pas, et l’on ne peut affirmer sans savoir ; mais la première raison autorise toute parole sensée, la seconde n’autorise que l’affirmation fondée, et aucune ne dit à quelle condition une parole sans savoir est légitime.", "Transition · les deux acquis et leur rapport"],
-   ["Parler sans affirmer, cela ne disait rien aux experts de L’Aquila, qui devaient bien dire quelque chose à une ville inquiète : à quoi reconnaît-on donc une parole légitime sur ce qu’on ignore ?", "Transition · pourquoi leur partage échoue, et ce qui reste à établir, en question"]
-  ]],
-  ["III. DIRE CE QU’ON SAIT ET CE QU’ON IGNORE", [
-   ["On reconnaît une parole légitime sur ce qu’on ignore à ce qu’elle déclare son propre statut — je sais, je crois, je suppose, je l’ignore — et reste exposée à la correction.", "III.1 L’opération que la difficulté exige : un critère"],
-   ["Ce n’est pas l’ignorance qui fait la faute, c’est la parole qui la cache.", "III.1 Le critère formulé"],
-   ["Ce critère conserve les deux réponses : une parole sans savoir a un sens, et l’affirmation engage celui qui la prononce.", "III.2 La démontrer : ce qu’il conserve"],
-   ["Il explique aussi leurs arrêts : le sens laissait indéterminé ce que l’on engage en parlant, et l’assertion n’est qu’un des statuts possibles de la parole ; celle qui déclare le sien ne trompe personne sur ce qu’elle sait.", "III.2 Ce qu’il explique"],
-   ["On peut donc parler sans savoir, à condition que la parole dise elle-même ce qu’elle sait et ce qu’elle ignore.", "III.3 La réponse au sujet, avec son opérateur"],
-   ["À L’Aquila, les experts ne pouvaient pas savoir si un grand séisme viendrait ; ils pouvaient le dire, et dire aussi que les secousses n’excluaient rien : la faute fut de rassurer comme si l’on savait qu’il ne viendrait pas.", "III.3 La réponse vérifiée sur le cas"],
-   ["Reste que celui qui écoute n’entend pas toujours la réserve, et retient la certitude qu’il espérait.", "III.3 Le reste : ce que cette réponse ne règle pas"]
-  ]],
-  ["CONCLUSION", [
-   ["On peut parler sans savoir, si la parole déclare ce qu’elle sait et ce qu’elle ignore ; on ne le peut pas en laissant croire qu’on sait.", "Conclusion · la réponse, avec l’opérateur"],
-   ["Les habitants de L’Aquila n’avaient pas besoin d’une prédiction, que personne ne pouvait faire, mais d’une parole qui avoue son ignorance.", "Conclusion · retour à la scène"],
-   ["Mais que peut une parole honnête devant celui qui ne veut entendre que la certitude ?", "Conclusion · le reste en question"]
-  ]]
+  [
+   "INTRODUCTION",
+   [
+    [
+     "En mars 2009, la ville italienne de L’Aquila tremble depuis des semaines ; la commission des grands risques se réunit, et l’un de ses responsables déclare aux habitants que la situation est favorable.",
+     "Introduction · la scène"
+    ],
+    [
+     "Six jours plus tard, un séisme tue trois cent neuf personnes ; les experts sont condamnés, puis acquittés en appel, sauf celui qui avait rassuré la ville.",
+     "Introduction · la scène : la catastrophe et le jugement"
+    ],
+    [
+     "Personne ne pouvait savoir si la terre allait trembler ; ce n’est pas d’avoir ignoré qu’on a fini par le blâmer, mais d’avoir parlé comme s’il savait.",
+     "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"
+    ],
+    [
+     "On attend de la parole qu’elle puisse dire ce que nous ne savons pas encore, mais aussi qu’elle ne fasse pas passer pour su ce qui ne l’est pas.",
+     "Introduction · l’enjeu"
+    ],
+    [
+     "Qu’on parle sans savoir, chacun le constate tous les jours ; la question est de savoir si on le peut avec sens, et si on en a le droit.",
+     "Introduction · les mots du sujet : fait et droit"
+    ],
+    [
+     "Si l’on répond oui, parce qu’on peut comprendre une phrase sans savoir si elle est vraie, on ne dit pas encore ce qu’on a le droit d’affirmer ; si l’on répond non, parce qu’affirmer c’est prétendre savoir, on oublie qu’une parole peut dire elle-même ce qu’elle ignore.",
+     "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"
+    ],
+    [
+     "Si l’on peut dire avec sens ce qu’on ne sait pas, mais qu’affirmer revient à prétendre savoir, peut-on parler sans savoir, quand il faut parler de ce qu’on ignore sans laisser croire qu’on le sait ?",
+     "Introduction · la problématique : une seule question, qui garde « peut-on parler sans savoir »"
+    ],
+    [
+     "On examinera d’abord pourquoi l’on peut parler de ce qu’on ne sait pas, et jusqu’où cette raison porte ; ce qu’elle laisse en suspens obligera à examiner ce qu’engage une affirmation ; il faudra alors établir ce que ces deux voies, ensemble, laissent encore ouvert.",
+     "Introduction · l’annonce"
+    ]
+   ]
+  ],
+  [
+   "I. LE SENS NE DEMANDE PAS LE SAVOIR",
+   [
+    [
+     "On peut parler sans savoir, car le sens des mots ne dépend pas de la connaissance des choses.",
+     "I.1 Établir la première réponse"
+    ],
+    [
+     "Cette réponse sauve presque tout ce que nous disons : nos opinions, nos hypothèses, nos questions, nos doutes.",
+     "I.1 Ce qu’elle sauve"
+    ],
+    [
+     "Comprendre une phrase, c’est savoir ce qui la rendrait vraie, non savoir si elle l’est : « il a plu sur Mars il y a un milliard d’années » se comprend sans que personne le sache.",
+     "I.2 La fonder par une définition du sens"
+    ],
+    [
+     "On peut donc dire une phrase sensée sans savoir si elle est vraie, et c’est même ainsi que commence toute recherche, par une hypothèse que l’on comprend avant de savoir si elle tient.",
+     "I.2 L’inférence décisive"
+    ],
+    [
+     "Ce fondement établit qu’on peut parler de manière sensée de ce qu’on ne sait pas.",
+     "I.3 L’éprouver : ce qu’il établit"
+    ],
+    [
+     "Mais il fonde la parole sans savoir sur l’indépendance du sens, et le sens dit ce qu’une phrase affirmerait, non ce qu’on est en droit d’affirmer : la phrase la plus claire peut être dite par celui qui n’a aucune raison de la croire.",
+     "I.3 Ce qu’il ne permet pas encore, et pourquoi"
+    ],
+    [
+     "« La situation est favorable » était parfaitement compréhensible ; c’était justement le danger.",
+     "I.3 Sur la scène"
+    ],
+    [
+     "L’indépendance du sens à l’égard du savoir ne permet donc pas encore d’établir qu’on puisse légitimement parler sans savoir, parce qu’elle dit ce qu’une phrase signifie, non ce qu’on a le droit d’affirmer.",
+     "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"
+    ],
+    [
+     "On peut parler avec sens de ce qu’on ne sait pas ; mais cela ne dit pas qu’on en ait le droit, parce que le sens ne dit pas ce qu’on peut affirmer. Il faut donc examiner l’acte d’affirmer : que prétend celui qui dit « c’est ainsi » ?",
+     "Transition · l’examen nécessaire, en question"
+    ]
+   ]
+  ],
+  [
+   "II. AFFIRMER, C’EST PRÉTENDRE SAVOIR",
+   [
+    [
+     "Celui qui dit « c’est ainsi » prétend savoir, et c’est pourquoi l’on ne peut légitimement parler sans savoir.",
+     "II.1 La seconde réponse, qui répond à l’examen demandé"
+    ],
+    [
+     "Elle ne nie pas qu’une parole sans savoir ait un sens ; elle demande ce qu’elle engage.",
+     "II.1 Ce qu’elle conserve"
+    ],
+    [
+     "Affirmer, c’est présenter une chose comme vraie devant quelqu’un, et présenter comme vrai, c’est laisser entendre qu’on a des raisons de le tenir pour tel, sans quoi l’on dirait « peut-être ».",
+     "II.2 La fonder : ce qu’engage une assertion"
+    ],
+    [
+     "Celui qui affirme sans raisons laisse donc croire qu’il sait, et il trompe, même s’il dit vrai par chance.",
+     "II.2 L’inférence décisive"
+    ],
+    [
+     "Cette raison établit qu’on ne peut légitimement affirmer ce qu’on ne sait pas.",
+     "II.3 L’éprouver : ce qu’elle établit"
+    ],
+    [
+     "Mais elle réduit la parole à l’assertion, et certaines paroles disent elles-mêmes ce qu’elles savent et ce qu’elles ignorent : Socrate a passé sa vie à parler, en disant de l’homme qui se croyait savant : « tandis que, lui, il s’imagine qu’il sait quelque chose alors qu’il ne sait rien, moi qui effectivement ne sais rien, je ne vais pas m’imaginer que je sais quelque chose ».",
+     "II.3 Le cas qui l’éprouve : un autre moyen qu’en I.3"
+    ],
+    [
+     "Une parole qui déclare son ignorance ne prétend pas savoir, et pourtant elle parle.",
+     "II.3 L’inférence"
+    ],
+    [
+     "L’exigence de savoir pour affirmer ne permet donc pas encore d’établir qu’on ne puisse parler sans savoir, parce qu’une parole peut dire elle-même ce qu’elle sait et ce qu’elle ignore.",
+     "II.3 Ce que la seconde réponse ne permet pas encore"
+    ],
+    [
+     "On peut parler avec sens de ce qu’on ne sait pas, et l’on ne peut affirmer sans savoir ; mais la première raison autorise toute parole sensée, la seconde n’autorise que l’affirmation fondée, et aucune ne dit à quelle condition une parole sans savoir est légitime. Parler sans affirmer, cela ne disait rien aux experts de L’Aquila, qui devaient bien dire quelque chose à une ville inquiète : à quoi reconnaît-on donc une parole légitime sur ce qu’on ignore ?",
+     "Transition · pourquoi leur partage échoue, et ce qui reste à établir, en question"
+    ]
+   ]
+  ],
+  [
+   "III. DIRE CE QU’ON SAIT ET CE QU’ON IGNORE",
+   [
+    [
+     "On reconnaît une parole légitime sur ce qu’on ignore à ce qu’elle déclare son propre statut — je sais, je crois, je suppose, je l’ignore — et reste exposée à la correction.",
+     "III.1 L’opération que la difficulté exige : un critère"
+    ],
+    [
+     "Ce n’est pas l’ignorance qui fait la faute, c’est la parole qui la cache.",
+     "III.1 Le critère formulé"
+    ],
+    [
+     "Ce critère conserve les deux réponses : une parole sans savoir a un sens, et l’affirmation engage celui qui la prononce.",
+     "III.2 La démontrer : ce qu’il conserve"
+    ],
+    [
+     "Il explique aussi leurs arrêts : le sens laissait indéterminé ce que l’on engage en parlant, et l’assertion n’est qu’un des statuts possibles de la parole ; celle qui déclare le sien ne trompe personne sur ce qu’elle sait.",
+     "III.2 Ce qu’il explique"
+    ],
+    [
+     "On peut donc parler sans savoir, à condition que la parole dise elle-même ce qu’elle sait et ce qu’elle ignore.",
+     "III.3 La réponse au sujet, avec son opérateur"
+    ],
+    [
+     "À L’Aquila, les experts ne pouvaient pas savoir si un grand séisme viendrait ; ils pouvaient le dire, et dire aussi que les secousses n’excluaient rien : la faute fut de rassurer comme si l’on savait qu’il ne viendrait pas.",
+     "III.3 La réponse vérifiée sur le cas"
+    ],
+    [
+     "Reste que celui qui écoute n’entend pas toujours la réserve, et retient la certitude qu’il espérait.",
+     "III.3 Le reste : ce que cette réponse ne règle pas"
+    ]
+   ]
+  ],
+  [
+   "CONCLUSION",
+   [
+    [
+     "On peut parler sans savoir, si la parole déclare ce qu’elle sait et ce qu’elle ignore ; on ne le peut pas en laissant croire qu’on sait.",
+     "Conclusion · la réponse, avec l’opérateur"
+    ],
+    [
+     "Les habitants de L’Aquila n’avaient pas besoin d’une prédiction, que personne ne pouvait faire, mais d’une parole qui avoue son ignorance.",
+     "Conclusion · retour à la scène"
+    ],
+    [
+     "Mais que peut une parole honnête devant celui qui ne veut entendre que la certitude ?",
+     "Conclusion · le reste en question"
+    ]
+   ]
+  ]
  ]
 }

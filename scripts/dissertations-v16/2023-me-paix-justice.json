@@ -53,64 +53,212 @@
    "tests": "Cas témoin : en Afrique du Sud, l’amnistie était accordée contre l’aveu complet des crimes : on renonçait à punir, non à reconnaître ; la III dit pourquoi ce compromis était voulu comme paix. Second cas : un divorce où l’on renonce à des dommages, non à ce que le tort soit dit. Restitution : oui. Rechute : le reste (les victimes qui voulaient la punition) ne redit ni LA ni LB. Test propre : la distinction vaut sur un second cas. Report : non. Acquis nouveau : prémisse nouvelle — la justice a deux parts, dont une seule prolonge le conflit ; nécessaire à la décision."
   },
   "candidats_III": [
-   {"id": "retenue", "operation": "Distinction", "proposition": "La paix peut renoncer à punir, non à reconnaître les torts.", "verdict": "retenue", "raison": "Décide le cas sud-africain, conserve les deux acquis, explique les deux arrêts."},
-   {"id": "moments", "operation": "Ordre des moments", "proposition": "La paix d’abord, la justice ensuite.", "verdict": "écartée", "raison": "C’est la conciliation ; tout se décidait le même jour."},
-   {"id": "institutions", "operation": "Médiateur", "proposition": "Des institutions où la contestation reste possible font une paix juste.", "verdict": "dominée", "raison": "Ressource de l’ancienne copie ; ne dit pas quoi faire des crimes passés."},
-   {"id": "ordre", "operation": "Principe d’ordre", "proposition": "La justice passe toujours avant la paix.", "verdict": "écartée", "raison": "Prolonge les guerres au nom des droits qu’elles détruisent."}
+   {
+    "id": "retenue",
+    "operation": "Distinction",
+    "proposition": "La paix peut renoncer à punir, non à reconnaître les torts.",
+    "verdict": "retenue",
+    "raison": "Décide le cas sud-africain, conserve les deux acquis, explique les deux arrêts."
+   },
+   {
+    "id": "moments",
+    "operation": "Ordre des moments",
+    "proposition": "La paix d’abord, la justice ensuite.",
+    "verdict": "écartée",
+    "raison": "C’est la conciliation ; tout se décidait le même jour."
+   },
+   {
+    "id": "institutions",
+    "operation": "Médiateur",
+    "proposition": "Des institutions où la contestation reste possible font une paix juste.",
+    "verdict": "dominée",
+    "raison": "Ressource de l’ancienne copie ; ne dit pas quoi faire des crimes passés."
+   },
+   {
+    "id": "ordre",
+    "operation": "Principe d’ordre",
+    "proposition": "La justice passe toujours avant la paix.",
+    "verdict": "écartée",
+    "raison": "Prolonge les guerres au nom des droits qu’elles détruisent."
+   }
   ],
   "generateur": "figure : la dépendance ; registre opératoire : dialectique ; registre de lecture : démonstratif à ordre visible ; branches B1 ; annonce N1.",
   "scene": "Afrique du Sud, loi de 1995 sur la promotion de l’unité nationale et de la réconciliation ; Commission vérité et réconciliation présidée par Desmond Tutu ; amnistie individuelle des crimes politiques contre l’aveu complet ; recours de familles de victimes, dont celle de Steve Biko, rejeté par la Cour constitutionnelle (1996). Verdict : homologue. Retour : ce qu’on renonçait à faire, et ce qu’on refusait de taire.",
-  "statut": {"problematique": "suffisamment justifiée", "copie": "état de travail (architecture expérimentale)"}
+  "statut": {
+   "problematique": "suffisamment justifiée",
+   "copie": "état de travail (architecture expérimentale)"
+  }
  },
  "citations": [],
  "copy": [
-  ["INTRODUCTION", [
-   ["En 1995, l’Afrique du Sud sort de l’apartheid et doit décider ce qu’elle fera des crimes commis pendant des décennies : tortures, assassinats, disparitions.", "Introduction · la scène"],
-   ["Elle choisit une commission devant laquelle les coupables obtiennent l’amnistie, à condition d’avouer entièrement ce qu’ils ont fait ; des familles de victimes protestent qu’on leur vole la justice.", "Introduction · la scène : le compromis et la protestation"],
-   ["Ceux qui voulaient la paix ne voulaient pas l’impunité ; ils acceptaient pourtant que des meurtriers restent libres.", "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"],
-   ["On attend de la paix qu’elle fasse cesser la violence, mais aussi qu’elle dure, et l’on attend de la justice qu’elle rende à chacun ce qui lui est dû.", "Introduction · l’enjeu"],
-   ["La question n’est pas de savoir s’il faut préférer l’une à l’autre, mais si vouloir la paix, c’est déjà vouloir la justice, comme une fin en contient une autre.", "Introduction · les mots du sujet"],
-   ["Si l’on répond oui, parce qu’une paix injuste ne dure pas, on oublie encore que finir une guerre oblige parfois à laisser des crimes impunis ; si l’on répond non, parce que ce sont deux fins distinctes, on ne voit plus que chacune est la condition de l’autre.", "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"],
-   ["Si une paix sans justice ne dure pas, et si finir la violence oblige parfois à laisser des crimes impunis, vouloir la paix, est-ce vouloir la justice, quand on ne peut la vouloir tout entière sans prolonger le conflit ?", "Introduction · la problématique : une seule question, qui garde « est-ce vouloir »"],
-   ["On examinera d’abord pourquoi vouloir la paix paraît vouloir la justice, et jusqu’où cette raison porte ; ce qu’elle laisse en suspens obligera à examiner le cas où elles se contrarient ; il faudra alors établir ce que ces deux voies, ensemble, laissent encore ouvert.", "Introduction · l’annonce"]
-  ]],
-  ["I. IL N’Y A PAS DE PAIX DURABLE SANS JUSTICE", [
-   ["Vouloir la paix, c’est vouloir la justice, car une paix injuste n’est qu’une trêve.", "I.1 Établir la première réponse"],
-   ["Cette réponse sauve ce que l’histoire enseigne : les paix imposées aux vaincus préparent souvent la guerre suivante.", "I.1 Ce qu’elle sauve"],
-   ["Une paix dure tant que personne n’a de raison de reprendre les armes ; or l’injustice subie en est une, la plus puissante peut-être, puisqu’elle nourrit le ressentiment de génération en génération.", "I.2 La fonder par une condition"],
-   ["Qui veut une paix durable doit donc vouloir que les injustices graves soient réparées : il veut la justice comme la condition de ce qu’il veut.", "I.2 L’inférence décisive"],
-   ["Ce fondement établit que vouloir une paix durable, c’est vouloir qu’aucune injustice grave ne demeure.", "I.3 L’éprouver : ce qu’il établit"],
-   ["Mais il raisonne sur la paix durable, et la paix qu’on veut d’abord est la fin des violences, qui peut exiger qu’on laisse des torts sans réponse : on ne fait pas cesser une guerre civile en promettant à chaque camp de juger tous ses crimes.", "I.3 Ce qu’il ne permet pas encore, et pourquoi"],
-   ["En 1995, les chefs de la police et de l’armée sud-africaines n’auraient pas remis les armes à un pouvoir qui les aurait tous poursuivis.", "I.3 Sur la scène"],
-   ["La condition d’une paix durable ne permet donc pas encore d’établir que vouloir la paix soit vouloir la justice, parce que la fin des violences peut exiger qu’on laisse des torts sans réponse.", "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"],
-   ["Vouloir une paix durable, c’est vouloir la justice ; mais vouloir la paix ne l’est pas toujours, parce que finir la violence peut exiger de laisser des torts sans réponse.", "Transition · ce qui est établi, ce qui manque, et pourquoi"],
-   ["Il faut donc examiner le cas où la paix et la justice se contrarient : ne sont-elles pas deux fins distinctes, qu’il faut parfois choisir l’une contre l’autre ?", "Transition · l’examen nécessaire, en question"]
-  ]],
-  ["II. DEUX FINS QUI PEUVENT SE CONTRARIER", [
-   ["La paix et la justice sont deux fins distinctes, et vouloir l’une n’est pas vouloir l’autre : il faut parfois choisir.", "II.1 La seconde réponse, qui répond à l’examen demandé"],
-   ["Elle ne nie pas qu’une paix injuste soit fragile ; elle refuse d’en conclure qu’on veut toujours l’une en voulant l’autre.", "II.1 Ce qu’elle conserve"],
-   ["La paix vise la fin des violences, la justice vise ce qui est dû à chacun ; or ce qui est dû peut exiger un combat, comme la résistance à une occupation, et la fin d’un combat peut exiger qu’on renonce à ce qui est dû, comme dans toute amnistie.", "II.2 La fonder par la distinction des fins"],
-   ["Deux fins qui peuvent se contrarier ne sont pas une seule fin : vouloir la paix n’est donc pas vouloir la justice.", "II.2 L’inférence décisive"],
-   ["Cette raison établit que la paix et la justice sont deux fins distinctes, qui peuvent se contrarier.", "II.3 L’éprouver : ce qu’elle établit"],
-   ["Mais elle définit chaque fin séparément, et ne voit pas que chacune est la condition de l’autre : une paix sans justice ne dure pas, une justice sans paix n’a plus de tribunaux pour juger ni de droits à rendre.", "II.3 Ce qu’elle ne permet pas encore, et pourquoi"],
-   ["Les familles qui réclamaient des procès n’auraient obtenu, dans une guerre civile, ni juges ni procès.", "II.3 Le cas qui l’éprouve : un autre moyen qu’en I.3"],
-   ["La distinction des deux fins ne permet donc pas encore d’établir qu’on puisse vouloir la paix sans la justice, parce que chacune est aussi la condition de l’autre.", "II.3 Ce que la seconde réponse ne permet pas encore"],
-   ["Une paix sans justice ne dure pas, et la paix et la justice peuvent se contrarier ; chacune est donc la condition de l’autre, et peut pourtant l’empêcher.", "Transition · les deux acquis et leur dépendance"],
-   ["Dire qu’il faut la paix d’abord et la justice ensuite, ou l’inverse, ne dit rien d’un pays qui devait tout décider le même jour : quelle justice une volonté de paix peut-elle donc vouloir, si elle ne peut la vouloir tout entière ?", "Transition · pourquoi leur addition échoue, et ce qui reste à établir, en question"]
-  ]],
-  ["III. RENONCER À PUNIR, NON À RECONNAÎTRE", [
-   ["Une volonté de paix peut vouloir une part de la justice, si l’on distingue ce qui punit le coupable et ce qui reconnaît le tort : la vérité dite, la victime nommée, la réparation accordée.", "III.1 L’opération que la difficulté exige : une distinction dans la justice"],
-   ["La première part regarde le coupable, la seconde regarde la victime.", "III.1 Ce que la distinction sépare"],
-   ["C’est la punition qui prolonge le conflit, parce qu’elle menace ceux qui doivent déposer les armes ; c’est le tort tu qui ruine la paix, parce qu’il laisse aux victimes une raison de reprendre la lutte.", "III.2 La démontrer : ce que chaque part fait à la paix"],
-   ["Cette distinction conserve les deux réponses et explique leurs arrêts : la fin des violences peut se passer de la punition, non de la reconnaissance, et les deux fins ne se contrarient que par la part de la justice qui punit.", "III.2 Ce qu’elle conserve et ce qu’elle explique"],
-   ["Vouloir la paix, ce n’est donc pas vouloir toute la justice, mais c’est vouloir au moins que les torts soient reconnus ; une paix qui exige qu’on les taise n’est plus voulue comme paix, mais comme silence.", "III.3 La réponse au sujet, avec son opérateur"],
-   ["En Afrique du Sud, l’amnistie était accordée contre l’aveu complet : on renonçait à punir, non à savoir et à dire ce qui avait été fait, et c’est pourquoi ce compromis était encore une volonté de justice.", "III.3 La réponse vérifiée sur le cas"],
-   ["Reste que des victimes ne demandaient pas seulement la vérité, mais la punition, et que la paix leur demandait un sacrifice qu’on ne pouvait exiger d’elles qu’en leur nom à tous.", "III.3 Le reste : ce que cette réponse ne règle pas"]
-  ]],
-  ["CONCLUSION", [
-   ["Vouloir la paix n’est pas vouloir toute la justice, mais c’est en vouloir la part sans laquelle aucune paix ne dure : la reconnaissance des torts.", "Conclusion · la réponse, avec l’opérateur"],
-   ["Les meurtriers amnistiés d’Afrique du Sud sont restés libres ; ils ont dû dire ce qu’ils avaient fait.", "Conclusion · retour à la scène"],
-   ["Mais de quel droit demande-t-on à une victime de renoncer à la punition au nom de la paix de tous ?", "Conclusion · le reste en question"]
-  ]]
+  [
+   "INTRODUCTION",
+   [
+    [
+     "En 1995, l’Afrique du Sud sort de l’apartheid et doit décider ce qu’elle fera des crimes commis pendant des décennies : tortures, assassinats, disparitions.",
+     "Introduction · la scène"
+    ],
+    [
+     "Elle choisit une commission devant laquelle les coupables obtiennent l’amnistie, à condition d’avouer entièrement ce qu’ils ont fait ; des familles de victimes protestent qu’on leur vole la justice.",
+     "Introduction · la scène : le compromis et la protestation"
+    ],
+    [
+     "Ceux qui voulaient la paix ne voulaient pas l’impunité ; ils acceptaient pourtant que des meurtriers restent libres.",
+     "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"
+    ],
+    [
+     "On attend de la paix qu’elle fasse cesser la violence, mais aussi qu’elle dure, et l’on attend de la justice qu’elle rende à chacun ce qui lui est dû.",
+     "Introduction · l’enjeu"
+    ],
+    [
+     "La question n’est pas de savoir s’il faut préférer l’une à l’autre, mais si vouloir la paix, c’est déjà vouloir la justice, comme une fin en contient une autre.",
+     "Introduction · les mots du sujet"
+    ],
+    [
+     "Si l’on répond oui, parce qu’une paix injuste ne dure pas, on oublie encore que finir une guerre oblige parfois à laisser des crimes impunis ; si l’on répond non, parce que ce sont deux fins distinctes, on ne voit plus que chacune est la condition de l’autre.",
+     "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"
+    ],
+    [
+     "Si une paix sans justice ne dure pas, et si finir la violence oblige parfois à laisser des crimes impunis, vouloir la paix, est-ce vouloir la justice, quand on ne peut la vouloir tout entière sans prolonger le conflit ?",
+     "Introduction · la problématique : une seule question, qui garde « est-ce vouloir »"
+    ],
+    [
+     "On examinera d’abord pourquoi vouloir la paix paraît vouloir la justice, et jusqu’où cette raison porte ; ce qu’elle laisse en suspens obligera à examiner le cas où elles se contrarient ; il faudra alors établir ce que ces deux voies, ensemble, laissent encore ouvert.",
+     "Introduction · l’annonce"
+    ]
+   ]
+  ],
+  [
+   "I. IL N’Y A PAS DE PAIX DURABLE SANS JUSTICE",
+   [
+    [
+     "Vouloir la paix, c’est vouloir la justice, car une paix injuste n’est qu’une trêve.",
+     "I.1 Établir la première réponse"
+    ],
+    [
+     "Cette réponse sauve ce que l’histoire enseigne : les paix imposées aux vaincus préparent souvent la guerre suivante.",
+     "I.1 Ce qu’elle sauve"
+    ],
+    [
+     "Une paix dure tant que personne n’a de raison de reprendre les armes ; or l’injustice subie en est une, la plus puissante peut-être, puisqu’elle nourrit le ressentiment de génération en génération.",
+     "I.2 La fonder par une condition"
+    ],
+    [
+     "Qui veut une paix durable doit donc vouloir que les injustices graves soient réparées : il veut la justice comme la condition de ce qu’il veut.",
+     "I.2 L’inférence décisive"
+    ],
+    [
+     "Ce fondement établit que vouloir une paix durable, c’est vouloir qu’aucune injustice grave ne demeure.",
+     "I.3 L’éprouver : ce qu’il établit"
+    ],
+    [
+     "Mais il raisonne sur la paix durable, et la paix qu’on veut d’abord est la fin des violences, qui peut exiger qu’on laisse des torts sans réponse : on ne fait pas cesser une guerre civile en promettant à chaque camp de juger tous ses crimes.",
+     "I.3 Ce qu’il ne permet pas encore, et pourquoi"
+    ],
+    [
+     "En 1995, les chefs de la police et de l’armée sud-africaines n’auraient pas remis les armes à un pouvoir qui les aurait tous poursuivis.",
+     "I.3 Sur la scène"
+    ],
+    [
+     "La condition d’une paix durable ne permet donc pas encore d’établir que vouloir la paix soit vouloir la justice, parce que la fin des violences peut exiger qu’on laisse des torts sans réponse.",
+     "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"
+    ],
+    [
+     "Vouloir une paix durable, c’est vouloir la justice ; mais vouloir la paix ne l’est pas toujours, parce que finir la violence peut exiger de laisser des torts sans réponse. Il faut donc examiner le cas où la paix et la justice se contrarient : ne sont-elles pas deux fins distinctes, qu’il faut parfois choisir l’une contre l’autre ?",
+     "Transition · l’examen nécessaire, en question"
+    ]
+   ]
+  ],
+  [
+   "II. DEUX FINS QUI PEUVENT SE CONTRARIER",
+   [
+    [
+     "La paix et la justice sont deux fins distinctes, et vouloir l’une n’est pas vouloir l’autre : il faut parfois choisir.",
+     "II.1 La seconde réponse, qui répond à l’examen demandé"
+    ],
+    [
+     "Elle ne nie pas qu’une paix injuste soit fragile ; elle refuse d’en conclure qu’on veut toujours l’une en voulant l’autre.",
+     "II.1 Ce qu’elle conserve"
+    ],
+    [
+     "La paix vise la fin des violences, la justice vise ce qui est dû à chacun ; or ce qui est dû peut exiger un combat, comme la résistance à une occupation, et la fin d’un combat peut exiger qu’on renonce à ce qui est dû, comme dans toute amnistie.",
+     "II.2 La fonder par la distinction des fins"
+    ],
+    [
+     "Deux fins qui peuvent se contrarier ne sont pas une seule fin : vouloir la paix n’est donc pas vouloir la justice.",
+     "II.2 L’inférence décisive"
+    ],
+    [
+     "Cette raison établit que la paix et la justice sont deux fins distinctes, qui peuvent se contrarier.",
+     "II.3 L’éprouver : ce qu’elle établit"
+    ],
+    [
+     "Mais elle définit chaque fin séparément, et ne voit pas que chacune est la condition de l’autre : une paix sans justice ne dure pas, une justice sans paix n’a plus de tribunaux pour juger ni de droits à rendre.",
+     "II.3 Ce qu’elle ne permet pas encore, et pourquoi"
+    ],
+    [
+     "Les familles qui réclamaient des procès n’auraient obtenu, dans une guerre civile, ni juges ni procès.",
+     "II.3 Le cas qui l’éprouve : un autre moyen qu’en I.3"
+    ],
+    [
+     "La distinction des deux fins ne permet donc pas encore d’établir qu’on puisse vouloir la paix sans la justice, parce que chacune est aussi la condition de l’autre.",
+     "II.3 Ce que la seconde réponse ne permet pas encore"
+    ],
+    [
+     "Une paix sans justice ne dure pas, et la paix et la justice peuvent se contrarier ; chacune est donc la condition de l’autre, et peut pourtant l’empêcher. Dire qu’il faut la paix d’abord et la justice ensuite, ou l’inverse, ne dit rien d’un pays qui devait tout décider le même jour : quelle justice une volonté de paix peut-elle donc vouloir, si elle ne peut la vouloir tout entière ?",
+     "Transition · pourquoi leur addition échoue, et ce qui reste à établir, en question"
+    ]
+   ]
+  ],
+  [
+   "III. RENONCER À PUNIR, NON À RECONNAÎTRE",
+   [
+    [
+     "Une volonté de paix peut vouloir une part de la justice, si l’on distingue ce qui punit le coupable et ce qui reconnaît le tort : la vérité dite, la victime nommée, la réparation accordée.",
+     "III.1 L’opération que la difficulté exige : une distinction dans la justice"
+    ],
+    [
+     "La première part regarde le coupable, la seconde regarde la victime.",
+     "III.1 Ce que la distinction sépare"
+    ],
+    [
+     "C’est la punition qui prolonge le conflit, parce qu’elle menace ceux qui doivent déposer les armes ; c’est le tort tu qui ruine la paix, parce qu’il laisse aux victimes une raison de reprendre la lutte.",
+     "III.2 La démontrer : ce que chaque part fait à la paix"
+    ],
+    [
+     "Cette distinction conserve les deux réponses et explique leurs arrêts : la fin des violences peut se passer de la punition, non de la reconnaissance, et les deux fins ne se contrarient que par la part de la justice qui punit.",
+     "III.2 Ce qu’elle conserve et ce qu’elle explique"
+    ],
+    [
+     "Vouloir la paix, ce n’est donc pas vouloir toute la justice, mais c’est vouloir au moins que les torts soient reconnus ; une paix qui exige qu’on les taise n’est plus voulue comme paix, mais comme silence.",
+     "III.3 La réponse au sujet, avec son opérateur"
+    ],
+    [
+     "En Afrique du Sud, l’amnistie était accordée contre l’aveu complet : on renonçait à punir, non à savoir et à dire ce qui avait été fait, et c’est pourquoi ce compromis était encore une volonté de justice.",
+     "III.3 La réponse vérifiée sur le cas"
+    ],
+    [
+     "Reste que des victimes ne demandaient pas seulement la vérité, mais la punition, et que la paix leur demandait un sacrifice qu’on ne pouvait exiger d’elles qu’en leur nom à tous.",
+     "III.3 Le reste : ce que cette réponse ne règle pas"
+    ]
+   ]
+  ],
+  [
+   "CONCLUSION",
+   [
+    [
+     "Vouloir la paix n’est pas vouloir toute la justice, mais c’est en vouloir la part sans laquelle aucune paix ne dure : la reconnaissance des torts.",
+     "Conclusion · la réponse, avec l’opérateur"
+    ],
+    [
+     "Les meurtriers amnistiés d’Afrique du Sud sont restés libres ; ils ont dû dire ce qu’ils avaient fait.",
+     "Conclusion · retour à la scène"
+    ],
+    [
+     "Mais de quel droit demande-t-on à une victime de renoncer à la punition au nom de la paix de tous ?",
+     "Conclusion · le reste en question"
+    ]
+   ]
+  ]
  ]
 }

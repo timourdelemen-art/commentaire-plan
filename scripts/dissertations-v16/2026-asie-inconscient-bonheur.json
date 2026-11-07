@@ -52,69 +52,241 @@
    "tests": "Cas témoin : la III décide le cas du mourant, ce que le partage ne faisait pas. Second cas : le deuil, où la douleur comprise cesse de s’aggraver de ce qu’on imagine. Restitution : oui. Rechute : le reste (l’espoir) ne redit ni LA ni LB. Test propre : la distinction vaut sur un second cas, elle n’est pas taillée pour le cas témoin. Report : non. Acquis nouveau : prémisse nouvelle — un même objet peut être su sous deux modes, dont un seul trouble ; nécessaire à la décision."
   },
   "candidats_III": [
-   {"id": "retenue", "operation": "Distinction", "proposition": "Distinguer imaginer un malheur et le comprendre : seule la première manière trouble le bonheur.", "verdict": "retenue", "raison": "Décide le cas du malheur présent, conserve les deux acquis, explique les deux arrêts."},
-   {"id": "frontiere", "operation": "Critère de frontière", "proposition": "Ignorer ce qu’on ne peut changer, connaître ce qu’on peut changer.", "verdict": "écartée", "raison": "C’est le cumul, qui échoue sur le mal présent."},
-   {"id": "ordre", "operation": "Principe d’ordre", "proposition": "Préférer toujours la vérité au contentement.", "verdict": "écartée", "raison": "Tranche sans dire comment on peut être heureux en sachant."},
-   {"id": "condition", "operation": "Condition", "proposition": "On peut être heureux en sachant si l’on est entouré d’autres qui partagent le malheur.", "verdict": "dominée", "raison": "Aide réelle, mais condition contingente qui n’explique pas le trouble."}
+   {
+    "id": "retenue",
+    "operation": "Distinction",
+    "proposition": "Distinguer imaginer un malheur et le comprendre : seule la première manière trouble le bonheur.",
+    "verdict": "retenue",
+    "raison": "Décide le cas du malheur présent, conserve les deux acquis, explique les deux arrêts."
+   },
+   {
+    "id": "frontiere",
+    "operation": "Critère de frontière",
+    "proposition": "Ignorer ce qu’on ne peut changer, connaître ce qu’on peut changer.",
+    "verdict": "écartée",
+    "raison": "C’est le cumul, qui échoue sur le mal présent."
+   },
+   {
+    "id": "ordre",
+    "operation": "Principe d’ordre",
+    "proposition": "Préférer toujours la vérité au contentement.",
+    "verdict": "écartée",
+    "raison": "Tranche sans dire comment on peut être heureux en sachant."
+   },
+   {
+    "id": "condition",
+    "operation": "Condition",
+    "proposition": "On peut être heureux en sachant si l’on est entouré d’autres qui partagent le malheur.",
+    "verdict": "dominée",
+    "raison": "Aide réelle, mais condition contingente qui n’explique pas le trouble."
+   }
   ],
   "generateur": "figure : le conflit ; registre opératoire : causal ; registre de lecture : progressif ; branches B2 ; annonce N1.",
   "scene": "Tolstoï, La Mort d’Ivan Ilitch (1886) : une vie organisée pour ne pas penser, l’épouvante de la maladie, la peur qui le quitte à la fin. Verdict : homologue. Retour : la paix finale n’est pas un oubli.",
-  "statut": {"problematique": "suffisamment justifiée", "copie": "état de travail (architecture expérimentale)"}
+  "statut": {
+   "problematique": "suffisamment justifiée",
+   "copie": "état de travail (architecture expérimentale)"
+  }
  },
  "citations": [
-  {"texte": "vit aussi presque inconscient de lui-même, de Dieu et des choses", "auteur": "Spinoza", "oeuvre": "Éthique", "lieu": "partie V, proposition 42, scolie", "edition": "trad. Maxime Rovere, Flammarion, 2021", "verification": "œuvre fournie, passage retrouvé mot pour mot", "regime": "citation exacte", "fonction": "II.2 : faire voir que l’inconscience est l’état de celui que tout peut défaire ; la preuve tient sans elle."},
-  {"texte": "il n’y a pas d’espoir sans crainte, ni de crainte sans espoir", "auteur": "Spinoza", "oeuvre": "Éthique", "lieu": "partie III, définitions des affects XII-XIII, explication", "edition": "trad. Maxime Rovere, Flammarion, 2021", "verification": "œuvre fournie, passage retrouvé mot pour mot", "regime": "citation exacte", "fonction": "III.3 : fournir la prémisse du reste (la crainte et l’espoir vont ensemble)."}
+  {
+   "texte": "vit aussi presque inconscient de lui-même, de Dieu et des choses",
+   "auteur": "Spinoza",
+   "oeuvre": "Éthique",
+   "lieu": "partie V, proposition 42, scolie",
+   "edition": "trad. Maxime Rovere, Flammarion, 2021",
+   "verification": "œuvre fournie, passage retrouvé mot pour mot",
+   "regime": "citation exacte",
+   "fonction": "II.2 : faire voir que l’inconscience est l’état de celui que tout peut défaire ; la preuve tient sans elle."
+  },
+  {
+   "texte": "il n’y a pas d’espoir sans crainte, ni de crainte sans espoir",
+   "auteur": "Spinoza",
+   "oeuvre": "Éthique",
+   "lieu": "partie III, définitions des affects XII-XIII, explication",
+   "edition": "trad. Maxime Rovere, Flammarion, 2021",
+   "verification": "œuvre fournie, passage retrouvé mot pour mot",
+   "regime": "citation exacte",
+   "fonction": "III.3 : fournir la prémisse du reste (la crainte et l’espoir vont ensemble)."
+  }
  ],
  "copy": [
-  ["INTRODUCTION", [
-   ["Ivan Ilitch, le juge dont Tolstoï raconte la mort, a vécu comme il faut : une carrière aisée, un appartement bien meublé, des parties de cartes, et le soin de ne jamais penser à ce qui pourrait gâter tout cela.", "Introduction · la scène"],
-   ["Quand la maladie l’oblige à savoir qu’il va mourir, cette vie agréable s’effondre, et il passe ses derniers jours dans l’épouvante, jusqu’au moment où la peur le quitte.", "Introduction · la scène : l’effondrement, puis la paix"],
-   ["Tant qu’il ne savait pas, il était content ; dès qu’il sait, il est terrifié ; et pourtant c’est sans rien oublier qu’il finit par être en paix.", "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"],
-   ["On attend du bonheur qu’il soit un contentement que rien ne trouble, mais aussi qu’il dure, et qu’une vérité apprise ne puisse le défaire.", "Introduction · l’enjeu"],
-   ["Être inconscient, ici, ce n’est pas être évanoui : c’est ne pas savoir, ou ne pas vouloir penser, ce qui menace ce qu’on vit, et la question est de savoir si cette ignorance est une condition nécessaire du bonheur.", "Introduction · les mots du sujet"],
-   ["Certes, on est content tant qu’on ne pense pas à ce qui menace, parce que la pensée du malheur gâte le présent ; mais ce contentement dépend d’une ignorance qu’un jour peut lever. Un bonheur fondé sur ce qu’on sait ne craindrait aucune vérité ; mais on ne voit pas encore comment, en sachant les maux qui nous atteignent, on serait déjà heureux.", "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"],
-   ["S’il est vrai que la pensée du malheur gâte le contentement, mais qu’un bonheur ignorant reste à la merci de la première vérité, faut-il être inconscient pour être heureux, quand le malheur est déjà là et qu’on ne peut plus l’ignorer ?", "Introduction · la problématique : une seule question, qui garde « faut-il… pour »"],
-   ["On examinera d’abord pourquoi l’inattention paraît nécessaire au bonheur, et jusqu’où cette raison la porte ; ce qu’elle laisse en suspens obligera à chercher un bonheur fondé sur ce qu’on sait ; il faudra alors établir ce que ces deux voies, ensemble, laissent encore ouvert.", "Introduction · l’annonce"]
-  ]],
-  ["I. NE PAS Y PENSER", [
-   ["Il faut être inconscient pour être heureux, au moins de ce qui menace notre bonheur : la mort, la maladie, la perte de ceux qu’on aime.", "I.1 Établir la première réponse"],
-   ["Cette réponse sauve une expérience commune : les moments heureux sont ceux où l’on ne pense à rien d’autre qu’à ce qu’on vit.", "I.1 Ce qu’elle sauve"],
-   ["Le contentement est l’état d’un être qui ne désire rien de plus que ce qu’il a ; or penser à ce qui menace, c’est désirer une garantie qu’on ne peut pas avoir.", "I.2 La fonder : la nature du contentement"],
-   ["Cette pensée fait donc cesser le contentement, et l’on comprend que les hommes s’efforcent de ne pas y penser : ils n’obéissent pas à une sottise, mais à la nature même de l’état qu’ils recherchent.", "I.2 L’inférence décisive"],
-   ["Ce fondement établit que certains contentements dépendent de l’inattention à ce qui les menace.", "I.3 L’éprouver : ce qu’il établit"],
-   ["Mais il obtient le contentement par l’absence d’une pensée, et ce qui tient à une absence dépend de ce qui peut à tout moment la faire cesser : une douleur, un diagnostic, une nouvelle.", "I.3 Ce qu’il ne permet pas encore, et pourquoi"],
-   ["Toute la vie bien réglée d’Ivan Ilitch ne résiste pas à un mal au côté.", "I.3 Sur la scène"],
-   ["L’inattention ne permet donc pas encore d’établir un bonheur durable, parce que ce qu’elle procure dépend d’une ignorance que le premier malheur suffit à lever.", "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"],
-   ["Ne pas penser à ce qui menace rend content ; mais ce contentement ne dure pas, parce qu’il tient à une ignorance que la réalité peut lever à chaque instant.", "Transition · ce qui est établi, ce qui manque, et pourquoi"],
-   ["Il faut donc examiner si le bonheur peut se fonder sur autre chose que l’ignorance : un bonheur qui repose sur ce qu’on sait ne serait-il pas à l’abri de ce qu’on apprend ?", "Transition · l’examen nécessaire, en question"]
-  ]],
-  ["II. SAVOIR POUR ÊTRE HEUREUX", [
-   ["Un bonheur qui repose sur ce qu’on sait est à l’abri de ce qu’on apprend, et c’est pourquoi le bonheur durable demande la conscience plutôt que son absence.", "II.1 La seconde réponse, qui répond à l’examen demandé"],
-   ["Elle ne nie pas que la pensée du malheur gâte le contentement : elle cherche un bonheur que cette pensée ne puisse pas gâter.", "II.1 Ce qu’elle conserve"],
-   ["Ce qui dépend d’une ignorance peut être détruit par une connaissance ; ce qui repose sur une connaissance ne peut être défait par une connaissance de plus, qui le corrige et l’affermit.", "II.2 La fonder : un principe propre, la stabilité de ce qui repose sur le savoir"],
-   ["Spinoza oppose ainsi au sage l’ignorant qui « vit aussi presque inconscient de lui-même, de Dieu et des choses », et que tout ce qui lui arrive peut défaire.", "II.2 Citation qui fait voir l’inconscience comme fragilité ; la preuve tient sans elle"],
-   ["Un bonheur fondé sur ce qu’on comprend ne peut être surpris par aucune vérité nouvelle.", "II.2 L’inférence décisive"],
-   ["Cette raison établit qu’un bonheur stable doit reposer sur ce que la conscience ne peut défaire.", "II.3 L’éprouver : ce qu’elle établit"],
-   ["Mais elle suppose une connaissance assez complète pour comprendre pourquoi les choses arrivent comme elles arrivent ; or ce que nous savons d’abord de nos maux, c’est qu’ils sont là, bien avant d’en comprendre quoi que ce soit.", "II.3 Ce qu’elle ne permet pas encore, et pourquoi : la portée du savoir requis"],
-   ["Ivan Ilitch sait qu’il va mourir, et ce savoir, loin de le délivrer, l’épouvante.", "II.3 Sur la scène"],
-   ["La connaissance qui rendrait le bonheur durable ne permet donc pas encore d’établir qu’on puisse être heureux en sachant les maux présents, parce qu’elle suppose une compréhension que la conscience du malheur ne donne pas d’elle-même.", "II.3 Ce que la seconde réponse ne permet pas encore"],
-   ["L’inattention rend content, et seul un bonheur fondé sur ce qu’on sait peut durer ; mais les deux réponses s’affrontent sur le même cas, celui du malheur présent : l’une demande de ne pas y penser, ce qui n’est plus possible, l’autre de le comprendre, ce qui n’est pas encore fait.", "Transition · les deux acquis, et le cas où ils s’affrontent"],
-   ["Oublier ce qu’on ne peut changer et connaître ce qu’on peut changer, ce partage échoue justement ici, puisque le mal présent ne peut être ni changé ni oublié : quelle conscience du malheur serait donc compatible avec le bonheur ?", "Transition · pourquoi le partage échoue, et ce qui reste à établir, en question"]
-  ]],
-  ["III. DEUX MANIÈRES DE SAVOIR SON MALHEUR", [
-   ["Pour qu’une conscience du malheur soit compatible avec le bonheur, il faut distinguer deux manières de savoir un même malheur : l’imaginer, c’est le vivre d’avance comme ce qu’il nous ôtera ; le comprendre, c’est le saisir comme un événement qui a ses causes et sa place dans une vie.", "III.1 L’opération que la difficulté exige : une distinction"],
-   ["Ce qui trouble le contentement n’est pas la connaissance du mal, mais l’imagination qui la prolonge en attente et en regret.", "III.1 Ce que la distinction fait voir"],
-   ["Cette distinction conserve les deux réponses : la première avait raison de dire que la pensée du malheur gâte le présent, parce que c’est l’imagination qu’elle décrivait ; la seconde avait raison de fonder le bonheur durable sur le savoir, parce que la compréhension ne craint aucune vérité.", "III.2 La démontrer : ce qu’elle conserve"],
-   ["Elle explique aussi leurs arrêts : l’inattention ne durait pas parce qu’elle supprimait la pensée au lieu d’en changer la manière, et le savoir ne suffisait pas au malade parce que savoir qu’un mal est là n’est pas encore comprendre ce qu’il est.", "III.2 Ce qu’elle explique"],
-   ["On croyait qu’il faut être inconscient parce qu’on prenait pour la conscience même la forme imaginaire qu’elle prend d’abord.", "III.2 L’inférence décisive : d’où venait l’apparence"],
-   ["Il ne faut donc pas être inconscient pour être heureux : il faut que la conscience du malheur cesse d’être une attente pour devenir une compréhension, ce qui demande un travail, non un oubli.", "III.3 La réponse au sujet, avec son opérateur"],
-   ["Ivan Ilitch ne retrouve pas la paix en oubliant sa mort, mais en cessant de la regarder comme ce qui lui arrache une vie qu’il voulait garder : c’est lucide qu’il cesse d’avoir peur.", "III.3 La réponse vérifiée sur le cas"],
-   ["Reste que cette compréhension, si elle délivre de la crainte, délivre aussi de l’espoir, puisque, selon Spinoza, « il n’y a pas d’espoir sans crainte, ni de crainte sans espoir » ; or certains bonheurs vivent d’espérer.", "III.3 Le reste : ce que cette réponse ne règle pas"]
-  ]],
-  ["CONCLUSION", [
-   ["Il ne faut pas être inconscient pour être heureux, mais changer la manière dont on est conscient : le malheur compris trouble moins que le malheur imaginé, et il n’a pas besoin d’être ignoré pour cesser d’épouvanter.", "Conclusion · la réponse, avec l’opérateur"],
-   ["Ivan Ilitch avait d’abord été content par ignorance ; il meurt en paix sans rien ignorer.", "Conclusion · retour à la scène"],
-   ["Mais un bonheur sans espoir est-il encore celui que nous désirions ?", "Conclusion · le reste en question"]
-  ]]
+  [
+   "INTRODUCTION",
+   [
+    [
+     "Ivan Ilitch, le juge dont Tolstoï raconte la mort, a vécu comme il faut : une carrière aisée, un appartement bien meublé, des parties de cartes, et le soin de ne jamais penser à ce qui pourrait gâter tout cela.",
+     "Introduction · la scène"
+    ],
+    [
+     "Quand la maladie l’oblige à savoir qu’il va mourir, cette vie agréable s’effondre, et il passe ses derniers jours dans l’épouvante, jusqu’au moment où la peur le quitte.",
+     "Introduction · la scène : l’effondrement, puis la paix"
+    ],
+    [
+     "Tant qu’il ne savait pas, il était content ; dès qu’il sait, il est terrifié ; et pourtant c’est sans rien oublier qu’il finit par être en paix.",
+     "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"
+    ],
+    [
+     "On attend du bonheur qu’il soit un contentement que rien ne trouble, mais aussi qu’il dure, et qu’une vérité apprise ne puisse le défaire.",
+     "Introduction · l’enjeu"
+    ],
+    [
+     "Être inconscient, ici, ce n’est pas être évanoui : c’est ne pas savoir, ou ne pas vouloir penser, ce qui menace ce qu’on vit, et la question est de savoir si cette ignorance est une condition nécessaire du bonheur.",
+     "Introduction · les mots du sujet"
+    ],
+    [
+     "Certes, on est content tant qu’on ne pense pas à ce qui menace, parce que la pensée du malheur gâte le présent ; mais ce contentement dépend d’une ignorance qu’un jour peut lever. Un bonheur fondé sur ce qu’on sait ne craindrait aucune vérité ; mais on ne voit pas encore comment, en sachant les maux qui nous atteignent, on serait déjà heureux.",
+     "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"
+    ],
+    [
+     "S’il est vrai que la pensée du malheur gâte le contentement, mais qu’un bonheur ignorant reste à la merci de la première vérité, faut-il être inconscient pour être heureux, quand le malheur est déjà là et qu’on ne peut plus l’ignorer ?",
+     "Introduction · la problématique : une seule question, qui garde « faut-il… pour »"
+    ],
+    [
+     "On examinera d’abord pourquoi l’inattention paraît nécessaire au bonheur, et jusqu’où cette raison la porte ; ce qu’elle laisse en suspens obligera à chercher un bonheur fondé sur ce qu’on sait ; il faudra alors établir ce que ces deux voies, ensemble, laissent encore ouvert.",
+     "Introduction · l’annonce"
+    ]
+   ]
+  ],
+  [
+   "I. NE PAS Y PENSER",
+   [
+    [
+     "Il faut être inconscient pour être heureux, au moins de ce qui menace notre bonheur : la mort, la maladie, la perte de ceux qu’on aime.",
+     "I.1 Établir la première réponse"
+    ],
+    [
+     "Cette réponse sauve une expérience commune : les moments heureux sont ceux où l’on ne pense à rien d’autre qu’à ce qu’on vit.",
+     "I.1 Ce qu’elle sauve"
+    ],
+    [
+     "Le contentement est l’état d’un être qui ne désire rien de plus que ce qu’il a ; or penser à ce qui menace, c’est désirer une garantie qu’on ne peut pas avoir.",
+     "I.2 La fonder : la nature du contentement"
+    ],
+    [
+     "Cette pensée fait donc cesser le contentement, et l’on comprend que les hommes s’efforcent de ne pas y penser : ils n’obéissent pas à une sottise, mais à la nature même de l’état qu’ils recherchent.",
+     "I.2 L’inférence décisive"
+    ],
+    [
+     "Ce fondement établit que certains contentements dépendent de l’inattention à ce qui les menace.",
+     "I.3 L’éprouver : ce qu’il établit"
+    ],
+    [
+     "Mais il obtient le contentement par l’absence d’une pensée, et ce qui tient à une absence dépend de ce qui peut à tout moment la faire cesser : une douleur, un diagnostic, une nouvelle.",
+     "I.3 Ce qu’il ne permet pas encore, et pourquoi"
+    ],
+    [
+     "Toute la vie bien réglée d’Ivan Ilitch ne résiste pas à un mal au côté.",
+     "I.3 Sur la scène"
+    ],
+    [
+     "L’inattention ne permet donc pas encore d’établir un bonheur durable, parce que ce qu’elle procure dépend d’une ignorance que le premier malheur suffit à lever.",
+     "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"
+    ],
+    [
+     "Ne pas penser à ce qui menace rend content ; mais ce contentement ne dure pas, parce qu’il tient à une ignorance que la réalité peut lever à chaque instant. Il faut donc examiner si le bonheur peut se fonder sur autre chose que l’ignorance : un bonheur qui repose sur ce qu’on sait ne serait-il pas à l’abri de ce qu’on apprend ?",
+     "Transition · l’examen nécessaire, en question"
+    ]
+   ]
+  ],
+  [
+   "II. SAVOIR POUR ÊTRE HEUREUX",
+   [
+    [
+     "Un bonheur qui repose sur ce qu’on sait est à l’abri de ce qu’on apprend, et c’est pourquoi le bonheur durable demande la conscience plutôt que son absence.",
+     "II.1 La seconde réponse, qui répond à l’examen demandé"
+    ],
+    [
+     "Elle ne nie pas que la pensée du malheur gâte le contentement : elle cherche un bonheur que cette pensée ne puisse pas gâter.",
+     "II.1 Ce qu’elle conserve"
+    ],
+    [
+     "Ce qui dépend d’une ignorance peut être détruit par une connaissance ; ce qui repose sur une connaissance ne peut être défait par une connaissance de plus, qui le corrige et l’affermit.",
+     "II.2 La fonder : un principe propre, la stabilité de ce qui repose sur le savoir"
+    ],
+    [
+     "Spinoza oppose ainsi au sage l’ignorant qui « vit aussi presque inconscient de lui-même, de Dieu et des choses », et que tout ce qui lui arrive peut défaire.",
+     "II.2 Citation qui fait voir l’inconscience comme fragilité ; la preuve tient sans elle"
+    ],
+    [
+     "Un bonheur fondé sur ce qu’on comprend ne peut être surpris par aucune vérité nouvelle.",
+     "II.2 L’inférence décisive"
+    ],
+    [
+     "Cette raison établit qu’un bonheur stable doit reposer sur ce que la conscience ne peut défaire.",
+     "II.3 L’éprouver : ce qu’elle établit"
+    ],
+    [
+     "Mais elle suppose une connaissance assez complète pour comprendre pourquoi les choses arrivent comme elles arrivent ; or ce que nous savons d’abord de nos maux, c’est qu’ils sont là, bien avant d’en comprendre quoi que ce soit.",
+     "II.3 Ce qu’elle ne permet pas encore, et pourquoi : la portée du savoir requis"
+    ],
+    [
+     "Ivan Ilitch sait qu’il va mourir, et ce savoir, loin de le délivrer, l’épouvante.",
+     "II.3 Sur la scène"
+    ],
+    [
+     "La connaissance qui rendrait le bonheur durable ne permet donc pas encore d’établir qu’on puisse être heureux en sachant les maux présents, parce qu’elle suppose une compréhension que la conscience du malheur ne donne pas d’elle-même.",
+     "II.3 Ce que la seconde réponse ne permet pas encore"
+    ],
+    [
+     "L’inattention rend content, et seul un bonheur fondé sur ce qu’on sait peut durer ; mais les deux réponses s’affrontent sur le même cas, celui du malheur présent : l’une demande de ne pas y penser, ce qui n’est plus possible, l’autre de le comprendre, ce qui n’est pas encore fait. Oublier ce qu’on ne peut changer et connaître ce qu’on peut changer, ce partage échoue justement ici, puisque le mal présent ne peut être ni changé ni oublié : quelle conscience du malheur serait donc compatible avec le bonheur ?",
+     "Transition · pourquoi le partage échoue, et ce qui reste à établir, en question"
+    ]
+   ]
+  ],
+  [
+   "III. DEUX MANIÈRES DE SAVOIR SON MALHEUR",
+   [
+    [
+     "Pour qu’une conscience du malheur soit compatible avec le bonheur, il faut distinguer deux manières de savoir un même malheur : l’imaginer, c’est le vivre d’avance comme ce qu’il nous ôtera ; le comprendre, c’est le saisir comme un événement qui a ses causes et sa place dans une vie.",
+     "III.1 L’opération que la difficulté exige : une distinction"
+    ],
+    [
+     "Ce qui trouble le contentement n’est pas la connaissance du mal, mais l’imagination qui la prolonge en attente et en regret.",
+     "III.1 Ce que la distinction fait voir"
+    ],
+    [
+     "Cette distinction conserve les deux réponses : la première avait raison de dire que la pensée du malheur gâte le présent, parce que c’est l’imagination qu’elle décrivait ; la seconde avait raison de fonder le bonheur durable sur le savoir, parce que la compréhension ne craint aucune vérité.",
+     "III.2 La démontrer : ce qu’elle conserve"
+    ],
+    [
+     "Elle explique aussi leurs arrêts : l’inattention ne durait pas parce qu’elle supprimait la pensée au lieu d’en changer la manière, et le savoir ne suffisait pas au malade parce que savoir qu’un mal est là n’est pas encore comprendre ce qu’il est.",
+     "III.2 Ce qu’elle explique"
+    ],
+    [
+     "On croyait qu’il faut être inconscient parce qu’on prenait pour la conscience même la forme imaginaire qu’elle prend d’abord.",
+     "III.2 L’inférence décisive : d’où venait l’apparence"
+    ],
+    [
+     "Il ne faut donc pas être inconscient pour être heureux : il faut que la conscience du malheur cesse d’être une attente pour devenir une compréhension, ce qui demande un travail, non un oubli.",
+     "III.3 La réponse au sujet, avec son opérateur"
+    ],
+    [
+     "Ivan Ilitch ne retrouve pas la paix en oubliant sa mort, mais en cessant de la regarder comme ce qui lui arrache une vie qu’il voulait garder : c’est lucide qu’il cesse d’avoir peur.",
+     "III.3 La réponse vérifiée sur le cas"
+    ],
+    [
+     "Reste que cette compréhension, si elle délivre de la crainte, délivre aussi de l’espoir, puisque, selon Spinoza, « il n’y a pas d’espoir sans crainte, ni de crainte sans espoir » ; or certains bonheurs vivent d’espérer.",
+     "III.3 Le reste : ce que cette réponse ne règle pas"
+    ]
+   ]
+  ],
+  [
+   "CONCLUSION",
+   [
+    [
+     "Il ne faut pas être inconscient pour être heureux, mais changer la manière dont on est conscient : le malheur compris trouble moins que le malheur imaginé, et il n’a pas besoin d’être ignoré pour cesser d’épouvanter.",
+     "Conclusion · la réponse, avec l’opérateur"
+    ],
+    [
+     "Ivan Ilitch avait d’abord été content par ignorance ; il meurt en paix sans rien ignorer.",
+     "Conclusion · retour à la scène"
+    ],
+    [
+     "Mais un bonheur sans espoir est-il encore celui que nous désirions ?",
+     "Conclusion · le reste en question"
+    ]
+   ]
+  ]
  ]
 }

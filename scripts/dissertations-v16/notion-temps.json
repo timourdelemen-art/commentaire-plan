@@ -52,67 +52,233 @@
    "tests": "Cas témoin : à Ise, le bois pourrit en vingt ans et le sanctuaire dure depuis le VIIe siècle, parce qu’on le reconstruit ; ni A, ni B, ni le partage ne disaient pourquoi. Second cas : une langue, qui se perd si plus personne ne la parle. Restitution : oui. Rechute : le reste (le vieillissement du vivant) ne redit ni LA ni LB. Test propre : prémisse de transformation établie (les processus de destruction n’ont besoin d’aucun agent, la formation en exige un) ; illusion expliquée (on voit l’effet dans le temps sans voir sa cause). Report : non. Acquis nouveau : prémisse nouvelle — le temps mesure sans agir ; nécessaire à la décision."
   },
   "candidats_III": [
-   {"id": "retenue", "operation": "Transformation du présupposé", "proposition": "Le temps n’agit pas : ce qui détruit, ce sont les processus laissés à eux-mêmes ; ce qui construit, l’activité qui les contrarie.", "verdict": "retenue", "raison": "Conserve les deux acquis, explique pourquoi on accusait le temps, décide le cas d’Ise."},
-   {"id": "partage", "operation": "Partage", "proposition": "Il détruit les unes, construit les autres.", "verdict": "écartée", "raison": "C’est le cumul : il garde l’idée d’un temps agent."},
-   {"id": "distinctions", "operation": "Distinction", "proposition": "Distinguer l’état, l’être et la cause.", "verdict": "dominée", "raison": "Ressource de la version V7.4, reprise ici, mais sans dire ce qui agit."},
-   {"id": "memoire", "operation": "Médiateur", "proposition": "La mémoire sauve ce que le temps détruit.", "verdict": "dominée", "raison": "Un cas de l’activité qui entretient ; ne vaut pas pour les choses."}
+   {
+    "id": "retenue",
+    "operation": "Transformation du présupposé",
+    "proposition": "Le temps n’agit pas : ce qui détruit, ce sont les processus laissés à eux-mêmes ; ce qui construit, l’activité qui les contrarie.",
+    "verdict": "retenue",
+    "raison": "Conserve les deux acquis, explique pourquoi on accusait le temps, décide le cas d’Ise."
+   },
+   {
+    "id": "partage",
+    "operation": "Partage",
+    "proposition": "Il détruit les unes, construit les autres.",
+    "verdict": "écartée",
+    "raison": "C’est le cumul : il garde l’idée d’un temps agent."
+   },
+   {
+    "id": "distinctions",
+    "operation": "Distinction",
+    "proposition": "Distinguer l’état, l’être et la cause.",
+    "verdict": "dominée",
+    "raison": "Ressource de la version V7.4, reprise ici, mais sans dire ce qui agit."
+   },
+   {
+    "id": "memoire",
+    "operation": "Médiateur",
+    "proposition": "La mémoire sauve ce que le temps détruit.",
+    "verdict": "dominée",
+    "raison": "Un cas de l’activité qui entretient ; ne vaut pas pour les choses."
+   }
   ],
   "generateur": "figure : le présupposé ; registre opératoire : causal ; registre de lecture : progressif ; branches G2 en problématique, B2 ; annonce N1.",
   "scene": "Sanctuaire d’Ise (Japon), reconstruit à l’identique tous les vingt ans depuis la fin du VIIe siècle (dernière reconstruction en 2013). Verdict : homologue. Retour : ce n’est pas le temps qui a détruit ni conservé, c’est la pourriture et la reconstruction.",
-  "statut": {"problematique": "suffisamment justifiée", "copie": "état de travail (architecture expérimentale)"}
+  "statut": {
+   "problematique": "suffisamment justifiée",
+   "copie": "état de travail (architecture expérimentale)"
+  }
  },
  "citations": [
-  {"texte": "par lui-même le temps est plutôt responsable de corruption, car il est nombre d’un mouvement, et le mouvement renverse ce qui existe", "auteur": "Aristote", "oeuvre": "Physique", "lieu": "IV, 12, 221b", "edition": "Œuvres complètes, dir. Pierre Pellegrin, Flammarion, 2014", "verification": "œuvre fournie, passage retrouvé mot pour mot", "regime": "citation exacte", "fonction": "I.2 : donner l’énoncé exact du fondement ; l’inférence (perte nécessaire de tout état) est écrite à côté."},
-  {"texte": "le temps n’accomplit même pas cette corruption, mais il se trouve que par accident ce changement se produit dans le temps", "auteur": "Aristote", "oeuvre": "Physique", "lieu": "IV, 13, 222b", "edition": "Œuvres complètes, dir. Pierre Pellegrin, Flammarion, 2014", "verification": "œuvre fournie, passage retrouvé mot pour mot (repère de ligne « [25] » omis)", "regime": "citation exacte", "fonction": "III.1 : faire voir que l’auteur même de la première raison distingue la mesure et la cause ; la III démontre la distinction sans son autorité."}
+  {
+   "texte": "par lui-même le temps est plutôt responsable de corruption, car il est nombre d’un mouvement, et le mouvement renverse ce qui existe",
+   "auteur": "Aristote",
+   "oeuvre": "Physique",
+   "lieu": "IV, 12, 221b",
+   "edition": "Œuvres complètes, dir. Pierre Pellegrin, Flammarion, 2014",
+   "verification": "œuvre fournie, passage retrouvé mot pour mot",
+   "regime": "citation exacte",
+   "fonction": "I.2 : donner l’énoncé exact du fondement ; l’inférence (perte nécessaire de tout état) est écrite à côté."
+  },
+  {
+   "texte": "le temps n’accomplit même pas cette corruption, mais il se trouve que par accident ce changement se produit dans le temps",
+   "auteur": "Aristote",
+   "oeuvre": "Physique",
+   "lieu": "IV, 13, 222b",
+   "edition": "Œuvres complètes, dir. Pierre Pellegrin, Flammarion, 2014",
+   "verification": "œuvre fournie, passage retrouvé mot pour mot (repère de ligne « [25] » omis)",
+   "regime": "citation exacte",
+   "fonction": "III.1 : faire voir que l’auteur même de la première raison distingue la mesure et la cause ; la III démontre la distinction sans son autorité."
+  }
  ],
  "copy": [
-  ["INTRODUCTION", [
-   ["Au Japon, le grand sanctuaire d’Ise est fait d’un bois de cyprès qui pourrit en quelques décennies.", "Introduction · la scène"],
-   ["Tous les vingt ans pourtant, depuis la fin du VIIe siècle, on le rebâtit à l’identique sur un terrain voisin, et l’ancien est démonté.", "Introduction · la scène : la reconstruction"],
-   ["Aucune de ses poutres n’a résisté au temps ; le sanctuaire, lui, a traversé treize siècles.", "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"],
-   ["On attend du temps qu’il nous laisse durer et devenir, mais on sait aussi qu’il ne laisse rien demeurer tel quel.", "Introduction · l’enjeu"],
-   ["Dire le temps nécessairement destructeur, ce n’est pas dire qu’il détruit souvent, ni seulement : c’est dire qu’il détruit par ce qu’il est.", "Introduction · les mots du sujet : « nécessairement »"],
-   ["Certes, aucun état ne demeure, parce que le temps est passage ; mais perdre un état n’est pas périr. On répondra que rien ne se forme sans durée ; mais ce sans quoi une chose ne se fait pas n’est pas ce qui la fait.", "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"],
-   ["Le temps est-il nécessairement destructeur parce qu’aucun état ne lui résiste, alors que perdre un état n’est pas périr, ou faut-il le croire bienfaisant parce que rien ne se forme sans lui, alors qu’il ne forme rien par lui-même ?", "Introduction · la problématique : une seule question, qui garde « nécessairement destructeur »"],
-   ["On examinera d’abord pourquoi le temps paraît détruire par essence, et jusqu’où cette raison porte ; ce qu’elle laisse en suspens obligera à examiner ce que le temps fait aux êtres qui se forment ; il faudra alors établir ce que ces deux voies, ensemble, laissent encore ouvert.", "Introduction · l’annonce"]
-  ]],
-  ["I. RIEN NE DEMEURE", [
-   ["Le temps est nécessairement destructeur, car il fait passer tout ce qui est : les poutres d’Ise, les visages, les souvenirs.", "I.1 Établir la première réponse"],
-   ["Cette réponse sauve ce que chacun éprouve : rien de ce que nous aimons ne nous reste tel que nous l’avons aimé.", "I.1 Ce qu’elle sauve"],
-   ["Le temps n’existe pas sans un changement qu’il mesure, et Aristote en tire que « par lui-même le temps est plutôt responsable de corruption, car il est nombre d’un mouvement, et le mouvement renverse ce qui existe ».", "I.2 La fonder par une définition ; citation qui donne l’énoncé exact"],
-   ["Or tout changement fait sortir d’un état, et un changement mesuré par le temps ne revient jamais en arrière ; tout état présent est donc nécessairement perdu.", "I.2 L’inférence décisive"],
-   ["Ce fondement établit que le temps fait nécessairement passer chaque état présent.", "I.3 L’éprouver : ce qu’il établit"],
-   ["Mais sa prémisse porte sur les états, non sur les êtres, et perdre un état n’est pas cesser d’être : le gland qui devient chêne perd tout ce qu’il était sans périr.", "I.3 Ce qu’il ne permet pas encore, et pourquoi"],
-   ["Le sanctuaire d’Ise a changé de bois plus de soixante fois ; il n’a jamais cessé d’être.", "I.3 Sur la scène"],
-   ["Le passage nécessaire de chaque état ne permet donc pas encore d’établir que le temps détruise nécessairement, parce que perdre un état n’est pas cesser d’être.", "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"],
-   ["Aucun état ne résiste au temps ; mais cela ne prouve pas qu’il détruise, parce que perdre un état n’est pas cesser d’être.", "Transition · ce qui est établi, ce qui manque, et pourquoi"],
-   ["Il faut donc examiner ce que le temps fait aux êtres qui se forment : ce qui croît, ce qui apprend, ce qui se bâtit, ne lui doit-il pas aussi d’exister ?", "Transition · l’examen nécessaire, en question"]
-  ]],
-  ["II. RIEN NE SE FORME SANS DURÉE", [
-   ["Ce qui croît, apprend ou se bâtit doit au temps d’exister, et en ce sens le temps n’est pas nécessairement destructeur.", "II.1 La seconde réponse, qui répond à l’examen demandé"],
-   ["Elle ne nie pas que chaque état passe ; elle fait voir que ce passage est aussi celui d’une formation.", "II.1 Ce qu’elle conserve"],
-   ["Toute formation se fait par étapes successives : on ne devient pas adulte, savant ou charpentier d’un seul coup ; or ce qui se fait par étapes successives demande du temps.", "II.2 La fonder par la genèse"],
-   ["Le temps est donc la condition nécessaire de toute formation, et l’on ne peut dire destructeur par essence ce sans quoi rien ne se ferait.", "II.2 L’inférence décisive"],
-   ["Cette raison établit que le temps est la condition nécessaire de toute formation.", "II.3 L’éprouver : ce qu’elle établit"],
-   ["Mais ce qui est requis par une formation n’est pas ce qui l’accomplit : ce qui forme, c’est l’activité d’un être qui croît ou qui travaille, et la même durée laisse aussi les choses se défaire.", "II.3 Ce qu’elle ne permet pas encore, et pourquoi : la condition n’est pas la cause"],
-   ["Vingt ans suffisent à pourrir le bois d’Ise comme à former les charpentiers qui le remplaceront : la durée est la même, ce qui s’y passe ne l’est pas.", "II.3 Sur la scène"],
-   ["Que toute formation demande du temps ne permet donc pas encore d’établir qu’il construise, parce que ce sans quoi une chose ne se fait pas n’est pas encore ce qui la fait.", "II.3 Ce que la seconde réponse ne permet pas encore"],
-   ["Aucun état ne résiste au temps, et rien ne se forme sans lui ; mais les deux réponses font du temps un agent, qui défait selon l’une, qui fait selon l’autre, et c’est ce qui les arrête toutes deux.", "Transition · les deux acquis, et ce qu’ils supposent ensemble"],
-   ["Dire qu’il détruit certaines choses et en construit d’autres garde cette idée, et laisse Ise inexpliqué : si ce n’est pas le temps, qu’est-ce donc qui détruit, et qu’est-ce qui construit ?", "Transition · pourquoi leur addition échoue, et ce qui reste à établir, en question"]
-  ]],
-  ["III. CE QUI SE PASSE DANS LE TEMPS", [
-   ["Ce qui détruit et ce qui construit ne sont pas le temps, qui n’est pas un agent : il est la mesure de changements dont les causes sont ailleurs.", "III.1 L’opération que la difficulté exige : examiner le présupposé commun"],
-   ["Aristote, qui disait le temps plutôt responsable de corruption, corrigeait aussitôt : « le temps n’accomplit même pas cette corruption, mais il se trouve que par accident ce changement se produit dans le temps ».", "III.1 Citation : l’auteur de la première raison distingue lui-même la mesure et la cause"],
-   ["La pourriture du bois, l’oubli, l’usure sont des processus qui n’ont besoin de personne : ils se poursuivent d’eux-mêmes ; la croissance, l’étude, la reconstruction exigent une activité qui les contrarie.", "III.2 La démontrer : ce qui agit de part et d’autre"],
-   ["Ainsi s’expliquent les deux réponses : on accusait le temps de détruire parce qu’on voyait les choses se défaire en lui sans que personne n’agisse, et on le croyait bienfaisant parce qu’on confondait la durée d’une formation avec l’activité qui l’accomplit.", "III.2 Ce qu’elle conserve et ce qu’elle explique"],
-   ["Le temps n’est donc pas nécessairement destructeur : la destruction n’est nécessaire que pour ce qu’aucune activité n’entretient.", "III.3 La réponse au sujet, avec son opérateur"],
-   ["À Ise, le bois pourrit parce que le cyprès est vivant et humide ; le sanctuaire dure parce que des hommes le rebâtissent : aucun des deux n’est l’œuvre du temps.", "III.3 La réponse vérifiée sur le cas"],
-   ["Reste ce qu’aucune activité ne peut entretenir indéfiniment : le vivant lui-même, qui vieillit quoi qu’il fasse.", "III.3 Le reste : ce que cette réponse ne règle pas"]
-  ]],
-  ["CONCLUSION", [
-   ["Le temps n’est pas nécessairement destructeur, car il ne fait rien : ce qui détruit, ce sont des processus laissés à eux-mêmes, et ce qui dure, c’est ce qu’une activité ne cesse de reprendre.", "Conclusion · la réponse, avec l’opérateur"],
-   ["Le sanctuaire d’Ise n’a pas vaincu le temps : il a vaincu la pourriture, vingt ans après vingt ans.", "Conclusion · retour à la scène"],
-   ["Mais qu’en est-il de nous, que nulle reconstruction ne peut rendre à notre jeunesse ?", "Conclusion · le reste en question"]
-  ]]
+  [
+   "INTRODUCTION",
+   [
+    [
+     "Au Japon, le grand sanctuaire d’Ise est fait d’un bois de cyprès qui pourrit en quelques décennies.",
+     "Introduction · la scène"
+    ],
+    [
+     "Tous les vingt ans pourtant, depuis la fin du VIIe siècle, on le rebâtit à l’identique sur un terrain voisin, et l’ancien est démonté.",
+     "Introduction · la scène : la reconstruction"
+    ],
+    [
+     "Aucune de ses poutres n’a résisté au temps ; le sanctuaire, lui, a traversé treize siècles.",
+     "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"
+    ],
+    [
+     "On attend du temps qu’il nous laisse durer et devenir, mais on sait aussi qu’il ne laisse rien demeurer tel quel.",
+     "Introduction · l’enjeu"
+    ],
+    [
+     "Dire le temps nécessairement destructeur, ce n’est pas dire qu’il détruit souvent, ni seulement : c’est dire qu’il détruit par ce qu’il est.",
+     "Introduction · les mots du sujet : « nécessairement »"
+    ],
+    [
+     "Certes, aucun état ne demeure, parce que le temps est passage ; mais perdre un état n’est pas périr. On répondra que rien ne se forme sans durée ; mais ce sans quoi une chose ne se fait pas n’est pas ce qui la fait.",
+     "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"
+    ],
+    [
+     "Le temps est-il nécessairement destructeur parce qu’aucun état ne lui résiste, alors que perdre un état n’est pas périr, ou faut-il le croire bienfaisant parce que rien ne se forme sans lui, alors qu’il ne forme rien par lui-même ?",
+     "Introduction · la problématique : une seule question, qui garde « nécessairement destructeur »"
+    ],
+    [
+     "On examinera d’abord pourquoi le temps paraît détruire par essence, et jusqu’où cette raison porte ; ce qu’elle laisse en suspens obligera à examiner ce que le temps fait aux êtres qui se forment ; il faudra alors établir ce que ces deux voies, ensemble, laissent encore ouvert.",
+     "Introduction · l’annonce"
+    ]
+   ]
+  ],
+  [
+   "I. RIEN NE DEMEURE",
+   [
+    [
+     "Le temps est nécessairement destructeur, car il fait passer tout ce qui est : les poutres d’Ise, les visages, les souvenirs.",
+     "I.1 Établir la première réponse"
+    ],
+    [
+     "Cette réponse sauve ce que chacun éprouve : rien de ce que nous aimons ne nous reste tel que nous l’avons aimé.",
+     "I.1 Ce qu’elle sauve"
+    ],
+    [
+     "Le temps n’existe pas sans un changement qu’il mesure, et Aristote en tire que « par lui-même le temps est plutôt responsable de corruption, car il est nombre d’un mouvement, et le mouvement renverse ce qui existe ».",
+     "I.2 La fonder par une définition ; citation qui donne l’énoncé exact"
+    ],
+    [
+     "Or tout changement fait sortir d’un état, et un changement mesuré par le temps ne revient jamais en arrière ; tout état présent est donc nécessairement perdu.",
+     "I.2 L’inférence décisive"
+    ],
+    [
+     "Ce fondement établit que le temps fait nécessairement passer chaque état présent.",
+     "I.3 L’éprouver : ce qu’il établit"
+    ],
+    [
+     "Mais sa prémisse porte sur les états, non sur les êtres, et perdre un état n’est pas cesser d’être : le gland qui devient chêne perd tout ce qu’il était sans périr.",
+     "I.3 Ce qu’il ne permet pas encore, et pourquoi"
+    ],
+    [
+     "Le sanctuaire d’Ise a changé de bois plus de soixante fois ; il n’a jamais cessé d’être.",
+     "I.3 Sur la scène"
+    ],
+    [
+     "Le passage nécessaire de chaque état ne permet donc pas encore d’établir que le temps détruise nécessairement, parce que perdre un état n’est pas cesser d’être.",
+     "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"
+    ],
+    [
+     "Aucun état ne résiste au temps ; mais cela ne prouve pas qu’il détruise, parce que perdre un état n’est pas cesser d’être. Il faut donc examiner ce que le temps fait aux êtres qui se forment : ce qui croît, ce qui apprend, ce qui se bâtit, ne lui doit-il pas aussi d’exister ?",
+     "Transition · l’examen nécessaire, en question"
+    ]
+   ]
+  ],
+  [
+   "II. RIEN NE SE FORME SANS DURÉE",
+   [
+    [
+     "Ce qui croît, apprend ou se bâtit doit au temps d’exister, et en ce sens le temps n’est pas nécessairement destructeur.",
+     "II.1 La seconde réponse, qui répond à l’examen demandé"
+    ],
+    [
+     "Elle ne nie pas que chaque état passe ; elle fait voir que ce passage est aussi celui d’une formation.",
+     "II.1 Ce qu’elle conserve"
+    ],
+    [
+     "Toute formation se fait par étapes successives : on ne devient pas adulte, savant ou charpentier d’un seul coup ; or ce qui se fait par étapes successives demande du temps.",
+     "II.2 La fonder par la genèse"
+    ],
+    [
+     "Le temps est donc la condition nécessaire de toute formation, et l’on ne peut dire destructeur par essence ce sans quoi rien ne se ferait.",
+     "II.2 L’inférence décisive"
+    ],
+    [
+     "Cette raison établit que le temps est la condition nécessaire de toute formation.",
+     "II.3 L’éprouver : ce qu’elle établit"
+    ],
+    [
+     "Mais ce qui est requis par une formation n’est pas ce qui l’accomplit : ce qui forme, c’est l’activité d’un être qui croît ou qui travaille, et la même durée laisse aussi les choses se défaire.",
+     "II.3 Ce qu’elle ne permet pas encore, et pourquoi : la condition n’est pas la cause"
+    ],
+    [
+     "Vingt ans suffisent à pourrir le bois d’Ise comme à former les charpentiers qui le remplaceront : la durée est la même, ce qui s’y passe ne l’est pas.",
+     "II.3 Sur la scène"
+    ],
+    [
+     "Que toute formation demande du temps ne permet donc pas encore d’établir qu’il construise, parce que ce sans quoi une chose ne se fait pas n’est pas encore ce qui la fait.",
+     "II.3 Ce que la seconde réponse ne permet pas encore"
+    ],
+    [
+     "Aucun état ne résiste au temps, et rien ne se forme sans lui ; mais les deux réponses font du temps un agent, qui défait selon l’une, qui fait selon l’autre, et c’est ce qui les arrête toutes deux. Dire qu’il détruit certaines choses et en construit d’autres garde cette idée, et laisse Ise inexpliqué : si ce n’est pas le temps, qu’est-ce donc qui détruit, et qu’est-ce qui construit ?",
+     "Transition · pourquoi leur addition échoue, et ce qui reste à établir, en question"
+    ]
+   ]
+  ],
+  [
+   "III. CE QUI SE PASSE DANS LE TEMPS",
+   [
+    [
+     "Ce qui détruit et ce qui construit ne sont pas le temps, qui n’est pas un agent : il est la mesure de changements dont les causes sont ailleurs.",
+     "III.1 L’opération que la difficulté exige : examiner le présupposé commun"
+    ],
+    [
+     "Aristote, qui disait le temps plutôt responsable de corruption, corrigeait aussitôt : « le temps n’accomplit même pas cette corruption, mais il se trouve que par accident ce changement se produit dans le temps ».",
+     "III.1 Citation : l’auteur de la première raison distingue lui-même la mesure et la cause"
+    ],
+    [
+     "La pourriture du bois, l’oubli, l’usure sont des processus qui n’ont besoin de personne : ils se poursuivent d’eux-mêmes ; la croissance, l’étude, la reconstruction exigent une activité qui les contrarie.",
+     "III.2 La démontrer : ce qui agit de part et d’autre"
+    ],
+    [
+     "Ainsi s’expliquent les deux réponses : on accusait le temps de détruire parce qu’on voyait les choses se défaire en lui sans que personne n’agisse, et on le croyait bienfaisant parce qu’on confondait la durée d’une formation avec l’activité qui l’accomplit.",
+     "III.2 Ce qu’elle conserve et ce qu’elle explique"
+    ],
+    [
+     "Le temps n’est donc pas nécessairement destructeur : la destruction n’est nécessaire que pour ce qu’aucune activité n’entretient.",
+     "III.3 La réponse au sujet, avec son opérateur"
+    ],
+    [
+     "À Ise, le bois pourrit parce que le cyprès est vivant et humide ; le sanctuaire dure parce que des hommes le rebâtissent : aucun des deux n’est l’œuvre du temps.",
+     "III.3 La réponse vérifiée sur le cas"
+    ],
+    [
+     "Reste ce qu’aucune activité ne peut entretenir indéfiniment : le vivant lui-même, qui vieillit quoi qu’il fasse.",
+     "III.3 Le reste : ce que cette réponse ne règle pas"
+    ]
+   ]
+  ],
+  [
+   "CONCLUSION",
+   [
+    [
+     "Le temps n’est pas nécessairement destructeur, car il ne fait rien : ce qui détruit, ce sont des processus laissés à eux-mêmes, et ce qui dure, c’est ce qu’une activité ne cesse de reprendre.",
+     "Conclusion · la réponse, avec l’opérateur"
+    ],
+    [
+     "Le sanctuaire d’Ise n’a pas vaincu le temps : il a vaincu la pourriture, vingt ans après vingt ans.",
+     "Conclusion · retour à la scène"
+    ],
+    [
+     "Mais qu’en est-il de nous, que nulle reconstruction ne peut rendre à notre jeunesse ?",
+     "Conclusion · le reste en question"
+    ]
+   ]
+  ]
  ]
 }
