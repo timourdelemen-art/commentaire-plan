@@ -1010,7 +1010,7 @@
    "residual": "Reste ce qu’aucune activité ne peut entretenir indéfiniment : le vivant lui-même, qui vieillit quoi qu’il fasse.",
    "conclusionQuestion": "Mais qu’en est-il de nous, que nulle reconstruction ne peut rendre à notre jeunesse ?",
    "economy": {
-    "words": 895,
+    "words": 976,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -1018,7 +1018,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "eefd3f3753737371f7843065a1f942db77872dca161ab22ddf9bce5af85be3e9",
+   "copySha256": "e6ba85115e150ae39b70fa01e7b5e03ba34cbdc904919fe92097be0a6bb0f553",
    "protocol": "V16.1-exp"
   },
   "notion-travail": {
@@ -1078,7 +1078,7 @@
    "residual": "Reste à savoir ce que deviendra cette part humaine si les machines rendent inutile la plupart des travaux, comme Aristote l’imaginait déjà : « si, de même, les navettes tissaient d’elles-mêmes et les plectres jouaient tout seuls de la cithare, alors les ingénieurs n’auraient pas besoin d’exécutants ni les maîtres d’esclaves ».",
    "conclusionQuestion": "Mais où trouverons-nous cette place, si les navettes finissent par tisser d’elles-mêmes ?",
    "economy": {
-    "words": 971,
+    "words": 1060,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -1086,7 +1086,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "892d84c494c058101db1e1946ac67b0e1cef7dda1d8ee34f5d1715b3919d41d7",
+   "copySha256": "1a8da788e816a399c2a4c6bee61eb87c8ef09278536eaa0c9bc30bdbd54bf650",
    "protocol": "V16.1-exp"
   },
   "notion-verite": {
@@ -1146,7 +1146,7 @@
    "residual": "Reste le cas de ceux qui ne peuvent ni demander ni refuser, l’enfant, le malade qui n’a plus sa conscience, et pour qui d’autres doivent bien décider.",
    "conclusionQuestion": "Mais qui décidera pour celui qui ne peut plus rien demander ?",
    "economy": {
-    "words": 935,
+    "words": 1021,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -1154,7 +1154,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "d003303fd2c859e4d8925dc8f29613eda9d30a31da5346f6b9e7833754b1c229",
+   "copySha256": "dd687801ce15199b823d1881abb07c404ca34de1f12826fcac68e99aabd9b3a6",
    "protocol": "V16.1-exp"
   },
   "2025-me-verite": {
@@ -1221,7 +1221,7 @@
    "residual": "Reste le cas des vérités dont toutes les traces ont disparu, et que rien ne pourra plus jamais éprouver.",
    "conclusionQuestion": "Mais que devient une vérité dont plus rien ne garde la trace ?",
    "economy": {
-    "words": 942,
+    "words": 1032,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -1229,7 +1229,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "8be1b4900d9780525e885a8d6eac5e54443b812023eb8614012351d9f7cc5ad8",
+   "copySha256": "92bfb79c6f39b1c2b0ae9fb710e60868b29e98fbdf45ca419fa930a7f51664bc",
    "protocol": "V16.1-exp"
   },
   "2025-me-avenir-technique": {
@@ -1296,7 +1296,7 @@
    "residual": "Reste une difficulté : comment choisir assez tôt les techniques à développer ou à limiter quand leurs conséquences collectives sont encore incertaines ?",
    "conclusionQuestion": "Comment décider avant qu'une technique ne devienne difficile à remplacer, lorsque ses effets futurs sont encore mal connus ?",
    "economy": {
-    "words": 992,
+    "words": 1076,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -1304,7 +1304,7 @@
     "status": "propose",
     "independentReview": "Inférences et portée de la troisième partie corrigées ; vérifications indépendantes de l'ensemble du corpus et des références encore requises."
    },
-   "copySha256": "96ef5be356514dd0d998da9b0701de9e999ce90b543976370bd24eb4440a1690",
+   "copySha256": "41d04b5e766962c051885a1c38f0f837dfe7c206ab74afd367dd6ba9dfe44153",
    "protocol": "V16.1-exp"
   },
   "2025-me-besoin-art": {
@@ -1371,7 +1371,7 @@
    "residual": "Reste qu'une œuvre capable de réunir peut aussi être instrumentalisée : son pouvoir de partage ne garantit ni la liberté de ceux qui l'interprètent ni la justice de son usage.",
    "conclusionQuestion": "Comment préserver la liberté de l'expérience artistique lorsque les œuvres peuvent aussi servir la propagande ?",
    "economy": {
-    "words": 951,
+    "words": 1038,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -1379,7 +1379,7 @@
     "status": "propose",
     "independentReview": "Inférences et portée de la troisième partie corrigées ; vérifications indépendantes de l'ensemble du corpus et des références encore requises."
    },
-   "copySha256": "ed73138c2635dc0b332ff8cb419c0c6b1cc4b3c354ccb113b6fee5f930c87dcb",
+   "copySha256": "31d109a6b43654360857259992709cde950236b5c54c235478fb89e8f9285a87",
    "protocol": "V16.1-exp"
   }
  }
