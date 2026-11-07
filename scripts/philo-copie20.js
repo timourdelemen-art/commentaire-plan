@@ -42,10 +42,10 @@ const renderCopy=(d,tag)=>d.map(([heading,sentences])=>{
 // Exercice relié à la copie : retrouver les possibilités découvertes avant de lire leur formulation.
 function openingExercise(copy, key) {
   const names = ['Première partie', 'Deuxième partie', 'Troisième partie'];
-  const markers = [/Ce que la preuve ouvre/, /La possibilité que la seconde preuve révèle/, /Ce que la transformation fait comprendre/];
   const discovered = names.map((name, i) => {
     const P = ['I','II','III'][i];
-    const pair = (copy[i+1]?.[1] || []).find(([, fn]) => fn.startsWith(P+'.2') && markers[i].test(fn));
+    const proofs = (copy[i+1]?.[1] || []).filter(([, fn]) => fn.startsWith(P+'.2'));
+    const pair = proofs.at(-1);
     return {name, text:pair?.[0] || ''};
   });
   if (discovered.some(d => !d.text)) throw new Error('Acquis non retrouvé dans la copie : ' + key);
