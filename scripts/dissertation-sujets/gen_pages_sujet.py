@@ -164,9 +164,9 @@ def page(k, I, O, other, Ib):
 {e1}{e2}{e3}{e4}</div></section>
 
 <section class="onglet offer-band" id="copie"><div class="kicker">LA COPIE À 20</div><h2>{c['titre']}</h2>
-<p class="lede" style="font-size:18px">La copie la plus courte qui mérite 20 : {ns} phrases, environ {round(nw, -1)} mots ; une introduction, trois parties de trois paragraphes, deux transitions, une conclusion.</p>
+<p class="lede" style="font-size:18px">Modèle de dissertation d’environ {round(nw, -1)} mots : un parcours argumentatif et des preuves à analyser. Les modèles courts ne remplacent pas le développement approfondi attendu dans une copie intégrale de quatre heures ; aucune note de 20/20 n’est garantie.</p>
 <div class="c20 dc20" id="dc20-copie">{blocks}</div>
-<div class="kicker" style="margin-top:28px">POURQUOI CETTE COPIE MÉRITE 20</div>
+<div class="kicker" style="margin-top:28px">LES FORCES DE CE MODÈLE</div>
 <div class="grid-3">
 {why}
 </div>
