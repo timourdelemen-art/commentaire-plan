@@ -279,3 +279,26 @@ La copie montre la force d’un témoignage qui accuse et fait éprouver la souf
 Source : Victor Hugo, Les Orientales, « L’Enfant », dernière strophe, édition Ollendorff, 1912, p. 688–689. https://fr.wikisource.org/wiki/Les_Orientales/L%E2%80%99Enfant
 
 Pour Desbordes-Valmore, distinguer la fin de l’extrait du bac et la fin du poème complet : le rossignol et le bombardement appartiennent à la suite, hors extrait. Source : https://fr.wikisource.org/wiki/Pauvres_fleurs/%C3%80_Monsieur_A.-L.
+
+
+## 14. Révision transversale du 7 novembre 2026 — retrouver le texte entier
+
+Une copie excellente doit permettre à un lecteur qui ne connaît pas l'extrait de retrouver **son parcours intelligible** : ce qui est d'abord donné, ce qui s'ajoute, se déplace, se complique ou demeure, et ce que la fin fait comprendre du début. Cela ne commande ni une paraphrase suivie ni un plan obligatoirement linéaire.
+
+### Trois gestes à articuler dans la rédaction
+
+1. **Phrase de parcours** : situer brièvement l'unité expressive étudiée dans l'avancée du texte, avec son rôle (« après… », « tandis que… », « jusqu'à… »), sans raconter chaque événement.
+2. **Arrêt analytique** : conserver une unité de sens assez complète pour que l'analyse ne déforme pas le passage ; examiner précisément les mots, la syntaxe, les voix, le rythme, les images ou la composition, selon ce qui est décisif. L'effet n'est jamais déduit du seul nom d'un procédé.
+3. **Recomposition** : montrer ce que l'observation locale fait comprendre du mouvement d'ensemble, des relations entre passages, ou de la valeur rétrospective du dénouement.
+
+Ces gestes ne correspondent pas à trois phrases réglementaires : ils peuvent s'intégrer dans une même phrase ou se distribuer sur plusieurs paragraphes. Le commentaire composé reste argumentatif et peut revenir plusieurs fois sur un même moment avec des questions différentes, à condition de ne jamais laisser le lecteur perdre le fil du texte.
+
+### Tests supplémentaires avant de publier un commentaire modèle
+
+- **Test du lecteur absent** : sans l'extrait sous les yeux, comprend-on la situation initiale, les articulations décisives et l'issue ou le point de suspension ?
+- **Test de l'unité expressive** : les microcitations ne découpent-elles pas une proposition, une image, une réplique ou un enchaînement dont le sens dépend du tout ? Citer assez pour rendre la preuve intelligible, sans allonger gratuitement.
+- **Test de la liaison** : chaque analyse locale éclaire-t-elle une autre zone du texte ou la réponse globale, plutôt que d'être un constat isolé ?
+- **Test de résistance** : la lecture conserve-t-elle les tensions et ambiguïtés irréductibles au lieu de réécrire l'extrait comme un récit à transformation obligatoire ?
+- **Test des genres** : pour le théâtre, rendre les rapports entre répliques et déplacements du conflit ; pour le récit, la temporalité et le regard narratif ; pour la poésie, la progression des images, de l'énonciation et de la forme ; pour l'argumentation, les étapes et objections du raisonnement. Ce sont des invitations à lire, non quatre grilles à imposer.
+
+**Critère de coupe** : supprimer les annonces de progression qui ne font que répéter une idée déjà exposée ; conserver celles qui rendent compréhensible une articulation que le lecteur perdrait autrement. **Critère d'ajout** : préférer une relation exacte entre deux moments à une nouvelle étiquette de procédé. Une partie thématique est acceptable seulement si la continuité du passage reste perceptible à travers les preuves choisies.
