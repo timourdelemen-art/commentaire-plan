@@ -120,7 +120,7 @@ def page(k, I, O, other, Ib):
                          f'<p><strong>I → II.</strong> {Ib["trans"][0]}<br><strong>II → III.</strong> {Ib["trans"][1]}</p>'))
           + suiv('Étape 3 · La preuve →') + '</section>')
     approfondir = D.PRECISION.get(k)
-    precision = (zone(7, 'Affiner l’analyse', html.escape(approfondir[0]), approfondir[1], 'ana',
+    precision = (zone(7, 'Affiner l’analyse', html.escape(approfondir[0]) + '<span class="etape-passage" style="display:block">' + html.escape(approfondir[1]) + '</span>', approfondir[1], 'ana',
                       '<p>' + html.escape(approfondir[2]) + '</p>') if approfondir else '')
     e3 = (f'<section class="etape" id="etape-preuve"><h3>Étape 3 · La preuve</h3>{comment(3)}<div class="etape-niveau">Je choisis, sur ce sujet</div>{direct}'
           + q(1, 1, 'l’analyse', 'Quelle analyse explique le plus précisément ce que fait l’écriture dans ce passage ?', an, 'ana', f'<p class="etape-passage">{I["passage"]}</p>')
