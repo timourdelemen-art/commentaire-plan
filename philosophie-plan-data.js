@@ -589,7 +589,7 @@ niveau1: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Mais que vaut cette certitude pour les actes que personne ne peut reconstituer avec nous ?",
+          "Comment tenir un jugement moral pour pleinement certain lorsque les faits accessibles et les principes selon lesquels nous jugeons peuvent encore être contestés ?",
           "ok",
           "C’est le reste de la réponse, devenu question : le même problème, posé plus loin."
         ],
@@ -1689,7 +1689,7 @@ niveau1: [
       "q": "Quelle question finale naît de ce reste ?",
       "o": [
         [
-          "Mais un sacré sans dieux peut-il échapper au culte de ceux qui gouvernent ?",
+          "Que perdrait une humanité qui répondrait autrement aux besoins auxquels les religions ont donné sens ?",
           "ok",
           "C’est le reste de la réponse, devenu question : le même problème, posé plus loin."
         ],

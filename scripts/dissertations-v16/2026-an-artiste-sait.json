@@ -1,278 +1,280 @@
 {
- "id": "2026-an-artiste-sait",
- "subject": "L’artiste sait-il ce qu’il fait ?",
- "notion": "L’art",
- "fiche": {
-  "operateur": "fait (« sait-il ») : l’artiste possède-t-il un savoir de ce qu’il produit ; question descriptive.",
-  "sens": "savoir : (1) pouvoir dire, au moins pour soi, ce qu’on produit et pourquoi cela réussit ; (2) agir exprès (trop faible : tout geste volontaire). ce qu’il fait : (1) l’activité et l’ouvrage produit — retenu ; (2) ce que l’œuvre fait à autrui — destination : le reste et la conclusion. l’artiste : celui qui produit des œuvres de beaux-arts, non le seul artisan.",
-  "substitutions_interdites": "savoir ≠ connaître des recettes ; ne pas savoir ≠ être inspiré par un dieu ; artiste ≠ génie absolu.",
-  "verrou": "Oui : établir qu’il possède un savoir réel de ce qu’il produit. Non : établir qu’il ne sait pas ce qui fait son œuvre. Glissements interdits : de « il ne sait pas d’avance » à « il ne sait pas du tout » ; de « certains artistes » à « tout artiste ».",
-  "trois_reponses": "Spontanée : oui, c’est un métier. Contraire : non, l’œuvre lui échappe (inspiration). Conciliation : il sait les moyens et ignore l’invention.",
-  "conciliation_1_8bis": "Partage : savoir des moyens, ignorance de l’invention. Elle hésite sur Cologne : la même figure est à la fois inventée et choisie ; le partage doit placer ce choix d’un côté sans raison.",
-  "brouillon": {
-   "a": "Oui : l’art est un métier ; l’artiste connaît ses moyens et corrige ce qu’il fait.",
-   "b": "Ce savoir est réel, mais n’explique pas ce qui fait réussir l’œuvre : aucune règle connue d’avance ne la contient.",
-   "c": "Il faut examiner d’où vient ce qui fait l’œuvre : de ce que l’artiste découvre en faisant.",
-   "d": "L’originalité ne sort d’aucun savoir préalable ; mais cela n’explique pas les choix que l’artiste fait sciemment.",
-   "e": "L’une place le savoir avant l’œuvre, l’autre l’œuvre avant le savoir ; il reste à comprendre le savoir qui naît en faisant."
+  "id": "2026-an-artiste-sait",
+  "subject": "L’artiste sait-il ce qu’il fait ?",
+  "notion": "L’art",
+  "fiche": {
+    "operateur": "fait (« sait-il ») : l’artiste possède-t-il un savoir de ce qu’il produit ; question descriptive.",
+    "sens": "savoir : (1) pouvoir dire, au moins pour soi, ce qu’on produit et pourquoi cela réussit ; (2) agir exprès (trop faible : tout geste volontaire). ce qu’il fait : (1) l’activité et l’ouvrage produit — retenu ; (2) ce que l’œuvre fait à autrui — destination : le reste et la conclusion. l’artiste : celui qui produit des œuvres de beaux-arts, non le seul artisan.",
+    "substitutions_interdites": "savoir ≠ connaître des recettes ; ne pas savoir ≠ être inspiré par un dieu ; artiste ≠ génie absolu.",
+    "verrou": "Oui : établir qu’il possède un savoir réel de ce qu’il produit. Non : établir qu’il ne sait pas ce qui fait son œuvre. Glissements interdits : de « il ne sait pas d’avance » à « il ne sait pas du tout » ; de « certains artistes » à « tout artiste ».",
+    "trois_reponses": "Spontanée : oui, c’est un métier. Contraire : non, l’œuvre lui échappe (inspiration). Conciliation : il sait les moyens et ignore l’invention.",
+    "conciliation_1_8bis": "Partage : savoir des moyens, ignorance de l’invention. Elle hésite sur Cologne : la même figure est à la fois inventée et choisie ; le partage doit placer ce choix d’un côté sans raison.",
+    "brouillon": {
+      "a": "Oui : l’art est un métier ; l’artiste connaît ses moyens et corrige ce qu’il fait.",
+      "b": "Ce savoir est réel, mais n’explique pas ce qui fait réussir l’œuvre : aucune règle connue d’avance ne la contient.",
+      "c": "Il faut examiner d’où vient ce qui fait l’œuvre : de ce que l’artiste découvre en faisant.",
+      "d": "L’originalité ne sort d’aucun savoir préalable ; mais cela n’explique pas les choix que l’artiste fait sciemment.",
+      "e": "L’une place le savoir avant l’œuvre, l’autre l’œuvre avant le savoir ; il reste à comprendre le savoir qui naît en faisant."
+    },
+    "A": "L’artiste sait ce qu’il fait : l’art est un faire réglé dont il connaît les moyens.",
+    "FA": "Définition (III.3). 1. Faire avec art, c’est produire en connaissant les moyens qui donnent tel effet (E : définition fixée). 2. Corriger, c’est comparer ce qu’on a fait à ce qu’on voulait faire (E). 3. L’artiste ne cesse de corriger (E : fait, esquisses, repentirs). Donc il sait ce qu’il fait.",
+    "XA": "L’artiste connaît ses moyens et les effets qu’ils produisent.",
+    "YA": "Ce qui fait réussir l’œuvre.",
+    "ZA": "FA procède par des règles qui relient un moyen à un effet connu ; la réussite de l’œuvre n’est pas un effet connu d’avance.",
+    "type_LA": "insuffisance explicative",
+    "LA": "La connaissance des moyens ne permet donc pas encore d’expliquer ce qui fait réussir l’œuvre, parce qu’aucune règle connue d’avance ne la contient.",
+    "six_LA": "Mesure : XA écrit. Filiation : prémisse 1 (moyen → effet connu). Meilleur cas : le plus savant des harmonistes n’en déduit pas la phrase qui tient la salle. Absorption : FA dirait « la réussite est un effet de plus » ; alors tout technicien appliqué réussirait. Non-lacune : oui. Calibration : « ne permet pas encore d’expliquer ».",
+    "T1": "Nous avons établi que l’artiste connaît ses moyens ; mais cela n’explique pas la réussite, parce que ce savoir ne contient que des règles connues d’avance ; il faut donc examiner d’où vient ce qui fait l’œuvre (W : cause ou genèse de l’inexpliqué, III.5).",
+    "B": "Ce qui fait l’œuvre, l’artiste ne le sait pas d’avance : il le découvre en faisant. B conserve XA (le métier n’est pas nié).",
+    "FB": "Condition de possibilité (III.3). 1. Une œuvre nouvelle n’est pas l’application d’une règle connue, sinon elle ne serait pas nouvelle (E : définition de l’originalité). 2. Ce qui n’est pas déduit d’une règle connue ne peut être su avant d’être produit (E). Donc ce qui fait l’œuvre ne peut être su d’avance. Indépendance : vaut sans la limite de A. Principe propre : l’originalité.",
+    "XB": "L’originalité de l’œuvre ne sort d’aucun savoir préalable.",
+    "YB": "Le jugement par lequel l’artiste reconnaît, en faisant, ce qui convient.",
+    "ZB": "FB oppose la production nouvelle au savoir qui la précède et place l’essentiel dans ce qui échappe au savoir ; il n’a pas de quoi expliquer un savoir qui trie pendant la production.",
+    "type_LB": "insuffisance explicative",
+    "LB": "L’originalité de l’œuvre ne permet donc pas encore d’expliquer le jugement par lequel l’artiste reconnaît, en le faisant, ce qui convient.",
+    "six_LB": "Mesure : XB écrit. Filiation : prémisse 2 (non déduit, donc non su). Meilleur cas : même l’improvisation la plus libre trie ses figures. Absorption : FB dirait « le tri est encore inspiré » ; il faudrait alors expliquer pourquoi il est constant et corrigible. Non-lacune : oui. Calibration : oui. Geste : cas exemplaire (Cologne), différent de I.3 (mesure de portée).",
+    "T2": "Bilan : XA, XB. ρ : dépendance non expliquée (FA met le savoir avant l’œuvre, FB l’œuvre avant le savoir ; aucun n’établit le sens de la dépendance pendant la production). D : expliquer le savoir qui naît en faisant et qui reconnaît ce qui convient sans règle préalable. Cumul : « il sait jouer, il ne sait pas ce qu’il jouera » ; échoue parce que les deux réponses se disputent le même objet, le choix de chaque figure. Classe : intelligibilité et décision.",
+    "epreuves": "1. Contre-exemple : Poe prétend avoir composé Le Corbeau comme un problème de mathématiques ; même s’il dit vrai, il ne montre pas que la réussite du poème suit de la méthode. 2. Meilleur cas : survit. 3. Cumul : échec écrit. 4. Antériorité : la distinction kantienne génie / goût porte une solution (le goût juge) ; elle demande un travail : candidat de III, transposé sans la doctrine du génie.",
+    "soupcon_aporie": "aucun indice écrit ; régime ordinaire.",
+    "chemins_echoues": "Chemin aporétique de l’ancienne copie (le jugement conduit la création / la création transforme le jugement) : cercle affirmé sans module ; écarté.",
+    "dictionnaire": "non consulté.",
+    "phrase_mouvement": "A, parce que l’art est un faire réglé et corrigé, établit que l’artiste connaît ses moyens ; mais non ce qui fait réussir l’œuvre, parce qu’aucune règle d’avance ne la contient ; il faut donc examiner d’où vient l’œuvre. B, parce que l’original ne se déduit d’aucune règle, établit que l’œuvre ne sort d’aucun savoir préalable ; mais n’explique pas le tri que fait l’artiste. Or l’une met le savoir avant, l’autre après ; il reste le savoir qui naît en faisant.",
+    "probleme_directeur": "L’artiste sait-il ce qu’il fait, si ni son métier ni l’originalité de l’œuvre n’expliquent le savoir qui choisit en faisant ?",
+    "problematique": "L’artiste connaît son métier ; son œuvre, pourtant, ne s’en déduit pas. Sait-il ce qu’il fait, tant qu’on ignore comment un savoir peut choisir, à chaque instant, ce qu’aucun savoir ne prévoyait ?",
+    "forme_problematique": "G4 (acquis et contre-acquis, puis « sait-il » avec ce qui reste inexpliqué ; la seconde phrase reprend « savoir »). Reconstruction : on part du métier, on bute sur la réussite, on examine l’originalité, on bute sur le choix ; la III doit expliquer le savoir qui choisit. Relecture : opérateur conservé.",
+    "critere": "Sur le concert de Cologne, une solution devra dire si Jarrett savait ce qu’il faisait, conserver son métier et l’originalité de ce qu’il jouait, expliquer pourquoi le métier n’expliquait pas la réussite et l’originalité pas les choix, et rendre compte du savoir qui choisit.",
+    "contrainte_scene": "montrer un artiste qui sait son métier et produit pourtant ce qu’il n’avait pas prévu, en choisissant.",
+    "III": {
+      "operation": "sens de la dépendance (III.7 a) : le savoir suit pas à pas l’œuvre en train de se faire.",
+      "III1": "Le savoir qui choisit ne précède pas l’œuvre : c’est un jugement qui reconnaît, dans ce qui vient d’être fait, ce qui convient à ce qui se fait.",
+      "III2": "Ce jugement n’est ni une règle appliquée ni un aveuglement ; il conserve le métier (XA) et l’invention (XB), explique LA (on cherchait avant l’œuvre une règle qui se forme avec elle) et LB (on confondait « pas su d’avance » et « pas su du tout »).",
+      "III3": "L’artiste sait ce qu’il fait pendant qu’il le fait, non avant ; vérifié à Cologne. Reste : ce que l’œuvre fera aux autres.",
+      "tests": "Cas témoin : la III dit en quel sens Jarrett savait ce qu’il faisait, ce que le cumul ne disait pas. Second cas : les repentirs d’un peintre, visibles sous la couche finale. Restitution : oui. Rechute : le reste (l’effet sur autrui) ne redit ni LA ni LB. Test propre : l’inversion explique ce que l’ordre initial n’expliquait pas (le tri). Report : non. Acquis nouveau : prémisse nouvelle — un jugement peut porter sur un cas singulier sans règle préalable et commander la suite ; nécessaire à la décision."
+    },
+    "candidats_III": [
+      {
+        "id": "retenue",
+        "operation": "Sens de la dépendance",
+        "proposition": "Le savoir de l’artiste suit l’œuvre pas à pas : il reconnaît, dans ce qui vient d’être fait, ce qui convient.",
+        "verdict": "retenue",
+        "raison": "Conserve métier et invention, explique le tri sur le cas de Cologne."
+      },
+      {
+        "id": "frontiere",
+        "operation": "Critère de frontière",
+        "proposition": "L’artiste sait ce qui relève de la technique et ignore ce qui relève de l’inspiration.",
+        "verdict": "écartée",
+        "raison": "C’est le cumul : le choix d’une figure tombe des deux côtés à la fois."
+      },
+      {
+        "id": "explication",
+        "operation": "Explication commune",
+        "proposition": "L’inconscient de l’artiste produit à la fois la règle et l’invention.",
+        "verdict": "écartée",
+        "raison": "Hypothèse de secours, ni établie ni vérifiable sur le cas."
+      },
+      {
+        "id": "mediateur",
+        "operation": "Médiateur entre niveaux",
+        "proposition": "L’œuvre achevée enseigne après coup à l’artiste ce qu’il a fait.",
+        "verdict": "dominée",
+        "raison": "Vrai en partie, mais n’explique pas les choix pendant la production."
+      }
+    ],
+    "generateur": "figure : la dépendance ; registre opératoire : critique ; registre de lecture : progressif ; branches B1 ; annonce N1.",
+    "scene": "Keith Jarrett, concert de Cologne, 24 janvier 1975, sur un piano de répétition défectueux. Verdict : homologue. Retour : la III fait de chaque figure reprise ou quittée le signe du savoir qui choisit.",
+    "statut": {
+      "problematique": "suffisamment justifiée",
+      "copie": "état de travail (architecture expérimentale)"
+    },
+    "ouvertures_de_pensee": {
+      "I": "Corriger une couleur ou une cadence suppose de discerner l'écart entre un effet obtenu et celui qu'on cherche : le savoir de l'artiste s'exerce donc aussi pendant la création, non seulement avant elle.",
+      "II": "Les contraintes imprévues du piano de Cologne n'étaient contenues dans aucune recette ; en les travaillant, Jarrett a trouvé des formes qu'il n'aurait pu connaître avant de jouer.",
+      "III": "Le métier permet de juger les essais, tandis que l'invention leur donne une matière qui n'était pas connue d'avance : l'artiste peut savoir ce qu'il fait à mesure que l'œuvre se forme, sans pouvoir la déduire d'un plan préalable.",
+      "statut": "Possibilités justifiées, avec leur portée exacte."
+    }
   },
-  "A": "L’artiste sait ce qu’il fait : l’art est un faire réglé dont il connaît les moyens.",
-  "FA": "Définition (III.3). 1. Faire avec art, c’est produire en connaissant les moyens qui donnent tel effet (E : définition fixée). 2. Corriger, c’est comparer ce qu’on a fait à ce qu’on voulait faire (E). 3. L’artiste ne cesse de corriger (E : fait, esquisses, repentirs). Donc il sait ce qu’il fait.",
-  "XA": "L’artiste connaît ses moyens et les effets qu’ils produisent.",
-  "YA": "Ce qui fait réussir l’œuvre.",
-  "ZA": "FA procède par des règles qui relient un moyen à un effet connu ; la réussite de l’œuvre n’est pas un effet connu d’avance.",
-  "type_LA": "insuffisance explicative",
-  "LA": "La connaissance des moyens ne permet donc pas encore d’expliquer ce qui fait réussir l’œuvre, parce qu’aucune règle connue d’avance ne la contient.",
-  "six_LA": "Mesure : XA écrit. Filiation : prémisse 1 (moyen → effet connu). Meilleur cas : le plus savant des harmonistes n’en déduit pas la phrase qui tient la salle. Absorption : FA dirait « la réussite est un effet de plus » ; alors tout technicien appliqué réussirait. Non-lacune : oui. Calibration : « ne permet pas encore d’expliquer ».",
-  "T1": "Nous avons établi que l’artiste connaît ses moyens ; mais cela n’explique pas la réussite, parce que ce savoir ne contient que des règles connues d’avance ; il faut donc examiner d’où vient ce qui fait l’œuvre (W : cause ou genèse de l’inexpliqué, III.5).",
-  "B": "Ce qui fait l’œuvre, l’artiste ne le sait pas d’avance : il le découvre en faisant. B conserve XA (le métier n’est pas nié).",
-  "FB": "Condition de possibilité (III.3). 1. Une œuvre nouvelle n’est pas l’application d’une règle connue, sinon elle ne serait pas nouvelle (E : définition de l’originalité). 2. Ce qui n’est pas déduit d’une règle connue ne peut être su avant d’être produit (E). Donc ce qui fait l’œuvre ne peut être su d’avance. Indépendance : vaut sans la limite de A. Principe propre : l’originalité.",
-  "XB": "L’originalité de l’œuvre ne sort d’aucun savoir préalable.",
-  "YB": "Le jugement par lequel l’artiste reconnaît, en faisant, ce qui convient.",
-  "ZB": "FB oppose la production nouvelle au savoir qui la précède et place l’essentiel dans ce qui échappe au savoir ; il n’a pas de quoi expliquer un savoir qui trie pendant la production.",
-  "type_LB": "insuffisance explicative",
-  "LB": "L’originalité de l’œuvre ne permet donc pas encore d’expliquer le jugement par lequel l’artiste reconnaît, en le faisant, ce qui convient.",
-  "six_LB": "Mesure : XB écrit. Filiation : prémisse 2 (non déduit, donc non su). Meilleur cas : même l’improvisation la plus libre trie ses figures. Absorption : FB dirait « le tri est encore inspiré » ; il faudrait alors expliquer pourquoi il est constant et corrigible. Non-lacune : oui. Calibration : oui. Geste : cas exemplaire (Cologne), différent de I.3 (mesure de portée).",
-  "T2": "Bilan : XA, XB. ρ : dépendance non expliquée (FA met le savoir avant l’œuvre, FB l’œuvre avant le savoir ; aucun n’établit le sens de la dépendance pendant la production). D : expliquer le savoir qui naît en faisant et qui reconnaît ce qui convient sans règle préalable. Cumul : « il sait jouer, il ne sait pas ce qu’il jouera » ; échoue parce que les deux réponses se disputent le même objet, le choix de chaque figure. Classe : intelligibilité et décision.",
-  "epreuves": "1. Contre-exemple : Poe prétend avoir composé Le Corbeau comme un problème de mathématiques ; même s’il dit vrai, il ne montre pas que la réussite du poème suit de la méthode. 2. Meilleur cas : survit. 3. Cumul : échec écrit. 4. Antériorité : la distinction kantienne génie / goût porte une solution (le goût juge) ; elle demande un travail : candidat de III, transposé sans la doctrine du génie.",
-  "soupcon_aporie": "aucun indice écrit ; régime ordinaire.",
-  "chemins_echoues": "Chemin aporétique de l’ancienne copie (le jugement conduit la création / la création transforme le jugement) : cercle affirmé sans module ; écarté.",
-  "dictionnaire": "non consulté.",
-  "phrase_mouvement": "A, parce que l’art est un faire réglé et corrigé, établit que l’artiste connaît ses moyens ; mais non ce qui fait réussir l’œuvre, parce qu’aucune règle d’avance ne la contient ; il faut donc examiner d’où vient l’œuvre. B, parce que l’original ne se déduit d’aucune règle, établit que l’œuvre ne sort d’aucun savoir préalable ; mais n’explique pas le tri que fait l’artiste. Or l’une met le savoir avant, l’autre après ; il reste le savoir qui naît en faisant.",
-  "probleme_directeur": "L’artiste sait-il ce qu’il fait, si ni son métier ni l’originalité de l’œuvre n’expliquent le savoir qui choisit en faisant ?",
-  "problematique": "L’artiste connaît son métier ; son œuvre, pourtant, ne s’en déduit pas. Sait-il ce qu’il fait, tant qu’on ignore comment un savoir peut choisir, à chaque instant, ce qu’aucun savoir ne prévoyait ?",
-  "forme_problematique": "G4 (acquis et contre-acquis, puis « sait-il » avec ce qui reste inexpliqué ; la seconde phrase reprend « savoir »). Reconstruction : on part du métier, on bute sur la réussite, on examine l’originalité, on bute sur le choix ; la III doit expliquer le savoir qui choisit. Relecture : opérateur conservé.",
-  "critere": "Sur le concert de Cologne, une solution devra dire si Jarrett savait ce qu’il faisait, conserver son métier et l’originalité de ce qu’il jouait, expliquer pourquoi le métier n’expliquait pas la réussite et l’originalité pas les choix, et rendre compte du savoir qui choisit.",
-  "contrainte_scene": "montrer un artiste qui sait son métier et produit pourtant ce qu’il n’avait pas prévu, en choisissant.",
-  "III": {
-   "operation": "sens de la dépendance (III.7 a) : le savoir suit pas à pas l’œuvre en train de se faire.",
-   "III1": "Le savoir qui choisit ne précède pas l’œuvre : c’est un jugement qui reconnaît, dans ce qui vient d’être fait, ce qui convient à ce qui se fait.",
-   "III2": "Ce jugement n’est ni une règle appliquée ni un aveuglement ; il conserve le métier (XA) et l’invention (XB), explique LA (on cherchait avant l’œuvre une règle qui se forme avec elle) et LB (on confondait « pas su d’avance » et « pas su du tout »).",
-   "III3": "L’artiste sait ce qu’il fait pendant qu’il le fait, non avant ; vérifié à Cologne. Reste : ce que l’œuvre fera aux autres.",
-   "tests": "Cas témoin : la III dit en quel sens Jarrett savait ce qu’il faisait, ce que le cumul ne disait pas. Second cas : les repentirs d’un peintre, visibles sous la couche finale. Restitution : oui. Rechute : le reste (l’effet sur autrui) ne redit ni LA ni LB. Test propre : l’inversion explique ce que l’ordre initial n’expliquait pas (le tri). Report : non. Acquis nouveau : prémisse nouvelle — un jugement peut porter sur un cas singulier sans règle préalable et commander la suite ; nécessaire à la décision."
-  },
-  "candidats_III": [
-   {
-    "id": "retenue",
-    "operation": "Sens de la dépendance",
-    "proposition": "Le savoir de l’artiste suit l’œuvre pas à pas : il reconnaît, dans ce qui vient d’être fait, ce qui convient.",
-    "verdict": "retenue",
-    "raison": "Conserve métier et invention, explique le tri sur le cas de Cologne."
-   },
-   {
-    "id": "frontiere",
-    "operation": "Critère de frontière",
-    "proposition": "L’artiste sait ce qui relève de la technique et ignore ce qui relève de l’inspiration.",
-    "verdict": "écartée",
-    "raison": "C’est le cumul : le choix d’une figure tombe des deux côtés à la fois."
-   },
-   {
-    "id": "explication",
-    "operation": "Explication commune",
-    "proposition": "L’inconscient de l’artiste produit à la fois la règle et l’invention.",
-    "verdict": "écartée",
-    "raison": "Hypothèse de secours, ni établie ni vérifiable sur le cas."
-   },
-   {
-    "id": "mediateur",
-    "operation": "Médiateur entre niveaux",
-    "proposition": "L’œuvre achevée enseigne après coup à l’artiste ce qu’il a fait.",
-    "verdict": "dominée",
-    "raison": "Vrai en partie, mais n’explique pas les choix pendant la production."
-   }
+  "citations": [
+    {
+      "texte": "un talent consistant à produire ce pour quoi aucune règle déterminée ne se peut indiquer",
+      "auteur": "Kant",
+      "oeuvre": "Critique de la faculté de juger",
+      "lieu": "§ 46",
+      "edition": "trad. Alain Renaut, GF-Flammarion",
+      "verification": "œuvre fournie, passage retrouvé mot pour mot",
+      "regime": "citation exacte",
+      "fonction": "II.2 : donner la formule exacte de l’originalité ; la preuve (ce qui est nouveau ne se déduit pas d’une règle connue) tient sans elle."
+    }
   ],
-  "generateur": "figure : la dépendance ; registre opératoire : critique ; registre de lecture : progressif ; branches B1 ; annonce N1.",
-  "scene": "Keith Jarrett, concert de Cologne, 24 janvier 1975, sur un piano de répétition défectueux. Verdict : homologue. Retour : la III fait de chaque figure reprise ou quittée le signe du savoir qui choisit.",
-  "statut": {
-   "problematique": "suffisamment justifiée",
-   "copie": "état de travail (architecture expérimentale)"
-  }
- },
- "citations": [
-  {
-   "texte": "un talent consistant à produire ce pour quoi aucune règle déterminée ne se peut indiquer",
-   "auteur": "Kant",
-   "oeuvre": "Critique de la faculté de juger",
-   "lieu": "§ 46",
-   "edition": "trad. Alain Renaut, GF-Flammarion",
-   "verification": "œuvre fournie, passage retrouvé mot pour mot",
-   "regime": "citation exacte",
-   "fonction": "II.2 : donner la formule exacte de l’originalité ; la preuve (ce qui est nouveau ne se déduit pas d’une règle connue) tient sans elle."
-  }
- ],
- "copy": [
-  [
-   "INTRODUCTION",
-   [
+  "copy": [
     [
-     "Le 24 janvier 1975, à l’Opéra de Cologne, Keith Jarrett doit improviser seul sur un piano de répétition désaccordé, dont les aigus sont grêles et les basses sourdes.",
-     "Introduction · la scène"
+      "INTRODUCTION",
+      [
+        [
+          "Le 24 janvier 1975, à l’Opéra de Cologne, Keith Jarrett doit improviser seul sur un piano de répétition désaccordé, dont les aigus sont grêles et les basses sourdes.",
+          "Introduction · la scène"
+        ],
+        [
+          "Il s’en tient au médium, répète obstinément des figures à la main gauche, et ce concert devient l’un des disques de piano les plus écoutés du siècle.",
+          "Introduction · la scène : ce qui en sort"
+        ],
+        [
+          "Chaque note était choisie par un musicien qui savait son métier ; aucune n’avait été prévue avant d’être jouée.",
+          "Introduction · ce que la scène fait voir : la force du métier, et ce qui lui échappe"
+        ],
+        [
+          "Savoir ce qu’on fait, ce n’est pas seulement faire exprès : c’est pouvoir dire, au moins pour soi, ce qu’on produit et pourquoi cela réussit.",
+          "Introduction · les mots du sujet"
+        ],
+        [
+          "Le métier fournit les règles de l’art, non les œuvres qu’elles ne suffisent pas à produire. Pourtant, l’artiste invente en choisissant, et ses choix ne sont pas aveugles.",
+          "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"
+        ],
+        [
+          "L’artiste connaît son métier ; son œuvre, pourtant, ne s’en déduit pas. Sait-il ce qu’il fait, tant qu’on ignore comment un savoir peut choisir, à chaque instant, ce qu’aucun savoir ne prévoyait ?",
+          "Introduction · la problématique : un constat, puis une seule question qui garde « sait-il »"
+        ],
+        [
+          "Nous distinguerons le savoir du métier, ce que l’œuvre invente et enfin le jugement qui se forme pendant sa création.",
+          "Introduction · l’annonce"
+        ]
+      ]
     ],
     [
-     "Il s’en tient au médium, répète obstinément des figures à la main gauche, et ce concert devient l’un des disques de piano les plus écoutés du siècle.",
-     "Introduction · la scène : ce qui en sort"
+      "I. L’ART EST UN MÉTIER",
+      [
+        [
+          "L’artiste sait ce qu’il fait, car l’art n’est pas un don tombé du ciel : c’est un métier, fait de gammes, d’esquisses et de corrections.",
+          "I.1 Ouvrir une première manière de penser"
+        ],
+        [
+          "Cette réponse sauve la part du travail, que l’admiration oublie volontiers.",
+          "I.1 Ce qu’elle sauve"
+        ],
+        [
+          "Faire avec art, c’est produire en connaissant les moyens qui donnent tel effet : la main sait obtenir telle couleur, l’oreille sait quelle cadence apaise.",
+          "I.2 La fonder par une définition"
+        ],
+        [
+          "Corriger une couleur ou une cadence suppose de discerner l'écart entre un effet obtenu et celui qu'on cherche : le savoir de l'artiste s'exerce donc aussi pendant la création, non seulement avant elle.",
+          "I.2 Établir le savoir exercé dans la correction"
+        ],
+        [
+          "Ce fondement établit que l’artiste connaît ses moyens et les effets qu’ils produisent.",
+          "I.3 L’éprouver : ce qu’il établit"
+        ],
+        [
+          "Mais il procède par des règles qui relient un moyen à un effet connu, et la réussite d’une œuvre n’est pas un effet connu : si une règle la donnait, tout technicien appliqué produirait des chefs-d’œuvre.",
+          "I.3 Ce qu’il ne permet pas encore, et pourquoi"
+        ],
+        [
+          "Jarrett connaît toutes les règles de l’harmonie ; il n’en déduit pas la phrase qui va tenir une salle en haleine.",
+          "I.3 Sur la scène"
+        ],
+        [
+          "La connaissance des moyens ne permet donc pas encore d’expliquer ce qui fait réussir l’œuvre, parce qu’aucune règle connue d’avance ne la contient.",
+          "I.3 La portée et le manque du premier fondement"
+        ],
+        [
+          "Le métier donne des moyens à l’artiste ; il ne contient pas l’œuvre nouvelle. D’où vient ce qu’aucune règle ne prescrivait ?",
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
+        ]
+      ]
     ],
     [
-     "Chaque note était choisie par un musicien qui savait son métier ; aucune n’avait été prévue avant d’être jouée.",
-     "Introduction · ce que la scène fait voir : la force du métier, et ce qui lui échappe"
+      "II. CE QUI FAIT L’ŒUVRE NE SE SAIT PAS D’AVANCE",
+      [
+        [
+          "Ce qui fait de l’ouvrage une œuvre vient de ce que l’artiste découvre en faisant, non de ce qu’il savait avant de faire.",
+          "II.1 Ouvrir une autre manière de penser"
+        ],
+        [
+          "Elle ne nie pas le métier : elle montre qu’il ne suffit pas à rendre compte de l’œuvre.",
+          "II.1 Ce qu’elle conserve"
+        ],
+        [
+          "Une œuvre nouvelle ne peut être l’application d’une règle déjà connue, sinon elle n’aurait rien de nouveau ; c’est pourquoi Kant définit le génie comme « un talent consistant à produire ce pour quoi aucune règle déterminée ne se peut indiquer ».",
+          "II.2 La fonder par une condition de possibilité ; citation qui donne la formule exacte"
+        ],
+        [
+          "Les contraintes imprévues du piano de Cologne n'étaient contenues dans aucune recette ; en les travaillant, Jarrett a trouvé des formes qu'il n'aurait pu connaître avant de jouer.",
+          "II.2 Montrer comment l'imprévu contribue à la création"
+        ],
+        [
+          "Cette raison établit que l’originalité d’une œuvre ne sort d’aucun savoir préalable.",
+          "II.3 L’éprouver : ce qu’elle établit"
+        ],
+        [
+          "Mais elle oppose la production nouvelle au savoir qui la précède, et place l’essentiel dans ce qui échappe au savoir ; or, à Cologne, chaque figure trouvée est aussitôt reprise, développée ou abandonnée, et ce tri n’a rien d’un hasard.",
+          "II.3 Le cas qui éprouve le fondement : un autre geste qu’en I.3"
+        ],
+        [
+          "Si l’artiste ne savait rien de ce qu’il fait, il ne pourrait pas reconnaître ce qu’il a trouvé.",
+          "II.3 L’inférence"
+        ],
+        [
+          "L’originalité de l’œuvre ne permet donc pas encore d’expliquer le jugement par lequel l’artiste reconnaît, en le faisant, ce qui convient.",
+          "II.3 La portée et le manque du second fondement"
+        ],
+        [
+          "L’œuvre n’est ni l’application d’une règle ni un geste aveugle. Quel savoir naît de l’acte même qui la fait ?",
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
+        ]
+      ]
     ],
     [
-     "On attend de l’art qu’il soit fait par quelqu’un qui sait ce qu’il fait, mais aussi qu’il produise ce qu’aucun savoir ne pouvait prévoir.",
-     "Introduction · l’enjeu"
+      "III. UN SAVOIR QUI NAÎT EN FAISANT",
+      [
+        [
+          "Le savoir qui reconnaît ce qui convient ne précède pas l’œuvre, il la suit pas à pas : c’est un jugement qui reconnaît, dans ce qui vient d’être fait, ce qui convient à ce qui se fait.",
+          "III.1 Effectuer le déplacement nécessaire"
+        ],
+        [
+          "L’artiste ne sait pas d’abord pour faire ensuite ; il fait, juge ce qu’il a fait, et ce jugement commande le pas suivant.",
+          "III.1 L’ordre réel"
+        ],
+        [
+          "Ce jugement n’est pas une règle appliquée, puisqu’il porte sur un cas nouveau qu’aucun concept ne détermine d’avance ; mais il n’est pas aveugle, puisqu’il mesure chaque essai à l’exigence de l’œuvre en train de naître.",
+          "III.2 La démontrer"
+        ],
+        [
+          "Il conserve ainsi les deux réponses : le métier fournit les moyens et affine le jugement, l’invention fournit ce qu’il y a à juger.",
+          "III.2 Ce qu’il conserve"
+        ],
+        [
+          "Le métier permet de juger les essais, tandis que l'invention leur donne une matière qui n'était pas connue d'avance : l'artiste peut savoir ce qu'il fait à mesure que l'œuvre se forme, sans pouvoir la déduire d'un plan préalable.",
+          "III.2 Articuler le jugement technique et l'invention"
+        ],
+        [
+          "L’artiste sait donc ce qu’il fait, non comme un plan qu’il exécute, mais comme une œuvre qu’il reconnaît en la faisant : il le sait pendant, non avant.",
+          "III.3 La réponse au sujet, avec son opérateur"
+        ],
+        [
+          "À Cologne, Jarrett ne savait pas ce qu’il allait jouer, mais il savait, à chaque mesure, si ce qu’il venait de jouer devait être repris ou quitté.",
+          "III.3 La réponse vérifiée sur le cas"
+        ],
+        [
+          "Reste que ce savoir porte sur l’œuvre, non sur ce qu’elle fera à ceux qui la recevront : rien ne lui annonçait qu’un concert sauvé de justesse serait écouté dans le monde entier.",
+          "III.3 Le reste : ce qui demande encore à être pensé"
+        ]
+      ]
     ],
     [
-     "Savoir ce qu’on fait, ce n’est pas seulement faire exprès : c’est pouvoir dire, au moins pour soi, ce qu’on produit et pourquoi cela réussit.",
-     "Introduction · les mots du sujet"
-    ],
-    [
-     "Si l’on répond oui, parce que l’art est un métier, on n’explique pas encore pourquoi l’application des règles ne donne pas l’œuvre ; si l’on répond non, parce que l’œuvre nouvelle ne peut sortir d’un savoir qui la précède, on n’explique plus les choix que l’artiste fait sciemment.",
-     "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"
-    ],
-    [
-     "L’artiste connaît son métier ; son œuvre, pourtant, ne s’en déduit pas. Sait-il ce qu’il fait, tant qu’on ignore comment un savoir peut choisir, à chaque instant, ce qu’aucun savoir ne prévoyait ?",
-     "Introduction · la problématique : un constat, puis une seule question qui garde « sait-il »"
-    ],
-    [
-     "On examinera d’abord pourquoi le métier paraît donner à l’artiste le savoir de ce qu’il fait, et jusqu’où cette raison le porte ; ce qu’elle laisse inexpliqué obligera à chercher d’où vient ce qui fait l’œuvre ; il faudra alors comprendre ce que ces deux voies, ensemble, laissent encore ouvert.",
-     "Introduction · l’annonce"
+      "CONCLUSION",
+      [
+        [
+          "L’artiste sait ce qu’il fait, si savoir veut dire reconnaître, en faisant, ce qui convient à l’œuvre, et non disposer d’avance de sa règle.",
+          "Conclusion · la réponse, avec l’opérateur"
+        ],
+        [
+          "Le piano désaccordé de Cologne ne fut pas vaincu par un plan, mais par une suite de choix dont chacun suivait l’écoute du précédent.",
+          "Conclusion · retour à la scène"
+        ],
+        [
+          "Mais l’artiste sait-il ce que son œuvre fait aux autres, quand elle leur parle comme elle ne lui a jamais parlé ?",
+          "Conclusion · le reste en question"
+        ]
+      ]
     ]
-   ]
-  ],
-  [
-   "I. L’ART EST UN MÉTIER",
-   [
-    [
-     "L’artiste sait ce qu’il fait, car l’art n’est pas un don tombé du ciel : c’est un métier, fait de gammes, d’esquisses et de corrections.",
-     "I.1 Établir la première réponse"
-    ],
-    [
-     "Cette réponse sauve la part du travail, que l’admiration oublie volontiers.",
-     "I.1 Ce qu’elle sauve"
-    ],
-    [
-     "Faire avec art, c’est produire en connaissant les moyens qui donnent tel effet : la main sait obtenir telle couleur, l’oreille sait quelle cadence apaise.",
-     "I.2 La fonder par une définition"
-    ],
-    [
-     "Or celui qui corrige sait ce qu’il fait, puisque corriger, c’est comparer ce qu’on a fait à ce qu’on voulait faire, et l’artiste ne cesse de corriger.",
-     "I.2 L’inférence décisive"
-    ],
-    [
-     "Ce fondement établit que l’artiste connaît ses moyens et les effets qu’ils produisent.",
-     "I.3 L’éprouver : ce qu’il établit"
-    ],
-    [
-     "Mais il procède par des règles qui relient un moyen à un effet connu, et la réussite d’une œuvre n’est pas un effet connu : si une règle la donnait, tout technicien appliqué produirait des chefs-d’œuvre.",
-     "I.3 Ce qu’il ne permet pas encore, et pourquoi"
-    ],
-    [
-     "Jarrett connaît toutes les règles de l’harmonie ; il n’en déduit pas la phrase qui va tenir une salle en haleine.",
-     "I.3 Sur la scène"
-    ],
-    [
-     "La connaissance des moyens ne permet donc pas encore d’expliquer ce qui fait réussir l’œuvre, parce qu’aucune règle connue d’avance ne la contient.",
-     "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"
-    ],
-    [
-     "L’artiste connaît ses moyens ; mais ce savoir n’explique pas la réussite, parce qu’il ne contient que des règles connues d’avance. Il faut donc examiner ce qui, dans l’activité de l’artiste, produit ce qu’aucune règle ne contenait : d’où vient ce qui fait de l’ouvrage une œuvre ?",
-     "Transition · l’examen nécessaire, en question"
-    ]
-   ]
-  ],
-  [
-   "II. CE QUI FAIT L’ŒUVRE NE SE SAIT PAS D’AVANCE",
-   [
-    [
-     "Ce qui fait de l’ouvrage une œuvre vient de ce que l’artiste découvre en faisant, non de ce qu’il savait avant de faire.",
-     "II.1 La seconde réponse, qui répond à l’examen demandé"
-    ],
-    [
-     "Elle ne nie pas le métier : elle montre qu’il ne suffit pas à rendre compte de l’œuvre.",
-     "II.1 Ce qu’elle conserve"
-    ],
-    [
-     "Une œuvre nouvelle ne peut être l’application d’une règle déjà connue, sinon elle n’aurait rien de nouveau ; c’est pourquoi Kant définit le génie comme « un talent consistant à produire ce pour quoi aucune règle déterminée ne se peut indiquer ».",
-     "II.2 La fonder par une condition de possibilité ; citation qui donne la formule exacte"
-    ],
-    [
-     "Ce qui ne se déduit d’aucune règle connue ne peut être su avant d’être produit : à Cologne, le piano imposait des contraintes qu’aucune préparation n’avait prévues, et c’est en les rencontrant que Jarrett trouva ses figures.",
-     "II.2 L’inférence décisive, sur la scène"
-    ],
-    [
-     "Cette raison établit que l’originalité d’une œuvre ne sort d’aucun savoir préalable.",
-     "II.3 L’éprouver : ce qu’elle établit"
-    ],
-    [
-     "Mais elle oppose la production nouvelle au savoir qui la précède, et place l’essentiel dans ce qui échappe au savoir ; or, à Cologne, chaque figure trouvée est aussitôt reprise, développée ou abandonnée, et ce tri n’a rien d’un hasard.",
-     "II.3 Le cas qui éprouve le fondement : un autre geste qu’en I.3"
-    ],
-    [
-     "Si l’artiste ne savait rien de ce qu’il fait, il ne pourrait pas reconnaître ce qu’il a trouvé.",
-     "II.3 L’inférence"
-    ],
-    [
-     "L’originalité de l’œuvre ne permet donc pas encore d’expliquer le jugement par lequel l’artiste reconnaît, en le faisant, ce qui convient.",
-     "II.3 Ce que la seconde réponse ne permet pas encore"
-    ],
-    [
-     "L’artiste connaît ses moyens, et ce qui fait l’œuvre ne sort pas de ce savoir ; mais la première réponse met le savoir avant l’œuvre, la seconde l’œuvre avant le savoir, et aucune n’explique le savoir qui naît en faisant. Dire que Jarrett savait jouer et ignorait ce qu’il jouerait, c’est additionner les deux réponses sans dire comment il choisissait : d’où vient donc le savoir qui reconnaît ce qui convient avant qu’aucune règle ne le dise ?",
-     "Transition · pourquoi leur addition échoue, et ce qui reste à expliquer, en question"
-    ]
-   ]
-  ],
-  [
-   "III. UN SAVOIR QUI NAÎT EN FAISANT",
-   [
-    [
-     "Le savoir qui reconnaît ce qui convient ne précède pas l’œuvre, il la suit pas à pas : c’est un jugement qui reconnaît, dans ce qui vient d’être fait, ce qui convient à ce qui se fait.",
-     "III.1 L’opération que la difficulté exige : établir le sens de la dépendance"
-    ],
-    [
-     "L’artiste ne sait pas d’abord pour faire ensuite ; il fait, juge ce qu’il a fait, et ce jugement commande le pas suivant.",
-     "III.1 L’ordre réel"
-    ],
-    [
-     "Ce jugement n’est pas une règle appliquée, puisqu’il porte sur un cas nouveau qu’aucun concept ne détermine d’avance ; mais il n’est pas aveugle, puisqu’il mesure chaque essai à l’exigence de l’œuvre en train de naître.",
-     "III.2 La démontrer"
-    ],
-    [
-     "Il conserve ainsi les deux réponses : le métier fournit les moyens et affine le jugement, l’invention fournit ce qu’il y a à juger.",
-     "III.2 Ce qu’il conserve"
-    ],
-    [
-     "Il explique aussi leurs arrêts : le métier n’expliquait pas la réussite parce qu’il cherchait avant l’œuvre une règle qui ne se forme qu’avec elle, et l’originalité n’expliquait pas les choix parce qu’elle confondait ce qu’on ne sait pas d’avance avec ce qu’on ne sait pas du tout.",
-     "III.2 Ce qu’il explique"
-    ],
-    [
-     "L’artiste sait donc ce qu’il fait, non comme un plan qu’il exécute, mais comme une œuvre qu’il reconnaît en la faisant : il le sait pendant, non avant.",
-     "III.3 La réponse au sujet, avec son opérateur"
-    ],
-    [
-     "À Cologne, Jarrett ne savait pas ce qu’il allait jouer, mais il savait, à chaque mesure, si ce qu’il venait de jouer devait être repris ou quitté.",
-     "III.3 La réponse vérifiée sur le cas"
-    ],
-    [
-     "Reste que ce savoir porte sur l’œuvre, non sur ce qu’elle fera à ceux qui la recevront : rien ne lui annonçait qu’un concert sauvé de justesse serait écouté dans le monde entier.",
-     "III.3 Le reste : ce que cette réponse ne règle pas"
-    ]
-   ]
-  ],
-  [
-   "CONCLUSION",
-   [
-    [
-     "L’artiste sait ce qu’il fait, si savoir veut dire reconnaître, en faisant, ce qui convient à l’œuvre, et non disposer d’avance de sa règle.",
-     "Conclusion · la réponse, avec l’opérateur"
-    ],
-    [
-     "Le piano désaccordé de Cologne ne fut pas vaincu par un plan, mais par une suite de choix dont chacun suivait l’écoute du précédent.",
-     "Conclusion · retour à la scène"
-    ],
-    [
-     "Mais l’artiste sait-il ce que son œuvre fait aux autres, quand elle leur parle comme elle ne lui a jamais parlé ?",
-     "Conclusion · le reste en question"
-    ]
-   ]
   ]
- ]
 }

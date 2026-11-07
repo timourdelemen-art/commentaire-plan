@@ -1,288 +1,290 @@
 {
- "id": "2026-me-bonheur-autres",
- "subject": "Peut-on être heureux quand les autres ne le sont pas ?",
- "notion": "Le bonheur",
- "fiche": {
-  "operateur": "possibilité (« peut-on ») ; « quand » : alors que d’autres sont malheureux, et qu’on le sait ; question descriptive, avec une dimension normative en arrière-plan (« peut-on » au sens du droit, tenu en réserve et non radicalisé).",
-  "sens": "heureux : (1) satisfait de son état ; (2) vivant une vie accomplie. quand : (1) au moment où l’on sait le malheur d’autrui ; (2) dans un monde où il y a toujours des malheureux — (1) retenu, (2) en arrière-plan. les autres : (1) ceux qui nous sont liés ; (2) tous les autres, proches ou lointains.",
-  "substitutions_interdites": "peut-on ≠ doit-on ; heureux ≠ joyeux ; les autres ≠ tous les autres sans exception.",
-  "verrou": "Oui : un cas établi de bonheur compatible avec le malheur connu d’autrui. Non : établir que la connaissance du malheur d’autrui rend le bonheur impossible. Glissements interdits : des proches à tous ; de « troublé » à « impossible ».",
-  "trois_reponses": "Spontanée : oui, mon bonheur est à moi. Contraire : non, on ne peut être heureux quand ceux qu’on aime souffrent. Conciliation : on peut l’être à l’égard des lointains, non des proches.",
-  "conciliation_1_8bis": "Partage proches / lointains. Elle hésite sur Rambert, dans La Peste : les pestiférés d’Oran ne sont pas ses proches, et pourtant sa joie de rejoindre sa femme devient pour lui une honte ; elle doit trancher sans critère.",
-  "brouillon": {
-   "a": "Oui : le bonheur est la satisfaction de mes inclinations, et elle peut exister quoi qu’il en soit des autres.",
-   "b": "Cela vaut des désirs qui ne portent pas sur autrui ; or certains de mes désirs portent sur le bien des autres.",
-   "c": "Il faut examiner le bonheur en tant qu’il inclut autrui.",
-   "d": "Notre bonheur inclut le bien de ceux qui nous sont liés ; mais le lien ne dit rien des autres, que nous savons pourtant malheureux.",
-   "e": "L’un ferme le bonheur, l’autre l’ouvre aux liens ; il reste à savoir à quelle condition on peut être heureux en sachant le malheur des autres."
+  "id": "2026-me-bonheur-autres",
+  "subject": "Peut-on être heureux quand les autres ne le sont pas ?",
+  "notion": "Le bonheur",
+  "fiche": {
+    "operateur": "possibilité (« peut-on ») ; « quand » : alors que d’autres sont malheureux, et qu’on le sait ; question descriptive, avec une dimension normative en arrière-plan (« peut-on » au sens du droit, tenu en réserve et non radicalisé).",
+    "sens": "heureux : (1) satisfait de son état ; (2) vivant une vie accomplie. quand : (1) au moment où l’on sait le malheur d’autrui ; (2) dans un monde où il y a toujours des malheureux — (1) retenu, (2) en arrière-plan. les autres : (1) ceux qui nous sont liés ; (2) tous les autres, proches ou lointains.",
+    "substitutions_interdites": "peut-on ≠ doit-on ; heureux ≠ joyeux ; les autres ≠ tous les autres sans exception.",
+    "verrou": "Oui : un cas établi de bonheur compatible avec le malheur connu d’autrui. Non : établir que la connaissance du malheur d’autrui rend le bonheur impossible. Glissements interdits : des proches à tous ; de « troublé » à « impossible ».",
+    "trois_reponses": "Spontanée : oui, mon bonheur est à moi. Contraire : non, on ne peut être heureux quand ceux qu’on aime souffrent. Conciliation : on peut l’être à l’égard des lointains, non des proches.",
+    "conciliation_1_8bis": "Partage proches / lointains. Elle hésite sur Rambert, dans La Peste : les pestiférés d’Oran ne sont pas ses proches, et pourtant sa joie de rejoindre sa femme devient pour lui une honte ; elle doit trancher sans critère.",
+    "brouillon": {
+      "a": "Oui : le bonheur est la satisfaction de mes inclinations, et elle peut exister quoi qu’il en soit des autres.",
+      "b": "Cela vaut des désirs qui ne portent pas sur autrui ; or certains de mes désirs portent sur le bien des autres.",
+      "c": "Il faut examiner le bonheur en tant qu’il inclut autrui.",
+      "d": "Notre bonheur inclut le bien de ceux qui nous sont liés ; mais le lien ne dit rien des autres, que nous savons pourtant malheureux.",
+      "e": "L’un ferme le bonheur, l’autre l’ouvre aux liens ; il reste à savoir à quelle condition on peut être heureux en sachant le malheur des autres."
+    },
+    "A": "On peut être heureux quand les autres ne le sont pas : le bonheur est la satisfaction de mes inclinations.",
+    "FA": "Définition (III.3). 1. Le bonheur est la satisfaction de nos inclinations (E : définition commune, attestée chez Kant). 2. La satisfaction d’une inclination dépend de son objet, non de l’état de tous les hommes (E). Donc mon bonheur peut exister quel que soit l’état des autres.",
+    "XA": "Mon bonheur, comme satisfaction de mes désirs, peut exister sans dépendre de l’état de tous les autres.",
+    "YA": "Ce qu’il en est quand mes désirs portent sur le bien des autres.",
+    "ZA": "FA définit le bonheur par la satisfaction de mes inclinations ; or certaines de mes inclinations ont pour objet le bien d’autrui : la définition elle-même fait entrer l’état des autres dans mon bonheur.",
+    "type_LA": "portée insuffisante",
+    "LA": "La satisfaction de mes désirs ne permet donc pas encore d’établir que je puisse être heureux quand le malheur atteint ceux dont le bien est l’objet même de mes désirs.",
+    "six_LA": "Mesure : XA écrit. Filiation : prémisse 2 (la satisfaction dépend de l’objet) : quand l’objet est autrui, l’état d’autrui entre dans la satisfaction. Meilleur cas : le plus comblé des hommes est atteint par la maladie de son enfant. Absorption : FA dirait « il suffit de ne désirer que pour soi » ; c’est changer d’homme, non répondre. Non-lacune : oui. Calibration : oui.",
+    "T1": "Nous avons établi que mon bonheur ne dépend pas de l’état de tous ; mais cela ne vaut pas quand mes désirs portent sur autrui, parce que la satisfaction dépend de son objet ; il faut donc examiner le bonheur en tant qu’il inclut autrui (W).",
+    "B": "On ne peut être pleinement heureux quand ceux qui nous sont liés ne le sont pas : notre bonheur inclut leur bien. B conserve XA (tout bonheur n’en dépend pas).",
+    "FB": "Fin et nature (III.3). 1. L’homme est fait pour la vie en commun (E : nul ne choisirait de jouir seul de tous les biens). 2. Ce dont le bonheur ne peut se passer en fait partie (E : définition du bien complet). 3. Donc le bien de ceux qui nous sont liés fait partie de notre bonheur. Indépendance : vaut sans LA. Principe propre : la nature sociale du bien humain.",
+    "XB": "Notre bonheur inclut le bien de ceux auxquels nous sommes liés.",
+    "YB": "Ce qu’il en est du malheur des autres que nous ne connaissons pas, mais que nous savons.",
+    "ZB": "FB fonde l’inclusion d’autrui sur le lien ; un lien est limité, et l’étendre à tous rendrait tout bonheur impossible.",
+    "type_LB": "portée insuffisante (le lien)",
+    "LB": "Le lien qui fait entrer le bien des proches dans notre bonheur ne permet donc pas encore de dire ce que peut notre bonheur devant le malheur, connu, de ceux qui ne nous sont pas liés.",
+    "six_LB": "Mesure : XB écrit. Filiation : prémisse 1 (la vie en commun, faite de liens). Meilleur cas : l’ami le plus aimant n’est pas lié à tous. Absorption : FB dirait « tous les hommes nous sont liés » ; si le lien s’étend à tous, nul n’est jamais heureux (réduction à l’absurde). Non-lacune : oui. Calibration : oui. Geste : réduction à l’absurde, différent de I.3.",
+    "T2": "Bilan : XA, XB. ρ : critère manquant — A ferme le bonheur sur mes désirs, B l’ouvre à mes liens ; aucun ne dit en quoi le malheur des autres, connu, touche mon bonheur quand il n’est ni l’objet de mes désirs ni celui de mes liens. D : établir à quelle condition on peut être heureux en sachant le malheur des autres, sans l’ignorer ni en être dévoré. Cumul : proches / lointains échoue sur Rambert (la frontière ne se trace qu’avec un critère qu’aucune réponse ne fournit). Classe : décision.",
+    "epreuves": "1. Contre-exemple : le saint qui est heureux au milieu des malades ; il confirme D (son bonheur passe par ce qu’il fait). 2. Meilleur cas : survit. 3. Cumul : échec écrit. 4. Antériorité : la compassion (pitié) ne règle pas la question ; elle redit LB.",
+    "soupcon_aporie": "aucun indice ; régime ordinaire.",
+    "chemins_echoues": "Chemin aporétique de l’ancienne copie (fermer son bonheur, qui cesse d’être humain / l’ouvrir, ce qui le rend impossible) : branches radicalisées ; écarté.",
+    "dictionnaire": "non consulté.",
+    "phrase_mouvement": "A, parce que le bonheur est la satisfaction de mes inclinations, établit qu’il ne dépend pas de l’état de tous ; mais pas quand mes désirs portent sur autrui ; il faut donc examiner le bonheur qui inclut autrui. B, parce que le bien humain est fait de liens, établit que le bien des proches fait partie du nôtre ; mais ne dit rien des autres. Or aucun ne dit comment le malheur connu des autres touche le bonheur ; il reste la condition.",
+    "probleme_directeur": "Peut-on être heureux quand les autres ne le sont pas, si le bonheur n’est ni fermé sur soi ni étendu à tous ?",
+    "problematique": "Si mon bonheur ne dépend pas de l’état de tous les hommes, mais inclut celui des êtres qui me sont liés, peut-on être heureux quand les autres ne le sont pas, dès lors qu’on sait leur malheur sans qu’aucun lien ne nous unisse ?",
+    "forme_problematique": "G3 (deux acquis en protases, interrogation sur le cas où ils ne disent rien). Reconstruction : on part du bonheur propre, on bute sur les désirs qui portent sur autrui, on examine les liens, on bute sur les lointains ; la III doit dire la condition. Relecture : « peut-on » conservé, « les autres » non étendu à « tous ».",
+    "critere": "Sur le cas de Rambert, une solution devra dire s’il peut être heureux, conserver que son bonheur est à lui et qu’il inclut ses liens, expliquer pourquoi la satisfaction ne valait pas pour les désirs tournés vers autrui et pourquoi le lien ne disait rien des lointains, et fournir la condition.",
+    "contrainte_scene": "montrer un bonheur légitime et le malheur connu d’autres qui ne nous sont pas liés.",
+    "III": {
+      "operation": "condition (III.7 a) : le malheur des autres atteint mon bonheur à proportion de ce que je peux pour eux.",
+      "III1": "Le malheur d’autrui touche mon bonheur non par sa seule existence, mais par ce que je peux pour lui ; un bonheur reste possible s’il ne repose ni sur l’ignorance volontaire ni sur l’abstention devant ce que je peux.",
+      "III2": "Conserve XA (mon bonheur est à moi) et XB (il inclut mes liens) ; explique LA (mes désirs tournés vers autrui exigent que je fasse) et LB (le lien n’était qu’un cas de ce que je peux). Le bonheur, activité et non seulement état, inclut ce que je fais.",
+      "III3": "On peut être heureux quand les autres ne le sont pas, si ce bonheur ne se paie ni d’un regard détourné ni d’un refus d’agir ; vérifié sur Rambert. Reste : ce que vaut le bonheur quand le malheur des autres excède tout ce que je peux.",
+      "tests": "Cas témoin : Rambert, qui reste à Oran et retrouve sa femme à la fin, est heureux sans honte ; ni A, ni B, ni le partage ne le disaient. Second cas : le médecin qui rentre chez lui après sa garde. Restitution : oui. Rechute : le reste (l’excès) ne redit ni LA ni LB. Test propre : la condition est seulement nécessaire, elle n’est pas présentée comme suffisante. Report : non. Acquis nouveau : prémisse nouvelle — l’atteinte du malheur d’autrui se mesure à ce que je peux ; nécessaire à la décision."
+    },
+    "candidats_III": [
+      {
+        "id": "retenue",
+        "operation": "Condition",
+        "proposition": "Le malheur des autres atteint mon bonheur à proportion de ce que je peux pour eux : on peut être heureux sans détourner le regard ni refuser d’agir.",
+        "verdict": "retenue",
+        "raison": "Décide le cas de Rambert, conserve les deux acquis, explique les deux arrêts."
+      },
+      {
+        "id": "frontiere",
+        "operation": "Critère de frontière",
+        "proposition": "Heureux malgré les lointains, non malgré les proches.",
+        "verdict": "écartée",
+        "raison": "C’est le cumul, qui échoue sur Rambert."
+      },
+      {
+        "id": "ordre",
+        "operation": "Principe d’ordre",
+        "proposition": "Le devoir envers les autres passe avant le bonheur.",
+        "verdict": "écartée",
+        "raison": "Change de question (doit-on) et ne dit pas si l’on peut être heureux."
+      },
+      {
+        "id": "explication",
+        "operation": "Explication commune",
+        "proposition": "La pitié explique le trouble que cause le malheur d’autrui.",
+        "verdict": "dominée",
+        "raison": "Explique le trouble, non la possibilité du bonheur."
+      }
+    ],
+    "generateur": "figure : la condition ; registre opératoire : par cas et variation ; registre de lecture : par cas ; branches B3 ; annonce N4.",
+    "scene": "Camus, La Peste (1947) : Rambert, journaliste bloqué à Oran, veut fuir pour rejoindre sa femme, puis renonce à partir et rejoint les formations sanitaires ; il la retrouve à la fin de l’épidémie. Paraphrase seulement. Verdict : homologue. Retour : son bonheur n’est pas sacrifié, il cesse d’être une fuite.",
+    "statut": {
+      "problematique": "suffisamment justifiée",
+      "copie": "état de travail (architecture expérimentale)"
+    },
+    "ouvertures_de_pensee": {
+      "I": "Que mes inclinations puissent être satisfaites sans que tous les hommes le soient distingue mon bonheur du bonheur universel : celui-ci ne saurait être une condition nécessaire de toute joie individuelle.",
+      "II": "Le bien d'un proche n'est pas seulement un événement que j'observe : parce que je l'aime, sa réussite ou sa souffrance entre dans ce qui peut me rendre heureux ou malheureux.",
+      "III": "Le bonheur peut ainsi engager la manière dont je réponds au malheur que je connais : l'impuissance à le supprimer ne se confond pas avec l'indifférence, et l'attention à autrui n'abolit pas toute joie personnelle.",
+      "statut": "Possibilités justifiées, avec leur portée exacte."
+    }
   },
-  "A": "On peut être heureux quand les autres ne le sont pas : le bonheur est la satisfaction de mes inclinations.",
-  "FA": "Définition (III.3). 1. Le bonheur est la satisfaction de nos inclinations (E : définition commune, attestée chez Kant). 2. La satisfaction d’une inclination dépend de son objet, non de l’état de tous les hommes (E). Donc mon bonheur peut exister quel que soit l’état des autres.",
-  "XA": "Mon bonheur, comme satisfaction de mes désirs, peut exister sans dépendre de l’état de tous les autres.",
-  "YA": "Ce qu’il en est quand mes désirs portent sur le bien des autres.",
-  "ZA": "FA définit le bonheur par la satisfaction de mes inclinations ; or certaines de mes inclinations ont pour objet le bien d’autrui : la définition elle-même fait entrer l’état des autres dans mon bonheur.",
-  "type_LA": "portée insuffisante",
-  "LA": "La satisfaction de mes désirs ne permet donc pas encore d’établir que je puisse être heureux quand le malheur atteint ceux dont le bien est l’objet même de mes désirs.",
-  "six_LA": "Mesure : XA écrit. Filiation : prémisse 2 (la satisfaction dépend de l’objet) : quand l’objet est autrui, l’état d’autrui entre dans la satisfaction. Meilleur cas : le plus comblé des hommes est atteint par la maladie de son enfant. Absorption : FA dirait « il suffit de ne désirer que pour soi » ; c’est changer d’homme, non répondre. Non-lacune : oui. Calibration : oui.",
-  "T1": "Nous avons établi que mon bonheur ne dépend pas de l’état de tous ; mais cela ne vaut pas quand mes désirs portent sur autrui, parce que la satisfaction dépend de son objet ; il faut donc examiner le bonheur en tant qu’il inclut autrui (W).",
-  "B": "On ne peut être pleinement heureux quand ceux qui nous sont liés ne le sont pas : notre bonheur inclut leur bien. B conserve XA (tout bonheur n’en dépend pas).",
-  "FB": "Fin et nature (III.3). 1. L’homme est fait pour la vie en commun (E : nul ne choisirait de jouir seul de tous les biens). 2. Ce dont le bonheur ne peut se passer en fait partie (E : définition du bien complet). 3. Donc le bien de ceux qui nous sont liés fait partie de notre bonheur. Indépendance : vaut sans LA. Principe propre : la nature sociale du bien humain.",
-  "XB": "Notre bonheur inclut le bien de ceux auxquels nous sommes liés.",
-  "YB": "Ce qu’il en est du malheur des autres que nous ne connaissons pas, mais que nous savons.",
-  "ZB": "FB fonde l’inclusion d’autrui sur le lien ; un lien est limité, et l’étendre à tous rendrait tout bonheur impossible.",
-  "type_LB": "portée insuffisante (le lien)",
-  "LB": "Le lien qui fait entrer le bien des proches dans notre bonheur ne permet donc pas encore de dire ce que peut notre bonheur devant le malheur, connu, de ceux qui ne nous sont pas liés.",
-  "six_LB": "Mesure : XB écrit. Filiation : prémisse 1 (la vie en commun, faite de liens). Meilleur cas : l’ami le plus aimant n’est pas lié à tous. Absorption : FB dirait « tous les hommes nous sont liés » ; si le lien s’étend à tous, nul n’est jamais heureux (réduction à l’absurde). Non-lacune : oui. Calibration : oui. Geste : réduction à l’absurde, différent de I.3.",
-  "T2": "Bilan : XA, XB. ρ : critère manquant — A ferme le bonheur sur mes désirs, B l’ouvre à mes liens ; aucun ne dit en quoi le malheur des autres, connu, touche mon bonheur quand il n’est ni l’objet de mes désirs ni celui de mes liens. D : établir à quelle condition on peut être heureux en sachant le malheur des autres, sans l’ignorer ni en être dévoré. Cumul : proches / lointains échoue sur Rambert (la frontière ne se trace qu’avec un critère qu’aucune réponse ne fournit). Classe : décision.",
-  "epreuves": "1. Contre-exemple : le saint qui est heureux au milieu des malades ; il confirme D (son bonheur passe par ce qu’il fait). 2. Meilleur cas : survit. 3. Cumul : échec écrit. 4. Antériorité : la compassion (pitié) ne règle pas la question ; elle redit LB.",
-  "soupcon_aporie": "aucun indice ; régime ordinaire.",
-  "chemins_echoues": "Chemin aporétique de l’ancienne copie (fermer son bonheur, qui cesse d’être humain / l’ouvrir, ce qui le rend impossible) : branches radicalisées ; écarté.",
-  "dictionnaire": "non consulté.",
-  "phrase_mouvement": "A, parce que le bonheur est la satisfaction de mes inclinations, établit qu’il ne dépend pas de l’état de tous ; mais pas quand mes désirs portent sur autrui ; il faut donc examiner le bonheur qui inclut autrui. B, parce que le bien humain est fait de liens, établit que le bien des proches fait partie du nôtre ; mais ne dit rien des autres. Or aucun ne dit comment le malheur connu des autres touche le bonheur ; il reste la condition.",
-  "probleme_directeur": "Peut-on être heureux quand les autres ne le sont pas, si le bonheur n’est ni fermé sur soi ni étendu à tous ?",
-  "problematique": "Si mon bonheur ne dépend pas de l’état de tous les hommes, mais inclut celui des êtres qui me sont liés, peut-on être heureux quand les autres ne le sont pas, dès lors qu’on sait leur malheur sans qu’aucun lien ne nous unisse ?",
-  "forme_problematique": "G3 (deux acquis en protases, interrogation sur le cas où ils ne disent rien). Reconstruction : on part du bonheur propre, on bute sur les désirs qui portent sur autrui, on examine les liens, on bute sur les lointains ; la III doit dire la condition. Relecture : « peut-on » conservé, « les autres » non étendu à « tous ».",
-  "critere": "Sur le cas de Rambert, une solution devra dire s’il peut être heureux, conserver que son bonheur est à lui et qu’il inclut ses liens, expliquer pourquoi la satisfaction ne valait pas pour les désirs tournés vers autrui et pourquoi le lien ne disait rien des lointains, et fournir la condition.",
-  "contrainte_scene": "montrer un bonheur légitime et le malheur connu d’autres qui ne nous sont pas liés.",
-  "III": {
-   "operation": "condition (III.7 a) : le malheur des autres atteint mon bonheur à proportion de ce que je peux pour eux.",
-   "III1": "Le malheur d’autrui touche mon bonheur non par sa seule existence, mais par ce que je peux pour lui ; un bonheur reste possible s’il ne repose ni sur l’ignorance volontaire ni sur l’abstention devant ce que je peux.",
-   "III2": "Conserve XA (mon bonheur est à moi) et XB (il inclut mes liens) ; explique LA (mes désirs tournés vers autrui exigent que je fasse) et LB (le lien n’était qu’un cas de ce que je peux). Le bonheur, activité et non seulement état, inclut ce que je fais.",
-   "III3": "On peut être heureux quand les autres ne le sont pas, si ce bonheur ne se paie ni d’un regard détourné ni d’un refus d’agir ; vérifié sur Rambert. Reste : ce que vaut le bonheur quand le malheur des autres excède tout ce que je peux.",
-   "tests": "Cas témoin : Rambert, qui reste à Oran et retrouve sa femme à la fin, est heureux sans honte ; ni A, ni B, ni le partage ne le disaient. Second cas : le médecin qui rentre chez lui après sa garde. Restitution : oui. Rechute : le reste (l’excès) ne redit ni LA ni LB. Test propre : la condition est seulement nécessaire, elle n’est pas présentée comme suffisante. Report : non. Acquis nouveau : prémisse nouvelle — l’atteinte du malheur d’autrui se mesure à ce que je peux ; nécessaire à la décision."
-  },
-  "candidats_III": [
-   {
-    "id": "retenue",
-    "operation": "Condition",
-    "proposition": "Le malheur des autres atteint mon bonheur à proportion de ce que je peux pour eux : on peut être heureux sans détourner le regard ni refuser d’agir.",
-    "verdict": "retenue",
-    "raison": "Décide le cas de Rambert, conserve les deux acquis, explique les deux arrêts."
-   },
-   {
-    "id": "frontiere",
-    "operation": "Critère de frontière",
-    "proposition": "Heureux malgré les lointains, non malgré les proches.",
-    "verdict": "écartée",
-    "raison": "C’est le cumul, qui échoue sur Rambert."
-   },
-   {
-    "id": "ordre",
-    "operation": "Principe d’ordre",
-    "proposition": "Le devoir envers les autres passe avant le bonheur.",
-    "verdict": "écartée",
-    "raison": "Change de question (doit-on) et ne dit pas si l’on peut être heureux."
-   },
-   {
-    "id": "explication",
-    "operation": "Explication commune",
-    "proposition": "La pitié explique le trouble que cause le malheur d’autrui.",
-    "verdict": "dominée",
-    "raison": "Explique le trouble, non la possibilité du bonheur."
-   }
+  "citations": [
+    {
+      "texte": "Le bonheur est la satisfaction de toutes nos inclinations",
+      "auteur": "Kant",
+      "oeuvre": "Critique de la raison pure",
+      "lieu": "Canon de la raison pure, A 806 / B 834",
+      "edition": "trad. Alain Renaut, GF-Flammarion",
+      "verification": "œuvre fournie, passage retrouvé mot pour mot",
+      "regime": "citation exacte",
+      "fonction": "I.2 : fixer la définition sur laquelle repose la première réponse ; la preuve est écrite ensuite."
+    },
+    {
+      "texte": "personne ne choisirait d’être laissé à lui-même avec tous les biens",
+      "auteur": "Aristote",
+      "oeuvre": "Éthique à Nicomaque",
+      "lieu": "IX, 9, 1169b",
+      "edition": "Œuvres complètes, dir. Pierre Pellegrin, Flammarion, 2014",
+      "verification": "œuvre fournie, passage retrouvé mot pour mot",
+      "regime": "citation exacte",
+      "fonction": "II.2 : faire voir la prémisse (le bien humain se vit avec d’autres) ; l’inférence tient sans elle."
+    }
   ],
-  "generateur": "figure : la condition ; registre opératoire : par cas et variation ; registre de lecture : par cas ; branches B3 ; annonce N4.",
-  "scene": "Camus, La Peste (1947) : Rambert, journaliste bloqué à Oran, veut fuir pour rejoindre sa femme, puis renonce à partir et rejoint les formations sanitaires ; il la retrouve à la fin de l’épidémie. Paraphrase seulement. Verdict : homologue. Retour : son bonheur n’est pas sacrifié, il cesse d’être une fuite.",
-  "statut": {
-   "problematique": "suffisamment justifiée",
-   "copie": "état de travail (architecture expérimentale)"
-  }
- },
- "citations": [
-  {
-   "texte": "Le bonheur est la satisfaction de toutes nos inclinations",
-   "auteur": "Kant",
-   "oeuvre": "Critique de la raison pure",
-   "lieu": "Canon de la raison pure, A 806 / B 834",
-   "edition": "trad. Alain Renaut, GF-Flammarion",
-   "verification": "œuvre fournie, passage retrouvé mot pour mot",
-   "regime": "citation exacte",
-   "fonction": "I.2 : fixer la définition sur laquelle repose la première réponse ; la preuve est écrite ensuite."
-  },
-  {
-   "texte": "personne ne choisirait d’être laissé à lui-même avec tous les biens",
-   "auteur": "Aristote",
-   "oeuvre": "Éthique à Nicomaque",
-   "lieu": "IX, 9, 1169b",
-   "edition": "Œuvres complètes, dir. Pierre Pellegrin, Flammarion, 2014",
-   "verification": "œuvre fournie, passage retrouvé mot pour mot",
-   "regime": "citation exacte",
-   "fonction": "II.2 : faire voir la prémisse (le bien humain se vit avec d’autres) ; l’inférence tient sans elle."
-  }
- ],
- "copy": [
-  [
-   "INTRODUCTION",
-   [
+  "copy": [
     [
-     "Dans La Peste de Camus, le journaliste Rambert, bloqué à Oran par l’épidémie, ne pense qu’à fuir la ville pour retrouver la femme qu’il aime.",
-     "Introduction · la scène"
+      "INTRODUCTION",
+      [
+        [
+          "Dans La Peste de Camus, le journaliste Rambert, bloqué à Oran par l’épidémie, ne pense qu’à fuir la ville pour retrouver la femme qu’il aime.",
+          "Introduction · la scène"
+        ],
+        [
+          "Au moment où la fuite devient possible, il y renonce et reste avec ceux qui combattent la maladie, parce qu’il aurait honte, dit-il en substance, d’être heureux tout seul.",
+          "Introduction · la scène : le renoncement"
+        ],
+        [
+          "Son amour est légitime, et la souffrance d’Oran n’est pas la sienne ; pourtant, la savoir suffit à changer ce que vaudrait son bonheur.",
+          "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"
+        ],
+        [
+          "Être heureux quand les autres ne le sont pas, c’est l’être en sachant leur malheur, et la question est de savoir si ce savoir rend le bonheur impossible.",
+          "Introduction · les mots du sujet"
+        ],
+        [
+          "Le bonheur dépend de ce que je désire, mais certains désirs portent sur autrui. Pourtant la souffrance d’inconnus peut encore troubler une joie qui ne leur devait rien.",
+          "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"
+        ],
+        [
+          "Si mon bonheur ne dépend pas de l’état de tous les hommes, mais inclut celui des êtres qui me sont liés, peut-on être heureux quand les autres ne le sont pas, dès lors qu’on sait leur malheur sans qu’aucun lien ne nous unisse ?",
+          "Introduction · la problématique : une seule question, qui garde « peut-on »"
+        ],
+        [
+          "Nous partirons du bonheur personnel, puis de celui qui nous lie aux proches, avant d’examiner ce que nous pouvons pour les autres.",
+          "Introduction · l’annonce"
+        ]
+      ]
     ],
     [
-     "Au moment où la fuite devient possible, il y renonce et reste avec ceux qui combattent la maladie, parce qu’il aurait honte, dit-il en substance, d’être heureux tout seul.",
-     "Introduction · la scène : le renoncement"
+      "I. MON BONHEUR EST À MOI",
+      [
+        [
+          "On peut être heureux quand les autres ne le sont pas, car le bonheur de chacun tient à ce qu’il désire, non à l’état du monde entier.",
+          "I.1 Ouvrir une première manière de penser"
+        ],
+        [
+          "Cette réponse sauve le droit d’être heureux : si le malheur d’un seul suffisait à l’interdire, personne ne l’aurait jamais été.",
+          "I.1 Ce qu’elle sauve"
+        ],
+        [
+          "Kant définit ainsi le bonheur : « Le bonheur est la satisfaction de toutes nos inclinations ».",
+          "I.2 La fonder par une définition ; citation qui en donne les termes"
+        ],
+        [
+          "Que mes inclinations puissent être satisfaites sans que tous les hommes le soient distingue mon bonheur du bonheur universel : celui-ci ne saurait être une condition nécessaire de toute joie individuelle.",
+          "I.2 Séparer bonheur individuel et satisfaction universelle"
+        ],
+        [
+          "Ce fondement établit que mon bonheur, comme satisfaction de mes désirs, peut exister sans dépendre de l’état de tous les autres.",
+          "I.3 L’éprouver : ce qu’il établit"
+        ],
+        [
+          "Mais il fait dépendre la satisfaction de l’objet du désir, et certains de mes désirs ont pour objet le bien d’autrui : la définition elle-même fait alors entrer l’état des autres dans mon bonheur.",
+          "I.3 Ce qu’il ne permet pas encore, et pourquoi"
+        ],
+        [
+          "L’homme le plus comblé n’est pas heureux le jour où son enfant tombe malade, et ce n’est pas faute d’avoir ce qu’il désirait pour lui-même.",
+          "I.3 Le cas qui le montre"
+        ],
+        [
+          "La satisfaction de mes désirs ne permet donc pas encore d’établir que je puisse être heureux quand le malheur atteint ceux dont le bien est l’objet même de mes désirs.",
+          "I.3 La portée et le manque du premier fondement"
+        ],
+        [
+          "Mon bonheur ne dépend pas de tous les hommes, mais il peut inclure celui de mes proches. Que devient-il lorsque ceux que j’aime souffrent ?",
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
+        ]
+      ]
     ],
     [
-     "Son amour est légitime, et la souffrance d’Oran n’est pas la sienne ; pourtant, la savoir suffit à changer ce que vaudrait son bonheur.",
-     "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"
+      "II. NOTRE BONHEUR INCLUT CEUX QUE NOUS AIMONS",
+      [
+        [
+          "Quand ceux qui nous sont liés sont malheureux, nous ne pouvons pas être pleinement heureux, car leur bien fait partie du nôtre.",
+          "II.1 Ouvrir une autre manière de penser"
+        ],
+        [
+          "Elle ne nie pas que notre bonheur soit le nôtre ; elle montre de quoi il est fait.",
+          "II.1 Ce qu’elle conserve"
+        ],
+        [
+          "L’homme vit avec d’autres, et Aristote le rappelle à propos du bonheur : « personne ne choisirait d’être laissé à lui-même avec tous les biens ».",
+          "II.2 La fonder par la nature du bien humain ; citation qui en donne la prémisse"
+        ],
+        [
+          "Le bien d'un proche n'est pas seulement un événement que j'observe : parce que je l'aime, sa réussite ou sa souffrance entre dans ce qui peut me rendre heureux ou malheureux.",
+          "II.2 Montrer comment le bien d'autrui entre dans le mien"
+        ],
+        [
+          "Cette raison établit que notre bonheur inclut le bien de ceux auxquels nous sommes liés.",
+          "II.3 L’éprouver : ce qu’elle établit"
+        ],
+        [
+          "Mais elle fonde cette inclusion sur le lien, et un lien est borné : l’étendre à tous les hommes, ce serait rendre tout bonheur impossible, puisqu’il y a toujours, quelque part, des malheureux.",
+          "II.3 Ce qu’elle ne permet pas encore, et pourquoi : le fondement poussé à l’absurde"
+        ],
+        [
+          "Les pestiférés d’Oran ne sont ni les amis ni les proches de Rambert ; la raison qui lie notre bonheur au leur ne dit rien de lui.",
+          "II.3 Sur la scène"
+        ],
+        [
+          "Le lien qui fait entrer le bien des proches dans notre bonheur ne permet donc pas encore de dire ce que peut notre bonheur devant le malheur, connu, de ceux qui ne nous sont pas liés.",
+          "II.3 La portée et le manque du second fondement"
+        ],
+        [
+          "Le bonheur a ses désirs propres et ses liens particuliers. Mais pourquoi la souffrance d’inconnus nous atteint-elle aussi, comme elle atteint Rambert ?",
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
+        ]
+      ]
     ],
     [
-     "On attend du bonheur qu’il soit le nôtre, mais aussi qu’il soit celui d’un être qui n’est pas indifférent aux autres.",
-     "Introduction · l’enjeu"
+      "III. CE QUE JE PEUX POUR EUX",
+      [
+        [
+          "On peut être heureux en sachant le malheur des autres si l’on voit qu’il touche notre bonheur non par sa seule existence, mais par ce que nous pouvons pour lui.",
+          "III.1 Effectuer le déplacement nécessaire"
+        ],
+        [
+          "Un bonheur reste possible s’il ne repose ni sur l’ignorance volontaire ni sur l’abstention devant ce qu’on peut faire.",
+          "III.1 La condition énoncée"
+        ],
+        [
+          "Le bonheur n’est pas seulement un état qu’on possède, c’est aussi la manière dont on vit, et la manière dont on vit comprend ce qu’on fait devant ce qu’on sait.",
+          "III.2 La démontrer : la prémisse nouvelle"
+        ],
+        [
+          "Cette condition conserve les deux réponses : mon bonheur reste le mien, et il inclut toujours ceux que j’aime.",
+          "III.2 Ce qu’elle conserve"
+        ],
+        [
+          "Le bonheur peut ainsi engager la manière dont je réponds au malheur que je connais : l'impuissance à le supprimer ne se confond pas avec l'indifférence, et l'attention à autrui n'abolit pas toute joie personnelle.",
+          "III.2 Articuler bonheur personnel et réponse à autrui"
+        ],
+        [
+          "On peut donc être heureux quand les autres ne le sont pas, à condition que ce bonheur ne se paie ni d’un regard détourné ni d’un refus de faire ce qu’on peut.",
+          "III.3 La réponse au sujet, avec son opérateur"
+        ],
+        [
+          "Rambert ne renonce pas à son amour : il renonce à une fuite ; et lorsqu’il retrouve sa femme à la fin de l’épidémie, son bonheur n’a plus rien dont il doive rougir.",
+          "III.3 La réponse vérifiée sur le cas"
+        ],
+        [
+          "Reste le cas où le malheur des autres excède tout ce que l’on peut, et où l’on ne sait plus ce que vaut un bonheur qui ne peut rien pour eux.",
+          "III.3 Le reste : ce qui demande encore à être pensé"
+        ]
+      ]
     ],
     [
-     "Être heureux quand les autres ne le sont pas, c’est l’être en sachant leur malheur, et la question est de savoir si ce savoir rend le bonheur impossible.",
-     "Introduction · les mots du sujet"
-    ],
-    [
-     "Or la satisfaction de nos désirs ne dépend pas de l’état de tous, mais elle se trouble dès que nos désirs portent sur autrui ; et si notre bonheur inclut ceux que nous aimons, il ne dit rien encore des autres, dont nous savons pourtant le malheur.",
-     "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"
-    ],
-    [
-     "Si mon bonheur ne dépend pas de l’état de tous les hommes, mais inclut celui des êtres qui me sont liés, peut-on être heureux quand les autres ne le sont pas, dès lors qu’on sait leur malheur sans qu’aucun lien ne nous unisse ?",
-     "Introduction · la problématique : une seule question, qui garde « peut-on »"
-    ],
-    [
-     "On établira d’abord que le bonheur peut être le nôtre, puis qu’il inclut ceux qui nous sont liés ; il restera à chercher à quelle condition on peut être heureux en sachant le malheur des autres, sans perdre ni ce bonheur propre ni ce qu’il doit aux autres.",
-     "Introduction · l’annonce"
+      "CONCLUSION",
+      [
+        [
+          "On peut être heureux quand les autres ne le sont pas, non en fermant son bonheur sur soi ni en l’étendant à tous, mais en ne le faisant reposer ni sur l’oubli de leur malheur ni sur l’abandon de ce qu’on peut pour eux.",
+          "Conclusion · la réponse, avec l’opérateur"
+        ],
+        [
+          "Rambert pouvait être heureux à Oran : il ne le pouvait pas en fuyant.",
+          "Conclusion · retour à la scène"
+        ],
+        [
+          "Mais que reste-t-il au bonheur quand le malheur des autres dépasse tout ce que nous pouvons ?",
+          "Conclusion · le reste en question"
+        ]
+      ]
     ]
-   ]
-  ],
-  [
-   "I. MON BONHEUR EST À MOI",
-   [
-    [
-     "On peut être heureux quand les autres ne le sont pas, car le bonheur de chacun tient à ce qu’il désire, non à l’état du monde entier.",
-     "I.1 Établir la première réponse"
-    ],
-    [
-     "Cette réponse sauve le droit d’être heureux : si le malheur d’un seul suffisait à l’interdire, personne ne l’aurait jamais été.",
-     "I.1 Ce qu’elle sauve"
-    ],
-    [
-     "Kant définit ainsi le bonheur : « Le bonheur est la satisfaction de toutes nos inclinations ».",
-     "I.2 La fonder par une définition ; citation qui en donne les termes"
-    ],
-    [
-     "Or une inclination se satisfait par son objet : la faim par le repas, l’amour par la présence de l’aimée ; la satisfaction de mes désirs ne dépend donc pas de ce qui arrive à tous les hommes.",
-     "I.2 L’inférence décisive"
-    ],
-    [
-     "Ce fondement établit que mon bonheur, comme satisfaction de mes désirs, peut exister sans dépendre de l’état de tous les autres.",
-     "I.3 L’éprouver : ce qu’il établit"
-    ],
-    [
-     "Mais il fait dépendre la satisfaction de l’objet du désir, et certains de mes désirs ont pour objet le bien d’autrui : la définition elle-même fait alors entrer l’état des autres dans mon bonheur.",
-     "I.3 Ce qu’il ne permet pas encore, et pourquoi"
-    ],
-    [
-     "L’homme le plus comblé n’est pas heureux le jour où son enfant tombe malade, et ce n’est pas faute d’avoir ce qu’il désirait pour lui-même.",
-     "I.3 Le cas qui le montre"
-    ],
-    [
-     "La satisfaction de mes désirs ne permet donc pas encore d’établir que je puisse être heureux quand le malheur atteint ceux dont le bien est l’objet même de mes désirs.",
-     "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"
-    ],
-    [
-     "Mon bonheur ne dépend pas de l’état de tous ; mais cela ne vaut pas quand mes désirs portent sur autrui, parce que la satisfaction dépend de son objet. Il faut donc examiner le bonheur en tant qu’il inclut autrui : que devient-il quand ceux qui nous sont liés sont malheureux ?",
-     "Transition · l’examen nécessaire, en question"
-    ]
-   ]
-  ],
-  [
-   "II. NOTRE BONHEUR INCLUT CEUX QUE NOUS AIMONS",
-   [
-    [
-     "Quand ceux qui nous sont liés sont malheureux, nous ne pouvons pas être pleinement heureux, car leur bien fait partie du nôtre.",
-     "II.1 La seconde réponse, qui répond à l’examen demandé"
-    ],
-    [
-     "Elle ne nie pas que notre bonheur soit le nôtre ; elle montre de quoi il est fait.",
-     "II.1 Ce qu’elle conserve"
-    ],
-    [
-     "L’homme vit avec d’autres, et Aristote le rappelle à propos du bonheur : « personne ne choisirait d’être laissé à lui-même avec tous les biens ».",
-     "II.2 La fonder par la nature du bien humain ; citation qui en donne la prémisse"
-    ],
-    [
-     "Or ce dont le bonheur ne peut se passer en fait partie ; le bien de nos amis, de nos proches, entre donc dans le nôtre, et leur malheur l’entame.",
-     "II.2 L’inférence décisive"
-    ],
-    [
-     "Cette raison établit que notre bonheur inclut le bien de ceux auxquels nous sommes liés.",
-     "II.3 L’éprouver : ce qu’elle établit"
-    ],
-    [
-     "Mais elle fonde cette inclusion sur le lien, et un lien est borné : l’étendre à tous les hommes, ce serait rendre tout bonheur impossible, puisqu’il y a toujours, quelque part, des malheureux.",
-     "II.3 Ce qu’elle ne permet pas encore, et pourquoi : le fondement poussé à l’absurde"
-    ],
-    [
-     "Les pestiférés d’Oran ne sont ni les amis ni les proches de Rambert ; la raison qui lie notre bonheur au leur ne dit rien de lui.",
-     "II.3 Sur la scène"
-    ],
-    [
-     "Le lien qui fait entrer le bien des proches dans notre bonheur ne permet donc pas encore de dire ce que peut notre bonheur devant le malheur, connu, de ceux qui ne nous sont pas liés.",
-     "II.3 Ce que la seconde réponse ne permet pas encore"
-    ],
-    [
-     "Mon bonheur ne dépend pas de l’état de tous, et il inclut celui de mes proches ; mais l’une des réponses ferme le bonheur sur mes désirs, l’autre l’ouvre à mes liens, et aucune ne dit comment le malheur connu des autres touche un bonheur qui n’est ni l’objet de mes désirs ni celui de mes liens. Partager les hommes en proches, dont le malheur compte, et en lointains, dont il ne compte pas, ne dit pas pourquoi Rambert a honte : à quelle condition peut-on donc être heureux en sachant le malheur des autres ?",
-     "Transition · pourquoi leur addition échoue, et ce qui reste à établir, en question"
-    ]
-   ]
-  ],
-  [
-   "III. CE QUE JE PEUX POUR EUX",
-   [
-    [
-     "On peut être heureux en sachant le malheur des autres si l’on voit qu’il touche notre bonheur non par sa seule existence, mais par ce que nous pouvons pour lui.",
-     "III.1 L’opération que la difficulté exige : une condition"
-    ],
-    [
-     "Un bonheur reste possible s’il ne repose ni sur l’ignorance volontaire ni sur l’abstention devant ce qu’on peut faire.",
-     "III.1 La condition énoncée"
-    ],
-    [
-     "Le bonheur n’est pas seulement un état qu’on possède, c’est aussi la manière dont on vit, et la manière dont on vit comprend ce qu’on fait devant ce qu’on sait.",
-     "III.2 La démontrer : la prémisse nouvelle"
-    ],
-    [
-     "Cette condition conserve les deux réponses : mon bonheur reste le mien, et il inclut toujours ceux que j’aime.",
-     "III.2 Ce qu’elle conserve"
-    ],
-    [
-     "Elle explique aussi leurs arrêts : mes désirs tournés vers autrui ne pouvaient être satisfaits que si j’agissais, et le lien n’était qu’un cas, le plus proche, de ce que je peux.",
-     "III.2 Ce qu’elle explique"
-    ],
-    [
-     "On peut donc être heureux quand les autres ne le sont pas, à condition que ce bonheur ne se paie ni d’un regard détourné ni d’un refus de faire ce qu’on peut.",
-     "III.3 La réponse au sujet, avec son opérateur"
-    ],
-    [
-     "Rambert ne renonce pas à son amour : il renonce à une fuite ; et lorsqu’il retrouve sa femme à la fin de l’épidémie, son bonheur n’a plus rien dont il doive rougir.",
-     "III.3 La réponse vérifiée sur le cas"
-    ],
-    [
-     "Reste le cas où le malheur des autres excède tout ce que l’on peut, et où l’on ne sait plus ce que vaut un bonheur qui ne peut rien pour eux.",
-     "III.3 Le reste : ce que cette réponse ne règle pas"
-    ]
-   ]
-  ],
-  [
-   "CONCLUSION",
-   [
-    [
-     "On peut être heureux quand les autres ne le sont pas, non en fermant son bonheur sur soi ni en l’étendant à tous, mais en ne le faisant reposer ni sur l’oubli de leur malheur ni sur l’abandon de ce qu’on peut pour eux.",
-     "Conclusion · la réponse, avec l’opérateur"
-    ],
-    [
-     "Rambert pouvait être heureux à Oran : il ne le pouvait pas en fuyant.",
-     "Conclusion · retour à la scène"
-    ],
-    [
-     "Mais que reste-t-il au bonheur quand le malheur des autres dépasse tout ce que nous pouvons ?",
-     "Conclusion · le reste en question"
-    ]
-   ]
   ]
- ]
 }

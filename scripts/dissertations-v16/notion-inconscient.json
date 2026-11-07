@@ -1,278 +1,280 @@
 {
- "id": "notion-inconscient",
- "subject": "L’idée d’inconscient remet-elle en cause la responsabilité ?",
- "notion": "L’inconscient",
- "fiche": {
-  "operateur": "effet d’une idée sur un concept (« remet-elle en cause ») : l’idée d’inconscient compromet-elle ce qui fonde la responsabilité ; question descriptive portant sur une notion normative.",
-  "sens": "remettre en cause : (1) obliger à réexaminer (trop faible : rend le oui trivial) ; (2) compromettre le fondement, au point qu’on ne puisse plus imputer — retenu. idée d’inconscient : l’hypothèse d’une vie psychique dont les désirs déterminent nos actes à notre insu. responsabilité : (1) imputabilité, être l’auteur à qui l’acte est attribué ; (2) devoir en répondre, moralement ou devant la loi.",
-  "substitutions_interdites": "inconscient ≠ folie ; responsable ≠ coupable ; remettre en cause ≠ abolir.",
-  "verrou": "Oui : établir que l’idée d’inconscient ôte à la responsabilité son fondement. Non : établir qu’elle le laisse intact ou le déplace sans le détruire. Glissements interdits : de « certains actes ont des motifs inconscients » à « aucun acte n’est imputable » ; du motif ignoré à l’acte non voulu.",
-  "trois_reponses": "Spontanée : oui, on ne répond pas de ce qu’on ignore. Contraire : non, on répond de ce qui vient de soi, même à son insu. Conciliation : responsables des actes conscients, non des actes inconscients.",
-  "conciliation_1_8bis": "Partage actes conscients / inconscients. Elle hésite sur Œdipe au carrefour : il tue un homme en sachant qu’il tue, dans la colère, sans savoir qu’il tue son père ; l’acte est-il conscient ou non ? elle tranche sans critère.",
-  "brouillon": {
-   "a": "Oui : on n’impute que ce qui procède d’une volonté consciente ; si nos actes viennent de désirs ignorés, ils ne procèdent plus d’elle.",
-   "b": "Cela ruine une responsabilité fondée sur la transparence de la volonté, non toute responsabilité : rien ne prouve que la conscience des motifs en soit la seule condition.",
-   "c": "Il faut examiner ce que la responsabilité exige réellement : répondre de ce qui vient de soi.",
-   "d": "On peut répondre de ce que l’inconscient nous fait faire ; mais répondre n’est pas encore être coupable.",
-   "e": "L’une impute par la volonté consciente, l’autre fait répondre de tout ce qui est à soi ; il reste un critère de l’imputation."
+  "id": "notion-inconscient",
+  "subject": "L’idée d’inconscient remet-elle en cause la responsabilité ?",
+  "notion": "L’inconscient",
+  "fiche": {
+    "operateur": "effet d’une idée sur un concept (« remet-elle en cause ») : l’idée d’inconscient compromet-elle ce qui fonde la responsabilité ; question descriptive portant sur une notion normative.",
+    "sens": "remettre en cause : (1) obliger à réexaminer (trop faible : rend le oui trivial) ; (2) compromettre le fondement, au point qu’on ne puisse plus imputer — retenu. idée d’inconscient : l’hypothèse d’une vie psychique dont les désirs déterminent nos actes à notre insu. responsabilité : (1) imputabilité, être l’auteur à qui l’acte est attribué ; (2) devoir en répondre, moralement ou devant la loi.",
+    "substitutions_interdites": "inconscient ≠ folie ; responsable ≠ coupable ; remettre en cause ≠ abolir.",
+    "verrou": "Oui : établir que l’idée d’inconscient ôte à la responsabilité son fondement. Non : établir qu’elle le laisse intact ou le déplace sans le détruire. Glissements interdits : de « certains actes ont des motifs inconscients » à « aucun acte n’est imputable » ; du motif ignoré à l’acte non voulu.",
+    "trois_reponses": "Spontanée : oui, on ne répond pas de ce qu’on ignore. Contraire : non, on répond de ce qui vient de soi, même à son insu. Conciliation : responsables des actes conscients, non des actes inconscients.",
+    "conciliation_1_8bis": "Partage actes conscients / inconscients. Elle hésite sur Œdipe au carrefour : il tue un homme en sachant qu’il tue, dans la colère, sans savoir qu’il tue son père ; l’acte est-il conscient ou non ? elle tranche sans critère.",
+    "brouillon": {
+      "a": "Oui : on n’impute que ce qui procède d’une volonté consciente ; si nos actes viennent de désirs ignorés, ils ne procèdent plus d’elle.",
+      "b": "Cela ruine une responsabilité fondée sur la transparence de la volonté, non toute responsabilité : rien ne prouve que la conscience des motifs en soit la seule condition.",
+      "c": "Il faut examiner ce que la responsabilité exige réellement : répondre de ce qui vient de soi.",
+      "d": "On peut répondre de ce que l’inconscient nous fait faire ; mais répondre n’est pas encore être coupable.",
+      "e": "L’une impute par la volonté consciente, l’autre fait répondre de tout ce qui est à soi ; il reste un critère de l’imputation."
+    },
+    "A": "L’idée d’inconscient remet en cause la responsabilité : on n’impute que ce qui procède d’une volonté consciente.",
+    "FA": "Imputabilité (III.3). 1. On n’impute un acte qu’à celui qui l’a voulu en sachant ce qu’il voulait (E : définition de l’imputation dans la conception commune). 2. L’idée d’inconscient affirme que des désirs ignorés déterminent nos actes (E : définition de l’hypothèse). 3. Un acte déterminé par un désir ignoré ne procède pas d’une volonté qui sait ce qu’elle veut (E). Donc l’imputation vacille.",
+    "XA": "L’idée d’inconscient ruine une conception de la responsabilité fondée sur la transparence de la volonté à elle-même.",
+    "YA": "Qu’elle ruine la responsabilité elle-même.",
+    "ZA": "FA fait de la conscience des motifs la condition de l’imputation ; c’est la condition d’une conception particulière, et FA ne montre pas que l’imputation n’en a pas d’autre.",
+    "type_LA": "condition non établie",
+    "LA": "L’idée d’inconscient ne permet donc pas encore d’établir que la responsabilité soit ruinée, parce que rien ne prouve que la conscience de ses motifs en soit la seule condition.",
+    "six_LA": "Mesure : XA écrit. Filiation : prémisse 1. Meilleur cas : même l’agent le plus lucide ignore une part de ses motifs, et nous l’imputons. Absorption : FA dirait « alors personne n’est responsable » ; c’est conclure de la ruine d’une conception à celle de la chose. Non-lacune : oui. Calibration : oui.",
+    "T1": "Nous avons établi que l’idée d’inconscient ruine la transparence de la volonté ; mais non la responsabilité, parce que la conscience des motifs n’en est peut-être pas la seule condition ; il faut donc examiner ce que la responsabilité exige (W : la condition, III.5).",
+    "B": "L’idée d’inconscient ne remet pas en cause la responsabilité : on répond de ce qui vient de soi, même à son insu. B conserve XA.",
+    "FB": "Fin et appartenance (III.3). 1. Être responsable, c’est devoir répondre de ce qui est à soi (E : définition, sens 2). 2. Les désirs inconscients sont à moi : ils ne viennent d’aucun autre (E : thèse même de l’hypothèse). 3. Donc je dois répondre de ce qu’ils me font faire. Indépendance : vaut sans LA. Principe propre : l’appartenance. Freud soutient lui-même qu’on doit se tenir pour responsable du contenu de ses rêves (idée attribuée, texte de 1925).",
+    "XB": "On peut et l’on doit répondre de ce que l’inconscient nous fait faire.",
+    "YB": "Que l’on soit coupable de ces actes et puisse en être justement blâmé ou puni.",
+    "ZB": "FB fonde la responsabilité sur l’appartenance ; l’appartenance ne distingue pas répondre d’un acte et en être coupable, qui suppose un pouvoir d’agir autrement.",
+    "type_LB": "distinction indispensable (répondre / être coupable)",
+    "LB": "Que nos désirs inconscients soient à nous ne permet donc pas encore d’établir que nous soyons coupables de ce qu’ils nous font faire, parce que répondre d’un acte n’est pas encore en être coupable.",
+    "six_LB": "Mesure : XB écrit. Filiation : prémisse 1 (répondre) prise au mot. Meilleur cas : le malade dont le discernement est aboli répond de ses actes au sens où ils sont siens, et le droit ne le punit pas. Absorption : FB dirait « coupable et responsable, c’est tout un » ; le droit les distingue. Non-lacune : oui. Calibration : oui. Geste : distinction requise, différent de la condition manquante de I.3.",
+    "T2": "Bilan : XA, XB. ρ : critère manquant — A impute par la volonté consciente, B fait répondre de tout ce qui est à soi ; aucun ne dit où passe, parmi les actes qui viennent de soi, la frontière de la culpabilité. D : établir un critère de l’imputation qui ne suppose pas la transparence des motifs. Cumul : « conscients, on impute ; inconscients, non » échoue sur Œdipe au carrefour (la frontière ne se trace qu’avec un critère qu’aucune réponse ne fournit). Classe : décision.",
+    "epreuves": "1. Contre-exemple : le lapsus, qui n’est puni par personne ; il confirme D. 2. Meilleur cas : survit. 3. Cumul : échec écrit. 4. Antériorité : la distinction aristotélicienne entre ignorance des circonstances et ignorance du reste, et la distinction juridique entre discernement aboli et altéré, sont des opérations réelles : candidats de III, transposés.",
+    "soupcon_aporie": "aucun indice ; régime ordinaire.",
+    "chemins_echoues": "Chemin aporétique de l’ancienne copie (instruments de désirs ignorés, dont nul ne répond / ou nous laisse répondre de ce que nous ignorons) : forme P1 sans module ; écarté.",
+    "dictionnaire": "non consulté.",
+    "phrase_mouvement": "A, parce qu’on n’impute que l’acte voulu en connaissance, établit que l’inconscient ruine la transparence de la volonté ; mais non la responsabilité, faute de preuve que ce soit sa seule condition ; il faut donc examiner ce qu’elle exige. B, parce qu’on répond de ce qui est à soi, établit qu’on répond de ce que l’inconscient fait faire ; mais non qu’on en soit coupable. Or aucun ne trace la frontière ; il reste le critère.",
+    "probleme_directeur": "L’idée d’inconscient remet-elle en cause la responsabilité, si elle ruine la transparence de la volonté mais laisse nos actes à nous ?",
+    "problematique": "Si l’idée d’inconscient ruine la transparence de la volonté, mais que les désirs ignorés restent les nôtres, remet-elle en cause la responsabilité, quand on ignore encore à quoi se reconnaît un acte dont on est coupable ?",
+    "forme_problematique": "G3 (deux acquis en protases, interrogation qui garde « remet-elle en cause » et nomme le critère manquant). Reconstruction : on part de la volonté transparente, on bute sur la seule condition, on examine l’appartenance, on bute sur la culpabilité ; la III doit fournir le critère. Relecture : aucune radicalisation.",
+    "critere": "Sur Œdipe au carrefour, une solution devra dire si l’idée d’inconscient remet en cause sa responsabilité, conserver que la volonté n’est pas transparente et que ses désirs sont siens, expliquer les deux arrêts, et fournir le critère de la culpabilité.",
+    "contrainte_scene": "montrer un acte accompli à l’insu de son auteur, dont il répond pourtant.",
+    "III": {
+      "operation": "critère de frontière (III.7 a) : l’imputation suppose la connaissance des circonstances et la maîtrise de l’acte, non la connaissance de ses motifs.",
+      "III1": "Est imputable l’acte dont le principe est dans l’agent et dont il connaît les circonstances ; ce critère ne demande pas qu’il connaisse ses motifs.",
+      "III2": "Conserve XA (la transparence des motifs est perdue, et ce n’était pas la condition) et XB (on répond de tout ce qui est à soi) ; explique LA (FA prenait les motifs pour les circonstances) et LB (la culpabilité porte sur ce qu’on savait et maîtrisait, non sur tout ce qui vient de soi).",
+      "III3": "L’idée d’inconscient ne remet pas en cause la responsabilité, mais une fausse idée de ce qu’elle exige ; vérifié sur Œdipe. Reste : les cas où le discernement est altéré sans être aboli.",
+      "tests": "Cas témoin : Œdipe est coupable d’avoir tué un homme dans la colère, qu’il savait tuer, non d’un parricide dont il ignorait la circonstance décisive, et un désir inconscient ne change rien à ce partage. Second cas : l’irresponsabilité pénale pour abolition du discernement. Restitution : oui. Rechute : le reste (l’altération) ne redit ni LA ni LB. Test propre : frontière définie indépendamment des deux thèses (par les circonstances connues et la maîtrise). Report : non. Acquis nouveau : prémisse nouvelle — l’ignorance qui excuse porte sur les circonstances, non sur les motifs ; nécessaire à la décision."
+    },
+    "candidats_III": [
+      {
+        "id": "retenue",
+        "operation": "Critère de frontière",
+        "proposition": "On est coupable de l’acte dont on connaissait les circonstances et qu’on maîtrisait, même si ses motifs nous échappent.",
+        "verdict": "retenue",
+        "raison": "Décide le cas d’Œdipe, conserve les deux acquis, explique les deux arrêts."
+      },
+      {
+        "id": "partage",
+        "operation": "Partage",
+        "proposition": "Responsables des actes conscients, non des actes inconscients.",
+        "verdict": "écartée",
+        "raison": "C’est le cumul : le même acte est conscient et inconscient sous deux rapports."
+      },
+      {
+        "id": "tache",
+        "operation": "Ordre des moments",
+        "proposition": "La responsabilité devient une tâche : s’approprier ce qui agissait à notre insu.",
+        "verdict": "dominée",
+        "raison": "Féconde pour l’avenir, mais ne dit pas si l’on est coupable de l’acte passé."
+      },
+      {
+        "id": "excuse",
+        "operation": "Principe d’ordre",
+        "proposition": "En cas de doute, l’inconscient excuse.",
+        "verdict": "écartée",
+        "raison": "Rechute dans la première réponse."
+      }
+    ],
+    "generateur": "figure : la frontière ; registre opératoire : dialectique ; registre de lecture : par cas ; branches B4 ; annonce N3.",
+    "scene": "Sophocle, Œdipe roi (Œdipe se crève les yeux) et Œdipe à Colone (il plaide qu’il a agi sans savoir) ; lecture de Freud, qui voit dans Œdipe la figure de désirs que chacun ignore. Paraphrase seulement. Verdict : homologue. Retour : la III départage les deux Œdipe.",
+    "statut": {
+      "problematique": "suffisamment justifiée",
+      "copie": "état de travail (architecture expérimentale)"
+    },
+    "ouvertures_de_pensee": {
+      "I": "Si une conduite peut avoir pour mobile un désir ignoré, la conscience de vouloir ne suffit plus à garantir que l'agent connaît les raisons pour lesquelles il agit.",
+      "II": "Les désirs qu'on ignore ne deviennent pas pour autant ceux d'un autre : on peut reconnaître un acte comme sien sans prétendre connaître tous les mobiles qui l'ont déterminé.",
+      "III": "Ignorer pourquoi l'on a désiré agir n'est pas nécessairement ignorer ce que l'on faisait ou perdre le pouvoir de s'en abstenir. Ces distinctions permettent de discuter la responsabilité sans exiger une transparence totale de la volonté.",
+      "statut": "Possibilités justifiées, avec leur portée exacte."
+    }
   },
-  "A": "L’idée d’inconscient remet en cause la responsabilité : on n’impute que ce qui procède d’une volonté consciente.",
-  "FA": "Imputabilité (III.3). 1. On n’impute un acte qu’à celui qui l’a voulu en sachant ce qu’il voulait (E : définition de l’imputation dans la conception commune). 2. L’idée d’inconscient affirme que des désirs ignorés déterminent nos actes (E : définition de l’hypothèse). 3. Un acte déterminé par un désir ignoré ne procède pas d’une volonté qui sait ce qu’elle veut (E). Donc l’imputation vacille.",
-  "XA": "L’idée d’inconscient ruine une conception de la responsabilité fondée sur la transparence de la volonté à elle-même.",
-  "YA": "Qu’elle ruine la responsabilité elle-même.",
-  "ZA": "FA fait de la conscience des motifs la condition de l’imputation ; c’est la condition d’une conception particulière, et FA ne montre pas que l’imputation n’en a pas d’autre.",
-  "type_LA": "condition non établie",
-  "LA": "L’idée d’inconscient ne permet donc pas encore d’établir que la responsabilité soit ruinée, parce que rien ne prouve que la conscience de ses motifs en soit la seule condition.",
-  "six_LA": "Mesure : XA écrit. Filiation : prémisse 1. Meilleur cas : même l’agent le plus lucide ignore une part de ses motifs, et nous l’imputons. Absorption : FA dirait « alors personne n’est responsable » ; c’est conclure de la ruine d’une conception à celle de la chose. Non-lacune : oui. Calibration : oui.",
-  "T1": "Nous avons établi que l’idée d’inconscient ruine la transparence de la volonté ; mais non la responsabilité, parce que la conscience des motifs n’en est peut-être pas la seule condition ; il faut donc examiner ce que la responsabilité exige (W : la condition, III.5).",
-  "B": "L’idée d’inconscient ne remet pas en cause la responsabilité : on répond de ce qui vient de soi, même à son insu. B conserve XA.",
-  "FB": "Fin et appartenance (III.3). 1. Être responsable, c’est devoir répondre de ce qui est à soi (E : définition, sens 2). 2. Les désirs inconscients sont à moi : ils ne viennent d’aucun autre (E : thèse même de l’hypothèse). 3. Donc je dois répondre de ce qu’ils me font faire. Indépendance : vaut sans LA. Principe propre : l’appartenance. Freud soutient lui-même qu’on doit se tenir pour responsable du contenu de ses rêves (idée attribuée, texte de 1925).",
-  "XB": "On peut et l’on doit répondre de ce que l’inconscient nous fait faire.",
-  "YB": "Que l’on soit coupable de ces actes et puisse en être justement blâmé ou puni.",
-  "ZB": "FB fonde la responsabilité sur l’appartenance ; l’appartenance ne distingue pas répondre d’un acte et en être coupable, qui suppose un pouvoir d’agir autrement.",
-  "type_LB": "distinction indispensable (répondre / être coupable)",
-  "LB": "Que nos désirs inconscients soient à nous ne permet donc pas encore d’établir que nous soyons coupables de ce qu’ils nous font faire, parce que répondre d’un acte n’est pas encore en être coupable.",
-  "six_LB": "Mesure : XB écrit. Filiation : prémisse 1 (répondre) prise au mot. Meilleur cas : le malade dont le discernement est aboli répond de ses actes au sens où ils sont siens, et le droit ne le punit pas. Absorption : FB dirait « coupable et responsable, c’est tout un » ; le droit les distingue. Non-lacune : oui. Calibration : oui. Geste : distinction requise, différent de la condition manquante de I.3.",
-  "T2": "Bilan : XA, XB. ρ : critère manquant — A impute par la volonté consciente, B fait répondre de tout ce qui est à soi ; aucun ne dit où passe, parmi les actes qui viennent de soi, la frontière de la culpabilité. D : établir un critère de l’imputation qui ne suppose pas la transparence des motifs. Cumul : « conscients, on impute ; inconscients, non » échoue sur Œdipe au carrefour (la frontière ne se trace qu’avec un critère qu’aucune réponse ne fournit). Classe : décision.",
-  "epreuves": "1. Contre-exemple : le lapsus, qui n’est puni par personne ; il confirme D. 2. Meilleur cas : survit. 3. Cumul : échec écrit. 4. Antériorité : la distinction aristotélicienne entre ignorance des circonstances et ignorance du reste, et la distinction juridique entre discernement aboli et altéré, sont des opérations réelles : candidats de III, transposés.",
-  "soupcon_aporie": "aucun indice ; régime ordinaire.",
-  "chemins_echoues": "Chemin aporétique de l’ancienne copie (instruments de désirs ignorés, dont nul ne répond / ou nous laisse répondre de ce que nous ignorons) : forme P1 sans module ; écarté.",
-  "dictionnaire": "non consulté.",
-  "phrase_mouvement": "A, parce qu’on n’impute que l’acte voulu en connaissance, établit que l’inconscient ruine la transparence de la volonté ; mais non la responsabilité, faute de preuve que ce soit sa seule condition ; il faut donc examiner ce qu’elle exige. B, parce qu’on répond de ce qui est à soi, établit qu’on répond de ce que l’inconscient fait faire ; mais non qu’on en soit coupable. Or aucun ne trace la frontière ; il reste le critère.",
-  "probleme_directeur": "L’idée d’inconscient remet-elle en cause la responsabilité, si elle ruine la transparence de la volonté mais laisse nos actes à nous ?",
-  "problematique": "Si l’idée d’inconscient ruine la transparence de la volonté, mais que les désirs ignorés restent les nôtres, remet-elle en cause la responsabilité, quand on ignore encore à quoi se reconnaît un acte dont on est coupable ?",
-  "forme_problematique": "G3 (deux acquis en protases, interrogation qui garde « remet-elle en cause » et nomme le critère manquant). Reconstruction : on part de la volonté transparente, on bute sur la seule condition, on examine l’appartenance, on bute sur la culpabilité ; la III doit fournir le critère. Relecture : aucune radicalisation.",
-  "critere": "Sur Œdipe au carrefour, une solution devra dire si l’idée d’inconscient remet en cause sa responsabilité, conserver que la volonté n’est pas transparente et que ses désirs sont siens, expliquer les deux arrêts, et fournir le critère de la culpabilité.",
-  "contrainte_scene": "montrer un acte accompli à l’insu de son auteur, dont il répond pourtant.",
-  "III": {
-   "operation": "critère de frontière (III.7 a) : l’imputation suppose la connaissance des circonstances et la maîtrise de l’acte, non la connaissance de ses motifs.",
-   "III1": "Est imputable l’acte dont le principe est dans l’agent et dont il connaît les circonstances ; ce critère ne demande pas qu’il connaisse ses motifs.",
-   "III2": "Conserve XA (la transparence des motifs est perdue, et ce n’était pas la condition) et XB (on répond de tout ce qui est à soi) ; explique LA (FA prenait les motifs pour les circonstances) et LB (la culpabilité porte sur ce qu’on savait et maîtrisait, non sur tout ce qui vient de soi).",
-   "III3": "L’idée d’inconscient ne remet pas en cause la responsabilité, mais une fausse idée de ce qu’elle exige ; vérifié sur Œdipe. Reste : les cas où le discernement est altéré sans être aboli.",
-   "tests": "Cas témoin : Œdipe est coupable d’avoir tué un homme dans la colère, qu’il savait tuer, non d’un parricide dont il ignorait la circonstance décisive, et un désir inconscient ne change rien à ce partage. Second cas : l’irresponsabilité pénale pour abolition du discernement. Restitution : oui. Rechute : le reste (l’altération) ne redit ni LA ni LB. Test propre : frontière définie indépendamment des deux thèses (par les circonstances connues et la maîtrise). Report : non. Acquis nouveau : prémisse nouvelle — l’ignorance qui excuse porte sur les circonstances, non sur les motifs ; nécessaire à la décision."
-  },
-  "candidats_III": [
-   {
-    "id": "retenue",
-    "operation": "Critère de frontière",
-    "proposition": "On est coupable de l’acte dont on connaissait les circonstances et qu’on maîtrisait, même si ses motifs nous échappent.",
-    "verdict": "retenue",
-    "raison": "Décide le cas d’Œdipe, conserve les deux acquis, explique les deux arrêts."
-   },
-   {
-    "id": "partage",
-    "operation": "Partage",
-    "proposition": "Responsables des actes conscients, non des actes inconscients.",
-    "verdict": "écartée",
-    "raison": "C’est le cumul : le même acte est conscient et inconscient sous deux rapports."
-   },
-   {
-    "id": "tache",
-    "operation": "Ordre des moments",
-    "proposition": "La responsabilité devient une tâche : s’approprier ce qui agissait à notre insu.",
-    "verdict": "dominée",
-    "raison": "Féconde pour l’avenir, mais ne dit pas si l’on est coupable de l’acte passé."
-   },
-   {
-    "id": "excuse",
-    "operation": "Principe d’ordre",
-    "proposition": "En cas de doute, l’inconscient excuse.",
-    "verdict": "écartée",
-    "raison": "Rechute dans la première réponse."
-   }
+  "citations": [
+    {
+      "texte": "celui dont le principe réside dans l’agent qui connaît chacune des circonstances particulières que suppose son action",
+      "auteur": "Aristote",
+      "oeuvre": "Éthique à Nicomaque",
+      "lieu": "III, 1111a",
+      "edition": "Œuvres complètes, dir. Pierre Pellegrin, Flammarion, 2014",
+      "verification": "œuvre fournie, passage retrouvé mot pour mot",
+      "regime": "citation exacte, transfert justifié : Aristote ne connaît pas l’inconscient ; son critère est emprunté parce qu’il ne demande pas la connaissance des motifs",
+      "fonction": "III.1 : donner la forme exacte du critère emprunté ; la III l’établit ensuite sans l’autorité de l’auteur."
+    }
   ],
-  "generateur": "figure : la frontière ; registre opératoire : dialectique ; registre de lecture : par cas ; branches B4 ; annonce N3.",
-  "scene": "Sophocle, Œdipe roi (Œdipe se crève les yeux) et Œdipe à Colone (il plaide qu’il a agi sans savoir) ; lecture de Freud, qui voit dans Œdipe la figure de désirs que chacun ignore. Paraphrase seulement. Verdict : homologue. Retour : la III départage les deux Œdipe.",
-  "statut": {
-   "problematique": "suffisamment justifiée",
-   "copie": "état de travail (architecture expérimentale)"
-  }
- },
- "citations": [
-  {
-   "texte": "celui dont le principe réside dans l’agent qui connaît chacune des circonstances particulières que suppose son action",
-   "auteur": "Aristote",
-   "oeuvre": "Éthique à Nicomaque",
-   "lieu": "III, 1111a",
-   "edition": "Œuvres complètes, dir. Pierre Pellegrin, Flammarion, 2014",
-   "verification": "œuvre fournie, passage retrouvé mot pour mot",
-   "regime": "citation exacte, transfert justifié : Aristote ne connaît pas l’inconscient ; son critère est emprunté parce qu’il ne demande pas la connaissance des motifs",
-   "fonction": "III.1 : donner la forme exacte du critère emprunté ; la III l’établit ensuite sans l’autorité de l’auteur."
-  }
- ],
- "copy": [
-  [
-   "INTRODUCTION",
-   [
+  "copy": [
     [
-     "Au carrefour de Phocide, Œdipe tue dans la colère un vieillard qui lui barrait la route ; il ignore que cet homme est son père.",
-     "Introduction · la scène"
+      "INTRODUCTION",
+      [
+        [
+          "Au carrefour de Phocide, Œdipe tue dans la colère un vieillard qui lui barrait la route ; il ignore que cet homme est son père.",
+          "Introduction · la scène"
+        ],
+        [
+          "Quand il découvre la vérité, il se crève les yeux ; vieilli, il plaide pourtant à Colone qu’il a subi ses actes plus qu’il ne les a commis, puisqu’il ne savait pas.",
+          "Introduction · la scène : les deux attitudes d’Œdipe"
+        ],
+        [
+          "Freud a lu dans cette histoire la figure de désirs que chacun porte en soi sans le savoir ; s’il a raison, l’excuse d’Œdipe vaudrait pour tous, et pourtant Œdipe lui-même ne s’en est pas tenu quitte.",
+          "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"
+        ],
+        [
+          "Remettre en cause la responsabilité, ce n’est pas seulement obliger à la repenser : c’est lui ôter son fondement, au point qu’on ne puisse plus attribuer un acte à son auteur.",
+          "Introduction · les mots du sujet"
+        ],
+        [
+          "On n’impute d’abord à quelqu’un que ce qu’il a voulu ; or l’inconscient échappe à cette volonté. Pourtant, ce qui nous échappe peut encore venir de nous.",
+          "Introduction · les deux réponses, portées par la scène, et ce qu’elles ne permettent pas encore"
+        ],
+        [
+          "Si l’idée d’inconscient ruine la transparence de la volonté, mais que les désirs ignorés restent les nôtres, remet-elle en cause la responsabilité, quand on ignore encore à quoi se reconnaît un acte dont on est coupable ?",
+          "Introduction · la problématique : une seule question, qui garde « remet-elle en cause »"
+        ],
+        [
+          "Nous éprouverons d’abord le critère de la volonté consciente, puis celui de l’appartenance à soi, avant de déterminer ce qui rend un acte imputable.",
+          "Introduction · l’annonce, portée par la scène"
+        ]
+      ]
     ],
     [
-     "Quand il découvre la vérité, il se crève les yeux ; vieilli, il plaide pourtant à Colone qu’il a subi ses actes plus qu’il ne les a commis, puisqu’il ne savait pas.",
-     "Introduction · la scène : les deux attitudes d’Œdipe"
+      "I. ON N’IMPUTE QUE CE QU’ON A VOULU",
+      [
+        [
+          "L’idée d’inconscient remet en cause la responsabilité, car on n’attribue un acte qu’à celui qui l’a voulu en sachant ce qu’il voulait.",
+          "I.1 Ouvrir une première manière de penser"
+        ],
+        [
+          "Cette réponse sauve une exigence de justice : ne pas condamner un homme pour ce qui s’est fait en lui sans lui.",
+          "I.1 Ce qu’elle sauve"
+        ],
+        [
+          "Or l’idée d’inconscient affirme précisément que des désirs ignorés déterminent nos actes, et un acte déterminé par un désir ignoré ne procède pas d’une volonté qui sait ce qu’elle veut.",
+          "I.2 La fonder : la condition de l’imputation"
+        ],
+        [
+          "Si une conduite peut avoir pour mobile un désir ignoré, la conscience de vouloir ne suffit plus à garantir que l'agent connaît les raisons pour lesquelles il agit.",
+          "I.2 Montrer l'opacité possible des mobiles"
+        ],
+        [
+          "Ce fondement établit que l’idée d’inconscient ruine une conception de la responsabilité fondée sur la transparence de la volonté à elle-même.",
+          "I.3 L’éprouver : ce qu’il établit"
+        ],
+        [
+          "Mais il fait de la conscience des motifs la condition de l’imputation, et c’est la condition d’une conception particulière : il ne montre pas que l’imputation n’en a pas d’autre.",
+          "I.3 Ce qu’il ne permet pas encore, et pourquoi"
+        ],
+        [
+          "Nous imputons chaque jour des actes à des hommes qui ignorent une part de leurs raisons, et nul ne connaît toutes les siennes.",
+          "I.3 Le cas qui le montre"
+        ],
+        [
+          "L’idée d’inconscient ne permet donc pas encore d’établir que la responsabilité soit ruinée, parce que rien ne prouve que la conscience de ses motifs en soit la seule condition.",
+          "I.3 La portée et le manque du premier fondement"
+        ],
+        [
+          "L’inconscient rend la volonté moins transparente à elle-même. Mais la conscience de tous ses motifs est-elle nécessaire pour répondre de ses actes ?",
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
+        ]
+      ]
     ],
     [
-     "Freud a lu dans cette histoire la figure de désirs que chacun porte en soi sans le savoir ; s’il a raison, l’excuse d’Œdipe vaudrait pour tous, et pourtant Œdipe lui-même ne s’en est pas tenu quitte.",
-     "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"
+      "II. ON RÉPOND DE CE QUI VIENT DE SOI",
+      [
+        [
+          "Nous devons répondre de ce qui vient de nous, et les désirs inconscients viennent de nous : l’idée d’inconscient ne remet donc pas en cause la responsabilité.",
+          "II.1 Ouvrir une autre manière de penser"
+        ],
+        [
+          "Elle ne nie pas que la volonté soit opaque à elle-même ; elle refuse d’en conclure que nos actes ne sont pas les nôtres.",
+          "II.1 Ce qu’elle conserve"
+        ],
+        [
+          "Être responsable, c’est devoir répondre de ce qui est à soi ; or les désirs inconscients ne sont pas ceux d’un autre, ils sont la part de nous que nous ne connaissons pas.",
+          "II.2 La fonder : l’appartenance"
+        ],
+        [
+          "Les désirs qu'on ignore ne deviennent pas pour autant ceux d'un autre : on peut reconnaître un acte comme sien sans prétendre connaître tous les mobiles qui l'ont déterminé.",
+          "II.2 Distinguer appartenance à soi et transparence à soi"
+        ],
+        [
+          "Cette raison établit qu’on peut et qu’on doit répondre de ce que l’inconscient nous fait faire.",
+          "II.3 L’éprouver : ce qu’elle établit"
+        ],
+        [
+          "Mais elle fonde la responsabilité sur l’appartenance, et l’appartenance ne distingue pas répondre d’un acte et en être coupable : la culpabilité suppose un pouvoir d’agir autrement que l’appartenance ne fournit pas.",
+          "II.3 Ce qu’elle ne permet pas encore, et pourquoi : une distinction manque"
+        ],
+        [
+          "Le droit le sait, qui ne punit pas celui dont le discernement était aboli, bien que ses actes soient les siens.",
+          "II.3 Le cas qui l’éprouve"
+        ],
+        [
+          "Que nos désirs inconscients soient à nous ne permet donc pas encore d’établir que nous soyons coupables de ce qu’ils nous font faire, parce que répondre d’un acte n’est pas encore en être coupable.",
+          "II.3 La portée et le manque du second fondement"
+        ],
+        [
+          "On ne peut imputer seulement ce qui est voulu en pleine conscience, ni tout ce qui vient de nous. À quelles conditions un acte est-il vraiment imputable ?",
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
+        ]
+      ]
     ],
     [
-     "On attend de la responsabilité qu’elle n’impute à chacun que ce qu’il a voulu, mais aussi qu’elle le fasse répondre de ce qui vient de lui.",
-     "Introduction · l’enjeu"
+      "III. CE QU’ON SAVAIT FAIRE",
+      [
+        [
+          "Un acte dont on est coupable se reconnaît à ce qu’on savait ce qu’on faisait, non à ce qu’on savait pourquoi : Aristote définit l’acte consenti comme « celui dont le principe réside dans l’agent qui connaît chacune des circonstances particulières que suppose son action ».",
+          "III.1 Effectuer le déplacement nécessaire"
+        ],
+        [
+          "Ce critère porte sur les circonstances de l’acte et sur la maîtrise de son acte, non sur la connaissance de ses motifs.",
+          "III.1 Ce qu’il demande et ce qu’il ne demande pas"
+        ],
+        [
+          "Il conserve donc les deux réponses : la volonté reste opaque à ses motifs, et chacun répond de ce qui vient de lui.",
+          "III.2 La démontrer : ce qu’il conserve"
+        ],
+        [
+          "Il explique aussi leurs arrêts : la première réponse prenait l’ignorance des motifs pour l’ignorance des circonstances, la seule qui excuse, et la seconde confondait la culpabilité, qui porte sur ce qu’on savait et maîtrisait, avec l’appartenance, qui porte sur tout ce qui vient de soi.",
+          "III.2 Ce qu’il explique"
+        ],
+        [
+          "Ignorer pourquoi l'on a désiré agir n'est pas nécessairement ignorer ce que l'on faisait ou perdre le pouvoir de s'en abstenir. Ces distinctions permettent de discuter la responsabilité sans exiger une transparence totale de la volonté.",
+          "III.2 Distinguer mobile inconscient et absence de discernement"
+        ],
+        [
+          "L’idée d’inconscient ne remet donc pas en cause la responsabilité, mais une fausse idée de ce qu’elle exige : on est coupable de ce qu’on savait faire et qu’on pouvait ne pas faire, quels qu’en soient les motifs.",
+          "III.3 La réponse au sujet, avec son opérateur"
+        ],
+        [
+          "Œdipe est coupable d’avoir tué un homme dans la colère, ce qu’il savait faire et pouvait ne pas faire ; il ne l’est pas d’un parricide dont il ignorait la circonstance décisive, et le désir que Freud lui prête ne change rien à ce partage.",
+          "III.3 La réponse vérifiée sur le cas"
+        ],
+        [
+          "Reste que le discernement peut être altéré sans être aboli, et que la frontière devient alors une affaire de degré.",
+          "III.3 Le reste : ce qui demande encore à être pensé"
+        ]
+      ]
     ],
     [
-     "Remettre en cause la responsabilité, ce n’est pas seulement obliger à la repenser : c’est lui ôter son fondement, au point qu’on ne puisse plus attribuer un acte à son auteur.",
-     "Introduction · les mots du sujet"
-    ],
-    [
-     "L’Œdipe de Colone a raison de dire qu’on ne répond pas de ce qu’on ignore ; mais il n’a pas prouvé que la conscience de ses motifs soit la seule condition de l’imputation. L’Œdipe aveuglé a raison de répondre de ce qui vient de lui ; mais répondre d’un acte n’est pas encore en être coupable.",
-     "Introduction · les deux réponses, portées par la scène, et ce qu’elles ne permettent pas encore"
-    ],
-    [
-     "Si l’idée d’inconscient ruine la transparence de la volonté, mais que les désirs ignorés restent les nôtres, remet-elle en cause la responsabilité, quand on ignore encore à quoi se reconnaît un acte dont on est coupable ?",
-     "Introduction · la problématique : une seule question, qui garde « remet-elle en cause »"
-    ],
-    [
-     "Il faudra donner raison d’abord à l’Œdipe qui plaide, puis à l’Œdipe qui se punit, avant de comprendre ce que la scène montre sans le dire.",
-     "Introduction · l’annonce, portée par la scène"
+      "CONCLUSION",
+      [
+        [
+          "L’idée d’inconscient ne ruine pas la responsabilité : elle ruine l’idée que nous serions coupables par ce que nous savons de nos motifs, alors que nous le sommes par ce que nous savions faire.",
+          "Conclusion · la réponse, avec l’opérateur"
+        ],
+        [
+          "Les deux Œdipe avaient chacun raison sur un acte : celui de Colone sur le parricide, celui qui se crève les yeux sur le meurtre du carrefour.",
+          "Conclusion · retour à la scène"
+        ],
+        [
+          "Mais où passe la frontière quand le discernement n’est ni entier ni perdu ?",
+          "Conclusion · le reste en question"
+        ]
+      ]
     ]
-   ]
-  ],
-  [
-   "I. ON N’IMPUTE QUE CE QU’ON A VOULU",
-   [
-    [
-     "L’idée d’inconscient remet en cause la responsabilité, car on n’attribue un acte qu’à celui qui l’a voulu en sachant ce qu’il voulait.",
-     "I.1 Établir la première réponse"
-    ],
-    [
-     "Cette réponse sauve une exigence de justice : ne pas condamner un homme pour ce qui s’est fait en lui sans lui.",
-     "I.1 Ce qu’elle sauve"
-    ],
-    [
-     "Or l’idée d’inconscient affirme précisément que des désirs ignorés déterminent nos actes, et un acte déterminé par un désir ignoré ne procède pas d’une volonté qui sait ce qu’elle veut.",
-     "I.2 La fonder : la condition de l’imputation"
-    ],
-    [
-     "Si nos actes viennent de là, l’auteur que l’on croyait juger n’est plus tout à fait celui qui a agi, et l’imputation vacille.",
-     "I.2 L’inférence décisive"
-    ],
-    [
-     "Ce fondement établit que l’idée d’inconscient ruine une conception de la responsabilité fondée sur la transparence de la volonté à elle-même.",
-     "I.3 L’éprouver : ce qu’il établit"
-    ],
-    [
-     "Mais il fait de la conscience des motifs la condition de l’imputation, et c’est la condition d’une conception particulière : il ne montre pas que l’imputation n’en a pas d’autre.",
-     "I.3 Ce qu’il ne permet pas encore, et pourquoi"
-    ],
-    [
-     "Nous imputons chaque jour des actes à des hommes qui ignorent une part de leurs raisons, et nul ne connaît toutes les siennes.",
-     "I.3 Le cas qui le montre"
-    ],
-    [
-     "L’idée d’inconscient ne permet donc pas encore d’établir que la responsabilité soit ruinée, parce que rien ne prouve que la conscience de ses motifs en soit la seule condition.",
-     "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"
-    ],
-    [
-     "L’idée d’inconscient ruine la transparence de la volonté ; mais non la responsabilité, parce que la conscience des motifs n’en est peut-être pas la seule condition. Il faut donc examiner ce que la responsabilité exige réellement : de quoi devons-nous répondre ?",
-     "Transition · l’examen nécessaire, en question"
-    ]
-   ]
-  ],
-  [
-   "II. ON RÉPOND DE CE QUI VIENT DE SOI",
-   [
-    [
-     "Nous devons répondre de ce qui vient de nous, et les désirs inconscients viennent de nous : l’idée d’inconscient ne remet donc pas en cause la responsabilité.",
-     "II.1 La seconde réponse, qui répond à l’examen demandé"
-    ],
-    [
-     "Elle ne nie pas que la volonté soit opaque à elle-même ; elle refuse d’en conclure que nos actes ne sont pas les nôtres.",
-     "II.1 Ce qu’elle conserve"
-    ],
-    [
-     "Être responsable, c’est devoir répondre de ce qui est à soi ; or les désirs inconscients ne sont pas ceux d’un autre, ils sont la part de nous que nous ne connaissons pas.",
-     "II.2 La fonder : l’appartenance"
-    ],
-    [
-     "Freud lui-même soutenait qu’on doit se tenir pour responsable du contenu de ses rêves ; l’Œdipe qui se crève les yeux ne dit pas autre chose de ses actes.",
-     "II.2 L’inférence, vérifiée sur la scène"
-    ],
-    [
-     "Cette raison établit qu’on peut et qu’on doit répondre de ce que l’inconscient nous fait faire.",
-     "II.3 L’éprouver : ce qu’elle établit"
-    ],
-    [
-     "Mais elle fonde la responsabilité sur l’appartenance, et l’appartenance ne distingue pas répondre d’un acte et en être coupable : la culpabilité suppose un pouvoir d’agir autrement que l’appartenance ne fournit pas.",
-     "II.3 Ce qu’elle ne permet pas encore, et pourquoi : une distinction manque"
-    ],
-    [
-     "Le droit le sait, qui ne punit pas celui dont le discernement était aboli, bien que ses actes soient les siens.",
-     "II.3 Le cas qui l’éprouve"
-    ],
-    [
-     "Que nos désirs inconscients soient à nous ne permet donc pas encore d’établir que nous soyons coupables de ce qu’ils nous font faire, parce que répondre d’un acte n’est pas encore en être coupable.",
-     "II.3 Ce que la seconde réponse ne permet pas encore"
-    ],
-    [
-     "La volonté n’est pas transparente, et ce qui vient de nous reste à nous ; mais l’une des réponses impute par la volonté consciente, l’autre fait répondre de tout ce qui est à soi, et aucune ne dit où passe, parmi nos actes, la frontière de la culpabilité. Séparer les actes conscients des actes inconscients ne départage pas les deux Œdipe, puisque le meurtre du carrefour est l’un et l’autre : à quoi se reconnaît donc un acte dont on est coupable ?",
-     "Transition · pourquoi leur partage échoue, et ce qui reste à établir, en question"
-    ]
-   ]
-  ],
-  [
-   "III. CE QU’ON SAVAIT FAIRE",
-   [
-    [
-     "Un acte dont on est coupable se reconnaît à ce qu’on savait ce qu’on faisait, non à ce qu’on savait pourquoi : Aristote définit l’acte consenti comme « celui dont le principe réside dans l’agent qui connaît chacune des circonstances particulières que suppose son action ».",
-     "III.1 L’opération que la difficulté exige : un critère, emprunté et transposé"
-    ],
-    [
-     "Ce critère porte sur les circonstances de l’acte et sur la maîtrise de son acte, non sur la connaissance de ses motifs.",
-     "III.1 Ce qu’il demande et ce qu’il ne demande pas"
-    ],
-    [
-     "Il conserve donc les deux réponses : la volonté reste opaque à ses motifs, et chacun répond de ce qui vient de lui.",
-     "III.2 La démontrer : ce qu’il conserve"
-    ],
-    [
-     "Il explique aussi leurs arrêts : la première réponse prenait l’ignorance des motifs pour l’ignorance des circonstances, la seule qui excuse, et la seconde confondait la culpabilité, qui porte sur ce qu’on savait et maîtrisait, avec l’appartenance, qui porte sur tout ce qui vient de soi.",
-     "III.2 Ce qu’il explique"
-    ],
-    [
-     "Un désir inconscient change les raisons d’un acte ; il ne change ni ce que l’agent savait faire, ni le pouvoir qu’il avait de s’en abstenir.",
-     "III.2 L’inférence décisive"
-    ],
-    [
-     "L’idée d’inconscient ne remet donc pas en cause la responsabilité, mais une fausse idée de ce qu’elle exige : on est coupable de ce qu’on savait faire et qu’on pouvait ne pas faire, quels qu’en soient les motifs.",
-     "III.3 La réponse au sujet, avec son opérateur"
-    ],
-    [
-     "Œdipe est coupable d’avoir tué un homme dans la colère, ce qu’il savait faire et pouvait ne pas faire ; il ne l’est pas d’un parricide dont il ignorait la circonstance décisive, et le désir que Freud lui prête ne change rien à ce partage.",
-     "III.3 La réponse vérifiée sur le cas"
-    ],
-    [
-     "Reste que le discernement peut être altéré sans être aboli, et que la frontière devient alors une affaire de degré.",
-     "III.3 Le reste : ce que cette réponse ne règle pas"
-    ]
-   ]
-  ],
-  [
-   "CONCLUSION",
-   [
-    [
-     "L’idée d’inconscient ne ruine pas la responsabilité : elle ruine l’idée que nous serions coupables par ce que nous savons de nos motifs, alors que nous le sommes par ce que nous savions faire.",
-     "Conclusion · la réponse, avec l’opérateur"
-    ],
-    [
-     "Les deux Œdipe avaient chacun raison sur un acte : celui de Colone sur le parricide, celui qui se crève les yeux sur le meurtre du carrefour.",
-     "Conclusion · retour à la scène"
-    ],
-    [
-     "Mais où passe la frontière quand le discernement n’est ni entier ni perdu ?",
-     "Conclusion · le reste en question"
-    ]
-   ]
   ]
- ]
 }

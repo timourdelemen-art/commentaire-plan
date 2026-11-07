@@ -1,278 +1,280 @@
 {
- "id": "2026-me-paroles",
- "subject": "Avons-nous la maîtrise de nos paroles ?",
- "notion": "Le langage",
- "fiche": {
-  "operateur": "fait (« avons-nous ») : possédons-nous la maîtrise de ce que nous disons ; question descriptive.",
-  "sens": "maîtrise : (1) contrôle de ce qu’on dit au moment de le dire ; (2) contrôle du sens et des effets de ce qui est dit ; (3) pouvoir d’en répondre. paroles : énoncés effectivement prononcés, non la langue. nous : chaque locuteur.",
-  "substitutions_interdites": "maîtrise ≠ éloquence ; paroles ≠ langage en général ; ne pas maîtriser ≠ ne pas être l’auteur.",
-  "verrou": "Oui : établir une maîtrise réelle, en un sens déterminé. Non : établir qu’elle nous échappe. Glissements interdits : de « certaines paroles nous échappent » à « toutes » ; de « le sens dépend aussi d’autrui » à « il ne dépend plus de nous ».",
-  "trois_reponses": "Spontanée : oui, je choisis mes mots. Contraire : non, mes paroles sont comprises au-delà de ce que je veux. Conciliation : je maîtrise ce que je dis, non ce qu’on en comprend.",
-  "conciliation_1_8bis": "Partage émission / réception. Elle hésite sur l’aveu de Phèdre : elle n’a pas prononcé le nom, et pourtant elle a tout dit ; est-ce elle ou Œnone qui l’a dit ? elle tranche sans raison.",
-  "brouillon": {
-   "a": "Oui : une parole est un acte volontaire ; je peux me taire, choisir, reformuler.",
-   "b": "Ce pouvoir s’arrête au moment où je parle ; ensuite, la parole vit dans l’esprit d’un autre.",
-   "c": "Il faut examiner ce que devient la parole une fois dite.",
-   "d": "Son sens et ses effets dépendent d’autrui et du contexte ; mais cela ne dit pas si nous pouvons en répondre.",
-   "e": "Les deux s’affrontent sur l’aveu ; il reste à savoir en quel sens on peut être maître d’une parole qui échappe."
+  "id": "2026-me-paroles",
+  "subject": "Avons-nous la maîtrise de nos paroles ?",
+  "notion": "Le langage",
+  "fiche": {
+    "operateur": "fait (« avons-nous ») : possédons-nous la maîtrise de ce que nous disons ; question descriptive.",
+    "sens": "maîtrise : (1) contrôle de ce qu’on dit au moment de le dire ; (2) contrôle du sens et des effets de ce qui est dit ; (3) pouvoir d’en répondre. paroles : énoncés effectivement prononcés, non la langue. nous : chaque locuteur.",
+    "substitutions_interdites": "maîtrise ≠ éloquence ; paroles ≠ langage en général ; ne pas maîtriser ≠ ne pas être l’auteur.",
+    "verrou": "Oui : établir une maîtrise réelle, en un sens déterminé. Non : établir qu’elle nous échappe. Glissements interdits : de « certaines paroles nous échappent » à « toutes » ; de « le sens dépend aussi d’autrui » à « il ne dépend plus de nous ».",
+    "trois_reponses": "Spontanée : oui, je choisis mes mots. Contraire : non, mes paroles sont comprises au-delà de ce que je veux. Conciliation : je maîtrise ce que je dis, non ce qu’on en comprend.",
+    "conciliation_1_8bis": "Partage émission / réception. Elle hésite sur l’aveu de Phèdre : elle n’a pas prononcé le nom, et pourtant elle a tout dit ; est-ce elle ou Œnone qui l’a dit ? elle tranche sans raison.",
+    "brouillon": {
+      "a": "Oui : une parole est un acte volontaire ; je peux me taire, choisir, reformuler.",
+      "b": "Ce pouvoir s’arrête au moment où je parle ; ensuite, la parole vit dans l’esprit d’un autre.",
+      "c": "Il faut examiner ce que devient la parole une fois dite.",
+      "d": "Son sens et ses effets dépendent d’autrui et du contexte ; mais cela ne dit pas si nous pouvons en répondre.",
+      "e": "Les deux s’affrontent sur l’aveu ; il reste à savoir en quel sens on peut être maître d’une parole qui échappe."
+    },
+    "A": "Nous avons la maîtrise de nos paroles : parler est un acte volontaire.",
+    "FA": "Imputabilité (III.3). 1. Une parole est un acte que je peux retenir, différer ou reformuler (E : fait). 2. Ce qu’on peut retenir ou corriger avant de le faire, on le maîtrise (E : définition du contrôle). Donc j’ai la maîtrise de mes paroles.",
+    "XA": "Nous maîtrisons le choix et l’émission de nos paroles : dire ou taire, tel mot plutôt qu’un autre.",
+    "YA": "Le sens et les effets de ce qui est dit.",
+    "ZA": "FA établit la maîtrise par le pouvoir de retenir avant d’énoncer ; ce pouvoir s’arrête à l’émission.",
+    "type_LA": "portée insuffisante",
+    "LA": "Le pouvoir de choisir ses mots ne permet donc pas encore d’établir que l’on maîtrise ce qu’ils disent, parce qu’il cesse au moment où la parole est entendue.",
+    "six_LA": "Mesure : XA écrit. Filiation : prémisse 2 (contrôle avant l’acte). Meilleur cas : Phèdre, qui retient le nom, a tout dit. Absorption : FA dirait « il suffit de choisir mieux » ; aucun choix ne fixe d’avance ce que l’autre comprend. Non-lacune : oui. Calibration : oui.",
+    "T1": "Nous avons établi que nous choisissons ce que nous disons ; mais ce pouvoir ne s’étend pas à ce que nos mots disent, parce qu’il cesse au moment où ils sont entendus ; il faut donc examiner ce que devient la parole une fois dite (W).",
+    "B": "Nos paroles nous échappent : leur sens et leurs effets ne dépendent pas de nous seuls. B conserve XA.",
+    "FB": "Condition (III.3). 1. Le sens d’un énoncé dépend d’une langue commune et d’une situation que le locuteur ne fixe pas seul (E). 2. Un énoncé est compris par un autre, avec ce qu’il sait et ce qu’il attend (E). Donc le sens reçu n’est pas sous le contrôle du locuteur. Indépendance : vaut sans LA. Principe propre : le sens comme fait partagé.",
+    "XB": "Le sens et les effets de nos paroles ne dépendent pas de nous seuls.",
+    "YB": "Que nous ne soyons pas maîtres de nos paroles au sens où nous en répondons.",
+    "ZB": "FB mesure la maîtrise au contrôle du sens reçu ; or celui qui parle répond de ce que d’autres ont compris, et c’est là une autre forme de pouvoir.",
+    "type_LB": "distinction indispensable (contrôler / répondre de)",
+    "LB": "Que le sens de nos paroles nous échappe ne permet donc pas encore d’établir que nous n’en soyons pas maîtres, parce qu’on peut répondre de ce qu’on ne contrôle pas.",
+    "six_LB": "Mesure : XB écrit. Filiation : prémisse 2 (le contrôle comme mesure) ; la limite tient à la mesure choisie par FB. Meilleur cas : même la parole la plus mal comprise peut être reprise par son auteur. Absorption : FB dirait « répondre n’est pas maîtriser » ; c’est trancher par définition, sans preuve. Non-lacune : oui. Calibration : oui. Geste : distinction requise, différent de la mesure de portée en I.3.",
+    "T2": "Bilan : XA, XB. ρ : conflit sur un cas (l’aveu de Phèdre : A dit qu’elle a choisi de taire le nom ; B que tout a été compris). Preuve : les deux fondements s’appliquent au même acte et concluent en sens contraire. D : établir en quel sens on peut être maître d’une parole dont le sens échappe. Cumul : « maître de l’émission, non de la réception » échoue sur l’aveu, où le même acte est l’un et l’autre (les deux réponses se disputent le même objet). Classe : décision.",
+    "epreuves": "1. Contre-exemple : la formule juridique, dont le sens est fixé ; elle déplace le contrôle vers une institution. 2. Meilleur cas : survit. 3. Cumul : échec écrit. 4. Antériorité : la distinction entre contrôle et responsabilité est disponible, mais son application à la parole (reprendre, expliquer, tenir) demande un travail : candidat de III.",
+    "soupcon_aporie": "aucun indice ; régime ordinaire.",
+    "chemins_echoues": "Chemin aporétique de l’ancienne copie (maîtriser = ne dire que ce qu’on pensait / ne pas maîtriser = ne plus répondre) : forme P2 imposée sans module ; écarté.",
+    "dictionnaire": "non consulté.",
+    "phrase_mouvement": "A, parce que je peux retenir ou corriger ma parole, établit que j’en maîtrise l’émission ; mais non ce qu’elle dit, parce que ce pouvoir cesse quand elle est entendue ; il faut donc examiner la parole dite. B, parce que le sens est un fait partagé, établit qu’il ne dépend pas de moi seul ; mais non que je ne sois pas maître de ma parole, parce qu’on répond de ce qu’on ne contrôle pas. Or ils s’affrontent sur l’aveu ; il reste le sens de cette maîtrise.",
+    "probleme_directeur": "Avons-nous la maîtrise de nos paroles, si nous choisissons ce que nous disons sans contrôler ce que nos mots disent ?",
+    "problematique": "Si nous choisissons les mots que nous disons, mais que leur sens se fait aussi dans l’esprit des autres, avons-nous la maîtrise de nos paroles, quand une parole retenue peut tout dire et qu’on doit pourtant répondre de ce qu’on n’a pas dit ?",
+    "forme_problematique": "G3 (deux acquis en protases, interrogation sur le cas de conflit ; « avons-nous la maîtrise » conservé). Reconstruction : on part du choix des mots, on bute sur ce qu’ils disent, on examine la parole reçue, on bute sur la responsabilité ; la III doit dire en quel sens on est maître. Relecture : aucune radicalisation.",
+    "critere": "Sur l’aveu de Phèdre, une solution devra dire si elle a la maîtrise de ses paroles, conserver qu’elle choisit de taire le nom et que tout est compris, expliquer pourquoi le choix ne réglait pas le sens et pourquoi le sens échappé n’ôtait pas toute maîtrise, et dire en quel sens elle est maîtresse.",
+    "contrainte_scene": "montrer une parole choisie, retenue, et ce qu’elle dit malgré son auteur.",
+    "III": {
+      "operation": "distinction (III.7 a, ρ : conflit) : maîtriser une parole, c’est pouvoir en répondre.",
+      "III1": "Distinguer deux maîtrises : le contrôle (avant la parole) et la reprise (après) — expliquer, rectifier, tenir ce qu’on a dit.",
+      "III2": "Conserve XA (le choix) et XB (le sens partagé) ; explique LA (le contrôle cessait à l’émission, la reprise commence là) et LB (on mesurait la maîtrise au seul contrôle). La parole est un acte qui se continue dans ses reprises.",
+      "III3": "Nous n’avons pas la maîtrise du sens de nos paroles, mais nous avons celle d’en répondre, et c’est par là que nous en devenons les maîtres ; vérifié sur Phèdre. Reste : la parole qui a blessé, qu’aucune reprise ne défait.",
+      "tests": "Cas témoin : Phèdre, qui n’a pu empêcher que son aveu soit entendu, se rend maîtresse de ses paroles en reconnaissant devant Thésée la calomnie qu’elle a laissé dire ; ni A, ni B, ni leur partage ne le disaient. Second cas : la promesse, dont le sens appartient à celui qui la reçoit et que l’on tient pourtant. Restitution : oui. Rechute : le reste (ce que la parole a fait) ne redit pas LB. Test propre : la distinction vaut sur un second cas. Report : non. Acquis nouveau : prémisse nouvelle — la maîtrise d’un acte qui se continue est la capacité de le reprendre ; nécessaire à la décision."
+    },
+    "candidats_III": [
+      {
+        "id": "retenue",
+        "operation": "Distinction",
+        "proposition": "Maîtriser une parole, ce n’est pas en contrôler le sens, c’est pouvoir en répondre : l’expliquer, la rectifier, la tenir.",
+        "verdict": "retenue",
+        "raison": "Décide le cas de Phèdre, conserve les deux acquis, explique les deux arrêts."
+      },
+      {
+        "id": "frontiere",
+        "operation": "Critère de frontière",
+        "proposition": "Maîtres de l’émission, non de la réception.",
+        "verdict": "écartée",
+        "raison": "C’est le cumul, qui échoue sur l’aveu."
+      },
+      {
+        "id": "condition",
+        "operation": "Condition",
+        "proposition": "On maîtrise ses paroles quand on connaît parfaitement son auditeur.",
+        "verdict": "écartée",
+        "raison": "Condition jamais remplie ; rechute dans la seconde réponse."
+      },
+      {
+        "id": "explication",
+        "operation": "Explication commune",
+        "proposition": "L’inconscient parle dans nos paroles, ce qui explique qu’elles nous échappent.",
+        "verdict": "dominée",
+        "raison": "Explique certains lapsus, non la maîtrise ; hypothèse de secours ici."
+      }
+    ],
+    "generateur": "figure : le conflit ; registre opératoire : dialectique ; registre de lecture : dialogué ; branches B4 ; annonce N1.",
+    "scene": "Racine, Phèdre (1677), I, 3 : Phèdre refuse de prononcer le nom d’Hippolyte ; Œnone le prononce. Puis V, 7 : elle avoue à Thésée l’innocence d’Hippolyte. Verdict : homologue. Retour : l’aveu final est la maîtrise retrouvée.",
+    "statut": {
+      "problematique": "suffisamment justifiée",
+      "copie": "état de travail (architecture expérimentale)"
+    },
+    "ouvertures_de_pensee": {
+      "I": "Phèdre retient le nom qu'elle ne veut pas prononcer : choisir ses mots et décider de se taire sont bien des pouvoirs du locuteur, même s'ils ne règlent pas tout ce qui sera entendu.",
+      "II": "Œnone comprend ce que Phèdre cherchait à taire : le sens d'une parole dépend aussi de la langue partagée, de la situation et de celui qui interprète, non de la seule intention du locuteur.",
+      "III": "Ne pouvant maîtriser toute interprétation, celui qui parle peut encore expliquer, rectifier ou assumer ses paroles. Cette responsabilité n'efface pas ce qui a déjà été compris ni les conséquences irréversibles de certains mots.",
+      "statut": "Possibilités justifiées, avec leur portée exacte."
+    }
   },
-  "A": "Nous avons la maîtrise de nos paroles : parler est un acte volontaire.",
-  "FA": "Imputabilité (III.3). 1. Une parole est un acte que je peux retenir, différer ou reformuler (E : fait). 2. Ce qu’on peut retenir ou corriger avant de le faire, on le maîtrise (E : définition du contrôle). Donc j’ai la maîtrise de mes paroles.",
-  "XA": "Nous maîtrisons le choix et l’émission de nos paroles : dire ou taire, tel mot plutôt qu’un autre.",
-  "YA": "Le sens et les effets de ce qui est dit.",
-  "ZA": "FA établit la maîtrise par le pouvoir de retenir avant d’énoncer ; ce pouvoir s’arrête à l’émission.",
-  "type_LA": "portée insuffisante",
-  "LA": "Le pouvoir de choisir ses mots ne permet donc pas encore d’établir que l’on maîtrise ce qu’ils disent, parce qu’il cesse au moment où la parole est entendue.",
-  "six_LA": "Mesure : XA écrit. Filiation : prémisse 2 (contrôle avant l’acte). Meilleur cas : Phèdre, qui retient le nom, a tout dit. Absorption : FA dirait « il suffit de choisir mieux » ; aucun choix ne fixe d’avance ce que l’autre comprend. Non-lacune : oui. Calibration : oui.",
-  "T1": "Nous avons établi que nous choisissons ce que nous disons ; mais ce pouvoir ne s’étend pas à ce que nos mots disent, parce qu’il cesse au moment où ils sont entendus ; il faut donc examiner ce que devient la parole une fois dite (W).",
-  "B": "Nos paroles nous échappent : leur sens et leurs effets ne dépendent pas de nous seuls. B conserve XA.",
-  "FB": "Condition (III.3). 1. Le sens d’un énoncé dépend d’une langue commune et d’une situation que le locuteur ne fixe pas seul (E). 2. Un énoncé est compris par un autre, avec ce qu’il sait et ce qu’il attend (E). Donc le sens reçu n’est pas sous le contrôle du locuteur. Indépendance : vaut sans LA. Principe propre : le sens comme fait partagé.",
-  "XB": "Le sens et les effets de nos paroles ne dépendent pas de nous seuls.",
-  "YB": "Que nous ne soyons pas maîtres de nos paroles au sens où nous en répondons.",
-  "ZB": "FB mesure la maîtrise au contrôle du sens reçu ; or celui qui parle répond de ce que d’autres ont compris, et c’est là une autre forme de pouvoir.",
-  "type_LB": "distinction indispensable (contrôler / répondre de)",
-  "LB": "Que le sens de nos paroles nous échappe ne permet donc pas encore d’établir que nous n’en soyons pas maîtres, parce qu’on peut répondre de ce qu’on ne contrôle pas.",
-  "six_LB": "Mesure : XB écrit. Filiation : prémisse 2 (le contrôle comme mesure) ; la limite tient à la mesure choisie par FB. Meilleur cas : même la parole la plus mal comprise peut être reprise par son auteur. Absorption : FB dirait « répondre n’est pas maîtriser » ; c’est trancher par définition, sans preuve. Non-lacune : oui. Calibration : oui. Geste : distinction requise, différent de la mesure de portée en I.3.",
-  "T2": "Bilan : XA, XB. ρ : conflit sur un cas (l’aveu de Phèdre : A dit qu’elle a choisi de taire le nom ; B que tout a été compris). Preuve : les deux fondements s’appliquent au même acte et concluent en sens contraire. D : établir en quel sens on peut être maître d’une parole dont le sens échappe. Cumul : « maître de l’émission, non de la réception » échoue sur l’aveu, où le même acte est l’un et l’autre (les deux réponses se disputent le même objet). Classe : décision.",
-  "epreuves": "1. Contre-exemple : la formule juridique, dont le sens est fixé ; elle déplace le contrôle vers une institution. 2. Meilleur cas : survit. 3. Cumul : échec écrit. 4. Antériorité : la distinction entre contrôle et responsabilité est disponible, mais son application à la parole (reprendre, expliquer, tenir) demande un travail : candidat de III.",
-  "soupcon_aporie": "aucun indice ; régime ordinaire.",
-  "chemins_echoues": "Chemin aporétique de l’ancienne copie (maîtriser = ne dire que ce qu’on pensait / ne pas maîtriser = ne plus répondre) : forme P2 imposée sans module ; écarté.",
-  "dictionnaire": "non consulté.",
-  "phrase_mouvement": "A, parce que je peux retenir ou corriger ma parole, établit que j’en maîtrise l’émission ; mais non ce qu’elle dit, parce que ce pouvoir cesse quand elle est entendue ; il faut donc examiner la parole dite. B, parce que le sens est un fait partagé, établit qu’il ne dépend pas de moi seul ; mais non que je ne sois pas maître de ma parole, parce qu’on répond de ce qu’on ne contrôle pas. Or ils s’affrontent sur l’aveu ; il reste le sens de cette maîtrise.",
-  "probleme_directeur": "Avons-nous la maîtrise de nos paroles, si nous choisissons ce que nous disons sans contrôler ce que nos mots disent ?",
-  "problematique": "Si nous choisissons les mots que nous disons, mais que leur sens se fait aussi dans l’esprit des autres, avons-nous la maîtrise de nos paroles, quand une parole retenue peut tout dire et qu’on doit pourtant répondre de ce qu’on n’a pas dit ?",
-  "forme_problematique": "G3 (deux acquis en protases, interrogation sur le cas de conflit ; « avons-nous la maîtrise » conservé). Reconstruction : on part du choix des mots, on bute sur ce qu’ils disent, on examine la parole reçue, on bute sur la responsabilité ; la III doit dire en quel sens on est maître. Relecture : aucune radicalisation.",
-  "critere": "Sur l’aveu de Phèdre, une solution devra dire si elle a la maîtrise de ses paroles, conserver qu’elle choisit de taire le nom et que tout est compris, expliquer pourquoi le choix ne réglait pas le sens et pourquoi le sens échappé n’ôtait pas toute maîtrise, et dire en quel sens elle est maîtresse.",
-  "contrainte_scene": "montrer une parole choisie, retenue, et ce qu’elle dit malgré son auteur.",
-  "III": {
-   "operation": "distinction (III.7 a, ρ : conflit) : maîtriser une parole, c’est pouvoir en répondre.",
-   "III1": "Distinguer deux maîtrises : le contrôle (avant la parole) et la reprise (après) — expliquer, rectifier, tenir ce qu’on a dit.",
-   "III2": "Conserve XA (le choix) et XB (le sens partagé) ; explique LA (le contrôle cessait à l’émission, la reprise commence là) et LB (on mesurait la maîtrise au seul contrôle). La parole est un acte qui se continue dans ses reprises.",
-   "III3": "Nous n’avons pas la maîtrise du sens de nos paroles, mais nous avons celle d’en répondre, et c’est par là que nous en devenons les maîtres ; vérifié sur Phèdre. Reste : la parole qui a blessé, qu’aucune reprise ne défait.",
-   "tests": "Cas témoin : Phèdre, qui n’a pu empêcher que son aveu soit entendu, se rend maîtresse de ses paroles en reconnaissant devant Thésée la calomnie qu’elle a laissé dire ; ni A, ni B, ni leur partage ne le disaient. Second cas : la promesse, dont le sens appartient à celui qui la reçoit et que l’on tient pourtant. Restitution : oui. Rechute : le reste (ce que la parole a fait) ne redit pas LB. Test propre : la distinction vaut sur un second cas. Report : non. Acquis nouveau : prémisse nouvelle — la maîtrise d’un acte qui se continue est la capacité de le reprendre ; nécessaire à la décision."
-  },
-  "candidats_III": [
-   {
-    "id": "retenue",
-    "operation": "Distinction",
-    "proposition": "Maîtriser une parole, ce n’est pas en contrôler le sens, c’est pouvoir en répondre : l’expliquer, la rectifier, la tenir.",
-    "verdict": "retenue",
-    "raison": "Décide le cas de Phèdre, conserve les deux acquis, explique les deux arrêts."
-   },
-   {
-    "id": "frontiere",
-    "operation": "Critère de frontière",
-    "proposition": "Maîtres de l’émission, non de la réception.",
-    "verdict": "écartée",
-    "raison": "C’est le cumul, qui échoue sur l’aveu."
-   },
-   {
-    "id": "condition",
-    "operation": "Condition",
-    "proposition": "On maîtrise ses paroles quand on connaît parfaitement son auditeur.",
-    "verdict": "écartée",
-    "raison": "Condition jamais remplie ; rechute dans la seconde réponse."
-   },
-   {
-    "id": "explication",
-    "operation": "Explication commune",
-    "proposition": "L’inconscient parle dans nos paroles, ce qui explique qu’elles nous échappent.",
-    "verdict": "dominée",
-    "raison": "Explique certains lapsus, non la maîtrise ; hypothèse de secours ici."
-   }
+  "citations": [
+    {
+      "texte": "C’est toi qui l’as nommé !",
+      "auteur": "Racine",
+      "oeuvre": "Phèdre",
+      "lieu": "acte I, scène 3",
+      "edition": "texte de 1677, domaine public ; vérifié sur lalanguefrancaise.com, « Racine, Phèdre, acte 1, scène 3 », consulté le 4 novembre 2026 (certaines éditions ponctuent d’un point)",
+      "verification": "source en ligne identifiée, vers retrouvé mot pour mot",
+      "regime": "citation exacte",
+      "fonction": "Introduction : faire voir la parole retenue qui a pourtant tout dit."
+    }
   ],
-  "generateur": "figure : le conflit ; registre opératoire : dialectique ; registre de lecture : dialogué ; branches B4 ; annonce N1.",
-  "scene": "Racine, Phèdre (1677), I, 3 : Phèdre refuse de prononcer le nom d’Hippolyte ; Œnone le prononce. Puis V, 7 : elle avoue à Thésée l’innocence d’Hippolyte. Verdict : homologue. Retour : l’aveu final est la maîtrise retrouvée.",
-  "statut": {
-   "problematique": "suffisamment justifiée",
-   "copie": "état de travail (architecture expérimentale)"
-  }
- },
- "citations": [
-  {
-   "texte": "C’est toi qui l’as nommé !",
-   "auteur": "Racine",
-   "oeuvre": "Phèdre",
-   "lieu": "acte I, scène 3",
-   "edition": "texte de 1677, domaine public ; vérifié sur lalanguefrancaise.com, « Racine, Phèdre, acte 1, scène 3 », consulté le 4 novembre 2026 (certaines éditions ponctuent d’un point)",
-   "verification": "source en ligne identifiée, vers retrouvé mot pour mot",
-   "regime": "citation exacte",
-   "fonction": "Introduction : faire voir la parole retenue qui a pourtant tout dit."
-  }
- ],
- "copy": [
-  [
-   "INTRODUCTION",
-   [
+  "copy": [
     [
-     "Dans la Phèdre de Racine, l’héroïne se laisse arracher son secret par sa nourrice, mais refuse jusqu’au bout de prononcer le nom de celui qu’elle aime.",
-     "Introduction · la scène"
+      "INTRODUCTION",
+      [
+        [
+          "Dans la Phèdre de Racine, l’héroïne se laisse arracher son secret par sa nourrice, mais refuse jusqu’au bout de prononcer le nom de celui qu’elle aime.",
+          "Introduction · la scène"
+        ],
+        [
+          "Quand Œnone s’écrie enfin « Hippolyte ? », Phèdre répond : « C’est toi qui l’as nommé ! »",
+          "Introduction · la scène : la parole retenue"
+        ],
+        [
+          "Elle a choisi chacun de ses mots, et retenu le seul qui l’aurait trahie ; pourtant tout est dit, et ce qu’elle a dit ne lui appartient déjà plus.",
+          "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"
+        ],
+        [
+          "Avoir la maîtrise de ses paroles, ce n’est pas seulement bien parler : c’est avoir pouvoir sur ce qu’on dit, et la question est de savoir jusqu’où ce pouvoir s’étend.",
+          "Introduction · les mots du sujet"
+        ],
+        [
+          "Nous choisissons nos mots, mais nous ne maîtrisons pas toujours ce que les autres y entendent. Cette puissance limitée n'efface pourtant pas notre responsabilité envers ce que nos paroles font comprendre.",
+          "Introduction · les deux réponses, portées par la scène, et ce qu’elles ne permettent pas encore"
+        ],
+        [
+          "Si nous choisissons les mots que nous disons, mais que leur sens se fait aussi dans l’esprit des autres, avons-nous la maîtrise de nos paroles, quand une parole retenue peut tout dire et qu’on doit pourtant répondre de ce qu’on n’a pas dit ?",
+          "Introduction · la problématique : une seule question, qui garde « avons-nous la maîtrise »"
+        ],
+        [
+          "Nous examinerons notre choix des mots, leur sens partagé avec autrui, puis ce qui permet encore de répondre de nos paroles.",
+          "Introduction · l’annonce"
+        ]
+      ]
     ],
     [
-     "Quand Œnone s’écrie enfin « Hippolyte ? », Phèdre répond : « C’est toi qui l’as nommé ! »",
-     "Introduction · la scène : la parole retenue"
+      "I. NOUS CHOISISSONS NOS MOTS",
+      [
+        [
+          "Nous avons la maîtrise de nos paroles, car parler est un acte que nous pouvons retenir, différer ou reformuler.",
+          "I.1 Ouvrir une première manière de penser"
+        ],
+        [
+          "Cette réponse sauve ce que nous faisons chaque jour : peser un mot, en préférer un autre, nous taire à temps.",
+          "I.1 Ce qu’elle sauve"
+        ],
+        [
+          "Maîtriser un acte, c’est pouvoir le retenir ou le corriger avant qu’il soit fait ; or c’est exactement ce que nous faisons de nos phrases avant de les prononcer.",
+          "I.2 La fonder : l’acte de parole nous est imputable"
+        ],
+        [
+          "Phèdre retient le nom qu'elle ne veut pas prononcer : choisir ses mots et décider de se taire sont bien des pouvoirs du locuteur, même s'ils ne règlent pas tout ce qui sera entendu.",
+          "I.2 Établir le pouvoir de retenir ses paroles"
+        ],
+        [
+          "Ce fondement établit que nous maîtrisons le choix et l’émission de nos paroles : dire ou taire, tel mot plutôt qu’un autre.",
+          "I.3 L’éprouver : ce qu’il établit"
+        ],
+        [
+          "Mais il fonde la maîtrise sur le pouvoir de retenir avant de dire, et ce pouvoir cesse au moment où la parole est prononcée : ce qu’elle dit ensuite se fait dans l’esprit de celui qui l’entend.",
+          "I.3 Ce qu’il ne permet pas encore, et pourquoi"
+        ],
+        [
+          "Phèdre n’a pas dit le nom ; Œnone l’a entendu.",
+          "I.3 Sur la scène"
+        ],
+        [
+          "Le pouvoir de choisir ses mots ne permet donc pas encore d’établir que l’on maîtrise ce qu’ils disent, parce qu’il cesse au moment où la parole est entendue.",
+          "I.3 La portée et le manque du premier fondement"
+        ],
+        [
+          "Nous choisissons nos mots ; leur sens dépend pourtant aussi de ceux qui les entendent. Que devient alors notre maîtrise une fois les paroles prononcées ?",
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
+        ]
+      ]
     ],
     [
-     "Elle a choisi chacun de ses mots, et retenu le seul qui l’aurait trahie ; pourtant tout est dit, et ce qu’elle a dit ne lui appartient déjà plus.",
-     "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"
+      "II. NOS PAROLES SONT ENTENDUES",
+      [
+        [
+          "Ce que dit une parole appartient aussi à ceux qui l’entendent, et en ce sens nos paroles nous échappent.",
+          "II.1 Ouvrir une autre manière de penser"
+        ],
+        [
+          "Elle ne nie pas que nous choisissions nos mots ; elle montre que le choix ne fixe pas le sens.",
+          "II.1 Ce qu’elle conserve"
+        ],
+        [
+          "Le sens d’une phrase dépend d’une langue commune et d’une situation que le locuteur ne fixe pas seul, et il est compris par un autre avec ce qu’il sait et ce qu’il attend.",
+          "II.2 La fonder : le sens est un fait partagé"
+        ],
+        [
+          "Œnone comprend ce que Phèdre cherchait à taire : le sens d'une parole dépend aussi de la langue partagée, de la situation et de celui qui interprète, non de la seule intention du locuteur.",
+          "II.2 Montrer la part de l'interprète dans le sens"
+        ],
+        [
+          "Cette raison établit que le sens et les effets de nos paroles ne dépendent pas de nous seuls.",
+          "II.3 L’éprouver : ce qu’elle établit"
+        ],
+        [
+          "Mais elle mesure la maîtrise au contrôle du sens, et ce n’est pas la seule mesure : celui qui a parlé répond de ce que d’autres ont compris, au point qu’on lui demande de s’expliquer, de rectifier, de tenir parole.",
+          "II.3 Ce qu’elle ne permet pas encore, et pourquoi : une distinction manque"
+        ],
+        [
+          "Si nos paroles nous échappaient entièrement, nul ne serait tenu par une promesse ni comptable d’une calomnie.",
+          "II.3 L’inférence"
+        ],
+        [
+          "Que le sens de nos paroles nous échappe ne permet donc pas encore d’établir que nous n’en soyons pas maîtres, parce qu’on peut répondre de ce qu’on ne contrôle pas.",
+          "II.3 La portée et le manque du second fondement"
+        ],
+        [
+          "Nous choisissons ce que nous disons, mais non tout ce qui est compris. Comment rester responsables d’une parole dont le sens nous échappe en partie ?",
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
+        ]
+      ]
     ],
     [
-     "On attend de celui qui parle qu’il choisisse ce qu’il dit, mais aussi qu’il réponde de ce que ses paroles ont dit et fait.",
-     "Introduction · l’enjeu"
+      "III. RÉPONDRE DE CE QU’ON DIT",
+      [
+        [
+          "On peut être maître d’une parole dont le sens échappe si l’on distingue deux maîtrises : contrôler une parole avant de la dire, et la reprendre après l’avoir dite, pour l’expliquer, la rectifier ou la tenir.",
+          "III.1 Effectuer le déplacement nécessaire"
+        ],
+        [
+          "La première porte sur l’émission, la seconde sur ce que la parole est devenue.",
+          "III.1 Ce que la distinction sépare"
+        ],
+        [
+          "Une parole n’est pas un acte qui s’achève quand on se tait : elle se continue dans ce que l’on en fait ensuite, et c’est là que s’exerce la seconde maîtrise.",
+          "III.2 La démontrer : la prémisse nouvelle"
+        ],
+        [
+          "Cette distinction conserve les deux réponses : nous choisissons nos mots, et leur sens se fait aussi chez les autres.",
+          "III.2 Ce qu’elle conserve"
+        ],
+        [
+          "Ne pouvant maîtriser toute interprétation, celui qui parle peut encore expliquer, rectifier ou assumer ses paroles. Cette responsabilité n'efface pas ce qui a déjà été compris ni les conséquences irréversibles de certains mots.",
+          "III.2 Définir la responsabilité après la parole prononcée"
+        ],
+        [
+          "Nous n’avons donc pas la maîtrise du sens de nos paroles, mais nous avons celle d’en répondre, et c’est par là que nous en devenons les maîtres.",
+          "III.3 La réponse au sujet, avec son opérateur"
+        ],
+        [
+          "Phèdre n’a pu empêcher que son aveu soit entendu, ni que la calomnie lancée par Œnone se répande ; elle se rend pourtant maîtresse de ses paroles à la fin, lorsqu’elle avoue à Thésée l’innocence d’Hippolyte.",
+          "III.3 La réponse vérifiée sur le cas"
+        ],
+        [
+          "Reste la parole qui a déjà blessé ou tué, et qu’aucune reprise ne peut défaire.",
+          "III.3 Le reste : ce qui demande encore à être pensé"
+        ]
+      ]
     ],
     [
-     "Avoir la maîtrise de ses paroles, ce n’est pas seulement bien parler : c’est avoir pouvoir sur ce qu’on dit, et la question est de savoir jusqu’où ce pouvoir s’étend.",
-     "Introduction · les mots du sujet"
-    ],
-    [
-     "Phèdre a raison de croire qu’on peut retenir un mot ; mais retenir un mot n’empêche pas d’être entendue. Œnone a raison de lui renvoyer ce qu’elle a dit ; mais si ce sens lui échappe, on ne voit plus comment Phèdre pourrait en répondre.",
-     "Introduction · les deux réponses, portées par la scène, et ce qu’elles ne permettent pas encore"
-    ],
-    [
-     "Si nous choisissons les mots que nous disons, mais que leur sens se fait aussi dans l’esprit des autres, avons-nous la maîtrise de nos paroles, quand une parole retenue peut tout dire et qu’on doit pourtant répondre de ce qu’on n’a pas dit ?",
-     "Introduction · la problématique : une seule question, qui garde « avons-nous la maîtrise »"
-    ],
-    [
-     "On examinera d’abord pourquoi le choix des mots paraît nous donner cette maîtrise, et jusqu’où cette raison porte ; ce qu’elle laisse en suspens obligera à examiner ce que devient la parole une fois dite ; il faudra alors établir ce que ces deux voies, ensemble, laissent encore ouvert.",
-     "Introduction · l’annonce"
+      "CONCLUSION",
+      [
+        [
+          "Nous n’avons pas la maîtrise de ce que nos paroles disent, mais nous avons celle d’en répondre : la maîtrise d’une parole ne précède pas son sens, elle le reprend.",
+          "Conclusion · la réponse, avec l’opérateur"
+        ],
+        [
+          "Phèdre perd sa parole en se taisant ; elle la retrouve en avouant.",
+          "Conclusion · retour à la scène"
+        ],
+        [
+          "Mais que vaut cette maîtrise quand l’aveu vient trop tard pour sauver celui que la parole a perdu ?",
+          "Conclusion · le reste en question"
+        ]
+      ]
     ]
-   ]
-  ],
-  [
-   "I. NOUS CHOISISSONS NOS MOTS",
-   [
-    [
-     "Nous avons la maîtrise de nos paroles, car parler est un acte que nous pouvons retenir, différer ou reformuler.",
-     "I.1 Établir la première réponse"
-    ],
-    [
-     "Cette réponse sauve ce que nous faisons chaque jour : peser un mot, en préférer un autre, nous taire à temps.",
-     "I.1 Ce qu’elle sauve"
-    ],
-    [
-     "Maîtriser un acte, c’est pouvoir le retenir ou le corriger avant qu’il soit fait ; or c’est exactement ce que nous faisons de nos phrases avant de les prononcer.",
-     "I.2 La fonder : l’acte de parole nous est imputable"
-    ],
-    [
-     "Phèdre elle-même le prouve : pendant toute la scène, elle tient en réserve le seul mot qui la perdrait.",
-     "I.2 L’inférence vérifiée sur la scène"
-    ],
-    [
-     "Ce fondement établit que nous maîtrisons le choix et l’émission de nos paroles : dire ou taire, tel mot plutôt qu’un autre.",
-     "I.3 L’éprouver : ce qu’il établit"
-    ],
-    [
-     "Mais il fonde la maîtrise sur le pouvoir de retenir avant de dire, et ce pouvoir cesse au moment où la parole est prononcée : ce qu’elle dit ensuite se fait dans l’esprit de celui qui l’entend.",
-     "I.3 Ce qu’il ne permet pas encore, et pourquoi"
-    ],
-    [
-     "Phèdre n’a pas dit le nom ; Œnone l’a entendu.",
-     "I.3 Sur la scène"
-    ],
-    [
-     "Le pouvoir de choisir ses mots ne permet donc pas encore d’établir que l’on maîtrise ce qu’ils disent, parce qu’il cesse au moment où la parole est entendue.",
-     "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"
-    ],
-    [
-     "Nous choisissons ce que nous disons ; mais ce pouvoir ne s’étend pas à ce que nos mots disent, parce qu’il cesse au moment où ils sont entendus. Il faut donc examiner la parole une fois dite : à qui appartient ce qu’elle dit ?",
-     "Transition · l’examen nécessaire, en question"
-    ]
-   ]
-  ],
-  [
-   "II. NOS PAROLES SONT ENTENDUES",
-   [
-    [
-     "Ce que dit une parole appartient aussi à ceux qui l’entendent, et en ce sens nos paroles nous échappent.",
-     "II.1 La seconde réponse, qui répond à l’examen demandé"
-    ],
-    [
-     "Elle ne nie pas que nous choisissions nos mots ; elle montre que le choix ne fixe pas le sens.",
-     "II.1 Ce qu’elle conserve"
-    ],
-    [
-     "Le sens d’une phrase dépend d’une langue commune et d’une situation que le locuteur ne fixe pas seul, et il est compris par un autre avec ce qu’il sait et ce qu’il attend.",
-     "II.2 La fonder : le sens est un fait partagé"
-    ],
-    [
-     "Le sens reçu n’est donc pas sous le contrôle de celui qui parle : Œnone comprend Phèdre mieux que Phèdre ne voulait se faire comprendre.",
-     "II.2 L’inférence décisive, sur la scène"
-    ],
-    [
-     "Cette raison établit que le sens et les effets de nos paroles ne dépendent pas de nous seuls.",
-     "II.3 L’éprouver : ce qu’elle établit"
-    ],
-    [
-     "Mais elle mesure la maîtrise au contrôle du sens, et ce n’est pas la seule mesure : celui qui a parlé répond de ce que d’autres ont compris, au point qu’on lui demande de s’expliquer, de rectifier, de tenir parole.",
-     "II.3 Ce qu’elle ne permet pas encore, et pourquoi : une distinction manque"
-    ],
-    [
-     "Si nos paroles nous échappaient entièrement, nul ne serait tenu par une promesse ni comptable d’une calomnie.",
-     "II.3 L’inférence"
-    ],
-    [
-     "Que le sens de nos paroles nous échappe ne permet donc pas encore d’établir que nous n’en soyons pas maîtres, parce qu’on peut répondre de ce qu’on ne contrôle pas.",
-     "II.3 Ce que la seconde réponse ne permet pas encore"
-    ],
-    [
-     "Nous choisissons nos mots, et leur sens se fait aussi chez les autres ; mais les deux réponses s’affrontent sur le même acte : pour l’une, Phèdre a gardé la maîtrise en taisant le nom ; pour l’autre, elle l’a perdue puisque tout est compris. Dire qu’elle est maîtresse de ce qu’elle dit et non de ce qu’on comprend ne tranche rien, puisque c’est le même aveu : en quel sens peut-on donc être maître d’une parole dont le sens échappe ?",
-     "Transition · pourquoi leur partage échoue, et ce qui reste à établir, en question"
-    ]
-   ]
-  ],
-  [
-   "III. RÉPONDRE DE CE QU’ON DIT",
-   [
-    [
-     "On peut être maître d’une parole dont le sens échappe si l’on distingue deux maîtrises : contrôler une parole avant de la dire, et la reprendre après l’avoir dite, pour l’expliquer, la rectifier ou la tenir.",
-     "III.1 L’opération que la difficulté exige : une distinction"
-    ],
-    [
-     "La première porte sur l’émission, la seconde sur ce que la parole est devenue.",
-     "III.1 Ce que la distinction sépare"
-    ],
-    [
-     "Une parole n’est pas un acte qui s’achève quand on se tait : elle se continue dans ce que l’on en fait ensuite, et c’est là que s’exerce la seconde maîtrise.",
-     "III.2 La démontrer : la prémisse nouvelle"
-    ],
-    [
-     "Cette distinction conserve les deux réponses : nous choisissons nos mots, et leur sens se fait aussi chez les autres.",
-     "III.2 Ce qu’elle conserve"
-    ],
-    [
-     "Elle explique aussi leurs arrêts : le choix des mots ne réglait pas le sens parce qu’il cesse à l’émission, là où commence la reprise ; et le sens échappé n’ôtait pas toute maîtrise parce qu’on mesurait la maîtrise au seul contrôle.",
-     "III.2 Ce qu’elle explique"
-    ],
-    [
-     "Nous n’avons donc pas la maîtrise du sens de nos paroles, mais nous avons celle d’en répondre, et c’est par là que nous en devenons les maîtres.",
-     "III.3 La réponse au sujet, avec son opérateur"
-    ],
-    [
-     "Phèdre n’a pu empêcher que son aveu soit entendu, ni que la calomnie lancée par Œnone se répande ; elle se rend pourtant maîtresse de ses paroles à la fin, lorsqu’elle avoue à Thésée l’innocence d’Hippolyte.",
-     "III.3 La réponse vérifiée sur le cas"
-    ],
-    [
-     "Reste la parole qui a déjà blessé ou tué, et qu’aucune reprise ne peut défaire.",
-     "III.3 Le reste : ce que cette réponse ne règle pas"
-    ]
-   ]
-  ],
-  [
-   "CONCLUSION",
-   [
-    [
-     "Nous n’avons pas la maîtrise de ce que nos paroles disent, mais nous avons celle d’en répondre : la maîtrise d’une parole ne précède pas son sens, elle le reprend.",
-     "Conclusion · la réponse, avec l’opérateur"
-    ],
-    [
-     "Phèdre perd sa parole en se taisant ; elle la retrouve en avouant.",
-     "Conclusion · retour à la scène"
-    ],
-    [
-     "Mais que vaut cette maîtrise quand l’aveu vient trop tard pour sauver celui que la parole a perdu ?",
-     "Conclusion · le reste en question"
-    ]
-   ]
   ]
- ]
 }

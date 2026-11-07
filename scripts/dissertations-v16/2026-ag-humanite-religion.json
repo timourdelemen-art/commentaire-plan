@@ -1,274 +1,276 @@
 {
- "id": "2026-ag-humanite-religion",
- "subject": "Peut-on concevoir une humanité sans religion ?",
- "notion": "La religion",
- "fiche": {
-  "operateur": "possibilité de penser (« peut-on concevoir ») : une humanité sans religion est-elle pensable, non seulement sans contradiction, mais comme une humanité réelle ; question descriptive.",
-  "sens": "concevoir : (1) penser sans contradiction ; (2) se représenter comme réellement possible. humanité : (1) l’ensemble des sociétés humaines ; (2) ce qui fait l’humain. religion : (1) croyance en des puissances surnaturelles, avec ses rites ; (2) ce qu’elle accomplit : un rapport commun au sacré, aux morts, à l’inviolable.",
-  "substitutions_interdites": "concevoir ≠ souhaiter ; religion ≠ Église ; sans religion ≠ sans morale.",
-  "verrou": "Oui : établir que cette humanité est pensable comme réelle. Non : établir qu’on ne peut la penser sans contradiction ou sans perdre l’humain. Glissements interdits : de « toutes les sociétés connues ont eu une religion » à « aucune ne peut s’en passer » ; de l’individu athée à l’humanité.",
-  "trois_reponses": "Spontanée : oui, des hommes vivent sans religion. Contraire : non, toutes les sociétés en ont une. Conciliation : sans religion révélée, mais non sans spiritualité.",
-  "conciliation_1_8bis": "Partage religion instituée / spiritualité. Elle hésite sur le mausolée de Lénine : un État athée y organise un culte sans aucune spiritualité déclarée ; elle ne sait où le ranger.",
-  "brouillon": {
-   "a": "Oui : la religion n’entre pas dans la définition de l’homme ; des individus et des sociétés vivent sans elle.",
-   "b": "Cela prouve qu’on peut la penser sans contradiction, non qu’elle soit réellement possible : la définition n’explique pas pourquoi toutes les sociétés connues ont eu une religion.",
-   "c": "Il faut examiner d’où vient la religion, pour savoir si ses causes sont permanentes.",
-   "d": "Elle naît de besoins constants (la mort, l’ignorance des causes) ; mais une cause explique une tendance, non qu’aucune autre réponse ne puisse satisfaire ces besoins.",
-   "e": "Aucune des deux ne dit ce qui, dans la religion, serait irremplaçable ; il reste à le distinguer."
+  "id": "2026-ag-humanite-religion",
+  "subject": "Peut-on concevoir une humanité sans religion ?",
+  "notion": "La religion",
+  "fiche": {
+    "operateur": "possibilité de penser (« peut-on concevoir ») : une humanité sans religion est-elle pensable, non seulement sans contradiction, mais comme une humanité réelle ; question descriptive.",
+    "sens": "concevoir : (1) penser sans contradiction ; (2) se représenter comme réellement possible. humanité : (1) l’ensemble des sociétés humaines ; (2) ce qui fait l’humain. religion : (1) croyance en des puissances surnaturelles, avec ses rites ; (2) ce qu’elle accomplit : un rapport commun au sacré, aux morts, à l’inviolable.",
+    "substitutions_interdites": "concevoir ≠ souhaiter ; religion ≠ Église ; sans religion ≠ sans morale.",
+    "verrou": "Oui : établir que cette humanité est pensable comme réelle. Non : établir qu’on ne peut la penser sans contradiction ou sans perdre l’humain. Glissements interdits : de « toutes les sociétés connues ont eu une religion » à « aucune ne peut s’en passer » ; de l’individu athée à l’humanité.",
+    "trois_reponses": "Spontanée : oui, des hommes vivent sans religion. Contraire : non, toutes les sociétés en ont une. Conciliation : sans religion révélée, mais non sans spiritualité.",
+    "conciliation_1_8bis": "Partage religion instituée / spiritualité. Elle hésite sur le mausolée de Lénine : un État athée y organise un culte sans aucune spiritualité déclarée ; elle ne sait où le ranger.",
+    "brouillon": {
+      "a": "Oui : la religion n’entre pas dans la définition de l’homme ; des individus et des sociétés vivent sans elle.",
+      "b": "Cela prouve qu’on peut la penser sans contradiction, non qu’elle soit réellement possible : la définition n’explique pas pourquoi toutes les sociétés connues ont eu une religion.",
+      "c": "Il faut examiner d’où vient la religion, pour savoir si ses causes sont permanentes.",
+      "d": "Elle naît de besoins constants (la mort, l’ignorance des causes) ; mais une cause explique une tendance, non qu’aucune autre réponse ne puisse satisfaire ces besoins.",
+      "e": "Aucune des deux ne dit ce qui, dans la religion, serait irremplaçable ; il reste à le distinguer."
+    },
+    "A": "On peut concevoir une humanité sans religion : la religion n’entre pas dans ce qui fait l’homme.",
+    "FA": "Définition (III.3). 1. Concevoir une chose, c’est la penser sans contradiction à partir de ce qui la définit (E). 2. Ce qui fait l’homme (vivre en commun, raisonner, travailler) ne contient pas la croyance en des dieux (E : des individus peuvent vivre sans croyance religieuse). Donc une humanité sans religion se conçoit.",
+    "XA": "Une humanité sans croyance religieuse se pense sans contradiction, et des hommes réels vivent ainsi.",
+    "YA": "Ce qui fait que toutes les sociétés connues ont eu une religion, et donc si cette humanité est réellement possible.",
+    "ZA": "FA procède par définition : elle dit ce qui n’est pas contradictoire, non ce qui produit partout la religion.",
+    "type_LA": "insuffisance explicative",
+    "LA": "La définition de l’homme ne permet donc pas encore d’expliquer pourquoi la religion réapparaît dans des contextes historiques très différents, ni donc de dire si une humanité sans elle est réellement possible.",
+    "six_LA": "Mesure : XA écrit. Filiation : prémisse 1 (concevoir = non-contradiction). Meilleur cas : même l’athéisme d’un individu n’explique pas l’universalité des cultes. Absorption : FA dirait « l’universalité est un accident historique » ; c’est une hypothèse de secours. Non-lacune : oui. Calibration : oui.",
+    "T1": "Nous avons établi qu’une humanité sans religion se pense sans contradiction ; mais cela n’explique pas pourquoi aucune société connue ne s’en est passée, parce qu’une définition ne dit pas ce qui produit les choses ; il faut donc examiner d’où vient la religion (W : cause ou genèse, III.5).",
+    "B": "On ne peut concevoir comme réelle une humanité sans religion : la religion naît de conditions permanentes de la vie humaine. B conserve XA.",
+    "FB": "Genèse (III.3). 1. La religion naît de conditions de la vie humaine : la mort, l’ignorance des causes, la crainte et l’espoir (E : genèse attestée chez Spinoza, Éthique I, appendice). 2. Ces conditions sont permanentes (E). 3. Ce qui naît de conditions permanentes tend à renaître tant qu’elles demeurent (E). Indépendance : vaut sans LA. Principe propre : la causalité des conditions humaines.",
+    "XB": "Tant que demeurent la mort, l’ignorance et la crainte, la religion tend à renaître.",
+    "YB": "Que ces conditions rendent la religion nécessaire.",
+    "ZB": "FB explique la religion comme réponse à des besoins ; une cause explique pourquoi une réponse naît, non qu’aucune autre réponse ne puisse satisfaire les mêmes besoins.",
+    "type_LB": "portée insuffisante (une tendance, non une nécessité)",
+    "LB": "La genèse de la religion ne permet donc pas encore d’établir qu’on ne puisse concevoir une humanité sans elle, parce qu’elle explique une réponse à des besoins sans montrer qu’aucune autre ne pourrait y répondre.",
+    "six_LB": "Mesure : XB écrit. Filiation : prémisse 3 (tendance). Meilleur cas : l’explication par l’ignorance contient son propre remède, la connaissance des causes. Absorption : FB dirait « les autres réponses sont des religions déguisées » ; c’est changer le sens du mot (glissement entre sens 1 et 2). Non-lacune : oui. Calibration : oui. Geste : mesure de portée, différent de I.3.",
+    "T2": "Bilan : XA, XB. ρ : insuffisance explicative commune — ni la définition ni la genèse ne disent ce qui, dans la religion, répond à des besoins remplaçables et ce qui serait irremplaçable ; c’est pourquoi l’une conclut trop vite au possible, l’autre au nécessaire. D : distinguer, dans la religion, la croyance et ce qu’elle accomplit, et dire lequel une humanité ne peut perdre. Cumul : « sans religion instituée, mais avec une spiritualité » laisse inexpliqué le mausolée de Lénine (rites sans spiritualité). Classe : décision et intelligibilité.",
+    "epreuves": "1. Contre-exemple : sociétés sécularisées ; elles gardent funérailles, serments, commémorations : confirme D. 2. Meilleur cas : survit. 3. Cumul : échec écrit. 4. Antériorité : la distinction entre croyance et fonction du sacré est disponible chez les sociologues ; transposée, elle exige un travail (dire ce qui est irremplaçable) : candidat de III.",
+    "soupcon_aporie": "aucun indice ; régime ordinaire.",
+    "chemins_echoues": "Chemin aporétique de l’ancienne copie (aucun lien ne dure sans pratiques communes / ces pratiques ne sont pas forcément religieuses) : soupçon sans indice ; écarté.",
+    "dictionnaire": "non consulté.",
+    "phrase_mouvement": "A, parce que la religion n’entre pas dans la définition de l’homme, établit qu’une humanité sans religion se pense ; mais n’explique pas l’universalité des religions ; il faut donc examiner leur genèse. B, parce que la religion naît de conditions permanentes, établit qu’elle tend à renaître ; mais non qu’elle soit nécessaire, parce qu’une cause n’exclut pas d’autres réponses. Or aucune ne dit ce qui serait irremplaçable ; il reste à le distinguer.",
+    "probleme_directeur": "Peut-on concevoir une humanité sans religion, si sa définition le permet et si ses conditions la font renaître ?",
+    "problematique": "Si rien dans la définition de l’humanité n’impose la religion, mais si les pratiques religieuses répondent à des besoins humains persistants, peut-on concevoir leur disparition sans confondre l’absence de religion avec la disparition de toute vie symbolique commune ?",
+    "forme_problematique": "G3 adaptée (deux acquis, interrogation qui garde « peut-on concevoir » et nomme ce qui reste à établir). Reconstruction : on part de la définition, on bute sur l’universalité, on cherche la genèse, on bute sur la nécessité ; la III doit distinguer l’irremplaçable. Relecture : aucune radicalisation.",
+    "critere": "Conserver la possibilité conceptuelle et expliquer la persistance des pratiques religieuses sans convertir leur fréquence en nécessité ; vérifier sur les rites civils.",
+    "contrainte_scene": "montrer une société qui se veut sans religion et ce qui y renaît.",
+    "III": {
+      "operation": "Distinction des institutions religieuses et des fonctions humaines qu’elles peuvent remplir ; mise à l’épreuve de la substituabilité sans présupposer une nécessité du sacré.",
+      "III1": "Distinguer la religion comme ensemble de croyances et de pratiques instituées des fonctions sociales, symboliques et existentielles qu’elle peut remplir.",
+      "III2": "Même si de tels besoins persistent, rien ne démontre que seule la religion puisse y répondre ; les commémorations et funérailles civiles offrent des analogies partielles, non une preuve d’équivalence universelle.",
+      "III3": "Une humanité sans religion est concevable si ces fonctions peuvent être prises en charge autrement ; leur histoire rend cette transformation difficile à prévoir, non contradictoire à penser. Reste : ce qui pourrait être perdu dans la substitution.",
+      "tests": "Cas du mausolée de Lénine : montre la persistance de rites dans un État officiellement athée, sans prouver qu’ils soient universellement nécessaires ni qu’ils définissent toute religion. Contrôle : ne pas assimiler le sacré civil à la religion sans argument ; distinguer possibilité conceptuelle, faisabilité historique et prédiction."
+    },
+    "candidats_III": [
+      {
+        "id": "retenue",
+        "operation": "Distinction des institutions religieuses et des fonctions humaines qu’elles peuvent remplir ; mise à l’épreuve de la substituabilité sans présupposer une nécessité du sacré.",
+        "proposition": "Distinguer la religion comme ensemble de croyances et de pratiques instituées des fonctions sociales, symboliques et existentielles qu’elle peut remplir.",
+        "verdict": "retenue",
+        "raison": "Explique l’universalité et la possibilité ensemble ; décide le cas du mausolée."
+      },
+      {
+        "id": "frontiere",
+        "operation": "Critère de frontière",
+        "proposition": "Sans religion instituée, non sans spiritualité.",
+        "verdict": "écartée",
+        "raison": "C’est la conciliation, qui ne sait où ranger un culte sans spiritualité."
+      },
+      {
+        "id": "processus",
+        "operation": "Ordre des moments",
+        "proposition": "L’humanité passe de la religion à la science.",
+        "verdict": "écartée",
+        "raison": "Prédiction sans preuve ; la science ne remplit pas la fonction des rites."
+      },
+      {
+        "id": "condition",
+        "operation": "Condition",
+        "proposition": "On peut la concevoir si la connaissance des causes délivre de la crainte.",
+        "verdict": "dominée",
+        "raison": "Ne traite que l’ignorance, non la mort et le lien."
+      }
+    ],
+    "generateur": "figure : l’explication ; registre opératoire : généalogique ; registre de lecture : démonstration et scolies ; branches B3 ; annonce N2.",
+    "scene": "Moscou, 1924 : l’Union soviétique, officiellement athée, fait embaumer le corps de Lénine et l’expose dans un mausolée devant lequel des foules défilent pendant des décennies. Verdict : homologue. Retour : ce qui renaît est un rapport au mort, non une croyance.",
+    "statut": {
+      "problematique": "suffisamment justifiée",
+      "copie": "état de travail (architecture expérimentale)"
+    },
+    "ouvertures_de_pensee": {
+      "I": "Raisonner, travailler, aimer et s'obliger envers autrui n'exigent pas, dans leur définition, une croyance religieuse. Une humanité organisée autour de telles capacités peut donc être conçue sans religion, même si sa réalisation historique reste à examiner.",
+      "II": "Les mêmes inquiétudes devant la mort et l'incertitude pouvant se reproduire, la persistance des pratiques religieuses cesse d'être inexplicable par la seule croissance du savoir ; leur retour n'en devient pas pour autant nécessaire.",
+      "III": "La persistance de besoins symboliques n'oblige donc pas à reconduire les mêmes croyances : rites civils et formes nouvelles de solidarité sont concevables, sans que leur équivalence avec les expériences religieuses soit garantie.",
+      "statut": "Possibilités justifiées, avec leur portée exacte."
+    }
   },
-  "A": "On peut concevoir une humanité sans religion : la religion n’entre pas dans ce qui fait l’homme.",
-  "FA": "Définition (III.3). 1. Concevoir une chose, c’est la penser sans contradiction à partir de ce qui la définit (E). 2. Ce qui fait l’homme (vivre en commun, raisonner, travailler) ne contient pas la croyance en des dieux (E : des individus et des sociétés entières vivent sans elle). Donc une humanité sans religion se conçoit.",
-  "XA": "Une humanité sans croyance religieuse se pense sans contradiction, et des hommes réels vivent ainsi.",
-  "YA": "Ce qui fait que toutes les sociétés connues ont eu une religion, et donc si cette humanité est réellement possible.",
-  "ZA": "FA procède par définition : elle dit ce qui n’est pas contradictoire, non ce qui produit partout la religion.",
-  "type_LA": "insuffisance explicative",
-  "LA": "La définition de l’homme ne permet donc pas encore d’expliquer pourquoi aucune société connue ne s’est passée de religion, ni donc de dire si une humanité sans elle est réellement possible.",
-  "six_LA": "Mesure : XA écrit. Filiation : prémisse 1 (concevoir = non-contradiction). Meilleur cas : même l’athéisme d’un individu n’explique pas l’universalité des cultes. Absorption : FA dirait « l’universalité est un accident historique » ; c’est une hypothèse de secours. Non-lacune : oui. Calibration : oui.",
-  "T1": "Nous avons établi qu’une humanité sans religion se pense sans contradiction ; mais cela n’explique pas pourquoi aucune société connue ne s’en est passée, parce qu’une définition ne dit pas ce qui produit les choses ; il faut donc examiner d’où vient la religion (W : cause ou genèse, III.5).",
-  "B": "On ne peut concevoir comme réelle une humanité sans religion : la religion naît de conditions permanentes de la vie humaine. B conserve XA.",
-  "FB": "Genèse (III.3). 1. La religion naît de conditions de la vie humaine : la mort, l’ignorance des causes, la crainte et l’espoir (E : genèse attestée chez Spinoza, Éthique I, appendice). 2. Ces conditions sont permanentes (E). 3. Ce qui naît de conditions permanentes tend à renaître tant qu’elles demeurent (E). Indépendance : vaut sans LA. Principe propre : la causalité des conditions humaines.",
-  "XB": "Tant que demeurent la mort, l’ignorance et la crainte, la religion tend à renaître.",
-  "YB": "Que ces conditions rendent la religion nécessaire.",
-  "ZB": "FB explique la religion comme réponse à des besoins ; une cause explique pourquoi une réponse naît, non qu’aucune autre réponse ne puisse satisfaire les mêmes besoins.",
-  "type_LB": "portée insuffisante (une tendance, non une nécessité)",
-  "LB": "La genèse de la religion ne permet donc pas encore d’établir qu’on ne puisse concevoir une humanité sans elle, parce qu’elle explique une réponse à des besoins sans montrer qu’aucune autre ne pourrait y répondre.",
-  "six_LB": "Mesure : XB écrit. Filiation : prémisse 3 (tendance). Meilleur cas : l’explication par l’ignorance contient son propre remède, la connaissance des causes. Absorption : FB dirait « les autres réponses sont des religions déguisées » ; c’est changer le sens du mot (glissement entre sens 1 et 2). Non-lacune : oui. Calibration : oui. Geste : mesure de portée, différent de I.3.",
-  "T2": "Bilan : XA, XB. ρ : insuffisance explicative commune — ni la définition ni la genèse ne disent ce qui, dans la religion, répond à des besoins remplaçables et ce qui serait irremplaçable ; c’est pourquoi l’une conclut trop vite au possible, l’autre au nécessaire. D : distinguer, dans la religion, la croyance et ce qu’elle accomplit, et dire lequel une humanité ne peut perdre. Cumul : « sans religion instituée, mais avec une spiritualité » laisse inexpliqué le mausolée de Lénine (rites sans spiritualité). Classe : décision et intelligibilité.",
-  "epreuves": "1. Contre-exemple : sociétés sécularisées ; elles gardent funérailles, serments, commémorations : confirme D. 2. Meilleur cas : survit. 3. Cumul : échec écrit. 4. Antériorité : la distinction entre croyance et fonction du sacré est disponible chez les sociologues ; transposée, elle exige un travail (dire ce qui est irremplaçable) : candidat de III.",
-  "soupcon_aporie": "aucun indice ; régime ordinaire.",
-  "chemins_echoues": "Chemin aporétique de l’ancienne copie (aucun lien ne dure sans pratiques communes / ces pratiques ne sont pas forcément religieuses) : soupçon sans indice ; écarté.",
-  "dictionnaire": "non consulté.",
-  "phrase_mouvement": "A, parce que la religion n’entre pas dans la définition de l’homme, établit qu’une humanité sans religion se pense ; mais n’explique pas l’universalité des religions ; il faut donc examiner leur genèse. B, parce que la religion naît de conditions permanentes, établit qu’elle tend à renaître ; mais non qu’elle soit nécessaire, parce qu’une cause n’exclut pas d’autres réponses. Or aucune ne dit ce qui serait irremplaçable ; il reste à le distinguer.",
-  "probleme_directeur": "Peut-on concevoir une humanité sans religion, si sa définition le permet et si ses conditions la font renaître ?",
-  "problematique": "S’il n’y a pas de contradiction à penser des hommes sans dieux, mais si la mort et l’ignorance font partout renaître des cultes, peut-on concevoir une humanité sans religion, quand on ignore encore ce que la religion accomplit qu’aucune autre réponse n’accomplirait ?",
-  "forme_problematique": "G3 adaptée (deux acquis, interrogation qui garde « peut-on concevoir » et nomme ce qui reste à établir). Reconstruction : on part de la définition, on bute sur l’universalité, on cherche la genèse, on bute sur la nécessité ; la III doit distinguer l’irremplaçable. Relecture : aucune radicalisation.",
-  "critere": "Sur le mausolée de Lénine, une solution devra dire si l’on peut concevoir une humanité sans religion, conserver qu’elle se pense sans contradiction et que la religion naît de conditions permanentes, expliquer les deux arrêts, et dire ce qui est irremplaçable.",
-  "contrainte_scene": "montrer une société qui se veut sans religion et ce qui y renaît.",
-  "III": {
-   "operation": "distinction (III.7 a, ρ : explication commune) : la croyance en des dieux et ce que la religion accomplit.",
-   "III1": "Distinguer, dans la religion, la croyance en des puissances surnaturelles et ce qu’elle accomplit : un rapport commun aux morts, aux commencements, à ce qu’on tient pour inviolable.",
-   "III2": "La croyance répond à des besoins que d’autres réponses peuvent satisfaire (XA, LB expliqués) ; le rapport commun au sacré répond à ce qu’aucune société n’a perdu (XB, LA expliqués).",
-   "III3": "On peut concevoir une humanité sans religion au sens de la croyance, non sans ce qu’elle accomplissait ; vérifié sur le mausolée. Reste : un sacré sans dieux peut servir ceux qui gouvernent.",
-   "tests": "Cas témoin : le mausolée de Lénine, culte sans dieu dans un État athée ; la III dit ce qui renaît et pourquoi. Second cas : les funérailles civiles et le Panthéon. Restitution : oui. Rechute : le reste (le sacré au service du pouvoir) ne redit ni LA ni LB. Test propre : l’explication rend raison des deux arrêts. Report : la question se repose-t-elle pour le sacré civil ? non : on ne demande pas s’il est religieux, mais à qui il sert. Acquis nouveau : prémisse nouvelle — ce qui est universel n’est pas la croyance mais la fonction ; nécessaire à la décision."
-  },
-  "candidats_III": [
-   {
-    "id": "retenue",
-    "operation": "Distinction (explication commune)",
-    "proposition": "Une humanité peut se passer de la croyance en des dieux, non d’un rapport commun aux morts et à l’inviolable, que la religion accomplissait.",
-    "verdict": "retenue",
-    "raison": "Explique l’universalité et la possibilité ensemble ; décide le cas du mausolée."
-   },
-   {
-    "id": "frontiere",
-    "operation": "Critère de frontière",
-    "proposition": "Sans religion instituée, non sans spiritualité.",
-    "verdict": "écartée",
-    "raison": "C’est la conciliation, qui ne sait où ranger un culte sans spiritualité."
-   },
-   {
-    "id": "processus",
-    "operation": "Ordre des moments",
-    "proposition": "L’humanité passe de la religion à la science.",
-    "verdict": "écartée",
-    "raison": "Prédiction sans preuve ; la science ne remplit pas la fonction des rites."
-   },
-   {
-    "id": "condition",
-    "operation": "Condition",
-    "proposition": "On peut la concevoir si la connaissance des causes délivre de la crainte.",
-    "verdict": "dominée",
-    "raison": "Ne traite que l’ignorance, non la mort et le lien."
-   }
+  "citations": [
+    {
+      "texte": "dans le refuge de l’ignorance",
+      "auteur": "Spinoza",
+      "oeuvre": "Éthique",
+      "lieu": "partie I, appendice",
+      "edition": "trad. Maxime Rovere, Flammarion, 2021",
+      "verification": "œuvre fournie, passage retrouvé mot pour mot",
+      "regime": "citation exacte",
+      "fonction": "II.2 : donner le nom exact de l’opération que la genèse dévoile (l’ignorance des causes invoque une volonté divine) ; la prémisse tient sans elle."
+    }
   ],
-  "generateur": "figure : l’explication ; registre opératoire : généalogique ; registre de lecture : démonstration et scolies ; branches B3 ; annonce N2.",
-  "scene": "Moscou, 1924 : l’Union soviétique, officiellement athée, fait embaumer le corps de Lénine et l’expose dans un mausolée devant lequel des foules défilent pendant des décennies. Verdict : homologue. Retour : ce qui renaît est un rapport au mort, non une croyance.",
-  "statut": {
-   "problematique": "suffisamment justifiée",
-   "copie": "état de travail (architecture expérimentale)"
-  }
- },
- "citations": [
-  {
-   "texte": "dans le refuge de l’ignorance",
-   "auteur": "Spinoza",
-   "oeuvre": "Éthique",
-   "lieu": "partie I, appendice",
-   "edition": "trad. Maxime Rovere, Flammarion, 2021",
-   "verification": "œuvre fournie, passage retrouvé mot pour mot",
-   "regime": "citation exacte",
-   "fonction": "II.2 : donner le nom exact de l’opération que la genèse dévoile (l’ignorance des causes invoque une volonté divine) ; la prémisse tient sans elle."
-  }
- ],
- "copy": [
-  [
-   "INTRODUCTION",
-   [
+  "copy": [
     [
-     "En 1924, l’Union soviétique, qui combat les Églises et se veut sans dieu, fait embaumer le corps de Lénine et l’expose dans un mausolée sur la place Rouge.",
-     "Introduction · la scène"
+      "INTRODUCTION",
+      [
+        [
+          "En 1924, l’Union soviétique, qui combat les Églises et se veut sans dieu, fait embaumer le corps de Lénine et l’expose dans un mausolée sur la place Rouge.",
+          "Introduction · la scène"
+        ],
+        [
+          "Pendant des décennies, des foules silencieuses défilent devant le cercueil de verre, comme on visitait autrefois les reliques.",
+          "Introduction · la scène : ce qui revient"
+        ],
+        [
+          "Un État a pu se vouloir athée et vivre sans dieux ; il n’a pas pu se passer d’un mort à vénérer.",
+          "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"
+        ],
+        [
+          "Concevoir, ce n’est pas seulement penser sans contradiction : c’est pouvoir se représenter cette humanité comme réellement possible.",
+          "Introduction · les mots du sujet"
+        ],
+        [
+          "L’homme peut être défini sans dieux ; cette possibilité ne dit pas pourquoi les cultes renaissent. Leur permanence suggère un besoin, sans prouver qu’il soit insurmontable.",
+          "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"
+        ],
+        [
+          "Si rien dans la définition de l’humanité n’impose la religion, mais si les pratiques religieuses répondent à des besoins humains persistants, peut-on concevoir leur disparition sans confondre l’absence de religion avec la disparition de toute vie symbolique commune ?",
+          "Introduction · la problématique : une seule question, qui garde « peut-on concevoir »"
+        ],
+        [
+          "Nous partirons de la possibilité d’une humanité sans dieux, puis examinerons la persistance des cultes, avant de rechercher ce qu’ils accomplissent.",
+          "Introduction · l’annonce"
+        ]
+      ]
     ],
     [
-     "Pendant des décennies, des foules silencieuses défilent devant le cercueil de verre, comme on visitait autrefois les reliques.",
-     "Introduction · la scène : ce qui revient"
+      "I. L’HOMME SE DÉFINIT SANS LES DIEUX",
+      [
+        [
+          "On peut concevoir une humanité sans religion, car rien dans ce qui fait l’homme ne contient la croyance en des dieux.",
+          "I.1 Ouvrir une première manière de penser"
+        ],
+        [
+          "Cette réponse sauve ceux qui vivent sans croire : ils ne sont pas des hommes incomplets.",
+          "I.1 Ce qu’elle sauve"
+        ],
+        [
+          "Concevoir une chose, c’est la penser sans contradiction à partir de ce qui la définit ; or vivre en commun, raisonner, travailler, aimer, rien de cela n’exige des dieux.",
+          "I.2 La fonder par une définition"
+        ],
+        [
+          "Raisonner, travailler, aimer et s'obliger envers autrui n'exigent pas, dans leur définition, une croyance religieuse. Une humanité organisée autour de telles capacités peut donc être conçue sans religion, même si sa réalisation historique reste à examiner.",
+          "I.2 Montrer la possibilité conceptuelle sans religion"
+        ],
+        [
+          "Ce fondement établit qu’une humanité sans croyance religieuse se pense sans contradiction, et que des hommes réels vivent ainsi.",
+          "I.3 L’éprouver : ce qu’il établit"
+        ],
+        [
+          "Mais il procède par définition, et une définition dit ce qui n’est pas contradictoire, non ce qui produit les choses : elle ne rend pas compte du fait que toutes les sociétés connues ont eu des cultes.",
+          "I.3 Ce qu’il ne permet pas encore, et pourquoi"
+        ],
+        [
+          "L’État soviétique pouvait se définir sans dieux ; sa définition ne dit pas pourquoi il a bâti le mausolée.",
+          "I.3 Sur la scène"
+        ],
+        [
+          "La définition de l’homme ne permet donc pas encore d’expliquer pourquoi la religion réapparaît dans des contextes historiques très différents, ni donc de dire si une humanité sans elle est réellement possible.",
+          "I.3 La portée et le manque du premier fondement"
+        ],
+        [
+          "Une humanité sans dieux est pensable ; mais cette définition n’explique pas la permanence des cultes. D’où vient leur puissance ?",
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
+        ]
+      ]
     ],
     [
-     "Un État a pu se vouloir athée et vivre sans dieux ; il n’a pas pu se passer d’un mort à vénérer.",
-     "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"
+      "II. CE QUI FAIT NAÎTRE LES RELIGIONS",
+      [
+        [
+          "Les causes des religions sont aussi durables que l’humanité, et c’est pourquoi une humanité sans religion ne se conçoit pas comme réelle.",
+          "II.1 Ouvrir une autre manière de penser"
+        ],
+        [
+          "Elle ne nie pas qu’on puisse la penser sans contradiction ; elle demande ce qui la rendrait possible.",
+          "II.1 Ce qu’elle conserve"
+        ],
+        [
+          "La religion naît de conditions de la vie humaine : la mort qu’on ne comprend pas, les causes qu’on ignore, la crainte et l’espoir devant ce qui ne dépend pas de nous ; Spinoza montre comment, à force de demander la cause des causes, on finit par s’abriter derrière la volonté de Dieu, « dans le refuge de l’ignorance ».",
+          "II.2 La fonder par la genèse ; citation qui nomme l’opération"
+        ],
+        [
+          "Les mêmes inquiétudes devant la mort et l'incertitude pouvant se reproduire, la persistance des pratiques religieuses cesse d'être inexplicable par la seule croissance du savoir ; leur retour n'en devient pas pour autant nécessaire.",
+          "II.2 Expliquer la persistance sans en faire une nécessité"
+        ],
+        [
+          "Cette raison établit que, tant que demeurent la mort, l’ignorance et la crainte, la religion tend à renaître.",
+          "II.3 L’éprouver : ce qu’elle établit"
+        ],
+        [
+          "Mais elle explique la religion comme une réponse à des besoins, et une cause explique pourquoi une réponse naît, non qu’aucune autre ne puisse y répondre : la connaissance des causes répond aussi à l’ignorance.",
+          "II.3 Ce qu’elle ne permet pas encore, et pourquoi : la portée d’une genèse"
+        ],
+        [
+          "Celui qui appelle « religion » toute réponse à ces besoins change seulement le sens du mot.",
+          "II.3 L’inférence"
+        ],
+        [
+          "La genèse de la religion ne permet donc pas encore d’établir qu’on ne puisse concevoir une humanité sans elle, parce qu’elle explique une réponse à des besoins sans montrer qu’aucune autre ne pourrait y répondre.",
+          "II.3 La portée et le manque du second fondement"
+        ],
+        [
+          "La religion n'est pas nécessaire à la définition de l'homme, mais ses causes se renouvellent. Peut-on remplacer ce qu'elle accomplit sans en reproduire les formes ?",
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
+        ]
+      ]
     ],
     [
-     "On attend d’une humanité qu’elle puisse se penser sans les croyances qu’elle tient de ses ancêtres, mais aussi qu’elle reste humaine en le faisant.",
-     "Introduction · l’enjeu"
+      "III. CE QUE LA RELIGION ACCOMPLISSAIT",
+      [
+        [
+          "Pour juger si une humanité sans religion est concevable, il faut distinguer les croyances et les pratiques religieuses des fonctions qu’elles peuvent remplir : donner sens à la mort, rassembler et rendre certaines choses précieuses.",
+          "III.1 Effectuer le déplacement nécessaire"
+        ],
+        [
+          "Ces fonctions ne sont pas nécessairement liées à la croyance en des dieux : des funérailles civiles, des commémorations ou des engagements communs peuvent en prendre certaines en charge, sans reproduire une religion à l’identique.",
+          "III.1 Ce que la distinction sépare"
+        ],
+        [
+          "Ce qui revient fréquemment dans l’histoire n’est pas pour autant logiquement nécessaire. Même si les besoins de consolation et de communauté persistent, on ne peut en déduire qu’une institution religieuse soit leur seule réponse possible.",
+          "III.2 La démontrer : ce qu’elle conserve des deux réponses"
+        ],
+        [
+          "La persistance de besoins symboliques n'oblige donc pas à reconduire les mêmes croyances : rites civils et formes nouvelles de solidarité sont concevables, sans que leur équivalence avec les expériences religieuses soit garantie.",
+          "III.2 Distinguer fonctions symboliques et croyances religieuses"
+        ],
+        [
+          "On peut donc concevoir une humanité sans religion : il faudrait qu’elle trouve d’autres façons de répondre aux besoins auxquels les religions répondent. Cela ne prouve ni qu’une telle humanité existe déjà, ni que cette substitution serait sans perte.",
+          "III.3 La réponse au sujet, avec son opérateur"
+        ],
+        [
+          "Le mausolée de Lénine ne réfute pas cette possibilité : ses cérémonies montrent que des formes de vénération peuvent survivre à la foi officielle, non qu’elles constituent nécessairement une religion.",
+          "III.3 La réponse vérifiée sur le cas"
+        ],
+        [
+          "Reste à savoir ce que des pratiques civiles peuvent conserver des expériences religieuses sans les reproduire : la substitution d’une fonction ne garantit pas l’équivalence des significations.",
+          "III.3 Le reste : ce qui demande encore à être pensé"
+        ]
+      ]
     ],
     [
-     "Concevoir, ce n’est pas seulement penser sans contradiction : c’est pouvoir se représenter cette humanité comme réellement possible.",
-     "Introduction · les mots du sujet"
-    ],
-    [
-     "On attend d’une humanité sans dieux qu’elle soit pensable, et elle l’est, puisque rien dans la définition de l’homme ne l’exclut ; mais cela n’explique pas que toutes les sociétés connues aient eu des cultes. On attend aussi qu’elle soit possible, et les causes qui font naître les religions semblent l’exclure ; mais une cause montre une tendance, non une nécessité.",
-     "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"
-    ],
-    [
-     "S’il n’y a pas de contradiction à penser des hommes sans dieux, mais si la mort et l’ignorance font partout renaître des cultes, peut-on concevoir une humanité sans religion, quand on ignore encore ce que la religion accomplit qu’aucune autre réponse n’accomplirait ?",
-     "Introduction · la problématique : une seule question, qui garde « peut-on concevoir »"
-    ],
-    [
-     "Il faudra d’abord établir ce qui permet de penser une humanité sans dieux, puis ce qui fait renaître les religions ; ni l’un ni l’autre, on le verra, ne suffit à dire si on peut la concevoir, et c’est leur rapport qu’il faudra déterminer.",
-     "Introduction · l’annonce"
+      "CONCLUSION",
+      [
+        [
+          "Une humanité sans religion est concevable : ni la définition de l’homme ni la permanence de besoins humains ne rendent contradictoire la recherche de réponses non religieuses. Mais la possibilité de cette substitution ne garantit pas qu’elle serait complète.",
+          "Conclusion · la réponse, avec l’opérateur"
+        ],
+        [
+          "Le mausolée de la place Rouge montre moins la nécessité d’une religion que la capacité de pratiques collectives à changer de forme.",
+          "Conclusion · retour à la scène"
+        ],
+        [
+          "Que perdrait une humanité qui répondrait autrement aux besoins auxquels les religions ont donné sens ?",
+          "Conclusion · le reste en question"
+        ]
+      ]
     ]
-   ]
-  ],
-  [
-   "I. L’HOMME SE DÉFINIT SANS LES DIEUX",
-   [
-    [
-     "On peut concevoir une humanité sans religion, car rien dans ce qui fait l’homme ne contient la croyance en des dieux.",
-     "I.1 Établir la première réponse"
-    ],
-    [
-     "Cette réponse sauve ceux qui vivent sans croire : ils ne sont pas des hommes incomplets.",
-     "I.1 Ce qu’elle sauve"
-    ],
-    [
-     "Concevoir une chose, c’est la penser sans contradiction à partir de ce qui la définit ; or vivre en commun, raisonner, travailler, aimer, rien de cela n’exige des dieux.",
-     "I.2 La fonder par une définition"
-    ],
-    [
-     "Des individus et des sociétés entières vivent d’ailleurs sans croyance religieuse ; une humanité sans religion se conçoit donc, puisque ses éléments existent déjà.",
-     "I.2 L’inférence décisive"
-    ],
-    [
-     "Ce fondement établit qu’une humanité sans croyance religieuse se pense sans contradiction, et que des hommes réels vivent ainsi.",
-     "I.3 L’éprouver : ce qu’il établit"
-    ],
-    [
-     "Mais il procède par définition, et une définition dit ce qui n’est pas contradictoire, non ce qui produit les choses : elle ne rend pas compte du fait que toutes les sociétés connues ont eu des cultes.",
-     "I.3 Ce qu’il ne permet pas encore, et pourquoi"
-    ],
-    [
-     "L’État soviétique pouvait se définir sans dieux ; sa définition ne dit pas pourquoi il a bâti le mausolée.",
-     "I.3 Sur la scène"
-    ],
-    [
-     "La définition de l’homme ne permet donc pas encore d’expliquer pourquoi aucune société connue ne s’est passée de religion, ni donc de dire si une humanité sans elle est réellement possible.",
-     "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"
-    ],
-    [
-     "Une humanité sans dieux se pense sans contradiction ; mais cela n’explique pas pourquoi aucune société ne s’en est passée, parce qu’une définition ne dit pas ce qui produit les choses. Il faut donc examiner d’où viennent les religions : leurs causes ne sont-elles pas aussi durables que l’humanité elle-même ?",
-     "Transition · l’examen nécessaire, en question"
-    ]
-   ]
-  ],
-  [
-   "II. CE QUI FAIT NAÎTRE LES RELIGIONS",
-   [
-    [
-     "Les causes des religions sont aussi durables que l’humanité, et c’est pourquoi une humanité sans religion ne se conçoit pas comme réelle.",
-     "II.1 La seconde réponse, qui répond à l’examen demandé"
-    ],
-    [
-     "Elle ne nie pas qu’on puisse la penser sans contradiction ; elle demande ce qui la rendrait possible.",
-     "II.1 Ce qu’elle conserve"
-    ],
-    [
-     "La religion naît de conditions de la vie humaine : la mort qu’on ne comprend pas, les causes qu’on ignore, la crainte et l’espoir devant ce qui ne dépend pas de nous ; Spinoza montre comment, à force de demander la cause des causes, on finit par s’abriter derrière la volonté de Dieu, « dans le refuge de l’ignorance ».",
-     "II.2 La fonder par la genèse ; citation qui nomme l’opération"
-    ],
-    [
-     "Or ces conditions sont permanentes, et ce qui naît de conditions permanentes tend à renaître tant qu’elles demeurent.",
-     "II.2 L’inférence décisive"
-    ],
-    [
-     "Cette raison établit que, tant que demeurent la mort, l’ignorance et la crainte, la religion tend à renaître.",
-     "II.3 L’éprouver : ce qu’elle établit"
-    ],
-    [
-     "Mais elle explique la religion comme une réponse à des besoins, et une cause explique pourquoi une réponse naît, non qu’aucune autre ne puisse y répondre : la connaissance des causes répond aussi à l’ignorance.",
-     "II.3 Ce qu’elle ne permet pas encore, et pourquoi : la portée d’une genèse"
-    ],
-    [
-     "Celui qui appelle « religion » toute réponse à ces besoins change seulement le sens du mot.",
-     "II.3 L’inférence"
-    ],
-    [
-     "La genèse de la religion ne permet donc pas encore d’établir qu’on ne puisse concevoir une humanité sans elle, parce qu’elle explique une réponse à des besoins sans montrer qu’aucune autre ne pourrait y répondre.",
-     "II.3 Ce que la seconde réponse ne permet pas encore"
-    ],
-    [
-     "Une humanité sans dieux se pense, et les religions renaissent de conditions durables ; mais ni la définition ni la genèse ne disent ce qui, dans la religion, pourrait être remplacé et ce qui ne le pourrait pas. Distinguer une religion instituée et une spiritualité qui demeurerait ne dit rien du mausolée, où il n’y a ni l’une ni l’autre : qu’est-ce donc que la religion accomplissait, qu’aucune humanité ne pourrait perdre ?",
-     "Transition · pourquoi leur addition échoue, et ce qui reste à établir, en question"
-    ]
-   ]
-  ],
-  [
-   "III. CE QUE LA RELIGION ACCOMPLISSAIT",
-   [
-    [
-     "Pour savoir ce qu’aucune humanité ne pourrait perdre, il faut distinguer dans la religion la croyance en des puissances surnaturelles et ce qu’elle accomplit : un rapport commun aux morts, aux commencements, à ce qu’on tient pour inviolable.",
-     "III.1 L’opération que la difficulté exige : une distinction"
-    ],
-    [
-     "La croyance explique le monde ; le rite relie des vivants entre eux et à ceux qui ne sont plus.",
-     "III.1 Ce que la distinction sépare"
-    ],
-    [
-     "La croyance répond à des besoins que d’autres réponses peuvent satisfaire, et c’est pourquoi une humanité sans dieux se conçoit ; le rapport commun aux morts et à l’inviolable ne disparaît dans aucune société, et c’est pourquoi les cultes renaissent.",
-     "III.2 La démontrer : ce qu’elle conserve des deux réponses"
-    ],
-    [
-     "Elle explique aussi leurs arrêts : la définition ne voyait pas l’universalité des cultes parce qu’elle ne regardait que la croyance, et la genèse concluait trop vite à la nécessité parce qu’elle confondait la croyance avec ce qu’elle accomplit.",
-     "III.2 Ce qu’elle explique"
-    ],
-    [
-     "On peut donc concevoir une humanité sans religion, si l’on entend par là sans croyance en des dieux ; on ne peut pas en concevoir une sans ce que la religion accomplissait, un rapport commun aux morts et à ce qui ne doit pas être profané.",
-     "III.3 La réponse au sujet, avec son opérateur"
-    ],
-    [
-     "Le mausolée de Lénine le vérifie : sans aucune foi déclarée, un État athée a refait des reliques, un pèlerinage, un tombeau qu’on ne touche pas.",
-     "III.3 La réponse vérifiée sur le cas"
-    ],
-    [
-     "Reste qu’un sacré sans dieux peut servir ceux qui gouvernent, et que rien, dans sa seule fonction, ne le protège d’un tel usage.",
-     "III.3 Le reste : ce que cette réponse ne règle pas"
-    ]
-   ]
-  ],
-  [
-   "CONCLUSION",
-   [
-    [
-     "On peut concevoir une humanité sans croyance en des dieux, mais non sans un rapport commun aux morts et à l’inviolable, que les religions accomplissaient et qui leur survit.",
-     "Conclusion · la réponse, avec l’opérateur"
-    ],
-    [
-     "Le mausolée de la place Rouge ne ramène pas à la foi : il montre ce qui reste quand la foi s’en va.",
-     "Conclusion · retour à la scène"
-    ],
-    [
-     "Mais un sacré sans dieux peut-il échapper au culte de ceux qui gouvernent ?",
-     "Conclusion · le reste en question"
-    ]
-   ]
   ]
- ]
 }

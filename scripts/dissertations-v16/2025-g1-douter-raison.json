@@ -1,275 +1,277 @@
 {
- "id": "2025-g1-douter-raison",
- "subject": "Peut-on douter des pouvoirs de la raison ?",
- "notion": "La raison",
- "page": "philosophie-dissertation-2025-g1-douter-raison.html",
- "fiche": {
-  "operateur": "possibilité (« peut-on ») d’un doute portant sur des pouvoirs : est-il possible, et légitime, de mettre en question ce que la raison peut ; un doute légitime sur un pouvoir suffit au oui, s’il ne se détruit pas lui-même.",
-  "sens": "douter : suspendre son assentiment pour des raisons, non par humeur. pouvoirs de la raison : (1) démontrer, connaître, juger ; (2) leur étendue : jusqu’où ils vont. la raison : la faculté de lier des jugements par des principes.",
-  "substitutions_interdites": "douter ≠ nier ; douter de pouvoirs ≠ douter de la raison tout entière ; peut-on ≠ doit-on.",
-  "verrou": "Oui : établir un doute légitime sur des pouvoirs de la raison. Non : établir que tout doute sur eux se détruit ou est sans raison. Glissements interdits : de « la raison se trompe parfois » à « elle ne peut rien » ; du doute sur l’étendue au doute sur l’usage.",
-  "trois_reponses": "Spontanée : oui, la raison se trompe. Contraire : non, douter de la raison, c’est encore raisonner. Conciliation : on peut douter de ses résultats, non de la raison elle-même.",
-  "conciliation_1_8bis": "Partage des résultats et de la faculté. Elle hésite sur Gödel : le théorème de 1931 ne met en doute aucun résultat, il établit une borne d’un pouvoir de démontrer ; est-ce un doute sur un résultat ou sur la raison ? elle ne sait.",
-  "brouillon": {
-   "a": "Oui : la raison se trompe, et elle se heurte à des questions qu’elle ne peut résoudre.",
-   "b": "Ce doute s’appuie sur des raisonnements ; il ne peut porter sur tous les pouvoirs de la raison, puisqu’il en use.",
-   "c": "Il faut examiner le doute sur la raison tout entière : peut-on encore douter quand on doute de ce qui fait douter ?",
-   "d": "Un doute total se détruit ; mais cela montre que l’usage de la raison est inévitable, non que ses pouvoirs soient garantis.",
-   "e": "L’un doute sans pouvoir tout atteindre, l’autre montre qu’on ne peut se passer de la raison ; il reste un doute légitime qui ne se détruise pas."
+  "id": "2025-g1-douter-raison",
+  "subject": "Peut-on douter des pouvoirs de la raison ?",
+  "notion": "La raison",
+  "page": "philosophie-dissertation-2025-g1-douter-raison.html",
+  "fiche": {
+    "operateur": "possibilité (« peut-on ») d’un doute portant sur des pouvoirs : est-il possible, et légitime, de mettre en question ce que la raison peut ; un doute légitime sur un pouvoir suffit au oui, s’il ne se détruit pas lui-même.",
+    "sens": "douter : suspendre son assentiment pour des raisons, non par humeur. pouvoirs de la raison : (1) démontrer, connaître, juger ; (2) leur étendue : jusqu’où ils vont. la raison : la faculté de lier des jugements par des principes.",
+    "substitutions_interdites": "douter ≠ nier ; douter de pouvoirs ≠ douter de la raison tout entière ; peut-on ≠ doit-on.",
+    "verrou": "Oui : établir un doute légitime sur des pouvoirs de la raison. Non : établir que tout doute sur eux se détruit ou est sans raison. Glissements interdits : de « la raison se trompe parfois » à « elle ne peut rien » ; du doute sur l’étendue au doute sur l’usage.",
+    "trois_reponses": "Spontanée : oui, la raison se trompe. Contraire : non, douter de la raison, c’est encore raisonner. Conciliation : on peut douter de ses résultats, non de la raison elle-même.",
+    "conciliation_1_8bis": "Partage des résultats et de la faculté. Elle hésite sur Gödel : le théorème de 1931 ne met en doute aucun résultat, il établit une borne d’un pouvoir de démontrer ; est-ce un doute sur un résultat ou sur la raison ? elle ne sait.",
+    "brouillon": {
+      "a": "Oui : la raison se trompe, et elle se heurte à des questions qu’elle ne peut résoudre.",
+      "b": "Ce doute s’appuie sur des raisonnements ; il ne peut porter sur tous les pouvoirs de la raison, puisqu’il en use.",
+      "c": "Il faut examiner le doute sur la raison tout entière : peut-on encore douter quand on doute de ce qui fait douter ?",
+      "d": "Un doute total se détruit ; mais cela montre que l’usage de la raison est inévitable, non que ses pouvoirs soient garantis.",
+      "e": "L’un doute sans pouvoir tout atteindre, l’autre montre qu’on ne peut se passer de la raison ; il reste un doute légitime qui ne se détruise pas."
+    },
+    "A": "On peut douter des pouvoirs de la raison : elle se trompe et se heurte à des questions qu’elle ne peut résoudre.",
+    "FA": "Fait (III.3). 1. Des raisonnements rigoureux se révèlent faux (E : erreurs de démonstration découvertes). 2. La raison se pose des questions qu’elle ne peut ni écarter ni résoudre (E : Kant, préface de 1781). 3. Ce qui échoue parfois peut être mis en doute (E). Donc on peut douter de ses pouvoirs.",
+    "XA": "On peut douter, avec raison, de certains pouvoirs de la raison.",
+    "YA": "Que l’on puisse douter de ses pouvoirs pris ensemble.",
+    "ZA": "FA détecte les échecs de la raison en raisonnant ; il suppose donc le pouvoir qu’il examine, et ne peut douter que d’usages particuliers.",
+    "type_LA": "portée insuffisante",
+    "LA": "Les échecs de la raison ne permettent donc pas encore d’établir qu’on puisse douter de ses pouvoirs pris ensemble, parce que c’est encore en raisonnant qu’on les découvre.",
+    "six_LA": "Mesure : XA écrit. Filiation : prémisse 1 (l’erreur est découverte par la raison). Meilleur cas : le sceptique le plus résolu argumente. Absorption : FA dirait « on peut douter de tout, un à un » ; chaque doute s’appuie sur ce qu’il ne met pas en doute. Non-lacune : oui. Calibration : oui.",
+    "T1": "Nous avons établi qu’on peut douter de certains pouvoirs de la raison ; mais non de tous ensemble, parce que ce doute se sert d’eux ; il faut donc examiner le doute sur la raison tout entière (W : le domaine non atteint).",
+    "B": "On ne peut douter de la raison elle-même : un doute total se détruit en s’énonçant. B conserve XA.",
+    "FB": "Rétorsion (III.3, attestée chez Aristote, Métaphysique Γ, 4). 1. Douter, c’est avoir des raisons de suspendre son assentiment (E : définition fixée). 2. Douter de toute la raison, ce serait avoir des raisons de ne se fier à aucune raison (E). 3. Ce doute se fierait à ce qu’il récuse : il se détruit. Indépendance : vaut sans LA. Principe propre : la rétorsion.",
+    "XB": "On ne peut douter de toute la raison sans se servir d’elle : un doute total se détruit.",
+    "YB": "Que les pouvoirs de la raison soient pour autant garantis.",
+    "ZB": "La rétorsion montre que tout doute use de la raison ; elle ne montre pas que cet usage soit valide partout où il s’exerce.",
+    "type_LB": "distinction indispensable (usage inévitable / pouvoir garanti)",
+    "LB": "Que tout doute se serve de la raison ne permet donc pas encore d’établir que ses pouvoirs soient hors de doute, parce qu’un instrument dont on ne peut se passer n’en est pas pour autant sûr.",
+    "six_LB": "Mesure : XB écrit. Filiation : prémisse 3 (se fier à ce qu’on récuse : se fier à l’usage, non à la portée). Meilleur cas : la raison inévitable a pourtant produit des antinomies. Absorption : FB dirait « ce qu’on ne peut récuser est certain » ; c’est confondre l’inévitable et le vrai. Non-lacune : oui. Calibration : oui. Mécanisme : distinction requise, différent de I.3.",
+    "T2": "Bilan : XA, XB. ρ : hétérogénéité de niveaux — XA porte sur l’étendue de pouvoirs particuliers, XB sur l’usage de la faculté ; aucun ne dit quel doute porte sur les pouvoirs sans se détruire. D : établir un doute légitime sur les pouvoirs de la raison qui ne ruine pas la raison qui doute. Cumul : « douter des résultats, non de la faculté » échoue sur Gödel, qui ne doute d’aucun résultat mais borne un pouvoir (le cumul ne répond pas avec l’opérateur sur le cas). Classe : décision.",
+    "epreuves": "1. Contre-exemple : le malin génie de Descartes ; doute total levé par le cogito, qui confirme XB. 2. Meilleur cas : survit. 3. Cumul : échec écrit. 4. Antériorité : la critique kantienne (la raison qui examine ses propres pouvoirs) est une solution connue ; transposée, elle exige un travail (dire en quoi ce doute ne se détruit pas) : candidat de III.",
+    "soupcon_aporie": "indice (iii) examiné : la conciliation hésite là où douter paraît ruiner ce qui doute ; non maintenu, la distinction entre étendue et usage lève l’hésitation ; régime ordinaire.",
+    "chemins_echoues": "Chemin de l’ancienne copie (doute raisonnable / sceptique ; III : raison critique) : intuition reprise ; la III n’y était pas vérifiée sur un cas.",
+    "dictionnaire": "non consulté.",
+    "phrase_mouvement": "A, parce que la raison se trompe et bute sur des questions insolubles, établit qu’on peut douter de certains pouvoirs ; mais non de tous, parce qu’on doute en raisonnant ; il faut donc examiner le doute total. B, parce qu’un doute total se fie à ce qu’il récuse, établit qu’il se détruit ; mais non que les pouvoirs soient garantis. Il reste un doute légitime qui ne se détruise pas.",
+    "probleme_directeur": "Peut-on douter des pouvoirs de la raison, si l’on ne peut douter que par elle et si l’on ne peut se fier à elle sans examen ?",
+    "problematique": "Si la raison se heurte à des questions qu’elle ne peut résoudre, mais qu’on ne peut douter d’elle qu’en raisonnant, peut-on douter des pouvoirs de la raison sans que ce doute se ruine lui-même ?",
+    "forme_problematique": "G3 (deux acquis en protases, « peut-on douter des pouvoirs de la raison » conservé). Reconstruction : on part des échecs, on bute sur la portée, on examine le doute total, on bute sur la garantie ; la III doit trouver un doute légitime. Relecture : aucune radicalisation.",
+    "critere": "Sur le théorème de Gödel, une solution devra dire si l’on peut douter des pouvoirs de la raison, conserver qu’elle a des échecs et qu’un doute total se détruit, expliquer les deux arrêts, et désigner le doute qui ne se détruit pas.",
+    "contrainte_scene": "montrer une confiance totale dans un pouvoir de la raison et la démonstration de sa borne.",
+    "III": {
+      "operation": "critère de frontière (III.7 a) : le doute légitime porte sur l’étendue d’un pouvoir et est conduit par la raison elle-même, qui démontre où il s’arrête.",
+      "III1": "Le doute légitime porte sur l’étendue d’un pouvoir, non sur l’autorité de la raison, et c’est la raison qui le conduit, en démontrant où ce pouvoir s’arrête.",
+      "III2": "Conserve XA (des pouvoirs particuliers peuvent être mis en doute) et XB (la raison ne peut être récusée en bloc) ; explique LA (le doute de I visait des usages, il peut viser l’étendue) et LB (l’usage inévitable n’est pas garanti, mais il peut être mesuré par lui-même). Un doute qui démontre sa borne ne se détruit pas, il se vérifie.",
+      "III3": "On peut douter des pouvoirs de la raison, si c’est la raison qui en mesure l’étendue en démontrant où ils s’arrêtent ; ce doute ne la ruine pas, il la délimite ; vérifié sur Gödel. Reste : agir avant d’avoir pu mesurer ces pouvoirs.",
+      "tests": "Cas témoin : Gödel démontre, avec toute la rigueur des mathématiques, qu’un système assez riche contient des vérités qu’il ne peut démontrer : le doute sur le pouvoir de démontrer est établi par la raison, qui n’en sort pas ruinée ; ni A, ni B, ni le partage ne le disaient. Second cas : la Critique de la raison pure, où la raison borne son usage spéculatif. Restitution : oui. Rechute : le reste (l’action) ne redit ni LA ni LB. Test propre : frontière définie indépendamment des deux thèses (étendue / autorité). Report : non. Acquis nouveau : prémisse nouvelle — un doute peut être une démonstration ; nécessaire à la décision."
+    },
+    "candidats_III": [
+      {
+        "id": "retenue",
+        "operation": "Critère de frontière",
+        "proposition": "Le doute légitime porte sur l’étendue d’un pouvoir, et c’est la raison qui le conduit en démontrant où il s’arrête.",
+        "verdict": "retenue",
+        "raison": "Décide le cas de Gödel, conserve les deux acquis, explique les deux arrêts."
+      },
+      {
+        "id": "partage",
+        "operation": "Partage",
+        "proposition": "Douter des résultats, non de la faculté.",
+        "verdict": "écartée",
+        "raison": "C’est la conciliation, qui échoue sur Gödel."
+      },
+      {
+        "id": "foi",
+        "operation": "Déplacement",
+        "proposition": "Là où la raison s’arrête, la foi ou l’intuition prennent le relais.",
+        "verdict": "écartée",
+        "raison": "Ne répond pas au sujet ; ajoute une faculté non examinée."
+      },
+      {
+        "id": "pratique",
+        "operation": "Condition",
+        "proposition": "On peut douter de la raison théorique, non de la raison pratique.",
+        "verdict": "dominée",
+        "raison": "Partage trop large ; ne dit pas ce qui rend un doute légitime."
+      }
+    ],
+    "generateur": "figure : la frontière ; registre opératoire : critique ; registre de lecture : démonstratif à ordre visible ; branches B1 ; annonce N1.",
+    "scene": "Königsberg, septembre 1930 : Gödel annonce son théorème d’incomplétude lors d’un congrès ; le lendemain, dans la même ville, Hilbert clôt un discours radiodiffusé par : « Nous devons savoir, nous saurons. » Publication du théorème en 1931. Verdict : homologue. Retour : le doute établi par la raison elle-même.",
+    "statut": {
+      "problematique": "suffisamment justifiée",
+      "copie": "état de travail (architecture expérimentale)"
+    },
+    "ouvertures_de_pensee": {
+      "I": "La raison peut ainsi examiner ses propres pouvoirs : les questions auxquelles elle ne parvient pas à répondre ne sont pas toutes des fautes de calcul, mais peuvent révéler les limites de ses prétentions.",
+      "II": "Contester toute raison exige encore de donner des raisons de cette contestation : un doute absolument général détruit le moyen même par lequel il prétend se justifier.",
+      "III": "Un doute qui établit jusqu'où va un raisonnement ne récuse donc pas la raison : il mesure son domaine légitime, sans garantir pour autant tous ses usages.",
+      "statut": "Hypothèses établies à la mesure de leurs preuves ; ne pas transformer une possibilité en certitude."
+    }
   },
-  "A": "On peut douter des pouvoirs de la raison : elle se trompe et se heurte à des questions qu’elle ne peut résoudre.",
-  "FA": "Fait (III.3). 1. Des raisonnements rigoureux se révèlent faux (E : erreurs de démonstration découvertes). 2. La raison se pose des questions qu’elle ne peut ni écarter ni résoudre (E : Kant, préface de 1781). 3. Ce qui échoue parfois peut être mis en doute (E). Donc on peut douter de ses pouvoirs.",
-  "XA": "On peut douter, avec raison, de certains pouvoirs de la raison.",
-  "YA": "Que l’on puisse douter de ses pouvoirs pris ensemble.",
-  "ZA": "FA détecte les échecs de la raison en raisonnant ; il suppose donc le pouvoir qu’il examine, et ne peut douter que d’usages particuliers.",
-  "type_LA": "portée insuffisante",
-  "LA": "Les échecs de la raison ne permettent donc pas encore d’établir qu’on puisse douter de ses pouvoirs pris ensemble, parce que c’est encore en raisonnant qu’on les découvre.",
-  "six_LA": "Mesure : XA écrit. Filiation : prémisse 1 (l’erreur est découverte par la raison). Meilleur cas : le sceptique le plus résolu argumente. Absorption : FA dirait « on peut douter de tout, un à un » ; chaque doute s’appuie sur ce qu’il ne met pas en doute. Non-lacune : oui. Calibration : oui.",
-  "T1": "Nous avons établi qu’on peut douter de certains pouvoirs de la raison ; mais non de tous ensemble, parce que ce doute se sert d’eux ; il faut donc examiner le doute sur la raison tout entière (W : le domaine non atteint).",
-  "B": "On ne peut douter de la raison elle-même : un doute total se détruit en s’énonçant. B conserve XA.",
-  "FB": "Rétorsion (III.3, attestée chez Aristote, Métaphysique Γ, 4). 1. Douter, c’est avoir des raisons de suspendre son assentiment (E : définition fixée). 2. Douter de toute la raison, ce serait avoir des raisons de ne se fier à aucune raison (E). 3. Ce doute se fierait à ce qu’il récuse : il se détruit. Indépendance : vaut sans LA. Principe propre : la rétorsion.",
-  "XB": "On ne peut douter de toute la raison sans se servir d’elle : un doute total se détruit.",
-  "YB": "Que les pouvoirs de la raison soient pour autant garantis.",
-  "ZB": "La rétorsion montre que tout doute use de la raison ; elle ne montre pas que cet usage soit valide partout où il s’exerce.",
-  "type_LB": "distinction indispensable (usage inévitable / pouvoir garanti)",
-  "LB": "Que tout doute se serve de la raison ne permet donc pas encore d’établir que ses pouvoirs soient hors de doute, parce qu’un instrument dont on ne peut se passer n’en est pas pour autant sûr.",
-  "six_LB": "Mesure : XB écrit. Filiation : prémisse 3 (se fier à ce qu’on récuse : se fier à l’usage, non à la portée). Meilleur cas : la raison inévitable a pourtant produit des antinomies. Absorption : FB dirait « ce qu’on ne peut récuser est certain » ; c’est confondre l’inévitable et le vrai. Non-lacune : oui. Calibration : oui. Mécanisme : distinction requise, différent de I.3.",
-  "T2": "Bilan : XA, XB. ρ : hétérogénéité de niveaux — XA porte sur l’étendue de pouvoirs particuliers, XB sur l’usage de la faculté ; aucun ne dit quel doute porte sur les pouvoirs sans se détruire. D : établir un doute légitime sur les pouvoirs de la raison qui ne ruine pas la raison qui doute. Cumul : « douter des résultats, non de la faculté » échoue sur Gödel, qui ne doute d’aucun résultat mais borne un pouvoir (le cumul ne répond pas avec l’opérateur sur le cas). Classe : décision.",
-  "epreuves": "1. Contre-exemple : le malin génie de Descartes ; doute total levé par le cogito, qui confirme XB. 2. Meilleur cas : survit. 3. Cumul : échec écrit. 4. Antériorité : la critique kantienne (la raison qui examine ses propres pouvoirs) est une solution connue ; transposée, elle exige un travail (dire en quoi ce doute ne se détruit pas) : candidat de III.",
-  "soupcon_aporie": "indice (iii) examiné : la conciliation hésite là où douter paraît ruiner ce qui doute ; non maintenu, la distinction entre étendue et usage lève l’hésitation ; régime ordinaire.",
-  "chemins_echoues": "Chemin de l’ancienne copie (doute raisonnable / sceptique ; III : raison critique) : intuition reprise ; la III n’y était pas vérifiée sur un cas.",
-  "dictionnaire": "non consulté.",
-  "phrase_mouvement": "A, parce que la raison se trompe et bute sur des questions insolubles, établit qu’on peut douter de certains pouvoirs ; mais non de tous, parce qu’on doute en raisonnant ; il faut donc examiner le doute total. B, parce qu’un doute total se fie à ce qu’il récuse, établit qu’il se détruit ; mais non que les pouvoirs soient garantis. Il reste un doute légitime qui ne se détruise pas.",
-  "probleme_directeur": "Peut-on douter des pouvoirs de la raison, si l’on ne peut douter que par elle et si l’on ne peut se fier à elle sans examen ?",
-  "problematique": "Si la raison se heurte à des questions qu’elle ne peut résoudre, mais qu’on ne peut douter d’elle qu’en raisonnant, peut-on douter des pouvoirs de la raison sans que ce doute se ruine lui-même ?",
-  "forme_problematique": "G3 (deux acquis en protases, « peut-on douter des pouvoirs de la raison » conservé). Reconstruction : on part des échecs, on bute sur la portée, on examine le doute total, on bute sur la garantie ; la III doit trouver un doute légitime. Relecture : aucune radicalisation.",
-  "critere": "Sur le théorème de Gödel, une solution devra dire si l’on peut douter des pouvoirs de la raison, conserver qu’elle a des échecs et qu’un doute total se détruit, expliquer les deux arrêts, et désigner le doute qui ne se détruit pas.",
-  "contrainte_scene": "montrer une confiance totale dans un pouvoir de la raison et la démonstration de sa borne.",
-  "III": {
-   "operation": "critère de frontière (III.7 a) : le doute légitime porte sur l’étendue d’un pouvoir et est conduit par la raison elle-même, qui démontre où il s’arrête.",
-   "III1": "Le doute légitime porte sur l’étendue d’un pouvoir, non sur l’autorité de la raison, et c’est la raison qui le conduit, en démontrant où ce pouvoir s’arrête.",
-   "III2": "Conserve XA (des pouvoirs particuliers peuvent être mis en doute) et XB (la raison ne peut être récusée en bloc) ; explique LA (le doute de I visait des usages, il peut viser l’étendue) et LB (l’usage inévitable n’est pas garanti, mais il peut être mesuré par lui-même). Un doute qui démontre sa borne ne se détruit pas, il se vérifie.",
-   "III3": "On peut douter des pouvoirs de la raison, si c’est la raison qui en mesure l’étendue en démontrant où ils s’arrêtent ; ce doute ne la ruine pas, il la délimite ; vérifié sur Gödel. Reste : agir avant d’avoir pu mesurer ces pouvoirs.",
-   "tests": "Cas témoin : Gödel démontre, avec toute la rigueur des mathématiques, qu’un système assez riche contient des vérités qu’il ne peut démontrer : le doute sur le pouvoir de démontrer est établi par la raison, qui n’en sort pas ruinée ; ni A, ni B, ni le partage ne le disaient. Second cas : la Critique de la raison pure, où la raison borne son usage spéculatif. Restitution : oui. Rechute : le reste (l’action) ne redit ni LA ni LB. Test propre : frontière définie indépendamment des deux thèses (étendue / autorité). Report : non. Acquis nouveau : prémisse nouvelle — un doute peut être une démonstration ; nécessaire à la décision."
-  },
-  "candidats_III": [
-   {
-    "id": "retenue",
-    "operation": "Critère de frontière",
-    "proposition": "Le doute légitime porte sur l’étendue d’un pouvoir, et c’est la raison qui le conduit en démontrant où il s’arrête.",
-    "verdict": "retenue",
-    "raison": "Décide le cas de Gödel, conserve les deux acquis, explique les deux arrêts."
-   },
-   {
-    "id": "partage",
-    "operation": "Partage",
-    "proposition": "Douter des résultats, non de la faculté.",
-    "verdict": "écartée",
-    "raison": "C’est la conciliation, qui échoue sur Gödel."
-   },
-   {
-    "id": "foi",
-    "operation": "Déplacement",
-    "proposition": "Là où la raison s’arrête, la foi ou l’intuition prennent le relais.",
-    "verdict": "écartée",
-    "raison": "Ne répond pas au sujet ; ajoute une faculté non examinée."
-   },
-   {
-    "id": "pratique",
-    "operation": "Condition",
-    "proposition": "On peut douter de la raison théorique, non de la raison pratique.",
-    "verdict": "dominée",
-    "raison": "Partage trop large ; ne dit pas ce qui rend un doute légitime."
-   }
+  "citations": [
+    {
+      "texte": "qu’elle se trouve accablée par des questions qu’elle ne peut écarter – car elles lui sont proposées par la nature de la raison elle-même –, mais auxquelles elle ne peut pas non plus apporter de réponse",
+      "auteur": "Kant",
+      "oeuvre": "Critique de la raison pure",
+      "lieu": "Préface de la première édition, A VII",
+      "edition": "trad. Alain Renaut, GF-Flammarion",
+      "verification": "œuvre fournie, passage retrouvé mot pour mot (apostrophes typographiques)",
+      "regime": "citation exacte",
+      "fonction": "I.2 : donner l’énoncé exact du second fait sur lequel repose la première réponse."
+    }
   ],
-  "generateur": "figure : la frontière ; registre opératoire : critique ; registre de lecture : démonstratif à ordre visible ; branches B1 ; annonce N1.",
-  "scene": "Königsberg, septembre 1930 : Gödel annonce son théorème d’incomplétude lors d’un congrès ; le lendemain, dans la même ville, Hilbert clôt un discours radiodiffusé par : « Nous devons savoir, nous saurons. » Publication du théorème en 1931. Verdict : homologue. Retour : le doute établi par la raison elle-même.",
-  "statut": {
-   "problematique": "suffisamment justifiée",
-   "copie": "état de travail (architecture expérimentale)"
-  }
- },
- "citations": [
-  {
-   "texte": "qu’elle se trouve accablée par des questions qu’elle ne peut écarter – car elles lui sont proposées par la nature de la raison elle-même –, mais auxquelles elle ne peut pas non plus apporter de réponse",
-   "auteur": "Kant",
-   "oeuvre": "Critique de la raison pure",
-   "lieu": "Préface de la première édition, A VII",
-   "edition": "trad. Alain Renaut, GF-Flammarion",
-   "verification": "œuvre fournie, passage retrouvé mot pour mot (apostrophes typographiques)",
-   "regime": "citation exacte",
-   "fonction": "I.2 : donner l’énoncé exact du second fait sur lequel repose la première réponse."
-  }
- ],
- "copy": [
-  [
-   "INTRODUCTION",
-   [
+  "copy": [
     [
-     "En septembre 1930, à Königsberg, le mathématicien David Hilbert achève un discours radiodiffusé par une devise : « Wir müssen wissen, wir werden wissen » — nous devons savoir, nous saurons.",
-     "Introduction · la scène"
+      "INTRODUCTION",
+      [
+        [
+          "En septembre 1930, à Königsberg, le mathématicien David Hilbert achève un discours radiodiffusé par une devise : « Wir müssen wissen, wir werden wissen » — nous devons savoir, nous saurons.",
+          "Introduction · la scène"
+        ],
+        [
+          "La veille, dans la même ville, un jeune logicien, Kurt Gödel, a annoncé un théorème qui démontre qu’un système mathématique assez riche contient des vérités qu’il ne peut pas démontrer.",
+          "Introduction · la scène : le théorème"
+        ],
+        [
+          "La confiance de Hilbert dans le pouvoir de la raison était entière ; c’est pourtant la raison, et non le scepticisme, qui en a démontré la borne.",
+          "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"
+        ],
+        [
+          "Douter n’est pas nier : c’est suspendre son accord pour des raisons, et le sujet demande si l’on peut le faire à l’égard de ce que la raison peut.",
+          "Introduction · les mots du sujet"
+        ],
+        [
+          "La raison rencontre des questions qu’elle ne peut résoudre ; mais c’est par elle que nous reconnaissons cette limite. Douter de ses pouvoirs n’est donc pas la récuser tout entière.",
+          "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"
+        ],
+        [
+          "Si la raison se heurte à des questions qu’elle ne peut résoudre, mais qu’on ne peut douter d’elle qu’en raisonnant, peut-on douter des pouvoirs de la raison sans que ce doute se ruine lui-même ?",
+          "Introduction · la problématique : une seule question, qui garde « peut-on douter »"
+        ],
+        [
+          "Nous examinerons les échecs de la raison, la contradiction d’un doute total, puis le doute qu’elle peut exercer sur ses propres limites.",
+          "Introduction · l’annonce"
+        ]
+      ]
     ],
     [
-     "La veille, dans la même ville, un jeune logicien, Kurt Gödel, a annoncé un théorème qui démontre qu’un système mathématique assez riche contient des vérités qu’il ne peut pas démontrer.",
-     "Introduction · la scène : le théorème"
+      "I. LA RAISON SE TROMPE",
+      [
+        [
+          "On peut douter des pouvoirs de la raison, car elle se trompe, et elle se heurte à des questions qu’elle ne peut résoudre.",
+          "I.1 Ouvrir une première manière de penser"
+        ],
+        [
+          "Cette réponse sauve la modestie de ceux qui savent : les plus grands mathématiciens ont publié des démonstrations fausses.",
+          "I.1 Ce qu’elle sauve"
+        ],
+        [
+          "Des raisonnements rigoureux se révèlent faux, et Kant ouvre la Critique de la raison pure en constatant que la raison, dans un genre de ses connaissances, est telle « qu’elle se trouve accablée par des questions qu’elle ne peut écarter – car elles lui sont proposées par la nature de la raison elle-même –, mais auxquelles elle ne peut pas non plus apporter de réponse ».",
+          "I.2 La fonder sur des faits ; citation qui donne le second"
+        ],
+        [
+          "La raison peut ainsi examiner ses propres pouvoirs : les questions auxquelles elle ne parvient pas à répondre ne sont pas toutes des fautes de calcul, mais peuvent révéler les limites de ses prétentions.",
+          "I.2 Montrer que la raison peut examiner ses prétentions"
+        ],
+        [
+          "Ce fondement établit qu’on peut douter, avec raison, de certains pouvoirs de la raison.",
+          "I.3 L’éprouver : ce qu’il établit"
+        ],
+        [
+          "Mais il découvre les échecs de la raison en raisonnant, et suppose donc le pouvoir qu’il examine : c’est par un calcul qu’on corrige un calcul, par une preuve qu’on découvre l’erreur d’une preuve.",
+          "I.3 Ce qu’il ne permet pas encore, et pourquoi"
+        ],
+        [
+          "Le sceptique le plus résolu argumente : il ne doute que de certains usages de la raison, au moyen des autres.",
+          "I.3 Le cas qui le montre"
+        ],
+        [
+          "Les échecs de la raison ne permettent donc pas encore d’établir qu’on puisse douter de ses pouvoirs pris ensemble, parce que c’est encore en raisonnant qu’on les découvre.",
+          "I.3 La portée et le manque du premier fondement"
+        ],
+        [
+          "La raison se heurte à des questions qui la dépassent ; pourtant elle doit encore les examiner. Peut-on douter de tous ses pouvoirs sans les employer ?",
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
+        ]
+      ]
     ],
     [
-     "La confiance de Hilbert dans le pouvoir de la raison était entière ; c’est pourtant la raison, et non le scepticisme, qui en a démontré la borne.",
-     "Introduction · ce que la scène fait voir : la force de la première réponse et ce qui lui résiste"
+      "II. UN DOUTE TOTAL SE DÉTRUIT",
+      [
+        [
+          "On ne peut plus douter quand on doute de ce qui fait douter, car un doute total sur la raison se détruit en s’énonçant.",
+          "II.1 Ouvrir une autre manière de penser"
+        ],
+        [
+          "Elle ne nie pas qu’on puisse douter de certains usages de la raison ; elle montre qu’on ne peut la récuser en bloc.",
+          "II.1 Ce qu’elle conserve"
+        ],
+        [
+          "Douter, c’est avoir des raisons de suspendre son accord ; douter de toute la raison, ce serait donc avoir des raisons de ne se fier à aucune raison.",
+          "II.2 La fonder : le doute retourné contre lui-même"
+        ],
+        [
+          "Contester toute raison exige encore de donner des raisons de cette contestation : un doute absolument général détruit le moyen même par lequel il prétend se justifier.",
+          "II.2 Établir la limite d'un doute absolument général"
+        ],
+        [
+          "Cette raison établit qu’on ne peut douter de toute la raison sans se servir d’elle.",
+          "II.3 L’éprouver : ce qu’elle établit"
+        ],
+        [
+          "Mais elle montre que tout doute use de la raison, non que cet usage soit valide partout où il s’exerce : qu’un instrument soit inévitable ne prouve pas qu’il soit sûr.",
+          "II.3 Ce qu’elle ne permet pas encore, et pourquoi : une distinction manque"
+        ],
+        [
+          "La raison dont on ne peut se passer est aussi celle qui produit les questions que Kant disait sans réponse.",
+          "II.3 Le cas qui l’éprouve : un autre moyen qu’en I.3"
+        ],
+        [
+          "Que tout doute se serve de la raison ne permet donc pas encore d’établir que ses pouvoirs soient hors de doute, parce qu’un instrument dont on ne peut se passer n’en est pas pour autant sûr.",
+          "II.3 La portée et le manque du second fondement"
+        ],
+        [
+          "On peut douter de certains pouvoirs, non récuser la raison tout entière. Comment la raison peut-elle mesurer elle-même l’étendue de ce qu’elle peut ?",
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
+        ]
+      ]
     ],
     [
-     "On attend de la raison qu’elle puisse examiner toutes choses, mais elle est aussi ce par quoi nous examinons.",
-     "Introduction · l’enjeu"
+      "III. LA RAISON QUI MESURE SES POUVOIRS",
+      [
+        [
+          "Le doute qui ne ruine pas la raison porte sur l’étendue d’un pouvoir, non sur l’autorité de la raison, et c’est la raison elle-même qui le conduit, en démontrant où ce pouvoir s’arrête.",
+          "III.1 Effectuer le déplacement nécessaire"
+        ],
+        [
+          "Un tel doute ne se fie pas à ce qu’il récuse : il ne récuse rien, il mesure.",
+          "III.1 Ce qui le distingue du doute total"
+        ],
+        [
+          "Ce critère conserve les deux réponses : des pouvoirs particuliers peuvent être mis en doute, et la raison ne peut être récusée en bloc.",
+          "III.2 La démontrer : ce qu’il conserve"
+        ],
+        [
+          "Un doute qui établit jusqu'où va un raisonnement ne récuse donc pas la raison : il mesure son domaine légitime, sans garantir pour autant tous ses usages.",
+          "III.2 Fonder un doute rationnellement délimité"
+        ],
+        [
+          "On peut donc douter des pouvoirs de la raison, si c’est la raison qui en mesure l’étendue en démontrant où ils s’arrêtent : ce doute ne la ruine pas, il la délimite.",
+          "III.3 La réponse au sujet, avec son opérateur"
+        ],
+        [
+          "Gödel n’a pas renoncé aux mathématiques pour douter d’elles : il a démontré, avec toute leur rigueur, qu’un système assez riche contient des vérités qu’il ne peut établir, et la raison en est sortie mieux connue, non vaincue.",
+          "III.3 La réponse vérifiée sur le cas"
+        ],
+        [
+          "Reste qu’il faut souvent agir avant d’avoir pu mesurer jusqu’où vont les raisons sur lesquelles on s’appuie.",
+          "III.3 Le reste : ce qui demande encore à être pensé"
+        ]
+      ]
     ],
     [
-     "Douter n’est pas nier : c’est suspendre son accord pour des raisons, et le sujet demande si l’on peut le faire à l’égard de ce que la raison peut.",
-     "Introduction · les mots du sujet"
-    ],
-    [
-     "Si l’on répond oui, parce que la raison se trompe et se heurte à des questions insolubles, on ne voit pas encore comment douter de tous ses pouvoirs sans s’en servir ; si l’on répond non, parce qu’un doute total se détruit, on n’a pas montré que ces pouvoirs soient sûrs.",
-     "Introduction · les deux réponses, leur raison, ce qu’elles ne permettent pas encore"
-    ],
-    [
-     "Si la raison se heurte à des questions qu’elle ne peut résoudre, mais qu’on ne peut douter d’elle qu’en raisonnant, peut-on douter des pouvoirs de la raison sans que ce doute se ruine lui-même ?",
-     "Introduction · la problématique : une seule question, qui garde « peut-on douter »"
-    ],
-    [
-     "On examinera d’abord pourquoi l’on peut douter de la raison, et jusqu’où porte ce doute ; ce qu’il laisse en suspens obligera à examiner le doute qui viserait la raison tout entière ; il faudra alors établir ce que ces deux voies, ensemble, laissent encore ouvert.",
-     "Introduction · l’annonce"
+      "CONCLUSION",
+      [
+        [
+          "On peut douter des pouvoirs de la raison, non en la récusant, ce qui se détruit, mais en mesurant par elle jusqu’où ils vont.",
+          "Conclusion · la réponse, avec l’opérateur"
+        ],
+        [
+          "La devise de Hilbert n’a pas été réfutée par le doute, mais par une démonstration : nous savons désormais ce que nous ne pourrons pas démontrer.",
+          "Conclusion · retour à la scène"
+        ],
+        [
+          "Mais comment agir raisonnablement là où la raison n’a pas encore pu mesurer ses propres pouvoirs ?",
+          "Conclusion · le reste en question"
+        ]
+      ]
     ]
-   ]
-  ],
-  [
-   "I. LA RAISON SE TROMPE",
-   [
-    [
-     "On peut douter des pouvoirs de la raison, car elle se trompe, et elle se heurte à des questions qu’elle ne peut résoudre.",
-     "I.1 Établir la première réponse"
-    ],
-    [
-     "Cette réponse sauve la modestie de ceux qui savent : les plus grands mathématiciens ont publié des démonstrations fausses.",
-     "I.1 Ce qu’elle sauve"
-    ],
-    [
-     "Des raisonnements rigoureux se révèlent faux, et Kant ouvre la Critique de la raison pure en constatant que la raison, dans un genre de ses connaissances, est telle « qu’elle se trouve accablée par des questions qu’elle ne peut écarter – car elles lui sont proposées par la nature de la raison elle-même –, mais auxquelles elle ne peut pas non plus apporter de réponse ».",
-     "I.2 La fonder sur des faits ; citation qui donne le second"
-    ],
-    [
-     "Ce qui échoue parfois peut être mis en doute : les pouvoirs de la raison le peuvent donc.",
-     "I.2 L’inférence décisive"
-    ],
-    [
-     "Ce fondement établit qu’on peut douter, avec raison, de certains pouvoirs de la raison.",
-     "I.3 L’éprouver : ce qu’il établit"
-    ],
-    [
-     "Mais il découvre les échecs de la raison en raisonnant, et suppose donc le pouvoir qu’il examine : c’est par un calcul qu’on corrige un calcul, par une preuve qu’on découvre l’erreur d’une preuve.",
-     "I.3 Ce qu’il ne permet pas encore, et pourquoi"
-    ],
-    [
-     "Le sceptique le plus résolu argumente : il ne doute que de certains usages de la raison, au moyen des autres.",
-     "I.3 Le cas qui le montre"
-    ],
-    [
-     "Les échecs de la raison ne permettent donc pas encore d’établir qu’on puisse douter de ses pouvoirs pris ensemble, parce que c’est encore en raisonnant qu’on les découvre.",
-     "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"
-    ],
-    [
-     "On peut douter de certains pouvoirs de la raison ; mais non de tous ensemble, parce que ce doute se sert d’eux. Il faut donc examiner le doute qui viserait la raison tout entière : peut-on encore douter quand on doute de ce qui fait douter ?",
-     "Transition · l’examen nécessaire, en question"
-    ]
-   ]
-  ],
-  [
-   "II. UN DOUTE TOTAL SE DÉTRUIT",
-   [
-    [
-     "On ne peut plus douter quand on doute de ce qui fait douter, car un doute total sur la raison se détruit en s’énonçant.",
-     "II.1 La seconde réponse, qui répond à l’examen demandé"
-    ],
-    [
-     "Elle ne nie pas qu’on puisse douter de certains usages de la raison ; elle montre qu’on ne peut la récuser en bloc.",
-     "II.1 Ce qu’elle conserve"
-    ],
-    [
-     "Douter, c’est avoir des raisons de suspendre son accord ; douter de toute la raison, ce serait donc avoir des raisons de ne se fier à aucune raison.",
-     "II.2 La fonder : le doute retourné contre lui-même"
-    ],
-    [
-     "Un tel doute se fierait à ce qu’il récuse, et se ruinerait au moment même où il se formule, comme celui qui dirait qu’aucune phrase n’est vraie.",
-     "II.2 L’inférence décisive"
-    ],
-    [
-     "Cette raison établit qu’on ne peut douter de toute la raison sans se servir d’elle.",
-     "II.3 L’éprouver : ce qu’elle établit"
-    ],
-    [
-     "Mais elle montre que tout doute use de la raison, non que cet usage soit valide partout où il s’exerce : qu’un instrument soit inévitable ne prouve pas qu’il soit sûr.",
-     "II.3 Ce qu’elle ne permet pas encore, et pourquoi : une distinction manque"
-    ],
-    [
-     "La raison dont on ne peut se passer est aussi celle qui produit les questions que Kant disait sans réponse.",
-     "II.3 Le cas qui l’éprouve : un autre moyen qu’en I.3"
-    ],
-    [
-     "Que tout doute se serve de la raison ne permet donc pas encore d’établir que ses pouvoirs soient hors de doute, parce qu’un instrument dont on ne peut se passer n’en est pas pour autant sûr.",
-     "II.3 Ce que la seconde réponse ne permet pas encore"
-    ],
-    [
-     "On peut douter de certains pouvoirs de la raison, et l’on ne peut la récuser tout entière ; mais la première réponse porte sur l’étendue de tel ou tel pouvoir, la seconde sur l’usage de la faculté, et aucune ne dit quel doute peut viser ses pouvoirs sans se détruire. Dire qu’on doute des résultats et non de la faculté ne dit rien de Gödel, qui ne met en doute aucun résultat : quel doute peut donc porter sur les pouvoirs de la raison sans ruiner la raison qui doute ?",
-     "Transition · pourquoi leur partage échoue, et ce qui reste à établir, en question"
-    ]
-   ]
-  ],
-  [
-   "III. LA RAISON QUI MESURE SES POUVOIRS",
-   [
-    [
-     "Le doute qui ne ruine pas la raison porte sur l’étendue d’un pouvoir, non sur l’autorité de la raison, et c’est la raison elle-même qui le conduit, en démontrant où ce pouvoir s’arrête.",
-     "III.1 L’opération que la difficulté exige : un critère du doute légitime"
-    ],
-    [
-     "Un tel doute ne se fie pas à ce qu’il récuse : il ne récuse rien, il mesure.",
-     "III.1 Ce qui le distingue du doute total"
-    ],
-    [
-     "Ce critère conserve les deux réponses : des pouvoirs particuliers peuvent être mis en doute, et la raison ne peut être récusée en bloc.",
-     "III.2 La démontrer : ce qu’il conserve"
-    ],
-    [
-     "Il explique aussi leurs arrêts : le premier doute visait des usages, il peut viser une étendue ; et l’usage inévitable n’était pas garanti, mais il peut être mesuré par lui-même, de sorte qu’un doute qui démontre sa borne ne se détruit pas : il se vérifie.",
-     "III.2 Ce qu’il explique"
-    ],
-    [
-     "On peut donc douter des pouvoirs de la raison, si c’est la raison qui en mesure l’étendue en démontrant où ils s’arrêtent : ce doute ne la ruine pas, il la délimite.",
-     "III.3 La réponse au sujet, avec son opérateur"
-    ],
-    [
-     "Gödel n’a pas renoncé aux mathématiques pour douter d’elles : il a démontré, avec toute leur rigueur, qu’un système assez riche contient des vérités qu’il ne peut établir, et la raison en est sortie mieux connue, non vaincue.",
-     "III.3 La réponse vérifiée sur le cas"
-    ],
-    [
-     "Reste qu’il faut souvent agir avant d’avoir pu mesurer jusqu’où vont les raisons sur lesquelles on s’appuie.",
-     "III.3 Le reste : ce que cette réponse ne règle pas"
-    ]
-   ]
-  ],
-  [
-   "CONCLUSION",
-   [
-    [
-     "On peut douter des pouvoirs de la raison, non en la récusant, ce qui se détruit, mais en mesurant par elle jusqu’où ils vont.",
-     "Conclusion · la réponse, avec l’opérateur"
-    ],
-    [
-     "La devise de Hilbert n’a pas été réfutée par le doute, mais par une démonstration : nous savons désormais ce que nous ne pourrons pas démontrer.",
-     "Conclusion · retour à la scène"
-    ],
-    [
-     "Mais comment agir raisonnablement là où la raison n’a pas encore pu mesurer ses propres pouvoirs ?",
-     "Conclusion · le reste en question"
-    ]
-   ]
   ]
- ]
 }

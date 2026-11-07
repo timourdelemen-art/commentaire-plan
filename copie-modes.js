@@ -31,7 +31,7 @@
       if(e.classList.contains('c20-block')){block=true;return;}
       if(e.classList.contains('bridge')||e.matches('aside.transition')){var p=e.querySelector('p');if(p){open(true,true);cur.s.push(p.innerHTML.trim());}part=true;cur=null;return;}
       if(!e.classList.contains('c20-s')){if(!e.closest('.bridge,aside.transition')){part=true;lastSub='';}return;}
-      var fe=e.querySelector('.c20-f'),f=fe?fe.textContent:'',sb=sub(f),tr=isTransition(f);
+      var fe=e.querySelector('.c20-f'),f=fe?fe.textContent:'',sb=e.getAttribute('data-dynamic-sub')||sub(f),tr=isTransition(f);
       if(!cur||part||block||tr||cur.tr||(sb&&lastSub&&sb!==lastSub)){
         open(part||tr||(cur&&cur.tr)||!cur,tr);
       }
