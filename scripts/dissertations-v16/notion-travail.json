@@ -86,6 +86,12 @@
     "statut": {
       "problematique": "suffisamment justifiée",
       "copie": "état de travail (architecture expérimentale)"
+    },
+    "ouvertures_de_pensee": {
+      "I": "Le travail ne forme donc pas seulement une habileté utile : en subordonnant son action à un projet, l'homme peut apprendre à régler sa conduite par une fin qu'il comprend.",
+      "II": "Mais la même activité devient pensable comme dépossession lorsque celui qui l'accomplit n'a plus la maîtrise du projet : travailler ne signifie plus nécessairement exercer son jugement.",
+      "III": "Nous pouvons alors chercher ce qui humanise au-delà de la simple production : la possibilité de contribuer à une œuvre reconnue et de prendre part, autant que possible, aux décisions qui l'orientent.",
+      "statut": "Possibilités justifiées, avec leur portée exacte."
     }
   },
   "citations": [
@@ -139,7 +145,7 @@
       [
         [
           "Le travail nous rend plus humains, car en transformant la matière, l’homme se transforme lui-même.",
-          "I.1 Établir la première réponse"
+          "I.1 Ouvrir une première manière de penser"
         ],
         [
           "Cette réponse sauve ce que tout apprenti découvre : on devient quelqu’un en apprenant à bien faire quelque chose.",
@@ -152,6 +158,10 @@
         [
           "Or ce sont là les capacités qui distinguent l’homme : le travail développe donc ce qui fait de nous des hommes.",
           "I.2 L’inférence décisive"
+        ],
+        [
+          "Le travail ne forme donc pas seulement une habileté utile : en subordonnant son action à un projet, l'homme peut apprendre à régler sa conduite par une fin qu'il comprend.",
+          "I.2 Ce que la preuve ouvre"
         ],
         [
           "Ce fondement établit que le travail développe des capacités humaines : savoir-faire, maîtrise de soi, désir différé.",
@@ -167,11 +177,11 @@
         ],
         [
           "La formation de soi par le travail ne permet donc pas encore d’établir que tout travail nous rende plus humains, parce qu’elle suppose que celui qui travaille conçoive ce qu’il fait.",
-          "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"
+          "I.3 La portée et le manque du premier fondement"
         ],
         [
           "Le travail forme celui qui conçoit son activité, pas nécessairement celui qui exécute des gestes imposés. Que devient l’homme quand d’autres décident pour lui ?",
-          "Transition · l’examen nécessaire, en question"
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
         ]
       ]
     ],
@@ -180,7 +190,7 @@
       [
         [
           "Quand il ne fait plus que des mouvements, l’homme devient l’instrument d’une pensée qui n’est pas la sienne, et le travail, loin de l’humaniser, le diminue.",
-          "II.1 La seconde réponse, qui répond à l’examen demandé"
+          "II.1 Ouvrir une autre manière de penser"
         ],
         [
           "Elle ne nie pas que le travail puisse former ; elle montre qu’il ne le fait pas par lui-même.",
@@ -193,6 +203,10 @@
         [
           "L’ouvrier n’y exerce plus que des mouvements réglés d’avance, et un homme réduit à exécuter ce qu’un autre a pensé est traité comme un outil.",
           "II.2 L’inférence décisive"
+        ],
+        [
+          "Mais la même activité devient pensable comme dépossession lorsque celui qui l'accomplit n'a plus la maîtrise du projet : travailler ne signifie plus nécessairement exercer son jugement.",
+          "II.2 La possibilité que la seconde preuve révèle"
         ],
         [
           "Cette raison établit que le travail divisé et subordonné peut réduire l’homme à un instrument.",
@@ -208,11 +222,11 @@
         ],
         [
           "La subordination du travail ne permet donc pas encore d’expliquer pourquoi sa perte abîme aussi les hommes, parce qu’elle ne mesure le travail qu’à la maîtrise de la tâche.",
-          "II.3 Ce que la seconde réponse ne permet pas encore"
+          "II.3 La portée et le manque du second fondement"
         ],
         [
           "Un travail peut former ou asservir ; pourtant même un travail pénible manque à celui qui le perd. Qu’apporte-t-il que ces deux réponses ne saisissent pas ?",
-          "Transition · pourquoi leur partage échoue, et ce qui reste à expliquer, en question"
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
         ]
       ]
     ],
@@ -221,7 +235,7 @@
       [
         [
           "Ce que le travail donne tient à deux choses liées : on y exerce son jugement, et l’on y fait quelque chose dont d’autres ont besoin, par quoi l’on a une place parmi eux.",
-          "III.1 L’opération que la difficulté exige : une explication commune"
+          "III.1 Effectuer le déplacement nécessaire"
         ],
         [
           "La première fait de celui qui travaille un esprit qui règle ses mouvements ; la seconde fait de lui quelqu’un que les autres attendent.",
@@ -236,6 +250,10 @@
           "III.2 Ce qu’elle explique"
         ],
         [
+          "Nous pouvons alors chercher ce qui humanise au-delà de la simple production : la possibilité de contribuer à une œuvre reconnue et de prendre part, autant que possible, aux décisions qui l'orientent.",
+          "III.2 Ce que la transformation fait comprendre"
+        ],
+        [
           "Le travail nous rend donc plus humains dans la mesure où il joint l’exercice du jugement à une utilité reconnue par d’autres ; il ne le fait pas par lui-même, et il nous diminue quand il nous ôte l’un ou l’autre.",
           "III.3 La réponse au sujet, avec son opérateur"
         ],
@@ -245,7 +263,7 @@
         ],
         [
           "Reste à savoir ce que deviendra cette part humaine si les machines rendent inutile la plupart des travaux, comme Aristote l’imaginait déjà : « si, de même, les navettes tissaient d’elles-mêmes et les plectres jouaient tout seuls de la cithare, alors les ingénieurs n’auraient pas besoin d’exécutants ni les maîtres d’esclaves ».",
-          "III.3 Le reste ; citation qui en donne l’hypothèse exacte"
+          "III.3 Le reste : ce qui demande encore à être pensé"
         ]
       ]
     ],
