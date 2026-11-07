@@ -24,9 +24,9 @@ for k,c in COPIES.items():
 <link rel="stylesheet" href="styles.css"><link rel="canonical" href="https://commentaire-plan.com/{slug}">
 </head><body><header class="top"></header><main class="wrap dc20-page">
 
-<section class="pagehead"><div><div class="kicker">BAC · DISSERTATION · LA COPIE À 20</div><h1>Une dissertation à 20<br>sur <em>Pour un oui ou pour un non</em>.</h1>
-<p class="lede">La copie la plus courte qui mérite 20, sur un vrai sujet du bac : {ns} phrases, environ {round(nw,-1)} mots. Lisez-la d’abord d’une traite, puis affichez le rôle de chaque phrase.</p>
-<div class="boussole" aria-label="Avant de commencer"><p><b>D’où vous partez</b>Un vrai sujet du bac et une copie complète.</p><p><b>Ce que vous faites</b>Vous lisez la copie, puis vous affichez la fonction de chaque phrase.</p><p><b>Ce que vous obtenez</b>Le modèle d’une copie courte : chaque phrase a un rôle, aucune ne remplit.</p></div></div>
+<section class="pagehead"><div><div class="kicker">BAC · DISSERTATION · MODÈLE CONDENSÉ</div><h1>Une dissertation guidée<br>sur <em>Pour un oui ou pour un non</em>.</h1>
+<p class="lede">Un modèle condensé sur un vrai sujet du bac : environ {round(nw,-1)} mots. Il montre un parcours argumentatif à approfondir pour une copie de quatre heures ; il ne garantit pas une note de 20/20.</p>
+<div class="boussole" aria-label="Avant de commencer"><p><b>D’où vous partez</b>Un vrai sujet du bac et un modèle condensé.</p><p><b>Ce que vous faites</b>Vous lisez la copie, puis vous affichez la fonction de chaque phrase.</p><p><b>Ce que vous obtenez</b>Le modèle d’une copie courte : chaque phrase a un rôle, aucune ne remplit.</p></div></div>
 <aside class="side-note"><p><strong>Le sujet</strong><br>{c['sujet']}</p><p class="dc20-meta">{c['session']}. Œuvre : Nathalie Sarraute, <em>Pour un oui ou pour un non</em> ; parcours associé : « théâtre et dispute ».{pdf}</p><p class="dc20-badge">Copie rédigée pour le site</p></aside></section>
 
 <section class="offer-band" id="copie"><div class="kicker">LA COPIE</div><h2>{c['titre']}</h2>
@@ -34,7 +34,7 @@ for k,c in COPIES.items():
 <div class="c20 dc20 c20-plain" id="dc20-copie">{blocks}</div>
 </section>
 
-<section class="offer-band"><div class="kicker">POURQUOI CETTE COPIE MÉRITE 20</div><h2>Rien n’y est décoratif.</h2>
+<section class="offer-band"><div class="kicker">LES FORCES DE CE MODÈLE</div><h2>Rien n’y est décoratif.</h2>
 <div class="grid-3">
 {why}
 </div>
