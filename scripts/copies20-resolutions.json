@@ -330,7 +330,7 @@
    "residual": "Reste que cette compréhension, si elle délivre de la crainte, délivre aussi de l’espoir, puisque, selon Spinoza, « il n’y a pas d’espoir sans crainte, ni de crainte sans espoir » ; or certains bonheurs vivent d’espérer.",
    "conclusionQuestion": "Mais un bonheur sans espoir est-il encore celui que nous désirions ?",
    "economy": {
-    "words": 1251,
+    "words": 1066,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -338,7 +338,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "7fe333502ae1a96350abcab9b909f2e4a14f81e593527fa9bb14c3272cb43f6d",
+   "copySha256": "09c8ed999fb744a86e2672c26f3d03b46376c5962a981cb8873cf41e3d625ba0",
    "protocol": "V16.1-exp"
   },
   "2026-asie-langage": {
@@ -398,7 +398,7 @@
    "residual": "Reste qu’un tel travail suppose une communauté qui accueille les mots changés, et qu’un pouvoir peut s’employer à la défaire.",
    "conclusionQuestion": "Mais que reste-t-il de cette liberté quand plus personne n’accueille les mots qu’on change ?",
    "economy": {
-    "words": 1100,
+    "words": 951,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -406,7 +406,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "1c4058f774997560ced0fa23e39817ae14970c020efcd3e28620fc418cfcdeed",
+   "copySha256": "af40087216042642b86c67758b826856de3a12495b9a5305f6cb1bbaacff2e83",
    "protocol": "V16.1-exp"
   },
   "2026-g1-bien-agir": {
@@ -466,7 +466,7 @@
    "residual": "Reste que cette certitude suppose une situation que d’autres peuvent reconstituer, ce que ne permettent pas les actes sans témoin ni trace.",
    "conclusionQuestion": "Mais que vaut cette certitude pour les actes que personne ne peut reconstituer avec nous ?",
    "economy": {
-    "words": 1220,
+    "words": 1065,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -474,7 +474,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "f159a1ce9632ff816f39d974b9052005cae59e77db608c19cd3b7f4c7efeeba6",
+   "copySha256": "eafe6fa69dab79be064391036bf019926853296acf93be84e33ffcf260d8b64d",
    "protocol": "V16.1-exp"
   },
   "2026-g1-nature-besoin": {
@@ -534,7 +534,7 @@
    "residual": "Reste que ce critère ne vaut que pour ce qui vit, et ne dit rien de ce que nous devons à ce qui ne vit pas, un fleuve, un glacier, une montagne.",
    "conclusionQuestion": "Mais devons-nous quelque chose aussi à ce qui ne vit pas ?",
    "economy": {
-    "words": 1220,
+    "words": 1032,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -542,7 +542,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "ab66575d1361b55370392fe0b777d87b021f476b9428daebb3fac21fc4c52e00",
+   "copySha256": "d4ebc515c3e43b032b0d2bf6a1ceb1fe51ec6048e489c5ab9e7e23b9697747fa",
    "protocol": "V16.1-exp"
   },
   "2026-me-bonheur-autres": {
