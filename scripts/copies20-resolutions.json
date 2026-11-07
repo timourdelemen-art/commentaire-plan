@@ -66,7 +66,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "796159b5f46938abdbeec4d33cb14910924280e2e29fec892d54ce283de8cbc4",
+   "copySha256": "e21032ac4d18822b00672201cf756f140a728a17a0a833eea1a3aff1b5e139ef",
    "protocol": "V16.1-exp"
   },
   "2026-ag-humanite-religion": {
@@ -134,7 +134,7 @@
     "status": "propose",
     "independentReview": "Inférences et portée de la troisième partie corrigées ; vérifications indépendantes de l'ensemble du corpus et des références encore requises."
    },
-   "copySha256": "9320766c46a208a20c4e289f046b359aa7d7d569df9dba3bf808cbac53976502",
+   "copySha256": "3e842415eee03c9f62f49bb997a0a99dacea2c48c87f1ff839dc9531680e10b7",
    "protocol": "V16.1-exp"
   },
   "2026-an-artiste-sait": {
@@ -202,7 +202,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "96031aa1211f236ce647b687e332dedbf3ebd8ecad56e1713acf6cadce608245",
+   "copySha256": "75f56ef403a13c8ce87deb4919b809a0d18c002ba54b6e6075d337a3160ed458",
    "protocol": "V16.1-exp"
   },
   "2026-an-science-utile": {
@@ -270,7 +270,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "7734ee5617e69bd9df597ff83d180306bf5579057d7b9633aa20801c3f01d569",
+   "copySha256": "4f8c4d49b417ba38f9521f4cf502ac0c1bab692f48439c2eb8a95e1719c5ca62",
    "protocol": "V16.1-exp"
   },
   "2026-asie-inconscient-bonheur": {
@@ -338,7 +338,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "4ee9bcafba2d7db3c09d36de4400dc84b1978c50fef48c465645d88c3b764f09",
+   "copySha256": "04c5f187f2f24ca9d6e5457d8a7c33439d3f0a5a26a28f6cf58a8d01bda4c709",
    "protocol": "V16.1-exp"
   },
   "2026-asie-langage": {
@@ -406,7 +406,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "cf614bbe55b5d67bb39a4a48bb9b699299d9ffd66a973b82173ed5d3e96653e5",
+   "copySha256": "0eb3cee00c875b96827e4b0f2e6b82936fa26dcd7cc0cb74c4749747f9799c57",
    "protocol": "V16.1-exp"
   },
   "2026-g1-bien-agir": {
@@ -474,7 +474,7 @@
     "status": "propose",
     "independentReview": "Inférences et portée de la troisième partie corrigées ; vérifications indépendantes de l'ensemble du corpus et des références encore requises."
    },
-   "copySha256": "a4feb6efcf017a75a11822fb4e770d5e91f267a3fefefbd4dfa80b8dd30c04db",
+   "copySha256": "775df3f99eead38cedf5654ee70ee453145d792dbc8ea3e7cd55975a6defad5e",
    "protocol": "V16.1-exp"
   },
   "2026-g1-nature-besoin": {
