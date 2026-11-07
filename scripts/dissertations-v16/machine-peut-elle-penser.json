@@ -46,19 +46,19 @@
   "critere": "Sur Deep Blue, une solution devra dire si la machine pense, conserver la performance et la conscience, et expliquer ce qu’elles ont en commun.",
   "contrainte_scene": "montrer une performance qui ne suffit pas à établir la pensée.",
   "III": {
-   "operation": "distinction (III.7 a) : ce qui se calcule et ce qui se pense.",
-   "III1": "Distinguer les deux sens.",
-   "III2": "Démontrer et expliquer.",
-   "III3": "Réponse, cas, reste.",
-   "tests": "Cas témoin : Deep Blue, qui juge des positions. Restitution : oui, la performance est reconnue. Rechute : le reste (la conscience de ce qui est fait) ne redit ni LA ni LB. Test propre : la distinction tient-elle sans supposer la réponse ? Report : la distinction vaut pour un autre cas, un programme qui se corrige. Retour : la scène."
+   "operation": "Enquête par critères et degrés : dissocier performance, compréhension et conscience ; vérifier les conditions sans poser d'avance l'exclusion.",
+   "III1": "Distinguer la réussite observable, la compréhension et la conscience possible ; examiner pour chacune le type de preuve nécessaire.",
+   "III2": "Turing montre comment éprouver les capacités observables ; Searle montre que le calcul symbolique ne démontre pas la compréhension ; Butlin et ses collègues examinent les indicateurs tirés des théories de la conscience. Conserver les performances de la première réponse et l'exigence de compréhension de la seconde.",
+   "III3": "Une machine peut raisonner au sens opératoire ; la compréhension et la conscience exigent des indices distincts, que Deep Blue n'apporte pas. Reste le statut probant de tels indices.",
+   "tests": "Cas : Deep Blue, réussite spécialisée qui ne répond pas aux critères plus exigeants de compréhension et conscience. Restitution : performance reconnue. Non-rechute : ne conclure ni à la conscience ni à son impossibilité d'après la seule performance. Report : un modèle de langage ou un système artificiel à architecture différente exigerait la même distinction. Limite : indicateurs scientifiques ne sont pas une preuve définitive d'une expérience vécue."
   },
   "candidats_III": [
    {
     "id": "retenue",
-    "operation": "Distinction",
-    "proposition": "Une machine peut penser au sens opératoire, non au sens qui suppose un sujet.",
+    "operation": "Enquête par critères et degrés",
+    "proposition": "Distinguer performance, compréhension et conscience en exigeant pour chacune un type de preuve approprié.",
     "verdict": "retenue",
-    "raison": "Conserve la performance et la conscience ; explique le cas Deep Blue ; laisse ouvert le reste."
+    "raison": "Préserve les performances, prend au sérieux l'objection sur la compréhension et n'affirme pas sans preuve l'absence de conscience."
    },
    {
     "id": "frontiere",
@@ -72,7 +72,7 @@
     "operation": "Critère",
     "proposition": "La pensée se reconnaît à sa conscience de soi.",
     "verdict": "dominée",
-    "raison": "Critère juste, mais il exclut trop vite toute machine sans la justifier."
+    "raison": "Affirme la nécessité de la conscience sans offrir un test indépendant des mots employés pour la définir."
    },
    {
     "id": "processus",
@@ -89,18 +89,7 @@
    "copie": "état de travail (architecture expérimentale)"
   }
  },
- "citations": [
-  {
-   "texte": "doit nécessairement pouvoir accompagner toutes mes représentations",
-   "auteur": "Kant",
-   "oeuvre": "Critique de la raison pure",
-   "lieu": "§ 16 (B 131-132) : de l’unité originairement synthétique de l’aperception",
-   "edition": "traduction du fichier fourni ; traducteur et édition à confirmer avant publication",
-   "verification": "œuvre fournie, passage retrouvé mot pour mot",
-   "regime": "citation exacte",
-   "fonction": "II.2 : faire voir que penser suppose une représentation qui puisse être dite sienne."
-  }
- ],
+ "citations": [],
  "copy": [
   [
    "INTRODUCTION",
@@ -118,16 +107,12 @@
      "Introduction · l’enjeu de la défaite."
     ],
     [
-     "Faut-il alors dire qu’une machine pense ? Le mot « penser » désigne ici ce qui juge, raisonne et se représente ce qu’il fait.",
+     "« Penser » peut désigner une opération de raisonnement, mais aussi l'expérience qu'un sujet fait de ses propres représentations.",
      "Introduction · le mot en jeu"
     ],
     [
-     "La machine accomplit des opérations que nous disons intelligentes ; leur réussite ne prouve pourtant pas qu’elle se représente ce qu’elle fait. Mais comment établir une telle différence ?",
+     "La machine réussit des opérations intelligentes ; ce succès ne prouve pourtant pas qu'elle éprouve ce qu'elle fait. Refuser toute pensée aux machines pose inversement une limite qu'il faut justifier.",
      "Introduction · les deux réponses"
-    ],
-    [
-     "La seconde n’est pas faible : elle ne nie pas les performances, elle en nie le sujet.",
-     "Introduction · ce qui résiste à la première"
     ],
     [
      "Une machine peut-elle penser, si penser c’est traiter correctement des symboles, ou faut-il qu’il y ait un sujet qui se sait penser, ce qu’une machine ne semble pas pouvoir être ?",
@@ -143,40 +128,32 @@
    "I. UNE MACHINE PENSE CE QU’ELLE RÉUSSIT",
    [
     [
-     "Si penser consiste à juger et à raisonner, la machine le peut : Deep Blue évalue des positions, anticipe des coups et choisit celui qui conduit le mieux à la victoire.",
-     "I.1 Installer : la raison de la première réponse."
+     "Si penser consiste à résoudre des problèmes à l'aide de règles, une machine peut penser : Deep Blue évalue les positions et sélectionne un coup gagnant.",
+     "I.1 Établir la première réponse"
     ],
     [
-     "Ce qui compte dans la pensée serait alors le traitement correct de règles, indépendamment de la matière qui le réalise.",
-     "I.1 Ce que la première réponse affirme : penser est une opération."
+     "La matière du dispositif semble alors secondaire ; c'est la qualité du traitement de l'information qui importe.",
+     "I.1 Ce qu'elle sauve"
     ],
     [
-     "Un calcul sur des symboles peut produire des résultats qu’on dirait pensés.",
-     "I.2 Développer : la pensée comme calcul."
+     "En 1950, Alan Turing propose de déplacer la question « les machines pensent-elles ? » vers une épreuve où l'on juge leurs réponses dans un échange, sans voir qui les produit.",
+     "I.2 Fonder : l'épreuve observable proposée par Turing"
     ],
     [
-     "Si l’on reconnaît la pensée à ses performances, la machine est pensante dès qu’elle les réalise.",
-     "I.2 Ce que la réponse permet."
+     "Cette proposition est forte : elle demande des critères contrôlables plutôt qu'une intuition sur ce qu'une machine éprouve intérieurement.",
+     "I.2 L'inférence : pouvoir reconnaître des conduites intelligentes"
     ],
     [
-     "Ce n’est donc pas la nature de ce qui calcule qui décide, mais la manière dont il réussit.",
-     "I.2 Ce que la réponse permet : le critère de la réussite."
+     "Deep Blue réussit aux échecs, mais une seule performance spécialisée ne suffit pas à satisfaire l'épreuve plus ouverte imaginée par Turing.",
+     "I.3 Éprouver le critère sans le confondre avec le cas"
     ],
     [
-     "Les échecs ont des règles fixes, et c’est ce qui rend la tâche calculable : une position n’admet qu’un nombre fini de coups, même si ce nombre est très grand.",
-     "I.2 Développer : ce qui rend la tâche calculable."
+     "Surtout, même une imitation réussie laisserait entière une question : l'aptitude à répondre comme un esprit suffit-elle à comprendre ce que l'on dit ?",
+     "I.3 Ce que la première réponse ne permet pas encore"
     ],
     [
-     "Le cas de Deep Blue confirme cette réponse : la partie gagnée montre une capacité de juger des positions.",
-     "I.3 Éprouver sur le cas : la partie."
-    ],
-    [
-     "La performance échiquéenne ne permet pas encore d’établir qu’une machine pense, parce qu’elle ne dit pas si la machine sait qu’elle juge.",
-     "I.3 Ce que cette réponse ne permet pas encore."
-    ],
-    [
-     "Une machine peut réussir les mêmes tâches qu’un esprit humain sans se représenter ses propres actes. Sa performance suffit-elle à établir qu’elle pense ?",
-     "Transition · la question qui passe à la seconde réponse."
+     "Une performance peut être intelligente sans nous apprendre comment elle est produite. Suffit-il de bien répondre pour comprendre ?",
+     "Transition · vers le fondement de la seconde réponse"
     ]
    ]
   ],
@@ -184,40 +161,32 @@
    "II. PENSER, C’EST SE REPRÉSENTER CE QU’ON FAIT",
    [
     [
-     "Penser, ce n’est pas seulement obtenir un résultat : c’est se représenter ce que l’on fait et pouvoir le tenir pour sien.",
-     "II.1 Répondre précisément à la transition : penser comme conscience."
+     "Une réponse réussie ne prouve pas nécessairement la compréhension : exécuter une règle et saisir ce qu'elle signifie ne sont pas une même chose.",
+     "II.1 Établir la seconde réponse"
     ],
     [
-     "Kant le dit : le « je pense » doit nécessairement pouvoir accompagner toutes mes représentations ; sans cette unité, certaines représentations ne seraient rien pour moi.",
-     "II.2 Justifier : la conscience comme condition de la pensée."
+     "Cette objection ne nie pas les performances ; elle interroge ce qu'elles autorisent à conclure.",
+     "II.1 Ce qu'elle conserve"
     ],
     [
-     "Une représentation qui ne peut être accompagnée de ce « je pense » n’appartient à personne, et n’est donc pas pensée par quelqu’un.",
-     "II.2 Ce que la conscience permet d’exclure."
+     "En 1980, John Searle imagine un homme qui manipule des signes chinois selon un manuel et fournit des réponses correctes sans comprendre le chinois : c'est l'argument de la chambre chinoise.",
+     "II.2 Fonder : la différence entre syntaxe et compréhension"
     ],
     [
-     "Une machine traite des symboles ; elle n’a pas de représentations qu’elle puisse dire siennes, elle exécute une règle qu’elle ne se représente pas.",
-     "II.2 L’inférence décisive."
+     "Suivre des règles de traitement des symboles ne suffit donc pas, selon Searle, à produire leur signification pour celui qui les suit.",
+     "II.2 L'inférence décisive"
     ],
     [
-     "Le calcul de Deep Blue ne se sait pas calcul : le choix qu’il produit n’est accompagné d’aucun « je pense ».",
-     "II.2 Ce qui se voit dans le cas."
+     "L'objection éclaire la limite du succès de Deep Blue : le calcul de coups ne démontre aucune compréhension vécue de la partie.",
+     "II.3 Éprouver sur le même cas"
     ],
     [
-     "Un programme qui affiche « je calcule » ne se représente pas davantage ce qu’il dit : l’affichage n’est pas la conscience.",
-     "II.2 Ce que l’affichage ne prouve pas."
+     "Mais Searle n'établit pas qu'aucune machine ne pourrait penser : il conteste qu'un programme formel, à lui seul, suffise à la compréhension. Il reste possible d'examiner autrement l'organisation d'un système.",
+     "II.3 Ce que cette seconde réponse ne permet pas encore"
     ],
     [
-     "Ce cas éprouve la seconde réponse : la machine juge des positions sans pouvoir dire qu’elle les juge.",
-     "II.3 Éprouver : le même cas, vu du côté du sujet."
-    ],
-    [
-     "La conscience de la règle ne permet donc pas encore d’établir qu’une machine pense, parce qu’on peut concevoir une conscience simulée qui ne serait qu’un calcul de plus.",
-     "II.3 Ce que la seconde réponse ne permet pas encore."
-    ],
-    [
-     "Le calcul peut imiter le raisonnement ; la conscience ne se laisse pas constater de l’extérieur. Sur quel critère distinguer une pensée réelle d’une performance calculée ?",
-     "Transition · la question qui passe à la distinction."
+     "La réussite n'est pas la compréhension ; le calcul formel ne suffit peut-être pas à l'expliquer. Comment déterminer ce qu'il faudrait à une machine pour penser réellement ?",
+     "Transition · vers l'examen des conditions"
     ]
    ]
   ],
@@ -225,36 +194,36 @@
    "III. CE QUI SE CALCULE ET CE QUI SE PENSE",
    [
     [
-     "Il faut distinguer deux choses que les deux réponses confondent : ce qui se calcule et ce qui se pense.",
-     "III.1 L’opération que la difficulté exige : une distinction."
+     "Il faut remplacer l'opposition entre calcul et pensée par une recherche de conditions : de quelles capacités un système doit-il disposer pour qu'on lui attribue une pensée, et à quel degré ?",
+     "III.1 L'opération exigée : transformer le critère en enquête"
     ],
     [
-     "Calculer est une opération que la machine réalise ; penser, c’est se représenter ce qu’on calcule et pouvoir en répondre.",
-     "III.1 Ce que la distinction sépare."
+     "Cela permet de distinguer la réussite à une tâche, la compréhension de ses raisons et l'éventuelle expérience consciente qui l'accompagne.",
+     "III.1 La distinction opératoire"
     ],
     [
-     "La première réponse garde la performance, la seconde garde le sujet, et la distinction permet de garder les deux ensemble.",
-     "III.2 Démontrer : ce que chaque réponse garde."
+     "En 2023, Patrick Butlin et ses collègues proposent d'étudier les propriétés des systèmes d'IA à partir d'indicateurs tirés de théories scientifiques de la conscience, plutôt que de s'en tenir à leur ressemblance avec nous.",
+     "III.2 Fonder la nouvelle démarche par une enquête contemporaine"
     ],
     [
-     "Une machine peut calculer comme pense celui qui calcule ; elle ne pense pas tant qu’aucun calcul ne se donne comme le sien.",
-     "III.2 Ce que la distinction explique."
+     "L'analyse ne déduit ni une conscience de la bonne réponse ni son impossibilité d'une simple exécution de règles : elle examine des propriétés de l'architecture et du fonctionnement.",
+     "III.2 Ce qu'elle conserve et ce qu'elle explique"
     ],
     [
-     "Cette distinction n’est pas une échappatoire : elle dit à quoi tient la différence entre une performance et une pensée.",
-     "III.2 Ce que la distinction explique."
+     "Leur étude ne conclut pas que les systèmes examinés sont conscients, mais n'identifie pas non plus d'obstacle technique évident à des systèmes satisfaisant ces indicateurs. Des indicateurs ne constitueraient toutefois pas une preuve définitive de l'expérience vécue.",
+     "III.2 Éprouver le critère et mesurer sa portée"
     ],
     [
-     "La réponse au sujet tient donc en une phrase : une machine peut penser au sens opératoire, non au sens qui suppose qu’un sujet se sache penser.",
-     "III.3 La réponse au sujet, avec son opérateur."
+     "Une machine peut donc penser au sens de conduire certains raisonnements ; pour lui attribuer compréhension et conscience, il faut des arguments supplémentaires sur son fonctionnement, non le seul constat de ses succès.",
+     "III.3 Répondre au sujet sans changer arbitrairement son sens"
     ],
     [
-     "Cette réponse est vérifiée sur le cas : Deep Blue juge des positions, sans que rien ne permette de dire qu’il se les représente.",
-     "III.3 La réponse vérifiée sur le cas."
+     "Deep Blue témoigne d'une puissance de calcul et de décision ; il ne permet pas, à lui seul, de trancher la question de la compréhension ou de la conscience artificielles.",
+     "III.3 Vérifier sur le cas"
     ],
     [
-     "Reste que nous ne savons pas si la conscience est autre chose qu’un calcul qui se sait calculer : le problème n’est pas réglé.",
-     "III.3 Le reste : ce que cette réponse ne règle pas."
+     "Reste une difficulté : des propriétés observables suffiront-elles un jour à établir qu'un système éprouve quelque chose, ou ne montreront-elles que les conditions possibles d'une telle expérience ?",
+     "III.3 Le reste : la portée de notre preuve"
     ]
    ]
   ],
@@ -262,24 +231,20 @@
    "CONCLUSION",
    [
     [
-     "Une machine peut penser en un sens : celui d’un traitement correct de règles qui réussit ce que la pensée réussit.",
-     "Conclusion · la réponse."
+     "Une machine peut penser au sens où elle accomplit des raisonnements ; sa réussite ne démontre pourtant ni compréhension profonde ni expérience consciente.",
+     "Conclusion · la réponse"
     ],
     [
-     "Elle ne pense pas au sens où une représentation peut être dite sienne : c’est ce que la seconde réponse exigeait, et ce que la distinction conserve.",
-     "Conclusion · la limite."
+     "Turing fournit une manière d'éprouver ses capacités, Searle rappelle que l'imitation n'est pas la compréhension, et les travaux contemporains cherchent des indices plus précis de conscience.",
+     "Conclusion · le chemin parcouru"
     ],
     [
-     "Le cas de Deep Blue montre la force de la première réponse, et ce que la seconde lui oppose.",
-     "Conclusion · retour à la scène."
+     "Deep Blue permet ainsi d'affirmer une aptitude sans préjuger de toutes les formes de pensée.",
+     "Conclusion · le retour à la scène"
     ],
     [
-     "Le cas ne règle donc pas la question ; il la précise, en montrant ce qu’une machine réussit et ce qu’elle ne fait pas voir.",
-     "Conclusion · ce que le cas précise."
-    ],
-    [
-     "Mais un calcul qui se saurait calculer serait-il encore seulement un calcul ?",
-     "Conclusion · le reste en question."
+     "Mais quel type de preuve permettrait de reconnaître une expérience consciente dans un système qui n'est pas humain ?",
+     "Conclusion · le reste reproblématisé"
     ]
    ]
   ]
