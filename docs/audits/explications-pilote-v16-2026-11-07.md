@@ -66,3 +66,67 @@ Chaque phrase du modèle possède une annotation propre dans le tableau `paragra
 3. **Intégration :** exécuter `node scripts/test-explication-textes.js`, ainsi que la génération des pages, les contrôles HTML et les parcours navigateur déclenchés par la PR.
 4. **Défauts recherchés :** annotation qui paraphrase plutôt qu'elle ne décrit une opération ; inférence importée du protocole de dissertation ; exemple extérieur attribué à l'auteur ; longueur sans travail démonstratif ; transition ajoutée sans appui.
 5. **Publication :** ne pas fusionner avant examen du propriétaire, conformément à la règle de concordance du protocole d'explication (porte 10.3). L'ancienne version publiée reste accessible sur `main`, ainsi que dans l'historique Git.
+
+## Extension du pilote : les cinq autres sujets de la banque interactive
+
+**Statut :** la banque `scripts/explication-textes-data.json` contient huit sujets et neuf modèles (dont les deux options technologiques de Malebranche). Les neuf modèles de cette banque sont maintenant retravaillés. Aucun seuil chiffré n'a été imposé avant les interventions : le supplément doit expliciter une inférence, une restriction ou une articulation du passage, sans produire une dissertation annexe.
+
+| Sujet | Modèle | Ancienne longueur | Nouvelle longueur | Fonctions marginales |
+|---|---|---:|---:|---:|
+| Freud, Amérique du Nord 2026 | Libre | 495 | 713 | 35 |
+| Tocqueville, Asie 2026 | Libre | 510 | 716 | 34 |
+| Weil, centres étrangers 2026 | Libre | 572 | 780 | 37 |
+| Malebranche, Antilles-Guyane 2026 | Technologique : option 1 | 652 | 795 | 38 |
+| Malebranche, Antilles-Guyane 2026 | Technologique : option 2 | 497 | 630 | 33 |
+| Rawls, métropole 2025 | Libre | 541 | 763 | 36 |
+
+### Freud : désir, illusion et preuve
+
+Le modèle distingue désormais plus explicitement (a) la cause psychologique d'une croyance, (b) la force de l'adhésion et (c) les conditions qui établiraient sa vérité. L'origine désirante explique l'illusion au sens de Freud mais ne démontre pas, par elle-même, la fausseté de l'objet cru. Le passage du protecteur paternel à la représentation divine est reconstruit comme réponse à une vulnérabilité durable. Le modèle montre ensuite le lien des promesses de providence, de justice et de survie, puis leur extension aux explications du monde. Le rôle des principes internes et leur absence de vérification indépendante sont distingués.
+
+**Contrôle de portée :** ni « désirée donc fausse », ni « religieuse donc sans explication » ; ne pas importer une réfutation de Dieu étrangère à l'argument présent.
+
+### Tocqueville : le calcul de l'intérêt et la liberté politique
+
+L'analyse explique séparément les lumières qui permettent de comprendre les droits et les habitudes qui permettent de les exercer. La perte de capacité politique est distinguée de la suppression formelle des droits. Les mots « travaux inutiles » et « jeux d'oisifs » sont reconduits au jugement des citoyens que rapporte Tocqueville. L'inférence centrale est précisée : en économisant les efforts de participation, les individus risquent de perdre une condition collective de leurs affaires privées. Le rôle de l'absence d'un groupe de remplacement et l'image d'une place vide sont maintenus à leur juste portée.
+
+**Contrôle de portée :** l'enrichissement n'est pas une cause nécessaire de tyrannie ; la défaillance de la vigilance civique est un risque conditionnel, non l'annonce d'une dictature déjà établie.
+
+### Simone Weil 2026 : travail nécessaire, désir et lassitude
+
+L'hypothèse d'une société parfaitement équitable fonctionne comme une soustraction : même si les injustices sociales sont corrigées, le besoin qui se renouvelle impose encore le travail. La finalité pratique de se maintenir en vie n'est pas identifiée au bien vers lequel se porte le désir. Le déplacement physique de l'effort n'est pas confondu avec le progrès visé par l'élan intérieur. Les comparaisons de l'écureuil et du condamné sont expliquées pour leurs fonctions différentes : répétition d'abord, captivité ensuite. La formule sur les meilleurs travailleurs est conservée dans sa portée attestée : exclure la réduction de la lassitude à une simple paresse. Toute hypothèse supplémentaire sur les caractères de ces travailleurs reste explicitement hypothétique.
+
+**Contrôle de portée :** l'auteur ne dit pas que le travail ne produit aucun objet ni que la justice sociale serait inutile.
+
+### Malebranche : régime propre à la voie technologique
+
+**Option 1** : les huit réponses gardent leur ordre A1, A2, A3, B1, B2, B3, C1, C2 ; aucune introduction de dissertation, aucun plan en trois parties artificiel. Les compléments précisent le passage de l'absence de perception à l'affirmation d'inexistence, la fonction de la suspension du jugement, la portée du connecteur « Toutefois », et la différence entre ignorance nécessaire et affirmation évitable.
+
+**Option 2** : l'explication libre approfondit les mêmes inférences tout en restant linéaire. Une interrogation sur un témoignage trompeur ou une décision urgente est explicitement présentée comme discussion de l'explicateur, non comme objection formulée par Malebranche.
+
+**Contrôle de portée :** l'esprit fini peut éviter certaines erreurs en retenant son assentiment ; cela ne prouve pas que toutes les erreurs soient effectivement évitables dans n'importe quelle situation.
+
+### Rawls : droit égal et valeur effective de la liberté
+
+Les capacités d'information, de jugement et de proposition sont distinguées. L'inférence de l'inégalité de fortune à l'influence sur la discussion publique, puis sur les règles, est maintenant reconstruite, y compris son effet de retour possible sur les avantages économiques. Les compensations ont des fonctions différentes : dispersion des moyens privés et élargissement des possibilités d'expression par financement public. Le texte est replacé dans l'hypothèse de propriété privée dans laquelle Rawls raisonne ; aucune abolition universelle de la propriété n'en est déduite. La condition de neutralité des financements reste signalée comme prolongement argumentatif de l'explicateur.
+
+**Contrôle de portée :** valeur réelle des droits ≠ égalité des fortunes ; influence économique ≠ certitude d'une domination immédiate.
+
+## Alignement des exercices
+
+Les cinq parcours ont reçu des questions qui demandent d'expliquer des opérations précises, avec corrigés et aides adaptés. Le premier atelier de chaque sujet porte désormais sur une phrase du modèle révisé. Les remplacements effectifs de consignes, stockés dans `scripts/explication-consignes-data.json`, ont eux aussi été actualisés. L'option 1 de Malebranche conserve les huit réponses dans l'ordre des questions officielles.
+
+## Frontière du périmètre : pages antérieures hors de cette banque
+
+Le site possède également des pages d'explication statiques indépendantes, notamment `philosophie-explication-aristote-2025-antilles-guyane.html` et `philosophie-explication-bergson-2023-centres-etrangers.html`, ainsi que des pages de sujets 2026 ayant leurs propres corrigés. **Elles ne font pas partie des neuf modèles de la banque interactive et ne sont pas réécrites par la présente PR.** Leur présence et leur chemin de génération doivent être inventoriés avant d'affirmer que *toutes* les explications du site ont été mises à niveau.
+
+## Tests et statut du résultat
+
+- Contrôle de structure : neuf modèles pour huit sujets, cinq étapes et deux ateliers par sujet.
+- Contrôle de l'annotation : chaque paragraphe nu est la concaténation des phrases annotées, une fonction non vide par phrase.
+- Contrôle des exercices : l'extrait de l'atelier 1 est bien une phrase du modèle.
+- Contrôle de version : les anciens modèles restent accessibles dans `main` et dans l'historique ; pas de fusion automatique.
+- Contrôle documentaire à compléter : collation systématique de tous les textes avec le PDF officiel (notamment citations, ponctuation, coupes). Les analyses reposent ici sur les modèles et les audits existants ; elles ne certifient pas indépendamment chaque affirmation sur le texte source.
+- Contrôle pédagogique à compléter : audit contradictoire indépendant sur les neuf modèles, puis correction des défauts substantiels.
+
+**Critère final :** l'accroissement du nombre de mots n'est jamais une preuve d'excellence. Les phrases ajoutées doivent permettre au lecteur de refaire une opération de l'auteur ou d'en déterminer la portée sans connaissance extérieure obligatoire.
