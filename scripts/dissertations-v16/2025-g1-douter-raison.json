@@ -89,9 +89,9 @@
       "copie": "état de travail (architecture expérimentale)"
     },
     "ouvertures_de_pensee": {
-      "I": "La raison cesse ainsi d'apparaître comme un pouvoir qui se garantirait lui-même sans examen : elle peut découvrir ses difficultés en exerçant précisément la faculté dont elle se réclame.",
-      "II": "Nous découvrons inversement que la critique de la raison ne saurait supprimer toute exigence de raison : contester un argument oblige encore à produire des raisons de le contester.",
-      "III": "Il devient possible de penser une raison capable de délimiter ses usages sans se condamner elle-même : connaître une frontière peut être un exercice de puissance, et non un aveu d'impuissance.",
+      "I": "La raison peut ainsi examiner ses propres pouvoirs : les questions auxquelles elle ne parvient pas à répondre ne sont pas toutes des fautes de calcul, mais peuvent révéler les limites de ses prétentions.",
+      "II": "Contester toute raison exige encore de donner des raisons de cette contestation : un doute absolument général détruit le moyen même par lequel il prétend se justifier.",
+      "III": "Un doute qui établit jusqu'où va un raisonnement ne récuse donc pas la raison : il mesure son domaine légitime, sans garantir pour autant tous ses usages.",
       "statut": "Hypothèses établies à la mesure de leurs preuves ; ne pas transformer une possibilité en certitude."
     }
   },
@@ -157,12 +157,8 @@
           "I.2 La fonder sur des faits ; citation qui donne le second"
         ],
         [
-          "Ce qui échoue parfois peut être mis en doute : les pouvoirs de la raison le peuvent donc.",
-          "I.2 L’inférence décisive"
-        ],
-        [
-          "La raison cesse ainsi d'apparaître comme un pouvoir qui se garantirait lui-même sans examen : elle peut découvrir ses difficultés en exerçant précisément la faculté dont elle se réclame.",
-          "I.2 Ce que la preuve ouvre"
+          "La raison peut ainsi examiner ses propres pouvoirs : les questions auxquelles elle ne parvient pas à répondre ne sont pas toutes des fautes de calcul, mais peuvent révéler les limites de ses prétentions.",
+          "I.2 Déduire ce que le fondement permet d'établir"
         ],
         [
           "Ce fondement établit qu’on peut douter, avec raison, de certains pouvoirs de la raison.",
@@ -202,12 +198,8 @@
           "II.2 La fonder : le doute retourné contre lui-même"
         ],
         [
-          "Un tel doute se fierait à ce qu’il récuse, et se ruinerait au moment même où il se formule, comme celui qui dirait qu’aucune phrase n’est vraie.",
-          "II.2 L’inférence décisive"
-        ],
-        [
-          "Nous découvrons inversement que la critique de la raison ne saurait supprimer toute exigence de raison : contester un argument oblige encore à produire des raisons de le contester.",
-          "II.2 La possibilité que la seconde preuve révèle"
+          "Contester toute raison exige encore de donner des raisons de cette contestation : un doute absolument général détruit le moyen même par lequel il prétend se justifier.",
+          "II.2 Déduire ce que le fondement permet d'établir"
         ],
         [
           "Cette raison établit qu’on ne peut douter de toute la raison sans se servir d’elle.",
@@ -247,12 +239,8 @@
           "III.2 La démontrer : ce qu’il conserve"
         ],
         [
-          "Il explique aussi leurs arrêts : le premier doute visait des usages, il peut viser une étendue ; et l’usage inévitable n’était pas garanti, mais il peut être mesuré par lui-même, de sorte qu’un doute qui démontre sa borne ne se détruit pas : il se vérifie.",
-          "III.2 Ce qu’il explique"
-        ],
-        [
-          "Il devient possible de penser une raison capable de délimiter ses usages sans se condamner elle-même : connaître une frontière peut être un exercice de puissance, et non un aveu d'impuissance.",
-          "III.2 Ce que la transformation fait comprendre"
+          "Un doute qui établit jusqu'où va un raisonnement ne récuse donc pas la raison : il mesure son domaine légitime, sans garantir pour autant tous ses usages.",
+          "III.2 Déduire ce que le fondement permet d'établir"
         ],
         [
           "On peut donc douter des pouvoirs de la raison, si c’est la raison qui en mesure l’étendue en démontrant où ils s’arrêtent : ce doute ne la ruine pas, il la délimite.",
