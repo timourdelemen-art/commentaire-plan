@@ -7,7 +7,7 @@ Le site contient **20 pages de commentaires littéraires nommés** (`bac-comment
 Six commentaires — Racine, Duras, Zola, Chrétien, Rimbaud, Proust — sont **réservés dans la PR ouverte n° 256**. Éviter toute modification concurrente des fichiers de cette PR et de leurs sources JSON; prendre la révision n° 256 comme base d'un passage ultérieur.
 
 Cette campagne procède en deux niveaux :
-1. **Intervention réalisée** sur les 14 commentaires non réservés : réécriture individualisée de la phrase annonçant les mouvements dans l'introduction de la copie annotée, pour rendre visible la succession des transformations sans ajouter de répétition à l'introduction.
+1. **Intervention réalisée** sur les 14 commentaires non réservés : réécriture individualisée de l'annonce des mouvements dans l'introduction de la copie annotée, sans ajouter de répétition. Pour huit textes du domaine public, certains arrêts d'analyse citent désormais une phrase ou un vers entier, ou un couple de vers, avant de déplier leurs éléments et d'en retrouver la fonction.
 2. **Audit de développement à poursuivre** : vérifier la présence d'unités expressives complètes, les arrêts microscopiques et les raccords au sein des paragraphes avant de déclarer une refonte intégrale. La réécriture de cette annonce ne remplace pas une révision phrase par phrase des développements.
 
 ## Doctrine rédactionnelle : parcours, arrêt, retour
@@ -47,7 +47,7 @@ Cette campagne procède en deux niveaux :
 | Rousseau — voyage à pied | Argumentation, exemples suivis | Relier les trois inversions : lenteur/liberté, effort/savoir, arrivée/voyage; citer une phrase complète quand la période fait l'argument |
 | Zola — *Pot-Bouille* | Roman, voix et motifs d'espace | En révision PR 256 : vacarme de cour, égout, façade; suivre l'apprentissage du regard d'Octave |
 
-## Les 13 annales de commentaire (pages d'entraînement)
+## Deux modèles antérieurs, déjà organisés en progression\n\n- **Corneille, monologue de Don Diègue** : la reprise de « Mon bras » et le passage à « de meilleures mains » sont reliés au mouvement de l'honneur blessé vers sa transmission. L'unité du monologue est déjà sensible ; vérifier en priorité les citations d'alexandrins entiers plutôt que d'ajouter une synthèse redondante.\n- **La Fontaine, *Les Animaux malades de la peste*** : l'enchaînement des voix (Lion, Renard, Âne, jugement) conduit à la sentence en deux vers, déjà citée comme unité. Ce commentaire possède déjà une bonne recomposition du récit et de ses antithèses ; intervenir seulement sur des besoins précis de rythme ou de raccord.\n\n## Les 13 annales de commentaire (pages d'entraînement)
 
 Larbaud, Perec, Musset (*Lorenzaccio*), Sylvie Germain, Racine, Diderot, Aragon, Claire de Duras, Montaigne, Apollinaire, Barbey d'Aurevilly, Leconte de Lisle, Nicolas Bouvier.
 
