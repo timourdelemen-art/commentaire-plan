@@ -86,6 +86,12 @@
     "statut": {
       "problematique": "suffisamment justifiée",
       "copie": "état de travail (architecture expérimentale)"
+    },
+    "ouvertures_de_pensee": {
+      "I": "L'art peut ainsi apparaître comme superflu sans être inutile : il échappe à la mesure des besoins qui conditionnent directement la survie.",
+      "II": "Le besoin de donner forme à ce que nous vivons fait apparaître une autre mesure de l'existence humaine : survivre ne suffit pas à décrire tout ce que nous cherchons à éprouver et à partager.",
+      "III": "Nous pouvons désormais comprendre la valeur singulière de l'art sans lui attribuer un monopole : une œuvre fait éprouver ensemble une expérience dont le sens demeure ouvert à plusieurs interprétations.",
+      "statut": "Hypothèses établies à la mesure de leurs preuves ; ne pas transformer une possibilité en certitude."
     }
   },
   "citations": [],
@@ -128,7 +134,7 @@
       [
         [
           "Nous n’avons pas besoin d’art, car on peut vivre sans lui.",
-          "I.1 Établir la première réponse"
+          "I.1 Ouvrir une première manière de penser"
         ],
         [
           "Cette réponse sauve une hiérarchie que la misère rappelle : le pain avant la musique.",
@@ -141,6 +147,10 @@
         [
           "Les arts d’agrément sont d’ailleurs venus après ceux du nécessaire, chez les peuples qui avaient du loisir : l’art n’est donc pas un besoin, mais ce qu’on s’accorde quand les besoins sont satisfaits.",
           "I.2 L’inférence décisive, par la genèse"
+        ],
+        [
+          "L'art peut ainsi apparaître comme superflu sans être inutile : il échappe à la mesure des besoins qui conditionnent directement la survie.",
+          "I.2 Ce que la preuve ouvre"
         ],
         [
           "Ce fondement établit que l’art n’est pas un besoin vital : on survit sans lui.",
@@ -156,11 +166,11 @@
         ],
         [
           "Que l’on survive sans art ne permet donc pas encore d’expliquer pourquoi des hommes s’y adonnent là même où manque le nécessaire, parce qu’on ne mesure le besoin qu’à la survie.",
-          "I.3 Ce que la première réponse ne permet pas encore : la phrase qui la mesure"
+          "I.3 La portée et le manque du premier fondement"
         ],
         [
           "L’art n’est pas indispensable à la survie, mais cela ne dit pas de quoi une vie humaine a besoin. Pourquoi donner forme à ce que nous éprouvons ?",
-          "Transition · l’examen nécessaire, en question"
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
         ]
       ]
     ],
@@ -169,7 +179,7 @@
       [
         [
           "Il y a chez l’homme des besoins qui ne servent pas à survivre, et l’art répond à l’un d’eux : celui de donner forme à ce que nous éprouvons.",
-          "II.1 La seconde réponse, qui répond à l’examen demandé"
+          "II.1 Ouvrir une autre manière de penser"
         ],
         [
           "Elle ne nie pas qu’on survive sans art ; elle cherche ce qui manque à une vie qui survit.",
@@ -182,6 +192,10 @@
         [
           "Or l’art donne une forme visible ou audible à ce que nous éprouvons : la terreur et la pitié d’une tragédie, le deuil d’un requiem ; il répond donc à un besoin proprement humain.",
           "II.2 L’inférence décisive"
+        ],
+        [
+          "Le besoin de donner forme à ce que nous vivons fait apparaître une autre mesure de l'existence humaine : survivre ne suffit pas à décrire tout ce que nous cherchons à éprouver et à partager.",
+          "II.2 La possibilité que la seconde preuve révèle"
         ],
         [
           "Cette raison établit que l’art répond à un besoin proprement humain : donner forme à ce que nous éprouvons, et par là le supporter et le comprendre.",
@@ -197,11 +211,11 @@
         ],
         [
           "Le besoin de donner forme à ce que nous vivons ne permet donc pas encore d’établir que nous ayons besoin d’art, parce que d’autres formes y répondent aussi.",
-          "II.3 Ce que la seconde réponse ne permet pas encore"
+          "II.3 La portée et le manque du second fondement"
         ],
         [
           "Nous pouvons vivre sans art et pourtant avoir besoin de formes pour vivre ensemble. Qu’apporte l’œuvre qu’un simple récit ou un rite ne donne pas ?",
-          "Transition · pourquoi leur partage échoue, et ce qui reste à établir, en question"
+          "Transition · Le nouveau travail que la difficulté rend nécessaire"
         ]
       ]
     ],
@@ -210,7 +224,7 @@
       [
         [
           "L'art n'est pas nécessaire à la survie, mais il peut répondre à un besoin humain réel : donner une forme sensible à une expérience et la rendre partageable sans en épuiser le sens.",
-          "III.1 L’opération que la difficulté exige : un critère de ce que l’art seul accomplit"
+          "III.1 Effectuer le déplacement nécessaire"
         ],
         [
           "Kant décrit une idée esthétique comme une représentation qui donne beaucoup à penser sans qu'aucun concept déterminé puisse lui être adéquat. La richesse d'une œuvre ne se réduit donc pas à une information qu'elle transmet.",
@@ -225,6 +239,10 @@
           "III.2 Ce qu’il explique"
         ],
         [
+          "Nous pouvons désormais comprendre la valeur singulière de l'art sans lui attribuer un monopole : une œuvre fait éprouver ensemble une expérience dont le sens demeure ouvert à plusieurs interprétations.",
+          "III.2 Ce que la transformation fait comprendre"
+        ],
+        [
           "Nous avons ainsi besoin d'art au sens où les œuvres répondent à une aspiration profonde, non au sens où chacun serait incapable de vivre sans elles ou où aucune autre activité ne pourrait nous aider à partager ce que nous vivons.",
           "III.3 La réponse au sujet, avec son opérateur"
         ],
@@ -234,7 +252,7 @@
         ],
         [
           "Reste qu'une œuvre capable de réunir peut aussi être instrumentalisée : son pouvoir de partage ne garantit ni la liberté de ceux qui l'interprètent ni la justice de son usage.",
-          "III.3 Le reste : ce que cette réponse ne règle pas"
+          "III.3 Le reste : ce qui demande encore à être pensé"
         ]
       ]
     ],
