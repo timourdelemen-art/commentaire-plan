@@ -1146,7 +1146,7 @@
    "residual": "Reste le cas de ceux qui ne peuvent ni demander ni refuser, l’enfant, le malade qui n’a plus sa conscience, et pour qui d’autres doivent bien décider.",
    "conclusionQuestion": "Mais qui décidera pour celui qui ne peut plus rien demander ?",
    "economy": {
-    "words": 1053,
+    "words": 935,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -1154,7 +1154,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "506abf6e49878a5bdd678f4f2a628a08883dff862c94142f89c03862a278be5a",
+   "copySha256": "d003303fd2c859e4d8925dc8f29613eda9d30a31da5346f6b9e7833754b1c229",
    "protocol": "V16.1-exp"
   },
   "2025-me-verite": {
@@ -1221,7 +1221,7 @@
    "residual": "Reste le cas des vérités dont toutes les traces ont disparu, et que rien ne pourra plus jamais éprouver.",
    "conclusionQuestion": "Mais que devient une vérité dont plus rien ne garde la trace ?",
    "economy": {
-    "words": 1099,
+    "words": 942,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -1229,7 +1229,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "e77469519a908e61347626b9e446949f6c4ddc663c1686e0b638622024b8a36c",
+   "copySha256": "8be1b4900d9780525e885a8d6eac5e54443b812023eb8614012351d9f7cc5ad8",
    "protocol": "V16.1-exp"
   },
   "2025-me-avenir-technique": {
@@ -1296,7 +1296,7 @@
    "residual": "Reste qu’on ne connaît bien une technique qu’une fois répandue, c’est-à-dire au moment où il devient difficile d’en décider.",
    "conclusionQuestion": "Mais comment décider à temps, quand on ne sait ce qu’est une technique qu’une fois qu’elle est partout ?",
    "economy": {
-    "words": 1141,
+    "words": 984,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -1304,7 +1304,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "a7320329095472e558ed27ed2809fbb7e5a7d73e1a207faab076d3cff89a5814",
+   "copySha256": "7c024eada0deb0f09bc3ae6940638a33998fbd51da94d6d2c079c25dcd3dd6b0",
    "protocol": "V16.1-exp"
   },
   "2025-me-besoin-art": {
@@ -1371,7 +1371,7 @@
    "residual": "Reste que la même forme peut être détournée : la dernière représentation fut donnée devant une délégation de la Croix-Rouge que les nazis voulaient tromper.",
    "conclusionQuestion": "Mais une œuvre qui laisse son sens ouvert peut-elle se défendre contre ceux qui s’en servent pour mentir ?",
    "economy": {
-    "words": 1048,
+    "words": 917,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
@@ -1379,7 +1379,7 @@
     "status": "propose",
     "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
    },
-   "copySha256": "8df6bebe4606ee6cd28c17caf2c0f7f2113975e435a792c517e6711579fe4190",
+   "copySha256": "a615737e17cfc169941490f79d481b4b994e803308d93193daa8d6d5db584930",
    "protocol": "V16.1-exp"
   }
  }
