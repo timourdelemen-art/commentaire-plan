@@ -83,9 +83,9 @@
    "candidates": [
     {
      "id": "retenue",
-     "proposal": "On peut donc concevoir une humanité sans religion, si l’on entend par là sans croyance en des dieux ; on ne peut pas en concevoir une sans ce que la religion accomplissait, un rapport commun aux morts et à ce qui ne doit pas être profané.",
+     "proposal": "On peut donc concevoir une humanité sans religion : il faudrait qu’elle trouve d’autres façons de répondre aux besoins auxquels les religions répondent. Cela ne prouve ni qu’une telle humanité existe déjà, ni que cette substitution serait sans perte.",
      "cost": "Explique l’universalité et la possibilité ensemble ; décide le cas du mausolée.",
-     "remainingProblem": "Mais un sacré sans dieux peut-il échapper au culte de ceux qui gouvernent ?",
+     "remainingProblem": "Que perdrait une humanité qui répondrait autrement aux besoins auxquels les religions ont donné sens ?",
      "preserves": [
       "Relier tous les hommes par des fins communes",
       "Rester faite d’hommes qui jugent par eux-mêmes"
@@ -120,21 +120,21 @@
     }
    ],
    "selected": "retenue",
-   "comparison": "Retenue : Explique l’universalité et la possibilité ensemble ; décide le cas du mausolée. Écartées ou dominées : C’est la conciliation, qui ne sait où ranger un culte sans spiritualité. Prédiction sans preuve ; la science ne remplit pas la fonction des rites. Ne traite que l’ignorance, non la mort et le lien.",
+   "comparison": "Voie retenue : Distinction des institutions religieuses et des fonctions humaines qu’elles peuvent remplir ; mise à l’épreuve de la substituabilité sans présupposer une nécessité du sacré. ; justification : Conserver la possibilité conceptuelle et expliquer la persistance des pratiques religieuses sans convertir leur fréquence en nécessité ; vérifier sur les rites civils. Concurrentes : C’est la conciliation, qui ne sait où ranger un culte sans spiritualité. Prédiction sans preuve ; la science ne remplit pas la fonction des rites. Ne traite que l’ignorance, non la mort et le lien.",
    "strongestObjection": "sociétés sécularisées ; elles gardent funérailles, serments, commémorations : confirme D.",
    "responseToObjection": "survit.",
-   "residual": "Reste qu’un sacré sans dieux peut servir ceux qui gouvernent, et que rien, dans sa seule fonction, ne le protège d’un tel usage.",
-   "conclusionQuestion": "Mais un sacré sans dieux peut-il échapper au culte de ceux qui gouvernent ?",
+   "residual": "Reste à savoir ce que des pratiques civiles peuvent conserver des expériences religieuses sans les reproduire : la substitution d’une fonction ne garantit pas l’équivalence des significations.",
+   "conclusionQuestion": "Que perdrait une humanité qui répondrait autrement aux besoins auxquels les religions ont donné sens ?",
    "economy": {
-    "words": 940,
+    "words": 955,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
-    "author": "Protocole V16.1-exp (rédaction assistée) ; relecture à effectuer",
+    "author": "Révision philosophique contradictoire du 7 novembre 2026",
     "status": "propose",
-    "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
+    "independentReview": "Inférences et portée de la troisième partie corrigées ; vérifications indépendantes de l'ensemble du corpus et des références encore requises."
    },
-   "copySha256": "3c4e0ff8c5a819cdb9e31b2943fa0ce928d8cb72286707babef07333794397c0",
+   "copySha256": "4ec9ff9dc4d942300542c8619fc54d89192add7ba33f137ab71e241d20e50a17",
    "protocol": "V16.1-exp"
   },
   "2026-an-artiste-sait": {
@@ -423,9 +423,9 @@
    "candidates": [
     {
      "id": "retenue",
-     "proposal": "On peut donc être certain d’avoir bien agi, si l’on entend par là que l’acte répondait à ce que la situation, telle qu’elle était accessible, exigeait, et que ce jugement résiste à l’examen d’autrui.",
+     "proposal": "On peut parfois se juger avec une très grande assurance, lorsque les raisons accessibles et les principes invoqués résistent à la critique ; on ne tire pourtant pas une certitude absolue de la seule reconstitution des circonstances.",
      "cost": "Conserve la décision et les faits, explique les deux arrêts, tranche le cas témoin.",
-     "remainingProblem": "Mais que vaut cette certitude pour les actes que personne ne peut reconstituer avec nous ?",
+     "remainingProblem": "Comment tenir un jugement moral pour pleinement certain lorsque les faits accessibles et les principes selon lesquels nous jugeons peuvent encore être contestés ?",
      "preserves": [
       "Procéder d’une intention droite",
       "Faire effectivement du bien"
@@ -460,21 +460,21 @@
     }
    ],
    "selected": "retenue",
-   "comparison": "Retenue : Conserve la décision et les faits, explique les deux arrêts, tranche le cas témoin. Écartées ou dominées : Rechute dans la première réponse : les mobiles restent inconnus. Simple partage : sur l’Hudson, il ne dit pas si le pilote a bien agi. Elle juge encore des raisons, non l’acte, et laisse l’établissement des faits sans emploi.",
+   "comparison": "Voie retenue : Médiation par la situation accessible à l’agent ; distinction de la justification intersubjective et de la certitude absolue. ; justification : Construire un jugement imputable à la situation réelle sans confondre justification révisable et certitude absolue. Concurrentes : Rechute dans la première réponse : les mobiles restent inconnus. Simple partage : sur l’Hudson, il ne dit pas si le pilote a bien agi. Elle juge encore des raisons, non l’acte, et laisse l’établissement des faits sans emploi.",
    "strongestObjection": "l’agent qui se sait sans intérêt — FA n’y gagne que la conscience d’en être sans.",
    "responseToObjection": "survit (voir six exigences).",
-   "residual": "Reste que cette certitude suppose une situation que d’autres peuvent reconstituer, ce que ne permettent pas les actes sans témoin ni trace.",
-   "conclusionQuestion": "Mais que vaut cette certitude pour les actes que personne ne peut reconstituer avec nous ?",
+   "residual": "Reste à savoir ce que vaut un tel jugement quand les principes mêmes auxquels on mesure nos actes sont contestés, ou lorsque les traces de l'action manquent.",
+   "conclusionQuestion": "Comment tenir un jugement moral pour pleinement certain lorsque les faits accessibles et les principes selon lesquels nous jugeons peuvent encore être contestés ?",
    "economy": {
-    "words": 1065,
+    "words": 1104,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
-    "author": "Protocole V16.1-exp (rédaction assistée) ; relecture à effectuer",
+    "author": "Révision philosophique contradictoire du 7 novembre 2026",
     "status": "propose",
-    "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
+    "independentReview": "Inférences et portée de la troisième partie corrigées ; vérifications indépendantes de l'ensemble du corpus et des références encore requises."
    },
-   "copySha256": "eafe6fa69dab79be064391036bf019926853296acf93be84e33ffcf260d8b64d",
+   "copySha256": "f6ca15f637484e55bbe2de45a67ef12d468c0a64cbfc4f4c2cd1e6bac6303d18",
    "protocol": "V16.1-exp"
   },
   "2026-g1-nature-besoin": {
@@ -1253,9 +1253,9 @@
    "candidates": [
     {
      "id": "retenue",
-     "proposal": "Notre avenir dépend donc de la technique dans la mesure où nous laissons ses choix devenir le milieu de nos vies ; il dépend de nous tant que nous décidons avant.",
+     "proposal": "Notre avenir dépend donc des techniques parce qu'elles organisent le champ de nos choix ; il dépend aussi de nous parce que les décisions collectives peuvent, à des degrés divers, rouvrir ce champ.",
      "cost": "Explique le contraste entre l’ozone et le climat, conserve les deux acquis.",
-     "remainingProblem": "Mais comment décider à temps, quand on ne sait ce qu’est une technique qu’une fois qu’elle est partout ?",
+     "remainingProblem": "Comment décider avant qu'une technique ne devienne difficile à remplacer, lorsque ses effets futurs sont encore mal connus ?",
      "preserves": [
       "Être rendu possible par des moyens",
       "Rester le nôtre : choisi"
@@ -1290,21 +1290,21 @@
     }
    ],
    "selected": "retenue",
-   "comparison": "Retenue : Explique le contraste entre l’ozone et le climat, conserve les deux acquis. Écartées ou dominées : C’est la conciliation ; elle n’explique pas le climat. Utile, mais ne dit pas pourquoi certaines décisions échouent. Démenti par Montréal ; rechute dans une première réponse radicalisée.",
+   "comparison": "Voie retenue : Analyse des degrés de réversibilité et des dépendances d'infrastructure : articuler la décision collective et les contraintes techniques. ; justification : Conserver causalité technique et pouvoir d'agir, mesurer les degrés de réversibilité sans poser une opposition binaire moyen/milieu. Concurrentes : C’est la conciliation ; elle n’explique pas le climat. Utile, mais ne dit pas pourquoi certaines décisions échouent. Démenti par Montréal ; rechute dans une première réponse radicalisée.",
    "strongestObjection": "la renonciation au Concorde, décision qui l’emporte ; elle portait sur un moyen remplaçable : confirme D.",
    "responseToObjection": "survit.",
-   "residual": "Reste qu’on ne connaît bien une technique qu’une fois répandue, c’est-à-dire au moment où il devient difficile d’en décider.",
-   "conclusionQuestion": "Mais comment décider à temps, quand on ne sait ce qu’est une technique qu’une fois qu’elle est partout ?",
+   "residual": "Reste une difficulté : comment choisir assez tôt les techniques à développer ou à limiter quand leurs conséquences collectives sont encore incertaines ?",
+   "conclusionQuestion": "Comment décider avant qu'une technique ne devienne difficile à remplacer, lorsque ses effets futurs sont encore mal connus ?",
    "economy": {
-    "words": 984,
+    "words": 992,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
-    "author": "Protocole V16.1-exp (rédaction assistée) ; relecture à effectuer",
+    "author": "Révision philosophique contradictoire du 7 novembre 2026",
     "status": "propose",
-    "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
+    "independentReview": "Inférences et portée de la troisième partie corrigées ; vérifications indépendantes de l'ensemble du corpus et des références encore requises."
    },
-   "copySha256": "7c024eada0deb0f09bc3ae6940638a33998fbd51da94d6d2c079c25dcd3dd6b0",
+   "copySha256": "96ef5be356514dd0d998da9b0701de9e999ce90b543976370bd24eb4440a1690",
    "protocol": "V16.1-exp"
   },
   "2025-me-besoin-art": {
@@ -1328,9 +1328,9 @@
    "candidates": [
     {
      "id": "retenue",
-     "proposal": "Nous avons donc besoin d’art, non pour vivre ni pour comprendre ce que d’autres paroles comprennent aussi, mais pour partager ce qu’aucun concept ne fixe.",
+     "proposal": "Nous avons ainsi besoin d'art au sens où les œuvres répondent à une aspiration profonde, non au sens où chacun serait incapable de vivre sans elles ou où aucune autre activité ne pourrait nous aider à partager ce que nous vivons.",
      "cost": "Dit ce que l’art seul accomplit, conserve les deux acquis, décide Terezín.",
-     "remainingProblem": "Mais une œuvre qui laisse son sens ouvert peut-elle se défendre contre ceux qui s’en servent pour mentir ?",
+     "remainingProblem": "Comment préserver la liberté de l'expérience artistique lorsque les œuvres peuvent aussi servir la propagande ?",
      "preserves": [
       "Répondre à un manque réel",
       "Rester l’affaire d’un goût libre"
@@ -1365,21 +1365,21 @@
     }
    ],
    "selected": "retenue",
-   "comparison": "Retenue : Dit ce que l’art seul accomplit, conserve les deux acquis, décide Terezín. Écartées ou dominées : C’est la conciliation, qui échoue sur Terezín. Vrai de certains usages, mais ne dit pas ce que l’art seul fait. Explique le loisir, non le Requiem.",
+   "comparison": "Voie retenue : Établir un besoin humain non vital sans prétendre que sa satisfaction soit exclusivement artistique. ; justification : Distinguer besoin vital, aspiration humaine et nécessité individuelle ; expliquer la puissance de l'art sans lui attribuer un monopole non démontré. Concurrentes : C’est la conciliation, qui échoue sur Terezín. Vrai de certains usages, mais ne dit pas ce que l’art seul fait. Explique le loisir, non le Requiem.",
    "strongestObjection": "des sociétés sans art distinct ; elles ont des chants, des ornements : confirme XB.",
    "responseToObjection": "survit.",
-   "residual": "Reste que la même forme peut être détournée : la dernière représentation fut donnée devant une délégation de la Croix-Rouge que les nazis voulaient tromper.",
-   "conclusionQuestion": "Mais une œuvre qui laisse son sens ouvert peut-elle se défendre contre ceux qui s’en servent pour mentir ?",
+   "residual": "Reste qu'une œuvre capable de réunir peut aussi être instrumentalisée : son pouvoir de partage ne garantit ni la liberté de ceux qui l'interprètent ni la justice de son usage.",
+   "conclusionQuestion": "Comment préserver la liberté de l'expérience artistique lorsque les œuvres peuvent aussi servir la propagande ?",
    "economy": {
-    "words": 917,
+    "words": 951,
     "principle": "Protocole V16.1-exp : phrases de la copie sans répétition ; la justification nécessaire est gardée, le superflu retiré."
    },
    "review": {
-    "author": "Protocole V16.1-exp (rédaction assistée) ; relecture à effectuer",
+    "author": "Révision philosophique contradictoire du 7 novembre 2026",
     "status": "propose",
-    "independentReview": "Relecture philosophique indépendante à effectuer avant publication ; la traçabilité ne certifie ni la meilleure solution ni une note."
+    "independentReview": "Inférences et portée de la troisième partie corrigées ; vérifications indépendantes de l'ensemble du corpus et des références encore requises."
    },
-   "copySha256": "a615737e17cfc169941490f79d481b4b994e803308d93193daa8d6d5db584930",
+   "copySha256": "ed73138c2635dc0b332ff8cb419c0c6b1cc4b3c354ccb113b6fee5f930c87dcb",
    "protocol": "V16.1-exp"
   }
  }
