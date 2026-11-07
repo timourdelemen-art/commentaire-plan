@@ -7,6 +7,14 @@ const DIR = path.join(__dirname, 'dissertations-v16');
 
 const PROTOCOL_WORDS = ['aporie', 'aporétique', 'limite interne', 'acquis', 'déficit', 'régime', 'résolution', 'chemin', 'geste', 'matrice', 'cas témoin', 'acte de lecture', 'prix'];
 const FICHE_FIELDS = ['operateur', 'sens', 'verrou', 'trois_reponses', 'conciliation_1_8bis', 'brouillon', 'A', 'FA', 'XA', 'YA', 'ZA', 'type_LA', 'LA', 'six_LA', 'T1', 'B', 'FB', 'XB', 'YB', 'ZB', 'type_LB', 'LB', 'six_LB', 'T2', 'epreuves', 'soupcon_aporie', 'phrase_mouvement', 'probleme_directeur', 'problematique', 'forme_problematique', 'critere', 'contrainte_scene', 'III', 'candidats_III', 'generateur', 'scene', 'statut'];
+// Indices qui trahiraient le travail d'assistance (ou la mécanique du protocole) dans le texte public.
+const LEAKS = [
+  [/œuvre fournie|mot pour mot|citation exacte|retrouvé/iu, 'métadonnée de vérification'],
+  [/protocole(?! de Montréal)|V16|\bIA\b|Claude|Anthropic|ChatGPT|assistant/iu, 'mention d’outil ou de méthode'],
+  [/\b(I|II|III)\.\d/u, 'numérotation du protocole'],
+  [/\bT[12]\b|\bρ\b|\b(FA|FB|XA|XB|LA|LB)\b|scellé/u, 'sigle de fiche'],
+  [/soupçon|verrou|régime|cas témoin|restitution|rechute|test propre/iu, 'terme de mécanique interne'],
+];
 const CITATION_FIELDS = ['texte', 'auteur', 'oeuvre', 'lieu', 'edition', 'verification', 'regime', 'fonction'];
 
 const text = v => typeof v === 'string' && v.trim().length > 0;
@@ -65,6 +73,10 @@ function check(d) {
   const concl = (copy[4] || [, []])[1];
   if (!concl.length || !/\?\s*$/.test(concl[concl.length - 1][0])) fail('conclusion : le reste doit finir en question');
   for (const w of PROTOCOL_WORDS) if (new RegExp(`(^|[^\\p{L}])${w}`, 'iu').test(all)) fail(`mot du protocole dans la copie : « ${w} »`);
+  for (const [re, label] of LEAKS) {
+    const hit = re.exec(all) || (d.citations || []).map(c => [c.texte, c.auteur, c.oeuvre, c.lieu, c.edition].filter(Boolean).join(' | ')).map(t => re.exec(t)).find(Boolean);
+    if (hit) fail(`indice technique visible sur le site : ${label} (« ${hit[0]} »)`);
+  }
   const n = words(all);
   if (n < 880 || n > 1450) fail(`longueur ${n} mots (900 à 1 400 attendus)`);
   for (const c of d.citations || []) {
