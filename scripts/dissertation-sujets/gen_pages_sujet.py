@@ -169,7 +169,6 @@ def page(k, I, O, other, Ib):
 <section class="onglet offer-band" id="copie"><div class="kicker">LA COPIE À 20</div><h2>{c['titre']}</h2>
 <p class="lede" style="font-size:18px">La copie la plus courte qui mérite 20 : {ns} phrases, environ {round(nw, -1)} mots ; une introduction, trois parties de trois paragraphes, deux transitions, une conclusion.</p>
 <div class="c20 dc20" id="dc20-copie">{blocks}</div>
-<p class="micro dc20-note">{O['note']}</p>
 <div class="kicker" style="margin-top:28px">POURQUOI CETTE COPIE MÉRITE 20</div>
 <div class="grid-3">
 {why}
