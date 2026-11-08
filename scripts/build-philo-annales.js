@@ -52,7 +52,7 @@ function dissertation(set,x){
   const planHtml=currentCopy
     ?[0,1,2].map((n)=>sourcePart(n)+(n<2?'<p class="plan-transition"><em>Transition.</em> '+esc(sourceTransition(n))+'</p>':'')).join('')
     :partHtml(parts[0],0)+'<p class="plan-transition"><em>Transition.</em> '+esc(tr[0])+'</p>'+partHtml(parts[1],1)+'<p class="plan-transition"><em>Transition.</em> '+esc(tr[1])+'</p>'+partHtml(parts[2],2);
-  const publishedQuestion=currentCopy?currentCopy[0][1].find(([t])=>/\\?\\s*$/.test(t))?.[0]:x.pb;
+  const publishedQuestion=currentCopy?currentCopy[0][1].find(([t])=>/\?\s*$/.test(t))?.[0]:x.pb;
   if(currentCopy&&!publishedQuestion)throw new Error('Problématique absente dans la copie : '+x.id);
   const corr=`<section class="exercise-wrap" id="corrige"><article class="exercise"><div class="kicker">APRÈS VOTRE ESSAI</div><h2>Un corrigé possible.</h2>
 <details class="correction"><summary>1. Le travail au brouillon</summary>${p('Les mots du sujet',x.mots)}${p('Ce que la notion demande',x.demande)}${p('Première réponse',x.oui)}${p('Réponse contraire',x.non)}${p('Problématique',publishedQuestion)}</details>
