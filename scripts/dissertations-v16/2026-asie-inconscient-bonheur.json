@@ -49,7 +49,7 @@
       "III1": "Distinguer imaginer un malheur (le vivre d’avance comme ce qu’il nous ôte) et le comprendre (le saisir comme un événement qui a ses causes et sa place).",
       "III2": "La distinction conserve XA (c’est l’imagination qui gâte) et XB (la compréhension ne craint aucune vérité) ; explique LA (l’inattention supprimait la pensée au lieu d’en changer la manière) et LB (savoir qu’un mal est là n’est pas comprendre ce qu’il est).",
       "III3": "Il ne faut pas être inconscient ; il faut que la conscience du malheur cesse d’être une attente pour devenir compréhension, ce qui demande un travail ; vérifié sur Ivan Ilitch. Reste : délivrée de la crainte, la conscience l’est aussi de l’espoir.",
-      "tests": "Cas témoin : la III décide le cas du mourant, ce que le partage ne faisait pas. Second cas : le deuil, où la douleur comprise cesse de s’aggraver de ce qu’on imagine. Restitution : oui. Rechute : le reste (l’espoir) ne redit ni LA ni LB. Test propre : la distinction vaut sur un second cas, elle n’est pas taillée pour le cas témoin. Report : non. Acquis nouveau : prémisse nouvelle — un même objet peut être su sous deux modes, dont un seul trouble ; nécessaire à la décision. Contrôle renforcé : Comparer « oubli protecteur », « compréhension consolatrice automatique » et « lucidité qui transforme certains affects sans abolir toute souffrance » ; ne pas inférer une guérison de la connaissance."
+      "tests": "Cas témoin : la III décide le cas du mourant, ce que le partage ne faisait pas. Second cas : le deuil, où la douleur comprise cesse de s’aggraver de ce qu’on imagine. Restitution : oui. Rechute : le reste (l’espoir) ne redit ni LA ni LB. Test propre : la distinction vaut sur un second cas, elle n’est pas taillée pour le cas témoin. Report : non. Acquis nouveau : prémisse nouvelle — un même objet peut être su sous deux modes, dont un seul trouble ; nécessaire à la décision. Contrôle renforcé : Comparer « oubli protecteur », « compréhension consolatrice automatique » et « lucidité qui transforme certains affects sans abolir toute souffrance » ; ne pas inférer une guérison de la connaissance. Travail approfondi : gestes F12, L7, N12, O3. Alternatives examinées : Inconscience protectrice (bonheur fragile) / connaissance comme remède absolu (douleur réelle) / intelligence de certaines craintes, sans nier la peine (retenu)."
     },
     "candidats_III": [
       {
@@ -85,7 +85,7 @@
     "scene": "Tolstoï, La Mort d’Ivan Ilitch (1886) : une vie organisée pour ne pas penser, l’épouvante de la maladie, la peur qui le quitte à la fin. Verdict : homologue. Retour : la paix finale n’est pas un oubli.",
     "statut": {
       "problematique": "suffisamment justifiée",
-      "copie": "révision ciblée de l'épreuve de III — audit indépendant à poursuivre"
+      "copie": "révision argumentative I-II-III — audit indépendant encore requis"
     },
     "ouvertures_de_pensee": {
       "I": "L'anticipation d'une perte ôte au présent le repos qu'on recherche : détourner provisoirement son attention n'est donc pas une simple erreur, mais une manière possible de préserver le contentement.",
@@ -166,7 +166,7 @@
           "I.2 La fonder : la nature du contentement"
         ],
         [
-          "L'anticipation d'une perte ôte au présent le repos qu'on recherche : détourner provisoirement son attention n'est donc pas une simple erreur, mais une manière possible de préserver le contentement.",
+          "Ne pas penser à un danger permet parfois de profiter du présent. Une inquiétude qui anticipe sans cesse la perte nous retire une joie que rien n'a encore menacée. Mais le contentement acheté par l'ignorance dépend du maintien de cette ignorance.",
           "I.2 Expliquer l'apaisement procuré par l'inattention"
         ],
         [
@@ -211,7 +211,7 @@
           "II.2 Citation qui fait voir l’inconscience comme fragilité ; la preuve tient sans elle"
         ],
         [
-          "Un bonheur appuyé sur ce que l'on comprend plutôt que sur ce que l'on ignore dépend moins de la surprise des événements ; cette stabilité ne signifie pourtant pas qu'aucune douleur ne puisse l'atteindre.",
+          "Comprendre ce qui nous arrive peut au contraire écarter des peurs vagues : une maladie expliquée cesse de paraître un mal mystérieux. Cette lucidité peut rendre le bonheur moins fragile, sans garantir que l'événement lui-même devienne supportable.",
           "II.2 Établir le rôle stabilisateur de la connaissance"
         ],
         [
@@ -256,11 +256,11 @@
           "III.2 Ce qu’elle explique"
         ],
         [
-          "Savoir qu'un malheur menace n'est pas encore comprendre ce qu'il est. C'est cette différence entre inquiétude imaginée et connaissance précise qui permet à la conscience de diminuer certaines craintes au lieu de les multiplier.",
+          "Il faut distinguer l'imagination qui multiplie les catastrophes et la connaissance qui précise ce qu'il y a réellement à craindre. La seconde n'efface pas toujours le mal, mais elle peut nous empêcher d'ajouter à la souffrance la peur de mille malheurs imaginaires.",
           "III.2 Distinguer anticipation inquiète et compréhension"
         ],
         [
-          "Toutefois, comprendre les causes d'une souffrance ne la fait pas toujours disparaître : on peut expliquer lucidement une douleur et continuer de la subir. La connaissance n'est donc pas une garantie de bonheur ; elle ouvre seulement la possibilité de ne pas ajouter à la peine la crainte confuse de ce qu'on imagine.",
+          "Une personne peut connaître exactement la cause de sa douleur et continuer de souffrir. Il serait donc excessif de présenter la compréhension comme la condition suffisante du bonheur. Elle rend possibles certaines formes d'apaisement, non une victoire universelle sur la peine.",
           "III.2 Objection forte et détermination de la portée"
         ],
         [
