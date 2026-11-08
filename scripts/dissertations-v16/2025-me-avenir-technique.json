@@ -49,7 +49,7 @@
       "III1": "Distinguer les techniques aisément substituables, les réseaux partiellement modifiables et les infrastructures dont la transformation demande une action collective prolongée.",
       "III2": "Les techniques rendent certains avenirs plus accessibles et d'autres plus coûteux, sans abolir mécaniquement la décision ; les choix politiques façonnent à leur tour les réseaux techniques.",
       "III3": "Notre avenir dépend de la technique dans la mesure où nos décisions s'exercent au sein de possibilités façonnées par les infrastructures ; il dépend aussi des institutions capables de les transformer. Reste la décision sous incertitude avant la diffusion d'un système.",
-      "tests": "Cas témoin : les CFC n’étaient qu’un composant remplaçable, et une décision a suffi ; les énergies fossiles sont devenues le milieu de toute activité, et les décisions déclarées n’ont pas suffi ; ni A, ni B, ni le partage moyens / fins ne l’expliquaient. Second cas : l’automobile, choisie comme moyen au début du XXe siècle, devenue la forme de nos villes. Restitution : oui. Rechute : le reste (décider à temps) ne redit ni LA ni LB. Test propre : la condition est nécessaire, non suffisante (il faut encore vouloir). Report : non. Acquis nouveau : prémisse nouvelle — la dépendance entre technique et décision change de sens avec l’incorporation de la technique ; nécessaire à la décision. Contrôle renforcé : Comparer « déterminisme technique », « décision souveraine » et « dépendances plus ou moins réversibles avec distribution du pouvoir de décider » ; éprouver l'asymétrie des acteurs."
+      "tests": "Cas témoin : les CFC n’étaient qu’un composant remplaçable, et une décision a suffi ; les énergies fossiles sont devenues le milieu de toute activité, et les décisions déclarées n’ont pas suffi ; ni A, ni B, ni le partage moyens / fins ne l’expliquaient. Second cas : l’automobile, choisie comme moyen au début du XXe siècle, devenue la forme de nos villes. Restitution : oui. Rechute : le reste (décider à temps) ne redit ni LA ni LB. Test propre : la condition est nécessaire, non suffisante (il faut encore vouloir). Report : non. Acquis nouveau : prémisse nouvelle — la dépendance entre technique et décision change de sens avec l’incorporation de la technique ; nécessaire à la décision. Contrôle renforcé : Comparer « déterminisme technique », « décision souveraine » et « dépendances plus ou moins réversibles avec distribution du pouvoir de décider » ; éprouver l'asymétrie des acteurs. Travail approfondi : gestes D10, X12, N14, K7, O15. Alternatives examinées : Destin technique (une technique permet plusieurs futurs) / choix humain libre (contraintes matérielles sous-estimées) / dépendances techniques et pouvoir effectif de les transformer (retenu)."
     },
     "candidats_III": [
       {
@@ -85,7 +85,7 @@
     "scene": "1974 : Molina et Rowland montrent que les CFC détruisent l’ozone ; 1985 : découverte du trou au-dessus de l’Antarctique ; 1987 : protocole de Montréal. Dans les mêmes décennies, la hausse du CO2, mesurée depuis 1958, n’est pas enrayée malgré les engagements pris depuis 1992. Verdict : homologue. Retour : le moment où la technique est devenue milieu.",
     "statut": {
       "problematique": "suffisamment justifiée",
-      "copie": "révision ciblée de l'épreuve de III — audit indépendant à poursuivre"
+      "copie": "révision argumentative I-II-III — audit indépendant encore requis"
     },
     "ouvertures_de_pensee": {
       "I": "L'agriculture mécanisée, les soins et l'énergie ne sont plus de simples accessoires choisis à volonté : ils conditionnent matériellement les possibilités à partir desquelles nous décidons de notre avenir.",
@@ -156,7 +156,7 @@
           "I.2 La fonder par une condition"
         ],
         [
-          "L'agriculture mécanisée, les soins et l'énergie ne sont plus de simples accessoires choisis à volonté : ils conditionnent matériellement les possibilités à partir desquelles nous décidons de notre avenir.",
+          "L'agriculture, les soins et l'énergie rendent possibles des vies que nous ne pourrions plus organiser sans eux. Notre avenir dépend donc de techniques déjà incorporées à nos habitudes. Mais une dépendance matérielle n'indique pas à elle seule ce que nous déciderons d'en faire.",
           "I.2 Établir la portée matérielle de la dépendance"
         ],
         [
@@ -201,7 +201,7 @@
           "II.2 Citation qui fait voir que l’habileté technique ne décide pas du sort des hommes"
         ],
         [
-          "La possibilité de suspendre une recherche ou de limiter une technique distingue la dépendance matérielle de la soumission politique : il reste des décisions collectives sur les usages à conserver et ceux auxquels renoncer.",
+          "Des sociétés ont pu limiter certaines techniques sans les oublier. Cela montre que le possible technique ne dicte pas toujours son usage. Pourtant choisir une autre politique reste difficile lorsque routes, machines et emplois ont déjà été organisés autour d'un même système.",
           "II.2 Distinguer l'infrastructure et les décisions collectives"
         ],
         [
@@ -242,11 +242,11 @@
           "III.2 La démontrer : ce qu’elle conserve et ce qu’elle explique"
         ],
         [
-          "L'exemple de l'automobile montre que l'action politique n'est pas abolie par la technique, mais devient plus coûteuse lorsque routes, urbanisme et habitudes de déplacement rendent les solutions interdépendantes.",
+          "Il faut alors mesurer non seulement ce que nous pouvons imaginer, mais ce que nous pouvons réellement modifier. Changer un appareil isolé n'a pas le même coût que remplacer un réseau entier ; la dépendance augmente lorsque les techniques se soutiennent mutuellement.",
           "III.2 Expliquer les coûts de transformation des réseaux"
         ],
         [
-          "Mais le coût du changement ne suffit pas à établir que les choix demeurent ouverts à tous : une infrastructure peut donner à certains le pouvoir de décider tandis que d'autres subissent ses contraintes. Il faut donc examiner non seulement la réversibilité technique, mais aussi qui possède les moyens de réorienter le réseau.",
+          "Mais qui est ce « nous » qui déciderait ? Un réseau peut donner aux entreprises qui le contrôlent un pouvoir que les usagers ne possèdent pas. L'avenir dépend donc aussi de la manière dont le pouvoir de transformer nos techniques est distribué.",
           "III.2 Objection forte et détermination de la portée"
         ],
         [
