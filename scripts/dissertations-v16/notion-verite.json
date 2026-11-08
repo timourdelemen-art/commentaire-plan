@@ -49,7 +49,7 @@
       "III1": "Le principe : une vérité qui concerne la vie de quelqu’un lui appartient ; on lui doit de pouvoir la savoir, et c’est à lui, non à celui qui parle, de décider s’il veut l’entendre et quand.",
       "III2": "Conserve XA (l’autre est traité comme capable de juger) et XB (dire est un acte qui touche, d’où le choix du moment et de la manière) ; explique LA (le devoir de ne pas tromper ne disait pas qui décide de parler) et LB (le jugement par les effets donnait la décision au mauvais juge).",
       "III3": "Toute vérité n’est pas bonne à dire, mais celle qui concerne la vie d’un autre est bonne à lui offrir, et c’est à lui de la recevoir ou non ; vérifié sur la mère de Beauvoir. Reste : ceux qui ne peuvent ni demander ni refuser.",
-      "tests": "Cas témoin : la vérité appartenait à la mère, non à ses filles ; il fallait lui offrir de savoir, non décider qu’elle ne saurait pas ; ni A, ni B, ni le ménagement ne le disaient. Second cas : la rumeur, vérité qui ne concerne pas celui à qui on la dit, et que le principe ne rend pas bonne à dire. Restitution : oui. Rechute : le reste (ceux qui ne peuvent décider) ne redit ni LA ni LB. Test propre : le principe vaut sur un second cas, il n’est pas taillé pour le cas témoin. Report : non. Acquis nouveau : prémisse nouvelle — une vérité sur une vie appartient à celui qui la vit ; nécessaire à la décision. Contrôle renforcé : Comparer « vérité systématiquement annoncée », « silence protecteur » et « accessibilité avec décision du destinataire » ; éprouver la temporalité du consentement."
+      "tests": "Cas témoin : la vérité appartenait à la mère, non à ses filles ; il fallait lui offrir de savoir, non décider qu’elle ne saurait pas ; ni A, ni B, ni le ménagement ne le disaient. Second cas : la rumeur, vérité qui ne concerne pas celui à qui on la dit, et que le principe ne rend pas bonne à dire. Restitution : oui. Rechute : le reste (ceux qui ne peuvent décider) ne redit ni LA ni LB. Test propre : le principe vaut sur un second cas, il n’est pas taillé pour le cas témoin. Report : non. Acquis nouveau : prémisse nouvelle — une vérité sur une vie appartient à celui qui la vit ; nécessaire à la décision. Contrôle renforcé : Comparer « vérité systématiquement annoncée », « silence protecteur » et « accessibilité avec décision du destinataire » ; éprouver la temporalité du consentement. Révision du 8 novembre — gestes examinés : S5 (fait/raison), N14 (juge compétent), N12 (concéder sans conclure), O15 (statut d'un droit). Chemins mis en concurrence : Tout dire (échoue sur le refus de savoir) ; taire pour protéger (paternalisme) ; répartir le jugement entre porteur du droit et interlocuteur (retenu : possibilité d'information, respect du refus, exceptions justifiées)."
     },
     "candidats_III": [
       {
@@ -85,7 +85,7 @@
     "scene": "Simone de Beauvoir, Une mort très douce (1964) : à l’automne 1963, sa mère est opérée d’un cancer ; ses filles et les médecins lui laissent croire à une péritonite. Paraphrase seulement. Le droit du malade à être informé, et à ne pas l’être, est inscrit dans la loi du 4 mars 2002. Verdict : homologue. Retour : à qui appartenait la vérité.",
     "statut": {
       "problematique": "suffisamment justifiée",
-      "copie": "révision ciblée de l'épreuve de III — audit indépendant à poursuivre"
+      "copie": "révision de démonstration I-II-III — contrôle éditorial de fond requis"
     },
     "ouvertures_de_pensee": {
       "I": "Mentir ne retire pas seulement un fait à autrui : en exploitant sa confiance, on l'empêche de juger lui-même sur ce qui le concerne. Le devoir de vérité protège ainsi sa capacité de décider.",
@@ -141,7 +141,7 @@
           "I.1 Ce qu’elle sauve"
         ],
         [
-          "La parole n’est possible que si l’on peut se fier à ce qui est dit ; celui qui trompe se sert de cette confiance pour conduire l’autre où il ne serait pas allé de lui-même.",
+          "Si je mens à quelqu'un pour le protéger, je l'empêche de décider à partir des faits qui le concernent. Je ne lui retire pas seulement une information : je profite de sa confiance pour prendre sa décision à sa place. Une parole honnête respecte donc sa capacité de juger.",
           "I.2 La fonder : la condition de toute parole"
         ],
         [
@@ -153,7 +153,7 @@
           "I.3 L’éprouver : ce qu’il établit"
         ],
         [
-          "Mais il raisonne sur ce qu’on affirme quand on parle, et sa prémisse ne porte pas sur la décision de parler : celui qui se tait ne se sert d’aucune confiance.",
+          "Mais cette preuve montre pourquoi mentir est une faute ; elle ne prouve pas qu'il faille révéler tout ce qu'on sait. Ne pas répondre à une question indiscrète et inventer une réponse sont deux actes différents. Le devoir d'honnêteté ne règle donc pas encore le devoir de parler.",
           "I.3 Ce qu’il ne permet pas encore, et pourquoi"
         ],
         [
@@ -182,7 +182,7 @@
           "II.1 Ce qu’elle conserve"
         ],
         [
-          "Dire une vérité à quelqu’un est un acte qui le touche, et un acte se juge aussi à ce qu’il fait à celui qu’il touche.",
+          "Dire une vérité est aussi agir sur quelqu'un : annoncer une maladie, dévoiler un secret ou corriger une erreur ne produisent pas les mêmes conséquences. Avant de parler, il faut donc demander ce que cette connaissance permettra réellement à l'autre de faire.",
           "II.2 La fonder par les effets"
         ],
         [
@@ -194,7 +194,7 @@
           "II.3 L’éprouver : ce qu’elle établit"
         ],
         [
-          "Mais elle fait juger ces effets par celui qui parle, et lui donne ainsi le pouvoir de disposer de vérités que l’autre a peut-être le droit de connaître : la bienveillance devient une tutelle.",
+          "Mais dire « cela lui ferait trop de mal » suppose que le locuteur puisse prévoir et juger ce qui vaut pour l'autre. Le médecin qui cache un diagnostic peut éviter une angoisse immédiate tout en privant son patient d'un dernier choix décisif. La sollicitude risque ainsi de redevenir une domination.",
           "II.3 Ce qu’elle ne permet pas encore, et pourquoi"
         ],
         [
@@ -215,7 +215,7 @@
       "III. À QUI APPARTIENT UNE VÉRITÉ",
       [
         [
-          "La décision de savoir revient à celui dont la vérité concerne la vie : elle lui appartient, et c’est à lui, non à celui qui parle, de décider s’il veut l’entendre, et quand.",
+          "Il faut alors changer de juge : pour une vérité qui engage la vie d'une personne, la décision de savoir ne revient pas d'abord à celui qui détient l'information, mais à celui dont la vie est en jeu. Le secret protecteur devient contestable parce qu'il retire un choix à son destinataire.",
           "III.1 Effectuer le déplacement nécessaire"
         ],
         [
@@ -227,11 +227,11 @@
           "III.2 La démontrer : ce qu’il conserve"
         ],
         [
-          "Respecter la personne peut exiger de lui rendre une vérité accessible tout en lui laissant décider du moment où elle veut l'entendre. Cela interdit de faire du souci de la protéger un pouvoir de décider secrètement à sa place.",
+          "Offrir de savoir n'est ni mentir ni imposer une révélation. C'est permettre une réponse libre : demander ce que l'autre veut connaître, lui dire vrai s'il le souhaite, respecter s'il préfère attendre. La valeur de la parole tient ici à une relation : celui qui sait rend à l'autre le pouvoir de décider.",
           "III.2 Articuler vérité offerte et décision du destinataire"
         ],
         [
-          "Mais celui qui demande à ne pas savoir ne renonce pas nécessairement pour toujours à son droit : il peut vouloir différer l'annonce. Demander son accord n'est donc pas abandonner la vérité ; c'est rendre possible une parole exacte dont le destinataire peut choisir le moment et la forme.",
+          "Cette solution échouerait toutefois si le refus de savoir était obtenu par une menace ou par une information trompeuse. Il faut donc que le choix puisse être révisé et qu'on n'ait pas déjà caché ce qui permet de comprendre la question posée. Autrement, le prétendu consentement ne fait que masquer une nouvelle décision prise à la place d'autrui.",
           "III.2 Éprouver l'objection décisive et consolider la preuve"
         ],
         [
