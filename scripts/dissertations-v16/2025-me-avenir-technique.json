@@ -90,8 +90,8 @@
     "ouvertures_de_pensee": {
       "I": "L'agriculture mécanisée, les soins et l'énergie ne sont plus de simples accessoires choisis à volonté : ils conditionnent matériellement les possibilités à partir desquelles nous décidons de notre avenir.",
       "II": "La possibilité de suspendre une recherche ou de limiter une technique distingue la dépendance matérielle de la soumission politique : il reste des décisions collectives sur les usages à conserver et ceux auxquels renoncer.",
-      "III": "L'exemple de l'automobile montre que l'action politique n'est pas abolie par la technique, mais devient plus coûteuse lorsque routes, urbanisme et habitudes de déplacement rendent les solutions interdépendantes.",
-      "statut": "Hypothèses établies à la mesure de leurs preuves ; ne pas transformer une possibilité en certitude."
+      "III": "Une technique isolée peut être abandonnée ; un ensemble de routes, d'usines et d'habitudes rend ce changement beaucoup plus difficile. Cette distinction fait apparaître un possible nouveau : agir non seulement sur l'appareil, mais sur le réseau qui le rend indispensable, en modifiant progressivement les conditions du choix. Portée : Transformation des infrastructures imaginable, réalisabilité liée au coût et à la distribution du pouvoir.",
+      "statut": "Test V1.1 : possibilité construite, justification, coût et reste explicités."
     }
   },
   "citations": [
@@ -242,11 +242,11 @@
           "III.2 La démontrer : ce qu’elle conserve et ce qu’elle explique"
         ],
         [
-          "Il faut alors mesurer non seulement ce que nous pouvons imaginer, mais ce que nous pouvons réellement modifier. Changer un appareil isolé n'a pas le même coût que remplacer un réseau entier ; la dépendance augmente lorsque les techniques se soutiennent mutuellement.",
+          "Une technique isolée peut être abandonnée ; un ensemble de routes, d'usines et d'habitudes rend ce changement beaucoup plus difficile. Cette distinction fait apparaître un possible nouveau : agir non seulement sur l'appareil, mais sur le réseau qui le rend indispensable, en modifiant progressivement les conditions du choix.",
           "III.2 Expliquer les coûts de transformation des réseaux"
         ],
         [
-          "Mais qui est ce « nous » qui déciderait ? Un réseau peut donner aux entreprises qui le contrôlent un pouvoir que les usagers ne possèdent pas. L'avenir dépend donc aussi de la manière dont le pouvoir de transformer nos techniques est distribué.",
+          "Mais cette transformation ne devient pas réelle parce que nous pouvons l'imaginer. Elle demande des moyens, du temps et surtout un pouvoir de décision. Si ceux qui dépendent du réseau ne peuvent décider de son avenir, le possible technique reste politiquement fermé.",
           "III.2 Objection forte et détermination de la portée"
         ],
         [
