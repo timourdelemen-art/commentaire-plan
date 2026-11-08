@@ -49,7 +49,7 @@
       "III1": "Distinguer, dans une recherche, ce qu’elle demande (question, moyens, diffusion) et ce qu’elle trouve (la réponse) : l’utilité peut régler le premier, jamais le second.",
       "III2": "Choisir une question, c’est employer un effort commun (droit de la société, XA) ; établir une réponse, c’est se soumettre à ce qui est (XB). Explique LA (on voulait faire porter l’utilité sur des réponses inconnues) et LB (la fidélité au vrai ne règle que la réponse).",
       "III3": "La science doit être utile en ce que ses questions et la diffusion de ses résultats peuvent être réglées par le bien commun, non en ce que l’utilité dirait le vrai ; la demande de Szilard était légitime. Reste : la connaissance elle-même comme danger.",
-      "tests": "Cas témoin : la III décide la demande de Szilard (légitime, car elle porte sur la diffusion), ce que ni A, ni B, ni le partage ne faisaient. Second cas : Lyssenko (l’utilité commande la réponse : illégitime). Restitution : oui. Rechute : le reste ne redit ni LA ni LB. Test propre : frontière définie indépendamment des deux thèses (par la différence entre décider et constater). Report : la question ne se repose pas pour la diffusion, réglée par le bien commun. Acquis nouveau : la distinction question / réponse, prémisse qu’aucune partie n’établissait ; nécessaire à la décision."
+      "tests": "Cas témoin : la III décide la demande de Szilard (légitime, car elle porte sur la diffusion), ce que ni A, ni B, ni le partage ne faisaient. Second cas : Lyssenko (l’utilité commande la réponse : illégitime). Restitution : oui. Rechute : le reste ne redit ni LA ni LB. Test propre : frontière définie indépendamment des deux thèses (par la différence entre décider et constater). Report : la question ne se repose pas pour la diffusion, réglée par le bien commun. Acquis nouveau : la distinction question / réponse, prémisse qu’aucune partie n’établissait ; nécessaire à la décision. Contrôle renforcé : Comparer « utilité exigée des résultats », « liberté sans responsabilité » et « choix public des orientations sans censure des conclusions » ; préserver la recherche fondamentale."
     },
     "candidats_III": [
       {
@@ -85,7 +85,7 @@
     "scene": "Szilard demande en 1939 à Joliot de ne pas publier la multiplication des neutrons dans la fission ; l’équipe de Joliot publie (Nature, mars-avril 1939). Verdict : homologue. Retour : la III décide la demande.",
     "statut": {
       "problematique": "suffisamment justifiée",
-      "copie": "état de travail (architecture expérimentale)"
+      "copie": "révision ciblée de l'épreuve de III — audit indépendant à poursuivre"
     },
     "ouvertures_de_pensee": {
       "I": "La recherche utilise des moyens communs ; la société peut donc demander compte de leur emploi et des conséquences de l'activité scientifique, sans être déjà autorisée à décider de ses résultats.",
@@ -248,6 +248,10 @@
         [
           "La société peut discuter les questions, les moyens et les risques d'une recherche ; elle ne peut prescrire à l'avance la vérité de ses réponses. Cette distinction rend compatibles la responsabilité de la science et l'indépendance de ses résultats.",
           "III.2 Séparer le choix des questions de celui des résultats"
+        ],
+        [
+          "Cette séparation n'autorise pourtant pas à régler toute recherche par l'utilité immédiate. Une question apparemment sans usage peut fournir demain des connaissances décisives ; inversement, un résultat vrai peut devenir dangereux. Il faut donc justifier les priorités et les précautions sans confondre cette décision avec le verdict de l'expérience.",
+          "III.2 Objection forte et détermination de la portée"
         ],
         [
           "La science doit donc être utile, en ce que ses questions et la diffusion de ses résultats peuvent être réglées par le bien de ceux qui la font vivre, mais non en ce que l’utilité dirait ce qui est vrai.",
