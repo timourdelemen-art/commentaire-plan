@@ -49,7 +49,7 @@
       "III1": "Distinguer deux manières de ne plus vouloir : réviser sa règle pour des raisons qu’on peut examiner, ou être capturé par ce qui ôte le pouvoir d’examiner.",
       "III2": "Conserve XA (des possibles sont fermés) et XB (la règle est libre) ; explique LA (FA comptait des possibles, non le pouvoir de juger) et LB (la volonté future n’est pas libre du seul fait qu’elle est présente).",
       "III3": "S’engager n’est pas renoncer à sa liberté, si l’engagement protège le jugement contre ce qui le capturerait et laisse ouverte sa révision par des raisons ; vérifié sur Ulysse. Reste : qui juge, au moment de rompre, de la nature de ce qui parle.",
-      "tests": "Cas témoin : la supplication d’Ulysse est celle d’un homme charmé, non d’un homme qui révise ; ses compagnons ont raison de ne pas le délier ; ni A, ni B, ni le partage des moments ne le disaient. Second cas : la promesse de mariage rompue pour des raisons exposées, que la III reconnaît libre. Restitution : oui. Rechute : le reste (qui juge ?) ne redit ni LA ni LB. Test propre : la distinction vaut sur un second cas. Report : non. Acquis nouveau : prémisse nouvelle — la liberté se mesure au pouvoir de juger, non au nombre des possibles ni à la date de la volonté ; nécessaire à la décision."
+      "tests": "Cas témoin : la supplication d’Ulysse est celle d’un homme charmé, non d’un homme qui révise ; ses compagnons ont raison de ne pas le délier ; ni A, ni B, ni le partage des moments ne le disaient. Second cas : la promesse de mariage rompue pour des raisons exposées, que la III reconnaît libre. Restitution : oui. Rechute : le reste (qui juge ?) ne redit ni LA ni LB. Test propre : la distinction vaut sur un second cas. Report : non. Acquis nouveau : prémisse nouvelle — la liberté se mesure au pouvoir de juger, non au nombre des possibles ni à la date de la volonté ; nécessaire à la décision. Contrôle renforcé : Confronter « fidélité absolue », « changement de désir » et « révision critiquable par des raisons » ; éprouver les rationalisations d'une impulsion."
     },
     "candidats_III": [
       {
@@ -85,7 +85,7 @@
     "scene": "Homère, Odyssée, chant XII : Ulysse se fait attacher au mât pour entendre les Sirènes et ordonne qu’on resserre ses liens s’il demande à être délié. Paraphrase seulement. Verdict : homologue. Retour : la supplication est celle du charme.",
     "statut": {
       "problematique": "suffisamment justifiée",
-      "copie": "état de travail (architecture expérimentale)"
+      "copie": "révision ciblée de l'épreuve de III — audit indépendant à poursuivre"
     },
     "ouvertures_de_pensee": {
       "I": "En s'engageant, on écarte volontairement certaines conduites futures : le choix d'aujourd'hui réduit donc réellement l'éventail des choix de demain, sans qu'une contrainte extérieure soit nécessaire.",
@@ -254,6 +254,10 @@
         [
           "La liberté de l'engagement dépend du jugement que l'on conserve sur sa promesse : s'y tenir par raison n'est pas s'y soumettre aveuglément, et la rompre n'est pas toujours redevenir libre.",
           "III.2 Articuler fidélité et révision par des raisons"
+        ],
+        [
+          "Toutefois, le simple fait de prétendre avoir des raisons ne suffit pas : on peut inventer après coup de bonnes raisons à un désir qui nous emporte. La liberté de réviser demande donc d'examiner ces raisons, de les confronter aux engagements pris et de pouvoir les soutenir hors de l'impulsion du moment.",
+          "III.2 Éprouver l'objection décisive et consolider la preuve"
         ],
         [
           "S’engager n’est donc pas renoncer à sa liberté, si l’engagement protège le jugement contre ce qui le capturerait et laisse ouverte sa révision par des raisons ; il ne devient renonciation que lorsqu’il interdit de juger.",
