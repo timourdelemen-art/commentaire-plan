@@ -1,10 +1,22 @@
 /* Rendu des « copies à 20 » : la copie complète, chaque phrase avec sa fonction en marge. */
 const fs=require('fs');
 const path=require('path');
-const DATA=JSON.parse(fs.readFileSync(path.join(__dirname,'copies20-data.json'),'utf8'));
+// Le dossier A20 historique reste une archive auditée ; il ne doit pas masquer
+// les révisions des copies V16. La copie V16 constitue désormais la source unique publiée.
+const ARCHIVE=JSON.parse(fs.readFileSync(path.join(__dirname,'copies20-data.json'),'utf8'));
 const ADDITIONAL=JSON.parse(fs.readFileSync(path.join(__dirname,'copies20-additional.json'),'utf8'));
 const LEDGER=JSON.parse(fs.readFileSync(path.join(__dirname,'copies20-resolutions.json'),'utf8'));
-require('./check-copies20').assertValid(DATA,LEDGER,ADDITIONAL);
+require('./check-copies20').assertValid(ARCHIVE,LEDGER,ADDITIONAL);
+const V16=require('./dissertations-v16');
+const source=V16.load();
+const DATA=Object.fromEntries(Object.entries(ARCHIVE).map(([id])=>{
+  const current=source[id];
+  if(!current)throw new Error('Copie V16 absente pour la page publiée : '+id);
+  if(LEDGER.copies[id].subject!==current.subject)throw new Error('Sujet discordant : '+id);
+  const errors=V16.check(current);
+  if(errors.length)throw new Error('Copie V16 invalide : '+errors.join('; '));
+  return [id,current.copy];
+}));
 // Typographie : espaces insécables avant ; : ! ? » et après «
 const nb=s=>String(s).replace(/ ([;:!?»])/g,' $1').replace(/« /g,'« ');
 const esc=s=>nb(String(s==null?'':s)).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
@@ -125,4 +137,4 @@ ${TOGGLE}
 function writeAdditional(root){
   for(const [key,meta]of Object.entries(ADDITIONAL))fs.writeFileSync(path.join(root,meta.file),vitrine(key,meta));
 }
-module.exports={teaser:section,section,vitrine,writeAdditional,VITRINE,has:k=>Boolean(DATA[k]),renderCopy,openingExercise,BRIDGE_CSS,TOGGLE};
+module.exports={teaser:section,section,vitrine,writeAdditional,VITRINE,has:k=>Boolean(DATA[k]),getCopy:k=>DATA[k]||null,renderCopy,openingExercise,BRIDGE_CSS,TOGGLE};

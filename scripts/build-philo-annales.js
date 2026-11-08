@@ -34,10 +34,30 @@ const SCRIPT_BROUILLON=id=>`<script>(function(){var k='philo-annale:${id}:',a=[]
 function dissertation(set,x){
   const parts=x.parties||[], tr=x.transitions||[];
   const partHtml=(pt,n)=>`<p><strong>${['I','II','III'][n]}. ${esc(pt[0])}</strong></p><ul class="plan-sous">${pt.slice(1).map(v=>`<li>${esc(v)}</li>`).join('')}</ul>`;
+  // Le plan affiché doit provenir de la même copie V16 que la dissertation rédigée.
+  const currentCopy=C20.getCopy(x.id);
+  const sourcePart=(n)=>{
+    const [heading,rows]=currentCopy[n+1];
+    const P=['I','II','III'][n];
+    const points=[1,2,3].map(k=>{
+      const selected=rows.filter(([,label])=>label.startsWith(P+'.'+k+' '));
+      if(!selected.length)throw new Error('Sous-partie absente dans la copie : '+x.id+' '+P+'.'+k);
+      const first=selected[0][0];
+      const last=selected.at(-1)[0];
+      return '<li>'+esc(first)+(first===last?'':' '+esc(last))+'</li>';
+    }).join('');
+    return '<p><strong>'+esc(heading)+'</strong></p><ul class="plan-sous">'+points+'</ul>';
+  };
+  const sourceTransition=n=>currentCopy[n+1][1].filter(([,label])=>/^Transition/i.test(label)).at(-1)?.[0]||'';
+  const planHtml=currentCopy
+    ?[0,1,2].map((n)=>sourcePart(n)+(n<2?'<p class="plan-transition"><em>Transition.</em> '+esc(sourceTransition(n))+'</p>':'')).join('')
+    :partHtml(parts[0],0)+'<p class="plan-transition"><em>Transition.</em> '+esc(tr[0])+'</p>'+partHtml(parts[1],1)+'<p class="plan-transition"><em>Transition.</em> '+esc(tr[1])+'</p>'+partHtml(parts[2],2);
+  const publishedQuestion=currentCopy?currentCopy[0][1].find(([t])=>/\?\s*$/.test(t))?.[0]:x.pb;
+  if(currentCopy&&!publishedQuestion)throw new Error('Problématique absente dans la copie : '+x.id);
   const corr=`<section class="exercise-wrap" id="corrige"><article class="exercise"><div class="kicker">APRÈS VOTRE ESSAI</div><h2>Un corrigé possible.</h2>
-<details class="correction"><summary>1. Le travail au brouillon</summary>${p('Les mots du sujet',x.mots)}${p('Ce que la notion demande',x.demande)}${p('Première réponse',x.oui)}${p('Réponse contraire',x.non)}${p('Problématique',x.pb)}</details>
+<details class="correction"><summary>1. Le travail au brouillon</summary>${p('Les mots du sujet',x.mots)}${p('Ce que la notion demande',x.demande)}${p('Première réponse',x.oui)}${p('Réponse contraire',x.non)}${p('Problématique',publishedQuestion)}</details>
 ${C20.has&&C20.has(x.id)?'<p class="micro"><strong>2. L’introduction rédigée</strong> : elle ouvre le devoir complet, plus bas.</p>':`<details class="correction"><summary>2. L’introduction rédigée</summary><p>${esc(x.intro)}</p></details>`}
-<details class="correction"><summary>3. Le plan détaillé</summary>${partHtml(parts[0],0)}<p class="plan-transition"><em>Transition.</em> ${esc(tr[0])}</p>${partHtml(parts[1],1)}<p class="plan-transition"><em>Transition.</em> ${esc(tr[1])}</p>${partHtml(parts[2],2)}</details>
+<details class="correction"><summary>3. Le plan détaillé</summary>${planHtml}</details>
 ${C20.has&&C20.has(x.id)?'<p class="micro"><strong>4. La conclusion rédigée</strong> : elle termine le devoir complet, plus bas.</p>':`<details class="correction"><summary>4. La conclusion rédigée</summary><p>${esc(x.conclusion)}</p></details>`}
 <p class="micro">Ce n’est pas la seule réponse juste : une autre problématique est bonne si elle passe le test du gant. Les auteurs cités ne sont là que parce qu’ils font avancer l’idée ; un devoir sans eux peut être excellent. L’introduction part d’une scène où le problème se voit déjà ; la conclusion y revient.</p>
 ${PRINT}</article></section>\n`;
