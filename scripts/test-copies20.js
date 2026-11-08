@@ -34,9 +34,16 @@ const vm = require('node:vm');
 const root = path.join(__dirname, '..');
 const renderer = require('./philo-copie20');
 const htmlText = s => s.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/\u00a0/g, ' ');
-for (const [key, copy] of Object.entries(copies)) {
+const currentCopies = require('./dissertations-v16').load();
+for (const [key, archivedCopy] of Object.entries(copies)) {
+  // L'archive continue d'être vérifiée par son registre historique ci-dessus.
+  // Le rendu public, lui, doit reproduire la version V16 corrigée, non cette archive.
+  const publishedCopy = currentCopies[key]?.copy;
+  assert(publishedCopy, `Copie V16 introuvable : ${key}`);
+  assert.deepEqual(renderer.getCopy(key), publishedCopy, `Rendu V16 discordant : ${key}`);
   const rendered = htmlText(renderer.section(key));
-  for (const [, rows] of copy) for (const [text] of rows) assert(rendered.includes(text), `Phrase absente du rendu : ${key}`);
+  for (const [, rows] of publishedCopy)
+    for (const [text] of rows) assert(rendered.includes(text), `Phrase V16 absente du rendu : ${key}`);
 }
 for (const [key, meta] of Object.entries(additional)) {
   const rendered = htmlText(renderer.vitrine(key, meta));
