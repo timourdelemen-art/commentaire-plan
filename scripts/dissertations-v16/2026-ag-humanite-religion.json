@@ -49,7 +49,7 @@
       "III1": "Distinguer la religion comme ensemble de croyances et de pratiques instituées des fonctions sociales, symboliques et existentielles qu’elle peut remplir.",
       "III2": "Même si de tels besoins persistent, rien ne démontre que seule la religion puisse y répondre ; les commémorations et funérailles civiles offrent des analogies partielles, non une preuve d’équivalence universelle.",
       "III3": "Une humanité sans religion est concevable si ces fonctions peuvent être prises en charge autrement ; leur histoire rend cette transformation difficile à prévoir, non contradictoire à penser. Reste : ce qui pourrait être perdu dans la substitution.",
-      "tests": "Cas du mausolée de Lénine : montre la persistance de rites dans un État officiellement athée, sans prouver qu’ils soient universellement nécessaires ni qu’ils définissent toute religion. Contrôle : ne pas assimiler le sacré civil à la religion sans argument ; distinguer possibilité conceptuelle, faisabilité historique et prédiction."
+      "tests": "Cas du mausolée de Lénine : montre la persistance de rites dans un État officiellement athée, sans prouver qu’ils soient universellement nécessaires ni qu’ils définissent toute religion. Contrôle : ne pas assimiler le sacré civil à la religion sans argument ; distinguer possibilité conceptuelle, faisabilité historique et prédiction. Contrôle renforcé : Comparer « religion nécessaire à l'humain », « disparition de toutes les fonctions symboliques » et « substituabilité partielle sans identité des significations » ; préserver le sens exact de « concevoir »."
     },
     "candidats_III": [
       {
@@ -85,7 +85,7 @@
     "scene": "Moscou, 1924 : l’Union soviétique, officiellement athée, fait embaumer le corps de Lénine et l’expose dans un mausolée devant lequel des foules défilent pendant des décennies. Verdict : homologue. Retour : ce qui renaît est un rapport au mort, non une croyance.",
     "statut": {
       "problematique": "suffisamment justifiée",
-      "copie": "état de travail (architecture expérimentale)"
+      "copie": "révision ciblée de l'épreuve de III — audit indépendant à poursuivre"
     },
     "ouvertures_de_pensee": {
       "I": "Raisonner, travailler, aimer et s'obliger envers autrui n'exigent pas, dans leur définition, une croyance religieuse. Une humanité organisée autour de telles capacités peut donc être conçue sans religion, même si sa réalisation historique reste à examiner.",
@@ -240,6 +240,10 @@
         [
           "La persistance de besoins symboliques n'oblige donc pas à reconduire les mêmes croyances : rites civils et formes nouvelles de solidarité sont concevables, sans que leur équivalence avec les expériences religieuses soit garantie.",
           "III.2 Distinguer fonctions symboliques et croyances religieuses"
+        ],
+        [
+          "Cependant, une fonction semblable n'est pas une expérience identique : des funérailles civiles peuvent rassembler sans donner le même sens à la mort qu'une promesse de salut. Concevoir une humanité sans religion demande seulement de montrer que cette différence n'interdit pas de vivre ensemble, non de prétendre remplacer à l'identique toute expérience religieuse.",
+          "III.2 Objection forte et détermination de la portée"
         ],
         [
           "On peut donc concevoir une humanité sans religion : il faudrait qu’elle trouve d’autres façons de répondre aux besoins auxquels les religions répondent. Cela ne prouve ni qu’une telle humanité existe déjà, ni que cette substitution serait sans perte.",
