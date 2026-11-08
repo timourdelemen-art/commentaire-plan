@@ -56,7 +56,7 @@
         "id": "retenue",
         "operation": "Médiation par la situation accessible à l’agent ; distinction de la justification intersubjective et de la certitude absolue.",
         "proposition": "Reconstituer les informations disponibles à l'agent et les alternatives réellement accessibles, sans réduire le bien moral à la seule réussite technique.",
-        "verdict": "retenue mais insuffisante seule",
+        "verdict": "partielle",
         "raison": "La reconstitution des possibilités corrige le biais rétrospectif, mais une décision adaptée peut servir une fin injuste ; doit être complétée par l'épreuve de la règle."
       },
       {
@@ -84,7 +84,7 @@
         "id": "epreuve-principes",
         "operation": "Épreuve de la règle par réciprocité et objection d'autrui",
         "proposition": "Ajouter à la reconstitution des moyens un examen de la fin et des raisons qu'on peut défendre.",
-        "verdict": "retenue en composition après objection",
+        "verdict": "retenue",
         "raison": "L'ancienne médiation jugeait la prudence de la décision mais non sa valeur morale ; une action peut être efficace et injuste. Cette épreuve comble ce manque sans réciter une doctrine."
       }
     ],
@@ -274,7 +274,7 @@
           "III.3 La réponse vérifiée sur le cas"
         ],
         [
-          "Il reste donc possible de juger sérieusement une action sans posséder la preuve définitive de sa bonté ; le devoir de répondre de ses raisons demeure précisément parce que ce jugement peut être repris.",
+          "Il reste pourtant possible de juger sérieusement une action sans posséder la preuve définitive de sa bonté ; le devoir de répondre de ses raisons demeure précisément parce que ce jugement peut être repris.",
           "III.3 Le reste : ce qui demande encore à être pensé"
         ]
       ]
