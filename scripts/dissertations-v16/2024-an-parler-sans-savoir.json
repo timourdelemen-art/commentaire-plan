@@ -49,7 +49,7 @@
       "operation": "critère de frontière (III.7 a) : une parole sans savoir est légitime si elle dit elle-même le degré de ce qu’elle sait.",
       "III1": "Une parole sans savoir est légitime quand elle déclare son propre statut — je sais, je crois, je suppose, je l’ignore — et reste exposée à la correction.",
       "III2": "Conserve XA (le sens ne dépend pas du savoir) et XB (affirmer engage) ; explique LA (le sens laissait indéterminé ce qu’on engage) et LB (l’assertion n’est qu’un des statuts possibles de la parole). La faute n’est pas l’ignorance, mais la parole qui la cache.",
-      "III3": "On peut parler sans savoir, à condition que la parole dise ce qu’elle sait et ce qu’elle ignore ; vérifié sur L’Aquila. Reste : l’auditeur qui n’entend que la certitude.",
+      "III3": "Parole sans savoir légitime sous statut épistémique explicité et risques de réception pris en compte ; reste le public qui ignore les réserves.",
       "tests": "Cas témoin : à L’Aquila, personne ne pouvait savoir si un grand séisme viendrait ; la faute fut de rassurer comme si l’on savait qu’il ne viendrait pas ; ni A, ni B, ni le partage ne le disaient. Second cas : le médecin qui donne un pronostic en disant sa marge d’erreur. Restitution : oui. Rechute : le reste (l’auditeur) ne redit ni LA ni LB. Test propre : frontière définie indépendamment des deux thèses. Report : non. Acquis nouveau : prémisse nouvelle — toute parole a un statut, que la parole légitime déclare ; nécessaire à la décision. Contrôle renforcé : Comparer « silence jusqu'au savoir », « affirmation sans preuve » et « parole graduée selon les raisons et l'enjeu » ; tester l'autorité et les risques de réception. Travail approfondi : gestes F16, O15, N12, K10, F4. Alternatives examinées : Se taire faute de savoir (empêche enquête) / parler sans preuve comme si l'on savait (abus) / graduations explicites de l'engagement et des risques (retenu)."
     },
     "candidats_III": [
@@ -247,7 +247,7 @@
           "III.2 Objection forte et détermination de la portée"
         ],
         [
-          "On peut donc parler sans savoir, à condition que la parole dise elle-même ce qu’elle sait et ce qu’elle ignore.",
+          "On peut donc parler sans savoir, à condition de signaler ce qui demeure incertain et de proportionner ses affirmations aux preuves dont on dispose, surtout quand autrui doit agir sur nos paroles.",
           "III.3 La réponse au sujet, avec son opérateur"
         ],
         [
@@ -264,7 +264,7 @@
       "CONCLUSION",
       [
         [
-          "On peut parler sans savoir, si la parole déclare ce qu’elle sait et ce qu’elle ignore ; on ne le peut pas en laissant croire qu’on sait.",
+          "On peut parler sans savoir en distinguant ce qu'on établit de ce qu'on suppose. Mais l'honnêteté exige aussi de proportionner l'assurance de ses propos aux preuves et aux risques que prend celui qui nous écoute.",
           "Conclusion · la réponse, avec l’opérateur"
         ],
         [
