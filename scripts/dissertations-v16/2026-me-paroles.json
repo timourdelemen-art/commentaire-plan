@@ -90,8 +90,8 @@
     "ouvertures_de_pensee": {
       "I": "Phèdre retient le nom qu'elle ne veut pas prononcer : choisir ses mots et décider de se taire sont bien des pouvoirs du locuteur, même s'ils ne règlent pas tout ce qui sera entendu.",
       "II": "Œnone comprend ce que Phèdre cherchait à taire : le sens d'une parole dépend aussi de la langue partagée, de la situation et de celui qui interprète, non de la seule intention du locuteur.",
-      "III": "Ne pouvant maîtriser toute interprétation, celui qui parle peut encore expliquer, rectifier ou assumer ses paroles. Cette responsabilité n'efface pas ce qui a déjà été compris ni les conséquences irréversibles de certains mots.",
-      "statut": "Possibilités justifiées, avec leur portée exacte."
+      "III": "Lorsque ma phrase a été comprise autrement que je ne l'avais prévu, une possibilité nouvelle demeure : écouter ce que l'autre a entendu, préciser mon intention, reconnaître l'effet produit. Je ne reviens pas avant les mots prononcés ; je transforme ce que je fais maintenant de la parole qui m'échappe. Portée de la nouveauté : responsabilité après émission, possibilité conditionnelle de réparation, irréversibilité reconnue.",
+      "statut": "Test V1.1 : distinguer possibilité construite, justification, coût et reste ; voir rapport individuel."
     }
   },
   "citations": [
@@ -242,11 +242,11 @@
           "III.2 Ce qu’elle conserve"
         ],
         [
-          "Ne pouvant maîtriser toute interprétation, celui qui parle peut encore expliquer, rectifier ou assumer ses paroles. Cette responsabilité n'efface pas ce qui a déjà été compris ni les conséquences irréversibles de certains mots.",
+          "Lorsque ma phrase a été comprise autrement que je ne l'avais prévu, une possibilité nouvelle demeure : écouter ce que l'autre a entendu, préciser mon intention, reconnaître l'effet produit. Je ne reviens pas avant les mots prononcés ; je transforme ce que je fais maintenant de la parole qui m'échappe.",
           "III.2 Définir la responsabilité après la parole prononcée"
         ],
         [
-          "Mais cette maîtrise a des limites irréversibles : un aveu tardif ne ressuscite pas une victime et une rectification ne retire pas une rumeur de toutes les mémoires. Être responsable, ce n'est donc pas reprendre le contrôle total ; c'est agir encore là où une réparation demeure possible.",
+          "Mais expliquer ne suffit pas toujours à réparer. Si une rumeur a détruit une réputation, reconnaître le tort peut ouvrir une enquête et une rectification publique ; cela ne garantit pas que tous oublieront. Répondre de sa parole est une action encore possible, non le pouvoir de défaire le passé.",
           "III.2 Éprouver l'objection décisive et consolider la preuve"
         ],
         [
