@@ -90,8 +90,8 @@
     "ouvertures_de_pensee": {
       "I": "Si une conduite peut avoir pour mobile un désir ignoré, la conscience de vouloir ne suffit plus à garantir que l'agent connaît les raisons pour lesquelles il agit.",
       "II": "Les désirs qu'on ignore ne deviennent pas pour autant ceux d'un autre : on peut reconnaître un acte comme sien sans prétendre connaître tous les mobiles qui l'ont déterminé.",
-      "III": "Ignorer pourquoi l'on a désiré agir n'est pas nécessairement ignorer ce que l'on faisait ou perdre le pouvoir de s'en abstenir. Ces distinctions permettent de discuter la responsabilité sans exiger une transparence totale de la volonté.",
-      "statut": "Possibilités justifiées, avec leur portée exacte."
+      "III": "En séparant les raisons cachées d'un geste de ce que l'agent savait et pouvait faire, on ouvre un jugement plus précis. Une jalousie ignorée peut expliquer une violence ; elle ne suffit pas à prouver que l'auteur ne pouvait pas la retenir. Nous pouvons désormais chercher le discernement et le contrôle effectifs, au lieu de choisir entre culpabilité totale et excuse générale. Portée : Responsabilité examinable par critères, sans acquittement ni condamnation automatiques.",
+      "statut": "Test V1.1 : possibilité construite, justification, coût et reste explicités."
     }
   },
   "citations": [
@@ -242,11 +242,11 @@
           "III.2 Ce qu’il explique"
         ],
         [
-          "Pour juger un acte, distinguons donc ce qui l'a causé de ce que son auteur savait faire et pouvait éviter. Une envie ignorée peut pousser un homme à frapper ; s'il connaissait son geste et pouvait se retenir, son ignorance du mobile n'efface pas sa responsabilité.",
+          "En séparant les raisons cachées d'un geste de ce que l'agent savait et pouvait faire, on ouvre un jugement plus précis. Une jalousie ignorée peut expliquer une violence ; elle ne suffit pas à prouver que l'auteur ne pouvait pas la retenir. Nous pouvons désormais chercher le discernement et le contrôle effectifs, au lieu de choisir entre culpabilité totale et excuse générale.",
           "III.2 Distinguer mobile inconscient et absence de discernement"
         ],
         [
-          "Mais cette capacité n'est pas toujours entière. Une personne peut comprendre son geste sans parvenir à le maîtriser normalement. L'idée d'inconscient nous oblige alors à examiner des degrés de contrôle, plutôt qu'à conclure soit à l'innocence générale, soit à une culpabilité automatique.",
+          "Mais cette nouvelle enquête doit rester ouverte : connaître son geste ne signifie pas toujours pouvoir le maîtriser. Si une capacité de se retenir était fortement diminuée, la responsabilité pourrait l'être aussi. La distinction rend l'examen possible, elle ne décide pas d'avance du verdict.",
           "III.2 Contre-épreuve de la solution choisie"
         ],
         [
