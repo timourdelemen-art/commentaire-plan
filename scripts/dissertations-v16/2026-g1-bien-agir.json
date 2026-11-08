@@ -97,8 +97,8 @@
     "ouvertures_de_pensee": {
       "I": "Juger la règle que l'on s'est donnée permet de distinguer la valeur d'une intention du hasard de son résultat : cette distinction rend concevable qu'un sauvetage manqué ait été justement entrepris.",
       "II": "Les données de l'enquête permettent de corriger la bonne conscience de l'agent par un examen partageable. Elles autorisent un jugement mieux fondé, non une certitude qui écarterait d'avance toute objection.",
-      "III": "La reconstruction de la situation rend possible un jugement qui ne confond pas décision et résultat ; l'épreuve contradictoire de la règle évite de confondre adaptation et moralité. Ces deux contrôles donnent des raisons fortes, sans assurer l'accès complet aux mobiles ni l'accord définitif sur les principes.",
-      "statut": "Possibilités justifiées, avec leur portée exacte."
+      "III": "La question ne porte plus seulement sur ce qui s'est produit, mais sur les possibilités réellement offertes au pilote lorsqu'il décidait. Cette distinction rend possible une comparaison honnête : une trajectoire réalisable au simulateur n'était pas forcément un choix qu'il pouvait reconnaître à temps. Portée de la nouveauté : justification morale plus solide, non connaissance certaine des mobiles.",
+      "statut": "Test V1.1 : distinguer possibilité construite, justification, coût et reste ; voir rapport individuel."
     }
   },
   "citations": [
@@ -246,7 +246,7 @@
           "III.1 Effectuer le déplacement nécessaire"
         ],
         [
-          "Cette reconstruction reprend une opération que l'on peut travailler chez Aristote : juger un acte selon ses circonstances et le discernement de celui qui l'accomplit. Elle oblige à distinguer une option visible après coup d'une option réellement ouverte au moment du choix.",
+          "La question ne porte plus seulement sur ce qui s'est produit, mais sur les possibilités réellement offertes au pilote lorsqu'il décidait. Cette distinction rend possible une comparaison honnête : une trajectoire réalisable au simulateur n'était pas forcément un choix qu'il pouvait reconnaître à temps.",
           "III.1 Ce terme ne répète aucune des deux réponses"
         ],
         [
@@ -262,7 +262,7 @@
           "III.2 Ce qu’elle explique des deux arrêts"
         ],
         [
-          "Les deux examens ne s'additionnent pas simplement : ils se corrigent. L'enquête empêche la conscience de se faire juge unique ; l'épreuve de la règle empêche l'enquête de confondre un choix efficace avec une bonne action. Juger suppose à la fois un choix réellement accessible et une fin que l'on puisse défendre.",
+          "Cette reconstruction ouvre un premier jugement, celui de la décision raisonnable. Mais le cas du voleur habile montre pourquoi il en faut un second : éprouver la fin poursuivie devant ceux qu'elle touche. La critique des motifs ne disparaît pas ; elle nous oblige à défendre nos raisons plutôt qu'à nous croire bons.",
           "III.2 Évaluer la décision selon les raisons disponibles"
         ],
         [
