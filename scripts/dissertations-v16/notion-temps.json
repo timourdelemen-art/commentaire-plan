@@ -48,7 +48,7 @@
       "operation": "transformation d’un présupposé (III.7 a) : le temps n’agit pas ; ce qui détruit, ce sont les processus laissés à eux-mêmes, ce qui construit, l’activité qui les contrarie.",
       "III1": "Le temps n’est pas un agent : il est la mesure de changements dont les causes sont ailleurs — la pourriture du bois, l’oubli, l’usure, d’un côté ; la croissance, l’étude, la reconstruction, de l’autre.",
       "III2": "Conserve XA (chaque état passe) et XB (rien ne se forme sans durée) ; explique LA (on prenait la perte d’un état pour l’œuvre du temps) et LB (on prenait la condition pour la cause). Ce qui est laissé à soi se défait, parce que les processus qui le défont n’ont besoin de personne, alors qu’une formation exige une activité.",
-      "III3": "Le temps n'est pas nécessairement destructeur : le passage des états est universel, mais ni l'identité conservée ni la formation d'un être ne dépendent du temps seul ; reste la vieillesse du vivant.",
+      "III3": "La durée n'est pas une cause unique de destruction ; le changement peut conserver ou former, mais le vivant reste exposé à un vieillissement qui demande encore explication.",
       "tests": "Cas témoin : à Ise, le bois pourrit en vingt ans et le sanctuaire dure depuis le VIIe siècle, parce qu’on le reconstruit ; ni A, ni B, ni le partage ne disaient pourquoi. Second cas : une langue, qui se perd si plus personne ne la parle. Restitution : oui. Rechute : le reste (le vieillissement du vivant) ne redit ni LA ni LB. Test propre : prémisse de transformation établie (les processus de destruction n’ont besoin d’aucun agent, la formation en exige un) ; illusion expliquée (on voit l’effet dans le temps sans voir sa cause). Report : non. Acquis nouveau : prémisse nouvelle — le temps mesure sans agir ; nécessaire à la décision. Contrôle renforcé : Comparer « activité contre usure » et « conservation de l'identité au cours du changement » ; la seconde nuance la première sans attribuer au temps une force causale. Révision éditoriale : gestes S5, N4, D2, X12. Chemins en concurrence : Le temps comme agent (confond mesure et cause) / la durée comme construction (confond condition et cause) / identité conservée par des opérations de transmission (retenu, sans promettre l'immortalité)."
     },
     "candidats_III": [
@@ -273,7 +273,7 @@
       "CONCLUSION",
       [
         [
-          "Le temps n’est pas nécessairement destructeur, car il ne fait rien : ce qui détruit, ce sont des processus laissés à eux-mêmes, et ce qui dure, c’est ce qu’une activité ne cesse de reprendre.",
+          "Le temps n'est donc pas nécessairement destructeur : il accompagne aussi des transformations qui conservent ou forment. La destruction doit être attribuée aux processus qui détruisent, non à la seule durée qui les mesure.",
           "Conclusion · la réponse, avec l’opérateur"
         ],
         [
