@@ -90,8 +90,8 @@
     "ouvertures_de_pensee": {
       "I": "Le chêne ne reçoit pas de nous le principe de sa croissance comme un meuble reçoit d'un artisan son assemblage : la nature n'est donc pas, en général, une production qui attend son fabricant.",
       "II": "Le devenir d'une prairie de fauche ou d'une population de chevaux protégés dépend désormais de pratiques humaines. L'indépendance originelle du vivant n'exclut donc pas des dépendances acquises.",
-      "III": "Le besoin peut être attribué à des vivants déterminés dont notre action conditionne la survie, non à la nature prise comme un être unique. Il devient possible de fonder certains devoirs de réparation sans supposer que le monde entier réclame nos soins.",
-      "statut": "Possibilités justifiées, avec leur portée exacte."
+      "III": "Dès qu'on cesse de traiter « la nature » comme une personne unique, on peut demander de quoi tel être vivant a besoin pour se maintenir. Cette question distingue un cheval menacé, qui a besoin d'un milieu viable, d'un paysage que nous aimons simplement conserver. Elle rend possible une protection guidée par les conditions de vie, non seulement par nos goûts. Portée : Besoins situés et autonomie restaurable selon preuve écologique, non anthropocentrisme automatique.",
+      "statut": "Test V1.1 : possibilité construite, justification, coût et reste explicités."
     }
   },
   "citations": [
@@ -242,11 +242,11 @@
           "III.2 Ce qu’il explique"
         ],
         [
-          "Pour trancher, il faut demander ce qui est nécessaire à la vie des êtres concernés, et non seulement ce que nous préférons voir. Nourrir une espèce menacée peut répondre à un besoin réel ; conserver à tout prix une prairie particulière peut servir d'abord notre idée du beau paysage.",
+          "Dès qu'on cesse de traiter « la nature » comme une personne unique, on peut demander de quoi tel être vivant a besoin pour se maintenir. Cette question distingue un cheval menacé, qui a besoin d'un milieu viable, d'un paysage que nous aimons simplement conserver. Elle rend possible une protection guidée par les conditions de vie, non seulement par nos goûts.",
           "III.2 Attribuer des besoins à des vivants déterminés"
         ],
         [
-          "Encore faut-il distinguer le besoin d'une condition et le besoin de notre présence. Si nous restaurons les conditions d'une vie autonome, le meilleur soin pourra être de nous retirer. Aider la nature n'exige donc pas toujours de la gouverner davantage.",
+          "Le critère ouvre encore une autre issue : au lieu d'entretenir indéfiniment la dépendance, nous pouvons restaurer les conditions qui la rendent inutile. Mais il faut vérifier que l'espèce peut réellement survivre sans nos soins. Notre retrait est une possibilité à préparer, non une preuve que tout serait déjà réparé.",
           "III.2 Contre-épreuve de la solution choisie"
         ],
         [
