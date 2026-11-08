@@ -49,7 +49,7 @@
       "III1": "Le savoir qui choisit ne précède pas l’œuvre : c’est un jugement qui reconnaît, dans ce qui vient d’être fait, ce qui convient à ce qui se fait.",
       "III2": "Ce jugement n’est ni une règle appliquée ni un aveuglement ; il conserve le métier (XA) et l’invention (XB), explique LA (on cherchait avant l’œuvre une règle qui se forme avec elle) et LB (on confondait « pas su d’avance » et « pas su du tout »).",
       "III3": "L’artiste sait ce qu’il fait pendant qu’il le fait, non avant ; vérifié à Cologne. Reste : ce que l’œuvre fera aux autres.",
-      "tests": "Cas témoin : la III dit en quel sens Jarrett savait ce qu’il faisait, ce que le cumul ne disait pas. Second cas : les repentirs d’un peintre, visibles sous la couche finale. Restitution : oui. Rechute : le reste (l’effet sur autrui) ne redit ni LA ni LB. Test propre : l’inversion explique ce que l’ordre initial n’expliquait pas (le tri). Report : non. Acquis nouveau : prémisse nouvelle — un jugement peut porter sur un cas singulier sans règle préalable et commander la suite ; nécessaire à la décision."
+      "tests": "Cas témoin : la III dit en quel sens Jarrett savait ce qu’il faisait, ce que le cumul ne disait pas. Second cas : les repentirs d’un peintre, visibles sous la couche finale. Restitution : oui. Rechute : le reste (l’effet sur autrui) ne redit ni LA ni LB. Test propre : l’inversion explique ce que l’ordre initial n’expliquait pas (le tri). Report : non. Acquis nouveau : prémisse nouvelle — un jugement peut porter sur un cas singulier sans règle préalable et commander la suite ; nécessaire à la décision. Contrôle renforcé : Comparer « règle antérieure », « intuition aveugle » et « comparaison critique des essais au cours de l'œuvre » ; l'auto-approbation ne suffit pas à constituer un savoir."
     },
     "candidats_III": [
       {
@@ -85,7 +85,7 @@
     "scene": "Keith Jarrett, concert de Cologne, 24 janvier 1975, sur un piano de répétition défectueux. Verdict : homologue. Retour : la III fait de chaque figure reprise ou quittée le signe du savoir qui choisit.",
     "statut": {
       "problematique": "suffisamment justifiée",
-      "copie": "état de travail (architecture expérimentale)"
+      "copie": "révision ciblée de l'épreuve de III — audit indépendant à poursuivre"
     },
     "ouvertures_de_pensee": {
       "I": "Corriger une couleur ou une cadence suppose de discerner l'écart entre un effet obtenu et celui qu'on cherche : le savoir de l'artiste s'exerce donc aussi pendant la création, non seulement avant elle.",
@@ -244,6 +244,10 @@
         [
           "Le métier permet de juger les essais, tandis que l'invention leur donne une matière qui n'était pas connue d'avance : l'artiste peut savoir ce qu'il fait à mesure que l'œuvre se forme, sans pouvoir la déduire d'un plan préalable.",
           "III.2 Articuler le jugement technique et l'invention"
+        ],
+        [
+          "Mais reconnaître après coup ce qui convient à l'œuvre pourrait n'être qu'aimer ce qu'on vient de produire. Le jugement artistique devient plus solide lorsque l'essai peut être repris, comparé à une autre possibilité puis abandonné pour une raison perceptible, même si aucune règle ne garantissait d'avance la meilleure solution.",
+          "III.2 Contre-épreuve de la solution choisie"
         ],
         [
           "L’artiste sait donc ce qu’il fait, non comme un plan qu’il exécute, mais comme une œuvre qu’il reconnaît en la faisant : il le sait pendant, non avant.",
