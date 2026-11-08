@@ -90,8 +90,8 @@
     "ouvertures_de_pensee": {
       "I": "Que mes inclinations puissent être satisfaites sans que tous les hommes le soient distingue mon bonheur du bonheur universel : celui-ci ne saurait être une condition nécessaire de toute joie individuelle.",
       "II": "Le bien d'un proche n'est pas seulement un événement que j'observe : parce que je l'aime, sa réussite ou sa souffrance entre dans ce qui peut me rendre heureux ou malheureux.",
-      "III": "Le bonheur peut ainsi engager la manière dont je réponds au malheur que je connais : l'impuissance à le supprimer ne se confond pas avec l'indifférence, et l'attention à autrui n'abolit pas toute joie personnelle.",
-      "statut": "Possibilités justifiées, avec leur portée exacte."
+      "III": "Distinguer le malheur que je ne peux empêcher de celui auquel je contribue ouvre une conduite possible entre deux impasses : ni me condamner à ne jamais être heureux, ni fermer les yeux pour préserver ma joie. Je peux aider lorsque je le peux, accepter ce qui échappe à mon pouvoir et examiner ce qui rend mon propre bonheur possible. Portée : Responsabilité praticable sans bonheur universel ; vigilance sur sources injustes du bonheur.",
+      "statut": "Test V1.1 : possibilité construite, justification, coût et reste explicités."
     }
   },
   "citations": [
@@ -252,11 +252,11 @@
           "III.2 Ce qu’elle conserve"
         ],
         [
-          "Le bonheur n'exige pas que je puisse sauver tout le monde ; personne ne le peut. Il exige plutôt que je puisse répondre de ma conduite devant le malheur que je connais : ce que je ne peux pas empêcher ne doit pas être confondu avec ce que je préfère ignorer.",
+          "Distinguer le malheur que je ne peux empêcher de celui auquel je contribue ouvre une conduite possible entre deux impasses : ni me condamner à ne jamais être heureux, ni fermer les yeux pour préserver ma joie. Je peux aider lorsque je le peux, accepter ce qui échappe à mon pouvoir et examiner ce qui rend mon propre bonheur possible.",
           "III.2 Articuler bonheur personnel et réponse à autrui"
         ],
         [
-          "Mais faire quelques gestes charitables n'innocente pas un bonheur tiré d'une injustice. Si ma richesse vient de l'exploitation de ceux qui souffrent, il ne suffit pas que je leur fasse l'aumône. Je dois aussi examiner ce qui rend ma satisfaction possible.",
+          "Mais secourir quelques personnes ne suffit pas si mon bonheur dépend d'une injustice que je contribue à maintenir. Il faut alors examiner non seulement mes gestes de générosité, mais les conditions de ma satisfaction. Ce nouveau jugement peut me demander de modifier ma manière de vivre ; il ne garantit pas que tout malheur sera supprimé.",
           "III.2 Objection forte et détermination de la portée"
         ],
         [
