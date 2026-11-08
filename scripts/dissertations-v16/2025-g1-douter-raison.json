@@ -50,7 +50,7 @@
       "III1": "Le doute légitime porte sur l’étendue d’un pouvoir, non sur l’autorité de la raison, et c’est la raison qui le conduit, en démontrant où ce pouvoir s’arrête.",
       "III2": "Conserve XA (des pouvoirs particuliers peuvent être mis en doute) et XB (la raison ne peut être récusée en bloc) ; explique LA (le doute de I visait des usages, il peut viser l’étendue) et LB (l’usage inévitable n’est pas garanti, mais il peut être mesuré par lui-même). Un doute qui démontre sa borne ne se détruit pas, il se vérifie.",
       "III3": "On peut douter des pouvoirs de la raison, si c’est la raison qui en mesure l’étendue en démontrant où ils s’arrêtent ; ce doute ne la ruine pas, il la délimite ; vérifié sur Gödel. Reste : agir avant d’avoir pu mesurer ces pouvoirs.",
-      "tests": "Cas témoin : Gödel démontre, avec toute la rigueur des mathématiques, qu’un système assez riche contient des vérités qu’il ne peut démontrer : le doute sur le pouvoir de démontrer est établi par la raison, qui n’en sort pas ruinée ; ni A, ni B, ni le partage ne le disaient. Second cas : la Critique de la raison pure, où la raison borne son usage spéculatif. Restitution : oui. Rechute : le reste (l’action) ne redit ni LA ni LB. Test propre : frontière définie indépendamment des deux thèses (étendue / autorité). Report : non. Acquis nouveau : prémisse nouvelle — un doute peut être une démonstration ; nécessaire à la décision."
+      "tests": "Cas témoin : Gödel démontre, avec toute la rigueur des mathématiques, qu’un système assez riche contient des vérités qu’il ne peut démontrer : le doute sur le pouvoir de démontrer est établi par la raison, qui n’en sort pas ruinée ; ni A, ni B, ni le partage ne le disaient. Second cas : la Critique de la raison pure, où la raison borne son usage spéculatif. Restitution : oui. Rechute : le reste (l’action) ne redit ni LA ni LB. Test propre : frontière définie indépendamment des deux thèses (étendue / autorité). Report : non. Acquis nouveau : prémisse nouvelle — un doute peut être une démonstration ; nécessaire à la décision. Contrôle renforcé : Comparer « défiance générale », « confiance inconditionnelle » et « délimitation démontrée d'un pouvoir déterminé » ; éviter d'étendre indûment un résultat logique à toute raison."
     },
     "candidats_III": [
       {
@@ -86,7 +86,7 @@
     "scene": "Königsberg, septembre 1930 : Gödel annonce son théorème d’incomplétude lors d’un congrès ; le lendemain, dans la même ville, Hilbert clôt un discours radiodiffusé par : « Nous devons savoir, nous saurons. » Publication du théorème en 1931. Verdict : homologue. Retour : le doute établi par la raison elle-même.",
     "statut": {
       "problematique": "suffisamment justifiée",
-      "copie": "état de travail (architecture expérimentale)"
+      "copie": "révision ciblée de l'épreuve de III — audit indépendant à poursuivre"
     },
     "ouvertures_de_pensee": {
       "I": "La raison peut ainsi examiner ses propres pouvoirs : les questions auxquelles elle ne parvient pas à répondre ne sont pas toutes des fautes de calcul, mais peuvent révéler les limites de ses prétentions.",
@@ -241,6 +241,10 @@
         [
           "Un doute qui établit jusqu'où va un raisonnement ne récuse donc pas la raison : il mesure son domaine légitime, sans garantir pour autant tous ses usages.",
           "III.2 Fonder un doute rationnellement délimité"
+        ],
+        [
+          "La raison peut toutefois démontrer les limites d'un système sans connaître à l'avance ses propres limites dans tous les domaines. Il serait donc excessif de tirer d'un résultat précis un verdict universel. Le doute légitime demande toujours de dire de quel pouvoir on parle et par quelle preuve son domaine a été délimité.",
+          "III.2 Objection forte et détermination de la portée"
         ],
         [
           "On peut donc douter des pouvoirs de la raison, si c’est la raison qui en mesure l’étendue en démontrant où ils s’arrêtent : ce doute ne la ruine pas, il la délimite.",
