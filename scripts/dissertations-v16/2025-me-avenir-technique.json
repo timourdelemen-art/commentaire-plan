@@ -49,7 +49,7 @@
       "III1": "Distinguer les techniques aisément substituables, les réseaux partiellement modifiables et les infrastructures dont la transformation demande une action collective prolongée.",
       "III2": "Les techniques rendent certains avenirs plus accessibles et d'autres plus coûteux, sans abolir mécaniquement la décision ; les choix politiques façonnent à leur tour les réseaux techniques.",
       "III3": "Notre avenir dépend de la technique dans la mesure où nos décisions s'exercent au sein de possibilités façonnées par les infrastructures ; il dépend aussi des institutions capables de les transformer. Reste la décision sous incertitude avant la diffusion d'un système.",
-      "tests": "Cas témoin : les CFC n’étaient qu’un composant remplaçable, et une décision a suffi ; les énergies fossiles sont devenues le milieu de toute activité, et les décisions déclarées n’ont pas suffi ; ni A, ni B, ni le partage moyens / fins ne l’expliquaient. Second cas : l’automobile, choisie comme moyen au début du XXe siècle, devenue la forme de nos villes. Restitution : oui. Rechute : le reste (décider à temps) ne redit ni LA ni LB. Test propre : la condition est nécessaire, non suffisante (il faut encore vouloir). Report : non. Acquis nouveau : prémisse nouvelle — la dépendance entre technique et décision change de sens avec l’incorporation de la technique ; nécessaire à la décision."
+      "tests": "Cas témoin : les CFC n’étaient qu’un composant remplaçable, et une décision a suffi ; les énergies fossiles sont devenues le milieu de toute activité, et les décisions déclarées n’ont pas suffi ; ni A, ni B, ni le partage moyens / fins ne l’expliquaient. Second cas : l’automobile, choisie comme moyen au début du XXe siècle, devenue la forme de nos villes. Restitution : oui. Rechute : le reste (décider à temps) ne redit ni LA ni LB. Test propre : la condition est nécessaire, non suffisante (il faut encore vouloir). Report : non. Acquis nouveau : prémisse nouvelle — la dépendance entre technique et décision change de sens avec l’incorporation de la technique ; nécessaire à la décision. Contrôle renforcé : Comparer « déterminisme technique », « décision souveraine » et « dépendances plus ou moins réversibles avec distribution du pouvoir de décider » ; éprouver l'asymétrie des acteurs."
     },
     "candidats_III": [
       {
@@ -85,7 +85,7 @@
     "scene": "1974 : Molina et Rowland montrent que les CFC détruisent l’ozone ; 1985 : découverte du trou au-dessus de l’Antarctique ; 1987 : protocole de Montréal. Dans les mêmes décennies, la hausse du CO2, mesurée depuis 1958, n’est pas enrayée malgré les engagements pris depuis 1992. Verdict : homologue. Retour : le moment où la technique est devenue milieu.",
     "statut": {
       "problematique": "suffisamment justifiée",
-      "copie": "état de travail (architecture expérimentale)"
+      "copie": "révision ciblée de l'épreuve de III — audit indépendant à poursuivre"
     },
     "ouvertures_de_pensee": {
       "I": "L'agriculture mécanisée, les soins et l'énergie ne sont plus de simples accessoires choisis à volonté : ils conditionnent matériellement les possibilités à partir desquelles nous décidons de notre avenir.",
@@ -244,6 +244,10 @@
         [
           "L'exemple de l'automobile montre que l'action politique n'est pas abolie par la technique, mais devient plus coûteuse lorsque routes, urbanisme et habitudes de déplacement rendent les solutions interdépendantes.",
           "III.2 Expliquer les coûts de transformation des réseaux"
+        ],
+        [
+          "Mais le coût du changement ne suffit pas à établir que les choix demeurent ouverts à tous : une infrastructure peut donner à certains le pouvoir de décider tandis que d'autres subissent ses contraintes. Il faut donc examiner non seulement la réversibilité technique, mais aussi qui possède les moyens de réorienter le réseau.",
+          "III.2 Objection forte et détermination de la portée"
         ],
         [
           "Notre avenir dépend donc des techniques parce qu'elles organisent le champ de nos choix ; il dépend aussi de nous parce que les décisions collectives peuvent, à des degrés divers, rouvrir ce champ.",
