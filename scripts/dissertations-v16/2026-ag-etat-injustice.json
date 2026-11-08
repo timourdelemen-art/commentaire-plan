@@ -49,7 +49,7 @@
       "III1": "Le lien est une institution : des tribunaux et une constitution qui permettent aux citoyens de faire juger les lois par une autorité qui n’en est pas l’auteur.",
       "III2": "Par ce terme, le jugement des citoyens devient règle commune (XB conservé, LB expliqué), et l’État redevient tiers à l’égard de ses propres lois en se divisant (XA conservé, LA expliqué).",
       "III3": "Oui, la lutte revient principalement à l’État, à condition qu’il soit organisé pour pouvoir être jugé par lui-même à la demande des citoyens ; vérifié sur Montgomery. Reste : les injustices qu’aucune loi ni aucun acte jugeable n’atteignent.",
-      "tests": "Cas témoin : à Montgomery, ce sont des citoyens qui saisissent la justice fédérale, et c’est elle qui déclare la loi de l’Alabama contraire à la Constitution ; la III dit à qui revenait la lutte. Second cas : le contrôle de constitutionnalité saisi par un justiciable. Restitution : oui. Rechute : le reste (injustices sans loi) ne redit ni LA ni LB. Test propre : le médiateur ne répète ni l’État législateur ni le citoyen. Report : la question ne se repose pas à l’identique pour le tribunal, qui n’est pas l’auteur de la loi. Acquis nouveau : prémisse nouvelle — un pouvoir divisé peut être tiers à l’égard de lui-même ; nécessaire à la décision."
+      "tests": "Cas témoin : à Montgomery, ce sont des citoyens qui saisissent la justice fédérale, et c’est elle qui déclare la loi de l’Alabama contraire à la Constitution ; la III dit à qui revenait la lutte. Second cas : le contrôle de constitutionnalité saisi par un justiciable. Restitution : oui. Rechute : le reste (injustices sans loi) ne redit ni LA ni LB. Test propre : le médiateur ne répète ni l’État législateur ni le citoyen. Report : la question ne se repose pas à l’identique pour le tribunal, qui n’est pas l’auteur de la loi. Acquis nouveau : prémisse nouvelle — un pouvoir divisé peut être tiers à l’égard de lui-même ; nécessaire à la décision. Contrôle renforcé : Comparer « monopole de l'État », « dénonciation citoyenne » et « institution contestable effectivement indépendante » ; tester l'effectivité des recours, pas leur seule existence."
     },
     "candidats_III": [
       {
@@ -85,7 +85,7 @@
     "scene": "Montgomery (Alabama), 1er décembre 1955 : Rosa Parks refuse de céder sa place ; boycott des bus de 381 jours ; arrêt Browder v. Gayle (tribunal fédéral, juin 1956, confirmé par la Cour suprême en novembre 1956). Verdict : homologue. Retour : la décision fédérale est le terme qui relie.",
     "statut": {
       "problematique": "suffisamment justifiée",
-      "copie": "état de travail (architecture expérimentale)"
+      "copie": "révision ciblée de l'épreuve de III — audit indépendant à poursuivre"
     },
     "ouvertures_de_pensee": {
       "I": "Parce que les particuliers sont engagés dans les conflits qu'ils veulent trancher, la lutte contre l'injustice réclame une instance capable de formuler la règle commune et d'en imposer le respect. C'est la fonction qu'assume d'abord l'État.",
@@ -233,6 +233,10 @@
         [
           "La séparation des pouvoirs permet de juger une décision publique sans abandonner le jugement à une force privée : une contestation citoyenne peut ainsi être portée devant une autorité capable de l'imposer à l'État lui-même.",
           "III.2 Articuler jugement citoyen et contrôle de l'État"
+        ],
+        [
+          "Encore faut-il qu'un tribunal puisse réellement contredire le pouvoir qui le nomme ou le finance : une indépendance inscrite dans un texte ne suffit pas si ses décisions ne peuvent être appliquées. La lutte contre l'injustice exige donc des recours accessibles, une décision motivée et la possibilité de lui donner effet.",
+          "III.2 Objection forte et détermination de la portée"
         ],
         [
           "Il revient donc principalement à l’État de lutter contre l’injustice, à condition qu’il soit organisé pour pouvoir être jugé par lui-même, à la demande des citoyens.",
