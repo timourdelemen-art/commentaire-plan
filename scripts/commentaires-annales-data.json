@@ -42,24 +42,16 @@
         "heading": "I.1",
         "sentences": [
           {
-            "text": "Le regard d’Édouard rapproche d’abord la femme aimée et le paysage.",
-            "function": "Donner la première réponse."
+            "text": "Le regard d’Édouard installe d’abord la duchesse dans un paysage où les frontières paraissent s’adoucir : le « profil charmant » se détache sur le « ciel d’azur ».",
+            "function": "Décrire l'union perceptive progressivement construite par le regard"
           },
           {
-            "text": "Son « profil charmant » se détache sur un « ciel d’azur » : la fenêtre encadre la femme aimée, déjà proche du narrateur mais encore séparée de lui.",
-            "function": "Relier les mots, le cadrage et leur effet."
+            "text": "La phrase déroule les couleurs du soir, des « particules brillantes » à la « vapeur violette », avant de suspendre le passage du temps entre ce qui n’est « plus le jour » et ce qui n’est pas « encore l’obscurité ».",
+            "function": "Suivre le mouvement descriptif et sa durée indécise"
           },
           {
-            "text": "La précision « à deux pas derrière elle » souligne ce déséquilibre : Édouard peut contempler la duchesse, mais il ne reçoit pas son regard ; leur proximité demeure sans échange direct.",
-            "function": "Analyser l’effet du cadrage et de la position des personnages."
-          },
-          {
-            "text": "La lumière n’est « plus le jour » sans être « encore l’obscurité » ; cet entre-deux sensible prépare discrètement une relation que ni la présence ni l’éloignement ne définissent.",
-            "function": "Préciser l’effet du point de vue."
-          },
-          {
-            "text": "Les « particules brillantes qui nagent » et la « vapeur violette » prolongent cet instant suspendu : les images visuelles font du soir une durée indécise que le narrateur voudrait retenir.",
-            "function": "Relier les images de lumière et le ralentissement sensible du temps."
+            "text": "L’indication « à deux pas derrière elle » rappelle pourtant que la proximité sensible ne constitue pas un échange de regards : Édouard contemple celle qui ne se tourne pas encore vers lui.",
+            "function": "Faire réapparaître la relation humaine sous l'harmonie du paysage"
           }
         ]
       },
@@ -67,20 +59,16 @@
         "heading": "I.2",
         "sentences": [
           {
-            "text": "À la vision s’ajoute une intimité respirée.",
-            "function": "Approfondir la réponse."
+            "text": "Le paysage cesse peu à peu d’être seulement visible : la présence de Madame de Nevers semble gagner l’air que respire Édouard.",
+            "function": "Décrire le passage de la vision à une proximité respirée"
           },
           {
-            "text": "Le « souffle embaumé » du jasmin « semblait s’exhaler » de Madame de Nevers : cette impression confond le parfum de la fleur avec la présence de la femme.",
-            "function": "Analyser une impression explicitement donnée comme subjective."
+            "text": "Le « souffle embaumé » du jasmin « semblait s’exhaler » de la femme ; le verbe « semblait » maintient une hésitation entre sensation réelle et impression amoureuse.",
+            "function": "Délimiter ce que permet l'association du parfum et de la présence aimée"
           },
           {
-            "text": "Le verbe « respirais », accompagné d’« avidité », donne au désir une intensité corporelle sans qu’Édouard touche celle qu’il aime.",
-            "function": "Expliquer ce que les sensations font éprouver ici."
-          },
-          {
-            "text": "Le verbe « semblait » marque cependant la part d’illusion : Édouard attribue à la présence aimée un parfum venu du jasmin, comme si la sensation pouvait abolir les deux pas qui le séparent d’elle.",
-            "function": "Analyser la modalisation « semblait » et la subjectivité de la sensation."
+            "text": "L’« avidité » du narrateur donne à cette confusion une intensité corporelle : il accueille comme venu d’elle un parfum qui appartient aux fleurs, sans franchir les « deux pas » qui les séparent.",
+            "function": "Relier la reprise de la distance à son abolition imaginaire"
           }
         ]
       },
@@ -88,20 +76,16 @@
         "heading": "I.3",
         "sentences": [
           {
-            "text": "L’énumération rassemble enfin le lieu, le moment et le visage dans une même émotion.",
-            "function": "Montrer l’aboutissement du mouvement."
+            "text": "Les perceptions jusque-là distribuées dans le paysage se rassemblent finalement autour de l’émotion du narrateur.",
+            "function": "Suivre le passage d'une description dispersée à une conscience unifiée"
           },
           {
-            "text": "Après « La paix de ces campagnes, l’heure, le silence », le pronom « tout » réunit les perceptions dans « tout m’enivrait d’amour ».",
-            "function": "Analyser la construction de la phrase."
+            "text": "Dans l’accumulation « La paix de ces campagnes, l’heure, le silence », la phrase retarde son verbe ; le pronom « tout » recueille les éléments avant « tout m’enivrait d’amour ».",
+            "function": "Expliquer comment l'énumération construit son point d'aboutissement"
           },
           {
-            "text": "Ce « tout » rassemble les sensations dans l’esprit d’Édouard, mais n’engage encore aucune promesse de la duchesse.",
-            "function": "Dégager la limite précise de cette harmonie."
-          },
-          {
-            "text": "L’accumulation « La paix », « l’heure », « le silence » retarde le verbe « m’enivrait » ; la métaphore de l’ivresse donne à cette harmonie une intensité qui annonce aussi la perte de maîtrise.",
-            "function": "Nommer l’accumulation et la métaphore, puis préciser leur effet dans la progression."
+            "text": "Cette ivresse mesure l’emprise de la scène sur Édouard, non la certitude d’être aimé en retour ; le récit porte l’harmonie à son comble juste avant l’apparition des pensées douloureuses.",
+            "function": "Faire apparaître le seuil où l'harmonie va se renverser"
           }
         ]
       },
@@ -118,24 +102,16 @@
         "heading": "II.1",
         "sentences": [
           {
-            "text": "L’obstacle revient d’abord comme une rupture intérieure.",
-            "function": "Répondre à la transition."
+            "text": "« Mais bientôt » interrompt la longue continuité du paysage et ouvre la parole intérieure du narrateur.",
+            "function": "Nommer la rupture de rythme et de régime d'énonciation"
           },
           {
-            "text": "« Mais bientôt » interrompt l’ivresse et introduit les « réflexions douloureuses » ; le récit accueille alors directement les pensées d’Édouard.",
-            "function": "Analyser le changement de régime du récit."
+            "text": "Aux sensations liées par « tout » succèdent les « mille réflexions douloureuses » : la conscience se peuple de craintes au lieu de prolonger l’accord du soir.",
+            "function": "Mettre en relation deux accumulations de sens opposé"
           },
           {
-            "text": "L’adversatif « Mais » brise l’accord du paysage et du cœur ; l’hyperbole « mille réflexions » fait surgir une multitude de craintes là où quelques instants auparavant « tout » semblait uni.",
-            "function": "Expliquer le renversement porté par le connecteur et l’hyperbole."
-          },
-          {
-            "text": "Dans « Je l’adore » puis « séparé d’elle », la proximité du sentiment et l’impossibilité de l’union se heurtent au présent.",
-            "function": "Préciser l’effet de cette opposition."
-          },
-          {
-            "text": "L’incise « pensai-je » signale le passage à la pensée rapportée au discours direct : après une description paisible, le lecteur entre dans une conscience qui se contredit et se tourmente.",
-            "function": "Identifier le discours direct de pensée et son effet sur l’accès au personnage."
+            "text": "L’incise « pensai-je » introduit des phrases brèves où « Je l’adore » se heurte à « séparé d’elle » ; le lecteur n’observe plus seulement le paysage, il suit une pensée qui découvre sa propre impasse.",
+            "function": "Décrire comment le changement de voix transforme la scène"
           }
         ]
       },
@@ -143,20 +119,16 @@
         "heading": "II.2",
         "sentences": [
           {
-            "text": "La séparation n’est pourtant pas une distance physique.",
-            "function": "Développer la contradiction du passage."
+            "text": "La pensée d’Édouard reprend alors obstinément la proximité qui lui est offerte pour en mesurer l’insuffisance.",
+            "function": "Suivre la conversion de la présence en privation"
           },
           {
-            "text": "« Elle est là » et « près d’elle » multiplient les marques de présence, tandis que « jamais, jamais » ferme tout avenir commun.",
-            "function": "Relier les indications de lieu à la répétition temporelle."
+            "text": "« Elle est là » et « près d’elle » resserrent l’espace autour de la duchesse, tandis que « jamais, jamais » ferme l’avenir : la répétition donne à la séparation une durée sans terme.",
+            "function": "Relier rapprochement spatial et fermeture temporelle"
           },
           {
-            "text": "La métaphore de la « barrière » rend sensible une frontière sociale invisible : être auprès d’elle ne permet pas de former un couple reconnu.",
-            "function": "Nommer le procédé et sa portée dans cette scène."
-          },
-          {
-            "text": "La reprise « jamais, jamais » ferme l’avenir avec une vigueur que « Elle est là » rend particulièrement douloureuse : la répétition oppose une présence indéniable à une union tenue pour impossible.",
-            "function": "Étudier la répétition et le contraste entre présent spatial et avenir refusé."
+            "text": "La « barrière » reste invisible aux yeux des deux personnages dans ce paysage ouvert, mais elle est déjà présente dans l’impossibilité sociale que le narrateur affirme.",
+            "function": "Montrer la transformation d'un obstacle social en frontière intérieure"
           }
         ]
       },
@@ -244,28 +216,20 @@
         "heading": "III.3",
         "sentences": [
           {
-            "text": "Le jasmin du début revient lorsque les paroles deviennent impossibles : le motif qui portait le parfum du bonheur recueille désormais les larmes.",
-            "function": "Analyser la réalisation finale."
+            "text": "Le jasmin du début revient quand la parole ne suffit plus : le motif qui associait la duchesse au parfum sert désormais à recevoir les larmes du narrateur.",
+            "function": "Lire la reprise d'un motif à travers son changement de fonction"
           },
           {
-            "text": "Les fleurs, « qu’on ne distinguait plus qu’à peine », se fondent dans l’obscurité qui progresse ; leur présence devient moins un tableau offert au regard qu’un objet fragile à saisir.",
-            "function": "Relier l’assombrissement du décor à la transformation du motif du jasmin."
+            "text": "La fin de la dernière phrase fait entendre cette hésitation sans la commenter : « je les lui donnai, je les lui repris ; puis je les couvris de mes baisers et de mes larmes. » Les deux premiers verbes s’annulent ; le « puis » entraîne les gestes vers les fleurs, qui reçoivent ce qu’Édouard ne peut adresser à la duchesse.",
+            "function": "Suivre le mouvement physique de l'hésitation plutôt que le résumer"
           },
           {
-            "text": "Dans « je les lui donnai, je les lui repris », les deux gestes inverses font du jasmin un lien offert puis ramené à soi.",
-            "function": "Relier les verbes et leur construction à l’effet produit."
+            "text": "Les fleurs, « qu’on ne distinguait plus qu’à peine », s’effacent avec le jour ; Édouard les couvre de « baisers » et de « larmes » au lieu d’embrasser celle qu’il aime.",
+            "function": "Relier l'obscurcissement du paysage au geste de substitution"
           },
           {
-            "text": "Le parallélisme des propositions et l’opposition entre « donnai » et « repris » condensent toute l’hésitation du personnage : offrir les fleurs, puis les retirer, remplace une déclaration qu’il n’ose faire.",
-            "function": "Nommer le parallélisme et l’antithèse verbale, puis expliquer le geste."
-          },
-          {
-            "text": "Le rapprochement final des « baisers » et des « larmes » unit tendresse et douleur dans un même geste : la fleur permet un contact détourné, sans lever la séparation.",
-            "function": "Montrer la portée précise de la fin du passage."
-          },
-          {
-            "text": "Édouard embrasse les fleurs plutôt que la femme ; la substitution rend sa passion visible sans lui donner de réponse. La beauté du tableau demeure, mais son sens s’est renversé.",
-            "function": "Préciser l’effet du déplacement des gestes affectifs vers les fleurs."
+            "text": "Le récit ne termine donc pas sur un symbole abstrait de l’amour impossible : il fait revenir un objet sensible, désormais chargé d’un désir qui n’a trouvé ni parole ni réponse.",
+            "function": "Établir la portée narrative du retour transformé du jasmin"
           }
         ]
       },
@@ -367,9 +331,9 @@
             "Donner puis reprendre les mêmes fleurs figure une proximité désirée qui ne se stabilise pas."
           ]
         ],
-        "write": "En trois phrases, analysez les fleurs à la fin du passage. Citez un détail et expliquez son effet ici.",
+        "write": "En trois phrases, expliquez comment le retour du jasmin à la fin transforme le sens qu'il avait dans la description initiale. Citez deux moments précis.",
         "hint": "Suivez les gestes, puis associez les deux mots qui terminent l’extrait.",
-        "model": "Les fleurs remplacent la réponse qu’Édouard n’ose pas donner. Dans « je les lui donnai, je les lui repris », les gestes inverses établissent puis retirent un lien entre les personnages. Les « baisers » et les « larmes » réunissent la tendresse et la souffrance, sans résoudre l’obstacle.",
+        "model": "Au début, le jasmin donne à Édouard l’impression que le parfum émane de Madame de Nevers : la fleur semble abolir la distance. À la fin, « je les lui donnai, je les lui repris » fait du jasmin l’objet d’un geste hésitant. Les « baisers » et les « larmes » qu’il reçoit rendent sensible la proximité désirée et la séparation maintenue.",
         "checks": [
           "Vous citez les mots exacts.",
           "Vous analysez leur construction.",
@@ -421,20 +385,16 @@
         "heading": "I.1",
         "sentences": [
           {
-            "text": "Titus tente d’abord d’associer Bérénice à la maîtrise de leur douleur.",
-            "function": "Donner la première réponse."
+            "text": "Titus commence par demander à Bérénice de l’aider à contenir une douleur dont il ne se rend pas maître.",
+            "function": "Suivre le mouvement initial de la parole, de la demande à l'aveu"
           },
           {
-            "text": "L’impératif « Aidez-moi » demande un secours, tandis que « s’il se peut » reconnaît la fragilité de cet effort.",
-            "function": "Analyser la demande et sa restriction."
+            "text": "L’impératif « Aidez-moi » s’adresse à celle qu’il va quitter ; la réserve « s’il se peut », insérée dans le même alexandrin, affaiblit aussitôt la force de cette injonction.",
+            "function": "Faire entendre comment le vers corrige l'autorité de l'impératif"
           },
           {
-            "text": "L’empereur ne parle donc pas depuis une autorité affective assurée : il a besoin de celle qu’il va quitter pour soutenir sa décision.",
-            "function": "Préciser ce que cette ouverture révèle du personnage."
-          },
-          {
-            "text": "La proposition incidente « s’il se peut » limite aussitôt l’impératif : Titus demande l’impossible à celle qu’il blesse, en avouant lui-même que la maîtrise des larmes risque d’échouer.",
-            "function": "Analyser la restriction introduite par « s’il se peut » et la vulnérabilité de Titus."
+            "text": "Avant de présenter sa décision, Titus laisse ainsi paraître sa dépendance affective : l’empereur a besoin de Bérénice pour tenter de supporter la séparation qu’il exige.",
+            "function": "Déduire ce que l'ordre et sa restriction font comprendre du personnage"
           }
         ]
       },
@@ -442,20 +402,16 @@
         "heading": "I.2",
         "sentences": [
           {
-            "text": "Cette faiblesse reconnue devient ensuite une épreuve commune.",
-            "function": "Faire progresser la réponse."
+            "text": "La demande passe ensuite de la maîtrise des larmes à leur dignité : « Ou, si nous ne pouvons » introduit une issue de repli.",
+            "function": "Suivre la substitution d'un but devenu incertain par un autre"
           },
           {
-            "text": "Le passage de « moi » à « nous », puis le parallélisme « Les pleurs d’un empereur et les pleurs d’une reine », unissent les amants jusque dans leurs titres.",
-            "function": "Relier pronoms et construction du vers."
+            "text": "Le passage de « moi » à « nous » associe les deux amants dans la souffrance ; le parallélisme « Les pleurs d’un empereur et les pleurs d’une reine » donne à cette communauté la mesure solennelle de leurs titres.",
+            "function": "Relier l'évolution des pronoms à l'équilibre de la formule"
           },
           {
-            "text": "La « gloire » doit donner une dignité publique aux larmes : Titus tente de rendre leur séparation digne de ce qu’ils sont.",
-            "function": "Expliquer l’effet précis du recours à la gloire."
-          },
-          {
-            "text": "L’alternative « Ou, si nous ne pouvons » déplace sa demande : faute de retenir les pleurs, il souhaite au moins les rendre honorables. La concession révèle une ambition plus fragile qu’un ordre souverain.",
-            "function": "Étudier la valeur de l’alternative et de la concession dans l’argument de Titus."
+            "text": "En donnant aux larmes une publicité que la « gloire » pourrait soutenir, Titus tente de transformer leur impuissance intime en conduite digne du rang qu’ils occupent.",
+            "function": "Montrer ce que la mise en forme publique fait de la douleur privée"
           }
         ]
       },
@@ -463,20 +419,16 @@
         "heading": "I.3",
         "sentences": [
           {
-            "text": "Cette communauté de souffrance conduit pourtant à une annonce sans négociation.",
-            "function": "Montrer la limite de cette première réponse."
+            "text": "Cette recherche d’une douleur partagée débouche pourtant sur une phrase qui ne laisse plus de place à la décision de Bérénice.",
+            "function": "Suivre le passage de l'association à l'obligation"
           },
           {
-            "text": "Après « Car enfin », la formule impersonnelle « il faut nous séparer » présente la décision comme une nécessité.",
-            "function": "Analyser le mode de présentation de la décision."
+            "text": "Après « Car enfin », la tournure impersonnelle « il faut nous séparer » fait entendre une nécessité, tandis que « ma princesse » maintient jusqu’au bout l’adresse amoureuse.",
+            "function": "Mettre en regard nécessité impersonnelle et intimité de l'adresse"
           },
           {
-            "text": "Ce basculement est brusque : après les formes de l’affection et le parallélisme des titres, la tournure impersonnelle efface celui qui décide et présente la séparation comme une obligation sans auteur.",
-            "function": "Nommer la tournure impersonnelle et expliquer la responsabilité rendue moins visible."
-          },
-          {
-            "text": "« ma princesse » maintient l’intimité, mais le « nous » ne suffit pas à faire d’une décision de Titus un choix de Bérénice.",
-            "function": "Faire apparaître la difficulté que le dialogue doit traiter."
+            "text": "Le « nous » qui unissait les pleurs désigne maintenant la séparation ; la reprise du même pronom conserve grammaticalement les deux amants ensemble au moment où Titus décide leur éloignement.",
+            "function": "Décrire la transformation d'une même forme à l'intérieur de la réplique"
           }
         ]
       },
@@ -493,24 +445,16 @@
         "heading": "II.1",
         "sentences": [
           {
-            "text": "Bérénice conteste la nécessité en interrogeant le moment choisi.",
-            "function": "Répondre à la transition."
+            "text": "Bérénice ne conteste pas d’abord l’existence des lois : elle oppose à l’annonce présente tout le temps pendant lequel Titus savait déjà qu’elles existaient.",
+            "function": "Établir la portée temporelle de la protestation"
           },
           {
-            "text": "« est-il temps » puis « Ignoriez-vous vos lois » opposent l’annonce présente à un obstacle connu depuis le début.",
-            "function": "Analyser le lien entre les interrogations."
+            "text": "L’apostrophe « cruel ! », suivie de « est-il temps » et de « Ignoriez-vous vos lois », transforme la surprise en reproche ; les questions ne recherchent pas une information, elles exigent que Titus réponde de son retard.",
+            "function": "Suivre la montée de l'accusation dans la succession des interrogations"
           },
           {
-            "text": "L’apostrophe « cruel ! » donne à la question la force d’une accusation ; l’interrogation rhétorique sur les « lois » refuse que Titus découvre aujourd’hui un empêchement dont il connaissait l’existence.",
-            "function": "Étudier apostrophe et interrogation rhétorique comme moyens de contester la nécessité."
-          },
-          {
-            "text": "L’accusation ne nie pas les lois romaines ; elle demande pourquoi Titus a laissé grandir un amour dont il connaissait le risque.",
-            "function": "Préciser la logique de la protestation."
-          },
-          {
-            "text": "« Hélas ! je me suis crue aimée » n’affirme pas qu’il ne l’aimait pas : la tournure insiste sur la confiance que sa conduite a laissée naître, et dont le renoncement révèle le péril.",
-            "function": "Préciser le sens de la plainte sans contredire l’amour exprimé par Titus."
+            "text": "« Hélas ! je me suis crue aimée » ne nie pas nécessairement son amour : Bérénice mesure l’écart entre la confiance que cet amour a fait naître et le renoncement auquel elle se voit livrée.",
+            "function": "Distinguer la douleur d'une confiance trompée d'une preuve de désamour"
           }
         ]
       },
@@ -518,20 +462,16 @@
         "heading": "II.2",
         "sentences": [
           {
-            "text": "Elle fait ensuite entendre l’avertissement qui aurait pu la protéger.",
-            "function": "Développer le raisonnement de Bérénice."
+            "text": "La plainte prend alors la forme d’un avertissement qui aurait dû être prononcé avant qu’elle ne donne son cœur.",
+            "function": "Montrer comment le regret crée une parole absente"
           },
           {
-            "text": "Dans « Que ne me disiez-vous », sa parole invente celle de Titus : « Ne donne point un cœur qu’on ne peut recevoir. »",
-            "function": "Nommer et analyser la parole rapportée imaginaire."
+            "text": "Avec « Que ne me disiez-vous », Bérénice prête à Titus les mots qu’elle aurait voulu entendre : « Ne donne point un cœur qu’on ne peut recevoir. »",
+            "function": "Identifier le discours fictif et sa place dans l'accusation"
           },
           {
-            "text": "Dans « Ne donne point un cœur qu’on ne peut recevoir », les verbes « donne » et « recevoir » rapprochent l’offrande de son accueil : Titus a laissé Bérénice lui confier un amour qu’il refuse désormais.",
-            "function": "Relier la construction verbale à la responsabilité affective."
-          },
-          {
-            "text": "En faisant prononcer à Titus l’avertissement qu’il aurait dû donner, Bérénice insère un discours imaginaire dans sa plainte : elle lui prête les paroles d’une loyauté devenue impossible à retrouver.",
-            "function": "Analyser le discours direct fictif et la responsabilité qu’il fait apparaître."
+            "text": "La proximité des verbes « donne » et « recevoir » fait apparaître, dans une formule brève, le déséquilibre de l’échange : Titus a accueilli l’amour qu’il prétend désormais ne pouvoir garder.",
+            "function": "Déduire du rapprochement verbal la responsabilité mise en cause"
           }
         ]
       },
@@ -539,24 +479,20 @@
         "heading": "II.3",
         "sentences": [
           {
-            "text": "Le sommet de la plainte renverse enfin le rapport entre puissance et bonheur.",
-            "function": "Montrer l’aboutissement de la réplique."
+            "text": "La tirade élargit d’abord le cercle des obstacles que Bérénice aurait pu accuser : « votre père », « Le peuple, le sénat, tout l’Empire romain », puis « Tout l’univers ».",
+            "function": "Suivre l'amplification qui prépare le retournement"
           },
           {
-            "text": "L’énumération « votre père », « Le peuple, le sénat, tout l’Empire romain » progresse jusqu’à « Tout l’univers » : l’amplification rend sensible l’étendue des obstacles dont Bérénice aurait pu accepter la responsabilité.",
-            "function": "Nommer la gradation et préciser comment elle prépare le renversement final."
+            "text": "Les propositions introduites par « Quand » et « Lorsque » prolongent l’énumération des circonstances favorables ; chacune retarde l’instant où Bérénice nommera ce qu’elle craint encore.",
+            "function": "Relier la reprise syntaxique à l'attente de la conclusion"
           },
           {
-            "text": "Les propositions introduites par « Quand » et « Lorsque » accumulent la disparition des obstacles, avant « Enfin quand je n’ai plus à redouter que vous ».",
-            "function": "Analyser l’accumulation et sa chute."
+            "text": "Les deux alexandrins gagnent à être entendus ensemble : « Lorsque tout l’univers fléchit à vos genoux, », puis « Enfin quand je n’ai plus à redouter que vous. » Le premier ouvre l’étendue du pouvoir de Titus ; le suivant resserre le danger sur sa personne.",
+            "function": "Observer la disposition métrique sans lui attribuer une pause imposée"
           },
           {
-            "text": "« Tout l’univers » fléchit devant Titus, mais Bérénice n’a « plus à redouter que vous » : la puissance publique fait ressortir une responsabilité privée.",
-            "function": "Dégager le renversement produit par la fin de la tirade."
-          },
-          {
-            "text": "L’enchaînement des subordonnées de temps introduites par « Quand » et « Lorsque » retarde ce dernier « vous » ; la construction accumulative fait surgir comme une surprise celui qui reste seul capable de la faire souffrir.",
-            "function": "Analyser la répétition des subordonnées temporelles et la chute accusatrice."
+            "text": "Les reprises de « Quand » et de « Lorsque » aboutissent au « Enfin », puis à la restriction ne… plus… que ; la tirade entière se concentre sur le « vous » final, qui désigne le maître de l’univers comme le dernier obstacle à leur union.",
+            "function": "Montrer comment la syntaxe et la fin du vers accomplissent le renversement"
           }
         ]
       },
@@ -573,24 +509,16 @@
         "heading": "III.1",
         "sentences": [
           {
-            "text": "Titus répond en acceptant d’abord la part personnelle de la destruction.",
-            "function": "Répondre à la transition."
+            "text": "Titus reprend l’accusation sans en effacer la responsabilité : « Et c’est moi seul aussi qui pouvais me détruire » répond au « vous » final de Bérénice.",
+            "function": "Faire entendre la réponse d'une réplique à l'autre"
           },
           {
-            "text": "« Et c’est moi seul aussi qui pouvais me détruire » reprend l’isolement formulé par Bérénice, puis la répétition de « J’espérais » expose ses illusions passées.",
-            "function": "Relier la réplique à la parole précédente."
+            "text": "La répétition de « J’espérais » rappelle une attente entretenue malgré les signes contraires ; l’aveu se précise dans « Je n’examinais rien, j’espérais l’impossible ».",
+            "function": "Suivre comment la reprise mène de l'espoir à sa critique"
           },
           {
-            "text": "La reprise de « moi seul » répond presque mot pour mot au « vous » accusateur : Titus reconnaît une part personnelle de la faute avant d’invoquer ce qui le dépasse.",
-            "function": "Mettre en regard les deux répliques et leur écho lexical."
-          },
-          {
-            "text": "L’opposition entre espérer et examiner montre une volonté de différer l’épreuve, plutôt qu’une ignorance innocente des obstacles.",
-            "function": "Interpréter l’aveu sans effacer la responsabilité."
-          },
-          {
-            "text": "Dans « Je n’examinais rien, j’espérais l’impossible », le parallélisme juxtapose deux verbes incompatibles : l’espoir s’entretient précisément de ce refus de regarder en face la situation.",
-            "function": "Nommer le parallélisme et son effet sur l’aveu du personnage."
+            "text": "La juxtaposition oppose l’examen refusé à l’espoir maintenu : Titus n’affirme pas qu’il ignorait l’obstacle, mais reconnaît qu’il avait différé le moment de le regarder.",
+            "function": "Dégager le sens de l'aveu à partir de la construction des propositions"
           }
         ]
       },
@@ -598,24 +526,16 @@
         "heading": "III.2",
         "sentences": [
           {
-            "text": "Mais l’accès au pouvoir change le poids de ce qu’il savait.",
-            "function": "Approfondir la réponse de Titus."
+            "text": "Titus distingue désormais ce qu’il entendait autrefois de ce qu’il ne peut plus écarter depuis qu’il est empereur.",
+            "function": "Suivre le changement d'autorité entre deux moments de sa vie"
           },
           {
-            "text": "La « gloire » est personnifiée : elle se fait entendre d’un « ton » nouveau « au cœur d’un empereur ».",
-            "function": "Identifier un procédé dans les mots précis."
+            "text": "« Tout l’Empire parlait », mais la « gloire » ne s’était pas fait entendre « au cœur d’un empereur » : la personnification déplace la voix du devoir de l’entourage vers l’intériorité du souverain.",
+            "function": "Montrer le transfert de la parole extérieure à l'exigence intérieure"
           },
           {
-            "text": "Le contraste avec « Tout l’Empire parlait » est essentiel : les voix extérieures avaient déjà averti Titus, mais la « gloire » ne l’avait pas encore touché avec cette force intérieure.",
-            "function": "Préciser l’effet de la personnification et le déplacement de l’extérieur vers l’intérieur."
-          },
-          {
-            "text": "La disparition des obstacles n’efface pas le devoir : l’empereur entend désormais en lui une voix que l’amant avait pu différer.",
-            "function": "Préciser l’effet de la personnification dans le raisonnement."
-          },
-          {
-            "text": "La répétition du mot « cœur » rapproche le lieu de l’amour et celui du commandement impérial ; la même intériorité accueille maintenant deux exigences que le discours ne réconcilie pas.",
-            "function": "Analyser la répétition de « cœur » et la concurrence des impératifs."
+            "text": "La reprise de « cœur » maintient pourtant le lieu même de l’amour au centre de l’obligation politique : le vers ne supprime pas le sentiment, il installe deux exigences dans la même conscience.",
+            "function": "Expliquer la concurrence intérieure produite par la reprise lexicale"
           }
         ]
       },
@@ -623,24 +543,20 @@
         "heading": "III.3",
         "sentences": [
           {
-            "text": "Le dernier vers tranche sans apaiser la douleur.",
-            "function": "Analyser la réalisation finale."
+            "text": "La décision finale suit des aveux qui empêchent de prendre Titus pour un homme devenu indifférent : « Je sais » et « Je sens bien » reconnaissent le coût intime du sacrifice.",
+            "function": "Rattacher le dernier vers à la souffrance qui le prépare"
           },
           {
-            "text": "« il faut régner » reprend le « il faut nous séparer » initial : l’opposition de « vivre » et « régner » donne une raison politique à la nécessité d’abord imposée à Bérénice.",
-            "function": "Analyser la construction de la formule finale."
+            "text": "Dans « Mais il ne s’agit plus de vivre, il faut régner », l’alexandrin partage sa mesure après « plus », alors que la construction « il ne s’agit plus de vivre » se poursuit dans le second hémistiche.",
+            "function": "Distinguer césure métrique et achèvement syntaxique"
           },
           {
-            "text": "Avant cette maxime, « Je sais » et « Je sens bien » reconnaissent explicitement le coût affectif ; le parallélisme des deux assertions rend la décision plus déchirante parce qu’il exclut l’indifférence.",
-            "function": "Nommer le parallélisme et relier l’aveu de souffrance à la décision."
+            "text": "« de vivre » est ainsi achevé puis immédiatement écarté par « il faut régner » : l’ordre de la phrase transforme une vie déclarée impossible en obligation désormais affirmée.",
+            "function": "Suivre l'enchaînement syntaxique qui produit la décision"
           },
           {
-            "text": "Les deux aveux, « Je sais » et « Je sens bien », maintiennent pourtant la souffrance : la maxime justifie une décision, elle ne démontre pas que Bérénice doive l’accepter.",
-            "function": "Distinguer l’affirmation du personnage de l’issue du débat."
-          },
-          {
-            "text": "Le « cœur » prêt à « s’éloigner » de Titus personnifie enfin une partie de lui-même qui résiste à l’empereur ; l’opposition « vivre » / « régner » devient un déchirement intérieur, non un calcul sans douleur.",
-            "function": "Expliquer la personnification du cœur et l’effet intime de l’antithèse finale."
+            "text": "Ce dernier vers répond à « il faut nous séparer » sans obtenir la réponse de Bérénice : la formule de Titus tranche sa conduite, non le désaccord des amants.",
+            "function": "Mesurer la force et la limite dramatique de la clôture"
           }
         ]
       },
@@ -746,9 +662,9 @@
             "« Il faut » élève la fonction politique au-dessus du bonheur personnel, malgré la souffrance reconnue."
           ]
         ],
-        "write": "En trois phrases, analysez le dernier vers. Citez sa construction et expliquez ce qu’elle tranche sans résoudre.",
+        "write": "En trois ou quatre phrases, expliquez comment la mesure et la syntaxe du dernier alexandrin conduisent de « vivre » à « régner », sans supposer que Bérénice accepte la décision.",
         "hint": "Reliez les deux infinitifs aux aveux qui précèdent. Qui n’a pas encore répondu ?",
-        "model": "Titus conclut en opposant « vivre » et « régner ». La formule « il faut » présente son rôle politique comme une obligation supérieure à son bonheur amoureux. Cette décision ne supprime ni sa souffrance ni l’objection de Bérénice, dont l’accord n’est pas donné dans l’extrait.",
+        "model": "Dans « Mais il ne s’agit plus de vivre, il faut régner », la césure tombe après « plus », avant la fin de la première construction. Le second hémistiche achève « de vivre » puis lui oppose « il faut régner ». La progression fait entendre une nécessité affirmée contre le désir de vivre auprès de Bérénice ; elle ne signifie pas que Bérénice y consent.",
         "checks": [
           "Vous décrivez une construction précise.",
           "Vous expliquez son effet dans l’argumentation de Titus.",
