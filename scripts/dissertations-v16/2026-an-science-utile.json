@@ -49,7 +49,7 @@
       "III1": "Distinguer, dans une recherche, ce qu’elle demande (question, moyens, diffusion) et ce qu’elle trouve (la réponse) : l’utilité peut régler le premier, jamais le second.",
       "III2": "Choisir une question, c’est employer un effort commun (droit de la société, XA) ; établir une réponse, c’est se soumettre à ce qui est (XB). Explique LA (on voulait faire porter l’utilité sur des réponses inconnues) et LB (la fidélité au vrai ne règle que la réponse).",
       "III3": "La science doit être utile en ce que ses questions et la diffusion de ses résultats peuvent être réglées par le bien commun, non en ce que l’utilité dirait le vrai ; la demande de Szilard était légitime. Reste : la connaissance elle-même comme danger.",
-      "tests": "Cas témoin : la III décide la demande de Szilard (légitime, car elle porte sur la diffusion), ce que ni A, ni B, ni le partage ne faisaient. Second cas : Lyssenko (l’utilité commande la réponse : illégitime). Restitution : oui. Rechute : le reste ne redit ni LA ni LB. Test propre : frontière définie indépendamment des deux thèses (par la différence entre décider et constater). Report : la question ne se repose pas pour la diffusion, réglée par le bien commun. Acquis nouveau : la distinction question / réponse, prémisse qu’aucune partie n’établissait ; nécessaire à la décision. Contrôle renforcé : Comparer « utilité exigée des résultats », « liberté sans responsabilité » et « choix public des orientations sans censure des conclusions » ; préserver la recherche fondamentale."
+      "tests": "Cas témoin : la III décide la demande de Szilard (légitime, car elle porte sur la diffusion), ce que ni A, ni B, ni le partage ne faisaient. Second cas : Lyssenko (l’utilité commande la réponse : illégitime). Restitution : oui. Rechute : le reste ne redit ni LA ni LB. Test propre : frontière définie indépendamment des deux thèses (par la différence entre décider et constater). Report : la question ne se repose pas pour la diffusion, réglée par le bien commun. Acquis nouveau : la distinction question / réponse, prémisse qu’aucune partie n’établissait ; nécessaire à la décision. Contrôle renforcé : Comparer « utilité exigée des résultats », « liberté sans responsabilité » et « choix public des orientations sans censure des conclusions » ; préserver la recherche fondamentale. Audit : gestes C6, O5, N7, O15, E5. Alternatives : Science au service immédiat (peut falsifier) / liberté scientifique sans dette (nie choix collectifs) / débat sur questions, moyens et usages sans commander les résultats (retenu)."
     },
     "candidats_III": [
       {
@@ -85,7 +85,7 @@
     "scene": "Szilard demande en 1939 à Joliot de ne pas publier la multiplication des neutrons dans la fission ; l’équipe de Joliot publie (Nature, mars-avril 1939). Verdict : homologue. Retour : la III décide la demande.",
     "statut": {
       "problematique": "suffisamment justifiée",
-      "copie": "révision ciblée de l'épreuve de III — audit indépendant à poursuivre"
+      "copie": "révision argumentée I-II-III — audit contradictoire encore requis"
     },
     "ouvertures_de_pensee": {
       "I": "La recherche utilise des moyens communs ; la société peut donc demander compte de leur emploi et des conséquences de l'activité scientifique, sans être déjà autorisée à décider de ses résultats.",
@@ -156,7 +156,7 @@
           "I.2 La fonder : une prémisse normative, la réciprocité"
         ],
         [
-          "La recherche utilise des moyens communs ; la société peut donc demander compte de leur emploi et des conséquences de l'activité scientifique, sans être déjà autorisée à décider de ses résultats.",
+          "Une communauté finance des laboratoires et assume parfois les risques des découvertes. Il est donc juste qu'elle puisse demander pourquoi telle recherche mérite des moyens. Mais de ce droit de questionner une priorité ne suit pas le pouvoir de fixer le résultat souhaité.",
           "I.2 Fonder la responsabilité envers la communauté"
         ],
         [
@@ -201,7 +201,7 @@
           "II.2 Le cas qui éprouve le principe"
         ],
         [
-          "L'affaire Lyssenko distingue alors deux services possibles : répondre à une attente politique et établir ce qui est. Une science soumise à la première exigence peut perdre la capacité de remplir la seconde.",
+          "Si une théorie doit confirmer d'avance ce qu'un pouvoir veut entendre, on ne recherche plus une vérité : on cherche une approbation. La science peut rendre service précisément parce qu'elle accepte de découvrir des faits décevants.",
           "II.2 Distinguer vérité recherchée et attente politique"
         ],
         [
@@ -238,7 +238,7 @@
           "III.1 Le critère énoncé"
         ],
         [
-          "Ce critère tient à la nature des deux exigences : choisir une question, c’est décider de l’emploi d’un effort commun, ce qui relève du droit de la société ; établir une réponse, c’est se soumettre à ce qui est, ce qu’aucune volonté ne peut commander sans détruire la connaissance.",
+          "Il faut séparer ce que nous choisissons d'étudier de ce que l'enquête permet de conclure. On peut décider collectivement de rechercher un vaccin ; on ne peut pas voter le résultat de l'expérience. Cette frontière préserve à la fois la responsabilité de la recherche et la fidélité aux faits.",
           "III.2 La démontrer : pourquoi la frontière passe là"
         ],
         [
@@ -250,7 +250,7 @@
           "III.2 Séparer le choix des questions de celui des résultats"
         ],
         [
-          "Cette séparation n'autorise pourtant pas à régler toute recherche par l'utilité immédiate. Une question apparemment sans usage peut fournir demain des connaissances décisives ; inversement, un résultat vrai peut devenir dangereux. Il faut donc justifier les priorités et les précautions sans confondre cette décision avec le verdict de l'expérience.",
+          "Mais l'utilité ne se limite pas à l'urgence présente : des recherches sans application connue peuvent rendre de grands services plus tard. Il faut donc défendre aussi une liberté de chercher, tout en soumettant les risques et les usages des découvertes à la discussion publique.",
           "III.2 Objection forte et détermination de la portée"
         ],
         [

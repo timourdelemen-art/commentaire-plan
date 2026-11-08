@@ -50,7 +50,7 @@
       "III1": "Ce que l’art peut apprendre n’est pas une manière de voir, mais le pouvoir d’en changer : découvrir que voir est toujours une manière, qu’on peut quitter pour une autre.",
       "III2": "Conserve XA (l’œuvre fait voir) et XB (elle transforme le regard) ; explique LA (le passage au monde se fait quand ce qu’on apprend n’est pas un contenu de l’œuvre mais un exercice du regard) et LB (une habitude n’est apprise que si l’on prend une œuvre pour la règle, non si l’on en rencontre plusieurs).",
       "III3": "L’art peut nous apprendre à voir le monde autrement, s’il nous apprend que notre regard est une manière parmi d’autres et nous exerce à en changer ; vérifié sur les Cathédrales. Reste : ce qui empêche ce regard de redevenir habitude.",
-      "tests": "Cas témoin : trente toiles d’une même façade ne transmettent pas une vision de la cathédrale ; elles apprennent qu’une façade change avec l’heure, et celui qui les a vues regarde n’importe quel mur à six heures puis à midi ; ni A, ni B, ni « voir comme Monet » ne le disaient. Second cas : l’élève qui dessine d’après nature et découvre qu’il ne regardait pas. Restitution : oui. Rechute : le reste (le retour de l’habitude) ne redit pas LB : il porte sur le maintien de la capacité, non sur son acquisition. Test propre : la distinction vaut sur un second cas. Report : non. Acquis nouveau : prémisse nouvelle — on peut apprendre une capacité de varier, et non seulement un contenu ; nécessaire à la décision. Contrôle renforcé : Comparer « sensation nouvelle devant une œuvre », « nouvelle habitude visuelle » et « pouvoir exercé de comparer et varier le regard » ; distinguer possibilité offerte et aptitude effectivement acquise."
+      "tests": "Cas témoin : trente toiles d’une même façade ne transmettent pas une vision de la cathédrale ; elles apprennent qu’une façade change avec l’heure, et celui qui les a vues regarde n’importe quel mur à six heures puis à midi ; ni A, ni B, ni « voir comme Monet » ne le disaient. Second cas : l’élève qui dessine d’après nature et découvre qu’il ne regardait pas. Restitution : oui. Rechute : le reste (le retour de l’habitude) ne redit pas LB : il porte sur le maintien de la capacité, non sur son acquisition. Test propre : la distinction vaut sur un second cas. Report : non. Acquis nouveau : prémisse nouvelle — on peut apprendre une capacité de varier, et non seulement un contenu ; nécessaire à la décision. Contrôle renforcé : Comparer « sensation nouvelle devant une œuvre », « nouvelle habitude visuelle » et « pouvoir exercé de comparer et varier le regard » ; distinguer possibilité offerte et aptitude effectivement acquise. Révision éditoriale : gestes O16, X4, E5, F19. Chemins en concurrence : Sensation esthétique ponctuelle (pas d'apprentissage) / nouvelle habitude d'imitation (répétition) / capacité de varier consciemment l'attention (retenue)."
     },
     "candidats_III": [
       {
@@ -86,7 +86,7 @@
     "scene": "Monet, série des Cathédrales de Rouen (1892-1894) : une trentaine de toiles de la même façade à différentes heures ; vingt sont exposées chez Durand-Ruel en 1895. Verdict : homologue. Retour : ce que trente toiles apprennent qu’une seule n’apprendrait pas.",
     "statut": {
       "problematique": "suffisamment justifiée",
-      "copie": "révision ciblée de l'épreuve de III — audit indépendant à poursuivre"
+      "copie": "renforcement argumentatif I-II-III, relecture contradictoire encore requise"
     },
     "ouvertures_de_pensee": {
       "I": "La cathédrale peinte ne sert ni à entrer ni à s'abriter : elle permet de voir, dans la pierre, une couleur et une lumière que l'habitude d'en faire usage masquait.",
@@ -157,7 +157,7 @@
           "I.2 La fonder par la condition de la perception ordinaire"
         ],
         [
-          "La cathédrale peinte ne sert ni à entrer ni à s'abriter : elle permet de voir, dans la pierre, une couleur et une lumière que l'habitude d'en faire usage masquait.",
+          "Devant une cathédrale, le passant cherche surtout l'entrée ; devant sa représentation, il peut observer les variations de couleur de la pierre. L'œuvre suspend l'usage habituel et rend visible un aspect que notre attention avait laissé de côté.",
           "I.2 Montrer ce que l'usage cache au regard"
         ],
         [
@@ -198,7 +198,7 @@
           "II.2 La fonder par la genèse des manières de voir ; citation qui en donne la prémisse"
         ],
         [
-          "L'œuvre qui rompt l'habitude peut aussi en installer une autre : après Turner ou Cézanne, on risque de regarder le monde selon une manière apprise plutôt que d'interroger son propre regard.",
+          "Mais après avoir admiré une manière de peindre, on peut se mettre à regarder tous les paysages « comme du Cézanne ». Une habitude nouvelle n'est pas encore la liberté du regard ; elle peut remplacer l'ancien automatisme par un autre.",
           "II.2 Faire apparaître la nouvelle habitude esthétique"
         ],
         [
@@ -235,7 +235,7 @@
           "III.1 Ce que la distinction sépare"
         ],
         [
-          "Une capacité exercée devant les œuvres peut s’exercer hors d’elles, parce qu’elle ne dépend d’aucun contenu de l’œuvre : celui qui a appris que la pierre change avec l’heure peut le voir sur n’importe quel mur.",
+          "Pour apprendre vraiment, il faut comparer un même objet sous plusieurs lumières, puis vérifier dans la rue ce que l'œuvre a révélé. L'apprentissage porte alors sur une action que je peux recommencer : déplacer mon attention.",
           "III.2 La démontrer : pourquoi cette capacité passe dans le monde"
         ],
         [
@@ -243,7 +243,7 @@
           "III.2 Définir un apprentissage qui ne fixe aucun regard"
         ],
         [
-          "L'exercice du regard ne se transmet toutefois pas automatiquement de la galerie à la rue. Il faut que le spectateur compare réellement ce qu'il voit à différents moments, plutôt que retenir une couleur remarquable. L'art ouvre une possibilité d'apprentissage ; c'est l'attention exercée qui la réalise.",
+          "L'art ne transmet donc pas mécaniquement une nouvelle vue du monde. Le spectateur peut regarder sans apprendre. La transformation devient réelle lorsqu'il essaie lui-même d'autres points de vue et découvre pourquoi son premier regard ne suffisait pas.",
           "III.2 Éprouver l'objection décisive et consolider la preuve"
         ],
         [

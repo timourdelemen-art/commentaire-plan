@@ -49,7 +49,7 @@
       "III1": "Le lien est une institution : des tribunaux et une constitution qui permettent aux citoyens de faire juger les lois par une autorité qui n’en est pas l’auteur.",
       "III2": "Par ce terme, le jugement des citoyens devient règle commune (XB conservé, LB expliqué), et l’État redevient tiers à l’égard de ses propres lois en se divisant (XA conservé, LA expliqué).",
       "III3": "Oui, la lutte revient principalement à l’État, à condition qu’il soit organisé pour pouvoir être jugé par lui-même à la demande des citoyens ; vérifié sur Montgomery. Reste : les injustices qu’aucune loi ni aucun acte jugeable n’atteignent.",
-      "tests": "Cas témoin : à Montgomery, ce sont des citoyens qui saisissent la justice fédérale, et c’est elle qui déclare la loi de l’Alabama contraire à la Constitution ; la III dit à qui revenait la lutte. Second cas : le contrôle de constitutionnalité saisi par un justiciable. Restitution : oui. Rechute : le reste (injustices sans loi) ne redit ni LA ni LB. Test propre : le médiateur ne répète ni l’État législateur ni le citoyen. Report : la question ne se repose pas à l’identique pour le tribunal, qui n’est pas l’auteur de la loi. Acquis nouveau : prémisse nouvelle — un pouvoir divisé peut être tiers à l’égard de lui-même ; nécessaire à la décision. Contrôle renforcé : Comparer « monopole de l'État », « dénonciation citoyenne » et « institution contestable effectivement indépendante » ; tester l'effectivité des recours, pas leur seule existence."
+      "tests": "Cas témoin : à Montgomery, ce sont des citoyens qui saisissent la justice fédérale, et c’est elle qui déclare la loi de l’Alabama contraire à la Constitution ; la III dit à qui revenait la lutte. Second cas : le contrôle de constitutionnalité saisi par un justiciable. Restitution : oui. Rechute : le reste (injustices sans loi) ne redit ni LA ni LB. Test propre : le médiateur ne répète ni l’État législateur ni le citoyen. Report : la question ne se repose pas à l’identique pour le tribunal, qui n’est pas l’auteur de la loi. Acquis nouveau : prémisse nouvelle — un pouvoir divisé peut être tiers à l’égard de lui-même ; nécessaire à la décision. Contrôle renforcé : Comparer « monopole de l'État », « dénonciation citoyenne » et « institution contestable effectivement indépendante » ; tester l'effectivité des recours, pas leur seule existence. Travail approfondi : gestes N14, K7, D10, E4, X12. Alternatives examinées : Autorité étatique unifiée (juge ses propres actes) / seuls citoyens (pas force commune) / recours institutionnels efficaces nourris par contestation citoyenne (retenu)."
     },
     "candidats_III": [
       {
@@ -85,7 +85,7 @@
     "scene": "Montgomery (Alabama), 1er décembre 1955 : Rosa Parks refuse de céder sa place ; boycott des bus de 381 jours ; arrêt Browder v. Gayle (tribunal fédéral, juin 1956, confirmé par la Cour suprême en novembre 1956). Verdict : homologue. Retour : la décision fédérale est le terme qui relie.",
     "statut": {
       "problematique": "suffisamment justifiée",
-      "copie": "révision ciblée de l'épreuve de III — audit indépendant à poursuivre"
+      "copie": "révision argumentative I-II-III — audit indépendant encore requis"
     },
     "ouvertures_de_pensee": {
       "I": "Parce que les particuliers sont engagés dans les conflits qu'ils veulent trancher, la lutte contre l'injustice réclame une instance capable de formuler la règle commune et d'en imposer le respect. C'est la fonction qu'assume d'abord l'État.",
@@ -145,7 +145,7 @@
           "I.2 La fonder : les conditions d’une lutte contre l’injustice"
         ],
         [
-          "Parce que les particuliers sont engagés dans les conflits qu'ils veulent trancher, la lutte contre l'injustice réclame une instance capable de formuler la règle commune et d'en imposer le respect. C'est la fonction qu'assume d'abord l'État.",
+          "La victime ne peut pas toujours obtenir justice par sa seule force, et l'accusé ne peut être condamné sur la seule parole de son adversaire. Il faut donc une règle commune, un juge distinct des parties et une autorité capable de faire appliquer sa décision.",
           "I.2 Fonder la nécessité d'une instance commune"
         ],
         [
@@ -186,7 +186,7 @@
           "II.2 La fonder : l’indépendance du jugement à l’égard de la loi"
         ],
         [
-          "Le refus de Rosa Parks ne changeait pas lui-même la loi ; il rendait cependant possible de juger cette loi à partir d'une exigence de justice qu'elle ne satisfaisait pas.",
+          "Mais ce pouvoir commun peut aussi devenir auteur d'injustice. Une loi peut être appliquée exactement et rester injuste. Le refus de Rosa Parks montre pourquoi les citoyens doivent garder la possibilité de contester la règle même que l'État impose.",
           "II.2 Distinguer la légalité de l'exigence de justice"
         ],
         [
@@ -231,11 +231,11 @@
           "III.2 Ce qu’il explique"
         ],
         [
-          "La séparation des pouvoirs permet de juger une décision publique sans abandonner le jugement à une force privée : une contestation citoyenne peut ainsi être portée devant une autorité capable de l'imposer à l'État lui-même.",
+          "La solution n'est ni de confier tout jugement au pouvoir ni de réduire la justice aux protestations privées. Elle exige un passage : la plainte publique doit pouvoir devenir un jugement opposable à l'État, rendu par des autorités suffisamment indépendantes.",
           "III.2 Articuler jugement citoyen et contrôle de l'État"
         ],
         [
-          "Encore faut-il qu'un tribunal puisse réellement contredire le pouvoir qui le nomme ou le finance : une indépendance inscrite dans un texte ne suffit pas si ses décisions ne peuvent être appliquées. La lutte contre l'injustice exige donc des recours accessibles, une décision motivée et la possibilité de lui donner effet.",
+          "Une constitution ne suffit pas si les juges risquent leur poste pour une décision contraire au pouvoir, ou si les victimes ne peuvent saisir le tribunal. L'indépendance doit donc être effective : recours accessibles, raisons publiées et décisions réellement exécutées.",
           "III.2 Objection forte et détermination de la portée"
         ],
         [
@@ -256,7 +256,7 @@
       "CONCLUSION",
       [
         [
-          "Il revient principalement à l’État de lutter contre l’injustice, non comme un juge unique et sans appel, mais comme un pouvoir assez divisé pour que les citoyens puissent lui faire juger ses propres lois.",
+          "L'État dispose des institutions et des moyens communs nécessaires pour lutter contre l'injustice. Mais il ne peut remplir principalement cette mission que si les citoyens peuvent contester ses décisions devant des juges indépendants et obtenir l'exécution de leurs jugements.",
           "Conclusion · la réponse, avec l’opérateur"
         ],
         [

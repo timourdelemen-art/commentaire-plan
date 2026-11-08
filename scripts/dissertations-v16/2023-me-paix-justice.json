@@ -49,8 +49,8 @@
       "operation": "distinction (III.7 a, ρ : dépendance avec conflit) : la justice qui punit et la justice qui reconnaît le tort.",
       "III1": "Distinguer dans la justice ce qui punit le coupable et ce qui reconnaît le tort : vérité dite, victime nommée, réparation.",
       "III2": "La paix peut exiger qu’on renonce à punir (XB conservé, LB expliqué : c’est la punition qui prolonge le conflit) ; elle ne peut pas exiger qu’on taise le tort, sans quoi elle ne dure pas (XA conservé, LA expliqué : la fin des violences peut se passer de la punition, non de la reconnaissance).",
-      "III3": "Vouloir la paix, ce n’est pas vouloir toute la justice, mais c’est vouloir au moins que les torts soient reconnus ; vérifié sur la Commission vérité et réconciliation. Reste : les victimes qui demandaient la punition.",
-      "tests": "Cas témoin : en Afrique du Sud, l’amnistie était accordée contre l’aveu complet des crimes : on renonçait à punir, non à reconnaître ; la III dit pourquoi ce compromis était voulu comme paix. Second cas : un divorce où l’on renonce à des dommages, non à ce que le tort soit dit. Restitution : oui. Rechute : le reste (les victimes qui voulaient la punition) ne redit ni LA ni LB. Test propre : la distinction vaut sur un second cas. Report : non. Acquis nouveau : prémisse nouvelle — la justice a deux parts, dont une seule prolonge le conflit ; nécessaire à la décision. Contrôle renforcé : Comparer « punir chaque crime », « amnistie silencieuse » et « reconnaissance assortie de réparation et de garanties » ; éprouver la position de la victime."
+      "III3": "Paix compatible avec une part de justice : reconnaissance, réparations possibles et garanties ; demeure le conflit sur les sanctions souhaitées par les victimes.",
+      "tests": "Cas témoin : en Afrique du Sud, l’amnistie était accordée contre l’aveu complet des crimes : on renonçait à punir, non à reconnaître ; la III dit pourquoi ce compromis était voulu comme paix. Second cas : un divorce où l’on renonce à des dommages, non à ce que le tort soit dit. Restitution : oui. Rechute : le reste (les victimes qui voulaient la punition) ne redit ni LA ni LB. Test propre : la distinction vaut sur un second cas. Report : non. Acquis nouveau : prémisse nouvelle — la justice a deux parts, dont une seule prolonge le conflit ; nécessaire à la décision. Contrôle renforcé : Comparer « punir chaque crime », « amnistie silencieuse » et « reconnaissance assortie de réparation et de garanties » ; éprouver la position de la victime. Audit des opérations : gestes C6, D10, N12, N7, E4. Candidats en concurrence : Sanction totale (risque de relance) / amnistie silencieuse (déni) / aveu sans réparations (insuffisant) / reconnaissance, réparation et garantie avec renoncement tragique à certaines sanctions (retenu)."
     },
     "candidats_III": [
       {
@@ -86,7 +86,7 @@
     "scene": "Afrique du Sud, loi de 1995 sur la promotion de l’unité nationale et de la réconciliation ; Commission vérité et réconciliation présidée par Desmond Tutu ; amnistie individuelle des crimes politiques contre l’aveu complet ; recours de familles de victimes, dont celle de Steve Biko, rejeté par la Cour constitutionnelle (1996). Verdict : homologue. Retour : ce qu’on renonçait à faire, et ce qu’on refusait de taire.",
     "statut": {
       "problematique": "suffisamment justifiée",
-      "copie": "révision ciblée de l'épreuve de III — audit indépendant à poursuivre"
+      "copie": "révision argumentée I-II-III ; audit indépendant de fond nécessaire"
     },
     "ouvertures_de_pensee": {
       "I": "La paix n'est donc pas seulement l'absence de combats : si une injustice laisse à ceux qui l'ont subie une raison de reprendre les armes, la réparation devient une condition de la durée de la paix.",
@@ -142,7 +142,7 @@
           "I.1 Ce qu’elle sauve"
         ],
         [
-          "Une paix dure tant que personne n’a de raison de reprendre les armes ; or l’injustice subie en est une, la plus puissante peut-être, puisqu’elle nourrit le ressentiment de génération en génération.",
+          "Une paix durable ne consiste pas seulement à empêcher les combats aujourd'hui. Si des victimes restent privées de leurs droits, la violence peut cesser sans que les raisons du conflit disparaissent. Celui qui veut éviter une nouvelle guerre a donc intérêt à faire place à une justice qui répare.",
           "I.2 La fonder par une condition"
         ],
         [
@@ -154,7 +154,7 @@
           "I.3 L’éprouver : ce qu’il établit"
         ],
         [
-          "Mais il raisonne sur la paix durable, et la paix qu’on veut d’abord est la fin des violences, qui peut exiger qu’on laisse des torts sans réponse : on ne fait pas cesser une guerre civile en promettant à chaque camp de juger tous ses crimes.",
+          "Mais la condition d'une paix durable ne nous dit pas comment arrêter la violence présente. Promettre de punir tous les vaincus peut les pousser à poursuivre le combat. Une exigence juste pour l'avenir peut donc rendre impossible la première étape qui permettrait de la satisfaire.",
           "I.3 Ce qu’il ne permet pas encore, et pourquoi"
         ],
         [
@@ -183,7 +183,7 @@
           "II.1 Ce qu’elle conserve"
         ],
         [
-          "La paix vise la fin des violences, la justice vise ce qui est dû à chacun ; or ce qui est dû peut exiger un combat, comme la résistance à une occupation, et la fin d’un combat peut exiger qu’on renonce à ce qui est dû, comme dans toute amnistie.",
+          "La paix et la justice ne jugent pas d'abord la même chose. La première demande que les armes se taisent ; la seconde que les torts ne restent pas sans réponse. Résister à un pouvoir injuste peut être juste sans être pacifique, et conclure une amnistie peut faire cesser les morts sans donner à chacun son dû.",
           "II.2 La fonder par la distinction des fins"
         ],
         [
@@ -195,7 +195,7 @@
           "II.3 L’éprouver : ce qu’elle établit"
         ],
         [
-          "Mais elle définit chaque fin séparément, et ne voit pas que chacune est la condition de l’autre : une paix sans justice ne dure pas, une justice sans paix n’a plus de tribunaux pour juger ni de droits à rendre.",
+          "Mais cette séparation des fins devient intenable si elle prétend se maintenir toujours. Sans une paix minimale, la victime ne dispose même pas d'un tribunal où faire reconnaître son droit ; sans aucune justice, la paix devient l'ordre imposé par les plus forts. Chaque fin a donc besoin d'une part de l'autre.",
           "II.3 Ce qu’elle ne permet pas encore, et pourquoi"
         ],
         [
@@ -216,7 +216,7 @@
       "III. RENONCER À PUNIR, NON À RECONNAÎTRE",
       [
         [
-          "Une volonté de paix peut vouloir une part de la justice, si l’on distingue ce qui punit le coupable et ce qui reconnaît le tort : la vérité dite, la victime nommée, la réparation accordée.",
+          "Il faut chercher quelle justice rend la paix possible sans effacer les victimes. Punir, reconnaître les faits et réparer un tort sont trois actes différents : ils peuvent aller ensemble, mais ne dépendent pas nécessairement de la même décision.",
           "III.1 Effectuer le déplacement nécessaire"
         ],
         [
@@ -224,7 +224,7 @@
           "III.1 Ce que la distinction sépare"
         ],
         [
-          "C’est la punition qui prolonge le conflit, parce qu’elle menace ceux qui doivent déposer les armes ; c’est le tort tu qui ruine la paix, parce qu’il laisse aux victimes une raison de reprendre la lutte.",
+          "La sanction peut dissuader de déposer les armes ; la reconnaissance, au contraire, retire au déni officiel le pouvoir de prolonger l'humiliation. Mais un aveu qui n'ouvre sur aucune réparation peut rester une seconde injustice. La paix doit donc rendre possible non seulement une vérité dite, mais des droits rendus et des garanties pour l'avenir.",
           "III.2 La démontrer : ce que chaque part fait à la paix"
         ],
         [
@@ -232,11 +232,11 @@
           "III.2 Dissocier reconnaissance du tort et punition"
         ],
         [
-          "Cependant, reconnaître publiquement le tort ne le répare pas à lui seul : la victime peut rester privée de biens, de droits ou de sécurité. Il faut donc demander ce que l'aveu rend effectivement possible, notamment une réparation et une protection contre la répétition, sans prétendre que ces gains effacent l'exigence de sanction.",
+          "Prenons deux victimes : l'une accepte l'aveu et une réparation, l'autre exige que le coupable soit puni. La paix ne peut prétendre que la première formule suffit pour tous. Elle peut négocier la sanction lorsque le conflit l'exige, mais elle doit reconnaître publiquement ce qu'elle demande alors à la seconde victime de sacrifier.",
           "III.2 Contre-épreuve de la solution choisie"
         ],
         [
-          "Vouloir la paix, ce n’est donc pas vouloir toute la justice, mais c’est vouloir au moins que les torts soient reconnus ; une paix qui exige qu’on les taise n’est plus voulue comme paix, mais comme silence.",
+          "Vouloir la paix n'est pas vouloir toute la justice, mais c'est au moins vouloir que les torts puissent être reconnus, réparés autant que possible et empêchés de se répéter. On peut parfois renoncer à punir sans pouvoir demander aux victimes d'oublier.",
           "III.3 La réponse au sujet, avec son opérateur"
         ],
         [
@@ -253,7 +253,7 @@
       "CONCLUSION",
       [
         [
-          "Vouloir la paix n’est pas vouloir toute la justice, mais c’est en vouloir la part sans laquelle aucune paix ne dure : la reconnaissance des torts.",
+          "Vouloir la paix n'est pas vouloir toute la justice, mais ce n'est pas non plus se contenter du silence des armes : reconnaître les crimes, chercher à réparer les torts et empêcher leur répétition peuvent faire partie de la paix, même quand la sanction demeure contestée.",
           "Conclusion · la réponse, avec l’opérateur"
         ],
         [

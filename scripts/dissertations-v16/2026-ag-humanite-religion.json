@@ -49,7 +49,7 @@
       "III1": "Distinguer la religion comme ensemble de croyances et de pratiques instituées des fonctions sociales, symboliques et existentielles qu’elle peut remplir.",
       "III2": "Même si de tels besoins persistent, rien ne démontre que seule la religion puisse y répondre ; les commémorations et funérailles civiles offrent des analogies partielles, non une preuve d’équivalence universelle.",
       "III3": "Une humanité sans religion est concevable si ces fonctions peuvent être prises en charge autrement ; leur histoire rend cette transformation difficile à prévoir, non contradictoire à penser. Reste : ce qui pourrait être perdu dans la substitution.",
-      "tests": "Cas du mausolée de Lénine : montre la persistance de rites dans un État officiellement athée, sans prouver qu’ils soient universellement nécessaires ni qu’ils définissent toute religion. Contrôle : ne pas assimiler le sacré civil à la religion sans argument ; distinguer possibilité conceptuelle, faisabilité historique et prédiction. Contrôle renforcé : Comparer « religion nécessaire à l'humain », « disparition de toutes les fonctions symboliques » et « substituabilité partielle sans identité des significations » ; préserver le sens exact de « concevoir »."
+      "tests": "Cas du mausolée de Lénine : montre la persistance de rites dans un État officiellement athée, sans prouver qu’ils soient universellement nécessaires ni qu’ils définissent toute religion. Contrôle : ne pas assimiler le sacré civil à la religion sans argument ; distinguer possibilité conceptuelle, faisabilité historique et prédiction. Contrôle renforcé : Comparer « religion nécessaire à l'humain », « disparition de toutes les fonctions symboliques » et « substituabilité partielle sans identité des significations » ; préserver le sens exact de « concevoir ». Travail approfondi : gestes O3, F17, E5, N12. Alternatives examinées : Nécessité définitionnelle de la religion (non établie) / réponse religieuse universelle aux besoins (non exclusive) / possibilité de fonctions symboliques sans identité de sens (retenu)."
     },
     "candidats_III": [
       {
@@ -85,7 +85,7 @@
     "scene": "Moscou, 1924 : l’Union soviétique, officiellement athée, fait embaumer le corps de Lénine et l’expose dans un mausolée devant lequel des foules défilent pendant des décennies. Verdict : homologue. Retour : ce qui renaît est un rapport au mort, non une croyance.",
     "statut": {
       "problematique": "suffisamment justifiée",
-      "copie": "révision ciblée de l'épreuve de III — audit indépendant à poursuivre"
+      "copie": "révision argumentative I-II-III — audit indépendant encore requis"
     },
     "ouvertures_de_pensee": {
       "I": "Raisonner, travailler, aimer et s'obliger envers autrui n'exigent pas, dans leur définition, une croyance religieuse. Une humanité organisée autour de telles capacités peut donc être conçue sans religion, même si sa réalisation historique reste à examiner.",
@@ -156,7 +156,7 @@
           "I.2 La fonder par une définition"
         ],
         [
-          "Raisonner, travailler, aimer et s'obliger envers autrui n'exigent pas, dans leur définition, une croyance religieuse. Une humanité organisée autour de telles capacités peut donc être conçue sans religion, même si sa réalisation historique reste à examiner.",
+          "On peut décrire des humains qui raisonnent, élèvent des enfants, travaillent et organisent une vie commune sans croire à des dieux. Rien dans ces activités n'impose logiquement une religion. Mais cette description ne prouve pas qu'une telle société puisse répondre à toutes les difficultés de l'existence.",
           "I.2 Montrer la possibilité conceptuelle sans religion"
         ],
         [
@@ -197,7 +197,7 @@
           "II.2 La fonder par la genèse ; citation qui nomme l’opération"
         ],
         [
-          "Les mêmes inquiétudes devant la mort et l'incertitude pouvant se reproduire, la persistance des pratiques religieuses cesse d'être inexplicable par la seule croissance du savoir ; leur retour n'en devient pas pour autant nécessaire.",
+          "La peur de la mort, le désir d'espérance et le besoin de se rassembler peuvent expliquer que des religions apparaissent dans de nombreuses sociétés. Expliquer cette fréquence n'établit pourtant pas qu'aucune autre réponse humaine soit possible.",
           "II.2 Expliquer la persistance sans en faire une nécessité"
         ],
         [
@@ -238,11 +238,11 @@
           "III.2 La démontrer : ce qu’elle conserve des deux réponses"
         ],
         [
-          "La persistance de besoins symboliques n'oblige donc pas à reconduire les mêmes croyances : rites civils et formes nouvelles de solidarité sont concevables, sans que leur équivalence avec les expériences religieuses soit garantie.",
+          "Une communauté peut donner sens à des événements par des cérémonies civiles, des récits ou des engagements partagés. Ces pratiques montrent que certaines fonctions remplies par la religion peuvent être assumées autrement, même si les croyances et les expériences ne sont pas identiques.",
           "III.2 Distinguer fonctions symboliques et croyances religieuses"
         ],
         [
-          "Cependant, une fonction semblable n'est pas une expérience identique : des funérailles civiles peuvent rassembler sans donner le même sens à la mort qu'une promesse de salut. Concevoir une humanité sans religion demande seulement de montrer que cette différence n'interdit pas de vivre ensemble, non de prétendre remplacer à l'identique toute expérience religieuse.",
+          "Des funérailles civiles peuvent unir une famille sans lui promettre une vie après la mort. Il serait faux de présenter les deux expériences comme équivalentes. Mais concevoir une humanité sans religion n'exige pas de prouver que rien ne serait perdu : seulement qu'une autre manière de vivre ensemble demeure possible.",
           "III.2 Objection forte et détermination de la portée"
         ],
         [

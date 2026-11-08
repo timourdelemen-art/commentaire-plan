@@ -49,7 +49,7 @@
       "III1": "Distinguer deux manières de ne plus vouloir : réviser sa règle pour des raisons qu’on peut examiner, ou être capturé par ce qui ôte le pouvoir d’examiner.",
       "III2": "Conserve XA (des possibles sont fermés) et XB (la règle est libre) ; explique LA (FA comptait des possibles, non le pouvoir de juger) et LB (la volonté future n’est pas libre du seul fait qu’elle est présente).",
       "III3": "S’engager n’est pas renoncer à sa liberté, si l’engagement protège le jugement contre ce qui le capturerait et laisse ouverte sa révision par des raisons ; vérifié sur Ulysse. Reste : qui juge, au moment de rompre, de la nature de ce qui parle.",
-      "tests": "Cas témoin : la supplication d’Ulysse est celle d’un homme charmé, non d’un homme qui révise ; ses compagnons ont raison de ne pas le délier ; ni A, ni B, ni le partage des moments ne le disaient. Second cas : la promesse de mariage rompue pour des raisons exposées, que la III reconnaît libre. Restitution : oui. Rechute : le reste (qui juge ?) ne redit ni LA ni LB. Test propre : la distinction vaut sur un second cas. Report : non. Acquis nouveau : prémisse nouvelle — la liberté se mesure au pouvoir de juger, non au nombre des possibles ni à la date de la volonté ; nécessaire à la décision. Contrôle renforcé : Confronter « fidélité absolue », « changement de désir » et « révision critiquable par des raisons » ; éprouver les rationalisations d'une impulsion."
+      "tests": "Cas témoin : la supplication d’Ulysse est celle d’un homme charmé, non d’un homme qui révise ; ses compagnons ont raison de ne pas le délier ; ni A, ni B, ni le partage des moments ne le disaient. Second cas : la promesse de mariage rompue pour des raisons exposées, que la III reconnaît libre. Restitution : oui. Rechute : le reste (qui juge ?) ne redit ni LA ni LB. Test propre : la distinction vaut sur un second cas. Report : non. Acquis nouveau : prémisse nouvelle — la liberté se mesure au pouvoir de juger, non au nombre des possibles ni à la date de la volonté ; nécessaire à la décision. Contrôle renforcé : Confronter « fidélité absolue », « changement de désir » et « révision critiquable par des raisons » ; éprouver les rationalisations d'une impulsion. Audit des opérations : gestes E2, L12, X12, O15. Candidats en concurrence : Choix disponibles (réduction absurde de toute décision) / autorité du passé (promesse injuste) / autorité de l'instant (impulsion) / jugement critique de la révision (retenu)."
     },
     "candidats_III": [
       {
@@ -85,7 +85,7 @@
     "scene": "Homère, Odyssée, chant XII : Ulysse se fait attacher au mât pour entendre les Sirènes et ordonne qu’on resserre ses liens s’il demande à être délié. Paraphrase seulement. Verdict : homologue. Retour : la supplication est celle du charme.",
     "statut": {
       "problematique": "suffisamment justifiée",
-      "copie": "révision ciblée de l'épreuve de III — audit indépendant à poursuivre"
+      "copie": "révision argumentée I-II-III ; audit indépendant de fond nécessaire"
     },
     "ouvertures_de_pensee": {
       "I": "En s'engageant, on écarte volontairement certaines conduites futures : le choix d'aujourd'hui réduit donc réellement l'éventail des choix de demain, sans qu'une contrainte extérieure soit nécessaire.",
@@ -162,7 +162,7 @@
           "I.1 Ce qu’elle sauve"
         ],
         [
-          "Être libre, c’est pouvoir choisir entre des possibles ouverts ; or s’engager, c’est retirer de ces possibles tous ceux que l’engagement exclut.",
+          "S'engager ferme réellement des possibilités : promettre de rester auprès de quelqu'un, c'est renoncer à partir au premier désaccord. Si l'on définit la liberté comme le nombre de portes encore ouvertes, la promesse diminue bien cette liberté.",
           "I.2 La fonder par une définition"
         ],
         [
@@ -174,7 +174,7 @@
           "I.3 L’éprouver : ce qu’il établit"
         ],
         [
-          "Mais il mesure la liberté au nombre des possibles ouverts, et à cette mesure tout choix, qui en ferme d’autres, serait déjà une renonciation : choisir un métier, ce serait renoncer à la liberté d’exercer tous les autres.",
+          "Mais ce calcul se retourne contre lui-même. Choisir n'est jamais conserver tous les choix : celui qui refuse de promettre renonce aussi à une vie qu'il aurait pu construire. À compter seulement les possibilités, on ne peut plus distinguer un choix libre d'une fuite devant le choix.",
           "I.3 Ce qu’il ne permet pas encore, et pourquoi : le fondement retourné contre lui-même"
         ],
         [
@@ -203,7 +203,7 @@
           "II.1 Ce qu’elle conserve"
         ],
         [
-          "Être libre, c’est être l’auteur de sa conduite, non le jouet de chaque désir ; et l’on n’est l’auteur d’une conduite que si elle suit une règle qu’on se donne.",
+          "Une autre mesure de la liberté apparaît alors : non ce que je pourrais encore faire, mais la conduite dont je peux répondre. Tenir une promesse malgré une envie passagère peut être plus libre que céder à cette envie, parce que je poursuis une règle reconnue comme mienne.",
           "II.2 La fonder : la liberté comme autonomie"
         ],
         [
@@ -215,7 +215,7 @@
           "II.3 L’éprouver : ce qu’elle établit"
         ],
         [
-          "Mais elle fonde cette liberté sur la règle qu’on se donne au moment de s’engager, et la force d’un engagement est de lier une volonté future qui peut avoir changé : entre la promesse et l’acte peuvent s’interposer des « volitions nouvelles et étrangères ».",
+          "Pourtant, que j'aie décidé librement hier ne prouve pas que je doive obéir sans examen aujourd'hui. Une promesse peut devenir injuste. Ce que Nietzsche nomme des « volitions nouvelles et étrangères » peut traduire une impulsion, mais aussi une raison nouvelle : l'ancienne décision ne suffit pas à les départager.",
           "II.3 Ce qu’elle ne permet pas encore, et pourquoi"
         ],
         [
@@ -236,7 +236,7 @@
       "III. CE QUI PARLE QUAND ON VEUT ROMPRE",
       [
         [
-          "Pour savoir quelle volonté est libre, il faut distinguer deux manières de ne plus vouloir ce qu’on a promis : réviser sa règle pour des raisons qu’on peut examiner, ou être emporté par ce qui ôte le pouvoir d’examiner.",
+          "La question n'est donc plus de savoir quelle volonté, ancienne ou nouvelle, doit toujours gagner, mais laquelle peut répondre de ses raisons. Je peux revenir librement sur une promesse lorsque les circonstances ou les devoirs ont changé ; je peux aussi vouloir la rompre simplement parce qu'une passion me domine.",
           "III.1 Effectuer le déplacement nécessaire"
         ],
         [
@@ -244,7 +244,7 @@
           "III.1 Ce que la distinction sépare"
         ],
         [
-          "Ce n’est donc pas le nombre des possibles, ni la date d’une volonté, qui fait sa liberté : c’est le pouvoir de juger qu’elle conserve.",
+          "Si une promesse m'ordonnait désormais de faire du mal, la tenir aveuglément ne serait pas plus libre que la rompre par caprice. Être libre, c'est garder le pouvoir d'examiner la règle et de répondre à ceux qu'elle concerne.",
           "III.2 La démontrer : la prémisse nouvelle"
         ],
         [
@@ -256,7 +256,7 @@
           "III.2 Articuler fidélité et révision par des raisons"
         ],
         [
-          "Toutefois, le simple fait de prétendre avoir des raisons ne suffit pas : on peut inventer après coup de bonnes raisons à un désir qui nous emporte. La liberté de réviser demande donc d'examiner ces raisons, de les confronter aux engagements pris et de pouvoir les soutenir hors de l'impulsion du moment.",
+          "Mais je peux déguiser mon envie en raison. Il faut donc comparer mes raisons à des faits que je ne choisis pas, entendre l'objection de celui à qui j'ai promis et demander si je soutiendrais la même décision une fois l'impulsion passée. Ce contrôle ne supprime pas le risque de se tromper ; il empêche de confondre tout changement de désir avec une libération.",
           "III.2 Éprouver l'objection décisive et consolider la preuve"
         ],
         [

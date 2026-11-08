@@ -49,7 +49,7 @@
       "III1": "Distinguer l'indispensable à la survie et les besoins durables d'expression, de sensibilité et de partage, dont l'art constitue une réponse propre mais non exclusive.",
       "III2": "L'art produit des formes sensibles à interprétations ouvertes ; la spécificité esthétique doit être décrite sans prétendre que le récit, le rite ou le langage ne peuvent jamais produire de partage semblable.",
       "III3": "L'art peut répondre à un besoin humain profond sans être nécessaire à chaque individu ni le seul moyen de satisfaire ce besoin ; le reste porte sur les conditions qui permettent l'accès à une expérience artistique non instrumentalisée.",
-      "tests": "Cas Terezín : un exemple de la force possible de la musique, pas une preuve de nécessité universelle ni de l'exclusivité de l'art. Tester contre des formes non artistiques de partage ; rejeter toute inférence du cas individuel à une essence humaine universelle. Contrôle renforcé : Comparer « besoin vital », « fonction de partage irremplaçable » et « puissance expressive distincte sans monopole » ; ne pas déduire la nécessité universelle d'un exemple frappant."
+      "tests": "Cas Terezín : un exemple de la force possible de la musique, pas une preuve de nécessité universelle ni de l'exclusivité de l'art. Tester contre des formes non artistiques de partage ; rejeter toute inférence du cas individuel à une essence humaine universelle. Contrôle renforcé : Comparer « besoin vital », « fonction de partage irremplaçable » et « puissance expressive distincte sans monopole » ; ne pas déduire la nécessité universelle d'un exemple frappant. Audit : gestes F15, E13, N7, C7. Alternatives : Besoin vital (trop étroit) / besoin d'expression (non propre à l'art) / besoin possible de forme sensible irréductible à une information (retenu sans exclusivité)."
     },
     "candidats_III": [
       {
@@ -85,7 +85,7 @@
     "scene": "Terezín (Theresienstadt), 1943-1944 : le chef de chœur Rafael Schächter fait répéter le Requiem de Verdi à des prisonniers, qui le chantent seize fois ; le chœur est sans cesse décimé par les déportations ; la dernière représentation, en juin 1944, est donnée devant une délégation de la Croix-Rouge que les nazis veulent tromper. Verdict : homologue. Retour : ce que le chant faisait que rien d’autre ne faisait, et ce qu’on en a fait.",
     "statut": {
       "problematique": "suffisamment justifiée",
-      "copie": "révision ciblée de l'épreuve de III — audit indépendant à poursuivre"
+      "copie": "révision argumentée I-II-III — audit contradictoire encore requis"
     },
     "ouvertures_de_pensee": {
       "I": "On peut subsister sans tableaux ni symphonies : l'art n'est donc pas nécessaire à la survie au même titre que la nourriture ou l'abri. Cela ne décide pas encore de tout ce dont une vie humaine peut avoir besoin.",
@@ -145,7 +145,7 @@
           "I.2 La fonder par une définition"
         ],
         [
-          "On peut subsister sans tableaux ni symphonies : l'art n'est donc pas nécessaire à la survie au même titre que la nourriture ou l'abri. Cela ne décide pas encore de tout ce dont une vie humaine peut avoir besoin.",
+          "On peut survivre sans voir de tableau ni entendre de musique ; l'art n'est pas une condition biologique comparable à la nourriture. Mais réduire tous les besoins à la survie supposerait qu'il suffit de rester vivant pour mener une vie humaine.",
           "I.2 Délimiter le besoin par la survie"
         ],
         [
@@ -186,7 +186,7 @@
           "II.2 La fonder par une fin propre"
         ],
         [
-          "La tragédie et le requiem donnent une forme partageable à la peur ou au deuil. Le besoin qu'ils satisfont ne se mesure pas à la survie, mais à la possibilité de rendre une expérience sensible et intelligible à d'autres.",
+          "Lorsque la peine reste confuse, une œuvre peut lui donner une forme qu'on reconnaît et qu'on partage. Une tragédie ne communique pas simplement une information sur la tristesse : elle fait éprouver ensemble des émotions que chacun vivait isolément.",
           "II.2 Montrer ce que l'œuvre rend partageable"
         ],
         [
@@ -227,11 +227,11 @@
           "III.2 La démontrer : ce qu’il conserve"
         ],
         [
-          "L'art répond ainsi à une aspiration à partager l'expérience dans des formes sensibles ouvertes à plusieurs interprétations ; rien n'autorise toutefois à conclure qu'aucune parole ni aucun rite ne puisse répondre autrement à cette aspiration.",
+          "Il faut pourtant distinguer une fonction et son accomplissement particulier. La conversation ou un rite peuvent aussi partager une émotion ; une œuvre la rend présente sous une forme sensible qui laisse chacun y trouver plus qu'un message déterminé.",
           "III.2 Distinguer la singularité de l'art de son exclusivité"
         ],
         [
-          "Mais le fait qu'une œuvre offre plusieurs interprétations ne prouve pas que tout partage sensible soit artistique. Une cérémonie, un récit familial ou un jeu peuvent aussi donner forme à une expérience sans l'épuiser. L'art répond donc à un besoin possible, singulier dans sa manière, non à une fonction dont il aurait le monopole.",
+          "Cette force ne prouve pas que tout être humain ait besoin de toute œuvre, ni même qu'aucune vie heureuse soit possible sans art. Elle prouve plus modestement que l'art répond à une aspiration réelle dont la satisfaction peut devenir irremplaçable dans certaines vies.",
           "III.2 Contre-épreuve de la solution choisie"
         ],
         [

@@ -48,8 +48,8 @@
       "operation": "sens de la dépendance (III.7 a) : la vérité n’est pas la cause de la conviction mais sa norme, ce qui rend toute conviction corrigible.",
       "III1": "La vérité ne cause pas la conviction ; elle est ce par quoi une conviction peut être corrigée : la mesure à laquelle les preuves se rapportent, et qui fait d’elles des preuves.",
       "III2": "Conserve XA (la vérité comprise ne laisse pas de doute) et XB (la conviction passe par des preuves) ; explique LA (la vérité ne convainc qu’à travers une preuve possédée) et LB (une preuve vaut mieux qu’un sophisme parce qu’elle s’expose à ce qui pourrait la corriger).",
-      "III3": "La vérité n’est pas toujours convaincante, mais elle seule rend une conviction corrigible, et c’est par là qu’elle finit par convaincre quand ses traces demeurent ; vérifié sur Wegener. Reste : les vérités dont toutes les traces ont disparu.",
-      "tests": "Cas témoin : les ponts continentaux convainquaient et ne s’exposaient à rien qui pût les ruiner ; la dérive, vraie, fut confirmée quand les stries magnétiques du fond des océans permirent de l’éprouver ; ni A, ni B, ni le partage ne le disaient. Second cas : une démonstration mathématique, qui convainc parce qu’on peut chercher en vain l’erreur. Restitution : oui. Rechute : le reste (les traces disparues) ne redit ni LA ni LB. Test propre : l’inversion explique ce que l’ordre initial n’expliquait pas (l’autorité des preuves). Report : non. Acquis nouveau : prémisse nouvelle — la vérité agit comme norme de correction, non comme cause d’adhésion ; nécessaire à la décision. Contrôle renforcé : Comparer « vérité provoquant l'adhésion », « preuve actuellement convaincante » et « conviction tenue responsable de ses tests » ; l'épreuve ne garantit pas la vérité."
+      "III3": "La vérité n'est pas toujours convaincante ; elle reste la norme d'une conviction corrigible, sans garantir une adhésion future à toute vérité.",
+      "tests": "Cas témoin : les ponts continentaux convainquaient et ne s’exposaient à rien qui pût les ruiner ; la dérive, vraie, fut confirmée quand les stries magnétiques du fond des océans permirent de l’éprouver ; ni A, ni B, ni le partage ne le disaient. Second cas : une démonstration mathématique, qui convainc parce qu’on peut chercher en vain l’erreur. Restitution : oui. Rechute : le reste (les traces disparues) ne redit ni LA ni LB. Test propre : l’inversion explique ce que l’ordre initial n’expliquait pas (l’autorité des preuves). Report : non. Acquis nouveau : prémisse nouvelle — la vérité agit comme norme de correction, non comme cause d’adhésion ; nécessaire à la décision. Contrôle renforcé : Comparer « vérité provoquant l'adhésion », « preuve actuellement convaincante » et « conviction tenue responsable de ses tests » ; l'épreuve ne garantit pas la vérité. Révision éditoriale : gestes F16, S5, E13, K4. Chemins en concurrence : Vérité = évidence (ignorance de la preuve) / conviction = succès psychologique (erreur persuasive) / preuve contrôlable et corrigible (retenu, mais ne garantit pas convergence)."
     },
     "candidats_III": [
       {
@@ -85,7 +85,7 @@
     "scene": "Alfred Wegener propose en 1912-1915 la dérive des continents ; la communauté géologique la rejette, lui préférant des ponts continentaux engloutis ; il meurt au Groenland en 1930 ; la tectonique des plaques s’impose dans les années 1960 grâce au paléomagnétisme des fonds océaniques. Verdict : homologue. Retour : la vérité a convaincu en rendant l’erreur corrigible.",
     "statut": {
       "problematique": "suffisamment justifiée",
-      "copie": "révision ciblée de l'épreuve de III — audit indépendant à poursuivre"
+      "copie": "renforcement argumentatif I-II-III, relecture contradictoire encore requise"
     },
     "ouvertures_de_pensee": {
       "I": "Pour celui qui comprend une démonstration, la vérité n'est pas un assentiment arraché de l'extérieur : il tient lui-même les raisons pour lesquelles il ne peut plus douter de ce qu'il vient d'établir.",
@@ -166,7 +166,7 @@
           "I.2 La fonder ; citation qui donne l’énoncé exact"
         ],
         [
-          "Pour celui qui comprend une démonstration, la vérité n'est pas un assentiment arraché de l'extérieur : il tient lui-même les raisons pour lesquelles il ne peut plus douter de ce qu'il vient d'établir.",
+          "Lorsqu'une démonstration est comprise, la conviction tient aux raisons qu'on peut refaire, non à l'autorité d'un maître. Mais posséder cette compréhension et dire une proposition vraie sont deux choses différentes : une vérité peut rester inconnue.",
           "I.2 Décrire la certitude intérieure à une preuve comprise"
         ],
         [
@@ -207,7 +207,7 @@
           "II.2 La fonder par les faits : vrai et prouvé divergent"
         ],
         [
-          "Que la dérive continentale ait été vraie avant de convaincre distingue la vérité d'une proposition de la force des preuves dont on dispose à une époque donnée.",
+          "L'accueil d'une proposition dépend des preuves qu'on possède alors. On peut avoir raison trop tôt et disposer de mauvais arguments ; on peut aussi convaincre avec des raisons séduisantes mais fausses. L'adhésion ne mesure donc pas directement la vérité.",
           "II.2 Distinguer la vérité de la persuasion effective"
         ],
         [
@@ -244,7 +244,7 @@
           "III.1 Citation reprise dans un autre emploi, signalé"
         ],
         [
-          "Une preuve vaut mieux qu’un argument qui réussit parce qu’elle s’expose à ce qui pourrait la ruiner, alors que l’argument habile se met à l’abri de toute épreuve.",
+          "Une preuve digne de ce nom ne se contente pas d'emporter l'accord : elle indique ce qui la soutient et ce qui pourrait la contredire. C'est pourquoi elle peut être corrigée sans que tout examen devienne une affaire de prestige ou d'éloquence.",
           "III.2 La démontrer : ce qui fait l’autorité d’une preuve"
         ],
         [
@@ -256,7 +256,7 @@
           "III.2 Éprouver l'objection décisive et consolider la preuve"
         ],
         [
-          "La vérité n’est donc pas toujours convaincante ; mais elle seule rend une conviction corrigible, et c’est par là qu’elle finit par convaincre, quand demeurent les traces qui permettent de l’éprouver.",
+          "La vérité n'est donc pas toujours convaincante. Elle reste pourtant ce à quoi doit se mesurer une conviction qui veut être rationnelle : lorsqu'une preuve nouvelle paraît, nous avons des raisons de réviser nos croyances, même si nous ne le faisons pas toujours.",
           "III.3 La réponse au sujet, avec son opérateur"
         ],
         [
@@ -273,7 +273,7 @@
       "CONCLUSION",
       [
         [
-          "La vérité n’est pas toujours convaincante, car elle ne convainc qu’à travers des preuves ; mais elle n’est pas sans force, car elle est ce qui rend toute conviction corrigible.",
+          "La vérité ne convainc pas toujours, car elle n'agit pas sur un esprit comme une force irrésistible. Elle reste la norme à laquelle une conviction qui veut être rationnelle doit accepter de se mesurer et, au besoin, de se corriger.",
           "Conclusion · la réponse, avec l’opérateur"
         ],
         [

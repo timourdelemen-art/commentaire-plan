@@ -49,7 +49,7 @@
       "III1": "Le savoir qui choisit ne précède pas l’œuvre : c’est un jugement qui reconnaît, dans ce qui vient d’être fait, ce qui convient à ce qui se fait.",
       "III2": "Ce jugement n’est ni une règle appliquée ni un aveuglement ; il conserve le métier (XA) et l’invention (XB), explique LA (on cherchait avant l’œuvre une règle qui se forme avec elle) et LB (on confondait « pas su d’avance » et « pas su du tout »).",
       "III3": "L’artiste sait ce qu’il fait pendant qu’il le fait, non avant ; vérifié à Cologne. Reste : ce que l’œuvre fera aux autres.",
-      "tests": "Cas témoin : la III dit en quel sens Jarrett savait ce qu’il faisait, ce que le cumul ne disait pas. Second cas : les repentirs d’un peintre, visibles sous la couche finale. Restitution : oui. Rechute : le reste (l’effet sur autrui) ne redit ni LA ni LB. Test propre : l’inversion explique ce que l’ordre initial n’expliquait pas (le tri). Report : non. Acquis nouveau : prémisse nouvelle — un jugement peut porter sur un cas singulier sans règle préalable et commander la suite ; nécessaire à la décision. Contrôle renforcé : Comparer « règle antérieure », « intuition aveugle » et « comparaison critique des essais au cours de l'œuvre » ; l'auto-approbation ne suffit pas à constituer un savoir."
+      "tests": "Cas témoin : la III dit en quel sens Jarrett savait ce qu’il faisait, ce que le cumul ne disait pas. Second cas : les repentirs d’un peintre, visibles sous la couche finale. Restitution : oui. Rechute : le reste (l’effet sur autrui) ne redit ni LA ni LB. Test propre : l’inversion explique ce que l’ordre initial n’expliquait pas (le tri). Report : non. Acquis nouveau : prémisse nouvelle — un jugement peut porter sur un cas singulier sans règle préalable et commander la suite ; nécessaire à la décision. Contrôle renforcé : Comparer « règle antérieure », « intuition aveugle » et « comparaison critique des essais au cours de l'œuvre » ; l'auto-approbation ne suffit pas à constituer un savoir. Audit des opérations : gestes E4, F19, O9, X4, C7. Candidats en concurrence : Technique déductive (ne donne pas l'inédit) / inspiration aveugle (n'explique pas les reprises) / jugement après achèvement (trop tard) / connaissance expérimentée dans le travail (retenue)."
     },
     "candidats_III": [
       {
@@ -85,7 +85,7 @@
     "scene": "Keith Jarrett, concert de Cologne, 24 janvier 1975, sur un piano de répétition défectueux. Verdict : homologue. Retour : la III fait de chaque figure reprise ou quittée le signe du savoir qui choisit.",
     "statut": {
       "problematique": "suffisamment justifiée",
-      "copie": "révision ciblée de l'épreuve de III — audit indépendant à poursuivre"
+      "copie": "révision argumentée I-II-III ; audit indépendant de fond nécessaire"
     },
     "ouvertures_de_pensee": {
       "I": "Corriger une couleur ou une cadence suppose de discerner l'écart entre un effet obtenu et celui qu'on cherche : le savoir de l'artiste s'exerce donc aussi pendant la création, non seulement avant elle.",
@@ -152,7 +152,7 @@
           "I.1 Ce qu’elle sauve"
         ],
         [
-          "Faire avec art, c’est produire en connaissant les moyens qui donnent tel effet : la main sait obtenir telle couleur, l’oreille sait quelle cadence apaise.",
+          "L'artiste ne crée pas avec des mains qui ignoreraient leur métier. Le pianiste prévoit l'effet d'un accord ; le peintre sait qu'une couleur en modifiera une autre. Cette connaissance permet d'essayer puis de corriger : elle est déjà présente dans le travail.",
           "I.2 La fonder par une définition"
         ],
         [
@@ -164,7 +164,7 @@
           "I.3 L’éprouver : ce qu’il établit"
         ],
         [
-          "Mais il procède par des règles qui relient un moyen à un effet connu, et la réussite d’une œuvre n’est pas un effet connu : si une règle la donnait, tout technicien appliqué produirait des chefs-d’œuvre.",
+          "Mais savoir produire un effet ne suffit pas à savoir si cet effet fera une œuvre. Une recette pourrait donner la même couleur à tous les peintres ; elle ne déciderait pas que cette couleur convient précisément à ce tableau. Le métier rend les choix possibles, sans choisir à leur place.",
           "I.3 Ce qu’il ne permet pas encore, et pourquoi"
         ],
         [
@@ -197,7 +197,7 @@
           "II.2 La fonder par une condition de possibilité ; citation qui donne la formule exacte"
         ],
         [
-          "Les contraintes imprévues du piano de Cologne n'étaient contenues dans aucune recette ; en les travaillant, Jarrett a trouvé des formes qu'il n'aurait pu connaître avant de jouer.",
+          "À Cologne, le piano imposait à Jarrett des contraintes imprévues. Ce qu'il a joué n'était pas simplement contenu dans son entraînement : une difficulté a fait surgir des possibilités nouvelles. On ne peut déduire l'œuvre achevée du savoir qui précédait le concert.",
           "II.2 Montrer comment l'imprévu contribue à la création"
         ],
         [
@@ -205,7 +205,7 @@
           "II.3 L’éprouver : ce qu’elle établit"
         ],
         [
-          "Mais elle oppose la production nouvelle au savoir qui la précède, et place l’essentiel dans ce qui échappe au savoir ; or, à Cologne, chaque figure trouvée est aussitôt reprise, développée ou abandonnée, et ce tri n’a rien d’un hasard.",
+          "Pourtant, aucune note nouvelle ne se conserve d'elle-même. Jarrett répète certaines figures, en abandonne d'autres ; ce tri suppose qu'il entende une différence entre ce qui mérite d'être poursuivi et ce qui doit être quitté. L'invention n'est donc pas l'absence de tout jugement.",
           "II.3 Le cas qui éprouve le fondement : un autre geste qu’en I.3"
         ],
         [
@@ -226,7 +226,7 @@
       "III. UN SAVOIR QUI NAÎT EN FAISANT",
       [
         [
-          "Le savoir qui reconnaît ce qui convient ne précède pas l’œuvre, il la suit pas à pas : c’est un jugement qui reconnaît, dans ce qui vient d’être fait, ce qui convient à ce qui se fait.",
+          "La solution consiste à renverser l'ordre qu'on imaginait entre savoir et faire. L'artiste ne possède pas d'avance la règle de son œuvre : il découvre ce qui lui convient en essayant, en écoutant, puis en modifiant ce qu'il vient de produire.",
           "III.1 Effectuer le déplacement nécessaire"
         ],
         [
@@ -234,7 +234,7 @@
           "III.1 L’ordre réel"
         ],
         [
-          "Ce jugement n’est pas une règle appliquée, puisqu’il porte sur un cas nouveau qu’aucun concept ne détermine d’avance ; mais il n’est pas aveugle, puisqu’il mesure chaque essai à l’exigence de l’œuvre en train de naître.",
+          "Ce jugement n'est pas arbitraire. Si une phrase musicale rompt le mouvement qui se dessinait, l'artiste peut la reprendre, la changer ou lui donner une place nouvelle. Il ne compare pas son essai à une œuvre déjà écrite, mais aux possibilités qu'ont ouvertes ses propres choix.",
           "III.2 La démontrer"
         ],
         [
@@ -246,7 +246,7 @@
           "III.2 Articuler le jugement technique et l'invention"
         ],
         [
-          "Mais reconnaître après coup ce qui convient à l'œuvre pourrait n'être qu'aimer ce qu'on vient de produire. Le jugement artistique devient plus solide lorsque l'essai peut être repris, comparé à une autre possibilité puis abandonné pour une raison perceptible, même si aucune règle ne garantissait d'avance la meilleure solution.",
+          "Dire « cela me plaît » ne suffit pourtant pas à prouver un savoir. Il faut que l'artiste puisse éprouver une autre possibilité, comparer deux suites et reconnaître ce que chacune ferait perdre ou gagner à l'ensemble. Il apprend ainsi à juger ce qui naît, même sans posséder une recette du beau.",
           "III.2 Contre-épreuve de la solution choisie"
         ],
         [

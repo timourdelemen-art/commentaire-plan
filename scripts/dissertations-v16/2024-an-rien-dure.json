@@ -49,8 +49,8 @@
       "operation": "transformation d’un présupposé (III.7 a) : le bonheur n’est pas une possession, mais une approbation de ce qui passe.",
       "III1": "Le bonheur ne consiste pas à garder, mais à pouvoir vouloir encore ce qu’on a vécu : une vie heureuse est celle qu’on approuverait si elle devait revenir.",
       "III2": "Conserve XA (l’instant est aimé) et XB (le bonheur est celui d’une vie) ; explique LA (l’instant était assombri parce qu’on voulait le garder) et LB (on cherchait une durée que l’hypothèse refuse, alors que l’approbation n’en demande pas).",
-      "III3": "On est heureux, si rien ne dure, en aimant ce qui passe au point de vouloir le revivre ; vérifié sur le hanami. Reste : vouloir encore une vie qui contient la perte d’un être aimé.",
-      "tests": "Cas témoin : sous les cerisiers, la mélancolie et la joie ne se contredisent plus : on ne pleure pas de ne pas garder les fleurs, on les aime telles qu’elles passent et l’on reviendra l’an prochain ; ni A, ni B, ni la conciliation ne le disaient. Second cas : une amitié de jeunesse finie, dont on est heureux d’avoir vécu chaque jour. Restitution : oui. Rechute : le reste (le deuil) ne redit ni LA ni LB. Test propre : prémisse de transformation établie (vouloir à nouveau n’exige pas de garder) ; illusion expliquée (on confondait aimer et posséder). Report : non. Acquis nouveau : prémisse nouvelle — l’approbation d’une vie ne suppose pas sa durée ; nécessaire à la décision. Contrôle renforcé : Comparer « saisir l'instant », « posséder une valeur durable » et « approbation de la vie qui passe » ; délimiter l'épreuve nietzschéenne comme possibilité, non devoir."
+      "III3": "Un bonheur qui ne se confond pas avec la possession durable est possible ; approuver ce qui passe ne commande pas d'approuver toute perte.",
+      "tests": "Cas témoin : sous les cerisiers, la mélancolie et la joie ne se contredisent plus : on ne pleure pas de ne pas garder les fleurs, on les aime telles qu’elles passent et l’on reviendra l’an prochain ; ni A, ni B, ni la conciliation ne le disaient. Second cas : une amitié de jeunesse finie, dont on est heureux d’avoir vécu chaque jour. Restitution : oui. Rechute : le reste (le deuil) ne redit ni LA ni LB. Test propre : prémisse de transformation établie (vouloir à nouveau n’exige pas de garder) ; illusion expliquée (on confondait aimer et posséder). Report : non. Acquis nouveau : prémisse nouvelle — l’approbation d’une vie ne suppose pas sa durée ; nécessaire à la décision. Contrôle renforcé : Comparer « saisir l'instant », « posséder une valeur durable » et « approbation de la vie qui passe » ; délimiter l'épreuve nietzschéenne comme possibilité, non devoir. Audit : gestes F11, K3, R10, O15. Alternatives : Jouissance présente (pas une vie heureuse) / dispositions durables (suppose quelque chose qui reste) / approbation lucide du passage (retenue sans obligation de vouloir ses pertes)."
     },
     "candidats_III": [
       {
@@ -86,7 +86,7 @@
     "scene": "Le hanami : chaque printemps, au Japon, on se réunit sous les cerisiers en fleurs, dont la floraison ne dure qu’une ou deux semaines ; la tradition lie cette fête à la mélancolie des choses qui passent. Verdict : homologue. Retour : la joie de ceux qui reviendront l’an prochain.",
     "statut": {
       "problematique": "suffisamment justifiée",
-      "copie": "révision ciblée de l'épreuve de III — audit indépendant à poursuivre"
+      "copie": "révision argumentée I-II-III — audit contradictoire encore requis"
     },
     "ouvertures_de_pensee": {
       "I": "Il reste possible de jouir de ce qui est présent sans prétendre le conserver : la disparition prochaine d'un instant n'en supprime pas la valeur actuelle.",
@@ -167,7 +167,7 @@
           "I.2 La fonder par élimination"
         ],
         [
-          "Il reste possible de jouir de ce qui est présent sans prétendre le conserver : la disparition prochaine d'un instant n'en supprime pas la valeur actuelle.",
+          "Je peux goûter un après-midi de printemps tout en sachant qu'il finira. Sa brièveté ne retire rien à ma joie présente. Mais le bonheur d'une existence entière ne se confond pas avec cette joie : il demande encore de savoir ce que vaut une vie faite de tels instants.",
           "I.2 Distinguer bonheur présent et conservation des biens"
         ],
         [
@@ -208,7 +208,7 @@
           "II.2 La fonder par la fin d’une vie"
         ],
         [
-          "Le courage, la patience et les liens qu'on entretient peuvent donner à une vie une continuité qui ne dépend pas de la permanence des biens extérieurs.",
+          "Le courage et l'amitié semblent fournir un appui plus sûr qu'un plaisir passager : ils donnent un sens à plusieurs moments de la vie. Pourtant eux aussi se transforment et peuvent disparaître. Ils ne constituent pas un refuge hors du temps.",
           "II.2 Fonder une continuité dans les dispositions"
         ],
         [
@@ -245,7 +245,7 @@
           "III.1 Citation qui donne la forme exacte de l’épreuve"
         ],
         [
-          "Or vouloir à nouveau n’exige pas de garder : on peut vouloir revivre un printemps sans prétendre le retenir. Cela suppose une fidélité à ce qu'on a vécu, non une promesse d'échapper à toute douleur.",
+          "Il faut donc déplacer la question : être heureux n'exige peut-être pas de garder ce qu'on aime, mais de pouvoir aimer ce qu'on a vécu sans réclamer son immobilité. Souhaiter revoir un printemps n'est pas exiger que celui-ci reste éternellement présent.",
           "III.2 La démontrer : la prémisse nouvelle"
         ],
         [
@@ -253,11 +253,11 @@
           "III.2 Penser la valeur d'une vie sans la figer"
         ],
         [
-          "L'épreuve du retour ne peut pourtant servir d'ordre adressé à celui qui souffre : demander à un endeuillé de vouloir sa perte une seconde fois serait méconnaître sa douleur. Elle éclaire une forme possible d'approbation, mais ne fournit pas une recette ni une condition exigible du bonheur de tous.",
+          "Toutefois, personne ne peut imposer cette épreuve à celui qui souffre. Vouloir revivre une joie n'oblige pas à vouloir la mort d'un proche ni à trouver bonne toute perte. L'approbation de la vie donne une possibilité de bonheur ; elle n'établit pas un devoir de consentir à tout.",
           "III.2 Contre-épreuve de la solution choisie"
         ],
         [
-          "On est donc heureux, si rien ne dure, en aimant ce qui passe au point de vouloir le revivre, et non en tâchant de le retenir.",
+          "On peut donc être heureux même si rien ne dure, en apprenant à aimer ce qui passe sans exiger de le retenir. Cette possibilité n'abolit ni le regret ni la douleur des pertes.",
           "III.3 La réponse au sujet, avec son opérateur"
         ],
         [
@@ -274,7 +274,7 @@
       "CONCLUSION",
       [
         [
-          "Si rien ne dure, on n’est heureux ni en s’accrochant à l’instant ni en cherchant en soi ce qui durerait, mais en aimant ce qui passe assez pour vouloir le revivre.",
+          "Si rien ne dure, le bonheur reste possible sans prétendre retenir ce qui passe. On peut apprendre à aimer un moment sans exiger qu'il se conserve ; cette voie ne fait pourtant pas disparaître la douleur des pertes.",
           "Conclusion · la réponse, avec l’opérateur"
         ],
         [

@@ -48,8 +48,8 @@
       "operation": "critère de frontière (III.7 a) : l’imputation suppose la connaissance des circonstances et la maîtrise de l’acte, non la connaissance de ses motifs.",
       "III1": "Est imputable l’acte dont le principe est dans l’agent et dont il connaît les circonstances ; ce critère ne demande pas qu’il connaisse ses motifs.",
       "III2": "Conserve XA (la transparence des motifs est perdue, et ce n’était pas la condition) et XB (on répond de tout ce qui est à soi) ; explique LA (FA prenait les motifs pour les circonstances) et LB (la culpabilité porte sur ce qu’on savait et maîtrisait, non sur tout ce qui vient de soi).",
-      "III3": "L’idée d’inconscient ne remet pas en cause la responsabilité, mais une fausse idée de ce qu’elle exige ; vérifié sur Œdipe. Reste : les cas où le discernement est altéré sans être aboli.",
-      "tests": "Cas témoin : Œdipe est coupable d’avoir tué un homme dans la colère, qu’il savait tuer, non d’un parricide dont il ignorait la circonstance décisive, et un désir inconscient ne change rien à ce partage. Second cas : l’irresponsabilité pénale pour abolition du discernement. Restitution : oui. Rechute : le reste (l’altération) ne redit ni LA ni LB. Test propre : frontière définie indépendamment des deux thèses (par les circonstances connues et la maîtrise). Report : non. Acquis nouveau : prémisse nouvelle — l’ignorance qui excuse porte sur les circonstances, non sur les motifs ; nécessaire à la décision. Contrôle renforcé : Comparer « transparence des motifs », « simple appartenance causale » et « connaissance des circonstances avec contrôle effectif » ; mettre à l'épreuve le cas d'une capacité altérée."
+      "III3": "Responsabilité réévaluée suivant discernement des circonstances et maîtrise effective, sans exigence de transparence entière des motifs ; reste la mesure des altérations partielles.",
+      "tests": "Cas témoin : Œdipe est coupable d’avoir tué un homme dans la colère, qu’il savait tuer, non d’un parricide dont il ignorait la circonstance décisive, et un désir inconscient ne change rien à ce partage. Second cas : l’irresponsabilité pénale pour abolition du discernement. Restitution : oui. Rechute : le reste (l’altération) ne redit ni LA ni LB. Test propre : frontière définie indépendamment des deux thèses (par les circonstances connues et la maîtrise). Report : non. Acquis nouveau : prémisse nouvelle — l’ignorance qui excuse porte sur les circonstances, non sur les motifs ; nécessaire à la décision. Contrôle renforcé : Comparer « transparence des motifs », « simple appartenance causale » et « connaissance des circonstances avec contrôle effectif » ; mettre à l'épreuve le cas d'une capacité altérée. Audit : gestes S5, F17, C7, N12. Alternatives : Opacité des motifs = excuse générale (confond cause et capacité) / tout désir intérieur imputable (appartenance n'est pas culpabilité) / discernement et contrôle effectifs (retenu avec degrés)."
     },
     "candidats_III": [
       {
@@ -85,7 +85,7 @@
     "scene": "Sophocle, Œdipe roi (Œdipe se crève les yeux) et Œdipe à Colone (il plaide qu’il a agi sans savoir) ; lecture de Freud, qui voit dans Œdipe la figure de désirs que chacun ignore. Paraphrase seulement. Verdict : homologue. Retour : la III départage les deux Œdipe.",
     "statut": {
       "problematique": "suffisamment justifiée",
-      "copie": "révision ciblée de l'épreuve de III — audit indépendant à poursuivre"
+      "copie": "révision argumentée I-II-III — audit contradictoire encore requis"
     },
     "ouvertures_de_pensee": {
       "I": "Si une conduite peut avoir pour mobile un désir ignoré, la conscience de vouloir ne suffit plus à garantir que l'agent connaît les raisons pour lesquelles il agit.",
@@ -156,7 +156,7 @@
           "I.2 La fonder : la condition de l’imputation"
         ],
         [
-          "Si une conduite peut avoir pour mobile un désir ignoré, la conscience de vouloir ne suffit plus à garantir que l'agent connaît les raisons pour lesquelles il agit.",
+          "Un désir peut orienter mes gestes sans que je le reconnaisse comme le véritable motif de mon choix. Dès lors, dire « je l'ai voulu » ne suffit plus à montrer que je sais pourquoi je l'ai voulu. L'idée d'inconscient fragilise la confiance que je plaçais dans ma bonne conscience.",
           "I.2 Montrer l'opacité possible des mobiles"
         ],
         [
@@ -197,7 +197,7 @@
           "II.2 La fonder : l’appartenance"
         ],
         [
-          "Les désirs qu'on ignore ne deviennent pas pour autant ceux d'un autre : on peut reconnaître un acte comme sien sans prétendre connaître tous les mobiles qui l'ont déterminé.",
+          "Mais ignorer un désir n'en fait pas l'acte d'un étranger. Si j'ai menti par jalousie sans me l'avouer, le mensonge reste le mien. Cela fonde une responsabilité à examiner, non une culpabilité déjà démontrée.",
           "II.2 Distinguer appartenance à soi et transparence à soi"
         ],
         [
@@ -242,15 +242,15 @@
           "III.2 Ce qu’il explique"
         ],
         [
-          "Ignorer pourquoi l'on a désiré agir n'est pas nécessairement ignorer ce que l'on faisait ou perdre le pouvoir de s'en abstenir. Ces distinctions permettent de discuter la responsabilité sans exiger une transparence totale de la volonté.",
+          "Pour juger un acte, distinguons donc ce qui l'a causé de ce que son auteur savait faire et pouvait éviter. Une envie ignorée peut pousser un homme à frapper ; s'il connaissait son geste et pouvait se retenir, son ignorance du mobile n'efface pas sa responsabilité.",
           "III.2 Distinguer mobile inconscient et absence de discernement"
         ],
         [
-          "Mais celui qui connaît matériellement son geste peut en être incapable au moment décisif : savoir ce qu'on fait et pouvoir s'en abstenir sont deux conditions différentes. La responsabilité demande de vérifier leur réunion, sans traiter toute influence inconsciente comme une contrainte irrésistible ni toute action volontaire comme libre.",
+          "Mais cette capacité n'est pas toujours entière. Une personne peut comprendre son geste sans parvenir à le maîtriser normalement. L'idée d'inconscient nous oblige alors à examiner des degrés de contrôle, plutôt qu'à conclure soit à l'innocence générale, soit à une culpabilité automatique.",
           "III.2 Contre-épreuve de la solution choisie"
         ],
         [
-          "L’idée d’inconscient ne remet donc pas en cause la responsabilité, mais une fausse idée de ce qu’elle exige : on est coupable de ce qu’on savait faire et qu’on pouvait ne pas faire, quels qu’en soient les motifs.",
+          "L'idée d'inconscient ne détruit donc pas la responsabilité. Elle demande de juger séparément ce que l'agent savait de son acte et la liberté qu'il conservait de ne pas l'accomplir ; cette liberté peut être altérée sans disparaître entièrement.",
           "III.3 La réponse au sujet, avec son opérateur"
         ],
         [
@@ -267,7 +267,7 @@
       "CONCLUSION",
       [
         [
-          "L’idée d’inconscient ne ruine pas la responsabilité : elle ruine l’idée que nous serions coupables par ce que nous savons de nos motifs, alors que nous le sommes par ce que nous savions faire.",
+          "L'idée d'inconscient ne ruine pas toute responsabilité. Elle oblige à distinguer les causes ignorées d'un acte, la connaissance des circonstances et le pouvoir réel de se retenir : c'est selon ces conditions, parfois inégalement réunies, que la culpabilité peut être jugée.",
           "Conclusion · la réponse, avec l’opérateur"
         ],
         [
