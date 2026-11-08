@@ -49,7 +49,7 @@
       "III1": "La condition qui manque est que l’autre refasse lui-même le raisonnement : on ne convainc qu’un esprit qui examine, et la conviction est son acte.",
       "III2": "Cette condition conserve XA (seules les raisons convainquent) et XB (il faut que l’autre écoute) ; explique LA (la validité supposait un examen qu’elle ne produit pas) et LB (l’art de parler peut préparer l’examen, non le remplacer). Elle se vérifie sur une démonstration refaite (Ménon).",
       "III3": "Il ne suffit pas d’avoir raison pour convaincre : il faut encore que l’autre puisse et veuille refaire le raisonnement, ce que le dialogue et la preuve partageable rendent possible ; vérifié sur Semmelweis. Reste : l’urgence qui ne laisse pas le temps de l’examen.",
-      "tests": "Cas témoin : Semmelweis avait raison ; il n’a jamais mis ses collègues en état de refaire sa preuve, et il les insultait au lieu de les y inviter ; la III dit ce qui manquait. Second cas : Pasteur, à Pouilly-le-Fort, invitant le public à constater lui-même l’effet du vaccin. Restitution : oui. Rechute : le reste (l’urgence) ne redit ni LA ni LB. Test propre : la condition est présentée comme nécessaire, non suffisante. Report : non. Acquis nouveau : prémisse nouvelle — la conviction est l’acte d’un examen refait ; nécessaire à la décision. Contrôle renforcé : Comparer « force de la preuve », « efficacité oratoire » et « appropriation critique par le destinataire » ; seule la dernière explique un accord rationnel sans garantir son apparition."
+      "tests": "Cas témoin : Semmelweis avait raison ; il n’a jamais mis ses collègues en état de refaire sa preuve, et il les insultait au lieu de les y inviter ; la III dit ce qui manquait. Second cas : Pasteur, à Pouilly-le-Fort, invitant le public à constater lui-même l’effet du vaccin. Restitution : oui. Rechute : le reste (l’urgence) ne redit ni LA ni LB. Test propre : la condition est présentée comme nécessaire, non suffisante. Report : non. Acquis nouveau : prémisse nouvelle — la conviction est l’acte d’un examen refait ; nécessaire à la décision. Contrôle renforcé : Comparer « force de la preuve », « efficacité oratoire » et « appropriation critique par le destinataire » ; seule la dernière explique un accord rationnel sans garantir son apparition. Révision éditoriale : gestes K11, F4, S5, N14. Chemins en concurrence : Validité seule (adhésion non garantie) / éloquence seule (adhésion fausse possible) / examen autonome par le destinataire (retenu, sans promesse de persuasion certaine)."
     },
     "candidats_III": [
       {
@@ -85,7 +85,7 @@
     "scene": "Ignace Semmelweis, Vienne, 1847 : l’obligation de se laver les mains au chlorure de chaux fait chuter la mortalité par fièvre puerpérale ; ses collègues ne sont pas convaincus ; il publie tard (1861), invective ses contradicteurs, et meurt en 1865. Verdict : homologue. Retour : ce qui a manqué n’est ni la vérité ni l’éloquence, mais l’examen des autres.",
     "statut": {
       "problematique": "suffisamment justifiée",
-      "copie": "révision ciblée de l'épreuve de III — audit indépendant à poursuivre"
+      "copie": "renforcement argumentatif I-II-III, relecture contradictoire encore requise"
     },
     "ouvertures_de_pensee": {
       "I": "Une raison valable doit pouvoir être examinée indépendamment de celui qui la formule : convaincre par les raisons n'est donc pas simplement obtenir l'adhésion, mais rendre possible un jugement que d'autres peuvent refaire.",
@@ -166,7 +166,7 @@
           "I.2 La fonder par une définition ; citation qui en donne le critère exact"
         ],
         [
-          "Une raison valable doit pouvoir être examinée indépendamment de celui qui la formule : convaincre par les raisons n'est donc pas simplement obtenir l'adhésion, mais rendre possible un jugement que d'autres peuvent refaire.",
+          "Une preuve ne dépend pas du talent de celui qui la présente : chacun peut en vérifier les étapes. Mais il faut distinguer la possibilité de refaire une preuve et le fait qu'un auditeur la refasse. Avoir raison donne des raisons, non encore l'attention qui les accueille.",
           "I.2 Distinguer validité et adhésion obtenue"
         ],
         [
@@ -207,7 +207,7 @@
           "II.2 La fonder : la confiance, condition de l’écoute"
         ],
         [
-          "La réaction des interlocuteurs de Semmelweis rappelle qu'une preuve ne se fait pas examiner par sa seule validité : il faut encore que l'autre accepte de l'écouter et d'en suivre le raisonnement.",
+          "Pour qu'une preuve soit examinée, il faut d'abord qu'on lui accorde une attention réelle. L'orateur peut rendre cette attention possible par la confiance et la clarté ; pourtant les mêmes moyens peuvent aider à faire accepter une erreur. Ils préparent l'écoute, ils ne fondent pas la vérité.",
           "II.2 Montrer la nécessité de l'examen par autrui"
         ],
         [
@@ -248,11 +248,11 @@
           "III.2 La démontrer sur un cas où elle se réalise"
         ],
         [
-          "Dans le dialogue, un interlocuteur ne reçoit pas seulement une conclusion : il peut refaire les raisons de l'établir. Cette participation rend l'accord rationnel possible, sans assurer qu'il se produira.",
+          "Convaincre suppose que l'auditeur puisse dire non seulement « je vous crois », mais « je vois pourquoi cette conclusion suit ». Celui qui refait l'argument garde alors le pouvoir d'en contester une étape. C'est précisément cette liberté critique qui distingue la conviction de la simple adhésion.",
           "III.2 Fonder la conviction sur un raisonnement partagé"
         ],
         [
-          "Encore faut-il distinguer conduire quelqu'un à refaire une preuve et lui imposer la conclusion avant qu'il ait compris. Dans le premier cas, un désaccord peut subsister sans que la preuve perde sa valeur ; dans le second, l'adhésion obtenue ne prouve toujours pas la conviction.",
+          "Si l'auditeur demeure en désaccord, cela ne prouve ni que l'argument soit faux ni qu'il ait été compris. Le locuteur doit distinguer l'erreur dans la preuve, le refus de l'examiner et une objection encore sans réponse. Avoir raison reste une condition de la conviction rationnelle, jamais une garantie qu'elle se produira.",
           "III.2 Éprouver l'objection décisive et consolider la preuve"
         ],
         [
