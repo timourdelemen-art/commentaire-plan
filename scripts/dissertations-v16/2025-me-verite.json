@@ -48,7 +48,7 @@
       "operation": "sens de la dépendance (III.7 a) : la vérité n’est pas la cause de la conviction mais sa norme, ce qui rend toute conviction corrigible.",
       "III1": "La vérité ne cause pas la conviction ; elle est ce par quoi une conviction peut être corrigée : la mesure à laquelle les preuves se rapportent, et qui fait d’elles des preuves.",
       "III2": "Conserve XA (la vérité comprise ne laisse pas de doute) et XB (la conviction passe par des preuves) ; explique LA (la vérité ne convainc qu’à travers une preuve possédée) et LB (une preuve vaut mieux qu’un sophisme parce qu’elle s’expose à ce qui pourrait la corriger).",
-      "III3": "La vérité n’est pas toujours convaincante, mais elle seule rend une conviction corrigible, et c’est par là qu’elle finit par convaincre quand ses traces demeurent ; vérifié sur Wegener. Reste : les vérités dont toutes les traces ont disparu.",
+      "III3": "La vérité n'est pas toujours convaincante ; elle reste la norme d'une conviction corrigible, sans garantir une adhésion future à toute vérité.",
       "tests": "Cas témoin : les ponts continentaux convainquaient et ne s’exposaient à rien qui pût les ruiner ; la dérive, vraie, fut confirmée quand les stries magnétiques du fond des océans permirent de l’éprouver ; ni A, ni B, ni le partage ne le disaient. Second cas : une démonstration mathématique, qui convainc parce qu’on peut chercher en vain l’erreur. Restitution : oui. Rechute : le reste (les traces disparues) ne redit ni LA ni LB. Test propre : l’inversion explique ce que l’ordre initial n’expliquait pas (l’autorité des preuves). Report : non. Acquis nouveau : prémisse nouvelle — la vérité agit comme norme de correction, non comme cause d’adhésion ; nécessaire à la décision. Contrôle renforcé : Comparer « vérité provoquant l'adhésion », « preuve actuellement convaincante » et « conviction tenue responsable de ses tests » ; l'épreuve ne garantit pas la vérité. Révision éditoriale : gestes F16, S5, E13, K4. Chemins en concurrence : Vérité = évidence (ignorance de la preuve) / conviction = succès psychologique (erreur persuasive) / preuve contrôlable et corrigible (retenu, mais ne garantit pas convergence)."
     },
     "candidats_III": [
@@ -273,7 +273,7 @@
       "CONCLUSION",
       [
         [
-          "La vérité n’est pas toujours convaincante, car elle ne convainc qu’à travers des preuves ; mais elle n’est pas sans force, car elle est ce qui rend toute conviction corrigible.",
+          "La vérité ne convainc pas toujours, car elle n'agit pas sur un esprit comme une force irrésistible. Elle reste la norme à laquelle une conviction qui veut être rationnelle doit accepter de se mesurer et, au besoin, de se corriger.",
           "Conclusion · la réponse, avec l’opérateur"
         ],
         [
