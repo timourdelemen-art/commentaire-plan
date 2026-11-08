@@ -49,7 +49,7 @@
       "III1": "Un être a des besoins propres quand il y a, pour lui, une différence entre se maintenir et périr : le vivant, non la nature comme ensemble.",
       "III2": "Conserve XA (l’ensemble n’a besoin de rien) et XB (des vivants ne se maintiennent plus sans nous) ; explique LA (FA raisonnait sur un ensemble sans besoins) et LB (FB mesurait des formes, non des vivants). Un vivant dont nous sommes devenus une condition a besoin de nous comme d’une cause qui doit cesser de nuire ou réparer.",
       "III3": "La nature n’a pas besoin de nous ; certains vivants en ont besoin, dans la mesure où nous sommes devenus une condition de leur vie ; vérifié sur les chevaux. Reste : ce que nous devons à ce qui ne vit pas.",
-      "tests": "Cas témoin : la III dit en quel sens les chevaux avaient besoin de nous, puis de notre absence. Second cas : les abeilles exposées aux pesticides, qui ont besoin que nous cessions. Restitution : oui. Rechute : le reste (le non-vivant) ne redit ni LA ni LB. Test propre : critère défini indépendamment des deux thèses. Report : la question ne se repose pas pour le vivant. Acquis nouveau : prémisse nouvelle — avoir un besoin suppose un bien propre ; nécessaire à la décision."
+      "tests": "Cas témoin : la III dit en quel sens les chevaux avaient besoin de nous, puis de notre absence. Second cas : les abeilles exposées aux pesticides, qui ont besoin que nous cessions. Restitution : oui. Rechute : le reste (le non-vivant) ne redit ni LA ni LB. Test propre : critère défini indépendamment des deux thèses. Report : la question ne se repose pas pour le vivant. Acquis nouveau : prémisse nouvelle — avoir un besoin suppose un bien propre ; nécessaire à la décision. Contrôle renforcé : Comparer « la nature comme totalité », « vivants dépendants des soins humains » et « rétablissement des conditions d'autonomie » ; tester si l'assistance durable est elle-même un besoin."
     },
     "candidats_III": [
       {
@@ -85,7 +85,7 @@
     "scene": "Zone d’exclusion de Tchernobyl (depuis 1986) ; chevaux de Przewalski, éteints à l’état sauvage, sauvés en élevage et lâchés dans la zone en 1998. Verdict : homologue. Retour : les deux sens du besoin.",
     "statut": {
       "problematique": "suffisamment justifiée",
-      "copie": "état de travail (architecture expérimentale)"
+      "copie": "révision ciblée de l'épreuve de III — audit indépendant à poursuivre"
     },
     "ouvertures_de_pensee": {
       "I": "Le chêne ne reçoit pas de nous le principe de sa croissance comme un meuble reçoit d'un artisan son assemblage : la nature n'est donc pas, en général, une production qui attend son fabricant.",
@@ -244,6 +244,10 @@
         [
           "Le besoin peut être attribué à des vivants déterminés dont notre action conditionne la survie, non à la nature prise comme un être unique. Il devient possible de fonder certains devoirs de réparation sans supposer que le monde entier réclame nos soins.",
           "III.2 Attribuer des besoins à des vivants déterminés"
+        ],
+        [
+          "Toutefois, qu'un vivant ait besoin de certaines conditions ne signifie pas qu'il ait besoin de nous en particulier : si le milieu retrouve une autonomie, notre intervention peut devenir nuisible. Aider un vivant peut donc imposer de rétablir les conditions qui lui permettront ensuite de se passer de nos soins.",
+          "III.2 Contre-épreuve de la solution choisie"
         ],
         [
           "La nature n’a donc pas besoin de nous, mais certains vivants en ont besoin, dans la mesure exacte où nous sommes devenus une condition de leur vie.",
