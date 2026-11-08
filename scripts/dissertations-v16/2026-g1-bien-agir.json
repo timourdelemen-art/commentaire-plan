@@ -42,22 +42,22 @@
     "probleme_directeur": "Peut-on être certain d’avoir bien agi, si ni la conscience ni l’examen rétrospectif ne mesurent l’acte à la situation de l’agent ?",
     "problematique": "Si la conscience de nos intentions ne révèle pas toujours nos mobiles et si l'enquête sur les conséquences juge après coup, peut-on être certain d'avoir bien agi, ou faut-il distinguer un jugement moral solidement justifié d'une certitude qui exclurait tout doute ?",
     "forme_problematique": "G3 (deux protases d’acquis, interrogation gardant l’opérateur). Reconstruction : on part de l’intention, on bute sur les mobiles, on passe aux faits, on bute sur le savoir rétrospectif ; la III doit trouver la mesure intermédiaire. Relecture : « peut-on être certain » conservé, aucun quantificateur ajouté.",
-    "critere": "Construire un jugement imputable à la situation réelle sans confondre justification révisable et certitude absolue.",
+    "critere": "Évaluer une action par une double épreuve : possibilités réellement accessibles au moment de décider et règle justifiable devant les personnes concernées ; refuser de confondre cette justification, même forte, avec l'infaillibilité.",
     "contrainte_scene": "montrer un agent sûr de son intention, un résultat heureux, et un examen rétrospectif qui met pourtant l’acte en doute.",
     "III": {
-      "operation": "Médiation par la situation accessible à l’agent ; distinction de la justification intersubjective et de la certitude absolue.",
-      "III1": "Reconstituer les informations disponibles à l'agent et les alternatives réellement accessibles, sans réduire le bien moral à la seule réussite technique.",
-      "III2": "La reconstitution corrige le privilège trompeur de l'intention et le jugement rétrospectif du résultat, mais ne supprime ni les divergences sur les principes moraux ni l'incertitude de l'enquête.",
-      "III3": "Nous pouvons être fortement justifiés à juger avoir bien agi dans une situation donnée ; la certitude absolue demeure exceptionnelle ou impossible à établir par cette seule procédure. Reste la révision des principes de jugement.",
-      "tests": "Cas Hudson : reconstitution d'une décision professionnelle sous contrainte, non preuve suffisante de sa valeur morale générale. Ne pas inférer une certitude absolue d'une enquête révisable ; comparer une décision juste mais malheureuse et une réussite due au hasard."
+      "operation": "Composition éprouvée après mise en concurrence : (1) reconstruire les possibilités accessibles à l'agent ; (2) contrôler par inversion des rôles et objection d'autrui la règle au nom de laquelle il décide. Distinguer justification forte de certitude absolue.",
+      "III1": "Déplacer le jugement du résultat rétrospectif vers les possibilités accessibles à l'agent. Cas Hudson : réintégrer le temps de compréhension de la panne.",
+      "III2": "Objection décisive à la première opération : une action nuisible peut être techniquement adaptée. Ajouter l'épreuve de justification de la règle : pourrais-je la défendre devant la personne concernée et si les rôles étaient inversés ? Conserve la vérification publique des faits et l'examen des raisons, sans prétendre connaître totalement les mobiles.",
+      "III3": "Le jugement moral peut être très solidement justifié par la double épreuve des possibilités réelles et d'une règle publiquement défendable ; l'agent ne peut cependant déduire de cette justification une certitude absolue, car mobiles et principes demeurent contestables.",
+      "tests": "Contre-exemple : un agent peut calculer habilement un moyen injuste ; la reconstitution des circonstances seule ne suffit donc pas. Épreuve : justifier la règle devant celui qu'elle affecte ; vérifier si elle tient à l'inversion des places. Hudson : décision raisonnable sous contrainte ET fin de sauvegarde justifiable, sans prétention à juger toute la moralité."
     },
     "candidats_III": [
       {
         "id": "retenue",
         "operation": "Médiation par la situation accessible à l’agent ; distinction de la justification intersubjective et de la certitude absolue.",
         "proposition": "Reconstituer les informations disponibles à l'agent et les alternatives réellement accessibles, sans réduire le bien moral à la seule réussite technique.",
-        "verdict": "retenue",
-        "raison": "Conserve la décision et les faits, explique les deux arrêts, tranche le cas témoin."
+        "verdict": "retenue mais insuffisante seule",
+        "raison": "La reconstitution des possibilités corrige le biais rétrospectif, mais une décision adaptée peut servir une fin injuste ; doit être complétée par l'épreuve de la règle."
       },
       {
         "id": "ordre",
@@ -79,18 +79,25 @@
         "proposition": "La certitude n’est possible que pour des raisons exposées à autrui avant d’agir.",
         "verdict": "dominée",
         "raison": "Elle juge encore des raisons, non l’acte, et laisse l’établissement des faits sans emploi."
+      },
+      {
+        "id": "epreuve-principes",
+        "operation": "Épreuve de la règle par réciprocité et objection d'autrui",
+        "proposition": "Ajouter à la reconstitution des moyens un examen de la fin et des raisons qu'on peut défendre.",
+        "verdict": "retenue en composition après objection",
+        "raison": "L'ancienne médiation jugeait la prudence de la décision mais non sa valeur morale ; une action peut être efficace et injuste. Cette épreuve comble ce manque sans réciter une doctrine."
       }
     ],
     "generateur": "figure : les niveaux ; registre opératoire : par cas et variation ; registre de lecture : par cas ; branches B1 ; annonce N1.",
     "scene": "Sullenberger et l’Hudson (15 janvier 2009) ; enquête du NTSB, simulations avec et sans délai de réaction de 35 secondes (rapport AAR-10/03, 2010). Verdict : homologue. Retour : la III fait de la reconstitution des trente-cinq secondes la mesure même de l’acte.",
     "statut": {
       "problematique": "suffisamment justifiée",
-      "copie": "état de travail (architecture expérimentale)"
+      "copie": "révision philosophique ciblée — contrôle indépendant encore à effectuer"
     },
     "ouvertures_de_pensee": {
       "I": "Juger la règle que l'on s'est donnée permet de distinguer la valeur d'une intention du hasard de son résultat : cette distinction rend concevable qu'un sauvetage manqué ait été justement entrepris.",
       "II": "Les données de l'enquête permettent de corriger la bonne conscience de l'agent par un examen partageable. Elles autorisent un jugement mieux fondé, non une certitude qui écarterait d'avance toute objection.",
-      "III": "Comparer les raisons accessibles à l'agent avec les possibilités réelles de sa situation permet de juger sa décision sans la réduire au succès. Un tel jugement reste toutefois révisable, et sa solidité ne suffit pas à le rendre absolument certain.",
+      "III": "La reconstruction de la situation rend possible un jugement qui ne confond pas décision et résultat ; l'épreuve contradictoire de la règle évite de confondre adaptation et moralité. Ces deux contrôles donnent des raisons fortes, sans assurer l'accès complet aux mobiles ni l'accord définitif sur les principes.",
       "statut": "Possibilités justifiées, avec leur portée exacte."
     }
   },
@@ -235,39 +242,39 @@
       "III. JUGER L’ACTE DANS SA SITUATION",
       [
         [
-          "Pour juger une action sans la réduire à une intention proclamée ni à son résultat, il faut reconstituer la situation telle qu'elle se présentait à celui qui devait agir : informations disponibles, temps et alternatives possibles.",
+          "Pour juger une action, je dois d'abord retrouver la situation telle qu'elle se présentait à celui qui décidait : ce qu'il savait, le temps dont il disposait et les choix réellement ouverts devant lui.",
           "III.1 Effectuer le déplacement nécessaire"
         ],
         [
-          "La reconstitution n'est ni la seule conscience de l'agent ni le seul résultat constaté : elle permet d'examiner si sa décision était justifiable au regard des possibilités dont il disposait réellement.",
+          "Ce retour à la situation corrige deux illusions : croire l'agent sur parole parce qu'il dit avoir bien voulu faire, et le condamner parce que nous connaissons, après coup, un résultat qu'il ne pouvait prévoir.",
           "III.1 Ce terme ne répète aucune des deux réponses"
         ],
         [
-          "Dans l'enquête sur l'amerrissage de l'Hudson, rendre aux pilotes le temps consacré au diagnostic a modifié l'appréciation des autres trajectoires possibles. Il s'agit toutefois d'une évaluation de conduite professionnelle, non d'une mesure suffisante de toute valeur morale.",
+          "Dans l'enquête sur l'amerrissage de l'Hudson, ajouter le temps nécessaire pour comprendre la panne a changé l'évaluation des trajectoires possibles. Une décision raisonnable se juge à partir des possibilités de celui qui la prend, et non de l'avance que possède le spectateur.",
           "III.1 Sur la scène"
         ],
         [
-          "Cette méthode retient l'importance des raisons de l'agent comme celle des faits vérifiés par autrui : ni l'intention seule ni le résultat seul ne suffisent à juger.",
+          "Mais une décision adaptée aux circonstances n'est pas encore, pour cette seule raison, une bonne action : on peut calculer avec habileté la manière de nuire. Il faut donc éprouver aussi la règle au nom de laquelle on a décidé.",
           "III.2 La démontrer : ce qu’elle conserve"
         ],
         [
-          "Elle explique la limite des deux premières réponses : la conscience peut se tromper sur ses propres mobiles, tandis que l'enquête rétrospective peut prêter à l'agent un savoir qu'il ne possédait pas.",
+          "Pour cela, je peux demander si je défendrais cette règle devant celui qui en subit les effets, et si je l'accepterais encore si les rôles étaient inversés. Je ne prends plus mon intention pour une preuve ; je soumets les raisons que j'invoque à une objection qui pourrait venir d'autrui.",
           "III.2 Ce qu’elle explique des deux arrêts"
         ],
         [
-          "Comparer les raisons accessibles à l'agent avec les possibilités réelles de sa situation permet de juger sa décision sans la réduire au succès. Un tel jugement reste toutefois révisable, et sa solidité ne suffit pas à le rendre absolument certain.",
+          "Un jugement moral solide exige ainsi deux examens liés : vérifier honnêtement ce qu'il était possible de faire alors, puis justifier la règle qui a orienté le choix. Le premier empêche de juger avec un savoir venu trop tard ; le second empêche de prendre l'efficacité pour le bien.",
           "III.2 Évaluer la décision selon les raisons disponibles"
         ],
         [
-          "On peut parfois se juger avec une très grande assurance, lorsque les raisons accessibles et les principes invoqués résistent à la critique ; on ne tire pourtant pas une certitude absolue de la seule reconstitution des circonstances.",
+          "Je peux alors avoir de fortes raisons de penser que j'ai bien agi. Mais une règle défendable peut encore être contestée, et mes mobiles ne me sont pas toujours transparents : la force de ma justification ne devient pas, par magie, une certitude sans reste.",
           "III.3 La réponse au sujet, avec son opérateur"
         ],
         [
-          "Sur l'Hudson, nous pouvons soutenir que la décision de Sullenberger était raisonnable au regard des options disponibles, sans prétendre que cette enquête épuise la question morale du bien agir.",
+          "Sur l'Hudson, on peut défendre le choix du pilote comme raisonnable compte tenu de l'urgence ; encore faut-il remarquer que sauver les passagers était une fin que l'on pouvait également justifier. Dans d'autres situations, l'examen des moyens et celui de la fin peuvent se séparer.",
           "III.3 La réponse vérifiée sur le cas"
         ],
         [
-          "Reste à savoir ce que vaut un tel jugement quand les principes mêmes auxquels on mesure nos actes sont contestés, ou lorsque les traces de l'action manquent.",
+          "Il reste donc possible de juger sérieusement une action sans posséder la preuve définitive de sa bonté ; le devoir de répondre de ses raisons demeure précisément parce que ce jugement peut être repris.",
           "III.3 Le reste : ce qui demande encore à être pensé"
         ]
       ]
@@ -276,7 +283,7 @@
       "CONCLUSION",
       [
         [
-          "La conscience de notre intention et l'examen public des résultats ne donnent pas, chacun isolément, la certitude d'avoir bien agi. Reconstituer la situation de l'action permet un jugement plus justifié, mais pas automatiquement une certitude qui exclurait tout doute.",
+          "La conscience de nos intentions et l'enquête sur les conséquences permettent chacune un progrès, mais ni l'une ni l'autre ne suffit. Pour juger avoir bien agi, il faut apprécier les choix réellement accessibles et pouvoir défendre la règle qui les a guidés ; cette double justification peut être forte sans écarter tout doute.",
           "Conclusion · la réponse, avec l’opérateur"
         ],
         [
@@ -284,7 +291,7 @@
           "Conclusion · retour à la scène"
         ],
         [
-          "Comment tenir un jugement moral pour pleinement certain lorsque les faits accessibles et les principes selon lesquels nous jugeons peuvent encore être contestés ?",
+          "Reste à savoir comment départager deux règles morales également défendables lorsque leurs conséquences pour autrui entrent en conflit.",
           "Conclusion · le reste en question"
         ]
       ]
