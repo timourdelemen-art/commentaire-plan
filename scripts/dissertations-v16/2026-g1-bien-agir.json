@@ -17,7 +17,7 @@
       "e": "L’une juge en deçà de l’acte, l’autre au-delà ; il reste à trouver la mesure de l’acte dans la situation même de l’agent."
     },
     "A": "On peut être certain d’avoir bien agi, puisque la valeur de l’acte tient à la volonté qui le décide et que cette volonté est connue de l’agent.",
-    "FA": "Définition (III.3). 1. Juger moralement un acte, c’est juger la règle que l’agent s’est donnée, non son succès (E : contre-exemples du sauvetage manqué et de l’aide intéressée). 2. Cette règle est formée en délibérant par l’agent lui-même (E). 3. Ce qu’on forme en délibérant, on peut le redire et l’examiner (E). Donc la certitude porte sur un objet accessible.",
+    "FA": "Épreuve de la règle à partir du cas sauvetage manqué / aide intéressée. Opération apparentée à Kant : rendre la raison du choix discutable ; aucun résultat ne garantit la bonne règle. Acquisition : je peux connaître la règle que je me représente et la justifier, non le mobile réel qui m'a déterminé.",
     "XA": "Je peux savoir avec certitude ce que j’ai décidé et pour quelle raison déclarée, et que l’issue n’en fait pas la valeur.",
     "YA": "Que cette intention consciente est bien ce qui a déterminé l’acte.",
     "ZA": "FA procède par la conscience de la règle ; or se représenter une règle n’est pas connaître la cause qui fait agir.",
@@ -26,7 +26,7 @@
     "six_LA": "Mesure : XA écrit. Filiation : la prémisse 3 (examen de ce qu’on forme) ne porte que sur le contenu de la règle, d’où la limite ; sans FA elle ne s’écrit plus. Meilleur cas : même l’acte contraire à l’intérêt peut être porté par le désir d’être admiré. Absorption : FA répondrait « j’agirais de même sans témoin » ; c’est encore un rapport de conscience. Non-lacune : FA parfaitement démontré n’atteint toujours que le contenu. Calibration : « ne permet pas encore », non « interdit ».",
     "T1": "Nous avons établi que je connais ma décision ; mais cela ne permet pas encore de connaître ce qui m’a fait agir, parce que FA ne tient que de la conscience de la règle ; il faut donc examiner ce qui, hors de la conscience, atteste qu’un acte était bon (W). W déterminé par ZA : la condition manquante ne peut venir que d’une source non introspective.",
     "B": "On peut être certain d’avoir bien agi par l’examen de l’acte, que d’autres peuvent constater ; B conserve XA (la décision reste l’objet jugé).",
-    "FB": "Fait et témoins (III.3). 1. Ce qui s’est passé ne dépend plus de ce que l’agent en pense (E). 2. Des faits établis et rapprochés par des tiers qui ne sont pas juges de leur propre cause échappent à l’amour-propre (E). 3. Donc l’examen public de l’acte donne une certitude que l’introspection ne donne pas. Indépendance : vaut sans la limite de A (procédure d’enquête). Principe propre : l’impartialité de l’examen.",
+    "FB": "Contradiction publique par témoignages, traces et simulations. Acquisition : les faits et les options physiquement possibles deviennent contrôlables ; limite : l'enquête rétrospective dispose d'un savoir que l'agent n'avait pas.",
     "XB": "On peut établir avec certitude ce que l’acte a produit et ce qui était possible dans la situation.",
     "YB": "Que l’agent a bien agi dans la situation telle qu’elle lui était accessible.",
     "ZB": "FB mesure l’acte à la situation reconstituée après coup, avec un savoir que l’agent n’avait pas.",
@@ -45,11 +45,11 @@
     "critere": "Évaluer une action par une double épreuve : possibilités réellement accessibles au moment de décider et règle justifiable devant les personnes concernées ; refuser de confondre cette justification, même forte, avec l'infaillibilité.",
     "contrainte_scene": "montrer un agent sûr de son intention, un résultat heureux, et un examen rétrospectif qui met pourtant l’acte en doute.",
     "III": {
-      "operation": "Composition éprouvée après mise en concurrence : (1) reconstruire les possibilités accessibles à l'agent ; (2) contrôler par inversion des rôles et objection d'autrui la règle au nom de laquelle il décide. Distinguer justification forte de certitude absolue.",
-      "III1": "Déplacer le jugement du résultat rétrospectif vers les possibilités accessibles à l'agent. Cas Hudson : réintégrer le temps de compréhension de la panne.",
-      "III2": "Objection décisive à la première opération : une action nuisible peut être techniquement adaptée. Ajouter l'épreuve de justification de la règle : pourrais-je la défendre devant la personne concernée et si les rôles étaient inversés ? Conserve la vérification publique des faits et l'examen des raisons, sans prétendre connaître totalement les mobiles.",
-      "III3": "Le jugement moral peut être très solidement justifié par la double épreuve des possibilités réelles et d'une règle publiquement défendable ; l'agent ne peut cependant déduire de cette justification une certitude absolue, car mobiles et principes demeurent contestables.",
-      "tests": "Contre-exemple : un agent peut calculer habilement un moyen injuste ; la reconstitution des circonstances seule ne suffit donc pas. Épreuve : justifier la règle devant celui qu'elle affecte ; vérifier si elle tient à l'inversion des places. Hudson : décision raisonnable sous contrainte ET fin de sauvegarde justifiable, sans prétention à juger toute la moralité."
+      "operation": "Composition de deux opérations irréductibles : restitution du discernement situé (Aristote) et épreuve contradictoire de la règle invoquée (question kantienne réappropriée), sous contrôle de l'opacité des mobiles (Nietzsche). Lien établi par le cas d'une décision habile mais injuste.",
+      "III1": "Reconstitution des informations et possibilités effectivement accessibles : le délai de diagnostic de l'Hudson distingue l'option rétrospective de l'option délibérable.",
+      "III2": "Le voleur habile montre que l'adaptation ne démontre pas la bonté. Soumettre la règle au jugement d'autrui permet d'éprouver sa valeur sans se fier au récit de l'agent.",
+      "III3": "Justification morale forte possible par vérification croisée du choix accessible et de la raison défendable ; certitude absolue non déduite ; reste : conflits de règles et ignorance des mobiles.",
+      "tests": "Trois opérations comparées : réconstruction seule (insuffisante : voleur habile), réciprocité seule (insuffisante : motivations opaques et circonstances ignorées), composition croisée (retenue : garde les acquis I et II). Test Nietzsche : image de soi déforme la mémoire ; test Hudson : biais de rétrospection ; test du voleur : prudence ≠ bien moral."
     },
     "candidats_III": [
       {
@@ -92,7 +92,7 @@
     "scene": "Sullenberger et l’Hudson (15 janvier 2009) ; enquête du NTSB, simulations avec et sans délai de réaction de 35 secondes (rapport AAR-10/03, 2010). Verdict : homologue. Retour : la III fait de la reconstitution des trente-cinq secondes la mesure même de l’acte.",
     "statut": {
       "problematique": "suffisamment justifiée",
-      "copie": "révision philosophique ciblée — contrôle indépendant encore à effectuer"
+      "copie": "réécriture approfondie I/II/III sur branche de révision ; audit de fond à poursuivre"
     },
     "ouvertures_de_pensee": {
       "I": "Juger la règle que l'on s'est donnée permet de distinguer la valeur d'une intention du hasard de son résultat : cette distinction rend concevable qu'un sauvetage manqué ait été justement entrepris.",
@@ -164,27 +164,27 @@
           "I.1 Ce qu’elle sauve : le mérite de l’agent, indépendant du hasard"
         ],
         [
-          "Juger moralement un acte, en effet, c’est juger la règle que l’agent s’est donnée, non son succès : un sauvetage manqué par malchance n’est pas une faute, une aide réussie par calcul n’est pas une bonne action.",
+          "Juger une action, ce n'est pas seulement enregistrer sa réussite. Celui qui tente de sauver un inconnu et échoue par malchance peut avoir mieux agi que celui qui aide dans l'espoir d'être admiré : un même résultat peut recevoir des valeurs morales contraires selon la raison du choix.",
           "I.2 La fonder par une définition : ce qui est jugé dans un acte"
         ],
         [
-          "Or cette règle, je l’ai formée moi-même en délibérant ; je peux donc la redire, l’examiner, me demander si tout autre devrait la suivre à ma place.",
+          "Je peux examiner la règle qui a guidé ma décision : ai-je voulu aider autrui pour lui-même ou m'en servir ? L'épreuve d'une règle, que Kant aide à formuler, donne ainsi un contenu à mon jugement : il ne suffit pas que mon action me plaise.",
           "I.2 L’inférence décisive : la règle est accessible à celui qui l’a formée"
         ],
         [
-          "Juger la règle que l'on s'est donnée permet de distinguer la valeur d'une intention du hasard de son résultat : cette distinction rend concevable qu'un sauvetage manqué ait été justement entrepris.",
+          "Le succès dépend du hasard autant que de ma volonté ; la raison que j'ai reconnue en décidant semble, elle, accessible à ma conscience. Je peux l'énoncer, la discuter, voir si elle était justifiable.",
           "I.2 Distinguer la valeur de l'intention et la chance"
         ],
         [
-          "Cette raison établit une chose réelle : je peux savoir avec certitude ce que j’ai décidé et pour quelle raison, et que l’issue n’en fait pas la valeur.",
+          "Ce fondement établit réellement que je peux connaître la décision que je reconnais comme mienne et examiner la règle que je dis avoir suivie ; il soustrait une part du jugement moral au hasard des conséquences.",
           "I.3 L’éprouver : ce que la raison établit vraiment"
         ],
         [
-          "Mais elle procède en interrogeant la conscience que j’ai de ma règle, et se représenter une règle n’est pas connaître ce qui fait agir : je peux penser au devoir pendant que le désir d’être admiré décide à sa place.",
+          "Mais savoir quelle règle je me représente ne prouve pas que ce soit elle qui m'ait fait agir. Je peux invoquer le devoir après avoir voulu paraître courageux. L'examen intérieur explique alors mon acte par la meilleure raison que je peux en donner, non nécessairement par le mobile qui l'a causé.",
           "I.3 Ce qu’elle ne permet pas encore, et pourquoi : la raison tirée du fondement lui-même"
         ],
         [
-          "Nietzsche fait voir ce glissement jusque dans le souvenir : quand la mémoire dit « Je l’ai fait », il ajoute : « Je ne puis l’avoir fait — dit mon orgueil, qui reste inflexible. La mémoire — finit par céder. »",
+          "Nietzsche nous invite à vérifier ce pouvoir de déformation du récit intérieur : « Je ne puis l’avoir fait — dit mon orgueil, qui reste inflexible. La mémoire — finit par céder. » Quand un souvenir menace notre bonne image, nous pouvons modifier ce dont nous croyons nous souvenir. Une intention proclamée n'est donc pas une preuve de sincérité.",
           "I.3 Citation qui fait voir le mécanisme ; la preuve tient sans elle"
         ],
         [
@@ -209,23 +209,23 @@
           "II.1 Ce qu’elle conserve de la première : la décision reste ce qu’on juge"
         ],
         [
-          "Ce qui s’est passé ne dépend plus de ce que j’en pense : les faits peuvent être établis, rapprochés, soumis à des témoins qui n’ont pas mes raisons de me flatter.",
+          "Pour sortir de la bonne conscience, je peux confronter mon récit à des faits que d'autres vérifieront : témoins, traces, conséquences. Un témoignage peut être contredit, une trajectoire recalculée ; le jugement n'appartient plus à celui qui préfère une version de son action.",
           "II.2 La fonder par les faits et les témoins : un principe propre, l’impartialité"
         ],
         [
-          "C’est le travail de l’enquête après l’Hudson : enregistrements, trajectoires, temps de réaction, tout est reconstitué et comparé à ce qui était possible.",
+          "C'est ce que permet l'enquête sur l'Hudson. Les trajectoires enregistrées et les simulations soumettent la décision du pilote à des comparaisons indépendantes de ce qu'il croit avoir bien fait.",
           "II.2 Le matériau : l’enquête"
         ],
         [
-          "Les données de l'enquête permettent de corriger la bonne conscience de l'agent par un examen partageable. Elles autorisent un jugement mieux fondé, non une certitude qui écarterait d'avance toute objection.",
+          "L'examen public conserve ainsi un gain décisif : il peut corriger les complaisances de la mémoire. Mais savoir davantage après un événement peut aussi nous faire oublier l'ignorance de celui qui agissait.",
           "II.2 Fonder un jugement public sans le rendre infaillible"
         ],
         [
-          "Cet examen établit ce que l’acte a produit et ce qui était possible dans la situation.",
+          "L'enquête établit ce que l'action a produit et les trajectoires physiquement possibles. Pour autant, la possibilité reconstituée par un enquêteur n'était pas nécessairement une possibilité reconnue par celui qui décidait.",
           "II.3 L’éprouver : ce que la seconde raison établit"
         ],
         [
-          "Mais les pilotes du simulateur connaissaient d’avance la panne ; lorsqu’on leur imposa trente-cinq secondes pour comprendre ce qui arrivait, ils n’atteignirent plus la piste.",
+          "Les pilotes du simulateur pouvaient rejoindre la piste lorsqu'ils savaient d'avance que les moteurs étaient perdus. Lorsqu'on leur rendit les trente-cinq secondes nécessaires pour comprendre la panne, la même manœuvre échoua. Ils ne choisissaient plus à partir du même savoir.",
           "II.3 Le cas qui éprouve le fondement : un autre geste qu’en I.3"
         ],
         [
@@ -242,39 +242,39 @@
       "III. JUGER L’ACTE DANS SA SITUATION",
       [
         [
-          "Pour juger une action, je dois d'abord retrouver la situation telle qu'elle se présentait à celui qui décidait : ce qu'il savait, le temps dont il disposait et les choix réellement ouverts devant lui.",
+          "Il faut donc juger une action depuis la situation de l'agent, et non depuis la seule conscience de sa bonne intention ni depuis l'avance du spectateur. Que pouvait-il savoir ? Quelles possibilités pouvait-il réellement reconnaître ? De combien de temps disposait-il pour choisir ?",
           "III.1 Effectuer le déplacement nécessaire"
         ],
         [
-          "Ce retour à la situation corrige deux illusions : croire l'agent sur parole parce qu'il dit avoir bien voulu faire, et le condamner parce que nous connaissons, après coup, un résultat qu'il ne pouvait prévoir.",
+          "Cette reconstruction reprend une opération que l'on peut travailler chez Aristote : juger un acte selon ses circonstances et le discernement de celui qui l'accomplit. Elle oblige à distinguer une option visible après coup d'une option réellement ouverte au moment du choix.",
           "III.1 Ce terme ne répète aucune des deux réponses"
         ],
         [
-          "Dans l'enquête sur l'amerrissage de l'Hudson, ajouter le temps nécessaire pour comprendre la panne a changé l'évaluation des trajectoires possibles. Une décision raisonnable se juge à partir des possibilités de celui qui la prend, et non de l'avance que possède le spectateur.",
+          "Sur l'Hudson, restituer les secondes du diagnostic change le sens des simulations. L'amerrissage ne devient pas juste parce qu'il a réussi ; il devient défendable parce que la décision répondait à l'urgence telle que le pilote pouvait la comprendre.",
           "III.1 Sur la scène"
         ],
         [
-          "Mais une décision adaptée aux circonstances n'est pas encore, pour cette seule raison, une bonne action : on peut calculer avec habileté la manière de nuire. Il faut donc éprouver aussi la règle au nom de laquelle on a décidé.",
+          "Mais une décision remarquablement adaptée peut être moralement mauvaise. Un voleur peut choisir avec intelligence le moyen le plus sûr de dépouiller sa victime. La reconstruction des circonstances juge sa prudence ; elle ne démontre pas que sa fin était juste.",
           "III.2 La démontrer : ce qu’elle conserve"
         ],
         [
-          "Pour cela, je peux demander si je défendrais cette règle devant celui qui en subit les effets, et si je l'accepterais encore si les rôles étaient inversés. Je ne prends plus mon intention pour une preuve ; je soumets les raisons que j'invoque à une objection qui pourrait venir d'autrui.",
+          "Il faut donc revenir à la règle examinée en première partie, mais sans croire l'agent sur parole. Sa raison doit pouvoir affronter l'objection de ceux qu'elle affecte : accepterais-je encore cette règle si j'en subissais moi-même les conséquences ?",
           "III.2 Ce qu’elle explique des deux arrêts"
         ],
         [
-          "Un jugement moral solide exige ainsi deux examens liés : vérifier honnêtement ce qu'il était possible de faire alors, puis justifier la règle qui a orienté le choix. Le premier empêche de juger avec un savoir venu trop tard ; le second empêche de prendre l'efficacité pour le bien.",
+          "Les deux examens ne s'additionnent pas simplement : ils se corrigent. L'enquête empêche la conscience de se faire juge unique ; l'épreuve de la règle empêche l'enquête de confondre un choix efficace avec une bonne action. Juger suppose à la fois un choix réellement accessible et une fin que l'on puisse défendre.",
           "III.2 Évaluer la décision selon les raisons disponibles"
         ],
         [
-          "Je peux alors avoir de fortes raisons de penser que j'ai bien agi. Mais une règle défendable peut encore être contestée, et mes mobiles ne me sont pas toujours transparents : la force de ma justification ne devient pas, par magie, une certitude sans reste.",
+          "Nous pouvons ainsi avoir de fortes raisons de penser avoir bien agi, sans disposer d'une garantie absolue. Même une règle défendable peut être contestée et les mobiles qui nous ont conduits à la suivre demeurer en partie obscurs. La justification résiste à des objections ; elle n'abolit pas toute possibilité de doute.",
           "III.3 La réponse au sujet, avec son opérateur"
         ],
         [
-          "Sur l'Hudson, on peut défendre le choix du pilote comme raisonnable compte tenu de l'urgence ; encore faut-il remarquer que sauver les passagers était une fin que l'on pouvait également justifier. Dans d'autres situations, l'examen des moyens et celui de la fin peuvent se séparer.",
+          "Sur l'Hudson, sauver les passagers était une fin défendable et les contraintes du vol rendent le choix du pilote raisonnable. Cela établit beaucoup plus qu'une satisfaction personnelle, sans donner à l'enquête accès à chacun de ses mobiles.",
           "III.3 La réponse vérifiée sur le cas"
         ],
         [
-          "Il reste pourtant possible de juger sérieusement une action sans posséder la preuve définitive de sa bonté ; le devoir de répondre de ses raisons demeure précisément parce que ce jugement peut être repris.",
+          "Reste une difficulté : quand deux règles paraissent également défendables dans les mêmes circonstances, aucune reconstruction des faits ne décide seule de leur valeur respective.",
           "III.3 Le reste : ce qui demande encore à être pensé"
         ]
       ]
