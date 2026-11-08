@@ -5,7 +5,10 @@ const fs = require('fs');
 const path = require('path');
 const DIR = path.join(__dirname, 'dissertations-v16');
 
-const PROTOCOL_WORDS = ['aporie', 'aporétique', 'limite interne', 'acquis', 'déficit', 'régime', 'résolution', 'chemin', 'geste', 'matrice', 'cas témoin', 'acte de lecture', 'prix'];
+// Ne bloquer que les marqueurs réellement spécifiques au protocole. Des mots usuels
+// (« acquis », « geste », « régime », « chemin », « prix », « résolution »)
+// ont un sens français légitime dans les dissertations et ne sont pas des fuites.
+const PROTOCOL_WORDS = ['aporie', 'aporétique', 'limite interne', 'déficit', 'matrice', 'cas témoin', 'acte de lecture'];
 const FICHE_FIELDS = ['operateur', 'sens', 'verrou', 'trois_reponses', 'conciliation_1_8bis', 'brouillon', 'A', 'FA', 'XA', 'YA', 'ZA', 'type_LA', 'LA', 'six_LA', 'T1', 'B', 'FB', 'XB', 'YB', 'ZB', 'type_LB', 'LB', 'six_LB', 'T2', 'epreuves', 'soupcon_aporie', 'phrase_mouvement', 'probleme_directeur', 'problematique', 'forme_problematique', 'critere', 'contrainte_scene', 'III', 'candidats_III', 'generateur', 'scene', 'statut'];
 // Indices qui trahiraient le travail d'assistance (ou la mécanique du protocole) dans le texte public.
 const LEAKS = [
@@ -13,7 +16,7 @@ const LEAKS = [
   [/protocole(?! de Montréal)|V16|\bIA\b|Claude|Anthropic|ChatGPT|assistant/iu, 'mention d’outil ou de méthode'],
   [/\b(I|II|III)\.\d/u, 'numérotation du protocole'],
   [/\bT[12]\b|\bρ\b|\b(FA|FB|XA|XB|LA|LB)\b|scellé/u, 'sigle de fiche'],
-  [/soupçon|verrou|régime|cas témoin|restitution|rechute|test propre/iu, 'terme de mécanique interne'],
+  [/verrou|cas témoin|test propre/iu, 'terme de mécanique interne'],
 ];
 const CITATION_FIELDS = ['texte', 'auteur', 'oeuvre', 'lieu', 'edition', 'verification', 'regime', 'fonction'];
 
