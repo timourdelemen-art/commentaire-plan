@@ -90,8 +90,8 @@
     "ouvertures_de_pensee": {
       "I": "L'anticipation d'une perte ôte au présent le repos qu'on recherche : détourner provisoirement son attention n'est donc pas une simple erreur, mais une manière possible de préserver le contentement.",
       "II": "Un bonheur appuyé sur ce que l'on comprend plutôt que sur ce que l'on ignore dépend moins de la surprise des événements ; cette stabilité ne signifie pourtant pas qu'aucune douleur ne puisse l'atteindre.",
-      "III": "Savoir qu'un malheur menace n'est pas encore comprendre ce qu'il est. C'est cette différence entre inquiétude imaginée et connaissance précise qui permet à la conscience de diminuer certaines craintes au lieu de les multiplier.",
-      "statut": "Possibilités justifiées, avec leur portée exacte."
+      "III": "L'inquiétude imagine mille malheurs possibles, tandis que comprendre un danger permet de reconnaître ce qui le rend réellement probable et ce que l'on peut y faire. On ne supprime pas le risque ; on ouvre une possibilité d'action ou d'apaisement que la crainte vague empêchait de voir. Portée : Apaisement et action parfois possibles par compréhension, douleur persistante admise.",
+      "statut": "Test V1.1 : possibilité construite, justification, coût et reste explicités."
     }
   },
   "citations": [
@@ -256,11 +256,11 @@
           "III.2 Ce qu’elle explique"
         ],
         [
-          "Il faut distinguer l'imagination qui multiplie les catastrophes et la connaissance qui précise ce qu'il y a réellement à craindre. La seconde n'efface pas toujours le mal, mais elle peut nous empêcher d'ajouter à la souffrance la peur de mille malheurs imaginaires.",
+          "L'inquiétude imagine mille malheurs possibles, tandis que comprendre un danger permet de reconnaître ce qui le rend réellement probable et ce que l'on peut y faire. On ne supprime pas le risque ; on ouvre une possibilité d'action ou d'apaisement que la crainte vague empêchait de voir.",
           "III.2 Distinguer anticipation inquiète et compréhension"
         ],
         [
-          "Une personne peut connaître exactement la cause de sa douleur et continuer de souffrir. Il serait donc excessif de présenter la compréhension comme la condition suffisante du bonheur. Elle rend possibles certaines formes d'apaisement, non une victoire universelle sur la peine.",
+          "Mais la connaissance n'est pas un remède universel. Celui qui comprend parfaitement sa douleur peut continuer à la subir. Elle rend certaines peurs moins puissantes et certaines décisions plus libres ; elle ne prouve pas que la conscience suffise au bonheur ni qu'il soit mauvais de chercher momentanément le repos.",
           "III.2 Objection forte et détermination de la portée"
         ],
         [
