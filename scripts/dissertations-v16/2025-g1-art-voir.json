@@ -50,7 +50,7 @@
       "III1": "Ce que l’art peut apprendre n’est pas une manière de voir, mais le pouvoir d’en changer : découvrir que voir est toujours une manière, qu’on peut quitter pour une autre.",
       "III2": "Conserve XA (l’œuvre fait voir) et XB (elle transforme le regard) ; explique LA (le passage au monde se fait quand ce qu’on apprend n’est pas un contenu de l’œuvre mais un exercice du regard) et LB (une habitude n’est apprise que si l’on prend une œuvre pour la règle, non si l’on en rencontre plusieurs).",
       "III3": "L’art peut nous apprendre à voir le monde autrement, s’il nous apprend que notre regard est une manière parmi d’autres et nous exerce à en changer ; vérifié sur les Cathédrales. Reste : ce qui empêche ce regard de redevenir habitude.",
-      "tests": "Cas témoin : trente toiles d’une même façade ne transmettent pas une vision de la cathédrale ; elles apprennent qu’une façade change avec l’heure, et celui qui les a vues regarde n’importe quel mur à six heures puis à midi ; ni A, ni B, ni « voir comme Monet » ne le disaient. Second cas : l’élève qui dessine d’après nature et découvre qu’il ne regardait pas. Restitution : oui. Rechute : le reste (le retour de l’habitude) ne redit pas LB : il porte sur le maintien de la capacité, non sur son acquisition. Test propre : la distinction vaut sur un second cas. Report : non. Acquis nouveau : prémisse nouvelle — on peut apprendre une capacité de varier, et non seulement un contenu ; nécessaire à la décision."
+      "tests": "Cas témoin : trente toiles d’une même façade ne transmettent pas une vision de la cathédrale ; elles apprennent qu’une façade change avec l’heure, et celui qui les a vues regarde n’importe quel mur à six heures puis à midi ; ni A, ni B, ni « voir comme Monet » ne le disaient. Second cas : l’élève qui dessine d’après nature et découvre qu’il ne regardait pas. Restitution : oui. Rechute : le reste (le retour de l’habitude) ne redit pas LB : il porte sur le maintien de la capacité, non sur son acquisition. Test propre : la distinction vaut sur un second cas. Report : non. Acquis nouveau : prémisse nouvelle — on peut apprendre une capacité de varier, et non seulement un contenu ; nécessaire à la décision. Contrôle renforcé : Comparer « sensation nouvelle devant une œuvre », « nouvelle habitude visuelle » et « pouvoir exercé de comparer et varier le regard » ; distinguer possibilité offerte et aptitude effectivement acquise."
     },
     "candidats_III": [
       {
@@ -86,7 +86,7 @@
     "scene": "Monet, série des Cathédrales de Rouen (1892-1894) : une trentaine de toiles de la même façade à différentes heures ; vingt sont exposées chez Durand-Ruel en 1895. Verdict : homologue. Retour : ce que trente toiles apprennent qu’une seule n’apprendrait pas.",
     "statut": {
       "problematique": "suffisamment justifiée",
-      "copie": "état de travail (architecture expérimentale)"
+      "copie": "révision ciblée de l'épreuve de III — audit indépendant à poursuivre"
     },
     "ouvertures_de_pensee": {
       "I": "La cathédrale peinte ne sert ni à entrer ni à s'abriter : elle permet de voir, dans la pierre, une couleur et une lumière que l'habitude d'en faire usage masquait.",
@@ -241,6 +241,10 @@
         [
           "L'art enseigne autre chose qu'un nouveau modèle à imiter si l'on apprend, devant des œuvres différentes, à reconnaître puis à modifier les manières mêmes de voir.",
           "III.2 Définir un apprentissage qui ne fixe aucun regard"
+        ],
+        [
+          "L'exercice du regard ne se transmet toutefois pas automatiquement de la galerie à la rue. Il faut que le spectateur compare réellement ce qu'il voit à différents moments, plutôt que retenir une couleur remarquable. L'art ouvre une possibilité d'apprentissage ; c'est l'attention exercée qui la réalise.",
+          "III.2 Éprouver l'objection décisive et consolider la preuve"
         ],
         [
           "L’art peut donc nous apprendre à voir le monde autrement, s’il nous apprend que notre regard est une manière parmi d’autres et nous exerce à en changer.",
