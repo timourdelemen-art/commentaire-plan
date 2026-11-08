@@ -50,7 +50,7 @@
       "III1": "Une parole sans savoir est légitime quand elle déclare son propre statut — je sais, je crois, je suppose, je l’ignore — et reste exposée à la correction.",
       "III2": "Conserve XA (le sens ne dépend pas du savoir) et XB (affirmer engage) ; explique LA (le sens laissait indéterminé ce qu’on engage) et LB (l’assertion n’est qu’un des statuts possibles de la parole). La faute n’est pas l’ignorance, mais la parole qui la cache.",
       "III3": "On peut parler sans savoir, à condition que la parole dise ce qu’elle sait et ce qu’elle ignore ; vérifié sur L’Aquila. Reste : l’auditeur qui n’entend que la certitude.",
-      "tests": "Cas témoin : à L’Aquila, personne ne pouvait savoir si un grand séisme viendrait ; la faute fut de rassurer comme si l’on savait qu’il ne viendrait pas ; ni A, ni B, ni le partage ne le disaient. Second cas : le médecin qui donne un pronostic en disant sa marge d’erreur. Restitution : oui. Rechute : le reste (l’auditeur) ne redit ni LA ni LB. Test propre : frontière définie indépendamment des deux thèses. Report : non. Acquis nouveau : prémisse nouvelle — toute parole a un statut, que la parole légitime déclare ; nécessaire à la décision."
+      "tests": "Cas témoin : à L’Aquila, personne ne pouvait savoir si un grand séisme viendrait ; la faute fut de rassurer comme si l’on savait qu’il ne viendrait pas ; ni A, ni B, ni le partage ne le disaient. Second cas : le médecin qui donne un pronostic en disant sa marge d’erreur. Restitution : oui. Rechute : le reste (l’auditeur) ne redit ni LA ni LB. Test propre : frontière définie indépendamment des deux thèses. Report : non. Acquis nouveau : prémisse nouvelle — toute parole a un statut, que la parole légitime déclare ; nécessaire à la décision. Contrôle renforcé : Comparer « silence jusqu'au savoir », « affirmation sans preuve » et « parole graduée selon les raisons et l'enjeu » ; tester l'autorité et les risques de réception."
     },
     "candidats_III": [
       {
@@ -86,7 +86,7 @@
     "scene": "L’Aquila (Italie), 31 mars 2009 : la commission des grands risques se réunit après des semaines de secousses ; un responsable déclare la situation favorable ; le 6 avril, un séisme tue 309 personnes ; condamnation des experts en 2012, acquittement en appel en 2014, sauf pour ce responsable. Verdict : homologue. Retour : la faute fut la parole qui cachait l’ignorance.",
     "statut": {
       "problematique": "suffisamment justifiée",
-      "copie": "état de travail (architecture expérimentale)"
+      "copie": "révision ciblée de l'épreuve de III — audit indépendant à poursuivre"
     },
     "ouvertures_de_pensee": {
       "I": "Une hypothèse peut ainsi être énoncée et comprise avant d'être vérifiée : le langage permet d'ouvrir une recherche précisément là où le savoir fait encore défaut.",
@@ -241,6 +241,10 @@
         [
           "Questionner, supposer et affirmer n'engagent pas celui qui parle de la même façon. Il devient possible de parler sans savoir à condition de ne pas faire passer une hypothèse pour un résultat établi.",
           "III.2 Délimiter ce qu'on peut dire sans prétendre savoir"
+        ],
+        [
+          "Mais annoncer une incertitude peut être insuffisant si l'on parle avec une autorité qui la masque : « ce n'est qu'une hypothèse » peut être oublié lorsqu'un expert recommande une action. Il faut donc proportionner la force de ce qu'on affirme aux preuves disponibles et laisser visibles les conséquences pratiques de l'incertitude.",
+          "III.2 Objection forte et détermination de la portée"
         ],
         [
           "On peut donc parler sans savoir, à condition que la parole dise elle-même ce qu’elle sait et ce qu’elle ignore.",
