@@ -49,7 +49,7 @@
       "III1": "Distinguer l'indispensable à la survie et les besoins durables d'expression, de sensibilité et de partage, dont l'art constitue une réponse propre mais non exclusive.",
       "III2": "L'art produit des formes sensibles à interprétations ouvertes ; la spécificité esthétique doit être décrite sans prétendre que le récit, le rite ou le langage ne peuvent jamais produire de partage semblable.",
       "III3": "L'art peut répondre à un besoin humain profond sans être nécessaire à chaque individu ni le seul moyen de satisfaire ce besoin ; le reste porte sur les conditions qui permettent l'accès à une expérience artistique non instrumentalisée.",
-      "tests": "Cas Terezín : un exemple de la force possible de la musique, pas une preuve de nécessité universelle ni de l'exclusivité de l'art. Tester contre des formes non artistiques de partage ; rejeter toute inférence du cas individuel à une essence humaine universelle."
+      "tests": "Cas Terezín : un exemple de la force possible de la musique, pas une preuve de nécessité universelle ni de l'exclusivité de l'art. Tester contre des formes non artistiques de partage ; rejeter toute inférence du cas individuel à une essence humaine universelle. Contrôle renforcé : Comparer « besoin vital », « fonction de partage irremplaçable » et « puissance expressive distincte sans monopole » ; ne pas déduire la nécessité universelle d'un exemple frappant."
     },
     "candidats_III": [
       {
@@ -85,7 +85,7 @@
     "scene": "Terezín (Theresienstadt), 1943-1944 : le chef de chœur Rafael Schächter fait répéter le Requiem de Verdi à des prisonniers, qui le chantent seize fois ; le chœur est sans cesse décimé par les déportations ; la dernière représentation, en juin 1944, est donnée devant une délégation de la Croix-Rouge que les nazis veulent tromper. Verdict : homologue. Retour : ce que le chant faisait que rien d’autre ne faisait, et ce qu’on en a fait.",
     "statut": {
       "problematique": "suffisamment justifiée",
-      "copie": "état de travail (architecture expérimentale)"
+      "copie": "révision ciblée de l'épreuve de III — audit indépendant à poursuivre"
     },
     "ouvertures_de_pensee": {
       "I": "On peut subsister sans tableaux ni symphonies : l'art n'est donc pas nécessaire à la survie au même titre que la nourriture ou l'abri. Cela ne décide pas encore de tout ce dont une vie humaine peut avoir besoin.",
@@ -229,6 +229,10 @@
         [
           "L'art répond ainsi à une aspiration à partager l'expérience dans des formes sensibles ouvertes à plusieurs interprétations ; rien n'autorise toutefois à conclure qu'aucune parole ni aucun rite ne puisse répondre autrement à cette aspiration.",
           "III.2 Distinguer la singularité de l'art de son exclusivité"
+        ],
+        [
+          "Mais le fait qu'une œuvre offre plusieurs interprétations ne prouve pas que tout partage sensible soit artistique. Une cérémonie, un récit familial ou un jeu peuvent aussi donner forme à une expérience sans l'épuiser. L'art répond donc à un besoin possible, singulier dans sa manière, non à une fonction dont il aurait le monopole.",
+          "III.2 Contre-épreuve de la solution choisie"
         ],
         [
           "Nous avons ainsi besoin d'art au sens où les œuvres répondent à une aspiration profonde, non au sens où chacun serait incapable de vivre sans elles ou où aucune autre activité ne pourrait nous aider à partager ce que nous vivons.",

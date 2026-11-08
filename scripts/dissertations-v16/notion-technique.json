@@ -49,7 +49,7 @@
       "III1": "On peut juger avant les effets si l’on demande, non ce que le possible produira, mais s’il laissera intact le pouvoir de le corriger : un possible réversible et choisi par ceux qu’il engage peut être essayé ; un possible irréversible imposé à d’autres ne le peut pas.",
       "III2": "Conserve XA (le choix élargi est le bien que le critère protège) et XB (l’irréversible ruine les biens) ; explique LA (l’option cessait d’en être une quand elle ôtait à d’autres le pouvoir de choisir) et LB (on n’a pas besoin de connaître les effets pour savoir s’ils seront corrigibles).",
       "III3": "Non, tout possible n’est pas souhaitable : l’est celui dont l’usage laisse à ceux qu’il engage le pouvoir de le juger et d’y renoncer ; vérifié sur les embryons modifiés. Reste : le cas où renoncer à un possible est lui-même irréversible.",
-      "tests": "Cas témoin : la modification d’un génome transmissible engage des générations qui ne l’ont pas choisie et ne peuvent la défaire : la III la juge non souhaitable avant tout effet connu ; une thérapie génique sur un malade qui y consent reste souhaitable. Second cas : l’arme nucléaire, dont l’usage ôte tout pouvoir de corriger. Restitution : oui. Rechute : le reste (le refus irréversible) ne redit ni LA ni LB. Test propre : frontière définie indépendamment des deux thèses (par la corrigibilité). Report : la question ne se repose pas à l’identique, le critère étant lui-même applicable avant l’usage. Acquis nouveau : prémisse nouvelle — on peut juger la corrigibilité d’un acte sans connaître ses effets ; nécessaire à la décision."
+      "tests": "Cas témoin : la modification d’un génome transmissible engage des générations qui ne l’ont pas choisie et ne peuvent la défaire : la III la juge non souhaitable avant tout effet connu ; une thérapie génique sur un malade qui y consent reste souhaitable. Second cas : l’arme nucléaire, dont l’usage ôte tout pouvoir de corriger. Restitution : oui. Rechute : le reste (le refus irréversible) ne redit ni LA ni LB. Test propre : frontière définie indépendamment des deux thèses (par la corrigibilité). Report : la question ne se repose pas à l’identique, le critère étant lui-même applicable avant l’usage. Acquis nouveau : prémisse nouvelle — on peut juger la corrigibilité d’un acte sans connaître ses effets ; nécessaire à la décision. Contrôle renforcé : Confronter « expansion des options », « calcul des effets » et « préservation du jugement avec examen du risque et du consentement » ; contre-exemple d'une décision irréversible salvatrice."
     },
     "candidats_III": [
       {
@@ -85,7 +85,7 @@
     "scene": "Novembre 2018 : He Jiankui annonce la naissance de jumelles dont il a modifié le génome pour les protéger du VIH ; condamnation unanime, puis peine de prison en Chine (2019). Verdict : homologue. Retour : le jugement porte sur la transmission, non sur un effet constaté.",
     "statut": {
       "problematique": "suffisamment justifiée",
-      "copie": "état de travail (architecture expérimentale)"
+      "copie": "révision ciblée de l'épreuve de III — audit indépendant à poursuivre"
     },
     "ouvertures_de_pensee": {
       "I": "Un savoir-faire n'impose pas à lui seul son emploi : posséder une nouvelle technique paraît donc accroître les moyens disponibles sans obliger à choisir l'un d'eux.",
@@ -240,6 +240,10 @@
         [
           "La valeur d'un moyen dépend aussi de la possibilité de juger, de corriger ou d'abandonner son usage. Cette exigence protège les choix futurs sans garantir que toute décision de renoncer serait elle-même réversible.",
           "III.2 Fonder la décision sur la liberté préservée"
+        ],
+        [
+          "Mais la réversibilité n'est pas à elle seule le critère du souhaitable : une action réversible peut léser quelqu'un dès le premier essai, tandis qu'une opération irréversible peut sauver une vie. Il faut examiner ensemble la gravité du dommage possible, qui en supporte le risque et la possibilité réelle de consentir.",
+          "III.2 Contre-épreuve de la solution choisie"
         ],
         [
           "Ce qui est techniquement possible n’est donc pas toujours souhaitable : l’est celui dont l’usage laisse à ceux qu’il engage le pouvoir de le juger et d’y renoncer.",

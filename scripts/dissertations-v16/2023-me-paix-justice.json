@@ -50,7 +50,7 @@
       "III1": "Distinguer dans la justice ce qui punit le coupable et ce qui reconnaît le tort : vérité dite, victime nommée, réparation.",
       "III2": "La paix peut exiger qu’on renonce à punir (XB conservé, LB expliqué : c’est la punition qui prolonge le conflit) ; elle ne peut pas exiger qu’on taise le tort, sans quoi elle ne dure pas (XA conservé, LA expliqué : la fin des violences peut se passer de la punition, non de la reconnaissance).",
       "III3": "Vouloir la paix, ce n’est pas vouloir toute la justice, mais c’est vouloir au moins que les torts soient reconnus ; vérifié sur la Commission vérité et réconciliation. Reste : les victimes qui demandaient la punition.",
-      "tests": "Cas témoin : en Afrique du Sud, l’amnistie était accordée contre l’aveu complet des crimes : on renonçait à punir, non à reconnaître ; la III dit pourquoi ce compromis était voulu comme paix. Second cas : un divorce où l’on renonce à des dommages, non à ce que le tort soit dit. Restitution : oui. Rechute : le reste (les victimes qui voulaient la punition) ne redit ni LA ni LB. Test propre : la distinction vaut sur un second cas. Report : non. Acquis nouveau : prémisse nouvelle — la justice a deux parts, dont une seule prolonge le conflit ; nécessaire à la décision."
+      "tests": "Cas témoin : en Afrique du Sud, l’amnistie était accordée contre l’aveu complet des crimes : on renonçait à punir, non à reconnaître ; la III dit pourquoi ce compromis était voulu comme paix. Second cas : un divorce où l’on renonce à des dommages, non à ce que le tort soit dit. Restitution : oui. Rechute : le reste (les victimes qui voulaient la punition) ne redit ni LA ni LB. Test propre : la distinction vaut sur un second cas. Report : non. Acquis nouveau : prémisse nouvelle — la justice a deux parts, dont une seule prolonge le conflit ; nécessaire à la décision. Contrôle renforcé : Comparer « punir chaque crime », « amnistie silencieuse » et « reconnaissance assortie de réparation et de garanties » ; éprouver la position de la victime."
     },
     "candidats_III": [
       {
@@ -86,7 +86,7 @@
     "scene": "Afrique du Sud, loi de 1995 sur la promotion de l’unité nationale et de la réconciliation ; Commission vérité et réconciliation présidée par Desmond Tutu ; amnistie individuelle des crimes politiques contre l’aveu complet ; recours de familles de victimes, dont celle de Steve Biko, rejeté par la Cour constitutionnelle (1996). Verdict : homologue. Retour : ce qu’on renonçait à faire, et ce qu’on refusait de taire.",
     "statut": {
       "problematique": "suffisamment justifiée",
-      "copie": "état de travail (architecture expérimentale)"
+      "copie": "révision ciblée de l'épreuve de III — audit indépendant à poursuivre"
     },
     "ouvertures_de_pensee": {
       "I": "La paix n'est donc pas seulement l'absence de combats : si une injustice laisse à ceux qui l'ont subie une raison de reprendre les armes, la réparation devient une condition de la durée de la paix.",
@@ -230,6 +230,10 @@
         [
           "La reconnaissance du tort peut donc appartenir à la paix sans que chaque faute soit punie. Cette distinction explique pourquoi l'amnistie peut arrêter les armes mais ne saurait exiger des victimes qu'elles tiennent leur souffrance pour effacée.",
           "III.2 Dissocier reconnaissance du tort et punition"
+        ],
+        [
+          "Cependant, reconnaître publiquement le tort ne le répare pas à lui seul : la victime peut rester privée de biens, de droits ou de sécurité. Il faut donc demander ce que l'aveu rend effectivement possible, notamment une réparation et une protection contre la répétition, sans prétendre que ces gains effacent l'exigence de sanction.",
+          "III.2 Contre-épreuve de la solution choisie"
         ],
         [
           "Vouloir la paix, ce n’est donc pas vouloir toute la justice, mais c’est vouloir au moins que les torts soient reconnus ; une paix qui exige qu’on les taise n’est plus voulue comme paix, mais comme silence.",

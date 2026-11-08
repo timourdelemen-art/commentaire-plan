@@ -49,7 +49,7 @@
       "III1": "Le principe : une vérité qui concerne la vie de quelqu’un lui appartient ; on lui doit de pouvoir la savoir, et c’est à lui, non à celui qui parle, de décider s’il veut l’entendre et quand.",
       "III2": "Conserve XA (l’autre est traité comme capable de juger) et XB (dire est un acte qui touche, d’où le choix du moment et de la manière) ; explique LA (le devoir de ne pas tromper ne disait pas qui décide de parler) et LB (le jugement par les effets donnait la décision au mauvais juge).",
       "III3": "Toute vérité n’est pas bonne à dire, mais celle qui concerne la vie d’un autre est bonne à lui offrir, et c’est à lui de la recevoir ou non ; vérifié sur la mère de Beauvoir. Reste : ceux qui ne peuvent ni demander ni refuser.",
-      "tests": "Cas témoin : la vérité appartenait à la mère, non à ses filles ; il fallait lui offrir de savoir, non décider qu’elle ne saurait pas ; ni A, ni B, ni le ménagement ne le disaient. Second cas : la rumeur, vérité qui ne concerne pas celui à qui on la dit, et que le principe ne rend pas bonne à dire. Restitution : oui. Rechute : le reste (ceux qui ne peuvent décider) ne redit ni LA ni LB. Test propre : le principe vaut sur un second cas, il n’est pas taillé pour le cas témoin. Report : non. Acquis nouveau : prémisse nouvelle — une vérité sur une vie appartient à celui qui la vit ; nécessaire à la décision."
+      "tests": "Cas témoin : la vérité appartenait à la mère, non à ses filles ; il fallait lui offrir de savoir, non décider qu’elle ne saurait pas ; ni A, ni B, ni le ménagement ne le disaient. Second cas : la rumeur, vérité qui ne concerne pas celui à qui on la dit, et que le principe ne rend pas bonne à dire. Restitution : oui. Rechute : le reste (ceux qui ne peuvent décider) ne redit ni LA ni LB. Test propre : le principe vaut sur un second cas, il n’est pas taillé pour le cas témoin. Report : non. Acquis nouveau : prémisse nouvelle — une vérité sur une vie appartient à celui qui la vit ; nécessaire à la décision. Contrôle renforcé : Comparer « vérité systématiquement annoncée », « silence protecteur » et « accessibilité avec décision du destinataire » ; éprouver la temporalité du consentement."
     },
     "candidats_III": [
       {
@@ -85,7 +85,7 @@
     "scene": "Simone de Beauvoir, Une mort très douce (1964) : à l’automne 1963, sa mère est opérée d’un cancer ; ses filles et les médecins lui laissent croire à une péritonite. Paraphrase seulement. Le droit du malade à être informé, et à ne pas l’être, est inscrit dans la loi du 4 mars 2002. Verdict : homologue. Retour : à qui appartenait la vérité.",
     "statut": {
       "problematique": "suffisamment justifiée",
-      "copie": "état de travail (architecture expérimentale)"
+      "copie": "révision ciblée de l'épreuve de III — audit indépendant à poursuivre"
     },
     "ouvertures_de_pensee": {
       "I": "Mentir ne retire pas seulement un fait à autrui : en exploitant sa confiance, on l'empêche de juger lui-même sur ce qui le concerne. Le devoir de vérité protège ainsi sa capacité de décider.",
@@ -229,6 +229,10 @@
         [
           "Respecter la personne peut exiger de lui rendre une vérité accessible tout en lui laissant décider du moment où elle veut l'entendre. Cela interdit de faire du souci de la protéger un pouvoir de décider secrètement à sa place.",
           "III.2 Articuler vérité offerte et décision du destinataire"
+        ],
+        [
+          "Mais celui qui demande à ne pas savoir ne renonce pas nécessairement pour toujours à son droit : il peut vouloir différer l'annonce. Demander son accord n'est donc pas abandonner la vérité ; c'est rendre possible une parole exacte dont le destinataire peut choisir le moment et la forme.",
+          "III.2 Éprouver l'objection décisive et consolider la preuve"
         ],
         [
           "Toute vérité n’est donc pas bonne à dire ; mais celle qui concerne la vie d’un autre est bonne à lui offrir, et c’est à lui de la recevoir ou non.",

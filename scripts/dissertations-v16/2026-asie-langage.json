@@ -49,7 +49,7 @@
       "III1": "L’image de la prison suppose qu’une pensée sans mots serait plus libre ; elle serait sans prise.",
       "III2": "Le langage est pour la pensée ce que l’air est à la colombe : ce qui gêne porte. Conserve XA et XB ; explique LA (dépendance de l’aile, non du prisonnier) et LB (la transformation n’avait pas à sortir).",
       "III3": "Nous ne sommes pas prisonniers : nous dépendons d’une résistance qui porte la pensée, et nous sommes libres en la travaillant ; vérifié sur le novlangue. Reste : ce travail suppose une communauté qui accueille les mots changés.",
-      "tests": "Cas témoin : la III dit pourquoi le novlangue échouerait tant que les locuteurs travaillent la langue, ce que ni A ni B ne disaient. Second cas : la notation mathématique, qui permet de penser ce qu’on ne pensait pas sans elle. Restitution : oui. Rechute : le reste (la communauté qui accueille) ne redit pas LB : il porte sur une condition sociale que la III fait apparaître, non sur l’absence de dehors. Test propre : prémisse de transformation établie (une pensée sans signes ne se fixe pas) ; illusion expliquée (l’image du vol dans le vide). Report : non. Acquis nouveau : la distinction entre condition qui gêne et clôture ; nécessaire à la décision."
+      "tests": "Cas témoin : la III dit pourquoi le novlangue échouerait tant que les locuteurs travaillent la langue, ce que ni A ni B ne disaient. Second cas : la notation mathématique, qui permet de penser ce qu’on ne pensait pas sans elle. Restitution : oui. Rechute : le reste (la communauté qui accueille) ne redit pas LB : il porte sur une condition sociale que la III fait apparaître, non sur l’absence de dehors. Test propre : prémisse de transformation établie (une pensée sans signes ne se fixe pas) ; illusion expliquée (l’image du vol dans le vide). Report : non. Acquis nouveau : la distinction entre condition qui gêne et clôture ; nécessaire à la décision. Contrôle renforcé : Comparer « évasion hors des mots », « jeu interne libre » et « pouvoir réel de modifier les usages en commun » ; réfuter l'analogie naïve selon laquelle toute dépendance serait libératrice."
     },
     "candidats_III": [
       {
@@ -85,7 +85,7 @@
     "scene": "Orwell, 1984 (1949) : le novlangue, langue fabriquée pour rendre certaines pensées impossibles. Verdict : homologue. Retour : la III dit ce que le projet devrait supprimer pour réussir.",
     "statut": {
       "problematique": "suffisamment justifiée",
-      "copie": "état de travail (architecture expérimentale)"
+      "copie": "révision ciblée de l'épreuve de III — audit indépendant à poursuivre"
     },
     "ouvertures_de_pensee": {
       "I": "Une pensée distincte doit pouvoir maintenir ses différences dans des signes reçus d'une langue : le langage n'exprime donc pas seulement une pensée déjà faite, il participe aux distinctions dont elle dispose.",
@@ -248,6 +248,10 @@
         [
           "Une pensée qui dépend des mots peut ainsi agir sur les usages qui la rendent possible : l'air résiste au vol de la colombe tout en le portant, comme la langue offre à la pensée de quoi être transformée.",
           "III.2 Penser une liberté rendue possible par sa dépendance"
+        ],
+        [
+          "Une prison ne se définit pourtant pas seulement par l'absence de sortie : elle tient aussi à l'impossibilité de déplacer les limites qui nous sont imposées. La vraie question devient alors celle des usages que l'on peut discuter et transformer ; une langue qui interdit cette discussion ferait obstacle à la liberté qu'elle rend possible.",
+          "III.2 Contre-épreuve de la solution choisie"
         ],
         [
           "Nous ne sommes donc pas prisonniers du langage : nous en dépendons comme d’une résistance qui porte la pensée, et nous sommes libres en le travaillant, non en le quittant.",

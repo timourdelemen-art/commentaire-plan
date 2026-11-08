@@ -50,7 +50,7 @@
       "III1": "Distinguer la réussite observable, la compréhension et la conscience possible ; examiner pour chacune le type de preuve nécessaire.",
       "III2": "Turing montre comment éprouver les capacités observables ; Searle montre que le calcul symbolique ne démontre pas la compréhension ; Butlin et ses collègues examinent les indicateurs tirés des théories de la conscience. Conserver les performances de la première réponse et l'exigence de compréhension de la seconde. La réserve de Searle ne démontre pas que la compréhension artificielle soit impossible.",
       "III3": "La pensée artificielle n'est pas exclue en droit par le seul fait qu'un système est une machine ; certaines opérations de raisonnement sont déjà mécanisables. Mais la compréhension et la conscience éventuelles exigent des arguments indépendants. Reste la portée probante de leurs indicateurs.",
-      "tests": "Cas : Deep Blue, réussite spécialisée qui ne répond pas aux critères plus exigeants de compréhension et conscience. Restitution : performance reconnue. Non-rechute : ne conclure ni à la conscience ni à son impossibilité d'après la seule performance. Report : un modèle de langage ou un système artificiel à architecture différente exigerait la même distinction. Limite : indicateurs scientifiques ne sont pas une preuve définitive d'une expérience vécue."
+      "tests": "Cas : Deep Blue, réussite spécialisée qui ne répond pas aux critères plus exigeants de compréhension et conscience. Restitution : performance reconnue. Non-rechute : ne conclure ni à la conscience ni à son impossibilité d'après la seule performance. Report : un modèle de langage ou un système artificiel à architecture différente exigerait la même distinction. Limite : indicateurs scientifiques ne sont pas une preuve définitive d'une expérience vécue. Contrôle renforcé : Comparer « succès comportemental », « compréhension éprouvée par variations » et « conscience phénoménale » ; ne pas transformer une grille d'indices en preuve ontologique."
     },
     "candidats_III": [
       {
@@ -86,7 +86,7 @@
     "scene": "Deep Blue bat Garri Kasparov, en mai 1997 (match en six parties, 3,5 à 2,5). Verdict : homologue. Retour : la distinction entre ce qui se calcule et ce qui se pense.",
     "statut": {
       "problematique": "suffisamment justifiée",
-      "copie": "état de travail (architecture expérimentale)"
+      "copie": "révision ciblée de l'épreuve de III — audit indépendant à poursuivre"
     },
     "ouvertures_de_pensee": {
       "I": "Turing permet d'examiner certaines capacités intellectuelles à partir des réponses, des apprentissages et des corrections d'un système, sans décréter d'avance qu'une machine ne saurait les accomplir parce qu'elle n'est pas humaine.",
@@ -230,6 +230,10 @@
         [
           "La performance, la compréhension et la conscience ne peuvent être identifiées sans argument supplémentaire. Des propriétés fonctionnelles peuvent être examinées, sans constituer à elles seules une preuve de l'expérience vécue ni une raison d'exclure toute pensée artificielle.",
           "III.2 Séparer performance, compréhension et conscience"
+        ],
+        [
+          "Un indicateur fonctionnel peut pourtant être satisfait par des mécanismes très différents. Avant d'y voir un signe de compréhension, il faut demander si le système peut expliquer et corriger ses choix lorsqu'on change le problème, et si cette capacité dépasse la reproduction d'une réponse attendue. Même cette épreuve ne prouverait pas une expérience vécue.",
+          "III.2 Objection forte et détermination de la portée"
         ],
         [
           "Une machine peut accomplir des opérations de raisonnement ; une pensée artificielle plus complète n'est pas exclue par principe, mais ni la compréhension ni la conscience ne découlent de la seule performance.",
