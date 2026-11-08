@@ -48,8 +48,8 @@
       "operation": "critère de frontière (III.7 a) : est souhaitable le possible dont l’usage laisse intact le pouvoir de le juger et d’y renoncer.",
       "III1": "On peut juger avant les effets si l’on demande, non ce que le possible produira, mais s’il laissera intact le pouvoir de le corriger : un possible réversible et choisi par ceux qu’il engage peut être essayé ; un possible irréversible imposé à d’autres ne le peut pas.",
       "III2": "Conserve XA (le choix élargi est le bien que le critère protège) et XB (l’irréversible ruine les biens) ; explique LA (l’option cessait d’en être une quand elle ôtait à d’autres le pouvoir de choisir) et LB (on n’a pas besoin de connaître les effets pour savoir s’ils seront corrigibles).",
-      "III3": "Non, tout possible n’est pas souhaitable : l’est celui dont l’usage laisse à ceux qu’il engage le pouvoir de le juger et d’y renoncer ; vérifié sur les embryons modifiés. Reste : le cas où renoncer à un possible est lui-même irréversible.",
-      "tests": "Cas témoin : la modification d’un génome transmissible engage des générations qui ne l’ont pas choisie et ne peuvent la défaire : la III la juge non souhaitable avant tout effet connu ; une thérapie génique sur un malade qui y consent reste souhaitable. Second cas : l’arme nucléaire, dont l’usage ôte tout pouvoir de corriger. Restitution : oui. Rechute : le reste (le refus irréversible) ne redit ni LA ni LB. Test propre : frontière définie indépendamment des deux thèses (par la corrigibilité). Report : la question ne se repose pas à l’identique, le critère étant lui-même applicable avant l’usage. Acquis nouveau : prémisse nouvelle — on peut juger la corrigibilité d’un acte sans connaître ses effets ; nécessaire à la décision. Contrôle renforcé : Confronter « expansion des options », « calcul des effets » et « préservation du jugement avec examen du risque et du consentement » ; contre-exemple d'une décision irréversible salvatrice."
+      "III3": "Le souhaitable dépend des biens servis, des risques, du consentement et des conditions de correction ; l'irréversibilité seule ne suffit pas ; reste l'irréversibilité du renoncement.",
+      "tests": "Cas témoin : la modification d’un génome transmissible engage des générations qui ne l’ont pas choisie et ne peuvent la défaire : la III la juge non souhaitable avant tout effet connu ; une thérapie génique sur un malade qui y consent reste souhaitable. Second cas : l’arme nucléaire, dont l’usage ôte tout pouvoir de corriger. Restitution : oui. Rechute : le reste (le refus irréversible) ne redit ni LA ni LB. Test propre : frontière définie indépendamment des deux thèses (par la corrigibilité). Report : la question ne se repose pas à l’identique, le critère étant lui-même applicable avant l’usage. Acquis nouveau : prémisse nouvelle — on peut juger la corrigibilité d’un acte sans connaître ses effets ; nécessaire à la décision. Contrôle renforcé : Confronter « expansion des options », « calcul des effets » et « préservation du jugement avec examen du risque et du consentement » ; contre-exemple d'une décision irréversible salvatrice. Révision éditoriale : gestes X13, N7, C7, X12, K3. Chemins en concurrence : Possible = bien (usage imposé) / effets seuls (inconnus avant usage) / décision prudente sous risque, consentement, possibilité de correction (retenue)."
     },
     "candidats_III": [
       {
@@ -85,7 +85,7 @@
     "scene": "Novembre 2018 : He Jiankui annonce la naissance de jumelles dont il a modifié le génome pour les protéger du VIH ; condamnation unanime, puis peine de prison en Chine (2019). Verdict : homologue. Retour : le jugement porte sur la transmission, non sur un effet constaté.",
     "statut": {
       "problematique": "suffisamment justifiée",
-      "copie": "révision ciblée de l'épreuve de III — audit indépendant à poursuivre"
+      "copie": "renforcement argumentatif I-II-III, relecture contradictoire encore requise"
     },
     "ouvertures_de_pensee": {
       "I": "Un savoir-faire n'impose pas à lui seul son emploi : posséder une nouvelle technique paraît donc accroître les moyens disponibles sans obliger à choisir l'un d'eux.",
@@ -156,7 +156,7 @@
           "I.2 La fonder par la fin"
         ],
         [
-          "Un savoir-faire n'impose pas à lui seul son emploi : posséder une nouvelle technique paraît donc accroître les moyens disponibles sans obliger à choisir l'un d'eux.",
+          "Posséder un nouveau moyen paraît d'abord laisser chacun libre de l'employer ou non. Mais ce raisonnement suppose que son usage reste une décision individuelle : une technique peut transformer l'environnement commun même pour ceux qui la refusent.",
           "I.2 Distinguer la possibilité technique et son usage"
         ],
         [
@@ -197,7 +197,7 @@
           "II.2 La fonder par les conséquences ; citation qui distingue produire et juger"
         ],
         [
-          "Lorsqu'un usage compromet irréversiblement les possibilités d'autrui, le moyen disponible peut diminuer plutôt qu'accroître la liberté de choisir : être faisable ne suffit pas à le rendre souhaitable.",
+          "Lorsque les effets d'une technique engagent ceux qui n'ont pas choisi de la subir, le simple progrès de notre pouvoir devient une question de justice. Il ne suffit pas de demander « pouvons-nous le faire ? » : il faut encore demander « pour qui et à quel risque ? »",
           "II.2 Montrer comment un moyen peut restreindre le choix"
         ],
         [
@@ -230,7 +230,7 @@
           "III.1 Effectuer le déplacement nécessaire"
         ],
         [
-          "Un possible réversible, choisi par ceux qu’il engage, peut être essayé ; un possible irréversible, imposé à d’autres qui ne peuvent ni le juger ni le défaire, ne le peut pas.",
+          "On peut préférer un essai limité, corrigible et accepté par les personnes concernées à une transformation irréversible imposée à tous. Mais ce n'est pas une règle absolue : une intervention irréversible peut parfois sauver une vie qu'une abstention condamnerait.",
           "III.1 Le critère énoncé"
         ],
         [
@@ -242,11 +242,11 @@
           "III.2 Fonder la décision sur la liberté préservée"
         ],
         [
-          "Mais la réversibilité n'est pas à elle seule le critère du souhaitable : une action réversible peut léser quelqu'un dès le premier essai, tandis qu'une opération irréversible peut sauver une vie. Il faut examiner ensemble la gravité du dommage possible, qui en supporte le risque et la possibilité réelle de consentir.",
+          "Il faut donc comparer les conséquences possibles de l'action et celles du refus d'agir, sans prétendre tout prévoir. Le critère le plus solide réunit la gravité des risques, les possibilités de correction et la part laissée au jugement des personnes concernées.",
           "III.2 Contre-épreuve de la solution choisie"
         ],
         [
-          "Ce qui est techniquement possible n’est donc pas toujours souhaitable : l’est celui dont l’usage laisse à ceux qu’il engage le pouvoir de le juger et d’y renoncer.",
+          "Tout ce qui est techniquement possible n'est pas souhaitable : un pouvoir nouveau doit être jugé selon les biens qu'il sert, les risques qu'il fait peser et la liberté qu'il laisse à ceux qu'il engage.",
           "III.3 La réponse au sujet, avec son opérateur"
         ],
         [
