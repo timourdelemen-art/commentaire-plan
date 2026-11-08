@@ -90,8 +90,8 @@
     "ouvertures_de_pensee": {
       "I": "Mentir ne retire pas seulement un fait à autrui : en exploitant sa confiance, on l'empêche de juger lui-même sur ce qui le concerne. Le devoir de vérité protège ainsi sa capacité de décider.",
       "II": "Dire vrai est aussi un acte adressé à quelqu'un : lorsque l'information ne lui offre aucune prise sur sa situation et ne fait que le blesser, sa communication demande un examen moral que sa vérité ne suffit pas à clore.",
-      "III": "Respecter la personne peut exiger de lui rendre une vérité accessible tout en lui laissant décider du moment où elle veut l'entendre. Cela interdit de faire du souci de la protéger un pouvoir de décider secrètement à sa place.",
-      "statut": "Possibilités justifiées, avec leur portée exacte."
+      "III": "Distinguer la vérité de l'obligation de la révéler permet un geste nouveau : proposer à la personne de connaître ce qui la concerne. Elle peut ainsi demander, refuser ou différer. Le choix n'existait pas lorsque le médecin décidait seul du silence ; il existe dès qu'on lui rend la parole sur ce qu'elle veut savoir. Portée de la nouveauté : droit de choisir rendu praticable sous information suffisante, sans imposer toute révélation.",
+      "statut": "Test V1.1 : distinguer possibilité construite, justification, coût et reste ; voir rapport individuel."
     }
   },
   "citations": [],
@@ -227,11 +227,11 @@
           "III.2 La démontrer : ce qu’il conserve"
         ],
         [
-          "Offrir de savoir n'est ni mentir ni imposer une révélation. C'est permettre une réponse libre : demander ce que l'autre veut connaître, lui dire vrai s'il le souhaite, respecter s'il préfère attendre. La valeur de la parole tient ici à une relation : celui qui sait rend à l'autre le pouvoir de décider.",
+          "Distinguer la vérité de l'obligation de la révéler permet un geste nouveau : proposer à la personne de connaître ce qui la concerne. Elle peut ainsi demander, refuser ou différer. Le choix n'existait pas lorsque le médecin décidait seul du silence ; il existe dès qu'on lui rend la parole sur ce qu'elle veut savoir.",
           "III.2 Articuler vérité offerte et décision du destinataire"
         ],
         [
-          "Cette solution échouerait toutefois si le refus de savoir était obtenu par une menace ou par une information trompeuse. Il faut donc que le choix puisse être révisé et qu'on n'ait pas déjà caché ce qui permet de comprendre la question posée. Autrement, le prétendu consentement ne fait que masquer une nouvelle décision prise à la place d'autrui.",
+          "Mais demander « voulez-vous savoir ? » peut être trompeur si l'on ne dit rien de l'importance de l'information. Pour rendre le choix réel, il faut en expliquer l'enjeu sans imposer la révélation, puis permettre à la personne de revenir sur sa décision. Sans cela, on a seulement déplacé le secret.",
           "III.2 Éprouver l'objection décisive et consolider la preuve"
         ],
         [

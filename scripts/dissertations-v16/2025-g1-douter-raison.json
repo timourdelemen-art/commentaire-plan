@@ -91,8 +91,8 @@
     "ouvertures_de_pensee": {
       "I": "La raison peut ainsi examiner ses propres pouvoirs : les questions auxquelles elle ne parvient pas à répondre ne sont pas toutes des fautes de calcul, mais peuvent révéler les limites de ses prétentions.",
       "II": "Contester toute raison exige encore de donner des raisons de cette contestation : un doute absolument général détruit le moyen même par lequel il prétend se justifier.",
-      "III": "Un doute qui établit jusqu'où va un raisonnement ne récuse donc pas la raison : il mesure son domaine légitime, sans garantir pour autant tous ses usages.",
-      "statut": "Hypothèses établies à la mesure de leurs preuves ; ne pas transformer une possibilité en certitude."
+      "III": "La raison qui découvre une limite ne se détruit pas : elle rend enfin possible de distinguer ce qu'un système peut établir de ce qu'il ne peut pas établir. On peut alors chercher une autre méthode ou réduire honnêtement la conclusion, au lieu de renoncer à toute recherche parce qu'une preuve a échoué. Portée : Recherches alternatives permises par preuve locale, sans relativisme général.",
+      "statut": "Test V1.1 : possibilité construite, justification, coût et reste explicités."
     }
   },
   "citations": [
@@ -239,11 +239,11 @@
           "III.2 La démontrer : ce qu’il conserve"
         ],
         [
-          "Je peux donc mettre en doute un pouvoir déterminé de la raison en montrant pourquoi il échoue ici. Mais je dois donner une preuve de cette limite, et non invoquer le seul fait que je n'ai pas encore trouvé de solution.",
+          "La raison qui découvre une limite ne se détruit pas : elle rend enfin possible de distinguer ce qu'un système peut établir de ce qu'il ne peut pas établir. On peut alors chercher une autre méthode ou réduire honnêtement la conclusion, au lieu de renoncer à toute recherche parce qu'une preuve a échoué.",
           "III.2 Fonder un doute rationnellement délimité"
         ],
         [
-          "Une démonstration sur les possibilités d'un système ne décide pourtant pas des pouvoirs de toute pensée. Le doute devient rigoureux lorsqu'il précise son objet et la portée de sa preuve : il mesure une limite, il ne proclame pas une défaite générale.",
+          "Mais prouver la limite d'un système ne prouve pas que toute raison possède cette limite. Le geste ouvre une enquête nouvelle, dont il faut délimiter le domaine. Une absence de solution n'est pas une impossibilité démontrée, et une impossibilité locale n'est pas une défaite universelle.",
           "III.2 Objection forte et détermination de la portée"
         ],
         [

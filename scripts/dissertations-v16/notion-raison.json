@@ -90,8 +90,8 @@
     "ouvertures_de_pensee": {
       "I": "Une raison valable doit pouvoir être examinée indépendamment de celui qui la formule : convaincre par les raisons n'est donc pas simplement obtenir l'adhésion, mais rendre possible un jugement que d'autres peuvent refaire.",
       "II": "La réaction des interlocuteurs de Semmelweis rappelle qu'une preuve ne se fait pas examiner par sa seule validité : il faut encore que l'autre accepte de l'écouter et d'en suivre le raisonnement.",
-      "III": "Dans le dialogue, un interlocuteur ne reçoit pas seulement une conclusion : il peut refaire les raisons de l'établir. Cette participation rend l'accord rationnel possible, sans assurer qu'il se produira.",
-      "statut": "Possibilités justifiées, avec leur portée exacte."
+      "III": "En invitant l'autre à refaire chaque étape, je ne lui transmets plus seulement ma conclusion : je lui donne la possibilité de découvrir lui-même où elle pourrait être fausse. S'il ne trouve aucune faille après examen, son accord repose sur ses raisons autant que sur les miennes. La conviction devient un jugement partagé et contestable. Portée de la nouveauté : examen autonome et critique rendu possible, pas accord garanti.",
+      "statut": "Test V1.1 : distinguer possibilité construite, justification, coût et reste ; voir rapport individuel."
     }
   },
   "citations": [
@@ -248,11 +248,11 @@
           "III.2 La démontrer sur un cas où elle se réalise"
         ],
         [
-          "Convaincre suppose que l'auditeur puisse dire non seulement « je vous crois », mais « je vois pourquoi cette conclusion suit ». Celui qui refait l'argument garde alors le pouvoir d'en contester une étape. C'est précisément cette liberté critique qui distingue la conviction de la simple adhésion.",
+          "En invitant l'autre à refaire chaque étape, je ne lui transmets plus seulement ma conclusion : je lui donne la possibilité de découvrir lui-même où elle pourrait être fausse. S'il ne trouve aucune faille après examen, son accord repose sur ses raisons autant que sur les miennes. La conviction devient un jugement partagé et contestable.",
           "III.2 Fonder la conviction sur un raisonnement partagé"
         ],
         [
-          "Si l'auditeur demeure en désaccord, cela ne prouve ni que l'argument soit faux ni qu'il ait été compris. Le locuteur doit distinguer l'erreur dans la preuve, le refus de l'examiner et une objection encore sans réponse. Avoir raison reste une condition de la conviction rationnelle, jamais une garantie qu'elle se produira.",
+          "Ce dialogue ouvre aussi la possibilité d'une objection que l'orateur n'avait pas prévue. Il ne garantit donc pas le succès de la persuasion ; il peut conduire à corriger une preuve. Mais c'est justement ce risque accepté qui distingue convaincre d'obtenir l'accord par habileté.",
           "III.2 Éprouver l'objection décisive et consolider la preuve"
         ],
         [

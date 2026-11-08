@@ -90,8 +90,8 @@
     "ouvertures_de_pensee": {
       "I": "La recherche utilise des moyens communs ; la société peut donc demander compte de leur emploi et des conséquences de l'activité scientifique, sans être déjà autorisée à décider de ses résultats.",
       "II": "L'affaire Lyssenko distingue alors deux services possibles : répondre à une attente politique et établir ce qui est. Une science soumise à la première exigence peut perdre la capacité de remplir la seconde.",
-      "III": "La société peut discuter les questions, les moyens et les risques d'une recherche ; elle ne peut prescrire à l'avance la vérité de ses réponses. Cette distinction rend compatibles la responsabilité de la science et l'indépendance de ses résultats.",
-      "statut": "Possibilités justifiées, avec leur portée exacte."
+      "III": "En distinguant les questions qu'on décide d'étudier des réponses qu'on découvre, on rend compatibles deux exigences qu'on croyait opposées. Une société peut financer la recherche d'un vaccin ; elle ne peut pas décider à l'avance s'il fonctionne. Cette frontière ouvre une discussion publique sur les priorités sans faire voter la vérité. Portée : Priorités discutables et résultats libres, avenir inconnu de la recherche préservé.",
+      "statut": "Test V1.1 : possibilité construite, justification, coût et reste explicités."
     }
   },
   "citations": [
@@ -246,11 +246,11 @@
           "III.2 Ce qu’il conserve et ce qu’il explique"
         ],
         [
-          "La société peut discuter les questions, les moyens et les risques d'une recherche ; elle ne peut prescrire à l'avance la vérité de ses réponses. Cette distinction rend compatibles la responsabilité de la science et l'indépendance de ses résultats.",
+          "En distinguant les questions qu'on décide d'étudier des réponses qu'on découvre, on rend compatibles deux exigences qu'on croyait opposées. Une société peut financer la recherche d'un vaccin ; elle ne peut pas décider à l'avance s'il fonctionne. Cette frontière ouvre une discussion publique sur les priorités sans faire voter la vérité.",
           "III.2 Séparer le choix des questions de celui des résultats"
         ],
         [
-          "Mais l'utilité ne se limite pas à l'urgence présente : des recherches sans application connue peuvent rendre de grands services plus tard. Il faut donc défendre aussi une liberté de chercher, tout en soumettant les risques et les usages des découvertes à la discussion publique.",
+          "Mais le choix des questions ne doit pas être limité à ce qui promet un résultat prochain. Une recherche apparemment inutile peut révéler une possibilité que personne ne savait demander. Préserver de telles enquêtes n'annule pas la responsabilité publique ; cela évite que l'utilité connue aujourd'hui ferme les découvertes de demain.",
           "III.2 Objection forte et détermination de la portée"
         ],
         [

@@ -90,8 +90,8 @@
     "ouvertures_de_pensee": {
       "I": "Parce que les particuliers sont engagés dans les conflits qu'ils veulent trancher, la lutte contre l'injustice réclame une instance capable de formuler la règle commune et d'en imposer le respect. C'est la fonction qu'assume d'abord l'État.",
       "II": "Le refus de Rosa Parks ne changeait pas lui-même la loi ; il rendait cependant possible de juger cette loi à partir d'une exigence de justice qu'elle ne satisfaisait pas.",
-      "III": "La séparation des pouvoirs permet de juger une décision publique sans abandonner le jugement à une force privée : une contestation citoyenne peut ainsi être portée devant une autorité capable de l'imposer à l'État lui-même.",
-      "statut": "Possibilités justifiées, avec leur portée exacte."
+      "III": "La plainte des citoyens n'est plus condamnée à rester une simple protestation lorsqu'une institution indépendante peut la recevoir, examiner la loi et imposer sa décision. Ce passage ouvre une possibilité qui manquait aux deux réponses : faire juger l'État grâce à des moyens de droit auxquels l'État lui-même doit obéir. Portée : Contrôle étatique juridiquement concevable et institutionnellement conditionné, non assuré par un texte seul.",
+      "statut": "Test V1.1 : possibilité construite, justification, coût et reste explicités."
     }
   },
   "citations": [],
@@ -231,11 +231,11 @@
           "III.2 Ce qu’il explique"
         ],
         [
-          "La solution n'est ni de confier tout jugement au pouvoir ni de réduire la justice aux protestations privées. Elle exige un passage : la plainte publique doit pouvoir devenir un jugement opposable à l'État, rendu par des autorités suffisamment indépendantes.",
+          "La plainte des citoyens n'est plus condamnée à rester une simple protestation lorsqu'une institution indépendante peut la recevoir, examiner la loi et imposer sa décision. Ce passage ouvre une possibilité qui manquait aux deux réponses : faire juger l'État grâce à des moyens de droit auxquels l'État lui-même doit obéir.",
           "III.2 Articuler jugement citoyen et contrôle de l'État"
         ],
         [
-          "Une constitution ne suffit pas si les juges risquent leur poste pour une décision contraire au pouvoir, ou si les victimes ne peuvent saisir le tribunal. L'indépendance doit donc être effective : recours accessibles, raisons publiées et décisions réellement exécutées.",
+          "Mais écrire ce recours dans une constitution ne suffit pas. Si la victime n'a pas accès au juge ou si le pouvoir peut le punir, le droit demeure sans effet. Il faut donc établir les conditions concrètes de cette possibilité : indépendance, accès réel, publicité des raisons et exécution des décisions.",
           "III.2 Objection forte et détermination de la portée"
         ],
         [

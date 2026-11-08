@@ -91,8 +91,8 @@
     "ouvertures_de_pensee": {
       "I": "Turing permet d'examiner certaines capacités intellectuelles à partir des réponses, des apprentissages et des corrections d'un système, sans décréter d'avance qu'une machine ne saurait les accomplir parce qu'elle n'est pas humaine.",
       "II": "La différence entre l'application de règles et la compréhension de leur sens demeure pertinente, mais la chambre chinoise ne démontre pas à elle seule que l'ensemble du système soit privé de compréhension : l'inférence reste contestable.",
-      "III": "La performance, la compréhension et la conscience ne peuvent être identifiées sans argument supplémentaire. Des propriétés fonctionnelles peuvent être examinées, sans constituer à elles seules une preuve de l'expérience vécue ni une raison d'exclure toute pensée artificielle.",
-      "statut": "Possibilités justifiées, avec leur portée exacte."
+      "III": "En séparant la réussite, la compréhension et l'expérience consciente, on peut enfin concevoir plusieurs enquêtes au lieu d'une réponse générale par oui ou non. Une machine qui résout un problème montre une capacité ; il reste à vérifier si elle adapte ses raisons à un cas nouveau et, plus difficilement, si quelque chose est vécu de l'intérieur. Portée : Capacités distinctes testables selon critères, conscience non établie par performances.",
+      "statut": "Test V1.1 : possibilité construite, justification, coût et reste explicités."
     }
   },
   "citations": [],
@@ -228,11 +228,11 @@
           "III.2 Éprouver le critère et mesurer sa portée"
         ],
         [
-          "Il faut poser trois questions différentes : le système accomplit-il la tâche ? Peut-il adapter et justifier ses choix dans des situations nouvelles ? Éprouve-t-il quelque chose en le faisant ? Répondre à la première n'est ni répondre à la deuxième ni trancher la troisième.",
+          "En séparant la réussite, la compréhension et l'expérience consciente, on peut enfin concevoir plusieurs enquêtes au lieu d'une réponse générale par oui ou non. Une machine qui résout un problème montre une capacité ; il reste à vérifier si elle adapte ses raisons à un cas nouveau et, plus difficilement, si quelque chose est vécu de l'intérieur.",
           "III.2 Séparer performance, compréhension et conscience"
         ],
         [
-          "Même une machine qui se corrige et explique ses décisions peut produire une apparence de compréhension. Il faut donc varier les épreuves et reconnaître exactement leur portée : elles donnent des indices contrôlables, non une preuve directe de l'expérience vécue.",
+          "Cette distinction ne fournit pas à elle seule un moyen de voir la conscience d'autrui. Varier les questions et examiner le fonctionnement d'un système peut renforcer certaines hypothèses, non prouver directement une expérience intime. La recherche est désormais mieux posée ; elle n'est pas achevée.",
           "III.2 Objection forte et détermination de la portée"
         ],
         [

@@ -90,8 +90,8 @@
     "ouvertures_de_pensee": {
       "I": "Corriger une couleur ou une cadence suppose de discerner l'écart entre un effet obtenu et celui qu'on cherche : le savoir de l'artiste s'exerce donc aussi pendant la création, non seulement avant elle.",
       "II": "Les contraintes imprévues du piano de Cologne n'étaient contenues dans aucune recette ; en les travaillant, Jarrett a trouvé des formes qu'il n'aurait pu connaître avant de jouer.",
-      "III": "Le métier permet de juger les essais, tandis que l'invention leur donne une matière qui n'était pas connue d'avance : l'artiste peut savoir ce qu'il fait à mesure que l'œuvre se forme, sans pouvoir la déduire d'un plan préalable.",
-      "statut": "Possibilités justifiées, avec leur portée exacte."
+      "III": "Le premier essai n'est pas seulement une réalisation imparfaite : il donne à l'artiste quelque chose qu'il ne pouvait pas encore comparer. Une phrase jouée à Cologne fait entendre un rythme ; ce rythme permet d'en essayer un autre, puis de reconnaître ce qui convient. Le travail invente ainsi les possibilités sur lesquelles le jugement suivant pourra porter. Portée : Possibilités produites par l'essai puis éprouvées, sans garantie de réussite esthétique.",
+      "statut": "Test V1.1 : possibilité construite, justification, coût et reste explicités."
     }
   },
   "citations": [
@@ -242,11 +242,11 @@
           "III.2 Ce qu’il conserve"
         ],
         [
-          "Le métier permet de juger les essais, tandis que l'invention leur donne une matière qui n'était pas connue d'avance : l'artiste peut savoir ce qu'il fait à mesure que l'œuvre se forme, sans pouvoir la déduire d'un plan préalable.",
+          "Le premier essai n'est pas seulement une réalisation imparfaite : il donne à l'artiste quelque chose qu'il ne pouvait pas encore comparer. Une phrase jouée à Cologne fait entendre un rythme ; ce rythme permet d'en essayer un autre, puis de reconnaître ce qui convient. Le travail invente ainsi les possibilités sur lesquelles le jugement suivant pourra porter.",
           "III.2 Articuler le jugement technique et l'invention"
         ],
         [
-          "Dire « cela me plaît » ne suffit pourtant pas à prouver un savoir. Il faut que l'artiste puisse éprouver une autre possibilité, comparer deux suites et reconnaître ce que chacune ferait perdre ou gagner à l'ensemble. Il apprend ainsi à juger ce qui naît, même sans posséder une recette du beau.",
+          "Mais cette succession n'est pas une preuve que tout choix serait bon. L'artiste peut s'obstiner dans une mauvaise idée. Comparer deux suites, entendre ce que chacune fait gagner ou perdre et pouvoir revenir en arrière distingue un jugement exercé de la simple préférence pour ce qu'on vient de produire.",
           "III.2 Contre-épreuve de la solution choisie"
         ],
         [

@@ -91,8 +91,8 @@
     "ouvertures_de_pensee": {
       "I": "Une hypothèse peut ainsi être énoncée et comprise avant d'être vérifiée : le langage permet d'ouvrir une recherche précisément là où le savoir fait encore défaut.",
       "II": "L'affirmation ne transmet pas seulement un contenu : elle engage celui qui parle à pouvoir donner des raisons. Sans elles, il laisse croire qu'il sait, même si le hasard lui donne raison.",
-      "III": "Questionner, supposer et affirmer n'engagent pas celui qui parle de la même façon. Il devient possible de parler sans savoir à condition de ne pas faire passer une hypothèse pour un résultat établi.",
-      "statut": "Hypothèses établies à la mesure de leurs preuves ; ne pas transformer une possibilité en certitude."
+      "III": "Distinguer la question, l'hypothèse et l'affirmation ouvre une manière de parler sans se faire passer pour savant. Je peux dire « il se pourrait que » et inviter l'autre à chercher avec moi. Cette parole ne transmet pas un savoir acquis ; elle crée la possibilité de l'examiner et de le construire. Portée : Enquête par hypothèse légitime, avec statut de preuve et conséquences de réception.",
+      "statut": "Test V1.1 : possibilité construite, justification, coût et reste explicités."
     }
   },
   "citations": [
@@ -239,11 +239,11 @@
           "III.2 La démontrer : ce qu’il conserve"
         ],
         [
-          "Parler légitimement sans savoir exige alors de montrer le degré de confiance de ses propos : question, hypothèse, estimation ou résultat établi. Dire « je suppose » ne diminue pas la parole ; cela permet à l'autre de savoir ce qu'il peut en attendre.",
+          "Distinguer la question, l'hypothèse et l'affirmation ouvre une manière de parler sans se faire passer pour savant. Je peux dire « il se pourrait que » et inviter l'autre à chercher avec moi. Cette parole ne transmet pas un savoir acquis ; elle crée la possibilité de l'examiner et de le construire.",
           "III.2 Délimiter ce qu'on peut dire sans prétendre savoir"
         ],
         [
-          "Mais une réserve ne suffit pas lorsqu'un expert parle devant des personnes qui décident de leur sécurité. Il doit rendre compréhensibles les risques et les incertitudes qui importent pour agir. La responsabilité d'une parole dépend aussi de ses conséquences prévisibles.",
+          "Mais une hypothèse annoncée d'un ton péremptoire peut être prise pour une certitude. Le médecin ou l'ingénieur doit donc exposer aussi ce qui manque et ce qui risque d'arriver si l'on se trompe. La liberté de parler sans savoir exige que l'auditeur puisse mesurer la confiance à accorder aux mots.",
           "III.2 Objection forte et détermination de la portée"
         ],
         [

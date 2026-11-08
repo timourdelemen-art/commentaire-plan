@@ -90,8 +90,8 @@
     "ouvertures_de_pensee": {
       "I": "Pour celui qui comprend une démonstration, la vérité n'est pas un assentiment arraché de l'extérieur : il tient lui-même les raisons pour lesquelles il ne peut plus douter de ce qu'il vient d'établir.",
       "II": "Que la dérive continentale ait été vraie avant de convaincre distingue la vérité d'une proposition de la force des preuves dont on dispose à une époque donnée.",
-      "III": "La vérité n'obtient donc pas nécessairement l'accord ; elle fournit le critère auquel les preuves s'exposent et par lequel une conviction peut être corrigée.",
-      "statut": "Hypothèses établies à la mesure de leurs preuves ; ne pas transformer une possibilité en certitude."
+      "III": "La séparation du vrai et de ce qui convainc permet de penser une conviction qui se corrige : même lorsqu'une idée fait l'unanimité, un fait contraire doit pouvoir la remettre en cause. La vérité n'agit pas comme un discours plus persuasif ; elle est ce que les preuves essaient d'atteindre et ce qui oblige à réviser leurs conclusions. Portée de la nouveauté : possibilité de corriger une conviction démontrée, vérité particulière non garantie.",
+      "statut": "Test V1.1 : distinguer possibilité construite, justification, coût et reste ; voir rapport individuel."
     }
   },
   "citations": [
@@ -248,11 +248,11 @@
           "III.2 La démontrer : ce qui fait l’autorité d’une preuve"
         ],
         [
-          "La vérité n'obtient donc pas nécessairement l'accord ; elle fournit le critère auquel les preuves s'exposent et par lequel une conviction peut être corrigée.",
+          "La séparation du vrai et de ce qui convainc permet de penser une conviction qui se corrige : même lorsqu'une idée fait l'unanimité, un fait contraire doit pouvoir la remettre en cause. La vérité n'agit pas comme un discours plus persuasif ; elle est ce que les preuves essaient d'atteindre et ce qui oblige à réviser leurs conclusions.",
           "III.2 Établir la vérité comme norme de correction"
         ],
         [
-          "Une erreur peut pourtant être sincèrement exposée aux tests disponibles et résister longtemps : ce n'est pas l'acceptation de l'épreuve qui la rend vraie. La différence est que la preuve reste révisable par des raisons partageables, là où le discours qui cherche seulement l'adhésion se satisfait de réussir.",
+          "Toutefois, accepter la possibilité d'une réfutation ne rend pas une idée vraie. Une erreur peut résister à tous les tests connus. Ce geste ouvre donc une enquête mieux contrôlée, non une garantie de succès : on peut être justifié aujourd'hui et corrigé demain.",
           "III.2 Éprouver l'objection décisive et consolider la preuve"
         ],
         [

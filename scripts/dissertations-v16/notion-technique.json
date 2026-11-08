@@ -90,8 +90,8 @@
     "ouvertures_de_pensee": {
       "I": "Un savoir-faire n'impose pas à lui seul son emploi : posséder une nouvelle technique paraît donc accroître les moyens disponibles sans obliger à choisir l'un d'eux.",
       "II": "Lorsqu'un usage compromet irréversiblement les possibilités d'autrui, le moyen disponible peut diminuer plutôt qu'accroître la liberté de choisir : être faisable ne suffit pas à le rendre souhaitable.",
-      "III": "La valeur d'un moyen dépend aussi de la possibilité de juger, de corriger ou d'abandonner son usage. Cette exigence protège les choix futurs sans garantir que toute décision de renoncer serait elle-même réversible.",
-      "statut": "Possibilités justifiées, avec leur portée exacte."
+      "III": "La comparaison des risques donne accès à une décision que le seul calcul des effets ne permettait pas : essayer à petite échelle, vérifier, puis corriger ou arrêter. Cette possibilité ne vaut que lorsque l'essai laisse réellement un choix aux personnes concernées et ne leur impose pas d'emblée un dommage irréparable. Portée de la nouveauté : expérimentation corrigible et comparaison des risques de l'action/inaction, aucune garantie de sécurité.",
+      "statut": "Test V1.1 : distinguer possibilité construite, justification, coût et reste ; voir rapport individuel."
     }
   },
   "citations": [
@@ -238,11 +238,11 @@
           "III.2 La démontrer : ce qu’il conserve"
         ],
         [
-          "La valeur d'un moyen dépend aussi de la possibilité de juger, de corriger ou d'abandonner son usage. Cette exigence protège les choix futurs sans garantir que toute décision de renoncer serait elle-même réversible.",
+          "La comparaison des risques donne accès à une décision que le seul calcul des effets ne permettait pas : essayer à petite échelle, vérifier, puis corriger ou arrêter. Cette possibilité ne vaut que lorsque l'essai laisse réellement un choix aux personnes concernées et ne leur impose pas d'emblée un dommage irréparable.",
           "III.2 Fonder la décision sur la liberté préservée"
         ],
         [
-          "Il faut donc comparer les conséquences possibles de l'action et celles du refus d'agir, sans prétendre tout prévoir. Le critère le plus solide réunit la gravité des risques, les possibilités de correction et la part laissée au jugement des personnes concernées.",
+          "Mais s'abstenir peut lui aussi fermer l'avenir : refuser un traitement risqué peut condamner un malade. Il faut donc comparer deux séries de possibles, celles que l'action ouvre ou ferme et celles que le renoncement détruit. Une décision prudente n'est pas une décision sans risque ; c'est une décision qui répond de ce risque.",
           "III.2 Contre-épreuve de la solution choisie"
         ],
         [

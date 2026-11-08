@@ -90,8 +90,8 @@
     "ouvertures_de_pensee": {
       "I": "En s'engageant, on écarte volontairement certaines conduites futures : le choix d'aujourd'hui réduit donc réellement l'éventail des choix de demain, sans qu'une contrainte extérieure soit nécessaire.",
       "II": "La promesse peut néanmoins exprimer une liberté qui ne se confond pas avec chaque désir présent : elle permet de suivre dans le temps une règle que l'on s'est donnée.",
-      "III": "La liberté de l'engagement dépend du jugement que l'on conserve sur sa promesse : s'y tenir par raison n'est pas s'y soumettre aveuglément, et la rompre n'est pas toujours redevenir libre.",
-      "statut": "Possibilités justifiées, avec leur portée exacte."
+      "III": "En distinguant la révision réfléchie de l'impulsion, on peut concevoir ce que les deux premières réponses écartaient : une fidélité qui laisse ouverte la possibilité de juger à nouveau. On peut tenir une promesse parce qu'on la juge encore juste, ou la rompre parce que les raisons de la tenir ont disparu. Portée de la nouveauté : fidélité et révision rationnelle compatibles, sans jugement infaillible sur les impulsions.",
+      "statut": "Test V1.1 : distinguer possibilité construite, justification, coût et reste ; voir rapport individuel."
     }
   },
   "citations": [
@@ -252,11 +252,11 @@
           "III.2 Ce qu’elle conserve"
         ],
         [
-          "La liberté de l'engagement dépend du jugement que l'on conserve sur sa promesse : s'y tenir par raison n'est pas s'y soumettre aveuglément, et la rompre n'est pas toujours redevenir libre.",
+          "En distinguant la révision réfléchie de l'impulsion, on peut concevoir ce que les deux premières réponses écartaient : une fidélité qui laisse ouverte la possibilité de juger à nouveau. On peut tenir une promesse parce qu'on la juge encore juste, ou la rompre parce que les raisons de la tenir ont disparu.",
           "III.2 Articuler fidélité et révision par des raisons"
         ],
         [
-          "Mais je peux déguiser mon envie en raison. Il faut donc comparer mes raisons à des faits que je ne choisis pas, entendre l'objection de celui à qui j'ai promis et demander si je soutiendrais la même décision une fois l'impulsion passée. Ce contrôle ne supprime pas le risque de se tromper ; il empêche de confondre tout changement de désir avec une libération.",
+          "Cette liberté de révision n'est pas un permis de suivre toute envie. Il faut pouvoir expliquer le changement à celui qui comptait sur nous et entendre son objection. Une raison que l'on ne supporte plus dès que l'émotion retombe ne suffit pas à libérer de la promesse.",
           "III.2 Éprouver l'objection décisive et consolider la preuve"
         ],
         [
