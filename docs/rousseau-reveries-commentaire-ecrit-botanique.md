@@ -1,0 +1,40 @@
+# Septième promenade — Quand regarder les plantes cesse de servir à quelque chose
+**Commentaire littéraire — format écrit, extrait continu de la Septième promenade**
+
+**Passage proposé.** Édition critique Spink fournie, PDF pp. 211-212 (pages imprimées 131-132). À partir de « On ne conçoit pas que l'organisation végétale puisse par elle-même mériter quelque attention » jusqu'à « des herbes pour les lavemens ». Le passage développe une critique de la botanique réduite à l'usage médical et s'achève par une opposition entre guirlandes et remèdes. Il faut transcrire **uniquement le texte de Rousseau** : les variantes en pied de page ne sont pas à incorporer à l'extrait. Il s'agit d'un passage substantiel de commentaire écrit ; le découpage n'est pas imposé artificiellement à une strophe ou à un nombre de phrases.
+
+**Problématique.** Comment Rousseau fait-il sentir qu'un regard préoccupé par l'utilité peut rendre aveugle à la beauté même de la nature ?
+
+## Introduction
+
+La Septième promenade des *Rêveries du promeneur solitaire* évoque le plaisir que Rousseau trouve à observer les plantes. Mais le passage ne se contente pas de louer la campagne. Il s'en prend à une manière de regarder qui ne cherche dans le végétal que des remèdes et des profits. L'enjeu est littéraire parce que l'écriture elle-même modifie progressivement l'aspect des choses : aux êtres vivants qu'il serait possible de contempler, elle substitue d'abord les objets d'une pharmacie, puis fait sentir la dégradation de leurs couleurs et de leurs formes. Comment une critique de l'utilité devient-elle ainsi une expérience de la perception ? Nous suivrons la réduction du végétal à une fonction, l'ironie qui retourne cette logique contre elle-même, puis la restitution paradoxale de la beauté par les images mêmes qui la disent détruite.
+
+## I. Un savoir utilitaire qui ne sait plus voir son objet
+
+Le passage prend appui sur une formule étonnante : on ne conçoit pas que l'« organisation végétale » puisse « par elle-même mériter quelque attention ». La plante n'est pas d'abord une chose que la science observerait, puis utiliserait : elle a déjà disparu sous une valeur extérieure, celle du service qu'elle pourrait rendre. Rousseau résume ce défaut de regard par une contradiction : « on n'y voit que ce qu'on n'y voit point », c'est-à-dire des « prétendues vertus » médicinales. La répétition de « voit » avec et sans négation n'est pas un pur jeu verbal. Elle fait apparaître une perception qui se détourne du visible au moment même où elle prétend l'examiner.
+
+Cette logique se prolonge dans l'opposition entre « l'observation de la nature qui ne ment point » et « l'autorité des hommes qui sont menteurs ». La symétrie des propositions refuse une fausse hiérarchie : ce que l'on nomme savoir pourrait être moins exact que l'attention directe aux choses. Mais Rousseau ne s'en tient pas à une thèse philosophique sur l'expérience. Il met en scène les regards de ceux qui verraient un promeneur examiner des fleurs, pour aussitôt l'interroger sur des usages médicaux. La situation est comique parce que la beauté concrète des fleurs ne compte plus : seul subsiste le besoin humain de guérir. Le passage fait ainsi sentir, dans une petite scène, une confiscation de l'objet contemplé.
+
+## II. L'ironie démontre l'absurdité d'un regard exclusivement pratique
+
+La satire gagne progressivement en vivacité. Rousseau fait intervenir un amateur parisien qui, devant un jardin précieux, s'exclame : « voilà un fort beau jardin d'Apothicaire ». L'adjectif « beau » ne suffit plus à célébrer le lieu : le complément « d'Apothicaire » ramène aussitôt la profusion du végétal à un commerce de remèdes. Dans ce mot rapporté se concentre une manière de voir. Le jardin peut être admiré, mais seulement parce qu'on croit y reconnaître un magasin spécialisé. L'effet comique est d'autant plus vif que l'éloge est involontairement réducteur.
+
+Rousseau pousse alors l'argument jusqu'à l'image biblique : « A ce compte, le premier Apothicaire fut Adam. » Le jardin d'Éden, lieu originel de la présence de l'homme au monde, devient l'ancêtre d'une officine. Le raisonnement est volontairement disproportionné. Son absurdité révèle celle du point de départ : si tout jardin remarquable se réduit à une pharmacie, le jardin primordial doit lui-même devenir une boutique. L'ironie détruit le sérieux de la classification utilitaire en l'appliquant à ce qui semblait le plus étranger à elle.
+
+Cette scène ne serait qu'un bon mot si la suite n'en montrait pas les conséquences sur l'expérience sensible. L'image de l'apothicaire n'intervient pas comme une parenthèse : elle prépare un renversement de tout le paysage.
+
+## III. Les verbes de destruction rendent sensible la beauté que le regard utilitaire efface
+
+« Ces idées médicinales » ne sont pas seulement moins plaisantes : elles « flétrissent », « dessèchent » et « rendent [...] insipides » les choses contemplées. Les verbes actifs font porter à une manière de penser des gestes normalement imputables au temps, à la chaleur ou à une force destructrice. Le préjugé atteint les prés comme une atteinte physique. Cette écriture est décisive : Rousseau ne dit pas seulement qu'un esprit préoccupé par les remèdes ne voit pas la beauté ; il nous la fait perdre dans la phrase, presque sous nos yeux.
+
+L'énumération de l'« émail des prés », de l'« éclat des fleurs », de la « fraîcheur des bocages », puis de « la verdure et les ombrages » fait pourtant exister ce qu'elle prétend voir anéanti. La prose convoque couleurs, lumière, densité végétale et sensation de fraîcheur ; les verbes destructeurs les traversent, mais ne les empêchent pas d'apparaître. Voilà l'unité profonde du mouvement : la beauté est présente dans les mots mêmes qui racontent sa disparition. Il ne faudrait pas démembrer ce passage en relevés séparés de champs lexicaux et de métaphores ; c'est leur affrontement continu qui constitue son expérience.
+
+La phrase finale radicalise le contraste. Les « guirlandes pour les bergères » côtoient les « herbes pour les lavemens ». Les mêmes plantes peuvent appartenir à une vie de fête et de relation, ou à l'instrumentation médicale du corps. Le rapprochement fait rire, mais il donne aussi à sentir l'écart entre les deux usages de la nature. Le mot trivial, placé à la fin de cette période pleine d'images charmantes, ne relève pas d'une grossièreté gratuite : il accomplit la réduction du végétal à une fonction organique et révèle ce que le regard a perdu en chemin.
+
+## Conclusion
+
+Rousseau transforme une discussion sur la botanique en épreuve sensible du regard. La répétition paradoxale de « voir », l'anecdote de l'apothicaire et le mouvement final de la phrase conduisent le lecteur de la méconnaissance d'une plante à la dégradation d'un paysage entier. Les détails ne prennent leur sens qu'au sein de cette progression : la prose restitue la beauté précisément en montrant comment l'utilité peut la faire disparaître. Ce passage appartient donc pleinement à la méditation des *Rêveries* sur une attention délivrée de l'intérêt personnel, sans que Rousseau ait besoin de conclure par une maxime générale.
+
+**Contrôle méthodique :** configuration : plantes réduites à leur usage ; transformation organisatrice : le savoir utile devient un défaut de regard ; réalisations non juxtaposées : paradoxe « voir », scène du jardin, processus verbal de flétrissement, chute contrastée. La problématique porte sur l'écriture du passage, et pas seulement sur l'opposition philosophie/utilité. Les accusations générales contre les praticiens de médecine restent celles de Rousseau et ne doivent pas être reprises comme des faits scientifiques.
+
+**Statut :** projet de commentaire composé avec extrait délimité dans l'édition fournie, à soumettre à une dernière collation littérale du texte avant publication sur le site.
