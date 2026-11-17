@@ -60,6 +60,28 @@
     if(j>0)setTimeout(function(){top.scrollIntoView({block:'start'});},0);
     window.addEventListener('hashchange',function(){var k=fromHash();if(k>=0){show(k,false);top.scrollIntoView({block:'start'});}});
   }
-  function init(){[].slice.call(document.querySelectorAll('[data-etapes]')).forEach(setup);}
+
+  function setupIndependentQuiz(card){
+    if(card.dataset.quizMounted==='1')return;
+    card.dataset.quizMounted='1';
+    var opts=card.querySelector('.chaine-opts'),fb=card.querySelector('.chaine-fb');
+    if(!opts||!fb)return;
+    shuffle(opts);
+    [].slice.call(opts.querySelectorAll('.chaine-opt')).forEach(function(b){
+      b.setAttribute('aria-pressed','false');
+      b.addEventListener('click',function(){
+        var v=b.dataset.v;
+        [].slice.call(opts.querySelectorAll('.chaine-opt')).forEach(function(x){x.classList.remove('picked','ok','no','def');x.setAttribute('aria-pressed',x===b?'true':'false');});
+        b.classList.add('picked',v);
+        fb.className='chaine-fb show '+v;
+        fb.innerHTML='<strong>'+(LABEL[v]||'Analyse')+'.</strong> ';
+        fb.appendChild(document.createTextNode(b.dataset.why||''));
+        if(v==='ok'){
+          [].slice.call(opts.querySelectorAll('.chaine-opt')).forEach(function(x){x.disabled=true;});
+        }
+      });
+    });
+  }
+  function init(){[].slice.call(document.querySelectorAll('[data-etapes]')).forEach(setup); [].slice.call(document.querySelectorAll('.brevet-pratique-quiz')).forEach(setupIndependentQuiz);}
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
 })();
