@@ -38,3 +38,10 @@
  .brevet-extrait{padding:18px 22px;margin:20px 0}
  .brevet-extrait .texte-examen p{font-size:17px}
 }
+
+/* Quiz d'entraînement : lisibilité des analyses et des corrections, même sur petit écran. */
+.brevet-pratique-quiz .chaine-opts{margin-top:14px;gap:10px}
+.brevet-pratique-quiz .chaine-opt{white-space:normal;overflow-wrap:break-word;text-align:left;width:100%}
+.brevet-pratique-quiz .chaine-opt:disabled{cursor:default}
+.brevet-pratique-quiz .chaine-fb{margin-bottom:12px}
+@media(max-width:760px){.procedes-pratique .grid-2,.brevet-grammaire-extras .grid-2,.brevet-grammaire-programme .grid-2,.brevet-manipulation-lab .grid-2{grid-template-columns:minmax(0,1fr);gap:14px}.brevet-pratique-quiz .chaine-opt{padding:12px 13px;font-size:16px}}
