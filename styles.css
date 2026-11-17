@@ -2824,3 +2824,8 @@ main :is(.actions,.funnel-actions,.atelier-nav,.chaine-nav){flex-wrap:wrap;row-g
 .sujet-acces{display:flex;gap:8px;flex-wrap:wrap}
 .oeuvre-choix li a.badge,.oeuvre-choix li a.badge-ok{border-bottom:1px solid #9b9488}
 .oeuvre-choix li a.badge-ok{border-color:#596d49}
+
+/* Commentaires annotés : le texte littéraire reste couleur encre ; seules les fonctions sont rouges. */
+.c20 .c20-s > .c20-t, .model-commentary .c20c-view .c20-s > .c20-t,
+.programme-commentaire .c20 .c20-s > .c20-t {color:#1d1b18!important;}
+.c20 .c20-s > .c20-f, .model-commentary .c20c-view .c20-s > .c20-f {color:var(--red,#8e3028);}
