@@ -24,9 +24,9 @@ for k,c in COPIES.items():
 <link rel="stylesheet" href="styles.css"><link rel="canonical" href="https://commentaire-plan.com/{slug}">
 </head><body><header class="top"></header><main class="wrap dc20-page">
 
-<section class="pagehead"><div><div class="kicker">BAC · DISSERTATION · MODÈLE CONDENSÉ</div><h1>Une dissertation guidée<br>sur <em>Pour un oui ou pour un non</em>.</h1>
-<p class="lede">Un modèle condensé sur un vrai sujet du bac : environ {round(nw,-1)} mots. Il montre un parcours argumentatif à approfondir pour une copie de quatre heures ; il ne garantit pas une note de 20/20.</p>
-<div class="boussole" aria-label="Avant de commencer"><p><b>D’où vous partez</b>Un vrai sujet du bac et un modèle condensé.</p><p><b>Ce que vous faites</b>Vous lisez la copie, puis vous affichez la fonction de chaque phrase.</p><p><b>Ce que vous obtenez</b>Le modèle d’une copie courte : chaque phrase a un rôle, aucune ne remplit.</p></div></div>
+<section class="pagehead"><div><div class="kicker">BAC · DISSERTATION · COPIE MODÈLE</div><h1>Une dissertation guidée<br>sur <em>Pour un oui ou pour un non</em>.</h1>
+<p class="lede">Une dissertation sur un sujet du bac, accompagnée de l’analyse de chaque phrase.</p>
+<div class="boussole" aria-label="Avant de commencer"><p><b>D’où vous partez</b>Un sujet du bac et sa copie modèle.</p><p><b>Ce que vous faites</b>Vous lisez la copie, puis vous affichez la fonction de chaque phrase.</p><p><b>Ce que vous obtenez</b>Une copie modèle dans laquelle chaque phrase contribue à la démonstration.</p></div></div>
 <aside class="side-note"><p><strong>Le sujet</strong><br>{c['sujet']}</p><p class="dc20-meta">{c['session']}. Œuvre : Nathalie Sarraute, <em>Pour un oui ou pour un non</em> ; parcours associé : « théâtre et dispute ».{pdf}</p><p class="dc20-badge">Copie rédigée pour le site</p></aside></section>
 
 <section class="offer-band" id="copie"><div class="kicker">LA COPIE</div><h2>{c['titre']}</h2>
