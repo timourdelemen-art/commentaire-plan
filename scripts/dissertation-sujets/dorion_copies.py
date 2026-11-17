@@ -23,7 +23,7 @@ C["dorion"] = dict(
  blocks=[
  ("Introduction",[
   ("« les forêts grincent / et ce gémissement / secoue nos solitudes » : dans "+E+", le grincement des arbres atteint directement ceux qui l’entendent.",INTRO[0]),
-  ("En 1988, Hélène Dorion écrivait déjà qu’elle marche « vers cet arbre qui a quelque chose à dire de l’humain » : l’arbre parlerait de nous, et la poète va à sa rencontre.",INTRO[1]),
+  ("En 1988, Hélène Dorion écrivait déjà qu’elle marche « vers cet arbre qui a quelque chose à dire de l’humain » : l’arbre parlerait de nous, et Dorion va à sa rencontre.",INTRO[1]),
   ("On pourrait penser que la phrase éclaire tout le recueil : les arbres y portent nos blessures, nos souvenirs et nos questions.",INTRO[2]),
   ("Pourtant, Dorion écrit aussi de l’arbre qu’« il n’est rien d’autre que lui-même », et ses forêts abritent d’autres vies que la nôtre.",INTRO[3]),
   ("Dans "+E+", comment l’arbre peut-il dire quelque chose de l’humain sans cesser d’être lui-même ?",INTRO[4]),
@@ -32,15 +32,15 @@ C["dorion"] = dict(
  ("Première partie",[("L’arbre paraît d’abord parler de l’humain parce que ses blessures, ses chutes et ses résistances donnent une forme sensible à nos propres épreuves.","Réponse I : la part de vérité de la citation")]+
   sp("Sa chute ressemble à nos chutes.","Dans « L’arbre », une pluie de tiges « tombe comme on tombe / parfois dans sa propre vie ».","Dans « tombe comme on tombe / parfois dans sa propre vie », la reprise du verbe fait franchir à la chute de l’arbre la frontière du corps humain : un événement visible devient une épreuve vécue. La similitude n’efface pas le choc du mouvement ; elle le prolonge jusque dans notre existence.")),
  (None, sp("Il reçoit notre vie intérieure.","Dans « Le tronc », « les forêts entendent nos rêves / et nos désenchantements ».","La personnification prête aux forêts une écoute, mais le verbe « entendent » n’en fait pas encore des confidentes humaines : il place nos rêves et nos désenchantements dans une durée et une présence qui les dépassent.")),
- (None, sp("La poète finit par ne plus distinguer l’arbre et soi.","Dans « Le silence », elle demande : « suis-je l’arbre suis-je la feuille / grugée par les saisons ».","La question double, sans ponctuation, efface la frontière : l’arbre ne parle plus seulement de l’humain, il en devient l’image même.")),
+ (None, sp("Dorion finit par ne plus distinguer l’arbre et soi.","Dans « Le silence », elle demande : « suis-je l’arbre suis-je la feuille / grugée par les saisons ».","La question double, sans ponctuation, efface la frontière : l’arbre ne parle plus seulement de l’humain, il en devient l’image même.")),
  (None,[("Mais que peut nous dire un arbre qui ne serait que notre miroir ?",T)]),
  ("Deuxième partie",[("Mais un arbre réduit à notre reflet n’aurait plus grand-chose à nous apprendre : c’est aussi dans sa vie propre, étrangère à la nôtre, que sa présence devient signifiante.","Réponse II")]+
-  sp("Dorion le regarde pour lui-même.","Dans « Je m’incline souvent », elle s’arrête devant « la maigre cicatrice de l’écorce » et affirme : « il n’est rien d’autre que lui-même ».","La restriction « rien d’autre que » refuse toute projection : l’arbre a sa propre souffrance, et la poète s’incline devant elle sans se l’approprier.")),
+  sp("Dorion le regarde pour lui-même.","Dans « Je m’incline souvent », elle s’arrête devant « la maigre cicatrice de l’écorce » et affirme : « il n’est rien d’autre que lui-même ».","La restriction « rien d’autre que » refuse toute projection : l’arbre a sa propre souffrance, et Dorion s’incline devant elle sans se l’approprier.")),
  (None, sp("La forêt abrite d’autres vies que la nôtre.","Un poème final de section énumère : « elles sont coyote ours noir orignal / sittelle geai bleu mésange ».","L’accumulation sans virgules fait défiler les bêtes des forêts du Québec : la forêt est un monde peuplé, non un décor pour nos états d’âme.")),
  (None, sp("Cet autre souffre de nous.","Dans « L’onde du chaos », « les oiseaux demandent refuge / à la terre ravagée ».","Le participe « ravagée » désigne une destruction humaine : l’arbre dit l’humain, mais comme une victime parle de son agresseur.")),
  (None,[("Si l’arbre est un autre qui souffre de nous, comment le poème peut-il dire ce qu’il a à dire ?",T)]),
  ("Troisième partie",[("Le recueil peut alors faire entendre l’humain autrement qu’en lui prêtant un simple miroir : par ses déplacements de voix et d’images, le poème laisse l’arbre porter une mémoire partagée sans abolir son altérité.","Réponse III : la réponse à la problématique")]+
-  sp("Le poème est d’abord écoute.","Dans « Je m’incline souvent », la poète s’incline « encore / pour écouter son voyage immobile ».","L’oxymore « voyage immobile » dit ce qu’entend celle qui se tait : la longue histoire d’un être qui ne bouge pas.")),
+  sp("Le poème est d’abord écoute.","Dans « Je m’incline souvent », Dorion s’incline « encore / pour écouter son voyage immobile ».","L’oxymore « voyage immobile » dit ce qu’entend celle qui se tait : la longue histoire d’un être qui ne bouge pas.")),
  (None, sp("Les arbres gardent l’histoire humaine.","« Avant l’horizon » commence ainsi : « La terre a commencé à recueillir nos histoires / dans les arbres et sous la couche d’humus ».","Le verbe « recueillir » fait de l’arbre une archive : ce qu’il a à dire de l’humain, c’est notre passé déposé en lui.")),
  (None, sp("La parole de l’arbre devient enfin celle du poème.","« le temps jamais ne s’arrête / nous dit l’arbre / nous dit la forêt / et sur la branche du présent / un poème murmure ».","La reprise de « nous dit » donne la parole à l’arbre, puis la passe au poème posé sur sa branche : l’arbre parle, et le poème transmet.")),
  ("Conclusion",[
@@ -71,14 +71,14 @@ C["dorion-relation-heureuse"] = dict(
   ("Dans "+E+", le bonheur avec la nature est-il encore possible, quand la relation est blessée ?",INTRO[4]),
   ("La forêt offre bien des moments de joie ; mais la relation est brisée par le temps et par les hommes, et le bonheur devient une quête fragile, que le poème entretient.",INTRO[5]),
  ]),
- ("Première partie",[("La relation à la nature peut d’abord rendre la joie presque immédiate : une lumière, des arbres ou un ciel étoilé suffisent à transformer l’attention de la poète.","Réponse I : la part de vérité du sujet")]+
+ ("Première partie",[("La relation à la nature peut d’abord rendre la joie presque immédiate : une lumière, des arbres ou un ciel étoilé suffisent à transformer l’attention de Dorion.","Réponse I : la part de vérité du sujet")]+
   sp("Un rien suffit au bonheur.","Le premier poème de clôture s’achève sur « si peu me fait vivre / quand c’est plein d’étoiles / et que s’avance le poème ».","L’écart entre « si peu » et « vivre » donne à l’infime une puissance inattendue : des étoiles suffisent, tandis que le poème « s’avance » comme une présence nouvelle. La joie naît de cette disponibilité à ce qui vient, non de la possession durable d’un paysage.")),
- (None, sp("La nature accueille la poète.","« je me suis assise / au milieu de ces vastes alliés », écrit-elle, puis : « je me laisse étreindre ».","Les mots « alliés » et « étreindre » dessinent une proximité sensible avec la forêt, sans garantir une harmonie durable : le même recueil montre un vivant vulnérable, avec lequel le bonheur ne peut être qu’une relation à entretenir.")),
+ (None, sp("La nature accueille le sujet lyrique.","« je me suis assise / au milieu de ces vastes alliés », écrit-elle, puis : « je me laisse étreindre ».","Les mots « alliés » et « étreindre » dessinent une proximité sensible avec la forêt, sans garantir une harmonie durable : le même recueil montre un vivant vulnérable, avec lequel le bonheur ne peut être qu’une relation à entretenir.")),
  (None, sp("La forêt apaise.","Dans « Les vents », « la forêt disperse / nos fatigues ».","Le verbe « disperse » donne à la forêt le pouvoir du vent : elle emporte ce qui pèse sur les hommes.")),
  (None,[("Mais que devient cette joie devant ce que les hommes font de la nature ?",T)]),
  ("Deuxième partie",[("Mais cette joie ne décrit pas toute la relation : la violence faite aux paysages et aux vivants empêche d’en faire l’image d’une paix déjà acquise.","Réponse II")]+
   sp("Le monde est abîmé.","La section « L’onde du chaos » répète « Il fait un temps de bourrasques et de cicatrices / un temps de séisme et de chute ».","L’anaphore de « il fait un temps », tournure de la météo, transforme la crise en climat durable : la blessure est devenue l’air qu’on respire.")),
- (None, sp("La nature elle-même se tait.","« Je n’entends pas le loup / il devrait hurler à la lune », écrit Dorion, « comme si la saison était brisée ».","La négation et le conditionnel « devrait » font entendre une absence : la relation heureuse est celle que la poète ne retrouve plus.")),
+ (None, sp("La nature elle-même se tait.","« Je n’entends pas le loup / il devrait hurler à la lune », écrit Dorion, « comme si la saison était brisée ».","La négation et le conditionnel « devrait » font entendre une absence : la relation heureuse est celle que Dorion ne retrouve plus.")),
  (None, sp("Les hommes en sont responsables.","« Avant l’horizon » le dit sans détour : « on a souillé notre maison / on l’a vendue au plus offrant ».","Le pronom « on » nous inclut tous, et la métaphore de la maison vendue dit une trahison : la nature n’est plus un refuge, mais un bien qu’on a sali.")),
  (None,[("Si la relation est brisée, que reste-t-il du bonheur que le recueil semblait offrir ?",T)]),
  ("Troisième partie",[("Le poème ne résout pas cette contradiction par une consolation facile : ses reprises et ses images préservent la possibilité d’une joie fragile, cherchée au milieu même de ce qui la menace.","Réponse III : la réponse à la problématique")]+
@@ -108,28 +108,28 @@ C["dorion-mystere-liens"] = dict(
  ("Introduction",[
   ("« Dehors, est-ce l’infini / ou juste la nuit ? » : l’épigraphe empruntée à Ann Lauterbach, qui ouvre la première section de "+E+", place le recueil sous le signe d’une question.",INTRO[0]),
   ("Pour Dorion, l’écriture poétique consiste à « interroger le mystère de l’être et celui du monde » et à « recueillir des liens » : questionner sans prétendre répondre, et rassembler ce qui était dispersé.",INTRO[1]),
-  ("On pourrait penser que la formule décrit fidèlement le recueil, où les questions abondent et où la forêt relie la poète au monde.",INTRO[2]),
+  ("On pourrait penser que la formule décrit fidèlement le recueil, où les questions abondent et où la forêt relie Dorion au monde.",INTRO[2]),
   ("Pourtant, les liens y apparaissent d’abord rompus : entre les hommes et la terre, entre les peuples, entre nous et ce que nous regardons sur des écrans.",INTRO[3]),
   ("Dans "+E+", comment recueillir des liens, quand le monde interrogé semble les défaire ?",INTRO[4]),
   ("Le recueil interroge bien le mystère de l’être et du monde ; mais il découvre des liens rompus, et c’est le poème lui-même, par sa forme, qui les recueille et les renoue.",INTRO[5]),
  ]),
- ("Première partie",[("Les questions du recueil accueillent d’abord ce que le monde conserve d’énigmatique : la forêt devient un lieu d’attention où la poète renonce à tout réduire à son propre savoir.","Réponse I : la part de vérité de la citation")]+
-  sp("Elle interroge l’être.","Dans « Le silence », la poète avoue : « je ne sais pas / ce qui se tait en moi ».","« Je ne sais pas » ne résout aucune des questions du poème : placé au milieu des images de l’arbre et de la feuille, cet aveu maintient ouverte la relation entre la vie intérieure et la forêt. Le mystère n’est pas un manque que le poète comblerait, mais ce qui rend encore nécessaire l’écoute.")),
+ ("Première partie",[("Les questions du recueil accueillent d’abord ce que le monde conserve d’énigmatique : la forêt devient un lieu d’attention où Dorion renonce à tout réduire à son propre savoir.","Réponse I : la part de vérité de la citation")]+
+  sp("Elle interroge l’être.","Dans « Le silence », Dorion avoue : « je ne sais pas / ce qui se tait en moi ».","« Je ne sais pas » ne résout aucune des questions du poème : placé au milieu des images de l’arbre et de la feuille, cet aveu maintient ouverte la relation entre la vie intérieure et la forêt. Le mystère n’est pas un manque que le poète comblerait, mais ce qui rend encore nécessaire l’écoute.")),
  (None, sp("Elle interroge le monde.","Dans « Les racines », elle demande : « observent-elles les nuages / pour apprendre / la langue de l’horizon ».","La question prête aux racines une curiosité semblable à la nôtre : le monde aussi semble chercher à comprendre.")),
  (None, sp("Le mystère reste entier.","« L’herbe ne va nulle part / elle devient un monde / où se terrent d’autres mystères / que le nôtre ».","Le pluriel « d’autres mystères » refuse de tout ramener à l’homme : interroger, c’est reconnaître ce qu’on ne comprendra pas.")),
  (None,[("Mais quels liens ce monde interrogé laisse-t-il encore voir ?",T)]),
  ("Deuxième partie",[("Mais interroger ne suffit pas à recueillir des liens : les images de chute et de rupture font apparaître un monde où les relations semblent précisément se défaire.","Réponse II")]+
-  sp("La rupture est inscrite dès le premier poème titré.","« L’horizon » s’ouvre sur « une chute de liens ».","La métaphore fait tomber les liens comme des feuilles : ce que la poète voudrait recueillir est d’abord ce qui se défait.")),
+  sp("La rupture est inscrite dès le premier poème titré.","« L’horizon » s’ouvre sur « une chute de liens ».","La métaphore fait tomber les liens comme des feuilles : ce que Dorion voudrait recueillir est d’abord ce qui se défait.")),
  (None, sp("Nous ne voyons plus le monde.","Les forêts sont un dessin « ignorant les écrans / sur lesquels on les regarde / sans jamais les voir ».","L’opposition entre « regarder » et « voir » dit un lien coupé par l’image : l’écran rapproche la forêt et l’éloigne à la fois.")),
  (None, sp("Les hommes eux-mêmes se sont séparés.","« Avant l’horizon » raconte que « la porte du ciel s’est refermée / sur le babil des peuples / et les peuples se sont séparés ».","L’allusion à Babel fait de la séparation des langues l’origine de tous les liens rompus : l’humanité a perdu sa parole commune.")),
  (None,[("Si les liens se défont partout, où et comment le poème peut-il les recueillir ?",T)]),
  ("Troisième partie",[("L’écriture ne répare pas matériellement les liens rompus ; elle les fait cependant résonner ensemble par ses reprises, ses voisinages et ses déplacements d’images, sans refermer leur mystère.","Réponse III : la réponse à la problématique")]+
-  sp("Le chant relie les choses.","Dans « C’est le bruit du monde », la poète s’adresse à un « tu » qui réunit des « choses muettes et nues / que ton chant accorde / pour éclairer le néant ».","Le verbe « accorde », emprunté à la musique, fait du chant ce qui met ensemble des choses isolées : recueillir des liens, c’est les accorder.")),
+  sp("Le chant relie les choses.","Dans « C’est le bruit du monde », Dorion s’adresse à un « tu » qui réunit des « choses muettes et nues / que ton chant accorde / pour éclairer le néant ».","Le verbe « accorde », emprunté à la musique, fait du chant ce qui met ensemble des choses isolées : recueillir des liens, c’est les accorder.")),
  (None, sp("Le langage refait le lien que l’histoire a défait.","Dans « Avant l’horizon », « on a prononcé le mot famille / on l’a ouvert très grand / jusqu’à l’humanité ».","Le mot devient un espace qu’on agrandit : nommer, c’est relier, de la famille jusqu’à tous les hommes.")),
  (None, sp("La composition du recueil relie enfin ses parties.","Chacune des quatre sections se clôt sur un poème qui commence par « Mes forêts sont ».","Cette anaphore fait résonner les quatre sections sans effacer ce qu’elles opposent : de retour en retour, les forêts se redéfinissent et les liens demeurent à chercher, non magiquement renoués.")),
  ("Conclusion",[
-  ("L’affirmation de Dorion correspond donc à "+E+" : la poète interroge l’être et le monde, mais les liens qu’elle recueille, il lui faut d’abord les voir se rompre.","Conclusion : la réponse"),
-  ("La poète interroge l’être et le monde ; elle y voit les liens se défaire ; et c’est la forme du poème qui les recueille.","Ce que le raisonnement a établi"),
+  ("L’affirmation de Dorion correspond donc à "+E+" : Dorion interroge l’être et le monde, mais les liens qu’elle recueille, il lui faut d’abord les voir se rompre.","Conclusion : la réponse"),
+  ("Dorion interroge l’être et le monde ; elle y voit les liens se défaire ; et c’est la forme du poème qui les recueille.","Ce que le raisonnement a établi"),
   ("Le poème devient alors le lieu où l’on accorde ce qui était séparé : les choses, les mots et les hommes.","Le lien avec le parcours"),
   ("Reste une question : des liens que seul le poème rassemble tiennent-ils encore quand on referme le livre ?","La question qui reste ouverte"),
  ]),
@@ -150,14 +150,14 @@ C["dorion-reconciliation"] = dict(
  ("Introduction",[
   ("« tu écoutes le chant des racines / tu deviens la sève » : dans "+E+", l’être humain qui écoute l’arbre finit par se fondre en lui.",INTRO[0]),
   ("Le sujet demande dans quelle mesure la poésie de Dorion « ouvre une voie vers la réconciliation » entre l’être humain et la nature : une réconciliation suppose une rupture, et « ouvrir une voie » ne dit pas que la paix est faite.",INTRO[1]),
-  ("On pourrait penser que le recueil accomplit cette réconciliation : la poète marche, écoute, devient arbre ou branche.",INTRO[2]),
+  ("On pourrait penser que le recueil accomplit cette réconciliation : Dorion marche, écoute, devient arbre ou branche.",INTRO[2]),
   ("Pourtant, il dit aussi la rupture avec une force rare : une terre souillée, vendue, ravagée par un siècle d’indifférence.",INTRO[3]),
   ("Dans "+E+", comment ouvrir une voie vers la réconciliation, sans effacer la rupture que les hommes ont causée ?",INTRO[4]),
   ("Le recueil fait entrevoir l’union de l’humain et de la nature ; mais il regarde en face la faute humaine, et la réconciliation devient une voie à parcourir, un travail que le poème commence.",INTRO[5]),
  ]),
  ("Première partie",[("La poésie de Dorion rend d’abord pensable un rapprochement avec la nature : écouter les racines et devenir « la sève », c’est éprouver une continuité entre la vie humaine et celle des arbres.","Réponse I : la part de vérité du sujet")]+
-  sp("L’écoute conduit à la fusion.","« tu écoutes le chant des racines / tu deviens la sève ».","Le passage de « écouter » à « devenir » rapproche la poète de l’arbre jusqu’à brouiller leur frontière ; mais cette identification momentanée n’abolit pas la distance entre l’humain et le vivant. Le recueil montrera combien ce lien demeure menacé.")),
- (None, sp("La poète se reconnaît dans le végétal.","« À la table du silence / je suis cette branche / qui avance comme va le vent ».","La métaphore à la première personne (« je suis ») n’est pas une comparaison : la poète se dit branche, et sa vie suit le mouvement de la nature.")),
+  sp("L’écoute conduit à la fusion.","« tu écoutes le chant des racines / tu deviens la sève ».","Le passage de « écouter » à « devenir » rapproche Dorion de l’arbre jusqu’à brouiller leur frontière ; mais cette identification momentanée n’abolit pas la distance entre l’humain et le vivant. Le recueil montrera combien ce lien demeure menacé.")),
+ (None, sp("La voix poétique se reconnaît dans le végétal.","« À la table du silence / je suis cette branche / qui avance comme va le vent ».","La métaphore à la première personne (« je suis ») n’est pas une comparaison : la voix poétique se dit branche, et sa vie suit le mouvement de la nature.")),
  (None, sp("La nature devient une alliée.","« je me suis assise / au milieu de ces vastes alliés / sans voix ».","Le choix d’« alliés » fait des arbres autre chose qu’un décor accueillant : il suppose des existences distinctes capables de se tenir les unes auprès des autres. La réconciliation n’exige donc pas de se confondre avec la forêt ; elle peut commencer par reconnaître sa présence silencieuse.")),
  (None,[("Mais qu’est-ce qui a séparé l’être humain de la nature, pour qu’il faille parler de réconciliation ?",T)]),
  ("Deuxième partie",[("Mais une réconciliation n’aurait aucun sens sans la blessure à réparer : le recueil confronte cette proximité rêvée à la destruction concrète du monde par les hommes.","Réponse II")]+
@@ -192,23 +192,23 @@ C["dorion-chant-personnel"] = dict(
  ("Introduction",[
   ("« la rue Summerside », « la main de ma sœur me rattrape » : dans « Avant la nuit », Hélène Dorion convoque les souvenirs précis de son enfance.",INTRO[0]),
   ("Le sujet demande si "+E+" n’est « seulement » qu’un chant personnel : un poème qui exprimerait la vie et les émotions de celle qui écrit, et rien d’autre.",INTRO[1]),
-  ("On pourrait penser que oui : le titre même porte un possessif, et la poète dit « je » à chaque page.",INTRO[2]),
+  ("On pourrait penser que oui : le titre même porte un possessif, et le recueil fait entendre un « je » à chaque page.",INTRO[2]),
   ("Pourtant, le recueil fait aussi entendre « le bruit du monde », la naissance de l’univers et l’histoire violente de l’humanité.",INTRO[3]),
   ("Dans "+E+", comment un chant si personnel peut-il porter l’histoire du monde ?",INTRO[4]),
   ("Le recueil est bien le chant d’une vie ; mais il s’ouvre au monde et à l’Histoire, et sa forme fait passer de l’un à l’autre, du « je » au « nous ».",INTRO[5]),
  ]),
  ("Première partie",[("Le recueil naît d’abord d’une voix singulière : le possessif « mes » et les souvenirs d’enfance font entendre une existence irremplaçable.","Réponse I : la part de vérité du sujet")]+
   sp("Le titre l’annonce.","Les poèmes de clôture reprennent sans cesse « mes forêts », jusqu’au dernier vers : « et quand je m’y promène / c’est pour prendre le large / vers moi-même ».","Le possessif et le pronom réfléchi encadrent le recueil : les forêts sont d’abord celles d’une personne, et le chemin mène à soi.")),
- (None, sp("La poète chante son enfance.","« Avant la nuit » énumère « la jupe à carreaux », « le cahier rose », « le château de cartes et de silence de mon père ».","L’énumération des lieux et des objets de l’enfance ne raconte pas une biographie ordonnée : elle fait revenir les souvenirs par touches, comme ils surgissent à la mémoire. L’image du « château de cartes et de silence » en révèle la précarité, sans effacer leur présence sensible.")),
+ (None, sp("Dorion chante son enfance.","« Avant la nuit » énumère « la jupe à carreaux », « le cahier rose », « le château de cartes et de silence de mon père ».","L’énumération des lieux et des objets de l’enfance ne raconte pas une biographie ordonnée : elle fait revenir les souvenirs par touches, comme ils surgissent à la mémoire. L’image du « château de cartes et de silence » en révèle la précarité, sans effacer leur présence sensible.")),
  (None, sp("Elle chante ses émotions.","« Je marche entre mes ombres / et ma quête de joie ».","Les possessifs « mes » et « ma » placent la marche entre la peine et l’espoir d’une seule personne : le chant est lyrique au sens le plus strict.")),
  (None,[("Mais quelles voix entend celle qui marche entre ses ombres ?",T)]),
  ("Deuxième partie",[("Mais ce « je » ne chante pas dans un monde désert : les voix de l’Histoire et les violences contemporaines traversent ses souvenirs et défont l’idée d’une confidence seulement privée.","Réponse II")]+
   sp("Le monde contemporain fait irruption.","Dans « C’est le bruit du monde », on entend « sirènes klaxons alarmes du siècle / amas de choses jetables ».","L’accumulation sans virgules juxtapose les bruits de la ville : le chant personnel est envahi par le vacarme d’une époque.")),
- (None, sp("Le recueil remonte aux origines.","« Avant l’aube » commence avant toute vie : « Dans la forêt du temps / il n’y avait rien ».","La métaphore de la « forêt du temps » élargit le titre à l’univers entier : les forêts ne sont plus seulement celles de la poète.")),
- (None, sp("Il dit l’histoire des violences humaines.","« on a arraché des enfants à leur famille / on leur a inculqué nos croyances ».","Le « on » collectif et le verbe « arracher » évoquent une histoire de domination : la poète chante une faute qui engage tout un peuple.")),
+ (None, sp("Le recueil remonte aux origines.","« Avant l’aube » commence avant toute vie : « Dans la forêt du temps / il n’y avait rien ».","La métaphore de la « forêt du temps » élargit le titre à l’univers entier : les forêts ne sont plus seulement celles de Dorion.")),
+ (None, sp("Il dit l’histoire des violences humaines.","« on a arraché des enfants à leur famille / on leur a inculqué nos croyances ».","Le « on » collectif et le verbe « arracher » évoquent une histoire de domination : Dorion chante une faute qui engage tout un peuple.")),
  (None,[("Si le recueil chante à la fois une vie et l’histoire du monde, comment passe-t-il de l’une à l’autre ?",T)]),
  ("Troisième partie",[("Le chant personnel ne disparaît pas dans une parole collective : la circulation du « je » au « nous » fait de l’expérience particulière un lieu de rencontre avec l’histoire des autres.","Réponse III : la réponse à la problématique")]+
-  sp("Un même vers relie l’Histoire et l’enfance.","« Avant l’horizon » contient ces vers : « le plus grand a croisé le plus petit et / d’autres récits ont commencé » ; « Avant la nuit » s’ouvre presque de même : « Le plus grand a croisé le plus petit et / d’autres histoires ont commencé ».","La reprise, d’un poème à l’autre, fait de l’enfance de la poète la suite de l’histoire du monde : le personnel n’est pas à côté de l’universel, il le continue.")),
+  sp("Un même vers relie l’Histoire et l’enfance.","« Avant l’horizon » contient ces vers : « le plus grand a croisé le plus petit et / d’autres récits ont commencé » ; « Avant la nuit » s’ouvre presque de même : « Le plus grand a croisé le plus petit et / d’autres histoires ont commencé ».","La reprise, d’un poème à l’autre, fait de l’enfance de Dorion la suite de l’histoire du monde : le personnel n’est pas à côté de l’universel, il le continue.")),
  (None, sp("Le « je » s’élargit en « nous ».","Le mot « famille », dans « Avant l’horizon », est « ouvert très grand / jusqu’à l’humanité / puis on l’a refermé sur nos intimités ».","Les verbes « ouvert » puis « refermé » refusent une simple montée du « je » vers le collectif : la famille s’étend à l’humanité avant de retrouver « nos intimités ». Le chant personnel devient partageable sans cesser d’être situé.")),
  (None, sp("Le chant personnel accueille d’autres voix.","Le poème passe par « la forêt de Dante » et « le bois de Walden », et chaque section s’ouvre sur une épigraphe empruntée à une autre écrivaine.","Les références font de sa forêt un lieu partagé avec d’autres écrivains : le chant d’une seule voix devient un chœur.")),
  ("Conclusion",[
@@ -225,33 +225,33 @@ C["dorion-metaphore-interiorite"] = dict(
  sujet="« Dans " + E + ", la nature n’est-elle qu’une métaphore de l’intériorité ? »",
  session="Bac de français, juin 2024, voie générale (centres étrangers, groupe 1, sujet 24-FRGEG11), dissertation, sujet C",
  pdf="",
- mot=("« qu’une métaphore de l’intériorité »", "Une métaphore désigne une chose par une autre ; si la nature n’était qu’une métaphore, elle ne servirait qu’à figurer la vie intérieure de la poète, sans exister pour elle-même."),
+ mot=("« qu’une métaphore de l’intériorité »", "Une métaphore désigne une chose par une autre ; si la nature n’était qu’une métaphore, elle ne servirait qu’à figurer la vie intérieure de Dorion, sans exister pour elle-même."),
  preuve=("« la forêt défriche / en moi tant d’années »", 3),
  why=[("Un vrai problème","La nature figure bien la vie intérieure ; mais elle existe aussi pour elle-même, réelle, peuplée et menacée."),
       ("Un plan sur mesure","La forêt intérieure, puis la forêt réelle, enfin une écriture qui renverse la métaphore : la nature transforme l’intériorité au lieu de la représenter."),
       ("Des preuves analysées","La clairière « au-dedans de soi », « ce peu d’écorce qu’est ma vie », les bêtes nommées, la terre ravagée, la pluie qui n’est plus « à l’intérieur ».")],
  blocks=[
  ("Introduction",[
-  ("« les forêts creusent / parfois une clairière / au-dedans de soi » : dans "+E+", la forêt semble se transporter à l’intérieur de la poète.",INTRO[0]),
+  ("« les forêts creusent / parfois une clairière / au-dedans de soi » : dans "+E+", la forêt semble se transporter à l’intérieur de Dorion.",INTRO[0]),
   ("Le sujet demande si la nature n’y est « qu’une métaphore de l’intériorité » : une image qui servirait seulement à figurer la vie intérieure, sans exister pour elle-même.",INTRO[1]),
   ("On pourrait penser que oui : les forêts de Dorion portent ses souvenirs, ses peurs, ses espoirs.",INTRO[2]),
   ("Pourtant, ses forêts sont aussi peuplées d’ours et de mésanges, frappées par les tempêtes et menacées par les hommes.",INTRO[3]),
   ("Dans "+E+", comment la nature peut-elle à la fois figurer l’intériorité et rester une réalité ?",INTRO[4]),
   ("La nature est bien une image de la vie intérieure ; mais elle existe pour elle-même, et c’est en renversant ses propres métaphores que le poème fait de la forêt une force qui transforme l’intériorité.",INTRO[5]),
  ]),
- ("Première partie",[("La nature donne d’abord figure à la vie intérieure : les clairières et les blessures des arbres rendent visibles des états que la poète ne nomme pas directement.","Réponse I : la part de vérité du sujet")]+
+ ("Première partie",[("La nature donne d’abord figure à la vie intérieure : les clairières et les blessures des arbres rendent visibles des états que Dorion ne nomme pas directement.","Réponse I : la part de vérité du sujet")]+
   sp("Le paysage se transporte au-dedans.","Dans « Les feuilles », « les forêts creusent / parfois une clairière / au-dedans de soi ».","La forêt, sujet du verbe « creusent », ouvre elle-même un espace « au-dedans de soi » : elle agit sur l’intimité au lieu de seulement la représenter. « Parfois » interdit d’en faire un apaisement installé ; cette éclaircie demeure intermittente.")),
- (None, sp("La vie devient écorce.","« Entre mes doigts / le nom de l’arbre le nom de la chair / ce peu d’écorce qu’est ma vie ».","En ramenant sa vie à « ce peu d’écorce », la poète ne se contente pas de se comparer à un arbre : elle en emprunte la matière fragile, presque palpable. L’image donne à l’intériorité une surface exposée aux blessures, tout en rappelant que l’écorce appartient d’abord au vivant rencontré.")),
+ (None, sp("La vie devient écorce.","« Entre mes doigts / le nom de l’arbre le nom de la chair / ce peu d’écorce qu’est ma vie ».","En ramenant sa vie à « ce peu d’écorce », Dorion ne se contente pas de se comparer à un arbre : elle en emprunte la matière fragile, presque palpable. L’image donne à l’intériorité une surface exposée aux blessures, tout en rappelant que l’écorce appartient d’abord au vivant rencontré.")),
  (None, sp("Les forêts disent les espoirs.","Le poème d’ouverture affirme : « mes forêts sont mes espoirs debout ».","La métaphore directe, avec le verbe « être », fait des arbres dressés l’image d’une volonté de tenir : la verticalité devient morale.")),
- (None,[("Mais que deviennent ces forêts, quand on les regarde hors de la poète ?",T)]),
+ (None,[("Mais que deviennent ces forêts, quand on les regarde indépendamment de l’intériorité humaine ?",T)]),
  ("Deuxième partie",[("Mais réduire la forêt à un langage de l’intime reviendrait à effacer sa présence propre : le recueil montre aussi une nature peuplée, agissante et exposée aux violences humaines.","Réponse II")]+
   sp("Elle est peuplée de bêtes réelles.","« elles sont coyote ours noir orignal / sittelle geai bleu mésange ».","L’accumulation de noms précis, sans adjectif ni comparaison, fait exister la faune des forêts québécoises : ici, aucune métaphore.")),
- (None, sp("Elle a sa propre vie.","Dorion écrit de l’arbre : « il n’est rien d’autre que lui-même / avec la longue respiration des saisons ».","La restriction « rien d’autre que lui-même » résiste à la réduction de l’arbre à un symbole de l’humain. Elle n’abolit pas toute valeur figurée du poème : elle rappelle que le vivant auquel la poète prête des images conserve une existence propre.")),
+ (None, sp("Elle a sa propre vie.","Dorion écrit de l’arbre : « il n’est rien d’autre que lui-même / avec la longue respiration des saisons ».","La restriction « rien d’autre que lui-même » résiste à la réduction de l’arbre à un symbole de l’humain. Elle n’abolit pas toute valeur figurée du poème : elle rappelle que le vivant auquel la voix poétique prête des images conserve une existence propre.")),
  (None, sp("Elle est réellement menacée.","« les oiseaux demandent refuge / à la terre ravagée ».","Le participe « ravagée » désigne une destruction concrète : la nature n’est pas un état d’âme, c’est un monde qu’on abîme.")),
  (None,[("Si la nature existe pour elle-même, comment le poème peut-il dire son lien avec la vie intérieure ?",T)]),
  ("Troisième partie",[("La métaphore change alors de sens : parce que la forêt agit dans les phrases au lieu de seulement figurer le moi, elle devient une puissance qui transforme la vie intérieure qu’elle semblait refléter.","Réponse III : la réponse à la problématique")]+
-  sp("La forêt agit sur la poète.","Dans « Les brèches », « la forêt défriche / en moi tant d’années ».","Le verbe « défriche » fait de la forêt le sujet de l’action : ce n’est plus l’esprit qui se sert de la nature, c’est la nature qui travaille en lui.")),
- (None, sp("L’intériorité s’ouvre au dehors.","« quand j’ai ouvert les yeux / ce n’était plus à l’intérieur / de moi que la pluie s’immisçait ».","La négation renverse la métaphore : la pluie cesse d’être intérieure pour redevenir réelle, et la poète s’ouvre au monde.")),
+  sp("La forêt transforme la vie intérieure.","Dans « Les brèches », « la forêt défriche / en moi tant d’années ».","Le verbe « défriche » fait de la forêt le sujet de l’action : ce n’est plus l’esprit qui se sert de la nature, c’est la nature qui travaille en lui.")),
+ (None, sp("L’intériorité s’ouvre au dehors.","« quand j’ai ouvert les yeux / ce n’était plus à l’intérieur / de moi que la pluie s’immisçait ».","La négation renverse la métaphore : la pluie cesse d’être intérieure pour redevenir réelle, et Dorion s’ouvre au monde.")),
  (None, sp("L’accord des deux devient une demeure.","« mes forêts sont des rivages / accordés à mes pas la demeure / où respire ma vie ».","Le participe « accordés » dit une harmonie entre deux réalités distinctes : la forêt n’est pas l’image de la vie intérieure, elle est le lieu où elle « respire ».")),
  ("Conclusion",[
   ("Dans "+E+", la nature n’est donc pas qu’une métaphore de l’intériorité : elle la figure, mais elle existe hors d’elle, et elle la transforme.","Conclusion : la réponse"),
@@ -276,7 +276,7 @@ C["dorion-histoire"] = dict(
  ("Introduction",[
   ("« Mes forêts sont le bois usé d’une histoire » : le poème qui clôt « L’onde du chaos » fait des arbres un livre ancien.",INTRO[0]),
   ("Quelques vers plus loin, Dorion écrit : « mes forêts / racontent une histoire » ; raconter, c’est suivre un ordre, et une histoire peut être un récit aussi bien que l’Histoire des hommes.",INTRO[1]),
-  ("On pourrait penser que la citation éclaire tout le recueil, qui retrace la naissance du monde, l’aventure humaine et l’enfance de la poète.",INTRO[2]),
+  ("On pourrait penser que la citation éclaire tout le recueil, qui retrace la naissance du monde, l’aventure humaine et l’enfance de Dorion.",INTRO[2]),
   ("Pourtant, la phrase se poursuit ainsi : cette histoire « sauve et détruit » ; et le recueil, fait de poèmes brefs et de refrains, n’a rien d’un récit suivi.",INTRO[3]),
   ("Dans "+E+", quelle histoire racontent des forêts dont le récit sauve et détruit à la fois ?",INTRO[4]),
   ("Les forêts racontent bien l’histoire du monde ; mais c’est une histoire de violences autant que de naissances, et le poème la raconte à sa manière, en chant, de l’univers jusqu’à l’enfance.",INTRO[5]),
@@ -293,7 +293,7 @@ C["dorion-histoire"] = dict(
  (None,[("Si cette histoire n’avance pas vers un progrès, comment le poème peut-il la raconter ?",T)]),
  ("Troisième partie",[("Puisqu’aucun récit continu ne pourrait refermer une telle histoire, l’écriture la recueille par reprises et changements d’échelle : le chant fait résonner les origines du monde jusque dans une mémoire personnelle.","Réponse III : la réponse à la problématique")]+
   sp("Il raconte par refrains plutôt que par épisodes.","Dans « C’est le bruit du monde », le même distique revient : « c’est le bruit du monde / l’écoulement du temps – ».","Le refrain, suspendu par un tiret, fait entendre le temps qui coule plutôt qu’il ne le découpe : l’histoire est rythme avant d’être récit.")),
- (None, sp("Il relie la grande histoire et la petite.","« Avant la nuit » s’ouvre sur « Le plus grand a croisé le plus petit et / d’autres histoires ont commencé », puis raconte l’enfance de la poète.","Le vers charnière fait entrer une vie dans l’histoire du monde : l’histoire que racontent les forêts devient aussi la sienne.")),
+ (None, sp("Il relie la grande histoire et la petite.","« Avant la nuit » s’ouvre sur « Le plus grand a croisé le plus petit et / d’autres histoires ont commencé », puis raconte l’enfance de Dorion.","Le vers charnière fait entrer une vie dans l’histoire du monde : l’histoire que racontent les forêts devient aussi la sienne.")),
  (None, sp("Il laisse la fin ouverte.","Le poème de la citation s’achève sur « nous dénouons nous réparons / ce que nous pouvons ».","Le présent et le « nous » changent le récit en action : l’histoire n’est pas close, elle dépend de ce que nous ferons.")),
  ("Conclusion",[
   ("La citation éclaire donc "+E+" : les forêts racontent une histoire, celle du monde et d’une vie, mais une histoire qui sauve et détruit, et qui reste à écrire.","Conclusion : la réponse"),
@@ -317,17 +317,17 @@ C["dorion-promenades"] = dict(
  blocks=[
  ("Introduction",[
   ("« et quand je m’y promène / c’est pour prendre le large / vers moi-même » : ces trois vers terminent "+E+".",INTRO[0]),
-  ("Le sujet demande si les promenades de la poète ne sont « qu’un voyage à l’intérieur de soi » : une méditation sur soi, plutôt qu’une découverte du monde.",INTRO[1]),
-  ("On pourrait penser que oui : la poète marche avec ses ombres, ses souvenirs et ses questions, et la forêt la ramène à elle-même.",INTRO[2]),
+  ("Le sujet demande si les promenades de Dorion ne sont « qu’un voyage à l’intérieur de soi » : une méditation sur soi, plutôt qu’une découverte du monde.",INTRO[1]),
+  ("On pourrait penser que oui : Dorion marche avec ses ombres, ses souvenirs et ses questions, et la forêt la ramène à elle-même.",INTRO[2]),
   ("Pourtant, « prendre le large » veut d’abord dire partir au loin, et ses promenades la conduisent vers des arbres, des bêtes, et le bruit du monde.",INTRO[3]),
   ("Dans "+E+", comment une promenade peut-elle à la fois mener au loin et reconduire vers soi ?",INTRO[4]),
   ("Les promenades de Dorion sont bien un voyage intérieur ; mais elles ouvrent sur le monde, et ce sont les images du poème, celles du large et du passage, qui font de ce détour le chemin vers soi.",INTRO[5]),
  ]),
- ("Première partie",[("La promenade conduit d’abord la poète vers sa propre vie : marcher dans les forêts, c’est rencontrer des souvenirs et des ombres que le paysage rend sensibles.","Réponse I : la part de vérité du sujet")]+
+ ("Première partie",[("La promenade conduit d’abord Dorion vers sa propre vie : marcher dans les forêts, c’est rencontrer des souvenirs et des ombres que le paysage rend sensibles.","Réponse I : la part de vérité du sujet")]+
   sp("Marcher, c’est descendre en soi.","Au début de « L’onde du chaos », le jour finit « quand s’amorce la descente / vers soi ».","Placée en fin de vers, la « descente » prolonge le mouvement du paysage jusque dans l’expérience intime ; elle ne suffit pourtant pas, à elle seule, à transformer toute promenade en introspection. C’est la continuité entre le chemin parcouru et ce qu’il fait éprouver qui importe.")),
  (None, sp("La marche suit les états d’âme.","« Je marche entre mes ombres / et ma quête de joie ».","La préposition « entre » ne situe pas seulement une marche dans l’espace : elle tient le sujet à distance égale de ce qui l’assombrit et de ce qui l’attire. Le paysage devient sensible comme un cheminement intérieur, sans que sa réalité extérieure disparaisse pour autant.")),
- (None, sp("Le passé accompagne la promenade.","Dans « Le silence », la poète marche « avec les ombres de ma vie / comme de lourds oiseaux / qui dévorent les promesses ».","La comparaison fait des souvenirs des compagnons pesants : on se promène avec soi-même autant que dans la forêt.")),
- (None,[("Mais que rencontre la poète, en marchant, hors de ses propres ombres ?",T)]),
+ (None, sp("Le passé accompagne la promenade.","Dans « Le silence », Dorion marche « avec les ombres de ma vie / comme de lourds oiseaux / qui dévorent les promesses ».","La comparaison fait des souvenirs des compagnons pesants : on se promène avec soi-même autant que dans la forêt.")),
+ (None,[("Mais que rencontre Dorion, en marchant, hors de ses propres ombres ?",T)]),
  ("Deuxième partie",[("Mais le détour par soi ne suffit pas à définir cette marche : les rencontres avec les arbres et les autres vivants lui donnent une direction qui échappe à la seule introspection.","Réponse II")]+
   sp("Elle s’arrête devant d’autres vivants.","« je me suis assise / au milieu de ces vastes alliés / sans voix ».","Le verbe « assise » interrompt la marche : la promenade devient rencontre, et les arbres sont des « alliés », non des reflets.")),
  (None, sp("Elle écoute les arbres pour eux-mêmes.","« j’écoute le monde qui bruit / à travers les arbres seuls / comme des êtres occupés / à devenir leur forme singulière ».","La comparaison avec des « êtres » qui deviennent « leur forme singulière » tourne l’attention vers le dehors : chaque arbre a sa propre aventure.")),
@@ -360,14 +360,14 @@ C["dorion-intimite"] = dict(
  ("Introduction",[
   ("« mes forêts sont des greniers peuplés de fantômes » : dès le poème d’ouverture, les forêts de Dorion ressemblent à une maison pleine de souvenirs.",INTRO[0]),
   ("Le sujet cite une autre définition, « mes forêts sont des rivages / accordés à mes pas la demeure / où respire ma vie », et y voit le « lieu de l’intimité » : un lieu où l’on habite, où l’on vit librement.",INTRO[1]),
-  ("On pourrait penser que cette définition correspond au recueil, où la forêt accueille les souvenirs, les espoirs et les pas de la poète.",INTRO[2]),
+  ("On pourrait penser que cette définition correspond au recueil, où la forêt accueille les souvenirs, les espoirs et les pas de Dorion.",INTRO[2]),
   ("Pourtant, les forêts y sont aussi des « cages de solitude » et des « maisons sans famille », et le monde y fait irruption avec ses écrans et ses ravages.",INTRO[3]),
   ("Dans "+E+", que devient l’intimité, dans une demeure qui enferme et que le monde envahit ?",INTRO[4]),
   ("Les forêts sont bien le lieu de l’intimité ; mais cette demeure peut enfermer, et ce sont les images du poème qui en font un rivage ouvert.",INTRO[5]),
  ]),
- ("Première partie",[("Les forêts apparaissent d’abord comme une demeure intime : elles abritent souvenirs et pas de la poète, et leurs images donnent un espace à ce qui se vit au-dedans.","Réponse I : la part de vérité du sujet")]+
+ ("Première partie",[("Les forêts apparaissent d’abord comme une demeure intime : elles abritent souvenirs et pas de Dorion, et leurs images donnent un espace à ce qui se vit au-dedans.","Réponse I : la part de vérité du sujet")]+
   sp("Elles gardent la mémoire.","Le poème d’ouverture les décrit comme « des greniers peuplés de fantômes ».","En nommant les forêts des « greniers peuplés de fantômes », Dorion fait d’un espace végétal le lieu où s’entassent des présences anciennes : le grenier garde, tandis que les « fantômes » troublent ce qui semblait conservé. L’intimité naît ainsi d’une mémoire habitée, non d’un refuge parfaitement paisible.")),
- (None, sp("Elles abritent les espoirs.","« mes forêts sont mes espoirs debout ».","Le possessif répété et l’adjectif « debout » font des arbres la part la plus personnelle de la poète : ce qu’elle attend encore.")),
+ (None, sp("Elles abritent les espoirs.","« mes forêts sont mes espoirs debout ».","Le possessif répété et l’adjectif « debout » font des arbres la part la plus personnelle de Dorion : ce qu’elle attend encore.")),
  (None, sp("On y respire.","La citation fait de la forêt « la demeure / où respire ma vie ».","Le verbe « respire » donne à l’intimité un rythme vital : la forêt n’est pas un décor, mais l’espace où la vie peut être elle-même.")),
  (None,[("Mais de quoi cette demeure protège-t-elle celle qui l’habite ?",T)]),
  ("Deuxième partie",[("Mais habiter une forêt n’est pas nécessairement s’y trouver protégée : les images de l’enfermement et les irruptions du monde troublent l’idée d’un refuge assuré.","Réponse II")]+
