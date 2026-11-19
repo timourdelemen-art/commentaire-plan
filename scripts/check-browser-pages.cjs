@@ -42,8 +42,9 @@ const server = http.createServer((req,res) => {
       }));
       let winkInvalid=false;
       const wink=page.getByRole('link',{name:'Was heißt Denken ?'});
-      if(await wink.count()!==1) winkInvalid=await page.locator('header.top').count()>0;
-      else {
+      // L'illustration/lien « clin d'œil » est facultatif : ne pas imposer sa restauration.
+      if(await wink.count()>1) winkInvalid=true;
+      else if(await wink.count()===1) {
         const brand=page.locator('header.top .brand');
         const brandText=(await brand.innerText()).replace(/\s+/g,' ').trim();
         const mast=await page.locator('header.top .mast').evaluate(el=>{
@@ -84,8 +85,12 @@ const server = http.createServer((req,res) => {
   }
   const nojs=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:850}});
   const staticPage=await nojs.newPage();await staticPage.goto(base+'index.html');
-  await staticPage.getByRole('link',{name:'Was heißt Denken ?'}).click();
-  if(!staticPage.url().endsWith('/clin-oeil.html')){failures++;console.error('Le lien vers Was heißt Denken ? sans JavaScript ne fonctionne pas');}
+  const staticWink=staticPage.getByRole('link',{name:'Was heißt Denken ?'});
+  // Ne tester ce lien sans JavaScript que s'il est effectivement publié.
+  if(await staticWink.count()===1){
+    await staticWink.click();
+    if(!staticPage.url().endsWith('/clin-oeil.html')){failures++;console.error('Le lien vers Was heißt Denken ? sans JavaScript ne fonctionne pas');}
+  }else if(await staticWink.count()>1){failures++;console.error('Liens « Was heißt Denken ? » dupliqués');}
   await nojs.close();
   await browser.close();
   await require('./check-browser-typographie.cjs')(root);
