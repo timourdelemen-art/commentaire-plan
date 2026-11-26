@@ -62,6 +62,18 @@ document.addEventListener('DOMContentLoaded',()=> {
     ]
   ],
   [
+    "methodes.html",
+    "MÉTHODES",
+    "lire · penser · écrire",
+    [
+      ["manuel-procedes.html","Petit manuel des procédés","Chercher et expliquer un effet dans le texte"],
+      ["commentaire-bac-methode.html","Méthode du commentaire","De la lecture à la rédaction"],
+      ["philosophie-diagnostic.html","Méthode de philosophie","Construire un problème et une réflexion"],
+      ["pot-bouille-professeurs.html","Séquence Pot-Bouille","Une progression pour les enseignants"],
+      ["methode-cours.html","Tous les cours de méthode","Brevet, Seconde, bac, philosophie et HLP"]
+    ]
+  ],
+  [
     "philosophie.html",
     "PHILOSOPHIE",
     "dissertation · explication",
@@ -196,6 +208,7 @@ const portals=navigation.map(([href,label,sub,items])=>portal(href,label,sub,ite
     <a href="philosophie.html"><strong>Philosophie</strong><span>Dissertation · explication de texte</span></a>
     <a href="hlp.html"><strong>HLP</strong><span>Première · Terminale · annales</span></a>
     <a href="brevet.html"><strong>Brevet</strong><span>Compréhension · langue · rédaction</span></a>
+    <a href="methodes.html"><strong>Méthodes</strong><span>Lire · penser · écrire</span></a>
     <a href="bibliotheque.html"><strong>Bibliothèque</strong><span>Littérature · philosophie</span></a>
     <a href="annales.html"><strong>Annales</strong><span>Sujets officiels et corrigés</span></a>
   </nav>`;
