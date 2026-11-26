@@ -185,6 +185,7 @@ document.addEventListener('DOMContentLoaded',()=> {
   ]
 ];
 function navigationActive(href, base){
+  if(href==='methodes.html') return /^(methodes|methode-cours|methode-brevet|methode-seconde|methode-hlp|manuel-procedes|bac-commentaire-procedes|bac-commentaire-procedes-entrainement|parcours)$/.test(base);
   if(href==='bibliotheque.html') return /^bibliotheque/.test(base)||base==='philosophie-banque.html';
   if(href==='annales.html') return /^(annales|anthologie-bac|anthologie-brevet|philosophie-annale|hlp-annales|bac-20|hlp-20|hlp-sujet-zero)/.test(base);
   if(navigationActive('bibliotheque.html',base)||navigationActive('annales.html',base)) return false;
