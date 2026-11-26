@@ -113,6 +113,31 @@ function staticHeader(file){
     ]
   ],
   [
+    "methodes.html",
+    "MÉTHODES",
+    "lire · penser · écrire",
+    [
+      ["methodes.html","Vue d’ensemble des méthodes","Français, philosophie, HLP et ressources enseignants"],
+      ["commentaire-bac-methode.html","Méthode du commentaire","De la lecture à la problématique et au plan"],
+      ["manuel-procedes.html","Petit manuel des procédés","Définitions, exemples et effets"],
+      ["bac-commentaire-procedes.html","Procédés et effets","Relier forme, effet et interprétation"],
+      ["methode-cours.html","Tous les cours de méthode","Brevet, Seconde, bac, philosophie et HLP"]
+    ]
+  ],
+  [
+    "enseignants.html",
+    "ENSEIGNANTS",
+    "3e · 2de · 1re · Tle",
+    [
+      ["enseignants.html#troisieme","Ressources de 3e","Brevet, langue et rédaction"],
+      ["enseignants.html#seconde","Ressources de Seconde","Lecture, commentaire et langue"],
+      ["enseignants.html#premiere","Ressources de Première","Bac écrit et oral"],
+      ["philosophie.html","Ressources de Terminale","Philosophie : problématisation et dissertation"],
+      ["hlp-professeurs.html","Ressources HLP","Première et Terminale, annales avec corrections"],
+      ["bibliotheque.html","Ouvrir la bibliothèque","Retrouver les documents et ressources"]
+    ]
+  ],
+  [
     "brevet.html",
     "BREVET",
     "lecture · langue · rédaction",
@@ -185,6 +210,8 @@ function staticHeader(file){
   ]
 ];
 function navigationActive(href, base){
+  if(href==='methodes.html') return /^(methodes|methode-cours|methode-brevet|methode-seconde|methode-hlp|manuel-procedes|bac-commentaire-procedes|bac-commentaire-procedes-entrainement|laboratoire-effet-ici|parcours)$/.test(base);
+  if(href==='enseignants.html') return /^(enseignants|formation|hlp-professeurs|pot-bouille-professeurs|sequence-pot-bouille)$/.test(base);
   if(href==='bibliotheque.html') return /^bibliotheque/.test(base)||base==='philosophie-banque.html';
   if(href==='annales.html') return /^(annales|anthologie-bac|anthologie-brevet|philosophie-annale|hlp-annales|bac-20|hlp-20|hlp-sujet-zero)/.test(base);
   if(navigationActive('bibliotheque.html',base)||navigationActive('annales.html',base)) return false;
@@ -205,6 +232,8 @@ const portals=navigation.map(([href,label,sub,items])=>portal(file,href,label,su
     <a href="/philosophie.html"><strong>Philosophie</strong><span>Dissertation · explication de texte</span></a>
     <a href="/hlp.html"><strong>HLP</strong><span>Première · Terminale · annales</span></a>
     <a href="/brevet.html"><strong>Brevet</strong><span>Compréhension · langue · rédaction</span></a>
+    <a href="/methodes.html"><strong>Méthodes</strong><span>Lire · penser · écrire</span></a>
+    <a href="/enseignants.html"><strong>Enseignants</strong><span>Ressources et séquences</span></a>
     <a href="/bibliotheque.html"><strong>Bibliothèque</strong><span>Littérature · philosophie</span></a>
     <a href="/annales.html"><strong>Annales</strong><span>Sujets officiels et corrigés</span></a>
   </nav>
