@@ -34,165 +34,22 @@ document.addEventListener('DOMContentLoaded',()=> {
     </div>`;
 
   const navigation=[
-  [
-    "bac.html",
-    "FRANÇAIS",
-    "écrit · oral",
-    [
-      [
-        "bac-commentaire.html",
-        "Commentaire",
-        "Lire, analyser et rédiger"
-      ],
-      [
-        "bac-dissertation.html",
-        "Dissertation",
-        "Construire une réflexion sur une œuvre"
-      ],
-      [
-        "bac-oral.html",
-        "Oral",
-        "Préparer les deux parties de l’épreuve"
-      ],
-      [
-        "methode-cours.html",
-        "Méthodes et exercices",
-        "Choisir un geste à travailler"
-      ]
-    ]
-  ],
-  [
-    "methodes.html",
-    "MÉTHODES",
-    "lire · penser · écrire",
-    [
-      ["manuel-procedes.html","Petit manuel des procédés","Chercher et expliquer un effet dans le texte"],
-      ["commentaire-bac-methode.html","Méthode du commentaire","De la lecture à la rédaction"],
-      ["philosophie-diagnostic.html","Méthode de philosophie","Construire un problème et une réflexion"],
-      ["pot-bouille-professeurs.html","Séquence Pot-Bouille","Une progression pour les enseignants"],
-      ["methode-cours.html","Tous les cours de méthode","Brevet, Seconde, bac, philosophie et HLP"]
-    ]
-  ],
-  [
-    "philosophie.html",
-    "PHILOSOPHIE",
-    "dissertation · explication",
-    [
-      [
-        "philosophie-dissertation-parcours.html",
-        "Dissertation",
-        "Trouver le problème, construire le plan et rédiger"
-      ],
-      [
-        "philosophie-explication.html",
-        "Explication de texte",
-        "Lire le passage, l’expliquer et rédiger"
-      ]
-    ]
-  ],
-  [
-    "hlp.html",
-    "HLP",
-    "première · terminale",
-    [
-      [
-        "hlp-premiere.html",
-        "Première",
-        "La parole et les représentations du monde"
-      ],
-      [
-        "hlp-terminale.html",
-        "Terminale",
-        "La recherche de soi, l’Humanité en question"
-      ],
-      [
-        "hlp-ecrire.html",
-        "Interprétation et essai",
-        "Les exercices propres à HLP"
-      ]
-    ]
-  ],
-  [
-    "brevet.html",
-    "BREVET",
-    "lecture · langue · rédaction",
-    [
-      [
-        "brevet-comprehension.html",
-        "Compréhension",
-        "Répondre, citer, expliquer"
-      ],
-      [
-        "brevet-grammaire.html",
-        "Grammaire",
-        "Analyser et manipuler"
-      ],
-      [
-        "brevet-reecriture.html",
-        "Réécriture",
-        "Transformer en conservant les accords"
-      ],
-      [
-        "brevet-redaction.html",
-        "Rédaction",
-        "Imaginer ou argumenter"
-      ]
-    ]
-  ],
-  [
-    "bibliotheque.html",
-    "BIBLIOTHÈQUE",
-    "littérature · philosophie",
-    [
-      [
-        "bibliotheque-dissertation.html",
-        "Lettres",
-        "Citations : dissertation et commentaire"
-      ],
-      [
-        "philosophie-banque.html",
-        "Philosophie",
-        "Références commentées et exercices"
-      ]
-    ]
-  ],
-  [
-    "annales.html",
-    "ANNALES",
-    "sujets officiels",
-    [
-      [
-        "annales-bac.html",
-        "Bac de français",
-        "Sujets et corrigés par session"
-      ],
-      [
-        "philosophie-annales.html",
-        "Philosophie",
-        "Dissertations et explications de texte"
-      ],
-      [
-        "hlp-annales.html",
-        "HLP",
-        "Interprétation et essai"
-      ],
-      [
-        "brevet.html#brevet-sujets",
-        "Brevet",
-        "Sujets officiels de français"
-      ]
-    ]
-  ]
+ ["bac.html","FRANÇAIS","écrit · oral",[["bac-commentaire.html","Commentaire","Lire, analyser et rédiger"],["bac-dissertation.html","Dissertation","Construire une réflexion sur une œuvre"],["bac-oral.html","Oral","Préparer les deux parties de l’épreuve"],["annales-bac.html","Annales","Sujets et corrigés"],["oeuvres-integrales.html","Œuvres","Parcours de lecture et dissertation"]]],
+ ["philosophie.html","PHILOSOPHIE","dissertation · explication",[["philosophie-diagnostic.html","Commencer ici","Repérer sa difficulté"],["philosophie-dissertation-parcours.html","Dissertation","Problème, plan et rédaction"],["philosophie-explication.html","Explication de texte","Lire et expliquer un texte"],["philosophie-laboratoire.html","Laboratoire","Exercices ciblés"],["philosophie-notions.html","Notions","Les notions et leurs sujets"]]],
+ ["hlp.html","HLP","première · terminale",[["hlp-premiere.html","Première","La parole et les représentations du monde"],["hlp-terminale.html","Terminale","La recherche de soi, l’Humanité en question"],["hlp-ecrire.html","Interprétation et essai","Les exercices propres à HLP"],["hlp-professeurs.html","Espace professeurs","Ressources pour préparer les cours"],["hlp-annales.html","Annales","Sujets et corrigés"]]],
+ ["brevet.html","BREVET","lecture · langue · rédaction",[["brevet-lecture-parcours.html","Parcours de lecture","Questions guidées et corrigées"],["brevet-comprehension.html","Compréhension","Répondre, citer, expliquer"],["brevet-grammaire.html","Grammaire","Analyser et manipuler"],["brevet-reecriture.html","Réécriture","Transformer en conservant les accords"],["brevet-redaction.html","Rédaction","Imaginer ou argumenter"]]],
+ ["methodes.html","MÉTHODES","lire · penser · écrire",[["methodes.html","Vue d’ensemble","Les démarches du site"],["commentaire-bac-methode.html","Méthode du commentaire","De la lecture à la rédaction"],["manuel-procedes.html","Petit manuel des procédés","Définitions, exemples et effets"],["philosophie-diagnostic.html","Méthode de philosophie","Construire un problème et une réflexion"],["methode-cours.html","Cours de méthode","Brevet, Seconde, bac et HLP"]]],
+ ["enseignants.html","ENSEIGNANTS","3e · 2de · 1re · Tle",[["enseignants.html#troisieme","Troisième","Lecture, langue et préparation au brevet"],["enseignants.html#seconde","Seconde","Œuvres, lecture et premiers commentaires"],["enseignants.html#premiere","Première","Œuvres au programme et épreuves du bac"],["philosophie-professeurs.html","Terminale · philosophie","Préparer et conduire les séquences"],["hlp-professeurs.html","HLP","Ressources de Première et Terminale"],["pot-bouille-professeurs.html","Séquence complète","Pot-Bouille : progression et corrigés"]]],
+ ["bibliotheque.html","RESSOURCES","bibliothèque · annales",[["bibliotheque.html","Bibliothèque","Textes, œuvres et références"],["annales.html","Toutes les annales","Sujets officiels et corrigés"],["bibliotheque-dissertation.html","Bibliothèque littéraire","Citations et parcours"],["philosophie-banque.html","Banque de philosophie","Références commentées et exercices"]]]
 ];
 function navigationActive(href, base){
-  if(href==='methodes.html') return /^(methodes|methode-cours|methode-brevet|methode-seconde|methode-hlp|manuel-procedes|bac-commentaire-procedes|bac-commentaire-procedes-entrainement|parcours)$/.test(base);
-  if(href==='bibliotheque.html') return /^bibliotheque/.test(base)||base==='philosophie-banque.html';
-  if(href==='annales.html') return /^(annales|anthologie-bac|anthologie-brevet|philosophie-annale|hlp-annales|bac-20|hlp-20|hlp-sujet-zero)/.test(base);
-  if(navigationActive('bibliotheque.html',base)||navigationActive('annales.html',base)) return false;
-  if(href==='philosophie.html') return /^(philosophie|dissertation-philosophie)/.test(base);
-  if(href==='hlp.html') return /^hlp/.test(base);
-  if(href==='brevet.html') return /^brevet/.test(base);
-  return /^(bac|commentaire|pot-bouille|oeuvres-integrales)/.test(base);
+ if(href==='methodes.html') return /^(methodes|methode-cours|methode-brevet|methode-seconde|methode-hlp|manuel-procedes|bac-commentaire-procedes|bac-commentaire-procedes-entrainement|parcours)$/.test(base);
+ if(href==='bibliotheque.html') return /^(bibliotheque|annales|philosophie-banque)/.test(base)||/^annales-/.test(base);
+ if(href==='enseignants.html') return /^(enseignants|formation|pot-bouille-professeurs|sequence-pot-bouille|philosophie-professeurs|hlp-professeurs)$/.test(base);
+ if(href==='philosophie.html') return /^(philosophie|dissertation-philosophie)/.test(base);
+ if(href==='hlp.html') return /^hlp/.test(base);
+ if(href==='brevet.html') return /^brevet/.test(base)||base==='anthologie-brevet.html';
+ return /^(bac|commentaire|pot-bouille|oeuvres-integrales)/.test(base);
 }
 const portals=navigation.map(([href,label,sub,items])=>portal(href,label,sub,items,navigationActive(href,path)?'active':'')).join('');
 
@@ -205,14 +62,14 @@ const portals=navigation.map(([href,label,sub,items])=>portal(href,label,sub,ite
     <button class="mobile-nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav">Menu</button>
   </div>
   <nav id="mobile-nav" class="mobile-nav wrap" aria-label="Navigation mobile" hidden>
-    <a href="bac.html"><strong>Bac français</strong><span>Commentaire · dissertation · oral</span></a>
+    <a href="bac.html"><strong>Français</strong><span>Commentaire · dissertation · oral</span></a>
     <a href="philosophie.html"><strong>Philosophie</strong><span>Dissertation · explication de texte</span></a>
-    <a href="hlp.html"><strong>HLP</strong><span>Première · Terminale · annales</span></a>
-    <a href="brevet.html"><strong>Brevet</strong><span>Compréhension · langue · rédaction</span></a>
+    <a href="hlp.html"><strong>HLP</strong><span>Première · Terminale</span></a>
+    <a href="brevet.html"><strong>Brevet</strong><span>Lecture · langue · rédaction</span></a>
     <a href="methodes.html"><strong>Méthodes</strong><span>Lire · penser · écrire</span></a>
-    <a href="bibliotheque.html"><strong>Bibliothèque</strong><span>Littérature · philosophie</span></a>
-    <a href="annales.html"><strong>Annales</strong><span>Sujets officiels et corrigés</span></a>
-  </nav>`;
+    <a href="enseignants.html"><strong>Enseignants</strong><span>Séquences et ressources par niveau</span></a>
+    <a href="bibliotheque.html"><strong>Ressources</strong><span>Bibliothèque · annales · références</span></a>
+  </nav>`
 
   const mobileToggle=header.querySelector('.mobile-nav-toggle');
   const mobileNav=header.querySelector('#mobile-nav');
