@@ -1,6 +1,6 @@
 # HLP : références, audit et progression
 
-Vérification le 11 octobre 2026. PR #126, sans fusion ni déploiement. Source : `scripts/hlp-parcours-data.json` ; construction : `scripts/build-hlp-parcours.js`. Modèles originaux proposés à la relecture, sans notation authentique par un jury.
+Audit initial du 11 octobre 2026, mis à jour le 27 novembre 2026. La mention de PR #126 sans fusion ni déploiement décrit l’état du chantier à la date de l’audit initial, non l’état actuel du dépôt. Source : `scripts/hlp-parcours-data.json` ; construction : `scripts/build-hlp-parcours.js`. Modèles originaux proposés à la relecture, sans notation authentique par un jury.
 
 ## Cadres distincts
 
