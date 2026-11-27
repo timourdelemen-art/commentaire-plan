@@ -47,7 +47,7 @@
     "III": {
       "operation": "critère de frontière (III.7 a).",
       "III1": "Distinguer, dans une recherche, ce qu’elle demande (question, moyens, diffusion) et ce qu’elle trouve (la réponse) : l’utilité peut régler le premier, jamais le second.",
-      "III2": "Le choix des priorités engage des ressources communes et relève d’une délibération sur les fins ; la conclusion doit répondre aux faits et aux preuves. Explique LA (l’utilité ne peut fixer les résultats inconnus) et LB (la fidélité au vrai ne décide pas des priorités ni de la diffusion). L’affaire Lyssenko montre le danger d’une utilité politique qui dicte la conclusion.",
+      "III2": "Le choix des priorités engage des ressources communes et relève d’une délibération sur les fins ; la conclusion doit répondre aux faits et aux preuves. Un essai clinique peut décevoir ceux qui l’ont financé : le résultat ne se décide pas à l’avance. Explique LA (l’utilité ne peut fixer les résultats inconnus) et LB (la fidélité au vrai ne décide pas des priorités ni de la diffusion).",
       "III3": "La science doit être utile en ce que les priorités et la diffusion peuvent être débattues au regard du bien commun, non en ce que l’utilité dicterait le vrai. Le désaccord entre Szilard et Joliot montre que la diffusion engage une responsabilité distincte du jugement scientifique. Reste : la connaissance elle-même comme danger.",
       "tests": "Cas témoin : la III distingue la proposition de Szilard et le refus de Joliot du jugement sur la vérité (le désaccord porte sur la faisabilité et les conséquences du secret), ce que ni A, ni B, ni le partage ne faisaient. Second cas : Lyssenko (l’utilité commande la réponse : illégitime). Restitution : oui. Rechute : le reste ne redit ni LA ni LB. Test propre : frontière définie indépendamment des deux thèses (par la différence entre décider et constater). Report : la question ne se repose pas pour la diffusion, réglée par le bien commun. Acquis nouveau : la distinction question / réponse, prémisse qu’aucune partie n’établissait ; nécessaire à la décision. Contrôle renforcé : Comparer « utilité exigée des résultats », « liberté sans responsabilité » et « choix public des orientations sans censure des conclusions » ; préserver la recherche fondamentale. Audit : gestes C6, O5, N7, O15, E5. Alternatives : Science au service immédiat (peut falsifier) / liberté scientifique sans dette (nie choix collectifs) / débat sur questions, moyens et usages sans commander les résultats (retenu)."
     },
@@ -213,10 +213,6 @@
           "II.3 Ce qu’elle ne permet pas encore, et pourquoi : la portée du principe"
         ],
         [
-          "Fidèle à cette seule norme, Joliot avait raison de publier une mesure exacte ; elle ne pouvait rien lui dire de l’usage qu’on en ferait.",
-          "II.3 Sur la scène"
-        ],
-        [
           "La fidélité au vrai ne permet donc pas encore de dire ce que la science doit à ceux que ses vérités rendent puissants ou menacent.",
           "II.3 La portée et le manque du second fondement"
         ],
@@ -238,16 +234,12 @@
           "III.1 Le critère énoncé"
         ],
         [
-          "Ces deux décisions n’obéissent pas à la même norme. Choisir une priorité engage des ressources communes et relève d’une délibération sur les fins ; établir un résultat oblige à répondre des faits et des preuves. Une expérience peut décevoir ceux qui l’ont financée : c’est précisément parce que son résultat ne se décide pas à l’avance qu’il peut corriger leurs attentes. L’affaire Lyssenko montre ce qui se produit lorsque l’utilité politique prétend fixer la conclusion : le pouvoir ne soutient plus une enquête, il dicte ce qu’il faut tenir pour vrai.",
+          "La frontière se justifie par la nature des deux décisions. Choisir une priorité engage des ressources communes et relève d’une délibération sur les fins ; établir un résultat oblige à répondre des faits et des preuves. Un essai clinique peut décevoir ceux qui l’ont financé : déclarer un traitement efficace ne relève pas de la volonté collective, mais des résultats de l’enquête.",
           "III.2 La démontrer : pourquoi la frontière passe là"
         ],
         [
-          "Cette frontière conserve donc le droit collectif d’orienter la recherche sans lui donner le pouvoir de commander ses résultats. Elle corrige la première thèse, qui confondait responsabilité publique et contrôle de la vérité, et la seconde, qui protégeait la conclusion sans répondre des priorités ni de la diffusion.",
+          "Cette frontière conserve le droit collectif d’orienter la recherche sans lui donner le pouvoir de commander ses conclusions. Elle corrige la première thèse, qui confondait responsabilité publique et contrôle du vrai, et la seconde, qui protégeait la conclusion sans répondre des priorités ni de la diffusion.",
           "III.2 Ce qu’il conserve et ce qu’il explique"
-        ],
-        [
-          "La distinction n’oppose donc pas une science pure à une société qui la financerait : elle sépare le débat légitime sur les fins et les moyens de l’exigence de preuve qui commande les conclusions.",
-          "III.2 Séparer le choix des questions de celui des résultats"
         ],
         [
           "Mais le choix des questions ne doit pas être limité à ce qui promet un résultat prochain. Une recherche apparemment inutile peut révéler une possibilité que personne ne savait demander. Préserver de telles enquêtes n'annule pas la responsabilité publique ; cela évite que l'utilité connue aujourd'hui ferme les découvertes de demain.",
