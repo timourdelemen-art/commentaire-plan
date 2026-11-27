@@ -2,6 +2,11 @@
 
 ## Périmètre et statut
 
+## Relecture complémentaire — 27 novembre 2026
+
+Le contrôle a été repris sur l’ensemble des pages publiées : les huit sujets de la base et leurs neuf modèles, ainsi que les cinq pages complémentaires Pascal (2025 Asie), Platon (2025 Polynésie), Mill (2025 Métropole secours), Aristote (2025 Antilles-Guyane) et Bergson (2023 Centres étrangers). Le corpus compte donc treize pages et quatorze versions rédigées, Malebranche proposant deux versions. Les introductions, les mouvements de l’explication, les transitions et les conclusions sont présents ; aucune reconstruction générale n’est justifiée. Trois retouches locales ont été faites pour supprimer des répétitions dans Pascal, Aristote et Bergson. Le modèle de Platon, plus long, conserve ses quatre mouvements parce qu’ils correspondent aux étapes du texte.
+
+
 Huit sujets officiels, neuf compositions originales visant l’excellence ; pas de copies authentiques notées par un jury. Cinq sujets de 2026, puis les métropoles de 2025, 2024 et 2023. Sept explications générales et deux options sur un sujet technologique. La note demeure globale : le comptage et la grille ci-dessous ne garantissent pas 20.
 
 Sources : `scripts/explication-textes-data.json`. Génération : `scripts/build-explication-textes.js`, déjà appelée par `scripts/build-philo-annales.js`. Le quatrième champ de chaque paragraphe conserve chaque phrase et sa fonction ; leur réunion est vérifiée identique à la rédaction continue. L’interface reprend les classes c20-t/c20-f des autres modèles du site.
