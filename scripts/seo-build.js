@@ -46,26 +46,11 @@ function portal(file, href,label,sub,items,active,offer){
 function staticHeader(file){
   const base=path.basename(file).toLowerCase();
   const navigation=[
-  ["bac.html","FRANÇAIS","écrit · oral",[
-    ["bac-commentaire.html","Commentaire","Lire, analyser et rédiger"],
-    ["bac-dissertation.html","Dissertation","Construire une réflexion sur une œuvre"],
-    ["bac-oral.html","Oral","Préparer les deux parties de l’épreuve"],
-    ["annales-bac.html","Annales de français","Sujets et corrigés"],
-    ["oeuvres-integrales.html","Œuvres","Parcours de lecture et dissertation"]
-  ]],
-  ["philosophie.html","PHILOSOPHIE","dissertation · explication",[
-    ["philosophie-diagnostic.html","Commencer ici","Repérer sa difficulté"],
-    ["philosophie-dissertation-parcours.html","Dissertation","Problème, plan et rédaction"],
-    ["philosophie-explication.html","Explication de texte","Lire et expliquer un texte"],
-    ["philosophie-laboratoire.html","Laboratoire","Exercices ciblés"],
-    ["philosophie-notions.html","Notions","Les notions et leurs sujets"]
-  ]],
-  ["hlp.html","HLP","première · terminale",[
-    ["hlp-premiere.html","Première","La parole et les représentations du monde"],
-    ["hlp-terminale.html","Terminale","La recherche de soi, l’Humanité en question"],
-    ["hlp-ecrire.html","Interprétation et essai","Les exercices propres à HLP"],
-    ["hlp-professeurs.html","Espace professeurs","Ressources pour préparer les cours"],
-    ["hlp-annales.html","Annales","Sujets et corrigés"]
+  ["bac.html","BAC","français · philosophie · HLP",[
+    ["bac.html","Français","Commentaire, dissertation et oral"],
+    ["philosophie.html","Philosophie","Dissertation et explication de texte"],
+    ["hlp.html","HLP","Première et Terminale"],
+    ["annales-bac.html","Annales du bac","Sujets et corrigés"]
   ]],
   ["brevet.html","BREVET","lecture · langue · rédaction",[
     ["brevet-lecture-parcours.html","Parcours de lecture","Questions guidées et corrigées"],
@@ -100,10 +85,9 @@ function navigationActive(href, base){
   if(href==='methodes.html') return /^(methodes|methode-cours|methode-brevet|methode-seconde|methode-hlp|manuel-procedes|bac-commentaire-procedes|bac-commentaire-procedes-entrainement|parcours)$/.test(base);
   if(href==='bibliotheque.html') return /^(bibliotheque|annales|philosophie-banque)/.test(base)||/^annales-/.test(base);
   if(href==='enseignants.html') return /^(enseignants|formation|pot-bouille-professeurs|sequence-pot-bouille|philosophie-professeurs|hlp-professeurs)$/.test(base);
-  if(href==='philosophie.html') return /^(philosophie|dissertation-philosophie)/.test(base);
-  if(href==='hlp.html') return /^hlp/.test(base);
   if(href==='brevet.html') return /^brevet/.test(base)||base==='anthologie-brevet.html';
-  return /^(bac|commentaire|pot-bouille|oeuvres-integrales)/.test(base);
+  if(href==='bac.html') return /^(bac|commentaire|pot-bouille|oeuvres-integrales|philosophie|dissertation-philosophie|hlp)/.test(base)||/^philosophie-/.test(base)||/^hlp-/.test(base);
+  return false;
 }
 const portals=navigation.map(([href,label,sub,items])=>portal(file,href,label,sub,items,navigationActive(href,base))).join('');
   return `<header class="top" data-seo-static-nav="1">
@@ -113,9 +97,7 @@ const portals=navigation.map(([href,label,sub,items])=>portal(file,href,label,su
     <button class="mobile-nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav">Menu</button>
   </div>
   <nav id="mobile-nav" class="mobile-nav wrap" aria-label="Navigation mobile" hidden>
-    <a href="/bac.html"><strong>Français</strong><span>Commentaire · dissertation · oral</span></a>
-    <a href="/philosophie.html"><strong>Philosophie</strong><span>Dissertation · explication de texte</span></a>
-    <a href="/hlp.html"><strong>HLP</strong><span>Première · Terminale</span></a>
+    <a href="/bac.html"><strong>Bac</strong><span>Français · Philosophie · HLP</span></a>
     <a href="/brevet.html"><strong>Brevet</strong><span>Lecture · langue · rédaction</span></a>
     <a href="/methodes.html"><strong>Méthodes</strong><span>Lire · penser · écrire</span></a>
     <a href="/enseignants.html"><strong>Enseignants</strong><span>Séquences et ressources par niveau</span></a>
