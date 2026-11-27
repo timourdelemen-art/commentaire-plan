@@ -1,5 +1,9 @@
 # Contrôle indépendant des explications et des phrases — 17 octobre 2026
 
+## Relecture complémentaire — 27 novembre 2026
+
+Cinq pages complémentaires ont été relues en plus du module généré : Pascal, Platon, Mill, Aristote et Bergson. Les quatorze versions publiées sur treize pages sont complètes. Les trois ajustements de rédaction portent sur la transmission chez Pascal, le renversement causal chez Aristote et la distinction entre imprévisibilité et liberté chez Bergson. Les citations des passages officiels et les références extérieures citées ont été contrôlées dans les textes sources.
+
 Périmètre : le module d’explication philosophique (huit sujets officiels, neuf modèles, 255 phrases annotées, quarante tâches guidées, seize ateliers). Ce contrôle ne porte pas sur les dissertations, le commentaire littéraire ou HLP. Les huit PDF officiels référencés dans les données ont été relus, ainsi que la page 4 de la ressource Éduscol « Les exercices en classe de philosophie ». La méthode n’est pas un protocole de composition imposé extérieurement au texte.
 
 ## Méthode du contrôle
