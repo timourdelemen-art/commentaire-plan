@@ -293,5 +293,22 @@
       "url": "https://arxiv.org/abs/2308.08708",
       "usage": "III.2 : évaluer des indicateurs empiriques sans attribuer automatiquement la conscience"
     }
+  ],
+  "source_checks": [
+    {
+      "claim": "Turing replaces the broad question « Can machines think? » with the imitation game, judged through an exchange of answers.",
+      "source": "A. M. Turing, “Computing Machinery and Intelligence”, Mind 59, no. 236 (1950), §§1–2; Oxford Academic, DOI 10.1093/mind/LIX.236.433.",
+      "verification": "The original paper explicitly introduces the imitation game as a replacement formulation and discusses the machine taking one participant’s role."
+    },
+    {
+      "claim": "Searle’s Chinese Room argues that executing a program and manipulating symbols do not by themselves establish understanding or intentionality.",
+      "source": "John R. Searle, “Minds, Brains, and Programs”, Behavioral and Brain Sciences 3, no. 3 (1980), pp. 417–457; original article reproduced in the Yale Computer Science course archive.",
+      "verification": "The original abstract and argument state that instantiating a computer program is not by itself sufficient for intentionality; the Chinese Room is the central thought experiment."
+    },
+    {
+      "claim": "Butlin and colleagues derive indicator properties from scientific theories of consciousness and assess current AI systems against them.",
+      "source": "Patrick Butlin et al., “Consciousness in Artificial Intelligence: Insights from the Science of Consciousness” (2023), arXiv:2308.08708.",
+      "verification": "The report’s abstract describes the indicator-property framework and says the analysis suggests no current AI systems are conscious, while finding no obvious technical barriers to future systems satisfying the indicators."
+    }
   ]
 }
