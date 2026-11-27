@@ -41,8 +41,9 @@ PHILO_STEPS.forEach(([file,label],k)=>{
  if(!read('philosophie-dissertation-parcours.html').includes('href="'+file+'"')) failures.push('philosophie-dissertation-parcours.html : étape inaccessible '+file);
 });
 for(const [name,src] of [['site-nav.js',nav],['seo-build.js',seo]]){
- const menu=JSON.parse(src.match(/const navigation=(\[.*?\]);\nfunction navigationActive/s)[1]).find(p=>p[0]==='philosophie.html')[3];
- if(JSON.stringify(menu.map(p=>p.slice(0,2)))!==JSON.stringify([['philosophie-dissertation-parcours.html','Dissertation'],['philosophie-explication.html','Explication de texte']])) failures.push(name+': deux entrées attendues, dissertation et explication');
+ const navigation=JSON.parse(src.match(/const navigation=(\[.*?\]);\nfunction navigationActive/s)[1]);
+ const menu=navigation.find(p=>p[0]==='bac.html')?.[3]||[];
+ if(JSON.stringify(menu.map(p=>p.slice(0,2)))!==JSON.stringify([['bac.html','Français'],['philosophie.html','Philosophie'],['hlp.html','HLP'],['annales-bac.html','Annales du bac']])) failures.push(name+': le menu BAC doit regrouper Français, Philosophie, HLP et les annales');
 }
 if(!read('philosophie.html').includes('href="philosophie-notions.html"')) failures.push('Les notions doivent rester accessibles');
 // L’accueil propose les deux épreuves ; chaque entrée du menu ouvre la page de son épreuve.
