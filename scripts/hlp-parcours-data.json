@@ -2461,7 +2461,7 @@
               "sentences": [
                 {
                   "text": "Presque toute éducation rend d’abord l’émancipation possible : sans elle, personne ne se conduirait seul.",
-                  "function": "Premier moment : la thèse, au sens exact défini."
+                  "function": "Argument de départ : ce que l’éducation rend possible."
                 },
                 {
                   "text": "On ne peut choisir ce qu’on ne peut ni comprendre ni dire : la langue, la lecture et le calcul ouvrent des possibles qui n’existaient pas pour l’enfant.",
@@ -2481,11 +2481,11 @@
               "sentences": [
                 {
                   "text": "Une éducation peut-elle alors donner des moyens et en empêcher l’usage ?",
-                  "function": "Transition : la limite du premier moment."
+                  "function": "Faire apparaître ce que les faits seuls ne restituent pas."
                 },
                 {
                   "text": "Elle peut d’abord retirer plus qu’elle ne donne : le couvent de Sophronie n’apprend guère « que ce qu’il faut oublier » et prépare à une vie décidée par d’autres.",
-                  "function": "Deuxième moment : premier cas, l’éducation qui enferme."
+                  "function": "Montrer que l’éducation peut aussi enfermer."
                 },
                 {
                   "text": "Elle peut surtout instruire sans former le jugement : le « bel esprit », que la note du sujet définit comme un esprit « très cultivé mais creux », sait beaucoup sans savoir juger de ce qu’il sait.",
@@ -2497,7 +2497,7 @@
                 },
                 {
                   "text": "Une éducation qui remplit sans exercer le jugement rend donc habile sans rendre libre.",
-                  "function": "Conclure le moment : la réponse au mot « toute »."
+                  "function": "Préciser la portée de la réponse au mot « toute »."
                 }
               ]
             },
@@ -2509,7 +2509,7 @@
                 },
                 {
                   "text": "Ce n’est pas l’absence de contrainte, car apprendre exige un effort qu’on ne choisit pas encore ; c’est la fin que l’éducation poursuit.",
-                  "function": "Troisième moment : écarter un faux critère et poser le vrai."
+                  "function": "Établir le critère de l’émancipation : apprendre à juger par soi-même."
                 },
                 {
                   "text": "Elle émancipe quand elle prépare son propre retrait, comme le maître nageur qui lâche peu à peu l’enfant qu’il tenait.",
@@ -2790,7 +2790,7 @@
               "sentences": [
                 {
                   "text": "L’art peut d’abord se passer de l’effusion de l’artiste au moment où il fait.",
-                  "function": "Premier moment : reconnaître ce que suggère le texte."
+                  "function": "Montrer comment le travail de l’artiste transforme l’émotion."
                 },
                 {
                   "text": "Diderot le soutient lui-même dans le Paradoxe sur le comédien : l’acteur qui s’abandonne à sa passion est inégal d’un soir à l’autre, alors que le grand acteur reproduit par l’étude les signes de la passion.",
@@ -2814,7 +2814,7 @@
                 },
                 {
                   "text": "C’est le projet de Brecht, dans Mère Courage et ses enfants par exemple, dont la distanciation refuse que le spectateur s’identifie aux personnages : elle veut en faire un juge, au « parterre » comme le sage de Bordeu.",
-                  "function": "Deuxième moment : examiner un art qui veut se passer de l’émotion du public."
+                  "function": "Distinguer la maîtrise de l’artiste de la sensibilité du public."
                 },
                 {
                   "text": "Ce théâtre ne se passe pourtant pas de la sensibilité : il s’adresse aux sens par les chansons et les écriteaux, et cherche l’indignation qui fait juger.",
@@ -2822,7 +2822,7 @@
                 },
                 {
                   "text": "Je retiens donc qu’un art peut tenir l’émotion à distance, mais qu’il ne se passe pas de la sensibilité : il la déplace de l’identification vers le jugement.",
-                  "function": "Conclure le moment, à la première personne."
+                  "function": "Prendre position sur la place de l’émotion dans la réception."
                 }
               ]
             },
@@ -2834,7 +2834,7 @@
                 },
                 {
                   "text": "Dans « Demain, dès l’aube », Hugo écrit après la mort de sa fille, mais il ne le crie pas : la marche n’atteint la tombe qu’à la dernière strophe.",
-                  "function": "Troisième moment : situer le poème et nommer le procédé, la chute retardée."
+                  "function": "Montrer comment la forme du poème fait éprouver une émotion."
                 },
                 {
                   "text": "Le vers « Je ne puis demeurer loin de toi plus longtemps » donne à la marche l’allure d’un rendez-vous, et la révélation finale retourne cette tendresse en deuil.",
@@ -3103,7 +3103,7 @@
               "sentences": [
                 {
                   "text": "L’action orientée vers un but nous rend d’abord moins sensibles.",
-                  "function": "Premier moment : la thèse."
+                  "function": "Expliquer ce que l’action utilitaire fait perdre à la perception."
                 },
                 {
                   "text": "Celui qui agit pour obtenir quelque chose trie ce qu’il perçoit : il retient ce qui sert son but et laisse le reste dans l’ombre.",
@@ -3119,7 +3119,7 @@
                 },
                 {
                   "text": "Une pause est donc souvent la condition pour sentir ce que la hâte recouvre, comme la sieste du poème.",
-                  "function": "Conclure le moment."
+                  "function": "Préciser la portée de cette critique de l’action utilitaire."
                 }
               ]
             },
@@ -3131,7 +3131,7 @@
                 },
                 {
                   "text": "On peut le soutenir : la sensibilité est réceptivité, et toute action, parce qu’elle oriente le regard, sélectionne ce qu’elle reçoit.",
-                  "function": "Deuxième moment : l’objection la plus forte, fondée."
+                  "function": "Examiner pourquoi la réceptivité ne se réduit pas à l’inaction."
                 },
                 {
                   "text": "Mais accéder à sa sensibilité, c’est remarquer ce qui nous affecte, ce qui suppose une attention ; or une réceptivité sans aucune orientation ne serait plus attention, comme le montre l’ennui, où le repos complet émousse au lieu d’éveiller.",
@@ -3143,7 +3143,7 @@
                 },
                 {
                   "text": "Je ne crois donc pas que l’inaction soit nécessaire : ce n’est pas l’action qui ferme la sensibilité, mais l’intérêt.",
-                  "function": "Trancher, à la première personne, sans faute de logique."
+                  "function": "Répondre à l’objection en distinguant action et utilité."
                 }
               ]
             },
@@ -3155,7 +3155,7 @@
                 },
                 {
                   "text": "Il faut suspendre l’attitude qui ne voit dans les choses que des moyens, et cette suspension peut accompagner un geste.",
-                  "function": "Troisième moment : déplacer ce qui doit être suspendu."
+                  "function": "Déplacer la cible : suspendre l’attitude utilitaire, non toute action."
                 },
                 {
                   "text": "Le dessinateur agit, mais son geste sert à voir, non à obtenir : il est actif et pourtant plus sensible qu’un passant pressé.",
@@ -3420,7 +3420,7 @@
               "sentences": [
                 {
                   "text": "La littérature peut d’abord témoigner, et Simone Weil elle-même place la servitude à côté de la guerre.",
-                  "function": "Premier moment : le témoignage, relié au texte."
+                  "function": "Montrer ce que le témoignage peut rendre visible."
                 },
                 {
                   "text": "Dans Si c’est un homme, Primo Levi, chimiste de formation, décrit Auschwitz comme on consigne une expérience : les règles absurdes, la faim, les sélections, dans des phrases sobres.",
@@ -3432,7 +3432,7 @@
                 },
                 {
                   "text": "Dire, ici, c’est empêcher l’oubli et la négation.",
-                  "function": "Conclure le moment."
+                  "function": "Préciser la portée de cette critique de l’action utilitaire."
                 }
               ]
             },
@@ -3444,7 +3444,7 @@
                 },
                 {
                   "text": "On peut objecter que la violence extrême est indicible, et qu’une belle forme risque de communiquer au lecteur l’« ivresse de la force » que Simone Weil décrit chez les combattants.",
-                  "function": "Deuxième moment : formuler l’objection."
+                  "function": "Éprouver la possibilité de dire une violence qui résiste aux mots."
                 },
                 {
                   "text": "Le risque est réel : le récit qui exalte la bataille transforme la violence en épopée héroïque.",
@@ -3456,7 +3456,7 @@
                 },
                 {
                   "text": "Le poème donne aux deux camps la même pitié ; je crois donc que la forme ne trahit pas la violence quand elle refuse d’en faire une gloire.",
-                  "function": "Trancher, à la première personne."
+                  "function": "Répondre à cette difficulté sans prétendre abolir l’indicible."
                 }
               ]
             },
@@ -3468,7 +3468,7 @@
                 },
                 {
                   "text": "Dans le chapitre « Le chant d’Ulysse », Primo Levi tente de réciter Dante à un camarade, pendant une corvée de soupe, et retrouve le vers « fatti non foste a viver come bruti ».",
-                  "function": "Troisième moment : un chapitre précis et un vers cité."
+                  "function": "Montrer comment la mémoire des œuvres préserve une pensée sans glorifier la violence."
                 },
                 {
                   "text": "Le récit le montre cherchant ses vers, en oubliant certains, s’acharnant à les retrouver : ce vers, qui dit que les hommes ne sont pas faits pour vivre comme des bêtes, contredit le camp au moment même où le camp veut les y réduire.",
@@ -3741,7 +3741,7 @@
               "sentences": [
                 {
                   "text": "Une part de la guerre peut d’abord être décrite objectivement.",
-                  "function": "Premier moment : la thèse."
+                  "function": "Expliquer ce que l’action utilitaire fait perdre à la perception."
                 },
                 {
                   "text": "Les dates, les lieux, les mouvements des armées et le nombre des morts ne dépendent pas de l’émotion de celui qui les rapporte, et peuvent être établis en croisant archives, ordres et témoignages.",
@@ -3753,7 +3753,7 @@
                 },
                 {
                   "text": "L’objectivité n’est donc pas donnée : elle se construit, et reste révisable.",
-                  "function": "Conclure le moment."
+                  "function": "Préciser la portée de cette critique de l’action utilitaire."
                 }
               ]
             },
@@ -3761,11 +3761,11 @@
               "sentences": [
                 {
                   "text": "Mais ces faits décrivent-ils la guerre telle qu’on la vit ?",
-                  "function": "Transition : la limite du premier moment."
+                  "function": "Faire apparaître ce que les faits seuls ne restituent pas."
                 },
                 {
                   "text": "Un chiffre ne dit ni la peur, ni la boue, ni l’attente, qui font pourtant la réalité de la guerre pour ceux qui la font.",
-                  "function": "Deuxième moment : ce qui échappe aux faits mesurables."
+                  "function": "Analyser la part vécue que les faits ne suffisent pas à restituer."
                 },
                 {
                   "text": "Et le témoin ne voit qu’une partie : dans La Chartreuse de Parme, Fabrice erre à Waterloo sans comprendre qu’il assiste à une grande bataille.",
@@ -3789,7 +3789,7 @@
                 },
                 {
                   "text": "Ce n’est pas un regard sans place, qui n’existe pas, mais la confrontation de regards situés, dont chacun dit d’où il voit.",
-                  "function": "Troisième moment : redéfinir l’objectivité."
+                  "function": "Définir l’objectivité comme confrontation et vérification des regards."
                 },
                 {
                   "text": "Cette confrontation peut même établir objectivement ce qui est vécu : que des hommes épuisés admirent le feu qui les menace devient un fait quand plusieurs témoins le rapportent.",
@@ -4062,7 +4062,7 @@
               "sentences": [
                 {
                   "text": "La lecture peut d’abord révéler le lecteur à lui-même.",
-                  "function": "Premier moment : la thèse."
+                  "function": "Expliquer ce que l’action utilitaire fait perdre à la perception."
                 },
                 {
                   "text": "Dans Le Temps retrouvé, Proust compare le livre à un instrument d’optique offert au lecteur, et fait de chaque lecteur « le propre lecteur de soi-même ».",
@@ -4086,7 +4086,7 @@
                 },
                 {
                   "text": "Dans Madame Bovary, Emma, à peine mariée, cherche ce que l’on entend dans la vie par les mots de félicité, de passion et d’ivresse, « qui lui avaient paru si beaux dans les livres ».",
-                  "function": "Deuxième moment : une œuvre qui montre la lecture qui égare, avec une phrase citée."
+                  "function": "Montrer comment une œuvre peut imposer au lecteur un modèle trompeur."
                 },
                 {
                   "text": "Le plus-que-parfait place les livres avant la vie : Emma mesure son mariage à des mots lus, et ne trouve dans son existence que l’absence de ce qu’ils promettaient.",
@@ -4110,7 +4110,7 @@
                 },
                 {
                   "text": "Ce n’est pas le livre, ni le fait de s’y reconnaître, mais le retour du lecteur : Emma se perd dans ses modèles, le lecteur tel que Proust le décrit revient à lui.",
-                  "function": "Troisième moment : déplacer le critère vers le lecteur."
+                  "function": "Établir que la lecture éclaire lorsque le lecteur revient à sa propre expérience."
                 },
                 {
                   "text": "Le même roman peut d’ailleurs produire les deux effets : en montrant l’écart entre les mots lus et la vie, Madame Bovary permet au lecteur de reconnaître en lui ce même écart.",
