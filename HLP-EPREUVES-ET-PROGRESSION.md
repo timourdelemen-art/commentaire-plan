@@ -2,6 +2,9 @@
 
 Audit initial du 11 octobre 2026, mis à jour le 27 novembre 2026. La mention de PR #126 sans fusion ni déploiement décrit l’état du chantier à la date de l’audit initial, non l’état actuel du dépôt. Source : `scripts/hlp-parcours-data.json` ; construction : `scripts/build-hlp-parcours.js`. Modèles originaux proposés à la relecture, sans notation authentique par un jury.
 
+Référence réglementaire actuelle : Bulletin officiel spécial n° 4 du 17 septembre 2026, note de service applicable à la session 2027. L’épreuve écrite dure quatre heures et comprend deux questions, chacune notée sur dix : une interprétation (littéraire ou philosophique) d’un enjeu majeur du texte et un essai (littéraire ou philosophique) répondant à une question qu’il soulève. Les deux développements doivent être d’ampleur comparable et présentés sur deux copies distinctes. La note nationale IGESR du 27 mars 2023 précise que l’interprétation n’est ni un commentaire intégral ni une explication exhaustive, et qu’un essai réussi n’a pas à suivre une introduction dissertative ou un plan dialectique.
+
+
 ## Cadres distincts
 
 | Cadre | Attendus et modalités | Conséquence pour le site |
@@ -73,4 +76,8 @@ Les pages HLP renvoient désormais vers `hlp-ecrire.html` et `methode-hlp.html` 
 
 ## Résultats techniques
 
-`node scripts/test-hlp-parcours.js` : 12 modèles intacts, 60 tâches, navigation libre, reset non destructif, effacement limité, persistance et panne de stockage ; proposition solide seule plus longue dans 5/12 cas. Build Netlify isolé : 280 pages, contrôle global 0 erreur, 20 avertissements identiques au build antérieur ; SEO 0 erreur/avertissement, budget performance et parcours philo OK. Build combiné #125/#126/#127 : 287 pages, mêmes résultats. Nettoyage avec `NETLIFY=true` : modules publics conservés, documents internes retirés. Test navigateur non effectué : PR reste brouillon.
+**État historique au 17 octobre 2026 :** les comptes de pages, tests navigateur et builds isolés consignés dans l’audit initial ne décrivent pas le dépôt après les modifications du 27 novembre.
+
+**Revalidation des données au 27 novembre 2026 :** 12 sujets, 24 réponses modèles ; les contrôles de structure des réponses, des cinq étapes de préparation, des fonctions de phrases, des trois choix de réécriture et de la comparabilité des deux copies sont passés. Les six introductions d’essai qui annonçaient un plan en trois temps ont été réécrites ; les fonctions des paragraphes décrivent maintenant leur rôle argumentatif plutôt qu’un schéma « premier/deuxième/troisième moment ». Le générateur HLP est appelé par `netlify.toml` et régénérera les pages à partir de la base actualisée.
+
+**Non effectué après cette révision :** exécution complète de `node scripts/test-hlp-parcours.js`, build Netlify réel et test navigateur. La validation des données ne doit pas être présentée comme une validation de l’interface ni comme une correction authentique notée par un jury.
