@@ -1309,11 +1309,7 @@
             {
               "sentences": [
                 {
-                  "text": "Alain insiste sur une singularité qui résiste aux changements de rôle et de costume.",
-                  "function": "Repartir de la singularité persistante décrite par Alain."
-                },
-                {
-                  "text": "Or cette permanence n’est pas nécessairement une assignation : être reconnaissable n’implique pas que les autres aient le droit de fixer ce que l’on peut devenir.",
+                  "text": "Alain insiste sur une singularité qui résiste aux changements de rôle et de costume ; être reconnaissable n’autorise pas les autres à fixer ce que l’on peut devenir.",
                   "function": "Distinguer reconnaissance d’une personne et fixation de son avenir."
                 },
                 {
@@ -1341,12 +1337,8 @@
                   "function": "Opposer à ce regard les transformations que le roman donne à suivre."
                 },
                 {
-                  "text": "Ces épisodes ne nient pas son passé ; ils empêchent ce passé d’épuiser ce qu’il est.",
-                  "function": "Expliquer pourquoi reconnaître le passé ne suffit pas à définir toute une vie."
-                },
-                {
-                  "text": "La durée narrative devient ainsi une objection à la fixité du classement : le lecteur dispose d’une histoire que l’étiquette ne sait pas contenir.",
-                  "function": "Dégager la fonction de la durée narrative dans la révision du jugement."
+                  "text": "En suivant ses transformations, le roman ne nie pas son passé : il empêche ce passé d’épuiser ce qu’il est et fait de la durée narrative une objection à la fixité du classement.",
+                  "function": "Montrer comment la durée narrative résiste à la fixité du classement."
                 }
               ]
             },
@@ -1369,12 +1361,8 @@
                   "function": "Ajouter la distance critique du récit envers les rêves convenus d’Emma."
                 },
                 {
-                  "text": "Comprendre n’oblige pas à approuver ses actes.",
-                  "function": "Distinguer compréhension et approbation morale."
-                },
-                {
-                  "text": "Cela oblige à reconnaître qu’une désignation morale ne dispense pas d’en examiner les raisons.",
-                  "function": "Déduire l’exigence d’examiner les raisons au-delà de l’étiquette."
+                  "text": "Comprendre n’oblige pas à approuver, mais interdit de laisser une désignation morale dispenser d’examiner les raisons.",
+                  "function": "Distinguer compréhension et approbation, puis en tirer l’exigence d’examen."
                 },
                 {
                   "text": "La fiction libère alors le jugement du lecteur de sa facilité à conclure trop tôt.",
@@ -1393,11 +1381,7 @@
                   "function": "Situer le projet de Montaigne dans un chapitre précis des Essais."
                 },
                 {
-                  "text": "L’écriture permet de reconnaître ces changements sans les effacer pour produire une image uniforme.",
-                  "function": "Expliquer ce que l’écriture rend possible face à une image uniforme de soi."
-                },
-                {
-                  "text": "L’auteur peut ainsi répondre de ce qu’il a été tout en refusant que ce passé décide de ce qu’il sera.",
+                  "text": "L’écriture permet de reconnaître ces changements sans les effacer : l’auteur répond de son passé sans le laisser décider de ce qu’il sera.",
                   "function": "Distinguer responsabilité envers son passé et soumission à une identité fixée."
                 },
                 {
@@ -1409,28 +1393,12 @@
             {
               "sentences": [
                 {
-                  "text": "Cependant, une œuvre peut aussi être ramenée à une identité fixe.",
-                  "function": "Introduire le risque inverse : réduire une œuvre à une identité fixe."
+                  "text": "L’Avare montre toutefois qu’une œuvre peut elle-même nourrir une étiquette : dans l’acte IV, scène 7, Harpagon concentre sa parole sur la cassette volée, au point que le spectateur peut ne voir en lui que l’avare.",
+                  "function": "Appuyer le risque d’une lecture réductrice sur une scène précise."
                 },
                 {
-                  "text": "Dans L’Avare, à l’acte IV, scène 7, Harpagon découvre le vol de sa cassette et concentre sa parole sur la perte de son argent.",
-                  "function": "Appuyer ce risque sur une scène précise de L’Avare."
-                },
-                {
-                  "text": "Cette insistance rend l’avarice immédiatement reconnaissable ; elle peut conduire le spectateur à ne voir en lui que ce trait.",
-                  "function": "Expliquer comment l’insistance comique peut concentrer le regard sur un trait."
-                },
-                {
-                  "text": "Le nom du personnage devient alors une étiquette que l’on applique à d’autres personnes.",
-                  "function": "Montrer le passage du personnage singulier à l’étiquette appliquée à autrui."
-                },
-                {
-                  "text": "Cet usage montre comment la lecture peut refermer la complexité qu’elle devait ouvrir.",
-                  "function": "Dégager le risque d’une lecture qui referme la complexité."
-                },
-                {
-                  "text": "La puissance de libération dépend donc aussi de la manière dont on lit et reprend les figures littéraires.",
-                  "function": "Préciser une condition de la libération : la manière de lire et de réutiliser les figures."
+                  "text": "Le lecteur doit donc aussi interroger la manière dont il reprend les figures littéraires, faute de quoi l’œuvre referme la complexité qu’elle avait ouverte.",
+                  "function": "Préciser la condition d’une lecture libératrice."
                 }
               ]
             },
@@ -2621,8 +2589,8 @@
                   "function": "Énoncer la thèse du texte rapportée à la question."
                 },
                 {
-                  "text": "On verra ce qu’est la sensibilité pour le médecin, ce que gagnerait celui qui la domine, puis ce que ce gain coûte.",
-                  "function": "Annoncer les moments de l’argument."
+                  "text": "Le dialogue oppose ainsi la maîtrise du sage au prix d’une vie plus intense.",
+                  "function": "Opposer la maîtrise du sage au prix d’une vie plus intense."
                 }
               ]
             },
@@ -2671,10 +2639,6 @@
                 {
                   "text": "C’est aussi un pouvoir, puisqu’il « règnera sur lui-même et sur tout ce qui l’environne », et une liberté, puisque, sans peur de la mort, il casse « l’anse » par laquelle le fort mène le faible.",
                   "function": "Deuxième raison : le pouvoir et la liberté, sans taire leur ambiguïté."
-                },
-                {
-                  "text": "Il le faudrait donc dans toute la mesure où l’on veut juger, agir et ne dépendre de personne.",
-                  "function": "Répondre pour ce moment de l’argument."
                 }
               ]
             },
