@@ -12,6 +12,10 @@ Les fonctions décrivent le travail propre à chaque phrase : l’image analysé
 
 Les titres HLP « A20 » et les présentations « vise 10/10 » sont remplacés par « réponse modèle ». Le texte est une proposition pédagogique originale du site ; aucune note de jury n’est revendiquée. La signature générale du site et ses modèles de dissertation philosophique restent hors de ce chantier.
 
+## Mise à jour du corpus — 27 novembre 2026
+
+Ce mémo décrit l’état du travail au 17 octobre et son inventaire de six paires est historique. La base actuelle `scripts/hlp-parcours-data.json` contient douze paires et vingt-quatre réponses : deux sujets zéro de Première, dix sujets de Terminale, dont huit paires d’annales et deux sujets zéro. La banque d’annales compte 103 fiches (100 entrées des sessions 2021–2026 et trois sujets zéro de 2020) ; huit paires d’annales ont actuellement un corrigé rédigé complet. Les autres fiches disposent du sujet et d’un entraînement guidé, mais pas encore d’un modèle complet.
+
 ## Reprises de contenu
 
 - Molière : attribution exacte de l’interdiction de dire « ma femme » au père, confirmée par la mère ; deux pistes solides au premier niveau, domination des Sotenville ou renversement final par Dandin. Les critères ne rendent pas obligatoire la lecture choisie par le modèle.
