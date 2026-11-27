@@ -40,7 +40,7 @@ Les pages principales HLP et la source de la banque d’annales ne sont pas ré�
 
 ## Corpus, modèles et contrôles de lecture
 
-Six paires, douze réponses : deux en première, quatre en terminale ; les quatre orientations terminales sont présentes. Couverture partielle : toutes les entrées du programme ne disposent pas encore d’un nouveau modèle. Les annales existantes permettent de varier les supports.
+Douze paires, vingt-quatre réponses : deux sujets zéro de Première (Molière, Descartes) et dix sujets de Terminale (Rivière, Alain, Condorcet, Sand, Voltaire, Diderot, Heredia, Weil, Barbusse, Rousseau). Les dix modèles de Terminale comprennent huit paires d’annales et deux sujets zéro (Rivière, Alain). Les quatre orientations croisées sont représentées. La couverture des annales reste partielle : les 103 fiches de la banque comprennent 100 entrées des sessions 2021–2026 et trois sujets zéro de 2020 ; huit paires d’annales disposent actuellement d’un corrigé rédigé complet. Les autres fiches donnent le sujet officiel et un entraînement guidé, sans modèle complet.
 
 | Texte officiel | Contrôle décisif |
 | --- | --- |
