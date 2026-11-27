@@ -1,6 +1,6 @@
 # Protocole HLP (terminale) — corrigés brefs, au niveau de l’excellence
 
-Document interne, non publié (`clean-publish.js` retire les `.md`). Version 2, 26 octobre 2026, révisée après deux audits indépendants des deux premiers corrigés (Voltaire, Diderot) : règles R1 à R11 (§ 1 bis).
+Document interne, non publié (`clean-publish.js` retire les `.md`). Version 3, 27 novembre 2026 : clarification des structures propres aux quatre exercices, sans plan obligatoire ni opposition dialectique artificielle.
 
 ## 0. Ce que demande l’épreuve (sources officielles)
 
@@ -17,12 +17,12 @@ Document interne, non publié (`clean-publish.js` retire les `.md`). Version 2, 
 ## 1. Règles communes
 
 - **Deux réponses autonomes.** Chacune situe le texte pour son correcteur ; l’essai ne renvoie jamais à l’interprétation (« comme on l’a vu »). Elles ne se répètent pas : l’interprétation explique le texte, l’essai pense la question qu’il soulève.
-- **Ampleur comparable** : 450 à 550 mots chacune dans un modèle, écart inférieur à 15 % (choix du site : environ la moitié d’une dissertation à 20, assez pour intégrer ce qui résiste à la lecture ; une copie réelle de deux heures est souvent plus longue). Introduction : 50 à 90 mots ; conclusion : 40 à 70 mots.
+- **Ampleur comparable** : viser environ 450 à 550 mots par réponse terminale dans les modèles, avec un écart inférieur à 15 %. C’est un repère de rédaction, pas un quota officiel : une réponse plus courte reste préférable si elle est complète ; ne jamais ajouter de remplissage pour atteindre un nombre. Introduction et conclusion restent proportionnées au travail réellement accompli.
 - **Une fonction par phrase**, affichée à côté d’elle ; une phrase sans fonction est supprimée.
 - **Citations du texte du sujet** : brèves, exactes (contrôle par script sur `scripts/hlp-textes.json`), intégrées à la syntaxe, toujours analysées. **Aucune citation d’une autre œuvre de mémoire** : une œuvre extérieure est décrite précisément (titre, auteur, épisode, détail) ; une citation n’est gardée que vérifiée mot pour mot dans une édition.
 - **Langue** : sobre, exacte, sans jargon ; aucun mot réservé aux documents internes (AGENTS.md § 2).
 - **Test de permutation** (protocole de dissertation littéraire) : si deux étapes ou deux moments peuvent s’échanger sans changer le raisonnement, c’est une liste ; reprendre.
-- **Transition** : une phrase, une question ouverte née de ce qui vient d’être établi (comment, pourquoi, que devient…) ; interdits : « … suffit-il ? », « Nous verrons maintenant… ». L’étape suivante reprend son mot clé.
+- **Transition** : une phrase qui rend visible le lien entre deux mouvements lorsqu’il faut le marquer (conséquence, contraste, précision, condition). Une question ouverte est possible, jamais obligatoire ; pas de formule répétée ni de transition artificielle.
 
 
 ## 1 bis. Règles issues de l’audit (V2)
@@ -32,8 +32,8 @@ Document interne, non publié (`clean-publish.js` retire les `.md`). Version 2, 
 - **R3. Les voix.** Distinguer ce que le personnage valorise et ce que l’interprète en déduit (« pour Bordeu… ; mais l’image peut se lire… »). Ne pas prêter à un personnage des raisons que le texte ne donne pas.
 - **R4. Les verbes du texte.** Garder les verbes du texte (dominer, affaiblir) ; ne jamais leur substituer un verbe plus fort (abolir, ne plus sentir).
 - **R5. Les définitions tenues.** Après chaque étape ou moment, vérifier que le mot clé garde le sens posé dans l’introduction.
-- **R6. L’objection traitée.** Chaque essai consacre un moment à l’objection la plus forte (un cas réel) et y répond ; la conclusion répond, elle ne reporte pas la difficulté dans une question.
-- **R7. La première personne prend position.** Dans l’essai, « je » tranche au moins une fois hors de l’annonce (« je soutiens », « je ne crois pas que… car… »).
+- **R6. La réponse mise à l’épreuve.** Lorsqu’un cas, une objection ou un point de vue contraire menace réellement la réponse, l’essai l’examine et montre ce qu’il oblige à maintenir ou à préciser. Il n’est pas nécessaire de fabriquer une opposition ni de réserver une partie à une objection.
+- **R7. La position est assumée.** L’essai doit rendre visible la réponse défendue et les raisons qui la soutiennent. La première personne est possible, mais elle n’est pas une formule obligatoire.
 - **R8. Une référence, une analyse exacte.** Toute œuvre citée est accompagnée d’un détail précis (un vers vérifié, un procédé), et le procédé prouve exactement ce qu’on affirme (l’impersonnalité de Flaubert ne prouve pas son absence d’émotion).
 - **R9. L’essai ne recommente pas.** Le texte du sujet sert de point de départ, d’objection ou d’écho, jamais de preuve centrale analysée de nouveau.
 - **R11. Mots-outils et provenance.** Vérifier la valeur des mots-outils cités ou commentés (mais, et, si : concession, addition, hypothèse) et la provenance de chaque citation (texte, chapeau ou note du sujet) ; une note du sujet se cite comme telle.
@@ -66,7 +66,7 @@ Méthode de l’explication de texte, en réduit : le texte est lu comme un argu
 Dissertation littéraire plus brève et plus libre ; à la première personne.
 
 - **Introduction (3 ou 4 phrases).** (1) Partir du texte du sujet : ce qu’il montre qui fait naître la question. (2) Les mots du sujet et leur sens. (3) Une seule question qui garde la tension (ce qui résiste à la réponse évidente). (4) Le chemin.
-- **Moments (2 ou 3 paragraphes).** Plan dynamique littéraire en réduit : reconnaître ce que la question suggère, voir ce qui le déborde, reconfigurer. Une position est élaborée, mise à l’épreuve, défendue. Transition-question entre deux moments.
+- **Moments (2 ou 3 mouvements, sans plan imposé).** La réponse avance par les œuvres et les formes : une œuvre fait apparaître un aspect de la question ; une autre peut le confirmer, le déplacer ou le compliquer ; la réflexion précise alors ce que l’on peut soutenir. Ce parcours est un modèle possible, non un schéma thèse/antithèse/synthèse. Les transitions marquent les écarts utiles, sans question obligatoire.
 - **Preuve.** Des œuvres précises (littérature et autres arts), analysées dans leur écriture ou leur forme avec les quatre gestes ; le texte du sujet sert d’appui au moins une fois ; une référence extérieure compare et fait voir un écart (test : « grâce à cette comparaison, je comprends mieux que… »). Deux ou trois œuvres réellement exploitées, pas une liste.
 - **Conclusion (2 ou 3 phrases).** La réponse avec le petit mot du sujet ; ce que le raisonnement a fait comprendre de la littérature et des arts ; une question seulement si elle naît du raisonnement (jamais sur « la littérature » ou « la vie » en général).
 
@@ -75,7 +75,7 @@ Dissertation littéraire plus brève et plus libre ; à la première personne.
 Dissertation philosophique plus brève et plus libre ; à la première personne.
 
 - **Introduction (3 ou 4 phrases).** (1) Partir du texte du sujet : la situation ou l’idée qui pose la question. (2) Ce qu’on attend de la notion, et les deux exigences qui se gênent. (3) Les mots du sujet ; la question. (4) Le chemin.
-- **Moments (2 ou 3 paragraphes).** Chaque moment établit une réponse et la fonde ; le suivant naît de ce qu’elle ne peut donner si elle prétend suffire (sans la déclarer fausse). La position est mise à l’épreuve, puis défendue. Transition-question.
+- **Moments (2 ou 3 mouvements, sans plan imposé).** Développer une proposition par une raison et un exemple ; examiner, si cela est nécessaire, un cas qui la met à l’épreuve ; préciser la réponse à partir de ce que l’examen a montré. L’ordre dépend de la question : il ne reproduit ni les trois parties d’une dissertation ni une opposition automatique entre thèse et antithèse.
 - **Preuve.** Une proposition générale ; la raison qui l’établit (distinction, condition, conséquence) ; un exemple qui la montre. L’exemple ou l’auteur accompagne la preuve, il ne la remplace pas. Un auteur n’est cité que s’il fait avancer l’idée, et sans citation de mémoire.
 - **Conclusion (2 ou 3 phrases).** Une réponse nette dans les termes du sujet ; ce qui reste à penser ; une question précise seulement si elle naît du raisonnement.
 
