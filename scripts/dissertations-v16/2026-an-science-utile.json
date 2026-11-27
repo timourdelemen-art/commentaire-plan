@@ -47,9 +47,9 @@
     "III": {
       "operation": "critère de frontière (III.7 a).",
       "III1": "Distinguer, dans une recherche, ce qu’elle demande (question, moyens, diffusion) et ce qu’elle trouve (la réponse) : l’utilité peut régler le premier, jamais le second.",
-      "III2": "Choisir une question, c’est employer un effort commun (droit de la société, XA) ; établir une réponse, c’est se soumettre à ce qui est (XB). Explique LA (on voulait faire porter l’utilité sur des réponses inconnues) et LB (la fidélité au vrai ne règle que la réponse).",
-      "III3": "La science doit être utile en ce que ses questions et la diffusion de ses résultats peuvent être réglées par le bien commun, non en ce que l’utilité dirait le vrai ; la demande de Szilard était légitime. Reste : la connaissance elle-même comme danger.",
-      "tests": "Cas témoin : la III décide la demande de Szilard (légitime, car elle porte sur la diffusion), ce que ni A, ni B, ni le partage ne faisaient. Second cas : Lyssenko (l’utilité commande la réponse : illégitime). Restitution : oui. Rechute : le reste ne redit ni LA ni LB. Test propre : frontière définie indépendamment des deux thèses (par la différence entre décider et constater). Report : la question ne se repose pas pour la diffusion, réglée par le bien commun. Acquis nouveau : la distinction question / réponse, prémisse qu’aucune partie n’établissait ; nécessaire à la décision. Contrôle renforcé : Comparer « utilité exigée des résultats », « liberté sans responsabilité » et « choix public des orientations sans censure des conclusions » ; préserver la recherche fondamentale. Audit : gestes C6, O5, N7, O15, E5. Alternatives : Science au service immédiat (peut falsifier) / liberté scientifique sans dette (nie choix collectifs) / débat sur questions, moyens et usages sans commander les résultats (retenu)."
+      "III2": "Le choix des priorités engage des ressources communes et relève d’une délibération sur les fins ; la conclusion doit répondre aux faits et aux preuves. Explique LA (l’utilité ne peut fixer les résultats inconnus) et LB (la fidélité au vrai ne décide pas des priorités ni de la diffusion). L’affaire Lyssenko montre le danger d’une utilité politique qui dicte la conclusion.",
+      "III3": "La science doit être utile en ce que les priorités et la diffusion peuvent être débattues au regard du bien commun, non en ce que l’utilité dicterait le vrai. Le désaccord entre Szilard et Joliot montre que la diffusion engage une responsabilité distincte du jugement scientifique. Reste : la connaissance elle-même comme danger.",
+      "tests": "Cas témoin : la III distingue la proposition de Szilard et le refus de Joliot du jugement sur la vérité (le désaccord porte sur la faisabilité et les conséquences du secret), ce que ni A, ni B, ni le partage ne faisaient. Second cas : Lyssenko (l’utilité commande la réponse : illégitime). Restitution : oui. Rechute : le reste ne redit ni LA ni LB. Test propre : frontière définie indépendamment des deux thèses (par la différence entre décider et constater). Report : la question ne se repose pas pour la diffusion, réglée par le bien commun. Acquis nouveau : la distinction question / réponse, prémisse qu’aucune partie n’établissait ; nécessaire à la décision. Contrôle renforcé : Comparer « utilité exigée des résultats », « liberté sans responsabilité » et « choix public des orientations sans censure des conclusions » ; préserver la recherche fondamentale. Audit : gestes C6, O5, N7, O15, E5. Alternatives : Science au service immédiat (peut falsifier) / liberté scientifique sans dette (nie choix collectifs) / débat sur questions, moyens et usages sans commander les résultats (retenu)."
     },
     "candidats_III": [
       {
@@ -182,7 +182,7 @@
       ]
     ],
     [
-      "II. LA SCIENCE NE DOIT QUE LE VRAI",
+      "II. LA VÉRITÉ EST LA NORME PROPRE DE LA SCIENCE",
       [
         [
           "La valeur de la science tient d’abord au vrai qu’elle cherche pour lui-même, et c’est lui qui, par surcroît, se trouve un jour servir.",
@@ -238,15 +238,15 @@
           "III.1 Le critère énoncé"
         ],
         [
-          "Il faut séparer ce que nous choisissons d'étudier de ce que l'enquête permet de conclure. On peut décider collectivement de rechercher un vaccin ; on ne peut pas voter le résultat de l'expérience. Cette frontière préserve à la fois la responsabilité de la recherche et la fidélité aux faits.",
+          "Ces deux décisions n’obéissent pas à la même norme. Choisir une priorité engage des ressources communes et relève d’une délibération sur les fins ; établir un résultat oblige à répondre des faits et des preuves. Une expérience peut décevoir ceux qui l’ont financée : c’est précisément parce que son résultat ne se décide pas à l’avance qu’il peut corriger leurs attentes. L’affaire Lyssenko montre ce qui se produit lorsque l’utilité politique prétend fixer la conclusion : le pouvoir ne soutient plus une enquête, il dicte ce qu’il faut tenir pour vrai.",
           "III.2 La démontrer : pourquoi la frontière passe là"
         ],
         [
-          "Il conserve ainsi ce que les deux réponses avaient établi, et explique leurs arrêts : on ne pouvait exiger d’avance un service déterminé parce qu’on faisait porter l’utilité sur des réponses encore inconnues, et la fidélité au vrai ne disait rien des usages parce qu’elle ne règle que la réponse.",
+          "Cette frontière conserve donc le droit collectif d’orienter la recherche sans lui donner le pouvoir de commander ses résultats. Elle corrige la première thèse, qui confondait responsabilité publique et contrôle de la vérité, et la seconde, qui protégeait la conclusion sans répondre des priorités ni de la diffusion.",
           "III.2 Ce qu’il conserve et ce qu’il explique"
         ],
         [
-          "En distinguant les questions qu'on décide d'étudier des réponses qu'on découvre, on rend compatibles deux exigences qu'on croyait opposées. Une société peut financer la recherche d'un vaccin ; elle ne peut pas décider à l'avance s'il fonctionne. Cette frontière ouvre une discussion publique sur les priorités sans faire voter la vérité.",
+          "La distinction n’oppose donc pas une science pure à une société qui la financerait : elle sépare le débat légitime sur les fins et les moyens de l’exigence de preuve qui commande les conclusions.",
           "III.2 Séparer le choix des questions de celui des résultats"
         ],
         [
@@ -258,7 +258,7 @@
           "III.3 La réponse au sujet, avec son opérateur"
         ],
         [
-          "La demande de Szilard était ainsi légitime, car elle portait sur la diffusion d’un résultat, non sur son exactitude ; Joliot pouvait la refuser, non au nom de la vérité, que le secret laissait intacte, mais seulement en jugeant la publication plus utile à tous.",
+          "Le cas de Szilard et Joliot montre que la vérité d’un résultat ne règle pas sa diffusion. Au printemps 1939, Szilard proposa de retarder la publication des résultats sur les neutrons secondaires ; Joliot refusa notamment parce qu’un accord entre quelques équipes ne garantissait pas que les autres laboratoires garderaient le silence. Leur désaccord portait sur la faisabilité et les conséquences du secret, non sur l’exactitude des résultats.",
           "III.3 La réponse vérifiée sur le cas"
         ],
         [
