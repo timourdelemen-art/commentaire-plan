@@ -276,5 +276,12 @@
         ]
       ]
     ]
+  ],
+  "source_checks": [
+    {
+      "claim": "Szilard sought to delay publication of results on secondary neutrons; Joliot declined, partly because a voluntary agreement could not ensure that other laboratories would refrain from publishing.",
+      "source": "Bertrand Goldschmidt oral-history interview, War and Peace in the Nuclear Age (1986), American Archive of Public Broadcasting; H. D. Smyth, Atomic Energy for Military Purposes (1945), ch. III; Spencer R. Weart, “Scientists with a Secret”, Physics Today (1976).",
+      "verification": "The oral history records Goldschmidt’s explanation that Joliot considered secrecy impracticable without a worldwide agreement; the Smyth report and Weart’s historical account confirm the voluntary publication-restriction debate and Joliot’s refusal."
+    }
   ]
 }
