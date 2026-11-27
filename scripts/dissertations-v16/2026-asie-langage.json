@@ -46,10 +46,10 @@
     "contrainte_scene": "montrer un projet fondé sur la dépendance de la pensée aux mots, et ce qui lui résiste.",
     "III": {
       "operation": "transformation d’un présupposé (III.7 a) : la liberté n’est pas un dehors, le langage est une résistance qui porte.",
-      "III1": "L’image de la prison suppose qu’une pensée sans mots serait plus libre ; elle serait sans prise.",
+      "III1": "Une pensée non verbale existe ; mais l’image de la prison suppose à tort qu’une pensée conceptuelle serait plus libre sans les signes qui lui permettent de se fixer, de se corriger et de se communiquer.",
       "III2": "Le langage est pour la pensée ce que l’air est à la colombe : ce qui gêne porte. Conserve XA et XB ; explique LA (dépendance de l’aile, non du prisonnier) et LB (la transformation n’avait pas à sortir).",
-      "III3": "Nous ne sommes pas prisonniers : nous dépendons d’une résistance qui porte la pensée, et nous sommes libres en la travaillant ; vérifié sur le novlangue. Reste : ce travail suppose une communauté qui accueille les mots changés.",
-      "tests": "Cas témoin : la III dit pourquoi le novlangue échouerait tant que les locuteurs travaillent la langue, ce que ni A ni B ne disaient. Second cas : la notation mathématique, qui permet de penser ce qu’on ne pensait pas sans elle. Restitution : oui. Rechute : le reste (la communauté qui accueille) ne redit pas LB : il porte sur une condition sociale que la III fait apparaître, non sur l’absence de dehors. Test propre : prémisse de transformation établie (une pensée sans signes ne se fixe pas) ; illusion expliquée (l’image du vol dans le vide). Report : non. Acquis nouveau : la distinction entre condition qui gêne et clôture ; nécessaire à la décision. Contrôle renforcé : Comparer « évasion hors des mots », « jeu interne libre » et « pouvoir réel de modifier les usages en commun » ; réfuter l'analogie naïve selon laquelle toute dépendance serait libératrice. Audit : gestes C9, D7, O9, X12, F17. Alternatives : Prison des mots (dépendance pas enfermement) / création souveraine de mots (néglige compréhension commune) / liberté de modifier les usages avec les autres (retenue)."
+      "III3": "Nous ne sommes pas prisonniers du langage par le seul fait d’en dépendre : cette dépendance rend possible une pensée que nous pouvons travailler, corriger et transformer. Le novlangue échouerait tant que les locuteurs pourraient encore faire jouer les mots les uns contre les autres. Reste : ce travail suppose une communauté qui accueille les mots changés.",
+      "tests": "Cas témoin : la III dit pourquoi le novlangue échouerait tant que les locuteurs travaillent la langue, ce que ni A ni B ne disaient. Second cas : la notation mathématique, qui permet de penser ce qu’on ne pensait pas sans elle. Restitution : oui. Rechute : le reste (la communauté qui accueille) ne redit pas LB : il porte sur une condition sociale que la III fait apparaître, non sur l’absence de dehors. Test propre : prémisse précisée (la pensée non verbale n’est pas niée ; la pensée conceptuelle a besoin de signes pour se fixer et se corriger) ; illusion expliquée (l’image du vol dans le vide). Report : non. Acquis nouveau : la distinction entre condition qui gêne et clôture ; nécessaire à la décision. Contrôle renforcé : Comparer « évasion hors des mots », « jeu interne libre » et « pouvoir réel de modifier les usages en commun » ; réfuter l'analogie naïve selon laquelle toute dépendance serait libératrice. Audit : gestes C9, D7, O9, X12, F17. Alternatives : Prison des mots (dépendance pas enfermement) / création souveraine de mots (néglige compréhension commune) / liberté de modifier les usages avec les autres (retenue)."
     },
     "candidats_III": [
       {
@@ -152,11 +152,11 @@
           "I.1 Ce qu’elle sauve"
         ],
         [
-          "Penser distinctement, c’est distinguer, et l’on ne retient une distinction qu’en la fixant dans des signes : sans mots, une pensée ne se garde ni ne se communique.",
+          "Penser distinctement, c’est pouvoir maintenir des différences et les reprendre. Pour la pensée conceptuelle, les signes d’une langue commune permettent de fixer ces distinctions, de les comparer et de les discuter.",
           "I.2 La fonder par une condition de possibilité"
         ],
         [
-          "Les mots reçus nous permettent de distinguer des idées et d'en conserver le fil. Sans eux, une pensée serait plus difficile à fixer et à discuter. Cette dépendance explique la force de la langue sur nous, sans prouver encore qu'elle nous enferme.",
+          "Cela ne signifie pas que toute pensée soit verbale : une perception, une image ou une intuition peut précéder les mots. Mais une pensée qui veut se formuler, se corriger et se communiquer s’appuie sur des signes partageables. Cette dépendance explique la force de la langue sur nous, sans prouver encore qu’elle nous enferme.",
           "I.2 Montrer le rôle des signes dans la pensée"
         ],
         [
@@ -193,11 +193,11 @@
           "II.1 Ce qu’elle conserve"
         ],
         [
-          "Toute langue a été faite par ceux qui la parlent : chaque mot fut un jour un emploi nouveau, chaque sens une invention reprise par d’autres.",
+          "Les langues se transforment par les usages : un mot peut recevoir un sens nouveau, mais il n’élargit la langue commune que si d’autres locuteurs le comprennent et le reprennent.",
           "II.2 La fonder : la langue est l’œuvre de ses locuteurs"
         ],
         [
-          "Une langue change par les usages de ceux qui la parlent, mais cela ne signifie pas que chacun puisse lui donner n'importe quel sens. Un mot inventé que personne ne comprend n'agrandit pas encore la pensée commune. La transformation demande une reprise par autrui.",
+          "Le locuteur ne décide donc pas seul du sens qu’il propose : il ouvre une possibilité que l’usage collectif peut retenir ou laisser de côté.",
           "II.2 L’inférence décisive"
         ],
         [
@@ -234,7 +234,7 @@
           "III.1 Effectuer le déplacement nécessaire"
         ],
         [
-          "Or une pensée sans mots ne serait pas libérée, elle serait sans prise : elle ne pourrait ni se fixer, ni se corriger, ni se dire.",
+          "Une image, une perception ou une intuition peut se passer de mots ; mais une pensée conceptuelle qui veut se maintenir, se corriger et se communiquer a besoin de signes partageables. L’absence de langage ne garantit donc pas une pensée plus libre : elle peut aussi priver la pensée des moyens de se préciser.",
           "III.1 La prémisse qui le ruine, établie en I.2"
         ],
         [
@@ -254,7 +254,7 @@
           "III.2 Contre-épreuve de la solution choisie"
         ],
         [
-          "Nous ne sommes donc pas prisonniers du langage : nous en dépendons comme d’une résistance qui porte la pensée, et nous sommes libres en le travaillant, non en le quittant.",
+          "Nous ne sommes donc pas prisonniers du langage par le seul fait d’en dépendre : cette dépendance rend possible une pensée que nous pouvons travailler, corriger et transformer.",
           "III.3 La réponse au sujet, avec son opérateur"
         ],
         [
