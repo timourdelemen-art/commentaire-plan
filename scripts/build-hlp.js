@@ -145,8 +145,8 @@ function page(x){
     step(3,'Construire la réponse','Écrivez un plan de réponse en deux ou trois étapes, une phrase par étape.','hlp-interp-plan',['Chaque étape répond à la question, avec ses mots.','Chaque étape s’appuie sur un passage relevé à l’étape 2.','L’ordre fait progresser l’explication.'],6),
     step(4,'Comprendre le sujet d’essai','Expliquez en une phrase ce que le sujet d’essai vous demande d’examiner.','hlp-essai-comprendre',['Votre phrase précise la question à examiner.','Le sens donné aux mots importants convient à ce sujet.']),
     step(5,'Construire l’idée','Écrivez deux phrases : votre première réponse, puis une raison qui la soutient.','hlp-essai-idee',['La réponse porte précisément sur la question.','La raison est précise et pourrait convaincre quelqu’un.']),
-    step(6,'Éprouver et préciser votre idée','Présentez une difficulté pour votre réponse, en une phrase.<br>Précisez en une phrase ce que cela change à votre idée.','hlp-essai-difficulte',['Le cas ou la raison concerne exactement la question.','La précision découle de cet examen, sans opposition automatique.'],5),
-    step(7,'Ordonner votre réflexion','Écrivez les étapes de votre réponse dans l’ordre, une phrase par étape.','hlp-essai-plan',CHECK[eKind],6)
+    step(6,'Éprouver et préciser votre idée','Cherchez un cas ou une raison qui pourrait réellement vous faire modifier votre réponse. Si rien ne la contredit, précisez plutôt sa condition ou sa portée.','hlp-essai-difficulte',['Le cas ou la raison concerne exactement la question.','Vous montrez ce qu’il change, ou pourquoi votre réponse résiste sans être simplement répétée.'],5),
+    step(7,'Donner un ordre à votre réponse','Écrivez le fil de votre réponse en deux ou trois mouvements, une phrase par mouvement. Indiquez le lien qui rend le passage de l’un à l’autre nécessaire.','hlp-essai-plan',CHECK[eKind],6)
   ].join('');
   const traite=PARCOURS.find(q=>q.code===x.code&&x.a.includes(q.author.split(' ').pop())); // un PDF peut porter deux sujets
   const noteHtml=x.note?'<p class="hlp-note">'+esc(x.note)+'</p>':'';
