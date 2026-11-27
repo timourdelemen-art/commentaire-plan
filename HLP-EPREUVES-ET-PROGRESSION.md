@@ -50,10 +50,16 @@ Douze paires, vingt-quatre réponses : deux sujets zéro de Première (Molière,
 | Alain, zéro 1 terminale | Signes singuliers persistants face au pouvoir sur autrui et aux signes communs du costume. Ne pas réduire les souverains à une incapacité de refaire leur propre corps. |
 | Condorcet, Métropole 2025 J1 | Pitié naturelle mais fragile ; exercice, morale et liberté. Émotion intense et sensibilité formée distinctes. |
 | Sand, Centres étrangers G1 2026 J1 | Lieu, temps, attention ; retrait choisi et provisoire, liens maintenus. Pas de loi universelle de rupture sociale. |
+| Voltaire, Centres étrangers G1 2024 J1 | Le choix de Sophronie se lit dans la syntaxe du dialogue ; l’éducation forme un jugement autonome, mais l’essai éprouve la limite sociale de cet idéal. |
+| Diderot, Antilles-Guyane 2026 J2 | La sensibilité est une disposition corporelle à maîtriser, non à abolir ; l’essai distingue l’abandon de l’artiste de la sensibilité que l’œuvre met en forme. |
+| Heredia, Asie 2026 J2 | Le sonnet transforme le silence de midi en réseau de lumière et en rêve capturé ; l’essai distingue l’attention sensible de l’action purement utilitaire. |
+| Simone Weil, Centres étrangers G1 2021 J1, sujet 2 | La guerre détruit l’avenir et les ressources de la sortie ; l’essai examine ce que témoignage, Iliade et Dante peuvent dire sans prétendre abolir la violence. |
+| Barbusse, Amérique du Nord 2023 J2 | La beauté du bombardement est une illusion qui coexiste avec l’écrasement des corps ; l’essai définit l’objectivité comme confrontation de regards situés. |
+| Rousseau, Métropole 2022 J2, sujet 1 | Le retour à soi dépend davantage de la volonté que du savoir ; l’essai montre que la lecture éclaire seulement si le lecteur revient à lui-même. |
 
 Les PDF et localisations figurent dans le JSON. Pas de reproduction intégrale ni de reconstitution ; passages français originaux relevant du domaine public. Les références extérieures sont paraphrasées, sans citation de mémoire.
 
-Citations confrontées aux PDF : Molière « ma femme n’est pas ma femme ? », p. 1 ; Descartes « grand livre du monde » et « ne rien croire trop fermement », p. 1 ; Rivière « toit au-dessus de moi » et « ils me regardent », p. 3 ; Sand « prison volontaire », p. 2. Les mots repris du sujet sont aussi vérifiés sur les questions.
+Citations confrontées aux PDF : Molière « ma femme n’est pas ma femme ? », p. 1 ; Descartes « grand livre du monde » et « ne rien croire trop fermement », p. 1 ; Rivière « toit au-dessus de moi » et « ils me regardent », p. 3 ; Sand « prison volontaire », p. 2. Les mots repris du sujet sont aussi vérifiés sur les questions. Références extérieures contrôlées dans les œuvres : Bergson, Le Rire, III, I (perception et action) ; Dante, Enfer, XXVI, 119-120 ; Proust, Le Temps retrouvé, III, p. 62 (éd. Gallimard, 1927) ; Flaubert, Madame Bovary, I, VI. Les citations de ces passages sont exactes.
 
 ## Progression et limites des tests
 
@@ -61,9 +67,9 @@ Niveau 1 : choix d’une piste, retour bref, justification écrite avec un appui
 
 Le générateur compte les mots sans imposer de quota. Les tests de structure et de navigation ne prouvent pas le mérite de 20. Relecture pédagogique indépendante et navigateur 390/1280 px restent requis avant fusion selon AGENTS.md.
 
-## Raccord à reprendre dans le chantier principal de Claude
+## Raccords HLP dans les pages
 
-`hlp-premiere.html`, bloc d’essai à la ligne 111 sur la base actuelle, renvoie encore à `philosophie-dissertation.html`. Remplacer ce lien par `hlp-ecrire.html` et employer « question de réflexion » pour le cadre ponctuel de première. Ce fichier est laissé au chantier de Claude : la PR ajoute déjà le raccord depuis les annales, sans réécrire son travail. Relire aussi les quatre pages principales après fusion pour distinguer support historique, contrôle continu et épreuve terminale.
+Les pages HLP renvoient désormais vers `hlp-ecrire.html` et `methode-hlp.html` pour les exercices propres à la spécialité. Les liens généraux de navigation vers la dissertation philosophique restent des liens vers les ressources générales du site ; ils ne constituent pas une consigne de méthode pour l’essai HLP. Les pages distinguent explicitement l’interprétation ciblée et l’essai argumenté.
 
 ## Résultats techniques
 
