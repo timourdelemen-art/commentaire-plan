@@ -114,6 +114,16 @@
       "verification": "œuvre fournie, passage retrouvé mot pour mot",
       "regime": "citation exacte, reprise en III dans un autre emploi, signalé",
       "fonction": "III.1 : la formule est reprise pour dire que la vérité agit comme norme ; l’emploi diffère de Spinoza, qui l’entend de l’idée possédée, et la copie le signale."
+    },
+    {
+      "texte": "la connaissance la plus exacte ne persuade pas nécessairement certains auditeurs",
+      "auteur": "Aristote",
+      "oeuvre": "Rhétorique",
+      "lieu": "I, 1, 1355a24-29",
+      "edition": "Œuvres complètes, dir. Pierre Pellegrin, Flammarion, 2014",
+      "verification": "passage contrôlé dans le texte grec selon la référence Bekker et dans une traduction intégrale ; paraphrase, non citation littérale",
+      "regime": "paraphrase fidèle",
+      "fonction": "II.2 : distinguer la vérité d’une preuve et les conditions rhétoriques de sa réception ; l’échec de persuasion ne réfute pas la vérité."
     }
   ],
   "copy": [
@@ -207,11 +217,11 @@
           "II.2 La fonder par les faits : vrai et prouvé divergent"
         ],
         [
-          "L'accueil d'une proposition dépend des preuves qu'on possède alors. On peut avoir raison trop tôt et disposer de mauvais arguments ; on peut aussi convaincre avec des raisons séduisantes mais fausses. L'adhésion ne mesure donc pas directement la vérité.",
+          "L'accueil d'une proposition dépend des preuves qu'on possède alors. On peut avoir raison trop tôt et disposer de mauvais arguments ; on peut aussi convaincre avec des raisons séduisantes mais fausses. Aristote ajoute qu'une connaissance, même exacte, ne persuade pas nécessairement certains auditeurs : il faut encore trouver les moyens de leur rendre la preuve accessible. L'adhésion ne mesure donc pas directement la vérité.",
           "II.2 Distinguer la vérité de la persuasion effective"
         ],
         [
-          "Cette raison établit qu’une vérité sans preuve ne convainc pas, et qu’une erreur bien argumentée convainc.",
+          "Cette raison établit qu’une vérité sans preuve ne convainc pas, et qu’une erreur bien argumentée convainc ; elle montre aussi qu’une preuve exacte peut échouer faute d’être reçue.",
           "II.3 L’éprouver : ce qu’elle établit"
         ],
         [
@@ -223,7 +233,7 @@
           "II.3 Sur la scène"
         ],
         [
-          "La force des preuves ne permet donc pas encore d’expliquer pourquoi une preuve vaut mieux qu’un argument qui réussit, parce qu’on a séparé la conviction de ce qu’une preuve fait voir : le vrai.",
+          "La force des preuves ne permet donc pas encore d’expliquer pourquoi une preuve vaut mieux qu’un argument qui réussit, parce qu’on a séparé la conviction de ce qu’une preuve fait voir : le vrai. Elle ne dit pas non plus comment une démonstration devient accessible à celui qui ne sait pas encore la reconnaître.",
           "II.3 La portée et le manque du second fondement"
         ],
         [
