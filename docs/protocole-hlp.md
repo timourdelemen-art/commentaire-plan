@@ -6,13 +6,12 @@ Document interne, non publié (`clean-publish.js` retire les `.md`). Version 3, 
 
 - **Note de service du 11 septembre 2026** (BO spécial n° 4 du 17 septembre 2026, à partir de la session 2027) : 4 heures ; un texte, deux questions notées chacune sur 10 ; une **interprétation** (littéraire ou philosophique), « un développement qui explicite et analyse un enjeu majeur du texte » ; un **essai** (de l’autre discipline), une réponse argumentée à une question que soulève le texte ; deux réponses **d’ampleur comparable**, sur **deux copies distinctes**, corrigées séparément par un professeur de lettres et un professeur de philosophie ; la maîtrise de la langue compte dans toute la copie (orthographe et syntaxe, vocabulaire, clarté, organisation) ; une copie défaillante sur l’ensemble de ces points ne peut avoir la moyenne.
 - **Le candidat ne choisit pas** : le sujet fixe la combinaison, toujours croisée. Combinaison A : interprétation littéraire, puis essai philosophique. Combinaison B : interprétation philosophique, puis essai littéraire.
-- **Éduscol, « Attendus des épreuves, éléments d’évaluation »** (2019) et **grille d’évaluation** (2021) ; **inspection de Rennes**, « Les attendus de l’épreuve de spécialité HLP » (novembre 2022) :
-  - interprétation : « compréhension et élucidation du sens du texte », lu « dans certains de ses éléments les plus significatifs », non dans son intégralité (l’exhaustivité est « une erreur méthodologique ») ; précision de la lecture, attention à la langue, au lexique, aux concepts et aux arguments ; un commentaire « circonstancié, argumenté et en prise sur la lettre comme sur l’esprit du texte » ; « un exercice de lecture-compréhension ; pas une épreuve de Culture générale » ;
-  - essai : « élaborer, tenir, mettre à l’épreuve et défendre une position » ; « pensée personnelle, progressive et ordonnée », « librement, mais avec ordre », rédigée à la première personne ; « plus bref et plus libre que la dissertation » ; la question « prend son sens dans le texte » ; références précises et pertinentes, jamais d’étalage ; « nullement un prétexte à la simple restitution de connaissances » ;
-  - écueils : contresens, paraphrase, propos vague, citations sans ordre ; juxtaposition d’exemples, récitation de cours, propos « qui aurait pu être rédigé au début de l’année » ;
-  - aucun schéma imposé : l’essai « n’implique aucun schéma rhétorique ou dissertatif particulier » ; aucune longueur fixée ; évaluation « essentiellement positive ».
+- **Annexe officielle – échelle descriptive 2026** : pour l’interprétation, le texte est étudié à travers certains éléments significatifs, non dans son intégralité ; sont valorisés la précision de la lecture, l’attention à l’écriture, à la langue, au lexique, aux concepts et aux arguments, ainsi que l’organisation d’une explication argumentée en prise sur la lettre et l’esprit. Pour l’essai, sont valorisés l’attention à la question et à ce qui la justifie au regard du texte, la cohérence et la justification de la réponse, l’appui sur des éléments déterminants du texte et la mobilisation pertinente des connaissances acquises.
+- **Attendus du haut de l’échelle** : l’interprétation doit faire apparaître les élaborations conceptuelles ou littéraires, les implicites et les difficultés du texte, et situer sa position par rapport à la question ou à d’autres textes. L’essai doit approfondir sa réponse de manière progressive, élaborer précisément ses arguments, situer sa position par rapport à celle du texte et mobiliser une culture précise. Une réponse peut entrer en dialogue avec elle-même, mais cela ne commande ni une antithèse automatique ni une partie réservée à l’objection.
+- **Ressources Éduscol antérieures (2019-2021) et documents académiques** : ils éclairent la liberté de composition, l’importance de la lecture sélective et la pensée personnelle. Ils ne remplacent pas la note de service 2026. La première personne est possible, non obligatoire ; aucun schéma rhétorique ou dissertatif n’est prescrit.
+- **Écueils signalés par les ressources d’évaluation** : contresens, paraphrase, propos vague, citations sans ordre ; juxtaposition d’exemples, récitation de cours, propos qui pourrait avoir été écrit sans l’enseignement de spécialité.
 
-**Conséquence.** Les structures ci-dessous sont celles des modèles du site : elles rendent visible un raisonnement ordonné. Elles ne sont jamais présentées à l’élève comme une règle de l’épreuve.
+**Conséquence.** Les architectures ci-dessous sont des repères de composition propres aux modèles du site, non des plans réglementaires. Elles doivent aider l’élève à produire une réponse ordonnée et complète sans lui faire imiter une dissertation ou une explication de texte du tronc commun.
 
 ## 1. Règles communes
 
@@ -21,7 +20,7 @@ Document interne, non publié (`clean-publish.js` retire les `.md`). Version 3, 
 - **Une fonction par phrase**, affichée à côté d’elle ; une phrase sans fonction est supprimée.
 - **Citations du texte du sujet** : brèves, exactes (contrôle par script sur `scripts/hlp-textes.json`), intégrées à la syntaxe, toujours analysées. **Aucune citation d’une autre œuvre de mémoire** : une œuvre extérieure est décrite précisément (titre, auteur, épisode, détail) ; une citation n’est gardée que vérifiée mot pour mot dans une édition.
 - **Langue** : sobre, exacte, sans jargon ; aucun mot réservé aux documents internes (AGENTS.md § 2).
-- **Test de permutation** (protocole de dissertation littéraire) : si deux étapes ou deux moments peuvent s’échanger sans changer le raisonnement, c’est une liste ; reprendre.
+- **Test de progression propre à l’exercice** : chaque mouvement doit modifier ce que le lecteur comprend du texte ou ce que la réponse permet de soutenir. Si deux paragraphes peuvent s’échanger sans rien changer, leur ordre ou leur fonction est à reprendre.
 - **Transition** : une phrase qui rend visible le lien entre deux mouvements lorsqu’il faut le marquer (conséquence, contraste, précision, condition). Une question ouverte est possible, jamais obligatoire ; pas de formule répétée ni de transition artificielle.
 
 
@@ -43,41 +42,42 @@ Document interne, non publié (`clean-publish.js` retire les `.md`). Version 3, 
 
 ### 2.1 Interprétation littéraire (professeur de lettres)
 
-Méthode du commentaire du site, en réduit : X, ce que le texte présente avec sa voix et sa forme ; Y, ce que l’écriture en fait comprendre ou éprouver ; la question de l’épreuve dit quelle dimension suivre.
+L’interprétation littéraire est une lecture sélective guidée par la question, non un commentaire composé miniature. Elle explique comment des choix d’écriture font comprendre ou éprouver l’enjeu demandé.
 
 - **Introduction (3 ou 4 phrases).** (1) Situer : auteur, œuvre, date, qui parle, dans quelle situation, sous quelle forme (dialogue, sonnet, récit…). (2) Reprendre la question et le sens de son mot décisif (« idéal », « paradoxale », « richesse de l’instant »). (3) La lecture défendue : ce que l’écriture fait comprendre, en une phrase. (4) L’ordre des étapes.
-- **Étapes (3 paragraphes).** Trois moments d’une même lecture, ordonnés par la progression du sens, non par l’ordre des lignes. Chaque étape répond à une part de la question.
-- **Preuve (quatre gestes du protocole de dissertation littéraire).** Situer le passage ; citer brièvement ; analyser un fait d’écriture (procédé nommé simplement, d’après le Petit manuel des procédés : image, rythme, énonciation, temps, rime, place dans la composition…) et son effet ici ; conclure sur la question. Au moins une preuve par étape, deux pour l’étape décisive.
+- **Mouvements (généralement 2 ou 3).** Ils suivent une progression du sens, non un relevé linéaire : ce que le texte met en place ; ce que sa forme fait apparaître ou transforme ; ce que la tension ou la fin oblige à comprendre. Ce parcours s’adapte au texte : il n’impose ni trois paragraphes ni un ordre fixe.
+- **Appui et analyse.** Partir d’un détail significatif (mot, image, rythme, voix, scène, composition) ; l’analyser dans son contexte ; montrer l’effet ou le sens qu’il produit ici ; revenir à la question. La quantité de citations ne compte pas : leur précision et leur exploitation comptent.
 - **Conclusion (2 phrases).** La réponse, dans les mots de la question ; ce que l’écriture a fait comprendre. Ni ouverture ni référence extérieure.
 - **Pièges propres.** Paraphrase ; relevé de procédés sans effet ; dans un dialogue, confondre le personnage et l’auteur ; anachronisme de lecture ; poème paraphrasé au lieu d’être analysé dans sa forme (vers, strophes, chute).
 
 ### 2.2 Interprétation philosophique (professeur de philosophie)
 
-Méthode de l’explication de texte, en réduit : le texte est lu comme un argument, quelle que soit sa forme.
+L’interprétation philosophique est une lecture ciblée de l’enjeu et de l’argument du texte. Elle n’est ni une explication linéaire exhaustive ni une dissertation prenant le texte pour prétexte.
 
 - **Introduction (3 ou 4 phrases).** (1) Situer : auteur, œuvre, et de quoi parle le texte. (2) Reprendre la question et le sens de son mot décisif (pour « Dans quelle mesure… ? » : un degré et une condition). (3) La thèse du texte rapportée à la question, et le problème qu’elle résout. (4) Les moments de l’argument qui seront suivis.
-- **Étapes (3 paragraphes).** Le mouvement de l’argument, guidé par la question : ce que le texte affirme, ce qui le fonde, ce que cela engage.
+- **Mouvements (généralement 2 ou 3).** Suivre les opérations décisives pour la question : thèse ou réponse ; raison, distinction ou exemple qui la fonde ; conséquence, condition ou difficulté qui en précise la portée. On ne résume pas chaque phrase et l’on ne force pas le texte à entrer dans trois temps.
 - **Preuve.** Citer le terme ou la phrase ; définir les termes ; expliciter l’opération (raison, distinction, condition, conséquence, rôle d’un exemple dans l’argument) ; dire ce qui est établi pour la question. Aucune référence à un autre auteur.
 - **Conclusion (2 phrases).** La réponse dans les termes de la question (degré et condition si « dans quelle mesure ») ; la portée de la thèse, tirée du texte.
 - **Pièges propres.** Résumer au lieu d’expliquer ; plaquer un cours ou un auteur ; dans un dialogue, prendre une voix pour la thèse sans voir ce que l’autre voix lui oppose.
 
 ### 2.3 Essai littéraire (professeur de lettres)
 
-Dissertation littéraire plus brève et plus libre ; à la première personne.
+L’essai littéraire est une réponse personnelle, argumentée et nourrie d’œuvres à une question que le texte fait naître. Ce n’est pas une dissertation littéraire raccourcie.
 
-- **Introduction (3 ou 4 phrases).** (1) Partir du texte du sujet : ce qu’il montre qui fait naître la question. (2) Les mots du sujet et leur sens. (3) Une seule question qui garde la tension (ce qui résiste à la réponse évidente). (4) Le chemin.
-- **Moments (2 ou 3 mouvements, sans plan imposé).** La réponse avance par les œuvres et les formes : une œuvre fait apparaître un aspect de la question ; une autre peut le confirmer, le déplacer ou le compliquer ; la réflexion précise alors ce que l’on peut soutenir. Ce parcours est un modèle possible, non un schéma thèse/antithèse/synthèse. Les transitions marquent les écarts utiles, sans question obligatoire.
-- **Preuve.** Des œuvres précises (littérature et autres arts), analysées dans leur écriture ou leur forme avec les quatre gestes ; le texte du sujet sert d’appui au moins une fois ; une référence extérieure compare et fait voir un écart (test : « grâce à cette comparaison, je comprends mieux que… »). Deux ou trois œuvres réellement exploitées, pas une liste.
+- **Entrée en matière (brève).** Partir du lien entre le texte et la question ; éclairer les mots décisifs ; formuler la réponse que l’on va défendre et la raison qui la soutient. Pas d’accroche plaquée, de problématique artificielle ou d’annonce d’un plan dialectique.
+- **Développement (2 ou 3 mouvements possibles, sans plan imposé).** Une œuvre ou une forme fait apparaître une dimension de la question ; une autre peut la confirmer, la déplacer ou la contredire ; la comparaison permet alors de préciser la réponse. L’ordre doit être nécessaire : chaque mouvement apporte un nouvel éclairage ou oblige à réviser ce qui précède. Les transitions nomment sobrement ce déplacement (écart, conséquence, limite, prolongement) ; elles ne sont pas obligatoirement des questions.
+- **Appui.** Des œuvres précises (littérature et autres arts), analysées dans leur écriture ou leur forme ; le texte du sujet demeure le point de départ et la position de l’essai se situe par rapport à ce qu’il donne à penser, sans le réinterpréter une seconde fois. Une comparaison est utile si elle fait apparaître un écart décisif. Deux œuvres bien exploitées valent mieux qu’une liste.
 - **Conclusion (2 ou 3 phrases).** La réponse avec le petit mot du sujet ; ce que le raisonnement a fait comprendre de la littérature et des arts ; une question seulement si elle naît du raisonnement (jamais sur « la littérature » ou « la vie » en général).
 
 ### 2.4 Essai philosophique (professeur de philosophie)
 
-Dissertation philosophique plus brève et plus libre ; à la première personne.
+L’essai philosophique est une réponse argumentée à une question née du texte. Il engage une pensée personnelle, mais n’est ni une dissertation abrégée ni une explication du texte.
 
-- **Introduction (3 ou 4 phrases).** (1) Partir du texte du sujet : la situation ou l’idée qui pose la question. (2) Ce qu’on attend de la notion, et les deux exigences qui se gênent. (3) Les mots du sujet ; la question. (4) Le chemin.
-- **Moments (2 ou 3 mouvements, sans plan imposé).** Développer une proposition par une raison et un exemple ; examiner, si cela est nécessaire, un cas qui la met à l’épreuve ; préciser la réponse à partir de ce que l’examen a montré. L’ordre dépend de la question : il ne reproduit ni les trois parties d’une dissertation ni une opposition automatique entre thèse et antithèse.
+- **Entrée en matière (brève).** Faire apparaître le lien entre le texte et la question ; préciser les notions dont dépend la réponse ; annoncer une position initiale et sa raison principale. Il n’est pas nécessaire de fabriquer deux exigences opposées si le sujet n’en fait pas apparaître.
+- **Développement (2 ou 3 mouvements possibles, sans plan imposé).** Établir une proposition par une raison ; la rendre intelligible par un exemple précis ; examiner, si cela est nécessaire, un cas qui la met en difficulté ; préciser alors ce que l’on peut maintenir. Selon le sujet, on peut distinguer deux sens, examiner une condition, comparer deux réponses ou éprouver une affirmation par un contre-exemple. Aucun de ces parcours n’est obligatoire. Chaque mouvement doit faire progresser la réponse, et non répéter la même idée.
 - **Preuve.** Une proposition générale ; la raison qui l’établit (distinction, condition, conséquence) ; un exemple qui la montre. L’exemple ou l’auteur accompagne la preuve, il ne la remplace pas. Un auteur n’est cité que s’il fait avancer l’idée, et sans citation de mémoire.
-- **Conclusion (2 ou 3 phrases).** Une réponse nette dans les termes du sujet ; ce qui reste à penser ; une question précise seulement si elle naît du raisonnement.
+- **Transitions.** Une phrase suffit lorsqu’un passage doit être rendu visible : conséquence, distinction, objection, changement de niveau ou précision. Elle indique pourquoi le mouvement suivant est nécessaire ; elle ne pose pas systématiquement une question et ne reprend pas une formule de dissertation.
+- **Conclusion (2 ou 3 phrases).** Une réponse nette dans les termes du sujet ; sa portée ou sa condition ; une difficulté résiduelle seulement si le raisonnement en a réellement fait apparaître une.
 
 ## 3. Le couplage des deux réponses
 
@@ -91,10 +91,11 @@ Pour chaque réponse : trois propositions au clic (Solide, Défendable, À revoi
 
 ## 5. Contrôles avant publication
 
-1. Citations du texte : retrouvées mot pour mot (script).
+1. Citations du texte : retrouvées mot pour mot (script) et vérifiées dans leur contexte.
+1 bis. Attendus du haut de l’échelle 2026 : interprétation attentive aux implicites et difficultés ; essai qui approfondit progressivement sa réponse et la situe par rapport à la position du texte.
 2. Longueurs : 450 à 550 mots par réponse ; écart entre les deux réponses inférieur à 15 %.
 2 bis. Règles R1 à R11 vérifiées une à une.
 3. Introduction et conclusion : chaque phrase porte une fonction de la fiche.
-4. Test de permutation des étapes ou moments.
+4. Test de progression : chaque mouvement ajoute une raison, un éclairage ou une précision qui dépend de ce qui précède.
 5. Fiche de la discipline respectée ; couplage vérifié.
 6. Audit par un agent distinct, qui ne reçoit que le sujet, le texte, les attendus officiels (§ 0) et le corrigé.
