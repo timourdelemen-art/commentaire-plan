@@ -46,9 +46,9 @@
     "contrainte_scene": "montrer une découverte exacte et une demande de la soumettre à son usage.",
     "III": {
       "operation": "critère de frontière (III.7 a).",
-      "III1": "Distinguer, dans une recherche, ce qu’elle demande (question, moyens, diffusion) et ce qu’elle trouve (la réponse) : l’utilité peut régler le premier, jamais le second.",
-      "III2": "Le choix des priorités engage des ressources communes et relève d’une délibération sur les fins ; la conclusion doit répondre aux faits et aux preuves. Un essai clinique peut décevoir ceux qui l’ont financé : le résultat ne se décide pas à l’avance. Explique LA (l’utilité ne peut fixer les résultats inconnus) et LB (la fidélité au vrai ne décide pas des priorités ni de la diffusion).",
-      "III3": "La science doit être utile en ce que les priorités et la diffusion peuvent être débattues au regard du bien commun, non en ce que l’utilité dicterait le vrai. Le désaccord entre Szilard et Joliot montre que la diffusion engage une responsabilité distincte du jugement scientifique. Reste : la connaissance elle-même comme danger.",
+      "III1": "Pour savoir jusqu’où l’utilité peut être exigée, il faut distinguer trois décisions : quelles questions une société choisit de financer, quelles réponses l’enquête établit, et comment les résultats sont diffusés ou employés. Ces décisions n’obéissent pas au même critère : le choix des priorités engage des fins communes ; la conclusion dépend des faits et des preuves ; la diffusion engage une responsabilité envers ceux qu’un savoir peut affecter.",
+      "III2": "La frontière se justifie par la nature des décisions. Choisir une priorité engage des ressources communes et relève d’une délibération sur les fins ; établir un résultat oblige à répondre des faits et des preuves. Un essai clinique peut décevoir ceux qui l’ont financé : déclarer un traitement efficace ne relève pas de la volonté collective. Diffuser le résultat soulève encore une autre question : qui peut en faire usage, avec quels risques et sous quelles garanties ? Cette distinction conserve le droit collectif d’orienter la recherche sans lui donner le pouvoir de commander ses conclusions. Elle corrige aussi la seconde thèse : protéger l’autonomie du jugement scientifique ne dispense pas de répondre des conditions dans lesquelles les découvertes sont rendues publiques et deviennent des moyens d’action. Mais le choix des questions ne doit pas être limité à ce qui promet un résultat prochain. Une recherche apparemment inutile peut révéler une possibilité que personne ne savait demander. Et le danger d’un résultat ne suffit pas, à lui seul, à justifier son secret : il faut encore établir que la restriction est possible, efficace et proportionnée. La responsabilité porte donc sur des décisions précises, non sur une condamnation générale du savoir.",
+      "III3": "La science doit être utile en ce que la collectivité peut discuter ses priorités et les conditions de diffusion de ses résultats ; elle ne doit pas l’être au sens où l’utilité dicterait ses conclusions. Le vrai règle ce qui peut être affirmé ; la responsabilité règle, avec d’autres raisons, ce qu’il convient de faire de ce savoir. Le cas de Szilard et Joliot montre que la vérité d’un résultat ne règle pas sa diffusion. Au printemps 1939, Szilard proposa de retarder la publication des résultats sur les neutrons secondaires ; Joliot refusa notamment parce qu’un accord entre quelques équipes ne garantissait pas que les autres laboratoires garderaient le silence. Leur désaccord portait sur la faisabilité et les conséquences du secret, non sur l’exactitude des résultats : la décision de publier ne se déduit donc pas de la seule norme de vérité. Reste le cas où la connaissance elle-même donne à certains un pouvoir dangereux. Il faut alors juger non seulement la liberté de chercher et la responsabilité de diffuser, mais aussi les conditions politiques qui rendent un usage incontrôlable.",
       "tests": "Cas témoin : la III distingue la proposition de Szilard et le refus de Joliot du jugement sur la vérité (le désaccord porte sur la faisabilité et les conséquences du secret), ce que ni A, ni B, ni le partage ne faisaient. Second cas : Lyssenko (l’utilité commande la réponse : illégitime). Restitution : oui. Rechute : le reste ne redit ni LA ni LB. Test propre : frontière définie indépendamment des deux thèses (par la différence entre décider et constater). Report : la question ne se repose pas pour la diffusion, réglée par le bien commun. Acquis nouveau : la distinction question / réponse, prémisse qu’aucune partie n’établissait ; nécessaire à la décision. Contrôle renforcé : Comparer « utilité exigée des résultats », « liberté sans responsabilité » et « choix public des orientations sans censure des conclusions » ; préserver la recherche fondamentale. Audit : gestes C6, O5, N7, O15, E5. Alternatives : Science au service immédiat (peut falsifier) / liberté scientifique sans dette (nie choix collectifs) / débat sur questions, moyens et usages sans commander les résultats (retenu)."
     },
     "candidats_III": [
@@ -95,16 +95,6 @@
     }
   },
   "citations": [
-    {
-      "texte": "Anaxagore répond que la raison de choisir la vie est de contempler le ciel et l’ordre du monde.",
-      "auteur": "Anaxagore, rapporté par Aristote",
-      "oeuvre": "Éthique à Eudème",
-      "lieu": "I, 5, 1216a11-16",
-      "edition": "Aristote, Éthique à Eudème ; traduction anglaise consultée dans Perseus, texte grec repéré par Bekker",
-      "verification": "Témoignage antique vérifié dans le texte d’Aristote ; ce n’est pas une citation directe conservée d’Anaxagore.",
-      "regime": "paraphrase attribuée avec médiation explicite",
-      "fonction": "II.2 : établir que la contemplation du monde peut être une fin de la vie, sans utilité extérieure immédiate."
-    },
     {
       "texte": "En désignant les objets par leur utilité, elle s’interdit de les connaître.",
       "auteur": "Gaston Bachelard",
@@ -162,20 +152,20 @@
           "I.1 Ce qu’elle sauve"
         ],
         [
-          "Celui qui reçoit d’une communauté les moyens de son activité contracte envers elle une dette, comme tout échange en crée une.",
-          "I.2 La fonder : une prémisse normative, la réciprocité"
+          "Une activité se juge à sa fonction propre, non au profit qu’on en tire : le médecin soigne selon ce que son art exige, même si le malade espère autre chose. La science, elle, doit établir ce qui est. Sa recherche ne peut donc tenir une conclusion pour vraie parce qu’elle serait utile ; elle doit la soumettre aux faits et aux raisons qui la justifient.",
+          "II.2 La fonder par la fonction propre de la recherche"
         ],
         [
-          "Une communauté finance des laboratoires et assume parfois les risques des découvertes. Il est donc juste qu'elle puisse demander pourquoi telle recherche mérite des moyens. Mais de ce droit de questionner une priorité ne suit pas le pouvoir de fixer le résultat souhaité.",
-          "I.2 Fonder la responsabilité envers la communauté"
+          "L’affaire Lyssenko montre ce qui arrive lorsque cette exigence est renversée : en Union soviétique, la doctrine biologique soutenue par le pouvoir fut imposée comme vérité officielle, tandis que la génétique concurrente était disqualifiée et ses défenseurs persécutés. La recherche ne servait plus à éprouver une thèse ; elle devait confirmer une décision politique.",
+          "II.2 Le cas qui éprouve le renversement de la norme"
         ],
         [
-          "Ce fondement établit un droit réel : la société peut attendre de la science qu’elle serve, et c’est une raison de la soutenir.",
-          "I.3 L’éprouver : ce qu’il établit"
+          "Lorsque l’attente politique décide d’avance de la conclusion, l’enquête perd sa fonction : elle ne cherche plus ce qui est, mais l’approbation de ce qu’on a décidé. La fidélité au vrai n’est donc pas un luxe désintéressé ; elle est la condition pour que la science puisse corriger les attentes, y compris celles de la société qui la finance.",
+          "II.2 L’inférence : la vérité comme condition de correction"
         ],
         [
-          "Mais il juge la recherche par ce qu’elle doit rendre, et l’on n’exige un service qu’en sachant lequel : or l’utilité d’une vérité dépend de vérités qui ne sont pas encore connues.",
-          "I.3 Ce qu’il ne permet pas encore, et pourquoi"
+          "Bachelard formule précisément le danger : « En désignant les objets par leur utilité, elle s’interdit de les connaître. » L’opinion substitue alors le besoin à la question ; l’exigence d’un résultat utile peut déformer de l’intérieur l’acte même de connaître, avant même qu’un pouvoir impose une conclusion.",
+          "II.2 Bachelard : l’utilité immédiate comme obstacle à la connaissance"
         ],
         [
           "En 1940, Hardy jugeait très improbable que la théorie des nombres serve à des fins militaires avant de nombreuses années ; la cryptographie lui a ensuite donné des usages importants, y compris militaires.",
@@ -240,35 +230,35 @@
       "III. L’UTILITÉ PEUT ORIENTER LA RECHERCHE ET SA DIFFUSION, NON DICTER SES RÉSULTATS",
       [
         [
-          "Pour savoir jusqu’où l’utilité peut être exigée, il faut distinguer dans une recherche ce qu’elle demande et ce qu’elle trouve : la question qu’on pose, les moyens qu’on y consacre, la diffusion des résultats d’un côté, la réponse obtenue de l’autre.",
+          "Pour savoir jusqu’où l’utilité peut être exigée, il faut distinguer trois décisions : quelles questions une société choisit de financer, quelles réponses l’enquête établit, et comment les résultats sont diffusés ou employés. Ces décisions n’obéissent pas au même critère : le choix des priorités engage des fins communes ; la conclusion dépend des faits et des preuves ; la diffusion engage une responsabilité envers ceux qu’un savoir peut affecter.",
           "III.1 Effectuer le déplacement nécessaire"
         ],
         [
-          "L’utilité peut légitimement commander les premiers, jamais la seconde : on peut choisir de chercher un vaccin plutôt qu’autre chose, non décider de ce que l’expérience montrera.",
+          "L’utilité peut donc orienter les priorités, sans dicter les réponses ; quant à la diffusion, elle ne relève ni d’une liberté sans limite ni d’une censure automatique : elle demande un jugement distinct sur les risques, les destinataires et les possibilités réelles de contrôle.",
           "III.1 Le critère énoncé"
         ],
         [
-          "La frontière se justifie par la nature des deux décisions. Choisir une priorité engage des ressources communes et relève d’une délibération sur les fins ; établir un résultat oblige à répondre des faits et des preuves. Un essai clinique peut décevoir ceux qui l’ont financé : déclarer un traitement efficace ne relève pas de la volonté collective, mais des résultats de l’enquête.",
+          "La frontière se justifie par la nature des décisions. Choisir une priorité engage des ressources communes et relève d’une délibération sur les fins ; établir un résultat oblige à répondre des faits et des preuves. Un essai clinique peut décevoir ceux qui l’ont financé : déclarer un traitement efficace ne relève pas de la volonté collective. Diffuser le résultat soulève encore une autre question : qui peut en faire usage, avec quels risques et sous quelles garanties ?",
           "III.2 La démontrer : pourquoi la frontière passe là"
         ],
         [
-          "Cette frontière conserve le droit collectif d’orienter la recherche sans lui donner le pouvoir de commander ses conclusions. Elle corrige la première thèse, qui confondait responsabilité publique et contrôle du vrai, et la seconde, qui protégeait la conclusion sans répondre des priorités ni de la diffusion.",
+          "Cette distinction conserve le droit collectif d’orienter la recherche sans lui donner le pouvoir de commander ses conclusions. Elle corrige aussi la seconde thèse : protéger l’autonomie du jugement scientifique ne dispense pas de répondre des conditions dans lesquelles les découvertes sont rendues publiques et deviennent des moyens d’action.",
           "III.2 Ce qu’il conserve et ce qu’il explique"
         ],
         [
-          "Mais le choix des questions ne doit pas être limité à ce qui promet un résultat prochain. Une recherche apparemment inutile peut révéler une possibilité que personne ne savait demander. Préserver de telles enquêtes n'annule pas la responsabilité publique ; cela évite que l'utilité connue aujourd'hui ferme les découvertes de demain.",
+          "Mais le choix des questions ne doit pas être limité à ce qui promet un résultat prochain. Une recherche apparemment inutile peut révéler une possibilité que personne ne savait demander. Et le danger d’un résultat ne suffit pas, à lui seul, à justifier son secret : il faut encore établir que la restriction est possible, efficace et proportionnée. La responsabilité porte donc sur des décisions précises, non sur une condamnation générale du savoir.",
           "III.2 Objection forte et détermination de la portée"
         ],
         [
-          "La science doit donc être utile, en ce que ses questions et la diffusion de ses résultats peuvent être réglées par le bien de ceux qui la font vivre, mais non en ce que l’utilité dirait ce qui est vrai.",
+          "La science doit être utile en ce que la collectivité peut discuter ses priorités et les conditions de diffusion de ses résultats ; elle ne doit pas l’être au sens où l’utilité dicterait ses conclusions. Le vrai règle ce qui peut être affirmé ; la responsabilité règle, avec d’autres raisons, ce qu’il convient de faire de ce savoir.",
           "III.3 La réponse au sujet, avec son opérateur"
         ],
         [
-          "Le cas de Szilard et Joliot montre que la vérité d’un résultat ne règle pas sa diffusion. Au printemps 1939, Szilard proposa de retarder la publication des résultats sur les neutrons secondaires ; Joliot refusa notamment parce qu’un accord entre quelques équipes ne garantissait pas que les autres laboratoires garderaient le silence. Leur désaccord portait sur la faisabilité et les conséquences du secret, non sur l’exactitude des résultats.",
+          "Le cas de Szilard et Joliot montre que la vérité d’un résultat ne règle pas sa diffusion. Au printemps 1939, Szilard proposa de retarder la publication des résultats sur les neutrons secondaires ; Joliot refusa notamment parce qu’un accord entre quelques équipes ne garantissait pas que les autres laboratoires garderaient le silence. Leur désaccord portait sur la faisabilité et les conséquences du secret, non sur l’exactitude des résultats : la décision de publier ne se déduit donc pas de la seule norme de vérité.",
           "III.3 La réponse vérifiée sur le cas"
         ],
         [
-          "Reste le cas où c’est la connaissance elle-même, et non sa diffusion, qui est un danger, parce que celui qui la possède peut en user seul.",
+          "Reste le cas où la connaissance elle-même donne à certains un pouvoir dangereux. Il faut alors juger non seulement la liberté de chercher et la responsabilité de diffuser, mais aussi les conditions politiques qui rendent un usage incontrôlable.",
           "III.3 Le reste : ce qui demande encore à être pensé"
         ]
       ]
@@ -301,11 +291,6 @@
       "claim": "En 1940, Hardy estimait très improbable que la théorie des nombres serve à des fins militaires avant de nombreuses années ; la cryptographie a ensuite donné à cette théorie des usages militaires importants.",
       "source": "G. H. Hardy, A Mathematician’s Apology (1940), Cambridge University Press, chapitre 28, pp. 139–143 ; Philip N. Klein, A Cryptography Primer, Cambridge University Press, préface.",
       "verification": "Le texte de Hardy formule explicitement cette prévision limitée dans le temps ; Cambridge University Press rappelle que la cryptographie a ensuite fait de la théorie des nombres une technologie importante."
-    },
-    {
-      "claim": "Anaxagoras is reported as answering that one should choose life in order to contemplate the heavens and the order of the universe.",
-      "source": "Aristotle, Eudemian Ethics I.5, 1216a11–16; Perseus Digital Library, Harris Rackham translation.",
-      "verification": "Passage located in the primary ancient testimony; attribution explicitly mediated through Aristotle, not presented as a surviving verbatim fragment."
     },
     {
       "claim": "Bachelard argues that opinion prevents knowledge by designating objects according to their utility.",
