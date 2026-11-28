@@ -115,11 +115,11 @@
           "Introduction · la scène"
         ],
         [
-          "Joliot publie, et la découverte appartient dès lors à tous, à ceux qui chercheront une source d’énergie comme à ceux qui chercheront une arme.",
+          "Szilard craint que la publication ne facilite la mise au point d’une arme ; Joliot refuse de s’engager dans un secret que les autres laboratoires pourraient ne pas respecter.",
           "Introduction · la scène : la décision"
         ],
         [
-          "Celui qui voulait retenir la découverte la jugeait par ce qu’elle permettrait ; celui qui la publia la jugeait par ce qu’elle était : exacte.",
+          "Le désaccord ne porte pas sur l’exactitude du résultat, mais sur les conséquences de sa diffusion et sur la possibilité réelle de la retenir.",
           "Introduction · ce que la scène fait voir : l’exigence de servir, et ce qui lui résiste"
         ],
         [
@@ -168,7 +168,7 @@
           "I.3 Ce qu’il ne permet pas encore, et pourquoi"
         ],
         [
-          "Hardy se flattait en 1940 que la théorie des nombres ne servirait jamais à la guerre ; elle protège aujourd’hui les communications des armées.",
+          "En 1940, Hardy jugeait très improbable que la théorie des nombres serve à des fins militaires avant de nombreuses années ; la cryptographie lui a ensuite donné des usages importants, y compris militaires.",
           "I.3 Le cas qui le montre"
         ],
         [
@@ -282,6 +282,11 @@
       "claim": "Szilard sought to delay publication of results on secondary neutrons; Joliot declined, partly because a voluntary agreement could not ensure that other laboratories would refrain from publishing.",
       "source": "Bertrand Goldschmidt oral-history interview, War and Peace in the Nuclear Age (1986), American Archive of Public Broadcasting; H. D. Smyth, Atomic Energy for Military Purposes (1945), ch. III; Spencer R. Weart, “Scientists with a Secret”, Physics Today (1976).",
       "verification": "The oral history records Goldschmidt’s explanation that Joliot considered secrecy impracticable without a worldwide agreement; the Smyth report and Weart’s historical account confirm the voluntary publication-restriction debate and Joliot’s refusal."
+    },
+    {
+      "claim": "En 1940, Hardy estimait très improbable que la théorie des nombres serve à des fins militaires avant de nombreuses années ; la cryptographie a ensuite donné à cette théorie des usages militaires importants.",
+      "source": "G. H. Hardy, A Mathematician’s Apology (1940), Cambridge University Press, chapitre 28, pp. 139–143 ; Philip N. Klein, A Cryptography Primer, Cambridge University Press, préface.",
+      "verification": "Le texte de Hardy formule explicitement cette prévision limitée dans le temps ; Cambridge University Press rappelle que la cryptographie a ensuite fait de la théorie des nombres une technologie importante."
     }
   ]
 }
