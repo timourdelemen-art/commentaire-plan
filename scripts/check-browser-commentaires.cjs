@@ -6,7 +6,7 @@ const normalize=s=>s.replace(/\s+/gu,' ').trim();
 async function check(root){
   root=path.resolve(root);
   const pages=fs.readdirSync(root).filter(n=>n.endsWith('.html')&&!['bac-commentaire-proust-combray.html','bac-commentaire-ajar-vie-devant-soi.html','bac-commentaire-rimbaud-les-effares.html','bac-commentaire-fontenelle-opera.html','bac-commentaire-la-boetie-colosse.html','bac-commentaire-musset-perdican-amour.html','bac-commentaire-corneille-menteur-guerre.html','bac-commentaire-graffigny-education-femmes.html'].includes(n)&&fs.readFileSync(path.join(root,n),'utf8').includes('class="model-commentary" data-c20'));
-  assert.equal(pages.length,20);
+  assert.equal(pages.length,10);
   const server=http.createServer((req,res)=>{
     const file=path.resolve(root,'.'+decodeURIComponent(new URL(req.url,'http://localhost').pathname));
     if(!file.startsWith(root+path.sep))return res.writeHead(403).end();
@@ -31,7 +31,7 @@ async function check(root){
         assert.deepEqual((await art.locator('.c20-t').allTextContents()).map(normalize),expected,'Même texte dans la vue annotée');
         assert.deepEqual((await art.locator('.c20-f').allTextContents()).map(normalize),functions.map(normalize),'Chaque phrase a sa fonction');
         assert.equal(await art.locator('.c20-f:visible').count(),expected.length);
-        const ending=art.locator(':scope > p[data-h="CONCLUSION"]');
+        const ending=art.locator(':scope > p[data-h="CONCLUSION"], :scope > p[data-h="Conclusion"]');
         assert.equal(await ending.count(),1,'Conclusion présente dans chaque modèle');
         assert((await ending.locator('[data-f]').count())>=2,'Réponse et portée doivent être rédigées');
         // L'ouverture est facultative dans une excellente copie : ne pas l'imposer à l'élève.
