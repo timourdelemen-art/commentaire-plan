@@ -82,9 +82,9 @@ if(name==='philosophie-dissertation-parcours.html'){
 }
 async function journeys(page,name,width){
  if(name==='index.html'){
-  if(width===390){await page.locator('.mobile-nav-toggle').click();assert.equal(await page.locator('#mobile-nav a').count(),6);await page.locator('#mobile-nav a[href="/bibliotheque.html"]').click();assert.match(page.url(),/bibliotheque/);await page.goBack();}
+  if(width===390){await page.locator('.mobile-nav-toggle').click();assert.equal(await page.locator('#mobile-nav a').count(),5);await page.locator('#mobile-nav a[href="/bibliotheque.html"]').click();assert.match(page.url(),/bibliotheque/);await page.goBack();}
   else {
-   assert.equal(await page.locator('.nav-portals>.portal-wrap').count(),6);
+   assert.equal(await page.locator('.nav-portals>.portal-wrap').count(),5);
    const clips=await page.locator('.nav-portals .portal>span').evaluateAll(es=>es.filter(e=>e.scrollWidth>e.clientWidth+1).map(e=>e.textContent));assert.deepEqual(clips,[],'Intitulé tronqué');
    const portal=page.locator('.portal[href="/bibliotheque.html"]');await portal.focus();await portal.press('ArrowDown');assert.equal(await page.locator('.portal-wrap.open .portal-dropdown a').first().evaluate(e=>e===document.activeElement),true);await page.keyboard.press('Escape');assert.equal(await page.locator('.portal-wrap.open').count(),0,'Échap doit fermer le menu');
   }

@@ -32,7 +32,7 @@
     "YB": "Que les pouvoirs de la raison soient pour autant garantis.",
     "ZB": "La rétorsion montre que tout doute use de la raison ; elle ne montre pas que cet usage soit valide partout où il s’exerce.",
     "type_LB": "distinction indispensable (usage inévitable / pouvoir garanti)",
-    "LB": "Que tout doute se serve de la raison ne permet donc pas encore d’établir que ses pouvoirs soient hors de doute, parce qu’un instrument dont on ne peut se passer n’en est pas pour autant sûr.",
+    "LB": "Que toute réfutation argumentée se serve de la raison ne permet donc pas encore d’établir que ses pouvoirs soient hors de doute, parce qu’un instrument dont on ne peut se passer n’en est pas pour autant sûr.",
     "six_LB": "Mesure : XB écrit. Filiation : prémisse 3 (se fier à ce qu’on récuse : se fier à l’usage, non à la portée). Meilleur cas : la raison inévitable a pourtant produit des antinomies. Absorption : FB dirait « ce qu’on ne peut récuser est certain » ; c’est confondre l’inévitable et le vrai. Non-lacune : oui. Calibration : oui. Mécanisme : distinction requise, différent de I.3.",
     "T2": "Bilan : XA, XB. ρ : hétérogénéité de niveaux — XA porte sur l’étendue de pouvoirs particuliers, XB sur l’usage de la faculté ; aucun ne dit quel doute porte sur les pouvoirs sans se détruire. D : établir un doute légitime sur les pouvoirs de la raison qui ne ruine pas la raison qui doute. Cumul : « douter des résultats, non de la faculté » échoue sur Gödel, qui ne doute d’aucun résultat mais borne un pouvoir (le cumul ne répond pas avec l’opérateur sur le cas). Classe : décision.",
     "epreuves": "1. Contre-exemple : le malin génie de Descartes ; doute total levé par le cogito, qui confirme XB. 2. Meilleur cas : survit. 3. Cumul : échec écrit. 4. Antériorité : la critique kantienne (la raison qui examine ses propres pouvoirs) est une solution connue ; transposée, elle exige un travail (dire en quoi ce doute ne se détruit pas) : candidat de III.",
@@ -183,30 +183,26 @@
       ]
     ],
     [
-      "II. UN DOUTE TOTAL SE DÉTRUIT",
+      "II. UNE RÉCUSATION TOTALE SE CONTREDIT",
       [
         [
-          "On ne peut plus douter quand on doute de ce qui fait douter, car un doute total sur la raison se détruit en s’énonçant.",
+          "Une affirmation qui récuse toute raison se contredit lorsqu’elle prétend établir sa propre vérité : elle doit encore donner des raisons de la croire.",
           "II.1 Ouvrir une autre manière de penser"
         ],
         [
-          "Elle ne nie pas qu’on puisse douter de certains usages de la raison ; elle montre qu’on ne peut la récuser en bloc.",
+          "La contradiction ne vise pas la suspension du jugement, qui ne prétend rien établir ; elle vise la thèse selon laquelle aucune raison ne mérite confiance.",
           "II.1 Ce qu’elle conserve"
         ],
         [
-          "Douter, c’est avoir des raisons de suspendre son accord ; douter de toute la raison, ce serait donc avoir des raisons de ne se fier à aucune raison.",
-          "II.2 La fonder : le doute retourné contre lui-même"
-        ],
-        [
-          "Celui qui prétend qu'aucune raison ne mérite confiance doit pourtant donner des raisons de le penser. Il utilise ainsi ce qu'il veut détruire. Ce défaut interdit le doute de toute justification, non l'examen critique d'un raisonnement particulier.",
+          "Celui qui défend cette thèse doit pourtant en donner des raisons : il utilise ainsi ce qu’il met en cause. Il ne s’ensuit pas qu’on doive cesser de douter ; seulement qu’on ne peut présenter le rejet universel de la raison comme une vérité démontrée.",
           "II.2 Établir la limite d'un doute absolument général"
         ],
         [
-          "Cette raison établit qu’on ne peut douter de toute la raison sans se servir d’elle.",
+          "Cette objection établit qu’une récusation démontrée de toute raison ne peut se passer de l’instrument qu’elle récuse.",
           "II.3 L’éprouver : ce qu’elle établit"
         ],
         [
-          "Mais elle montre que tout doute use de la raison, non que cet usage soit valide partout où il s’exerce : qu’un instrument soit inévitable ne prouve pas qu’il soit sûr.",
+          "Mais cela montre seulement que toute réfutation argumentée use de la raison, non que cet usage soit valide partout où il s’exerce : qu’un instrument soit inévitable ne prouve pas qu’il soit sûr.",
           "II.3 Ce qu’elle ne permet pas encore, et pourquoi : une distinction manque"
         ],
         [
@@ -214,7 +210,7 @@
           "II.3 Le cas qui l’éprouve : un autre moyen qu’en I.3"
         ],
         [
-          "Que tout doute se serve de la raison ne permet donc pas encore d’établir que ses pouvoirs soient hors de doute, parce qu’un instrument dont on ne peut se passer n’en est pas pour autant sûr.",
+          "Que toute réfutation argumentée se serve de la raison ne permet donc pas encore d’établir que ses pouvoirs soient hors de doute, parce qu’un instrument dont on ne peut se passer n’en est pas pour autant sûr.",
           "II.3 La portée et le manque du second fondement"
         ],
         [
@@ -264,7 +260,7 @@
       "CONCLUSION",
       [
         [
-          "On peut douter des pouvoirs de la raison, non en la récusant, ce qui se détruit, mais en mesurant par elle jusqu’où ils vont.",
+          "On peut douter des pouvoirs de la raison, non en affirmant que toute raison est sans valeur — une telle thèse ne pourrait se justifier sans raison —, mais en mesurant par elle jusqu’où ils vont.",
           "Conclusion · la réponse, avec l’opérateur"
         ],
         [
