@@ -114,6 +114,16 @@
       "verification": "œuvre fournie, passage retrouvé mot pour mot",
       "regime": "citation exacte",
       "fonction": "II.3 : faire voir que l’art de parler produit la croyance sans le savoir ; la limite est démontrée sans elle."
+    },
+    {
+      "texte": "l’interrogation géométrique de l’esclave, 82b-85b",
+      "auteur": "Platon",
+      "oeuvre": "Ménon",
+      "lieu": "82b-85b, démonstration géométrique du carré double",
+      "edition": "Œuvres complètes, dir. Luc Brisson, Flammarion, 2008",
+      "verification": "séquence vérifiée dans le dialogue grec et dans une traduction intégrale ; Socrate questionne l’esclave, fait apparaître ses erreurs initiales et le conduit à reconnaître que le carré double est construit sur la diagonale",
+      "regime": "description fidèle de la scène, non citation littérale",
+      "fonction": "III.2 : donner un cas précis de conviction par examen guidé ; la démonstration illustre l’opération, sans prouver à elle seule que toute conviction procède ainsi."
     }
   ],
   "copy": [
@@ -244,7 +254,7 @@
           "III.1 Ce que la condition fait voir"
         ],
         [
-          "Dans le Ménon, Socrate n’enseigne rien au jeune esclave : il le fait chercher, et l’esclave reconnaît lui-même la solution, que nul discours n’aurait pu lui faire admettre aussi sûrement.",
+          "Dans le Ménon, Socrate interroge un jeune esclave sur la construction d’un carré double. Il ne lui dicte pas la solution : par une suite de questions, il lui fait éprouver ses premières réponses, reconnaître leur erreur, puis découvrir le rôle de la diagonale. L’autre ne reçoit donc pas une conclusion à croire ; il est conduit à refaire le chemin qui la justifie.",
           "III.2 La démontrer sur un cas où elle se réalise"
         ],
         [
