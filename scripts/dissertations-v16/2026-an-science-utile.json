@@ -100,8 +100,8 @@
       "auteur": "Gaston Bachelard",
       "oeuvre": "La Formation de l’esprit scientifique",
       "lieu": "Chapitre I, « La notion d’obstacle épistémologique »",
-      "edition": "Gaston Bachelard, La Formation de l’esprit scientifique, Vrin, 1938, chap. I, p. 16.",
-      "verification": "Citation exacte, vérifiée dans le texte intégral de l’édition numérisée ; la pagination indiquée est celle de Vrin 1938.",
+      "edition": "Gaston Bachelard, La Formation de l’esprit scientifique, Vrin, 1938, chap. I, p. 14.",
+      "verification": "Citation exacte, vérifiée dans le texte intégral de l’édition Vrin de 1938, au chapitre I, p. 14.",
       "regime": "citation exacte",
       "fonction": "II.2 : montrer que la réduction de la connaissance à l’utilité immédiate constitue un obstacle épistémologique."
     }
@@ -295,11 +295,11 @@
     {
       "claim": "Bachelard argues that opinion prevents knowledge by designating objects according to their utility.",
       "source": "Gaston Bachelard, La Formation de l’esprit scientifique (1938), chapter I, 'La notion d’obstacle épistémologique'.",
-      "verification": "La phrase exacte est vérifiée dans le texte intégral ; elle se trouve au chapitre I, p. 16 de l’édition Vrin de 1938."
+      "verification": "La phrase exacte est vérifiée dans le texte intégral ; elle se trouve au chapitre I, p. 14 de l’édition Vrin de 1938."
     },
     {
       "claim": "En août 1948, la session de l’Académie soviétique des sciences agricoles imposa la doctrine de Lyssenko, entraînant l'interdiction de la génétique et la répression de chercheurs.",
-      "source": "Alexander S. S. et al., “Lysenkoism Against Genetics: The Meeting of the Lenin All-Union Academy of Agricultural Sciences of August 1948, Its Background, Causes, and Aftermath”, Genetics, 212 (2019), pp. 1–12, Oxford University Press.",
+      "source": "Svetlana A. Borinskaya, Andrei I. Ermolaev et Eduard I. Kolchinsky, “Lysenkoism Against Genetics: The Meeting of the Lenin All-Union Academy of Agricultural Sciences of August 1948, Its Background, Causes, and Aftermath”, Genetics, vol. 212, no 1, 2019, pp. 1–12, DOI 10.1534/genetics.118.301413.",
       "verification": "L’article historique décrit l’imposition politique de la doctrine, l’interdiction de la recherche génétique après la session d’août 1948 et les conséquences pour les chercheurs. Il ne réduit pas l’épisode à un simple échec de rendement agricole."
     }
   ]
