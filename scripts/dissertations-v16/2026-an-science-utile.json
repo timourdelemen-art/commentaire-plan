@@ -10,21 +10,21 @@
     "trois_reponses": "Spontanée : oui, elle doit servir ceux qui la financent. Contraire : non, elle ne doit que le vrai. Conciliation : la science cherche le vrai, la société en tire les usages (partage des rôles).",
     "conciliation_1_8bis": "Partage des rôles entre savants (vérité) et société (usages). Elle hésite sur la demande de Szilard en 1939 : le seul à savoir ce que la découverte rend possible est le savant, avant toute société ; le partage doit trancher sans raison qui décide de la publication.",
     "brouillon": {
-      "a": "Oui : la science vit du travail de tous ; ce que tous entretiennent doit leur servir.",
-      "b": "Ce droit est réel, mais on ne peut exiger un service qu’en sachant lequel, et l’utilité d’une vérité dépend de vérités encore inconnues.",
+      "a": "Oui : la science mobilise des ressources communes ; la société peut demander pourquoi elle choisit telle recherche plutôt qu’une autre.",
+      "b": "Ce droit de regard est réel, mais il ne permet pas d’exiger un résultat déterminé : l’utilité d’une vérité dépend souvent de vérités encore inconnues.",
       "c": "Il faut examiner ce qui, dans la science elle-même, produit les vérités qui serviront : sa norme propre, la vérité.",
       "d": "La fidélité au vrai est la condition même de l’utilité (Lyssenko) ; mais une norme propre ne règle que la recherche, non l’usage de ce qu’elle trouve.",
       "e": "L’une porte sur ce que la science rend, l’autre sur ce qu’elle cherche ; il reste à trouver jusqu’où l’utilité peut lui être imposée."
     },
-    "A": "La science doit être utile : la société peut exiger d’elle un service.",
-    "FA": "Conséquence ou fin (III.3), avec prémisse normative. 1. La recherche est prise sur le travail commun (E : fait). 2. Qui reçoit d’une communauté les moyens de son activité lui doit un retour, comme tout échange (E : réciprocité de l’échange, prémisse normative établie par la justice commutative). 3. Une recherche qui ne servirait jamais prélèverait sans rendre (E). Donc la communauté peut exiger qu’elle serve.",
-    "XA": "La société peut légitimement attendre de la science qu’elle serve, et c’est une raison de la soutenir.",
-    "YA": "Quelle recherche servira, condition pour exiger un service déterminé.",
-    "ZA": "FA juge la recherche par ce qu’elle doit rendre ; exiger un service suppose de le connaître d’avance, or l’utilité d’une vérité dépend de vérités à venir.",
+    "A": "La science doit être utile : la société peut demander des comptes sur les priorités et les moyens de la recherche.",
+    "FA": "Conséquence ou fin (III.3), avec prémisse normative. 1. Les moyens de la recherche sont en partie communs et limités (E : fait). 2. L’allocation de ressources communes doit pouvoir être justifiée devant ceux qui les rendent possibles et devant les autres besoins auxquels on renonce (E : principe de responsabilité dans l’emploi des ressources). 3. La collectivité peut donc demander pourquoi telle priorité mérite d’être soutenue. Cette exigence porte sur les orientations, non sur les conclusions scientifiques.",
+    "XA": "La société peut légitimement demander des comptes sur les priorités et les moyens de la recherche ; c’est une raison de la soutenir.",
+    "YA": "Quels résultats serviront effectivement, alors que leur utilité peut dépendre de vérités encore inconnues.",
+    "ZA": "FA établit un droit de regard sur les orientations ; il ne permet pas de prescrire un service déterminé, puisque l’utilité des découvertes dépend de ce qu’on ignore encore.",
     "type_LA": "condition non établie (la prévisibilité du service)",
-    "LA": "Le droit d’exiger un service ne permet donc pas encore d’établir quelle recherche servira, parce que ce qui servira dépend de ce qu’on ignore encore.",
-    "six_LA": "Mesure : XA écrit. Filiation : prémisse 2 (une dette se règle par un retour déterminé). Meilleur cas : même une recherche appliquée (vaccin) ne sait pas d’avance si elle aboutira. Absorption : FA répondrait « exigeons l’utilité probable » ; Hardy montre que la probabilité même échappe. Non-lacune : FA démontré, la limite reste. Calibration : « ne permet pas encore ».",
-    "T1": "Nous avons établi le droit de la société ; mais il ne permet pas encore de savoir ce qui servira, parce que l’utilité dépend de vérités à venir ; il faut donc examiner ce qui, dans la science, produit ces vérités (W). W déterminé par ZA : la condition manquante (la production de vérités futures) est interne à la science.",
+    "LA": "Le droit de demander des comptes sur les priorités ne permet donc pas encore d’établir quelle recherche servira, parce que ce qui servira dépend de ce qu’on ignore encore.",
+    "six_LA": "Mesure : XA écrit. Filiation : prémisse 2 (l’allocation de ressources communes doit être justifiée). Meilleur cas : même une recherche appliquée (vaccin) ne sait pas d’avance si elle aboutira. Absorption : FA répondrait « exigeons l’utilité probable » ; Hardy montre que l’utilité future ne se laisse pas fixer à l’avance. Non-lacune : FA démontré, la limite reste. Calibration : « ne permet pas encore ».",
+    "T1": "Nous avons établi le droit de la société de demander des comptes sur les priorités et les moyens ; mais ce droit ne permet pas de savoir quelles recherches serviront, parce que l’utilité dépend de vérités à venir ; il faut donc examiner ce qui, dans la science, produit ces vérités (W). W déterminé par ZA : la condition manquante (la production de vérités futures) est interne à la science.",
     "B": "La science ne doit, en tant que science, que le vrai ; c’est même ce qui la rend utile par surcroît. B conserve XA : le droit de la société n’est pas nié, il ne peut porter sur ce qu’elle découvre.",
     "FB": "Fonction propre (III.3, « Tirer le critère de la fonction propre »). 1. Une activité se juge à sa fonction propre, non au profit qu’on en tire (E : le médecin et le salaire). 2. La fonction propre de la science est d’établir ce qui est (E : définition fixée à l’étape 1). 3. Subordonner la réponse à une attente détruit l’établissement de ce qui est (E : Lyssenko). Indépendance : vaut sans la limite de A. Principe propre : la fonction propre.",
     "XB": "La vérité est la norme propre de la science, et la fidélité au vrai est la condition même de son utilité.",
@@ -38,11 +38,11 @@
     "soupcon_aporie": "aucun indice écrit ; régime ordinaire.",
     "chemins_echoues": "Chemin aporétique de l’ancienne copie (l’utilité détourne des vérités sans usage / les vérités deviennent pouvoirs) : soupçon sans indice ; écarté.",
     "dictionnaire": "non consulté.",
-    "phrase_mouvement": "A, parce que ce que tous financent doit servir, établit le droit d’exiger un service ; mais il ne permet pas de savoir ce qui servira, parce que l’utilité dépend de vérités à venir ; il faut donc examiner la science elle-même. B, parce que la fonction propre de la science est le vrai, établit que la vérité est sa norme et la condition de son utilité ; mais non ce qu’elle doit aux usages, parce qu’une fonction ne règle que l’activité. Or aucun ne dit où passe la frontière ; il reste donc le critère.",
-    "probleme_directeur": "Jusqu’où la science doit-elle être utile, si l’utilité peut lui être exigée et si sa seule norme interne est le vrai ?",
+    "phrase_mouvement": "A, parce que la recherche mobilise des ressources communes, établit le droit de demander des comptes sur ses priorités ; mais ce droit ne permet pas de savoir quelles recherches serviront, parce que l’utilité dépend de vérités à venir ; il faut donc examiner la science elle-même. B, parce que la fonction propre de la science est le vrai, établit que la vérité est sa norme et la condition de son utilité ; mais non ce qu’elle doit aux usages, parce qu’une fonction ne règle que l’activité. Or aucun ne dit comment articuler priorités, conclusions et diffusion ; il reste donc le critère.",
+    "probleme_directeur": "Jusqu’où la science doit-elle être utile, si la société peut demander des comptes sur les priorités et si la vérité est sa norme propre ?",
     "problematique": "La science doit-elle répondre aux besoins humains, et jusqu’où cette exigence peut-elle aller sans commander ses résultats ni le silence sur ses découvertes ?",
     "forme_problematique": "G3 (deux protases d’acquis, interrogation sur le cas où ils divergent ; « doit-elle » conservé). Reconstruction : on part du droit de la société, on bute sur l’imprévisible, on examine la norme du vrai, on bute sur les usages ; la III doit tracer la frontière. Relecture : aucune modalité ajoutée.",
-    "critere": "Sur la demande de Szilard, une solution devra dire si la science doit servir, conserver le droit de la société et la norme du vrai, expliquer pourquoi l’un ne pouvait désigner d’avance le service et l’autre ne disait rien des usages, et fournir le critère de la frontière.",
+    "critere": "Sur la demande de Szilard, une solution devra préserver le droit collectif de débattre des priorités, l’autonomie des conclusions scientifiques et la responsabilité concernant la diffusion ; elle expliquera pourquoi le premier ne peut désigner d’avance les résultats utiles et pourquoi la seconde ne décide pas seule des usages.",
     "contrainte_scene": "montrer une découverte exacte et une demande de la soumettre à son usage.",
     "III": {
       "operation": "critère de frontière (III.7 a).",
@@ -144,7 +144,7 @@
       "I. LE SAVOIR VIT DU TRAVAIL DE TOUS",
       [
         [
-          "La science doit être utile, car elle n’est pas l’affaire d’un esprit solitaire : laboratoires, instruments, années de formation, tout cela est pris sur le travail commun.",
+          "La science doit être utile, car elle mobilise des ressources communes dont elle doit pouvoir justifier l’emploi.",
           "I.1 Ouvrir une première manière de penser"
         ],
         [
@@ -152,19 +152,19 @@
           "I.1 Ce qu’elle sauve"
         ],
         [
-          "Celui qui reçoit d’une communauté les moyens de son activité contracte envers elle une dette, comme tout échange en crée une.",
-          "I.2 La fonder : une prémisse normative, la réciprocité"
+          "Les moyens d’une société sont limités. Soutenir une recherche, c’est choisir de ne pas consacrer ces mêmes ressources à d’autres besoins. La collectivité peut donc demander pourquoi une priorité mérite d’être financée et quel bien elle vise. Ce droit porte sur les orientations et les moyens, non sur la vérité des résultats.",
+          "I.2 La fonder : la responsabilité dans l’emploi des ressources communes"
         ],
         [
-          "Une communauté finance des laboratoires et assume parfois les risques des découvertes. Il est donc juste qu'elle puisse demander pourquoi telle recherche mérite des moyens. Mais de ce droit de questionner une priorité ne suit pas le pouvoir de fixer le résultat souhaité.",
-          "I.2 Fonder la responsabilité envers la communauté"
+          "Une communauté peut demander aux chercheurs d’expliquer pourquoi ils consacrent des moyens à telle question plutôt qu’à telle autre. Elle ne peut pas exiger que l’expérience confirme le résultat qu’elle espère : ce serait déjà décider à la place de l’enquête.",
+          "I.2 Délimiter le droit de regard collectif"
         ],
         [
-          "Ce fondement établit un droit réel : la société peut attendre de la science qu’elle serve, et c’est une raison de la soutenir.",
+          "Ce fondement établit que la société peut demander des comptes sur les priorités de la recherche et les moyens qu’elle mobilise.",
           "I.3 L’éprouver : ce qu’il établit"
         ],
         [
-          "Mais il juge la recherche par ce qu’elle doit rendre, et l’on n’exige un service qu’en sachant lequel : or l’utilité d’une vérité dépend de vérités qui ne sont pas encore connues.",
+          "Mais il ne permet pas encore de savoir quelles recherches serviront effectivement : l’utilité d’une vérité dépend souvent de vérités qui ne sont pas encore connues.",
           "I.3 Ce qu’il ne permet pas encore, et pourquoi"
         ],
         [
@@ -172,7 +172,7 @@
           "I.3 Le cas qui le montre"
         ],
         [
-          "Le droit d’exiger un service ne permet donc pas encore d’établir quelle recherche servira, parce que ce qui servira dépend de ce qu’on ignore encore.",
+          "Le droit de demander des comptes sur les priorités ne permet donc pas encore d’établir quelle recherche servira, parce que ce qui servira dépend de ce qu’on ignore encore.",
           "I.3 La portée et le manque du premier fondement"
         ],
         [
