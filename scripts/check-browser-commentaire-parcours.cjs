@@ -28,7 +28,7 @@ async function check(root){
    await page.screenshot({path:path.join(captures,'commentaire-parcours-'+width+'.png')});
    await page.getByRole('tab',{name:'Méthode et modèles',exact:true}).click();
    await page.getByRole('link',{name:'Choisir un modèle →',exact:true}).click();
-   assert.equal(await page.locator('.commentaire-choices .module-card').count(),18);
+   assert.equal(await page.locator('.commentaire-choices .module-card').count(),19);
    await page.goto(base+'bac-mode-examen.html');
    const exam=id=>page.locator('[data-exam-id="'+id+'"]'),h=exam('hialmar'),m=exam('montaigne');
    assert(await h.isVisible());assert(!(await m.isVisible()));assert.equal(await h.locator('.vers').count(),36);
