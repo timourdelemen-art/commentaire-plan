@@ -21,9 +21,9 @@ const root=path.resolve(process.argv[2]||'.');const server=http.createServer((re
   for(const href of ['/philosophie.html','/hlp.html','/annales.html']){
    await page.goto(base+'index.html');
    const parent=href==='/annales.html'?'/bibliotheque.html':'/bac.html';
-   await page.locator('.nav-portals .portal[href$="'+parent.slice(1)+'"]').focus();
+   await page.locator('.nav-portals .portal[href$="'+parent.slice(1)+'"]').hover();
    const link=page.locator('.nav-portals .portal-dropdown a[href$="'+href.slice(1)+'"]');
-   await link.focus();await page.keyboard.press('Enter');await page.waitForURL(base+href.slice(1));assert(await page.locator('main h1').isVisible());
+   await link.click();await page.waitForURL(base+href.slice(1));assert(await page.locator('main h1').isVisible());
   }
  }
  await page.goto(base+'enseignants.html');await page.getByRole('link',{name:'Contact',exact:true}).click();await page.waitForURL('**/contact.html');await page.locator('#prevenu').scrollIntoViewIfNeeded();assert(await page.locator('#prevenu').isVisible());assert.equal(await page.locator('#prevenu input[name="consentement"][required]').count(),1);assert((await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth))<=1);await page.locator('#prevenu').scrollIntoViewIfNeeded();await page.screenshot({path:path.join(captures,'nouveautes-contact-'+width+'.png')});
