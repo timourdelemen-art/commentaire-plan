@@ -91,11 +91,12 @@ Pour chaque réponse : trois propositions au clic (Solide, Défendable, À revoi
 
 ## 5. Contrôles avant publication
 
-1. Citations du texte : retrouvées mot pour mot (script) et vérifiées dans leur contexte.
-1 bis. Attendus du haut de l’échelle 2026 : interprétation attentive aux implicites et difficultés ; essai qui approfondit progressivement sa réponse et la situe par rapport à la position du texte.
-2. Longueurs : 450 à 550 mots par réponse ; écart entre les deux réponses inférieur à 15 %.
+1. Citations du sujet : chaque citation est retrouvée mot pour mot dans le PDF officiel et replacée dans son contexte.
+1 bis. Références extérieures : toute citation littéraire, philosophique ou historique est accompagnée, dans les données de travail, de l’auteur, de l’œuvre, du repère précis, de l’édition et d’une vérification dans le texte original ou une édition savante. Une modernisation orthographique est signalée. Une liste de titres ou une mention « citation vérifiée » ne remplace pas cette vérification.
+1 ter. Attendus du haut de l’échelle 2026 : interprétation attentive aux implicites et aux difficultés ; essai qui approfondit progressivement sa réponse, situe sa position par rapport au texte et mobilise des connaissances précises. La qualité de la langue est prise en compte dans les deux réponses.
+2. Longueur : aucun nombre de mots n’est prescrit par les textes officiels. Pour les modèles de Terminale, viser environ 400 à 550 mots par réponse, sans allonger pour atteindre un quota ; écart entre les deux réponses inférieur à 15 %. Les sujets historiques de Première sont plus courts et ne sont pas comparés aux modèles de Terminale.
 2 bis. Règles R1 à R11 vérifiées une à une.
-3. Introduction et conclusion : chaque phrase porte une fonction de la fiche.
+3. Introduction et conclusion : chaque phrase porte une fonction identifiable ; elles restent proportionnées à l’exercice.
 4. Test de progression : chaque mouvement ajoute une raison, un éclairage ou une précision qui dépend de ce qui précède.
-5. Fiche de la discipline respectée ; couplage vérifié.
-6. Audit par un agent distinct, qui ne reçoit que le sujet, le texte, les attendus officiels (§ 0) et le corrigé.
+5. Fiche de la discipline respectée ; couplage vérifié : interprétation littéraire/philosophique et essai dans l’autre discipline en Terminale.
+6. Audit de lecture indépendant : le relecteur ne reçoit que le sujet, le texte, les attendus officiels (§ 0) et le corrigé. À défaut d’un audit distinct effectivement réalisé, ne pas présenter le modèle comme validé par un jury.
