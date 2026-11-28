@@ -99,9 +99,9 @@
       "texte": "La colombe légère, quand, dans son libre vol, elle fend l’air dont elle sent la résistance, pourrait se représenter qu’elle réussirait encore bien mieux dans l’espace vide d’air.",
       "auteur": "Kant",
       "oeuvre": "Critique de la raison pure",
-      "lieu": "Introduction, A 5 / B 8-9",
+      "lieu": "Introduction, A 5 / B 9",
       "edition": "trad. Alain Renaut, GF-Flammarion",
-      "verification": "œuvre fournie, passage retrouvé mot pour mot (repère de pagination « (B 9) » de l’édition omis)",
+      "verification": "Citation retrouvée mot pour mot dans la traduction GF-Flammarion ; repère canonique confirmé : A 5 / B 9.",
       "regime": "citation exacte, transfert justifié : Kant parle de la raison et de l’expérience ; l’opération (l’obstacle comme condition) est transposée au langage",
       "fonction": "III.2 : faire voir l’illusion qui fait prendre la condition pour une prison ; la prémisse (une pensée sans signes ne se fixe pas) est établie sans elle."
     }
@@ -284,5 +284,12 @@
         ]
       ]
     ]
+  ],
+  "source_checks": [
+    {
+      "claim": "L’image de la colombe légère se trouve à A 5 / B 9 de la Critique de la raison pure.",
+      "source": "Immanuel Kant, Critique of Pure Reason, traduction Cambridge, repères A5 et B9 ; édition GF-Flammarion, traduction Alain Renaut.",
+      "verification": "Le repère B9 est aligné sur le passage de la colombe ; l’ancien intervalle B8–9 était trop large."
+    }
   ]
 }
