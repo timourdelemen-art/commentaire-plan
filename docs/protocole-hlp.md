@@ -1,6 +1,6 @@
 # Protocole HLP (terminale) — corrigés brefs, au niveau de l’excellence
 
-Document interne, non publié (`clean-publish.js` retire les `.md`). Version 3, 27 novembre 2026 : clarification des structures propres aux quatre exercices, sans plan obligatoire ni opposition dialectique artificielle.
+Document interne, non publié (`clean-publish.js` retire les `.md`). Version 3.1, 28 novembre 2026 : clarification des structures propres aux quatre exercices, sans plan obligatoire ni opposition dialectique artificielle.
 
 ## 0. Ce que demande l’épreuve (sources officielles)
 
