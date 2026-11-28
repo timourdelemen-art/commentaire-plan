@@ -55,3 +55,10 @@ Les tâches ont été relues en construisant la réponse qu’elles permettent :
 Le test de données contrôle que chaque phrase a une fonction, que le texte annoté et le texte continu sont identiques, et que les paragraphes sont conservés. Il vérifie également navigation et brouillons dans un DOM simulé. Un contrôle navigateur dédié couvre les douze réponses à 390 et 1280 pixels, le clavier, l’affichage des fonctions, le texte continu, deux annales et l’accès aux modèles sans JavaScript. Il est ajouté au workflow navigateur existant.
 
 Le build et les contrôles navigateur sont consignés dans la PR après leur exécution. Ces tests ne constituent pas une notation pédagogique des modèles.
+
+
+## Reprise du 28 novembre 2026
+
+- Le protocole HLP V3.1 harmonise le repère de longueur des modèles de Terminale à 400–550 mots : cela correspond aux modèles existants et évite tout allongement artificiel. L’écart entre les deux réponses reste inférieur à 15 % comme repère de comparabilité, non comme exigence réglementaire.
+- Reprise ciblée des transitions dans les essais de Voltaire, Heredia, Weil et Barbusse, ainsi que dans les réponses de Rousseau et l’essai de Diderot : les questions rhétoriques répétées sont remplacées lorsqu’une phrase déclarative rend mieux le passage nécessaire. Les fonctions de phrases ont été corrigées en même temps ; une fonction erronée dans l’essai philosophique de Voltaire a notamment été remplacée par une fonction correspondant au problème réellement posé.
+- Les sources de travail des six corrigés concernés (scripts/hlp-corriges/) et leur intégration dans scripts/hlp-parcours-data.json ont été synchronisées. Les quatre exercices restent distincts : interprétation littéraire, interprétation philosophique, essai littéraire et essai philosophique. Aucun plan de dissertation philosophique n’est transposé à l’essai HLP.
