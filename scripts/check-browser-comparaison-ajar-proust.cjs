@@ -3,14 +3,14 @@
 const fs=require('node:fs'),path=require('node:path'),http=require('node:http'),assert=require('node:assert/strict');
 const {chromium}=require('playwright');
 const cases=[
- ['bac-commentaire-proust-combray.html',36],
- ['bac-commentaire-ajar-vie-devant-soi.html',36],
- ['bac-commentaire-rimbaud-les-effares.html',44],
- ['bac-commentaire-fontenelle-opera.html',45],
- ['bac-commentaire-la-boetie-colosse.html',45],
- ['bac-commentaire-musset-perdican-amour.html',44],
- ['bac-commentaire-corneille-menteur-guerre.html',45],
- ['bac-commentaire-graffigny-education-femmes.html',45]
+ ['bac-commentaire-proust-combray.html',39],
+ ['bac-commentaire-ajar-vie-devant-soi.html',39],
+ ['bac-commentaire-rimbaud-les-effares.html',47],
+ ['bac-commentaire-fontenelle-opera.html',48],
+ ['bac-commentaire-la-boetie-colosse.html',48],
+ ['bac-commentaire-musset-perdican-amour.html',47],
+ ['bac-commentaire-corneille-menteur-guerre.html',48],
+ ['bac-commentaire-graffigny-education-femmes.html',48]
 ];
 async function check(root){
  root=path.resolve(root);
