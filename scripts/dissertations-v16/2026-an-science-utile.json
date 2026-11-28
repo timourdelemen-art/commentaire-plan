@@ -96,14 +96,24 @@
   },
   "citations": [
     {
-      "texte": "Tous les humains ont par nature le désir de savoir.",
-      "auteur": "Aristote",
-      "oeuvre": "Métaphysique",
-      "lieu": "livre A, 1, 980a21",
-      "edition": "Œuvres complètes, dir. Pierre Pellegrin, Flammarion, 2014",
-      "verification": "œuvre fournie, phrase retrouvée mot pour mot",
+      "texte": "Anaxagore répond que la raison de choisir la vie est de contempler le ciel et l’ordre du monde.",
+      "auteur": "Anaxagore, rapporté par Aristote",
+      "oeuvre": "Éthique à Eudème",
+      "lieu": "I, 5, 1216a11-16",
+      "edition": "Aristote, Éthique à Eudème ; traduction anglaise consultée dans Perseus, texte grec repéré par Bekker",
+      "verification": "Témoignage antique vérifié dans le texte d’Aristote ; ce n’est pas une citation directe conservée d’Anaxagore.",
+      "regime": "paraphrase attribuée avec médiation explicite",
+      "fonction": "II.2 : établir que la contemplation du monde peut être une fin de la vie, sans utilité extérieure immédiate."
+    },
+    {
+      "texte": "En désignant les objets par leur utilité, elle s’interdit de les connaître.",
+      "auteur": "Gaston Bachelard",
+      "oeuvre": "La Formation de l’esprit scientifique",
+      "lieu": "Chapitre I, « La notion d’obstacle épistémologique »",
+      "edition": "Vrin, texte consulté en ligne ; pagination à fixer selon l’édition retenue",
+      "verification": "Phrase retrouvée mot pour mot dans le texte intégral consulté.",
       "regime": "citation exacte",
-      "fonction": "II.2 : faire voir que savoir est une fin désirée pour elle-même ; la preuve (fonction propre) tient sans elle."
+      "fonction": "II.2 : montrer que la réduction de la connaissance à l’utilité immédiate constitue un obstacle épistémologique."
     }
   ],
   "copy": [
@@ -193,8 +203,8 @@
           "II.1 Ce qu’elle conserve de la première"
         ],
         [
-          "Une activité se juge à sa fonction propre, comme le médecin à la guérison et non au salaire ; celle de la science est d’établir ce qui est, quel qu’en soit l’usage, et Aristote ouvre la Métaphysique par ce constat : « Tous les humains ont par nature le désir de savoir. »",
-          "II.2 La fonder par la fonction propre ; citation qui fait voir que savoir est une fin"
+          "Une activité se juge à sa fonction propre, comme le médecin à la guérison et non au salaire ; celle de la science est d’établir ce qui est. Aristote rapporte qu’Anaxagore, interrogé sur la raison de vivre, répondit : contempler le ciel et l’ordre du monde (Éthique à Eudème, I, 5, 1216a11-16). Le savoir peut donc être recherché pour lui-même, sans attendre un usage.",
+          "II.2 La fonder par la fonction propre ; Anaxagore, rapporté par Aristote, donne à voir le savoir comme une fin"
         ],
         [
           "Lorsque l’Union soviétique exigea de la biologie qu’elle promette des récoltes, Lyssenko lui fournit des théories conformes à cette attente, et les récoltes ne vinrent pas.",
@@ -203,6 +213,10 @@
         [
           "Si une théorie doit confirmer d'avance ce qu'un pouvoir veut entendre, on ne recherche plus une vérité : on cherche une approbation. La science peut rendre service précisément parce qu'elle accepte de découvrir des faits décevants.",
           "II.2 Distinguer vérité recherchée et attente politique"
+        ],
+        [
+          "Bachelard montre que l’opinion, lorsqu’elle désigne les choses par leur utilité, s’interdit de les connaître : elle substitue un besoin à une véritable question. L’exigence d’un résultat utile peut donc déformer de l’intérieur l’acte même de connaître, avant même qu’un pouvoir impose une conclusion.",
+          "II.2 Bachelard : l’utilité immédiate comme obstacle à la connaissance"
         ],
         [
           "Cette raison établit que la vérité est la norme propre de la science, et même la condition de son utilité.",
@@ -287,6 +301,16 @@
       "claim": "En 1940, Hardy estimait très improbable que la théorie des nombres serve à des fins militaires avant de nombreuses années ; la cryptographie a ensuite donné à cette théorie des usages militaires importants.",
       "source": "G. H. Hardy, A Mathematician’s Apology (1940), Cambridge University Press, chapitre 28, pp. 139–143 ; Philip N. Klein, A Cryptography Primer, Cambridge University Press, préface.",
       "verification": "Le texte de Hardy formule explicitement cette prévision limitée dans le temps ; Cambridge University Press rappelle que la cryptographie a ensuite fait de la théorie des nombres une technologie importante."
+    },
+    {
+      "claim": "Anaxagoras is reported as answering that one should choose life in order to contemplate the heavens and the order of the universe.",
+      "source": "Aristotle, Eudemian Ethics I.5, 1216a11–16; Perseus Digital Library, Harris Rackham translation.",
+      "verification": "Passage located in the primary ancient testimony; attribution explicitly mediated through Aristotle, not presented as a surviving verbatim fragment."
+    },
+    {
+      "claim": "Bachelard argues that opinion prevents knowledge by designating objects according to their utility.",
+      "source": "Gaston Bachelard, La Formation de l’esprit scientifique (1938), chapter I, 'La notion d’obstacle épistémologique'.",
+      "verification": "The exact sentence 'En désignant les objets par leur utilité, elle s’interdit de les connaître' was located in the full text. Page number is intentionally omitted pending edition-specific verification."
     }
   ]
 }
