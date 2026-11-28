@@ -100,9 +100,9 @@
       "texte": "une seule hirondelle ne fait pas le printemps, non plus qu’un seul beau jour",
       "auteur": "Aristote",
       "oeuvre": "Éthique à Nicomaque",
-      "lieu": "I, 6, 1098a",
+      "lieu": "livre I, 7, 1098a18-20",
       "edition": "Œuvres complètes, dir. Pierre Pellegrin, Flammarion, 2014",
-      "verification": "œuvre fournie, passage retrouvé mot pour mot",
+      "verification": "Citation retrouvée dans le passage ; repère corrigé après vérification du texte grec et des éditions savantes : le passage de l’hirondelle appartient au livre I, chapitre 7, 1098a18-20.",
       "regime": "citation exacte",
       "fonction": "I.3 : faire voir que le bonheur est celui d’une vie ; la limite est démontrée sans elle."
     },
@@ -287,5 +287,12 @@
         ]
       ]
     ]
+  ],
+  "source_checks": [
+    {
+      "claim": "La comparaison de l’hirondelle et du printemps se trouve dans le livre I, chapitre 7, 1098a18-20 de l’Éthique à Nicomaque.",
+      "source": "Aristotle, Nicomachean Ethics, I.7, 1098a18–20 ; Cambridge University Press, traduction de la Nicomachean Ethics (sample text) ; Cambridge Classical Quarterly, “Some Quotations and Allusions in Aristotle’s Ethics”.",
+      "verification": "Le texte de l’ouvrage et une étude de Cambridge confirment le passage et son repère Bekker. L’ancien repère « I, 6 » était erroné."
+    }
   ]
 }
