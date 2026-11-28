@@ -5,8 +5,8 @@ const {chromium}=require('playwright');
 const normalize=s=>s.replace(/\s+/gu,' ').trim();
 async function check(root){
   root=path.resolve(root);
-  const pages=fs.readdirSync(root).filter(n=>n.endsWith('.html')&&!['bac-commentaire-proust-combray.html','bac-commentaire-ajar-vie-devant-soi.html','bac-commentaire-rimbaud-les-effares.html','bac-commentaire-fontenelle-opera.html','bac-commentaire-la-boetie-colosse.html','bac-commentaire-musset-perdican-amour.html','bac-commentaire-corneille-menteur-guerre.html','bac-commentaire-graffigny-education-femmes.html'].includes(n)&&fs.readFileSync(path.join(root,n),'utf8').includes('class="model-commentary" data-c20'));
-  assert.equal(pages.length,10);
+  // Les sept anciens modèles Verlaine ont une copie rédigée, mais pas le balisage phrase par phrase ni la source repliée contrôlés ici.\n  const pages=fs.readdirSync(root).filter(n=>n.endsWith('.html')&&!['bac-commentaire-proust-combray.html','bac-commentaire-ajar-vie-devant-soi.html','bac-commentaire-rimbaud-les-effares.html','bac-commentaire-fontenelle-opera.html','bac-commentaire-la-boetie-colosse.html','bac-commentaire-musset-perdican-amour.html','bac-commentaire-corneille-menteur-guerre.html','bac-commentaire-graffigny-education-femmes.html','bac-commentaire-verlaine-angoisse.html','bac-commentaire-verlaine-apres-trois-ans.html','bac-commentaire-verlaine-chanson-automne.html','bac-commentaire-verlaine-crepuscule-soir-mystique.html','bac-commentaire-verlaine-femme-chatte.html','bac-commentaire-verlaine-nevermore-melancholia.html','bac-commentaire-verlaine-soleils-couchants.html'].includes(n)&&fs.readFileSync(path.join(root,n),'utf8').includes('class="model-commentary" data-c20'));
+  assert.equal(pages.length,13);
   const server=http.createServer((req,res)=>{
     const file=path.resolve(root,'.'+decodeURIComponent(new URL(req.url,'http://localhost').pathname));
     if(!file.startsWith(root+path.sep))return res.writeHead(403).end();
