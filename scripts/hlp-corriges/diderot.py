@@ -145,7 +145,7 @@ ESSAI = {
     'Répondre à l’objection : la sensibilité est dominée, non abolie.'),
    ('Je retiens donc qu’un art peut tenir l’émotion à distance, mais qu’il ne se passe pas de la sensibilité : il la déplace de l’identification vers le jugement.',
     'Conclure le moment, à la première personne.')],
-  [('Que fait alors l’art de l’émotion qu’il ne supprime pas ?', 'Transition : la question qui conduit à reconfigurer.'),
+  [('Reste alors à comprendre ce que l’art fait de l’émotion qu’il ne supprime pas.', 'Ouvrir le mouvement qui reconfigure l’émotion.'),
    ('Dans « Demain, dès l’aube », Hugo écrit après la mort de sa fille, mais il ne le crie pas : la marche n’atteint la tombe qu’à la dernière strophe.',
     'Troisième moment : situer le poème et nommer le procédé, la chute retardée.'),
    ('Le vers « Je ne puis demeurer loin de toi plus longtemps » donne à la marche l’allure d’un rendez-vous, et la révélation finale retourne cette tendresse en deuil.',
