@@ -131,7 +131,7 @@ ESSAI = {
    ('Cette méthode a pourtant ses limites : il faut choisir les sources, les chiffres restent contestés, et tout récit ordonne ce qu’il raconte.',
     'Mettre la méthode elle-même à l’épreuve.'),
    ('L’objectivité n’est donc pas donnée : elle se construit, et reste révisable.', 'Conclure le moment.')],
-  [('Mais ces faits décrivent-ils la guerre telle qu’on la vit ?', 'Transition : la limite du premier moment.'),
+  [('Les faits ne suffisent pourtant pas à restituer la guerre telle qu’on la vit.', 'Distinguer les faits mesurables de l’expérience vécue.'),
    ('Un chiffre ne dit ni la peur, ni la boue, ni l’attente, qui font pourtant la réalité de la guerre pour ceux qui la font.',
     'Deuxième moment : ce qui échappe aux faits mesurables.'),
    ('Et le témoin ne voit qu’une partie : dans La Chartreuse de Parme, Fabrice erre à Waterloo sans comprendre qu’il assiste à une grande bataille.',
