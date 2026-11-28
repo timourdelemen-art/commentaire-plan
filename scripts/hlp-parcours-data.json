@@ -2827,9 +2827,9 @@
       ],
       "source_checks": [
         {
-          "claim": "La citation « Je ne puis demeurer loin de toi plus longtemps » est le quatrième vers de « Demain, dès l’aube… ». ",
-          "source": "Victor Hugo, Les Contemplations, livre IV, Pauca meae, XIV, v. 4 ; transcription de l’édition Nelson (1911) sur Wikisource ; René Bourgeois, « Les Contemplations, IV, 14 », Recherches & Travaux, 17 (1978), Persée ; Representative French Poetry, University of Toronto Press, 1965.",
-          "verification": "Le vers est reproduit mot pour mot et le poème est localisé dans le livre IV, XIV. La citation est un appui extérieur au texte de Diderot, non une citation de Diderot."
+          "claim": "La citation « Je ne puis demeurer loin de toi plus longtemps » est le douzième et dernier vers de « Demain, dès l’aube… ».",
+          "source": "Victor Hugo, Les Contemplations, livre IV, Pauca meae, XIV, v. 12 ; transcription de l’édition Nelson (1911) sur Wikisource ; René Bourgeois, « Les Contemplations, IV, 14 », Recherches & Travaux, 17 (1978), Persée ; Representative French Poetry, University of Toronto Press, 1965.",
+          "verification": "Le vers est reproduit mot pour mot et le poème est localisé dans le livre IV, XIV ; il s’agit du dernier vers du poème, non du quatrième vers de l’ensemble."
         }
       ]
     },
