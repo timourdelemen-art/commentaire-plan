@@ -94,7 +94,18 @@
       "statut": "Test V1.1 : possibilité construite, justification, coût et reste explicités."
     }
   },
-  "citations": [],
+  "citations": [
+    {
+      "texte": "une représentation de l’imagination, qui donne beaucoup à penser, sans qu’aucune pensée déterminée, c’est-à-dire de concept, puisse lui être adéquate",
+      "auteur": "Kant",
+      "oeuvre": "Critique de la faculté de juger",
+      "lieu": "§ 49",
+      "edition": "trad. Alexis Philonenko, Vrin, 1968, pp. 143–144",
+      "verification": "Formulation vérifiée dans le passage du § 49 ; la traduction et la pagination sont celles de l’édition Philonenko.",
+      "regime": "citation exacte",
+      "fonction": "III.1 : préciser ce que l’œuvre apporte au-delà d’une information ou d’un concept ; la distinction entre expression sensible et explication conceptuelle reste démontrée par le paragraphe."
+    }
+  ],
   "copy": [
     [
       "INTRODUCTION",
@@ -219,7 +230,7 @@
           "III.1 Effectuer le déplacement nécessaire"
         ],
         [
-          "Kant décrit une idée esthétique comme une représentation qui donne beaucoup à penser sans qu'aucun concept déterminé puisse lui être adéquat. La richesse d'une œuvre ne se réduit donc pas à une information qu'elle transmet.",
+          "Kant appelle « idée esthétique » une représentation de l’imagination « qui donne beaucoup à penser, sans qu’aucune pensée déterminée, c’est-à-dire de concept, puisse lui être adéquate ». L’œuvre ne livre donc pas seulement une information sur l’expérience : elle ouvre un sens que le concept ne suffit pas à épuiser.",
           "III.1 Citation qui donne la formule exacte"
         ],
         [
@@ -265,5 +276,12 @@
         ]
       ]
     ]
+  ],
+  "source_checks": [
+    {
+      "claim": "Kant définit l’idée esthétique comme une représentation de l’imagination qui donne beaucoup à penser sans qu’un concept déterminé puisse lui être adéquat.",
+      "source": "Emmanuel Kant, Critique de la faculté de juger, § 49, trad. Alexis Philonenko, Vrin, 1968, pp. 143–144.",
+      "verification": "Passage du § 49 vérifié dans la traduction française ; la formule soutient l’irréductibilité de l’œuvre à une information conceptuelle, non l’affirmation que l’art serait le seul moyen de partager une expérience."
+    }
   ]
 }
