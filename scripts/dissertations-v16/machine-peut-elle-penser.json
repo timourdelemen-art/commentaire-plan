@@ -95,7 +95,38 @@
       "statut": "Test V1.1 : possibilité construite, justification, coût et reste explicités."
     }
   },
-  "citations": [],
+  "citations": [
+    {
+      "texte": "remplacer la question « les machines pensent-elles ? » par une épreuve de l’imitation",
+      "auteur": "Alan M. Turing",
+      "oeuvre": "« Computing Machinery and Intelligence »",
+      "lieu": "§ 1, « The Imitation Game »",
+      "edition": "Mind, vol. 59, no 236, octobre 1950, p. 433-460, DOI : 10.1093/mind/LIX.236.433",
+      "verification": "article original identifié dans Mind ; le § 1 propose de substituer à la question initiale le jeu de l’imitation ; il ne prétend pas démontrer une conscience intérieure",
+      "regime": "paraphrase fidèle, non citation littérale",
+      "fonction": "I.2 : déplacer la question vers une épreuve publique et contrôlable, sans confondre réussite du test et preuve de conscience."
+    },
+    {
+      "texte": "l’argument de la chambre chinoise : l’exécution d’un programme ne suffit pas à produire l’intentionnalité",
+      "auteur": "John R. Searle",
+      "oeuvre": "« Minds, Brains, and Programs »",
+      "lieu": "argument de la Chinese Room, p. 417-424",
+      "edition": "Behavioral and Brain Sciences, vol. 3, no 3, septembre 1980, p. 417-424, DOI : 10.1017/S0140525X00005756",
+      "verification": "article original et notice de l’éditeur contrôlés ; les pages 417-424 correspondent à l’article cible de Searle, distinct des commentaires et réponses qui suivent dans le volume",
+      "regime": "paraphrase fidèle, non citation littérale",
+      "fonction": "II.2 : éprouver l’inférence qui passe de la manipulation correcte de symboles à leur compréhension ; ne pas transformer l’argument en preuve qu’aucune machine ne peut penser."
+    },
+    {
+      "texte": "des indicateurs de conscience dérivés de théories scientifiques, sans conclure que les systèmes actuels examinés sont conscients",
+      "auteur": "Patrick Butlin et al.",
+      "oeuvre": "Consciousness in Artificial Intelligence: Insights from the Science of Consciousness",
+      "lieu": "version 3, notamment résumé et sections consacrées aux indicateurs",
+      "edition": "arXiv:2308.08708v3, révision du 22 août 2023, DOI : 10.48550/arXiv.2308.08708",
+      "verification": "version v3 et liste complète des auteurs contrôlées sur arXiv ; le rapport conclut qu’aucun système actuel examiné n’est conscient selon les indicateurs proposés, tout en ne trouvant pas d’obstacle technique évident à la construction de systèmes qui les satisferaient",
+      "regime": "paraphrase fidèle, non citation littérale",
+      "fonction": "III.2 : substituer à l’opposition abstraite une enquête par indicateurs dérivés de théories de la conscience ; mesurer explicitement ce que cette méthode ne prouve pas."
+    }
+  ],
   "copy": [
     [
       "INTRODUCTION",
