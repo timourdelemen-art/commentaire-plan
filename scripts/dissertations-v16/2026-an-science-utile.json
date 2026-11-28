@@ -81,7 +81,7 @@
         "raison": "Retombe sur l’imprévisibilité de la première partie."
       }
     ],
-    "generateur": "figure : la frontière ; registre opératoire : dialectique ; registre de lecture : démonstratif à ordre visible ; branches B2 ; annonce N4.",
+    "generateur": "figure : la frontière entre priorité, conclusion et diffusion ; registre opératoire : dialectique ; registre de lecture : démonstratif à ordre visible ; branches B2 ; annonce N4.",
     "scene": "Szilard demande en 1939 à Joliot de ne pas publier la multiplication des neutrons dans la fission ; l’équipe de Joliot publie (Nature, mars-avril 1939). Verdict : homologue. Retour : la III décide la demande.",
     "statut": {
       "problematique": "suffisamment justifiée",
@@ -227,7 +227,7 @@
       ]
     ],
     [
-      "III. L’UTILITÉ PEUT ORIENTER LA RECHERCHE ET SA DIFFUSION, NON DICTER SES RÉSULTATS",
+      "III. PRIORITÉS, VÉRITÉ ET RESPONSABILITÉ DE LA DIFFUSION",
       [
         [
           "Pour savoir jusqu’où l’utilité peut être exigée, il faut distinguer trois décisions : quelles questions une société choisit de financer, quelles réponses l’enquête établit, et comment les résultats sont diffusés ou employés. Ces décisions n’obéissent pas au même critère : le choix des priorités engage des fins communes ; la conclusion dépend des faits et des preuves ; la diffusion engage une responsabilité envers ceux qu’un savoir peut affecter.",
@@ -295,7 +295,7 @@
     {
       "claim": "Bachelard argues that opinion prevents knowledge by designating objects according to their utility.",
       "source": "Gaston Bachelard, La Formation de l’esprit scientifique (1938), chapter I, 'La notion d’obstacle épistémologique'.",
-      "verification": "The exact sentence 'En désignant les objets par leur utilité, elle s’interdit de les connaître' was located in the full text. Page number is intentionally omitted pending edition-specific verification."
+      "verification": "La phrase exacte est vérifiée dans le texte intégral ; elle se trouve au chapitre I, p. 16 de l’édition Vrin de 1938."
     },
     {
       "claim": "En août 1948, la session de l’Académie soviétique des sciences agricoles imposa la doctrine de Lyssenko, entraînant l'interdiction de la génétique et la répression de chercheurs.",
