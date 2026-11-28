@@ -46,8 +46,8 @@
     "contrainte_scene": "montrer une injustice consacrée par la loi, une contestation de citoyens et une décision qui l’abolit.",
     "III": {
       "operation": "médiateur (III.7 a, ρ : dépendance, avec un terme qui relie) : les institutions par lesquelles une partie de l’État juge l’autre à la demande des citoyens.",
-      "III1": "Le lien est une institution : des tribunaux et une constitution qui permettent aux citoyens de faire juger les lois par une autorité qui n’en est pas l’auteur.",
-      "III2": "Par ce terme, le jugement des citoyens devient règle commune (XB conservé, LB expliqué), et l’État redevient tiers à l’égard de ses propres lois en se divisant (XA conservé, LA expliqué).",
+      "III1": "Une constitution organise la séparation des pouvoirs et permet à des tribunaux de faire juger les lois par une autorité qui n’en est pas l’auteur. Montesquieu formule la condition : la puissance de juger doit être séparée de la puissance législative et de l’exécutrice.",
+      "III2": "La séparation empêche que l’autorité qui fait la loi soit seule à juger sa propre loi ; elle conserve les deux réponses, en donnant force commune au jugement citoyen, et explique leurs limites respectives.",
       "III3": "Oui, la lutte revient principalement à l’État, à condition qu’il soit organisé pour pouvoir être jugé par lui-même à la demande des citoyens ; vérifié sur Montgomery. Reste : les injustices qu’aucune loi ni aucun acte jugeable n’atteignent.",
       "tests": "Cas témoin : à Montgomery, ce sont des citoyens qui saisissent la justice fédérale, et c’est elle qui déclare la loi de l’Alabama contraire à la Constitution ; la III dit à qui revenait la lutte. Second cas : le contrôle de constitutionnalité saisi par un justiciable. Restitution : oui. Rechute : le reste (injustices sans loi) ne redit ni LA ni LB. Test propre : le médiateur ne répète ni l’État législateur ni le citoyen. Report : la question ne se repose pas à l’identique pour le tribunal, qui n’est pas l’auteur de la loi. Acquis nouveau : prémisse nouvelle — un pouvoir divisé peut être tiers à l’égard de lui-même ; nécessaire à la décision. Contrôle renforcé : Comparer « monopole de l'État », « dénonciation citoyenne » et « institution contestable effectivement indépendante » ; tester l'effectivité des recours, pas leur seule existence. Travail approfondi : gestes N14, K7, D10, E4, X12. Alternatives examinées : Autorité étatique unifiée (juge ses propres actes) / seuls citoyens (pas force commune) / recours institutionnels efficaces nourris par contestation citoyenne (retenu)."
     },
@@ -81,7 +81,7 @@
         "raison": "Succession sans garantie de la correction pendant l’application."
       }
     ],
-    "generateur": "figure : la dépendance ; registre opératoire : dialectique ; registre de lecture : démonstratif à ordre visible ; branches B1 ; annonce N1.",
+    "generateur": "figure : médiateur institutionnel, par séparation des pouvoirs et recours effectif ; registre opératoire : dialectique ; registre de lecture : démonstratif à ordre visible ; branches B2 ; annonce N4.",
     "scene": "Montgomery (Alabama), 1er décembre 1955 : Rosa Parks refuse de céder sa place ; boycott des bus de 381 jours ; arrêt Browder v. Gayle (tribunal fédéral, juin 1956, confirmé par la Cour suprême en novembre 1956). Verdict : homologue. Retour : la décision fédérale est le terme qui relie.",
     "statut": {
       "problematique": "suffisamment justifiée",
@@ -94,7 +94,18 @@
       "statut": "Test V1.1 : possibilité construite, justification, coût et reste explicités."
     }
   },
-  "citations": [],
+  "citations": [
+    {
+      "texte": "Il n’y a point encore de liberté si la puissance de juger n’est pas séparée de la puissance législative et de l’exécutrice.",
+      "auteur": "Montesquieu",
+      "oeuvre": "De l’esprit des lois",
+      "lieu": "Livre XI, chapitre VI, « De la constitution d’Angleterre »",
+      "edition": "De l’esprit des lois, 1748 ; texte de l’édition Garnier, 1777, livre XI, chap. VI.",
+      "verification": "Citation exacte, vérifiée dans le texte de l’édition Garnier 1777 et dans une transcription intégrale de l’édition de 1748.",
+      "regime": "citation exacte",
+      "fonction": "III.1 : préciser le principe de séparation des pouvoirs qui rend possible le contrôle de la loi ; la copie en tire ensuite sa propre conséquence pour la contestation citoyenne."
+    }
+  ],
   "copy": [
     [
       "INTRODUCTION",
@@ -215,20 +226,20 @@
       "III. UN ÉTAT QUI PEUT ÊTRE JUGÉ",
       [
         [
-          "Ce qui relie le jugement des citoyens à la force de l’État est une institution : une constitution et des tribunaux qui permettent aux citoyens de faire juger les lois par une autorité qui n’en est pas l’auteur.",
+          "Ce qui relie le jugement des citoyens à la force de l’État est une institution : une constitution qui sépare les pouvoirs et des tribunaux capables de faire juger les lois par une autorité qui n’en est pas l’auteur. Montesquieu formule la condition : « Il n’y a point encore de liberté si la puissance de juger n’est pas séparée de la puissance législative et de l’exécutrice. »",
           "III.1 Effectuer le déplacement nécessaire"
         ],
         [
-          "Par elle, l’État se divise : une partie de lui juge ce qu’une autre a fait.",
-          "III.1 Ce que fait ce terme"
+          "La séparation ne garantit pas que chaque jugement sera juste ; elle empêche que l’autorité qui fait la loi soit seule à juger sa propre loi.",
+          "III.1 Le principe institutionnel : ce qu’il empêche"
         ],
         [
-          "Ce terme conserve les deux réponses : le jugement des citoyens devient règle commune en passant par le tribunal, et la force de l’État reste ce qui impose cette règle à tous.",
-          "III.2 La démontrer : ce qu’il conserve"
+          "Cette séparation conserve les deux réponses : le jugement des citoyens devient règle commune en passant par le tribunal, et la force de l’État reste ce qui impose cette règle à tous.",
+          "III.2 La démontrer : ce qu’elle conserve"
         ],
         [
-          "Il explique aussi leurs arrêts : l’État ne pouvait juger ses propres lois tant qu’il était un seul juge, et les citoyens ne pouvaient rien imposer tant que leur jugement restait celui de chacun.",
-          "III.2 Ce qu’il explique"
+          "Elle explique aussi leurs arrêts : l’État ne pouvait juger ses propres lois tant qu’il était un seul juge, et les citoyens ne pouvaient rien imposer tant que leur jugement restait celui de chacun.",
+          "III.2 Ce qu’elle explique"
         ],
         [
           "La plainte des citoyens n'est plus condamnée à rester une simple protestation lorsqu'une institution indépendante peut la recevoir, examiner la loi et imposer sa décision. Ce passage ouvre une possibilité qui manquait aux deux réponses : faire juger l'État grâce à des moyens de droit auxquels l'État lui-même doit obéir.",
