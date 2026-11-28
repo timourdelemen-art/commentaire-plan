@@ -2444,8 +2444,8 @@
             {
               "sentences": [
                 {
-                  "text": "Une éducation peut-elle alors donner des moyens et en empêcher l’usage ?",
-                  "function": "Faire apparaître ce que les faits seuls ne restituent pas."
+                  "text": "Le problème apparaît lorsqu’une éducation donne des moyens tout en empêchant d’en faire un usage libre.",
+                  "function": "Formuler la difficulté : transmettre des moyens ne garantit pas leur usage libre."
                 },
                 {
                   "text": "Elle peut d’abord retirer plus qu’elle ne donne : le couvent de Sophronie n’apprend guère « que ce qu’il faut oublier » et prépare à une vie décidée par d’autres.",
@@ -2789,8 +2789,8 @@
             {
               "sentences": [
                 {
-                  "text": "Que fait alors l’art de l’émotion qu’il ne supprime pas ?",
-                  "function": "Transition : la question qui conduit à reconfigurer."
+                  "text": "Reste alors à comprendre ce que l’art fait de l’émotion qu’il ne supprime pas.",
+                  "function": "Ouvrir le mouvement qui reconfigure l’émotion."
                 },
                 {
                   "text": "Dans « Demain, dès l’aube », Hugo écrit après la mort de sa fille, mais il ne le crie pas : la marche n’atteint la tombe qu’à la dernière strophe.",
@@ -3093,12 +3093,12 @@
             {
               "sentences": [
                 {
-                  "text": "Faut-il en conclure que toute action, même désintéressée, nous ferme à ce que nous sentons ?",
-                  "function": "Transition : vers l’objection."
+                  "text": "L’objection est forte : toute action risque de sélectionner ce que la sensibilité reçoit.",
+                  "function": "Formuler l’objection : l’action peut filtrer ce qu’elle laisse sentir."
                 },
                 {
-                  "text": "On peut le soutenir : la sensibilité est réceptivité, et toute action, parce qu’elle oriente le regard, sélectionne ce qu’elle reçoit.",
-                  "function": "Examiner pourquoi la réceptivité ne se réduit pas à l’inaction."
+                  "text": "En effet, la sensibilité est réceptivité : toute action oriente le regard et sélectionne ce qu’elle reçoit.",
+                  "function": "Fonder l’objection sur la réceptivité de la sensibilité."
                 },
                 {
                   "text": "Mais accéder à sa sensibilité, c’est remarquer ce qui nous affecte, ce qui suppose une attention ; or une réceptivité sans aucune orientation ne serait plus attention, comme le montre l’ennui, où le repos complet émousse au lieu d’éveiller.",
@@ -3406,12 +3406,12 @@
             {
               "sentences": [
                 {
-                  "text": "Mais les mots ne trahissent-ils pas ce qu’ils prétendent dire ?",
-                  "function": "Transition : l’objection la plus forte."
+                  "text": "La difficulté est alors de dire la violence sans la transformer en spectacle.",
+                  "function": "Formuler l’objection : mettre en mots peut esthétiser la violence."
                 },
                 {
-                  "text": "On peut objecter que la violence extrême est indicible, et qu’une belle forme risque de communiquer au lecteur l’« ivresse de la force » que Simone Weil décrit chez les combattants.",
-                  "function": "Éprouver la possibilité de dire une violence qui résiste aux mots."
+                  "text": "Une violence extrême peut sembler indicible, et une belle forme risque de communiquer au lecteur l’« ivresse de la force » que Simone Weil décrit chez les combattants.",
+                  "function": "Expliquer pourquoi la forme peut trahir ce qu’elle prétend dire."
                 },
                 {
                   "text": "Le risque est réel : le récit qui exalte la bataille transforme la violence en épopée héroïque.",
@@ -3734,8 +3734,8 @@
             {
               "sentences": [
                 {
-                  "text": "Mais ces faits décrivent-ils la guerre telle qu’on la vit ?",
-                  "function": "Faire apparaître ce que les faits seuls ne restituent pas."
+                  "text": "Les faits ne suffisent pourtant pas à restituer la guerre telle qu’on la vit.",
+                  "function": "Distinguer les faits mesurables de l’expérience vécue."
                 },
                 {
                   "text": "Un chiffre ne dit ni la peur, ni la boue, ni l’attente, qui font pourtant la réalité de la guerre pour ceux qui la font.",
@@ -3899,8 +3899,8 @@
             {
               "sentences": [
                 {
-                  "text": "Comment alors redevenir nous ?",
-                  "function": "Transition : la question du remède."
+                  "text": "Le retour à soi exige alors un travail de rassemblement.",
+                  "function": "Introduire le moyen du retour à soi."
                 },
                 {
                   "text": "Le texte répond : « redevenir nous », « nous concentrer en nous », « circonscrire notre âme des mêmes bornes que la nature a données à notre être ».",
@@ -4055,8 +4055,8 @@
             {
               "sentences": [
                 {
-                  "text": "Mais le livre ne peut-il pas aussi égarer ?",
-                  "function": "Transition : l’objection la plus forte."
+                  "text": "La lecture peut pourtant aussi égarer.",
+                  "function": "Introduire la limite : le livre peut détourner de soi."
                 },
                 {
                   "text": "Dans Madame Bovary, Emma, à peine mariée, cherche ce que l’on entend dans la vie par les mots de félicité, de passion et d’ivresse, « qui lui avaient paru si beaux dans les livres ».",
