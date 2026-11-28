@@ -16,7 +16,7 @@ Document interne, non publié (`clean-publish.js` retire les `.md`). Version 3, 
 ## 1. Règles communes
 
 - **Deux réponses autonomes.** Chacune situe le texte pour son correcteur ; l’essai ne renvoie jamais à l’interprétation (« comme on l’a vu »). Elles ne se répètent pas : l’interprétation explique le texte, l’essai pense la question qu’il soulève.
-- **Ampleur comparable** : viser environ 450 à 550 mots par réponse terminale dans les modèles, avec un écart inférieur à 15 %. C’est un repère de rédaction, pas un quota officiel : une réponse plus courte reste préférable si elle est complète ; ne jamais ajouter de remplissage pour atteindre un nombre. Introduction et conclusion restent proportionnées au travail réellement accompli.
+- **Ampleur comparable** : viser environ 400 à 550 mots par réponse terminale dans les modèles, avec un écart inférieur à 15 %. C’est un repère de rédaction, pas un quota officiel : une réponse plus courte reste préférable si elle est complète ; ne jamais ajouter de remplissage pour atteindre un nombre. Introduction et conclusion restent proportionnées au travail réellement accompli.
 - **Une fonction par phrase**, affichée à côté d’elle ; une phrase sans fonction est supprimée.
 - **Citations du texte du sujet** : brèves, exactes (contrôle par script sur `scripts/hlp-textes.json`), intégrées à la syntaxe, toujours analysées. **Aucune citation d’une autre œuvre de mémoire** : une œuvre extérieure est décrite précisément (titre, auteur, épisode, détail) ; une citation n’est gardée que vérifiée mot pour mot dans une édition.
 - **Langue** : sobre, exacte, sans jargon ; aucun mot réservé aux documents internes (AGENTS.md § 2).
