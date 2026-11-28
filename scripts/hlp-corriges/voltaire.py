@@ -138,7 +138,7 @@ ESSAI = {
     'Montrer la thèse par un exemple.'),
    ('Mais je ne crois pas que donner des moyens suffise : c’est une condition de l’émancipation, non l’émancipation elle-même.',
     'Tenir la définition : distinguer condition et émancipation.')],
-  [('Une éducation peut-elle alors donner des moyens et en empêcher l’usage ?', 'Transition : la limite du premier moment.'),
+  [('Le problème apparaît lorsqu’une éducation donne des moyens tout en empêchant d’en faire un usage libre.', 'Formuler la difficulté : transmettre des moyens ne garantit pas leur usage libre.'),
    ('Elle peut d’abord retirer plus qu’elle ne donne : le couvent de Sophronie n’apprend guère « que ce qu’il faut oublier » et prépare à une vie décidée par d’autres.',
     'Deuxième moment : premier cas, l’éducation qui enferme.'),
    ('Elle peut surtout instruire sans former le jugement : le « bel esprit », que la note du sujet définit comme un esprit « très cultivé mais creux », sait beaucoup sans savoir juger de ce qu’il sait.',
