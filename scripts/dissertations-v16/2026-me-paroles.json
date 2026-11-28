@@ -104,6 +104,16 @@
       "verification": "Passage retrouvé dans le texte de la pièce : Œnone nomme Hippolyte, puis Phèdre répond « C’est toi qui l’as nommé ». La ponctuation varie selon les éditions ; les mots sont identiques.",
       "regime": "citation exacte",
       "fonction": "Introduction : faire voir la parole retenue qui a pourtant tout dit."
+    },
+    {
+      "texte": "distinction entre acte locutoire, acte illocutoire et acte perlocutoire",
+      "auteur": "J. L. Austin",
+      "oeuvre": "How to Do Things with Words: The William James Lectures delivered at Harvard University in 1955",
+      "lieu": "lectures VIII-IX, pp. 94-108",
+      "edition": "Oxford, Clarendon Press, 1962",
+      "verification": "texte anglais de l’édition originale contrôlé ; les trois actes sont distingués par Austin, notamment dire quelque chose, accomplir un acte en le disant, et produire des effets par la parole",
+      "regime": "paraphrase fidèle, non citation littérale",
+      "fonction": "III.2 : distinguer l’acte de parole de ses effets ; préciser la responsabilité sans attribuer au locuteur la maîtrise de toutes les conséquences."
     }
   ],
   "copy": [
@@ -226,7 +236,7 @@
       "III. RÉPONDRE DE CE QU’ON DIT",
       [
         [
-          "On peut être maître d’une parole dont le sens échappe si l’on distingue deux maîtrises : contrôler une parole avant de la dire, et la reprendre après l’avoir dite, pour l’expliquer, la rectifier ou la tenir.",
+          "On peut être maître d’une parole dont tous les effets échappent si l’on distingue deux maîtrises : contrôler ce que l’on décide de dire, puis répondre de l’acte accompli et de ses conséquences.",
           "III.1 Effectuer le déplacement nécessaire"
         ],
         [
@@ -234,7 +244,7 @@
           "III.1 Ce que la distinction sépare"
         ],
         [
-          "La parole ne disparaît pas au moment où elle est dite. Si j'ai blessé quelqu'un sans le vouloir, je peux écouter ce qu'il a compris, préciser mes mots et reconnaître ce qu'ils ont produit. Répondre de sa parole est une autre forme de maîtrise que d'en commander tous les effets.",
+          "Il faut ici distinguer ce que la parole accomplit en étant prononcée et ce qu’elle produit chez celui qui l’entend. Austin distingue l’acte de dire quelque chose, la force de l’acte accompli en le disant — promettre, avertir, ordonner — et les effets qui en résultent — convaincre, effrayer, détourner. Une parole peut donc accomplir l’acte qu’on voulait sans produire l’effet attendu ; inversement, elle peut blesser au-delà de l’intention de celui qui l’a prononcée.",
           "III.2 La démontrer : la prémisse nouvelle"
         ],
         [
@@ -242,11 +252,11 @@
           "III.2 Ce qu’elle conserve"
         ],
         [
-          "Lorsque ma phrase a été comprise autrement que je ne l'avais prévu, une possibilité nouvelle demeure : écouter ce que l'autre a entendu, préciser mon intention, reconnaître l'effet produit. Je ne reviens pas avant les mots prononcés ; je transforme ce que je fais maintenant de la parole qui m'échappe.",
+          "Lorsque ma phrase a été comprise autrement que je ne l'avais prévu, une possibilité nouvelle demeure : écouter ce que l'autre a entendu, préciser la force de ce que je voulais dire, reconnaître l'effet produit. Je ne reviens pas avant les mots prononcés ; je transforme ce que je fais maintenant de la parole qui m'échappe.",
           "III.2 Définir la responsabilité après la parole prononcée"
         ],
         [
-          "Mais expliquer ne suffit pas toujours à réparer. Si une rumeur a détruit une réputation, reconnaître le tort peut ouvrir une enquête et une rectification publique ; cela ne garantit pas que tous oublieront. Répondre de sa parole est une action encore possible, non le pouvoir de défaire le passé.",
+          "Mais expliquer ne suffit pas toujours à réparer. Si une rumeur a détruit une réputation, reconnaître le tort peut ouvrir une enquête et une rectification publique ; cela ne garantit pas que tous oublieront. Répondre de sa parole est une action encore possible, non le pouvoir de défaire le passé. La distinction d’Austin permet de ne pas confondre l’acte accompli et ses effets : elle éclaire ce dont le locuteur répond, sans prétendre que tous les effets lui obéissent.",
           "III.2 Éprouver l'objection décisive et consolider la preuve"
         ],
         [
