@@ -48,8 +48,8 @@ async function check(root){
       const filled=await grid.evaluate(e=>Math.abs(e.lastElementChild.getBoundingClientRect().right-e.getBoundingClientRect().right)<2);assert(filled,'Les quatre gestes doivent remplir la grille');
      }
      if(mode==='apres'&&name==='index.html'&&width===1280){
-      const portal=page.locator('.portal[href="/philosophie.html"]');await portal.focus();await portal.press('ArrowDown');
-      assert.deepEqual(await page.locator('.portal-wrap.open .portal-dropdown [role="menuitem"] strong').allTextContents(),['Dissertation','Explication de texte']);
+      const portal=page.locator('.portal[href="/bac.html"]');await portal.focus();await portal.press('ArrowDown');
+      assert.deepEqual(await page.locator('.portal-wrap.open .portal-dropdown [role="menuitem"] strong').allTextContents(),['Français','Philosophie','HLP','Annales du bac']);
       await page.keyboard.press('Escape');
      }
      // Les QCM mélangent leurs choix au chargement : comparer la source du contenu, identique dans les deux rendus.
@@ -74,7 +74,7 @@ async function check(root){
   const staticContext=await browser.newContext({javaScriptEnabled:false,viewport:{width:1280,height:900}}),staticPage=await staticContext.newPage();
   await staticPage.goto('http://127.0.0.1:'+server.address().port+'/philosophie.html');
   assert.equal(await staticPage.locator('.philo-choices>a').count(),2);
-  assert.deepEqual(await staticPage.locator('.portal[href="/philosophie.html"]').locator('..').locator('[role="menuitem"] strong').allTextContents(),['Dissertation','Explication de texte']);
+  assert.deepEqual(await staticPage.locator('.portal[href="/bac.html"]').locator('..').locator('[role="menuitem"] strong').allTextContents(),['Français','Philosophie','HLP','Annales du bac']);
   await staticContext.close();
   fs.writeFileSync(path.join(out,'typographie-report.json'),JSON.stringify({pages:pages.length,widths:[390,768,1280],results},null,2));
   console.log('Audit typographique : '+pages.length+' pages × 3 largeurs, comparaison avant/après, textes conservés.');
