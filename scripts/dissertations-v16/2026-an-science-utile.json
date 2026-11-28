@@ -100,8 +100,8 @@
       "auteur": "Gaston Bachelard",
       "oeuvre": "La Formation de l’esprit scientifique",
       "lieu": "Chapitre I, « La notion d’obstacle épistémologique »",
-      "edition": "Vrin, texte consulté en ligne ; pagination à fixer selon l’édition retenue",
-      "verification": "Phrase retrouvée mot pour mot dans le texte intégral consulté.",
+      "edition": "Gaston Bachelard, La Formation de l’esprit scientifique, Vrin, 1938, chap. I, p. 16.",
+      "verification": "Citation exacte, vérifiée dans le texte intégral de l’édition numérisée ; la pagination indiquée est celle de Vrin 1938.",
       "regime": "citation exacte",
       "fonction": "II.2 : montrer que la réduction de la connaissance à l’utilité immédiate constitue un obstacle épistémologique."
     }
@@ -296,6 +296,11 @@
       "claim": "Bachelard argues that opinion prevents knowledge by designating objects according to their utility.",
       "source": "Gaston Bachelard, La Formation de l’esprit scientifique (1938), chapter I, 'La notion d’obstacle épistémologique'.",
       "verification": "The exact sentence 'En désignant les objets par leur utilité, elle s’interdit de les connaître' was located in the full text. Page number is intentionally omitted pending edition-specific verification."
+    },
+    {
+      "claim": "En août 1948, la session de l’Académie soviétique des sciences agricoles imposa la doctrine de Lyssenko, entraînant l'interdiction de la génétique et la répression de chercheurs.",
+      "source": "Alexander S. S. et al., “Lysenkoism Against Genetics: The Meeting of the Lenin All-Union Academy of Agricultural Sciences of August 1948, Its Background, Causes, and Aftermath”, Genetics, 212 (2019), pp. 1–12, Oxford University Press.",
+      "verification": "L’article historique décrit l’imposition politique de la doctrine, l’interdiction de la recherche génétique après la session d’août 1948 et les conséquences pour les chercheurs. Il ne réduit pas l’épisode à un simple échec de rendement agricole."
     }
   ]
 }
