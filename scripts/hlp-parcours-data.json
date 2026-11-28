@@ -2824,6 +2824,13 @@
             }
           ]
         }
+      ],
+      "source_checks": [
+        {
+          "claim": "La citation « Je ne puis demeurer loin de toi plus longtemps » est le quatrième vers de « Demain, dès l’aube… ». ",
+          "source": "Victor Hugo, Les Contemplations, livre IV, Pauca meae, XIV, v. 4 ; transcription de l’édition Nelson (1911) sur Wikisource ; René Bourgeois, « Les Contemplations, IV, 14 », Recherches & Travaux, 17 (1978), Persée ; Representative French Poetry, University of Toronto Press, 1965.",
+          "verification": "Le vers est reproduit mot pour mot et le poème est localisé dans le livre IV, XIV. La citation est un appui extérieur au texte de Diderot, non une citation de Diderot."
+        }
       ]
     },
     {
@@ -3457,6 +3464,13 @@
               ]
             }
           ]
+        }
+      ],
+      "source_checks": [
+        {
+          "claim": "La formule « fatti non foste a viver come bruti » appartient au discours d’Ulysse dans l’Inferno, chant XXVI, vers 119.",
+          "source": "Dante Alighieri, Inferno, XXVI, vv. 118–120 ; texte italien publié par Dante Global, Divina Commedia.",
+          "verification": "Le texte italien reproduit exactement la formule au vers 119, dans l’appel d’Ulysse à ses compagnons."
         }
       ]
     },
@@ -4099,6 +4113,18 @@
               ]
             }
           ]
+        }
+      ],
+      "source_checks": [
+        {
+          "claim": "La formule « le propre lecteur de soi-même » est tirée du Temps retrouvé.",
+          "source": "Marcel Proust, Le Temps retrouvé, passage final sur la lecture ; texte de l’édition originale de 1927 reproduit par la Société des Amis de Marcel Proust et sur Wikisource ; repère Pléiade IV, p. 489–490.",
+          "verification": "Le texte de Proust donne exactement « chaque lecteur est, quand il lit, le propre lecteur de soi-même »."
+        },
+        {
+          "claim": "La formule « qui lui avaient paru si beaux dans les livres » appartient à Madame Bovary.",
+          "source": "Gustave Flaubert, Madame Bovary, première partie, chapitre V ; fac-similé de l’édition Conard (1910) sur Wikisource, page 72.",
+          "verification": "La phrase apparaît exactement dans le passage où Emma cherche le sens de « félicité », « passion » et « ivresse »."
         }
       ]
     }
