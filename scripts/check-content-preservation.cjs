@@ -13,12 +13,18 @@ if(!base||!/^[a-f0-9]{7,40}$/i.test(base)){
 const git=(...args)=>cp.execFileSync('git',args,{cwd:root,encoding:'utf8',maxBuffer:40*1024*1024});
 const files=git('ls-tree','-r','--name-only',base).split('\n').filter(p=>p.endsWith('.html'));
 const readOld=p=>git('show',base+':'+p);
-const getLinks=s=>[
- ...[...s.matchAll(/<details\b[^>]*\bid=["']([^"']+)["']/gi)].map(m=>'#'+m[1]),
- ...[...s.matchAll(/<a\b[^>]*\bhref\s*=\s*["']([^"']+)["'][^>]*>/gi)].map(m=>m[1]),
- // Un onglet reste un accès à une section, même quand il remplace un lien du bandeau.
- ...[...s.matchAll(/<button\b[^>]*\brole=["']tab["'][^>]*>/gi)].map(m=>m[0].match(/\baria-controls=["']([^"']+)["']/)?.[1]).filter(Boolean).map(id=>'#'+id)
-];
+const getLinks=s=>{
+ // Le bandeau global est désormais injecté par site-nav.js. Les anciennes pages
+ // contenaient son HTML en dur dans chaque fichier : ne pas traiter ce déplacement
+ // d'architecture comme une disparition de liens propres à la page.
+ const page=s.replace(/<header\b[^>]*class=["'][^"']*\btop\b[^"']*["'][\s\S]*?<\/header>/i,'');
+ return [
+  ...[...page.matchAll(/<details\b[^>]*\bid=["']([^"']+)["']/gi)].map(m=>'#'+m[1]),
+  ...[...page.matchAll(/<a\b[^>]*\bhref\s*=\s*["']([^"']+)["'][^>]*>/gi)].map(m=>m[1]),
+  // Un onglet reste un accès à une section, même quand il remplace un lien du bandeau.
+  ...[...page.matchAll(/<button\b[^>]*\brole=["']tab["'][^>]*>/gi)].map(m=>m[0].match(/\baria-controls=["']([^"']+)["']/)?.[1]).filter(Boolean).map(id=>'#'+id)
+ ];
+};
 const relevant=p=>/(?:^#bac$|copie-20|corrig|modele|modèle|annale|exercice|entrainement|entraînement|dissertation|commentaire|explication|brevet|hlp)/i.test(p);
 const signature=s=>({
  textareas:(s.match(/<textarea\b/gi)||[]).length,

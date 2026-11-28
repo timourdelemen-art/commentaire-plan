@@ -3,14 +3,14 @@
 const fs=require('node:fs'),path=require('node:path'),http=require('node:http'),assert=require('node:assert/strict');
 const {chromium}=require('playwright');
 const cases=[
- ['bac-commentaire-proust-combray.html',36],
- ['bac-commentaire-ajar-vie-devant-soi.html',36],
- ['bac-commentaire-rimbaud-les-effares.html',44],
- ['bac-commentaire-fontenelle-opera.html',45],
- ['bac-commentaire-la-boetie-colosse.html',45],
- ['bac-commentaire-musset-perdican-amour.html',44],
- ['bac-commentaire-corneille-menteur-guerre.html',45],
- ['bac-commentaire-graffigny-education-femmes.html',45]
+ ['bac-commentaire-proust-combray.html',39,13],
+ ['bac-commentaire-ajar-vie-devant-soi.html',39,13],
+ ['bac-commentaire-rimbaud-les-effares.html',47,16],
+ ['bac-commentaire-fontenelle-opera.html',48,16],
+ ['bac-commentaire-la-boetie-colosse.html',48,16],
+ ['bac-commentaire-musset-perdican-amour.html',47,16],
+ ['bac-commentaire-corneille-menteur-guerre.html',48,16],
+ ['bac-commentaire-graffigny-education-femmes.html',48,16]
 ];
 async function check(root){
  root=path.resolve(root);
@@ -29,7 +29,7 @@ async function check(root){
   browser=await chromium.launch({headless:true});
   for(const width of [390,1280]){
    const context=await browser.newContext({viewport:{width,height:900},reducedMotion:'reduce'});
-   for(const [file,expectedFunctions] of cases){
+   for(const [file,expectedFunctions,expectedParagraphs] of cases){
     const page=await context.newPage(),errors=[];
     page.on('pageerror',e=>errors.push(e.message));
     const response=await page.goto('http://127.0.0.1:'+server.address().port+'/'+file);
@@ -57,7 +57,7 @@ async function check(root){
     await page.getByRole('tab',{name:'Le commentaire modèle'}).click();
     assert(await page.locator('#copie').isVisible());
     const model=page.locator('#copie article.model-commentary');
-    assert.equal(await model.locator(':scope > p').count(),13,file+' : introduction, neuf analyses, deux transitions, conclusion');
+    assert.equal(await model.locator(':scope > p').count(),expectedParagraphs,file+' : nombre de paragraphes du modèle');
     assert.equal(await model.locator(':scope > p [data-f]').count(),expectedFunctions);
     const annotated=model.locator('.cm-mode[data-mode="f"]'),full=model.locator('.cm-mode[data-mode="e"]');
     await annotated.waitFor({state:'visible'});
@@ -73,7 +73,7 @@ async function check(root){
     assert(overflow<=1,file+' overflow='+overflow);
     assert.deepEqual(errors,[],file+' JS');
     await page.screenshot({path:path.join(captures,file.replace('.html','')+'-'+width+'.png'),fullPage:false});
-    console.log(file+' '+width+'px : texte, écrit, 13 paragraphes, '+expectedFunctions+' fonctions, deux modes, largeur : OK');
+    console.log(file+' '+width+'px : texte, écrit, '+expectedParagraphs+' paragraphes, '+expectedFunctions+' fonctions, deux modes, largeur : OK');
     await page.close();
    }
    await context.close();
