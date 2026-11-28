@@ -100,8 +100,8 @@
       "auteur": "Montesquieu",
       "oeuvre": "De l’esprit des lois",
       "lieu": "Livre XI, chapitre VI, « De la constitution d’Angleterre »",
-      "edition": "De l’esprit des lois, 1748 ; texte de l’édition Garnier, 1777, livre XI, chap. VI.",
-      "verification": "Citation exacte, vérifiée dans le texte de l’édition Garnier 1777 et dans une transcription intégrale de l’édition de 1748.",
+      "edition": "Montesquieu, De l’esprit des lois, 1748, livre XI, chapitre VI, « De la constitution d’Angleterre ».",
+      "verification": "Citation exacte, vérifiée dans le texte intégral du livre XI, chapitre VI ; la phrase porte bien sur la séparation de la puissance de juger des deux autres pouvoirs.",
       "regime": "citation exacte",
       "fonction": "III.1 : préciser le principe de séparation des pouvoirs qui rend possible le contrôle de la loi ; la copie en tire ensuite sa propre conséquence pour la contestation citoyenne."
     }
@@ -280,5 +280,12 @@
         ]
       ]
     ]
+  ],
+  "source_checks": [
+    {
+      "claim": "Montesquieu affirme que la liberté politique suppose que la puissance de juger soit séparée des puissances législative et exécutrice.",
+      "source": "Montesquieu, De l’esprit des lois, 1748, livre XI, chapitre VI, « De la constitution d’Angleterre » ; transcription intégrale de la Maison des sciences de l’homme de Paris-Nanterre (MJP).",
+      "verification": "Le texte reproduit exactement la phrase citée et son développement immédiat : réunie au législatif, la puissance de juger rendrait arbitraire le pouvoir sur la vie et la liberté ; réunie à l’exécutif, elle ferait du juge un oppresseur."
+    }
   ]
 }
